@@ -1,4 +1,4 @@
-baseURL = "https://kross.netlify.com"
+baseURL = "https://jorap.netlify.com"
 languageCode = "en-us"
 title = "JoRap.com | Jonathan A. Rapusas"
 theme = "jorap"
@@ -29,22 +29,22 @@ assetDir = "content"
 
 # navigation
 [menu]
-    
+
   [[menu.main]]
   name = "About"
   URL = "about"
   weight = 2
-  
+
   [[menu.main]]
   name = "Blog"
   URL = "blog"
   weight = 3
-  
+
 #  [[menu.main]]
 #  name = "Portfolio"
 #  URL = "portfolio"
 #  weight = 4
-  
+
 #  [[menu.main]]
 #  name = "Contact"
 #  URL = "contact"
