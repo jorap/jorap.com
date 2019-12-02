@@ -55,10 +55,10 @@ assetDir = "content"
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "This is meta description"
+description = "The personal website of Jonathan A. Rapusas"
 author = "JoRap"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+# googleAnalitycsID = "Your ID"
 
   # Preloader
   [params.preloader]
@@ -69,6 +69,6 @@ googleAnalitycsID = "Your ID"
   formAction = "#" #contact form works with formspree.io
 
   [params.footer]
-  email = "steve.fruits@email.com"
-  phone = "+880 2544 658 256"
-  address = "125/A, CA Commercial Area, California, USA"
+# email = "steve.fruits@email.com"
+# phone = "+880 2544 658 256"
+# address = "125/A, CA Commercial Area, California, USA"
