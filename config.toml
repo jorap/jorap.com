@@ -9,8 +9,8 @@ assetDir = "content"
 [params.plugins]
 
   # CSS Plugins
-  [[params.plugins.css]]
-  URL = "plugins/bootstrap/bootstrap.min.css"
+#  [[params.plugins.css]]
+#  URL = "plugins/bootstrap/bootstrap.min.css"
   [[params.plugins.css]]
   URL = "plugins/slick/slick.css"
   [[params.plugins.css]]

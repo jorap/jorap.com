@@ -9,6 +9,11 @@
   {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{/* hugo.Generator */}}
 
+  {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" ) }}
+  {{ $sass := resources.Get "scss/bootstrap.scss" }}
+  {{ $style := $sass | resources.ToCSS $options }}
+  <link href="{{ $style.RelPermalink }}" rel="stylesheet">
+
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range .Site.Params.plugins.css }}
   <link rel="stylesheet" href="{{ .URL | absURL }} ">

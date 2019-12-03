@@ -12,6 +12,13 @@ VERSION: Versoin Number
   font-display: swap
 }
 
+@font-face {
+  font-family: SF Pro Display Regular;
+  src: url(../fonts/SF-Pro-Display-Regular.woff) format("woff");
+  font-style: normal;
+  font-display: swap
+}
+
 body {
   line-height: 1.2;
   font-family: roboto, sans-serif;
@@ -87,11 +94,10 @@ h6,
 
 .btn {
   font-size: 22px;
-  font-family: SF Pro Display Bold, serif;
-  text-transform: capitalize;
+  font-family: SF Pro Display Regular, serif;
   padding: 16px 44px;
   border-radius: 5px;
-  font-weight: 600;
+  font-weight: 500;
   border: 0;
   position: relative;
   z-index: 1;
@@ -437,8 +443,8 @@ textarea.form-control {
 }
 
 .navbar .nav-item .nav-link {
-  font-family: SF Pro Display Bold;
-  text-transform: uppercase;
+  font-family: SF Pro Display Regular;
+  font-size: 20px;
   padding: 15px
 }
 
