@@ -3,7 +3,7 @@
 PROJECT: Project Name
 VERSION: Versoin Number
 -------------------------------------------------------------------*/
-@import "https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400,500,700";
+@import "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700";
 
 @font-face {
   font-family: SF Pro Display Bold;
@@ -35,7 +35,7 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: montserrat, serif;
+  font-family: SF Pro Display Bold, serif;
   line-height: 1.2
 }
 
@@ -87,7 +87,7 @@ h6,
 
 .btn {
   font-size: 22px;
-  font-family: montserrat, serif;
+  font-family: SF Pro Display Bold, serif;
   text-transform: capitalize;
   padding: 16px 44px;
   border-radius: 5px;
@@ -328,7 +328,7 @@ a:hover {
 }
 
 .font-secondary {
-  font-family: montserrat, serif !important
+  font-family: SF Pro Display Bold, serif !important
 }
 
 .font-tertiary {
@@ -740,7 +740,7 @@ blockquote {
 }
 
 .content strong {
-  font-family: montserrat, serif;
+  font-family: SF Pro Display Bold, serif;
   font-size: 22px;
   font-weight: 400;
   color: #000;
