@@ -62,7 +62,7 @@ author = "JoRap"
 
   # Preloader
   [params.preloader]
-  enable = false
+  enable = true
 
   [params.contact]
   enable = false
