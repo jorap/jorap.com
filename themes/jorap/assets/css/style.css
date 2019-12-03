@@ -6,8 +6,8 @@ VERSION: Versoin Number
 @import "https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:300,400,500,700";
 
 @font-face {
-  font-family: bwnistaint-xbd;
-  src: url(../fonts/BwNistaInt-xBd.woff) format("woff");
+  font-family: SF-Pro-Display-Bold;
+  src: url(../fonts/SF-Pro-Display-Bold.woff) format("woff");
   font-style: normal;
   font-display: swap
 }
