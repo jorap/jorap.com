@@ -87,7 +87,7 @@ h6,
 
 .btn {
   font-size: 22px;
-  font-family: playfair display, serif;
+  font-family: montserrat, serif;
   text-transform: capitalize;
   padding: 16px 44px;
   border-radius: 5px;
@@ -219,7 +219,7 @@ a:hover {
 
 .section-title {
   margin-bottom: 50px;
-  font-family: bwnistaint-xbd
+  font-family: SF Pro Display Bold
 }
 
 .bg-cover {
@@ -328,11 +328,11 @@ a:hover {
 }
 
 .font-secondary {
-  font-family: playfair display, serif !important
+  font-family: montserrat, serif !important
 }
 
 .font-tertiary {
-  font-family: bwnistaint-xbd !important
+  font-family: SF Pro Display Bold !important
 }
 
 .shadow {
@@ -437,7 +437,7 @@ textarea.form-control {
 }
 
 .navbar .nav-item .nav-link {
-  font-family: bwnistaint-xbd;
+  font-family: SF Pro Display Bold;
   text-transform: uppercase;
   padding: 15px
 }
@@ -740,7 +740,7 @@ blockquote {
 }
 
 .content strong {
-  font-family: playfair display, serif;
+  font-family: montserrat, serif;
   font-size: 22px;
   font-weight: 400;
   color: #000;
