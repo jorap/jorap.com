@@ -1,8 +1,8 @@
 ---
-title: "Amazon increase income 1.5 Million 2019-05-12"
+title: "My Top 5 Reasons Why I Blog"
 date: 2019-05-12
 image: "blog/images/post-7.jpg"
-description: "This is meta description."
+description: "My Top 5 Reasons Why I Blog."
 author: "JoRap"
 type: "post"
 ---
@@ -13,6 +13,8 @@ ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate vel
 fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
 mollit anim id est laborum.
 
+<strong>#1. It is Fun!!!</strong>
+  
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
 dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
 ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
