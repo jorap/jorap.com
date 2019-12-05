@@ -1,5 +1,5 @@
 ---
-title: "Markdown Reference for HUGO CMS Users"
+title: "Markdown Reference for HUGO Static Site Generator"
 date: 2019-05-12
 image: "blog/images/post-1.jpg"
 description: "Markdown Reference for HUGO CMS Users."
