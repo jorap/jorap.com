@@ -1,5 +1,5 @@
 ---
-title: "Amazon increase income 1.5 Million 2019-05-12"
+title: "Markdown Reference"
 date: 2019-05-12
 image: "blog/images/post-1.jpg"
 description: "This is meta description."
@@ -7,41 +7,135 @@ author: "JoRap"
 type: "post"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-mollit anim id est laborum.
+[Basic Syntax](https://www.markdownguide.org/basic-syntax)  
+[Extended Syntax](https://www.markdownguide.org/extended-syntax)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.
+## Headers
+---
+**Markdown**
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
-labore et dolore magnam aliquam quaerat voluptatem.
+```
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
+```
 
-> Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+**Output**
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
-labore et dolore magnam aliquam quaerat voluptatem.
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
+##### Header 5
+###### Header 6
+
+## Emphasis
+---
+**Markdown**
+
+```
+*Italics (Emphasis)* uses 1 asterisk. Add 2 spaces at the end for a line break.  
+**Bold (Strong)** uses 2 asterisks. Add 2 spaces at the end for a line break.    
+***Bold (Strong) and Italics (Emphasis)*** uses 3 asterisks. Leave no space at the end for a new paragraph.
+
+_Italics (Emphasis)_ uses 1 underscore.  Add 2 spaces at the end for a line break.  
+__Bold (Strong)__ uses 2 underscores.  Add 2 spaces at the end for a line break.  
+___Bold (Strong) and Italics (Emphasis)___ uses 3 underscores. Leave no space at the end for a new paragraph.
+```
+
+**Output**
+
+*Italics (Emphasis)* uses 1 asterisk. Add 2 spaces at the end for a line break.  
+**Bold (Strong)** uses 2 asterisks. Add 2 spaces at the end for a line break.    
+***Bold (Strong) and Italics (Emphasis)*** uses 3 asterisks. Leave no space at the end for a new paragraph.
+
+_Italics (Emphasis)_ uses 1 underscore.  Add 2 spaces at the end for a line break.  
+__Bold (Strong)__ uses 2 underscores.  Add 2 spaces at the end for a line break.  
+___Bold (Strong) and Italics (Emphasis)___ uses 3 underscores. Leave no space at the end for a new paragraph.
+
+## Blockquotes
+---
+**Markdown**
+```
+> To create a blockquote, add a > in front of a paragraph.  
+> Blockquotes can contain multiple paragraphs.  
+> **Markdown**
+> 
+> Add a > on the blank lines between the paragraphs.
+> 
+>> Blockquotes can be nested.  
+>> Add a >> in front of the paragraph you want to nest.
+```
+
+**Output**
+
+> To create a blockquote, add a > in front of a paragraph.  
+> Blockquotes can contain multiple paragraphs.  
+> **Markdown**
+> 
+> Add a > on the blank lines between the paragraphs.
+> 
+>> Blockquotes can be nested.  
+>> Add a >> in front of the paragraph you want to nest.
+
+## Lists
+---
+**Markdown**
+```
+1. Ordered List
+2. Ordered List
+3. Ordered List
+
+- Unordered List
+- Unordered List
+- Unordered List
+
+1. Ordered List  
+    To add another element in a list while preserving the continuity of the list, indent the element **four spaces**
+  1. Add 2 spaces for 1st level sub items  
+      To add another element in a list while preserving the continuity of the list in the 1st level sub item, indent the element **six spaces**
+  1. Add 2 spaces for 1st level sub items
+  1. Add 2 spaces for 1st level sub items
+1. Ordered List
+  - Add 2 spaces for 1st level sub items
+  - Add 2 spaces for 1st level sub items
+  - Add 2 spaces for 1st level sub items
+1. Ordered List
+  1. Add 2 spaces for 1st level sub items
+  1. Add 2 spaces for 1st level sub items
+  1. Add 2 spaces for 1st level sub items
+```
+
+**Output**
+
+1. Ordered List
+2. Ordered List
+3. Ordered List
+
+- Unordered List
+- Unordered List
+- Unordered List
+
+1. Ordered List  
+    To add another element in a list while preserving the continuity of the list, indent the element **four spaces**
+  1. Add 2 spaces for 1st level sub items  
+      To add another element in a list while preserving the continuity of the list in the 1st level sub item, indent the element **six spaces**
+  1. Add 2 spaces for 1st level sub items
+  1. Add 2 spaces for 1st level sub items
+1. Ordered List
+  - Add 2 spaces for 1st level sub items
+  - Add 2 spaces for 1st level sub items
+  - Add 2 spaces for 1st level sub items
+1. Ordered List
+  1. Add 2 spaces for 1st level sub items
+  1. Add 2 spaces for 1st level sub items
+  1. Add 2 spaces for 1st level sub items
+
+## Section
+---
+**Markdown**
+
+**Output**
