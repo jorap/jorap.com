@@ -1,7 +1,7 @@
 ---
 title: "Markdown Reference for HUGO Framework"
 date: 2019-05-12
-image: "blog/images/post-1.jpg"
+image: "blog/images/markdown.jpg"
 description: "Markdown Reference for HUGO CMS Users."
 author: "JoRap"
 type: "post"
