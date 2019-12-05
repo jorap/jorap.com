@@ -19,9 +19,7 @@
 {{     $originalImg := resources.Get ($original) }}
 {{     if $originalImg  }}
 {{         $thumbnailImg := $originalImg.Fill "570x350 center" }}
-<a href="{{.Permalink}}">
 <img class="rounded card-img-top" src="{{ $thumbnailImg.RelPermalink | safeHTML }}" alt="post-thumb">
-</a>
 {{     end }}
 {{ end }}
 
