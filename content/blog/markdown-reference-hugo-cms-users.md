@@ -1,8 +1,8 @@
 ---
-title: "Markdown Reference"
+title: "Markdown Reference for HUGO CMS Users"
 date: 2019-05-12
 image: "blog/images/post-1.jpg"
-description: "This is meta description."
+description: "Markdown Reference for HUGO CMS Users."
 author: "JoRap"
 type: "post"
 ---
