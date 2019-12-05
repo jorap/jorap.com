@@ -12,18 +12,24 @@
   {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{/* hugo.Generator */}}
 
+
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
   {{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" ) }}
-  {{ $sass := resources.Get "scss/bootstrap.scss" }}
+  {{ $sass := resources.Get "scss/style.scss" }}
   {{ $style := $sass | resources.ToCSS $options }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
+
+{{/*
   {{ $styles := resources.Get "css/style.css" | minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
+*/}}
 
+  {{/*
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range .Site.Params.plugins.css }}
   <link rel="stylesheet" href="{{ .URL | absURL }} ">
   {{ end }}
+  */}}
 
   {{ "<!--Favicon-->" | safeHTML }}
   <link rel="shortcut icon" href="{{ "images/favicon.png" | absURL }} " type="image/x-icon">
