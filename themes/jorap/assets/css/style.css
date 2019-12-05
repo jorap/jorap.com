@@ -178,8 +178,10 @@ body {
 
 ol,
 ul {
+/*  
   list-style-type: none;
   margin: 0
+*/
 }
 
 img {
@@ -742,7 +744,9 @@ blockquote {
 }
 
 .content * {
+  /*
   margin-bottom: 20px
+  */
 }
 
 .content strong {
@@ -750,7 +754,6 @@ blockquote {
   font-size: 22px;
   font-weight: 400;
   color: #000;
-  display: inherit;
   line-height: 1.5
 }
 
