@@ -1,8 +1,8 @@
 ---
-title: "Top 4 Reasons to Create a Website"
+title: "Top 4 Reasons to Create and Maintain a Website"
 date: 2019-12-04
 image: "blog/images/website.png"
-description: "Social media provides some elements of publishing online, but there a four reasons why you need to create your own website."
+description: "Social media provides some elements of publishing online, but there a four reasons why you need to create and maintain your own website."
 author: "JoRap"
 type: "post"
 ---
