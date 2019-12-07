@@ -1,7 +1,7 @@
 ---
 title: "Top 3 Reasons to Still Own a Computer"
 date: 2019-05-09
-image: "blog/images/website.jpg"
+image: "blog/images/desktop.jpg"
 description: "Top 3 Reasons to Still Own a Computer."
 author: "JoRap"
 type: "post"
