@@ -1,7 +1,7 @@
 ---
 title: "Amazon increase income 1.5 Million 2019-05-10"
-date: 2019-05-10
-image: "blog/images/post-3.jpg"
+date: 1981-06-14
+image: ""
 description: "This is meta description."
 author: "JoRap"
 type: "post"

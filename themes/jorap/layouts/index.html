@@ -270,16 +270,21 @@
         <div class="col-lg-4 col-sm-6 mb-4">
           <article class="card shadow">
 
-{{ if .Params.Image }}
-{{     $original := .Params.Image }}
-{{     $originalImg := resources.Get ($original) }}
-{{     if $originalImg  }}
-{{         $thumbnailImg := $originalImg.Fill "570x350 Center" }}
-<a href="{{.Permalink}}">
-<img class="rounded card-img-top" src="{{ $thumbnailImg.RelPermalink | safeHTML }}" alt="post-thumb">
-</a>
-{{     end }}
+{{ $blog_image := newScratch }}
+{{ $blogImg := resources.Get ("blog/images/_blog.jpg") }}
+{{ if $blogImg }}
+  {{ $blog_image.Set "blog_image" ($blogImg.Fill "570x350 center") }}
 {{ end }}
+  
+
+{{ if ( .Params.Image ) and ( .Params.Image "!=" "") }}
+  {{ $original := .Params.Image }}
+  {{ $originalImg := resources.Get ($original) }}
+    {{ if $originalImg }}
+      {{ $blog_image.Set "blog_image" ($originalImg.Fill "570x350 center") }}
+    {{ end }}
+{{ end }}
+<img class="rounded card-img-top" src="{{ ($blog_image.Get "blog_image").RelPermalink | safeHTML }}" alt="post-thumb">
 
             <div class="card-body">
               <h4 class="card-title"><a class="text-dark" href="{{.Permalink}}">{{.Title }}</a>
