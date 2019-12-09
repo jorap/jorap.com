@@ -1,6 +1,6 @@
 ---
 title: "Amazon increase income 1.5 Million 2019-05-08"
-date: 1981-06-14
+date:
 image: ""
 description: "This is meta description."
 author: "JoRap"

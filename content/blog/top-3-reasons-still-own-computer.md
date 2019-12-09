@@ -7,11 +7,11 @@ author: "JoRap"
 type: "post"
 ---
 
-** 1. Serious Content Creation Requires a Computer **
+**1. Serious Content Creation Requires a Computer**
 
-** 2. Computer Applications are More Powerful on a Computer **
+**2. Computer Applications are More Powerful on a Computer**
 
-** 3. Much Easier to Repair and Upgrade **
+**3. Much Easier to Repair and Upgrade**
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
 et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
