@@ -37,24 +37,24 @@ type: "post"
 **Markdown**
 
 ```
-*Italics (Emphasis)* uses 1 asterisk. Add 2 spaces at the end for a line break.  
-**Bold (Strong)** uses 2 asterisks. Add 2 spaces at the end for a line break.    
-***Bold (Strong) and Italics (Emphasis)*** uses 3 asterisks. Leave no space at the end for a new paragraph.
+*Italics (Emphasis)* uses 1 asterisk. Add 2 spaces for a line break.  
+**Bold (Strong)** uses 2 asterisks. Add 2 spaces for a line break.    
+***Bold (Strong) and Italics (Emphasis)*** uses 3 asterisks. No spaces for a new paragraph.
 
-_Italics (Emphasis)_ uses 1 underscore.  Add 2 spaces at the end for a line break.  
-__Bold (Strong)__ uses 2 underscores.  Add 2 spaces at the end for a line break.  
-___Bold (Strong) and Italics (Emphasis)___ uses 3 underscores. Leave no space at the end for a new paragraph.
+_Italics (Emphasis)_ uses 1 underscore.  Add 2 spaces for a line break.  
+__Bold (Strong)__ uses 2 underscores.  Add 2 spaces for a line break.  
+___Bold (Strong) and Italics (Emphasis)___ uses 3 underscores. No spaces for a new paragraph.
 ```
 
 **Output**
 
-*Italics (Emphasis)* uses 1 asterisk. Add 2 spaces at the end for a line break.  
-**Bold (Strong)** uses 2 asterisks. Add 2 spaces at the end for a line break.    
-***Bold (Strong) and Italics (Emphasis)*** uses 3 asterisks. Leave no space at the end for a new paragraph.
+*Italics (Emphasis)* uses 1 asterisk. Add 2 spaces for a line break.  
+**Bold (Strong)** uses 2 asterisks. Add 2 spaces for a line break.    
+***Bold (Strong) and Italics (Emphasis)*** uses 3 asterisks. No spaces for a new paragraph.
 
-_Italics (Emphasis)_ uses 1 underscore.  Add 2 spaces at the end for a line break.  
-__Bold (Strong)__ uses 2 underscores.  Add 2 spaces at the end for a line break.  
-___Bold (Strong) and Italics (Emphasis)___ uses 3 underscores. Leave no space at the end for a new paragraph.
+_Italics (Emphasis)_ uses 1 underscore.  Add 2 spaces for a line break.  
+__Bold (Strong)__ uses 2 underscores.  Add 2 spaces for a line break.  
+___Bold (Strong) and Italics (Emphasis)___ uses 3 underscores. No spaces for a new paragraph.
 
 ## Blockquotes
 ---
@@ -94,19 +94,19 @@ ___Bold (Strong) and Italics (Emphasis)___ uses 3 underscores. Leave no space at
 - Unordered List
 
 1. Ordered List  
-    To add another element in a list while preserving the continuity of the list, indent the element **four spaces**
-  1. Add 2 spaces for 1st level sub items  
-      To add another element in a list while preserving the continuity of the list in the 1st level sub item, indent the element **six spaces**
-  1. Add 2 spaces for 1st level sub items
-  1. Add 2 spaces for 1st level sub items
+    Preserve the list by indent the element **four spaces**
+  - Add 2 spaces for 1st level sub items  
+      Preserve the list by indenting the element **six spaces**
+  - Add 2 spaces for 1st level sub items
+  - Add 2 spaces for 1st level sub items
+1. Ordered List
+  - Add 2 spaces for 1st level sub items
+  - Add 2 spaces for 1st level sub items
+  - Add 2 spaces for 1st level sub items
 1. Ordered List
   - Add 2 spaces for 1st level sub items
   - Add 2 spaces for 1st level sub items
   - Add 2 spaces for 1st level sub items
-1. Ordered List
-  1. Add 2 spaces for 1st level sub items
-  1. Add 2 spaces for 1st level sub items
-  1. Add 2 spaces for 1st level sub items
 ```
 
 **Output**
@@ -120,19 +120,19 @@ ___Bold (Strong) and Italics (Emphasis)___ uses 3 underscores. Leave no space at
 - Unordered List
 
 1. Ordered List  
-    To add another element in a list while preserving the continuity of the list, indent the element **four spaces**
-  1. Add 2 spaces for 1st level sub items  
-      To add another element in a list while preserving the continuity of the list in the 1st level sub item, indent the element **six spaces**
-  1. Add 2 spaces for 1st level sub items
-  1. Add 2 spaces for 1st level sub items
+    Preserve the list by indent the element **four spaces**
+  - Add 2 spaces for 1st level sub items  
+      Preserve the list by indenting the element **six spaces**
+  - Add 2 spaces for 1st level sub items
+  - Add 2 spaces for 1st level sub items
+1. Ordered List
+  - Add 2 spaces for 1st level sub items
+  - Add 2 spaces for 1st level sub items
+  - Add 2 spaces for 1st level sub items
 1. Ordered List
   - Add 2 spaces for 1st level sub items
   - Add 2 spaces for 1st level sub items
   - Add 2 spaces for 1st level sub items
-1. Ordered List
-  1. Add 2 spaces for 1st level sub items
-  1. Add 2 spaces for 1st level sub items
-  1. Add 2 spaces for 1st level sub items
 
 ## Section
 ---
