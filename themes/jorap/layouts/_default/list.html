@@ -13,7 +13,7 @@
 {{ $blog_image := newScratch }}
 {{ $blogImg := resources.Get ("blog/images/_blog.jpg") }}
 {{ if $blogImg }}
-  {{ $blog_image.Set "blog_image" ($blogImg.Fill "570x350 center") }}
+  {{ $blog_image.Set "blog_image" ($blogImg.Fill "570x350 center MitchellNetravali q95") }}
 {{ end }}
   
 
@@ -21,7 +21,7 @@
   {{ $original := .Params.Image }}
   {{ $originalImg := resources.Get ($original) }}
     {{ if $originalImg }}
-      {{ $blog_image.Set "blog_image" ($originalImg.Fill "570x350 center") }}
+      {{ $blog_image.Set "blog_image" ($originalImg.Fill "570x350 center MitchellNetravali q95") }}
     {{ end }}
 {{ end }}
 <img class="rounded card-img-top" src="{{ ($blog_image.Get "blog_image").RelPermalink | safeHTML }}" alt="post-thumb">
