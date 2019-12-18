@@ -14,7 +14,7 @@ type: "post"
 ---
 **Markdown**
 
-```
+```markdown
 # Header 1
 ## Header 2
 ### Header 3
@@ -36,7 +36,7 @@ type: "post"
 ---
 **Markdown**
 
-```
+```markdown
 *Italics (Emphasis)* uses 1 asterisk. Add 2 spaces for a line break.  
 **Bold (Strong)** uses 2 asterisks. Add 2 spaces for a line break.    
 ***Bold (Strong) and Italics (Emphasis)*** uses 3 asterisks. No spaces for a new paragraph.
@@ -59,7 +59,7 @@ ___Bold (Strong) and Italics (Emphasis)___ uses 3 underscores. No spaces for a n
 ## Blockquotes
 ---
 **Markdown**
-```
+```markdown
 > To create a blockquote, add a > in front of a paragraph.  
 > Blockquotes can contain multiple paragraphs.  
 > **Markdown**
@@ -84,7 +84,7 @@ ___Bold (Strong) and Italics (Emphasis)___ uses 3 underscores. No spaces for a n
 ## Lists
 ---
 **Markdown**
-```
+```markdown
 1. Ordered List
 2. Ordered List
 3. Ordered List
@@ -93,20 +93,17 @@ ___Bold (Strong) and Italics (Emphasis)___ uses 3 underscores. No spaces for a n
 - Unordered List
 - Unordered List
 
-1. Ordered List  
+1. Ordered List
+   - Add 3 spaces for 1st level sub items
+   - Add 3 spaces for 1st level sub items
+1. Ordered List
+   - Add 3 spaces for 1st level sub items
+   - Add 3 spaces for 1st level sub items
+1. Ordered List
     Preserve the list by indent the element **four spaces**
-  - Add 2 spaces for 1st level sub items  
+   - Add 3 spaces for 1st level sub items
       Preserve the list by indenting the element **six spaces**
-  - Add 2 spaces for 1st level sub items
-  - Add 2 spaces for 1st level sub items
-1. Ordered List
-  - Add 2 spaces for 1st level sub items
-  - Add 2 spaces for 1st level sub items
-  - Add 2 spaces for 1st level sub items
-1. Ordered List
-  - Add 2 spaces for 1st level sub items
-  - Add 2 spaces for 1st level sub items
-  - Add 2 spaces for 1st level sub items
+   - Add 3 spaces for 1st level sub items
 ```
 
 **Output**
@@ -119,20 +116,17 @@ ___Bold (Strong) and Italics (Emphasis)___ uses 3 underscores. No spaces for a n
 - Unordered List
 - Unordered List
 
-1. Ordered List  
+1. Ordered List
+   - Add 3 spaces for 1st level sub items
+   - Add 3 spaces for 1st level sub items
+1. Ordered List
+   - Add 3 spaces for 1st level sub items
+   - Add 3 spaces for 1st level sub items
+1. Ordered List
     Preserve the list by indent the element **four spaces**
-  - Add 2 spaces for 1st level sub items  
+   - Add 3 spaces for 1st level sub items
       Preserve the list by indenting the element **six spaces**
-  - Add 2 spaces for 1st level sub items
-  - Add 2 spaces for 1st level sub items
-1. Ordered List
-  - Add 2 spaces for 1st level sub items
-  - Add 2 spaces for 1st level sub items
-  - Add 2 spaces for 1st level sub items
-1. Ordered List
-  - Add 2 spaces for 1st level sub items
-  - Add 2 spaces for 1st level sub items
-  - Add 2 spaces for 1st level sub items
+   - Add 3 spaces for 1st level sub items
 
 ## Section
 ---
