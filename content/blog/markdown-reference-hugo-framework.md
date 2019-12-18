@@ -99,9 +99,9 @@ ___Bold (Strong) and Italics (Emphasis)___ uses 3 underscores. No spaces for a n
 1. Ordered List
    - Add 3 spaces for 1st level sub items
    - Add 3 spaces for 1st level sub items
-1. Ordered List. Add 2 spaces for a line break.  
+1. Ordered List  
     Preserve the list by indent the element **four spaces**
-   - Add 3 spaces for 1st level sub items. Add 2 spaces for a line break.  
+   - Add 3 spaces for 1st level sub items  
       Preserve the list by indenting the element **six spaces**
    - Add 3 spaces for 1st level sub items
 ```
@@ -122,9 +122,9 @@ ___Bold (Strong) and Italics (Emphasis)___ uses 3 underscores. No spaces for a n
 1. Ordered List
    - Add 3 spaces for 1st level sub items
    - Add 3 spaces for 1st level sub items
-1. Ordered List
+1. Ordered List. Add 2 spaces for a line break.  
     Preserve the list by indent the element **four spaces**
-   - Add 3 spaces for 1st level sub items
+   - Add 3 spaces for 1st level sub items. Add 2 spaces for a line break.  
       Preserve the list by indenting the element **six spaces**
    - Add 3 spaces for 1st level sub items
 
