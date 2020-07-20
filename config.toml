@@ -1,4 +1,4 @@
-baseURL = "https://jorap.netlify.com"
+baseURL = "https://jorap.netlify.app"
 languageCode = "en-us"
 title = "JoRap.com | Jonathan A. Rapusas"
 theme = "jorap"
