@@ -1791,11 +1791,6 @@ body:has(#menu-controller:checked) {
   margin-right: 0.25rem;
 }
 
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -2480,10 +2475,6 @@ body:has(#menu-controller:checked) {
 
 .leading-7 {
   line-height: 1.75rem;
-}
-
-.leading-loose {
-  line-height: 2;
 }
 
 .\!text-neutral {
