@@ -37,7 +37,7 @@ If you want to add custom content to this page, you simply need to create a `con
 
 ```yaml
 ---
-title: "Welcome to Congo!"
+title: "Welcome to JoRap's World!"
 description: "This is a demo of adding content to the homepage."
 ---
 Welcome to my website! I'm really happy you stopped by.

@@ -2,8 +2,8 @@ languageCode = "en-us"
 languageName = "English"
 weight = 1
 
-title = "Congo Test"
-copyright = "&copy; 2023 Congo Test"
+title = "JoRap's World"
+copyright = "&copy; 2023 Jon Rapusas"
 
 [params]
   isoCode = "en-US"
@@ -16,7 +16,7 @@ copyright = "&copy; 2023 Congo Test"
   description = "A powerful, lightweight theme for Hugo built with Tailwind CSS."
 
 [author]
-  name = "Congo Test"
+  name = "JoRap"
   image = "img/author.jpg"
   headline = "Not your ordinary theme!"
   bio = "This is an example author bio, and although there's a stock photo of a dog here, this article was actually created by a human. :dog:"
