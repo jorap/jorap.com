@@ -1,12 +1,16 @@
-name = "JoRap 2020"
+# Congo theme for Hugo
+
+name = "jorap"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = "Hugo port of the Themefisher’s Kross Template"
-homepage = "https://themefisher.com/best-hugo-themes/"
-tags = ['landing-page', 'fast', 'light', 'white', 'modern', 'themefisher', 'hugo-theme', 'hugo-templates', 'bootstrap', 'blog', 'responsive', 'clean', 'simple', 'creative', 'contact-form', 'custom-themes', 'mobile', 'minimalistic', 'pages', 'resume', 'portfolio', 'google analytics', 'customizable', 'flexbox', 'presentation', 'product', 'theme', 'typography']
-features = ['bootstrap','responsive']
-min_version = "0.58.0"
+licenselink = "https://github.com/jpanther/congo/blob/master/LICENSE"
+description = "A powerful, lightweight theme for Hugo built with Tailwind CSS."
+
+homepage = "https://github.com/jpanther/congo/"
+demosite = "https://jpanther.github.io/congo/"
+
+tags = ["blog", "minimal", "responsive", "dark mode", "dark", "light", "tailwind", "personal"]
+features = ["syntax higlighting", "dark mode", "emoji"]
 
 [author]
-  name = "Themefisher"
-  homepage = "https://themefisher.com/"
+  name = "Congo Test"
+  homepage = "https://jorapdotcom.pages.dev/"
