@@ -1,5 +1,5 @@
 ---
-title: Shortcodes
+title: shortcodes
 ---
 
 This is the Shortcodes tag. Just like other listing pages in Congo, you can add custom content to individual taxonomy terms and it will be displayed at the top of the term listing. :rocket:
