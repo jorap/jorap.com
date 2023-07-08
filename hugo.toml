@@ -1,4 +1,4 @@
 baseURL = 'https://jorapdotcom.pages.dev/'
 languageCode = 'en-us'
-title = "JoRap's World"
+title = "www.jorap.com"
 disableHugoGeneratorInject = 'true'

@@ -1,6 +1,18 @@
 ---
-title: "Blog"
-date: 2019-05-12T12:14:34+06:00
-description: "This is meta description."
+title: "JoRap's Blog"
+description: "See what's possible with Congo."
+
+cascade:
+  showEdit: false
+  showSummary: true
 ---
-Blog Text
+
+{{< lead >}}
+Congo brings your content to life.
+{{< /lead >}}
+
+This section contains some demo pages that show how Congo renders different types of content. You can also see an example [taxonomy listing]({{< ref "tags" >}}) page.
+
+_**Sidenote:** This page is just a standard Congo article listing and Hugo has been configured to generate a `samples` content type and display article summaries._
+
+---
