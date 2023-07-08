@@ -1968,8 +1968,8 @@ body:has(#menu-controller:checked) {
   height: 100vh;
 }
 
-.max-h-\[10rem\] {
-  max-height: 10rem;
+.max-h-\[2rem\] {
+  max-height: 2rem;
 }
 
 .max-h-\[4\.5rem\] {
@@ -2028,8 +2028,8 @@ body:has(#menu-controller:checked) {
   max-width: 80rem;
 }
 
-.max-w-\[10rem\] {
-  max-width: 10rem;
+.max-w-\[2rem\] {
+  max-width: 2rem;
 }
 
 .max-w-\[6rem\] {
