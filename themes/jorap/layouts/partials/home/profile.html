@@ -3,27 +3,20 @@
     h-full
   {{ end }} flex flex-col items-center justify-center text-center"
 >
-  <header class="flex flex-col items-center mb-3">
-    {{ with .Site.Author.image }}
+  <header class="mb-3 flex flex-col items-center">
+    {{ $lazy := .Params.enableImageLazyLoading | default .Site.Params.enableImageLazyLoading | default true }}
+    {{ $altText := ($.Site.Language.Params.Author.name | default "Author") }}
+    {{ with .Site.Language.Params.Author.image }}
       {{ $authorImage := resources.Get . }}
       {{ if $authorImage }}
-        {{ $authorImage := $authorImage.Fit "288x288 Center q80" }}
-        <img
-          class="mb-2 rounded-full h-36 w-36"
-          width="144"
-          height="144"
-          alt="{{ $.Site.Author.name | default "Author" }}"
-          src="{{ $authorImage.RelPermalink }}"
-          {{ if $.Site.Params.enableImageLazyLoading | default true }}
-            loading="lazy"
-          {{ end }}
-        />
+        {{ $imgClass := "mb-2 h-auto w-36 rounded-full" }}
+        {{ partial "picture.html" (dict "img" $authorImage "alt" $altText "class" $imgClass "lazy" $lazy) }}
       {{ end }}
     {{ end }}
     <h1 class="text-4xl font-extrabold">
-      {{ .Site.Author.name | default .Site.Title }}
+      {{ .Site.Language.Params.Author.name | default .Site.Title }}
     </h1>
-    {{ with .Site.Author.headline }}
+    {{ with .Site.Language.Params.Author.headline }}
       <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
         {{ . | markdownify | emojify }}
       </h2>
