@@ -6,11 +6,11 @@ description: this is meta description
 social:
   - name: github
     icon: fa-brands fa-github
-    link: https://github.com
+    link: https://github.com/jorap/
 
   - name: twitter
     icon: fa-brands fa-twitter
-    link: https://twitter.com
+    link: https://twitter.com/jorap
 
   - name: linkedin
     icon: fa-brands fa-linkedin
