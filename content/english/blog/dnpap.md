@@ -3,7 +3,7 @@ title: "DNPAP"
 meta_title: ""
 description: "DNPAP"
 date: 2022-04-04T05:00:00Z
-image: "/images/feature-desktop.jpg"
+image: "/images/feature-dnpap.jpg"
 categories: ["Application", "Data"]
 author: "John Doe"
 tags: ["DNPAP", "Spotify", "YouTube", "Destiny Music"]
