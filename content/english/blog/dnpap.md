@@ -6,19 +6,22 @@ date: 2022-04-04T05:00:00Z
 image: "/images/feature-desktop.jpg"
 categories: ["Application", "Data"]
 author: "John Doe"
-tags: ["dnpap", "spotify", "youtube", "destiny music"]
+tags: ["DNPAP", "Spotify", "YouTube", "Destiny Music"]
 draft: false
 ---
 
-https://open.spotify.com/artist/12t16fNXKGzNRO5p81Xvyo
-
 ## Destiny Music
+[Spotify](https://open.spotify.com/artist/12t16fNXKGzNRO5p81Xvyo)
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/12t16fNXKGzNRO5p81Xvyo?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ## DNPAP
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/12t16fNXKGzNRO5p81Xvyo?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5ikuIeKWiuCKMxvu5gloyl?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+## DNPAP - Live
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3OAGH2cFDbtgiO8yePaWDB?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ## DNPAP Music Video
 
