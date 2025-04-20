@@ -37,7 +37,8 @@
               {{ time.Format ":date_long" .PublishDate }}
             </li>
           </ul>
-          <div class="content mb-10">
+          <div
+            class="content mb-10 [&>h1]:scroll-mt-[120px] [&>h2]:scroll-mt-[120px] [&>h3]:scroll-mt-[120px] [&>h4]:scroll-mt-[120px] [&>h5]:scroll-mt-[120px] [&>h6]:scroll-mt-[120px] [&>h1]:relative [&>h2]:relative [&>h3]:relative [&>h4]:relative [&>h5]:relative [&>h6]:relative">
             {{ .Content }}
           </div>
           <!-- comments -->
@@ -79,7 +80,12 @@
           <!-- Sticky TOC -->
           {{ if ne .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
           <div class="toc-wrapper order-2 sticky top-[100px]">
-            {{ partial "toc.html" (dict "Class" "blog" "Collapsed" false "TableOfContents" .TableOfContents ) }}
+            <div
+              class="table-of-content [&_a]:block [&_a]:py-[5px] [&_a]:no-underline [&_a]:transition-colors [&_a]:duration-300 [&_a]:relative [&_a.active]:text-primary [&_a.active]:font-medium [&_a:hover]:text-primary"
+              data-header-offset="100">
+              <h5 class="mb-3">{{ T "table_of_contents" | default "Table of Contents" }}</h5>
+              {{ .TableOfContents }}
+            </div>
           </div>
           {{ end }}
         </div>
@@ -103,4 +109,112 @@
     {{ end }}
   </div>
 </section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Apply styles that can't be done with Tailwind directly
+    document.documentElement.style.scrollBehavior = 'smooth';
+    document.documentElement.style.height = '100%';
+    document.documentElement.style.overflowY = 'scroll';
+    document.body.style.overflowAnchor = 'none';
+
+    // Get all links in the table of contents
+    const tocLinks = document.querySelectorAll('.table-of-content a');
+    let isScrolling = false;
+
+    // Add click event listeners to each link
+    tocLinks.forEach(link => {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        // Prevent multiple clicks during scrolling
+        if (isScrolling) return;
+        isScrolling = true;
+
+        // Mark this link as active
+        tocLinks.forEach(l => l.classList.remove('active'));
+        this.classList.add('active');
+
+        // Get the target element from the href attribute
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+          // Get header offset from data attribute
+          const tocContainer = document.querySelector('.table-of-content');
+          const headerOffset = tocContainer ? parseInt(tocContainer.dataset.headerOffset || 100) : 100;
+
+          // Wait for any layout changes to finish
+          setTimeout(() => {
+            // Use requestAnimationFrame for smoother scrolling
+            requestAnimationFrame(() => {
+              // Calculate the element's position and scroll with offset
+              const elementPosition = targetElement.getBoundingClientRect().top;
+              const offsetPosition = window.pageYOffset + elementPosition - headerOffset;
+
+              // Smooth scroll to the element
+              document.documentElement.style.scrollBehavior = 'auto';
+              window.scrollTo(0, offsetPosition);
+              setTimeout(() => document.documentElement.style.scrollBehavior = 'smooth', 50);
+
+              // Reset scrolling flag after animation completes
+              setTimeout(() => {
+                isScrolling = false;
+              }, 500);
+            });
+          }, 10);
+        }
+      });
+    });
+
+    // Highlight active TOC item on scroll
+    const headings = document.querySelectorAll('.content h1, .content h2, .content h3, .content h4, .content h5, .content h6');
+
+    // Use a throttled scroll handler to reduce jank
+    let ticking = false;
+    window.addEventListener('scroll', function () {
+      if (!ticking && !isScrolling) {
+        window.requestAnimationFrame(function () {
+          highlightActiveTocItem();
+          ticking = false;
+        });
+        ticking = true;
+      }
+    });
+
+    function highlightActiveTocItem() {
+      // Find the current visible heading
+      let currentHeading = null;
+      const headerOffset = 150; // Slightly larger than scroll-margin for better detection
+
+      headings.forEach(heading => {
+        const rect = heading.getBoundingClientRect();
+        if (rect.top <= headerOffset) {
+          currentHeading = heading;
+        }
+      });
+
+      if (currentHeading) {
+        // Remove active class from all links
+        tocLinks.forEach(link => link.classList.remove('active'));
+
+        // Find and highlight the corresponding TOC link
+        const id = currentHeading.id;
+        const correspondingLink = document.querySelector(`.table-of-content a[href="#${id}"]`);
+        if (correspondingLink) {
+          correspondingLink.classList.add('active');
+        }
+      }
+    }
+
+    // Call once on load to set initial active state
+    setTimeout(highlightActiveTocItem, 100);
+
+    // Prevent jiggling by adding will-change property to headings
+    headings.forEach(heading => {
+      heading.style.willChange = 'scroll-position';
+    });
+  });
+</script>
+
 {{ end }}
