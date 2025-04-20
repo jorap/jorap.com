@@ -52,3 +52,9 @@
 .image--partial {
   @apply w-full rounded aspect-video object-cover;
 }
+
+.toc-links a {
+  @apply transition-all duration-200 ease-in-out;
+}
+
+

@@ -46,7 +46,7 @@
               <i class="fa-solid fa-chevron-down transition-transform duration-300" id="toc-chevron"></i>
             </div>
             <div class="mobile-toc-content hidden mt-4">
-              <div class="table-of-content">
+              <div class="table-of-content toc-links">
                 {{ .TableOfContents }}
               </div>
             </div>
@@ -69,7 +69,7 @@
           <!-- Desktop TOC - hidden on mobile -->
           {{ if ne .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
           <div class="toc-wrapper hidden lg:block sticky top-[100px] z-10 bg-body dark:bg-darkmode-body">
-            <div class="table-of-content">
+            <div class="table-of-content toc-links">
               <h5 class="mb-3">{{ T "table_of_contents" | default "Table of Contents" }}</h5>
               {{ .TableOfContents }}
             </div>
@@ -124,9 +124,6 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    // Simple smooth scrolling for TOC links
-    document.documentElement.style.scrollBehavior = 'smooth';
-
     // Mobile TOC toggle functionality
     const mobileTocToggle = document.getElementById('mobile-toc-toggle');
     const mobileTocContent = document.querySelector('.mobile-toc-content');
@@ -139,101 +136,138 @@
       });
     }
 
-    // TOC link handling and highlighting
+    // Get all TOC links
     const tocLinks = document.querySelectorAll('.table-of-content a');
+    if (tocLinks.length === 0) return;
 
-    // Map to store heading elements that TOC links point to
-    const headingElements = {};
-
-    // Setup click handlers and collect headings
+    // Ensure all links have the transition class
     tocLinks.forEach(link => {
-      // Extract the ID from the href
+      // Add the transition classes if not already added by the style block
+      if (!link.classList.contains('transition-all')) {
+        link.classList.add('transition-all', 'duration-200', 'ease-in-out');
+      }
+    });
+
+    // Get content area and all headings with IDs
+    const content = document.querySelector('.content');
+    if (!content) return;
+
+    // Find all headings in the content
+    const headings = Array.from(content.querySelectorAll('h1, h2, h3, h4, h5, h6'))
+      .filter(heading => heading.id);
+
+    if (headings.length === 0) return;
+
+    // Map from heading ID to corresponding TOC link
+    const headingToLink = {};
+
+    // Setup click handlers for TOC links
+    tocLinks.forEach(link => {
       const href = link.getAttribute('href');
       if (!href || !href.startsWith('#')) return;
 
       const headingId = href.substring(1);
-      const headingElement = document.getElementById(headingId);
+      headingToLink[headingId] = link;
 
-      if (headingElement) {
-        // Store reference to this heading
-        headingElements[headingId] = {
-          element: headingElement,
-          link: link
-        };
-      }
-
-      // Click handler for smooth scrolling
+      // Add click event to each TOC link for styling and smooth scrolling
       link.addEventListener('click', function (e) {
         e.preventDefault();
 
-        const targetId = this.getAttribute('href').substring(1);
+        // Remove bold from all links
+        tocLinks.forEach(l => l.classList.remove('font-bold'));
+
+        // Make this link bold
+        this.classList.add('font-bold');
+
+        // Get the target element
+        const targetId = headingId;
         const targetElement = document.getElementById(targetId);
 
         if (targetElement) {
-          // Add a small offset for better visibility
-          const offset = 100;
-
           // On mobile, close the TOC after clicking a link
           if (window.innerWidth < 1024 && mobileTocContent) {
             mobileTocContent.classList.add('hidden');
             if (tocChevron) tocChevron.classList.remove('rotate-180');
           }
 
-          // Scroll to the target
-          const elementPosition = targetElement.getBoundingClientRect().top;
-          const offsetPosition = window.pageYOffset + elementPosition - offset;
-
+          // Scroll to the target with offset
+          const offset = 100;
           window.scrollTo({
-            top: offsetPosition,
+            top: targetElement.offsetTop - offset,
             behavior: 'smooth'
           });
         }
       });
     });
 
-    // If we don't have any headings, don't continue
-    if (Object.keys(headingElements).length === 0) return;
+    // Function to highlight the TOC link for the heading in view
+    function highlightTocOnScroll() {
+      // Current scroll position and viewport height
+      const scrollTop = window.scrollY;
+      const viewportHeight = window.innerHeight;
+      const viewportBottom = scrollTop + viewportHeight;
 
-    // Setup Intersection Observer to detect which heading is in view
-    const observerOptions = {
-      rootMargin: '-100px 0px -80% 0px', // Adjust these values as needed
-      threshold: 0
-    };
+      // Find heading that is fully visible in the viewport
+      let activeHeading = null;
 
-    const observerCallback = (entries) => {
-      // Get all entries that are intersecting (visible)
-      const visibleHeadings = entries
-        .filter(entry => entry.isIntersecting)
-        .map(entry => entry.target);
+      for (const heading of headings) {
+        const headingTop = heading.offsetTop;
+        const headingBottom = headingTop + heading.offsetHeight;
 
-      if (visibleHeadings.length === 0) return;
-
-      // Clear all active links
-      tocLinks.forEach(link => link.classList.remove('font-bold'));
-
-      // Find the first visible heading and highlight its TOC link
-      for (const heading of visibleHeadings) {
-        const id = heading.getAttribute('id');
-        if (id && headingElements[id]) {
-          headingElements[id].link.classList.add('font-bold');
-          // Only highlight the first visible heading
-          break;
+        // Check if heading is fully in viewport (with some margin)
+        // The heading top must be below the top of the viewport (plus a small buffer)
+        // AND the heading bottom must be above the bottom of the viewport
+        if (headingTop >= scrollTop + 100 && headingBottom <= viewportBottom) {
+          activeHeading = heading;
+          break; // We found a fully visible heading, no need to check others
         }
       }
-    };
 
-    const observer = new IntersectionObserver(observerCallback, observerOptions);
+      // If no heading is fully visible, find one that's partially visible
+      if (!activeHeading) {
+        for (const heading of headings) {
+          const headingTop = heading.offsetTop;
+          const headingBottom = headingTop + heading.offsetHeight;
 
-    // Observe all heading elements
-    Object.values(headingElements).forEach(item => {
-      observer.observe(item.element);
-    });
+          // Check if heading is at least partially in viewport
+          if ((headingTop >= scrollTop && headingTop <= viewportBottom) ||
+            (headingBottom >= scrollTop && headingBottom <= viewportBottom) ||
+            (headingTop <= scrollTop && headingBottom >= viewportBottom)) {
+            activeHeading = heading;
+            break;
+          }
+        }
+      }
 
-    // Handle initial state - highlight the first TOC link
-    if (Object.keys(headingElements).length > 0) {
-      const firstHeadingId = Object.keys(headingElements)[0];
-      headingElements[firstHeadingId].link.classList.add('font-bold');
+      // If still no heading is visible but we're at the top of the page,
+      // use the first heading
+      if (!activeHeading && scrollTop < headings[0].offsetTop) {
+        activeHeading = headings[0];
+      }
+
+      // Special case for the bottom of the page - use the last heading
+      if (viewportBottom >= document.body.offsetHeight - 100) {
+        activeHeading = headings[headings.length - 1];
+      }
+
+      // If we found an active heading
+      if (activeHeading) {
+        // Remove highlighting from all TOC links
+        tocLinks.forEach(link => link.classList.remove('font-bold'));
+
+        // Highlight the TOC link corresponding to the active heading
+        const activeLink = headingToLink[activeHeading.id];
+        if (activeLink) {
+          activeLink.classList.add('font-bold');
+        }
+      }
     }
+
+    // Update TOC highlighting when scrolling
+    window.addEventListener('scroll', highlightTocOnScroll);
+
+    // Initial highlighting
+    highlightTocOnScroll();
   });
 </script>
 
