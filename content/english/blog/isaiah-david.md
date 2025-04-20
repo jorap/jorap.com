@@ -6,7 +6,7 @@ date: 2022-04-04T05:00:00Z
 image: "/images/feature-isaiah-david.jpg"
 categories: ["Website"]
 author: "John Doe"
-tags: ["internet", "website"]
+tags: ["Internet", "Website"]
 draft: false
 ---
 

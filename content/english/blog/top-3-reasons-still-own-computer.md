@@ -6,7 +6,7 @@ date: 2022-04-04T05:00:00Z
 image: "/images/feature-desktop.jpg"
 categories: ["Application", "Data"]
 author: "John Doe"
-tags: ["nextjs", "tailwind"]
+tags: ["NextJS", "Tailwind"]
 draft: false
 ---
 
