@@ -7,7 +7,7 @@
           {{ $image:= .Params.image }}
           {{ if $image }}
           <div class="mb-10">
-            {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "w-full rounded aspect-video object-cover") }}
+            {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "image--partial") }}
           </div>
           {{ end }}
           <h1 class="h2 mb-4">
@@ -37,7 +37,7 @@
               {{ time.Format ":date_long" .PublishDate }}
             </li>
           </ul>
-          
+
           <!-- Mobile TOC - appears after meta but before content -->
           {{ if ne .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
           <div class="toc-wrapper border rounded p-4 relative z-10 mb-6 lg:hidden">
@@ -54,7 +54,7 @@
             </div>
           </div>
           {{ end }}
-          
+
           <div
             class="content mb-10 [&>h1]:scroll-mt-[120px] [&>h2]:scroll-mt-[120px] [&>h3]:scroll-mt-[120px] [&>h4]:scroll-mt-[120px] [&>h5]:scroll-mt-[120px] [&>h6]:scroll-mt-[120px] [&>h1]:relative [&>h2]:relative [&>h3]:relative [&>h4]:relative [&>h5]:relative [&>h6]:relative">
             {{ .Content }}
@@ -139,9 +139,9 @@
     const mobileTocToggle = document.getElementById('mobile-toc-toggle');
     const mobileTocContent = document.querySelector('.mobile-toc-content');
     const tocChevron = document.getElementById('toc-chevron');
-    
+
     if (mobileTocToggle && mobileTocContent && tocChevron) {
-      mobileTocToggle.addEventListener('click', function() {
+      mobileTocToggle.addEventListener('click', function () {
         mobileTocContent.classList.toggle('hidden');
         tocChevron.classList.toggle('rotate-180');
       });

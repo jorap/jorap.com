@@ -48,3 +48,7 @@
 .content .btn {
   @apply dark:hover:text-text-dark no-underline hover:!text-white;
 }
+
+.image--partial {
+  @apply w-full rounded aspect-video object-cover;
+}
