@@ -4,6 +4,7 @@
             <!-- blog posts -->
             <div class="lg:col-12">
                 <div class="row">
+                    <h2 class="text-center text-5xl font-bold mb-10">Latest Blog Posts</h2>
                     {{ $blogPages := where site.RegularPages "Section" "blog" }}
                     {{ $paginator := .Paginate $blogPages }}
                     {{ range $paginator.Pages }}

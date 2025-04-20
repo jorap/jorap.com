@@ -1,5 +1,5 @@
 {{ range $i, $e:= .Params.features }}
-<section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }} section--features">
+<section class="section {{ if (modBool $i 2) }}bg-gradient{{ end }} section--features">
   <div class="container">
     <div class="row items-center justify-between">
       <div class="mb:md-0 {{ if not (modBool $i 2) }}
