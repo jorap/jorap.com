@@ -9,15 +9,6 @@ author: "John Doe"
 tags: ["Internet", "Website"]
 draft: false
 ---
-
-## GMA News Online
-
-https://www.gmanetwork.com/news/specials/content/155/the-miracle-on-may-8/
-
-## Smart Parenting PH
-
-https://www.smartparenting.com.ph/pregnancy/labor-and-childbirth/cryptic-pregnancy-rapusas-family-a00228-20200605-lfrm
-
 ## GMA - 24 Oras
 
 {{< youtube TkDRQJYvsks >}}
@@ -38,6 +29,7 @@ https://www.smartparenting.com.ph/pregnancy/labor-and-childbirth/cryptic-pregnan
 
 {{< youtube_time id="iZBZGd8V604" start="3865" end="4925">}}
 
-## Facebook Video
-
-https://www.facebook.com/watch/?v=325783961750143
+## Other Links
+- [Facebook Video](https://www.facebook.com/watch/?v=325783961750143)
+- [GMA News Online](https://www.gmanetwork.com/news/specials/content/155/the-miracle-on-may-8/)
+- [Smart Parenting](https://www.smartparenting.com.ph/pregnancy/labor-and-childbirth/cryptic-pregnancy-rapusas-family-a00228-20200605-lfrm)

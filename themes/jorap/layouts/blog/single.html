@@ -37,6 +37,24 @@
               {{ time.Format ":date_long" .PublishDate }}
             </li>
           </ul>
+          
+          <!-- Mobile TOC - appears after meta but before content -->
+          {{ if ne .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
+          <div class="toc-wrapper border rounded p-4 relative z-10 mb-6 lg:hidden">
+            <div class="flex justify-between items-center cursor-pointer" id="mobile-toc-toggle">
+              <h5 class="mb-0">{{ T "table_of_contents" | default "Table of Contents" }}</h5>
+              <i class="fa-solid fa-chevron-down transition-transform duration-300" id="toc-chevron"></i>
+            </div>
+            <div class="mobile-toc-content hidden mt-4">
+              <div
+                class="table-of-content [&_a]:block [&_a]:py-[5px] [&_a]:no-underline [&_a]:transition-colors [&_a]:duration-300 [&_a]:relative [&_a.active]:text-primary [&_a.active]:font-medium [&_a:hover]:text-primary"
+                data-header-offset="100">
+                {{ .TableOfContents }}
+              </div>
+            </div>
+          </div>
+          {{ end }}
+          
           <div
             class="content mb-10 [&>h1]:scroll-mt-[120px] [&>h2]:scroll-mt-[120px] [&>h3]:scroll-mt-[120px] [&>h4]:scroll-mt-[120px] [&>h5]:scroll-mt-[120px] [&>h6]:scroll-mt-[120px] [&>h1]:relative [&>h2]:relative [&>h3]:relative [&>h4]:relative [&>h5]:relative [&>h6]:relative">
             {{ .Content }}
@@ -51,8 +69,19 @@
       </div>
       <div class="lg:col-4">
         <div class="sidebar-wrapper flex flex-col h-full">
-          <!-- Non-sticky content first -->
-          <div class="sidebar-content order-1">
+          <!-- Desktop TOC - hidden on mobile -->
+          {{ if ne .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
+          <div class="toc-wrapper hidden lg:block sticky top-[100px] z-10 bg-body dark:bg-darkmode-body">
+            <div
+              class="table-of-content [&_a]:block [&_a]:py-[5px] [&_a]:no-underline [&_a]:transition-colors [&_a]:duration-300 [&_a]:relative [&_a.active]:text-primary [&_a.active]:font-medium [&_a:hover]:text-primary"
+              data-header-offset="100">
+              <h5 class="mb-3">{{ T "table_of_contents" | default "Table of Contents" }}</h5>
+              {{ .TableOfContents }}
+            </div>
+          </div>
+          {{ end }}
+
+          <div class="sidebar-content mt-10 lg:mt-0">
             {{ $tags:= .Params.tags }}
             {{ if $tags }}
             <div class="mb-6">
@@ -76,18 +105,6 @@
               "Telegram" false "Linkedin" false "Pinterest" false "Tumblr" false "Vk" false "Reddit" false) }}
             </div>
           </div>
-
-          <!-- Sticky TOC -->
-          {{ if ne .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
-          <div class="toc-wrapper order-2 sticky top-[100px]">
-            <div
-              class="table-of-content [&_a]:block [&_a]:py-[5px] [&_a]:no-underline [&_a]:transition-colors [&_a]:duration-300 [&_a]:relative [&_a.active]:text-primary [&_a.active]:font-medium [&_a:hover]:text-primary"
-              data-header-offset="100">
-              <h5 class="mb-3">{{ T "table_of_contents" | default "Table of Contents" }}</h5>
-              {{ .TableOfContents }}
-            </div>
-          </div>
-          {{ end }}
         </div>
       </div>
     </div>
@@ -118,6 +135,18 @@
     document.documentElement.style.overflowY = 'scroll';
     document.body.style.overflowAnchor = 'none';
 
+    // Mobile TOC toggle functionality
+    const mobileTocToggle = document.getElementById('mobile-toc-toggle');
+    const mobileTocContent = document.querySelector('.mobile-toc-content');
+    const tocChevron = document.getElementById('toc-chevron');
+    
+    if (mobileTocToggle && mobileTocContent && tocChevron) {
+      mobileTocToggle.addEventListener('click', function() {
+        mobileTocContent.classList.toggle('hidden');
+        tocChevron.classList.toggle('rotate-180');
+      });
+    }
+
     // Get all links in the table of contents
     const tocLinks = document.querySelectorAll('.table-of-content a');
     let isScrolling = false;
@@ -143,6 +172,12 @@
           // Get header offset from data attribute
           const tocContainer = document.querySelector('.table-of-content');
           const headerOffset = tocContainer ? parseInt(tocContainer.dataset.headerOffset || 100) : 100;
+
+          // On mobile, close the TOC after clicking a link
+          if (window.innerWidth < 1024 && mobileTocContent) {
+            mobileTocContent.classList.add('hidden');
+            if (tocChevron) tocChevron.classList.remove('rotate-180');
+          }
 
           // Wait for any layout changes to finish
           setTimeout(() => {
