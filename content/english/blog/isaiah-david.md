@@ -21,6 +21,8 @@ draft: false
 
 {{< youtube_time id="BVIahEuwbAo" start="0" end="582">}}
 
+{{< youtube_time id="4podOBCjOv4" start="940" end="1789">}}
+
 ## GMA - 24 Oras - Headline
 
 {{< youtube_time id="Oq27o4Y9hxE" start="0" end="90">}}
