@@ -13,25 +13,37 @@ draft: false
 
 {{< youtube TkDRQJYvsks >}}
 
+2 Million Views
+
+### Featured in Headline - June 1, 2020
+
+{{< youtube_time id="Oq27o4Y9hxE" start="0" end="90">}}
+
 ## GMA News Online
 
 {{< youtube OPiYm82l9t4 >}}
 
 ## 700 Club Asia
 
+### Original Testimony
+
 {{< youtube_time id="BVIahEuwbAo" start="0" end="582">}}
+
+### Testimony Update
 
 {{< youtube_time id="4podOBCjOv4" start="940" end="1789">}}
 
-## GMA - 24 Oras - Headline
 
-{{< youtube_time id="Oq27o4Y9hxE" start="0" end="90">}}
 
 ## DZMM Teleradyo - Winner sa Life
 
 {{< youtube_time id="iZBZGd8V604" start="3865" end="4925">}}
 
-## Other Links
-- [Facebook Video](https://www.facebook.com/watch/?v=325783961750143)
+## Other Video Links
+
+- [Facebook Video](https://www.facebook.com/watch/?v=325783961750143) - 7 Million Views
+
+## English Articles
+
 - [GMA News Online](https://www.gmanetwork.com/news/specials/content/155/the-miracle-on-may-8/)
 - [Smart Parenting](https://www.smartparenting.com.ph/pregnancy/labor-and-childbirth/cryptic-pregnancy-rapusas-family-a00228-20200605-lfrm)
