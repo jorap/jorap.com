@@ -2,7 +2,7 @@
   {{ $image:= .Params.image }}
   {{ if $image }}
   <a href="{{ .RelPermalink }}">
-    {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded aspect-video object-cover") }}
+    {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 image--partial") }}
   </a>
   {{ end }}
   <h4 class="mb-3">
@@ -13,17 +13,19 @@
   {{ $categories:= .Params.categories }}
   {{ if $categories }}
   <ul class="mb-4">
+    {{/*
     <li class="mr-4 inline-block">
       <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
         <i class="fa-regular fa-circle-user mr-2"></i>{{ .Params.author }}
       </a>
     </li>
+    */}}
     <li class="mr-4 inline-block">
-      <i class="fa-regular fa-folder mr-1"></i>
+      <i class="fa-regular fa-folder mr-0"></i>
       {{ range $i,$p:= $categories }}
-      <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="ms-1">{{ . | humanize }}{{ if ne $i
+      <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="ms-0">{{ . | humanize }}{{ if ne $i
         (sub (len $categories) 1) }}
-        {{ "," }}
+        {{ "|" }}
         {{ end }}
       </a>
       {{ end }}
