@@ -1,5 +1,5 @@
 ---
-title: "Alex Eala"
+title: "Alex Eala Career Highlights"
 meta_title: ""
 description: "Here are career highlights of the greatest Philippine Tennis player."
 date: 2022-04-04T05:00:00Z
@@ -18,6 +18,9 @@ draft: false
 
 ### Iga Swiatek
 
+* French Open (2020, 2022, 2023, 2024)
+* US Open (2022)
+
 #### 2025 Miami Open - Win
 
 {{< youtube maG9TzsuVeM >}}
@@ -33,6 +36,8 @@ draft: false
 
 ### Madison Keys
 
+* Australian Open (2025)
+
 #### 2025 Miami Open - Win
 
 {{< youtube rK9CLjVv_dY >}}
@@ -40,6 +45,8 @@ draft: false
 [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906303/)
 
 ### Jelena Ostapenko
+
+* French Open (2017)
 
 #### 2025 Miami Open - Win
 
