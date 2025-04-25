@@ -12,6 +12,7 @@ draft: false
 ## Links
 * [Tennis.com Player Activity](https://www.tennis.com/players-rankings/alexandra-eala-sr-competitor-627278/activity/)
 * [WTA Overview](https://www.wtatennis.com/players/330332/alexandra-eala/#overview)
+* [Getty Images](https://www.gettyimages.com/search/2/image?family=editorial&phrase=alexandra%20eala)
 
 ## Against Grand Slam Winners
 
