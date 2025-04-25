@@ -1,5 +1,5 @@
 ---
-title: "Alex Eala Career Highlights"
+title: "Alex Eala Pro Career Highlights"
 meta_title: ""
 description: "Here are career highlights of the greatest Philippine Tennis player."
 date: 2022-04-04T05:00:00Z
