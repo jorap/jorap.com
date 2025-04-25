@@ -52,3 +52,6 @@ draft: false
 
 [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906325/)
 
+## Image Credits
+
+<a href="https://commons.wikimedia.org/wiki/File:Alex_Eala_(2024_US_Open)_02_(cropped2).jpg">Hameltion</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
