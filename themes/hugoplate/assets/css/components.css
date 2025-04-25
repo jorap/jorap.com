@@ -52,3 +52,17 @@
 .content .btn {
   @apply dark:hover:text-text-dark no-underline hover:!text-white;
 }
+
+/* Table of Contents styling */
+.toc-links a {
+  @apply transition-all duration-200 ease-in-out;
+}
+
+/* Simple TOC indent rules */
+#TableOfContents ul {
+  @apply list-none pl-0;
+}
+
+#TableOfContents ul ul {
+  @apply pl-4;
+}

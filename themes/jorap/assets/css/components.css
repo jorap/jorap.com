@@ -53,8 +53,20 @@
   @apply w-full rounded aspect-video object-cover;
 }
 
-.toc-links a {
-  @apply transition-all duration-200 ease-in-out;
+/* Table of Contents styling */
+#TableOfContents ol {
+  @apply list-none pl-0;
 }
 
+#TableOfContents ol ol {
+  @apply pl-4;
+}
+
+#TableOfContents ol ol ol {
+  @apply pl-6;
+}
+
+#TableOfContents ol ol ol ol {
+  @apply pl-8;
+}
 
