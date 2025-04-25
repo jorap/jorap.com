@@ -9,6 +9,8 @@ author: "John Doe"
 tags: ["DNPAP", "Spotify", "YouTube", "Destiny Music"]
 draft: false
 ---
+## Title Meaning
+DNPAP means "Diyos Ng Pagasa at Pagibig" translated to "God of Hope and Love".
 
 ## Destiny Music
 [Spotify](https://open.spotify.com/artist/12t16fNXKGzNRO5p81Xvyo)
