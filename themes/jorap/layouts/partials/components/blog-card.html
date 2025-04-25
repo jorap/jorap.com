@@ -21,7 +21,7 @@
     </li>
     */}}
     <li class="mr-4 inline-block">
-      <i class="fa-regular fa-folder mr-0"></i>
+      <i class="fa-regular fa-folder mr-1"></i>
       {{ range $i,$p:= $categories }}
       <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="ms-0">{{ . | humanize }}{{ if ne $i
         (sub (len $categories) 1) }}
