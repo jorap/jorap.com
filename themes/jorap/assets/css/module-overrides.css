@@ -1,11 +1,13 @@
 /* table of contents */
 .table-of-content {
   @apply overflow-hidden rounded;
+  margin: 1rem 0;
 }
 
 /* share icons */
 .share-icons .share-link {
   @apply h-9 w-9 rounded leading-9 bg-primary hover:bg-primary dark:bg-darkmode-primary dark:hover:bg-darkmode-primary;
+  margin: 0.5rem 0.5rem 0.5rem 0;
 }
 
 .share-icons .share-icon svg {

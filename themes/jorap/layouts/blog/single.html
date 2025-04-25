@@ -28,7 +28,7 @@
               {{ range $i,$p:= $categories }}
               <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="">{{ . | humanize }}{{ if ne $i
                 (sub (len $categories) 1) }}
-                {{ "," }}
+                {{ "|" }}
                 {{ end }}
               </a>
               {{ end }}
@@ -81,8 +81,8 @@
           <div class="sidebar-content mt-10 lg:mt-0">
             {{ $tags:= .Params.tags }}
             {{ if $tags }}
-            <div class="mb-6">
-              <h5 class="mb-3">{{ T "tags" }}</h5>
+            <div class="mb-2">
+              <h6 class="mb-2">{{ T "tags" }}</h6>
               <ul>
                 {{ range $i,$p:= $tags }}
                 <li class="inline-block">
@@ -97,8 +97,8 @@
             </div>
             {{ end }}
 
-            <div class="mb-3">
-              <h5 class="mb-3">{{ T "share" }}</h5>
+            <div class="mb-2">
+              <h6 class="mb-2">{{ T "share" }}</h6>
               {{ partial "social-share" (dict "Context" . "Class" "share-icons" "Title" .Title "Whatsapp" false
               "Telegram" false "Linkedin" false "Pinterest" false "Tumblr" false "Vk" false "Reddit" false) }}
             </div>
