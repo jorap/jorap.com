@@ -6,7 +6,7 @@ date: 2022-04-04T05:00:00Z
 image: "/images/feature-isaiah-david.jpg"
 categories: ["Website"]
 author: "John Doe"
-tags: ["Internet", "Website"]
+tags: ["YouTube", "Facebook", "700 Club Asia", "GMA News", "24 Oras", "DZMM Teleradyo"]
 draft: false
 ---
 ## GMA - 24 Oras

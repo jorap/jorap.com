@@ -88,7 +88,8 @@
                 <li class="inline-block">
                   <a class="bg-light hover:bg-primary dark:bg-darkmode-light dark:hover:bg-darkmode-primary dark:hover:text-text-dark m-1 block rounded px-3 py-1 hover:text-white"
                     href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/">
-                    {{ . | humanize }}
+                    {{/* . | humanize */}}
+                    {{ . | title }}
                   </a>
                 </li>
                 {{ end }}
