@@ -1,7 +1,7 @@
 ---
-title: "DNPAP"
+title: "DNPAP - Resources"
 meta_title: ""
-description: "DNPAP"
+description: "Here are the resources for the song DNPAP from Destiny Music."
 date: 2022-04-04T05:00:00Z
 image: "/images/feature-dnpap.jpg"
 categories: ["Worship"]
@@ -9,7 +9,9 @@ author: "John Doe"
 tags: ["DNPAP", "Spotify", "YouTube", "Destiny Music"]
 draft: false
 ---
-## Title Meaning
+Here are the resources for the song DNPAP from Destiny Music.
+
+## What is the Meaning of DNPAP?
 DNPAP means "Diyos Ng Pagasa at Pagibig" translated to "God of Hope and Love".
 
 ## Destiny Music

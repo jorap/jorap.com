@@ -1,7 +1,7 @@
 ---
 title: "Isaiah David"
 meta_title: ""
-description: "Social media provides some elements of publishing online, but there a four reasons why you need to create and maintain your own website."
+description: "Here are online testimonies regarding Isaiah David's birth."
 date: 2022-04-04T05:00:00Z
 image: "/images/feature-isaiah-david.jpg"
 categories: ["Website"]
@@ -9,11 +9,13 @@ author: "John Doe"
 tags: ["YouTube", "Facebook", "700 Club Asia", "GMA News", "24 Oras", "DZMM Teleradyo"]
 draft: false
 ---
+Here are online testimonies regarding Isaiah David's birth.
+
 ## GMA - 24 Oras
 
 {{< youtube TkDRQJYvsks >}}
 
-2 Million Views
+24 Oras is a Philippine mainstream media news shown during prime time. This video has 2 million views.
 
 ### Featured in Headline - June 1, 2020
 

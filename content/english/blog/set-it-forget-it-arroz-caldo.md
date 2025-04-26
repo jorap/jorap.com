@@ -1,7 +1,7 @@
 ---
-title: "Arroz Caldo"
+title: "The Set It and Forget It Arroz Caldo"
 meta_title: ""
-description: "DNPAP"
+description: "My Friday night habit is to prepare Arroz Caldo to reward myself for my Saturday breakfast."
 date: 2022-04-04T05:00:00Z
 image: "/images/arroz-caldo.jpg"
 categories: ["Food","Recipes"]
@@ -9,6 +9,8 @@ author: "John Doe"
 tags: ["DNPAP", "Spotify", "YouTube", "Destiny Music"]
 draft: false
 ---
+My Friday night habit is to prepare Arroz Caldo to reward myself for my Saturday breakfast.
+
 ## Panlasang Pinoy
 
 ### Recipe

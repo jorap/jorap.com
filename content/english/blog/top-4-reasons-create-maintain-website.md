@@ -3,7 +3,7 @@ title: "Top 4 Reasons to Create and Maintain a Website"
 meta_title: ""
 description: "Social media provides some elements of publishing online, but there a four reasons why you need to create and maintain your own website."
 date: 2022-04-04T05:00:00Z
-image: "/images/website.png"
+image: "/images/website.jpg"
 categories: ["Website"]
 author: "John Doe"
 tags: ["internet", "website"]
