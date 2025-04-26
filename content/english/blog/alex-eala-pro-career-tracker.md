@@ -1,15 +1,17 @@
 ---
-title: "Alex Eala Pro Career Highlights"
-meta_title: ""
-description: "Here are career highlights of the greatest Philippine Tennis player."
+title: "Alex Eala Pro Career Tracker"
 date: 2022-04-04T05:00:00Z
+meta_title: ""
+description: "We track the professional career highlights of Alex Eala."
 image: "/images/alex-eala.jpg"
 categories: ["Tennis"]
 author: "John Doe"
 tags: ["Internet", "Website"]
 draft: false
 ---
-## Links
+We track the professional career highlights of Alex Eala.
+
+## Alex Eala Links
 * [Tennis.com Player Activity](https://www.tennis.com/players-rankings/alexandra-eala-sr-competitor-627278/activity/)
 * [WTA Overview](https://www.wtatennis.com/players/330332/alexandra-eala/#overview)
 * [Getty Images](https://www.gettyimages.com/search/2/image?family=editorial&phrase=alexandra%20eala)
@@ -17,6 +19,10 @@ draft: false
 ## Against Grand Slam Winners
 
 ### Iga Swiatek
+
+[WTA Overview](https://www.wtatennis.com/players/326408/iga-swiatek)
+
+#### Grand Slams
 
 * French Open (2020, 2022, 2023, 2024)
 * US Open (2022)
@@ -27,7 +33,6 @@ draft: false
 
 [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906263/)
 
-
 #### 2025 Madrid Open - Loss
 
 {{< youtube TqBCa8hIHcY >}}
@@ -35,6 +40,10 @@ draft: false
 [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2785-madrid-spain/sr-match-59915292/)
 
 ### Madison Keys
+
+[WTA Overview](https://www.wtatennis.com/players/316959/madison-keys)
+
+#### Grand Slams
 
 * Australian Open (2025)
 
@@ -45,6 +54,10 @@ draft: false
 [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906303/)
 
 ### Jelena Ostapenko
+
+[WTA Overview](https://www.wtatennis.com/players/319939/jelena-ostapenko)
+
+#### Grand Slams
 
 * French Open (2017)
 

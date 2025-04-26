@@ -2,7 +2,7 @@
   {{ $image:= .Params.image }}
   {{ if $image }}
   <a href="{{ .RelPermalink }}">
-    {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 image--partial") }}
+    {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 image--partial aspect-[475/239]") }}
   </a>
   {{ end }}
   <h4 class="mb-3">
@@ -32,7 +32,7 @@
     </li>
   </ul>
   {{ end }}
-  <p class="mb-6">{{ .Summary | plainify }}</p>
+  <p class="mb-6">{{ if .Description }}{{ .Description | plainify }}{{ else }}{{ .Summary | plainify }}{{ end }}</p>
   <div class="mt-auto">
     <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
       {{ T "read_more" }}

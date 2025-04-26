@@ -7,7 +7,7 @@
           {{ $image:= .Params.image }}
           {{ if $image }}
           <div class="mb-10">
-            {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "image--partial") }}
+            {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "image--partial aspect-[475/239]") }}
           </div>
           {{ end }}
           <h1 class="h2 mb-4">
