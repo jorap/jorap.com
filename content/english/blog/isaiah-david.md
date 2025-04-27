@@ -4,7 +4,7 @@ meta_title: "The Miracle of Isaiah David – A Story of Hope and Faith"
 description: "Experience the inspiring testimonies and media features surrounding the miraculous birth of Isaiah David."
 date: 2022-04-04T05:00:00Z
 image: "/images/feature-isaiah-david.jpg"
-categories: ["Website"]
+categories: ["Testimony"]
 author: "John Doe"
 tags: ["Isaiah David", "Miracle Story", "700 Club Asia", "GMA News", "24 Oras", "DZMM Teleradyo", "Facebook", "YouTube"]
 draft: false

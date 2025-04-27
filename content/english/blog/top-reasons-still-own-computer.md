@@ -4,9 +4,9 @@ meta_title: "Top Reasons You Still Need a Computer"
 description: "Why owning a desktop or laptop still matters even in the mobile-first world."
 date: 2022-04-04T05:00:00Z
 image: "/images/feature-desktop.jpg"
-categories: ["Application", "Data"]
+categories: ["Technology"]
 author: "John Doe"
-tags: ["Technology", "Computers", "Hardware", "Productivity"]
+tags: ["Computers", "Hardware", "Productivity"]
 draft: false
 ---
 
