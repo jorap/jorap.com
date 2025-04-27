@@ -81,3 +81,15 @@
 code {
   padding-inline: 0 !important;
 }
+
+blockquote p {
+  padding-bottom: 20px;
+}
+
+blockquote p:last-child {
+  padding-bottom: 0;
+}
+
+blockquote li {
+  font-size: var(--text-base);
+}
