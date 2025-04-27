@@ -1,70 +1,80 @@
 ---
 title: "Alex Eala Pro Career Tracker"
 date: 2022-04-04T05:00:00Z
-meta_title: ""
-description: "We track the professional career highlights of Alex Eala."
+meta_title: "Alex Eala Pro Career Tracker"
+description: "Follow the latest highlights from Alex Eala's professional tennis career."
 image: "/images/alex-eala.jpg"
-categories: ["Tennis"]
+categories: ["Sports"]
 author: "John Doe"
-tags: ["Internet", "Website"]
+tags: ["Tennis", "Alex Eala"]
 draft: false
 ---
-We track the professional career highlights of Alex Eala.
 
-## Alex Eala Links
-* [Tennis.com Player Activity](https://www.tennis.com/players-rankings/alexandra-eala-sr-competitor-627278/activity/)
-* [WTA Overview](https://www.wtatennis.com/players/330332/alexandra-eala/#overview)
-* [Getty Images](https://www.gettyimages.com/search/2/image?family=editorial&phrase=alexandra%20eala)
+Welcome! Here, we track the key moments and career highlights of rising tennis star **Alex Eala**.
 
-## Against Grand Slam Winners
+---
+
+## Quick Links
+
+- [Tennis.com Player Activity](https://www.tennis.com/players-rankings/alexandra-eala-sr-competitor-627278/activity/)
+- [WTA Official Profile](https://www.wtatennis.com/players/330332/alexandra-eala/#overview)
+- [Getty Images Gallery](https://www.gettyimages.com/search/2/image?family=editorial&phrase=alexandra%20eala)
+
+---
+
+## Matches Against Grand Slam Champions
 
 ### Iga Swiatek
 
-[WTA Overview](https://www.wtatennis.com/players/326408/iga-swiatek)
+- [WTA Profile](https://www.wtatennis.com/players/326408/iga-swiatek)
 
-#### Grand Slams
+**Grand Slam Titles:**
+| Tournament  | Year(s)                |
+| ----------- | ---------------------- |
+| French Open | 2020, 2022, 2023, 2024 |
+| US Open     | 2022                   |
 
-* French Open (2020, 2022, 2023, 2024)
-* US Open (2022)
+**Matches:**
+- **2025 Miami Open – Win** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906263/)
 
-#### 2025 Miami Open - Win
+  {{< youtube maG9TzsuVeM >}}
 
-{{< youtube maG9TzsuVeM >}}
+- **2025 Madrid Open – Loss** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2785-madrid-spain/sr-match-59915292/)
 
-[Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906263/)
+  {{< youtube TqBCa8hIHcY >}}
 
-#### 2025 Madrid Open - Loss
-
-{{< youtube TqBCa8hIHcY >}}
-
-[Match Stats](https://www.tennis.com/tournaments/sr-tournament-2785-madrid-spain/sr-match-59915292/)
+---
 
 ### Madison Keys
 
-[WTA Overview](https://www.wtatennis.com/players/316959/madison-keys)
+- [WTA Profile](https://www.wtatennis.com/players/316959/madison-keys)
 
-#### Grand Slams
+**Grand Slam Titles:**
+| Tournament      | Year |
+| --------------- | ---- |
+| Australian Open | 2025 |
 
-* Australian Open (2025)
+**Matches:**
+- **2025 Miami Open – Win** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906303/)
 
-#### 2025 Miami Open - Win
+  {{< youtube rK9CLjVv_dY >}}
 
-{{< youtube rK9CLjVv_dY >}}
-
-[Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906303/)
+---
 
 ### Jelena Ostapenko
 
-[WTA Overview](https://www.wtatennis.com/players/319939/jelena-ostapenko)
+- [WTA Profile](https://www.wtatennis.com/players/319939/jelena-ostapenko)
 
-#### Grand Slams
+**Grand Slam Titles:**
+| Tournament  | Year |
+| ----------- | ---- |
+| French Open | 2017 |
 
-* French Open (2017)
+**Matches:**
+- **2025 Miami Open – Win** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906325/)
 
-#### 2025 Miami Open - Win
-
-[Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906325/)
+---
 
 ## Image Credits
 
-<a href="https://commons.wikimedia.org/wiki/File:Alex_Eala_(2024_US_Open)_02_(cropped2).jpg">Hameltion</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+Photo by [Hameltion](https://commons.wikimedia.org/wiki/File:Alex_Eala_(2024_US_Open)_02_(cropped2).jpg) licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons.
