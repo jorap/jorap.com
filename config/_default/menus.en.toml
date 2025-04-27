@@ -17,33 +17,43 @@ url = "/blog"
 weight = 3
 
 [[main]]
-name = "Elements"
-url = "/elements"
+name = "Categories"
+url = "/categories"
 weight = 4
 
 [[main]]
+name = "Tags"
+url = "/tags"
 weight = 5
-name = "Pages"
 
-[[main]]
-parent = "Pages"
-name = "Contact"
-url = "/contact"
+# [[main]]
+# name = "Elements"
+# url = "/elements"
+# weight = 4
 
-[[main]]
-parent = "Pages"
-name = "Authors"
-url = "/authors"
-
-[[main]]
-parent = "Pages"
-name = "Categories"
-url = "/categories"
-
-[[main]]
-parent = "Pages"
-name = "404 Page"
-url = "/404"
+# [[main]]
+# weight = 5
+# name = "Pages"
+# 
+# [[main]]
+# parent = "Pages"
+# name = "Contact"
+# url = "/contact"
+# 
+# [[main]]
+# parent = "Pages"
+# name = "Authors"
+# url = "/authors"
+# 
+# [[main]]
+# parent = "Pages"
+# name = "Categories"
+# url = "/categories"
+# 
+# [[main]]
+# parent = "Pages"
+# name = "404 Page"
+# url = "/404"
 
 
 # footer menu
@@ -52,12 +62,22 @@ name = "About"
 url = "/about"
 weight = 1
 
+# [[footer]]
+# name = "Elements"
+# url = "/elements"
+# weight = 2
+# 
+# [[footer]]
+# name = "Privacy Policy"
+# url = "/privacy-policy"
+# weight = 3
+
 [[footer]]
-name = "Elements"
-url = "/elements"
+name = "Categories"
+url = "/categories"
 weight = 2
 
 [[footer]]
-name = "Privacy Policy"
-url = "/privacy-policy"
+name = "Tags"
+url = "/tags"
 weight = 3
