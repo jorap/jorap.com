@@ -10,14 +10,14 @@ tags: ["Tennis", "Alex Eala"]
 draft: false
 ---
 
-Welcome! Here, we track the key moments and career highlights of rising tennis star **Alex Eala**.
+Welcome! Here, we track the key moments and professional career highlights of rising tennis star **Alex Eala**.
 
 ---
 
 ## Quick Links
 
 - [Tennis.com Player Activity](https://www.tennis.com/players-rankings/alexandra-eala-sr-competitor-627278/activity/)
-- [WTA Official Profile](https://www.wtatennis.com/players/330332/alexandra-eala/#overview)
+- [WTA Profile](https://www.wtatennis.com/players/330332/alexandra-eala/#overview)
 - [Getty Images Gallery](https://www.gettyimages.com/search/2/image?family=editorial&phrase=alexandra%20eala)
 
 ---
