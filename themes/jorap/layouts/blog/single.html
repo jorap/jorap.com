@@ -40,7 +40,7 @@
             </li>
           </ul>
 
-          <!-- Mobile TOC - appears after meta but before content -->
+          {{/* Mobile TOC - appears after meta but before content*/}}
           {{ if ne .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
           <div class="toc-wrapper border rounded p-4 relative z-10 mb-6 lg:hidden">
             <div class="flex justify-between items-center cursor-pointer" id="mobile-toc-toggle">
@@ -57,28 +57,7 @@
 
           <div class="content mb-10">
             {{ .Content }}
-          </div>
-          <!-- comments -->
-          {{ if site.Config.Services.Disqus.Shortname }}
-          <div class="mt-20">
-            {{ template "_internal/disqus.html" . }}
-          </div>
-          {{ end }}
-        </article>
-      </div>
-      <div class="lg:col-4">
-        <div class="sidebar-wrapper flex flex-col h-full">
-          <!-- Desktop TOC - hidden on mobile -->
-          {{ if ne .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
-          <div class="toc-wrapper hidden lg:block sticky top-[100px] z-10 bg-body dark:bg-darkmode-body">
-            <div class="table-of-content toc-links">
-              <h5 class="mb-3">{{ T "table_of_contents" | default "Table of Contents" }}</h5>
-              {{ .TableOfContents }}
-            </div>
-          </div>
-          {{ end }}
 
-          <div class="sidebar-content mt-10 lg:mt-0">
             {{ $tags:= .Params.tags }}
             {{ if $tags }}
             <div class="mb-2">
@@ -99,14 +78,38 @@
 
             <div class="mb-2">
               <h6 class="mb-2">{{ T "share" }}</h6>
-              {{ partial "components/social-share" (dict "Context" . "Class" "share-icons" "Title" .Title "Whatsapp" false "Telegram" false "Linkedin" false "Pinterest" false "Tumblr" false "Vk" false "Reddit" false) }}
+              {{ partial "components/social-share" (dict "Context" . "Class" "share-icons" "Title" .Title "Whatsapp"
+              false "Telegram" false "Linkedin" false "Pinterest" false "Tumblr" false "Vk" false "Reddit" false) }}
             </div>
+
+          </div>
+          {{/* Comments */}}
+          {{ if site.Config.Services.Disqus.Shortname }}
+          <div class="mt-20">
+            {{ template "_internal/disqus.html" . }}
+          </div>
+          {{ end }}
+        </article>
+      </div>
+      <div class="lg:col-4">
+        <div class="sidebar-wrapper flex flex-col h-full">
+          {{/* Desktop TOC - hidden on mobile */}}
+          {{ if ne .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
+          <div class="toc-wrapper hidden lg:block sticky top-[100px] z-10 bg-body dark:bg-darkmode-body">
+            <div class="table-of-content toc-links">
+              <h5 class="mb-3">{{ T "table_of_contents" | default "Table of Contents" }}</h5>
+              {{ .TableOfContents }}
+            </div>
+          </div>
+          {{ end }}
+
+          <div class="sidebar-content mt-10 lg:mt-0">
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Related posts -->
+    {{/* Related posts */}}
     {{ $related := .Site.RegularPages.Related . | first 10 }}
     {{ $related = $related | shuffle | first 3 }}
     {{ with $related }}
@@ -126,7 +129,7 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    // Mobile TOC toggle functionality
+    { {/* Mobile TOC toggle functionality */ } }
     const mobileTocToggle = document.getElementById('mobile-toc-toggle');
     const mobileTocContent = document.querySelector('.mobile-toc-content');
     const tocChevron = document.getElementById('toc-chevron');
@@ -138,32 +141,32 @@
       });
     }
 
-    // Get all TOC links
+    { {/* Get all TOC links */ } }
     const tocLinks = document.querySelectorAll('.table-of-content a');
     if (tocLinks.length === 0) return;
 
-    // Ensure all links have the transition class
+    { {/* Ensure all links have the transition class */ } }
     tocLinks.forEach(link => {
-      // Add the transition classes if not already added by the style block
+      { {/* Add the transition classes if not already added by the style block */ } }
       if (!link.classList.contains('transition-all')) {
         link.classList.add('transition-all', 'duration-200', 'ease-in-out');
       }
     });
 
-    // Get content area and all headings with IDs
+    { {/* Get content area and all headings with IDs */ } }
     const content = document.querySelector('.content');
     if (!content) return;
 
-    // Find all headings in the content
+    { {/* Find all headings in the content */ } }
     const headings = Array.from(content.querySelectorAll('h1, h2, h3, h4, h5, h6'))
       .filter(heading => heading.id);
 
     if (headings.length === 0) return;
 
-    // Map from heading ID to corresponding TOC link
+    { {/* Map from heading ID to corresponding TOC link */ } }
     const headingToLink = {};
 
-    // Setup click handlers for TOC links
+    { {/* Setup click handlers for TOC links */ } }
     tocLinks.forEach(link => {
       const href = link.getAttribute('href');
       if (!href || !href.startsWith('#')) return;
@@ -171,28 +174,28 @@
       const headingId = href.substring(1);
       headingToLink[headingId] = link;
 
-      // Add click event to each TOC link for styling and smooth scrolling
+      { {/* Add click event to each TOC link for styling and smooth scrolling */ } }
       link.addEventListener('click', function (e) {
         e.preventDefault();
 
-        // Remove bold from all links
+        { {/* Remove bold from all links */ } }
         tocLinks.forEach(l => l.classList.remove('font-bold'));
 
-        // Make this link bold
+        { {/* Make this link bold */ } }
         this.classList.add('font-bold');
 
-        // Get the target element
+        { {/* Get the target element */ } }
         const targetId = headingId;
         const targetElement = document.getElementById(targetId);
 
         if (targetElement) {
-          // On mobile, close the TOC after clicking a link
+          { {/* On mobile, close the TOC after clicking a link */ } }
           if (window.innerWidth < 1024 && mobileTocContent) {
             mobileTocContent.classList.add('hidden');
             if (tocChevron) tocChevron.classList.remove('rotate-180');
           }
 
-          // Scroll to the target with offset
+          { {/* Scroll to the target with offset */ } }
           const offset = 100;
           window.scrollTo({
             top: targetElement.offsetTop - offset,
@@ -202,36 +205,36 @@
       });
     });
 
-    // Function to highlight the TOC link for the heading in view
+    { {/* Function to highlight the TOC link for the heading in view */ } }
     function highlightTocOnScroll() {
-      // Current scroll position and viewport height
+      { {/* Current scroll position and viewport height */ } }
       const scrollTop = window.scrollY;
       const viewportHeight = window.innerHeight;
       const viewportBottom = scrollTop + viewportHeight;
 
-      // Find heading that is fully visible in the viewport
+      { {/* Find heading that is fully visible in the viewport */ } }
       let activeHeading = null;
 
       for (const heading of headings) {
         const headingTop = heading.offsetTop;
         const headingBottom = headingTop + heading.offsetHeight;
 
-        // Check if heading is fully in viewport (with some margin)
-        // The heading top must be below the top of the viewport (plus a small buffer)
-        // AND the heading bottom must be above the bottom of the viewport
+        { {/* Check if heading is fully in viewport (with some margin) */ } }
+        { {/* The heading top must be below the top of the viewport (plus a small buffer) */ } }
+        { {/* AND the heading bottom must be above the bottom of the viewport */ } }
         if (headingTop >= scrollTop + 100 && headingBottom <= viewportBottom) {
           activeHeading = heading;
-          break; // We found a fully visible heading, no need to check others
+          break; { {/* We found a fully visible heading, no need to check others */ } }
         }
       }
 
-      // If no heading is fully visible, find one that's partially visible
+      { {/* If no heading is fully visible, find one that's partially visible */ } }
       if (!activeHeading) {
         for (const heading of headings) {
           const headingTop = heading.offsetTop;
           const headingBottom = headingTop + heading.offsetHeight;
 
-          // Check if heading is at least partially in viewport
+          { {/* Check if heading is at least partially in viewport */ } }
           if ((headingTop >= scrollTop && headingTop <= viewportBottom) ||
             (headingBottom >= scrollTop && headingBottom <= viewportBottom) ||
             (headingTop <= scrollTop && headingBottom >= viewportBottom)) {
@@ -241,13 +244,13 @@
         }
       }
 
-      // If still no heading is visible but we're at the top of the page,
-      // use the first heading
+      { {/* If still no heading is visible but we're at the top of the page, */ } }
+      { {/* use the first heading */ } }
       if (!activeHeading && scrollTop < headings[0].offsetTop) {
         activeHeading = headings[0];
       }
 
-      // Special case for the bottom of the page - use the last heading
+      { {/* Special case for the bottom of the page - use the last heading */ } }
       if (viewportBottom >= document.body.offsetHeight - 100) {
         activeHeading = headings[headings.length - 1];
       }
