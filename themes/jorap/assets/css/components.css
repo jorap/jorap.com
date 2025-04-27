@@ -70,3 +70,14 @@
   @apply pl-8;
 }
 
+.dark .mermaid {
+  background: #ececff;
+}
+
+.dark .mermaid p {
+  color: #000000;
+}
+
+code {
+  padding-inline: 0 !important;
+}
