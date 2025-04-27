@@ -7,7 +7,7 @@ image: "/images/image-template.jpg"
 categories: ["Sample"]
 author: "John Doe"
 tags: ["Hugo CMS", "Markdown", "Shortcodes"]
-draft: false
+draft: true
 ---
 {{< toc >}}
 
