@@ -23,7 +23,7 @@
   {{ $fullURL = printf "%s/" $fullURL }}
 {{ end }}
 
-{{ $url := printf "%s%s" $fullURL (strings.TrimPrefix "/" $context.RelPermalink) }}
+{{ $url := printf "https://jorap.com%s" $context.RelPermalink }}
 
 <div class="{{ $class }}">
     <!-- Facebook -->
