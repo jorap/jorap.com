@@ -70,6 +70,6 @@ I start with a solid foundation using this trusted recipe, then tweak it to fit 
 
 ## Image Credits
 
-Photo by [Ernesto Andrade](https://commons.wikimedia.org/wiki/File:Home_-_Dinner.jpg), licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), via Wikimedia Commons.
+- <a href="https://commons.wikimedia.org/wiki/File:Home_-_Dinner.jpg">Ernesto Andrade</a>, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, via Wikimedia Commons
 
 ---

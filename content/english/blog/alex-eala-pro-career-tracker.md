@@ -14,11 +14,10 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 
 ---
 
-## Quick Links
+## Player Profile
 
 - [Tennis.com Player Activity](https://www.tennis.com/players-rankings/alexandra-eala-sr-competitor-627278/activity/)
 - [WTA Profile](https://www.wtatennis.com/players/330332/alexandra-eala/#overview)
-- [Getty Images Gallery](https://www.gettyimages.com/search/2/image?family=editorial&phrase=alexandra%20eala)
 
 ---
 
@@ -77,4 +76,5 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 
 ## Image Credits
 
-Photo by [Hameltion](https://commons.wikimedia.org/wiki/File:Alex_Eala_(2024_US_Open)_02_(cropped2).jpg) licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons.
+- <a href="https://commons.wikimedia.org/wiki/File:Alex_Eala_(2024_US_Open)_02.jpg">Hameltion</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+- [Getty Images Gallery](https://www.gettyimages.com/search/2/image?family=editorial&phrase=alexandra%20eala)
