@@ -14,7 +14,7 @@
 {{ $fediverse:= .Fediverse | default true }}
 {{ $copy:= .Copy | default true }}
 
-{{ $url := printf "%s%s" site.BaseURL $context.RelPermalink }}
+{{ $url := $context.Permalink }}
 
 
 <div class="{{ $class }}">
