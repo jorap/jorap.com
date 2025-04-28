@@ -209,7 +209,7 @@ And if you want to Host some other hosting platforms. then you can build your pr
 
 ### 🐞 Reporting Issues
 
-We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/zeon-studio/hugoplate/issues). It’s possible someone has already reported the same problem.
+We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/zeon-studio/hugoplate/issues). It's possible someone has already reported the same problem.
 If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/zeon-studio/hugoplate/issues).
 
 ### 📝 License
@@ -235,3 +235,29 @@ List of some projects people are building with **Hugoplate**!
 ## 💻 Need Customization?
 
 If you need a custom theme, theme customization, or complete website development services from scratch you can [Hire Us](https://zeon.studio/estimate-project).
+
+# JoRap.com
+
+## Building for Different Environments
+
+This Hugo site supports multiple environments with different baseURLs:
+
+- **Production**: `https://jorap.com`
+- **Staging**: `https://test-static.jorap.com` (also accessible via `https://jorapdotcom.pages.dev`)
+
+### Build Commands
+
+To build for production:
+```
+hugo --environment production
+```
+
+To build for staging:
+```
+hugo --environment staging
+```
+
+For local development, the default baseURL will be used:
+```
+hugo server
+```
