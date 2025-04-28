@@ -1,0 +1,81 @@
+<div id="back-to-top" class="fixed bottom-8 right-8 z-50 hidden">
+    <div class="relative">
+        <svg class="progress-ring" width="48" height="48">
+            <circle class="progress-ring__circle progress-ring__background" stroke="#e2e8f0" stroke-width="4"
+                fill="transparent" r="20" cx="24" cy="24"></circle>
+            <circle class="progress-ring__circle progress-ring__progress" stroke-dasharray="125.6"
+                stroke-dashoffset="125.6" stroke-width="4" stroke="#38bdf8" fill="transparent" r="20" cx="24" cy="24">
+            </circle>
+        </svg>
+        <button aria-label="Back to top"
+            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex h-10 w-10 items-center justify-center rounded-full bg-primary text-white shadow-lg transition-all duration-300 hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+            onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
+            </svg>
+        </button>
+    </div>
+</div>
+
+<script>
+    // Back to top button and progress bar functionality
+    (function () {
+        const backToTopButton = document.getElementById('back-to-top');
+        const progressRing = document.querySelector('.progress-ring__progress');
+        const progressCircumference = 2 * Math.PI * 20; // 2πr where r=20
+
+        progressRing.style.strokeDasharray = `${progressCircumference} ${progressCircumference}`;
+        progressRing.style.strokeDashoffset = progressCircumference;
+
+        function updateProgress() {
+            // Calculate how far scrolled down the page
+            const scrollTop = window.scrollY;
+            const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercentage = scrollTop / scrollHeight;
+
+            // Update the progress ring
+            const offset = progressCircumference - (scrollPercentage * progressCircumference);
+            progressRing.style.strokeDashoffset = offset;
+
+            // Show/hide the button
+            if (window.scrollY > 300) {
+                backToTopButton.classList.remove('hidden');
+                backToTopButton.classList.add('animate-fade-in');
+            } else {
+                backToTopButton.classList.add('hidden');
+                backToTopButton.classList.remove('animate-fade-in');
+            }
+        }
+
+        // Update on scroll
+        window.addEventListener('scroll', updateProgress);
+
+        // Initial update
+        updateProgress();
+    })();
+</script>
+
+<style>
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .animate-fade-in {
+        animation: fadeIn 0.3s ease-in-out;
+    }
+
+    .progress-ring__circle {
+        transition: stroke-dashoffset 0.1s;
+        transform: rotate(-90deg);
+        transform-origin: 50% 50%;
+    }
+</style>
