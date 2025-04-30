@@ -139,28 +139,28 @@ link = "js/search.js"
 lazy = false
 [[params.plugins.js]]
 link = "plugins/swiper/swiper-bundle.js"
-lazy = false
+lazy = true
 [[params.plugins.js]]
 link = "plugins/cookie.js"
-lazy = false
+lazy = true
 [[params.plugins.js]]
 link = "plugins/glightbox/glightbox.js"
-lazy = false
+lazy = true
 [[params.plugins.js]]
 link = "js/gallery-slider.js"
-lazy = false
+lazy = true
 [[params.plugins.js]]
 link = "js/accordion.js"
-lazy = false
+lazy = true
 [[params.plugins.js]]
 link = "js/tab.js"
-lazy = false
+lazy = true
 [[params.plugins.js]]
 link = "js/modal.js"
-lazy = false
+lazy = true
 [[params.plugins.js]]
 link = "plugins/youtube-lite.js"
-lazy = false
+lazy = true
 [[params.plugins.js]]
 link = "js/toc.js"
 lazy = false
