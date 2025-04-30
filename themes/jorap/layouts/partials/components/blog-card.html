@@ -33,7 +33,7 @@
   <p class="mb-6">{{ if .Description }}{{ .Description | plainify }}{{ else }}{{ .Summary | plainify }}{{ end }}</p>
   <div class="mt-auto">
     <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
-      {{ T "read_more" }}
+      {{ T "read_more" }} "{{ .Title }}"
     </a>
   </div>
 </div>
