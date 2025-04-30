@@ -59,3 +59,19 @@
 
 <!-- Mermaid -->
 {{ partial "mermaid/assets/js" . }}
+
+<!-- Preload critical images -->
+{{ if .IsHome }}
+  {{ range first 1 (where site.RegularPages "Type" "blog") }}
+    {{ $image:= .Params.image }}
+    {{ if $image }}
+      {{ $size:= "413x208" }}
+      {{ if (fileExists (add `assets/` (string $image))) }}
+        {{ with resources.Get $image }}
+          {{ $imageWebp:= .Resize (add (string $size) " webp") }}
+          <link rel="preload" as="image" href="{{ $imageWebp.RelPermalink }}" imagesrcset="{{ $imageWebp.RelPermalink }}">
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}

@@ -51,6 +51,8 @@
 
 .image--partial {
   @apply w-full rounded aspect-video object-cover;
+  will-change: transform;
+  content-visibility: auto;
 }
 
 /* Table of Contents styling */

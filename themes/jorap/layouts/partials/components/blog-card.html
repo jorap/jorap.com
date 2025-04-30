@@ -2,7 +2,7 @@
   {{ $image:= .Params.image }}
   {{ if $image }}
   <a href="{{ .RelPermalink }}">
-    {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 image--partial aspect-[413/208]" "Size" "413x208" "Loading" "eager") }}
+    {{ partial "components/image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 image--partial aspect-[413/208]" "Size" "413x208" "Loading" "eager" "FetchPriority" "high") }}
   </a>
   {{ end }}
   <h3 class="mb-3">
