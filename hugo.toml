@@ -119,19 +119,19 @@ notAlternative = true
 # CSS Plugins
 [[params.plugins.css]]
 link = "plugins/swiper/swiper-bundle.css"
-lazy = true
+lazy = false
 [[params.plugins.css]]
 link = "plugins/glightbox/glightbox.css"
-lazy = true
+lazy = false
 [[params.plugins.css]]
 link = "plugins/font-awesome/v6/brands.css"
-lazy = true
+lazy = false
 [[params.plugins.css]]
 link = "plugins/font-awesome/v6/solid.css"
-lazy = true
+lazy = false
 [[params.plugins.css]]
 link = "plugins/font-awesome/v6/icons.css"
-lazy = true
+lazy = false
 
 # JS Plugins
 [[params.plugins.js]]
@@ -145,22 +145,22 @@ link = "plugins/cookie.js"
 lazy = false
 [[params.plugins.js]]
 link = "plugins/glightbox/glightbox.js"
-lazy = true
+lazy = false
 [[params.plugins.js]]
 link = "js/gallery-slider.js"
-lazy = true
+lazy = false
 [[params.plugins.js]]
 link = "js/accordion.js"
-lazy = true
+lazy = false
 [[params.plugins.js]]
 link = "js/tab.js"
-lazy = true
+lazy = false
 [[params.plugins.js]]
 link = "js/modal.js"
-lazy = true
+lazy = false
 [[params.plugins.js]]
 link = "plugins/youtube-lite.js"
-lazy = true
+lazy = false
 [[params.plugins.js]]
 link = "js/toc.js"
-lazy = true
+lazy = false

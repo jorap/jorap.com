@@ -9,38 +9,54 @@
       {{ .attributes | safeHTMLAttr }}></script>
   {{ else }}
     {{ if not .lazy }}
-      {{ $scripts = $scripts | append (resources.Get .link) }}
+      {{ with resources.Get .link }}
+        {{ $scripts = $scripts | append . }}
+      {{ end }}
     {{ else }}
-      {{ $scriptsLazy = $scriptsLazy | append (resources.Get .link) }}
+      {{ with resources.Get .link }}
+        {{ $scriptsLazy = $scriptsLazy | append . }}
+      {{ end }}
     {{ end }}
   {{ end }}
 {{ end }}
 
 
 <!-- main script -->
-{{ $scripts = $scripts | append (resources.Get "js/main.js") }}
-{{ $scripts = $scripts | resources.Concat "js/script.js" }}
-
-{{ $scriptsLazy = $scriptsLazy | resources.Concat "js/script-lazy.js" }}
-
-{{ if hugo.IsProduction }}
-  {{ $scripts = $scripts | minify | fingerprint }}
-  {{ $scriptsLazy = $scriptsLazy | minify | fingerprint }}
+{{ with resources.Get "js/main.js" }}
+  {{ $scripts = $scripts | append . }}
 {{ end }}
 
-{{/* scripts */}}
-<script
-  crossorigin="anonymous"
-  integrity="{{ $scripts.Data.Integrity }}"
-  src="{{ $scripts.RelPermalink }}"></script>
+<!-- Only concat if scripts is not empty -->
+{{ if ne (len $scripts) 0 }}
+  {{ $scripts = $scripts | resources.Concat "js/script.js" }}
+  
+  {{ if hugo.IsProduction }}
+    {{ $scripts = $scripts | minify | fingerprint }}
+  {{ end }}
 
-{{/* scripts lazy */}}
-<script
-  defer
-  async
-  crossorigin="anonymous"
-  integrity="{{ $scriptsLazy.Data.Integrity }}"
-  src="{{ $scriptsLazy.RelPermalink }}"></script>
+  {{/* scripts */}}
+  <script
+    crossorigin="anonymous"
+    integrity="{{ $scripts.Data.Integrity }}"
+    src="{{ $scripts.RelPermalink }}"></script>
+{{ end }}
+
+<!-- Only concat if scriptsLazy is not empty -->
+{{ if ne (len $scriptsLazy) 0 }}
+  {{ $scriptsLazy = $scriptsLazy | resources.Concat "js/script-lazy.js" }}
+  
+  {{ if hugo.IsProduction }}
+    {{ $scriptsLazy = $scriptsLazy | minify | fingerprint }}
+  {{ end }}
+
+  {{/* scripts lazy */}}
+  <script
+    defer
+    async
+    crossorigin="anonymous"
+    integrity="{{ $scriptsLazy.Data.Integrity }}"
+    src="{{ $scriptsLazy.RelPermalink }}"></script>
+{{ end }}
 
 <!-- progressive web app -->
 {{ partialCached "pwa.html" . }}
