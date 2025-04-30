@@ -10,6 +10,7 @@
 {{ $resize:= .Resize | default true }}
 {{ $loading:= .Loading | default "lazy" }}
 {{ $fetchPriority:= .FetchPriority | default "auto" }}
+{{ $decoding:= .Decoding | default "async" }}
 {{ $context:= .Context | default . }}
 {{ $contentImage:= false }}
 {{ $assetImage:= false }}
@@ -36,7 +37,7 @@
 
 <!-- image static/CDN -->
 {{ if or (hasPrefix $imagePath "http") (fileExists (add `static/` (string $imagePath))) }}
-<img loading="{{ .Loading }}" decoding="async" fetchpriority="{{ $fetchPriority }}" src="{{ $imagePath | absURL }}" alt="{{ .Alt }}" class="{{ $class }} img"
+<img loading="{{ $loading }}" decoding="{{ $decoding }}" fetchpriority="{{ $fetchPriority }}" src="{{ $imagePath | absURL }}" alt="{{ .Alt }}" class="{{ $class }} img"
     height="{{ $height }}" width="{{ $width }}" />
 {{ else }}
 <!-- /image cdn -->
@@ -68,7 +69,7 @@
 
 <!-- gif/svg image -->
 {{ if or (eq $imageExt `.gif`) (eq $imageExt `.svg`) }}
-<img src="{{ $image.RelPermalink }}" loading="{{ $loading }}" fetchpriority="{{ $fetchPriority }}" decoding="async" alt="{{ .Alt }}" class="{{ $class }} img"
+<img src="{{ $image.RelPermalink }}" loading="{{ $loading }}" fetchpriority="{{ $fetchPriority }}" decoding="{{ $decoding }}" alt="{{ .Alt }}" class="{{ $class }} img"
     width="{{ $width }}" height="{{ $height }}" />
 {{ else }}
 <!-- single image -->
@@ -108,7 +109,7 @@
 
 
 <img {{ if $placeholder }} src="data:image/jpeg;base64,{{ $placeholderImage.Content | base64Encode }}" data-src={{
-    $imageWebp.RelPermalink }} {{ else }} src="{{ $imageWebp.RelPermalink }}" loading="{{ $loading }}" fetchpriority="{{ $fetchPriority }}" decoding="async"
+    $imageWebp.RelPermalink }} {{ else }} src="{{ $imageWebp.RelPermalink }}" loading="{{ $loading }}" fetchpriority="{{ $fetchPriority }}" decoding="{{ $decoding }}"
     {{ end }} alt="{{ .Alt }}" class="{{ if $placeholder }}lazy{{ end }} {{ $class }} img" width="{{- with $width -}}
             {{- . -}}
           {{- else -}}
@@ -157,7 +158,7 @@
 
 <img {{ if $placeholder }} src="data:image/jpeg;base64,{{ $placeholderImage.Content | base64Encode }}" data-src={{
     $imageWebp.RelPermalink }} alt="placeholder" {{ else }} src="{{ $imageWebp.RelPermalink }}" loading="{{ $loading }}" fetchpriority="{{ $fetchPriority }}"
-    decoding="async" alt="{{ .Alt }}" {{ end }} class="{{ if $placeholder }}lazy{{ end }} {{ $class }} img" width="{{- with $width -}}
+    decoding="{{ $decoding }}" alt="{{ .Alt }}" {{ end }} class="{{ if $placeholder }}lazy{{ end }} {{ $class }} img" width="{{- with $width -}}
             {{- . -}}
           {{- else -}}
             {{- $imageWebp.Width -}}
@@ -202,7 +203,7 @@
     <source {{ if $placeholder }} src="data:image/jpeg;base64,{{ $placeholderImage.Content | base64Encode }}"
         data-srcset={{ $imageFallback.RelPermalink }} {{ else }} srcset="{{ $imageXL.RelPermalink }}" {{ end }} />
     <img {{ if $placeholder }} src="data:image/jpeg;base64,{{ $placeholderImage.Content | base64Encode }}" data-src={{
-        $imageFallback.RelPermalink }} {{ else }} loading="{{ $loading }}" fetchpriority="{{ $fetchPriority }}" decoding="async"
+        $imageFallback.RelPermalink }} {{ else }} loading="{{ $loading }}" fetchpriority="{{ $fetchPriority }}" decoding="{{ $decoding }}"
         src="{{ $imageFallback.RelPermalink }}" {{ end }}class="{{ if $placeholder }}
               lazy
             {{ end }} {{ $class }} img" alt="{{ .Alt }}" width="{{ $image.Width }}" height="{{ $image.Height }}" />

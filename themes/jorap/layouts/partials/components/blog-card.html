@@ -2,7 +2,7 @@
   {{ $image:= .Params.image }}
   {{ if $image }}
   <a href="{{ .RelPermalink }}" class="block relative overflow-hidden aspect-[413/220]">
-    {{ partial "components/image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-3 image--partial w-full h-full object-cover aspect-[413/208]" "Size" "413x208" "Loading" "eager" "FetchPriority" "high") }}
+    {{ partial "components/image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-3 image--partial w-full h-full object-cover aspect-[413/208]" "Size" "413x208" "Loading" "eager" "FetchPriority" "high" "Decoding" "async") }}
   </a>
   {{ end }}
   <h3 class="mb-3">
