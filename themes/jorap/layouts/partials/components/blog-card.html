@@ -1,8 +1,8 @@
 <div class="bg-body dark:bg-darkmode-body component--blog-card flex flex-col h-full">
   {{ $image:= .Params.image }}
   {{ if $image }}
-  <a href="{{ .RelPermalink }}">
-    {{ partial "components/image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 image--partial aspect-[413/208]" "Size" "413x208" "Loading" "eager" "FetchPriority" "high") }}
+  <a href="{{ .RelPermalink }}" class="block relative overflow-hidden" style="aspect-ratio: 413/208;">
+    {{ partial "components/image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 image--partial w-full h-full object-cover" "Size" "413x208" "Loading" "eager" "FetchPriority" "high") }}
   </a>
   {{ end }}
   <h3 class="mb-3">
