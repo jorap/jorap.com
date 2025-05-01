@@ -95,3 +95,7 @@ blockquote p:last-child {
 blockquote li {
   font-size: var(--text-base);
 }
+
+.tags_section ul {
+  padding-inline-start: 0;
+}

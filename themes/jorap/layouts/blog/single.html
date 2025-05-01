@@ -58,7 +58,7 @@
 
             {{ $tags:= .Params.tags }}
             {{ if $tags }}
-            <div class="mb-2">
+            <div class="mb-2 tags_section">
               <h6 class="mb-2">{{ T "tags" }}</h6>
               <ul>
                 {{ range $i,$p:= $tags }}
@@ -74,7 +74,7 @@
             </div>
             {{ end }}
 
-            <div class="mb-2">
+            <div class="mb-2 share_section">
               <h6 class="mb-2">{{ T "share" }}</h6>
               {{ partial "components/social-share" (dict "Context" . "Class" "share-icons" "Title" .Title "Whatsapp"
               false "Telegram" false "Pinterest" false "Tumblr" false "Vk" false "Reddit" false) }}
