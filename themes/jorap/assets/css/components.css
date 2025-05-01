@@ -97,5 +97,12 @@ blockquote li {
 }
 
 .tags_section ul {
-  padding-inline-start: 0;
+  padding-inline: 0;
+  margin: 0;
 }
+
+.tags_section ul li.inline-block {
+  padding-inline-start: 0;
+  padding-inline-end: 0.375em;
+}
+
