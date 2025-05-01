@@ -21,21 +21,22 @@
               </a>
             </li>
             */}}
+            <li class="mr-4 block">
+              <i class="fa-regular fa-clock mr-1"></i>
+              {{ time.Format ":date_long" .PublishDate }}
+            </li>
             {{ $categories:= .Params.categories }}
             {{ if $categories }}
             <li class="mr-4 inline-block">
               <i class="fa-regular fa-folder mr-1"></i>
               {{ range $i,$p:= $categories }}
-              <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="">{{ . | humanize }}{{ if ne $i
+              <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="">{{/* . | humanize */}}
+                {{ . | title }}{{ if ne $i
                 (sub (len $categories) 1) }}{{ "," }}{{ end }}
               </a>
               {{ end }}
             </li>
             {{ end }}
-            <li class="mr-4 inline-block">
-              <i class="fa-regular fa-clock mr-1"></i>
-              {{ time.Format ":date_long" .PublishDate }}
-            </li>
           </ul>
 
           {{/* Mobile TOC - appears after meta but before content*/}}

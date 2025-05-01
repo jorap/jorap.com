@@ -5,14 +5,18 @@
     {{ partial "components/image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-3 image--partial w-full h-full object-cover aspect-[413/208]" "Size" "413x208" "Loading" "eager" "FetchPriority" "high" "Decoding" "async") }}
   </a>
   {{ end }}
-  <h3 class="mb-3">
+  <h3 class="mb-3 text-2xl text-balance">
     <a href="{{ .RelPermalink }}">
       {{ .Title }}
     </a>
   </h3>
-  {{ $categories:= .Params.categories }}
-  {{ if $categories }}
   <ul class="mb-4">
+    <li class="mb-2 block">
+      <i class="fa-regular fa-clock mr-1"></i>
+      {{ time.Format ":date_long" .PublishDate }}
+    </li>
+    {{ $categories:= .Params.categories }}
+    {{ if $categories }}
     {{/*
     <li class="mr-4 inline-block">
       <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
@@ -23,13 +27,14 @@
     <li class="mr-4 inline-block">
       <i class="fa-regular fa-folder mr-1"></i>
       {{ range $i,$p:= $categories }}
-      <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="ms-0">{{ . | humanize }}{{ if ne $i
+      <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="ms-0">{{/* . | humanize */}}
+        {{ . | title }}{{ if ne $i
         (sub (len $categories) 1) }},{{ end }}
       </a>
       {{ end }}
     </li>
+    {{ end }}
   </ul>
-  {{ end }}
   <p class="mb-6">{{ if .Description }}{{ .Description | plainify }}{{ else }}{{ .Summary | plainify }}{{ end }}</p>
   <div class="mt-auto">
     <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
