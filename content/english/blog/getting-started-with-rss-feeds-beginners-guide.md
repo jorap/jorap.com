@@ -3,7 +3,7 @@ title: "Getting Started with RSS Feeds: A Beginner's Guide"
 meta_title: "RSS Feeds for Streamlined Content Discovery"
 description: "Learn how to make the most out of RSS feeds with Inoreader for efficient content discovery and management."
 date: 2023-10-07T05:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/rss.jpg"
 categories: ["Technology", "Productivity"]
 author: "John Doe"
 tags: ["RSS Feeds", "Inoreader", "Content Management"]

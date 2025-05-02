@@ -3,7 +3,7 @@ title: "The Best Feature of Facebook: Favorites Feed"
 meta_title: "Discover Facebook's Favorites Feed: Your Personalized Content Hub"
 description: "Learn about Facebook's Favorites Feed and how it helps you stay updated on the content that matters most to you."
 date: 2025-04-01T05:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/fbf.jpg"
 categories: ["Social Media", "Technology"]
 author: "John Doe"
 tags: ["Facebook", "Favorites Feed", "Social Media Features"]

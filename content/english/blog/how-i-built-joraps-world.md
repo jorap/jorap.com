@@ -3,7 +3,7 @@ title: "How I Built JoRap's World"
 meta_title: ""
 description: "A simple guide to building a website with Hugo and hosting it for free."
 date: 1981-06-14T05:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/joraps-world.jpg"
 categories: ["Sample"]
 author: "John Doe"
 tags: ["Website Building", "Free Hosting", "Hugo CMS"]
