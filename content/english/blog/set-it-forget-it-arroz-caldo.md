@@ -13,14 +13,14 @@ One of my favorite Friday night rituals is prepping **Arroz Caldo**—a warm, he
 
 ---
 
-## Key Secrets to Easy Arroz Caldo
+## Key Secrets to a Set It and Forget It Arroz Caldo
 
-**1. Use a Rice Cooker with a Congee Setting**  
-The real game-changer: a rice cooker that has a dedicated **Congee** function. Here's what I use:  
+**1. Use a Rice Cooker with a Congee Setting**
+The real game-changer: a rice cooker that has a dedicated **Congee** function. This is the tool where I can prepare Arroz Caldo in the evening and eat it in the morning. Here's what I use:
 [Hanabishi Congee & Rice Cooker Series HRCR2C](https://myhanabishi.com/collections/rice-cookers-3/products/rice-cooker-hrc-r2c?variant=45693133881625)
 
-**2. Choose the Right Chicken**  
-I recommend **chicken thigh fillets**. They're rich in fat, tender, and forgiving—even when cooked for a long time.
+**2. Choose the Right Chicken**
+I highly recommend **chicken thigh fillets**. They're rich in fat, tender, and forgiving—even when cooked for a long time.
 
 ---
 
@@ -30,7 +30,7 @@ I start with a solid foundation using this trusted recipe, then tweak it to fit 
 
 - [Panlasang Pinoy Chicken Arroz Caldo Recipe](https://panlasangpinoy.com/chicken-arroz-caldo-recipe-glutinous-rice-porridge/)
 
-### Watch the Recipe in Action  
+### Watch the Recipe in Action
 {{< youtube_time id="7lka80ZAays" start="14" end="388" >}}
 
 ---
@@ -74,15 +74,11 @@ I start with a solid foundation using this trusted recipe, then tweak it to fit 
 
 ---
 
-Here's a combined version of both the guide I provided and the article you shared, blending the practical step-by-step instructions with personal touches, customization options, and additional resources:
-
----
-
 # The Set It and Forget It Arroz Caldo
 
 One of my favorite Friday night rituals is prepping **Arroz Caldo**—a warm, hearty Filipino rice porridge that makes Saturday breakfast something to look forward to. This comforting dish is perfect for when you need something easy, yet deeply satisfying. The best part? You can use a rice cooker with a congee setting to make the whole process hassle-free.
 
-Whether you're new to cooking or just want to simplify your favorite Filipino dish, this guide will walk you through how to make the perfect arroz caldo using the rice cooker’s congee function. Let’s dive in!
+Whether you're new to cooking or just want to simplify your favorite Filipino dish, this guide will walk you through how to make the perfect Arroz Caldo using the rice cooker’s congee function. Let’s dive in!
 
 ---
 
@@ -92,11 +88,11 @@ Whether you're new to cooking or just want to simplify your favorite Filipino di
 
 The real game-changer: a rice cooker with a **Congee** function. If you're not familiar with it, the congee setting is designed to cook rice with a higher liquid ratio, perfect for achieving that creamy porridge-like texture without constant stirring.
 
-I use the **[Hanabishi Congee & Rice Cooker Series HRCR2C](https://myhanabishi.com/collections/rice-cookers-3/products/rice-cooker-hrc-r2c?variant=45693133881625)**, which has made my arroz caldo routine easy and consistent every time.
+I use the **[Hanabishi Congee & Rice Cooker Series HRCR2C](https://myhanabishi.com/collections/rice-cookers-3/products/rice-cooker-hrc-r2c?variant=45693133881625)**, which has made my Arroz Caldo routine easy and consistent every time.
 
 ### 2. **Choose the Right Chicken**
 
-Chicken thighs are my go-to for arroz caldo. They’re rich in fat, tender, and forgiving—even when cooked for long periods. You can go for bone-in or boneless, depending on your preference.
+Chicken thighs are my go-to for Arroz Caldo. They’re rich in fat, tender, and forgiving—even when cooked for long periods. You can go for bone-in or boneless, depending on your preference.
 
 ---
 
@@ -141,7 +137,7 @@ Chicken thighs are my go-to for arroz caldo. They’re rich in fat, tender, and 
 
 ### 2. **Sauté the Aromatics (Optional but Recommended):**
 
-* If you want to take the flavor to the next level, turn on the rice cooker and use the **‘Cook’** function to sauté garlic, onion, and ginger until fragrant (about 3-4 minutes). This adds a deep, savory aroma to your arroz caldo.
+* If you want to take the flavor to the next level, turn on the rice cooker and use the **‘Cook’** function to sauté garlic, onion, and ginger until fragrant (about 3-4 minutes). This adds a deep, savory aroma to your Arroz Caldo.
 * If you prefer a more hands-off approach, you can skip this step and add all the ingredients directly into the cooker.
 
 ### 3. **Add Rice, Chicken, and Liquid:**
@@ -161,7 +157,7 @@ Chicken thighs are my go-to for arroz caldo. They’re rich in fat, tender, and 
 
 ## Optional Toppings & Garnishes:
 
-Top your arroz caldo with any of the following for added flavor and texture:
+Top your Arroz Caldo with any of the following for added flavor and texture:
 
 * **Fried garlic chips:** Adds a nice crunch and depth of flavor.
 * **Chopped spring onions or green onions:** For a fresh, herbal kick.
@@ -172,7 +168,7 @@ Top your arroz caldo with any of the following for added flavor and texture:
 
 ## Troubleshooting Tips:
 
-* **Too thick:** If your arroz caldo turns out too thick, simply add more water or broth in small increments, stirring as you go.
+* **Too thick:** If your Arroz Caldo turns out too thick, simply add more water or broth in small increments, stirring as you go.
 * **Too thin:** Let it cook for a few more minutes or let it sit on **Keep Warm** to allow some liquid to evaporate. You can also add a bit more rice if needed.
 
 ---
@@ -185,10 +181,10 @@ If you're a visual learner, check out the **[Panlasang Pinoy Chicken Arroz Caldo
 
 ## Conclusion:
 
-Arroz caldo is a comforting, versatile dish that brings warmth and satisfaction to any meal. Thanks to the rice cooker’s congee setting, you can effortlessly create a creamy, flavorful arroz caldo with minimal effort. Customize it with your favorite toppings or condiments, and you’ll have a delicious, hearty meal perfect for sharing with friends or family.
+Arroz Caldo is a comforting, versatile dish that brings warmth and satisfaction to any meal. Thanks to the rice cooker’s congee setting, you can effortlessly create a creamy, flavorful Arroz Caldo with minimal effort. Customize it with your favorite toppings or condiments, and you’ll have a delicious, hearty meal perfect for sharing with friends or family.
 
-Enjoy the simplicity and comfort of arroz caldo, and don’t forget to share your results with loved ones!
+Enjoy the simplicity and comfort of Arroz Caldo, and don’t forget to share your results with loved ones!
 
 ---
 
-Enjoy your arroz caldo, and feel free to share your creations or any variations you’ve tried!
+Enjoy your Arroz Caldo, and feel free to share your creations or any variations you’ve tried!
