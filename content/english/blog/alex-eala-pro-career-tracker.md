@@ -74,6 +74,19 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 
 ---
 
+## Matches Against Other Top 10 Players
+
+### Jessica Pegula
+
+- [WTA Profile](https://www.wtatennis.com/players/316956/jessica-pegula)
+
+**Matches:**
+- **2025 Miami Open – Loss** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906267/)
+
+  {{< youtube efazYG5hSAA >}}
+
+---
+
 ## Image Credits
 
 - <a href="https://commons.wikimedia.org/wiki/File:Alex_Eala_(2024_US_Open)_02.jpg">Hameltion</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
