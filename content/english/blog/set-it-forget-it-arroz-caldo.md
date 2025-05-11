@@ -2,7 +2,8 @@
 title: "The Set It and Forget It Arroz Caldo"
 meta_title: "The Set It and Forget It Arroz Caldo"
 description: "My Friday night habit: prepping Arroz Caldo to reward myself with a cozy Saturday breakfast."
-date: 2022-04-04T05:00:00Z
+slug: "set-it-forget-it-arroz-caldo"
+date: 2024-03-29T05:00:00Z
 image: "/images/arroz-caldo.jpg"
 categories: ["Food", "Recipes"]
 author: "John Doe"

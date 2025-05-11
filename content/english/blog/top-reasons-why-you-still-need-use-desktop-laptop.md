@@ -2,7 +2,8 @@
 title: "Top Reasons Why You Still Need to Use a Desktop or Laptop"
 meta_title: "Top Reasons You Still Need a Computer"
 description: "Why owning a desktop or laptop still matters even in a mobile-first world."
-date: 2022-04-04T05:00:00Z
+slug: "top-reasons-why-you-still-need-use-a-desktop-laptop"
+date: 2021-06-14T05:00:00Z
 image: "/images/feature-desktop.jpg"
 categories: ["Technology"]
 author: "John Doe"

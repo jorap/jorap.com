@@ -2,7 +2,8 @@
 title: "The Miracle of Isaiah David"
 meta_title: "The Miracle of Isaiah David – A Story of Hope and Faith"
 description: "Experience the inspiring testimonies and media features surrounding the miraculous birth of Isaiah David."
-date: 2022-04-04T05:00:00Z
+slug: "miracle-isaiah-david"
+date: 2023-05-08T05:00:00Z
 image: "/images/feature-isaiah-david.jpg"
 categories: ["Testimony"]
 author: "John Doe"

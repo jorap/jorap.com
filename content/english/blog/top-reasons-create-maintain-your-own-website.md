@@ -2,7 +2,8 @@
 title: "Top Reasons to Create and Maintain Your Own Website"
 meta_title: "Top Reasons to Create and Maintain Your Own Website"
 description: "Social media offers ways to publish online, but here are seven reasons why owning and maintaining your own website is crucial."
-date: 2022-04-04T05:00:00Z
+slug: "top-reasons-create-maintain-your-own-website"
+date: 2024-03-10T05:00:00Z
 image: "/images/website.jpg"
 categories: ["Website"]
 author: "John Doe"

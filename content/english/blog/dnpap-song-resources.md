@@ -2,7 +2,8 @@
 title: "DNPAP – Song Resources"
 meta_title: "DNPAP – Song Resources by Destiny Music | Spotify, YouTube, Lyrics"
 description: "Discover everything about 'DNPAP' (Diyos Ng Pagasa at Pagibig) by Destiny Music. Stream the song, watch the videos, and access all resources here."
-date: 2022-04-04T05:00:00Z
+slug: "dnpap-song-resources"
+date: 2022-11-12T05:00:00Z
 image: "/images/feature-dnpap.jpg"
 categories: ["Worship"]
 author: "John Doe"
