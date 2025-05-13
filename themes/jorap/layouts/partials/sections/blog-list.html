@@ -7,14 +7,13 @@
                     <h2 class="text-center text-5xl font-bold mb-10">Latest Blog Posts</h2>
                     {{ $blogPages := where site.RegularPages "Section" "blog" }}
                     {{ $sortedPages := $blogPages.ByDate.Reverse }}
-                    {{ $paginator := .Paginate $sortedPages 12 }}
-                    {{ range $paginator.Pages }}
+                    {{ $recentPosts := first 9 $sortedPages }}
+                    {{ range $recentPosts }}
                     <div class="md:col-4 mb-14">
                         {{ partial "components/blog-card" . }}
                     </div>
                     {{ end }}
                 </div>
-                {{ partial "components/pagination.html" . }}
             </div>
         </div>
     </div>
