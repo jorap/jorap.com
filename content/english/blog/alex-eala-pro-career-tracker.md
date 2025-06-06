@@ -22,6 +22,64 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 
 ---
 
+## Best Performances in WTA Tournaments
+
+### Singles
+
+- **2025 Miami Open (WTA 1000)** - Semifinals
+  - First Filipina to reach WTA 1000 Tour Semifinals
+  - Defeated Madison Keys (No. 5), Iga Swiatek (No. 2), Jelena Ostapenko (No. 25)
+  - Lost to Jessica Pegula in Semifinals
+
+- **2025 Workday Canberra International (WTA 125)** - Semifinals
+
+- **2024 Veneto Open (WTA 125)** - Quarterfinals
+
+### Doubles
+
+- **2025 Rome Open (WTA 1000)** - Quarterfinals (with Coco Gauff)
+  - Lost to defending champions Jasmine Paolini / Sara Errani
+
+- **2024 Ningbo Open (WTA 500)** - Quarterfinals (with En-Shuo Liang)
+
+- **2024 Guadalajara Open (WTA 125)** - Quarterfinals (with Kimberly Birrell)
+
+- **2024 Polish Open (WTA 125)** - Quarterfinals (with Darja Semenistaja)
+
+- **2024 Workday Canberra International (WTA 125)** - Semifinals (with Laura Pigossi)
+
+---
+
+## Grand Slam Main Draw Results
+
+### Singles
+
+**2025**
+- **French Open** - 1st Round
+  - [1st Round](https://www.rolandgarros.com/en-us/matches/2025/SD078)
+  - First Filipina to compete in a Grand Slam main draw
+
+### Doubles
+
+**2025**
+- **French Open** - 2nd Round (with Renata Zarazua)
+  - [1st Round](https://www.rolandgarros.com/en-us/matches/2025/DD049)
+  - [2nd Round](https://www.rolandgarros.com/en-us/matches/2025/DD024)
+
+---
+
+## Career Rankings
+
+**Singles:**
+- **Career High:** No. 69
+  - Highest-ranked Filipina in WTA history
+
+
+**Doubles:**
+- **Career High:** No. 158
+
+---
+
 ## Matches Against Grand Slam Champions
 
 ### Iga Swiatek
