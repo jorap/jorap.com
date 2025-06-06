@@ -5,7 +5,7 @@ meta_title: "The Power of Worship Pads: Enhancing Your Worship with a Guitar"
 description: "Discover how worship pads and a guitar can create a seamless atmosphere and enhance the spiritual tone of your worship services."
 slug: "power-of-worship-pads-enhancing-your-worship-with-guitar"
 date: 2025-05-04T05:00:00Z
-image: "/images/guitar.jpg"
+image: "/images/worship-pads.jpg"
 categories: ["Worship", "Music"]
 author: "John Doe"
 tags: ["Worship Pads", "Church Music", "Worship Leading", "Guitar Worship"]
