@@ -26,14 +26,14 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 
 ### Singles
 
-- **2025 Miami Open (WTA 1000)** - Semifinals
+- **2025 Miami Open (WTA 1000)** - [Semifinals](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906267/)
   - First Filipina to reach WTA 1000 Tour Semifinals
   - Defeated Madison Keys (No. 5), Iga Swiatek (No. 2), Jelena Ostapenko (No. 25)
   - Lost to Jessica Pegula in Semifinals
 
-- **2025 Workday Canberra International (WTA 125)** - Semifinals
+- **2025 Workday Canberra International (WTA 125)** - [Semifinals](https://www.tennis.com/tournaments/sr-tournament-41642-wta-125k-canberra-australia/sr-match-56728233/)
 
-- **2024 Veneto Open (WTA 125)** - Quarterfinals
+- **2024 Veneto Open (WTA 125)** - [Quarterfinals](https://www.wtatennis.com/tournaments/2062/gaiba-125/2024/scores/LS006)
 
 ### Doubles
 
