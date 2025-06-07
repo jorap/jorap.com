@@ -42,6 +42,12 @@ Think of your website as **your personal gallery** or **digital portfolio**. Whe
 
 On social media, you're a guest—you play by their rules. Accounts can get suspended, platforms can fade away. **Your website is yours to own.** You safeguard your content, build authority on your own terms, and can still integrate your website with your favorite social channels.
 
+**The Risk is Real:**
+- **81% of small businesses** rely heavily on social media for customer acquisition (HubSpot, 2023)
+- **Over 200 social platforms** have shut down since 2000, taking user content with them
+- **Average social media post lifespan**: 1-7 days before it's buried in feeds
+- **Platform dependency risk**: Algorithm changes can reduce organic reach by up to 95%
+
 **Practical Examples:**
 - **Platform Independence**: When Vine shut down in 2017, creators lost their entire content libraries. Your website ensures your content remains accessible regardless of platform changes
 - **Content Backup**: A blogger who posts on Medium can republish their articles on their own site, ensuring they retain ownership even if Medium changes its monetization policies
@@ -66,11 +72,23 @@ Maintaining a blog, tutorials, or articles forces you to **refine your thinking*
 
 Social media isn't designed for fine-tuned SEO strategies. With a website, you can **optimize everything**: keywords, meta descriptions, alt text, internal linking—you name it. The payoff? **Higher rankings, more traffic, and greater opportunities** over time.
 
+**The Numbers Speak for Themselves:**
+- **68% of online experiences** begin with a search engine (BrightEdge, 2023)
+- Websites appearing on **Google's first page** receive 95% of web traffic
+- **Organic search** drives 53% of all website traffic, compared to just 5% from social media
+- Businesses with websites see **126% higher lead growth** than those relying solely on social media
+
 **Practical Examples:**
 - **Local SEO**: A local bakery can optimize for "fresh bread [city name]" and appear in local search results when people look for nearby bakeries
 - **Long-tail Keywords**: A fitness coach can create pages targeting specific searches like "beginner strength training for women over 40" to capture niche audiences
 - **Content Clusters**: A financial advisor can create interconnected articles about retirement planning, investment strategies, and tax optimization, boosting overall domain authority
 - **Technical SEO**: An e-commerce site can implement structured data markup to display product ratings and prices directly in search results, increasing click-through rates
+
+**Timeline Expectations:**
+- **Months 1-3**: Basic SEO setup and content creation phase
+- **Months 3-6**: Search engines begin indexing and ranking your content
+- **Months 6-12**: Significant organic traffic growth becomes visible
+- **Year 1+**: Compound growth as domain authority builds and content library expands
 
 ---
 
@@ -78,12 +96,63 @@ Social media isn't designed for fine-tuned SEO strategies. With a website, you c
 
 With your own website, you get detailed insights into your audience's behavior. Tools like Google Analytics help you understand what content resonates, where your visitors come from, and how to improve their experience. This data empowers you to make informed decisions and grow strategically.
 
+**Data-Driven Success:**
+- **Businesses using analytics** are 5x more likely to make faster decisions than competitors
+- **Companies that use web analytics** see an average 126% improvement in their profits
+- **Social media analytics** provide limited demographic data compared to website analytics
+- **Website conversion rates** average 2.35% across industries, vs. 0.9% for social media
+
 **Practical Examples:**
 - **Content Performance**: A blogger can identify which articles generate the most engagement and create similar content to meet audience demand
 - **User Behavior Analysis**: An e-commerce store can track where visitors drop off in the checkout process and optimize those pages to increase conversions
 - **Traffic Source Insights**: A service provider can discover that most clients find them through specific keywords and double down on that SEO strategy
 - **Demographic Data**: A content creator can learn their audience's age, location, and interests to tailor future content and marketing efforts
 - **Conversion Tracking**: A consultant can measure which pages lead to the most contact form submissions and optimize their website accordingly
+
+---
+
+## Cost Comparison: Website vs. Social Media Marketing
+
+Let's address the elephant in the room: **cost**. While social media appears "free," effective social media marketing requires significant investment in paid advertising to reach your audience.
+
+**Website Costs (Annual):**
+- **Basic Website**: $100-500 (hosting + domain + simple builder)
+- **Professional Website**: $500-2,000 (custom design + premium hosting)
+- **E-commerce Site**: $1,000-5,000 (includes payment processing + inventory management)
+
+**Social Media Marketing Costs (Annual):**
+- **Facebook Ads**: $1,200-12,000+ (average $100-1,000/month for small businesses)
+- **LinkedIn Ads**: $3,600-18,000+ (higher cost per click than other platforms)
+- **Instagram/TikTok Ads**: $1,800-10,800+ (varies by industry and competition)
+
+**The Reality**: A professional website often costs **less than 2-3 months** of social media advertising, yet provides **lasting value** rather than temporary exposure.
+
+---
+
+## Addressing Common Concerns
+
+**"But maintaining a website seems complicated..."**
+
+Modern website builders have dramatically simplified the process:
+- **No-Code Solutions**: Platforms like WordPress, Squarespace, and Wix require no technical knowledge
+- **Automatic Updates**: Most hosting providers handle security updates automatically
+- **Time Investment**: 2-4 hours monthly for basic maintenance and content updates
+- **Support Available**: Most platforms offer 24/7 customer support and extensive documentation
+
+**"What about ongoing maintenance costs?"**
+
+Website maintenance is more affordable than you think:
+- **Basic Maintenance**: $50-100/month (or DIY in 2-4 hours)
+- **Professional Maintenance**: $100-300/month (includes backups, security, updates)
+- **Compare to**: Average cost of hiring a social media manager ($1,000-3,000/month)
+
+**"Will people actually find my website?"**
+
+With proper SEO strategy:
+- **Local businesses** typically see website traffic within 3-6 months
+- **Content creators** who consistently publish see organic growth within 6-12 months
+- **E-commerce sites** with good product descriptions and reviews gain traction in 6-9 months
+- **Service providers** often get leads from their website within the first 3 months
 
 ---
 

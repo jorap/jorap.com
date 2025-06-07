@@ -11,7 +11,9 @@ tags: ["Arroz Caldo", "Comfort Food", "Filipino Recipes", "Easy Cooking", "Rice 
 draft: false
 ---
 
-One of my favorite Friday night rituals is prepping **Arroz Caldo**—a warm, hearty Filipino rice porridge that makes Saturday breakfast something to look forward to. This comforting dish is perfect when you need something easy, yet deeply satisfying. The best part? You can use a rice cooker with a congee setting to make the whole process hassle-free.
+One of my favorite Friday night rituals is prepping **Arroz Caldo**—a warm, hearty Filipino rice porridge that makes Saturday breakfast something to look forward to. This comforting dish is perfect when you need something easy, yet deeply satisfying. Beyond being delicious, Arroz Caldo provides nourishing comfort with its combination of protein-rich chicken, warming ginger (great for digestion), and easily digestible rice that's gentle on the stomach. The best part? You can use a rice cooker with a congee setting to make the whole process hassle-free.
+
+**Total Time:** ~60-70 minutes (5 min prep + 45-60 min cooking) | **Serves:** 4-6 people
 
 ---
 
@@ -32,7 +34,7 @@ Chicken thigh fillets are rich in fat, tender, and forgiving—even when cooked 
 - **1 cup glutinous rice (Malagkit)** - rinsed thoroughly
 - **1 kg chicken thigh fillets** - boneless, cut into bite-sized pieces
 - **1 Knorr chicken cube** (or chicken powder)
-- **3 thumbs minced ginger** (or Lee Kum Kee ginger)
+- **3 inches fresh ginger, minced** (about 3 tablespoons, or Lee Kum Kee ginger)
 - **4 cloves chopped garlic** (or garlic powder)
 - **2–3 tbsp fish sauce (Patis)** - adjust to taste
 - **1/4 tsp ground black pepper**

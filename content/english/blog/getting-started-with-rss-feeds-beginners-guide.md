@@ -169,8 +169,11 @@ As you become comfortable with RSS feeds, consider these advanced applications:
 ## Making RSS Feeds a Lasting Habit
 
 **Week 1-2:** Focus on setup and finding 5-10 essential feeds
-**Week 3-4:** Establish daily reading routines and organization systems  
+
+**Week 3-4:** Establish daily reading routines and organization systems
+
 **Month 2:** Optimize your feed selection and explore advanced features
+
 **Month 3+:** Fine-tune your workflow and maintain your content diet
 
 ## Conclusion: Your Content Consumption Revolution
