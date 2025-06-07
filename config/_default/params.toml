@@ -66,7 +66,9 @@ keywords = ["JoRap", "JoRap.com"]
 description = "I'm funny, but I'm not kidding."
 author = "JoRap"
 twitter = "jorap"
-image = "images/jorap.png"
+image = "images/jw.jpg"
+image_width = "851"
+image_height = "428"
 
 
 # site verifications
