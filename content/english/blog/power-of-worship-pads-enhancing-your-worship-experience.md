@@ -40,6 +40,19 @@ Think of them as:
 
 ---
 
+## Why Use Pads with Guitar?
+
+**Transform Your Worship Experience:**
+
+- **Fuller Sound** - Transform solo guitar into rich, layered experience
+- **Smooth Transitions** - Eliminate awkward silences between songs
+- **Enhanced Atmosphere** - Create deeper moments of reflection and prayer
+- **Vocal Support** - Give singers a rich foundation
+- **Confidence Boost** - Feel more supported as a solo leader
+- **Flexibility** - Adapt to any venue size or acoustic environment
+
+---
+
 ## How to Access Worship Pads
 
 While there are worship pad apps available, **MP3 files are the superior choice** for most worship situations.
@@ -80,8 +93,6 @@ While there are worship pad apps available, **MP3 files are the superior choice*
 
 ## Essential Features for Worship Pad Playback
 
-**Must-Have Features:**
-
 When choosing an MP3 player, you absolutely need:
 
 - **Crossfade/Fade Functionality** - Smooth transitions without gaps
@@ -106,8 +117,6 @@ When choosing an MP3 player, you absolutely need:
 
 **VLC is the perfect choice** for worship pad playback because it's:
 
-**Why VLC Wins:**
-
 - **100% Free & Open Source** - No licensing costs ever
 - **Universal Platform Support** - Windows, Mac, Linux, mobile
 - **Rock-Solid Reliability** - Trusted in churches worldwide
@@ -125,66 +134,8 @@ When choosing an MP3 player, you absolutely need:
 **Step 2: Organize Your Pads**
 - Create key-based playlists (C Major, G Major, etc.)
 
-**Step 3: Learn Essential Hotkeys**
-- Spacebar: Play/pause
-- Ctrl+Up/Down: Volume control
-- F: Fullscreen mode
-
-**Step 4: Set Up Looping**
+**Step 3: Set Up Looping**
 - Right-click track → "Repeat One" for continuous ambient sound
-
----
-
-## Where to Download Free Worship Pad MP3s
-
-**Juan López Música:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4V_Wc6FyIjo?si=RrfbVWFZEVfZYCyT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-**Download Link:** http://bit.ly/WorshipAmbientPads
-
-**Churchfront:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qEvf-II2bSY?si=z9HMkWArhmbKYCAt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-**Download Link:** [Churchfront (Requires email address)](https://churchfront.com/ambient-pads/)
-
-**Reawaken Worship Pads & Karl Verkade:**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jp3mOchAGgY?si=euNHc66CFD91ws9u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-**Download Links:**
-- [Reawaken Worship Pads (Requires email)](https://www.reawakenhymns.com/worship-pads)
-- [Karl Verkade](https://karlverkade.bandcamp.com/album/bridge-ambient-pads-iii)
-
-**Search Tips for Quality Pads:**
-
-**Keywords to Use:**
-- "ambient pad"
-- "worship drone"
-- "string pad"
-- "atmospheric"
-
-**What to Look For:**
-- Tracks 3-10 minutes long (good for looping)
-- Highest quality available (320kbps MP3 or WAV)
-- Consistent volume levels across tracks
-- Organize by musical key immediately after download
-
-> **Important:** Always check licensing terms. Most Creative Commons and worship-specific sites allow free church use, but verify before using.
-
----
-
-## Why Use Pads with Guitar?
-
-**Transform Your Worship Experience:**
-
-- **Fuller Sound** - Transform solo guitar into rich, layered experience
-- **Smooth Transitions** - Eliminate awkward silences between songs
-- **Enhanced Atmosphere** - Create deeper moments of reflection and prayer
-- **Vocal Support** - Give singers a rich foundation
-- **Confidence Boost** - Feel more supported as a solo leader
-- **Flexibility** - Adapt to any venue size or acoustic environment
 
 ---
 
@@ -221,6 +172,30 @@ When choosing an MP3 player, you absolutely need:
 - Play simple chord progressions on guitar
 - Focus on dynamics - vary guitar intensity while pads fill space
 - **Get comfortable with the balance before leading others**
+
+---
+
+## Where to Download Free Worship Pad MP3s
+
+**Juan López Música:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4V_Wc6FyIjo?si=RrfbVWFZEVfZYCyT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**Download Link:** http://bit.ly/WorshipAmbientPads
+
+**Churchfront:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qEvf-II2bSY?si=z9HMkWArhmbKYCAt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**Download Link:** [Churchfront (Requires email address)](https://churchfront.com/ambient-pads/)
+
+**Reawaken Worship Pads & Karl Verkade:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jp3mOchAGgY?si=euNHc66CFD91ws9u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**Download Links:**
+- [Reawaken Worship Pads (Requires email)](https://www.reawakenhymns.com/worship-pads)
+- [Karl Verkade](https://karlverkade.bandcamp.com/album/bridge-ambient-pads-iii)
 
 ---
 
@@ -310,7 +285,7 @@ Leading worship with just a guitar doesn't mean settling for thin, incomplete so
 - Create professional-quality sound that rivals full bands
 - Focus entirely on leading while your team handles technical aspects
 
-### Remember the Essentials:
+**Remember the Essentials:**
 
 **Always provide song keys** to your media team in advance
 

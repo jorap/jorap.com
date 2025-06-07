@@ -5,7 +5,7 @@ description: "A simple guide to building a website with Hugo and hosting it for 
 slug: "how-i-built-joraps-world"
 date: 2024-06-14T05:00:00Z
 image: "/images/joraps-world.jpg"
-categories: ["Sample"]
+categories: ["Website"]
 author: "John Doe"
 tags: ["Website Building", "Free Hosting", "Hugo CMS"]
 draft: false
