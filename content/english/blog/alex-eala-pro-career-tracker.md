@@ -55,6 +55,7 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 ### Singles
 
 **2025**
+
 - **French Open** - 1st Round
   - [1st Round](https://www.rolandgarros.com/en-us/matches/2025/SD078)
   - First Filipina to compete in a Grand Slam main draw
@@ -62,6 +63,7 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 ### Doubles
 
 **2025**
+
 - **French Open** - 2nd Round (with Renata Zarazua)
   - [1st Round](https://www.rolandgarros.com/en-us/matches/2025/DD049)
   - [2nd Round](https://www.rolandgarros.com/en-us/matches/2025/DD024)
@@ -71,11 +73,12 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 ## Career Rankings
 
 **Singles:**
+
 - **Career High:** No. 69
   - Highest-ranked Filipina in WTA history
 
-
 **Doubles:**
+
 - **Career High:** No. 158
 
 ---
@@ -88,19 +91,21 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/326408)
 
 **Grand Slam Titles:**
+
 | Tournament  | Year(s)                |
 | ----------- | ---------------------- |
 | French Open | 2020, 2022, 2023, 2024 |
 | US Open     | 2022                   |
 
 **Matches:**
+
 - **2025 Miami Open – Hard Court - Win** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906263/)
 
-  {{< youtube maG9TzsuVeM >}}
+{{< youtube maG9TzsuVeM >}}
 
 - **2025 Madrid Open – Clay Court - Loss** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2785-madrid-spain/sr-match-59915292/)
 
-  {{< youtube TqBCa8hIHcY >}}
+{{< youtube TqBCa8hIHcY >}}
 
 ---
 
@@ -110,14 +115,16 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/316959)
 
 **Grand Slam Titles:**
+
 | Tournament      | Year |
 | --------------- | ---- |
 | Australian Open | 2025 |
 
 **Matches:**
+
 - **2025 Miami Open – Hard Court - Win** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906303/)
 
-  {{< youtube rK9CLjVv_dY >}}
+{{< youtube rK9CLjVv_dY >}}
 
 ---
 
@@ -127,11 +134,13 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/319939)
 
 **Grand Slam Titles:**
+
 | Tournament  | Year |
 | ----------- | ---- |
 | French Open | 2017 |
 
 **Matches:**
+
 - **2025 Miami Open – Hard Court - Win** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906325/)
 
 ---
@@ -144,9 +153,10 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/316956)
 
 **Matches:**
+
 - **2025 Miami Open – Hard Court - Loss** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906267/)
 
-  {{< youtube efazYG5hSAA >}}
+{{< youtube efazYG5hSAA >}}
 
 ---
 
