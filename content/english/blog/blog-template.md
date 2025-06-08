@@ -5,7 +5,7 @@ description: "Hugo CMS Reference for blog publishing."
 date: 1981-06-14T05:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Sample"]
-author: "John Doe"
+author: "JoRap"
 tags: ["Hugo CMS", "Markdown", "Shortcodes"]
 draft: true
 ---

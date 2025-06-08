@@ -6,7 +6,7 @@ slug: "top-reasons-why-you-still-need-use-desktop-laptop"
 date: 2021-06-14T05:00:00Z
 image: "/images/feature-desktop.jpg"
 categories: ["Technology"]
-author: "John Doe"
+author: "JoRap"
 tags: ["Computers", "Hardware", "Productivity"]
 draft: false
 ---

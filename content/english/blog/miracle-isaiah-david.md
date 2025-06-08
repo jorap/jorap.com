@@ -1,12 +1,12 @@
 ---
 title: "The Miracle of Isaiah David"
 meta_title: "The Miracle of Isaiah David – A Story of Hope and Faith"
-description: "Experience the inspiring testimonies and media features surrounding the miraculous birth of Isaiah David."
+description: "Our son was born the same day we found out Pia was pregnant. Here's the incredible story that made national news."
 slug: "miracle-isaiah-david"
 date: 2023-05-08T05:00:00Z
 image: "/images/feature-isaiah-david.jpg"
 categories: ["Testimony"]
-author: "John Doe"
+author: "JoRap"
 tags: ["Isaiah David", "Miracle Story", "700 Club Asia", "GMA News", "24 Oras", "DZMM Teleradyo", "Facebook", "YouTube"]
 draft: false
 ---

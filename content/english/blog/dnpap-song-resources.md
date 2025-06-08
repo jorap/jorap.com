@@ -6,7 +6,7 @@ slug: "dnpap-song-resources"
 date: 2022-11-12T05:00:00Z
 image: "/images/feature-dnpap.jpg"
 categories: ["Worship"]
-author: "John Doe"
+author: "JoRap"
 tags: ["DNPAP", "Destiny Music", "Worship", "Spotify", "YouTube"]
 draft: false
 ---

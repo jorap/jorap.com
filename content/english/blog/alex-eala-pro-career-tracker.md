@@ -6,7 +6,7 @@ slug: "alex-eala-pro-career-tracker"
 description: "Follow the latest highlights from Alex Eala's professional tennis career."
 image: "/images/alex-eala.jpg"
 categories: ["Sports"]
-author: "John Doe"
+author: "JoRap"
 tags: ["Tennis", "Alex Eala"]
 draft: false
 ---
