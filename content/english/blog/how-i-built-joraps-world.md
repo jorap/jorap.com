@@ -15,9 +15,9 @@ draft: false
 
 ## Why I Had to Start Over (The Backstory)
 
-So here's the thing - I was paying like $12/month for some basic PHP hosting for a client project. I was using the same hosting for my personal site as well. My personal site was doing well until my client decided to stop hosting their site.
+So here's the thing - I was paying around $12/month for some basic PHP hosting, sharing it between a client project and my personal site. Everything was going fine until my client decided to stop hosting their site, leaving me with the full hosting bill for what was essentially just my personal blog.
 
-As a developer, I was pretty frustrated and definitely didn't want to pay for hosting just for my personal site. That's when I decided to explore static site generators and the JAMstack approach I'd been hearing about. Turns out losing everything was the best thing that could have happened.
+Like many developers, I found myself in that frustrating position where paying for hosting just didn't make sense anymore. That's when I decided to explore static site generators and the JAMstack approach I'd been hearing about. Sometimes the best solutions come from being forced to find them!
 
 ## What I Ended Up Using (And Why It's Better)
 
@@ -27,9 +27,9 @@ I'd heard about Hugo but hadn't used it in production before. Coming from tradit
 
 The advantages are clear: no database, no server-side processing, no security vulnerabilities to patch. Just static files served blazingly fast from a CDN. The performance difference compared to my old dynamic site was immediately noticeable.
 
-**Learning curve**: As a developer, picking up Hugo was straightforward. The templating system is intuitive, and the documentation is solid. Setting it up on Windows took about 30 minutes including theme configuration.
+**Learning curve**: If you're coming from a development background, Hugo feels pretty natural to pick up. The templating system makes sense once you get the hang of it, and the documentation is helpful. Setting it up on Windows took about 30 minutes including theme configuration - your experience may vary!
 
-**Important note**: Keep track of your Hugo version from the start. You'll need it later when setting up deployment, and version mismatches will cause build failures (learned this the hard way).
+**Important note**: Keep track of your Hugo version from the start. You'll need it later when setting up deployment, and version mismatches will cause build failures (trust me on this one!).
 
 ### Cloudflare Pages - Free Hosting That Doesn't Suck
 
@@ -76,16 +76,16 @@ Now, let's get into how to build it.
 
 ### Getting Hugo Running
 
-**Windows is annoying for this stuff**, so here's what worked for me:
+**Windows setup takes a few more steps**, so here's what worked for me:
 
 1. Downloaded Hugo from their GitHub releases page
 2. Extracted it to `C:\hugo\bin`
-3. Added that to my Windows PATH (Google "add to PATH Windows" if you don't know how)
-4. Opened PowerShell and typed `hugo version` to make sure it worked
+3. Added that to my Windows PATH (Google "add to PATH Windows" if you're not familiar with this)
+4. Opened PowerShell and typed `hugo version` to confirm everything worked
 
 **Write down your version number** - you'll need it for deployment later.
 
-**Mac users have it easier** - just run this:
+**Mac users have a simpler route** - just run this:
 ```bash
 brew install hugo
 ```
@@ -104,11 +104,11 @@ This creates a bunch of folders. The important ones are `content/` (where your p
 
 ### Picking a Theme (This Took Forever)
 
-I spent way too long browsing themes. Like, embarrassingly long. There are hundreds of them and they all look good in the screenshots.
+You know how it goes - I spent way too long browsing themes. Like, embarrassingly long. There are hundreds of them and they all look amazing in the screenshots, making it nearly impossible to choose.
 
-I ended up going with [Hugoplate](https://github.com/zeon-studio/hugoplate) because it's modern, actively maintained, and has something I really wanted - **Tailwind CSS 4 integration**. Most Hugo themes still use older CSS approaches or older Tailwind versions, but Hugoplate gives you the latest Tailwind CSS v4.0 right out of the box.
+After much deliberation (okay, procrastination), I went with [Hugoplate](https://github.com/zeon-studio/hugoplate) because it's modern, actively maintained, and has something that caught my eye - **Tailwind CSS 4 integration**. Most Hugo themes still use older CSS approaches or older Tailwind versions, but Hugoplate gives you the latest Tailwind CSS v4.0 right out of the box.
 
-The Tailwind CSS 4 integration was a game-changer for me. It meant I could easily customize the design without fighting with complex CSS files or learning a theme's specific styling system. Want to change a color? Just update the Tailwind classes. Need responsive design? Tailwind handles it beautifully.
+The Tailwind CSS 4 integration turned out to be really helpful. It meant customizing the design was much easier - no fighting with complex CSS files or learning a theme's specific styling system. Want to change a color? Just update the Tailwind classes. Need responsive design? Tailwind takes care of it.
 
 **What else comes with Hugoplate:**
 - Dark mode support out of the box
@@ -173,39 +173,39 @@ Once you're happy with how your site looks locally, it's time to get it online.
 
 ### GitHub Setup
 
-First, I created a new repository on GitHub and pushed my code:
+First, create a new repository on GitHub and push your code:
 
 ```bash
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/jorap/jorap.com.git
+git remote add origin https://github.com/yourusername/yoursite.com.git
 git push -u origin main
 ```
 
-**I messed this up twice** because I forgot to add the remote origin. Git error messages are not beginner-friendly.
+**Pro tip**: It's easy to forget the remote origin step (happened to me twice!). Git error messages can be pretty cryptic when this happens.
 
 ### Cloudflare Pages Magic
 
 With your code on GitHub, setting up Cloudflare Pages is surprisingly simple:
 
-1. Signed up at pages.cloudflare.com
-2. Connected it to my GitHub account
-3. Selected my repository
+1. Sign up at pages.cloudflare.com
+2. Connect it to your GitHub account
+3. Select your repository
 4. Set build command to `hugo` and output directory to `public`
-5. Added environment variable `HUGO_VERSION` with `0.147.7`
+5. Add environment variable `HUGO_VERSION` with your version number
 
-**Important**: Make sure your Hugo version matches what you have locally, or the build will fail. I learned this after 3 failed deployments.
+**Important**: Make sure your Hugo version matches what you have locally, or the build will fail. This can save you from some frustrating deployment attempts!
 
 Hit deploy and boom - live website in about 2 minutes.
 
 ## Common Problems and Solutions
 
-Here are the issues I ran into (and how to fix them when they happen to you):
+Here are some common issues you might run into (and how to fix them):
 
 ### Theme Issues
-**Problem**: My site looked like basic HTML for the first hour.
-**Solution**: I had the theme name wrong in my config file - I wrote `HugoPlate` instead of `hugoplate`. Theme names are case sensitive.
+**Problem**: Site looks like basic HTML instead of the theme.
+**Solution**: Check your theme name in the config file. In my case, I had written `HugoPlate` instead of `hugoplate`. Theme names are case sensitive!
 
 **Problem**: Theme not loading at all.
 **Solution**: Make sure you've actually downloaded the theme files and they're in the right `themes/` folder. Also check that your `hugo.toml` theme name matches the folder name exactly.
@@ -244,9 +244,9 @@ Here are the issues I ran into (and how to fix them when they happen to you):
 **Problem**: Changes not showing up in browser.
 **Solution**: Clear your browser cache, or use `hugo server --disableFastRender` to force full rebuilds.
 
-## My Daily Workflow Now
+## The Daily Workflow
 
-When I want to write a new post:
+When you want to write a new post, the process is pretty straightforward:
 
 1. Create the post file:
    ```bash
@@ -257,7 +257,7 @@ When I want to write a new post:
    ```bash
    hugo server -D
    ```
-4. When I'm happy, deploy:
+4. When you're happy with it, deploy:
    ```bash
    git add .
    git commit -m "New post about whatever"
@@ -265,7 +265,7 @@ When I want to write a new post:
    ```
 5. Site updates automatically in ~2 minutes
 
-This workflow is so much better than logging into WordPress admin, waiting for pages to load, fighting with the editor, etc.
+This workflow feels so much smoother than the traditional CMS experience - no logging into admin panels, waiting for pages to load, or fighting with editors.
 
 ## Backup Strategy (Don't Skip This)
 
@@ -299,9 +299,8 @@ Everything I use is free:
 - SSL certificate: Included
 - Global CDN: Included
 
-**Upgrades I might consider:**
-- Custom domain ($12/year) - eventually I'll get jorap.com or something
-- Premium theme ($50 one-time) - if I want something super unique
+**Upgrades I already have:**
+- Custom domain ($12/year)
 
 **Setting up a custom domain** is straightforward if you want it:
 1. Buy domain from any registrar (Namecheap, GoDaddy, etc.)
@@ -311,16 +310,16 @@ Everything I use is free:
 
 But the free `.pages.dev` subdomain looks professional enough for most personal sites.
 
-## Why I'm Happy I Made the Switch
+## Why This Setup Works So Well
 
-My old PHP site was slow, went down randomly, and cost money. This setup is:
-- Way faster (static files load instantly)
-- Never goes down (Cloudflare's infrastructure is rock solid)
-- Costs nothing
-- Easier to update
-- Looks more professional
+Compared to the old PHP setup that was slow, unreliable, and costly, this approach offers:
+- Much faster loading (static files are served instantly)
+- Better reliability (Cloudflare's infrastructure is solid)
+- Zero ongoing costs
+- Simpler update process
+- More professional appearance
 
-The only downside is no comments system built-in, but I can add Disqus if I want that later.
+The main trade-off is no built-in comments system, but you can always add Disqus or similar if you need that functionality.
 
 ## If You Want to Try This
 
@@ -339,12 +338,12 @@ The only downside is no comments system built-in, but I can add Disqus if I want
 
 ## Final Thoughts
 
-I just wanted a personal website that didn't suck and didn't cost money every month. This setup gave me both of those things, plus it's fun to work with.
+Sometimes the best solutions come from necessity. What started as a cost-cutting measure turned into discovering a setup that's actually better than what I was paying for.
 
-If you're in a similar situation - tired of paying for hosting, or just want something simple and fast - give this a shot. The worst that can happen is you waste a few hours learning something new.
+If you're in a similar situation - tired of hosting costs, or just want something simple and fast - this approach is worth considering. The worst that can happen is you spend a few hours learning something new.
 
-The developer experience is great - clean separation of content and presentation, version control for everything, and a deployment pipeline that just works. It's the kind of setup that makes you wonder why you ever dealt with traditional CMS headaches.
+The developer experience has been great - clean separation of content and presentation, version control for everything, and a deployment pipeline that just works. It's the kind of setup that makes you wonder why anyone deals with traditional CMS headaches.
 
-**Want to see the result?** You're looking at it right now. This entire site is built with the exact setup I described above, and it costs me exactly $0 per month to run.
+**Want to see the result?** You're looking at it right now. This entire site is built with the exact setup described above, and it runs for free.
 
 Pretty cool, right?

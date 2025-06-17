@@ -33,9 +33,9 @@ While mobile devices excel at portability and quick tasks, desktops and laptops 
 **Where mobile devices fall short:** Limited by thermal constraints, battery life, and compact form factor
 
 **Real-world examples:**
-- **Family Vacation Videos**: Trying to edit your kids' birthday party footage on your phone takes forever and keeps crashing, but your laptop handles it smoothly while you're watching Netflix
-- **Working from Home**: Your phone heats up and slows down during a 2-hour Zoom call, but your laptop stays cool and handles video calls plus note-taking without breaking a sweat
-- **College Student**: Running multiple tabs for research, Word for your essay, and Spotify in the background - your phone would crash, but your laptop keeps everything running
+- **Video Editing**: Editing even simple home videos on your phone often leads to crashes and frustration, while a laptop handles the same task smoothly alongside other apps
+- **Video Calls**: Long video calls can make phones overheat and slow down, but laptops stay cool while handling calls plus note-taking and other tasks
+- **Research Projects**: Juggling multiple browser tabs, documents, and background music - tasks that overwhelm phones but feel effortless on laptops
 
 ---
 
@@ -55,9 +55,9 @@ While mobile devices excel at portability and quick tasks, desktops and laptops 
 Whether you're managing massive spreadsheets, coding the next big app, or creating professional designs, you need the full toolkit — not the watered-down mobile version.
 
 **Real-world examples:**
-- **Small Business Owner**: Managing your online store inventory in a full Excel spreadsheet with formulas - the mobile version can't handle your 500+ product database
-- **Hobby Photographer**: Editing your travel photos with advanced filters and batch processing in Lightroom - the mobile app only lets you do basic edits
-- **Side Hustle Creator**: Designing professional flyers for your tutoring business in Canva Pro desktop - mobile version limits your design options and text formatting
+- **Spreadsheet Work**: Managing large datasets with complex formulas becomes impossible on mobile versions that can't handle extensive data or advanced functions
+- **Photo Editing**: Serious photo editing with advanced filters and batch processing requires desktop software - mobile apps only offer basic adjustments
+- **Design Projects**: Creating professional-quality graphics and layouts needs full desktop design tools - mobile versions lack essential features and formatting options
 
 ---
 
@@ -77,9 +77,9 @@ Ever tried switching between 10 different apps on your phone? It's a nightmare.
 **Mobile limitations:** App switching fatigue, memory management, and single-app focus
 
 **Real-world examples:**
-- **Online Shopping**: Comparing prices across 10 different websites while checking reviews, using coupon extensions, and messaging friends for opinions - all without losing your place
-- **Planning a Wedding**: Managing your budget spreadsheet, Pinterest boards, vendor emails, and venue booking sites simultaneously without constant app switching
-- **Remote Work Parent**: Joining work meetings while monitoring your kids' online school, answering emails, and keeping your calendar open - all visible at once
+- **Price Comparison**: Comparing options across multiple websites while checking reviews and messaging friends for input - all without losing your place or constantly switching apps
+- **Event Planning**: Managing budgets, inspiration boards, vendor communications, and booking sites simultaneously without the frustration of constant app switching
+- **Busy Schedules**: Joining video meetings while monitoring other important tasks, checking emails, and keeping your calendar visible - all at the same time
 
 ---
 
@@ -94,9 +94,9 @@ Your hands and eyes will thank you for using a real computer during long work se
 - **Better posture** with proper desk height and monitor placement
 
 **Real-world examples:**
-- **Netflix Binge Watcher**: Watching a 3-hour movie on a big screen without squinting or holding up a heavy tablet that makes your arms tired
-- **Online Course Student**: Taking detailed notes during 2-hour lectures without getting hand cramps from tiny phone keyboards or awkward tablet typing
-- **Work-from-Home Parent**: Spending 8 hours answering emails and video calls without neck strain from looking down at a phone screen all day
+- **Movie Watching**: Enjoying longer films on a big screen without squinting or dealing with tired arms from holding up a device
+- **Extended Learning**: Taking detailed notes during lengthy online sessions without hand cramps from small keyboards or awkward typing positions
+- **Full Work Days**: Spending hours on emails and video calls without neck strain from constantly looking down at small screens
 
 ---
 
@@ -111,9 +111,9 @@ Running out of space on your phone? Computers have you covered.
 - **File organization** that actually makes sense
 
 **Real-world examples:**
-- **Family Photo Keeper**: Storing 10 years of family photos, videos, and memories without constantly deleting old ones to make space for new ones
-- **Music Lover**: Keeping your entire music collection locally instead of relying on streaming when your internet is slow or data is limited
-- **Student**: Saving all your college coursework, presentations, and projects without worrying about running out of space before graduation
+- **Media Collections**: Storing years of photos, videos, and memories without the constant hassle of deleting old content to make space for new
+- **Music Libraries**: Keeping your entire music collection locally instead of relying on streaming when internet is slow or data is limited
+- **Academic Work**: Saving coursework, presentations, and projects throughout your education without worrying about running out of space
 
 ---
 
@@ -128,9 +128,9 @@ Unlike phones that become paperweights after a few years, computers are built fo
 - **Better value** — upgrade parts instead of buying new devices
 
 **Real-world examples:**
-- **Budget-Conscious Family**: Adding more memory to your 3-year-old laptop instead of buying a whole new device when it starts running slowly
-- **Growing Freelancer**: Upgrading your computer's storage as your client files pile up, rather than buying an entirely new machine
-- **Teen Gamer**: Starting with a basic setup and gradually upgrading components for better gaming performance as you save allowance money
+- **Smart Budgeting**: Adding more memory to an older laptop instead of buying a whole new device when it starts running slowly
+- **Growing Needs**: Upgrading storage as your files and projects accumulate, rather than purchasing an entirely new machine
+- **Performance Building**: Starting with a basic setup and gradually upgrading components for better performance as your budget allows
 
 ---
 
@@ -145,9 +145,9 @@ Mobile browsers are getting better, but they're still not quite there.
 - **Better web app support** for complex online tools
 
 **Real-world examples:**
-- **Coupon Hunter**: Using browser extensions to automatically find discount codes while shopping online - saving hundreds on holiday purchases
-- **Social Media Manager**: Managing multiple social accounts with browser extensions while keeping all your content calendars and analytics open
-- **Recipe Collector**: Keeping 15 recipe tabs open while meal planning, using extensions to save ingredients to your grocery list automatically
+- **Smart Shopping**: Using browser extensions to automatically find discount codes while shopping online - saving money on purchases
+- **Content Management**: Managing multiple online accounts with helpful extensions while keeping various tools and analytics open
+- **Planning Projects**: Keeping multiple tabs open while organizing, using extensions to automatically save information and streamline workflows
 
 ---
 
@@ -162,9 +162,9 @@ For serious gaming and media consumption, there's no contest.
 - **Large screens** for movies and shows
 
 **Real-world examples:**
-- **Family Game Night**: Playing party games on the big screen that everyone can see and enjoy together, instead of crowding around a tiny phone
-- **Casual Gamer**: Enjoying indie games and older classics that aren't available on mobile, plus using mods that make games more fun
-- **Movie Night Host**: Streaming movies in 4K on your big monitor while friends video chat from their computers for a virtual movie party
+- **Group Entertainment**: Playing games on a big screen that everyone can see and enjoy together, instead of crowding around a small device
+- **Gaming Variety**: Enjoying indie games and classic titles that aren't available on mobile, plus using modifications that enhance gameplay
+- **Social Viewing**: Streaming high-quality content on large screens while video chatting with friends for shared experiences
 
 ---
 

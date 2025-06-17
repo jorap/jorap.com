@@ -1,0 +1,240 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+# Uncomment below to enable drafts
+# publish_mode: editorial_workflow
+
+media_folder: static/images
+public_folder: /images
+
+# Locale
+locale: 'en'
+
+# The slug type
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  # Blog Posts
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "content/english/blog"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Meta Title", name: "meta_title", widget: "string", required: false }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Slug", name: "slug", widget: "string", pattern: ['^[a-z0-9]+(?:-[a-z0-9/]+)*$', 'Slug should be lowercase with hyphens'] }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+        default: ["Technology"]
+      - { label: "Author", name: "author", widget: "string", default: "JoRap" }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        required: false
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Authors
+  - name: "authors"
+    label: "Authors"
+    folder: "content/english/authors"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Name", name: "title", widget: "string" }
+      - { label: "Email", name: "email", widget: "string" }
+      - { label: "Avatar", name: "image", widget: "image" }
+      - { label: "Description", name: "description", widget: "text" }
+      - label: "Social Links"
+        name: "social"
+        widget: "list"
+        fields:
+          - { label: "Platform", name: "name", widget: "string" }
+          - { label: "Icon", name: "icon", widget: "string" }
+          - { label: "URL", name: "link", widget: "string" }
+      - { label: "Bio", name: "body", widget: "markdown" }
+
+  # Pages
+  - name: "pages"
+    label: "Pages"
+    folder: "content/english/pages"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Meta Title", name: "meta_title", widget: "string", required: false }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Featured Image", name: "image", widget: "image", required: false }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # About Page
+  - name: "about"
+    label: "About"
+    folder: "content/english/about"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Meta Title", name: "meta_title", widget: "string", required: false }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Featured Image", name: "image", widget: "image", required: false }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Contact Page
+  - name: "contact"
+    label: "Contact"
+    folder: "content/english/contact"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Meta Title", name: "meta_title", widget: "string", required: false }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Featured Image", name: "image", widget: "image", required: false }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  # Homepage
+  - name: "homepage"
+    label: "Homepage"
+    files:
+      - label: "Homepage"
+        name: "homepage"
+        file: "content/english/_index.md"
+        fields:
+          - label: "Banner"
+            name: "banner"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Content", name: "content", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+              - label: "Button"
+                name: "button"
+                widget: "object"
+                fields:
+                  - { label: "Enable", name: "enable", widget: "boolean" }
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Link", name: "link", widget: "string" }
+          - label: "Features"
+            name: "features"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Content", name: "content", widget: "text" }
+              - label: "Bullet Points"
+                name: "bulletpoints"
+                widget: "list"
+                field: { label: "Point", name: "point", widget: "string" }
+              - label: "Button"
+                name: "button"
+                widget: "object"
+                fields:
+                  - { label: "Enable", name: "enable", widget: "boolean" }
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Link", name: "link", widget: "string" }
+
+  # Settings
+  - name: "settings"
+    label: "Settings"
+    editor:
+      preview: false
+    files:
+      - label: "General"
+        name: "general"
+        file: "data/settings.json"
+        fields:
+          - { label: "Site Title", name: "site_title", widget: "string" }
+          - { label: "Site Description", name: "site_description", widget: "text" }
+          - { label: "Site URL", name: "site_url", widget: "string" }
+          - { label: "Footer Text", name: "footer_text", widget: "string" }
+
+      - label: "Theme"
+        name: "theme"
+        file: "data/theme.json"
+        fields:
+          - label: "Colors"
+            name: "colors"
+            widget: "object"
+            fields:
+              - label: "Default Colors"
+                name: "default"
+                widget: "object"
+                fields:
+                  - label: "Theme Colors"
+                    name: "theme_color"
+                    widget: "object"
+                    fields:
+                      - { label: "Primary", name: "primary", widget: "string" }
+                      - { label: "Body", name: "body", widget: "string" }
+                      - { label: "Border", name: "border", widget: "string" }
+                      - { label: "Light", name: "light", widget: "string" }
+                      - { label: "Dark", name: "dark", widget: "string" }
+                  - label: "Text Colors"
+                    name: "text_color"
+                    widget: "object"
+                    fields:
+                      - { label: "Text", name: "text", widget: "string" }
+                      - { label: "Text Dark", name: "text-dark", widget: "string" }
+                      - { label: "Text Light", name: "text-light", widget: "string" }
+              - label: "Dark Mode Colors"
+                name: "darkmode"
+                widget: "object"
+                required: false
+                fields:
+                  - label: "Theme Colors"
+                    name: "theme_color"
+                    widget: "object"
+                    fields:
+                      - { label: "Primary", name: "primary", widget: "string" }
+                      - { label: "Body", name: "body", widget: "string" }
+                      - { label: "Border", name: "border", widget: "string" }
+                      - { label: "Light", name: "light", widget: "string" }
+                      - { label: "Dark", name: "dark", widget: "string" }
+                  - label: "Text Colors"
+                    name: "text_color"
+                    widget: "object"
+                    fields:
+                      - { label: "Text", name: "text", widget: "string" }
+                      - { label: "Text Dark", name: "text-dark", widget: "string" }
+                      - { label: "Text Light", name: "text-light", widget: "string" }
+          - label: "Fonts"
+            name: "fonts"
+            widget: "object"
+            fields:
+              - label: "Font Family"
+                name: "font_family"
+                widget: "object"
+                fields:
+                  - { label: "Primary Font", name: "primary", widget: "string" }
+                  - { label: "Primary Type", name: "primary_type", widget: "string" }
+                  - { label: "Secondary Font", name: "secondary", widget: "string" }
+                  - { label: "Secondary Type", name: "secondary_type", widget: "string" }
+              - label: "Font Size"
+                name: "font_size"
+                widget: "object"
+                fields:
+                  - { label: "Base Size", name: "base", widget: "string" }
+                  - { label: "Scale", name: "scale", widget: "string" } 
