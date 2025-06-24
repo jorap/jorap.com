@@ -3,7 +3,7 @@ backend:
   repo: jorap/jorap.com
   branch: master
   # OAuth configuration for Cloudflare Pages
-  base_url: https://jorap.com
+  base_url: https://www.jorap.com
   auth_endpoint: oauth
 
 # Uncomment below to enable drafts
