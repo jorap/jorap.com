@@ -7,15 +7,35 @@
 </head>
 
 <body>
-    <p>Completing authentication...</p>
+    <div id="status">Completing authentication...</div>
+    <div id="debug" style="margin-top: 20px; font-family: monospace; font-size: 12px; color: #666;"></div>
+
     <script>
+        function updateStatus(message) {
+            document.getElementById('status').textContent = message;
+            console.log(message);
+        }
+
+        function addDebug(message) {
+            const debugDiv = document.getElementById('debug');
+            debugDiv.innerHTML += message + '<br>';
+            console.log('DEBUG:', message);
+        }
+
         // OAuth callback handler for GitHub with Decap CMS on Cloudflare Pages
         const params = new URLSearchParams(window.location.search);
         const code = params.get('code');
         const error = params.get('error');
+        const state = params.get('state');
+
+        addDebug('URL: ' + window.location.href);
+        addDebug('Code: ' + (code ? 'Present' : 'Missing'));
+        addDebug('Error: ' + (error || 'None'));
+        addDebug('State: ' + (state || 'None'));
 
         if (error) {
-            alert('Authentication error: ' + error);
+            updateStatus('Authentication error: ' + error);
+            addDebug('GitHub returned error: ' + error);
             if (window.opener) {
                 window.opener.postMessage({
                     type: 'authorization_github',
@@ -27,6 +47,9 @@
         }
 
         if (code) {
+            updateStatus('Exchanging code for token...');
+            addDebug('Starting token exchange with code: ' + code.substring(0, 10) + '...');
+
             // Exchange code for token using Cloudflare function
             fetch('/oauth', {
                 method: 'POST',
@@ -35,23 +58,42 @@
                 },
                 body: JSON.stringify({ code: code })
             })
-                .then(response => response.json())
+                .then(response => {
+                    addDebug('Response status: ' + response.status);
+                    addDebug('Response headers: ' + JSON.stringify(Object.fromEntries([...response.headers])));
+
+                    if (!response.ok) {
+                        throw new Error('HTTP ' + response.status + ': ' + response.statusText);
+                    }
+                    return response.json();
+                })
                 .then(data => {
+                    addDebug('Response data: ' + JSON.stringify(data));
+
                     if (data.token) {
+                        updateStatus('Authentication successful! Redirecting...');
+                        addDebug('Token received, posting message to parent');
+
                         // Post message to parent window (CMS)
                         if (window.opener) {
                             window.opener.postMessage({
                                 type: 'authorization_github',
                                 token: data.token
                             }, window.location.origin);
-                            window.close();
+
+                            setTimeout(() => {
+                                window.close();
+                            }, 1000);
                         } else {
+                            addDebug('No window.opener, using fallback redirect');
                             // Fallback: redirect to admin with token in hash
                             window.location.href = '/admin/#access_token=' + data.token;
                         }
                     } else {
-                        console.error('Token exchange failed:', data);
-                        alert('Authentication failed: ' + (data.error || 'Unknown error'));
+                        updateStatus('Token exchange failed');
+                        addDebug('No token in response: ' + JSON.stringify(data));
+                        alert('Authentication failed: ' + (data.error || 'No token received'));
+
                         if (window.opener) {
                             window.opener.postMessage({
                                 type: 'authorization_github',
@@ -62,8 +104,11 @@
                     }
                 })
                 .catch(error => {
-                    console.error('OAuth error:', error);
+                    updateStatus('Error during authentication');
+                    addDebug('Fetch error: ' + error.message);
+                    addDebug('Error stack: ' + error.stack);
                     alert('Authentication error: ' + error.message);
+
                     if (window.opener) {
                         window.opener.postMessage({
                             type: 'authorization_github',
@@ -73,7 +118,9 @@
                     }
                 });
         } else {
-            alert('No authorization code received');
+            updateStatus('No authorization code received');
+            addDebug('No code parameter in URL');
+            alert('No authorization code received. Please try again.');
         }
     </script>
 </body>
