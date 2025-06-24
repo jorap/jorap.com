@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+</head>
+
+<body>
+    <script>
+        // OAuth handler for GitHub with Decap CMS on Cloudflare Pages
+        const params = new URLSearchParams(window.location.search);
+        const code = params.get('code');
+
+        if (code) {
+            // Exchange code for token using Cloudflare function
+            fetch('/oauth', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ code: code })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.token) {
+                        // Post message to parent window (CMS)
+                        if (window.opener) {
+                            window.opener.postMessage(
+                                {
+                                    type: 'authorization_github',
+                                    token: data.token
+                                },
+                                window.location.origin
+                            );
+                            window.close();
+                        }
+                    } else {
+                        alert('Authentication failed: ' + (data.error || 'Unknown error'));
+                    }
+                })
+                .catch(error => {
+                    alert('Authentication error: ' + error.message);
+                });
+        }
+    </script>
+</body>
+
+</html>

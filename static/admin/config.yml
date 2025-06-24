@@ -1,6 +1,10 @@
 backend:
-  name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  name: github
+  repo: jorap/jorap.com
+  branch: master
+  # OAuth configuration for Cloudflare Pages
+  base_url: https://jorap.com
+  auth_endpoint: oauth
 
 # Uncomment below to enable drafts
 # publish_mode: editorial_workflow
