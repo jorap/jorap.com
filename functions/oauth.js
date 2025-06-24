@@ -24,12 +24,35 @@ export async function onRequestPost(context) {
     const { request, env } = context;
 
     try {
-        const { code } = await request.json();
+        // Add debugging for the incoming request
+        const contentType = request.headers.get('content-type');
+        const body = await request.text();
+        
+        // Try to parse the JSON
+        let jsonData;
+        try {
+            jsonData = JSON.parse(body);
+        } catch (parseError) {
+            return new Response(JSON.stringify({ 
+                error: 'JSON Parse Error',
+                message: parseError.message,
+                receivedBody: body,
+                contentType: contentType
+            }), {
+                status: 400,
+                headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' }
+            });
+        }
+        
+        const { code } = jsonData;
 
         if (!code) {
-            return new Response(JSON.stringify({ error: 'No code provided' }), {
+            return new Response(JSON.stringify({ 
+                error: 'No code provided',
+                receivedData: jsonData
+            }), {
                 status: 400,
-                headers: { 'Content-Type': 'application/json' }
+                headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' }
             });
         }
 
