@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CMS Test</title>
+</head>
+
+<body>
+    <h1>CMS Test Page</h1>
+    <div id="cms-test">Loading...</div>
+
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script>
+        // Force manual initialization with explicit GitHub config
+        window.CMS_MANUAL_INIT = true;
+
+        console.log('Manual CMS initialization starting...');
+
+        // Explicit configuration - no config.yml needed
+        CMS.init({
+            config: {
+                backend: {
+                    name: 'github',
+                    repo: 'jorap/jorap.com',
+                    branch: 'master'
+                },
+                media_folder: 'static/images',
+                public_folder: '/images',
+                collections: [
+                    {
+                        name: 'test',
+                        label: 'Test Posts',
+                        folder: 'content/english/blog',
+                        create: true,
+                        fields: [
+                            { label: 'Title', name: 'title', widget: 'string' },
+                            { label: 'Date', name: 'date', widget: 'datetime' },
+                            { label: 'Body', name: 'body', widget: 'markdown' }
+                        ]
+                    }
+                ]
+            }
+        });
+
+        console.log('CMS initialization complete');
+    </script>
+</body>
+
+</html>
