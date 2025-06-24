@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clean CMS</title>
+</head>
+<body>
+  <div id="nc-root"></div>
+  
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <script>
+    window.CMS_MANUAL_INIT = true;
+    
+    CMS.init({
+      config: {
+        backend: {
+          name: 'github',
+          repo: 'jorap/jorap.com',
+          branch: 'master'
+        },
+        media_folder: 'static/images',
+        public_folder: '/images',
+        collections: [
+          {
+            name: 'blog',
+            label: 'Blog Posts',
+            folder: 'content/english/blog',
+            create: true,
+            slug: '{{slug}}',
+            fields: [
+              { label: 'Title', name: 'title', widget: 'string' },
+              { label: 'Date', name: 'date', widget: 'datetime' },
+              { label: 'Author', name: 'author', widget: 'string', default: 'JoRap' },
+              { label: 'Description', name: 'description', widget: 'text' },
+              { label: 'Body', name: 'body', widget: 'markdown' }
+            ]
+          }
+        ]
+      }
+    });
+  </script>
+</body>
+</html> 
