@@ -1,132 +1,57 @@
-# Decap CMS Setup Instructions
+# Decap CMS Setup - Fresh Installation
 
-Decap CMS has been successfully integrated into your Hugo site! Here's how to complete the setup and start using it.
+This is a fresh, simplified Decap CMS setup for your Hugo site.
 
-## 🚀 What's Been Added
+## 🎯 What's Included
 
-- **Admin Interface**: Available at `/admin/` on your live site
-- **CMS Configuration**: Comprehensive setup for all your content types
-- **Collections Configured**:
-  - Blog Posts
-  - Authors
-  - Pages
-  - About Pages
-  - Contact Pages
-  - Homepage (Banner & Features)
-  - Site Settings
-  - Theme Settings
+- **Basic Admin Interface**: Available at `/admin/`
+- **GitHub Authentication**: Uses your GitHub account for login
+- **Blog Collection**: Edit your blog posts
+- **Simple Configuration**: Minimal setup, maximum reliability
 
-## 🔧 Deployment Setup
+## 🔧 Setup Steps
 
-### Option 1: Netlify (Recommended)
+### Step 1: Create GitHub OAuth App
 
-1. **Deploy to Netlify**: Connect your repository to Netlify
-2. **Enable Git Gateway**:
-   - Go to your Netlify site dashboard
-   - Navigate to `Settings` > `Identity`
-   - Click `Enable Identity`
-   - Under `Registration preferences`, select "Invite Only" (recommended)
-   - Go to `Settings` > `Identity` > `Services`
-   - Enable `Git Gateway`
+1. **Go to:** [GitHub Settings > Developer settings > OAuth Apps](https://github.com/settings/applications/new)
+2. **Fill in:**
+   - **Application name:** `JoRap CMS`
+   - **Homepage URL:** `https://www.jorap.com`
+   - **Authorization callback URL:** `https://www.jorap.com/admin/`
+3. **Click "Register application"**
+4. **Copy the Client ID** (you'll need this)
 
-3. **Invite Users**:
-   - Go to `Identity` tab in your Netlify dashboard
-   - Click `Invite users`
-   - Enter email addresses of people who should have access
-   - They'll receive an invitation email
+### Step 2: Deploy Your Site
 
-### Option 2: Other Hosting + GitHub
+1. **Commit and push** your changes to GitHub
+2. **Deploy to Cloudflare Pages** (or your hosting platform)
+3. **Wait for deployment** to complete
 
-If not using Netlify, you'll need to modify the backend configuration in `static/admin/config.yml`:
+### Step 3: Login to CMS
 
-```yaml
-backend:
-  name: github
-  repo: your-username/your-repo-name
-  branch: main
-```
+1. **Visit:** `https://www.jorap.com/admin/`
+2. **Click "Login with GitHub"**
+3. **Authorize the application** on GitHub
+4. **Start editing your content!**
 
-Then set up OAuth authentication through GitHub Apps or other supported methods.
+## 📝 How to Use
 
-## 🎯 Accessing the CMS
-
-1. Visit `https://your-site-url.com/admin/`
-2. Log in with your invited email
-3. Start managing your content!
-
-## 📝 Content Management Features
-
-### Blog Posts
-- Rich markdown editor
-- Featured images
-- Categories and tags
-- SEO metadata
-- Draft/publish status
-
-### Authors
-- Profile management
-- Social media links
-- Avatar images
-
-### Homepage
-- Banner customization
-- Feature sections
-- Call-to-action buttons
-
-### Settings
-- Site-wide configurations
-- Theme colors (light/dark mode)
-- Typography settings
-
-## 🔧 Customization
-
-### Adding New Collections
-Edit `static/admin/config.yml` to add new content types:
-
-```yaml
-- name: "your-collection"
-  label: "Your Collection"
-  folder: "content/english/your-folder"
-  create: true
-  fields:
-    - { label: "Title", name: "title", widget: "string" }
-    # Add more fields as needed
-```
-
-### Custom Widgets
-Decap CMS supports various widgets:
-- `string` - Text input
-- `text` - Textarea
-- `markdown` - Rich markdown editor
-- `image` - Image upload
-- `datetime` - Date/time picker
-- `boolean` - Checkbox
-- `list` - Repeatable fields
-- `object` - Nested fields
+- **Create new blog posts** using the visual editor
+- **Edit existing posts** by clicking on them
+- **Save drafts** or publish immediately
+- **Upload images** through the media section
 
 ## 🛠 Troubleshooting
 
-### Common Issues
+### If login doesn't work:
+1. **Check GitHub OAuth App** callback URL is exactly: `https://www.jorap.com/admin/`
+2. **Clear browser cache** and try again
+3. **Make sure you have push access** to the `jorap/jorap.com` repository
 
-1. **Can't access /admin/**: Ensure your site is deployed and the static files are served correctly
-2. **Authentication issues**: Check that Git Gateway is enabled in Netlify
-3. **Changes not appearing**: Make sure you're publishing changes, not just saving drafts
+### If you can't see your content:
+1. **Check the folder paths** in `static/admin/config.yml`
+2. **Verify your content files** are in `content/english/blog/`
 
-### Configuration Validation
-You can validate your config at: https://www.netlifycms.org/docs/configuration-options/
+## ✅ That's It!
 
-## 📚 Additional Resources
-
-- [Decap CMS Documentation](https://decapcms.org/docs/)
-- [Widget Documentation](https://decapcms.org/docs/widgets/)
-- [Netlify Identity Setup](https://docs.netlify.com/visitor-access/identity/)
-
-## 🎉 You're All Set!
-
-Your content management system is ready to use. The CMS interface provides an intuitive way to:
-- Create and edit blog posts
-- Manage site content
-- Update theme settings
-- Handle media files
-
-Happy content creating! 🚀 
+This simple setup should work reliably without complex OAuth configurations or custom functions. 
