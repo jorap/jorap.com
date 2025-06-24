@@ -1,18 +1,10 @@
-# Current configuration (having issues)
-# backend:
-#   name: github
-#   repo: jorap/jorap.com
-#   branch: master
-#   base_url: https://www.jorap.com
-#   auth_endpoint: oauth
-
-# Alternative: Use public OAuth service (works with any hosting)
 backend:
   name: github
   repo: jorap/jorap.com
   branch: master
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
+  # Cloudflare Pages OAuth configuration
+  base_url: https://www.jorap.com
+  auth_endpoint: oauth
 
 # Uncomment below to enable drafts
 # publish_mode: editorial_workflow
