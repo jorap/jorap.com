@@ -1,8 +1,37 @@
+export async function onRequestGet(context) {
+    const { request, env } = context;
+    const url = new URL(request.url);
+    const params = url.searchParams;
+
+    const provider = params.get('provider');
+    const site_id = params.get('site_id');
+
+    if (provider === 'github') {
+        // Redirect to GitHub OAuth
+        const clientId = env.GITHUB_CLIENT_ID;
+        const redirectUri = `${url.origin}/admin/oauth.html`;
+        const scope = 'repo';
+
+        const githubAuthUrl = `https://github.com/login/oauth/authorize?client_id=${clientId}&redirect_uri=${encodeURIComponent(redirectUri)}&scope=${scope}`;
+
+        return Response.redirect(githubAuthUrl, 302);
+    }
+
+    return new Response('Invalid provider', { status: 400 });
+}
+
 export async function onRequestPost(context) {
     const { request, env } = context;
 
     try {
         const { code } = await request.json();
+
+        if (!code) {
+            return new Response(JSON.stringify({ error: 'No code provided' }), {
+                status: 400,
+                headers: { 'Content-Type': 'application/json' }
+            });
+        }
 
         // Exchange code for access token
         const tokenResponse = await fetch('https://github.com/login/oauth/access_token', {
@@ -31,7 +60,8 @@ export async function onRequestPost(context) {
             });
         } else {
             return new Response(JSON.stringify({
-                error: 'Failed to get access token'
+                error: 'Failed to get access token',
+                details: tokenData
             }), {
                 status: 400,
                 headers: {
@@ -42,7 +72,8 @@ export async function onRequestPost(context) {
         }
     } catch (error) {
         return new Response(JSON.stringify({
-            error: 'Server error'
+            error: 'Server error',
+            message: error.message
         }), {
             status: 500,
             headers: {

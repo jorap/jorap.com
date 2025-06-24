@@ -7,10 +7,24 @@
 </head>
 
 <body>
+    <p>Completing authentication...</p>
     <script>
-        // OAuth handler for GitHub with Decap CMS on Cloudflare Pages
+        // OAuth callback handler for GitHub with Decap CMS on Cloudflare Pages
         const params = new URLSearchParams(window.location.search);
         const code = params.get('code');
+        const error = params.get('error');
+
+        if (error) {
+            alert('Authentication error: ' + error);
+            if (window.opener) {
+                window.opener.postMessage({
+                    type: 'authorization_github',
+                    error: error
+                }, window.location.origin);
+                window.close();
+            }
+            return;
+        }
 
         if (code) {
             // Exchange code for token using Cloudflare function
@@ -26,22 +40,40 @@
                     if (data.token) {
                         // Post message to parent window (CMS)
                         if (window.opener) {
-                            window.opener.postMessage(
-                                {
-                                    type: 'authorization_github',
-                                    token: data.token
-                                },
-                                window.location.origin
-                            );
+                            window.opener.postMessage({
+                                type: 'authorization_github',
+                                token: data.token
+                            }, window.location.origin);
                             window.close();
+                        } else {
+                            // Fallback: redirect to admin with token in hash
+                            window.location.href = '/admin/#access_token=' + data.token;
                         }
                     } else {
+                        console.error('Token exchange failed:', data);
                         alert('Authentication failed: ' + (data.error || 'Unknown error'));
+                        if (window.opener) {
+                            window.opener.postMessage({
+                                type: 'authorization_github',
+                                error: data.error || 'Token exchange failed'
+                            }, window.location.origin);
+                            window.close();
+                        }
                     }
                 })
                 .catch(error => {
+                    console.error('OAuth error:', error);
                     alert('Authentication error: ' + error.message);
+                    if (window.opener) {
+                        window.opener.postMessage({
+                            type: 'authorization_github',
+                            error: error.message
+                        }, window.location.origin);
+                        window.close();
+                    }
                 });
+        } else {
+            alert('No authorization code received');
         }
     </script>
 </body>
