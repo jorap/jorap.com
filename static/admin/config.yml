@@ -2,9 +2,6 @@ backend:
   name: github
   repo: jorap/jorap.com
   branch: master
-  # Cloudflare Pages OAuth configuration
-  base_url: https://www.jorap.com
-  auth_endpoint: oauth
 
 # Uncomment below to enable drafts
 # publish_mode: editorial_workflow
