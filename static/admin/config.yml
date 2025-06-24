@@ -1,3 +1,4 @@
+# Fresh CMS Config v2.0 - No Netlify
 backend:
   name: github
   repo: jorap/jorap.com
