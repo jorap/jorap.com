@@ -26,27 +26,39 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 
 ### Singles
 
-- **2025 Miami Open (WTA 1000)** - [Semifinals](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906267/)
-  - First Filipina to reach WTA 1000 Tour Semifinals
-  - Defeated Madison Keys (No. 5), Iga Swiatek (No. 2), Jelena Ostapenko (No. 25)
-  - Lost to Jessica Pegula in Semifinals
+- 2025
 
-- **2025 Workday Canberra International (WTA 125)** - [Semifinals](https://www.tennis.com/tournaments/sr-tournament-41642-wta-125k-canberra-australia/sr-match-56728233/)
+  - **Eastbourne Open (WTA 250)** - [Finalist](https://www.tennis.com/tournaments/sr-tournament-7629-eastbourne-great-britain/sr-match-61299087/)
+    - First Filipina to reach WTA Tour Finals
 
-- **2024 Veneto Open (WTA 125)** - [Quarterfinals](https://www.wtatennis.com/tournaments/2062/gaiba-125/2024/scores/LS006)
+  {{< youtube o2djKw4gKF4 >}}
+
+  - **Ilkley (WTA 125)** - [Quarterfinals](https://www.tennis.com/tournaments/sr-tournament-46273-wta-125k-ilkley-great-britain/sr-match-61026381/)
+
+  - **Miami Open (WTA 1000)** - [Semifinals](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906267/)
+    - First Filipina to reach WTA 1000 Tour Semifinals
+    - Defeated Madison Keys (No. 5), Iga Swiatek (No. 2), Jelena Ostapenko (No. 25)
+    - Lost to Jessica Pegula in Semifinals
+
+  - **Workday Canberra International (WTA 125)** - [Semifinals](https://www.tennis.com/tournaments/sr-tournament-41642-wta-125k-canberra-australia/sr-match-56728233/)
+
+- 2024
+  - **Veneto Open (WTA 125)** - [Quarterfinals](https://www.wtatennis.com/tournaments/2062/gaiba-125/2024/scores/LS006)
 
 ### Doubles
 
-- **2025 Rome Open (WTA 1000)** - Quarterfinals (with Coco Gauff)
-  - Lost to defending champions Jasmine Paolini / Sara Errani
+- 2025
+  - **Rome Open (WTA 1000)** - Quarterfinals (with Coco Gauff)
+    - Lost to defending champions Jasmine Paolini / Sara Errani
 
-- **2024 Ningbo Open (WTA 500)** - Quarterfinals (with En-Shuo Liang)
+- 2024
+  - **Ningbo Open (WTA 500)** - Quarterfinals (with En-Shuo Liang)
 
-- **2024 Guadalajara Open (WTA 125)** - Quarterfinals (with Kimberly Birrell)
+  - **Guadalajara Open (WTA 125)** - Quarterfinals (with Kimberly Birrell)
 
-- **2024 Polish Open (WTA 125)** - Quarterfinals (with Darja Semenistaja)
+  - **Polish Open (WTA 125)** - Quarterfinals (with Darja Semenistaja)
 
-- **2024 Workday Canberra International (WTA 125)** - Semifinals (with Laura Pigossi)
+  - **Workday Canberra International (WTA 125)** - Semifinals (with Laura Pigossi)
 
 ---
 
@@ -54,19 +66,26 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 
 ### Singles
 
-**2025**
+- **2025**
 
-- **French Open** - 1st Round
-  - [1st Round](https://www.rolandgarros.com/en-us/matches/2025/SD078)
-  - First Filipina to compete in a Grand Slam main draw
+  - **Wimbledon** - 1st Round
+    - [1st Round](https://www.wtatennis.com/tournaments/wimbledon/scores/LS61511608)
+    - Played against the defending champion Krejcikova at the Centre Court
+
+  - **French Open** - 1st Round
+    - [1st Round](https://www.rolandgarros.com/en-us/matches/2025/SD078)
+    - First Filipina to compete in a Grand Slam main draw
 
 ### Doubles
 
-**2025**
+- **2025**
 
-- **French Open** - 2nd Round (with Renata Zarazua)
-  - [1st Round](https://www.rolandgarros.com/en-us/matches/2025/DD049)
-  - [2nd Round](https://www.rolandgarros.com/en-us/matches/2025/DD024)
+  - **Wimbledon** - 1st Round
+    - [1st Round](https://www.wtatennis.com/tournaments/wimbledon/scores/LD61641892)
+
+  - **French Open** - 2nd Round (with Renata Zarazua)
+    - [1st Round](https://www.rolandgarros.com/en-us/matches/2025/DD049)
+    - [2nd Round](https://www.rolandgarros.com/en-us/matches/2025/DD024)
 
 ---
 
@@ -74,12 +93,12 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 
 **Singles:**
 
-- **Career High:** No. 69
+- **Career High:** No. 56
   - Highest-ranked Filipina in WTA history
 
 **Doubles:**
 
-- **Career High:** No. 158
+- **Career High:** No. 155
 
 ---
 
@@ -106,6 +125,29 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 - **2025 Madrid Open – Clay Court - Loss** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2785-madrid-spain/sr-match-59915292/)
 
 {{< youtube TqBCa8hIHcY >}}
+
+---
+
+### Barbora Krejcikova
+
+- [WTA Profile](https://www.wtatennis.com/players/318314/barbora-krejcikova)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/318314)
+
+**Grand Slam Titles:**
+
+| Tournament  | Year(s)                |
+| ----------- | ---------------------- |
+| French Open | 2021                   |
+| Wimbledon   | 2024                   |
+
+**Matches:**
+
+- **2025 Wimbledon - Grass Court - Loss** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2553-wimbledon/sr-match-61511608/)
+
+{{< youtube PtLGq_avxI4 >}}
+
+
+{{< youtube G_gAodKKcEM >}}
 
 ---
 
@@ -141,6 +183,7 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 
 **Matches:**
 
+- **2025 Eastbourne Open – Grass Court - Win (Retired)** - [Match Stats](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS013)
 - **2025 Miami Open – Hard Court - Win** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906325/)
 
 ---
@@ -164,7 +207,6 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 
 - [Naomi Osaka](https://www.wtatennis.com/head-to-head/330332/319998) - 2021, 2019 Australian Open and 2020, 2018 US Open Winner
 - [Aryna Sabalenka](https://www.wtatennis.com/head-to-head/330332/320760) - 2024, 2023 Australian Open and 2024 US Open Winner
-- [Barbora Krejcikova](https://www.wtatennis.com/head-to-head/330332/318314) - 2024 Wimbledon and 2023 French Open Winner
 - [Emma Raducanu](https://www.wtatennis.com/head-to-head/330332/328366) - 2021 US Open Winner
 - [Coco Gauff](https://www.wtatennis.com/head-to-head/330332/328560) - 2023 US Open Winner
 - [Sofia Kenin](https://www.wtatennis.com/head-to-head/330332/320942) - 2020 Australian Open Winner

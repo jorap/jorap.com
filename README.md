@@ -1,237 +1,582 @@
-<h1 align="center">Hugo + Tailwind CSS Starter and Boilerplate</h1>
-
-<p align="center">Hugoplate is a free starter template built with Hugo, and Tailwind CSS v4.0, providing everything you need to jumpstart your Hugo project and save valuable time.</p>
-
-<p align="center">Made with ♥ by <a href="https://zeon.studio/"> Zeon Studio</a></p>
-<p align=center> If you find this project useful, please give it a ⭐ to show your support.</p>
-
-<h2 align="center"> <a target="_blank" href="https://zeon.studio/preview?project=hugoplate" rel="nofollow">👀 Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-hugoplate-netlify-app/6lyxjw6t4r?form_factor=desktop">Page Speed (95+)🚀</a>
-</h2>
+# JoRap.com - Personal Blog and Portfolio Website
 
 <p align="center">
-  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.126.0" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.126.0&color=f00&logo=hugo" />
-  </a>
-
-  <a href="https://github.com/zeon-studio/hugoplate/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/zeon-studio/hugoplate" alt="license">
-  </a>
-
-  <a href="https://github.com/zeon-studio/hugoplate">
-    <img src="https://img.shields.io/github/languages/code-size/zeon-studio/hugoplate" alt="code size">
-  </a>
-
-  <a href="https://github.com/zeon-studio/hugoplate/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/zeon-studio/hugoplate" alt="contributors">
-  </a>
+  <img src="assets/images/logo.png" alt="JoRap's World Logo" width="120" height="120">
 </p>
 
-## 🎁 What's Included
+<p align="center">
+  <strong>A modern, fast, and SEO-optimized personal website built with Hugo and Tailwind CSS</strong>
+</p>
 
-We have included almost everything you need to start your Hugo project. Let's see what's included in this template:
-
-### 📌 Key Features
-
-- 👥 Multi-Authors
-- 🎯 Similar Posts Suggestion
-- 🔍 Search Functionality
-- 🌑 Dark Mode
-- 🏷️ Tags & Categories
-- 🔗 Netlify setting pre-configured
-- 📞 Support contact form
-- 📱 Fully responsive
-- 📝 Write and update content in Markdown
-- 💬 Disqus Comment
-- 🔳 Syntax Highlighting
-
-### 📄 15+ Pre-designed Pages
-
-- 🏠 Homepage
-- 👤 About
-- 📞 Contact
-- 👥 Authors
-- 👤 Author Single
-- 📝 Blog
-- 📝 Blog Single
-- 🚫 Custom 404
-- 💡 Elements
-- 📄 Privacy Policy
-- 🏷️ Tags
-- 🏷️ Tag Single
-- 🗂️ Categories
-- 🗂️ Category Single
-- 🔍 Search
-
-### 📦 Tech Stack
-
-- [Hugo](https://gohugo.io/)
-- [Tailwind CSS v4.0](https://tailwindcss.com/)
-- [AutoPrefixer](https://autoprefixer.github.io/)
-- [Hugo Modules](https://gohugo.io/hugo-modules/) by [Gethugothemes](https://gethugothemes.com/hugo-modules)
-- [Markdown](https://markdownguide.org/)
-- [Prettier](https://prettier.io/)
-- [Jshint](https://jshint.com/)
-- [Netlify](https://www.netlify.com/)
-- [Vercel](https://vercel.com/)
-- [Github Actions](https://github.com/features/actions)
-- [Gitlab Ci](https://docs.gitlab.com/ee/ci/)
-- [AWS Amplify](https://aws.amazon.com/amplify/)
+<p align="center">
+  <a href="https://jorap.com">🌐 Live Website</a> | 
+  <a href="#quick-start">🚀 Quick Start</a> | 
+  <a href="#development-guide">👨‍💻 Development Guide</a>
+</p>
 
 ---
 
-## 🚀 Getting Started
+## 📋 Table of Contents
 
-First you need to [clone](https://github.com/zeon-studio/hugoplate) or [download](https://github.com/zeon-studio/hugoplate/archive/refs/heads/main.zip) the template repository, and then let's get started with the following process:
-
-### ⚙️ Prerequisites
-
-To start using this template, you need to have some prerequisites installed on your machine.
-
-- [Hugo Extended v0.144+](https://gohugo.io/installation/)
-- [Node v22+](https://nodejs.org/en/download/)
-- [Go v1.24+](https://go.dev/doc/install)
-
-### 👉 Project Setup
-
-We build this custom script to make your project setup easier. It will create a new Hugo theme folder, and clone the Hugoplate theme into it. Then move the exampleSite folder into the root directory. So that you can start your Hugo server without going into the exampleSite folder. Use the following command to setup your project.
-
-```bash
-npm run project-setup
-```
-
-### 👉 Install Dependencies
-
-Install all the dependencies using the following command.
-
-```bash
-npm install
-```
-
-### 👉 Development Command
-
-Start the development server using the following command.
-
-```bash
-npm run dev
-```
-
-### 🎬 Still Confused? Watch a Quick Video
-
-https://github.com/zeon-studio/hugoplate/assets/58769763/c260c0ae-91be-42ce-b8db-aa7f11f777bd
+1. [What is JoRap.com?](#what-is-jorapcom)
+2. [Quick Start Guide](#quick-start)
+3. [Understanding the Project](#understanding-the-project)
+4. [Development Guide](#development-guide)
+5. [Configuration & Customization](#configuration--customization)
+6. [Content Management](#content-management)
+7. [Deployment](#deployment)
+8. [Troubleshooting](#troubleshooting)
+9. [Advanced Features](#advanced-features)
+10. [Contributing](#contributing)
 
 ---
 
-## 📝 Customization
+## 🌟 What is JoRap.com?
 
-This template has been designed with a lot of customization options in mind. You can customize almost anything you want, including:
+JoRap.com is a personal blog and portfolio website that showcases:
 
-### 👉 Site Config
+- **Blog posts** about technology, productivity, and life experiences
+- **Personal projects** and professional work
+- **Resources and tutorials** for developers and tech enthusiasts
 
-You can change the site title, base URL, language, theme, plugins, and more from the `hugo.toml` file.
+### 🛠️ Built With
 
-### 👉 Site Params
+- **[Hugo](https://gohugo.io/)** - Static site generator (super fast!)
+- **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
+- **[Go](https://golang.org/)** - Programming language (used by Hugo)
+- **[Node.js](https://nodejs.org/)** - JavaScript runtime (for build tools)
 
-You can customize all the parameters from the `config/_default/params.toml` file. This includes the logo, favicon, search, SEO metadata, and more.
+### ✨ Key Features
 
-### 👉 Colors and Fonts
-
-You can change the colors and fonts from the `data/theme.json` file. This includes the primary color, secondary color, font family, and font size.
-
-### 👉 Social Links
-
-You can change the social links from the `data/social.json` file. Add your social links here, and they will automatically be displayed on the site.
+- 🚀 **Lightning Fast** - Static site generation means super fast loading
+- 📱 **Mobile Responsive** - Looks great on all devices
+- 🌙 **Dark Mode** - Automatic theme switching
+- 🔍 **Search Function** - Find content easily
+- 📊 **SEO Optimized** - Google-friendly structure
+- 🏷️ **Tags & Categories** - Organized content
+- 👥 **Multi-Author Support** - Multiple writers can contribute
+- 📝 **Markdown Content** - Easy content creation
+- 🎨 **Customizable** - Easy to modify and extend
 
 ---
 
-## 🛠 Advanced Usage
+## 🚀 Quick Start
 
-We have added some custom scripts to make your life easier. You can use these scripts to help you with your development.
+### Prerequisites (What You Need First)
 
-### 👉 Update Theme
+Before you start, make sure you have these installed on your computer:
 
-If you want to update the theme, then you can use the following command. It will update the theme to the latest version.
+1. **Hugo Extended** v0.141.0 or higher
+   - Download from: https://gohugo.io/installation/
+   - ⚠️ **Important**: Get the "extended" version, not the regular one
 
-```bash
-npm run update-theme
+2. **Node.js** v16 or higher
+   - Download from: https://nodejs.org/
+   - This includes npm (Node Package Manager)
+
+3. **Go** v1.21 or higher
+   - Download from: https://golang.org/dl/
+   - Required for Hugo modules
+
+4. **Git** (for version control)
+   - Download from: https://git-scm.com/
+
+### Step-by-Step Setup
+
+1. **Download the project**
+   ```bash
+   git clone https://github.com/yourusername/jorap.com.git
+   cd jorap.com
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Set up the project structure**
+   ```bash
+   npm run project-setup
+   ```
+   > This script sets up the Hugo theme and moves files to the right places
+
+4. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+5. **Open your browser**
+   - Go to `http://localhost:1313`
+   - You should see the website running! 🎉
+
+---
+
+## 📁 Understanding the Project
+
+### Project Structure Explained
+
+```
+jorap.com/
+├── assets/              # Images, CSS, JS files
+├── config/              # Website settings
+├── content/             # Your blog posts and pages (Markdown files)
+├── data/                # Site data (JSON files)
+├── scripts/             # Helper scripts for development
+├── static/              # Files served as-is (robots.txt, etc.)
+├── themes/jorap/        # The website theme (design and layout)
+├── hugo.toml           # Main configuration file
+├── package.json        # Node.js dependencies and scripts
+└── README.md           # This file!
 ```
 
-> **Note:** This command will work after running `project-setup` script.
+### Important Files for Beginners
 
-### 👉 Update Modules
+- **`hugo.toml`** - Main settings (site title, URL, etc.)
+- **`package.json`** - Lists all the tools and commands available
+- **`content/english/`** - Where your blog posts and pages live
+- **`config/_default/params.toml`** - Website appearance settings
+- **`data/theme.json`** - Colors and fonts
 
-We have added a lot of modules to this template. You can update all the modules using the following command.
+### Content Organization
 
+```
+content/english/
+├── _index.md           # Homepage content
+├── about/              # About page
+├── blog/               # Blog posts go here
+├── authors/            # Author profiles
+├── contact/            # Contact page
+└── pages/              # Other static pages
+```
+
+---
+
+## 👨‍💻 Development Guide
+
+### Available Commands
+
+Here are all the commands you can use (run with `npm run`):
+
+```bash
+# Development Commands
+npm run dev              # Start development server (most common)
+npm run build            # Build for production
+npm run preview          # Preview production build locally
+
+# Setup Commands
+npm run project-setup    # Initial project setup
+npm run update-modules   # Update Hugo modules
+npm run format           # Format code with Prettier
+
+# Theme Commands
+npm run theme-setup      # Set up theme
+npm run update-theme     # Update theme to latest version
+npm run remove-darkmode  # Remove dark mode feature
+```
+
+### Development Workflow
+
+1. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+2. **Make changes** to your content or code
+
+3. **See changes live** - The browser will automatically refresh
+
+4. **Build for production** when ready
+   ```bash
+   npm run build
+   ```
+
+### Understanding Hugo Basics
+
+Hugo is a **static site generator**. This means:
+
+- You write content in **Markdown** (easy text format)
+- Hugo converts it to **HTML** (web pages)
+- No database needed - everything is files!
+
+**Example Markdown:**
+```markdown
+---
+title: "My First Blog Post"
+date: 2024-01-01
+author: "Your Name"
+---
+
+# Hello World!
+
+This is my first blog post. I can use **bold** and *italic* text.
+
+- List item 1
+- List item 2
+```
+
+---
+
+## ⚙️ Configuration & Customization
+
+### Basic Site Settings
+
+Edit `hugo.toml` to change basic settings:
+
+```toml
+# Change these to match your site
+baseURL = "https://yoursite.com"
+title = "Your Site Title"
+```
+
+### Site Parameters
+
+Edit `config/_default/params.toml` for advanced settings:
+
+```toml
+# Site branding
+logo = "images/logo.png"
+logo_darkmode = "images/logo-dark.png"
+favicon = "images/favicon.png"
+
+# Features
+search = true
+cookie_consent = true
+```
+
+### Customizing Colors and Fonts
+
+Edit `data/theme.json`:
+
+```json
+{
+  "colors": {
+    "primary": "#3B82F6",
+    "secondary": "#1E40AF"
+  },
+  "fonts": {
+    "primary": "Inter, sans-serif"
+  }
+}
+```
+
+### Adding Social Links
+
+Edit `data/social.json`:
+
+```json
+[
+  {
+    "name": "Twitter",
+    "icon": "fab fa-twitter",
+    "link": "https://twitter.com/yourusername"
+  },
+  {
+    "name": "GitHub",
+    "icon": "fab fa-github",
+    "link": "https://github.com/yourusername"
+  }
+]
+```
+
+---
+
+## 📝 Content Management
+
+### Creating a New Blog Post
+
+1. **Create a new file** in `content/english/blog/`
+2. **Name it** something like `my-awesome-post.md`
+3. **Add frontmatter** (metadata) at the top:
+
+```markdown
+---
+title: "My Awesome Post"
+description: "A short description of your post"
+date: 2024-01-01T10:00:00Z
+author: "Your Name"
+categories: ["Technology"]
+tags: ["Hugo", "Web Development"]
+image: "images/my-post-image.jpg"
+draft: false
+---
+
+# Your Post Content Goes Here
+
+Write your blog post using Markdown syntax.
+```
+
+### Frontmatter Fields Explained
+
+- **`title`** - The post title (required)
+- **`description`** - SEO description (shows in search results)
+- **`date`** - Publication date (ISO format)
+- **`author`** - Author name (must match author in `authors/`)
+- **`categories`** - Main topic categories
+- **`tags`** - Specific tags for the post
+- **`image`** - Featured image path
+- **`draft`** - Set to `true` to hide from public site
+
+### Adding Images
+
+1. **Add images** to `assets/images/`
+2. **Reference them** in your content:
+   ```markdown
+   ![Alt text](images/my-image.jpg)
+   ```
+
+### Creating Author Profiles
+
+1. **Create a file** in `content/english/authors/`
+2. **Add author information**:
+
+```markdown
+---
+title: "Your Name"
+email: "your.email@example.com"
+image: "images/your-photo.jpg"
+description: "Brief bio about yourself"
+social:
+  - name: "twitter"
+    icon: "fab fa-twitter"
+    link: "https://twitter.com/yourusername"
+---
+
+Extended bio content here...
+```
+
+---
+
+## 🚀 Deployment
+
+### Supported Platforms
+
+The site is configured to deploy on:
+
+- **[Netlify](https://netlify.com)** - Easy drag-and-drop deployment
+- **[Vercel](https://vercel.com)** - Git-based deployment
+- **[AWS Amplify](https://aws.amazon.com/amplify/)** - Amazon's hosting service
+- **[GitHub Pages](https://pages.github.com)** - Free hosting for open source
+
+### Quick Deployment Guide
+
+#### Option 1: Netlify (Recommended for Beginners)
+
+1. **Build your site**
+   ```bash
+   npm run build
+   ```
+
+2. **Drag the `public` folder** to netlify.com
+
+3. **Your site is live!** 🎉
+
+#### Option 2: Vercel
+
+1. **Push your code** to GitHub
+2. **Connect** your GitHub repo to Vercel
+3. **Auto-deployment** happens on every push
+
+#### Option 3: Custom Server
+
+1. **Build the site**
+   ```bash
+   npm run build
+   ```
+
+2. **Upload the `public` folder** to your web server
+
+### Important Deployment Notes
+
+- **Always run `npm run build`** before deploying
+- **Update `baseURL`** in `hugo.toml` to match your domain
+- **Test locally** with `npm run preview` before deploying
+
+---
+
+## 🔧 Troubleshooting
+
+### Common Issues and Solutions
+
+#### 1. "Hugo not found" Error
+
+**Problem**: Hugo isn't installed or not in PATH
+**Solution**: 
+- Install Hugo Extended from https://gohugo.io/installation/
+- Make sure it's the "extended" version
+- Restart your terminal
+
+#### 2. "Module not found" Error
+
+**Problem**: Hugo modules aren't initialized
+**Solution**:
 ```bash
 npm run update-modules
 ```
 
-### 👉 Remove Dark Mode
+#### 3. Styles Not Loading
 
-If you want to remove dark mode from your project, you can use the following command to remove dark mode from your project.
-
+**Problem**: Tailwind CSS isn't compiling
+**Solution**:
 ```bash
-npm run remove-darkmode
+npm install
+npm run dev
 ```
 
-> **Note:** This command will work before running `project-setup` script. If you already run the `project-setup` command, then you have to run `npm run theme-setup` first, and then you can run this command. afterward, you can run `npm run project-setup` again.
+#### 4. Images Not Showing
 
----
+**Problem**: Wrong image paths
+**Solution**:
+- Check image path in your markdown
+- Ensure images are in `assets/images/`
+- Use relative paths: `images/my-image.jpg`
 
-## 🚀 Build And Deploy
+#### 5. Build Fails
 
-After you finish your development, you can build or deploy your project almost everywhere. Let's see the process:
-
-### 👉 Build Command
-
-To build your project locally, you can use the following command.
-
+**Problem**: Various build issues
+**Solution**:
 ```bash
+# Clear everything and start fresh
+rm -rf node_modules
+rm -rf resources
+npm install
+npm run update-modules
 npm run build
 ```
 
-### 👉 Deploy Site
+### Getting Help
 
-We have provided 5 different deploy platform configurations with this template, so you can deploy easily.
+If you're stuck:
 
-- [Netlify](https://www.netlify.com/)
-- [Vercel](https://vercel.com/)
-- [Github Actions](https://github.com/features/actions)
-- [Gitlab Ci](https://docs.gitlab.com/ee/ci/)
-- [AWS Amplify](https://aws.amazon.com/amplify/)
-
-And if you want to Host some other hosting platforms. then you can build your project, and you will get a `public` folder. that you can copy and paste on your hosting platform.
-
-> **Note:** You must change the `baseURL` in the `hugo.toml` file. Otherwise, your site will not work properly.
+1. **Check the error message** - it often tells you exactly what's wrong
+2. **Search Google** for the error message
+3. **Ask on Hugo forums** - https://discourse.gohugo.io/
+4. **Check Hugo documentation** - https://gohugo.io/documentation/
 
 ---
 
-## 🔒 Guide to Staying Compliant
+## 🚀 Advanced Features
 
-### 🐞 Reporting Issues
+### Performance Optimization
 
-We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://github.com/zeon-studio/hugoplate/issues). It’s possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/zeon-studio/hugoplate/issues).
+The site includes several performance features:
 
-### 📝 License
+- **Image optimization** - Automatic WebP conversion
+- **Code minification** - Smaller file sizes
+- **Caching** - Faster subsequent loads
+- **CDN support** - Global content delivery
 
-Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon.studio/)
+### SEO Features
 
-**Code License:** Released under the [MIT](https://github.com/zeon-studio/hugoplate/blob/main/LICENSE) license.
+- **Automatic sitemaps** - Help search engines index your site
+- **Meta tags** - Proper SEO metadata
+- **OpenGraph tags** - Better social media sharing
+- **JSON-LD structured data** - Rich search results
 
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
+### Analytics Integration
+
+Add Google Analytics by updating `hugo.toml`:
+
+```toml
+[services.googleAnalytics]
+ID = 'G-MEASUREMENT_ID'
+```
+
+### Custom Shortcodes
+
+Create reusable content snippets:
+
+```markdown
+{{< youtube "video-id" >}}
+{{< spotify "track-id" >}}
+```
+
+### Multilingual Support
+
+Add support for multiple languages by:
+
+1. **Creating language files** in `content/[language]/`
+2. **Updating** `config/_default/languages.toml`
+3. **Adding translations** in `i18n/`
 
 ---
 
-## 🖼️ Showcase
+## 🤝 Contributing
 
-List of some projects people are building with **Hugoplate**!
+### How to Contribute
 
-| [![Open Neuromorphic](https://tinyurl.com/hp7avtje)](https://open-neuromorphic.org/) | [![AI Models](https://tinyurl.com/mu4p7dhb)](https://aimodels.org/) | [![Hugobricks](https://tinyurl.com/4x3uwhm9)](https://www.hugobricks.preview.usecue.com/) | [![ONO LLC](https://tinyurl.com/2fbjzwzn)](https://ono.day/)
-|:---:|:---:|:---:|:---:|
-| **Open Neuromorphic** | **AI Models** | **Hugobricks** | **ONO LLC** |
+1. **Fork the repository**
+2. **Create a feature branch**
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
+3. **Make your changes**
+4. **Test thoroughly**
+   ```bash
+   npm run dev
+   npm run build
+   ```
+5. **Commit your changes**
+   ```bash
+   git commit -m "Add amazing feature"
+   ```
+6. **Push to the branch**
+   ```bash
+   git push origin feature/amazing-feature
+   ```
+7. **Open a Pull Request**
+
+### Code Style Guidelines
+
+- **Use Prettier** for formatting: `npm run format`
+- **Write descriptive commit messages**
+- **Test your changes** before submitting
+- **Update documentation** if needed
 
 ---
 
-## 💻 Need Customization?
+## 📚 Learning Resources
 
-If you need a custom theme, theme customization, or complete website development services from scratch you can [Hire Us](https://zeon.studio/estimate-project).
+### For Beginners
+
+- **Markdown Guide** - https://markdownguide.org/
+- **Hugo Quick Start** - https://gohugo.io/getting-started/quick-start/
+- **Git Tutorial** - https://git-scm.com/docs/gittutorial
+
+### For Advanced Users
+
+- **Hugo Documentation** - https://gohugo.io/documentation/
+- **Tailwind CSS Docs** - https://tailwindcss.com/docs
+- **Go Templates** - https://gohugo.io/templates/introduction/
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- **[Hugo](https://gohugo.io/)** - Amazing static site generator
+- **[Tailwind CSS](https://tailwindcss.com/)** - Fantastic CSS framework
+- **[Hugoplate](https://github.com/zeon-studio/hugoplate)** - Base theme
+- **[Zeon Studio](https://zeon.studio/)** - Original theme creators
+
+---
+
+## 📞 Support
+
+If you need help:
+
+- **Read this documentation** first
+- **Check the [troubleshooting section](#troubleshooting)**
+- **Open an issue** on GitHub
+- **Contact** via the website contact form
+
+---
+
+<p align="center">
+  Made with ❤️ by JoRap | 
+  <a href="https://jorap.com">Visit Website</a>
+</p>

@@ -160,19 +160,19 @@ The best part? It works the same way on Windows, Mac, or Linux, so you're not lo
 
 **Juan López Música:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4V_Wc6FyIjo?si=RrfbVWFZEVfZYCyT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{{< youtube 4V_Wc6FyIjo >}}
 
 **Download Link:** [Free Worship Ambient Pads - Juan López Música](http://bit.ly/WorshipAmbientPads)
 
 **Churchfront:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qEvf-II2bSY?si=z9HMkWArhmbKYCAt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{{< youtube qEvf-II2bSY >}}
 
 **Download Link:** [Churchfront Ambient Pads (Free with email signup)](https://churchfront.com/ambient-pads/)
 
 **Reawaken Worship Pads & Karl Verkade:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jp3mOchAGgY?si=euNHc66CFD91ws9u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{{< youtube jp3mOchAGgY >}}
 
 **Download Links:**
 - [Reawaken Worship Pads (Free with email signup)](https://www.reawakenhymns.com/worship-pads)
