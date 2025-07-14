@@ -118,6 +118,7 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 | Tournament  | Year(s)                |
 | ----------- | ---------------------- |
 | French Open | 2020, 2022, 2023, 2024 |
+| Wimbledon   | 2025                   |
 | US Open     | 2022                   |
 
 **Matches:**
@@ -139,10 +140,11 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 
 **Grand Slam Titles:**
 
-| Tournament  | Year(s)                |
-| ----------- | ---------------------- |
-| French Open | 2021                   |
-| Wimbledon   | 2024                   |
+| Tournament  | Year(s) |
+| ----------- | ------- |
+| Wimbledon   | 2024    |
+| French Open | 2021    |
+
 
 **Matches:**
 
@@ -211,8 +213,8 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 
 - [Naomi Osaka](https://www.wtatennis.com/head-to-head/330332/319998) - 2021, 2019 Australian Open and 2020, 2018 US Open Winner
 - [Aryna Sabalenka](https://www.wtatennis.com/head-to-head/330332/320760) - 2024, 2023 Australian Open and 2024 US Open Winner
+- [Coco Gauff](https://www.wtatennis.com/head-to-head/330332/328560) - 2025 French Open and 2023 US Open Winner
 - [Emma Raducanu](https://www.wtatennis.com/head-to-head/330332/328366) - 2021 US Open Winner
-- [Coco Gauff](https://www.wtatennis.com/head-to-head/330332/328560) - 2023 US Open Winner
 - [Sofia Kenin](https://www.wtatennis.com/head-to-head/330332/320942) - 2020 Australian Open Winner
 - [Mirra Andreeva](https://www.wtatennis.com/head-to-head/330332/331809) - Alex Eala defeated her when she won the 2022 Junior US Open
 - [Leylah Fernandez](https://www.wtatennis.com/head-to-head/330332/326735) - Another left handed player and has Filipino heritage
