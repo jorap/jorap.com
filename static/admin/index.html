@@ -29,8 +29,31 @@
             try {
                 if (window.CMS) {
                     console.log('CMS object available, initializing...');
+
+                    // Add event listeners to track authentication
+                    window.CMS.registerEventListener({
+                        name: 'login',
+                        handler: (data) => {
+                            console.log('Login event triggered:', data);
+                        }
+                    });
+
+                    window.CMS.registerEventListener({
+                        name: 'logout',
+                        handler: (data) => {
+                            console.log('Logout event triggered:', data);
+                        }
+                    });
+
                     window.CMS.init();
                     console.log('CMS initialized successfully');
+
+                    // Check if user is logged in after init
+                    setTimeout(() => {
+                        console.log('Checking auth state...');
+                        console.log('Current URL:', window.location.href);
+                        console.log('Current hash:', window.location.hash);
+                    }, 2000);
                 } else {
                     console.error('CMS object not available');
                 }
