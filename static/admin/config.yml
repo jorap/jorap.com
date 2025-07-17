@@ -2,7 +2,7 @@ backend:
   name: github
   repo: jorap/jorap.com
   branch: master
-  base_url: https://jorap.com
+  base_url: https://www.jorap.com
   auth_endpoint: /api/auth
 
 media_folder: "static/images"
