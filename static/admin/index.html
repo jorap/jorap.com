@@ -9,8 +9,39 @@
 </head>
 
 <body>
-    <!-- Include the script that builds the page and powers Decap CMS -->
+    <!-- Include the development script that builds the page and powers Decap CMS -->
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script>
+        CMS.init({
+            config: {
+                backend: {
+                    name: 'github',
+                    repo: 'jorap/jorap.com',
+                    branch: 'master',
+                    base_url: 'https://www.jorap.com',
+                    auth_endpoint: '/api/auth'
+                },
+                media_folder: 'static/images',
+                public_folder: '/images',
+                collections: [{
+                    name: 'blog',
+                    label: 'Blog Posts',
+                    folder: 'content/english/blog',
+                    create: true,
+                    slug: '{{slug}}',
+                    fields: [{
+                        name: 'title',
+                        label: 'Title',
+                        widget: 'string'
+                    }, {
+                        name: 'body',
+                        label: 'Body',
+                        widget: 'markdown'
+                    }]
+                }]
+            }
+        });
+    </script>
 </body>
 
 </html>
