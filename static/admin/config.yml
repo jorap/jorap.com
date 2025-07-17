@@ -1,19 +1,14 @@
 backend:
-  name: github
-  repo: jorap/jorap.com
-  branch: master
-  base_url: https://www.jorap.com
-  auth_endpoint: /api/auth
+  name: test-repo
 
 media_folder: "static/images"
 public_folder: "/images"
 
 collections:
-  - name: "blog"
-    label: "Blog Posts"
-    folder: "content/english/blog"
+  - name: "test"
+    label: "Test Collection"
+    folder: "content/test"
     create: true
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
