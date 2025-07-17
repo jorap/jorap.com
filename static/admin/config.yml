@@ -5,19 +5,15 @@ backend:
   base_url: https://www.jorap.com
   auth_endpoint: /api/auth
 
-media_folder: static/images
-public_folder: /images
+media_folder: "static/images"
+public_folder: "/images"
 
 collections:
-  - name: blog
-    label: Blog Posts
-    folder: content/english/blog
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "content/english/blog"
     create: true
     slug: "{{slug}}"
     fields:
-      - name: title
-        label: Title
-        widget: string
-      - name: body
-        label: Body
-        widget: markdown
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}

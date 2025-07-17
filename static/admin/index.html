@@ -9,8 +9,14 @@
 </head>
 
 <body>
-    <!-- Include the script that builds the page and powers Decap CMS -->
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <div id="nc-root"></div>
+
+    <!-- Try the older, more stable Netlify CMS -->
+    <script src="https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.js"></script>
+
+    <script>
+        console.log('CMS loaded, version:', window.CMS ? 'Available' : 'Not available');
+    </script>
 </body>
 
 </html>
