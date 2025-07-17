@@ -66,7 +66,8 @@ export async function onRequest(context) {
             // Get user info
             const userResponse = await fetch('https://api.github.com/user', {
                 headers: {
-                    'Authorization': `${token_type} ${access_token}`,
+                    'Authorization': `Bearer ${access_token}`,
+                    'User-Agent': 'Cloudflare-Pages-App',
                 },
             });
 
