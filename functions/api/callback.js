@@ -36,6 +36,21 @@ export async function onRequest(context) {
                 }),
             });
 
+            // Check if the response is successful
+            if (!tokenResponse.ok) {
+                const errorText = await tokenResponse.text();
+                console.error('GitHub OAuth token request failed:', tokenResponse.status, errorText);
+                return new Response(`GitHub OAuth error: ${tokenResponse.status} ${tokenResponse.statusText}`, { status: 400 });
+            }
+
+            // Check if the response is JSON
+            const contentType = tokenResponse.headers.get('content-type');
+            if (!contentType || !contentType.includes('application/json')) {
+                const errorText = await tokenResponse.text();
+                console.error('GitHub OAuth returned non-JSON response:', errorText);
+                return new Response('GitHub OAuth returned an unexpected response format', { status: 400 });
+            }
+
             const tokenData = await tokenResponse.json();
 
             if (tokenData.error) {
@@ -44,12 +59,22 @@ export async function onRequest(context) {
 
             const { access_token, token_type } = tokenData;
 
+            if (!access_token) {
+                return new Response('No access token received from GitHub', { status: 400 });
+            }
+
             // Get user info
             const userResponse = await fetch('https://api.github.com/user', {
                 headers: {
                     'Authorization': `${token_type} ${access_token}`,
                 },
             });
+
+            if (!userResponse.ok) {
+                const errorText = await userResponse.text();
+                console.error('GitHub user API request failed:', userResponse.status, errorText);
+                return new Response(`GitHub user API error: ${userResponse.status} ${userResponse.statusText}`, { status: 400 });
+            }
 
             const userData = await userResponse.json();
 
