@@ -1,0 +1,137 @@
+backend:
+  name: github
+  repo: jorap/jorap.com  # Replace with your actual repo
+  branch: master
+  base_url: https://jorap.com  # Replace with your Cloudflare Pages URL
+  auth_endpoint: /api/auth
+
+media_folder: "static/images"
+public_folder: "/images"
+
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "content/english/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Meta Title", name: "meta_title", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "image", widget: "image"}
+      - {label: "Categories", name: "categories", widget: "select", multiple: true, options: ["Website", "Technology", "Blog", "Tutorial", "Review", "Personal"]}
+      - {label: "Author", name: "author", widget: "string", default: "JoRap"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "authors"
+    label: "Authors"
+    folder: "content/english/authors"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Name", name: "title", widget: "string"}
+      - {label: "Email", name: "email", widget: "string"}
+      - {label: "Avatar", name: "image", widget: "image"}
+      - {label: "Description", name: "description", widget: "text"}
+      - label: "Social Links"
+        name: "social"
+        widget: "list"
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Icon", name: "icon", widget: "string"}
+          - {label: "Link", name: "link", widget: "string"}
+      - {label: "Bio", name: "body", widget: "markdown"}
+
+  - name: "pages"
+    label: "Pages"
+    folder: "content/english/pages"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Meta Title", name: "meta_title", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "about"
+    label: "About Page"
+    files:
+      - file: "content/english/about/_index.md"
+        label: "About"
+        name: "about"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Meta Title", name: "meta_title", widget: "string"}
+          - {label: "Description", name: "description", widget: "text"}
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Draft", name: "draft", widget: "boolean", default: false}
+          - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "homepage"
+    label: "Homepage"
+    files:
+      - file: "content/english/_index.md"
+        label: "Home"
+        name: "home"
+        fields:
+          - label: "Banner"
+            name: "banner"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Content", name: "content", widget: "text"}
+              - {label: "Image", name: "image", widget: "image"}
+              - label: "Button"
+                name: "button"
+                widget: "object"
+                fields:
+                  - {label: "Enable", name: "enable", widget: "boolean"}
+                  - {label: "Label", name: "label", widget: "string"}
+                  - {label: "Link", name: "link", widget: "string"}
+          - label: "Features"
+            name: "features"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Content", name: "content", widget: "text"}
+              - {label: "Bullet Points", name: "bulletpoints", widget: "list"}
+              - label: "Button"
+                name: "button"
+                widget: "object"
+                fields:
+                  - {label: "Enable", name: "enable", widget: "boolean"}
+                  - {label: "Label", name: "label", widget: "string"}
+                  - {label: "Link", name: "link", widget: "string"}
+
+  - name: "settings"
+    label: "Settings"
+    files:
+      - file: "config/_default/params.toml"
+        label: "Site Parameters"
+        name: "params"
+        fields:
+          - {label: "Site Title", name: "logo_text", widget: "string"}
+          - {label: "Logo", name: "logo", widget: "image"}
+          - {label: "Logo Dark Mode", name: "logo_darkmode", widget: "image"}
+          - {label: "Logo Width", name: "logo_width", widget: "string"}
+          - {label: "Logo Height", name: "logo_height", widget: "string"}
+          - {label: "Copyright", name: "copyright", widget: "string"}
+          - {label: "Contact Form Action", name: "contact_form_action", widget: "string"}
+          - {label: "Google Tag Manager", name: "google_tag_manager", widget: "string", required: false}
+          - label: "Metadata"
+            name: "metadata"
+            widget: "object"
+            fields:
+              - {label: "Keywords", name: "keywords", widget: "list"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Author", name: "author", widget: "string"}
+              - {label: "Twitter", name: "twitter", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Image Width", name: "image_width", widget: "string"}
+              - {label: "Image Height", name: "image_height", widget: "string"} 
