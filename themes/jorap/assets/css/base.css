@@ -1,9 +1,25 @@
 html {
   @apply text-base-sm md:text-base;
+  /* Responsive offset for anchor links to account for sticky header at different breakpoints */
+  scroll-padding-top: 80px; /* Mobile: smaller header */
+  scroll-behavior: smooth;
+}
+
+/* Larger screens have taller headers */
+@media (min-width: 1024px) {
+  html {
+    scroll-padding-top: 100px; /* Desktop: larger header */
+  }
+}
+
+@media (min-width: 1280px) {
+  html {
+    scroll-padding-top: 110px; /* XL screens: even larger header due to xl:text-3xl */
+  }
 }
 
 body {
-  @apply bg-body text-base dark:bg-darkmode-body font-primary font-normal leading-relaxed text-text dark:text-darkmode-text;
+    @apply bg-body text-base dark:bg-darkmode-body font-primary font-normal leading-relaxed text-text dark:text-darkmode-text;
 }
 
 h1,
@@ -12,48 +28,48 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-secondary font-bold leading-tight text-text-dark dark:text-darkmode-text-dark;
+    @apply font-secondary font-bold leading-tight text-text-dark dark:text-darkmode-text-dark;
 }
 
 h1,
 .h1 {
-  @apply text-h1-sm md:text-h1;
+    @apply text-h1-sm md:text-h1;
 }
 
 h2,
 .h2 {
-  @apply text-h2-sm md:text-h2;
+    @apply text-h2-sm md:text-h2;
 }
 
 h3,
 .h3 {
-  @apply text-h3-sm md:text-h3;
+    @apply text-h3-sm md:text-h3;
 }
 
 h4,
 .h4 {
-  @apply text-h4;
+    @apply text-h4;
 }
 
 h5,
 .h5 {
-  @apply text-h5;
+    @apply text-h5;
 }
 
 h6,
 .h6 {
-  @apply text-h6;
+    @apply text-h6;
 }
 
 b,
 strong {
-  @apply font-semibold;
+    @apply font-semibold;
 }
 
 code {
-  @apply after:border-none;
+    @apply after:border-none;
 }
 
-blockquote > p {
-  @apply !my-0;
+blockquote>p {
+    @apply !my-0;
 }

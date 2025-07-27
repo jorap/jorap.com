@@ -176,6 +176,21 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 
 ---
 
+### Marketa Vondrousova
+
+- [WTA Profile](https://www.wtatennis.com/players/323027/marketa-vondrousova)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/323027)
+
+**Grand Slam Titles:**
+
+| Tournament      | Year |
+| --------------- | ---- |
+| Wimbledon       | 2023 |
+
+**2025 Montreal – Hard Court**
+
+---
+
 ### Jelena Ostapenko
 
 - [WTA Profile](https://www.wtatennis.com/players/319939/jelena-ostapenko)

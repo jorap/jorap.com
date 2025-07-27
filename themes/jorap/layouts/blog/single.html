@@ -162,49 +162,19 @@
 
     if (headings.length === 0) return;
 
-    { {/* Map from heading ID to corresponding TOC link */ } }
+    {{/* Map from heading ID to corresponding TOC link */}}
     const headingToLink = {};
 
-    { {/* Setup click handlers for TOC links */ } }
+    {{/* Build mapping for scroll highlighting only */}}
     tocLinks.forEach(link => {
       const href = link.getAttribute('href');
       if (!href || !href.startsWith('#')) return;
 
       const headingId = href.substring(1);
       headingToLink[headingId] = link;
-
-      { {/* Add click event to each TOC link for styling and smooth scrolling */ } }
-      link.addEventListener('click', function (e) {
-        e.preventDefault();
-
-        { {/* Remove bold from all links */ } }
-        tocLinks.forEach(l => l.classList.remove('font-bold'));
-
-        { {/* Make this link bold */ } }
-        this.classList.add('font-bold');
-
-        { {/* Get the target element */ } }
-        const targetId = headingId;
-        const targetElement = document.getElementById(targetId);
-
-        if (targetElement) {
-          { {/* On mobile, close the TOC after clicking a link */ } }
-          if (window.innerWidth < 1024 && mobileTocContent) {
-            mobileTocContent.classList.add('hidden');
-            if (tocChevron) tocChevron.classList.remove('rotate-180');
-          }
-
-          { {/* Scroll to the target with offset */ } }
-          const offset = 100;
-          window.scrollTo({
-            top: targetElement.offsetTop - offset,
-            behavior: 'smooth'
-          });
-        }
-      });
     });
 
-    { {/* Function to highlight the TOC link for the heading in view */ } }
+    {{/* Function to highlight the TOC link for the heading in view */}}
     function highlightTocOnScroll() {
       { {/* Current scroll position and viewport height */ } }
       const scrollTop = window.scrollY;
