@@ -187,7 +187,9 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 | --------------- | ---- |
 | Wimbledon       | 2023 |
 
-**2025 Montreal – Hard Court**
+**2025 Montreal Open – Hard Court - Loss** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2975-wta-montreal-canada/sr-match-62356318/)
+
+{{< youtube 3jTnT-QQZAI >}}
 
 ---
 
