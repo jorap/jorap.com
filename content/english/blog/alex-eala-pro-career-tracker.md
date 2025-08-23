@@ -226,6 +226,13 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 
 ---
 
+### Clara Tauson
+
+- [WTA Profile](https://www.wtatennis.com/players/327793/clara-tauson)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/327793)
+
+---
+
 ## Matches to Watch Out For
 
 - [Naomi Osaka](https://www.wtatennis.com/head-to-head/330332/319998) - 2021, 2019 Australian Open and 2020, 2018 US Open Winner
