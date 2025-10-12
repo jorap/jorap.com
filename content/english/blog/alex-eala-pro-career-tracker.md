@@ -32,6 +32,8 @@ Welcome! Here, we track the key moments and professional career highlights of ri
   
   - **Sao Paolo (WTA 250)** - [Quarterfinals](https://www.tennis.com/tournaments/sr-tournament-46951-wta-sao-paulo-brazil/sr-match-63473163/)
 
+  {{< youtube Rn6uX8S_6O0 >}}
+
   - **Guadalajara (WTA 125)** - [Winner](https://www.tennis.com/tournaments/sr-tournament-27554-wta-125k-guadalajara-mexico/sr-match-63315101/)
     - First Career WTA Win
 
