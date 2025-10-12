@@ -104,7 +104,7 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 
 **Singles:**
 
-- **Career High:** No. 56
+- **Career High:** No. 54
   - Highest-ranked Filipina in WTA history
 
 **Doubles:**
