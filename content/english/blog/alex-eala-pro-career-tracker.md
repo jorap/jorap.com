@@ -134,6 +134,8 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 
 {{< youtube maG9TzsuVeM >}}
 
+{{< youtube ARjpvQDZFcw >}}
+
 - **2025 Madrid Open – Clay Court - Loss** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2785-madrid-spain/sr-match-59915292/)
 
 {{< youtube TqBCa8hIHcY >}}
@@ -182,6 +184,8 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 
 {{< youtube rK9CLjVv_dY >}}
 
+{{< youtube dEZi50raZFY >}}
+
 ---
 
 ### Marketa Vondrousova
@@ -217,6 +221,8 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 - **2025 Eastbourne Open – Grass Court - Win (Retired)** - [Match Stats](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS013)
 - **2025 Miami Open – Hard Court - Win** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906325/)
 
+{{< youtube m0TgQhZNRxk >}}
+
 ---
 
 ## Matches Against Other Top 20 Players
@@ -231,6 +237,8 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 - **2025 Miami Open – Hard Court - Loss** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906267/)
 
 {{< youtube efazYG5hSAA >}}
+
+{{< youtube 7PaeU0CN4KE >}}
 
 ---
 
