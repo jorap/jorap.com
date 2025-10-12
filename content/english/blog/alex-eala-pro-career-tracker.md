@@ -28,6 +28,13 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 
 - 2025
 
+  - **Jingshan (WTA 125)** - [Semifinals](https://www.tennis.com/tournaments/sr-tournament-47498-wta-125k-jingshan-china/sr-match-63865655/)
+  
+  - **Sao Paolo (WTA 250)** - [Quarterfinals](https://www.tennis.com/tournaments/sr-tournament-46951-wta-sao-paulo-brazil/sr-match-63473163/)
+
+  - **Guadalajara (WTA 125)** - [Winner](https://www.tennis.com/tournaments/sr-tournament-27554-wta-125k-guadalajara-mexico/sr-match-63315101/)
+    - First Career WTA Win
+
   - **Eastbourne Open (WTA 250)** - [Finalist](https://www.tennis.com/tournaments/sr-tournament-7629-eastbourne-great-britain/sr-match-61299087/)
     - First Filipina to reach WTA Tour Finals
 
@@ -153,6 +160,7 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 {{< youtube PtLGq_avxI4 >}}
 
 
+
 {{< youtube G_gAodKKcEM >}}
 
 ---
@@ -230,6 +238,12 @@ Welcome! Here, we track the key moments and professional career highlights of ri
 
 - [WTA Profile](https://www.wtatennis.com/players/327793/clara-tauson)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/327793)
+
+{{< youtube HFzs0qaQJ6I >}}
+
+{{< youtube JRCuP2U5Alk >}}
+
+{{< youtube SJnld0b0bvY >}}
 
 ---
 

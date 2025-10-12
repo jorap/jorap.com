@@ -11,6 +11,33 @@ input#nav-toggle:checked ~ #nav-menu {
   @apply block;
 }
 
+/* Dark mode text visibility - explicit rules */
+:where(.dark, .dark *) .content p,
+:where(.dark, .dark *) .content li,
+:where(.dark, .dark *) .content,
+:where(.dark, .dark *) .content td {
+  color: #e5e5e5 !important;
+}
+
+:where(.dark, .dark *) .content h1,
+:where(.dark, .dark *) .content h2,
+:where(.dark, .dark *) .content h3,
+:where(.dark, .dark *) .content h4,
+:where(.dark, .dark *) .content h5,
+:where(.dark, .dark *) .content h6 {
+  color: #ffffff !important;
+}
+
+:where(.dark, .dark *) .content a {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
+:where(.dark, .dark *) .content strong,
+:where(.dark, .dark *) .content b {
+  color: #ffffff !important;
+}
+
 /* swiper pagination */
 .swiper-pagination-bullet {
   @apply !h-2.5 !w-2.5 !bg-light !opacity-100 dark:!bg-darkmode-light;

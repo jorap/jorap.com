@@ -1,0 +1,46 @@
+/* Add margin below Hugo YouTube shortcode embeds (robust selector) */
+
+/* Target divs with inline style matching the YouTube embed container */
+
+/* Robust selectors for YouTube embed containers (handles spacing variations) */
+div[style*="position: relative"][style*="padding-bottom:56.25%"],
+div[style*="position:relative"][style*="padding-bottom:56.25%"],
+div[style*="position: relative"][style*="padding-bottom: 56.25%"],
+div[style*="position:relative"][style*="padding-bottom: 56.25%"] {
+  margin-bottom: 1.5rem;
+}
+
+/* If a class is used for YouTube embeds, add a rule here as well (uncomment and adjust as needed) */
+/*
+.youtube-embed {
+  margin-bottom: 1.5rem;
+}
+*/
+
+/* Dark mode text readability fix */
+html.dark .content p,
+html.dark .content li,
+html.dark .content ul,
+html.dark .content ol,
+html.dark .content td,
+html.dark .content blockquote {
+  color: #e5e5e5 !important;
+}
+
+html.dark .content h1,
+html.dark .content h2,
+html.dark .content h3,
+html.dark .content h4,
+html.dark .content h5,
+html.dark .content h6 {
+  color: #ffffff !important;
+}
+
+html.dark .content a {
+  color: #ffffff !important;
+}
+
+html.dark .content strong,
+html.dark .content b {
+  color: #ffffff !important;
+}
