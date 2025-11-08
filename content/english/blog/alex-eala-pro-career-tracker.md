@@ -81,13 +81,17 @@ Welcome! We track the key moments and professional career highlights of rising t
 
 - **2025**
 
+  - **US Open** - 2nd Round
+    - [1st Round](https://www.wtatennis.com/tournaments/us-open/scores/LS63131469)
+    - [2nd Round](https://www.wtatennis.com/tournaments/us-open/scores/LS63101293)
+
   - **Wimbledon** - 1st Round
     - [1st Round](https://www.wtatennis.com/tournaments/wimbledon/scores/LS61511608)
-    - Played against the defending champion Krejcikova at the Centre Court
+      - Played against the defending champion Krejcikova at the Centre Court
 
   - **French Open** - 1st Round
     - [1st Round](https://www.rolandgarros.com/en-us/matches/2025/SD078)
-    - First Filipina to compete in a Grand Slam main draw
+      - First Filipina to compete in a Grand Slam main draw
 
 ### Doubles
 
@@ -106,7 +110,7 @@ Welcome! We track the key moments and professional career highlights of rising t
 
 **Singles:**
 
-- **Career High:** No. 54
+- **Career High:** No. 50
   - Highest-ranked Filipina in WTA history
 
 **Doubles:**
