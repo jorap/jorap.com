@@ -11,7 +11,7 @@ tags: ["Tennis", "Alex Eala"]
 draft: false
 ---
 
-Welcome! Here, we track the key moments and professional career highlights of rising tennis star **Alex Eala**.
+Welcome! We track the key moments and professional career highlights of rising tennis star **Alex Eala**.
 
 ---
 
