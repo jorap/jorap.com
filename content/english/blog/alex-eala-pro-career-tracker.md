@@ -61,6 +61,8 @@ Welcome! We track the key moments and professional career highlights of rising t
 ### Doubles
 
 - 2025
+  - **Guangzhou Open (WTA 250)** - Semifinals (with Nadiia Kichenok)
+  
   - **Rome Open (WTA 1000)** - Quarterfinals (with Coco Gauff)
     - Lost to defending champions Jasmine Paolini / Sara Errani
 
