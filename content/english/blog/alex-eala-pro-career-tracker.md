@@ -31,9 +31,21 @@ Welcome! We track the key moments and professional career highlights of rising t
 
   - **Abu Dhabi (WTA 500)** - [Quarterfinals](https://www.tennis.com/tournaments/sr-tournament-33476-wta-abu-dhabi-uae/sr-match-68328864/)
 
+  {{< youtube Cfn0SHv302U >}}
+
+  {{< youtube 8urcN5nHhX4 >}}
+
   - **Manila (WTA 125)** - [Quarterfinals](https://www.tennis.com/tournaments/sr-tournament-50112-wta-125k-manila-philippines/sr-match-68098432/)
 
+  {{< youtube AIdv9p64R7Y >}}
+  
+  {{< youtube iXfxN9Bysvs >}}
+
   - **Auckland (WTA 250)** - [Semifinals](https://www.tennis.com/tournaments/sr-tournament-6495-wta-auckland-new-zealand/sr-match-67306740/)
+
+  {{< youtube gQZqBwfpXro >}}
+
+  {{< youtube 6j0r-o9cwrw >}}
 
 - 2025
 
@@ -53,6 +65,8 @@ Welcome! We track the key moments and professional career highlights of rising t
 
   {{< youtube HJOsSm1rnqg >}}
 
+  {{< youtube mOD9LLVIbz4 >}}
+
   - **Ilkley (WTA 125)** - [Quarterfinals](https://www.tennis.com/tournaments/sr-tournament-46273-wta-125k-ilkley-great-britain/sr-match-61026381/)
 
   - **Miami Open (WTA 1000)** - [Semifinals](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906267/)
@@ -61,6 +75,8 @@ Welcome! We track the key moments and professional career highlights of rising t
     - Lost to Jessica Pegula in Semifinals
 
   {{< youtube efazYG5hSAA >}}
+
+  {{< youtube maG9TzsuVeM >}}
 
   - **Workday Canberra International (WTA 125)** - [Semifinals](https://www.tennis.com/tournaments/sr-tournament-41642-wta-125k-canberra-australia/sr-match-56728233/)
 
