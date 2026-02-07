@@ -19,6 +19,7 @@ Welcome! We track the key moments and professional career highlights of rising t
 
 - [Tennis.com Player Activity](https://www.tennis.com/players-rankings/alexandra-eala-sr-competitor-627278/activity/)
 - [WTA Profile](https://www.wtatennis.com/players/330332/alexandra-eala/#overview)
+- [TNNSLIVE](https://tnnslive.com/player/627278?content=form)
 
 ---
 
