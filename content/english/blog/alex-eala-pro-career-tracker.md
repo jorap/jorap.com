@@ -26,6 +26,14 @@ Welcome! We track the key moments and professional career highlights of rising t
 
 ### Singles
 
+- 2026
+
+  - **Abu Dhabi (WTA 500)** - [Quarterfinals](https://www.tennis.com/tournaments/sr-tournament-33476-wta-abu-dhabi-uae/sr-match-68328864/)
+
+  - **Manila (WTA 125)** - [Quarterfinals](https://www.tennis.com/tournaments/sr-tournament-50112-wta-125k-manila-philippines/sr-match-68098432/)
+
+  - **Auckland (WTA 250)** - [Semifinals](https://www.tennis.com/tournaments/sr-tournament-6495-wta-auckland-new-zealand/sr-match-67306740/)
+
 - 2025
 
   - **Jingshan (WTA 125)** - [Semifinals](https://www.tennis.com/tournaments/sr-tournament-47498-wta-125k-jingshan-china/sr-match-63865655/)
@@ -263,6 +271,15 @@ Welcome! We track the key moments and professional career highlights of rising t
 
 ---
 
+### Ekaterina Alexandrova
+
+- [WTA Profile](https://www.wtatennis.com/players/319007/ekaterina-alexandrova)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/319007)
+
+{{< youtube Cfn0SHv302U >}}
+
+---
+
 ## Matches to Watch Out For
 
 - [Naomi Osaka](https://www.wtatennis.com/head-to-head/330332/319998) - 2021, 2019 Australian Open and 2020, 2018 US Open Winner
@@ -270,6 +287,7 @@ Welcome! We track the key moments and professional career highlights of rising t
 - [Coco Gauff](https://www.wtatennis.com/head-to-head/330332/328560) - 2025 French Open and 2023 US Open Winner
 - [Emma Raducanu](https://www.wtatennis.com/head-to-head/330332/328366) - 2021 US Open Winner
 - [Sofia Kenin](https://www.wtatennis.com/head-to-head/330332/320942) - 2020 Australian Open Winner
+- [Elena Rybakina](https://www.wtatennis.com/head-to-head/330332/324166) - 2026 Australian Open Winner
 - [Mirra Andreeva](https://www.wtatennis.com/head-to-head/330332/331809) - Alex Eala defeated her when she won the 2022 Junior US Open
 - [Leylah Fernandez](https://www.wtatennis.com/head-to-head/330332/326735) - Another left handed player and has Filipino heritage
 
