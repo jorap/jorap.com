@@ -1,6 +1,6 @@
 ---
 title: "Alex Eala Pro Career Tracker"
-date: 2025-03-26T05:00:00Z
+date: 2026-02-01T05:00:00Z
 meta_title: "Alex Eala Pro Career Tracker"
 slug: "alex-eala-pro-career-tracker"
 description: "Follow the latest highlights from Alex Eala's professional tennis career."
@@ -133,16 +133,16 @@ Welcome! We track the key moments and professional career highlights of rising t
 
 ---
 
-## Career Rankings
+## WTA Rankings
 
 **Singles:**
 
-- **Career High:** No. 50
+- **Career High:** No. 45
   - Highest-ranked Filipina in WTA history
 
 **Doubles:**
 
-- **Career High:** No. 155
+- **Career High:** No. 136
 
 ---
 
