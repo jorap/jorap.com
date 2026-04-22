@@ -1,6 +1,6 @@
 ---
 title: "Alex Eala Pro Career Tracker"
-date: 2026-04-22T05:00:00Z
+date: 2026-04-01T05:00:00Z
 meta_title: "Alex Eala Pro Career Tracker"
 slug: "alex-eala-pro-career-tracker"
 description: "Follow the latest highlights from Alex Eala's professional tennis career."
