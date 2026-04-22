@@ -27,6 +27,12 @@ ID = 'G-MEASUREMENT_ID' # see https://gohugo.io/templates/internal/#configure-go
 [services.disqus]
 shortname = 'jorap' # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
 
+########################## Privacy ##############################
+[privacy]
+[privacy.youtube]
+disable = false
+privacyEnhanced = true
+
 ########################## Permalinks ############################
 [permalinks.page]
 "pages" = "/:slugorcontentbasename/"
