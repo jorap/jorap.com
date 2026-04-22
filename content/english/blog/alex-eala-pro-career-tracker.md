@@ -29,6 +29,12 @@ Welcome! We track the key moments and professional career highlights of rising t
 
 - 2026
 
+- **Dubai (WTA 1000)** - [Quarterfinals](https://www.tennis.com/tournaments/sr-tournament-4487-wta-dubai-uae/sr-match-68853894/)
+
+  {{< youtube Z-NN1Y1lknY >}}
+
+  {{< youtube vToI4CcaOo8 >}}
+
   - **Abu Dhabi (WTA 500)** - [Quarterfinals](https://www.tennis.com/tournaments/sr-tournament-33476-wta-abu-dhabi-uae/sr-match-68328864/)
 
   {{< youtube Cfn0SHv302U >}}
@@ -288,12 +294,48 @@ Welcome! We track the key moments and professional career highlights of rising t
 
 ---
 
+### Jasmine Paolini
+
+- [WTA Profile](https://www.wtatennis.com/players/319280/jasmine-paolini)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/319280)
+
+{{< youtube eUCpH8JRkg4 >}}
+
+---
+
 ### Ekaterina Alexandrova
 
 - [WTA Profile](https://www.wtatennis.com/players/319007/ekaterina-alexandrova)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/319007)
 
 {{< youtube Cfn0SHv302U >}}
+
+---
+
+### Linda Noskova
+
+- [WTA Profile](https://www.wtatennis.com/players/329668/linda-noskova)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/329668)
+
+{{< youtube wQ1Y2R4_dAU >}}
+
+---
+
+### Karolina Muchova
+
+- [WTA Profile](https://www.wtatennis.com/players/322191/karolina-muchova)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/322191)
+
+{{< youtube FRKYk8uPUJo >}}
+
+---
+
+### Leylah Fernandez
+
+- [WTA Profile](https://www.wtatennis.com/players/326735/leylah-fernandez)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/326735)
+
+{{< youtube Opdw8Q_HFdQ >}}
 
 ---
 
@@ -306,7 +348,6 @@ Welcome! We track the key moments and professional career highlights of rising t
 - [Sofia Kenin](https://www.wtatennis.com/head-to-head/330332/320942) - 2020 Australian Open Winner
 - [Elena Rybakina](https://www.wtatennis.com/head-to-head/330332/324166) - 2026 Australian Open Winner
 - [Mirra Andreeva](https://www.wtatennis.com/head-to-head/330332/331809) - Alex Eala defeated her when she won the 2022 Junior US Open
-- [Leylah Fernandez](https://www.wtatennis.com/head-to-head/330332/326735) - Another left handed player and has Filipino heritage
 
 ---
 
