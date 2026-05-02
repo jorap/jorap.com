@@ -25,6 +25,7 @@
 button.nav-link.nav-dropdown-trigger {
   @apply border-0 bg-transparent font-inherit text-left;
   @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-surface;
+  @apply dark:focus-visible:ring-offset-darkmode-body;
 }
 
 .nav-dropdown {
