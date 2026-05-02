@@ -42,7 +42,7 @@ Welcome! We track the key moments and professional career highlights of rising t
 
 - 2026
 
-- **Dubai (WTA 1000)** - [Quarterfinals](https://www.tennis.com/tournaments/sr-tournament-4487-wta-dubai-uae/sr-match-68853894/)
+  - **Dubai (WTA 1000)** - [Quarterfinals](https://www.tennis.com/tournaments/sr-tournament-4487-wta-dubai-uae/sr-match-68853894/)
 
   {{< youtube Z-NN1Y1lknY >}}
 
@@ -125,6 +125,11 @@ Welcome! We track the key moments and professional career highlights of rising t
 
 ### Singles
 
+- **2026**
+
+  - **Australian Open** - 1st Round
+    - [1st Round](https://ausopen.com/match/2026-alycia-parks-vs-alexandra-eala-ws122)
+
 - **2025**
 
   - **US Open** - 2nd Round
@@ -140,6 +145,11 @@ Welcome! We track the key moments and professional career highlights of rising t
       - First Filipina to compete in a Grand Slam main draw
 
 ### Doubles
+
+- **2026**
+
+  - **Australian Open** - 1st Round
+    - [1st Round](https://ausopen.com/match/2026-alexandra-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-wd126)
 
 - **2025**
 
@@ -238,7 +248,9 @@ Welcome! We track the key moments and professional career highlights of rising t
 | --------------- | ---- |
 | Wimbledon       | 2023 |
 
-**2025 Montreal Open – Hard Court - Loss** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2975-wta-montreal-canada/sr-match-62356318/)
+**Matches:**
+
+- **2025 Montreal Open – Hard Court - Loss** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2975-wta-montreal-canada/sr-match-62356318/)
 
 {{< youtube 3jTnT-QQZAI >}}
 
