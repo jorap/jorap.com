@@ -1,5 +1,5 @@
 .header {
-  @apply bg-surface py-6;
+  @apply border-divider bg-surface border-b py-5;
 }
 
 /* navbar items */
@@ -19,7 +19,7 @@
 }
 
 .nav-link {
-  @apply text-ink hover:text-accent block cursor-pointer p-3 font-semibold transition lg:px-2 lg:py-3;
+  @apply text-ink hover:text-accent block cursor-pointer p-3 font-semibold transition-colors duration-200 ease-out lg:px-2 lg:py-3;
 }
 
 .nav-dropdown {
@@ -35,7 +35,7 @@
 }
 
 .nav-dropdown-list {
-  @apply bg-surface z-10 hidden min-w-[180px] rounded p-4 shadow-sm lg:invisible lg:absolute lg:block lg:opacity-0 lg:transition-all lg:duration-300;
+  @apply bg-elevated border-divider z-10 hidden min-w-[180px] rounded-lg border p-4 shadow-lg lg:invisible lg:absolute lg:block lg:opacity-0 lg:transition-all lg:duration-300 lg:ease-out;
 }
 
 .nav-dropdown-item {
@@ -43,7 +43,7 @@
 }
 
 .nav-dropdown-link {
-  @apply text-ink hover:text-accent dark:text-ink-muted dark:hover:text-accent block py-1 font-semibold transition;
+  @apply text-ink hover:text-accent dark:text-ink-muted dark:hover:text-accent block py-1 font-semibold transition-colors duration-200 ease-out;
 }
 
 /* theme-switcher */

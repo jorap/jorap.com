@@ -17,14 +17,14 @@ div[style*="position:relative"][style*="padding-bottom: 56.25%"] {
 }
 */
 
-/* Dark mode text readability fix */
+/* Dark mode prose: align with theme tokens instead of flat pure white */
 html.dark .content p,
 html.dark .content li,
 html.dark .content ul,
 html.dark .content ol,
 html.dark .content td,
 html.dark .content blockquote {
-  color: #e5e5e5 !important;
+  color: var(--color-darkmode-text) !important;
 }
 
 html.dark .content h1,
@@ -33,14 +33,18 @@ html.dark .content h3,
 html.dark .content h4,
 html.dark .content h5,
 html.dark .content h6 {
-  color: #ffffff !important;
+  color: var(--color-darkmode-text-dark) !important;
 }
 
 html.dark .content a {
-  color: #ffffff !important;
+  color: var(--color-darkmode-text-dark) !important;
+}
+
+html.dark .content a:hover {
+  color: var(--color-darkmode-primary) !important;
 }
 
 html.dark .content strong,
 html.dark .content b {
-  color: #ffffff !important;
+  color: var(--color-darkmode-text-dark) !important;
 }

@@ -24,7 +24,7 @@ html.dark {
 }
 
 body {
-  @apply bg-surface text-base font-primary font-normal leading-relaxed text-ink-muted;
+  @apply bg-surface text-base font-primary font-normal leading-relaxed text-ink-muted antialiased;
 }
 
 h1,

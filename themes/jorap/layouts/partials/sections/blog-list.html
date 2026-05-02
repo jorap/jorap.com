@@ -4,7 +4,11 @@
             <!-- blog posts -->
             <div class="lg:col-12">
                 <div class="row">
-                    <h2 class="text-center text-5xl font-bold mb-10">Latest Blog Posts</h2>
+                    <div class="mb-12 w-full md:col-12">
+                        <h2 class="text-h1-sm md:text-h1 font-bold tracking-tight text-ink md:text-left">
+                            Latest Blog Posts
+                        </h2>
+                    </div>
                     {{ $blogPages := where site.RegularPages "Section" "blog" }}
                     {{ $sortedPages := $blogPages.ByDate.Reverse }}
                     {{ $recentPosts := first 9 $sortedPages }}

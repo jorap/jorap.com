@@ -1,12 +1,14 @@
-<div class="bg-surface component--blog-card flex h-full flex-col">
+<div
+  class="component--blog-card flex h-full flex-col overflow-hidden rounded-xl border border-divider bg-elevated shadow-sm transition-[box-shadow,border-color] duration-300 ease-out hover:border-divider hover:shadow-md dark:border-darkmode-border dark:hover:border-darkmode-border">
   {{ $image:= .Params.image }}
   {{ if $image }}
-  <a href="{{ .RelPermalink }}" class="block relative overflow-hidden aspect-[413/220]">
-    {{ partial "components/image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-3 image--partial w-full h-full object-cover aspect-[413/208]" "Size" "413x208" "Loading" "eager" "FetchPriority" "high" "Decoding" "async") }}
+  <a href="{{ .RelPermalink }}" class="relative block aspect-[413/220] overflow-hidden">
+    {{ partial "components/image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "image--partial h-full w-full object-cover aspect-[413/208]" "Size" "413x208" "Loading" "eager" "FetchPriority" "high" "Decoding" "async") }}
   </a>
   {{ end }}
-  <h3 class="mb-3 text-2xl text-balance">
-    <a href="{{ .RelPermalink }}">
+  <div class="flex flex-1 flex-col px-6 pb-6 pt-5">
+  <h3 class="mb-3 text-2xl text-balance font-secondary">
+    <a class="text-ink transition-colors duration-200 ease-out hover:text-accent" href="{{ .RelPermalink }}">
       {{ .Title }}
     </a>
   </h3>
@@ -35,10 +37,11 @@
     </li>
     {{ end }}
   </ul>
-  <p class="mb-6">{{ if .Description }}{{ .Description | plainify }}{{ else }}{{ .Summary | plainify }}{{ end }}</p>
+  <p class="mb-6 flex-1 text-ink-muted">{{ if .Description }}{{ .Description | plainify }}{{ else }}{{ .Summary | plainify }}{{ end }}</p>
   <div class="mt-auto">
     <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
       {{ T "read_more" }} &rarr;
     </a>
+  </div>
   </div>
 </div>
