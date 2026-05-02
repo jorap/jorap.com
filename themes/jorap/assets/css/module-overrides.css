@@ -15,7 +15,7 @@
 }
 
 .fediverse-input-wrapper {
-  @apply bg-body dark:bg-darkmode-body rounded;
+  @apply bg-surface rounded;
   input {
     @apply rounded focus:border-primary focus:ring-0;
   }
