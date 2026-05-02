@@ -9,9 +9,14 @@
 
 .navbar-brand {
   @apply text-ink text-xl font-semibold;
-  image {
+
+  img {
     @apply max-h-full max-w-full;
   }
+}
+
+input#nav-toggle:focus-visible + label {
+  @apply rounded-md outline-none ring-2 ring-accent ring-offset-2 ring-offset-surface dark:ring-offset-darkmode-body;
 }
 
 .navbar-nav {

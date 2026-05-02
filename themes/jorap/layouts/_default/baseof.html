@@ -11,8 +11,10 @@
     {{ partial "essentials/head.html" . }}
 
 
-    <!-- style (always cache it) -->
-    {{ partialCached "essentials/style.html" . }}
+    <!-- style: defer until hugo_stats.json exists for Tailwind @source (see https://gohugo.io/functions/css/tailwindcss/) -->
+    {{ with (templates.Defer (dict "key" "global")) }}
+      {{ partial "essentials/style.html" . }}
+    {{ end }}
 
   </head>
 

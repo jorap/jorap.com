@@ -10,16 +10,19 @@
       </a>
     </div>
     <!-- navbar toggler -->
-    <input id="nav-toggle" type="checkbox" class="hidden" />
+    <input
+      id="nav-toggle"
+      type="checkbox"
+      class="sr-only"
+      aria-controls="nav-menu"
+      aria-label="Open and close site navigation" />
     <label
       for="nav-toggle"
-      class="order-3 cursor-pointer flex items-center lg:hidden text-text-dark dark:text-white lg:order-1">
-      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
-        <title>Menu Open</title>
-        <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
+      class="order-3 flex min-h-11 min-w-11 cursor-pointer items-center justify-center lg:hidden text-text-dark dark:text-white lg:order-1">
+      <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20" aria-hidden="true">
+        <path d="M0 3h20v2H0zm0 6h20v2H0zm0 6h20v2H0z"></path>
       </svg>
-      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20">
-        <title>Menu Close</title>
+      <svg id="hide-button" class="h-6 fill-current hidden" viewBox="0 0 20 20" aria-hidden="true">
         <polygon
           points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
           transform="rotate(45 10 10)"></polygon>
@@ -119,7 +122,7 @@
       {{ with site.Params.search }}
         {{ if .enable }}
           <button
-            aria-label="search"
+            aria-label="Search"
             {{ if and (not site.Params.navigation_button.enable) (not site.Params.theme_switcher) }}
               class="border-border text-text-dark hover:text-primary
               dark:border-darkmode-border mr-5 inline-block border-r

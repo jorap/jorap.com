@@ -11,9 +11,9 @@
                     </div>
                     {{ $blogPages := where site.RegularPages "Section" "blog" }}
                     {{ $sortedPages := $blogPages.ByDate.Reverse }}
-                    {{ $recentPosts := first 9 $sortedPages }}
+                    {{ $recentPosts := first 12 $sortedPages }}
                     {{ range $recentPosts }}
-                    <div class="md:col-4 mb-14">
+                    <div class="md:col-6 lg:col-4 mb-14">
                         {{ partial "components/blog-card" . }}
                     </div>
                     {{ end }}
