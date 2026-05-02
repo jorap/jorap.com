@@ -4,42 +4,52 @@
 
   // Dropdown Menu Toggler For Mobile and Tablet
   // ----------------------------------------
-  const dropdownMenuToggler = document.querySelectorAll(
-    ".nav-dropdown > .nav-link",
-  );
-  
-  // Close other active dropdowns when one is opened
-  const closeOtherDropdowns = (currentItem) => {
-    const activeItems = document.querySelectorAll(".nav-dropdown.active");
-    activeItems.forEach((item) => {
-      if (item !== currentItem && item.classList.contains("active")) {
-        item.classList.remove("active");
-      }
+  const dropdownTriggers = document.querySelectorAll(".nav-dropdown-trigger");
+
+  const setDropdownExpanded = (navItem, expanded) => {
+    const btn = navItem?.querySelector(".nav-dropdown-trigger");
+    if (btn) btn.setAttribute("aria-expanded", expanded ? "true" : "false");
+  };
+
+  const closeAllDropdowns = () => {
+    document.querySelectorAll(".nav-dropdown.active").forEach((item) => {
+      item.classList.remove("active");
+      setDropdownExpanded(item, false);
     });
   };
 
-  // Close dropdown when clicking outside
   document.addEventListener("click", (e) => {
     if (!e.target.closest(".nav-dropdown")) {
-      const activeItems = document.querySelectorAll(".nav-dropdown.active");
-      activeItems.forEach((item) => {
-        item.classList.remove("active");
-      });
+      closeAllDropdowns();
     }
   });
 
-  dropdownMenuToggler.forEach((toggler) => {
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    closeAllDropdowns();
+  });
+
+  dropdownTriggers.forEach((toggler) => {
     toggler?.addEventListener("click", (e) => {
       e.preventDefault();
       const navItem = e.target.closest(".nav-item");
-      
-      // Toggle active class
-      if (navItem.classList.contains("active")) {
+      if (!navItem) return;
+
+      const isOpen = navItem.classList.contains("active");
+      if (isOpen) {
         navItem.classList.remove("active");
-      } else {
-        closeOtherDropdowns(navItem);
-        navItem.classList.add("active");
+        setDropdownExpanded(navItem, false);
+        return;
       }
+
+      document.querySelectorAll(".nav-dropdown.active").forEach((item) => {
+        if (item !== navItem) {
+          item.classList.remove("active");
+          setDropdownExpanded(item, false);
+        }
+      });
+      navItem.classList.add("active");
+      setDropdownExpanded(navItem, true);
     });
   });
 

@@ -22,12 +22,21 @@
   @apply text-ink hover:text-accent block cursor-pointer p-3 font-semibold transition-colors duration-200 ease-out lg:px-2 lg:py-3;
 }
 
+button.nav-link.nav-dropdown-trigger {
+  @apply border-0 bg-transparent font-inherit text-left;
+  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-surface;
+}
+
 .nav-dropdown {
   @apply mr-0;
 }
 
-.nav-dropdown > svg {
-  @apply pointer-events-none;
+.nav-dropdown-trigger svg {
+  @apply pointer-events-none shrink-0;
+}
+
+.nav-dropdown-trigger {
+  @apply max-lg:w-full lg:w-auto;
 }
 
 .nav-dropdown.active .nav-dropdown-list {

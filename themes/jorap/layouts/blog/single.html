@@ -1,8 +1,9 @@
 {{ define "main" }}
+{{ $hasToc := ne .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
 <section class="section pt-7">
   <div class="container">
     <div class="row justify-center">
-      <div class="lg:col-8">
+      <div class="{{ if $hasToc }}lg:col-8{{ else }}lg:col-10 xl:col-9{{ end }}">
         <article>
           {{ $image:= .Params.image }}
           {{ if $image }}
@@ -10,7 +11,7 @@
             {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "image--partial aspect-[475/239]") }}
           </div>
           {{ end }}
-          <h1 class="h2 mb-4 text-pretty">
+          <h1 class="article-title mb-4">
             {{ .Title }}
           </h1>
           <ul class="mb-4">
@@ -40,7 +41,7 @@
           </ul>
 
           {{/* Mobile TOC - appears after meta but before content*/}}
-          {{ if ne .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
+          {{ if $hasToc }}
           <div class="toc-wrapper border rounded p-4 relative z-10 mb-6 lg:hidden">
             <div class="flex justify-between items-center cursor-pointer" id="mobile-toc-toggle">
               <h5 class="mb-0">{{ T "table_of_contents" | default "Table of Contents" }}</h5>
@@ -90,27 +91,23 @@
           {{ end }}
         </article>
       </div>
+      {{ if $hasToc }}
       <div class="lg:col-4">
         <div class="sidebar-wrapper flex flex-col h-full">
           {{/* Desktop TOC - hidden on mobile */}}
-          {{ if ne .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
           <div class="toc-wrapper hidden lg:block sticky top-[100px] z-10 bg-body dark:bg-darkmode-body">
             <div class="table-of-content toc-links">
               <h5 class="mb-3">{{ T "table_of_contents" | default "Table of Contents" }}</h5>
               {{ .TableOfContents }}
             </div>
           </div>
-          {{ end }}
-
-          <div class="sidebar-content mt-10 lg:mt-0">
-          </div>
         </div>
       </div>
+      {{ end }}
     </div>
 
     {{/* Related posts */}}
-    {{ $related := .Site.RegularPages.Related . | first 10 }}
-    {{ $related = $related | shuffle | first 3 }}
+    {{ $related := first 3 (.Site.RegularPages.Related .) }}
     {{ with $related }}
     <div class="section pb-0">
       <h2 class="h3 mb-12">{{ T "related_posts" }}</h2>

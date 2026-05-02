@@ -6,6 +6,12 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 html.dark {
   color-scheme: dark;
 }
@@ -33,37 +39,44 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-secondary font-bold leading-tight text-ink;
+  @apply font-secondary text-ink;
 }
 
-h1,
+/* Inter-only hierarchy: weight + tracking ladder so headings don’t collapse visually */
+h1:not(.article-title),
 .h1 {
-    @apply text-h1-sm md:text-h1;
+  @apply text-h1-sm md:text-h1 font-bold leading-[1.12] tracking-[-0.03em];
 }
 
 h2,
 .h2 {
-    @apply text-h2-sm md:text-h2;
+  @apply text-h2-sm md:text-h2 font-bold leading-tight tracking-[-0.025em];
 }
 
 h3,
 .h3 {
-    @apply text-h3-sm md:text-h3;
+  @apply text-h3-sm md:text-h3 font-semibold leading-snug tracking-[-0.02em];
 }
 
 h4,
 .h4 {
-    @apply text-h4;
+  @apply text-h4 font-semibold leading-snug tracking-tight;
 }
 
 h5,
 .h5 {
-    @apply text-h5;
+  @apply text-h5 font-semibold leading-snug tracking-tight;
 }
 
 h6,
 .h6 {
-    @apply text-h6;
+  @apply text-h6 font-semibold leading-normal tracking-normal;
+}
+
+/* Post titles: real h1, restrained on small screens, scales up with viewport */
+.article-title {
+  @apply font-secondary font-bold leading-[1.15] tracking-[-0.035em] text-pretty text-ink;
+  @apply text-h2-sm md:text-h2 lg:text-h1-sm xl:text-h1;
 }
 
 b,
