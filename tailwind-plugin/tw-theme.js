@@ -137,6 +137,10 @@ module.exports = plugin.withOptions(() => {
         border: (value) => ({ borderColor: value }),
         fill: (value) => ({ fill: value }),
         stroke: (value) => ({ stroke: value }),
+        ring: (value) => ({ "--tw-ring-color": value }),
+        "ring-offset": (value) => ({
+          "--tw-ring-offset-color": value,
+        }),
       },
       { values: colorsMap, type: "color" },
     );
