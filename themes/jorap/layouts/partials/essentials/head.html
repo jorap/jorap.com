@@ -64,12 +64,17 @@
 {{ if .IsHome }}
   {{ range first 1 (where site.RegularPages "Type" "blog") }}
     {{ $image:= .Params.image }}
+    {{ if and $image (not (or (strings.HasPrefix $image "http://") (strings.HasPrefix $image "https://") (strings.HasPrefix $image "//"))) (strings.HasPrefix $image "/") }}
+      {{ $image = strings.TrimPrefix "/" $image }}
+    {{ end }}
     {{ if $image }}
       {{ $size:= "413x208" }}
-      {{ if (fileExists (add `assets/` (string $image))) }}
+      {{ if and (path.Ext $image) (fileExists (add `assets/` (string $image))) }}
         {{ with resources.Get $image }}
+          {{ if eq .MediaType.MainType "image" }}
           {{ $imageWebp:= .Resize (add (string $size) " webp") }}
           <link rel="preload" as="image" href="{{ $imageWebp.RelPermalink }}" imagesrcset="{{ $imageWebp.RelPermalink }}">
+          {{ end }}
         {{ end }}
       {{ end }}
     {{ end }}

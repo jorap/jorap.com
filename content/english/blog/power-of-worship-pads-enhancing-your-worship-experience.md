@@ -1,5 +1,4 @@
 ---
-
 title: "The Power Of Worship Pads: Enhancing Your Worship When The Guitar Is Your Only Instrument"
 meta_title: "Worship Pads for Guitar: Enhance Solo Worship Leading"
 description: "Standing alone with just my guitar, leading worship felt thin and awkward. Worship pads changed everything - here's how they can help you too."
@@ -10,7 +9,7 @@ categories: ["Worship", "Music"]
 author: "JoRap"
 tags: ["Worship Pads", "Church Music", "Worship Leading", "Guitar Worship", "Solo Worship"]
 draft: false
-------------
+---
 
 ## Introduction
 
