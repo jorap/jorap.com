@@ -130,6 +130,8 @@ Welcome! We track the key moments and professional career highlights of rising t
   - **Australian Open** - 1st Round
     - [1st Round](https://ausopen.com/match/2026-alycia-parks-vs-alexandra-eala-ws122)
 
+    {{< youtube HhdkG1AwDhU >}}
+
 - **2025**
 
   - **US Open** - 2nd Round
