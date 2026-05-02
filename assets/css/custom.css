@@ -44,3 +44,42 @@ html.dark .content strong,
 html.dark .content b {
   color: #ffffff !important;
 }
+
+/* Skip link — visible only when focused (keyboard / assistive tech) */
+.skip-link {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  width: auto;
+  height: auto;
+  padding: 0.75rem 1.25rem;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+  z-index: 100;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  text-decoration: none;
+  background-color: var(--color-accent);
+  color: #fff;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.18);
+}
+
+.skip-link:focus-visible {
+  outline: 3px solid var(--color-surface);
+  outline-offset: 3px;
+}

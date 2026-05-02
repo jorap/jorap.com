@@ -42,11 +42,16 @@
           {{/* Mobile TOC - appears after meta but before content*/}}
           {{ if ne .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
           <div class="toc-wrapper border rounded p-4 relative z-10 mb-6 lg:hidden">
-            <div class="flex justify-between items-center cursor-pointer" id="mobile-toc-toggle">
-              <h5 class="mb-0">{{ T "table_of_contents" | default "Table of Contents" }}</h5>
-              <i class="fa-solid fa-chevron-down transition-transform duration-300" id="toc-chevron"></i>
-            </div>
-            <div class="mobile-toc-content hidden mt-4">
+            <button
+              type="button"
+              id="mobile-toc-toggle"
+              class="flex w-full justify-between items-center gap-3 rounded-md text-left cursor-pointer bg-transparent text-ink focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-surface"
+              aria-expanded="false"
+              aria-controls="mobile-toc-panel">
+              <span class="h5 mb-0">{{ T "table_of_contents" | default "Table of Contents" }}</span>
+              <i class="fa-solid fa-chevron-down shrink-0 transition-transform duration-300" id="toc-chevron" aria-hidden="true"></i>
+            </button>
+            <div id="mobile-toc-panel" class="mobile-toc-content hidden mt-4">
               <div class="table-of-content toc-links">
                 {{ .TableOfContents }}
               </div>
@@ -135,8 +140,9 @@
 
     if (mobileTocToggle && mobileTocContent && tocChevron) {
       mobileTocToggle.addEventListener('click', function () {
-        mobileTocContent.classList.toggle('hidden');
+        const open = mobileTocContent.classList.toggle('hidden');
         tocChevron.classList.toggle('rotate-180');
+        mobileTocToggle.setAttribute('aria-expanded', open ? 'false' : 'true');
       });
     }
 
