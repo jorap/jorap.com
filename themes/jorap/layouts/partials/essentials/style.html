@@ -22,7 +22,7 @@
 <script>
   (function () {
     const googleFont = document.createElement("link");
-    googleFont.href = "https://fonts.googleapis.com/css2?family={{$pf | safeURL}}{{with $sf}}&family={{. | safeURL}}{{end}}&display=swap";
+    googleFont.href = "https://fonts.googleapis.com/css2?family={{$pf | safeURL}}{{if and $sf (ne $pf $sf)}}&family={{$sf | safeURL}}{{end}}&display=swap";
     googleFont.type = "text/css";
     googleFont.rel = "stylesheet";
     document.head.appendChild(googleFont);
