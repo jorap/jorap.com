@@ -26,8 +26,8 @@ google_tag_manager = "" # example: G-XXXXXXXXXX
 google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
-# copyright
-copyright = "Copyright © 2025, JoRap"
+# copyright ({year} is replaced at build time with the current year)
+copyright = "Copyright © {year}, JoRap"
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader

@@ -51,7 +51,7 @@
     <div
       class="text-text-light dark:text-darkmode-text-light container text-center">
       <p>
-        {{ site.Params.copyright | markdownify }}
+        {{ replace site.Params.copyright "{year}" (now.Format "2006") | markdownify }}
       </p>
     </div>
   </div>

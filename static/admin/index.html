@@ -1,72 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Content Manager</title>
-    <meta name="robots" content="noindex" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Content Manager</title>
+  <meta name="robots" content="noindex" />
 </head>
 
 <body>
-    <div id="nc-root"></div>
-
-    <script>
-        // Add comprehensive error handling
-        window.addEventListener('error', function(e) {
-            console.error('Global error caught:', e.error);
-            console.error('Error message:', e.message);
-            console.error('Error stack:', e.error ? e.error.stack : 'No stack available');
-        });
-
-        // Load CMS with error handling
-        const script = document.createElement('script');
-        script.src = 'https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.js';
-        script.onload = function() {
-            console.log('CMS script loaded successfully');
-
-            // Try to initialize with error handling
-            try {
-                if (window.CMS) {
-                    console.log('CMS object available, initializing...');
-
-                    // Add event listeners to track authentication
-                    window.CMS.registerEventListener({
-                        name: 'login',
-                        handler: (data) => {
-                            console.log('Login event triggered:', data);
-                        }
-                    });
-
-                    window.CMS.registerEventListener({
-                        name: 'logout',
-                        handler: (data) => {
-                            console.log('Logout event triggered:', data);
-                        }
-                    });
-
-                    window.CMS.init();
-                    console.log('CMS initialized successfully');
-
-                    // Check if user is logged in after init
-                    setTimeout(() => {
-                        console.log('Checking auth state...');
-                        console.log('Current URL:', window.location.href);
-                        console.log('Current hash:', window.location.hash);
-                    }, 2000);
-                } else {
-                    console.error('CMS object not available');
-                }
-            } catch (error) {
-                console.error('Error during CMS initialization:', error);
-                console.error('Error stack:', error.stack);
-            }
-        };
-        script.onerror = function() {
-            console.error('Failed to load CMS script');
-        };
-        document.head.appendChild(script);
-    </script>
+  <!-- Sveltia CMS: https://sveltiacms.app/ — drop-in replacement for Decap/Netlify CMS -->
+  <script data-cfasync="false" src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
 </body>
 
 </html>
