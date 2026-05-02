@@ -1,6 +1,6 @@
 <header
   class="header {{ if site.Params.navbar_fixed }}sticky top-0{{ end }} z-30">
-  <nav class="navbar container" aria-label='{{ T "main_navigation" | default "Main navigation" }}'>
+  <nav class="navbar container">
     <!-- logo -->
     <div class="order-0">
       <!-- navbar brand/logo -->
@@ -10,14 +10,10 @@
       </a>
     </div>
     <!-- navbar toggler -->
-    <input id="nav-toggle" type="checkbox" class="hidden" aria-hidden="true" tabindex="-1" />
+    <input id="nav-toggle" type="checkbox" class="hidden" />
     <label
       for="nav-toggle"
-      id="nav-toggle-label"
-      role="button"
-      aria-controls="nav-menu"
-      aria-expanded="false"
-      class="order-3 cursor-pointer flex items-center rounded-md p-2 -m-2 lg:hidden text-text-dark dark:text-white lg:order-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-surface">
+      class="order-3 cursor-pointer flex items-center lg:hidden text-text-dark dark:text-white lg:order-1">
       <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20">
         <title>Menu Open</title>
         <path d="M0 3h20v2H0V3z m0 6h20v2H0V9z m0 6h20v2H0V0z"></path>
@@ -48,8 +44,6 @@
                 {{ $active := eq $childURL $pageURL }}
                 {{ if $active }}active{{ end }}
               {{ end }} inline-flex items-center"
-              role="button"
-              tabindex="0"
               aria-haspopup="true"
               aria-expanded="false">
               {{ .Name }}

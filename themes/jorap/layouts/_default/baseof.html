@@ -17,7 +17,6 @@
   </head>
 
   <body class="min-h-full flex flex-col">
-    <a class="skip-link" href="#main">{{ T "skip_to_main" | default "Skip to main content" }}</a>
     <!-- cache partial only in production -->
     {{ if hugo.IsProduction }}
       {{ partialCached "preloader.html" . }}
@@ -40,7 +39,7 @@
     {{ partial "search-modal.html" (dict "Context" . ) }}
 
 
-    <main id="main" class="flex-1" tabindex="-1">
+    <main class="flex-1">
       {{ block "main" . }}{{ end }}
     </main>
 
