@@ -85,12 +85,40 @@ const colorsMap = {};
   });
 });
 
+// Semantic tokens: one name, values swap under `.dark` (pairs with @custom-variant in main.css).
+const semanticLight = {
+  "--color-surface": "var(--color-body)",
+  "--color-elevated": "var(--color-light)",
+  "--color-ink": "var(--color-text-dark)",
+  "--color-ink-muted": "var(--color-text)",
+  "--color-ink-faint": "var(--color-text-light)",
+  "--color-divider": "var(--color-border)",
+  "--color-accent": "var(--color-primary)",
+};
+const semanticDark = {
+  "--color-surface": "var(--color-darkmode-body)",
+  "--color-elevated": "var(--color-darkmode-light)",
+  "--color-ink": "var(--color-darkmode-text-dark)",
+  "--color-ink-muted": "var(--color-darkmode-text)",
+  "--color-ink-faint": "var(--color-darkmode-text-light)",
+  "--color-divider": "var(--color-darkmode-border)",
+  "--color-accent": "var(--color-darkmode-primary)",
+};
+Object.assign(colorsMap, {
+  surface: "var(--color-surface)",
+  elevated: "var(--color-elevated)",
+  ink: "var(--color-ink)",
+  "ink-muted": "var(--color-ink-muted)",
+  "ink-faint": "var(--color-ink-faint)",
+  divider: "var(--color-divider)",
+  accent: "var(--color-accent)",
+});
+
 module.exports = plugin.withOptions(() => {
   return function ({ addBase, addUtilities, matchUtilities }) {
-    // Default vars on :root; dark vars on .dark
     addBase({
-      ":root": baseVars,
-      ".dark": darkVars,
+      ":root": { ...baseVars, ...semanticLight },
+      ".dark": { ...darkVars, ...semanticDark },
     });
 
     const fontUtils = {};
@@ -100,9 +128,7 @@ module.exports = plugin.withOptions(() => {
     Object.keys(fontSizes).forEach((key) => {
       fontUtils[`.text-${key}`] = { fontSize: `var(--text-${key})` };
     });
-    addUtilities(fontUtils, {
-      variants: ["responsive", "hover", "focus", "active", "disabled"],
-    });
+    addUtilities(fontUtils);
 
     matchUtilities(
       {

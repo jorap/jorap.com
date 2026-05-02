@@ -5,6 +5,7 @@
 @plugin "./tailwind-plugin/tw-bs-grid";
 @source "hugo_stats.json";
 
+/* Class-based dark mode (see theme-switcher); pairs with semantic tokens in tailwind-plugin/tw-theme.js */
 @custom-variant dark (&:where(.dark, .dark *));
 
 @import "./safe.css";

@@ -1,8 +1,13 @@
 html {
   @apply text-base-sm md:text-base;
+  color-scheme: light;
   /* Responsive offset for anchor links to account for sticky header at different breakpoints */
   scroll-padding-top: 80px; /* Mobile: smaller header */
   scroll-behavior: smooth;
+}
+
+html.dark {
+  color-scheme: dark;
 }
 
 /* Larger screens have taller headers */
@@ -19,7 +24,7 @@ html {
 }
 
 body {
-    @apply bg-body text-base dark:bg-darkmode-body font-primary font-normal leading-relaxed text-text dark:text-darkmode-text;
+  @apply bg-surface text-base font-primary font-normal leading-relaxed text-ink-muted;
 }
 
 h1,
@@ -28,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-    @apply font-secondary font-bold leading-tight text-text-dark dark:text-darkmode-text-dark;
+  @apply font-secondary font-bold leading-tight text-ink;
 }
 
 h1,
