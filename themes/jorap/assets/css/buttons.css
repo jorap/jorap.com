@@ -1,5 +1,5 @@
 .btn {
-  @apply inline-block rounded border border-transparent px-5 py-2 font-semibold capitalize transition;
+  @apply inline-block rounded border border-transparent px-5 py-2 font-semibold capitalize transition motion-reduce:transition-none;
 }
 
 .btn-sm {
@@ -8,8 +8,12 @@
 
 .btn-primary {
   @apply border-primary bg-primary dark:border-darkmode-primary dark:text-text-dark text-white dark:bg-darkmode-primary;
+  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary;
+  @apply dark:focus-visible:ring-text-dark dark:focus-visible:ring-offset-darkmode-primary;
 }
 
 .btn-outline-primary {
   @apply border-dark text-text-dark hover:bg-dark dark:hover:text-text-dark bg-transparent hover:text-white dark:border-darkmode-primary dark:text-white dark:hover:bg-darkmode-primary;
+  @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-surface;
+  @apply dark:focus-visible:ring-darkmode-primary dark:focus-visible:ring-offset-darkmode-body;
 }

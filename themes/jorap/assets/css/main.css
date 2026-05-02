@@ -8,6 +8,8 @@
 /* Class-based dark mode (see theme-switcher); pairs with semantic tokens in tailwind-plugin/tw-theme.js */
 @custom-variant dark (&:where(.dark, .dark *));
 
+@custom-variant motion-reduce (@media (prefers-reduced-motion: reduce));
+
 @import "./safe.css";
 @import "./utilities.css";
 

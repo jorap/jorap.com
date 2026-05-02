@@ -73,11 +73,11 @@
 }
 
 .dark .mermaid {
-  background: #ececff;
+  background: var(--color-darkmode-light);
 }
 
 .dark .mermaid p {
-  color: #000000;
+  color: var(--color-darkmode-text-dark);
 }
 
 code {

@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-05-02T00:00:00.000Z",
+  "title": "Design System: JoRap's World",
+  "extensions": {
+    "colorMeta": {
+      "surface": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "canonical": "oklch(96.5% 0.004 85)",
+        "tonalRamp": [
+          "oklch(18% 0.01 85)",
+          "oklch(32% 0.012 85)",
+          "oklch(48% 0.012 85)",
+          "oklch(62% 0.01 85)",
+          "oklch(78% 0.008 85)",
+          "oklch(88% 0.006 85)",
+          "oklch(93% 0.005 85)",
+          "oklch(96.5% 0.004 85)"
+        ]
+      },
+      "elevated": {
+        "role": "neutral",
+        "displayName": "Shell",
+        "canonical": "oklch(94% 0.005 82)",
+        "tonalRamp": [
+          "oklch(20% 0.01 82)",
+          "oklch(35% 0.012 82)",
+          "oklch(50% 0.012 82)",
+          "oklch(65% 0.01 82)",
+          "oklch(80% 0.008 82)",
+          "oklch(88% 0.006 82)",
+          "oklch(91% 0.005 82)",
+          "oklch(94% 0.005 82)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Charcoal Fill",
+        "canonical": "oklch(22% 0.006 75)",
+        "tonalRamp": [
+          "oklch(12% 0.004 75)",
+          "oklch(18% 0.005 75)",
+          "oklch(22% 0.006 75)",
+          "oklch(30% 0.006 75)",
+          "oklch(42% 0.006 75)",
+          "oklch(55% 0.005 75)",
+          "oklch(72% 0.004 75)",
+          "oklch(88% 0.003 75)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Strong Ink",
+        "canonical": "oklch(22% 0.006 70)",
+        "tonalRamp": [
+          "oklch(12% 0.005 70)",
+          "oklch(18% 0.006 70)",
+          "oklch(22% 0.006 70)",
+          "oklch(35% 0.008 70)",
+          "oklch(48% 0.008 70)",
+          "oklch(62% 0.006 70)",
+          "oklch(78% 0.004 70)",
+          "oklch(92% 0.003 70)"
+        ]
+      },
+      "divider": {
+        "role": "neutral",
+        "displayName": "Dust Border",
+        "canonical": "oklch(90% 0.004 80)",
+        "tonalRamp": [
+          "oklch(25% 0.01 80)",
+          "oklch(40% 0.012 80)",
+          "oklch(55% 0.01 80)",
+          "oklch(68% 0.008 80)",
+          "oklch(78% 0.006 80)",
+          "oklch(85% 0.005 80)",
+          "oklch(88% 0.004 80)",
+          "oklch(90% 0.004 80)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Top-level page titles when the full h1 scale is used."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default reading text; prose capped near 70ch."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card-rest",
+        "value": "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+        "purpose": "Blog cards and light panels at rest (Tailwind shadow-sm)."
+      },
+      {
+        "name": "card-hover",
+        "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+        "purpose": "Slightly deeper lift on interactive cards (Tailwind shadow-md)."
+      },
+      {
+        "name": "dropdown",
+        "value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+        "purpose": "Navigation dropdowns and floating controls (Tailwind shadow-lg)."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-nav",
+        "value": "color 200ms ease-out",
+        "purpose": "Navigation link and dropdown color transitions."
+      },
+      {
+        "name": "ease-card",
+        "value": "box-shadow 300ms ease-out, border-color 300ms ease-out",
+        "purpose": "Blog card hover lift."
+      },
+      {
+        "name": "ease-standard",
+        "value": "cubic-bezier(0.25, 0.1, 0.25, 1)",
+        "purpose": "Default ease-out family for UI feedback."
+      }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Default CTA; charcoal fill in light mode, inverts in dark via tokens.",
+      "html": "<button type=\"button\" class=\"ds-btn-primary\">Read more</button>",
+      "css": ".ds-btn-primary { display: inline-block; border: 1px solid transparent; border-radius: 4px; padding: 10px 20px; font-family: var(--font-primary, Inter, sans-serif); font-weight: 600; text-transform: capitalize; background: var(--color-primary); color: #fff; transition: background-color 150ms ease-out, color 150ms ease-out; cursor: pointer; } .ds-btn-primary:hover { filter: brightness(0.95); } .ds-btn-primary:focus-visible { outline: 2px solid var(--color-primary); outline-offset: 2px; } .dark .ds-btn-primary { background: var(--color-darkmode-primary); color: var(--color-text-dark); }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline-primary",
+      "description": "Secondary emphasis; border-led, fills toward accent on hover per theme.",
+      "html": "<a class=\"ds-btn-outline\" href=\"#\">View work</a>",
+      "css": ".ds-btn-outline { display: inline-block; border-radius: 4px; padding: 10px 20px; font-family: var(--font-primary, Inter, sans-serif); font-weight: 600; text-transform: capitalize; text-decoration: none; border: 1px solid var(--color-dark); background: transparent; color: var(--color-text-dark); transition: background-color 200ms ease-out, color 200ms ease-out, border-color 200ms ease-out; } .ds-btn-outline:hover { background: var(--color-dark); color: #fff; } .dark .ds-btn-outline { border-color: var(--color-darkmode-primary); color: #fff; } .dark .ds-btn-outline:hover { background: var(--color-darkmode-primary); color: var(--color-text-dark); }"
+    },
+    {
+      "name": "Blog Card",
+      "kind": "card",
+      "refersTo": "blog-card",
+      "description": "Listing card with image optional, elevated surface, subtle shadow lift on hover.",
+      "html": "<article class=\"ds-blog-card\"><div class=\"ds-blog-card-body\"><h3 class=\"ds-blog-card-title\"><a href=\"#\">Title</a></h3><p class=\"ds-blog-card-excerpt\">Excerpt</p></div></article>",
+      "css": ".ds-blog-card { display: flex; flex-direction: column; overflow: hidden; border-radius: 12px; border: 1px solid var(--color-border); background: var(--color-light); box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); transition: box-shadow 300ms ease-out, border-color 300ms ease-out; } .ds-blog-card:hover { box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); } .dark .ds-blog-card { border-color: var(--color-darkmode-border); background: var(--color-darkmode-light); } .ds-blog-card-body { padding: 20px 24px 24px; flex: 1; display: flex; flex-direction: column; } .ds-blog-card-title a { color: var(--color-text-dark); text-decoration: none; transition: color 200ms ease-out; } .ds-blog-card-title a:hover { color: var(--color-primary); } .dark .ds-blog-card-title a { color: var(--color-darkmode-text-dark); } .dark .ds-blog-card-title a:hover { color: var(--color-darkmode-primary); } .ds-blog-card-excerpt { color: var(--color-text); flex: 1; }"
+    },
+    {
+      "name": "Nav Link",
+      "kind": "nav",
+      "description": "Header navigation text link with accent hover and focus ring.",
+      "html": "<a class=\"ds-nav-link\" href=\"#\">Blog</a>",
+      "css": ".ds-nav-link { display: block; padding: 12px; font-family: var(--font-primary, Inter, sans-serif); font-weight: 600; color: var(--color-text-dark); text-decoration: none; transition: color 200ms ease-out; cursor: pointer; } .ds-nav-link:hover { color: var(--color-primary); } .ds-nav-link:focus-visible { outline: none; box-shadow: 0 0 0 2px var(--color-primary); border-radius: 2px; } .dark .ds-nav-link { color: var(--color-darkmode-text-dark); } .dark .ds-nav-link:hover { color: var(--color-darkmode-primary); }"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "description": "Matches form-input utility: elevated field, primary border on focus.",
+      "html": "<input type=\"search\" class=\"ds-input\" placeholder=\"Search\" />",
+      "css": ".ds-input { width: 100%; border-radius: 4px; border: 1px solid transparent; padding: 16px 24px; font-family: var(--font-primary, Inter, sans-serif); font-size: 16px; background: var(--color-light); color: var(--color-text-dark); transition: border-color 200ms ease-out; } .ds-input::placeholder { color: var(--color-text-light); } .ds-input:focus { outline: none; border-color: var(--color-primary); box-shadow: none; } .dark .ds-input { border-color: var(--color-darkmode-border); color: var(--color-darkmode-text); } .dark .ds-input:focus { border-color: var(--color-darkmode-primary); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Quiet Study",
+    "overview": "This system behaves like daylight on good paper: warm off-white fields, charcoal ink for authority, and almost no chromatic noise. Density is editorial, not dashboard. The interface is there to make long reads and portfolio judgment feel calm and legible under real client skims (laptop, bright office, short attention).\n\nThe experience rejects performative tech theater: no neon accents, no interchangeable SaaS hero metrics, no visual chaos that reads as \"creator energy\" instead of hireable clarity. That line comes straight from PRODUCT.md (anti-references: performative nerd energy, generic SaaS sameness, chaotic personal brand).",
+    "keyCharacteristics": [
+      "Restrained palette: tinted warm neutrals plus a single charcoal accent role (fills, key actions). Color carries meaning through tone and contrast, not rainbow UI chrome.",
+      "Single sans hierarchy: Inter for everything; hierarchy is scale + weight + tracking, not a second display face.",
+      "Flat-first depth: surfaces are mostly flat; shadows are small and rare, used for dropdowns, floating controls, and card lift on hover, not for fake 3D marketing stacks.",
+      "Motion is polite: short ease-out transitions (often 200 to 300ms). Scroll behavior respects prefers-reduced-motion at the document level."
+    ],
+    "rules": [
+      {
+        "name": "The One Accent Rule",
+        "body": "The charcoal / cream accent is the only strong contrast pair for chrome and CTAs. Do not introduce a second saturated hue for decoration.",
+        "section": "colors"
+      },
+      {
+        "name": "The Gray-on-Color Rule",
+        "body": "Do not park cool gray text on tinted surfaces; use the semantic ink steps (ink, ink-muted, ink-faint) so text always shares the warmth of the background.",
+        "section": "colors"
+      },
+      {
+        "name": "The Inter-Only Rule",
+        "body": "Do not add a second font family for \"personality\" until PRODUCT.md explicitly asks for it; hierarchy must stay on scale, weight, and tracking first.",
+        "section": "typography"
+      },
+      {
+        "name": "The Article Title Rule",
+        "body": "Blog post titles use .article-title: real h1 with a tighter ramp (text-h2-sm through text-h1) so long titles stay dignified on small screens.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-by-Default Rule",
+        "body": "Do not stack shadow + heavy border + gradient on the same block unless one role is clearly primary; default to flat elevated surface.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do keep body copy inside ~65–70ch using existing .content / max-w-[70ch] patterns.",
+      "Do use semantic tokens (surface, elevated, ink, accent, divider) so light and dark stay paired.",
+      "Do use short ease-out motion (roughly 150–300ms) for hovers and shadows, and respect reduced motion for scroll behavior (already on html).",
+      "Do treat charcoal / cream inversion as the single accent story for CTAs and key navigation emphasis."
+    ],
+    "donts": [
+      "Don't lean on performative nerd / dev-bro visuals: rainbow syntax themes in chrome, meme density, or gaming-stream layout tropes on the marketing shell (per PRODUCT.md anti-references).",
+      "Don't ship generic SaaS landing sameness: interchangeable hero big-number metrics, stock three-icon feature rows, or template thought-leader filler blocks that could be any startup (per PRODUCT.md).",
+      "Don't use chaotic personal brand layouts: ironic clutter, random type scales, or visual noise that reads as hard to work with (per PRODUCT.md).",
+      "Don't use gradient text (background-clip: text) for headings; emphasis is weight and size, not decorative fill.",
+      "Don't use thick side-stripe borders as the main callout pattern; use full border, background tint, or icon/number lead instead (site-wide craft rule).",
+      "Don't hard-code pure #000 / #fff for large fields; stay on tinted neutrals from theme.json except where third-party embeds require it."
+    ]
+  }
+}

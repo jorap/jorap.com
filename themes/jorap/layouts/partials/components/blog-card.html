@@ -1,5 +1,5 @@
 <div
-  class="component--blog-card flex h-full flex-col overflow-hidden rounded-xl border border-divider bg-elevated shadow-sm transition-[box-shadow,border-color] duration-300 ease-out hover:border-divider hover:shadow-md dark:border-darkmode-border dark:hover:border-darkmode-border">
+  class="component--blog-card flex h-full flex-col overflow-hidden rounded-xl border border-divider bg-elevated shadow-sm transition-[box-shadow,border-color] duration-300 ease-out motion-reduce:transition-none motion-reduce:hover:shadow-sm hover:border-divider hover:shadow-md dark:border-darkmode-border dark:hover:border-darkmode-border">
   {{ $image:= .Params.image }}
   {{ if $image }}
   <a href="{{ .RelPermalink }}" class="relative block aspect-[413/220] overflow-hidden">
