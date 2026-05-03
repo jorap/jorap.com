@@ -8,7 +8,7 @@ author: JoRap
 image: /images/Chicken-Adobo.jpg
 categories:
   - Food
-  - Recipe
+  - Recipes
 tags: []
 draft: false
 ---
