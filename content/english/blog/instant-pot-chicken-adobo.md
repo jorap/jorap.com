@@ -48,8 +48,7 @@ The Instant Pot’s sauté function gives you the option to brown the chicken be
 ### 7. \*\*Efficient Liquid Management\*\*
 
 The Instant Pot allows for precise control over the liquid levels needed for pressure cooking. This recipe specifies the right amount of liquid for the Instant Pot, so the chicken cooks properly without creating too much steam or liquid overflow. The high pressure helps extract all the flavors from the marinade and reduce the sauce quickly without overcooking or diluting the flavors.
-
----
+  ---
 
 ## Recipe: Instant Pot Chicken Adobo
 
@@ -62,29 +61,21 @@ The Instant Pot allows for precise control over the liquid levels needed for pre
 #### Marinade
 
 - 160 ml soy sauce, about ⅔ cup
-
 - 10–11 cloves garlic, crushed
-
 - 1⅓ tsp whole black peppercorns
-
 - 4 dried bay leaves
 
 #### Cooking Liquids
 
 - 105–110 ml vinegar  
-
-  - Practical measure: 7 tbsp or ⅓ cup + 2 tbsp  
-
-  - If using extra vinegar, add the extra 10 ml vinegar at the end with the sauce for sharper flavor
-
+    - Practical measure: 7 tbsp or ⅓ cup + 2 tbsp  
+    - If using extra vinegar, add the extra 10 ml vinegar at the end with the sauce for sharper flavor
 - 160 ml water, about ⅔ cup  
-
-  - Use 120 ml water for a thicker sauce
+    - Use 120 ml water for a thicker sauce
 
 #### Vinegar Options
 
 - Traditional: cane vinegar
-
 - Alternative: apple cider vinegar
 
 #### Sweetness Balance, Optional
@@ -104,8 +95,7 @@ or
 ### Instant Pot Liquid Check
 
 The adjusted liquid base is about 425–430 ml total, or roughly 1.8 cups. This fits common 8-quart Instant Pot guidance of about 1.5 to 2 cups of liquid.
-
----
+  ---
 
 ## Method
 
@@ -114,11 +104,8 @@ The adjusted liquid base is about 425–430 ml total, or roughly 1.8 cups. This 
 In a bowl, combine:
 
 - Soy sauce
-
 - Crushed garlic
-
 - Whole black peppercorns
-
 - Bay leaves
 
 Add the chicken thighs and coat thoroughly.
@@ -126,9 +113,7 @@ Add the chicken thighs and coat thoroughly.
 Marination time:
 
 - Minimum: 30 minutes
-
 - Recommended: 2–8 hours
-
 - Best: overnight
 
 Do not add vinegar to the marinade.
@@ -148,7 +133,6 @@ Since this recipe uses 2 kg of chicken, brown the chicken in 2 batches so the pi
 Add the following to the pot:
 
 - Reserved marinade
-
 - Water
 
 Scrape the bottom of the pot well to release browned bits. Stuck food or insufficient liquid may trigger a burn notice.
@@ -164,7 +148,6 @@ Seal the Instant Pot.
 Cook on:
 
 - High Pressure: 10 minutes
-
 - Natural Release: 10 minutes
 
 After 10 minutes of natural release, release the remaining pressure manually.
