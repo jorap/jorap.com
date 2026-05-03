@@ -13,8 +13,6 @@ tags: []
 draft: false
 ---
 
-# Instant Pot Chicken Adobo
-
 This recipe is adjusted for a larger batch using 2 kg of chicken thighs. The liquid ratio is designed to work well in an 8-quart Instant Pot, providing enough moisture for pressure cooking while still allowing the sauce to reduce into a rich glaze afterward.
 
 ## Why Use the Instant Pot?
