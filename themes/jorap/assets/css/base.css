@@ -1,5 +1,5 @@
 html {
-  @apply text-base-sm md:text-base;
+  @apply text-base-sm md:text-base font-primary;
   color-scheme: light;
   /* Responsive offset for anchor links to account for sticky header at different breakpoints */
   scroll-padding-top: 80px; /* Mobile: smaller header */
@@ -39,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-secondary text-ink;
+  @apply font-primary text-ink;
 }
 
 /* Inter-only hierarchy: weight + tracking ladder so headings don’t collapse visually */
@@ -75,7 +75,7 @@ h6,
 
 /* Post titles: real h1, restrained on small screens, scales up with viewport */
 .article-title {
-  @apply font-secondary font-bold leading-[1.15] tracking-[-0.035em] text-pretty text-ink;
+  @apply font-primary font-bold leading-[1.15] tracking-[-0.035em] text-pretty text-ink;
   @apply text-h2-sm md:text-h2 lg:text-h1-sm xl:text-h1;
 }
 

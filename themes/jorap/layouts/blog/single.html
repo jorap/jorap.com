@@ -69,7 +69,7 @@
             {{ $tags:= .Params.tags }}
             {{ if $tags }}
             <div class="mb-2 tags_section">
-              <h6 class="mb-2">{{ T "tags" }}</h6>
+              <p class="not-prose mb-2 font-semibold text-text-dark dark:text-darkmode-text-dark">{{ T "tags" }}</p>
               <ul>
                 {{ range $i,$p:= $tags }}
                 <li class="inline-block">
@@ -85,7 +85,7 @@
             {{ end }}
 
             <div class="mb-2 share_section">
-              <h6 class="mb-2">{{ T "share" }}</h6>
+              <p class="not-prose mb-2 font-semibold text-text-dark dark:text-darkmode-text-dark">{{ T "share" }}</p>
               {{ partial "components/social-share" (dict "Context" . "Class" "share-icons" "Title" .Title "Whatsapp"
               false "Telegram" false "Pinterest" false "Tumblr" false "Vk" false "Reddit" false) }}
             </div>
@@ -105,7 +105,7 @@
           {{/* Desktop TOC - hidden on mobile */}}
           <div class="toc-wrapper hidden lg:block sticky top-[100px] z-10 bg-body dark:bg-darkmode-body">
             <div class="table-of-content toc-links">
-              <h5 class="mb-3">{{ T "table_of_contents" | default "Table of Contents" }}</h5>
+              <p class="mb-3 text-h5 font-semibold leading-snug tracking-tight text-ink">{{ T "table_of_contents" | default "Table of Contents" }}</p>
               {{ .TableOfContents }}
             </div>
           </div>
