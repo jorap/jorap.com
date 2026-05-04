@@ -44,6 +44,49 @@ disableAliases = false
 pagerSize = 10
 path = 'page'
 
+# Related posts (blog single). Defaults only index keywords, date, and tags — not
+# categories — so posts with empty tags never scored above threshold.
+[related]
+includeNewer = true
+threshold = 80
+toLower = false
+
+[[related.indices]]
+applyFilter = false
+cardinalityThreshold = 0
+name = 'keywords'
+pattern = ''
+toLower = false
+type = 'basic'
+weight = 100
+
+[[related.indices]]
+applyFilter = false
+cardinalityThreshold = 0
+name = 'date'
+pattern = '2006'
+toLower = false
+type = 'basic'
+weight = 10
+
+[[related.indices]]
+applyFilter = false
+cardinalityThreshold = 0
+name = 'tags'
+pattern = ''
+toLower = false
+type = 'basic'
+weight = 80
+
+[[related.indices]]
+applyFilter = false
+cardinalityThreshold = 0
+name = 'categories'
+pattern = ''
+toLower = false
+type = 'basic'
+weight = 80
+
 
 ############################# Build ##############################
 [build]

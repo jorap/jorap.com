@@ -43,11 +43,19 @@
           {{/* Mobile TOC - appears after meta but before content*/}}
           {{ if $hasToc }}
           <div class="toc-wrapper border rounded p-4 relative z-10 mb-6 lg:hidden">
-            <div class="flex justify-between items-center cursor-pointer" id="mobile-toc-toggle">
-              <h5 class="mb-0">{{ T "table_of_contents" | default "Table of Contents" }}</h5>
-              <i class="fa-solid fa-chevron-down transition-transform duration-300" id="toc-chevron"></i>
-            </div>
-            <div class="mobile-toc-content hidden mt-4">
+            <button
+              type="button"
+              id="mobile-toc-toggle"
+              class="flex min-h-11 w-full items-center justify-between gap-3 rounded text-left text-ink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-elevated dark:focus-visible:ring-offset-darkmode-body"
+              aria-expanded="false"
+              aria-controls="mobile-toc-panel">
+              <span class="text-base font-semibold">{{ T "table_of_contents" | default "Table of Contents" }}</span>
+              <i
+                class="fa-solid fa-chevron-down shrink-0 transition-transform duration-300 ease-out motion-reduce:transition-none"
+                id="toc-chevron"
+                aria-hidden="true"></i>
+            </button>
+            <div id="mobile-toc-panel" class="mobile-toc-content mt-4 hidden">
               <div class="table-of-content toc-links">
                 {{ .TableOfContents }}
               </div>
@@ -106,16 +114,20 @@
       {{ end }}
     </div>
 
-    {{/* Related posts */}}
+    {{/* Related posts: Hugo .Related ignores categories unless configured in hugo.toml [related]. */}}
     {{ $related := first 3 (.Site.RegularPages.Related .) }}
+    {{ if not $related }}
+      {{ $blogOthers := complement (slice .) (where site.RegularPages "Section" "blog") }}
+      {{ $related = first 3 $blogOthers.ByDate.Reverse }}
+    {{ end }}
     {{ with $related }}
     <div class="section pb-0">
-      <h2 class="h3 mb-12">{{ T "related_posts" }}</h2>
+      <h2 class="h3 mb-6">{{ T "related_posts" }}</h2>
       <div class="row">
         {{ range . }}
-        <div class="lg:col-4 md:col-6 mb-14">
-          {{ partial "components/blog-card" . }}
-        </div>
+          <div class="md:col-6 lg:col-4 mb-14">
+            {{ partial "components/blog-card" . }}
+          </div>
         {{ end }}
       </div>
     </div>
@@ -125,35 +137,30 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    { {/* Mobile TOC toggle functionality */ } }
     const mobileTocToggle = document.getElementById('mobile-toc-toggle');
-    const mobileTocContent = document.querySelector('.mobile-toc-content');
+    const mobileTocContent = document.getElementById('mobile-toc-panel');
     const tocChevron = document.getElementById('toc-chevron');
 
     if (mobileTocToggle && mobileTocContent && tocChevron) {
       mobileTocToggle.addEventListener('click', function () {
-        mobileTocContent.classList.toggle('hidden');
-        tocChevron.classList.toggle('rotate-180');
+        const expanded = mobileTocContent.classList.toggle('hidden') === false;
+        mobileTocToggle.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+        tocChevron.classList.toggle('rotate-180', expanded);
       });
     }
 
-    { {/* Get all TOC links */ } }
     const tocLinks = document.querySelectorAll('.table-of-content a');
     if (tocLinks.length === 0) return;
 
-    { {/* Ensure all links have the transition class */ } }
     tocLinks.forEach(link => {
-      { {/* Add the transition classes if not already added by the style block */ } }
       if (!link.classList.contains('transition-all')) {
-        link.classList.add('transition-all', 'duration-200', 'ease-in-out');
+        link.classList.add('transition-all', 'duration-200', 'ease-out');
       }
     });
 
-    { {/* Get content area and all headings with IDs */ } }
     const content = document.querySelector('.content');
     if (!content) return;
 
-    { {/* Find all headings in the content */ } }
     const headings = Array.from(content.querySelectorAll('h1, h2, h3, h4, h5, h6'))
       .filter(heading => heading.id);
 
@@ -173,34 +180,27 @@
 
     {{/* Function to highlight the TOC link for the heading in view */}}
     function highlightTocOnScroll() {
-      { {/* Current scroll position and viewport height */ } }
       const scrollTop = window.scrollY;
       const viewportHeight = window.innerHeight;
       const viewportBottom = scrollTop + viewportHeight;
 
-      { {/* Find heading that is fully visible in the viewport */ } }
       let activeHeading = null;
 
       for (const heading of headings) {
         const headingTop = heading.offsetTop;
         const headingBottom = headingTop + heading.offsetHeight;
 
-        { {/* Check if heading is fully in viewport (with some margin) */ } }
-        { {/* The heading top must be below the top of the viewport (plus a small buffer) */ } }
-        { {/* AND the heading bottom must be above the bottom of the viewport */ } }
         if (headingTop >= scrollTop + 100 && headingBottom <= viewportBottom) {
           activeHeading = heading;
-          break; { {/* We found a fully visible heading, no need to check others */ } }
+          break;
         }
       }
 
-      { {/* If no heading is fully visible, find one that's partially visible */ } }
       if (!activeHeading) {
         for (const heading of headings) {
           const headingTop = heading.offsetTop;
           const headingBottom = headingTop + heading.offsetHeight;
 
-          { {/* Check if heading is at least partially in viewport */ } }
           if ((headingTop >= scrollTop && headingTop <= viewportBottom) ||
             (headingBottom >= scrollTop && headingBottom <= viewportBottom) ||
             (headingTop <= scrollTop && headingBottom >= viewportBottom)) {
@@ -210,18 +210,14 @@
         }
       }
 
-      { {/* If still no heading is visible but we're at the top of the page, */ } }
-      { {/* use the first heading */ } }
       if (!activeHeading && scrollTop < headings[0].offsetTop) {
         activeHeading = headings[0];
       }
 
-      { {/* Special case for the bottom of the page - use the last heading */ } }
       if (viewportBottom >= document.body.offsetHeight - 100) {
         activeHeading = headings[headings.length - 1];
       }
 
-      // If we found an active heading
       if (activeHeading) {
         // Remove highlighting from all TOC links
         tocLinks.forEach(link => link.classList.remove('font-bold'));

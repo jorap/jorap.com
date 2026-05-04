@@ -19,6 +19,13 @@ theme_switcher = true
 theme_default = "system" # available options [light/dark/system]
 # Main Sections
 mainSections = ["blog"]
+
+# Homepage framing above the blog grid (set enable = false to hide)
+[home_intro]
+enable = true
+heading = ""
+subheading = "Ideas, execution, and judgment, without the noise."
+lede = "Notes for people who hire for outcomes, not stack trivia. Skim posts below, or use the menu to learn more and get in touch."
 # contact form action
 contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
 # google tag manager, see https://developers.google.com/tag-manager/
