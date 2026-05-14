@@ -4,7 +4,8 @@
   class="{{- if not site.Params.theme_switcher -}}
     {{- site.Params.theme_default -}}
   {{- end -}} h-full"
-  lang="{{ site.Language.Locale }}"
+  {{/* Lang works on Hugo 0.147+ (e.g. Cloudflare default). Use Locale after pinning HUGO_VERSION >= 0.158. */}}
+  lang="{{ site.Language.Lang }}"
   itemtype="http://schema.org/WebPage">
   <head>
     <!-- head (don't cache it) -->
