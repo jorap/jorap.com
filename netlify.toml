@@ -1,9 +1,7 @@
 [build]
 publish = "public"
-command = "npm run project-setup && npm run build"
+command = "yarn project-setup; yarn build"
 
 [build.environment]
-# Keep in sync with Cloudflare Pages env (README) and hugo.toml / CI images.
-HUGO_VERSION = "0.141.0"
-GO_VERSION = "1.23.3"
-NODE_VERSION = "22"
+HUGO_VERSION = "0.146.5"
+GO_VERSION = "1.24.2"

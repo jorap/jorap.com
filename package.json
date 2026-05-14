@@ -17,7 +17,6 @@
     "project-setup": "node ./scripts/projectSetup.js",
     "theme-setup": "node ./scripts/themeSetup.js",
     "update-theme": "node ./scripts/themeUpdate.js",
-    "build:cf": "bash scripts/cf-pages-build.sh",
     "format": "prettier -w ."
   },
   "devDependencies": {

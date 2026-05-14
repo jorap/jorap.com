@@ -2,9 +2,9 @@
 name: Deploy Hugo site to Pages
 
 on:
-  # Runs on pushes targeting the default branch (repo uses `master`; keep `main` if you rename)
+  # Runs on pushes targeting the default branch
   push:
-    branches: ["main", "master"]
+    branches: ["main"]
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
@@ -38,11 +38,8 @@ jobs:
 
       - name: Install Go
         run: |
-          GO_ARCH=amd64
-          if [ "${RUNNER_ARCH}" = "ARM64" ]; then GO_ARCH=arm64; fi
-          wget -O ${{ runner.temp }}/go.tgz https://dl.google.com/go/go${GO_VERSION}.linux-${GO_ARCH}.tar.gz \
-          && sudo tar -C /usr/local -xzf ${{ runner.temp }}/go.tgz
-          echo "/usr/local/go/bin" >> "$GITHUB_PATH"
+          wget -O ${{ runner.temp }}/go.deb https://dl.google.com/go/go${GO_VERSION}.linux-amd64.tar.gz \
+          && sudo tar -C /usr/local -xzf ${{ runner.temp }}/go.deb
 
       - name: Checkout
         uses: actions/checkout@v4.2.2
