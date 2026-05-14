@@ -131,7 +131,7 @@ Then I had to edit `hugo.toml` (Hugoplate uses TOML configuration):
 
 ```toml
 baseURL = 'https://jorapdotcom.pages.dev'
-languageCode = 'en-us'
+defaultContentLanguage = 'en'
 title = "JoRap's World"
 theme = 'hugoplate'
 
