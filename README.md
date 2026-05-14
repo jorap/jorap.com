@@ -381,6 +381,9 @@ npm run dev
 # Build for production
 npm run build
 
+# Same pipeline as Cloudflare Pages (passes CF_PAGES_URL to Hugo when set)
+npm run build:cf
+
 # Preview production build locally
 npm run preview
 
@@ -418,51 +421,61 @@ npm run clear-modules
 
 ## 🚀 Deployment (Going Live)
 
-### Multi-Platform Deployment Support
+### Recommended hosting order
 
-This project supports deployment on multiple platforms with optimized configurations:
+1. **[Cloudflare Pages](https://pages.cloudflare.com/)** — primary (CDN, previews, generous free tier).
+2. **[Netlify](https://www.netlify.com/)** — secondary (`netlify.toml` in repo).
 
-#### Option 1: AWS Amplify (Recommended)
+Other configs in this repo (GitHub Pages workflow, `amplify.yml`, `vercel.json`, `.gitlab-ci.yml`) are optional; use them only if you deploy there.
 
-**Configuration**: `amplify.yml`
-- **Hugo Version**: 0.141.0
-- **Go Version**: 1.23.3
-- **Build Command**: `npm run project-setup && npm run build`
-- **Output Directory**: `/public`
+#### Cloudflare Pages (primary)
 
-1. **Push to GitHub**
-2. **Connect** to AWS Amplify
-3. **Auto-deployment** with the included configuration
+| Setting | Value |
+| -------- | ------ |
+| **Build command** | `bash scripts/cf-pages-build.sh` |
+| **Build output directory** | `public` |
+| **Root directory** | `/` (repository root) |
+| **Production branch** | Your default branch (e.g. `master` or `main`) |
 
-#### Option 2: Netlify (Easiest for Beginners)
+**Environment variables** (Dashboard → Settings → Variables — set for **Production** and **Preview**):
+
+| Variable | Value | Purpose |
+| -------- | ----- | -------- |
+| `HUGO_VERSION` | `0.141.0` | Installs matching Hugo (extended) on the build image |
+| `GO_VERSION` | `1.23.3` | Required for Hugo Modules |
+| `NODE_VERSION` | `22` | Matches local tooling expectations |
+
+`CF_PAGES_URL` is injected automatically; `scripts/cf-pages-build.sh` passes it to `hugo -b` so `absURL` and canonical URLs match each deployment and preview.
+
+Optional: set `name` in `wrangler.toml` to your Pages project slug and keep `pages_build_output_dir = "public"` so the Wrangler file matches the dashboard.
+
+**Local dry run (same as CI):**
+
+```bash
+npm install
+npm run build:cf
+```
+
+#### Netlify (secondary)
 
 **Configuration**: `netlify.toml`
-- **Hugo Version**: 0.146.5
-- **Go Version**: 1.24.2
-- **Build Command**: `yarn project-setup; yarn build`
-- **Publish Directory**: `public`
 
-1. **Build your site**:
-   ```bash
-   npm run build
-   ```
+| Setting | Value |
+| -------- | ------ |
+| **Build command** | `npm run project-setup && npm run build` |
+| **Publish directory** | `public` |
+| **Hugo / Go / Node** | Set via `[build.environment]` (aligned with Cloudflare above) |
 
-2. **Go to [netlify.com](https://netlify.com)**
+1. Connect the repo at [netlify.com](https://www.netlify.com/).
+2. Confirm build settings match the table (Netlify usually reads `netlify.toml` automatically).
+3. Deploy.
 
-3. **Drag the `public` folder** to the deploy area
+#### Other platforms (optional)
 
-4. **Your site is live!** 🎉
-
-#### Option 3: Vercel (Git-based)
-
-**Configuration**: `vercel.json`
-- **Build Script**: `vercel-build.sh`
-- **Static Build**: `@vercel/static-build`
-- **Output Directory**: `public`
-
-1. **Push your code** to GitHub
-2. **Connect** your GitHub repo to [vercel.com](https://vercel.com)
-3. **Auto-deployment** happens on every push
+- **AWS Amplify**: `amplify.yml` — Hugo `0.141.0`, Go `1.23.3`.
+- **Vercel**: `vercel.json` and `vercel-build.sh`.
+- **GitHub Pages**: `.github/workflows/main.yml`.
+- **GitLab Pages**: `.gitlab-ci.yml`.
 
 ### Before You Deploy
 
@@ -834,7 +847,7 @@ npm run dev
 - **Git**: 2.20+
 
 #### Production Environment
-- **Hosting**: Static hosting (Netlify, Vercel, AWS Amplify)
+- **Hosting**: Prefer **Cloudflare Pages**, then **Netlify**; see [Deployment](#deployment-going-live). Optional: Vercel, AWS Amplify, GitHub Pages, GitLab Pages.
 - **CDN**: Automatic via hosting platform
 - **SSL**: Automatic certificate management
 - **Domain**: Custom domain support
