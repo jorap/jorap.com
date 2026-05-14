@@ -1,6 +1,5 @@
 # Cloudflare Pages (Git integration). Build command is set in the dashboard — see README.
 # Set "name" to match your Pages project name. "pages_build_output_dir" must match Hugo publishDir (public).
-# Templates use site.Language.Locale (Hugo 0.158+). Pin HUGO_VERSION (and GO_VERSION) in the dashboard so the build image is not older than 0.158.
 name = "jorap-com"
 pages_build_output_dir = "public"
 compatibility_date = "2025-05-01"

@@ -302,11 +302,8 @@ Edit `hugo.toml`:
 # Basic Information
 baseURL = "https://yoursite.com"
 title = "Your Site Title"
+languageCode = "en"
 defaultContentLanguage = "en"
-
-# Language / locale (preferred): see config/_default/languages.toml
-#   [en]
-#   locale = "en-US"
 
 # Theme
 theme = "jorap"
