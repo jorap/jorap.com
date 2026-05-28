@@ -105,7 +105,7 @@
           <div class="toc-wrapper hidden lg:block sticky top-[100px] z-10 bg-surface">
             <div class="table-of-content toc-links">
               <p class="mb-3 text-h5 font-semibold leading-snug tracking-tight text-ink">{{ T "table_of_contents" | default "Table of Contents" }}</p>
-              {{ .TableOfContents }}
+              <div class="toc-scroll">{{ .TableOfContents }}</div>
             </div>
           </div>
         </div>
