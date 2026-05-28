@@ -57,9 +57,6 @@
 <!-- Crisp Chat -->
 {{/* {{ partialCached "crisp-chat.html" . }} */}}
 
-<!-- Mermaid -->
-{{ partial "mermaid/assets/js" . }}
-
 <!-- Preload critical images -->
 {{ if .IsHome }}
   {{ range first 1 (where site.RegularPages "Type" "blog") }}

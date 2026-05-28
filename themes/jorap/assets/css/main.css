@@ -1,16 +1,21 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/forms";
 @plugin "@tailwindcss/typography";
-@plugin "./tailwind-plugin/tw-theme";
-@plugin "./tailwind-plugin/tw-bs-grid";
+@plugin 'tailwind-bootstrap-grid';
 @source "hugo_stats.json";
+
+/* Auto-generated theme tokens from "data/theme.json" via scripts/themeGenerator.js */
+@import "./generated-theme.css";
+
+/* Semantic design tokens (surface/elevated/ink/...) with light + dark swaps. */
+@import "./semantic-tokens.css";
 
 /* Single stack: Inter everywhere (overrides Tailwind’s default sans / system stacks in preflight & prose). */
 @theme {
   --font-sans: "Inter", sans-serif;
 }
 
-/* Class-based dark mode (see theme-switcher); pairs with semantic tokens in tailwind-plugin/tw-theme.js */
+/* Class-based dark mode (see theme-switcher); pairs with semantic-tokens.css overrides under .dark */
 @custom-variant dark (&:where(.dark, .dark *));
 
 @custom-variant motion-reduce (@media (prefers-reduced-motion: reduce));
