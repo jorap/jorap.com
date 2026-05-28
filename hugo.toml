@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
 # Override per-environment via the HUGO_BASEURL env var (Vercel/Netlify/Amplify build settings).
-baseURL = "https://jorap.com/"
+baseURL = "https://www.jorap.com/"
 # Title of your website (required).
 title = "JoRap's World"
 # Your theme name
