@@ -1,9 +1,8 @@
-name = "Hugoplate"
+name = "jorap"
 license = "MIT"
-licenselink = "https://github.com/zeon-studio/hugoplate/blob/main/LICENSE"
-description = "Hugoplate is a free starter template built with Hugo, and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
-homepage = "https://github.com/zeon-studio/hugoplate"
-demosite = "https://zeon.studio/preview?project=hugoplate"
+licenselink = "https://github.com/jonathanrapusas/jorap.com/blob/main/LICENSE"
+description = "Theme powering jorap.com — Hugo + Tailwind CSS personal site."
+homepage = "https://jorap.com"
 min_version = "0.141.0"
 
 tags = [
@@ -14,9 +13,6 @@ tags = [
   "light",
   "dark",
   "multilingual",
-  "landing",
-  "contact",
-  "dark mode",
   "tailwindcss",
 ]
 
@@ -29,10 +25,11 @@ features = [
 ]
 
 [author]
-name = "Zeon Studio"
-homepage = "https://zeon.studio"
+name = "JoRap"
+homepage = "https://jorap.com"
 
+# Theme originally derived from Hugoplate (https://github.com/zeon-studio/hugoplate, MIT).
 [original]
 author = "Zeon Studio"
 homepage = "https://zeon.studio"
-repo = "https://github.com/zeon-studio/themeplate"
+repo = "https://github.com/zeon-studio/hugoplate"

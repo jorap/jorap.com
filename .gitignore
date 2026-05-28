@@ -1,19 +1,30 @@
+# OS
 Thumbs.db
 .DS_Store
+
+# Logs / caches
 .dist
 .tmp
 .lock
 .sass-cache
 npm-debug.log
+yarn.lock
+
+# Dependencies
 node_modules
-builds
 package-lock.json
+
+# Hugo build artifacts
+builds
 public
 resources
 .hugo_build.lock
-jsconfig.json
 hugo_stats.json
+
+# Go module cache (Hugo modules)
 go.sum
-yarn.lock
+
+# Editor / tool
+jsconfig.json
 .cursorindexingignore
 .specstory/

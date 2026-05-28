@@ -1,114 +1,137 @@
-// Unified anchor link handler for the entire site
-document.addEventListener('DOMContentLoaded', function () {
-    // Function to get the current header height dynamically
-    function getHeaderOffset() {
-        const header = document.querySelector('.header.sticky');
-        if (header) {
-            // Get the actual header height including padding and content
-            const headerHeight = header.offsetHeight;
-            // Add some extra padding for better visual spacing
-            return headerHeight + 20;
-        }
-        // Fallback if header not found
-        return 100;
-    }
+/*
+ * Unified TOC + on-page anchor handling.
+ *
+ * Responsibilities (previously split across this file and an inline <script>
+ * in themes/jorap/layouts/blog/single.html):
+ *   1. Smooth-scroll for in-page `#anchor` links, offset by the sticky header.
+ *   2. Mobile TOC collapse/expand toggle on blog posts.
+ *   3. Scroll-spy: bold the TOC entry whose heading is currently in view.
+ *
+ * Header height is read from the `--header-offset` CSS custom property
+ * (see themes/jorap/assets/css/base.css) so there is one source of truth.
+ */
+(function () {
+  "use strict";
 
-    // Handle all anchor links on the page
-    function handleAnchorLinks() {
-        // Get all anchor links that point to elements on the same page
-        const anchorLinks = document.querySelectorAll('a[href^="#"]:not([href="#"])');
+  const getHeaderOffset = () => {
+    const raw = getComputedStyle(document.documentElement)
+      .getPropertyValue("--header-offset")
+      .trim();
+    const parsed = parseInt(raw, 10);
+    return Number.isFinite(parsed) ? parsed : 100;
+  };
 
-        anchorLinks.forEach(link => {
-            link.addEventListener('click', function (e) {
-                const targetId = this.getAttribute('href').substring(1);
-                const targetElement = document.getElementById(targetId);
-
-                if (targetElement) {
-                    e.preventDefault();
-
-                    // Calculate offset dynamically based on current header height
-                    const offset = getHeaderOffset();
-                    window.scrollTo({
-                        top: targetElement.offsetTop - offset,
-                        behavior: 'smooth'
-                    });
-
-                    // Update URL hash without triggering scroll
-                    if (history.pushState) {
-                        history.pushState(null, null, '#' + targetId);
-                    } else {
-                        // Fallback for older browsers
-                        location.hash = '#' + targetId;
-                    }
-                }
-            });
-        });
-    }
-
-    // Handle anchor links in table of contents specifically
-    function handleTocSpecificFeatures() {
-        const tableOfContent = document.querySelector('.table-of-content');
-
-        if (tableOfContent) {
-            const tocLinks = tableOfContent.querySelectorAll('a[href^="#"]');
-
-            // Get mobile TOC elements for blog pages
-            const mobileTocContent = document.querySelector('.mobile-toc-content');
-            const tocChevron = document.getElementById('toc-chevron');
-
-            // Add additional TOC-specific functionality
-            tocLinks.forEach(link => {
-                link.addEventListener('click', function () {
-                    // Remove bold from all TOC links
-                    tocLinks.forEach(l => l.classList.remove('font-bold'));
-                    // Make clicked link bold
-                    this.classList.add('font-bold');
-
-                    // On mobile, close the TOC after clicking a link (blog-specific)
-                    if (window.innerWidth < 1024 && mobileTocContent) {
-                        mobileTocContent.classList.add('hidden');
-                        if (tocChevron) tocChevron.classList.remove('rotate-180');
-                    }
-                });
-            });
-        }
-    }
-
-    // Initialize both handlers
-    handleAnchorLinks();
-    handleTocSpecificFeatures();
-
-    // Handle direct anchor navigation on page load with dynamic offset
-    if (window.location.hash) {
-        setTimeout(() => {
-            const targetElement = document.getElementById(window.location.hash.substring(1));
-            if (targetElement) {
-                const offset = getHeaderOffset();
-                window.scrollTo({
-                    top: targetElement.offsetTop - offset,
-                    behavior: 'smooth'
-                });
-            }
-        }, 100);
-    }
-
-    // Handle window resize to recalculate offsets if needed
-    let resizeTimeout;
-    window.addEventListener('resize', function () {
-        // Debounce resize events
-        clearTimeout(resizeTimeout);
-        resizeTimeout = setTimeout(() => {
-            // If there's a hash in the URL, re-scroll to maintain correct position
-            if (window.location.hash) {
-                const targetElement = document.getElementById(window.location.hash.substring(1));
-                if (targetElement) {
-                    const offset = getHeaderOffset();
-                    window.scrollTo({
-                        top: targetElement.offsetTop - offset,
-                        behavior: 'smooth'
-                    });
-                }
-            }
-        }, 150);
+  const scrollToElement = (el) => {
+    if (!el) return;
+    window.scrollTo({
+      top: el.getBoundingClientRect().top + window.scrollY - getHeaderOffset(),
+      behavior: "smooth",
     });
-});
+  };
+
+  const initAnchorLinks = () => {
+    const links = document.querySelectorAll('a[href^="#"]:not([href="#"])');
+    links.forEach((link) => {
+      link.addEventListener("click", (e) => {
+        const id = link.getAttribute("href").slice(1);
+        const target = document.getElementById(id);
+        if (!target) return;
+        e.preventDefault();
+        scrollToElement(target);
+        if (history.pushState) {
+          history.pushState(null, "", `#${id}`);
+        } else {
+          location.hash = `#${id}`;
+        }
+      });
+    });
+  };
+
+  const initMobileToc = () => {
+    const toggle = document.getElementById("mobile-toc-toggle");
+    const panel = document.getElementById("mobile-toc-panel");
+    const chevron = document.getElementById("toc-chevron");
+    if (!toggle || !panel) return;
+
+    toggle.addEventListener("click", () => {
+      const expanded = panel.classList.toggle("hidden") === false;
+      toggle.setAttribute("aria-expanded", expanded ? "true" : "false");
+      if (chevron) chevron.classList.toggle("rotate-180", expanded);
+    });
+
+    document.querySelectorAll(".table-of-content a").forEach((link) => {
+      link.addEventListener("click", () => {
+        if (window.innerWidth < 1024) {
+          panel.classList.add("hidden");
+          toggle.setAttribute("aria-expanded", "false");
+          if (chevron) chevron.classList.remove("rotate-180");
+        }
+      });
+    });
+  };
+
+  const initScrollSpy = () => {
+    const tocLinks = document.querySelectorAll(".table-of-content a");
+    if (tocLinks.length === 0) return;
+
+    const content = document.querySelector(".content");
+    if (!content) return;
+
+    const headings = Array.from(
+      content.querySelectorAll("h1, h2, h3, h4, h5, h6"),
+    ).filter((h) => h.id);
+    if (headings.length === 0) return;
+
+    const linksById = {};
+    tocLinks.forEach((link) => {
+      const href = link.getAttribute("href");
+      if (href && href.startsWith("#")) linksById[href.slice(1)] = link;
+      link.classList.add("transition-all", "duration-200", "ease-out");
+    });
+
+    const setActive = (heading) => {
+      if (!heading) return;
+      tocLinks.forEach((l) => l.classList.remove("font-bold"));
+      const active = linksById[heading.id];
+      if (active) active.classList.add("font-bold");
+    };
+
+    let ticking = false;
+    const onScroll = () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        const offset = getHeaderOffset();
+        const scrollTop = window.scrollY + offset + 1;
+        let current = headings[0];
+        for (const h of headings) {
+          if (h.offsetTop <= scrollTop) current = h;
+          else break;
+        }
+        if (
+          window.innerHeight + window.scrollY >=
+          document.body.offsetHeight - 100
+        ) {
+          current = headings[headings.length - 1];
+        }
+        setActive(current);
+        ticking = false;
+      });
+    };
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
+  };
+
+  document.addEventListener("DOMContentLoaded", () => {
+    initAnchorLinks();
+    initMobileToc();
+    initScrollSpy();
+
+    if (window.location.hash) {
+      setTimeout(() => {
+        scrollToElement(document.getElementById(window.location.hash.slice(1)));
+      }, 100);
+    }
+  });
+})();

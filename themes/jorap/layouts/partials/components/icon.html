@@ -1,0 +1,18 @@
+{{/*
+  components/icon — Render a registered inline SVG icon.
+
+  Definitions live in data/icons.json (each entry needs viewBox + path).
+  Usage:
+    {{ partial "components/icon" (dict "Name" "facebook") }}
+    {{ partial "components/icon" (dict "Name" "x" "Class" "h-5 w-5") }}
+*/}}
+{{ $name := .Name }}
+{{ $class := .Class | default "" }}
+{{ $icon := index hugo.Data.icons $name }}
+{{ with $icon }}
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="{{ .viewBox }}" class="{{ $class }}" aria-hidden="true">
+  <path d="{{ .path }}" />
+</svg>
+{{ else }}
+  {{ warnf "components/icon: unknown icon name %q" $name }}
+{{ end }}

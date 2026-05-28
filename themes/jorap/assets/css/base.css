@@ -1,8 +1,14 @@
+/*
+ * Header offset: single source of truth for sticky-header height.
+ * - CSS uses it for scroll-padding-top so anchor jumps clear the header.
+ * - JS reads it via getComputedStyle(...) — see assets/js/toc.js + back-to-top.js.
+ * Update here only; do not duplicate in JS.
+ */
 html {
+  --header-offset: 80px;
   @apply text-base-sm md:text-base font-primary;
   color-scheme: light;
-  /* Responsive offset for anchor links to account for sticky header at different breakpoints */
-  scroll-padding-top: 80px; /* Mobile: smaller header */
+  scroll-padding-top: var(--header-offset);
   scroll-behavior: smooth;
 }
 
@@ -16,16 +22,15 @@ html.dark {
   color-scheme: dark;
 }
 
-/* Larger screens have taller headers */
 @media (min-width: 1024px) {
   html {
-    scroll-padding-top: 100px; /* Desktop: larger header */
+    --header-offset: 100px;
   }
 }
 
 @media (min-width: 1280px) {
   html {
-    scroll-padding-top: 110px; /* XL screens: even larger header due to xl:text-3xl */
+    --header-offset: 110px;
   }
 }
 

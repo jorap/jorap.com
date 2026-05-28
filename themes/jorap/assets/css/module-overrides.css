@@ -6,21 +6,21 @@
 
 /* share icons */
 .share-icons .share-link {
-  @apply h-9 w-9 rounded leading-9 bg-primary hover:bg-primary dark:bg-darkmode-primary dark:hover:bg-darkmode-primary;
+  @apply h-9 w-9 rounded leading-9 bg-accent hover:bg-accent;
   margin: 0.5rem 0.5rem 0.5rem 0;
 }
 
 .share-icons .share-icon svg {
-  @apply dark:fill-darkmode-light;
+  @apply fill-white;
 }
 
 .fediverse-input-wrapper {
   @apply bg-surface rounded;
   input {
-    @apply rounded focus:border-primary focus:ring-0;
+    @apply rounded focus:border-accent focus:ring-0;
   }
   button {
-    @apply rounded bg-primary dark:bg-darkmode-primary text-light dark:text-darkmode-light hover:bg-primary dark:hover:bg-darkmode-primary;
+    @apply rounded bg-accent text-white hover:bg-accent;
   }
 }
 
@@ -31,16 +31,16 @@
 
 /* tab */
 .tab {
-  @apply border-border dark:border-darkmode-border overflow-hidden rounded-lg border;
+  @apply border-divider overflow-hidden rounded-lg border;
 }
 .tab-nav {
-  @apply border-border bg-light dark:border-darkmode-border dark:bg-darkmode-light pl-4;
+  @apply border-divider bg-elevated pl-4;
 }
 .tab-nav-item {
-  @apply text-text-dark dark:text-darkmode-text-dark px-8 !text-lg;
+  @apply text-ink px-8 !text-lg;
 }
 .tab-nav-item.active {
-  @apply border-dark dark:border-darkmode-primary;
+  @apply border-accent;
 }
 
 .tab-content-panel {
@@ -49,10 +49,10 @@
 
 /* accordion */
 .accordion {
-  @apply border-border bg-light dark:border-darkmode-border dark:bg-darkmode-light mb-6 overflow-hidden rounded-lg border;
+  @apply border-divider bg-elevated mb-6 overflow-hidden rounded-lg border;
 }
 .accordion-header {
-  @apply text-text-dark dark:text-darkmode-text-dark;
+  @apply text-ink;
 }
 
 /* cookie consent */

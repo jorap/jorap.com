@@ -1,4 +1,16 @@
-/* navbar toggler */
+/*
+ * Structural overrides only.
+ *
+ * Color-leak workarounds that used `!important` on `.content` to fix dark-mode prose
+ * have been removed: components now use the semantic tokens (text-ink, bg-elevated,
+ * border-divider, accent) defined in tailwind-plugin/tw-theme.js, and the `prose-*`
+ * directives in components.css already cover dark mode via @custom-variant `dark`.
+ *
+ * If a dark-mode color regression appears, prefer fixing the upstream token or the
+ * prose-* class in components.css rather than reintroducing !important here.
+ */
+
+/* navbar toggler — checkbox hack drives the mobile menu visibility */
 input#nav-toggle:checked + label #show-button {
   @apply hidden;
 }
@@ -11,38 +23,11 @@ input#nav-toggle:checked ~ #nav-menu {
   @apply block;
 }
 
-/* Dark mode text visibility - explicit rules */
-:where(.dark, .dark *) .content p,
-:where(.dark, .dark *) .content li,
-:where(.dark, .dark *) .content,
-:where(.dark, .dark *) .content td {
-  color: #e5e5e5 !important;
-}
-
-:where(.dark, .dark *) .content h1,
-:where(.dark, .dark *) .content h2,
-:where(.dark, .dark *) .content h3,
-:where(.dark, .dark *) .content h4,
-:where(.dark, .dark *) .content h5,
-:where(.dark, .dark *) .content h6 {
-  color: #ffffff !important;
-}
-
-:where(.dark, .dark *) .content a {
-  color: #ffffff !important;
-  text-decoration: underline;
-}
-
-:where(.dark, .dark *) .content strong,
-:where(.dark, .dark *) .content b {
-  color: #ffffff !important;
-}
-
 /* swiper pagination */
 .swiper-pagination-bullet {
-  @apply !h-2.5 !w-2.5 !bg-light !opacity-100 dark:!bg-darkmode-light;
+  @apply !h-2.5 !w-2.5 !bg-elevated !opacity-100;
 }
 
 .swiper-pagination-bullet-active {
-  @apply !h-4 !w-4 !bg-primary dark:!bg-darkmode-primary;
+  @apply !h-4 !w-4 !bg-accent;
 }

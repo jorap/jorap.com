@@ -16,7 +16,7 @@
 }
 
 input#nav-toggle:focus-visible + label {
-  @apply rounded-md outline-none ring-2 ring-accent ring-offset-2 ring-offset-surface dark:ring-offset-darkmode-body;
+  @apply rounded-md outline-none ring-2 ring-accent ring-offset-2 ring-offset-surface;
 }
 
 .navbar-nav {
@@ -31,7 +31,6 @@ button.nav-link.nav-dropdown-trigger {
   font: inherit;
   @apply border-0 bg-transparent text-left;
   @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-surface;
-  @apply dark:focus-visible:ring-offset-darkmode-body;
 }
 
 .nav-dropdown {
@@ -59,7 +58,7 @@ button.nav-link.nav-dropdown-trigger {
 }
 
 .nav-dropdown-link {
-  @apply text-ink hover:text-accent dark:text-ink-muted dark:hover:text-accent block py-1 font-semibold transition-colors duration-200 ease-out;
+  @apply text-ink hover:text-accent block py-1 font-semibold transition-colors duration-200 ease-out;
 }
 
 /* theme-switcher */

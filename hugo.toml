@@ -1,6 +1,7 @@
 ######################## default configuration ####################
 # The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "/"
+# Override per-environment via the HUGO_BASEURL env var (Vercel/Netlify/Amplify build settings).
+baseURL = "https://jorap.com/"
 # Title of your website (required).
 title = "JoRap's World"
 # Your theme name
@@ -213,3 +214,9 @@ lazy = true
 [[params.plugins.js]]
 link = "js/toc.js"
 lazy = false
+[[params.plugins.js]]
+link = "js/back-to-top.js"
+lazy = true
+[[params.plugins.js]]
+link = "js/share.js"
+lazy = true

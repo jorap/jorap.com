@@ -16,37 +16,40 @@
   @apply inline-block;
 }
 .social-icons li a {
-  @apply flex h-9 w-9 items-center justify-center rounded-sm bg-primary text-center leading-9 text-white dark:bg-darkmode-primary dark:text-text-dark;
+  @apply flex h-9 w-9 items-center justify-center rounded-sm bg-accent text-center leading-9 text-white dark:text-text-dark;
 }
 .social-icons li a svg {
   @apply h-5 w-5;
 }
 
-/* content style */
+/* Content / prose style.
+ * Uses semantic tokens (ink, ink-muted, elevated, divider, accent) so dark mode
+ * is handled automatically by tailwind-plugin/tw-theme.js — no `dark:` twins needed.
+ */
 .content {
   @apply prose max-w-[70ch] font-primary;
-  @apply prose-headings:mb-[.3em] prose-headings:mt-[.6em] prose-headings:text-text-dark dark:prose-headings:text-darkmode-text-dark;
+  @apply prose-headings:mb-[.3em] prose-headings:mt-[.6em] prose-headings:text-ink;
   @apply prose-h1:text-h1-sm md:prose-h1:text-h1;
   @apply prose-h2:text-h2-sm md:prose-h2:text-h2;
   @apply prose-h3:text-h3-sm md:prose-h3:text-h3;
   @apply prose-img:max-w-full prose-img:rounded;
-  @apply prose-hr:border-border dark:prose-hr:border-darkmode-border;
-  @apply prose-p:text-base prose-p:text-text dark:prose-p:text-darkmode-text;
-  @apply prose-blockquote:rounded-lg prose-blockquote:border prose-blockquote:border-primary/25 prose-blockquote:bg-light prose-blockquote:px-8 prose-blockquote:py-10 prose-blockquote:font-primary prose-blockquote:text-2xl prose-blockquote:not-italic prose-blockquote:text-text-dark dark:prose-blockquote:border-darkmode-primary/35 dark:prose-blockquote:bg-darkmode-light dark:prose-blockquote:text-darkmode-text-light;
-  @apply prose-pre:rounded-lg prose-pre:bg-light dark:prose-pre:bg-darkmode-light;
-  @apply prose-code:px-1 prose-code:text-primary dark:prose-code:text-darkmode-primary;
-  @apply prose-strong:text-text-dark dark:prose-strong:text-darkmode-text;
-  @apply prose-a:text-text prose-a:underline prose-a:hover:text-primary dark:prose-a:text-darkmode-text dark:prose-a:hover:text-darkmode-primary;
-  @apply prose-li:text-text dark:prose-li:text-darkmode-text;
-  @apply prose-table:relative prose-table:overflow-hidden prose-table:rounded-lg prose-table:before:absolute prose-table:before:left-0 prose-table:before:top-0 prose-table:before:h-full prose-table:before:w-full prose-table:before:rounded-[inherit] prose-table:before:border prose-table:before:content-[""] dark:prose-table:before:border-darkmode-border;
-  @apply prose-thead:border-border prose-thead:bg-light dark:prose-thead:border-darkmode-border dark:prose-thead:bg-darkmode-light;
-  @apply prose-th:relative prose-th:z-10 prose-th:px-4 prose-th:py-[18px] prose-th:text-text-dark dark:prose-th:text-darkmode-text;
-  @apply prose-tr:border-border dark:prose-tr:border-darkmode-border;
-  @apply prose-td:relative prose-td:z-10 prose-td:px-3 prose-td:py-[18px] dark:prose-td:text-darkmode-text;
+  @apply prose-hr:border-divider;
+  @apply prose-p:text-base prose-p:text-ink-muted;
+  @apply prose-blockquote:rounded-lg prose-blockquote:border prose-blockquote:border-accent/25 prose-blockquote:bg-elevated prose-blockquote:px-8 prose-blockquote:py-10 prose-blockquote:font-primary prose-blockquote:text-2xl prose-blockquote:not-italic prose-blockquote:text-ink;
+  @apply prose-pre:rounded-lg prose-pre:bg-elevated;
+  @apply prose-code:px-1 prose-code:text-accent;
+  @apply prose-strong:text-ink;
+  @apply prose-a:text-ink-muted prose-a:underline prose-a:hover:text-accent;
+  @apply prose-li:text-ink-muted;
+  @apply prose-table:relative prose-table:overflow-hidden prose-table:rounded-lg prose-table:before:absolute prose-table:before:left-0 prose-table:before:top-0 prose-table:before:h-full prose-table:before:w-full prose-table:before:rounded-[inherit] prose-table:before:border prose-table:before:border-divider prose-table:before:content-[""];
+  @apply prose-thead:border-divider prose-thead:bg-elevated;
+  @apply prose-th:relative prose-th:z-10 prose-th:px-4 prose-th:py-[18px] prose-th:text-ink;
+  @apply prose-tr:border-divider;
+  @apply prose-td:relative prose-td:z-10 prose-td:px-3 prose-td:py-[18px] prose-td:text-ink-muted;
 }
 
 .content .btn {
-  @apply dark:hover:text-text-dark no-underline hover:!text-white;
+  @apply no-underline hover:!text-white dark:hover:!text-text-dark;
 }
 
 .image--partial {
@@ -73,11 +76,11 @@
 }
 
 .dark .mermaid {
-  background: var(--color-darkmode-light);
+  background: var(--color-elevated);
 }
 
 .dark .mermaid p {
-  color: var(--color-darkmode-text-dark);
+  color: var(--color-ink);
 }
 
 code {
@@ -104,5 +107,17 @@ blockquote li {
 .tags_section ul li.inline-block {
   padding-inline-start: 0;
   padding-inline-end: 0.375em;
+}
+
+/* Back-to-top progress ring. Paired with assets/js/back-to-top.js. */
+.progress-ring__circle {
+  transition: stroke-dashoffset 0.1s ease-out;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+@media (prefers-reduced-motion: reduce) {
+  .progress-ring__circle {
+    transition: none;
+  }
 }
 

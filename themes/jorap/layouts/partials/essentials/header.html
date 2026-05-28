@@ -18,7 +18,7 @@
       aria-label="Open and close site navigation" />
     <label
       for="nav-toggle"
-      class="order-3 flex min-h-11 min-w-11 cursor-pointer items-center justify-center lg:hidden text-text-dark dark:text-white lg:order-1">
+      class="order-3 flex min-h-11 min-w-11 cursor-pointer items-center justify-center lg:hidden text-ink lg:order-1">
       <svg id="show-button" class="h-6 fill-current block" viewBox="0 0 20 20" aria-hidden="true">
         <path d="M0 3h20v2H0zm0 6h20v2H0zm0 6h20v2H0z"></path>
       </svg>
@@ -124,14 +124,9 @@
           <button
             aria-label="Search"
             {{ if and (not site.Params.navigation_button.enable) (not site.Params.theme_switcher) }}
-              class="border-border text-text-dark hover:text-primary
-              dark:border-darkmode-border mr-5 inline-block border-r
-              lg:border-r-0 pr-5 lg:pr-0 text-xl dark:text-white
-              dark:hover:text-darkmode-primary"
+              class="border-divider text-ink hover:text-accent mr-5 inline-block border-r lg:border-r-0 pr-5 lg:pr-0 text-xl"
             {{ else }}
-              class="border-border text-text-dark hover:text-primary
-              dark:border-darkmode-border mr-5 inline-block border-r pr-5
-              text-xl dark:text-white dark:hover:text-darkmode-primary"
+              class="border-divider text-ink hover:text-accent mr-5 inline-block border-r pr-5 text-xl"
             {{ end }}
             data-target="search-modal">
             <i class="fa-solid fa-search"></i>
@@ -139,7 +134,7 @@
         {{ end }}
       {{ end }}
 
-      {{ partial "components/language-switcher" (dict "Context" . "Class" "mr-5 pl-2 py-1 dark:bg-darkmode-light rounded") }}
+      {{ partial "components/language-switcher" (dict "Context" . "Class" "mr-5 pl-2 py-1 bg-transparent dark:bg-elevated rounded") }}
       {{ partial "components/theme-switcher" (dict "Class" "mr-5 lg:mr-0") }}
 
 
