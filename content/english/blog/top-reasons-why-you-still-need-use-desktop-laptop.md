@@ -11,171 +11,84 @@ tags: ["Computers", "Hardware", "Productivity"]
 draft: false
 ---
 
-In a world dominated by smartphones and tablets, you might wonder: *Do I still need a desktop or laptop?*
+Every couple of years someone tells me they're "going mobile-only." A tablet, a phone, maybe a foldable. And every time, a few months later, they sheepishly ask if they can borrow my laptop to do their taxes, edit a video, or fill out some PDF form that absolutely refuses to cooperate on a phone.
 
-**Short answer: Absolutely.** 
-
-While mobile devices excel at portability and quick tasks, desktops and laptops dominate in power, productivity, and professional work. Here's a detailed comparison showing why each platform has its place — and why you shouldn't ditch your computer just yet.
+I'm not anti-mobile. My phone does most of what I need for short, in-between moments. But there are still things a real computer does better, and I don't think that's changing soon. Here's why I keep mine around.
 
 ---
 
-## Performance Showdown: Mobile vs Desktop/Laptop
+## Power you can actually feel
 
-**Mobile devices win at:** Portability, battery life, and instant-on convenience
-**Desktop/Laptop computers dominate:** Raw processing power and sustained performance
+Phones have gotten ridiculously fast. The problem is sustaining that speed. Once a phone heats up — and it heats up quickly under load — it throttles, the fans (if it even has any) give up, and everything slows down.
 
-**Where desktops and laptops excel:**
-- **Faster processors** that handle demanding software without breaking a sweat
-- **More RAM** for smooth multitasking (goodbye, app crashes!)
-- **Better cooling systems** that prevent throttling during intensive tasks
-- **Dedicated graphics cards** for gaming, video editing, and 3D work
+A laptop or desktop, with proper cooling and a bigger battery, can hold its performance for hours. That's the difference between editing a five-minute video on your phone and watching it crash twice, vs. doing the same edit on a laptop while a Zoom call is still running in the background.
 
-**Where mobile devices fall short:** Limited by thermal constraints, battery life, and compact form factor
-
-**Real-world examples:**
-- **Video Editing**: Editing even simple home videos on your phone often leads to crashes and frustration, while a laptop handles the same task smoothly alongside other apps
-- **Video Calls**: Long video calls can make phones overheat and slow down, but laptops stay cool while handling calls plus note-taking and other tasks
-- **Research Projects**: Juggling multiple browser tabs, documents, and background music - tasks that overwhelm phones but feel effortless on laptops
+Same story with RAM. My phone aggressively kills background apps the moment I switch away. My laptop just... keeps them there. All twenty of them, exactly where I left them.
 
 ---
 
-## Software Battle: Full Desktop Apps vs Mobile "Lite" Versions
+## Real software, not the "lite" version
 
-**Mobile apps win at:** Quick edits, sharing, and on-the-go access
-**Desktop software dominates:** Professional workflows and advanced features
+I love that mobile versions of Word, Photoshop, and Premiere exist. They're great for quick fixes. But they're not the real thing.
 
-**Desktop software advantages:**
-- Full-featured applications (Adobe Creative Suite, Office, development tools)
-- Advanced keyboard shortcuts and customization
-- Plugin support and extensions
-- No artificial limitations or subscription-only features
+Try managing a spreadsheet with twenty tabs and a few pivot tables on a phone. Or editing a long document with tracked changes. Or running a build script. The mobile versions either hide those features or simply don't have them. Desktop software is where the full toolbox lives — keyboard shortcuts, plugins, extensions, scripting, the works.
 
-**Mobile app limitations:** Simplified interfaces, reduced functionality, and feature restrictions
-
-Whether you're managing massive spreadsheets, coding the next big app, or creating professional designs, you need the full toolkit — not the watered-down mobile version.
-
-**Real-world examples:**
-- **Spreadsheet Work**: Managing large datasets with complex formulas becomes impossible on mobile versions that can't handle extensive data or advanced functions
-- **Photo Editing**: Serious photo editing with advanced filters and batch processing requires desktop software - mobile apps only offer basic adjustments
-- **Design Projects**: Creating professional-quality graphics and layouts needs full desktop design tools - mobile versions lack essential features and formatting options
+For anything that's actually work, I want the full version.
 
 ---
 
-## Multitasking Face-off: App Switching vs True Multitasking
+## Multitasking that isn't really multitasking
 
-**Mobile devices excel at:** Single-focus tasks and quick app switching
-**Desktop/Laptop computers win:** True simultaneous multitasking
+Modern phones technically support split-screen, but it always feels like a workaround. You squint at two tiny windows, lose context every time you tap something, and end up back in single-app mode anyway.
 
-Ever tried switching between 10 different apps on your phone? It's a nightmare.
-
-**Desktop/Laptop advantages:**
-- Keep multiple windows open and visible
-- Use multiple monitors for even more screen real estate
-- Run memory-intensive applications simultaneously
-- Actually get work done instead of constantly switching between apps
-
-**Mobile limitations:** App switching fatigue, memory management, and single-app focus
-
-**Real-world examples:**
-- **Price Comparison**: Comparing options across multiple websites while checking reviews and messaging friends for input - all without losing your place or constantly switching apps
-- **Event Planning**: Managing budgets, inspiration boards, vendor communications, and booking sites simultaneously without the frustration of constant app switching
-- **Busy Schedules**: Joining video meetings while monitoring other important tasks, checking emails, and keeping your calendar visible - all at the same time
+On a laptop I can have a browser, a code editor, a terminal, a chat app, and a music player all visible at the same time. Add a second monitor and it's almost too much screen. That's not "more apps for the sake of more apps" — it's how research, writing, and most creative work actually happens. You glance, compare, copy, paste, glance again.
 
 ---
 
-## Comfort That Actually Matters
+## Your back and wrists will thank you
 
-Your hands and eyes will thank you for using a real computer during long work sessions.
+This is the boring one, but it might be the most important. I can hunch over a phone for maybe twenty minutes before my neck files a complaint. An hour-long video call on a phone? My arm wants to fall off.
 
-**Ergonomic advantages:**
-- **Full-sized keyboard and mouse** for precise control
-- **Larger screens** that reduce eye strain
-- **Adjustable setup** — position everything exactly how you like it
-- **Better posture** with proper desk height and monitor placement
-
-**Real-world examples:**
-- **Movie Watching**: Enjoying longer films on a big screen without squinting or dealing with tired arms from holding up a device
-- **Extended Learning**: Taking detailed notes during lengthy online sessions without hand cramps from small keyboards or awkward typing positions
-- **Full Work Days**: Spending hours on emails and video calls without neck strain from constantly looking down at small screens
+A proper screen at eye level, a full-sized keyboard, a mouse — none of it is flashy, but it's the difference between working comfortably for a few hours and feeling wrecked by lunch.
 
 ---
 
-## Storage That Actually Holds Your Stuff
+## Storage you don't have to ration
 
-Running out of space on your phone? Computers have you covered.
+Phone storage feels like a constant negotiation. Delete some old screenshots, clear an app cache, buy more iCloud, sigh.
 
-**Storage benefits:**
-- **Massive internal storage** (terabytes, not gigabytes)
-- **Easy external storage** options (USB drives, external HDDs)
-- **Cloud backup integration** without worrying about data caps
-- **File organization** that actually makes sense
-
-**Real-world examples:**
-- **Media Collections**: Storing years of photos, videos, and memories without the constant hassle of deleting old content to make space for new
-- **Music Libraries**: Keeping your entire music collection locally instead of relying on streaming when internet is slow or data is limited
-- **Academic Work**: Saving coursework, presentations, and projects throughout your education without worrying about running out of space
+On a desktop or laptop, storage is just... there. Terabytes of it. Plug in an external drive when you need more. Back up to a NAS or to the cloud without worrying about "optimize storage" silently deleting your photos. It's a small thing day to day, but it stops being something you think about.
 
 ---
 
-## Built to Last and Upgrade
+## Repairable, upgradeable, longer-lived
 
-Unlike phones that become paperweights after a few years, computers are built for the long haul.
+Most phones become slow paperweights in three to four years. The battery dies, the OS stops getting updates, and replacing parts is either expensive or impossible.
 
-**Future-proofing advantages:**
-- **Easy repairs** — fix what's broken, not the whole system
-- **Component upgrades** — more RAM, faster storage, better graphics
-- **Customization** — build exactly what you need
-- **Better value** — upgrade parts instead of buying new devices
-
-**Real-world examples:**
-- **Smart Budgeting**: Adding more memory to an older laptop instead of buying a whole new device when it starts running slowly
-- **Growing Needs**: Upgrading storage as your files and projects accumulate, rather than purchasing an entirely new machine
-- **Performance Building**: Starting with a basic setup and gradually upgrading components for better performance as your budget allows
+A desktop can run for a decade if you swap in more RAM, a bigger SSD, or a new GPU when you need it. Even laptops, especially the ones with user-replaceable storage and memory, can be revived for the cost of one component instead of the price of a whole new device.
 
 ---
 
-## Browsing Like a Pro
+## Browsing without the training wheels
 
-Mobile browsers are getting better, but they're still not quite there.
+Mobile browsers are fine for casual reading. They're not great for actual work. No extensions, limited dev tools, weird tab behavior, and sites that decide you want the app instead.
 
-**Desktop browsing wins:**
-- **Browser extensions** for productivity and customization
-- **Multiple tabs** without constant reloading
-- **Developer tools** for web professionals
-- **Better web app support** for complex online tools
-
-**Real-world examples:**
-- **Smart Shopping**: Using browser extensions to automatically find discount codes while shopping online - saving money on purchases
-- **Content Management**: Managing multiple online accounts with helpful extensions while keeping various tools and analytics open
-- **Planning Projects**: Keeping multiple tabs open while organizing, using extensions to automatically save information and streamline workflows
+On desktop I have my password manager, my ad blocker, my dark-mode extension, my note-clipper. Dev tools are one keystroke away. Web apps just work the way they were designed to work. It's a different category of experience.
 
 ---
 
-## Gaming and Entertainment
+## Games and movies, the way they're meant to be
 
-For serious gaming and media consumption, there's no contest.
+I'll watch a YouTube short on my phone. I won't watch a two-hour movie on it. And I definitely won't try to play a "real" game on a phone when a proper screen, keyboard, and controller exist a few feet away.
 
-**Why computers dominate:**
-- **High-end graphics** for the latest games
-- **VR support** for immersive experiences
-- **Streaming capabilities** for content creation
-- **Large screens** for movies and shows
-
-**Real-world examples:**
-- **Group Entertainment**: Playing games on a big screen that everyone can see and enjoy together, instead of crowding around a small device
-- **Gaming Variety**: Enjoying indie games and classic titles that aren't available on mobile, plus using modifications that enhance gameplay
-- **Social Viewing**: Streaming high-quality content on large screens while video chatting with friends for shared experiences
+For PC gaming, emulators, VR, or just kicking back with a film, a bigger screen and real audio make the whole thing feel like an event instead of a chore.
 
 ---
 
-## The Verdict: Mobile vs Desktop/Laptop
+## So what's the verdict?
 
-**Mobile devices win at:** Portability, convenience, quick tasks, social media, and staying connected on the go.
+Phones win at being with you. They're always in your pocket, they handle the quick stuff, and they're great at things like messaging, photos, navigation, and the endless scroll.
 
-**Desktop/Laptop computers dominate:** Power, productivity, professional work, content creation, gaming, and comfort during extended use.
+Computers win at everything else. Serious work, longer sessions, creative tools, gaming, anything where comfort and power matter.
 
-**The bottom line:** Both platforms serve different purposes. Mobile devices are perfect companions for daily life, but if you create content, work professionally, game seriously, or need extended computing sessions, desktops and laptops remain irreplaceable.
-
-> *Mobile devices are the perfect pocket companions, but computers are still the ultimate digital workbench. Choose the right tool for the job.*
-
-**Ready to find the perfect balance?** Consider how you actually use technology — then choose the platform (or combination) that fits your real needs.
+Use both. That's the honest answer. But don't sell your laptop just because everyone on TikTok is doing everything from a tablet. The day you need to actually *make* something instead of just consuming it, you'll be glad you kept it around.

@@ -11,7 +11,7 @@ tags: ["Tennis", "Alex Eala"]
 draft: false
 ---
 
-Welcome! We track the key moments and professional career highlights of rising tennis star **Alex Eala**.
+I've been following Alex Eala's career since her junior Grand Slam days, and watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook — career-high rankings, the matches I'll always remember, the head-to-heads with Grand Slam champions, and the upcoming matchups I'm watching for. I update it as her career unfolds.
 
 ---
 

@@ -11,89 +11,96 @@ tags: ["RSS Feeds", "Inoreader", "Content Management", "Productivity Tools", "Di
 draft: false
 ---
 
-If you're like many people online, you probably have more browser tabs open than you'd care to admit. There's that daily routine of checking multiple websites, hoping for new content. It's exhausting, and there's always that nagging worry you might miss something important.
+For a long time I had this routine: open browser, check tech blog, check news site, check forum, check another blog, find nothing new, repeat in two hours. Anyone who's ever been into a niche corner of the internet probably knows the feeling — the constant, low-key checking, just in case.
 
-That's where RSS feeds come in. You might be thinking, "Isn't that something from 2005?" RSS never actually died – it just got overshadowed by social media. And for those who've rediscovered it, it's been a game-changer.
+A friend asked me one day why I wasn't just using RSS. I told him I figured RSS had quietly died sometime around 2010. He laughed and pointed out that it never actually did. It just stopped being trendy.
 
-## What's RSS, Really?
+Two weeks of using it later, I was a convert. Here's the short version of what RSS is and how to actually get started without overcomplicating it.
 
-RSS stands for "Really Simple Syndication" (though some say "Rich Site Summary" – honestly, who cares?). Think of it as a behind-the-scenes feed that websites maintain. When they publish something new, it gets added to this feed. Instead of you checking their site, your RSS reader checks the feed and shows you what's new.
+## What RSS actually is
 
-It's like having a friend who reads all your favorite sites and then tells you, "Hey, there's new stuff on these three sites, but the other seven haven't posted anything yet."
+RSS is just a way for websites to publish a list of their latest content in a machine-readable format. When a site updates, the list updates. An "RSS reader" is an app that checks all the lists you subscribe to and shows you what's new.
 
-## Why RSS Makes Sense (And Why You Might Want to Try It)
+That's it. No algorithm. No "for you" page. No ads (unless the site puts them in their feed, which is rare). Just chronological, raw "here's what's new on the sites I care about."
 
-Here's what many people realize once they try RSS: they're spending way too much time just *looking* for new content instead of actually reading it. You know the routine – visiting the same sites, seeing nothing new, then checking again two hours later like some kind of content-addicted goldfish.
+It's the same idea as email newsletters, but instead of cluttering your inbox, everything lands in one place that's designed for reading.
 
-RSS can fix this immediately. Instead of hunting for content, you spend that time actually reading.
+## Why it's worth bothering with
 
-Plus, social media algorithms aren't great at showing you what you actually want to see. They're designed to keep you scrolling, not to help you stay informed. RSS gives you chronological, unfiltered content from sources you chose. It's refreshing.
+Three things changed for me once I switched:
 
-## Getting Started: A Good RSS Reader Setup
+**I stopped hunting for content.** Instead of visiting ten sites to see if anything was new, I open one app and see exactly what's new across all of them. The hunting time goes to zero.
 
-There are plenty of RSS readers out there, from super basic to overly complicated ones that look like they were designed in 1999. Inoreader tends to hit a sweet spot for many people – it's feature-rich without being overwhelming.
+**I stopped missing things.** Algorithms decide what they want you to see. RSS shows you everything from sources you chose. If a blog you love only posts once every three months, you'll still see that post — it won't be buried.
 
-The free version gives you 150 feeds, which sounds like a lot until you realize most people end up with about 20-30 feeds they actually read regularly. For most users, the free version works perfectly fine.
+**My social media use went down.** A lot of what I was doing on Twitter and Reddit was just trying to keep up with stuff. RSS does that better, faster, and without the dopamine slot machine.
 
-### Setting Up Your Account
+## Pick a reader (don't overthink this)
 
-Head to inoreader.com and sign up. Nothing fancy here – just pick a username and password. The interface might look a bit overwhelming at first, but don't worry about all the buttons and options. You'll figure them out as you go.
+There are dozens of RSS readers. Most are fine. I use **Inoreader** — the free tier gives you 150 feeds, which sounds tight but is actually way more than most people use. Most realistic personal setups end up around 20–30.
 
-### Finding Your First Feeds
+Some others worth knowing about: **Feedly** (clean, popular), **NetNewsWire** (Mac/iOS, free, open source), **Reeder** (paid, gorgeous interface). Try whichever — they all do the same core job. You can export and switch readers anytime, so the choice isn't permanent.
 
-This is where it gets fun. Most websites have RSS feeds, they just don't advertise them much anymore. Here are a few ways to find them:
+Sign up, ignore most of the menus for now, and let's add some feeds.
 
-**The Easy Way:** Many sites have a little RSS icon somewhere (usually in the footer), or they'll have a "Subscribe" or "RSS" link.
+## Finding feeds for sites you read
 
-**The Slightly Less Easy Way:** Try adding `/feed` to the end of the site's URL. This works for most WordPress sites, which is like 40% of the internet.
+This is the part that trips people up. RSS used to be advertised everywhere; now most sites hide it. A few ways I find them:
 
-**The "I Can't Find It" Way:** Google "[website name] RSS feed". Someone's usually figured it out already.
+**Look for an RSS icon.** Usually in the footer, sometimes the sidebar, sometimes a "Subscribe" link.
 
-In Inoreader, just click the big "+" button and paste in the URL. It'll usually figure out what you mean even if you just paste the main website URL.
+**Try `/feed` at the end of the URL.** This works for almost every WordPress site — and WordPress runs about 40% of the web.
 
-## Organization (Or: How to Stop Worrying and Love Folders)
+**Just paste the homepage URL into your reader.** Inoreader and most modern readers will auto-discover the feed for you.
 
-A common mistake when starting with RSS is dumping everything into one big feed. It's like having all your emails in one folder – technically it works, but it quickly becomes chaos.
+**Worst case, Google it.** Search "site name RSS feed" — someone has usually already figured it out.
 
-Here's a simple approach that works well:
+## Organizing without going overboard
 
-**Daily:** The stuff you want to check every day. News sites, a few key tech blogs.
+The classic beginner mistake is dumping every feed into one giant list, and the second mistake is the opposite — building an elaborate folder hierarchy with twelve nested categories.
 
-**Weekly:** Longer articles, newsletters, anything that doesn't need immediate attention.
+What works for me is three folders:
 
-**Fun Stuff:** Design inspiration, comics, hobby blogs. The stuff you read when you want to zone out.
+- **Daily** — sites I want to check every morning. News, the one or two tech blogs I genuinely care about.
+- **Weekly** — long reads, newsletters, blogs that post occasionally.
+- **Fun** — comics, hobby blogs, design inspiration, the wind-down stuff.
 
-The key is not to over-organize. Some people create elaborate folder hierarchies that look like corporate filing systems. Keep it simple.
+That's it. If you can't decide which folder something goes in, just pick one. You can move it later.
 
-## Reading Strategy (Or: How Not to Drown)
+## A reading rhythm that doesn't burn you out
 
-Here's a common mistake when getting started: subscribing to everything. It seems like more would be better, but you can easily end up with 200+ unread articles every day and just give up.
+The other beginner trap is subscribing to everything you've ever read. You'll end up with 300 unread items every morning and quit RSS within a week.
 
-Being selective is key. If you find yourself skipping a feed three times in a row, consider unsubscribing. No guilt, no "but I might need this someday." Life's too short to read content that doesn't add value.
+A couple of rules I follow now:
 
-A routine that works for many people: check the daily folder with morning coffee (takes about 10 minutes), and go through the weekly folder on Sunday evenings while relaxing.
+**If I skip a feed three times in a row, I unsubscribe.** No guilt. Life's short.
 
-## Common Problems and Solutions
+**"Mark all as read" is a feature, not a failure.** If I've been away for a few days and there are 200 unread posts waiting, I don't catch up — I just clear it and start fresh. Whatever I missed wasn't going to change my life.
 
-**"This site doesn't have RSS!"** – They probably do, they just hide it. Try tools like RSS Bridge or just search Google. If it really doesn't have RSS, maybe it's not worth following regularly.
+**Daily folder with morning coffee. Weekly folder on Sunday night.** That's the whole routine. Maybe fifteen minutes total.
 
-**"I have too many unread articles!"** – Hit "Mark All as Read" and start fresh. Seriously. That backlog isn't going anywhere, and trying to catch up will just stress you out.
+## A few things you might run into
 
-**"I keep forgetting to check my feeds"** – Set a phone reminder, or just check them when you would normally check social media.
+**"This site doesn't seem to have RSS."** It probably does — just hidden. If you've really tried and there's nothing, services like RSS Bridge or Kill the Newsletter can sometimes generate feeds from sites or newsletters that don't expose one.
 
-## Some Unexpected Benefits
+**"I have too many unread items and I'm stressed."** Mark all as read. Seriously. The backlog isn't going anywhere.
 
-RSS does more than just organize your reading. It makes you more intentional about what you consume. When you have to actively choose to follow something, you think twice about whether it's actually worth your time.
+**"I keep forgetting to check it."** Pin the tab. Put the app on your phone's home screen where Instagram used to be. The trick is to swap a habit, not add one.
 
-You might also discover some great smaller blogs that you never would have found through social media or Google. RSS democratizes content in a way that algorithms don't.
+## The quieter benefits I didn't expect
 
-Plus, there's something satisfying about having a clean, organized feed with zero unread items. It's like inbox zero, but for content.
+RSS made me more intentional about what I read. When you have to actively *choose* to follow something, you stop accidentally absorbing every viral thread someone retweets at you.
 
-## The Bottom Line
+I also started discovering smaller, weirder, better blogs. The kind of independent writing that algorithms don't surface but other bloggers link to. RSS rewards that whole layer of the internet that social media mostly buries.
 
-RSS isn't sexy. It's not going to get a bunch of likes on LinkedIn. But it works, and it's been working for 20+ years. While everyone else is getting distracted by the latest productivity app or social media platform, you could be quietly and efficiently staying informed about the things that actually matter to you.
+And there's something satisfying — almost meditative — about clearing a feed to zero. Like finishing a small chore that actually makes your day a little better.
 
-Give it a shot for a week. Start with five feeds max, set up basic folders, and see how it feels. You might wonder why you waited so long.
+## Try it for a week
 
-*Have questions about RSS or want to share your own setup? Let me know in the comments – I love talking about this stuff.*
+RSS is not exciting. It will not get you likes. It's older than most of the apps on your phone and looks like it.
 
+But it works. It's been quietly working for over twenty years. And while everyone else is trying to keep up with whatever new platform is supposed to fix our content overload, you can just... read what you wanted to read, in the order it was published, when you have time.
+
+Start with five feeds. Three folders. One coffee. See how it feels.
+
+If you try it, let me know what you ended up subscribing to — I'm always looking for new things to add to my own list.

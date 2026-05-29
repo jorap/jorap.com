@@ -51,7 +51,7 @@
 }
 
 .share-icons .share-icon svg {
-  @apply fill-white;
+  @apply fill-surface;
 }
 
 .fediverse-input-wrapper {

@@ -11,90 +11,78 @@ tags: ["Facebook", "Favorites Feed", "Social Media Tips", "Digital Wellbeing"]
 draft: false
 ---
 
-I'll be honest — like many people, I was getting pretty frustrated with Facebook. My feed was cluttered with random sponsored posts, distant acquaintances sharing their breakfast photos, and way too many political rants from people I barely knew. Sound familiar?
+I almost deleted Facebook a couple of years ago. My feed had become a mess — random sponsored posts, distant cousins arguing about politics, people I went to high school with pitching essential oils, and somehow almost nothing from the friends I actually wanted to keep up with.
 
-Then I stumbled across something that completely changed my Facebook experience: the **Favorites Feed**. And no, I'm not talking about some third-party app or hack. This is built right into Facebook, but for some reason, hardly anyone seems to know about it.
+Then I stumbled onto a setting Facebook built but doesn't really advertise: the **Favorites feed**. It's not a hack, not a third-party app, just a built-in feature most people don't know exists. It's the only reason I still open the app.
 
-## So What Exactly Is This Favorites Feed?
+## What the Favorites feed actually is
 
-Here's the thing—Facebook has this feature where you can basically create your own personal feed. Instead of letting their algorithm decide what you see (which, let's face it, isn't always great), you get to handpick exactly whose posts show up.
+It's a separate feed inside Facebook that only shows posts from people, pages, and groups you've manually marked as favorites. The algorithm doesn't decide. You do.
 
-It's like having a VIP section of Facebook that only includes the people and pages you actually care about. Your mom's vacation photos? Check. That local news page you follow? Yep. Random MLM posts from high school classmates? Nope, not happening.
+Think of it as a smaller, hand-picked version of your timeline. Your mom's photos from her trip — yes. The local news page you actually read — yes. Group chats and ads from someone you barely remember adding in 2011 — gone.
 
-## Why I'm Obsessed With This Feature
+## Why I keep coming back to it
 
-After using it for a while, here's why I think everyone should know about this:
+A few things changed once I started using it:
 
-**It actually saves time.** Instead of scrolling for 20 minutes trying to find something interesting, I can check my Favorites feed in about 5 minutes and see everything that actually matters to me.
+**I spend less time on Facebook, and like it more.** The Favorites feed is finite. I can scroll through everything in five or ten minutes and be done. No infinite hole.
 
-**No more algorithm frustration.** You know how Facebook sometimes decides you need to see every single post from that one friend who shares 15 memes a day? Yeah, you can skip all that and only see what you want.
+**I stopped missing things from people I care about.** Important life updates from close friends weren't getting buried under noise anymore.
 
-**Better connections with people who matter.** I'm not missing important life updates from close friends anymore because they got buried under a bunch of random stuff.
+**The algorithm doesn't get to play games with me.** That weird "people you may know" rabbit hole, the suddenly-political-post-from-someone-you-barely-know thing — none of it shows up here.
 
-**Less doom-scrolling.** When there's a finite amount of relevant content, you naturally spend less time mindlessly scrolling through your feed.
+**My phone time went down.** I check it, I close it. The dopamine slot machine just isn't built into this feed.
 
-## Okay, How Do I Actually Set This Up?
+## How to set it up
 
-Don't worry, it's pretty straightforward once you know where to look. Facebook doesn't exactly advertise this feature, so it's a bit hidden.
-
-### Finding Your Favorites Feed
+Facebook tucks this thing away pretty deep. Here's where it actually lives.
 
 {{< image src="images/fb-desktop-feed.jpg" caption="Facebook Feeds - Desktop" alt="Facebook Feeds - Desktop" height="486" width="329" position="center" command="fill" option="q100" class="img-fluid" title="Facebook Feeds - Desktop"  webp="true" >}}
 
 {{< image src="images/fb-mobile-feed.jpg" caption="Facebook Feeds - Mobile" alt="Facebook Feeds - Mobile" height="591" width="400" position="center" command="fill" option="q100" class="img-fluid" title="Facebook Feeds - Mobile"  webp="true" >}}
 
-**If you're on your phone:**
-1. Open the Facebook app
-2. Look for that hamburger menu (the three horizontal lines) and tap it
-3. Scroll down until you see "Feeds" - it might be buried a bit
-4. Tap "Favorites"
+**On your phone:**
 
-**If you're on a computer:**
-1. Check the left sidebar for "Feeds"
-2. Click on "Favorites"
+1. Open the Facebook app.
+2. Tap the menu (three lines, usually bottom-right on iOS, top-right on Android).
+3. Scroll down until you see **Feeds**. It's not at the top, you have to look for it.
+4. Tap **Favorites**.
 
-*Note: If you don't see "Feeds" right away, don't panic. Sometimes Facebook moves things around or it might be collapsed. Just look around the sidebar area.*
+**On a computer:**
 
-### Adding People to Your Favorites
+1. Look in the left sidebar of the home page for **Feeds**.
+2. Click **Favorites**.
 
-Now comes the fun part - choosing who gets VIP access to your feed. Here's how to add different types of accounts:
+If you can't find "Feeds," the sidebar may have collapsed it. Expand the sidebar, or scroll the menu — Facebook moves things around occasionally.
 
-**Adding friends:** Go to their profile, click on "Friends," and you should see "Add to Favorites" as an option.
+## Adding people, pages, and groups
 
-**Adding pages:** Head to the page, click on "Following" (or "Liked"), and select "Favorites."
+This is the fun part: deciding who gets in.
 
-**Adding groups:** Visit the group, click "Joined," then choose "Add to Favorites."
+- **Friends:** open their profile → tap **Friends** → choose **Add to Favorites**.
+- **Pages:** open the page → tap **Following** (or "Liked") → choose **Favorites**.
+- **Groups:** open the group → tap **Joined** → **Add to Favorites**.
 
-### A Few Tips I Learned the Hard Way
+## A few things I learned by overdoing it first
 
-**Start small.** It's easy to get excited and add way too many people at first, which defeats the whole purpose. Stick to maybe 15-20 people initially - you can always add more later.
+**Start small.** I added something like fifty people my first day. Too many. The whole point disappears if your favorites feed becomes just as cluttered as the main one. Fifteen to twenty is a great starting point.
 
-**Think quality over quantity.** Add your close family, a few best friends, maybe that local news page you actually read, and any groups you're genuinely active in.
+**Be honest about who matters right now.** Close family, your three or four real friends, maybe a local news page or a hobby group you actually engage with. That's usually it.
 
-**It's not permanent.** You can remove people anytime, and they won't know. You can always adjust your list as your interests change or when you realize certain posts aren't adding value to your feed anymore.
+**It's private.** Nobody gets a notification. Nobody can see your list. You can add and remove people freely and they'll never know.
 
-## A Few Things That Made It Even Better for Me
+**The cap is 30.** That covers friends, pages, and groups combined. Honestly, you'll have a hard time even filling that.
 
-**Bookmark it for easy access.** On your phone, you can actually create a shortcut to your Favorites feed. Some people find it helpful to put it right on their home screen to avoid the temptation of scrolling through the regular feed.
+## A few questions I had
 
-**Don't overthink it.** It's easy to spend too much time trying to decide who to include. Just start with the obvious choices - you can always adjust later.
+**Does this replace the regular feed?** No. Your normal home feed stays the same. The Favorites feed is just another tab.
 
-**Mix personal and informational.** Consider including family and close friends, but also a couple of local news sources and hobby groups. It keeps things interesting without being overwhelming.
+**Will my favorited friends know?** No. There's no notification or any visible signal.
 
-**Use it as your main feed.** Many people find they rarely look at their regular Facebook feed anymore once they start using Favorites. It can become your primary way to experience Facebook.
+**Does it affect what shows up in my regular feed?** Not really. Posts from favorites might show up there a bit more often, but the main feed isn't fundamentally changed.
 
-## Questions I Had (And You Probably Do Too)
+## Give it five minutes
 
-**"Will people know if I add them to my Favorites?"** Nope, it's completely private. Facebook doesn't send notifications or anything like that.
+Facebook gets a lot wrong, but this one feature is genuinely good — it just doesn't get the spotlight it should. It takes about five minutes to set up. Start with the obvious people in your life, see how it feels for a week, and adjust from there.
 
-**"Is there a limit to how many people I can add?"** Yeah, you can add up to 30 total (friends, pages, and groups combined). Honestly, that's probably more than you need anyway.
-
-**"Does this mess with my regular Facebook feed?"** Not really. Your main feed stays the same, though posts from your Favorites might show up more often there too.
-
-## Give It a Try
-
-Look, I get it - Facebook can be overwhelming and frustrating. But this little feature has genuinely made my experience so much better. Instead of mindlessly scrolling through random stuff, I actually enjoy checking Facebook again.
-
-It takes literally 5 minutes to set up, and you can always change it later if you don't like it. Start with just your closest family and friends, maybe add a local news page or hobby group you follow, and see how it feels.
-
-Trust me, once you try it, you'll wonder why you waited so long.
+If it doesn't click for you, no harm done. But if you're anything like me, you'll wonder why you didn't find it sooner.
