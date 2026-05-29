@@ -1,7 +1,7 @@
 ---
 title: "Top Reasons to Create and Maintain Your Own Website"
 meta_title: "Top Reasons to Create and Maintain Your Own Website"
-description: "Everyone says 'just use social media,' but there's something to be said for having your own website. Here's what many of us discover along the way."
+description: "Every time I tell someone I run my own website, they ask why I don't just post on Facebook. After years of watching platforms die and rules change, here's why I keep my own corner of the internet."
 date: 2024-03-10T05:00:00Z
 image: "/images/website.jpg"
 categories: ["Website"]

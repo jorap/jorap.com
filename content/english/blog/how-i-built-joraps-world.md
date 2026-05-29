@@ -1,7 +1,7 @@
 ---
 title: "How I Built JoRap's World: My Journey from Expensive Hosting to Free (and Better!)"
 meta_title: "How I Built JoRap's World: A Developer's Guide to Free Static Site Hosting"
-description: "My actual experience building a website with Hugo CMS and hosting it for free - mistakes included!"
+description: "I lost my old PHP hosting (and a chunk of my work with it). A weekend of fumbling later, I landed on Hugo + GitHub + Cloudflare Pages — free, faster, and honestly better than what I was paying for."
 slug: "how-i-built-joraps-world"
 date: 2024-06-14T05:00:00Z
 image: "/images/joraps-world.jpg"

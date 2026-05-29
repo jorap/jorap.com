@@ -1,7 +1,7 @@
 ---
 title: "Getting Started with RSS Feeds: A Beginner's Guide"
 meta_title: "RSS Feeds for Streamlined Content Discovery | Complete Beginner's Guide"
-description: "I used to have 30 browser tabs open just to check for new content. Here's how RSS feeds changed my life and saved me hours every week."
+description: "I figured RSS quietly died around 2010. A friend pointed out it never actually did — it just stopped being trendy. Two weeks of using it later, I was a convert."
 slug: "getting-started-with-rss-feeds-a-beginners-guide"
 date: 2024-03-30T05:00:00Z
 image: "/images/rss.jpg"

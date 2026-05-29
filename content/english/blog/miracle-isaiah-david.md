@@ -1,7 +1,7 @@
 ---
 title: "The Miracle of Isaiah David"
 meta_title: "The Miracle of Isaiah David – A Story of Hope and Faith"
-description: "Our son was born the same day we found out Pia was pregnant. Here's the incredible story that made national news."
+description: "On May 8, 2020, Pia and I found out she was pregnant — and gave birth to our son the same day. Years later, that sentence still doesn't feel real. Here's how it actually unfolded."
 slug: "miracle-isaiah-david"
 date: 2023-05-08T05:00:00Z
 image: "/images/feature-isaiah-david.jpg"

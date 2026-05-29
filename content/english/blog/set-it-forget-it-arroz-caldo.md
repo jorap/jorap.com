@@ -1,7 +1,7 @@
 ---
 title: "The Set It and Forget It Arroz Caldo"
 meta_title: "The Set It and Forget It Arroz Caldo"
-description: "My Friday night habit: prepping Arroz Caldo to reward myself with a cozy Saturday breakfast."
+description: "My weekend reward system: prep Arroz Caldo on a Friday night, wake up Saturday to a kitchen that already smells like ginger and home. Five minutes of actual work, an hour of comfort."
 slug: "set-it-forget-it-arroz-caldo"
 date: 2025-03-29T05:00:00Z
 image: "/images/arroz-caldo.jpg"

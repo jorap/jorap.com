@@ -2,7 +2,7 @@
 title: Instant Pot Chicken Adobo
 slug: ''
 meta_title: ''
-description: Chicken adobo is one of the most recognizable Filipino comfort dishes, known for its savory, tangy, garlicky sauce and tender braised meat. This version uses bone-in, skin-on chicken thighs for deeper flavor and better texture. The Instant Pot shortens the cooking time while still allowing the chicken to absorb the classic adobo flavors of soy sauce, garlic, peppercorns, bay leaves, and vinegar.
+description: "My go-to chicken adobo, adjusted for the Instant Pot. Bone-in thighs, 10 minutes under pressure, and that classic soy-garlic-vinegar glaze — without the hours of waiting."
 date: 2026-05-03T23:00:00
 author: JoRap
 image: /images/Chicken-Adobo.jpg

@@ -3,7 +3,7 @@ title: "Alex Eala Pro Career Tracker"
 date: 2026-04-01T05:00:00Z
 meta_title: "Alex Eala Pro Career Tracker"
 slug: "alex-eala-pro-career-tracker"
-description: "Follow the latest highlights from Alex Eala's professional tennis career."
+description: "A Filipino fan's running scrapbook of Alex Eala's WTA career — the rankings, the matches I'll never forget, and the matchups I'm watching for next."
 image: "/images/alex-eala.jpg"
 categories: ["Sports"]
 author: "JoRap"
@@ -11,7 +11,7 @@ tags: ["Tennis", "Alex Eala"]
 draft: false
 ---
 
-I've been following Alex Eala's career since her junior Grand Slam days, and watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook — career-high rankings, the matches I'll always remember, the head-to-heads with Grand Slam champions, and the upcoming matchups I'm watching for. I update it as her career unfolds.
+I've been following Alex Eala's career since her amazing run at the 2025 Miami Open, and watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook — career-high rankings, the matches I'll always remember, the head-to-heads with Grand Slam champions, and the upcoming matchups I'm watching for. I update it as her career unfolds.
 
 ---
 
