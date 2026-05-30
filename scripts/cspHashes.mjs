@@ -28,9 +28,14 @@ import { join, resolve } from "node:path";
 const PUBLIC_DIR = resolve(process.cwd(), "public");
 const HEADERS_FILE = join(PUBLIC_DIR, "_headers");
 
-// Directives we manage. Both must stay in sync — modern browsers prefer
-// `script-src-elem` for <script> elements but fall back to `script-src`.
-const TARGET_DIRECTIVES = ["script-src", "script-src-elem"];
+// Directives we manage. We only set `script-src`; modern browsers fall back
+// from `script-src-elem` to `script-src` when the former is absent. Keeping a
+// single directive (vs. two duplicate ones) is what brings the rewritten CSP
+// under Cloudflare Pages's hard ~2,000-char per-header-value limit. If you
+// reintroduce `script-src-elem` to `static/_headers` you must add it here too,
+// AND verify the resulting CSP value still fits under 2 KB or it will be
+// silently dropped at the edge.
+const TARGET_DIRECTIVES = ["script-src"];
 
 // Only rewrite the CSP for these path-block patterns from _headers. Other
 // blocks (e.g. /admin/* which serves Sveltia CMS — a SPA that injects inline

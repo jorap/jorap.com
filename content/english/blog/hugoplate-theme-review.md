@@ -218,17 +218,6 @@ Grid of images from a folder. Lightbox-enabled by default. Point `dir` at any su
   webp="true" command="Fit" option="q80" zoomable="true" */>}}
 ```
 
-#### `slider`
-
-Same input as `gallery`, but rendered as a Swiper carousel instead of a grid.
-
-{{< slider dir="images/gallery" class="max-w-[600px] ml-0" height="400" width="400" webp="true" command="Fit" option="q80" zoomable="true" >}}
-
-```
-{{</* slider dir="images/gallery" class="max-w-[600px] ml-0"
-  height="400" width="400" webp="true" command="Fit" option="q80" zoomable="true" */>}}
-```
-
 #### `video`
 
 Native HTML5 video. Use it for self-hosted MP4s or any direct video URL — the kind of thing you don't want to round-trip through YouTube.
