@@ -20,6 +20,17 @@ defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 disableHugoGeneratorInject = true
 
+########################### Security #############################
+# resources.GetRemote inspects the Content-Type of every fetched resource
+# against a default allowlist. Google Fonts serves woff/woff2 binaries from
+# fonts.gstatic.com which are not in the default allowlist, so the build-
+# time font self-hoster (partials/essentials/self-hosted-fonts.html) would
+# fail without these entries. The regexes below are additive to the
+# defaults, not a replacement.
+[security]
+[security.http]
+mediaTypes = ['^font/woff2?$', '^application/font-woff2?$']
+
 ########################### Services #############################
 [services]
 [services.googleAnalytics]
@@ -177,20 +188,15 @@ notAlternative = true
 ############################# Plugins ##############################
 
 # CSS Plugins
+# Font Awesome was removed in favor of inline SVGs (see data/icons.json +
+# partials/components/icon.html). The referenced plugin/font-awesome/v6
+# CSS files never shipped with the site, so the prior <i class="fa-…">
+# tags were rendering as empty boxes anyway.
 [[params.plugins.css]]
 link = "plugins/swiper/swiper-bundle.css"
 lazy = false
 [[params.plugins.css]]
 link = "plugins/glightbox/glightbox.css"
-lazy = false
-[[params.plugins.css]]
-link = "plugins/font-awesome/v6/brands.css"
-lazy = false
-[[params.plugins.css]]
-link = "plugins/font-awesome/v6/solid.css"
-lazy = false
-[[params.plugins.css]]
-link = "plugins/font-awesome/v6/icons.css"
 lazy = false
 
 # JS Plugins

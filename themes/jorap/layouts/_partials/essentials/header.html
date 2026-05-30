@@ -129,7 +129,7 @@
               class="border-divider text-ink hover:text-accent mr-5 inline-block border-r pr-5 text-xl"
             {{ end }}
             data-target="search-modal">
-            <i class="fa-solid fa-search"></i>
+            {{ partial "components/icon" (dict "Name" "search" "Class" "inline-block h-5 w-5") }}
           </button>
         {{ end }}
       {{ end }}

@@ -1,9 +1,38 @@
+{{/*
+  components/blog-card — Renders a single blog card.
+
+  Accepts either:
+    - A Page directly: {{ partial "components/blog-card" . }}
+    - A dict for explicit control:
+        {{ partial "components/blog-card" (dict "Page" . "Eager" true) }}
+
+  Only set Eager=true for the LCP candidate (typically the first card on
+  the home page). Every other card MUST stay lazy/auto so the browser can
+  prioritize the hero image without bandwidth contention. Marking all
+  cards eager/high-priority was actively hurting LCP.
+*/}}
+{{- $page := . -}}
+{{- $eager := false -}}
+{{- if reflect.IsMap . -}}
+  {{- $page = .Page -}}
+  {{- $eager = .Eager | default false -}}
+{{- end -}}
+{{- with $page -}}
 <div
   class="component--blog-card flex h-full flex-col overflow-hidden rounded-xl border border-divider bg-elevated shadow-sm transition-[box-shadow,border-color] duration-300 ease-out motion-reduce:transition-none motion-reduce:hover:shadow-sm hover:shadow-md">
   {{ $image:= .Params.image }}
   {{ if $image }}
   <a href="{{ .RelPermalink }}" class="relative block aspect-[413/220] overflow-hidden">
-    {{ partial "components/image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "image--partial h-full w-full object-cover aspect-[413/208]" "Size" "413x208" "Loading" "eager" "FetchPriority" "high" "Decoding" "async") }}
+    {{ partial "components/image" (dict
+      "Src" $image
+      "Context" .Page
+      "Alt" .Title
+      "Class" "image--partial h-full w-full object-cover aspect-[413/208]"
+      "Size" "413x208"
+      "Loading" (cond $eager "eager" "lazy")
+      "FetchPriority" (cond $eager "high" "auto")
+      "Decoding" "async"
+    ) }}
   </a>
   {{ end }}
   <div class="flex flex-1 flex-col px-6 pb-6 pt-5">
@@ -14,7 +43,7 @@
   </h3>
   <ul class="mb-4">
     <li class="mb-2 block">
-      <i class="fa-regular fa-clock mr-1"></i>
+      {{ partial "components/icon" (dict "Name" "clock" "Class" "inline-block h-4 w-4 mr-1 align-[-2px]") }}
       {{ time.Format ":date_long" .PublishDate }}
     </li>
     {{ $categories:= .Params.categories }}
@@ -22,12 +51,12 @@
     {{/*
     <li class="mr-4 inline-block">
       <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
-        <i class="fa-regular fa-circle-user mr-2"></i>{{ .Params.author }}
+        {{ partial "components/icon" (dict "Name" "circle-user" "Class" "inline-block h-4 w-4 mr-2 align-[-2px]") }}{{ .Params.author }}
       </a>
     </li>
     */}}
     <li class="mr-4 inline-block">
-      <i class="fa-regular fa-folder mr-1"></i>
+      {{ partial "components/icon" (dict "Name" "folder" "Class" "inline-block h-4 w-4 mr-1 align-[-2px]") }}
       {{ range $i,$p:= $categories }}
       <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="ms-0">{{/* . | humanize */}}
         {{ . | title }}{{ if ne $i
@@ -45,3 +74,4 @@
   </div>
   </div>
 </div>
+{{- end -}}

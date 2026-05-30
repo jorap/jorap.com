@@ -18,18 +18,18 @@
             {{/*
             <li class="mr-4 inline-block">
               <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
-                <i class="fa-regular fa-circle-user mr-2"></i>{{ .Params.author }}
+                {{ partial "components/icon" (dict "Name" "circle-user" "Class" "inline-block h-4 w-4 mr-2 align-[-2px]") }}{{ .Params.author }}
               </a>
             </li>
             */}}
             <li class="mr-4 block">
-              <i class="fa-regular fa-clock mr-1"></i>
+              {{ partial "components/icon" (dict "Name" "clock" "Class" "inline-block h-4 w-4 mr-1 align-[-2px]") }}
               {{ time.Format ":date_long" .PublishDate }}
             </li>
             {{ $categories:= .Params.categories }}
             {{ if $categories }}
             <li class="mr-4 inline-block">
-              <i class="fa-regular fa-folder mr-1"></i>
+              {{ partial "components/icon" (dict "Name" "folder" "Class" "inline-block h-4 w-4 mr-1 align-[-2px]") }}
               {{ range $i,$p:= $categories }}
               <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="">{{/* . | humanize */}}
                 {{ . | title }}{{ if ne $i
@@ -50,10 +50,12 @@
               aria-expanded="false"
               aria-controls="mobile-toc-panel">
               <span class="text-base font-semibold">{{ T "table_of_contents" | default "Table of Contents" }}</span>
-              <i
-                class="fa-solid fa-chevron-down shrink-0 transition-transform duration-300 ease-out motion-reduce:transition-none"
+              <span
                 id="toc-chevron"
-                aria-hidden="true"></i>
+                class="shrink-0 transition-transform duration-300 ease-out motion-reduce:transition-none"
+                aria-hidden="true">
+                {{ partial "components/icon" (dict "Name" "chevron-down" "Class" "h-5 w-5") }}
+              </span>
             </button>
             <div id="mobile-toc-panel" class="mobile-toc-content mt-4 hidden">
               <div class="table-of-content toc-links">

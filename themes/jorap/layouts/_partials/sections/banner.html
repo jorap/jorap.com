@@ -14,7 +14,7 @@
         <a class="btn btn-primary" href="{{ .link | absURL }}" {{ if strings.HasPrefix .link `http` }} target="_blank"
           rel="noopener" {{ end }}>
           {{ .label }}
-          <i class="fa fa-arrow-right pl-2"></i>
+          {{ partial "components/icon" (dict "Name" "arrow-right" "Class" "inline-block h-4 w-4 ml-2 align-[-2px]") }}
         </a>
         {{ end }}
         {{ end }}

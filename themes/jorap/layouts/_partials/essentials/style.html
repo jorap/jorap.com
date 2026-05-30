@@ -1,33 +1,19 @@
-<!-- DNS preconnect -->
+<!-- Preconnect/dns-prefetch budget: keep this list short. Each preconnect
+     opens a TCP+TLS socket that's held idle until the browser uses it,
+     which costs CPU + memory and competes with the LCP request. Only
+     warm origins we KNOW the browser will hit in the first ~500ms of
+     the load. Fonts are now self-hosted (same origin) and Font Awesome
+     was removed entirely, so those four lines are gone. Social-network
+     prefetches (LinkedIn / Twitter / Facebook) never paid off and are
+     dropped too. -->
 <meta http-equiv="x-dns-prefetch-control" content="on" />
-<link rel="preconnect" href="https://use.fontawesome.com" crossorigin />
-<link rel="preconnect" href="//cdnjs.cloudflare.com" />
-<link rel="preconnect" href="//www.googletagmanager.com" />
-<link rel="preconnect" href="//www.google-analytics.com" />
-<link rel="dns-prefetch" href="https://use.fontawesome.com" />
-<link rel="dns-prefetch" href="//ajax.googleapis.com" />
-<link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
-<link rel="dns-prefetch" href="//www.googletagmanager.com" />
-<link rel="dns-prefetch" href="//www.google-analytics.com" />
-<link rel="dns-prefetch" href="//fonts.googleapis.com" />
-<link rel="dns-prefetch" href="//connect.facebook.net" />
-<link rel="dns-prefetch" href="//platform.linkedin.com" />
-<link rel="dns-prefetch" href="//platform.twitter.com" />
+{{- if and site.Config.Services.GoogleAnalytics.ID (ne site.Config.Services.GoogleAnalytics.ID "G-MEASUREMENT_ID") }}
+<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
+<link rel="dns-prefetch" href="https://www.google-analytics.com" />
+{{- end }}
 
-<!-- google fonts -->
-{{ $pf:= hugo.Data.theme.fonts.font_family.primary }}
-{{ $sf:= hugo.Data.theme.fonts.font_family.secondary }}
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<script>
-  (function () {
-    const googleFont = document.createElement("link");
-    googleFont.href = "https://fonts.googleapis.com/css2?family={{$pf | safeURL}}{{if and $sf (ne $pf $sf)}}&family={{$sf | safeURL}}{{end}}&display=swap";
-    googleFont.type = "text/css";
-    googleFont.rel = "stylesheet";
-    document.head.appendChild(googleFont);
-  })();
-</script>
+<!-- Self-hosted fonts (build-time mirror of Google Fonts, fingerprinted). -->
+{{ partial "essentials/self-hosted-fonts.html" . }}
 
 <!-- main styles -->
 {{ $styles := slice }}
