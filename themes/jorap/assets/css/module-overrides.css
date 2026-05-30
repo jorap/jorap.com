@@ -104,3 +104,16 @@
 .gallery-slider {
   @apply !ml-0;
 }
+
+/* GLightbox description — match dark mode tokens so the caption strip
+   doesn't sit on stark white inside a dark lightbox overlay. */
+.dark .glightbox-clean .gslide-description {
+  background: var(--color-elevated);
+}
+.dark .glightbox-clean .gslide-title,
+.dark .glightbox-clean .gslide-desc {
+  color: var(--color-ink);
+}
+.dark .glightbox-clean .gslide-desc a {
+  color: var(--color-accent);
+}
