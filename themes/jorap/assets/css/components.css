@@ -27,7 +27,7 @@
  * is handled automatically by tailwind-plugin/tw-theme.js — no `dark:` twins needed.
  */
 .content {
-  @apply prose max-w-[70ch] font-primary;
+  @apply prose max-w-full font-primary;
   @apply prose-headings:mb-[.3em] prose-headings:mt-[.6em] prose-headings:text-ink prose-headings:text-balance;
   @apply prose-h1:text-h1-sm md:prose-h1:text-h1;
   @apply prose-h2:text-h2-sm md:prose-h2:text-h2;
