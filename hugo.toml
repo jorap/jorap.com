@@ -96,6 +96,12 @@ enable = true
 [[build.cachebusters]]
 source = 'assets/notwatching/hugo_stats\.json'
 target = 'css'
+# Tailwind v4 is compiled via css.TailwindCSS with inlineImports=true, so Hugo
+# can't see the @import'd partials as resource dependencies. This cachebuster
+# forces a CSS rebuild whenever any CSS file in assets changes (root or theme).
+[[build.cachebusters]]
+source = '(themes/[^/]+/)?assets/css/.+\.css$'
+target = 'css'
 
 ############################# Modules ############################
 [module]
