@@ -47,6 +47,16 @@ html.dark .content a:not(.btn):hover {
   color: var(--color-darkmode-primary) !important;
 }
 
+/* Tag chips inside `.content` opt out of the prose link colors above so
+ * their own hover (light text on accent fill) stays readable. */
+html.dark .content .tags_section a {
+  color: var(--color-ink) !important;
+}
+
+html.dark .content .tags_section a:hover {
+  color: var(--color-surface) !important;
+}
+
 html.dark .content strong,
 html.dark .content b {
   color: var(--color-darkmode-text-dark) !important;

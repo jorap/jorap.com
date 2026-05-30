@@ -70,12 +70,12 @@
 
             {{ $tags:= .Params.tags }}
             {{ if $tags }}
-            <div class="mb-2 tags_section">
-              <p class="not-prose mb-2 font-semibold text-ink">{{ T "tags" }}</p>
+            <div class="not-prose mb-2 tags_section">
+              <p class="mb-2 font-semibold text-ink">{{ T "tags" }}</p>
               <ul>
                 {{ range $i,$p:= $tags }}
                 <li class="inline-block">
-                  <a class="bg-elevated hover:bg-accent hover:text-white transition-colors motion-reduce:transition-none block rounded px-3 py-1"
+                  <a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1"
                     href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/">
                     {{ . | title }}
                   </a>

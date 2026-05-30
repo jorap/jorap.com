@@ -5,6 +5,9 @@
   name="viewport"
   content="width=device-width, initial-scale=1, maximum-scale=5" />
 
+<!-- Dark-mode bootstrap: must run BEFORE styles to prevent FOUC. -->
+{{ partial "essentials/theme-init.html" . }}
+
 <!-- theme meta -->
 <meta name="theme-name" content="jorap" />
 
