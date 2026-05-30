@@ -236,7 +236,7 @@ A privacy-respecting wrapper around Hugo's built-in YouTube shortcode. Renders a
 {{< youtube ResipmZmpDU >}}
 
 ```
-{{</* youtube ResipmZmpDU */>}}
+{{</* youtube 0RKpf3rK57I */>}}
 ```
 
 #### `youtube_time`
