@@ -233,7 +233,7 @@ Native HTML5 video. Use it for self-hosted MP4s or any direct video URL — the 
 
 A privacy-respecting wrapper around Hugo's built-in YouTube shortcode. Renders a 16:9 responsive iframe via `youtube-nocookie.com` when privacy mode is on.
 
-{{< youtube ResipmZmpDU >}}
+{{< youtube 0RKpf3rK57I >}}
 
 ```
 {{</* youtube 0RKpf3rK57I */>}}
