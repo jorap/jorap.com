@@ -10,6 +10,12 @@
   const ring = document.querySelector(".progress-ring__progress");
   if (!button || !ring) return;
 
+  // CSP-safe replacement for the previous inline `onclick=…` handler.
+  const trigger = button.querySelector("[data-back-to-top]");
+  trigger?.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
   const RADIUS = 20;
   const CIRCUMFERENCE = 2 * Math.PI * RADIUS;
   ring.style.strokeDasharray = `${CIRCUMFERENCE} ${CIRCUMFERENCE}`;

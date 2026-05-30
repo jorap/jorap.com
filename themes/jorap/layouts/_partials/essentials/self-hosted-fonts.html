@@ -72,7 +72,7 @@
     href="{{ $bundle.RelPermalink }}"
     {{ with $bundle.Data.Integrity }}integrity="{{ . }}"{{ end }}
     media="print"
-    onload="this.media='all'; this.onload=null;" />
+    data-swap-media="all" />
   <noscript>
     <link
       rel="stylesheet"

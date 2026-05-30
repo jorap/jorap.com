@@ -131,7 +131,7 @@
         class="{{ if $placeholder }}lazy {{ end }}{{ $class }} img"
         width="{{ with $width }}{{ . }}{{ else }}{{ $webpImg.Width }}{{ end }}"
         height="{{ with $height }}{{ . }}{{ else }}{{ $webpImg.Height }}{{ end }}"
-        onerror="this.onerror=null;this.src='{{ $fallbackImg.RelPermalink }}';" />
+        data-fallback-src="{{ $fallbackImg.RelPermalink }}" />
 
     {{/* Responsive <picture> for unconstrained large source images. */}}
     {{ else }}
