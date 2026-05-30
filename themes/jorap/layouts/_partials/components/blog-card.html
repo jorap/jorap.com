@@ -4,19 +4,27 @@
   Accepts either:
     - A Page directly: {{ partial "components/blog-card" . }}
     - A dict for explicit control:
-        {{ partial "components/blog-card" (dict "Page" . "Eager" true) }}
+        {{ partial "components/blog-card" (dict "Page" . "Eager" true "HeadingLevel" 3) }}
 
   Only set Eager=true for the LCP candidate (typically the first card on
   the home page). Every other card MUST stay lazy/auto so the browser can
   prioritize the hero image without bandwidth contention. Marking all
   cards eager/high-priority was actively hurting LCP.
+
+  HeadingLevel defaults to 2 so cards sit beneath a page-level h1. Pass
+  3 when the card is rendered inside a section that already has its own
+  h2 (e.g. "Related posts" on blog/single.html) to preserve a sequential
+  heading order for accessibility.
 */}}
 {{- $page := . -}}
 {{- $eager := false -}}
+{{- $headingLevel := 2 -}}
 {{- if reflect.IsMap . -}}
   {{- $page = .Page -}}
   {{- $eager = .Eager | default false -}}
+  {{- with .HeadingLevel -}}{{- $headingLevel = . -}}{{- end -}}
 {{- end -}}
+{{- $headingTag := printf "h%d" $headingLevel -}}
 {{- with $page -}}
 <div
   class="component--blog-card flex h-full flex-col overflow-hidden rounded-xl border border-divider bg-elevated shadow-sm transition-[box-shadow,border-color] duration-300 ease-out motion-reduce:transition-none motion-reduce:hover:shadow-sm hover:shadow-md">
@@ -36,11 +44,11 @@
   </a>
   {{ end }}
   <div class="flex flex-1 flex-col px-6 pb-6 pt-5">
-  <h3 class="mb-3 text-2xl text-balance font-primary">
+  <{{ $headingTag }} class="mb-3 text-2xl text-balance font-primary">
     <a class="text-ink transition-colors duration-200 ease-out hover:text-accent" href="{{ .RelPermalink }}">
       {{ .Title }}
     </a>
-  </h3>
+  </{{ $headingTag }}>
   <ul class="mb-4">
     <li class="mb-2 block">
       {{ partial "components/icon" (dict "Name" "clock" "Class" "inline-block h-4 w-4 mr-1 align-[-2px]") }}
@@ -68,8 +76,11 @@
   </ul>
   <p class="mb-6 flex-1 text-ink-muted">{{ if .Description }}{{ .Description | plainify }}{{ else }}{{ .Summary | plainify }}{{ end }}</p>
   <div class="mt-auto">
-    <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
-      {{ T "read_more" }} &rarr;
+    <a
+      class="btn btn-outline-primary btn-sm"
+      href="{{ .RelPermalink }}"
+      aria-label="{{ T "read_more" }}: {{ .Title | plainify }}">
+      <span aria-hidden="true">{{ T "read_more" }} &rarr;</span>
     </a>
   </div>
   </div>
