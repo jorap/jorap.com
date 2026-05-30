@@ -4,9 +4,9 @@ meta_title: "Top Reasons to Create and Maintain Your Own Website"
 description: "Every time I tell someone I run my own website, they ask why I don't just post on Facebook. After years of watching platforms die and rules change, here's why I keep my own corner of the internet."
 date: 2024-03-10T05:00:00Z
 image: "/images/website.jpg"
-categories: ["Website"]
+categories: ["Website", "Technology", "Tips"]
 author: "JoRap"
-tags: ["Internet", "Website", "Branding", "Content", "Business"]
+tags: ["Internet", "Website", "Branding", "Content", "Business", "Personal Branding", "Online Presence", "Self-Hosting", "Web Ownership", "Blogging", "Website Building"]
 draft: false
 ---
 

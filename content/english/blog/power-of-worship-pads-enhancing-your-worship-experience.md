@@ -5,9 +5,9 @@ description: "Leading worship with just an acoustic guitar always felt thin in a
 slug: "power-of-worship-pads-enhancing-your-worship-with-guitar"
 date: 2025-05-04T05:00:00Z
 image: "/images/worship-pads.jpg"
-categories: ["Worship", "Music"]
+categories: ["Worship", "Music", "Tips"]
 author: "JoRap"
-tags: ["Worship Pads", "Church Music", "Worship Leading", "Guitar Worship", "Solo Worship"]
+tags: ["Worship Pads", "Church Music", "Worship Leading", "Guitar Worship", "Solo Worship", "Acoustic Guitar", "Pad Tracks", "Christian Music", "Music Production", "Church"]
 draft: false
 ---
 

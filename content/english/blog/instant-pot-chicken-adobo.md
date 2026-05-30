@@ -9,7 +9,17 @@ image: /images/Chicken-Adobo.jpg
 categories:
   - Food
   - Recipes
-tags: []
+  - Filipino
+tags:
+  - Chicken Adobo
+  - Filipino Recipes
+  - Instant Pot
+  - Pressure Cooking
+  - Comfort Food
+  - Home Cooking
+  - Chicken Recipes
+  - Easy Cooking
+  - Meal Prep
 draft: false
 ---
 

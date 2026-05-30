@@ -3,11 +3,11 @@ title: "HugoPlate: The Theme Quietly Powering This Site"
 meta_title: "HugoPlate Theme Review: Why It Powers JoRap's World"
 description: "After losing half a Saturday to theme-shopping, I picked HugoPlate — and a year and change later, I'm still on it. Here's what comes in the box, what I changed, and where it still bites."
 slug: "hugoplate-theme-review"
-date: 2026-05-30T05:00:00Z
+date: 2026-05-29T05:00:00Z
 image: "/images/joraps-world.jpg"
-categories: ["Website"]
+categories: ["Website", "Technology", "Web Development", "Reviews"]
 author: "JoRap"
-tags: ["Hugo CMS", "HugoPlate", "Tailwind CSS", "Website Building", "Themes"]
+tags: ["Hugo CMS", "HugoPlate", "Tailwind CSS", "Website Building", "Themes", "Hugo", "Theme Review", "Static Sites", "Open Source", "Frontend", "Developer Life"]
 draft: false
 ---
 

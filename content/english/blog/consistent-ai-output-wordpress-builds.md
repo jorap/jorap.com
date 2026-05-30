@@ -5,9 +5,9 @@ description: "The real superpower of AI isn't how fast it writes one-off code. I
 slug: "consistent-ai-output-wordpress-builds"
 date: 2026-05-30T05:00:00Z
 image: "/images/consistent-ai-output-blocks.jpg"
-categories: ["Technology"]
+categories: ["Technology", "AI", "Web Development", "Productivity"]
 author: "JoRap"
-tags: ["AI", "WordPress", "Workflow", "Developer Life"]
+tags: ["AI", "WordPress", "Workflow", "Developer Life", "Automation", "Code Generation", "Cursor", "Productivity Tools", "Best Practices", "Reusable Code", "PHP"]
 draft: false
 ---
 

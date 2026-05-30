@@ -5,9 +5,9 @@ description: "Every couple of years, someone tells me they're going mobile-only.
 slug: "top-reasons-why-you-still-need-use-desktop-laptop"
 date: 2021-06-14T05:00:00Z
 image: "/images/feature-desktop.jpg"
-categories: ["Technology"]
+categories: ["Technology", "Productivity", "Tips"]
 author: "JoRap"
-tags: ["Computers", "Hardware", "Productivity"]
+tags: ["Computers", "Hardware", "Productivity", "Desktop", "Laptop", "Mobile vs Desktop", "Workflow", "Tech Tips", "Devices"]
 draft: false
 ---
 
