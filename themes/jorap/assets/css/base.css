@@ -80,7 +80,7 @@ h6,
 
 /* Post titles: real h1, restrained on small screens, scales up with viewport */
 .article-title {
-  @apply font-primary font-bold leading-[1.15] tracking-[-0.035em] text-pretty text-ink;
+  @apply font-primary font-bold leading-[1.15] tracking-[-0.035em] text-balance text-ink;
   @apply text-h2-sm md:text-h2 lg:text-h1-sm xl:text-h1;
 }
 

@@ -22,7 +22,7 @@ DNPAP stands for **"Diyos Ng Pagasa at Pagibig"** — Filipino for **"God of Hop
 
 [Destiny Music on Spotify](https://open.spotify.com/artist/12t16fNXKGzNRO5p81Xvyo)
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/12t16fNXKGzNRO5p81Xvyo?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+{{< spotify_iframe_artist 12t16fNXKGzNRO5p81Xvyo >}}
 
 ---
 
@@ -30,7 +30,7 @@ DNPAP stands for **"Diyos Ng Pagasa at Pagibig"** — Filipino for **"God of Hop
 
 ### Studio single (Spotify)
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5ikuIeKWiuCKMxvu5gloyl?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+{{< spotify_iframe_track 5ikuIeKWiuCKMxvu5gloyl >}}
 
 ### Studio single (YouTube)
 {{< youtube 5tl2yHq4k7s >}}
@@ -39,7 +39,7 @@ DNPAP stands for **"Diyos Ng Pagasa at Pagibig"** — Filipino for **"God of Hop
 
 ### Live version (Spotify)
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3OAGH2cFDbtgiO8yePaWDB?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+{{< spotify_iframe_track 3OAGH2cFDbtgiO8yePaWDB >}}
 
 ### Live performance (YouTube)
 {{< youtube_time id="3Jm6KrKToV0" start="4659" end="5100">}}

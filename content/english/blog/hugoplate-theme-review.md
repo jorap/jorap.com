@@ -85,29 +85,226 @@ The thing I appreciate is that HugoPlate respects Hugo's conventions. Nothing's 
 
 ## Shortcodes worth knowing
 
-HugoPlate ships with a small but useful set of shortcodes you'll actually reach for:
+This is where HugoPlate quietly punches above its weight. Most themes give you `youtube` and call it a day. HugoPlate (via [`gethugothemes/hugo-modules`](https://github.com/gethugothemes/hugo-modules)) hands you a small content design system: callouts, buttons, tabs, accordions, image galleries, video, diagrams, and more — all loaded as Hugo Modules so they live outside your theme folder and stay easy to update. I've added a few of my own (`spotify`, `youtube_time`) on top of that.
 
-`youtube` for embeds:
+Here's the full set this site renders, with live output for each so you can see exactly what they do.
+
+### Callouts and CTAs
+
+#### `notice`
+
+Styled callouts in nine flavors. The first parameter is the type — `note`, `tip`, `info`, `warning`, `success`, `question`, `danger`, `failure`, `quote`. Inner content is full Markdown.
+
+{{< notice "note" >}}
+This is a `note` — neutral context, side commentary, footnotes that are actually useful.
+{{< /notice >}}
+
+{{< notice "tip" >}}
+This is a `tip` — the helpful little nudge you wish someone had given you on day one.
+{{< /notice >}}
+
+{{< notice "info" >}}
+This is an `info` — additional context that's worth surfacing but not strictly required reading.
+{{< /notice >}}
+
+{{< notice "warning" >}}
+This is a `warning` — the bit you'll regret skipping. Pin `HUGO_VERSION` and `NODE_VERSION`.
+{{< /notice >}}
+
+{{< notice "success" >}}
+This is a `success` — confirmation that something went right. Build passed, deploy is green.
+{{< /notice >}}
+
+{{< notice "danger" >}}
+This is a `danger` — destructive operations live here. Force-pushes, drop-tables, `rm -rf`.
+{{< /notice >}}
+
+```
+{{</* notice "tip" */>}}
+This is a `tip` — the helpful little nudge you wish someone had given you on day one.
+{{</* /notice */>}}
+```
+
+#### `button`
+
+In-content CTA. `style="solid"` (default) or `style="outline"`. External links open in a new tab automatically.
+
+{{< button label="Read the blog" link="/blog/" style="solid" >}} &nbsp; {{< button label="View on GitHub" link="https://github.com/zeon-studio/hugoplate" style="outline" >}}
+
+```
+{{</* button label="Read the blog" link="/blog/" style="solid" */>}}
+{{</* button label="View on GitHub" link="https://github.com/zeon-studio/hugoplate" style="outline" */>}}
+```
+
+### Disclosure and structure
+
+#### `accordion`
+
+Collapsible disclosure. Useful for FAQs, optional detail, or anything that would otherwise bloat the page.
+
+{{< accordion "What does HugoPlate cost?" >}}
+Nothing. It's free and open source under the MIT license. The only money you'd spend is on a domain (optional) and any paid services you wire it up to.
+{{< /accordion >}}
+
+{{< accordion "Do I need to know Tailwind?" >}}
+Helpful but not required. If you're only editing content, you'll never touch Tailwind. The moment you want to restyle anything — colors, spacing, components — knowing Tailwind makes it five-minute work instead of a half-day.
+{{< /accordion >}}
+
+```
+{{</* accordion "What does HugoPlate cost?" */>}}
+Nothing. It's free and open source under the MIT license.
+{{</* /accordion */>}}
+```
+
+#### `tabs` / `tab`
+
+Tabbed content. Wrap one or more `tab` shortcodes inside a `tabs` block. The first tab is active by default.
+
+{{< tabs >}}
+{{< tab "Hugo" >}}
+**Static site generator.** Written in Go. Famously fast — builds the whole site in milliseconds. The thing that makes editing a 200-post blog feel like editing a 5-post blog.
+{{< /tab >}}
+{{< tab "Tailwind" >}}
+**Utility-first CSS.** v4 is what HugoPlate ships with now — config moved into CSS via `@theme` blocks, so there's no `tailwind.config.js` anymore.
+{{< /tab >}}
+{{< tab "Cloudflare Pages" >}}
+**Hosting.** Connect your Git repo, set `HUGO_VERSION` and `NODE_VERSION`, and every push to `main` ships. Generous free tier.
+{{< /tab >}}
+{{< /tabs >}}
+
+```
+{{</* tabs */>}}
+{{</* tab "Hugo" */>}}
+**Static site generator.** Written in Go. Famously fast.
+{{</* /tab */>}}
+{{</* tab "Tailwind" */>}}
+**Utility-first CSS.** v4 is what HugoPlate ships with now.
+{{</* /tab */>}}
+{{</* /tabs */>}}
+```
+
+#### `toc`
+
+Drops a Table of Contents anywhere in the post, generated from your headings. Wrapped in a `<details>` so it's collapsible. Most useful at the top of long posts.
+
+{{< toc >}}
+
+```
+{{</* toc */>}}
+```
+
+### Media
+
+#### `image`
+
+A captioned image with Hugo's full image-processing pipeline behind it: resize, fit, fill, WebP, quality, and a `zoomable` lightbox. Looks in `assets/images/`, your page bundle, `static/`, or any external URL.
+
+{{< image src="images/Chicken-Adobo.jpg" caption="Chicken Adobo — Filipino comfort food, perfect example image." alt="A bowl of Chicken Adobo" height="500" width="800" position="center" command="fit" option="q90" class="" title="Chicken Adobo" webp="true" zoomable="true" >}}
+
+```
+{{</* image src="images/Chicken-Adobo.jpg" caption="Chicken Adobo — Filipino comfort food."
+  alt="A bowl of Chicken Adobo" height="500" width="800" position="center"
+  command="fit" option="q90" webp="true" zoomable="true" */>}}
+```
+
+#### `gallery`
+
+Grid of images from a folder. Lightbox-enabled by default. Point `dir` at any subfolder under `assets/`, `static/`, or your page bundle.
+
+{{< gallery dir="images/gallery" class="" height="400" width="400" webp="true" command="Fit" option="q80" zoomable="true" >}}
+
+```
+{{</* gallery dir="images/gallery" height="400" width="400"
+  webp="true" command="Fit" option="q80" zoomable="true" */>}}
+```
+
+#### `slider`
+
+Same input as `gallery`, but rendered as a Swiper carousel instead of a grid.
+
+{{< slider dir="images/gallery" class="max-w-[600px] ml-0" height="400" width="400" webp="true" command="Fit" option="q80" zoomable="true" >}}
+
+```
+{{</* slider dir="images/gallery" class="max-w-[600px] ml-0"
+  height="400" width="400" webp="true" command="Fit" option="q80" zoomable="true" */>}}
+```
+
+#### `video`
+
+Native HTML5 video. Use it for self-hosted MP4s or any direct video URL — the kind of thing you don't want to round-trip through YouTube.
+
+{{< video src="https://www.w3schools.com/html/mov_bbb.mp4" width="100%" height="auto" autoplay="false" loop="false" muted="false" controls="true" class="rounded-lg" >}}
+
+```
+{{</* video src="https://www.w3schools.com/html/mov_bbb.mp4" width="100%" height="auto"
+  autoplay="false" loop="false" muted="false" controls="true" class="rounded-lg" */>}}
+```
+
+#### `youtube`
+
+A privacy-respecting wrapper around Hugo's built-in YouTube shortcode. Renders a 16:9 responsive iframe via `youtube-nocookie.com` when privacy mode is on.
+
+{{< youtube ResipmZmpDU >}}
 
 ```
 {{</* youtube ResipmZmpDU */>}}
 ```
 
-`notice` for callouts (`note`, `tip`, `info`, `warning`):
+#### `youtube_time`
+
+Same idea as `youtube`, but lets you set start and end timestamps in seconds. Useful when a song or sermon you're linking to has the bit you actually care about buried halfway in.
+
+{{< youtube_time id="3Jm6KrKToV0" start="4659" end="5100" >}}
 
 ```
-{{</* notice "tip" */>}}
-This is a tip.
-{{</* /notice */>}}
+{{</* youtube_time id="3Jm6KrKToV0" start="4659" end="5100" */>}}
 ```
 
-`button` for styled CTAs inside content:
+#### `spotify_iframe_track`
+
+Modern Spotify track embed — rounded corners, the official `?utm_source=generator` iframe, and lazy loading. Just pass the track ID.
+
+{{< spotify_iframe_track 5ikuIeKWiuCKMxvu5gloyl >}}
 
 ```
-{{</* button label="Read more" link="/blog/" style="solid" */>}}
+{{</* spotify_iframe_track 5ikuIeKWiuCKMxvu5gloyl */>}}
 ```
 
-`accordion`, `tabs`, `gallery`, `slider`, `image`, and `video` for the more visual stuff. There's a full reference in the bundled `blog-template.md` — keep that file around as a draft, it's the single best cheat sheet for the theme.
+#### `spotify_iframe_artist`
+
+Same idea, but for artist pages.
+
+{{< spotify_iframe_artist 12t16fNXKGzNRO5p81Xvyo >}}
+
+```
+{{</* spotify_iframe_artist 12t16fNXKGzNRO5p81Xvyo */>}}
+```
+
+### Diagrams
+
+#### `mermaid` (via fenced code block)
+
+Mermaid diagrams render automatically from any ` ```mermaid ` code block — no shortcode tags required, just the language hint.
+
+```mermaid
+flowchart LR
+    A[Markdown post] --> B{Hugo build}
+    B --> C[HTML + assets]
+    C --> D[Cloudflare Pages]
+    D --> E((Live site))
+```
+
+````
+```mermaid
+flowchart LR
+    A[Markdown post] --> B{Hugo build}
+    B --> C[HTML + assets]
+    C --> D[Cloudflare Pages]
+    D --> E((Live site))
+```
+````
+
+That's the full kit. The bundled `blog-template.md` (kept as a draft) covers a few extras like `modal` if you ever need them — but for 95% of writing, the dozen above are everything.
 
 ---
 

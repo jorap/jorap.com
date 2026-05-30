@@ -17,7 +17,10 @@ div[style*="position:relative"][style*="padding-bottom: 56.25%"] {
 }
 */
 
-/* Dark mode prose: align with theme tokens instead of flat pure white */
+/* Dark mode prose: align with theme tokens instead of flat pure white.
+ * Excludes `.btn` anchors so button variants keep their own text colors
+ * (otherwise btn-primary text was forced to a near-white token, going
+ * invisible against the cream accent fill in dark mode). */
 html.dark .content p,
 html.dark .content li,
 html.dark .content ul,
@@ -36,11 +39,11 @@ html.dark .content h6 {
   color: var(--color-darkmode-text-dark) !important;
 }
 
-html.dark .content a {
+html.dark .content a:not(.btn) {
   color: var(--color-darkmode-text-dark) !important;
 }
 
-html.dark .content a:hover {
+html.dark .content a:not(.btn):hover {
   color: var(--color-darkmode-primary) !important;
 }
 
