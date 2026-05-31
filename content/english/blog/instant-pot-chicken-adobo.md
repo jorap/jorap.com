@@ -2,7 +2,7 @@
 title: Instant Pot Chicken Adobo
 slug: ''
 meta_title: ''
-description: "My go-to chicken adobo, adjusted for the Instant Pot. Bone-in thighs, 10 minutes under pressure, and that classic soy-garlic-vinegar glaze — without the hours of waiting."
+description: "My go-to chicken adobo, adjusted for the Instant Pot. Bone-in thighs, 10 minutes under pressure, and that classic soy-garlic-vinegar glaze - without the hours of waiting."
 date: 2026-05-03T23:00:00
 author: JoRap
 image: /images/Chicken-Adobo.jpg
@@ -39,7 +39,7 @@ The pressure cooking function of the Instant Pot helps break down the collagen i
 
 ### 3. Flavor Infusion
 
-The Instant Pot’s pressure cooking feature ensures that the marinade ingredients—soy sauce, garlic, bay leaves, and peppercorns—penetrate deeply into the meat, giving the chicken a rich, concentrated flavor. This is particularly helpful for dishes like adobo, where the marinated meat benefits from long exposure to the seasonings. The tight seal of the Instant Pot locks in the flavors, helping the chicken absorb all the delicious elements of the adobo marinade in a much shorter time.
+The Instant Pot’s pressure cooking feature ensures that the marinade ingredients-soy sauce, garlic, bay leaves, and peppercorns-penetrate deeply into the meat, giving the chicken a rich, concentrated flavor. This is particularly helpful for dishes like adobo, where the marinated meat benefits from long exposure to the seasonings. The tight seal of the Instant Pot locks in the flavors, helping the chicken absorb all the delicious elements of the adobo marinade in a much shorter time.
 
 ### 4. Less Supervision
 
@@ -70,13 +70,13 @@ The Instant Pot allows for precise control over the liquid levels needed for pre
 #### Marinade
 
 - 160 ml soy sauce, about ⅔ cup
-- 10–11 cloves garlic, crushed
+- 10-11 cloves garlic, crushed
 - 1⅓ tsp whole black peppercorns
 - 4 dried bay leaves
 
 #### Cooking Liquids
 
-- 105–110 ml vinegar  
+- 105-110 ml vinegar  
     - Practical measure: 7 tbsp or ⅓ cup + 2 tbsp  
     - If using extra vinegar, add the extra 10 ml vinegar at the end with the sauce for sharper flavor
 - 160 ml water, about ⅔ cup  
@@ -95,15 +95,15 @@ Choose one:
 
 or
 
-- 1⅓–2 tsp allulose
+- 1⅓-2 tsp allulose
 
 #### Optional Thickener
 
-- ½–⅔ tsp xanthan gum
+- ½-⅔ tsp xanthan gum
 
 ### Instant Pot Liquid Check
 
-The adjusted liquid base is about 425–430 ml total, or roughly 1.8 cups. This fits common 8-quart Instant Pot guidance of about 1.5 to 2 cups of liquid.
+The adjusted liquid base is about 425-430 ml total, or roughly 1.8 cups. This fits common 8-quart Instant Pot guidance of about 1.5 to 2 cups of liquid.
 
 ---
 
@@ -123,7 +123,7 @@ Add the chicken thighs and coat thoroughly.
 Marination time:
 
 - Minimum: 30 minutes
-- Recommended: 2–8 hours
+- Recommended: 2-8 hours
 - Best: overnight
 
 Do not add vinegar to the marinade.
@@ -134,7 +134,7 @@ Set the Instant Pot to Sauté, High.
 
 Remove the chicken from the marinade and reserve the marinade.
 
-Brown the chicken skin-side down for 3–4 minutes. Flip and brown the other side briefly.
+Brown the chicken skin-side down for 3-4 minutes. Flip and brown the other side briefly.
 
 Since this recipe uses 2 kg of chicken, brown the chicken in 2 batches so the pieces sear properly instead of steaming.
 
@@ -166,7 +166,7 @@ After 10 minutes of natural release, release the remaining pressure manually.
 
 Remove the chicken temporarily.
 
-Set the Instant Pot to Sauté and simmer the sauce for 8–12 minutes, or until slightly reduced.
+Set the Instant Pot to Sauté and simmer the sauce for 8-12 minutes, or until slightly reduced.
 
 Add sweetener, if using:
 
@@ -174,12 +174,12 @@ Add sweetener, if using:
 
 or
 
-- 1⅓–2 tsp allulose
+- 1⅓-2 tsp allulose
 
-If a thicker sauce is desired, whisk ½–⅔ tsp xanthan gum with a little hot sauce, then stir it back into the pot.
+If a thicker sauce is desired, whisk ½-⅔ tsp xanthan gum with a little hot sauce, then stir it back into the pot.
 
 ### Step 6: Optional Crisping
 
-For restaurant-style adobo, pan-sear the cooked chicken skin-side down for 2–3 minutes, or until lightly crisp.
+For restaurant-style adobo, pan-sear the cooked chicken skin-side down for 2-3 minutes, or until lightly crisp.
 
 Return the chicken to the sauce before serving.

@@ -1,7 +1,7 @@
 ---
 title: "Facebook's Hidden Gem: How the Favorites Feed Transforms Your Social Media Experience"
 meta_title: "Mastering Facebook's Favorites Feed: Your Ultimate Guide to a Personalized Experience"
-description: "I almost deleted Facebook a couple of years ago. Then I stumbled onto a built-in feature most people don't know exists — and it's the only reason I still open the app."
+description: "I almost deleted Facebook a couple of years ago. Then I stumbled onto a built-in feature most people don't know exists - and it's the only reason I still open the app."
 slug: "facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience"
 date: 2024-02-04T05:00:00Z
 image: "/images/fbf.jpg"
@@ -11,7 +11,7 @@ tags: ["Facebook", "Favorites Feed", "Social Media Tips", "Digital Wellbeing", "
 draft: false
 ---
 
-I almost deleted Facebook a couple of years ago. My feed had become a mess — random sponsored posts, distant cousins arguing about politics, people I went to high school with pitching essential oils, and somehow almost nothing from the friends I actually wanted to keep up with.
+I almost deleted Facebook a couple of years ago. My feed had become a mess - random sponsored posts, distant cousins arguing about politics, people I went to high school with pitching essential oils, and somehow almost nothing from the friends I actually wanted to keep up with.
 
 Then I stumbled onto a setting Facebook built but doesn't really advertise: the **Favorites feed**. It's not a hack, not a third-party app, just a built-in feature most people don't know exists. It's the only reason I still open the app.
 
@@ -19,7 +19,7 @@ Then I stumbled onto a setting Facebook built but doesn't really advertise: the 
 
 It's a separate feed inside Facebook that only shows posts from people, pages, and groups you've manually marked as favorites. The algorithm doesn't decide. You do.
 
-Think of it as a smaller, hand-picked version of your timeline. Your mom's photos from her trip — yes. The local news page you actually read — yes. Group chats and ads from someone you barely remember adding in 2011 — gone.
+Think of it as a smaller, hand-picked version of your timeline. Your mom's photos from her trip - yes. The local news page you actually read - yes. Group chats and ads from someone you barely remember adding in 2011 - gone.
 
 ## Why I keep coming back to it
 
@@ -29,7 +29,7 @@ A few things changed once I started using it:
 
 **I stopped missing things from people I care about.** Important life updates from close friends weren't getting buried under noise anymore.
 
-**The algorithm doesn't get to play games with me.** That weird "people you may know" rabbit hole, the suddenly-political-post-from-someone-you-barely-know thing — none of it shows up here.
+**The algorithm doesn't get to play games with me.** That weird "people you may know" rabbit hole, the suddenly-political-post-from-someone-you-barely-know thing - none of it shows up here.
 
 **My phone time went down.** I check it, I close it. The dopamine slot machine just isn't built into this feed.
 
@@ -53,7 +53,7 @@ Facebook tucks this thing away pretty deep. Here's where it actually lives.
 1. Look in the left sidebar of the home page for **Feeds**.
 2. Click **Favorites**.
 
-If you can't find "Feeds," the sidebar may have collapsed it. Expand the sidebar, or scroll the menu — Facebook moves things around occasionally.
+If you can't find "Feeds," the sidebar may have collapsed it. Expand the sidebar, or scroll the menu - Facebook moves things around occasionally.
 
 ## Adding people, pages, and groups
 
@@ -83,6 +83,6 @@ This is the fun part: deciding who gets in.
 
 ## Give it five minutes
 
-Facebook gets a lot wrong, but this one feature is genuinely good — it just doesn't get the spotlight it should. It takes about five minutes to set up. Start with the obvious people in your life, see how it feels for a week, and adjust from there.
+Facebook gets a lot wrong, but this one feature is genuinely good - it just doesn't get the spotlight it should. It takes about five minutes to set up. Start with the obvious people in your life, see how it feels for a week, and adjust from there.
 
 If it doesn't click for you, no harm done. But if you're anything like me, you'll wonder why you didn't find it sooner.

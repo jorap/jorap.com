@@ -1,7 +1,7 @@
 ---
 title: "How I Built JoRap's World: My Journey from Expensive Hosting to Free (and Better!)"
 meta_title: "How I Built JoRap's World: A Developer's Guide to Free Static Site Hosting"
-description: "I lost my old PHP hosting (and a chunk of my work with it). A weekend of fumbling later, I landed on Hugo + GitHub + Cloudflare Pages — free, faster, and honestly better than what I was paying for."
+description: "I lost my old PHP hosting (and a chunk of my work with it). A weekend of fumbling later, I landed on Hugo + GitHub + Cloudflare Pages - free, faster, and honestly better than what I was paying for."
 slug: "how-i-built-joraps-world"
 date: 2024-06-14T05:00:00Z
 image: "/images/joraps-world.jpg"
@@ -11,7 +11,7 @@ tags: ["Website Building", "Free Hosting", "Hugo CMS", "Hugo", "GitHub", "Cloudf
 draft: false
 ---
 
-> **TL;DR**: I lost my old PHP hosting and a chunk of my work with it. After a weekend of fumbling around, I landed on Hugo + GitHub + Cloudflare Pages, and the result is genuinely better than what I was paying $12/month for. Here's exactly how I did it — including the parts I messed up.
+> **TL;DR**: I lost my old PHP hosting and a chunk of my work with it. After a weekend of fumbling around, I landed on Hugo + GitHub + Cloudflare Pages, and the result is genuinely better than what I was paying $12/month for. Here's exactly how I did it - including the parts I messed up.
 
 ## The short backstory
 
@@ -33,7 +33,7 @@ That's it. There's no database, no admin panel, no PHP, no cron jobs. When I wan
 
 Hugo takes a folder of Markdown files and a theme, and spits out a folder of plain HTML. That's the whole job. No database to back up, no server-side code to keep patched, nothing to break.
 
-Coming from years of WordPress, the speed difference was the first thing I noticed. Pages don't *load* — they just appear. There's nothing to wait for.
+Coming from years of WordPress, the speed difference was the first thing I noticed. Pages don't *load* - they just appear. There's nothing to wait for.
 
 Setup on Windows took me about thirty minutes from download to first running page. On a Mac it's basically one command. Either way, **write down your Hugo version number** the moment you install it. Cloudflare needs to match it exactly later, and a mismatch is the most boring possible reason to spend an hour debugging a deploy.
 
@@ -45,7 +45,7 @@ Months in, I still haven't paid them a cent. I keep waiting for the catch. I hav
 
 ### GitHub, the place I sometimes forget to push to
 
-Standard Git workflow. Commit, push, deployed. The bonus is that GitHub is also my backup — every version of every post lives in the repo history, so I can revert anything I've ever written.
+Standard Git workflow. Commit, push, deployed. The bonus is that GitHub is also my backup - every version of every post lives in the repo history, so I can revert anything I've ever written.
 
 ---
 
@@ -94,7 +94,7 @@ That creates a basic skeleton. The two folders you'll actually care about are `c
 
 I will not pretend I made a quick decision here. There are hundreds of Hugo themes, they all look beautiful in their screenshots, and you can lose half a weekend "evaluating" them.
 
-I eventually settled on [Hugoplate](https://github.com/zeon-studio/hugoplate). It's modern, well-maintained, and — the thing that sold me — it ships with **Tailwind CSS v4** baked in. Most Hugo themes are still on older CSS approaches, and I really didn't want to spend my time fighting a custom theme styling system every time I wanted to change a color.
+I eventually settled on [Hugoplate](https://github.com/zeon-studio/hugoplate). It's modern, well-maintained, and - the thing that sold me - it ships with **Tailwind CSS v4** baked in. Most Hugo themes are still on older CSS approaches, and I really didn't want to spend my time fighting a custom theme styling system every time I wanted to change a color.
 
 What you get out of the box with Hugoplate:
 
@@ -112,7 +112,7 @@ To add it:
 git submodule add https://github.com/zeon-studio/hugoplate.git themes/hugoplate
 ```
 
-Then edit `hugo.toml` — Hugoplate uses TOML, not YAML:
+Then edit `hugo.toml` - Hugoplate uses TOML, not YAML:
 
 ```toml
 baseURL = 'https://jorapdotcom.pages.dev'
@@ -187,7 +187,7 @@ Hit deploy. About two minutes later, your site is live at some `something.pages.
 
 This is the section I needed when I was starting out, so it's the longest one here.
 
-**Site looks like raw HTML.** The theme isn't loading. Nine times out of ten, the theme name in `hugo.toml` doesn't match the folder name exactly — case included.
+**Site looks like raw HTML.** The theme isn't loading. Nine times out of ten, the theme name in `hugo.toml` doesn't match the folder name exactly - case included.
 
 **Cloudflare build fails.** Almost always a Hugo version mismatch. Set `HUGO_VERSION` to whatever `hugo version` prints locally.
 
@@ -195,7 +195,7 @@ This is the section I needed when I was starting out, so it's the longest one he
 
 **Site deploys but every link is broken.** Check `baseURL` in `hugo.toml`. It needs to match the actual URL Cloudflare gave you.
 
-**Images won't show up.** Put them in `static/images/` and reference them in your Markdown as `/images/filename.jpg`. Not `static/images/...` — Hugo handles that.
+**Images won't show up.** Put them in `static/images/` and reference them in your Markdown as `/images/filename.jpg`. Not `static/images/...` - Hugo handles that.
 
 **Can't push to GitHub.** GitHub no longer accepts passwords. You need a personal access token: Settings → Developer settings → Personal access tokens. Use the token as the password when Git prompts you.
 
@@ -259,11 +259,11 @@ Compared to the old PHP setup, this one is faster, more reliable, simpler to upd
 
 If you have the patience for an evening of setup, I genuinely think this beats most paid hosting for personal use. The first time you push a typo fix and see it live a minute later, you'll get it.
 
-You're reading the result right now. The whole thing — every page, every post, every image — is built and served exactly the way I described above. Pretty hard to argue with free.
+You're reading the result right now. The whole thing - every page, every post, every image - is built and served exactly the way I described above. Pretty hard to argue with free.
 
 ## A couple of useful links
 
-- [Hugo Quick Start](https://gohugo.io/getting-started/quick-start/) — start here
-- [Hugo Themes](https://themes.gohugo.io) — yes, you'll lose hours
-- [Markdown Guide](https://www.markdownguide.org/basic-syntax/) — ten minutes and you know it
-- [Git Handbook](https://guides.github.com/introduction/git-handbook/) — for when Git gets weird
+- [Hugo Quick Start](https://gohugo.io/getting-started/quick-start/) - start here
+- [Hugo Themes](https://themes.gohugo.io) - yes, you'll lose hours
+- [Markdown Guide](https://www.markdownguide.org/basic-syntax/) - ten minutes and you know it
+- [Git Handbook](https://guides.github.com/introduction/git-handbook/) - for when Git gets weird

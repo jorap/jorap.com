@@ -156,6 +156,12 @@ maxAge = "720h"
 [markup.goldmark.renderer]
 unsafe = true
 
+# Keep the typographer extension on (curly quotes, ellipses, angle quotes) but
+# render `--` and `---` as literal ASCII hyphens instead of en/em dashes.
+[markup.goldmark.extensions.typographer]
+emDash = "--"
+enDash = "-"
+
 [markup.highlight]
 style = 'monokai' # see https://xyproto.github.io/splash/docs/all.html
 lineNumbersInTable = false
