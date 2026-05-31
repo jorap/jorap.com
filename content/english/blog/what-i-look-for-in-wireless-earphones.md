@@ -7,7 +7,7 @@ date: 2026-05-27T05:00:00Z
 image: "/images/feature-soundpeats-runfree.jpg"
 categories: ["Technology", "Reviews", "Gear"]
 author: "JoRap"
-tags: ["Wireless Earphones", "Open-Ear Earphones", "Bluetooth", "Reviews", "Audio", "Everyday Carry", "Gear", "Productivity", "Soundpeats RunFree"]
+tags: ["Wireless Earphones", "Open-Ear Earphones", "Bluetooth", "Audio", "Everyday Carry", "Soundpeats RunFree"]
 draft: false
 ---
 

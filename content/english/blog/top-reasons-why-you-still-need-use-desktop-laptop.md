@@ -7,7 +7,7 @@ date: 2021-06-14T05:00:00Z
 image: "/images/feature-desktop.jpg"
 categories: ["Technology", "Productivity", "Tips"]
 author: "JoRap"
-tags: ["Computers", "Hardware", "Productivity", "Desktop", "Laptop", "Mobile vs Desktop", "Workflow", "Tech Tips", "Devices"]
+tags: ["Computers", "Hardware", "Desktop", "Laptop", "Mobile vs Desktop", "Workflow", "Devices"]
 draft: false
 ---
 

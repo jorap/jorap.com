@@ -6,7 +6,7 @@ date: 2024-03-10T05:00:00Z
 image: "/images/website.jpg"
 categories: ["Website", "Technology", "Tips"]
 author: "JoRap"
-tags: ["Internet", "Website", "Branding", "Content", "Business", "Personal Branding", "Online Presence", "Self-Hosting", "Web Ownership", "Blogging", "Website Building"]
+tags: ["Internet", "Branding", "Content", "Business", "Personal Branding", "Online Presence", "Self-Hosting", "Web Ownership", "Blogging", "Website Building"]
 draft: false
 ---
 

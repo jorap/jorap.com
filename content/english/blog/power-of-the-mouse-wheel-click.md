@@ -7,7 +7,7 @@ date: 2026-05-28T05:00:00Z
 image: "/images/feature-mouse-wheel-click.jpg"
 categories: ["Technology", "Productivity", "Tips"]
 author: "JoRap"
-tags: ["Mouse", "Mouse Wheel Click", "Productivity", "Keyboard Shortcuts", "Browser Tips", "Windows", "macOS", "Linux", "Cross-Platform", "Workflow", "Tech Tips"]
+tags: ["Mouse", "Mouse Wheel Click", "Keyboard Shortcuts", "Browser Tips", "Windows", "macOS", "Linux", "Cross-Platform", "Workflow"]
 draft: false
 ---
 

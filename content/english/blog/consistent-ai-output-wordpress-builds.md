@@ -7,7 +7,7 @@ date: 2026-05-30T05:00:00Z
 image: "/images/consistent-ai-output-blocks.jpg"
 categories: ["Technology", "AI", "Web Development", "Productivity"]
 author: "JoRap"
-tags: ["AI", "WordPress", "Workflow", "Developer Life", "Automation", "Code Generation", "Cursor", "Productivity Tools", "Best Practices", "Reusable Code", "PHP"]
+tags: ["WordPress", "Workflow", "Developer Life", "Automation", "Code Generation", "Cursor", "Productivity Tools", "Best Practices", "Reusable Code", "PHP"]
 draft: false
 ---
 
