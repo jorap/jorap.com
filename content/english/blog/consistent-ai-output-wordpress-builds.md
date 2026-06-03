@@ -1,153 +1,147 @@
 ---
 title: "Let AI Write the Code That Handles 80% of Your Work Consistently"
 meta_title: "Using AI to Build Reusable Code for Consistent Output"
-description: "The real superpower of AI isn't how fast it writes one-off code. It's that AI can build the reusable patterns and helpers that handle 80% of your work the same way, every single time. Here's how I made that the foundation of my WordPress builds."
+description: "AI is best at building reusable helpers and patterns for the 80% of work that repeats—not at one-off features that all look different. Here's how I use that on WordPress builds."
 slug: "consistent-ai-output-wordpress-builds"
 date: 2026-05-30T05:00:00Z
-image: "/images/consistent-ai-output-blocks.jpg"
+image: "/images/feature-consistent-ai-output.jpg"
 categories: ["Technology", "AI", "Web Development", "Productivity"]
 author: "JoRap"
 tags: ["WordPress", "Workflow", "Developer Life", "Automation", "Code Generation", "Cursor", "Productivity Tools", "Best Practices", "Reusable Code", "PHP"]
 draft: false
 ---
 
-> **TL;DR**: Most of what you build is variations on a small number of patterns. The real win with AI is having it *build the reusable code* for that 80% - the helpers, the templates, the boring scaffolding - so every future use case produces the same shape of output. Stop asking AI to write one feature at a time. Ask it to build the machinery that makes the next forty features look identical.
+> **TL;DR**: Most of what you build repeats the same patterns. Have AI build the reusable code for that 80%—helpers, templates, scaffolding—so the next forty features look the same. Stop asking for one feature at a time. Ask for the system that makes every feature match.
 
 ## The thing nobody warns you about
 
-The first month I used AI to help with WordPress builds, I was thrilled. The second month, I was annoyed. The third month, I figured out what was actually going on.
+Month one with AI on WordPress builds: thrilled. Month two: annoyed. Month three: I finally got it.
 
-The problem wasn't that the AI was bad. The problem was that it was *too creative*. Ask it to build the same kind of feature on a Tuesday and again on a Thursday, and you'd get two completely different versions. Different file structure. Different naming. Different way of handling the same basic problem. Both worked. Neither matched what the rest of the project looked like.
+The AI wasn't bad. It was *too creative*. Ask for the same kind of feature on Tuesday and Thursday, and you get two different versions. Different files. Different names. Different fixes for the same problem. Both work. Neither fits the rest of the project.
 
-It felt a bit like hiring a new contractor every morning. Each one was talented. Each one had their own opinions. None of them had ever seen what the previous contractor built.
+It's like a new contractor every morning—skilled, opinionated, and blind to what yesterday's contractor built.
 
-That's not a code problem. That's a *consistency* problem. And once I started thinking about it that way, the fix became obvious.
-
----
-
-## The realization: AI isn't a developer, it's a really fast new hire
-
-Think about what happens when a brand-new person joins a team. On day one, they don't know:
-
-- How files are named around here
-- What "done" looks like
-- Which helper functions already exist
-- Which mistakes the team has already paid for once
-- Which decisions are sacred and which are just preferences
-
-A good team hands the new hire a short document - a style guide, a checklist, a "how we do things" page. Once they've read it, they stop guessing. They start matching.
-
-AI is exactly the same. It has all the talent in the world, and zero memory of your project. Every fresh chat is day one. Every new task is a new contractor.
-
-The only sustainable answer is to write down your house rules and put them somewhere the AI will actually read them.
+That's not a code problem. It's a *consistency* problem. Once I saw that, the fix was obvious.
 
 ---
 
-## The real prize: AI writing the code that handles 80% of your work
+## AI isn't a developer—it's a fast new hire
 
-Here's the thing I had to admit to myself: roughly **80% of what I build is the same handful of patterns**, just dressed differently. A content block here. A card layout there. A form. A list. A banner. The shapes repeat. Not just in WordPress - in almost any project, most of the work is variations on a small set of moves you've already made before.
+A new teammate on day one doesn't know your file names, your definition of done, your existing helpers, or which mistakes the team already made once.
 
-That 80% is where AI does its best work - but not in the way most people use it. The usual move is to ask AI to build *each new feature* from scratch. That's the slow path. It looks fast in the moment, but every feature ends up subtly different, and you spend the time you "saved" reconciling them later.
+So you give them a short guide. After that, they stop guessing and start matching.
 
-The real play is to flip the order. Use AI to **build the reusable code that handles the 80% itself** - the helpers, the templates, the shared opening lines, the small library of "do it this way" examples. Once that machinery exists, every future feature is just AI plugging new content into the same proven shape.
+AI works the same way. Plenty of skill, zero memory of your project. Every new chat is day one.
 
-That's the part that quietly changed everything for me. The artifact isn't the feature. The artifact is the *reusable code that makes the next forty features look identical*. AI is unreasonably good at producing that kind of code once you point it in the right direction, because the work is boring and pattern-heavy - exactly the kind of thing humans are bad at staying disciplined about.
-
-When the reusable layer is in place, three things happen at once:
-
-- New work always comes out in the same shape, regardless of which day, which mood, or which chat session it was built in
-- I stop reviewing code line by line, because I already know what the shape will look like
-- Future me (or anyone else who opens the project) can read one file and basically understand the next forty
-
-That's the real win. Not "AI wrote my feature fast." More like *"AI built the thing that makes every future feature come out the same."*
-
-(There's a 20% of weird, one-off work that doesn't fit any pattern - custom integrations, oddball edge cases. I'll come back to that at the end. It's a smaller problem than people think.)
+Write down your house rules and put them where the AI will actually read them.
 
 ---
 
-## The 5-step process: have AI build the 80% layer
+## The real win: reusable code for the repeating 80%
 
-Here's the approach I now use for any WordPress build (or honestly, any project where I'm leaning on AI a lot). The goal is to **have AI build the reusable code that handles the predictable 80%**, then have it use that code for every new feature. Plain English; the same idea applies whether you're working on a website, a spreadsheet macro, or a recipe blog.
+About **80% of what I build is the same patterns** in different clothes—blocks, cards, forms, lists, banners. That's true in WordPress and in most projects.
 
-### Step 1 - Spot the shapes that repeat
+Most people ask AI to build each feature from scratch. That feels fast, but every feature drifts a little. You spend the time you saved cleaning up later.
 
-Look at your last few projects. What did you build over and over? In my WordPress world, it's content blocks - almost every page is just blocks stacked on top of each other.
+Flip it: use AI to **build the reusable code for that 80%**—helpers, templates, shared boilerplate, a small set of "do it like this" examples. After that, new work is just new content in the same shape.
 
-Whatever your repeating shape is, name it. Write down a one-line description. This is what AI is going to be building reusable code *for*. If you skip this step, AI has no target to aim at and the rest doesn't work.
+The valuable output isn't the feature. It's the **reusable code that makes the next forty features look the same**. AI is great at that work because it's repetitive—exactly where humans slip.
 
-### Step 2 - Have AI build a single helper that handles the boring opening
+When that layer exists:
 
-Every repeating shape has a boring opening - the same five or ten lines that have to be there before any actual work happens. Ask AI to build **one helper** that wraps all of that and exposes it as a single function call.
+- New work looks the same no matter the day, mood, or chat
+- You stop reviewing line by line because you know the shape
+- Anyone opening the project can read one file and understand the next forty
 
-This is the most important piece of code in the whole project. Once it exists, every new feature starts the same way - same opening, same setup, same handoff into the real work. AI just calls the helper and gets on with the actual content.
+The win isn't "AI was fast." It's *"every future feature comes out the same."*
 
-The point isn't to save typing. The point is that **the first 25 lines of every file end up identical**, which means there's no surface area for drift. You've literally removed the option to do it differently.
-
-### Step 3 - Have AI build a small library of canonical examples
-
-Once the helper exists, ask AI to build one polished version of each repeating shape - one canonical card, one canonical form, one canonical list. These aren't features you ship. They're *references*. They're the recipe book for the project.
-
-Every future "build me a card" request becomes "build me a card that mirrors *this* card." AI is unreasonably good at copying patterns when you point at one. It's just bad at inventing patterns from thin air that happen to match what you would have written. The canonical examples kill that whole class of problem.
-
-### Step 4 - Have AI write down the project's non-negotiables
-
-These are the rules that aren't about taste - they're about not getting hurt. In my world, they look like:
-
-- Always escape user input (this is a security thing, not a style thing)
-- Always use the project's exact label for things (one typo and translations break)
-- Always bump a timestamp when you change a config file (or syncing silently breaks)
-
-Ask AI to capture these in a single plain-English document inside the project. From then on, every task it touches reads that document first. Five or ten rules is plenty. Once they're written, AI quietly stops making the same recurring mistakes - every block escapes its input the same way, every config bump happens automatically, every label is spelled the way the project expects.
-
-### Step 5 - Tell AI to mirror the existing code, always
-
-Now you have the three things that make consistency possible: a helper, a library of examples, and a small set of rules. The final piece is one standing instruction for every new task: **"Use the helper. Mirror the closest existing example. Follow the rules."**
-
-That sentence is the contract. Once it's in place, AI stops generating from scratch and starts assembling from the reusable pieces you already had it build. New work comes out looking like old work - not because AI is being careful, but because the reusable layer left it nowhere else to go.
+(There's still ~20% that doesn't fit the pattern—that's where improvement and creativity live. I'll cover that at the end.)
 
 ---
 
-## What it feels like when the 80% layer is in place
+## The 4-step process: build the 80% layer
 
-Once those five things exist in the project, working with AI gets eerily calm. I ask for a new block, and the AI:
+This is what I do on WordPress builds—and any project where AI does a lot of the typing. **Have AI build the reusable 80%, then use it for every new feature.** Same idea for a site, a spreadsheet macro, or a recipe blog.
 
-1. Calls the helper for the boring opening
-2. Finds the closest canonical example and mirrors it
-3. Follows the written rules without me having to mention them
-4. Cites what it used at the end of its reply so I can spot-check
+### Step 1 - Name what repeats
 
-The output looks like something I would have written on a focused day. It slots into the project so cleanly that the next person - including future me - can't tell which parts were typed and which were generated. That's the whole goal.
+Look at recent projects. What do you build again and again? For me, it's content blocks—pages are mostly blocks stacked together.
 
-That's the win. Not "wow, that was fast." More like *"oh, of course it looks like that - it always looks like that."* Boring. Predictable. Shippable without ceremony. The 80% of my work that used to vary based on my mood, my energy level, or which AI chat I happened to be in stopped varying. AI built the layer that handles it, and every future use case just rides on top of that layer.
+Name each repeating shape. One line each. That's what AI will build reusable code for. Skip this and nothing else clicks.
+
+### Step 2 - One helper for the boring opening
+
+Every shape starts with the same few lines of setup. Ask AI for **one helper** that wraps that and exposes a single function call.
+
+This may be the most important file in the project. Every new feature starts the same way. AI calls the helper and moves on to the real work.
+
+You're not saving keystrokes. **The first ~25 lines of every file match**, so there's nothing to drift on.
+
+### Step 3 - A small library of reference examples
+
+With the helper in place, ask AI for one polished example per shape—one card, one form, one list. You don't ship these as features. They're **references**—the recipe book.
+
+"Build me a card" becomes "build me a card like *this* one." AI copies well when you point at an example. It invents poorly when you don't. References fix that.
+
+### Step 4 - Rules plus a standing instruction
+
+Write down rules that aren't taste—they're safety. Mine look like:
+
+- Always escape user input
+- Always use the project's exact labels (typos break translations)
+- Always bump a timestamp when a config file changes (or sync breaks quietly)
+
+Ask AI to put five to ten rules in one plain-English doc in the project.
+
+Add one instruction for every task: **"Use the helper. Mirror the closest example. Follow the rules."** Put the doc and that line where the AI reads them first—a rules file, a Cursor rule, whatever you use.
+
+That's the contract. AI stops inventing and starts assembling from what you already built. New code looks like old code because the layer doesn't leave much room for anything else.
 
 ---
 
-## A quick word about the weird 20%
+## What it feels like when the layer is in place
 
-The remaining 20% is the stuff that genuinely doesn't fit any pattern - a custom integration, an oddball animation, a page that behaves differently for different users. Real puzzles.
+With those four pieces set, working with AI gets calm. I ask for a block and the AI:
 
-You're never going to make that bucket consistent, and you shouldn't try. The trick is just to add one extra rule: **"If it doesn't match an existing pattern, stop and ask before guessing."** That single sentence turns edge cases into a short conversation instead of a confident wrong answer.
+1. Calls the helper for the opening
+2. Mirrors the closest reference example
+3. Follows the rules without me repeating them
+4. Says what it used so I can spot-check
 
-That's it. The 20% gets one rule. The 80% gets everything else. The math of where to spend your attention is unbelievably forgiving.
+The result looks like something I'd write on a good day. It fits the project. Future me can't tell what was typed vs generated. That's the goal.
+
+Not "wow, fast." More like *"of course it looks like that—it always does."* Boring. Predictable. Easy to ship. The 80% that used to change with my mood or which chat I used stopped changing.
+
+---
+
+## The other 20%
+
+The rest doesn't fit the template—custom integrations, odd animations, pages that behave differently per user. That's not waste. It's the part of the project where you're allowed to improve things, try ideas, and be creative.
+
+Locking down the 80% on purpose frees you here. You're not fighting drift on every block, so you have attention for the work that actually needs a fresh take.
+
+Don't force the 80% system onto this bucket. Do add one guardrail: **"If it doesn't match an existing pattern, stop and ask."** That keeps edge cases as a conversation instead of a confident wrong guess—without killing the room to experiment.
+
+Full system for the 80%. One light rule for the 20%. Creativity where it belongs.
 
 ---
 
 ## The bigger lesson
 
-The shift in my head was small but important: **stop asking AI to build features. Ask it to build the layer that makes every future feature come out the same.**
+**Stop asking AI to build features. Ask it to build the layer that makes every feature match.**
 
-Most people use AI as a faster typist - one feature at a time, each one slightly different. That gets you speed and inconsistency in equal measure. The flip is to spend the early hours having AI build the reusable code that handles your 80%, and then let every future task ride on top of it. The speed compounds. The consistency compounds even more.
+Using AI as a faster typist—one feature at a time—gives you speed and drift in equal measure. Spend early time on reusable code for your 80%, then stack every task on top. Speed compounds. Consistency compounds more.
 
-Building the 80% layer is mostly a one-time investment. Every chat, every new feature, every new project that reuses those pieces quietly benefits. The hour I spent having AI build my helpers and write down my rules saved me dozens of hours of "wait, why did it do *that?*"
+Building the layer is mostly once per project. Every chat and feature after benefits. An hour on helpers and rules saved me dozens of "why did it do *that?*"
 
 ---
 
-## If you only take one thing from this
+## If you only take one thing
 
-> **Don't use AI to build one feature at a time. Use AI to build the reusable code that handles 80% of your features - then have it produce identical output every time it touches that 80%.**
+> **Don't use AI for one feature at a time. Use it to build the reusable code for 80% of your work—then get the same output every time.**
 
-You don't need a perfect system. You don't need a 50-page playbook. Pick the shapes that repeat. Have AI build a helper for the boring opening, a small library of canonical examples, and a short list of non-negotiable rules. Then tell it to mirror and reuse, not invent.
+You don't need a huge playbook. Name what repeats. Have AI build a helper, a few reference examples, and a short rules doc. Then tell it to mirror and reuse, not invent.
 
-The 80% of your work that used to vary stops varying. The codebase gets boring in the best possible way. And you stop reviewing every line of AI output, because you already know what it's going to look like - because it always looks like that.
+Work stops varying. The codebase gets boring in a good way. You stop reading every AI line because you already know the shape.
 
-That's the real win. Not faster. *Consistent.* Once you feel the difference, you won't want to go back.
+Not faster. *Consistent.* Once you feel that, you won't want to go back.
