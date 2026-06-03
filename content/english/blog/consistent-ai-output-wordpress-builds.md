@@ -1,7 +1,7 @@
 ---
-title: "Let AI Write the Code That Handles 80% of Your Work Consistently"
-meta_title: "Using AI to Build Reusable Code for Consistent Output"
-description: "AI is best at building reusable helpers and patterns for the 80% of work that repeats—not at one-off features that all look different. Here's how I use that on WordPress builds."
+title: "Consistent AI Output for WordPress Builds"
+meta_title: "Consistent AI Output for WordPress Builds"
+description: "How to get consistent AI output on WordPress builds: reusable helpers and patterns for the 80% that repeats, a 4-step process, and room for creativity in the rest."
 slug: "consistent-ai-output-wordpress-builds"
 date: 2026-05-30T05:00:00Z
 image: "/images/feature-consistent-ai-output.jpg"
