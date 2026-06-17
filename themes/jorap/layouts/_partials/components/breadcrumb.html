@@ -5,23 +5,25 @@
 
 <ul class="{{ $class }} inline-flex space-x-1 capitalize">
   <li>
-    <a class="text-accent" href="{{ $base }}">
+    <a class="text-primary dark:text-darkmode-primary" href="{{ $base }}">
       {{ T "home" | default "Home" }}
     </a>
-    <span class="inline-block mr-1">/</span>
+    <span class="inlin-block mr-1">/</span>
   </li>
   {{ range $i, $e:= $context.Ancestors.Reverse }}
     {{ if and (not .IsHome) (ne .Title "Pages") }}
       <li>
-        <a class="text-accent" href="{{ .RelPermalink }}">
+        <a
+          class="text-primary dark:text-darkmode-primary"
+          href="{{ .RelPermalink }}">
           {{ T (printf "%s" (lower .Title)) | default .Title }}
         </a>
-        <span class="inline-block mr-1">/</span>
+        <span class="inlin-block mr-1">/</span>
       </li>
     {{ end }}
   {{ end }}
   <li>
-    <span class="text-accent">
+    <span class="text-primary dark:text-darkmode-primary">
       {{ T (printf "%s" (lower $context.Title)) | default $context.Title }}
     </span>
   </li>

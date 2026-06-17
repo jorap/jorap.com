@@ -11,14 +11,14 @@
 {{ if gt $paginator.TotalPages 1 }}
   <nav
     class="flex items-center justify-center space-x-3"
-    aria-label="Pagination">
+    aria-label="{{ T "pagination" | default "Pagination" }}">
     <!-- Previous page. -->
     {{ if $paginator.HasPrev }}
       <a
-        class="text-ink hover:bg-elevated rounded px-2 py-1.5"
+        class="text-text-dark hover:bg-light dark:text-darkmode-text-dark dark:hover:bg-darkmode-light rounded px-2 py-1.5"
         href="{{ $paginator.Prev.URL }}"
-        aria-label="Pagination Arrow">
-        <span class="sr-only">Previous</span>
+        aria-label="{{ T "pagination-arrow" | default "Pagination Arrow" }}">
+        <span class="sr-only">{{ T "previous" | default "Previous" }}</span>
         <svg
           viewBox="0 0 20 20"
           fill="currentColor"
@@ -32,8 +32,8 @@
         </svg>
       </a>
     {{ else }}
-      <span class="text-ink-faint rounded px-2 py-1.5">
-        <span class="sr-only">Previous</span>
+      <span class="text-text-light rounded px-2 py-1.5">
+        <span class="sr-only">{{ T "previous" | default "Previous" }}</span>
         <svg
           viewBox="0 0 20 20"
           fill="currentColor"
@@ -84,14 +84,14 @@
         {{ if eq . $paginator }}
           <span
             aria-current="page"
-            class="bg-accent rounded px-4 py-2 text-white dark:text-text-dark">
+            class="bg-primary dark:bg-darkmode-primary dark:text-text-dark rounded px-4 py-2 text-white">
             {{ .PageNumber }}
           </span>
         {{ else }}
           <a
             href="{{ .URL }}"
             aria-current="page"
-            class="text-ink hover:bg-elevated rounded px-4 py-2">
+            class="text-text-dark hover:bg-light dark:text-darkmode-text-dark dark:hover:bg-darkmode-light rounded px-4 py-2">
             {{ .PageNumber }}
           </a>
         {{ end }}
@@ -102,9 +102,9 @@
     <!-- Next page. -->
     {{ if $paginator.HasNext }}
       <a
-        class="text-ink hover:bg-elevated rounded px-2 py-1.5"
+        class="text-text-dark hover:bg-light dark:text-darkmode-text-dark dark:hover:bg-darkmode-light rounded px-2 py-1.5"
         href="{{ $paginator.Next.URL }}"
-        aria-label="Pagination Arrow">
+        aria-label="{{ T "pagination-arrow" | default "Pagination Arrow" }}">
         <span class="sr-only">Next</span>
         <svg
           viewBox="0 0 20 20"
@@ -119,7 +119,7 @@
         </svg>
       </a>
     {{ else }}
-      <span class="text-ink-faint rounded px-2 py-1.5">
+      <span class="text-text-light rounded px-2 py-1.5">
         <span class="sr-only">Next</span>
         <svg
           viewBox="0 0 20 20"

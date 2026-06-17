@@ -1,7 +1,8 @@
 {{ define "main" }}
-  <section class="section pb-0">
+  <section class="section-sm pb-0">
     <div class="container">
-      <div class="row border-divider justify-center border-b pb-14">
+      <div
+        class="row border-border dark:border-darkmode-border justify-center border-b pb-14">
         <div class="lg:col-4 text-center">
           {{ $image:= .Params.image }}
           {{ if $image }}
@@ -26,7 +27,7 @@
                   target="_blank"
                   rel="noopener nofollow">
                   <span class="sr-only">{{ .title }}</span>
-                  {{ partial "components/icon" (dict "Name" .icon) }}
+                  <i class="{{ .icon }}"></i>
                 </a>
               </li>
             {{ end }}

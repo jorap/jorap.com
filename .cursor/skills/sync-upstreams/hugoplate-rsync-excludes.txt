@@ -1,0 +1,28 @@
+# JoRap-only layouts — never rsync from Hugoplate
+_markup/render-heading.html
+_partials/components/back-to-top.html
+_partials/components/icon.html
+_partials/components/image-process.html
+_partials/components/image.html
+_partials/components/social-share.html
+_partials/essentials/self-hosted-fonts.html
+_partials/essentials/theme-init.html
+_partials/sections/banner.html
+_partials/sections/blog-list.html
+_partials/sections/features.html
+_partials/sections/home-intro.html
+_partials/sections/testimonials.html
+about/list.html
+contact/list.html
+shortcodes/spotify.html
+shortcodes/spotify_iframe_artist.html
+shortcodes/spotify_iframe_track.html
+shortcodes/youtube.html
+shortcodes/youtube_time.html
+# Hugoplate layouts JoRap intentionally replaced
+about.html
+contact.html
+# JoRap-only assets
+css/semantic-tokens.css
+# Generated — rebuild with themeGenerator.js instead
+css/generated-theme.css
