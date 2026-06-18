@@ -7,11 +7,11 @@
 }
 
 .btn-primary {
-  @apply border-accent bg-accent text-white dark:text-text-dark;
+  @apply border-accent bg-accent text-on-accent;
   @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-surface;
 }
 
 .btn-outline-primary {
-  @apply border-accent text-ink bg-transparent hover:bg-accent hover:text-white dark:hover:text-text-dark;
+  @apply border-accent text-ink bg-transparent hover:bg-accent hover:text-on-accent;
   @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-surface;
 }

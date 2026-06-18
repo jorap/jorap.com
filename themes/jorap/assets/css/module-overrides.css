@@ -60,7 +60,7 @@
     @apply rounded focus:border-accent focus:ring-0;
   }
   button {
-    @apply rounded bg-accent text-white hover:bg-accent;
+    @apply rounded bg-accent text-on-accent hover:bg-accent;
   }
 }
 

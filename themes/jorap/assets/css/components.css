@@ -16,7 +16,7 @@
   @apply inline-block;
 }
 .social-icons li a {
-  @apply flex h-9 w-9 items-center justify-center rounded-sm bg-accent text-center leading-9 text-white dark:text-text-dark;
+  @apply flex h-9 w-9 items-center justify-center rounded-sm bg-accent text-center leading-9 text-on-accent;
 }
 .social-icons li a svg {
   @apply h-5 w-5;
@@ -55,10 +55,10 @@
   @apply no-underline;
 }
 .content .btn-primary {
-  @apply !text-white dark:!text-text-dark hover:!text-white dark:hover:!text-text-dark;
+  @apply !text-on-accent hover:!text-on-accent;
 }
 .content .btn-outline-primary {
-  @apply !text-ink hover:!text-white dark:hover:!text-text-dark;
+  @apply !text-ink hover:!text-on-accent;
 }
 
 .image--partial {

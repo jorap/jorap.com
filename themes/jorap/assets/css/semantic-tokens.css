@@ -14,6 +14,7 @@
   --color-ink-faint: var(--color-text-light);
   --color-divider: var(--color-border);
   --color-accent: var(--color-primary);
+  --color-on-accent: #ffffff;
 }
 
 @layer base {
@@ -25,5 +26,6 @@
     --color-ink-faint: var(--color-darkmode-text-light);
     --color-divider: var(--color-darkmode-border);
     --color-accent: var(--color-darkmode-primary);
+    --color-on-accent: var(--color-text-dark);
   }
 }
