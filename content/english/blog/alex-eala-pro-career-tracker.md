@@ -93,10 +93,10 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
  {{< youtube Rn6uX8S_6O0 >}}
 
   - **Guadalajara (WTA 125)** - Winner | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS001)
-    - First Career WTA Win
+    - First Career WTA Tournament Win
 
   - **Eastbourne Open (WTA 250)** - Finalist | [wtatennis.com](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/lexus-eastbourne-open/matches/m-joint-vs-a-eala-2025-06-28)
-  - First Filipina to reach WTA Tour Finals
+    - First Filipina to reach WTA Tour Finals
 
  {{< youtube mOD9LLVIbz4 >}}
 
