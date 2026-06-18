@@ -27,9 +27,7 @@ I usually make adobo in a bigger batch - about 2 kg of bone-in thighs - and this
 
 ## Why I use the Instant Pot for adobo
 
-Stovetop adobo works. I've made it that way for years. But on a weeknight I'm not committing to an hour or two of simmering.
-
-Pressure gets the same tender thighs in **10 minutes** under pressure, plus 10 minutes of natural release. The high pressure does what a long braise does - breaks down the collagen, keeps the meat juicy, pushes the soy-garlic marinade into the meat.
+Stovetop adobo works, but on a weeknight I'm not committing to an hour or two of simmering. Pressure gets the same tender thighs in **10 minutes** under pressure, plus 10 minutes of natural release. The high pressure does what a long braise does - breaks down the collagen, keeps the meat juicy, pushes the soy-garlic marinade into the meat.
 
 The other thing I like: pressure cook in the Instant Pot, reduce the sauce in sauté mode at the end. I **don't** brown in the Instant Pot first - that's how I've gotten burn notices. I sear in a separate pan, then everything goes into a clean inner pot for pressure cooking. The liquid numbers below are what actually works in my 8-quart - not the generic "minimum 1 cup" advice that leaves you with soup.
 

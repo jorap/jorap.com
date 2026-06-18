@@ -1,6 +1,6 @@
 ---
 title: "The Miracle of Isaiah David"
-meta_title: "The Miracle of Isaiah David - Found Out and Gave Birth the Same Day"
+meta_title: "The Miracle of Isaiah David - We Found Out She Was Pregnant and Gave Birth on the Same Day"
 description: "On May 8, 2020, Pia and I found out she was pregnant - and gave birth to our son the same day. Years later, that sentence still doesn't feel real. Here's how it actually unfolded."
 slug: "miracle-isaiah-david"
 date: 2023-05-08T05:00:00Z

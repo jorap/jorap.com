@@ -1,7 +1,7 @@
 ---
 title: "DNPAP - Song Resources"
 meta_title: "DNPAP - Song Resources by Destiny Music | Spotify, YouTube, Lyrics"
-description: "DNPAP (Diyos Ng Pagasa at Pagibig) by Destiny Music has become one of my favorite worship songs from the local scene - studio version, live recording, music video, and lyrics, all in one place."
+description: "All the information about DNPAP (Diyos Ng Pagasa at Pagibig) by Destiny Music that is all in one place. We have the studio version, live recording, music video, and lyrics."
 slug: "dnpap-song-resources"
 date: 2022-11-12T05:00:00Z
 image: "/images/feature-dnpap.jpg"
