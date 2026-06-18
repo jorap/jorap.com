@@ -1,6 +1,6 @@
 ---
 title: "Alex Eala Pro Career Tracker"
-date: 2026-04-01T05:00:00Z
+date: 2026-06-15T05:00:00Z
 meta_title: "Alex Eala Pro Career Tracker"
 slug: "alex-eala-pro-career-tracker"
 description: "A Filipino fan's running scrapbook of Alex Eala's WTA career - the rankings, the matches I'll never forget, and the matchups I'm watching for next."
@@ -9,16 +9,28 @@ categories: ["Sports", "Filipino", "People"]
 author: "JoRap"
 tags: ["Tennis", "Alex Eala", "WTA", "Pinoy Pride", "Career Tracker", "Grand Slam", "Athletes", "Women's Tennis"]
 draft: false
+lastmod: 2026-06-18T18:00:00Z
 ---
 
 I've been following Alex Eala's career since her amazing run at the 2025 Miami Open, and watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook - career-high rankings, the matches I'll always remember, the head-to-heads with Grand Slam champions, and the upcoming matchups I'm watching for. I update it as her career unfolds.
 
 ---
 
+## At a glance
+
+- **Career highs:** No. 29 singles · No. 88 doubles
+- **WTA titles:** 2 (Guadalajara 125, Birmingham 125)
+- **Best Slam (singles):** US Open 2025 — Round of 2
+- **Notable firsts:** First Filipina in a Grand Slam main draw; first Filipina to win a Slam main-draw match (US Open 2025); first Filipina in a WTA 1000 semifinal (Miami 2025); first Filipina in the WTA top 100
+
+---
+
 ## Player Profile
 
 - [WTA Profile](https://www.wtatennis.com/players/330332/alexandra-eala/#overview)
-- [Tennis.com Player Activity](https://www.tennis.com/players-rankings/alexandra-eala-sr-competitor-627278/activity/)
+- [WTA Matches](https://www.wtatennis.com/players/330332/alexandra-eala/matches#main-content)
+- [WTA Doubles Matches](https://www.wtatennis.com/players/330332/alexandra-eala/matches?type=D)
+- [Tennis.com](https://www.tennis.com/players-rankings/alexandra-eala)
 - [TNNSLIVE](https://tnnslive.com/player/627278?content=form)
 
 ---
@@ -32,7 +44,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Doubles:**
 
-- **Career High:** No. 99
+- **Career High:** No. 88
 
 ---
 
@@ -42,82 +54,94 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - 2026
 
-  - **Dubai (WTA 1000)** - [Quarterfinals](https://www.tennis.com/tournaments/sr-tournament-4487-wta-dubai-uae/sr-match-68853894/)
+  - **Birmingham (WTA 125)** - Winner | [wtatennis.com](https://www.wtatennis.com/tournaments/1126/birmingham-125/2026/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/lexus-birmingham-open/matches/a-eala-vs-n-bartunkova-2026-06-07)
+    - Second Career WTA Win
+    - First career title on grass
 
-  {{< youtube Z-NN1Y1lknY >}}
+  {{< youtube kdUsythJKOg >}}
+  
+  {{< youtube -aQ0q3tTvOw >}}
+
+  - **Dubai (WTA 1000)** - Quarterfinals | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS005) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/c-gauff-vs-a-eala-2026-02-19)
 
   {{< youtube vToI4CcaOo8 >}}
 
-  - **Abu Dhabi (WTA 500)** - [Quarterfinals](https://www.tennis.com/tournaments/sr-tournament-33476-wta-abu-dhabi-uae/sr-match-68328864/)
-
-  {{< youtube Cfn0SHv302U >}}
+  - **Abu Dhabi (WTA 500)** - Quarterfinals | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-e-alexandrova-2026-02-05)
 
   {{< youtube 8urcN5nHhX4 >}}
 
-  - **Manila (WTA 125)** - [Quarterfinals](https://www.tennis.com/tournaments/sr-tournament-50112-wta-125k-manila-philippines/sr-match-68098432/)
+  - **Manila (WTA 125)** - Quarterfinals | [wtatennis.com](https://www.wtatennis.com/tournaments/1153/manila-125/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/philippine-womens-open/matches/c-osorio-vs-a-eala-2026-01-29)
 
-  {{< youtube AIdv9p64R7Y >}}
-  
   {{< youtube iXfxN9Bysvs >}}
 
-  - **Auckland (WTA 250)** - [Semifinals](https://www.tennis.com/tournaments/sr-tournament-6495-wta-auckland-new-zealand/sr-match-67306740/)
+  {{< youtube AIdv9p64R7Y >}}
 
-  {{< youtube gQZqBwfpXro >}}
+  - **Auckland (WTA 250)** - Semifinals | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/a-eala-vs-x-wang-2026-01-10)
 
   {{< youtube 6j0r-o9cwrw >}}
 
+  {{< youtube gQZqBwfpXro >}}
+
 - 2025
 
-  - **Jingshan (WTA 125)** - [Semifinals](https://www.tennis.com/tournaments/sr-tournament-47498-wta-125k-jingshan-china/sr-match-63865655/)
-  
-  - **Sao Paolo (WTA 250)** - [Quarterfinals](https://www.tennis.com/tournaments/sr-tournament-46951-wta-sao-paulo-brazil/sr-match-63473163/)
+  - **Jingshan (WTA 125)** - Semifinals | [wtatennis.com](https://www.wtatennis.com/tournaments/1143/jingshan-125/2025/scores/LS002)
+
+  - **Sao Paulo (WTA 250)** - Quarterfinals | [wtatennis.com](https://www.wtatennis.com/tournaments/1139/sao-paulo/2025/scores/LS006) | [tennis.com](https://www.tennis.com/tournaments/sp-open/matches/j-tjen-vs-a-eala-2025-09-12)
 
   {{< youtube Rn6uX8S_6O0 >}}
 
-  - **Guadalajara (WTA 125)** - [Winner](https://www.tennis.com/tournaments/sr-tournament-27554-wta-125k-guadalajara-mexico/sr-match-63315101/)
+  - **Guadalajara (WTA 125)** - Winner | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS001)
     - First Career WTA Win
 
-  - **Eastbourne Open (WTA 250)** - [Finalist](https://www.tennis.com/tournaments/sr-tournament-7629-eastbourne-great-britain/sr-match-61299087/)
+  - **Eastbourne Open (WTA 250)** - Finalist | [wtatennis.com](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/lexus-eastbourne-open/matches/m-joint-vs-a-eala-2025-06-28)
     - First Filipina to reach WTA Tour Finals
-
-  {{< youtube o2djKw4gKF4 >}}
-
-  {{< youtube HJOsSm1rnqg >}}
 
   {{< youtube mOD9LLVIbz4 >}}
 
-  - **Ilkley (WTA 125)** - [Quarterfinals](https://www.tennis.com/tournaments/sr-tournament-46273-wta-125k-ilkley-great-britain/sr-match-61026381/)
+  {{< youtube o2djKw4gKF4 >}}
 
-  - **Miami Open (WTA 1000)** - [Semifinals](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906267/)
+  - **Ilkley (WTA 125)** - Quarterfinals | [wtatennis.com](https://www.wtatennis.com/tournaments/1127/ilkley-125/2025/scores/LS004) | [tennis.com](https://www.tennis.com/tournaments/lexus-ilkley-open/matches/a-eala-vs-r-marino-2025-06-13)
+
+  - **Miami Open (WTA 1000)** - Semifinals | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/j-pegula-vs-a-eala-2025-03-28)
     - First Filipina to reach WTA 1000 Tour Semifinals
     - Defeated Madison Keys (No. 5), Iga Swiatek (No. 2), Jelena Ostapenko (No. 25)
     - Lost to Jessica Pegula in Semifinals
 
-  {{< youtube efazYG5hSAA >}}
-
-  {{< youtube maG9TzsuVeM >}}
-
-  - **Workday Canberra International (WTA 125)** - [Semifinals](https://www.tennis.com/tournaments/sr-tournament-41642-wta-125k-canberra-australia/sr-match-56728233/)
+  - **Canberra International (WTA 125)** - Semifinals | [wtatennis.com](https://www.wtatennis.com/tournaments/2096/canberra-125/2025/scores/LS003)
 
 - 2024
-  - **Veneto Open (WTA 125)** - [Quarterfinals](https://www.wtatennis.com/tournaments/2062/gaiba-125/2024/scores/LS006)
+  - **Veneto Open (WTA 125)** - Quarterfinals | [wtatennis.com](https://www.wtatennis.com/tournaments/2062/gaiba-125/2024/scores/LS006)
 
 ### Doubles
 
+- 2026
+  - **Abu Dhabi (WTA 500)** - Semifinals (with Janice Tjen) | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LD003)
+    - Quarterfinals | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LD007)
+    - Round of 16 | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LD014)
+
+  {{< youtube Oj3TQA9Ox_E >}}
+
+  {{< youtube 5mq-YcKJfB8 >}}
+
 - 2025
-  - **Guangzhou Open (WTA 250)** - Semifinals (with Nadiia Kichenok)
-  
-  - **Rome Open (WTA 1000)** - Quarterfinals (with Coco Gauff)
+  - **Guangzhou Open (WTA 250)** - Semifinals (with Nadiia Kichenok) | [wtatennis.com](https://www.wtatennis.com/tournaments/1023/guangzhou/2025/scores/LD002)
+    - Quarterfinals | [wtatennis.com](https://www.wtatennis.com/tournaments/1023/guangzhou/2025/scores/LD005)
+
+  - **Rome Open (WTA 1000)** - Quarterfinals (with Coco Gauff) | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD005)
     - Lost to defending champions Jasmine Paolini / Sara Errani
+    - Round of 16 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD011)
+    - Round of 32 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD022)
 
 - 2024
-  - **Ningbo Open (WTA 500)** - Quarterfinals (with En-Shuo Liang)
+  - **Ningbo Open (WTA 500)** - Quarterfinals (with En-Shuo Liang) | [wtatennis.com](https://www.wtatennis.com/tournaments/2092/ningbo/2024/scores/LD005)
 
-  - **Guadalajara Open (WTA 125)** - Quarterfinals (with Kimberly Birrell)
+  - **Guadalajara Open (WTA 125)** - Quarterfinals (with Kimberly Birrell) | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2024/scores/LD007)
 
-  - **Polish Open (WTA 125)** - Quarterfinals (with Darja Semenistaja)
+  - **Polish Open (WTA 125)** - Quarterfinals (with Darja Semenistaja) | [wtatennis.com](https://www.wtatennis.com/tournaments/2087/warsaw-125/2024/scores/LD007)
 
-  - **Workday Canberra International (WTA 125)** - Semifinals (with Laura Pigossi)
+  - **Canberra International (WTA 125)** - Semifinals (with Laura Pigossi) | [wtatennis.com](https://www.wtatennis.com/tournaments/2096/canberra-125/2024/scores/LD002)
+    - Quarterfinals | [wtatennis.com](https://www.wtatennis.com/tournaments/2096/canberra-125/2024/scores/LD005)
+    - Round of 16 | [wtatennis.com](https://www.wtatennis.com/tournaments/2096/canberra-125/2024/scores/LD011)
 
 ---
 
@@ -127,40 +151,50 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - **2026**
 
+  - **French Open** - 1st Round
+    - 1st Round | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS71642254) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2026/SD068)
+
   - **Australian Open** - 1st Round
-    - [1st Round](https://ausopen.com/match/2026-alycia-parks-vs-alexandra-eala-ws122)
+    - 1st Round | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LS67816724) | [ausopen.com](https://ausopen.com/match/2026-alycia-parks-vs-alexandra-eala-ws122)
 
     {{< youtube HhdkG1AwDhU >}}
+
 
 - **2025**
 
   - **US Open** - 2nd Round
-    - [1st Round](https://www.wtatennis.com/tournaments/us-open/scores/LS63131469)
-    - [2nd Round](https://www.wtatennis.com/tournaments/us-open/scores/LS63101293)
+    - 1st Round | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63131469) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2108.html)
+    - 2nd Round | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63101293) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2204.html)
+
+    {{< youtube JRCuP2U5Alk >}}
+
+    {{< youtube vB6HVBHjpAg >}}
 
   - **Wimbledon** - 1st Round
-    - [1st Round](https://www.wtatennis.com/tournaments/wimbledon/scores/LS61511608)
+    - 1st Round | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS61511608) | [wimbledon.com](https://www.wimbledon.com/en_GB/scores/stats/61511608.html)
       - Played against the defending champion Krejcikova at the Centre Court
 
   - **French Open** - 1st Round
-    - [1st Round](https://www.rolandgarros.com/en-us/matches/2025/SD078)
+    - 1st Round | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS60736223) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2025/SD078)
       - First Filipina to compete in a Grand Slam main draw
 
 ### Doubles
 
 - **2026**
 
-  - **Australian Open** - 1st Round
-    - [1st Round](https://ausopen.com/match/2026-alexandra-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-wd126)
+  - **Australian Open** - 1st Round (with Ingrid Martins)
+    - 1st Round | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LD67893812) | [ausopen.com](https://ausopen.com/match/2026-alexandra-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-wd126)
 
 - **2025**
 
-  - **Wimbledon** - 1st Round
-    - [1st Round](https://www.wtatennis.com/tournaments/wimbledon/scores/LD61641892)
+  - **Wimbledon** - 1st Round (with Eva Lys)
+    - 1st Round | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LD61641892) | [wimbledon.com](https://www.wimbledon.com/en_GB/scores/stats/61641892.html)
+
+    {{< youtube NqbMdbIUuFE >}}
 
   - **French Open** - 2nd Round (with Renata Zarazua)
-    - [1st Round](https://www.rolandgarros.com/en-us/matches/2025/DD049)
-    - [2nd Round](https://www.rolandgarros.com/en-us/matches/2025/DD024)
+    - 1st Round | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LD60813525) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2025/DD049)
+    - 2nd Round | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LD60707893) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2025/DD024)
 
 ---
 
@@ -193,6 +227,47 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 ---
 
+### Elena Rybakina
+
+- [WTA Profile](https://www.wtatennis.com/players/324166/elena-rybakina)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/324166)
+
+**Grand Slam Titles:**
+
+| Tournament      | Year |
+| --------------- | ---- |
+| Australian Open | 2026 |
+| Wimbledon       | 2022 |
+
+**Matches:**
+
+- **2026 Italian Open - Clay Court - Loss** - [Match Stats](https://www.tennis.com/tournaments/internazionali-bnl-ditalia/matches/a-eala-vs-e-rybakina-2026-05-10)
+
+{{< youtube AgecNaf6eE4 >}}
+
+---
+
+### Coco Gauff
+
+- [WTA Profile](https://www.wtatennis.com/players/328560/coco-gauff)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/328560)
+
+**Grand Slam Titles:**
+
+| Tournament  | Year |
+| ----------- | ---- |
+| French Open | 2025 |
+| US Open     | 2023 |
+
+**Matches:**
+
+- **2026 Indian Wells - Hard Court - Win (Retired)** - [Match Stats](https://www.tennis.com/tournaments/bnp-paribas-open-indian-wells/matches/c-gauff-vs-a-eala-2026-03-09)
+- **2026 Dubai - Hard Court - Loss** - [Match Stats](https://www.tennis.com/tournaments/wta-dubai-uae/matches/c-gauff-vs-a-eala-2026-02-19)
+
+{{< youtube Z-NN1Y1lknY >}}
+
+---
+
 ### Barbora Krejcikova
 
 - [WTA Profile](https://www.wtatennis.com/players/318314/barbora-krejcikova)
@@ -211,8 +286,6 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - **2025 Wimbledon - Grass Court - Loss** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2553-wimbledon/sr-match-61511608/)
 
 {{< youtube PtLGq_avxI4 >}}
-
-
 
 {{< youtube G_gAodKKcEM >}}
 
@@ -271,8 +344,11 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
+- **2026 Linz - Clay Court - Loss** - [Match Stats](https://www.tennis.com/tournaments/upper-austria-ladies-linz/matches/j-ostapenko-vs-a-eala-2026-04-08)
 - **2025 Eastbourne Open - Grass Court - Win (Retired)** - [Match Stats](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS013)
 - **2025 Miami Open - Hard Court - Win** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906325/)
+
+{{< youtube pBmH23s_VJY >}}
 
 {{< youtube m0TgQhZNRxk >}}
 
@@ -280,14 +356,66 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 ## Matches Against Other Top 20 Players
 
+### Ekaterina Alexandrova
+
+- [WTA Profile](https://www.wtatennis.com/players/319007/ekaterina-alexandrova)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/319007)
+
+{{< youtube Cfn0SHv302U >}}
+
+---
+
+### Leylah Fernandez
+
+- [WTA Profile](https://www.wtatennis.com/players/326735/leylah-fernandez)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/326735)
+
+{{< youtube Opdw8Q_HFdQ >}}
+
+---
+
+### Iva Jovic
+
+- [WTA Profile](https://www.wtatennis.com/players/332285/iva-jovic)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/332285)
+
+{{< youtube WRTmI2IH0is >}}
+
+{{< youtube kv9jOR3P7O0 >}}
+
+---
+
+### Karolina Muchova
+
+- [WTA Profile](https://www.wtatennis.com/players/322191/karolina-muchova)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/322191)
+
+{{< youtube FRKYk8uPUJo >}}
+
+---
+
+### Linda Noskova
+
+- [WTA Profile](https://www.wtatennis.com/players/329668/linda-noskova)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/329668)
+
+{{< youtube wQ1Y2R4_dAU >}}
+
+---
+
+### Jasmine Paolini
+
+- [WTA Profile](https://www.wtatennis.com/players/319280/jasmine-paolini)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/319280)
+
+{{< youtube eUCpH8JRkg4 >}}
+
+---
+
 ### Jessica Pegula
 
 - [WTA Profile](https://www.wtatennis.com/players/316956/jessica-pegula)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/316956)
-
-**Matches:**
-
-- **2025 Miami Open - Hard Court - Loss** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906267/)
 
 {{< youtube efazYG5hSAA >}}
 
@@ -308,60 +436,19 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 ---
 
-### Jasmine Paolini
-
-- [WTA Profile](https://www.wtatennis.com/players/319280/jasmine-paolini)
-- [Head to Head](https://www.wtatennis.com/head-to-head/330332/319280)
-
-{{< youtube eUCpH8JRkg4 >}}
-
----
-
-### Ekaterina Alexandrova
-
-- [WTA Profile](https://www.wtatennis.com/players/319007/ekaterina-alexandrova)
-- [Head to Head](https://www.wtatennis.com/head-to-head/330332/319007)
-
-{{< youtube Cfn0SHv302U >}}
-
----
-
-### Linda Noskova
-
-- [WTA Profile](https://www.wtatennis.com/players/329668/linda-noskova)
-- [Head to Head](https://www.wtatennis.com/head-to-head/330332/329668)
-
-{{< youtube wQ1Y2R4_dAU >}}
-
----
-
-### Karolina Muchova
-
-- [WTA Profile](https://www.wtatennis.com/players/322191/karolina-muchova)
-- [Head to Head](https://www.wtatennis.com/head-to-head/330332/322191)
-
-{{< youtube FRKYk8uPUJo >}}
-
----
-
-### Leylah Fernandez
-
-- [WTA Profile](https://www.wtatennis.com/players/326735/leylah-fernandez)
-- [Head to Head](https://www.wtatennis.com/head-to-head/330332/326735)
-
-{{< youtube Opdw8Q_HFdQ >}}
-
----
-
 ## Matches to Watch Out For
 
-- [Naomi Osaka](https://www.wtatennis.com/head-to-head/330332/319998) - 2021, 2019 Australian Open and 2020, 2018 US Open Winner
-- [Aryna Sabalenka](https://www.wtatennis.com/head-to-head/330332/320760) - 2024, 2023 Australian Open and 2024 US Open Winner
-- [Coco Gauff](https://www.wtatennis.com/head-to-head/330332/328560) - 2025 French Open and 2023 US Open Winner
-- [Emma Raducanu](https://www.wtatennis.com/head-to-head/330332/328366) - 2021 US Open Winner
-- [Sofia Kenin](https://www.wtatennis.com/head-to-head/330332/320942) - 2020 Australian Open Winner
-- [Elena Rybakina](https://www.wtatennis.com/head-to-head/330332/324166) - 2026 Australian Open Winner
+- [Amanda Anisimova](https://www.wtatennis.com/head-to-head/330332/326384) - 2025 Wimbledon semifinalist
+- [Bianca Andreescu](https://www.wtatennis.com/head-to-head/330332/320962) - 2019 US Open Winner
 - [Mirra Andreeva](https://www.wtatennis.com/head-to-head/330332/331809) - Alex Eala defeated her when she won the 2022 Junior US Open
+- [Sofia Kenin](https://www.wtatennis.com/head-to-head/330332/320942) - 2020 Australian Open Winner
+- [Angelique Kerber](https://www.wtatennis.com/head-to-head/330332/318704) - 2016 Australian Open, 2016 US Open, and 2018 Wimbledon Winner
+- [Petra Kvitova](https://www.wtatennis.com/head-to-head/330332/316003) - 2011 and 2014 Wimbledon Winner
+- [Emma Navarro](https://www.wtatennis.com/head-to-head/330332/329682) - 2025 Strasbourg Winner; rising American top-20 fixture
+- [Naomi Osaka](https://www.wtatennis.com/head-to-head/330332/319998) - 2021, 2019 Australian Open and 2020, 2018 US Open Winner
+- [Emma Raducanu](https://www.wtatennis.com/head-to-head/330332/328366) - 2021 US Open Winner
+- [Aryna Sabalenka](https://www.wtatennis.com/head-to-head/330332/320760) - 2024, 2023 Australian Open and 2024 US Open Winner
+- [Qinwen Zheng](https://www.wtatennis.com/head-to-head/330332/316772) - 2024 Olympic gold and Roland Garros finalist
 
 ---
 
