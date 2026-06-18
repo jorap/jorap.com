@@ -72,9 +72,9 @@
             {{ if $tags }}
             <div class="not-prose mb-2 tags_section">
               <p class="mb-2 font-semibold text-ink">{{ T "tags" }}</p>
-              <ul>
+              <ul class="flex flex-wrap gap-2">
                 {{ range $i,$p:= $tags }}
-                <li class="inline-block">
+                <li>
                   <a class="bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1"
                     href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/">
                     {{ . | title }}
