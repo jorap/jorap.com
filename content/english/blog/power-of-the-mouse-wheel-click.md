@@ -1,7 +1,7 @@
 ---
 title: "The Power of the Mouse Wheel Click: One Button, Three Operating Systems, A Lot of Time Saved"
 meta_title: "The Mouse Wheel Click: Cross-Platform Power Move on Windows, Mac, and Linux"
-description: "I observe that most people right-click every single link to open it in a new tab. There's a faster way that works the exact same on Windows, Mac, and Linux - and most people never use it."
+description: "Most people right-click every link to open it in a new tab. There's a faster button right under their finger - same gesture on Windows, Mac, and Linux - and almost nobody uses it."
 slug: "power-of-the-mouse-wheel-click"
 date: 2026-05-28T05:00:00Z
 image: "/images/feature-mouse-wheel-click.jpg"

@@ -23,40 +23,16 @@ tags:
 draft: false
 ---
 
-This recipe is adjusted for a larger batch using 2 kg of chicken thighs. The liquid ratio is designed to work well in an 8-quart Instant Pot, providing enough moisture for pressure cooking while still allowing the sauce to reduce into a rich glaze afterward.
+I usually make adobo in a bigger batch - about 2 kg of bone-in thighs - and this version is tuned for an 8-quart Instant Pot. Enough liquid to pressure-cook without a burn notice, not so much that you're waiting forever for the glaze.
 
-## Why Use the Instant Pot?
+## Why I use the Instant Pot for adobo
 
-Using the Instant Pot for this Chicken Adobo recipe offers several key advantages:
+Stovetop adobo works. I've made it that way for years. But on a weeknight I'm not committing to an hour or two of simmering.
 
-### 1. Faster Cooking Time
+Pressure gets the same tender thighs in **10 minutes** under pressure, plus 10 minutes of natural release. The high pressure does what a long braise does - breaks down the collagen, keeps the meat juicy, pushes the soy-garlic marinade into the meat.
 
-The Instant Pot dramatically reduces cooking time compared to traditional stovetop or oven methods. For this recipe, cooking the chicken under pressure only takes 10 minutes. Normally, braising the chicken in a pot or simmering for an extended period (1 to 2 hours) would be required to get tender chicken and a flavorful sauce. The Instant Pot uses pressure to cook the chicken much faster, making this recipe perfect for busy weeknights or when you're short on time.
+The other thing I like: pressure cook in the Instant Pot, reduce the sauce in sauté mode at the end. I **don't** brown in the Instant Pot first - that's how I've gotten burn notices. I sear in a separate pan, then everything goes into a clean inner pot for pressure cooking. The liquid numbers below are what actually works in my 8-quart - not the generic "minimum 1 cup" advice that leaves you with soup.
 
-### 2. Tender Meat
-
-The pressure cooking function of the Instant Pot helps break down the collagen in the chicken, which results in exceptionally tender meat. Bone-in, skin-on chicken thighs are ideal for this, as they become more flavorful and juicy when cooked under pressure. The Instant Pot seals in the moisture, ensuring that the chicken stays juicy without drying out, which is key to making a delicious adobo.
-
-### 3. Flavor Infusion
-
-The Instant Pot’s pressure cooking feature ensures that the marinade ingredients-soy sauce, garlic, bay leaves, and peppercorns-penetrate deeply into the meat, giving the chicken a rich, concentrated flavor. This is particularly helpful for dishes like adobo, where the marinated meat benefits from long exposure to the seasonings. The tight seal of the Instant Pot locks in the flavors, helping the chicken absorb all the delicious elements of the adobo marinade in a much shorter time.
-
-### 4. Less Supervision
-
-Once the chicken is browned and the ingredients are added to the pot, you don’t need to watch over the dish constantly. The Instant Pot takes care of the cooking process, including the pressure cooking, natural release, and even the sautéing. This allows you to focus on other tasks while dinner is cooking, making the Instant Pot perfect for multitasking.
-
-### 5. Minimal Cleanup
-
-Using the Instant Pot reduces the need for multiple pots and pans. You brown the chicken, cook it, and reduce the sauce all in one pot, making cleanup much easier. The sauté function eliminates the need for a separate pan for browning, and the inner pot is easy to clean once you’re done.
-
-### 6. Sautéing and Sauce Reduction
-
-The Instant Pot’s sauté function gives you the option to brown the chicken before pressure cooking, enhancing the flavor with a caramelized crust. After cooking, you can also use the sauté mode to reduce the sauce, concentrating the flavors and achieving the perfect consistency without any extra steps or stovetop use. This versatility allows you to achieve both the deep, rich flavor of traditional adobo and a beautifully reduced sauce in one appliance.
-
-### 7. Efficient Liquid Management
-
-The Instant Pot allows for precise control over the liquid levels needed for pressure cooking. This recipe specifies the right amount of liquid for the Instant Pot, so the chicken cooks properly without creating too much steam or liquid overflow. The high pressure helps extract all the flavors from the marinade and reduce the sauce quickly without overcooking or diluting the flavors.
-  
 ---
 
 ## Recipe: Instant Pot Chicken Adobo
@@ -76,10 +52,10 @@ The Instant Pot allows for precise control over the liquid levels needed for pre
 
 #### Cooking Liquids
 
-- 105-110 ml vinegar  
-    - Practical measure: 7 tbsp or ⅓ cup + 2 tbsp  
+- 105-110 ml vinegar  
+    - Practical measure: 7 tbsp or ⅓ cup + 2 tbsp  
     - If using extra vinegar, add the extra 10 ml vinegar at the end with the sauce for sharper flavor
-- 160 ml water, about ⅔ cup  
+- 160 ml water, about ⅔ cup  
     - Use 120 ml water for a thicker sauce
 
 #### Vinegar Options
@@ -91,7 +67,7 @@ The Instant Pot allows for precise control over the liquid levels needed for pre
 
 Choose one:
 
-- 1⅓ tsp brown sugar  
+- 1⅓ tsp brown sugar 
 
 or
 
@@ -130,22 +106,20 @@ Do not add vinegar to the marinade.
 
 ### Step 2: Brown the Chicken
 
-Set the Instant Pot to Sauté, High.
+**Use a separate pan** - a skillet or wok on the stovetop. I don't brown in the Instant Pot; it's the easiest way I've found to avoid a burn notice later.
 
 Remove the chicken from the marinade and reserve the marinade.
 
 Brown the chicken skin-side down for 3-4 minutes. Flip and brown the other side briefly.
 
-Since this recipe uses 2 kg of chicken, brown the chicken in 2 batches so the pieces sear properly instead of steaming.
+Since this recipe uses 2 kg of chicken, brown in 2 batches so the pieces sear properly instead of steaming.
 
 ### Step 3: Build the Cooking Base
 
-Add the following to the pot:
+Transfer the browned chicken to the Instant Pot. Add:
 
 - Reserved marinade
 - Water
-
-Scrape the bottom of the pot well to release browned bits. Stuck food or insufficient liquid may trigger a burn notice.
 
 Add the vinegar last.
 
@@ -166,11 +140,11 @@ After 10 minutes of natural release, release the remaining pressure manually.
 
 Remove the chicken temporarily.
 
-Set the Instant Pot to Sauté and simmer the sauce for 8-12 minutes, or until slightly reduced.
+**Now** use Sauté mode - simmer the sauce for 8-12 minutes, or until slightly reduced.
 
 Add sweetener, if using:
 
-- 1⅓ tsp brown sugar  
+- 1⅓ tsp brown sugar 
 
 or
 

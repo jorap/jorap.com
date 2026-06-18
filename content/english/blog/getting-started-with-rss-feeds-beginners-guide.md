@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with RSS Feeds: A Beginner's Guide"
-meta_title: "RSS Feeds for Streamlined Content Discovery | Complete Beginner's Guide"
+meta_title: "Getting Started with RSS Feeds: A Beginner's Guide"
 description: "I figured RSS quietly died around 2010. A friend pointed out it never actually did - it just stopped being trendy. Two weeks of using it later, I was a convert."
 slug: "getting-started-with-rss-feeds-a-beginners-guide"
 date: 2024-03-30T05:00:00Z
@@ -102,5 +102,3 @@ RSS is not exciting. It will not get you likes. It's older than most of the apps
 But it works. It's been quietly working for over twenty years. And while everyone else is trying to keep up with whatever new platform is supposed to fix our content overload, you can just... read what you wanted to read, in the order it was published, when you have time.
 
 Start with five feeds. Three folders. One coffee. See how it feels.
-
-If you try it, let me know what you ended up subscribing to - I'm always looking for new things to add to my own list.

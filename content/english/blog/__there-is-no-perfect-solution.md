@@ -1,12 +1,13 @@
 ---
 title: "There Is No Perfect Solution"
-meta_title: "There Is No Perfect Solution — Only Tradeoffs"
+meta_title: "There Is No Perfect Solution - Only Tradeoffs"
 description: "Waiting for the perfect tool, plan, or answer feels responsible. It's often the nirvana fallacy. Here's why I choose good-enough tradeoffs on purpose."
 date: 2026-06-18T06:03:00Z
 image: "/images/image-template.jpg"
 categories: ["Ideas", "Productivity", "Tips"]
 author: "JoRap"
 tags: ["Decision Making", "Tradeoffs", "Productivity", "Mindset"]
+slug: "there-is-no-perfect-solution"
 draft: true
 ---
 
@@ -14,7 +15,7 @@ I used to stall decisions by researching one more option. One more theme. One mo
 
 The hidden belief: **somewhere there's a perfect choice** with no downsides. If I just look harder, I'll find it.
 
-That's the **nirvana fallacy** — comparing real options to an imaginary ideal, then rejecting everything real because it isn't flawless.
+That's the **nirvana fallacy** - comparing real options to an imaginary ideal, then rejecting everything real because it isn't flawless.
 
 ---
 
@@ -72,7 +73,7 @@ Even then, it's **informed tradeoffs**, not imaginary perfection.
 
 ## Bottom line
 
-There is often **no perfect solution** — only options with costs you'll live with.
+There is often **no perfect solution** - only options with costs you'll live with.
 
 Choose the tradeoff you can sustain, ship it, and fix forward. The nirvana fallacy feels like wisdom. It's usually procrastination in a thoughtful hat.
 

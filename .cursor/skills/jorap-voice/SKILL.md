@@ -9,7 +9,7 @@ description: >-
 
 # JoRap Voice
 
-Keep blog posts sounding like JoRap wrote them — practical, personal, and plain-spoken — not like a content mill, a product listing, or ChatGPT with a thesaurus.
+Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-spoken - not like a content mill, a product listing, or ChatGPT with a thesaurus.
 
 **Primary test:** Would a reader think a real person typed this after using the thing? If it reads like a summary of what a good post *should* say, rewrite it.
 
@@ -22,13 +22,13 @@ Keep blog posts sounding like JoRap wrote them — practical, personal, and plai
 
 ## Workflow
 
-1. **Read 1–2 reference posts** in the same category before writing. Good defaults:
+1. **Read 1-2 reference posts** in the same category before writing. Good defaults:
    - Gear/reviews: `content/english/blog/what-i-look-for-in-wireless-earphones.md`
    - Tech/how-to: `content/english/blog/how-i-built-joraps-world.md`
    - Tips: `content/english/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md`
    - Opinion: `content/english/blog/top-reasons-why-you-still-need-use-desktop-laptop.md`
 2. **Draft in the author's voice**, not a generic blogger voice.
-3. **Run the de-AI pass** (below) — mandatory, even on small edits.
+3. **Run the de-AI pass** (below) - mandatory, even on small edits.
 4. **Run the voice check** (below) before finishing.
 5. For before/after samples and anti-patterns, see [examples.md](examples.md).
 
@@ -36,34 +36,34 @@ Keep blog posts sounding like JoRap wrote them — practical, personal, and plai
 
 | Pillar | What it means |
 |--------|----------------|
-| **Experiential** | Write from lived use — drawers full of failed gear, weekends lost to themes, borrowed laptops for taxes. |
+| **Experiential** | Write from lived use - drawers full of failed gear, weekends lost to themes, borrowed laptops for taxes. |
 | **Opinionated** | State preferences plainly. "I want buttons. Real ones." Not "some users may prefer physical controls." |
 | **Practical** | Lead with what matters day to day. Cut specs, marketing fluff, and features nobody actually uses. |
 | **Honest** | Include what broke, what you'd skip, what ended up in a drawer. Credibility beats polish. |
-| **Grounded** | Real context — family, commute, home office, Philippines (Shopee, jeepney, local sellers) when relevant. Not forced, just natural. |
+| **Grounded** | Real context - family, commute, home office, Philippines (Shopee, jeepney, local sellers) when relevant. Not forced, just natural. |
 | **Understated humor** | Dry asides, not jokes-for-the-sake-of-jokes. "The most boring possible reason to spend an hour debugging." |
 
 ## Sound human, not AI
 
 AI writing is smooth, balanced, and empty. JoRap writing is specific, uneven, and earned.
 
-### Human markers — include these
+### Human markers - include these
 
-- **Specifics**: prices ($30–$60), durations (90 minutes, 10 minutes under pressure), model names, exact failures ("third batch of chicken steamed instead of seared").
-- **Contractions**: it's, don't, I've, won't, that's — most of the time.
+- **Specifics**: prices ($30-$60), durations (90 minutes, 10 minutes under pressure), model names, exact failures ("third batch of chicken steamed instead of seared").
+- **Contractions**: it's, don't, I've, won't, that's - most of the time.
 - **Sentence variety**: one-word sentences. Short punches. Then a longer sentence that actually explains something.
 - **Imperfect rhythm**: not every paragraph needs three sentences. Not every section needs the same shape.
 - **A real take**: end sections with what *you* do, not what "one should consider."
 - **Lived friction**: what annoyed you, what you got wrong, what you'd skip next time.
 
-### AI tells — remove these
+### AI tells - remove these
 
 - **Hollow openers**: "When it comes to…", "In the world of…", "X has become increasingly important…"
-- **Significance inflation**: "crucial", "vital", "essential", "plays a key role", "it's important to remember" — unless something is actually life-or-death, dial it down.
-- **Transition spam**: Furthermore, Additionally, Moreover, That said, With that in mind — cut most of them. Start the next thought.
-- **Parallelism disease**: three bullets that all start with "Ensures…" / "Provides…" / "Delivers…" — rewrite as plain speech.
+- **Significance inflation**: "crucial", "vital", "essential", "plays a key role", "it's important to remember" - unless something is actually life-or-death, dial it down.
+- **Transition spam**: Furthermore, Additionally, Moreover, That said, With that in mind - cut most of them. Start the next thought.
+- **Parallelism disease**: three bullets that all start with "Ensures…" / "Provides…" / "Delivers…" - rewrite as plain speech.
 - **Summary sandwiches**: don't announce what you'll say, say it, then restate it. Say it once, well.
-- **Fake balance**: "While X has benefits, Y also has drawbacks" on every point — pick a side when you have one.
+- **Fake balance**: "While X has benefits, Y also has drawbacks" on every point - pick a side when you have one.
 - **Abstract nouns**: "functionality", "utilization", "optimization" → what does it actually *do*?
 - **No subject**: "It is recommended to…" → "I'd get…" / "Skip…"
 - **Thesaurus voice**: delve, landscape, navigate, leverage, robust, seamless, elevate, realm, tapestry, harness, comprehensive.
@@ -77,20 +77,20 @@ Read the draft aloud (or simulate it). For each paragraph ask:
 2. Is this saying something or just sounding like it's saying something? → cut or replace with a concrete claim.
 3. Would JoRap actually type this sentence? → if not, simplify the words and add "I".
 
-If a section still feels generated, rewrite it from scratch using one real memory or opinion — don't polish AI slop.
+If a section still feels generated, rewrite it from scratch using one real memory or opinion - don't polish AI slop.
 
 ## Tone
 
-- **First person**: "I", "my", "what I look for" — this is a personal site, not a brand blog.
+- **First person**: "I", "my", "what I look for" - this is a personal site, not a brand blog.
 - **Direct address** when giving advice: "Be honest with yourself before you start."
-- **Conversational but edited** — sounds like someone talking, but sentences are tight. No filler paragraphs.
-- **Confident, not preachy** — share what works for you; don't lecture.
+- **Conversational but edited** - sounds like someone talking, but sentences are tight. No filler paragraphs.
+- **Confident, not preachy** - share what works for you; don't lecture.
 
 ## Structure patterns
 
 ### Opening
 
-Hook with a relatable situation, frustration, or small story — not a dictionary definition or "In today's world…"
+Hook with a relatable situation, frustration, or small story - not a dictionary definition or "In today's world…"
 
 Good patterns:
 - Personal history that narrows to the point ("I've been through a lot of wireless earphones…")
@@ -100,7 +100,7 @@ Good patterns:
 ### Body
 
 - Use `---` between major sections on longer posts.
-- **H2 headings with personality** — "All-day comfort, not 'good for an hour'" not "Comfort Considerations".
+- **H2 headings with personality** - "All-day comfort, not 'good for an hour'" not "Comfort Considerations".
 - Mix short punchy sentences with longer explanatory ones.
 - Numbered lists for checklists; prose for arguments and stories.
 - **Bold** for the one phrase that carries the section's point.
@@ -112,11 +112,11 @@ Land on what you actually use, what you'd buy again, or a plain recommendation. 
 ### Frontmatter
 
 - `description`: first person, concrete, often mentions personal experience. Not keyword-stuffed.
-- `meta_title`: useful and specific — not clickbait, not "Ultimate Guide to…" unless the post truly is a full guide.
+- `meta_title`: useful and specific - not clickbait, not "Ultimate Guide to…" unless the post truly is a full guide.
 
 ## Recipe posts (variant)
 
-Recipe content can be more instructional — ingredients, steps, timings — but section intros should still sound human. Avoid generic food-blog filler ("This delicious recipe will tantalize your taste buds"). Keep the "why this method" parts in JoRap voice; keep the method itself scannable.
+Recipe content can be more instructional - ingredients, steps, timings - but section intros should still sound human. Avoid generic food-blog filler ("This delicious recipe will tantalize your taste buds"). Keep the "why this method" parts in JoRap voice; keep the method itself scannable.
 
 ## Voice check
 
@@ -125,10 +125,10 @@ Before finishing, verify:
 - [ ] Opens with experience or a concrete problem, not a generic intro
 - [ ] Uses "I" and real scenarios, not "users" and "one might"
 - [ ] At least one specific detail per section (number, name, place, mistake, price)
-- [ ] States opinions clearly — no endless "it depends" without a take
+- [ ] States opinions clearly - no endless "it depends" without a take
 - [ ] No AI-slop phrases or thesaurus words (see examples.md)
 - [ ] No corporate/marketing language ("leverage", "robust", "seamless experience")
-- [ ] Sentence lengths vary — not a wall of same-shaped paragraphs
+- [ ] Sentence lengths vary - not a wall of same-shaped paragraphs
 - [ ] Section headings sound like JoRap, not a product manual
 - [ ] Would sound natural read aloud by a person, not narrated by a help article
 - [ ] Frontmatter description sounds like the author, not an SEO bot
@@ -139,15 +139,17 @@ Before finishing, verify:
 - Add engagement bait ("Let me know in the comments!", "What do you think?")
 - Pad with obvious filler or restate the heading in the first sentence
 - Use emoji in post body
+- Use em dashes; use a normal hyphen (-), comma, or parentheses instead
 - Over-hedge every claim ("might potentially perhaps")
 - Write listicle intros that promise "10 game-changing tips"
 - Turn personal gear picks into affiliate-marketing tone
 
 ## Expanding outlines
 
-When a post is only an outline (see `extension-cord.md`, `wifi-router.md`):
+When a post is only an outline (see `__extension-cord.md`, `__wifi-router.md`):
 
 1. Keep the outline's intent and section order.
-2. Write each section as prose-first — not bullet dumps unless it's a genuine checklist.
+2. Write each section as prose-first - not bullet dumps unless it's a genuine checklist.
 3. Add the personal thread: why this topic, what you learned, what you'd tell a friend.
 4. Preserve Hugo frontmatter; set `draft: true` until the user publishes.
+5. **Draft filenames** use a `__` prefix (e.g. `__wifi-router.md`) so drafts sort apart in the file tree. Set `slug` to the publish name without the prefix (e.g. `slug: "wifi-router"`). To publish: drop the `__` prefix from the filename, set `draft: false`, and remove the `slug` line if it matches the filename.

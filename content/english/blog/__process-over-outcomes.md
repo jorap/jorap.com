@@ -1,12 +1,13 @@
 ---
 title: "Process Over Outcomes"
-meta_title: "Process Over Outcomes — Why James Clear's Line Stuck"
-description: "Results matter — but optimizing only for outcomes wins once. Optimizing for a repeatable process wins again and again."
+meta_title: "Process Over Outcomes - Why James Clear's Line Stuck"
+description: "Results matter - but optimizing only for outcomes wins once. Optimizing for a repeatable process wins again and again."
 date: 2026-06-18T06:06:00Z
 image: "/images/image-template.jpg"
 categories: ["Ideas", "Productivity", "Tips"]
 author: "JoRap"
 tags: ["James Clear", "Process", "Habits", "Mindset"]
+slug: "process-over-outcomes"
 draft: true
 ---
 
@@ -16,14 +17,14 @@ Yes. Results matter.
 
 But here's the line I saved from my notes and still quote:
 
-> If you optimize for the outcome, you win one time.  
+> If you optimize for the outcome, you win one time. 
 > If you optimize for a process that leads to great outcomes, you can win again and again.
 
 ---
 
 ## Outcome obsession feels responsible
 
-We're graded on results — revenue, rankings, weight, launch dates. Outcomes are visible. Processes are boring.
+We're graded on results - revenue, rankings, weight, launch dates. Outcomes are visible. Processes are boring.
 
 So we chase **the perfect result once**: crash diet before an event, all-nighter before a deadline, hero sprint to ship a feature.
 
@@ -45,7 +46,7 @@ Processes compound. Outcomes spike.
 
 ## How I apply it
 
-**Blogging:** I don't aim for one masterpiece post. I aim for **a repeatable pipeline** — capture in TiddlyWiki, draft in Markdown, push to Hugo. Some posts pop; most are steady. The site grows because the process runs.
+**Blogging:** I don't aim for one masterpiece post. I aim for **a repeatable pipeline** - capture in TiddlyWiki, draft in Markdown, push to Hugo. Some posts pop; most are steady. The site grows because the process runs.
 
 **Health:** Consistent walks and sleep beat occasional punishment workouts.
 
@@ -57,7 +58,7 @@ Processes compound. Outcomes spike.
 
 Processes need **direction**. "Publish daily" without a topic strategy is noise. "Ship every Friday on topics from my Second Brain" has a compass.
 
-Review outcomes **quarterly** to adjust the process — don't ignore results, just don't bet everything on a single heroic result.
+Review outcomes **quarterly** to adjust the process - don't ignore results, just don't bet everything on a single heroic result.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "DNPAP - Song Resources"
 meta_title: "DNPAP - Song Resources by Destiny Music | Spotify, YouTube, Lyrics"
-description: "Discover everything about 'DNPAP' (Diyos Ng Pagasa at Pagibig) by Destiny Music. Stream the song, watch the videos, and access all resources here."
+description: "DNPAP (Diyos Ng Pagasa at Pagibig) by Destiny Music has become one of my favorite worship songs from the local scene - studio version, live recording, music video, and lyrics, all in one place."
 slug: "dnpap-song-resources"
 date: 2022-11-12T05:00:00Z
 image: "/images/feature-dnpap.jpg"
@@ -56,10 +56,10 @@ DNPAP stands for **"Diyos Ng Pagasa at Pagibig"** - Filipino for **"God of Hope 
 
 ## Quick links
 
-| Platform                | Link                                                                  |
+| Platform | Link |
 | :---------------------- | :-------------------------------------------------------------------- |
 | Spotify - Destiny Music | [Listen Here](https://open.spotify.com/artist/12t16fNXKGzNRO5p81Xvyo) |
-| DNPAP Single (Spotify)  | [Listen Here](https://open.spotify.com/track/5ikuIeKWiuCKMxvu5gloyl)  |
-| DNPAP Live (Spotify)    | [Listen Here](https://open.spotify.com/track/3OAGH2cFDbtgiO8yePaWDB)  |
-| Music Video (YouTube)   | [Watch Here](https://youtu.be/8sSm0pBeX6U)                            |
-| Lyric Video (YouTube)   | [Watch Here](https://youtu.be/wc5eNg5DDSs)                            |
+| DNPAP Single (Spotify) | [Listen Here](https://open.spotify.com/track/5ikuIeKWiuCKMxvu5gloyl) |
+| DNPAP Live (Spotify) | [Listen Here](https://open.spotify.com/track/3OAGH2cFDbtgiO8yePaWDB) |
+| Music Video (YouTube) | [Watch Here](https://youtu.be/8sSm0pBeX6U) |
+| Lyric Video (YouTube) | [Watch Here](https://youtu.be/wc5eNg5DDSs) |

@@ -7,6 +7,7 @@ image: "/images/image-template.jpg"
 categories: ["Sample"]
 author: "JoRap"
 tags: ["Hugo CMS", "Markdown", "Shortcodes"]
+slug: "blog-template"
 draft: true
 ---
 {{< toc >}}

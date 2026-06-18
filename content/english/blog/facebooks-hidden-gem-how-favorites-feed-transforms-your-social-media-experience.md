@@ -1,6 +1,6 @@
 ---
-title: "Facebook's Hidden Gem: How the Favorites Feed Transforms Your Social Media Experience"
-meta_title: "Mastering Facebook's Favorites Feed: Your Ultimate Guide to a Personalized Experience"
+title: "Facebook's Hidden Gem: The Favorites Feed"
+meta_title: "Facebook's Favorites Feed: The Only Reason I Still Open the App"
 description: "I almost deleted Facebook a couple of years ago. Then I stumbled onto a built-in feature most people don't know exists - and it's the only reason I still open the app."
 slug: "facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience"
 date: 2024-02-04T05:00:00Z

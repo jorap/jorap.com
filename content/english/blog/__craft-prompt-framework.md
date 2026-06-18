@@ -1,18 +1,19 @@
 ---
 title: "The CRAFT Prompt Framework"
-meta_title: "CRAFT — How to Write Prompts That Actually Work"
-description: "Vague prompts get vague answers. The CRAFT framework — Context, Role, Action, Format, Target Audience — is how I build prompts that don't leave the model guessing."
+meta_title: "CRAFT - How to Write Prompts That Actually Work"
+description: "Vague prompts get vague answers. The CRAFT framework - Context, Role, Action, Format, Target Audience - is how I build prompts that don't leave the model guessing."
 date: 2026-06-18T06:13:00Z
 image: "/images/image-template.jpg"
 categories: ["AI", "Writing", "Tips"]
 author: "JoRap"
 tags: ["AI", "Prompts", "ChatGPT", "CRAFT", "Writing"]
+slug: "craft-prompt-framework"
 draft: true
 ---
 
 "Write me a blog post about productivity" is a coin flip. You might get gold. You might get oatmeal.
 
-The prompts I keep in my Second Brain — like **The Ultimate Prompt To Write The Best Prompts** — share a structure. I call it **CRAFT** (not my invention, but the acronym I actually use when prompting).
+The prompts I keep in my Second Brain - like **The Ultimate Prompt To Write The Best Prompts** - share a structure. I call it **CRAFT** (not my invention, but the acronym I actually use when prompting).
 
 ---
 
@@ -24,7 +25,7 @@ The prompts I keep in my Second Brain — like **The Ultimate Prompt To Write Th
 | **R** | Role | Who should the model be? Expertise level, voice, years of experience |
 | **A** | Action | Numbered steps the model should follow, in order |
 | **F** | Format | Essay, table, markdown, HTML, bullets, word count, headings |
-| **T** | Target audience | Who reads the output — literacy level, job, geography |
+| **T** | Target audience | Who reads the output - literacy level, job, geography |
 
 Miss any letter and you get **generic middle**.
 
@@ -46,7 +47,7 @@ ACTION:
 4) Take it one step at a time.
 5) Write the final prompt.
 
-FORMAT: Use CRAFT sections — Context, Role, Action, Format, Target Audience.
+FORMAT: Use CRAFT sections - Context, Role, Action, Format, Target Audience.
 
 TARGET AUDIENCE: ChatGPT 4o or later.
 ```
@@ -55,7 +56,7 @@ Then supply your topic: "Prompt for a Hugo blog migration checklist," etc.
 
 ---
 
-## Mini example — monthly goals guide
+## Mini example - monthly goals guide
 
 **Context:** Guide for setting and tracking monthly goals; break annual objectives into actionable monthly steps; SMART-friendly.
 
@@ -75,7 +76,7 @@ Then supply your topic: "Prompt for a Hugo blog migration checklist," etc.
 
 **Target audience:** Working professionals 25–55, practical, ~6th grade reading level.
 
-That's enough for a usable first draft — because the model isn't guessing the shape.
+That's enough for a usable first draft - because the model isn't guessing the shape.
 
 ---
 
@@ -94,23 +95,23 @@ You reuse the skeleton. You don't rewrite from scratch.
 
 ## Common failures
 
-- **Role without context** — "You're an expert" at what, for whom?
-- **Action as a paragraph** — numbered steps win
-- **Format omitted** — you get essay when you needed HTML
-- **Audience omitted** — you get academic when you needed blog casual
+- **Role without context** - "You're an expert" at what, for whom?
+- **Action as a paragraph** - numbered steps win
+- **Format omitted** - you get essay when you needed HTML
+- **Audience omitted** - you get academic when you needed blog casual
 
 ---
 
 ## Further reference
 
-- [How To AI — Lawton Solutions](https://lawtonsolutions.com/How-To-AI/) — linked from my wiki tiddler
+- [How To AI - Lawton Solutions](https://lawtonsolutions.com/How-To-AI/) - linked from my wiki tiddler
 - YouTube walkthrough on the meta-prompt (embedded in my [ideas.jorap.com](https://ideas.jorap.com/) notes)
 
 ---
 
 ## Bottom line
 
-CRAFT isn't bureaucracy. It's **kindness to future-you** — and to the model.
+CRAFT isn't bureaucracy. It's **kindness to future-you** - and to the model.
 
 Context, Role, Action, Format, Target Audience. Five boxes. Fill them before you hit enter, and "ultimate prompts" stop being luck.
 

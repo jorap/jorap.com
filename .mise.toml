@@ -1,0 +1,6 @@
+# Local dev toolchain (Hugo min matches config/_default/module.toml)
+[tools]
+node = "22"
+go = "1.24.2"
+pnpm = "latest"
+hugo-extended = "0.163.2"

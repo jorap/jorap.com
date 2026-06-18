@@ -1,6 +1,6 @@
 ---
 title: "The Miracle of Isaiah David"
-meta_title: "The Miracle of Isaiah David - A Story of Hope and Faith"
+meta_title: "The Miracle of Isaiah David - Found Out and Gave Birth the Same Day"
 description: "On May 8, 2020, Pia and I found out she was pregnant - and gave birth to our son the same day. Years later, that sentence still doesn't feel real. Here's how it actually unfolded."
 slug: "miracle-isaiah-david"
 date: 2023-05-08T05:00:00Z
@@ -23,7 +23,7 @@ The story ended up reaching far more people than we ever imagined, but I want to
 
 A few days after Isaiah was born, while still trying to process everything, I sat down and wrote it all out on Facebook. I just wanted our friends and family to know what happened, in our own words, before the news traveled too far.
 
-{{< image src="images/fb-post-isaiah-david.jpg" caption="Finding out you're pregnant and giving birth on the same day, during ECQ!!!" alt="Finding out you're pregnant and giving birth on the same day, during ECQ!!!" height="" width="" position="center" command="fill" option="q75" class="img-fluid" title="Finding out you're pregnant and giving birth on the same day, during ECQ!!!"  webp="true" >}}
+{{< image src="images/fb-post-isaiah-david.jpg" caption="Finding out you're pregnant and giving birth on the same day, during ECQ!!!" alt="Finding out you're pregnant and giving birth on the same day, during ECQ!!!" height="" width="" position="center" command="fill" option="q75" class="img-fluid" title="Finding out you're pregnant and giving birth on the same day, during ECQ!!!" webp="true" >}}
 
 [Original Facebook post](https://www.facebook.com/story.php?story_fbid=10157266063333161&id=567318160&rdid=8BPSwIPMx743NK8z)
 
@@ -113,9 +113,9 @@ That part still surprises me. We didn't set out to inspire anyone. We just wrote
 
 ## Other places that wrote about it
 
-| Publication     | Article                                                                                                                                                           |
+| Publication | Article |
 | :-------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| GMA News Online | [The Miracle on May 8](https://www.gmanetwork.com/news/specials/content/155/the-miracle-on-may-8/)                                                                |
+| GMA News Online | [The Miracle on May 8](https://www.gmanetwork.com/news/specials/content/155/the-miracle-on-may-8/) |
 | Smart Parenting | [Cryptic Pregnancy: Rapusas Family Story](https://www.smartparenting.com.ph/pregnancy/labor-and-childbirth/cryptic-pregnancy-rapusas-family-a00228-20200605-lfrm) |
 
 ---

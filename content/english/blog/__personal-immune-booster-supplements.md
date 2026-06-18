@@ -1,16 +1,17 @@
 ---
 title: "Personal Immune Booster Supplements"
-meta_title: "Personal Immune Booster Supplements — What's In My Stack"
-description: "Not medical advice — just the immune-support supplements I keep in rotation, what the research-ish case is, and how I actually take them."
+meta_title: "Personal Immune Booster Supplements - What's In My Stack"
+description: "Not medical advice - just the immune-support supplements I keep in rotation, what the research-ish case is, and how I actually take them."
 date: 2026-06-18T06:10:00Z
 image: "/images/image-template.jpg"
 categories: ["Health", "Tips"]
 author: "JoRap"
 tags: ["Supplements", "Health", "Immune System", "Wellness"]
+slug: "personal-immune-booster-supplements"
 draft: true
 ---
 
-**Disclaimer:** I'm not a doctor. This isn't medical advice. Talk to a clinician before starting supplements — especially if you take medication, are pregnant, or have chronic conditions. This post is my personal notes from research and habit, exported from my Second Brain.
+**Disclaimer:** I'm not a doctor. This isn't medical advice. Talk to a clinician before starting supplements - especially if you take medication, are pregnant, or have chronic conditions. This post is my personal notes from research and habit, exported from my Second Brain.
 
 ---
 
@@ -26,7 +27,7 @@ Supplements don't replace vaccines, hand washing, or rest. They're **margin**, n
 
 ### Elderberry
 
-Traditional use for colds; some studies suggest shorter symptom duration. I don't treat it as a cure — more **early-season support** when everyone around me is sniffling.
+Traditional use for colds; some studies suggest shorter symptom duration. I don't treat it as a cure - more **early-season support** when everyone around me is sniffling.
 
 References I saved:
 
@@ -35,11 +36,11 @@ References I saved:
 
 ### Vitamin D3
 
-Common deficiency; role in immune function. I take **D3** with a meal containing fat. Dose should follow labs if possible — blind megadosing isn't the goal.
+Common deficiency; role in immune function. I take **D3** with a meal containing fat. Dose should follow labs if possible - blind megadosing isn't the goal.
 
 ### Zinc (picolinate)
 
-Zinc shows up in a lot of immune conversations. **Picolinate** is one form I tolerate. I don't take high zinc long-term without guidance — too much causes problems.
+Zinc shows up in a lot of immune conversations. **Picolinate** is one form I tolerate. I don't take high zinc long-term without guidance - too much causes problems.
 
 ### Quercetin
 
@@ -47,11 +48,11 @@ Flavonoid often paired with vitamin C in immune stacks. Evidence is mixed; I tre
 
 ### NAC (N-acetylcysteine)
 
-Precursor to glutathione; mucolytic uses exist clinically. Some people take it for respiratory support. Regulation varies by country — check what's legal and appropriate where you live.
+Precursor to glutathione; mucolytic uses exist clinically. Some people take it for respiratory support. Regulation varies by country - check what's legal and appropriate where you live.
 
 ### Vitamin C
 
-**~2 grams daily** is what my notes say I target during high-exposure weeks — split doses, not one heroic scoop. Food sources first; supplement fills gaps.
+**~2 grams daily** is what my notes say I target during high-exposure weeks - split doses, not one heroic scoop. Food sources first; supplement fills gaps.
 
 ---
 
@@ -68,7 +69,7 @@ Precursor to glutathione; mucolytic uses exist clinically. Some people take it f
 
 - Elderberry
 - NAC when respiratory stuff is circulating
-- Slightly higher vigilance on sleep — honestly the biggest lever
+- Slightly higher vigilance on sleep - honestly the biggest lever
 
 ---
 
@@ -83,10 +84,10 @@ Precursor to glutathione; mucolytic uses exist clinically. Some people take it f
 
 ## The boring stuff that works better
 
-- **Sleep** — seven hours beats seven supplements
-- **Water and food** — actual meals, not just gummies
-- **Movement** — walks count
-- **Stress** — cortisol isn't a meme; it matters
+- **Sleep** - seven hours beats seven supplements
+- **Water and food** - actual meals, not just gummies
+- **Movement** - walks count
+- **Stress** - cortisol isn't a meme; it matters
 
 ---
 

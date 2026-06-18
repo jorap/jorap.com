@@ -31,6 +31,7 @@ Hugo reads what templates expect, so **mirror an existing file in the same secti
 ## Naming, Images, i18n
 
 - Kebab-case filenames → URL slug (`my-post.md` → `/blog/my-post/`). Section landing = `_index.md` (branch bundle); co-located resources = `page/index.md` (leaf bundle).
+- **Draft posts** (this site): prefix the filename with `__` (e.g. `__my-post.md`) and set `draft: true`. Add `slug: "my-post"` so preview URLs stay clean. To publish, rename without the prefix and set `draft: false`.
 - Images go under `assets/images/` and use image module `{{ partial "image" (dict "Src" .image "Alt" "..." "Loading" "eager" "Class" "..." "DisplayXL" "800x") }}` — don't hand-write `<img>`.
 
 ## Common Mistakes / What NOT to do

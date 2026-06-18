@@ -15,13 +15,13 @@ So I've gotten into this habit of making **Arroz Caldo** during the weekend prep
 
 It's become my little reward system after a long work week - comfort food that actually makes you feel good instead of guilty afterward. Plus, that gingery goodness is exactly what your tummy needs.
 
-The real game changer? A rice cooker with this congee setting that basically does all the work for you. Total time is maybe an hour, but you're only actively doing stuff for like 5 minutes. The rest of the time you can relax and enjoy the wonderful aroma filling your kitchen.
+The part that sold me: a rice cooker with a congee setting that basically does all the work. Total time is maybe an hour, but you're only actively doing stuff for like 5 minutes. The rest of the time you can relax and enjoy the wonderful aroma filling your kitchen.
 
 **Takes about an hour total, feeds 4-6 people (perfect for meal prep or feeding a crowd)**
 
 ## The Magic Rice Cooker Situation
 
-The real game changer? A rice cooker with a congee setting that basically does all the work for you. I use the **[Hanabishi Congee & Rice Cooker Series HRCR2C](https://myhanabishi.com/collections/rice-cookers-3/products/rice-cooker-hrc-r2c?variant=45693133881625)**, but any rice cooker with a congee or porridge function will work. Set it and literally forget it.
+I use the **[Hanabishi Congee & Rice Cooker Series HRCR2C](https://myhanabishi.com/collections/rice-cookers-3/products/rice-cooker-hrc-r2c?variant=45693133881625)**, but any rice cooker with a congee or porridge function will work. Set it and literally forget it.
 
 Also, pro tip: always use chicken thigh fillets. They're fattier and more forgiving than breast meat, plus they stay tender even if you cook them a bit longer.
 
@@ -77,4 +77,4 @@ I originally learned this watching **[Panlasang Pinoy's version](https://panlasa
 
 {{< youtube_time id="7lka80ZAays" start="14" end="388" >}}
 
-Anyway, that's my Friday night ritual! Let me know if you try it - I'm always curious to hear how other people make their arroz caldo.
+Anyway, that's my Friday night ritual. Five minutes of chopping, then the kitchen does the rest.

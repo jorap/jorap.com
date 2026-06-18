@@ -1,12 +1,13 @@
 ---
 title: "2nd Cellphone"
 meta_title: "Why I Keep a Second Cellphone"
-description: "A second phone sounds excessive until you need one. Here's why I keep a backup handset around — travel, work boundaries, and the peace of mind factor."
+description: "A second phone sounds excessive until you need one. I keep a backup handset for travel, work boundaries, and the morning I couldn't find my main phone before a swim."
 date: 2026-06-18T05:07:00Z
 image: "/images/image-template.jpg"
 categories: ["Technology", "Gear", "Tips"]
 author: "JoRap"
 tags: ["Cellphone", "Backup Phone", "Travel", "Gear"]
+slug: "second-cellphone"
 draft: true
 ---
 
@@ -18,7 +19,7 @@ Now I keep a **backup handset** on purpose. Not the latest flagship. A practical
 
 ## The jobs a second phone does
 
-**Emergency backup.** When the primary dies, gets lost, or needs a week in repair, life doesn't pause. OTPs, maps, messaging, payments — modern life assumes you have a screen in your pocket.
+**Emergency backup.** When the primary dies, gets lost, or needs a week in repair, life doesn't pause. OTPs, maps, messaging, payments - modern life assumes you have a screen in your pocket.
 
 **Travel phone.** Some people load a local SIM in a cheap Android and leave the main phone on wifi-only abroad. Less risk if it gets stolen. Less panic if it gets cracked on a tour bus.
 
@@ -31,8 +32,8 @@ Now I keep a **backup handset** on purpose. Not the latest flagship. A practical
 ## What I look for in a backup
 
 - **Works on my carrier** or accepts dual-SIM / eSIM without drama
-- **Decent battery** — backups die in drawers; I charge quarterly and expect it to wake up
-- **Fingerprint or PIN** — it's still full of accounts if I log in
+- **Decent battery** - backups die in drawers; I charge quarterly and expect it to wake up
+- **Fingerprint or PIN** - it's still full of accounts if I log in
 - **Cheap enough** that I won't cry if it gets lost on a trip
 
 I don't need the best camera. I need **reliable calls, mobile data, and 2FA apps**.
@@ -55,7 +56,7 @@ I don't need the best camera. I need **reliable calls, mobile data, and 2FA apps
 
 If you're careful, insured, and live somewhere with easy phone repair, you might never need a second device. Cloud backups and a laptop can carry you through a few days.
 
-I still like the **instant swap** — SIM out, SIM in, back online in ten minutes without borrowing hardware.
+I still like the **instant swap** - SIM out, SIM in, back online in ten minutes without borrowing hardware.
 
 ---
 
@@ -63,6 +64,6 @@ I still like the **instant swap** — SIM out, SIM in, back online in ten minute
 
 A second cellphone isn't about having more gadgets. It's about **not being stranded** when the one gadget you actually depend on fails.
 
-Cheap Android, older iPhone, whatever fits your ecosystem — the model matters less than having it charged, updated, and ready in a drawer before you need it.
+Cheap Android, older iPhone, whatever fits your ecosystem - the model matters less than having it charged, updated, and ready in a drawer before you need it.
 
 *Idea captured from [ideas.jorap.com](https://ideas.jorap.com/).*

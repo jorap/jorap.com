@@ -1,12 +1,13 @@
 ---
 title: "Smart Plug"
-meta_title: "Smart Plug — Simple Automation That Actually Sticks"
+meta_title: "Smart Plug - Simple Automation That Actually Sticks"
 description: "Smart plugs are the least glamorous gadget in the house and also the one I keep buying. Here's what they're good for, what to skip, and how to avoid turning your home into a troubleshooting hobby."
 date: 2026-06-18T05:01:00Z
 image: "/images/image-template.jpg"
 categories: ["Technology", "Gear", "Reviews"]
 author: "JoRap"
 tags: ["Smart Home", "Smart Plug", "Automation", "Gear"]
+slug: "smart-plug"
 draft: true
 ---
 
@@ -22,7 +23,7 @@ Most of mine stuck. A few didn't. Here's what I learned.
 
 **Lamps and fans** are the winners. Schedule the living room lamp to come on before you get home. Turn off the bedroom fan without getting out of bed. Set a Christmas tree on a timer without hunting for those old mechanical dial boxes.
 
-**Hard-to-reach outlets** are the quiet use case. Behind the TV, under a desk, behind a bookshelf — if reaching the switch is annoying, a smart plug pays for itself in saved contortions.
+**Hard-to-reach outlets** are the quiet use case. Behind the TV, under a desk, behind a bookshelf - if reaching the switch is annoying, a smart plug pays for itself in saved contortions.
 
 **"Did I leave that on?"** anxiety is real. Being able to check from the phone and kill power remotely is worth more than it sounds, especially for irons, wax warmers, or anything that makes you nervous when you're already in the car.
 
@@ -30,7 +31,7 @@ Most of mine stuck. A few didn't. Here's what I learned.
 
 ## What I stopped pretending they'd fix
 
-Smart plugs don't make **high-draw appliances** smart in a useful way. Air conditioners, space heaters, microwaves — if it wasn't designed for remote cycling, I don't put a plug in the middle and hope.
+Smart plugs don't make **high-draw appliances** smart in a useful way. Air conditioners, space heaters, microwaves - if it wasn't designed for remote cycling, I don't put a plug in the middle and hope.
 
 They also don't fix bad wifi. If the outlet is in a dead zone, you'll get a plug that drops offline every other day and makes you hate the whole category.
 
@@ -42,7 +43,7 @@ And schedules only work if **the physical device has a simple on/off behavior**.
 
 The plug itself is cheap. The ecosystem is the commitment.
 
-I try to pick a platform my household already uses — Google Home, Alexa, Apple Home, whatever — and stay consistent. Mixing three apps for six plugs is how smart homes become dumb again.
+I try to pick a platform my household already uses - Google Home, Alexa, Apple Home, whatever - and stay consistent. Mixing three apps for six plugs is how smart homes become dumb again.
 
 I also check whether the plug still works **when the internet is down**. Local control matters more than people admit. Cloud-only plugs that turn into paperweights during an outage are frustrating in exactly the wrong moment.
 
@@ -52,11 +53,11 @@ I also check whether the plug still works **when the internet is down**. Local c
 
 | Feature | Worth it? |
 |---|---|
-| On/off scheduling | Yes — the whole point |
-| Away mode (random on/off) | Sometimes — lamps only |
-| Energy monitoring | Nice — not essential |
-| USB port on the plug | Rarely — usually awkward placement |
-| Color-changing status LED | Please no — bedroom nightmare |
+| On/off scheduling | Yes - the whole point |
+| Away mode (random on/off) | Sometimes - lamps only |
+| Energy monitoring | Nice - not essential |
+| USB port on the plug | Rarely - usually awkward placement |
+| Color-changing status LED | Please no - bedroom nightmare |
 
 ---
 
@@ -64,7 +65,7 @@ I also check whether the plug still works **when the internet is down**. Local c
 
 Name plugs **by location and device**, not "Smart Plug 4." Future you at 11 PM does not want to guess which icon is the floor lamp.
 
-Group them by room in the app. Share access with whoever else turns things off in the house. And put one spare plug in a drawer — when you find a new use case, you'll want it immediately.
+Group them by room in the app. Share access with whoever else turns things off in the house. And put one spare plug in a drawer - when you find a new use case, you'll want it immediately.
 
 ---
 
@@ -84,7 +85,7 @@ If I can't answer yes to the first three, I skip it.
 
 ## Bottom line
 
-Smart plugs are boring technology in the best way. They don't impress anyone at a party. They just quietly remove small daily friction — lights, fans, worry — for the cost of a nice lunch.
+Smart plugs are boring technology in the best way. They don't impress anyone at a party. They just quietly remove small daily friction - lights, fans, worry - for the cost of a nice lunch.
 
 That's enough for me to keep a few in every room that needs one.
 

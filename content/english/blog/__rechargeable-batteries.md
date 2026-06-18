@@ -1,16 +1,17 @@
 ---
 title: "Rechargeable Batteries"
-meta_title: "Rechargeable Batteries — Stop Buying AAs Every Month"
+meta_title: "Rechargeable Batteries - Stop Buying AAs Every Month"
 description: "Switching to rechargeable AA and AAA batteries cut our disposable pile and paid for itself faster than I expected. Here's the setup that actually stuck."
 date: 2026-06-18T05:03:00Z
 image: "/images/image-template.jpg"
 categories: ["Gear", "Tips", "Reviews"]
 author: "JoRap"
 tags: ["Batteries", "Rechargeable", "Everyday Carry", "Gear"]
+slug: "rechargeable-batteries"
 draft: true
 ---
 
-There was a drawer in our house that was basically a battery graveyard — half-dead AAs, the wrong size, maybe one that leaked years ago and nobody wanted to touch. Every few months I'd buy another blister pack at the checkout and tell myself this was normal.
+There was a drawer in our house that was basically a battery graveyard - half-dead AAs, the wrong size, maybe one that leaked years ago and nobody wanted to touch. Every few months I'd buy another blister pack at the checkout and tell myself this was normal.
 
 It isn't. Not anymore.
 
@@ -30,12 +31,12 @@ Rechargeable batteries are one of those upgrades that sound fussy until you use 
 
 ## What I bought (and what I'd buy again)
 
-**AA and AAA** cover 95% of our house. I standardized on one reputable brand of low-self-discharge cells and bought **twice as many as I think I need** — because half are always charging or living in devices.
+**AA and AAA** cover 95% of our house. I standardized on one reputable brand of low-self-discharge cells and bought **twice as many as I think I need** - because half are always charging or living in devices.
 
 **The charger matters more than people admit.** I wanted one that:
 
 - Charges individual slots (not only in pairs)
-- Stops cleanly when done — no cooking batteries overnight
+- Stops cleanly when done - no cooking batteries overnight
 - Shows per-battery status at a glance
 
 A cheap dumb charger works until it doesn't. I spent a little more once instead of replacing batteries twice a year forever.
@@ -51,8 +52,8 @@ A cheap dumb charger works until it doesn't. I spent a little more once instead 
 | Wireless keyboard/mouse | Yes |
 | Flashlights we use often | Yes |
 | Kids' toys (moderate drain) | Usually yes |
-| Smoke alarms | **No** — use long-life disposables |
-| Emergency-only gear | **No** — reliability over convenience |
+| Smoke alarms | **No** - use long-life disposables |
+| Emergency-only gear | **No** - reliability over convenience |
 
 Smoke detectors and true emergency flashlights stay on alkalines in our house. The rest migrated.
 
@@ -60,7 +61,7 @@ Smoke detectors and true emergency flashlights stay on alkalines in our house. T
 
 ## Habits that make it work
 
-**The charged pile lives next to the charger.** Not in a random drawer. When something dies, you swap and drop the empty in the charger — same rhythm as laundry.
+**The charged pile lives next to the charger.** Not in a random drawer. When something dies, you swap and drop the empty in the charger - same rhythm as laundry.
 
 **Label nothing fancy.** We just keep "ready" and "charging" mentally separated by location. Ready basket. Charger tray. Done.
 
@@ -70,7 +71,7 @@ Smoke detectors and true emergency flashlights stay on alkalines in our house. T
 
 ## What I don't bother with
 
-9V rechargeables for rarely used gear. Coin cells. Specialty camera batteries — different conversation entirely.
+9V rechargeables for rarely used gear. Coin cells. Specialty camera batteries - different conversation entirely.
 
 And I don't chase the absolute highest capacity numbers on the label. Consistent performance and low self-discharge beat bragging rights.
 
@@ -78,6 +79,6 @@ And I don't chase the absolute highest capacity numbers on the label. Consistent
 
 ## Bottom line
 
-If your house eats AAs like snacks, rechargeables are the most boring, sensible upgrade available. One good charger, two sets of cells, a simple swap habit — and that checkout-aisle battery tax mostly disappears.
+If your house eats AAs like snacks, rechargeables are the most boring, sensible upgrade available. One good charger, two sets of cells, a simple swap habit - and that checkout-aisle battery tax mostly disappears.
 
 *Idea captured from [ideas.jorap.com](https://ideas.jorap.com/).*

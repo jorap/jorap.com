@@ -1,16 +1,17 @@
 ---
 title: "How to Create a Good Habit"
-meta_title: "How to Create a Good Habit — James Clear's Four Laws"
-description: "Atomic Habits boiled down to what I actually use: make it obvious, attractive, easy, and satisfying — and invert those to break bad habits."
+meta_title: "How to Create a Good Habit - James Clear's Four Laws"
+description: "Atomic Habits boiled down to what I actually use: make it obvious, attractive, easy, and satisfying - and invert those to break bad habits."
 date: 2026-06-18T06:05:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Health"]
 author: "JoRap"
 tags: ["Habits", "James Clear", "Atomic Habits", "Productivity"]
+slug: "how-to-create-a-good-habit"
 draft: true
 ---
 
-I don't need another motivational poster about discipline. I need **systems that make the right thing the default** — especially on tired weekdays when willpower clocks out early.
+I don't need another motivational poster about discipline. I need **systems that make the right thing the default** - especially on tired weekdays when willpower clocks out early.
 
 James Clear's *Atomic Habits* gave me language that stuck. Four laws for building habits. Four inversions for breaking them.
 
@@ -50,7 +51,7 @@ Immediate feedback loops matter.
 
 - Track streaks on a calendar you see
 - Small celebratory finish (tea after the task, not cake every time)
-- Never miss twice — one slip is human; two is a new pattern
+- Never miss twice - one slip is human; two is a new pattern
 
 ---
 
@@ -60,12 +61,12 @@ Invert each law:
 
 | Build | Break |
 |---|---|
-| Make it obvious | **Make it invisible** — remove cues |
-| Make it attractive | **Make it unattractive** — highlight costs |
-| Make it easy | **Make it difficult** — add friction |
-| Make it satisfying | **Make it unsatisfying** — immediate consequences |
+| Make it obvious | **Make it invisible** - remove cues |
+| Make it attractive | **Make it unattractive** - highlight costs |
+| Make it easy | **Make it difficult** - add friction |
+| Make it satisfying | **Make it unsatisfying** - immediate consequences |
 
-**Example — late-night phone scrolling:**
+**Example - late-night phone scrolling:**
 
 - Charger in the kitchen, not bedside (invisible cue)
 - Grayscale mode after 9 PM (less attractive)
@@ -78,7 +79,7 @@ Invert each law:
 
 Clear's line I keep on my wiki: **optimize for outcome, you win once. Optimize for process, you can win again and again.**
 
-I don't "try to blog more." I **write 20 minutes after breakfast** — obvious cue, easy bar, calendar X for satisfaction.
+I don't "try to blog more." I **write 20 minutes after breakfast** - obvious cue, easy bar, calendar X for satisfaction.
 
 ---
 
@@ -92,7 +93,7 @@ Smaller laws work better: **one habit, one environment tweak, one tracker.**
 
 ## Bottom line
 
-Good habits aren't character flaws vs virtues. They're **design problems** — cues, friction, reward.
+Good habits aren't character flaws vs virtues. They're **design problems** - cues, friction, reward.
 
 Make the good thing obvious and easy. Make the bad thing invisible and annoying. Repeat until it's boring.
 

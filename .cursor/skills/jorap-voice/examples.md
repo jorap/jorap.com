@@ -1,4 +1,4 @@
-# JoRap Voice — Examples
+# JoRap Voice - Examples
 
 ## Reference excerpts (on-voice)
 
@@ -24,7 +24,7 @@
 
 ## Anti-patterns
 
-### ❌ AI-slop phrases — never use
+### ❌ AI-slop phrases - never use
 
 - "In today's fast-paced world…"
 - "Let's dive in" / "Let's explore"
@@ -43,7 +43,7 @@
 - "At the end of the day" (unless genuinely earned)
 - "Here's everything you need to know"
 
-### ❌ AI structure — rewrite on sight
+### ❌ AI structure - rewrite on sight
 
 **Symmetrical nothingburger:**
 > Extension cords are an essential part of any home setup. They provide flexibility, extend reach, and enable convenient power access. Choosing the right one is crucial for safety and performance.
@@ -75,7 +75,7 @@
 
 ### ✅ JoRap meta description
 
-> After years of cycling through earbuds, neckbands, and over-ears, here's the short list of what I actually care about in a pair of wireless earphones — and the one pair I keep reaching for.
+> After years of cycling through earbuds, neckbands, and over-ears, here's the short list of what I actually care about in a pair of wireless earphones - and the one pair I keep reaching for.
 
 ---
 
@@ -97,7 +97,7 @@
 
 ### ✅ Expanded with voice
 
-Most extension cords look the same on the shelf. They're not. The wrong gauge on a long run, an outdoor cord used indoors, or a cheap strip that runs warm — these are the boring ways people learn the hard way. Here's what I actually check before I buy one.
+Most extension cords look the same on the shelf. They're not. The wrong gauge on a long run, an outdoor cord used indoors, or a cheap strip that runs warm - these are the boring ways people learn the hard way. Here's what I actually check before I buy one.
 
 ---
 
@@ -121,7 +121,7 @@ Most extension cords look the same on the shelf. They're not. The wrong gauge on
 
 ---
 
-## Human vs AI — quick swaps
+## Human vs AI - quick swaps
 
 | AI habit | Human fix |
 |----------|-----------|
