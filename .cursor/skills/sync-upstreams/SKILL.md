@@ -7,12 +7,14 @@ description: Sync JoRap.com with local upstream checkouts of Hugoplate (Hugo the
 
 JoRap.com is a **project-setup** Hugo site (`theme = "jorap"` in `hugo.toml`) forked from [Hugoplate](https://github.com/zeon-studio/hugoplate). Design work uses the [Impeccable](https://github.com/pbakaus/impeccable) skill in `.cursor/skills/impeccable/`.
 
-Local source checkouts (pull these before syncing):
+Unless noted otherwise, paths below are **relative to the jorap.com repo root**. Upstream checkouts live as sibling folders one level up (`../hugoplate`, `../impeccable`).
 
-| Upstream | Path |
+Local source checkouts (sibling folders — one level up from jorap.com):
+
+| Upstream | Path (from jorap.com root) |
 | --- | --- |
-| Hugoplate | `/Users/jonathanrapusas/Documents/GitHub/hugoplate` |
-| Impeccable | `/Users/jonathanrapusas/Documents/GitHub/impeccable` |
+| Hugoplate | `../hugoplate` |
+| Impeccable | `../impeccable` |
 
 **Never blind-copy the whole repo.** JoRap has site-specific theme files, scripts, content, Cloudflare Functions, and design context that upstream does not have. Sync selectively and review diffs.
 
@@ -32,14 +34,14 @@ Local source checkouts (pull these before syncing):
 1. In each source repo, fetch and pull latest:
 
 ```bash
-cd /Users/jonathanrapusas/Documents/GitHub/hugoplate && git pull
-cd /Users/jonathanrapusas/Documents/GitHub/impeccable && git pull
+cd ../hugoplate && git pull
+cd ../impeccable && git pull
 ```
 
 2. In jorap.com, confirm clean working tree or stash first:
 
 ```bash
-cd /Users/jonathanrapusas/Documents/GitHub/jorap.com && git status
+git status
 ```
 
 3. Package manager here is **pnpm** (`pnpm-lock.yaml`).
@@ -79,7 +81,7 @@ Task progress:
 **Step 1 — Diff theme folders** (run from jorap.com root):
 
 ```bash
-HUGO=/Users/jonathanrapusas/Documents/GitHub/hugoplate
+HUGO=../hugoplate
 diff -rq "$HUGO/layouts" themes/jorap/layouts
 diff -rq "$HUGO/assets" themes/jorap/assets
 ```
@@ -87,14 +89,14 @@ diff -rq "$HUGO/assets" themes/jorap/assets
 **Step 2 — Copy only safe upstream files.** For files that exist in both repos and should track upstream, copy individually after reviewing the diff. Example:
 
 ```bash
-HUGO=/Users/jonathanrapusas/Documents/GitHub/hugoplate
+HUGO=../hugoplate
 cp "$HUGO/layouts/_partials/essentials/header.html" themes/jorap/layouts/_partials/essentials/header.html
 ```
 
 For bulk sync of files that are **identical in purpose** and not in the preserve list, `rsync` with excludes:
 
 ```bash
-HUGO=/Users/jonathanrapusas/Documents/GitHub/hugoplate
+HUGO=../hugoplate
 
 rsync -av --delete \
   --exclude-from=.cursor/skills/sync-upstreams/hugoplate-rsync-excludes.txt \
@@ -110,7 +112,7 @@ Use `--delete` on `layouts/` only when the user explicitly wants orphan upstream
 **Step 3 — Root scripts.** Compare and merge:
 
 ```bash
-diff -rq /Users/jonathanrapusas/Documents/GitHub/hugoplate/scripts scripts
+diff -rq ../hugoplate/scripts scripts
 ```
 
 Safe to take upstream as-is: `themeGenerator.js`, `themeUpdate.js`, `clearModules.js`, `removeMultilang.js`.
@@ -122,7 +124,7 @@ Never remove: `scripts/cspHashes.mjs` (JoRap-only; wired into `pnpm build`).
 **Step 4 — Agent skills from Hugoplate:**
 
 ```bash
-HUGO=/Users/jonathanrapusas/Documents/GitHub/hugoplate
+HUGO=../hugoplate
 mkdir -p .agents/skills
 rsync -av "$HUGO/.agents/skills/" .agents/skills/
 ```
@@ -166,17 +168,16 @@ Task progress:
 **Step 1 — Build the bundle** (requires Node ≥24 and bun in the impeccable repo):
 
 ```bash
-cd /Users/jonathanrapusas/Documents/GitHub/impeccable
+cd ../impeccable
 bun install
 bun run build:skills
 ```
 
-**Step 2 — Link into jorap.com** (preferred for local dev — symlinks track the checkout):
+**Step 2 — Link into jorap.com** (from jorap.com root; preferred for local dev — symlinks track the checkout):
 
 ```bash
-cd /Users/jonathanrapusas/Documents/GitHub/jorap.com
-node /Users/jonathanrapusas/Documents/GitHub/impeccable/cli/bin/cli.js link \
-  --source=/Users/jonathanrapusas/Documents/GitHub/impeccable \
+node ../impeccable/cli/bin/cli.js link \
+  --source=../impeccable \
   --providers=cursor \
   --force -y
 ```

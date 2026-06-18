@@ -4,7 +4,7 @@
   Accepts either:
     - A Page directly: {{ partial "components/blog-card" . }}
     - A dict for explicit control:
-        {{ partial "components/blog-card" (dict "Page" . "Eager" true "HeadingLevel" 3) }}
+        {{ partial "components/blog-card" (dict "Page" . "Eager" true "Featured" true "HeadingLevel" 3) }}
 
   Only set Eager=true for the LCP candidate (typically the first card on
   the home page). Every other card MUST stay lazy/auto so the browser can
@@ -18,10 +18,12 @@
 */}}
 {{- $page := . -}}
 {{- $eager := false -}}
+{{- $featured := false -}}
 {{- $headingLevel := 2 -}}
 {{- if reflect.IsMap . -}}
   {{- $page = .Page -}}
   {{- $eager = .Eager | default false -}}
+  {{- $featured = .Featured | default false -}}
   {{- with .HeadingLevel -}}{{- $headingLevel = . -}}{{- end -}}
 {{- end -}}
 {{- $headingTag := printf "h%d" $headingLevel -}}
@@ -31,24 +33,44 @@
   text on the page. Build the open/close tags as strings and pipe them
   through `safeHTML` so they render as real elements.
 */}}
-{{- $headingOpen := printf "<%s class=\"mb-3 text-2xl text-balance font-primary\">" $headingTag | safeHTML -}}
+{{- $headingClass := "mb-3 text-2xl text-balance font-primary" -}}
+{{- if eq $headingLevel 2 -}}
+  {{- $headingClass = printf "%s heading-title-case" $headingClass -}}
+{{- end -}}
+{{- $headingOpen := printf "<%s class=\"%s\">" $headingTag $headingClass | safeHTML -}}
 {{- $headingClose := printf "</%s>" $headingTag | safeHTML -}}
 {{- with $page -}}
 <div
   class="component--blog-card flex h-full flex-col overflow-hidden rounded-xl border border-divider bg-elevated shadow-sm transition-[box-shadow,border-color] duration-300 ease-out motion-reduce:transition-none motion-reduce:hover:shadow-sm hover:shadow-md">
   {{ $image:= .Params.image }}
   {{ if $image }}
-  <a href="{{ .RelPermalink }}" class="relative block aspect-[413/220] overflow-hidden">
+  <a href="{{ .RelPermalink }}" class="relative block {{ if $featured }}aspect-video{{ else }}aspect-[413/220]{{ end }} overflow-hidden">
+    {{ if $featured }}
+    {{ partial "components/image" (dict
+      "Src" $image
+      "Context" .Page
+      "Alt" .Title
+      "Class" "image--partial h-full w-full object-cover"
+      "DisplayXL" "900x"
+      "DisplayLG" "800x"
+      "DisplayMD" "600x"
+      "DisplaySM" "545x"
+      "Loading" (cond $eager "eager" "lazy")
+      "FetchPriority" (cond $eager "high" "auto")
+      "Decoding" "async"
+    ) }}
+    {{ else }}
     {{ partial "components/image" (dict
       "Src" $image
       "Context" .Page
       "Alt" .Title
       "Class" "image--partial h-full w-full object-cover aspect-[413/208]"
-      "Size" "413x208"
+      "Size" "600x302"
       "Loading" (cond $eager "eager" "lazy")
       "FetchPriority" (cond $eager "high" "auto")
       "Decoding" "async"
     ) }}
+    {{ end }}
   </a>
   {{ end }}
   <div class="flex flex-1 flex-col px-6 pb-6 pt-5">

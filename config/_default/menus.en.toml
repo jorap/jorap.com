@@ -16,16 +16,6 @@ name = "Blog"
 url = "/blog"
 weight = 3
 
-[[main]]
-name = "Categories"
-url = "/categories"
-weight = 4
-
-[[main]]
-name = "Tags"
-url = "/tags"
-weight = 5
-
 # [[main]]
 # name = "Elements"
 # url = "/elements"
@@ -73,11 +63,11 @@ weight = 1
 # weight = 3
 
 [[footer]]
-name = "Categories"
-url = "/categories"
+name = "Blog"
+url = "/blog"
 weight = 2
 
 [[footer]]
-name = "Tags"
-url = "/tags"
+name = "Contact"
+url = "/contact"
 weight = 3

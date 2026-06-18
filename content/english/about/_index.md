@@ -1,15 +1,23 @@
 ---
-title: "Hello, I am JoRap!"
+title: "About"
 meta_title: "About | JoRap.com"
-description: "I am web developer with many years of experience, specializing in front-end development. My skill set spans across multiple technologies, including WordPress, and PHP, with a strong focus on improving business processes through technology."
+description: "Front-end developer in Metro Manila. International, multicultural remote work across Australia, the U.S., and Asia. WordPress, Hugo, training - remote only."
 image: "/images/jorap.png"
 draft: false
 ---
 
-I am web developer with many years of experience, specializing in front-end development. My skill set spans across multiple technologies, including WordPress, and PHP, with a strong focus on improving business processes through technology.
+I'm Jonathan Rapusas, a front-end developer based in Metro Manila. **Only open to remote work.**
 
-I've spent a significant portion of my career working remotely, offering web hosting, site migration, and troubleshooting services. My experience also includes providing customized WordPress solutions, including theming, and updates. Additionally, I handle SEO optimization, and Google Analytics setup, all while ensuring websites are secure, fast, and user-friendly.
+Most of my career has been in international, multicultural settings - working with colleagues and stakeholders in Australia, the U.S., and across Asia. Different time zones, accents, and working styles are normal for me. I communicate in plain English and I'm used to remote collaboration long before it became the default.
 
-My background in I.T. training and content development has also been instrumental in my career. I've designed training materials, taught IT courses, and provided post-training support to help users effectively adopt new technologies.
+Since 2013 I've freelanced on Linux hosting, websites, and business email; WordPress builds and theme work; static sites with Hugo; hosting and CMS migrations; core and plugin updates; and training clients to run what we ship.
 
-I am currently open to remote web development opportunities and always eager to collaborate on projects that allow me to apply my skills and help organizations grow through efficient tech solutions.
+Before that I built and supported in-house PHP web systems in that same international mix - gathering requirements, triaging bugs, user support and administration, Git deployments, and helping teams test what shipped.
+
+I've led intranet web development: training catalogs, enrollment systems, evaluation tools, job vacancy apps, and content-managed sites. I supervised a small web team - hiring, training, and day-to-day delivery.
+
+I've also spent a lot of time teaching in multicultural classrooms and video conference rooms - course curriculum and manuals, sessions on Office, Project, web tools, and design software, post-training support by remote access, email, and phone, plus undergraduate and professional programming courses and seminars on open-source technology and web careers.
+
+I studied Applied Mathematics at the University of the Philippines Los Baños (BS, 2001) and completed a Graduate Diploma in Computer Science there in 2003.
+
+Web development, technical support, and training tend to land on the same project for me. If that sounds useful, [get in touch](/contact).

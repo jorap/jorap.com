@@ -1,32 +1,3 @@
-<section class="section section--blog-list">
-    <div class="container">
-        <div class="row gx-5">
-            <!-- blog posts -->
-            <div class="lg:col-12">
-                <div class="row">
-                    <div class="mb-12 w-full md:col-12">
-                        {{ partial "sections/home-intro.html" . }}
-                        {{ $homeIntro := site.Params.home_intro }}
-                        {{ if and $homeIntro $homeIntro.enable }}
-                        <h1 class="text-h2-sm font-bold tracking-tight text-ink md:text-h2 md:text-left">
-                            Latest Blog Posts
-                        </h1>
-                        {{ else }}
-                        <h1 class="text-h1-sm font-bold tracking-tight text-ink md:text-h1 md:text-left">
-                            Latest Blog Posts
-                        </h1>
-                        {{ end }}
-                    </div>
-                    {{ $blogPages := where site.RegularPages "Section" "blog" }}
-                    {{ $sortedPages := $blogPages.ByDate.Reverse }}
-                    {{ $recentPosts := first 12 $sortedPages }}
-                    {{ range $i, $post := $recentPosts }}
-                    <div class="md:col-6 lg:col-4 mb-14">
-                        {{ partial "components/blog-card" (dict "Page" $post "Eager" (eq $i 0)) }}
-                    </div>
-                    {{ end }}
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+{{/* Legacy alias: homepage now uses home-writing.html directly. */}}
+{{ partial "sections/home-intro.html" . }}
+{{ partial "sections/home-writing.html" . }}

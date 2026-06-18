@@ -3,7 +3,7 @@
 # Override per-environment via the HUGO_BASEURL env var (Vercel/Netlify/Amplify build settings).
 baseURL = "https://www.jorap.com/"
 # Title of your website (required).
-title = "JoRap's World"
+title = "JoRap"
 # Your theme name
 theme = "jorap"
 # Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List

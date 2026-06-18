@@ -3,6 +3,11 @@
   @apply py-14 md:py-20;
 }
 
+/* Title-case for section h2 labels (capitalize first letter of each word). */
+.heading-title-case {
+  text-transform: capitalize;
+}
+
 /* container */
 .container {
   @apply mx-auto xl:!max-w-[1320px] px-4;

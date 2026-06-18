@@ -20,7 +20,7 @@ input#nav-toggle:focus-visible + label {
 }
 
 .navbar-nav {
-  @apply text-center lg:text-left;
+  @apply text-center lg:items-center lg:text-left;
 }
 
 .nav-link {
@@ -59,6 +59,14 @@ button.nav-link.nav-dropdown-trigger {
 
 .nav-dropdown-link {
   @apply text-ink hover:text-accent block py-1 font-semibold transition-colors duration-200 ease-out;
+}
+
+.nav-item--cta {
+  @apply mt-4 flex items-center justify-center lg:mt-0 lg:ml-1 lg:justify-start xl:ml-2;
+}
+
+.nav-item--cta .btn {
+  @apply lg:leading-none;
 }
 
 /* theme-switcher */
