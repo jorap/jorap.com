@@ -6,7 +6,7 @@ date: 2026-06-18T06:11:00Z
 image: "/images/image-template.jpg"
 categories: ["Games", "Opinion"]
 author: "JoRap"
-tags: ["Marvel Snap", "Card Games", "Gaming", "Mobile Games"]
+tags: ["Marvel Snap", "Card Games", "Gaming", "Mobile Games", "Digital Collectibles", "FOMO", "Game Design", "Marvel", "Free to Play", "Gacha", "Quit Gaming"]
 slug: "why-i-stopped-playing-marvel-snap"
 draft: true
 ---

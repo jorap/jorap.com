@@ -6,7 +6,7 @@ date: 2026-06-18T06:06:00Z
 image: "/images/image-template.jpg"
 categories: ["Ideas", "Productivity", "Tips"]
 author: "JoRap"
-tags: ["James Clear", "Process", "Habits", "Mindset"]
+tags: ["James Clear", "Process", "Habits", "Mindset", "Atomic Habits", "Systems Thinking", "Goal Setting", "Continuous Improvement", "Self Improvement"]
 slug: "process-over-outcomes"
 draft: true
 ---

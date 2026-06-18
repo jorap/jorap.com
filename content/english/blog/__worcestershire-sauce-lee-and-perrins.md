@@ -4,9 +4,9 @@ meta_title: "Lee & Perrins Worcestershire Sauce - The Bottle I Always Restock"
 description: "Lee & Perrins is the Worcestershire sauce I reach for without thinking. Here's why it earned a permanent spot in the pantry and how we actually use it."
 date: 2026-06-18T05:05:00Z
 image: "/images/image-template.jpg"
-categories: ["Cooking", "Reviews", "Pantry"]
+categories: ["Food", "Pantry", "Reviews"]
 author: "JoRap"
-tags: ["Worcestershire Sauce", "Lee and Perrins", "Pantry Staples", "Cooking"]
+tags: ["Worcestershire Sauce", "Lee and Perrins", "Pantry Staples", "Cooking", "Condiments", "Umami", "Marinades", "Steak Sauce", "Kitchen Essentials", "Ingredient Review"]
 slug: "worcestershire-sauce-lee-and-perrins"
 draft: true
 ---

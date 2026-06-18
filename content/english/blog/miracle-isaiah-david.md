@@ -5,9 +5,9 @@ description: "On May 8, 2020, Pia and I found out she was pregnant - and gave bi
 slug: "miracle-isaiah-david"
 date: 2023-05-08T05:00:00Z
 image: "/images/feature-isaiah-david.jpg"
-categories: ["Testimony", "Family", "Faith"]
+categories: ["Faith", "Family", "Testimony"]
 author: "JoRap"
-tags: ["Isaiah David", "Miracle Story", "700 Club Asia", "GMA News", "24 Oras", "DZMM Teleradyo", "Facebook", "YouTube", "Parenthood", "Pregnancy", "Faith Story", "Pandemic Story", "Hidden Pregnancy", "ECQ", "Filipino Family"]
+tags: ["Isaiah David", "Miracle Story", "700 Club Asia", "GMA News", "24 Oras", "DZMM Teleradyo", "Facebook", "YouTube", "Parenthood", "Pregnancy", "Faith Story", "Pandemic Story", "Hidden Pregnancy", "ECQ", "Filipino Family", "Birth Story", "COVID-19", "Miracle", "Philippines", "Christian Testimony"]
 draft: false
 ---
 

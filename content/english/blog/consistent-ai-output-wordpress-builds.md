@@ -5,9 +5,9 @@ description: "Month one with AI on WordPress builds I was thrilled. Month three 
 slug: "consistent-ai-output-wordpress-builds"
 date: 2026-05-30T05:00:00Z
 image: "/images/feature-consistent-ai-output.jpg"
-categories: ["Technology", "AI", "Web Development", "Productivity"]
+categories: ["Technology", "AI", "Web Development"]
 author: "JoRap"
-tags: ["WordPress", "Workflow", "Developer Life", "Automation", "Code Generation", "Cursor", "Productivity Tools", "Best Practices", "Reusable Code", "PHP"]
+tags: ["WordPress", "Workflow", "Developer Life", "Automation", "Code Generation", "Cursor", "Productivity Tools", "Best Practices", "Reusable Code", "PHP", "AI Coding", "LLM", "Prompt Engineering", "Coding Standards", "Theme Development"]
 draft: false
 ---
 

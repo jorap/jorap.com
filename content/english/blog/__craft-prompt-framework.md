@@ -6,7 +6,7 @@ date: 2026-06-18T06:13:00Z
 image: "/images/image-template.jpg"
 categories: ["AI", "Writing", "Tips"]
 author: "JoRap"
-tags: ["AI", "Prompts", "ChatGPT", "CRAFT", "Writing"]
+tags: ["AI", "Prompts", "ChatGPT", "CRAFT", "Writing", "Prompt Engineering", "LLM", "Context", "Role Prompting", "Content Creation", "AI Writing", "Framework"]
 slug: "craft-prompt-framework"
 draft: true
 ---

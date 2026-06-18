@@ -5,9 +5,9 @@ description: "I figured RSS quietly died around 2010. A friend pointed out it ne
 slug: "getting-started-with-rss-feeds-a-beginners-guide"
 date: 2024-03-30T05:00:00Z
 image: "/images/rss.jpg"
-categories: ["Technology", "Productivity", "Tips"]
+categories: ["Technology", "Productivity", "Guide"]
 author: "JoRap"
-tags: ["RSS Feeds", "RSS", "Inoreader", "Content Management", "Productivity Tools", "Digital Organization", "News Reader", "Information Management", "Beginner Guide", "Internet", "Reading"]
+tags: ["RSS Feeds", "RSS", "Inoreader", "Content Management", "Productivity Tools", "Digital Organization", "News Reader", "Information Management", "Beginner Guide", "Internet", "Reading", "Feedly", "Syndication", "Web Reading", "Digital Minimalism", "News Aggregation"]
 draft: false
 ---
 

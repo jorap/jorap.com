@@ -6,7 +6,7 @@ date: 2026-06-18T05:01:00Z
 image: "/images/image-template.jpg"
 categories: ["Technology", "Gear", "Reviews"]
 author: "JoRap"
-tags: ["Smart Home", "Smart Plug", "Automation", "Gear"]
+tags: ["Smart Home", "Smart Plug", "Automation", "Gear", "IoT", "Home Automation", "Scheduling", "Energy Saving", "Wi-Fi Plug", "Voice Assistant"]
 slug: "smart-plug"
 draft: true
 ---

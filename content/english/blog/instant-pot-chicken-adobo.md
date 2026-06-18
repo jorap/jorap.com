@@ -20,6 +20,13 @@ tags:
   - Chicken Recipes
   - Easy Cooking
   - Meal Prep
+  - Filipino Food
+  - Adobo
+  - Weeknight Dinner
+  - Pressure Cooker
+  - Soy Sauce
+  - Garlic
+  - Vinegar
 draft: false
 ---
 

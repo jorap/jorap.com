@@ -7,7 +7,7 @@ date: 2025-05-04T05:00:00Z
 image: "/images/worship-pads.jpg"
 categories: ["Worship", "Music", "Tips"]
 author: "JoRap"
-tags: ["Worship Pads", "Church Music", "Worship Leading", "Guitar Worship", "Solo Worship", "Acoustic Guitar", "Pad Tracks", "Christian Music", "Music Production", "Church"]
+tags: ["Worship Pads", "Church Music", "Worship Leading", "Guitar Worship", "Solo Worship", "Acoustic Guitar", "Pad Tracks", "Christian Music", "Music Production", "Church", "Worship Ministry", "Backing Tracks", "Live Worship", "Worship Team", "Ambient Music"]
 draft: false
 ---
 

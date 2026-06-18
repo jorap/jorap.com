@@ -6,7 +6,7 @@ date: 2026-06-18T05:09:00Z
 image: "/images/image-template.jpg"
 categories: ["Technology", "Gear", "Reviews"]
 author: "JoRap"
-tags: ["Canon G3000", "Printer", "Ink Tank", "Home Office", "Gear"]
+tags: ["Canon G3000", "Printer", "Ink Tank", "Home Office", "Gear", "Printing", "Inkjet", "Document Printing", "Cost Per Page", "Work From Home"]
 slug: "canon-g3000"
 draft: true
 ---

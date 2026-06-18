@@ -5,9 +5,9 @@ description: "I lost my old PHP hosting (and a chunk of my work with it). A week
 slug: "how-i-built-joraps-world"
 date: 2024-06-14T05:00:00Z
 image: "/images/joraps-world.jpg"
-categories: ["Website", "Technology", "Web Development", "Tutorial"]
+categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
-tags: ["Website Building", "Free Hosting", "Hugo CMS", "GitHub", "Cloudflare Pages", "Static Sites", "JAMstack", "Self-Hosting", "PHP", "Migration", "Developer Life"]
+tags: ["Website Building", "Free Hosting", "Hugo CMS", "GitHub", "Cloudflare Pages", "Static Sites", "JAMstack", "Self-Hosting", "PHP", "Migration", "Developer Life", "Hugo", "DevOps", "Site Migration", "Static Site Generator", "Web Hosting"]
 draft: false
 ---
 

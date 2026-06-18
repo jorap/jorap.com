@@ -6,7 +6,7 @@ date: 2026-06-18T06:04:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Technology", "Tips"]
 author: "JoRap"
-tags: ["Remote Work", "Checklist", "Home Office", "Gear"]
+tags: ["Remote Work", "Checklist", "Home Office", "Gear", "Laptop Bag", "Ergonomic Setup", "Work From Home", "Mobile Office", "Productivity", "Travel Setup"]
 slug: "remote-work-checklist"
 draft: true
 ---

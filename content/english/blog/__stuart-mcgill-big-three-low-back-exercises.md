@@ -6,7 +6,7 @@ date: 2026-06-18T06:09:00Z
 image: "/images/image-template.jpg"
 categories: ["Health", "Fitness", "Tips"]
 author: "JoRap"
-tags: ["Stuart McGill", "Low Back", "Core", "Exercise", "Health"]
+tags: ["Stuart McGill", "Low Back", "Core", "Exercise", "Health", "Back Pain", "Bird Dog", "Side Plank", "Curl-Up", "Spine Health", "Physical Therapy", "Core Stability"]
 slug: "stuart-mcgill-big-three-low-back-exercises"
 draft: true
 ---

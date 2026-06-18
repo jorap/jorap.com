@@ -6,7 +6,7 @@ date: 2026-06-18T05:07:00Z
 image: "/images/image-template.jpg"
 categories: ["Technology", "Gear", "Tips"]
 author: "JoRap"
-tags: ["Cellphone", "Backup Phone", "Travel", "Gear"]
+tags: ["Cellphone", "Backup Phone", "Travel", "Gear", "Dual SIM", "Emergency Phone", "Work Phone", "Mobile Device", "Phone Backup", "Travel Essentials"]
 slug: "second-cellphone"
 draft: true
 ---

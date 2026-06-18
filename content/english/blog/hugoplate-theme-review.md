@@ -5,9 +5,9 @@ description: "After losing half a Saturday to theme-shopping, I picked HugoPlate
 slug: "hugoplate-theme-review"
 date: 2026-05-29T05:00:00Z
 image: "/images/joraps-world.jpg"
-categories: ["Website", "Technology", "Web Development", "Reviews"]
+categories: ["Website", "Technology", "Reviews"]
 author: "JoRap"
-tags: ["Hugo CMS", "HugoPlate", "Tailwind CSS", "Website Building", "Themes", "Theme Review", "Static Sites", "Open Source", "Frontend", "Developer Life"]
+tags: ["Hugo CMS", "HugoPlate", "Tailwind CSS", "Website Building", "Themes", "Theme Review", "Static Sites", "Open Source", "Frontend", "Developer Life", "GoHugo", "Static Site Generator", "Bootstrap", "Web Development", "JoRap"]
 draft: false
 ---
 

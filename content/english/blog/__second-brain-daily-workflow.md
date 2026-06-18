@@ -6,7 +6,7 @@ date: 2026-06-18T06:01:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Second Brain", "Workflow", "Browser Tips", "Productivity"]
+tags: ["Second Brain", "Workflow", "Browser Tips", "Productivity", "PKM", "RSS", "Middle Click", "Daily Routine", "Information Diet", "Learning", "Tab Management"]
 slug: "second-brain-daily-workflow"
 draft: true
 ---

@@ -4,9 +4,9 @@ meta_title: "Extension Cord - The Boring Gear That Saves Your Setup"
 description: "Extension cords are easy to buy wrong. Here's what I look for - length, gauge, safety, and the ones that earn a permanent spot in the home office and travel bag."
 date: 2026-06-18T05:04:00Z
 image: "/images/image-template.jpg"
-categories: ["Gear", "Tips", "Reviews"]
+categories: ["Gear", "Home", "Reviews"]
 author: "JoRap"
-tags: ["Extension Cord", "Power", "Home Office", "Gear"]
+tags: ["Extension Cord", "Power", "Home Office", "Gear", "Electrical Safety", "Surge Protection", "Cable Gauge", "Travel Gear", "Power Strip", "Home Essentials"]
 slug: "extension-cord"
 draft: true
 ---

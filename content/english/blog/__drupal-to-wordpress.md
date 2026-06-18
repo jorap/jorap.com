@@ -6,7 +6,7 @@ date: 2026-06-18T06:30:00Z
 image: "/images/image-template.jpg"
 categories: ["Technology", "Web Development", "Opinion"]
 author: "JoRap"
-tags: ["Drupal", "WordPress", "CMS", "Web Development", "Developer Life", "Career", "Open Source", "Gutenberg", "ACF"]
+tags: ["Drupal", "WordPress", "CMS", "Web Development", "Developer Life", "Career", "Open Source", "Gutenberg", "ACF", "Content Management", "WordCamp", "PHP", "Freelance"]
 slug: "drupal-to-wordpress"
 draft: true
 ---

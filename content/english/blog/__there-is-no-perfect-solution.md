@@ -6,7 +6,7 @@ date: 2026-06-18T06:03:00Z
 image: "/images/image-template.jpg"
 categories: ["Ideas", "Productivity", "Tips"]
 author: "JoRap"
-tags: ["Decision Making", "Tradeoffs", "Productivity", "Mindset"]
+tags: ["Decision Making", "Tradeoffs", "Productivity", "Mindset", "Nirvana Fallacy", "Good Enough", "Problem Solving", "Prioritization", "Perfectionism"]
 slug: "there-is-no-perfect-solution"
 draft: true
 ---
