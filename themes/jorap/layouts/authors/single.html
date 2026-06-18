@@ -27,7 +27,7 @@
                   target="_blank"
                   rel="noopener nofollow">
                   <span class="sr-only">{{ .title }}</span>
-                  <i class="{{ .icon }}"></i>
+                  {{ partial "components/icon" (dict "Name" .icon) }}
                 </a>
               </li>
             {{ end }}

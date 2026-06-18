@@ -16,10 +16,10 @@
   @apply inline-block;
 }
 .social-icons li a {
-  @apply flex h-9 w-9 items-center justify-center rounded-sm bg-accent text-center leading-9 text-on-accent;
+  @apply inline-flex h-9 w-9 items-center justify-center rounded-sm bg-accent;
 }
 .social-icons li a svg {
-  @apply h-5 w-5;
+  @apply h-5 w-5 fill-surface;
 }
 
 /* Content / prose style.
