@@ -25,6 +25,7 @@ Match the author's voice: first-person Filipino fan, proud but factual. Preserve
 | New opponent section | [Head-to-head workflow](#head-to-head-workflow) |
 | Watch-list additions or suggestions | [Watch-list workflow](#watch-list-workflow) |
 | Link order / format fixes | [Link format rules](#link-format-rules) |
+| Tournament name cleanup | [Tournament naming rules](#tournament-naming-rules) |
 | At a glance / summary refresh | [At a glance workflow](#at-a-glance-workflow) |
 | Grand Slam Champions re-sort | [Grand Slam Champions sort](#grand-slam-champions-sort) |
 | Top 20 opponent wins a Slam | [Slam-winner promotion workflow](#slam-winner-promotion-workflow) |
@@ -61,6 +62,7 @@ Task progress:
 - [ ] Add or update H2H sections for new notable opponents
 - [ ] Re-sort Grand Slam Champions by total Slam titles (if section changed)
 - [ ] Deduplicate YouTube embeds (H2H wins over tournament blocks)
+- [ ] Audit tournament names: brand-free labels + correct WTA tier or Grand Slam name
 - [ ] Bump `lastmod` in frontmatter
 - [ ] Verify links, embeds, and formatting
 - [ ] Summarize changes for user (do not commit unless asked)
@@ -100,13 +102,44 @@ Section: **Best Performances in WTA Tournaments**
 
 - Group by year; **newest year at top** within Singles and Doubles
 - Add only main-draw or qualifying results that reached at least **Quarterfinals** (or finals/winner — same threshold as existing entries)
-- Use tournament tier labels: WTA 1000, WTA 500, WTA 250, WTA 125
+- **Always include the event tier** in parentheses on every WTA tournament line: `(WTA 125)`, `(WTA 250)`, `(WTA 500)`, or `(WTA 1000)`. Grand Slam entries use the four major names only — no tier suffix (they are Grand Slams by definition). See [Tournament naming rules](#tournament-naming-rules).
 - Prefer dual links when both exist: `[wtatennis.com](url) | [tennis.com](url)` (WTA first, then tennis.com)
 - **Exit-round rule:** the main tournament line must link to the **deepest round played** (the loss or title match). Earlier rounds go on sub-bullets — never point the exit line at an earlier-round opponent.
 - Add milestone sub-bullets only for firsts (e.g. first WTA title, first Filipina to reach X)
 - **Doubles:** exit round gets `| [wtatennis.com](url)` on the main line; earlier rounds as `Round | [wtatennis.com](url)` sub-bullets. Add `(with Partner Name)` on every doubles tournament line.
 
-See [reference.md](reference.md) for entry templates.
+See [reference.md](reference.md) for entry templates and tier lookup.
+
+#### Tournament naming rules
+
+Tournament display names must be **brand-free** and **tier-labeled**.
+
+**WTA tour format:** `**{Location or event name} (WTA {tier})**`
+
+- **Location first** — city or region (e.g. `Berlin`, `Dubai`, `Manila`, `Indian Wells`)
+- **Tier required** — one of `WTA 125`, `WTA 250`, `WTA 500`, `WTA 1000`
+- **No sponsor or corporate brands** — strip presenting partners, banks, auto makers, pharma, telecom, etc. from the visible name even when WTA or tennis.com URLs still use the branded slug
+
+| Avoid (branded) | Use instead |
+| --- | --- |
+| Lexus Birmingham Open | **Birmingham (WTA 125)** |
+| Mubadala Abu Dhabi Open | **Abu Dhabi (WTA 500)** |
+| ASB Classic | **Auckland (WTA 250)** |
+| BNP Paribas Open | **Indian Wells (WTA 1000)** |
+| Internazionali BNL d'Italia | **Rome (WTA 1000)** or **Rome Open (WTA 1000)** |
+| Vanda Pharmaceuticals Berlin Tennis Open | **Berlin (WTA 500)** |
+| National Bank Open | **Montreal (WTA 1000)** or **Toronto (WTA 1000)** — match the host city that year |
+| Porsche Tennis Grand Prix | **Stuttgart (WTA 500)** |
+
+**Optional suffixes:** `Open` or `International` are fine when they distinguish the event (e.g. `Miami Open (WTA 1000)`, `Canberra International (WTA 125)`). Never add a sponsor before them.
+
+**Grand Slam format:** `**Australian Open**`, `**French Open**`, `**Wimbledon**`, `**US Open**` — no `(WTA …)` suffix. Do not use sponsor names (e.g. not "Roland Garros presented by …").
+
+**H2H match lines** (`**YYYY Tournament - Surface - Win/Loss**`): same brand-free rule — `2026 Berlin`, not `2026 Vanda Pharmaceuticals Berlin Open`; `2026 Indian Wells`, not `2026 BNP Paribas Open`. Tier is optional in H2H lines but the name must still be sponsor-free.
+
+**At a glance / title shorthand:** compact form is OK — e.g. `Guadalajara 125`, `Birmingham 125` (city + tier number, no brand).
+
+**Tier lookup:** confirm category on the tournament's WTA page (`wta125`, `wta250`, `wta500`, `wta1000` in URL or event header). When promoting or correcting existing entries, fix branded names to match this table.
 
 ### Step 4 — Grand Slam results
 
@@ -169,6 +202,8 @@ For **Grand Slam Main Draw Results** (singles and doubles), search for verified 
 - YouTube embeds from official/broadcaster channels only — no fan reuploads
 - No duplicate `VIDEO_ID` across tournament and H2H sections (H2H wins)
 - Exit-round tournament links point to the deepest round played
+- Tournament names are **brand-free** and include `(WTA 125|250|500|1000)` on every WTA tour line; Grand Slams use the four major names only
+- H2H match lines use brand-free tournament names
 - Links resolve (fetch or spot-check key URLs)
 - `lastmod` bumped; other frontmatter unchanged unless user asks
 - Run `read_lints` on the edited file if available
@@ -200,7 +235,7 @@ When the user names one tournament or match:
 1. Look up opponent WTA ID via search or [reference.md](reference.md) watch-list IDs
 2. H2H URL pattern: `https://www.wtatennis.com/head-to-head/330332/[OPPONENT_ID]`
 3. Copy structure from an existing opponent block (Grand Slam Champions: Madison Keys; Other Top 20: Iva Jovic)
-4. Add match line: `**YYYY Tournament - Surface - Win/Loss** - [Match Stats](url)` (Grand Slam Champions section only). List matches **newest first**.
+4. Add match line: `**YYYY Tournament - Surface - Win/Loss** - [Match Stats](url)` (Grand Slam Champions section only). List matches **newest first**. Tournament name must be **brand-free** (see [Tournament naming rules](#tournament-naming-rules)).
 5. Add YouTube shortcodes only if a verified highlight, extended highlight, or full-match replay exists — see [YouTube embed rules](reference.md#youtube-embed-rules). For **Other Top 20 Players**, embeds only — no match lines.
 6. If opponent came from the watch list, remove their watch-list line
 7. Re-sort **Grand Slam Champions** if a new Slam winner was added

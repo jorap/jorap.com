@@ -35,6 +35,26 @@ H2H base: `https://www.wtatennis.com/head-to-head/330332/[OPPONENT_ID]`
 
 Update all four lines when any underlying milestone changes.
 
+## Tournament naming
+
+Every WTA tournament entry must show the **tier** and **no sponsor brands**.
+
+| Tier | Label in entry |
+| --- | --- |
+| WTA 125 | `(WTA 125)` |
+| WTA 250 | `(WTA 250)` |
+| WTA 500 | `(WTA 500)` |
+| WTA 1000 | `(WTA 1000)` |
+| Grand Slam | No tier suffix — use `Australian Open`, `French Open`, `Wimbledon`, or `US Open` |
+
+**Entry format:** `**{City or event name} (WTA {tier})** - {round}`
+
+Strip sponsor names from the display label (Lexus, Mubadala, ASB, BNP Paribas, Porsche, National Bank, Vanda, etc.). URLs may keep branded slugs; visible text must not.
+
+**H2H match lines:** `**YYYY {brand-free name} - {Surface} - {Result}**` — e.g. `2026 Berlin`, `2026 Indian Wells`, `2025 Miami Open`.
+
+Confirm tier on the WTA tournament page before adding or correcting an entry.
+
 ## Entry templates
 
 ### Tournament result (singles)
@@ -123,7 +143,7 @@ Add embeds when verified official/broadcaster doubles footage exists — one per
 
 **Matches:**
 
-- **2026 Italian Open - Clay Court - Loss** - [Match Stats](https://...)
+- **2026 Rome - Clay Court - Loss** - [Match Stats](https://...)
 - **2025 Miami Open - Hard Court - Win** - [Match Stats](https://...)
 
 List completed singles meetings **newest first**.
