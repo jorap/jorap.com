@@ -1,3 +1,4 @@
-# Local dev server: include blog drafts and future-dated posts.
+# Local dev server: build drafts for /drafts/ preview only; they stay out of
+# blog/notes lists, search, related posts, and random note pickers.
 buildDrafts = true
 buildFuture = true

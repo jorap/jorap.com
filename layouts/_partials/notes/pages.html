@@ -22,10 +22,8 @@
   {{- if in $excludeKinds $kind -}}
     {{- continue -}}
   {{- end -}}
-  {{- if not hugo.IsServer -}}
-    {{- if .Draft -}}
-      {{- continue -}}
-    {{- end -}}
+  {{- if .Draft -}}
+    {{- continue -}}
   {{- end -}}
   {{- $pages = $pages | append . -}}
 {{- end -}}

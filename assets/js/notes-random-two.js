@@ -85,7 +85,7 @@
     }
 
     var lines = [
-      "I'm exploring two notes from my digital garden. Help me think of new ideas.",
+      "I'm exploring connections between two notes from my digital garden. Help me discover new ideas by analyzing how they relate.",
       "",
     ];
 
@@ -96,15 +96,19 @@
       lines.push("");
     });
 
-    lines.push("Please:");
-    lines.push("- Find unexpected links between these two topics");
-    lines.push("- Suggest 3 new atomic note titles I could write");
-    lines.push("- Propose questions these notes raise together");
-    lines.push("- Flag gaps, tensions, or contradictions worth exploring");
+    lines.push("Please analyze:");
+    lines.push("- Note 1 + Note 2 (together)");
     lines.push("");
-    lines.push(
-      "Keep suggestions practical for a personal knowledge garden: one idea per note, clear titles I can turn into [[wikilinks]]."
-    );
+    lines.push("For this pairing, provide:");
+    lines.push("- 3 unexpected links (surprising connections or new ideas)");
+    lines.push("- 3 atomic note titles (clear, one-idea titles I can turn into [[wikilinks]])");
+    lines.push("- 3 questions the pairing raises");
+    lines.push("- 3 gaps, tensions, or contradictions worth exploring");
+    lines.push("");
+    lines.push("Constraints:");
+    lines.push("- Keep all suggestions practical for a personal knowledge garden");
+    lines.push("- One idea per note, clear atomic titles");
+    lines.push("- Focus on actionable insights, not abstract theory");
 
     return lines.join("\n");
   }

@@ -9,10 +9,7 @@
 {{- $labels = $labels | append ($page.Params.categories | default slice) -}}
 {{- $results := slice -}}
 
-{{- $blogPages := where site.RegularPages "Section" "blog" -}}
-{{- if not hugo.IsServer -}}
-  {{- $blogPages = where $blogPages "Draft" false -}}
-{{- end -}}
+{{- $blogPages := where (where site.RegularPages "Section" "blog") "Draft" false -}}
 
 {{- if gt (len $labels) 0 -}}
   {{- $scored := slice -}}
@@ -48,7 +45,7 @@
 
 {{- if eq (len $results) 0 -}}
   {{- range site.RegularPages.Related $page -}}
-    {{- if eq .Section "blog" -}}
+    {{- if and (eq .Section "blog") (not .Draft) -}}
       {{- $results = $results | append . -}}
     {{- end -}}
   {{- end -}}

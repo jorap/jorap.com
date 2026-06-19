@@ -97,7 +97,7 @@
     }
 
     var lines = [
-      "I'm exploring three notes from my digital garden. Help me think of new ideas.",
+      "I'm exploring connections between three notes from my digital garden. Help me discover new ideas by analyzing how they relate.",
       "",
     ];
 
@@ -108,17 +108,22 @@
       lines.push("");
     });
 
-    lines.push("Please:");
-    lines.push(
-      "- Analyze connections at two levels: all three notes together, and each pair separately (1+2, 1+3, 2+3)"
-    );
-    lines.push("- Find unexpected links, gaps, tensions, or contradictions at each level");
-    lines.push("- Suggest 3 new atomic note titles I could write (from the trio or any pair)");
-    lines.push("- Propose questions these notes raise together and within each pair");
+    lines.push("Please analyze:");
+    lines.push("- All three notes together");
+    lines.push("- Note 1 + Note 2");
+    lines.push("- Note 1 + Note 3");
+    lines.push("- Note 2 + Note 3");
     lines.push("");
-    lines.push(
-      "Keep suggestions practical for a personal knowledge garden: one idea per note, clear titles I can turn into [[wikilinks]]."
-    );
+    lines.push("For each combination, provide:");
+    lines.push("- 3 unexpected links (surprising connections or new ideas)");
+    lines.push("- 3 atomic note titles (clear, one-idea titles I can turn into [[wikilinks]])");
+    lines.push("- 3 questions the pairing raises");
+    lines.push("- 3 gaps, tensions, or contradictions worth exploring");
+    lines.push("");
+    lines.push("Constraints:");
+    lines.push("- Keep all suggestions practical for a personal knowledge garden");
+    lines.push("- One idea per note, clear atomic titles");
+    lines.push("- Focus on actionable insights, not abstract theory");
 
     return lines.join("\n");
   }
