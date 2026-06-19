@@ -15,7 +15,7 @@ aliases: []
 
 Spaced repetition schedules reviews before I forget. I use it for facts I need cold, not for whole wiki pages.
 
-Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for. Whole essays don't belong on flashcards. The wiki holds understanding; SRS holds drill.
+Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for. Whole essays don't belong on flashcards. The wiki holds understanding; [[Spaced Repetition Systems (SRS)]] holds drill.
 
 ## See also
 

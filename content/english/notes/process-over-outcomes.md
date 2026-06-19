@@ -15,7 +15,7 @@ aliases: ["Process Over Outcome"]
 
 Results matter, but optimizing only for outcomes wins once. I optimize for a repeatable process that wins again and again.
 
-I can't control every result; I can control showing up to the weekly review, the publish cadence, the capture habit. Outcomes still matter - but the process is what I rerun when motivation dips.
+I can't control every result; I can control showing up to [[Weekly Review Checklists]], the publish cadence, the capture habit. Outcomes still matter - but the process is what I rerun when motivation dips.
 
 ## See also
 

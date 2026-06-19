@@ -15,7 +15,7 @@ aliases: ["12 Week Year"]
 
 Twelve-week years compress annual goals into quarters I actually feel. I map wiki projects to 12-week arcs.
 
-Twelve weeks is long enough to ship, short enough to feel urgent. Wiki project notes get a season tag; review at week twelve, archive or renew. Beats annual goals that die in February.
+Twelve weeks is long enough to ship, short enough to feel urgent. Wiki project notes get a season tag; review at week twelve, [[The Archive Method|archive]] or renew. Beats annual goals that die in February.
 
 ## See also
 

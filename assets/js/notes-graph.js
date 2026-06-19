@@ -243,7 +243,7 @@
 
     function viewNodes() {
       var visible;
-      if (!focusNode) {
+      if (typeFilterActive() || !focusNode) {
         visible = nodes;
       } else {
         var set = neighborsOf(focusNode);
@@ -272,14 +272,15 @@
         maxY = Math.max(maxY, n.y + r + labelH);
       });
 
-      var pad = focusNode ? 44 : 56;
+      var useFocusCenter = focusNode && !typeFilterActive();
+      var pad = useFocusCenter ? 44 : 56;
       var graphW = Math.max(maxX - minX, 1);
       var graphH = Math.max(maxY - minY, 1);
-      var k = Math.min((width - pad * 2) / graphW, (height - pad * 2) / graphH, focusNode ? 2 : 1.8);
+      var k = Math.min((width - pad * 2) / graphW, (height - pad * 2) / graphH, useFocusCenter ? 2 : 1.8);
       k = Math.max(k, 0.25) * 2;
 
-      var cx = focusNode ? focusNode.x : (minX + maxX) / 2;
-      var cy = focusNode ? focusNode.y : (minY + maxY) / 2;
+      var cx = useFocusCenter ? focusNode.x : (minX + maxX) / 2;
+      var cy = useFocusCenter ? focusNode.y : (minY + maxY) / 2;
 
       defaultTransform = {
         k: k,
@@ -423,7 +424,11 @@
       ctx.translate(transform.x, transform.y);
       ctx.scale(transform.k, transform.k);
 
-      var highlight = hovered ? neighborsOf(hovered) : focusNode ? neighborsOf(focusNode) : null;
+      var highlight = hovered
+        ? neighborsOf(hovered)
+        : typeFilterActive() || !focusNode
+          ? null
+          : neighborsOf(focusNode);
       var hasFilter = Boolean(searchQuery);
 
       edges.forEach(function (e) {
@@ -448,7 +453,7 @@
       nodes.forEach(function (n) {
         if (typeFilterActive() && !passesFilter(n)) return;
         var r = nodeRadius(n);
-        var isFocus = focusNode && n === focusNode;
+        var isFocus = !typeFilterActive() && focusNode && n === focusNode;
         var isHover = hovered === n;
         var inHighlight = !highlight || highlight[n.id];
         var matches = matchesSearch(n);
@@ -673,7 +678,7 @@
             el.classList.toggle("is-active", active);
             el.setAttribute("aria-pressed", active ? "true" : "false");
           });
-          hovered = focusNode || null;
+          hovered = graphFilter === "all" ? focusNode || null : null;
           fitToView();
           draw();
           wake();

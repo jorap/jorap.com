@@ -15,7 +15,7 @@ aliases: ["the collectors fallacy", "Collector's Fallacy"]
 
 Collecting articles feels like progress. It isn't. The collector's fallacy bit me until I tied saves to express deadlines.
 
-I tied every save to a question: what will I make with this? No express action, no save - harsh, but the backlog shrank. Reading isn't learning until something leaves the notebook.
+I tied every save to a question: what will I make with this? No [[Creative Output]], no save - harsh, but the backlog shrank. Reading isn't learning until something leaves the notebook.
 
 ## See also
 

@@ -15,7 +15,7 @@ aliases: []
 
 Dense walls of text don't get reread. I format notes like I'd format a post - headings, bullets, bold for the point.
 
-Short paragraphs, bold on the claim, bullets only for real lists. If I won't reread a wall of text, neither will anyone else. Same rules as blog posts, tighter scope.
+Short paragraphs, bold on the claim, bullets only for real lists. If I won't reread a wall of text, neither will anyone else. Same rules as [[Evergreen Notes]] and blog posts, tighter scope.
 
 ## See also
 

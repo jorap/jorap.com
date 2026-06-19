@@ -15,7 +15,7 @@ aliases: ["Evergreen vs Fleeting"]
 
 Fleeting notes catch sparks. Evergreen notes hold truth. I need both lanes and a clear promotion path.
 
-Fleeting lives in [[Daily Notes]] and the inbox; evergreen lives where I link and teach from. The promotion question: is this still true, and would I cite it to a friend? If yes, rewrite in timeless voice and file as evergreen.
+Fleeting lives in [[Daily Notes]] and the inbox; evergreen lives where I link and teach from. The promotion question: is this still true, and would I cite it to a friend? If yes, rewrite in timeless voice, stress-test with [[The Feynman Technique]], and file as evergreen.
 
 ## See also
 

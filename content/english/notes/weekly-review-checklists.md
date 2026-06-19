@@ -15,7 +15,7 @@ aliases: []
 
 My weekly review is a checklist - inbox, calendar, projects, one express action. Boring on purpose.
 
-Same list every Friday: empty inbox, scan calendar, review projects, one ship action. Boring is the feature - novelty in reviews means I'm reinventing the wheel. GTD's maintain phase, sized for a real week.
+Same list every Friday: empty [[The Trusted Inbox]], scan calendar, review projects, one ship action. Boring is the feature - novelty in reviews means I'm reinventing the wheel. GTD's maintain phase, sized for a real week.
 
 ## See also
 

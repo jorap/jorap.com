@@ -15,7 +15,7 @@ aliases: []
 
 Most sparks die on mobile because capture takes twelve taps. I reduced mine to share sheet → inbox.
 
-Share sheet to inbox, voice memo when walking, photo of whiteboard before the room clears. Twelve taps was a design failure I fixed once and stopped re-litigating.
+Share sheet to my [[Capture]] inbox, voice memo when walking, photo of whiteboard before the room clears. Twelve taps was a design failure I fixed once and stopped re-litigating.
 
 ## See also
 

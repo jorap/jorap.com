@@ -15,7 +15,7 @@ aliases: ["No Perfect Solution"]
 
 Waiting for the perfect tool, plan, or answer feels responsible. It's often the nirvana fallacy. Here's why I choose good-enough tradeoffs on purpose.
 
-Good enough today beats optimal someday. I pick tools I can export, workflows I can repeat tired, tradeoffs I can name. Perfectionism dressed as research is still procrastination.
+Good enough today beats optimal someday. I pick tools I can export, workflows I can repeat tired, tradeoffs I can name - same frame as [[Anti-Fragile Systems]]. Perfectionism dressed as research is still procrastination.
 
 ## See also
 

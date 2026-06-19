@@ -15,7 +15,7 @@ aliases: ["Zettelkasten Myth"]
 
 Luhmann's output wasn't copy-paste from buying the right notebook. The Zettelkasten myth oversells tools and undersells writing.
 
-The notebook didn't write the books; Luhmann did. Tools lower friction; they don't replace sentences. Buy plain text and a linking habit before another productivity pilgrimage.
+The [[Zettelkasten]] didn't write the books; Luhmann did. Tools lower friction; they don't replace sentences. Buy plain text and a linking habit before another productivity pilgrimage.
 
 ## See also
 

@@ -15,7 +15,7 @@ aliases: ["Future of PKM"]
 
 AI, agents, new apps - PKM hype cycles spin. The future still looks like capture, connect, create, with better search.
 
-Better search, agents that read my folders, sure - but capture, connect, create doesn't retire. New tools should shorten the loop, not replace thinking. Skepticism earns its keep every hype cycle.
+Better search, agents that read my folders, sure - but [[PKM]]'s capture, connect, create loop doesn't retire. New tools should shorten the loop, not replace thinking. Skepticism earns its keep every hype cycle.
 
 ## See also
 

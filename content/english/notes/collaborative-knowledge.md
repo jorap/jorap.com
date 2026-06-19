@@ -15,7 +15,7 @@ aliases: []
 
 Most of my notes are solo, but teams need shared context too. I look for owners, edit norms, and one source of truth per topic.
 
-Shared wikis need owners, edit norms, and a single source of truth per topic. I still keep a solo garden for thinking; team docs live where decisions stick. Different jobs, different homes.
+Shared wikis need owners, edit norms, and a single source of truth per topic. I still keep a solo [[Digital Garden]] for thinking; team docs live where decisions stick. Different jobs, different homes.
 
 ## See also
 

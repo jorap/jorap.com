@@ -15,7 +15,7 @@ aliases: ["distraction free writing"]
 
 Fullscreen, plain text, notifications off. I don't need a special app - I need fewer excuses to leave the sentence.
 
-Plain Markdown, full screen, phone in another room. Fancy writing apps became another place to tweak instead of type. The goal is one uninterrupted paragraph, then another.
+Plain Markdown, full screen, phone in another room. Same subtraction mindset as [[Digital Minimalism]]: fancy writing apps became another place to tweak instead of type. The goal is one uninterrupted paragraph, then another.
 
 ## See also
 

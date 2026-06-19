@@ -15,7 +15,7 @@ aliases: ["Feynman Technique"]
 
 I explain notes like I'm teaching someone - gaps in my explanation show gaps in understanding.
 
-I explain the note aloud or in a blank doc - no paste from the source. Where I stumble, the note gets a gap marker and a rewrite pass. Teaching exposes what highlighting hid.
+I explain the note aloud or in a blank doc - no paste from the source. Where I stumble, the note gets a gap marker and a rewrite pass toward [[Evergreen Notes]]. Teaching exposes what highlighting hid.
 
 ## See also
 

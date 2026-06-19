@@ -15,7 +15,7 @@ aliases: []
 
 Fewer apps, fewer sync layers, fewer notifications. My PKM got better when I stopped collecting tools.
 
-One capture app, one wiki, one task list. Each new tool pays rent in sync and attention. When PKM felt heavy, the fix was subtraction, not another Notion template.
+One capture app, one wiki, one task list. Each new tool pays rent in sync and attention. When [[PKM]] felt heavy, the fix was subtraction, not another Notion template.
 
 ## See also
 

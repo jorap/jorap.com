@@ -15,7 +15,7 @@ aliases: ["Garage Concept"]
 
 The garage holds tools, scraps, experiments. The showroom is the blog. I don't confuse the two.
 
-Notes garden is the garage: experiments, half-ideas, tools scattered on benches. The blog is the showroom - cleaned up, narrative, guest-ready. Mixing them makes both worse.
+My [[Digital Garden]] is the garage: experiments, half-ideas, tools scattered on benches. The blog is the showroom - cleaned up, narrative, guest-ready. Mixing them makes both worse.
 
 ## See also
 
