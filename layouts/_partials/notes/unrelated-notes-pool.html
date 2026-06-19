@@ -1,0 +1,22 @@
+{{- /*
+  Garden notes that are not tag/category-related to Context, and not already
+  linked from the page body. Returns a slice of dicts: url, title.
+*/ -}}
+{{- $page := .Context -}}
+{{- $allNotes := partial "notes/garden-pages.html" $page -}}
+{{- $related := partial "notes/related-notes.html" (dict "Context" $page "Limit" 9999) -}}
+{{- $exclude := dict -}}
+{{- range $related -}}
+  {{- $exclude = merge $exclude (dict .Page.RelPermalink true) -}}
+{{- end -}}
+{{- $outgoing := partial "notes/outgoing-links.html" $page -}}
+{{- range $outgoing -}}
+  {{- $exclude = merge $exclude (dict .Page.RelPermalink true) -}}
+{{- end -}}
+{{- $pool := slice -}}
+{{- range $allNotes -}}
+  {{- if not (index $exclude .RelPermalink) -}}
+    {{- $pool = $pool | append (dict "url" .RelPermalink "title" .Title) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $pool -}}

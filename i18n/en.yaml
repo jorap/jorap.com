@@ -3,6 +3,18 @@ read_more: Read More
 send: Send
 related_posts: Related Posts
 related_notes: Related Notes
+random_unrelated_notes: 3 Random Notes
+random_unrelated_notes_lede: Three garden notes with no tag overlap to this post — shuffle for serendipity.
+shuffle_all: Shuffle all
+shuffle_left: Shuffle left
+shuffle_center: Shuffle center
+shuffle_right: Shuffle right
+ai_prompt: AI prompt
+ai_prompt_label: Prompt to paste into an AI chat
+copy_prompt: Copy prompt
+loading: Loading…
+random_notes_prompt_loading: Loading notes…
+no_unrelated_notes: No unrelated notes in the garden yet.
 categories: Categories
 tags: Tags
 toc: Table of Contents

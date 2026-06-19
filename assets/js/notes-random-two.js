@@ -1,0 +1,305 @@
+/**
+ * Two random notes page: pick a pair and load note bodies into columns.
+ */
+(function () {
+  var root = document.querySelector("[data-notes-random-two]");
+  var dataEl = document.querySelector(".notes-random-two-data");
+  var shuffleBtn = document.querySelector("[data-random-two-shuffle]");
+  var shuffleLeftBtn = document.querySelector("[data-random-two-shuffle-left]");
+  var shuffleRightBtn = document.querySelector("[data-random-two-shuffle-right]");
+  var copyPromptBtn = document.querySelector("[data-random-two-copy-prompt]");
+  var promptEl = document.querySelector("[data-random-two-prompt]");
+  var emptyPageEl = document.querySelector(".notes-random-two-empty-page");
+  if (!root || !dataEl) return;
+
+  var slots = root.querySelectorAll("[data-random-two-slot]");
+  var currentNotes = [null, null];
+  var pool;
+
+  try {
+    pool = JSON.parse(dataEl.textContent);
+  } catch (e) {
+    pool = [];
+  }
+
+  function pickTwo() {
+    if (!pool.length) return [];
+    if (pool.length === 1) return [pool[0], null];
+    var first = pickOne([]);
+    var second = pickOne(first ? [first.url] : []);
+    return [first, second];
+  }
+
+  function pickOne(excludeUrls) {
+    if (!pool.length) return null;
+
+    var exclude = excludeUrls || [];
+    var candidates = pool.filter(function (entry) {
+      return exclude.indexOf(entry.url) === -1;
+    });
+
+    if (!candidates.length) {
+      candidates = pool.slice();
+    }
+
+    return candidates[Math.floor(Math.random() * candidates.length)];
+  }
+
+  function escapeHtml(str) {
+    return String(str)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function setSlotLoading(slot) {
+    slot.innerHTML = '<p class="notes-random-two-loading text-ink-muted text-sm">Loading…</p>';
+    slot.classList.remove("notes-random-two-panel--empty");
+  }
+
+  function setSlotEmpty(slot) {
+    slot.innerHTML =
+      '<p class="notes-random-two-empty text-ink-muted text-sm">Not enough notes to fill this column.</p>';
+    slot.classList.add("notes-random-two-panel--empty");
+  }
+
+  function normalizeText(str) {
+    return String(str || "")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function buildPrompt(notes) {
+    var usable = notes.filter(function (note) {
+      return note && note.title;
+    });
+
+    if (!usable.length) {
+      return "Shuffle to load two notes, then paste this prompt into your AI chat.";
+    }
+
+    var lines = [
+      "I'm exploring two notes from my digital garden. Help me think of new ideas.",
+      "",
+    ];
+
+    usable.forEach(function (note, index) {
+      lines.push("Note " + (index + 1) + ': "' + note.title + '"');
+      if (note.url) lines.push("URL: " + window.location.origin + note.url);
+      if (note.bodyText) lines.push(note.bodyText);
+      lines.push("");
+    });
+
+    lines.push("Please:");
+    lines.push("- Find unexpected links between these two topics");
+    lines.push("- Suggest 3 new atomic note titles I could write");
+    lines.push("- Propose questions these notes raise together");
+    lines.push("- Flag gaps, tensions, or contradictions worth exploring");
+    lines.push("");
+    lines.push(
+      "Keep suggestions practical for a personal knowledge garden: one idea per note, clear titles I can turn into [[wikilinks]]."
+    );
+
+    return lines.join("\n");
+  }
+
+  function updatePrompt(notes) {
+    if (!promptEl) return;
+    promptEl.value = buildPrompt(notes);
+  }
+
+  function copyPrompt() {
+    if (!promptEl || !navigator.clipboard) return;
+
+    navigator.clipboard.writeText(promptEl.value).then(function () {
+      if (!copyPromptBtn) return;
+      var original = copyPromptBtn.textContent;
+      copyPromptBtn.textContent = "Copied";
+      window.setTimeout(function () {
+        copyPromptBtn.textContent = original;
+      }, 1600);
+    });
+  }
+
+  var skipArticleSelector =
+    ".notes-graph-panel, .notes-toolbar, .article-title, .toc-wrapper, .notes-outgoing, .notes-see-also, .notes-backlinks";
+
+  function cloneArticleBody(article) {
+    var body = document.createElement("div");
+    body.className = "notes-random-two-body";
+    var children = article.children;
+
+    for (var i = 0; i < children.length; i += 1) {
+      var child = children[i];
+      if (child.matches(skipArticleSelector)) continue;
+      body.appendChild(child.cloneNode(true));
+    }
+
+    return body;
+  }
+
+  function equalizePanelHeights() {
+    var panels = root.querySelectorAll(".notes-random-two-panel");
+    if (panels.length < 2) return;
+
+    panels.forEach(function (panel) {
+      panel.style.minHeight = "";
+    });
+
+    var maxHeight = 0;
+    panels.forEach(function (panel) {
+      maxHeight = Math.max(maxHeight, panel.offsetHeight);
+    });
+
+    if (maxHeight > 0) {
+      panels.forEach(function (panel) {
+        panel.style.minHeight = maxHeight + "px";
+      });
+    }
+  }
+
+  function renderNote(slot, pick) {
+    if (!pick) {
+      setSlotEmpty(slot);
+      return Promise.resolve(null);
+    }
+
+    setSlotLoading(slot);
+
+    return fetch(pick.url)
+      .then(function (res) {
+        if (!res.ok) throw new Error("fetch failed");
+        return res.text();
+      })
+      .then(function (html) {
+        var doc = new DOMParser().parseFromString(html, "text/html");
+        var article = doc.querySelector("article");
+        var titleEl = doc.querySelector(".article-title");
+        var contentEl = doc.querySelector(".notes-content");
+        if (!article || !titleEl || !contentEl) throw new Error("parse failed");
+
+        var panel = document.createElement("article");
+        panel.className = "notes-random-two-panel border-divider rounded border p-5";
+
+        var heading = document.createElement("h2");
+        heading.className = "h5 mb-3";
+        var link = document.createElement("a");
+        link.className = "text-accent no-underline hover:underline";
+        link.href = pick.url;
+        link.textContent = titleEl.textContent.trim();
+        heading.appendChild(link);
+        panel.appendChild(heading);
+        panel.appendChild(cloneArticleBody(article));
+
+        slot.innerHTML = "";
+        slot.appendChild(panel);
+        slot.classList.remove("notes-random-two-panel--empty");
+
+        return {
+          title: titleEl.textContent.trim(),
+          url: pick.url,
+          bodyText: normalizeText(contentEl.textContent),
+        };
+      })
+      .catch(function () {
+        slot.innerHTML =
+          '<article class="notes-random-two-panel border-divider rounded border p-5">' +
+          '<h2 class="h5 mb-3"><a class="text-accent no-underline hover:underline" href="' +
+          escapeHtml(pick.url) +
+          '">' +
+          escapeHtml(pick.title) +
+          "</a></h2>" +
+          '<p class="text-ink-muted text-sm">Could not load this note. <a href="' +
+          escapeHtml(pick.url) +
+          '">Open it directly</a>.</p></article>';
+
+        return {
+          title: pick.title,
+          url: pick.url,
+          bodyText: "",
+        };
+      });
+  }
+
+  function shuffleBoth() {
+    if (!pool.length) {
+      if (emptyPageEl) emptyPageEl.classList.remove("hidden");
+      slots.forEach(setSlotEmpty);
+      currentNotes = [null, null];
+      updatePrompt([]);
+      return;
+    }
+
+    if (emptyPageEl) emptyPageEl.classList.add("hidden");
+    if (promptEl) promptEl.value = "Loading notes…";
+
+    var picks = pickTwo();
+    Promise.all(
+      Array.prototype.map.call(slots, function (slot, index) {
+        return renderNote(slot, picks[index]);
+      })
+    ).then(function (notes) {
+      currentNotes = notes;
+      updatePrompt(currentNotes);
+      window.requestAnimationFrame(equalizePanelHeights);
+    });
+  }
+
+  function shuffleSide(index) {
+    if (!pool.length) return;
+
+    var otherIndex = index === 0 ? 1 : 0;
+    var exclude = [];
+    var otherNote = currentNotes[otherIndex];
+
+    if (otherNote && otherNote.url) {
+      exclude.push(otherNote.url);
+    }
+
+    var pick = pickOne(exclude);
+    if (!pick) return;
+
+    if (promptEl) promptEl.value = "Loading notes…";
+
+    renderNote(slots[index], pick).then(function (note) {
+      currentNotes[index] = note;
+      updatePrompt(currentNotes);
+      window.requestAnimationFrame(equalizePanelHeights);
+    });
+  }
+
+  if (shuffleBtn) {
+    shuffleBtn.addEventListener("click", shuffleBoth);
+  }
+
+  if (shuffleLeftBtn) {
+    shuffleLeftBtn.addEventListener("click", function () {
+      shuffleSide(0);
+    });
+  }
+
+  if (shuffleRightBtn) {
+    shuffleRightBtn.addEventListener("click", function () {
+      shuffleSide(1);
+    });
+  }
+
+  if (copyPromptBtn) {
+    copyPromptBtn.addEventListener("click", function (event) {
+      event.preventDefault();
+      event.stopPropagation();
+      copyPrompt();
+    });
+  }
+
+  window.addEventListener(
+    "resize",
+    function () {
+      equalizePanelHeights();
+    },
+    { passive: true }
+  );
+
+  shuffleBoth();
+})();

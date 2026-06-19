@@ -473,6 +473,107 @@ html.dark .notes-dev-banner code {
   font-weight: 500;
 }
 
+.notes-random-two {
+  align-items: stretch;
+}
+
+.notes-random-two-prompt {
+  background: var(--color-elevated);
+}
+
+.notes-random-two-prompt-summary {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.notes-random-two-prompt-summary::-webkit-details-marker {
+  display: none;
+}
+
+.notes-random-two-prompt-label {
+  align-items: center;
+  display: inline-flex;
+  gap: 0.5rem;
+}
+
+.notes-random-two-prompt-label::before {
+  color: var(--color-ink-muted);
+  content: "▸";
+  display: inline-block;
+  font-size: 0.875rem;
+  line-height: 1;
+  transition: transform 0.15s ease;
+}
+
+.notes-random-two-prompt[open] .notes-random-two-prompt-label::before {
+  transform: rotate(90deg);
+}
+
+.notes-random-two-prompt-body {
+  border-top: 1px solid var(--color-divider);
+  padding-top: 1rem;
+}
+
+.notes-random-two-prompt-text {
+  background: var(--color-surface);
+  border: 1px solid var(--color-divider);
+  border-radius: 0.5rem;
+  color: var(--color-ink);
+  display: block;
+  font-family: inherit;
+  font-size: 0.875rem;
+  line-height: 1.55;
+  min-height: 12rem;
+  padding: 0.875rem 1rem;
+  resize: vertical;
+  width: 100%;
+}
+
+.notes-random-two-prompt-text:focus {
+  border-color: var(--color-accent);
+  outline: none;
+}
+
+.notes-random-two-slot {
+  display: flex;
+  flex-direction: column;
+}
+
+.notes-random-two-panel {
+  background: var(--color-surface);
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  width: 100%;
+  min-height: 12rem;
+}
+
+.notes-random-two-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.notes-random-two-panel .notes-content {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.notes-random-two-panel .notes-content.mb-10 {
+  margin-bottom: 0;
+}
+
+.notes-random-two-slot.notes-random-two-panel--empty {
+  align-items: center;
+  justify-content: center;
+  min-height: 8rem;
+}
+
 .notes-grid-item.hidden {
   display: none !important;
 }

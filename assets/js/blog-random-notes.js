@@ -1,0 +1,353 @@
+/**
+ * Blog single: three unrelated garden notes + AI prompt with the post.
+ */
+(function () {
+  var root = document.querySelector("[data-blog-random-notes]");
+  var dataEl = document.querySelector(".blog-random-notes-data");
+  var shuffleAllBtn = document.querySelector("[data-blog-random-shuffle-all]");
+  var shuffleLeftBtn = document.querySelector("[data-blog-random-shuffle-left]");
+  var shuffleCenterBtn = document.querySelector("[data-blog-random-shuffle-center]");
+  var shuffleRightBtn = document.querySelector("[data-blog-random-shuffle-right]");
+  var copyPromptBtn = document.querySelector("[data-blog-random-copy-prompt]");
+  var promptEl = document.querySelector("[data-blog-random-prompt]");
+  var emptyPageEl = document.querySelector("[data-blog-random-empty]");
+  if (!root || !dataEl) return;
+
+  var slotCount = 3;
+  var slots = root.querySelectorAll("[data-blog-random-slot]");
+  var currentNotes = [null, null, null];
+  var pool;
+
+  try {
+    pool = JSON.parse(dataEl.textContent);
+  } catch (e) {
+    pool = [];
+  }
+
+  function pickOne(excludeUrls) {
+    if (!pool.length) return null;
+
+    var exclude = excludeUrls || [];
+    var candidates = pool.filter(function (entry) {
+      return exclude.indexOf(entry.url) === -1;
+    });
+
+    if (!candidates.length) {
+      candidates = pool.slice();
+    }
+
+    return candidates[Math.floor(Math.random() * candidates.length)];
+  }
+
+  function pickMany(count) {
+    var picks = [];
+    var exclude = [];
+
+    for (var i = 0; i < count; i += 1) {
+      var pick = pickOne(exclude);
+      if (!pick) break;
+      picks.push(pick);
+      exclude.push(pick.url);
+    }
+
+    while (picks.length < count) {
+      picks.push(null);
+    }
+
+    return picks;
+  }
+
+  function escapeHtml(str) {
+    return String(str)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function setSlotLoading(slot) {
+    slot.innerHTML = '<p class="notes-random-two-loading text-ink-muted text-sm">Loading…</p>';
+    slot.classList.remove("notes-random-two-panel--empty");
+  }
+
+  function setSlotEmpty(slot) {
+    slot.innerHTML =
+      '<p class="notes-random-two-empty text-ink-muted text-sm">Not enough unrelated notes to fill this column.</p>';
+    slot.classList.add("notes-random-two-panel--empty");
+  }
+
+  function normalizeText(str) {
+    return String(str || "")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function getBlogContext() {
+    var titleEl = document.querySelector("article .article-title");
+    var contentEl = document.querySelector("article .content");
+    if (!titleEl) return null;
+
+    var bodyText = "";
+    if (contentEl) {
+      var clone = contentEl.cloneNode(true);
+      var skip = clone.querySelectorAll(".tags_section, .share_section");
+      for (var i = 0; i < skip.length; i += 1) {
+        skip[i].remove();
+      }
+      bodyText = normalizeText(clone.textContent);
+    }
+
+    return {
+      title: titleEl.textContent.trim(),
+      url: window.location.pathname,
+      bodyText: bodyText,
+    };
+  }
+
+  function buildPrompt(notes) {
+    var blog = getBlogContext();
+    var usable = notes.filter(function (note) {
+      return note && note.title;
+    });
+
+    if (!blog && !usable.length) {
+      return "Shuffle to load three unrelated notes, then paste this prompt into your AI chat.";
+    }
+
+    var lines = [
+      "I'm reading a blog post alongside three unrelated notes from my digital garden. Help me find unexpected connections and new ideas.",
+      "",
+    ];
+
+    if (blog && blog.title) {
+      lines.push('Blog post: "' + blog.title + '"');
+      if (blog.url) lines.push("URL: " + window.location.origin + blog.url);
+      if (blog.bodyText) lines.push(blog.bodyText);
+      lines.push("");
+    }
+
+    usable.forEach(function (note, index) {
+      lines.push("Note " + (index + 1) + ': "' + note.title + '"');
+      if (note.url) lines.push("URL: " + window.location.origin + note.url);
+      if (note.bodyText) lines.push(note.bodyText);
+      lines.push("");
+    });
+
+    lines.push("Please:");
+    lines.push("- Find unexpected links between the blog post and these notes");
+    lines.push("- Find unexpected links across the three notes");
+    lines.push("- Suggest 3 new atomic note titles I could write");
+    lines.push("- Propose questions this combination raises");
+    lines.push("- Flag gaps, tensions, or contradictions worth exploring");
+    lines.push("");
+    lines.push(
+      "Keep suggestions practical for a personal knowledge garden: one idea per note, clear titles I can turn into [[wikilinks]]."
+    );
+
+    return lines.join("\n");
+  }
+
+  function updatePrompt(notes) {
+    if (!promptEl) return;
+    promptEl.value = buildPrompt(notes);
+  }
+
+  function copyPrompt() {
+    if (!promptEl || !navigator.clipboard) return;
+
+    navigator.clipboard.writeText(promptEl.value).then(function () {
+      if (!copyPromptBtn) return;
+      var original = copyPromptBtn.textContent;
+      copyPromptBtn.textContent = "Copied";
+      window.setTimeout(function () {
+        copyPromptBtn.textContent = original;
+      }, 1600);
+    });
+  }
+
+  var skipArticleSelector =
+    ".notes-graph-panel, .notes-toolbar, .article-title, .toc-wrapper, .notes-outgoing, .notes-see-also, .notes-backlinks";
+
+  function cloneArticleBody(article) {
+    var body = document.createElement("div");
+    body.className = "notes-random-two-body";
+    var children = article.children;
+
+    for (var i = 0; i < children.length; i += 1) {
+      var child = children[i];
+      if (child.matches(skipArticleSelector)) continue;
+      body.appendChild(child.cloneNode(true));
+    }
+
+    return body;
+  }
+
+  function equalizePanelHeights() {
+    var panels = root.querySelectorAll(".notes-random-two-panel");
+    if (panels.length < 2) return;
+
+    panels.forEach(function (panel) {
+      panel.style.minHeight = "";
+    });
+
+    var maxHeight = 0;
+    panels.forEach(function (panel) {
+      maxHeight = Math.max(maxHeight, panel.offsetHeight);
+    });
+
+    if (maxHeight > 0) {
+      panels.forEach(function (panel) {
+        panel.style.minHeight = maxHeight + "px";
+      });
+    }
+  }
+
+  function renderNote(slot, pick) {
+    if (!pick) {
+      setSlotEmpty(slot);
+      return Promise.resolve(null);
+    }
+
+    setSlotLoading(slot);
+
+    return fetch(pick.url)
+      .then(function (res) {
+        if (!res.ok) throw new Error("fetch failed");
+        return res.text();
+      })
+      .then(function (html) {
+        var doc = new DOMParser().parseFromString(html, "text/html");
+        var article = doc.querySelector("article");
+        var titleEl = doc.querySelector(".article-title");
+        var contentEl = doc.querySelector(".notes-content");
+        if (!article || !titleEl || !contentEl) throw new Error("parse failed");
+
+        var panel = document.createElement("article");
+        panel.className = "notes-random-two-panel border-divider rounded border p-5";
+
+        var heading = document.createElement("h3");
+        heading.className = "h5 mb-3";
+        var link = document.createElement("a");
+        link.className = "text-accent no-underline hover:underline";
+        link.href = pick.url;
+        link.textContent = titleEl.textContent.trim();
+        heading.appendChild(link);
+        panel.appendChild(heading);
+        panel.appendChild(cloneArticleBody(article));
+
+        slot.innerHTML = "";
+        slot.appendChild(panel);
+        slot.classList.remove("notes-random-two-panel--empty");
+
+        return {
+          title: titleEl.textContent.trim(),
+          url: pick.url,
+          bodyText: normalizeText(contentEl.textContent),
+        };
+      })
+      .catch(function () {
+        slot.innerHTML =
+          '<article class="notes-random-two-panel border-divider rounded border p-5">' +
+          '<h3 class="h5 mb-3"><a class="text-accent no-underline hover:underline" href="' +
+          escapeHtml(pick.url) +
+          '">' +
+          escapeHtml(pick.title) +
+          "</a></h3>" +
+          '<p class="text-ink-muted text-sm">Could not load this note. <a href="' +
+          escapeHtml(pick.url) +
+          '">Open it directly</a>.</p></article>';
+
+        return {
+          title: pick.title,
+          url: pick.url,
+          bodyText: "",
+        };
+      });
+  }
+
+  function shuffleAll() {
+    if (!pool.length) {
+      if (emptyPageEl) emptyPageEl.classList.remove("hidden");
+      slots.forEach(setSlotEmpty);
+      currentNotes = [null, null, null];
+      updatePrompt([]);
+      return;
+    }
+
+    if (emptyPageEl) emptyPageEl.classList.add("hidden");
+    if (promptEl) promptEl.value = "Loading notes…";
+
+    var picks = pickMany(slotCount);
+    Promise.all(
+      Array.prototype.map.call(slots, function (slot, index) {
+        return renderNote(slot, picks[index]);
+      })
+    ).then(function (notes) {
+      currentNotes = notes;
+      updatePrompt(currentNotes);
+      window.requestAnimationFrame(equalizePanelHeights);
+    });
+  }
+
+  function shuffleSide(index) {
+    if (!pool.length) return;
+
+    var exclude = [];
+    currentNotes.forEach(function (note, i) {
+      if (i !== index && note && note.url) {
+        exclude.push(note.url);
+      }
+    });
+
+    var pick = pickOne(exclude);
+    if (!pick) return;
+
+    if (promptEl) promptEl.value = "Loading notes…";
+
+    renderNote(slots[index], pick).then(function (note) {
+      currentNotes[index] = note;
+      updatePrompt(currentNotes);
+      window.requestAnimationFrame(equalizePanelHeights);
+    });
+  }
+
+  if (shuffleAllBtn) {
+    shuffleAllBtn.addEventListener("click", shuffleAll);
+  }
+
+  if (shuffleLeftBtn) {
+    shuffleLeftBtn.addEventListener("click", function () {
+      shuffleSide(0);
+    });
+  }
+
+  if (shuffleCenterBtn) {
+    shuffleCenterBtn.addEventListener("click", function () {
+      shuffleSide(1);
+    });
+  }
+
+  if (shuffleRightBtn) {
+    shuffleRightBtn.addEventListener("click", function () {
+      shuffleSide(2);
+    });
+  }
+
+  if (copyPromptBtn) {
+    copyPromptBtn.addEventListener("click", function (event) {
+      event.preventDefault();
+      event.stopPropagation();
+      copyPrompt();
+    });
+  }
+
+  window.addEventListener(
+    "resize",
+    function () {
+      equalizePanelHeights();
+    },
+    { passive: true }
+  );
+
+  shuffleAll();
+})();
