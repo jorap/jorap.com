@@ -123,7 +123,7 @@
         {{ $ctaActive := eq ($ctaURL | absLangURL) ($currentPage.Permalink | absLangURL) }}
         <li class="nav-item nav-item--cta">
           <a
-            class="btn btn-outline-primary btn-sm block w-full text-center lg:inline-block lg:w-auto{{ if $ctaActive }}
+            class="btn btn-outline-primary block w-full text-center lg:inline-block lg:w-auto{{ if $ctaActive }}
               active{{ end }}"
             href="{{ $ctaURL }}">
             {{ site.Params.navigation_button.label }}

@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Capture", "PKM", "Context", "Note Taking", "Second Brain", "Metadata"]
+tags: ["Capture", "PKM", "Context", "Note Taking", "Second Brain", "Metadata", "Workflow"]
 slug: "context-aware-capture"
 featured: false
 draft: false

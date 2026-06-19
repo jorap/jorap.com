@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Formatting", "Readability", "Markdown", "Note Taking", "PKM", "Writing"]
+tags: ["Formatting", "Readability", "Markdown", "Note Taking", "PKM", "Writing", "Documentation"]
 slug: "formatting-for-readability"
 featured: false
 draft: false

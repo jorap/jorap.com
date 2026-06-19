@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["GTD", "PARA", "Productivity", "PKM", "Tiago Forte", "David Allen"]
+tags: ["GTD", "PARA", "Productivity", "PKM", "Tiago Forte", "David Allen", "Second Brain", "Note Taking"]
 slug: "gtd-vs-para"
 featured: false
 draft: false

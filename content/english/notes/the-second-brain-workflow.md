@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Second Brain", "Workflow", "CODE Method", "PARA", "PKM", "Productivity"]
+tags: ["Second Brain", "Workflow", "CODE Method", "PARA", "PKM", "Productivity", "Hugo", "Tools"]
 slug: "the-second-brain-workflow"
 featured: false
 draft: false

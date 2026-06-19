@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Digital Minimalism", "PKM", "Productivity", "Focus", "Note Taking", "Tools"]
+tags: ["Digital Minimalism", "PKM", "Productivity", "Focus", "Note Taking", "Tools", "Mindful Tech", "Information Diet"]
 slug: "digital-minimalism"
 featured: false
 draft: false

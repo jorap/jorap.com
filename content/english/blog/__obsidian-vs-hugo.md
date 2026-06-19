@@ -6,7 +6,7 @@ date: 2026-06-19T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
-tags: ["Obsidian", "Hugo", "PKM", "Publishing", "Markdown", "Workflow"]
+tags: ["Obsidian", "Hugo", "PKM", "Publishing", "Markdown", "Workflow", "Digital Garden", "Note Taking"]
 slug: "obsidian-vs-hugo"
 featured: false
 draft: true

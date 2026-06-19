@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Serendipity", "Resurfacing", "PKM", "Review", "Second Brain", "Discovery"]
+tags: ["Serendipity", "Resurfacing", "PKM", "Review", "Second Brain", "Discovery", "Research", "Workflow"]
 slug: "serendipitous-resurfacing"
 featured: false
 draft: false

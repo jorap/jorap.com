@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Digital Garden", "PKM", "Publishing", "Note Taking", "Second Brain", "Ideas"]
+tags: ["Digital Garden", "PKM", "Publishing", "Note Taking", "Second Brain", "Ideas", "Website Building", "Blogging", "Hugo"]
 slug: "advantages-of-digital-gardens"
 featured: false
 draft: false

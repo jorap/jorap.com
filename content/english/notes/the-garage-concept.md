@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Garage Concept", "Digital Garden", "PKM", "Publishing", "Workflow", "Privacy"]
+tags: ["Garage Concept", "Digital Garden", "PKM", "Publishing", "Workflow", "Privacy", "Hugo", "Static Site Generator", "Website Building"]
 slug: "the-garage-concept"
 featured: false
 draft: false

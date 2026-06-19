@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Feynman Technique", "Learning", "PKM", "Teaching", "Understanding", "Writing"]
+tags: ["Feynman Technique", "Learning", "PKM", "Teaching", "Understanding", "Writing", "Note Taking"]
 slug: "the-feynman-technique"
 featured: false
 draft: false

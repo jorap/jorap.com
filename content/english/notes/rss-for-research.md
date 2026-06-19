@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["RSS", "Research", "PKM", "Information Diet", "Feeds", "Learning"]
+tags: ["RSS", "Research", "PKM", "Information Diet", "Feeds", "Learning", "Digital Minimalism", "Second Brain", "Note Taking"]
 slug: "rss-for-research"
 featured: false
 draft: false

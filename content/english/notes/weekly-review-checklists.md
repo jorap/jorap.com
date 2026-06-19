@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Weekly Review", "Checklist", "GTD", "PKM", "PARA", "Habits"]
+tags: ["Weekly Review", "Checklist", "GTD", "PKM", "PARA", "Habits", "Workflow"]
 slug: "weekly-review-checklists"
 featured: false
 draft: false

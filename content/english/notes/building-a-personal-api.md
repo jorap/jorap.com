@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Personal API", "PKM", "Automation", "Second Brain", "AI", "Knowledge Management"]
+tags: ["Personal API", "PKM", "Automation", "Second Brain", "AI", "Knowledge Management", "Static Site Generator", "Documentation"]
 slug: "building-a-personal-api"
 featured: false
 draft: false

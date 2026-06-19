@@ -115,24 +115,8 @@
       {{ end }}
     </div>
 
-    {{/* Related posts: Hugo .Related ignores categories unless configured in hugo.toml [related]. */}}
-    {{ $related := first 3 (.Site.RegularPages.Related .) }}
-    {{ if not $related }}
-      {{ $blogOthers := complement (slice .) (where site.RegularPages "Section" "blog") }}
-      {{ $related = first 3 $blogOthers.ByDate.Reverse }}
-    {{ end }}
-    {{ with $related }}
-    <div class="section pb-0">
-      <h2 class="h3 heading-title-case mb-6">{{ T "related_posts" }}</h2>
-      <div class="row">
-        {{ range . }}
-          <div class="md:col-6 lg:col-4 mb-14">
-            {{ partial "components/blog-card" (dict "Page" . "HeadingLevel" 3) }}
-          </div>
-        {{ end }}
-      </div>
-    </div>
-    {{ end }}
+    {{ partial "blog/related-posts.html" . }}
+    {{ partial "blog/related-notes.html" . }}
   </div>
 </section>
 {{/* TOC scripting (mobile toggle + scroll-spy) lives in assets/js/toc.js, loaded site-wide via [[params.plugins.js]] in hugo.toml. */}}

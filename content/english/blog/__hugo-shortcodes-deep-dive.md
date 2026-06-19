@@ -6,7 +6,7 @@ date: 2026-06-19T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
-tags: ["Hugo", "Shortcodes", "Markdown", "Web Development", "Static Sites", "Components"]
+tags: ["Hugo", "Shortcodes", "Markdown", "Web Development", "Static Sites", "Components", "PKM", "Documentation"]
 slug: "hugo-shortcodes-deep-dive"
 featured: false
 draft: true

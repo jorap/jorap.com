@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Digital Garden", "PKM", "Publishing", "Wiki", "Second Brain", "TiddlyWiki"]
+tags: ["Digital Garden", "PKM", "Publishing", "Wiki", "Second Brain", "TiddlyWiki", "Hugo", "Static Site Generator", "Website Building"]
 slug: "digital-garden"
 featured: false
 draft: false

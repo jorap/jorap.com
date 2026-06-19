@@ -1,0 +1,54 @@
+{{- /*
+  Tag/category related notes for a page (blog → notes garden).
+  Mirrors scripts/wire-notes-obsidian.py related_notes(); falls back to Hugo
+  .Related filtered to the notes section when there is no direct overlap.
+  Returns a slice of dicts: Page, Score, Shared.
+*/ -}}
+{{- $page := .Context -}}
+{{- $limit := .Limit | default 5 -}}
+{{- $labels := $page.Params.tags | default slice -}}
+{{- $labels = $labels | append ($page.Params.categories | default slice) -}}
+{{- $results := slice -}}
+
+{{- if gt (len $labels) 0 -}}
+  {{- $notes := partial "notes/pages.html" $page -}}
+  {{- range $notes -}}
+    {{- if eq .RelPermalink $page.RelPermalink -}}
+      {{- continue -}}
+    {{- end -}}
+    {{- $noteLabels := .Params.tags | default slice -}}
+    {{- $noteLabels = $noteLabels | append (.Params.categories | default slice) -}}
+    {{- if eq (len $noteLabels) 0 -}}
+      {{- continue -}}
+    {{- end -}}
+    {{- $shared := slice -}}
+    {{- range $labels -}}
+      {{- if in $noteLabels . -}}
+        {{- $shared = $shared | append . -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $overlap := len $shared -}}
+    {{- if gt $overlap 0 -}}
+      {{- $minLen := len $labels -}}
+      {{- if lt (len $noteLabels) $minLen -}}
+        {{- $minLen = len $noteLabels -}}
+      {{- end -}}
+      {{- $score := div (float $overlap) (float $minLen) -}}
+      {{- $results = $results | append (dict "Page" . "Score" $score "Shared" $shared) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $results = sort $results "Score" "desc" -}}
+  {{- $results = first $limit $results -}}
+{{- end -}}
+
+{{- if eq (len $results) 0 -}}
+  {{- $relatedNotes := slice -}}
+  {{- range site.RegularPages.Related $page -}}
+    {{- if eq .Section "notes" -}}
+      {{- $relatedNotes = $relatedNotes | append (dict "Page" . "Score" 0.0 "Shared" slice) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $results = first $limit $relatedNotes -}}
+{{- end -}}
+
+{{- return $results -}}

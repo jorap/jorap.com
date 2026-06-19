@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Collaboration", "PKM", "Knowledge Management", "Teams", "Documentation", "Second Brain"]
+tags: ["Collaboration", "PKM", "Knowledge Management", "Teams", "Documentation", "Second Brain", "Workflow", "Note Taking"]
 slug: "collaborative-knowledge"
 featured: false
 draft: false

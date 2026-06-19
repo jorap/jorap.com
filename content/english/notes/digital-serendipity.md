@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Serendipity", "PKM", "Second Brain", "Linking", "Review", "Discovery"]
+tags: ["Serendipity", "PKM", "Second Brain", "Linking", "Review", "Discovery", "Research", "Browser Tips", "Note Taking"]
 slug: "digital-serendipity"
 featured: false
 draft: false

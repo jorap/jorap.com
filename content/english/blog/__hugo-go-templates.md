@@ -6,7 +6,7 @@ date: 2026-06-19T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
-tags: ["Hugo", "Go Templates", "Web Development", "Static Sites", "Templating", "Hugoplate"]
+tags: ["Hugo", "Go Templates", "Web Development", "Static Sites", "Templating", "Hugoplate", "PKM", "Documentation"]
 slug: "hugo-go-templates"
 featured: false
 draft: true

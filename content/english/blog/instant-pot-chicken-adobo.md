@@ -1,7 +1,7 @@
 ---
 title: Instant Pot Chicken Adobo
-slug: ''
-meta_title: ''
+slug: "instant-pot-chicken-adobo"
+meta_title: "Instant Pot Chicken Adobo - Filipino Comfort Food"
 description: "My go-to chicken adobo, adjusted for the Instant Pot. Bone-in thighs, 10 minutes under pressure, and that classic soy-garlic-vinegar glaze - without the hours of waiting."
 date: 2026-05-03T23:00:00
 author: JoRap
@@ -11,7 +11,7 @@ categories:
   - Recipes
   - Filipino
 tags:
-  - Chicken Adobo
+  - - Chicken Adobo
   - Filipino Recipes
   - Instant Pot
   - Pressure Cooking
@@ -27,6 +27,8 @@ tags:
   - Soy Sauce
   - Garlic
   - Vinegar
+  - Philippines
+  - Filipino Cuisine
 featured: false
 draft: false
 ---

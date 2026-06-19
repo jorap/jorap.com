@@ -6,7 +6,7 @@ date: 2026-06-19T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
-tags: ["Markdown", "Formatting", "Readability", "Writing", "Hugo", "Note Taking"]
+tags: ["Markdown", "Formatting", "Readability", "Writing", "Hugo", "Note Taking", "PKM"]
 slug: "markdown-formatting"
 featured: false
 draft: true

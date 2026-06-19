@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["PKM", "Anti-Fragile", "Local First", "Productivity", "Note Taking", "Future Proofing"]
+tags: ["PKM", "Anti-Fragile", "Local First", "Productivity", "Note Taking", "Future Proofing", "Mindset"]
 slug: "anti-fragile-systems"
 featured: false
 draft: false

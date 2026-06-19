@@ -6,7 +6,7 @@ date: 2026-06-19T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
-tags: ["Hugo", "Page Bundles", "Content Management", "Static Sites", "Markdown", "Assets"]
+tags: ["Hugo", "Page Bundles", "Content Management", "Static Sites", "Markdown", "Assets", "PKM", "Static Site Generator"]
 slug: "hugo-page-bundles"
 featured: false
 draft: true

@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Review", "PKM", "Weekly Review", "Maintenance", "Second Brain", "Habits"]
+tags: ["Review", "PKM", "Weekly Review", "Maintenance", "Second Brain", "Habits", "Note Taking"]
 slug: "periodic-knowledge-review"
 featured: false
 draft: false

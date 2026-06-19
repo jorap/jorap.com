@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Local First", "PKM", "Sync", "Privacy", "Note Taking", "Offline"]
+tags: ["Local First", "PKM", "Sync", "Privacy", "Note Taking", "Offline", "Security"]
 slug: "local-first-software"
 featured: false
 draft: false

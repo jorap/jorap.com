@@ -6,7 +6,7 @@ date: 2026-06-18T06:12:00Z
 image: "/images/image-template.jpg"
 categories: ["Website", "Ideas", "Technology"]
 author: "JoRap"
-tags: ["Publishing", "Self-Hosting", "Hugo", "TiddlyWiki", "Cloudflare Pages", "Content Ownership", "Indie Web", "Digital Independence", "Open Publishing", "Platform Risk", "Blogging"]
+tags: ["Publishing", "Self-Hosting", "Hugo", "TiddlyWiki", "Cloudflare Pages", "Content Ownership", "Indie Web", "Digital Independence", "Open Publishing", "Platform Risk", "Blogging", "Digital Garden", "PKM"]
 slug: "sustainable-online-publishing"
 featured: false
 draft: true

@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Future Proofing", "PKM", "Markdown", "Local First", "Backup", "Note Taking"]
+tags: ["Future Proofing", "PKM", "Markdown", "Local First", "Backup", "Note Taking", "Documentation", "Hugo"]
 slug: "future-proofing-knowledge"
 featured: false
 draft: false

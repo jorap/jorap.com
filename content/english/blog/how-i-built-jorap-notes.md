@@ -7,7 +7,7 @@ date: 2024-06-14T05:00:00Z
 image: "/images/joraps-world.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
-tags: ["Website Building", "Free Hosting", "Hugo CMS", "GitHub", "Cloudflare Pages", "Static Sites", "JAMstack", "Self-Hosting", "PHP", "Migration", "Developer Life", "Hugo", "DevOps", "Site Migration", "Static Site Generator", "Web Hosting"]
+tags: ["Website Building", "Free Hosting", "Hugo CMS", "GitHub", "Cloudflare Pages", "Static Sites", "JAMstack", "Self-Hosting", "PHP", "Migration", "Developer Life", "Hugo", "DevOps", "Site Migration", "Static Site Generator", "Web Hosting", "Publishing", "Digital Garden", "PKM", "Note Taking", "Blogging"]
 featured: false
 draft: false
 ---

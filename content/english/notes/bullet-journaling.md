@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Bullet Journal", "Analog", "Productivity", "Note Taking", "PKM", "Planning"]
+tags: ["Bullet Journal", "Analog", "Productivity", "Note Taking", "PKM", "Planning", "Habits"]
 slug: "bullet-journaling"
 featured: false
 draft: false

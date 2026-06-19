@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Metadata", "Tags", "PKM", "Organization", "Taxonomy", "Note Taking"]
+tags: ["Metadata", "Tags", "PKM", "Organization", "Taxonomy", "Note Taking", "Hugo", "Documentation"]
 slug: "metadata-strategy"
 featured: false
 draft: false

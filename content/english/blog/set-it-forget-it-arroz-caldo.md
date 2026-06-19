@@ -7,7 +7,7 @@ date: 2025-03-29T05:00:00Z
 image: "/images/arroz-caldo.jpg"
 categories: ["Food", "Recipes", "Filipino"]
 author: "JoRap"
-tags: ["Arroz Caldo", "Comfort Food", "Filipino Recipes", "Easy Cooking", "Rice Cooker Recipes", "Chicken Recipes", "Congee", "Home Cooking", "Meal Prep", "Weekend Cooking", "Filipino Food", "Ginger", "Rice Porridge", "Slow Cooker", "Filipino Cuisine", "One-Pot Meals"]
+tags: ["Arroz Caldo", "Comfort Food", "Filipino Recipes", "Easy Cooking", "Rice Cooker Recipes", "Chicken Recipes", "Congee", "Home Cooking", "Meal Prep", "Weekend Cooking", "Filipino Food", "Ginger", "Rice Porridge", "Slow Cooker", "Filipino Cuisine", "One-Pot Meals", "Philippines"]
 featured: false
 draft: false
 ---

@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Privacy", "Data Sovereignty", "Security", "PKM", "Self Hosting", "Local First"]
+tags: ["Privacy", "Data Sovereignty", "Security", "PKM", "Self-Hosting", "Local First", "Note Taking"]
 slug: "privacy-and-data-sovereignty"
 featured: false
 draft: false

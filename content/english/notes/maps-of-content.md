@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["MOC", "Maps of Content", "PKM", "Linking", "Organization", "Second Brain"]
+tags: ["MOC", "Maps of Content", "PKM", "Linking", "Organization", "Second Brain", "Hugo", "Website Building"]
 slug: "maps-of-content"
 featured: true
 draft: false

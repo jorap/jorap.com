@@ -7,7 +7,7 @@ date: 2024-02-04T05:00:00Z
 image: "/images/fbf.jpg"
 categories: ["Social Media", "Technology", "Tips"]
 author: "JoRap"
-tags: ["Facebook", "Favorites Feed", "Social Media Tips", "Digital Wellbeing", "Algorithm", "Personalization", "Mindful Tech", "Feed Curation", "Internet", "Meta", "News Feed", "Screen Time", "Content Curation", "Social Networks"]
+tags: ["Facebook", "Favorites Feed", "Social Media Tips", "Digital Wellbeing", "Algorithm", "Personalization", "Mindful Tech", "Feed Curation", "Internet", "Meta", "News Feed", "Screen Time", "Content Curation", "Social Networks", "PKM", "Information Diet", "Digital Minimalism"]
 featured: false
 draft: false
 ---

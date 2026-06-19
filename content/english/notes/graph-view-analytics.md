@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Graph View", "PKM", "Obsidian", "Linking", "Analytics", "Note Taking"]
+tags: ["Graph View", "PKM", "Obsidian", "Linking", "Analytics", "Note Taking", "Graph", "Meta"]
 slug: "graph-view-analytics"
 featured: false
 draft: false

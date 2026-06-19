@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Spaced Repetition", "SRS", "Anki", "Learning", "Memory", "PKM"]
+tags: ["Spaced Repetition", "SRS", "Anki", "Learning", "Memory", "PKM", "Note Taking"]
 slug: "spaced-repetition"
 featured: false
 draft: false

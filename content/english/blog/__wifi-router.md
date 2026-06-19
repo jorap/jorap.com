@@ -6,7 +6,7 @@ date: 2026-06-18T05:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Technology", "Gear", "Reviews"]
 author: "JoRap"
-tags: ["Wifi", "Router", "Home Network", "Gear", "Wi-Fi 6", "Mesh Network", "Internet", "Networking", "Home Office", "ISP", "Bandwidth", "Dead Zones"]
+tags: ["Wi-Fi", "Router", "Home Network", "Gear", "Wi-Fi 6", "Mesh Network", "Internet", "Networking", "Home Office", "ISP", "Bandwidth", "Dead Zones"]
 slug: "wifi-router"
 featured: false
 draft: true

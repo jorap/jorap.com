@@ -6,7 +6,7 @@ date: 2026-06-18T06:02:00Z
 image: "/images/image-template.jpg"
 categories: ["Ideas", "Business", "Productivity"]
 author: "JoRap"
-tags: ["Jobs to Be Done", "JTBD", "Product Development", "Framework", "Customer Research", "Innovation", "Product Strategy", "Clayton Christensen", "User Needs", "Problem Solving"]
+tags: ["Jobs to Be Done", "JTBD", "Product Development", "Framework", "Customer Research", "Innovation", "Product Strategy", "Clayton Christensen", "User Needs", "Problem Solving", "PKM", "Productivity"]
 slug: "jobs-to-be-done-framework"
 featured: false
 draft: true

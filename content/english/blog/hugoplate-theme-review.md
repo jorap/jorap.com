@@ -7,7 +7,7 @@ date: 2026-05-29T05:00:00Z
 image: "/images/joraps-world.jpg"
 categories: ["Website", "Technology", "Reviews"]
 author: "JoRap"
-tags: ["Hugo CMS", "HugoPlate", "Tailwind CSS", "Website Building", "Themes", "Theme Review", "Static Sites", "Open Source", "Frontend", "Developer Life", "GoHugo", "Static Site Generator", "Bootstrap", "Web Development", "JoRap"]
+tags: ["Hugo CMS", "Hugoplate", "Tailwind CSS", "Website Building", "Themes", "Theme Review", "Static Sites", "Open Source", "Frontend", "Developer Life", "Hugo", "Static Site Generator", "Bootstrap", "Web Development", "JoRap", "Publishing", "Digital Garden", "PKM"]
 featured: false
 draft: false
 ---

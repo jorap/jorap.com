@@ -7,7 +7,7 @@ date: 2022-11-12T05:00:00Z
 image: "/images/feature-dnpap.jpg"
 categories: ["Worship", "Music", "Filipino"]
 author: "JoRap"
-tags: ["DNPAP", "Destiny Music", "Spotify", "YouTube", "Filipino Worship", "OPM", "Song Resources", "Lyrics", "Live Recording", "Christian Music", "Worship Resources", "Music Ministry", "Filipino Music", "Chord Charts", "Music Video"]
+tags: ["DNPAP", "Destiny Music", "Spotify", "YouTube", "Filipino Worship", "OPM", "Song Resources", "Lyrics", "Live Recording", "Christian Music", "Worship Resources", "Music Ministry", "Filipino Music", "Chord Charts", "Music Video", "Philippines", "Filipino"]
 featured: false
 draft: false
 ---

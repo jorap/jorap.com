@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Newsletter", "Email", "RSS", "Filtering", "PKM", "Information Diet"]
+tags: ["Newsletter", "Email", "RSS", "Filtering", "PKM", "Information Diet", "Second Brain"]
 slug: "newsletter-filtering"
 featured: false
 draft: false

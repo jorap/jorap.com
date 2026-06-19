@@ -7,7 +7,7 @@ date: 2026-06-18T08:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Notes", "Meta"]
+tags: ["Notes", "Meta", "PKM", "Digital Garden", "Note Taking", "Hugo", "Website Building"]
 aliases: ["start"]
 featured: true
 draft: false

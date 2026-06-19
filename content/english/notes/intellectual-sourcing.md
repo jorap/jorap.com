@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Sourcing", "Citations", "PKM", "Research", "Note Taking", "Integrity"]
+tags: ["Sourcing", "Citations", "PKM", "Research", "Note Taking", "Integrity", "Writing"]
 slug: "intellectual-sourcing"
 featured: false
 draft: false

@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Drafting in Public", "Digital Garden", "Publishing", "PKM", "Writing", "Blogging"]
+tags: ["Drafting in Public", "Digital Garden", "Publishing", "PKM", "Writing", "Blogging", "Hugo", "Website Building"]
 slug: "drafting-in-public"
 featured: false
 draft: false

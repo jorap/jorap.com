@@ -6,7 +6,7 @@ date: 2026-06-19T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
-tags: ["Hugo", "Static Site Generator", "JAMstack", "Web Development", "JoRap Notes", "Cloudflare Pages"]
+tags: ["Hugo", "Static Site Generator", "JAMstack", "Web Development", "JoRap Notes", "Cloudflare Pages", "PKM", "Publishing", "Digital Garden"]
 slug: "hugo-static-site-generator"
 featured: false
 draft: true

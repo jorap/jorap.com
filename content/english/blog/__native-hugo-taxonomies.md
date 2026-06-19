@@ -6,7 +6,7 @@ date: 2026-06-19T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
-tags: ["Hugo", "Taxonomies", "Tags", "Categories", "SEO", "Content Management"]
+tags: ["Hugo", "Taxonomies", "Tags", "Categories", "SEO", "Content Management", "PKM", "Note Taking"]
 slug: "native-hugo-taxonomies"
 featured: false
 draft: true

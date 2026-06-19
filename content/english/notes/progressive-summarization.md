@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Progressive Summarization", "Tiago Forte", "PKM", "Distill", "Note Taking", "CODE Method"]
+tags: ["Progressive Summarization", "Tiago Forte", "PKM", "Distill", "Note Taking", "CODE Method", "Research", "Writing"]
 slug: "progressive-summarization"
 featured: false
 draft: false

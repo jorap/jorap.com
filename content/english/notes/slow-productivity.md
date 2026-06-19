@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Slow Productivity", "Cal Newport", "PKM", "Focus", "Productivity", "Deep Work"]
+tags: ["Slow Productivity", "Cal Newport", "PKM", "Focus", "Productivity", "Deep Work", "Note Taking"]
 slug: "slow-productivity"
 featured: false
 draft: false

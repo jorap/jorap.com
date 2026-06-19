@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Archive", "PARA", "Organization", "PKM", "Projects", "Productivity"]
+tags: ["Archive", "PARA", "Organization", "PKM", "Projects", "Productivity", "Second Brain", "Note Taking"]
 slug: "the-archive-method"
 featured: false
 draft: false

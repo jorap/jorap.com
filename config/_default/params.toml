@@ -34,6 +34,12 @@ copyright = "JoRap Notes"
 [notes]
 enable_graph = true
 wikilink_class = "wikilink"
+related_posts_limit = 6
+
+# Blog single: automated related content sections
+[blog]
+related_posts_limit = 6
+related_notes_limit = 6
 
 # Homepage framing above the blog grid (set enable = false to hide)
 [home_intro]

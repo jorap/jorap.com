@@ -6,7 +6,7 @@ date: 2026-06-18T06:07:00Z
 image: "/images/image-template.jpg"
 categories: ["AI", "Writing", "Tips"]
 author: "JoRap"
-tags: ["AI", "Writing", "Content", "ChatGPT", "Prompts", "Perplexity", "Burstiness", "Human Writing", "Editing", "AI Detection", "Content Creation", "Voice and Tone"]
+tags: ["AI", "Writing", "Content", "ChatGPT", "Prompts", "Perplexity", "Burstiness", "Human Writing", "Editing", "AI Detection", "Content Creation", "Voice and Tone", "PKM", "Note Taking"]
 slug: "make-ai-articles-more-human"
 featured: false
 draft: true

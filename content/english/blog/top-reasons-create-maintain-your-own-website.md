@@ -6,7 +6,7 @@ date: 2024-03-10T05:00:00Z
 image: "/images/website.jpg"
 categories: ["Website", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Internet", "Branding", "Content", "Business", "Personal Branding", "Online Presence", "Self-Hosting", "Web Ownership", "Blogging", "Website Building", "Digital Independence", "Content Ownership", "Portfolio", "Personal Website", "Platform Risk"]
+tags: ["Internet", "Branding", "Content", "Business", "Personal Branding", "Online Presence", "Self-Hosting", "Web Ownership", "Blogging", "Website Building", "Digital Independence", "Content Ownership", "Portfolio", "Personal Website", "Platform Risk", "Publishing", "Digital Garden", "PKM", "Note Taking"]
 featured: false
 draft: false
 ---

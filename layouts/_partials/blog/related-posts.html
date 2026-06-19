@@ -1,0 +1,19 @@
+{{- $page := . -}}
+{{- $limit := site.Params.blog.related_posts_limit | default 3 -}}
+{{- if eq $page.Section "notes" -}}
+  {{- $limit = site.Params.notes.related_posts_limit | default 3 -}}
+{{- end -}}
+{{- $related := partial "blog/related-posts-lookup.html" (dict "Context" $page "Limit" $limit) -}}
+
+{{- with $related -}}
+  <div class="section pb-0">
+    <h2 class="h3 heading-title-case mb-6">{{ T "related_posts" }}</h2>
+    <div class="row">
+      {{- range . -}}
+        <div class="md:col-6 lg:col-4 mb-14">
+          {{ partial "components/blog-card" (dict "Page" . "HeadingLevel" 3) }}
+        </div>
+      {{- end -}}
+    </div>
+  </div>
+{{- end -}}

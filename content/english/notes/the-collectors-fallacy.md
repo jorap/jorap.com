@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Collectors Fallacy", "PKM", "Capture", "Learning", "Productivity", "Express"]
+tags: ["Collectors Fallacy", "PKM", "Capture", "Learning", "Productivity", "Express", "Note Taking"]
 slug: "the-collectors-fallacy"
 featured: false
 draft: false
