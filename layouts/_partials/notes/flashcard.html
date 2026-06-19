@@ -5,16 +5,14 @@
 {{- $back := .Back -}}
 {{- $source := .Source -}}
 {{- $class := .Class | default "" -}}
-<div
-  class="notes-flashcard {{ $class }}"
-  data-flashcard
-  {{- with $source -}}
-    {{- with .Params.tags -}}
-      data-flashcard-tags="{{ delimit . "," }}"
-    {{- end -}}
-  {{- end -}}>
-  <button type="button" class="notes-flashcard__flip" data-flashcard-flip aria-pressed="false">
-    <span class="sr-only">Flip card</span>
+{{- $tags := "" -}}
+{{- with $source -}}
+  {{- with .Params.tags -}}
+    {{- $tags = delimit . "," -}}
+  {{- end -}}
+{{- end -}}
+<div class="notes-flashcard {{ $class }}" data-flashcard{{ if $tags }} data-flashcard-tags="{{ $tags }}"{{ end }}>
+  <button type="button" class="notes-flashcard__flip" data-flashcard-flip aria-pressed="false" aria-label="Flip card">
     <span class="notes-flashcard__inner">
       <span class="notes-flashcard__face notes-flashcard__face--front">{{ $front }}</span>
       <span class="notes-flashcard__face notes-flashcard__face--back">{{ $back | safeHTML }}</span>

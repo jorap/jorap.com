@@ -7,21 +7,30 @@
     btn.setAttribute("aria-pressed", flipped ? "true" : "false");
   }
 
-  document.addEventListener("click", function (event) {
-    var btn = event.target.closest("[data-flashcard-flip]");
-    if (!btn) return;
-    var card = btn.closest("[data-flashcard]");
-    if (!card) return;
-    toggle(card, btn);
-  });
+  function bindFlipButtons() {
+    document.querySelectorAll("[data-flashcard-flip]").forEach(function (btn) {
+      if (btn.dataset.flashcardBound === "true") return;
+      btn.dataset.flashcardBound = "true";
 
-  document.addEventListener("keydown", function (event) {
-    if (event.key !== "Enter" && event.key !== " ") return;
-    var btn = event.target.closest("[data-flashcard-flip]");
-    if (!btn) return;
-    event.preventDefault();
-    var card = btn.closest("[data-flashcard]");
-    if (!card) return;
-    toggle(card, btn);
-  });
+      btn.addEventListener("click", function () {
+        var card = btn.closest(".notes-flashcard");
+        if (!card) return;
+        toggle(card, btn);
+      });
+
+      btn.addEventListener("keydown", function (event) {
+        if (event.key !== "Enter" && event.key !== " ") return;
+        event.preventDefault();
+        var card = btn.closest(".notes-flashcard");
+        if (!card) return;
+        toggle(card, btn);
+      });
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", bindFlipButtons);
+  } else {
+    bindFlipButtons();
+  }
 })();

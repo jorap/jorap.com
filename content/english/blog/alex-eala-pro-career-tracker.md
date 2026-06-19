@@ -10,7 +10,7 @@ author: "JoRap"
 tags: ["Tennis", "Alex Eala", "WTA", "Pinoy Pride", "Career Tracker", "Grand Slam", "Athletes", "Women's Tennis", "Philippines", "Tennis Rankings", "Live Tracker", "Pro Tennis", "Sports Fan"]
 featured: false
 draft: false
-lastmod: 2026-06-20T00:30:00Z
+lastmod: 2026-06-20T02:00:00Z
 ---
 
 I've been following Alex Eala's career since her amazing run at the 2025 Miami Open, and watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook - career-high rankings, the matches I'll always remember, the head-to-heads with Grand Slam champions, and the upcoming matchups I'm watching for. I update it as her career unfolds.
@@ -22,7 +22,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - **Career highs:** No. 29 singles · No. 88 doubles
 - **WTA titles:** 2 (Guadalajara 125, Birmingham 125)
 - **Best Slam (singles):** US Open 2025 - Round of 2
-- **Notable firsts:** First Filipina in a Grand Slam main draw; first Filipina to win a Slam main-draw match (US Open 2025); first Filipina in a WTA 1000 semifinal (Miami 2025); first Filipina in the WTA top 100
+- **Notable firsts:** First Filipina in a Grand Slam main draw; first Filipina to win a Slam main-draw match (US Open 2025); first Filipina in a WTA 1000 semifinal (Miami 2025); first Filipina in a WTA 500 semifinal (Berlin 2026); first Filipina in the WTA top 100
 
 ---
 
@@ -56,7 +56,8 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - 2026
 
   - **Berlin (WTA 500, Grass)** 
-    - Quarterfinals | On-going vs Svitolina | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007)
+    - Semifinals | On-going vs Noskova | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003)
+    - Quarterfinals, d. Svitolina 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/e-svitolina-vs-a-eala-2026-06-19)
     - Round of 16, d. Rybakina 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-e-rybakina-2026-06-18)
     - Round of 32, d. Vekić 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS030) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/d-vekic-vs-a-eala-2026-06-17)
 
@@ -486,6 +487,15 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 ---
 
+### Elina Svitolina
+
+- [WTA Profile](https://www.wtatennis.com/players/316738/elina-svitolina)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/316738)
+
+{{< youtube 6djWGxG7a8E >}}
+
+---
+
 ### Clara Tauson
 
 - [WTA Profile](https://www.wtatennis.com/players/327793/clara-tauson)
@@ -512,7 +522,6 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - [Emma Raducanu](https://www.wtatennis.com/head-to-head/330332/328366) - 2021 US Open Winner
 - [Aryna Sabalenka](https://www.wtatennis.com/head-to-head/330332/320760) - 2024, 2023 Australian Open and 2024 US Open Winner
 - [Diana Shnaider](https://www.wtatennis.com/head-to-head/330332/330482) - 2026 Roland Garros semifinalist; 2025 Monterrey champion
-- [Elina Svitolina](https://www.wtatennis.com/head-to-head/330332/316738) - Former world No. 3; 2026 Australian Open semifinalist
 - [Qinwen Zheng](https://www.wtatennis.com/head-to-head/330332/328120) - 2024 Olympic gold and Roland Garros finalist
 
 ---

@@ -625,6 +625,7 @@ html.dark .notes-dev-banner code {
   backface-visibility: hidden;
   border-radius: 0.5rem;
   line-height: 1.5;
+  pointer-events: none;
 }
 
 .notes-flashcard__face--front {
