@@ -1,6 +1,6 @@
 {{- /*
   Clickable note card with tag chips that link separately.
-  Dict: Page (required), Href, Title, Body, Shared, ShowDescription, ShowTags,
+  Dict: Page (required), Href, Title, Body, Shared, ShowDescription, ShowTags, ShowStatus,
         HeadingLevel (default 3), HeadingClass (default "h6"), HeadingExtraClass (default "text-ink font-medium").
 */ -}}
 {{- $page := .Page -}}
@@ -10,6 +10,7 @@
 {{- $shared := .Shared -}}
 {{- $showDescription := .ShowDescription | default false -}}
 {{- $showTags := .ShowTags | default false -}}
+{{- $showStatus := .ShowStatus | default false -}}
 {{- $headingLevel := .HeadingLevel | default 3 -}}
 {{- $headingClass := .HeadingClass | default "h6" -}}
 {{- $headingExtraClass := .HeadingExtraClass | default "text-ink font-medium" -}}
@@ -24,6 +25,11 @@
     data-wikilink-preview="{{ $page.RelPermalink }}"
     aria-label="{{ $title }}"></a>
   {{ $headingOpen }}{{ $title }}{{ $headingClose }}
+  {{- if $showStatus -}}
+    <div class="notes-card-meta relative z-[2] mb-2 flex flex-wrap items-center gap-2">
+      {{ partial "notes/status-badge.html" (dict "Page" $page) }}
+    </div>
+  {{- end -}}
   {{- if $body -}}
     <p class="text-ink-muted relative z-[1] flex-1 text-sm leading-snug pointer-events-none">{{ $body }}</p>
   {{- else if $showDescription -}}

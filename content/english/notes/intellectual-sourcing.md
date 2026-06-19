@@ -1,7 +1,7 @@
 ---
 title: "Intellectual Sourcing"
 meta_title: "Intellectual Sourcing - Track Where Ideas Come From"
-description: "I cite sources in notes not for academia - so I can trust my own synthesis and find the original six months later."
+description: "Cite sources so you can trust your synthesis and find the original six months later."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: []
 ---
 
-I cite sources in notes not for academia - so I can trust my own synthesis and find the original six months later.
+**Intellectual sourcing** = minimum viable citation so future-you trusts the synthesis.
 
-Author, URL, date, and one line on why I cared - minimum viable citation. When I synthesize across sources, I can trace the chain and spot where I added opinion. See [[Note-Taking for Researchers]].
+Author, URL, date, and one line on why I cared. When I synthesize across sources, I can trace the chain and spot where I added opinion. See [[Note-Taking for Researchers]].
 
 ## See also
 

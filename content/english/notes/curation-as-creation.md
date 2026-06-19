@@ -1,7 +1,7 @@
 ---
 title: "Curation as Creation"
 meta_title: "Curation as Creation - Choosing Is Making"
-description: "Selecting, ordering, and framing notes is creative work. I stopped treating curation as housekeeping."
+description: "Selecting and ordering notes is creative work - not filing chores."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: []
 ---
 
-Selecting, ordering, and framing notes is creative work. I stopped treating curation as housekeeping.
+**Curation as creation** = choosing order and neighbors is an argument, not housekeeping.
 
-A [[Maps of Content]] is a curated playlist of ideas - order is an argument. Choosing what to include, what to cut, and what sits beside what is as creative as drafting new prose.
+A [[Maps of Content]] is a curated playlist of ideas - order is an argument. What you include, cut, and sit beside what is as creative as drafting new prose.
 
 ## See also
 

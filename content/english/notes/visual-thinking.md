@@ -1,7 +1,7 @@
 ---
 title: "Visual Thinking"
 meta_title: "Visual Thinking - Sketches, Diagrams, Maps"
-description: "Some thoughts need boxes and arrows before words. Visual thinking in PKM means diagrams beside Markdown."
+description: "Some thoughts need diagrams beside Markdown - sketch before the prose pile."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: []
 ---
 
-Some thoughts need boxes and arrows before words. Visual thinking in PKM means diagrams beside Markdown.
+**Visual thinking** = boxes and arrows before prose piles up.
 
-Sketch the system before prose piles up. Boxes, arrows, ugly diagrams in the note - Excalidraw embeds fine. Complements [[Mind Mapping]]; both feed atomic notes after the picture clears.
+Sketch the system before words take over. Ugly diagrams in the note - Excalidraw embeds fine. Complements [[Mind Mapping]]; both feed atomic notes after the picture clears.
 
 ## See also
 

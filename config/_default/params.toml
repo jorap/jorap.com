@@ -35,8 +35,12 @@ copyright = "JoRap Notes"
 enable_graph = true
 wikilink_class = "wikilink"
 related_posts_limit = 9
-see_also_limit = 5
+see_also_limit = 6
 strict_wikilinks = false
+strict_unlinked = false
+unlinked_min_length = 6
+stale_days = 90
+recent_limit = 6
 graph_hub_percentile = 85
 graph_hub_min_total = 15
 

@@ -1,7 +1,7 @@
 ---
 title: "Serendipitous Resurfacing"
 meta_title: "Serendipitous Resurfacing - Old Notes, Right Time"
-description: "I design for resurfacing - old notes beat systems that only search what I remember to search for."
+description: "Design for resurfacing - systems that bring old notes back beat search-only vaults."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: []
 ---
 
-I design for resurfacing - systems that bring old notes back beat systems that only search what I remember to search for.
+**Serendipitous resurfacing** = design for rediscovery - old notes meet new problems without you remembering to search.
 
-Spaced review, backlink browsing, and "related notes" beats hoping I'll remember to search. Design for rediscovery; memory is unreliable storage. Ties to [[Digital Serendipity]] and [[Periodic Knowledge Review]].
+Spaced review, backlink browsing, and "related notes" beat hoping I'll remember to search. Memory is unreliable storage. Ties to [[Digital Serendipity]] and [[Periodic Knowledge Review]].
 
 ## See also
 

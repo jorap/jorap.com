@@ -1,7 +1,7 @@
 ---
 title: "Second Brain Daily Workflow"
 meta_title: "My Second Brain Daily Workflow - Tabs, Feeds, and Small Shortcuts"
-description: "A Second Brain isn't only notes for me - it's how I move through the day: middle-click tabs, curated feeds, and faster learning loops."
+description: "A Second Brain isn't only notes - it's tabs, feeds, and capture woven through the day."
 date: 2026-06-18T06:01:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,7 +13,7 @@ draft: false
 aliases: ["Daily Workflow"]
 ---
 
-A Second Brain isn't only notes for me - it's how I move through the day: middle-click tabs, curated feeds, faster learning loops.
+**Daily Second Brain workflow** = how ideas enter the vault during the day - tabs, feeds, capture in the gaps.
 
 Middle-click opens tabs I'll read later; feeds replace scroll holes; capture happens in the gaps. The wiki is the archive - the day is how stuff gets in. See [[The Second Brain Workflow]] for the full loop.
 

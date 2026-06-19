@@ -1,7 +1,7 @@
 ---
 title: "First Principles Thinking"
 meta_title: "First Principles Thinking in Your Notes"
-description: "When a note is just a quote from someone smarter, I add a section: what do I actually believe from scratch?"
+description: "When a note is only a quote, I add what I actually believe from scratch."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,7 +13,7 @@ draft: false
 aliases: []
 ---
 
-When a note is just a quote from someone smarter, I add a section: what do I actually believe from scratch.
+**First-principles thinking** = rebuild the claim from scratch, not from someone else's quote.
 
 I add a short "from scratch" block: assumptions, what would have to be true, what I'd bet on. Quotes stay attributed; my claim sits beside them. Pairs with [[Mental Models List]] and [[Synthesis as a Goal]].
 

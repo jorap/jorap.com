@@ -1,7 +1,7 @@
 ---
 title: "Synthesis as a Goal"
 meta_title: "Synthesis as a Goal - Notes Should Combine"
-description: "Collecting quotes isn't PKM for me. Synthesis is merging sources into what I believe and can defend."
+description: "Synthesis merges sources into what you believe - collecting quotes isn't PKM."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,7 +13,7 @@ draft: false
 aliases: []
 ---
 
-Collecting quotes isn't PKM for me. Synthesis means merging sources into what I believe and can defend.
+**Synthesis** = your words merging sources into what you believe and can defend.
 
 After reading, one note in my words: what I think now, what would change my mind. Quotes are evidence, not the product. Without synthesis, [[PKM]] is a bookmark graveyard.
 

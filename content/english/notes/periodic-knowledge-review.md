@@ -1,7 +1,7 @@
 ---
 title: "Periodic Knowledge Review"
 meta_title: "Periodic Knowledge Review - Revisit on a Schedule"
-description: "Notes rot without review. I calendar weekly and quarterly passes - inbox, projects, evergreens."
+description: "Notes rot without review - calendar weekly and quarterly passes for inbox, projects, evergreens."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,7 +13,7 @@ draft: false
 aliases: []
 ---
 
-Notes rot without review. I calendar weekly and quarterly passes - inbox, projects, evergreens.
+**Periodic review** = scheduled maintenance so notes don't rot - weekly rhythm, quarterly deep pass.
 
 Weekly: inbox, calendar, one express action. Quarterly: prune dead links, promote sparks, archive stale projects. [[Weekly Review Checklists]] handle the rhythm; this note is the why.
 

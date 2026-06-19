@@ -1,19 +1,19 @@
 ---
 title: "Graph View Analytics"
 meta_title: "Graph View Analytics - What the Graph Actually Tells You"
-description: "Graph view looks sci-fi. Mostly I use it to find orphans, hubs, and notes I forgot to link."
+description: "Graph view finds orphans, hubs, and notes you forgot to link - not just pretty pictures."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Graph View", "PKM", "Obsidian", "Linking", "Analytics", "Note Taking", "Graph", "Meta"]
+tags: ["Graph View", "PKM", "Linking", "Analytics", "Note Taking", "Graph", "Meta"]
 slug: "graph-view-analytics"
 featured: false
 draft: false
 aliases: ["Graph View"]
 ---
 
-Graph view looks sci-fi. Mostly I use it to find orphans, hubs, and notes I forgot to link.
+**Graph analytics** = orphans, hubs, and missing links - not wallpaper.
 
 Orphans mean missing links; hubs mean overloaded notes that should split. I don't worship the pretty picture - I fix what it accuses. See [[The Power of Interconnectivity]].
 

@@ -1,7 +1,7 @@
 ---
 title: "Organization"
 meta_title: "Organization - Structure That Survives a Busy Month"
-description: "Organization in PKM isn't a perfect tree - it's enough structure to find things when life gets loud."
+description: "PKM organization is enough structure to find things - not a perfect folder tree."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,7 +13,7 @@ draft: false
 aliases: []
 ---
 
-Organization in [[PKM]] isn't a perfect tree - it's enough structure to find things when life gets loud.
+**Organization (PKM)** = enough structure to find things when life gets loud - not a perfect tree.
 
 [[PARA Method]] answers "where does this live for my life right now?" Topics answer "what is this about?" I need both, but life responsibility wins when I'm rushed.
 

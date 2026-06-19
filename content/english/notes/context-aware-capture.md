@@ -1,7 +1,7 @@
 ---
 title: "Context-Aware Capture"
 meta_title: "Context-Aware Capture - Save the Why, Not Just the What"
-description: "A link without context is a mystery six weeks later. I try to capture why I saved something - project, mood, question - while it's still obvious."
+description: "Context-aware capture records why you saved something - project, mood, question - while it's still obvious."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: ["context aware capture"]
 ---
 
-A link without context is a mystery six weeks later. I capture why I saved something - project, mood, question - while it's still obvious.
+**Context-aware capture** = saving the *why* while you still remember it - not just the link.
 
-One line of why beats a perfect title. "For the sermon series" or "contradicts my take on X" - future me needs the hook. Pairs with [[Intellectual Sourcing]] when the save is a quote or link.
+One line beats a perfect title: "for the sermon series" or "contradicts my take on X." Future me needs the hook. Pairs with [[Intellectual Sourcing]] when the save is a quote or link.
 
 ## See also
 

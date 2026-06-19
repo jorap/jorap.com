@@ -1,7 +1,7 @@
 ---
 title: "Building a Personal API"
 meta_title: "Building a Personal API - Your Notes as Callable Context"
-description: "My personal API isn't OAuth and microservices. It's structured context for future me and my tools without re-explaining everything."
+description: "Personal API means structured notes future-you and your tools can read - not OAuth and microservices."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: []
 ---
 
-My personal API isn't OAuth - it's consistent frontmatter, wikilinks, and folder shapes my tools can read without me re-explaining everything.
+**Personal API** = notes shaped so tools and future-you can read them without a lecture.
 
-For me that's consistent frontmatter, wikilinks, and folder shapes my tools can read - not a REST server in the closet. Agents and scripts work better when notes already speak a common language. See [[Metadata Strategy]].
+Consistent frontmatter, wikilinks, and folder shapes my tools can read - not a REST server in the closet. Agents and scripts work better when notes already speak a common language. See [[Metadata Strategy]].
 
 ## See also
 

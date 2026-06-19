@@ -1,7 +1,7 @@
 ---
 title: "Interstitial Journaling"
 meta_title: "Interstitial Journaling - Notes Between Tasks"
-description: "Between meetings and deep work, I jot what just happened and what's next. Interstitial journaling clears the buffer."
+description: "Between tasks, jot what just happened and what's next - interstitial journaling clears the buffer."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: []
 ---
 
-Between meetings and deep work, I jot what just happened and what's next. Interstitial journaling clears the buffer.
+**Interstitial journaling** = thirty seconds between tasks: what happened, what's next, what's stuck in RAM.
 
-Thirty seconds between tasks: what happened, what's next, what's stuck in RAM. Clears the mental tab bar before deep work. Often feeds [[Capture]] or stays in [[Daily Notes]] until Friday.
+Clears the mental tab bar before deep work. Often feeds [[Capture]] or stays in [[Daily Notes]] until Friday. Not a diary - a buffer flush.
 
 ## See also
 

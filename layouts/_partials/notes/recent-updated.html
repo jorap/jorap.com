@@ -1,0 +1,24 @@
+{{- $limit := site.Params.notes.recent_limit | default 5 | int -}}
+{{- $notes := partial "notes/garden-pages.html" . -}}
+{{- $sorted := sort $notes "Lastmod" "desc" -}}
+{{- $recent := first $limit $sorted -}}
+
+{{- with $recent -}}
+  <section class="notes-recent mb-8">
+    <h2 class="h5 mb-3">Recently Updated</h2>
+    <ul class="notes-recent-list grid gap-3 sm:grid-cols-2">
+      {{- range . -}}
+        {{- $meta := partial "notes/note-meta.html" . -}}
+        <li>
+          <a class="notes-recent-link" href="{{ .RelPermalink }}" data-wikilink-preview="{{ .RelPermalink }}">
+            <span class="notes-recent-title">{{ .Title }}</span>
+            <span class="notes-recent-date text-ink-muted">{{ .Lastmod.Format "Jan 2, 2006" }}</span>
+          </a>
+          {{- if $meta.IsStale -}}
+            <span class="notes-recent-stale text-ink-muted text-xs">· stale</span>
+          {{- end -}}
+        </li>
+      {{- end -}}
+    </ul>
+  </section>
+{{- end -}}

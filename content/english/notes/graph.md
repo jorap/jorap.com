@@ -1,7 +1,7 @@
 ---
 title: "Graph"
 meta_title: "Notes Graph | JoRap"
-description: "Force-directed map of how my notes link to each other."
+description: "Force-directed map of how my notes link - find orphans, hubs, and missing connections."
 slug: "graph"
 layout: "graph"
 date: 2026-06-18T08:00:00Z
@@ -13,4 +13,6 @@ featured: false
 draft: false
 ---
 
-Force-directed map of how my notes link. Open at [/notes/graph/](/notes/graph/).
+**Notes graph** = a force-directed map of how your notes link to each other.
+
+Orphans, hubs, and dead ends show up as shape, not just search. Open the live view at [/notes/graph/](/notes/graph/).

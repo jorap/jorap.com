@@ -1,7 +1,7 @@
 ---
 title: "Spaced Repetition Systems (SRS)"
 meta_title: "Spaced Repetition Systems - Tools and Workflow"
-description: "SRS apps implement the algorithm; I supply the discipline. Here's how I fit Anki beside my wiki without merging them."
+description: "SRS apps implement spaced repetition - keep Anki beside the wiki, not inside it."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: ["spaced repetition systems", "SRS"]
 ---
 
-SRS apps implement the algorithm; I supply the discipline. I keep Anki beside my wiki without merging them.
+**SRS apps** = the algorithm handles timing; you supply the cards and show up.
 
-Anki for cards, wiki for ideas - separate lanes. Facts I need cold (language, definitions) get SRS; concepts live in linked notes. See [[Spaced Repetition]] for when the algorithm helps.
+Anki for cards, wiki for ideas - separate lanes. Facts I need cold get SRS; concepts live in linked notes. See [[Spaced Repetition]] for when the algorithm helps.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 title: "Zettelkasten"
 meta_title: "Zettelkasten - Linked Atomic Notes That Scale"
-description: "Zettelkasten is one idea per note, dense links, writing from the network."
+description: "Zettelkasten: one idea per note, dense links, write from the network."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,7 +13,7 @@ draft: false
 aliases: ["slip-box"]
 ---
 
-**Zettelkasten** is one [[Atomic Notes|atomic]] idea per note, dense links, writing from the network.
+**Zettelkasten** = one atomic idea per note, dense links, writing from the network.
 
 I write notes I'd link to, not notes I'd folder. Density of links matters more than count of files. History in [[Slip-box History]]; myths in [[The Zettelkasten Myth]].
 

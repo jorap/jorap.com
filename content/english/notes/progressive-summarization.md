@@ -1,7 +1,7 @@
 ---
 title: "Progressive Summarization"
 meta_title: "Progressive Summarization - Layers Over Rewrites"
-description: "I don't rewrite whole notes when I distill - bold, then highlight, then summarize when I reuse."
+description: "Distill on demand: bold, highlight, summarize when you reuse the note - not on save."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: []
 ---
 
-I don't rewrite whole notes when I distill - bold, then highlight, then summarize when I actually reuse the note.
+**Progressive summarization** = distill in layers on reuse - bold, then highlight, then summary at top.
 
-Layer one: bold the good sentences. Layer two: highlight the best bold. Layer three: summary at top - only when I reach for the note a second time. Distill on demand, not on save. Part of the distill step in [[Building a Second Brain]].
+Layer one: bold the good sentences. Layer two: highlight the best bold. Layer three: summary at top - only when I reach for the note a second time. Part of the distill step in [[Building a Second Brain]].
 
 ## See also
 

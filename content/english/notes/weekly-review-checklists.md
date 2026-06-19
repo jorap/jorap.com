@@ -1,7 +1,7 @@
 ---
 title: "Weekly Review Checklists"
 meta_title: "Weekly Review Checklists - Same Steps Every Sunday"
-description: "My weekly review is a checklist - inbox, calendar, projects, one express action. Boring on purpose."
+description: "Weekly review as a checklist - inbox, calendar, projects, one express action. Boring on purpose."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,7 +13,7 @@ draft: false
 aliases: []
 ---
 
-My weekly review is a checklist - inbox, calendar, projects, one express action. Boring on purpose.
+**Weekly review checklist** = same steps every week: inbox, calendar, projects, one ship action.
 
 Same list every Friday: empty [[The Trusted Inbox]], scan calendar, review projects, one ship action. Boring is the feature - novelty in reviews means I'm reinventing the wheel. GTD's maintain phase, sized for a real week.
 

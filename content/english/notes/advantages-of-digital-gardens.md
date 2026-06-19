@@ -1,7 +1,7 @@
 ---
 title: "Advantages of Digital Gardens"
 meta_title: "Why Digital Gardens Beat Perfect Blog Archives"
-description: "A digital garden grows in public - messy, linked, alive. Here's why I prefer that over polishing every thought into a finished essay."
+description: "Digital gardens grow in public - messy, linked, alive. I prefer that over polishing every thought into a sealed essay."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: []
 ---
 
-I prefer a garden over polishing every thought into a finished essay - messy, linked, and alive beats a portfolio of sealed posts.
+**A digital garden** grows in public - linked, imperfect, and alive. A blog portfolio seals ideas in amber.
 
-Finished essays age fast. Garden notes can sit half-right, get linked, get updated. Readers see the thinking, not just the conclusion. That's closer to how ideas actually grow. See [[Drafting in Public]] and [[Digital Garden]].
+Finished essays age fast. Garden notes can sit half-right, get linked, get updated. Readers see the thinking, not just the conclusion. See [[Drafting in Public]] and [[Digital Garden]].
 
 ## See also
 

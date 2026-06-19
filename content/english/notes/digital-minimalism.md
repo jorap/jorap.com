@@ -1,7 +1,7 @@
 ---
 title: "Digital Minimalism"
 meta_title: "Digital Minimalism for Note-Takers"
-description: "Fewer apps, fewer sync layers, fewer notifications. My PKM got better when I stopped collecting tools."
+description: "Fewer apps and sync layers. My PKM got better when I stopped collecting tools."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: []
 ---
 
-Fewer apps, fewer sync layers, fewer notifications. My PKM got better when I stopped collecting tools.
+**Digital minimalism (for PKM)** = fewer apps, fewer sync layers, fewer places to lose an idea.
 
-One capture app, one wiki, one task list. Each new tool pays rent in sync and attention. When [[PKM]] felt heavy, the fix was subtraction, not another Notion template.
+One capture app, one wiki, one task list. Each new tool pays rent in sync and attention. When [[PKM]] felt heavy, subtraction beat another Notion template.
 
 ## See also
 

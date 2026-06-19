@@ -1,7 +1,7 @@
 ---
 title: "The Garage Concept"
 meta_title: "The Garage Concept - Messy Workshop, Clean Showroom"
-description: "The garage holds tools, scraps, experiments. The showroom is the blog. I don't confuse the two."
+description: "The garage holds experiments; the showroom is the blog - don't confuse the two."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: ["Garage Concept"]
 ---
 
-The garage holds tools, scraps, experiments. The showroom is the blog. I don't confuse the two.
+**Garage vs showroom** = messy workshop for notes, polished blog for guests - don't mix them.
 
-My [[Digital Garden]] is the garage: experiments, half-ideas, tools scattered on benches. The blog is the showroom - cleaned up, narrative, guest-ready. Mixing them makes both worse.
+My [[Digital Garden]] is the garage: experiments, half-ideas, tools on benches. The blog is the showroom - cleaned up, narrative, guest-ready. Mixing them makes both worse.
 
 ## See also
 

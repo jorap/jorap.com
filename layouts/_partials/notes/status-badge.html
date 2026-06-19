@@ -1,0 +1,11 @@
+{{- $meta := partial "notes/note-meta.html" .Page -}}
+{{- $size := .SizeClass | default "text-xs" -}}
+{{- $pad := .PadClass | default "px-2 py-0.5" -}}
+<span
+  class="notes-status notes-status--{{ $meta.Status }} {{ $size }} {{ $pad }} relative z-[2] inline-flex shrink-0 items-center rounded-full font-medium"
+  title="{{ if $meta.IsStale }}Last reviewed {{ $meta.ReviewAgeDays }} days ago{{ else }}Status: {{ $meta.StatusLabel }}{{ end }}">
+  {{- $meta.StatusLabel -}}
+  {{- if $meta.IsStale -}}
+    <span class="notes-status-stale" aria-label="needs review"> · stale</span>
+  {{- end -}}
+</span>

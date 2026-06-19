@@ -1,0 +1,81 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+  <section class="section pt-7">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          <div class="notes-toolbar mb-4">
+            <a class="text-accent text-sm no-underline hover:underline" href="{{ `/notes/` | relLangURL }}">← All notes</a>
+          </div>
+
+          <h1 class="article-title mb-4">{{ .Title }}</h1>
+          <p class="text-ink-muted mb-6">
+            Inbox items and notes past the review window. Same checklist as [[Weekly Review Checklists]] — empty inbox, scan stale notes, ship one thing.
+          </p>
+
+          {{- $staleDays := site.Params.notes.stale_days | default 90 -}}
+          {{- $notes := partial "notes/garden-pages.html" . -}}
+          {{- $inbox := slice -}}
+          {{- $stale := slice -}}
+
+          {{- range $notes -}}
+            {{- $meta := partial "notes/note-meta.html" . -}}
+            {{- if $meta.IsInbox -}}
+              {{- $inbox = $inbox | append . -}}
+            {{- else if $meta.IsStale -}}
+              {{- $stale = $stale | append . -}}
+            {{- end -}}
+          {{- end -}}
+
+          {{- $inbox = sort $inbox "Date" "desc" -}}
+          {{- $stale = sort $stale "Lastmod" "asc" -}}
+
+          <div class="notes-review-stats text-ink-muted mb-6 flex flex-wrap gap-4 text-sm">
+            <span>{{ len $inbox }} inbox</span>
+            <span>{{ len $stale }} stale ({{ $staleDays }}+ days)</span>
+            <a class="text-accent no-underline hover:underline" href="{{ `/notes/graph/` | relLangURL }}">Graph → orphans</a>
+          </div>
+
+          {{- with $inbox -}}
+            <section class="notes-review-section mb-8">
+              <h2 class="h5 mb-3">Inbox</h2>
+              <p class="text-ink-muted mb-4 text-sm">Unprocessed captures — promote, link, or archive.</p>
+              <ul class="grid gap-3 sm:grid-cols-2">
+                {{- range . -}}
+                  <li>{{ partial "notes/note-link-card.html" (dict "Page" .) }}</li>
+                {{- end -}}
+              </ul>
+            </section>
+          {{- else -}}
+            <section class="notes-review-section mb-8">
+              <h2 class="h5 mb-3">Inbox</h2>
+              <p class="text-ink-muted text-sm">Empty — nothing with <code>status: inbox</code>.</p>
+            </section>
+          {{- end -}}
+
+          {{- with $stale -}}
+            <section class="notes-review-section mb-8">
+              <h2 class="h5 mb-3">Stale notes</h2>
+              <p class="text-ink-muted mb-4 text-sm">Not reviewed in {{ $staleDays }}+ days. Re-read, update <code>last_reviewed</code>, or archive.</p>
+              <ul class="grid gap-3 sm:grid-cols-2">
+                {{- range . -}}
+                  {{- $meta := partial "notes/note-meta.html" . -}}
+                  <li>
+                    {{ partial "notes/note-link-card.html" (dict "Page" .) }}
+                    <p class="text-ink-muted mt-1 text-xs">{{ $meta.ReviewAgeDays }} days since review</p>
+                  </li>
+                {{- end -}}
+              </ul>
+            </section>
+          {{- else -}}
+            <section class="notes-review-section mb-8">
+              <h2 class="h5 mb-3">Stale notes</h2>
+              <p class="text-ink-muted text-sm">Nothing overdue — garden is current.</p>
+            </section>
+          {{- end -}}
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

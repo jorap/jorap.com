@@ -1,8 +1,34 @@
-{{- /* Published notes in production; include drafts when running hugo server. */ -}}
-{{- $pages := where site.Pages "Section" "notes" -}}
-{{- $pages = where $pages "Kind" "page" -}}
-{{- $pages = where $pages "Params.layout" "ne" "graph" -}}
-{{- if not hugo.IsServer -}}
-  {{- $pages = where $pages "Draft" false -}}
+{{- /*
+  All garden pages: notes section, daily subsection, and review branch.
+  Excludes graph layout. Pass dict with ExcludeKinds (slice) to omit note_kind values.
+*/ -}}
+{{- $excludeKinds := slice -}}
+{{- if isset . "ExcludeKinds" -}}
+  {{- $excludeKinds = .ExcludeKinds -}}
 {{- end -}}
+{{- $pages := slice -}}
+
+{{- range site.RegularPages -}}
+  {{- $dir := .File.Dir | default "" -}}
+  {{- if not (or (hasPrefix $dir "notes/") (eq $dir "notes/")) -}}
+    {{- continue -}}
+  {{- end -}}
+  {{- if eq .Params.layout "graph" -}}
+    {{- continue -}}
+  {{- end -}}
+  {{- if eq .Params.layout "review" -}}
+    {{- continue -}}
+  {{- end -}}
+  {{- $kind := .Params.note_kind | default "note" -}}
+  {{- if in $excludeKinds $kind -}}
+    {{- continue -}}
+  {{- end -}}
+  {{- if not hugo.IsServer -}}
+    {{- if .Draft -}}
+      {{- continue -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $pages = $pages | append . -}}
+{{- end -}}
+
 {{- return $pages -}}

@@ -1,0 +1,12 @@
+{{- $notes := partial "notes/garden-pages.html" . -}}
+{{- $urls := slice -}}
+{{- range $notes -}}
+  {{- $urls = $urls | append (dict "url" .RelPermalink "title" .Title) -}}
+{{- end -}}
+
+<div class="notes-random">
+  <button type="button" class="btn btn-outline-primary btn-sm notes-random-btn" data-notes-random>
+    Random note
+  </button>
+  <script type="application/json" class="notes-random-data">{{ $urls | jsonify | safeJS }}</script>
+</div>

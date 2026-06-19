@@ -1,7 +1,7 @@
 ---
 title: "Distraction-Free Writing"
 meta_title: "Distraction-Free Writing - Fewer Pixels, More Sentences"
-description: "Fullscreen, plain text, notifications off. I don't need a special app - I need fewer excuses to leave the sentence."
+description: "Fullscreen, plain text, notifications off - fewer excuses to leave the sentence."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: ["distraction free writing"]
 ---
 
-Fullscreen, plain text, notifications off. I don't need a special app - I need fewer excuses to leave the sentence.
+**Distraction-free writing** = fullscreen, plain text, phone in another room - fewer exits, more sentences.
 
-Plain Markdown, full screen, phone in another room. Same subtraction mindset as [[Digital Minimalism]]: fancy writing apps became another place to tweak instead of type. The goal is one uninterrupted paragraph, then another.
+Plain Markdown, full screen, notifications off. Same subtraction mindset as [[Digital Minimalism]]: fancy writing apps became another place to tweak instead of type. One uninterrupted paragraph, then another.
 
 ## See also
 

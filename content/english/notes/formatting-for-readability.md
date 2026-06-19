@@ -1,7 +1,7 @@
 ---
 title: "Formatting for Readability"
 meta_title: "Formatting Notes for Readability"
-description: "Dense walls of text don't get reread. I format notes like I'd format a post - headings, bullets, bold for the point."
+description: "Format notes for rereading - headings, short paragraphs, bold on the claim."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,7 +13,7 @@ draft: false
 aliases: []
 ---
 
-Dense walls of text don't get reread. I format notes like I'd format a post - headings, bullets, bold for the point.
+**Readable notes** = formatted like posts you'd reread - short blocks, bold on the claim.
 
 Short paragraphs, bold on the claim, bullets only for real lists. If I won't reread a wall of text, neither will anyone else. Same rules as [[Evergreen Notes]] and blog posts, tighter scope.
 

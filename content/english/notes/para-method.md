@@ -1,7 +1,7 @@
 ---
 title: "PARA Method"
 meta_title: "PARA Method - Projects, Areas, Resources, Archives"
-description: "PARA is how I sort notes by life responsibility - not by topic alphabet soup. Four buckets, clear questions."
+description: "PARA sorts notes by life responsibility - Projects, Areas, Resources, Archive."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: ["PARA"]
 ---
 
-**[[PARA]]** is how I sort notes by life responsibility - not by topic alphabet soup. Four buckets, clear questions.
+**PARA** = Projects, Areas, Resources, Archive - four buckets sorted by life responsibility, not topic soup.
 
-Projects, Areas, Resources, Archive - four questions, not forty folders. If I can't name the project or area, it probably stays in Resources until it matters. See [[The Archive Method]] when work finishes.
+Four questions, not forty folders. If I can't name the project or area, it probably stays in Resources until it matters. See [[The Archive Method]] when work finishes.
 
 ## See also
 

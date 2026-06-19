@@ -1,7 +1,7 @@
 ---
 title: "Signal vs Noise"
 meta_title: "Signal vs Noise in Your Information Diet"
-description: "Most content is noise. PKM fails if capture doesn't filter. I save signal - stuff that changes action or belief."
+description: "Most content is noise - PKM fails if capture doesn't filter for signal."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,7 +13,7 @@ draft: false
 aliases: []
 ---
 
-Most content is noise. PKM fails if capture doesn't filter. I save signal - stuff that changes action or belief.
+**Signal vs noise** = save only what changes action or belief this month.
 
 The filter question: will this change what I do or believe this month? If not, admire it and move on. [[Capture]] without filtering becomes [[The Collector's Fallacy]].
 

@@ -1,7 +1,7 @@
 ---
 title: "Local-first Software"
 meta_title: "Local-first Software for Notes"
-description: "Local-first means my device holds the truth; sync is optional icing. That's how I want my brain's backup to behave."
+description: "Local-first means your device holds the truth; sync is optional icing."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: ["local first software", "Local First"]
 ---
 
-Local-first means my device holds the truth; sync is optional icing. That's how I want my brain's backup to behave.
+**Local-first** = your device holds the truth; sync is optional backup, not the boss.
 
-Files on disk I own; sync is backup, not boss. Offline should work; online is a bonus. Same philosophy as [[Future-Proofing Knowledge]] - my notes survive plane mode and vendor whims.
+Files on disk I own; offline should work, online is a bonus. Same philosophy as [[Future-Proofing Knowledge]] - notes survive plane mode and vendor whims.
 
 ## See also
 

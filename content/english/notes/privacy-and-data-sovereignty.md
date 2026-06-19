@@ -1,7 +1,7 @@
 ---
 title: "Privacy and Data Sovereignty"
 meta_title: "Privacy and Data Sovereignty for Your Notes"
-description: "I want to control where my notes live, who can read them, and how they leave my machine."
+description: "Control where your notes live, who can read them, and how they leave your machine."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -11,11 +11,13 @@ slug: "privacy-and-data-sovereignty"
 featured: false
 draft: false
 aliases: ["Data Sovereignty"]
+status: evergreen
+last_reviewed: 2026-06-19T08:00:00Z
 ---
 
-I want to control where my notes live, who can read them, and how they leave my machine.
+**Data sovereignty** = you choose where notes live, who can read them, and how they leave your machine.
 
-Know what's on whose server. Garden notes public by choice; journals and credentials stay local or encrypted. Export paths matter as much as passwords. See [[E2EE Security]].
+Garden notes public by choice; journals and credentials stay local or encrypted. Export paths matter as much as passwords. See [[E2EE Security]].
 
 ## See also
 

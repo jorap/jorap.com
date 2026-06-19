@@ -1,7 +1,7 @@
 ---
 title: "Anti-Fragile Systems"
 meta_title: "Anti-Fragile PKM - Systems That Survive Tool Death"
-description: "Fragile systems break when an app shuts down. I try to build note workflows that get stronger under stress - plain files, open formats, owned exports."
+description: "Anti-fragile note systems survive app shutdowns - plain files, open formats, and exports you test."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: ["anti fragile systems", "Antifragile"]
 ---
 
-Fragile systems break when an app shuts down. I build around plain files, open formats, and exports I actually test.
+**Anti-fragile notes** get stronger under stress - plain files, open formats, exports you actually test.
 
-If an app vanished tomorrow, could I still read my notes? Markdown in a folder, exports I test twice a year, no single gatekeeper. Stress should surface gaps, not erase years of work. See [[Future-Proofing Knowledge]] and [[Local-first Software]].
+If an app vanished tomorrow, could I still read my notes? Markdown in a folder, exports tested twice a year, no single gatekeeper. Stress should surface gaps, not erase years of work. See [[Future-Proofing Knowledge]] and [[Local-first Software]].
 
 ## See also
 

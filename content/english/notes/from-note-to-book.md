@@ -1,7 +1,7 @@
 ---
 title: "From Note to Book"
 meta_title: "From Note to Book - Assembly Writing"
-description: "Books aren't written; they're compiled. My path from atomic notes to long-form is outline, link, expand."
+description: "Books are compiled from atomic notes - outline with a MOC, expand what's already true."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,7 +13,7 @@ draft: false
 aliases: []
 ---
 
-Books aren't written; they're compiled. My path from atomic notes to long-form is outline, link, expand.
+**From note to book** = compile, don't invent - MOC as table of contents, atoms as chapters.
 
 Start with a [[Maps of Content]] as the table of contents. Each chapter pulls linked [[Atomic Notes]]; gaps show up as missing links. Assembly writing: expand what's already true, don't invent from zero.
 

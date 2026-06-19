@@ -1,7 +1,7 @@
 ---
 title: "Bullet Journaling"
 meta_title: "Bullet Journaling - Paper Structure Without the Instagram Aesthetic"
-description: "I don't bullet journal for pretty spreads. I use rapid logging when digital capture feels slow - tasks, events, notes on paper, migrated weekly."
+description: "I bullet journal for rapid logging on paper - tasks, events, notes, migrated weekly. No pretty spreads."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: []
 ---
 
-I don't bullet journal for pretty spreads. I use rapid logging when digital capture feels slow - tasks, events, notes on paper, migrated weekly.
+**Bullet journaling (my version)** = rapid logging on paper when digital capture feels slow.
 
-Rapid logging only: dot for task, dash for note, circle for event. No layout guilt. Friday means migrate open dots to [[Capture]] or drop them. Paper is a lane, not a second brain.
+Dot for task, dash for note, circle for event. No layout guilt. Friday means migrate open dots to [[Capture]] or drop them. Paper is a lane, not a second brain.
 
 ## See also
 

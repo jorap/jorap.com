@@ -1,7 +1,7 @@
 ---
 title: "The Trusted Inbox"
 meta_title: "The Trusted Inbox - One Place I'll Actually Empty"
-description: "If I don't trust my inbox, I capture in my head instead. One pipe, weekly empty, no exceptions."
+description: "One inbox you trust and empty weekly - or you'll stop using it and capture in your head."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,7 +13,7 @@ draft: false
 aliases: ["Trusted Inbox"]
 ---
 
-If I don't trust my inbox, I capture in my head instead. One pipe, weekly empty, no exceptions.
+**Trusted inbox** = one capture pipe you empty every week - or you'll capture in your head instead.
 
 [[Weekly Review Checklists]] every week, no exceptions - even if it's twenty minutes. Trust is behavioral: if items disappear or rot, I'll stop using the pipe. One inbox, one owner, one rhythm.
 

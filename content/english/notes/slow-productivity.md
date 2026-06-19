@@ -1,7 +1,7 @@
 ---
 title: "Slow Productivity"
 meta_title: "Slow Productivity - Fewer Projects, Deeper Notes"
-description: "Slow productivity pushes back on busy-as-virtue. I run fewer active projects so notes become output, not backlog."
+description: "Slow productivity pushes back on busy-as-virtue - fewer projects, more finished work."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: []
 ---
 
-**Slow Productivity** pushes back on busy-as-virtue. I run fewer active projects so notes become output, not backlog.
+**Slow productivity** = fewer active projects so notes become output, not guilt backlog.
 
-Fewer active projects means notes become sermons and posts instead of guilt. Busy isn't depth. I'd rather finish three things than juggle twelve. Pairs with [[Process Over Outcomes]] and [[Creative Output]].
+Busy isn't depth. I'd rather finish three things than juggle twelve. Pairs with [[Process Over Outcomes]] and [[Creative Output]].
 
 ## See also
 

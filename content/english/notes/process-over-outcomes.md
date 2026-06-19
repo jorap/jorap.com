@@ -1,7 +1,7 @@
 ---
 title: "Process Over Outcomes"
 meta_title: "Process Over Outcomes - Why James Clear's Line Stuck"
-description: "Results matter - but optimizing only for outcomes wins once. Optimizing for a repeatable process wins again and again."
+description: "Optimize for a repeatable process - you can rerun it when motivation dips."
 date: 2026-06-18T06:06:00Z
 image: "/images/note.jpg"
 categories: ["Ideas", "Productivity", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: ["Process Over Outcome"]
 ---
 
-Results matter, but optimizing only for outcomes wins once. I optimize for a repeatable process that wins again and again.
+**Process over outcomes** = optimize the habit you can rerun; outcomes follow unevenly.
 
-I can't control every result; I can control showing up to [[Weekly Review Checklists]], the publish cadence, the capture habit. Outcomes still matter - but the process is what I rerun when motivation dips.
+I can't control every result; I can control [[Weekly Review Checklists]], publish cadence, capture habit. Outcomes still matter - but the process is what I rerun when motivation dips.
 
 ## See also
 

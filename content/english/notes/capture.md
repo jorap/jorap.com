@@ -1,7 +1,7 @@
 ---
 title: "Capture"
 meta_title: "Capture - The First Step of Every Note System"
-description: "Capture is where PKM lives or dies. I save what resonates, not everything I see - and I keep one inbox I actually trust."
+description: "Capture is where PKM lives or dies - one trusted inbox, save what resonates, not everything you see."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,7 +13,7 @@ draft: false
 aliases: ["CODE"]
 ---
 
-**Capture** is where [[PKM]] lives or dies. I save what resonates, not everything I see - and I keep one inbox I actually trust.
+**Capture** = saving what resonates into one inbox you actually trust.
 
 Friction kills capture. One inbox, phone to desktop, weekly process - same as [[The Trusted Inbox]]. If I wouldn't act on it or cite it later, it doesn't get saved. Resonance is the filter, not FOMO.
 

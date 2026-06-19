@@ -1,7 +1,7 @@
 ---
 title: "PKM"
 meta_title: "PKM - Personal Knowledge Management in Plain Language"
-description: "PKM is the boring name for how I save, organize, and use what I learn. Here's my unspectacular definition."
+description: "PKM is how you save, organize, and use what you learn - capture, organize, distill, express."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -11,11 +11,13 @@ slug: "pkm"
 featured: false
 draft: false
 aliases: ["Personal Knowledge Management"]
+status: evergreen
+last_reviewed: 2026-06-19T08:00:00Z
 ---
 
-**PKM** is the boring name for how I save, organize, and use what I learn. Here's my unspectacular definition.
+**PKM (personal knowledge management)** = capture, organize, distill, express - a backup brain for a loud life.
 
-Capture what matters, organize enough to find it, distill on reuse, express on schedule. Not a productivity cosplay - a backup brain for a life that's too loud to hold everything in RAM. Start at [[Getting Started]] or [[Building a Second Brain]].
+Not productivity cosplay. Save what matters, find it when needed, rewrite on reuse, ship on schedule. Start at [[Getting Started]] or [[Building a Second Brain]].
 
 ## See also
 

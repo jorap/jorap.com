@@ -1,7 +1,7 @@
 ---
 title: "E2EE Security"
 meta_title: "E2EE Security for Personal Notes"
-description: "End-to-end encryption matters when my notes are actually private. I balance convenience with what I'm willing to store in plain text."
+description: "End-to-end encryption for notes that must stay private - balanced against convenience."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,7 +13,7 @@ draft: false
 aliases: ["E2EE"]
 ---
 
-End-to-end encryption matters when my notes are actually private. I balance convenience with what I'm willing to store in plain text.
+**E2EE (end-to-end encryption)** = only you and your recipient can read the note - not the server.
 
 Journal entries and credentials get encryption; blog drafts and garden notes stay plain text I can grep. Threat model first, then tools. See [[Privacy and Data Sovereignty]].
 

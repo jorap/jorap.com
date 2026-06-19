@@ -1,7 +1,7 @@
 ---
 title: "Evergreen Notes"
 meta_title: "Evergreen Notes - Ideas That Stay Fresh"
-description: "I write evergreen notes to stay useful - timeless phrasing, clear claims, updated when reality changes."
+description: "Evergreen notes stay useful - timeless phrasing, clear claims, updated when reality changes."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -11,11 +11,13 @@ slug: "evergreen-notes"
 featured: false
 draft: false
 aliases: []
+status: evergreen
+last_reviewed: 2026-06-19T08:00:00Z
 ---
 
-I write evergreen notes to stay useful - timeless phrasing, clear claims, updated when reality changes.
+**Evergreen notes** = claims written to stay true - timeless voice, updated when reality shifts.
 
-I write in complete sentences I'd still stand behind in two years. Revise when tools change, not when trends spike. Promotion from fleeting: during [[Periodic Knowledge Review]], when a spark keeps returning.
+Complete sentences I'd still stand behind in two years. Revise when tools change, not when trends spike. Promote from fleeting during [[Periodic Knowledge Review]], when a spark keeps returning.
 
 ## See also
 

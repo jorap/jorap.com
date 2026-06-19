@@ -1,7 +1,7 @@
 ---
 title: "The Zettelkasten Myth"
 meta_title: "The Zettelkasten Myth - You Won't Write 70 Books"
-description: "Luhmann's output wasn't copy-paste from buying the right notebook. The Zettelkasten myth oversells tools and undersells writing."
+description: "The Zettelkasten myth oversells tools and undersells writing - Luhmann wrote the books."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,7 +13,7 @@ draft: false
 aliases: ["Zettelkasten Myth"]
 ---
 
-Luhmann's output wasn't copy-paste from buying the right notebook. The Zettelkasten myth oversells tools and undersells writing.
+**Zettelkasten myth** = the box didn't write Luhmann's books; he did.
 
 The [[Zettelkasten]] didn't write the books; Luhmann did. Tools lower friction; they don't replace sentences. Buy plain text and a linking habit before another productivity pilgrimage.
 

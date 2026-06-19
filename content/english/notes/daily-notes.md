@@ -1,7 +1,7 @@
 ---
 title: "Daily Notes"
 meta_title: "Daily Notes - Low-Stakes Logs That Compound"
-description: "Daily notes are my scratch pad for the day - tasks, fragments, links. Not a diary. Not permanent by default."
+description: "Daily notes are a scratch pad for the day - fleeting by default, not a permanent archive."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: []
 ---
 
-**Daily Notes** are my scratch pad for the day - tasks, fragments, links. Not a diary. Not permanent by default.
+**Daily notes** = today's scratch pad - tasks, fragments, links. Not a diary. Not permanent by default.
 
-Morning dump, evening sweep. Fleeting by default - promote to evergreen during [[Periodic Knowledge Review]], not while the coffee's still hot. [[Daily Notes]] are a lane, not the archive.
+Morning dump, evening sweep. Promote to evergreen during [[Periodic Knowledge Review]], not while the coffee's still hot. [[Daily Notes]] are a lane, not the archive.
 
 ## See also
 

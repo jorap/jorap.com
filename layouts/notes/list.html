@@ -1,5 +1,6 @@
 {{ define "main" }}
   {{ partial "notes/lint-all-wikilinks.html" . }}
+  {{ partial "notes/lint-unlinked-mentions.html" . }}
   {{ partial "page-header" . }}
 
   <section class="section">
@@ -8,14 +9,32 @@
         <div class="lg:col-10">
           <div class="notes-toolbar mb-6 flex flex-wrap items-center gap-3">
             <a class="btn btn-outline-primary btn-sm" href="{{ `/notes/graph/` | relLangURL }}">Graph view</a>
-            <span class="text-ink-muted text-sm">{{ len (partial "notes/pages.html" .) }} notes</span>
+            <a class="btn btn-outline-primary btn-sm" href="{{ `/notes/review/` | relLangURL }}">Weekly review</a>
+            <a class="btn btn-outline-primary btn-sm" href="{{ `/notes/daily/` | relLangURL }}">Daily notes</a>
+            {{ partial "notes/random-note.html" . }}
+            <span class="text-ink-muted text-sm">{{ len (partial "notes/garden-pages.html" .) }} notes</span>
           </div>
 
-          <div class="row">
-            {{ $notes := partial "notes/pages.html" . }}
+          {{ partial "notes/recent-updated.html" . }}
+
+          <div class="notes-filters mb-6" role="group" aria-label="Filter notes by status">
+            <button type="button" class="notes-filter is-active" data-notes-filter="all" aria-pressed="true">All</button>
+            <button type="button" class="notes-filter" data-notes-filter="seedling" aria-pressed="false">Seedling</button>
+            <button type="button" class="notes-filter" data-notes-filter="evergreen" aria-pressed="false">Evergreen</button>
+            <button type="button" class="notes-filter" data-notes-filter="inbox" aria-pressed="false">Inbox</button>
+            <button type="button" class="notes-filter" data-notes-filter="archived" aria-pressed="false">Archived</button>
+            <button type="button" class="notes-filter" data-notes-filter="stale" aria-pressed="false">Stale</button>
+          </div>
+
+          <div class="row notes-grid" data-notes-grid>
+            {{ $notes := partial "notes/garden-pages.html" . }}
             {{ $notes = partial "notes/sort-by-connections.html" (dict "Pages" $notes "Context" .) }}
             {{ range $notes }}
-              <div class="md:col-6 mb-8 flex">
+              {{ $meta := partial "notes/note-meta.html" . }}
+              <div
+                class="md:col-6 mb-8 flex notes-grid-item"
+                data-note-status="{{ $meta.Status }}"
+                data-note-stale="{{ $meta.IsStale }}">
                 {{ partial "notes/note-card.html" (dict
                   "Page" .
                   "HeadingLevel" 2
@@ -23,12 +42,21 @@
                   "HeadingExtraClass" "text-ink"
                   "ShowDescription" true
                   "ShowTags" true
+                  "ShowStatus" true
                 ) }}
               </div>
             {{ end }}
           </div>
+
+          <p class="notes-filter-empty text-ink-muted hidden text-sm" data-notes-filter-empty>
+            No notes match this filter.
+          </p>
         </div>
       </div>
     </div>
   </section>
+
+  {{ with resources.Get "js/notes-list.js" }}
+    <script src="{{ .RelPermalink }}" defer></script>
+  {{ end }}
 {{ end }}

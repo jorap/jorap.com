@@ -1,7 +1,7 @@
 ---
 title: "Associative Linking"
 meta_title: "Associative Linking - How Ideas Find Each Other"
-description: "Folders sort. Links think. Here's how I use associative linking so notes meet each other without me remembering every filename."
+description: "Folders sort. Links think. Associative linking lets notes meet without remembering every filename."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,7 +13,7 @@ draft: false
 aliases: []
 ---
 
-Folders sort. Links think. I link so notes meet without me remembering every filename.
+**Folders sort. Links think.** Connect notes by meaning, not by filename.
 
 When I write a note, I link to two neighbors minimum - what it extends, what it contradicts. Filenames fade; relationships stick. That's how [[Zettelkasten]] and a [[Digital Garden]] stay walkable without a perfect folder tree.
 

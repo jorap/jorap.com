@@ -1,7 +1,7 @@
 ---
 title: "Metadata Strategy"
 meta_title: "Metadata Strategy - Tags Without Taxonomy Hell"
-description: "Tags, categories, dates, aliases - metadata should help me find notes, not become a second job."
+description: "Tags, categories, dates, aliases - metadata should help you find notes, not become taxonomy hell."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,7 +13,7 @@ draft: false
 aliases: []
 ---
 
-Tags, categories, dates, aliases - metadata should help me find notes, not become a second job.
+**Metadata strategy** = tags and aliases that help you find notes - not a second job.
 
 Tags for broad themes, aliases for link targets, dates for publish not theology. If tagging takes longer than writing, the schema is wrong. See [[Context-Aware Capture]] for the fields that actually get used.
 

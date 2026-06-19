@@ -1,7 +1,7 @@
 ---
 title: "Collaborative Knowledge"
 meta_title: "Collaborative Knowledge - Shared Brains Without Shared Chaos"
-description: "Most of my notes are solo. But teams need shared context too - here's what I look for when knowledge has more than one author."
+description: "Teams need shared knowledge with clear owners and norms - separate from a solo thinking garden."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: []
 ---
 
-Most of my notes are solo, but teams need shared context too. I look for owners, edit norms, and one source of truth per topic.
+**Collaborative knowledge** = shared context with owners, edit norms, and one source of truth per topic.
 
-Shared wikis need owners, edit norms, and a single source of truth per topic. I still keep a solo [[Digital Garden]] for thinking; team docs live where decisions stick. Different jobs, different homes.
+Most of my notes are solo; team docs live where decisions stick. I keep a solo [[Digital Garden]] for thinking. Different jobs, different homes.
 
 ## See also
 

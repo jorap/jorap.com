@@ -21,6 +21,17 @@
 
             <h1 class="article-title mb-4">{{ .Title }}</h1>
 
+            {{- $meta := partial "notes/note-meta.html" . -}}
+            {{- if ne (.Params.note_kind | default "note") "meta" -}}
+              <div class="notes-single-meta text-ink-muted mb-4 flex flex-wrap items-center gap-3 text-sm">
+                {{ partial "notes/status-badge.html" (dict "Page" .) }}
+                <span>Last reviewed {{ $meta.LastReviewed.Format "Jan 2, 2006" }}</span>
+                {{- if eq (.Params.note_kind | default "note") "daily" -}}
+                  <span class="notes-daily-label">Daily note</span>
+                {{- end -}}
+              </div>
+            {{- end -}}
+
             {{ with .Params.tags }}
               {{ partial "notes/tag-chips.html" (dict "Tags" . "ListClass" "mb-4 flex flex-wrap gap-2") }}
             {{ end }}
@@ -41,7 +52,7 @@
                 <h2 class="h6 mb-3">Links from this Note</h2>
                 <ul class="notes-outgoing-list grid gap-3 sm:grid-cols-2">
                   {{ range . }}
-                    {{ partial "notes/note-link-card.html" (dict "Page" .Page "Href" .Href "Title" .Label "Body" (partial "notes/shared-labels.html" (dict "Page" $page "Other" .Page))) }}
+                    {{ partial "notes/note-link-card.html" (dict "Page" .Page "Href" .Href "Title" .Label) }}
                   {{ end }}
                 </ul>
               </aside>
@@ -54,7 +65,7 @@
                 <h2 class="h6 mb-3">Backlinks</h2>
                 <ul class="notes-backlinks-list grid gap-3 sm:grid-cols-2">
                   {{ range . }}
-                    {{ partial "notes/note-link-card.html" (dict "Page" .Page "Body" (partial "notes/shared-labels.html" (dict "Page" $page "Other" .Page))) }}
+                    {{ partial "notes/note-link-card.html" (dict "Page" .Page) }}
                   {{ end }}
                 </ul>
               </aside>

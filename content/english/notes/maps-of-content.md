@@ -1,7 +1,7 @@
 ---
 title: "Maps of Content"
 meta_title: "Maps of Content (MOC) - Index Pages That Think"
-description: "A MOC is a curated index of notes on a topic - not a folder list, a table of contents I write by hand."
+description: "A MOC is a curated index of notes on a topic - a table of contents you write by hand."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -11,9 +11,13 @@ slug: "maps-of-content"
 featured: true
 draft: false
 aliases: ["MOC"]
+status: evergreen
+last_reviewed: 2026-06-19T08:00:00Z
 ---
 
-**Maps of Content (MOCs)** are hub notes that index related ideas. I use pages like this to wander the garden.
+**Map of Content (MOC)** = a hand-written table of contents - a hub note that curates links, not folders.
+
+MOCs are how I wander the garden without memorizing filenames. Below is the index I actually use.
 
 ## Maps
 
@@ -25,6 +29,12 @@ aliases: ["MOC"]
 - [[Atomic Notes]]
 - [[Maps of Content]]
 - [[Getting Started]]
+
+### Maintain
+
+- [[Weekly Review Checklists]]
+- [/notes/review/](/notes/review/) — inbox + stale queue
+- [/notes/daily/](/notes/daily/) — daily capture archive
 
 ### Capture
 

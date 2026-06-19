@@ -1,7 +1,7 @@
 ---
 title: "The 12 Week Year"
 meta_title: "The 12 Week Year - Quarterly Intensity for Projects"
-description: "Twelve-week years compress annual goals into quarters I actually feel. I map wiki projects to 12-week arcs."
+description: "Twelve-week years compress goals into quarters you actually feel - map projects to 12-week arcs."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: ["12 Week Year"]
 ---
 
-Twelve-week years compress annual goals into quarters I actually feel. I map wiki projects to 12-week arcs.
+**12-week year** = one quarter as one "year" - long enough to ship, short enough to feel urgent.
 
-Twelve weeks is long enough to ship, short enough to feel urgent. Wiki project notes get a season tag; review at week twelve, [[The Archive Method|archive]] or renew. Beats annual goals that die in February.
+Wiki project notes get a season tag; review at week twelve, [[The Archive Method|archive]] or renew. Beats annual goals that die in February.
 
 ## See also
 

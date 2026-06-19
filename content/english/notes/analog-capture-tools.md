@@ -1,7 +1,7 @@
 ---
 title: "Analog Capture Tools"
 meta_title: "Analog Capture Tools - Paper When Screens Fail"
-description: "I love my wiki, but sometimes paper wins - meetings, sermons, the pocket notebook that survives a dead phone battery."
+description: "Paper capture uses the same inbox rule as digital - for meetings, sermons, and dead phone batteries."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: []
 ---
 
-I love my wiki, but sometimes paper wins - meetings, sermons, the pocket notebook that survives a dead phone battery.
+**Paper capture** = the same trusted inbox, different medium - for when screens fail or feel rude.
 
-Paper goes through the same rule as digital: one trusted inbox, processed weekly. I photograph or transcribe into [[Capture]] - the medium changes, the pipe doesn't. Meetings and sermons are where analog still wins for me.
+Meetings, sermons, dead batteries: paper wins. One pipe, processed weekly - photograph or transcribe into [[Capture]]. The medium changes; the rule doesn't.
 
 ## See also
 

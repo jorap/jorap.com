@@ -1,7 +1,7 @@
 ---
 title: "Future-Proofing Knowledge"
 meta_title: "Future-Proofing Knowledge - Boring Formats Win"
-description: "Future-proofing isn't predicting tech for me. It's plain text, open tools, and exports I test before I need them."
+description: "Future-proofing is plain text, open tools, and exports you test before you need them."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,7 +13,7 @@ draft: false
 aliases: ["future proofing knowledge"]
 ---
 
-Future-proofing isn't predicting tech for me - it's plain text, open tools, and exports I test before I need them.
+**Future-proofing** = boring formats that outlive apps - plain text, open tools, tested exports.
 
 Export quarterly. Open files in a plain editor. If it breaks, fix the pipeline now, not during a panic. [[Anti-Fragile Systems]] beat predictions about which app wins next year.
 

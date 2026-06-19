@@ -1,7 +1,7 @@
 ---
 title: "Atomic Notes"
 meta_title: "Atomic Notes - One Idea, One File"
-description: "One idea per note, written to stand alone and link freely - not mini blog posts."
+description: "Atomic notes hold one idea each - written to stand alone and link freely, not as mini blog posts."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -9,15 +9,15 @@ author: "JoRap"
 tags: ["Atomic Notes", "Zettelkasten", "PKM", "Note Taking", "Second Brain", "Linking"]
 slug: "atomic-notes"
 aliases: ["atom"]
+status: evergreen
+last_reviewed: 2026-06-19T08:00:00Z
 featured: false
 draft: false
 ---
 
-An **atomic note** holds one claim or question. If I'm writing `and` too much, I split it. Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing.
+An **atomic note** = one claim you'd say out loud. Too many `and`s? Split it.
 
-**Rule of thumb:** one thing I'd say in conversation - "why middle-click saves tab chaos" is atomic; "browser tips and meeting notes" is not.
-
-I split when I need `and` twice. Link when ideas touch. [[Maps of Content]] collect clusters; backlinks show what I forgot I wrote. The graph is the organization.
+**Rule of thumb:** one thing I'd cite in conversation - "why middle-click saves tab chaos" is atomic; "browser tips and meeting notes" is not. Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing.
 
 ## See also
 

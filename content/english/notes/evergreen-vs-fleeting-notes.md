@@ -1,7 +1,7 @@
 ---
 title: "Evergreen vs Fleeting Notes"
 meta_title: "Evergreen vs Fleeting Notes - Two Speeds"
-description: "Fleeting notes catch sparks. Evergreen notes hold truth. I need both lanes and a clear promotion path."
+description: "Fleeting notes catch sparks; evergreen notes hold truth. Both lanes, clear promotion rules."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: ["Evergreen vs Fleeting"]
 ---
 
-Fleeting notes catch sparks. Evergreen notes hold truth. I need both lanes and a clear promotion path.
+**Fleeting notes catch sparks. Evergreen notes hold truth.** Two lanes, one promotion path.
 
-Fleeting lives in [[Daily Notes]] and the inbox; evergreen lives where I link and teach from. The promotion question: is this still true, and would I cite it to a friend? If yes, rewrite in timeless voice, stress-test with [[The Feynman Technique]], and file as evergreen.
+Fleeting lives in [[Daily Notes]] and the inbox; evergreen lives where I link and teach from. Promotion question: still true, and would I cite it to a friend? If yes, rewrite in timeless voice, stress-test with [[The Feynman Technique]], file as evergreen.
 
 ## See also
 

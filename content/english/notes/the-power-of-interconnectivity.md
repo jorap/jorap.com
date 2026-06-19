@@ -1,7 +1,7 @@
 ---
 title: "The Power of Interconnectivity"
 meta_title: "The Power of Interconnectivity - Value in the Links"
-description: "A note's value for me lives in what it connects to. Interconnectivity turns files into a network I think inside."
+description: "A note's value lives in its connections - files become a network you think inside."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: ["Interconnectivity", "Power of Interconnectivity"]
 ---
 
-A note's value for me lives in what it connects to - files become a network I think inside.
+**Interconnectivity** = a note's value is who it links to; alone it's a fact, in a graph it's an argument.
 
-A note alone is a fact; a note in a graph is an argument. I ask on every edit: what should this link to that it doesn't yet? Density beats volume. See [[Associative Linking]].
+On every edit I ask: what should this link to that it doesn't yet? Density beats volume. See [[Associative Linking]].
 
 ## See also
 

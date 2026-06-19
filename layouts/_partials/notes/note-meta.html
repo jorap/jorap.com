@@ -1,0 +1,33 @@
+{{- /*
+  Note lifecycle helpers.
+  Returns dict: Status, StatusLabel, LastReviewed, IsStale, IsInbox, ReviewAgeDays.
+*/ -}}
+{{- $page := . -}}
+{{- $status := $page.Params.status | default "seedling" -}}
+{{- $labels := dict
+  "seedling" "Seedling"
+  "evergreen" "Evergreen"
+  "inbox" "Inbox"
+  "archived" "Archived"
+-}}
+{{- $statusLabel := index $labels $status | default (title $status) -}}
+{{- $lastReviewed := $page.Params.last_reviewed | default "" -}}
+{{- if $lastReviewed -}}
+  {{- $lastReviewed = time $lastReviewed -}}
+{{- else -}}
+  {{- $lastReviewed = $page.Lastmod | default $page.Date -}}
+{{- end -}}
+{{- $staleDays := site.Params.notes.stale_days | default 90 | int -}}
+{{- $cutoff := now.AddDate 0 0 (sub 0 $staleDays) -}}
+{{- $isStale := and (ne $status "archived") (ne $status "inbox") ($lastReviewed.Before $cutoff) -}}
+{{- $isInbox := eq $status "inbox" -}}
+{{- $ageDays := int (div (sub now.Unix $lastReviewed.Unix) 86400) -}}
+
+{{- return (dict
+  "Status" $status
+  "StatusLabel" $statusLabel
+  "LastReviewed" $lastReviewed
+  "IsStale" $isStale
+  "IsInbox" $isInbox
+  "ReviewAgeDays" $ageDays
+) -}}

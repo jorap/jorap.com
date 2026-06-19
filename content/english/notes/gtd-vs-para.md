@@ -1,7 +1,7 @@
 ---
 title: "GTD vs PARA"
 meta_title: "GTD vs PARA - Tasks vs Knowledge"
-description: "GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - here's how I use both without doubling admin."
+description: "GTD runs my tasks. PARA runs my notes - cousins, not competitors."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,7 +13,7 @@ draft: false
 aliases: ["GTD"]
 ---
 
-GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - here's how I use both without doubling admin.
+**GTD runs tasks. PARA runs notes.** Cousins, not competitors.
 
 Tasks live in the task app with contexts and next actions. Reference and project material lives in [[PARA Method]] buckets. Overlap is fine; duplicate filing is the tax I refuse to pay.
 

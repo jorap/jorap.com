@@ -1,7 +1,7 @@
 ---
 title: "The Knowledge Lifecycle"
 meta_title: "The Knowledge Lifecycle - From Spark to Archive"
-description: "Ideas have lifecycles: capture, active use, evergreen, decay, archive. PKM should match the stage."
+description: "Ideas move through capture, use, evergreen, decay, and archive - match effort to stage."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: ["Knowledge Lifecycle"]
 ---
 
-Ideas have lifecycles in my vault: capture, active use, evergreen, decay, archive. I match effort to stage.
+**Knowledge lifecycle** = capture → active use → evergreen → decay → archive. Match effort to stage.
 
-Not every note should be evergreen forever. Some decay honestly; some get archived; some get rewritten when the world shifts. Match effort to stage - see [[Evergreen vs Fleeting Notes]].
+Not every note should be evergreen forever. Some decay honestly; some get archived; some get rewritten when the world shifts. See [[Evergreen vs Fleeting Notes]].
 
 ## See also
 

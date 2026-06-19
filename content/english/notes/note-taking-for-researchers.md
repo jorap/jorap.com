@@ -1,7 +1,7 @@
 ---
 title: "Note-Taking for Researchers"
 meta_title: "Note-Taking for Researchers - Beyond Highlight Hell"
-description: "Researchers drown in PDF highlights. I borrow lit-review habits: source notes, synthesis notes, never merge the two."
+description: "Researchers need source notes and synthesis notes - never merge the two."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: ["note taking for researchers", "Research Notes"]
 ---
 
-Researchers drown in PDF highlights. I borrow lit-review habits: source notes, synthesis notes, never merge the two.
+**Research notes** = two lanes: literature notes stay with the source; permanent notes are your words only.
 
-Literature notes stay close to the source; permanent notes are my words only. Never highlight into a synthesis note without rewriting. Classic [[Zettelkasten]] hygiene that survives outside academia.
+Never highlight into a synthesis note without rewriting. Classic [[Zettelkasten]] hygiene that survives outside academia - source notes and synthesis notes never merge.
 
 ## See also
 

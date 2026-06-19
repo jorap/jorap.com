@@ -1,7 +1,7 @@
 ---
 title: "Creative Blocks"
 meta_title: "Creative Blocks - When the Notes Don't Become Output"
-description: "I have thousands of notes and still stare at a blank page sometimes. Creative blocks aren't solved by more capture - here's what actually unsticks me."
+description: "Creative blocks aren't solved by more capture - one small ship action usually unsticks me."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,9 @@ draft: false
 aliases: []
 ---
 
-I have thousands of notes and still stare at a blank page sometimes. Creative blocks aren't solved by more capture - here's what actually unsticks me.
+**Creative block** = too much inventory, not enough shipping. More capture rarely fixes it.
 
-I pick one small express action: outline three bullets, publish a stub, record a voice memo. More [[Capture]] rarely helps; shipping something ugly does. See [[Creative Output]] and [[Process Over Outcomes]].
+I pick one small express action: outline three bullets, publish a stub, record a voice memo. Shipping something ugly unsticks me faster than another save. See [[Creative Output]] and [[Process Over Outcomes]].
 
 ## See also
 

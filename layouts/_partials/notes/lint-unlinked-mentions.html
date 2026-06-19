@@ -1,0 +1,70 @@
+{{- /*
+  Build-time lint for note titles/aliases mentioned in prose without wikilinks.
+  warnf on misses; errorf when notes.strict_unlinked is true.
+*/ -}}
+{{- $registry := partialCached "notes/link-registry.html" site "notes-registry-v1" -}}
+{{- $strict := site.Params.notes.strict_unlinked | default false -}}
+{{- $minLen := site.Params.notes.unlinked_min_length | default 4 | int -}}
+{{- $reported := dict -}}
+
+{{- range $registry.notes -}}
+  {{- $note := . -}}
+  {{- if eq ($note.Params.note_kind | default "note") "daily" -}}
+    {{- continue -}}
+  {{- end -}}
+  {{- $raw := $note.RawContent -}}
+  {{- $fence := "```" -}}
+  {{- $tick := "`" -}}
+  {{- $raw = replaceRE (printf "(?s)%s[\\s\\S]*?%s" $fence $fence) "" $raw -}}
+  {{- $raw = replaceRE (printf "%s[^%s\\n]+%s" $tick $tick $tick) "" $raw -}}
+  {{- $raw = replaceRE `(?s)<h2[^>]*id="see-also"[^>]*>See also</h2>.*$` "" $raw -}}
+  {{- $raw = replaceRE `(?s)## See also.*$` "" $raw -}}
+
+  {{- range $other := $registry.notes -}}
+    {{- if eq $other.RelPermalink $note.RelPermalink -}}
+      {{- continue -}}
+    {{- end -}}
+    {{- $needles := slice $other.Title -}}
+    {{- with $other.Params.aliases -}}
+      {{- $needles = union $needles . -}}
+    {{- end -}}
+
+    {{- range $needles -}}
+      {{- if lt (len .) $minLen -}}
+        {{- continue -}}
+      {{- end -}}
+      {{- $words := split . " " -}}
+      {{- $multiWord := gt (len $words) 1 -}}
+      {{- $escaped := replaceRE `([.*+?^${}()|[\]\\])` `\\$1` . -}}
+      {{- $wikilinkPattern := printf `(?i)\[\[%s(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]` $escaped -}}
+      {{- if findRE $wikilinkPattern $raw -}}
+        {{- continue -}}
+      {{- end -}}
+      {{- $wordPattern := "" -}}
+      {{- if $multiWord -}}
+        {{- if not (findRE (printf `(?i)%s` $escaped) $raw) -}}
+          {{- continue -}}
+        {{- end -}}
+        {{- $wordPattern = printf `(?i)(?:^|[^[\w])%s(?:[^]\w]|$)` $escaped -}}
+      {{- else -}}
+        {{- if not (findRE (printf `%s` $escaped) $raw) -}}
+          {{- continue -}}
+        {{- end -}}
+        {{- $wordPattern = printf `(?:^|[^[\wA-Z])%s(?:[^]\w]|$)` $escaped -}}
+      {{- end -}}
+      {{- if not (findRE $wordPattern $raw) -}}
+        {{- continue -}}
+      {{- end -}}
+      {{- $key := printf "%s|%s" $note.File.Path . -}}
+      {{- if not (index $reported $key) -}}
+        {{- $reported = merge $reported (dict $key true) -}}
+        {{- $msg := printf "unlinked mention of %q (→ [[%s]]) in %s" . $other.Title $note.File.Path -}}
+        {{- if $strict -}}
+          {{- errorf $msg -}}
+        {{- else -}}
+          {{- warnf $msg -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
