@@ -3,7 +3,7 @@ title: "Process Over Outcomes"
 meta_title: "Process Over Outcomes - Why James Clear's Line Stuck"
 description: "Results matter - but optimizing only for outcomes wins once. Optimizing for a repeatable process wins again and again."
 date: 2026-06-18T06:06:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Ideas", "Productivity", "Tips"]
 author: "JoRap"
 tags: ["James Clear", "Process", "Habits", "Mindset", "Atomic Habits", "Systems Thinking", "Goal Setting", "Continuous Improvement", "Self Improvement"]

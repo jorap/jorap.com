@@ -3,7 +3,7 @@ title: "Formatting for Readability"
 meta_title: "Formatting Notes for Readability"
 description: "Dense walls of text don't get reread. I format notes like I'd format a post - headings, bullets, bold for the point."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Formatting", "Readability", "Markdown", "Note Taking", "PKM", "Writing"]

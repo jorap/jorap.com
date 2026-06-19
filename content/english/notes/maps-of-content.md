@@ -3,7 +3,7 @@ title: "Maps of Content"
 meta_title: "Maps of Content (MOC) - Index Pages That Think"
 description: "A MOC is a curated index of notes on a topic - not a folder list, a table of contents I write by hand."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["MOC", "Maps of Content", "PKM", "Linking", "Organization", "Second Brain"]

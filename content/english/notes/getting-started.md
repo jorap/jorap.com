@@ -4,7 +4,7 @@ meta_title: "Getting Started | Notes Garden"
 description: "How my linked notes garden works on this site - atomic claims, wikilinks, and a public graph."
 slug: "getting-started"
 date: 2026-06-18T08:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Notes", "Meta"]

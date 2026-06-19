@@ -3,7 +3,7 @@ title: "Active Knowledge Curation"
 meta_title: "Active Knowledge Curation - Notes That Stay Alive"
 description: "Saving links isn't curation. Here's how I try to keep notes useful - revisiting, pruning, and connecting what I actually care about."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["PKM", "Curation", "Note Taking", "Second Brain", "Knowledge Management", "Productivity"]

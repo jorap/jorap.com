@@ -3,7 +3,7 @@ title: "Advantages of Digital Gardens"
 meta_title: "Why Digital Gardens Beat Perfect Blog Archives"
 description: "A digital garden grows in public - messy, linked, alive. Here's why I prefer that over polishing every thought into a finished essay."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Digital Garden", "PKM", "Publishing", "Note Taking", "Second Brain", "Ideas"]

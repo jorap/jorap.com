@@ -3,7 +3,7 @@ title: "Newsletter Filtering"
 meta_title: "Newsletter Filtering - Email as Input, Not Interruption"
 description: "Newsletters are RSS with delivery guilt. I filter them to a label, batch read weekly, clip what resonates."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Newsletter", "Email", "RSS", "Filtering", "PKM", "Information Diet"]

@@ -3,7 +3,7 @@ title: "Organization"
 meta_title: "Organization - Structure That Survives a Busy Month"
 description: "Organization in PKM isn't a perfect tree - it's enough structure to find things when life gets loud."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Organization", "PARA", "PKM", "Productivity", "Note Taking", "Structure"]

@@ -3,7 +3,7 @@ title: "GTD vs PARA"
 meta_title: "GTD vs PARA - Tasks vs Knowledge"
 description: "GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - here's how I use both without doubling admin."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["GTD", "PARA", "Productivity", "PKM", "Tiago Forte", "David Allen"]

@@ -3,7 +3,7 @@ title: "The Garage Concept"
 meta_title: "The Garage Concept - Messy Workshop, Clean Showroom"
 description: "The garage holds tools, scraps, experiments. The showroom is the blog. I don't confuse the two."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Garage Concept", "Digital Garden", "PKM", "Publishing", "Workflow", "Privacy"]

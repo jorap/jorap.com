@@ -3,7 +3,7 @@ title: "Spaced Repetition"
 meta_title: "Spaced Repetition - Remember What You Chose"
 description: "Spaced repetition schedules reviews before I forget. I use it for facts I need cold, not for whole wiki pages."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Spaced Repetition", "SRS", "Anki", "Learning", "Memory", "PKM"]

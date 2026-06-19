@@ -3,7 +3,7 @@ title: "Analog Capture Tools"
 meta_title: "Analog Capture Tools - Paper When Screens Fail"
 description: "I love my wiki, but sometimes paper wins - meetings, sermons, the pocket notebook that survives a dead phone battery."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Analog", "Capture", "Note Taking", "Bullet Journal", "PKM", "Productivity"]

@@ -3,7 +3,7 @@ title: "Graph View Analytics"
 meta_title: "Graph View Analytics - What the Graph Actually Tells You"
 description: "Graph view looks sci-fi. Mostly I use it to find orphans, hubs, and notes I forgot to link."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Graph View", "PKM", "Obsidian", "Linking", "Analytics", "Note Taking"]

@@ -3,7 +3,7 @@ title: "Metadata Strategy"
 meta_title: "Metadata Strategy - Tags Without Taxonomy Hell"
 description: "Tags, categories, dates, aliases - metadata should help me find notes, not become a second job."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Metadata", "Tags", "PKM", "Organization", "Taxonomy", "Note Taking"]

@@ -3,7 +3,7 @@ title: "Weekly Review Checklists"
 meta_title: "Weekly Review Checklists - Same Steps Every Sunday"
 description: "My weekly review is a checklist - inbox, calendar, projects, one express action. Boring on purpose."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Weekly Review", "Checklist", "GTD", "PKM", "PARA", "Habits"]

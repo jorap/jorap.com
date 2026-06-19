@@ -3,7 +3,7 @@ title: "The Zettelkasten Myth"
 meta_title: "The Zettelkasten Myth - You Won't Write 70 Books"
 description: "Luhmann's output wasn't copy-paste from buying the right notebook. The Zettelkasten myth oversells tools and undersells writing."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Zettelkasten", "Myth", "PKM", "Productivity", "Writing", "Luhmann"]

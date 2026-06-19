@@ -3,7 +3,7 @@ title: "Collaborative Knowledge"
 meta_title: "Collaborative Knowledge - Shared Brains Without Shared Chaos"
 description: "Most of my notes are solo. But teams need shared context too - here's what I look for when knowledge has more than one author."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Collaboration", "PKM", "Knowledge Management", "Teams", "Documentation", "Second Brain"]

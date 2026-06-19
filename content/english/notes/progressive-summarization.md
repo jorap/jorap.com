@@ -3,7 +3,7 @@ title: "Progressive Summarization"
 meta_title: "Progressive Summarization - Layers Over Rewrites"
 description: "I don't rewrite whole notes when I distill - bold, then highlight, then summarize when I reuse."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Progressive Summarization", "Tiago Forte", "PKM", "Distill", "Note Taking", "CODE Method"]

@@ -3,7 +3,7 @@ title: "Local-first Software"
 meta_title: "Local-first Software for Notes"
 description: "Local-first means my device holds the truth; sync is optional icing. That's how I want my brain's backup to behave."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Local First", "PKM", "Sync", "Privacy", "Note Taking", "Offline"]

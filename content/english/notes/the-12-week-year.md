@@ -3,7 +3,7 @@ title: "The 12 Week Year"
 meta_title: "The 12 Week Year - Quarterly Intensity for Projects"
 description: "Twelve-week years compress annual goals into quarters I actually feel. I map wiki projects to 12-week arcs."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["12 Week Year", "Planning", "Goals", "PKM", "Projects", "Productivity"]

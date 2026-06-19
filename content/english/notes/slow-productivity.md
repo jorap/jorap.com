@@ -3,7 +3,7 @@ title: "Slow Productivity"
 meta_title: "Slow Productivity - Fewer Projects, Deeper Notes"
 description: "Slow productivity pushes back on busy-as-virtue. I run fewer active projects so notes become output, not backlog."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Slow Productivity", "Cal Newport", "PKM", "Focus", "Productivity", "Deep Work"]

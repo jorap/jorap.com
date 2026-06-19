@@ -3,7 +3,7 @@ title: "First Principles Thinking"
 meta_title: "First Principles Thinking in Your Notes"
 description: "When a note is just a quote from someone smarter, I add a section: what do I actually believe from scratch?"
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["First Principles", "Thinking", "PKM", "Mental Models", "Note Taking", "Synthesis"]

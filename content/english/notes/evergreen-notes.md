@@ -3,7 +3,7 @@ title: "Evergreen Notes"
 meta_title: "Evergreen Notes - Ideas That Stay Fresh"
 description: "I write evergreen notes to stay useful - timeless phrasing, clear claims, updated when reality changes."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Evergreen Notes", "PKM", "Note Taking", "Zettelkasten", "Second Brain", "Writing"]

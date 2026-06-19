@@ -3,7 +3,7 @@ title: "Atomic Notes"
 meta_title: "Atomic Notes - One Idea, One File"
 description: "One idea per note, written to stand alone and link freely - not mini blog posts."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Atomic Notes", "Zettelkasten", "PKM", "Note Taking", "Second Brain", "Linking"]

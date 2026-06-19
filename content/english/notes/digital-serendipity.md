@@ -3,7 +3,7 @@ title: "Digital Serendipity"
 meta_title: "Digital Serendipity - Stumbling on Your Own Ideas"
 description: "Serendipity isn't random luck for me - it's building a system where old notes surprise me at the right time."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Serendipity", "PKM", "Second Brain", "Linking", "Review", "Discovery"]

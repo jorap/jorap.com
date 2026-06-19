@@ -3,7 +3,7 @@ title: "Synthesis as a Goal"
 meta_title: "Synthesis as a Goal - Notes Should Combine"
 description: "Collecting quotes isn't PKM for me. Synthesis is merging sources into what I believe and can defend."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Synthesis", "PKM", "Writing", "Research", "Second Brain", "Express"]

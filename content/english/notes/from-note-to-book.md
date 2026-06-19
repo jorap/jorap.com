@@ -3,7 +3,7 @@ title: "From Note to Book"
 meta_title: "From Note to Book - Assembly Writing"
 description: "Books aren't written; they're compiled. My path from atomic notes to long-form is outline, link, expand."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Writing", "Books", "PKM", "Evergreen Notes", "Publishing", "Assembly"]

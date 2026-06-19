@@ -3,7 +3,7 @@ title: "Slip-box History"
 meta_title: "Slip-box History - Luhmann's Zettelkasten Origin"
 description: "The slip-box (Zettelkasten) wasn't magic software - Luhmann's physical note cards and links. History helps separate myth from method."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Zettelkasten", "Slip-box", "History", "Luhmann", "PKM", "Note Taking"]

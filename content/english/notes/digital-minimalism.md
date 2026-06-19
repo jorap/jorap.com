@@ -3,7 +3,7 @@ title: "Digital Minimalism"
 meta_title: "Digital Minimalism for Note-Takers"
 description: "Fewer apps, fewer sync layers, fewer notifications. My PKM got better when I stopped collecting tools."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Digital Minimalism", "PKM", "Productivity", "Focus", "Note Taking", "Tools"]

@@ -3,7 +3,7 @@ title: "Building a Second Brain"
 meta_title: "Building a Second Brain - Capture, Organize, Distill, Express"
 description: "My brain is for having ideas, not storing them. A Second Brain is the system that holds them - starting with capture."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Second Brain", "PKM", "Note Taking", "Productivity", "TiddlyWiki", "Tiago Forte", "CODE Method", "Knowledge Management", "Capture", "Personal Wiki", "Information Architecture"]

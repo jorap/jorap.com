@@ -3,7 +3,7 @@ title: "RSS for Research"
 meta_title: "RSS for Research - Curated Inputs, No Algorithm"
 description: "RSS is how I research without Twitter. Subscribe to blogs, clip to notes, ignore the rest."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["RSS", "Research", "PKM", "Information Diet", "Feeds", "Learning"]

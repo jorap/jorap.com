@@ -3,7 +3,7 @@ title: "Zettelkasten"
 meta_title: "Zettelkasten - Linked Atomic Notes That Scale"
 description: "Zettelkasten is one idea per note, dense links, writing from the network."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Zettelkasten", "PKM", "Atomic Notes", "Linking", "Luhmann", "Note Taking"]

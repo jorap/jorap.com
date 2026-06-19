@@ -3,7 +3,7 @@ title: "Curation as Creation"
 meta_title: "Curation as Creation - Choosing Is Making"
 description: "Selecting, ordering, and framing notes is creative work. I stopped treating curation as housekeeping."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Curation", "PKM", "Creation", "Note Taking", "MOC", "Second Brain"]

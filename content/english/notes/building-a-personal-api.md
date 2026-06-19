@@ -3,7 +3,7 @@ title: "Building a Personal API"
 meta_title: "Building a Personal API - Your Notes as Callable Context"
 description: "My personal API isn't OAuth and microservices. It's structured context for future me and my tools without re-explaining everything."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Personal API", "PKM", "Automation", "Second Brain", "AI", "Knowledge Management"]

@@ -3,7 +3,7 @@ title: "PARA Method"
 meta_title: "PARA Method - Projects, Areas, Resources, Archives"
 description: "PARA is how I sort notes by life responsibility - not by topic alphabet soup. Four buckets, clear questions."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["PARA", "Tiago Forte", "PKM", "Organization", "Second Brain", "Productivity"]

@@ -3,7 +3,7 @@ title: "There Is No Perfect Solution"
 meta_title: "There Is No Perfect Solution - Only Tradeoffs"
 description: "Waiting for the perfect tool, plan, or answer feels responsible. It's often the nirvana fallacy. Here's why I choose good-enough tradeoffs on purpose."
 date: 2026-06-18T06:03:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Ideas", "Productivity", "Tips"]
 author: "JoRap"
 tags: ["Decision Making", "Tradeoffs", "Productivity", "Mindset", "Nirvana Fallacy", "Good Enough", "Problem Solving", "Prioritization", "Perfectionism"]

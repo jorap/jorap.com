@@ -3,7 +3,7 @@ title: "Note-Taking for Researchers"
 meta_title: "Note-Taking for Researchers - Beyond Highlight Hell"
 description: "Researchers drown in PDF highlights. I borrow lit-review habits: source notes, synthesis notes, never merge the two."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Research", "Note Taking", "Academic", "Zettelkasten", "Citations", "PKM"]

@@ -3,7 +3,7 @@ title: "The Trusted Inbox"
 meta_title: "The Trusted Inbox - One Place I'll Actually Empty"
 description: "If I don't trust my inbox, I capture in my head instead. One pipe, weekly empty, no exceptions."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Inbox", "GTD", "Capture", "PKM", "Trust", "Workflow"]

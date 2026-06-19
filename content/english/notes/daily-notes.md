@@ -3,7 +3,7 @@ title: "Daily Notes"
 meta_title: "Daily Notes - Low-Stakes Logs That Compound"
 description: "Daily notes are my scratch pad for the day - tasks, fragments, links. Not a diary. Not permanent by default."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Daily Notes", "PKM", "Journaling", "Productivity", "Note Taking", "Review"]

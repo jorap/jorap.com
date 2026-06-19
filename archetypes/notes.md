@@ -4,7 +4,7 @@ meta_title: ""
 description: "One sentence: the single claim this note makes."
 slug: "{{ .Name }}"
 date: {{ .Date }}
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: []
 author: "JoRap"
 tags: []

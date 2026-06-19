@@ -3,7 +3,7 @@ title: "Signal vs Noise"
 meta_title: "Signal vs Noise in Your Information Diet"
 description: "Most content is noise. PKM fails if capture doesn't filter. I save signal - stuff that changes action or belief."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Signal vs Noise", "Information Diet", "PKM", "Capture", "Focus", "Curation"]

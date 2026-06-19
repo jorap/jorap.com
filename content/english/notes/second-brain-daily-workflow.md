@@ -3,7 +3,7 @@ title: "Second Brain Daily Workflow"
 meta_title: "My Second Brain Daily Workflow - Tabs, Feeds, and Small Shortcuts"
 description: "A Second Brain isn't only notes for me - it's how I move through the day: middle-click tabs, curated feeds, and faster learning loops."
 date: 2026-06-18T06:01:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Second Brain", "Workflow", "Browser Tips", "Productivity", "PKM", "RSS", "Middle Click", "Daily Routine", "Information Diet", "Learning", "Tab Management"]

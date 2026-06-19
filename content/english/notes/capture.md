@@ -3,7 +3,7 @@ title: "Capture"
 meta_title: "Capture - The First Step of Every Note System"
 description: "Capture is where PKM lives or dies. I save what resonates, not everything I see - and I keep one inbox I actually trust."
 date: 2026-06-18T06:00:00Z
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Capture", "PKM", "Second Brain", "CODE Method", "Note Taking", "Productivity"]
