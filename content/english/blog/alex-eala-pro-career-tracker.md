@@ -10,7 +10,7 @@ author: "JoRap"
 tags: ["Tennis", "Alex Eala", "WTA", "Pinoy Pride", "Career Tracker", "Grand Slam", "Athletes", "Women's Tennis", "Philippines", "Tennis Rankings", "Live Tracker", "Pro Tennis", "Sports Fan"]
 featured: false
 draft: false
-lastmod: 2026-06-19T21:00:00Z
+lastmod: 2026-06-20T00:30:00Z
 ---
 
 I've been following Alex Eala's career since her amazing run at the 2025 Miami Open, and watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook - career-high rankings, the matches I'll always remember, the head-to-heads with Grand Slam champions, and the upcoming matchups I'm watching for. I update it as her career unfolds.
@@ -55,31 +55,54 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - 2026
 
-  - **Berlin (WTA 500)** - Quarterfinals | On-going
+  - **Berlin (WTA 500, Grass)** 
+    - Quarterfinals | On-going vs Svitolina | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007)
+    - Round of 16, d. Rybakina 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-e-rybakina-2026-06-18)
+    - Round of 32, d. Vekić 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS030) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/d-vekic-vs-a-eala-2026-06-17)
 
-  - **Birmingham (WTA 125)** - Winner | [wtatennis.com](https://www.wtatennis.com/tournaments/1126/birmingham-125/2026/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/lexus-birmingham-open/matches/a-eala-vs-n-bartunkova-2026-06-07)
-    - Second Career WTA Win
-    - First career title on grass
+  - **Birmingham (WTA 125, Grass)**
+    - Second Career WTA Title Win
+    - First Career WTA Title on Grass
+    - Winner, d. Bartunkova 5-7, 6-3, 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/1126/birmingham-125/2026/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/lexus-birmingham-open/matches/a-eala-vs-n-bartunkova-2026-06-07)
+    - Semifinals, d. Masarova 6-2, 4-6, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/1126/birmingham-125/2026/scores/LS002) | [tennis.com](https://www.tennis.com/tournaments/lexus-birmingham-open/matches/a-eala-vs-r-masarova-2026-06-06)
+    - Quarterfinals, d. Sawangkaew 6-3, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1126/birmingham-125/2026/scores/LS004) | [tennis.com](https://www.tennis.com/tournaments/lexus-birmingham-open/matches/a-eala-vs-m-sawangkaew-2026-06-05)
+    - Round of 16, d. Charaeva 6-2, 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/1126/birmingham-125/2026/scores/LS008) | [tennis.com](https://www.tennis.com/tournaments/lexus-birmingham-open/matches/a-eala-vs-a-charaeva-2026-06-04)
+    - Round of 32, d. Hon 6-0, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1126/birmingham-125/2026/scores/LS016) | [tennis.com](https://www.tennis.com/tournaments/lexus-birmingham-open/matches/a-eala-vs-p-hon-2026-06-02)
+    
 
  {{< youtube kdUsythJKOg >}}
  
  {{< youtube -aQ0q3tTvOw >}}
 
-  - **Dubai (WTA 1000)** - Quarterfinals | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS005) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/c-gauff-vs-a-eala-2026-02-19)
+  - **Dubai (WTA 1000, Hard)** 
+    - Quarterfinals, l. Gauff 0-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS005) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/c-gauff-vs-a-eala-2026-02-19)
+    - Round of 16, d. Cîrstea 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS011) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/s-cirstea-vs-a-eala-2026-02-18)
+    - Round of 32, d. Paolini 6-1, 7-6(5) | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS023) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/a-eala-vs-j-paolini-2026-02-17)
+    - Round of 64, d. Baptiste 6-4, 0-1 ret. | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS046) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/h-baptiste-vs-a-eala-2026-02-15)
 
  {{< youtube vToI4CcaOo8 >}}
 
-  - **Abu Dhabi (WTA 500)** - Quarterfinals | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-e-alexandrova-2026-02-05)
+  - **Abu Dhabi (WTA 500, Hard)**
+    - Quarterfinals, l. Alexandrova 3-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-e-alexandrova-2026-02-05)
+    - Round of 16, d. Sasnovich 2-6, 6-4, 7-6(5) | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-a-sasnovich-2026-02-04)
+    - Round of 32, d. Sönmez 6-4, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LS029) | [tennis.com](https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-z-sonmez-2026-02-03)
 
  {{< youtube 8urcN5nHhX4 >}}
 
-  - **Manila (WTA 125)** - Quarterfinals | [wtatennis.com](https://www.wtatennis.com/tournaments/1153/manila-125/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/philippine-womens-open/matches/c-osorio-vs-a-eala-2026-01-29)
+  - **Manila (WTA 125, Hard)**
+    - Quarterfinals, l. Osorio 4-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1153/manila-125/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/philippine-womens-open/matches/c-osorio-vs-a-eala-2026-01-29)
+    - Round of 16, d. Sakatsume 6-4, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/1153/manila-125/2026/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/philippine-womens-open/matches/h-sakatsume-vs-a-eala-2026-01-28)
+    - Round of 32, d. Charaeva 6-1, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1153/manila-125/2026/scores/LS031) | [tennis.com](https://www.tennis.com/tournaments/philippine-womens-open/matches/a-charaeva-vs-a-eala-2026-01-26)
 
  {{< youtube iXfxN9Bysvs >}}
 
  {{< youtube AIdv9p64R7Y >}}
 
-  - **Auckland (WTA 250)** - Semifinals | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/a-eala-vs-x-wang-2026-01-10)
+  - **Auckland (WTA 250, Hard)**
+    - Semifinals, l. Wang 7-5, 5-7, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/a-eala-vs-x-wang-2026-01-10)
+    - Quarterfinals, d. Linette 6-3, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS006) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/a-eala-vs-m-linette-2026-01-08)
+    - Round of 16, d. Marčinko 6-0, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS013) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/a-eala-vs-p-marcinko-2026-01-08)
+    - Round of 32, d. Vekić 4-6, 6-4, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/1049/auckland/2026/scores/LS027) | [tennis.com](https://www.tennis.com/tournaments/asb-classic/matches/d-vekic-vs-a-eala-2026-01-06)
 
  {{< youtube 6j0r-o9cwrw >}}
 
@@ -87,31 +110,65 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - 2025
 
-  - **Jingshan (WTA 125)** - Semifinals | [wtatennis.com](https://www.wtatennis.com/tournaments/1143/jingshan-125/2025/scores/LS002)
+  - **Jingshan (WTA 125, Hard)**
+    - Semifinals, l. Sun 6-3, 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1143/jingshan-125/2025/scores/LS002) | [tennis.com](https://www.tennis.com/tournaments/jingshan-tennis-open/matches/a-eala-vs-l-sun-2025-09-27)
+    - Quarterfinals, d. Jia-Jing Lu 6-4, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/1143/jingshan-125/2025/scores/LS004) | [tennis.com](https://www.tennis.com/tournaments/jingshan-tennis-open/matches/a-eala-vs-j-lu-2025-09-26)
+    - Round of 16, d. Yamaguchi 6-0, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/1143/jingshan-125/2025/scores/LS008) | [tennis.com](https://www.tennis.com/tournaments/jingshan-tennis-open/matches/a-eala-vs-m-yamaguchi-2025-09-25)
+    - Round of 32, d. Falei 6-3, 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/1143/jingshan-125/2025/scores/LS016) | [tennis.com](https://www.tennis.com/tournaments/jingshan-tennis-open/matches/a-eala-vs-a-falei-2025-09-23)
 
-  - **Sao Paulo (WTA 250)** - Quarterfinals | [wtatennis.com](https://www.wtatennis.com/tournaments/1139/sao-paulo/2025/scores/LS006) | [tennis.com](https://www.tennis.com/tournaments/sp-open/matches/j-tjen-vs-a-eala-2025-09-12)
+  - **Sao Paulo (WTA 250, Hard)**
+    - Quarterfinals, l. Tjen 4-6, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1139/sao-paulo/2025/scores/LS006) | [tennis.com](https://www.tennis.com/tournaments/sp-open/matches/j-tjen-vs-a-eala-2025-09-12)
+    - Round of 16, d. Riera 6-1, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/1139/sao-paulo/2025/scores/LS013) | [tennis.com](https://www.tennis.com/tournaments/sp-open/matches/a-eala-vs-j-riera-2025-09-10)
+    - Round of 32, d. Mansouri 6-0, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1139/sao-paulo/2025/scores/LS027) | [tennis.com](https://www.tennis.com/tournaments/sp-open/matches/a-eala-vs-y-mansouri-2025-09-08)
 
  {{< youtube Rn6uX8S_6O0 >}}
 
-  - **Guadalajara (WTA 125)** - Winner | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS001)
+  - **Guadalajara (WTA 125, Hard)**
+    - Winner, d. Udvardy 1-6, 7-5, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/p-udvardy-vs-a-eala-2025-09-06)
+    - Semifinals, d. Day 6-2, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/k-day-vs-a-eala-2025-09-05)
+    - Quarterfinals, d. Fossa Huergo 7-6(2), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/n-fossa-huergo-vs-a-eala-2025-09-04)
+    - Round of 16, d. Lepchenko 6-3, 7-6(3), 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/v-lepchenko-vs-a-eala-2025-09-03)
+    - Round of 32, d. Hartono 6-2, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS031) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/a-hartono-vs-a-eala-2025-09-02)
     - First Career WTA Tournament Win
 
-  - **Eastbourne Open (WTA 250)** - Finalist | [wtatennis.com](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/lexus-eastbourne-open/matches/m-joint-vs-a-eala-2025-06-28)
+  - **Eastbourne Open (WTA 250, Grass)**
     - First Filipina to reach WTA Tour Finals
+    - Finalist, l. Joint 4-6, 6-1, 6-7(10) | [wtatennis.com](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/lexus-eastbourne-open/matches/m-joint-vs-a-eala-2025-06-28)
+    - Semifinals, d. Gracheva 7-5, 2-6, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/lexus-eastbourne-open/matches/a-eala-vs-v-gracheva-2025-06-27)
+    - Quarterfinals, d. Yastremska 6-1, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS006) | [tennis.com](https://www.tennis.com/tournaments/lexus-eastbourne-open/matches/d-yastremska-vs-a-eala-2025-06-26)
+    - Round of 16, d. Ostapenko 0-6, 6-2, 3-2 ret. | [wtatennis.com](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS013) | [tennis.com](https://www.tennis.com/tournaments/lexus-eastbourne-open/matches/j-ostapenko-vs-a-eala-2025-06-25)
+    - Round of 32, d. Bronzetti 6-0, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS026) | [tennis.com](https://www.tennis.com/tournaments/lexus-eastbourne-open/matches/l-bronzetti-vs-a-eala-2025-06-24)
+    
 
  {{< youtube mOD9LLVIbz4 >}}
 
  {{< youtube o2djKw4gKF4 >}}
 
-  - **Ilkley (WTA 125)** - Quarterfinals | [wtatennis.com](https://www.wtatennis.com/tournaments/1127/ilkley-125/2025/scores/LS004) | [tennis.com](https://www.tennis.com/tournaments/lexus-ilkley-open/matches/a-eala-vs-r-marino-2025-06-13)
+  - **Ilkley (WTA 125, Grass)**
+    - Quarterfinals, l. Marino 6-1, 0-6, 6-7(4) | [wtatennis.com](https://www.wtatennis.com/tournaments/1127/ilkley-125/2025/scores/LS004) | [tennis.com](https://www.tennis.com/tournaments/lexus-ilkley-open/matches/a-eala-vs-r-marino-2025-06-13)
+    - Round of 16, d. Ryser 6-1, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1127/ilkley-125/2025/scores/LS008) | [tennis.com](https://www.tennis.com/tournaments/lexus-ilkley-open/matches/a-eala-vs-v-ryser-2025-06-11)
+    - Round of 32, d. Cabrera 7-6(4), 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/1127/ilkley-125/2025/scores/LS016) | [tennis.com](https://www.tennis.com/tournaments/lexus-ilkley-open/matches/a-eala-vs-l-cabrera-2025-06-09)
 
-  - **Miami Open (WTA 1000)** - Semifinals | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/j-pegula-vs-a-eala-2025-03-28)
+  - **Miami Open (WTA 1000, Hard)**
+    - Semifinals, l. Pegula 6-7(3), 7-5, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/j-pegula-vs-a-eala-2025-03-28)
+    - Quarterfinals, d. Świątek 6-2, 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-i-swiatek-2025-03-26)
+    - Round of 16, d. Badosa w/o | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/p-badosa-vs-a-eala-2025-03-25)
+    - Round of 32, d. Keys 6-4, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS028) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/m-keys-vs-a-eala-2025-03-24)
+    - Round of 64, d. Ostapenko 7-6(2), 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS057) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/j-ostapenko-vs-a-eala-2025-03-22)
+    - Round of 128, d. Volynets 6-3, 7-6(3) | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS114) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/k-volynets-vs-a-eala-2025-03-20)
     - First Filipina to reach WTA 1000 Tour Semifinals
 
-  - **Canberra International (WTA 125)** - Semifinals | [wtatennis.com](https://www.wtatennis.com/tournaments/2096/canberra-125/2025/scores/LS003)
+  - **Canberra International (WTA 125, Hard)**
+    - Semifinals, l. Wei 5-7, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2096/canberra-125/2025/scores/LS003)
+    - Quarterfinals, d. Preston 4-6, 6-2, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/2096/canberra-125/2025/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/workday-canberra-international/matches/t-preston-vs-a-eala-2025-01-02)
+    - Round of 16, d. Hartono 6-3, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/2096/canberra-125/2025/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/workday-canberra-international/matches/a-eala-vs-a-hartono-2025-01-01)
+    - Round of 32, d. Kraus 6-2, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2096/canberra-125/2025/scores/LS030) | [tennis.com](https://www.tennis.com/tournaments/workday-canberra-international/matches/a-eala-vs-s-kraus-2024-12-31)
 
 - 2024
-  - **Veneto Open (WTA 125)** - Quarterfinals | [wtatennis.com](https://www.wtatennis.com/tournaments/2062/gaiba-125/2024/scores/LS006)
+  - **Veneto Open (WTA 125, Grass)** 
+    - Quarterfinals, l. Errani 0-6, 6-7(3) | [wtatennis.com](https://www.wtatennis.com/tournaments/2062/gaiba-125/2024/scores/LS006) | [tennis.com](https://www.tennis.com/tournaments/veneto-open/matches/s-errani-vs-a-eala-2024-06-21)
+    - Round of 16, d. Pedone 6-3, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/2062/gaiba-125/2024/scores/LS012) | [tennis.com](https://www.tennis.com/tournaments/veneto-open/matches/g-pedone-vs-a-eala-2024-06-20)
+    - Round of 32, d. Monnet 6-3, 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/2062/gaiba-125/2024/scores/LS025) | [tennis.com](https://www.tennis.com/tournaments/veneto-open/matches/a-eala-vs-c-monnet-2024-06-18)
 
 ### Doubles
 
