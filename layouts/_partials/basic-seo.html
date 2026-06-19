@@ -17,6 +17,10 @@
   <!-- checking page title -->
 {{ else if .Params.title }}
   {{ $title = .Params.title }}
+{{ else if eq .Kind "term" }}
+  {{ $title = printf "%s | %s" (.Title | title) site.Title }}
+{{ else if eq .Kind "taxonomy" }}
+  {{ $title = printf "%s | %s" (.Title | title) site.Title }}
 {{ end }}
 
 

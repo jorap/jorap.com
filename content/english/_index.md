@@ -1,4 +1,5 @@
 ---
+meta_title: "JoRap Notes | Ideas, execution, and good sense, without the noise."
 # Banner
 banner:
   title: "The Ultimate Starter Template You Need To Start Your Hugo Project"

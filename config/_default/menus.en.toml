@@ -68,6 +68,16 @@ url = "/blog"
 weight = 2
 
 [[footer]]
+name = "Categories"
+url = "/categories"
+weight = 3
+
+[[footer]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+[[footer]]
 name = "Contact"
 url = "/contact"
-weight = 3
+weight = 5
