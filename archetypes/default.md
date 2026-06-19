@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-meta_title: ""
+meta_title: "{{ replace .Name "-" " " | title }}"
 description: ""
 slug: "{{ .Name }}"
 date: {{ .Date }}

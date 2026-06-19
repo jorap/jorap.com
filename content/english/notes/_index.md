@@ -1,6 +1,6 @@
 ---
 title: "Notes"
-meta_title: "Notes | JoRap"
+meta_title: "Notes"
 description: "My linked note garden - wikilinks, backlinks, and a graph view of connected ideas."
 slug: "notes"
 date: 2026-06-18T08:00:00Z

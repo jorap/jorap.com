@@ -1,7 +1,7 @@
 ---
 title: "Elements"
 # meta title
-meta_title: ""
+meta_title: "Elements | JoRap Notes"
 # meta description
 description: "This is meta description"
 # save as draft
