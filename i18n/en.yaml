@@ -4,7 +4,7 @@ send: Send
 related_posts: Related Posts
 related_notes: Related Notes
 random_unrelated_notes: 2 Random Notes
-random_unrelated_notes_lede: Two garden notes with no shared tags or categories with this post — shuffle for serendipity.
+random_unrelated_notes_lede: Two garden notes picked at random — shuffle for serendipity.
 shuffle_all: Shuffle all
 shuffle_left: Shuffle left
 shuffle_center: Shuffle center
@@ -17,7 +17,7 @@ prompt_opened_in_ai: Opened
 prompt_copied_for_ai: Copied — paste in chat
 loading: Loading…
 random_notes_prompt_loading: Loading notes…
-no_unrelated_notes: No unrelated notes in the garden yet.
+no_unrelated_notes: No notes in the garden yet.
 categories: Categories
 tags: Tags
 toc: Table of Contents

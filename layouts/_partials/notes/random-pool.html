@@ -1,0 +1,9 @@
+{{- /*
+  All note pages as url/title dicts for random pickers.
+*/ -}}
+{{- $notes := partial "notes/pages.html" . -}}
+{{- $pool := slice -}}
+{{- range $notes -}}
+  {{- $pool = $pool | append (dict "url" .RelPermalink "title" .Title) -}}
+{{- end -}}
+{{- return $pool -}}

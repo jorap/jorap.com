@@ -1,5 +1,5 @@
 /**
- * Blog single: two unrelated garden notes + AI prompt with the post.
+ * Blog single: two random garden notes + AI prompt with the post.
  */
 (function () {
   var root = document.querySelector("[data-blog-random-notes]");
@@ -84,7 +84,7 @@
 
   function setSlotEmpty(slot) {
     slot.innerHTML =
-      '<p class="notes-random-two-empty text-ink-muted text-sm">Not enough unrelated notes to fill this column.</p>';
+      '<p class="notes-random-two-empty text-ink-muted text-sm">Not enough notes to fill this column.</p>';
     slot.classList.add("notes-random-two-panel--empty");
   }
 
@@ -184,11 +184,11 @@
     });
 
     if (!blog && !usable.length) {
-      return "Shuffle to load two unrelated notes, then paste this prompt into your AI chat.";
+      return "Shuffle to load two notes, then paste this prompt into your AI chat.";
     }
 
     var intro =
-      "I'm reading a blog post alongside two unrelated notes from my digital garden. Help me explore connections between the post and each note, and all three together.";
+      "I'm reading a blog post alongside two notes from my digital garden. Help me explore connections between the post and each note, and all three together.";
     var instructions = promptInstructions(usable.length);
     var origin = window.location.origin;
     var sections = [];

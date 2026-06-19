@@ -1,9 +1,5 @@
 {{ define "main" }}
-  {{- $notes := partial "notes/garden-pages.html" . -}}
-  {{- $urls := slice -}}
-  {{- range $notes -}}
-    {{- $urls = $urls | append (dict "url" .RelPermalink "title" .Title) -}}
-  {{- end -}}
+  {{- $pool := partial "notes/random-pool.html" . -}}
 
   <section class="section pt-7">
     <div class="container">
@@ -53,7 +49,7 @@
           </div>
 
           <p class="notes-random-two-empty-page text-ink-muted hidden text-sm" data-random-three-empty-page>No notes in the garden yet.</p>
-          <script type="application/json" class="notes-random-three-data">{{ $urls | jsonify | safeJS }}</script>
+          <script type="application/json" class="notes-random-three-data">{{ $pool | jsonify | safeJS }}</script>
         </div>
       </div>
     </div>

@@ -1,8 +1,4 @@
-{{- $notes := partial "notes/garden-pages.html" . -}}
-{{- $urls := slice -}}
-{{- range $notes -}}
-  {{- $urls = $urls | append (dict "url" .RelPermalink "title" .Title) -}}
-{{- end -}}
+{{- $pool := partial "notes/random-pool.html" . -}}
 
 <div class="notes-random flex flex-wrap items-center gap-2">
   <button type="button" class="btn btn-outline-primary btn-sm notes-random-btn" data-notes-random>
@@ -10,5 +6,5 @@
   </button>
   <a class="btn btn-outline-primary btn-sm" href="{{ `/notes/random-two/` | relLangURL }}">2 random notes</a>
   <a class="btn btn-outline-primary btn-sm" href="{{ `/notes/random-three/` | relLangURL }}">3 random notes</a>
-  <script type="application/json" class="notes-random-data">{{ $urls | jsonify | safeJS }}</script>
+  <script type="application/json" class="notes-random-data">{{ $pool | jsonify | safeJS }}</script>
 </div>

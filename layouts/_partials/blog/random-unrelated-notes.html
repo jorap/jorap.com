@@ -1,5 +1,4 @@
-{{- $page := . -}}
-{{- $pool := partial "notes/unrelated-notes-pool.html" (dict "Context" $page) -}}
+{{- $pool := partial "notes/random-pool.html" . -}}
 {{- $aiChatUrl := site.Params.blog.random_notes_ai_chat_url | default "https://chatgpt.com/?q=" -}}
 {{- $aiChatLabel := site.Params.blog.random_notes_ai_chat_label | default (T "open_in_chatgpt") -}}
 {{- if ge (len $pool) 2 -}}
