@@ -9,11 +9,12 @@ author: "JoRap"
 tags: ["PKM", "Anti-Fragile", "Local First", "Productivity", "Note Taking", "Future Proofing", "Mindset"]
 slug: "anti-fragile-systems"
 featured: false
+status: evergreen
 draft: false
 aliases: ["anti fragile systems", "Antifragile"]
 ---
 
-**Anti-fragile notes** get stronger under stress - plain files, open formats, backups you actually test.
+**Anti-fragile systems** = note stacks that survive app death - plain files, open formats, backups you actually test.
 
 If an app vanished tomorrow, could I still read my notes? Markdown in a folder, backups tested twice a year, no single company holding the keys. Stress should surface gaps, not erase years of work. See [[Future-Proofing Knowledge]] and [[Local-first Software]]. Pairs with [[There Is No Perfect Solution]].
 

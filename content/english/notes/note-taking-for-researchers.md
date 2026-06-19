@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Research", "Note Taking", "Academic", "Zettelkasten", "Citations", "PKM"]
 slug: "note-taking-for-researchers"
 featured: false
+status: evergreen
 draft: false
 aliases: ["note taking for researchers", "Research Notes"]
 ---

@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Spaced Repetition", "SRS", "Anki", "Learning", "Memory", "PKM", "Note Taking"]
 slug: "spaced-repetition"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

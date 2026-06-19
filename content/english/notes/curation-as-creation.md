@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Curation", "PKM", "Creation", "Note Taking", "MOC", "Second Brain"]
 slug: "curation-as-creation"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

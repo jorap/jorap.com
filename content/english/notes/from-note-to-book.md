@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Writing", "Books", "PKM", "Evergreen Notes", "Publishing", "Assembly"]
 slug: "from-note-to-book"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

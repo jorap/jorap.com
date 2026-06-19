@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Zettelkasten", "PKM", "Atomic Notes", "Linking", "Luhmann", "Note Taking"]
 slug: "zettelkasten"
 featured: false
+status: evergreen
 draft: false
 aliases: ["slip-box"]
 ---

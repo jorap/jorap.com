@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Graph View", "PKM", "Linking", "Analytics", "Note Taking", "Graph", "Meta"]
 slug: "graph-view-analytics"
 featured: false
+status: evergreen
 draft: false
 aliases: ["Graph View"]
 ---

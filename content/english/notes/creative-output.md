@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Creative Output", "Express", "PKM", "Writing", "Second Brain", "Publishing"]
 slug: "creative-output"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

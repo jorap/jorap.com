@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Creative Blocks", "Writing", "PKM", "Productivity", "Express", "Second Brain"]
 slug: "creative-blocks"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

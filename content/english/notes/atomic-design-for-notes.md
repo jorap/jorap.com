@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Atomic Notes", "PKM", "Note Taking", "Zettelkasten", "Information Architecture", "Second Brain"]
 slug: "atomic-design-for-notes"
 featured: false
+status: evergreen
 draft: false
 aliases: ["Atomic Design"]
 ---

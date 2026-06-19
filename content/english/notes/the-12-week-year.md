@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["12 Week Year", "Planning", "Goals", "PKM", "Projects", "Productivity"]
 slug: "the-12-week-year"
 featured: false
+status: evergreen
 draft: false
 aliases: ["12 Week Year"]
 ---

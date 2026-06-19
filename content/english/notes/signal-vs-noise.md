@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Signal vs Noise", "Information Diet", "PKM", "Capture", "Focus", "Curation"]
 slug: "signal-vs-noise"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

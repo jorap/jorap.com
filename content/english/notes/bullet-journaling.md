@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Bullet Journal", "Analog", "Productivity", "Note Taking", "PKM", "Planning", "Habits"]
 slug: "bullet-journaling"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

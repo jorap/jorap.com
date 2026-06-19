@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Organization", "PARA", "PKM", "Productivity", "Note Taking", "Structure"]
 slug: "organization"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

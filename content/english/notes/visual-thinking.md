@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Visual Thinking", "Diagrams", "PKM", "Mind Mapping", "Excalidraw", "Creativity"]
 slug: "visual-thinking"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

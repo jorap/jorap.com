@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Daily Notes", "PKM", "Journaling", "Productivity", "Note Taking", "Review"]
 slug: "daily-notes"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

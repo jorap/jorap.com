@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Newsletter", "Email", "RSS", "Filtering", "PKM", "Information Diet", "Second Brain"]
 slug: "newsletter-filtering"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

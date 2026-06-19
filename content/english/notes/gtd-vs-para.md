@@ -9,11 +9,12 @@ author: "JoRap"
 tags: ["GTD", "PARA", "Productivity", "PKM", "Tiago Forte", "David Allen", "Second Brain", "Note Taking"]
 slug: "gtd-vs-para"
 featured: false
+status: evergreen
 draft: false
 aliases: ["GTD"]
 ---
 
-**GTD runs tasks. PARA runs notes.** Cousins, not competitors.
+**GTD vs PARA** = tasks in the task app, notes in [[PARA Method|PARA]] buckets - cousins, not competitors.
 
 Tasks live in the task app with contexts and next actions. Reference and project material lives in [[PARA Method]] buckets. Overlap is fine; duplicate filing is the tax I refuse to pay. Pairs with [[Active Knowledge Curation]] and [[Capture]].
 

@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Sourcing", "Citations", "PKM", "Research", "Note Taking", "Integrity", "Writing"]
 slug: "intellectual-sourcing"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

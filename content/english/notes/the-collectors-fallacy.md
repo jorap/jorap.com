@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Collectors Fallacy", "PKM", "Capture", "Learning", "Productivity", "Express", "Note Taking"]
 slug: "the-collectors-fallacy"
 featured: false
+status: evergreen
 draft: false
 aliases: ["the collectors fallacy", "Collector's Fallacy"]
 ---

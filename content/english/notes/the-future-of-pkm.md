@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Future of PKM", "AI", "PKM", "Trends", "Tools"]
 slug: "the-future-of-pkm"
 featured: false
+status: evergreen
 draft: false
 aliases: ["Future of PKM"]
 ---

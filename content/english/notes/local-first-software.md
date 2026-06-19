@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Local First", "PKM", "Sync", "Privacy", "Note Taking", "Offline", "Security"]
 slug: "local-first-software"
 featured: false
+status: evergreen
 draft: false
 aliases: ["local first software", "Local First"]
 ---

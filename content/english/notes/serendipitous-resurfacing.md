@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Serendipity", "Resurfacing", "PKM", "Review", "Second Brain", "Discovery", "Research", "Workflow"]
 slug: "serendipitous-resurfacing"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

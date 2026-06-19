@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["James Clear", "Process", "Habits", "Mindset", "Atomic Habits", "Systems Thinking", "Goal Setting", "Continuous Improvement", "Self Improvement", "PKM", "Note Taking"]
 slug: "process-over-outcomes"
 featured: false
+status: evergreen
 draft: false
 aliases: ["Process Over Outcome"]
 ---

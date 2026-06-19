@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["E2EE", "Security", "Privacy", "PKM", "Encryption", "Note Taking"]
 slug: "e2ee-security"
 featured: false
+status: evergreen
 draft: false
 aliases: ["E2EE"]
 ---

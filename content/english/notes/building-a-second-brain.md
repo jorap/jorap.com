@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Second Brain", "PKM", "Note Taking", "Productivity", "TiddlyWiki", "Tiago Forte", "CODE Method", "Knowledge Management", "Capture", "Personal Wiki", "Information Architecture"]
 slug: "building-a-second-brain"
 featured: false
+status: evergreen
 draft: false
 aliases: ["Second Brain"]
 ---

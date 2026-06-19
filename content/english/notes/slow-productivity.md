@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Slow Productivity", "Cal Newport", "PKM", "Focus", "Productivity", "Deep Work", "Note Taking"]
 slug: "slow-productivity"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

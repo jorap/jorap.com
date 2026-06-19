@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Zettelkasten", "Slip-box", "History", "Luhmann", "PKM", "Note Taking"]
 slug: "slip-box-history"
 featured: false
+status: evergreen
 draft: false
 aliases: ["slip box history", "Slip Box", "Slip-box"]
 ---

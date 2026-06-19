@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["PARA", "Tiago Forte", "PKM", "Organization", "Second Brain", "Productivity", "Note Taking"]
 slug: "para-method"
 featured: false
+status: evergreen
 draft: false
 aliases: ["PARA"]
 ---

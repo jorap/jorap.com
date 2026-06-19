@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Zettelkasten", "Myth", "PKM", "Productivity", "Writing", "Luhmann"]
 slug: "the-zettelkasten-myth"
 featured: false
+status: evergreen
 draft: false
 aliases: ["Zettelkasten Myth"]
 ---

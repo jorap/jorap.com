@@ -14,7 +14,7 @@ featured: false
 draft: false
 ---
 
-An **atomic note** = one claim you'd say out loud. Too many `and`s? Split it.
+**Atomic notes** = one claim you'd say out loud - too many `and`s, split it.
 
 **Rule of thumb:** one thing I'd cite in conversation - "why middle-click saves tab chaos" is atomic; "browser tips and meeting notes" is not. Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing. Pairs with [[Associative Linking]] and [[Atomic Design for Notes]].
 

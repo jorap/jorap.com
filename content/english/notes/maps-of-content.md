@@ -14,7 +14,9 @@ aliases: ["MOC"]
 status: evergreen
 ---
 
-**Maps of Content (MOCs)** are hub notes that index related ideas. Use this page to wander the garden.
+**Maps of Content** = hand-written hub notes that index related ideas - a table of contents you curate, not auto-generate.
+
+Use this page to wander the garden.
 
 ## Maps
 

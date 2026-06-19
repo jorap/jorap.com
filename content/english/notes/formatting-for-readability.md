@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Formatting", "Readability", "Markdown", "Note Taking", "PKM", "Writing", "Documentation"]
 slug: "formatting-for-readability"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

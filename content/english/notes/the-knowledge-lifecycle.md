@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Knowledge Lifecycle", "PKM", "Archive", "Evergreen Notes", "Workflow", "Organization"]
 slug: "the-knowledge-lifecycle"
 featured: false
+status: evergreen
 draft: false
 aliases: ["Knowledge Lifecycle"]
 ---

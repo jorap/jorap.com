@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Journaling", "Interstitial", "Productivity", "Focus", "PKM", "Workflow", "Note Taking", "Daily Notes"]
 slug: "interstitial-journaling"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

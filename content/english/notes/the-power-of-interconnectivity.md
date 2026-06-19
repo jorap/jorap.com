@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Interconnectivity", "Linking", "PKM", "Graph", "Second Brain", "Network"]
 slug: "the-power-of-interconnectivity"
 featured: false
+status: evergreen
 draft: false
 aliases: ["Interconnectivity", "Power of Interconnectivity"]
 ---

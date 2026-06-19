@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Digital Garden", "PKM", "Publishing", "Wiki", "Second Brain", "TiddlyWiki", "Hugo", "Static Site Generator", "Website Building"]
 slug: "digital-garden"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

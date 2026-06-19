@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Mobile", "Capture", "Workflow", "PKM", "Productivity", "Note Taking"]
 slug: "mobile-capture-workflows"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

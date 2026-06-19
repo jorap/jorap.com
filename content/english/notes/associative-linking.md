@@ -9,11 +9,12 @@ author: "JoRap"
 tags: ["Linking", "PKM", "Zettelkasten", "Note Taking", "Second Brain", "Digital Garden"]
 slug: "associative-linking"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---
 
-**Folders sort. Links think.** Connect notes by meaning, not by filename.
+**Associative linking** = connections by meaning, not folder - folders sort, links think.
 
 When I write a note, I link to two neighbors minimum - what it extends, what it contradicts. Filenames fade; relationships stick. That's how [[Zettelkasten]] and a [[Digital Garden]] stay walkable without a perfect folder tree. Pairs with [[Atomic Notes]].
 

@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Second Brain", "Workflow", "Browser Tips", "Productivity", "PKM", "RSS", "Middle Click", "Daily Routine", "Information Diet", "Learning", "Tab Management"]
 slug: "second-brain-daily-workflow"
 featured: false
+status: evergreen
 draft: false
 aliases: ["Daily Workflow"]
 ---

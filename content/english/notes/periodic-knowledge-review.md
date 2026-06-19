@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Review", "PKM", "Weekly Review", "Maintenance", "Second Brain", "Habits", "Note Taking"]
 slug: "periodic-knowledge-review"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

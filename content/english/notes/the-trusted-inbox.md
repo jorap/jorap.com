@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Inbox", "GTD", "Capture", "PKM", "Trust", "Workflow"]
 slug: "the-trusted-inbox"
 featured: false
+status: evergreen
 draft: false
 aliases: ["Trusted Inbox"]
 ---

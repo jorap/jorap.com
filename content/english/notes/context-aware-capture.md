@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Capture", "PKM", "Context", "Note Taking", "Second Brain", "Metadata", "Workflow"]
 slug: "context-aware-capture"
 featured: false
+status: evergreen
 draft: false
 aliases: ["context aware capture"]
 ---

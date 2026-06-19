@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Synthesis", "PKM", "Writing", "Research", "Second Brain", "Express"]
 slug: "synthesis-as-a-goal"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

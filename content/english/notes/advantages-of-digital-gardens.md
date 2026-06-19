@@ -9,11 +9,12 @@ author: "JoRap"
 tags: ["Digital Garden", "PKM", "Publishing", "Note Taking", "Second Brain", "Ideas", "Website Building", "Blogging", "Hugo"]
 slug: "advantages-of-digital-gardens"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---
 
-**A digital garden** grows in public - linked, imperfect, and alive. A blog portfolio seals ideas in amber.
+**Digital gardens** = public notes that grow linked and imperfect - not sealed essays in amber.
 
 Finished essays age fast. Garden notes can sit half-right, get linked, get updated. Readers see the thinking, not just the conclusion. See [[Drafting in Public]] and [[Digital Garden]]. Pairs with [[Getting Started]].
 

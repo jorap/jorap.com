@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Archive", "PARA", "Organization", "PKM", "Projects", "Productivity", "Second Brain", "Note Taking"]
 slug: "the-archive-method"
 featured: false
+status: evergreen
 draft: false
 aliases: ["Archive Method", "The Archive"]
 ---

@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Collaboration", "PKM", "Knowledge Management", "Teams", "Documentation", "Second Brain", "Workflow", "Note Taking"]
 slug: "collaborative-knowledge"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

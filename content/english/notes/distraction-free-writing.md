@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Writing", "Focus", "Distraction Free", "Productivity", "PKM", "Markdown"]
 slug: "distraction-free-writing"
 featured: false
+status: evergreen
 draft: false
 aliases: ["distraction free writing"]
 ---

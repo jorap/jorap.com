@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["RSS", "Research", "PKM", "Information Diet", "Feeds", "Learning", "Digital Minimalism", "Second Brain", "Note Taking"]
 slug: "rss-for-research"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

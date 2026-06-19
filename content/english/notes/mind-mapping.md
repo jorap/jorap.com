@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Mind Mapping", "Visual Thinking", "PKM", "Brainstorming", "Note Taking", "Planning"]
 slug: "mind-mapping"
 featured: false
+status: evergreen
 draft: false
 aliases: []
 ---

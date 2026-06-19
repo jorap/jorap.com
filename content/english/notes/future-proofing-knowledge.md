@@ -9,6 +9,7 @@ author: "JoRap"
 tags: ["Future Proofing", "PKM", "Markdown", "Local First", "Backup", "Note Taking", "Documentation", "Hugo"]
 slug: "future-proofing-knowledge"
 featured: false
+status: evergreen
 draft: false
 aliases: ["future proofing knowledge"]
 ---
