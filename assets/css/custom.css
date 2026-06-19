@@ -424,13 +424,18 @@ html.dark .notes-dev-banner code {
   font-weight: 500;
 }
 
+.notes-recent-item {
+  display: flex;
+  min-height: 100%;
+}
+
 .notes-recent-link {
   display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 0.35rem 0.75rem;
-  padding: 0.55rem 0.7rem;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.5rem;
+  height: 100%;
+  padding: 0.75rem 0.85rem;
   border: 1px solid var(--color-divider);
   border-radius: 0.5rem;
   background: var(--color-elevated);
@@ -445,11 +450,27 @@ html.dark .notes-dev-banner code {
 }
 
 .notes-recent-title {
+  flex: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
   font-weight: 500;
+  line-height: 1.35;
 }
 
-.notes-recent-date {
+.notes-recent-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.5rem;
+  margin-top: auto;
   font-size: 0.75rem;
+  line-height: 1.35;
+}
+
+.notes-recent-stale {
+  font-weight: 500;
 }
 
 .notes-grid-item.hidden {
