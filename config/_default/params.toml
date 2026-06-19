@@ -34,20 +34,20 @@ copyright = "JoRap Notes"
 [notes]
 enable_graph = true
 wikilink_class = "wikilink"
-related_posts_limit = 9
+related_posts_limit = 12
 see_also_limit = 6
 strict_wikilinks = false
 strict_unlinked = false
 unlinked_min_length = 6
 stale_days = 90
-recent_limit = 6
+recent_limit = 12
 graph_hub_percentile = 85
 graph_hub_min_total = 15
 
 # Blog single: automated related content sections
 [blog]
-related_posts_limit = 9
-related_notes_limit = 9
+related_posts_limit = 12
+related_notes_limit = 12
 
 # Homepage framing above the blog grid (set enable = false to hide)
 [home_intro]
