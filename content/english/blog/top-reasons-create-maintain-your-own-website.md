@@ -7,6 +7,7 @@ image: "/images/website.jpg"
 categories: ["Website", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Internet", "Branding", "Content", "Business", "Personal Branding", "Online Presence", "Self-Hosting", "Web Ownership", "Blogging", "Website Building", "Digital Independence", "Content Ownership", "Portfolio", "Personal Website", "Platform Risk"]
+featured: false
 draft: false
 ---
 

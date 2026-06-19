@@ -8,6 +8,7 @@ image: "/images/fbf.jpg"
 categories: ["Social Media", "Technology", "Tips"]
 author: "JoRap"
 tags: ["Facebook", "Favorites Feed", "Social Media Tips", "Digital Wellbeing", "Algorithm", "Personalization", "Mindful Tech", "Feed Curation", "Internet", "Meta", "News Feed", "Screen Time", "Content Curation", "Social Networks"]
+featured: false
 draft: false
 ---
 

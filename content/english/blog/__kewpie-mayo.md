@@ -8,6 +8,7 @@ categories: ["Food", "Pantry", "Reviews"]
 author: "JoRap"
 tags: ["Kewpie", "Mayonnaise", "Japanese Food", "Pantry Staples", "Cooking", "Condiments", "Salad Dressing", "Asian Cuisine", "Ingredient Review", "Umami"]
 slug: "kewpie-mayo"
+featured: false
 draft: true
 ---
 

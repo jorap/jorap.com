@@ -8,6 +8,7 @@ image: "/images/feature-dnpap.jpg"
 categories: ["Worship", "Music", "Filipino"]
 author: "JoRap"
 tags: ["DNPAP", "Destiny Music", "Spotify", "YouTube", "Filipino Worship", "OPM", "Song Resources", "Lyrics", "Live Recording", "Christian Music", "Worship Resources", "Music Ministry", "Filipino Music", "Chord Charts", "Music Video"]
+featured: false
 draft: false
 ---
 **DNPAP** has quietly become one of my favorite worship songs to come out of the local scene, so I put together this little page to collect everything in one place - the studio version, the live recording, the official music video, lyric video, and links to the artist. Bookmark it, share it, sing it.

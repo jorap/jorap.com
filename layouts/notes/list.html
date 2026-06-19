@@ -1,0 +1,44 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+  <section class="section">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          <div class="notes-toolbar mb-6 flex flex-wrap items-center gap-3">
+            <a class="btn btn-outline-primary btn-sm" href="{{ `/notes/graph/` | relLangURL }}">Graph view</a>
+            <span class="text-ink-muted text-sm">{{ len (partial "notes/pages.html" .) }} notes</span>
+          </div>
+
+          <div class="row">
+            {{ $notes := partial "notes/pages.html" . }}
+            {{ $notes = partial "notes/sort-by-connections.html" (dict "Pages" $notes "Context" .) }}
+            {{ range $notes }}
+              <div class="md:col-6 mb-8 flex">
+                <article class="notes-card border-divider flex h-full w-full flex-col rounded-lg border p-5">
+                  <h2 class="h5 mb-2">
+                    <a class="text-ink hover:text-accent no-underline" href="{{ .RelPermalink }}">{{ .Title }}</a>
+                  </h2>
+                  {{ with .Description }}
+                    <p class="text-ink-muted mb-3 flex-1 text-sm">{{ . }}</p>
+                  {{ else }}
+                    <div class="flex-1" aria-hidden="true"></div>
+                  {{ end }}
+                  {{ with .Params.tags }}
+                    <ul class="mt-auto flex flex-wrap gap-2">
+                      {{ range . }}
+                        <li>
+                          <span class="bg-elevated text-ink rounded px-2 py-0.5 text-xs">{{ . }}</span>
+                        </li>
+                      {{ end }}
+                    </ul>
+                  {{ end }}
+                </article>
+              </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

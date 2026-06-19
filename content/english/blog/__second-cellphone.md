@@ -8,6 +8,7 @@ categories: ["Technology", "Gear", "Tips"]
 author: "JoRap"
 tags: ["Cellphone", "Backup Phone", "Travel", "Gear", "Dual SIM", "Emergency Phone", "Work Phone", "Mobile Device", "Phone Backup", "Travel Essentials"]
 slug: "second-cellphone"
+featured: false
 draft: true
 ---
 

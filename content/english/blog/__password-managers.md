@@ -8,6 +8,7 @@ categories: ["Technology", "Security", "Tips"]
 author: "JoRap"
 tags: ["Password Manager", "Bitwarden", "Security", "Privacy", "Two-Factor Authentication", "Credentials", "Online Safety", "Data Breach", "Passkeys", "Cybersecurity"]
 slug: "password-managers"
+featured: false
 draft: true
 ---
 

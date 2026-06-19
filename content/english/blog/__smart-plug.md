@@ -8,6 +8,7 @@ categories: ["Technology", "Gear", "Reviews"]
 author: "JoRap"
 tags: ["Smart Home", "Smart Plug", "Automation", "Gear", "IoT", "Home Automation", "Scheduling", "Energy Saving", "Wi-Fi Plug", "Voice Assistant"]
 slug: "smart-plug"
+featured: false
 draft: true
 ---
 

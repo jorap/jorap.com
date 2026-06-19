@@ -8,6 +8,7 @@ categories: ["Ideas", "Business", "Productivity"]
 author: "JoRap"
 tags: ["Jobs to Be Done", "JTBD", "Product Development", "Framework", "Customer Research", "Innovation", "Product Strategy", "Clayton Christensen", "User Needs", "Problem Solving"]
 slug: "jobs-to-be-done-framework"
+featured: false
 draft: true
 ---
 

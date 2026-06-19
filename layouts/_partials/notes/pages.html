@@ -1,0 +1,8 @@
+{{- /* Published notes in production; include drafts when running hugo server. */ -}}
+{{- $pages := where site.Pages "Section" "notes" -}}
+{{- $pages = where $pages "Kind" "page" -}}
+{{- $pages = where $pages "Params.layout" "ne" "graph" -}}
+{{- if not hugo.IsServer -}}
+  {{- $pages = where $pages "Draft" false -}}
+{{- end -}}
+{{- return $pages -}}

@@ -8,6 +8,7 @@ image: "/images/joraps-world.jpg"
 categories: ["Website", "Technology", "Reviews"]
 author: "JoRap"
 tags: ["Hugo CMS", "HugoPlate", "Tailwind CSS", "Website Building", "Themes", "Theme Review", "Static Sites", "Open Source", "Frontend", "Developer Life", "GoHugo", "Static Site Generator", "Bootstrap", "Web Development", "JoRap"]
+featured: false
 draft: false
 ---
 

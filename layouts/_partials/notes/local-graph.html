@@ -1,0 +1,14 @@
+{{- if site.Params.notes.enable_graph -}}
+  {{- $graph := partial "notes/graph-data-local.html" . -}}
+  {{- if $graph.nodes -}}
+    <div class="notes-graph-panel notes-graph-panel--local mb-5" data-notes-graph>
+      <script type="application/json" class="notes-graph-data">{{ $graph | jsonify | safeJS }}</script>
+
+      <div class="notes-graph" role="img" aria-label="Local graph for {{ .Title }}">
+        <div class="notes-graph__controls" aria-hidden="true">
+          <span class="notes-graph__zoom-hint">Scroll to zoom · drag to pan</span>
+        </div>
+      </div>
+    </div>
+  {{- end -}}
+{{- end -}}

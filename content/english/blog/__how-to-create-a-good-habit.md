@@ -8,6 +8,7 @@ categories: ["Productivity", "Health", "Tips"]
 author: "JoRap"
 tags: ["Habits", "James Clear", "Atomic Habits", "Productivity", "Behavior Change", "Four Laws", "Habit Stacking", "Self Improvement", "Routine Building", "Mindset"]
 slug: "how-to-create-a-good-habit"
+featured: false
 draft: true
 ---
 

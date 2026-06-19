@@ -1,0 +1,31 @@
+{{- $page := . -}}
+{{- $needles := slice $page.Title -}}
+
+{{- with $page.File -}}
+  {{- $needles = $needles | append .ContentBaseName -}}
+{{- end -}}
+{{- with $page.Params.aliases -}}
+  {{- $needles = union $needles . -}}
+{{- end -}}
+
+{{- $backlinks := slice -}}
+{{- $notes := partial "notes/pages.html" . -}}
+
+{{- range $notes -}}
+  {{- if ne .RelPermalink $page.RelPermalink -}}
+    {{- $raw := .RawContent -}}
+    {{- $matched := false -}}
+    {{- range $needles -}}
+      {{- if not $matched -}}
+        {{- if or (in $raw (printf "[[%s]]" .)) (findRE (printf `\[\[%s\|[^\]]+\]\]` .) $raw) -}}
+          {{- $matched = true -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if $matched -}}
+      {{- $backlinks = $backlinks | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $backlinks -}}

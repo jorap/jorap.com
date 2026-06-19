@@ -8,6 +8,7 @@ categories: ["Technology", "Gear", "Reviews"]
 author: "JoRap"
 tags: ["Mi Box S", "Android TV", "Streaming", "Xiaomi", "Gear", "Set-Top Box", "Google TV", "Netflix", "Home Entertainment", "4K Streaming", "Chromecast Alternative"]
 slug: "mi-box-s"
+featured: false
 draft: true
 ---
 

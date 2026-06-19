@@ -8,6 +8,7 @@ categories: ["Food", "Pantry", "Reviews"]
 author: "JoRap"
 tags: ["Worcestershire Sauce", "Lee and Perrins", "Pantry Staples", "Cooking", "Condiments", "Umami", "Marinades", "Steak Sauce", "Kitchen Essentials", "Ingredient Review"]
 slug: "worcestershire-sauce-lee-and-perrins"
+featured: false
 draft: true
 ---
 

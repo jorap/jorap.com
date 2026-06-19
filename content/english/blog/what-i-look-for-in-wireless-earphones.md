@@ -8,6 +8,7 @@ image: "/images/feature-soundpeats-runfree.jpg"
 categories: ["Technology", "Gear", "Reviews"]
 author: "JoRap"
 tags: ["Wireless Earphones", "Open-Ear Earphones", "Bluetooth", "Audio", "Everyday Carry", "Soundpeats RunFree", "Earbuds", "Headphones", "Buying Guide", "Fitness Audio", "Bone Conduction", "Running Gear"]
+featured: false
 draft: false
 ---
 

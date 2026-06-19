@@ -8,6 +8,7 @@ image: "/images/feature-mouse-wheel-click.jpg"
 categories: ["Technology", "Productivity", "Tips"]
 author: "JoRap"
 tags: ["Mouse", "Mouse Wheel Click", "Keyboard Shortcuts", "Browser Tips", "Windows", "macOS", "Linux", "Cross-Platform", "Workflow", "Middle Click", "Browser Workflow", "Productivity Hack", "Mouse Tips", "Tab Management"]
+featured: false
 draft: false
 ---
 

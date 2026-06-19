@@ -8,6 +8,7 @@ categories: ["Website", "Tutorial"]
 author: "JoRap"
 tags: ["Hugo CMS", "Markdown", "Shortcodes", "Frontmatter", "Blog Template", "Hugo", "Content Management", "Static Sites", "Web Development"]
 slug: "blog-template"
+featured: false
 draft: true
 ---
 {{< toc >}}

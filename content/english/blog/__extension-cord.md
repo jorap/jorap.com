@@ -8,6 +8,7 @@ categories: ["Gear", "Home", "Reviews"]
 author: "JoRap"
 tags: ["Extension Cord", "Power", "Home Office", "Gear", "Electrical Safety", "Surge Protection", "Cable Gauge", "Travel Gear", "Power Strip", "Home Essentials"]
 slug: "extension-cord"
+featured: false
 draft: true
 ---
 

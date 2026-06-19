@@ -1,0 +1,29 @@
+{{- $graph := partial "notes/graph-data.html" . -}}
+{{- $currentId := .RelPermalink -}}
+{{- $neighborIds := slice $currentId -}}
+
+{{- range $graph.edges -}}
+  {{- if eq .source $currentId -}}
+    {{- $neighborIds = $neighborIds | append .target -}}
+  {{- end -}}
+  {{- if eq .target $currentId -}}
+    {{- $neighborIds = $neighborIds | append .source -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $neighborIds = uniq $neighborIds -}}
+{{- $nodes := slice -}}
+{{- range $graph.nodes -}}
+  {{- if in $neighborIds .id -}}
+    {{- $nodes = $nodes | append . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $edges := slice -}}
+{{- range $graph.edges -}}
+  {{- if and (in $neighborIds .source) (in $neighborIds .target) -}}
+    {{- $edges = $edges | append . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return (dict "nodes" $nodes "edges" $edges "focus" $currentId "mode" "local") -}}

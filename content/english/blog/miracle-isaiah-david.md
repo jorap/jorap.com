@@ -8,6 +8,7 @@ image: "/images/feature-isaiah-david.jpg"
 categories: ["Faith", "Family", "Testimony"]
 author: "JoRap"
 tags: ["Isaiah David", "Miracle Story", "700 Club Asia", "GMA News", "24 Oras", "DZMM Teleradyo", "Facebook", "YouTube", "Parenthood", "Pregnancy", "Faith Story", "Pandemic Story", "Hidden Pregnancy", "ECQ", "Filipino Family", "Birth Story", "COVID-19", "Miracle", "Philippines", "Christian Testimony"]
+featured: false
 draft: false
 ---
 

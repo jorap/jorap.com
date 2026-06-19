@@ -8,6 +8,7 @@ categories: ["Health", "Wellness", "Tips"]
 author: "JoRap"
 tags: ["Supplements", "Health", "Immune System", "Wellness", "Vitamin C", "Vitamin D", "Zinc", "Daily Routine", "Self Care", "Nutrition", "Preventive Health"]
 slug: "personal-immune-booster-supplements"
+featured: false
 draft: true
 ---
 

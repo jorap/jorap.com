@@ -8,6 +8,7 @@ image: "/images/rss.jpg"
 categories: ["Technology", "Productivity", "Guide"]
 author: "JoRap"
 tags: ["RSS Feeds", "RSS", "Inoreader", "Content Management", "Productivity Tools", "Digital Organization", "News Reader", "Information Management", "Beginner Guide", "Internet", "Reading", "Feedly", "Syndication", "Web Reading", "Digital Minimalism", "News Aggregation"]
+featured: false
 draft: false
 ---
 

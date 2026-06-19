@@ -1,0 +1,57 @@
+{{ define "main" }}
+  {{ $graph := partial "notes/graph-data.html" . }}
+
+  <section class="section pt-7">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          <div class="notes-toolbar mb-4">
+            <a class="text-accent text-sm no-underline hover:underline" href="{{ `/notes/` | relLangURL }}">← All notes</a>
+          </div>
+
+          <h1 class="article-title mb-4">Note graph</h1>
+          <p class="text-ink-muted mb-4">Interactive map of wikilinks.</p>
+
+          <div class="notes-graph-panel notes-graph-panel--page" data-notes-graph>
+            <script type="application/json" class="notes-graph-data">{{ $graph | jsonify | safeJS }}</script>
+
+            <div class="notes-graph-toolbar">
+              <p class="notes-graph-title">Interactive graph</p>
+              <label class="notes-graph-search-wrap">
+                <span class="sr-only">Search notes</span>
+                <input
+                  type="search"
+                  id="notes-graph-search"
+                  class="notes-graph-search"
+                  placeholder="Search notes…"
+                  autocomplete="off"
+                  spellcheck="false" />
+              </label>
+              <div class="notes-graph-actions">
+                <button type="button" id="notes-graph-zoom-out" class="notes-graph-btn" title="Zoom out" aria-label="Zoom out">−</button>
+                <button type="button" id="notes-graph-zoom-in" class="notes-graph-btn" title="Zoom in" aria-label="Zoom in">+</button>
+                <button type="button" id="notes-graph-reset" class="btn btn-outline-primary btn-sm">Reset</button>
+                <button type="button" id="notes-graph-expand" class="notes-graph-btn" title="Expand graph" aria-label="Expand graph" aria-pressed="true">
+                  <span class="notes-graph-expand-icon" aria-hidden="true">⤢</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="notes-graph is-expanded" role="img" aria-label="Graph of note connections">
+              <div class="notes-graph__controls" aria-hidden="true">
+                <span class="notes-graph__zoom-hint">Scroll to zoom · drag to pan</span>
+              </div>
+            </div>
+            <p class="notes-graph-hint text-ink-muted">Hover to highlight links · click a node to open · ⌘/Ctrl-click for a new tab</p>
+          </div>
+
+          <p class="notes-graph-empty text-ink-muted mt-4 hidden text-sm">No linked notes yet. Add <code>[[wikilinks]]</code> in your notes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{ with resources.Get "js/notes-graph.js" }}
+    <script src="{{ .RelPermalink }}" defer></script>
+  {{ end }}
+{{ end }}

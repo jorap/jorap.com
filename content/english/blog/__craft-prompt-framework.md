@@ -8,6 +8,7 @@ categories: ["AI", "Writing", "Tips"]
 author: "JoRap"
 tags: ["AI", "Prompts", "ChatGPT", "CRAFT", "Writing", "Prompt Engineering", "LLM", "Context", "Role Prompting", "Content Creation", "AI Writing", "Framework"]
 slug: "craft-prompt-framework"
+featured: false
 draft: true
 ---
 

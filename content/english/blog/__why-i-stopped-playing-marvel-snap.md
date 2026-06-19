@@ -8,6 +8,7 @@ categories: ["Games", "Opinion"]
 author: "JoRap"
 tags: ["Marvel Snap", "Card Games", "Gaming", "Mobile Games", "Digital Collectibles", "FOMO", "Game Design", "Marvel", "Free to Play", "Gacha", "Quit Gaming"]
 slug: "why-i-stopped-playing-marvel-snap"
+featured: true
 draft: true
 ---
 

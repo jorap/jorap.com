@@ -1,0 +1,3 @@
+# Local dev server: include blog drafts and future-dated posts.
+buildDrafts = true
+buildFuture = true

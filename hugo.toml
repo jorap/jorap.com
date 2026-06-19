@@ -48,6 +48,7 @@ privacyEnhanced = true
 ########################## Permalinks ############################
 [permalinks.page]
 "pages" = "/:slugorcontentbasename/"
+"notes" = "/notes/:slugorcontentbasename/"
 
 
 ########################## Pagination ############################

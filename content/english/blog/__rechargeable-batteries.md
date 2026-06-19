@@ -8,6 +8,7 @@ categories: ["Gear", "Home", "Reviews"]
 author: "JoRap"
 tags: ["Batteries", "Rechargeable", "Everyday Carry", "Gear", "AA Batteries", "AAA Batteries", "Eneloop", "Sustainability", "Battery Charger", "Home Essentials"]
 slug: "rechargeable-batteries"
+featured: false
 draft: true
 ---
 

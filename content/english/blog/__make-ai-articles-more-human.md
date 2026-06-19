@@ -8,6 +8,7 @@ categories: ["AI", "Writing", "Tips"]
 author: "JoRap"
 tags: ["AI", "Writing", "Content", "ChatGPT", "Prompts", "Perplexity", "Burstiness", "Human Writing", "Editing", "AI Detection", "Content Creation", "Voice and Tone"]
 slug: "make-ai-articles-more-human"
+featured: false
 draft: true
 ---
 

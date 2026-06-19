@@ -8,5 +8,6 @@ image: "/images/image-template.jpg"
 categories: ["Website", "Tutorial"]
 author: "JoRap"
 tags: ["Hugo CMS", "Markdown", "Shortcodes", "Frontmatter", "Blog Template", "Hugo", "Content Management", "Static Sites", "Web Development"]
+featured: false
 draft: true
 ---

@@ -1,0 +1,36 @@
+{{- $page := . -}}
+{{- $content := $page.Content -}}
+{{- $class := site.Params.notes.wikilink_class | default "wikilink" -}}
+{{- $notes := partial "notes/pages.html" . -}}
+
+{{- range $notes -}}
+  {{- if ne $page.RelPermalink .RelPermalink -}}
+    {{- $label := .Title -}}
+    {{- $open := printf `<a href="%s" class="%s">` .RelPermalink $class -}}
+    {{- $close := "</a>" -}}
+
+    {{- /* [[Title]] */ -}}
+    {{- $content = replace $content (printf "[[%s]]" .Title) (printf "%s%s%s" $open $label $close) -}}
+
+    {{- /* [[Title|alias]] */ -}}
+    {{- $content = replaceRE (printf `\[\[%s\|([^\]]+)\]\]` .Title) (printf "%s$1%s" $open $close) $content -}}
+
+    {{- /* [[filename]] via slug or content base name */ -}}
+    {{- with .File -}}
+      {{- $content = replace $content (printf "[[%s]]" .ContentBaseName) (printf "%s%s%s" $open $label $close) -}}
+    {{- end -}}
+
+    {{- /* [[alias]] and [[alias|label]] */ -}}
+    {{- with .Params.aliases -}}
+      {{- range . -}}
+        {{- $content = replace $content (printf "[[%s]]" .) (printf "%s%s%s" $open . $close) -}}
+        {{- $content = replaceRE (printf `\[\[%s\|([^\]]+)\]\]` .) (printf "%s$1%s" $open $close) $content -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- /* Unresolved wikilinks */ -}}
+{{- $content = replaceRE `\[\[([^\]]+)\]\]` (printf `<span class="%s-broken" title="No matching note">$1</span>` $class) $content -}}
+
+{{- $content | safeHTML -}}

@@ -8,6 +8,7 @@ categories: ["Technology", "Gear", "Reviews"]
 author: "JoRap"
 tags: ["Canon G3000", "Printer", "Ink Tank", "Home Office", "Gear", "Printing", "Inkjet", "Document Printing", "Cost Per Page", "Work From Home"]
 slug: "canon-g3000"
+featured: false
 draft: true
 ---
 

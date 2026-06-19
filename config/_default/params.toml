@@ -18,7 +18,7 @@ navbar_fixed = true
 theme_switcher = true
 theme_default = "system" # available options [light/dark/system]
 # Main Sections
-mainSections = ["blog"]
+mainSections = ["blog", "notes"]
 
 # contact form action
 contact_form_action = "https://formspree.io/f/mbdevkyd"
@@ -29,6 +29,11 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 custom_script = ""
 # copyright holder name (year is output automatically in the footer)
 copyright = "JoRap Notes"
+
+# Public notes garden (wikilinks, backlinks, graph)
+[notes]
+enable_graph = true
+wikilink_class = "wikilink"
 
 # Homepage framing above the blog grid (set enable = false to hide)
 [home_intro]
@@ -111,7 +116,7 @@ link = "contact"
 [search]
 enable = true
 primary_color = "#121212"
-include_sections = ["blog"]
+include_sections = ["blog", "notes"]
 show_image = true
 show_description = true
 show_tags = true
