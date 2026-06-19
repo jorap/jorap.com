@@ -82,6 +82,53 @@
       .trim();
   }
 
+  // Keep the full prompt paste-friendly for typical AI chat inputs.
+  var PROMPT_MAX_CHARS = 4500;
+
+  function truncateText(text, maxLen) {
+    var normalized = normalizeText(text);
+    if (!normalized || normalized.length <= maxLen) return normalized;
+    if (maxLen <= 1) return "…";
+
+    var cut = normalized.slice(0, maxLen - 1);
+    var lastSpace = cut.lastIndexOf(" ");
+    if (lastSpace > Math.floor(maxLen * 0.55)) {
+      cut = cut.slice(0, lastSpace);
+    }
+    return cut + "…";
+  }
+
+  function promptInstructions() {
+    return [
+      "Please:",
+      "- Find unexpected links between the blog post and these notes",
+      "- Find unexpected links across the three notes",
+      "- Suggest 3 new atomic note titles I could write",
+      "- Propose questions this combination raises",
+      "- Flag gaps, tensions, or contradictions worth exploring",
+      "",
+      "Keep suggestions practical for a personal knowledge garden: one idea per note, clear titles I can turn into [[wikilinks]].",
+    ].join("\n");
+  }
+
+  function allocateBudget(total, weights) {
+    var weightSum = 0;
+    var i;
+    for (i = 0; i < weights.length; i += 1) {
+      weightSum += weights[i];
+    }
+    if (!weightSum) return [];
+
+    var budgets = [];
+    var used = 0;
+    for (i = 0; i < weights.length; i += 1) {
+      var share = i === weights.length - 1 ? total - used : Math.floor((total * weights[i]) / weightSum);
+      budgets.push(Math.max(0, share));
+      used += share;
+    }
+    return budgets;
+  }
+
   function getBlogContext() {
     var titleEl = document.querySelector("article .article-title");
     var contentEl = document.querySelector("article .content");
@@ -114,37 +161,92 @@
       return "Shuffle to load three unrelated notes, then paste this prompt into your AI chat.";
     }
 
-    var lines = [
-      "I'm reading a blog post alongside three unrelated notes from my digital garden. Help me find unexpected connections and new ideas.",
-      "",
-    ];
+    var intro =
+      "I'm reading a blog post alongside three unrelated notes from my digital garden. Help me find unexpected connections and new ideas.";
+    var instructions = promptInstructions();
+    var origin = window.location.origin;
+    var sections = [];
+    var bodyTexts = [];
+    var bodyWeights = [];
+
+    sections.push(intro);
+    sections.push("");
 
     if (blog && blog.title) {
-      lines.push('Blog post: "' + blog.title + '"');
-      if (blog.url) lines.push("URL: " + window.location.origin + blog.url);
-      if (blog.bodyText) lines.push(blog.bodyText);
-      lines.push("");
+      sections.push('Blog post: "' + blog.title + '"');
+      if (blog.url) sections.push("URL: " + origin + blog.url);
+      if (blog.bodyText) {
+        bodyTexts.push(blog.bodyText);
+        bodyWeights.push(2);
+        sections.push(null);
+      }
+      sections.push("");
     }
 
     usable.forEach(function (note, index) {
-      lines.push("Note " + (index + 1) + ': "' + note.title + '"');
-      if (note.url) lines.push("URL: " + window.location.origin + note.url);
-      if (note.bodyText) lines.push(note.bodyText);
-      lines.push("");
+      sections.push("Note " + (index + 1) + ': "' + note.title + '"');
+      if (note.url) sections.push("URL: " + origin + note.url);
+      if (note.bodyText) {
+        bodyTexts.push(note.bodyText);
+        bodyWeights.push(1);
+        sections.push(null);
+      }
+      sections.push("");
     });
 
-    lines.push("Please:");
-    lines.push("- Find unexpected links between the blog post and these notes");
-    lines.push("- Find unexpected links across the three notes");
-    lines.push("- Suggest 3 new atomic note titles I could write");
-    lines.push("- Propose questions this combination raises");
-    lines.push("- Flag gaps, tensions, or contradictions worth exploring");
-    lines.push("");
-    lines.push(
-      "Keep suggestions practical for a personal knowledge garden: one idea per note, clear titles I can turn into [[wikilinks]]."
-    );
+    var overhead = sections.join("\n").length + instructions.length + 2;
+    var bodyBudget = Math.max(0, PROMPT_MAX_CHARS - overhead);
+    var bodyLimits = allocateBudget(bodyBudget, bodyWeights);
+    var bodyIndex = 0;
+    var lines = [];
+    var i;
+    var section;
+    var limit;
+    var excerpt;
 
-    return lines.join("\n");
+    for (i = 0; i < sections.length; i += 1) {
+      section = sections[i];
+      if (section === null && bodyIndex < bodyTexts.length) {
+        limit = bodyLimits[bodyIndex] || 0;
+        excerpt = truncateText(bodyTexts[bodyIndex], limit);
+        if (excerpt) lines.push(excerpt);
+        bodyIndex += 1;
+        continue;
+      }
+      lines.push(section);
+    }
+
+    lines.push(instructions);
+
+    var prompt = lines.join("\n");
+
+    while (prompt.length > PROMPT_MAX_CHARS && bodyLimits.length) {
+      var shrunk = false;
+      for (i = 0; i < bodyLimits.length; i += 1) {
+        if (bodyLimits[i] > 120) {
+          bodyLimits[i] = Math.floor(bodyLimits[i] * 0.85);
+          shrunk = true;
+        }
+      }
+      if (!shrunk) break;
+
+      bodyIndex = 0;
+      lines = [];
+      for (i = 0; i < sections.length; i += 1) {
+        section = sections[i];
+        if (section === null && bodyIndex < bodyTexts.length) {
+          excerpt = truncateText(bodyTexts[bodyIndex], bodyLimits[bodyIndex] || 0);
+          if (excerpt) lines.push(excerpt);
+          bodyIndex += 1;
+          continue;
+        }
+        lines.push(section);
+      }
+      lines.push(instructions);
+      prompt = lines.join("\n");
+    }
+
+    return prompt;
   }
 
   function updatePrompt(notes) {
