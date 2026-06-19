@@ -12,7 +12,7 @@ brand
 
 ## Product Purpose
 
-JoRap.com is a **personal brand surface**: it showcases how you think, what you stand for, and the quality of your work so that the right clients **recognize fit** and reach out with confidence.
+JoRap Notes is a **personal brand surface** at [jorap.com](https://www.jorap.com): it showcases how you think, what you stand for, and the quality of your work so that the right clients **recognize fit** and reach out with confidence.
 
 Success looks like: visitors leave with a clear sense of **professional credibility**, **distinct point of view**, and **trust** that engaging you is a serious business choice, not a casual follow of a hobby blog.
 

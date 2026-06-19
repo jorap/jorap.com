@@ -80,7 +80,7 @@ Not every note needs a perfect PARA home immediately. "Is this active?" is enoug
 
 I wanted something **portable, ownable, and publishable**. TiddlyWiki is a single HTML file (or a small static site) that works offline, syncs through Git, and deploys free on Cloudflare Pages.
 
-That's the stack behind ideas.jorap.com: **TiddlyWiki + GitHub + Cloudflare Pages** - the same sustainable publishing idea I wrote about for JoRap's World, applied to a private-public idea garden.
+That's the stack behind ideas.jorap.com: **TiddlyWiki + GitHub + Cloudflare Pages** - the same sustainable publishing idea I wrote about for JoRap Notes, applied to a private-public idea garden.
 
 Your stack might differ. The principle doesn't: **own the notes, own the export, own the publish path.**
 

@@ -1,4 +1,4 @@
-# TODO: JoRap.com Website Improvements Guide
+# TODO: JoRap Notes Website Improvements Guide
 *A beginner-friendly guide to improving our website*
 
 ## 🎯 How to Use This Guide

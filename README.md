@@ -1,7 +1,7 @@
-# JoRap.com - Personal Blog & Portfolio Website
+# JoRap Notes — Personal Blog & Portfolio Website
 
 <p align="center">
-  <img src="assets/images/logo.png" alt="JoRap's World Logo" width="120" height="120">
+  <img src="assets/images/logo.png" alt="JoRap Notes logo" width="120" height="120">
 </p>
 
 <p align="center">
@@ -48,7 +48,7 @@
 
 ## 🌟 What is this project?
 
-JoRap.com is a **personal blog and portfolio website** that shows off:
+JoRap Notes is a **personal blog and portfolio website** that shows off:
 
 - **Blog posts** about technology, productivity, and life experiences
 - **Personal projects** and professional work
@@ -69,7 +69,7 @@ JoRap.com is a **personal blog and portfolio website** that shows off:
 ✅ **SEO-friendly** - Google loves fast, clean sites  
 
 ### System Overview
-- **Project Name**: JoRap's World
+- **Project Name**: JoRap Notes
 - **Website URL**: https://jorap.com
 - **System Type**: Static Site Generator (Hugo-based)
 - **Current Version**: 2.1.2
@@ -604,7 +604,7 @@ npm run build
 
 ### Hugo Configuration (`hugo.toml`)
 - **Base URL**: Configurable (default: "/")
-- **Title**: "JoRap's World"
+- **Title**: "JoRap Notes"
 - **Theme**: "jorap"
 - **Timezone**: Asia/Manila
 - **Default Language**: English

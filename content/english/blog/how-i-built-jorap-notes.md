@@ -1,8 +1,8 @@
 ---
-title: "How I Built JoRap's World: My Journey from Expensive Hosting to Free (and Better!)"
-meta_title: "How I Built JoRap's World: A Developer's Guide to Free Static Site Hosting"
+title: "How I Built JoRap Notes: My Journey from Expensive Hosting to Free (and Better!)"
+meta_title: "How I Built JoRap Notes: A Developer's Guide to Free Static Site Hosting"
 description: "I lost my old PHP hosting (and a chunk of my work with it). A weekend of fumbling later, I landed on Hugo + GitHub + Cloudflare Pages - free, faster, and honestly better than what I was paying for."
-slug: "how-i-built-joraps-world"
+slug: "how-i-built-jorap-notes"
 date: 2024-06-14T05:00:00Z
 image: "/images/joraps-world.jpg"
 categories: ["Website", "Technology", "Tutorial"]
@@ -117,7 +117,7 @@ Then edit `hugo.toml` - Hugoplate uses TOML, not YAML:
 ```toml
 baseURL = 'https://jorapdotcom.pages.dev'
 languageCode = 'en-us'
-title = "JoRap's World"
+title = "JoRap Notes"
 theme = 'hugoplate'
 
 [params]

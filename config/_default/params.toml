@@ -11,7 +11,7 @@ logo_height = "60px"
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "JoRap"
+logo_text = "JoRap Notes"
 # navbar fixed to top
 navbar_fixed = true
 # theme-mode
@@ -28,7 +28,7 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright holder name (year is output automatically in the footer)
-copyright = "JoRap"
+copyright = "JoRap Notes"
 
 # Homepage framing above the blog grid (set enable = false to hide)
 [home_intro]
@@ -67,11 +67,11 @@ description = "Hosting moves, CMS migrations, core and plugin updates, and theme
 
 [home_blog]
 post_limit = 5
-section_title = "Selected Writing"
-view_all_label = "View all posts"
+section_title = "Selected Posts"
+view_all_label = "View All Posts"
 post_slugs = [
   "consistent-ai-output-wordpress-builds",
-  "how-i-built-joraps-world",
+  "how-i-built-jorap-notes",
   "hugoplate-theme-review",
   "top-reasons-create-maintain-your-own-website",
   "power-of-the-mouse-wheel-click",
@@ -127,7 +127,7 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["JoRap", "JoRap.com", "Jonathan Rapusas", "front-end developer", "WordPress", "Hugo", "static sites", "Metro Manila", "remote"]
+keywords = ["JoRap Notes", "JoRap", "JoRap.com", "Jonathan Rapusas", "front-end developer", "WordPress", "Hugo", "static sites", "Metro Manila", "remote"]
 description = "Front-end developer in Metro Manila. Freelance since 2013. WordPress, Hugo, web development, technical support, and training - remote only."
 author = "JoRap"
 twitter = "jorap"

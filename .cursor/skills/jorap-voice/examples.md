@@ -139,6 +139,6 @@ Most extension cords look the same on the shelf. They're not. The wrong gauge on
 | Topic type | Pattern | Example |
 |------------|---------|---------|
 | Gear review | What I look for / What I'd buy again | "What I Look For in Wireless Earphones" |
-| How-to | Personal journey + plain English | "How I Built JoRap's World" |
+| How-to | Personal journey + plain English | "How I Built JoRap Notes" |
 | Tips | Problem → fix, no hype | "Facebook's Hidden Gem: How the Favorites Feed…" |
 | Opinion | Relatable setup → thesis | "Top Reasons Why You Still Need a Desktop or Laptop" |

@@ -1,5 +1,5 @@
 ---
-name: JoRap's World
+name: JoRap Notes
 description: Warm neutral editorial surface for a professional personal brand, Hugo + Tailwind.
 colors:
   surface: "#f5f3f0"
@@ -75,7 +75,7 @@ components:
     padding: "20px 24px 24px"
 ---
 
-# Design System: JoRap's World
+# Design System: JoRap Notes
 
 ## Overview
 

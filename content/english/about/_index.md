@@ -1,6 +1,6 @@
 ---
 title: "About"
-meta_title: "About | JoRap.com"
+meta_title: "About | JoRap Notes"
 description: "Front-end developer in Metro Manila. International, multicultural remote work across Australia, the U.S., and Asia. WordPress, Hugo, training - remote only."
 image: "/images/jorap.png"
 draft: false

@@ -43,9 +43,9 @@ I still use social. I don't **trust** it as my only library.
 | **GitHub** | Version control + backup |
 | **Cloudflare Pages** | Build and serve on push - free tier |
 
-That's the workflow behind JoRap's World and [ideas.jorap.com](https://ideas.jorap.com/): **capture in TiddlyWiki, version in Git, publish on Cloudflare.**
+That's the workflow behind JoRap Notes and [ideas.jorap.com](https://ideas.jorap.com/): **capture in TiddlyWiki, version in Git, publish on Cloudflare.**
 
-I wrote the longer migration story in [How I Built JoRap's World](/blog/how-i-built-joraps-world/) - this post is the philosophy slice.
+I wrote the longer migration story in [How I Built JoRap Notes](/blog/how-i-built-joraps-world/) - this post is the philosophy slice.
 
 ---
 

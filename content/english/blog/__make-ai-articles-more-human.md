@@ -76,7 +76,7 @@ If it sounds like a brochure when spoken, it goes back for another pass.
 
 Internal summaries, first-pass research dumps, outline expansion where I'll rewrite anyway - **good enough is good enough.**
 
-When it ships under my name on JoRap.com, the bar is higher. That's what editing is for.
+When it ships under my name on JoRap Notes, the bar is higher. That's what editing is for.
 
 ---
 

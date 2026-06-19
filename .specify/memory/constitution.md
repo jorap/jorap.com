@@ -9,7 +9,7 @@ Sync Impact Report:
   - ✅ .specify/templates/plan-template.md
 - Follow-up TODOs: None
 -->
-# JoRap's World Constitution
+# JoRap Notes Constitution
 
 ## Core Principles
 

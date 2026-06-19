@@ -1,6 +1,6 @@
 ---
 title: "HugoPlate: The Theme Quietly Powering This Site"
-meta_title: "HugoPlate Theme Review: Why It Powers JoRap's World"
+meta_title: "HugoPlate Theme Review: Why It Powers JoRap Notes"
 description: "After losing half a Saturday to theme-shopping, I picked HugoPlate - and a year and change later, I'm still on it. Here's what comes in the box, what I changed, and where it still bites."
 slug: "hugoplate-theme-review"
 date: 2026-05-29T05:00:00Z
@@ -363,6 +363,6 @@ I haven't seriously considered switching. The site you're reading right now is H
 
 The thing I'd say about HugoPlate that I can't really say about most free themes: it stays out of the way. It gives you a complete starting point and then lets you make it yours without fighting the framework. For a personal site you actually plan to write on, that's the whole game.
 
-If you want to try it: [HugoPlate on GitHub](https://github.com/zeon-studio/hugoplate). Pair it with the [JoRap's World setup guide](/blog/how-i-built-joraps-world) if you want the full Hugo + GitHub + Cloudflare Pages flow. Total cost to be online: a domain name, if you want one. Otherwise, $0.
+If you want to try it: [HugoPlate on GitHub](https://github.com/zeon-studio/hugoplate). Pair it with the [JoRap Notes setup guide](/blog/how-i-built-joraps-world) if you want the full Hugo + GitHub + Cloudflare Pages flow. Total cost to be online: a domain name, if you want one. Otherwise, $0.
 
 Hard to argue with that.

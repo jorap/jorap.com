@@ -1,6 +1,6 @@
 # Docs
 
-Long-form documentation for the JoRap.com project lives here. The repo `README.md` covers quick start and project overview; everything below is reference material.
+Long-form documentation for the JoRap Notes project lives here. The repo `README.md` covers quick start and project overview; everything below is reference material.
 
 | File | What it covers |
 | --- | --- |
