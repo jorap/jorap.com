@@ -9,7 +9,7 @@ categories: ["Sports", "Filipino", "People"]
 author: "JoRap"
 tags: ["Tennis", "Alex Eala", "WTA", "Pinoy Pride", "Career Tracker", "Grand Slam", "Athletes", "Women's Tennis", "Philippines", "Tennis Rankings", "Live Tracker", "Pro Tennis", "Sports Fan"]
 draft: false
-lastmod: 2026-06-19T18:00:00Z
+lastmod: 2026-06-19T21:00:00Z
 ---
 
 I've been following Alex Eala's career since her amazing run at the 2025 Miami Open, and watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook - career-high rankings, the matches I'll always remember, the head-to-heads with Grand Slam champions, and the upcoming matchups I'm watching for. I update it as her career unfolds.
@@ -383,6 +383,13 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 ---
 
+### Marta Kostyuk
+
+- [WTA Profile](https://www.wtatennis.com/players/326482/marta-kostyuk)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/326482)
+
+---
+
 ### Karolina Muchova
 
 - [WTA Profile](https://www.wtatennis.com/players/322191/karolina-muchova)
@@ -439,13 +446,14 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - [Amanda Anisimova](https://www.wtatennis.com/head-to-head/330332/326384) - 2025 Wimbledon semifinalist
 - [Bianca Andreescu](https://www.wtatennis.com/head-to-head/330332/325088) - 2019 US Open Winner
 - [Mirra Andreeva](https://www.wtatennis.com/head-to-head/330332/331809) - Alex Eala defeated her when she won the 2022 Junior US Open
+- [Paula Badosa](https://www.wtatennis.com/head-to-head/330332/320124) - 2025 Australian Open semifinalist; former world No. 2
+- [Belinda Bencic](https://www.wtatennis.com/head-to-head/330332/319001) - Olympic gold medalist; 2026 Rome semifinalist
 - [Sofia Kenin](https://www.wtatennis.com/head-to-head/330332/320942) - 2020 Australian Open Winner
-- [Angelique Kerber](https://www.wtatennis.com/head-to-head/330332/311470) - 2016 Australian Open, 2016 US Open, and 2018 Wimbledon Winner
-- [Petra Kvitova](https://www.wtatennis.com/head-to-head/330332/314206) - 2011 and 2014 Wimbledon Winner
 - [Emma Navarro](https://www.wtatennis.com/head-to-head/330332/325410) - 2025 Strasbourg Winner; rising American top-20 fixture
 - [Naomi Osaka](https://www.wtatennis.com/head-to-head/330332/319998) - 2021, 2019 Australian Open and 2020, 2018 US Open Winner
 - [Emma Raducanu](https://www.wtatennis.com/head-to-head/330332/328366) - 2021 US Open Winner
 - [Aryna Sabalenka](https://www.wtatennis.com/head-to-head/330332/320760) - 2024, 2023 Australian Open and 2024 US Open Winner
+- [Diana Shnaider](https://www.wtatennis.com/head-to-head/330332/330482) - 2026 Roland Garros semifinalist; 2025 Monterrey champion
 - [Elina Svitolina](https://www.wtatennis.com/head-to-head/330332/316738) - Former world No. 3; 2026 Australian Open semifinalist
 - [Qinwen Zheng](https://www.wtatennis.com/head-to-head/330332/328120) - 2024 Olympic gold and Roland Garros finalist
 

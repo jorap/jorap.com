@@ -210,20 +210,22 @@ Use when promoting to H2H or building watch-list links:
 | Amanda Anisimova | 326384 | 2025 Wimbledon semifinalist |
 | Bianca Andreescu | 320962 | 2019 US Open |
 | Mirra Andreeva | 331809 | Junior US Open 2022 context |
+| Paula Badosa | 320124 | 2025 Australian Open SF; former world No. 2 |
+| Belinda Bencic | 319001 | Olympic gold; 2026 Rome SF |
 | Sofia Kenin | 320942 | 2020 Australian Open |
-| Angelique Kerber | 318704 | Three-time Slam winner |
-| Petra Kvitova | 316003 | 2011 and 2014 Wimbledon |
 | Emma Navarro | 329682 | 2025 Strasbourg; top-20 American |
 | Naomi Osaka | 319998 | Multi-Slam winner |
 | Emma Raducanu | 328366 | 2021 US Open |
 | Aryna Sabalenka | 320760 | Multi-Slam winner |
+| Diana Shnaider | 330482 | 2026 Roland Garros SF; Monterrey 2025 |
+| Elina Svitolina | 316738 | 2026 Australian Open SF |
 | Qinwen Zheng | 316772 | 2024 Olympic gold; Roland Garros finalist |
 
 ## Existing H2H opponents (do not duplicate sections)
 
 **Grand Slam Champions** (sorted by Slam titles): Iga Swiatek (326408), Elena Rybakina (324166), Coco Gauff (328560), Barbora Krejcikova (318314), Madison Keys (316959), Marketa Vondrousova (323027), Jelena Ostapenko (319939)
 
-**Other Top 20** (alphabetical by last name): Ekaterina Alexandrova (319007), Leylah Fernandez (326735), Iva Jovic (332285), Karolina Muchova (322191), Linda Noskova (329668), Jasmine Paolini (319280), Jessica Pegula (316956), Clara Tauson (327793)
+**Other Top 20** (alphabetical by last name): Ekaterina Alexandrova (319007), Leylah Fernandez (326735), Iva Jovic (332285), Marta Kostyuk (326482), Karolina Muchova (322191), Linda Noskova (329668), Jasmine Paolini (319280), Jessica Pegula (316956), Clara Tauson (327793)
 
 Sort **Other Top 20** and **Matches to Watch Out For** alphabetically by **last name** when adding or reordering entries.
 

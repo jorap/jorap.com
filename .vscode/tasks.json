@@ -1,24 +1,52 @@
 {
-  // See https://go.microsoft.com/fwlink/?LinkId=733558
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Development",
+      "label": "Watch (production preview)",
       "type": "shell",
-      "command": "yarn dev:example",
-      "isBackground": true,
-      "group": {
-        "kind": "test",
-        "isDefault": true
+      "command": "npm run watch",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "env": {
+          "PATH": "${env:HOME}/.local/share/mise/shims:${env:PATH}"
+        }
       },
-    },
-    {
-      "label": "Build",
-      "type": "shell",
-      "command": "yarn build:example",
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": {
+          "regexp": "^$"
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "Start building sites",
+          "endsPattern": "Web Server is available"
+        }
+      },
       "group": {
         "kind": "build",
         "isDefault": true
+      }
+    },
+    {
+      "label": "Dev",
+      "type": "shell",
+      "command": "pnpm dev",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "env": {
+          "PATH": "${env:HOME}/.local/share/mise/shims:${env:PATH}"
+        }
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": {
+          "regexp": "^$"
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "Start building sites",
+          "endsPattern": "Web Server is available"
+        }
       }
     }
   ]
