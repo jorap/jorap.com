@@ -318,6 +318,10 @@
       return true;
     }
 
+    function typeFilterActive() {
+      return graphFilter !== "all";
+    }
+
     function nodeFill(node, isFocus, isHover, inHighlight, highlight) {
       if (isFocus) return colors.nodeFocus;
       if (isHover) return colors.nodeHover;
@@ -331,6 +335,7 @@
     function hitTest(worldPos) {
       for (var i = nodes.length - 1; i >= 0; i--) {
         var n = nodes[i];
+        if (typeFilterActive() && !passesFilter(n)) continue;
         var r = nodeRadius(n) + 5;
         var dx = worldPos.x - n.x;
         var dy = worldPos.y - n.y;
@@ -422,6 +427,7 @@
       var hasFilter = Boolean(searchQuery);
 
       edges.forEach(function (e) {
+        if (typeFilterActive() && (!passesFilter(e.source) || !passesFilter(e.target))) return;
         var active = highlight && highlight[e.source.id] && highlight[e.target.id];
         var visible =
           !hasFilter ||
@@ -440,13 +446,13 @@
 
       ctx.globalAlpha = 1;
       nodes.forEach(function (n) {
+        if (typeFilterActive() && !passesFilter(n)) return;
         var r = nodeRadius(n);
         var isFocus = focusNode && n === focusNode;
         var isHover = hovered === n;
         var inHighlight = !highlight || highlight[n.id];
         var matches = matchesSearch(n);
-        var filtered = !passesFilter(n);
-        var dimmed = filtered || (highlight && !inHighlight) || (hasFilter && !matches && !isHover);
+        var dimmed = (highlight && !inHighlight) || (hasFilter && !matches && !isHover);
 
         if (isFocus) {
           ctx.beginPath();
@@ -669,6 +675,7 @@
           });
           hovered = focusNode || null;
           fitToView();
+          draw();
           wake();
         });
       });

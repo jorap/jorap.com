@@ -24,7 +24,7 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
 
 1. **Read 1-2 reference posts** in the same category before writing. Good defaults:
    - Gear/reviews: `content/english/blog/what-i-look-for-in-wireless-earphones.md`
-   - Tech/how-to: `content/english/blog/how-i-built-joraps-world.md`
+   - Tech/how-to: `content/english/blog/how-i-built-jorap-notes.md`
    - Tips: `content/english/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md`
    - Opinion: `content/english/blog/top-reasons-why-you-still-need-use-desktop-laptop.md`
 2. **Draft in the author's voice**, not a generic blogger voice.

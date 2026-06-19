@@ -22,13 +22,7 @@
             <h1 class="article-title mb-4">{{ .Title }}</h1>
 
             {{ with .Params.tags }}
-              <ul class="mb-4 flex flex-wrap gap-2">
-                {{ range . }}
-                  <li>
-                    <span class="bg-elevated text-ink rounded px-3 py-1 text-sm">{{ . }}</span>
-                  </li>
-                {{ end }}
-              </ul>
+              {{ partial "notes/tag-chips.html" (dict "Tags" . "ListClass" "mb-4 flex flex-wrap gap-2") }}
             {{ end }}
 
             {{ if $hasToc }}

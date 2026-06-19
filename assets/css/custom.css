@@ -276,17 +276,21 @@ html.dark .notes-dev-banner code {
 }
 
 .notes-card:hover,
-.notes-card:focus-visible {
+.notes-card:focus-visible,
+.notes-card-interactive:focus-within {
   border-color: var(--color-accent);
 }
 
-.notes-card-link {
-  color: inherit;
+.notes-card-interactive:hover .notes-card-title,
+.notes-card-interactive:focus-within .notes-card-title {
+  color: var(--color-accent);
 }
 
-.notes-card-link:hover h3,
-.notes-card-link:focus-visible h3 {
-  color: var(--color-accent);
+.notes-card-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: inherit;
 }
 
 .notes-backlinks {

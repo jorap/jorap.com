@@ -1,23 +1,42 @@
 {{- $notes := partial "notes/pages.html" . -}}
 {{- $nodes := slice -}}
 {{- $edges := slice -}}
-{{- $hubOutThreshold := site.Params.notes.graph_hub_out_degree | default 5 -}}
-{{- $hubTotalThreshold := site.Params.notes.graph_hub_total_degree | default 8 -}}
+{{- $bodyOutDeg := dict -}}
+{{- $hubPct := site.Params.notes.graph_hub_percentile | default 85 -}}
+{{- $hubMinTotal := site.Params.notes.graph_hub_min_total | default 10 -}}
 
 {{- range $from := $notes -}}
   {{- $fromId := $from.RelPermalink -}}
   {{- $nodes = $nodes | append (dict "id" $fromId "title" $from.Title "url" $from.RelPermalink "inDegree" 0 "outDegree" 0 "totalDegree" 0 "orphan" false "hub" false "deadEnd" false) -}}
   {{- $raw := $from.RawContent -}}
+  {{- $bodyRaw := $raw -}}
+  {{- if strings.Contains $raw "## See also" -}}
+    {{- $bodyRaw = index (split $raw "## See also") 0 -}}
+  {{- end -}}
+  {{- $bodyOutSeen := dict -}}
   {{- range $to := $notes -}}
     {{- if ne $fromId $to.RelPermalink -}}
       {{- $targets := slice $to.Title -}}
       {{- with $to.Params.slug -}}{{- $targets = $targets | append . -}}{{- end -}}
       {{- with $to.File -}}{{- $targets = $targets | append .ContentBaseName -}}{{- end -}}
       {{- with $to.Params.aliases -}}{{- $targets = union $targets . -}}{{- end -}}
+      {{- $fullLinked := false -}}
+      {{- $bodyLinked := false -}}
       {{- range $targets -}}
         {{- if or (in $raw (printf "[[%s]]" .)) (findRE (printf `\[\[%s(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]` .) $raw) -}}
-          {{- $edges = $edges | append (dict "source" $fromId "target" $to.RelPermalink) -}}
+          {{- $fullLinked = true -}}
         {{- end -}}
+        {{- if or (in $bodyRaw (printf "[[%s]]" .)) (findRE (printf `\[\[%s(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]` .) $bodyRaw) -}}
+          {{- $bodyLinked = true -}}
+        {{- end -}}
+      {{- end -}}
+      {{- if $fullLinked -}}
+        {{- $edges = $edges | append (dict "source" $fromId "target" $to.RelPermalink) -}}
+      {{- end -}}
+      {{- if and $bodyLinked (not (index $bodyOutSeen $to.RelPermalink)) -}}
+        {{- $bodyOutSeen = merge $bodyOutSeen (dict $to.RelPermalink true) -}}
+        {{- $bv := index $bodyOutDeg $fromId | default 0 -}}
+        {{- $bodyOutDeg = merge $bodyOutDeg (dict $fromId (add $bv 1)) -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}
@@ -42,18 +61,31 @@
   {{- $totalDeg = merge $totalDeg (dict .target (add $tt 1)) -}}
 {{- end -}}
 
+{{- $degreeNodes := slice -}}
+{{- range $nodes -}}
+  {{- $in := index $inDeg .id | default 0 -}}
+  {{- $out := index $outDeg .id | default 0 -}}
+  {{- $total := index $totalDeg .id | default 0 -}}
+  {{- $degreeNodes = $degreeNodes | append (dict "totalDegree" $total) -}}
+{{- end -}}
+{{- $byDeg := sort $degreeNodes "totalDegree" -}}
+{{- $pctIdx := cond (gt (len $byDeg) 0) (mul (sub (len $byDeg) 1) $hubPct | div 100) 0 -}}
+{{- $pctDegree := cond (gt (len $byDeg) 0) (index $byDeg $pctIdx).totalDegree $hubMinTotal -}}
+{{- $hubThreshold := cond (lt $pctDegree $hubMinTotal) $hubMinTotal $pctDegree -}}
+
 {{- $enriched := slice -}}
 {{- range $nodes -}}
   {{- $in := index $inDeg .id | default 0 -}}
   {{- $out := index $outDeg .id | default 0 -}}
   {{- $total := index $totalDeg .id | default 0 -}}
+  {{- $bodyOut := index $bodyOutDeg .id | default 0 -}}
   {{- $enriched = $enriched | append (merge . (dict
     "inDegree" $in
     "outDegree" $out
     "totalDegree" $total
     "orphan" (eq $in 0)
-    "hub" (or (ge $out $hubOutThreshold) (ge $total $hubTotalThreshold))
-    "deadEnd" (eq $out 0)
+    "hub" (ge $total $hubThreshold)
+    "deadEnd" (eq $bodyOut 0)
   )) -}}
 {{- end -}}
 

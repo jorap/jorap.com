@@ -79,7 +79,7 @@ This site runs on Hugo, hosted free on Cloudflare Pages, with source on GitHub. 
 
 Even if you don't want to mess with code, modern site builders (Squarespace, Wix, WordPress) will get you a clean, mobile-friendly site for the cost of a couple of coffees a month. The financial barrier mostly doesn't exist anymore.
 
-(If you're curious how I built this one, [I wrote about that too](/blog/how-i-built-joraps-world).)
+(If you're curious how I built this one, [I wrote about that too](/blog/how-i-built-jorap-notes).)
 
 ---
 

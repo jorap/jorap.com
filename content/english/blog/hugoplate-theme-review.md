@@ -322,7 +322,7 @@ Honest list, in roughly the order I did them:
 
 I'd be lying if I said this was all smooth.
 
-**Theme name case-sensitivity.** I mentioned this in the [setup post](/blog/how-i-built-joraps-world). `theme = 'HugoPlate'` in `hugo.toml` will break your site in production because the folder is `hugoplate`. Lowercase, every time.
+**Theme name case-sensitivity.** I mentioned this in the [setup post](/blog/how-i-built-jorap-notes). `theme = 'HugoPlate'` in `hugo.toml` will break your site in production because the folder is `hugoplate`. Lowercase, every time.
 
 **Submodule vs. fork.** The README tells you to use `git submodule add` to install the theme. That's fine if you never want to touch the theme code. The moment you start customizing layouts (and you will), submodules become friction - every change has to be committed in the theme's repo, then bumped in your project. I eventually pulled the theme into my repo as a regular folder. The upgrade story gets harder; the day-to-day gets easier. Pick your trade.
 
@@ -364,6 +364,6 @@ I haven't seriously considered switching. The site you're reading right now is H
 
 The thing I'd say about HugoPlate that I can't really say about most free themes: it stays out of the way. It gives you a complete starting point and then lets you make it yours without fighting the framework. For a personal site you actually plan to write on, that's the whole game.
 
-If you want to try it: [HugoPlate on GitHub](https://github.com/zeon-studio/hugoplate). Pair it with the [JoRap Notes setup guide](/blog/how-i-built-joraps-world) if you want the full Hugo + GitHub + Cloudflare Pages flow. Total cost to be online: a domain name, if you want one. Otherwise, $0.
+If you want to try it: [HugoPlate on GitHub](https://github.com/zeon-studio/hugoplate). Pair it with the [JoRap Notes setup guide](/blog/how-i-built-jorap-notes) if you want the full Hugo + GitHub + Cloudflare Pages flow. Total cost to be online: a domain name, if you want one. Otherwise, $0.
 
 Hard to argue with that.

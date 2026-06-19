@@ -9,30 +9,15 @@
       {{- range . -}}
         {{- $note := .Page -}}
         <div class="md:col-6 mb-8 flex lg:col-4">
-          <article class="notes-card border-divider flex h-full w-full flex-col rounded-lg border p-5">
-            <h3 class="h5 mb-2">
-              <a class="text-ink hover:text-accent no-underline" href="{{ $note.RelPermalink }}">{{ $note.Title }}</a>
-            </h3>
-            {{- with $note.Description -}}
-              <p class="text-ink-muted mb-3 flex-1 text-sm">{{ . }}</p>
-            {{- else -}}
-              <div class="flex-1" aria-hidden="true"></div>
-            {{- end -}}
-            {{- with .Shared -}}
-              <p class="text-ink-muted mb-3 text-xs">
-                {{ delimit (first 3 .) ", " }}
-              </p>
-            {{- end -}}
-            {{- with $note.Params.tags -}}
-              <ul class="mt-auto flex flex-wrap gap-2">
-                {{- range . -}}
-                  <li>
-                    <span class="bg-elevated text-ink rounded px-2 py-0.5 text-xs">{{ . }}</span>
-                  </li>
-                {{- end -}}
-              </ul>
-            {{- end -}}
-          </article>
+          {{ partial "notes/note-card.html" (dict
+            "Page" $note
+            "HeadingLevel" 3
+            "HeadingClass" "h5"
+            "HeadingExtraClass" "text-ink"
+            "ShowDescription" true
+            "Shared" .Shared
+            "ShowTags" true
+          ) }}
         </div>
       {{- end -}}
     </div>

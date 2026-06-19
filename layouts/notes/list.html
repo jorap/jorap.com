@@ -16,25 +16,14 @@
             {{ $notes = partial "notes/sort-by-connections.html" (dict "Pages" $notes "Context" .) }}
             {{ range $notes }}
               <div class="md:col-6 mb-8 flex">
-                <article class="notes-card border-divider flex h-full w-full flex-col rounded-lg border p-5">
-                  <h2 class="h5 mb-2">
-                    <a class="text-ink hover:text-accent no-underline" href="{{ .RelPermalink }}">{{ .Title }}</a>
-                  </h2>
-                  {{ with .Description }}
-                    <p class="text-ink-muted mb-3 flex-1 text-sm">{{ . }}</p>
-                  {{ else }}
-                    <div class="flex-1" aria-hidden="true"></div>
-                  {{ end }}
-                  {{ with .Params.tags }}
-                    <ul class="mt-auto flex flex-wrap gap-2">
-                      {{ range . }}
-                        <li>
-                          <span class="bg-elevated text-ink rounded px-2 py-0.5 text-xs">{{ . }}</span>
-                        </li>
-                      {{ end }}
-                    </ul>
-                  {{ end }}
-                </article>
+                {{ partial "notes/note-card.html" (dict
+                  "Page" .
+                  "HeadingLevel" 2
+                  "HeadingClass" "h5"
+                  "HeadingExtraClass" "text-ink"
+                  "ShowDescription" true
+                  "ShowTags" true
+                ) }}
               </div>
             {{ end }}
           </div>
