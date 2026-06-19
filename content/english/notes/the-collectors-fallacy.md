@@ -10,6 +10,9 @@ tags: ["Collectors Fallacy", "PKM", "Capture", "Learning", "Productivity", "Expr
 slug: "the-collectors-fallacy"
 featured: false
 status: evergreen
+review: true
+card_back: "Saving isn't learning until something ships."
+card_front: "Collector's fallacy"
 draft: false
 aliases: ["the collectors fallacy", "Collector's Fallacy"]
 ---

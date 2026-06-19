@@ -12,6 +12,9 @@ featured: false
 draft: false
 aliases: ["Personal Knowledge Management"]
 status: evergreen
+review: true
+card_back: "Capture, organize, distill, express."
+card_front: "PKM"
 ---
 
 **PKM (personal knowledge management)** = capture, organize, distill, express - a backup brain for a loud life.

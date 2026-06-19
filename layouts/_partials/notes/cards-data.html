@@ -1,0 +1,28 @@
+{{- /*
+  JSON-ready card list: id, front, back, sourceUrl, sourceTitle, tags.
+  Uses the same sources as collect-cards.html.
+*/ -}}
+{{- $cards := partial "notes/collect-cards.html" . -}}
+{{- $data := slice -}}
+
+{{- range $cards -}}
+  {{- $sourceUrl := "" -}}
+  {{- $sourceTitle := "" -}}
+  {{- $tags := slice -}}
+  {{- with .source -}}
+    {{- $sourceUrl = .RelPermalink -}}
+    {{- $sourceTitle = .Title -}}
+    {{- $tags = .Params.tags | default slice -}}
+  {{- end -}}
+  {{- $id := printf "%s|%s|%s" .front .back $sourceUrl | hash.FNV32a -}}
+  {{- $data = $data | append (dict
+    "id" (printf "%d" $id)
+    "front" .front
+    "back" .back
+    "sourceUrl" $sourceUrl
+    "sourceTitle" $sourceTitle
+    "tags" $tags
+  ) -}}
+{{- end -}}
+
+{{- return $data -}}

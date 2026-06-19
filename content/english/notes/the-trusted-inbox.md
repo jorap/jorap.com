@@ -10,6 +10,9 @@ tags: ["Inbox", "GTD", "Capture", "PKM", "Trust", "Workflow"]
 slug: "the-trusted-inbox"
 featured: false
 status: evergreen
+review: true
+card_back: "One pipe, emptied every week."
+card_front: "Trusted inbox"
 draft: false
 aliases: ["Trusted Inbox"]
 ---

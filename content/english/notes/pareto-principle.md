@@ -12,11 +12,14 @@ featured: false
 draft: false
 aliases: ["80/20", "80-20 Rule", "Pareto Principle"]
 status: evergreen
+review: true
+card_back: "Most results from a tiny slice of work."
+card_front: "Pareto principle"
 ---
 
 **Pareto principle** = most results come from a small slice of work - find the slice, protect it, cut the rest.
 
-Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - the ratio is shorthand, not a law). I use it when my reading list, task board, or note tags all feel equally important: which few actually moved the needle? Double down there; stop polishing the rest. Pairs with [[Minimum Effective Dose]], [[Signal vs Noise]], and [[Slow Productivity]].
+Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - the ratio is shorthand, not a law). I use it when my reading list, task board, or note tags all feel equally important: which few actually moved the needle? Double down there; stop polishing the rest. Same rule for flashcards: only ~15 spine notes carry `review: true` in this garden - frameworks and daily distinctions, not every evergreen page. Pairs with [[Minimum Effective Dose]], [[Signal vs Noise]], and [[Slow Productivity]].
 
 ## See also
 

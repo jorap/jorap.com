@@ -12,6 +12,9 @@ featured: false
 draft: false
 aliases: []
 status: evergreen
+review: true
+card_back: "Claims that stay true, updated when reality shifts."
+card_front: "Evergreen notes"
 ---
 
 **Evergreen notes** = claims written to stay true - timeless voice, updated when reality shifts.

@@ -10,6 +10,9 @@ tags: ["GTD", "PARA", "Productivity", "PKM", "Tiago Forte", "David Allen", "Seco
 slug: "gtd-vs-para"
 featured: false
 status: evergreen
+review: true
+card_back: "GTD runs tasks; PARA runs notes."
+card_front: "GTD vs PARA"
 draft: false
 aliases: ["GTD"]
 ---

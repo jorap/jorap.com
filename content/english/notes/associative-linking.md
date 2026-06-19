@@ -10,6 +10,9 @@ tags: ["Linking", "PKM", "Zettelkasten", "Note Taking", "Second Brain", "Digital
 slug: "associative-linking"
 featured: false
 status: evergreen
+review: true
+card_back: "Folders sort, links think."
+card_front: "Associative linking"
 draft: false
 aliases: []
 ---

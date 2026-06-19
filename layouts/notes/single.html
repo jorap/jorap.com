@@ -17,6 +17,10 @@
               {{ if site.Params.notes.enable_graph }}
                 <a class="text-accent text-sm no-underline hover:underline" href="{{ `/notes/graph/` | relLangURL }}">Graph</a>
               {{ end }}
+              {{ if site.Params.notes.enable_cards }}
+                <a class="text-accent text-sm no-underline hover:underline" href="{{ `/notes/cards/` | relLangURL }}">Flashcards</a>
+                <a class="text-accent text-sm no-underline hover:underline" href="{{ `/notes/review/` | relLangURL }}">Review</a>
+              {{ end }}
             </div>
 
             <h1 class="article-title mb-4">{{ .Title }}</h1>
@@ -95,6 +99,9 @@
     {{ end }}
   {{ end }}
   {{ with resources.Get "js/wikilink-preview.js" }}
+    <script src="{{ .RelPermalink }}" defer></script>
+  {{ end }}
+  {{ with resources.Get "js/notes-flashcard.js" }}
     <script src="{{ .RelPermalink }}" defer></script>
   {{ end }}
 {{ end }}

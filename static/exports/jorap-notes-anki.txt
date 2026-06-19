@@ -1,0 +1,20 @@
+#separator:tab
+#html:true
+#columns:Front	Back	Tags
+Front	Back	Tags
+Associative linking	Folders sort, links think.<br><br><a href="https://www.jorap.com/notes/associative-linking/">Read note: Associative Linking</a>	jorap-notes Linking PKM Zettelkasten Note Taking Second Brain Digital Garden
+Atomic notes	One claim out loud - too many ands, split it.<br><br><a href="https://www.jorap.com/notes/atomic-notes/">Read note: Atomic Notes</a>	jorap-notes Atomic Notes Zettelkasten PKM Note Taking Second Brain Linking
+Second Brain	Ideas outside your head so you can think.<br><br><a href="https://www.jorap.com/notes/building-a-second-brain/">Read note: Building a Second Brain</a>	jorap-notes Second Brain PKM Note Taking Productivity TiddlyWiki Tiago Forte CODE Method Knowledge Management Capture Personal Wiki Information Architecture
+Capture	One inbox for what resonates.<br><br><a href="https://www.jorap.com/notes/capture/">Read note: Capture</a>	jorap-notes Capture PKM Second Brain CODE Method Note Taking Productivity
+Evergreen notes	Claims that stay true, updated when reality shifts.<br><br><a href="https://www.jorap.com/notes/evergreen-notes/">Read note: Evergreen Notes</a>	jorap-notes Evergreen Notes PKM Note Taking Zettelkasten Second Brain Writing
+GTD vs PARA	GTD runs tasks; PARA runs notes.<br><br><a href="https://www.jorap.com/notes/gtd-vs-para/">Read note: GTD vs PARA</a>	jorap-notes GTD PARA Productivity PKM Tiago Forte David Allen Second Brain Note Taking
+PARA	Projects, Areas, Resources, Archive.<br><br><a href="https://www.jorap.com/notes/para-method/">Read note: PARA Method</a>	jorap-notes PARA Tiago Forte PKM Organization Second Brain Productivity Note Taking
+Pareto principle	Most results from a tiny slice of work.<br><br><a href="https://www.jorap.com/notes/pareto-principle/">Read note: Pareto Principle</a>	jorap-notes Mental Models Productivity Performance Prioritization Focus Decision Making PKM
+PKM	Capture, organize, distill, express.<br><br><a href="https://www.jorap.com/notes/pkm/">Read note: PKM</a>	jorap-notes PKM Personal Knowledge Management Second Brain Note Taking Productivity Learning
+Progressive summarization	Bold, highlight, summarize on reuse.<br><br><a href="https://www.jorap.com/notes/progressive-summarization/">Read note: Progressive Summarization</a>	jorap-notes Progressive Summarization Tiago Forte PKM Distill Note Taking CODE Method Research Writing
+Signal vs noise	Save what changes action or belief this month.<br><br><a href="https://www.jorap.com/notes/signal-vs-noise/">Read note: Signal vs Noise</a>	jorap-notes Signal vs Noise Information Diet PKM Capture Focus Curation
+Spaced repetition	Review facts on a schedule, not whole essays.<br><br><a href="https://www.jorap.com/notes/spaced-repetition/">Read note: Spaced Repetition</a>	jorap-notes Spaced Repetition SRS Anki Learning Memory PKM Note Taking
+What belongs in SRS vs the wiki?	SRS: facts you need cold — vocabulary, definitions, references. Wiki: linked ideas and understanding.<br><br><a href="https://www.jorap.com/notes/spaced-repetition/">Read note: Spaced Repetition</a>	jorap-notes Spaced Repetition SRS Anki Learning Memory PKM Note Taking
+Collector's fallacy	Saving isn&#x27;t learning until something ships.<br><br><a href="https://www.jorap.com/notes/the-collectors-fallacy/">Read note: The Collector&#x27;s Fallacy</a>	jorap-notes Collectors Fallacy PKM Capture Learning Productivity Express Note Taking
+Trusted inbox	One pipe, emptied every week.<br><br><a href="https://www.jorap.com/notes/the-trusted-inbox/">Read note: The Trusted Inbox</a>	jorap-notes Inbox GTD Capture PKM Trust Workflow
+Weekly review checklist	Inbox, calendar, projects, one ship action.<br><br><a href="https://www.jorap.com/notes/weekly-review-checklists/">Read note: Weekly Review Checklists</a>	jorap-notes Weekly Review Checklist GTD PKM PARA Habits Workflow

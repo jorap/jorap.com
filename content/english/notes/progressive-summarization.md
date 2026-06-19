@@ -10,6 +10,9 @@ tags: ["Progressive Summarization", "Tiago Forte", "PKM", "Distill", "Note Takin
 slug: "progressive-summarization"
 featured: false
 status: evergreen
+review: true
+card_back: "Bold, highlight, summarize on reuse."
+card_front: "Progressive summarization"
 draft: false
 aliases: []
 ---

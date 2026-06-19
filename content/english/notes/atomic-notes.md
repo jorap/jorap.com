@@ -10,6 +10,9 @@ tags: ["Atomic Notes", "Zettelkasten", "PKM", "Note Taking", "Second Brain", "Li
 slug: "atomic-notes"
 aliases: ["atom"]
 status: evergreen
+review: true
+card_back: "One claim out loud - too many ands, split it."
+card_front: "Atomic notes"
 featured: false
 draft: false
 ---

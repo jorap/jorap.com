@@ -1,0 +1,29 @@
+{{- /*
+  Flip card UI. Dict: Front, Back, Source (optional Page), Class (optional wrapper class).
+*/ -}}
+{{- $front := .Front -}}
+{{- $back := .Back -}}
+{{- $source := .Source -}}
+{{- $class := .Class | default "" -}}
+<div
+  class="notes-flashcard {{ $class }}"
+  data-flashcard
+  {{- with $source -}}
+    {{- with .Params.tags -}}
+      data-flashcard-tags="{{ delimit . "," }}"
+    {{- end -}}
+  {{- end -}}>
+  <button type="button" class="notes-flashcard__flip" data-flashcard-flip aria-pressed="false">
+    <span class="sr-only">Flip card</span>
+    <span class="notes-flashcard__inner">
+      <span class="notes-flashcard__face notes-flashcard__face--front">{{ $front }}</span>
+      <span class="notes-flashcard__face notes-flashcard__face--back">{{ $back | safeHTML }}</span>
+    </span>
+  </button>
+  {{- with $source -}}
+    <p class="notes-flashcard__source text-ink-muted mt-2 text-xs">
+      From
+      <a class="text-accent no-underline hover:underline" href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </p>
+  {{- end -}}
+</div>

@@ -10,6 +10,9 @@ tags: ["PARA", "Tiago Forte", "PKM", "Organization", "Second Brain", "Productivi
 slug: "para-method"
 featured: false
 status: evergreen
+review: true
+card_back: "Projects, Areas, Resources, Archive."
+card_front: "PARA"
 draft: false
 aliases: ["PARA"]
 ---

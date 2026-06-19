@@ -9,6 +9,10 @@
         <div class="lg:col-10">
           <div class="notes-toolbar mb-6 flex flex-wrap items-center gap-3">
             <a class="btn btn-outline-primary btn-sm" href="{{ `/notes/graph/` | relLangURL }}">Graph view</a>
+            {{ if site.Params.notes.enable_cards }}
+              <a class="btn btn-outline-primary btn-sm" href="{{ `/notes/cards/` | relLangURL }}">Flashcards</a>
+              <a class="btn btn-outline-primary btn-sm" href="{{ `/notes/review/` | relLangURL }}">Review</a>
+            {{ end }}
             {{ partial "notes/random-note.html" . }}
             <span class="text-ink-muted text-sm">{{ len (partial "notes/garden-pages.html" .) }} notes</span>
           </div>

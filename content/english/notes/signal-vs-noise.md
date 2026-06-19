@@ -10,6 +10,9 @@ tags: ["Signal vs Noise", "Information Diet", "PKM", "Capture", "Focus", "Curati
 slug: "signal-vs-noise"
 featured: false
 status: evergreen
+review: true
+card_back: "Save what changes action or belief this month."
+card_front: "Signal vs noise"
 draft: false
 aliases: []
 ---

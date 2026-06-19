@@ -10,6 +10,9 @@ tags: ["Second Brain", "PKM", "Note Taking", "Productivity", "TiddlyWiki", "Tiag
 slug: "building-a-second-brain"
 featured: false
 status: evergreen
+review: true
+card_back: "Ideas outside your head so you can think."
+card_front: "Second Brain"
 draft: false
 aliases: ["Second Brain"]
 ---

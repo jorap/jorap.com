@@ -1,0 +1,202 @@
+#!/usr/bin/env python3
+"""Export opt-in note cards to an Anki-importable tab-separated file."""
+
+from __future__ import annotations
+
+import argparse
+import html
+import re
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+NOTES_DIR = ROOT / "content/english/notes"
+HUGO_TOML = ROOT / "hugo.toml"
+DEFAULT_EXPORT = ROOT / "static/exports/jorap-notes-anki.txt"
+SKIP = {
+    "_index",
+    "graph",
+    "cards",
+    "review",
+    "random-two",
+    "random-three",
+    "getting-started",
+    "maps-of-content",
+}
+REVIEW_TAG = "flashcard"
+LEAD_RE = re.compile(r"^\*\*([^*]+)\*\*\s*(?:=\s*|—\s*|-\s*)(.+)$")
+SHORTCODE_RE = re.compile(
+    r'\{\{[%<]\s*card\s+front="([^"]+)"\s+back="([^"]+)"\s*>\}\}'
+)
+BASEURL_RE = re.compile(r'^baseURL\s*=\s*"([^"]+)"', re.M)
+
+
+def split_frontmatter(text: str) -> tuple[str, str, str]:
+    if not text.startswith("---"):
+        return "", text, text
+    end = text.find("\n---", 3)
+    if end == -1:
+        return "", text, text
+    return text[: end + 4], text[3:end].strip(), text[end + 4 :].lstrip("\n")
+
+
+def parse_scalar(block: str, key: str) -> str:
+    match = re.search(rf'^{key}:\s*"?([^"\n]+)"?\s*$', block, re.M)
+    return match.group(1).strip() if match else ""
+
+
+def parse_bool(block: str, key: str) -> bool:
+    match = re.search(rf"^{key}:\s*(true|false)\s*$", block, re.M)
+    return match.group(1) == "true" if match else False
+
+
+def parse_yaml_list(block: str, key: str) -> list[str]:
+    match = re.search(rf"^{key}:\s*\[(.*)\]\s*$", block, re.M)
+    if not match:
+        return []
+    return [item.strip().strip('"') for item in match.group(1).split(",") if item.strip()]
+
+
+def read_base_url() -> str:
+    if not HUGO_TOML.exists():
+        return "https://www.jorap.com/"
+    text = HUGO_TOML.read_text(encoding="utf-8")
+    match = BASEURL_RE.search(text)
+    if not match:
+        return "https://www.jorap.com/"
+    return match.group(1).rstrip("/") + "/"
+
+
+def note_url(base_url: str, slug: str) -> str:
+    return f"{base_url}notes/{slug}/"
+
+
+def is_review_note(inner: str, review_tag: str) -> bool:
+    if parse_bool(inner, "review"):
+        return True
+    tags = parse_yaml_list(inner, "tags")
+    return review_tag in tags
+
+
+def extract_lead_card(body: str) -> tuple[str, str] | None:
+    first_line = body.strip().split("\n", 1)[0].strip() if body.strip() else ""
+    match = LEAD_RE.match(first_line)
+    if not match:
+        return None
+    return match.group(1).strip(), match.group(2).strip()
+
+
+def extract_shortcode_cards(body: str) -> list[tuple[str, str]]:
+    return [(m.group(1).strip(), m.group(2).strip()) for m in SHORTCODE_RE.finditer(body)]
+
+
+def format_back(back: str, source_url: str, title: str) -> str:
+    safe_back = html.escape(back)
+    safe_title = html.escape(title)
+    return (
+        f"{safe_back}<br><br>"
+        f'<a href="{html.escape(source_url)}">Read note: {safe_title}</a>'
+    )
+
+
+def collect_cards(review_tag: str) -> list[dict[str, str]]:
+    cards: list[dict[str, str]] = []
+
+    for path in sorted(NOTES_DIR.glob("*.md")):
+        if path.stem in SKIP:
+            continue
+
+        text = path.read_text(encoding="utf-8")
+        _, inner, body = split_frontmatter(text)
+        if not inner:
+            continue
+
+        if parse_bool(inner, "draft"):
+            continue
+
+        layout = parse_scalar(inner, "layout")
+        if layout in {"graph", "cards", "review", "random-two", "random-three"}:
+            continue
+
+        slug = parse_scalar(inner, "slug") or path.stem
+        title = parse_scalar(inner, "title") or path.stem.replace("-", " ").title()
+        tags = parse_yaml_list(inner, "tags")
+        tag_field = " jorap-notes" if not tags else " jorap-notes " + " ".join(tags)
+
+        base = read_base_url()
+        source = note_url(base, slug)
+
+        if is_review_note(inner, review_tag):
+            card_front = parse_scalar(inner, "card_front")
+            card_back = parse_scalar(inner, "card_back")
+            lead = extract_lead_card(body)
+            if card_front and card_back:
+                front, back = card_front, card_back
+            elif lead:
+                front, back = lead
+                if card_back:
+                    back = card_back
+                if card_front:
+                    front = card_front
+            else:
+                front, back = "", ""
+
+            if front and back:
+                cards.append(
+                    {
+                        "front": front,
+                        "back": format_back(back, source, title),
+                        "tags": tag_field.strip(),
+                    }
+                )
+
+        for front, back in extract_shortcode_cards(body):
+            cards.append(
+                {
+                    "front": front,
+                    "back": format_back(back, source, title),
+                    "tags": tag_field.strip(),
+                }
+            )
+
+    return cards
+
+
+def write_export(cards: list[dict[str, str]], output: Path) -> None:
+    output.parent.mkdir(parents=True, exist_ok=True)
+    lines = [
+        "#separator:tab",
+        "#html:true",
+        "#columns:Front\tBack\tTags",
+        "Front\tBack\tTags",
+    ]
+    for card in cards:
+        front = card["front"].replace("\t", " ").replace("\n", " ")
+        back = card["back"].replace("\t", " ")
+        tags = card["tags"].replace("\t", " ")
+        lines.append(f"{front}\t{back}\t{tags}")
+    output.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Export JoRap note cards for Anki import.")
+    parser.add_argument(
+        "-o",
+        "--output",
+        type=Path,
+        default=DEFAULT_EXPORT,
+        help=f"Output path (default: {DEFAULT_EXPORT.relative_to(ROOT)})",
+    )
+    parser.add_argument(
+        "--review-tag",
+        default=REVIEW_TAG,
+        help=f"Tag that opts a note into auto card export (default: {REVIEW_TAG})",
+    )
+    args = parser.parse_args()
+
+    cards = collect_cards(args.review_tag)
+    write_export(cards, args.output)
+    print(f"Wrote {len(cards)} cards to {args.output}")
+
+
+if __name__ == "__main__":
+    main()

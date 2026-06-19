@@ -10,6 +10,9 @@ tags: ["Capture", "PKM", "Second Brain", "CODE Method", "Note Taking", "Producti
 slug: "capture"
 featured: false
 status: evergreen
+review: true
+card_back: "One inbox for what resonates."
+card_front: "Capture"
 draft: false
 aliases: ["CODE"]
 ---

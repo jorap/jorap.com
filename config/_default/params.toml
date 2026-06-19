@@ -33,6 +33,9 @@ copyright = "JoRap Notes"
 # Public notes garden (wikilinks, backlinks, graph)
 [notes]
 enable_graph = true
+enable_cards = true
+review_tag = "flashcard"
+anki_export_path = "exports/jorap-notes-anki.txt"
 wikilink_class = "wikilink"
 related_posts_limit = 12
 see_also_limit = 6

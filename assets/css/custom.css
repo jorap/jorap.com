@@ -577,3 +577,123 @@ html.dark .notes-dev-banner code {
 .notes-grid-item.hidden {
   display: none !important;
 }
+
+/* Flashcards */
+.notes-flashcard {
+  perspective: 1000px;
+}
+
+.notes-flashcard__flip {
+  display: block;
+  width: 100%;
+  min-height: 10rem;
+  padding: 0;
+  border: 1px solid var(--color-divider);
+  border-radius: 0.5rem;
+  background: var(--color-surface);
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.15s ease;
+}
+
+.notes-flashcard__flip:hover,
+.notes-flashcard__flip:focus-visible {
+  border-color: var(--color-accent);
+  outline: none;
+}
+
+.notes-flashcard__inner {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 10rem;
+  transform-style: preserve-3d;
+  transition: transform 0.35s ease;
+}
+
+.notes-flashcard.is-flipped .notes-flashcard__inner {
+  transform: rotateY(180deg);
+}
+
+.notes-flashcard__face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+  backface-visibility: hidden;
+  border-radius: 0.5rem;
+  line-height: 1.5;
+}
+
+.notes-flashcard__face--front {
+  background: var(--color-surface);
+  color: var(--color-ink);
+  font-weight: 600;
+}
+
+.notes-flashcard__face--back {
+  background: var(--color-elevated);
+  color: var(--color-ink);
+  transform: rotateY(180deg);
+  font-size: 0.9375rem;
+}
+
+.notes-flashcard__source {
+  margin-bottom: 0;
+}
+
+.notes-cards-grid .notes-flashcard {
+  height: 100%;
+}
+
+.notes-cards-grid .notes-flashcard__flip {
+  min-height: 12rem;
+}
+
+.notes-cards-grid .notes-flashcard__inner {
+  min-height: 12rem;
+}
+
+/* Review session */
+.notes-review-card {
+  min-height: 14rem;
+}
+
+.notes-review-front {
+  color: var(--color-ink);
+}
+
+.notes-review-back {
+  color: var(--color-ink);
+}
+
+.notes-review-label {
+  letter-spacing: 0.06em;
+}
+
+.notes-review-start kbd,
+.notes-review-session kbd {
+  border: 1px solid var(--color-divider);
+  border-radius: 0.25rem;
+  background: var(--color-elevated);
+  padding: 0.1rem 0.35rem;
+  font-size: 0.75rem;
+}
+
+.notes-review-done.hidden,
+.notes-review-session.hidden,
+.notes-review-start.hidden {
+  display: none !important;
+}
+
+.notes-review-answer.hidden,
+.notes-review-ratings.hidden {
+  display: none !important;
+}
+
+.notes-review-actions.hidden {
+  display: none !important;
+}
+

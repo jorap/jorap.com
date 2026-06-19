@@ -10,6 +10,9 @@ tags: ["Weekly Review", "Checklist", "GTD", "PKM", "PARA", "Habits", "Workflow"]
 slug: "weekly-review-checklists"
 featured: false
 status: evergreen
+review: true
+card_back: "Inbox, calendar, projects, one ship action."
+card_front: "Weekly review checklist"
 draft: false
 aliases: []
 ---

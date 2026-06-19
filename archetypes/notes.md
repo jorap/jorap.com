@@ -10,8 +10,11 @@ author: "JoRap"
 tags: []
 aliases: []
 status: seedling
+review: false
 featured: false
 draft: true
 ---
 
 **{{ replace .Name "-" " " | title }}** — one idea, stated plainly. If you need `and` or a second heading, split into another note and link it with `[[wikilinks]]`.
+
+Set `review: true` only on spine concepts worth cold recall (~20% of notes). Add `card_front` / `card_back` when you do. Extra cards: `{{< card front="Question" back="Answer" >}}`.
