@@ -1,26 +1,40 @@
 {{- $page := . -}}
 {{- $content := $page.Content -}}
 {{- $class := site.Params.notes.wikilink_class | default "wikilink" -}}
-{{- $notes := partial "notes/pages.html" . -}}
+{{- $registry := partialCached "notes/link-registry.html" site "notes-registry-v1" -}}
 
-{{- range $notes -}}
+{{- /* Hide static See also sections; rendered dynamically via see-also.html */ -}}
+{{- $content = replaceRE `(?s)<h2[^>]*id="see-also"[^>]*>See also</h2>.*$` "" $content -}}
+{{- $content = replaceRE `(?s)<h2[^>]*>See also</h2>.*$` "" $content -}}
+
+{{- range $registry.notes -}}
   {{- if ne $page.RelPermalink .RelPermalink -}}
     {{- $label := .Title -}}
-    {{- $open := printf `<a href="%s" class="%s">` .RelPermalink $class -}}
+    {{- $href := .RelPermalink -}}
+    {{- $preview := .RelPermalink -}}
+    {{- $open := printf `<a href="%s" class="%s" data-wikilink-preview="%s">` $href $class $preview -}}
     {{- $close := "</a>" -}}
 
     {{- /* [[Title]] */ -}}
     {{- $content = replace $content (printf "[[%s]]" .Title) (printf "%s%s%s" $open $label $close) -}}
 
-    {{- /* [[Title|alias]] */ -}}
+    {{- /* [[Title|label]] */ -}}
     {{- $content = replaceRE (printf `\[\[%s\|([^\]]+)\]\]` .Title) (printf "%s$1%s" $open $close) $content -}}
 
-    {{- /* [[filename]] via slug or content base name */ -}}
-    {{- with .File -}}
-      {{- $content = replace $content (printf "[[%s]]" .ContentBaseName) (printf "%s%s%s" $open $label $close) -}}
+    {{- /* [[Title#heading]] and [[Title#heading|label]] */ -}}
+    {{- $content = replaceRE (printf `\[\[%s#([^\]|]+)\]\]` .Title) (printf `<a href="%s" class="%s" data-wikilink-preview="%s">$1</a>` $href $class $preview) $content -}}
+    {{- $content = replaceRE (printf `\[\[%s#([^\]|]+)\|([^\]]+)\]\]` .Title) (printf `<a href="%s" class="%s" data-wikilink-preview="%s">$2</a>` $href $class $preview) $content -}}
+
+    {{- with .Params.slug -}}
+      {{- $content = replace $content (printf "[[%s]]" .) (printf "%s%s%s" $open $label $close) -}}
+      {{- $content = replaceRE (printf `\[\[%s\|([^\]]+)\]\]` .) (printf "%s$1%s" $open $close) $content -}}
     {{- end -}}
 
-    {{- /* [[alias]] and [[alias|label]] */ -}}
+    {{- with .File -}}
+      {{- $content = replace $content (printf "[[%s]]" .ContentBaseName) (printf "%s%s%s" $open $label $close) -}}
+      {{- $content = replaceRE (printf `\[\[%s\|([^\]]+)\]\]` .ContentBaseName) (printf "%s$1%s" $open $close) $content -}}
+    {{- end -}}
+
     {{- with .Params.aliases -}}
       {{- range . -}}
         {{- $content = replace $content (printf "[[%s]]" .) (printf "%s%s%s" $open . $close) -}}

@@ -1,5 +1,13 @@
 {{ define "main" }}
   {{ $graph := partial "notes/graph-data.html" . }}
+  {{ $orphans := 0 }}
+  {{ $hubs := 0 }}
+  {{ $deadEnds := 0 }}
+  {{ range $graph.nodes }}
+    {{ if .orphan }}{{ $orphans = add $orphans 1 }}{{ end }}
+    {{ if .hub }}{{ $hubs = add $hubs 1 }}{{ end }}
+    {{ if .deadEnd }}{{ $deadEnds = add $deadEnds 1 }}{{ end }}
+  {{ end }}
 
   <section class="section pt-7">
     <div class="container">
@@ -10,28 +18,41 @@
           </div>
 
           <h1 class="article-title mb-4">Note graph</h1>
-          <p class="text-ink-muted mb-4">Interactive map of wikilinks.</p>
+          <p class="text-ink-muted mb-4">Interactive map of wikilinks. Filter by orphans (no inbound links), hubs (highly connected), or dead ends (no outbound links).</p>
+
+          <div class="notes-graph-stats text-ink-muted mb-4 flex flex-wrap gap-4 text-sm">
+            <span>{{ len $graph.nodes }} notes</span>
+            <span>{{ len $graph.edges }} links</span>
+            <span class="notes-graph-stat notes-graph-stat--orphan">{{ $orphans }} orphans</span>
+            <span class="notes-graph-stat notes-graph-stat--hub">{{ $hubs }} hubs</span>
+            <span class="notes-graph-stat notes-graph-stat--dead">{{ $deadEnds }} dead ends</span>
+          </div>
 
           <div class="notes-graph-panel notes-graph-panel--page" data-notes-graph>
             <script type="application/json" class="notes-graph-data">{{ $graph | jsonify | safeJS }}</script>
 
             <div class="notes-graph-toolbar">
               <p class="notes-graph-title">Interactive graph</p>
+              <div class="notes-graph-filters" role="group" aria-label="Graph filters">
+                <button type="button" class="notes-graph-filter is-active" data-graph-filter="all" aria-pressed="true">All</button>
+                <button type="button" class="notes-graph-filter" data-graph-filter="orphan" aria-pressed="false">Orphans</button>
+                <button type="button" class="notes-graph-filter" data-graph-filter="hub" aria-pressed="false">Hubs</button>
+                <button type="button" class="notes-graph-filter" data-graph-filter="deadEnd" aria-pressed="false">Dead ends</button>
+              </div>
               <label class="notes-graph-search-wrap">
                 <span class="sr-only">Search notes</span>
                 <input
                   type="search"
-                  id="notes-graph-search"
                   class="notes-graph-search"
                   placeholder="Search notes…"
                   autocomplete="off"
                   spellcheck="false" />
               </label>
               <div class="notes-graph-actions">
-                <button type="button" id="notes-graph-zoom-out" class="notes-graph-btn" title="Zoom out" aria-label="Zoom out">−</button>
-                <button type="button" id="notes-graph-zoom-in" class="notes-graph-btn" title="Zoom in" aria-label="Zoom in">+</button>
-                <button type="button" id="notes-graph-reset" class="btn btn-outline-primary btn-sm">Reset</button>
-                <button type="button" id="notes-graph-expand" class="notes-graph-btn" title="Expand graph" aria-label="Expand graph" aria-pressed="true">
+                <button type="button" class="notes-graph-zoom-out notes-graph-btn" title="Zoom out" aria-label="Zoom out">−</button>
+                <button type="button" class="notes-graph-zoom-in notes-graph-btn" title="Zoom in" aria-label="Zoom in">+</button>
+                <button type="button" class="notes-graph-reset btn btn-outline-primary btn-sm">Reset</button>
+                <button type="button" class="notes-graph-expand notes-graph-btn" title="Expand graph" aria-label="Expand graph" aria-pressed="true">
                   <span class="notes-graph-expand-icon" aria-hidden="true">⤢</span>
                 </button>
               </div>
@@ -42,7 +63,7 @@
                 <span class="notes-graph__zoom-hint">Scroll to zoom · drag to pan</span>
               </div>
             </div>
-            <p class="notes-graph-hint text-ink-muted">Hover to highlight links · click a node to open · ⌘/Ctrl-click for a new tab</p>
+            <p class="notes-graph-hint text-ink-muted">Hover to highlight links · click a node to open · ⌘/Ctrl-click for a new tab · colored dots mark orphans, hubs, and dead ends</p>
           </div>
 
           <p class="notes-graph-empty text-ink-muted mt-4 hidden text-sm">No linked notes yet. Add <code>[[wikilinks]]</code> in your notes.</p>

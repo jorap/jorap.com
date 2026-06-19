@@ -1,0 +1,16 @@
+{{- /*
+  Shared tags/categories between two note pages.
+  Dict: Page (current), Other (linked note).
+  Returns comma-delimited string of up to 3 shared labels.
+*/ -}}
+{{- $labels := .Page.Params.tags | default slice -}}
+{{- $labels = $labels | append (.Page.Params.categories | default slice) -}}
+{{- $otherLabels := .Other.Params.tags | default slice -}}
+{{- $otherLabels = $otherLabels | append (.Other.Params.categories | default slice) -}}
+{{- $shared := slice -}}
+{{- range $labels -}}
+  {{- if in $otherLabels . -}}
+    {{- $shared = $shared | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- return (delimit (first 3 $shared) ", ") -}}

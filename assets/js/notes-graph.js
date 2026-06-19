@@ -19,6 +19,7 @@
     var expandEl = panel.querySelector(".notes-graph-expand");
     var zoomInEl = panel.querySelector(".notes-graph-zoom-in");
     var zoomOutEl = panel.querySelector(".notes-graph-zoom-out");
+    var filterEls = panel.querySelectorAll("[data-graph-filter]");
     if (!dataEl || !container) return;
 
     var data;
@@ -52,7 +53,12 @@
         y: 0,
         vx: 0,
         vy: 0,
-        degree: 0,
+        degree: n.totalDegree || 0,
+        inDegree: n.inDegree || 0,
+        outDegree: n.outDegree || 0,
+        orphan: Boolean(n.orphan),
+        hub: Boolean(n.hub),
+        deadEnd: Boolean(n.deadEnd),
       };
     });
 
@@ -87,6 +93,7 @@
     var defaultTransform = { x: 0, y: 0, k: 1 };
     var hovered = focusNode || null;
     var searchQuery = "";
+    var graphFilter = "all";
     var draggingNode = null;
     var dragMoved = false;
     var dragStart = null;
@@ -124,6 +131,9 @@
         nodeActive: resolveToken("--color-accent", "#181614"),
         nodeHover: resolveToken("--color-ink", "#161412"),
         nodeFocus: resolveToken("--color-accent", "#181614"),
+        nodeOrphan: resolveToken("--color-warning", "#b45309"),
+        nodeHub: resolveToken("--color-accent", "#181614"),
+        nodeDeadEnd: resolveToken("--color-ink-muted", "#6b6762"),
         surface: resolveToken("--color-surface", "#f5f3f0"),
         label: resolveToken("--color-ink", "#161412"),
       };
@@ -232,11 +242,17 @@
     }
 
     function viewNodes() {
-      if (!focusNode) return nodes;
-      var set = neighborsOf(focusNode);
-      return nodes.filter(function (n) {
-        return set[n.id];
-      });
+      var visible;
+      if (!focusNode) {
+        visible = nodes;
+      } else {
+        var set = neighborsOf(focusNode);
+        visible = nodes.filter(function (n) {
+          return set[n.id];
+        });
+      }
+      if (graphFilter === "all") return visible;
+      return visible.filter(passesFilter);
     }
 
     function fitToView() {
@@ -292,6 +308,24 @@
     function matchesSearch(node) {
       if (!searchQuery) return true;
       return node.title.toLowerCase().indexOf(searchQuery) !== -1;
+    }
+
+    function passesFilter(node) {
+      if (graphFilter === "all") return true;
+      if (graphFilter === "orphan") return node.orphan;
+      if (graphFilter === "hub") return node.hub;
+      if (graphFilter === "deadEnd") return node.deadEnd;
+      return true;
+    }
+
+    function nodeFill(node, isFocus, isHover, inHighlight, highlight) {
+      if (isFocus) return colors.nodeFocus;
+      if (isHover) return colors.nodeHover;
+      if (node.orphan && (graphFilter === "all" || graphFilter === "orphan")) return colors.nodeOrphan;
+      if (node.hub && (graphFilter === "all" || graphFilter === "hub")) return colors.nodeHub;
+      if (node.deadEnd && (graphFilter === "all" || graphFilter === "deadEnd")) return colors.nodeDeadEnd;
+      if (inHighlight && highlight) return colors.nodeActive;
+      return colors.node;
     }
 
     function hitTest(worldPos) {
@@ -411,7 +445,8 @@
         var isHover = hovered === n;
         var inHighlight = !highlight || highlight[n.id];
         var matches = matchesSearch(n);
-        var dimmed = (highlight && !inHighlight) || (hasFilter && !matches && !isHover);
+        var filtered = !passesFilter(n);
+        var dimmed = filtered || (highlight && !inHighlight) || (hasFilter && !matches && !isHover);
 
         if (isFocus) {
           ctx.beginPath();
@@ -422,14 +457,8 @@
         }
 
         ctx.beginPath();
-        ctx.fillStyle = isFocus
-          ? colors.nodeFocus
-          : isHover
-            ? colors.nodeHover
-            : inHighlight && highlight
-              ? colors.nodeActive
-              : colors.node;
-        ctx.globalAlpha = dimmed ? 0.1 : isFocus ? 1 : isHover ? 1 : inHighlight && highlight ? 0.95 : 0.65;
+        ctx.fillStyle = nodeFill(n, isFocus, isHover, inHighlight, highlight);
+        ctx.globalAlpha = dimmed ? 0.08 : isFocus ? 1 : isHover ? 1 : inHighlight && highlight ? 0.95 : 0.65;
         ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
         ctx.fill();
 
@@ -449,13 +478,7 @@
         ctx.lineWidth = Math.max(2.5, 3.5 / transform.k);
         ctx.lineJoin = "round";
         ctx.strokeStyle = colors.surface;
-        ctx.fillStyle = isFocus
-          ? colors.nodeFocus
-          : isHover
-            ? colors.nodeHover
-            : inHighlight && highlight
-              ? colors.nodeActive
-              : colors.label;
+        ctx.fillStyle = nodeFill(n, isFocus, isHover, inHighlight, highlight);
         ctx.globalAlpha = labelAlpha;
         ctx.strokeText(n.title, n.x, labelY);
         ctx.fillText(n.title, n.x, labelY);
@@ -632,6 +655,22 @@
         fitToView();
         draw();
         wake();
+      });
+    }
+
+    if (filterEls.length) {
+      filterEls.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          graphFilter = btn.getAttribute("data-graph-filter") || "all";
+          filterEls.forEach(function (el) {
+            var active = el === btn;
+            el.classList.toggle("is-active", active);
+            el.setAttribute("aria-pressed", active ? "true" : "false");
+          });
+          hovered = focusNode || null;
+          fitToView();
+          wake();
+        });
       });
     }
 

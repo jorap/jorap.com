@@ -1,0 +1,4 @@
+{{- /* Table of contents for notes, excluding the static See also heading. */ -}}
+{{- $toc := .TableOfContents -}}
+{{- $toc = replaceRE `\s*<li>\s*<a href="#see-also">See also</a>\s*</li>` "" $toc -}}
+{{- return (dict "html" $toc "has" (findRE `<a href=` $toc)) -}}

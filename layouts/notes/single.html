@@ -1,11 +1,14 @@
 {{ define "main" }}
-  {{ $hasToc := ne .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
+  {{ $notesToc := partial "notes/toc.html" . }}
+  {{ $hasToc := $notesToc.has }}
+  {{ $page := . }}
   {{ $backlinks := partial "notes/backlinks.html" . }}
+  {{ $outgoing := partial "notes/outgoing-links.html" . }}
 
   <section class="section pt-7">
     <div class="container">
       <div class="row justify-center">
-        <div class="{{ if $hasToc }}lg:col-8{{ else }}lg:col-10 xl:col-9{{ end }}">
+        <div class="lg:col-8">
           <article>
             {{ partial "notes/local-graph.html" . }}
 
@@ -31,7 +34,7 @@
             {{ if $hasToc }}
               <div class="toc-wrapper border-divider mb-6 rounded border p-4 lg:hidden">
                 <p class="mb-3 font-semibold">{{ T "table_of_contents" | default "Table of Contents" }}</p>
-                <div class="table-of-content toc-links">{{ .TableOfContents }}</div>
+                <div class="table-of-content toc-links">{{ $notesToc.html | safeHTML }}</div>
               </div>
             {{ end }}
 
@@ -39,14 +42,25 @@
               {{ partial "notes/render-content.html" . }}
             </div>
 
-            {{ with $backlinks }}
-              <aside class="notes-backlinks border-divider rounded border p-5">
-                <h2 class="h6 mb-3">Backlinks</h2>
-                <ul class="space-y-2">
+            {{ with $outgoing }}
+              <aside class="notes-outgoing border-divider mb-6 rounded border p-5">
+                <h2 class="h6 mb-3">Links from this Note</h2>
+                <ul class="notes-outgoing-list grid gap-3 sm:grid-cols-2">
                   {{ range . }}
-                    <li>
-                      <a class="wikilink" href="{{ .RelPermalink }}">{{ .Title }}</a>
-                    </li>
+                    {{ partial "notes/note-link-card.html" (dict "Page" .Page "Href" .Href "Title" .Label "Body" (partial "notes/shared-labels.html" (dict "Page" $page "Other" .Page))) }}
+                  {{ end }}
+                </ul>
+              </aside>
+            {{ end }}
+
+            {{ partial "notes/see-also.html" . }}
+
+            {{ with $backlinks }}
+              <aside class="notes-backlinks border-divider mt-6 rounded border p-5">
+                <h2 class="h6 mb-3">Backlinks</h2>
+                <ul class="notes-backlinks-list grid gap-3 sm:grid-cols-2">
+                  {{ range . }}
+                    {{ partial "notes/note-link-card.html" (dict "Page" .Page "Body" (partial "notes/shared-labels.html" (dict "Page" $page "Other" .Page))) }}
                   {{ end }}
                 </ul>
               </aside>
@@ -54,25 +68,30 @@
           </article>
         </div>
 
-        {{ if $hasToc }}
-          <div class="lg:col-4">
-            <div class="toc-wrapper sticky top-[100px] hidden lg:block">
+        <div class="hidden lg:col-4 lg:block">
+          {{ if $hasToc }}
+            <div class="toc-wrapper sticky top-[100px]">
               <div class="table-of-content toc-links">
                 <p class="mb-3 text-h5 font-semibold">{{ T "table_of_contents" | default "Table of Contents" }}</p>
-                <div class="toc-scroll">{{ .TableOfContents }}</div>
+                <div class="toc-scroll">{{ $notesToc.html | safeHTML }}</div>
               </div>
             </div>
-          </div>
-        {{ end }}
+          {{ end }}
+        </div>
       </div>
 
       {{ partial "blog/related-posts.html" . }}
     </div>
   </section>
 
+  {{ partial "notes/preview-index.html" . }}
+
   {{ if site.Params.notes.enable_graph }}
     {{ with resources.Get "js/notes-graph.js" }}
       <script src="{{ .RelPermalink }}" defer></script>
     {{ end }}
+  {{ end }}
+  {{ with resources.Get "js/wikilink-preview.js" }}
+    <script src="{{ .RelPermalink }}" defer></script>
   {{ end }}
 {{ end }}

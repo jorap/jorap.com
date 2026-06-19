@@ -1,18 +1,21 @@
 {{- $notes := partial "notes/pages.html" . -}}
 {{- $nodes := slice -}}
 {{- $edges := slice -}}
+{{- $hubOutThreshold := site.Params.notes.graph_hub_out_degree | default 5 -}}
+{{- $hubTotalThreshold := site.Params.notes.graph_hub_total_degree | default 8 -}}
 
 {{- range $from := $notes -}}
   {{- $fromId := $from.RelPermalink -}}
-  {{- $nodes = $nodes | append (dict "id" $fromId "title" $from.Title "url" $from.RelPermalink) -}}
+  {{- $nodes = $nodes | append (dict "id" $fromId "title" $from.Title "url" $from.RelPermalink "inDegree" 0 "outDegree" 0 "totalDegree" 0 "orphan" false "hub" false "deadEnd" false) -}}
   {{- $raw := $from.RawContent -}}
   {{- range $to := $notes -}}
     {{- if ne $fromId $to.RelPermalink -}}
       {{- $targets := slice $to.Title -}}
+      {{- with $to.Params.slug -}}{{- $targets = $targets | append . -}}{{- end -}}
       {{- with $to.File -}}{{- $targets = $targets | append .ContentBaseName -}}{{- end -}}
       {{- with $to.Params.aliases -}}{{- $targets = union $targets . -}}{{- end -}}
       {{- range $targets -}}
-        {{- if or (in $raw (printf "[[%s]]" .)) (findRE (printf `\[\[%s\|[^\]]+\]\]` .) $raw) -}}
+        {{- if or (in $raw (printf "[[%s]]" .)) (findRE (printf `\[\[%s(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]` .) $raw) -}}
           {{- $edges = $edges | append (dict "source" $fromId "target" $to.RelPermalink) -}}
         {{- end -}}
       {{- end -}}
@@ -20,38 +23,49 @@
   {{- end -}}
 {{- end -}}
 
-{{- /* Center the global graph on the most-connected note (degree centrality). */ -}}
-{{- $degree := dict -}}
+{{- $inDeg := dict -}}
+{{- $outDeg := dict -}}
+{{- $totalDeg := dict -}}
 {{- range $nodes -}}
-  {{- $degree = merge $degree (dict .id 0) -}}
+  {{- $inDeg = merge $inDeg (dict .id 0) -}}
+  {{- $outDeg = merge $outDeg (dict .id 0) -}}
+  {{- $totalDeg = merge $totalDeg (dict .id 0) -}}
 {{- end -}}
 {{- range $edges -}}
-  {{- $sv := index $degree .source | default 0 -}}
-  {{- $tv := index $degree .target | default 0 -}}
-  {{- $degree = merge $degree (dict .source (add $sv 1)) -}}
-  {{- $degree = merge $degree (dict .target (add $tv 1)) -}}
+  {{- $ov := index $outDeg .source | default 0 -}}
+  {{- $iv := index $inDeg .target | default 0 -}}
+  {{- $outDeg = merge $outDeg (dict .source (add $ov 1)) -}}
+  {{- $inDeg = merge $inDeg (dict .target (add $iv 1)) -}}
+  {{- $ts := index $totalDeg .source | default 0 -}}
+  {{- $tt := index $totalDeg .target | default 0 -}}
+  {{- $totalDeg = merge $totalDeg (dict .source (add $ts 1)) -}}
+  {{- $totalDeg = merge $totalDeg (dict .target (add $tt 1)) -}}
+{{- end -}}
+
+{{- $enriched := slice -}}
+{{- range $nodes -}}
+  {{- $in := index $inDeg .id | default 0 -}}
+  {{- $out := index $outDeg .id | default 0 -}}
+  {{- $total := index $totalDeg .id | default 0 -}}
+  {{- $enriched = $enriched | append (merge . (dict
+    "inDegree" $in
+    "outDegree" $out
+    "totalDegree" $total
+    "orphan" (eq $in 0)
+    "hub" (or (ge $out $hubOutThreshold) (ge $total $hubTotalThreshold))
+    "deadEnd" (eq $out 0)
+  )) -}}
 {{- end -}}
 
 {{- $maxDeg := -1 -}}
-{{- range $degree -}}
+{{- range $totalDeg -}}
   {{- if gt . $maxDeg -}}
     {{- $maxDeg = . -}}
   {{- end -}}
 {{- end -}}
 
-{{- /* Out-degree: curated links from each note (excludes passive inbound). */ -}}
-{{- $outDeg := dict -}}
-{{- range $nodes -}}
-  {{- $outDeg = merge $outDeg (dict .id 0) -}}
-{{- end -}}
-{{- range $edges -}}
-  {{- $ov := index $outDeg .source | default 0 -}}
-  {{- $outDeg = merge $outDeg (dict .source (add $ov 1)) -}}
-{{- end -}}
-
-{{- /* Among nodes within one link of max degree, pick the strongest outbound hub. */ -}}
 {{- $nearMax := slice -}}
-{{- range $id, $count := $degree -}}
+{{- range $id, $count := $totalDeg -}}
   {{- if ge $count (sub $maxDeg 1) -}}
     {{- $nearMax = $nearMax | append $id -}}
   {{- end -}}
@@ -68,11 +82,10 @@
   {{- end -}}
 {{- end -}}
 
-{{- /* Tie-break equal out-degree: prefer named hub pages. */ -}}
 {{- $hubTitles := slice "Maps of Content" "PKM" "Getting Started" -}}
 {{- range $hubTitles -}}
   {{- $hubTitle := . -}}
-  {{- range $nodes -}}
+  {{- range $enriched -}}
     {{- if and (in $nearMax .id) (eq .title $hubTitle) -}}
       {{- if eq (index $outDeg .id | default 0) $bestOut -}}
         {{- $focusId = .id -}}
@@ -85,4 +98,4 @@
   {{- $focusId = index $nearMax 0 -}}
 {{- end -}}
 
-{{- return (dict "nodes" $nodes "edges" $edges "focus" $focusId "mode" "global") -}}
+{{- return (dict "nodes" $enriched "edges" $edges "focus" $focusId "mode" "global") -}}

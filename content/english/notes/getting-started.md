@@ -35,19 +35,31 @@ Use wikilinks in the body:
 - `[[Atomic Notes|atoms]]` - link with custom label
 - `[[atom]]` - works via the `aliases` frontmatter field
 
-Obsidian-style features I wired on this site:
+Obsidian-style features on this site:
 
-- **Wikilinks** - `[[Note Title]]` and `[[alias|label]]` in note bodies
-- **Aliases** - alternate link targets in frontmatter (`aliases: ["PARA"]` on [[PARA Method]])
-- **Backlinks** - listed at the bottom of each note when another note links here
-- **Graph** - force-directed view of all wikilink connections at [/notes/graph/](/notes/graph/)
-- **See also** - tag-related notes appended to most pages
-- **Maps of Content** - hub index at [[Maps of Content]]
+- **Wikilinks** — `[[Note Title]]` and `[[alias|label]]` in note bodies
+- **Aliases** — alternate link targets in frontmatter (`aliases: ["PARA"]` on [[PARA Method]])
+- **Outgoing links** — listed below each note's body
+- **Backlinks** — with context snippets when another note links here
+- **Graph** — force-directed view with orphan/hub/dead-end filters at [/notes/graph/](/notes/graph/)
+- **See also** — tag-related notes generated at build time (not static in markdown)
+- **Hover previews** — pause on a wikilink to peek at the target note
+- **Maps of Content** — hub index at [[Maps of Content]]
 
 ## Explore
 
-- **Backlinks** show at the bottom of each note.
-- **Graph** at [/notes/graph/](/notes/graph/) maps connections.
+- **Outgoing links** and **backlinks** (with snippets) show below each note.
+- **See also** suggests tag-related notes you haven't linked yet.
+- **Graph** at [/notes/graph/](/notes/graph/) maps connections — filter orphans, hubs, and dead ends.
+
+## Import from Obsidian
+
+```bash
+npm run import:obsidian -- /path/to/your/vault --dry-run
+npm run import:obsidian -- /path/to/your/vault --force
+```
+
+Converts `[[wikilinks]]`, `#tags`, and `![[embeds]]` into Hugo-ready notes. Run `npm run lint:notes` to catch broken links at build time.
 
 ## Publish to the blog
 

@@ -35,6 +35,10 @@ copyright = "JoRap Notes"
 enable_graph = true
 wikilink_class = "wikilink"
 related_posts_limit = 9
+see_also_limit = 5
+strict_wikilinks = false
+graph_hub_out_degree = 5
+graph_hub_total_degree = 8
 
 # Blog single: automated related content sections
 [blog]
