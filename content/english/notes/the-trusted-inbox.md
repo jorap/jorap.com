@@ -13,14 +13,11 @@ draft: false
 aliases: ["Trusted Inbox"]
 ---
 
-**Trusted inbox** = one capture pipe you empty every week - or you'll capture in your head instead.
+**Trusted inbox** = one [[Capture]] pipe you empty every week - or you'll capture in your head instead.
 
-[[Weekly Review Checklists]] every week, no exceptions - even if it's twenty minutes. Trust is behavioral: if items disappear or rot, I'll stop using the pipe. One inbox, one owner, one rhythm.
+[[Weekly Review Checklists]] every week, no exceptions - even if it's twenty minutes. Trust is behavioral: if items disappear or rot, I'll stop using the pipe. One inbox, one owner, one rhythm. Pairs with [[Context-Aware Capture]] and [[Mobile Capture Workflows]].
 
 ## See also
 
-- [[Mobile Capture Workflows]] - Capture, PKM, Workflow
-- [[Analog Capture Tools]] - Capture, PKM
-- [[Building a Second Brain]] - Capture, PKM
-- [[Capture]] - Capture, PKM
-- [[Context-Aware Capture]] - Capture, PKM
+- [[Analog Capture Tools]] — Capture, PKM
+- [[Building a Second Brain]] — Capture, PKM

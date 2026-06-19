@@ -15,12 +15,9 @@ aliases: ["E2EE"]
 
 **E2EE (end-to-end encryption)** = only you and your recipient can read the note - not the server.
 
-Journal entries and credentials get encryption; blog drafts and garden notes stay plain text I can grep. Threat model first, then tools. See [[Privacy and Data Sovereignty]].
+Journal entries and credentials get encryption; blog drafts and garden notes stay plain text I can search. Decide what you're protecting first, then pick tools. See [[Privacy and Data Sovereignty]]. Pairs with [[Local-first Software]] and [[Active Knowledge Curation]].
 
 ## See also
 
-- [[Local-first Software]] - Note Taking, PKM, Privacy
-- [[Privacy and Data Sovereignty]] - PKM, Privacy, Security
-- [[Active Knowledge Curation]] - Note Taking, PKM
-- [[Advantages of Digital Gardens]] - Note Taking, PKM
-- [[Analog Capture Tools]] - Note Taking, PKM
+- [[Advantages of Digital Gardens]] — Note Taking, PKM
+- [[Analog Capture Tools]] — Note Taking, PKM

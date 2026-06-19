@@ -1,7 +1,7 @@
 ---
 title: "Note-Taking for Researchers"
 meta_title: "Note-Taking for Researchers - Beyond Highlight Hell"
-description: "Researchers need source notes and synthesis notes - never merge the two."
+description: "Researchers need source notes and your own notes in separate lanes - never merge the two."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,14 +13,12 @@ draft: false
 aliases: ["note taking for researchers", "Research Notes"]
 ---
 
-**Research notes** = two lanes: literature notes stay with the source; permanent notes are your words only.
+**Research notes** = two lanes: source notes stay with the book; your own notes are your words only.
 
-Never highlight into a synthesis note without rewriting. Classic [[Zettelkasten]] hygiene that survives outside academia - source notes and synthesis notes never merge.
+Never paste highlights into your own-notes file without rewriting. Simple [[Zettelkasten]] rule that works outside school: source notes and your own notes never merge. Pairs with [[Intellectual Sourcing]] and [[Associative Linking]].
 
 ## See also
 
-- [[Intellectual Sourcing]] - Citations, Note Taking, PKM
-- [[Associative Linking]] - Note Taking, PKM, Zettelkasten
-- [[Atomic Design for Notes]] - Note Taking, PKM, Zettelkasten
-- [[Evergreen Notes]] - Note Taking, PKM, Zettelkasten
-- [[Evergreen vs Fleeting Notes]] - Note Taking, PKM, Zettelkasten
+- [[Atomic Design for Notes]] — Note Taking, PKM, Zettelkasten
+- [[Atomic Notes]] — Note Taking, PKM, Zettelkasten
+- [[Digital Serendipity]] — Note Taking, PKM, Research

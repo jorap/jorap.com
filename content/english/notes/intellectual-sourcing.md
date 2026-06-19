@@ -1,7 +1,7 @@
 ---
 title: "Intellectual Sourcing"
 meta_title: "Intellectual Sourcing - Track Where Ideas Come From"
-description: "Cite sources so you can trust your synthesis and find the original six months later."
+description: "Cite sources so you can trust what you wrote and find the original six months later."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,14 +13,11 @@ draft: false
 aliases: []
 ---
 
-**Intellectual sourcing** = minimum viable citation so future-you trusts the synthesis.
+**Cite your sources** = minimum citation so future-you can trust what you wrote.
 
-Author, URL, date, and one line on why I cared. When I synthesize across sources, I can trace the chain and spot where I added opinion. See [[Note-Taking for Researchers]].
+Author, URL, date, and one line on why I cared. When I combine ideas from several places, I can follow the trail and see where I added my own take. See [[Note-Taking for Researchers]]. Pairs with [[Progressive Summarization]] and [[Evergreen Notes]].
 
 ## See also
 
-- [[Note-Taking for Researchers]] - Citations, Note Taking, PKM
-- [[Active Knowledge Curation]] - Note Taking, PKM
-- [[Advantages of Digital Gardens]] - Note Taking, PKM
-- [[Analog Capture Tools]] - Note Taking, PKM
-- [[Anti-Fragile Systems]] - Note Taking, PKM
+- [[Synthesis as a Goal]] — PKM, Research, Writing
+- [[Digital Serendipity]] — Note Taking, PKM, Research

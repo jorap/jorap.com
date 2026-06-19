@@ -15,12 +15,9 @@ aliases: ["Archive Method", "The Archive"]
 
 **Archive (PARA)** = finished work moves out of active view - searchable, not deleted.
 
-Done means out of Projects, into Archive. Active lists stay short; finished work stops stealing attention. Core [[PARA Method]] hygiene.
+Done means out of Projects, into Archive. Active lists stay short; finished work stops stealing attention. Core [[PARA Method]] hygiene. Pairs with [[Organization]] and [[Active Knowledge Curation]].
 
 ## See also
 
-- [[Organization]] - Organization, PARA, PKM
-- [[PARA Method]] - Organization, PARA, PKM
-- [[GTD vs PARA]] - PARA, PKM, Productivity
-- [[The 12 Week Year]] - PKM, Productivity, Projects
-- [[The Knowledge Lifecycle]] - Archive, Organization, PKM
+- [[Capture]] — Note Taking, PKM, Productivity
+- [[PKM]] — Note Taking, PKM, Productivity

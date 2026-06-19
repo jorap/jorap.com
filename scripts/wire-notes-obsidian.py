@@ -12,6 +12,8 @@ SKIP_FILES = {"_index.md", "graph.md"}
 
 SEE_ALSO_HEADING = "## See also"
 MOC_HEADING = "## Maps"
+MIN_BODY_LINKS = 3
+MIN_OUTGOING_LINKS = 3
 
 
 def split_frontmatter(text: str) -> tuple[str, str, str]:
@@ -186,18 +188,141 @@ def strip_section(body: str, heading: str) -> str:
     return re.sub(pattern, "", body).rstrip() + "\n"
 
 
-def build_see_also(related: list[dict], linked: set[str]) -> str:
-    lines = [SEE_ALSO_HEADING, ""]
-    for note in related:
-        if note["title"] in linked:
+def build_link_map(catalog: list[dict]) -> dict[str, str]:
+    link_map: dict[str, str] = {}
+    for note in catalog:
+        for key in [note["title"], note["slug"], note["stem"], *note["aliases"]]:
+            if key:
+                link_map[key.lower()] = note["title"]
+    return link_map
+
+
+def resolved_link_titles(body: str, link_map: dict[str, str], self_title: str) -> set[str]:
+    titles: set[str] = set()
+    for raw in existing_wikilinks(body):
+        title = link_map.get(raw.lower())
+        if title and title != self_title:
+            titles.add(title)
+    return titles
+
+
+def format_pairs_clause(titles: list[str]) -> str:
+    links = [f"[[{title}]]" for title in titles]
+    if len(links) == 1:
+        return links[0]
+    if len(links) == 2:
+        return f"{links[0]} and {links[1]}"
+    return ", ".join(links[:-1]) + f", and {links[-1]}"
+
+
+def pick_link_candidates(
+    stem: str,
+    title: str,
+    tags: list[str],
+    catalog: list[dict],
+    exclude: set[str],
+    needed: int,
+) -> list[str]:
+    picks: list[str] = []
+    for note in related_notes(stem, title, tags, catalog, limit=15):
+        if not is_linkable(note):
             continue
+        candidate = note["title"]
+        if candidate not in exclude and candidate != title and candidate not in picks:
+            picks.append(candidate)
+        if len(picks) >= needed:
+            return picks
+    for note in catalog:
+        if note["stem"] == stem or not is_linkable(note):
+            continue
+        candidate = note["title"]
+        if candidate in exclude or candidate == title or candidate in picks:
+            continue
+        picks.append(candidate)
+        if len(picks) >= needed:
+            break
+    return picks
+
+
+def ensure_min_body_links(
+    body: str,
+    stem: str,
+    title: str,
+    tags: list[str],
+    catalog: list[dict],
+    link_map: dict[str, str],
+    min_links: int = MIN_BODY_LINKS,
+) -> str:
+    linked = resolved_link_titles(body, link_map, title)
+    if len(linked) >= min_links:
+        return body
+
+    needed = min_links - len(linked)
+    picks = pick_link_candidates(stem, title, tags, catalog, linked | {title}, needed)
+    if not picks:
+        return body
+
+    clause = format_pairs_clause(picks)
+    trimmed = body.rstrip()
+    if trimmed.endswith("."):
+        trimmed = trimmed[:-1].rstrip()
+
+    if re.search(r"\bPairs with\b", body, re.I):
+        body = f"{trimmed}. Also pairs with {clause}."
+    else:
+        body = f"{trimmed}. Pairs with {clause}."
+    return body.rstrip() + "\n"
+
+
+def build_see_also(
+    related: list[dict],
+    linked: set[str],
+    stem: str,
+    title: str,
+    catalog: list[dict],
+    link_map: dict[str, str],
+    body: str,
+    min_total: int = MIN_OUTGOING_LINKS,
+) -> str:
+    picked: list[dict] = []
+    picked_titles: set[str] = set()
+    resolved = resolved_link_titles(body, link_map, title)
+
+    def consider(note: dict) -> None:
+        note_title = note["title"]
+        if note_title in resolved or note_title in picked_titles or note_title == title:
+            return
+        if note_title in linked:
+            return
+        picked.append(note)
+        picked_titles.add(note_title)
+
+    for note in related:
+        consider(note)
+
+    while len(resolved | picked_titles) < min_total:
+        added = False
+        for note in catalog:
+            if note["stem"] == stem or not is_linkable(note):
+                continue
+            before = len(picked_titles)
+            consider(note)
+            if len(picked_titles) > before:
+                added = True
+                break
+        if not added:
+            break
+
+    if not picked:
+        return ""
+
+    lines = [SEE_ALSO_HEADING, ""]
+    for note in picked:
         shared = ", ".join(sorted(set(note.get("_shared", [])))[:3])
         if shared:
             lines.append(f"- [[{note['title']}]] — {shared}")
         else:
             lines.append(f"- [[{note['title']}]]")
-    if len(lines) == 2:
-        return ""
     return "\n".join(lines) + "\n"
 
 
@@ -309,6 +434,8 @@ def load_catalog() -> list[dict]:
         slug = parse_scalar(inner, "slug") or path.stem
         tags = parse_yaml_list(inner, "tags")
         aliases = parse_yaml_list(inner, "aliases")
+        layout = parse_scalar(inner, "layout")
+        note_kind = parse_scalar(inner, "note_kind") or "note"
         catalog.append(
             {
                 "path": path,
@@ -317,11 +444,19 @@ def load_catalog() -> list[dict]:
                 "slug": slug,
                 "tags": tags,
                 "aliases": aliases,
+                "layout": layout,
+                "note_kind": note_kind,
                 "body": body,
                 "inner": inner,
             }
         )
     return catalog
+
+
+def is_linkable(note: dict) -> bool:
+    if note.get("layout") == "graph":
+        return False
+    return True
 
 
 def main() -> None:
@@ -346,6 +481,7 @@ def main() -> None:
         if target not in unique_targets or len(target) > len(unique_targets[target]):
             unique_targets[target] = title
     targets = [(target, title) for target, title in unique_targets.items()]
+    link_map = build_link_map(catalog)
 
     for note in catalog:
         inner = update_frontmatter_aliases(note["inner"], suggested_aliases(note["title"], note["slug"], note["aliases"]))
@@ -358,12 +494,28 @@ def main() -> None:
             body = strip_section(note["body"], SEE_ALSO_HEADING)
             body = strip_section(body, MOC_HEADING).rstrip() + "\n"
             body = inline_link(body, targets)
+            body = ensure_min_body_links(
+                body,
+                note["stem"],
+                note["title"],
+                note["tags"],
+                catalog,
+                link_map,
+            )
 
             related = related_notes(note["stem"], note["title"], note["tags"], catalog)
             for rel in related:
                 rel["_shared"] = sorted(set(note["tags"]) & set(rel["tags"]))
             linked = existing_wikilinks(body)
-            see_also = build_see_also(related, linked)
+            see_also = build_see_also(
+                related,
+                linked,
+                note["stem"],
+                note["title"],
+                catalog,
+                link_map,
+                body,
+            )
             if see_also:
                 body = body.rstrip() + "\n\n" + see_also
 

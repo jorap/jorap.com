@@ -13,14 +13,12 @@ draft: false
 aliases: ["Second Brain Workflow"]
 ---
 
-**Second Brain workflow** = CODE on a loop: capture → organize → distill → express, weekly.
+**[[Second Brain]] workflow** = CODE on a loop: capture → organize → distill → express, weekly.
 
-Morning capture sweep, project filing when I touch a note, distill when I reuse, express before the week ends. Same loop whether the tool is TiddlyWiki or Hugo. See [[Second Brain Daily Workflow]] for the day-scale version.
+Morning capture sweep, project filing when I touch a note, distill when I reuse, express before the week ends. Same loop whether the tool is TiddlyWiki or Hugo. See [[Second Brain Daily Workflow]] for the day-scale version. Pairs with [[Capture]].
 
 ## See also
 
-- [[Building a Second Brain]] - CODE Method, PKM, Productivity
-- [[Capture]] - CODE Method, PKM, Productivity
-- [[PARA Method]] - PARA, PKM, Productivity
-- [[Second Brain Daily Workflow]] - PKM, Productivity, Second Brain
-- [[Active Knowledge Curation]] - PKM, Productivity, Second Brain
+- [[PARA Method]] — PARA, PKM, Productivity
+- [[Active Knowledge Curation]] — PKM, Productivity, Second Brain
+- [[Creative Blocks]] — PKM, Productivity, Second Brain

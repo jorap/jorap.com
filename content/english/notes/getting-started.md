@@ -10,7 +10,6 @@ author: "JoRap"
 tags: ["Notes", "Meta", "PKM", "Digital Garden", "Note Taking", "Hugo", "Website Building"]
 aliases: ["start"]
 status: evergreen
-last_reviewed: 2026-06-19T08:00:00Z
 featured: true
 draft: false
 ---
@@ -29,18 +28,11 @@ Public when `draft: false`; hidden while `draft: true`. Each note opens with a d
 hugo new notes/my-idea.md
 ```
 
-Or add a `.md` file under `content/english/notes/`. Use the same frontmatter as blog posts (`title`, `meta_title`, `description`, `slug`, `date`, `image`, `categories`, `author`, `tags`, `featured`, `draft`) plus lifecycle fields:
+Or add a `.md` file under `content/english/notes/`. Use the same frontmatter as blog posts (`title`, `meta_title`, `description`, `slug`, `date`, `image`, `categories`, `author`, `tags`, `featured`, `draft`) plus optional lifecycle fields:
 
 - `status` — `seedling` (draft claim), `evergreen` (stable), `inbox` (unprocessed), or `archived`
-- `last_reviewed` — ISO date; drives the stale filter on [/notes/review/](/notes/review/)
 
-## Daily capture
-
-```bash
-hugo new notes/daily/$(date +%Y-%m-%d).md
-```
-
-Daily notes live under `content/english/notes/daily/`, start as `status: inbox` and `draft: true`, and appear in the [/notes/daily/](/notes/daily/) archive. Promote anything worth keeping during weekly review.
+Created and updated timestamps come from the file itself at build time (`scripts/noteFileDates.js`) — no manual date fields to maintain.
 
 ## Link between notes
 
@@ -56,28 +48,21 @@ What this site gives you:
 - **Aliases** - alternate link targets in frontmatter (`aliases: ["PARA"]` on [[PARA Method]])
 - **Outgoing links** - listed below each note's body
 - **Backlinks** - with context snippets when another note links here
-- **Graph** - force-directed view with orphan/hub/dead-end filters at [/notes/graph/](/notes/graph/)
+- **Graph** - map view with filters for notes with no links, overloaded notes, and dead ends at [/notes/graph/](/notes/graph/)
 - **See also** - tag-related notes generated at build time (not static in markdown)
 - **Hover previews** - pause on a wikilink to peek at the target note
 - **Maps of Content** - hub index at [[Maps of Content]]
-- **Status & review** - seedling/evergreen/inbox/archived badges, [/notes/review/](/notes/review/) for inbox + stale notes
-- **Resurfacing** - recently updated list and random note on [/notes/](/notes/)
+- **Status badges** - seedling/evergreen/inbox/archived on each note; stale filter uses file edit time on [/notes/](/notes/)
+- **Resurfacing** - recently created list and random note on [/notes/](/notes/)
 
 ## Explore
 
 - **Outgoing links** and **backlinks** (with snippets) show below each note.
 - **See also** suggests tag-related notes you haven't linked yet.
-- **Graph** at [/notes/graph/](/notes/graph/) maps connections - filter orphans, hubs, and dead ends.
-- **Weekly review** at [/notes/review/](/notes/review/) — inbox queue and notes past the review window.
+- **Graph** at [/notes/graph/](/notes/graph/) maps connections - filter notes with no links, too many links, and dead ends.
+- **Status filters** on [/notes/](/notes/) — inbox, stale (by file edit age), seedling, evergreen, archived.
 - `npm run lint:notes` catches broken wikilinks and unlinked mentions at build time.
 
 ## Publish to the blog
 
 When a note is ready for a longer-form post, I distill it into `content/english/blog/` with the same frontmatter shape and set `draft: false`.
-
-## See also
-
-- [[Maps of Content]]
-- [[PKM]]
-- [[Atomic Notes]]
-- [[Building a Second Brain]]

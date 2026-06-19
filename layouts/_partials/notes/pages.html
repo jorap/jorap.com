@@ -1,10 +1,12 @@
 {{- /*
-  All garden pages: notes section, daily subsection, and review branch.
+  All garden pages under content/english/notes/.
   Excludes graph layout. Pass dict with ExcludeKinds (slice) to omit note_kind values.
 */ -}}
 {{- $excludeKinds := slice -}}
-{{- if isset . "ExcludeKinds" -}}
-  {{- $excludeKinds = .ExcludeKinds -}}
+{{- if reflect.IsMap . -}}
+  {{- with .ExcludeKinds -}}
+    {{- $excludeKinds = . -}}
+  {{- end -}}
 {{- end -}}
 {{- $pages := slice -}}
 
@@ -14,9 +16,6 @@
     {{- continue -}}
   {{- end -}}
   {{- if eq .Params.layout "graph" -}}
-    {{- continue -}}
-  {{- end -}}
-  {{- if eq .Params.layout "review" -}}
     {{- continue -}}
   {{- end -}}
   {{- $kind := .Params.note_kind | default "note" -}}

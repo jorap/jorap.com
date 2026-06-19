@@ -15,12 +15,11 @@ aliases: []
 
 **From note to book** = compile, don't invent - MOC as table of contents, atoms as chapters.
 
-Start with a [[Maps of Content]] as the table of contents. Each chapter pulls linked [[Atomic Notes]]; gaps show up as missing links. Assembly writing: expand what's already true, don't invent from zero.
+Start with a [[Maps of Content]] as the table of contents. Each chapter pulls linked [[Atomic Notes]]; gaps show up as missing links. Build the book from notes you already wrote - expand what's already true, don't invent from zero. Pairs with [[Creative Output]].
 
 ## See also
 
-- [[Creative Output]] - PKM, Publishing, Writing
-- [[Drafting in Public]] - PKM, Publishing, Writing
-- [[Evergreen Notes]] - Evergreen Notes, PKM, Writing
-- [[Advantages of Digital Gardens]] - PKM, Publishing
-- [[Creative Blocks]] - PKM, Writing
+- [[Drafting in Public]] — PKM, Publishing, Writing
+- [[Evergreen Notes]] — Evergreen Notes, PKM, Writing
+- [[Advantages of Digital Gardens]] — PKM, Publishing
+- [[Creative Blocks]] — PKM, Writing

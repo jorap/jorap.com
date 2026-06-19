@@ -15,12 +15,10 @@ aliases: []
 
 **Interstitial journaling** = thirty seconds between tasks: what happened, what's next, what's stuck in RAM.
 
-Clears the mental tab bar before deep work. Often feeds [[Capture]] or stays in [[Daily Notes]] until Friday. Not a diary - a buffer flush.
+Clears the mental tab bar before deep work. Often feeds [[Capture]] or stays in [[Daily Notes]] until Friday. Not a diary - a buffer flush. Pairs with [[Mobile Capture Workflows]].
 
 ## See also
 
-- [[Daily Notes]] - Journaling, PKM, Productivity
-- [[Digital Minimalism]] - Focus, PKM, Productivity
-- [[Distraction-Free Writing]] - Focus, PKM, Productivity
-- [[Mobile Capture Workflows]] - PKM, Productivity, Workflow
-- [[Second Brain Daily Workflow]] - PKM, Productivity, Workflow
+- [[Slow Productivity]] — Focus, Note Taking, PKM
+- [[Active Knowledge Curation]] — Note Taking, PKM, Productivity
+- [[Analog Capture Tools]] — Note Taking, PKM, Productivity

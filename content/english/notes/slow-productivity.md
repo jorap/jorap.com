@@ -15,12 +15,11 @@ aliases: []
 
 **Slow productivity** = fewer active projects so notes become output, not guilt backlog.
 
-Busy isn't depth. I'd rather finish three things than juggle twelve. Pairs with [[Process Over Outcomes]] and [[Creative Output]].
+Busy isn't depth. I'd rather finish three things than juggle twelve. Pairs with [[Process Over Outcomes]] and [[Creative Output]]. Also pairs with [[Digital Minimalism]].
 
 ## See also
 
-- [[Digital Minimalism]] - Focus, PKM, Productivity
-- [[Distraction-Free Writing]] - Focus, PKM, Productivity
-- [[Interstitial Journaling]] - Focus, PKM, Productivity
-- [[Active Knowledge Curation]] - PKM, Productivity
-- [[Analog Capture Tools]] - PKM, Productivity
+- [[Interstitial Journaling]] — Focus, Note Taking, PKM
+- [[Active Knowledge Curation]] — Note Taking, PKM, Productivity
+- [[Analog Capture Tools]] — Note Taking, PKM, Productivity
+- [[Capture]] — Note Taking, PKM, Productivity

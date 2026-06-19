@@ -1,7 +1,7 @@
 ---
 title: "Context-Aware Capture"
 meta_title: "Context-Aware Capture - Save the Why, Not Just the What"
-description: "Context-aware capture records why you saved something - project, mood, question - while it's still obvious."
+description: "Capture the why while you still remember it - project, mood, question - not just the link."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,14 +13,12 @@ draft: false
 aliases: ["context aware capture"]
 ---
 
-**Context-aware capture** = saving the *why* while you still remember it - not just the link.
+**[[Capture]] the why** = save why you saved something - not just the link.
 
-One line beats a perfect title: "for the sermon series" or "contradicts my take on X." Future me needs the hook. Pairs with [[Intellectual Sourcing]] when the save is a quote or link.
+One line beats a perfect title: "for the sermon series" or "contradicts my take on X." Future me needs the hook. Pairs with [[Intellectual Sourcing]] when the save is a quote or link. Also pairs with [[Mobile Capture Workflows]].
 
 ## See also
 
-- [[Building a Second Brain]] - Capture, Note Taking, PKM
-- [[Capture]] - Capture, Note Taking, PKM
-- [[Active Knowledge Curation]] - Note Taking, PKM, Second Brain
-- [[Advantages of Digital Gardens]] - Note Taking, PKM, Second Brain
-- [[Analog Capture Tools]] - Capture, Note Taking, PKM
+- [[Building a Second Brain]] — Capture, Note Taking, PKM
+- [[Collaborative Knowledge]] — Note Taking, PKM, Second Brain
+- [[Active Knowledge Curation]] — Note Taking, PKM, Second Brain

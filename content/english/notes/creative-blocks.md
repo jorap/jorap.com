@@ -15,12 +15,10 @@ aliases: []
 
 **Creative block** = too much inventory, not enough shipping. More capture rarely fixes it.
 
-I pick one small express action: outline three bullets, publish a stub, record a voice memo. Shipping something ugly unsticks me faster than another save. See [[Creative Output]] and [[Process Over Outcomes]].
+I pick one small express action: outline three bullets, publish a stub, record a voice memo. Shipping something ugly unsticks me faster than another save. See [[Creative Output]] and [[Process Over Outcomes]]. Pairs with [[Synthesis as a Goal]].
 
 ## See also
 
-- [[Creative Output]] - Express, PKM, Second Brain
-- [[Synthesis as a Goal]] - Express, PKM, Second Brain
-- [[Active Knowledge Curation]] - PKM, Productivity, Second Brain
-- [[Building a Second Brain]] - PKM, Productivity, Second Brain
-- [[Capture]] - PKM, Productivity, Second Brain
+- [[Active Knowledge Curation]] — PKM, Productivity, Second Brain
+- [[Building a Second Brain]] — PKM, Productivity, Second Brain
+- [[Capture]] — PKM, Productivity, Second Brain

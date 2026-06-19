@@ -25,10 +25,7 @@
             {{- if ne (.Params.note_kind | default "note") "meta" -}}
               <div class="notes-single-meta text-ink-muted mb-4 flex flex-wrap items-center gap-3 text-sm">
                 {{ partial "notes/status-badge.html" (dict "Page" .) }}
-                <span>Last reviewed {{ $meta.LastReviewed.Format "Jan 2, 2006" }}</span>
-                {{- if eq (.Params.note_kind | default "note") "daily" -}}
-                  <span class="notes-daily-label">Daily note</span>
-                {{- end -}}
+                <span>Created {{ $meta.Created.Format "Jan 2, 2006" }} · Updated {{ $meta.Updated.Format "Jan 2, 2006" }}</span>
               </div>
             {{- end -}}
 

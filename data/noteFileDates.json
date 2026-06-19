@@ -1,0 +1,322 @@
+{
+  "notes/active-knowledge-curation.md": {
+    "created": "2026-06-19T07:07:42.049Z",
+    "updated": "2026-06-19T10:48:16.243Z"
+  },
+  "notes/advantages-of-digital-gardens.md": {
+    "created": "2026-06-19T07:07:42.049Z",
+    "updated": "2026-06-19T10:36:47.943Z"
+  },
+  "notes/analog-capture-tools.md": {
+    "created": "2026-06-19T07:07:42.050Z",
+    "updated": "2026-06-19T10:36:47.943Z"
+  },
+  "notes/anti-fragile-systems.md": {
+    "created": "2026-06-19T07:07:42.050Z",
+    "updated": "2026-06-19T10:36:47.944Z"
+  },
+  "notes/associative-linking.md": {
+    "created": "2026-06-19T07:07:42.050Z",
+    "updated": "2026-06-19T10:36:47.945Z"
+  },
+  "notes/atomic-design-for-notes.md": {
+    "created": "2026-06-19T07:07:42.050Z",
+    "updated": "2026-06-19T10:36:47.946Z"
+  },
+  "notes/atomic-notes.md": {
+    "created": "2026-06-19T07:07:42.050Z",
+    "updated": "2026-06-19T10:48:16.244Z"
+  },
+  "notes/building-a-personal-api.md": {
+    "created": "2026-06-19T07:07:42.050Z",
+    "updated": "2026-06-19T10:36:47.948Z"
+  },
+  "notes/building-a-second-brain.md": {
+    "created": "2026-06-19T07:07:42.050Z",
+    "updated": "2026-06-19T10:36:47.949Z"
+  },
+  "notes/bullet-journaling.md": {
+    "created": "2026-06-19T07:07:42.050Z",
+    "updated": "2026-06-19T10:36:47.950Z"
+  },
+  "notes/capture.md": {
+    "created": "2026-06-19T07:07:42.050Z",
+    "updated": "2026-06-19T10:36:47.951Z"
+  },
+  "notes/collaborative-knowledge.md": {
+    "created": "2026-06-19T07:07:42.050Z",
+    "updated": "2026-06-19T10:36:47.952Z"
+  },
+  "notes/compounding.md": {
+    "created": "2026-06-19T10:15:31.291Z",
+    "updated": "2026-06-19T10:48:16.245Z"
+  },
+  "notes/context-aware-capture.md": {
+    "created": "2026-06-19T07:07:42.050Z",
+    "updated": "2026-06-19T10:36:47.954Z"
+  },
+  "notes/creative-blocks.md": {
+    "created": "2026-06-19T07:07:42.050Z",
+    "updated": "2026-06-19T10:36:47.955Z"
+  },
+  "notes/creative-output.md": {
+    "created": "2026-06-19T07:07:42.050Z",
+    "updated": "2026-06-19T10:36:47.955Z"
+  },
+  "notes/curation-as-creation.md": {
+    "created": "2026-06-19T07:07:42.050Z",
+    "updated": "2026-06-19T10:36:47.956Z"
+  },
+  "notes/daily-notes.md": {
+    "created": "2026-06-19T07:07:42.050Z",
+    "updated": "2026-06-19T10:36:47.957Z"
+  },
+  "notes/digital-garden.md": {
+    "created": "2026-06-19T07:07:42.050Z",
+    "updated": "2026-06-19T10:36:47.958Z"
+  },
+  "notes/digital-minimalism.md": {
+    "created": "2026-06-19T07:07:42.050Z",
+    "updated": "2026-06-19T10:36:47.959Z"
+  },
+  "notes/digital-serendipity.md": {
+    "created": "2026-06-19T07:07:42.050Z",
+    "updated": "2026-06-19T10:36:47.960Z"
+  },
+  "notes/distraction-free-writing.md": {
+    "created": "2026-06-19T07:07:42.050Z",
+    "updated": "2026-06-19T10:36:47.961Z"
+  },
+  "notes/drafting-in-public.md": {
+    "created": "2026-06-19T07:07:42.050Z",
+    "updated": "2026-06-19T10:36:47.961Z"
+  },
+  "notes/e2ee-security.md": {
+    "created": "2026-06-19T07:07:42.050Z",
+    "updated": "2026-06-19T10:36:47.962Z"
+  },
+  "notes/evergreen-notes.md": {
+    "created": "2026-06-19T07:07:42.050Z",
+    "updated": "2026-06-19T10:48:16.242Z"
+  },
+  "notes/evergreen-vs-fleeting-notes.md": {
+    "created": "2026-06-19T07:07:42.051Z",
+    "updated": "2026-06-19T10:54:54.854Z"
+  },
+  "notes/first-principles-thinking.md": {
+    "created": "2026-06-19T07:07:42.051Z",
+    "updated": "2026-06-19T10:36:47.965Z"
+  },
+  "notes/formatting-for-readability.md": {
+    "created": "2026-06-19T07:07:42.051Z",
+    "updated": "2026-06-19T10:36:47.966Z"
+  },
+  "notes/from-note-to-book.md": {
+    "created": "2026-06-19T07:07:42.051Z",
+    "updated": "2026-06-19T10:36:47.967Z"
+  },
+  "notes/future-proofing-knowledge.md": {
+    "created": "2026-06-19T07:07:42.051Z",
+    "updated": "2026-06-19T10:36:47.967Z"
+  },
+  "notes/getting-started.md": {
+    "created": "2026-06-19T07:07:42.051Z",
+    "updated": "2026-06-19T10:48:12.195Z"
+  },
+  "notes/graph-view-analytics.md": {
+    "created": "2026-06-19T07:07:42.051Z",
+    "updated": "2026-06-19T10:37:51.273Z"
+  },
+  "notes/graph.md": {
+    "created": "2026-06-19T07:07:42.051Z",
+    "updated": "2026-06-19T10:21:20.197Z"
+  },
+  "notes/gtd-vs-para.md": {
+    "created": "2026-06-19T07:07:42.051Z",
+    "updated": "2026-06-19T10:36:47.970Z"
+  },
+  "notes/intellectual-sourcing.md": {
+    "created": "2026-06-19T07:07:42.051Z",
+    "updated": "2026-06-19T10:36:47.971Z"
+  },
+  "notes/interstitial-journaling.md": {
+    "created": "2026-06-19T07:07:42.051Z",
+    "updated": "2026-06-19T10:36:47.972Z"
+  },
+  "notes/local-first-software.md": {
+    "created": "2026-06-19T07:07:42.051Z",
+    "updated": "2026-06-19T10:36:47.972Z"
+  },
+  "notes/low-hanging-fruit.md": {
+    "created": "2026-06-19T10:21:54.680Z",
+    "updated": "2026-06-19T10:48:16.241Z"
+  },
+  "notes/maps-of-content.md": {
+    "created": "2026-06-19T07:07:42.051Z",
+    "updated": "2026-06-19T10:54:56.324Z"
+  },
+  "notes/mental-models-list.md": {
+    "created": "2026-06-19T07:07:42.051Z",
+    "updated": "2026-06-19T10:48:16.245Z"
+  },
+  "notes/metadata-strategy.md": {
+    "created": "2026-06-19T07:07:42.051Z",
+    "updated": "2026-06-19T10:36:47.981Z"
+  },
+  "notes/mind-mapping.md": {
+    "created": "2026-06-19T07:07:42.051Z",
+    "updated": "2026-06-19T10:36:47.982Z"
+  },
+  "notes/minimum-effective-dose.md": {
+    "created": "2026-06-19T10:07:11.850Z",
+    "updated": "2026-06-19T10:48:16.243Z"
+  },
+  "notes/minimum-viable-product.md": {
+    "created": "2026-06-19T10:11:57.637Z",
+    "updated": "2026-06-19T10:48:16.242Z"
+  },
+  "notes/mobile-capture-workflows.md": {
+    "created": "2026-06-19T07:07:42.051Z",
+    "updated": "2026-06-19T10:36:47.985Z"
+  },
+  "notes/newsletter-filtering.md": {
+    "created": "2026-06-19T07:07:42.051Z",
+    "updated": "2026-06-19T10:36:47.986Z"
+  },
+  "notes/note-taking-for-researchers.md": {
+    "created": "2026-06-19T07:07:42.051Z",
+    "updated": "2026-06-19T10:36:47.987Z"
+  },
+  "notes/organization.md": {
+    "created": "2026-06-19T07:07:42.051Z",
+    "updated": "2026-06-19T10:36:47.988Z"
+  },
+  "notes/para-method.md": {
+    "created": "2026-06-19T07:07:42.051Z",
+    "updated": "2026-06-19T10:36:47.989Z"
+  },
+  "notes/pareto-principle.md": {
+    "created": "2026-06-19T10:14:49.763Z",
+    "updated": "2026-06-19T10:48:16.245Z"
+  },
+  "notes/periodic-knowledge-review.md": {
+    "created": "2026-06-19T07:07:42.052Z",
+    "updated": "2026-06-19T10:58:59.910Z"
+  },
+  "notes/pkm.md": {
+    "created": "2026-06-19T07:07:42.052Z",
+    "updated": "2026-06-19T10:48:16.242Z"
+  },
+  "notes/privacy-and-data-sovereignty.md": {
+    "created": "2026-06-19T07:07:42.052Z",
+    "updated": "2026-06-19T10:48:16.243Z"
+  },
+  "notes/process-over-outcomes.md": {
+    "created": "2026-06-19T07:07:42.052Z",
+    "updated": "2026-06-19T10:36:47.994Z"
+  },
+  "notes/progressive-summarization.md": {
+    "created": "2026-06-19T07:07:42.052Z",
+    "updated": "2026-06-19T10:36:47.995Z"
+  },
+  "notes/rss-for-research.md": {
+    "created": "2026-06-19T07:07:42.052Z",
+    "updated": "2026-06-19T10:36:47.996Z"
+  },
+  "notes/second-brain-daily-workflow.md": {
+    "created": "2026-06-19T07:07:42.052Z",
+    "updated": "2026-06-19T10:36:47.997Z"
+  },
+  "notes/serendipitous-resurfacing.md": {
+    "created": "2026-06-19T07:07:42.052Z",
+    "updated": "2026-06-19T10:36:47.998Z"
+  },
+  "notes/signal-vs-noise.md": {
+    "created": "2026-06-19T07:07:42.052Z",
+    "updated": "2026-06-19T10:36:47.999Z"
+  },
+  "notes/slip-box-history.md": {
+    "created": "2026-06-19T07:07:42.052Z",
+    "updated": "2026-06-19T10:36:48.000Z"
+  },
+  "notes/slow-productivity.md": {
+    "created": "2026-06-19T07:07:42.052Z",
+    "updated": "2026-06-19T10:36:48.001Z"
+  },
+  "notes/spaced-repetition-systems.md": {
+    "created": "2026-06-19T07:07:42.052Z",
+    "updated": "2026-06-19T10:36:48.002Z"
+  },
+  "notes/spaced-repetition.md": {
+    "created": "2026-06-19T07:07:42.052Z",
+    "updated": "2026-06-19T10:36:48.003Z"
+  },
+  "notes/sunk-cost-fallacy.md": {
+    "created": "2026-06-19T10:12:14.133Z",
+    "updated": "2026-06-19T10:48:16.244Z"
+  },
+  "notes/synthesis-as-a-goal.md": {
+    "created": "2026-06-19T07:07:42.052Z",
+    "updated": "2026-06-19T10:36:48.005Z"
+  },
+  "notes/the-12-week-year.md": {
+    "created": "2026-06-19T07:07:42.052Z",
+    "updated": "2026-06-19T10:59:00.397Z"
+  },
+  "notes/the-archive-method.md": {
+    "created": "2026-06-19T07:07:42.052Z",
+    "updated": "2026-06-19T10:36:48.006Z"
+  },
+  "notes/the-collectors-fallacy.md": {
+    "created": "2026-06-19T07:07:42.052Z",
+    "updated": "2026-06-19T10:36:48.007Z"
+  },
+  "notes/the-feynman-technique.md": {
+    "created": "2026-06-19T07:07:42.052Z",
+    "updated": "2026-06-19T10:36:48.008Z"
+  },
+  "notes/the-future-of-pkm.md": {
+    "created": "2026-06-19T07:07:42.052Z",
+    "updated": "2026-06-19T10:59:01.379Z"
+  },
+  "notes/the-garage-concept.md": {
+    "created": "2026-06-19T07:07:42.052Z",
+    "updated": "2026-06-19T10:36:48.010Z"
+  },
+  "notes/the-knowledge-lifecycle.md": {
+    "created": "2026-06-19T07:07:42.052Z",
+    "updated": "2026-06-19T10:36:48.011Z"
+  },
+  "notes/the-power-of-interconnectivity.md": {
+    "created": "2026-06-19T07:07:42.052Z",
+    "updated": "2026-06-19T10:36:48.012Z"
+  },
+  "notes/the-second-brain-workflow.md": {
+    "created": "2026-06-19T07:07:42.053Z",
+    "updated": "2026-06-19T10:36:48.013Z"
+  },
+  "notes/the-trusted-inbox.md": {
+    "created": "2026-06-19T07:07:42.053Z",
+    "updated": "2026-06-19T10:57:47.777Z"
+  },
+  "notes/the-zettelkasten-myth.md": {
+    "created": "2026-06-19T07:07:42.053Z",
+    "updated": "2026-06-19T10:36:48.014Z"
+  },
+  "notes/there-is-no-perfect-solution.md": {
+    "created": "2026-06-19T07:07:42.053Z",
+    "updated": "2026-06-19T10:48:16.245Z"
+  },
+  "notes/visual-thinking.md": {
+    "created": "2026-06-19T07:07:42.053Z",
+    "updated": "2026-06-19T10:37:50.690Z"
+  },
+  "notes/weekly-review-checklists.md": {
+    "created": "2026-06-19T07:07:42.053Z",
+    "updated": "2026-06-19T10:37:50.504Z"
+  },
+  "notes/zettelkasten.md": {
+    "created": "2026-06-19T07:07:42.053Z",
+    "updated": "2026-06-19T10:36:48.019Z"
+  }
+}

@@ -15,12 +15,10 @@ aliases: ["the collectors fallacy", "Collector's Fallacy"]
 
 **Collector's fallacy** = saving feels like learning. It isn't until something ships.
 
-I tied every save to a question: what will I make with this? No [[Creative Output]], no save - harsh, but the backlog shrank. Reading isn't learning until something leaves the notebook.
+I tied every save to a question: what will I make with this? No [[Creative Output]], no save - harsh, but the backlog shrank. Reading isn't learning until something leaves the notebook. Pairs with [[Analog Capture Tools]] and [[Capture]].
 
 ## See also
 
-- [[Analog Capture Tools]] - Capture, PKM, Productivity
-- [[Building a Second Brain]] - Capture, PKM, Productivity
-- [[Capture]] - Capture, PKM, Productivity
-- [[Creative Blocks]] - Express, PKM, Productivity
-- [[Mobile Capture Workflows]] - Capture, PKM, Productivity
+- [[Mobile Capture Workflows]] — Capture, Note Taking, PKM
+- [[PKM]] — Learning, Note Taking, PKM
+- [[Building a Second Brain]] — Capture, Note Taking, PKM

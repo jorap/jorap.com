@@ -15,12 +15,10 @@ aliases: []
 
 **Visual thinking** = boxes and arrows before prose piles up.
 
-Sketch the system before words take over. Ugly diagrams in the note - Excalidraw embeds fine. Complements [[Mind Mapping]]; both feed atomic notes after the picture clears.
+Sketch the system before words take over. Ugly diagrams in the note - Excalidraw embeds fine. Complements [[Mind Mapping]]; both feed [[Atomic Notes|atomic notes]] after the picture clears. Pairs with [[Graph View Analytics]].
 
 ## See also
 
-- [[Mind Mapping]] - Mind Mapping, PKM, Visual Thinking
-- [[Active Knowledge Curation]] - PKM
-- [[Advantages of Digital Gardens]] - PKM
-- [[Analog Capture Tools]] - PKM
-- [[Anti-Fragile Systems]] - PKM
+- [[Active Knowledge Curation]] — PKM
+- [[Advantages of Digital Gardens]] — PKM
+- [[Analog Capture Tools]] — PKM

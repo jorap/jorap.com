@@ -15,12 +15,10 @@ aliases: []
 
 **Digital serendipity** = designing luck - systems where old notes surprise you at the right time.
 
-Backlinks, random walks through [[Maps of Content]], and review queues surface what search misses. Luck isn't random when the graph is dense enough.
+Backlinks, random walks through [[Maps of Content]], and review queues surface what search misses. Luck isn't random when the graph is dense enough. Pairs with [[Serendipitous Resurfacing]] and [[Associative Linking]].
 
 ## See also
 
-- [[Serendipitous Resurfacing]] - Discovery, PKM, Review
-- [[Associative Linking]] - Linking, PKM, Second Brain
-- [[Periodic Knowledge Review]] - PKM, Review, Second Brain
-- [[The Power of Interconnectivity]] - Linking, PKM, Second Brain
-- [[Active Knowledge Curation]] - PKM, Second Brain
+- [[Atomic Notes]] — Linking, Note Taking, PKM
+- [[Periodic Knowledge Review]] — Note Taking, PKM, Review
+- [[Active Knowledge Curation]] — Note Taking, PKM, Second Brain

@@ -13,14 +13,12 @@ draft: false
 aliases: []
 ---
 
-**Curation as creation** = choosing order and neighbors is an argument, not housekeeping.
+**Curation as creation** = what you include and what sits next to it is a point of view, not filing.
 
-A [[Maps of Content]] is a curated playlist of ideas - order is an argument. What you include, cut, and sit beside what is as creative as drafting new prose.
+A [[Maps of Content]] is a curated playlist of ideas - order is an argument. What you include, cut, and sit beside what is as creative as drafting new prose. Pairs with [[Active Knowledge Curation]] and [[Advantages of Digital Gardens]].
 
 ## See also
 
-- [[Active Knowledge Curation]] - Curation, Note Taking, PKM
-- [[Advantages of Digital Gardens]] - Note Taking, PKM, Second Brain
-- [[Associative Linking]] - Note Taking, PKM, Second Brain
-- [[Atomic Design for Notes]] - Note Taking, PKM, Second Brain
-- [[Building a Second Brain]] - Note Taking, PKM, Second Brain
+- [[Associative Linking]] — Note Taking, PKM, Second Brain
+- [[Atomic Design for Notes]] — Note Taking, PKM, Second Brain
+- [[Atomic Notes]] — Note Taking, PKM, Second Brain

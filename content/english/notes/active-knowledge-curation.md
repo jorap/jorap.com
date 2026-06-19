@@ -12,17 +12,14 @@ featured: false
 draft: false
 aliases: []
 status: evergreen
-last_reviewed: 2026-06-19T08:00:00Z
 ---
 
-**Active curation** = revisiting notes on a schedule and cutting what you wouldn't save again today.
+**Regular note cleanup** = revisiting notes on a schedule and cutting what you wouldn't save again today.
 
-Hoarding links isn't curation. Once a month I open old folders and ask: save again today? If not, delete or merge. That's [[Periodic Knowledge Review]] with teeth - fewer notes, stronger links, notes I actually open.
+Hoarding links isn't curation. Once a month I open old folders and ask: save again today? If not, delete or merge. That's [[Periodic Knowledge Review]] with teeth - fewer notes, stronger links, notes I actually open. Pairs with [[Building a Second Brain]] and [[Capture]].
 
 ## See also
 
-- [[Building a Second Brain]] - Knowledge Management, Note Taking, PKM
-- [[Capture]] - Note Taking, PKM, Productivity
-- [[Curation as Creation]] - Curation, Note Taking, PKM
-- [[PKM]] - Note Taking, PKM, Productivity
-- [[Advantages of Digital Gardens]] - Note Taking, PKM, Second Brain
+- [[Collaborative Knowledge]] — Knowledge Management, Note Taking, PKM
+- [[Curation as Creation]] — Curation, Note Taking, PKM
+- [[GTD vs PARA]] — Note Taking, PKM, Productivity

@@ -12,17 +12,14 @@ featured: false
 draft: false
 aliases: []
 status: evergreen
-last_reviewed: 2026-06-19T08:00:00Z
 ---
 
 **Evergreen notes** = claims written to stay true - timeless voice, updated when reality shifts.
 
-Complete sentences I'd still stand behind in two years. Revise when tools change, not when trends spike. Promote from fleeting during [[Periodic Knowledge Review]], when a spark keeps returning.
+Complete sentences I'd still stand behind in two years. Revise when tools change, not when trends spike. Promote from fleeting during [[Periodic Knowledge Review]], when a spark keeps returning. Pairs with [[Associative Linking]] and [[Atomic Design for Notes]].
 
 ## See also
 
-- [[Associative Linking]] - Note Taking, PKM, Second Brain
-- [[Atomic Design for Notes]] - Note Taking, PKM, Second Brain
-- [[Evergreen vs Fleeting Notes]] - Evergreen Notes, Note Taking, PKM
-- [[Active Knowledge Curation]] - Note Taking, PKM, Second Brain
-- [[Advantages of Digital Gardens]] - Note Taking, PKM, Second Brain
+- [[Atomic Notes]] — Note Taking, PKM, Second Brain
+- [[Evergreen vs Fleeting Notes]] — Evergreen Notes, Note Taking, PKM
+- [[Active Knowledge Curation]] — Note Taking, PKM, Second Brain

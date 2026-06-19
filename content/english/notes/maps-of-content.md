@@ -12,12 +12,9 @@ featured: true
 draft: false
 aliases: ["MOC"]
 status: evergreen
-last_reviewed: 2026-06-19T08:00:00Z
 ---
 
-**Map of Content (MOC)** = a hand-written table of contents - a hub note that curates links, not folders.
-
-MOCs are how I wander the garden without memorizing filenames. Below is the index I actually use.
+**Maps of Content (MOCs)** are hub notes that index related ideas. Use this page to wander the garden.
 
 ## Maps
 
@@ -29,12 +26,6 @@ MOCs are how I wander the garden without memorizing filenames. Below is the inde
 - [[Atomic Notes]]
 - [[Maps of Content]]
 - [[Getting Started]]
-
-### Maintain
-
-- [[Weekly Review Checklists]]
-- [/notes/review/](/notes/review/) — inbox + stale queue
-- [/notes/daily/](/notes/daily/) — daily capture archive
 
 ### Capture
 
@@ -52,6 +43,7 @@ MOCs are how I wander the garden without memorizing filenames. Below is the inde
 - [[GTD vs PARA]]
 - [[Organization]]
 - [[The Archive Method]]
+- [[The Knowledge Lifecycle]]
 - [[Metadata Strategy]]
 - [[Daily Notes]]
 
@@ -62,6 +54,7 @@ MOCs are how I wander the garden without memorizing filenames. Below is the inde
 - [[Periodic Knowledge Review]]
 - [[Evergreen Notes]]
 - [[Evergreen vs Fleeting Notes]]
+- [[The 12 Week Year]]
 - [[Serendipitous Resurfacing]]
 
 ### Connect & explore

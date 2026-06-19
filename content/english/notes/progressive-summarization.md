@@ -15,12 +15,9 @@ aliases: []
 
 **Progressive summarization** = distill in layers on reuse - bold, then highlight, then summary at top.
 
-Layer one: bold the good sentences. Layer two: highlight the best bold. Layer three: summary at top - only when I reach for the note a second time. Part of the distill step in [[Building a Second Brain]].
+Layer one: bold the good sentences. Layer two: highlight the best bold. Layer three: summary at top - only when I reach for the note a second time. Part of the distill step in [[Building a Second Brain]]. Pairs with [[Intellectual Sourcing]] and [[Capture]].
 
 ## See also
 
-- [[Building a Second Brain]] - CODE Method, Note Taking, PKM
-- [[Capture]] - CODE Method, Note Taking, PKM
-- [[Active Knowledge Curation]] - Note Taking, PKM
-- [[Advantages of Digital Gardens]] - Note Taking, PKM
-- [[Analog Capture Tools]] - Note Taking, PKM
+- [[Evergreen Notes]] — Note Taking, PKM, Writing
+- [[Note-Taking for Researchers]] — Note Taking, PKM, Research

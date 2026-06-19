@@ -15,12 +15,10 @@ aliases: []
 
 **Creative output** = notes leaving the warehouse - posts, sermons, code, dinner experiments.
 
-Every project gets an express deadline, even if it's just "post one paragraph." Notes without output become [[The Collector's Fallacy]]. Inventory exists to leave the warehouse.
+Every project gets an express deadline, even if it's just "post one paragraph." Notes without output become [[The Collector's Fallacy]]. Inventory exists to leave the warehouse. Pairs with [[Creative Blocks]] and [[Synthesis as a Goal]].
 
 ## See also
 
-- [[Creative Blocks]] - Express, PKM, Second Brain
-- [[Synthesis as a Goal]] - Express, PKM, Second Brain
-- [[Advantages of Digital Gardens]] - PKM, Publishing, Second Brain
-- [[Digital Garden]] - PKM, Publishing, Second Brain
-- [[Drafting in Public]] - PKM, Publishing, Writing
+- [[Advantages of Digital Gardens]] — PKM, Publishing, Second Brain
+- [[Digital Garden]] — PKM, Publishing, Second Brain
+- [[Drafting in Public]] — PKM, Publishing, Writing

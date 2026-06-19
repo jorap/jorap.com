@@ -15,12 +15,9 @@ aliases: ["distraction free writing"]
 
 **Distraction-free writing** = fullscreen, plain text, phone in another room - fewer exits, more sentences.
 
-Plain Markdown, full screen, notifications off. Same subtraction mindset as [[Digital Minimalism]]: fancy writing apps became another place to tweak instead of type. One uninterrupted paragraph, then another.
+Plain Markdown, full screen, notifications off. Same subtraction mindset as [[Digital Minimalism]]: fancy writing apps became another place to tweak instead of type. One uninterrupted paragraph, then another. Pairs with [[Creative Blocks]] and [[Formatting for Readability]].
 
 ## See also
 
-- [[Creative Blocks]] - PKM, Productivity, Writing
-- [[Digital Minimalism]] - Focus, PKM, Productivity
-- [[Formatting for Readability]] - Markdown, PKM, Writing
-- [[Interstitial Journaling]] - Focus, PKM, Productivity
-- [[Slow Productivity]] - Focus, PKM, Productivity
+- [[Interstitial Journaling]] — Focus, PKM, Productivity
+- [[Low Hanging Fruit]] — Focus, PKM, Productivity

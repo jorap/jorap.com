@@ -15,12 +15,9 @@ aliases: ["GTD"]
 
 **GTD runs tasks. PARA runs notes.** Cousins, not competitors.
 
-Tasks live in the task app with contexts and next actions. Reference and project material lives in [[PARA Method]] buckets. Overlap is fine; duplicate filing is the tax I refuse to pay.
+Tasks live in the task app with contexts and next actions. Reference and project material lives in [[PARA Method]] buckets. Overlap is fine; duplicate filing is the tax I refuse to pay. Pairs with [[Active Knowledge Curation]] and [[Capture]].
 
 ## See also
 
-- [[PARA Method]] - PARA, PKM, Productivity
-- [[Building a Second Brain]] - PKM, Productivity, Tiago Forte
-- [[Organization]] - PARA, PKM, Productivity
-- [[The Archive Method]] - PARA, PKM, Productivity
-- [[The Second Brain Workflow]] - PARA, PKM, Productivity
+- [[Organization]] — Note Taking, PARA, PKM
+- [[PKM]] — Note Taking, PKM, Productivity

@@ -15,12 +15,10 @@ aliases: []
 
 **RSS for research** = appointment reading - subscribe to blogs, batch read, clip to notes.
 
-Feed reader, not timeline. Blogs I trust, batch read, clip to [[Capture]] with context. Twitter was infinite noise dressed as research; RSS is appointment reading.
+Feed reader, not timeline. Blogs I trust, batch read, clip to [[Capture]] with context. Twitter was infinite noise dressed as research; RSS is appointment reading. Pairs with [[PKM]] and [[Newsletter Filtering]].
 
 ## See also
 
-- [[Second Brain Daily Workflow]] - Information Diet, Learning, PKM
-- [[Newsletter Filtering]] - Information Diet, PKM, RSS
-- [[Intellectual Sourcing]] - PKM, Research
-- [[Mental Models List]] - Learning, PKM
-- [[Note-Taking for Researchers]] - PKM, Research
+- [[Second Brain Daily Workflow]] — Information Diet, Learning, PKM
+- [[Active Knowledge Curation]] — Note Taking, PKM, Second Brain
+- [[Associative Linking]] — Note Taking, PKM, Second Brain

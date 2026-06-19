@@ -13,14 +13,12 @@ draft: false
 aliases: []
 ---
 
-**Synthesis** = your words merging sources into what you believe and can defend.
+**Synthesis** = put it in your own words - what you actually think, and why.
 
-After reading, one note in my words: what I think now, what would change my mind. Quotes are evidence, not the product. Without synthesis, [[PKM]] is a bookmark graveyard.
+After reading, one note in my words: what I think now, what would change my mind. Quotes are evidence, not the product. Without that step, [[PKM]] is a bookmark graveyard. Pairs with [[Creative Blocks]] and [[Creative Output]].
 
 ## See also
 
-- [[Creative Blocks]] - Express, PKM, Second Brain
-- [[Creative Output]] - Express, PKM, Second Brain
-- [[Evergreen Notes]] - PKM, Second Brain, Writing
-- [[Active Knowledge Curation]] - PKM, Second Brain
-- [[Advantages of Digital Gardens]] - PKM, Second Brain
+- [[Digital Serendipity]] — PKM, Research, Second Brain
+- [[Evergreen Notes]] — PKM, Second Brain, Writing
+- [[Intellectual Sourcing]] — PKM, Research, Writing

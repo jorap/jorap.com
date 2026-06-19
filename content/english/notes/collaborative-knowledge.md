@@ -13,14 +13,12 @@ draft: false
 aliases: []
 ---
 
-**Collaborative knowledge** = shared context with owners, edit norms, and one source of truth per topic.
+**Collaborative knowledge** = shared docs with clear owners, edit rules, and one official doc per topic.
 
-Most of my notes are solo; team docs live where decisions stick. I keep a solo [[Digital Garden]] for thinking. Different jobs, different homes.
+Most of my notes are solo; team docs live where decisions stick. I keep a solo [[Digital Garden]] for thinking. Different jobs, different homes. Pairs with [[Active Knowledge Curation]] and [[Context-Aware Capture]].
 
 ## See also
 
-- [[Active Knowledge Curation]] - Knowledge Management, PKM, Second Brain
-- [[Building a Personal API]] - Knowledge Management, PKM, Second Brain
-- [[Building a Second Brain]] - Knowledge Management, PKM, Second Brain
-- [[Advantages of Digital Gardens]] - PKM, Second Brain
-- [[Associative Linking]] - PKM, Second Brain
+- [[Associative Linking]] — Note Taking, PKM, Second Brain
+- [[Atomic Design for Notes]] — Note Taking, PKM, Second Brain
+- [[Atomic Notes]] — Note Taking, PKM, Second Brain

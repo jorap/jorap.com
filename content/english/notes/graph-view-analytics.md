@@ -1,7 +1,7 @@
 ---
 title: "Graph View Analytics"
 meta_title: "Graph View Analytics - What the Graph Actually Tells You"
-description: "Graph view finds orphans, hubs, and notes you forgot to link - not just pretty pictures."
+description: "The link map shows notes with no links, notes with too many, and gaps you forgot to connect."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,14 +13,11 @@ draft: false
 aliases: ["Graph View"]
 ---
 
-**Graph analytics** = orphans, hubs, and missing links - not wallpaper.
+**What the link map tells you** = notes with no links, notes with too many, and missing connections - not wallpaper.
 
-Orphans mean missing links; hubs mean overloaded notes that should split. I don't worship the pretty picture - I fix what it accuses. See [[The Power of Interconnectivity]].
+Notes with no links need connecting; notes with too many links probably need splitting. I don't worship the pretty picture - I fix what it shows. See [[The Power of Interconnectivity]]. Pairs with [[Associative Linking]] and [[Atomic Notes]].
 
 ## See also
 
-- [[Associative Linking]] - Linking, Note Taking, PKM
-- [[Zettelkasten]] - Linking, Note Taking, PKM
-- [[Active Knowledge Curation]] - Note Taking, PKM
-- [[Advantages of Digital Gardens]] - Note Taking, PKM
-- [[Analog Capture Tools]] - Note Taking, PKM
+- [[Maps of Content]] — Meta, PKM
+- [[Zettelkasten]] — Linking, Note Taking, PKM

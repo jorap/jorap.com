@@ -13,14 +13,11 @@ draft: false
 aliases: ["Interconnectivity", "Power of Interconnectivity"]
 ---
 
-**Interconnectivity** = a note's value is who it links to; alone it's a fact, in a graph it's an argument.
+**Linked notes** = a note's value is who it links to; alone it's a fact, connected it's a case.
 
-On every edit I ask: what should this link to that it doesn't yet? Density beats volume. See [[Associative Linking]].
+On every edit I ask: what should this link to that it doesn't yet? More links beat more files. See [[Associative Linking]]. Pairs with [[Atomic Notes]] and [[Digital Serendipity]].
 
 ## See also
 
-- [[Associative Linking]] - Linking, PKM, Second Brain
-- [[Digital Serendipity]] - Linking, PKM, Second Brain
-- [[Active Knowledge Curation]] - PKM, Second Brain
-- [[Advantages of Digital Gardens]] - PKM, Second Brain
-- [[Atomic Design for Notes]] - PKM, Second Brain
+- [[Graph View Analytics]] — Graph, Linking, PKM
+- [[Maps of Content]] — Linking, PKM, Second Brain

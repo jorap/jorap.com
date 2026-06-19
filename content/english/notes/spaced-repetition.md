@@ -15,12 +15,9 @@ aliases: []
 
 **Spaced repetition** = review facts on a schedule before you forget - for recall, not whole essays.
 
-Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for. Whole essays don't belong on flashcards. The wiki holds understanding; [[Spaced Repetition Systems (SRS)]] holds drill.
+Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for. Whole essays don't belong on flashcards. The wiki holds understanding; [[Spaced Repetition Systems (SRS)]] holds drill. Pairs with [[PKM]] and [[RSS for Research]].
 
 ## See also
 
-- [[Spaced Repetition Systems (SRS)]] - Anki, Learning, Memory
-- [[Mental Models List]] - Learning, PKM
-- [[PKM]] - Learning, PKM
-- [[RSS for Research]] - Learning, PKM
-- [[Second Brain Daily Workflow]] - Learning, PKM
+- [[The Collector's Fallacy]] — Learning, Note Taking, PKM
+- [[The Feynman Technique]] — Learning, Note Taking, PKM

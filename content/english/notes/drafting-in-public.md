@@ -15,12 +15,10 @@ aliases: []
 
 **Drafting in public** = publish rough ideas before they're finished; let readers and time revise them.
 
-Rough posts beat perfect drafts in a folder. Readers correct me; I update the note. That's [[Evergreen Notes]] in practice - living text, not a sealed essay.
+Rough posts beat perfect drafts in a folder. Readers correct me; I update the note. That's [[Evergreen Notes]] in practice - living text, not a sealed essay. Pairs with [[Advantages of Digital Gardens]] and [[Digital Garden]].
 
 ## See also
 
-- [[Advantages of Digital Gardens]] - Digital Garden, PKM, Publishing
-- [[Creative Output]] - PKM, Publishing, Writing
-- [[Digital Garden]] - Digital Garden, PKM, Publishing
-- [[From Note to Book]] - PKM, Publishing, Writing
-- [[The Garage Concept]] - Digital Garden, PKM, Publishing
+- [[The Garage Concept]] — Digital Garden, Hugo, PKM
+- [[Getting Started]] — Digital Garden, Hugo, PKM
+- [[Creative Output]] — PKM, Publishing, Writing

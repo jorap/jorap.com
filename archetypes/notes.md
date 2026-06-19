@@ -10,7 +10,6 @@ author: "JoRap"
 tags: []
 aliases: []
 status: seedling
-last_reviewed: {{ .Date }}
 featured: false
 draft: true
 ---

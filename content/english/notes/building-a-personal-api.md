@@ -1,7 +1,7 @@
 ---
 title: "Building a Personal API"
 meta_title: "Building a Personal API - Your Notes as Callable Context"
-description: "Personal API means structured notes future-you and your tools can read - not OAuth and microservices."
+description: "Personal API means notes future-you and your tools can read easily - not OAuth and microservices."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -15,12 +15,10 @@ aliases: []
 
 **Personal API** = notes shaped so tools and future-you can read them without a lecture.
 
-Consistent frontmatter, wikilinks, and folder shapes my tools can read - not a REST server in the closet. Agents and scripts work better when notes already speak a common language. See [[Metadata Strategy]].
+Same titles, tags, and folder layout every time - not a mini web server in your closet. Automation works better when your notes follow the same pattern. See [[Metadata Strategy]]. Pairs with [[Active Knowledge Curation]] and [[Collaborative Knowledge]].
 
 ## See also
 
-- [[Active Knowledge Curation]] - Knowledge Management, PKM, Second Brain
-- [[Building a Second Brain]] - Knowledge Management, PKM, Second Brain
-- [[Collaborative Knowledge]] - Knowledge Management, PKM, Second Brain
-- [[The Future of PKM]] - AI, PKM, Second Brain
-- [[Advantages of Digital Gardens]] - PKM, Second Brain
+- [[The Future of PKM]] — AI, PKM, Second Brain
+- [[Building a Second Brain]] — Knowledge Management, PKM, Second Brain
+- [[Digital Garden]] — PKM, Second Brain, Static Site Generator

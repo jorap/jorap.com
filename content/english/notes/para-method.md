@@ -15,12 +15,9 @@ aliases: ["PARA"]
 
 **PARA** = Projects, Areas, Resources, Archive - four buckets sorted by life responsibility, not topic soup.
 
-Four questions, not forty folders. If I can't name the project or area, it probably stays in Resources until it matters. See [[The Archive Method]] when work finishes.
+Four questions, not forty folders. If I can't name the project or area, it probably stays in Resources until it matters. See [[The Archive Method]] when work finishes. Pairs with [[GTD vs PARA]] and [[Organization]].
 
 ## See also
 
-- [[Building a Second Brain]] - PKM, Productivity, Second Brain
-- [[GTD vs PARA]] - PARA, PKM, Productivity
-- [[Organization]] - Organization, PARA, PKM
-- [[The Archive Method]] - Organization, PARA, PKM
-- [[The Second Brain Workflow]] - PARA, PKM, Productivity
+- [[Building a Second Brain]] — Note Taking, PKM, Productivity
+- [[Active Knowledge Curation]] — Note Taking, PKM, Productivity

@@ -13,14 +13,14 @@ draft: false
 aliases: ["Daily Workflow"]
 ---
 
-**Daily Second Brain workflow** = how ideas enter the vault during the day - tabs, feeds, capture in the gaps.
+**Daily [[Second Brain]] [[Second Brain Workflow|workflow]]** = how ideas get into your notes during the day - tabs, feeds, capture in the gaps.
 
-Middle-click opens tabs I'll read later; feeds replace scroll holes; capture happens in the gaps. The wiki is the archive - the day is how stuff gets in. See [[The Second Brain Workflow]] for the full loop.
+Middle-click opens tabs I'll read later; feeds replace scroll holes; capture happens in the gaps. The wiki is [[The Archive|the archive]] - the day is how stuff gets in. See [[The Second Brain Workflow]] for the full loop.
 
 ## See also
 
-- [[PKM]] - Learning, PKM, Productivity
-- [[RSS for Research]] - Information Diet, Learning, PKM
-- [[The Second Brain Workflow]] - PKM, Productivity, Second Brain
-- [[Active Knowledge Curation]] - PKM, Productivity, Second Brain
-- [[Capture]] - PKM, Productivity, Second Brain
+- [[PKM]] — Learning, PKM, Productivity
+- [[Newsletter Filtering]] — Information Diet, PKM, RSS
+- [[RSS for Research]] — Information Diet, Learning, PKM
+- [[Active Knowledge Curation]] — PKM, Productivity, Second Brain
+- [[Capture]] — PKM, Productivity, Second Brain

@@ -115,6 +115,11 @@ target = 'css'
 source = '(themes/[^/]+/)?assets/css/.+\.css$'
 target = 'css'
 
+############################# Front matter #########################
+# Notes stale/updated tracking uses filesystem mtime (:fileModTime), not Git or manual lastmod fields.
+[frontmatter]
+lastmod = [":fileModTime"]
+
 ############################# Modules ############################
 [module]
 [[module.mounts]]

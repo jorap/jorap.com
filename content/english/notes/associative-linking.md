@@ -15,12 +15,11 @@ aliases: []
 
 **Folders sort. Links think.** Connect notes by meaning, not by filename.
 
-When I write a note, I link to two neighbors minimum - what it extends, what it contradicts. Filenames fade; relationships stick. That's how [[Zettelkasten]] and a [[Digital Garden]] stay walkable without a perfect folder tree.
+When I write a note, I link to two neighbors minimum - what it extends, what it contradicts. Filenames fade; relationships stick. That's how [[Zettelkasten]] and a [[Digital Garden]] stay walkable without a perfect folder tree. Pairs with [[Atomic Notes]].
 
 ## See also
 
-- [[Advantages of Digital Gardens]] - Digital Garden, Note Taking, PKM
-- [[Atomic Design for Notes]] - Note Taking, PKM, Second Brain
-- [[Evergreen Notes]] - Note Taking, PKM, Second Brain
-- [[Zettelkasten]] - Linking, Note Taking, PKM
-- [[Active Knowledge Curation]] - Note Taking, PKM, Second Brain
+- [[Advantages of Digital Gardens]] — Digital Garden, Note Taking, PKM
+- [[Atomic Design for Notes]] — Note Taking, PKM, Second Brain
+- [[Digital Serendipity]] — Linking, Note Taking, PKM
+- [[Evergreen Notes]] — Note Taking, PKM, Second Brain

@@ -12,17 +12,13 @@ featured: false
 draft: false
 aliases: ["Data Sovereignty"]
 status: evergreen
-last_reviewed: 2026-06-19T08:00:00Z
 ---
 
-**Data sovereignty** = you choose where notes live, who can read them, and how they leave your machine.
+**You control your notes** = you choose where notes live, who can read them, and how they leave your machine.
 
-Garden notes public by choice; journals and credentials stay local or encrypted. Export paths matter as much as passwords. See [[E2EE Security]].
+Garden notes public by choice; journals and credentials stay local or encrypted. Backup paths matter as much as passwords. See [[E2EE Security]]. Pairs with [[Local-first Software]] and [[Anti-Fragile Systems]].
 
 ## See also
 
-- [[E2EE Security]] - PKM, Privacy, Security
-- [[Local-first Software]] - Local First, PKM, Privacy
-- [[Anti-Fragile Systems]] - Local First, PKM
-- [[Future-Proofing Knowledge]] - Local First, PKM
-- [[The Garage Concept]] - PKM, Privacy
+- [[Future-Proofing Knowledge]] — Local First, Note Taking, PKM
+- [[Active Knowledge Curation]] — Note Taking, PKM

@@ -15,12 +15,9 @@ aliases: ["Second Brain"]
 
 **Second Brain** = external storage for ideas so your head can think, not hoard.
 
-Remember CODE: [[Capture]], organize, distill, express. The system fails when any step is ornamental. I review whether each step still earns its place every quarter.
+Remember CODE: [[Capture]], organize, distill, express. The system fails when any step is just for show. I review whether each step still earns its place every quarter. Pairs with [[Active Knowledge Curation]] and [[PARA Method]].
 
 ## See also
 
-- [[Capture]] - CODE Method, Capture, Note Taking
-- [[Active Knowledge Curation]] - Knowledge Management, Note Taking, PKM
-- [[Analog Capture Tools]] - Capture, Note Taking, PKM
-- [[Atomic Design for Notes]] - Information Architecture, Note Taking, PKM
-- [[Context-Aware Capture]] - Capture, Note Taking, PKM
+- [[Analog Capture Tools]] — Capture, Note Taking, PKM
+- [[Atomic Design for Notes]] — Information Architecture, Note Taking, PKM

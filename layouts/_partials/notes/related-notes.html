@@ -11,7 +11,7 @@
 {{- $results := slice -}}
 
 {{- if gt (len $labels) 0 -}}
-  {{- $notes := partial "notes/pages.html" $page -}}
+  {{- $notes := partial "notes/pages.html" (dict) -}}
   {{- range $notes -}}
     {{- if eq .RelPermalink $page.RelPermalink -}}
       {{- continue -}}

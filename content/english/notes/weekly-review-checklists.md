@@ -15,12 +15,9 @@ aliases: []
 
 **Weekly review checklist** = same steps every week: inbox, calendar, projects, one ship action.
 
-Same list every Friday: empty [[The Trusted Inbox]], scan calendar, review projects, one ship action. Boring is the feature - novelty in reviews means I'm reinventing the wheel. GTD's maintain phase, sized for a real week.
+Same list every Friday: empty [[The Trusted Inbox]], scan calendar, review projects, one ship action. Boring is the feature - novelty in reviews means I'm reinventing the wheel. GTD's maintain phase, sized for a real week. Pairs with [[Periodic Knowledge Review]] and [[GTD vs PARA]].
 
 ## See also
 
-- [[GTD vs PARA]] - GTD, PARA, PKM
-- [[Periodic Knowledge Review]] - Habits, PKM, Weekly Review
-- [[Organization]] - PARA, PKM
-- [[PARA Method]] - PARA, PKM
-- [[The Archive Method]] - PARA, PKM
+- [[Periodic Knowledge Review]] — Habits, PKM, Weekly Review
+- [[The Second Brain Workflow]] — PARA, PKM, Workflow

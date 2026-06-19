@@ -16,7 +16,7 @@
 
 {{- $backlinks := slice -}}
 {{- $seen := dict -}}
-{{- $notes := partial "notes/pages.html" . -}}
+{{- $notes := partial "notes/pages.html" (dict) -}}
 
 {{- range $notes -}}
   {{- if eq .RelPermalink $page.RelPermalink -}}

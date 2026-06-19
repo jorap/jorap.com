@@ -13,14 +13,12 @@ draft: false
 aliases: []
 ---
 
-**Paper capture** = the same trusted inbox, different medium - for when screens fail or feel rude.
+**Paper capture** = the same [[Trusted Inbox|trusted inbox]], different medium - for when screens fail or feel rude.
 
-Meetings, sermons, dead batteries: paper wins. One pipe, processed weekly - photograph or transcribe into [[Capture]]. The medium changes; the rule doesn't.
+Meetings, sermons, dead batteries: paper wins. One pipe, processed weekly - photograph or transcribe into [[Capture]]. The medium changes; the rule doesn't. Pairs with [[Bullet Journaling]].
 
 ## See also
 
-- [[Bullet Journaling]] - Analog, Bullet Journal, Note Taking
-- [[Building a Second Brain]] - Capture, Note Taking, PKM
-- [[Capture]] - Capture, Note Taking, PKM
-- [[Mobile Capture Workflows]] - Capture, Note Taking, PKM
-- [[Active Knowledge Curation]] - Note Taking, PKM, Productivity
+- [[Building a Second Brain]] — Capture, Note Taking, PKM
+- [[Mobile Capture Workflows]] — Capture, Note Taking, PKM
+- [[The Collector's Fallacy]] — Capture, Note Taking, PKM

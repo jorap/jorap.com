@@ -15,12 +15,9 @@ aliases: []
 
 **Mobile capture** = share sheet to inbox in two taps - sparks die in twelve.
 
-Share sheet to my [[Capture]] inbox, voice memo when walking, photo of whiteboard before the room clears. Twelve taps was a design failure I fixed once and stopped re-litigating.
+Share sheet to my [[Capture]] inbox, voice memo when walking, photo of whiteboard before the room clears. Twelve taps was a design failure I fixed once and stopped re-litigating. Pairs with [[Analog Capture Tools]] and [[Building a Second Brain]].
 
 ## See also
 
-- [[Analog Capture Tools]] - Capture, Note Taking, PKM
-- [[Building a Second Brain]] - Capture, Note Taking, PKM
-- [[Capture]] - Capture, Note Taking, PKM
-- [[Active Knowledge Curation]] - Note Taking, PKM, Productivity
-- [[Anti-Fragile Systems]] - Note Taking, PKM, Productivity
+- [[Context-Aware Capture]] — Capture, Note Taking, PKM
+- [[Interstitial Journaling]] — Note Taking, PKM, Productivity

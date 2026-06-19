@@ -15,12 +15,10 @@ aliases: ["CODE"]
 
 **Capture** = saving what resonates into one inbox you actually trust.
 
-Friction kills capture. One inbox, phone to desktop, weekly process - same as [[The Trusted Inbox]]. If I wouldn't act on it or cite it later, it doesn't get saved. Resonance is the filter, not FOMO.
+Friction kills capture. One inbox, phone to desktop, weekly process - same as [[The Trusted Inbox]]. If I wouldn't act on it or cite it later, it doesn't get saved. Resonance is the filter, not FOMO. Pairs with [[Building a Second Brain]] and [[Active Knowledge Curation]].
 
 ## See also
 
-- [[Building a Second Brain]] - CODE Method, Capture, Note Taking
-- [[Active Knowledge Curation]] - Note Taking, PKM, Productivity
-- [[Analog Capture Tools]] - Capture, Note Taking, PKM
-- [[Context-Aware Capture]] - Capture, Note Taking, PKM
-- [[Mobile Capture Workflows]] - Capture, Note Taking, PKM
+- [[Analog Capture Tools]] — Capture, Note Taking, PKM
+- [[Context-Aware Capture]] — Capture, Note Taking, PKM
+- [[GTD vs PARA]] — Note Taking, PKM, Productivity

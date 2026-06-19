@@ -452,51 +452,6 @@ html.dark .notes-dev-banner code {
   font-size: 0.75rem;
 }
 
-.notes-daily-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.notes-daily-item {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 0.5rem;
-  padding: 0.45rem 0;
-  border-bottom: 1px solid var(--color-divider);
-}
-
-.notes-daily-link {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem 1rem;
-  flex: 1;
-  text-decoration: none;
-  color: inherit;
-}
-
-.notes-daily-link:hover .notes-daily-date,
-.notes-daily-link:focus-visible .notes-daily-date {
-  color: var(--color-accent);
-}
-
-.notes-daily-date {
-  font-weight: 500;
-  min-width: 7rem;
-}
-
-.notes-daily-desc {
-  font-size: 0.875rem;
-}
-
-.notes-review-section {
-  background: var(--color-elevated);
-  border: 1px solid var(--color-divider);
-  border-radius: 0.5rem;
-  padding: 1.25rem;
-}
-
 .notes-grid-item.hidden {
   display: none !important;
 }

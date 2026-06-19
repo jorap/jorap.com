@@ -13,14 +13,11 @@ draft: false
 aliases: ["Atomic Design"]
 ---
 
-**Atomic design for notes** = one idea per file, stacked later like UI components.
+**Atomic design for notes** = one idea per file, stacked later like Lego blocks.
 
-Atoms stack into molecules: a claim note, a how-to note, an example note - linked, not merged. Same idea as [[Atomic Notes]], borrowed from Brad Frost. Combinable beats monolithic every time.
+Small notes combine into bigger ones: a claim note, a how-to note, an example note - linked, not merged. Same idea as [[Atomic Notes]], borrowed from Brad Frost. Small linked notes beat one giant file. Pairs with [[Associative Linking]] and [[Building a Second Brain]].
 
 ## See also
 
-- [[Associative Linking]] - Note Taking, PKM, Second Brain
-- [[Building a Second Brain]] - Information Architecture, Note Taking, PKM
-- [[Evergreen Notes]] - Note Taking, PKM, Second Brain
-- [[Zettelkasten]] - Atomic Notes, Note Taking, PKM
-- [[Active Knowledge Curation]] - Note Taking, PKM, Second Brain
+- [[Evergreen Notes]] — Note Taking, PKM, Second Brain
+- [[Zettelkasten]] — Atomic Notes, Note Taking, PKM

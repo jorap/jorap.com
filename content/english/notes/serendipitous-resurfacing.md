@@ -1,7 +1,7 @@
 ---
 title: "Serendipitous Resurfacing"
 meta_title: "Serendipitous Resurfacing - Old Notes, Right Time"
-description: "Design for resurfacing - systems that bring old notes back beat search-only vaults."
+description: "Build for old notes showing up again - review and links beat search-only folders."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,14 +13,11 @@ draft: false
 aliases: []
 ---
 
-**Serendipitous resurfacing** = design for rediscovery - old notes meet new problems without you remembering to search.
+**Old notes, right time** = build your system so past notes come back when you need them - without relying on memory to search.
 
-Spaced review, backlink browsing, and "related notes" beat hoping I'll remember to search. Memory is unreliable storage. Ties to [[Digital Serendipity]] and [[Periodic Knowledge Review]].
+Regular review, backlink browsing, and "related notes" beat hoping I'll remember to search. Memory is unreliable storage. Ties to [[Digital Serendipity]] and [[Periodic Knowledge Review]]. Pairs with [[Synthesis as a Goal]].
 
 ## See also
 
-- [[Digital Serendipity]] - Discovery, PKM, Review
-- [[Periodic Knowledge Review]] - PKM, Review, Second Brain
-- [[Active Knowledge Curation]] - PKM, Second Brain
-- [[Advantages of Digital Gardens]] - PKM, Second Brain
-- [[Associative Linking]] - PKM, Second Brain
+- [[Context-Aware Capture]] — PKM, Second Brain, Workflow
+- [[Collaborative Knowledge]] — PKM, Second Brain, Workflow

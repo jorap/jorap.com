@@ -15,12 +15,9 @@ aliases: ["local first software", "Local First"]
 
 **Local-first** = your device holds the truth; sync is optional backup, not the boss.
 
-Files on disk I own; offline should work, online is a bonus. Same philosophy as [[Future-Proofing Knowledge]] - notes survive plane mode and vendor whims.
+Files on disk I own; offline should work, online is a bonus. Same philosophy as [[Future-Proofing Knowledge]] - notes survive plane mode and vendor whims. Pairs with [[Privacy and Data Sovereignty]] and [[E2EE Security]].
 
 ## See also
 
-- [[Anti-Fragile Systems]] - Local First, Note Taking, PKM
-- [[E2EE Security]] - Note Taking, PKM, Privacy
-- [[Future-Proofing Knowledge]] - Local First, Note Taking, PKM
-- [[Privacy and Data Sovereignty]] - Local First, PKM, Privacy
-- [[Active Knowledge Curation]] - Note Taking, PKM
+- [[Anti-Fragile Systems]] — Local First, Note Taking, PKM
+- [[Active Knowledge Curation]] — Note Taking, PKM

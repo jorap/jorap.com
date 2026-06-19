@@ -15,12 +15,9 @@ aliases: []
 
 **Digital garden** = a public site where notes grow - linked, imperfect, revised in the open.
 
-Publish early, link often, revise in public. The opposite of a portfolio of polished essays. Mine follows [[The Garage Concept]]: messy workshop, curated showroom elsewhere.
+Publish early, link often, revise in public. The opposite of a portfolio of polished essays. Mine follows [[The Garage Concept]]: messy workshop, curated showroom elsewhere. Pairs with [[Advantages of Digital Gardens]] and [[Drafting in Public]].
 
 ## See also
 
-- [[Advantages of Digital Gardens]] - Digital Garden, PKM, Publishing
-- [[Associative Linking]] - Digital Garden, PKM, Second Brain
-- [[Building a Second Brain]] - PKM, Second Brain, TiddlyWiki
-- [[Creative Output]] - PKM, Publishing, Second Brain
-- [[Drafting in Public]] - Digital Garden, PKM, Publishing
+- [[Getting Started]] — Digital Garden, Hugo, PKM
+- [[Associative Linking]] — Digital Garden, PKM, Second Brain

@@ -15,12 +15,9 @@ aliases: ["12 Week Year"]
 
 **12-week year** = one quarter as one "year" - long enough to ship, short enough to feel urgent.
 
-Wiki project notes get a season tag; review at week twelve, [[The Archive Method|archive]] or renew. Beats annual goals that die in February.
+Wiki project notes get a season tag; review at week twelve, [[Archive Method|archive]] or renew. Beats annual goals that die in February. Pairs with [[Bullet Journaling]] and [[Active Knowledge Curation]].
 
 ## See also
 
-- [[Bullet Journaling]] - PKM, Planning, Productivity
-- [[The Archive Method]] - PKM, Productivity, Projects
-- [[Active Knowledge Curation]] - PKM, Productivity
-- [[Analog Capture Tools]] - PKM, Productivity
-- [[Anti-Fragile Systems]] - PKM, Productivity
+- [[Analog Capture Tools]] — PKM, Productivity
+- [[Anti-Fragile Systems]] — PKM, Productivity

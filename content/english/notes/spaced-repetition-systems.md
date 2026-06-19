@@ -15,12 +15,9 @@ aliases: ["spaced repetition systems", "SRS"]
 
 **SRS apps** = the algorithm handles timing; you supply the cards and show up.
 
-Anki for cards, wiki for ideas - separate lanes. Facts I need cold get SRS; concepts live in linked notes. See [[Spaced Repetition]] for when the algorithm helps.
+Anki for cards, wiki for ideas - separate lanes. Facts I need cold get SRS; concepts live in linked notes. See [[Spaced Repetition]] for when the algorithm helps. Pairs with [[PKM]] and [[The Collector's Fallacy]].
 
 ## See also
 
-- [[Spaced Repetition]] - Anki, Learning, Memory
-- [[Digital Minimalism]] - Tools
-- [[Mental Models List]] - Learning
-- [[PKM]] - Learning
-- [[RSS for Research]] - Learning
+- [[The Feynman Technique]] — Learning, Note Taking, PKM
+- [[Digital Minimalism]] — Note Taking, PKM, Tools

@@ -15,12 +15,11 @@ aliases: []
 
 **Daily notes** = today's scratch pad - tasks, fragments, links. Not a diary. Not permanent by default.
 
-Morning dump, evening sweep. Promote to evergreen during [[Periodic Knowledge Review]], not while the coffee's still hot. [[Daily Notes]] are a lane, not the archive.
+Morning dump, evening sweep. Promote to evergreen during [[Periodic Knowledge Review]], not while the coffee's still hot. [[Daily Notes]] are a lane, not [[The Archive|the archive]]. Pairs with [[Interstitial Journaling]].
 
 ## See also
 
-- [[Active Knowledge Curation]] - Note Taking, PKM, Productivity
-- [[Analog Capture Tools]] - Note Taking, PKM, Productivity
-- [[Anti-Fragile Systems]] - Note Taking, PKM, Productivity
-- [[Building a Second Brain]] - Note Taking, PKM, Productivity
-- [[Bullet Journaling]] - Note Taking, PKM, Productivity
+- [[Active Knowledge Curation]] — Note Taking, PKM, Productivity
+- [[Analog Capture Tools]] — Note Taking, PKM, Productivity
+- [[Anti-Fragile Systems]] — Note Taking, PKM, Productivity
+- [[Building a Second Brain]] — Note Taking, PKM, Productivity

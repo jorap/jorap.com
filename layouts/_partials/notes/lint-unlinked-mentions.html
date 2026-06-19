@@ -9,9 +9,6 @@
 
 {{- range $registry.notes -}}
   {{- $note := . -}}
-  {{- if eq ($note.Params.note_kind | default "note") "daily" -}}
-    {{- continue -}}
-  {{- end -}}
   {{- $raw := $note.RawContent -}}
   {{- $fence := "```" -}}
   {{- $tick := "`" -}}

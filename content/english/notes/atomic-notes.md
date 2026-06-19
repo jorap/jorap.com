@@ -10,19 +10,16 @@ tags: ["Atomic Notes", "Zettelkasten", "PKM", "Note Taking", "Second Brain", "Li
 slug: "atomic-notes"
 aliases: ["atom"]
 status: evergreen
-last_reviewed: 2026-06-19T08:00:00Z
 featured: false
 draft: false
 ---
 
 An **atomic note** = one claim you'd say out loud. Too many `and`s? Split it.
 
-**Rule of thumb:** one thing I'd cite in conversation - "why middle-click saves tab chaos" is atomic; "browser tips and meeting notes" is not. Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing.
+**Rule of thumb:** one thing I'd cite in conversation - "why middle-click saves tab chaos" is atomic; "browser tips and meeting notes" is not. Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing. Pairs with [[Associative Linking]] and [[Atomic Design for Notes]].
 
 ## See also
 
-- [[Associative Linking]] - Linking, Note Taking, PKM
-- [[Zettelkasten]] - Atomic Notes, Linking, Note Taking
-- [[Atomic Design for Notes]] - Atomic Notes, Note Taking, PKM
-- [[Evergreen Notes]] - Note Taking, PKM, Second Brain
-- [[Getting Started]] - Notes, Meta
+- [[Zettelkasten]] — Atomic Notes, Linking, Note Taking
+- [[Digital Serendipity]] — Linking, Note Taking, PKM
+- [[Evergreen Notes]] — Note Taking, PKM, Second Brain

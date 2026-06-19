@@ -15,12 +15,9 @@ aliases: []
 
 **A digital garden** grows in public - linked, imperfect, and alive. A blog portfolio seals ideas in amber.
 
-Finished essays age fast. Garden notes can sit half-right, get linked, get updated. Readers see the thinking, not just the conclusion. See [[Drafting in Public]] and [[Digital Garden]].
+Finished essays age fast. Garden notes can sit half-right, get linked, get updated. Readers see the thinking, not just the conclusion. See [[Drafting in Public]] and [[Digital Garden]]. Pairs with [[Getting Started]].
 
 ## See also
 
-- [[Associative Linking]] - Digital Garden, Note Taking, PKM
-- [[Digital Garden]] - Digital Garden, PKM, Publishing
-- [[Active Knowledge Curation]] - Note Taking, PKM, Second Brain
-- [[Atomic Design for Notes]] - Note Taking, PKM, Second Brain
-- [[Building a Second Brain]] - Note Taking, PKM, Second Brain
+- [[Associative Linking]] — Digital Garden, Note Taking, PKM
+- [[The Garage Concept]] — Digital Garden, Hugo, PKM

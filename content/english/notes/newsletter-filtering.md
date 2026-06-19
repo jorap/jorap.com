@@ -15,12 +15,9 @@ aliases: []
 
 **Newsletter filtering** = RSS with delivery guilt - label, batch weekly, clip what resonates.
 
-Gmail label, weekly batch, clip only what changes a project or belief. Same diet rules as [[RSS for Research]] - subscribe generously, process ruthlessly.
+Gmail label, weekly batch, clip only what changes a project or belief. Same diet rules as [[RSS for Research]] - subscribe generously, process ruthlessly. Pairs with [[Second Brain Daily Workflow]] and [[Active Knowledge Curation]].
 
 ## See also
 
-- [[RSS for Research]] - Information Diet, PKM, RSS
-- [[Second Brain Daily Workflow]] - Information Diet, PKM, RSS
-- [[Signal vs Noise]] - Information Diet, PKM
-- [[Active Knowledge Curation]] - PKM
-- [[Advantages of Digital Gardens]] - PKM
+- [[Associative Linking]] — PKM, Second Brain
+- [[Atomic Design for Notes]] — PKM, Second Brain

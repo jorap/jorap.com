@@ -15,12 +15,10 @@ aliases: []
 
 **Periodic review** = scheduled maintenance so notes don't rot - weekly rhythm, quarterly deep pass.
 
-Weekly: inbox, calendar, one express action. Quarterly: prune dead links, promote sparks, archive stale projects. [[Weekly Review Checklists]] handle the rhythm; this note is the why.
+Weekly: inbox, calendar, one express action. Quarterly: prune dead links, promote sparks, archive stale projects — often scoped as a [[12 Week Year|12-week arc]]. [[Weekly Review Checklists]] handle the rhythm; this note is the why. Pairs with [[Digital Serendipity]] and [[Active Knowledge Curation]].
 
 ## See also
 
-- [[Digital Serendipity]] - PKM, Review, Second Brain
-- [[Serendipitous Resurfacing]] - PKM, Review, Second Brain
-- [[Weekly Review Checklists]] - Habits, PKM, Weekly Review
-- [[Active Knowledge Curation]] - PKM, Second Brain
-- [[Advantages of Digital Gardens]] - PKM, Second Brain
+- [[Associative Linking]] — Note Taking, PKM, Second Brain
+- [[Atomic Design for Notes]] — Note Taking, PKM, Second Brain
+- [[Atomic Notes]] — Note Taking, PKM, Second Brain

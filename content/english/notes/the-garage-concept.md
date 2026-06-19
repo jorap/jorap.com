@@ -15,12 +15,9 @@ aliases: ["Garage Concept"]
 
 **Garage vs showroom** = messy workshop for notes, polished blog for guests - don't mix them.
 
-My [[Digital Garden]] is the garage: experiments, half-ideas, tools on benches. The blog is the showroom - cleaned up, narrative, guest-ready. Mixing them makes both worse.
+My [[Digital Garden]] is the garage: experiments, half-ideas, tools on benches. The blog is the showroom - cleaned up, narrative, guest-ready. Mixing them makes both worse. Pairs with [[Drafting in Public]] and [[Getting Started]].
 
 ## See also
 
-- [[Advantages of Digital Gardens]] - Digital Garden, PKM, Publishing
-- [[Digital Garden]] - Digital Garden, PKM, Publishing
-- [[Drafting in Public]] - Digital Garden, PKM, Publishing
-- [[Associative Linking]] - Digital Garden, PKM
-- [[Creative Output]] - PKM, Publishing
+- [[Advantages of Digital Gardens]] — Digital Garden, Hugo, PKM
+- [[Maps of Content]] — Hugo, PKM, Website Building
