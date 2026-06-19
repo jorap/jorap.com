@@ -2,7 +2,7 @@
 title: "Intellectual Sourcing"
 meta_title: "Intellectual Sourcing - Track Where Ideas Come From"
 description: "I cite sources in notes not for academia - so I can trust my own synthesis and find the original six months later."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

@@ -2,7 +2,7 @@
 title: "The Archive Method"
 meta_title: "The Archive Method - Out of Sight, Still Findable"
 description: "Archive isn't delete. It's moving finished work out of active PARA so today's projects breathe."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

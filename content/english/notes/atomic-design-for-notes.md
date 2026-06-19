@@ -2,7 +2,7 @@
 title: "Atomic Design for Notes"
 meta_title: "Atomic Design for Notes - Small Pieces, Big Reuse"
 description: "Brad Frost's atomic design is for UI components. I borrowed the idea for notes - one idea per file, combinable later. Here's how that changed my wiki."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

@@ -2,7 +2,7 @@
 title: "Digital Garden"
 meta_title: "Digital Garden - A Wiki You Can Walk Through"
 description: "My digital garden is a personal site where notes grow in public - linked, imperfect, alive."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

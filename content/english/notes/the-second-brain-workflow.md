@@ -2,7 +2,7 @@
 title: "The Second Brain Workflow"
 meta_title: "The Second Brain Workflow - End to End"
 description: "CODE and PARA in one loop: capture to inbox, organize by project, distill on use, express weekly."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

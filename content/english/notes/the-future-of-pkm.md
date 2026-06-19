@@ -2,7 +2,7 @@
 title: "The Future of PKM"
 meta_title: "The Future of PKM - Tools Change, Loop Stays"
 description: "AI, agents, new apps - PKM hype cycles spin. The future still looks like capture, connect, create, with better search."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

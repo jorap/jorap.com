@@ -2,7 +2,7 @@
 title: "Mind Mapping"
 meta_title: "Mind Mapping - Spatial Thinking Before Linear Notes"
 description: "Mind maps are for the messy first pass - branches, bubbles, relationships. I export to atomic notes after, not instead."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

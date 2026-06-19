@@ -2,7 +2,7 @@
 title: "Building a Personal API"
 meta_title: "Building a Personal API - Your Notes as Callable Context"
 description: "My personal API isn't OAuth and microservices. It's structured context for future me and my tools without re-explaining everything."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

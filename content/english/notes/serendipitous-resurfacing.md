@@ -2,7 +2,7 @@
 title: "Serendipitous Resurfacing"
 meta_title: "Serendipitous Resurfacing - Old Notes, Right Time"
 description: "I design for resurfacing - old notes beat systems that only search what I remember to search for."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

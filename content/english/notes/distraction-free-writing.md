@@ -2,7 +2,7 @@
 title: "Distraction-Free Writing"
 meta_title: "Distraction-Free Writing - Fewer Pixels, More Sentences"
 description: "Fullscreen, plain text, notifications off. I don't need a special app - I need fewer excuses to leave the sentence."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

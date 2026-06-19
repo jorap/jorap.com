@@ -2,7 +2,7 @@
 title: "Mobile Capture Workflows"
 meta_title: "Mobile Capture Workflows - Save It Before You Scroll Away"
 description: "Most sparks die on mobile because capture takes twelve taps. I reduced mine to share sheet → inbox."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

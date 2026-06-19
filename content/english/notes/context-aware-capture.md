@@ -2,7 +2,7 @@
 title: "Context-Aware Capture"
 meta_title: "Context-Aware Capture - Save the Why, Not Just the What"
 description: "A link without context is a mystery six weeks later. I try to capture why I saved something - project, mood, question - while it's still obvious."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

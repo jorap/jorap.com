@@ -2,7 +2,7 @@
 title: "Bullet Journaling"
 meta_title: "Bullet Journaling - Paper Structure Without the Instagram Aesthetic"
 description: "I don't bullet journal for pretty spreads. I use rapid logging when digital capture feels slow - tasks, events, notes on paper, migrated weekly."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

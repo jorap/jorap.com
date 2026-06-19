@@ -2,7 +2,7 @@
 title: "The Knowledge Lifecycle"
 meta_title: "The Knowledge Lifecycle - From Spark to Archive"
 description: "Ideas have lifecycles: capture, active use, evergreen, decay, archive. PKM should match the stage."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

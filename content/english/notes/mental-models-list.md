@@ -2,7 +2,7 @@
 title: "Mental Models List"
 meta_title: "Mental Models List - Lenses I Actually Use"
 description: "Mental models are shortcuts for thinking. I keep a short list of ones that survived contact with real decisions - not every model on Wikipedia."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

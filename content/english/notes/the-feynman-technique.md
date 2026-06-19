@@ -2,7 +2,7 @@
 title: "The Feynman Technique"
 meta_title: "The Feynman Technique - Teach It to Learn It"
 description: "I explain notes like I'm teaching someone - gaps in my explanation show gaps in understanding."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

@@ -2,7 +2,7 @@
 title: "Creative Output"
 meta_title: "Creative Output - Why I Capture at All"
 description: "Notes are inventory. Output is the point - blog posts, sermons, code, dinner experiments. Here's how I push from archive to shipped."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

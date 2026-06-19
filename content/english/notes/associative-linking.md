@@ -2,7 +2,7 @@
 title: "Associative Linking"
 meta_title: "Associative Linking - How Ideas Find Each Other"
 description: "Folders sort. Links think. Here's how I use associative linking so notes meet each other without me remembering every filename."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

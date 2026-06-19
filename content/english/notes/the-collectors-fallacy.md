@@ -2,7 +2,7 @@
 title: "The Collector's Fallacy"
 meta_title: "The Collector's Fallacy - Saving Isn't Learning"
 description: "Collecting articles feels like progress. It isn't. The collector's fallacy bit me until I tied saves to express deadlines."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

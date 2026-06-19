@@ -2,7 +2,7 @@
 title: "Periodic Knowledge Review"
 meta_title: "Periodic Knowledge Review - Revisit on a Schedule"
 description: "Notes rot without review. I calendar weekly and quarterly passes - inbox, projects, evergreens."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

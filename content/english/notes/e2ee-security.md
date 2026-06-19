@@ -2,7 +2,7 @@
 title: "E2EE Security"
 meta_title: "E2EE Security for Personal Notes"
 description: "End-to-end encryption matters when my notes are actually private. I balance convenience with what I'm willing to store in plain text."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

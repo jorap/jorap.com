@@ -2,7 +2,7 @@
 title: "Privacy and Data Sovereignty"
 meta_title: "Privacy and Data Sovereignty for Your Notes"
 description: "I want to control where my notes live, who can read them, and how they leave my machine."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

@@ -2,7 +2,7 @@
 title: "Future-Proofing Knowledge"
 meta_title: "Future-Proofing Knowledge - Boring Formats Win"
 description: "Future-proofing isn't predicting tech for me. It's plain text, open tools, and exports I test before I need them."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

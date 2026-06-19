@@ -2,7 +2,7 @@
 title: "Creative Blocks"
 meta_title: "Creative Blocks - When the Notes Don't Become Output"
 description: "I have thousands of notes and still stare at a blank page sometimes. Creative blocks aren't solved by more capture - here's what actually unsticks me."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

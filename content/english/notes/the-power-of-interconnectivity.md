@@ -2,7 +2,7 @@
 title: "The Power of Interconnectivity"
 meta_title: "The Power of Interconnectivity - Value in the Links"
 description: "A note's value for me lives in what it connects to. Interconnectivity turns files into a network I think inside."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

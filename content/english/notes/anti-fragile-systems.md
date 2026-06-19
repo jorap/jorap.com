@@ -2,7 +2,7 @@
 title: "Anti-Fragile Systems"
 meta_title: "Anti-Fragile PKM - Systems That Survive Tool Death"
 description: "Fragile systems break when an app shuts down. I try to build note workflows that get stronger under stress - plain files, open formats, owned exports."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"

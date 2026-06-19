@@ -2,7 +2,7 @@
 title: "Interstitial Journaling"
 meta_title: "Interstitial Journaling - Notes Between Tasks"
 description: "Between meetings and deep work, I jot what just happened and what's next. Interstitial journaling clears the buffer."
-date: 2026-06-19T06:00:00Z
+date: 2026-06-18T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
