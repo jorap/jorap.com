@@ -9,6 +9,7 @@
   var shuffleCenterBtn = document.querySelector("[data-random-three-shuffle-center]");
   var shuffleRightBtn = document.querySelector("[data-random-three-shuffle-right]");
   var copyPromptBtn = document.querySelector("[data-random-three-copy-prompt]");
+  var sendPromptBtn = document.querySelector("[data-random-three-send-prompt]");
   var promptEl = document.querySelector("[data-random-three-prompt]");
   var emptyPageEl = document.querySelector("[data-random-three-empty-page]");
   if (!root || !dataEl) return;
@@ -17,6 +18,10 @@
   var slots = root.querySelectorAll("[data-random-three-slot]");
   var currentNotes = [null, null, null];
   var pool;
+  var aiChatUrl = "https://chatgpt.com/?q=";
+  var aiChatOpenedLabel = "Opened";
+  var aiChatCopiedLabel = "Copied — paste in chat";
+  var PROMPT_PREFILL_MAX_URL = 1800;
 
   try {
     pool = JSON.parse(dataEl.textContent);
@@ -123,16 +128,64 @@
     promptEl.value = buildPrompt(notes);
   }
 
+  function flashButton(btn, message) {
+    if (!btn) return;
+    var original = btn.textContent;
+    btn.textContent = message;
+    window.setTimeout(function () {
+      btn.textContent = original;
+    }, 1600);
+  }
+
+  function promptIsReady() {
+    if (!promptEl) return false;
+    var prompt = promptEl.value;
+    if (!prompt) return false;
+    if (prompt === "Loading notes…") return false;
+    if (prompt.indexOf("Shuffle to load") === 0) return false;
+    return true;
+  }
+
+  function aiChatFallbackUrl(template) {
+    var qIndex = template.indexOf("?q=");
+    if (qIndex !== -1) return template.slice(0, qIndex);
+    var queryIndex = template.indexOf("?");
+    if (queryIndex !== -1) return template.slice(0, queryIndex);
+    return template;
+  }
+
   function copyPrompt() {
-    if (!promptEl || !navigator.clipboard) return;
+    if (!promptEl || !navigator.clipboard || !promptIsReady()) return;
 
     navigator.clipboard.writeText(promptEl.value).then(function () {
-      if (!copyPromptBtn) return;
-      var original = copyPromptBtn.textContent;
-      copyPromptBtn.textContent = "Copied";
-      window.setTimeout(function () {
-        copyPromptBtn.textContent = original;
-      }, 1600);
+      flashButton(copyPromptBtn, "Copied");
+    });
+  }
+
+  function sendPromptToAI() {
+    if (!promptEl || !promptIsReady()) return;
+
+    var prompt = promptEl.value;
+    var prefillUrl = aiChatUrl + encodeURIComponent(prompt);
+
+    function openChat(url) {
+      window.open(url, "_blank", "noopener,noreferrer");
+    }
+
+    if (prefillUrl.length <= PROMPT_PREFILL_MAX_URL) {
+      openChat(prefillUrl);
+      flashButton(sendPromptBtn, aiChatOpenedLabel);
+      return;
+    }
+
+    if (!navigator.clipboard) {
+      openChat(aiChatFallbackUrl(aiChatUrl));
+      return;
+    }
+
+    navigator.clipboard.writeText(prompt).then(function () {
+      openChat(aiChatFallbackUrl(aiChatUrl));
+      flashButton(sendPromptBtn, aiChatCopiedLabel);
     });
   }
 
@@ -309,6 +362,14 @@
       event.preventDefault();
       event.stopPropagation();
       copyPrompt();
+    });
+  }
+
+  if (sendPromptBtn) {
+    sendPromptBtn.addEventListener("click", function (event) {
+      event.preventDefault();
+      event.stopPropagation();
+      sendPromptToAI();
     });
   }
 

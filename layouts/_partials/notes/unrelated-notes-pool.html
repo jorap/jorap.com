@@ -1,22 +1,27 @@
 {{- /*
-  Garden notes that are not tag/category-related to Context, and not already
-  linked from the page body. Returns a slice of dicts: url, title.
+  All garden notes minus any that share a tag or category with Context.
+  Returns a slice of dicts: url, title.
 */ -}}
 {{- $page := .Context -}}
 {{- $allNotes := partial "notes/garden-pages.html" $page -}}
-{{- $related := partial "notes/related-notes.html" (dict "Context" $page "Limit" 9999) -}}
-{{- $exclude := dict -}}
-{{- range $related -}}
-  {{- $exclude = merge $exclude (dict .Page.RelPermalink true) -}}
-{{- end -}}
-{{- $outgoing := partial "notes/outgoing-links.html" $page -}}
-{{- range $outgoing -}}
-  {{- $exclude = merge $exclude (dict .Page.RelPermalink true) -}}
-{{- end -}}
+{{- $labels := $page.Params.tags | default slice -}}
+{{- $labels = $labels | append ($page.Params.categories | default slice) -}}
 {{- $pool := slice -}}
+
 {{- range $allNotes -}}
-  {{- if not (index $exclude .RelPermalink) -}}
+  {{- $include := true -}}
+  {{- if gt (len $labels) 0 -}}
+    {{- $noteLabels := .Params.tags | default slice -}}
+    {{- $noteLabels = $noteLabels | append (.Params.categories | default slice) -}}
+    {{- range $labels -}}
+      {{- if in $noteLabels . -}}
+        {{- $include = false -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if $include -}}
     {{- $pool = $pool | append (dict "url" .RelPermalink "title" .Title) -}}
   {{- end -}}
 {{- end -}}
+
 {{- return $pool -}}

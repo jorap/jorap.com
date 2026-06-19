@@ -4,7 +4,7 @@ send: Send
 related_posts: Related Posts
 related_notes: Related Notes
 random_unrelated_notes: 2 Random Notes
-random_unrelated_notes_lede: Two garden notes with no tag overlap to this post — shuffle for serendipity.
+random_unrelated_notes_lede: Two garden notes with no shared tags or categories with this post — shuffle for serendipity.
 shuffle_all: Shuffle all
 shuffle_left: Shuffle left
 shuffle_center: Shuffle center
