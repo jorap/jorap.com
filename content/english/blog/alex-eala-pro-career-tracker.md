@@ -56,7 +56,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - 2026
 
   - **Berlin (WTA 500, Grass)** 
-    - Semifinals | On-going vs Noskova | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003)
+    - Semifinals | vs Noskova | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003)
     - Quarterfinals, d. Svitolina 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/e-svitolina-vs-a-eala-2026-06-19)
     - Round of 16, d. Rybakina 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-e-rybakina-2026-06-18)
     - Round of 32, d. Vekić 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS030) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/d-vekic-vs-a-eala-2026-06-17)
