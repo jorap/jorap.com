@@ -1,25 +1,37 @@
 /**
- * Blog single: three unrelated garden notes + AI prompt with the post.
+ * Blog single: two unrelated garden notes + AI prompt with the post.
  */
 (function () {
   var root = document.querySelector("[data-blog-random-notes]");
   var dataEl = document.querySelector(".blog-random-notes-data");
   var shuffleAllBtn = document.querySelector("[data-blog-random-shuffle-all]");
   var shuffleLeftBtn = document.querySelector("[data-blog-random-shuffle-left]");
-  var shuffleCenterBtn = document.querySelector("[data-blog-random-shuffle-center]");
   var shuffleRightBtn = document.querySelector("[data-blog-random-shuffle-right]");
   var copyPromptBtn = document.querySelector("[data-blog-random-copy-prompt]");
+  var sendPromptBtn = document.querySelector("[data-blog-random-send-prompt]");
   var promptEl = document.querySelector("[data-blog-random-prompt]");
   var emptyPageEl = document.querySelector("[data-blog-random-empty]");
   if (!root || !dataEl) return;
 
-  var slotCount = 3;
+  var slotCount = 2;
   var slots = root.querySelectorAll("[data-blog-random-slot]");
-  var currentNotes = [null, null, null];
+  var currentNotes = [null, null];
   var pool;
+  var aiChatUrl = "https://chatgpt.com/?q=";
+  var aiChatOpenedLabel = "Opened";
+  var aiChatCopiedLabel = "Copied — paste in chat";
+  var PROMPT_PREFILL_MAX_URL = 1800;
 
   try {
-    pool = JSON.parse(dataEl.textContent);
+    var config = JSON.parse(dataEl.textContent);
+    if (Array.isArray(config)) {
+      pool = config;
+    } else {
+      pool = config.notes || [];
+      if (config.aiChatUrl) aiChatUrl = config.aiChatUrl;
+      if (config.aiChatOpenedLabel) aiChatOpenedLabel = config.aiChatOpenedLabel;
+      if (config.aiChatCopiedLabel) aiChatCopiedLabel = config.aiChatCopiedLabel;
+    }
   } catch (e) {
     pool = [];
   }
@@ -98,17 +110,31 @@
     return cut + "…";
   }
 
-  function promptInstructions() {
-    return [
-      "Please:",
-      "- Find unexpected links between the blog post and these notes",
-      "- Find unexpected links across the three notes",
-      "- Suggest 3 new atomic note titles I could write",
-      "- Propose questions this combination raises",
-      "- Flag gaps, tensions, or contradictions worth exploring",
-      "",
-      "Keep suggestions practical for a personal knowledge garden: one idea per note, clear titles I can turn into [[wikilinks]].",
-    ].join("\n");
+  function promptInstructions(noteCount) {
+    var lines = ["Please analyze these combinations:"];
+
+    if (noteCount >= 2) {
+      lines.push("1. Blog post + Note 1 + Note 2 (all three together)");
+      lines.push("2. Blog post + Note 1");
+      lines.push("3. Blog post + Note 2");
+    } else if (noteCount === 1) {
+      lines.push("1. Blog post + Note 1");
+    } else {
+      lines.push("1. Blog post alone — suggest note topics that would pair well with it");
+    }
+
+    lines.push("");
+    lines.push("For each combination:");
+    lines.push("- Find unexpected links and new ideas");
+    lines.push("- Suggest 1–2 atomic note titles I could write");
+    lines.push("- Propose questions the pairing raises");
+    lines.push("- Flag gaps, tensions, or contradictions worth exploring");
+    lines.push("");
+    lines.push(
+      "Keep suggestions practical for a personal knowledge garden: one idea per note, clear titles I can turn into [[wikilinks]]."
+    );
+
+    return lines.join("\n");
   }
 
   function allocateBudget(total, weights) {
@@ -158,12 +184,12 @@
     });
 
     if (!blog && !usable.length) {
-      return "Shuffle to load three unrelated notes, then paste this prompt into your AI chat.";
+      return "Shuffle to load two unrelated notes, then paste this prompt into your AI chat.";
     }
 
     var intro =
-      "I'm reading a blog post alongside three unrelated notes from my digital garden. Help me find unexpected connections and new ideas.";
-    var instructions = promptInstructions();
+      "I'm reading a blog post alongside two unrelated notes from my digital garden. Help me explore connections between the post and each note, and all three together.";
+    var instructions = promptInstructions(usable.length);
     var origin = window.location.origin;
     var sections = [];
     var bodyTexts = [];
@@ -254,16 +280,64 @@
     promptEl.value = buildPrompt(notes);
   }
 
+  function flashButton(btn, message) {
+    if (!btn) return;
+    var original = btn.textContent;
+    btn.textContent = message;
+    window.setTimeout(function () {
+      btn.textContent = original;
+    }, 1600);
+  }
+
+  function promptIsReady() {
+    if (!promptEl) return false;
+    var prompt = promptEl.value;
+    if (!prompt) return false;
+    if (prompt === "Loading notes…") return false;
+    if (prompt.indexOf("Shuffle to load") === 0) return false;
+    return true;
+  }
+
+  function aiChatFallbackUrl(template) {
+    var qIndex = template.indexOf("?q=");
+    if (qIndex !== -1) return template.slice(0, qIndex);
+    var queryIndex = template.indexOf("?");
+    if (queryIndex !== -1) return template.slice(0, queryIndex);
+    return template;
+  }
+
   function copyPrompt() {
-    if (!promptEl || !navigator.clipboard) return;
+    if (!promptEl || !navigator.clipboard || !promptIsReady()) return;
 
     navigator.clipboard.writeText(promptEl.value).then(function () {
-      if (!copyPromptBtn) return;
-      var original = copyPromptBtn.textContent;
-      copyPromptBtn.textContent = "Copied";
-      window.setTimeout(function () {
-        copyPromptBtn.textContent = original;
-      }, 1600);
+      flashButton(copyPromptBtn, "Copied");
+    });
+  }
+
+  function sendPromptToAI() {
+    if (!promptEl || !promptIsReady()) return;
+
+    var prompt = promptEl.value;
+    var prefillUrl = aiChatUrl + encodeURIComponent(prompt);
+
+    function openChat(url) {
+      window.open(url, "_blank", "noopener,noreferrer");
+    }
+
+    if (prefillUrl.length <= PROMPT_PREFILL_MAX_URL) {
+      openChat(prefillUrl);
+      flashButton(sendPromptBtn, aiChatOpenedLabel);
+      return;
+    }
+
+    if (!navigator.clipboard) {
+      openChat(aiChatFallbackUrl(aiChatUrl));
+      return;
+    }
+
+    navigator.clipboard.writeText(prompt).then(function () {
+      openChat(aiChatFallbackUrl(aiChatUrl));
+      flashButton(sendPromptBtn, aiChatCopiedLabel);
     });
   }
 
@@ -371,7 +445,7 @@
     if (!pool.length) {
       if (emptyPageEl) emptyPageEl.classList.remove("hidden");
       slots.forEach(setSlotEmpty);
-      currentNotes = [null, null, null];
+      currentNotes = [null, null];
       updatePrompt([]);
       return;
     }
@@ -423,15 +497,9 @@
     });
   }
 
-  if (shuffleCenterBtn) {
-    shuffleCenterBtn.addEventListener("click", function () {
-      shuffleSide(1);
-    });
-  }
-
   if (shuffleRightBtn) {
     shuffleRightBtn.addEventListener("click", function () {
-      shuffleSide(2);
+      shuffleSide(1);
     });
   }
 
@@ -440,6 +508,14 @@
       event.preventDefault();
       event.stopPropagation();
       copyPrompt();
+    });
+  }
+
+  if (sendPromptBtn) {
+    sendPromptBtn.addEventListener("click", function (event) {
+      event.preventDefault();
+      event.stopPropagation();
+      sendPromptToAI();
     });
   }
 
