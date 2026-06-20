@@ -27,6 +27,15 @@
       "provider": "copilotide",
       "last_updated": "2026-06-20T14:19:30Z"
     },
+    "2a49d88b-d203-4708-9f2a-1a46918737ce": {
+      "user_message_count": 1,
+      "agent_message_count": 11,
+      "start_timestamp": "2026-06-20T22:34:50+08:00",
+      "end_timestamp": "2026-06-20T22:34:50+08:00",
+      "markdown_size_bytes": 15922,
+      "provider": "cursoride",
+      "last_updated": "2026-06-20T14:36:09Z"
+    },
     "2e0f4e3b-f32b-4049-afd8-a6c9b1da86f3": {
       "user_message_count": 1,
       "agent_message_count": 15,
