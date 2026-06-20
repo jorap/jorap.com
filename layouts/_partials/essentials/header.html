@@ -138,9 +138,9 @@
           <button
             aria-label="Search"
             {{ if and (not site.Params.navigation_button.enable) (not site.Params.theme_switcher) }}
-              class="border-divider text-ink hover:text-accent mr-5 inline-block border-r lg:border-r-0 pr-5 lg:pr-0 text-xl"
+              class="header-utility-control border-divider text-ink hover:text-accent mr-5 border-r lg:border-r-0 pr-5 lg:pr-0 text-xl"
             {{ else }}
-              class="border-divider text-ink hover:text-accent mr-5 inline-block border-r pr-5 text-xl"
+              class="header-utility-control border-divider text-ink hover:text-accent mr-5 border-r pr-5 text-xl"
             {{ end }}
             data-target="search-modal">
             {{ partial "components/icon" (dict "Name" "search" "Class" "inline-block h-5 w-5") }}
@@ -148,7 +148,7 @@
         {{ end }}
       {{ end }}
 
-      {{ partial "components/language-switcher" (dict "Context" . "Class" "mr-5 pl-2 py-1 bg-transparent lg:bg-transparent rounded") }}
+      {{ partial "components/language-switcher" (dict "Context" . "Class" "header-lang-select mr-5 rounded border-0 bg-transparent px-2 lg:bg-transparent") }}
       {{ partial "components/theme-switcher" (dict "Class" "mr-5 lg:mr-0") }}
     </div>
   </nav>

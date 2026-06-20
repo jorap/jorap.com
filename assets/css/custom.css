@@ -176,7 +176,7 @@ html.dark .notes-issues__item code {
 .graph-view-container {
   position: relative;
   --graph-control-inset: 0.45rem;
-  --graph-control-size: 1.75rem;
+  --graph-control-size: var(--touch-target-min, 2.75rem);
   --graph-control-gap: 0.15rem;
 }
 
@@ -374,9 +374,9 @@ body.notes-graph-present-open {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 2rem;
-  height: 2rem;
-  padding: 0 0.5rem;
+  min-width: var(--touch-target-min, 2.75rem);
+  min-height: var(--touch-target-min, 2.75rem);
+  padding: var(--btn-py, 0.5rem) 0.65rem;
   border: 1px solid var(--color-divider);
   border-radius: 0.375rem;
   background: var(--color-surface);
@@ -411,8 +411,9 @@ body.notes-graph-present-open {
   border-radius: 0.375rem;
   background: var(--color-surface);
   color: var(--color-ink);
-  padding: 0.45rem 0.65rem;
-  font-size: 0.8125rem;
+  min-height: var(--touch-target-min, 2.75rem);
+  padding: var(--btn-py, 0.5rem) 0.75rem;
+  font-size: 1rem;
   line-height: 1.25rem;
 }
 
@@ -552,13 +553,17 @@ body.notes-graph-present-open {
 .notes-graph-filter {
   flex: 0 1 auto;
   white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid var(--color-divider);
   border-radius: 999px;
   background: var(--color-surface);
   color: var(--color-ink-muted);
-  font-size: 0.75rem;
-  line-height: 1;
-  padding: 0.35rem 0.65rem;
+  font-size: 0.8125rem;
+  line-height: 1.25;
+  min-height: var(--touch-target-min, 2.75rem);
+  padding: var(--filter-py, 0.5rem) 0.75rem;
   cursor: pointer;
   touch-action: manipulation;
   -webkit-tap-highlight-color: color-mix(in srgb, var(--color-accent) 20%, transparent);
@@ -600,7 +605,6 @@ body.notes-graph-present-open {
 @media (max-width: 1279.98px) {
   .graph-view-container {
     --graph-control-inset: 0.55rem;
-    --graph-control-size: 2.75rem;
     --graph-control-gap: 0.35rem;
   }
 
@@ -609,8 +613,8 @@ body.notes-graph-present-open {
     top: var(--header-offset);
     z-index: 20;
     isolation: isolate;
-    padding-top: 0.55rem;
-    padding-bottom: 0.55rem;
+    padding-top: var(--btn-py, 0.5rem);
+    padding-bottom: var(--btn-py, 0.5rem);
     background: var(--color-surface);
     border-bottom: 1px solid var(--color-divider);
     touch-action: manipulation;
@@ -625,57 +629,9 @@ body.notes-graph-present-open {
     touch-action: manipulation;
   }
 
-  .notes-filter,
-  .notes-graph-filter,
-  .notes-graph-btn,
-  .graph-icon,
-  .notes-graph-actions .btn,
-  .notes-graph-reset,
-  .notes-toolbar .btn,
-  .notes-toolbar.mb-6 .btn-sm,
-  [data-notes-review-start] .btn,
-  [data-notes-review-session] .btn,
-  [data-notes-review-done] .btn,
-  [data-notes-review-exit],
-  .notes-random-prompt .btn {
-    min-height: 2.75rem;
-    touch-action: manipulation;
-    -webkit-tap-highlight-color: color-mix(in srgb, var(--color-accent) 20%, transparent);
-  }
-
-  .notes-filter,
-  .notes-graph-filter {
-    padding: 0.55rem 0.75rem;
-    font-size: 0.8125rem;
-  }
-
-  .notes-graph-btn {
-    min-width: 2.75rem;
-    padding: 0.55rem 0.65rem;
-  }
-
   .graph-icon svg {
     width: 1.125rem;
     height: 1.125rem;
-  }
-
-  .notes-toolbar .btn-sm,
-  .notes-graph-actions .btn-sm,
-  .notes-graph-reset.btn-sm {
-    padding: 0.55rem 0.85rem;
-    font-size: 0.8125rem;
-  }
-
-  .notes-graph-search {
-    min-height: 2.75rem;
-    padding: 0.65rem 0.75rem;
-    font-size: 1rem;
-  }
-
-  [data-notes-review-exit] {
-    display: inline-flex;
-    align-items: center;
-    padding: 0.35rem 0.15rem;
   }
 }
 
@@ -731,13 +687,17 @@ body.notes-graph-present-open {
 }
 
 .notes-filter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid var(--color-divider);
   border-radius: 999px;
   background: var(--color-surface);
   color: var(--color-ink-muted);
-  font-size: 0.75rem;
-  line-height: 1;
-  padding: 0.35rem 0.65rem;
+  font-size: 0.8125rem;
+  line-height: 1.25;
+  min-height: var(--touch-target-min, 2.75rem);
+  padding: var(--filter-py, 0.5rem) 0.75rem;
   cursor: pointer;
   touch-action: manipulation;
   -webkit-tap-highlight-color: color-mix(in srgb, var(--color-accent) 20%, transparent);
@@ -1049,6 +1009,15 @@ body.notes-graph-present-open {
 
 .notes-review-label {
   letter-spacing: 0.06em;
+}
+
+[data-notes-review-exit] {
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--btn-py, 0.5rem);
+  padding-bottom: var(--btn-py, 0.5rem);
+  min-height: var(--touch-target-min, 2.75rem);
+  touch-action: manipulation;
 }
 
 .notes-review-start kbd,

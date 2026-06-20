@@ -130,6 +130,15 @@ blockquote li {
   margin: 0;
 }
 
+.pagination-control {
+  @apply inline-flex items-center justify-center;
+  padding-top: var(--btn-py);
+  padding-bottom: var(--btn-py);
+  min-height: var(--touch-target-min);
+  min-width: var(--touch-target-min);
+  touch-action: manipulation;
+}
+
 /* Back-to-top progress ring. Paired with assets/js/back-to-top.js. */
 .progress-ring__circle {
   transition: stroke-dashoffset 0.1s ease-out;

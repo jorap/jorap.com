@@ -1,5 +1,5 @@
 ---
-name: update-alex-eala-tracker
+name: alex-eala-tracker-update
 description: >-
   Update the Alex Eala Pro Career Tracker blog post with latest WTA rankings,
   tournament results, Grand Slam draws, and head-to-head records. Use when the

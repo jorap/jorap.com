@@ -15,7 +15,7 @@
     <!-- Previous page. -->
     {{ if $paginator.HasPrev }}
       <a
-        class="text-ink hover:bg-elevated rounded px-2 py-1.5"
+        class="pagination-control text-ink hover:bg-elevated rounded px-2"
         href="{{ $paginator.Prev.URL }}"
         aria-label="{{ T "pagination-arrow" | default "Pagination Arrow" }}">
         <span class="sr-only">{{ T "previous" | default "Previous" }}</span>
@@ -32,7 +32,7 @@
         </svg>
       </a>
     {{ else }}
-      <span class="text-ink-faint rounded px-2 py-1.5">
+      <span class="pagination-control text-ink-faint rounded px-2">
         <span class="sr-only">{{ T "previous" | default "Previous" }}</span>
         <svg
           viewBox="0 0 20 20"
@@ -84,14 +84,14 @@
         {{ if eq . $paginator }}
           <span
             aria-current="page"
-            class="bg-accent text-on-accent rounded px-4 py-2">
+            class="pagination-control bg-accent text-on-accent rounded px-4">
             {{ .PageNumber }}
           </span>
         {{ else }}
           <a
             href="{{ .URL }}"
             aria-current="page"
-            class="text-ink hover:bg-elevated rounded px-4 py-2">
+            class="pagination-control text-ink hover:bg-elevated rounded px-4">
             {{ .PageNumber }}
           </a>
         {{ end }}
@@ -102,7 +102,7 @@
     <!-- Next page. -->
     {{ if $paginator.HasNext }}
       <a
-        class="text-ink hover:bg-elevated rounded px-2 py-1.5"
+        class="pagination-control text-ink hover:bg-elevated rounded px-2"
         href="{{ $paginator.Next.URL }}"
         aria-label="{{ T "pagination-arrow" | default "Pagination Arrow" }}">
         <span class="sr-only">Next</span>
@@ -119,7 +119,7 @@
         </svg>
       </a>
     {{ else }}
-      <span class="text-ink-faint rounded px-2 py-1.5">
+      <span class="pagination-control text-ink-faint rounded px-2">
         <span class="sr-only">Next</span>
         <svg
           viewBox="0 0 20 20"

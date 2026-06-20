@@ -6,6 +6,10 @@
  */
 html {
   --header-offset: 80px;
+  --touch-target-min: 2.75rem;
+  --btn-py: 0.5rem;
+  --nav-link-py: 0.75rem;
+  --filter-py: 0.5rem;
   @apply text-base-sm md:text-base font-primary;
   color-scheme: light;
   scroll-padding-top: var(--header-offset);

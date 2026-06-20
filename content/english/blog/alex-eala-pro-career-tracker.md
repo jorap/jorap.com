@@ -10,7 +10,7 @@ author: "JoRap"
 tags: ["Tennis", "Alex Eala", "WTA", "Pinoy Pride", "Career Tracker", "Grand Slam", "Athletes", "Women's Tennis", "Philippines", "Tennis Rankings", "Live Tracker", "Pro Tennis", "Sports Fan"]
 featured: false
 draft: false
-lastmod: 2026-06-20T02:00:00Z
+lastmod: 2026-06-21T02:30:00Z
 ---
 
 I've been following Alex Eala's career since her amazing run at the 2025 Miami Open, and watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook - career-high rankings, the matches I'll always remember, the head-to-heads with Grand Slam champions, and the upcoming matchups I'm watching for. I update it as her career unfolds.
@@ -56,10 +56,12 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - 2026
 
   - **Berlin (WTA 500, Grass)** 
-    - Semifinals | vs Noskova | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003)
+    - Semifinals, l. Noskova 6-2, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-20)
     - Quarterfinals, d. Svitolina 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/e-svitolina-vs-a-eala-2026-06-19)
     - Round of 16, d. Rybakina 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-e-rybakina-2026-06-18)
     - Round of 32, d. Vekić 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS030) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/d-vekic-vs-a-eala-2026-06-17)
+
+ {{< youtube AdoeRVzt6FQ >}}
 
   - **Birmingham (WTA 125, Grass)**
     - Second Career WTA Title Win
@@ -462,6 +464,8 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - [WTA Profile](https://www.wtatennis.com/players/329668/linda-noskova)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/329668)
+
+{{< youtube 2xXtCXEVBqg >}}
 
 {{< youtube wQ1Y2R4_dAU >}}
 

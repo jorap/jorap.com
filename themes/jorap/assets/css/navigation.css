@@ -24,7 +24,18 @@ input#nav-toggle:focus-visible + label {
 }
 
 .nav-link {
-  @apply text-ink hover:text-accent block cursor-pointer p-3 font-semibold transition-colors duration-200 ease-out lg:px-2 lg:py-3;
+  @apply text-ink hover:text-accent block cursor-pointer font-semibold transition-colors duration-200 ease-out;
+  padding-top: var(--nav-link-py);
+  padding-bottom: var(--nav-link-py);
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  @apply lg:px-2;
+}
+
+.navbar-nav .nav-link {
+  min-height: var(--touch-target-min);
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: color-mix(in srgb, var(--color-accent) 20%, transparent);
 }
 
 button.nav-link.nav-dropdown-trigger {
@@ -58,7 +69,11 @@ button.nav-link.nav-dropdown-trigger {
 }
 
 .nav-dropdown-link {
-  @apply text-ink hover:text-accent block py-1 font-semibold transition-colors duration-200 ease-out;
+  @apply text-ink hover:text-accent flex items-center font-semibold transition-colors duration-200 ease-out;
+  padding-top: var(--btn-py);
+  padding-bottom: var(--btn-py);
+  min-height: var(--touch-target-min);
+  touch-action: manipulation;
 }
 
 .nav-item--cta {
@@ -66,13 +81,26 @@ button.nav-link.nav-dropdown-trigger {
 }
 
 .nav-item--cta .btn {
-  @apply text-base normal-case lg:leading-none;
-  @apply px-4 py-2.5 lg:px-3 lg:py-2;
+  @apply text-base normal-case lg:leading-none px-4 lg:px-3;
+}
+
+/* Header icon controls (search, theme toggle) */
+.header-utility-control {
+  @apply inline-flex min-h-11 min-w-11 items-center justify-center;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: color-mix(in srgb, var(--color-accent) 20%, transparent);
+}
+
+.header-lang-select {
+  min-height: var(--touch-target-min);
+  padding-top: var(--btn-py);
+  padding-bottom: var(--btn-py);
+  touch-action: manipulation;
 }
 
 /* theme-switcher */
 .theme-switcher {
-  @apply inline-flex;
+  @apply inline-flex min-h-11 items-center;
 
   label {
     @apply bg-border relative inline-block h-4 w-6 cursor-pointer rounded-2xl lg:w-10;

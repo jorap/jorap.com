@@ -78,6 +78,11 @@
 }
 .tab-nav-item {
   @apply text-ink px-8 !text-lg;
+  min-height: var(--touch-target-min);
+  padding-top: var(--btn-py);
+  padding-bottom: var(--btn-py);
+  display: inline-flex;
+  align-items: center;
 }
 .tab-nav-item.active {
   @apply border-accent;
