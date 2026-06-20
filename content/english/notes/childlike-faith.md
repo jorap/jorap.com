@@ -10,6 +10,21 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Free Grace", "Faith"]
 slug: "childlike-faith"
 featured: false
 status: evergreen
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Faith"]
+cards:
+  - front: "Calculating if I'm good enough to pray tonight. What posture enters the kingdom?"
+    back: "Childlike receive - stop merit math."
+  - front: "New believer ashamed they don't know the Bible. What would I tell them?"
+    back: "Receive like a child - dependence, not achievement."
+  - front: "Negotiating with God before I trust the promise. What's the entry posture?"
+    back: "Stop calculating - receive the gift."
+  - front: "Treating faith like a merit account I'm building. What's wrong?"
+    back: "Trust receives - faith isn't stacked works."
+  - front: "Afraid to ask a dumb question in small group. What would Jesus say?"
+    back: "Come like a child - ask, don't perform."
+  - front: "Delaying trust until I understand everything. When do I enter?"
+    back: "Now - receive before I've figured it all out."
 draft: false
 aliases: ["become like children", "faith like a child"]
 ---

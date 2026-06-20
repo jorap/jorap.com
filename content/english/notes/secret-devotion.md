@@ -10,6 +10,21 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "P
 slug: "secret-devotion"
 featured: false
 status: evergreen
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Prayer"]
+cards:
+  - front: "About to post my quiet time for likes. Who's the real audience?"
+    back: "Father alone - not the feed."
+  - front: "Giving with one hand while the other broadcasts it. What's wrong?"
+    back: "Give in secret - Father who sees repays."
+  - front: "Prayer crafted for how it sounds out loud at dinner. One fix?"
+    back: "Pray in secret - real audience is Father."
+  - front: "Fasting but making sure people notice I'm suffering. What's the move?"
+    back: "Fast in secret - wash face, live normal."
+  - front: "Every piety act becoming content for applause. Which lane?"
+    back: "Hidden devotion - not performance content."
+  - front: "Tempted to skip secret prayer because no one saw. Who saw?"
+    back: "Father sees hidden - that's enough."
 draft: false
 aliases: ["give in secret", "pray in secret", "fast in secret"]
 ---

@@ -10,6 +10,21 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Beatitudes", "Sermon on 
 slug: "peacemakers"
 featured: false
 status: evergreen
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Ethics"]
+cards:
+  - front: "Two friends feuding - tempted to pick a side and stoke it. What's the blessed move?"
+    back: "Make peace - pursue reconciliation."
+  - front: "Conflict at work and I just want quiet. Peace-at-any-price?"
+    back: "No - active peacemaking, not silence only."
+  - front: "Hard truth needs saying but I soft-pedal to avoid fight. What am I called to?"
+    back: "Peace through truth in love."
+  - front: "Wronged and revenge would feel peaceful for five minutes. Family resemblance move?"
+    back: "Reconcile like the Father did."
+  - front: "Family dinner tension - finger on gossip instead of bridge-building. First move?"
+    back: "Pursue peace - speak to reconcile."
+  - front: "Someone thinks peace means never confronting sin. What do I say?"
+    back: "Peace is work - truth plus reconciliation."
 draft: false
 aliases: ["blessed are the peacemakers"]
 ---

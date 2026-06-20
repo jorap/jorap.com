@@ -10,6 +10,21 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "T
 slug: "dont-worry"
 featured: false
 status: evergreen
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Priorities"]
+cards:
+  - front: "2am spiral about bills before I prayed. What comes first?"
+    back: "Kingdom first - pray, then act."
+  - front: "Thumb on news refresh about tomorrow's meeting. One move that breaks the worry loop?"
+    back: "Today's enough - don't borrow tomorrow's trouble."
+  - front: "Treating worry like it'll add hours to my life. What does it actually do?"
+    back: "Nothing useful - trust the Father."
+  - front: "Calendar packed, soul thin - anxious about everything at once. What did Jesus rank first?"
+    back: "Seek kingdom first - needs follow."
+  - front: "Good week but still replaying what might go wrong Sunday. What's the antidote?"
+    back: "Trust provision - Father knows what I need."
+  - front: "Work hustle and trust in God pulling opposite. How many masters?"
+    back: "One Master - drop anxious serving of tomorrow."
 draft: false
 aliases: ["do not worry", "sufficient unto the day"]
 ---

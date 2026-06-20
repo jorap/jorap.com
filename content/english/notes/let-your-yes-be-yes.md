@@ -10,6 +10,21 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "T
 slug: "let-your-yes-be-yes"
 featured: false
 status: evergreen
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Ethics"]
+cards:
+  - front: "Padding a promise with extra oaths so they'll believe me. What did Jesus say?"
+    back: "Yes is yes - word stands alone."
+  - front: "Contract needs flashy language to feel binding. Integrity move?"
+    back: "Plain yes - no manipulation."
+  - front: "Public post promises more than private life delivers. Which lane breaks?"
+    back: "Private honesty first - words match life."
+  - front: "Kitchen-sink promise covering six things at once. Speech parallel?"
+    back: "One plain yes - no padded speech."
+  - front: "Exaggerating to win an argument. Beyond yes/no comes from where?"
+    back: "Manipulation - let the word be enough."
+  - front: "Thumb adding qualifiers to a simple commitment. Strip to what?"
+    back: "Simple yes or no - no spin."
 draft: false
 aliases: ["truth telling", "simply let your yes be yes"]
 ---

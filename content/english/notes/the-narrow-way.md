@@ -10,6 +10,21 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "D
 slug: "the-narrow-way"
 featured: false
 status: evergreen
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+cards:
+  - front: "Comfortable path everyone else is on. Which gate am I choosing?"
+    back: "Narrow - hard road, life at the end."
+  - front: "Saying Lord Lord but same secret sin unchanged. What did Jesus warn?"
+    back: "Not everyone who says Lord enters - do his words."
+  - front: "Cross feels optional because grace saved me. What's still costly?"
+    back: "Daily discipleship - not the salvation price."
+  - front: "Broad road tempting because it's crowded and easy. One move?"
+    back: "Pick narrow - even if few find it."
+  - front: "Moral performance as salvation ticket. Which road is that?"
+    back: "Broad self-righteousness - not the grace gate."
+  - front: "Tempted to skip hard obedience because everyone's comfortable. Who moves first?"
+    back: "I take narrow - don't follow the crowd."
 draft: false
 aliases: ["narrow gate", "broad road"]
 ---

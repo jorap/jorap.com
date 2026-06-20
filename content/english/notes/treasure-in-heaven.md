@@ -10,6 +10,21 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "P
 slug: "treasure-in-heaven"
 featured: false
 status: evergreen
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Priorities"]
+cards:
+  - front: "Saving articles and gear I'll never use. Where's my heart drifting?"
+    back: "Check treasure - moth and rust eat earth stuff."
+  - front: "Generosity impulse killed by fear of running out. What lasts?"
+    back: "Store heaven-side - give, mercy, obey."
+  - front: "Hoarding bookmarks feels productive. What's the wrong treasure?"
+    back: "Collector's fallacy - nothing lasting stored."
+  - front: "Wallet and calendar show where heart actually lives. One reframe?"
+    back: "Move treasure - heart follows."
+  - front: "Tempted to stack earthly security after grace saved me. What's the order?"
+    back: "Heaven secure - store what lasts there."
+  - front: "Thumb on another buy I don't need. One check before checkout?"
+    back: "Will this rust - or store something that lasts?"
 draft: false
 aliases: ["lay up treasure", "where your treasure is"]
 ---

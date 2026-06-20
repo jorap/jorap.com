@@ -10,6 +10,21 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "R
 slug: "eternal-rewards"
 featured: false
 status: evergreen
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Priorities"]
+cards:
+  - front: "Secret prayer and tempted to tell everyone so I feel credited. Who pays?"
+    back: "Father in secret - not the audience."
+  - front: "Good works week - feels like I bought heaven. Correct the order?"
+    back: "Grace saved first - reward follows faithfulness."
+  - front: "Stacked service feels like merit ladder to eternal life. What's the error?"
+    back: "Gift first - repayment second."
+  - front: "Hidden generosity no one saw - discouraged it doesn't count. Who sees?"
+    back: "Father sees hidden - he'll repay."
+  - front: "One heroic volunteer week mistaken for down payment on heaven. What's true?"
+    back: "Saved by faith - rewards after."
+  - front: "Small daily obedience feels too small to matter eternally. What stacks?"
+    back: "Faithful acts compound - Father repays."
 draft: false
 aliases: ["heavenly reward", "reward in heaven"]
 ---

@@ -10,6 +10,21 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "R
 slug: "reconciliation-before-worship"
 featured: false
 status: evergreen
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Ethics"]
+cards:
+  - front: "Gift in hand, brother still hurt by me. Order Jesus gave?"
+    back: "Reconcile first - then offer gift."
+  - front: "Sunday worship while avoiding someone I wronged. What breaks?"
+    back: "Hollow worship - go reconcile first."
+  - front: "Altar call feeling high but unrepaired relationship at home. First move?"
+    back: "Leave gift - go be reconciled."
+  - front: "Broken link in the garden I keep ignoring. Human parallel?"
+    back: "Repair breach first - face to face."
+  - front: "Know they're angry but hope ceremony fixes it. Who moves?"
+    back: "I go - initiative on me."
+  - front: "Already saved but distant from a brother. What's restored?"
+    back: "Fellowship - not re-earning heaven."
 draft: false
 aliases: ["leave your gift at the altar"]
 ---

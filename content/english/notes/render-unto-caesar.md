@@ -10,6 +10,21 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Civic Duty", "Allegiance
 slug: "render-unto-caesar"
 featured: false
 status: evergreen
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+cards:
+  - front: "Tax bill arrived - tempted to dodge as kingdom protest. Civic move?"
+    back: "Pay lawful duty - give Caesar his coin."
+  - front: "Patriotism and worship tangled. Who gets ultimate allegiance?"
+    back: "God ultimate - Caesar gets what's his."
+  - front: "State feels like lord of everything lately. Sort the two?"
+    back: "Render each properly - don't idolize Rome."
+  - front: "Revolutionary tax refusal sounds faithful. What did Jesus model?"
+    back: "Pay taxes - kingdom higher, still pay."
+  - front: "God's image bearer - what do I owe Him vs the state?"
+    back: "Self to God - coin to Caesar."
+  - front: "Civic duty skipped because I'm kingdom-first. What's the move?"
+    back: "Kingdom first doesn't excuse lawful duty."
 draft: false
 aliases: ["give to Caesar", "Caesar and God"]
 ---

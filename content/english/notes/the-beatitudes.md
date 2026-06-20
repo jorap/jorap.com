@@ -10,6 +10,21 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "B
 slug: "the-beatitudes"
 featured: false
 status: evergreen
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Ethics"]
+cards:
+  - front: "Feeling self-sufficient after a good week. Kingdom posture I'm missing?"
+    back: "Poor in spirit - receive as gift."
+  - front: "Loss hit hard and I want to skip church. What posture did Jesus bless?"
+    back: "Mourn - comfort comes to mourners."
+  - front: "Thumb itching to clap back and prove I'm strong. Which beatitude fork?"
+    back: "Meek - don't grasp status."
+  - front: "Scrolling outrage instead of craving what God calls right. What's the blessed hunger?"
+    back: "Hunger for righteousness."
+  - front: "Someone who wronged me needs help. First merciful move?"
+    back: "Show mercy - merciful obtain mercy."
+  - front: "Persecuted for doing right - tempted to quit looking faithful. What's the promise?"
+    back: "Kingdom of heaven - blessed are persecuted."
 draft: false
 aliases: ["blessed are"]
 ---

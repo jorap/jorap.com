@@ -2977,11 +2977,124 @@ the contradictions needs explanations to make sense
 
 _**Agent (default)**_
 
+<think><details><summary>Thought Process</summary>
+Contradiction relationship lines in notes need explanatory text to make sense.</details></think>
+
+_**Agent (default)**_
+
+Checking which relationship lines lack explanatory context and reviewing the note-relationships convention.
+
+
+_**Agent (default)**_
+
 <tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
 <details>
 <summary>Tool use: **ripgrep_raw_search**</summary>
 
-Status: **loading**
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "pattern": "^Extends \\[\\["
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "^Extends \\[\\[",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/low-hanging-fruit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/repent-and-believe.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/minimum-viable-product.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/minimum-effective-dose.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/metadata-strategy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/digital-minimalism.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/random-duo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/eternal-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/creative-output.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/context-aware-capture.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/signal-vs-noise.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/mind-mapping.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/render-unto-caesar.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/local-first-software.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-beatitudes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/drafting-in-public.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/secret-devotion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/digital-garden.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/progressive-summarization.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/creative-blocks.md"
+    }
+  ],
+  "totalFiles": 93,
+  "totalMatches": 93
+}
+```
+Status: **completed**
 
 
 </details>
@@ -2995,7 +3108,7 @@ Status: **loading**
 _**Agent (default)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: </summary>
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
 
 </details>
 </tool-use>
@@ -3008,7 +3121,7 @@ _**Agent (default)**_
 _**Agent (default)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2">
-<details><summary>Tool use: **read_file_v2** • Read file: </summary>
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/eternal-principles.md</summary>
 
 </details>
 </tool-use>
@@ -3017,6 +3130,22 @@ _**Agent (default)**_
 <summary>Tool use: **read_file_v2**</summary>
 
 </details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+All contradiction lines need explanatory "when ..." clauses, matching the format used in the gospel notes.
+
+Roughly 60 bare contradiction lines remain across PKM notes. The plan covers adding "when" explanations, updating the relationship spec, and modifying the relationship parser. Free-grace and eternal-rewards are among the affected notes.
+
+The affected notes span product strategy, digital minimalism, capture methods, knowledge workflows, and personal productivity systems.
+
+The list now includes twenty-three additional notes covering productivity, methodology, and knowledge management. Each note body must be reviewed to draft accurate "when" explanations.</details></think>
+
+_**Agent (default)**_
+
+Many PKM notes still have bare contradict lines. I'll read those notes and add `when …` explanations that match each note's actual tension.
+
 
 _**Agent (default)**_
 
@@ -3029,17 +3158,30 @@ Parameters:
 
 ```json
 {
-  "name": "general-purpose"
+  "description": "Read PKM notes for contradictions",
+  "model": "default",
+  "name": "explore",
+  "prompt": "Read the body (last ~15 lines including relationship line) of these note files under /home/jorap/Documents/GitHub/jorap.com/content/english/notes/ and for each, return: filename, current relationship line, and a suggested \"when ...\" qualifier for the contradicts clause (one short phrase, JoRap voice, explains the tradeoff).\n\nFiles needing bare contradict explanations (no \"when\" yet):\n- capture.md, signal-vs-noise.md, pkm.md, building-a-second-brain.md, the-collectors-fallacy.md, creative-output.md, active-knowledge-curation.md\n- atomic-notes.md, associative-linking.md, para-method.md, note-relationships.md, maps-of-content.md, graph-view-analytics.md\n- evergreen-notes.md, daily-notes.md, evergreen-vs-fleeting-notes.md, the-knowledge-lifecycle.md\n- progressive-summarization.md, synthesis-as-a-goal.md, intellectual-sourcing.md, spaced-repetition.md, the-feynman-technique.md\n- pareto-principle.md, compounding.md, minimum-effective-dose.md, low-hanging-fruit.md, process-over-outcomes.md, there-is-no-perfect-solution.md, mental-models-list.md\n- minimum-viable-product.md, slow-productivity.md, the-12-week-year.md, periodic-knowledge-review.md, weekly-review-checklists.md, the-second-brain-workflow.md\n- the-trusted-inbox.md, mobile-capture-workflows.md, analog-capture-tools.md, context-aware-capture.md, rss-for-research.md\n- digital-garden.md, the-garage-concept.md, drafting-in-public.md, local-first-software.md, future-proofing-knowledge.md, building-a-personal-api.md, anti-fragile-systems.md\n- metadata-strategy.md, digital-minimalism.md, digital-serendipity.md, gtd-vs-para.md\n- creative-blocks.md, mind-mapping.md\n\nReturn as a markdown table: file | current line | suggested full line with when clause",
+  "subagentType": "explore"
 }
 ```
 Additional data:
 
 ```json
 {
-  "status": "pending"
+  "status": "success",
+  "subagentComposerId": "188d4644-b6ca-42d0-9ba9-d47e75bdadf9",
+  "terminationReason": "completed"
 }
 ```
-Status: **loading**
+Result:
+
+```json
+{
+  "agentId": "188d4644-b6ca-42d0-9ba9-d47e75bdadf9"
+}
+```
+Status: **completed**
 
 
 </details>
@@ -3047,5 +3189,460 @@ Status: **loading**
 
 <tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
 <summary>Tool use: **task_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The subagent provided useful suggestions.</details></think>
+
+_**Agent (default)**_
+
+Adding `when …` explanations to bare contradict lines, updating the spec, and hardening the wire script.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+A `CONTRADICTS_WHEN` dictionary will be added to `wire-note-relationships.py` to map qualifiers. `format_relations` will be updated to use it. A script will upgrade bare contradiction lines across all note files.
+
+The script will target bare contradiction links missing qualifiers and replace them with mapped versions. It will preserve existing qualifiers on gospel notes. New lines inserted via apply_body will use the qualified format.
+
+The regex will match bare contradiction links lacking "when", "only when", or "unless". Existing gospel note qualifiers will also be added to the mapping.
+
+Seven gospel notes already carry qualifiers. These include "abide-in-me", "ask-seek-knock", "by-their-fruits", "childlike-faith", "dont-worry", "eternal-principles", and "eternal-rewards". They will be extracted from existing files and added to the mapping.
+
+Eight more gospel notes were identified for the qualifier mapping: first-principles-thinking, forgiveness, free-grace, great-commission, heart-righteousness, humility-and-service, judge-not, and let-your-light-shine.
+
+Nine additional gospel notes were added to the qualifier mapping: let-your-yes-be-yes, love-god, love-your-enemies, love-your-neighbor, peacemakers, reconciliation-before-worship, render-unto-caesar, repent-and-believe, and secret-devotion.
+
+Nine more gospel notes were added to the qualifier mapping: seek-the-kingdom-first, sunk-cost-fallacy, take-up-your-cross, the-beatitudes, the-golden-rule, the-narrow-way, the-wise-builder, treasure-in-heaven, and turn-the-other-cheek.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/contradicts-when.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/qualify-contradicts.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/qualify-contradicts.py 2>&1</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/qualify-contradicts.py 2>&1
+```
+
+```
+Traceback (most recent call last):
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/qualify-contradicts.py", line 14, in &lt;module&gt;
+    from contradicts_when import CONTRADICTS_WHEN, ONLY_WHEN_SLUGS  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'contradicts_when'
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: mv /home/jorap/Documents/GitHub/jorap.com/scripts/contradicts-when.py /home/jorap/Documents/GitHub/jorap.com/scripts/contradicts_when.py && cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/qualify-contradicts.py 2>&1</summary>
+
+```bash
+mv /home/jorap/Documents/GitHub/jorap.com/scripts/contradicts-when.py /home/jorap/Documents/GitHub/jorap.com/scripts/contradicts_when.py && cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/qualify-contradicts.py 2>&1
+```
+
+```
+  active-knowledge-curation.md
+  analog-capture-tools.md
+  anti-fragile-systems.md
+  associative-linking.md
+  atomic-notes.md
+  building-a-personal-api.md
+  building-a-second-brain.md
+  capture.md
+  compounding.md
+  context-aware-capture.md
+  creative-blocks.md
+  creative-output.md
+  daily-notes.md
+  digital-garden.md
+  digital-minimalism.md
+  digital-serendipity.md
+  drafting-in-public.md
+  evergreen-notes.md
+  evergreen-vs-fleeting-notes.md
+  future-proofing-knowledge.md
+  graph-view-analytics.md
+  gtd-vs-para.md
+  intellectual-sourcing.md
+  local-first-software.md
+  low-hanging-fruit.md
+  maps-of-content.md
+  mental-models-list.md
+  metadata-strategy.md
+  mind-mapping.md
+  minimum-effective-dose.md
+  minimum-viable-product.md
+  mobile-capture-workflows.md
+  para-method.md
+  pareto-principle.md
+  periodic-knowledge-review.md
+  pkm.md
+  process-over-outcomes.md
+  progressive-summarization.md
+  rss-for-research.md
+  signal-vs-noise.md
+  slow-productivity.md
+  spaced-repetition.md
+  synthesis-as-a-goal.md
+  the-12-week-year.md
+  the-collectors-fallacy.md
+  the-feynman-technique.md
+  the-garage-concept.md
+  the-knowledge-lifecycle.md
+  the-second-brain-workflow.md
+  the-trusted-inbox.md
+  there-is-no-perfect-solution.md
+  weekly-review-checklists.md
+
+Done: 52 notes qualified.
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re
+from pathlib import Path
+
+NOTES = Path("content/english/notes")
+HAS_QUAL = re.compile(r"Contradicts \[\[[^\]]+\]\]\s+(?:when|only when|unless)\s+", re.I)
+bare = []
+for path in sorted(NOTES.glob("*.md")):
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        continue
+    body = text[text.find("\n---", 3)+4:]
+    for ln in body.splitlines():
+        s = ln.strip()
+        if s.startswith("Extends ") and "Contradicts " in s and not HAS_QUAL.search(s):
+            bare.append((path.name, s))
+
+if bare:
+    print("STILL BARE:")
+    for b in bare:
+        print(f"  {b[0]}: {b[1][:90]}")
+else:
+    print("All contradicts lines have when-clauses.")
+
+# check love-your-neighbor
+t = (NOTES / "love-your-neighbor.md").read_text()
+for ln in t.splitlines():
+    if ln.strip().startswith("Extends "):
+        print("love-your-neighbor:", ln.strip())
+PY
+python3 scripts/wire-note-relationships.py 2>&1 | tail -3</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re
+from pathlib import Path
+
+NOTES = Path("content/english/notes")
+HAS_QUAL = re.compile(r"Contradicts \[\[[^\]]+\]\]\s+(?:when|only when|unless)\s+", re.I)
+bare = []
+for path in sorted(NOTES.glob("*.md")):
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        continue
+    body = text[text.find("\n---", 3)+4:]
+    for ln in body.splitlines():
+        s = ln.strip()
+        if s.startswith("Extends ") and "Contradicts " in s and not HAS_QUAL.search(s):
+            bare.append((path.name, s))
+
+if bare:
+    print("STILL BARE:")
+    for b in bare:
+        print(f"  {b[0]}: {b[1][:90]}")
+else:
+    print("All contradicts lines have when-clauses.")
+
+# check love-your-neighbor
+t = (NOTES / "love-your-neighbor.md").read_text()
+for ln in t.splitlines():
+    if ln.strip().startswith("Extends "):
+        print("love-your-neighbor:", ln.strip())
+PY
+python3 scripts/wire-note-relationships.py 2>&1 | tail -3
+```
+
+```
+All contradicts lines have when-clauses.
+love-your-neighbor: Extends [[Free Grace]]. Contradicts [[Love Your Enemies]] only when I limit "neighbor" to people I already like.
+
+Done: 0 notes updated.
+Missing mappings (1): issues
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Considering adding an npm script for qualify-contradicts.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/note-relationships.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+Added **`when …` explanations** to every bare contradicts line across the garden.
+
+### Before → after
+
+```35:35:content/english/notes/capture.md
+Extends [[PKM]]. Contradicts [[Signal vs Noise]] when I save first and filter later.
+```
+
+Gospel notes that already had qualifiers (e.g. `the-beatitudes`, `free-grace`) were left as-is.
+
+### Scope
+
+- **52 PKM notes** updated with tradeoff explanations
+- **~30 gospel notes** already qualified from earlier work
+- **`note-relationships.md`** spec updated — contradicts must include a `when` clause; table example updated too
+
+### Tooling
+
+- `scripts/contradicts_when.py` — central map of qualifier phrases per note slug
+- `scripts/qualify-contradicts.py` — applies qualifiers to any bare lines (`python3 scripts/qualify-contradicts.py`)
+- `scripts/wire-note-relationships.py` — now emits qualified contradicts from the same map, so re-running the wire script won't strip explanations
+
+Every contradicts line in the garden now states **when the tension shows up**, not just which note it pushes against.
+
+---
+
+_**User**_
+
+i notice that the notes that have fewer than 6 flashards don't have good /flashcards 
+
+---
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re
+from pathlib import Path
+
+NOTES = Path("content/english/notes")
+CARD_RE = re.compile(r'^\s+-\s+front:', re.M)
+
+for path in sorted(NOTES.glob("*.md")):
+    text = path.read_text(encoding="utf-8")
+    if not re.search(r"^review:\s*true", text, re.M):
+        continue
+    n = len(CARD_RE.findall(text))
+    if n != 6:
+        print(f"{n}\t{path.name}")
+PY</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re
+from pathlib import Path
+
+NOTES = Path("content/english/notes")
+CARD_RE = re.compile(r'^\s+-\s+front:', re.M)
+
+for path in sorted(NOTES.glob("*.md")):
+    text = path.read_text(encoding="utf-8")
+    if not re.search(r"^review:\s*true", text, re.M):
+        continue
+    n = len(CARD_RE.findall(text))
+    if n != 6:
+        print(f"{n}\t{path.name}")
+PY
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Status: **loading**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
 
 </details></tool-use>

@@ -10,6 +10,21 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "S
 slug: "humility-and-service"
 featured: false
 status: evergreen
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+cards:
+  - front: "Grasping for status in a group project. Kingdom path to greatness?"
+    back: "Serve all - last becomes first."
+  - front: "Waiting to be served at home after serving at church. What's the gap?"
+    back: "Serve here too - same kingdom ladder."
+  - front: "Foot-washing feels below my role. What did Jesus model?"
+    back: "Serve, not be served - wash feet."
+  - front: "Visibility became the goal in ministry. What beats pride?"
+    back: "Humble self - let God exalt."
+  - front: "Tempted to exalt myself in a story about my sacrifice. One check?"
+    back: "Humble - don't grab the spotlight."
+  - front: "Leadership seat felt like the win. What makes someone great?"
+    back: "Servant of all - not title grabbed."
 draft: false
 aliases: ["servant leadership", "the last shall be first"]
 ---

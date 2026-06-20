@@ -10,6 +10,21 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Mission", "Discipleship"
 slug: "great-commission"
 featured: false
 status: evergreen
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
+cards:
+  - front: "Notes garden full, gospel never leaves my mouth. What's the hoarding move?"
+    back: "Share truth - don't hoard like bookmarks."
+  - front: "Someone asks how to follow Jesus - I lecture systems not gospel. Lead with?"
+    back: "Repent and believe - then teach obedience."
+  - front: "Baptize and teach feels like someone else's job. Who did Jesus send?"
+    back: "All disciples - go, he is with you."
+  - front: "Obedience teaching skipped because grace saved them. What's missing?"
+    back: "Teach obedience - discipleship after faith."
+  - front: "Afraid to speak up at work about faith. Promise Jesus gave?"
+    back: "I am with you - go anyway."
+  - front: "Truth hoarded in private study, zero disciples made. What's the commission?"
+    back: "Go make disciples - not hoard in garden."
 draft: false
 aliases: ["go and make disciples", "Matthew 28"]
 ---

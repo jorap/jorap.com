@@ -10,6 +10,21 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "J
 slug: "judge-not"
 featured: false
 status: evergreen
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Ethics"]
+cards:
+  - front: "Friend's speck obvious; my plank invisible. What do I fix first?"
+    back: "Remove my plank - then help with speck."
+  - front: "About to quote their failure online. Who am I playing?"
+    back: "Not their judge - I needed mercy first."
+  - front: "Condemning someone while excusing the same sin in me. What's the hypocrisy move?"
+    back: "Stop condemning - diagnose myself first."
+  - front: "Charismatic teacher, ugly fruit in followers. What kind of judgment is allowed?"
+    back: "Discern fruit - not play final judge."
+  - front: "Nitpick someone's parenting while mine's a mess. One check before I speak?"
+    back: "Apply the standard to me first."
+  - front: "Tempted to roast someone else's mess while mine's hidden. What's my move?"
+    back: "Fix my plank - audit myself first."
 draft: false
 aliases: ["speck and plank", "do not judge"]
 ---

@@ -10,6 +10,21 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "N
 slug: "turn-the-other-cheek"
 featured: false
 status: evergreen
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Ethics"]
+cards:
+  - front: "Insult landed - thumb drafting equal hurt back. What's the cycle-break?"
+    back: "Don't retaliate - absorb without escalating."
+  - front: "Sunk cost anger - already invested rage in this feud. Stop line?"
+    back: "Stop throwing anger after sunk hurt."
+  - front: "Eye-for-eye feels fair right now. Personal ethic Jesus gave?"
+    back: "Turn cheek - refuse to become what hurt me."
+  - front: "Waiting to hit back before I act well toward them. What comes first?"
+    back: "Break cycle - don't return evil."
+  - front: "Public slap to my reputation - outrage justified in my head. Next move?"
+    back: "Non-retaliation - don't mirror evil."
+  - front: "They struck first so my payback feels righteous. Who keeps score?"
+    back: "Grace freed me - don't score back."
 draft: false
 aliases: ["non-retaliation", "resist not evil"]
 ---

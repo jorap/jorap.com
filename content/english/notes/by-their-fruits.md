@@ -10,6 +10,21 @@ tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "D
 slug: "by-their-fruits"
 featured: false
 status: evergreen
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Ethics"]
+cards:
+  - front: "Charismatic preacher, messy lives in followers. How do I evaluate?"
+    back: "Watch fruit - grapes from vines, not hype."
+  - front: "Trending teacher everyone bookmarks. Filter before I trust?"
+    back: "Outcome over credentials - what does it produce?"
+  - front: "Wolf in sheep's clothing - credentials look perfect. Time tells what?"
+    back: "Fruit over time - thorns don't grow grapes."
+  - front: "Can't tell if teaching helps or hurts. PKM parallel?"
+    back: "Signal vs noise - what produces good over time?"
+  - front: "About to condemn the teacher's soul online. What do I do instead of playing judge?"
+    back: "Discern fruit - not condemn souls."
+  - front: "New book everyone's sharing. One check before I adopt the teaching?"
+    back: "What fruit does it produce - not charisma?"
 draft: false
 aliases: ["know them by their fruits", "a tree is known by its fruit"]
 ---
