@@ -15,7 +15,7 @@ aliases: ["Graph View"]
 ---
 Graph view looks sci-fi. Mostly I use it to sort notes by link frequency - high, low, no body links, and orphans.
 
-Extends [[Associative Linking]]. Contradicts [[Maps of Content]].
+Extends [[Associative Linking]]. Contradicts [[Maps of Content]] when link counts beat a hand-curated index.
 
 ## See also
 

@@ -15,7 +15,7 @@ aliases: ["Feynman Technique"]
 ---
 I explain notes like I'm teaching someone - gaps in my explanation show gaps in understanding.
 
-Extends [[Evergreen Notes]]. Contradicts [[Spaced Repetition]].
+Extends [[Evergreen Notes]]. Contradicts [[Spaced Repetition]] when explaining gaps beats flashcard drill.
 
 ## See also
 

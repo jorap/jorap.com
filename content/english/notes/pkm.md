@@ -15,7 +15,7 @@ status: evergreen
 ---
 **PKM** is the boring name for how I save, organize, and use what I learn. Here's my unspectacular definition.
 
-Extends [[Getting Started]]. Contradicts [[The Collector's Fallacy]].
+Extends [[Getting Started]]. Contradicts [[The Collector's Fallacy]] when building the system feels like progress without output.
 
 ## See also
 

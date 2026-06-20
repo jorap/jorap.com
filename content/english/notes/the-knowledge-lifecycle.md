@@ -15,7 +15,7 @@ aliases: ["Knowledge Lifecycle"]
 ---
 Ideas have lifecycles in my vault: capture, active use, evergreen, decay, archive. I match effort to stage.
 
-Extends [[Evergreen vs Fleeting Notes]]. Contradicts [[Evergreen Notes]].
+Extends [[Evergreen vs Fleeting Notes]]. Contradicts [[Evergreen Notes]] when stage-matched effort beats evergreen polish on every note.
 
 ## See also
 

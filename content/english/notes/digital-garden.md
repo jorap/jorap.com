@@ -15,7 +15,7 @@ aliases: ["Advantages of Digital Gardens"]
 ---
 My digital garden is where notes grow in public - linked, imperfect, alive.
 
-Extends [[Evergreen Notes]]. Contradicts [[The Garage Concept]].
+Extends [[Evergreen Notes]]. Contradicts [[The Garage Concept]] when public growth beats keeping scraps in the garage.
 
 ## See also
 

@@ -15,7 +15,7 @@ aliases: []
 ---
 Most sparks die on mobile because capture takes twelve taps. I reduced mine to share sheet → inbox.
 
-Extends [[Capture]]. Contradicts [[Analog Capture Tools]]. Alternative to [[Analog Capture Tools]].
+Extends [[Capture]]. Contradicts [[Analog Capture Tools]] when share sheet beats paper for sparks I might scroll past. Alternative to [[Analog Capture Tools]].
 
 ## See also
 

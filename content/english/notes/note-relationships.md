@@ -33,14 +33,14 @@ aliases: ["link types"]
 | Type | Question | Example |
 |------|----------|---------|
 | **extends** | What does this build on? | [[Signal vs Noise]] extends [[Capture]] |
-| **contradicts** | What tradeoff does this push against? | [[Slow Productivity]] contradicts [[The 12 Week Year]] |
+| **contradicts** | What tradeoff does this push against? | [[Slow Productivity]] contradicts [[The 12 Week Year]] when fewer deep projects beat quarterly sprints |
 | **implements** | What makes this real? | [[Weekly Review Checklists]] implements [[Periodic Knowledge Review]] |
 | **alternative** | What else could do this job? | [[Mobile Capture Workflows]] alternative to [[Analog Capture Tools]] |
 | **index** | What gathers many notes? | [[Maps of Content]] indexes the garden |
 
-I give every atomic note **extends** and **contradicts** in the body - one sentence, wikilinked. "Pairs with" in older notes means informal extends. Pipeline order (capture → distill → express) is prose, not a sixth type. Human parallel: [[Reconciliation Before Worship]] - repair broken relationships before showing up to worship, same way I repair broken wikilinks before calling the graph healthy. Ethics parallel: [[The Golden Rule]] - treat links like neighbors; typed relationships, not vague vibes.
+I give every atomic note **extends** and **contradicts** in the body - one sentence, wikilinked, with a **when** clause on contradicts so the tradeoff is explicit (`when links beat sorting by folder`, not just `contradicts PARA`). "Pairs with" in older notes means informal extends. Pipeline order (capture → distill → express) is prose, not a sixth type. Human parallel: [[Reconciliation Before Worship]] - repair broken relationships before showing up to worship, same way I repair broken wikilinks before calling the graph healthy. Ethics parallel: [[The Golden Rule]] - treat links like neighbors; typed relationships, not vague vibes.
 
-Extends [[Associative Linking]]. Contradicts [[PARA Method]].
+Extends [[Associative Linking]]. Contradicts [[PARA Method]] when typed body links beat sorting by project folder.
 
 ## See also
 

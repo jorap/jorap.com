@@ -15,7 +15,7 @@ aliases: ["Garage Concept"]
 ---
 The garage holds tools, scraps, experiments. The showroom is the blog. I don't confuse the two.
 
-Extends [[Digital Garden]]. Contradicts [[Drafting in Public]].
+Extends [[Digital Garden]]. Contradicts [[Drafting in Public]] when private workshop beats publishing half-baked notes.
 
 ## See also
 

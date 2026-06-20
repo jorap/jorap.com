@@ -15,7 +15,7 @@ aliases: []
 ---
 Tags, categories, dates, aliases - metadata should help me find notes, not become a second job.
 
-Extends [[PARA Method]]. Contradicts [[Building a Personal API]].
+Extends [[PARA Method]]. Contradicts [[Building a Personal API]] when light tags beat automation-ready frontmatter.
 
 ## See also
 

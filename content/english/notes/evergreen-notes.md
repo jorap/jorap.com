@@ -32,7 +32,7 @@ I write evergreen notes to stay useful - timeless phrasing, clear claims, update
 
 I write in complete sentences I'd still stand behind in two years. Revise when tools change, not when trends spike. Promotion from fleeting: during [[Periodic Knowledge Review]], when a spark keeps returning. Faith parallel: [[The Beatitudes]] - character that matures over years, not a one-week mood.
 
-Extends [[Atomic Notes]]. Contradicts [[Daily Notes]].
+Extends [[Atomic Notes]]. Contradicts [[Daily Notes]] when two-year phrasing beats today's scratch pad.
 
 ## See also
 

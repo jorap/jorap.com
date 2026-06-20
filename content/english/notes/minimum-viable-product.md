@@ -17,7 +17,7 @@ status: evergreen
 
 I'd rather publish a rough note or prototype and learn than polish in private for months.
 
-Extends [[Creative Output]]. Contradicts [[Evergreen Notes]].
+Extends [[Creative Output]]. Contradicts [[Evergreen Notes]] when rough ship beats two-year polish.
 
 ## See also
 

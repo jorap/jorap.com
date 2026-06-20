@@ -15,7 +15,7 @@ aliases: ["Distraction-Free Writing", "distraction free writing"]
 ---
 Notes are inventory. Output is the point - blog posts, sermons, code, dinner experiments. When I'm testing an idea, I ship an [[Minimum Viable Product]] before I polish. Faith parallel: [[The Wise Builder]] - hear Jesus and do; [[Great Commission]] - truth shared, not hoarded in the garden.
 
-Extends [[Building a Second Brain]]. Contradicts [[The Collector's Fallacy]].
+Extends [[Building a Second Brain]]. Contradicts [[The Collector's Fallacy]] when ship pressure makes me skip capture I'd need for the draft.
 
 ## See also
 

@@ -15,7 +15,7 @@ aliases: ["Second Brain Workflow", "Second Brain Daily Workflow", "Daily Workflo
 ---
 CODE and PARA in one loop: capture to inbox, organize by project, distill on use, express weekly.
 
-Extends [[Capture]]. Contradicts [[Minimum Effective Dose]]. Implements [[Building a Second Brain]].
+Extends [[Capture]]. Contradicts [[Minimum Effective Dose]] when the full loop beats the smallest habit that works. Implements [[Building a Second Brain]].
 
 ## See also
 

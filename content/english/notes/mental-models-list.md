@@ -26,4 +26,4 @@ Mental models are shortcuts for thinking. I keep a short list of ones that survi
 - [[Sunk Cost Fallacy]]
 - [[There Is No Perfect Solution]]
 
-Extends [[PKM]]. Contradicts [[There Is No Perfect Solution]].
+Extends [[PKM]]. Contradicts [[There Is No Perfect Solution]] when a model lens beats treating every tradeoff as equal.

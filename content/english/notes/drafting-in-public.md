@@ -15,7 +15,7 @@ aliases: []
 ---
 I publish rough ideas before they're finished. Drafting in public keeps me honest and makes the garden grow. Faith parallel: [[Let Your Light Shine]] - visible good works, same instinct of putting work in the open, but the aim is God's credit not mine.
 
-Extends [[Digital Garden]]. Contradicts [[Evergreen Notes]].
+Extends [[Digital Garden]]. Contradicts [[Evergreen Notes]] when rough publish beats waiting for evergreen polish.
 
 ## See also
 

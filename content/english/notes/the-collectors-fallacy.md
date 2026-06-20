@@ -30,7 +30,7 @@ aliases: ["the collectors fallacy", "Collector's Fallacy"]
 ---
 Collecting articles feels like progress. It isn't. The collector's fallacy bit me until I tied saves to express deadlines. [[Treasure in Heaven]] is the faith-side mirror: hoarding what rusts instead of what lasts.
 
-Extends [[Creative Output]]. Contradicts [[Capture]].
+Extends [[Creative Output]]. Contradicts [[Capture]] when skipping the save kills a spark I'll actually ship from.
 
 ## See also
 

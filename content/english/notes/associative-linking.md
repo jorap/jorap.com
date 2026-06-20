@@ -30,7 +30,7 @@ aliases: ["Interconnectivity", "Power of Interconnectivity", "The Power of Inter
 ---
 Folders sort. Links think. I link so notes meet without me remembering every filename. Faith parallel: [[Love Your Neighbor]] - neighbors in the graph; ideas linked by proximity and care, not only folder tree.
 
-Extends [[Atomic Notes]]. Contradicts [[PARA Method]].
+Extends [[Atomic Notes]]. Contradicts [[PARA Method]] when links beat sorting by owner and deadline.
 
 ## See also
 

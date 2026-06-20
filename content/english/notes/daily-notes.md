@@ -15,7 +15,7 @@ aliases: ["Interstitial Journaling"]
 ---
 **Daily Notes** are my scratch pad for the day - tasks, fragments, links. Not a diary. Not permanent by default.
 
-Extends [[Capture]]. Contradicts [[Evergreen Notes]].
+Extends [[Capture]]. Contradicts [[Evergreen Notes]] when fleeting capture beats polishing for permanence.
 
 ## See also
 

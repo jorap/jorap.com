@@ -17,7 +17,7 @@ I don't rewrite whole notes when I distill - bold, then highlight, then summariz
 
 Layer one: bold the good sentences. Layer two: highlight the best bold. Layer three: summary at top - only when I reach for the note a second time. Distill on demand, not on save. Part of CODE's distill step.
 
-Extends [[Building a Second Brain]]. Contradicts [[Synthesis as a Goal]].
+Extends [[Building a Second Brain]]. Contradicts [[Synthesis as a Goal]] when bold layers beat rewriting into what I believe.
 
 ## See also
 

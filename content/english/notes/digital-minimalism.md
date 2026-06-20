@@ -15,7 +15,7 @@ aliases: []
 ---
 Fewer apps, fewer sync layers, fewer notifications. My PKM got better when I stopped collecting tools. Overlap with [[Treasure in Heaven]]: less earthly accumulation, clearer allegiance.
 
-Extends [[Minimum Effective Dose]]. Contradicts [[Digital Serendipity]].
+Extends [[Minimum Effective Dose]]. Contradicts [[Digital Serendipity]] when fewer pipes beat building for accidental rediscovery.
 
 ## See also
 

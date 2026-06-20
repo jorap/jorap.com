@@ -86,7 +86,7 @@ status: evergreen
 - [[Local-first Software]]
 - [[Future-Proofing Knowledge]]
 
-Extends [[Active Knowledge Curation]]. Contradicts [[Atomic Notes]]. Index for the garden.
+Extends [[Active Knowledge Curation]]. Contradicts [[Atomic Notes]] when an index gathers claims that should stay atomic. Index for the garden.
 
 ## See also
 

@@ -30,7 +30,7 @@ aliases: ["Trusted Inbox"]
 ---
 If I don't trust my inbox, I capture in my head instead. One pipe, weekly empty, no exceptions.
 
-Extends [[Capture]]. Contradicts [[Mobile Capture Workflows]].
+Extends [[Capture]]. Contradicts [[Mobile Capture Workflows]] when one trusted pipe beats frictionless capture everywhere.
 
 ## See also
 

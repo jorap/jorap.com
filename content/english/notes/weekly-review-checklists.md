@@ -30,7 +30,7 @@ aliases: []
 ---
 My weekly review is a checklist - inbox, calendar, projects, one express action. Boring on purpose.
 
-Extends [[The Trusted Inbox]]. Contradicts [[Minimum Effective Dose]]. Implements [[Periodic Knowledge Review]].
+Extends [[The Trusted Inbox]]. Contradicts [[Minimum Effective Dose]] when the full checklist beats the smallest review that works. Implements [[Periodic Knowledge Review]].
 
 ## See also
 

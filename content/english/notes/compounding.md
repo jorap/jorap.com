@@ -17,7 +17,7 @@ status: evergreen
 
 Borrowed from finance, but it applies anywhere today's gain makes tomorrow easier: notes linked over years, publish cadence, vocab drills. Heroic weeks feel good; boring repetition wins. The first months look like nothing - that's the trap. Faith parallel: [[Abide in Me]] - fruit from staying connected over time, not self-generated effort alone. [[Eternal Rewards]] - the Father repays daily faithfulness over years, not a lump-sum merit binge that buys heaven.
 
-Extends [[Process Over Outcomes]]. Contradicts [[Pareto Principle]].
+Extends [[Process Over Outcomes]]. Contradicts [[Pareto Principle]] when boring repetition beats protecting only the vital few.
 
 ## See also
 

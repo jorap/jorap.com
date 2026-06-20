@@ -15,7 +15,7 @@ status: evergreen
 ---
 Waiting for the perfect tool, plan, or answer feels responsible. It's often the nirvana fallacy. Faith parallel: [[Repent and Believe]] - the kingdom is at hand now, not when you've fixed yourself.
 
-Extends [[Mental Models List]]. Contradicts [[Pareto Principle]].
+Extends [[Mental Models List]]. Contradicts [[Pareto Principle]] when good-enough tired beats hunting the perfect 20%.
 
 ## See also
 

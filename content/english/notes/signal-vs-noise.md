@@ -30,7 +30,7 @@ aliases: []
 ---
 Most content is noise. PKM fails if capture doesn't filter. I save signal - stuff that changes action or belief. Faith parallel: [[Seek the Kingdom First]] - God's reign gets first place; everything else is judged against that filter.
 
-Extends [[Capture]]. Contradicts [[RSS for Research]].
+Extends [[Capture]]. Contradicts [[RSS for Research]] when I need standing feeds even if most entries are noise this month.
 
 ## See also
 

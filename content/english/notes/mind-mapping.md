@@ -15,7 +15,7 @@ aliases: ["Visual Thinking"]
 ---
 Mind maps are for the messy first pass - branches, bubbles, relationships. I export to atomic notes after, not instead.
 
-Extends [[Creative Output]]. Contradicts [[Atomic Notes]].
+Extends [[Creative Output]]. Contradicts [[Atomic Notes]] when branches and bubbles beat splitting before I see the shape.
 
 ## See also
 

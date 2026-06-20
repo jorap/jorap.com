@@ -15,7 +15,7 @@ aliases: []
 ---
 Notes rot without review. I calendar weekly and quarterly passes - inbox, projects, evergreens. Faith parallel: [[Ask Seek Knock]] - same rhythm of showing up on schedule, not only when desperate.
 
-Extends [[Active Knowledge Curation]]. Contradicts [[Minimum Effective Dose]].
+Extends [[Active Knowledge Curation]]. Contradicts [[Minimum Effective Dose]] when calendar review beats the smallest sufficient habit.
 
 ## See also
 

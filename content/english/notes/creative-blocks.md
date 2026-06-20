@@ -15,7 +15,7 @@ aliases: []
 ---
 I have thousands of notes and still stare at a blank page sometimes. Creative blocks aren't solved by more capture - here's what actually unsticks me.
 
-Extends [[Creative Output]]. Contradicts [[Capture]].
+Extends [[Creative Output]]. Contradicts [[Capture]] when one ship action beats capturing my way out of stuck.
 
 ## See also
 

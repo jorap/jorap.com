@@ -15,7 +15,7 @@ aliases: ["Process Over Outcome"]
 ---
 Results matter, but optimizing only for outcomes wins once. I optimize for a repeatable process that wins again and again. Faith parallel: [[Take Up Your Cross]] - daily self-denial is the process; one heroic Sunday isn't.
 
-Extends [[Compounding]]. Contradicts [[The 12 Week Year]].
+Extends [[Compounding]]. Contradicts [[The 12 Week Year]] when the daily process beats quarterly scoreboard pressure.
 
 ## See also
 

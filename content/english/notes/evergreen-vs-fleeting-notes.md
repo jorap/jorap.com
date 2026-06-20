@@ -15,7 +15,7 @@ aliases: ["Evergreen vs Fleeting"]
 ---
 Fleeting notes catch sparks. Evergreen notes hold truth. I need both lanes and a clear promotion path.
 
-Extends [[The Knowledge Lifecycle]]. Contradicts [[Evergreen Notes]].
+Extends [[The Knowledge Lifecycle]]. Contradicts [[Evergreen Notes]] when both lanes beat forcing everything evergreen.
 
 ## See also
 

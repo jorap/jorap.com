@@ -15,7 +15,7 @@ aliases: ["context aware capture"]
 ---
 A link without context is a mystery six weeks later. I capture why I saved something - project, mood, question - while it's still obvious.
 
-Extends [[Capture]]. Contradicts [[Metadata Strategy]].
+Extends [[Capture]]. Contradicts [[Metadata Strategy]] when inline why beats formal metadata fields.
 
 ## See also
 

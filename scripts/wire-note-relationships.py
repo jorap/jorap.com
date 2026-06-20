@@ -6,6 +6,8 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
+from contradicts_when import CONTRADICTS_WHEN, ONLY_WHEN_SLUGS
+
 ROOT = Path(__file__).resolve().parents[1]
 NOTES_DIR = ROOT / "content/english/notes"
 SKIP = {"_index.md"}
@@ -422,12 +424,18 @@ def link(title: str) -> str:
     return f"[[{title}]]"
 
 
-def format_relations(spec: dict[str, str | list[str]]) -> str:
+def format_relations(spec: dict[str, str | list[str]], slug: str = "") -> str:
     parts: list[str] = []
     if spec.get("extends"):
         parts.append(f"Extends {link(str(spec['extends']))}.")
     if spec.get("contradicts"):
-        parts.append(f"Contradicts {link(str(spec['contradicts']))}.")
+        target = link(str(spec["contradicts"]))
+        when = spec.get("contradicts_when") or CONTRADICTS_WHEN.get(slug, "")
+        if when:
+            prefix = "only when" if slug in ONLY_WHEN_SLUGS else "when"
+            parts.append(f"Contradicts {target} {prefix} {when}.")
+        else:
+            parts.append(f"Contradicts {target}.")
     if spec.get("implements"):
         parts.append(f"Implements {link(str(spec['implements']))}.")
     if spec.get("alternative"):
@@ -445,7 +453,7 @@ def apply_body(body: str, slug: str) -> tuple[str, bool]:
     if slug not in RELATIONSHIPS:
         return body, False
 
-    relation_line = format_relations(RELATIONSHIPS[slug])
+    relation_line = format_relations(RELATIONSHIPS[slug], slug)
     cleaned = PAIRS_RE.sub(" ", body)
     if not has_relationship(cleaned, RELATIONSHIPS[slug]):
         cleaned = OLD_REL_RE.sub(" ", cleaned)

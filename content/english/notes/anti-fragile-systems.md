@@ -15,7 +15,7 @@ aliases: ["anti fragile systems", "Antifragile"]
 ---
 Fragile systems break when an app shuts down. I build around plain files, open formats, and exports I actually test.
 
-Extends [[Future-Proofing Knowledge]]. Contradicts [[Building a Personal API]].
+Extends [[Future-Proofing Knowledge]]. Contradicts [[Building a Personal API]] when boring files beat tool-coupled structure.
 
 ## See also
 

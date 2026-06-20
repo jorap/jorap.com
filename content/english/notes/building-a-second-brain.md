@@ -32,7 +32,7 @@ aliases: ["Second Brain"]
 
 Remember CODE: [[Capture]], organize, distill, express. The system fails when any step is just for show. I review whether each step still earns its place every quarter.
 
-Extends [[PKM]]. Contradicts [[The Collector's Fallacy]].
+Extends [[PKM]]. Contradicts [[The Collector's Fallacy]] when CODE steps become collection theater with no express.
 
 ## See also
 

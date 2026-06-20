@@ -17,7 +17,7 @@ status: evergreen
 
 I borrowed it from medicine: enough to work, not more than needed. Applies to PKM habits, fitness, and side projects. More input past the dose is noise. Same shape in [[Free Grace]]: [[Free Grace]] is the minimum sufficient act for eternal life - not zero response, not a lifetime of merit stacked on top.
 
-Extends [[Pareto Principle]]. Contradicts [[Compounding]].
+Extends [[Pareto Principle]]. Contradicts [[Compounding]] when enough-to-work beats stacking past the dose.
 
 ## See also
 

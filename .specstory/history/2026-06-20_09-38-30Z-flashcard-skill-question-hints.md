@@ -2297,10 +2297,755 @@ for path in sorted(NOTES.glob("*.md")):
                 print()
 PY
 ```
+
+```
+abide-in-me.md:
+  KEEP? Extends [[Free Grace]]. Contradicts [[Compounding]] when I treat spiritual growth as pure self-stacked effort.
+  DUP?  Extends [[Free Grace]]. Contradicts [[Compounding]].
+
+ask-seek-knock.md:
+  KEEP? Extends [[Free Grace]]. Contradicts [[Don't Worry]] when anxiety replaces asking.
+  DUP?  Extends [[Free Grace]]. Contradicts [[Don't Worry]].
+
+by-their-fruits.md:
+  KEEP? Extends [[Judge Not]]. Contradicts [[Signal vs Noise]] when I can't tell fruit from hype.
+  DUP?  Extends [[Judge Not]]. Contradicts [[Signal vs Noise]].
+
+childlike-faith.md:
+  KEEP? Extends [[Free Grace]]. Contradicts [[Compounding]] when I treat faith as a merit account I'm building.
+  DUP?  Extends [[Free Grace]]. Contradicts [[Compounding]].
+
+dont-worry.md:
+  KEEP? Extends [[Free Grace]]. Contradicts [[The 12 Week Year]] when sprint urgency replaces trust.
+  DUP?  Extends [[Free Grace]]. Contradicts [[The 12 Week Year]].
+
+eternal-principles.md:
+  KEEP? Extends [[Free Grace]]. Contradicts [[First Principles Thinking]] when I treat gospel ethics as ideas I invented. Index for gospel notes in this garden.
+  DUP?  Extends [[Free Grace]]. Contradicts [[First Principles Thinking]]. Index for gospel notes in this garden.
+
+first-principles-thinking.md:
+  KEEP? Extends [[Synthesis as a Goal]]. Contradicts [[Eternal Principles]] when I treat gospel ethics as ideas I invented.
+  DUP?  Extends [[Synthesis as a Goal]]. Contradicts [[Eternal Principles]].
+
+forgiveness.md:
+  KEEP? Extends [[Free Grace]]. Contradicts [[Sunk Cost Fallacy]] when I treat old hurt as debt I'm owed forever.
+  DUP?  Extends [[Free Grace]]. Contradicts [[Sunk Cost Fallacy]].
+
+great-commission.md:
+  KEEP? Extends [[Repent and Believe]]. Contradicts [[The Collector's Fallacy]] when I hoard truth without sharing it.
+  DUP?  Extends [[Repent and Believe]]. Contradicts [[The Collector's Fallacy]].
+
+heart-righteousness.md:
+  KEEP? Extends [[Judge Not]]. Contradicts [[Let Your Light Shine]] when I polish the outside while nursing anger inside.
+  DUP?  Extends [[Judge Not]]. Contradicts [[Let Your Light Shine]].
+
+humility-and-service.md:
+  KEEP? Extends [[Free Grace]]. Contradicts [[Let Your Light Shine]] when visibility becomes the goal instead of the byproduct.
+  DUP?  Extends [[Free Grace]]. Contradicts [[Let Your Light Shine]].
+
+judge-not.md:
+  KEEP? Extends [[Free Grace]]. Contradicts [[Humility and Service]] when I critique others to elevate myself.
+  DUP?  Extends [[Free Grace]]. Contradicts [[Humility and Service]].
+
+let-your-light-shine.md:
+  KEEP? Extends [[Free Grace]]. Contradicts [[The Garage Concept]] when I hide good works out of false modesty.
+  DUP?  Extends [[Free Grace]]. Contradicts [[The Garage Concept]].
+
+let-your-yes-be-yes.md:
+  KEEP? Extends [[Love Your Neighbor]]. Contradicts [[Drafting in Public]] when public words outrun private honesty.
+  DUP?  Extends [[Love Your Neighbor]]. Contradicts [[Drafting in Public]].
+
+love-god.md:
+  KEEP? Extends [[Free Grace]]. Contradicts [[Don't Worry]] when worry replaces trust.
+  DUP?  Extends [[Free Grace]]. Contradicts [[Don't Worry]].
+
+love-your-enemies.md:
+  KEEP? Extends [[Free Grace]]. Contradicts [[The Golden Rule]] when I wait for fair treatment before I act.
+  DUP?  Extends [[Free Grace]]. Contradicts [[The Golden Rule]].
+
+love-your-neighbor.md:
+  KEEP? Extends [[Free Grace]]. Contradicts [[Love Your Enemies]] only when I limit "neighbor" to people I already like.
+  DUP?  Extends [[Free Grace]]. Contradicts [[Love Your Enemies]].
+
+peacemakers.md:
+  KEEP? Extends [[Free Grace]]. Contradicts [[Love Your Enemies]] when I confuse peace with never confronting wrong.
+  DUP?  Extends [[Free Grace]]. Contradicts [[Love Your Enemies]].
+
+reconciliation-before-worship.md:
+  KEEP? Extends [[Free Grace]]. Contradicts [[Love God]] when I prioritize ceremony over the neighbor I've wronged.
+  DUP?  Extends [[Free Grace]]. Contradicts [[Love God]].
+
+render-unto-caesar.md:
+  KEEP? Extends [[Seek the Kingdom First]]. Contradicts [[Treasure in Heaven]] when I treat the state as ultimate lord.
+  DUP?  Extends [[Seek the Kingdom First]]. Contradicts [[Treasure in Heaven]].
+
+secret-devotion.md:
+  KEEP? Extends [[Ask Seek Knock]]. Contradicts [[Drafting in Public]] when every act of piety becomes content for applause.
+  DUP?  Extends [[Ask Seek Knock]]. Contradicts [[Drafting in Public]].
+
+seek-the-kingdom-first.md:
+  KEEP? Extends [[Free Grace]]. Contradicts [[Signal vs Noise]] when I treat every demand as kingdom-level priority.
+  DUP?  Extends [[Free Grace]]. Contradicts [[Signal vs Noise]].
+
+sunk-cost-fallacy.md:
+  KEEP? Extends [[There Is No Perfect Solution]]. Contradicts [[Forgiveness]] when I keep collecting on a grudge I should release.
+  DUP?  Extends [[There Is No Perfect Solution]]. Contradicts [[Forgiveness]].
+
+take-up-your-cross.md:
+  KEEP? Extends [[Free Grace]]. Contradicts [[There Is No Perfect Solution]] when I expect discipleship without cost.
+  DUP?  Extends [[Free Grace]]. Contradicts [[There Is No Perfect Solution]].
+
+the-beatitudes.md:
+  KEEP? Extends [[Free Grace]]. Contradicts [[Humility and Service]] when pride masquerades as strength.
+  DUP?  Extends [[Free Grace]]. Contradicts [[Humility and Service]].
+
+the-golden-rule.md:
+  KEEP? Extends [[Free Grace]]. Contradicts [[Love Your Enemies]] when I only apply it to people who already treat me well.
+  DUP?  Extends [[Free Grace]]. Contradicts [[Love Your Enemies]].
+
+the-narrow-way.md:
+  KEEP? Extends [[Free Grace]]. Contradicts [[The Golden Rule]] when I take the comfortable path because everyone else does.
+  DUP?  Extends [[Free Grace]]. Contradicts [[The Golden Rule]].
+
+the-wise-builder.md:
+  KEEP? Extends [[Free Grace]]. Contradicts [[The Narrow Way]] when I claim Jesus without living his words.
+  DUP?  Extends [[Free Grace]]. Contradicts [[The Narrow Way]].
+
+treasure-in-heaven.md:
+  KEEP? Extends [[Free Grace]]. Contradicts [[The Collector's Fallacy]] when I hoard earth and call it wisdom.
+  DUP?  Extends [[Free Grace]]. Contradicts [[The Collector's Fallacy]].
+
+turn-the-other-cheek.md:
+  KEEP? Extends [[Love Your Enemies]]. Contradicts [[The Golden Rule]] when I wait to hit back before acting well.
+  DUP?  Extends [[Love Your Enemies]]. Contradicts [[The Golden Rule]].
+
+
+```
 </details>
 </tool-use>
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
 <summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+29 files contain duplicates. repent-and-believe was excluded because its contradict targets differ.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "scripts/*",
+  "pattern": "duplicate|redundan|relationship line"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "duplicate|redundan|relationship line",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./scripts/wire-note-relationships.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./scripts/enrich-evergreen-notes.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./scripts/fix-duplicate-frontmatter.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./scripts/cspHashes.mjs"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+A link in repent-and-believe is wrong: [[No Perfect Solution]] should be [[There Is No Perfect Solution]].
+
+The script contains a bare line with [[Compounding]] that duplicates the body contradiction. I will keep only the line extending Free Grace and contradicting There Is No Perfect Solution. The Compounding line should be removed.</details></think>
+
+_**Agent (default)**_
+
+Removing 29 duplicate bare relationship lines and updating the wire script so they don't come back.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re
+from pathlib import Path
+
+NOTES = Path("content/english/notes")
+
+def bare_key(line: str) -> str | None:
+    if not line.startswith("Extends "):
+        return None
+    parts = []
+    for kind in ("Extends", "Contradicts", "Implements", "Alternative to"):
+        mm = re.search(rf"{kind} \[\[([^\]]+)\]\]", line)
+        if mm:
+            parts.append(f"{kind}:{mm.group(1)}")
+    idx = re.search(r"Index for ([^.]+)\.", line)
+    if idx:
+        parts.append(f"Index:{idx.group(1).strip()}")
+    return "|".join(parts) if parts else None
+
+def dedupe_body(body: str) -> tuple[str, int]:
+    lines = body.splitlines()
+    rel_indices = [i for i, ln in enumerate(lines) if ln.strip().startswith("Extends ")]
+    remove = set()
+    for a in range(len(rel_indices)):
+        for b in range(a + 1, len(rel_indices)):
+            i, j = rel_indices[a], rel_indices[b]
+            l1, l2 = lines[i].strip(), lines[j].strip()
+            if bare_key(l1) == bare_key(l2) and l1 != l2:
+                # keep longer (qualified) line
+                if len(l1) >= len(l2):
+                    remove.add(j)
+                else:
+                    remove.add(i)
+    if not remove:
+        return body, 0
+    new_lines = [ln for i, ln in enumerate(lines) if i not in remove]
+    text = "\n".join(new_lines)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    if body.endswith("\n"):
+        text += "\n"
+    return text, len(remove)
+
+total = 0
+for path in sorted(NOTES.glob("*.md")):
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        continue
+    end = text.find("\n---", 3)
+    fm, body = text[: end + 4], text[end + 4 :]
+    new_body, n = dedupe_body(body)
+    if n:
+        path.write_text(fm + new_body, encoding="utf-8")
+        print(f"  {path.name}: removed {n} duplicate line(s)")
+        total += n
+print(f"\nDone: {total} duplicate line(s) removed.")
+PY</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re
+from pathlib import Path
+
+NOTES = Path("content/english/notes")
+
+def bare_key(line: str) -> str | None:
+    if not line.startswith("Extends "):
+        return None
+    parts = []
+    for kind in ("Extends", "Contradicts", "Implements", "Alternative to"):
+        mm = re.search(rf"{kind} \[\[([^\]]+)\]\]", line)
+        if mm:
+            parts.append(f"{kind}:{mm.group(1)}")
+    idx = re.search(r"Index for ([^.]+)\.", line)
+    if idx:
+        parts.append(f"Index:{idx.group(1).strip()}")
+    return "|".join(parts) if parts else None
+
+def dedupe_body(body: str) -> tuple[str, int]:
+    lines = body.splitlines()
+    rel_indices = [i for i, ln in enumerate(lines) if ln.strip().startswith("Extends ")]
+    remove = set()
+    for a in range(len(rel_indices)):
+        for b in range(a + 1, len(rel_indices)):
+            i, j = rel_indices[a], rel_indices[b]
+            l1, l2 = lines[i].strip(), lines[j].strip()
+            if bare_key(l1) == bare_key(l2) and l1 != l2:
+                # keep longer (qualified) line
+                if len(l1) >= len(l2):
+                    remove.add(j)
+                else:
+                    remove.add(i)
+    if not remove:
+        return body, 0
+    new_lines = [ln for i, ln in enumerate(lines) if i not in remove]
+    text = "\n".join(new_lines)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    if body.endswith("\n"):
+        text += "\n"
+    return text, len(remove)
+
+total = 0
+for path in sorted(NOTES.glob("*.md")):
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        continue
+    end = text.find("\n---", 3)
+    fm, body = text[: end + 4], text[end + 4 :]
+    new_body, n = dedupe_body(body)
+    if n:
+        path.write_text(fm + new_body, encoding="utf-8")
+        print(f"  {path.name}: removed {n} duplicate line(s)")
+        total += n
+print(f"\nDone: {total} duplicate line(s) removed.")
+PY
+```
+
+```
+  abide-in-me.md: removed 1 duplicate line(s)
+  ask-seek-knock.md: removed 1 duplicate line(s)
+  by-their-fruits.md: removed 1 duplicate line(s)
+  childlike-faith.md: removed 1 duplicate line(s)
+  dont-worry.md: removed 1 duplicate line(s)
+  eternal-principles.md: removed 1 duplicate line(s)
+  first-principles-thinking.md: removed 1 duplicate line(s)
+  forgiveness.md: removed 1 duplicate line(s)
+  great-commission.md: removed 1 duplicate line(s)
+  heart-righteousness.md: removed 1 duplicate line(s)
+  humility-and-service.md: removed 1 duplicate line(s)
+  judge-not.md: removed 1 duplicate line(s)
+  let-your-light-shine.md: removed 1 duplicate line(s)
+  let-your-yes-be-yes.md: removed 1 duplicate line(s)
+  love-god.md: removed 1 duplicate line(s)
+  love-your-enemies.md: removed 1 duplicate line(s)
+  love-your-neighbor.md: removed 1 duplicate line(s)
+  peacemakers.md: removed 1 duplicate line(s)
+  reconciliation-before-worship.md: removed 1 duplicate line(s)
+  render-unto-caesar.md: removed 1 duplicate line(s)
+  secret-devotion.md: removed 1 duplicate line(s)
+  seek-the-kingdom-first.md: removed 1 duplicate line(s)
+  sunk-cost-fallacy.md: removed 1 duplicate line(s)
+  take-up-your-cross.md: removed 1 duplicate line(s)
+  the-beatitudes.md: removed 1 duplicate line(s)
+  the-golden-rule.md: removed 1 duplicate line(s)
+  the-narrow-way.md: removed 1 duplicate line(s)
+  the-wise-builder.md: removed 1 duplicate line(s)
+  treasure-in-heaven.md: removed 1 duplicate line(s)
+  turn-the-other-cheek.md: removed 1 duplicate line(s)
+
+Done: 30 duplicate line(s) removed.
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/repent-and-believe.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+apply_body needs to detect duplicate qualified relationship lines and skip adding the bare line.
+
+The old regex strips qualified lines too. This would delete valid relationships during wire script execution. The fix preserves qualified lines matching the same extends/contradicts mapping. Bare duplicates get stripped instead.</details></think>
+
+_**Agent (default)**_
+
+Updating the wire script so it preserves qualified lines and doesn't re-add bare duplicates.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/wire-note-relationships.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re
+from pathlib import Path
+
+NOTES = Path("content/english/notes")
+
+def bare_key(line):
+    if not line.startswith("Extends "):
+        return None
+    parts = []
+    for kind in ("Extends", "Contradicts", "Implements", "Alternative to"):
+        mm = re.search(rf"{kind} \[\[([^\]]+)\]\]", line)
+        if mm:
+            parts.append(f"{kind}:{mm.group(1)}")
+    idx = re.search(r"Index for ([^.]+)\.", line)
+    if idx:
+        parts.append(f"Index:{idx.group(1).strip()}")
+    return "|".join(parts) if parts else None
+
+found = []
+for path in sorted(NOTES.glob("*.md")):
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        continue
+    body = text[text.find("\n---", 3)+4:]
+    rel = [ln.strip() for ln in body.splitlines() if ln.strip().startswith("Extends ")]
+    for i, l1 in enumerate(rel):
+        for l2 in rel[i+1:]:
+            if bare_key(l1) == bare_key(l2):
+                found.append((path.name, l1, l2))
+
+if found:
+    print("REMAINING DUPLICATES:")
+    for f in found:
+        print(f)
+else:
+    print("No duplicate relationship lines found.")
+
+# count notes with 2+ extends lines (different pairs)
+multi = []
+for path in sorted(NOTES.glob("*.md")):
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        continue
+    body = text[text.find("\n---", 3)+4:]
+    rel = [ln.strip() for ln in body.splitlines() if ln.strip().startswith("Extends ")]
+    if len(rel) > 1:
+        multi.append((path.name, rel))
+
+if multi:
+    print("\nNotes with multiple Extends lines (different pairs):")
+    for name, lines in multi:
+        print(f"  {name}:")
+        for ln in lines:
+            print(f"    {ln}")
+PY
+python3 scripts/wire-note-relationships.py 2>&1 | tail -5</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re
+from pathlib import Path
+
+NOTES = Path("content/english/notes")
+
+def bare_key(line):
+    if not line.startswith("Extends "):
+        return None
+    parts = []
+    for kind in ("Extends", "Contradicts", "Implements", "Alternative to"):
+        mm = re.search(rf"{kind} \[\[([^\]]+)\]\]", line)
+        if mm:
+            parts.append(f"{kind}:{mm.group(1)}")
+    idx = re.search(r"Index for ([^.]+)\.", line)
+    if idx:
+        parts.append(f"Index:{idx.group(1).strip()}")
+    return "|".join(parts) if parts else None
+
+found = []
+for path in sorted(NOTES.glob("*.md")):
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        continue
+    body = text[text.find("\n---", 3)+4:]
+    rel = [ln.strip() for ln in body.splitlines() if ln.strip().startswith("Extends ")]
+    for i, l1 in enumerate(rel):
+        for l2 in rel[i+1:]:
+            if bare_key(l1) == bare_key(l2):
+                found.append((path.name, l1, l2))
+
+if found:
+    print("REMAINING DUPLICATES:")
+    for f in found:
+        print(f)
+else:
+    print("No duplicate relationship lines found.")
+
+# count notes with 2+ extends lines (different pairs)
+multi = []
+for path in sorted(NOTES.glob("*.md")):
+    text = path.read_text(encoding="utf-8")
+    if not text.startswith("---"):
+        continue
+    body = text[text.find("\n---", 3)+4:]
+    rel = [ln.strip() for ln in body.splitlines() if ln.strip().startswith("Extends ")]
+    if len(rel) > 1:
+        multi.append((path.name, rel))
+
+if multi:
+    print("\nNotes with multiple Extends lines (different pairs):")
+    for name, lines in multi:
+        print(f"  {name}:")
+        for ln in lines:
+            print(f"    {ln}")
+PY
+python3 scripts/wire-note-relationships.py 2>&1 | tail -5
+```
+
+```
+No duplicate relationship lines found.
+
+Done: 0 notes updated.
+Missing mappings (1): issues
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-beatitudes.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-utility-wikilinks.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+Found and fixed **30 duplicate relationship lines** across the gospel cluster and a few PKM notes — the exact pattern you flagged in `the-beatitudes.md`.
+
+### Cause
+
+Notes had a **qualified** line (with `when …` context) plus a **bare** duplicate from `wire-note-relationships.py`. The script didn't recognize qualified lines as already present, so it appended the short form again.
+
+### Fixed
+
+Removed the bare duplicate from **30 notes**, keeping the qualified line in each case. Example in `the-beatitudes.md`:
+
+```31:31:content/english/notes/the-beatitudes.md
+Extends [[Free Grace]]. Contradicts [[Humility and Service]] when pride masquerades as strength.
+```
+
+Also fixed **`repent-and-believe.md`** separately — it had two *different* contradicts lines (one with a broken `[[No Perfect Solution]]` link, one bare `[[Compounding]]`). Consolidated to:
+
+`Extends [[Free Grace]]. Contradicts [[There Is No Perfect Solution]] when I delay entry until I've fixed myself.`
+
+### Script hardening
+
+Updated `scripts/wire-note-relationships.py` to:
+- Skip inserting a bare line when a qualified line for the same extends/contradicts pair already exists
+- Correct the `repent-and-believe` mapping to `There Is No Perfect Solution`
+
+Re-running the wire script now reports **0 notes updated** — no duplicates reintroduced.
+
+---
+
+_**User**_
+
+the contradictions needs explanations to make sense
+
+---
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Status: **loading**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: </summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: </summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="task_v2">
+<details>
+<summary>Tool use: **task_v2**</summary>
+
+
+Parameters:
+
+```json
+{
+  "name": "general-purpose"
+}
+```
+Additional data:
+
+```json
+{
+  "status": "pending"
+}
+```
+Status: **loading**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
+<summary>Tool use: **task_v2**</summary>
 
 </details></tool-use>

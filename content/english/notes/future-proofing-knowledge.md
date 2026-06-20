@@ -15,7 +15,7 @@ aliases: ["future proofing knowledge"]
 ---
 Future-proofing isn't predicting tech for me - it's plain text, open tools, and exports I test before I need them.
 
-Extends [[Local-first Software]]. Contradicts [[Building a Personal API]].
+Extends [[Local-first Software]]. Contradicts [[Building a Personal API]] when plain exports beat automation-ready structure.
 
 ## See also
 

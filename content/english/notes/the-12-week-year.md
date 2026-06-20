@@ -15,7 +15,7 @@ aliases: ["12 Week Year"]
 ---
 Twelve-week years compress annual goals into quarters I actually feel. I map wiki projects to 12-week arcs.
 
-Extends [[Periodic Knowledge Review]]. Contradicts [[Slow Productivity]].
+Extends [[Periodic Knowledge Review]]. Contradicts [[Slow Productivity]] when quarterly intensity beats fewer deeper projects.
 
 ## See also
 

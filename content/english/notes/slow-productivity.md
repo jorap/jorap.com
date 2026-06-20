@@ -15,7 +15,7 @@ aliases: []
 ---
 **Slow Productivity** pushes back on busy-as-virtue. I run fewer active projects so notes become output, not backlog. Overlap with [[Don't Worry]]: less frantic throughput, more trust that depth beats volume.
 
-Extends [[Creative Output]]. Contradicts [[The 12 Week Year]].
+Extends [[Creative Output]]. Contradicts [[The 12 Week Year]] when fewer deep projects beat quarterly sprints.
 
 ## See also
 

@@ -34,7 +34,7 @@ draft: false
 
 Small notes stack like Lego blocks - claim, how-to, example - linked, not merged. Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing. If I need headings inside one file, I probably need two notes. Faith parallel: [[Let Your Yes Be Yes]] - say one plain thing; let your yes be yes.
 
-Extends [[PKM]]. Contradicts [[Maps of Content]].
+Extends [[PKM]]. Contradicts [[Maps of Content]] when I bury claims inside a hub instead of one file per idea.
 
 ## See also
 

@@ -30,7 +30,7 @@ aliases: ["PARA", "Organization", "The Archive Method", "Archive Method", "The A
 ---
 **[[PARA]]** is how I sort notes by life responsibility - not by topic alphabet soup. Four buckets, clear questions.
 
-Extends [[Building a Second Brain]]. Contradicts [[Associative Linking]].
+Extends [[Building a Second Brain]]. Contradicts [[Associative Linking]] when life buckets beat waiting for links to find each other.
 
 ## See also
 

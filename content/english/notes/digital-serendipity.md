@@ -15,7 +15,7 @@ aliases: ["Serendipitous Resurfacing"]
 ---
 Serendipity isn't luck for me - I build systems where old notes surprise me at the right time.
 
-Extends [[Associative Linking]]. Contradicts [[Digital Minimalism]].
+Extends [[Associative Linking]]. Contradicts [[Digital Minimalism]] when surprise links beat cutting tools and sync layers.
 
 ## See also
 

@@ -15,7 +15,7 @@ aliases: ["Newsletter Filtering"]
 ---
 RSS is how I research without Twitter. Subscribe to blogs, clip to notes, ignore the rest.
 
-Extends [[Capture]]. Contradicts [[Signal vs Noise]].
+Extends [[Capture]]. Contradicts [[Signal vs Noise]] when appointment reading beats skipping every maybe-save.
 
 ## See also
 
