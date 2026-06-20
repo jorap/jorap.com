@@ -1,6 +1,7 @@
 /**
  * Obsidian Publish-style force-directed note graph (PixiJS WebGL renderer).
  */
+import "pixi.js/unsafe-eval";
 import "pixi.js";
 import { Application, Color, Container, Graphics, Text } from "pixi.js";
 

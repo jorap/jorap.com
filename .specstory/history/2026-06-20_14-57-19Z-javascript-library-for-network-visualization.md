@@ -12576,8 +12576,6 @@ _**Agent (default)**_
 
 <details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-graph.js</summary>
 
-Status: **loading**
-
 </details>
 
 </tool-use>
@@ -12591,9 +12589,7 @@ _**Agent (default)**_
 
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2">
 
-<details><summary>Tool use: **edit_file_v2**</summary>
-
-Status: **loading**
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-graph.js</summary>
 
 </details>
 
@@ -12603,3 +12599,681 @@ Status: **loading**
 <summary>Tool use: **edit_file_v2**</summary>
 
 </details></tool-use>
+
+_**Agent (default)**_
+
+When you exit present mode on a single note page, the local graph now re-settles and frames on the **main node** (the current note).
+
+It clears hover back to that node, re-runs the force layout for the inline canvas size, and calls `fitToView` with focus-centering — same behavior as the initial local graph load. Search and filters are left as-is.
+
+Hard refresh a note page to pick up the change.
+
+---
+
+_**User**_
+
+
+notes-graph.min.cf62…166a2d663365.js:910 [notes-graph] Pixi init failed: Error: Current environment does not allow unsafe-eval, please use pixi.js/unsafe-eval module to enable support.
+    at Mh._unsafeEvalCheck (notes-graph.min.cf62…663365.js:127:24276)
+    at new hg (notes-graph.min.cf62…663365.js:127:21050)
+    at new Mh (notes-graph.min.cf62…663365.js:905:24017)
+    at Fp (notes-graph.min.cf62…663365.js:910:14313)
+    at async rd.init (notes-graph.min.cf62…663365.js:910:16184)
+    at async sg (notes-graph.min.cf62…663365.js:910:33798)
+    at async ng (notes-graph.min.cf62…663365.js:910:30646)
+﻿
+
+
+
+---
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+PixiJS is failing because the browser's Content Security Policy blocks unsafe-eval. The application needs to use the pixi.js/unsafe-eval module to resolve this.</details></think>
+
+_**Agent (default)**_
+
+PixiJS is blocked by CSP `unsafe-eval`. Checking how it's imported and what the CSP allows.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-graph.js</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "unsafe-eval|pixi"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "unsafe-eval|pixi",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "package.json"
+    },
+    {
+      "matchCount": 1,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/icons/font-awesome/assets/plugins/font-awesome/v6/brands.css"
+    },
+    {
+      "matchCount": 6,
+      "uri": "pnpm-lock.yaml"
+    },
+    {
+      "matchCount": 100,
+      "uri": ".specstory/history/2026-06-20_14-57-19Z-javascript-library-for-network-visualization.md"
+    },
+    {
+      "matchCount": 17,
+      "uri": "assets/js/notes-graph.js"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 125
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+PixiJS v8 provides a CSP-safe `pixi.js/unsafe-eval` entry point to resolve the unsafe-eval error.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/node_modules/pixi.js/package.json",
+  "pattern": "unsafe-eval"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/node_modules/pixi.js/package.json",
+  "pattern": "unsafe-eval",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/node_modules/pixi.js/package.json</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **/home/jorap/Documents/GitHub/jorap.com/node_modules/pixi.js** (0 files)
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/node_modules/pixi.js",
+  "pattern": "unsafe-eval|unsafeEval"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/node_modules/pixi.js",
+  "pattern": "unsafe-eval|unsafeEval",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/node_modules/pixi.js",
+  "pattern": "unsafeEval|does not allow unsafe"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/node_modules/pixi.js",
+  "pattern": "unsafeEval|does not allow unsafe",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/node_modules/pixi.js/package.json</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/node_modules/pixi.js/package.json</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/node_modules/pixi.js/lib",
+  "pattern": "unsafeEval|unsafe-eval"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/node_modules/pixi.js/lib",
+  "pattern": "unsafeEval|unsafe-eval",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/node_modules/pixi.js/package.json</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **/home/jorap/Documents/GitHub/jorap.com/node_modules/pixi.js/lib** (0 files)
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **/home/jorap/Documents/GitHub/jorap.com/node_modules/pixi.js** (0 files)
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/node_modules/pixi.js/lib",
+  "pattern": "_unsafeEvalCheck|unsafeEval"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/node_modules/pixi.js/lib",
+  "pattern": "_unsafeEvalCheck|unsafeEval",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: ls /home/jorap/Documents/GitHub/jorap.com/node_modules/pixi.js/lib/unsafe-eval/ 2>&1 | head -5</summary>
+
+```bash
+ls /home/jorap/Documents/GitHub/jorap.com/node_modules/pixi.js/lib/unsafe-eval/ 2>&1 | head -5
+```
+
+```
+index.d.ts
+init.d.ts
+init.js
+init.js.map
+init.mjs
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search">
+<details>
+<summary>Tool use: **web_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "searchTerm": "pixi.js 8 unsafe-eval CSP Current environment does not allow unsafe-eval"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Bug: Pixi 8 build with vite get warning and pixi crashes when minify is turned on · Issue #10137 · pixijs/pixijs](https://github.com/pixijs/pixijs/issues/10137)\n2. [Use pixi.js/unsafe-eval polyfills to remove unsafe-eval CSP requirement · Pull Request #1773 · facebook/Rapid](https://github.com/facebook/Rapid/pull/1773)\n3. [v8 Migration Guide | PixiJS](https://pixijs.com/8.x/guides/migrations/v8)\n4. [Bug:  · Issue #10865 · pixijs/pixijs](https://github.com/pixijs/pixijs/issues/10865)\n5. [Bug: Current environment does not allow unsafe-eval, please use @pixi/unsafe-eval module to enable support · Issue #10315 · pixijs/pixijs](https://github.com/pixijs/pixijs/issues/10315)\n\nSynthesis:\nIn PixiJS v8, the unsafe-eval support is included in the core library, but you must manually import it to opt in if your environment restricts the use of new Function [1][2][3].\n\nTo enable support, add this import at the top of your code, before initializing the PixiJS Application or Renderer:\n\nimport 'pixi.js/unsafe-eval';\n\nThis replaces the need for the separate @pixi/unsafe-eval package used in older versions [1][2]. Ensure you are not mixing v7 and v8 packages, as they are not compatible [4]. If you are using a bundler, confirm that your project is not pulling in older v7 dependencies [4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eBug: Pixi 8 build with vite get warning and pixi crashes when minify is turned on · Issue #10137 · pixijs/pixijs\u003c/title\u003e\n\u003curl\u003ehttps://github.com/pixijs/pixijs/issues/10137\u003c/url\u003e\n\u003ccontent\u003e## Bug: Pixi 8 build with vite get warning and pixi crashes when minify is turned on\n...\nWhen i build pixijs with vite and minify turned on i got this warnings:\n...\n&#96;Use of eval in \"node_modules/pixi.js/lib/compressed-textures/basis/worker/BasisWorker.mjs\" is strongly discouraged as it poses security risks and may cause issues with minification.\nUse of eval in \"node_modules/pixi.js/lib/compressed-textures/ktx/worker/KTXWorker.mjs\" is strongly discouraged as it poses security risks and may cause issues with minification.\nUse of eval in \"node_modules/@protobufjs/inquire/index.js\" is strongly discouraged as it poses security risks and may cause issues with minification.&#96;\n...\nDeployed, pixi crashes after launching, if a turn off minify in the vite build config, it works as espected\n...\n\u003e adding &#96;import \"pixi.js/unsafe-eval\";&#96; should fix the issue\n...\n\u003e \u003e adding &#96;import \"pixi.js/unsafe-eval\";&#96; should fix the issue\n\u003e \n\u003e It took me a while to realise this is _not_ the same as &#96;import @pixi/unsafe-eval&#96; (as documented in https://www.npmjs.com/package/@pixi/unsafe-eval). If you're using Pixi v8 then you don't need a separate polyfill for the &#96;unsafe_eval&#96; patch, it's shipped as part of the core library (but you still need to import it to opt in).\n\u003e \n\u003e May be worth clarifying that in the docs to prevent head scratching, unless it already is and I just missed it!\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eUse pixi.js/unsafe-eval polyfills to remove unsafe-eval CSP requirement · Pull Request #1773 · facebook/Rapid\u003c/title\u003e\n\u003curl\u003ehttps://github.com/facebook/Rapid/pull/1773\u003c/url\u003e\n\u003ccontent\u003eRapid requires &#96;unsafe-eval&#96; in the Content Security Policy because pixi.js v8 uses &#96;new Function()&#96; for dynamic code generation (uniform syncing, shader syncing, UBO sync, particle updates). iD does not have this requirement.\n...\npixi.js 8.x ships a &#96;pixi.js/unsafe-eval&#96; submodule that monkey-patches the relevant prototype methods with static polyfill equivalents, eliminating the &#96;new Function()&#96; calls entirely.\n...\n\u003e ----\n\u003e \n\u003e *This section details on the original issue you should resolve*\n\u003e \n\u003e \u003cissue_title\u003eCurrent environment does not allow unsafe-eval, please use pixi.js/unsafe-eval module to enable support.\u003c/issue_title\u003e\n\u003e \u003cissue_description\u003e### Description\n\u003e \n\u003e Rapid requires an 'unsafe-eval' CSP flag, whereas iD does not. I don't believe it is necessary to require unsafe evaluations, and thus I consider this a bug.\n\u003e \n\u003e ### Screenshots\n\u003e \n\u003e _No response_\n...\n\u003e \n\u003e ### Version\n...\n\u003e \n\u003e 2.5.2\n...\n\u003e \n\u003e\n...\n\u003e \n\u003e Chrome\n...\n\u003e **Review (commented):**\n\u003e \n\u003e ## Pull request overview\n\u003e \n\u003e This PR aims to remove Rapid’s need for &#96;script-src 'unsafe-eval'&#96; by enabling PixiJS v8’s &#96;pixi.js/unsafe-eval&#96; polyfills, which avoid &#96;new Function()&#96; at runtime and should allow running under a strict CSP.\n\u003e \n\u003e **Changes:**\n\u003e \n\u003e - Add a side-effect import of &#96;pixi.js/unsafe-eval&#96; before importing &#96;pixi.js&#96; in &#96;GraphicsSystem.js&#96;.\n\u003e - Update &#96;package-lock.json&#96; (introducing additional platform-specific optional dependency entries).\n\u003e \n\u003e ### Reviewed changes\n...\n\u003e \n\u003e Copilot reviewed 1 out of 2 changed files in this pull request and generated 1 comment.\n...\n\u003e \n\u003e | File | Description |\n\u003e | --- | --- |\n...\n\u003e | &#96;modules/core/GraphicsSystem.js&#96; | Adds the Pixi unsafe-eval polyfill import intended to remove the CSP &#96;unsafe-eval&#96; requirement. |\n...\n\u003e | &#96;package-lock.json&#96; | Lockfile updated with additional optional/platform packages (notably esbuild/resvg variants). |\n...\n\u003e \n\u003e ---\n...\n\u003e \n\u003e 💡 Add Copilot custom instructions for smarter, more guided reviews. Learn how to get started.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003ev8 Migration Guide | PixiJS\u003c/title\u003e\n\u003curl\u003ehttps://pixijs.com/8.x/guides/migrations/v8\u003c/url\u003e\n\u003ccontent\u003e&#96;&#96;&#96;ts\n// imported by defaultimport 'pixi.js/accessibility';import 'pixi.js/app';import 'pixi.js/events';import 'pixi.js/filters';import 'pixi.js/sprite-tiling';import 'pixi.js/text';import 'pixi.js/text-bitmap';import 'pixi.js/text-html';import 'pixi.js/graphics';import 'pixi.js/mesh';import 'pixi.js/sprite-nine-slice';// not added by default, everyone needs to import these manuallyimport 'pixi.js/advanced-blend-modes';import 'pixi.js/unsafe-eval';import 'pixi.js/prepare';import 'pixi.js/math-extras';import 'pixi.js/dds';import 'pixi.js/ktx';import 'pixi.js/ktx2';import 'pixi.js/basis';import { Application } from 'pixi.js';const app = new Application();await app.init({  manageImports: false, // disable importing the above extensions});\n&#96;&#96;&#96;\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eBug:  · Issue #10865 · pixijs/pixijs\u003c/title\u003e\n\u003curl\u003ehttps://github.com/pixijs/pixijs/issues/10865\u003c/url\u003e\n\u003ccontent\u003e// import \"pixi.js/unsafe-eval\"\n//@ts-ignore\nimport { install } from '@pixi/unsafe-eval';\nimport { ShaderSystem, Renderer } from '@pixi/core';\nimport syncUniforms from './syncUniforms'\n...\nasync function fn() {\n // install({ShaderSystem});\n install({ShaderSystem:PIXI.GlShaderSystem});\n new Renderer()\n syncUniforms(PIXI.GlShaderSystem)\n...\nconsole.log(unsafeEvalSupported());\n }\n}\n...\n- **&#96;pixi.js&#96; version**: *e.g. 8.3.3*\n- **Browser \u0026 Version**: *e.g. Chrome 108*\n- **OS \u0026 Version**: *e.g. Ubuntu 22.04*\n- **Running Example**: *e.g. *\n...\n\u003e You are mixing v7 and v8, which isn't designed to interop this way. If you're using v8, you only need &#96;pixi.js&#96;, not the &#96;@pixi/*&#96; packages.\n...\n\u003e [Image: image | https://github.com/user-attachments/assets/6bd860e9-e5f5-49b4-88b7-5fefa113a759]\n\u003e \n\u003e But v8 prompted me to introduce module, which may be the reason why my project does not display UI, how should I fix this error in v8, the project is running in react native environment\n...\n\u003e Makes sure none of your dependencies are pulling in v7\n...\n\u003e This issue has been resolved, v8 doesn't need to introduce any libraries for unsafe-eval is my environment that doesn't allow the eval function, and my reduced security solves the problem，thank u\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eBug: Current environment does not allow unsafe-eval, please use @pixi/unsafe-eval module to enable support · Issue #10315 · pixijs/pixijs\u003c/title\u003e\n\u003curl\u003ehttps://github.com/pixijs/pixijs/issues/10315\u003c/url\u003e\n\u003ccontent\u003e## Bug: Current environment does not allow unsafe-eval, please use @pixi/unsafe-eval module to enable support\n...\nI'm trying to run pixiJs from a chrome extension with manifest version 3. &#96;eval&#96; is no longer supported there https://developer.chrome.com/docs/extensions/develop/migrate/improve-security.\n...\nI'm getting this error in Pixijs project even when I'm using &#96;@pixi/unsafe-eval&#96;\n...\n&#96;&#96;&#96;\nUncaught (in promise) Error: Current environment does not allow unsafe-eval, please use @pixi/unsafe-eval module to enable support.\n&#96;&#96;&#96;\n...\n&#96;&#96;&#96;\n...\n'@pixi\n...\n&#96;&#96;&#96;\n    \"dependencies\": {\n        \"@pixi/unsafe-eval\": \"^7.1.3\",\n        \"pixi-spine\": \"^4.0.4\",\n        \"pixi.js\": \"^5.3.12\"\n    }\n&#96;&#96;&#96;\n...\n\u003e I see that your unsafe-eval and pixi.js dependencies are very different version (7.1.3 vs 5.3.12) You should be using the same version for both of these things. Try that as a first step.\n...\n\u003e Still now working even after I change both versions to &#96;^5.3.12&#96;\n...\n\u003e Okay, so I needed to change a lot of things to get it working.\n\u003e \n\u003e Looks like PIXI spine is not supported by the latest PIXI versions yet.\n\u003e \n\u003e This is how I fixed it.\n\u003e \n\u003e &#96;&#96;&#96;\n\u003e \"dependencies\": {\n\u003e \"@pixi/unsafe-eval\": \"6.5.10\",\n\u003e \"pixi-spine\": \"^3.1.2\",\n\u003e \"pixi.js\": \"^6.5.10\"\n\u003e }\n\u003e &#96;&#96;&#96;\n\u003e \n\u003e &#96;&#96;&#96;\n\u003e import { Application } from \"pixi.js\";\n\u003e import { Spine } from \"pixi-spine\";\n\u003e \n\u003e (async () =\u003e {\n\u003e const app = new Application({\n\u003e backgroundColor: 0x000000,\n\u003e width: 200,\n\u003e height: 140,\n\u003e backgroundAlpha: 0,\n\u003e });\n\u003e app.stage.interactive = true;\n\u003e document.body.appendChild(app.view);\n\u003e \n\u003e const loader = app.loader.add(\"spineboy\", \"/assets/cat.json\");\n\u003e \n\u003e loader.load((loader, res) =\u003e {\n\u003e const spineboy = new Spine(res.spineboy.spineData);\n\u003e // spineboy\n\u003e spineboy.scale.set(0.35);\n\u003e spineboy.state.setAnimation(0, \"Idle\", true);\n\u003e spineboy.x = 0;\n\u003e spineboy.y = 0;\n\u003e \n\u003e spineboy.position.set(80, 140);\n\u003e \n\u003e app.stage.addChild(spineboy);\n\u003e });\n\u003e })();\n\u003e &#96;&#96;&#96;\n\u003e \n\u003e tsconfig.json\n\u003e \n\u003e &#96;&#96;&#96;\n\u003e \"module\": \"es6\",\n\u003e &#96;&#96;&#96;\u003c/content\u003e\n\u003c/result\u003e",
+      "title": "Web search results"
+    },
+    {
+      "chunk": "Full page text written to file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/483c7744-b54b-46d7-8a15-7ae1a7a8c3af.txt\nSize: 25.6 KB, 619 lines\nUse shell / grep / read_file on this path to inspect the page; no follow-up fetch is needed.",
+      "title": "v8 Migration Guide | PixiJS",
+      "url": "https://pixijs.com/8.x/guides/migrations/v8"
+    }
+  ],
+  "rejected": false
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The fix is to import `pixi.js/unsafe-eval` before the main Pixi.js import.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/node_modules/pixi.js/lib/unsafe-eval/init.mjs</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+Adding the PixiJS CSP-safe polyfill import — the site blocks `unsafe-eval`, which Pixi needs by default.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-graph.js</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --minify 2>&1 | tail -5 && grep -o 'unsafe-eval\|Pixi init failed' public/js/notes-graph*.js 2>/dev/null | head -3 || ls public/js/notes-graph*.js | head -1</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --minify 2>&1 | tail -5 && grep -o 'unsafe-eval\|Pixi init failed' public/js/notes-graph*.js 2>/dev/null | head -3 || ls public/js/notes-graph*.js | head -1
+```
+
+```
+ Processed images │  331 
+ Aliases          │  520 
+ Cleaned          │    0 
+
+Total in 29558 ms
+public/js/notes-graph.839d37f9295cfd325d3ea8619c514b3b5547355ab12a0af519fff4df210b2452.js:unsafe-eval
+public/js/notes-graph.839d37f9295cfd325d3ea8619c514b3b5547355ab12a0af519fff4df210b2452.js:unsafe-eval
+public/js/notes-graph.839d37f9295cfd325d3ea8619c514b3b5547355ab12a0af519fff4df210b2452.js:unsafe-eval
+public/js/notes-graph.839d37f9295cfd325d3ea8619c514b3b5547355ab12a0af519fff4df210b2452.js
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+The graph failed because PixiJS v8 uses `new Function()` for shaders, and your CSP correctly blocks `'unsafe-eval'`.
+
+**Fix:** import Pixi’s CSP-safe polyfill before the main library:
+
+```javascript
+import "pixi.js/unsafe-eval";
+```
+
+That swaps in static shader sync code so Pixi works without loosening CSP.
+
+Rebuild and deploy, then hard refresh. The graph should load on production without the init error.
+
+---
+
+_**User**_
+
+is pixi js self hosted?
+
+---
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,toml,json,js}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "pixi|notes-graph"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "pixi|notes-graph",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "assets/js/notes-single-random-notes.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/essentials/fingerprint-asset.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "package.json"
+    },
+    {
+      "matchCount": 27,
+      "uri": "assets/js/notes-graph.js"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 76
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/essentials/fingerprint-asset.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+I have a clear answer about whether PixiJS is self-hosted.</details></think>
+
+_**Agent (default)**_
+
+Yes. PixiJS is **self-hosted** on your site — nothing is loaded from a CDN at runtime.
+
+How it works:
+
+1. **npm dependency** — `pixi.js` is in `package.json` and installed to `node_modules` at build time.
+2. **Bundled at build** — `assets/js/notes-graph.js` imports Pixi (plus `pixi.js/unsafe-eval`), and Hugo’s `js.Build` (esbuild) inlines it into one script.
+3. **Served from your domain** — the output is a fingerprinted file like `/js/notes-graph.min.<hash>.js` on jorap.com, with SRI and your long-cache headers.
+4. **Page-scoped** — that bundle is only included on graph pages (note singles with a local graph and `/notes/graph/`), not on every page.
+
+So Pixi runs entirely from your origin, same as your main CSS/JS bundles — no third-party script host for the library itself.
