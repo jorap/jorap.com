@@ -1,0 +1,33 @@
+{{/*
+  Publish a Hugo asset with production fingerprinting for cache busting.
+  Matches the main script/style bundles in themes/jorap/layouts/_partials/essentials/.
+
+  Params:
+    - src (required): asset path, e.g. "js/notes-graph.js"
+    - as: "script" (default) or "style"
+    - defer: include defer on scripts
+    - async: include async on scripts
+*/}}
+{{- $params := . -}}
+{{- $src := $params.src -}}
+{{- $as := $params.as | default "script" -}}
+{{- with resources.Get $src -}}
+  {{- $asset := . -}}
+  {{- if hugo.IsProduction -}}
+    {{- $asset = $asset | minify | fingerprint -}}
+  {{- end -}}
+  {{- if eq $as "script" -}}
+    <script
+      src="{{ $asset.RelPermalink }}"
+      {{- if hugo.IsProduction }} crossorigin="anonymous" integrity="{{ $asset.Data.Integrity }}"{{ end -}}
+      {{- if $params.defer }} defer{{ end -}}
+      {{- if $params.async }} async{{ end -}}></script>
+  {{- else if eq $as "style" -}}
+    <link
+      rel="stylesheet"
+      href="{{ $asset.RelPermalink }}"
+      {{- if hugo.IsProduction }} crossorigin="anonymous" integrity="{{ $asset.Data.Integrity }}"{{ end -}} />
+  {{- end -}}
+{{- else -}}
+  {{- warnf "fingerprint-asset: missing resource %q" $src -}}
+{{- end -}}

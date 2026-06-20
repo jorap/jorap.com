@@ -45,10 +45,6 @@
     <script type="application/json" class="blog-random-notes-data">{{ dict "notes" $pool "aiChatUrl" $aiChatUrl "aiChatOpenedLabel" (T "prompt_opened_in_ai") "aiChatCopiedLabel" (T "prompt_copied_for_ai") | jsonify | safeJS }}</script>
   </div>
 
-  {{ with resources.Get "js/blog-random-notes.js" }}
-    <script src="{{ .RelPermalink }}" defer></script>
-  {{ end }}
-  {{ with resources.Get "js/wikilink-preview.js" }}
-    <script src="{{ .RelPermalink }}" defer></script>
-  {{ end }}
+  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/blog-random-notes.js" "defer" true) }}
+  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/wikilink-preview.js" "defer" true) }}
 {{- end -}}

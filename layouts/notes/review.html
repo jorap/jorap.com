@@ -91,7 +91,5 @@
     </div>
   </section>
 
-  {{ with resources.Get "js/notes-review.js" }}
-    <script src="{{ .RelPermalink }}" defer></script>
-  {{ end }}
+  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-review.js" "defer" true) }}
 {{ end }}

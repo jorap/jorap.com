@@ -75,10 +75,6 @@
     </div>
   </section>
 
-  {{ with resources.Get "js/notes-flashcard.js" }}
-    <script src="{{ .RelPermalink }}" defer></script>
-  {{ end }}
-  {{ with resources.Get "js/notes-cards.js" }}
-    <script src="{{ .RelPermalink }}" defer></script>
-  {{ end }}
+  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-flashcard.js" "defer" true) }}
+  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-cards.js" "defer" true) }}
 {{ end }}

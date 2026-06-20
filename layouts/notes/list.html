@@ -51,10 +51,6 @@
     </div>
   </section>
 
-  {{ with resources.Get "js/notes-list.js" }}
-    <script src="{{ .RelPermalink }}" defer></script>
-  {{ end }}
-  {{ with resources.Get "js/notes-featured-random.js" }}
-    <script src="{{ .RelPermalink }}" defer></script>
-  {{ end }}
+  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-list.js" "defer" true) }}
+  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-featured-random.js" "defer" true) }}
 {{ end }}

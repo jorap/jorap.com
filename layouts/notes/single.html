@@ -89,14 +89,8 @@
   {{ partial "notes/preview-index.html" . }}
 
   {{ if site.Params.notes.enable_graph }}
-    {{ with resources.Get "js/notes-graph.js" }}
-      <script src="{{ .RelPermalink }}" defer></script>
-    {{ end }}
+    {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-graph.js" "defer" true) }}
   {{ end }}
-  {{ with resources.Get "js/wikilink-preview.js" }}
-    <script src="{{ .RelPermalink }}" defer></script>
-  {{ end }}
-  {{ with resources.Get "js/notes-flashcard.js" }}
-    <script src="{{ .RelPermalink }}" defer></script>
-  {{ end }}
+  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/wikilink-preview.js" "defer" true) }}
+  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-flashcard.js" "defer" true) }}
 {{ end }}

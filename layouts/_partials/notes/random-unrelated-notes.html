@@ -47,7 +47,5 @@
     <script type="application/json" class="notes-single-random-data">{{ dict "notes" $pool "currentUrl" $currentUrl "aiChatUrl" $aiChatUrl "aiChatOpenedLabel" (T "prompt_opened_in_ai") "aiChatCopiedLabel" (T "prompt_copied_for_ai") | jsonify | safeJS }}</script>
   </div>
 
-  {{ with resources.Get "js/notes-single-random-notes.js" }}
-    <script src="{{ .RelPermalink }}" defer></script>
-  {{ end }}
+  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-single-random-notes.js" "defer" true) }}
 {{- end -}}

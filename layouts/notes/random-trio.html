@@ -59,10 +59,6 @@
 
   {{ partial "notes/preview-index.html" . }}
 
-  {{ with resources.Get "js/notes-random-trio.js" }}
-    <script src="{{ .RelPermalink }}" defer></script>
-  {{ end }}
-  {{ with resources.Get "js/wikilink-preview.js" }}
-    <script src="{{ .RelPermalink }}" defer></script>
-  {{ end }}
+  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-random-trio.js" "defer" true) }}
+  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/wikilink-preview.js" "defer" true) }}
 {{ end }}
