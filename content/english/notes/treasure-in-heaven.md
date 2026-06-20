@@ -19,8 +19,6 @@ Where your treasure is, there your heart will be. Earthly treasure is fragile; h
 
 Extends [[Free Grace]]. Contradicts [[The Collector's Fallacy]] when I hoard earth and call it wisdom.
 
-Extends [[Free Grace]]. Contradicts [[The Collector's Fallacy]].
-
 ## See also
 
 - [[The Collector's Fallacy]] - Capture, Learning, PKM

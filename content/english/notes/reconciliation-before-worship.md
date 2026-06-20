@@ -19,8 +19,6 @@ Jesus elevates restored relationship over religious performance. Worship with an
 
 Extends [[Free Grace]]. Contradicts [[Love God]] when I prioritize ceremony over the neighbor I've wronged.
 
-Extends [[Free Grace]]. Contradicts [[Love God]].
-
 ## See also
 
 - [[Note Relationships]] - Linking, Note Taking, PKM

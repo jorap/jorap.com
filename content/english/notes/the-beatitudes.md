@@ -30,8 +30,6 @@ aliases: ["blessed are"]
 
 Extends [[Free Grace]]. Contradicts [[Humility and Service]] when pride masquerades as strength.
 
-Extends [[Free Grace]]. Contradicts [[Humility and Service]].
-
 ## See also
 
 - [[Peacemakers]] - Beatitudes, Eternal Principles, Gospel

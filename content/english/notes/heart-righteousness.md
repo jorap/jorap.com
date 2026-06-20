@@ -19,8 +19,6 @@ Jesus didn't lower the law; he exposed its depth. "You have heard… but I say" 
 
 Extends [[Judge Not]]. Contradicts [[Let Your Light Shine]] when I polish the outside while nursing anger inside.
 
-Extends [[Judge Not]]. Contradicts [[Let Your Light Shine]].
-
 ## See also
 
 - [[Judge Not]] - Eternal Principles, Gospel, Sermon on the Mount

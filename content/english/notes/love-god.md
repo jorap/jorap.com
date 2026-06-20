@@ -34,8 +34,6 @@ When a scribe asked which commandment was first, Jesus quoted Deuteronomy 6:5 - 
 
 Extends [[Free Grace]]. Contradicts [[Don't Worry]] when worry replaces trust.
 
-Extends [[Free Grace]]. Contradicts [[Don't Worry]].
-
 ## See also
 
 - [[Love Your Neighbor]] - Commandments, Eternal Principles, Gospel

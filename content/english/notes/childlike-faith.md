@@ -19,8 +19,6 @@ Children don't enter the kingdom by achievement; they receive care they didn't e
 
 Extends [[Free Grace]]. Contradicts [[Compounding]] when I treat faith as a merit account I'm building.
 
-Extends [[Free Grace]]. Contradicts [[Compounding]].
-
 ## See also
 
 - [[Getting Started]] - Digital Garden, Meta, PKM

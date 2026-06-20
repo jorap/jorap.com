@@ -34,8 +34,6 @@ Jesus compares God to a parent who gives bread, not a stone. The [[Ask Seek Knoc
 
 Extends [[Free Grace]]. Contradicts [[Don't Worry]] when anxiety replaces asking.
 
-Extends [[Free Grace]]. Contradicts [[Don't Worry]].
-
 ## See also
 
 - [[Secret Devotion]] - Eternal Principles, Gospel, Sermon on the Mount

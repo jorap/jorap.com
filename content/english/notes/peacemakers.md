@@ -19,8 +19,6 @@ Peacemaking is work: reconciliation, truth spoken in love, de-escalation when ot
 
 Extends [[Free Grace]]. Contradicts [[Love Your Enemies]] when I confuse peace with never confronting wrong.
 
-Extends [[Free Grace]]. Contradicts [[Love Your Enemies]].
-
 ## See also
 
 - [[Reconciliation Before Worship]] - Eternal Principles, Gospel, Sermon on the Mount

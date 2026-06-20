@@ -19,8 +19,6 @@ Mission flows from resurrection authority, not human recruitment zeal. Teaching 
 
 Extends [[Repent and Believe]]. Contradicts [[The Collector's Fallacy]] when I hoard truth without sharing it.
 
-Extends [[Repent and Believe]]. Contradicts [[The Collector's Fallacy]].
-
 ## See also
 
 - [[The Wise Builder]] - Eternal Principles, Gospel, Sermon on the Mount

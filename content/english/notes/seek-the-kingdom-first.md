@@ -34,8 +34,6 @@ The Sermon on the Mount ties this to not serving two masters (God and wealth) an
 
 Extends [[Free Grace]]. Contradicts [[Signal vs Noise]] when I treat every demand as kingdom-level priority.
 
-Extends [[Free Grace]]. Contradicts [[Signal vs Noise]].
-
 ## See also
 
 - [[Signal vs Noise]] - Capture, PKM, Productivity

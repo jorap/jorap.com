@@ -34,8 +34,6 @@ The cross isn't suffering for suffering's sake; it's choosing God's will over se
 
 Extends [[Free Grace]]. Contradicts [[There Is No Perfect Solution]] when I expect discipleship without cost.
 
-Extends [[Free Grace]]. Contradicts [[There Is No Perfect Solution]].
-
 ## See also
 
 - [[Process Over Outcomes]] - Habits, PKM, Systems Thinking

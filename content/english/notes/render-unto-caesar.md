@@ -19,8 +19,6 @@ The coin bore Caesar's image; give it back to him. You bear God's image; give yo
 
 Extends [[Seek the Kingdom First]]. Contradicts [[Treasure in Heaven]] when I treat the state as ultimate lord.
 
-Extends [[Seek the Kingdom First]]. Contradicts [[Treasure in Heaven]].
-
 ## See also
 
 - [[Seek the Kingdom First]] - Eternal Principles, Gospel, Priorities

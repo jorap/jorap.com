@@ -34,8 +34,6 @@ Jesus lifted Leviticus 19:18 to equal rank with loving God. The parable of the G
 
 Extends [[Free Grace]]. Contradicts [[Love Your Enemies]] only when I limit "neighbor" to people I already like.
 
-Extends [[Free Grace]]. Contradicts [[Love Your Enemies]].
-
 ## See also
 
 - [[The Golden Rule]] - Eternal Principles, Gospel, Sermon on the Mount

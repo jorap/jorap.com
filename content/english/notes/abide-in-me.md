@@ -34,8 +34,6 @@ Abiding is ongoing dependence, not a one-time conversion event. Pruning hurts bu
 
 Extends [[Free Grace]]. Contradicts [[Compounding]] when I treat spiritual growth as pure self-stacked effort.
 
-Extends [[Free Grace]]. Contradicts [[Compounding]].
-
 ## See also
 
 - [[Free Grace]] - Eternal Principles, Faith, Gospel

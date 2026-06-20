@@ -34,8 +34,6 @@ Jesus overturned the tribal reading of "neighbor." Loving only people who love y
 
 Extends [[Free Grace]]. Contradicts [[The Golden Rule]] when I wait for fair treatment before I act.
 
-Extends [[Free Grace]]. Contradicts [[The Golden Rule]].
-
 ## See also
 
 - [[Forgiveness]] - Eternal Principles, Gospel, Sermon on the Mount

@@ -19,8 +19,6 @@ He washed feet the night before the cross. Status in the kingdom runs opposite t
 
 Extends [[Free Grace]]. Contradicts [[Let Your Light Shine]] when visibility becomes the goal instead of the byproduct.
 
-Extends [[Free Grace]]. Contradicts [[Let Your Light Shine]].
-
 ## See also
 
 - [[The Beatitudes]] - Beatitudes, Eternal Principles, Gospel

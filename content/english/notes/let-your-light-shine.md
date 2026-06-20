@@ -19,8 +19,6 @@ You're the light of the world, like a city on a hill. The point isn't performanc
 
 Extends [[Free Grace]]. Contradicts [[The Garage Concept]] when I hide good works out of false modesty.
 
-Extends [[Free Grace]]. Contradicts [[The Garage Concept]].
-
 ## See also
 
 - [[Drafting in Public]] - Digital Garden, PKM, Publishing

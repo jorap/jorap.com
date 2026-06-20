@@ -336,7 +336,7 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
     },
     "repent-and-believe": {
         "extends": "Free Grace",
-        "contradicts": "Compounding",
+        "contradicts": "There Is No Perfect Solution",
     },
     "turn-the-other-cheek": {
         "extends": "Love Your Enemies",
@@ -405,6 +405,19 @@ OLD_REL_RE = re.compile(
 )
 
 
+def has_relationship(body: str, spec: dict[str, str | list[str]]) -> bool:
+    """True when body already states this note's extends/contradicts pair (qualified or bare)."""
+    if spec.get("extends") and spec.get("contradicts"):
+        pattern = (
+            rf"Extends \[\[{re.escape(str(spec['extends']))}\]\]\.\s*"
+            rf"Contradicts \[\[{re.escape(str(spec['contradicts']))}\]\]"
+        )
+        return bool(re.search(pattern, body, re.I))
+    if spec.get("extends"):
+        return f"Extends [[{spec['extends']}]]" in body
+    return False
+
+
 def link(title: str) -> str:
     return f"[[{title}]]"
 
@@ -434,10 +447,11 @@ def apply_body(body: str, slug: str) -> tuple[str, bool]:
 
     relation_line = format_relations(RELATIONSHIPS[slug])
     cleaned = PAIRS_RE.sub(" ", body)
-    cleaned = OLD_REL_RE.sub(" ", cleaned)
+    if not has_relationship(cleaned, RELATIONSHIPS[slug]):
+        cleaned = OLD_REL_RE.sub(" ", cleaned)
     cleaned = re.sub(r"\n{3,}", "\n\n", cleaned)
 
-    if relation_line in cleaned:
+    if relation_line in cleaned or has_relationship(cleaned, RELATIONSHIPS[slug]):
         result = normalize_see_also_spacing(cleaned.strip() + "\n")
         return result, result != body
 

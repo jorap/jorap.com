@@ -34,8 +34,6 @@ It's positive and active: *do* unto others, not merely avoid doing harm. The che
 
 Extends [[Free Grace]]. Contradicts [[Love Your Enemies]] when I only apply it to people who already treat me well.
 
-Extends [[Free Grace]]. Contradicts [[Love Your Enemies]].
-
 ## See also
 
 - [[Love Your Neighbor]] - Commandments, Eternal Principles, Gospel

@@ -19,8 +19,6 @@ Jesus pairs this with [[Judge Not]]: don't condemn souls, but do evaluate fruit.
 
 Extends [[Judge Not]]. Contradicts [[Signal vs Noise]] when I can't tell fruit from hype.
 
-Extends [[Judge Not]]. Contradicts [[Signal vs Noise]].
-
 ## See also
 
 - [[Judge Not]] - Eternal Principles, Gospel, Sermon on the Mount

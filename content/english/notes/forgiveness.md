@@ -34,8 +34,6 @@ The [[Ask Seek Knock]] builds forgiveness into daily rhythm. The parable of the 
 
 Extends [[Free Grace]]. Contradicts [[Sunk Cost Fallacy]] when I treat old hurt as debt I'm owed forever.
 
-Extends [[Free Grace]]. Contradicts [[Sunk Cost Fallacy]].
-
 ## See also
 
 - [[Sunk Cost Fallacy]] - Decision Making, Mental Models, PKM

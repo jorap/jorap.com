@@ -34,8 +34,6 @@ Both builders hear the sermon; only one obeys. Storms reveal which foundation he
 
 Extends [[Free Grace]]. Contradicts [[The Narrow Way]] when I claim Jesus without living his words.
 
-Extends [[Free Grace]]. Contradicts [[The Narrow Way]].
-
 ## See also
 
 - [[Creative Output]] - Express, PKM, Publishing

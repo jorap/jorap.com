@@ -17,8 +17,6 @@ When a note is just a quote from someone smarter, I add a section: what do I act
 
 Extends [[Synthesis as a Goal]]. Contradicts [[Eternal Principles]] when I treat gospel ethics as ideas I invented.
 
-Extends [[Synthesis as a Goal]]. Contradicts [[Eternal Principles]].
-
 ## See also
 
 - [[Eternal Principles]] - Eternal Principles, Faith, Gospel

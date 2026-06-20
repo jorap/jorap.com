@@ -19,8 +19,6 @@ Worry can't add a single hour to life. The antidote isn't denial - it's priority
 
 Extends [[Free Grace]]. Contradicts [[The 12 Week Year]] when sprint urgency replaces trust.
 
-Extends [[Free Grace]]. Contradicts [[The 12 Week Year]].
-
 ## See also
 
 - [[Slow Productivity]] - Focus, Note Taking, PKM

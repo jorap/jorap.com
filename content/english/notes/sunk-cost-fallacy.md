@@ -19,8 +19,6 @@ Past effort is gone. I ask: if I found this today, would I start it? [[Forgivene
 
 Extends [[There Is No Perfect Solution]]. Contradicts [[Forgiveness]] when I keep collecting on a grudge I should release.
 
-Extends [[There Is No Perfect Solution]]. Contradicts [[Forgiveness]].
-
 ## See also
 
 - [[Turn the Other Cheek]] - Eternal Principles, Gospel, Sermon on the Mount

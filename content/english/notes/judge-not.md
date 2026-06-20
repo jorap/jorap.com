@@ -19,8 +19,6 @@ Jesus forbids harsh, hypocritical condemnation - the kind that ignores my own gu
 
 Extends [[Free Grace]]. Contradicts [[Humility and Service]] when I critique others to elevate myself.
 
-Extends [[Free Grace]]. Contradicts [[Humility and Service]].
-
 ## See also
 
 - [[By Their Fruits]] - Eternal Principles, Gospel, Sermon on the Mount

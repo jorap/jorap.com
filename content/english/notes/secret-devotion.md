@@ -19,8 +19,6 @@ Jesus brackets the [[Ask Seek Knock]] with the same warning: religious performan
 
 Extends [[Ask Seek Knock]]. Contradicts [[Drafting in Public]] when every act of piety becomes content for applause.
 
-Extends [[Ask Seek Knock]]. Contradicts [[Drafting in Public]].
-
 ## See also
 
 - [[Ask Seek Knock]] - Eternal Principles, Gospel, Prayer

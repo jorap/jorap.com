@@ -19,8 +19,6 @@ Jesus rejected the limit of "eye for eye" as a personal ethic for disciples. The
 
 Extends [[Love Your Enemies]]. Contradicts [[The Golden Rule]] when I wait to hit back before acting well.
 
-Extends [[Love Your Enemies]]. Contradicts [[The Golden Rule]].
-
 ## See also
 
 - [[Sunk Cost Fallacy]] - Decision Making, Mental Models, PKM

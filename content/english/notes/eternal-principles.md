@@ -99,8 +99,6 @@ Same ideas show up in my PKM notes. I wired the pairs below so the faith cluster
 
 Extends [[Free Grace]]. Contradicts [[First Principles Thinking]] when I treat gospel ethics as ideas I invented. Index for gospel notes in this garden.
 
-Extends [[Free Grace]]. Contradicts [[First Principles Thinking]]. Index for gospel notes in this garden.
-
 ## See also
 
 - [[Free Grace]] - Eternal Principles, Faith, Gospel

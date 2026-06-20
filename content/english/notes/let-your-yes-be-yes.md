@@ -19,8 +19,6 @@ Jesus deepened the law against false vows: disciples should be so truthful that 
 
 Extends [[Love Your Neighbor]]. Contradicts [[Drafting in Public]] when public words outrun private honesty.
 
-Extends [[Love Your Neighbor]]. Contradicts [[Drafting in Public]].
-
 ## See also
 
 - [[Atomic Notes]] - Note Taking, PKM, Writing

@@ -19,8 +19,6 @@ In [[Free Grace]] terms, the narrow gate is [[Free Grace]] in Christ - not the b
 
 Extends [[Free Grace]]. Contradicts [[The Golden Rule]] when I take the comfortable path because everyone else does.
 
-Extends [[Free Grace]]. Contradicts [[The Golden Rule]].
-
 ## See also
 
 - [[Seek the Kingdom First]] - Eternal Principles, Gospel, Priorities
