@@ -1,0 +1,27 @@
+{{- /*
+  Build-time lint: warnf for broken wikilinks and unlinked mentions.
+  Uses collect-note-issues.html; errorf when strict flags are set.
+*/ -}}
+{{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v1" -}}
+{{- $strictLinks := site.Params.notes.strict_wikilinks | default false -}}
+{{- $strictUnlinked := site.Params.notes.strict_unlinked | default false -}}
+
+{{- range $data.notes -}}
+  {{- $note := .Page -}}
+  {{- range .broken -}}
+    {{- $msg := printf "broken wikilink [[%s]] in %s" .target $note.File.Path -}}
+    {{- if $strictLinks -}}
+      {{- errorf $msg -}}
+    {{- else -}}
+      {{- warnf $msg -}}
+    {{- end -}}
+  {{- end -}}
+  {{- range .unlinked -}}
+    {{- $msg := printf "unlinked mention of %q (→ [[%s]]) in %s" .mention .suggestTitle $note.File.Path -}}
+    {{- if $strictUnlinked -}}
+      {{- errorf $msg -}}
+    {{- else -}}
+      {{- warnf $msg -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

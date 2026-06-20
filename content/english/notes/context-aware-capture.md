@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["context aware capture"]
 ---
-
 **[[Capture]] the why** = save why you saved something - not just the link.
 
-One line beats a perfect title: "for the sermon series" or "contradicts my take on X." Future me needs the hook. Pairs with [[Intellectual Sourcing]] when the save is a quote or link. Also pairs with [[Mobile Capture Workflows]].
+One line beats a perfect title: "for the sermon series" or "contradicts my take on X." Future me needs the hook. Pairs with [[Intellectual Sourcing]] when the save is a quote or link.
+
+Extends [[Capture]]. Contradicts [[Metadata Strategy]].
 
 ## See also
 

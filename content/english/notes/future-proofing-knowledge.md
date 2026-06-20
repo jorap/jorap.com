@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["future proofing knowledge"]
 ---
+**Future-proofing** = store in plain text, open tools, and test backups before you need them.
 
-**Future-proofing** = boring formats that outlive apps - plain text, open tools, tested backups.
+Export quarterly. Open files in a plain editor. If something breaks, fix it now, not during a panic. [[Anti-Fragile Systems]] beat predictions about which app wins next year.
 
-Export quarterly. Open files in a plain editor. If something breaks, fix it now, not during a panic. [[Anti-Fragile Systems]] beat predictions about which app wins next year. Pairs with [[Formatting for Readability]] and [[Metadata Strategy]].
+Extends [[Local-first Software]]. Contradicts [[The Future of PKM]].
 
 ## See also
 

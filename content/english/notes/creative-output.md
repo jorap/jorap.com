@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
+**Creative output** = ship something from your notes — posts, sermons, code, dinner experiments.
 
-**Creative output** = notes leaving the warehouse - posts, sermons, code, dinner experiments.
+Every project gets an express deadline, even if it's just "post one paragraph." Notes without output become [[The Collector's Fallacy]]. Inventory exists to leave the warehouse.
 
-Every project gets an express deadline, even if it's just "post one paragraph." Notes without output become [[The Collector's Fallacy]]. Inventory exists to leave the warehouse. Pairs with [[Creative Blocks]] and [[Synthesis as a Goal]].
+Extends [[Building a Second Brain]]. Contradicts [[The Collector's Fallacy]].
 
 ## See also
 

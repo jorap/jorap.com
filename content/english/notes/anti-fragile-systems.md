@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["anti fragile systems", "Antifragile"]
 ---
+**Anti-fragile systems** = build around plain files, open formats, and backups you actually test.
 
-**Anti-fragile systems** = note stacks that survive app death - plain files, open formats, backups you actually test.
+If an app vanished tomorrow, could I still read my notes? Markdown in a folder, backups tested twice a year, no single company holding the keys. Stress should surface gaps, not erase years of work. See [[Future-Proofing Knowledge]] and [[Local-first Software]].
 
-If an app vanished tomorrow, could I still read my notes? Markdown in a folder, backups tested twice a year, no single company holding the keys. Stress should surface gaps, not erase years of work. See [[Future-Proofing Knowledge]] and [[Local-first Software]]. Pairs with [[There Is No Perfect Solution]].
+Extends [[Future-Proofing Knowledge]]. Contradicts [[Building a Personal API]].
 
 ## See also
 

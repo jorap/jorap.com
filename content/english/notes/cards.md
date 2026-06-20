@@ -13,7 +13,8 @@ tags: ["Notes", "Meta", "Anki", "Learning"]
 featured: false
 draft: false
 ---
-
 **Flashcards** = drill lane beside the wiki - opt in per note, export to Anki when you want SRS on your phone.
 
-Only ~15 spine notes use `review: true` here ([[Pareto Principle]] applied). Add `card_front` / `card_back` for memorable answers; the opening line stays the wiki definition. Extra cards: `card` shortcode. **Quiz yourself** at [/notes/review/](/notes/review/).
+Only ~15 spine notes use `review: true` here ([[Pareto Principle]] applied). Each carries six cards in a `cards:` frontmatter list (`front` / `back` pairs); the opening line stays the wiki definition. Extra one-off cards: `{{< card front="Question" back="Answer" >}}`. All cards show on the note page and in the deck. **Quiz yourself** at [/notes/review/](/notes/review/).
+
+Extends [[Getting Started]]. Implements [[Spaced Repetition]].

@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
-
 **Drafting in public** = publish rough ideas before they're finished; let readers and time revise them.
 
-Rough posts beat perfect drafts in a folder. Readers correct me; I update the note. That's [[Evergreen Notes]] in practice - living text, not a sealed essay. Pairs with [[Advantages of Digital Gardens]] and [[Digital Garden]].
+Rough posts beat perfect drafts in a folder. Readers correct me; I update the note. That's [[Evergreen Notes]] in practice - living text, not a sealed essay.
+
+Extends [[Digital Garden]]. Contradicts [[Evergreen Notes]].
 
 ## See also
 

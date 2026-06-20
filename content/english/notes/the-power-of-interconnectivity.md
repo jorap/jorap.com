@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["Interconnectivity", "Power of Interconnectivity"]
 ---
+**Linked notes** = link every note to two neighbors — alone it's a fact, connected it's a case.
 
-**Linked notes** = a note's value is who it links to; alone it's a fact, connected it's a case.
+On every edit I ask: what should this link to that it doesn't yet? More links beat more files. See [[Associative Linking]].
 
-On every edit I ask: what should this link to that it doesn't yet? More links beat more files. See [[Associative Linking]]. Pairs with [[Atomic Notes]] and [[Digital Serendipity]].
+Extends [[Associative Linking]]. Contradicts [[Atomic Notes]].
 
 ## See also
 

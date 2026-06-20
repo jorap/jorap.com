@@ -11,17 +11,27 @@ slug: "spaced-repetition"
 featured: false
 status: evergreen
 review: true
-card_back: "Review facts on a schedule, not whole essays."
-card_front: "Spaced repetition"
+cards:
+  - front: "Spaced repetition (definition)"
+    back: "Review facts on a schedule — not whole essays."
+  - front: "What belongs in SRS?"
+    back: "Facts you need cold recall for."
+  - front: "Spaced repetition: the wiki holds"
+    back: "Linked ideas and understanding."
+  - front: "Spaced repetition: SRS holds"
+    back: "Drill — vocabulary, definitions, references."
+  - front: "How many notes get review:true in this garden?"
+    back: "About 15 spine notes (~20%), not the whole library."
+  - front: "After Feynman finds gaps, use what for drill?"
+    back: "Spaced repetition (SRS)."
 draft: false
 aliases: []
 ---
-
 **Spaced repetition** = review facts on a schedule before you forget - for recall, not whole essays.
 
-Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for. Whole essays don't belong on flashcards. The wiki holds understanding; [[Spaced Repetition Systems (SRS)]] holds drill. Opt in sparingly: this garden keeps `review: true` on ~20% of notes - the spine, not the whole library. Pairs with [[PKM]], [[Pareto Principle]], and [[RSS for Research]].
+Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for. Whole essays don't belong on flashcards. The wiki holds understanding; [[Spaced Repetition Systems (SRS)]] holds drill. Each spine note carries six cards in frontmatter; opt in sparingly. Pairs with [[PKM]], [[Pareto Principle]], and [[RSS for Research]].
 
-{{< card front="What belongs in SRS vs the wiki?" back="SRS: facts you need cold — vocabulary, definitions, references. Wiki: linked ideas and understanding." >}}
+Extends [[Evergreen Notes]]. Contradicts [[Progressive Summarization]].
 
 ## See also
 

@@ -21,6 +21,11 @@
                 <a class="text-accent text-sm no-underline hover:underline" href="{{ `/notes/cards/` | relLangURL }}">Flashcards</a>
                 <a class="text-accent text-sm no-underline hover:underline" href="{{ `/notes/review/` | relLangURL }}">Review</a>
               {{ end }}
+              {{- $issueData := partialCached "notes/collect-note-issues.html" site "note-issues-v1" -}}
+              {{- $issueTotal := add $issueData.brokenCount $issueData.unlinkedCount -}}
+              <a class="text-accent text-sm no-underline hover:underline" href="{{ `/notes/issues/` | relLangURL }}">
+                Issues{{ if gt $issueTotal 0 }} ({{ $issueTotal }}){{ end }}
+              </a>
             </div>
 
             <h1 class="article-title mb-4">{{ .Title }}</h1>
@@ -37,6 +42,8 @@
               {{ partial "notes/tag-chips.html" (dict "Tags" . "ListClass" "mb-4 flex flex-wrap gap-2") }}
             {{ end }}
 
+            {{ partial "notes/note-issues-panel.html" . }}
+
             {{ if $hasToc }}
               <div class="toc-wrapper border-divider mb-6 rounded border p-4 lg:hidden">
                 <p class="mb-3 font-semibold">{{ T "table_of_contents" | default "Table of Contents" }}</p>
@@ -47,6 +54,8 @@
             <div class="content notes-content mb-10">
               {{ partial "notes/render-content.html" . }}
             </div>
+
+            {{ partial "notes/note-flashcards.html" . }}
 
             {{ with $outgoing }}
               <aside class="notes-outgoing border-divider mb-6 rounded border p-5">

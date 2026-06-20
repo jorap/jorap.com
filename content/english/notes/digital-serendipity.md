@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
+**Digital serendipity** = build systems where old notes surprise you at the right time — don't rely on luck.
 
-**Digital serendipity** = designing luck - systems where old notes surprise you at the right time.
+Backlinks, random walks through [[Maps of Content]], and review queues surface what search misses. Luck isn't random when the graph is dense enough.
 
-Backlinks, random walks through [[Maps of Content]], and review queues surface what search misses. Luck isn't random when the graph is dense enough. Pairs with [[Serendipitous Resurfacing]] and [[Associative Linking]].
+Extends [[Associative Linking]]. Contradicts [[Digital Minimalism]].
 
 ## See also
 

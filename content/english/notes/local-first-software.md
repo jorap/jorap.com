@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["local first software", "Local First"]
 ---
+**Local-first** = keep truth on your device — sync is optional backup, not the boss.
 
-**Local-first** = your device holds the truth; sync is optional backup, not the boss.
+Files on disk I own; offline should work, online is a bonus. Same philosophy as [[Future-Proofing Knowledge]] - notes survive plane mode and vendor whims.
 
-Files on disk I own; offline should work, online is a bonus. Same philosophy as [[Future-Proofing Knowledge]] - notes survive plane mode and vendor whims. Pairs with [[Privacy and Data Sovereignty]] and [[E2EE Security]].
+Extends [[Privacy and Data Sovereignty]]. Contradicts [[Collaborative Knowledge]].
 
 ## See also
 

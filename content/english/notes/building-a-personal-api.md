@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
+**Personal API** = shape notes so tools and future-you can read them — consistent tags, wikilinks, frontmatter.
 
-**Personal API** = notes shaped so tools and future-you can read them without a lecture.
+Same titles, tags, and folder layout every time - not a mini web server in your closet. Automation works better when your notes follow the same pattern. See [[Metadata Strategy]].
 
-Same titles, tags, and folder layout every time - not a mini web server in your closet. Automation works better when your notes follow the same pattern. See [[Metadata Strategy]]. Pairs with [[Active Knowledge Curation]] and [[Collaborative Knowledge]].
+Extends [[Metadata Strategy]]. Contradicts [[Digital Minimalism]].
 
 ## See also
 

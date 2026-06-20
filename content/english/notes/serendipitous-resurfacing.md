@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
-
 **Old notes, right time** = build your system so past notes come back when you need them - without relying on memory to search.
 
-Regular review, backlink browsing, and "related notes" beat hoping I'll remember to search. Memory is unreliable storage. Ties to [[Digital Serendipity]] and [[Periodic Knowledge Review]]. Pairs with [[Synthesis as a Goal]].
+Regular review, backlink browsing, and "related notes" beat hoping I'll remember to search. Memory is unreliable storage. Ties to [[Digital Serendipity]] and [[Periodic Knowledge Review]].
+
+Extends [[Digital Serendipity]]. Contradicts [[Spaced Repetition]].
 
 ## See also
 

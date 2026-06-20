@@ -33,8 +33,8 @@
           <div class="border-divider mb-8 rounded border p-5" style="background: var(--color-elevated);">
             <h2 class="h6 mb-2">Anki export</h2>
             <p class="text-ink-muted mb-3 text-sm">
-              Cards marked with <code>review: true</code> (or tag <code>{{ site.Params.notes.review_tag | default "flashcard" }}</code>) plus any
-              <code>{{ "{{< card >}}" }}</code> shortcodes. Regenerate after edits:
+              Notes with <code>review: true</code> export their <code>cards:</code> list (and any
+              <code>{{ "{{< card >}}" }}</code> shortcodes). Regenerate after edits:
               <code>npm run export:anki</code>.
             </p>
             <a class="btn btn-outline-primary btn-sm" href="{{ $exportRel | relURL }}" download>Download Anki deck (.txt)</a>

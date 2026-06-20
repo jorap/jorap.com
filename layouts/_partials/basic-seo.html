@@ -37,16 +37,16 @@
 {{ end }}
 
 
-<!-- checking description -->
-{{ $description := .Summary }}
+<!-- checking description (never default to .Summary — it panics on short note bodies in Hugo 0.163+) -->
+{{ $description := "" }}
 {{ if .Params.meta_description }}
   {{ $description = .Params.meta_description }}
-  <!-- checking page description -->
 {{ else if .Params.description }}
   {{ $description = .Params.description }}
-  <!-- checking page description -->
 {{ else if site.Params.metadata.description }}
   {{ $description = site.Params.metadata.description }}
+{{ else }}
+  {{ $description = .Plain | plainify | truncate 160 }}
 {{ end }}
 
 

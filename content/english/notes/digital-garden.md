@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
+**Digital garden** = publish early, link often, revise in the open — messy notes that grow in public.
 
-**Digital garden** = a public site where notes grow - linked, imperfect, revised in the open.
+Publish early, link often, revise in public. The opposite of a portfolio of polished essays. Mine follows [[The Garage Concept]]: messy workshop, curated showroom elsewhere.
 
-Publish early, link often, revise in public. The opposite of a portfolio of polished essays. Mine follows [[The Garage Concept]]: messy workshop, curated showroom elsewhere. Pairs with [[Advantages of Digital Gardens]] and [[Drafting in Public]].
+Extends [[Evergreen Notes]]. Contradicts [[The Garage Concept]].
 
 ## See also
 

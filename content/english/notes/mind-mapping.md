@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
+**Mind maps** = sketch branches and bubbles first — export to atomic notes after, not instead.
 
-**Mind maps** = spatial first draft - branches and bubbles before linear notes.
+Excalidraw or paper for the burst; then one idea per file. Maps are compost, not compost bins - they feed [[Atomic Notes]], they don't replace them.
 
-Excalidraw or paper for the burst; then one idea per file. Maps are compost, not compost bins - they feed [[Atomic Notes]], they don't replace them. Pairs with [[Bullet Journaling]] and [[Visual Thinking]].
+Extends [[Visual Thinking]]. Contradicts [[Atomic Notes]].
 
 ## See also
 

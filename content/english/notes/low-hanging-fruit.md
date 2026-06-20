@@ -13,10 +13,11 @@ draft: false
 aliases: ["Low-Hanging Fruit"]
 status: evergreen
 ---
-
 **Low hanging fruit** = the easy win you can grab now - do it before you climb for the hard stuff.
 
 Not every task deserves hero energy. Fix the broken link, publish the half-done draft, delete the folder you haven't opened in a year. Small, obvious, done today. I use it when I'm avoiding work by planning harder work. Pairs with [[Pareto Principle]], [[Minimum Effective Dose]], and [[Creative Output]].
+
+Extends [[Pareto Principle]]. Contradicts [[Compounding]].
 
 ## See also
 

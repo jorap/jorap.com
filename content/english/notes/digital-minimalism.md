@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
+**Digital minimalism (for PKM)** = cut apps until one inbox and one write path remain.
 
-**Digital minimalism (for PKM)** = fewer apps, less syncing between apps, fewer places to lose an idea.
+One capture app, one wiki, one task list. Each new tool costs time keeping things in sync. When [[PKM]] felt heavy, subtraction beat another Notion template.
 
-One capture app, one wiki, one task list. Each new tool costs time keeping things in sync. When [[PKM]] felt heavy, subtraction beat another Notion template. Pairs with [[Slow Productivity]] and [[Active Knowledge Curation]].
+Extends [[Minimum Effective Dose]]. Contradicts [[Digital Serendipity]].
 
 ## See also
 

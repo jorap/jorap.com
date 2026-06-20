@@ -13,8 +13,13 @@
     <div class="container">
       <div class="row justify-center">
         <div class="lg:col-10">
-          <div class="notes-toolbar mb-4">
+          <div class="notes-toolbar mb-4 flex flex-wrap items-center gap-3">
             <a class="text-accent text-sm no-underline hover:underline" href="{{ `/notes/` | relLangURL }}">← All notes</a>
+            {{- $issueData := partialCached "notes/collect-note-issues.html" site "note-issues-v1" -}}
+            {{- $issueTotal := add $issueData.brokenCount $issueData.unlinkedCount -}}
+            <a class="text-accent text-sm no-underline hover:underline" href="{{ `/notes/issues/` | relLangURL }}">
+              Issues{{ if gt $issueTotal 0 }} ({{ $issueTotal }}){{ end }}
+            </a>
           </div>
 
           <h1 class="article-title mb-4">Note graph</h1>

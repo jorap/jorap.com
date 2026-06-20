@@ -1,115 +1,142 @@
 # Preserve Lists
 
-Files and paths that must **not** be overwritten blindly when syncing from Hugoplate or Impeccable.
+JoRap has **forked** Hugoplate’s theme — not just added a few partials. Upstream sync is a **diff triage**, not a copy.
 
-## JoRap-only — never delete or replace from upstream
+See [SKILL.md](SKILL.md) for the full workflow. Use [triage-hugoplate.sh](triage-hugoplate.sh) to classify changes before applying anything.
+
+---
+
+## Tier 1 — Never overwrite from upstream
 
 ### Site root (not from Hugoplate)
 
-- `content/` — all posts, pages, authors, sections
-- `config/` — menus, params, module.toml, languages
-- `data/` — theme.json and site data
-- `hugo.toml` — site config (theme name `jorap`, baseURL, security, etc.)
-- `layouts/` at repo root — site-level overrides (e.g. `layouts/_partials/basic-seo.html`)
-- `assets/` at repo root — site-level JS (e.g. `assets/js/gallery-slider.js`)
-- `functions/` — Cloudflare Pages Functions (auth, API)
-- `docs/` — PRODUCT.md, DESIGN.md, DESIGN.json, project docs
-- `static/` — static assets, admin CMS
-- `_vendor/` — vendored Hugo modules
-- `vercel-build.sh.disabled`, deployment config
+- `content/`, `config/`, `data/`, `hugo.toml`
+- Root `layouts/`, `assets/`, `functions/`, `docs/`, `static/`, `_vendor/`
+- Deployment config (`vercel-build.sh.disabled`, etc.)
 
-### Theme: JoRap-only layouts (`themes/jorap/layouts/`)
+### Theme layouts — JoRap-owned
 
-```
-_markup/render-heading.html
-_partials/components/back-to-top.html
-_partials/components/icon.html
-_partials/components/image-process.html
-_partials/components/image.html
-_partials/components/social-share.html
-_partials/essentials/self-hosted-fonts.html
-_partials/essentials/theme-init.html
-_partials/sections/banner.html
-_partials/sections/blog-list.html
-_partials/sections/features.html
-_partials/sections/home-intro.html
-_partials/sections/testimonials.html
-about/list.html
-contact/list.html
-shortcodes/spotify.html
-shortcodes/spotify_iframe_artist.html
-shortcodes/spotify_iframe_track.html
-shortcodes/youtube.html
-shortcodes/youtube_time.html
-```
+JoRap uses different page structures, semantic markup, and partials. **Do not take upstream wholesale** for:
 
-JoRap uses `about/list.html` and `contact/list.html` instead of Hugoplate's `about.html` and `contact.html`. Do not revert to the upstream single-file layouts without explicit user approval.
+| Path | Why |
+| --- | --- |
+| `home.html` | JoRap homepage uses `sections/home-*` partials, not Hugoplate banner/features |
+| `baseof.html` | Shell wiring for JoRap header/footer/scripts |
+| `blog/single.html` | Mobile TOC, social share, semantic tokens, icon partial |
+| `_partials/essentials/head.html` | `theme-init.html`, theme name `jorap`, CSP-friendly head |
+| `_partials/essentials/header.html` | Nav dropdown JS hooks, semantic classes |
+| `_partials/essentials/style.html` | Self-hosted fonts — **not** Google Fonts CDN |
+| `_partials/essentials/script.html` | JoRap script bundle order |
+| `_partials/essentials/footer.html` | JoRap footer markup |
+| `_partials/essentials/self-hosted-fonts.html` | JoRap-only |
+| `_partials/essentials/theme-init.html` | FOUC-free dark mode bootstrap |
+| `_partials/components/blog-card.html` | JoRap card design + semantic tokens |
+| `_partials/components/theme-switcher.html` | Works with `theme-init` |
+| `_partials/components/icon.html`, `image.html`, `image-process.html`, `social-share.html`, `back-to-top.html` | JoRap-only |
+| `_partials/sections/*` | JoRap homepage/section partials |
+| `about/list.html`, `contact/list.html` | JoRap replaced upstream `about.html` / `contact.html` |
+| `shortcodes/spotify*`, `youtube*` | JoRap-only |
+| `_markup/render-heading.html` | JoRap heading anchors |
 
-### Theme: JoRap-only assets
+Also block: `about.html`, `contact.html` (upstream layouts JoRap intentionally removed).
 
-- `themes/jorap/assets/css/semantic-tokens.css`
+### Theme assets — JoRap design system
 
-### Scripts: JoRap-only or customized
+| Path | Why |
+| --- | --- |
+| `assets/css/**` | JoRap semantic token system (`text-ink`, `bg-surface`, etc.) |
+| `assets/css/semantic-tokens.css` | Maps palette → semantic utilities; auto dark mode |
+| `assets/css/generated-theme.css` | Regenerate via `pnpm build` / `themeGenerator.js` |
+| `assets/js/main.js` | Nav dropdown handlers + guarded Swiper init |
+
+### Scripts — JoRap-only or customized
 
 | File | Notes |
 | --- | --- |
 | `scripts/cspHashes.mjs` | JoRap-only; part of `pnpm build` |
-| `scripts/projectSetup.js` | Customized for theme name `jorap` |
-| `scripts/themeSetup.js` | Customized for theme name `jorap` |
+| `scripts/projectSetup.js`, `scripts/themeSetup.js` | Theme name `jorap` |
 | `scripts/removeDarkmode.js` | May differ from upstream |
+| All `scripts/*.py`, `noteFileDates.js`, `responsive-*.mjs` | JoRap-only |
 
 ### package.json fields to keep
 
 - `name`, `description`, `version`, `author`, `engines`
-- Custom scripts: `build` (includes cspHashes), `watch`, simplified `dev:example` variants
+- Custom scripts: `build` (includes `cspHashes`), `watch`, note/anki scripts
 
 ---
 
-## Impeccable — preserve during skill sync
+## Tier 2 — Manual merge only (read diff, cherry-pick hunks)
 
-- `docs/PRODUCT.md`
-- `docs/DESIGN.md`
-- `docs/DESIGN.json`
-- `.impeccable/` — live config, critique ignores, session journals
+Apply upstream changes **only when the diff is a clear bugfix** and does not touch JoRap fork signals.
+
+**Red flags in a diff → skip or merge by hand:**
+
+- Switches `text-ink` / `bg-surface` ↔ `text-text` / `bg-body` / `dark:*`
+- Removes `theme-init`, `self-hosted-fonts`, or JoRap partial references
+- Adds Google Fonts CDN, Font Awesome, or social CDN preconnects
+- Changes `theme-name` to `hugoplate`
+- Large structural rewrites of pages JoRap customized
+
+**Examples that may be worth cherry-picking:**
+
+- Accessibility fix in a widget JoRap still uses unchanged
+- Hugo template syntax fix that doesn’t alter JoRap markup/classes
+- New upstream partial that JoRap doesn’t conflict with ( rare )
+
+When in doubt: **skip**.
 
 ---
 
-## Safe to sync from Hugoplate (review diff first)
+## Tier 3 — Usually safe (still read diff first)
 
-### Shared theme layouts (examples — not exhaustive)
+### New upstream files JoRap doesn’t have
 
-Most files under `themes/jorap/layouts/` that also exist in hugoplate `layouts/` can track upstream, especially:
+- Add if path is not JoRap-specific and not in Tier 1
+- Example: new plugin under `assets/plugins/` if JoRap doesn’t override it
 
-- `_partials/essentials/` (except `self-hosted-fonts.html`, `theme-init.html`)
-- `_partials/components/` (except JoRap-only list above)
-- `_partials/widgets/`
-- `baseof.html`, `home.html`, `list.html`, `single.html`, `blog/`, `authors/`, `404.en.html`
-
-### Shared theme assets
-
-Upstream can update: `assets/plugins/`, most CSS files (merge manually if JoRap customized tokens), `assets/js/main.js`.
-
-Regenerate after CSS/token changes: `pnpm build` runs `themeGenerator.js` → `generated-theme.css`.
-
-### Root scripts (usually safe)
+### Root scripts (identical purpose, no JoRap edits)
 
 - `scripts/themeGenerator.js`
 - `scripts/themeUpdate.js`
 - `scripts/clearModules.js`
 - `scripts/removeMultilang.js`
 
-### Agent skills
+If JoRap’s copy already matches upstream (`diff -q`), skip.
 
-- `.agents/skills/hugo-template-guidance/` — copy wholesale from Hugoplate
-- `.agents/skills/find-skills/` — copy wholesale from Hugoplate
+### Agent skills from Hugoplate
+
+- `.agents/skills/hugo-template-guidance/` — sync, then **re-apply JoRap local notes** (e.g. `__` draft-post convention in `content-management.md`)
+- `.agents/skills/find-skills/` — sync wholesale
+
+### package.json
+
+- Merge new `devDependencies` from Hugoplate only
+- Never replace JoRap scripts block
 
 ---
 
-## Structural differences to remember
+## Impeccable — preserve during skill sync
+
+- `docs/PRODUCT.md`, `docs/DESIGN.md`, `docs/DESIGN.json`
+- `.impeccable/` — live config, critique ignores, session journals
+
+Verify with `node .cursor/skills/impeccable/scripts/context.mjs` (not `load-context.mjs`).
+
+---
+
+## Structural differences
 
 | Hugoplate | JoRap.com |
 | --- | --- |
 | Theme at repo root | Theme at `themes/jorap/` |
 | `theme = "hugoplate"` | `theme = "jorap"` |
 | `exampleSite/` demo | Site at repo root (project-setup) |
-| `pnpm update-theme` pulls from GitHub tarball to `themes/hugoplate` | **Do not run** `update-theme` as-is — it targets the wrong path/name. Use this skill instead. |
+| Old Tailwind token names + `dark:` twins | Semantic tokens in `semantic-tokens.css` |
+| Google Fonts CDN | Self-hosted fonts partial |
+| `pnpm update-theme` | **Do not run** — wrong path/name. Use this skill. |
+
+---
+
+## What went wrong (2025 sync lesson)
+
+Bulk `rsync` of `layouts/` + `assets/` copied Hugoplate’s old token CSS while JoRap layouts still used `text-ink`, `bg-surface`, etc. — breaking typography, dark mode, prose, nav, and fonts. **Default workflow must triage diffs, not rsync.**

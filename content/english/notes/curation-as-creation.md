@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
+**Curation as creation** = curate what sits next to what — order is a point of view, not filing.
 
-**Curation as creation** = what you include and what sits next to it is a point of view, not filing.
+A [[Maps of Content]] is a curated playlist of ideas - order is an argument. What you include, cut, and sit beside what is as creative as drafting new prose.
 
-A [[Maps of Content]] is a curated playlist of ideas - order is an argument. What you include, cut, and sit beside what is as creative as drafting new prose. Pairs with [[Active Knowledge Curation]] and [[Advantages of Digital Gardens]].
+Extends [[Active Knowledge Curation]]. Contradicts [[Organization]].
 
 ## See also
 

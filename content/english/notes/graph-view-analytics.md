@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["Graph View"]
 ---
+**What the link map tells you** = fix orphans, trim overloaded hubs, add missing links — don't use it as wallpaper.
 
-**What the link map tells you** = notes with no links, notes with too many, and missing connections - not wallpaper.
+Notes with no links need connecting; notes with too many links probably need splitting. I don't worship the pretty picture - I fix what it shows. See [[The Power of Interconnectivity]].
 
-Notes with no links need connecting; notes with too many links probably need splitting. I don't worship the pretty picture - I fix what it shows. See [[The Power of Interconnectivity]]. Pairs with [[Associative Linking]] and [[Atomic Notes]].
+Extends [[Associative Linking]]. Contradicts [[Maps of Content]].
 
 ## See also
 

@@ -1,7 +1,7 @@
 {{- $page := . -}}
 {{- $content := $page.Content -}}
 {{- $class := site.Params.notes.wikilink_class | default "wikilink" -}}
-{{- $registry := partialCached "notes/link-registry.html" site "notes-registry-v1" -}}
+{{- $registry := partialCached "notes/link-registry.html" site "notes-registry-v2" -}}
 
 {{- /* Hide static See also sections; rendered dynamically via see-also.html */ -}}
 {{- $content = replaceRE `(?s)<h2[^>]*id="see-also"[^>]*>See also</h2>.*$` "" $content -}}
@@ -45,6 +45,6 @@
 {{- end -}}
 
 {{- /* Unresolved wikilinks */ -}}
-{{- $content = replaceRE `\[\[([^\]]+)\]\]` (printf `<span class="%s-broken" title="No matching note">$1</span>` $class) $content -}}
+{{- $content = replaceRE `\[\[([^\]]+)\]\]` (printf `<span class="%s-broken" title="No matching note for this wikilink">$1</span>` $class) $content -}}
 
 {{- $content | safeHTML -}}

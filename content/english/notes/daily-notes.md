@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
+**Daily notes** = dump today's tasks and fragments here — promote or delete during review, not forever.
 
-**Daily notes** = today's scratch pad - tasks, fragments, links. Not a diary. Not permanent by default.
+Morning dump, evening sweep. Promote to evergreen during [[Periodic Knowledge Review]], not while the coffee's still hot. [[Daily Notes]] are a lane, not [[The Archive|the archive]].
 
-Morning dump, evening sweep. Promote to evergreen during [[Periodic Knowledge Review]], not while the coffee's still hot. [[Daily Notes]] are a lane, not [[The Archive|the archive]]. Pairs with [[Interstitial Journaling]].
+Extends [[Capture]]. Contradicts [[Evergreen Notes]]. Alternative to [[Bullet Journaling]].
 
 ## See also
 

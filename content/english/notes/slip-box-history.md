@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["slip box history", "Slip Box", "Slip-box"]
 ---
+**Slip-box ([[Zettelkasten]]) history** = steal Luhmann's method — one idea per card, write and link; stationery didn't write the books.
 
-**Slip-box ([[Zettelkasten]]) history** = Luhmann's cards and links - writing method, not magic stationery.
+Luhmann wrote thousands of cards and thousands of pages - the method was writing, not stationery. Software can help; it can't substitute. See [[The Zettelkasten Myth]] before buying another app.
 
-Luhmann wrote thousands of cards and thousands of pages - the method was writing, not stationery. Software can help; it can't substitute. See [[The Zettelkasten Myth]] before buying another app. Pairs with [[Associative Linking]].
+Extends [[Zettelkasten]]. Contradicts [[The Zettelkasten Myth]].
 
 ## See also
 

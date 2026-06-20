@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["Second Brain Workflow"]
 ---
-
 **[[Second Brain]] workflow** = CODE on a loop: capture → organize → distill → express, weekly.
 
-Morning capture sweep, project filing when I touch a note, distill when I reuse, express before the week ends. Same loop whether the tool is TiddlyWiki or Hugo. See [[Second Brain Daily Workflow]] for the day-scale version. Pairs with [[Capture]].
+Morning capture sweep, project filing when I touch a note, distill when I reuse, express before the week ends. Same loop whether the tool is TiddlyWiki or Hugo. See [[Second Brain Daily Workflow]] for the day-scale version.
+
+Extends [[Capture]]. Contradicts [[Minimum Effective Dose]]. Implements [[Building a Second Brain]].
 
 ## See also
 

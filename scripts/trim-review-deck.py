@@ -25,6 +25,7 @@ REVIEW_KEEP = {
     "weekly-review-checklists",
     "the-collectors-fallacy",
     "spaced-repetition",
+    "note-relationships",
     "pareto-principle",
 }
 
@@ -59,6 +60,7 @@ def main() -> None:
         new_inner = remove_field(inner, "review")
         new_inner = remove_field(new_inner, "card_front")
         new_inner = remove_field(new_inner, "card_back")
+        new_inner = re.sub(r"^cards:\s*\n(?:\s+-\s+front:.*\n\s+back:.*\n?)+", "", new_inner, flags=re.M)
         new_inner = new_inner.strip() + "\n"
         path.write_text(f"---\n{new_inner}---\n\n{body}", encoding="utf-8")
         dropped += 1

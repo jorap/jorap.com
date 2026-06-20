@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
+**Digital gardens** = publish early, link often, revise when you learn — not sealed essays in amber.
 
-**Digital gardens** = public notes that grow linked and imperfect - not sealed essays in amber.
+Finished essays age fast. Garden notes can sit half-right, get linked, get updated. Readers see the thinking, not just the conclusion. See [[Drafting in Public]] and [[Digital Garden]].
 
-Finished essays age fast. Garden notes can sit half-right, get linked, get updated. Readers see the thinking, not just the conclusion. See [[Drafting in Public]] and [[Digital Garden]]. Pairs with [[Getting Started]].
+Extends [[Digital Garden]]. Contradicts [[Evergreen Notes]].
 
 ## See also
 

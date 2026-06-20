@@ -11,15 +11,27 @@ slug: "building-a-second-brain"
 featured: false
 status: evergreen
 review: true
-card_back: "Ideas outside your head so you can think."
-card_front: "Second Brain"
+cards:
+  - front: "Second Brain (one line)"
+    back: "Offload ideas so your head can think, not hoard."
+  - front: "CODE stands for"
+    back: "Capture, organize, distill, express."
+  - front: "Second Brain starts with which CODE step?"
+    back: "Capture."
+  - front: "Second Brain fails when"
+    back: "Any CODE step is just for show."
+  - front: "Second Brain: how often to audit CODE steps?"
+    back: "Quarterly."
+  - front: "Second Brain organize step uses"
+    back: "PARA buckets."
 draft: false
 aliases: ["Second Brain"]
 ---
+**Second Brain** = offload ideas to external storage so your head can think, not hoard.
 
-**Second Brain** = external storage for ideas so your head can think, not hoard.
+Remember CODE: [[Capture]], organize, distill, express. The system fails when any step is just for show. I review whether each step still earns its place every quarter.
 
-Remember CODE: [[Capture]], organize, distill, express. The system fails when any step is just for show. I review whether each step still earns its place every quarter. Pairs with [[Active Knowledge Curation]] and [[PARA Method]].
+Extends [[PKM]]. Contradicts [[The Collector's Fallacy]].
 
 ## See also
 

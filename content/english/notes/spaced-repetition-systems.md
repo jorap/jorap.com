@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["spaced repetition systems", "SRS"]
 ---
-
 **SRS apps** = the algorithm handles timing; you supply the cards and show up.
 
-Anki for cards, wiki for ideas - separate lanes. Facts I need cold get SRS; concepts live in linked notes. See [[Spaced Repetition]] for when the algorithm helps. Pairs with [[PKM]] and [[The Collector's Fallacy]].
+Anki for cards, wiki for ideas - separate lanes. Facts I need cold get SRS; concepts live in linked notes. See [[Spaced Repetition]] for when the algorithm helps.
+
+Extends [[Spaced Repetition]]. Contradicts [[Progressive Summarization]].
 
 ## See also
 

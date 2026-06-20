@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
-
 **Synthesis** = put it in your own words - what you actually think, and why.
 
-After reading, one note in my words: what I think now, what would change my mind. Quotes are evidence, not the product. Without that step, [[PKM]] is a bookmark graveyard. Pairs with [[Creative Blocks]] and [[Creative Output]].
+After reading, one note in my words: what I think now, what would change my mind. Quotes are evidence, not the product. Without that step, [[PKM]] is a bookmark graveyard.
+
+Extends [[Creative Output]]. Contradicts [[Progressive Summarization]].
 
 ## See also
 

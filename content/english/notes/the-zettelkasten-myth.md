@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["Zettelkasten Myth"]
 ---
+**Zettelkasten myth** = stop buying notebooks — Luhmann wrote the books, the box didn't.
 
-**Zettelkasten myth** = the box didn't write Luhmann's books; he did.
+The [[Zettelkasten]] didn't write the books; Luhmann did. Tools lower friction; they don't replace sentences. Buy plain text and a linking habit before another productivity pilgrimage.
 
-The [[Zettelkasten]] didn't write the books; Luhmann did. Tools lower friction; they don't replace sentences. Buy plain text and a linking habit before another productivity pilgrimage. Pairs with [[Creative Blocks]] and [[Distraction-Free Writing]].
+Extends [[Slip-box History]]. Contradicts [[Zettelkasten]].
 
 ## See also
 

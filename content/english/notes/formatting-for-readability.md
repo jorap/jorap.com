@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
+**Readable notes** = format for rereading — short blocks, bold the claim, no wall of text.
 
-**Readable notes** = formatted like posts you'd reread - short blocks, bold on the claim.
+Short paragraphs, bold on the claim, bullets only for real lists. If I won't reread a wall of text, neither will anyone else. Same rules as [[Evergreen Notes]] and blog posts, tighter scope.
 
-Short paragraphs, bold on the claim, bullets only for real lists. If I won't reread a wall of text, neither will anyone else. Same rules as [[Evergreen Notes]] and blog posts, tighter scope. Pairs with [[Future-Proofing Knowledge]] and [[Distraction-Free Writing]].
+Extends [[Evergreen Notes]]. Contradicts [[Atomic Notes]].
 
 ## See also
 

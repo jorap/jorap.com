@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
-
 **Interstitial journaling** = thirty seconds between tasks: what happened, what's next, what's stuck in RAM.
 
-Clears the mental tab bar before deep work. Often feeds [[Capture]] or stays in [[Daily Notes]] until Friday. Not a diary - a buffer flush. Pairs with [[Mobile Capture Workflows]].
+Clears the mental tab bar before deep work. Often feeds [[Capture]] or stays in [[Daily Notes]] until Friday. Not a diary - a buffer flush.
+
+Extends [[Daily Notes]]. Contradicts [[Slow Productivity]].
 
 ## See also
 

@@ -11,15 +11,27 @@ slug: "para-method"
 featured: false
 status: evergreen
 review: true
-card_back: "Projects, Areas, Resources, Archive."
-card_front: "PARA"
+cards:
+  - front: "PARA (four buckets)"
+    back: "Projects, Areas, Resources, Archive."
+  - front: "PARA sorts by"
+    back: "Life responsibility — not topic."
+  - front: "PARA: P stands for"
+    back: "Projects — active work with a deadline."
+  - front: "PARA: first A stands for"
+    back: "Areas — ongoing responsibilities without an end date."
+  - front: "PARA: unnamed project or area?"
+    back: "Stays in Resources until it matters."
+  - front: "PARA: R stands for"
+    back: "Resources — reference material."
 draft: false
 aliases: ["PARA"]
 ---
+**PARA** = sort every note into Projects, Areas, Resources, or Archive — by responsibility, not topic soup.
 
-**PARA** = Projects, Areas, Resources, Archive - four buckets sorted by life responsibility, not topic soup.
+Four questions, not forty folders. If I can't name the project or area, it probably stays in Resources until it matters. See [[The Archive Method]] when work finishes.
 
-Four questions, not forty folders. If I can't name the project or area, it probably stays in Resources until it matters. See [[The Archive Method]] when work finishes. Pairs with [[GTD vs PARA]] and [[Organization]].
+Extends [[Building a Second Brain]]. Contradicts [[Zettelkasten]].
 
 ## See also
 

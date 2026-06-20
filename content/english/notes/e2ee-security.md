@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["E2EE"]
 ---
+**E2EE (end-to-end encryption)** = encrypt what you'd regret leaking — only you and the recipient read it, not the server.
 
-**E2EE (end-to-end encryption)** = only you and your recipient can read the note - not the server.
+Journal entries and credentials get encryption; blog drafts and garden notes stay plain text I can search. Decide what you're protecting first, then pick tools. See [[Privacy and Data Sovereignty]].
 
-Journal entries and credentials get encryption; blog drafts and garden notes stay plain text I can search. Decide what you're protecting first, then pick tools. See [[Privacy and Data Sovereignty]]. Pairs with [[Local-first Software]] and [[Active Knowledge Curation]].
+Extends [[Privacy and Data Sovereignty]]. Contradicts [[Digital Garden]].
 
 ## See also
 

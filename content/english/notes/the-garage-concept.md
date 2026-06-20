@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["Garage Concept"]
 ---
-
 **Garage vs showroom** = messy workshop for notes, polished blog for guests - don't mix them.
 
-My [[Digital Garden]] is the garage: experiments, half-ideas, tools on benches. The blog is the showroom - cleaned up, narrative, guest-ready. Mixing them makes both worse. Pairs with [[Drafting in Public]] and [[Getting Started]].
+My [[Digital Garden]] is the garage: experiments, half-ideas, tools on benches. The blog is the showroom - cleaned up, narrative, guest-ready. Mixing them makes both worse.
+
+Extends [[Digital Garden]]. Contradicts [[Drafting in Public]].
 
 ## See also
 

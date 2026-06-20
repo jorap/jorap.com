@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["Daily Workflow"]
 ---
-
-**Daily [[Second Brain]] [[Second Brain Workflow|workflow]]** = how ideas get into your notes during the day - tabs, feeds, capture in the gaps.
+**Daily [[Second Brain]] [[Second Brain Workflow|workflow]]** = middle-click tabs, clip in the gaps, feed the inbox during the day.
 
 Middle-click opens tabs I'll read later; feeds replace scroll holes; capture happens in the gaps. The wiki is [[The Archive|the archive]] - the day is how stuff gets in. See [[The Second Brain Workflow]] for the full loop.
+
+Extends [[Capture]]. Contradicts [[Slow Productivity]]. Implements [[The Second Brain Workflow]].
 
 ## See also
 

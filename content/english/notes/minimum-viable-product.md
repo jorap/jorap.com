@@ -13,10 +13,11 @@ draft: false
 aliases: ["MVP"]
 status: evergreen
 ---
-
 **Minimum viable product** = the smallest version you can ship to learn if the idea actually works.
 
-From Lean Startup (Eric Ries). Not a broken stub - the smallest thing a real person can use so you get feedback, not crickets. I use it for side projects and blog posts: ship the one feature, one paragraph, one page - then improve based on what people say. Not the same as [[Minimum Effective Dose]] (that's how much effort; this is how big the first version). Pairs with [[Drafting in Public]] and [[Creative Output]].
+From Lean Startup (Eric Ries). Not a broken stub - the smallest thing a real person can use so you get feedback, not crickets. I use it for side projects and blog posts: ship the one feature, one paragraph, one page - then improve based on what people say. Not the same as [[Minimum Effective Dose]] (that's how much effort; this is how big the first version).
+
+Extends [[Creative Output]]. Contradicts [[Evergreen Notes]].
 
 ## See also
 

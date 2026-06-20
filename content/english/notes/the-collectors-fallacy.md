@@ -11,15 +11,27 @@ slug: "the-collectors-fallacy"
 featured: false
 status: evergreen
 review: true
-card_back: "Saving isn't learning until something ships."
-card_front: "Collector's fallacy"
+cards:
+  - front: "Collector's fallacy (definition)"
+    back: "Saving feels like learning — until something ships."
+  - front: "Collector's save filter question"
+    back: "What will I make with this?"
+  - front: "No planned creative output means"
+    back: "Don't save it."
+  - front: "Reading vs learning (Collector's fallacy)"
+    back: "Learning starts when something leaves the notebook."
+  - front: "Collector's fallacy fix"
+    back: "Tie every save to an express deadline."
+  - front: "Collector's fallacy symptom"
+    back: "Backlog grows but nothing ships."
 draft: false
 aliases: ["the collectors fallacy", "Collector's Fallacy"]
 ---
+**Collector's fallacy** = saving feels like learning — ship something or it isn't.
 
-**Collector's fallacy** = saving feels like learning. It isn't until something ships.
+I tied every save to a question: what will I make with this? No [[Creative Output]], no save - harsh, but the backlog shrank. Reading isn't learning until something leaves the notebook.
 
-I tied every save to a question: what will I make with this? No [[Creative Output]], no save - harsh, but the backlog shrank. Reading isn't learning until something leaves the notebook. Pairs with [[Analog Capture Tools]] and [[Capture]].
+Extends [[Creative Output]]. Contradicts [[Capture]].
 
 ## See also
 

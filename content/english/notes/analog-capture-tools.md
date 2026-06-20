@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
+**Paper capture** = reach for paper when screens fail or feel rude — same [[Trusted Inbox|trusted inbox]], different medium.
 
-**Paper capture** = the same [[Trusted Inbox|trusted inbox]], different medium - for when screens fail or feel rude.
+Meetings, sermons, dead batteries: paper wins. One pipe, processed weekly - photograph or transcribe into [[Capture]]. The medium changes; the rule doesn't.
 
-Meetings, sermons, dead batteries: paper wins. One pipe, processed weekly - photograph or transcribe into [[Capture]]. The medium changes; the rule doesn't. Pairs with [[Bullet Journaling]].
+Extends [[Capture]]. Contradicts [[Digital Minimalism]]. Alternative to [[Mobile Capture Workflows]].
 
 ## See also
 

@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
+**Bullet journaling (my version)** = rapid-log on paper when digital capture feels slow — migrate weekly.
 
-**Bullet journaling (my version)** = rapid logging on paper when digital capture feels slow.
+Dot for task, dash for note, circle for event. No layout guilt. Friday means migrate open dots to [[Capture]] or drop them. Paper is a lane, not a [[Second Brain|second brain]].
 
-Dot for task, dash for note, circle for event. No layout guilt. Friday means migrate open dots to [[Capture]] or drop them. Paper is a lane, not a [[Second Brain|second brain]]. Pairs with [[Analog Capture Tools]].
+Extends [[Analog Capture Tools]]. Contradicts [[Building a Second Brain]]. Alternative to [[Daily Notes]].
 
 ## See also
 

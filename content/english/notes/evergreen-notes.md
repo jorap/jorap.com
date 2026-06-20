@@ -13,13 +13,25 @@ draft: false
 aliases: []
 status: evergreen
 review: true
-card_back: "Claims that stay true, updated when reality shifts."
-card_front: "Evergreen notes"
+cards:
+  - front: "Evergreen notes (definition)"
+    back: "Claims you'll still cite — revise when reality shifts."
+  - front: "Evergreen vs fleeting (one line)"
+    back: "Evergreen = cite later; fleeting = promote or drop."
+  - front: "Revise evergreen notes when"
+    back: "Tools change — not when trends spike."
+  - front: "Promote fleeting to evergreen when"
+    back: "A spark keeps returning in Periodic Knowledge Review."
+  - front: "Evergreen test (two-year bar)"
+    back: "Complete sentences you'd still stand behind in two years."
+  - front: "Evergreen notes extend"
+    back: "Atomic Notes."
 ---
+**Evergreen notes** = write claims you'll still cite — timeless voice, revise when reality shifts.
 
-**Evergreen notes** = claims written to stay true - timeless voice, updated when reality shifts.
+Complete sentences I'd still stand behind in two years. Revise when tools change, not when trends spike. Promote from fleeting during [[Periodic Knowledge Review]], when a spark keeps returning.
 
-Complete sentences I'd still stand behind in two years. Revise when tools change, not when trends spike. Promote from fleeting during [[Periodic Knowledge Review]], when a spark keeps returning. Pairs with [[Associative Linking]] and [[Atomic Design for Notes]].
+Extends [[Atomic Notes]]. Contradicts [[Daily Notes]].
 
 ## See also
 

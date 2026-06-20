@@ -11,15 +11,27 @@ slug: "atomic-notes"
 aliases: ["atom"]
 status: evergreen
 review: true
-card_back: "One claim out loud - too many ands, split it."
-card_front: "Atomic notes"
+cards:
+  - front: "Atomic notes (definition)"
+    back: "One claim you'd say out loud — too many ands, split it."
+  - front: "Non-atomic note example"
+    back: "Browser tips plus meeting notes in one file."
+  - front: "Atomic notes get organized by"
+    back: "Wikilinks — not headings inside one file."
+  - front: "Atomic notes vs mini blog posts"
+    back: "One citable claim — not a sectioned essay."
+  - front: "Atomicity test (one breath)"
+    back: "Can you say the whole note without and?"
+  - front: "Atomic notes extend"
+    back: "Zettelkasten."
 featured: false
 draft: false
 ---
-
 **Atomic notes** = one claim you'd say out loud - too many `and`s, split it.
 
-**Rule of thumb:** one thing I'd cite in conversation - "why middle-click saves tab chaos" is atomic; "browser tips and meeting notes" is not. Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing. Pairs with [[Associative Linking]] and [[Atomic Design for Notes]].
+**Rule of thumb:** one thing I'd cite in conversation - "why middle-click saves tab chaos" is atomic; "browser tips and meeting notes" is not. Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing. If I need headings inside one file, I probably need two notes.
+
+Extends [[Zettelkasten]]. Contradicts [[Maps of Content]].
 
 ## See also
 

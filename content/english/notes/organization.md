@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
+**Organization (PKM)** = add just enough structure to find things when life gets loud — skip the perfect tree.
 
-**Organization (PKM)** = enough structure to find things when life gets loud - not a perfect tree.
+[[PARA Method]] answers "where does this live for my life right now?" Topics answer "what is this about?" I need both, but life responsibility wins when I'm rushed.
 
-[[PARA Method]] answers "where does this live for my life right now?" Topics answer "what is this about?" I need both, but life responsibility wins when I'm rushed. Pairs with [[The Archive Method]] and [[GTD vs PARA]].
+Extends [[PARA Method]]. Contradicts [[Associative Linking]].
 
 ## See also
 

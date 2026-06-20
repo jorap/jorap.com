@@ -13,5 +13,6 @@ tags: ["Notes", "Meta"]
 featured: false
 draft: false
 ---
-
 Three notes from the garden, picked at random. Shuffle all, or lock two and shuffle one column.
+
+Extends [[Getting Started]]. Implements [[Digital Serendipity]].

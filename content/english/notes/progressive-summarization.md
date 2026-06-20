@@ -11,15 +11,27 @@ slug: "progressive-summarization"
 featured: false
 status: evergreen
 review: true
-card_back: "Bold, highlight, summarize on reuse."
-card_front: "Progressive summarization"
+cards:
+  - front: "Progressive summarization (definition)"
+    back: "Bold, highlight, summarize — on reuse only."
+  - front: "Progressive summarization layer 1"
+    back: "Bold the good sentences."
+  - front: "Progressive summarization layer 2"
+    back: "Highlight the best bold."
+  - front: "Progressive summarization layer 3"
+    back: "Summary at top — only on second use."
+  - front: "Progressive summarization belongs in CODE as"
+    back: "Distill."
+  - front: "Progressive summarization: when NOT to summarize"
+    back: "On first save."
 draft: false
 aliases: []
 ---
-
 **Progressive summarization** = distill in layers on reuse - bold, then highlight, then summary at top.
 
-Layer one: bold the good sentences. Layer two: highlight the best bold. Layer three: summary at top - only when I reach for the note a second time. Part of the distill step in [[Building a Second Brain]]. Pairs with [[Intellectual Sourcing]] and [[Capture]].
+Layer one: bold the good sentences. Layer two: highlight the best bold. Layer three: summary at top - only when I reach for the note a second time. Part of the distill step in [[Second Brain]].
+
+Extends [[Building a Second Brain]]. Contradicts [[Synthesis as a Goal]].
 
 ## See also
 

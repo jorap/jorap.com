@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
-
 **Newsletter filtering** = RSS with delivery guilt - label, batch weekly, clip what resonates.
 
-Gmail label, weekly batch, clip only what changes a project or belief. Same diet rules as [[RSS for Research]] - subscribe generously, process ruthlessly. Pairs with [[Second Brain Daily Workflow]] and [[Active Knowledge Curation]].
+Gmail label, weekly batch, clip only what changes a project or belief. Same diet rules as [[RSS for Research]] - subscribe generously, process ruthlessly.
+
+Extends [[RSS for Research]]. Contradicts [[Signal vs Noise]].
 
 ## See also
 

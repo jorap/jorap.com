@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
-
 **Mobile capture** = share sheet to inbox in two taps - sparks die in twelve.
 
-Share sheet to my [[Capture]] inbox, voice memo when walking, photo of whiteboard before the room clears. Twelve taps was a design failure I fixed once and stopped re-litigating. Pairs with [[Analog Capture Tools]] and [[Building a Second Brain]].
+Share sheet to my [[Capture]] inbox, voice memo when walking, photo of whiteboard before the room clears. Twelve taps was a design failure I fixed once and stopped re-litigating.
+
+Extends [[Capture]]. Contradicts [[Analog Capture Tools]]. Alternative to [[Analog Capture Tools]].
 
 ## See also
 

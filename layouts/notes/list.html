@@ -1,6 +1,5 @@
 {{ define "main" }}
-  {{ partial "notes/lint-all-wikilinks.html" . }}
-  {{ partial "notes/lint-unlinked-mentions.html" . }}
+  {{ partial "notes/lint-note-issues.html" . }}
   {{ partial "page-header" . }}
 
   <section class="section">
@@ -9,6 +8,11 @@
         <div class="lg:col-10">
           <div class="notes-toolbar mb-6 flex flex-wrap items-center gap-3">
             <a class="btn btn-outline-primary btn-sm" href="{{ `/notes/graph/` | relLangURL }}">Graph view</a>
+            {{- $issueData := partialCached "notes/collect-note-issues.html" site "note-issues-v1" -}}
+            {{- $issueTotal := add $issueData.brokenCount $issueData.unlinkedCount -}}
+            <a class="btn btn-outline-primary btn-sm" href="{{ `/notes/issues/` | relLangURL }}">
+              Issues{{ if gt $issueTotal 0 }} ({{ $issueTotal }}){{ end }}
+            </a>
             {{ if site.Params.notes.enable_cards }}
               <a class="btn btn-outline-primary btn-sm" href="{{ `/notes/cards/` | relLangURL }}">Flashcards</a>
               <a class="btn btn-outline-primary btn-sm" href="{{ `/notes/review/` | relLangURL }}">Review</a>

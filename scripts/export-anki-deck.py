@@ -89,6 +89,24 @@ def extract_shortcode_cards(body: str) -> list[tuple[str, str]]:
     return [(m.group(1).strip(), m.group(2).strip()) for m in SHORTCODE_RE.finditer(body)]
 
 
+def parse_cards_list(block: str) -> list[tuple[str, str]]:
+    """Parse frontmatter cards: list of {front, back} dicts."""
+    cards: list[tuple[str, str]] = []
+    if not re.search(r"^cards:\s*$", block, re.M):
+        return cards
+
+    for match in re.finditer(
+        r'^\s+-\s+front:\s*"?([^"\n]+)"?\s*\n\s+back:\s*"?([^"\n]+)"?\s*$',
+        block,
+        re.M,
+    ):
+        front = match.group(1).strip()
+        back = match.group(2).strip()
+        if front and back:
+            cards.append((front, back))
+    return cards
+
+
 def format_back(back: str, source_url: str, title: str) -> str:
     safe_back = html.escape(back)
     safe_title = html.escape(title)
@@ -126,28 +144,39 @@ def collect_cards(review_tag: str) -> list[dict[str, str]]:
         source = note_url(base, slug)
 
         if is_review_note(inner, review_tag):
-            card_front = parse_scalar(inner, "card_front")
-            card_back = parse_scalar(inner, "card_back")
-            lead = extract_lead_card(body)
-            if card_front and card_back:
-                front, back = card_front, card_back
-            elif lead:
-                front, back = lead
-                if card_back:
-                    back = card_back
-                if card_front:
-                    front = card_front
+            frontmatter_cards = parse_cards_list(inner)
+            if frontmatter_cards:
+                for front, back in frontmatter_cards:
+                    cards.append(
+                        {
+                            "front": front,
+                            "back": format_back(back, source, title),
+                            "tags": tag_field.strip(),
+                        }
+                    )
             else:
-                front, back = "", ""
+                card_front = parse_scalar(inner, "card_front")
+                card_back = parse_scalar(inner, "card_back")
+                lead = extract_lead_card(body)
+                if card_front and card_back:
+                    front, back = card_front, card_back
+                elif lead:
+                    front, back = lead
+                    if card_back:
+                        back = card_back
+                    if card_front:
+                        front = card_front
+                else:
+                    front, back = "", ""
 
-            if front and back:
-                cards.append(
-                    {
-                        "front": front,
-                        "back": format_back(back, source, title),
-                        "tags": tag_field.strip(),
-                    }
-                )
+                if front and back:
+                    cards.append(
+                        {
+                            "front": front,
+                            "back": format_back(back, source, title),
+                            "tags": tag_field.strip(),
+                        }
+                    )
 
         for front, back in extract_shortcode_cards(body):
             cards.append(

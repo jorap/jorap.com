@@ -11,15 +11,27 @@ slug: "the-trusted-inbox"
 featured: false
 status: evergreen
 review: true
-card_back: "One pipe, emptied every week."
-card_front: "Trusted inbox"
+cards:
+  - front: "Trusted inbox (definition)"
+    back: "One capture pipe you empty every week."
+  - front: "Trusted inbox rhythm"
+    back: "Weekly Review Checklists — no exceptions."
+  - front: "What breaks inbox trust?"
+    back: "Items rot without weekly processing."
+  - front: "If the inbox is not trusted"
+    back: "You capture in your head instead."
+  - front: "Trusted inbox: how many pipes?"
+    back: "One inbox, one owner, one rhythm."
+  - front: "Trusted inbox extends"
+    back: "Capture."
 draft: false
 aliases: ["Trusted Inbox"]
 ---
-
 **Trusted inbox** = one [[Capture]] pipe you empty every week - or you'll capture in your head instead.
 
-[[Weekly Review Checklists]] every week, no exceptions - even if it's twenty minutes. Trust is behavioral: if items disappear or rot, I'll stop using the pipe. One inbox, one owner, one rhythm. Pairs with [[Context-Aware Capture]] and [[Mobile Capture Workflows]].
+[[Weekly Review Checklists]] every week, no exceptions - even if it's twenty minutes. Trust is behavioral: if items disappear or rot, I'll stop using the pipe. One inbox, one owner, one rhythm.
+
+Extends [[Capture]]. Contradicts [[Mobile Capture Workflows]].
 
 ## See also
 

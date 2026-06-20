@@ -11,15 +11,27 @@ slug: "gtd-vs-para"
 featured: false
 status: evergreen
 review: true
-card_back: "GTD runs tasks; PARA runs notes."
-card_front: "GTD vs PARA"
+cards:
+  - front: "GTD vs PARA (one line)"
+    back: "GTD runs tasks; PARA runs notes."
+  - front: "GTD: where do tasks live?"
+    back: "The task app."
+  - front: "PARA: where does reference material live?"
+    back: "PARA buckets."
+  - front: "GTD and PARA are"
+    back: "Cousins, not competitors."
+  - front: "Duplicate filing tax (GTD vs PARA)"
+    back: "Filing the same item in the task app and note folders."
+  - front: "GTD maintain phase overlaps with"
+    back: "Weekly Review Checklists."
 draft: false
 aliases: ["GTD"]
 ---
+**GTD vs PARA** = run tasks in the task app, sort notes into [[PARA Method|PARA]] buckets — cousins, not competitors.
 
-**GTD vs PARA** = tasks in the task app, notes in [[PARA Method|PARA]] buckets - cousins, not competitors.
+Tasks live in the task app with contexts and next actions. Reference and project material lives in [[PARA Method]] buckets. Overlap is fine; duplicate filing is the tax I refuse to pay.
 
-Tasks live in the task app with contexts and next actions. Reference and project material lives in [[PARA Method]] buckets. Overlap is fine; duplicate filing is the tax I refuse to pay. Pairs with [[Active Knowledge Curation]] and [[Capture]].
+Extends [[Organization]]. Contradicts [[PKM]].
 
 ## See also
 

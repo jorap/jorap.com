@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
-
 **RSS for research** = appointment reading - subscribe to blogs, batch read, clip to notes.
 
-Feed reader, not timeline. Blogs I trust, batch read, clip to [[Capture]] with context. Twitter was infinite noise dressed as research; RSS is appointment reading. Pairs with [[PKM]] and [[Newsletter Filtering]].
+Feed reader, not timeline. Blogs I trust, batch read, clip to [[Capture]] with context. Twitter was infinite noise dressed as research; RSS is appointment reading.
+
+Extends [[Capture]]. Contradicts [[Signal vs Noise]].
 
 ## See also
 

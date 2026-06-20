@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["Evergreen vs Fleeting"]
 ---
-
-**Evergreen vs fleeting notes** = two lanes - sparks vs truth, one promotion path.
+**Evergreen vs fleeting notes** = catch sparks in the fleeting lane, promote winners on one path to evergreen.
 
 Fleeting lives in [[Daily Notes]] and the inbox; evergreen lives where I link and teach from. The full path is [[The Knowledge Lifecycle]] — capture through archive. Promotion question: still true, and would I cite it to a friend? If yes, rewrite in timeless voice, stress-test with [[The Feynman Technique]], file as evergreen.
+
+Extends [[The Knowledge Lifecycle]]. Contradicts [[Evergreen Notes]].
 
 ## See also
 

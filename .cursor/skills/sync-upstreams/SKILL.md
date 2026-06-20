@@ -9,14 +9,12 @@ JoRap.com is a **project-setup** Hugo site (`theme = "jorap"` in `hugo.toml`) fo
 
 Unless noted otherwise, paths below are **relative to the jorap.com repo root**. Upstream checkouts live as sibling folders one level up (`../hugoplate`, `../impeccable`).
 
-Local source checkouts (sibling folders — one level up from jorap.com):
-
 | Upstream | Path (from jorap.com root) |
 | --- | --- |
 | Hugoplate | `../hugoplate` |
 | Impeccable | `../impeccable` |
 
-**Never blind-copy the whole repo.** JoRap has site-specific theme files, scripts, content, Cloudflare Functions, and design context that upstream does not have. Sync selectively and review diffs.
+**Never blind-copy or bulk-rsync the theme.** JoRap forked Hugoplate’s CSS token system, fonts, homepage, blog layout, and many partials. Sync = **triage diffs → apply only safe changes → build → summarize**.
 
 ## Quick routing
 
@@ -25,32 +23,32 @@ Local source checkouts (sibling folders — one level up from jorap.com):
 | Update Hugo theme / Hugoplate | [Hugoplate sync](#hugoplate-sync) |
 | Update Impeccable skill / design commands | [Impeccable sync](#impeccable-sync) |
 | Update both | Hugoplate first, then Impeccable, then verify build |
-| Understand what not to overwrite | [preserve-lists.md](preserve-lists.md) |
+| What not to overwrite | [preserve-lists.md](preserve-lists.md) |
 
 ---
 
 ## Pre-flight (both upstreams)
 
-1. In each source repo, fetch and pull latest:
+1. Pull upstream checkouts:
 
 ```bash
 cd ../hugoplate && git pull
 cd ../impeccable && git pull
 ```
 
-2. In jorap.com, confirm clean working tree or stash first:
+2. Confirm clean working tree in jorap.com (or stash first):
 
 ```bash
 git status
 ```
 
-3. Package manager here is **pnpm** (`pnpm-lock.yaml`).
+3. Package manager: **pnpm** (`pnpm-lock.yaml`).
 
 ---
 
 ## Hugoplate sync
 
-Hugoplate's theme lives at its repo root (`layouts/`, `assets/`). JoRap vendors it as **`themes/jorap/`** (renamed from `hugoplate`).
+Hugoplate’s theme lives at repo root (`layouts/`, `assets/`). JoRap vendors it as **`themes/jorap/`**.
 
 ### Path mapping
 
@@ -58,91 +56,130 @@ Hugoplate's theme lives at its repo root (`layouts/`, `assets/`). JoRap vendors 
 | --- | --- |
 | `layouts/` | `themes/jorap/layouts/` |
 | `assets/` | `themes/jorap/assets/` |
-| `scripts/` | `scripts/` (selective — see preserve list) |
+| `scripts/` | `scripts/` (selective) |
 | `.agents/skills/` | `.agents/skills/` |
-| `AGENTS.md` | Review for new agent rules; merge relevant sections only |
+| `AGENTS.md` | Review; merge relevant sections only |
 
-Do **not** copy `exampleSite/`, `theme.toml`, or hugoplate's `package.json` wholesale.
+Do **not** copy `exampleSite/`, `theme.toml`, or hugoplate’s `package.json` wholesale.
 
-### Recommended workflow
+### Workflow — triage before apply
 
 ```
 Task progress:
 - [ ] Pull hugoplate
-- [ ] Diff theme (layouts + assets)
-- [ ] Merge shared files; skip JoRap-only paths
-- [ ] Diff and merge root scripts
-- [ ] Sync .agents/skills if changed
-- [ ] pnpm install (if package.json deps changed)
+- [ ] Run triage report (classify every diff)
+- [ ] Read diff for each CANDIDATE / ADD-ONLY file
+- [ ] Copy or cherry-pick ONLY approved files — one at a time
+- [ ] Diff root scripts; update only Tier-3 matches
+- [ ] Sync .agents/skills; restore JoRap local notes
 - [ ] pnpm build
-- [ ] Review git diff; summarize for user
+- [ ] Summarize: applied / skipped / needs manual review
 ```
 
-**Step 1 — Diff theme folders** (run from jorap.com root):
+**Do not** run bulk `rsync` on `layouts/` or `assets/` as the default step. The exclude list ([hugoplate-rsync-excludes.txt](hugoplate-rsync-excludes.txt)) blocks known JoRap paths but is not sufficient on its own — upstream “shared” files still break JoRap when they revert the semantic token system.
+
+### Step 1 — Triage report
+
+Run the classifier (read-only):
+
+```bash
+bash .cursor/skills/sync-upstreams/triage-hugoplate.sh
+```
+
+Output columns: `STATUS`, `path`, `reason`
+
+| Status | Action |
+| --- | --- |
+| **BLOCKED** | Never copy — on preserve/exclude list ([preserve-lists.md](preserve-lists.md) Tier 1) |
+| **SKIP** | Would regress JoRap (CDN fonts, old tokens, `hugoplate` theme name) |
+| **MANUAL** | JoRap customization detected — skip unless user wants a hand merge |
+| **CANDIDATE** | May be safe — **must read full diff** before copying |
+| **ADD-ONLY** | New upstream file JoRap lacks — add if not JoRap-specific |
+
+Also list structural diffs:
 
 ```bash
 HUGO=../hugoplate
 diff -rq "$HUGO/layouts" themes/jorap/layouts
 diff -rq "$HUGO/assets" themes/jorap/assets
+diff -rq ../hugoplate/scripts scripts
 ```
 
-**Step 2 — Copy only safe upstream files.** For files that exist in both repos and should track upstream, copy individually after reviewing the diff. Example:
+### Step 2 — Decide per file (agent judgment)
+
+For each **CANDIDATE** or **ADD-ONLY** row:
+
+1. Read the full diff: `diff -u themes/jorap/path ../hugoplate/path`
+2. Apply [preserve-lists.md](preserve-lists.md) Tier 2 red flags — if any match, **skip**
+3. If the change is a small, isolated bugfix with no token/markup regression, copy **that file only**:
 
 ```bash
-HUGO=../hugoplate
-cp "$HUGO/layouts/_partials/essentials/header.html" themes/jorap/layouts/_partials/essentials/header.html
+cp ../hugoplate/layouts/_partials/widgets/widget-wrapper.html themes/jorap/layouts/_partials/widgets/widget-wrapper.html
 ```
 
-For bulk sync of files that are **identical in purpose** and not in the preserve list, `rsync` with excludes:
+4. If only part of a file is useful, cherry-pick hunks manually — do not overwrite the whole file
 
-```bash
-HUGO=../hugoplate
+**Safe apply examples** (when diff confirms no JoRap regression):
 
-rsync -av --delete \
-  --exclude-from=.cursor/skills/sync-upstreams/hugoplate-rsync-excludes.txt \
-  "$HUGO/layouts/" themes/jorap/layouts/
+- New file under `assets/plugins/` JoRap doesn’t override
+- Typo fix in a widget partial JoRap still uses verbatim
+- Root script matches upstream and JoRap has no local edits (`diff -q` clean on JoRap side)
 
-rsync -av \
-  --exclude-from=.cursor/skills/sync-upstreams/hugoplate-rsync-excludes.txt \
-  "$HUGO/assets/" themes/jorap/assets/
-```
+**Never auto-apply** (even if triage says CANDIDATE — re-classify as SKIP/MANUAL):
 
-Use `--delete` on `layouts/` only when the user explicitly wants orphan upstream files removed. Default: **no `--delete`** — add new upstream files, update changed shared files, leave JoRap-only files alone.
+- Any file under `assets/css/` or `assets/js/main.js`
+- `home.html`, `baseof.html`, `blog/single.html`, essentials partials
+- Files whose diff swaps semantic tokens (`text-ink`, `bg-surface`) for Hugoplate tokens (`text-text`, `bg-body`, `dark:*`)
 
-**Step 3 — Root scripts.** Compare and merge:
+### Step 3 — Root scripts
 
 ```bash
 diff -rq ../hugoplate/scripts scripts
 ```
 
-Safe to take upstream as-is: `themeGenerator.js`, `themeUpdate.js`, `clearModules.js`, `removeMultilang.js`.
+| File | Rule |
+| --- | --- |
+| `themeGenerator.js`, `themeUpdate.js`, `clearModules.js`, `removeMultilang.js` | Copy only if `diff -q` shows JoRap differs **and** diff has no JoRap-specific logic |
+| `projectSetup.js`, `themeSetup.js`, `removeDarkmode.js` | Manual merge only (theme name `jorap`) |
+| `cspHashes.mjs`, `*.py`, `noteFileDates.js`, etc. | Never touch |
 
-Merge carefully (JoRap uses theme name `jorap`): `projectSetup.js`, `themeSetup.js`, `removeDarkmode.js`.
-
-Never remove: `scripts/cspHashes.mjs` (JoRap-only; wired into `pnpm build`).
-
-**Step 4 — Agent skills from Hugoplate:**
+### Step 4 — Agent skills
 
 ```bash
 HUGO=../hugoplate
-mkdir -p .agents/skills
 rsync -av "$HUGO/.agents/skills/" .agents/skills/
 ```
 
-**Step 5 — package.json.** Merge `devDependencies` from hugoplate into jorap.com. Keep JoRap-specific `name`, `description`, `version`, `author`, `engines`, and custom scripts (`build` with `cspHashes.mjs`, `watch`, etc.).
+Then restore JoRap-only lines upstream removed, e.g. the `__` draft-post note in `.agents/skills/hugo-template-guidance/references/content-management.md`.
 
-**Step 6 — Verify:**
+### Step 5 — package.json
+
+Merge **new** `devDependencies` from Hugoplate. Keep JoRap `name`, `description`, `version`, `author`, `engines`, and all custom scripts (`build` with `cspHashes`, `watch`, etc.).
+
+### Step 6 — Verify
 
 ```bash
-pnpm install
+pnpm install   # only if devDependencies changed
 pnpm build
 ```
 
-If build fails, fix merge conflicts in theme templates or CSS before finishing.
+If build fails, revert the last copied file and mark it MANUAL.
+
+### Emergency bulk rsync (user explicitly requests only)
+
+Only when the user asks to “rsync everything” **and** triage report shows zero MANUAL/SKIP rows for the target tree. Still use excludes:
+
+```bash
+HUGO=../hugoplate
+rsync -av --exclude-from=.cursor/skills/sync-upstreams/hugoplate-rsync-excludes.txt \
+  "$HUGO/layouts/" themes/jorap/layouts/
+```
+
+Never use `--delete` unless the user explicitly wants orphan files removed.
 
 ### Hugo modules
 
-After a theme sync, consider refreshing Hugo modules:
+After applying theme changes:
 
 ```bash
 pnpm update-modules
@@ -152,28 +189,27 @@ pnpm update-modules
 
 ## Impeccable sync
 
-Impeccable installs into `.cursor/skills/impeccable/`. JoRap design context lives in `docs/PRODUCT.md` and `docs/DESIGN.md` — **never overwrite these** during a skill update.
+Installs into `.cursor/skills/impeccable/`. Never overwrite `docs/PRODUCT.md`, `docs/DESIGN.md`, `.impeccable/`.
 
-### Recommended workflow
+### Workflow
 
 ```
 Task progress:
 - [ ] Pull impeccable
 - [ ] Build skill bundle
-- [ ] Link or update into .cursor/skills/
-- [ ] Preserve docs/PRODUCT.md, docs/DESIGN.md, .impeccable/
-- [ ] Smoke-check skill loads
+- [ ] Link into .cursor/skills/
+- [ ] Verify context script
 ```
 
-**Step 1 — Build the bundle** (requires Node ≥24 and bun in the impeccable repo):
+**Step 1 — Build** (prefer bun; fallback to npm + node):
 
 ```bash
 cd ../impeccable
-bun install
-bun run build:skills
+# bun install && bun run build:skills   # if bun available
+npm install && node scripts/build.js --skip-root-sync
 ```
 
-**Step 2 — Link into jorap.com** (from jorap.com root; preferred for local dev — symlinks track the checkout):
+**Step 2 — Link** (from jorap.com root):
 
 ```bash
 node ../impeccable/cli/bin/cli.js link \
@@ -182,29 +218,28 @@ node ../impeccable/cli/bin/cli.js link \
   --force -y
 ```
 
-If the project uses a **copied** install (not symlinked), either:
+**Step 3 — Verify:**
 
-- Re-run `link` with `--force` (replaces with symlinks), or
-- Run `npx impeccable update --force -y` to pull the latest published bundle from impeccable.style
+```bash
+node .cursor/skills/impeccable/scripts/context.mjs
+```
 
-**Step 3 — Preserve project context.** Do not touch:
-
-- `docs/PRODUCT.md`, `docs/DESIGN.md`, `docs/DESIGN.json`
-- `.impeccable/` (live mode config, critique ignores, session state)
-- Any user-created pins or local hook overrides
-
-**Step 4 — Verify.** Confirm `.cursor/skills/impeccable/SKILL.md` exists and `node .cursor/skills/impeccable/scripts/load-context.mjs` resolves `docs/PRODUCT.md`.
+Must resolve `docs/PRODUCT.md`.
 
 ---
 
 ## After any sync
 
-1. Show `git diff --stat` and call out files that need manual review.
-2. Summarize what changed (theme templates, CSS, scripts, skills).
-3. Note anything skipped from [preserve-lists.md](preserve-lists.md).
-4. Do **not** commit unless the user asks.
+1. Show `git diff --stat` — only files you intentionally changed
+2. Report three lists:
+   - **Applied** — what was copied/cherry-picked and why
+   - **Skipped** — BLOCKED / SKIP / MANUAL with one-line reason each
+   - **Review** — anything the user should eyeball in the browser
+3. Do **not** commit unless the user asks
+
+If **zero** files pass triage, say so — “already in sync” or “no safe upstream changes” is a valid outcome.
 
 ## Related skills
 
-- **hugo-template-guidance** — after syncing `.agents/skills/` from Hugoplate, use for Hugo/Tailwind conventions.
-- **impeccable** — for design work after refreshing the skill; reads `docs/PRODUCT.md` / `docs/DESIGN.md`.
+- **hugo-template-guidance** — Hugo/Tailwind conventions after agent skill sync
+- **impeccable** — design work; reads `docs/PRODUCT.md` / `docs/DESIGN.md`

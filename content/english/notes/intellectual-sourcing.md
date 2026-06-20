@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
-
 **Cite your sources** = minimum citation so future-you can trust what you wrote.
 
-Author, URL, date, and one line on why I cared. When I combine ideas from several places, I can follow the trail and see where I added my own take. See [[Note-Taking for Researchers]]. Pairs with [[Progressive Summarization]] and [[Evergreen Notes]].
+Author, URL, date, and one line on why I cared. When I combine ideas from several places, I can follow the trail and see where I added my own take. See [[Note-Taking for Researchers]].
+
+Extends [[Note-Taking for Researchers]]. Contradicts [[Progressive Summarization]].
 
 ## See also
 

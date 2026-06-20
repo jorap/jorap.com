@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["note taking for researchers", "Research Notes"]
 ---
+**Research notes** = keep source notes with the book; write synthesis in your words only — never merge the two.
 
-**Research notes** = two lanes: source notes stay with the book; your own notes are your words only.
+Never paste highlights into your own-notes file without rewriting. Simple [[Zettelkasten]] rule that works outside school: source notes and your own notes never merge.
 
-Never paste highlights into your own-notes file without rewriting. Simple [[Zettelkasten]] rule that works outside school: source notes and your own notes never merge. Pairs with [[Intellectual Sourcing]] and [[Associative Linking]].
+Extends [[Synthesis as a Goal]]. Contradicts [[Progressive Summarization]].
 
 ## See also
 

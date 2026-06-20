@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["slip-box"]
 ---
+**Zettelkasten** = write one idea per note, link heavily, draft by following connections.
 
-**Zettelkasten** = one idea per note, lots of links, writing by following connections.
+I write notes I'd link to, not notes I'd folder. Links matter more than file count. History in [[Slip-box History]]; myths in [[The Zettelkasten Myth]].
 
-I write notes I'd link to, not notes I'd folder. Links matter more than file count. History in [[Slip-box History]]; myths in [[The Zettelkasten Myth]]. Pairs with [[Atomic Notes]].
+Extends [[Atomic Notes]]. Contradicts [[PARA Method]].
 
 ## See also
 

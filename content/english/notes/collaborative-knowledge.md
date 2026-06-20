@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
+**Collaborative knowledge** = pick one owner per topic, one official doc, clear edit rules.
 
-**Collaborative knowledge** = shared docs with clear owners, edit rules, and one official doc per topic.
+Most of my notes are solo; team docs live where decisions stick. I keep a solo [[Digital Garden]] for thinking. Different jobs, different homes.
 
-Most of my notes are solo; team docs live where decisions stick. I keep a solo [[Digital Garden]] for thinking. Different jobs, different homes. Pairs with [[Active Knowledge Curation]] and [[Context-Aware Capture]].
+Extends [[Building a Personal API]]. Contradicts [[Digital Garden]].
 
 ## See also
 

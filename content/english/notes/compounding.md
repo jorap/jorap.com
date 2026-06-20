@@ -13,10 +13,11 @@ draft: false
 aliases: ["Compound Interest"]
 status: evergreen
 ---
-
-**Compounding** = small consistent gains stack on each other - the curve looks flat until it doesn't.
+**Compounding** = repeat small gains until they stack — keep showing up; the curve looks flat until it doesn't.
 
 Borrowed from finance (interest on interest), but it applies anywhere today's gain makes tomorrow easier: notes linked over years, publish cadence, vocab drills, fitness. Heroic weeks feel good; boring repetition wins. The first months look like nothing - that's the trap. Pairs with [[Process Over Outcomes]], [[Spaced Repetition]], and [[Evergreen Notes]].
+
+Extends [[Process Over Outcomes]]. Contradicts [[Pareto Principle]].
 
 ## See also
 

@@ -13,5 +13,6 @@ tags: ["Notes", "Meta"]
 featured: false
 draft: false
 ---
-
 Two notes from the garden, picked at random. Hit **Shuffle** for another pair.
+
+Extends [[Getting Started]]. Implements [[Digital Serendipity]].

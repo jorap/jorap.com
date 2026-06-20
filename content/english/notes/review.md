@@ -14,5 +14,10 @@ featured: false
 review: false
 draft: false
 ---
-
 **Review** = active recall in the browser — show the prompt, try the answer, rate yourself. Progress saves in this browser only; use Anki export when you want phone sync.
+
+Extends [[Cards]]. Implements [[Spaced Repetition]].
+
+Extends [[Flashcards]]. Implements [[Spaced Repetition]].
+
+Extends [[Getting Started]]. Implements [[Spaced Repetition]].

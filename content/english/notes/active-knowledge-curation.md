@@ -13,10 +13,11 @@ draft: false
 aliases: []
 status: evergreen
 ---
-
 **Regular note cleanup** = revisiting notes on a schedule and cutting what you wouldn't save again today.
 
-Hoarding links isn't curation. Once a month I open old folders and ask: save again today? If not, delete or merge. That's [[Periodic Knowledge Review]] with teeth - fewer notes, stronger links, notes I actually open. Pairs with [[Building a Second Brain]] and [[Capture]].
+Hoarding links isn't curation. Once a month I open old folders and ask: save again today? If not, delete or merge. That's [[Periodic Knowledge Review]] with teeth - fewer notes, stronger links, notes I actually open.
+
+Extends [[Building a Second Brain]]. Contradicts [[The Collector's Fallacy]].
 
 ## See also
 

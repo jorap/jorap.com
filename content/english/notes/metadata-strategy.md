@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
+**How you tag notes** = tag and alias only what helps you find notes — not a second job.
 
-**How you tag notes** = tags and aliases that help you find notes - not a second job.
+Tags for broad themes, aliases for link targets, dates for publish not theology. If tagging takes longer than writing, your system is wrong. See [[Context-Aware Capture]] for the fields that actually get used.
 
-Tags for broad themes, aliases for link targets, dates for publish not theology. If tagging takes longer than writing, your system is wrong. See [[Context-Aware Capture]] for the fields that actually get used. Pairs with [[Future-Proofing Knowledge]] and [[Organization]].
+Extends [[Organization]]. Contradicts [[Building a Personal API]].
 
 ## See also
 

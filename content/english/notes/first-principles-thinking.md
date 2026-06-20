@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
-
 **First-principles thinking** = rebuild the claim from scratch, not from someone else's quote.
 
-I add a short "from scratch" block: assumptions, what would have to be true, what I'd bet on. Quotes stay attributed; my claim sits beside them. Pairs with [[Mental Models List]] and [[Synthesis as a Goal]]. Also pairs with [[Minimum Effective Dose]].
+I add a short "from scratch" block: assumptions, what would have to be true, what I'd bet on. Quotes stay attributed; my claim sits beside them.
+
+Extends [[Synthesis as a Goal]]. Contradicts [[Progressive Summarization]].
 
 ## See also
 

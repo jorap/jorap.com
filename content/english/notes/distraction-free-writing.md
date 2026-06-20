@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["distraction free writing"]
 ---
-
 **Distraction-free writing** = fullscreen, plain text, phone in another room - fewer exits, more sentences.
 
-Plain Markdown, full screen, notifications off. Same subtraction mindset as [[Digital Minimalism]]: fancy writing apps became another place to tweak instead of type. One uninterrupted paragraph, then another. Pairs with [[Creative Blocks]] and [[Formatting for Readability]].
+Plain Markdown, full screen, notifications off. Same subtraction mindset as [[Digital Minimalism]]: fancy writing apps became another place to tweak instead of type. One uninterrupted paragraph, then another.
+
+Extends [[Creative Output]]. Contradicts [[Drafting in Public]].
 
 ## See also
 

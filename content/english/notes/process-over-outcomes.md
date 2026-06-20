@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["Process Over Outcome"]
 ---
-
 **Process over outcomes** = focus on the habit you can rerun; outcomes follow unevenly.
 
-I can't control every result; I can control [[Weekly Review Checklists]], publish cadence, capture habit. Outcomes still matter - but the process is what I rerun when motivation dips. Pairs with [[Anti-Fragile Systems]] and [[Bullet Journaling]].
+I can't control every result; I can control [[Weekly Review Checklists]], publish cadence, capture habit. Outcomes still matter - but the process is what I rerun when motivation dips.
+
+Extends [[Compounding]]. Contradicts [[The 12 Week Year]].
 
 ## See also
 

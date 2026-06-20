@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["Future of PKM"]
 ---
+**Future of PKM** = still capture, connect, create — let search and agents handle retrieval.
 
-**Future of PKM** = better search and agents, same loop: capture, connect, create.
+Better search, agents that read my folders, sure - but the [[Second Brain|second brain]] loop — capture, connect, create — doesn't retire. New tools should shorten the loop, not replace thinking. Skepticism earns its keep every hype cycle.
 
-Better search, agents that read my folders, sure - but the [[Second Brain|second brain]] loop — capture, connect, create — doesn't retire. New tools should shorten the loop, not replace thinking. Skepticism earns its keep every hype cycle. Pairs with [[Building a Personal API]] and [[The Second Brain Workflow]].
+Extends [[Building a Personal API]]. Contradicts [[Local-first Software]].
 
 ## See also
 

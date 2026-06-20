@@ -13,13 +13,25 @@ draft: false
 aliases: ["Personal Knowledge Management"]
 status: evergreen
 review: true
-card_back: "Capture, organize, distill, express."
-card_front: "PKM"
+cards:
+  - front: "PKM (four steps)"
+    back: "Capture, organize, distill, express."
+  - front: "PKM in plain language"
+    back: "A backup brain for a loud life."
+  - front: "PKM is NOT"
+    back: "Productivity cosplay."
+  - front: "PKM success test"
+    back: "Save, find, rewrite on reuse, ship on schedule."
+  - front: "PKM onboarding note for this garden"
+    back: "Getting Started."
+  - front: "PKM fourth CODE step"
+    back: "Express — ship something from the notes."
 ---
-
 **PKM (personal knowledge management)** = capture, organize, distill, express - a backup brain for a loud life.
 
-Not productivity cosplay. Save what matters, find it when needed, rewrite on reuse, ship on schedule. Start at [[Getting Started]] or [[Building a Second Brain]]. Pairs with [[Active Knowledge Curation]].
+Not productivity cosplay. Save what matters, find it when needed, rewrite on reuse, ship on schedule. Start at [[Getting Started]] or [[Building a Second Brain]].
+
+Extends [[Getting Started]]. Contradicts [[The Collector's Fallacy]].
 
 ## See also
 

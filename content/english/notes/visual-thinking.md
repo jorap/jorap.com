@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
-
 **Visual thinking** = boxes and arrows before prose piles up.
 
-Sketch the system before words take over. Ugly diagrams in the note - Excalidraw embeds fine. Complements [[Mind Mapping]]; both feed [[Atomic Notes|atomic notes]] after the picture clears. Pairs with [[Graph View Analytics]].
+Sketch the system before words take over. Ugly diagrams in the note - Excalidraw embeds fine. Complements [[Mind Mapping]]; both feed [[Atomic Notes|atomic notes]] after the picture clears.
+
+Extends [[Mind Mapping]]. Contradicts [[Atomic Notes]].
 
 ## See also
 

@@ -1,0 +1,68 @@
+{{ define "main" }}
+  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v1" -}}
+  {{- $notes := $data.notes -}}
+  {{- $notes = sort $notes "total" "desc" -}}
+
+  <section class="section pt-7">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          <div class="notes-toolbar mb-4 flex flex-wrap items-center gap-3">
+            <a class="text-accent text-sm no-underline hover:underline" href="{{ `/notes/` | relLangURL }}">← All notes</a>
+            {{ if site.Params.notes.enable_graph }}
+              <a class="text-accent text-sm no-underline hover:underline" href="{{ `/notes/graph/` | relLangURL }}">Graph</a>
+            {{ end }}
+          </div>
+
+          <h1 class="article-title mb-4">{{ .Title }}</h1>
+
+          <div class="content notes-content mb-6">
+            {{ partial "notes/render-content.html" . }}
+          </div>
+
+          <div class="notes-issues-summary border-divider mb-8 rounded border p-5">
+            <h2 class="h6 mb-3">Summary</h2>
+            {{- if gt $data.notesWithIssues 0 -}}
+              <ul class="notes-issues-summary__stats mb-0 list-none space-y-1 p-0 text-sm">
+                <li><strong>{{ $data.brokenCount }}</strong> broken wikilink{{ if ne $data.brokenCount 1 }}s{{ end }} (target note does not exist)</li>
+                <li><strong>{{ $data.unlinkedCount }}</strong> unlinked mention{{ if ne $data.unlinkedCount 1 }}s{{ end }} (note title in prose without <code>[[wikilink]]</code>)</li>
+                <li><strong>{{ $data.notesWithIssues }}</strong> note{{ if ne $data.notesWithIssues 1 }}s{{ end }} affected</li>
+              </ul>
+            {{- else -}}
+              <p class="notes-issues-summary__ok mb-0 text-sm">No link issues found. Every wikilink resolves and no note titles are mentioned without linking.</p>
+            {{- end -}}
+          </div>
+
+          {{- if gt $data.notesWithIssues 0 -}}
+            <div class="notes-issues-index space-y-6">
+              {{- range $notes -}}
+                {{- $note := .Page -}}
+                <section class="notes-issues-group border-divider rounded border p-5" id="{{ $note.File.ContentBaseName }}">
+                  <h2 class="h6 mb-3">
+                    <a class="text-accent no-underline hover:underline" href="{{ $note.RelPermalink }}">{{ $note.Title }}</a>
+                    <span class="text-ink-muted font-normal">({{ .total }})</span>
+                  </h2>
+                  <ul class="notes-issues__list mb-0 list-none space-y-2 p-0 text-sm">
+                    {{- range .broken -}}
+                      <li class="notes-issues__item notes-issues__item--broken">
+                        <strong>Missing note:</strong>
+                        <code>[[{{ .target }}]]</code> — no matching page.
+                      </li>
+                    {{- end -}}
+                    {{- range .unlinked -}}
+                      <li class="notes-issues__item notes-issues__item--unlinked">
+                        <strong>Unlinked mention:</strong>
+                        "{{ .mention }}" →
+                        <a class="text-accent no-underline hover:underline" href="{{ .suggestPage.RelPermalink }}"><code>[[{{ .suggestTitle }}]]</code></a>
+                      </li>
+                    {{- end -}}
+                  </ul>
+                </section>
+              {{- end -}}
+            </div>
+          {{- end -}}
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

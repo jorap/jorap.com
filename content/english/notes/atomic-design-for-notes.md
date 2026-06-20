@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["Atomic Design"]
 ---
+**Atomic design for notes** = split one idea per file, stack later like Lego blocks.
 
-**Atomic design for notes** = one idea per file, stacked later like Lego blocks.
+Small notes combine into bigger ones: a claim note, a how-to note, an example note - linked, not merged. Same idea as [[Atomic Notes]], borrowed from Brad Frost. Small linked notes beat one giant file.
 
-Small notes combine into bigger ones: a claim note, a how-to note, an example note - linked, not merged. Same idea as [[Atomic Notes]], borrowed from Brad Frost. Small linked notes beat one giant file. Pairs with [[Associative Linking]] and [[Building a Second Brain]].
+Extends [[Atomic Notes]]. Contradicts [[Mind Mapping]].
 
 ## See also
 

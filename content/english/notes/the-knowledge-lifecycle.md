@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["Knowledge Lifecycle"]
 ---
-
 **Knowledge lifecycle** = capture → use → polish → fade → archive. Spend effort where the note actually is.
 
-Not every note should be evergreen forever. Some decay honestly; some get archived; some get rewritten when the world shifts. See [[Evergreen vs Fleeting Notes]]. Pairs with [[The Archive Method]] and [[Collaborative Knowledge]].
+Not every note should be evergreen forever. Some decay honestly; some get archived; some get rewritten when the world shifts. See [[Evergreen vs Fleeting Notes]].
+
+Extends [[Evergreen vs Fleeting Notes]]. Contradicts [[Evergreen Notes]].
 
 ## See also
 

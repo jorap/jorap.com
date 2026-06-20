@@ -108,6 +108,37 @@ html.dark .notes-dev-banner code {
   cursor: help;
 }
 
+.notes-issues,
+.notes-issues-summary {
+  border-color: #f59e0b;
+  background: #fffbeb;
+}
+
+.notes-issues__title,
+.notes-issues-summary .h6 {
+  color: #92400e;
+}
+
+.notes-issues__item--broken code,
+.notes-issues__item--unlinked code {
+  font-size: 0.8125rem;
+}
+
+html.dark .notes-issues,
+html.dark .notes-issues-summary {
+  background: #451a03;
+  border-color: #fbbf24;
+}
+
+html.dark .notes-issues__title,
+html.dark .notes-issues-summary .h6 {
+  color: #fde68a;
+}
+
+html.dark .notes-issues__item code {
+  color: #fef3c7;
+}
+
 .notes-graph-panel {
   display: grid;
   gap: 0.75rem;
@@ -632,6 +663,8 @@ html.dark .notes-dev-banner code {
   background: var(--color-surface);
   color: var(--color-ink);
   font-weight: 600;
+  text-wrap: balance;
+  text-align: center;
 }
 
 .notes-flashcard__face--back {
@@ -639,6 +672,8 @@ html.dark .notes-dev-banner code {
   color: var(--color-ink);
   transform: rotateY(180deg);
   font-size: 0.9375rem;
+  text-wrap: balance;
+  text-align: center;
 }
 
 .notes-flashcard__source {

@@ -1,37 +1,22 @@
 {{- /*
-  Build a slice of card dicts: front, back, source (Page), kind (auto|shortcode).
+  Build a slice of card dicts: front, back, source (Page), kind.
   Opt-in auto cards: review: true or review tag (site.Params.notes.review_tag).
   Shortcode cards: {{< card front="..." back="..." >}} in any note body.
 */ -}}
 {{- $cards := slice -}}
 {{- $reviewTag := site.Params.notes.review_tag | default "flashcard" -}}
 {{- $shortcodePattern := `\{\{[%<]\s*card\s+front="([^"]+)"\s+back="([^"]+)"\s*>\}\}` -}}
-{{- $leadPattern := `^\*\*([^*]+)\*\*\s*(?:=\s*|—\s*|-\s*)(.+)$` -}}
 
 {{- range partial "notes/pages.html" . -}}
   {{- $page := . -}}
   {{- $body := $page.RawContent | strings.TrimSpace -}}
-  {{- $lines := split $body "\n" -}}
-  {{- $firstLine := "" -}}
-  {{- if gt (len $lines) 0 -}}
-    {{- $firstLine = index $lines 0 -}}
-  {{- end -}}
-
   {{- $isReview := or (eq ($page.Params.review | default false) true) (in ($page.Params.tags | default slice) $reviewTag) -}}
+
   {{- if $isReview -}}
-    {{- $front := $page.Params.card_front -}}
-    {{- $back := $page.Params.card_back -}}
-    {{- if not $front -}}
-      {{- $leadMatches := findRESubmatch $leadPattern $firstLine -}}
-      {{- with index $leadMatches 0 -}}
-        {{- $front = index . 1 -}}
-        {{- if not $back -}}
-          {{- $back = index . 2 -}}
-        {{- end -}}
+    {{- range partial "notes/cards-for-page.html" $page -}}
+      {{- if ne .kind "shortcode" -}}
+        {{- $cards = $cards | append (dict "front" .front "back" .back "source" $page "kind" .kind) -}}
       {{- end -}}
-    {{- end -}}
-    {{- if and $front $back -}}
-      {{- $cards = $cards | append (dict "front" $front "back" $back "source" $page "kind" "auto") -}}
     {{- end -}}
   {{- end -}}
 

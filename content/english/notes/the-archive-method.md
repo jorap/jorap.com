@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["Archive Method", "The Archive"]
 ---
+**Archive (PARA)** = move finished work out of active view when done — searchable, not deleted.
 
-**Archive (PARA)** = finished work moves out of active view - searchable, not deleted.
+Done means out of Projects, into Archive. Active lists stay short; finished work stops stealing attention. Core [[PARA Method]] hygiene.
 
-Done means out of Projects, into Archive. Active lists stay short; finished work stops stealing attention. Core [[PARA Method]] hygiene. Pairs with [[Organization]] and [[Active Knowledge Curation]].
+Extends [[PARA Method]]. Contradicts [[Evergreen Notes]].
 
 ## See also
 

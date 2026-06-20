@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
+**Slow productivity** = cap active projects so notes become output, not guilt backlog.
 
-**Slow productivity** = fewer active projects so notes become output, not guilt backlog.
+Busy isn't depth. I'd rather finish three things than juggle twelve.
 
-Busy isn't depth. I'd rather finish three things than juggle twelve. Pairs with [[Process Over Outcomes]] and [[Creative Output]]. Also pairs with [[Digital Minimalism]].
+Extends [[Creative Output]]. Contradicts [[The 12 Week Year]].
 
 ## See also
 

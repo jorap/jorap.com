@@ -1,7 +1,7 @@
 {{- /*
   JSON index of note previews for hover cards (title, description, url).
 */ -}}
-{{- $registry := partialCached "notes/link-registry.html" site "notes-registry-v1" -}}
+{{- $registry := partialCached "notes/link-registry.html" site "notes-registry-v2" -}}
 {{- $entries := slice -}}
 {{- range $registry.notes -}}
   {{- $entries = $entries | append (dict "url" .RelPermalink "title" .Title "description" (.Description | default "")) -}}

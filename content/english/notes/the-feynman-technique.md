@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["Feynman Technique"]
 ---
-
 **Feynman technique** = teach the idea in plain speech; every stumble marks a gap in the note.
 
-I explain aloud or in a blank doc - no paste from the source. Where I stumble, the note gets a gap marker and a rewrite pass toward [[Evergreen Notes]]. Teaching exposes what highlighting hid. Pairs with [[PKM]] and [[Formatting for Readability]].
+I explain aloud or in a blank doc - no paste from the source. Where I stumble, the note gets a gap marker and a rewrite pass toward [[Evergreen Notes]]. Teaching exposes what highlighting hid.
+
+Extends [[Evergreen Notes]]. Contradicts [[Spaced Repetition]].
 
 ## See also
 

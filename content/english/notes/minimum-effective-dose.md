@@ -13,10 +13,11 @@ draft: false
 aliases: ["MED"]
 status: evergreen
 ---
-
 **Minimum effective dose** = the smallest effort that still gets the result - not zero, not max.
 
 Borrowed from medicine and fitness (Tim Ferriss made it stick for me). When my PKM stack or workout plan ballooned, the extra steps rarely paid off. I ask: what's the shortest version that still works? Weekly review beats daily if weekly holds. One capture app beats four if ideas still land. Pairs with [[Slow Productivity]], [[Digital Minimalism]], and [[Process Over Outcomes]].
+
+Extends [[Pareto Principle]]. Contradicts [[Compounding]].
 
 ## See also
 

@@ -13,12 +13,9 @@ draft: false
 aliases: ["MOC"]
 status: evergreen
 ---
+**Maps of Content** = write hub notes that index related ideas — curate a table of contents, don't auto-generate.
 
-**Maps of Content** = hand-written hub notes that index related ideas - a table of contents you curate, not auto-generate.
-
-Use this page to wander the garden.
-
-## Maps
+Use this page to wander the garden. ## Maps
 
 ### Foundations
 
@@ -61,6 +58,7 @@ Use this page to wander the garden.
 
 ### Connect & explore
 
+- [[Note Relationships]]
 - [[Associative Linking]]
 - [[The Power of Interconnectivity]]
 - [[Graph View Analytics]]
@@ -81,10 +79,13 @@ Use this page to wander the garden.
 
 - [[Digital Garden]]
 - [[Advantages of Digital Gardens]]
+- [[Issues]]
 - [[Local-first Software]]
 - [[Future-Proofing Knowledge]]
 - [[Privacy and Data Sovereignty]]
 - [[E2EE Security]]
+
+Extends [[Curation as Creation]]. Contradicts [[Atomic Notes]]. Index for the garden.
 
 ## See also
 

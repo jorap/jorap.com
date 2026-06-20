@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
+**Creative block** = ship one small thing — more capture rarely fixes too much inventory.
 
-**Creative block** = too much inventory, not enough shipping. More capture rarely fixes it.
+I pick one small express action: outline three bullets, publish a stub, record a voice memo. Shipping something ugly unsticks me faster than another save. See [[Creative Output]] and [[Process Over Outcomes]].
 
-I pick one small express action: outline three bullets, publish a stub, record a voice memo. Shipping something ugly unsticks me faster than another save. See [[Creative Output]] and [[Process Over Outcomes]]. Pairs with [[Synthesis as a Goal]].
+Extends [[Creative Output]]. Contradicts [[Capture]].
 
 ## See also
 

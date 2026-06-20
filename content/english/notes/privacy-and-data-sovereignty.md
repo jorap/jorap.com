@@ -13,10 +13,11 @@ draft: false
 aliases: ["Data Sovereignty"]
 status: evergreen
 ---
+**You control your notes** = choose where notes live, who can read them, and how they leave your machine.
 
-**You control your notes** = you choose where notes live, who can read them, and how they leave your machine.
+Garden notes public by choice; journals and credentials stay local or encrypted. Backup paths matter as much as passwords. See [[E2EE Security]].
 
-Garden notes public by choice; journals and credentials stay local or encrypted. Backup paths matter as much as passwords. See [[E2EE Security]]. Pairs with [[Local-first Software]] and [[Anti-Fragile Systems]].
+Extends [[Local-first Software]]. Contradicts [[Drafting in Public]].
 
 ## See also
 

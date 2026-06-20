@@ -13,8 +13,7 @@ draft: false
 aliases: []
 status: evergreen
 ---
-
-**Mental models** = thinking shortcuts that survived real decisions - not every model on Wikipedia.
+**Mental models** = pick a lens before you decide — keep shortcuts that changed real behavior, not every Wikipedia entry.
 
 This page is a [[Maps of Content]]: useful lenses below, plus my own notes when a model keeps showing up in real choices. I don't collect the whole internet - I note what changed behavior.
 
@@ -78,3 +77,5 @@ Useful when reading news, [[RSS for Research]], or turning captures into [[Everg
 - **Skin in the game** - weight advice by who pays when the call is wrong
 
 Overlap with [[Future-Proofing Knowledge]] and [[Local-first Software]] when the system is your notes stack.
+
+Extends [[PKM]]. Contradicts [[There Is No Perfect Solution]].

@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
-
 **From note to book** = compile, don't invent - MOC as table of contents, atoms as chapters.
 
-Start with a [[Maps of Content]] as the table of contents. Each chapter pulls linked [[Atomic Notes]]; gaps show up as missing links. Build the book from notes you already wrote - expand what's already true, don't invent from zero. Pairs with [[Creative Output]].
+Start with a [[Maps of Content]] as the table of contents. Each chapter pulls linked [[Atomic Notes]]; gaps show up as missing links. Build the book from notes you already wrote - expand what's already true, don't invent from zero.
+
+Extends [[Maps of Content]]. Contradicts [[Minimum Viable Product]].
 
 ## See also
 
