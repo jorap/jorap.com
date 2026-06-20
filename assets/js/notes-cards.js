@@ -30,8 +30,12 @@
     }
   }
 
+  var bindTap = window.jorapBindTouchClick || function (el, fn) {
+    el.addEventListener("click", fn);
+  };
+
   filters.forEach(function (btn) {
-    btn.addEventListener("click", function () {
+    bindTap(btn, function () {
       applyFilter(btn.getAttribute("data-notes-cards-filter") || "all");
     });
   });

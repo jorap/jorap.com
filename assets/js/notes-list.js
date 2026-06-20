@@ -31,8 +31,12 @@
     }
   }
 
+  var bindTap = window.jorapBindTouchClick || function (el, fn) {
+    el.addEventListener("click", fn);
+  };
+
   filters.forEach(function (btn) {
-    btn.addEventListener("click", function () {
+    bindTap(btn, function () {
       var name = btn.getAttribute("data-notes-filter");
       filters.forEach(function (b) {
         var on = b === btn;

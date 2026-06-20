@@ -213,6 +213,9 @@ lazy = false
 
 # JS Plugins
 [[params.plugins.js]]
+link = "js/touch-controls.js"
+lazy = false
+[[params.plugins.js]]
 link = "js/search.js"
 lazy = false
 [[params.plugins.js]]

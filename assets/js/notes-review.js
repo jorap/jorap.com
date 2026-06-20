@@ -286,8 +286,15 @@
     return escapeHtml(str);
   }
 
+  var bindTap = window.jorapBindTouchClick || function (el, fn) {
+    el.addEventListener("click", fn);
+  };
+  var bindTapIf = window.jorapBindTouchClickIf || function (el, fn) {
+    if (el) bindTap(el, fn);
+  };
+
   root.querySelectorAll("[data-notes-review-set]").forEach(function (btn) {
-    btn.addEventListener("click", function () {
+    bindTap(btn, function () {
       selectedSet = btn.getAttribute("data-notes-review-set") || "all";
       root.querySelectorAll("[data-notes-review-set]").forEach(function (el) {
         var active = el.getAttribute("data-notes-review-set") === selectedSet;
@@ -298,15 +305,15 @@
     });
   });
 
-  root.querySelector("[data-notes-review-begin]").addEventListener("click", function () {
+  bindTapIf(root.querySelector("[data-notes-review-begin]"), function () {
     startSession(false);
   });
 
-  root.querySelector("[data-notes-review-cram]").addEventListener("click", function () {
+  bindTapIf(root.querySelector("[data-notes-review-cram]"), function () {
     startSession(true);
   });
 
-  root.querySelector("[data-notes-review-reset]").addEventListener("click", function () {
+  bindTapIf(root.querySelector("[data-notes-review-reset]"), function () {
     if (
       window.confirm(
         "Clear all review progress for this deck in this browser? This cannot be undone."
@@ -317,15 +324,15 @@
     }
   });
 
-  root.querySelector("[data-notes-review-reveal]").addEventListener("click", revealAnswer);
+  bindTapIf(root.querySelector("[data-notes-review-reveal]"), revealAnswer);
 
   root.querySelectorAll("[data-notes-review-rate]").forEach(function (btn) {
-    btn.addEventListener("click", function () {
+    bindTap(btn, function () {
       scheduleRating(btn.getAttribute("data-notes-review-rate"));
     });
   });
 
-  root.querySelector("[data-notes-review-exit]").addEventListener("click", function () {
+  bindTapIf(root.querySelector("[data-notes-review-exit]"), function () {
     if (sessionStats.reviewed > 0) {
       finishSession();
     } else {
@@ -334,7 +341,7 @@
     }
   });
 
-  root.querySelector("[data-notes-review-restart]").addEventListener("click", function () {
+  bindTapIf(root.querySelector("[data-notes-review-restart]"), function () {
     showPanel("start");
     updateStats();
   });

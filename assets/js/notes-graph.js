@@ -638,8 +638,12 @@
       });
     }
 
+    var bindTap = window.jorapBindTouchClick || function (el, fn) {
+      el.addEventListener("click", fn);
+    };
+
     if (resetEl) {
-      resetEl.addEventListener("click", function () {
+      bindTap(resetEl, function () {
         if (searchEl) searchEl.value = "";
         searchQuery = "";
         hovered = focusNode || null;
@@ -651,19 +655,19 @@
     }
 
     if (zoomInEl) {
-      zoomInEl.addEventListener("click", function () {
+      bindTap(zoomInEl, function () {
         zoomAt(1.15);
       });
     }
 
     if (zoomOutEl) {
-      zoomOutEl.addEventListener("click", function () {
+      bindTap(zoomOutEl, function () {
         zoomAt(1 / 1.15);
       });
     }
 
     if (expandEl) {
-      expandEl.addEventListener("click", function () {
+      bindTap(expandEl, function () {
         var expanded = container.classList.toggle("is-expanded");
         expandEl.setAttribute("aria-pressed", expanded ? "true" : "false");
         expandEl.title = expanded ? "Collapse graph" : "Expand graph";
@@ -702,24 +706,9 @@
     if (filterEls.length) {
       filterEls.forEach(function (btn) {
         var value = btn.getAttribute("data-graph-filter") || "all";
-        var lastFilterAt = 0;
-
-        function activateFilter() {
-          var now = Date.now();
-          if (now - lastFilterAt < 300) return;
-          lastFilterAt = now;
+        bindTap(btn, function () {
           applyGraphFilter(value, btn);
-        }
-
-        btn.addEventListener("click", activateFilter);
-        btn.addEventListener(
-          "touchend",
-          function (evt) {
-            evt.preventDefault();
-            activateFilter();
-          },
-          { passive: false }
-        );
+        });
       });
     }
 

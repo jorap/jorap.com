@@ -193,6 +193,8 @@ html.dark .notes-issues__item code {
   font-size: 1rem;
   line-height: 1;
   cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: color-mix(in srgb, var(--color-accent) 20%, transparent);
 }
 
 .notes-graph-btn:hover {
@@ -412,15 +414,55 @@ html.dark .notes-issues__item code {
     display: none;
   }
 
-  .notes-graph-filter {
+  .notes-filters,
+  .notes-graph-filters {
+    touch-action: manipulation;
+  }
+
+  .notes-filter,
+  .notes-graph-filter,
+  .notes-graph-btn,
+  .notes-graph-actions .btn,
+  .notes-graph-reset,
+  .notes-toolbar .btn,
+  .notes-toolbar.mb-6 .btn-sm,
+  [data-notes-review-start] .btn,
+  [data-notes-review-session] .btn,
+  [data-notes-review-done] .btn,
+  [data-notes-review-exit],
+  .notes-random-prompt .btn {
     min-height: 2.75rem;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: color-mix(in srgb, var(--color-accent) 20%, transparent);
+  }
+
+  .notes-filter,
+  .notes-graph-filter {
     padding: 0.55rem 0.75rem;
     font-size: 0.8125rem;
   }
 
   .notes-graph-btn {
     min-width: 2.75rem;
+  }
+
+  .notes-toolbar .btn-sm,
+  .notes-graph-actions .btn-sm,
+  .notes-graph-reset.btn-sm {
+    padding: 0.55rem 0.85rem;
+    font-size: 0.8125rem;
+  }
+
+  .notes-graph-search {
     min-height: 2.75rem;
+    padding: 0.65rem 0.75rem;
+    font-size: 1rem;
+  }
+
+  [data-notes-review-exit] {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.35rem 0.15rem;
   }
 }
 
@@ -466,6 +508,10 @@ html.dark .notes-issues__item code {
   line-height: 1;
   padding: 0.35rem 0.65rem;
   cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: color-mix(in srgb, var(--color-accent) 20%, transparent);
+  position: relative;
+  z-index: 1;
 }
 
 .notes-filter:hover,
@@ -567,13 +613,6 @@ html.dark .notes-issues__item code {
 
 .notes-recent-stale {
   font-weight: 500;
-}
-
-@media (max-width: 1279.98px) {
-  .notes-toolbar .btn-sm {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
 }
 
 .notes-random-grid {

@@ -391,37 +391,30 @@
     });
   }
 
-  if (shuffleAllBtn) {
-    shuffleAllBtn.addEventListener("click", shuffleAll);
-  }
+  var bindTap = window.jorapBindTouchClick || function (el, fn) {
+    el.addEventListener("click", fn);
+  };
+  var bindTapIf = window.jorapBindTouchClickIf || function (el, fn) {
+    if (el) bindTap(el, fn);
+  };
 
-  if (shuffleLeftBtn) {
-    shuffleLeftBtn.addEventListener("click", function () {
-      shuffleSide(0);
-    });
-  }
-
-  if (shuffleRightBtn) {
-    shuffleRightBtn.addEventListener("click", function () {
-      shuffleSide(1);
-    });
-  }
-
-  if (copyPromptBtn) {
-    copyPromptBtn.addEventListener("click", function (event) {
-      event.preventDefault();
-      event.stopPropagation();
-      copyPrompt();
-    });
-  }
-
-  if (sendPromptBtn) {
-    sendPromptBtn.addEventListener("click", function (event) {
-      event.preventDefault();
-      event.stopPropagation();
-      sendPromptToAI();
-    });
-  }
+  bindTapIf(shuffleAllBtn, shuffleAll);
+  bindTapIf(shuffleLeftBtn, function () {
+    shuffleSide(0);
+  });
+  bindTapIf(shuffleRightBtn, function () {
+    shuffleSide(1);
+  });
+  bindTapIf(copyPromptBtn, function (event) {
+    event.preventDefault();
+    event.stopPropagation();
+    copyPrompt();
+  });
+  bindTapIf(sendPromptBtn, function (event) {
+    event.preventDefault();
+    event.stopPropagation();
+    sendPromptToAI();
+  });
 
   window.addEventListener(
     "resize",

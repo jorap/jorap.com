@@ -8,11 +8,15 @@
   }
 
   function bindFlipButtons() {
+    var bindTap = window.jorapBindTouchClick || function (el, fn) {
+      el.addEventListener("click", fn);
+    };
+
     document.querySelectorAll("[data-flashcard-flip]").forEach(function (btn) {
       if (btn.dataset.flashcardBound === "true") return;
       btn.dataset.flashcardBound = "true";
 
-      btn.addEventListener("click", function () {
+      bindTap(btn, function () {
         var card = btn.closest(".notes-flashcard");
         if (!card) return;
         toggle(card, btn);
