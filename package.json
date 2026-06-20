@@ -4,12 +4,16 @@
   "version": "2.2.0",
   "license": "MIT",
   "author": "JoRap",
+  "packageManager": "pnpm@11.7.0",
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "scripts": {
     "dev": "concurrently \"node scripts/themeGenerator.js --watch\" \"node scripts/noteFileDates.js --watch\" \"hugo server --buildDrafts --buildFuture\"",
-    "build": "node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo --gc --minify --forceSyncStatic && node scripts/cspHashes.mjs",
+    "build": "node scripts/deployBuild.mjs",
+    "deploy": "node scripts/deployBuild.mjs",
+    "serve": "node scripts/servePublic.mjs",
+    "preview:prod": "node scripts/previewProd.mjs",
     "preview": "node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo server --buildDrafts --buildFuture --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify --baseURL=http://localhost:1313/ --appendPort=false",
     "watch": "concurrently \"node scripts/themeGenerator.js --watch\" \"node scripts/noteFileDates.js --watch\" \"hugo server --buildDrafts --buildFuture --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic -e production --minify --baseURL=http://localhost:1313/ --appendPort=false\"",
     "dev:example": "cd exampleSite && hugo server",

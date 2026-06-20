@@ -28,5 +28,9 @@ go.sum
 jsconfig.json
 .cursorindexingignore
 
+# Cloudflare local dev secrets / cache
+.dev.vars
+.wrangler
+
 # Impeccable skill — linked locally via sync-upstreams (../impeccable)
 .cursor/skills/impeccable

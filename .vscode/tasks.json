@@ -2,7 +2,28 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Watch (production preview)",
+      "label": "Preview production build",
+      "type": "shell",
+      "command": "pnpm run preview:prod",
+      "options": {
+        "cwd": "${workspaceFolder}",
+        "env": {
+          "PATH": "${env:HOME}/.local/share/mise/shims:${env:PATH}"
+        }
+      },
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": {
+          "regexp": "^$"
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "\\[serve\\]",
+          "endsPattern": "Ready on|http://127\\.0\\.0\\.1"
+        }
+      }
+    },
+    {
       "type": "shell",
       "command": "npm run watch",
       "options": {

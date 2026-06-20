@@ -1,0 +1,4 @@
+# Copy to .dev.vars for local Cloudflare Functions (wrangler pages dev).
+# .dev.vars is gitignored — never commit secrets.
+GITHUB_CLIENT_ID=
+GITHUB_CLIENT_SECRET=
