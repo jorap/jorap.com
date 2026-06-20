@@ -1,14 +1,14 @@
 {{ define "main" }}
   {{- $cards := partial "notes/cards-data.html" . -}}
-  {{- $tagSet := slice -}}
+  {{- $setNames := slice -}}
   {{- range $cards -}}
-    {{- range .tags -}}
-      {{- if not (in $tagSet .) -}}
-        {{- $tagSet = $tagSet | append . -}}
+    {{- range .sets -}}
+      {{- if not (in $setNames .) -}}
+        {{- $setNames = $setNames | append . -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}
-  {{- $tagSet = sort $tagSet -}}
+  {{- $setNames = sort $setNames -}}
 
   {{ partial "page-header" . }}
 
@@ -27,12 +27,9 @@
               <div class="notes-review-start border-divider rounded border p-5" data-notes-review-start style="background: var(--color-elevated);">
                 <p class="notes-review-stats text-ink-muted mb-4 text-sm" data-notes-review-stats>Loading…</p>
 
-                {{- if gt (len $tagSet) 0 -}}
-                  <div class="notes-filters mb-4" role="group" aria-label="Filter review by tag">
-                    <button type="button" class="notes-filter is-active" data-notes-review-tag="all" aria-pressed="true">All tags</button>
-                    {{- range $tagSet -}}
-                      <button type="button" class="notes-filter" data-notes-review-tag="{{ . }}" aria-pressed="false">{{ . }}</button>
-                    {{- end -}}
+                {{- if gt (len $setNames) 0 -}}
+                  <div class="notes-filters mb-4" role="group" aria-label="Filter review by set">
+                    {{ partial "notes/card-set-filter-buttons.html" (dict "cards" $cards "dataAttr" "data-notes-review-set") }}
                   </div>
                 {{- end -}}
 

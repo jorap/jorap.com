@@ -1,0 +1,64 @@
+{{ define "main" }}
+  {{- $pool := partial "notes/random-pool.html" . -}}
+
+  {{ partial "page-header" . }}
+
+  <section class="section">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          {{ partial "notes/toolbar.html" (dict "Context" . "active" "random-duo") }}
+
+          <div class="notes-toolbar mb-4 flex flex-wrap items-center gap-3">
+            <button type="button" class="btn btn-outline-primary btn-sm" data-random-duo-shuffle>Shuffle both</button>
+            <button type="button" class="btn btn-outline-primary btn-sm" data-random-duo-shuffle-left>Shuffle left</button>
+            <button type="button" class="btn btn-outline-primary btn-sm" data-random-duo-shuffle-right>Shuffle right</button>
+          </div>
+
+          <p class="text-ink-muted mb-6">Two notes from the garden, side by side. Shuffle both, or lock one side and shuffle the other.</p>
+
+          <details class="notes-random-prompt border-divider mb-8 rounded border">
+            <summary class="notes-random-prompt-summary p-5">
+              <span class="notes-random-prompt-label h6 mb-0">AI prompt</span>
+              <div class="notes-random-prompt-actions flex flex-wrap items-center gap-2">
+                <button type="button" class="btn btn-outline-primary btn-sm" data-random-duo-copy-prompt>Copy prompt</button>
+                <button type="button" class="btn btn-outline-primary btn-sm" data-random-duo-send-prompt>Open in ChatGPT</button>
+              </div>
+            </summary>
+            <div class="notes-random-prompt-body px-5 pb-5">
+              <label class="sr-only" for="notes-random-duo-prompt">Prompt to paste into an AI chat</label>
+              <textarea
+                id="notes-random-duo-prompt"
+                class="notes-random-prompt-text"
+                rows="10"
+                readonly
+                data-random-duo-prompt
+                spellcheck="false">Loading notes…</textarea>
+            </div>
+          </details>
+
+          <div class="row notes-random-grid items-stretch" data-notes-random-duo>
+            <div class="md:col-6 mb-8 notes-random-slot flex flex-col" data-random-duo-slot="0">
+              <p class="notes-random-loading text-ink-muted text-sm">Loading…</p>
+            </div>
+            <div class="md:col-6 mb-8 notes-random-slot flex flex-col" data-random-duo-slot="1">
+              <p class="notes-random-loading text-ink-muted text-sm">Loading…</p>
+            </div>
+          </div>
+
+          <p class="notes-random-empty-page text-ink-muted hidden text-sm">No notes in the garden yet.</p>
+          <script type="application/json" class="notes-random-duo-data">{{ $pool | jsonify | safeJS }}</script>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{ partial "notes/preview-index.html" . }}
+
+  {{ with resources.Get "js/notes-random-duo.js" }}
+    <script src="{{ .RelPermalink }}" defer></script>
+  {{ end }}
+  {{ with resources.Get "js/wikilink-preview.js" }}
+    <script src="{{ .RelPermalink }}" defer></script>
+  {{ end }}
+{{ end }}

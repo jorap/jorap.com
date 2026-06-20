@@ -13,8 +13,9 @@ status: evergreen
 draft: false
 aliases: ["Distraction-Free Writing", "distraction free writing"]
 ---
+Notes are inventory. Output is the point - blog posts, sermons, code, dinner experiments. When I'm testing an idea, I ship an [[Minimum Viable Product|MVP]] before I polish.
 
-Notes are inventory. Output is the point - blog posts, sermons, code, dinner experiments. Here's how I push from archive to shipped.
+Extends [[Building a Second Brain]]. Contradicts [[The Collector's Fallacy]].
 
 ## See also
 

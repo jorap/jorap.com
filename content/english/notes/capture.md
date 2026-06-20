@@ -11,6 +11,7 @@ slug: "capture"
 featured: false
 status: evergreen
 review: true
+card_sets: ["Capture", "Workflow"]
 cards:
   - front: "Mid-commute spark. My first move?"
     back: "One trusted inbox. Don't organize yet."
@@ -27,10 +28,11 @@ cards:
 draft: false
 aliases: ["CODE"]
 ---
-
 **Capture** = save what resonates into one inbox I trust - then empty it weekly.
 
 Friction kills capture. One inbox, phone to desktop, weekly process - same as [[The Trusted Inbox]]. If I wouldn't act on it or cite it later, it doesn't get saved. Resonance is the filter, not FOMO.
+
+Extends [[PKM]]. Contradicts [[Signal vs Noise]].
 
 ## See also
 

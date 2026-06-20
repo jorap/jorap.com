@@ -13,8 +13,9 @@ status: evergreen
 draft: false
 aliases: []
 ---
-
 Tags, categories, dates, aliases - metadata should help me find notes, not become a second job.
+
+Extends [[PARA Method]]. Contradicts [[Building a Personal API]].
 
 ## See also
 

@@ -13,7 +13,6 @@ draft: false
 aliases: ["MVP"]
 status: evergreen
 ---
-
 **Minimum viable product** = the smallest thing I can ship that tests the idea - not a polished fantasy.
 
 I'd rather publish a rough note or prototype and learn than polish in private for months.

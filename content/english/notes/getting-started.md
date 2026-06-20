@@ -1,6 +1,6 @@
 ---
 title: "Getting Started"
-meta_title: "Getting Started | Notes Garden"
+meta_title: "Getting Started - Notes Garden"
 description: "Notes garden = one claim per page, wikilinks, public graph. How this site works and how to add your first note."
 slug: "getting-started"
 date: 2026-06-18T08:00:00Z
@@ -49,20 +49,20 @@ What this site gives you:
 - **Aliases** - alternate link targets in frontmatter (`aliases: ["PARA"]` on [[PARA Method]])
 - **Outgoing links** - listed below each note's body
 - **Backlinks** - with context snippets when another note links here
-- **Graph** - map view with filters for notes with no links, overloaded notes, and dead ends at [/notes/graph/](/notes/graph/)
+- **Graph** - map view; filter by high, low, no body links, and orphans at [/notes/graph/](/notes/graph/)
 - **Issues** - broken wikilinks and unlinked mentions at [/notes/issues/](/notes/issues/); also shown on each note
 - **See also** - tag-related notes generated at build time (not static in markdown)
 - **Hover previews** - pause on a wikilink to peek at the target note
 - **Maps of Content** - hub index at [[Maps of Content]]
 - **Status badges** - seedling/evergreen/inbox/archived on each note; stale filter uses file edit time on [/notes/](/notes/)
-- **Resurfacing** - recently created list and random note on [/notes/](/notes/)
-- **Flashcards** - ~12 habit spine notes (~20%) with `review: true` carry six scenario `cards:` in frontmatter; habit prompts I drill at [/notes/review/](/notes/review/)
+- **Resurfacing** - featured random note, [[Random Duo]], and [[Random Trio]] on [/notes/](/notes/)
+- **Flashcards** - ~12 habit spine notes (~20%) with `review: true` carry six scenario `cards:` in frontmatter plus `card_sets:` for Review grouping; habit prompts I drill at [/notes/review/](/notes/review/)
 
 ## Explore
 
 - **Outgoing links** and **backlinks** (with snippets) show below each note.
 - **See also** suggests tag-related notes you haven't linked yet.
-- **Graph** at [/notes/graph/](/notes/graph/) maps connections - filter notes with no links, too many links, and dead ends.
+- **Graph** at [/notes/graph/](/notes/graph/) maps connections - filter high, low, no body links, and orphans.
 - **Issues** at [/notes/issues/](/notes/issues/) lists broken wikilinks and unlinked note mentions; warnings also show on each affected note.
 - **Status filters** on [/notes/](/notes/) - inbox, stale (by file edit age), seedling, evergreen, archived.
 - `npm run lint:notes` catches broken wikilinks and unlinked mentions in the **body** at build time (frontmatter is not linted - use note titles freely in `cards:` and other fields).

@@ -13,7 +13,6 @@ draft: false
 aliases: ["MOC"]
 status: evergreen
 ---
-
 **Maps of Content (MOCs)** are hub notes that index related ideas. I use pages like this to wander the garden.
 
 ## Maps
@@ -22,7 +21,6 @@ status: evergreen
 
 - [[PKM]]
 - [[Building a Second Brain]]
-- [[Zettelkasten]]
 - [[Atomic Notes]]
 - [[Maps of Content]]
 - [[Getting Started]]
@@ -68,6 +66,10 @@ status: evergreen
 - [[Drafting in Public]]
 - [[Synthesis as a Goal]]
 - [[Creative Blocks]]
+
+### Mental models
+
+- [[Mental Models List]]
 
 ### Systems & tools
 

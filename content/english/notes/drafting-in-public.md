@@ -13,8 +13,9 @@ status: evergreen
 draft: false
 aliases: []
 ---
-
 I publish rough ideas before they're finished. Drafting in public keeps me honest and makes the garden grow.
+
+Extends [[Digital Garden]]. Contradicts [[Evergreen Notes]].
 
 ## See also
 

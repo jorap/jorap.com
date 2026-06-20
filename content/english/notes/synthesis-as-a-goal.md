@@ -13,8 +13,9 @@ status: evergreen
 draft: false
 aliases: ["Research Notes", "note taking for researchers"]
 ---
+Collecting quotes isn't PKM for me. Synthesis means merging sources into what I believe and can defend - often with [[First Principles Thinking]] when a note is still someone else's words.
 
-Collecting quotes isn't PKM for me. Synthesis means merging sources into what I believe and can defend.
+Extends [[Creative Output]]. Contradicts [[Progressive Summarization]].
 
 ## See also
 

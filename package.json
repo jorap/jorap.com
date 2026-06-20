@@ -26,17 +26,18 @@
     "export:anki": "python3 scripts/export-anki-deck.py",
     "import:obsidian": "python3 scripts/import-from-obsidian.py",
     "lint:notes": "node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo --gc 2>&1 | rg 'broken wikilink|unlinked mention' || true",
-    "postinstall": "node -e \"const fs=require('fs'),p='node_modules/.bin/tailwindcss';try{fs.lstatSync(p).isSymbolicLink()||((fs.unlinkSync(p)),fs.symlinkSync('../@tailwindcss/cli/dist/index.mjs',p))}catch(e){}\""
+    "lint:cards": "python3 scripts/lint-flashcard-frontmatter.py",
+    "postinstall": "node scripts/fix-tailwind-bin.js"
   },
   "devDependencies": {
-    "@tailwindcss/cli": "^4.3.0",
+    "@tailwindcss/cli": "^4.3.1",
     "@tailwindcss/forms": "^0.5.11",
-    "@tailwindcss/typography": "^0.5.19",
+    "@tailwindcss/typography": "^0.5.20",
     "concurrently": "^9.2.1",
     "prettier": "^3.8.3",
     "prettier-plugin-go-template": "0.0.15",
     "prettier-plugin-tailwindcss": "^0.8.0",
     "tailwind-bootstrap-grid": "^7.0.0",
-    "tailwindcss": "^4.3.0"
+    "tailwindcss": "^4.3.1"
   }
 }

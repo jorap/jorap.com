@@ -13,8 +13,9 @@ status: evergreen
 draft: false
 aliases: ["Visual Thinking"]
 ---
-
 Mind maps are for the messy first pass - branches, bubbles, relationships. I export to atomic notes after, not instead.
+
+Extends [[Creative Output]]. Contradicts [[Atomic Notes]].
 
 ## See also
 

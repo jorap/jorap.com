@@ -131,7 +131,7 @@ LEADS: dict[str, str] = {
         "and exports I test before I need them."
     ),
     "graph-view-analytics": (
-        "Graph view looks sci-fi. Mostly I use it to find orphans, hubs, and notes I forgot to link."
+        "Graph view looks sci-fi. Mostly I use it to sort notes by link frequency - high, low, no body links, and orphans."
     ),
     "gtd-vs-para": (
         "GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - "
@@ -212,10 +212,6 @@ LEADS: dict[str, str] = {
         "Most content is noise. PKM fails if capture doesn't filter. "
         "I save signal - stuff that changes action or belief."
     ),
-    "slip-box-history": (
-        "The slip-box (Zettelkasten) wasn't magic software - Luhmann's physical note cards and links. "
-        "History helps separate myth from method."
-    ),
     "slow-productivity": (
         "**Slow Productivity** pushes back on busy-as-virtue. "
         "I run fewer active projects so notes become output, not backlog."
@@ -268,10 +264,6 @@ LEADS: dict[str, str] = {
     "the-trusted-inbox": (
         "If I don't trust my inbox, I capture in my head instead. One pipe, weekly empty, no exceptions."
     ),
-    "the-zettelkasten-myth": (
-        "Luhmann's output wasn't copy-paste from buying the right notebook. "
-        "The Zettelkasten myth oversells tools and undersells writing."
-    ),
     "there-is-no-perfect-solution": (
         "Waiting for the perfect tool, plan, or answer feels responsible. It's often the nirvana fallacy. "
         "Here's why I choose good-enough tradeoffs on purpose."
@@ -282,9 +274,6 @@ LEADS: dict[str, str] = {
     ),
     "weekly-review-checklists": (
         "My weekly review is a checklist - inbox, calendar, projects, one express action. Boring on purpose."
-    ),
-    "zettelkasten": (
-        "**Zettelkasten** = one [[Atomic Notes|atomic]] idea per note, dense links, writing from the network."
     ),
     "compounding": (
         "**Compounding** = repeat small gains until they stack - keep showing up; the curve looks flat until it doesn't.\n\n"
@@ -335,10 +324,10 @@ LEADS: dict[str, str] = {
         "**Unlinked mention** means another note's title appears in the body without a link. "
         "Frontmatter and flashcards are not checked - only the note body."
     ),
-    "random-two": (
+    "random-duo": (
         "Two notes from the garden, picked at random. I hit **Shuffle** for another pair."
     ),
-    "random-three": (
+    "random-trio": (
         "Three notes from the garden, picked at random. Shuffle all, or lock two and shuffle one column."
     ),
 }
@@ -349,11 +338,6 @@ PARA2_FIXES: dict[str, str] = {
         "I write in complete sentences I'd still stand behind in two years. "
         "Revise when tools change, not when trends spike. "
         "Promotion from fleeting: during [[Periodic Knowledge Review]], when a spark keeps returning."
-    ),
-    "zettelkasten": (
-        "I write notes I'd link to, not notes I'd folder. "
-        "Density of links matters more than count of files. "
-        "History in [[Slip-box History]]; myths in [[The Zettelkasten Myth]]."
     ),
     "progressive-summarization": (
         "Layer one: bold the good sentences. Layer two: highlight the best bold. "
@@ -536,7 +520,7 @@ def main() -> None:
             updated += 1
             print(f"voice: {path.name}")
             continue
-        elif stem in {"cards", "review", "issues", "random-two", "random-three"}:
+        elif stem in {"cards", "review", "issues", "random-duo", "random-trio"}:
             lead = LEADS[stem]
             rel_line = ""
             if stem == "cards":
@@ -545,9 +529,9 @@ def main() -> None:
                 rel_line = "\n\nExtends [[Flashcards]]. Implements [[Spaced Repetition]]."
             elif stem == "issues":
                 rel_line = "\n\nExtends [[Getting Started]]. Implements [[Graph View Analytics]]."
-            elif stem == "random-two":
+            elif stem == "random-duo":
                 rel_line = "\n\nExtends [[Getting Started]]. Implements [[Digital Serendipity]]."
-            elif stem == "random-three":
+            elif stem == "random-trio":
                 rel_line = "\n\nExtends [[Getting Started]]. Implements [[Digital Serendipity]]."
             fm_inner = update_description(fm_inner, stem)
             fm_block = f"---\n{fm_inner}\n---"
@@ -604,7 +588,7 @@ def main() -> None:
     if "**Note graph**" not in body:
         graph.write_text(
             gtext.rstrip()
-            + "\n\n**Note graph** = open the link map to find orphans, hubs, and connections I'm missing.\n",
+            + "\n\n**Notes graph** = open the link map and filter by link frequency: high, low, no body links, orphans.\n",
             encoding="utf-8",
         )
         print("voice: graph.md")

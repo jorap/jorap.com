@@ -8,6 +8,8 @@
         <div class="lg:col-10">
           {{ partial "notes/toolbar.html" (dict "Context" . "active" "list") }}
 
+          {{ partial "notes/featured-random-note.html" . }}
+
           {{ partial "notes/recent-updated.html" . }}
 
           <div class="notes-filters mb-6" role="group" aria-label="Filter notes by status">
@@ -50,6 +52,9 @@
   </section>
 
   {{ with resources.Get "js/notes-list.js" }}
+    <script src="{{ .RelPermalink }}" defer></script>
+  {{ end }}
+  {{ with resources.Get "js/notes-featured-random.js" }}
     <script src="{{ .RelPermalink }}" defer></script>
   {{ end }}
 {{ end }}

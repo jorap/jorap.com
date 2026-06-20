@@ -1,6 +1,6 @@
 ---
 title: "Issues"
-meta_title: "Garden Link Issues | JoRap"
+meta_title: "Garden Link Issues"
 description: "Broken wikilinks and unlinked note mentions across the garden - one checklist to fix the graph."
 slug: "issues"
 layout: "issues"

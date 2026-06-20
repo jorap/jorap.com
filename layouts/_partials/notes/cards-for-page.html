@@ -19,7 +19,8 @@
     {{- $front := .front -}}
     {{- $back := .back -}}
     {{- if and $front $back -}}
-      {{- $cards = $cards | append (dict "front" $front "back" $back "kind" "frontmatter") -}}
+      {{- $sets := partial "notes/card-sets.html" (dict "Page" $page "Card" .) -}}
+      {{- $cards = $cards | append (dict "front" $front "back" $back "kind" "frontmatter" "sets" $sets) -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
@@ -41,7 +42,8 @@
     {{- if not $page.Params.card_front -}}
       {{- $kind = "lead" -}}
     {{- end -}}
-    {{- $cards = $cards | append (dict "front" $front "back" $back "kind" $kind) -}}
+    {{- $sets := partial "notes/card-sets.html" (dict "Page" $page) -}}
+    {{- $cards = $cards | append (dict "front" $front "back" $back "kind" $kind "sets" $sets) -}}
   {{- end -}}
 {{- end -}}
 
@@ -49,7 +51,8 @@
   {{- $front := index . 1 -}}
   {{- $back := index . 2 -}}
   {{- if and $front $back -}}
-    {{- $cards = $cards | append (dict "front" $front "back" $back "kind" "shortcode") -}}
+    {{- $sets := partial "notes/card-sets.html" (dict "Page" $page) -}}
+    {{- $cards = $cards | append (dict "front" $front "back" $back "kind" "shortcode" "sets" $sets) -}}
   {{- end -}}
 {{- end -}}
 

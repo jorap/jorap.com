@@ -17,8 +17,8 @@ SKIP = {
     "graph",
     "cards",
     "review",
-    "random-two",
-    "random-three",
+    "random-duo",
+    "random-trio",
     "getting-started",
     "maps-of-content",
 }
@@ -54,6 +54,31 @@ def parse_yaml_list(block: str, key: str) -> list[str]:
     if not match:
         return []
     return [item.strip().strip('"') for item in match.group(1).split(",") if item.strip()]
+
+
+def parse_yaml_list_values(block: str, key: str) -> list[str]:
+    """Inline `[a, b]` or block `- item` YAML lists."""
+    inline = parse_yaml_list(block, key)
+    if inline:
+        return inline
+    match = re.search(rf"^{key}:\s*\n((?:\s+-\s+.+\n)+)", block, re.M)
+    if not match:
+        return []
+    items: list[str] = []
+    for line in match.group(1).splitlines():
+        item_match = re.match(r'\s+-\s+"?([^"\n]+)"?\s*$', line)
+        if item_match:
+            items.append(item_match.group(1).strip())
+    return items
+
+
+def anki_tags(inner: str, note_tags: list[str]) -> str:
+    card_sets = parse_yaml_list_values(inner, "card_sets")
+    labels = card_sets if card_sets else note_tags
+    tag_field = "jorap-notes"
+    if labels:
+        tag_field += " " + " ".join(labels)
+    return tag_field
 
 
 def read_base_url() -> str:
@@ -96,7 +121,7 @@ def parse_cards_list(block: str) -> list[tuple[str, str]]:
         return cards
 
     for match in re.finditer(
-        r'^\s+-\s+front:\s*"?([^"\n]+)"?\s*\n\s+back:\s*"?([^"\n]+)"?\s*$',
+        r'^\s+-\s+front:\s+"((?:[^"\\]|\\.)*)"\s*\n\s+back:\s+"((?:[^"\\]|\\.)*)"\s*$',
         block,
         re.M,
     ):
@@ -132,13 +157,13 @@ def collect_cards(review_tag: str) -> list[dict[str, str]]:
             continue
 
         layout = parse_scalar(inner, "layout")
-        if layout in {"graph", "cards", "review", "random-two", "random-three"}:
+        if layout in {"graph", "cards", "review", "random-duo", "random-trio"}:
             continue
 
         slug = parse_scalar(inner, "slug") or path.stem
         title = parse_scalar(inner, "title") or path.stem.replace("-", " ").title()
         tags = parse_yaml_list(inner, "tags")
-        tag_field = " jorap-notes" if not tags else " jorap-notes " + " ".join(tags)
+        tag_field = anki_tags(inner, tags)
 
         base = read_base_url()
         source = note_url(base, slug)
@@ -151,7 +176,7 @@ def collect_cards(review_tag: str) -> list[dict[str, str]]:
                         {
                             "front": front,
                             "back": format_back(back, source, title),
-                            "tags": tag_field.strip(),
+                            "tags": tag_field,
                         }
                     )
             else:
@@ -174,7 +199,7 @@ def collect_cards(review_tag: str) -> list[dict[str, str]]:
                         {
                             "front": front,
                             "back": format_back(back, source, title),
-                            "tags": tag_field.strip(),
+                            "tags": tag_field,
                         }
                     )
 
@@ -183,7 +208,7 @@ def collect_cards(review_tag: str) -> list[dict[str, str]]:
                 {
                     "front": front,
                     "back": format_back(back, source, title),
-                    "tags": tag_field.strip(),
+                    "tags": tag_field,
                 }
             )
 

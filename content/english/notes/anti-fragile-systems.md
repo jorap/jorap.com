@@ -13,8 +13,9 @@ status: evergreen
 draft: false
 aliases: ["anti fragile systems", "Antifragile"]
 ---
-
 Fragile systems break when an app shuts down. I build around plain files, open formats, and exports I actually test.
+
+Extends [[Future-Proofing Knowledge]]. Contradicts [[Building a Personal API]].
 
 ## See also
 

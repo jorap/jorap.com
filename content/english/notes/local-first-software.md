@@ -13,8 +13,9 @@ status: evergreen
 draft: false
 aliases: ["local first software", "Local First", "Privacy and Data Sovereignty", "Data Sovereignty", "E2EE", "E2EE Security"]
 ---
-
 Local-first means my device holds the truth; sync is optional icing. That's how I want my brain's backup to behave.
+
+Extends [[PKM]]. Contradicts [[Drafting in Public]].
 
 ## See also
 

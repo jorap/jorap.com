@@ -21,16 +21,12 @@ DESC_OVERRIDES: dict[str, str] = {
         "My digital garden is a personal site where notes grow in public - "
         "linked, imperfect, alive."
     ),
-    "zettelkasten": (
-        "Zettelkasten is one idea per note, dense links, writing from the network."
-    ),
 }
 
 # Wikilink substitutions applied after the body is built (longest matches first).
 WIKILINK_FIXES: dict[str, list[tuple[str, str]]] = {
     "capture": [("PKM", "[[PKM]]")],
     "para-method": [("PARA", "[[PARA]]")],
-    "zettelkasten": [("one idea per note", "one [[Atomic Notes|atomic]] idea per note")],
     "organization": [(" in PKM isn't", " in [[PKM]] isn't")],
 }
 

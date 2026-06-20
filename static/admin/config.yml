@@ -31,7 +31,7 @@ collections:
           name: "meta_title",
           widget: "string",
           required: false,
-          hint: "Optional. Shown in browser tab and search results when set.",
+          hint: "Optional. Shown in browser tab and search results. ' | JoRap Notes' is appended automatically — do not include it here.",
         }
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Date", name: "date", widget: "datetime"}

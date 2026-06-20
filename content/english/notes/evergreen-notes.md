@@ -9,10 +9,10 @@ author: "JoRap"
 tags: ["Evergreen Notes", "PKM", "Note Taking", "Zettelkasten", "Second Brain", "Writing", "Formatting", "Readability", "Markdown"]
 slug: "evergreen-notes"
 featured: false
-draft: false
 aliases: ["Formatting for Readability"]
 status: evergreen
 review: true
+card_sets: ["Writing", "Review"]
 cards:
   - front: "Fleeting spark keeps showing up in weekly review."
     back: "Promote to evergreen - complete sentences, two-year bar."
@@ -26,11 +26,13 @@ cards:
     back: "Keep fleeting or skip. Don't evergreen it yet."
   - front: "Evergreen feels stale but the topic is hot on Twitter."
     back: "Revise for tool shifts. Ignore hype cycles."
+draft: false
 ---
-
 I write evergreen notes to stay useful - timeless phrasing, clear claims, updated when reality changes.
 
 I write in complete sentences I'd still stand behind in two years. Revise when tools change, not when trends spike. Promotion from fleeting: during [[Periodic Knowledge Review]], when a spark keeps returning.
+
+Extends [[Atomic Notes]]. Contradicts [[Daily Notes]].
 
 ## See also
 

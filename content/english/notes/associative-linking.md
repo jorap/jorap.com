@@ -11,6 +11,7 @@ slug: "associative-linking"
 featured: false
 status: evergreen
 review: true
+card_sets: ["Linking", "Writing"]
 cards:
   - front: "I finish a new note. Minimum links?"
     back: "Two typed links - one extends, one contradicts."
@@ -27,8 +28,9 @@ cards:
 draft: false
 aliases: ["Interconnectivity", "Power of Interconnectivity", "The Power of Interconnectivity"]
 ---
-
 Folders sort. Links think. I link so notes meet without me remembering every filename.
+
+Extends [[Atomic Notes]]. Contradicts [[PARA Method]].
 
 ## See also
 

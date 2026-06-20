@@ -11,6 +11,7 @@ slug: "the-collectors-fallacy"
 featured: false
 status: evergreen
 review: true
+card_sets: ["Capture", "Focus"]
 cards:
   - front: "Reading list grows but nothing ships."
     back: "On every save I ask: what will I make with this?"
@@ -27,8 +28,9 @@ cards:
 draft: false
 aliases: ["the collectors fallacy", "Collector's Fallacy"]
 ---
-
 Collecting articles feels like progress. It isn't. The collector's fallacy bit me until I tied saves to express deadlines.
+
+Extends [[Creative Output]]. Contradicts [[Capture]].
 
 ## See also
 

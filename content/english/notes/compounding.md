@@ -13,7 +13,6 @@ draft: false
 aliases: ["Compound Interest"]
 status: evergreen
 ---
-
 **Compounding** = repeat small gains until they stack - keep showing up; the curve looks flat until it doesn't.
 
 Borrowed from finance, but it applies anywhere today's gain makes tomorrow easier: notes linked over years, publish cadence, vocab drills. Heroic weeks feel good; boring repetition wins. The first months look like nothing - that's the trap.

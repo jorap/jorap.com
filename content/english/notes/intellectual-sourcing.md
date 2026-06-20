@@ -13,8 +13,9 @@ status: evergreen
 draft: false
 aliases: []
 ---
-
 I cite sources in notes not for academia - so I can trust my own synthesis and find the original six months later.
+
+Extends [[Synthesis as a Goal]]. Contradicts [[Progressive Summarization]].
 
 ## See also
 

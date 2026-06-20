@@ -13,8 +13,9 @@ status: evergreen
 draft: false
 aliases: []
 ---
-
 When a note is just a quote from someone smarter, I add a section: what do I actually believe from scratch.
+
+Extends [[Synthesis as a Goal]]. Contradicts [[Progressive Summarization]].
 
 ## See also
 

@@ -13,8 +13,9 @@ status: evergreen
 draft: false
 aliases: []
 ---
-
 **Slow Productivity** pushes back on busy-as-virtue. I run fewer active projects so notes become output, not backlog.
+
+Extends [[Creative Output]]. Contradicts [[The 12 Week Year]].
 
 ## See also
 

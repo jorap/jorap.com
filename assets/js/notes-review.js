@@ -23,7 +23,7 @@
   var summaryEl = root.querySelector("[data-notes-review-summary]");
 
   var allCards = [];
-  var selectedTag = "all";
+  var selectedSet = "all";
   var queue = [];
   var sessionIndex = 0;
   var sessionTotal = 0;
@@ -82,10 +82,10 @@
     return card.due <= now;
   }
 
-  function filterByTag(cards) {
-    if (selectedTag === "all") return cards;
+  function filterBySet(cards) {
+    if (selectedSet === "all") return cards;
     return cards.filter(function (card) {
-      return (card.tags || []).indexOf(selectedTag) !== -1;
+      return (card.sets || []).indexOf(selectedSet) !== -1;
     });
   }
 
@@ -106,7 +106,7 @@
   }
 
   function updateStats() {
-    var cards = filterByTag(allCards);
+    var cards = filterBySet(allCards);
     var state = loadState();
     var counts = countDue(cards, state);
     if (!cards.length) {
@@ -135,7 +135,7 @@
 
   function buildQueue(cram) {
     cramMode = !!cram;
-    var cards = filterByTag(allCards);
+    var cards = filterBySet(allCards);
     var state = loadState();
     var now = Date.now();
 
@@ -286,11 +286,11 @@
     return escapeHtml(str);
   }
 
-  root.querySelectorAll("[data-notes-review-tag]").forEach(function (btn) {
+  root.querySelectorAll("[data-notes-review-set]").forEach(function (btn) {
     btn.addEventListener("click", function () {
-      selectedTag = btn.getAttribute("data-notes-review-tag") || "all";
-      root.querySelectorAll("[data-notes-review-tag]").forEach(function (el) {
-        var active = el.getAttribute("data-notes-review-tag") === selectedTag;
+      selectedSet = btn.getAttribute("data-notes-review-set") || "all";
+      root.querySelectorAll("[data-notes-review-set]").forEach(function (el) {
+        var active = el.getAttribute("data-notes-review-set") === selectedSet;
         el.classList.toggle("is-active", active);
         el.setAttribute("aria-pressed", active ? "true" : "false");
       });

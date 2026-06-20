@@ -1,9 +1,10 @@
 ---
-title: "2 Random Notes"
-meta_title: "2 Random Notes | JoRap"
+title: "Random Duo"
+meta_title: "Random Duo"
 description: "Two garden notes picked at random, side by side - for serendipitous resurfacing."
-slug: "random-two"
-layout: "random-two"
+slug: "random-duo"
+layout: "random-duo"
+aliases: ["random-two"]
 note_kind: "meta"
 date: 2026-06-19T08:00:00Z
 image: "/images/note.jpg"

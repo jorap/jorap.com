@@ -10,31 +10,7 @@
 */}}
 
 <!-- checking title -->
-{{ $title := site.Title }}
-{{ if .IsHome }}
-  {{ with .Params.meta_title }}
-    {{ $title = . }}
-  {{ end }}
-{{ else }}
-  {{ $base := "" }}
-  {{ if .Params.meta_title }}
-    {{ $base = .Params.meta_title }}
-  {{ else if .Params.title }}
-    {{ $base = .Params.title }}
-  {{ else if or (eq .Kind "term") (eq .Kind "taxonomy") }}
-    {{ $base = .Title | title }}
-  {{ else if .Title }}
-    {{ $base = .Title }}
-  {{ end }}
-  {{ if $base }}
-    {{ $suffix := printf " | %s" site.Title }}
-    {{ if strings.HasSuffix $base $suffix }}
-      {{ $title = $base }}
-    {{ else }}
-      {{ $title = printf "%s%s" $base $suffix }}
-    {{ end }}
-  {{ end }}
-{{ end }}
+{{ $title := partial "page-meta-title.html" . }}
 
 
 <!-- checking description (never default to .Summary — it panics on short note bodies in Hugo 0.163+) -->

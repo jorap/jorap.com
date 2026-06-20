@@ -11,6 +11,7 @@ slug: "atomic-notes"
 aliases: ["atom", "Atomic Design for Notes", "Atomic Design"]
 status: evergreen
 review: true
+card_sets: ["Writing", "Linking"]
 cards:
   - front: "Draft mixes browser tips AND meeting notes."
     back: "Split. One claim per note."
@@ -27,15 +28,16 @@ cards:
 featured: false
 draft: false
 ---
-
 **Atomic notes** = one claim I'd say out loud - too many `and`s, split it.
 
 **Rule of thumb:** one thing I'd cite in conversation - "why middle-click saves tab chaos" is atomic; "browser tips and meeting notes" is not.
 
 Small notes stack like Lego blocks - claim, how-to, example - linked, not merged. Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing. If I need headings inside one file, I probably need two notes.
 
+Extends [[PKM]]. Contradicts [[Maps of Content]].
+
 ## See also
 
-- [[Zettelkasten]] - Atomic Notes, Linking, Note Taking
+- [[Associative Linking]] - Atomic Notes, Linking, Note Taking
 - [[Digital Serendipity]] - Linking, Note Taking, PKM
 - [[Evergreen Notes]] - Note Taking, PKM, Second Brain

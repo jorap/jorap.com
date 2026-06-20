@@ -84,14 +84,14 @@
   }
 
   function setSlotLoading(slot) {
-    slot.innerHTML = '<p class="notes-random-two-loading text-ink-muted text-sm">Loading…</p>';
-    slot.classList.remove("notes-random-two-panel--empty");
+    slot.innerHTML = '<p class="notes-random-loading text-ink-muted text-sm">Loading…</p>';
+    slot.classList.remove("notes-random-panel--empty");
   }
 
   function setSlotEmpty(slot) {
     slot.innerHTML =
-      '<p class="notes-random-two-empty text-ink-muted text-sm">Not enough notes to fill this column.</p>';
-    slot.classList.add("notes-random-two-panel--empty");
+      '<p class="notes-random-empty text-ink-muted text-sm">Not enough notes to fill this column.</p>';
+    slot.classList.add("notes-random-panel--empty");
   }
 
   function normalizeText(str) {
@@ -251,7 +251,7 @@
 
   function cloneArticleBody(article) {
     var body = document.createElement("div");
-    body.className = "notes-random-two-body";
+    body.className = "notes-random-body";
     var children = article.children;
 
     for (var i = 0; i < children.length; i += 1) {
@@ -264,7 +264,7 @@
   }
 
   function equalizePanelHeights() {
-    var panels = root.querySelectorAll(".notes-random-two-panel");
+    var panels = root.querySelectorAll(".notes-random-panel");
     if (panels.length < 2) return;
 
     panels.forEach(function (panel) {
@@ -304,7 +304,7 @@
         if (!article || !titleEl || !contentEl) throw new Error("parse failed");
 
         var panel = document.createElement("article");
-        panel.className = "notes-random-two-panel border-divider rounded border p-5";
+        panel.className = "notes-random-panel border-divider rounded border p-5";
 
         var heading = document.createElement("h3");
         heading.className = "h5 mb-3";
@@ -318,7 +318,7 @@
 
         slot.innerHTML = "";
         slot.appendChild(panel);
-        slot.classList.remove("notes-random-two-panel--empty");
+        slot.classList.remove("notes-random-panel--empty");
 
         return {
           title: titleEl.textContent.trim(),
@@ -328,7 +328,7 @@
       })
       .catch(function () {
         slot.innerHTML =
-          '<article class="notes-random-two-panel border-divider rounded border p-5">' +
+          '<article class="notes-random-panel border-divider rounded border p-5">' +
           '<h3 class="h5 mb-3"><a class="text-accent no-underline hover:underline" href="' +
           escapeHtml(pick.url) +
           '">' +

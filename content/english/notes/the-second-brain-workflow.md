@@ -13,8 +13,9 @@ status: evergreen
 draft: false
 aliases: ["Second Brain Workflow", "Second Brain Daily Workflow", "Daily Workflow"]
 ---
-
 CODE and PARA in one loop: capture to inbox, organize by project, distill on use, express weekly.
+
+Extends [[Capture]]. Contradicts [[Minimum Effective Dose]]. Implements [[Building a Second Brain]].
 
 ## See also
 

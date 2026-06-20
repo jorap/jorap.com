@@ -2,17 +2,15 @@
   {{- $cards := partial "notes/collect-cards.html" . -}}
   {{- $exportPath := site.Params.notes.anki_export_path | default "exports/jorap-notes-anki.txt" -}}
   {{- $exportRel := printf "/%s" $exportPath -}}
-  {{- $tagSet := slice -}}
+  {{- $setNames := slice -}}
   {{- range $cards -}}
-    {{- with .source -}}
-      {{- range .Params.tags -}}
-        {{- if not (in $tagSet .) -}}
-          {{- $tagSet = $tagSet | append . -}}
-        {{- end -}}
+    {{- range .sets -}}
+      {{- if not (in $setNames .) -}}
+        {{- $setNames = $setNames | append . -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}
-  {{- $tagSet = sort $tagSet -}}
+  {{- $setNames = sort $setNames -}}
 
   {{ partial "page-header" . }}
 
@@ -22,15 +20,21 @@
         <div class="lg:col-10">
           {{ partial "notes/toolbar.html" (dict "Context" . "active" "cards") }}
 
-          <div class="content notes-content mb-6">
-            {{ partial "notes/render-content.html" . }}
-          </div>
+          <details class="notes-random-prompt border-divider mb-6 rounded border">
+            <summary class="notes-random-prompt-summary p-5">
+              <span class="notes-random-prompt-label h6 mb-0">About flashcards</span>
+            </summary>
+            <div class="notes-random-prompt-body content notes-content px-5 pb-5">
+              {{ partial "notes/render-content.html" . }}
+            </div>
+          </details>
 
           <div class="border-divider mb-8 rounded border p-5" style="background: var(--color-elevated);">
             <h2 class="h6 mb-2">Anki export</h2>
             <p class="text-ink-muted mb-3 text-sm">
               Notes with <code>review: true</code> export their <code>cards:</code> list (and any
-              <code>{{ "{{< card >}}" }}</code> shortcodes). Regenerate after edits:
+              <code>{{ "{{< card >}}" }}</code> shortcodes). Group cards with
+              <code>card_sets:</code> for filtered review. Regenerate after edits:
               <code>npm run export:anki</code>.
             </p>
             <a class="btn btn-outline-primary btn-sm" href="{{ $exportRel | relURL }}" download>Download Anki deck (.txt)</a>
@@ -40,12 +44,9 @@
           <div data-notes-cards>
             <div class="mb-4 flex flex-wrap items-center justify-between gap-3">
               <p class="text-ink-muted mb-0 text-sm">{{ len $cards }} cards</p>
-              {{- if gt (len $tagSet) 0 -}}
-                <div class="notes-filters" role="group" aria-label="Filter cards by tag">
-                  <button type="button" class="notes-filter is-active" data-notes-cards-filter="all" aria-pressed="true">All</button>
-                  {{- range $tagSet -}}
-                    <button type="button" class="notes-filter" data-notes-cards-filter="{{ . }}" aria-pressed="false">{{ . }}</button>
-                  {{- end -}}
+              {{- if gt (len $setNames) 0 -}}
+                <div class="notes-filters" role="group" aria-label="Filter cards by set">
+                  {{ partial "notes/card-set-filter-buttons.html" (dict "cards" $cards "dataAttr" "data-notes-cards-filter") }}
                 </div>
               {{- end -}}
             </div>
@@ -53,13 +54,8 @@
             {{- if gt (len $cards) 0 -}}
               <div class="row notes-cards-grid">
                 {{- range $cards -}}
-                  {{- $tags := "" -}}
-                  {{- with .source -}}
-                    {{- with .Params.tags -}}
-                      {{- $tags = delimit . "," -}}
-                    {{- end -}}
-                  {{- end -}}
-                  <div class="md:col-6 mb-8" data-notes-cards-item data-notes-cards-tags="{{ $tags }}">
+                  {{- $sets := delimit (.sets | default slice) "," -}}
+                  <div class="md:col-6 mb-8" data-notes-cards-item data-notes-cards-sets="{{ $sets }}">
                     {{ partial "notes/flashcard.html" (dict "Front" .front "Back" .back "Source" .source "Class" "h-full") }}
                   </div>
                 {{- end -}}

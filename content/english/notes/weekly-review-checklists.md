@@ -11,6 +11,7 @@ slug: "weekly-review-checklists"
 featured: false
 status: evergreen
 review: true
+card_sets: ["Review", "Workflow"]
 cards:
   - front: "Friday review - four steps in order?"
     back: "Inbox, calendar, projects, one ship action."
@@ -27,8 +28,9 @@ cards:
 draft: false
 aliases: []
 ---
-
 My weekly review is a checklist - inbox, calendar, projects, one express action. Boring on purpose.
+
+Extends [[The Trusted Inbox]]. Contradicts [[Minimum Effective Dose]]. Implements [[Periodic Knowledge Review]].
 
 ## See also
 

@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["Graph View"]
 ---
+Graph view looks sci-fi. Mostly I use it to sort notes by link frequency - high, low, no body links, and orphans.
 
-Graph view looks sci-fi. Mostly I use it to find orphans, hubs, and notes I forgot to link.
+Extends [[Associative Linking]]. Contradicts [[Maps of Content]].
 
 ## See also
 
 - [[Maps of Content]] - Meta, PKM
-- [[Zettelkasten]] - Linking, Note Taking, PKM
+- [[Associative Linking]] - Linking, Note Taking, PKM

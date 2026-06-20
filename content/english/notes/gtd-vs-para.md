@@ -13,8 +13,9 @@ status: evergreen
 draft: false
 aliases: ["GTD"]
 ---
-
 GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - here's how I use both without doubling admin.
+
+Extends [[PARA Method]]. Contradicts [[PKM]].
 
 ## See also
 

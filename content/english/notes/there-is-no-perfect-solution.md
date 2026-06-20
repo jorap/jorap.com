@@ -13,8 +13,9 @@ draft: false
 aliases: ["No Perfect Solution"]
 status: evergreen
 ---
-
 Waiting for the perfect tool, plan, or answer feels responsible. It's often the nirvana fallacy. Here's why I choose good-enough tradeoffs on purpose.
+
+Extends [[Mental Models List]]. Contradicts [[Pareto Principle]].
 
 ## See also
 

@@ -59,6 +59,7 @@
         orphan: Boolean(n.orphan),
         hub: Boolean(n.hub),
         deadEnd: Boolean(n.deadEnd),
+        weak: Boolean(n.weak),
       };
     });
 
@@ -133,6 +134,7 @@
         nodeFocus: resolveToken("--color-accent", "#181614"),
         nodeOrphan: resolveToken("--color-warning", "#b45309"),
         nodeHub: resolveToken("--color-accent", "#181614"),
+        nodeWeak: resolveToken("--graph-weak", "#c27803"),
         nodeDeadEnd: resolveToken("--color-ink-muted", "#6b6762"),
         surface: resolveToken("--color-surface", "#f5f3f0"),
         label: resolveToken("--color-ink", "#161412"),
@@ -315,6 +317,7 @@
       if (graphFilter === "all") return true;
       if (graphFilter === "orphan") return node.orphan;
       if (graphFilter === "hub") return node.hub;
+      if (graphFilter === "weak") return node.weak;
       if (graphFilter === "deadEnd") return node.deadEnd;
       return true;
     }
@@ -328,6 +331,7 @@
       if (isHover) return colors.nodeHover;
       if (node.orphan && (graphFilter === "all" || graphFilter === "orphan")) return colors.nodeOrphan;
       if (node.hub && (graphFilter === "all" || graphFilter === "hub")) return colors.nodeHub;
+      if (node.weak && (graphFilter === "all" || graphFilter === "weak")) return colors.nodeWeak;
       if (node.deadEnd && (graphFilter === "all" || graphFilter === "deadEnd")) return colors.nodeDeadEnd;
       if (inHighlight && highlight) return colors.nodeActive;
       return colors.node;

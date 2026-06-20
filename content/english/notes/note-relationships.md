@@ -11,6 +11,7 @@ slug: "note-relationships"
 featured: false
 status: evergreen
 review: true
+card_sets: ["Linking", "Writing"]
 cards:
   - front: "My note builds on Atomic Notes. Typed link?"
     back: "Extends."
@@ -27,7 +28,6 @@ cards:
 draft: false
 aliases: ["link types"]
 ---
-
 **Note relationships** = five link types I put in the body - extends, contradicts, implements, alternative, index - so the graph shows how ideas push and pull.
 
 | Type | Question | Example |

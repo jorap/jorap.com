@@ -13,8 +13,9 @@ status: evergreen
 draft: false
 aliases: []
 ---
-
 I love my wiki, but sometimes paper wins - meetings, sermons, the pocket notebook that survives a dead phone battery.
+
+Extends [[Capture]]. Contradicts [[Digital Minimalism]]. Alternative to [[Mobile Capture Workflows]].
 
 ## See also
 

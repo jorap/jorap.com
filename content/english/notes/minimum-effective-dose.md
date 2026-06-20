@@ -13,7 +13,6 @@ draft: false
 aliases: ["MED"]
 status: evergreen
 ---
-
 **Minimum effective dose** = the smallest change that still moves the needle - not the heroic overhaul.
 
 I borrowed it from medicine: enough to work, not more than needed. Applies to PKM habits, fitness, and side projects. More input past the dose is noise.

@@ -1,7 +1,7 @@
 ---
 title: "Note graph"
-meta_title: "Notes Graph | JoRap"
-description: "A map that pulls linked notes together - find notes with no links, too many links, and dead ends."
+meta_title: "Notes Graph"
+description: "A map that pulls linked notes together - filter by high, low, no body links, and orphans."
 slug: "graph"
 layout: "graph"
 note_kind: "meta"
@@ -13,10 +13,8 @@ tags: ["Notes", "Meta", "PKM", "Note Taking", "Digital Garden", "Linking"]
 featured: false
 draft: false
 ---
-**Notes graph** = open the link map to find orphans, hubs, and connections you're missing.
+**Notes graph** = open the link map and filter by link frequency.
 
-Notes with no links, notes with too many, and dead ends show up as shape, not just search. Open the live view at [/notes/graph/](/notes/graph/).
+**High** = many total wikilinks. **Low** = few total wikilinks. **No body links** = no wikilinks in the note body (See also excluded). **Orphans** = no inbound wikilinks. Open the live view at [/notes/graph/](/notes/graph/).
 
 Extends [[Getting Started]]. Implements [[Graph View Analytics]].
-
-**Note graph** = open the link map to find orphans, hubs, and connections I'm missing.

@@ -4,10 +4,12 @@
 {{- $bodyOutDeg := dict -}}
 {{- $hubPct := site.Params.notes.graph_hub_percentile | default 85 -}}
 {{- $hubMinTotal := site.Params.notes.graph_hub_min_total | default 10 -}}
+{{- $weakPct := site.Params.notes.graph_weak_percentile | default 25 -}}
+{{- $weakMaxTotal := site.Params.notes.graph_weak_max_total | default 8 -}}
 
 {{- range $from := $notes -}}
   {{- $fromId := $from.RelPermalink -}}
-  {{- $nodes = $nodes | append (dict "id" $fromId "title" $from.Title "url" $from.RelPermalink "inDegree" 0 "outDegree" 0 "totalDegree" 0 "orphan" false "hub" false "deadEnd" false) -}}
+  {{- $nodes = $nodes | append (dict "id" $fromId "title" $from.Title "url" $from.RelPermalink "inDegree" 0 "outDegree" 0 "totalDegree" 0 "orphan" false "hub" false "deadEnd" false "weak" false) -}}
   {{- $raw := $from.RawContent -}}
   {{- $bodyRaw := $raw -}}
   {{- if strings.Contains $raw "## See also" -}}
@@ -69,9 +71,21 @@
   {{- $degreeNodes = $degreeNodes | append (dict "totalDegree" $total) -}}
 {{- end -}}
 {{- $byDeg := sort $degreeNodes "totalDegree" -}}
-{{- $pctIdx := cond (gt (len $byDeg) 0) (mul (sub (len $byDeg) 1) $hubPct | div 100) 0 -}}
-{{- $pctDegree := cond (gt (len $byDeg) 0) (index $byDeg $pctIdx).totalDegree $hubMinTotal -}}
+{{- $nodeCount := len $byDeg -}}
+{{- $pctIdx := 0 -}}
+{{- $pctDegree := $hubMinTotal -}}
+{{- if gt $nodeCount 0 -}}
+  {{- $pctIdx = div (mul (sub $nodeCount 1) $hubPct) 100 -}}
+  {{- $pctDegree = (index $byDeg $pctIdx).totalDegree -}}
+{{- end -}}
 {{- $hubThreshold := cond (lt $pctDegree $hubMinTotal) $hubMinTotal $pctDegree -}}
+{{- $weakPctIdx := 0 -}}
+{{- $weakPctDegree := $weakMaxTotal -}}
+{{- if gt $nodeCount 0 -}}
+  {{- $weakPctIdx = div (mul (sub $nodeCount 1) $weakPct) 100 -}}
+  {{- $weakPctDegree = (index $byDeg $weakPctIdx).totalDegree -}}
+{{- end -}}
+{{- $weakThreshold := cond (gt $weakPctDegree $weakMaxTotal) $weakMaxTotal $weakPctDegree -}}
 
 {{- $enriched := slice -}}
 {{- range $nodes -}}
@@ -86,6 +100,7 @@
     "orphan" (eq $in 0)
     "hub" (ge $total $hubThreshold)
     "deadEnd" (eq $bodyOut 0)
+    "weak" (and (lt $total $hubThreshold) (le $total $weakThreshold))
   )) -}}
 {{- end -}}
 

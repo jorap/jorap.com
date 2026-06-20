@@ -13,5 +13,17 @@ draft: false
 aliases: []
 status: evergreen
 ---
-
 Mental models are shortcuts for thinking. I keep a short list of ones that survived contact with real decisions - not every model on Wikipedia.
+
+## Models
+
+- [[Pareto Principle]]
+- [[Compounding]]
+- [[Low Hanging Fruit]]
+- [[Minimum Effective Dose]]
+- [[Minimum Viable Product]]
+- [[First Principles Thinking]]
+- [[Sunk Cost Fallacy]]
+- [[There Is No Perfect Solution]]
+
+Extends [[PKM]]. Contradicts [[There Is No Perfect Solution]].

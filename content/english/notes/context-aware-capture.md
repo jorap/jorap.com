@@ -13,8 +13,9 @@ status: evergreen
 draft: false
 aliases: ["context aware capture"]
 ---
-
 A link without context is a mystery six weeks later. I capture why I saved something - project, mood, question - while it's still obvious.
+
+Extends [[Capture]]. Contradicts [[Metadata Strategy]].
 
 ## See also
 

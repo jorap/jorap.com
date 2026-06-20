@@ -1,9 +1,10 @@
 ---
-title: "3 Random Notes"
-meta_title: "3 Random Notes | JoRap"
+title: "Random Trio"
+meta_title: "Random Trio"
 description: "Three garden notes picked at random, side by side - for serendipitous resurfacing."
-slug: "random-three"
-layout: "random-three"
+slug: "random-trio"
+layout: "random-trio"
+aliases: ["random-three"]
 note_kind: "meta"
 date: 2026-06-19T08:00:00Z
 image: "/images/note.jpg"

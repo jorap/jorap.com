@@ -13,8 +13,9 @@ status: evergreen
 draft: false
 aliases: ["Process Over Outcome"]
 ---
-
 Results matter, but optimizing only for outcomes wins once. I optimize for a repeatable process that wins again and again.
+
+Extends [[Compounding]]. Contradicts [[The 12 Week Year]].
 
 ## See also
 

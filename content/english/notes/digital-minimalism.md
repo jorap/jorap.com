@@ -13,8 +13,9 @@ status: evergreen
 draft: false
 aliases: []
 ---
-
 Fewer apps, fewer sync layers, fewer notifications. My PKM got better when I stopped collecting tools.
+
+Extends [[Minimum Effective Dose]]. Contradicts [[Digital Serendipity]].
 
 ## See also
 

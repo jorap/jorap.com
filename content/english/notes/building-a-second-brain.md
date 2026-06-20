@@ -11,6 +11,7 @@ slug: "building-a-second-brain"
 featured: false
 status: evergreen
 review: true
+card_sets: ["Workflow", "Organization"]
 cards:
   - front: "Audit: organize is theater, express never happens."
     back: "Fix or cut that CODE step. No step just for show."
@@ -27,10 +28,11 @@ cards:
 draft: false
 aliases: ["Second Brain"]
 ---
-
 **Second Brain** = offload ideas so my head can think, not hoard.
 
 Remember CODE: [[Capture]], organize, distill, express. The system fails when any step is just for show. I review whether each step still earns its place every quarter.
+
+Extends [[PKM]]. Contradicts [[The Collector's Fallacy]].
 
 ## See also
 

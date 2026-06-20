@@ -13,8 +13,9 @@ status: evergreen
 draft: false
 aliases: ["Advantages of Digital Gardens"]
 ---
-
 My digital garden is where notes grow in public - linked, imperfect, alive.
+
+Extends [[Evergreen Notes]]. Contradicts [[The Garage Concept]].
 
 ## See also
 

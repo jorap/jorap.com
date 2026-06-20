@@ -13,8 +13,9 @@ status: evergreen
 draft: false
 aliases: ["Evergreen vs Fleeting"]
 ---
-
 Fleeting notes catch sparks. Evergreen notes hold truth. I need both lanes and a clear promotion path.
+
+Extends [[The Knowledge Lifecycle]]. Contradicts [[Evergreen Notes]].
 
 ## See also
 

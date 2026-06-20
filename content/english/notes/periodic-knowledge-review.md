@@ -13,8 +13,9 @@ status: evergreen
 draft: false
 aliases: []
 ---
-
 Notes rot without review. I calendar weekly and quarterly passes - inbox, projects, evergreens.
+
+Extends [[Active Knowledge Curation]]. Contradicts [[Minimum Effective Dose]].
 
 ## See also
 

@@ -13,8 +13,9 @@ status: evergreen
 draft: false
 aliases: ["Future of PKM", "The Future of PKM"]
 ---
-
 My personal API isn't OAuth - it's consistent frontmatter, wikilinks, and folder shapes my tools can read without me re-explaining everything.
+
+Extends [[Metadata Strategy]]. Contradicts [[Digital Minimalism]].
 
 ## See also
 

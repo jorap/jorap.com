@@ -11,6 +11,7 @@ slug: "signal-vs-noise"
 featured: false
 status: evergreen
 review: true
+card_sets: ["Focus", "Capture"]
 cards:
   - front: "Interesting article, won't change what I do this month."
     back: "Admire it and move on. Don't save."
@@ -27,8 +28,9 @@ cards:
 draft: false
 aliases: []
 ---
-
 Most content is noise. PKM fails if capture doesn't filter. I save signal - stuff that changes action or belief.
+
+Extends [[Capture]]. Contradicts [[RSS for Research]].
 
 ## See also
 

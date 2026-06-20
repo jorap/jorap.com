@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-meta_title: "Contact | JoRap Notes"
+meta_title: "Contact"
 description: "Get in touch about web development, technical support, training, or remote freelance work."
 draft: false
 ---

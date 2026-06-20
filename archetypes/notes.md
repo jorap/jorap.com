@@ -17,4 +17,4 @@ draft: true
 
 **{{ replace .Name "-" " " | title }}** — one idea, stated plainly. If you need `and` or a second heading, split into another note and link it with `[[wikilinks]]`.
 
-Set `review: true` only on spine concepts worth cold recall (~20% of notes). Add a `cards:` list with `front` / `back` pairs (six per spine note). The opening line stays the wiki definition. Extra one-off cards: `{{< card front="Question" back="Answer" >}}`.
+For habit spine notes (`review: true`), copy the frontmatter pattern from [[Flashcards]] or run `hugo new content/english/notes/my-note.md --kind notes-review`. Rules: double-quote every `front`, `back`, and set name; inline `card_sets: ["Set"]`; block list for `cards`; put `draft` last; do not add `| JoRap Notes` to `meta_title`.

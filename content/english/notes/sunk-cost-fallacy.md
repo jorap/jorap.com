@@ -13,7 +13,6 @@ draft: false
 aliases: ["Sunk Cost"]
 status: evergreen
 ---
-
 **Sunk cost fallacy** = keeping a bad tool, project, or note because I already invested time - not because it still earns its place.
 
 Past effort is gone. I ask: if I found this today, would I start it?

@@ -13,8 +13,9 @@ draft: false
 aliases: ["Curation as Creation"]
 status: evergreen
 ---
-
 Saving links isn't curation. I revisit monthly, prune what I wouldn't save again today, and connect what I actually care about.
+
+Extends [[Building a Second Brain]]. Contradicts [[The Collector's Fallacy]].
 
 ## See also
 

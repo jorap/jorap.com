@@ -31,7 +31,7 @@ ENRICHMENTS: dict[str, str] = {
     "associative-linking": (
         "When I write a note, I link to two neighbors minimum - what it extends, what it contradicts. "
         "On every edit I ask: what should this link to that it doesn't yet? More links beat more files. "
-        "That's how [[Zettelkasten]] and a [[Digital Garden]] stay walkable without a perfect folder tree."
+        "That's how [[Atomic Notes]] and a [[Digital Garden]] stay walkable without a perfect folder tree."
     ),
     "atomic-notes": (
         "I split when I need `and` twice. Atoms stack into claim, how-to, and example notes - linked, not merged. "
@@ -110,7 +110,7 @@ ENRICHMENTS: dict[str, str] = {
         "[[Anti-Fragile Systems]] beat predictions about which app wins next year."
     ),
     "graph-view-analytics": (
-        "Orphans mean missing links; hubs mean overloaded notes that should split. "
+        "Orphans mean no inbound links; high frequency may mean overloaded notes worth splitting. "
         "I don't worship the pretty picture - I fix what it accuses. "
         "See [[Associative Linking]]."
     ),
@@ -180,10 +180,6 @@ ENRICHMENTS: dict[str, str] = {
         "If not, admire it and move on. "
         "[[Capture]] without filtering becomes [[The Collector's Fallacy]]."
     ),
-    "slip-box-history": (
-        "Luhmann wrote thousands of cards and thousands of pages - the method was writing, not stationery. "
-        "Software can help; it can't substitute. See [[The Zettelkasten Myth]] before buying another app."
-    ),
     "slow-productivity": (
         "Fewer active projects means notes become sermons and posts instead of guilt. "
         "Busy isn't depth. I'd rather finish three things than juggle twelve. "
@@ -234,11 +230,6 @@ ENRICHMENTS: dict[str, str] = {
         "Trust is behavioral: if items disappear or rot, I'll stop using the pipe. "
         "One inbox, one owner, one rhythm."
     ),
-    "the-zettelkasten-myth": (
-        "The notebook didn't write the books; Luhmann did. "
-        "Tools lower friction; they don't replace sentences. "
-        "Buy plain text and a linking habit before another productivity pilgrimage."
-    ),
     "there-is-no-perfect-solution": (
         "Good enough today beats optimal someday. "
         "I pick tools I can export, workflows I can repeat tired, tradeoffs I can name. "
@@ -248,11 +239,6 @@ ENRICHMENTS: dict[str, str] = {
         "Same list every Friday: empty inbox, scan calendar, review projects, one ship action. "
         "Boring is the feature - novelty in reviews means I'm reinventing the wheel. "
         "GTD's maintain phase, sized for a real week."
-    ),
-    "zettelkasten": (
-        "I write notes I'd link to, not notes I'd folder. "
-        "Density of links matters more than count of files. "
-        "History in [[Slip-box History]]; myths in [[The Zettelkasten Myth]]."
     ),
 }
 

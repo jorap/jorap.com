@@ -13,8 +13,9 @@ status: evergreen
 draft: false
 aliases: ["Newsletter Filtering"]
 ---
-
 RSS is how I research without Twitter. Subscribe to blogs, clip to notes, ignore the rest.
+
+Extends [[Capture]]. Contradicts [[Signal vs Noise]].
 
 ## See also
 

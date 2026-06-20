@@ -13,8 +13,9 @@ status: evergreen
 draft: false
 aliases: ["Serendipitous Resurfacing"]
 ---
-
 Serendipity isn't luck for me - I build systems where old notes surprise me at the right time.
+
+Extends [[Associative Linking]]. Contradicts [[Digital Minimalism]].
 
 ## See also
 

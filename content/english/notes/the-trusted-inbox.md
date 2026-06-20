@@ -11,6 +11,7 @@ slug: "the-trusted-inbox"
 featured: false
 status: evergreen
 review: true
+card_sets: ["Capture", "Review"]
 cards:
   - front: "40 inbox items, two weeks untouched."
     back: "Trust is broken. Empty it now, same day every week."
@@ -27,8 +28,9 @@ cards:
 draft: false
 aliases: ["Trusted Inbox"]
 ---
-
 If I don't trust my inbox, I capture in my head instead. One pipe, weekly empty, no exceptions.
+
+Extends [[Capture]]. Contradicts [[Mobile Capture Workflows]].
 
 ## See also
 

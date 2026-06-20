@@ -13,8 +13,8 @@ SKIP = {
     "graph",
     "cards",
     "review",
-    "random-two",
-    "random-three",
+    "random-duo",
+    "random-trio",
     "getting-started",
     "maps-of-content",
 }

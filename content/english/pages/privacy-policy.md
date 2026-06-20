@@ -1,7 +1,7 @@
 ---
 title: "Privacy"
 # meta title
-meta_title: "Privacy | JoRap Notes"
+meta_title: "Privacy"
 # meta description
 description: "This is meta description"
 # save as draft

@@ -1,5 +1,5 @@
 /**
- * Cards index: filter by tag chip.
+ * Cards index: filter by card set chip.
  */
 (function () {
   var root = document.querySelector("[data-notes-cards]");
@@ -9,18 +9,18 @@
   var items = root.querySelectorAll("[data-notes-cards-item]");
   var emptyEl = root.querySelector("[data-notes-cards-empty]");
 
-  function applyFilter(tag) {
+  function applyFilter(setName) {
     var visible = 0;
 
     items.forEach(function (item) {
-      var tags = (item.getAttribute("data-notes-cards-tags") || "").split(",").filter(Boolean);
-      var show = tag === "all" || tags.indexOf(tag) !== -1;
+      var sets = (item.getAttribute("data-notes-cards-sets") || "").split(",").filter(Boolean);
+      var show = setName === "all" || sets.indexOf(setName) !== -1;
       item.classList.toggle("hidden", !show);
       if (show) visible += 1;
     });
 
     filters.forEach(function (btn) {
-      var active = btn.getAttribute("data-notes-cards-filter") === tag;
+      var active = btn.getAttribute("data-notes-cards-filter") === setName;
       btn.classList.toggle("is-active", active);
       btn.setAttribute("aria-pressed", active ? "true" : "false");
     });

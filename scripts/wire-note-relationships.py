@@ -30,7 +30,7 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
         "contradicts": "PARA Method",
     },
     "atomic-notes": {
-        "extends": "Zettelkasten",
+        "extends": "PKM",
         "contradicts": "Maps of Content",
     },
     "building-a-personal-api": {
@@ -165,7 +165,7 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
     },
     "para-method": {
         "extends": "Building a Second Brain",
-        "contradicts": "Zettelkasten",
+        "contradicts": "Associative Linking",
     },
     "pareto-principle": {
         "extends": "Signal vs Noise",
@@ -187,11 +187,11 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
         "extends": "Building a Second Brain",
         "contradicts": "Synthesis as a Goal",
     },
-    "random-two": {
+    "random-duo": {
         "implements": "Digital Serendipity",
         "extends": "Getting Started",
     },
-    "random-three": {
+    "random-trio": {
         "implements": "Digital Serendipity",
         "extends": "Getting Started",
     },
@@ -206,10 +206,6 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
     "signal-vs-noise": {
         "extends": "Capture",
         "contradicts": "RSS for Research",
-    },
-    "slip-box-history": {
-        "extends": "Zettelkasten",
-        "contradicts": "The Zettelkasten Myth",
     },
     "slow-productivity": {
         "extends": "Creative Output",
@@ -256,10 +252,6 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
         "extends": "Capture",
         "contradicts": "Mobile Capture Workflows",
     },
-    "the-zettelkasten-myth": {
-        "extends": "Slip-box History",
-        "contradicts": "Zettelkasten",
-    },
     "there-is-no-perfect-solution": {
         "extends": "Mental Models List",
         "contradicts": "Pareto Principle",
@@ -272,10 +264,6 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
         "implements": "Periodic Knowledge Review",
         "extends": "The Trusted Inbox",
         "contradicts": "Minimum Effective Dose",
-    },
-    "zettelkasten": {
-        "extends": "Atomic Notes",
-        "contradicts": "PARA Method",
     },
 }
 

@@ -37,7 +37,7 @@ enable_cards = true
 review_tag = "flashcard"
 anki_export_path = "exports/jorap-notes-anki.txt"
 wikilink_class = "wikilink"
-related_posts_limit = 12
+related_posts_limit = 6
 see_also_limit = 6
 strict_wikilinks = false
 strict_unlinked = false
@@ -46,11 +46,13 @@ stale_days = 90
 recent_limit = 12
 graph_hub_percentile = 85
 graph_hub_min_total = 15
+graph_weak_percentile = 25
+graph_weak_max_total = 8
 
 # Blog single: automated related content sections
 [blog]
-related_posts_limit = 12
-related_notes_limit = 12
+related_posts_limit = 6
+related_notes_limit = 6
 # Prefill URL for blog random-notes AI prompt (?q= is appended with the prompt text)
 random_notes_ai_chat_url = "https://chatgpt.com/?q="
 random_notes_ai_chat_label = "Open in ChatGPT"
@@ -152,6 +154,10 @@ content = "You must replace the **baseURL** in **hugo.toml** file when deploying
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
+# Appended to every page title (except homepage meta_title). Do not add manually in frontmatter.
+title_suffix = "JoRap Notes"
+# Stripped from meta_title before the suffix above is appended (legacy manual entries).
+legacy_title_suffixes = ["JoRap Notes", "JoRap", "Notes Garden"]
 keywords = ["JoRap Notes", "JoRap", "JoRap.com", "Jonathan Rapusas", "front-end developer", "WordPress", "Hugo", "static sites", "Metro Manila", "remote"]
 description = "Front-end developer in Metro Manila. Freelance since 2013. WordPress, Hugo, web development, technical support, and training - remote only."
 author = "JoRap"

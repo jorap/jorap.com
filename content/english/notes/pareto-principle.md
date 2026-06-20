@@ -9,10 +9,10 @@ author: "JoRap"
 tags: ["Mental Models", "Productivity", "Performance", "Prioritization", "Focus", "Decision Making", "PKM"]
 slug: "pareto-principle"
 featured: false
-draft: false
 aliases: ["80/20", "80-20 Rule", "Pareto Principle"]
 status: evergreen
 review: true
+card_sets: ["Focus", "Review"]
 cards:
   - front: "Task board and reading list both feel urgent."
     back: "Find the ~20% that moved the needle. Protect that slice."
@@ -26,8 +26,8 @@ cards:
     back: "Protect that slice. Stop polishing the rest."
   - front: "80/20 is a physical law?"
     back: "No. Shorthand ratio, not math homework."
+draft: false
 ---
-
 **Pareto principle** = most results come from a small slice of work - find the slice, protect it, cut the rest.
 
 Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand, not a law). I use it when my reading list, task board, or note tags all feel equally important: which few actually moved the needle? Same rule for flashcards: only ~12 habit spine notes carry `review: true` here (~20% of the garden). Cards ask what I'd *do*, not what I'd *define*.

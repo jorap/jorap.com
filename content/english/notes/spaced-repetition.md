@@ -13,10 +13,11 @@ status: evergreen
 draft: false
 aliases: ["SRS", "Spaced Repetition Systems", "Spaced Repetition Systems (SRS)"]
 ---
-
 **Spaced repetition** = review facts on a schedule before I forget - for recall, not whole essays.
 
 Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for. Whole essays don't belong on flashcards. The wiki holds understanding; Anki or SRS apps hold drill - separate lanes, algorithm handles timing. In this garden, only ~12 spine notes (~20%) opt in with `review: true`, and cards target habits (what to do when) - not definition trivia.
+
+Extends [[Evergreen Notes]]. Contradicts [[Progressive Summarization]].
 
 ## See also
 

@@ -13,8 +13,9 @@ draft: false
 aliases: ["Personal Knowledge Management"]
 status: evergreen
 ---
-
 **PKM** is the boring name for how I save, organize, and use what I learn. Here's my unspectacular definition.
+
+Extends [[Getting Started]]. Contradicts [[The Collector's Fallacy]].
 
 ## See also
 

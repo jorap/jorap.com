@@ -1,0 +1,68 @@
+{{ define "main" }}
+  {{- $pool := partial "notes/random-pool.html" . -}}
+
+  {{ partial "page-header" . }}
+
+  <section class="section">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          {{ partial "notes/toolbar.html" (dict "Context" . "active" "random-trio") }}
+
+          <div class="notes-toolbar mb-4 flex flex-wrap items-center gap-3">
+            <button type="button" class="btn btn-outline-primary btn-sm" data-random-trio-shuffle-all>Shuffle all</button>
+            <button type="button" class="btn btn-outline-primary btn-sm" data-random-trio-shuffle-left>Shuffle left</button>
+            <button type="button" class="btn btn-outline-primary btn-sm" data-random-trio-shuffle-center>Shuffle center</button>
+            <button type="button" class="btn btn-outline-primary btn-sm" data-random-trio-shuffle-right>Shuffle right</button>
+          </div>
+
+          <p class="text-ink-muted mb-6">Three notes from the garden, side by side. Shuffle all, or lock two columns and shuffle one.</p>
+
+          <details class="notes-random-prompt border-divider mb-8 rounded border">
+            <summary class="notes-random-prompt-summary p-5">
+              <span class="notes-random-prompt-label h6 mb-0">AI prompt</span>
+              <div class="notes-random-prompt-actions flex flex-wrap items-center gap-2">
+                <button type="button" class="btn btn-outline-primary btn-sm" data-random-trio-copy-prompt>Copy prompt</button>
+                <button type="button" class="btn btn-outline-primary btn-sm" data-random-trio-send-prompt>Open in ChatGPT</button>
+              </div>
+            </summary>
+            <div class="notes-random-prompt-body px-5 pb-5">
+              <label class="sr-only" for="notes-random-trio-prompt">Prompt to paste into an AI chat</label>
+              <textarea
+                id="notes-random-trio-prompt"
+                class="notes-random-prompt-text"
+                rows="10"
+                readonly
+                data-random-trio-prompt
+                spellcheck="false">Loading notes…</textarea>
+            </div>
+          </details>
+
+          <div class="row notes-random-grid items-stretch" data-notes-random-trio>
+            <div class="md:col-4 mb-8 notes-random-slot flex flex-col" data-random-trio-slot="0">
+              <p class="notes-random-loading text-ink-muted text-sm">Loading…</p>
+            </div>
+            <div class="md:col-4 mb-8 notes-random-slot flex flex-col" data-random-trio-slot="1">
+              <p class="notes-random-loading text-ink-muted text-sm">Loading…</p>
+            </div>
+            <div class="md:col-4 mb-8 notes-random-slot flex flex-col" data-random-trio-slot="2">
+              <p class="notes-random-loading text-ink-muted text-sm">Loading…</p>
+            </div>
+          </div>
+
+          <p class="notes-random-empty-page text-ink-muted hidden text-sm" data-random-trio-empty-page>No notes in the garden yet.</p>
+          <script type="application/json" class="notes-random-trio-data">{{ $pool | jsonify | safeJS }}</script>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{ partial "notes/preview-index.html" . }}
+
+  {{ with resources.Get "js/notes-random-trio.js" }}
+    <script src="{{ .RelPermalink }}" defer></script>
+  {{ end }}
+  {{ with resources.Get "js/wikilink-preview.js" }}
+    <script src="{{ .RelPermalink }}" defer></script>
+  {{ end }}
+{{ end }}

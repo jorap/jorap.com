@@ -1,22 +1,20 @@
 /**
- * Three random notes page: pick a trio and load note bodies into columns.
+ * Random Duo page: pick a pair and load note bodies into columns.
  */
 (function () {
-  var root = document.querySelector("[data-notes-random-three]");
-  var dataEl = document.querySelector(".notes-random-three-data");
-  var shuffleAllBtn = document.querySelector("[data-random-three-shuffle-all]");
-  var shuffleLeftBtn = document.querySelector("[data-random-three-shuffle-left]");
-  var shuffleCenterBtn = document.querySelector("[data-random-three-shuffle-center]");
-  var shuffleRightBtn = document.querySelector("[data-random-three-shuffle-right]");
-  var copyPromptBtn = document.querySelector("[data-random-three-copy-prompt]");
-  var sendPromptBtn = document.querySelector("[data-random-three-send-prompt]");
-  var promptEl = document.querySelector("[data-random-three-prompt]");
-  var emptyPageEl = document.querySelector("[data-random-three-empty-page]");
+  var root = document.querySelector("[data-notes-random-duo]");
+  var dataEl = document.querySelector(".notes-random-duo-data");
+  var shuffleBtn = document.querySelector("[data-random-duo-shuffle]");
+  var shuffleLeftBtn = document.querySelector("[data-random-duo-shuffle-left]");
+  var shuffleRightBtn = document.querySelector("[data-random-duo-shuffle-right]");
+  var copyPromptBtn = document.querySelector("[data-random-duo-copy-prompt]");
+  var sendPromptBtn = document.querySelector("[data-random-duo-send-prompt]");
+  var promptEl = document.querySelector("[data-random-duo-prompt]");
+  var emptyPageEl = document.querySelector(".notes-random-empty-page");
   if (!root || !dataEl) return;
 
-  var slotCount = 3;
-  var slots = root.querySelectorAll("[data-random-three-slot]");
-  var currentNotes = [null, null, null];
+  var slots = root.querySelectorAll("[data-random-duo-slot]");
+  var currentNotes = [null, null];
   var pool;
   var aiChatUrl = "https://chatgpt.com/?q=";
   var aiChatOpenedLabel = "Opened";
@@ -27,6 +25,14 @@
     pool = JSON.parse(dataEl.textContent);
   } catch (e) {
     pool = [];
+  }
+
+  function pickTwo() {
+    if (!pool.length) return [];
+    if (pool.length === 1) return [pool[0], null];
+    var first = pickOne([]);
+    var second = pickOne(first ? [first.url] : []);
+    return [first, second];
   }
 
   function pickOne(excludeUrls) {
@@ -44,24 +50,6 @@
     return candidates[Math.floor(Math.random() * candidates.length)];
   }
 
-  function pickMany(count) {
-    var picks = [];
-    var exclude = [];
-
-    for (var i = 0; i < count; i += 1) {
-      var pick = pickOne(exclude);
-      if (!pick) break;
-      picks.push(pick);
-      exclude.push(pick.url);
-    }
-
-    while (picks.length < count) {
-      picks.push(null);
-    }
-
-    return picks;
-  }
-
   function escapeHtml(str) {
     return String(str)
       .replace(/&/g, "&amp;")
@@ -71,14 +59,14 @@
   }
 
   function setSlotLoading(slot) {
-    slot.innerHTML = '<p class="notes-random-two-loading text-ink-muted text-sm">Loading…</p>';
-    slot.classList.remove("notes-random-two-panel--empty");
+    slot.innerHTML = '<p class="notes-random-loading text-ink-muted text-sm">Loading…</p>';
+    slot.classList.remove("notes-random-panel--empty");
   }
 
   function setSlotEmpty(slot) {
     slot.innerHTML =
-      '<p class="notes-random-two-empty text-ink-muted text-sm">Not enough notes to fill this column.</p>';
-    slot.classList.add("notes-random-two-panel--empty");
+      '<p class="notes-random-empty text-ink-muted text-sm">Not enough notes to fill this column.</p>';
+    slot.classList.add("notes-random-panel--empty");
   }
 
   function normalizeText(str) {
@@ -93,11 +81,11 @@
     });
 
     if (!usable.length) {
-      return "Shuffle to load three notes, then paste this prompt into your AI chat.";
+      return "Shuffle to load two notes, then paste this prompt into your AI chat.";
     }
 
     var lines = [
-      "I'm exploring connections between three notes from my digital garden. Help me discover new ideas by analyzing how they relate.",
+      "I'm exploring connections between two notes from my digital garden. Help me discover new ideas by analyzing how they relate.",
       "",
     ];
 
@@ -109,12 +97,9 @@
     });
 
     lines.push("Please analyze:");
-    lines.push("- All three notes together");
-    lines.push("- Note 1 + Note 2");
-    lines.push("- Note 1 + Note 3");
-    lines.push("- Note 2 + Note 3");
+    lines.push("- Note 1 + Note 2 (together)");
     lines.push("");
-    lines.push("For each combination, provide:");
+    lines.push("For this pairing, provide:");
     lines.push("- 3 unexpected links (surprising connections or new ideas)");
     lines.push("- 3 atomic note titles (clear, one-idea titles I can turn into [[wikilinks]])");
     lines.push("- 3 questions the pairing raises");
@@ -199,7 +184,7 @@
 
   function cloneArticleBody(article) {
     var body = document.createElement("div");
-    body.className = "notes-random-two-body";
+    body.className = "notes-random-body";
     var children = article.children;
 
     for (var i = 0; i < children.length; i += 1) {
@@ -212,7 +197,7 @@
   }
 
   function equalizePanelHeights() {
-    var panels = root.querySelectorAll(".notes-random-two-panel");
+    var panels = root.querySelectorAll(".notes-random-panel");
     if (panels.length < 2) return;
 
     panels.forEach(function (panel) {
@@ -252,7 +237,7 @@
         if (!article || !titleEl || !contentEl) throw new Error("parse failed");
 
         var panel = document.createElement("article");
-        panel.className = "notes-random-two-panel border-divider rounded border p-5";
+        panel.className = "notes-random-panel border-divider rounded border p-5";
 
         var heading = document.createElement("h2");
         heading.className = "h5 mb-3";
@@ -266,7 +251,7 @@
 
         slot.innerHTML = "";
         slot.appendChild(panel);
-        slot.classList.remove("notes-random-two-panel--empty");
+        slot.classList.remove("notes-random-panel--empty");
 
         return {
           title: titleEl.textContent.trim(),
@@ -276,7 +261,7 @@
       })
       .catch(function () {
         slot.innerHTML =
-          '<article class="notes-random-two-panel border-divider rounded border p-5">' +
+          '<article class="notes-random-panel border-divider rounded border p-5">' +
           '<h2 class="h5 mb-3"><a class="text-accent no-underline hover:underline" href="' +
           escapeHtml(pick.url) +
           '">' +
@@ -294,11 +279,11 @@
       });
   }
 
-  function shuffleAll() {
+  function shuffleBoth() {
     if (!pool.length) {
       if (emptyPageEl) emptyPageEl.classList.remove("hidden");
       slots.forEach(setSlotEmpty);
-      currentNotes = [null, null, null];
+      currentNotes = [null, null];
       updatePrompt([]);
       return;
     }
@@ -306,7 +291,7 @@
     if (emptyPageEl) emptyPageEl.classList.add("hidden");
     if (promptEl) promptEl.value = "Loading notes…";
 
-    var picks = pickMany(slotCount);
+    var picks = pickTwo();
     Promise.all(
       Array.prototype.map.call(slots, function (slot, index) {
         return renderNote(slot, picks[index]);
@@ -321,12 +306,13 @@
   function shuffleSide(index) {
     if (!pool.length) return;
 
+    var otherIndex = index === 0 ? 1 : 0;
     var exclude = [];
-    currentNotes.forEach(function (note, i) {
-      if (i !== index && note && note.url) {
-        exclude.push(note.url);
-      }
-    });
+    var otherNote = currentNotes[otherIndex];
+
+    if (otherNote && otherNote.url) {
+      exclude.push(otherNote.url);
+    }
 
     var pick = pickOne(exclude);
     if (!pick) return;
@@ -340,8 +326,8 @@
     });
   }
 
-  if (shuffleAllBtn) {
-    shuffleAllBtn.addEventListener("click", shuffleAll);
+  if (shuffleBtn) {
+    shuffleBtn.addEventListener("click", shuffleBoth);
   }
 
   if (shuffleLeftBtn) {
@@ -350,15 +336,9 @@
     });
   }
 
-  if (shuffleCenterBtn) {
-    shuffleCenterBtn.addEventListener("click", function () {
-      shuffleSide(1);
-    });
-  }
-
   if (shuffleRightBtn) {
     shuffleRightBtn.addEventListener("click", function () {
-      shuffleSide(2);
+      shuffleSide(1);
     });
   }
 
@@ -386,5 +366,5 @@
     { passive: true }
   );
 
-  shuffleAll();
+  shuffleBoth();
 })();

@@ -78,7 +78,6 @@ def suggested_aliases(title: str, slug: str, existing: list[str]) -> list[str]:
         "The Collector's Fallacy": ["Collector's Fallacy"],
         "The 12 Week Year": ["12 Week Year"],
         "The Feynman Technique": ["Feynman Technique"],
-        "The Zettelkasten Myth": ["Zettelkasten Myth"],
         "The Archive Method": ["Archive Method"],
         "The Trusted Inbox": ["Trusted Inbox"],
         "The Garage Concept": ["Garage Concept"],
@@ -92,7 +91,6 @@ def suggested_aliases(title: str, slug: str, existing: list[str]) -> list[str]:
         "There Is No Perfect Solution": ["No Perfect Solution"],
         "Process Over Outcomes": ["Process Over Outcome"],
         "Anti-Fragile Systems": ["Antifragile"],
-        "Slip-box History": ["Slip Box", "Slip-box"],
     }
     for value in manual.get(title, []):
         add(value)
@@ -331,7 +329,6 @@ def build_moc_body(catalog: list[dict]) -> str:
         "Foundations": [
             "pkm",
             "building-a-second-brain",
-            "zettelkasten",
             "atomic-notes",
             "maps-of-content",
             "getting-started",

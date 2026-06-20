@@ -133,7 +133,7 @@ CARDS: dict[str, tuple[str, str]] = {
     ),
     "graph-view-analytics": (
         "Graph analytics",
-        "Orphans, hubs, missing links - not wallpaper.",
+        "High, low, no body links, orphans - link frequency, not wallpaper.",
     ),
     "gtd-vs-para": (
         "GTD vs PARA",
@@ -235,10 +235,6 @@ CARDS: dict[str, tuple[str, str]] = {
         "Signal vs noise",
         "Save what changes action or belief this month.",
     ),
-    "slip-box-history": (
-        "Slip-box history",
-        "Cards and links - method, not magic stationery.",
-    ),
     "slow-productivity": (
         "Slow productivity",
         "Fewer projects, more finished work.",
@@ -299,10 +295,6 @@ CARDS: dict[str, tuple[str, str]] = {
         "Trusted inbox",
         "One pipe, emptied every week.",
     ),
-    "the-zettelkasten-myth": (
-        "Zettelkasten myth",
-        "Luhmann wrote the books, not the box.",
-    ),
     "there-is-no-perfect-solution": (
         "No perfect solution",
         "Good enough today beats optimal someday.",
@@ -314,10 +306,6 @@ CARDS: dict[str, tuple[str, str]] = {
     "weekly-review-checklists": (
         "Weekly review checklist",
         "Inbox, calendar, projects, one ship action.",
-    ),
-    "zettelkasten": (
-        "Zettelkasten",
-        "One idea per note, dense links, write the network.",
     ),
 }
 

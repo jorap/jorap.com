@@ -1,11 +1,17 @@
 {{- $ctx := .Context -}}
 {{- $active := .active | default "" -}}
+{{- $noteCount := len (partial "notes/garden-pages.html" $ctx) -}}
 {{- $issueData := partialCached "notes/collect-note-issues.html" site "note-issues-v2" -}}
 {{- $issueTotal := add $issueData.brokenCount $issueData.unlinkedCount -}}
-<div class="notes-toolbar mb-6 flex flex-wrap items-center gap-3">
-  {{- if ne $active "list" -}}
-    <a class="btn btn-outline-primary btn-sm" href="{{ `/notes/` | relLangURL }}">All notes</a>
-  {{- end -}}
+<div class="notes-toolbar mb-6 flex flex-wrap items-center gap-2 xl:gap-3">
+  <a
+    class="btn btn-sm{{ if eq $active "list" }} btn-primary{{ else }} btn-outline-primary{{ end }}"
+    href="{{ `/notes/` | relLangURL }}"
+    {{- if eq $active "list" -}}
+      aria-current="page"
+    {{- end -}}>
+    All {{ $noteCount }}<span class="hidden xl:inline"> Notes</span>
+  </a>
   {{- if site.Params.notes.enable_graph -}}
     <a
       class="btn btn-sm{{ if eq $active "graph" }} btn-primary{{ else }} btn-outline-primary{{ end }}"
@@ -13,7 +19,7 @@
       {{- if eq $active "graph" -}}
         aria-current="page"
       {{- end -}}>
-      Graph view
+      Graph<span class="hidden xl:inline"> view</span>
     </a>
   {{- end -}}
   <a
@@ -31,7 +37,7 @@
       {{- if eq $active "cards" -}}
         aria-current="page"
       {{- end -}}>
-      Flashcards
+      <span class="xl:hidden">Cards</span><span class="hidden xl:inline">Flashcards</span>
     </a>
     <a
       class="btn btn-sm{{ if eq $active "review" }} btn-primary{{ else }} btn-outline-primary{{ end }}"
@@ -45,12 +51,4 @@
   {{- if ne $active "note" -}}
     {{ partial "notes/random-note.html" (dict "Context" $ctx "active" $active) }}
   {{- end -}}
-  {{- if eq $active "list" -}}
-    <span class="text-ink-muted text-sm">{{ len (partial "notes/garden-pages.html" $ctx) }} notes</span>
-  {{- end -}}
 </div>
-{{- if ne $active "note" -}}
-{{ with resources.Get "js/notes-random.js" }}
-  <script src="{{ .RelPermalink }}" defer></script>
-{{ end }}
-{{- end -}}

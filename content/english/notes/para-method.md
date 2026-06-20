@@ -11,6 +11,7 @@ slug: "para-method"
 featured: false
 status: evergreen
 review: true
+card_sets: ["Organization", "Workflow"]
 cards:
   - front: "Active work with a deadline lands in my notes."
     back: "Projects bucket. Name it or it stays Resources."
@@ -27,8 +28,9 @@ cards:
 draft: false
 aliases: ["PARA", "Organization", "The Archive Method", "Archive Method", "The Archive"]
 ---
-
 **[[PARA]]** is how I sort notes by life responsibility - not by topic alphabet soup. Four buckets, clear questions.
+
+Extends [[Building a Second Brain]]. Contradicts [[Associative Linking]].
 
 ## See also
 

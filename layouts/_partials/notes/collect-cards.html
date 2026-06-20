@@ -15,7 +15,13 @@
   {{- if $isReview -}}
     {{- range partial "notes/cards-for-page.html" $page -}}
       {{- if ne .kind "shortcode" -}}
-        {{- $cards = $cards | append (dict "front" .front "back" .back "source" $page "kind" .kind) -}}
+        {{- $cards = $cards | append (dict
+          "front" .front
+          "back" .back
+          "source" $page
+          "kind" .kind
+          "sets" .sets
+        ) -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}
@@ -24,7 +30,14 @@
     {{- $front := index . 1 -}}
     {{- $back := index . 2 -}}
     {{- if and $front $back -}}
-      {{- $cards = $cards | append (dict "front" $front "back" $back "source" $page "kind" "shortcode") -}}
+      {{- $sets := partial "notes/card-sets.html" (dict "Page" $page) -}}
+      {{- $cards = $cards | append (dict
+        "front" $front
+        "back" $back
+        "source" $page
+        "kind" "shortcode"
+        "sets" $sets
+      ) -}}
     {{- end -}}
   {{- end -}}
 {{- end -}}
