@@ -63,6 +63,8 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
  {{< youtube AdoeRVzt6FQ >}}
 
+ {{< youtube 2xXtCXEVBqg >}}
+
   - **Birmingham (WTA 125, Grass)**
     - Second Career WTA Title Win
     - First Career WTA Title on Grass
@@ -127,12 +129,13 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
  {{< youtube Rn6uX8S_6O0 >}}
 
   - **Guadalajara (WTA 125, Hard)**
+    - First Career WTA Tournament Win
     - Winner, d. Udvardy 1-6, 7-5, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/p-udvardy-vs-a-eala-2025-09-06)
     - Semifinals, d. Day 6-2, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/k-day-vs-a-eala-2025-09-05)
     - Quarterfinals, d. Fossa Huergo 7-6(2), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/n-fossa-huergo-vs-a-eala-2025-09-04)
     - Round of 16, d. Lepchenko 6-3, 7-6(3), 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/v-lepchenko-vs-a-eala-2025-09-03)
     - Round of 32, d. Hartono 6-2, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS031) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/a-hartono-vs-a-eala-2025-09-02)
-    - First Career WTA Tournament Win
+    
 
   - **Eastbourne Open (WTA 250, Grass)**
     - First Filipina to reach WTA Tour Finals
@@ -153,13 +156,13 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
     - Round of 32, d. Cabrera 7-6(4), 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/1127/ilkley-125/2025/scores/LS016) | [tennis.com](https://www.tennis.com/tournaments/lexus-ilkley-open/matches/a-eala-vs-l-cabrera-2025-06-09)
 
   - **Miami Open (WTA 1000, Hard)**
+    - First Filipina to reach WTA 1000 Tour Semifinals
     - Semifinals, l. Pegula 6-7(3), 7-5, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/j-pegula-vs-a-eala-2025-03-28)
     - Quarterfinals, d. Świątek 6-2, 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-i-swiatek-2025-03-26)
     - Round of 16, d. Badosa w/o | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/p-badosa-vs-a-eala-2025-03-25)
     - Round of 32, d. Keys 6-4, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS028) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/m-keys-vs-a-eala-2025-03-24)
     - Round of 64, d. Ostapenko 7-6(2), 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS057) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/j-ostapenko-vs-a-eala-2025-03-22)
     - Round of 128, d. Volynets 6-3, 7-6(3) | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS114) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/k-volynets-vs-a-eala-2025-03-20)
-    - First Filipina to reach WTA 1000 Tour Semifinals
 
   - **Canberra International (WTA 125, Hard)**
     - Semifinals, l. Wei 5-7, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2096/canberra-125/2025/scores/LS003)
