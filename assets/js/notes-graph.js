@@ -569,6 +569,7 @@
     });
 
     function endPointer(evt) {
+      releaseCanvasCapture(evt);
       if (draggingNode && !panning && !dragMoved) {
         var pos = pointerPos(evt);
         var world = screenToWorld(pos.x, pos.y);
@@ -590,7 +591,8 @@
     }
 
     canvas.addEventListener("pointerup", endPointer);
-    canvas.addEventListener("pointercancel", function () {
+    canvas.addEventListener("pointercancel", function (evt) {
+      releaseCanvasCapture(evt);
       draggingNode = null;
       dragMoved = false;
       dragStart = null;
@@ -673,19 +675,49 @@
       });
     }
 
+    function applyGraphFilter(value, activeBtn) {
+      graphFilter = value || "all";
+      filterEls.forEach(function (el) {
+        var active = el === activeBtn;
+        el.classList.toggle("is-active", active);
+        el.setAttribute("aria-pressed", active ? "true" : "false");
+      });
+      hovered = graphFilter === "all" ? focusNode || null : null;
+      fitToView();
+      draw();
+      wake();
+    }
+
+    function releaseCanvasCapture(evt) {
+      if (!evt || typeof canvas.hasPointerCapture !== "function") return;
+      try {
+        if (canvas.hasPointerCapture(evt.pointerId)) {
+          canvas.releasePointerCapture(evt.pointerId);
+        }
+      } catch (e) {
+        /* ignore */
+      }
+    }
+
     if (filterEls.length) {
+      var filterTapLock = false;
       filterEls.forEach(function (btn) {
+        var value = btn.getAttribute("data-graph-filter") || "all";
+        btn.addEventListener(
+          "pointerup",
+          function (evt) {
+            if (evt.pointerType === "mouse") return;
+            filterTapLock = true;
+            applyGraphFilter(value, btn);
+            window.setTimeout(function () {
+              filterTapLock = false;
+            }, 400);
+          },
+          { passive: true }
+        );
         btn.addEventListener("click", function () {
-          graphFilter = btn.getAttribute("data-graph-filter") || "all";
-          filterEls.forEach(function (el) {
-            var active = el === btn;
-            el.classList.toggle("is-active", active);
-            el.setAttribute("aria-pressed", active ? "true" : "false");
-          });
-          hovered = graphFilter === "all" ? focusNode || null : null;
-          fitToView();
-          draw();
-          wake();
+          if (filterTapLock) return;
+          applyGraphFilter(value, btn);
         });
       });
     }
