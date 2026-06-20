@@ -5,6 +5,28 @@ import "pixi.js/unsafe-eval";
 import "pixi.js";
 import { Application, Color, Container, Graphics, Text } from "pixi.js";
 
+var PRESENT_LOCAL_KEY = "jorap.notesGraph.presentLocal";
+
+function markPresentLocalNavigation() {
+  try {
+    sessionStorage.setItem(PRESENT_LOCAL_KEY, "1");
+  } catch (e) {
+    /* ignore */
+  }
+}
+
+function consumePresentLocalNavigation() {
+  try {
+    if (sessionStorage.getItem(PRESENT_LOCAL_KEY) === "1") {
+      sessionStorage.removeItem(PRESENT_LOCAL_KEY);
+      return true;
+    }
+  } catch (e) {
+    /* ignore */
+  }
+  return false;
+}
+
 async function bootGraphs() {
   var panels = document.querySelectorAll("[data-notes-graph]");
   if (!panels.length) return;
@@ -46,6 +68,7 @@ async function initGraph(panel) {
   var tapSlop = isCoarsePointer ? 12 : 4;
   var isLocalGraph = data.mode === "local";
   var focusId = isLocalGraph ? data.focus || null : null;
+  var resumePresentLocal = isLocalGraph && consumePresentLocalNavigation();
 
   var nodes = data.nodes.map(function (n) {
     return {
@@ -432,7 +455,7 @@ async function initGraph(panel) {
       container.classList.remove("is-expanded");
       if (graphShell) graphShell.classList.remove("is-expanded");
       attachPresentRoot();
-      fullscreenRoot.classList.add("is-present");
+      fullscreenRoot.classList.add("is-present", "graph-icons-top");
       container.classList.add("is-present");
 
       if (!presentHintEl) {
@@ -458,6 +481,7 @@ async function initGraph(panel) {
     } else {
       fullscreenRoot.classList.remove("is-present");
       container.classList.remove("is-present");
+      if (graphShell) graphShell.classList.add("graph-icons-top");
       detachPresentRoot();
       document.body.classList.remove("notes-graph-present-open");
       if (presentHintEl) presentHintEl.hidden = true;
@@ -960,6 +984,9 @@ async function initGraph(panel) {
       if (node && node.url && node !== focusNode) {
         if (evt.metaKey || evt.ctrlKey) {
           window.open(node.url, "_blank", "noopener");
+        } else if (isPresentMode) {
+          markPresentLocalNavigation();
+          window.location.href = node.url;
         } else {
           window.location.href = node.url;
         }
@@ -1157,18 +1184,34 @@ async function initGraph(panel) {
       requestAnimationFrame(bootWhenReady);
       return;
     }
+    if (!isLocalGraph) {
+      colors = readColors();
+      syncCanvasSize();
+      setPresentMode(true);
+      return;
+    }
+    if (resumePresentLocal) {
+      colors = readColors();
+      syncCanvasSize();
+      setPresentMode(true);
+      resumePresentLocal = false;
+      return;
+    }
     boot();
   }
 
   bootWhenReady();
-  requestAnimationFrame(function () {
-    if (syncCanvasSize()) {
-      relayoutGraph();
-      fitToView();
-      draw();
-      wake();
-    }
-  });
+  if (isLocalGraph) {
+    requestAnimationFrame(function () {
+      if (isPresentMode) return;
+      if (syncCanvasSize()) {
+        relayoutGraph();
+        fitToView();
+        draw();
+        wake();
+      }
+    });
+  }
 
   if (typeof ResizeObserver !== "undefined") {
     var resizeObserver = new ResizeObserver(function () {

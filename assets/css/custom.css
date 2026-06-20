@@ -180,6 +180,11 @@ html.dark .notes-issues__item code {
   --graph-control-gap: 0.15rem;
 }
 
+.graph-view-container.is-present .graph-present-hint {
+  top: auto;
+  bottom: 0.65rem;
+}
+
 .notes-graph-panel--local .graph-view,
 .notes-graph-panel--local .notes-graph {
   position: relative;
@@ -238,10 +243,6 @@ body.notes-graph-present-open {
   height: 100%;
 }
 
-.graph-view-container.is-present .graph-icon {
-  z-index: 4;
-}
-
 /* Page graph expanded height must not win over present-mode fullscreen. */
 .notes-graph-panel--page .graph-view-container.is-present .notes-graph,
 .notes-graph-panel--page .graph-view-container.is-present .notes-graph.is-expanded {
@@ -268,8 +269,9 @@ body.notes-graph-present-open {
 
 .graph-icon {
   position: absolute;
-  bottom: var(--graph-control-inset);
-  z-index: 3;
+  top: var(--graph-control-inset);
+  bottom: auto;
+  z-index: 4;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -301,6 +303,19 @@ body.notes-graph-present-open {
 
 .graph-global {
   right: var(--graph-control-inset);
+}
+
+.graph-global--current {
+  opacity: 0.42;
+  color: var(--color-ink-faint);
+  cursor: default;
+  pointer-events: none;
+}
+
+.graph-global--current:hover,
+.graph-global--current:focus-visible {
+  color: var(--color-ink-faint);
+  background: color-mix(in srgb, var(--color-surface) 90%, transparent);
 }
 
 .graph-icon svg {
@@ -662,6 +677,24 @@ body.notes-graph-present-open {
     align-items: center;
     padding: 0.35rem 0.15rem;
   }
+}
+
+/* Graph overlay controls: top-right in inline view and present/fullscreen. */
+.graph-view-container.graph-icons-top > .graph-icon,
+.graph-view-container.is-present > .graph-icon {
+  top: var(--graph-control-inset);
+  bottom: auto;
+  z-index: 4;
+}
+
+.graph-view-container.graph-icons-top > .graph-global,
+.graph-view-container.is-present > .graph-global {
+  right: var(--graph-control-inset);
+}
+
+.graph-view-container.graph-icons-top > .graph-expand,
+.graph-view-container.is-present > .graph-expand {
+  right: calc(var(--graph-control-inset) + var(--graph-control-size) + var(--graph-control-gap));
 }
 
 .wikilink-preview {
