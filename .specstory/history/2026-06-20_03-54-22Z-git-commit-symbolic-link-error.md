@@ -1220,4 +1220,1214 @@ af50f63 Update alex-eala-pro-career-tracker.md
 _**Agent (default)**_
 
 <think><details><summary>Thought Process</summary>
-Committing only the symlink and gitignore fix. Other changes will be left alone.</details></think>
+Committing only the symlink and gitignore fix. Other changes will be left alone.
+
+No changes are staged yet. I'll stage only the `.gitignore` update and the deleted `.cursor/skills/impeccable` files.</details></think>
+
+_**Agent (default)**_
+
+Staging only the impeccable symlink fix (not the other unstaged work), then committing.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git rm -r --cached .cursor/skills/impeccable 2>&1 && git add .gitignore && git diff --cached --stat</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git rm -r --cached .cursor/skills/impeccable 2>&1 && git add .gitignore && git diff --cached --stat
+```
+
+```
+rm '.cursor/skills/impeccable/SKILL.md'
+rm '.cursor/skills/impeccable/reference/adapt.md'
+rm '.cursor/skills/impeccable/reference/animate.md'
+rm '.cursor/skills/impeccable/reference/audit.md'
+rm '.cursor/skills/impeccable/reference/bolder.md'
+rm '.cursor/skills/impeccable/reference/brand.md'
+rm '.cursor/skills/impeccable/reference/clarify.md'
+rm '.cursor/skills/impeccable/reference/codex.md'
+rm '.cursor/skills/impeccable/reference/colorize.md'
+rm '.cursor/skills/impeccable/reference/craft.md'
+rm '.cursor/skills/impeccable/reference/critique.md'
+rm '.cursor/skills/impeccable/reference/delight.md'
+rm '.cursor/skills/impeccable/reference/distill.md'
+rm '.cursor/skills/impeccable/reference/document.md'
+rm '.cursor/skills/impeccable/reference/extract.md'
+rm '.cursor/skills/impeccable/reference/harden.md'
+rm '.cursor/skills/impeccable/reference/hooks.md'
+rm '.cursor/skills/impeccable/reference/init.md'
+rm '.cursor/skills/impeccable/reference/interaction-design.md'
+rm '.cursor/skills/impeccable/reference/layout.md'
+rm '.cursor/skills/impeccable/reference/live.md'
+rm '.cursor/skills/impeccable/reference/onboard.md'
+rm '.cursor/skills/impeccable/reference/optimize.md'
+rm '.cursor/skills/impeccable/reference/overdrive.md'
+rm '.cursor/skills/impeccable/reference/polish.md'
+rm '.cursor/skills/impeccable/reference/product.md'
+rm '.cursor/skills/impeccable/reference/quieter.md'
+rm '.cursor/skills/impeccable/reference/shape.md'
+rm '.cursor/skills/impeccable/reference/typeset.md'
+rm '.cursor/skills/impeccable/scripts/command-metadata.json'
+rm '.cursor/skills/impeccable/scripts/context-signals.mjs'
+rm '.cursor/skills/impeccable/scripts/context.mjs'
+rm '.cursor/skills/impeccable/scripts/critique-storage.mjs'
+rm '.cursor/skills/impeccable/scripts/detect-csp.mjs'
+rm '.cursor/skills/impeccable/scripts/detect.mjs'
+rm '.cursor/skills/impeccable/scripts/detector/browser/injected/index.mjs'
+rm '.cursor/skills/impeccable/scripts/detector/cli/main.mjs'
+rm '.cursor/skills/impeccable/scripts/detector/design-system.mjs'
+rm '.cursor/skills/impeccable/scripts/detector/detect-antipatterns-browser.js'
+rm '.cursor/skills/impeccable/scripts/detector/detect-antipatterns.mjs'
+rm '.cursor/skills/impeccable/scripts/detector/engines/browser/detect-url.mjs'
+rm '.cursor/skills/impeccable/scripts/detector/engines/regex/detect-text.mjs'
+rm '.cursor/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs'
+rm '.cursor/skills/impeccable/scripts/detector/engines/static-html/detect-html.mjs'
+rm '.cursor/skills/impeccable/scripts/detector/engines/visual/screenshot-contrast.mjs'
+rm '.cursor/skills/impeccable/scripts/detector/findings.mjs'
+rm '.cursor/skills/impeccable/scripts/detector/node/file-system.mjs'
+rm '.cursor/skills/impeccable/scripts/detector/profile/profiler.mjs'
+rm '.cursor/skills/impeccable/scripts/detector/registry/antipatterns.mjs'
+rm '.cursor/skills/impeccable/scripts/detector/rules/checks.mjs'
+rm '.cursor/skills/impeccable/scripts/detector/shared/color.mjs'
+rm '.cursor/skills/impeccable/scripts/detector/shared/constants.mjs'
+rm '.cursor/skills/impeccable/scripts/detector/shared/page.mjs'
+rm '.cursor/skills/impeccable/scripts/hook-admin.mjs'
+rm '.cursor/skills/impeccable/scripts/hook-before-edit.mjs'
+rm '.cursor/skills/impeccable/scripts/hook-lib.mjs'
+rm '.cursor/skills/impeccable/scripts/hook.mjs'
+rm '.cursor/skills/impeccable/scripts/lib/design-parser.mjs'
+rm '.cursor/skills/impeccable/scripts/lib/impeccable-config.mjs'
+rm '.cursor/skills/impeccable/scripts/lib/impeccable-paths.mjs'
+rm '.cursor/skills/impeccable/scripts/lib/is-generated.mjs'
+rm '.cursor/skills/impeccable/scripts/live-accept.mjs'
+rm '.cursor/skills/impeccable/scripts/live-browser-dom.js'
+rm '.cursor/skills/impeccable/scripts/live-browser-session.js'
+rm '.cursor/skills/impeccable/scripts/live-browser.js'
+rm '.cursor/skills/impeccable/scripts/live-commit-manual-edits.mjs'
+rm '.cursor/skills/impeccable/scripts/live-complete.mjs'
+rm '.cursor/skills/impeccable/scripts/live-copy-edit-agent.mjs'
+rm '.cursor/skills/impeccable/scripts/live-discard-manual-edits.mjs'
+rm '.cursor/skills/impeccable/scripts/live-inject.mjs'
+rm '.cursor/skills/impeccable/scripts/live-insert.mjs'
+rm '.cursor/skills/impeccable/scripts/live-manual-edit-evidence.mjs'
+rm '.cursor/skills/impeccable/scripts/live-poll.mjs'
+rm '.cursor/skills/impeccable/scripts/live-resume.mjs'
+rm '.cursor/skills/impeccable/scripts/live-server.mjs'
+rm '.cursor/skills/impeccable/scripts/live-status.mjs'
+rm '.cursor/skills/impeccable/scripts/live-wrap.mjs'
+rm '.cursor/skills/impeccable/scripts/live.mjs'
+rm '.cursor/skills/impeccable/scripts/live/browser-script-parts.mjs'
+rm '.cursor/skills/impeccable/scripts/live/completion.mjs'
+rm '.cursor/skills/impeccable/scripts/live/event-validation.mjs'
+rm '.cursor/skills/impeccable/scripts/live/insert-ui.mjs'
+rm '.cursor/skills/impeccable/scripts/live/manual-apply.mjs'
+rm '.cursor/skills/impeccable/scripts/live/manual-edit-routes.mjs'
+rm '.cursor/skills/impeccable/scripts/live/manual-edits-buffer.mjs'
+rm '.cursor/skills/impeccable/scripts/live/session-store.mjs'
+rm '.cursor/skills/impeccable/scripts/live/svelte-component.mjs'
+rm '.cursor/skills/impeccable/scripts/live/sveltekit-adapter.mjs'
+rm '.cursor/skills/impeccable/scripts/live/ui-core.mjs'
+rm '.cursor/skills/impeccable/scripts/live/vocabulary.mjs'
+rm '.cursor/skills/impeccable/scripts/modern-screenshot.umd.js'
+rm '.cursor/skills/impeccable/scripts/palette.mjs'
+rm '.cursor/skills/impeccable/scripts/pin.mjs'
+ .cursor/skills/impeccable/SKILL.md                 |   164 -
+ .cursor/skills/impeccable/reference/adapt.md       |   311 -
+ .cursor/skills/impeccable/reference/animate.md     |   201 -
+ .cursor/skills/impeccable/reference/audit.md       |   133 -
+ .cursor/skills/impeccable/reference/bolder.md      |   113 -
+ .cursor/skills/impeccable/reference/brand.md       |   108 -
+ .cursor/skills/impeccable/reference/clarify.md     |   288 -
+ .cursor/skills/impeccable/reference/codex.md       |   105 -
+ .cursor/skills/impeccable/reference/colorize.md    |   257 -
+ .cursor/skills/impeccable/reference/craft.md       |   123 -
+ .cursor/skills/impeccable/reference/critique.md    |   767 --
+ .cursor/skills/impeccable/reference/delight.md     |   302 -
+ .cursor/skills/impeccable/reference/distill.md     |   111 -
+ .cursor/skills/impeccable/reference/document.md    |   429 -
+ .cursor/skills/impeccable/reference/extract.md     |    69 -
+ .cursor/skills/impeccable/reference/harden.md      |   347 -
+ .cursor/skills/impeccable/reference/hooks.md       |    90 -
+ .cursor/skills/impeccable/reference/init.md        |   172 -
+ .../impeccable/reference/interaction-design.md     |   189 -
+ .cursor/skills/impeccable/reference/layout.md      |   161 -
+ .cursor/skills/impeccable/reference/live.md        |   718 --
+ .cursor/skills/impeccable/reference/onboard.md     |   234 -
+ .cursor/skills/impeccable/reference/optimize.md    |   258 -
+ .cursor/skills/impeccable/reference/overdrive.md   |   130 -
+ .cursor/skills/impeccable/reference/polish.md      |   241 -
+ .cursor/skills/impeccable/reference/product.md     |    60 -
+ .cursor/skills/impeccable/reference/quieter.md     |    99 -
+ .cursor/skills/impeccable/reference/shape.md       |   165 -
+ .cursor/skills/impeccable/reference/typeset.md     |   279 -
+ .../impeccable/scripts/command-metadata.json       |    94 -
+ .../skills/impeccable/scripts/context-signals.mjs  |   225 -
+ .cursor/skills/impeccable/scripts/context.mjs      |   280 -
+ .../skills/impeccable/scripts/critique-storage.mjs |   242 -
+ .cursor/skills/impeccable/scripts/detect-csp.mjs   |   198 -
+ .cursor/skills/impeccable/scripts/detect.mjs       |    21 -
+ .../scripts/detector/browser/injected/index.mjs    |  1937 ----
+ .../impeccable/scripts/detector/cli/main.mjs       |   268 -
+ .../impeccable/scripts/detector/design-system.mjs  |   750 --
+ .../detector/detect-antipatterns-browser.js        |  5138 ---------
+ .../scripts/detector/detect-antipatterns.mjs       |    50 -
+ .../detector/engines/browser/detect-url.mjs        |   277 -
+ .../scripts/detector/engines/regex/detect-text.mjs |   564 -
+ .../detector/engines/static-html/css-cascade.mjs   |  1015 --
+ .../detector/engines/static-html/detect-html.mjs   |   229 -
+ .../engines/visual/screenshot-contrast.mjs         |   189 -
+ .../impeccable/scripts/detector/findings.mjs       |    12 -
+ .../scripts/detector/node/file-system.mjs          |   198 -
+ .../scripts/detector/profile/profiler.mjs          |   166 -
+ .../scripts/detector/registry/antipatterns.mjs     |   448 -
+ .../impeccable/scripts/detector/rules/checks.mjs   |  2671 -----
+ .../impeccable/scripts/detector/shared/color.mjs   |   124 -
+ .../scripts/detector/shared/constants.mjs          |   101 -
+ .../impeccable/scripts/detector/shared/page.mjs    |     7 -
+ .cursor/skills/impeccable/scripts/hook-admin.mjs   |   636 --
+ .../skills/impeccable/scripts/hook-before-edit.mjs |   476 -
+ .cursor/skills/impeccable/scripts/hook-lib.mjs     |  1526 ---
+ .cursor/skills/impeccable/scripts/hook.mjs         |    61 -
+ .../impeccable/scripts/lib/design-parser.mjs       |   842 --
+ .../impeccable/scripts/lib/impeccable-config.mjs   |   638 --
+ .../impeccable/scripts/lib/impeccable-paths.mjs    |   126 -
+ .../skills/impeccable/scripts/lib/is-generated.mjs |    69 -
+ .cursor/skills/impeccable/scripts/live-accept.mjs  |   812 --
+ .../skills/impeccable/scripts/live-browser-dom.js  |   146 -
+ .../impeccable/scripts/live-browser-session.js     |   123 -
+ .cursor/skills/impeccable/scripts/live-browser.js  | 11161 -------------------
+ .../scripts/live-commit-manual-edits.mjs           |  1241 ---
+ .../skills/impeccable/scripts/live-complete.mjs    |    75 -
+ .../impeccable/scripts/live-copy-edit-agent.mjs    |   683 --
+ .../scripts/live-discard-manual-edits.mjs          |    51 -
+ .cursor/skills/impeccable/scripts/live-inject.mjs  |   583 -
+ .cursor/skills/impeccable/scripts/live-insert.mjs  |   272 -
+ .../scripts/live-manual-edit-evidence.mjs          |   363 -
+ .cursor/skills/impeccable/scripts/live-poll.mjs    |   379 -
+ .cursor/skills/impeccable/scripts/live-resume.mjs  |    94 -
+ .cursor/skills/impeccable/scripts/live-server.mjs  |  1134 --
+ .cursor/skills/impeccable/scripts/live-status.mjs  |    61 -
+ .cursor/skills/impeccable/scripts/live-wrap.mjs    |   894 --
+ .cursor/skills/impeccable/scripts/live.mjs         |   246 -
+ .../scripts/live/browser-script-parts.mjs          |    49 -
+ .../skills/impeccable/scripts/live/completion.mjs  |    19 -
+ .../impeccable/scripts/live/event-validation.mjs   |   137 -
+ .../skills/impeccable/scripts/live/insert-ui.mjs   |   458 -
+ .../impeccable/scripts/live/manual-apply.mjs       |   939 --
+ .../impeccable/scripts/live/manual-edit-routes.mjs |   357 -
+ .../scripts/live/manual-edits-buffer.mjs           |   152 -
+ .../impeccable/scripts/live/session-store.mjs      |   289 -
+ .../impeccable/scripts/live/svelte-component.mjs   |   826 --
+ .../impeccable/scripts/live/sveltekit-adapter.mjs  |   274 -
+ .cursor/skills/impeccable/scripts/live/ui-core.mjs |   180 -
+ .../skills/impeccable/scripts/live/vocabulary.mjs  |    36 -
+ .../impeccable/scripts/modern-screenshot.umd.js    |    14 -
+ .cursor/skills/impeccable/scripts/palette.mjs      |   633 --
+ .cursor/skills/impeccable/scripts/pin.mjs          |   214 -
+ .gitignore                                         |     4 +-
+ 94 files changed, 3 insertions(+), 49098 deletions(-)
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git commit --trailer "Co-authored-by: Cursor <cursoragent@cursor.com>" -m "$(cat <<'EOF'
+Stop tracking vendored Impeccable skill; link locally instead.
+
+Impeccable sync replaces the skill with a symlink outside the repo, which broke git add/commit on paths beyond the link. Gitignore the directory and remove vendored copies from the index.
+EOF
+)" && git status --short .cursor/skills/impeccable .gitignore</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git commit --trailer "Co-authored-by: Cursor <cursoragent@cursor.com>" -m "$(cat <<'EOF'
+Stop tracking vendored Impeccable skill; link locally instead.
+
+Impeccable sync replaces the skill with a symlink outside the repo, which broke git add/commit on paths beyond the link. Gitignore the directory and remove vendored copies from the index.
+EOF
+)" && git status --short .cursor/skills/impeccable .gitignore
+```
+
+```
+[master df8900d] Stop tracking vendored Impeccable skill; link locally instead.
+ 94 files changed, 3 insertions(+), 49098 deletions(-)
+ delete mode 100644 .cursor/skills/impeccable/SKILL.md
+ delete mode 100644 .cursor/skills/impeccable/reference/adapt.md
+ delete mode 100644 .cursor/skills/impeccable/reference/animate.md
+ delete mode 100644 .cursor/skills/impeccable/reference/audit.md
+ delete mode 100644 .cursor/skills/impeccable/reference/bolder.md
+ delete mode 100644 .cursor/skills/impeccable/reference/brand.md
+ delete mode 100644 .cursor/skills/impeccable/reference/clarify.md
+ delete mode 100644 .cursor/skills/impeccable/reference/codex.md
+ delete mode 100644 .cursor/skills/impeccable/reference/colorize.md
+ delete mode 100644 .cursor/skills/impeccable/reference/craft.md
+ delete mode 100644 .cursor/skills/impeccable/reference/critique.md
+ delete mode 100644 .cursor/skills/impeccable/reference/delight.md
+ delete mode 100644 .cursor/skills/impeccable/reference/distill.md
+ delete mode 100644 .cursor/skills/impeccable/reference/document.md
+ delete mode 100644 .cursor/skills/impeccable/reference/extract.md
+ delete mode 100644 .cursor/skills/impeccable/reference/harden.md
+ delete mode 100644 .cursor/skills/impeccable/reference/hooks.md
+ delete mode 100644 .cursor/skills/impeccable/reference/init.md
+ delete mode 100644 .cursor/skills/impeccable/reference/interaction-design.md
+ delete mode 100644 .cursor/skills/impeccable/reference/layout.md
+ delete mode 100644 .cursor/skills/impeccable/reference/live.md
+ delete mode 100644 .cursor/skills/impeccable/reference/onboard.md
+ delete mode 100644 .cursor/skills/impeccable/reference/optimize.md
+ delete mode 100644 .cursor/skills/impeccable/reference/overdrive.md
+ delete mode 100644 .cursor/skills/impeccable/reference/polish.md
+ delete mode 100644 .cursor/skills/impeccable/reference/product.md
+ delete mode 100644 .cursor/skills/impeccable/reference/quieter.md
+ delete mode 100644 .cursor/skills/impeccable/reference/shape.md
+ delete mode 100644 .cursor/skills/impeccable/reference/typeset.md
+ delete mode 100644 .cursor/skills/impeccable/scripts/command-metadata.json
+ delete mode 100644 .cursor/skills/impeccable/scripts/context-signals.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/context.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/critique-storage.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/detect-csp.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/detect.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/detector/browser/injected/index.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/detector/cli/main.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/detector/design-system.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/detector/detect-antipatterns-browser.js
+ delete mode 100644 .cursor/skills/impeccable/scripts/detector/detect-antipatterns.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/detector/engines/browser/detect-url.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/detector/engines/regex/detect-text.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/detector/engines/static-html/css-cascade.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/detector/engines/static-html/detect-html.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/detector/engines/visual/screenshot-contrast.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/detector/findings.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/detector/node/file-system.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/detector/profile/profiler.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/detector/registry/antipatterns.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/detector/rules/checks.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/detector/shared/color.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/detector/shared/constants.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/detector/shared/page.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/hook-admin.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/hook-before-edit.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/hook-lib.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/hook.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/lib/design-parser.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/lib/impeccable-config.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/lib/impeccable-paths.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/lib/is-generated.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live-accept.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live-browser-dom.js
+ delete mode 100644 .cursor/skills/impeccable/scripts/live-browser-session.js
+ delete mode 100644 .cursor/skills/impeccable/scripts/live-browser.js
+ delete mode 100644 .cursor/skills/impeccable/scripts/live-commit-manual-edits.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live-complete.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live-copy-edit-agent.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live-discard-manual-edits.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live-inject.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live-insert.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live-manual-edit-evidence.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live-poll.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live-resume.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live-server.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live-status.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live-wrap.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live/browser-script-parts.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live/completion.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live/event-validation.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live/insert-ui.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live/manual-apply.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live/manual-edit-routes.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live/manual-edits-buffer.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live/session-store.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live/svelte-component.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live/sveltekit-adapter.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live/ui-core.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/live/vocabulary.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/modern-screenshot.umd.js
+ delete mode 100644 .cursor/skills/impeccable/scripts/palette.mjs
+ delete mode 100644 .cursor/skills/impeccable/scripts/pin.mjs
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/impeccable</summary>
+
+```bash
+ls -la /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/impeccable
+```
+
+```
+lrwxrwxrwx 1 root root 60 Jun 20 10:48 /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/impeccable -&gt; ../../../impeccable/dist/universal/.cursor/skills/impeccable
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+Committed as `df8900d`:
+
+**Stop tracking vendored Impeccable skill; link locally instead.**
+
+- Removed 93 vendored files under `.cursor/skills/impeccable/` from Git
+- Added `.cursor/skills/impeccable` to `.gitignore`
+
+Your local symlink is unchanged and still points at `../impeccable`. Your other unstaged work (notes, layouts, sync-upstreams, etc.) was left out of this commit.
+
+---
+
+_**User**_
+
+do not show Flashcards on random notes
+
+---
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Flashcards should be hidden on random notes.</details></think>
+
+_**Agent (default)**_
+
+Searching how flashcards are rendered and how random notes are identified.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,md,css,js}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "flashcard|Flashcard"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "flashcard|Flashcard",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "assets/js/notes-review.js"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/pareto-principle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/review.html"
+    },
+    {
+      "matchCount": 6,
+      "uri": "layouts/_partials/notes/flashcard.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/shortcodes/card.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/collect-cards.html"
+    },
+    {
+      "matchCount": 6,
+      "uri": "layouts/_partials/notes/note-flashcards.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/cards.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/notes/cards.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/issues.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/review.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "assets/js/notes-flashcard.js"
+    },
+    {
+      "matchCount": 14,
+      "uri": "assets/css/custom.css"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/getting-started.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "layouts/notes/single.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/spaced-repetition.md"
+    }
+  ],
+  "totalFiles": 17,
+  "totalMatches": 51
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "random*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "random"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "random",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/random-two.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/random-three.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 8
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **/home/jorap/Documents/GitHub/jorap.com** (1 file)
+
+| File |
+|------|
+| `layouts/_partials/notes/note-flashcards.html` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+I need to understand how note-flashcards.html works.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-flashcards.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **6** results in **1** directory</summary>
+
+Directory: **/home/jorap/Documents/GitHub/jorap.com** (6 files)
+
+| File |
+|------|
+| `layouts/_partials/notes/random-unrelated-notes.html` |
+| `layouts/notes/random-three.html` |
+| `layouts/notes/random-two.html` |
+| `layouts/_partials/blog/random-unrelated-notes.html` |
+| `layouts/_partials/notes/random-note.html` |
+| `layouts/_partials/notes/random-pool.html` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Checking random note partials and layouts to understand how notes render.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-note.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-unrelated-notes.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/random-two.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/random-three.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/cards-for-page.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Random notes load client-side via JavaScript.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/notes-random*.js",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "flashcard|Flashcard|cards"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "flashcard|Flashcard|cards",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/notes-single-random*.js",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "flashcard|Flashcard|cards"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "flashcard|Flashcard|cards",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-pool.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
+
+Directory: **/home/jorap/Documents/GitHub/jorap.com** (2 files)
+
+| File |
+|------|
+| `assets/js/notes-random-three.js` |
+| `assets/js/notes-random-two.js` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **/home/jorap/Documents/GitHub/jorap.com** (1 file)
+
+| File |
+|------|
+| `assets/js/notes-single-random-notes.js` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-two.js</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-single-random-notes.js</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The issue is in the `cloneArticleBody` function in `notes-random-two`.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js",
+  "pattern": "skipArticleSelector"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js",
+  "pattern": "skipArticleSelector",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "assets/js/notes-random-two.js"
+    },
+    {
+      "matchCount": 2,
+      "uri": "assets/js/blog-random-notes.js"
+    },
+    {
+      "matchCount": 2,
+      "uri": "assets/js/notes-single-random-notes.js"
+    },
+    {
+      "matchCount": 2,
+      "uri": "assets/js/notes-random-three.js"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 8
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 1,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js",
+  "pattern": "skipArticleSelector ="
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js",
+  "pattern": "skipArticleSelector =",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "assets/js/notes-random-two.js"
+    },
+    {
+      "matchCount": 2,
+      "uri": "assets/js/blog-random-notes.js"
+    },
+    {
+      "matchCount": 2,
+      "uri": "assets/js/notes-random-three.js"
+    },
+    {
+      "matchCount": 2,
+      "uri": "assets/js/notes-single-random-notes.js"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Adding `.notes-note-flashcards` to all four skip selectors to hide flashcards on random notes.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js",
+  "pattern": "cloneArticleBody|notes-random"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js",
+  "pattern": "cloneArticleBody|notes-random",
+  "topFiles": [
+    {
+      "matchCount": 11,
+      "uri": "assets/js/notes-single-random-notes.js"
+    },
+    {
+      "matchCount": 13,
+      "uri": "assets/js/notes-random-three.js"
+    },
+    {
+      "matchCount": 14,
+      "uri": "assets/js/notes-random-two.js"
+    },
+    {
+      "matchCount": 2,
+      "uri": "assets/js/notes-list.js"
+    },
+    {
+      "matchCount": 11,
+      "uri": "assets/js/blog-random-notes.js"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 51
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Four files need the same update.</details></think>
+
+_**Agent (default)**_
+
+Random note views clone article children but don't exclude the flashcards aside. Adding `.notes-note-flashcards` to the skip selector in all four random-note JS files.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-two.js</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random-three.js</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-single-random-notes.js</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/blog-random-notes.js</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Fixed the random note view. Full note pages and cloned article children were incorrectly including flashcards.</details></think>
+
+_**Agent (default)**_
+
+Random note panels fetch full note pages and clone the article body, but the skip list didn’t exclude the flashcards aside. I added `.notes-note-flashcards` to that list in:
+
+- `assets/js/notes-random-two.js`
+- `assets/js/notes-random-three.js`
+- `assets/js/notes-single-random-notes.js` (bottom of single note pages)
+- `assets/js/blog-random-notes.js`
+
+Flashcards still show on the note’s own page — they’re just omitted from random/shuffle previews. Rebuild or refresh to pick up the JS change.
+
+---
+
+_**User**_
+
+i am seeing notes with wikilinks that have no notes. i am not seeing it in the issues page
+
+---
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Wikilinks pointing to missing notes are visible in the note view but not on the issues page.</details></think>
+
+_**Agent (default)**_
+
+Investigating how broken wikilinks are detected and what the issues page reports.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/lint-note-issues.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/issues.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/issues.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Investigating how link-registry.html builds its keys to find why wiki-linked notes are missing.</details></think>

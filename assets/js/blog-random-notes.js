@@ -246,7 +246,7 @@
   }
 
   var skipArticleSelector =
-    ".notes-graph-panel, .notes-toolbar, .article-title, .toc-wrapper, .notes-outgoing, .notes-see-also, .notes-backlinks";
+    ".notes-graph-panel, .notes-toolbar, .article-title, .toc-wrapper, .notes-outgoing, .notes-see-also, .notes-backlinks, .notes-note-flashcards";
 
   function cloneArticleBody(article) {
     var body = document.createElement("div");
