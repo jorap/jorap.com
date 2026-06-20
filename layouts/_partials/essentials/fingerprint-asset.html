@@ -1,6 +1,6 @@
 {{/*
-  Publish a Hugo asset with production fingerprinting for cache busting.
-  Matches the main script/style bundles in themes/jorap/layouts/_partials/essentials/.
+  Publish a Hugo asset with content-hash cache busting (dev + production).
+  Matches the main script/style bundles in layouts/_partials/essentials/.
 
   Params:
     - src (required): asset path, e.g. "js/notes-graph.js"
@@ -21,20 +21,20 @@
     {{- end -}}
     {{- $asset = $asset | js.Build $buildOpts -}}
   {{- end -}}
-  {{- if hugo.IsProduction -}}
-    {{- $asset = $asset | minify | fingerprint -}}
-  {{- end -}}
+  {{- $asset = partial "essentials/publish-asset.html" (dict "resource" $asset) -}}
   {{- if eq $as "script" -}}
     <script
       src="{{ $asset.RelPermalink }}"
-      {{- if hugo.IsProduction }} crossorigin="anonymous" integrity="{{ $asset.Data.Integrity }}"{{ end -}}
+      crossorigin="anonymous"
+      {{ with $asset.Data.Integrity }}integrity="{{ . }}"{{ end -}}
       {{- if $params.defer }} defer{{ end -}}
       {{- if $params.async }} async{{ end -}}></script>
   {{- else if eq $as "style" -}}
     <link
       rel="stylesheet"
       href="{{ $asset.RelPermalink }}"
-      {{- if hugo.IsProduction }} crossorigin="anonymous" integrity="{{ $asset.Data.Integrity }}"{{ end -}} />
+      crossorigin="anonymous"
+      {{ with $asset.Data.Integrity }}integrity="{{ . }}"{{ end }} />
   {{- end -}}
 {{- else -}}
   {{- warnf "fingerprint-asset: missing resource %q" $src -}}

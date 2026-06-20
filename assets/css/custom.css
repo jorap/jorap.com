@@ -175,6 +175,9 @@ html.dark .notes-issues__item code {
 
 .graph-view-container {
   position: relative;
+  --graph-control-inset: 0.45rem;
+  --graph-control-size: 1.75rem;
+  --graph-control-gap: 0.15rem;
 }
 
 .notes-graph-panel--local .graph-view,
@@ -201,11 +204,14 @@ body.notes-graph-present-open {
 
 .graph-view-container.is-present {
   position: fixed;
-  inset: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   z-index: 10000;
   box-sizing: border-box;
-  width: 100vw;
-  height: 100vh;
+  width: auto;
+  height: auto;
   max-width: none;
   margin: 0;
   padding: 0;
@@ -226,8 +232,22 @@ body.notes-graph-present-open {
   border-radius: 0;
 }
 
+.graph-view-container.is-present .notes-graph__canvas {
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .graph-view-container.is-present .graph-icon {
   z-index: 4;
+}
+
+/* Page graph expanded height must not win over present-mode fullscreen. */
+.notes-graph-panel--page .graph-view-container.is-present .notes-graph,
+.notes-graph-panel--page .graph-view-container.is-present .notes-graph.is-expanded {
+  height: 100%;
+  min-height: 0;
+  max-height: none;
 }
 
 .graph-present-hint {
@@ -248,13 +268,15 @@ body.notes-graph-present-open {
 
 .graph-icon {
   position: absolute;
-  bottom: 0.45rem;
+  bottom: var(--graph-control-inset);
   z-index: 3;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.75rem;
-  height: 1.75rem;
+  width: var(--graph-control-size);
+  height: var(--graph-control-size);
+  min-width: var(--graph-control-size);
+  min-height: var(--graph-control-size);
   padding: 0;
   border: 0;
   border-radius: 0.25rem;
@@ -274,11 +296,11 @@ body.notes-graph-present-open {
 }
 
 .graph-expand {
-  right: 2.35rem;
+  right: calc(var(--graph-control-inset) + var(--graph-control-size) + var(--graph-control-gap));
 }
 
 .graph-global {
-  right: 0.45rem;
+  right: var(--graph-control-inset);
 }
 
 .graph-icon svg {
@@ -561,13 +583,19 @@ body.notes-graph-present-open {
 }
 
 @media (max-width: 1279.98px) {
+  .graph-view-container {
+    --graph-control-inset: 0.55rem;
+    --graph-control-size: 2.75rem;
+    --graph-control-gap: 0.35rem;
+  }
+
   .notes-graph-panel--page .notes-graph-toolbar {
     position: sticky;
     top: var(--header-offset);
     z-index: 20;
     isolation: isolate;
-    padding-top: 0.25rem;
-    padding-bottom: 0.5rem;
+    padding-top: 0.55rem;
+    padding-bottom: 0.55rem;
     background: var(--color-surface);
     border-bottom: 1px solid var(--color-divider);
     touch-action: manipulation;
@@ -608,11 +636,7 @@ body.notes-graph-present-open {
 
   .notes-graph-btn {
     min-width: 2.75rem;
-  }
-
-  .graph-icon {
-    width: 2.25rem;
-    height: 2.25rem;
+    padding: 0.55rem 0.65rem;
   }
 
   .graph-icon svg {

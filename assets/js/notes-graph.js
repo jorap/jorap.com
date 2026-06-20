@@ -41,6 +41,8 @@ async function initGraph(panel) {
   }
 
   var prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var isCoarsePointer = window.matchMedia("(pointer: coarse)").matches;
+  var tapSlop = isCoarsePointer ? 12 : 4;
   var isLocalGraph = data.mode === "local";
   var focusId = isLocalGraph ? data.focus || null : null;
 
@@ -112,6 +114,10 @@ async function initGraph(panel) {
   var lastHeight = 0;
   var fullscreenRoot = graphShell || panel;
   var presentHintEl = null;
+  var presentHome = null;
+  var presentHomeNext = null;
+  var activePointers = Object.create(null);
+  var pinchState = null;
 
   function resolveToken(token, fallback) {
     var probe = document.createElement("span");
@@ -151,9 +157,9 @@ async function initGraph(panel) {
 
   function containerSize() {
     if (isPresentMode) {
-      var presentRect = container.getBoundingClientRect();
-      var presentW = presentRect.width || container.clientWidth || window.innerWidth;
-      var presentH = presentRect.height || container.clientHeight || window.innerHeight;
+      var vv = window.visualViewport;
+      var presentW = vv ? vv.width : window.innerWidth;
+      var presentH = vv ? vv.height : window.innerHeight;
       return {
         width: Math.max(presentW, 1),
         height: Math.max(presentH, 1),
@@ -321,10 +327,15 @@ async function initGraph(panel) {
       return;
     }
 
+    var cx = width / 2;
+    var cy = height / 2;
+    var worldX = (cx - defaultTransform.x) / defaultTransform.k;
+    var worldY = (cy - defaultTransform.y) / defaultTransform.k;
+    var fromK = defaultTransform.k * 0.76;
     var from = {
-      k: defaultTransform.k * 0.76,
-      x: defaultTransform.x + width * 0.03,
-      y: defaultTransform.y + height * 0.03,
+      k: fromK,
+      x: cx - worldX * fromK,
+      y: cy - worldY * fromK,
     };
     transform.x = from.x;
     transform.y = from.y;
@@ -366,6 +377,45 @@ async function initGraph(panel) {
     });
   }
 
+  function attachPresentRoot() {
+    if (!presentHome) {
+      presentHome = fullscreenRoot.parentNode;
+      presentHomeNext = fullscreenRoot.nextSibling;
+    }
+    if (fullscreenRoot.parentNode !== document.body) {
+      document.body.appendChild(fullscreenRoot);
+    }
+  }
+
+  function detachPresentRoot() {
+    if (presentHome && fullscreenRoot.parentNode === document.body) {
+      presentHome.insertBefore(fullscreenRoot, presentHomeNext);
+    }
+  }
+
+  function resetGraphView(inPresent) {
+    if (searchEl) searchEl.value = "";
+    searchQuery = "";
+    hovered = focusNode || null;
+    initPositions();
+    if (inPresent) {
+      settlePresentLayout();
+    } else {
+      settleLayout();
+      simAlpha = prefersReducedMotion ? 0 : 0.85;
+    }
+    fitToView();
+    if (inPresent) animatePresentIntro();
+  }
+
+  function refocusLocalGraph() {
+    hovered = focusNode || null;
+    initPositions();
+    settleLayout();
+    simAlpha = prefersReducedMotion ? 0 : 0.22;
+    fitToView();
+  }
+
   function setPresentMode(on) {
     if (on === isPresentMode) return;
 
@@ -380,6 +430,7 @@ async function initGraph(panel) {
       savedSimAlpha = simAlpha;
       container.classList.remove("is-expanded");
       if (graphShell) graphShell.classList.remove("is-expanded");
+      attachPresentRoot();
       fullscreenRoot.classList.add("is-present");
       container.classList.add("is-present");
 
@@ -393,24 +444,31 @@ async function initGraph(panel) {
       document.body.classList.add("notes-graph-present-open");
 
       window.requestAnimationFrame(function () {
-        syncCanvasSize();
-        initPositions();
-        settlePresentLayout();
-        fitToView();
-        animatePresentIntro();
-        draw();
-        wake();
+        window.requestAnimationFrame(function () {
+          syncCanvasSize();
+          initPositions();
+          settlePresentLayout();
+          fitToView();
+          animatePresentIntro();
+          draw();
+          wake();
+        });
       });
     } else {
       fullscreenRoot.classList.remove("is-present");
       container.classList.remove("is-present");
+      detachPresentRoot();
       document.body.classList.remove("notes-graph-present-open");
       if (presentHintEl) presentHintEl.hidden = true;
       simAlpha = prefersReducedMotion ? 0 : savedSimAlpha || 0.22;
 
       window.requestAnimationFrame(function () {
         syncCanvasSize();
-        fitToView();
+        if (!isLocalGraph) {
+          resetGraphView(false);
+        } else {
+          refocusLocalGraph();
+        }
         draw();
         wake();
       });
@@ -477,12 +535,12 @@ async function initGraph(panel) {
       maxY = Math.max(maxY, n.y + r + labelH);
     });
 
-    var useFocusCenter = focusNode && !typeFilterActive();
-    var pad = useFocusCenter ? 44 : 56;
+    var useFocusCenter = focusNode && !typeFilterActive() && !isPresentMode;
+    var pad = isPresentMode ? 72 : useFocusCenter ? 44 : 56;
     var graphW = Math.max(maxX - minX, 1);
     var graphH = Math.max(maxY - minY, 1);
-    var k = Math.min((width - pad * 2) / graphW, (height - pad * 2) / graphH, useFocusCenter ? 2 : 1.8);
-    k = Math.max(k, 0.25) * 2;
+    var kFit = Math.min((width - pad * 2) / graphW, (height - pad * 2) / graphH, useFocusCenter ? 2 : 1.8);
+    var k = isPresentMode ? Math.max(kFit, 0.25) : Math.max(kFit, 0.25) * 2;
 
       var cx = useFocusCenter ? focusNode.x : (minX + maxX) / 2;
       var cy = useFocusCenter ? focusNode.y : (minY + maxY) / 2;
@@ -740,11 +798,106 @@ async function initGraph(panel) {
     wake();
   }
 
+  function activePointerCount() {
+    var count = 0;
+    for (var id in activePointers) {
+      if (Object.prototype.hasOwnProperty.call(activePointers, id)) count += 1;
+    }
+    return count;
+  }
+
+  function trackPointer(evt) {
+    activePointers[evt.pointerId] = { x: evt.clientX, y: evt.clientY };
+  }
+
+  function untrackPointer(evt) {
+    delete activePointers[evt.pointerId];
+  }
+
+  function pointerMidpointCanvas() {
+    var rect = canvas.getBoundingClientRect();
+    var pts = [];
+    for (var id in activePointers) {
+      if (Object.prototype.hasOwnProperty.call(activePointers, id)) {
+        pts.push(activePointers[id]);
+      }
+    }
+    if (pts.length < 2) return null;
+    return {
+      x: (pts[0].x + pts[1].x) / 2 - rect.left,
+      y: (pts[0].y + pts[1].y) / 2 - rect.top,
+      dist: Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y),
+    };
+  }
+
+  function releaseAllCapture() {
+    if (typeof canvas.releasePointerCapture !== "function") return;
+    for (var id in activePointers) {
+      if (!Object.prototype.hasOwnProperty.call(activePointers, id)) continue;
+      try {
+        if (canvas.hasPointerCapture(Number(id))) {
+          canvas.releasePointerCapture(Number(id));
+        }
+      } catch (e) {
+        /* ignore */
+      }
+    }
+  }
+
+  function beginPinch() {
+    var mid = pointerMidpointCanvas();
+    if (!mid || mid.dist < 8) return;
+    var worldBefore = screenToWorld(mid.x, mid.y);
+    pinchState = {
+      startDist: mid.dist,
+      startK: transform.k,
+      worldX: worldBefore.x,
+      worldY: worldBefore.y,
+      midX: mid.x,
+      midY: mid.y,
+    };
+    panning = false;
+    panStart = null;
+    draggingNode = null;
+    dragMoved = true;
+    releaseAllCapture();
+  }
+
+  function updatePinch() {
+    if (!pinchState) return;
+    var mid = pointerMidpointCanvas();
+    if (!mid) return;
+    var scale = mid.dist / pinchState.startDist;
+    var nextK = Math.min(7, Math.max(0.18, pinchState.startK * scale));
+    transform.k = nextK;
+    transform.x = pinchState.midX - pinchState.worldX * nextK;
+    transform.y = pinchState.midY - pinchState.worldY * nextK;
+    wake();
+  }
+
+  function endPinchIfNeeded() {
+    if (activePointerCount() < 2) pinchState = null;
+  }
+
   canvas.addEventListener("pointermove", function (evt) {
+    if (activePointers[evt.pointerId]) {
+      activePointers[evt.pointerId] = { x: evt.clientX, y: evt.clientY };
+    }
+    if (pinchState && activePointerCount() >= 2) {
+      updatePinch();
+      return;
+    }
+
     var pos = pointerPos(evt);
     if (panning && panStart) {
       transform.x = panStart.transformX + (pos.x - panStart.x);
       transform.y = panStart.transformY + (pos.y - panStart.y);
+      if (
+        Math.abs(pos.x - panStart.x) > tapSlop ||
+        Math.abs(pos.y - panStart.y) > tapSlop
+      ) {
+        dragMoved = true;
+      }
       wake();
       return;
     }
@@ -752,7 +905,7 @@ async function initGraph(panel) {
       var world = screenToWorld(pos.x, pos.y);
       if (
         dragStart &&
-        (Math.abs(world.x - dragStart.x) > 4 || Math.abs(world.y - dragStart.y) > 4)
+        (Math.abs(world.x - dragStart.x) > tapSlop || Math.abs(world.y - dragStart.y) > tapSlop)
       ) {
         dragMoved = true;
       }
@@ -769,6 +922,13 @@ async function initGraph(panel) {
   });
 
   canvas.addEventListener("pointerdown", function (evt) {
+    trackPointer(evt);
+    if (activePointerCount() >= 2) {
+      beginPinch();
+      evt.preventDefault();
+      return;
+    }
+
     var pos = pointerPos(evt);
     var world = screenToWorld(pos.x, pos.y);
     var node = hitTest(world);
@@ -782,6 +942,7 @@ async function initGraph(panel) {
       return;
     }
     panning = true;
+    dragMoved = false;
     panStart = { x: pos.x, y: pos.y, transformX: transform.x, transformY: transform.y };
     canvas.setPointerCapture(evt.pointerId);
     setHovered(focusNode || null);
@@ -790,6 +951,7 @@ async function initGraph(panel) {
 
   function endPointer(evt) {
     releaseCanvasCapture(evt);
+    if (pinchState || activePointerCount() > 0) return;
     if (draggingNode && !panning && !dragMoved) {
       var pos = pointerPos(evt);
       var world = screenToWorld(pos.x, pos.y);
@@ -810,16 +972,26 @@ async function initGraph(panel) {
     wake();
   }
 
-  canvas.addEventListener("pointerup", endPointer);
-  canvas.addEventListener("pointercancel", function (evt) {
+  function cancelPointer(evt) {
+    untrackPointer(evt);
+    endPinchIfNeeded();
     releaseCanvasCapture(evt);
+    if (activePointerCount() > 0) return;
     draggingNode = null;
     dragMoved = false;
     dragStart = null;
     panning = false;
     panStart = null;
     wake();
+  }
+
+  canvas.addEventListener("pointerup", function (evt) {
+    untrackPointer(evt);
+    endPinchIfNeeded();
+    if (pinchState || activePointerCount() > 0) return;
+    endPointer(evt);
   });
+  canvas.addEventListener("pointercancel", cancelPointer);
 
   canvas.addEventListener(
     "wheel",
@@ -864,32 +1036,29 @@ async function initGraph(panel) {
       el.addEventListener("click", fn);
     };
 
+  function bindGraphControl(el, fn) {
+    if (!el || typeof fn !== "function") return;
+    el.addEventListener("pointerdown", function (evt) {
+      evt.stopPropagation();
+    });
+    bindTap(el, fn);
+  }
+
   if (resetEl) {
-    bindTap(resetEl, function () {
-      if (searchEl) searchEl.value = "";
-      searchQuery = "";
-      hovered = focusNode || null;
-      initPositions();
-      if (isPresentMode) {
-        settlePresentLayout();
-      } else {
-        settleLayout();
-        simAlpha = prefersReducedMotion ? 0 : 0.85;
-      }
-      fitToView();
-      if (isPresentMode) animatePresentIntro();
+    bindGraphControl(resetEl, function () {
+      resetGraphView(isPresentMode);
       wake();
     });
   }
 
   if (zoomInEl) {
-    bindTap(zoomInEl, function () {
+    bindGraphControl(zoomInEl, function () {
       zoomAt(1.15);
     });
   }
 
   if (zoomOutEl) {
-    bindTap(zoomOutEl, function () {
+    bindGraphControl(zoomOutEl, function () {
       zoomAt(1 / 1.15);
     });
   }
@@ -897,11 +1066,17 @@ async function initGraph(panel) {
   if (expandEls.length) {
     updatePresentUi();
     expandEls.forEach(function (el) {
-      bindTap(el, function () {
+      bindGraphControl(el, function () {
         setPresentMode(!isPresentMode);
       });
     });
   }
+
+  panel.querySelectorAll(".graph-global").forEach(function (el) {
+    el.addEventListener("pointerdown", function (evt) {
+      evt.stopPropagation();
+    });
+  });
 
   document.addEventListener("keydown", function onPresentKey(evt) {
     if (evt.key !== "Escape" || !isPresentMode) return;
@@ -936,7 +1111,7 @@ async function initGraph(panel) {
   if (filterEls.length) {
     filterEls.forEach(function (btn) {
       var value = btn.getAttribute("data-graph-filter") || "all";
-      bindTap(btn, function () {
+      bindGraphControl(btn, function () {
         applyGraphFilter(value, btn);
       });
     });
@@ -1007,9 +1182,20 @@ async function initGraph(panel) {
   window.addEventListener("resize", function () {
     if (!isPresentMode) return;
     syncCanvasSize();
+    fitToView();
     draw();
     wake();
   });
+
+  if (window.visualViewport) {
+    window.visualViewport.addEventListener("resize", function () {
+      if (!isPresentMode) return;
+      syncCanvasSize();
+      fitToView();
+      draw();
+      wake();
+    });
+  }
 
   if (typeof ResizeObserver === "undefined") {
     window.addEventListener("resize", function () {

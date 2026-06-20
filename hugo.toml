@@ -114,6 +114,9 @@ target = 'css'
 [[build.cachebusters]]
 source = '(themes/[^/]+/)?assets/css/.+\.css$'
 target = 'css'
+[[build.cachebusters]]
+source = '(themes/[^/]+/)?assets/js/.+\.js$'
+target = 'js'
 
 ############################# Front matter #########################
 # Notes stale/updated tracking uses filesystem mtime (:fileModTime), not Git or manual lastmod fields.
