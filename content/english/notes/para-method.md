@@ -1,39 +1,37 @@
 ---
 title: "PARA Method"
 meta_title: "PARA Method - Projects, Areas, Resources, Archives"
-description: "PARA sorts notes by life responsibility - Projects, Areas, Resources, Archive."
+description: "PARA sorts notes by life responsibility - enough structure to find things, archive when done."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["PARA", "Tiago Forte", "PKM", "Organization", "Second Brain", "Productivity", "Note Taking"]
+tags: ["PARA", "Tiago Forte", "PKM", "Organization", "Archive", "Second Brain", "Productivity", "Note Taking", "Structure"]
 slug: "para-method"
 featured: false
 status: evergreen
 review: true
 cards:
-  - front: "PARA (four buckets)"
-    back: "Projects, Areas, Resources, Archive."
-  - front: "PARA sorts by"
-    back: "Life responsibility — not topic."
-  - front: "PARA: P stands for"
-    back: "Projects — active work with a deadline."
-  - front: "PARA: first A stands for"
-    back: "Areas — ongoing responsibilities without an end date."
-  - front: "PARA: unnamed project or area?"
-    back: "Stays in Resources until it matters."
-  - front: "PARA: R stands for"
-    back: "Resources — reference material."
+  - front: "Active work with a deadline lands in my notes."
+    back: "Projects bucket. Name it or it stays Resources."
+  - front: "Ongoing responsibility, no end date."
+    back: "Areas bucket."
+  - front: "Reference with no owner yet."
+    back: "Resources - until a project claims it."
+  - front: "PARA sorts by what, not topic?"
+    back: "Life responsibility - project vs area vs reference."
+  - front: "Finished project files?"
+    back: "Archive - out of active Projects."
+  - front: "Topic folder tree vs PARA?"
+    back: "PARA asks who owns it and when it ends - not the subject tag."
 draft: false
-aliases: ["PARA"]
+aliases: ["PARA", "Organization", "The Archive Method", "Archive Method", "The Archive"]
 ---
-**PARA** = sort every note into Projects, Areas, Resources, or Archive — by responsibility, not topic soup.
 
-Four questions, not forty folders. If I can't name the project or area, it probably stays in Resources until it matters. See [[The Archive Method]] when work finishes.
-
-Extends [[Building a Second Brain]]. Contradicts [[Zettelkasten]].
+**[[PARA]]** is how I sort notes by life responsibility - not by topic alphabet soup. Four buckets, clear questions.
 
 ## See also
 
-- [[Building a Second Brain]] — Note Taking, PKM, Productivity
-- [[Active Knowledge Curation]] — Note Taking, PKM, Productivity
+- [[Building a Second Brain]] - Note Taking, PKM, Productivity
+- [[Active Knowledge Curation]] - Note Taking, PKM, Productivity
+- [[GTD vs PARA]] - Note Taking, PARA, PKM

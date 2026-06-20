@@ -13,14 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
-**Drafting in public** = publish rough ideas before they're finished; let readers and time revise them.
 
-Rough posts beat perfect drafts in a folder. Readers correct me; I update the note. That's [[Evergreen Notes]] in practice - living text, not a sealed essay.
-
-Extends [[Digital Garden]]. Contradicts [[Evergreen Notes]].
+I publish rough ideas before they're finished. Drafting in public keeps me honest and makes the garden grow.
 
 ## See also
 
-- [[The Garage Concept]] — Digital Garden, Hugo, PKM
-- [[Getting Started]] — Digital Garden, Hugo, PKM
-- [[Creative Output]] — PKM, Publishing, Writing
+- [[The Garage Concept]] - Digital Garden, Hugo, PKM
+- [[Getting Started]] - Digital Garden, Hugo, PKM
+- [[Creative Output]] - PKM, Publishing, Writing

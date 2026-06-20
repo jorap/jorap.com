@@ -1,26 +1,23 @@
 ---
 title: "Building a Personal API"
 meta_title: "Building a Personal API - Your Notes as Callable Context"
-description: "Personal API means notes future-you and your tools can read easily - not OAuth and microservices."
+description: "My personal API isn't OAuth and microservices. It's structured context for future me and my tools without re-explaining everything."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Personal API", "PKM", "Automation", "Second Brain", "AI", "Knowledge Management", "Static Site Generator", "Documentation"]
+tags: ["Personal API", "PKM", "Automation", "Second Brain", "AI", "Knowledge Management", "Static Site Generator", "Documentation", "Future of PKM", "Trends", "Tools"]
 slug: "building-a-personal-api"
 featured: false
 status: evergreen
 draft: false
-aliases: []
+aliases: ["Future of PKM", "The Future of PKM"]
 ---
-**Personal API** = shape notes so tools and future-you can read them — consistent tags, wikilinks, frontmatter.
 
-Same titles, tags, and folder layout every time - not a mini web server in your closet. Automation works better when your notes follow the same pattern. See [[Metadata Strategy]].
-
-Extends [[Metadata Strategy]]. Contradicts [[Digital Minimalism]].
+My personal API isn't OAuth - it's consistent frontmatter, wikilinks, and folder shapes my tools can read without me re-explaining everything.
 
 ## See also
 
-- [[The Future of PKM]] — AI, PKM, Second Brain
-- [[Building a Second Brain]] — Knowledge Management, PKM, Second Brain
-- [[Digital Garden]] — PKM, Second Brain, Static Site Generator
+- [[Building a Second Brain]] - Knowledge Management, PKM, Second Brain
+- [[Digital Garden]] - PKM, Second Brain, Static Site Generator
+- [[Associative Linking]] - PKM, Second Brain

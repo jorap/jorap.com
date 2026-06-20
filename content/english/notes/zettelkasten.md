@@ -13,14 +13,13 @@ status: evergreen
 draft: false
 aliases: ["slip-box"]
 ---
-**Zettelkasten** = write one idea per note, link heavily, draft by following connections.
 
-I write notes I'd link to, not notes I'd folder. Links matter more than file count. History in [[Slip-box History]]; myths in [[The Zettelkasten Myth]].
+**Zettelkasten** = one [[Atomic Notes|atomic]] idea per note, dense links, writing from the network.
 
-Extends [[Atomic Notes]]. Contradicts [[PARA Method]].
+I write notes I'd link to, not notes I'd folder. Density of links matters more than count of files. History in [[Slip-box History]]; myths in [[The Zettelkasten Myth]].
 
 ## See also
 
-- [[Associative Linking]] — Linking, Note Taking, PKM
-- [[Atomic Design for Notes]] — Atomic Notes, Note Taking, PKM
-- [[Digital Serendipity]] — Linking, Note Taking, PKM
+- [[Associative Linking]] - Linking, Note Taking, PKM
+- [[Atomic Notes]] - Atomic Notes, Note Taking, PKM
+- [[Digital Serendipity]] - Linking, Note Taking, PKM

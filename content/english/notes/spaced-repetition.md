@@ -1,39 +1,25 @@
 ---
 title: "Spaced Repetition"
 meta_title: "Spaced Repetition - Remember What You Chose"
-description: "Spaced repetition schedules reviews before you forget - for facts you need cold, not wiki pages."
+description: "Spaced repetition schedules reviews before I forget. I use it for facts I need cold, not for whole wiki pages."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Spaced Repetition", "SRS", "Anki", "Learning", "Memory", "PKM", "Note Taking"]
+tags: ["Spaced Repetition", "SRS", "Anki", "Learning", "Memory", "PKM", "Note Taking", "Tools"]
 slug: "spaced-repetition"
 featured: false
 status: evergreen
-review: true
-cards:
-  - front: "Spaced repetition (definition)"
-    back: "Review facts on a schedule — not whole essays."
-  - front: "What belongs in SRS?"
-    back: "Facts you need cold recall for."
-  - front: "Spaced repetition: the wiki holds"
-    back: "Linked ideas and understanding."
-  - front: "Spaced repetition: SRS holds"
-    back: "Drill — vocabulary, definitions, references."
-  - front: "How many notes get review:true in this garden?"
-    back: "About 15 spine notes (~20%), not the whole library."
-  - front: "After Feynman finds gaps, use what for drill?"
-    back: "Spaced repetition (SRS)."
 draft: false
-aliases: []
+aliases: ["SRS", "Spaced Repetition Systems", "Spaced Repetition Systems (SRS)"]
 ---
-**Spaced repetition** = review facts on a schedule before you forget - for recall, not whole essays.
 
-Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for. Whole essays don't belong on flashcards. The wiki holds understanding; [[Spaced Repetition Systems (SRS)]] holds drill. Each spine note carries six cards in frontmatter; opt in sparingly. Pairs with [[PKM]], [[Pareto Principle]], and [[RSS for Research]].
+**Spaced repetition** = review facts on a schedule before I forget - for recall, not whole essays.
 
-Extends [[Evergreen Notes]]. Contradicts [[Progressive Summarization]].
+Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for. Whole essays don't belong on flashcards. The wiki holds understanding; Anki or SRS apps hold drill - separate lanes, algorithm handles timing. In this garden, only ~12 spine notes (~20%) opt in with `review: true`, and cards target habits (what to do when) - not definition trivia.
 
 ## See also
 
-- [[The Collector's Fallacy]] — Learning, Note Taking, PKM
-- [[The Feynman Technique]] — Learning, Note Taking, PKM
+- [[Digital Minimalism]] - Note Taking, PKM, Tools
+- [[The Collector's Fallacy]] - Learning, Note Taking, PKM
+- [[The Feynman Technique]] - Learning, Note Taking, PKM

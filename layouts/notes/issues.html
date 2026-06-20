@@ -1,20 +1,15 @@
 {{ define "main" }}
-  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v1" -}}
+  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v2" -}}
   {{- $notes := $data.notes -}}
   {{- $notes = sort $notes "total" "desc" -}}
 
-  <section class="section pt-7">
+  {{ partial "page-header" . }}
+
+  <section class="section">
     <div class="container">
       <div class="row justify-center">
         <div class="lg:col-10">
-          <div class="notes-toolbar mb-4 flex flex-wrap items-center gap-3">
-            <a class="text-accent text-sm no-underline hover:underline" href="{{ `/notes/` | relLangURL }}">← All notes</a>
-            {{ if site.Params.notes.enable_graph }}
-              <a class="text-accent text-sm no-underline hover:underline" href="{{ `/notes/graph/` | relLangURL }}">Graph</a>
-            {{ end }}
-          </div>
-
-          <h1 class="article-title mb-4">{{ .Title }}</h1>
+          {{ partial "notes/toolbar.html" (dict "Context" . "active" "issues") }}
 
           <div class="content notes-content mb-6">
             {{ partial "notes/render-content.html" . }}

@@ -1,7 +1,7 @@
 ---
 title: "Maps of Content"
 meta_title: "Maps of Content (MOC) - Index Pages That Think"
-description: "A MOC is a curated index of notes on a topic - a table of contents you write by hand."
+description: "A MOC is a curated index of notes on a topic - a table of contents I write by hand."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,9 +13,10 @@ draft: false
 aliases: ["MOC"]
 status: evergreen
 ---
-**Maps of Content** = write hub notes that index related ideas — curate a table of contents, don't auto-generate.
 
-Use this page to wander the garden. ## Maps
+**Maps of Content (MOCs)** are hub notes that index related ideas. I use pages like this to wander the garden.
+
+## Maps
 
 ### Foundations
 
@@ -33,15 +34,13 @@ Use this page to wander the garden. ## Maps
 - [[Analog Capture Tools]]
 - [[Mobile Capture Workflows]]
 - [[The Trusted Inbox]]
-- [[Newsletter Filtering]]
+- [[RSS for Research]]
 - [[Signal vs Noise]]
 
 ### Organize
 
 - [[PARA Method]]
 - [[GTD vs PARA]]
-- [[Organization]]
-- [[The Archive Method]]
 - [[The Knowledge Lifecycle]]
 - [[Metadata Strategy]]
 - [[Daily Notes]]
@@ -54,38 +53,30 @@ Use this page to wander the garden. ## Maps
 - [[Evergreen Notes]]
 - [[Evergreen vs Fleeting Notes]]
 - [[The 12 Week Year]]
-- [[Serendipitous Resurfacing]]
 
 ### Connect & explore
 
 - [[Note Relationships]]
 - [[Associative Linking]]
-- [[The Power of Interconnectivity]]
 - [[Graph View Analytics]]
 - [[Digital Serendipity]]
 - [[Mind Mapping]]
-- [[Visual Thinking]]
 
 ### Express
 
 - [[Creative Output]]
-- [[Distraction-Free Writing]]
 - [[Drafting in Public]]
-- [[From Note to Book]]
 - [[Synthesis as a Goal]]
 - [[Creative Blocks]]
 
 ### Systems & tools
 
 - [[Digital Garden]]
-- [[Advantages of Digital Gardens]]
 - [[Issues]]
 - [[Local-first Software]]
 - [[Future-Proofing Knowledge]]
-- [[Privacy and Data Sovereignty]]
-- [[E2EE Security]]
 
-Extends [[Curation as Creation]]. Contradicts [[Atomic Notes]]. Index for the garden.
+Extends [[Active Knowledge Curation]]. Contradicts [[Atomic Notes]]. Index for the garden.
 
 ## See also
 

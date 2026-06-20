@@ -1,0 +1,56 @@
+{{- $ctx := .Context -}}
+{{- $active := .active | default "" -}}
+{{- $issueData := partialCached "notes/collect-note-issues.html" site "note-issues-v2" -}}
+{{- $issueTotal := add $issueData.brokenCount $issueData.unlinkedCount -}}
+<div class="notes-toolbar mb-6 flex flex-wrap items-center gap-3">
+  {{- if ne $active "list" -}}
+    <a class="btn btn-outline-primary btn-sm" href="{{ `/notes/` | relLangURL }}">All notes</a>
+  {{- end -}}
+  {{- if site.Params.notes.enable_graph -}}
+    <a
+      class="btn btn-sm{{ if eq $active "graph" }} btn-primary{{ else }} btn-outline-primary{{ end }}"
+      href="{{ `/notes/graph/` | relLangURL }}"
+      {{- if eq $active "graph" -}}
+        aria-current="page"
+      {{- end -}}>
+      Graph view
+    </a>
+  {{- end -}}
+  <a
+    class="btn btn-sm{{ if eq $active "issues" }} btn-primary{{ else }} btn-outline-primary{{ end }}"
+    href="{{ `/notes/issues/` | relLangURL }}"
+    {{- if eq $active "issues" -}}
+      aria-current="page"
+    {{- end -}}>
+    Issues{{ if gt $issueTotal 0 }} ({{ $issueTotal }}){{ end }}
+  </a>
+  {{- if site.Params.notes.enable_cards -}}
+    <a
+      class="btn btn-sm{{ if eq $active "cards" }} btn-primary{{ else }} btn-outline-primary{{ end }}"
+      href="{{ `/notes/cards/` | relLangURL }}"
+      {{- if eq $active "cards" -}}
+        aria-current="page"
+      {{- end -}}>
+      Flashcards
+    </a>
+    <a
+      class="btn btn-sm{{ if eq $active "review" }} btn-primary{{ else }} btn-outline-primary{{ end }}"
+      href="{{ `/notes/review/` | relLangURL }}"
+      {{- if eq $active "review" -}}
+        aria-current="page"
+      {{- end -}}>
+      Review
+    </a>
+  {{- end -}}
+  {{- if ne $active "note" -}}
+    {{ partial "notes/random-note.html" (dict "Context" $ctx "active" $active) }}
+  {{- end -}}
+  {{- if eq $active "list" -}}
+    <span class="text-ink-muted text-sm">{{ len (partial "notes/garden-pages.html" $ctx) }} notes</span>
+  {{- end -}}
+</div>
+{{- if ne $active "note" -}}
+{{ with resources.Get "js/notes-random.js" }}
+  <script src="{{ .RelPermalink }}" defer></script>
+{{ end }}
+{{- end -}}

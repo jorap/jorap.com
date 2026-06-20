@@ -1,7 +1,7 @@
 ---
 title: "Process Over Outcomes"
 meta_title: "Process Over Outcomes - Why James Clear's Line Stuck"
-description: "Focus on a repeatable process - you can rerun it when motivation dips."
+description: "I focus on a repeatable process - I can rerun it when motivation dips."
 date: 2026-06-18T06:06:00Z
 image: "/images/note.jpg"
 categories: ["Ideas", "Productivity", "Tips"]
@@ -13,14 +13,11 @@ status: evergreen
 draft: false
 aliases: ["Process Over Outcome"]
 ---
-**Process over outcomes** = focus on the habit you can rerun; outcomes follow unevenly.
 
-I can't control every result; I can control [[Weekly Review Checklists]], publish cadence, capture habit. Outcomes still matter - but the process is what I rerun when motivation dips.
-
-Extends [[Compounding]]. Contradicts [[The 12 Week Year]].
+Results matter, but optimizing only for outcomes wins once. I optimize for a repeatable process that wins again and again.
 
 ## See also
 
-- [[Compounding]] — Habits, PKM, Systems Thinking
-- [[Minimum Effective Dose]] — Habits, PKM, Systems Thinking
-- [[Periodic Knowledge Review]] — Habits, Note Taking, PKM
+- [[Compounding]] - Habits, PKM, Systems Thinking
+- [[Minimum Effective Dose]] - Habits, PKM, Systems Thinking
+- [[Periodic Knowledge Review]] - Habits, Note Taking, PKM

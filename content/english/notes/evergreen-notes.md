@@ -1,40 +1,39 @@
 ---
 title: "Evergreen Notes"
 meta_title: "Evergreen Notes - Ideas That Stay Fresh"
-description: "Evergreen notes stay useful - timeless phrasing, clear claims, updated when reality changes."
+description: "I write evergreen notes to stay useful - timeless phrasing, clear claims, updated when reality changes."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Evergreen Notes", "PKM", "Note Taking", "Zettelkasten", "Second Brain", "Writing"]
+tags: ["Evergreen Notes", "PKM", "Note Taking", "Zettelkasten", "Second Brain", "Writing", "Formatting", "Readability", "Markdown"]
 slug: "evergreen-notes"
 featured: false
 draft: false
-aliases: []
+aliases: ["Formatting for Readability"]
 status: evergreen
 review: true
 cards:
-  - front: "Evergreen notes (definition)"
-    back: "Claims you'll still cite — revise when reality shifts."
-  - front: "Evergreen vs fleeting (one line)"
-    back: "Evergreen = cite later; fleeting = promote or drop."
-  - front: "Revise evergreen notes when"
-    back: "Tools change — not when trends spike."
-  - front: "Promote fleeting to evergreen when"
-    back: "A spark keeps returning in Periodic Knowledge Review."
-  - front: "Evergreen test (two-year bar)"
-    back: "Complete sentences you'd still stand behind in two years."
-  - front: "Evergreen notes extend"
-    back: "Atomic Notes."
+  - front: "Fleeting spark keeps showing up in weekly review."
+    back: "Promote to evergreen - complete sentences, two-year bar."
+  - front: "A tool I rely on changed how I work."
+    back: "Revise the evergreen note - not every trend spike."
+  - front: "My two-year test for evergreen:"
+    back: "Sentences I'd still stand behind in two years."
+  - front: "Evergreen vs fleeting - daily choice?"
+    back: "Cite later: evergreen. One-off spark: promote or drop."
+  - front: "Trendy take I might regret next year."
+    back: "Keep fleeting or skip. Don't evergreen it yet."
+  - front: "Evergreen feels stale but the topic is hot on Twitter."
+    back: "Revise for tool shifts. Ignore hype cycles."
 ---
-**Evergreen notes** = write claims you'll still cite — timeless voice, revise when reality shifts.
 
-Complete sentences I'd still stand behind in two years. Revise when tools change, not when trends spike. Promote from fleeting during [[Periodic Knowledge Review]], when a spark keeps returning.
+I write evergreen notes to stay useful - timeless phrasing, clear claims, updated when reality changes.
 
-Extends [[Atomic Notes]]. Contradicts [[Daily Notes]].
+I write in complete sentences I'd still stand behind in two years. Revise when tools change, not when trends spike. Promotion from fleeting: during [[Periodic Knowledge Review]], when a spark keeps returning.
 
 ## See also
 
-- [[Atomic Notes]] — Note Taking, PKM, Second Brain
-- [[Evergreen vs Fleeting Notes]] — Evergreen Notes, Note Taking, PKM
-- [[Active Knowledge Curation]] — Note Taking, PKM, Second Brain
+- [[Atomic Notes]] - Note Taking, PKM, Second Brain
+- [[Evergreen vs Fleeting Notes]] - Evergreen Notes, Note Taking, PKM
+- [[Active Knowledge Curation]] - Note Taking, PKM, Second Brain

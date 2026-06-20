@@ -2,7 +2,7 @@
   Build-time lint: warnf for broken wikilinks and unlinked mentions.
   Uses collect-note-issues.html; errorf when strict flags are set.
 */ -}}
-{{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v1" -}}
+{{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v2" -}}
 {{- $strictLinks := site.Params.notes.strict_wikilinks | default false -}}
 {{- $strictUnlinked := site.Params.notes.strict_unlinked | default false -}}
 

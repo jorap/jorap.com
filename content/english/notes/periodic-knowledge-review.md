@@ -13,14 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
-**Periodic review** = scheduled maintenance so notes don't rot - weekly rhythm, quarterly deep pass.
 
-Weekly: inbox, calendar, one express action. Quarterly: prune dead links, promote sparks, archive stale projects — often scoped as a [[12 Week Year|12-week arc]]. [[Weekly Review Checklists]] handle the rhythm; this note is the why.
-
-Extends [[Active Knowledge Curation]]. Contradicts [[Minimum Effective Dose]].
+Notes rot without review. I calendar weekly and quarterly passes - inbox, projects, evergreens.
 
 ## See also
 
-- [[Associative Linking]] — Note Taking, PKM, Second Brain
-- [[Atomic Design for Notes]] — Note Taking, PKM, Second Brain
-- [[Atomic Notes]] — Note Taking, PKM, Second Brain
+- [[Associative Linking]] - Note Taking, PKM, Second Brain
+- [[Atomic Notes]] - Note Taking, PKM, Second Brain
+- [[Atomic Notes]] - Note Taking, PKM, Second Brain

@@ -1,5 +1,5 @@
 ---
-title: "Graph"
+title: "Note graph"
 meta_title: "Notes Graph | JoRap"
 description: "A map that pulls linked notes together - find notes with no links, too many links, and dead ends."
 slug: "graph"
@@ -18,3 +18,5 @@ draft: false
 Notes with no links, notes with too many, and dead ends show up as shape, not just search. Open the live view at [/notes/graph/](/notes/graph/).
 
 Extends [[Getting Started]]. Implements [[Graph View Analytics]].
+
+**Note graph** = open the link map to find orphans, hubs, and connections I'm missing.

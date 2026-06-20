@@ -12,29 +12,26 @@ featured: false
 status: evergreen
 review: true
 cards:
-  - front: "Collector's fallacy (definition)"
-    back: "Saving feels like learning — until something ships."
-  - front: "Collector's save filter question"
-    back: "What will I make with this?"
-  - front: "No planned creative output means"
+  - front: "Reading list grows but nothing ships."
+    back: "On every save I ask: what will I make with this?"
+  - front: "No planned creative output for a save."
     back: "Don't save it."
-  - front: "Reading vs learning (Collector's fallacy)"
+  - front: "Saving feels like learning."
     back: "Learning starts when something leaves the notebook."
-  - front: "Collector's fallacy fix"
+  - front: "Fix for hoarded bookmarks?"
     back: "Tie every save to an express deadline."
-  - front: "Collector's fallacy symptom"
-    back: "Backlog grows but nothing ships."
+  - front: "I finished the article and filed it."
+    back: "Not learning yet. Ship or rewrite before it counts."
+  - front: "Collector's save filter - one question?"
+    back: "What will I make with this?"
 draft: false
 aliases: ["the collectors fallacy", "Collector's Fallacy"]
 ---
-**Collector's fallacy** = saving feels like learning — ship something or it isn't.
 
-I tied every save to a question: what will I make with this? No [[Creative Output]], no save - harsh, but the backlog shrank. Reading isn't learning until something leaves the notebook.
-
-Extends [[Creative Output]]. Contradicts [[Capture]].
+Collecting articles feels like progress. It isn't. The collector's fallacy bit me until I tied saves to express deadlines.
 
 ## See also
 
-- [[Mobile Capture Workflows]] — Capture, Note Taking, PKM
-- [[PKM]] — Learning, Note Taking, PKM
-- [[Building a Second Brain]] — Capture, Note Taking, PKM
+- [[Mobile Capture Workflows]] - Capture, Note Taking, PKM
+- [[PKM]] - Learning, Note Taking, PKM
+- [[Building a Second Brain]] - Capture, Note Taking, PKM

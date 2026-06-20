@@ -12,28 +12,25 @@ featured: false
 status: evergreen
 review: true
 cards:
-  - front: "Weekly review checklist (four steps)"
+  - front: "Friday review - four steps in order?"
     back: "Inbox, calendar, projects, one ship action."
-  - front: "Weekly review step 1"
-    back: "Empty the Trusted Inbox."
-  - front: "Weekly review step 2"
-    back: "Scan the calendar."
-  - front: "Weekly review step 3"
-    back: "Review projects."
-  - front: "Weekly review: why the same list every week?"
-    back: "Novelty in reviews means reinventing the wheel."
-  - front: "Weekly review timing"
-    back: "Same day every week — boring on purpose."
+  - front: "Review feels fresh and creative each week."
+    back: "Wrong. Same checklist every week - novelty reinvents the wheel."
+  - front: "I finish inbox and calendar but skip express."
+    back: "Pick one ship action before I close the review."
+  - front: "When do I run weekly review?"
+    back: "Same day every week. Boring on purpose."
+  - front: "Step 3 of my weekly review?"
+    back: "Review active projects - what's stuck, what's next."
+  - front: "Travel week and review gets skipped."
+    back: "Twenty minutes beats zero. Shorten, don't skip."
 draft: false
 aliases: []
 ---
-**Weekly review checklist** = same steps every week: inbox, calendar, projects, one ship action.
 
-Same list every Friday: empty [[Trusted Inbox]], scan calendar, review projects, one ship action. Boring is the feature - novelty in reviews means I'm reinventing the wheel. GTD's maintain phase, sized for a real week.
-
-Extends [[The Trusted Inbox]]. Contradicts [[Minimum Effective Dose]]. Implements [[Periodic Knowledge Review]].
+My weekly review is a checklist - inbox, calendar, projects, one express action. Boring on purpose.
 
 ## See also
 
-- [[Periodic Knowledge Review]] — Habits, PKM, Weekly Review
-- [[The Second Brain Workflow]] — PARA, PKM, Workflow
+- [[Periodic Knowledge Review]] - Habits, PKM, Weekly Review
+- [[The Second Brain Workflow]] - PARA, PKM, Workflow

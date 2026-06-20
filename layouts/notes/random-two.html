@@ -1,18 +1,20 @@
 {{ define "main" }}
   {{- $pool := partial "notes/random-pool.html" . -}}
 
-  <section class="section pt-7">
+  {{ partial "page-header" . }}
+
+  <section class="section">
     <div class="container">
       <div class="row justify-center">
         <div class="lg:col-10">
+          {{ partial "notes/toolbar.html" (dict "Context" . "active" "random-two") }}
+
           <div class="notes-toolbar mb-4 flex flex-wrap items-center gap-3">
-            <a class="text-accent text-sm no-underline hover:underline" href="{{ `/notes/` | relLangURL }}">← All notes</a>
             <button type="button" class="btn btn-outline-primary btn-sm" data-random-two-shuffle>Shuffle both</button>
             <button type="button" class="btn btn-outline-primary btn-sm" data-random-two-shuffle-left>Shuffle left</button>
             <button type="button" class="btn btn-outline-primary btn-sm" data-random-two-shuffle-right>Shuffle right</button>
           </div>
 
-          <h1 class="article-title mb-4">{{ .Title }}</h1>
           <p class="text-ink-muted mb-6">Two notes from the garden, side by side. Shuffle both, or lock one side and shuffle the other.</p>
 
           <details class="notes-random-two-prompt border-divider mb-8 rounded border">

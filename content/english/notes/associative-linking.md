@@ -6,37 +6,35 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Linking", "PKM", "Zettelkasten", "Note Taking", "Second Brain", "Digital Garden"]
+tags: ["Linking", "PKM", "Zettelkasten", "Note Taking", "Second Brain", "Digital Garden", "Graph", "Network"]
 slug: "associative-linking"
 featured: false
 status: evergreen
 review: true
 cards:
-  - front: "Associative linking (definition)"
-    back: "Link by meaning when you write."
-  - front: "Folders vs links"
-    back: "Folders sort; links think."
-  - front: "Associative linking: minimum typed links per note?"
-    back: "Two — one extends, one contradicts."
-  - front: "Why link while writing a note?"
-    back: "Filenames fade; the links stick."
-  - front: "Associative linking enables which garden pattern?"
-    back: "Walkable Zettelkasten without a perfect folder tree."
-  - front: "Associative linking extends which note type?"
-    back: "Atomic Notes."
+  - front: "I finish a new note. Minimum links?"
+    back: "Two typed links - one extends, one contradicts."
+  - front: "Tempted to file by folder tree only."
+    back: "Folders sort. Links think. Link by meaning."
+  - front: "I remember the filename, not the idea."
+    back: "That's why I link while writing - filenames fade."
+  - front: "My note builds on Atomic Notes. Link type?"
+    back: "Extends."
+  - front: "My note pushes against Slow Productivity. Link type?"
+    back: "Contradicts - name the tradeoff."
+  - front: "Perfect folder tree but no wikilinks."
+    back: "Walkable garden needs links, not taxonomy."
 draft: false
-aliases: []
+aliases: ["Interconnectivity", "Power of Interconnectivity", "The Power of Interconnectivity"]
 ---
-**Associative linking** = link by meaning when you write — folders sort, links think.
 
-When I write a note, I link to two neighbors minimum - what it extends, what it contradicts. See [[Note Relationships]] for the five types. Filenames fade; the links stick. That's how [[Zettelkasten]] and a [[Digital Garden]] stay walkable without a perfect folder tree.
-
-Extends [[Atomic Notes]]. Contradicts [[Organization]].
+Folders sort. Links think. I link so notes meet without me remembering every filename.
 
 ## See also
 
-- [[Note Relationships]] — Linking, Meta, Note Taking
-- [[Advantages of Digital Gardens]] — Digital Garden, Note Taking, PKM
-- [[Atomic Design for Notes]] — Note Taking, PKM, Second Brain
-- [[Digital Serendipity]] — Linking, Note Taking, PKM
-- [[Evergreen Notes]] — Note Taking, PKM, Second Brain
+- [[Note Relationships]] - Linking, Meta, Note Taking
+- [[Digital Garden]] - Digital Garden, Note Taking, PKM
+- [[Graph View Analytics]] - Graph, Linking, PKM
+- [[Atomic Notes]] - Note Taking, PKM, Second Brain
+- [[Digital Serendipity]] - Linking, Note Taking, PKM
+- [[Evergreen Notes]] - Note Taking, PKM, Second Brain

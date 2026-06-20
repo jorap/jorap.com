@@ -13,14 +13,15 @@ draft: false
 aliases: ["Sunk Cost"]
 status: evergreen
 ---
-**Sunk cost trap** = letting past effort justify future spending - money and time already gone don't belong in the next decision.
 
-I've kept PKM tools, half-finished projects, and note folders alive because "I already put weeks in." The right question is forward-only: knowing what I know now, would I start this today? If not, cut it - same logic as [[Active Knowledge Curation]] and killing a bad [[Minimum Viable Product]].
+**Sunk cost fallacy** = keeping a bad tool, project, or note because I already invested time - not because it still earns its place.
+
+Past effort is gone. I ask: if I found this today, would I start it?
 
 Extends [[There Is No Perfect Solution]]. Contradicts [[Compounding]].
 
 ## See also
 
-- [[Mental Models List]] — Decision Making, Mental Models, PKM
-- [[Low Hanging Fruit]] — Decision Making, Mental Models, PKM
-- [[Minimum Effective Dose]] — Mental Models, PKM, Productivity
+- [[Mental Models List]] - Decision Making, Mental Models, PKM
+- [[Low Hanging Fruit]] - Decision Making, Mental Models, PKM
+- [[Minimum Effective Dose]] - Mental Models, PKM, Productivity

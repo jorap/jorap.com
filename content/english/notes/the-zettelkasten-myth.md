@@ -13,14 +13,11 @@ status: evergreen
 draft: false
 aliases: ["Zettelkasten Myth"]
 ---
-**Zettelkasten myth** = stop buying notebooks — Luhmann wrote the books, the box didn't.
 
-The [[Zettelkasten]] didn't write the books; Luhmann did. Tools lower friction; they don't replace sentences. Buy plain text and a linking habit before another productivity pilgrimage.
-
-Extends [[Slip-box History]]. Contradicts [[Zettelkasten]].
+Luhmann's output wasn't copy-paste from buying the right notebook. The Zettelkasten myth oversells tools and undersells writing.
 
 ## See also
 
-- [[Evergreen Notes]] — PKM, Writing, Zettelkasten
-- [[Minimum Viable Product]] — PKM, Productivity, Writing
-- [[Slip-box History]] — Luhmann, PKM, Zettelkasten
+- [[Evergreen Notes]] - PKM, Writing, Zettelkasten
+- [[Minimum Viable Product]] - PKM, Productivity, Writing
+- [[Slip-box History]] - Luhmann, PKM, Zettelkasten

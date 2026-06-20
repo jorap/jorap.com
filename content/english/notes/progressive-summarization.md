@@ -1,7 +1,7 @@
 ---
 title: "Progressive Summarization"
 meta_title: "Progressive Summarization - Layers Over Rewrites"
-description: "Distill on demand: bold, highlight, summarize when you reuse the note - not on save."
+description: "I don't rewrite whole notes when I distill - bold, then highlight, then summarize when I reuse."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -10,30 +10,15 @@ tags: ["Progressive Summarization", "Tiago Forte", "PKM", "Distill", "Note Takin
 slug: "progressive-summarization"
 featured: false
 status: evergreen
-review: true
-cards:
-  - front: "Progressive summarization (definition)"
-    back: "Bold, highlight, summarize — on reuse only."
-  - front: "Progressive summarization layer 1"
-    back: "Bold the good sentences."
-  - front: "Progressive summarization layer 2"
-    back: "Highlight the best bold."
-  - front: "Progressive summarization layer 3"
-    back: "Summary at top — only on second use."
-  - front: "Progressive summarization belongs in CODE as"
-    back: "Distill."
-  - front: "Progressive summarization: when NOT to summarize"
-    back: "On first save."
 draft: false
 aliases: []
 ---
-**Progressive summarization** = distill in layers on reuse - bold, then highlight, then summary at top.
 
-Layer one: bold the good sentences. Layer two: highlight the best bold. Layer three: summary at top - only when I reach for the note a second time. Part of the distill step in [[Second Brain]].
+I don't rewrite whole notes when I distill - bold, then highlight, then summarize when I actually reuse the note.
 
-Extends [[Building a Second Brain]]. Contradicts [[Synthesis as a Goal]].
+Layer one: bold the good sentences. Layer two: highlight the best bold. Layer three: summary at top - only when I reach for the note a second time. Distill on demand, not on save. Part of CODE's distill step.
 
 ## See also
 
-- [[Evergreen Notes]] — Note Taking, PKM, Writing
-- [[Note-Taking for Researchers]] — Note Taking, PKM, Research
+- [[Evergreen Notes]] - Note Taking, PKM, Writing
+- [[Intellectual Sourcing]] - Note Taking, PKM, Research

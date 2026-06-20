@@ -1,7 +1,7 @@
 ---
 title: "2 Random Notes"
 meta_title: "2 Random Notes | JoRap"
-description: "Two garden notes picked at random, side by side — for serendipitous resurfacing."
+description: "Two garden notes picked at random, side by side - for serendipitous resurfacing."
 slug: "random-two"
 layout: "random-two"
 note_kind: "meta"
@@ -13,6 +13,7 @@ tags: ["Notes", "Meta"]
 featured: false
 draft: false
 ---
-Two notes from the garden, picked at random. Hit **Shuffle** for another pair.
+
+Two notes from the garden, picked at random. I hit **Shuffle** for another pair.
 
 Extends [[Getting Started]]. Implements [[Digital Serendipity]].

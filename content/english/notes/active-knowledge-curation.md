@@ -1,26 +1,23 @@
 ---
 title: "Active Knowledge Curation"
 meta_title: "Active Knowledge Curation - Notes That Stay Alive"
-description: "Active curation means revisiting and pruning notes - not hoarding links. Save again today, or cut."
+description: "Active curation means revisiting, pruning, and ordering notes - choosing what sits next to what is creative work."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["PKM", "Curation", "Note Taking", "Second Brain", "Knowledge Management", "Productivity"]
+tags: ["PKM", "Curation", "Note Taking", "Second Brain", "Knowledge Management", "Productivity", "MOC", "Creation"]
 slug: "active-knowledge-curation"
 featured: false
 draft: false
-aliases: []
+aliases: ["Curation as Creation"]
 status: evergreen
 ---
-**Regular note cleanup** = revisiting notes on a schedule and cutting what you wouldn't save again today.
 
-Hoarding links isn't curation. Once a month I open old folders and ask: save again today? If not, delete or merge. That's [[Periodic Knowledge Review]] with teeth - fewer notes, stronger links, notes I actually open.
-
-Extends [[Building a Second Brain]]. Contradicts [[The Collector's Fallacy]].
+Saving links isn't curation. I revisit monthly, prune what I wouldn't save again today, and connect what I actually care about.
 
 ## See also
 
-- [[Collaborative Knowledge]] — Knowledge Management, Note Taking, PKM
-- [[Curation as Creation]] — Curation, Note Taking, PKM
-- [[GTD vs PARA]] — Note Taking, PKM, Productivity
+- [[Associative Linking]] - Note Taking, PKM, Second Brain
+- [[GTD vs PARA]] - Note Taking, PKM, Productivity
+- [[Maps of Content]] - Curation, Note Taking, PKM

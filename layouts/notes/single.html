@@ -12,21 +12,7 @@
           <article>
             {{ partial "notes/local-graph.html" . }}
 
-            <div class="notes-toolbar mb-4 flex flex-wrap items-center gap-3">
-              <a class="text-accent text-sm no-underline hover:underline" href="{{ `/notes/` | relLangURL }}">← All notes</a>
-              {{ if site.Params.notes.enable_graph }}
-                <a class="text-accent text-sm no-underline hover:underline" href="{{ `/notes/graph/` | relLangURL }}">Graph</a>
-              {{ end }}
-              {{ if site.Params.notes.enable_cards }}
-                <a class="text-accent text-sm no-underline hover:underline" href="{{ `/notes/cards/` | relLangURL }}">Flashcards</a>
-                <a class="text-accent text-sm no-underline hover:underline" href="{{ `/notes/review/` | relLangURL }}">Review</a>
-              {{ end }}
-              {{- $issueData := partialCached "notes/collect-note-issues.html" site "note-issues-v1" -}}
-              {{- $issueTotal := add $issueData.brokenCount $issueData.unlinkedCount -}}
-              <a class="text-accent text-sm no-underline hover:underline" href="{{ `/notes/issues/` | relLangURL }}">
-                Issues{{ if gt $issueTotal 0 }} ({{ $issueTotal }}){{ end }}
-              </a>
-            </div>
+            {{ partial "notes/toolbar.html" (dict "Context" . "active" "note") }}
 
             <h1 class="article-title mb-4">{{ .Title }}</h1>
 

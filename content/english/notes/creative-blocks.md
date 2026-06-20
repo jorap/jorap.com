@@ -13,14 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
-**Creative block** = ship one small thing — more capture rarely fixes too much inventory.
 
-I pick one small express action: outline three bullets, publish a stub, record a voice memo. Shipping something ugly unsticks me faster than another save. See [[Creative Output]] and [[Process Over Outcomes]].
-
-Extends [[Creative Output]]. Contradicts [[Capture]].
+I have thousands of notes and still stare at a blank page sometimes. Creative blocks aren't solved by more capture - here's what actually unsticks me.
 
 ## See also
 
-- [[Active Knowledge Curation]] — PKM, Productivity, Second Brain
-- [[Building a Second Brain]] — PKM, Productivity, Second Brain
-- [[Capture]] — PKM, Productivity, Second Brain
+- [[Active Knowledge Curation]] - PKM, Productivity, Second Brain
+- [[Building a Second Brain]] - PKM, Productivity, Second Brain
+- [[Capture]] - PKM, Productivity, Second Brain

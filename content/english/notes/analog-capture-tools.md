@@ -13,14 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
-**Paper capture** = reach for paper when screens fail or feel rude — same [[Trusted Inbox|trusted inbox]], different medium.
 
-Meetings, sermons, dead batteries: paper wins. One pipe, processed weekly - photograph or transcribe into [[Capture]]. The medium changes; the rule doesn't.
-
-Extends [[Capture]]. Contradicts [[Digital Minimalism]]. Alternative to [[Mobile Capture Workflows]].
+I love my wiki, but sometimes paper wins - meetings, sermons, the pocket notebook that survives a dead phone battery.
 
 ## See also
 
-- [[Building a Second Brain]] — Capture, Note Taking, PKM
-- [[Mobile Capture Workflows]] — Capture, Note Taking, PKM
-- [[The Collector's Fallacy]] — Capture, Note Taking, PKM
+- [[Building a Second Brain]] - Capture, Note Taking, PKM
+- [[Mobile Capture Workflows]] - Capture, Note Taking, PKM
+- [[The Collector's Fallacy]] - Capture, Note Taking, PKM

@@ -1,26 +1,23 @@
 ---
 title: "Creative Output"
 meta_title: "Creative Output - Why I Capture at All"
-description: "Notes are inventory. Output is the point - blog posts, sermons, code, shipped on a deadline."
+description: "Notes are inventory. Output is the point - ship posts, sermons, code on a deadline, in distraction-free focus."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Creative Output", "Express", "PKM", "Writing", "Second Brain", "Publishing"]
+tags: ["Creative Output", "Express", "PKM", "Writing", "Second Brain", "Publishing", "Focus", "Distraction Free", "Markdown"]
 slug: "creative-output"
 featured: false
 status: evergreen
 draft: false
-aliases: []
+aliases: ["Distraction-Free Writing", "distraction free writing"]
 ---
-**Creative output** = ship something from your notes — posts, sermons, code, dinner experiments.
 
-Every project gets an express deadline, even if it's just "post one paragraph." Notes without output become [[The Collector's Fallacy]]. Inventory exists to leave the warehouse.
-
-Extends [[Building a Second Brain]]. Contradicts [[The Collector's Fallacy]].
+Notes are inventory. Output is the point - blog posts, sermons, code, dinner experiments. Here's how I push from archive to shipped.
 
 ## See also
 
-- [[Advantages of Digital Gardens]] — PKM, Publishing, Second Brain
-- [[Digital Garden]] — PKM, Publishing, Second Brain
-- [[Drafting in Public]] — PKM, Publishing, Writing
+- [[Digital Garden]] - PKM, Publishing, Second Brain
+- [[Drafting in Public]] - PKM, Publishing, Writing
+- [[Digital Minimalism]] - Focus, PKM, Writing

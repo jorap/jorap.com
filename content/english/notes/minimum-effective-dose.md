@@ -13,16 +13,17 @@ draft: false
 aliases: ["MED"]
 status: evergreen
 ---
-**Minimum effective dose** = the smallest effort that still gets the result - not zero, not max.
 
-Borrowed from medicine and fitness (Tim Ferriss made it stick for me). When my PKM stack or workout plan ballooned, the extra steps rarely paid off. I ask: what's the shortest version that still works? Weekly review beats daily if weekly holds. One capture app beats four if ideas still land. Pairs with [[Slow Productivity]], [[Digital Minimalism]], and [[Process Over Outcomes]].
+**Minimum effective dose** = the smallest change that still moves the needle - not the heroic overhaul.
+
+I borrowed it from medicine: enough to work, not more than needed. Applies to PKM habits, fitness, and side projects. More input past the dose is noise.
 
 Extends [[Pareto Principle]]. Contradicts [[Compounding]].
 
 ## See also
 
-- [[Compounding]] — Habits, Mental Models, PKM
-- [[Low Hanging Fruit]] — Focus, Mental Models, PKM
-- [[Mental Models List]] — Mental Models, PKM, Productivity
-- [[Pareto Principle]] — Focus, Mental Models, PKM
-- [[Sunk Cost Fallacy]] — Mental Models, PKM, Productivity
+- [[Compounding]] - Habits, Mental Models, PKM
+- [[Low Hanging Fruit]] - Focus, Mental Models, PKM
+- [[Mental Models List]] - Mental Models, PKM, Productivity
+- [[Pareto Principle]] - Focus, Mental Models, PKM
+- [[Sunk Cost Fallacy]] - Mental Models, PKM, Productivity

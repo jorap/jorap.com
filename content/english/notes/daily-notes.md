@@ -1,27 +1,23 @@
 ---
 title: "Daily Notes"
 meta_title: "Daily Notes - Low-Stakes Logs That Compound"
-description: "Daily notes are a scratch pad for the day - fleeting by default, not a permanent archive."
+description: "Daily notes are a scratch pad for the day - fleeting by default, with interstitial buffer flushes between tasks."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Daily Notes", "PKM", "Journaling", "Productivity", "Note Taking", "Review"]
+tags: ["Daily Notes", "PKM", "Journaling", "Interstitial", "Productivity", "Note Taking", "Review", "Focus"]
 slug: "daily-notes"
 featured: false
 status: evergreen
 draft: false
-aliases: []
+aliases: ["Interstitial Journaling"]
 ---
-**Daily notes** = dump today's tasks and fragments here — promote or delete during review, not forever.
 
-Morning dump, evening sweep. Promote to evergreen during [[Periodic Knowledge Review]], not while the coffee's still hot. [[Daily Notes]] are a lane, not [[The Archive|the archive]].
-
-Extends [[Capture]]. Contradicts [[Evergreen Notes]]. Alternative to [[Bullet Journaling]].
+**Daily Notes** are my scratch pad for the day - tasks, fragments, links. Not a diary. Not permanent by default.
 
 ## See also
 
-- [[Active Knowledge Curation]] — Note Taking, PKM, Productivity
-- [[Analog Capture Tools]] — Note Taking, PKM, Productivity
-- [[Anti-Fragile Systems]] — Note Taking, PKM, Productivity
-- [[Building a Second Brain]] — Note Taking, PKM, Productivity
+- [[Active Knowledge Curation]] - Note Taking, PKM, Productivity
+- [[Analog Capture Tools]] - Note Taking, PKM, Productivity
+- [[Mobile Capture Workflows]] - Note Taking, PKM, Productivity

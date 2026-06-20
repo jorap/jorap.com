@@ -13,14 +13,11 @@ status: evergreen
 draft: false
 aliases: ["slip box history", "Slip Box", "Slip-box"]
 ---
-**Slip-box ([[Zettelkasten]]) history** = steal Luhmann's method — one idea per card, write and link; stationery didn't write the books.
 
-Luhmann wrote thousands of cards and thousands of pages - the method was writing, not stationery. Software can help; it can't substitute. See [[The Zettelkasten Myth]] before buying another app.
-
-Extends [[Zettelkasten]]. Contradicts [[The Zettelkasten Myth]].
+The slip-box (Zettelkasten) wasn't magic software - Luhmann's physical note cards and links. History helps separate myth from method.
 
 ## See also
 
-- [[Atomic Design for Notes]] — Note Taking, PKM, Zettelkasten
-- [[Atomic Notes]] — Note Taking, PKM, Zettelkasten
-- [[Evergreen Notes]] — Note Taking, PKM, Zettelkasten
+- [[Atomic Notes]] - Note Taking, PKM, Zettelkasten
+- [[Atomic Notes]] - Note Taking, PKM, Zettelkasten
+- [[Evergreen Notes]] - Note Taking, PKM, Zettelkasten

@@ -13,14 +13,11 @@ status: evergreen
 draft: false
 aliases: []
 ---
-**First-principles thinking** = rebuild the claim from scratch, not from someone else's quote.
 
-I add a short "from scratch" block: assumptions, what would have to be true, what I'd bet on. Quotes stay attributed; my claim sits beside them.
-
-Extends [[Synthesis as a Goal]]. Contradicts [[Progressive Summarization]].
+When a note is just a quote from someone smarter, I add a section: what do I actually believe from scratch.
 
 ## See also
 
-- [[Sunk Cost Fallacy]] — Mental Models, PKM, Thinking
-- [[There Is No Perfect Solution]] — Mental Models, Note Taking, PKM
-- [[Active Knowledge Curation]] — Note Taking, PKM
+- [[Sunk Cost Fallacy]] - Mental Models, PKM, Thinking
+- [[There Is No Perfect Solution]] - Mental Models, Note Taking, PKM
+- [[Active Knowledge Curation]] - Note Taking, PKM

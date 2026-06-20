@@ -1,0 +1,15 @@
+{{- /*
+  True for garden utility surfaces (graph, issues, flashcards, review, random pickers).
+  Not evergreen notes — exclude from lists, graph nodes, random pool, etc.
+*/ -}}
+{{- $page := . -}}
+{{- $utility := false -}}
+{{- if eq ($page.Params.note_kind | default "note") "meta" -}}
+  {{- $utility = true -}}
+{{- else -}}
+  {{- $utilityLayouts := slice "graph" "cards" "review" "issues" "random-two" "random-three" -}}
+  {{- if in $utilityLayouts ($page.Params.layout | default "") -}}
+    {{- $utility = true -}}
+  {{- end -}}
+{{- end -}}
+{{- return $utility -}}

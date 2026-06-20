@@ -1,10 +1,25 @@
-{{- $pool := partial "notes/random-pool.html" . -}}
+{{- $pool := partial "notes/random-pool.html" .Context -}}
+{{- $active := .active | default "" -}}
 
 <div class="notes-random flex flex-wrap items-center gap-2">
   <button type="button" class="btn btn-outline-primary btn-sm notes-random-btn" data-notes-random>
     Random note
   </button>
-  <a class="btn btn-outline-primary btn-sm" href="{{ `/notes/random-two/` | relLangURL }}">2 random notes</a>
-  <a class="btn btn-outline-primary btn-sm" href="{{ `/notes/random-three/` | relLangURL }}">3 random notes</a>
+  <a
+    class="btn btn-sm{{ if eq $active "random-two" }} btn-primary{{ else }} btn-outline-primary{{ end }}"
+    href="{{ `/notes/random-two/` | relLangURL }}"
+    {{- if eq $active "random-two" -}}
+      aria-current="page"
+    {{- end -}}>
+    2 random notes
+  </a>
+  <a
+    class="btn btn-sm{{ if eq $active "random-three" }} btn-primary{{ else }} btn-outline-primary{{ end }}"
+    href="{{ `/notes/random-three/` | relLangURL }}"
+    {{- if eq $active "random-three" -}}
+      aria-current="page"
+    {{- end -}}>
+    3 random notes
+  </a>
   <script type="application/json" class="notes-random-data">{{ $pool | jsonify | safeJS }}</script>
 </div>

@@ -1,7 +1,7 @@
 ---
 title: "Graph View Analytics"
 meta_title: "Graph View Analytics - What the Graph Actually Tells You"
-description: "The link map shows notes with no links, notes with too many, and gaps you forgot to connect."
+description: "The link map shows notes with no links, notes with too many, and gaps I forgot to connect."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,13 +13,10 @@ status: evergreen
 draft: false
 aliases: ["Graph View"]
 ---
-**What the link map tells you** = fix orphans, trim overloaded hubs, add missing links — don't use it as wallpaper.
 
-Notes with no links need connecting; notes with too many links probably need splitting. I don't worship the pretty picture - I fix what it shows. See [[The Power of Interconnectivity]].
-
-Extends [[Associative Linking]]. Contradicts [[Maps of Content]].
+Graph view looks sci-fi. Mostly I use it to find orphans, hubs, and notes I forgot to link.
 
 ## See also
 
-- [[Maps of Content]] — Meta, PKM
-- [[Zettelkasten]] — Linking, Note Taking, PKM
+- [[Maps of Content]] - Meta, PKM
+- [[Zettelkasten]] - Linking, Note Taking, PKM

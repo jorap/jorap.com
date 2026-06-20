@@ -1,26 +1,23 @@
 ---
 title: "The Second Brain Workflow"
 meta_title: "The Second Brain Workflow - End to End"
-description: "CODE and PARA in one loop - capture to inbox, organize by project, distill on use, express weekly."
+description: "CODE and PARA in one loop - capture to inbox, organize by project, distill on use, express weekly, day to day."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Second Brain", "Workflow", "CODE Method", "PARA", "PKM", "Productivity", "Hugo", "Tools"]
+tags: ["Second Brain", "Workflow", "CODE Method", "PARA", "PKM", "Productivity", "Hugo", "Tools", "Browser Tips", "RSS", "Daily Routine", "Information Diet"]
 slug: "the-second-brain-workflow"
 featured: false
 status: evergreen
 draft: false
-aliases: ["Second Brain Workflow"]
+aliases: ["Second Brain Workflow", "Second Brain Daily Workflow", "Daily Workflow"]
 ---
-**[[Second Brain]] workflow** = CODE on a loop: capture → organize → distill → express, weekly.
 
-Morning capture sweep, project filing when I touch a note, distill when I reuse, express before the week ends. Same loop whether the tool is TiddlyWiki or Hugo. See [[Second Brain Daily Workflow]] for the day-scale version.
-
-Extends [[Capture]]. Contradicts [[Minimum Effective Dose]]. Implements [[Building a Second Brain]].
+CODE and PARA in one loop: capture to inbox, organize by project, distill on use, express weekly.
 
 ## See also
 
-- [[PARA Method]] — PARA, PKM, Productivity
-- [[Active Knowledge Curation]] — PKM, Productivity, Second Brain
-- [[Creative Blocks]] — PKM, Productivity, Second Brain
+- [[PARA Method]] - PARA, PKM, Productivity
+- [[RSS for Research]] - Information Diet, PKM, Second Brain
+- [[Active Knowledge Curation]] - PKM, Productivity, Second Brain

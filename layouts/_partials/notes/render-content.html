@@ -1,50 +1,77 @@
 {{- $page := . -}}
 {{- $content := $page.Content -}}
 {{- $class := site.Params.notes.wikilink_class | default "wikilink" -}}
-{{- $registry := partialCached "notes/link-registry.html" site "notes-registry-v2" -}}
 
 {{- /* Hide static See also sections; rendered dynamically via see-also.html */ -}}
 {{- $content = replaceRE `(?s)<h2[^>]*id="see-also"[^>]*>See also</h2>.*$` "" $content -}}
 {{- $content = replaceRE `(?s)<h2[^>]*>See also</h2>.*$` "" $content -}}
 
-{{- range $registry.notes -}}
-  {{- if ne $page.RelPermalink .RelPermalink -}}
-    {{- $label := .Title -}}
+{{- /* Typographer may curl apostrophes inside [[wikilinks]] before we replace them */ -}}
+{{- $content = replace $content "\u2019" "'" -}}
+{{- $content = replace $content "\u2018" "'" -}}
+{{- $content = replace $content "&rsquo;" "'" -}}
+{{- $content = replace $content "&#8217;" "'" -}}
+{{- $content = replace $content "&apos;" "'" -}}
+
+{{- /* Keep inline code / pre blocks literal (e.g. `[[wikilinks]]` in Getting Started) */ -}}
+{{- $protected := slice -}}
+{{- $blocks := findRE `(?s)<(?:code|pre)[^>]*>.*?</(?:code|pre)>` $content -}}
+{{- range $i, $block := $blocks -}}
+  {{- $token := printf "WIKILINK-PROTECT-%d-END" $i -}}
+  {{- $protected = $protected | append (dict "token" $token "block" $block) -}}
+  {{- $content = replace $content $block $token -}}
+{{- end -}}
+
+{{- /* Resolve each [[wikilink]] via the link registry (case-insensitive keys) */ -}}
+{{- $links := findRE `\[\[[^\]]+\]\]` $content -}}
+{{- $seen := dict -}}
+{{- range $links -}}
+  {{- $full := . -}}
+  {{- if index $seen $full -}}
+    {{- continue -}}
+  {{- end -}}
+  {{- $seen = merge $seen (dict $full true) -}}
+
+  {{- $inner := replaceRE `^\[\[|\]\]$` "" $full -}}
+  {{- $left := $inner -}}
+  {{- $label := "" -}}
+  {{- if strings.Contains $inner "|" -}}
+    {{- $pipeParts := split $inner "|" -}}
+    {{- $left = index $pipeParts 0 | strings.TrimSpace -}}
+    {{- $label = index $pipeParts 1 | strings.TrimSpace -}}
+  {{- end -}}
+  {{- $target := $left -}}
+  {{- $anchor := "" -}}
+  {{- if strings.Contains $left "#" -}}
+    {{- $hashParts := split $left "#" -}}
+    {{- $target = index $hashParts 0 | strings.TrimSpace -}}
+    {{- $anchor = index $hashParts 1 | strings.TrimSpace -}}
+  {{- end -}}
+
+  {{- $resolved := partial "notes/resolve-target.html" (dict "Target" $target) -}}
+  {{- with $resolved.Page -}}
     {{- $href := .RelPermalink -}}
-    {{- $preview := .RelPermalink -}}
-    {{- $open := printf `<a href="%s" class="%s" data-wikilink-preview="%s">` $href $class $preview -}}
-    {{- $close := "</a>" -}}
-
-    {{- /* [[Title]] */ -}}
-    {{- $content = replace $content (printf "[[%s]]" .Title) (printf "%s%s%s" $open $label $close) -}}
-
-    {{- /* [[Title|label]] */ -}}
-    {{- $content = replaceRE (printf `\[\[%s\|([^\]]+)\]\]` .Title) (printf "%s$1%s" $open $close) $content -}}
-
-    {{- /* [[Title#heading]] and [[Title#heading|label]] */ -}}
-    {{- $content = replaceRE (printf `\[\[%s#([^\]|]+)\]\]` .Title) (printf `<a href="%s" class="%s" data-wikilink-preview="%s">$1</a>` $href $class $preview) $content -}}
-    {{- $content = replaceRE (printf `\[\[%s#([^\]|]+)\|([^\]]+)\]\]` .Title) (printf `<a href="%s" class="%s" data-wikilink-preview="%s">$2</a>` $href $class $preview) $content -}}
-
-    {{- with .Params.slug -}}
-      {{- $content = replace $content (printf "[[%s]]" .) (printf "%s%s%s" $open $label $close) -}}
-      {{- $content = replaceRE (printf `\[\[%s\|([^\]]+)\]\]` .) (printf "%s$1%s" $open $close) $content -}}
+    {{- if $anchor -}}
+      {{- $href = printf "%s#%s" $href $anchor -}}
     {{- end -}}
-
-    {{- with .File -}}
-      {{- $content = replace $content (printf "[[%s]]" .ContentBaseName) (printf "%s%s%s" $open $label $close) -}}
-      {{- $content = replaceRE (printf `\[\[%s\|([^\]]+)\]\]` .ContentBaseName) (printf "%s$1%s" $open $close) $content -}}
-    {{- end -}}
-
-    {{- with .Params.aliases -}}
-      {{- range . -}}
-        {{- $content = replace $content (printf "[[%s]]" .) (printf "%s%s%s" $open . $close) -}}
-        {{- $content = replaceRE (printf `\[\[%s\|([^\]]+)\]\]` .) (printf "%s$1%s" $open $close) $content -}}
+    {{- $text := $label -}}
+    {{- if not $text -}}
+      {{- if $anchor -}}
+        {{- $text = $anchor -}}
+      {{- else -}}
+        {{- $text = $target -}}
       {{- end -}}
     {{- end -}}
+    {{- $link := printf `<a href="%s" class="%s" data-wikilink-preview="%s">%s</a>` $href $class .RelPermalink $text -}}
+    {{- $content = replace $content $full $link -}}
   {{- end -}}
 {{- end -}}
 
 {{- /* Unresolved wikilinks */ -}}
 {{- $content = replaceRE `\[\[([^\]]+)\]\]` (printf `<span class="%s-broken" title="No matching note for this wikilink">$1</span>` $class) $content -}}
+
+{{- range $protected -}}
+  {{- $content = replace $content .token .block -}}
+{{- end -}}
 
 {{- $content | safeHTML -}}

@@ -9,20 +9,14 @@
     {{ if .deadEnd }}{{ $deadEnds = add $deadEnds 1 }}{{ end }}
   {{ end }}
 
-  <section class="section pt-7">
+  {{ partial "page-header" . }}
+
+  <section class="section">
     <div class="container">
       <div class="row justify-center">
         <div class="lg:col-10">
-          <div class="notes-toolbar mb-4 flex flex-wrap items-center gap-3">
-            <a class="text-accent text-sm no-underline hover:underline" href="{{ `/notes/` | relLangURL }}">← All notes</a>
-            {{- $issueData := partialCached "notes/collect-note-issues.html" site "note-issues-v1" -}}
-            {{- $issueTotal := add $issueData.brokenCount $issueData.unlinkedCount -}}
-            <a class="text-accent text-sm no-underline hover:underline" href="{{ `/notes/issues/` | relLangURL }}">
-              Issues{{ if gt $issueTotal 0 }} ({{ $issueTotal }}){{ end }}
-            </a>
-          </div>
+          {{ partial "notes/toolbar.html" (dict "Context" . "active" "graph") }}
 
-          <h1 class="article-title mb-4">Note graph</h1>
           <p class="text-ink-muted mb-4">Interactive map of wikilinks. Filter by orphans (no inbound links), hubs (highly connected), or dead ends (no wikilinks in the note body — excluding See also).</p>
 
           <div class="notes-graph-stats text-ink-muted mb-4 flex flex-wrap gap-4 text-sm">

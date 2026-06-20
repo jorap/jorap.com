@@ -1,7 +1,7 @@
 ---
 title: "Review"
 meta_title: "Flashcard Review | JoRap"
-description: "Quiz yourself on opt-in note cards with spaced repetition in the browser."
+description: "Quiz myself on habit spine cards with spaced repetition in the browser."
 slug: "review"
 layout: "review"
 note_kind: "meta"
@@ -14,10 +14,7 @@ featured: false
 review: false
 draft: false
 ---
-**Review** = active recall in the browser — show the prompt, try the answer, rate yourself. Progress saves in this browser only; use Anki export when you want phone sync.
 
-Extends [[Cards]]. Implements [[Spaced Repetition]].
+**Review** = active recall in the browser - show the prompt, try the answer, rate myself. Progress saves in this browser only; I use Anki export when I want phone sync.
 
 Extends [[Flashcards]]. Implements [[Spaced Repetition]].
-
-Extends [[Getting Started]]. Implements [[Spaced Repetition]].

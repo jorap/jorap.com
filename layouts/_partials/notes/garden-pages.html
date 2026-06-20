@@ -1,2 +1,2 @@
-{{- /* Evergreen garden notes — excludes meta index pages. */ -}}
-{{- return (partial "notes/pages.html" (dict "ExcludeKinds" (slice "meta"))) -}}
+{{- /* Evergreen garden notes — excludes utility/meta surfaces. */ -}}
+{{- return (partial "notes/pages.html" .) -}}

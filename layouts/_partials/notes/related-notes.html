@@ -45,6 +45,9 @@
   {{- $relatedNotes := slice -}}
   {{- range site.RegularPages.Related $page -}}
     {{- if eq .Section "notes" -}}
+      {{- if partial "notes/is-utility-page.html" . -}}
+        {{- continue -}}
+      {{- end -}}
       {{- $relatedNotes = $relatedNotes | append (dict "Page" . "Score" 0.0 "Shared" slice) -}}
     {{- end -}}
   {{- end -}}

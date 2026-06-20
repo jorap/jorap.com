@@ -1,26 +1,23 @@
 ---
 title: "Mind Mapping"
 meta_title: "Mind Mapping - Spatial Thinking Before Linear Notes"
-description: "Mind maps are the messy first pass - turn them into atomic notes after, not instead."
+description: "Mind maps and sketches are the messy first pass - turn them into atomic notes after, not instead."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Mind Mapping", "Visual Thinking", "PKM", "Brainstorming", "Note Taking", "Planning"]
+tags: ["Mind Mapping", "Visual Thinking", "PKM", "Brainstorming", "Note Taking", "Planning", "Diagrams", "Excalidraw", "Creativity"]
 slug: "mind-mapping"
 featured: false
 status: evergreen
 draft: false
-aliases: []
+aliases: ["Visual Thinking"]
 ---
-**Mind maps** = sketch branches and bubbles first — export to atomic notes after, not instead.
 
-Excalidraw or paper for the burst; then one idea per file. Maps are compost, not compost bins - they feed [[Atomic Notes]], they don't replace them.
-
-Extends [[Visual Thinking]]. Contradicts [[Atomic Notes]].
+Mind maps are for the messy first pass - branches, bubbles, relationships. I export to atomic notes after, not instead.
 
 ## See also
 
-- [[Active Knowledge Curation]] — Note Taking, PKM
-- [[Advantages of Digital Gardens]] — Note Taking, PKM
-- [[Analog Capture Tools]] — Note Taking, PKM
+- [[Active Knowledge Curation]] - Note Taking, PKM
+- [[Digital Garden]] - Note Taking, PKM
+- [[Daily Notes]] - Note Taking, PKM, Planning

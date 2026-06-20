@@ -1,4 +1,14 @@
 {{- /* Table of contents for notes, excluding the static See also heading. */ -}}
-{{- $toc := .TableOfContents -}}
-{{- $toc = replaceRE `\s*<li>\s*<a href="#see-also">See also</a>\s*</li>` "" $toc -}}
-{{- return (dict "html" $toc "has" (findRE `<a href=` $toc)) -}}
+{{- $start := 2 -}}
+{{- $end := 5 -}}
+{{- $ordered := true -}}
+{{- $listTag := cond $ordered "ol" "ul" -}}
+{{- $skipIds := slice "see-also" -}}
+{{- $html := "" -}}
+{{- with .Fragments.Headings -}}
+  {{- $items := partial "notes/toc-headings.html" (dict "headings" . "start" $start "end" $end "skipIds" $skipIds) -}}
+  {{- if $items -}}
+    {{- $html = printf `<nav id="TableOfContents"><%s>%s</%s></nav>` $listTag $items $listTag -}}
+  {{- end -}}
+{{- end -}}
+{{- return (dict "html" $html "has" (ne $html "")) -}}

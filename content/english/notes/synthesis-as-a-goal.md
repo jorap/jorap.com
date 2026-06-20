@@ -1,26 +1,23 @@
 ---
 title: "Synthesis as a Goal"
 meta_title: "Synthesis as a Goal - Notes Should Combine"
-description: "Synthesis merges sources into what you believe - collecting quotes isn't PKM."
+description: "Collecting quotes isn't PKM for me. Synthesis is merging sources into what I believe and can defend."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Synthesis", "PKM", "Writing", "Research", "Second Brain", "Express"]
+tags: ["Synthesis", "PKM", "Writing", "Research", "Second Brain", "Express", "Zettelkasten", "Academic"]
 slug: "synthesis-as-a-goal"
 featured: false
 status: evergreen
 draft: false
-aliases: []
+aliases: ["Research Notes", "note taking for researchers"]
 ---
-**Synthesis** = put it in your own words - what you actually think, and why.
 
-After reading, one note in my words: what I think now, what would change my mind. Quotes are evidence, not the product. Without that step, [[PKM]] is a bookmark graveyard.
-
-Extends [[Creative Output]]. Contradicts [[Progressive Summarization]].
+Collecting quotes isn't PKM for me. Synthesis means merging sources into what I believe and can defend.
 
 ## See also
 
-- [[Digital Serendipity]] — PKM, Research, Second Brain
-- [[Evergreen Notes]] — PKM, Second Brain, Writing
-- [[Intellectual Sourcing]] — PKM, Research, Writing
+- [[Digital Serendipity]] - PKM, Research, Second Brain
+- [[Evergreen Notes]] - PKM, Second Brain, Writing
+- [[Intellectual Sourcing]] - PKM, Research, Writing

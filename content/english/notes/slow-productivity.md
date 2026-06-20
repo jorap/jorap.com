@@ -13,15 +13,12 @@ status: evergreen
 draft: false
 aliases: []
 ---
-**Slow productivity** = cap active projects so notes become output, not guilt backlog.
 
-Busy isn't depth. I'd rather finish three things than juggle twelve.
-
-Extends [[Creative Output]]. Contradicts [[The 12 Week Year]].
+**Slow Productivity** pushes back on busy-as-virtue. I run fewer active projects so notes become output, not backlog.
 
 ## See also
 
-- [[Interstitial Journaling]] — Focus, Note Taking, PKM
-- [[Active Knowledge Curation]] — Note Taking, PKM, Productivity
-- [[Analog Capture Tools]] — Note Taking, PKM, Productivity
-- [[Capture]] — Note Taking, PKM, Productivity
+- [[Daily Notes]] - Focus, Note Taking, PKM
+- [[Active Knowledge Curation]] - Note Taking, PKM, Productivity
+- [[Analog Capture Tools]] - Note Taking, PKM, Productivity
+- [[Capture]] - Note Taking, PKM, Productivity

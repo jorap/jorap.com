@@ -36,26 +36,30 @@ LEADS: dict[str, str] = {
         "one idea per file, combinable later."
     ),
     "atomic-notes": (
-        "An **atomic note** holds one claim or question. If I'm writing `and` too much, I split it. "
-        "Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing.\n\n"
-        "**Rule of thumb:** one thing I'd say in conversation - "
-        "\"why middle-click saves tab chaos\" is atomic; \"browser tips and meeting notes\" is not."
+        "**Atomic notes** = one claim I'd say out loud - too many `and`s, split it.\n\n"
+        "**Rule of thumb:** one thing I'd cite in conversation - "
+        "\"why middle-click saves tab chaos\" is atomic; \"browser tips and meeting notes\" is not.\n\n"
+        "Small notes stack like Lego blocks - claim, how-to, example - linked, not merged. "
+        "Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing. "
+        "If I need headings inside one file, I probably need two notes."
     ),
     "building-a-personal-api": (
         "My personal API isn't OAuth - it's consistent frontmatter, wikilinks, and folder shapes "
         "my tools can read without me re-explaining everything."
     ),
     "building-a-second-brain": (
-        "My brain is for having ideas, not storing them. A Second Brain holds them - "
-        "starting with [[Capture]]."
+        "**Second Brain** = offload ideas so my head can think, not hoard.\n\n"
+        "Remember CODE: [[Capture]], organize, distill, express. The system fails when any step is just for show. "
+        "I review whether each step still earns its place every quarter."
     ),
     "bullet-journaling": (
         "I don't bullet journal for pretty spreads. I use rapid logging when digital capture feels slow - "
         "tasks, events, notes on paper, migrated weekly."
     ),
     "capture": (
-        "**Capture** is where [[PKM]] lives or dies. I save what resonates, not everything I see - "
-        "and I keep one inbox I actually trust."
+        "**Capture** = save what resonates into one inbox I trust - then empty it weekly.\n\n"
+        "Friction kills capture. One inbox, phone to desktop, weekly process - same as [[The Trusted Inbox]]. "
+        "If I wouldn't act on it or cite it later, it doesn't get saved. Resonance is the filter, not FOMO."
     ),
     "collaborative-knowledge": (
         "Most of my notes are solo, but teams need shared context too. "
@@ -221,8 +225,11 @@ LEADS: dict[str, str] = {
         "I keep Anki beside my wiki without merging them."
     ),
     "spaced-repetition": (
-        "Spaced repetition schedules reviews before I forget. "
-        "I use it for facts I need cold, not for whole wiki pages."
+        "**Spaced repetition** = review facts on a schedule before I forget - for recall, not whole essays.\n\n"
+        "Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for. "
+        "Whole essays don't belong on flashcards. The wiki holds understanding; Anki or SRS apps hold drill - "
+        "separate lanes, algorithm handles timing. In this garden, only ~12 spine notes (~20%) opt in with "
+        "`review: true`, and cards target habits (what to do when) - not definition trivia."
     ),
     "synthesis-as-a-goal": (
         "Collecting quotes isn't PKM for me. Synthesis means merging sources into what I believe and can defend."
@@ -277,7 +284,62 @@ LEADS: dict[str, str] = {
         "My weekly review is a checklist - inbox, calendar, projects, one express action. Boring on purpose."
     ),
     "zettelkasten": (
-        "**Zettelkasten** is one [[Atomic Notes|atomic]] idea per note, dense links, writing from the network."
+        "**Zettelkasten** = one [[Atomic Notes|atomic]] idea per note, dense links, writing from the network."
+    ),
+    "compounding": (
+        "**Compounding** = repeat small gains until they stack - keep showing up; the curve looks flat until it doesn't.\n\n"
+        "Borrowed from finance, but it applies anywhere today's gain makes tomorrow easier: notes linked over years, "
+        "publish cadence, vocab drills. Heroic weeks feel good; boring repetition wins. "
+        "The first months look like nothing - that's the trap."
+    ),
+    "low-hanging-fruit": (
+        "**Low hanging fruit** = the easy win I can grab now - do it before I climb for the hard stuff.\n\n"
+        "Not every task deserves hero energy. Fix the broken link, publish the half-done draft, "
+        "delete the folder I haven't opened in a year. Small, obvious, done today. "
+        "I use it when I'm avoiding work by planning harder work."
+    ),
+    "pareto-principle": (
+        "**Pareto principle** = most results come from a small slice of work - find the slice, protect it, cut the rest.\n\n"
+        "Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand, not a law). "
+        "I use it when my reading list, task board, or note tags all feel equally important: "
+        "which few actually moved the needle? Same rule for flashcards: only ~12 habit spine notes "
+        "carry `review: true` here (~20% of the garden). Cards ask what I'd *do*, not what I'd *define*."
+    ),
+    "minimum-effective-dose": (
+        "**Minimum effective dose** = the smallest change that still moves the needle - not the heroic overhaul.\n\n"
+        "I borrowed it from medicine: enough to work, not more than needed. "
+        "Applies to PKM habits, fitness, and side projects. More input past the dose is noise."
+    ),
+    "minimum-viable-product": (
+        "**Minimum viable product** = the smallest thing I can ship that tests the idea - not a polished fantasy.\n\n"
+        "I'd rather publish a rough note or prototype and learn than polish in private for months."
+    ),
+    "sunk-cost-fallacy": (
+        "**Sunk cost fallacy** = keeping a bad tool, project, or note because I already invested time - not because it still earns its place.\n\n"
+        "Past effort is gone. I ask: if I found this today, would I start it?"
+    ),
+    "note-relationships": "",  # handled specially - keeps table
+    "cards": (
+        "**Flashcards** = drill lane beside the wiki - opt in per note, export to Anki when I want SRS on my phone.\n\n"
+        "Twelve habit spine notes (~20% of the garden) use `review: true` ([[Pareto Principle]] applied). "
+        "Each carries six scenario cards in frontmatter - prompts ask what I'd *do* when capture, review, "
+        "or linking breaks down, not what a term *means*. **Quiz yourself** at [/notes/review/](/notes/review/)."
+    ),
+    "review": (
+        "**Review** = active recall in the browser - show the prompt, try the answer, rate myself. "
+        "Progress saves in this browser only; I use Anki export when I want phone sync."
+    ),
+    "issues": (
+        "**Garden link issues** = broken wikilinks and note titles mentioned in prose without a `[[wikilink]]` - listed below and on each affected note.\n\n"
+        "**Missing note** means the wikilink target does not match any published note. "
+        "**Unlinked mention** means another note's title appears in the body without a link. "
+        "Frontmatter and flashcards are not checked - only the note body."
+    ),
+    "random-two": (
+        "Two notes from the garden, picked at random. I hit **Shuffle** for another pair."
+    ),
+    "random-three": (
+        "Three notes from the garden, picked at random. Shuffle all, or lock two and shuffle one column."
     ),
 }
 
@@ -293,11 +355,6 @@ PARA2_FIXES: dict[str, str] = {
         "Density of links matters more than count of files. "
         "History in [[Slip-box History]]; myths in [[The Zettelkasten Myth]]."
     ),
-    "atomic-notes": (
-        "I split when I need `and` twice. Link when ideas touch. "
-        "[[Maps of Content]] collect clusters; backlinks show what I forgot I wrote. "
-        "The graph is the organization."
-    ),
     "progressive-summarization": (
         "Layer one: bold the good sentences. Layer two: highlight the best bold. "
         "Layer three: summary at top - only when I reach for the note a second time. "
@@ -306,7 +363,8 @@ PARA2_FIXES: dict[str, str] = {
 }
 
 DESCRIPTIONS: dict[str, str] = {
-    "atomic-notes": "One idea per note, written to stand alone and link freely - not mini blog posts.",
+    "atomic-notes": "One idea per note I'd cite in conversation - not mini blog posts.",
+    "capture": "Capture is where my PKM lives or dies - one trusted inbox, save what resonates.",
     "building-a-second-brain": (
         "My brain is for having ideas, not storing them. "
         "A Second Brain is the system that holds them - starting with capture."
@@ -376,6 +434,17 @@ DESCRIPTIONS: dict[str, str] = {
     "maps-of-content": (
         "A MOC is a curated index of notes on a topic - not a folder list, a table of contents I write by hand."
     ),
+    "note-relationships": (
+        "Five link types I use in the body - extends, contradicts, implements, alternative, index."
+    ),
+    "pareto-principle": (
+        "Most results come from a small slice of work - find that slice, protect it, cut the rest."
+    ),
+    "compounding": (
+        "Small gains stack on each other - boring repetition beats heroic weeks until the curve bends."
+    ),
+    "cards": "Flip cards from opt-in notes - habit prompts, not trivia. Export the same deck to Anki.",
+    "review": "Quiz myself on habit spine cards with spaced repetition in the browser.",
 }
 
 SKIP = {"graph"}
@@ -431,7 +500,7 @@ def main() -> None:
         parts = main_paragraphs(body)
 
         new_parts: list[str] = []
-        if stem in LEADS:
+        if stem in LEADS and LEADS[stem]:
             lead = LEADS[stem]
             if "\n\n" in lead:
                 new_parts.extend(p.strip() for p in lead.split("\n\n"))
@@ -439,8 +508,53 @@ def main() -> None:
                 new_parts.append(lead)
             if stem in PARA2_FIXES:
                 new_parts.append(PARA2_FIXES[stem])
-            elif len(parts) > 1:
-                new_parts.append(parts[1])
+            for p in parts:
+                if (p.startswith("Extends ") or p.startswith("Contradicts ") or p.startswith("Implements ")) and p not in new_parts:
+                    new_parts.append(p)
+        elif stem == "note-relationships":
+            opener = (
+                "**Note relationships** = five link types I put in the body - extends, contradicts, "
+                "implements, alternative, index - so the graph shows how ideas push and pull.\n\n"
+            )
+            table_idx = body.find("| Type |")
+            if table_idx == -1:
+                print(f"skip {path.name}: no table")
+                continue
+            tail = body[table_idx:]
+            see_idx = tail.find(SEE_ALSO)
+            main_chunk = tail[:see_idx].strip() if see_idx != -1 else tail.strip()
+            # Fix third-person line in table section if present
+            main_chunk = main_chunk.replace(
+                "Every atomic note gets **extends** and **contradicts** in the body",
+                "I give every atomic note **extends** and **contradicts** in the body",
+            )
+            new_body = opener + main_chunk
+            fm_inner = update_description(fm_inner, stem)
+            fm_block = f"---\n{fm_inner}\n---"
+            out = f"{fm_block}\n\n{no_em_dash(new_body)}\n\n{no_em_dash(see_also)}" if see_also else f"{fm_block}\n\n{no_em_dash(new_body)}\n"
+            path.write_text(out, encoding="utf-8")
+            updated += 1
+            print(f"voice: {path.name}")
+            continue
+        elif stem in {"cards", "review", "issues", "random-two", "random-three"}:
+            lead = LEADS[stem]
+            rel_line = ""
+            if stem == "cards":
+                rel_line = "\n\nExtends [[Getting Started]]. Implements [[Spaced Repetition]]."
+            elif stem == "review":
+                rel_line = "\n\nExtends [[Flashcards]]. Implements [[Spaced Repetition]]."
+            elif stem == "issues":
+                rel_line = "\n\nExtends [[Getting Started]]. Implements [[Graph View Analytics]]."
+            elif stem == "random-two":
+                rel_line = "\n\nExtends [[Getting Started]]. Implements [[Digital Serendipity]]."
+            elif stem == "random-three":
+                rel_line = "\n\nExtends [[Getting Started]]. Implements [[Digital Serendipity]]."
+            fm_inner = update_description(fm_inner, stem)
+            fm_block = f"---\n{fm_inner}\n---"
+            path.write_text(f"{fm_block}\n\n{no_em_dash(lead)}{rel_line}\n", encoding="utf-8")
+            updated += 1
+            print(f"voice: {path.name}")
+            continue
         elif stem == "getting-started":
             # Meta page: keep structure, fix voice touches in place.
             path.write_text(no_em_dash(text), encoding="utf-8")
@@ -486,12 +600,25 @@ def main() -> None:
     # graph.md body
     graph = NOTES_DIR / "graph.md"
     gtext = graph.read_text(encoding="utf-8")
-    if gtext.endswith("---\n"):
+    fm, fm_inner, body = split_frontmatter(gtext)
+    if "**Note graph**" not in body:
         graph.write_text(
-            gtext.rstrip() + "\n\nForce-directed map of how my notes link. Open at [/notes/graph/](/notes/graph/).\n",
+            gtext.rstrip()
+            + "\n\n**Note graph** = open the link map to find orphans, hubs, and connections I'm missing.\n",
             encoding="utf-8",
         )
         print("voice: graph.md")
+
+    # Global em-dash pass on every note file
+    dash_count = 0
+    for path in sorted(NOTES_DIR.glob("*.md")):
+        raw = path.read_text(encoding="utf-8")
+        fixed = no_em_dash(raw)
+        if fixed != raw:
+            path.write_text(fixed, encoding="utf-8")
+            dash_count += 1
+    if dash_count:
+        print(f"em-dash pass: {dash_count} files")
 
     print(f"\nDone: {updated} notes updated.")
 

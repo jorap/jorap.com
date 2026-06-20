@@ -36,6 +36,8 @@
     {{- if strings.Contains $target "#" -}}
       {{- $target = index (split $target "#") 0 | strings.TrimSpace -}}
     {{- end -}}
+    {{- $target = replace $target "\u2019" "'" -}}
+    {{- $target = replace $target "\u2018" "'" -}}
     {{- if not (index $registry.byKey (lower $target)) -}}
       {{- $key := lower $target -}}
       {{- if not (index $brokenKeys $key) -}}

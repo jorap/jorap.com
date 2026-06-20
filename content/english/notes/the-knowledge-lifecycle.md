@@ -13,13 +13,10 @@ status: evergreen
 draft: false
 aliases: ["Knowledge Lifecycle"]
 ---
-**Knowledge lifecycle** = capture → use → polish → fade → archive. Spend effort where the note actually is.
 
-Not every note should be evergreen forever. Some decay honestly; some get archived; some get rewritten when the world shifts. See [[Evergreen vs Fleeting Notes]].
-
-Extends [[Evergreen vs Fleeting Notes]]. Contradicts [[Evergreen Notes]].
+Ideas have lifecycles in my vault: capture, active use, evergreen, decay, archive. I match effort to stage.
 
 ## See also
 
-- [[Context-Aware Capture]] — PKM, Workflow
-- [[Evergreen Notes]] — Evergreen Notes, PKM
+- [[Context-Aware Capture]] - PKM, Workflow
+- [[Evergreen Notes]] - Evergreen Notes, PKM

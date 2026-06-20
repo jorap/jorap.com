@@ -15,13 +15,13 @@ draft: false
 ---
 **Notes garden** = one claim per page, linked with `[[wikilinks]]`, browsable at [/notes/](/notes/).
 
-Public when `draft: false`; hidden while `draft: true`. Each note opens with a definition you can quote in one breath - the graph and backlinks do the organizing. Start at [[Maps of Content]] or walk through the steps below.
+Public when `draft: false`; hidden while `draft: true`. Each note opens with a definition I can quote in one breath - the graph and backlinks do the organizing. Start at [[Maps of Content]] or walk through the steps below.
 
 Extends [[Note Relationships]]. Index for this site.
 
 ## Atomic rule
 
-**One note = one claim** you'd cite in conversation. No `##` sections, no "bottom line" - link out instead. See [[Atomic Notes]]. Each note also states what it **extends** and **contradicts** — see [[Note Relationships]].
+**One note = one claim** I'd cite in conversation. No `##` sections, no "bottom line" - link out instead. See [[Atomic Notes]]. Each note also states what it **extends** and **contradicts** - see [[Note Relationships]].
 
 ## Create a note
 
@@ -31,9 +31,9 @@ hugo new notes/my-idea.md
 
 Or add a `.md` file under `content/english/notes/`. Use the same frontmatter as blog posts (`title`, `meta_title`, `description`, `slug`, `date`, `image`, `categories`, `author`, `tags`, `featured`, `draft`) plus optional lifecycle fields:
 
-- `status` — `seedling` (draft claim), `evergreen` (stable), `inbox` (unprocessed), or `archived`
+- `status` - `seedling` (draft claim), `evergreen` (stable), `inbox` (unprocessed), or `archived`
 
-Created and updated timestamps come from the file itself at build time (`scripts/noteFileDates.js`) — no manual date fields to maintain.
+Created and updated timestamps come from the file itself at build time (`scripts/noteFileDates.js`) - no manual date fields to maintain.
 
 ## Link between notes
 
@@ -56,7 +56,7 @@ What this site gives you:
 - **Maps of Content** - hub index at [[Maps of Content]]
 - **Status badges** - seedling/evergreen/inbox/archived on each note; stale filter uses file edit time on [/notes/](/notes/)
 - **Resurfacing** - recently created list and random note on [/notes/](/notes/)
-- **Flashcards** - spine notes with `review: true` carry six `cards:` in frontmatter; flip them on each note page or at [/notes/review/](/notes/review/)
+- **Flashcards** - ~12 habit spine notes (~20%) with `review: true` carry six scenario `cards:` in frontmatter; habit prompts I drill at [/notes/review/](/notes/review/)
 
 ## Explore
 
@@ -64,8 +64,8 @@ What this site gives you:
 - **See also** suggests tag-related notes you haven't linked yet.
 - **Graph** at [/notes/graph/](/notes/graph/) maps connections - filter notes with no links, too many links, and dead ends.
 - **Issues** at [/notes/issues/](/notes/issues/) lists broken wikilinks and unlinked note mentions; warnings also show on each affected note.
-- **Status filters** on [/notes/](/notes/) — inbox, stale (by file edit age), seedling, evergreen, archived.
-- `npm run lint:notes` catches broken wikilinks and unlinked mentions in the **body** at build time (frontmatter is not linted — use note titles freely in `cards:` and other fields).
+- **Status filters** on [/notes/](/notes/) - inbox, stale (by file edit age), seedling, evergreen, archived.
+- `npm run lint:notes` catches broken wikilinks and unlinked mentions in the **body** at build time (frontmatter is not linted - use note titles freely in `cards:` and other fields).
 
 ## Publish to the blog
 

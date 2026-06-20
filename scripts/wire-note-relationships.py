@@ -16,10 +16,6 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
         "extends": "Building a Second Brain",
         "contradicts": "The Collector's Fallacy",
     },
-    "advantages-of-digital-gardens": {
-        "extends": "Digital Garden",
-        "contradicts": "Evergreen Notes",
-    },
     "analog-capture-tools": {
         "extends": "Capture",
         "contradicts": "Digital Minimalism",
@@ -31,11 +27,7 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
     },
     "associative-linking": {
         "extends": "Atomic Notes",
-        "contradicts": "Organization",
-    },
-    "atomic-design-for-notes": {
-        "extends": "Atomic Notes",
-        "contradicts": "Mind Mapping",
+        "contradicts": "PARA Method",
     },
     "atomic-notes": {
         "extends": "Zettelkasten",
@@ -49,11 +41,6 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
         "extends": "PKM",
         "contradicts": "The Collector's Fallacy",
     },
-    "bullet-journaling": {
-        "extends": "Analog Capture Tools",
-        "contradicts": "Building a Second Brain",
-        "alternative": "Daily Notes",
-    },
     "capture": {
         "extends": "PKM",
         "contradicts": "Signal vs Noise",
@@ -61,10 +48,6 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
     "cards": {
         "implements": "Spaced Repetition",
         "extends": "Getting Started",
-    },
-    "collaborative-knowledge": {
-        "extends": "Building a Personal API",
-        "contradicts": "Digital Garden",
     },
     "compounding": {
         "extends": "Process Over Outcomes",
@@ -82,14 +65,9 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
         "extends": "Building a Second Brain",
         "contradicts": "The Collector's Fallacy",
     },
-    "curation-as-creation": {
-        "extends": "Active Knowledge Curation",
-        "contradicts": "Organization",
-    },
     "daily-notes": {
         "extends": "Capture",
         "contradicts": "Evergreen Notes",
-        "alternative": "Bullet Journaling",
     },
     "digital-garden": {
         "extends": "Evergreen Notes",
@@ -103,17 +81,9 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
         "extends": "Associative Linking",
         "contradicts": "Digital Minimalism",
     },
-    "distraction-free-writing": {
-        "extends": "Creative Output",
-        "contradicts": "Drafting in Public",
-    },
     "drafting-in-public": {
         "extends": "Digital Garden",
         "contradicts": "Evergreen Notes",
-    },
-    "e2ee-security": {
-        "extends": "Privacy and Data Sovereignty",
-        "contradicts": "Digital Garden",
     },
     "evergreen-notes": {
         "extends": "Atomic Notes",
@@ -127,17 +97,9 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
         "extends": "Synthesis as a Goal",
         "contradicts": "Progressive Summarization",
     },
-    "formatting-for-readability": {
-        "extends": "Evergreen Notes",
-        "contradicts": "Atomic Notes",
-    },
-    "from-note-to-book": {
-        "extends": "Maps of Content",
-        "contradicts": "Minimum Viable Product",
-    },
     "future-proofing-knowledge": {
         "extends": "Local-first Software",
-        "contradicts": "The Future of PKM",
+        "contradicts": "Building a Personal API",
     },
     "getting-started": {
         "extends": "Note Relationships",
@@ -152,27 +114,23 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
         "contradicts": "Maps of Content",
     },
     "gtd-vs-para": {
-        "extends": "Organization",
+        "extends": "PARA Method",
         "contradicts": "PKM",
     },
     "intellectual-sourcing": {
-        "extends": "Note-Taking for Researchers",
+        "extends": "Synthesis as a Goal",
         "contradicts": "Progressive Summarization",
     },
-    "interstitial-journaling": {
-        "extends": "Daily Notes",
-        "contradicts": "Slow Productivity",
-    },
     "local-first-software": {
-        "extends": "Privacy and Data Sovereignty",
-        "contradicts": "Collaborative Knowledge",
+        "extends": "PKM",
+        "contradicts": "Drafting in Public",
     },
     "low-hanging-fruit": {
         "extends": "Pareto Principle",
         "contradicts": "Compounding",
     },
     "maps-of-content": {
-        "extends": "Curation as Creation",
+        "extends": "Active Knowledge Curation",
         "contradicts": "Atomic Notes",
         "index": "the garden",
     },
@@ -181,11 +139,11 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
         "contradicts": "There Is No Perfect Solution",
     },
     "metadata-strategy": {
-        "extends": "Organization",
+        "extends": "PARA Method",
         "contradicts": "Building a Personal API",
     },
     "mind-mapping": {
-        "extends": "Visual Thinking",
+        "extends": "Creative Output",
         "contradicts": "Atomic Notes",
     },
     "minimum-effective-dose": {
@@ -201,21 +159,9 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
         "contradicts": "Analog Capture Tools",
         "alternative": "Analog Capture Tools",
     },
-    "newsletter-filtering": {
-        "extends": "RSS for Research",
-        "contradicts": "Signal vs Noise",
-    },
     "note-relationships": {
         "extends": "Associative Linking",
-        "contradicts": "Organization",
-    },
-    "note-taking-for-researchers": {
-        "extends": "Synthesis as a Goal",
-        "contradicts": "Progressive Summarization",
-    },
-    "organization": {
-        "extends": "PARA Method",
-        "contradicts": "Associative Linking",
+        "contradicts": "PARA Method",
     },
     "para-method": {
         "extends": "Building a Second Brain",
@@ -232,10 +178,6 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
     "pkm": {
         "extends": "Getting Started",
         "contradicts": "The Collector's Fallacy",
-    },
-    "privacy-and-data-sovereignty": {
-        "extends": "Local-first Software",
-        "contradicts": "Drafting in Public",
     },
     "process-over-outcomes": {
         "extends": "Compounding",
@@ -261,15 +203,6 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
         "extends": "Capture",
         "contradicts": "Signal vs Noise",
     },
-    "second-brain-daily-workflow": {
-        "implements": "The Second Brain Workflow",
-        "extends": "Capture",
-        "contradicts": "Slow Productivity",
-    },
-    "serendipitous-resurfacing": {
-        "extends": "Digital Serendipity",
-        "contradicts": "Spaced Repetition",
-    },
     "signal-vs-noise": {
         "extends": "Capture",
         "contradicts": "RSS for Research",
@@ -286,10 +219,6 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
         "extends": "Evergreen Notes",
         "contradicts": "Progressive Summarization",
     },
-    "spaced-repetition-systems": {
-        "extends": "Spaced Repetition",
-        "contradicts": "Progressive Summarization",
-    },
     "sunk-cost-fallacy": {
         "extends": "There Is No Perfect Solution",
         "contradicts": "Compounding",
@@ -302,10 +231,6 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
         "extends": "Periodic Knowledge Review",
         "contradicts": "Slow Productivity",
     },
-    "the-archive-method": {
-        "extends": "PARA Method",
-        "contradicts": "Evergreen Notes",
-    },
     "the-collectors-fallacy": {
         "extends": "Creative Output",
         "contradicts": "Capture",
@@ -314,10 +239,6 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
         "extends": "Evergreen Notes",
         "contradicts": "Spaced Repetition",
     },
-    "the-future-of-pkm": {
-        "extends": "Building a Personal API",
-        "contradicts": "Local-first Software",
-    },
     "the-garage-concept": {
         "extends": "Digital Garden",
         "contradicts": "Drafting in Public",
@@ -325,10 +246,6 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
     "the-knowledge-lifecycle": {
         "extends": "Evergreen vs Fleeting Notes",
         "contradicts": "Evergreen Notes",
-    },
-    "the-power-of-interconnectivity": {
-        "extends": "Associative Linking",
-        "contradicts": "Atomic Notes",
     },
     "the-second-brain-workflow": {
         "implements": "Building a Second Brain",

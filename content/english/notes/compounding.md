@@ -13,16 +13,17 @@ draft: false
 aliases: ["Compound Interest"]
 status: evergreen
 ---
-**Compounding** = repeat small gains until they stack — keep showing up; the curve looks flat until it doesn't.
 
-Borrowed from finance (interest on interest), but it applies anywhere today's gain makes tomorrow easier: notes linked over years, publish cadence, vocab drills, fitness. Heroic weeks feel good; boring repetition wins. The first months look like nothing - that's the trap. Pairs with [[Process Over Outcomes]], [[Spaced Repetition]], and [[Evergreen Notes]].
+**Compounding** = repeat small gains until they stack - keep showing up; the curve looks flat until it doesn't.
+
+Borrowed from finance, but it applies anywhere today's gain makes tomorrow easier: notes linked over years, publish cadence, vocab drills. Heroic weeks feel good; boring repetition wins. The first months look like nothing - that's the trap.
 
 Extends [[Process Over Outcomes]]. Contradicts [[Pareto Principle]].
 
 ## See also
 
-- [[Mental Models List]] — Learning, Mental Models, PKM
-- [[Minimum Effective Dose]] — Habits, Mental Models, PKM
-- [[Low Hanging Fruit]] — Mental Models, PKM, Performance
-- [[Pareto Principle]] — Mental Models, PKM, Performance
-- [[PKM]] — Learning, PKM, Productivity
+- [[Mental Models List]] - Learning, Mental Models, PKM
+- [[Minimum Effective Dose]] - Habits, Mental Models, PKM
+- [[Low Hanging Fruit]] - Mental Models, PKM, Performance
+- [[Pareto Principle]] - Mental Models, PKM, Performance
+- [[PKM]] - Learning, PKM, Productivity

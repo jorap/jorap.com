@@ -1,7 +1,7 @@
 ---
 title: "The Feynman Technique"
 meta_title: "The Feynman Technique - Teach It to Learn It"
-description: "Explain notes like you're teaching someone - gaps in explanation show gaps in understanding."
+description: "I explain notes like I'm teaching someone - gaps in my explanation show gaps in understanding."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,13 +13,10 @@ status: evergreen
 draft: false
 aliases: ["Feynman Technique"]
 ---
-**Feynman technique** = teach the idea in plain speech; every stumble marks a gap in the note.
 
-I explain aloud or in a blank doc - no paste from the source. Where I stumble, the note gets a gap marker and a rewrite pass toward [[Evergreen Notes]]. Teaching exposes what highlighting hid.
-
-Extends [[Evergreen Notes]]. Contradicts [[Spaced Repetition]].
+I explain notes like I'm teaching someone - gaps in my explanation show gaps in understanding.
 
 ## See also
 
-- [[Intellectual Sourcing]] — Note Taking, PKM, Writing
-- [[Progressive Summarization]] — Note Taking, PKM, Writing
+- [[Intellectual Sourcing]] - Note Taking, PKM, Writing
+- [[Progressive Summarization]] - Note Taking, PKM, Writing

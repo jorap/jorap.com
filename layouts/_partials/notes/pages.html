@@ -1,9 +1,13 @@
 {{- /*
-  All garden pages under content/english/notes/.
-  Excludes graph layout. Pass dict with ExcludeKinds (slice) to omit note_kind values.
+  Pages under content/english/notes/.
+  Default: garden notes only (excludes utility/meta surfaces).
+  Pass IncludeUtility: true for wikilink registry (graph, issues, flashcards, etc.).
+  Pass ExcludeKinds to omit additional note_kind values.
 */ -}}
+{{- $includeUtility := false -}}
 {{- $excludeKinds := slice -}}
 {{- if reflect.IsMap . -}}
+  {{- $includeUtility = .IncludeUtility | default false -}}
   {{- with .ExcludeKinds -}}
     {{- $excludeKinds = . -}}
   {{- end -}}
@@ -15,14 +19,14 @@
   {{- if not (or (hasPrefix $dir "notes/") (eq $dir "notes/")) -}}
     {{- continue -}}
   {{- end -}}
-  {{- if in (slice "random-two" "random-three") .Params.layout -}}
+  {{- if .Draft -}}
+    {{- continue -}}
+  {{- end -}}
+  {{- if and (not $includeUtility) (partial "notes/is-utility-page.html" .) -}}
     {{- continue -}}
   {{- end -}}
   {{- $kind := .Params.note_kind | default "note" -}}
   {{- if in $excludeKinds $kind -}}
-    {{- continue -}}
-  {{- end -}}
-  {{- if .Draft -}}
     {{- continue -}}
   {{- end -}}
   {{- $pages = $pages | append . -}}

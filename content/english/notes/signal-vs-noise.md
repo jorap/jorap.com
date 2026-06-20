@@ -1,7 +1,7 @@
 ---
 title: "Signal vs Noise"
 meta_title: "Signal vs Noise in Your Information Diet"
-description: "Save only what changes what you do or believe this month - most content is noise."
+description: "I save only what changes what I do or believe this month - most content is noise."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -12,29 +12,26 @@ featured: false
 status: evergreen
 review: true
 cards:
-  - front: "Signal vs noise (definition)"
-    back: "Save only what changes action or belief this month."
-  - front: "Signal filter question"
+  - front: "Interesting article, won't change what I do this month."
+    back: "Admire it and move on. Don't save."
+  - front: "Before capture, my signal filter asks:"
     back: "Will this change what I do or believe this month?"
-  - front: "When content is noise"
-    back: "Admire it and move on — don't save."
-  - front: "Capture without filtering becomes"
-    back: "The Collector's Fallacy."
-  - front: "Signal vs noise extends"
-    back: "Capture."
-  - front: "Signal vs noise tightens capture with what window?"
-    back: "This month — action or belief."
+  - front: "I save everything just in case."
+    back: "Capture without filtering - that's Collector's Fallacy."
+  - front: "Trending thread everyone is bookmarking."
+    back: "Noise unless it changes my action or belief this month."
+  - front: "Good content, wrong month, no action hook."
+    back: "Skip the save. The wiki isn't a trophy case."
+  - front: "Signal vs noise tightens capture how?"
+    back: "This-month window on action or belief."
 draft: false
 aliases: []
 ---
-**Worth saving vs noise** = save only what changes action or belief this month.
 
-The filter question: will this change what I do or believe this month? If not, admire it and move on. [[Capture]] without filtering becomes [[Collector's Fallacy]].
-
-Extends [[Capture]]. Contradicts [[RSS for Research]].
+Most content is noise. PKM fails if capture doesn't filter. I save signal - stuff that changes action or belief.
 
 ## See also
 
-- [[Active Knowledge Curation]] — Curation, PKM
-- [[Analog Capture Tools]] — Capture, PKM
-- [[Building a Second Brain]] — Capture, PKM
+- [[Active Knowledge Curation]] - Curation, PKM
+- [[Analog Capture Tools]] - Capture, PKM
+- [[Building a Second Brain]] - Capture, PKM

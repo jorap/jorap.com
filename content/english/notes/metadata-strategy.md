@@ -1,7 +1,7 @@
 ---
 title: "Metadata Strategy"
 meta_title: "Metadata Strategy - Tags Without Taxonomy Hell"
-description: "Tags, categories, dates, aliases - labels should help you find notes, not become a second job."
+description: "Tags, categories, dates, aliases - metadata should help me find notes, not become a second job."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
@@ -13,13 +13,10 @@ status: evergreen
 draft: false
 aliases: []
 ---
-**How you tag notes** = tag and alias only what helps you find notes — not a second job.
 
-Tags for broad themes, aliases for link targets, dates for publish not theology. If tagging takes longer than writing, your system is wrong. See [[Context-Aware Capture]] for the fields that actually get used.
-
-Extends [[Organization]]. Contradicts [[Building a Personal API]].
+Tags, categories, dates, aliases - metadata should help me find notes, not become a second job.
 
 ## See also
 
-- [[Formatting for Readability]] — Documentation, Note Taking, PKM
-- [[Getting Started]] — Hugo, Note Taking, PKM
+- [[Evergreen Notes]] - Documentation, Note Taking, PKM
+- [[Getting Started]] - Hugo, Note Taking, PKM
