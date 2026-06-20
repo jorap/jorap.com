@@ -18,11 +18,11 @@ cards:
   - front: "Saying Lord Lord but same secret sin unchanged. What did Jesus warn?"
     back: "Not everyone who says Lord enters - do his words."
   - front: "Cross feels optional because grace saved me. What's still costly?"
-    back: "Daily discipleship - not the salvation price."
+    back: "Daily following - not the salvation price."
   - front: "Broad road tempting because it's crowded and easy. One move?"
     back: "Pick narrow - even if few find it."
   - front: "Moral performance as salvation ticket. Which road is that?"
-    back: "Broad self-righteousness - not the grace gate."
+    back: "Broad earning-your-way road - not the grace gate."
   - front: "Tempted to skip hard obedience because everyone's comfortable. Who moves first?"
     back: "I take narrow - don't follow the crowd."
 draft: false

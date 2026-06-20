@@ -22,7 +22,7 @@ cards:
   - front: "Fasting but making sure people notice I'm suffering. What's the move?"
     back: "Fast in secret - wash face, live normal."
   - front: "Every piety act becoming content for applause. Which lane?"
-    back: "Hidden devotion - not performance content."
+    back: "Hidden devotion - not content for applause."
   - front: "Tempted to skip secret prayer because no one saw. Who saw?"
     back: "Father sees hidden - that's enough."
 draft: false

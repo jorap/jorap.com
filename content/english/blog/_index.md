@@ -1,7 +1,7 @@
 ---
 title: "Blog"
 meta_title: "Blog"
-description: "Writing on web development, technical judgment, and building systems that hold up in production."
+description: "Notes from the desk - web builds, gear picks, recipes, and whatever I'm figuring out as I go."
 featured: false
 
 ---

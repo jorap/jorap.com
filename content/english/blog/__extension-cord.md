@@ -22,7 +22,7 @@ I learned that last part the hard way after a cheap cord got warm under a load i
 
 The cord that's **six feet too short** is useless. The cord that's **thirty feet too long** becomes a trip hazard and a tangled mess behind the desk.
 
-I measure the run once - wall outlet to desk, TV to nearest plug, outdoor path to the grill - and add a little slack. For home office use I like **10–15 feet**. For travel, a compact **6-foot** cord with a flat plug wins.
+I measure the run once - wall outlet to desk, TV to nearest plug, outdoor path to the grill - and add a little slack. For home office use I like **10-15 feet**. For travel, a compact **6-foot** cord with a flat plug wins.
 
 ---
 

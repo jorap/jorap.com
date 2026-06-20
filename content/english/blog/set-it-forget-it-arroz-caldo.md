@@ -12,11 +12,11 @@ featured: false
 draft: false
 ---
 
-So I've gotten into this habit of making **Arroz Caldo** during the weekend prep routine - there's something so satisfying about waking up to the smell of this hearty Filipino rice porridge already waiting for you.
+I make **Arroz Caldo** most Friday nights now - prep it, hit the rice cooker's congee button, go to bed. Saturday morning the kitchen already smells like ginger before I'm fully awake.
 
-It's become my little reward system after a long work week - comfort food that actually makes you feel good instead of guilty afterward. Plus, that gingery goodness is exactly what your tummy needs.
+It's my little reward after a long work week. Warm, filling, not fussy.
 
-The part that sold me: a rice cooker with a congee setting that basically does all the work. Total time is maybe an hour, but you're only actively doing stuff for like 5 minutes. The rest of the time you can relax and enjoy the wonderful aroma filling your kitchen.
+The part that sold me: a rice cooker with a congee setting that does the work. Total time is maybe an hour, but you're only in the kitchen for about five minutes. The rest is waiting while the smell does its job.
 
 **Takes about an hour total, feeds 4-6 people (perfect for meal prep or feeding a crowd)**
 
@@ -39,7 +39,7 @@ Also, pro tip: always use chicken thigh fillets. They're fattier and more forgiv
 - Some black pepper
 
 **If you want to get fancy:**
-- Kasubha (safflower) for that golden color - makes it look restaurant-quality
+- Kasubha (safflower) for that golden color - makes it look like you tried
 - 1 onion, diced (sometimes I'm lazy and skip this, still tastes great)
 
 **Toppings are where you can go wild:**
@@ -68,7 +68,7 @@ When it's done, give it a stir and see how the consistency looks. Too thick? Add
 - Make this ahead of time for easy weekday meals. It tastes even better after sitting overnight and reheats perfectly.
 - Fresh ginger makes ALL the difference. You'll definitely taste it.
 - Start with 6 cups of water. You can always thin it out, but it's harder to thicken it back up.
-- Don't skip the toppings! They transform this from simple comfort food to restaurant-quality amazing.
+- Don't skip the toppings! Kalamansi and crispy garlic turn a plain bowl into the good version.
 
 The texture should be creamy but not mushy, with the rice broken down but still having some bite to it. If you've never had good arroz caldo before, think somewhere between risotto and congee.
 

@@ -20,7 +20,7 @@ cards:
   - front: "Three ideas under one heading in a single file. Still one note?"
     back: "Split - three wikilinks."
   - front: "Note reads like a mini blog post with multiple sections. What's the fix?"
-    back: "Split - one citable claim."
+    back: "Split - one clear claim."
   - front: "Tempted to organize with headings inside one file instead of links. What do I use?"
     back: "Wikilinks between notes."
   - front: "Can't link to one idea buried in a kitchen-sink note. What's the fix?"

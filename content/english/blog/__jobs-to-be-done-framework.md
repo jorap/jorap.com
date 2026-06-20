@@ -58,7 +58,7 @@ Stolen from my notes and sharpened by use:
 6. **Which features actually advance the job?** - not shelfware
 7. **How do they measure success?** - the metric that tells them it worked
 
-If you can't answer trigger and outcome, you're not ready to prioritize a roadmap.
+If you can't answer trigger and outcome, you're not ready to plan what goes on the roadmap.
 
 ---
 

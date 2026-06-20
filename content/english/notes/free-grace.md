@@ -22,7 +22,7 @@ cards:
   - front: "Tempted to list my works when someone asks how to be saved. Lead with what?"
     back: "Grace through faith in Christ."
   - front: "Someone says they earned God's favor by trying hard. One sentence I'd say back?"
-    back: "Unmerited - Christ paid what I couldn't."
+    back: "Free gift - Christ paid what I couldn't."
   - front: "Obedience after conversion - what's driving it?"
     back: "Live gratefully - grace already saved."
 draft: false

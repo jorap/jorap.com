@@ -130,7 +130,8 @@ Avoid:
 3. Telegraphy - title, verse key, concept name on front? (Replace with subtle hint question if a nudge helps retrieval.)
 4. **Multiple choice** - options listed on front (`A or B?`, `X, Y, or Z?`)? Drop the menu; cue only or subtle hint question.
 5. **Voice (jorap-voice)** - read aloud. Textbook or AI slop? Add "I", a count, or a real fork JoRap would face.
-6. Run `npm run lint:cards`.
+6. **Vocabulary** - high school level. Swap any word a typical teen wouldn't say out loud.
+7. Run `npm run lint:cards`.
 
 ## Voice - JoRap, not textbook (jorap-voice)
 
@@ -146,3 +147,17 @@ Flashcard fronts are mid-life thoughts; backs are what JoRap would actually do. 
 **Markers that work on fronts:** first person (`I`, `my`), contractions, concrete counts (`forty items`, `two weeks`), time/place (`Friday review`, `Tuesday 7am`), bodily cues (`thumb hovering`, `guilt after snapping`).
 
 **Backs stay punchy:** imperatives and decisions - not definitions dressed as advice.
+
+## Vocabulary - high school level
+
+Every word should land on first read. Cards drill under pressure - fancy words slow recall.
+
+| Too fancy | Plain swap |
+|-----------|------------|
+| `Utilize a single trusted repository.` | `Use one inbox.` |
+| `Prioritize spiritual disciplines.` | `Do Scripture first.` |
+| `Facilitate capture during transit.` | `Drop it in the inbox on the go.` |
+| `Reconcile conflicting workflows.` | `Pick one pipe. Merge the rest.` |
+| `Implement immediate remediation of backlog.` | `Empty it now.` |
+
+**Test:** Read the front to a 15-year-old. Any word they'd look up? Replace it.

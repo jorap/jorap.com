@@ -14,17 +14,17 @@ review: true
 card_sets: ["Eternal Principles", "Gospel", "Ethics"]
 cards:
   - front: "Gift in hand, brother still hurt by me. Order Jesus gave?"
-    back: "Reconcile first - then offer gift."
+    back: "Fix it first - then offer gift."
   - front: "Sunday worship while avoiding someone I wronged. What breaks?"
-    back: "Hollow worship - go reconcile first."
+    back: "Empty worship - go fix it first."
   - front: "Altar call feeling high but unrepaired relationship at home. First move?"
-    back: "Leave gift - go be reconciled."
+    back: "Leave gift - go fix it."
   - front: "Broken link in the garden I keep ignoring. Human parallel?"
     back: "Repair breach first - face to face."
   - front: "Know they're angry but hope ceremony fixes it. Who moves?"
-    back: "I go - initiative on me."
+    back: "I go - my move first."
   - front: "Already saved but distant from a brother. What's restored?"
-    back: "Fellowship - not re-earning heaven."
+    back: "Closeness restored - not re-earning heaven."
 draft: false
 aliases: ["leave your gift at the altar"]
 ---

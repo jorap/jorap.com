@@ -3,7 +3,7 @@ title: "Alex Eala Pro Career Tracker"
 date: 2026-06-18T05:00:00Z
 meta_title: "Alex Eala Pro Career Tracker"
 slug: "alex-eala-pro-career-tracker"
-description: "A Filipino fan's running scrapbook of Alex Eala's WTA career - the rankings, the matches I'll never forget, and the matchups I'm watching for next."
+description: "My running scrapbook of Alex Eala's WTA career - rankings, matches I'll never forget, and matchups I'm watching for next."
 image: "/images/alex-eala.jpg"
 categories: ["Sports", "Filipino", "People"]
 author: "JoRap"

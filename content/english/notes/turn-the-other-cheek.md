@@ -22,7 +22,7 @@ cards:
   - front: "Waiting to hit back before I act well toward them. What comes first?"
     back: "Break cycle - don't return evil."
   - front: "Public slap to my reputation - outrage justified in my head. Next move?"
-    back: "Non-retaliation - don't mirror evil."
+    back: "Don't hit back - don't mirror evil."
   - front: "They struck first so my payback feels righteous. Who keeps score?"
     back: "Grace freed me - don't score back."
 draft: false

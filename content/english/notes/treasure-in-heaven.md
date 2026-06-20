@@ -18,7 +18,7 @@ cards:
   - front: "Generosity impulse killed by fear of running out. What lasts?"
     back: "Store heaven-side - give, mercy, obey."
   - front: "Hoarding bookmarks feels productive. What's the wrong treasure?"
-    back: "Collector's fallacy - nothing lasting stored."
+    back: "Hoarding saves - nothing lasting stored."
   - front: "Wallet and calendar show where heart actually lives. One reframe?"
     back: "Move treasure - heart follows."
   - front: "Tempted to stack earthly security after grace saved me. What's the order?"

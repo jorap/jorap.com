@@ -20,7 +20,7 @@ cards:
   - front: "Thumb itching to clap back and prove I'm strong. Which beatitude fork?"
     back: "Meek - don't grasp status."
   - front: "Scrolling outrage instead of craving what God calls right. What's the blessed hunger?"
-    back: "Hunger for righteousness."
+    back: "Hunger to do right."
   - front: "Someone who wronged me needs help. First merciful move?"
     back: "Show mercy - merciful obtain mercy."
   - front: "Persecuted for doing right - tempted to quit looking faithful. What's the promise?"

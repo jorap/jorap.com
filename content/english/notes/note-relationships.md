@@ -14,17 +14,17 @@ review: true
 card_sets: ["Linking", "Writing"]
 cards:
   - front: "New note builds on an older atomic claim - typing the connection in the body now. One relationship word?"
-    back: "Extends."
+    back: "Type extends in the body."
   - front: "This note pushes against a slower-work philosophy I named in the body. One typed link for that tension?"
-    back: "Contradicts."
+    back: "Link as contradicts."
   - front: "Weekly checklist makes a review habit real in my notes. Link type that says this note carries it out?"
-    back: "Implements."
+    back: "Link as implements."
   - front: "Hub page gathering twenty related notes under one roof. What relationship type is this page?"
-    back: "Index (MOC)."
+    back: "Mark it as index."
   - front: "Atomic note ready to publish - minimum typed links before filing?"
     back: "One extends, one contradicts."
   - front: "Two tools solve the same job - picking one for this note. Link type for the other tool?"
-    back: "Alternative."
+    back: "Link the other as alternative."
 draft: false
 aliases: ["link types"]
 ---

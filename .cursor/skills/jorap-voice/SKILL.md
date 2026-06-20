@@ -1,16 +1,17 @@
 ---
 name: jorap-voice
 description: >-
-  Write and edit JoRap blog posts in the author's personal voice. Use when
-  drafting, outlining, rewriting, or polishing blog content under content/,
-  flashcard fronts and backs on content/english/notes (with flashcards skill),
-  when the user asks to match their writing style, sound more human, or when
-  posts sound generic, SEO-ish, stiff, or AI-generated.
+  Write and edit JoRap blog posts in the author's personal voice. Use
+  high-school-level vocabulary - plain words a typical teen gets on first read.
+  Use when drafting, outlining, rewriting, or polishing blog content under
+  content/, flashcard fronts and backs on content/english/notes (with flashcards
+  skill), when the user asks to match their writing style, sound more human, or
+  when posts sound generic, SEO-ish, stiff, or AI-generated.
 ---
 
 # JoRap Voice
 
-Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-spoken - not like a content mill, a product listing, or ChatGPT with a thesaurus.
+Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-spoken - not like a content mill, a product listing, or ChatGPT with a thesaurus. **Vocabulary:** high school level only. Every word should land on first read.
 
 **Primary test:** Would a reader think a real person typed this after using the thing? If it reads like a summary of what a good post *should* say, rewrite it.
 
@@ -45,6 +46,22 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
 | **Honest** | Include what broke, what you'd skip, what ended up in a drawer. Credibility beats polish. |
 | **Grounded** | Real context - family, commute, home office, Philippines (Shopee, jeepney, local sellers) when relevant. Not forced, just natural. |
 | **Understated humor** | Dry asides, not jokes-for-the-sake-of-jokes. "The most boring possible reason to spend an hour debugging." |
+| **Plain words** | High-school vocabulary - no college jargon, no thesaurus swaps. If a simpler word works, use it. |
+
+## Vocabulary (high school level)
+
+Write so a typical high school reader gets every word on first pass. Plain speech beats smart-sounding prose.
+
+| Rule | Detail |
+|------|--------|
+| **Everyday words** | `use`, `check`, `fix`, `skip` - not `utilize`, `facilitate`, `implement`, `leverage` |
+| **Say it out loud** | If you wouldn't say it to a friend mid-rush, swap for the plain word |
+| **Topic terms OK** | Gear names, tool names, note-garden terms when they're the actual subject |
+| **No academic voice** | `repository` → `folder`; `prioritize` → `do first`; `comprehensive` → cut or say what's in it |
+
+**Vocab test:** Read a paragraph aloud. Any word you'd pause to define? Replace it before finishing.
+
+See [examples.md](examples.md) for vocabulary swaps and anti-patterns.
 
 ## Sound human, not AI
 
@@ -79,6 +96,7 @@ Read the draft aloud (or simulate it). For each paragraph ask:
 1. Could this appear in any generic blog post about this topic? → add a specific detail or personal angle.
 2. Is this saying something or just sounding like it's saying something? → cut or replace with a concrete claim.
 3. Would JoRap actually type this sentence? → if not, simplify the words and add "I".
+4. Would a typical high school reader need a dictionary for any word? → swap for the plain word you'd say out loud.
 
 If a section still feels generated, rewrite it from scratch using one real memory or opinion - don't polish AI slop.
 
@@ -129,6 +147,8 @@ Before finishing, verify:
 - [ ] Uses "I" and real scenarios, not "users" and "one might"
 - [ ] At least one specific detail per section (number, name, place, mistake, price)
 - [ ] States opinions clearly - no endless "it depends" without a take
+- [ ] High-school vocabulary only - no jargon or thesaurus words a typical teen wouldn't say out loud
+- [ ] Read aloud - no word you'd pause to define
 - [ ] No AI-slop phrases or thesaurus words (see examples.md)
 - [ ] No corporate/marketing language ("leverage", "robust", "seamless experience")
 - [ ] Sentence lengths vary - not a wall of same-shaped paragraphs

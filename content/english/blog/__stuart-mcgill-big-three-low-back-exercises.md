@@ -32,7 +32,7 @@ The Big Three builds capacity in neutral-ish positions you actually live in.
 
 **Goal:** Train anterior core **without** full spinal flexion reps.
 
-- Lie on back, one knee bent, hands under lower back to preserve lordosis
+- Lie on back, one knee bent, hands under lower back to keep its natural curve
 - Lift head and shoulders slightly - **minimal movement**
 - Hold brief, lower with control
 - Alternate bent leg between sets
@@ -49,7 +49,7 @@ Reference: [McGill curl-up demo](https://www.youtube.com/watch?v=vLpHJ1Cxj6k)
 
 - Forearm on floor, body in a straight line
 - Start knees down if full plank is too much
-- Hold quality over ego duration - **10–20 seconds** done well beats a saggy minute
+- Hold quality over ego duration - **10-20 seconds** done well beats a saggy minute
 
 Switch sides. Keep hips forward, neck neutral.
 
@@ -59,7 +59,7 @@ Reference: [Side plank demo](https://www.youtube.com/watch?v=VAPN4CmUWqk)
 
 ## 3. Bird dog
 
-**Goal:** Co-contrasting core with opposite arm/leg reach - the anti-slouch pattern.
+**Goal:** Hold your trunk steady while opposite arm and leg reach - the anti-slouch pattern.
 
 - Hands and knees, spine neutral
 - Extend opposite arm and leg **without** rotating hips or arching back
@@ -72,15 +72,15 @@ Reference: [Bird dog demo](https://www.youtube.com/watch?v=S1QbyYZaXIg)
 
 ## How I program it
 
-Simple circuit, 2–3 rounds:
+Simple circuit, 2-3 rounds:
 
 | Exercise | Reps / time |
 |---|---|
-| Curl-up | 5–8 per side |
-| Side plank | 10–20 sec each side |
-| Bird dog | 6–8 each side |
+| Curl-up | 5-8 per side |
+| Side plank | 10-20 sec each side |
+| Bird dog | 6-8 each side |
 
-**Frequency:** 3–4× week on light days, or daily micro-sessions if I'm desk-bound.
+**Frequency:** 3-4× week on light days, or daily micro-sessions if I'm desk-bound.
 
 **Breathing:** Don't hold your breath like you're deadlifting a car.
 

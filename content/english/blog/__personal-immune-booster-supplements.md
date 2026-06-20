@@ -37,7 +37,7 @@ References I saved:
 
 ### Vitamin D3
 
-Common deficiency; role in immune function. I take **D3** with a meal containing fat. Dose should follow labs if possible - blind megadosing isn't the goal.
+Common deficiency; role in immune function. I take **D3** with a meal containing fat. Dose should follow labs if possible - blind huge doses aren't the goal.
 
 ### Zinc (picolinate)
 
@@ -49,7 +49,7 @@ Flavonoid often paired with vitamin C in immune stacks. Evidence is mixed; I tre
 
 ### NAC (N-acetylcysteine)
 
-Precursor to glutathione; mucolytic uses exist clinically. Some people take it for respiratory support. Regulation varies by country - check what's legal and appropriate where you live.
+Precursor to glutathione; doctors also use it to thin mucus. Some people take it for respiratory support. Regulation varies by country - check what's legal and appropriate where you live.
 
 ### Vitamin C
 

@@ -14,17 +14,17 @@ review: true
 card_sets: ["Eternal Principles", "Gospel", "Ethics"]
 cards:
   - front: "Two friends feuding - tempted to pick a side and stoke it. What's the blessed move?"
-    back: "Make peace - pursue reconciliation."
+    back: "Make peace - go fix it."
   - front: "Conflict at work and I just want quiet. Peace-at-any-price?"
-    back: "No - active peacemaking, not silence only."
+    back: "No - make peace, not silence only."
   - front: "Hard truth needs saying but I soft-pedal to avoid fight. What am I called to?"
     back: "Peace through truth in love."
   - front: "Wronged and revenge would feel peaceful for five minutes. Family resemblance move?"
-    back: "Reconcile like the Father did."
+    back: "Make peace like the Father did."
   - front: "Family dinner tension - finger on gossip instead of bridge-building. First move?"
-    back: "Pursue peace - speak to reconcile."
+    back: "Pursue peace - speak to fix it."
   - front: "Someone thinks peace means never confronting sin. What do I say?"
-    back: "Peace is work - truth plus reconciliation."
+    back: "Peace is work - truth plus making peace."
 draft: false
 aliases: ["blessed are the peacemakers"]
 ---

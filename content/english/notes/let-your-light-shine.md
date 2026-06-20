@@ -20,7 +20,7 @@ cards:
   - front: "Good works under a basket - scared of looking proud. What's the move?"
     back: "Let light shine - visibility for God."
   - front: "Drafting a post about my charity. Audience check?"
-    back: "Glorify Father - not perform righteousness."
+    back: "Glorify Father - don't show off good deeds."
   - front: "Neighbor won't see God is real if I hide every good work. First move?"
     back: "Do good visibly - point to Father."
   - front: "About to skip serving publicly because I hate attention. Why shine?"

@@ -121,6 +121,42 @@ Most extension cords look the same on the shelf. They're not. The wrong gauge on
 
 ---
 
+## Vocabulary - high school level
+
+### ❌ Fancy / academic
+
+> Utilize a comprehensive approach to optimize your workflow and facilitate better outcomes.
+
+### ✅ Plain speech
+
+> Use one inbox. Don't organize yet. Fix the mess later.
+
+---
+
+### ❌ Jargon when plain works
+
+> Prioritize implementing a robust capture repository for disseminating notes across your knowledge base.
+
+### ✅ JoRap version
+
+> Do capture first. One inbox. Split notes when you actually need to.
+
+---
+
+### ❌ Thesaurus voice
+
+> Navigate the landscape of wireless audio to leverage seamless connectivity.
+
+### ✅ JoRap version
+
+> I've been through a lot of wireless earphones. Most of them ended up in a drawer within a month.
+
+---
+
+**Vocab test:** Read the draft to a 15-year-old. Any word they'd look up? Replace it.
+
+---
+
 ## Human vs AI - quick swaps
 
 | AI habit | Human fix |
@@ -130,6 +166,8 @@ Most extension cords look the same on the shelf. They're not. The wrong gauge on
 | "This ensures optimal…" | "This stops the thing from…" |
 | "Additionally," | Delete. Start the sentence. |
 | "crucial / vital / essential" | Only if it actually matters; otherwise cut |
+| `utilize` / `facilitate` / `leverage` | `use` / `help` / `use` |
+| `implement` / `prioritize` / `repository` | `do` / `do first` / `folder` or `inbox` |
 | Three parallel adjectives | Pick the one that matters |
 | No numbers | Add one real number |
 | Every section same length | Let important sections run longer |

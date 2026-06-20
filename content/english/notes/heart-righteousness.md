@@ -18,11 +18,11 @@ cards:
   - front: "Lust logged mentally while marriage looks fine outside. Inner standard?"
     back: "Adultery in heart - cut off at motive."
   - front: "Polished Sunday face, nursing grudge Monday. Which righteousness counts?"
-    back: "Heart - not outward compliance only."
+    back: "Heart - not just going through motions."
   - front: "About to send cold reply while sounding righteous. One inner check?"
     back: "Motives - anger is heart murder."
   - front: "Performing good works while resentment runs inside. What exposes depth?"
-    back: "Heart righteousness - God sees motive."
+    back: "God wants heart-right - He sees motive."
   - front: "Tempted to excuse inner sin because nobody saw. Who sees?"
     back: "God sees heart - start where only He looks."
 draft: false

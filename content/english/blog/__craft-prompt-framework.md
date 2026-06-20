@@ -67,7 +67,7 @@ Then supply your topic: "Prompt for a Hugo blog migration checklist," etc.
 
 1. Engaging intro on why monthly goals work
 2. Step-by-step breakdown from annual goals
-3. Prioritization strategies
+3. Pick what comes first
 4. Tracking and adjustment tactics
 5. Examples (health, career, finances)
 6. Obstacle section (procrastination, surprises)
@@ -75,7 +75,7 @@ Then supply your topic: "Prompt for a Hugo blog migration checklist," etc.
 
 **Format:** Plain text, headings, numbered lists, short examples.
 
-**Target audience:** Working professionals 25–55, practical, ~6th grade reading level.
+**Target audience:** Working professionals 25-55, practical, ~6th grade reading level.
 
 That's enough for a usable first draft - because the model isn't guessing the shape.
 

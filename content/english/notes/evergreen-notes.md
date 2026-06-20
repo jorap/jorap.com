@@ -25,7 +25,7 @@ cards:
   - front: "Trendy take I might regret next year. What's the move?"
     back: "Wait - keep fleeting."
   - front: "Evergreen note has bold layers but no claim I'd quote. What's missing?"
-    back: "Distill - need one citable claim."
+    back: "Distill - need one clear claim."
 draft: false
 ---
 I write evergreen notes to stay useful - timeless phrasing, clear claims, updated when reality changes.

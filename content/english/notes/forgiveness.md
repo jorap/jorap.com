@@ -14,9 +14,9 @@ review: true
 card_sets: ["Eternal Principles", "Gospel", "Ethics"]
 cards:
   - front: "Praying but nursing a grudge - skipping the line about others. Say it now?"
-    back: "Forgive those who trespass against us."
-  - front: "Wronged and refusing to forgive. What breaks?"
-    back: "Breaks fellowship - forgive from the heart."
+    back: "Forgive those who wrong me."
+  - front: "Wronged and refusing to forgive before I sleep. What breaks?"
+    back: "Closeness with God - forgive from the heart."
   - front: "Same person hurt me again - tempted to stop counting. What's the move?"
     back: "Forgive again - stop counting."
   - front: "Hurt still stings - forgiving feels like pretending it didn't matter. What's the move anyway?"

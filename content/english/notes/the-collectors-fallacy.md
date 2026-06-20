@@ -20,7 +20,7 @@ cards:
   - front: "Finished the article and filed it - feels like learning. Does it count yet?"
     back: "Not yet - ship or rewrite first."
   - front: "Hoarded bookmarks everywhere with no deadline. Tie every save to what?"
-    back: "An express deadline."
+    back: "A ship date."
   - front: "Saving articles feels like learning. When does learning actually start?"
     back: "When something leaves the notebook."
   - front: "Bookmark folder growing again - can only ask one question before save. Which?"

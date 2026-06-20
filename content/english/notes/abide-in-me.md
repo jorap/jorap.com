@@ -18,7 +18,7 @@ cards:
   - front: "No prayer or Scripture all week - patience snapped at someone. Apart from the vine, what can I produce?"
     back: "Nothing good - reconnect now."
   - front: "Pruning hurts - fear God revoked my place. What does pruning actually mean?"
-    back: "Refines - stay grafted, bear fruit."
+    back: "It refines - stay on the vine."
   - front: "Self-help spiritual growth plan instead of staying connected. What's missing?"
     back: "Receive - drop willpower alone."
   - front: "Morning fork: scroll news or five minutes in Scripture. First move to stay connected?"

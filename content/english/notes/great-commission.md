@@ -20,7 +20,7 @@ cards:
   - front: "Baptize and teach feels like someone else's job. Who did Jesus send?"
     back: "All disciples - go, he is with you."
   - front: "Obedience teaching skipped because grace saved them. What's missing?"
-    back: "Teach obedience - discipleship after faith."
+    back: "Teach obedience - following after faith."
   - front: "Afraid to speak up at work about faith. Promise Jesus gave?"
     back: "I am with you - go anyway."
   - front: "Truth hoarded in private study, zero disciples made. What's the commission?"

@@ -12,7 +12,7 @@ featured: false
 draft: true
 ---
 
-I wanted to **showcase work on the web** without begging an algorithm for reach. Social accounts make starting easy - sign up, post, done.
+I wanted to **put my work on the web** without begging an algorithm for reach. Social accounts make starting easy - sign up, post, done.
 
 The catch: **you don't own the platform.** Rules change. Reach throttles. Accounts get restricted when enough people complain. Publishing entirely on rented land isn't sustainable if your voice matters long-term.
 

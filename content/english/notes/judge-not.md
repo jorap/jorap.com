@@ -20,7 +20,7 @@ cards:
   - front: "Condemning someone while excusing the same sin in me. What's the hypocrisy move?"
     back: "Stop condemning - diagnose myself first."
   - front: "Charismatic teacher, ugly fruit in followers. What kind of judgment is allowed?"
-    back: "Discern fruit - not play final judge."
+    back: "Look at fruit - don't play God as judge."
   - front: "Nitpick someone's parenting while mine's a mess. One check before I speak?"
     back: "Apply the standard to me first."
   - front: "Tempted to roast someone else's mess while mine's hidden. What's my move?"

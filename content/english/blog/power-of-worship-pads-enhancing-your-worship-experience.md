@@ -1,5 +1,5 @@
 ---
-title: "The Power Of Worship Pads: Enhancing Your Worship When The Guitar Is Your Only Instrument"
+title: "Worship Pads for Solo Guitar: What Changed When I Finally Tried Them"
 meta_title: "Worship Pads for Solo Guitar: What Changed When I Finally Tried Them"
 description: "Leading worship with just an acoustic guitar always felt thin in a big room - until someone slid a pad track underneath me during practice. The whole night changed."
 slug: "power-of-worship-pads-enhancing-your-worship-with-guitar"

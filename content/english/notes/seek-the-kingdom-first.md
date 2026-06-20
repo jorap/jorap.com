@@ -20,7 +20,7 @@ cards:
   - front: "Tuesday 7am, inbox calling before work. One move that puts God's reign first?"
     back: "Scripture or prayer before inbox."
   - front: "Work hustle and Sunday worship pulling opposite directions - two masters. Which gets priority?"
-    back: "God - not mammon."
+    back: "God - not money."
   - front: "Wallet and calendar both pulling hard. One reframe before I chase either?"
     back: "Move treasure - heart follows."
   - front: "Treating kingdom life like something I must earn. What's the actual entry?"

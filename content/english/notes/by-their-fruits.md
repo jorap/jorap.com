@@ -22,7 +22,7 @@ cards:
   - front: "Can't tell if teaching helps or hurts. PKM parallel?"
     back: "Signal vs noise - what produces good over time?"
   - front: "About to condemn the teacher's soul online. What do I do instead of playing judge?"
-    back: "Discern fruit - not condemn souls."
+    back: "Look at fruit - don't judge their soul."
   - front: "New book everyone's sharing. One check before I adopt the teaching?"
     back: "What fruit does it produce - not charisma?"
 draft: false
