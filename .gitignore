@@ -27,4 +27,6 @@ go.sum
 # Editor / tool
 jsconfig.json
 .cursorindexingignore
-.specstory/
+
+# Impeccable skill — linked locally via sync-upstreams (../impeccable)
+.cursor/skills/impeccable
