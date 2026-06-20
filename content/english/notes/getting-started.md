@@ -15,7 +15,7 @@ draft: false
 ---
 **Notes garden** = one claim per page, linked with `[[wikilinks]]`, browsable at [/notes/](/notes/).
 
-Public when `draft: false`; hidden while `draft: true`. Each note opens with a definition I can quote in one breath - the graph and backlinks do the organizing. Start at [[Maps of Content]] or walk through the steps below.
+Public when `draft: false`; hidden while `draft: true`. Each note opens with a definition I can quote in one breath - the graph and backlinks do the organizing. Start at [[Maps of Content]] or walk through the steps below. Faith parallel: [[Childlike Faith]] - beginner posture; receive the guide, don't perform expertise on day one.
 
 Extends [[Note Relationships]]. Index for this site.
 
@@ -40,23 +40,26 @@ Created and updated timestamps come from the file itself at build time (`scripts
 Use wikilinks in the body:
 
 - `[[Atomic Notes]]` - link by title
-- `[[Atomic Notes|atoms]]` - link with custom label
 - `[[atom]]` - works via the `aliases` frontmatter field
 
 What this site gives you:
 
-- **Wikilinks** - `[[Note Title]]` and `[[alias|label]]` in note bodies
+- **Wikilinks** - `[[Note Title]]` in note bodies (no pipe labels)
 - **Aliases** - alternate link targets in frontmatter (`aliases: ["PARA"]` on [[PARA Method]])
 - **Outgoing links** - listed below each note's body
 - **Backlinks** - with context snippets when another note links here
 - **Graph** - map view; filter by high, low, no body links, and orphans at [/notes/graph/](/notes/graph/)
-- **Issues** - broken wikilinks and unlinked mentions at [/notes/issues/](/notes/issues/); also shown on each note
+- **Issues** - broken wikilinks, pipe wikilinks, and unlinked mentions at [/notes/issues/](/notes/issues/); also shown on each note
 - **See also** - tag-related notes generated at build time (not static in markdown)
 - **Hover previews** - pause on a wikilink to peek at the target note
 - **Maps of Content** - hub index at [[Maps of Content]]
 - **Status badges** - seedling/evergreen/inbox/archived on each note; stale filter uses file edit time on [/notes/](/notes/)
-- **Resurfacing** - featured random note, [[Random Duo]], and [[Random Trio]] on [/notes/](/notes/)
+- **Resurfacing** - featured random note, [Random Duo](/notes/random-duo/), and [Random Trio](/notes/random-trio/) on [/notes/](/notes/)
 - **Flashcards** - ~12 habit spine notes (~20%) with `review: true` carry six scenario `cards:` in frontmatter plus `card_sets:` for Review grouping; habit prompts I drill at [/notes/review/](/notes/review/)
+
+## Utility surfaces (don't wikilink)
+
+These six pages are **meta tools** (`note_kind: meta`), not garden ideas: [Graph](/notes/graph/), [Issues](/notes/issues/), [Flashcards](/notes/cards/), [Review](/notes/review/), [Random Duo](/notes/random-duo/), [Random Trio](/notes/random-trio/). They are excluded from the graph node set, random pickers, and flashcard sources. **Don't `[[wikilink]]` to them** from content notes - link by URL when pointing readers at a tool. `npm run lint:utility-links` catches violations.
 
 ## Explore
 

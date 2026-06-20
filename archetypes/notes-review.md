@@ -14,8 +14,8 @@ featured: false
 review: true
 card_sets: ["Set Name"]
 cards:
-  - front: "Scenario or question?"
-    back: "Habit answer - what I do when this breaks down."
+  - front: "Situational cue I'd recognize mid-week — first person, mid-action, no options listed on the front."
+    back: "Immediate move — plain imperative, what I do or decide next."
   - front: "Second prompt?"
     back: "Second answer."
   - front: "Third prompt?"

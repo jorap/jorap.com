@@ -95,7 +95,7 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
     },
     "first-principles-thinking": {
         "extends": "Synthesis as a Goal",
-        "contradicts": "Progressive Summarization",
+        "contradicts": "Eternal Principles",
     },
     "future-proofing-knowledge": {
         "extends": "Local-first Software",
@@ -217,7 +217,7 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
     },
     "sunk-cost-fallacy": {
         "extends": "There Is No Perfect Solution",
-        "contradicts": "Compounding",
+        "contradicts": "Forgiveness",
     },
     "synthesis-as-a-goal": {
         "extends": "Creative Output",
@@ -264,6 +264,131 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
         "implements": "Periodic Knowledge Review",
         "extends": "The Trusted Inbox",
         "contradicts": "Minimum Effective Dose",
+    },
+    "eternal-principles": {
+        "extends": "Free Grace",
+        "contradicts": "First Principles Thinking",
+        "index": "gospel notes in this garden",
+    },
+    "free-grace": {
+        "extends": "Minimum Effective Dose",
+        "contradicts": "Compounding",
+    },
+    "love-god": {
+        "extends": "Free Grace",
+        "contradicts": "Don't Worry",
+    },
+    "love-your-neighbor": {
+        "extends": "Free Grace",
+        "contradicts": "Love Your Enemies",
+    },
+    "the-golden-rule": {
+        "extends": "Free Grace",
+        "contradicts": "Love Your Enemies",
+    },
+    "love-your-enemies": {
+        "extends": "Free Grace",
+        "contradicts": "The Golden Rule",
+    },
+    "forgiveness": {
+        "extends": "Free Grace",
+        "contradicts": "Sunk Cost Fallacy",
+    },
+    "seek-the-kingdom-first": {
+        "extends": "Free Grace",
+        "contradicts": "Signal vs Noise",
+    },
+    "dont-worry": {
+        "extends": "Free Grace",
+        "contradicts": "The 12 Week Year",
+    },
+    "the-beatitudes": {
+        "extends": "Free Grace",
+        "contradicts": "Humility and Service",
+    },
+    "peacemakers": {
+        "extends": "Free Grace",
+        "contradicts": "Love Your Enemies",
+    },
+    "reconciliation-before-worship": {
+        "extends": "Free Grace",
+        "contradicts": "Love God",
+    },
+    "humility-and-service": {
+        "extends": "Free Grace",
+        "contradicts": "Let Your Light Shine",
+    },
+    "let-your-light-shine": {
+        "extends": "Free Grace",
+        "contradicts": "The Garage Concept",
+    },
+    "treasure-in-heaven": {
+        "extends": "Free Grace",
+        "contradicts": "The Collector's Fallacy",
+    },
+    "eternal-rewards": {
+        "extends": "Free Grace",
+        "contradicts": "Compounding",
+    },
+    "the-narrow-way": {
+        "extends": "Free Grace",
+        "contradicts": "The Golden Rule",
+    },
+    "repent-and-believe": {
+        "extends": "Free Grace",
+        "contradicts": "Compounding",
+    },
+    "turn-the-other-cheek": {
+        "extends": "Love Your Enemies",
+        "contradicts": "The Golden Rule",
+    },
+    "judge-not": {
+        "extends": "Free Grace",
+        "contradicts": "Humility and Service",
+    },
+    "ask-seek-knock": {
+        "extends": "Free Grace",
+        "contradicts": "Don't Worry",
+    },
+    "let-your-yes-be-yes": {
+        "extends": "Love Your Neighbor",
+        "contradicts": "Drafting in Public",
+    },
+    "take-up-your-cross": {
+        "extends": "Free Grace",
+        "contradicts": "There Is No Perfect Solution",
+    },
+    "childlike-faith": {
+        "extends": "Free Grace",
+        "contradicts": "Compounding",
+    },
+    "the-wise-builder": {
+        "extends": "Free Grace",
+        "contradicts": "The Narrow Way",
+    },
+    "heart-righteousness": {
+        "extends": "Judge Not",
+        "contradicts": "Let Your Light Shine",
+    },
+    "secret-devotion": {
+        "extends": "Ask Seek Knock",
+        "contradicts": "Drafting in Public",
+    },
+    "by-their-fruits": {
+        "extends": "Judge Not",
+        "contradicts": "Signal vs Noise",
+    },
+    "render-unto-caesar": {
+        "extends": "Seek the Kingdom First",
+        "contradicts": "Treasure in Heaven",
+    },
+    "great-commission": {
+        "extends": "Repent and Believe",
+        "contradicts": "The Collector's Fallacy",
+    },
+    "abide-in-me": {
+        "extends": "Free Grace",
+        "contradicts": "Compounding",
     },
 }
 

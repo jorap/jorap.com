@@ -13,12 +13,13 @@ status: evergreen
 draft: false
 aliases: ["Distraction-Free Writing", "distraction free writing"]
 ---
-Notes are inventory. Output is the point - blog posts, sermons, code, dinner experiments. When I'm testing an idea, I ship an [[Minimum Viable Product|MVP]] before I polish.
+Notes are inventory. Output is the point - blog posts, sermons, code, dinner experiments. When I'm testing an idea, I ship an [[Minimum Viable Product]] before I polish. Faith parallel: [[The Wise Builder]] - hear Jesus and do; [[Great Commission]] - truth shared, not hoarded in the garden.
 
 Extends [[Building a Second Brain]]. Contradicts [[The Collector's Fallacy]].
 
 ## See also
 
+- [[The Wise Builder]] - Eternal Principles, Gospel, Sermon on the Mount
+- [[Great Commission]] - Eternal Principles, Gospel, Mission
 - [[Digital Garden]] - PKM, Publishing, Second Brain
-- [[Drafting in Public]] - PKM, Publishing, Writing
 - [[Digital Minimalism]] - Focus, PKM, Writing

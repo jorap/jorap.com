@@ -4,21 +4,15 @@
 */ -}}
 {{- $page := . -}}
 {{- $raw := $page.RawContent -}}
-{{- $matches := findRE `\[\[[^\]|#]+(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]` $raw -}}
+{{- $matches := findRE `\[\[[^\]|#]+(?:#[^\]|]+)?\]\]` $raw -}}
 {{- $seen := dict -}}
 {{- $links := slice -}}
 {{- range $matches -}}
   {{- $inner := replaceRE `^\[\[|\]\]$` "" . -}}
-  {{- $label := "" -}}
   {{- $target := $inner -}}
   {{- $anchor := "" -}}
-  {{- if strings.Contains $inner "|" -}}
-    {{- $parts := split $inner "|" -}}
-    {{- $target = index $parts 0 | strings.TrimSpace -}}
-    {{- $label = index $parts 1 | strings.TrimSpace -}}
-  {{- end -}}
-  {{- if strings.Contains $target "#" -}}
-    {{- $hashParts := split $target "#" -}}
+  {{- if strings.Contains $inner "#" -}}
+    {{- $hashParts := split $inner "#" -}}
     {{- $target = index $hashParts 0 | strings.TrimSpace -}}
     {{- $anchor = index $hashParts 1 | strings.TrimSpace -}}
   {{- end -}}
@@ -27,9 +21,7 @@
     {{- if ne .RelPermalink $page.RelPermalink -}}
       {{- if not (index $seen .RelPermalink) -}}
         {{- $seen = merge $seen (dict .RelPermalink true) -}}
-        {{- if eq $label "" -}}
-          {{- $label = .Title -}}
-        {{- end -}}
+        {{- $label := .Title -}}
         {{- $href := .RelPermalink -}}
         {{- if $anchor -}}
           {{- $href = printf "%s#%s" .RelPermalink ($anchor | anchorize) -}}

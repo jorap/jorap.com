@@ -526,7 +526,7 @@ def main() -> None:
             if stem == "cards":
                 rel_line = "\n\nExtends [[Getting Started]]. Implements [[Spaced Repetition]]."
             elif stem == "review":
-                rel_line = "\n\nExtends [[Flashcards]]. Implements [[Spaced Repetition]]."
+                rel_line = "\n\nExtends [[Getting Started]]. Implements [[Spaced Repetition]]."
             elif stem == "issues":
                 rel_line = "\n\nExtends [[Getting Started]]. Implements [[Graph View Analytics]]."
             elif stem == "random-duo":

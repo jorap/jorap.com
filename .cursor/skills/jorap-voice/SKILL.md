@@ -3,6 +3,7 @@ name: jorap-voice
 description: >-
   Write and edit JoRap blog posts in the author's personal voice. Use when
   drafting, outlining, rewriting, or polishing blog content under content/,
+  flashcard fronts and backs on content/english/notes (with flashcards skill),
   when the user asks to match their writing style, sound more human, or when
   posts sound generic, SEO-ish, stiff, or AI-generated.
 ---
@@ -19,6 +20,7 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
 - Rewriting AI-generated or stiff drafts
 - Editing for tone without changing facts
 - Writing `meta_title` and `description` frontmatter
+- **Flashcards** - cue fronts and apply backs on spine notes (use with [flashcards](../flashcards/SKILL.md); reference `capture.md`, `free-grace.md`, `the-golden-rule.md`)
 
 ## Workflow
 
@@ -27,6 +29,7 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
    - Tech/how-to: `content/english/blog/how-i-built-jorap-notes.md`
    - Tips: `content/english/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md`
    - Opinion: `content/english/blog/top-reasons-why-you-still-need-use-desktop-laptop.md`
+   - **Flashcards:** `content/english/notes/capture.md`, `free-grace.md`, `the-golden-rule.md`
 2. **Draft in the author's voice**, not a generic blogger voice.
 3. **Run the de-AI pass** (below) - mandatory, even on small edits.
 4. **Run the voice check** (below) before finishing.

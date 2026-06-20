@@ -89,6 +89,18 @@
   @apply pl-8;
 }
 
+#TableOfContents .toc-level-3 {
+  @apply pl-4;
+}
+
+#TableOfContents .toc-level-4 {
+  @apply pl-6;
+}
+
+#TableOfContents .toc-level-5 {
+  @apply pl-8;
+}
+
 .dark .mermaid {
   background: var(--color-elevated);
 }

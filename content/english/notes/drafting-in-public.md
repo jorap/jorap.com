@@ -13,12 +13,13 @@ status: evergreen
 draft: false
 aliases: []
 ---
-I publish rough ideas before they're finished. Drafting in public keeps me honest and makes the garden grow.
+I publish rough ideas before they're finished. Drafting in public keeps me honest and makes the garden grow. Faith parallel: [[Let Your Light Shine]] - visible good works, same instinct of putting work in the open, but the aim is God's credit not mine.
 
 Extends [[Digital Garden]]. Contradicts [[Evergreen Notes]].
 
 ## See also
 
+- [[Let Your Light Shine]] - Eternal Principles, Gospel, Sermon on the Mount
+- [[Secret Devotion]] - Eternal Principles, Gospel, Sermon on the Mount
 - [[The Garage Concept]] - Digital Garden, Hugo, PKM
-- [[Getting Started]] - Digital Garden, Hugo, PKM
 - [[Creative Output]] - PKM, Publishing, Writing

@@ -13,12 +13,12 @@ status: evergreen
 draft: false
 aliases: ["Process Over Outcome"]
 ---
-Results matter, but optimizing only for outcomes wins once. I optimize for a repeatable process that wins again and again.
+Results matter, but optimizing only for outcomes wins once. I optimize for a repeatable process that wins again and again. Faith parallel: [[Take Up Your Cross]] - daily self-denial is the process; one heroic Sunday isn't.
 
 Extends [[Compounding]]. Contradicts [[The 12 Week Year]].
 
 ## See also
 
+- [[Take Up Your Cross]] - Discipleship, Eternal Principles, Gospel
 - [[Compounding]] - Habits, PKM, Systems Thinking
-- [[Minimum Effective Dose]] - Habits, PKM, Systems Thinking
 - [[Periodic Knowledge Review]] - Habits, Note Taking, PKM

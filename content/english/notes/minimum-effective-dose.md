@@ -15,14 +15,13 @@ status: evergreen
 ---
 **Minimum effective dose** = the smallest change that still moves the needle - not the heroic overhaul.
 
-I borrowed it from medicine: enough to work, not more than needed. Applies to PKM habits, fitness, and side projects. More input past the dose is noise.
+I borrowed it from medicine: enough to work, not more than needed. Applies to PKM habits, fitness, and side projects. More input past the dose is noise. Same shape in [[Free Grace]]: [[Free Grace]] is the minimum sufficient act for eternal life - not zero response, not a lifetime of merit stacked on top.
 
 Extends [[Pareto Principle]]. Contradicts [[Compounding]].
 
 ## See also
 
-- [[Compounding]] - Habits, Mental Models, PKM
-- [[Low Hanging Fruit]] - Focus, Mental Models, PKM
-- [[Mental Models List]] - Mental Models, PKM, Productivity
+- [[Free Grace]] - Eternal Principles, Faith, Gospel
 - [[Pareto Principle]] - Focus, Mental Models, PKM
+- [[Mental Models List]] - Mental Models, PKM, Productivity
 - [[Sunk Cost Fallacy]] - Mental Models, PKM, Productivity

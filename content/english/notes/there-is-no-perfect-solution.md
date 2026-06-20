@@ -13,12 +13,12 @@ draft: false
 aliases: ["No Perfect Solution"]
 status: evergreen
 ---
-Waiting for the perfect tool, plan, or answer feels responsible. It's often the nirvana fallacy. Here's why I choose good-enough tradeoffs on purpose.
+Waiting for the perfect tool, plan, or answer feels responsible. It's often the nirvana fallacy. Faith parallel: [[Repent and Believe]] - the kingdom is at hand now, not when you've fixed yourself.
 
 Extends [[Mental Models List]]. Contradicts [[Pareto Principle]].
 
 ## See also
 
+- [[Repent and Believe]] - Eternal Principles, Faith, Gospel
 - [[Low Hanging Fruit]] - Decision Making, Mental Models, PKM
-- [[Pareto Principle]] - Decision Making, Mental Models, PKM
 - [[Active Knowledge Curation]] - Note Taking, PKM, Productivity

@@ -14,29 +14,29 @@ status: evergreen
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Task board and reading list both feel urgent."
-    back: "Find the ~20% that moved the needle. Protect that slice."
-  - front: "Pareto rule for flashcards in this garden?"
-    back: "~12 habit spine notes (~20%). Not every page."
-  - front: "Everything feels equally important, nothing moves."
-    back: "Pareto moment. Cut polish on the long tail."
-  - front: "Flashcard deck bloated to 40 notes."
-    back: "Violates Pareto. Trim to habits I use weekly."
-  - front: "I found the vital few tasks."
-    back: "Protect that slice. Stop polishing the rest."
-  - front: "80/20 is a physical law?"
-    back: "No. Shorthand ratio, not math homework."
+  - front: "Task board and reading list both screaming urgent. Protect which slice - roughly what percent moved the needle?"
+    back: "The vital ~20%."
+  - front: "Review deck bloated to forty notes - skipping drills. Trim to what fraction of the garden?"
+    back: "~20% spine - weekly habits only."
+  - front: "Everything feels equally important and nothing moves. What's the move on the long tail?"
+    back: "Cut polish on the rest."
+  - front: "Found the vital few tasks that matter. After that, what do I protect?"
+    back: "That slice - stop polishing the rest."
+  - front: "Polishing the long tail while the vital few stall."
+    back: "Protect the vital few - cut tail polish."
+  - front: "Someone treats 80/20 as physical law. How do I correct them?"
+    back: "Shorthand ratio - not a law."
 draft: false
 ---
 **Pareto principle** = most results come from a small slice of work - find the slice, protect it, cut the rest.
 
-Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand, not a law). I use it when my reading list, task board, or note tags all feel equally important: which few actually moved the needle? Same rule for flashcards: only ~12 habit spine notes carry `review: true` here (~20% of the garden). Cards ask what I'd *do*, not what I'd *define*.
+Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand, not a law). I use it when my reading list, task board, or note tags all feel equally important: which few actually moved the needle? Same rule for flashcards: only spine notes carry `review: true` here - PKM habits plus six [[Eternal Principles]] with cards, not every faith note in the garden. Cards ask what I'd *do*, not what I'd *define*.
 
 Extends [[Signal vs Noise]]. Contradicts [[Compounding]].
 
 ## See also
 
-- [[Low Hanging Fruit]] - Decision Making, Focus, Mental Models
-- [[Mental Models List]] - Decision Making, Mental Models, PKM
+- [[Eternal Principles]] - Eternal Principles, Faith, Gospel
+- [[Compounding]] - Mental Models, PKM, Performance
 - [[There Is No Perfect Solution]] - Decision Making, Mental Models, PKM
 - [[Compounding]] - Mental Models, PKM, Performance

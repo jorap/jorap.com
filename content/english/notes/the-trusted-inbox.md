@@ -13,18 +13,18 @@ status: evergreen
 review: true
 card_sets: ["Capture", "Review"]
 cards:
-  - front: "40 inbox items, two weeks untouched."
-    back: "Trust is broken. Empty it now, same day every week."
-  - front: "Friday review - my step 1?"
+  - front: "Forty inbox items untouched two weeks. Trust is broken - recovery move today?"
+    back: "Empty it now. Same day weekly."
+  - front: "Friday review starting. What's step one?"
     back: "Empty the Trusted Inbox first."
-  - front: "I stopped using the inbox and capture in my head."
-    back: "One pipe, weekly empty, no exceptions."
-  - front: "Second capture app for quick notes?"
-    back: "One inbox, one owner, one rhythm."
-  - front: "What kills inbox trust fastest?"
-    back: "Items rot without weekly processing."
-  - front: "Inbox item screams for a project folder mid-day."
-    back: "Wait for weekly review. Don't break capture flow."
+  - front: "Items rotting without weekly processing. What kills trust faster?"
+    back: "Rot kills trust - empty weekly."
+  - front: "Mid-day an inbox item screams for a project folder."
+    back: "Wait - break flow if I file now."
+  - front: "Two inboxes for work and home."
+    back: "Merge - one pipe."
+  - front: "I tag and label but the inbox never empties. Trusted?"
+    back: "No - empty means delete or file out."
 draft: false
 aliases: ["Trusted Inbox"]
 ---

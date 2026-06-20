@@ -14,8 +14,6 @@ featured: false
 review: false
 draft: false
 ---
-**Review** = active recall in the browser - show the prompt, try the answer, rate myself. Filter by `card_sets` to drill one group at a time. Progress saves in this browser only; I use Anki export when I want phone sync.
-
-Extends [[Flashcards]]. Implements [[Spaced Repetition]].
+**Review** = active recall in the browser - show the prompt, try the answer, rate myself. Filter by `card_sets` to drill one group at a time (Capture, Linking, **Eternal Principles**, **Faith**, **Commandments**, **Ethics**, **Prayer**, **Priorities**, **Discipleship**, etc.). Progress saves in this browser only; I use Anki export when I want phone sync.
 
 Extends [[Getting Started]]. Implements [[Spaced Repetition]].

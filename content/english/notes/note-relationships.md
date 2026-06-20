@@ -13,18 +13,18 @@ status: evergreen
 review: true
 card_sets: ["Linking", "Writing"]
 cards:
-  - front: "My note builds on Atomic Notes. Typed link?"
+  - front: "New note builds on an older atomic claim - typing the link in the body now. Which label?"
     back: "Extends."
-  - front: "My note names the tradeoff against Slow Productivity."
+  - front: "Naming the tradeoff against a slower-work philosophy in this note. Which typed link?"
     back: "Contradicts."
-  - front: "My checklist makes Weekly Review real. Link type?"
+  - front: "Weekly checklist makes a review habit real in practice. Which link type?"
     back: "Implements."
-  - front: "Maps of Content gathers 20 notes. Link type?"
+  - front: "Hub page gathering twenty related notes into one index. Which relationship type?"
     back: "Index (MOC)."
-  - front: "Minimum on my atomic note:"
-    back: "One extends plus one contradicts."
-  - front: "Two tools solve the same job - pick one for this note."
-    back: "Alternative relationship."
+  - front: "Atomic note ready to publish - minimum typed links before filing. How many extends and contradicts?"
+    back: "One extends, one contradicts."
+  - front: "Two tools solve the same job - picking one for this note. Which relationship type?"
+    back: "Alternative."
 draft: false
 aliases: ["link types"]
 ---
@@ -38,13 +38,14 @@ aliases: ["link types"]
 | **alternative** | What else could do this job? | [[Mobile Capture Workflows]] alternative to [[Analog Capture Tools]] |
 | **index** | What gathers many notes? | [[Maps of Content]] indexes the garden |
 
-I give every atomic note **extends** and **contradicts** in the body - one sentence, wikilinked. "Pairs with" in older notes means informal extends. Pipeline order (capture → distill → express) is prose, not a sixth type.
+I give every atomic note **extends** and **contradicts** in the body - one sentence, wikilinked. "Pairs with" in older notes means informal extends. Pipeline order (capture → distill → express) is prose, not a sixth type. Human parallel: [[Reconciliation Before Worship]] - repair broken relationships before showing up to worship, same way I repair broken wikilinks before calling the graph healthy. Ethics parallel: [[The Golden Rule]] - treat links like neighbors; typed relationships, not vague vibes.
 
 Extends [[Associative Linking]]. Contradicts [[PARA Method]].
 
 ## See also
 
+- [[Reconciliation Before Worship]] - Eternal Principles, Gospel, Sermon on the Mount
+- [[The Golden Rule]] - Eternal Principles, Gospel, Sermon on the Mount
 - [[Associative Linking]] - Linking, Note Taking, PKM
-- [[Atomic Notes]] - Linking, Note Taking, PKM
 - [[Getting Started]] - Digital Garden, Meta, PKM
 - [[Maps of Content]] - Linking, Meta, PKM

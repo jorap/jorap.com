@@ -1,0 +1,43 @@
+---
+title: "Repent and Believe"
+meta_title: "Repent and Believe - Jesus' First Command"
+description: "Jesus opened his preaching with two words - repent and believe the gospel. The kingdom entry point, not a works finish line."
+date: 2026-06-19T09:15:00Z
+image: "/images/note.jpg"
+categories: ["Faith", "Ideas"]
+author: "JoRap"
+tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Free Grace", "Repentance", "Faith"]
+slug: "repent-and-believe"
+featured: false
+status: evergreen
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Faith"]
+cards:
+  - front: "Delaying faith until my habits improve."
+    back: "Today - by faith, not when fixed."
+  - front: "Someone groveling until they feel good enough for God. One sentence I'd say?"
+    back: "Turn from self-trust - not merit."
+  - front: "Head agrees with gospel facts but life unchanged. What's missing?"
+    back: "Rely on Christ's promise - trust."
+  - front: "Trying to obey my way into eternal life. What receives life vs what guides after?"
+    back: "Repent/believe receives. Obedience guides after."
+  - front: "Same sin again - despair that heaven is lost. What does turning again mean?"
+    back: "Restore fellowship - not re-earn heaven."
+  - front: "Waiting until I'm worthy to enter."
+    back: "Enter by faith today."
+draft: false
+aliases: ["repentance", "believe the gospel"]
+---
+**Repent and believe** = Jesus' opening command: turn from self-rule and trust the good news that the kingdom is at hand (Mark 1:15; Matthew 4:17).
+
+Repentance is a change of mind and direction - not a down payment on salvation. Belief is reliance on Christ's promise, not mere intellectual agreement. Under [[Free Grace]], this pair is how life begins: receive the kingdom as gift, then live under the King's rule in response. [[There Is No Perfect Solution]] - the kingdom is at hand now, not when you've fixed yourself.
+
+Extends [[Free Grace]]. Contradicts [[No Perfect Solution]] when I delay entry until I've fixed myself.
+
+Extends [[Free Grace]]. Contradicts [[Compounding]].
+
+## See also
+
+- [[There Is No Perfect Solution]] - Decision Making, Mental Models, PKM
+- [[Minimum Effective Dose]] - Mental Models, PKM, Productivity
+- [[Seek the Kingdom First]] - Eternal Principles, Gospel, Priorities

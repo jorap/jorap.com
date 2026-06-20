@@ -15,12 +15,14 @@ status: evergreen
 ---
 **Sunk cost fallacy** = keeping a bad tool, project, or note because I already invested time - not because it still earns its place.
 
-Past effort is gone. I ask: if I found this today, would I start it?
+Past effort is gone. I ask: if I found this today, would I start it? [[Forgiveness]] runs the same play on relational debt. [[Turn the Other Cheek]] adds the move: stop throwing more anger after sunk hurt.
 
-Extends [[There Is No Perfect Solution]]. Contradicts [[Compounding]].
+Extends [[There Is No Perfect Solution]]. Contradicts [[Forgiveness]] when I keep collecting on a grudge I should release.
+
+Extends [[There Is No Perfect Solution]]. Contradicts [[Forgiveness]].
 
 ## See also
 
-- [[Mental Models List]] - Decision Making, Mental Models, PKM
-- [[Low Hanging Fruit]] - Decision Making, Mental Models, PKM
+- [[Turn the Other Cheek]] - Eternal Principles, Gospel, Sermon on the Mount
+- [[Forgiveness]] - Eternal Principles, Gospel, Sermon on the Mount
 - [[Minimum Effective Dose]] - Mental Models, PKM, Productivity

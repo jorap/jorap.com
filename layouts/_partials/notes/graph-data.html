@@ -25,10 +25,10 @@
       {{- $fullLinked := false -}}
       {{- $bodyLinked := false -}}
       {{- range $targets -}}
-        {{- if or (in $raw (printf "[[%s]]" .)) (findRE (printf `\[\[%s(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]` .) $raw) -}}
+        {{- if or (in $raw (printf "[[%s]]" .)) (findRE (printf `\[\[%s(?:#[^\]|]+)?\]\]` .) $raw) -}}
           {{- $fullLinked = true -}}
         {{- end -}}
-        {{- if or (in $bodyRaw (printf "[[%s]]" .)) (findRE (printf `\[\[%s(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]` .) $bodyRaw) -}}
+        {{- if or (in $bodyRaw (printf "[[%s]]" .)) (findRE (printf `\[\[%s(?:#[^\]|]+)?\]\]` .) $bodyRaw) -}}
           {{- $bodyLinked = true -}}
         {{- end -}}
       {{- end -}}

@@ -1,250 +1,374 @@
 {
+  "notes/abide-in-me.md": {
+    "created": "2026-06-20T08:29:49.329Z",
+    "updated": "2026-06-20T09:33:56.042Z"
+  },
   "notes/active-knowledge-curation.md": {
     "created": "2026-06-19T17:00:44.415Z",
-    "updated": "2026-06-20T07:40:42.117Z"
+    "updated": "2026-06-20T09:08:18.388Z"
   },
   "notes/analog-capture-tools.md": {
     "created": "2026-06-19T17:00:44.416Z",
-    "updated": "2026-06-20T07:40:42.117Z"
+    "updated": "2026-06-20T09:08:18.389Z"
   },
   "notes/anti-fragile-systems.md": {
     "created": "2026-06-19T17:00:44.416Z",
-    "updated": "2026-06-20T07:40:42.117Z"
+    "updated": "2026-06-20T09:08:18.389Z"
+  },
+  "notes/ask-seek-knock.md": {
+    "created": "2026-06-20T08:23:46.134Z",
+    "updated": "2026-06-20T09:33:56.042Z"
   },
   "notes/associative-linking.md": {
     "created": "2026-06-19T17:00:44.416Z",
-    "updated": "2026-06-20T07:40:42.117Z"
+    "updated": "2026-06-20T09:33:56.042Z"
   },
   "notes/atomic-notes.md": {
     "created": "2026-06-19T17:00:44.416Z",
-    "updated": "2026-06-20T07:40:42.117Z"
+    "updated": "2026-06-20T09:33:56.042Z"
   },
   "notes/building-a-personal-api.md": {
     "created": "2026-06-19T17:00:44.416Z",
-    "updated": "2026-06-20T07:40:42.117Z"
+    "updated": "2026-06-20T09:08:18.389Z"
   },
   "notes/building-a-second-brain.md": {
     "created": "2026-06-19T17:00:44.416Z",
-    "updated": "2026-06-20T07:40:42.117Z"
+    "updated": "2026-06-20T09:33:56.042Z"
+  },
+  "notes/by-their-fruits.md": {
+    "created": "2026-06-20T08:29:42.463Z",
+    "updated": "2026-06-20T09:33:56.042Z"
   },
   "notes/capture.md": {
     "created": "2026-06-19T17:00:44.416Z",
-    "updated": "2026-06-20T07:40:42.117Z"
+    "updated": "2026-06-20T09:33:56.042Z"
   },
   "notes/cards.md": {
     "created": "2026-06-19T17:04:37.377Z",
-    "updated": "2026-06-20T07:34:30.660Z"
+    "updated": "2026-06-20T09:33:56.042Z"
+  },
+  "notes/childlike-faith.md": {
+    "created": "2026-06-20T08:23:52.516Z",
+    "updated": "2026-06-20T09:33:56.042Z"
   },
   "notes/compounding.md": {
     "created": "2026-06-19T17:00:44.416Z",
-    "updated": "2026-06-20T07:40:42.118Z"
+    "updated": "2026-06-20T09:33:56.042Z"
   },
   "notes/context-aware-capture.md": {
     "created": "2026-06-19T17:00:44.416Z",
-    "updated": "2026-06-20T07:40:42.118Z"
+    "updated": "2026-06-20T09:08:18.391Z"
   },
   "notes/creative-blocks.md": {
     "created": "2026-06-19T17:00:44.416Z",
-    "updated": "2026-06-20T07:40:42.118Z"
+    "updated": "2026-06-20T09:08:18.391Z"
   },
   "notes/creative-output.md": {
     "created": "2026-06-19T17:00:44.416Z",
-    "updated": "2026-06-20T08:07:41.188Z"
+    "updated": "2026-06-20T09:33:56.043Z"
   },
   "notes/daily-notes.md": {
     "created": "2026-06-19T17:00:44.417Z",
-    "updated": "2026-06-20T07:40:42.118Z"
+    "updated": "2026-06-20T09:08:18.391Z"
   },
   "notes/digital-garden.md": {
     "created": "2026-06-19T17:00:44.417Z",
-    "updated": "2026-06-20T07:40:42.118Z"
+    "updated": "2026-06-20T09:08:18.392Z"
   },
   "notes/digital-minimalism.md": {
     "created": "2026-06-19T17:00:44.417Z",
-    "updated": "2026-06-20T07:40:42.118Z"
+    "updated": "2026-06-20T09:08:18.392Z"
   },
   "notes/digital-serendipity.md": {
     "created": "2026-06-19T17:00:44.417Z",
-    "updated": "2026-06-20T07:40:42.119Z"
+    "updated": "2026-06-20T09:08:18.392Z"
+  },
+  "notes/dont-worry.md": {
+    "created": "2026-06-20T08:13:51.195Z",
+    "updated": "2026-06-20T09:33:56.043Z"
   },
   "notes/drafting-in-public.md": {
     "created": "2026-06-19T17:00:44.417Z",
-    "updated": "2026-06-20T07:40:42.119Z"
+    "updated": "2026-06-20T09:33:56.043Z"
+  },
+  "notes/eternal-principles.md": {
+    "created": "2026-06-20T08:13:26.729Z",
+    "updated": "2026-06-20T09:33:56.043Z"
+  },
+  "notes/eternal-rewards.md": {
+    "created": "2026-06-20T09:08:07.115Z",
+    "updated": "2026-06-20T09:33:56.043Z"
   },
   "notes/evergreen-notes.md": {
     "created": "2026-06-19T17:00:44.417Z",
-    "updated": "2026-06-20T07:40:42.119Z"
+    "updated": "2026-06-20T09:33:56.043Z"
   },
   "notes/evergreen-vs-fleeting-notes.md": {
     "created": "2026-06-19T17:00:44.417Z",
-    "updated": "2026-06-20T07:40:42.119Z"
+    "updated": "2026-06-20T09:08:18.394Z"
   },
   "notes/first-principles-thinking.md": {
     "created": "2026-06-19T17:00:44.417Z",
-    "updated": "2026-06-20T07:40:42.119Z"
+    "updated": "2026-06-20T09:33:56.043Z"
+  },
+  "notes/forgiveness.md": {
+    "created": "2026-06-20T08:13:41.925Z",
+    "updated": "2026-06-20T09:33:56.043Z"
+  },
+  "notes/free-grace.md": {
+    "created": "2026-06-20T08:17:28.533Z",
+    "updated": "2026-06-20T09:33:56.043Z"
   },
   "notes/future-proofing-knowledge.md": {
     "created": "2026-06-19T17:00:44.417Z",
-    "updated": "2026-06-20T07:40:42.119Z"
+    "updated": "2026-06-20T09:08:18.394Z"
   },
   "notes/getting-started.md": {
     "created": "2026-06-19T17:00:44.418Z",
-    "updated": "2026-06-20T08:03:16.070Z"
+    "updated": "2026-06-20T09:33:56.043Z"
   },
   "notes/graph-view-analytics.md": {
     "created": "2026-06-19T17:00:44.418Z",
-    "updated": "2026-06-20T08:07:41.102Z"
+    "updated": "2026-06-20T09:08:18.395Z"
   },
   "notes/graph.md": {
     "created": "2026-06-19T17:00:44.418Z",
-    "updated": "2026-06-20T08:03:14.378Z"
+    "updated": "2026-06-20T08:41:04.534Z"
+  },
+  "notes/great-commission.md": {
+    "created": "2026-06-20T08:29:45.949Z",
+    "updated": "2026-06-20T09:33:56.043Z"
   },
   "notes/gtd-vs-para.md": {
     "created": "2026-06-19T17:00:44.418Z",
-    "updated": "2026-06-20T07:40:42.120Z"
+    "updated": "2026-06-20T09:08:18.395Z"
+  },
+  "notes/heart-righteousness.md": {
+    "created": "2026-06-20T08:29:38.755Z",
+    "updated": "2026-06-20T09:33:56.044Z"
+  },
+  "notes/humility-and-service.md": {
+    "created": "2026-06-20T08:13:54.999Z",
+    "updated": "2026-06-20T09:33:56.044Z"
   },
   "notes/intellectual-sourcing.md": {
     "created": "2026-06-19T17:00:44.418Z",
-    "updated": "2026-06-20T07:40:42.120Z"
+    "updated": "2026-06-20T09:08:18.395Z"
   },
   "notes/issues.md": {
     "created": "2026-06-20T03:37:20.687Z",
-    "updated": "2026-06-20T06:58:13.205Z"
+    "updated": "2026-06-20T09:33:56.044Z"
+  },
+  "notes/judge-not.md": {
+    "created": "2026-06-20T08:23:43.900Z",
+    "updated": "2026-06-20T09:33:56.044Z"
+  },
+  "notes/let-your-light-shine.md": {
+    "created": "2026-06-20T08:13:57.137Z",
+    "updated": "2026-06-20T09:33:56.044Z"
+  },
+  "notes/let-your-yes-be-yes.md": {
+    "created": "2026-06-20T08:23:47.666Z",
+    "updated": "2026-06-20T09:33:56.044Z"
   },
   "notes/local-first-software.md": {
     "created": "2026-06-19T17:00:44.418Z",
-    "updated": "2026-06-20T07:40:42.120Z"
+    "updated": "2026-06-20T09:08:18.396Z"
+  },
+  "notes/love-god.md": {
+    "created": "2026-06-20T08:13:28.303Z",
+    "updated": "2026-06-20T09:33:56.044Z"
+  },
+  "notes/love-your-enemies.md": {
+    "created": "2026-06-20T08:13:38.729Z",
+    "updated": "2026-06-20T09:33:56.044Z"
+  },
+  "notes/love-your-neighbor.md": {
+    "created": "2026-06-20T08:13:31.840Z",
+    "updated": "2026-06-20T09:33:56.044Z"
   },
   "notes/low-hanging-fruit.md": {
     "created": "2026-06-19T17:00:44.418Z",
-    "updated": "2026-06-20T07:40:42.120Z"
+    "updated": "2026-06-20T09:08:18.397Z"
   },
   "notes/maps-of-content.md": {
     "created": "2026-06-19T07:07:42.051Z",
-    "updated": "2026-06-20T08:07:41.075Z"
+    "updated": "2026-06-20T09:08:18.397Z"
   },
   "notes/mental-models-list.md": {
     "created": "2026-06-19T17:00:44.418Z",
-    "updated": "2026-06-20T08:07:41.172Z"
+    "updated": "2026-06-20T09:08:18.397Z"
   },
   "notes/metadata-strategy.md": {
     "created": "2026-06-19T17:00:44.419Z",
-    "updated": "2026-06-20T07:40:42.121Z"
+    "updated": "2026-06-20T09:08:18.397Z"
   },
   "notes/mind-mapping.md": {
     "created": "2026-06-19T17:00:44.420Z",
-    "updated": "2026-06-20T07:40:42.121Z"
+    "updated": "2026-06-20T09:08:18.397Z"
   },
   "notes/minimum-effective-dose.md": {
     "created": "2026-06-19T17:00:44.420Z",
-    "updated": "2026-06-20T07:40:42.121Z"
+    "updated": "2026-06-20T09:33:56.044Z"
   },
   "notes/minimum-viable-product.md": {
     "created": "2026-06-19T17:00:44.420Z",
-    "updated": "2026-06-20T07:40:42.121Z"
+    "updated": "2026-06-20T09:08:18.397Z"
   },
   "notes/mobile-capture-workflows.md": {
     "created": "2026-06-19T17:00:44.420Z",
-    "updated": "2026-06-20T07:40:42.121Z"
+    "updated": "2026-06-20T09:08:18.397Z"
   },
   "notes/note-relationships.md": {
     "created": "2026-06-20T03:26:58.660Z",
-    "updated": "2026-06-20T07:40:42.121Z"
+    "updated": "2026-06-20T09:33:56.045Z"
   },
   "notes/para-method.md": {
     "created": "2026-06-19T17:00:44.422Z",
-    "updated": "2026-06-20T07:40:42.121Z"
+    "updated": "2026-06-20T09:33:56.045Z"
   },
   "notes/pareto-principle.md": {
     "created": "2026-06-19T17:00:44.423Z",
-    "updated": "2026-06-20T07:40:42.122Z"
+    "updated": "2026-06-20T09:33:56.045Z"
+  },
+  "notes/peacemakers.md": {
+    "created": "2026-06-20T08:13:52.842Z",
+    "updated": "2026-06-20T09:33:56.045Z"
   },
   "notes/periodic-knowledge-review.md": {
     "created": "2026-06-19T17:00:44.423Z",
-    "updated": "2026-06-20T07:40:42.122Z"
+    "updated": "2026-06-20T09:33:56.045Z"
   },
   "notes/pkm.md": {
     "created": "2026-06-19T17:00:44.424Z",
-    "updated": "2026-06-20T07:40:42.122Z"
+    "updated": "2026-06-20T09:08:18.398Z"
   },
   "notes/process-over-outcomes.md": {
     "created": "2026-06-19T17:00:44.425Z",
-    "updated": "2026-06-20T07:40:42.122Z"
+    "updated": "2026-06-20T09:33:56.045Z"
   },
   "notes/progressive-summarization.md": {
     "created": "2026-06-19T17:00:44.425Z",
-    "updated": "2026-06-20T07:40:42.122Z"
+    "updated": "2026-06-20T09:08:18.399Z"
   },
   "notes/random-duo.md": {
     "created": "2026-06-20T06:50:12.004Z",
-    "updated": "2026-06-20T06:56:51.122Z"
+    "updated": "2026-06-20T08:41:04.537Z"
   },
   "notes/random-trio.md": {
     "created": "2026-06-20T06:50:12.466Z",
-    "updated": "2026-06-20T06:57:04.414Z"
+    "updated": "2026-06-20T08:41:04.531Z"
+  },
+  "notes/reconciliation-before-worship.md": {
+    "created": "2026-06-20T08:13:53.915Z",
+    "updated": "2026-06-20T09:33:56.045Z"
+  },
+  "notes/render-unto-caesar.md": {
+    "created": "2026-06-20T08:29:44.144Z",
+    "updated": "2026-06-20T09:33:56.045Z"
+  },
+  "notes/repent-and-believe.md": {
+    "created": "2026-06-20T08:23:41.037Z",
+    "updated": "2026-06-20T09:33:56.045Z"
   },
   "notes/review.md": {
     "created": "2026-06-19T17:19:45.569Z",
-    "updated": "2026-06-20T07:40:42.122Z"
+    "updated": "2026-06-20T09:11:30.150Z"
   },
   "notes/rss-for-research.md": {
     "created": "2026-06-19T17:00:44.427Z",
-    "updated": "2026-06-20T07:40:42.122Z"
+    "updated": "2026-06-20T09:08:18.399Z"
+  },
+  "notes/secret-devotion.md": {
+    "created": "2026-06-20T08:29:40.637Z",
+    "updated": "2026-06-20T09:33:56.045Z"
+  },
+  "notes/seek-the-kingdom-first.md": {
+    "created": "2026-06-20T08:13:45.087Z",
+    "updated": "2026-06-20T09:33:56.045Z"
   },
   "notes/signal-vs-noise.md": {
     "created": "2026-06-19T17:00:44.430Z",
-    "updated": "2026-06-20T07:40:42.122Z"
+    "updated": "2026-06-20T09:33:56.045Z"
   },
   "notes/slow-productivity.md": {
     "created": "2026-06-19T17:00:44.431Z",
-    "updated": "2026-06-20T07:40:42.123Z"
+    "updated": "2026-06-20T09:08:18.400Z"
   },
   "notes/spaced-repetition.md": {
     "created": "2026-06-19T17:00:44.432Z",
-    "updated": "2026-06-20T07:40:42.123Z"
+    "updated": "2026-06-20T09:33:56.045Z"
   },
   "notes/sunk-cost-fallacy.md": {
     "created": "2026-06-19T17:00:44.433Z",
-    "updated": "2026-06-20T07:40:42.123Z"
+    "updated": "2026-06-20T09:08:18.400Z"
   },
   "notes/synthesis-as-a-goal.md": {
     "created": "2026-06-19T17:00:44.433Z",
-    "updated": "2026-06-20T08:07:41.182Z"
+    "updated": "2026-06-20T09:08:18.400Z"
+  },
+  "notes/take-up-your-cross.md": {
+    "created": "2026-06-20T08:23:51.129Z",
+    "updated": "2026-06-20T09:33:56.046Z"
   },
   "notes/the-12-week-year.md": {
     "created": "2026-06-19T17:00:44.433Z",
-    "updated": "2026-06-20T07:40:42.123Z"
+    "updated": "2026-06-20T09:08:18.400Z"
+  },
+  "notes/the-beatitudes.md": {
+    "created": "2026-06-20T08:13:49.597Z",
+    "updated": "2026-06-20T09:33:56.046Z"
   },
   "notes/the-collectors-fallacy.md": {
     "created": "2026-06-19T17:00:44.434Z",
-    "updated": "2026-06-20T07:40:42.123Z"
+    "updated": "2026-06-20T09:33:56.046Z"
   },
   "notes/the-feynman-technique.md": {
     "created": "2026-06-19T17:00:44.434Z",
-    "updated": "2026-06-20T07:40:42.123Z"
+    "updated": "2026-06-20T09:08:18.401Z"
   },
   "notes/the-garage-concept.md": {
     "created": "2026-06-19T17:00:44.435Z",
-    "updated": "2026-06-20T07:40:42.123Z"
+    "updated": "2026-06-20T09:08:18.401Z"
+  },
+  "notes/the-golden-rule.md": {
+    "created": "2026-06-20T08:13:35.043Z",
+    "updated": "2026-06-20T09:33:56.046Z"
   },
   "notes/the-knowledge-lifecycle.md": {
     "created": "2026-06-19T17:00:44.435Z",
-    "updated": "2026-06-20T07:40:42.124Z"
+    "updated": "2026-06-20T09:08:18.401Z"
+  },
+  "notes/the-narrow-way.md": {
+    "created": "2026-06-20T08:14:00.698Z",
+    "updated": "2026-06-20T09:33:56.046Z"
   },
   "notes/the-second-brain-workflow.md": {
     "created": "2026-06-19T17:00:44.436Z",
-    "updated": "2026-06-20T07:40:42.124Z"
+    "updated": "2026-06-20T09:08:18.401Z"
   },
   "notes/the-trusted-inbox.md": {
     "created": "2026-06-19T17:00:44.438Z",
-    "updated": "2026-06-20T07:40:42.124Z"
+    "updated": "2026-06-20T09:33:56.046Z"
+  },
+  "notes/the-wise-builder.md": {
+    "created": "2026-06-20T08:23:54.012Z",
+    "updated": "2026-06-20T09:33:56.046Z"
   },
   "notes/there-is-no-perfect-solution.md": {
     "created": "2026-06-19T17:00:44.438Z",
-    "updated": "2026-06-20T07:40:42.124Z"
+    "updated": "2026-06-20T09:33:56.046Z"
+  },
+  "notes/treasure-in-heaven.md": {
+    "created": "2026-06-20T08:13:58.845Z",
+    "updated": "2026-06-20T09:33:56.046Z"
+  },
+  "notes/turn-the-other-cheek.md": {
+    "created": "2026-06-20T08:23:42.569Z",
+    "updated": "2026-06-20T09:33:56.046Z"
   },
   "notes/weekly-review-checklists.md": {
     "created": "2026-06-19T17:00:44.439Z",
-    "updated": "2026-06-20T07:40:42.124Z"
+    "updated": "2026-06-20T09:33:56.046Z"
   }
 }

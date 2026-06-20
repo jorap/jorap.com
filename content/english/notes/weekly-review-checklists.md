@@ -13,18 +13,18 @@ status: evergreen
 review: true
 card_sets: ["Review", "Workflow"]
 cards:
-  - front: "Friday review - four steps in order?"
-    back: "Inbox, calendar, projects, one ship action."
-  - front: "Review feels fresh and creative each week."
-    back: "Wrong. Same checklist every week - novelty reinvents the wheel."
-  - front: "I finish inbox and calendar but skip express."
-    back: "Pick one ship action before I close the review."
+  - front: "Friday review - inbox and calendar done. Fourth step before I close?"
+    back: "Pick one ship action."
+  - front: "Review feels stale - tempted to reinvent the checklist for creativity."
+    back: "Keep same checklist - boring on purpose."
+  - front: "Finished inbox and calendar but skipping express. Required before I close review?"
+    back: "Pick one ship action."
+  - front: "Travel week - review might get skipped entirely."
+    back: "Twenty minutes - shorten, don't skip."
   - front: "When do I run weekly review?"
-    back: "Same day every week. Boring on purpose."
-  - front: "Step 3 of my weekly review?"
-    back: "Review active projects - what's stuck, what's next."
-  - front: "Travel week and review gets skipped."
-    back: "Twenty minutes beats zero. Shorten, don't skip."
+    back: "Same day every week."
+  - front: "Step three after inbox and calendar - what do I review next?"
+    back: "Active projects - stuck and next."
 draft: false
 aliases: []
 ---

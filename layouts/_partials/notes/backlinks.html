@@ -27,13 +27,12 @@
   {{- $matched := false -}}
   {{- range $needles -}}
     {{- if not $matched -}}
-      {{- $linePattern := printf `(?m)[^\n]{0,100}\[\[%s(?:#[^\]|]+)?(?:\|[^\]]+)?\]\][^\n]{0,100}` . -}}
+      {{- $linePattern := printf `(?m)[^\n]{0,100}\[\[%s(?:#[^\]|]+)?\]\][^\n]{0,100}` . -}}
       {{- $lineMatch := findRE $linePattern $raw 1 -}}
       {{- if $lineMatch -}}
         {{- $matched = true -}}
         {{- $snippet = index $lineMatch 0 | strings.TrimSpace -}}
-        {{- $snippet = replaceRE `\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]` "$2" $snippet -}}
-        {{- $snippet = replaceRE `\[\[[^\]|#]+(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]` "…" $snippet -}}
+        {{- $snippet = replaceRE `\[\[[^\]|#]+(?:#[^\]|]+)?\]\]` "…" $snippet -}}
         {{- $snippet = replaceRE `\*\*([^*]+)\*\*` "$1" $snippet -}}
         {{- $snippet = replaceRE `\*([^*]+)\*` "$1" $snippet -}}
         {{- $snippet = strings.TrimSpace $snippet -}}

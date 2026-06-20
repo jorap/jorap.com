@@ -13,18 +13,18 @@ status: evergreen
 review: true
 card_sets: ["Workflow", "Organization"]
 cards:
-  - front: "Audit: organize is theater, express never happens."
-    back: "Fix or cut that CODE step. No step just for show."
-  - front: "New to CODE - where do I start?"
-    back: "Capture first. Offload before I organize."
-  - front: "Quarterly: which CODE step hasn't shipped anything?"
-    back: "That step is cosplay. Redesign or drop it."
-  - front: "Notes pile up, nothing published."
-    back: "Express is the failure. Schedule ship from notes."
-  - front: "My organize step uses:"
-    back: "PARA buckets - projects, areas, resources, archive."
-  - front: "I skipped capture and jumped to folders."
-    back: "CODE order: capture before organize, distill, express."
+  - front: "New to CODE and overwhelmed - capture, organize, distill, express. Which step first?"
+    back: "Capture first - offload now."
+  - front: "Notes pile up but nothing publishes. Which step is failing - schedule what?"
+    back: "Express - schedule ship."
+  - front: "Organize step uses projects, areas, resources, archive. Name the acronym?"
+    back: "PARA."
+  - front: "Skipped capture and jumped straight to folders and tags. What order did I violate?"
+    back: "Capture before organize."
+  - front: "Second brain filling with interesting links. Nothing publishing."
+    back: "Ship output - not hoard."
+  - front: "Tempted to publish raw captures without distilling. What's the order?"
+    back: "Distill first - then express."
 draft: false
 aliases: ["Second Brain"]
 ---

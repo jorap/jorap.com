@@ -67,6 +67,15 @@ status: evergreen
 - [[Synthesis as a Goal]]
 - [[Creative Blocks]]
 
+### Faith
+
+- [[Free Grace]]
+- [[Eternal Principles]]
+- [[Love God]]
+- [[Love Your Neighbor]]
+- [[The Golden Rule]]
+- [[Forgiveness]]
+
 ### Mental models
 
 - [[Mental Models List]]
@@ -74,7 +83,6 @@ status: evergreen
 ### Systems & tools
 
 - [[Digital Garden]]
-- [[Issues]]
 - [[Local-first Software]]
 - [[Future-Proofing Knowledge]]
 

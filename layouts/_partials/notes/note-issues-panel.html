@@ -6,7 +6,7 @@
   {{- return -}}
 {{- end -}}
 {{- with $page.File -}}
-  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v2" -}}
+  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v3" -}}
   {{- $issues := index $data.byPath .Path -}}
   {{- if $issues -}}
     <aside class="notes-issues border-divider mb-6 rounded border p-5" aria-label="Link issues on this note">
@@ -20,6 +20,12 @@
           <li class="notes-issues__item notes-issues__item--broken">
             <strong>Missing note:</strong>
             wikilink <code>[[{{ .target }}]]</code> — no page matches this title, slug, or alias.
+          </li>
+        {{- end -}}
+        {{- range $issues.pipe -}}
+          <li class="notes-issues__item notes-issues__item--pipe">
+            <strong>Pipe wikilink:</strong>
+            <code>[[{{ .raw }}]]</code> — use <code>[[{{ .target }}]]</code> only (no <code>|label</code>).
           </li>
         {{- end -}}
         {{- range $issues.unlinked -}}

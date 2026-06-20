@@ -1,0 +1,215 @@
+---
+name: flashcards
+description: >-
+  Write and edit JoRap notes garden flashcards (review: true, cards frontmatter,
+  card_sets). Always apply jorap-voice - cards must sound like JoRap typed them mid-life,
+  not like textbook prompts. Use when adding, rewriting, or auditing flashcards on
+  content/english/notes, enabling review on spine notes, fixing card lint errors, or when
+  the user asks about flashcard goals, real-life recall, immediate application, scenario
+  cards, card_sets, or /notes/review/.
+---
+
+# Flashcards
+
+Flashcards are a **drill lane beside the wiki** - not a second copy of the note. The wiki holds linked understanding; cards wire **life's cue → recall principle → act immediately**.
+
+Only ~20% of notes (spine habits + gospel cluster) carry cards. Full spec: `content/english/notes/cards.md`. Reference decks: `capture.md`, `free-grace.md`, `the-golden-rule.md`.
+
+**Voice:** Always load and follow [jorap-voice](../jorap-voice/SKILL.md). Cards are first-person drill cues - same plain, lived-in tone as the notes garden, not Anki boilerplate.
+
+## North star - recall and apply in real life
+
+Every card trains one chain:
+
+```
+Life shows up (cue)  →  I recall the principle  →  I do the next right thing now
+```
+
+Review practice exists so that **when the front happens tomorrow**, the back fires without opening the garden. Success is not passing `/notes/review/` - success is acting correctly in the next five seconds of real life.
+
+**Real-life litmus test:** Read only the front. Could this exact moment happen this week? Cover the back - do you know what to **do or decide right now**, not what to study later?
+
+| Part | Role | Write it as |
+|------|------|-------------|
+| **Front** | Life's cue - recognize the moment | Present tense, mid-action, sensory or emotional (`thumb on post button`, `inbox at 40`, `guilt after snapping`) |
+| **Back** | Immediate apply - principle compressed into action | Imperative or decision (`Pray for them.`, `One inbox. Don't organize.`, `Kingdom first - Scripture before inbox.`) |
+
+The back can name a principle **only if it IS the immediate move** - e.g. `"Kingdom first."` redirects the next ten minutes. Avoid backs that explain without directing.
+
+## Goals - what flashcards are for
+
+Write every card toward these outcomes. If a card doesn't serve at least one, cut it or rewrite it.
+
+### 1. Cue recognition in the wild
+
+The front must match **how life actually arrives** - messy, mid-habit, under temptation - not how the note is titled. You should read a front and think *"that happened Tuesday."*
+
+**Mine cues from:** real failures this week, bodily urges (post, snap, hoard, skip prayer), time/place forks (commute, Friday review, before bed).
+
+### 2. Immediate application on the back
+
+Back = what you **do, say, or decide in the next breath**. Verb-first when possible. If the back reads like a textbook sentence, rewrite as a move.
+
+- ✅ `"Pray for them."` / `"Empty it now."` / `"Split the note."`
+- ⚠️ `"Faith saves; principles guide after."` - OK when the immediate move is *correcting a wrong instinct in your head*
+- ❌ `"Free grace is unmerited favor received by faith."` - true, but no action; belongs in the wiki
+
+### 3. Active retrieval, not re-reading
+
+Produce the back from memory before flipping. No telegraphy on the front - if you can answer without thinking, the cue won't stick to real life.
+
+### 4. One move per card
+
+One cue → one apply. Multi-step backs split into separate cards or collapse to the **first** physical move.
+
+### 5. Transfer across surfaces
+
+Same principle, different cues - so recall isn't locked to one phrasing. Vary time, place, and emotion across the six cards in a deck.
+
+### 6. Durable recall on rhythm
+
+Spaced review (`/notes/review/`, Anki) so the cue→apply link survives until life triggers it again.
+
+### 7. Keep lanes separate + Pareto the deck
+
+Wiki = nuance. Cards = spine habits (~20%) you drill weekly so the chain is automatic under pressure.
+
+## Anti-goals
+
+- **Review-only recall** - passes in Anki, never fires in life (cue too abstract)
+- **Principle without apply** - backs that teach but don't direct the next move
+- **Definitions, trivia, verse fill-in-the-blank**
+- **Telegraphy** - answer visible on the front
+- **Multiple choice** - front lists options (`X, Y, or Z?`, `A or B?`); back must hold the move, not a menu of picks
+- **Cards on every note** - understanding in the garden; drill in the spine
+
+## When to use this skill
+
+- Adding or rewriting cards for real-life cue → apply chains
+- Auditing decks that test trivia instead of in-the-moment moves
+- Spine eligibility, lint fixes, new review notes
+
+## Workflow
+
+1. **Read the note body** - claim, extends/contradicts, tradeoffs.
+2. **Read jorap-voice** - load [jorap-voice](../jorap-voice/SKILL.md); skim 1-2 reference decks (`capture.md`, `free-grace.md`) for tone.
+3. **Confirm spine status** - weekly drill? (~12 PKM + gospel under [[Eternal Principles]]). Else skip `review: true`.
+4. **Mine real cues** - 6+ moments from actual life where this note should have fired but didn't. Not from the definition line.
+5. **Draft cue → apply pairs** - front = recognize; back = do/decide now (see [examples.md](examples.md)).
+6. **De-AI pass (jorap-voice)** - read each front aloud. Would JoRap actually think this mid-commute, mid-argument, inbox at 40? Cut textbook phrasing, abstract nouns, and third-person setup. Backs stay short imperatives - no essays.
+7. **Real-life litmus** - for each card: *If this front happened tonight, would I know the back without opening the site?*
+8. **Pick `card_sets`**, validate with `npm run lint:cards` and `npm run lint:voice`.
+
+### Scaffold
+
+```bash
+hugo new content/english/notes/my-note.md --kind notes-review
+```
+
+Template: `archetypes/notes-review.md`.
+
+## Frontmatter shape
+
+```yaml
+review: true
+card_sets: ["Capture", "Workflow"]
+cards:
+  - front: "Mid-commute spark I might forget before I'm home."
+    back: "Drop in one inbox. Don't organize yet."
+  - front: "Interesting link, unsure it's worth saving. One filter question before it hits the inbox?"
+    back: "Would I act on it or cite it later?"
+draft: false
+```
+
+## Card design rules
+
+| Rule | Detail |
+|------|--------|
+| **Cue → apply** | Front = life's moment; back = immediate move |
+| **Six cards** | Standard spine deck - six different cues |
+| **Front longer than back** | Scenario on front; short apply back (lint: `len(front) > len(back)`) |
+| **Present-tense cues** | Mid-action, not textbook setup |
+| **Verb-first backs** | Do / decide / say - not define |
+| **Subtle hints only** | No answer telegraphy on the front |
+| **Cue only - no multiple choice** | Front = the moment; never list options to pick from |
+| **Double-quoted strings** | Every `front`, `back`, set name |
+| **Block `cards`**, inline `card_sets` | |
+
+### No answer telegraphy
+
+**Avoid on front:** note title, concept name, verse-as-answer-key, obvious fill-in-the-blank.
+
+**Use on front:** the exact fork you'd face - time, place, urge, guilt, inbox count - **without naming the choices**.
+
+### No multiple choice
+
+The front is **cue only**. State the moment; the back holds the move. Never list options on the front - that turns recall into picking from a menu.
+
+| Bad (multiple choice) | Good (cue only) |
+|-----------------------|-----------------|
+| `Mid-commute spark - inbox or organize on the spot?` | `Mid-commute spark I might forget before I'm home.` |
+| `Someone slandered me online - outrage, silence, or prayer first?` | `Someone slandered me online. Thumb hovering over reply.` |
+| `Tempted to split work and home into two inboxes. Merge or keep separate?` | `Tempted to split work and home into two capture inboxes.` |
+| `Fleeting spark in weekly review. Promote to evergreen or leave fleeting?` | `Fleeting spark keeps showing up in weekly review.` |
+| `Criticism is true but tone is cruel. Say it anyway or pause?` | `Criticism is true but tone is cruel. Finger on send.` |
+
+**Rewrite rule:** delete the `A, B, or C?` tail. If the front still needs a question, ask an open cue (`What's missing?`, `What comes first?`) - not a list of answers.
+
+**Lint:** `npm run lint:cards` flags option lists and `… or …?` forks on fronts.
+
+### Voice (jorap-voice)
+
+Cards inherit the garden's voice - practical, first-person, specific. Apply jorap-voice to every front and back.
+
+| Do | Don't |
+|----|-------|
+| `Mid-commute spark I might forget.` | `When capturing information during transit…` |
+| `Forty inbox items, two weeks untouched.` | `Inbox backlog exceeds recommended threshold.` |
+| `Obedience feels like what qualifies me for heaven.` | `What is the relationship between works and salvation?` |
+| `One inbox. Don't organize yet.` | `Capture should be routed to a single trusted repository.` |
+| Contractions, counts, times (`Tuesday 7am`, `thumb on post button`) | Hollow openers, significance inflation, thesaurus words |
+
+**De-AI on fronts:** if it could appear in any generic study deck, add a concrete detail from real life. **De-AI on backs:** verb-first move, not a definition sentence.
+
+### card_sets labels
+
+**PKM:** `Capture`, `Workflow`, `Review`, `Linking`, `Writing`, `Organization`, `Focus`
+
+**Gospel:** always `"Eternal Principles"` plus one: `Faith`, `Commandments`, `Ethics`, `Prayer`, `Priorities`, `Discipleship`
+
+## Quality checklist
+
+Each card:
+
+- [ ] Front is a cue I'd recognize in real life this week
+- [ ] Back tells me what to **do or decide now** - not just what is true
+- [ ] Cue → apply chain works with note closed (real-life litmus)
+- [ ] Sounds like JoRap typed it - jorap-voice de-AI pass done (no textbook / AI slop)
+- [ ] Front is cue only - no multiple choice (`X, Y, or Z?`, `A or B?` on the front)
+- [ ] No telegraphy; front longer than back; one move on back
+- [ ] `npm run lint:cards` and `npm run lint:voice` pass
+
+Deck:
+
+- [ ] Six different cues - not six ways to ask the definition
+- [ ] Spine-worthy (~20% rule)
+
+## Lint and tools
+
+```bash
+npm run lint:cards
+npm run lint:voice
+```
+
+Bulk rewrite: `python3 scripts/fix-flashcard-lengths.py`
+
+## Site integration
+
+- Review: `/notes/review/` · Export: `/notes/cards/` · Same frontmatter → Anki
+
+## Additional resources
+
+- Voice: [jorap-voice](../jorap-voice/SKILL.md)
+- Cue → apply examples: [examples.md](examples.md)
+- Format spec: `content/english/notes/cards.md`
+- SRS philosophy: `content/english/notes/spaced-repetition.md`

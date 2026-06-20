@@ -15,12 +15,12 @@ aliases: ["SRS", "Spaced Repetition Systems", "Spaced Repetition Systems (SRS)"]
 ---
 **Spaced repetition** = review facts on a schedule before I forget - for recall, not whole essays.
 
-Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for. Whole essays don't belong on flashcards. The wiki holds understanding; Anki or SRS apps hold drill - separate lanes, algorithm handles timing. In this garden, only ~12 spine notes (~20%) opt in with `review: true`, and cards target habits (what to do when) - not definition trivia.
+Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for. Whole essays don't belong on flashcards. The wiki holds understanding; Anki or SRS apps hold drill - separate lanes, algorithm handles timing. In this garden, spine notes (~20%, [[Pareto Principle]]) opt in with `review: true` - PKM habit prompts and [[Eternal Principles]] gospel cards share the same drill lane via `card_sets`. [[Ask Seek Knock]] is the faith-side version: keep asking on rhythm, not cram once.
 
 Extends [[Evergreen Notes]]. Contradicts [[Progressive Summarization]].
 
 ## See also
 
-- [[Digital Minimalism]] - Note Taking, PKM, Tools
-- [[The Collector's Fallacy]] - Learning, Note Taking, PKM
+- [[Childlike Faith]] - Eternal Principles, Faith, Gospel
+- [[Ask Seek Knock]] - Eternal Principles, Gospel, Prayer
 - [[The Feynman Technique]] - Learning, Note Taking, PKM

@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v2" -}}
+  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v3" -}}
   {{- $notes := $data.notes -}}
   {{- $notes = sort $notes "total" "desc" -}}
 
@@ -20,6 +20,7 @@
             {{- if gt $data.notesWithIssues 0 -}}
               <ul class="notes-issues-summary__stats mb-0 list-none space-y-1 p-0 text-sm">
                 <li><strong>{{ $data.brokenCount }}</strong> broken wikilink{{ if ne $data.brokenCount 1 }}s{{ end }} (target note does not exist)</li>
+                <li><strong>{{ $data.pipeCount }}</strong> pipe wikilink{{ if ne $data.pipeCount 1 }}s{{ end }} (deprecated <code>[[note|label]]</code> syntax)</li>
                 <li><strong>{{ $data.unlinkedCount }}</strong> unlinked mention{{ if ne $data.unlinkedCount 1 }}s{{ end }} (note title in prose without <code>[[wikilink]]</code>)</li>
                 <li><strong>{{ $data.notesWithIssues }}</strong> note{{ if ne $data.notesWithIssues 1 }}s{{ end }} affected</li>
               </ul>
@@ -42,6 +43,12 @@
                       <li class="notes-issues__item notes-issues__item--broken">
                         <strong>Missing note:</strong>
                         <code>[[{{ .target }}]]</code> — no matching page.
+                      </li>
+                    {{- end -}}
+                    {{- range .pipe -}}
+                      <li class="notes-issues__item notes-issues__item--pipe">
+                        <strong>Pipe wikilink:</strong>
+                        <code>[[{{ .raw }}]]</code> — use <code>[[{{ .target }}]]</code> only (no <code>|label</code>).
                       </li>
                     {{- end -}}
                     {{- range .unlinked -}}

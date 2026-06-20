@@ -1,14 +1,40 @@
-{{- /* Table of contents for notes, excluding the static See also heading. */ -}}
+{{- /*
+  Table of contents for notes — parsed from RawContent, not .Fragments.Headings.
+*/ -}}
 {{- $start := 2 -}}
 {{- $end := 5 -}}
 {{- $ordered := true -}}
 {{- $listTag := cond $ordered "ol" "ul" -}}
 {{- $skipIds := slice "see-also" -}}
 {{- $html := "" -}}
-{{- with .Fragments.Headings -}}
-  {{- $items := partial "notes/toc-headings.html" (dict "headings" . "start" $start "end" $end "skipIds" $skipIds) -}}
-  {{- if $items -}}
-    {{- $html = printf `<nav id="TableOfContents"><%s>%s</%s></nav>` $listTag $items $listTag -}}
+
+{{- $raw := .RawContent -}}
+{{- $raw = replaceRE `(?s)\n## See also[\s\S]*$` "" $raw -}}
+
+{{- $headings := slice -}}
+{{- range $line := split $raw "\n" -}}
+  {{- if findRE `^#{2,5}\s+` $line -}}
+    {{- $level := len (index (findRE `^#{2,5}` $line) 0) -}}
+    {{- if and (ge $level $start) (le $level $end) -}}
+      {{- $title := replaceRE `^#{2,5}\s+` "" $line | strings.TrimSpace -}}
+      {{- $title = replaceRE `\[\[([^\]|#]+)(?:#[^\]]+)?\]\]` "$1" $title -}}
+      {{- $title = replaceRE `[*_]` "" $title -}}
+      {{- $title = replaceRE `\{#[^}]+\}$` "" $title | strings.TrimSpace -}}
+      {{- $title = $title | plainify | strings.TrimSpace -}}
+      {{- $id := anchorize $title -}}
+      {{- if and $title (not (in $skipIds $id)) -}}
+        {{- $headings = $headings | append (dict "level" $level "title" $title "id" $id) -}}
+      {{- end -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
+
+{{- if $headings -}}
+  {{- $items := "" -}}
+  {{- range $headings -}}
+    {{- $items = printf `%s<li class="toc-level-%d"><a href="#%s">%s</a></li>` $items .level .id (.title | safeHTML) -}}
+  {{- end -}}
+  {{- $html = printf `<nav id="TableOfContents"><%s>%s</%s></nav>` $listTag $items $listTag -}}
+{{- end -}}
+
 {{- return (dict "html" $html "has" (ne $html "")) -}}

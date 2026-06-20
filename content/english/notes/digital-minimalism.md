@@ -13,12 +13,12 @@ status: evergreen
 draft: false
 aliases: []
 ---
-Fewer apps, fewer sync layers, fewer notifications. My PKM got better when I stopped collecting tools.
+Fewer apps, fewer sync layers, fewer notifications. My PKM got better when I stopped collecting tools. Overlap with [[Treasure in Heaven]]: less earthly accumulation, clearer allegiance.
 
 Extends [[Minimum Effective Dose]]. Contradicts [[Digital Serendipity]].
 
 ## See also
 
+- [[Treasure in Heaven]] - Eternal Principles, Gospel, Priorities
 - [[Analog Capture Tools]] - Note Taking, PKM, Productivity
-- [[Capture]] - Note Taking, PKM, Productivity
 - [[Daily Notes]] - Note Taking, PKM, Productivity

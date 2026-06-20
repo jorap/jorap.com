@@ -15,22 +15,22 @@ review: true
 card_sets: ["Writing", "Review"]
 cards:
   - front: "Fleeting spark keeps showing up in weekly review."
-    back: "Promote to evergreen - complete sentences, two-year bar."
-  - front: "A tool I rely on changed how I work."
-    back: "Revise the evergreen note - not every trend spike."
-  - front: "My two-year test for evergreen:"
-    back: "Sentences I'd still stand behind in two years."
-  - front: "Evergreen vs fleeting - daily choice?"
-    back: "Cite later: evergreen. One-off spark: promote or drop."
+    back: "Promote - if two-year bar passes."
+  - front: "Tool I rely on changed how I work - trending spike on Twitter. Revise note on every spike?"
+    back: "Revise when still true - ignore hype."
+  - front: "Sentences might not hold in two years. Still publishable?"
+    back: "Keep fleeting - or rewrite first."
+  - front: "I'd cite this in conversation later this year."
+    back: "Evergreen if cite-later; else fleeting."
   - front: "Trendy take I might regret next year."
-    back: "Keep fleeting or skip. Don't evergreen it yet."
-  - front: "Evergreen feels stale but the topic is hot on Twitter."
-    back: "Revise for tool shifts. Ignore hype cycles."
+    back: "Wait - keep fleeting."
+  - front: "Evergreen note has bold layers but no claim I'd quote. What's missing?"
+    back: "Distill - need one citable claim."
 draft: false
 ---
 I write evergreen notes to stay useful - timeless phrasing, clear claims, updated when reality changes.
 
-I write in complete sentences I'd still stand behind in two years. Revise when tools change, not when trends spike. Promotion from fleeting: during [[Periodic Knowledge Review]], when a spark keeps returning.
+I write in complete sentences I'd still stand behind in two years. Revise when tools change, not when trends spike. Promotion from fleeting: during [[Periodic Knowledge Review]], when a spark keeps returning. Faith parallel: [[The Beatitudes]] - character that matures over years, not a one-week mood.
 
 Extends [[Atomic Notes]]. Contradicts [[Daily Notes]].
 
@@ -39,3 +39,4 @@ Extends [[Atomic Notes]]. Contradicts [[Daily Notes]].
 - [[Atomic Notes]] - Note Taking, PKM, Second Brain
 - [[Evergreen vs Fleeting Notes]] - Evergreen Notes, Note Taking, PKM
 - [[Active Knowledge Curation]] - Note Taking, PKM, Second Brain
+- [[The Beatitudes]] - Beatitudes, Eternal Principles, Gospel

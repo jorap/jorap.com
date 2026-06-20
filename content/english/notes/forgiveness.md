@@ -1,0 +1,43 @@
+---
+title: "Forgiveness"
+meta_title: "Forgiveness - As the Father Forgives You"
+description: "Jesus tied receiving forgiveness to extending it - forgive from the heart, not just with words."
+date: 2026-06-19T08:25:00Z
+image: "/images/note.jpg"
+categories: ["Faith", "Ideas"]
+author: "JoRap"
+tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Forgiveness"]
+slug: "forgiveness"
+featured: false
+status: evergreen
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Ethics"]
+cards:
+  - front: "Praying but nursing a grudge - skipping the line about others. Say it now?"
+    back: "Forgive those who trespass against us."
+  - front: "Wronged and refusing to forgive. What breaks?"
+    back: "Breaks fellowship - forgive from the heart."
+  - front: "Same person hurt me again - tempted to stop counting."
+    back: "Forgive again - stop counting."
+  - front: "Hurt still stings - forgiving feels like pretending it didn't matter."
+    back: "False - release debt anyway."
+  - front: "Repeat offender apologizes again. What's the move?"
+    back: "Forgive heart; keep boundaries."
+  - front: "I was forgiven much but choking someone over pocket change. What's my move?"
+    back: "Forgive - release the small debt."
+draft: false
+aliases: ["forgive from the heart"]
+---
+**Forgiveness** = forgive others from the heart, as the Father forgives you - Jesus tied extending forgiveness to walking in the grace already received (Matthew 6:14-15, 18:21-35).
+
+The [[Ask Seek Knock]] builds forgiveness into daily rhythm. The parable of the unforgiving servant (Matthew 18) makes the math plain: the king forgave an unpayable debt - picture of [[Free Grace]] already given - and the servant's refusal to forgive a small debt exposed a heart out of step with mercy. Same move as [[Sunk Cost Fallacy]] in reverse: I stop treating past hurt as a reason to keep collecting on a debt that's already been cleared. Seventy times seven ends the ledger-keeping. For believers, unforgiveness chokes fellowship and joy; it doesn't undo eternal life bought by faith.
+
+Extends [[Free Grace]]. Contradicts [[Sunk Cost Fallacy]] when I treat old hurt as debt I'm owed forever.
+
+Extends [[Free Grace]]. Contradicts [[Sunk Cost Fallacy]].
+
+## See also
+
+- [[Sunk Cost Fallacy]] - Decision Making, Mental Models, PKM
+- [[Reconciliation Before Worship]] - Eternal Principles, Gospel, Sermon on the Mount
+- [[The Golden Rule]] - Eternal Principles, Gospel, Sermon on the Mount

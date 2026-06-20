@@ -1,0 +1,104 @@
+#!/usr/bin/env python3
+"""Error when evergreen note bodies wikilink to garden utility/meta surfaces."""
+
+from __future__ import annotations
+
+import re
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+NOTES_DIR = ROOT / "content/english/notes"
+
+UTILITY_LAYOUTS = frozenset({"graph", "cards", "review", "issues", "random-duo", "random-trio"})
+
+WIKILINK_RE = re.compile(
+    r"\[\[([^\]|#]+)(?:#[^\]|]+)?\]\]"
+)
+
+
+def split_frontmatter(text: str) -> tuple[str, str]:
+    if not text.startswith("---"):
+        return "", text
+    end = text.find("\n---", 3)
+    if end == -1:
+        return "", text
+    return text[3:end].strip(), text[end + 4 :]
+
+
+def parse_scalar(block: str, key: str) -> str:
+    match = re.search(rf"^{key}:\s*(.+?)\s*$", block, re.M)
+    return match.group(1).strip().strip('"') if match else ""
+
+
+def parse_aliases(block: str) -> list[str]:
+    match = re.search(r"^aliases:\s*\[(.*)\]\s*$", block, re.M)
+    if not match:
+        return []
+    return [item.strip().strip('"') for item in match.group(1).split(",") if item.strip()]
+
+
+def is_utility(block: str) -> bool:
+    if parse_scalar(block, "note_kind") == "meta":
+        return True
+    return parse_scalar(block, "layout") in UTILITY_LAYOUTS
+
+
+def body_without_see_also(body: str) -> str:
+    if "## See also" in body:
+        return body.split("## See also", 1)[0]
+    return body
+
+
+def utility_targets() -> dict[str, Path]:
+    """Map wikilink target strings (lower) to utility note path."""
+    targets: dict[str, Path] = {}
+    for path in sorted(NOTES_DIR.glob("*.md")):
+        block, _ = split_frontmatter(path.read_text(encoding="utf-8"))
+        if not block or not is_utility(block):
+            continue
+        keys = {parse_scalar(block, "title"), parse_scalar(block, "slug"), path.stem}
+        keys.update(parse_aliases(block))
+        for key in keys:
+            if key:
+                targets[key.casefold()] = path
+    return targets
+
+
+def lint_file(path: Path, targets: dict[str, Path]) -> list[str]:
+    if is_utility(split_frontmatter(path.read_text(encoding="utf-8"))[0]):
+        return []
+
+    rel = path.relative_to(ROOT)
+    body = body_without_see_also(split_frontmatter(path.read_text(encoding="utf-8"))[1])
+    errors: list[str] = []
+
+    for match in WIKILINK_RE.finditer(body):
+        target = (match.group(1) or "").strip()
+        hit = targets.get(target.casefold())
+        if hit:
+            errors.append(
+                f"{rel}: wikilink to utility page [[{target}]] "
+                f"(use URL e.g. /notes/{hit.stem}/ — utility pages are not garden notes)"
+            )
+    return errors
+
+
+def main() -> int:
+    targets = utility_targets()
+    errors: list[str] = []
+    for path in sorted(NOTES_DIR.glob("*.md")):
+        errors.extend(lint_file(path, targets))
+
+    if errors:
+        print("Utility wikilink errors:", file=sys.stderr)
+        for err in errors:
+            print(f"  {err}", file=sys.stderr)
+        return 1
+
+    print("Utility wikilinks OK")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

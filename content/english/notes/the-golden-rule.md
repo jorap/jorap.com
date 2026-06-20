@@ -1,0 +1,43 @@
+---
+title: "The Golden Rule"
+meta_title: "The Golden Rule - Do Unto Others"
+description: "Jesus summed the Law and Prophets in one line: treat others the way you want to be treated."
+date: 2026-06-19T08:15:00Z
+image: "/images/note.jpg"
+categories: ["Faith", "Ideas"]
+author: "JoRap"
+tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Ethics"]
+slug: "the-golden-rule"
+featured: false
+status: evergreen
+review: true
+card_sets: ["Eternal Principles", "Gospel", "Ethics"]
+cards:
+  - front: "Thumb on post button, public critique loaded. One check before I hit send?"
+    back: "Reverse roles - would I want this said to me?"
+  - front: "Waiting for fair treatment before I act well toward someone. Who moves first?"
+    back: "I go first - treat as I'd want."
+  - front: "About to deliver hard truth with a harsh tone. How should I speak it?"
+    back: "As I'd want it spoken - in love."
+  - front: "Tempted to just avoid harm and skip doing good. What's the active move?"
+    back: "Do good - not only avoid harm."
+  - front: "Ethical fork, no rulebook handy. One experiential check before I act?"
+    back: "How would I want to be treated?"
+  - front: "Criticism is true but tone is cruel. Finger on send."
+    back: "Pause - reverse roles first."
+draft: false
+aliases: ["do unto others"]
+---
+**The Golden Rule** = treat others how you want to be treated - Jesus called this the Law and Prophets summed up (Matthew 7:12).
+
+It's positive and active: *do* unto others, not merely avoid doing harm. The check is experiential - how would I want to be spoken to, helped, forgiven, included? That sets the floor for every interaction. [[Free Grace]] keeps it from becoming a merit system: I treat others well because Christ treated me well first.
+
+Extends [[Free Grace]]. Contradicts [[Love Your Enemies]] when I only apply it to people who already treat me well.
+
+Extends [[Free Grace]]. Contradicts [[Love Your Enemies]].
+
+## See also
+
+- [[Love Your Neighbor]] - Commandments, Eternal Principles, Gospel
+- [[Forgiveness]] - Eternal Principles, Gospel, Sermon on the Mount
+- [[Reconciliation Before Worship]] - Eternal Principles, Gospel, Sermon on the Mount

@@ -13,12 +13,12 @@ status: evergreen
 draft: false
 aliases: []
 ---
-Notes rot without review. I calendar weekly and quarterly passes - inbox, projects, evergreens.
+Notes rot without review. I calendar weekly and quarterly passes - inbox, projects, evergreens. Faith parallel: [[Ask Seek Knock]] - same rhythm of showing up on schedule, not only when desperate.
 
 Extends [[Active Knowledge Curation]]. Contradicts [[Minimum Effective Dose]].
 
 ## See also
 
+- [[Ask Seek Knock]] - Eternal Principles, Gospel, Prayer
 - [[Associative Linking]] - Note Taking, PKM, Second Brain
-- [[Atomic Notes]] - Note Taking, PKM, Second Brain
 - [[Atomic Notes]] - Note Taking, PKM, Second Brain

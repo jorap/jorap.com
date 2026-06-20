@@ -27,6 +27,8 @@
     "import:obsidian": "python3 scripts/import-from-obsidian.py",
     "lint:notes": "node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo --gc 2>&1 | rg 'broken wikilink|unlinked mention' || true",
     "lint:cards": "python3 scripts/lint-flashcard-frontmatter.py",
+    "lint:voice": "python3 scripts/notes-voice-sanitize.py --check",
+    "lint:utility-links": "python3 scripts/lint-utility-wikilinks.py",
     "postinstall": "node scripts/fix-tailwind-bin.js"
   },
   "devDependencies": {

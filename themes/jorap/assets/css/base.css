@@ -45,6 +45,8 @@ h4,
 h5,
 h6 {
   @apply font-primary text-ink;
+  text-wrap: balance;
+  text-transform: capitalize;
 }
 
 /* Inter-only hierarchy: weight + tracking ladder so headings don’t collapse visually */

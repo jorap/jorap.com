@@ -16,6 +16,22 @@ CARD_ITEM_RE = re.compile(
 )
 QUOTED_RE = re.compile(r'^"(?:[^"\\]|\\.)*"$')
 
+# Front lists answer options instead of cue-only scenario.
+MC_COMMA_OR_RE = re.compile(r",\s*[^,\n]+,\s*or\s+", re.I)
+MC_FORK_OR_RE = re.compile(r"\bor\b[^.?!\n]*\?", re.I)
+MC_PICK_RE = re.compile(r"\b(pick one|choose between|one of)\b", re.I)
+
+
+def is_multiple_choice_front(front: str) -> bool:
+    """True when the front lists options to pick from rather than cue-only."""
+    if MC_PICK_RE.search(front):
+        return True
+    if MC_COMMA_OR_RE.search(front):
+        return True
+    if MC_FORK_OR_RE.search(front):
+        return True
+    return False
+
 
 def split_frontmatter(text: str) -> tuple[str, str]:
     if not text.startswith("---"):
@@ -81,6 +97,18 @@ def lint_file(path: Path) -> list[str]:
             errors.append(f"{rel}: card front must be double-quoted: {front[:60]}")
         if not is_quoted(back):
             errors.append(f"{rel}: card back must be double-quoted: {back[:60]}")
+        front_text = front[1:-1] if is_quoted(front) else front
+        back_text = back[1:-1] if is_quoted(back) else back
+        if len(front_text) <= len(back_text):
+            errors.append(
+                f"{rel}: card front must be longer than back "
+                f"(front={len(front_text)}, back={len(back_text)}): {front_text[:40]}…"
+            )
+        if is_multiple_choice_front(front_text):
+            errors.append(
+                f"{rel}: card front must be cue-only, not multiple choice "
+                f"(drop option lists like 'A or B?'): {front_text[:60]}…"
+            )
 
     if re.search(r"^cards:\s*\[", block, re.M):
         errors.append(f"{rel}: cards must use block list format, not inline [...]")

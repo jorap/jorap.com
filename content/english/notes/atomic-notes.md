@@ -13,18 +13,18 @@ status: evergreen
 review: true
 card_sets: ["Writing", "Linking"]
 cards:
-  - front: "Draft mixes browser tips AND meeting notes."
-    back: "Split. One claim per note."
-  - front: "Can I say the whole note in one breath without 'and'?"
-    back: "If no, split into atomic notes."
-  - front: "I wrote three ideas under one heading."
-    back: "Three wikilinks beats one long file."
-  - front: "Note reads like a mini blog post with sections."
-    back: "One citable claim. Trim or split."
-  - front: "How do I organize atomic notes?"
-    back: "Wikilinks between notes - not headings inside one file."
-  - front: "I can't link to one idea in a kitchen-sink note."
-    back: "Atomicity problem. Split so I can link."
+  - front: "Draft mixes browser tips AND meeting notes in one file. What's the move?"
+    back: "Split - one claim per note."
+  - front: "Can't say the whole note in one breath without using 'and'. What's wrong?"
+    back: "Split into atomic notes."
+  - front: "Three ideas under one heading in a single file. Still one note?"
+    back: "Split - three wikilinks."
+  - front: "Note reads like a mini blog post with multiple sections. What's the fix?"
+    back: "Split - one citable claim."
+  - front: "Tempted to organize with headings inside one file instead of links. What do I use?"
+    back: "Wikilinks between notes."
+  - front: "Can't link to one idea buried in a kitchen-sink note. What's the fix?"
+    back: "Split it - not atomic yet."
 featured: false
 draft: false
 ---
@@ -32,12 +32,12 @@ draft: false
 
 **Rule of thumb:** one thing I'd cite in conversation - "why middle-click saves tab chaos" is atomic; "browser tips and meeting notes" is not.
 
-Small notes stack like Lego blocks - claim, how-to, example - linked, not merged. Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing. If I need headings inside one file, I probably need two notes.
+Small notes stack like Lego blocks - claim, how-to, example - linked, not merged. Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing. If I need headings inside one file, I probably need two notes. Faith parallel: [[Let Your Yes Be Yes]] - say one plain thing; let your yes be yes.
 
 Extends [[PKM]]. Contradicts [[Maps of Content]].
 
 ## See also
 
+- [[Let Your Yes Be Yes]] - Eternal Principles, Gospel, Sermon on the Mount
 - [[Associative Linking]] - Atomic Notes, Linking, Note Taking
-- [[Digital Serendipity]] - Linking, Note Taking, PKM
 - [[Evergreen Notes]] - Note Taking, PKM, Second Brain

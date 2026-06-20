@@ -114,7 +114,7 @@ def tag_relatedness(tags_a: list[str], tags_b: list[str]) -> float:
 
 
 def existing_wikilinks(body: str) -> set[str]:
-    return {m.group(1).strip() for m in re.finditer(r"\[\[([^\]|]+)(?:\|[^\]]+)?\]\]", body)}
+    return {m.group(1).strip() for m in re.finditer(r"\[\[([^\]|#]+)(?:#[^\]|]+)?\]\]", body)}
 
 
 def protect_regions(body: str) -> tuple[str, list[tuple[str, str]]]:

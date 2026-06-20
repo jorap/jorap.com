@@ -13,27 +13,27 @@ status: evergreen
 review: true
 card_sets: ["Capture", "Focus"]
 cards:
-  - front: "Reading list grows but nothing ships."
-    back: "On every save I ask: what will I make with this?"
-  - front: "No planned creative output for a save."
-    back: "Don't save it."
-  - front: "Saving feels like learning."
-    back: "Learning starts when something leaves the notebook."
-  - front: "Fix for hoarded bookmarks?"
-    back: "Tie every save to an express deadline."
-  - front: "I finished the article and filed it."
-    back: "Not learning yet. Ship or rewrite before it counts."
-  - front: "Collector's save filter - one question?"
+  - front: "Reading list grows but nothing ships. One question before every save?"
+    back: "What will I make with this?"
+  - front: "No planned creative output tied to this save."
+    back: "Skip - don't save it."
+  - front: "Finished the article and filed it - feels like learning. Does it count yet?"
+    back: "Not yet - ship or rewrite first."
+  - front: "Hoarded bookmarks everywhere with no deadline. Tie every save to what?"
+    back: "An express deadline."
+  - front: "Saving articles feels like learning. When does learning actually start?"
+    back: "When something leaves the notebook."
+  - front: "Bookmark folder growing again - can only ask one question before save. Which?"
     back: "What will I make with this?"
 draft: false
 aliases: ["the collectors fallacy", "Collector's Fallacy"]
 ---
-Collecting articles feels like progress. It isn't. The collector's fallacy bit me until I tied saves to express deadlines.
+Collecting articles feels like progress. It isn't. The collector's fallacy bit me until I tied saves to express deadlines. [[Treasure in Heaven]] is the faith-side mirror: hoarding what rusts instead of what lasts.
 
 Extends [[Creative Output]]. Contradicts [[Capture]].
 
 ## See also
 
+- [[Treasure in Heaven]] - Eternal Principles, Gospel, Priorities
 - [[Mobile Capture Workflows]] - Capture, Note Taking, PKM
-- [[PKM]] - Learning, Note Taking, PKM
 - [[Building a Second Brain]] - Capture, Note Taking, PKM

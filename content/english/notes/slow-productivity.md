@@ -13,13 +13,13 @@ status: evergreen
 draft: false
 aliases: []
 ---
-**Slow Productivity** pushes back on busy-as-virtue. I run fewer active projects so notes become output, not backlog.
+**Slow Productivity** pushes back on busy-as-virtue. I run fewer active projects so notes become output, not backlog. Overlap with [[Don't Worry]]: less frantic throughput, more trust that depth beats volume.
 
 Extends [[Creative Output]]. Contradicts [[The 12 Week Year]].
 
 ## See also
 
+- [[Don't Worry]] - Eternal Principles, Gospel, Sermon on the Mount
 - [[Daily Notes]] - Focus, Note Taking, PKM
-- [[Active Knowledge Curation]] - Note Taking, PKM, Productivity
 - [[Analog Capture Tools]] - Note Taking, PKM, Productivity
 - [[Capture]] - Note Taking, PKM, Productivity

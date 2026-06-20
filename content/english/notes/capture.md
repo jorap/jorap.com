@@ -13,17 +13,17 @@ status: evergreen
 review: true
 card_sets: ["Capture", "Workflow"]
 cards:
-  - front: "Mid-commute spark. My first move?"
-    back: "One trusted inbox. Don't organize yet."
-  - front: "Before I save, I ask:"
-    back: "Would I act on it or cite it later? If no, skip."
-  - front: "Capture keeps dying on me. Likely cause?"
-    back: "Friction. Simplify to one pipe."
-  - front: "I want two inboxes for work and home."
-    back: "Merge them. Split pipes rot."
-  - front: "Friday review - where's raw capture until then?"
-    back: "Still in the inbox. Process on review day."
-  - front: "I'm tempted to tag and file on capture."
+  - front: "Mid-commute spark I might forget before I'm home."
+    back: "Drop in one inbox. Don't organize yet."
+  - front: "Thumb hovering over save on an interesting link I'm unsure about. One question before it hits the inbox?"
+    back: "Would I act on it or cite it later?"
+  - front: "Ideas keep dying before they reach the inbox - friction somewhere. First fix I try?"
+    back: "Simplify to one pipe."
+  - front: "Tempted to split work and home into two capture inboxes."
+    back: "Merge - one pipe."
+  - front: "Friday review and raw captures still sitting unprocessed. Leave them where until I process?"
+    back: "Still in the inbox."
+  - front: "Something lands and I want to tag and file immediately. Where do I actually stop?"
     back: "Stop at inbox. Organize later."
 draft: false
 aliases: ["CODE"]
