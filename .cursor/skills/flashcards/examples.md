@@ -54,6 +54,28 @@ Fronts must not list options. State the moment; the back holds the move.
 
 Open questions are fine when they don't list answers: `What's missing?`, `What comes first?`, `One filter question before I save?`
 
+## Subtle hint questions
+
+After the cue, add a **short open question** that nudges retrieval without giving the answer. The hint names the *shape* of the move - one check, one filter, first fix, what comes first - not the move itself.
+
+| Cue + subtle hint (front) | Apply (back) | Why the hint works |
+|-----------------------------|--------------|-------------------|
+| `Thumb on post button, public critique loaded. One check before I hit send?` | `Reverse roles - would I want this said to me?` | Hints "one check" - not which check |
+| `Interesting link, unsure it's worth saving. One filter question before it hits the inbox?` | `Would I act on it or cite it later?` | Hints "one filter question" - not the question |
+| `Tuesday 7am before work starts. What comes first?` | `Scripture or prayer before inbox.` | Hints order - cue already set the fork |
+| `Ideas keep dying before they reach the inbox. First fix I try?` | `Simplify to one pipe.` | Hints "first fix" - not which fix |
+| `Something lands and I want to tag and file immediately. Where do I actually stop?` | `Stop at inbox. Organize later.` | Hints a stop line - not where |
+
+| Telegraphy (bad) | Subtle hint (good) |
+|------------------|-------------------|
+| `Free grace says what?` | `Obedience feels like what qualifies me for heaven. What's the actual order?` |
+| `Matthew 7:12 - one active rule. What is it?` | `Thumb on post button about to criticize someone. One check before send?` |
+| `What is capture?` | `Mid-commute spark I might forget before I'm home.` |
+
+**Rule:** subtle hint = nudge the *kind* of recall. Telegraphy = name the *answer* so retrieval isn't needed.
+
+Pure cue-only fronts (no question tail) are still valid - use a hint question when the back is a specific check, filter, order, or boundary.
+
 ## Six-card mix - six different cues
 
 Same note, six moments life shows up differently:
@@ -105,8 +127,8 @@ Avoid:
 
 1. Front - abstract? Add time, place, count, or bodily urge.
 2. Back - explanatory? Rewrite as the next move.
-3. Telegraphy - title, verse key, concept name on front?
-4. **Multiple choice** - options listed on front (`A or B?`, `X, Y, or Z?`)? Drop the menu; cue only.
+3. Telegraphy - title, verse key, concept name on front? (Replace with subtle hint question if a nudge helps retrieval.)
+4. **Multiple choice** - options listed on front (`A or B?`, `X, Y, or Z?`)? Drop the menu; cue only or subtle hint question.
 5. **Voice (jorap-voice)** - read aloud. Textbook or AI slop? Add "I", a count, or a real fork JoRap would face.
 6. Run `npm run lint:cards`.
 

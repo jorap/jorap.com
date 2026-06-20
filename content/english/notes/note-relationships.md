@@ -13,17 +13,17 @@ status: evergreen
 review: true
 card_sets: ["Linking", "Writing"]
 cards:
-  - front: "New note builds on an older atomic claim - typing the link in the body now. Which label?"
+  - front: "New note builds on an older atomic claim - typing the connection in the body now. One relationship word?"
     back: "Extends."
-  - front: "Naming the tradeoff against a slower-work philosophy in this note. Which typed link?"
+  - front: "This note pushes against a slower-work philosophy I named in the body. One typed link for that tension?"
     back: "Contradicts."
-  - front: "Weekly checklist makes a review habit real in practice. Which link type?"
+  - front: "Weekly checklist makes a review habit real in my notes. Link type that says this note carries it out?"
     back: "Implements."
-  - front: "Hub page gathering twenty related notes into one index. Which relationship type?"
+  - front: "Hub page gathering twenty related notes under one roof. What relationship type is this page?"
     back: "Index (MOC)."
-  - front: "Atomic note ready to publish - minimum typed links before filing. How many extends and contradicts?"
+  - front: "Atomic note ready to publish - minimum typed links before filing?"
     back: "One extends, one contradicts."
-  - front: "Two tools solve the same job - picking one for this note. Which relationship type?"
+  - front: "Two tools solve the same job - picking one for this note. Link type for the other tool?"
     back: "Alternative."
 draft: false
 aliases: ["link types"]

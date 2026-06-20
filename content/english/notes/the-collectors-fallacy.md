@@ -15,7 +15,7 @@ card_sets: ["Capture", "Focus"]
 cards:
   - front: "Reading list grows but nothing ships. One question before every save?"
     back: "What will I make with this?"
-  - front: "No planned creative output tied to this save."
+  - front: "No planned creative output tied to this save. What's the move?"
     back: "Skip - don't save it."
   - front: "Finished the article and filed it - feels like learning. Does it count yet?"
     back: "Not yet - ship or rewrite first."

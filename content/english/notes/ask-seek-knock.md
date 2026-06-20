@@ -13,7 +13,7 @@ status: evergreen
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Prayer"]
 cards:
-  - front: "Email and inbox before any quiet time with God most mornings. How keep approaching the Father?"
+  - front: "Email and inbox before any quiet time with God most mornings. How do I keep approaching the Father?"
     back: "Ask, seek, knock - keep coming."
   - front: "Prayer feels like earning answers by performance. How am I approaching the Father?"
     back: "Child asking a parent."

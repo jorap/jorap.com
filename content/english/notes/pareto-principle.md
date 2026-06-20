@@ -22,9 +22,9 @@ cards:
     back: "Cut polish on the rest."
   - front: "Found the vital few tasks that matter. After that, what do I protect?"
     back: "That slice - stop polishing the rest."
-  - front: "Polishing the long tail while the vital few stall."
+  - front: "Polishing the long tail while the vital few stall. What do I protect first?"
     back: "Protect the vital few - cut tail polish."
-  - front: "Someone treats 80/20 as physical law. How do I correct them?"
+  - front: "Someone treats 80/20 as physical law. One correction I'd give?"
     back: "Shorthand ratio - not a law."
 draft: false
 ---

@@ -13,15 +13,15 @@ status: evergreen
 review: true
 card_sets: ["Workflow", "Organization"]
 cards:
-  - front: "New to CODE and overwhelmed - capture, organize, distill, express. Which step first?"
+  - front: "New to the workflow and overwhelmed - capture, organize, distill, express all at once. What comes first?"
     back: "Capture first - offload now."
-  - front: "Notes pile up but nothing publishes. Which step is failing - schedule what?"
+  - front: "Notes pile up but nothing publishes. Which step is failing - what do I schedule?"
     back: "Express - schedule ship."
-  - front: "Organize step uses projects, areas, resources, archive. Name the acronym?"
-    back: "PARA."
+  - front: "Reference PDF with no project owner - filing into projects, areas, resources, archive. Where does unclaimed stuff sit?"
+    back: "Resources - until claimed."
   - front: "Skipped capture and jumped straight to folders and tags. What order did I violate?"
     back: "Capture before organize."
-  - front: "Second brain filling with interesting links. Nothing publishing."
+  - front: "Second brain filling with interesting links. Nothing publishing. Which step am I skipping?"
     back: "Ship output - not hoard."
   - front: "Tempted to publish raw captures without distilling. What's the order?"
     back: "Distill first - then express."

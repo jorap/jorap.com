@@ -15,7 +15,7 @@ card_sets: ["Linking", "Writing"]
 cards:
   - front: "Just finished a new atomic note - filing it now. Minimum typed links before it's garden-ready?"
     back: "Add one extends, one contradicts."
-  - front: "Naming the tradeoff against slow productivity in the body. Which link type captures the push?"
+  - front: "Naming the tradeoff against slow productivity in the body. One typed link for that tension?"
     back: "Contradicts."
   - front: "Tempted to file by folder tree only and skip wikilinks. Folders sort - what thinks?"
     back: "Links think - add wikilinks."

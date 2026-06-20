@@ -58,6 +58,8 @@ Back = what you **do, say, or decide in the next breath**. Verb-first when possi
 
 Produce the back from memory before flipping. No telegraphy on the front - if you can answer without thinking, the cue won't stick to real life.
 
+**Subtle hint questions are OK.** After the cue, a short open question can nudge *what kind* of move to recall (`One check before send?`, `What comes first?`, `First fix I try?`) without naming the answer. The hint says "there's a retrieval target here" - it doesn't give the target away.
+
 ### 4. One move per card
 
 One cue → one apply. Multi-step backs split into separate cards or collapse to the **first** physical move.
@@ -95,7 +97,7 @@ Wiki = nuance. Cards = spine habits (~20%) you drill weekly so the chain is auto
 2. **Read jorap-voice** - load [jorap-voice](../jorap-voice/SKILL.md); skim 1-2 reference decks (`capture.md`, `free-grace.md`) for tone.
 3. **Confirm spine status** - weekly drill? (~12 PKM + gospel under [[Eternal Principles]]). Else skip `review: true`.
 4. **Mine real cues** - 6+ moments from actual life where this note should have fired but didn't. Not from the definition line.
-5. **Draft cue → apply pairs** - front = recognize; back = do/decide now (see [examples.md](examples.md)).
+5. **Draft cue → apply pairs** - front = recognize; back = do/decide now. Optional subtle hint question on the front (`One check?`, `What comes first?`) when the back is a specific check, filter, or order (see [examples.md](examples.md)).
 6. **De-AI pass (jorap-voice)** - read each front aloud. Would JoRap actually think this mid-commute, mid-argument, inbox at 40? Cut textbook phrasing, abstract nouns, and third-person setup. Backs stay short imperatives - no essays.
 7. **Real-life litmus** - for each card: *If this front happened tonight, would I know the back without opening the site?*
 8. **Pick `card_sets`**, validate with `npm run lint:cards` and `npm run lint:voice`.
@@ -130,16 +132,34 @@ draft: false
 | **Front longer than back** | Scenario on front; short apply back (lint: `len(front) > len(back)`) |
 | **Present-tense cues** | Mid-action, not textbook setup |
 | **Verb-first backs** | Do / decide / say - not define |
-| **Subtle hints only** | No answer telegraphy on the front |
+| **Subtle hint questions** | After the cue, optional open question that nudges retrieval - not telegraphy |
 | **Cue only - no multiple choice** | Front = the moment; never list options to pick from |
 | **Double-quoted strings** | Every `front`, `back`, set name |
 | **Block `cards`**, inline `card_sets` | |
+
+### Subtle hint questions
+
+Many strong fronts end with a **short open question** after the cue. The question is a *retrieval nudge* - it hints at the *shape* of the answer (one check, one filter, what comes first, where to stop) without giving the answer.
+
+| Hint type | Example tail | Back it retrieves |
+|-----------|--------------|-------------------|
+| **One move** | `One check before I hit send?` | The specific check |
+| **Order** | `What comes first?` | The first thing in sequence |
+| **Filter** | `One question before it hits the inbox?` | The filter question to ask |
+| **First fix** | `First fix I try?` | Step one when something breaks |
+| **Stop line** | `Where do I actually stop?` | The boundary in the workflow |
+
+**Good subtle hint:** names the *kind* of recall (`one question`, `first fix`, `what comes first`) while the cue carries the situation.
+
+**Bad telegraphy:** names the *answer domain* so you don't need retrieval - note title, concept name, verse-as-answer-key, fill-in-the-blank (`Free grace says what?`, `Matthew 7:12 - what is it?`).
+
+**Pure cue-only is also fine** - not every front needs a question tail. Use a hint question when the back is a specific check, filter, order, or stop line that's easier to retrieve when nudged.
 
 ### No answer telegraphy
 
 **Avoid on front:** note title, concept name, verse-as-answer-key, obvious fill-in-the-blank.
 
-**Use on front:** the exact fork you'd face - time, place, urge, guilt, inbox count - **without naming the choices**.
+**Use on front:** the exact fork you'd face - time, place, urge, guilt, inbox count - **without naming the choices or the answer**.
 
 ### No multiple choice
 
@@ -153,7 +173,7 @@ The front is **cue only**. State the moment; the back holds the move. Never list
 | `Fleeting spark in weekly review. Promote to evergreen or leave fleeting?` | `Fleeting spark keeps showing up in weekly review.` |
 | `Criticism is true but tone is cruel. Say it anyway or pause?` | `Criticism is true but tone is cruel. Finger on send.` |
 
-**Rewrite rule:** delete the `A, B, or C?` tail. If the front still needs a question, ask an open cue (`What's missing?`, `What comes first?`) - not a list of answers.
+**Rewrite rule:** delete the `A, B, or C?` tail. If the front still needs a question, use a **subtle hint question** (`One check before send?`, `What comes first?`, `First fix I try?`) - open, no listed options, no answer domain on the front.
 
 **Lint:** `npm run lint:cards` flags option lists and `… or …?` forks on fronts.
 
@@ -186,7 +206,7 @@ Each card:
 - [ ] Cue → apply chain works with note closed (real-life litmus)
 - [ ] Sounds like JoRap typed it - jorap-voice de-AI pass done (no textbook / AI slop)
 - [ ] Front is cue only - no multiple choice (`X, Y, or Z?`, `A or B?` on the front)
-- [ ] No telegraphy; front longer than back; one move on back
+- [ ] Subtle hint question OR pure cue-only - never telegraphy; front longer than back; one move on back
 - [ ] `npm run lint:cards` and `npm run lint:voice` pass
 
 Deck:

@@ -13,12 +13,12 @@ status: evergreen
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Ethics"]
 cards:
-  - front: "Someone slandered me online. Thumb hovering over reply."
+  - front: "Someone slandered me online. Thumb hovering over reply. First move before I type?"
     back: "Pray for them."
   - front: "Only loving people who love me back. What standard am I actually using?"
     back: "Higher - bless enemies too."
-  - front: "Enemy hurt me - tempted to agree just to keep peace. Pretend it didn't happen?"
-    back: "No - bless and pray; don't return evil."
+  - front: "Enemy hurt me - tempted to agree just to keep peace. What do I do instead of pretending?"
+    back: "Bless and pray - don't return evil."
   - front: "Returning evil for evil feels justified right now. What's the break-the-cycle move?"
     back: "Bless - don't return evil."
   - front: "Persecutors keep coming - tempted to retaliate. Practical handle besides not hitting back?"

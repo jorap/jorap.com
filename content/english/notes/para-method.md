@@ -13,17 +13,17 @@ status: evergreen
 review: true
 card_sets: ["Organization", "Workflow"]
 cards:
-  - front: "Active work with a deadline just landed in my notes. Which bucket - and if I don't name it?"
+  - front: "Active work with a deadline just landed in my notes. Owner and end date clear - where does it go?"
     back: "Projects - or it stays Resources."
-  - front: "Reference material with no owner yet. Which PARA bucket?"
+  - front: "Reference material with no owner yet. Where does unclaimed stuff sit?"
     back: "Resources - until claimed."
   - front: "Tempted to sort notes by topic tag instead of life responsibility. Sort by what?"
     back: "Who owns it and when it ends."
-  - front: "Project finished - files still in active work folder."
+  - front: "Project finished - files still in active work folder. Where do they move?"
     back: "Archive - out of Projects."
   - front: "Ongoing responsibility with no end date. Wrong bucket?"
     back: "Areas - not Projects."
-  - front: "Topic folder tree vs PARA. What am I actually naming?"
+  - front: "Topic folder tree feels tidy but misses how I actually work. What am I actually naming?"
     back: "Owner and deadline - not subject."
 draft: false
 aliases: ["PARA", "Organization", "The Archive Method", "Archive Method", "The Archive"]

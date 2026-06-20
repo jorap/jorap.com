@@ -13,15 +13,15 @@ status: evergreen
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Comfortable faith - avoiding the hard obedience I heard preached."
+  - front: "Comfortable faith - avoiding the hard obedience I heard preached. What's the daily move?"
     back: "Count cost - deny self, follow daily."
   - front: "Cross-bearing to feel saved - what's the wrong order in my head?"
     back: "Shape discipleship - grace already saved."
-  - front: "One big surrender last year, same sin pattern today."
+  - front: "One big surrender last year, same sin pattern today. What frequency am I missing?"
     back: "Daily - pick up cross again today."
-  - front: "Clutching comfort when obedience will cost me something today."
+  - front: "Clutching comfort when obedience will cost me something today. What do I lose?"
     back: "Lose it for his sake - follow behind."
-  - front: "Choosing scroll over the costly obedience I know is next."
+  - front: "Choosing scroll over the costly obedience I know is next. What's the fork?"
     back: "Deny self - follow him today."
   - front: "Heard the hard teaching, unchanged how I treat people. What's missing?"
     back: "Do what he said - act today."

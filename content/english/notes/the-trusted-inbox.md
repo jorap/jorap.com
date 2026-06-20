@@ -19,11 +19,11 @@ cards:
     back: "Empty the Trusted Inbox first."
   - front: "Items rotting without weekly processing. What kills trust faster?"
     back: "Rot kills trust - empty weekly."
-  - front: "Mid-day an inbox item screams for a project folder."
-    back: "Wait - break flow if I file now."
-  - front: "Two inboxes for work and home."
+  - front: "Mid-day an inbox item screams for a project folder. Where do I leave it?"
+    back: "Inbox - break flow if I file now."
+  - front: "Two inboxes for work and home. One move?"
     back: "Merge - one pipe."
-  - front: "I tag and label but the inbox never empties. Trusted?"
+  - front: "I tag and label but the inbox never empties. Still trusted?"
     back: "No - empty means delete or file out."
 draft: false
 aliases: ["Trusted Inbox"]

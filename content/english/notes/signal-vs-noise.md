@@ -13,7 +13,7 @@ status: evergreen
 review: true
 card_sets: ["Focus", "Capture"]
 cards:
-  - front: "Interesting article but it won't change what I do this month. Thumb on save."
+  - front: "Interesting article but it won't change what I do this month. Thumb on save. What's the move?"
     back: "Admire and move on - don't save."
   - front: "Thumb on save - one filter question before I commit?"
     back: "Change action or belief this month?"
@@ -21,7 +21,7 @@ cards:
     back: "Collector's Fallacy - skip the save."
   - front: "Trending thread everyone bookmarks. Noise unless it changes what this month?"
     back: "Skip - noise this month."
-  - front: "Good content, wrong month, no action hook."
+  - front: "Good content, wrong month, no action hook. What's the move?"
     back: "Skip the save."
   - front: "Capture filter needs a time window on action or belief. How tight?"
     back: "This month - not someday."

@@ -19,7 +19,7 @@ cards:
     back: "Would I act on it or cite it later?"
   - front: "Ideas keep dying before they reach the inbox - friction somewhere. First fix I try?"
     back: "Simplify to one pipe."
-  - front: "Tempted to split work and home into two capture inboxes."
+  - front: "Tempted to split work and home into two capture inboxes. One move?"
     back: "Merge - one pipe."
   - front: "Friday review and raw captures still sitting unprocessed. Leave them where until I process?"
     back: "Still in the inbox."

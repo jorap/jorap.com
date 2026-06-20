@@ -23,7 +23,7 @@ cards:
     back: "Do good - not only avoid harm."
   - front: "Ethical fork, no rulebook handy. One experiential check before I act?"
     back: "How would I want to be treated?"
-  - front: "Criticism is true but tone is cruel. Finger on send."
+  - front: "Criticism is true but tone is cruel. Finger on send. One check first?"
     back: "Pause - reverse roles first."
 draft: false
 aliases: ["do unto others"]

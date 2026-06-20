@@ -19,7 +19,7 @@ cards:
     back: "Obedience under stress - not just hearing."
   - front: "Can quote the hard commands on money and enemies but skip them. What's showing?"
     back: "Obey the hard commands - today."
-  - front: "Bible study Monday, same gossip Tuesday. Which builder am I being?"
+  - front: "Bible study Monday, same gossip Tuesday. One move that matches hearing?"
     back: "Do what he said - match hearing."
   - front: "Faith saved me but hearing feels empty. What proves genuine hearing?"
     back: "Act - obey one command."

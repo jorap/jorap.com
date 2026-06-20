@@ -14,15 +14,15 @@ status: evergreen
 review: true
 card_sets: ["Writing", "Review"]
 cards:
-  - front: "Fleeting spark keeps showing up in weekly review."
+  - front: "Fleeting spark keeps showing up in weekly review. What's the move?"
     back: "Promote - if two-year bar passes."
-  - front: "Tool I rely on changed how I work - trending spike on Twitter. Revise note on every spike?"
+  - front: "Tool I rely on changed how I work - trending spike on Twitter. One check before I rewrite the note?"
     back: "Revise when still true - ignore hype."
-  - front: "Sentences might not hold in two years. Still publishable?"
+  - front: "Sentences might not hold in two years. Still publishable as-is?"
     back: "Keep fleeting - or rewrite first."
-  - front: "I'd cite this in conversation later this year."
+  - front: "I'd cite this in conversation later this year. What bucket does it belong in?"
     back: "Evergreen if cite-later; else fleeting."
-  - front: "Trendy take I might regret next year."
+  - front: "Trendy take I might regret next year. What's the move?"
     back: "Wait - keep fleeting."
   - front: "Evergreen note has bold layers but no claim I'd quote. What's missing?"
     back: "Distill - need one citable claim."

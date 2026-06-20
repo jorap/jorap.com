@@ -13,7 +13,7 @@ status: evergreen
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Faith"]
 cards:
-  - front: "Delaying faith until my habits improve."
+  - front: "Delaying faith until my habits improve. When do I enter?"
     back: "Today - by faith, not when fixed."
   - front: "Someone groveling until they feel good enough for God. One sentence I'd say?"
     back: "Turn from self-trust - not merit."
@@ -23,7 +23,7 @@ cards:
     back: "Repent/believe receives. Obedience guides after."
   - front: "Same sin again - despair that heaven is lost. What does turning again mean?"
     back: "Restore fellowship - not re-earn heaven."
-  - front: "Waiting until I'm worthy to enter."
+  - front: "Waiting until I'm worthy to enter. What's the entry point?"
     back: "Enter by faith today."
 draft: false
 aliases: ["repentance", "believe the gospel"]
