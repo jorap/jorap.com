@@ -59,7 +59,7 @@ What this site gives you:
 
 ## Utility surfaces (don't wikilink)
 
-These six pages are **meta tools** (`note_kind: meta`), not garden ideas: [Graph](/notes/graph/), [Issues](/notes/issues/), [Flashcards](/notes/cards/), [Review](/notes/review/), [Random Duo](/notes/random-duo/), [Random Trio](/notes/random-trio/). They are excluded from the graph node set, random pickers, and flashcard sources. **Don't `[[wikilink]]` to them** from content notes - link by URL when pointing readers at a tool. `npm run lint:utility-links` catches violations.
+These six pages are **meta tools** (`note_kind: meta`), not garden ideas: [Graph](/notes/graph/), [Issues](/notes/issues/), [Flashcards](/notes/flashcards/), [Review](/notes/review/), [Random Duo](/notes/random-duo/), [Random Trio](/notes/random-trio/). They are excluded from the graph node set, random pickers, and flashcard sources. **Don't `[[wikilink]]` to them** from content notes - link by URL when pointing readers at a tool. `npm run lint:utility-links` catches violations.
 
 ## Explore
 

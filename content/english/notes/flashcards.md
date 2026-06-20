@@ -2,7 +2,7 @@
 title: "Flashcards"
 meta_title: "Notes Flashcards"
 description: "Flip cards from opt-in notes - habit prompts, not trivia. Export the same deck to Anki."
-slug: "cards"
+slug: "flashcards"
 layout: "cards"
 note_kind: "meta"
 date: 2026-06-18T08:00:00Z
@@ -12,11 +12,13 @@ author: "JoRap"
 tags: ["Notes", "Meta", "Anki", "Learning"]
 featured: false
 draft: false
+aliases:
+  - /notes/cards/
 ---
 
 **Flashcards** = drill lane beside the wiki - opt in per note, export to Anki when I want SRS on my phone.
 
-This page is a **utility surface** (`note_kind: meta`) - not a garden note. Evergreen notes should not `[[wikilink]]` here; point readers to [/notes/cards/](/notes/cards/) or [/notes/review/](/notes/review/) by URL instead.
+This page is a **utility surface** (`note_kind: meta`) - not a garden note. Evergreen notes should not `[[wikilink]]` here; point readers to [/notes/flashcards/](/notes/flashcards/) or [/notes/review/](/notes/review/) by URL instead.
 
 Twelve-plus habit and gospel spine notes (~20% of the garden) use `review: true` ([[Pareto Principle]] applied). Each carries six scenario cards in frontmatter and a `card_sets:` list so Review can filter by group (Capture, Linking, Review, **Eternal Principles**, etc.). Gospel spine notes also tag a section set - **Faith**, **Commandments**, **Ethics**, **Prayer**, **Priorities**, **Discipleship** - matching [[Eternal Principles]] sections. Cards ask what I'd *do* when capture, review, linking, or discipleship breaks down - not what a term *means*. **Cue → apply:** front = life's moment I'd recognize; back = principle compressed into the next move (do, decide, or say in one breath). **Cue only - no multiple choice:** state the moment on the front; never list options (`X, Y, or Z?`, `A or B?`) to pick from. **Front longer than back:** the prompt carries the scenario; the answer stays short. **No answer telegraphy:** don't name the note title, quote the verse, or fill in the blank on the front - give a subtle situational trigger instead. **Quiz yourself** at [/notes/review/](/notes/review/).
 

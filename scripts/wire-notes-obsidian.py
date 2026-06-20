@@ -71,7 +71,6 @@ def suggested_aliases(title: str, slug: str, existing: list[str]) -> list[str]:
         "The Second Brain Workflow": ["Second Brain Workflow"],
         "Second Brain Daily Workflow": ["Daily Workflow"],
         "Spaced Repetition Systems (SRS)": ["SRS"],
-        "Graph View Analytics": ["Graph View"],
         "Evergreen vs Fleeting Notes": ["Evergreen vs Fleeting"],
         "Local-first Software": ["Local First"],
         "Note-Taking for Researchers": ["Research Notes"],

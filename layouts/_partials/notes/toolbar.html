@@ -19,7 +19,7 @@
       {{- if eq $active "graph" -}}
         aria-current="page"
       {{- end -}}>
-      Graph<span class="hidden xl:inline"> view</span>
+      Graph
     </a>
   {{- end -}}
   <a
@@ -32,9 +32,9 @@
   </a>
   {{- if site.Params.notes.enable_cards -}}
     <a
-      class="btn btn-sm{{ if eq $active "cards" }} btn-primary{{ else }} btn-outline-primary{{ end }}"
-      href="{{ `/notes/cards/` | relLangURL }}"
-      {{- if eq $active "cards" -}}
+      class="btn btn-sm{{ if eq $active "flashcards" }} btn-primary{{ else }} btn-outline-primary{{ end }}"
+      href="{{ `/notes/flashcards/` | relLangURL }}"
+      {{- if eq $active "flashcards" -}}
         aria-current="page"
       {{- end -}}>
       <span class="xl:hidden">Cards</span><span class="hidden xl:inline">Flashcards</span>

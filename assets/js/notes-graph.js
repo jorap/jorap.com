@@ -1,770 +1,1035 @@
 /**
- * Obsidian Publish-style force-directed note graph (no dependencies).
+ * Obsidian Publish-style force-directed note graph (PixiJS WebGL renderer).
  */
-(function () {
+import "pixi.js";
+import { Application, Color, Container, Graphics, Text } from "pixi.js";
+
+async function bootGraphs() {
   var panels = document.querySelectorAll("[data-notes-graph]");
   if (!panels.length) return;
 
-  panels.forEach(function (panel) {
-    initGraph(panel);
+  for (var i = 0; i < panels.length; i++) {
+    await initGraph(panels[i]);
+  }
+}
+
+async function initGraph(panel) {
+  var dataEl = panel.querySelector(".notes-graph-data");
+  var container = panel.querySelector(".graph-view") || panel.querySelector(".notes-graph");
+  var graphShell = panel.querySelector(".graph-view-container");
+  var emptyEl =
+    panel.closest(".container, .row, section, article")?.querySelector(".notes-graph-empty") ||
+    document.querySelector(".notes-graph-empty");
+  var searchEl = panel.querySelector(".notes-graph-search");
+  var resetEl = panel.querySelector(".notes-graph-reset");
+  var expandEls = panel.querySelectorAll(".graph-expand, .notes-graph-expand");
+  var zoomInEl = panel.querySelector(".notes-graph-zoom-in");
+  var zoomOutEl = panel.querySelector(".notes-graph-zoom-out");
+  var filterEls = panel.querySelectorAll("[data-graph-filter]");
+  if (!dataEl || !container) return;
+
+  var data;
+  try {
+    data = JSON.parse(dataEl.textContent);
+  } catch (e) {
+    return;
+  }
+
+  if (!data.nodes || !data.nodes.length) {
+    if (emptyEl) emptyEl.classList.remove("hidden");
+    return;
+  }
+
+  var prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var isLocalGraph = data.mode === "local";
+  var focusId = isLocalGraph ? data.focus || null : null;
+
+  var nodes = data.nodes.map(function (n) {
+    return {
+      id: n.id,
+      title: n.title,
+      url: n.url,
+      x: 0,
+      y: 0,
+      vx: 0,
+      vy: 0,
+        degree: 0,
+      inDegree: n.inDegree || 0,
+      outDegree: n.outDegree || 0,
+      orphan: Boolean(n.orphan),
+      hub: Boolean(n.hub),
+      deadEnd: Boolean(n.deadEnd),
+      weak: Boolean(n.weak),
+      label: null,
+    };
   });
 
-  function initGraph(panel) {
-    var dataEl = panel.querySelector(".notes-graph-data");
-    var container = panel.querySelector(".notes-graph");
-    var emptyEl = panel.closest(".container, .row, section, article")?.querySelector(".notes-graph-empty") ||
-      document.querySelector(".notes-graph-empty");
-    var searchEl = panel.querySelector(".notes-graph-search");
-    var resetEl = panel.querySelector(".notes-graph-reset");
-    var expandEl = panel.querySelector(".notes-graph-expand");
-    var zoomInEl = panel.querySelector(".notes-graph-zoom-in");
-    var zoomOutEl = panel.querySelector(".notes-graph-zoom-out");
-    var filterEls = panel.querySelectorAll("[data-graph-filter]");
-    if (!dataEl || !container) return;
+  var nodeById = {};
+  nodes.forEach(function (n) {
+    nodeById[n.id] = n;
+  });
 
-    var data;
-    try {
-      data = JSON.parse(dataEl.textContent);
-    } catch (e) {
-      return;
-    }
+  var focusNode = focusId ? nodeById[focusId] : null;
 
-    if (!data.nodes || !data.nodes.length) {
-      if (emptyEl) emptyEl.classList.remove("hidden");
-      return;
-    }
+  var edgeKeys = {};
+  var edges = (data.edges || [])
+    .map(function (e) {
+      var source = nodeById[e.source];
+      var target = nodeById[e.target];
+      if (!source || !target || source === target) return null;
+      var key = source.id < target.id ? source.id + "\0" + target.id : target.id + "\0" + source.id;
+      if (edgeKeys[key]) return null;
+      edgeKeys[key] = true;
+      return { source: source, target: target };
+    })
+    .filter(Boolean);
 
-    var prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    var focusId = data.focus || null;
+  edges.forEach(function (e) {
+    e.source.degree += 1;
+    e.target.degree += 1;
+  });
 
-    var canvas = document.createElement("canvas");
-    canvas.className = "notes-graph__canvas";
-    canvas.setAttribute("aria-hidden", "true");
-    container.appendChild(canvas);
-    var ctx = canvas.getContext("2d");
-    if (!ctx) return;
+  var width = 0;
+  var height = 0;
+  var transform = { x: 0, y: 0, k: 1 };
+  var defaultTransform = { x: 0, y: 0, k: 1 };
+  var hovered = focusNode || null;
+  var searchQuery = "";
+  var graphFilter = "all";
+  var draggingNode = null;
+  var dragMoved = false;
+  var dragStart = null;
+  var panning = false;
+  var panStart = null;
+  var simAlpha = prefersReducedMotion ? 0 : 1;
+  var savedSimAlpha = simAlpha;
+  var isPresentMode = false;
+  var presentIntroRaf = 0;
+  var frame = 0;
+  var needsFrame = true;
+  var rafId = 0;
+  var lastWidth = 0;
+  var lastHeight = 0;
+  var fullscreenRoot = graphShell || panel;
+  var presentHintEl = null;
 
-    var nodes = data.nodes.map(function (n) {
+  function resolveToken(token, fallback) {
+    var probe = document.createElement("span");
+    probe.style.display = "none";
+    probe.style.color = fallback;
+    document.body.appendChild(probe);
+    probe.style.color = "var(" + token + ")";
+    var resolved = window.getComputedStyle(probe).color;
+    document.body.removeChild(probe);
+    return resolved || fallback;
+  }
+
+  function pixiColor(value) {
+    return Color.shared.setValue(value).toNumber();
+  }
+
+  function readColors() {
+    return {
+      edge: pixiColor(resolveToken("--color-ink-faint", "#6b6762")),
+      edgeActive: pixiColor(resolveToken("--color-ink-muted", "#6b6762")),
+      node: pixiColor(resolveToken("--color-ink-faint", "#6b6762")),
+      nodeActive: pixiColor(resolveToken("--color-accent", "#181614")),
+      nodeHover: pixiColor(resolveToken("--color-ink", "#161412")),
+      nodeFocus: pixiColor(resolveToken("--color-accent", "#181614")),
+      nodeOrphan: pixiColor(resolveToken("--color-warning", "#b45309")),
+      nodeHub: pixiColor(resolveToken("--color-accent", "#181614")),
+      nodeWeak: pixiColor(resolveToken("--graph-weak", "#c27803")),
+      nodeDeadEnd: pixiColor(resolveToken("--color-ink-muted", "#6b6762")),
+      surface: pixiColor(resolveToken("--color-surface", "#f5f3f0")),
+      label: pixiColor(resolveToken("--color-ink", "#161412")),
+      labelDim: pixiColor(resolveToken("--color-ink-muted", "#3d3a37")),
+      labelStroke: pixiColor(resolveToken("--color-surface", "#f5f3f0")),
+    };
+  }
+
+  var colors = readColors();
+
+  function containerSize() {
+    if (isPresentMode) {
+      var presentRect = container.getBoundingClientRect();
+      var presentW = presentRect.width || container.clientWidth || window.innerWidth;
+      var presentH = presentRect.height || container.clientHeight || window.innerHeight;
       return {
-        id: n.id,
-        title: n.title,
-        url: n.url,
-        x: 0,
-        y: 0,
-        vx: 0,
-        vy: 0,
-        degree: n.totalDegree || 0,
-        inDegree: n.inDegree || 0,
-        outDegree: n.outDegree || 0,
-        orphan: Boolean(n.orphan),
-        hub: Boolean(n.hub),
-        deadEnd: Boolean(n.deadEnd),
-        weak: Boolean(n.weak),
-      };
-    });
-
-    var nodeById = {};
-    nodes.forEach(function (n) {
-      nodeById[n.id] = n;
-    });
-
-    var focusNode = focusId ? nodeById[focusId] : null;
-
-    var edgeKeys = {};
-    var edges = (data.edges || [])
-      .map(function (e) {
-        var source = nodeById[e.source];
-        var target = nodeById[e.target];
-        if (!source || !target || source === target) return null;
-        var key = source.id < target.id ? source.id + "\0" + target.id : target.id + "\0" + source.id;
-        if (edgeKeys[key]) return null;
-        edgeKeys[key] = true;
-        return { source: source, target: target };
-      })
-      .filter(Boolean);
-
-    edges.forEach(function (e) {
-      e.source.degree += 1;
-      e.target.degree += 1;
-    });
-
-    var width = 0;
-    var height = 0;
-    var transform = { x: 0, y: 0, k: 1 };
-    var defaultTransform = { x: 0, y: 0, k: 1 };
-    var hovered = focusNode || null;
-    var searchQuery = "";
-    var graphFilter = "all";
-    var draggingNode = null;
-    var dragMoved = false;
-    var dragStart = null;
-    var panning = false;
-    var panStart = null;
-    var simAlpha = prefersReducedMotion ? 0 : 1;
-    var frame = 0;
-    var needsFrame = true;
-    var rafId = 0;
-    var lastWidth = 0;
-    var lastHeight = 0;
-
-    function resolveToken(token, fallback) {
-      var probe = document.createElement("span");
-      probe.style.display = "none";
-      probe.style.color = fallback;
-      document.body.appendChild(probe);
-      probe.style.color = "var(" + token + ")";
-      var resolved = window.getComputedStyle(probe).color;
-      document.body.removeChild(probe);
-      ctx.fillStyle = fallback;
-      try {
-        ctx.fillStyle = resolved;
-      } catch (e) {
-        return fallback;
-      }
-      return ctx.fillStyle || fallback;
-    }
-
-    function readColors() {
-      return {
-        edge: resolveToken("--color-ink-faint", "#6b6762"),
-        edgeActive: resolveToken("--color-ink-muted", "#6b6762"),
-        node: resolveToken("--color-ink-faint", "#6b6762"),
-        nodeActive: resolveToken("--color-accent", "#181614"),
-        nodeHover: resolveToken("--color-ink", "#161412"),
-        nodeFocus: resolveToken("--color-accent", "#181614"),
-        nodeOrphan: resolveToken("--color-warning", "#b45309"),
-        nodeHub: resolveToken("--color-accent", "#181614"),
-        nodeWeak: resolveToken("--graph-weak", "#c27803"),
-        nodeDeadEnd: resolveToken("--color-ink-muted", "#6b6762"),
-        surface: resolveToken("--color-surface", "#f5f3f0"),
-        label: resolveToken("--color-ink", "#161412"),
+        width: Math.max(presentW, 1),
+        height: Math.max(presentH, 1),
       };
     }
 
-    var colors = readColors();
+    var rect = container.getBoundingClientRect();
+    var w = rect.width || container.clientWidth || 0;
+    var h = rect.height || container.clientHeight || 0;
+    if (!Number.isFinite(h) || h < 8) {
+      h = container.classList.contains("is-expanded")
+        ? Math.min(window.innerHeight * 0.78, 768)
+        : panel.classList.contains("notes-graph-panel--local")
+          ? 250
+          : 280;
+    }
+    if (!Number.isFinite(w) || w < 8) {
+      w = 320;
+    }
+    return { width: Math.max(w, 1), height: Math.max(h, 1) };
+  }
 
-    function labelFontSize() {
-      return Math.max(9, 11 / transform.k);
+  function syncSizeVars() {
+    var next = containerSize();
+    width = next.width;
+    height = next.height;
+    return next;
+  }
+
+  var size = syncSizeVars();
+  lastWidth = width;
+  lastHeight = height;
+
+  var app = new Application();
+  try {
+    await app.init({
+      width: Math.max(width, 1),
+      height: Math.max(height, 1),
+      backgroundAlpha: 0,
+      antialias: true,
+      resolution: window.devicePixelRatio || 1,
+      autoDensity: true,
+      autoStart: false,
+      preference: "webgl",
+    });
+  } catch (e) {
+    console.error("[notes-graph] Pixi init failed:", e);
+    return;
+  }
+
+  container.appendChild(app.canvas);
+  app.canvas.className = "notes-graph__canvas";
+  app.canvas.setAttribute("aria-hidden", "true");
+
+  var canvas = app.canvas;
+  var world = new Container();
+  var edgesGfx = new Graphics();
+  var nodesGfx = new Graphics();
+  var labelsLayer = new Container();
+  var labelResolution = Math.max(2, window.devicePixelRatio || 1);
+
+  app.stage.addChild(world);
+  app.stage.addChild(labelsLayer);
+  world.addChild(edgesGfx, nodesGfx);
+
+  nodes.forEach(function (n) {
+    var text = new Text({
+      text: n.title,
+      resolution: labelResolution,
+      style: {
+        fontFamily: "Inter, system-ui, sans-serif",
+        fontSize: 12,
+        fontWeight: "500",
+        fill: colors.label,
+        align: "center",
+        stroke: { color: colors.labelStroke, width: 4, join: "round" },
+      },
+    });
+    text.anchor.set(0.5, 0);
+    text.roundPixels = true;
+    labelsLayer.addChild(text);
+    n.label = text;
+  });
+
+  function labelScreenSize(isFocus) {
+    return isFocus ? 13 : 12;
+  }
+
+  function labelWorldHeight() {
+    return 18 / Math.max(transform.k, 0.18);
+  }
+
+  function labelTextColor(isFocus, isHover, dimmed) {
+    if (dimmed) return colors.labelDim;
+    if (isFocus || isHover) return colors.label;
+    return colors.label;
+  }
+
+  function labelTextAlpha(isFocus, isHover, dimmed, inHighlight, highlight) {
+    if (dimmed) return 0.4;
+    if (isFocus || isHover) return 1;
+    if (inHighlight && highlight) return 0.98;
+    return 0.96;
+  }
+
+  function labelOffset(node) {
+    return nodeRadius(node) + 4;
+  }
+
+  function nodeRadius(node) {
+    var links = node.degree || 0;
+    var base = 1.5 + Math.sqrt(links) * 1.05;
+    var r = Math.min(14, Math.max(1.5, base));
+    return focusNode && node === focusNode ? Math.max(r, 3.5) : r;
+  }
+
+  function syncCanvasSize() {
+    var next = syncSizeVars();
+    var sizeChanged = next.width !== lastWidth || next.height !== lastHeight;
+    lastWidth = width;
+    lastHeight = height;
+    app.renderer.resize(width, height);
+    needsFrame = true;
+    return sizeChanged;
+  }
+
+  function relayoutGraph() {
+    initPositions();
+    settleLayout();
+    needsFrame = true;
+  }
+
+  function hashSeed(str) {
+    var h = 2166136261;
+    for (var i = 0; i < str.length; i++) {
+      h ^= str.charCodeAt(i);
+      h = Math.imul(h, 16777619);
+    }
+    return (h >>> 0) / 4294967296;
+  }
+
+  function settleLayout() {
+    simAlpha = 1;
+    var iterations = prefersReducedMotion ? 400 : 240;
+    for (var i = 0; i < iterations; i++) {
+      simulate(true);
+    }
+    simAlpha = prefersReducedMotion ? 0 : 0.22;
+  }
+
+  function settlePresentLayout() {
+    simAlpha = 1;
+    var iterations = prefersReducedMotion ? 360 : 520;
+    for (var i = 0; i < iterations; i++) {
+      simulate(true);
+    }
+    simAlpha = 0;
+  }
+
+  function animatePresentIntro() {
+    if (prefersReducedMotion) {
+      transform.x = defaultTransform.x;
+      transform.y = defaultTransform.y;
+      transform.k = defaultTransform.k;
+      return;
     }
 
-    function labelOffset(node) {
-      return nodeRadius(node) + 4;
-    }
+    var from = {
+      k: defaultTransform.k * 0.76,
+      x: defaultTransform.x + width * 0.03,
+      y: defaultTransform.y + height * 0.03,
+    };
+    transform.x = from.x;
+    transform.y = from.y;
+    transform.k = from.k;
 
-    function nodeRadius(node) {
-      var base = Math.min(7, 2.5 + Math.sqrt(node.degree || 0) * 0.9);
-      return focusNode && node === focusNode ? Math.max(base, 5.5) : base;
-    }
+    var t0 = performance.now();
+    var duration = 850;
 
-    function containerSize() {
-      var rect = container.getBoundingClientRect();
-      var w = rect.width || container.clientWidth;
-      var h = rect.height || container.clientHeight;
-      if (h < 8) {
-        h = container.classList.contains("is-expanded") ? Math.min(window.innerHeight * 0.78, 768) : 280;
-      }
-      if (w < 8) {
-        w = rect.width || 320;
-      }
-      return { width: Math.max(w, 1), height: Math.max(h, 1) };
-    }
-
-    function resize() {
-      var size = containerSize();
-      var dpr = window.devicePixelRatio || 1;
-      var sizeChanged = size.width !== lastWidth || size.height !== lastHeight;
-      width = size.width;
-      height = size.height;
-      lastWidth = width;
-      lastHeight = height;
-      canvas.width = Math.max(1, Math.floor(width * dpr));
-      canvas.height = Math.max(1, Math.floor(height * dpr));
-      canvas.style.width = width + "px";
-      canvas.style.height = height + "px";
-      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      if (!frame || sizeChanged) {
-        initPositions();
-      }
-      needsFrame = true;
-    }
-
-    function prelayout() {
-      if (prefersReducedMotion) return;
-      simAlpha = 1;
-      for (var i = 0; i < 200; i++) {
-        simulate();
-      }
-      simAlpha = focusNode ? 0.15 : 0.2;
-    }
-
-    function initPositions() {
-      var cx = width / 2;
-      var cy = height / 2;
-      var radius = Math.min(width, height) * (focusNode ? 0.32 : 0.34);
-
-      if (focusNode) {
-        focusNode.x = cx;
-        focusNode.y = cy;
-        focusNode.vx = 0;
-        focusNode.vy = 0;
-        var others = nodes.filter(function (n) {
-          return n !== focusNode;
-        });
-        others.forEach(function (n, i) {
-          var angle = (i / Math.max(others.length, 1)) * Math.PI * 2 - Math.PI / 2;
-          n.x = cx + Math.cos(angle) * radius;
-          n.y = cy + Math.sin(angle) * radius;
-          n.vx = 0;
-          n.vy = 0;
-        });
+    function step(now) {
+      if (!isPresentMode) {
+        presentIntroRaf = 0;
         return;
       }
-
-      nodes.forEach(function (n, i) {
-        var angle = (i / nodes.length) * Math.PI * 2;
-        n.x = cx + Math.cos(angle) * radius;
-        n.y = cy + Math.sin(angle) * radius;
-        n.vx = 0;
-        n.vy = 0;
-      });
-    }
-
-    function screenToWorld(x, y) {
-      return {
-        x: (x - transform.x) / transform.k,
-        y: (y - transform.y) / transform.k,
-      };
-    }
-
-    function worldToScreen(x, y) {
-      return {
-        x: x * transform.k + transform.x,
-        y: y * transform.k + transform.y,
-      };
-    }
-
-    function viewNodes() {
-      var visible;
-      if (typeFilterActive() || !focusNode) {
-        visible = nodes;
+      var t = Math.min(1, (now - t0) / duration);
+      var ease = 1 - Math.pow(1 - t, 3);
+      transform.k = from.k + (defaultTransform.k - from.k) * ease;
+      transform.x = from.x + (defaultTransform.x - from.x) * ease;
+      transform.y = from.y + (defaultTransform.y - from.y) * ease;
+      draw();
+      if (t < 1) {
+        presentIntroRaf = window.requestAnimationFrame(step);
       } else {
-        var set = neighborsOf(focusNode);
-        visible = nodes.filter(function (n) {
-          return set[n.id];
-        });
+        presentIntroRaf = 0;
+        transform.x = defaultTransform.x;
+        transform.y = defaultTransform.y;
+        transform.k = defaultTransform.k;
+        draw();
       }
-      if (graphFilter === "all") return visible;
-      return visible.filter(passesFilter);
     }
 
-    function fitToView() {
-      var visible = viewNodes();
-      if (!visible.length || !width || !height) return;
+    presentIntroRaf = window.requestAnimationFrame(step);
+  }
 
-      var minX = Infinity;
-      var minY = Infinity;
-      var maxX = -Infinity;
-      var maxY = -Infinity;
-      visible.forEach(function (n) {
-        var r = nodeRadius(n) + 10;
-        var labelH = labelFontSize() + 6;
-        minX = Math.min(minX, n.x - r);
-        minY = Math.min(minY, n.y - r);
-        maxX = Math.max(maxX, n.x + r);
-        maxY = Math.max(maxY, n.y + r + labelH);
+  function updatePresentUi() {
+    expandEls.forEach(function (el) {
+      el.setAttribute("aria-pressed", isPresentMode ? "true" : "false");
+      el.title = isPresentMode ? "Exit present mode" : "Present graph";
+      el.setAttribute("aria-label", el.title);
+    });
+  }
+
+  function setPresentMode(on) {
+    if (on === isPresentMode) return;
+
+    if (presentIntroRaf) {
+      window.cancelAnimationFrame(presentIntroRaf);
+      presentIntroRaf = 0;
+    }
+
+    isPresentMode = on;
+
+    if (on) {
+      savedSimAlpha = simAlpha;
+      container.classList.remove("is-expanded");
+      if (graphShell) graphShell.classList.remove("is-expanded");
+      fullscreenRoot.classList.add("is-present");
+      container.classList.add("is-present");
+
+      if (!presentHintEl) {
+        presentHintEl = document.createElement("p");
+        presentHintEl.className = "graph-present-hint";
+        presentHintEl.textContent = "Escape to exit present mode";
+        fullscreenRoot.appendChild(presentHintEl);
+      }
+      presentHintEl.hidden = false;
+      document.body.classList.add("notes-graph-present-open");
+
+      window.requestAnimationFrame(function () {
+        syncCanvasSize();
+        initPositions();
+        settlePresentLayout();
+        fitToView();
+        animatePresentIntro();
+        draw();
+        wake();
       });
+    } else {
+      fullscreenRoot.classList.remove("is-present");
+      container.classList.remove("is-present");
+      document.body.classList.remove("notes-graph-present-open");
+      if (presentHintEl) presentHintEl.hidden = true;
+      simAlpha = prefersReducedMotion ? 0 : savedSimAlpha || 0.22;
 
-      var useFocusCenter = focusNode && !typeFilterActive();
-      var pad = useFocusCenter ? 44 : 56;
-      var graphW = Math.max(maxX - minX, 1);
-      var graphH = Math.max(maxY - minY, 1);
-      var k = Math.min((width - pad * 2) / graphW, (height - pad * 2) / graphH, useFocusCenter ? 2 : 1.8);
-      k = Math.max(k, 0.25) * 2;
+      window.requestAnimationFrame(function () {
+        syncCanvasSize();
+        fitToView();
+        draw();
+        wake();
+      });
+    }
+
+    updatePresentUi();
+  }
+
+  function initPositions() {
+    var pad = 48;
+    var w = Math.max(width - pad * 2, 1);
+    var h = Math.max(height - pad * 2, 1);
+
+    nodes.forEach(function (n) {
+      n.x = pad + hashSeed(n.id + ":x") * w;
+      n.y = pad + hashSeed(n.id + ":y") * h;
+      n.vx = 0;
+      n.vy = 0;
+    });
+  }
+
+  function screenToWorld(x, y) {
+    return {
+      x: (x - transform.x) / transform.k,
+      y: (y - transform.y) / transform.k,
+    };
+  }
+
+  function worldToScreen(x, y) {
+    return {
+      x: x * transform.k + transform.x,
+      y: y * transform.k + transform.y,
+    };
+  }
+
+  function viewNodes() {
+    var visible;
+    if (typeFilterActive() || !focusNode) {
+      visible = nodes;
+    } else {
+      var set = neighborsOf(focusNode);
+      visible = nodes.filter(function (n) {
+        return set[n.id];
+      });
+    }
+    if (graphFilter === "all") return visible;
+    return visible.filter(passesFilter);
+  }
+
+  function fitToView() {
+    var visible = viewNodes();
+    if (!visible.length || !width || !height) return;
+
+    var minX = Infinity;
+    var minY = Infinity;
+    var maxX = -Infinity;
+    var maxY = -Infinity;
+    visible.forEach(function (n) {
+      var r = nodeRadius(n) + 10;
+      var labelH = labelWorldHeight();
+      minX = Math.min(minX, n.x - r);
+      minY = Math.min(minY, n.y - r);
+      maxX = Math.max(maxX, n.x + r);
+      maxY = Math.max(maxY, n.y + r + labelH);
+    });
+
+    var useFocusCenter = focusNode && !typeFilterActive();
+    var pad = useFocusCenter ? 44 : 56;
+    var graphW = Math.max(maxX - minX, 1);
+    var graphH = Math.max(maxY - minY, 1);
+    var k = Math.min((width - pad * 2) / graphW, (height - pad * 2) / graphH, useFocusCenter ? 2 : 1.8);
+    k = Math.max(k, 0.25) * 2;
 
       var cx = useFocusCenter ? focusNode.x : (minX + maxX) / 2;
       var cy = useFocusCenter ? focusNode.y : (minY + maxY) / 2;
 
+      if (!Number.isFinite(cx) || !Number.isFinite(cy) || !Number.isFinite(graphW) || !Number.isFinite(graphH)) {
+        return;
+      }
+
       defaultTransform = {
-        k: k,
-        x: width / 2 - cx * k,
-        y: height / 2 - cy * k,
-      };
+      k: k,
+      x: width / 2 - cx * k,
+      y: height / 2 - cy * k,
+    };
 
-      transform = {
-        x: defaultTransform.x,
-        y: defaultTransform.y,
-        k: defaultTransform.k,
-      };
-      needsFrame = true;
+    transform = {
+      x: defaultTransform.x,
+      y: defaultTransform.y,
+      k: defaultTransform.k,
+    };
+    needsFrame = true;
+  }
+
+  function neighborsOf(node) {
+    var set = Object.create(null);
+    set[node.id] = true;
+    edges.forEach(function (e) {
+      if (e.source === node) set[e.target.id] = true;
+      if (e.target === node) set[e.source.id] = true;
+    });
+    return set;
+  }
+
+  function matchesSearch(node) {
+    if (!searchQuery) return true;
+    return node.title.toLowerCase().indexOf(searchQuery) !== -1;
+  }
+
+  function passesFilter(node) {
+    if (graphFilter === "all") return true;
+    if (graphFilter === "orphan") return node.orphan;
+    if (graphFilter === "hub") return node.hub;
+    if (graphFilter === "weak") return node.weak;
+    if (graphFilter === "deadEnd") return node.deadEnd;
+    return true;
+  }
+
+  function typeFilterActive() {
+    return graphFilter !== "all";
+  }
+
+  function nodeFill(node, isFocus, isHover, inHighlight, highlight) {
+    if (isFocus) return colors.nodeFocus;
+    if (isHover) return colors.nodeHover;
+    if (node.orphan && (graphFilter === "all" || graphFilter === "orphan")) return colors.nodeOrphan;
+    if (node.hub && (graphFilter === "all" || graphFilter === "hub")) return colors.nodeHub;
+    if (node.weak && (graphFilter === "all" || graphFilter === "weak")) return colors.nodeWeak;
+    if (node.deadEnd && (graphFilter === "all" || graphFilter === "deadEnd")) return colors.nodeDeadEnd;
+    if (inHighlight && highlight) return colors.nodeActive;
+    return colors.node;
+  }
+
+  function hitTest(worldPos) {
+    for (var i = nodes.length - 1; i >= 0; i--) {
+      var n = nodes[i];
+      if (typeFilterActive() && !passesFilter(n)) continue;
+      var r = nodeRadius(n) + 5;
+      var dx = worldPos.x - n.x;
+      var dy = worldPos.y - n.y;
+      if (dx * dx + dy * dy <= r * r) return n;
     }
+    return null;
+  }
 
-    function neighborsOf(node) {
-      var set = Object.create(null);
-      set[node.id] = true;
-      edges.forEach(function (e) {
-        if (e.source === node) set[e.target.id] = true;
-        if (e.target === node) set[e.source.id] = true;
-      });
-      return set;
-    }
+  function simulate(settling) {
+    var alpha = settling ? 1 : simAlpha;
+    if (alpha <= 0.002) return false;
 
-    function matchesSearch(node) {
-      if (!searchQuery) return true;
-      return node.title.toLowerCase().indexOf(searchQuery) !== -1;
-    }
+    var linkDistance = 120;
+    var linkStrength = 0.16 * alpha;
+      var repulsion = (4200 * alpha) / Math.max(1, Math.sqrt(nodes.length / 24));
+    var centerStrength = 0.014 * alpha;
+    var cx = width / 2;
+    var cy = height / 2;
 
-    function passesFilter(node) {
-      if (graphFilter === "all") return true;
-      if (graphFilter === "orphan") return node.orphan;
-      if (graphFilter === "hub") return node.hub;
-      if (graphFilter === "weak") return node.weak;
-      if (graphFilter === "deadEnd") return node.deadEnd;
-      return true;
-    }
-
-    function typeFilterActive() {
-      return graphFilter !== "all";
-    }
-
-    function nodeFill(node, isFocus, isHover, inHighlight, highlight) {
-      if (isFocus) return colors.nodeFocus;
-      if (isHover) return colors.nodeHover;
-      if (node.orphan && (graphFilter === "all" || graphFilter === "orphan")) return colors.nodeOrphan;
-      if (node.hub && (graphFilter === "all" || graphFilter === "hub")) return colors.nodeHub;
-      if (node.weak && (graphFilter === "all" || graphFilter === "weak")) return colors.nodeWeak;
-      if (node.deadEnd && (graphFilter === "all" || graphFilter === "deadEnd")) return colors.nodeDeadEnd;
-      if (inHighlight && highlight) return colors.nodeActive;
-      return colors.node;
-    }
-
-    function hitTest(worldPos) {
-      for (var i = nodes.length - 1; i >= 0; i--) {
-        var n = nodes[i];
-        if (typeFilterActive() && !passesFilter(n)) continue;
-        var r = nodeRadius(n) + 5;
-        var dx = worldPos.x - n.x;
-        var dy = worldPos.y - n.y;
-        if (dx * dx + dy * dy <= r * r) return n;
+    edges.forEach(function (e) {
+      var dx = e.target.x - e.source.x;
+      var dy = e.target.y - e.source.y;
+      var dist = Math.sqrt(dx * dx + dy * dy) || 1;
+      var force = ((dist - linkDistance) / dist) * linkStrength;
+      var fx = dx * force;
+      var fy = dy * force;
+      if (e.source !== draggingNode) {
+        e.source.vx += fx;
+        e.source.vy += fy;
       }
-      return null;
-    }
+      if (e.target !== draggingNode) {
+        e.target.vx -= fx;
+        e.target.vy -= fy;
+      }
+    });
 
-    function simulate() {
-      if (simAlpha <= 0.002) return false;
-
-      var linkDistance = focusNode ? 115 : 140;
-      var linkStrength = 0.14 * simAlpha;
-      var repulsion = 3800 * simAlpha;
-      var centerStrength = (focusNode ? 0.006 : 0.012) * simAlpha;
-      var cx = width / 2;
-      var cy = height / 2;
-
-      edges.forEach(function (e) {
-        var dx = e.target.x - e.source.x;
-        var dy = e.target.y - e.source.y;
+    for (var i = 0; i < nodes.length; i++) {
+      for (var j = i + 1; j < nodes.length; j++) {
+        var a = nodes[i];
+        var b = nodes[j];
+        var dx = a.x - b.x;
+        var dy = a.y - b.y;
         var dist = Math.sqrt(dx * dx + dy * dy) || 1;
-        var force = ((dist - linkDistance) / dist) * linkStrength;
-        var fx = dx * force;
-        var fy = dy * force;
-        if (e.source !== draggingNode && e.source !== focusNode) {
-          e.source.vx += fx;
-          e.source.vy += fy;
+        var minDist = nodeRadius(a) + nodeRadius(b) + 36;
+        var repel = repulsion / (dist * dist);
+        if (dist < minDist) {
+          repel += ((minDist - dist) / dist) * 0.65 * alpha;
         }
-        if (e.target !== draggingNode && e.target !== focusNode) {
-          e.target.vx -= fx;
-          e.target.vy -= fy;
+        var fx = (dx / dist) * repel;
+        var fy = (dy / dist) * repel;
+        if (a !== draggingNode) {
+          a.vx += fx;
+          a.vy += fy;
         }
-      });
-
-      for (var i = 0; i < nodes.length; i++) {
-        for (var j = i + 1; j < nodes.length; j++) {
-          var a = nodes[i];
-          var b = nodes[j];
-          var dx = a.x - b.x;
-          var dy = a.y - b.y;
-          var dist = Math.sqrt(dx * dx + dy * dy) || 1;
-          var minDist = nodeRadius(a) + nodeRadius(b) + 36;
-          var repel = repulsion / (dist * dist);
-          if (dist < minDist) {
-            repel += ((minDist - dist) / dist) * 0.65 * simAlpha;
-          }
-          var fx = (dx / dist) * repel;
-          var fy = (dy / dist) * repel;
-          if (a !== draggingNode && a !== focusNode) {
-            a.vx += fx;
-            a.vy += fy;
-          }
-          if (b !== draggingNode && b !== focusNode) {
-            b.vx -= fx;
-            b.vy -= fy;
-          }
+        if (b !== draggingNode) {
+          b.vx -= fx;
+          b.vy -= fy;
         }
       }
+    }
 
       nodes.forEach(function (n) {
         if (n === draggingNode) return;
-        if (focusNode && n === focusNode) {
-          n.x = cx;
-          n.y = cy;
-          n.vx = 0;
-          n.vy = 0;
-          return;
-        }
         n.vx += (cx - n.x) * centerStrength;
         n.vy += (cy - n.y) * centerStrength;
         n.vx *= 0.84;
         n.vy *= 0.84;
+        var speed = Math.sqrt(n.vx * n.vx + n.vy * n.vy);
+        var maxSpeed = 24;
+        if (speed > maxSpeed) {
+          n.vx = (n.vx / speed) * maxSpeed;
+          n.vy = (n.vy / speed) * maxSpeed;
+        }
         n.x += n.vx;
         n.y += n.vy;
+        if (!Number.isFinite(n.x) || !Number.isFinite(n.y)) {
+          n.x = width / 2;
+          n.y = height / 2;
+          n.vx = 0;
+          n.vy = 0;
+        }
       });
 
+    if (!settling) {
       simAlpha *= prefersReducedMotion ? 0 : 0.988;
-      return true;
     }
+    return true;
+  }
 
-    function draw() {
-      ctx.clearRect(0, 0, width, height);
-      ctx.save();
-      ctx.translate(transform.x, transform.y);
-      ctx.scale(transform.k, transform.k);
-
-      var highlight = hovered
-        ? neighborsOf(hovered)
-        : typeFilterActive() || !focusNode
-          ? null
-          : neighborsOf(focusNode);
-      var hasFilter = Boolean(searchQuery);
-
-      edges.forEach(function (e) {
-        if (typeFilterActive() && (!passesFilter(e.source) || !passesFilter(e.target))) return;
-        var active = highlight && highlight[e.source.id] && highlight[e.target.id];
-        var visible =
-          !hasFilter ||
-          (matchesSearch(e.source) && matchesSearch(e.target)) ||
-          active;
-        var dimmed = (highlight && !active) || (hasFilter && !visible);
-
-        ctx.beginPath();
-        ctx.moveTo(e.source.x, e.source.y);
-        ctx.lineTo(e.target.x, e.target.y);
-        ctx.strokeStyle = active ? colors.edgeActive : colors.edge;
-        ctx.globalAlpha = dimmed ? 0.05 : active ? 0.55 : 0.2;
-        ctx.lineWidth = (active ? 1.2 : 0.85) / transform.k;
-        ctx.stroke();
-      });
-
-      ctx.globalAlpha = 1;
-      nodes.forEach(function (n) {
-        if (typeFilterActive() && !passesFilter(n)) return;
-        var r = nodeRadius(n);
-        var isFocus = !typeFilterActive() && focusNode && n === focusNode;
-        var isHover = hovered === n;
-        var inHighlight = !highlight || highlight[n.id];
-        var matches = matchesSearch(n);
-        var dimmed = (highlight && !inHighlight) || (hasFilter && !matches && !isHover);
-
-        if (isFocus) {
-          ctx.beginPath();
-          ctx.fillStyle = colors.nodeFocus;
-          ctx.globalAlpha = 0.12;
-          ctx.arc(n.x, n.y, r + 8, 0, Math.PI * 2);
-          ctx.fill();
-        }
-
-        ctx.beginPath();
-        ctx.fillStyle = nodeFill(n, isFocus, isHover, inHighlight, highlight);
-        ctx.globalAlpha = dimmed ? 0.08 : isFocus ? 1 : isHover ? 1 : inHighlight && highlight ? 0.95 : 0.65;
-        ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
-        ctx.fill();
-
-        if (isFocus || isHover) {
-          ctx.strokeStyle = colors.nodeActive;
-          ctx.lineWidth = (isFocus ? 1.6 : 1.25) / transform.k;
-          ctx.globalAlpha = 0.95;
-          ctx.stroke();
-        }
-
-        var fontSize = labelFontSize();
-        var labelY = n.y + labelOffset(n);
-        ctx.font = (isFocus ? "600 " : "") + fontSize + "px Inter, system-ui, sans-serif";
-        ctx.textAlign = "center";
-        ctx.textBaseline = "top";
-        var labelAlpha = dimmed ? 0.15 : isFocus ? 1 : isHover ? 1 : inHighlight && highlight ? 0.95 : 0.82;
-        ctx.lineWidth = Math.max(2.5, 3.5 / transform.k);
-        ctx.lineJoin = "round";
-        ctx.strokeStyle = colors.surface;
-        ctx.fillStyle = nodeFill(n, isFocus, isHover, inHighlight, highlight);
-        ctx.globalAlpha = labelAlpha;
-        ctx.strokeText(n.title, n.x, labelY);
-        ctx.fillText(n.title, n.x, labelY);
-      });
-
-      ctx.restore();
+  function updateLabelStyle(label, textColor, isFocus, alpha) {
+    var size = labelScreenSize(isFocus);
+    if (label.style.fontSize !== size) {
+      label.style.fontSize = size;
     }
+    label.style.fontWeight = isFocus ? "600" : "500";
+    label.style.fill = textColor;
+    label.style.stroke = { color: colors.labelStroke, width: 4, join: "round" };
+    label.alpha = alpha;
+    label.resolution = labelResolution;
+  }
 
-    function setHovered(node) {
-      hovered = node;
-      container.classList.toggle("notes-graph--hover", Boolean(node));
-      wake();
-    }
+  function draw() {
+    world.position.set(transform.x, transform.y);
+    world.scale.set(transform.k);
 
-    function zoomAt(factor, clientX, clientY) {
-      var rect = canvas.getBoundingClientRect();
-      var cx = typeof clientX === "number" ? clientX - rect.left : width / 2;
-      var cy = typeof clientY === "number" ? clientY - rect.top : height / 2;
-      var worldBefore = screenToWorld(cx, cy);
-      var nextK = Math.min(7, Math.max(0.18, transform.k * factor));
-      transform.k = nextK;
-      transform.x = cx - worldBefore.x * nextK;
-      transform.y = cy - worldBefore.y * nextK;
-      wake();
-    }
+    var highlight = hovered
+      ? neighborsOf(hovered)
+      : typeFilterActive() || !focusNode
+        ? null
+        : neighborsOf(focusNode);
+    var hasFilter = Boolean(searchQuery);
 
-    canvas.addEventListener("pointermove", function (evt) {
-      var pos = pointerPos(evt);
-      if (panning && panStart) {
-        transform.x = panStart.transformX + (pos.x - panStart.x);
-        transform.y = panStart.transformY + (pos.y - panStart.y);
-        wake();
-        return;
-      }
-      if (draggingNode) {
-        var world = screenToWorld(pos.x, pos.y);
-        if (
-          dragStart &&
-          (Math.abs(world.x - dragStart.x) > 4 || Math.abs(world.y - dragStart.y) > 4)
-        ) {
-          dragMoved = true;
-        }
-        draggingNode.x = world.x;
-        draggingNode.y = world.y;
-        draggingNode.vx = 0;
-        draggingNode.vy = 0;
-        simAlpha = Math.max(simAlpha, 0.3);
-        wake();
-        return;
-      }
-      var world = screenToWorld(pos.x, pos.y);
-      setHovered(hitTest(world));
+    edgesGfx.clear();
+    edges.forEach(function (e) {
+      if (typeFilterActive() && (!passesFilter(e.source) || !passesFilter(e.target))) return;
+      var active = highlight && highlight[e.source.id] && highlight[e.target.id];
+      var visible =
+        !hasFilter || (matchesSearch(e.source) && matchesSearch(e.target)) || active;
+      var dimmed = (highlight && !active) || (hasFilter && !visible);
+
+      edgesGfx
+        .moveTo(e.source.x, e.source.y)
+        .lineTo(e.target.x, e.target.y)
+        .stroke({
+          width: (active ? 1.2 : 0.85) / transform.k,
+          color: active ? colors.edgeActive : colors.edge,
+          alpha: dimmed ? 0.05 : active ? 0.55 : 0.2,
+        });
     });
 
-    canvas.addEventListener("pointerdown", function (evt) {
+    nodesGfx.clear();
+    nodes.forEach(function (n) {
+      if (typeFilterActive() && !passesFilter(n)) {
+        n.label.visible = false;
+        return;
+      }
+
+      var r = nodeRadius(n);
+      var isFocus = !typeFilterActive() && focusNode && n === focusNode;
+      var isHover = hovered === n;
+      var inHighlight = !highlight || highlight[n.id];
+      var matches = matchesSearch(n);
+      var dimmed = (highlight && !inHighlight) || (hasFilter && !matches && !isHover);
+      var fillColor = nodeFill(n, isFocus, isHover, inHighlight, highlight);
+      var nodeAlpha = dimmed ? 0.08 : isFocus ? 1 : isHover ? 1 : inHighlight && highlight ? 0.95 : 0.65;
+
+      if (isFocus) {
+        nodesGfx.circle(n.x, n.y, r + 8).fill({ color: colors.nodeFocus, alpha: 0.12 });
+      }
+
+      nodesGfx.circle(n.x, n.y, r).fill({ color: fillColor, alpha: nodeAlpha });
+
+      if (isFocus || isHover) {
+        nodesGfx.circle(n.x, n.y, r).stroke({
+          width: (isFocus ? 1.6 : 1.25) / transform.k,
+          color: colors.nodeActive,
+          alpha: 0.95,
+        });
+      }
+
+      n.label.visible = true;
+      var labelPos = worldToScreen(n.x, n.y + labelOffset(n));
+      n.label.position.set(labelPos.x, labelPos.y);
+      updateLabelStyle(
+        n.label,
+        labelTextColor(isFocus, isHover, dimmed),
+        isFocus,
+        labelTextAlpha(isFocus, isHover, dimmed, inHighlight, highlight),
+      );
+    });
+
+    app.render();
+  }
+
+  function setHovered(node) {
+    hovered = node;
+    container.classList.toggle("notes-graph--hover", Boolean(node));
+    wake();
+  }
+
+  function zoomAt(factor, clientX, clientY) {
+    var rect = canvas.getBoundingClientRect();
+    var cx = typeof clientX === "number" ? clientX - rect.left : width / 2;
+    var cy = typeof clientY === "number" ? clientY - rect.top : height / 2;
+    var worldBefore = screenToWorld(cx, cy);
+    var nextK = Math.min(7, Math.max(0.18, transform.k * factor));
+    transform.k = nextK;
+    transform.x = cx - worldBefore.x * nextK;
+    transform.y = cy - worldBefore.y * nextK;
+    wake();
+  }
+
+  canvas.addEventListener("pointermove", function (evt) {
+    var pos = pointerPos(evt);
+    if (panning && panStart) {
+      transform.x = panStart.transformX + (pos.x - panStart.x);
+      transform.y = panStart.transformY + (pos.y - panStart.y);
+      wake();
+      return;
+    }
+    if (draggingNode) {
+      var world = screenToWorld(pos.x, pos.y);
+      if (
+        dragStart &&
+        (Math.abs(world.x - dragStart.x) > 4 || Math.abs(world.y - dragStart.y) > 4)
+      ) {
+        dragMoved = true;
+      }
+      draggingNode.x = world.x;
+      draggingNode.y = world.y;
+      draggingNode.vx = 0;
+      draggingNode.vy = 0;
+      simAlpha = Math.max(simAlpha, 0.3);
+      wake();
+      return;
+    }
+    var world = screenToWorld(pos.x, pos.y);
+    setHovered(hitTest(world));
+  });
+
+  canvas.addEventListener("pointerdown", function (evt) {
+    var pos = pointerPos(evt);
+    var world = screenToWorld(pos.x, pos.y);
+    var node = hitTest(world);
+    if (node && node !== focusNode) {
+      draggingNode = node;
+      dragMoved = false;
+      dragStart = { x: world.x, y: world.y };
+      simAlpha = Math.max(simAlpha, 0.35);
+      canvas.setPointerCapture(evt.pointerId);
+      setHovered(node);
+      return;
+    }
+    panning = true;
+    panStart = { x: pos.x, y: pos.y, transformX: transform.x, transformY: transform.y };
+    canvas.setPointerCapture(evt.pointerId);
+    setHovered(focusNode || null);
+    wake();
+  });
+
+  function endPointer(evt) {
+    releaseCanvasCapture(evt);
+    if (draggingNode && !panning && !dragMoved) {
       var pos = pointerPos(evt);
       var world = screenToWorld(pos.x, pos.y);
       var node = hitTest(world);
-      if (node && node !== focusNode) {
-        draggingNode = node;
-        dragMoved = false;
-        dragStart = { x: world.x, y: world.y };
-        simAlpha = Math.max(simAlpha, 0.35);
-        canvas.setPointerCapture(evt.pointerId);
-        setHovered(node);
-        return;
-      }
-      panning = true;
-      panStart = { x: pos.x, y: pos.y, transformX: transform.x, transformY: transform.y };
-      canvas.setPointerCapture(evt.pointerId);
-      setHovered(focusNode || null);
-      wake();
-    });
-
-    function endPointer(evt) {
-      releaseCanvasCapture(evt);
-      if (draggingNode && !panning && !dragMoved) {
-        var pos = pointerPos(evt);
-        var world = screenToWorld(pos.x, pos.y);
-        var node = hitTest(world);
-        if (node && node.url && node !== focusNode) {
-          if (evt.metaKey || evt.ctrlKey) {
-            window.open(node.url, "_blank", "noopener");
-          } else {
-            window.location.href = node.url;
-          }
-        }
-      }
-      draggingNode = null;
-      dragMoved = false;
-      dragStart = null;
-      panning = false;
-      panStart = null;
-      wake();
-    }
-
-    canvas.addEventListener("pointerup", endPointer);
-    canvas.addEventListener("pointercancel", function (evt) {
-      releaseCanvasCapture(evt);
-      draggingNode = null;
-      dragMoved = false;
-      dragStart = null;
-      panning = false;
-      panStart = null;
-      wake();
-    });
-
-    canvas.addEventListener(
-      "wheel",
-      function (evt) {
-        evt.preventDefault();
-        zoomAt(evt.deltaY < 0 ? 1.1 : 1 / 1.1, evt.clientX, evt.clientY);
-      },
-      { passive: false }
-    );
-
-    canvas.addEventListener("pointerleave", function () {
-      if (!draggingNode && !panning) setHovered(focusNode || null);
-    });
-
-    if (searchEl) {
-      searchEl.addEventListener("input", function () {
-        searchQuery = searchEl.value.trim().toLowerCase();
-        if (searchQuery) {
-          var match = null;
-          for (var i = 0; i < nodes.length; i++) {
-            if (matchesSearch(nodes[i])) {
-              match = nodes[i];
-              break;
-            }
-          }
-          if (match) {
-            hovered = match;
-            var screen = worldToScreen(match.x, match.y);
-            transform.x += width / 2 - screen.x;
-            transform.y += height / 2 - screen.y;
-          }
+      if (node && node.url && node !== focusNode) {
+        if (evt.metaKey || evt.ctrlKey) {
+          window.open(node.url, "_blank", "noopener");
         } else {
-          hovered = focusNode || null;
+          window.location.href = node.url;
         }
-        wake();
-      });
+      }
     }
+    draggingNode = null;
+    dragMoved = false;
+    dragStart = null;
+    panning = false;
+    panStart = null;
+    wake();
+  }
 
-    var bindTap = window.jorapBindTouchClick || function (el, fn) {
+  canvas.addEventListener("pointerup", endPointer);
+  canvas.addEventListener("pointercancel", function (evt) {
+    releaseCanvasCapture(evt);
+    draggingNode = null;
+    dragMoved = false;
+    dragStart = null;
+    panning = false;
+    panStart = null;
+    wake();
+  });
+
+  canvas.addEventListener(
+    "wheel",
+    function (evt) {
+      evt.preventDefault();
+      zoomAt(evt.deltaY < 0 ? 1.1 : 1 / 1.1, evt.clientX, evt.clientY);
+    },
+    { passive: false },
+  );
+
+  canvas.addEventListener("pointerleave", function () {
+    if (!draggingNode && !panning) setHovered(focusNode || null);
+  });
+
+  if (searchEl) {
+    searchEl.addEventListener("input", function () {
+      searchQuery = searchEl.value.trim().toLowerCase();
+      if (searchQuery) {
+        var match = null;
+        for (var i = 0; i < nodes.length; i++) {
+          if (matchesSearch(nodes[i])) {
+            match = nodes[i];
+            break;
+          }
+        }
+        if (match) {
+          hovered = match;
+          var screen = worldToScreen(match.x, match.y);
+          transform.x += width / 2 - screen.x;
+          transform.y += height / 2 - screen.y;
+        }
+      } else {
+        hovered = focusNode || null;
+      }
+      wake();
+    });
+  }
+
+  var bindTap =
+    window.jorapBindTouchClick ||
+    function (el, fn) {
       el.addEventListener("click", fn);
     };
 
-    if (resetEl) {
-      bindTap(resetEl, function () {
-        if (searchEl) searchEl.value = "";
-        searchQuery = "";
-        hovered = focusNode || null;
-        initPositions();
-        fitToView();
-        simAlpha = prefersReducedMotion ? 0 : focusNode ? 0.6 : 0.85;
-        wake();
-      });
-    }
-
-    if (zoomInEl) {
-      bindTap(zoomInEl, function () {
-        zoomAt(1.15);
-      });
-    }
-
-    if (zoomOutEl) {
-      bindTap(zoomOutEl, function () {
-        zoomAt(1 / 1.15);
-      });
-    }
-
-    if (expandEl) {
-      bindTap(expandEl, function () {
-        var expanded = container.classList.toggle("is-expanded");
-        expandEl.setAttribute("aria-pressed", expanded ? "true" : "false");
-        expandEl.title = expanded ? "Collapse graph" : "Expand graph";
-        expandEl.setAttribute("aria-label", expandEl.title);
-        resize();
-        fitToView();
-        draw();
-        wake();
-      });
-    }
-
-    function applyGraphFilter(value, activeBtn) {
-      graphFilter = value || "all";
-      filterEls.forEach(function (el) {
-        var active = el === activeBtn;
-        el.classList.toggle("is-active", active);
-        el.setAttribute("aria-pressed", active ? "true" : "false");
-      });
-      hovered = graphFilter === "all" ? focusNode || null : null;
+  if (resetEl) {
+    bindTap(resetEl, function () {
+      if (searchEl) searchEl.value = "";
+      searchQuery = "";
+      hovered = focusNode || null;
+      initPositions();
+      if (isPresentMode) {
+        settlePresentLayout();
+      } else {
+        settleLayout();
+        simAlpha = prefersReducedMotion ? 0 : 0.85;
+      }
       fitToView();
-      draw();
+      if (isPresentMode) animatePresentIntro();
       wake();
-    }
-
-    function releaseCanvasCapture(evt) {
-      if (!evt || typeof canvas.hasPointerCapture !== "function") return;
-      try {
-        if (canvas.hasPointerCapture(evt.pointerId)) {
-          canvas.releasePointerCapture(evt.pointerId);
-        }
-      } catch (e) {
-        /* ignore */
-      }
-    }
-
-    if (filterEls.length) {
-      filterEls.forEach(function (btn) {
-        var value = btn.getAttribute("data-graph-filter") || "all";
-        bindTap(btn, function () {
-          applyGraphFilter(value, btn);
-        });
-      });
-    }
-
-    function wake() {
-      needsFrame = true;
-      if (!rafId) {
-        rafId = window.requestAnimationFrame(loop);
-      }
-    }
-
-    function loop() {
-      rafId = 0;
-      var simulating = !prefersReducedMotion && simulate();
-      if (needsFrame || simulating || draggingNode || panning || (hovered && hovered !== focusNode)) {
-        draw();
-        needsFrame = false;
-        frame += 1;
-        rafId = window.requestAnimationFrame(loop);
-      }
-    }
-
-    function pointerPos(evt) {
-      var rect = canvas.getBoundingClientRect();
-      return { x: evt.clientX - rect.left, y: evt.clientY - rect.top };
-    }
-
-    function boot() {
-      colors = readColors();
-      resize();
-      prelayout();
-      fitToView();
-      draw();
-      frame = 1;
-      wake();
-    }
-
-    boot();
-    requestAnimationFrame(function () {
-      requestAnimationFrame(boot);
     });
+  }
 
-    if (typeof ResizeObserver !== "undefined") {
-      var resizeObserver = new ResizeObserver(function () {
-        resize();
-        fitToView();
-        draw();
-        wake();
+  if (zoomInEl) {
+    bindTap(zoomInEl, function () {
+      zoomAt(1.15);
+    });
+  }
+
+  if (zoomOutEl) {
+    bindTap(zoomOutEl, function () {
+      zoomAt(1 / 1.15);
+    });
+  }
+
+  if (expandEls.length) {
+    updatePresentUi();
+    expandEls.forEach(function (el) {
+      bindTap(el, function () {
+        setPresentMode(!isPresentMode);
       });
-      resizeObserver.observe(container);
-    } else {
-      window.addEventListener("resize", function () {
-        resize();
-        fitToView();
-        draw();
-        wake();
-      });
+    });
+  }
+
+  document.addEventListener("keydown", function onPresentKey(evt) {
+    if (evt.key !== "Escape" || !isPresentMode) return;
+    evt.preventDefault();
+    setPresentMode(false);
+  });
+
+  function applyGraphFilter(value, activeBtn) {
+    graphFilter = value || "all";
+    filterEls.forEach(function (el) {
+      var active = el === activeBtn;
+      el.classList.toggle("is-active", active);
+      el.setAttribute("aria-pressed", active ? "true" : "false");
+    });
+    hovered = graphFilter === "all" ? focusNode || null : null;
+    fitToView();
+    draw();
+    wake();
+  }
+
+  function releaseCanvasCapture(evt) {
+    if (!evt || typeof canvas.hasPointerCapture !== "function") return;
+    try {
+      if (canvas.hasPointerCapture(evt.pointerId)) {
+        canvas.releasePointerCapture(evt.pointerId);
+      }
+    } catch (e) {
+      /* ignore */
     }
   }
-})();
+
+  if (filterEls.length) {
+    filterEls.forEach(function (btn) {
+      var value = btn.getAttribute("data-graph-filter") || "all";
+      bindTap(btn, function () {
+        applyGraphFilter(value, btn);
+      });
+    });
+  }
+
+  function wake() {
+    needsFrame = true;
+    if (!rafId) {
+      rafId = window.requestAnimationFrame(loop);
+    }
+  }
+
+  function loop() {
+    rafId = 0;
+    var simulating = !prefersReducedMotion && simulate();
+    if (needsFrame || simulating || draggingNode || panning || (hovered && hovered !== focusNode)) {
+      draw();
+      needsFrame = false;
+      frame += 1;
+      rafId = window.requestAnimationFrame(loop);
+    }
+  }
+
+  function pointerPos(evt) {
+    var rect = canvas.getBoundingClientRect();
+    return { x: evt.clientX - rect.left, y: evt.clientY - rect.top };
+  }
+
+  function boot() {
+    colors = readColors();
+    syncCanvasSize();
+    relayoutGraph();
+    fitToView();
+    draw();
+    frame = 1;
+    wake();
+  }
+
+  function bootWhenReady() {
+    syncCanvasSize();
+    if (!Number.isFinite(width) || !Number.isFinite(height) || width < 16 || height < 16) {
+      requestAnimationFrame(bootWhenReady);
+      return;
+    }
+    boot();
+  }
+
+  bootWhenReady();
+  requestAnimationFrame(function () {
+    if (syncCanvasSize()) {
+      relayoutGraph();
+      fitToView();
+      draw();
+      wake();
+    }
+  });
+
+  if (typeof ResizeObserver !== "undefined") {
+    var resizeObserver = new ResizeObserver(function () {
+      syncCanvasSize();
+      if (!isPresentMode) fitToView();
+      draw();
+      wake();
+    });
+    resizeObserver.observe(container);
+  }
+
+  window.addEventListener("resize", function () {
+    if (!isPresentMode) return;
+    syncCanvasSize();
+    draw();
+    wake();
+  });
+
+  if (typeof ResizeObserver === "undefined") {
+    window.addEventListener("resize", function () {
+      syncCanvasSize();
+      fitToView();
+      draw();
+      wake();
+    });
+  }
+
+  if (typeof MutationObserver !== "undefined") {
+    var themeObserver = new MutationObserver(function () {
+      colors = readColors();
+      draw();
+      wake();
+    });
+    themeObserver.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
+  }
+}
+
+bootGraphs().catch(function (err) {
+  console.error("[notes-graph] boot failed:", err);
+});

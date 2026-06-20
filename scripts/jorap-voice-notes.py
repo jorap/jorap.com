@@ -131,7 +131,7 @@ LEADS: dict[str, str] = {
         "and exports I test before I need them."
     ),
     "graph-view-analytics": (
-        "Graph view looks sci-fi. Mostly I use it to sort notes by link frequency - high, low, no body links, and orphans."
+        "Graph looks sci-fi. Mostly I use it to sort notes by link frequency - high, low, no body links, and orphans."
     ),
     "gtd-vs-para": (
         "GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - "
@@ -308,7 +308,7 @@ LEADS: dict[str, str] = {
         "Past effort is gone. I ask: if I found this today, would I start it?"
     ),
     "note-relationships": "",  # handled specially - keeps table
-    "cards": (
+    "flashcards": (
         "**Flashcards** = drill lane beside the wiki - opt in per note, export to Anki when I want SRS on my phone.\n\n"
         "Twelve habit spine notes (~20% of the garden) use `review: true` ([[Pareto Principle]] applied). "
         "Each carries six scenario cards in frontmatter - prompts ask what I'd *do* when capture, review, "
@@ -427,7 +427,7 @@ DESCRIPTIONS: dict[str, str] = {
     "compounding": (
         "Small gains stack on each other - boring repetition beats heroic weeks until the curve bends."
     ),
-    "cards": "Flip cards from opt-in notes - habit prompts, not trivia. Export the same deck to Anki.",
+    "flashcards": "Flip cards from opt-in notes - habit prompts, not trivia. Export the same deck to Anki.",
     "review": "Quiz myself on habit spine cards with spaced repetition in the browser.",
 }
 
@@ -520,10 +520,10 @@ def main() -> None:
             updated += 1
             print(f"voice: {path.name}")
             continue
-        elif stem in {"cards", "review", "issues", "random-duo", "random-trio"}:
+        elif stem in {"flashcards", "review", "issues", "random-duo", "random-trio"}:
             lead = LEADS[stem]
             rel_line = ""
-            if stem == "cards":
+            if stem == "flashcards":
                 rel_line = "\n\nExtends [[Getting Started]]. Implements [[Spaced Repetition]]."
             elif stem == "review":
                 rel_line = "\n\nExtends [[Getting Started]]. Implements [[Spaced Repetition]]."
@@ -585,10 +585,10 @@ def main() -> None:
     graph = NOTES_DIR / "graph.md"
     gtext = graph.read_text(encoding="utf-8")
     fm, fm_inner, body = split_frontmatter(gtext)
-    if "**Note graph**" not in body:
+    if "**Graph**" not in body:
         graph.write_text(
             gtext.rstrip()
-            + "\n\n**Notes graph** = open the link map and filter by link frequency: high, low, no body links, orphans.\n",
+            + "\n\n**Graph** = open the link map and filter by link frequency: high, low, no body links, orphans.\n",
             encoding="utf-8",
         )
         print("voice: graph.md")

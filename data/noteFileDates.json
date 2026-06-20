@@ -43,10 +43,6 @@
     "created": "2026-06-19T17:00:44.416Z",
     "updated": "2026-06-20T10:03:14.687Z"
   },
-  "notes/cards.md": {
-    "created": "2026-06-20T14:13:47.151Z",
-    "updated": "2026-06-20T14:13:47.151Z"
-  },
   "notes/childlike-faith.md": {
     "created": "2026-06-20T08:23:52.516Z",
     "updated": "2026-06-20T11:46:41.805Z"
@@ -111,6 +107,10 @@
     "created": "2026-06-19T17:00:44.417Z",
     "updated": "2026-06-20T09:57:59.017Z"
   },
+  "notes/flashcards.md": {
+    "created": "2026-06-20T14:51:00.887Z",
+    "updated": "2026-06-20T14:51:00.888Z"
+  },
   "notes/forgiveness.md": {
     "created": "2026-06-20T08:13:41.925Z",
     "updated": "2026-06-20T11:47:12.567Z"
@@ -125,15 +125,15 @@
   },
   "notes/getting-started.md": {
     "created": "2026-06-20T14:13:47.151Z",
-    "updated": "2026-06-20T14:19:25.323Z"
+    "updated": "2026-06-20T14:51:03.096Z"
   },
   "notes/graph-view-analytics.md": {
     "created": "2026-06-19T17:00:44.418Z",
-    "updated": "2026-06-20T10:03:14.689Z"
+    "updated": "2026-06-20T14:43:47.667Z"
   },
   "notes/graph.md": {
     "created": "2026-06-20T14:09:05.326Z",
-    "updated": "2026-06-20T14:19:25.327Z"
+    "updated": "2026-06-20T14:43:47.673Z"
   },
   "notes/great-commission.md": {
     "created": "2026-06-20T08:29:45.949Z",

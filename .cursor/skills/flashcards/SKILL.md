@@ -14,7 +14,7 @@ description: >-
 
 Flashcards are a **drill lane beside the wiki** - not a second copy of the note. The wiki holds linked understanding; cards wire **life's cue → recall principle → act immediately**.
 
-Only ~20% of notes (spine habits + gospel cluster) carry cards. Full spec: `content/english/notes/cards.md`. Reference decks: `capture.md`, `free-grace.md`, `the-golden-rule.md`.
+Only ~20% of notes (spine habits + gospel cluster) carry cards. Full spec: `content/english/notes/flashcards.md`. Reference decks: `capture.md`, `free-grace.md`, `the-golden-rule.md`.
 
 **Voice:** Always load and follow [jorap-voice](../jorap-voice/SKILL.md). Cards are first-person drill cues - same plain, lived-in tone as the notes garden, not Anki boilerplate. Vocabulary rules live in jorap-voice (high school level).
 
@@ -240,11 +240,11 @@ Bulk rewrite: `python3 scripts/fix-flashcard-lengths.py`
 
 ## Site integration
 
-- Review: `/notes/review/` · Export: `/notes/cards/` · Same frontmatter → Anki
+- Review: `/notes/review/` · Export: `/notes/flashcards/` · Same frontmatter → Anki
 
 ## Additional resources
 
 - Voice: [jorap-voice](../jorap-voice/SKILL.md)
 - Cue → apply examples: [examples.md](examples.md)
-- Format spec: `content/english/notes/cards.md`
+- Format spec: `content/english/notes/flashcards.md`
 - SRS philosophy: `content/english/notes/spaced-repetition.md`

@@ -15,7 +15,7 @@ DEFAULT_EXPORT = ROOT / "static/exports/jorap-notes-anki.txt"
 SKIP = {
     "_index",
     "graph",
-    "cards",
+    "flashcards",
     "review",
     "random-duo",
     "random-trio",

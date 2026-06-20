@@ -47,7 +47,7 @@ RELATIONSHIPS: dict[str, dict[str, str | list[str]]] = {
         "extends": "PKM",
         "contradicts": "Signal vs Noise",
     },
-    "cards": {
+    "flashcards": {
         "implements": "Spaced Repetition",
         "extends": "Getting Started",
     },

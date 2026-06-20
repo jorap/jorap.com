@@ -40,7 +40,7 @@
                   <button type="button" class="notes-graph-zoom-out notes-graph-btn" title="Zoom out" aria-label="Zoom out">−</button>
                   <button type="button" class="notes-graph-zoom-in notes-graph-btn" title="Zoom in" aria-label="Zoom in">+</button>
                   <button type="button" class="notes-graph-reset btn btn-outline-primary btn-sm">Reset</button>
-                  <button type="button" class="notes-graph-expand notes-graph-btn" title="Expand graph" aria-label="Expand graph" aria-pressed="true">
+                  <button type="button" class="notes-graph-expand notes-graph-btn" title="Present graph" aria-label="Present graph" aria-pressed="false">
                     <span class="notes-graph-expand-icon" aria-hidden="true">⤢</span>
                   </button>
                 </div>
@@ -64,10 +64,18 @@
               </div>
             </div>
 
-            <div class="notes-graph is-expanded" role="img" aria-label="Graph of note connections">
-              <div class="notes-graph__controls" aria-hidden="true">
-                <span class="notes-graph__zoom-hint">Scroll to zoom · drag to pan</span>
+            <div class="graph-view-container">
+              <div class="notes-graph is-expanded" role="img" aria-label="Graph of note connections">
+                <div class="notes-graph__controls" aria-hidden="true">
+                  <span class="notes-graph__zoom-hint">Scroll to zoom · drag to pan</span>
+                </div>
               </div>
+              <button type="button" class="graph-icon graph-expand notes-graph-expand" aria-label="Present graph" title="Present graph" aria-pressed="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-arrow-up-right" aria-hidden="true">
+                  <path d="M7 7h10v10"></path>
+                  <path d="M7 17 17 7"></path>
+                </svg>
+              </button>
             </div>
             <p class="notes-graph-hint text-ink-muted">Hover to highlight links · click a node to open · ⌘/Ctrl-click for a new tab · colored dots mark high, low, no body links, and orphans</p>
           </div>
@@ -78,5 +86,5 @@
     </div>
   </section>
 
-  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-graph.js" "defer" true) }}
+  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-graph.js" "defer" true "bundle" true) }}
 {{ end }}

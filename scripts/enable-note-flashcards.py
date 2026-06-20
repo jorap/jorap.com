@@ -11,7 +11,7 @@ NOTES_DIR = ROOT / "content/english/notes"
 SKIP = {
     "_index",
     "graph",
-    "cards",
+    "flashcards",
     "review",
     "random-duo",
     "random-trio",

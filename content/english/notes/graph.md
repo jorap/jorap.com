@@ -1,6 +1,6 @@
 ---
-title: "Note graph"
-meta_title: "Notes Graph"
+title: "Graph"
+meta_title: "Graph"
 description: "A map that pulls linked notes together - filter by high, low, no body links, and orphans."
 slug: "graph"
 layout: "graph"
@@ -13,7 +13,7 @@ tags: ["Notes", "Meta", "PKM", "Note Taking", "Digital Garden", "Linking"]
 featured: false
 draft: false
 ---
-**Notes graph** = open the link map and filter by link frequency.
+**Graph** = open the link map and filter by link frequency.
 
 **High** = many total wikilinks. **Low** = few total wikilinks. **No body links** = no wikilinks in the note body (See also excluded). **Orphans** = no inbound wikilinks. Open the live view at [/notes/graph/](/notes/graph/).
 
