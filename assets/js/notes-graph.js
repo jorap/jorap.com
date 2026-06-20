@@ -700,25 +700,26 @@
     }
 
     if (filterEls.length) {
-      var filterTapLock = false;
       filterEls.forEach(function (btn) {
         var value = btn.getAttribute("data-graph-filter") || "all";
-        btn.addEventListener(
-          "pointerup",
-          function (evt) {
-            if (evt.pointerType === "mouse") return;
-            filterTapLock = true;
-            applyGraphFilter(value, btn);
-            window.setTimeout(function () {
-              filterTapLock = false;
-            }, 400);
-          },
-          { passive: true }
-        );
-        btn.addEventListener("click", function () {
-          if (filterTapLock) return;
+        var lastFilterAt = 0;
+
+        function activateFilter() {
+          var now = Date.now();
+          if (now - lastFilterAt < 300) return;
+          lastFilterAt = now;
           applyGraphFilter(value, btn);
-        });
+        }
+
+        btn.addEventListener("click", activateFilter);
+        btn.addEventListener(
+          "touchend",
+          function (evt) {
+            evt.preventDefault();
+            activateFilter();
+          },
+          { passive: false }
+        );
       });
     }
 

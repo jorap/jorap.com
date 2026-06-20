@@ -344,6 +344,7 @@ html.dark .notes-issues__item code {
   flex-wrap: wrap;
   gap: 0.35rem;
   min-width: 0;
+  touch-action: manipulation;
 }
 
 .notes-graph-filter {
@@ -359,6 +360,8 @@ html.dark .notes-issues__item code {
   cursor: pointer;
   touch-action: manipulation;
   -webkit-tap-highlight-color: color-mix(in srgb, var(--color-accent) 20%, transparent);
+  position: relative;
+  z-index: 1;
 }
 
 .notes-graph-filter:hover,
@@ -392,15 +395,17 @@ html.dark .notes-issues__item code {
   color: var(--graph-weak, #c27803);
 }
 
-@media (max-width: 1023.98px) {
+@media (max-width: 1279.98px) {
   .notes-graph-panel--page .notes-graph-toolbar {
     position: sticky;
     top: var(--header-offset);
     z-index: 20;
+    isolation: isolate;
     padding-top: 0.25rem;
     padding-bottom: 0.5rem;
     background: var(--color-surface);
     border-bottom: 1px solid var(--color-divider);
+    touch-action: manipulation;
   }
 
   .notes-graph-filter__suffix {
@@ -416,27 +421,6 @@ html.dark .notes-issues__item code {
   .notes-graph-btn {
     min-width: 2.75rem;
     min-height: 2.75rem;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1023.98px) {
-  .notes-graph-filters {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    overscroll-behavior-x: contain;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    padding-bottom: 0.15rem;
-  }
-
-  .notes-graph-filters::-webkit-scrollbar {
-    display: none;
-  }
-
-  .notes-graph-filter {
-    flex: 0 0 auto;
-    padding: 0.45rem 0.65rem;
-    font-size: 0.75rem;
   }
 }
 
