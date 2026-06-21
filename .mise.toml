@@ -3,7 +3,7 @@
 node = "22"
 go = "1.24.2"
 pnpm = "latest"
-hugo-extended = "0.163.2"
+hugo-extended = "0.163.3"
 
 [env]
 _.path = ["./node_modules/.bin"]

@@ -2,52 +2,5 @@
   Notes that link to the current page via wikilinks, with a context snippet.
   Returns slice of dict: Page, Snippet.
 */ -}}
-{{- $page := . -}}
-{{- $needles := slice $page.Title -}}
-{{- with $page.Params.slug -}}
-  {{- $needles = $needles | append . -}}
-{{- end -}}
-{{- with $page.File -}}
-  {{- $needles = $needles | append .ContentBaseName -}}
-{{- end -}}
-{{- with $page.Params.aliases -}}
-  {{- $needles = union $needles . -}}
-{{- end -}}
-
-{{- $backlinks := slice -}}
-{{- $seen := dict -}}
-{{- $notes := partial "notes/pages.html" (dict) -}}
-
-{{- range $notes -}}
-  {{- if eq .RelPermalink $page.RelPermalink -}}
-    {{- continue -}}
-  {{- end -}}
-  {{- $raw := .RawContent -}}
-  {{- $snippet := "" -}}
-  {{- $matched := false -}}
-  {{- range $needles -}}
-    {{- if not $matched -}}
-      {{- $linePattern := printf `(?m)[^\n]{0,100}\[\[%s(?:#[^\]|]+)?\]\][^\n]{0,100}` . -}}
-      {{- $lineMatch := findRE $linePattern $raw 1 -}}
-      {{- if $lineMatch -}}
-        {{- $matched = true -}}
-        {{- $snippet = index $lineMatch 0 | strings.TrimSpace -}}
-        {{- $snippet = replaceRE `\[\[[^\]|#]+(?:#[^\]|]+)?\]\]` "…" $snippet -}}
-        {{- $snippet = replaceRE `\*\*([^*]+)\*\*` "$1" $snippet -}}
-        {{- $snippet = replaceRE `\*([^*]+)\*` "$1" $snippet -}}
-        {{- $snippet = strings.TrimSpace $snippet -}}
-        {{- if gt (len $snippet) 140 -}}
-          {{- $snippet = printf "%s…" (substr $snippet 0 137) -}}
-        {{- end -}}
-      {{- end -}}
-    {{- end -}}
-  {{- end -}}
-  {{- if $matched -}}
-    {{- if not (index $seen .RelPermalink) -}}
-      {{- $seen = merge $seen (dict .RelPermalink true) -}}
-      {{- $backlinks = $backlinks | append (dict "Page" . "Snippet" $snippet) -}}
-    {{- end -}}
-  {{- end -}}
-{{- end -}}
-
-{{- return $backlinks -}}
+{{- $index := partial "notes/backlinks-index-cached.html" . -}}
+{{- return index $index .RelPermalink | default slice -}}

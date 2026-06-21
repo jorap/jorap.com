@@ -23,6 +23,13 @@ function parseHugoVersion(stdout) {
   return match ? match[1] : null;
 }
 
+/** Same major.minor (patch drift OK on local macOS). */
+function sameMinor(a, b) {
+  const pa = a.split(".").map(Number);
+  const pb = b.split(".").map(Number);
+  return pa[0] === pb[0] && pa[1] === pb[1];
+}
+
 function pathHugoVersion() {
   const result = capture("hugo", ["version"]);
   if (result.status !== 0 || !result.stdout) return null;
@@ -105,6 +112,14 @@ export function ensureHugo() {
   const pinned = readPinnedHugoVersion();
   const fromPath = pathHugoVersion();
   if (fromPath === pinned) {
+    return "hugo";
+  }
+
+  // Homebrew/mise often differ by patch; macOS has no auto-download fallback.
+  if (platform() === "darwin" && fromPath && sameMinor(fromPath, pinned)) {
+    console.warn(
+      `[deploy] Hugo ${fromPath} on PATH (pinned ${pinned}); using PATH on macOS.`,
+    );
     return "hugo";
   }
 

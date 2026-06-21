@@ -1,0 +1,51 @@
+{{- /*
+  Site-wide backlink index: target RelPermalink → slice of {Page, Snippet}.
+  One pass per note: extract wikilinks, resolve targets, append backlink rows.
+*/ -}}
+{{- $index := dict -}}
+{{- $notes := partial "notes/pages.html" (dict) -}}
+
+{{- range $source := $notes -}}
+  {{- $raw := $source.RawContent -}}
+  {{- $matches := findRE `\[\[[^\]|#]+(?:#[^\]|]+)?\]\]` $raw -}}
+  {{- range $matches -}}
+    {{- $wikilink := . -}}
+    {{- $inner := replaceRE `^\[\[|\]\]$` "" . -}}
+    {{- $targetStr := $inner -}}
+    {{- if strings.Contains $inner "#" -}}
+      {{- $targetStr = index (split $inner "#") 0 | strings.TrimSpace -}}
+    {{- end -}}
+    {{- $resolved := partial "notes/resolve-target.html" (dict "Target" $targetStr) -}}
+    {{- with $resolved.Page -}}
+      {{- if ne .RelPermalink $source.RelPermalink -}}
+        {{- $key := .RelPermalink -}}
+        {{- $existing := index $index $key | default slice -}}
+        {{- $seen := false -}}
+        {{- range $existing -}}
+          {{- if eq .Page.RelPermalink $source.RelPermalink -}}
+            {{- $seen = true -}}
+          {{- end -}}
+        {{- end -}}
+        {{- if not $seen -}}
+          {{- $snippet := "" -}}
+          {{- $linePattern := printf `(?m)[^\n]{0,100}\[\[%s(?:#[^\]|]+)?\]\][^\n]{0,100}` $targetStr -}}
+          {{- $lineMatch := findRE $linePattern $raw 1 -}}
+          {{- with $lineMatch -}}
+            {{- $snippet = index . 0 | strings.TrimSpace -}}
+            {{- $snippet = replaceRE `\[\[[^\]|#]+(?:#[^\]|]+)?\]\]` "…" $snippet -}}
+            {{- $snippet = replaceRE `\*\*([^*]+)\*\*` "$1" $snippet -}}
+            {{- $snippet = replaceRE `\*([^*]+)\*` "$1" $snippet -}}
+            {{- $snippet = strings.TrimSpace $snippet -}}
+            {{- if gt (len $snippet) 140 -}}
+              {{- $snippet = printf "%s…" (substr $snippet 0 137) -}}
+            {{- end -}}
+          {{- end -}}
+          {{- $existing = $existing | append (dict "Page" $source "Snippet" $snippet) -}}
+          {{- $index = merge $index (dict $key $existing) -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- return $index -}}
