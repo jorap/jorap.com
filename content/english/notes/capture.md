@@ -32,7 +32,19 @@ aliases: ["CODE"]
 
 Friction kills capture. One inbox, phone to desktop, weekly process - same as [[The Trusted Inbox]]. If I wouldn't act on it or cite it later, it doesn't get saved. Resonance is the filter, not FOMO.
 
-Extends [[PKM]]. Contradicts [[Signal vs Noise]] when I save first and filter later.
+## Example
+
+Mid-commute I get a sentence for a post and voice-memo it before the station noise eats it. One inbox, no tags yet. I sort on Sunday when the spark is already safe.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Frictionless Capture]] | Single pipe vs zero-friction everywhere when trust beats options |
+| contradicts | [[Signal vs Noise]] | when I save first and filter later |
+| extends | [[Frictionless Capture]] | Zero-friction inbox is the habit this note assumes |
+| extends | [[PKM]] | Capture is the first PKM move — save what hits you into one inbox |
+| implements | [[The Trusted Inbox]] | One inbox habit carries capture into something you'll empty |
 
 ## See also
 

@@ -15,7 +15,19 @@ aliases: ["Feynman Technique"]
 ---
 I explain notes like I'm teaching someone - gaps in my explanation show gaps in understanding.
 
-Extends [[Evergreen Notes]]. Contradicts [[Spaced Repetition]] when explaining gaps beats flashcard drill.
+## Example
+
+I try to explain [[Progressive Summarization]] out loud to my wife and stall on layer three. That gap tells me I do not own the idea yet and need another rewrite.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Spaced Repetition]] | Explain gaps vs card drill when narration beats scheduling |
+| contradicts | [[Spaced Repetition]] | when explaining gaps beats flashcard drill |
+| extends | [[Evergreen Notes]] | Teach-it-to-learn-it exposes gaps so evergreen notes stay honest and clear |
+| extends | [[Richard Feynman]] | Explain-like-I'm-twelve method named after him |
+| implements | [[Evergreen Notes]] | Explain-simple carries durable phrasing into belief |
 
 ## See also
 

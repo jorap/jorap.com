@@ -594,11 +594,15 @@ body.notes-graph-present-open {
   color: var(--color-warning, #b45309);
 }
 
-.notes-graph-filter__count--hub {
+.notes-graph-filter__count--top {
   color: var(--color-accent);
 }
 
-.notes-graph-filter__count--weak {
+.notes-graph-filter__count--middle {
+  color: var(--color-ink-muted);
+}
+
+.notes-graph-filter__count--bottom {
   color: var(--graph-weak, #c27803);
 }
 
@@ -722,6 +726,11 @@ body.notes-graph-present-open {
 
 .notes-filter.is-active .notes-filter__count {
   opacity: 0.9;
+}
+
+.notes-toolbar .btn-primary .notes-filter__count {
+  color: inherit;
+  opacity: 0.85;
 }
 
 .notes-status {
@@ -915,6 +924,20 @@ body.notes-graph-present-open {
 .notes-random-panel .notes-content {
   font-size: 0.9375rem;
   line-height: 1.6;
+}
+
+/* Panel title is h5; body ## headings must not outsize it or aside h6 labels */
+.notes-random-panel .notes-content :is(h2, h3, h4, h5, h6) {
+  font-size: var(--text-h6);
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: normal;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.notes-random-panel .notes-content :is(h2, h3, h4, h5, h6):first-child {
+  margin-top: 0;
 }
 
 .notes-random-panel .notes-content.mb-10 {

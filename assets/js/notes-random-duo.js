@@ -7,6 +7,7 @@
 
   var root = document.querySelector("[data-notes-random-duo]");
   var dataEl = document.querySelector(".notes-random-duo-data");
+  var graphEl = document.querySelector(".notes-random-duo-graph-data");
   var shuffleBtn = document.querySelector("[data-random-duo-shuffle]");
   var shuffleLeftBtn = document.querySelector("[data-random-duo-shuffle-left]");
   var shuffleRightBtn = document.querySelector("[data-random-duo-shuffle-right]");
@@ -15,17 +16,35 @@
   var sendPromptBtn = document.querySelector("[data-random-duo-send-prompt]");
   var promptEl = document.querySelector("[data-random-duo-prompt]");
   var emptyPageEl = document.querySelector(".notes-random-empty-page");
+  var pathResultEl = document.querySelector("[data-random-duo-path]");
+  var pathChainEl = document.querySelector("[data-random-duo-path-chain]");
+  var pathEmptyEl = document.querySelector("[data-random-duo-path-empty]");
   if (!root || !dataEl) return;
 
   var slots = root.querySelectorAll("[data-random-duo-slot]");
   var currentNotes = [null, null];
+  var currentPath = null;
   var pool = [];
+  var adj = Object.create(null);
+  var titleByUrl = Object.create(null);
   var aiChatUrl = "https://chatgpt.com/?q=";
 
   try {
     pool = JSON.parse(dataEl.textContent);
   } catch (e) {
     pool = [];
+  }
+
+  pool.forEach(function (item) {
+    titleByUrl[item.url] = item.title;
+  });
+
+  if (graphEl) {
+    try {
+      adj = core.buildAdjacency(JSON.parse(graphEl.textContent) || []);
+    } catch (e) {
+      adj = Object.create(null);
+    }
   }
 
   var ai = core.createAiHelpers({
@@ -66,12 +85,35 @@
       lines.push("");
     });
 
+    if (currentPath && currentPath.length > 1) {
+      lines.push(core.pathPromptLine(currentPath, titleByUrl));
+      lines.push("");
+    }
+
     lines.push("Please analyze:");
     lines.push("- Note 1 + Note 2 (together)");
     lines.push("");
     lines.push.apply(lines, core.connectionPromptTail("For this pairing, provide:"));
 
     return lines.join("\n");
+  }
+
+  function updatePath() {
+    var left = currentNotes[0];
+    var right = currentNotes[1];
+    currentPath = core.renderPathBetween({
+      resultEl: pathResultEl,
+      chainEl: pathChainEl,
+      emptyEl: pathEmptyEl,
+      adj: adj,
+      titleByUrl: titleByUrl,
+      start: left && left.url,
+      end: right && right.url,
+    });
+  }
+
+  function refreshPrompt() {
+    if (promptEl) promptEl.value = buildPrompt(currentNotes);
   }
 
   function equalizePanelHeights() {
@@ -117,7 +159,8 @@
       .then(function (note) {
         currentNotes[index] = note;
         syncSelect(index, note && note.url ? note.url : "");
-        if (promptEl) promptEl.value = buildPrompt(currentNotes);
+        updatePath();
+        refreshPrompt();
         window.requestAnimationFrame(equalizePanelHeights);
         return note;
       });
@@ -131,7 +174,8 @@
       });
       currentNotes = [null, null];
       syncAllSelects();
-      if (promptEl) promptEl.value = buildPrompt([]);
+      updatePath();
+      refreshPrompt();
       return;
     }
 
@@ -150,7 +194,8 @@
     ).then(function (notes) {
       currentNotes = notes;
       syncAllSelects();
-      if (promptEl) promptEl.value = buildPrompt(currentNotes);
+      updatePath();
+      refreshPrompt();
       window.requestAnimationFrame(equalizePanelHeights);
     });
   }

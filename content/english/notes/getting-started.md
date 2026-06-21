@@ -1,4 +1,5 @@
 ---
+note_kind: "index"
 title: "Getting Started"
 meta_title: "Getting Started - Notes Garden"
 description: "Notes garden = one claim per page, wikilinks, public graph. How this site works and how to add your first note."
@@ -17,11 +18,16 @@ draft: false
 
 Public when `draft: false`; hidden while `draft: true`. Each note opens with a definition I can quote in one breath - the graph and backlinks do the organizing. Start at [[Maps of Content]] or walk through the steps below. Faith parallel: [[Childlike Faith]] - beginner posture; receive the guide, don't perform expertise on day one.
 
-Extends [[Note Relationships]]. Index for this site.
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Maps of Content]] | when jumping into a hub beats reading onboarding first |
+| extends | [[Note Relationships]] | Getting started teaches the garden rules that note relationships formalize with typed links |
 
 ## Atomic rule
 
-**One note = one claim** I'd cite in conversation. No `##` sections, no "bottom line" - link out instead. See [[Atomic Notes]]. Each note also states what it **extends** and **contradicts** - see [[Note Relationships]].
+**One note = one claim** I'd cite in conversation. Optional **## Example** (one concrete scene) when the claim needs it; required **## Note Relationships** table (extends + contradicts at minimum, sorted by type). No other `##` sections — link out instead. See [[Atomic Notes]] and [[Note Relationships]].
 
 ## Create a note
 
@@ -57,9 +63,17 @@ What this site gives you:
 - **Resurfacing** - featured random note and [Random Duo](/notes/random-duo/) on [/notes/](/notes/)
 - **Flashcards** - ~12 habit spine notes (~20%) with `review: true` carry six scenario `cards:` in frontmatter plus `card_sets:` for Review grouping; habit prompts I drill at [/notes/review/](/notes/review/)
 
+## Page kinds
+
+| `note_kind` | What it is | Relationships table | Link from content notes? |
+|-------------|------------|---------------------|--------------------------|
+| `note` (default) | Atomic garden claim | Required (extends + contradicts minimum) | Yes — `[[wikilink]]` |
+| `index` | Hub / MOC ([[Maps of Content]], [[Eternal Principles]], this page) | Optional | Yes |
+| `meta` | Tool surface (Graph, Issues, Review, etc.) | Skip | No — URL only |
+
 ## Utility surfaces (don't wikilink)
 
-These five pages are **meta tools** (`note_kind: meta`), not garden ideas: [Graph](/notes/graph/), [Issues](/notes/issues/), [Flashcards](/notes/flashcards/), [Review](/notes/review/), [Random Duo](/notes/random-duo/). They are excluded from the graph node set, random pickers, and flashcard sources. **Don't `[[wikilink]]` to them** from content notes - link by URL when pointing readers at a tool. `npm run lint:utility-links` catches violations.
+These pages are **meta tools** (`note_kind: meta`), not garden ideas: [Graph](/notes/graph/), [Issues](/notes/issues/), [Flashcards](/notes/flashcards/), [Review](/notes/review/), [Backlinks](/notes/backlinks/), [Random Duo](/notes/random-duo/). They are excluded from the graph node set, random pickers, and flashcard sources. **No `## Note Relationships` table** on utility pages — link by URL when pointing readers at a tool. **Don't `[[wikilink]]` to them** from content notes. `npm run lint:utility-links` catches violations.
 
 ## Explore
 

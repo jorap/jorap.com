@@ -30,7 +30,18 @@ aliases: []
 ---
 My weekly review is a checklist - inbox, calendar, projects, one express action. Boring on purpose.
 
-Extends [[The Trusted Inbox]]. Contradicts [[Minimum Effective Dose]] when the full checklist beats the smallest review that works. Implements [[Periodic Knowledge Review]].
+## Example
+
+Same four steps every Sunday: inbox, calendar, active projects, one ship action. I do not reinvent the ritual for creativity. Boring repetition is the point.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Minimum Effective Dose]] | Full checklist vs smallest review when travel week shrinks time |
+| contradicts | [[Minimum Effective Dose]] | when the full checklist beats the smallest review that works |
+| extends | [[The Trusted Inbox]] | The weekly checklist empties the inbox first — the boring steps that keep trust alive |
+| implements | [[Periodic Knowledge Review]] | Carries it out in practice |
 
 ## See also
 

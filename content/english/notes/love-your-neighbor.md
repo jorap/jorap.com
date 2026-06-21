@@ -32,7 +32,16 @@ aliases: ["second commandment"]
 
 Jesus lifted Leviticus 19:18 to equal rank with loving God. The parable of the Good Samaritan (Luke 10) reframes the question - not "who counts?" but "who acted as neighbor?" The standard is the care you'd want if you were hurt on the road. Free grace doesn't erase the command - it frees me to love without keeping score for salvation.
 
-Extends [[Free Grace]]. Contradicts [[Love Your Enemies]] only when I limit "neighbor" to people I already like.
+## Example
+
+The neighbor I'd rather avoid lives two doors down and his trash bins are always in my way. Jesus didn't ask who counts - He asked whether I'm acting like a neighbor, the way I'd want someone to act if I were the one stuck.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Love Your Enemies]] | only when I limit "neighbor" to people I already like |
+| extends | [[Free Grace]] | Grace frees you to love neighbors without keeping score for salvation |
 
 ## See also
 

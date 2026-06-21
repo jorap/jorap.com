@@ -15,7 +15,19 @@ status: evergreen
 ---
 **PKM** is the boring name for how I save, organize, and use what I learn. Here's my unspectacular definition.
 
-Extends [[Getting Started]]. Contradicts [[The Collector's Fallacy]] when building the system feels like progress without output.
+## Example
+
+When a friend asks what PKM means I say it is how I save, sort, and actually use what I learn instead of hoarding tabs. Boring name, unspectacular habit, daily payoff.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[GTD vs PARA]] | Note garden vs task inbox when architecture beats action lists |
+| contradicts | [[The Collector's Fallacy]] | when building the system feels like progress without output |
+| extends | [[Getting Started]] | PKM is the plain name for the save-organize-use system getting started introduces |
+| extends | [[Personal Knowledge Management]] | Umbrella term this garden sits under |
+| implements | [[Getting Started]] | Garden rules carry PKM into how this site actually works |
 
 ## See also
 

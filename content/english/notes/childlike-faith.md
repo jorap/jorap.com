@@ -32,7 +32,16 @@ aliases: ["become like children", "faith like a child"]
 
 Children don't enter the kingdom by achievement; they receive care they didn't earn. Jesus wasn't praising ignorance - he was naming the posture [[Free Grace]] requires: stop calculating worthiness and receive the gift. Same beginner posture as [[Getting Started]] in the garden - assume you're new, follow the guide, don't perform expertise you don't have.
 
-Extends [[Free Grace]]. Contradicts [[Compounding]] when I treat faith as a merit account I'm building.
+## Example
+
+My daughter asked for a snack without calculating whether she'd been good enough today. I caught myself doing the opposite with God - running a mental scoreboard before I'd even say good morning.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Compounding]] | when I treat faith as a merit account I'm building |
+| extends | [[Free Grace]] | You enter the kingdom like a kid receiving a gift, not negotiating merit |
 
 ## See also
 

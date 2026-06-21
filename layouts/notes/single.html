@@ -45,7 +45,7 @@
 
             {{ with $outgoing }}
               <aside class="notes-outgoing border-divider mb-6 rounded border p-5">
-                <h2 class="h6 mb-3">Links from this Note</h2>
+                <h2 id="links-from-this-note" class="h6 mb-3">Links from this Note</h2>
                 <ul class="notes-outgoing-list grid gap-3 sm:grid-cols-2">
                   {{ range . }}
                     {{ partial "notes/note-link-card.html" (dict "Page" .Page "Href" .Href "Title" .Label) }}
@@ -58,7 +58,7 @@
 
             {{ with $backlinks }}
               <aside class="notes-backlinks border-divider mt-6 rounded border p-5">
-                <h2 class="h6 mb-3">Backlinks</h2>
+                <h2 id="backlinks" class="h6 mb-3">Backlinks</h2>
                 <ul class="notes-backlinks-list grid gap-3 sm:grid-cols-2">
                   {{ range . }}
                     {{ partial "notes/note-link-card.html" (dict "Page" .Page) }}

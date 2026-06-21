@@ -1,6 +1,8 @@
 {{- /*
-  Table of contents for notes — parsed from RawContent, not .Fragments.Headings.
+  Table of contents for notes — body headings from RawContent, plus page sections
+  (flashcards, outgoing links, backlinks, related posts, random note) when present.
 */ -}}
+{{- $page := . -}}
 {{- $start := 2 -}}
 {{- $end := 5 -}}
 {{- $ordered := true -}}
@@ -8,7 +10,7 @@
 {{- $skipIds := slice "see-also" -}}
 {{- $html := "" -}}
 
-{{- $raw := .RawContent -}}
+{{- $raw := $page.RawContent -}}
 {{- $raw = replaceRE `(?s)\n## See also[\s\S]*$` "" $raw -}}
 
 {{- $headings := slice -}}
@@ -28,6 +30,31 @@
     {{- end -}}
   {{- end -}}
 {{- end -}}
+
+{{- $extras := slice -}}
+{{- if gt (len (partial "notes/cards-for-page.html" $page)) 0 -}}
+  {{- $extras = $extras | append (dict "level" 2 "title" "Flashcards" "id" "flashcards") -}}
+{{- end -}}
+{{- $outgoing := partial "notes/outgoing-links.html" $page | default slice -}}
+{{- if gt (len $outgoing) 0 -}}
+  {{- $extras = $extras | append (dict "level" 2 "title" "Links from this Note" "id" "links-from-this-note") -}}
+{{- end -}}
+{{- $backlinkIndex := partialCached "notes/backlinks-index.html" site "backlinks-index-v1" -}}
+{{- $backlinks := index $backlinkIndex $page.RelPermalink | default slice -}}
+{{- if gt (len $backlinks) 0 -}}
+  {{- $extras = $extras | append (dict "level" 2 "title" "Backlinks" "id" "backlinks") -}}
+{{- end -}}
+{{- $relatedLimit := site.Params.notes.related_posts_limit | default 3 -}}
+{{- $relatedPosts := partial "blog/related-posts-lookup.html" (dict "Context" $page "Limit" $relatedLimit) | default slice -}}
+{{- if gt (len $relatedPosts) 0 -}}
+  {{- $extras = $extras | append (dict "level" 2 "title" (T "related_posts") "id" "related-posts") -}}
+{{- end -}}
+{{- $randomPool := partial "notes/random-pool.html" $page -}}
+{{- $randomPool = where $randomPool "url" "ne" $page.RelPermalink -}}
+{{- if ge (len $randomPool) 1 -}}
+  {{- $extras = $extras | append (dict "level" 2 "title" (T "random_blog_note") "id" "random-note") -}}
+{{- end -}}
+{{- $headings = $headings | append $extras -}}
 
 {{- if $headings -}}
   {{- $items := "" -}}

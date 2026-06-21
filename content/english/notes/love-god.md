@@ -32,7 +32,16 @@ aliases: ["greatest commandment"]
 
 When a scribe asked which commandment was first, Jesus quoted Deuteronomy 6:5 - whole-person devotion, not a corner of the week. Heart (affections), soul (will and life), mind (thought), strength (effort). Under [[Free Grace]], this is the first call on a life already saved by faith - love flowing from grace received, not love offered as payment for eternal life.
 
-Extends [[Free Grace]]. Contradicts [[Don't Worry]] when worry replaces trust.
+## Example
+
+Sunday worship felt high but I hadn't opened my Bible since last week. Loving God with all my heart, soul, mind, and strength means more than one hour in a pew - it means I actually feed at least one of those today.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Don't Worry]] | when worry replaces trust |
+| extends | [[Free Grace]] | Love flows from grace already received, not payment offered for eternal life |
 
 ## See also
 

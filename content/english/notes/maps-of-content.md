@@ -1,4 +1,5 @@
 ---
+note_kind: "index"
 title: "Maps of Content"
 meta_title: "Maps of Content (MOC) - Index Pages That Think"
 description: "A MOC is a curated index of notes on a topic - a table of contents I write by hand."
@@ -32,7 +33,6 @@ status: evergreen
 - [[Analog Capture Tools]]
 - [[Mobile Capture Workflows]]
 - [[The Trusted Inbox]]
-- [[RSS for Research]]
 - [[Signal vs Noise]]
 
 ### Organize
@@ -71,6 +71,8 @@ status: evergreen
 
 - [[Free Grace]]
 - [[Eternal Principles]]
+- [[Discipleship]]
+- [[Workplace Principles]]
 - [[Love God]]
 - [[Love Your Neighbor]]
 - [[The Golden Rule]]
@@ -78,7 +80,7 @@ status: evergreen
 
 ### Mental models
 
-- [[Mental Models List]]
+- [[Mental Models]]
 
 ### Systems & tools
 
@@ -86,7 +88,15 @@ status: evergreen
 - [[Local-first Software]]
 - [[Future-Proofing Knowledge]]
 
-Extends [[Active Knowledge Curation]]. Contradicts [[Atomic Notes]] when an index gathers claims that should stay atomic. Index for the garden.
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Graph View Analytics]] | Curated index vs link rank when judgment beats counts |
+| contradicts | [[Atomic Notes]] | when an index gathers claims that should stay atomic |
+| extends | [[Active Knowledge Curation]] | MOCs are hand-built hubs that curate what you actually care about after you prune |
+| extends | [[Table of Contents]] | Hand-written TOC — what a MOC is at heart |
+| implements | [[Active Knowledge Curation]] | Hand-built hub carries curator work into one doorway |
 
 ## See also
 

@@ -32,7 +32,16 @@ aliases: ["light of the world", "city on a hill"]
 
 You're the light of the world, like a city on a hill. The point isn't performance for applause - Jesus warns against practicing righteousness to be seen by people (Matthew 6:1). Good works shine so God gets credit for [[Free Grace]] at work in a saved life, not so I build a personal brand. Parallel in the garden: [[Drafting in Public]] puts rough notes in the open so ideas get tested - same visibility instinct, different aim (glorify God, not the author).
 
-Extends [[Free Grace]]. Contradicts [[The Garage Concept]] when I hide good works out of false modesty.
+## Example
+
+I helped a neighbor move furniture and almost posted about it before I remembered why I did it. The light isn't for my brand - it's so someone sees good work and thinks God is real, not that I'm awesome.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[The Garage Concept]] | when I hide good works out of false modesty |
+| extends | [[Free Grace]] | Good works shine so God gets credit for grace at work, not so you build a brand |
 
 ## See also
 

@@ -15,7 +15,18 @@ aliases: []
 ---
 When a note is just a quote from someone smarter, I add a section: what do I actually believe from scratch. Not the same job as [[Eternal Principles]] - those are Jesus' received teachings grounded in [[Free Grace]], not claims I reason up from zero.
 
-Extends [[Synthesis as a Goal]]. Contradicts [[Eternal Principles]] when I treat gospel ethics as ideas I invented.
+## Example
+
+My note on PARA is mostly Tiago Forte quotes until I add what I actually do with project folders. That rewrite is me stripping borrowed words down to my own setup.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Mental Models]] | Strip-to-basics vs pick-a-model when a lens beats invention |
+| contradicts | [[Eternal Principles]] | when I treat gospel ethics as ideas I invented |
+| extends | [[Elon Musk]] | Famous modern example of strip-to-basics reasoning |
+| extends | [[Synthesis as a Goal]] | Synthesis means rebuilding a note from what you actually believe, not someone else's quote |
 
 ## See also
 

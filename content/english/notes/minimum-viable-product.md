@@ -17,7 +17,19 @@ status: evergreen
 
 I'd rather publish a rough note or prototype and learn than polish in private for months.
 
-Extends [[Creative Output]]. Contradicts [[Evergreen Notes]] when rough ship beats two-year polish.
+## Example
+
+I sat on a half-written post about notes tooling for three months because the screenshots weren't perfect. I published one rough page with broken formatting, got two emails from people who needed exactly that, and learned more than another month of private polishing would have.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Evergreen Notes]] | MVP cut vs two-year phrasing when speed beats permanence |
+| contradicts | [[Evergreen Notes]] | when rough ship beats two-year polish |
+| extends | [[Creative Output]] | Ship the smallest version that tests the idea instead of polishing a fantasy in private |
+| extends | [[Lean Startup]] | Ship-to-learn loop Ries named |
+| implements | [[Creative Output]] | Rough ship carries express when polish would miss the window |
 
 ## See also
 

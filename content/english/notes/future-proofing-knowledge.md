@@ -15,7 +15,18 @@ aliases: ["future proofing knowledge"]
 ---
 Future-proofing isn't predicting tech for me - it's plain text, open tools, and exports I test before I need them.
 
-Extends [[Local-first Software]]. Contradicts [[Building a Personal API]] when plain exports beat automation-ready structure.
+## Example
+
+All my notes live as markdown in git; if Hugo disappeared tomorrow I would still read them in any editor. I run a restore from backup twice a year so future-proof is not just a vibe.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Building a Personal API]] | Plain export vs structured API when boring files survive churn |
+| contradicts | [[Building a Personal API]] | when plain exports beat automation-ready structure |
+| extends | [[Local-first Software]] | Local-first plain files are how you future-proof before an app shuts down |
+| extends | [[Plain Text Files]] | Boring format that survives app churn |
 
 ## See also
 

@@ -32,7 +32,16 @@ aliases: ["do unto others"]
 
 It's positive and active: *do* unto others, not merely avoid doing harm. The check is experiential - how would I want to be spoken to, helped, forgiven, included? That sets the floor for every interaction. [[Free Grace]] keeps it from becoming a merit system: I treat others well because Christ treated me well first.
 
-Extends [[Free Grace]]. Contradicts [[Love Your Enemies]] when I only apply it to people who already treat me well.
+## Example
+
+My thumb was on the post button with a critique that was probably true and definitely cruel. I paused and asked how I'd want someone to say that to me - and that one check changed the whole tone.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Love Your Enemies]] | when I only apply it to people who already treat me well |
+| extends | [[Free Grace]] | Treat others well because Christ treated you well first — not to buy heaven |
 
 ## See also
 

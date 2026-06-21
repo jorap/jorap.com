@@ -32,7 +32,17 @@ aliases: ["give in secret", "pray in secret", "fast in secret"]
 
 Jesus brackets the [[Ask Seek Knock]] with the same warning: religious performance for an audience is its own reward. Secret devotion pairs with [[Ask Seek Knock]] (how to pray) and contrasts [[Let Your Light Shine]] - some good works shine publicly for God's glory; other devotion stays hidden so the left hand doesn't know what the right is doing. [[Free Grace]] means I'm not earning visibility points with God.
 
-Extends [[Ask Seek Knock]]. Contradicts [[Drafting in Public]] when every act of piety becomes content for applause.
+## Example
+
+I almost posted a photo of my Bible and coffee because the quiet time felt wasted if nobody saw it. Secret devotion means the Father who already saved me is enough audience - even when the feed gets zero likes.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Let Your Light Shine]] | Hidden piety vs public good works when the audience is Father alone |
+| contradicts | [[Drafting in Public]] | when every act of piety becomes content for applause |
+| extends | [[Ask Seek Knock]] | Secret give-pray-fast pairs with how Jesus taught us to pray — devotion for God's eyes, not the crowd |
 
 ## See also
 

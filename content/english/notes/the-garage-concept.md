@@ -15,7 +15,18 @@ aliases: ["Garage Concept"]
 ---
 The garage holds tools, scraps, experiments. The showroom is the blog. I don't confuse the two.
 
-Extends [[Digital Garden]]. Contradicts [[Drafting in Public]] when private workshop beats publishing half-baked notes.
+## Example
+
+Half-finished drafts and ugly snippets live in private files; the Hugo site is the showroom I invite people into. I do not publish the garage mess by accident.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Digital Garden]] | Private garage vs public growth when drafts need shelter |
+| contradicts | [[Drafting in Public]] | when private workshop beats publishing half-baked notes |
+| extends | [[Digital Garden]] | The garage is messy workshop; the garden showroom is public — you need both lanes |
+| extends | [[Sketchpad]] | Private workshop before anything goes public |
 
 ## See also
 

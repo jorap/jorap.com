@@ -15,7 +15,18 @@ aliases: []
 ---
 I cite sources in notes not for academia - so I can trust my own synthesis and find the original six months later.
 
-Extends [[Synthesis as a Goal]]. Contradicts [[Progressive Summarization]] when citations beat distill-on-demand layers.
+## Example
+
+I paste the article URL under the quote so six months later I know if the source still says what I thought. Without that line my own synthesis starts to feel like gospel.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Progressive Summarization]] | Source-first citations vs bold layers when provenance must stay visible |
+| contradicts | [[Progressive Summarization]] | when citations beat distill-on-demand layers |
+| extends | [[Literature Notes]] | Source-first lane before synthesis |
+| extends | [[Synthesis as a Goal]] | You cite sources so your own synthesis stays trustworthy six months later |
 
 ## See also
 

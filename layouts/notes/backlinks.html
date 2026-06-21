@@ -1,0 +1,54 @@
+{{ define "main" }}
+  {{- $index := partialCached "notes/backlinks-index.html" site "backlinks-index-v1" -}}
+  {{- $notes := partial "notes/pages.html" (dict) -}}
+  {{- $rows := slice -}}
+  {{- range $notes -}}
+    {{- $key := .RelPermalink -}}
+    {{- $backlinks := index $index $key | default slice -}}
+    {{- if gt (len $backlinks) 0 -}}
+      {{- $rows = $rows | append (dict "Page" . "Backlinks" $backlinks "Count" (len $backlinks)) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $rows = sort $rows "Count" "desc" -}}
+
+  {{ partial "page-header" . }}
+
+  <section class="section">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          {{ partial "notes/toolbar.html" (dict "Context" . "active" "backlinks") }}
+
+          <div class="content notes-content mb-6">
+            {{ partial "notes/render-content.html" . }}
+          </div>
+
+          {{- if gt (len $rows) 0 -}}
+            <div class="notes-backlinks-index space-y-6">
+              {{- range $rows -}}
+                <section class="notes-backlinks-group border-divider rounded border p-5">
+                  <h2 class="h6 mb-3">
+                    <a class="text-accent no-underline hover:underline" href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+                    <span class="text-ink-muted font-normal">({{ .Count }} backlink{{ if ne .Count 1 }}s{{ end }})</span>
+                  </h2>
+                  <ul class="notes-backlinks-list mb-0 list-none space-y-2 p-0 text-sm">
+                    {{- range .Backlinks -}}
+                      <li>
+                        <a class="text-accent no-underline hover:underline" href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+                        {{- with .Snippet -}}
+                          <span class="text-ink-muted"> — {{ . }}</span>
+                        {{- end -}}
+                      </li>
+                    {{- end -}}
+                  </ul>
+                </section>
+              {{- end -}}
+            </div>
+          {{- else -}}
+            <p class="text-ink-muted text-sm">No backlinks yet. Add <code>[[wikilinks]]</code> between notes.</p>
+          {{- end -}}
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

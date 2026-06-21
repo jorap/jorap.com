@@ -32,7 +32,16 @@ aliases: ["remain in me", "the vine and branches"]
 
 Abiding is ongoing dependence, not a one-time conversion event. Pruning hurts but serves fruitfulness. Under [[Free Grace]], fruit doesn't earn the branch's place in the vine - the branch bears fruit because it's connected. Self-powered "fruit" without abiding is the dead wood Jesus removes - same trap as [[Compounding]] when I treat spiritual growth as pure self-stacked effort.
 
-Extends [[Free Grace]]. Contradicts [[Compounding]] when I treat spiritual growth as pure self-stacked effort.
+## Example
+
+I snap at my kid after a week with almost no prayer or Scripture, and I know where the fruit went. Abiding is not a badge I earned once at conversion. It is the morning choice to open the Bible before the news feed wins again.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Compounding]] | when I treat spiritual growth as pure self-stacked effort |
+| extends | [[Free Grace]] | Fruit comes from staying in Christ, not from earning your spot on the vine |
 
 ## See also
 

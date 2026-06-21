@@ -15,7 +15,18 @@ aliases: []
 ---
 I love my wiki, but sometimes paper wins - meetings, sermons, the pocket notebook that survives a dead phone battery. Sermon capture often becomes [[Eternal Principles]] notes after weekly review.
 
-Extends [[Capture]]. Contradicts [[Digital Minimalism]] when paper wins over fewer digital pipes. Alternative to [[Mobile Capture Workflows]].
+## Example
+
+The phone dies mid-sermon and the pocket notebook still works. I scribble Philippians references in the margin and type them into the wiki during Friday review.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Mobile Capture Workflows]] | Different tool, same job |
+| contradicts | [[Digital Minimalism]] | when paper wins over fewer digital pipes |
+| extends | [[Capture]] | Paper wins when your phone dies or you're stuck in a meeting |
+| extends | [[Commonplace Book]] | Historical paper capture habit — same low-friction lane |
 
 ## See also
 

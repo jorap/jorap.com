@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Atomic Notes", "Zettelkasten", "PKM", "Note Taking", "Second Brain", "Linking", "Information Architecture"]
+tags: ["Atomic Notes", "PKM", "Note Taking", "Second Brain", "Linking", "Information Architecture"]
 slug: "atomic-notes"
 aliases: ["atom", "Atomic Design for Notes", "Atomic Design"]
 status: evergreen
@@ -34,7 +34,18 @@ draft: false
 
 Small notes stack like Lego blocks - claim, how-to, example - linked, not merged. Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing. If I need headings inside one file, I probably need two notes. Faith parallel: [[Let Your Yes Be Yes]] - say one plain thing; let your yes be yes.
 
-Extends [[PKM]]. Contradicts [[Maps of Content]] when I bury claims inside a hub instead of one file per idea.
+## Example
+
+"Why middle-click saves tab chaos" is one claim — I'd cite it alone. "Browser tips and meeting notes" is two — split into separate notes and link them.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Mind Mapping]] | Single file per idea vs one bubble map when splitting early |
+| contradicts | [[Maps of Content]] | when I bury claims inside a hub instead of one file per idea |
+| extends | [[PKM]] | One-claim notes are the Lego blocks PKM stacks and links |
+| implements | [[PKM]] | One-claim files are the Lego blocks PKM stacks |
 
 ## See also
 

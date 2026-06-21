@@ -15,7 +15,19 @@ aliases: ["Distraction-Free Writing", "distraction free writing"]
 ---
 Notes are inventory. Output is the point - blog posts, sermons, code, dinner experiments. When I'm testing an idea, I ship an [[Minimum Viable Product]] before I polish. Faith parallel: [[The Wise Builder]] - hear Jesus and do; [[Great Commission]] - truth shared, not hoarded in the garden.
 
-Extends [[Building a Second Brain]]. Contradicts [[The Collector's Fallacy]] when ship pressure makes me skip capture I'd need for the draft.
+## Example
+
+Friday I turn three inbox sparks into one published post, even if the prose is rough. Notes are inventory; the blog post is the point.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Minimum Viable Product]] | Polished ship vs rough MVP when deadline forces cut scope |
+| contradicts | [[The Collector's Fallacy]] | when ship pressure makes me skip capture I'd need for the draft |
+| extends | [[Building a Second Brain]] | Offloaded notes exist to express ideas, not just store inventory |
+| extends | [[Ship It]] | Finish-and-publish pressure this note defends |
+| implements | [[Building a Second Brain]] | Express lane carries CODE's output step |
 
 ## See also
 

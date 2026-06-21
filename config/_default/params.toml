@@ -44,10 +44,7 @@ strict_unlinked = false
 unlinked_min_length = 6
 stale_days = 90
 recent_limit = 12
-graph_hub_percentile = 85
-graph_hub_min_total = 15
-graph_weak_percentile = 25
-graph_weak_max_total = 8
+graph_tail_percentile = 20
 
 # Blog single: automated related content sections
 [blog]

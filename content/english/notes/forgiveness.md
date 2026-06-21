@@ -32,7 +32,16 @@ aliases: ["forgive from the heart"]
 
 The [[Ask Seek Knock]] builds forgiveness into daily rhythm. The parable of the unforgiving servant (Matthew 18) makes the math plain: the king forgave an unpayable debt - picture of [[Free Grace]] already given - and the servant's refusal to forgive a small debt exposed a heart out of step with mercy. Same move as [[Sunk Cost Fallacy]] in reverse: I stop treating past hurt as a reason to keep collecting on a debt that's already been cleared. Seventy times seven ends the ledger-keeping. For believers, unforgiveness chokes fellowship and joy; it doesn't undo eternal life bought by faith.
 
-Extends [[Free Grace]]. Contradicts [[Sunk Cost Fallacy]] when I treat old hurt as debt I'm owed forever.
+## Example
+
+I said the prayer about forgiving others on autopilot and skipped that line because I'm still mad at my brother from last Sunday. You can't ask for mercy with one breath and hold a grudge with the next.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Sunk Cost Fallacy]] | when I treat old hurt as debt I'm owed forever |
+| extends | [[Free Grace]] | You forgive because God already cleared a debt you couldn't pay |
 
 ## See also
 

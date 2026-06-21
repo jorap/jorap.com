@@ -15,7 +15,18 @@ aliases: []
 ---
 **Slow Productivity** pushes back on busy-as-virtue. I run fewer active projects so notes become output, not backlog. Overlap with [[Don't Worry]]: less frantic throughput, more trust that depth beats volume.
 
-Extends [[Creative Output]]. Contradicts [[The 12 Week Year]] when fewer deep projects beat quarterly sprints.
+## Example
+
+I cut active projects from six to three last quarter and finally shipped two posts instead of collecting research on all six. Busy is not virtue; finished work is.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[The 12 Week Year]] | Few deep projects vs quarterly sprint when pace should slow |
+| contradicts | [[The 12 Week Year]] | when fewer deep projects beat quarterly sprints |
+| extends | [[Creative Output]] | Fewer active projects turn notes into finished output instead of endless backlog |
+| extends | [[Deep Work]] | Fewer deep projects — Newport's focus frame nearby |
 
 ## See also
 

@@ -51,5 +51,3 @@ draft: false
 - Validate with `npm run lint:cards` before commit.
 
 New spine note scaffold: `hugo new content/english/notes/my-note.md --kind notes-review`.
-
-Extends [[Getting Started]]. Implements [[Spaced Repetition]].

@@ -32,7 +32,17 @@ aliases: ["blessed are the peacemakers"]
 
 Peacemaking is work: reconciliation, truth spoken in love, de-escalation when others want a fight. It's not peace-at-any-price or avoiding hard conversations. The blessing ties peacemaking to family resemblance - acting like the Father who reconciled me to Himself through [[Free Grace]] before I reconciled with anyone.
 
-Extends [[Free Grace]]. Contradicts [[Love Your Enemies]] when I confuse peace with never confronting wrong.
+## Example
+
+Two friends were feuding and both wanted me to pick a side over dinner. I didn't stoke it - I called the one I wronged first and asked what it would take to actually fix things, not just keep the room quiet.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Love Your Enemies]] | Make peace vs love enemies when the job is ending the fight |
+| contradicts | [[Love Your Enemies]] | when I confuse peace with never confronting wrong |
+| extends | [[Free Grace]] | Peacemaking mirrors the Father who reconciled you by grace before you reconciled with anyone |
 
 ## See also
 

@@ -32,7 +32,16 @@ aliases: ["give to Caesar", "Caesar and God"]
 
 The coin bore Caesar's image; give it back to him. You bear God's image; give yourself to Him. Jesus avoids both revolutionary tax refusal and idolizing Rome. [[Seek the Kingdom First]] still ranks the kingdom above every earthly master, but that doesn't excuse dodging legitimate civic responsibility.
 
-Extends [[Seek the Kingdom First]]. Contradicts [[Treasure in Heaven]] when I treat the state as ultimate lord.
+## Example
+
+The tax bill landed and part of me wanted to treat paying it like betraying the kingdom. Jesus said give Caesar what's on the coin and give God what's made in His image - that's me, not my outrage.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Treasure in Heaven]] | when I treat the state as ultimate lord |
+| extends | [[Seek the Kingdom First]] | Kingdom first doesn't excuse dodging civic duty — give Caesar his coin, God yourself |
 
 ## See also
 

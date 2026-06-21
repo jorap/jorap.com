@@ -15,7 +15,18 @@ aliases: []
 ---
 Tags, categories, dates, aliases - metadata should help me find notes, not become a second job.
 
-Extends [[PARA Method]]. Contradicts [[Building a Personal API]] when light tags beat automation-ready frontmatter.
+## Example
+
+I use a handful of tags and one status field, not a taxonomy I have to maintain like a second job. If metadata takes longer than writing the note, I cut a field.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Building a Personal API]] | Light tags vs machine schema when fewer fields stay honest |
+| contradicts | [[Building a Personal API]] | when light tags beat automation-ready frontmatter |
+| extends | [[PARA Method]] | Tags and aliases help you find notes inside PARA buckets without taxonomy hell |
+| extends | [[Taxonomy]] | Tag-and-category design this note sizes |
 
 ## See also
 

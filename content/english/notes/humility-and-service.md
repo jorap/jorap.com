@@ -32,7 +32,18 @@ aliases: ["servant leadership", "the last shall be first"]
 
 He washed feet the night before the cross. Status in the kingdom runs opposite to the world's ladder: exalt yourself and you'll be humbled; humble yourself and you'll be exalted. Service is the path to kingdom reward and greatness before God - not the price of [[Free Grace]].
 
-Extends [[Free Grace]]. Contradicts [[Let Your Light Shine]] when visibility becomes the goal instead of the byproduct.
+## Example
+
+I served at church on Sunday and came home expecting my family to serve me back. That's the world's ladder, not Jesus' - wash feet here too, not only where people can see you.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Let Your Light Shine]] | Hidden service vs visible good when modesty hides the work |
+| contradicts | [[Let Your Light Shine]] | when visibility becomes the goal instead of the byproduct |
+| extends | [[Free Grace]] | Service is kingdom greatness, not the price you pay for grace you already received |
+| extends | [[Servant Leadership]] | Lead-by-serving frame Jesus models |
 
 ## See also
 

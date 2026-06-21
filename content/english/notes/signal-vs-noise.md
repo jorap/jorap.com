@@ -30,7 +30,18 @@ aliases: []
 ---
 Most content is noise. PKM fails if capture doesn't filter. I save signal - stuff that changes action or belief. Faith parallel: [[Seek the Kingdom First]] - God's reign gets first place; everything else is judged against that filter.
 
-Extends [[Capture]]. Contradicts [[RSS for Research]] when I need standing feeds even if most entries are noise this month.
+## Example
+
+My thumb hovers over save and I ask if this changes what I will do this month. If it is just interesting, I admire it and move on with no inbox slot.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Active Knowledge Curation]] | Filter at save vs curate after capture |
+| contradicts | [[Capture]] | when I save first and filter later |
+| extends | [[Capture]] | Capture fails without a filter — save signal that changes action, skip the noise |
+| extends | [[Information Diet]] | What you let in — filter frame next to capture |
 
 ## See also
 

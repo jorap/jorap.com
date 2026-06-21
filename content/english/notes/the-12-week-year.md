@@ -15,7 +15,18 @@ aliases: ["12 Week Year"]
 ---
 Twelve-week years compress annual goals into quarters I actually feel. I map wiki projects to 12-week arcs.
 
-Extends [[Periodic Knowledge Review]]. Contradicts [[Slow Productivity]] when quarterly intensity beats fewer deeper projects.
+## Example
+
+I'd been treating January goals like they had all year to breathe - by March nothing felt urgent. I broke one wiki project into twelve weeks with a scoreboard on the fridge, and the deadline finally hit my chest instead of disappearing into December.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Slow Productivity]] | Quarterly sprint vs fewer deep projects when scoreboard beats depth |
+| contradicts | [[Slow Productivity]] | when quarterly intensity beats fewer deeper projects |
+| extends | [[Periodic Knowledge Review]] | Twelve-week arcs compress goals into review quarters you actually feel |
+| extends | [[Quarterly Planning]] | Sprint scoreboard rhythm this method compresses |
 
 ## See also
 

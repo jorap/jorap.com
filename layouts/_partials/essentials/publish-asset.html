@@ -1,5 +1,5 @@
 {{/*
-  Cache-bust a Hugo resource with content hashing (dev + production).
+  Cache-bust a Hugo resource with content hashing (production only).
   Minify by default in production only.
 
   Params:
@@ -11,4 +11,7 @@
 {{- if $minify -}}
   {{- $asset = $asset | minify -}}
 {{- end -}}
-{{- return ($asset | fingerprint) -}}
+{{- if hugo.IsProduction -}}
+  {{- $asset = $asset | fingerprint -}}
+{{- end -}}
+{{- return $asset -}}

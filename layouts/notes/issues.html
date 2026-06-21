@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v3" -}}
+  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v6" -}}
   {{- $notes := $data.notes -}}
   {{- $notes = sort $notes "total" "desc" -}}
 
@@ -22,6 +22,7 @@
                 <li><strong>{{ $data.brokenCount }}</strong> broken wikilink{{ if ne $data.brokenCount 1 }}s{{ end }} (target note does not exist)</li>
                 <li><strong>{{ $data.pipeCount }}</strong> pipe wikilink{{ if ne $data.pipeCount 1 }}s{{ end }} (deprecated <code>[[note|label]]</code> syntax)</li>
                 <li><strong>{{ $data.unlinkedCount }}</strong> unlinked mention{{ if ne $data.unlinkedCount 1 }}s{{ end }} (note title in prose without <code>[[wikilink]]</code>)</li>
+                <li><strong>{{ $data.structureCount }}</strong> structure issue{{ if ne $data.structureCount 1 }}s{{ end }} (missing typed links)</li>
                 <li><strong>{{ $data.notesWithIssues }}</strong> note{{ if ne $data.notesWithIssues 1 }}s{{ end }} affected</li>
               </ul>
             {{- else -}}
@@ -57,6 +58,29 @@
                         "{{ .mention }}" →
                         <a class="text-accent no-underline hover:underline" href="{{ .suggestPage.RelPermalink }}"><code>[[{{ .suggestTitle }}]]</code></a>
                       </li>
+                    {{- end -}}
+                    {{- range .structure -}}
+                      {{- if eq .type "missingTable" -}}
+                        <li class="notes-issues__item notes-issues__item--structure">
+                          <strong>Missing table:</strong>
+                          add a <code>## Note Relationships</code> table with <code>extends</code> and <code>contradicts</code> rows.
+                        </li>
+                      {{- else if eq .type "missingExtends" -}}
+                        <li class="notes-issues__item notes-issues__item--structure">
+                          <strong>Missing extends:</strong>
+                          add <code>| extends | [[Note Title]] | reason |</code> to <strong>Note Relationships</strong>.
+                        </li>
+                      {{- else if eq .type "missingContradicts" -}}
+                        <li class="notes-issues__item notes-issues__item--structure">
+                          <strong>Missing contradicts:</strong>
+                          add <code>| contradicts | [[Note Title]] | when … |</code> to <strong>Note Relationships</strong>.
+                        </li>
+                      {{- else if eq .type "extraSection" -}}
+                        <li class="notes-issues__item notes-issues__item--structure">
+                          <strong>Extra section:</strong>
+                          <code>## {{ .heading }}</code> — use <code>## Example</code>, <code>## Note Relationships</code>, or optional <code>## See also</code> only.
+                        </li>
+                      {{- end -}}
                     {{- end -}}
                   </ul>
                 </section>

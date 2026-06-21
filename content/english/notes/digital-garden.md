@@ -15,7 +15,19 @@ aliases: ["Advantages of Digital Gardens"]
 ---
 My digital garden is where notes grow in public - linked, imperfect, alive.
 
-Extends [[Evergreen Notes]]. Contradicts [[The Garage Concept]] when public growth beats keeping scraps in the garage.
+## Example
+
+This site is where notes grow in public, typos and dated takes included. I update a page when reality changes instead of pretending the first draft was final.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Drafting in Public]] | Slow public growth vs ship drafts for feedback |
+| contradicts | [[The Garage Concept]] | when public growth beats keeping scraps in the garage |
+| extends | [[Evergreen Notes]] | Evergreen notes go public so they keep growing instead of rotting in a folder |
+| extends | [[Work in Progress]] | Public drafts and visible growth — garden ethos |
+| implements | [[Evergreen Notes]] | Public garden carries durable notes into visible growth |
 
 ## See also
 

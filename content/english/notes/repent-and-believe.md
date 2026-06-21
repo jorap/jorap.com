@@ -32,7 +32,16 @@ aliases: ["repentance", "believe the gospel"]
 
 Repentance is a change of mind and direction - not a down payment on salvation. Belief is reliance on Christ's promise, not mere intellectual agreement. Under [[Free Grace]], this pair is how life begins: receive the kingdom as gift, then live under the King's rule in response. [[There Is No Perfect Solution]] - the kingdom is at hand now, not when you've fixed yourself.
 
-Extends [[Free Grace]]. Contradicts [[There Is No Perfect Solution]] when I delay entry until I've fixed myself.
+## Example
+
+I kept telling myself I'd trust Jesus once my habits looked respectable. Repent and believe isn't a finish line you cross when you're fixed - it's the door you walk through today, messy as you are.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[There Is No Perfect Solution]] | when I delay entry until I've fixed myself |
+| extends | [[Free Grace]] | Turn and trust is how life begins — you receive the kingdom as gift, then live under the King |
 
 ## See also
 

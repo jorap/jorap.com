@@ -26,7 +26,7 @@
 
     core.renderNoteIntoSlot(slot, pick, {
       headingTag: "h2",
-      headingClass: "h4 mb-3",
+      headingClass: "h5 mb-3",
       panelExtraClass: "notes-featured-random-panel",
     });
   }

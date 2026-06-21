@@ -32,7 +32,16 @@ aliases: ["narrow gate", "broad road"]
 
 In [[Free Grace]] terms, the narrow gate is [[Free Grace]] in Christ - not the broad road of self-righteousness, religion-by-works, or moral performance as salvation. Jesus closes the Sermon on the Mount with a fork: not everyone who says "Lord, Lord" enters (Matthew 7:21-23). Those are false professors who never truly believed, not believers who stumbled. Discipleship on the narrow path is costly - cross-bearing, enemy-love, truth-telling - but distinct from how eternal life is received: free, by faith, through grace.
 
-Extends [[Free Grace]]. Contradicts [[The Golden Rule]] when I take the comfortable path because everyone else does.
+## Example
+
+Everyone around me was taking the easy road on something I know Jesus said no to, and the crowd made it feel normal. The narrow way is lonely sometimes - hard now, life at the end, not comfortable because everyone's doing it.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[The Golden Rule]] | when I take the comfortable path because everyone else does |
+| extends | [[Free Grace]] | The narrow gate is Christ by faith, not the broad road of works that buys nothing |
 
 ## See also
 

@@ -249,15 +249,148 @@
     if (el) el.addEventListener("click", fn);
   }
 
+  function buildAdjacency(edges) {
+    var adj = Object.create(null);
+    (edges || []).forEach(function (edge) {
+      var s = edge.source;
+      var t = edge.target;
+      if (!adj[s]) adj[s] = [];
+      if (!adj[t]) adj[t] = [];
+      adj[s].push(t);
+      adj[t].push(s);
+    });
+    return adj;
+  }
+
+  function shortestPath(adj, start, end) {
+    if (!start || !end || start === end) return [start];
+    if (!adj[start] || !adj[end]) return null;
+
+    var queue = [start];
+    var prev = Object.create(null);
+    prev[start] = null;
+
+    while (queue.length) {
+      var node = queue.shift();
+      if (node === end) break;
+      (adj[node] || []).forEach(function (next) {
+        if (prev[next] !== undefined) return;
+        prev[next] = node;
+        queue.push(next);
+      });
+    }
+
+    if (prev[end] === undefined) return null;
+
+    var path = [];
+    var cur = end;
+    while (cur) {
+      path.unshift(cur);
+      cur = prev[cur];
+    }
+    return path;
+  }
+
+  function pathHopLabel(path) {
+    if (!path || path.length < 2) return "";
+    var hops = path.length - 1;
+    return hops + " hop" + (hops === 1 ? "" : "s");
+  }
+
+  function renderPathChain(chainEl, path, titleByUrl) {
+    if (!chainEl) return;
+    var horizontal = chainEl.classList.contains("notes-path-chain--row");
+    var items = (path || []).map(function (url) {
+      var title = (titleByUrl && titleByUrl[url]) || url;
+      return (
+        '<a class="text-accent no-underline hover:underline" href="' +
+        escapeHtml(url) +
+        '">' +
+        escapeHtml(title) +
+        "</a>"
+      );
+    });
+
+    if (horizontal) {
+      chainEl.innerHTML = items.join(
+        '<span class="text-ink-muted px-1" aria-hidden="true">→</span>'
+      );
+      return;
+    }
+
+    chainEl.innerHTML = items
+      .map(function (link) {
+        return "<li>" + link + "</li>";
+      })
+      .join("");
+  }
+
+  function renderPathBetween(opts) {
+    opts = opts || {};
+    var resultEl = opts.resultEl;
+    var chainEl = opts.chainEl;
+    var emptyEl = opts.emptyEl;
+    var start = opts.start;
+    var end = opts.end;
+    var sameNoteMsg = opts.sameNoteMsg || "Pick two different notes.";
+    var noPathMsg = opts.noPathMsg || "No path found through wikilinks.";
+
+    if (!resultEl || !emptyEl) return null;
+
+    if (!start || !end) {
+      resultEl.classList.add("hidden");
+      emptyEl.classList.add("hidden");
+      return null;
+    }
+
+    if (start === end) {
+      resultEl.classList.add("hidden");
+      emptyEl.classList.remove("hidden");
+      emptyEl.textContent = sameNoteMsg;
+      return [start];
+    }
+
+    var path = shortestPath(opts.adj, start, end);
+    if (!path || path.length < 2) {
+      resultEl.classList.add("hidden");
+      emptyEl.classList.remove("hidden");
+      emptyEl.textContent = noPathMsg;
+      return null;
+    }
+
+    emptyEl.classList.add("hidden");
+    resultEl.classList.remove("hidden");
+    renderPathChain(chainEl, path, opts.titleByUrl);
+    return path;
+  }
+
+  function pathPromptLine(path, titleByUrl) {
+    if (!path || path.length < 2) return "";
+    return (
+      "A shortest wikilink path between these notes (others may exist):\n" +
+      path
+        .map(function (url) {
+          return titleByUrl[url] || url;
+        })
+        .join(" → ")
+    );
+  }
+
   window.jorapNotesRandomCore = {
+    buildAdjacency: buildAdjacency,
     cloneArticleBody: cloneArticleBody,
     connectionPromptTail: connectionPromptTail,
     createAiHelpers: createAiHelpers,
     bindTapIf: bindTapIf,
     normalizeText: normalizeText,
+    pathHopLabel: pathHopLabel,
+    pathPromptLine: pathPromptLine,
     pickOne: pickOne,
     renderNoteIntoSlot: renderNoteIntoSlot,
+    renderPathBetween: renderPathBetween,
+    renderPathChain: renderPathChain,
     setSlotEmpty: setSlotEmpty,
     setSlotLoading: setSlotLoading,
+    shortestPath: shortestPath,
   };
 })();

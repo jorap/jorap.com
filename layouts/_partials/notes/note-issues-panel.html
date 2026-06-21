@@ -6,7 +6,7 @@
   {{- return -}}
 {{- end -}}
 {{- with $page.File -}}
-  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v3" -}}
+  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v6" -}}
   {{- $issues := index $data.byPath .Path -}}
   {{- if $issues -}}
     <aside class="notes-issues border-divider mb-6 rounded border p-5" aria-label="Link issues on this note">
@@ -34,6 +34,29 @@
             "{{ .mention }}" in prose — link
             <a class="text-accent no-underline hover:underline" href="{{ .suggestPage.RelPermalink }}"><code>[[{{ .suggestTitle }}]]</code></a>.
           </li>
+        {{- end -}}
+        {{- range $issues.structure -}}
+          {{- if eq .type "missingTable" -}}
+            <li class="notes-issues__item notes-issues__item--structure">
+              <strong>Missing table:</strong>
+              add a <code>## Note Relationships</code> table with <code>extends</code> and <code>contradicts</code> rows.
+            </li>
+          {{- else if eq .type "missingExtends" -}}
+            <li class="notes-issues__item notes-issues__item--structure">
+              <strong>Missing extends:</strong>
+              add <code>| extends | [[Note Title]] | reason |</code> to <strong>Note Relationships</strong>.
+            </li>
+          {{- else if eq .type "missingContradicts" -}}
+            <li class="notes-issues__item notes-issues__item--structure">
+              <strong>Missing contradicts:</strong>
+              add <code>| contradicts | [[Note Title]] | when … |</code> to <strong>Note Relationships</strong>.
+            </li>
+          {{- else if eq .type "extraSection" -}}
+            <li class="notes-issues__item notes-issues__item--structure">
+              <strong>Extra section:</strong>
+              <code>## {{ .heading }}</code> — atomic notes allow only <code>## Example</code>, <code>## Note Relationships</code>, and optional <code>## See also</code>. Split the note or move content to prose.
+            </li>
+          {{- end -}}
         {{- end -}}
       </ul>
     </aside>

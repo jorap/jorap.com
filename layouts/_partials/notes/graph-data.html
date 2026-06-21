@@ -2,14 +2,23 @@
 {{- $nodes := slice -}}
 {{- $edges := slice -}}
 {{- $bodyOutDeg := dict -}}
-{{- $hubPct := site.Params.notes.graph_hub_percentile | default 85 -}}
-{{- $hubMinTotal := site.Params.notes.graph_hub_min_total | default 10 -}}
-{{- $weakPct := site.Params.notes.graph_weak_percentile | default 25 -}}
-{{- $weakMaxTotal := site.Params.notes.graph_weak_max_total | default 8 -}}
+{{- $nodeMeta := dict -}}
+{{- $tailPct := site.Params.notes.graph_tail_percentile | default 20 | int -}}
 
 {{- range $from := $notes -}}
   {{- $fromId := $from.RelPermalink -}}
-  {{- $nodes = $nodes | append (dict "id" $fromId "title" $from.Title "url" $from.RelPermalink "inDegree" 0 "outDegree" 0 "totalDegree" 0 "orphan" false "hub" false "deadEnd" false "weak" false) -}}
+  {{- $rels := partial "notes/relationship-types.html" $from -}}
+  {{- $primaryTag := "" -}}
+  {{- with $from.Params.tags -}}
+    {{- $primaryTag = index . 0 | default "" -}}
+  {{- end -}}
+  {{- $primaryCategory := "" -}}
+  {{- with $from.Params.categories -}}
+    {{- $primaryCategory = index . 0 | default "" -}}
+  {{- end -}}
+  {{- $isIndex := partial "notes/is-index-page.html" $from -}}
+  {{- $nodeMeta = merge $nodeMeta (dict $fromId (dict "rels" $rels "primaryTag" $primaryTag "primaryCategory" $primaryCategory "isIndex" $isIndex)) -}}
+  {{- $nodes = $nodes | append (dict "id" $fromId "title" $from.Title "url" $from.RelPermalink "inDegree" 0 "outDegree" 0 "totalDegree" 0 "top" false "middle" false "bottom" false "orphan" false "deadEnd" false) -}}
   {{- $raw := $from.RawContent -}}
   {{- $bodyRaw := $raw -}}
   {{- if strings.Contains $raw "## See also" -}}
@@ -63,29 +72,40 @@
   {{- $totalDeg = merge $totalDeg (dict .target (add $tt 1)) -}}
 {{- end -}}
 
-{{- $degreeNodes := slice -}}
+{{- $ranked := slice -}}
 {{- range $nodes -}}
-  {{- $in := index $inDeg .id | default 0 -}}
-  {{- $out := index $outDeg .id | default 0 -}}
-  {{- $total := index $totalDeg .id | default 0 -}}
-  {{- $degreeNodes = $degreeNodes | append (dict "totalDegree" $total) -}}
+  {{- $ranked = $ranked | append (dict "id" .id "totalDegree" (index $totalDeg .id | default 0)) -}}
 {{- end -}}
-{{- $byDeg := sort $degreeNodes "totalDegree" -}}
-{{- $nodeCount := len $byDeg -}}
-{{- $pctIdx := 0 -}}
-{{- $pctDegree := $hubMinTotal -}}
+{{- $ranked = sort $ranked "totalDegree" -}}
+{{- $nodeCount := len $ranked -}}
+{{- $tailN := 0 -}}
 {{- if gt $nodeCount 0 -}}
-  {{- $pctIdx = div (mul (sub $nodeCount 1) $hubPct) 100 -}}
-  {{- $pctDegree = (index $byDeg $pctIdx).totalDegree -}}
+  {{- $tailN = div (add (mul $nodeCount $tailPct) 99) 100 -}}
+  {{- if gt (mul $tailN 2) $nodeCount -}}
+    {{- $tailN = div $nodeCount 2 -}}
+  {{- end -}}
 {{- end -}}
-{{- $hubThreshold := cond (lt $pctDegree $hubMinTotal) $hubMinTotal $pctDegree -}}
-{{- $weakPctIdx := 0 -}}
-{{- $weakPctDegree := $weakMaxTotal -}}
-{{- if gt $nodeCount 0 -}}
-  {{- $weakPctIdx = div (mul (sub $nodeCount 1) $weakPct) 100 -}}
-  {{- $weakPctDegree = (index $byDeg $weakPctIdx).totalDegree -}}
+{{- $bottomIds := dict -}}
+{{- $topIds := dict -}}
+{{- range $i, $item := $ranked -}}
+  {{- if and (gt $tailN 0) (lt $i $tailN) -}}
+    {{- $bottomIds = merge $bottomIds (dict $item.id true) -}}
+  {{- else if and (gt $tailN 0) (ge $i (sub $nodeCount $tailN)) -}}
+    {{- $topIds = merge $topIds (dict $item.id true) -}}
+  {{- end -}}
 {{- end -}}
-{{- $weakThreshold := cond (gt $weakPctDegree $weakMaxTotal) $weakMaxTotal $weakPctDegree -}}
+
+{{- $inRanked := slice -}}
+{{- range $nodes -}}
+  {{- $inRanked = $inRanked | append (dict "id" .id "inDegree" (index $inDeg .id | default 0)) -}}
+{{- end -}}
+{{- $inRanked = sort $inRanked "inDegree" -}}
+{{- $hubInIds := dict -}}
+{{- range $i, $item := $inRanked -}}
+  {{- if and (gt $tailN 0) (ge $i (sub $nodeCount $tailN)) -}}
+    {{- $hubInIds = merge $hubInIds (dict $item.id true) -}}
+  {{- end -}}
+{{- end -}}
 
 {{- $enriched := slice -}}
 {{- range $nodes -}}
@@ -93,14 +113,29 @@
   {{- $out := index $outDeg .id | default 0 -}}
   {{- $total := index $totalDeg .id | default 0 -}}
   {{- $bodyOut := index $bodyOutDeg .id | default 0 -}}
+  {{- $isTop := index $topIds .id | default false -}}
+  {{- $isBottom := index $bottomIds .id | default false -}}
+  {{- $meta := index $nodeMeta .id | default dict -}}
+  {{- $rels := $meta.rels | default dict -}}
+  {{- $isIndex := $meta.isIndex | default false -}}
+  {{- $isHub := and (index $hubInIds .id | default false) (or (ge $out 3) $isIndex) -}}
   {{- $enriched = $enriched | append (merge . (dict
     "inDegree" $in
     "outDegree" $out
     "totalDegree" $total
+    "top" $isTop
+    "middle" (and (not $isTop) (not $isBottom))
+    "bottom" $isBottom
     "orphan" (eq $in 0)
-    "hub" (ge $total $hubThreshold)
     "deadEnd" (eq $bodyOut 0)
-    "weak" (and (lt $total $hubThreshold) (le $total $weakThreshold))
+    "hub" $isHub
+    "primaryTag" ($meta.primaryTag | default "")
+    "primaryCategory" ($meta.primaryCategory | default "")
+    "relExtends" ($rels.extends | default false)
+    "relContradicts" ($rels.contradicts | default false)
+    "relImplements" ($rels.implements | default false)
+    "relAlternative" ($rels.alternative | default false)
+    "relIndex" $isIndex
   )) -}}
 {{- end -}}
 

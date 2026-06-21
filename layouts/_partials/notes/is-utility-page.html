@@ -9,7 +9,7 @@
 {{- if eq ($page.Params.note_kind | default "note") "meta" -}}
   {{- $utility = true -}}
 {{- else -}}
-  {{- $utilityLayouts := slice "graph" "cards" "review" "issues" "random-duo" -}}
+  {{- $utilityLayouts := slice "graph" "cards" "review" "issues" "backlinks" "random-duo" -}}
   {{- if in $utilityLayouts ($page.Params.layout | default "") -}}
     {{- $utility = true -}}
   {{- end -}}

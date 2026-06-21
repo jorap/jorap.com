@@ -32,7 +32,16 @@ aliases: ["seek ye first", "kingdom of God"]
 
 The Sermon on the Mount ties this to not serving two masters (God and wealth) and to storing [[Treasure in Heaven]]. Kingdom isn't escape from earth - it's God's reign ordering my priorities today. Same job as [[Signal vs Noise]] in the PKM stack: what gets first place when everything feels urgent.
 
-Extends [[Free Grace]]. Contradicts [[Signal vs Noise]] when I treat every demand as kingdom-level priority.
+## Example
+
+Tuesday at 7am my inbox was screaming and my Bible was still closed on the desk. Seek the kingdom first isn't a slogan - it's opening Scripture or praying before I let the day's noise set the agenda.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Signal vs Noise]] | when I treat every demand as kingdom-level priority |
+| extends | [[Free Grace]] | Put God's rule first because grace already secured where you spend forever |
 
 ## See also
 

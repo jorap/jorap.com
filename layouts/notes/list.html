@@ -12,24 +12,162 @@
 
           {{ partial "notes/recent-updated.html" . }}
 
-          <div class="notes-filters mb-6" role="group" aria-label="Filter notes by status">
-            <button type="button" class="notes-filter is-active" data-notes-filter="all" aria-pressed="true">All</button>
-            <button type="button" class="notes-filter" data-notes-filter="seedling" aria-pressed="false">Seedling</button>
-            <button type="button" class="notes-filter" data-notes-filter="evergreen" aria-pressed="false">Evergreen</button>
-            <button type="button" class="notes-filter" data-notes-filter="inbox" aria-pressed="false">Inbox</button>
-            <button type="button" class="notes-filter" data-notes-filter="archived" aria-pressed="false">Archived</button>
-            <button type="button" class="notes-filter" data-notes-filter="stale" aria-pressed="false">Stale</button>
+          {{- $notes := partial "notes/pages.html" . -}}
+          {{- $notes = partial "notes/sort-by-connections.html" (dict "Pages" $notes "Context" .) -}}
+          {{- $issueData := partialCached "notes/collect-note-issues.html" site "note-issues-v6" -}}
+          {{- $statusCounts := newScratch -}}
+          {{- $tagCounts := dict -}}
+          {{- $categoryCounts := dict -}}
+          {{- $countFeatured := 0 -}}
+          {{- $countCards := 0 -}}
+          {{- $countIssues := 0 -}}
+          {{- range $notes -}}
+            {{- $meta := partial "notes/note-meta.html" . -}}
+            {{- $statusCounts.Add $meta.Status 1 -}}
+            {{- if $meta.IsStale -}}{{- $statusCounts.Add "stale" 1 -}}{{- end -}}
+            {{- if .Params.featured -}}{{- $countFeatured = add $countFeatured 1 -}}{{- end -}}
+            {{- if partial "notes/has-cards.html" . -}}{{- $countCards = add $countCards 1 -}}{{- end -}}
+            {{- with .File -}}
+              {{- if index $issueData.byPath .Path -}}{{- $countIssues = add $countIssues 1 -}}{{- end -}}
+            {{- end -}}
+            {{- range (.Params.tags | default slice) -}}
+              {{- $tagCounts = merge $tagCounts (dict . (add (index $tagCounts . | default 0) 1)) -}}
+            {{- end -}}
+            {{- range (.Params.categories | default slice) -}}
+              {{- $categoryCounts = merge $categoryCounts (dict . (add (index $categoryCounts . | default 0) 1)) -}}
+            {{- end -}}
+          {{- end -}}
+          {{- $countAll := len $notes -}}
+          {{- $countSeedling := $statusCounts.Get "seedling" | default 0 -}}
+          {{- $countEvergreen := $statusCounts.Get "evergreen" | default 0 -}}
+          {{- $countInbox := $statusCounts.Get "inbox" | default 0 -}}
+          {{- $countArchived := $statusCounts.Get "archived" | default 0 -}}
+          {{- $countStale := $statusCounts.Get "stale" | default 0 -}}
+          {{- $allTags := slice -}}
+          {{- range $tag, $_ := $tagCounts -}}
+            {{- $allTags = $allTags | append $tag -}}
+          {{- end -}}
+          {{- $allTags = sort $allTags -}}
+          {{- $allCategories := slice -}}
+          {{- range $cat, $_ := $categoryCounts -}}
+            {{- $allCategories = $allCategories | append $cat -}}
+          {{- end -}}
+          {{- $allCategories = sort $allCategories -}}
+
+          <div class="notes-list-controls mb-6 space-y-4">
+            <label class="notes-list-search-wrap block">
+              <span class="sr-only">Search notes</span>
+              <input
+                type="search"
+                class="notes-list-search form-input w-full"
+                placeholder="Search notes by title, description, or tag…"
+                autocomplete="off"
+                spellcheck="false"
+                data-notes-search />
+            </label>
+
+            <div class="notes-filters" role="group" aria-label="Filter notes by status">
+              <button type="button" class="notes-filter is-active" data-notes-filter="all" aria-pressed="true" aria-label="All — {{ $countAll }} notes">
+                All<span class="notes-filter__count"> · {{ $countAll }}</span>
+              </button>
+              <button type="button" class="notes-filter" data-notes-filter="seedling" aria-pressed="false" aria-label="Seedling — {{ $countSeedling }} notes">
+                Seedling<span class="notes-filter__count"> · {{ $countSeedling }}</span>
+              </button>
+              <button type="button" class="notes-filter" data-notes-filter="evergreen" aria-pressed="false" aria-label="Evergreen — {{ $countEvergreen }} notes">
+                Evergreen<span class="notes-filter__count"> · {{ $countEvergreen }}</span>
+              </button>
+              <button type="button" class="notes-filter" data-notes-filter="inbox" aria-pressed="false" aria-label="Inbox — {{ $countInbox }} notes">
+                Inbox<span class="notes-filter__count"> · {{ $countInbox }}</span>
+              </button>
+              <button type="button" class="notes-filter" data-notes-filter="archived" aria-pressed="false" aria-label="Archived — {{ $countArchived }} notes">
+                Archived<span class="notes-filter__count"> · {{ $countArchived }}</span>
+              </button>
+              <button type="button" class="notes-filter" data-notes-filter="stale" aria-pressed="false" aria-label="Stale — {{ $countStale }} notes">
+                Stale<span class="notes-filter__count"> · {{ $countStale }}</span>
+              </button>
+            </div>
+
+            <p class="text-ink-muted text-sm">
+              Work queues:
+              <a class="text-accent no-underline hover:underline" href="{{ `/notes/` | relLangURL }}?status=inbox">Inbox</a>
+              ·
+              <a class="text-accent no-underline hover:underline" href="{{ `/notes/` | relLangURL }}?status=stale">Stale</a>
+            </p>
+
+            <div class="notes-list-facets flex flex-wrap items-center gap-3">
+              {{- if gt (len $allTags) 0 -}}
+                <label class="notes-list-facet text-sm">
+                  <span class="text-ink-muted mr-2">Tag</span>
+                  <select class="form-select form-select-sm" data-notes-tag>
+                    <option value="">All tags</option>
+                    {{- range $allTags -}}
+                      <option value="{{ . | urlize }}">{{ . }} ({{ index $tagCounts . }})</option>
+                    {{- end -}}
+                  </select>
+                </label>
+              {{- end -}}
+              {{- if gt (len $allCategories) 0 -}}
+                <label class="notes-list-facet text-sm">
+                  <span class="text-ink-muted mr-2">Category</span>
+                  <select class="form-select form-select-sm" data-notes-category>
+                    <option value="">All categories</option>
+                    {{- range $allCategories -}}
+                      <option value="{{ . | urlize }}">{{ . }} ({{ index $categoryCounts . }})</option>
+                    {{- end -}}
+                  </select>
+                </label>
+              {{- end -}}
+            </div>
+
+            <div class="notes-filters" role="group" aria-label="Additional note filters">
+              <button type="button" class="notes-filter" data-notes-toggle="featured" aria-pressed="false" aria-label="Featured — {{ $countFeatured }} notes">
+                Featured<span class="notes-filter__count"> · {{ $countFeatured }}</span>
+              </button>
+              <button type="button" class="notes-filter" data-notes-toggle="cards" aria-pressed="false" aria-label="Has flashcards — {{ $countCards }} notes">
+                Cards<span class="notes-filter__count"> · {{ $countCards }}</span>
+              </button>
+              <button type="button" class="notes-filter" data-notes-toggle="issues" aria-pressed="false" aria-label="Has issues — {{ $countIssues }} notes">
+                Issues<span class="notes-filter__count"> · {{ $countIssues }}</span>
+              </button>
+            </div>
           </div>
 
           <div class="row notes-grid" data-notes-grid>
-            {{ $notes := partial "notes/pages.html" . }}
-            {{ $notes = partial "notes/sort-by-connections.html" (dict "Pages" $notes "Context" .) }}
             {{ range $notes }}
-              {{ $meta := partial "notes/note-meta.html" . }}
+              {{- $meta := partial "notes/note-meta.html" . -}}
+              {{- $rels := partial "notes/relationship-types.html" . -}}
+              {{- $hasCards := partial "notes/has-cards.html" . -}}
+              {{- $hasIssues := false -}}
+              {{- with .File -}}
+                {{- $hasIssues = index $issueData.byPath .Path | default false -}}
+              {{- end -}}
+              {{- $searchBits := slice .Title (.Description | default "") -}}
+              {{- range (.Params.tags | default slice) -}}
+                {{- $searchBits = $searchBits | append . -}}
+              {{- end -}}
+              {{- $tagSlugs := slice -}}
+              {{- range (.Params.tags | default slice) -}}
+                {{- $tagSlugs = $tagSlugs | append (. | urlize) -}}
+              {{- end -}}
+              {{- $categorySlugs := slice -}}
+              {{- range (.Params.categories | default slice) -}}
+                {{- $categorySlugs = $categorySlugs | append (. | urlize) -}}
+              {{- end -}}
               <div
                 class="md:col-6 mb-8 flex notes-grid-item"
                 data-note-status="{{ $meta.Status }}"
-                data-note-stale="{{ $meta.IsStale }}">
+                data-note-stale="{{ $meta.IsStale }}"
+                data-note-featured="{{ .Params.featured | default false }}"
+                data-note-cards="{{ $hasCards }}"
+                data-note-issues="{{ $hasIssues }}"
+                data-note-tags="{{ delimit $tagSlugs " " }}"
+                data-note-categories="{{ delimit $categorySlugs " " }}"
+                data-note-rel-extends="{{ $rels.extends }}"
+                data-note-rel-contradicts="{{ $rels.contradicts }}"
+                data-note-rel-implements="{{ $rels.implements }}"
+                data-note-rel-alternative="{{ $rels.alternative }}"
+                data-note-rel-index="{{ partial "notes/is-index-page.html" . }}"
+                data-note-search="{{ delimit $searchBits " " | lower }}">
                 {{ partial "notes/note-card.html" (dict
                   "Page" .
                   "HeadingLevel" 2

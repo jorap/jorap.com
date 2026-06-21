@@ -15,7 +15,17 @@ aliases: ["context aware capture"]
 ---
 A link without context is a mystery six weeks later. I capture why I saved something - project, mood, question - while it's still obvious.
 
-Extends [[Capture]]. Contradicts [[Metadata Strategy]] when inline why beats formal metadata fields.
+## Example
+
+I save a link and add two words: budget post, March. Six weeks later that line is the only reason I remember why the tab mattered.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Metadata Strategy]] | when inline why beats formal metadata fields |
+| extends | [[Capture]] | Capture the why while it's obvious or the link is a mystery six weeks later |
+| extends | [[Voice Memos]] | Capture in context — phone mic is the obvious tool |
 
 ## See also
 

@@ -32,7 +32,16 @@ aliases: ["do not worry", "sufficient unto the day"]
 
 Worry can't add a single hour to life. The antidote isn't denial - it's priority: [[Seek the Kingdom First]], and let tomorrow carry its own trouble. Trust is active dependence on a Father who already gave eternal life by [[Free Grace]] - not anxiety about earning His care. Overlap with [[Slow Productivity]]: fewer frantic masters, deeper attention on what actually matters.
 
-Extends [[Free Grace]]. Contradicts [[The 12 Week Year]] when sprint urgency replaces trust.
+## Example
+
+I woke up at 2am replaying next month's bills like worry could pay them. Jesus wasn't telling me to pretend the numbers don't exist - He was telling me to stop acting like I'm the one running the universe.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[The 12 Week Year]] | when sprint urgency replaces trust |
+| extends | [[Free Grace]] | You can stop panicking about tomorrow because grace already settled where you spend forever |
 
 ## See also
 

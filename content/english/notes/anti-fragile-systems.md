@@ -15,7 +15,17 @@ aliases: ["anti fragile systems", "Antifragile"]
 ---
 Fragile systems break when an app shuts down. I build around plain files, open formats, and exports I actually test.
 
-Extends [[Future-Proofing Knowledge]]. Contradicts [[Building a Personal API]] when boring files beat tool-coupled structure.
+## Example
+
+When my last proprietary note app shut down, the markdown folder opened fine in three editors. I test an export every quarter so I am not learning backup at panic hour.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Building a Personal API]] | when boring files beat tool-coupled structure |
+| extends | [[Antifragility]] | Taleb term — systems that gain from stress |
+| extends | [[Future-Proofing Knowledge]] | Plain files and tested exports keep knowledge alive when apps shut down |
 
 ## See also
 

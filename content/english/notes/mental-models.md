@@ -1,21 +1,21 @@
 ---
-title: "Mental Models List"
-meta_title: "Mental Models List - Lenses I Actually Use"
+title: "Mental Models"
+meta_title: "Mental Models - Lenses I Actually Use"
 description: "Mainstream mental models for decisions and performance - plus the ones I keep notes on when they earn repeat use."
 date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Mental Models", "Thinking", "PKM", "Decision Making", "MOC", "Learning", "Performance", "Productivity"]
-slug: "mental-models-list"
+slug: "mental-models"
 featured: false
 draft: false
-aliases: []
+aliases: ["mental-models-list", "Mental Models List"]
 status: evergreen
 ---
 Mental models are shortcuts for thinking. I keep a short list of ones that survived contact with real decisions - not every model on Wikipedia.
 
-## Models
+## Example
 
 - [[Pareto Principle]]
 - [[Compounding]]
@@ -26,4 +26,9 @@ Mental models are shortcuts for thinking. I keep a short list of ones that survi
 - [[Sunk Cost Fallacy]]
 - [[There Is No Perfect Solution]]
 
-Extends [[PKM]]. Contradicts [[There Is No Perfect Solution]] when a model lens beats treating every tradeoff as equal.
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[There Is No Perfect Solution]] | when a model lens beats treating every tradeoff as equal |
+| extends | [[PKM]] | Thinking shortcuts this hub keeps when they survive real decisions |

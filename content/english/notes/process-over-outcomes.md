@@ -15,7 +15,17 @@ aliases: ["Process Over Outcome"]
 ---
 Results matter, but optimizing only for outcomes wins once. I optimize for a repeatable process that wins again and again. Faith parallel: [[Take Up Your Cross]] - daily self-denial is the process; one heroic Sunday isn't.
 
-Extends [[Compounding]]. Contradicts [[The 12 Week Year]] when the daily process beats quarterly scoreboard pressure.
+## Example
+
+I do not obsess over whether this week's post hits a view count; I protect the Sunday review loop that produces the next one. The process keeps working when motivation dips.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[The 12 Week Year]] | when the daily process beats quarterly scoreboard pressure |
+| extends | [[Compounding]] | Small gains only stack when you protect a repeatable process, not one hero outcome |
+| extends | [[Systems Thinking]] | Trust the loop, not the scoreboard |
 
 ## See also
 

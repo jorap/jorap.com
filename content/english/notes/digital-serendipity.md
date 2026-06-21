@@ -15,7 +15,19 @@ aliases: ["Serendipitous Resurfacing"]
 ---
 Serendipity isn't luck for me - I build systems where old notes surprise me at the right time.
 
-Extends [[Associative Linking]]. Contradicts [[Digital Minimalism]] when surprise links beat cutting tools and sync layers.
+## Example
+
+I am reviewing unrelated notes and an old capture about RSS clicks with one I wrote yesterday on capture filters. The graph did that bump; I did not plan the meeting.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Digital Minimalism]] | Surprise links vs fewer moving parts when rediscovery beats sync |
+| contradicts | [[Digital Minimalism]] | when surprise links beat cutting tools and sync layers |
+| extends | [[Associative Linking]] | Links build the systems where old notes surprise you at the right time |
+| extends | [[Serendipity]] | Happy accident discovery — the noun behind the method |
+| implements | [[Associative Linking]] | Random resurfacing carries link-first structure |
 
 ## See also
 

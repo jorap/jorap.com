@@ -1,14 +1,29 @@
 {{ define "main" }}
-  {{ $graph := partialCached "notes/graph-data.html" site "graph-data-v1" }}
+  {{ $graph := partialCached "notes/graph-data.html" site "graph-data-v3" }}
+  {{ $tailPct := site.Params.notes.graph_tail_percentile | default 20 }}
   {{ $orphans := 0 }}
-  {{ $hubs := 0 }}
+  {{ $tops := 0 }}
+  {{ $middles := 0 }}
+  {{ $bottoms := 0 }}
   {{ $deadEnds := 0 }}
-  {{ $weak := 0 }}
+  {{ $hubs := 0 }}
+  {{ $relExtends := 0 }}
+  {{ $relContradicts := 0 }}
+  {{ $relImplements := 0 }}
+  {{ $relAlternative := 0 }}
+  {{ $relIndex := 0 }}
   {{ range $graph.nodes }}
     {{ if .orphan }}{{ $orphans = add $orphans 1 }}{{ end }}
-    {{ if .hub }}{{ $hubs = add $hubs 1 }}{{ end }}
+    {{ if .top }}{{ $tops = add $tops 1 }}{{ end }}
+    {{ if .middle }}{{ $middles = add $middles 1 }}{{ end }}
+    {{ if .bottom }}{{ $bottoms = add $bottoms 1 }}{{ end }}
     {{ if .deadEnd }}{{ $deadEnds = add $deadEnds 1 }}{{ end }}
-    {{ if .weak }}{{ $weak = add $weak 1 }}{{ end }}
+    {{ if .hub }}{{ $hubs = add $hubs 1 }}{{ end }}
+    {{ if .relExtends }}{{ $relExtends = add $relExtends 1 }}{{ end }}
+    {{ if .relContradicts }}{{ $relContradicts = add $relContradicts 1 }}{{ end }}
+    {{ if .relImplements }}{{ $relImplements = add $relImplements 1 }}{{ end }}
+    {{ if .relAlternative }}{{ $relAlternative = add $relAlternative 1 }}{{ end }}
+    {{ if .relIndex }}{{ $relIndex = add $relIndex 1 }}{{ end }}
   {{ end }}
 
   {{ partial "page-header" . }}
@@ -19,7 +34,7 @@
         <div class="lg:col-10">
           {{ partial "notes/toolbar.html" (dict "Context" . "active" "graph") }}
 
-          <p class="text-ink-muted mb-4">Interactive map of wikilinks. Filter by link frequency: high and low total links, no body links (none in the note body), or orphans (no inbound links).</p>
+          <p class="text-ink-muted mb-4">Interactive map of wikilinks. Filter by link rank, relationship type, or hub notes. Toggle tag colors to see clusters.</p>
 
           <div class="notes-graph-panel notes-graph-panel--page" data-notes-graph>
             <script type="application/json" class="notes-graph-data">{{ $graph | jsonify | safeJS }}</script>
@@ -39,7 +54,8 @@
                 <div class="notes-graph-actions">
                   <button type="button" class="notes-graph-zoom-out notes-graph-btn" title="Zoom out" aria-label="Zoom out">−</button>
                   <button type="button" class="notes-graph-zoom-in notes-graph-btn" title="Zoom in" aria-label="Zoom in">+</button>
-                  <button type="button" class="notes-graph-reset btn btn-outline-primary btn-sm">Reset</button>
+                  <button type="button" class="notes-graph-color btn btn-primary btn-sm" data-graph-color="rank" aria-pressed="true">Rank colors</button>
+                  <button type="button" class="notes-graph-color btn btn-outline-primary btn-sm" data-graph-color="tag" aria-pressed="false">Tag colors</button>
                   <button type="button" class="notes-graph-expand notes-graph-btn" title="Present graph" aria-label="Present graph" aria-pressed="false">
                     <span class="notes-graph-expand-icon" aria-hidden="true">⤢</span>
                   </button>
@@ -49,19 +65,42 @@
                 <button type="button" class="notes-graph-filter is-active" data-graph-filter="all" aria-pressed="true" aria-label="All notes — {{ len $graph.nodes }} notes, {{ len $graph.edges }} links">
                   All<span class="notes-graph-filter__count"> · {{ len $graph.nodes }}<span class="notes-graph-filter__suffix"> notes</span> · {{ len $graph.edges }} links</span>
                 </button>
-                <button type="button" class="notes-graph-filter" data-graph-filter="hub" aria-pressed="false" aria-label="High link frequency — {{ $hubs }} notes">
-                  High<span class="notes-graph-filter__count notes-graph-filter__count--hub"> · {{ $hubs }}</span>
+                <button type="button" class="notes-graph-filter" data-graph-filter="top" aria-pressed="false" aria-label="Top {{ $tailPct }} percent — {{ $tops }} notes">
+                  Top {{ $tailPct }}%<span class="notes-graph-filter__count notes-graph-filter__count--top"> · {{ $tops }}</span>
                 </button>
-                <button type="button" class="notes-graph-filter" data-graph-filter="weak" aria-pressed="false" aria-label="Low link frequency — {{ $weak }} notes">
-                  Low<span class="notes-graph-filter__count notes-graph-filter__count--weak"> · {{ $weak }}</span>
+                <button type="button" class="notes-graph-filter" data-graph-filter="middle" aria-pressed="false" aria-label="Middle — {{ $middles }} notes">
+                  Middle<span class="notes-graph-filter__count notes-graph-filter__count--middle"> · {{ $middles }}</span>
+                </button>
+                <button type="button" class="notes-graph-filter" data-graph-filter="bottom" aria-pressed="false" aria-label="Bottom {{ $tailPct }} percent — {{ $bottoms }} notes">
+                  Bottom {{ $tailPct }}%<span class="notes-graph-filter__count notes-graph-filter__count--bottom"> · {{ $bottoms }}</span>
                 </button>
                 <button type="button" class="notes-graph-filter" data-graph-filter="deadEnd" aria-pressed="false" aria-label="No body links — {{ $deadEnds }} notes with no wikilinks in the body">
-                  No body<span class="notes-graph-filter__suffix"> links</span><span class="notes-graph-filter__count"> · {{ $deadEnds }}</span>
+                  No Body<span class="notes-graph-filter__suffix"> Links</span><span class="notes-graph-filter__count"> · {{ $deadEnds }}</span>
                 </button>
                 <button type="button" class="notes-graph-filter" data-graph-filter="orphan" aria-pressed="false" aria-label="Orphans — {{ $orphans }} notes with no inbound links">
                   Orphans<span class="notes-graph-filter__count notes-graph-filter__count--orphan"> · {{ $orphans }}</span>
                 </button>
+                <button type="button" class="notes-graph-filter" data-graph-filter="hub" aria-pressed="false" aria-label="Hubs — {{ $hubs }} notes">
+                  Hubs<span class="notes-graph-filter__count"> · {{ $hubs }}</span>
+                </button>
               </div>
+              <div class="notes-graph-filters mt-2" role="group" aria-label="Relationship filters">
+                <button type="button" class="notes-graph-filter" data-graph-filter="relExtends" aria-pressed="false" aria-label="Extends — {{ $relExtends }} notes">
+                  Extends<span class="notes-graph-filter__count"> · {{ $relExtends }}</span>
+                </button>
+                <button type="button" class="notes-graph-filter" data-graph-filter="relContradicts" aria-pressed="false" aria-label="Contradicts — {{ $relContradicts }} notes">
+                  Contradicts<span class="notes-graph-filter__count"> · {{ $relContradicts }}</span>
+                </button>
+                <button type="button" class="notes-graph-filter" data-graph-filter="relImplements" aria-pressed="false" aria-label="Implements — {{ $relImplements }} notes">
+                  Implements<span class="notes-graph-filter__count"> · {{ $relImplements }}</span>
+                </button>
+                <button type="button" class="notes-graph-filter" data-graph-filter="relAlternative" aria-pressed="false" aria-label="Alternative — {{ $relAlternative }} notes">
+                  Alternative<span class="notes-graph-filter__count"> · {{ $relAlternative }}</span>
+                </button>
+                <button type="button" class="notes-graph-filter" data-graph-filter="relIndex" aria-pressed="false" aria-label="Index — {{ $relIndex }} notes">
+                  Index<span class="notes-graph-filter__count"> · {{ $relIndex }}</span>
+                </button>
+                <button type="button" class="notes-graph-reset btn btn-outline-primary btn-sm">Reset view</button>
             </div>
 
             <div class="graph-view-container graph-icons-top">
@@ -86,7 +125,7 @@
                 </svg>
               </span>
             </div>
-            <p class="notes-graph-hint text-ink-muted">Hover to highlight links · click a node to open · ⌘/Ctrl-click for a new tab · colored dots mark high, low, no body links, and orphans</p>
+            <p class="notes-graph-hint text-ink-muted">Hover to highlight links · click a node to open · ⌘/Ctrl-click for a new tab · colored dots mark top, middle, bottom, no body links, and orphans</p>
           </div>
 
           <p class="notes-graph-empty text-ink-muted mt-4 hidden text-sm">No linked notes yet. Add <code>[[wikilinks]]</code> in your notes.</p>

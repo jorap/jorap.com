@@ -32,7 +32,17 @@ aliases: ["go and make disciples", "Matthew 28"]
 
 Mission flows from resurrection authority, not human recruitment zeal. Teaching obedience is discipleship after faith - not a works payment for salvation under [[Free Grace]]. PKM parallel: [[Creative Output]] - the gospel isn't fully kept until it's passed on; inventory notes mean nothing if they never leave the garden.
 
-Extends [[Repent and Believe]]. Contradicts [[The Collector's Fallacy]] when I hoard truth without sharing it.
+## Example
+
+My notes garden is full and my mouth stays quiet at work when someone asks what I believe. Jesus didn't say hoard truth like bookmarks - He said go, baptize, teach, and He's with you while you do it.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[The Collector's Fallacy]] | when I hoard truth without sharing it |
+| extends | [[Discipleship]] | Make disciples — umbrella this note carries out |
+| extends | [[Repent and Believe]] | Mission flows from believing the gospel — you teach obedience after faith, not to buy salvation |
 
 ## See also
 

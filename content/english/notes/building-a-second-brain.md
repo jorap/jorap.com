@@ -32,7 +32,19 @@ aliases: ["Second Brain"]
 
 Remember CODE: [[Capture]], organize, distill, express. The system fails when any step is just for show. I review whether each step still earns its place every quarter.
 
-Extends [[PKM]]. Contradicts [[The Collector's Fallacy]] when CODE steps become collection theater with no express.
+## Example
+
+A blog idea hits on the jeepney and I dump it in the inbox instead of holding it till I get home. My head is for having ideas; the system is for storing them until express day.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[GTD vs PARA]] | Second brain stack vs task-first inbox when Forte's buckets win |
+| contradicts | [[The Collector's Fallacy]] | when CODE steps become collection theater with no express |
+| extends | [[CODE Method]] | Capture → Organize → Distill → Express pipeline Forte names |
+| extends | [[PKM]] | A second brain offloads ideas so your head can think instead of hoard |
+| implements | [[PKM]] | CODE pipeline carries personal knowledge management into daily capture |
 
 ## See also
 

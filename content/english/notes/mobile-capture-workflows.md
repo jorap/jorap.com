@@ -15,7 +15,19 @@ aliases: []
 ---
 Most sparks die on mobile because capture takes twelve taps. I reduced mine to share sheet → inbox.
 
-Extends [[Capture]]. Contradicts [[Analog Capture Tools]] when share sheet beats paper for sparks I might scroll past. Alternative to [[Analog Capture Tools]].
+## Example
+
+An idea hits in line at the grocery store and I share the page straight to the inbox before I scroll away. Two taps, one pipe, spark saved.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Analog Capture Tools]] | Different tool, same job |
+| contradicts | [[Analog Capture Tools]] | when share sheet beats paper for sparks I might scroll past |
+| extends | [[Capture]] | Capture dies on mobile when it takes twelve taps — shrink it to share sheet → inbox |
+| extends | [[Share Sheet]] | OS capture surface most phone workflows use |
+| implements | [[Capture]] | Share-sheet capture carries the inbox habit on the phone |
 
 ## See also
 

@@ -34,7 +34,16 @@ Grace is unmerited favor. Christ paid what I couldn't. I receive eternal life by
 
 Ephesians 2:10 keeps the order straight: saved by grace through faith first, then created in Christ Jesus for good works. Justification is free and finished at faith; discipleship, obedience, and forgiveness toward others belong to the walk after.
 
-Extends [[Minimum Effective Dose]]. Contradicts [[Compounding]] when good works compound into a merit ladder I think buys heaven.
+## Example
+
+A friend at coffee listed every good thing he'd done this month like it was his ticket to heaven. I didn't argue - I just said I trust Christ's promise, not my report card.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Compounding]] | when good works compound into a merit ladder I think buys heaven |
+| extends | [[Minimum Effective Dose]] | Faith is the smallest act that still buys eternal life — no merit ladder on top |
 
 ## See also
 

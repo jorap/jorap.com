@@ -16,13 +16,17 @@
 {{- if not $isBlog -}}
   {{- $pool = where $pool "url" "ne" $ctx.RelPermalink -}}
 {{- end -}}
+{{- $graph := dict -}}
+{{- if not $isBlog -}}
+  {{- $graph = partialCached "notes/graph-data.html" site "graph-data-v3" -}}
+{{- end -}}
 {{- $minPool := 1 -}}
 {{- $aiChatUrl := site.Params.blog.random_notes_ai_chat_url | default "https://chatgpt.com/?q=" -}}
 {{- $aiChatLabel := site.Params.blog.random_notes_ai_chat_label | default (T "open_in_chatgpt") -}}
 {{- if ge (len $pool) $minPool -}}
   <div class="section pb-0">
     <div class="notes-toolbar mb-4 flex flex-wrap items-center gap-3">
-      <h2 class="h3 heading-title-case mb-0 mr-auto">{{ T "random_blog_note" }}</h2>
+      <h2 id="random-note" class="h3 heading-title-case mb-0 mr-auto">{{ T "random_blog_note" }}</h2>
       <button type="button" class="btn btn-outline-primary btn-sm" {{ printf "data-%s-shuffle" $prefix | safeHTMLAttr }}>{{ T "shuffle" }}</button>
     </div>
 
@@ -31,6 +35,14 @@
     </p>
 
     {{ partial "notes/random-prompt-panel.html" (dict "Prefix" $prefix "AiChatLabel" $aiChatLabel) }}
+
+    {{- if not $isBlog -}}
+      <div class="notes-path-result border-divider mb-6 hidden flex flex-wrap items-center gap-x-3 gap-y-2 rounded border p-5 text-sm" data-notes-single-random-path>
+        <h3 class="h6 mb-0 shrink-0">{{ T "random_duo_shortest_path" }}:</h3>
+        <div class="notes-path-chain notes-path-chain--row flex min-w-0 flex-wrap items-center gap-y-1" data-notes-single-random-path-chain></div>
+      </div>
+      <p class="text-ink-muted mb-6 hidden text-sm" data-notes-single-random-path-empty>{{ T "random_duo_no_path" }}</p>
+    {{- end -}}
 
     <div class="row notes-random-grid items-stretch" {{ printf "data-%s-notes" $prefix | safeHTMLAttr }}>
       <div class="mb-8 flex flex-col">
@@ -44,7 +56,7 @@
     <p class="notes-random-empty-page text-ink-muted hidden text-sm" {{ printf "data-%s-empty" $prefix | safeHTMLAttr }}>{{ T "no_random_blog_note" }}</p>
     {{- $payload := dict "notes" $pool "aiChatUrl" $aiChatUrl "aiChatOpenedLabel" (T "prompt_opened_in_ai") "aiChatCopiedLabel" (T "prompt_copied_for_ai") -}}
     {{- if not $isBlog -}}
-      {{- $payload = merge $payload (dict "currentUrl" $ctx.RelPermalink) -}}
+      {{- $payload = merge $payload (dict "currentUrl" $ctx.RelPermalink "currentTitle" $ctx.Title "graphEdges" $graph.edges) -}}
     {{- end -}}
     <script type="application/json" class="{{ $dataClass }}">{{ $payload | jsonify | safeJS }}</script>
   </div>

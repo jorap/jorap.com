@@ -1,5 +1,7 @@
 {{/*
   Publish a Hugo asset with content-hash cache busting (dev + production).
+  ponytail: fingerprint + SRI only in production — dev hot reload otherwise
+  leaves stale integrity hashes and blocks notes-graph / random-note JS.
   Matches the main script/style bundles in layouts/_partials/essentials/.
 
   Params:

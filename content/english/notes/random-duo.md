@@ -16,5 +16,3 @@ draft: false
 ---
 
 Two notes from the garden, picked at random. I hit **Shuffle** for another pair.
-
-Extends [[Getting Started]]. Implements [[Digital Serendipity]].

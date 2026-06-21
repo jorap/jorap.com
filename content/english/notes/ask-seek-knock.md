@@ -32,7 +32,16 @@ aliases: ["persistent prayer", "the Lord's Prayer"]
 
 Jesus compares God to a parent who gives bread, not a stone. The [[Ask Seek Knock]] (Matthew 6:9-13) models priority: God's name, kingdom, will - then daily needs and forgiveness. Prayer isn't bargaining for merit; under [[Free Grace]] it's the dependent posture of a child who already belongs to the household. Same rhythm as [[Periodic Knowledge Review]] - keep showing up on schedule, not only in crisis.
 
-Extends [[Free Grace]]. Contradicts [[Don't Worry]] when anxiety replaces asking.
+## Example
+
+I checked email three times before I prayed this morning, then wondered why God felt far away. Ask, seek, knock means I keep showing up like a kid who won't stop knocking on the bedroom door - not because I earned it, but because He's Dad and I'm already in the house.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Don't Worry]] | when anxiety replaces asking |
+| extends | [[Free Grace]] | Prayer is a dependent kid asking Dad, not bargaining for merit you already have |
 
 ## See also
 

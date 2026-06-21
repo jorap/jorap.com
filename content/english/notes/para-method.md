@@ -30,7 +30,19 @@ aliases: ["PARA", "Organization", "The Archive Method", "Archive Method", "The A
 ---
 **[[PARA]]** is how I sort notes by life responsibility - not by topic alphabet soup. Four buckets, clear questions.
 
-Extends [[Building a Second Brain]]. Contradicts [[Associative Linking]] when life buckets beat waiting for links to find each other.
+## Example
+
+The blog relaunch files sit in Projects with a deadline; my theology notes sit in Areas with no end date. I sort by who owns it and when it is due, not by alphabet soup.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Associative Linking]] | Life buckets vs link-first when owner and deadline are clear |
+| contradicts | [[Associative Linking]] | when life buckets beat waiting for links to find each other |
+| extends | [[Building a Second Brain]] | PARA sorts notes by life responsibility — CODE's organize step |
+| extends | [[Getting Things Done]] | Action-first capture Forte built PARA on top of |
+| implements | [[Building a Second Brain]] | PARA folders carry CODE's organize step |
 
 ## See also
 

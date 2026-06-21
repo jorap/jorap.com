@@ -32,7 +32,17 @@ aliases: ["bless those who curse you"]
 
 Jesus overturned the tribal reading of "neighbor." Loving only people who love you back is ordinary; loving enemies is divine-shaped. Prayer and blessing are the practical handles - not agreement, not pretending harm didn't happen. The Father's free grace toward the unjust (Matthew 5:45) is the pattern: I love enemies because God loved me first.
 
-Extends [[Free Grace]]. Contradicts [[The Golden Rule]] when I wait for fair treatment before I act.
+## Example
+
+Someone slandered me in a group chat and my thumb hovered over a reply that would have felt great for five minutes. I closed the app and prayed for them instead - not because they deserve it, but because that's what the Father does with people like me.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Turn the Other Cheek]] | Enemy-love vs non-retaliation when the moment is personal insult |
+| contradicts | [[The Golden Rule]] | when I wait for fair treatment before I act |
+| extends | [[Free Grace]] | You love enemies because God loved you first with free grace toward the unjust |
 
 ## See also
 

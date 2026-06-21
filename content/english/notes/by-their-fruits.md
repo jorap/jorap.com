@@ -32,7 +32,16 @@ aliases: ["know them by their fruits", "a tree is known by its fruit"]
 
 Jesus pairs this with [[Judge Not]]: don't condemn souls, but do evaluate fruit. Wolves may wear sheep's clothing; time and results tell. Garden parallel: [[Signal vs Noise]] - what actually produces good over time? The [Issues](/notes/issues/) audit - does the teaching leave the graph healthier or broken?
 
-Extends [[Judge Not]]. Contradicts [[Signal vs Noise]] when I can't tell fruit from hype.
+## Example
+
+Last month I bookmarked a preacher who talks smooth and looks holy on stage. Six weeks later I looked at the people around him - stressed, broke, bitter - and that told me more than any sermon title ever could.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Signal vs Noise]] | when I can't tell fruit from hype |
+| extends | [[Judge Not]] | You can't condemn souls, but you can judge fruit without breaking judge not |
 
 ## See also
 

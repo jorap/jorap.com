@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Synthesis", "PKM", "Writing", "Research", "Second Brain", "Express", "Zettelkasten", "Academic"]
+tags: ["Synthesis", "PKM", "Writing", "Research", "Second Brain", "Express", "Academic"]
 slug: "synthesis-as-a-goal"
 featured: false
 status: evergreen
@@ -15,7 +15,19 @@ aliases: ["Research Notes", "note taking for researchers"]
 ---
 Collecting quotes isn't PKM for me. Synthesis means merging sources into what I believe and can defend - often with [[First Principles Thinking]] when a note is still someone else's words.
 
-Extends [[Creative Output]]. Contradicts [[Progressive Summarization]] when merged belief beats layered highlights on borrowed words.
+## Example
+
+Three literature notes on note-taking sit in my inbox until I merge them into one paragraph I actually believe. Collecting quotes felt like work; synthesis is when learning started.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Progressive Summarization]] | Rewrite into belief vs bold layers when merge beats highlight |
+| contradicts | [[Progressive Summarization]] | when merged belief beats layered highlights on borrowed words |
+| extends | [[Creative Output]] | Collecting quotes isn't enough — merge sources into beliefs you can defend and ship |
+| extends | [[Literature Notes]] | Source notes you merge before belief |
+| implements | [[Creative Output]] | Merged belief carries express after sources settle |
 
 ## See also
 

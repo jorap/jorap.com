@@ -49,6 +49,7 @@ async function initGraph(panel) {
   var zoomInEl = panel.querySelector(".notes-graph-zoom-in");
   var zoomOutEl = panel.querySelector(".notes-graph-zoom-out");
   var filterEls = panel.querySelectorAll("[data-graph-filter]");
+  var colorEls = panel.querySelectorAll("[data-graph-color]");
   if (!dataEl || !container) return;
 
   var data;
@@ -83,9 +84,17 @@ async function initGraph(panel) {
       inDegree: n.inDegree || 0,
       outDegree: n.outDegree || 0,
       orphan: Boolean(n.orphan),
-      hub: Boolean(n.hub),
+      top: Boolean(n.top),
+      middle: Boolean(n.middle),
+      bottom: Boolean(n.bottom),
       deadEnd: Boolean(n.deadEnd),
-      weak: Boolean(n.weak),
+      hub: Boolean(n.hub),
+      primaryTag: n.primaryTag || "",
+      relExtends: Boolean(n.relExtends),
+      relContradicts: Boolean(n.relContradicts),
+      relImplements: Boolean(n.relImplements),
+      relAlternative: Boolean(n.relAlternative),
+      relIndex: Boolean(n.relIndex),
       label: null,
     };
   });
@@ -122,6 +131,8 @@ async function initGraph(panel) {
   var hovered = focusNode || null;
   var searchQuery = "";
   var graphFilter = "all";
+  var graphColorMode = "rank";
+  var tagPalette = ["#2563eb", "#15803d", "#b45309", "#be123c", "#7c3aed", "#0f766e", "#c27803", "#4b5563"];
   var draggingNode = null;
   var dragMoved = false;
   var dragStart = null;
@@ -167,8 +178,9 @@ async function initGraph(panel) {
       nodeHover: pixiColor(resolveToken("--color-ink", "#161412")),
       nodeFocus: pixiColor(resolveToken("--color-accent", "#181614")),
       nodeOrphan: pixiColor(resolveToken("--color-warning", "#b45309")),
-      nodeHub: pixiColor(resolveToken("--color-accent", "#181614")),
-      nodeWeak: pixiColor(resolveToken("--graph-weak", "#c27803")),
+      nodeTop: pixiColor(resolveToken("--color-accent", "#181614")),
+      nodeMiddle: pixiColor(resolveToken("--color-ink-muted", "#6b6762")),
+      nodeBottom: pixiColor(resolveToken("--graph-weak", "#c27803")),
       nodeDeadEnd: pixiColor(resolveToken("--color-ink-muted", "#6b6762")),
       surface: pixiColor(resolveToken("--color-surface", "#f5f3f0")),
       label: pixiColor(resolveToken("--color-ink", "#161412")),
@@ -603,12 +615,28 @@ async function initGraph(panel) {
     return node.title.toLowerCase().indexOf(searchQuery) !== -1;
   }
 
+  function tagColor(tag) {
+    if (!tag) return colors.node;
+    var h = 0;
+    for (var i = 0; i < tag.length; i += 1) {
+      h = (h * 31 + tag.charCodeAt(i)) >>> 0;
+    }
+    return pixiColor(tagPalette[h % tagPalette.length]);
+  }
+
   function passesFilter(node) {
     if (graphFilter === "all") return true;
     if (graphFilter === "orphan") return node.orphan;
-    if (graphFilter === "hub") return node.hub;
-    if (graphFilter === "weak") return node.weak;
+    if (graphFilter === "top") return node.top;
+    if (graphFilter === "middle") return node.middle;
+    if (graphFilter === "bottom") return node.bottom;
     if (graphFilter === "deadEnd") return node.deadEnd;
+    if (graphFilter === "hub") return node.hub;
+    if (graphFilter === "relExtends") return node.relExtends;
+    if (graphFilter === "relContradicts") return node.relContradicts;
+    if (graphFilter === "relImplements") return node.relImplements;
+    if (graphFilter === "relAlternative") return node.relAlternative;
+    if (graphFilter === "relIndex") return node.relIndex;
     return true;
   }
 
@@ -619,9 +647,11 @@ async function initGraph(panel) {
   function nodeFill(node, isFocus, isHover, inHighlight, highlight) {
     if (isFocus) return colors.nodeFocus;
     if (isHover) return colors.nodeHover;
+    if (graphColorMode === "tag") return tagColor(node.primaryTag);
     if (node.orphan && (graphFilter === "all" || graphFilter === "orphan")) return colors.nodeOrphan;
-    if (node.hub && (graphFilter === "all" || graphFilter === "hub")) return colors.nodeHub;
-    if (node.weak && (graphFilter === "all" || graphFilter === "weak")) return colors.nodeWeak;
+    if (node.top && (graphFilter === "all" || graphFilter === "top")) return colors.nodeTop;
+    if (node.bottom && (graphFilter === "all" || graphFilter === "bottom")) return colors.nodeBottom;
+    if (node.middle && (graphFilter === "all" || graphFilter === "middle")) return colors.nodeMiddle;
     if (node.deadEnd && (graphFilter === "all" || graphFilter === "deadEnd")) return colors.nodeDeadEnd;
     if (inHighlight && highlight) return colors.nodeActive;
     return colors.node;
@@ -1141,6 +1171,22 @@ async function initGraph(panel) {
       var value = btn.getAttribute("data-graph-filter") || "all";
       bindGraphControl(btn, function () {
         applyGraphFilter(value, btn);
+      });
+    });
+  }
+
+  if (colorEls.length) {
+    colorEls.forEach(function (btn) {
+      bindGraphControl(btn, function () {
+        graphColorMode = btn.getAttribute("data-graph-color") || "rank";
+        colorEls.forEach(function (el) {
+          var active = el === btn;
+          el.classList.toggle("btn-primary", active);
+          el.classList.toggle("btn-outline-primary", !active);
+          el.setAttribute("aria-pressed", active ? "true" : "false");
+        });
+        draw();
+        wake();
       });
     });
   }

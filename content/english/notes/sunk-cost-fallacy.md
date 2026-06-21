@@ -17,7 +17,17 @@ status: evergreen
 
 Past effort is gone. I ask: if I found this today, would I start it? [[Forgiveness]] runs the same play on relational debt. [[Turn the Other Cheek]] adds the move: stop throwing more anger after sunk hurt.
 
-Extends [[There Is No Perfect Solution]]. Contradicts [[Forgiveness]] when I keep collecting on a grudge I should release.
+## Example
+
+I kept paying for a capture app I'd stopped opening because I'd spent a weekend migrating into it. When I asked if I'd sign up today, the answer was no - I canceled and moved on in ten minutes.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Forgiveness]] | when I keep collecting on a grudge I should release |
+| extends | [[Behavioral Economics]] | Bias cluster this fallacy belongs to |
+| extends | [[There Is No Perfect Solution]] | Past effort is gone — ask if you'd start this today, same as dropping a bad plan for perfect |
 
 ## See also
 

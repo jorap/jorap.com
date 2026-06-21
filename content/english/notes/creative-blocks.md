@@ -15,7 +15,17 @@ aliases: []
 ---
 I have thousands of notes and still stare at a blank page sometimes. Creative blocks aren't solved by more capture - here's what actually unsticks me.
 
-Extends [[Creative Output]]. Contradicts [[Capture]] when one ship action beats capturing my way out of stuck.
+## Example
+
+I had forty open tabs of research and still couldn't start the blog post. I closed everything, wrote one ugly paragraph about my inbox setup, and published it - the block lifted once something existed outside my head.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Capture]] | when one ship action beats capturing my way out of stuck |
+| extends | [[Creative Output]] | More capture won't unstick you — blocks need output fixes, not more notes |
+| extends | [[Writer's Block]] | Named stuck state this note tries to break |
 
 ## See also
 

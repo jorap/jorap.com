@@ -32,7 +32,16 @@ aliases: ["anger and lust", "heart sins"]
 
 Jesus didn't lower the law; he exposed its depth. "You have heard… but I say" moves righteousness from courtroom compliance to motive and imagination. Under [[Free Grace]], this isn't a new merit ladder - it's the standard the Spirit applies to a life already saved, starting where only God sees.
 
-Extends [[Judge Not]]. Contradicts [[Let Your Light Shine]] when I polish the outside while nursing anger inside.
+## Example
+
+Some guy cut me off on the EDSA commute and I smiled through it, then nursed the anger the whole ride home. Jesus said that's murder in the heart - polite outside, poison inside.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Let Your Light Shine]] | when I polish the outside while nursing anger inside |
+| extends | [[Judge Not]] | God cares about inner motive, not the hypocritical judging judge not forbids |
 
 ## See also
 

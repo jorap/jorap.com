@@ -30,7 +30,19 @@ aliases: ["Trusted Inbox"]
 ---
 If I don't trust my inbox, I capture in my head instead. One pipe, weekly empty, no exceptions.
 
-Extends [[Capture]]. Contradicts [[Mobile Capture Workflows]] when one trusted pipe beats frictionless capture everywhere.
+## Example
+
+I merged work and home into one inbox because two pipes meant I would capture in my head instead. If Sunday passes without an empty, trust breaks and sparks die on the commute.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Mobile Capture Workflows]] | One pipe vs frictionless phone capture when trust beats options |
+| contradicts | [[Mobile Capture Workflows]] | when one trusted pipe beats frictionless capture everywhere |
+| extends | [[Capture]] | If you don't trust your inbox, you capture in your head instead of using capture |
+| extends | [[Inbox Zero]] | Empty-the-inbox discipline this pipe depends on |
+| implements | [[Capture]] | Empty-the-inbox carries capture into one pipe you'll actually process |
 
 ## See also
 

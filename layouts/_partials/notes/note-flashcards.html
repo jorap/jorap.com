@@ -5,7 +5,7 @@
 {{- $cards := partial "notes/cards-for-page.html" $page -}}
 {{- if gt (len $cards) 0 -}}
   <aside class="notes-note-flashcards border-divider mb-6 rounded border p-5">
-    <h2 class="h6 mb-4">Flashcards</h2>
+    <h2 id="flashcards" class="h6 mb-4">Flashcards</h2>
     <div class="notes-note-flashcards__grid grid gap-4 sm:grid-cols-2">
       {{- range $cards -}}
         <div class="notes-note-flashcards__item">

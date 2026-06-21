@@ -121,7 +121,7 @@ Most extension cords look the same on the shelf. They're not. The wrong gauge on
 
 ---
 
-## Vocabulary - high school level
+## Vocabulary - plain words
 
 ### ❌ Fancy / academic
 
@@ -153,7 +153,7 @@ Most extension cords look the same on the shelf. They're not. The wrong gauge on
 
 ---
 
-**Vocab test:** Read the draft to a 15-year-old. Any word they'd look up? Replace it.
+**Vocab test:** Read the draft aloud. Any word you'd pause to define? Replace it.
 
 ---
 

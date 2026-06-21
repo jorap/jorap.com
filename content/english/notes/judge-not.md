@@ -32,7 +32,16 @@ aliases: ["speck and plank", "do not judge"]
 
 Jesus forbids harsh, hypocritical condemnation - the kind that ignores my own guilt while magnifying yours. He doesn't forbid all moral discernment: the same sermon says judge trees by fruit (Matthew 7:16-20). Garden parallel: the [Issues](/notes/issues/) page lists broken wikilinks to fix - diagnose the graph, don't condemn the author. [[Free Grace]] reminds me I stood on mercy first.
 
-Extends [[Free Grace]]. Contradicts [[Humility and Service]] when I critique others to elevate myself.
+## Example
+
+I spotted my friend's parenting mistake in five seconds and missed my own plank for a month. Jesus wasn't saying ignore sin - He was saying fix your mess before you play judge on theirs.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Humility and Service]] | when I critique others to elevate myself |
+| extends | [[Free Grace]] | You stood on mercy first, so you don't condemn others like you're their final judge |
 
 ## See also
 

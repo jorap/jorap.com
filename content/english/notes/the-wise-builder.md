@@ -32,7 +32,16 @@ aliases: ["house on the rock", "hear and do"]
 
 Both builders hear the sermon; only one obeys. Storms reveal which foundation held. Under [[Free Grace]], doing isn't what saves - faith saves - but genuine hearing produces action. Empty "Lord, Lord" without doing the Father's will is the fool's house (Matthew 7:21-23). PKM mirror: [[The Collector's Fallacy]] - hearing sermons and saving articles without [[Creative Output]] is sand; obedience and output are rock.
 
-Extends [[Free Grace]]. Contradicts [[The Narrow Way]] when I claim Jesus without living his words.
+## Example
+
+I've heard the Sermon on the Mount preached a dozen times and still gossiped on Tuesday like Monday's Bible study never happened. Hearing without doing is a sand house - storms show which builder you actually are.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[The Narrow Way]] | when I claim Jesus without living his words |
+| extends | [[Free Grace]] | Faith saves you, but hearing Jesus without doing is the fool's house on sand |
 
 ## See also
 

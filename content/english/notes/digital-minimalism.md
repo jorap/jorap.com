@@ -15,7 +15,18 @@ aliases: []
 ---
 Fewer apps, fewer sync layers, fewer notifications. My PKM got better when I stopped collecting tools. Overlap with [[Treasure in Heaven]]: less earthly accumulation, clearer allegiance.
 
-Extends [[Minimum Effective Dose]]. Contradicts [[Digital Serendipity]] when fewer pipes beat building for accidental rediscovery.
+## Example
+
+I dropped two sync apps and one read-later pile last year and PKM got easier, not harder. Fewer pipes means I actually trust the one inbox left.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Digital Serendipity]] | Fewer tools vs engineered surprise when cutting pipes wins |
+| contradicts | [[Digital Serendipity]] | when fewer pipes beat building for accidental rediscovery |
+| extends | [[Attention Economy]] | What Newport is pushing back on |
+| extends | [[Minimum Effective Dose]] | Cut apps and notifications until you hit the smallest setup that still works |
 
 ## See also
 

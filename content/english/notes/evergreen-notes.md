@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Evergreen Notes", "PKM", "Note Taking", "Zettelkasten", "Second Brain", "Writing", "Formatting", "Readability", "Markdown"]
+tags: ["Evergreen Notes", "PKM", "Note Taking", "Second Brain", "Writing", "Formatting", "Readability", "Markdown"]
 slug: "evergreen-notes"
 featured: false
 aliases: ["Formatting for Readability"]
@@ -32,7 +32,19 @@ I write evergreen notes to stay useful - timeless phrasing, clear claims, update
 
 I write in complete sentences I'd still stand behind in two years. Revise when tools change, not when trends spike. Promotion from fleeting: during [[Periodic Knowledge Review]], when a spark keeps returning. Faith parallel: [[The Beatitudes]] - character that matures over years, not a one-week mood.
 
-Extends [[Atomic Notes]]. Contradicts [[Daily Notes]] when two-year phrasing beats today's scratch pad.
+## Example
+
+I rewrite a note when Hugo changes how I work, not when Twitter gets excited about a new theme. If I would not say the sentence out loud in two years, it stays fleeting.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Daily Notes]] | Two-year wording vs today's scratch when permanence can wait |
+| contradicts | [[Daily Notes]] | when two-year phrasing beats today's scratch pad |
+| extends | [[Atomic Notes]] | Atomic notes become evergreens when one claim is phrased to last for years |
+| extends | [[Permanent Notes]] | Ahrens-style durable phrasing this note targets |
+| implements | [[Atomic Notes]] | Durable phrasing carries one-claim atoms into reuse |
 
 ## See also
 

@@ -1,8 +1,8 @@
 {{- $ctx := .Context -}}
 {{- $active := .active | default "" -}}
 {{- $noteCount := len (partial "notes/pages.html" $ctx) -}}
-{{- $issueData := partialCached "notes/collect-note-issues.html" site "note-issues-v3" -}}
-{{- $issueTotal := add $issueData.brokenCount $issueData.unlinkedCount -}}
+{{- $issueData := partialCached "notes/collect-note-issues.html" site "note-issues-v6" -}}
+{{- $issueTotal := add (add $issueData.brokenCount $issueData.unlinkedCount) $issueData.structureCount -}}
 <div class="notes-toolbar mb-6 flex flex-wrap items-center gap-2 xl:gap-3">
   <a
     class="btn btn-sm{{ if eq $active "list" }} btn-primary{{ else }} btn-outline-primary{{ end }}"
@@ -10,7 +10,7 @@
     {{- if eq $active "list" -}}
       aria-current="page"
     {{- end -}}>
-    All {{ $noteCount }} Notes
+    All<span class="notes-filter__count"> · {{ $noteCount }}</span>
   </a>
   {{- if site.Params.notes.enable_graph -}}
     <a
@@ -28,7 +28,15 @@
     {{- if eq $active "issues" -}}
       aria-current="page"
     {{- end -}}>
-    Issues{{ if gt $issueTotal 0 }} ({{ $issueTotal }}){{ end }}
+    Issues<span class="notes-filter__count"> · {{ $issueTotal }}</span>
+  </a>
+  <a
+    class="btn btn-sm{{ if eq $active "backlinks" }} btn-primary{{ else }} btn-outline-primary{{ end }}"
+    href="{{ `/notes/backlinks/` | relLangURL }}"
+    {{- if eq $active "backlinks" -}}
+      aria-current="page"
+    {{- end -}}>
+    Backlinks
   </a>
   {{- if site.Params.notes.enable_cards -}}
     <a
@@ -49,6 +57,6 @@
     </a>
   {{- end -}}
   {{- if ne $active "note" -}}
-    {{ partial "notes/random-note.html" (dict "Context" $ctx "active" $active) }}
+    {{- partial "notes/random-note.html" (dict "Context" $ctx "active" $active) -}}
   {{- end -}}
 </div>

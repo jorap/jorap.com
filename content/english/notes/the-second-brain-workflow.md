@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Second Brain", "Workflow", "CODE Method", "PARA", "PKM", "Productivity", "Hugo", "Tools", "Browser Tips", "RSS", "Daily Routine", "Information Diet"]
+tags: ["Second Brain", "Workflow", "CODE Method", "PARA", "PKM", "Productivity", "Hugo", "Tools", "Browser Tips", "Daily Routine", "Information Diet"]
 slug: "the-second-brain-workflow"
 featured: false
 status: evergreen
@@ -15,10 +15,21 @@ aliases: ["Second Brain Workflow", "Second Brain Daily Workflow", "Daily Workflo
 ---
 CODE and PARA in one loop: capture to inbox, organize by project, distill on use, express weekly.
 
-Extends [[Capture]]. Contradicts [[Minimum Effective Dose]] when the full loop beats the smallest habit that works. Implements [[Building a Second Brain]].
+## Example
+
+Morning is capture to inbox, Sunday is empty and express, distill happens only when I reuse a note. CODE and PARA in one loop, not four separate hobbies.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Minimum Effective Dose]] | Full CODE loop vs smallest habit when the whole loop is too heavy |
+| contradicts | [[Minimum Effective Dose]] | when the full loop beats the smallest habit that works |
+| extends | [[Capture]] | CODE and PARA in one loop starts with capture to inbox every day |
+| extends | [[CODE Method]] | Capture–Organize–Distill–Express loop in motion |
+| implements | [[Building a Second Brain]] | Carries it out in practice |
 
 ## See also
 
 - [[PARA Method]] - PARA, PKM, Productivity
-- [[RSS for Research]] - Information Diet, PKM, Second Brain
 - [[Active Knowledge Curation]] - PKM, Productivity, Second Brain

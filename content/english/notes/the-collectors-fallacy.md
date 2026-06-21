@@ -30,7 +30,18 @@ aliases: ["the collectors fallacy", "Collector's Fallacy"]
 ---
 Collecting articles feels like progress. It isn't. The collector's fallacy bit me until I tied saves to express deadlines. [[Treasure in Heaven]] is the faith-side mirror: hoarding what rusts instead of what lasts.
 
-Extends [[Creative Output]]. Contradicts [[Capture]] when skipping the save kills a spark I'll actually ship from.
+## Example
+
+My read-later folder had ninety articles and zero published posts until I tied every save to a ship date. Saving felt like progress; it was not.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Capture]] | Hoard without express vs disciplined inbox when saving feels like progress |
+| contradicts | [[Capture]] | when skipping the save kills a spark I'll actually ship from |
+| extends | [[Creative Output]] | Saving articles feels like progress but isn't — tie saves to express deadlines or hoard forever |
+| extends | [[Read Later Queue]] | Where hoarding hides — pile without express |
 
 ## See also
 

@@ -3,7 +3,7 @@ name: flashcards
 description: >-
   Write and edit JoRap notes garden flashcards (review: true, cards frontmatter,
   card_sets). Always apply jorap-voice - cards must sound like JoRap typed them mid-life,
-  not like textbook prompts. Use high-school-level vocabulary on every front and back.
+  not like textbook prompts. Use plain words on every front and back.
   Use when adding, rewriting, or auditing flashcards on
   content/english/notes, enabling review on spine notes, fixing card lint errors, or when
   the user asks about flashcard goals, real-life recall, immediate application, scenario
@@ -16,7 +16,7 @@ Flashcards are a **drill lane beside the wiki** - not a second copy of the note.
 
 Only ~20% of notes (spine habits + gospel cluster) carry cards. Full spec: `content/english/notes/flashcards.md`. Reference decks: `capture.md`, `free-grace.md`, `the-golden-rule.md`.
 
-**Voice:** Always load and follow [jorap-voice](../jorap-voice/SKILL.md). Cards are first-person drill cues - same plain, lived-in tone as the notes garden, not Anki boilerplate. Vocabulary rules live in jorap-voice (high school level).
+**Voice:** Always load and follow [jorap-voice](../jorap-voice/SKILL.md). Cards are first-person drill cues - same plain, lived-in tone as the notes garden, not Anki boilerplate. Vocabulary rules live in jorap-voice.
 
 ## North star - recall and apply in real life
 
@@ -99,7 +99,7 @@ Wiki = nuance. Cards = spine habits (~20%) you drill weekly so the chain is auto
 3. **Confirm spine status** - weekly drill? (~12 PKM + gospel under [[Eternal Principles]]). Else skip `review: true`.
 4. **Mine real cues** - 6+ moments from actual life where this note should have fired but didn't. Not from the definition line.
 5. **Draft cue → apply pairs** - front = recognize; back = do/decide now. Optional subtle hint question on the front (`One check?`, `What comes first?`) when the back is a specific check, filter, or order (see [examples.md](examples.md)).
-6. **De-AI pass (jorap-voice + vocab)** - read each front aloud. Would JoRap actually think this mid-commute, mid-argument, inbox at 40? Cut textbook phrasing, abstract nouns, and third-person setup. Swap any word a typical high school reader wouldn't use in speech (`utilize` → `use`, `repository` → `inbox`, `facilitate` → `help`). Backs stay short imperatives - no essays.
+6. **De-AI pass (jorap-voice + vocab)** - read each front aloud. Would JoRap actually think this mid-commute, mid-argument, inbox at 40? Cut textbook phrasing, abstract nouns, and third-person setup. Swap any word you wouldn't say to a friend mid-rush (`utilize` → `use`, `repository` → `inbox`, `facilitate` → `help`). Backs stay short imperatives - no essays.
 7. **Real-life litmus** - for each card: *If this front happened tonight, would I know the back without opening the site?*
 8. **Pick `card_sets`**, validate with `npm run lint:cards` and `npm run lint:voice`.
 
@@ -192,9 +192,9 @@ Cards inherit the garden's voice - practical, first-person, specific. Apply jora
 
 **De-AI on fronts:** if it could appear in any generic study deck, add a concrete detail from real life. **De-AI on backs:** verb-first move, not a definition sentence.
 
-### Vocabulary (high school level)
+### Vocabulary
 
-Cards fire under pressure. Fancy words slow recall. Write so a typical high school reader gets every word on first pass.
+Cards fire under pressure. Fancy words slow recall. Every word should land on first pass.
 
 | Rule | Detail |
 |------|--------|
@@ -203,7 +203,7 @@ Cards fire under pressure. Fancy words slow recall. Write so a typical high scho
 | **Spine terms OK** | Note-specific drill words (`inbox`, `evergreen`, `wikilink`) when they're the move itself |
 | **No academic voice** | `repository` → `inbox`; `prioritize` → `do first`; `implement` → `do`; `leverage` → `use` |
 
-**Vocab test:** Read the front to a 15-year-old. Any word they'd look up? Replace it before committing.
+**Vocab test:** Read the front aloud. Any word you'd pause to define? Replace it before committing.
 
 ### card_sets labels
 
@@ -219,7 +219,7 @@ Each card:
 - [ ] Back tells me what to **do or decide now** - not just what is true
 - [ ] Cue → apply chain works with note closed (real-life litmus)
 - [ ] Sounds like JoRap typed it - jorap-voice de-AI pass done (no textbook / AI slop)
-- [ ] High-school vocabulary only - no jargon or thesaurus words a typical teen wouldn't say out loud
+- [ ] Plain words only - no jargon or thesaurus words you wouldn't say out loud
 - [ ] Front is cue only - no multiple choice (`X, Y, or Z?`, `A or B?` on the front)
 - [ ] Subtle hint question OR pure cue-only - never telegraphy; front longer than back; one move on back
 - [ ] `npm run lint:cards` and `npm run lint:voice` pass

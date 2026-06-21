@@ -15,7 +15,19 @@ aliases: ["GTD"]
 ---
 GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - here's how I use both without doubling admin.
 
-Extends [[PARA Method]]. Contradicts [[PKM]] when task inbox truth beats note-garden architecture.
+## Example
+
+OmniFocus holds my next actions; PARA folders hold reference for the blog relaunch. Same brain, two systems, and I stopped forcing tasks into the notes garden.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Getting Things Done]] | Allen task inbox vs Forte life buckets when runway is the frame |
+| alternative | [[PARA Method]] | PARA sort vs GTD contexts when project folders beat action lists |
+| contradicts | [[PKM]] | when task inbox truth beats note-garden architecture |
+| extends | [[Getting Things Done]] | Allen task-inbox system on the other side of the comparison |
+| extends | [[PARA Method]] | GTD runs tasks and PARA sorts notes — here's how both work without doubling admin |
 
 ## See also
 

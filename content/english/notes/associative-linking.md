@@ -6,7 +6,7 @@ date: 2026-06-18T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Linking", "PKM", "Zettelkasten", "Note Taking", "Second Brain", "Digital Garden", "Graph", "Network"]
+tags: ["Linking", "PKM", "Note Taking", "Second Brain", "Digital Garden", "Graph", "Network"]
 slug: "associative-linking"
 featured: false
 status: evergreen
@@ -30,7 +30,18 @@ aliases: ["Interconnectivity", "Power of Interconnectivity", "The Power of Inter
 ---
 Folders sort. Links think. I link so notes meet without me remembering every filename. Faith parallel: [[Love Your Neighbor]] - neighbors in the graph; ideas linked by proximity and care, not only folder tree.
 
-Extends [[Atomic Notes]]. Contradicts [[PARA Method]] when links beat sorting by owner and deadline.
+## Example
+
+I am writing about [[Slow Productivity]] and remember a note on quarterly sprints without knowing its filename. The contradicts link is what gets me there, not the folder tree.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[PARA Method]] | Link-first graph vs life buckets when folders beat waiting for links |
+| contradicts | [[PARA Method]] | when links beat sorting by owner and deadline |
+| extends | [[Atomic Notes]] | Links let atomic notes bump into each other without you memorizing every filename |
+| implements | [[Atomic Notes]] | Typed wikilinks make one-claim files usable |
 
 ## See also
 

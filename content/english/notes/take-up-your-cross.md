@@ -32,7 +32,16 @@ aliases: ["deny yourself", "daily cross"]
 
 The cross isn't suffering for suffering's sake; it's choosing God's will over self-will each day. [[Free Grace]] keeps the order: eternal life is received by faith, not earned by cross-bearing - but following Christ costs something real. Same road as [[The Narrow Way]], lived one day at a time. Overlap with [[Process Over Outcomes]]: daily self-denial beats a one-time hero sprint.
 
-Extends [[Free Grace]]. Contradicts [[There Is No Perfect Solution]] when I expect discipleship without cost.
+## Example
+
+I had one big surrender moment last year and then went back to the same comfortable sin like the cross was a one-time photo op. Jesus said daily - pick it up again today, even when obedience costs something real.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[There Is No Perfect Solution]] | when I expect discipleship without cost |
+| extends | [[Free Grace]] | Cross-bearing costs something real after faith saves you — it doesn't earn eternal life |
 
 ## See also
 

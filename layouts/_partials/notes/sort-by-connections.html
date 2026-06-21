@@ -1,6 +1,6 @@
 {{- /* Featured notes first; each group sorted by wikilink degree (desc), then title (asc). */ -}}
 {{- $pages := .Pages -}}
-{{- $graph := partialCached "notes/graph-data.html" site "graph-data-v1" -}}
+{{- $graph := partialCached "notes/graph-data.html" site "graph-data-v3" -}}
 {{- $scratch := newScratch -}}
 {{- range $graph.edges -}}
   {{- $scratch.Add .source 1 -}}

@@ -18,10 +18,17 @@
   var promptEl = document.querySelector("[data-" + prefix + "-prompt]");
   var emptyPageEl = document.querySelector("[data-" + prefix + "-empty]");
   var slot = root.querySelector("[data-" + prefix + "-slot]");
+  var pathResultEl = document.querySelector("[data-notes-single-random-path]");
+  var pathChainEl = document.querySelector("[data-notes-single-random-path-chain]");
+  var pathEmptyEl = document.querySelector("[data-notes-single-random-path-empty]");
 
   var currentNote = null;
+  var currentPath = null;
   var pool = [];
   var currentUrl = "";
+  var currentTitle = "";
+  var adj = Object.create(null);
+  var titleByUrl = Object.create(null);
   var aiChatUrl = "https://chatgpt.com/?q=";
   var aiChatOpenedLabel = "Opened";
   var aiChatCopiedLabel = "Copied — paste in chat";
@@ -33,12 +40,21 @@
     } else {
       pool = config.notes || [];
       if (config.currentUrl) currentUrl = config.currentUrl;
+      if (config.currentTitle) currentTitle = config.currentTitle;
       if (config.aiChatUrl) aiChatUrl = config.aiChatUrl;
       if (config.aiChatOpenedLabel) aiChatOpenedLabel = config.aiChatOpenedLabel;
       if (config.aiChatCopiedLabel) aiChatCopiedLabel = config.aiChatCopiedLabel;
+      if (!isBlog && config.graphEdges) adj = core.buildAdjacency(config.graphEdges);
     }
   } catch (e) {
     pool = [];
+  }
+
+  pool.forEach(function (item) {
+    titleByUrl[item.url] = item.title;
+  });
+  if (!isBlog && currentUrl && currentTitle) {
+    titleByUrl[currentUrl] = currentTitle;
   }
 
   var ai = core.createAiHelpers({
@@ -110,9 +126,28 @@
     if (note.url) lines.push("URL: " + origin + note.url);
     if (note.bodyText) lines.push(note.bodyText);
     lines.push("");
+
+    if (!isBlog && currentPath && currentPath.length > 1) {
+      lines.push(core.pathPromptLine(currentPath, titleByUrl));
+      lines.push("");
+    }
+
     lines.push.apply(lines, core.connectionPromptTail(analyze));
 
     return lines.join("\n");
+  }
+
+  function updatePath() {
+    if (isBlog) return;
+    currentPath = core.renderPathBetween({
+      resultEl: pathResultEl,
+      chainEl: pathChainEl,
+      emptyEl: pathEmptyEl,
+      adj: adj,
+      titleByUrl: titleByUrl,
+      start: currentUrl,
+      end: currentNote && currentNote.url,
+    });
   }
 
   function syncSelect(url) {
@@ -130,6 +165,7 @@
       );
       currentNote = null;
       syncSelect("");
+      updatePath();
       if (promptEl) promptEl.value = buildPrompt(null);
       return;
     }
@@ -140,6 +176,7 @@
     core.renderNoteIntoSlot(slot, pick).then(function (note) {
       currentNote = note;
       syncSelect(note && note.url ? note.url : "");
+      updatePath();
       if (promptEl) promptEl.value = buildPrompt(currentNote);
     });
   }

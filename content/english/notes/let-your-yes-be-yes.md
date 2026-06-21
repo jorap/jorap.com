@@ -32,7 +32,16 @@ aliases: ["truth telling", "simply let your yes be yes"]
 
 Jesus deepened the law against false vows: disciples should be so truthful that extra oaths aren't needed. Anything beyond simple yes/no comes from evil - meaning manipulation, not that all contracts are sin. PKM parallel: [[Atomic Notes]] - one plain claim per page, no padded prose to sound smart. Integrity of speech is [[Heart Righteousness]], not performance for [[Let Your Light Shine]].
 
-Extends [[Love Your Neighbor]]. Contradicts [[Drafting in Public]] when public words outrun private honesty.
+## Example
+
+I told a client I'd have it done "God willing, absolutely, cross my heart" when a plain yes would have been enough. If my word needs extra padding to sound believable, the problem isn't the contract - it's me.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Drafting in Public]] | when public words outrun private honesty |
+| extends | [[Love Your Neighbor]] | Plain yes-or-no speech is how you treat neighbors with integrity, not padded oaths |
 
 ## See also
 

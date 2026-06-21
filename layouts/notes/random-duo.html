@@ -1,5 +1,6 @@
 {{ define "main" }}
   {{- $pool := partial "notes/random-pool.html" . -}}
+  {{- $graph := partialCached "notes/graph-data.html" site "graph-data-v3" -}}
   {{- $aiChatLabel := site.Params.blog.random_notes_ai_chat_label | default (T "open_in_chatgpt") -}}
 
   {{ partial "page-header" . }}
@@ -20,6 +21,12 @@
 
           {{ partial "notes/random-prompt-panel.html" (dict "Prefix" "random-duo" "AiChatLabel" $aiChatLabel "Loading" (T "random_notes_prompt_loading") "Rows" 10) }}
 
+          <div class="notes-path-result border-divider mb-6 hidden flex flex-wrap items-center gap-x-3 gap-y-2 rounded border p-5 text-sm" data-random-duo-path>
+            <h3 class="h6 mb-0 shrink-0">{{ T "random_duo_shortest_path" }}:</h3>
+            <div class="notes-path-chain notes-path-chain--row flex min-w-0 flex-wrap items-center gap-y-1" data-random-duo-path-chain></div>
+          </div>
+          <p class="text-ink-muted mb-6 hidden text-sm" data-random-duo-path-empty>{{ T "random_duo_no_path" }}</p>
+
           <div class="row notes-random-grid items-stretch" data-notes-random-duo>
             <div class="md:col-6 mb-8 flex flex-col">
               {{ partial "notes/random-note-select.html" (dict "Prefix" "random-duo" "Pool" $pool "Label" (T "select_note_left") "Placeholder" (T "choose_note") "Slot" "0") }}
@@ -37,6 +44,7 @@
 
           <p class="notes-random-empty-page text-ink-muted hidden text-sm">{{ T "no_random_blog_note" }}</p>
           <script type="application/json" class="notes-random-duo-data">{{ $pool | jsonify | safeJS }}</script>
+          <script type="application/json" class="notes-random-duo-graph-data">{{ $graph.edges | jsonify | safeJS }}</script>
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 ---
+note_kind: "index"
 title: "Eternal Principles"
 meta_title: "Eternal Principles - Jesus' Teachings in the Garden"
 description: "I keep Jesus' unchanging teachings here as atomic notes - faith saves first; these pages cover how I try to live after that."
@@ -56,7 +57,8 @@ Start at [[Free Grace]] if the order matters. Then wander by section below. Gosp
 
 ## Character and witness
 
-- [[Humility and Service]] - lead by serving; wash feet, don't grasp status
+- [[Discipleship]] - following Jesus after faith; learn, obey, pass it on — not salvation's price tag
+- [[Humility and Service]] - serve the team; wash feet, don't grasp status
 - [[Let Your Light Shine]] - visible good works so others see and glorify God, not you
 - [[Take Up Your Cross]] - daily self-denial; follow behind, not a one-time hero sprint
 - [[The Wise Builder]] - hear Jesus and do; sand collapses when the storm hits
@@ -66,6 +68,10 @@ Start at [[Free Grace]] if the order matters. Then wander by section below. Gosp
 
 - [[Render Unto Caesar]] - sort civic duty from ultimate allegiance; dual obligations clarified
 - [[Great Commission]] - make disciples; truth shared, not hoarded in the garden
+
+## At work
+
+Corporate-friendly versions of the same ethics - plain language for meetings and Slack. Hub: [[Workplace Principles]].
 
 ## Cross-links (PKM)
 
@@ -90,6 +96,7 @@ Same ideas show up in my PKM notes. I wired the pairs below so the faith cluster
 | [[By Their Fruits]] | [[Signal vs Noise]] | Discern teachers by outcome, not hype |
 | [[Secret Devotion]] | [[Drafting in Public]] | Hidden piety vs performance for an audience |
 | [[Great Commission]] | [[Creative Output]] | Truth shared - not hoarded in the garden |
+| [[Discipleship]] | [[Process Over Outcomes]] | Daily following beats a one-time hero sprint |
 | [[Abide in Me]] | [[Compounding]] | Fruit from connection over time - not self-power alone |
 | [[Childlike Faith]] | [[Getting Started]] | Beginner posture - receive the guide, don't perform expertise you don't have |
 | [[Ask Seek Knock]] | [[Periodic Knowledge Review]] | Keep asking on rhythm - review loop, not one cram session |
@@ -97,10 +104,15 @@ Same ideas show up in my PKM notes. I wired the pairs below so the faith cluster
 | [[Love Your Neighbor]] | [[Associative Linking]] | Neighbors in the graph - ideas linked by proximity and care |
 | [[The Golden Rule]] | [[Note Relationships]] | Treat links like neighbors - typed relationships, not vague vibes |
 
-Extends [[Free Grace]]. Contradicts [[First Principles Thinking]] when I treat gospel ethics as ideas I invented. Index for gospel notes in this garden.
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[First Principles Thinking]] | when I treat gospel ethics as ideas I invented |
+| extends | [[Free Grace]] | Jesus' commands are how you live after grace, not the price tag for heaven |
 
 ## See also
 
 - [[Free Grace]] - Eternal Principles, Faith, Gospel
 - [[Maps of Content]] - Linking, MOC, PKM
-- [[Mental Models List]] - Decision Making, Mental Models, PKM
+- [[Mental Models]] - Decision Making, Mental Models, PKM

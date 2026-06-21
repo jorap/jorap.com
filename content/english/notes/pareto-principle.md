@@ -32,7 +32,17 @@ draft: false
 
 Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand, not a law). I use it when my reading list, task board, or note tags all feel equally important: which few actually moved the needle? Same rule for flashcards: only spine notes carry `review: true` here - PKM habits plus six [[Eternal Principles]] with cards, not every faith note in the garden. Cards ask what I'd *do*, not what I'd *define*.
 
-Extends [[Signal vs Noise]]. Contradicts [[Compounding]] when cutting the long tail kills compounding habits.
+## Example
+
+Last month my review deck had forty cards and I skipped drills three nights in a row. I trimmed it to eight spine notes - the ones that actually change how I capture and review - and suddenly I was finishing sessions again instead of guilt-scrolling the backlog.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Compounding]] | when cutting the long tail kills compounding habits |
+| extends | [[Signal vs Noise]] | Most results come from a small slice — find the signal and cut the noise |
+| extends | [[Vilfredo Pareto]] | 80/20 origin story — worth its own note later |
 
 ## See also
 
