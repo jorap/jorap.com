@@ -54,12 +54,12 @@ What this site gives you:
 - **Hover previews** - pause on a wikilink to peek at the target note
 - **Maps of Content** - hub index at [[Maps of Content]]
 - **Status badges** - seedling/evergreen/inbox/archived on each note; stale filter uses file edit time on [/notes/](/notes/)
-- **Resurfacing** - featured random note, [Random Duo](/notes/random-duo/), and [Random Trio](/notes/random-trio/) on [/notes/](/notes/)
+- **Resurfacing** - featured random note and [Random Duo](/notes/random-duo/) on [/notes/](/notes/)
 - **Flashcards** - ~12 habit spine notes (~20%) with `review: true` carry six scenario `cards:` in frontmatter plus `card_sets:` for Review grouping; habit prompts I drill at [/notes/review/](/notes/review/)
 
 ## Utility surfaces (don't wikilink)
 
-These six pages are **meta tools** (`note_kind: meta`), not garden ideas: [Graph](/notes/graph/), [Issues](/notes/issues/), [Flashcards](/notes/flashcards/), [Review](/notes/review/), [Random Duo](/notes/random-duo/), [Random Trio](/notes/random-trio/). They are excluded from the graph node set, random pickers, and flashcard sources. **Don't `[[wikilink]]` to them** from content notes - link by URL when pointing readers at a tool. `npm run lint:utility-links` catches violations.
+These five pages are **meta tools** (`note_kind: meta`), not garden ideas: [Graph](/notes/graph/), [Issues](/notes/issues/), [Flashcards](/notes/flashcards/), [Review](/notes/review/), [Random Duo](/notes/random-duo/). They are excluded from the graph node set, random pickers, and flashcard sources. **Don't `[[wikilink]]` to them** from content notes - link by URL when pointing readers at a tool. `npm run lint:utility-links` catches violations.
 
 ## Explore
 

@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{ $graph := partial "notes/graph-data-cached.html" . }}
+  {{ $graph := partialCached "notes/graph-data.html" site "graph-data-v1" }}
   {{ $orphans := 0 }}
   {{ $hubs := 0 }}
   {{ $deadEnds := 0 }}

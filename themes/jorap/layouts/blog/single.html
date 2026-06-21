@@ -117,7 +117,7 @@
 
     {{ partial "blog/related-posts.html" . }}
     {{ partial "blog/related-notes.html" . }}
-    {{ partial "blog/random-unrelated-notes.html" . }}
+    {{ partial "notes/random-unrelated-notes.html" (dict "Context" . "Scope" "blog") }}
   </div>
 </section>
 {{/* TOC scripting (mobile toggle + scroll-spy) lives in assets/js/toc.js, loaded site-wide via [[params.plugins.js]] in hugo.toml. */}}

@@ -22,7 +22,7 @@
           </div>
 
           <div class="row notes-grid" data-notes-grid>
-            {{ $notes := partial "notes/garden-pages.html" . }}
+            {{ $notes := partial "notes/pages.html" . }}
             {{ $notes = partial "notes/sort-by-connections.html" (dict "Pages" $notes "Context" .) }}
             {{ range $notes }}
               {{ $meta := partial "notes/note-meta.html" . }}
@@ -52,5 +52,6 @@
   </section>
 
   {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-list.js" "defer" true) }}
+  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-random-core.js" "defer" true) }}
   {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-featured-random.js" "defer" true) }}
 {{ end }}

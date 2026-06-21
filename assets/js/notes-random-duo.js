@@ -1,12 +1,16 @@
 /**
- * Random Duo page: pick a pair and load note bodies into columns.
+ * Random Duo page: two garden notes side by side + AI prompt.
  */
 (function () {
+  var core = window.jorapNotesRandomCore;
+  if (!core) return;
+
   var root = document.querySelector("[data-notes-random-duo]");
   var dataEl = document.querySelector(".notes-random-duo-data");
   var shuffleBtn = document.querySelector("[data-random-duo-shuffle]");
   var shuffleLeftBtn = document.querySelector("[data-random-duo-shuffle-left]");
   var shuffleRightBtn = document.querySelector("[data-random-duo-shuffle-right]");
+  var selectEls = document.querySelectorAll("[data-random-duo-select]");
   var copyPromptBtn = document.querySelector("[data-random-duo-copy-prompt]");
   var sendPromptBtn = document.querySelector("[data-random-duo-send-prompt]");
   var promptEl = document.querySelector("[data-random-duo-prompt]");
@@ -15,11 +19,8 @@
 
   var slots = root.querySelectorAll("[data-random-duo-slot]");
   var currentNotes = [null, null];
-  var pool;
+  var pool = [];
   var aiChatUrl = "https://chatgpt.com/?q=";
-  var aiChatOpenedLabel = "Opened";
-  var aiChatCopiedLabel = "Copied — paste in chat";
-  var PROMPT_PREFILL_MAX_URL = 1800;
 
   try {
     pool = JSON.parse(dataEl.textContent);
@@ -27,52 +28,21 @@
     pool = [];
   }
 
+  var ai = core.createAiHelpers({
+    promptEl: promptEl,
+    aiChatUrl: aiChatUrl,
+    copyPromptBtn: copyPromptBtn,
+    sendPromptBtn: sendPromptBtn,
+    openedLabel: "Opened",
+    copiedLabel: "Copied — paste in chat",
+  });
+
   function pickTwo() {
     if (!pool.length) return [];
     if (pool.length === 1) return [pool[0], null];
-    var first = pickOne([]);
-    var second = pickOne(first ? [first.url] : []);
+    var first = core.pickOne(pool, []);
+    var second = core.pickOne(pool, first ? [first.url] : []);
     return [first, second];
-  }
-
-  function pickOne(excludeUrls) {
-    if (!pool.length) return null;
-
-    var exclude = excludeUrls || [];
-    var candidates = pool.filter(function (entry) {
-      return exclude.indexOf(entry.url) === -1;
-    });
-
-    if (!candidates.length) {
-      candidates = pool.slice();
-    }
-
-    return candidates[Math.floor(Math.random() * candidates.length)];
-  }
-
-  function escapeHtml(str) {
-    return String(str)
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;");
-  }
-
-  function setSlotLoading(slot) {
-    slot.innerHTML = '<p class="notes-random-loading text-ink-muted text-sm">Loading…</p>';
-    slot.classList.remove("notes-random-panel--empty");
-  }
-
-  function setSlotEmpty(slot) {
-    slot.innerHTML =
-      '<p class="notes-random-empty text-ink-muted text-sm">Not enough notes to fill this column.</p>';
-    slot.classList.add("notes-random-panel--empty");
-  }
-
-  function normalizeText(str) {
-    return String(str || "")
-      .replace(/\s+/g, " ")
-      .trim();
   }
 
   function buildPrompt(notes) {
@@ -99,98 +69,9 @@
     lines.push("Please analyze:");
     lines.push("- Note 1 + Note 2 (together)");
     lines.push("");
-    lines.push("For this pairing, provide:");
-    lines.push("- 3 unexpected links (surprising connections or new ideas)");
-    lines.push("- 3 atomic note titles (clear, one-idea titles I can turn into [[wikilinks]])");
-    lines.push("- 3 questions the pairing raises");
-    lines.push("- 3 gaps, tensions, or contradictions worth exploring");
-    lines.push("");
-    lines.push("Constraints:");
-    lines.push("- Keep all suggestions practical for a personal knowledge garden");
-    lines.push("- One idea per note, clear atomic titles");
-    lines.push("- Focus on actionable insights, not abstract theory");
+    lines.push.apply(lines, core.connectionPromptTail("For this pairing, provide:"));
 
     return lines.join("\n");
-  }
-
-  function updatePrompt(notes) {
-    if (!promptEl) return;
-    promptEl.value = buildPrompt(notes);
-  }
-
-  function flashButton(btn, message) {
-    if (!btn) return;
-    var original = btn.textContent;
-    btn.textContent = message;
-    window.setTimeout(function () {
-      btn.textContent = original;
-    }, 1600);
-  }
-
-  function promptIsReady() {
-    if (!promptEl) return false;
-    var prompt = promptEl.value;
-    if (!prompt) return false;
-    if (prompt === "Loading notes…") return false;
-    if (prompt.indexOf("Shuffle to load") === 0) return false;
-    return true;
-  }
-
-  function aiChatFallbackUrl(template) {
-    var qIndex = template.indexOf("?q=");
-    if (qIndex !== -1) return template.slice(0, qIndex);
-    var queryIndex = template.indexOf("?");
-    if (queryIndex !== -1) return template.slice(0, queryIndex);
-    return template;
-  }
-
-  function copyPrompt() {
-    if (!promptEl || !navigator.clipboard || !promptIsReady()) return;
-
-    navigator.clipboard.writeText(promptEl.value).then(function () {
-      flashButton(copyPromptBtn, "Copied");
-    });
-  }
-
-  function sendPromptToAI() {
-    if (!promptEl || !promptIsReady()) return;
-
-    var prompt = promptEl.value;
-    var prefillUrl = aiChatUrl + encodeURIComponent(prompt);
-
-    function openChat(url) {
-      window.open(url, "_blank", "noopener,noreferrer");
-    }
-
-    if (prefillUrl.length <= PROMPT_PREFILL_MAX_URL) {
-      openChat(prefillUrl);
-      flashButton(sendPromptBtn, aiChatOpenedLabel);
-      return;
-    }
-
-    if (!navigator.clipboard) {
-      openChat(aiChatFallbackUrl(aiChatUrl));
-      return;
-    }
-
-    navigator.clipboard.writeText(prompt).then(function () {
-      openChat(aiChatFallbackUrl(aiChatUrl));
-      flashButton(sendPromptBtn, aiChatCopiedLabel);
-    });
-  }
-
-  function cloneNoteContent(article) {
-    var body = document.createElement("div");
-    body.className = "notes-random-body";
-    var contentEl = article.querySelector(".notes-content");
-    if (!contentEl) return body;
-
-    var clone = contentEl.cloneNode(true);
-    clone.querySelectorAll(".notes-flashcard, .notes-note-flashcards").forEach(function (node) {
-      node.remove();
-    });
-    body.appendChild(clone);
-    return body;
   }
 
   function equalizePanelHeights() {
@@ -213,75 +94,44 @@
     }
   }
 
-  function renderNote(slot, pick) {
-    if (!pick) {
-      setSlotEmpty(slot);
-      return Promise.resolve(null);
-    }
+  function syncSelect(index, url) {
+    if (!window.jorapNotesRandomSelect || !selectEls[index]) return;
+    window.jorapNotesRandomSelect.setValue(selectEls[index], url);
+  }
 
-    setSlotLoading(slot);
+  function syncAllSelects() {
+    currentNotes.forEach(function (note, index) {
+      syncSelect(index, note && note.url ? note.url : "");
+    });
+  }
 
-    return fetch(pick.url)
-      .then(function (res) {
-        if (!res.ok) throw new Error("fetch failed");
-        return res.text();
+  function loadSlot(index, pick) {
+    if (promptEl) promptEl.value = "Loading notes…";
+
+    return core
+      .renderNoteIntoSlot(slots[index], pick, {
+        headingTag: "h2",
+        bodyMode: "content",
+        emptyMessage: "Not enough notes to fill this column.",
       })
-      .then(function (html) {
-        var doc = new DOMParser().parseFromString(html, "text/html");
-        var article = doc.querySelector("article");
-        var titleEl = doc.querySelector(".article-title");
-        var contentEl = doc.querySelector(".notes-content");
-        if (!article || !titleEl || !contentEl) throw new Error("parse failed");
-
-        var panel = document.createElement("article");
-        panel.className = "notes-random-panel border-divider rounded border p-5";
-
-        var heading = document.createElement("h2");
-        heading.className = "h5 mb-3";
-        var link = document.createElement("a");
-        link.className = "text-accent no-underline hover:underline";
-        link.href = pick.url;
-        link.textContent = titleEl.textContent.trim();
-        heading.appendChild(link);
-        panel.appendChild(heading);
-        panel.appendChild(cloneNoteContent(article));
-
-        slot.innerHTML = "";
-        slot.appendChild(panel);
-        slot.classList.remove("notes-random-panel--empty");
-
-        return {
-          title: titleEl.textContent.trim(),
-          url: pick.url,
-          bodyText: normalizeText(contentEl.textContent),
-        };
-      })
-      .catch(function () {
-        slot.innerHTML =
-          '<article class="notes-random-panel border-divider rounded border p-5">' +
-          '<h2 class="h5 mb-3"><a class="text-accent no-underline hover:underline" href="' +
-          escapeHtml(pick.url) +
-          '">' +
-          escapeHtml(pick.title) +
-          "</a></h2>" +
-          '<p class="text-ink-muted text-sm">Could not load this note. <a href="' +
-          escapeHtml(pick.url) +
-          '">Open it directly</a>.</p></article>';
-
-        return {
-          title: pick.title,
-          url: pick.url,
-          bodyText: "",
-        };
+      .then(function (note) {
+        currentNotes[index] = note;
+        syncSelect(index, note && note.url ? note.url : "");
+        if (promptEl) promptEl.value = buildPrompt(currentNotes);
+        window.requestAnimationFrame(equalizePanelHeights);
+        return note;
       });
   }
 
   function shuffleBoth() {
     if (!pool.length) {
       if (emptyPageEl) emptyPageEl.classList.remove("hidden");
-      slots.forEach(setSlotEmpty);
+      slots.forEach(function (slot) {
+        core.setSlotEmpty(slot, "Not enough notes to fill this column.");
+      });
       currentNotes = [null, null];
-      updatePrompt([]);
+      syncAllSelects();
+      if (promptEl) promptEl.value = buildPrompt([]);
       return;
     }
 
@@ -291,11 +141,16 @@
     var picks = pickTwo();
     Promise.all(
       Array.prototype.map.call(slots, function (slot, index) {
-        return renderNote(slot, picks[index]);
+        return core.renderNoteIntoSlot(slot, picks[index], {
+          headingTag: "h2",
+          bodyMode: "content",
+          emptyMessage: "Not enough notes to fill this column.",
+        });
       })
     ).then(function (notes) {
       currentNotes = notes;
-      updatePrompt(currentNotes);
+      syncAllSelects();
+      if (promptEl) promptEl.value = buildPrompt(currentNotes);
       window.requestAnimationFrame(equalizePanelHeights);
     });
   }
@@ -306,55 +161,60 @@
     var otherIndex = index === 0 ? 1 : 0;
     var exclude = [];
     var otherNote = currentNotes[otherIndex];
+    if (otherNote && otherNote.url) exclude.push(otherNote.url);
 
-    if (otherNote && otherNote.url) {
-      exclude.push(otherNote.url);
-    }
-
-    var pick = pickOne(exclude);
+    var pick = core.pickOne(pool, exclude);
     if (!pick) return;
 
-    if (promptEl) promptEl.value = "Loading notes…";
+    loadSlot(index, pick);
+  }
 
-    renderNote(slots[index], pick).then(function (note) {
-      currentNotes[index] = note;
-      updatePrompt(currentNotes);
-      window.requestAnimationFrame(equalizePanelHeights);
+  function wireSelects() {
+    if (!window.jorapNotesRandomSelect) return;
+
+    Array.prototype.forEach.call(selectEls, function (selectEl) {
+      var index = parseInt(selectEl.getAttribute("data-random-duo-select"), 10);
+      if (isNaN(index)) return;
+
+      window.jorapNotesRandomSelect.wire(selectEl, pool, {
+        getCurrentUrl: function () {
+          var note = currentNotes[index];
+          return note && note.url ? note.url : "";
+        },
+        getBlockedUrls: function () {
+          var blocked = [];
+          currentNotes.forEach(function (note, i) {
+            if (i !== index && note && note.url) blocked.push(note.url);
+          });
+          return blocked;
+        },
+        onPick: function (pick) {
+          loadSlot(index, pick);
+        },
+      });
     });
   }
 
-  var bindTap = window.jorapBindTouchClick || function (el, fn) {
-    el.addEventListener("click", fn);
-  };
-  var bindTapIf = window.jorapBindTouchClickIf || function (el, fn) {
-    if (el) bindTap(el, fn);
-  };
-
-  bindTapIf(shuffleBtn, shuffleBoth);
-  bindTapIf(shuffleLeftBtn, function () {
+  core.bindTapIf(shuffleBtn, shuffleBoth);
+  core.bindTapIf(shuffleLeftBtn, function () {
     shuffleSide(0);
   });
-  bindTapIf(shuffleRightBtn, function () {
+  core.bindTapIf(shuffleRightBtn, function () {
     shuffleSide(1);
   });
-  bindTapIf(copyPromptBtn, function (event) {
+  core.bindTapIf(copyPromptBtn, function (event) {
     event.preventDefault();
     event.stopPropagation();
-    copyPrompt();
+    ai.copyPrompt();
   });
-  bindTapIf(sendPromptBtn, function (event) {
+  core.bindTapIf(sendPromptBtn, function (event) {
     event.preventDefault();
     event.stopPropagation();
-    sendPromptToAI();
+    ai.sendPromptToAI();
   });
 
-  window.addEventListener(
-    "resize",
-    function () {
-      equalizePanelHeights();
-    },
-    { passive: true }
-  );
+  window.addEventListener("resize", equalizePanelHeights, { passive: true });
 
+  wireSelects();
   shuffleBoth();
 })();

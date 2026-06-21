@@ -1,5 +1,5 @@
 {{- $limit := site.Params.notes.recent_limit | default 5 | int -}}
-{{- $notes := partial "notes/garden-pages.html" . -}}
+{{- $notes := partial "notes/pages.html" . -}}
 {{- $entries := slice -}}
 {{- range $notes -}}
   {{- $dates := partial "notes/file-dates.html" . -}}

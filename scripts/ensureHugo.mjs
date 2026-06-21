@@ -1,6 +1,6 @@
 /**
- * Resolve Hugo Extended at the pinned version. Uses PATH when correct,
- * otherwise downloads into .cache/hugo/<version>/ (Linux / Windows CI).
+ * Resolve Hugo Extended at the pinned version. Local dev: PATH/mise only.
+ * CI: download into .cache/hugo/<version>/ when missing (Linux / Windows).
  */
 import { chmodSync, existsSync, mkdirSync, readFileSync, rmSync } from "node:fs";
 import { arch, platform } from "node:os";
@@ -34,6 +34,28 @@ function pathHugoVersion() {
   const result = capture("hugo", ["version"]);
   if (result.status !== 0 || !result.stdout) return null;
   return parseHugoVersion(result.stdout);
+}
+
+function isCI() {
+  return (
+    process.env.CI === "true" ||
+    process.env.CI === "1" ||
+    process.env.GITHUB_ACTIONS === "true" ||
+    process.env.GITLAB_CI === "true" ||
+    process.env.NETLIFY === "true" ||
+    process.env.CF_PAGES === "1"
+  );
+}
+
+function failLocalHugo(pinned, fromPath) {
+  console.error(`[deploy] Hugo Extended ${pinned} required.`);
+  if (fromPath) {
+    console.error(`[deploy] Found ${fromPath} on PATH.`);
+  } else {
+    console.error(`[deploy] Hugo not on PATH.`);
+  }
+  console.error(`[deploy] Install: mise use hugo-extended@${pinned}`);
+  process.exit(1);
 }
 
 function cacheDir(version) {
@@ -115,12 +137,15 @@ export function ensureHugo() {
     return "hugo";
   }
 
-  // Homebrew/mise often differ by patch; macOS has no auto-download fallback.
   if (platform() === "darwin" && fromPath && sameMinor(fromPath, pinned)) {
     console.warn(
       `[deploy] Hugo ${fromPath} on PATH (pinned ${pinned}); using PATH on macOS.`,
     );
     return "hugo";
+  }
+
+  if (!isCI()) {
+    failLocalHugo(pinned, fromPath);
   }
 
   const cached = cachedBinary(pinned);

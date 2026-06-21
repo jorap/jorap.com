@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 NOTES_DIR = ROOT / "content/english/notes"
 
-UTILITY_LAYOUTS = frozenset({"graph", "cards", "review", "issues", "random-duo", "random-trio"})
+UTILITY_LAYOUTS = frozenset({"graph", "cards", "review", "issues", "random-duo"})
 
 WIKILINK_RE = re.compile(
     r"\[\[([^\]|#]+)(?:#[^\]|]+)?\]\]"

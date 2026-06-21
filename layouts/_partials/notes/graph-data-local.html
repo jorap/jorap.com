@@ -1,4 +1,4 @@
-{{- $graph := partial "notes/graph-data-cached.html" . -}}
+{{- $graph := partialCached "notes/graph-data.html" site "graph-data-v1" -}}
 {{- $currentId := .RelPermalink -}}
 {{- $neighborIds := slice $currentId -}}
 

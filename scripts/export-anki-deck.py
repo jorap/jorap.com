@@ -18,7 +18,6 @@ SKIP = {
     "flashcards",
     "review",
     "random-duo",
-    "random-trio",
     "getting-started",
     "maps-of-content",
 }
@@ -157,7 +156,7 @@ def collect_cards(review_tag: str) -> list[dict[str, str]]:
             continue
 
         layout = parse_scalar(inner, "layout")
-        if layout in {"graph", "cards", "review", "random-duo", "random-trio"}:
+        if layout in {"graph", "cards", "review", "random-duo"}:
             continue
 
         slug = parse_scalar(inner, "slug") or path.stem

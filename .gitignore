@@ -28,6 +28,7 @@ go.sum
 # Editor / tool
 jsconfig.json
 .cursorindexingignore
+scripts/__pycache__/
 
 # Cloudflare local dev secrets / cache
 .dev.vars

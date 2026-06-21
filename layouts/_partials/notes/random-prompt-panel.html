@@ -1,0 +1,27 @@
+{{- /*
+  AI prompt panel for random note / duo UIs.
+  Params: Prefix, AiChatLabel, Loading (optional), Rows (optional, default 12).
+*/ -}}
+{{- $prefix := .Prefix -}}
+{{- $aiChatLabel := .AiChatLabel -}}
+{{- $loading := .Loading | default (T "random_blog_note_prompt_loading") -}}
+{{- $rows := .Rows | default 12 -}}
+<details class="notes-random-prompt border-divider mb-8 rounded border">
+  <summary class="notes-random-prompt-summary p-5">
+    <span class="notes-random-prompt-label h6 mb-0">{{ T "ai_prompt" }}</span>
+    <div class="notes-random-prompt-actions flex flex-wrap items-center gap-2">
+      <button type="button" class="btn btn-outline-primary btn-sm" {{ printf "data-%s-copy-prompt" $prefix | safeHTMLAttr }}>{{ T "copy_prompt" }}</button>
+      <button type="button" class="btn btn-outline-primary btn-sm" {{ printf "data-%s-send-prompt" $prefix | safeHTMLAttr }}>{{ $aiChatLabel }}</button>
+    </div>
+  </summary>
+  <div class="notes-random-prompt-body px-5 pb-5">
+    <label class="sr-only" for="{{ $prefix }}-prompt">{{ T "ai_prompt_label" }}</label>
+    <textarea
+      id="{{ $prefix }}-prompt"
+      class="notes-random-prompt-text"
+      rows="{{ $rows }}"
+      readonly
+      {{ printf "data-%s-prompt" $prefix | safeHTMLAttr }}
+      spellcheck="false">{{ $loading }}</textarea>
+  </div>
+</details>

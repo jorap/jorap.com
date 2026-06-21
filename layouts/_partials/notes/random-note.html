@@ -1,22 +1,11 @@
 {{- $active := .active | default "" -}}
 
-<div class="notes-random flex flex-wrap items-center gap-1 xl:gap-2">
-  <a
-    class="btn btn-sm{{ if eq $active "random-duo" }} btn-primary{{ else }} btn-outline-primary{{ end }}"
-    href="{{ `/notes/random-duo/` | relLangURL }}"
-    aria-label="Random duo"
-    {{- if eq $active "random-duo" -}}
-      aria-current="page"
-    {{- end -}}>
-    <span class="xl:hidden">Duo</span><span class="hidden xl:inline">Random Duo</span>
-  </a>
-  <a
-    class="btn btn-sm{{ if eq $active "random-trio" }} btn-primary{{ else }} btn-outline-primary{{ end }}"
-    href="{{ `/notes/random-trio/` | relLangURL }}"
-    aria-label="Random trio"
-    {{- if eq $active "random-trio" -}}
-      aria-current="page"
-    {{- end -}}>
-    <span class="xl:hidden">Trio</span><span class="hidden xl:inline">Random Trio</span>
-  </a>
-</div>
+<a
+  class="btn btn-sm{{ if eq $active "random-duo" }} btn-primary{{ else }} btn-outline-primary{{ end }}"
+  href="{{ `/notes/random-duo/` | relLangURL }}"
+  aria-label="Random duo"
+  {{- if eq $active "random-duo" -}}
+    aria-current="page"
+  {{- end -}}>
+  <span class="xl:hidden">Duo</span><span class="hidden xl:inline">Random Duo</span>
+</a>

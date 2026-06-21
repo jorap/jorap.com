@@ -1,13 +1,18 @@
 home: Home
 read_more: Read More
-send: Send
 related_posts: Related Posts
 related_notes: Related Notes
-random_unrelated_notes: Random Duo
-random_unrelated_notes_lede: Two unrelated garden notes picked at random — shuffle for serendipity.
-shuffle_all: Shuffle all
+random_blog_note: Random Note
+random_blog_note_lede: One garden note picked at random — shuffle for a new pairing with this post.
+random_note_lede: One garden note picked at random — shuffle for a new pairing with this note.
+random_duo_lede: Two notes from the garden, side by side. Shuffle both, or lock one side and shuffle the other.
+shuffle: Shuffle
+select_note: Select note
+select_note_left: Select left note
+select_note_right: Select right note
+choose_note: Choose a note…
+shuffle_all: Shuffle both
 shuffle_left: Shuffle left
-shuffle_center: Shuffle center
 shuffle_right: Shuffle right
 ai_prompt: AI prompt
 ai_prompt_label: Prompt to paste into an AI chat
@@ -17,7 +22,8 @@ prompt_opened_in_ai: Opened
 prompt_copied_for_ai: Copied — paste in chat
 loading: Loading…
 random_notes_prompt_loading: Loading notes…
-no_unrelated_notes: No notes in the garden yet.
+random_blog_note_prompt_loading: Loading note…
+no_random_blog_note: No notes in the garden yet.
 categories: Categories
 tags: Tags
 toc: Table of Contents

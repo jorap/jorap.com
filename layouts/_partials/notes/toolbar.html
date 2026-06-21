@@ -1,7 +1,7 @@
 {{- $ctx := .Context -}}
 {{- $active := .active | default "" -}}
-{{- $noteCount := len (partial "notes/garden-pages.html" $ctx) -}}
-{{- $issueData := partialCached "notes/collect-note-issues.html" site "note-issues-v2" -}}
+{{- $noteCount := len (partial "notes/pages.html" $ctx) -}}
+{{- $issueData := partialCached "notes/collect-note-issues.html" site "note-issues-v3" -}}
 {{- $issueTotal := add $issueData.brokenCount $issueData.unlinkedCount -}}
 <div class="notes-toolbar mb-6 flex flex-wrap items-center gap-2 xl:gap-3">
   <a
@@ -10,7 +10,7 @@
     {{- if eq $active "list" -}}
       aria-current="page"
     {{- end -}}>
-    All {{ $noteCount }}<span class="hidden xl:inline"> Notes</span>
+    All {{ $noteCount }} Notes
   </a>
   {{- if site.Params.notes.enable_graph -}}
     <a
@@ -37,7 +37,7 @@
       {{- if eq $active "flashcards" -}}
         aria-current="page"
       {{- end -}}>
-      <span class="xl:hidden">Cards</span><span class="hidden xl:inline">Flashcards</span>
+      Flashcards
     </a>
     <a
       class="btn btn-sm{{ if eq $active "review" }} btn-primary{{ else }} btn-outline-primary{{ end }}"

@@ -236,7 +236,7 @@ npm run lint:cards
 npm run lint:voice
 ```
 
-Bulk rewrite: `python3 scripts/fix-flashcard-lengths.py`
+Bulk rewrite: `python3 scripts/archive/fix-flashcard-lengths.py`
 
 ## Site integration
 

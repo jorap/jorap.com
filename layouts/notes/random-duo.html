@@ -1,5 +1,6 @@
 {{ define "main" }}
   {{- $pool := partial "notes/random-pool.html" . -}}
+  {{- $aiChatLabel := site.Params.blog.random_notes_ai_chat_label | default (T "open_in_chatgpt") -}}
 
   {{ partial "page-header" . }}
 
@@ -10,43 +11,31 @@
           {{ partial "notes/toolbar.html" (dict "Context" . "active" "random-duo") }}
 
           <div class="notes-toolbar mb-4 flex flex-wrap items-center gap-3">
-            <button type="button" class="btn btn-outline-primary btn-sm" data-random-duo-shuffle>Shuffle both</button>
-            <button type="button" class="btn btn-outline-primary btn-sm" data-random-duo-shuffle-left>Shuffle left</button>
-            <button type="button" class="btn btn-outline-primary btn-sm" data-random-duo-shuffle-right>Shuffle right</button>
+            <button type="button" class="btn btn-outline-primary btn-sm" data-random-duo-shuffle>{{ T "shuffle_all" }}</button>
+            <button type="button" class="btn btn-outline-primary btn-sm" data-random-duo-shuffle-left>{{ T "shuffle_left" }}</button>
+            <button type="button" class="btn btn-outline-primary btn-sm" data-random-duo-shuffle-right>{{ T "shuffle_right" }}</button>
           </div>
 
-          <p class="text-ink-muted mb-6">Two notes from the garden, side by side. Shuffle both, or lock one side and shuffle the other.</p>
+          <p class="text-ink-muted mb-6">{{ T "random_duo_lede" }}</p>
 
-          <details class="notes-random-prompt border-divider mb-8 rounded border">
-            <summary class="notes-random-prompt-summary p-5">
-              <span class="notes-random-prompt-label h6 mb-0">AI prompt</span>
-              <div class="notes-random-prompt-actions flex flex-wrap items-center gap-2">
-                <button type="button" class="btn btn-outline-primary btn-sm" data-random-duo-copy-prompt>Copy prompt</button>
-                <button type="button" class="btn btn-outline-primary btn-sm" data-random-duo-send-prompt>Open in ChatGPT</button>
-              </div>
-            </summary>
-            <div class="notes-random-prompt-body px-5 pb-5">
-              <label class="sr-only" for="notes-random-duo-prompt">Prompt to paste into an AI chat</label>
-              <textarea
-                id="notes-random-duo-prompt"
-                class="notes-random-prompt-text"
-                rows="10"
-                readonly
-                data-random-duo-prompt
-                spellcheck="false">Loading notes…</textarea>
-            </div>
-          </details>
+          {{ partial "notes/random-prompt-panel.html" (dict "Prefix" "random-duo" "AiChatLabel" $aiChatLabel "Loading" (T "random_notes_prompt_loading") "Rows" 10) }}
 
           <div class="row notes-random-grid items-stretch" data-notes-random-duo>
-            <div class="md:col-6 mb-8 notes-random-slot flex flex-col" data-random-duo-slot="0">
-              <p class="notes-random-loading text-ink-muted text-sm">Loading…</p>
+            <div class="md:col-6 mb-8 flex flex-col">
+              {{ partial "notes/random-note-select.html" (dict "Prefix" "random-duo" "Pool" $pool "Label" (T "select_note_left") "Placeholder" (T "choose_note") "Slot" "0") }}
+              <div class="notes-random-slot flex flex-col" data-random-duo-slot="0">
+                <p class="notes-random-loading text-ink-muted text-sm">{{ T "loading" }}</p>
+              </div>
             </div>
-            <div class="md:col-6 mb-8 notes-random-slot flex flex-col" data-random-duo-slot="1">
-              <p class="notes-random-loading text-ink-muted text-sm">Loading…</p>
+            <div class="md:col-6 mb-8 flex flex-col">
+              {{ partial "notes/random-note-select.html" (dict "Prefix" "random-duo" "Pool" $pool "Label" (T "select_note_right") "Placeholder" (T "choose_note") "Slot" "1") }}
+              <div class="notes-random-slot flex flex-col" data-random-duo-slot="1">
+                <p class="notes-random-loading text-ink-muted text-sm">{{ T "loading" }}</p>
+              </div>
             </div>
           </div>
 
-          <p class="notes-random-empty-page text-ink-muted hidden text-sm">No notes in the garden yet.</p>
+          <p class="notes-random-empty-page text-ink-muted hidden text-sm">{{ T "no_random_blog_note" }}</p>
           <script type="application/json" class="notes-random-duo-data">{{ $pool | jsonify | safeJS }}</script>
         </div>
       </div>
@@ -55,6 +44,8 @@
 
   {{ partial "notes/preview-index.html" . }}
 
+  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-random-core.js" "defer" true) }}
+  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-random-select.js" "defer" true) }}
   {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-random-duo.js" "defer" true) }}
   {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/wikilink-preview.js" "defer" true) }}
 {{ end }}

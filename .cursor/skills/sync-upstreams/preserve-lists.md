@@ -97,7 +97,6 @@ When in doubt: **skip**.
 ### Root scripts (identical purpose, no JoRap edits)
 
 - `scripts/themeGenerator.js`
-- `scripts/themeUpdate.js`
 - `scripts/clearModules.js`
 - `scripts/removeMultilang.js`
 
