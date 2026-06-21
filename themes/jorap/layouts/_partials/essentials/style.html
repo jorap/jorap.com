@@ -80,38 +80,4 @@
     data-swap-media="all" />
 {{ end }}
 
-{{/* Swap any `data-swap-media` link from media="print" (non-blocking load) to
-     the real media once the stylesheet is downloaded. Replaces the previous
-     inline `onload="this.media='all'..."` handler so the page can run under a
-     strict CSP without `'unsafe-inline'` in script-src-attr. The inline
-     <script> below is hashed at build time by scripts/cspHashes.mjs. */}}
-<script>
-  (function () {
-    var links = document.querySelectorAll("link[data-swap-media]");
-    for (var i = 0; i < links.length; i++) {
-      (function (l) {
-        var swap = function () {
-          l.media = l.getAttribute("data-swap-media") || "all";
-        };
-        if (l.sheet) swap();
-        else l.addEventListener("load", swap, { once: true });
-      })(links[i]);
-    }
-
-    // Delegated <img> fallback to replace the legacy inline `onerror=…`
-    // attribute. `error` events on <img> do not bubble, so we capture
-    // them at the document level.
-    document.addEventListener(
-      "error",
-      function (e) {
-        var t = e.target;
-        if (!t || t.tagName !== "IMG") return;
-        var fb = t.getAttribute("data-fallback-src");
-        if (!fb || t.dataset.fallbackApplied === "1") return;
-        t.dataset.fallbackApplied = "1";
-        t.src = fb;
-      },
-      true,
-    );
-  })();
-</script>
+{{ partial "essentials/fingerprint-asset.html" (dict "src" "js/deferred-media.js") }}

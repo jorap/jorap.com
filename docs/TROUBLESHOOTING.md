@@ -18,9 +18,9 @@ Getting "404 Not Found" when accessing `/api/auth` endpoint.
    - `GITHUB_CLIENT_SECRET` = your GitHub OAuth app client secret
 
 ### 3. Test Functions Deployment
-Visit: `https://jorap.com/api/test`
-- If this works: Functions are deployed, OAuth issue
-- If this fails: Functions deployment issue
+Visit: `https://jorap.com/api/auth`
+- If you get a redirect to GitHub: Functions are deployed
+- If you get 404: Functions deployment issue — check the **Functions** tab in the dashboard
 
 ## Solutions
 
@@ -68,17 +68,17 @@ If functions work but OAuth fails:
 
 ## Step-by-Step Verification
 
-1. **Test Functions**: Visit `https://jorap.com/api/test`
-2. **Check OAuth Flow**: Visit `https://jorap.com/api/auth`
+1. **Test Functions**: Visit `https://jorap.com/api/auth` (expect GitHub OAuth redirect)
+2. **Check OAuth Flow**: Complete the redirect flow from step 1
 3. **Test CMS**: Visit `https://jorap.com/admin/`
 
 ## Next Steps
 
 1. Push this code to GitHub
 2. Wait for Cloudflare Pages to deploy
-3. Test the `/api/test` endpoint first
-4. If test works, set up environment variables
-5. Test OAuth flow
+3. Test `/api/auth` (expect GitHub redirect)
+4. Set up environment variables if OAuth fails
+5. Test OAuth flow and CMS
 
 ## Contact Support
 

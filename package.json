@@ -6,11 +6,11 @@
   "author": "JoRap",
   "packageManager": "pnpm@11.7.0",
   "engines": {
-    "node": ">=20"
+    "node": ">=22.22.2"
   },
   "scripts": {
     "dev": "concurrently \"node scripts/themeGenerator.js --watch\" \"node scripts/noteFileDates.js --watch\" \"hugo server --buildDrafts --buildFuture\"",
-    "build": "pnpm run deploy",
+    "build": "node scripts/deployBuild.mjs",
     "deploy": "node scripts/deployBuild.mjs",
     "serve": "node scripts/servePublic.mjs",
     "preview:prod": "node scripts/previewProd.mjs",
