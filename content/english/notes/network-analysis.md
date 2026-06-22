@@ -26,6 +26,7 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| extends | [[Graph View Analytics]] | Named in notes that link here |
-| extends | [[Associative Linking]] | Named in notes that link here |
 | contradicts | [[Maps of Content]] | when the opposite frame fits better |
+| extends | [[Associative Linking]] | Named in notes that link here |
+| extends | [[Graph View Analytics]] | Named in notes that link here |
+| extends | [[Graph View Analytics]] | Named in notes that link here |

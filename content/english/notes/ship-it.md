@@ -26,6 +26,7 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
+| contradicts | [[Attention to Detail]] | when the opposite frame fits better |
 | extends | [[Creative Output]] | Named in notes that link here |
 | extends | [[Minimum Viable Product]] | Named in notes that link here |
-| contradicts | [[Attention to Detail]] | when the opposite frame fits better |
+| extends | [[Minimum Viable Product]] | Named in notes that link here |

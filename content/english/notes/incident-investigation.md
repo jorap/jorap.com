@@ -26,6 +26,7 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
+| contradicts | [[By Their Fruits]] | when the opposite frame fits better |
 | extends | [[Heed Every Near-Miss]] | Named in notes that link here |
 | extends | [[Own the Error]] | Named in notes that link here |
-| contradicts | [[By Their Fruits]] | when the opposite frame fits better |
+| extends | [[Own the Error]] | Named in notes that link here |

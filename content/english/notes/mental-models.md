@@ -30,3 +30,5 @@ Mental models are shortcuts for thinking. I keep a short list of ones that survi
 | extends | [[PKM]] | Thinking shortcuts this hub keeps when they survive real decisions |
 | extends | [[PKM]] | Thinking shortcuts this hub keeps when they survive real decisions |
 | extends | [[PKM]] | Thinking shortcuts this hub keeps when they survive real decisions |
+| extends | [[PKM]] | Thinking shortcuts this hub keeps when they survive real decisions |
+| extends | [[PKM]] | Thinking shortcuts this hub keeps when they survive real decisions |

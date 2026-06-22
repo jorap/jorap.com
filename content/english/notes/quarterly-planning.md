@@ -26,6 +26,7 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| extends | [[The 12 Week Year]] | Named in notes that link here |
-| extends | [[Periodic Knowledge Review]] | Named in notes that link here |
 | contradicts | [[Slow Productivity]] | when the opposite frame fits better |
+| extends | [[Periodic Knowledge Review]] | Named in notes that link here |
+| extends | [[The 12 Week Year]] | Named in notes that link here |
+| extends | [[The 12 Week Year]] | Named in notes that link here |

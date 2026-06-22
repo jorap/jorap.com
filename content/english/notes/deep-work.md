@@ -26,6 +26,7 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
+| contradicts | [[Mobile Capture Workflows]] | when the opposite frame fits better |
 | extends | [[Capture]] | Protected focus blocks; [[Capture]] handles the rest |
 | extends | [[Slow Productivity]] | Named in notes that link here |
-| contradicts | [[Mobile Capture Workflows]] | when the opposite frame fits better |
+| extends | [[Slow Productivity]] | Named in notes that link here |

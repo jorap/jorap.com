@@ -26,6 +26,7 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| extends | [[The Trusted Inbox]] | Named in notes that link here |
-| extends | [[Getting Things Done]] | Named in notes that link here |
 | contradicts | [[The Collector's Fallacy]] | when the opposite frame fits better |
+| extends | [[Getting Things Done]] | Named in notes that link here |
+| extends | [[The Trusted Inbox]] | Named in notes that link here |
+| extends | [[The Trusted Inbox]] | Named in notes that link here |

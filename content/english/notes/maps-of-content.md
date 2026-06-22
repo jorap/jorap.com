@@ -80,6 +80,16 @@ status: evergreen
 - [[The Golden Rule]]
 - [[Forgiveness]]
 
+### Relationships
+
+- [[Follow Their Lead]] - join their world before you redirect it
+- [[Listen Before Fixing]] - hear it before you hand them a fix
+- [[Name the Feeling]] - put words to the emotion before the plan
+- [[Notice the Good]] - name the specific behavior you want again
+- [[Create Regular Connection]] - small repeated rituals beat grand gestures
+- [[Set Calm Boundaries]] - limit the behavior, not the person
+- [[Safety Comes First]] - stop serious harm before you follow along
+
 ### Mental models
 
 - [[Mental Models]]

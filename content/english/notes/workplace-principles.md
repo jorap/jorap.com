@@ -25,6 +25,10 @@ Each note below is one claim I'd say in a standup or a 1:1 - plain language, mee
 - [[Reconcile Before the Review]] - fix the relationship before the performance conversation
 - [[Break the Escalation Cycle]] - don't match snark with snark; break the reply-all war
 - [[Plain Commitments at Work]] - yes means yes; no padded promises in Slack
+- [[Follow Their Lead]] - join their framing before you redirect the blame
+- [[Listen Before Fixing]] - mirror the problem before you pitch the solution
+- [[Name the Feeling]] - label what's carried before the performance talk
+- [[Set Calm Boundaries]] - steady limit on behavior, not character
 
 ## Judgment and priorities
 

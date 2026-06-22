@@ -31,8 +31,10 @@ The corporate ladder rewards visibility; this principle runs the other way. Wash
 | alternative | [[Let Your Light Shine]] | Serve the team vs perform visibility when credit is the real goal |
 | contradicts | [[Pareto Principle]] | when I protect my 20% status and treat everyone else as support staff |
 | extends | [[Develop, Don't Endanger]] | Serve the team by protecting growth — not by sacrificing people to prove toughness |
+| extends | [[Follow Their Lead]] | Serve by joining their world before redirecting credit |
 | extends | [[Humility and Service]] | Jesus' upside-down ladder — same move in standups and 1:1s |
 | extends | [[Life Before Achievement]] | The leader who serves holds the safety line when the room wants spectacle |
+| extends | [[Notice the Good]] | Name what the team did — don't grab the praise slide |
 ## See also
 
 - [[Workplace Principles]] - Leadership, Eternal Principles, Workplace

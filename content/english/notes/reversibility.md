@@ -26,6 +26,7 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| extends | [[Life Before Achievement]] | Named in notes that link here |
-| extends | [[Decision Quality]] | Named in notes that link here |
 | contradicts | [[Finish Strong]] | when the opposite frame fits better |
+| extends | [[Decision Quality]] | Named in notes that link here |
+| extends | [[Life Before Achievement]] | Named in notes that link here |
+| extends | [[Life Before Achievement]] | Named in notes that link here |

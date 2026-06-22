@@ -45,6 +45,8 @@ Jesus elevates restored relationship over religious performance. Worship with an
 |--------------|----------|--------|
 | contradicts | [[Love God]] | when I prioritize ceremony over the neighbor I've wronged |
 | extends | [[Free Grace]] | Fellowship gets repaired before worship; grace already settled your standing with God |
+| extends | [[Listen Before Fixing]] | Repair starts by hearing what still hurts |
+| implements | [[Follow Their Lead]] | Leave the altar — go on their thread first |
 ## See also
 
 - [[Note Relationships]] - Linking, Note Taking, PKM

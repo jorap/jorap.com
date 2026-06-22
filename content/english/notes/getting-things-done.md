@@ -26,6 +26,7 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
+| contradicts | [[Slow Productivity]] | when the opposite frame fits better |
 | extends | [[GTD vs PARA]] | Named in notes that link here |
 | extends | [[The Trusted Inbox]] | Named in notes that link here |
-| contradicts | [[Slow Productivity]] | when the opposite frame fits better |
+| extends | [[The Trusted Inbox]] | Named in notes that link here |

@@ -45,6 +45,7 @@ The [[Ask Seek Knock]] builds forgiveness into daily rhythm. The parable of the 
 |--------------|----------|--------|
 | contradicts | [[Sunk Cost Fallacy]] | when I treat old hurt as debt I'm owed forever |
 | extends | [[Free Grace]] | You forgive because God already cleared a debt you couldn't pay |
+| extends | [[Set Calm Boundaries]] | Forgive the heart; keep boundaries where trust still rebuilds |
 ## See also
 
 - [[Sunk Cost Fallacy]] - Decision Making, Mental Models, PKM

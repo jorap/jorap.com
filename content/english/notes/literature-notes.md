@@ -26,6 +26,7 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
+| contradicts | [[The Collector's Fallacy]] | when the opposite frame fits better |
 | extends | [[Intellectual Sourcing]] | Named in notes that link here |
 | extends | [[Progressive Summarization]] | Named in notes that link here |
-| contradicts | [[The Collector's Fallacy]] | when the opposite frame fits better |
+| extends | [[Progressive Summarization]] | Named in notes that link here |

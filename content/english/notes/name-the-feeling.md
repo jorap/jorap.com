@@ -30,3 +30,4 @@ aliases: []
 | extends | [[Emotional Regulation]] | Naming helps me and them before the spike drives the reply |
 | extends | [[Listen Before Fixing]] | I hear first, then label what I heard |
 | implements | [[Break the Escalation Cycle]] | A calm label can cool a thread before snark stacks |
+| implements | [[Break the Escalation Cycle]] | A calm label can cool a thread before snark stacks |

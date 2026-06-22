@@ -44,7 +44,10 @@ Jesus lifted Leviticus 19:18 to equal rank with loving God. The parable of the G
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Love Your Enemies]] | only when I limit "neighbor" to people I already like |
+| extends | [[Create Regular Connection]] | Neighbor-love shows up in small repeated presence |
+| extends | [[Follow Their Lead]] | Love neighbor means entering their world before I redirect |
 | extends | [[Free Grace]] | Grace frees you to love neighbors without keeping score for salvation |
+| extends | [[Listen Before Fixing]] | Care I'd want includes being heard before being fixed |
 ## See also
 
 - [[The Golden Rule]] - Eternal Principles, Gospel, Sermon on the Mount

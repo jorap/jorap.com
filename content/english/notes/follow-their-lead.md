@@ -27,7 +27,8 @@ aliases: []
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Safety Comes First]] | when following them would allow serious harm |
-| extends | [[The Golden Rule]] | I'd want someone to enter my world before they fixed mine |
 | extends | [[Process Over Outcomes]] | Small moments of attention beat one perfect conversation |
-| implements | [[Emotional Regulation]] | I hold the urge to interrupt, correct, or take the wheel |
+| extends | [[The Golden Rule]] | I'd want someone to enter my world before they fixed mine |
 | implements | [[Continuous Improvement]] | Trust builds through repeated small acts of attention, not one grand gesture |
+| implements | [[Emotional Regulation]] | I hold the urge to interrupt, correct, or take the wheel |
+| implements | [[Emotional Regulation]] | I hold the urge to interrupt, correct, or take the wheel |

@@ -26,6 +26,7 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
+| contradicts | [[Active Knowledge Curation]] | when the opposite frame fits better |
 | extends | [[The Collector's Fallacy]] | Named in notes that link here |
 | extends | [[The Trusted Inbox]] | Named in notes that link here |
-| contradicts | [[Active Knowledge Curation]] | when the opposite frame fits better |
+| extends | [[The Trusted Inbox]] | Named in notes that link here |

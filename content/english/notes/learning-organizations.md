@@ -26,6 +26,7 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
+| contradicts | [[By Their Fruits]] | when the opposite frame fits better |
 | extends | [[Continuous Improvement]] | Named in notes that link here |
 | extends | [[Convert Pain Into Learning]] | Named in notes that link here |
-| contradicts | [[By Their Fruits]] | when the opposite frame fits better |
+| extends | [[Convert Pain Into Learning]] | Named in notes that link here |

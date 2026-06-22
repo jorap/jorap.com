@@ -31,6 +31,7 @@ If my word needs hype to sound believable, the problem is my follow-through, not
 | contradicts | [[Minimum Viable Product]] | when I ship a vague promise instead of a clear yes or no |
 | extends | [[Atomic Notes]] | One plain claim per commitment, not kitchen-sink promises |
 | extends | [[Let Your Yes Be Yes]] | Plain speech without oath-padding — applied to deadlines and Slack |
+| extends | [[Set Calm Boundaries]] | Plain yes/no at work uses the same steady-voice muscle |
 ## See also
 
 - [[Workplace Principles]] - Ethics, Eternal Principles, Workplace

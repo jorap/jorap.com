@@ -26,6 +26,7 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| extends | [[Sunk Cost Fallacy]] | Named in notes that link here |
-| extends | [[Decision Quality]] | Named in notes that link here |
 | contradicts | [[First Principles Thinking]] | when the opposite frame fits better |
+| extends | [[Decision Quality]] | Named in notes that link here |
+| extends | [[Sunk Cost Fallacy]] | Named in notes that link here |
+| extends | [[Sunk Cost Fallacy]] | Named in notes that link here |

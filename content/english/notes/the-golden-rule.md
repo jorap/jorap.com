@@ -44,7 +44,11 @@ It's positive and active: *do* unto others, not merely avoid doing harm. The che
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Love Your Enemies]] | when I only apply it to people who already treat me well |
+| extends | [[Create Regular Connection]] | I'd want steady presence, not one grand gesture |
+| extends | [[Follow Their Lead]] | I'd want someone to enter my world before fixing mine |
 | extends | [[Free Grace]] | Treat others well because Christ treated you well first — not to buy heaven |
+| extends | [[Listen Before Fixing]] | I'd want to be heard before being handed advice |
+| extends | [[Notice the Good]] | I'd want someone to name what I did well, not vague good job |
 ## See also
 
 - [[Love Your Neighbor]] - Commandments, Eternal Principles, Gospel

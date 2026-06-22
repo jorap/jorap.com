@@ -44,8 +44,8 @@ Each note below is one move I'd want automatic before the moment arrives.
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| alternative | [[Systems for Growth]] | Performance-under-pressure hub vs growth-loop hub when heat rises, not ordinary Tuesdays |
 | alternative | [[Mental Models]] | Performance-under-pressure hub vs decision lenses when habits beat models |
+| alternative | [[Systems for Growth]] | Performance-under-pressure hub vs growth-loop hub when heat rises, not ordinary Tuesdays |
 | extends | [[Process Over Outcomes]] | Repeatable process and finish lines survive when motivation dips |
 | extends | [[Servant Leadership]] | Leaders set the pace and protect judgment when the room heats up |
 ## See also

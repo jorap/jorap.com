@@ -26,5 +26,6 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| extends | [[Minimum Viable Product]] | Named in notes that link here |
 | contradicts | [[Finish Strong]] | when the opposite frame fits better |
+| extends | [[Minimum Viable Product]] | Named in notes that link here |
+| extends | [[Minimum Viable Product]] | Named in notes that link here |

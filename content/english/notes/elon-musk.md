@@ -26,5 +26,6 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| extends | [[First Principles Thinking]] | Named in notes that link here |
 | contradicts | [[There Is No Perfect Solution]] | when the opposite frame fits better |
+| extends | [[First Principles Thinking]] | Named in notes that link here |
+| extends | [[First Principles Thinking]] | Named in notes that link here |

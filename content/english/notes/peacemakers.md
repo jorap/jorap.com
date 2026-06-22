@@ -46,6 +46,10 @@ Peacemaking is work: reconciliation, truth spoken in love, de-escalation when ot
 | alternative | [[Love Your Enemies]] | Make peace vs love enemies when the job is ending the fight |
 | contradicts | [[Love Your Enemies]] | when I confuse peace with never confronting wrong |
 | extends | [[Free Grace]] | Peacemaking mirrors the Father who reconciled you by grace before you reconciled with anyone |
+| extends | [[Listen Before Fixing]] | Make peace by hearing before prescribing |
+| extends | [[Name the Feeling]] | Truth in love often starts with naming what's carried |
+| extends | [[Set Calm Boundaries]] | Peace through truth includes calm limits |
+| implements | [[Break the Escalation Cycle]] | Peacemaking in the reply-all thread |
 ## See also
 
 - [[Reconciliation Before Worship]] - Eternal Principles, Gospel, Sermon on the Mount

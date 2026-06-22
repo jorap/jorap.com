@@ -30,6 +30,7 @@ Forgiving isn't pretending it didn't hurt. It's refusing to collect forever on a
 |--------------|----------|--------|
 | contradicts | [[Sunk Cost Fallacy]] | when I treat old hurt as debt I'm owed forever |
 | extends | [[Forgiveness]] | Release the debt — same move without religious vocabulary |
+| extends | [[Set Calm Boundaries]] | Release the grudge; keep boundaries where trust still rebuilds |
 | extends | [[Sunk Cost Fallacy]] | Stop counting past hurt as reason to stay angry |
 ## See also
 

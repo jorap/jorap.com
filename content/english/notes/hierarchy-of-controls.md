@@ -26,5 +26,6 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| extends | [[Eliminate Before Managing]] | Named in notes that link here |
 | contradicts | [[Standard Operating Procedures]] | when the opposite frame fits better |
+| extends | [[Eliminate Before Managing]] | Named in notes that link here |
+| extends | [[Eliminate Before Managing]] | Named in notes that link here |

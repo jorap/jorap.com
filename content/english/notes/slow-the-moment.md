@@ -36,6 +36,9 @@ Before you react, buy enough mental space to understand what's happening, weigh 
 | extends | [[Energy Protects Judgment]] | Tired brains skip the pause first |
 | extends | [[Pressure Reveals Weakness]] | Rush exposes habits you never tested |
 | extends | [[Self-Control]] | Restraint in the second before the reaction |
+| implements | [[Listen Before Fixing]] | One beat before the fix lands |
+| implements | [[Name the Feeling]] | Pause before the label or the lecture |
+| implements | [[Set Calm Boundaries]] | Steady voice needs a beat first |
 ## See also
 
 - [[Break the Escalation Cycle]] - Conflict, Ethics, Workplace

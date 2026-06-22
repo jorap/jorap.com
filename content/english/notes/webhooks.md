@@ -26,5 +26,6 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| extends | [[Building a Personal API]] | Named in notes that link here |
 | contradicts | [[Local-first Software]] | when the opposite frame fits better |
+| extends | [[Building a Personal API]] | Named in notes that link here |
+| extends | [[Building a Personal API]] | Named in notes that link here |

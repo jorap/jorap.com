@@ -192,6 +192,107 @@ ADD: dict[str, list[tuple[str, str, str]]] = {
     "eternal-principles": [
         ("contradicts", "First Principles Thinking", "when I treat gospel ethics as ideas I invented"),
     ],
+    # Relationship connection cluster
+    "break-the-escalation-cycle": [
+        ("extends", "Listen Before Fixing", "Hear before the sharp reply-all draft"),
+        ("extends", "Name the Feeling", "Label the spike before it becomes the thread"),
+        ("extends", "Set Calm Boundaries", "Calm limit stops the reply-all war"),
+    ],
+    "coaching-ethics": [
+        ("extends", "Safety Comes First", "Consent doesn't erase the job when the drill is unsafe"),
+        ("implements", "Follow Their Lead", "Join their world except when the move endangers them"),
+    ],
+    "complete-the-cycle": [
+        ("extends", "Listen Before Fixing", "Hearing is step one; closing the loop is step two"),
+    ],
+    "continuous-improvement": [
+        ("extends", "Create Regular Connection", "Small connection reps compound like process fixes"),
+        ("extends", "Notice the Good", "Naming what worked feeds the next rep"),
+    ],
+    "create-regular-connection": [
+        ("extends", "Listen Before Fixing", "The ritual only works if I hear before I fix"),
+        ("extends", "Minimum Effective Dose", "Ten-minute check-in beats one grand gesture"),
+    ],
+    "develop-dont-endanger": [
+        ("extends", "Safety Comes First", "Following their lead stops when the drill endangers them"),
+        ("extends", "Follow Their Lead", "Join their world — not when the move crosses safety limits"),
+    ],
+    "duty-of-care": [
+        ("implements", "Safety Comes First", "Stopping harm is duty of care in motion"),
+    ],
+    "emotional-regulation": [
+        ("extends", "Listen Before Fixing", "Hold the urge to mail the first-draft answer"),
+        ("extends", "Name the Feeling", "Label the spike before it drives the reply"),
+        ("extends", "Set Calm Boundaries", "Steady voice lands the line better"),
+    ],
+    "forgiveness": [
+        ("extends", "Set Calm Boundaries", "Forgive the heart; keep boundaries where trust still rebuilds"),
+    ],
+    "habit-formation": [
+        ("extends", "Create Regular Connection", "Connection rituals are habits with a person's name on them"),
+    ],
+    "love-your-neighbor": [
+        ("extends", "Follow Their Lead", "Love neighbor means entering their world before I redirect"),
+        ("extends", "Listen Before Fixing", "Care I'd want includes being heard before being fixed"),
+        ("extends", "Create Regular Connection", "Neighbor-love shows up in small repeated presence"),
+    ],
+    "minimum-effective-dose": [
+        ("extends", "Create Regular Connection", "Smallest connection habit that still lands"),
+    ],
+    "notice-the-good": [
+        ("extends", "The Golden Rule", "Specific praise is how I'd want to be treated"),
+    ],
+    "peacemakers": [
+        ("extends", "Listen Before Fixing", "Make peace by hearing before prescribing"),
+        ("extends", "Name the Feeling", "Truth in love often starts with naming what's carried"),
+        ("extends", "Set Calm Boundaries", "Peace through truth includes calm limits"),
+        ("implements", "Break the Escalation Cycle", "Peacemaking in the reply-all thread"),
+    ],
+    "process-over-outcomes": [
+        ("extends", "Create Regular Connection", "The repeated moment matters more than one perfect date"),
+        ("extends", "Notice the Good", "Reinforce the behavior in the loop, not only the score"),
+    ],
+    "psychological-safety": [
+        ("extends", "Listen Before Fixing", "People speak up when being heard beats being fixed"),
+        ("extends", "Follow Their Lead", "Join their framing before you redirect the blame"),
+        ("extends", "Name the Feeling", "Naming emotion without punishment keeps reporting honest"),
+    ],
+    "reconciliation-before-worship": [
+        ("extends", "Listen Before Fixing", "Repair starts by hearing what still hurts"),
+        ("implements", "Follow Their Lead", "Leave the altar — go on their thread first"),
+    ],
+    "the-golden-rule": [
+        ("extends", "Follow Their Lead", "I'd want someone to enter my world before fixing mine"),
+        ("extends", "Listen Before Fixing", "I'd want to be heard before being handed advice"),
+        ("extends", "Create Regular Connection", "I'd want steady presence, not one grand gesture"),
+        ("extends", "Notice the Good", "I'd want someone to name what I did well, not vague good job"),
+    ],
+    "plain-commitments-at-work": [
+        ("extends", "Set Calm Boundaries", "Plain yes/no at work uses the same steady-voice muscle"),
+    ],
+    "slow-the-moment": [
+        ("implements", "Listen Before Fixing", "One beat before the fix lands"),
+        ("implements", "Name the Feeling", "Pause before the label or the lecture"),
+        ("implements", "Set Calm Boundaries", "Steady voice needs a beat first"),
+    ],
+    "self-control": [
+        ("extends", "Listen Before Fixing", "Restraint is not interrupting with the answer"),
+    ],
+    "forgiveness-at-work": [
+        ("extends", "Set Calm Boundaries", "Release the grudge; keep boundaries where trust still rebuilds"),
+    ],
+    "golden-rule-at-work": [
+        ("extends", "Listen Before Fixing", "Treat them how I'd want — heard before fixed"),
+        ("extends", "Follow Their Lead", "Reverse roles includes entering their thread first"),
+    ],
+    "reconcile-before-the-review": [
+        ("extends", "Listen Before Fixing", "Repair starts by hearing what still hurts"),
+        ("implements", "Follow Their Lead", "Coffee first — go on their thread before the slides"),
+    ],
+    "servant-leadership": [
+        ("extends", "Follow Their Lead", "Serve by joining their world before redirecting credit"),
+        ("extends", "Notice the Good", "Name what the team did — don't grab the praise slide"),
+    ],
 }
 
 # Future-note extends (broken wikilink OK)

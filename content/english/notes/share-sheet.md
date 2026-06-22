@@ -26,6 +26,7 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| extends | [[Mobile Capture Workflows]] | Named in notes that link here |
-| extends | [[Capture]] | Named in notes that link here |
 | contradicts | [[Analog Capture Tools]] | when the opposite frame fits better |
+| extends | [[Capture]] | Named in notes that link here |
+| extends | [[Mobile Capture Workflows]] | Named in notes that link here |
+| extends | [[Mobile Capture Workflows]] | Named in notes that link here |

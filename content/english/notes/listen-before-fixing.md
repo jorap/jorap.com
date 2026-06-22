@@ -30,3 +30,4 @@ aliases: []
 | extends | [[Follow Their Lead]] | Listening is how I stay in their world before I steer |
 | extends | [[The Golden Rule]] | I'd want someone to hear me out before they fixed me |
 | implements | [[Emotional Regulation]] | I hold the urge to interrupt with the answer |
+| implements | [[Emotional Regulation]] | I hold the urge to interrupt with the answer |

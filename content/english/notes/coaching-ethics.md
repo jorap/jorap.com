@@ -26,6 +26,9 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| extends | [[Develop, Don't Endanger]] | Named in notes that link here |
-| extends | [[Servant Leadership]] | Named in notes that link here |
 | contradicts | [[Life Before Achievement]] | when the opposite frame fits better |
+| extends | [[Develop, Don't Endanger]] | Named in notes that link here |
+| extends | [[Safety Comes First]] | Consent doesn't erase the job when the drill is unsafe |
+| extends | [[Servant Leadership]] | Named in notes that link here |
+| implements | [[Follow Their Lead]] | Join their world except when the move endangers them |
+| implements | [[Follow Their Lead]] | Join their world except when the move endangers them |

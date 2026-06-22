@@ -26,6 +26,7 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
+| contradicts | [[Associative Linking]] | when the opposite frame fits better |
 | extends | [[Metadata Strategy]] | Named in notes that link here |
 | extends | [[PARA Method]] | Named in notes that link here |
-| contradicts | [[Associative Linking]] | when the opposite frame fits better |
+| extends | [[PARA Method]] | Named in notes that link here |

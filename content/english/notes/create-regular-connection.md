@@ -28,5 +28,8 @@ aliases: []
 |--------------|----------|--------|
 | contradicts | [[Follow Their Lead]] | when a rigid ritual blocks what they need today |
 | extends | [[Habit Formation]] | Connection rituals are habits with a person's name on them |
+| extends | [[Listen Before Fixing]] | The ritual only works if I hear before I fix |
+| extends | [[Minimum Effective Dose]] | Ten-minute check-in beats one grand gesture |
 | extends | [[Process Over Outcomes]] | The repeated moment matters more than one perfect date night |
+| implements | [[Continuous Improvement]] | Small connection reps compound; one grand dinner doesn't |
 | implements | [[Continuous Improvement]] | Small connection reps compound; one grand dinner doesn't |

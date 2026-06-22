@@ -31,3 +31,4 @@ aliases: []
 | extends | [[Life Before Achievement]] | No bond outranks avoidable injury or death |
 | implements | [[Eliminate Before Managing]] | Remove the dangerous option before debating how to supervise it |
 | implements | [[Set Calm Boundaries]] | A safety line is a boundary with teeth |
+| implements | [[Set Calm Boundaries]] | A safety line is a boundary with teeth |

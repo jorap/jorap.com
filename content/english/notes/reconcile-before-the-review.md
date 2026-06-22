@@ -29,8 +29,10 @@ Process doesn't heal a broken trust link. The person who knows there's a breach 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[The Golden Rule at Work]] | when I want fair treatment but won't initiate repair |
+| extends | [[Listen Before Fixing]] | Repair starts by hearing what still hurts |
 | extends | [[Note Relationships]] | Broken links between people need face-to-face repair like broken wikilinks |
 | extends | [[Reconciliation Before Worship]] | Relationship before ceremony — here, before the review or demo |
+| implements | [[Follow Their Lead]] | Coffee first — go on their thread before the slides |
 ## See also
 
 - [[Workplace Principles]] - Ethics, Eternal Principles, Workplace

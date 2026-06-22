@@ -26,6 +26,7 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
+| contradicts | [[The Collector's Fallacy]] | when the opposite frame fits better |
 | extends | [[Periodic Knowledge Review]] | Named in notes that link here |
 | extends | [[Weekly Review Checklists]] | Named in notes that link here |
-| contradicts | [[The Collector's Fallacy]] | when the opposite frame fits better |
+| extends | [[Weekly Review Checklists]] | Named in notes that link here |

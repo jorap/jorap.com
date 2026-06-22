@@ -26,5 +26,6 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| extends | [[Mind Mapping]] | Named in notes that link here |
 | contradicts | [[Atomic Notes]] | when the opposite frame fits better |
+| extends | [[Mind Mapping]] | Named in notes that link here |
+| extends | [[Mind Mapping]] | Named in notes that link here |

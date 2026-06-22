@@ -26,6 +26,7 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
+| contradicts | [[Atomic Notes]] | when the opposite frame fits better |
 | extends | [[Context-Aware Capture]] | Named in notes that link here |
 | extends | [[Mobile Capture Workflows]] | Named in notes that link here |
-| contradicts | [[Atomic Notes]] | when the opposite frame fits better |
+| extends | [[Mobile Capture Workflows]] | Named in notes that link here |

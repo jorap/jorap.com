@@ -26,6 +26,7 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
+| contradicts | [[Digital Serendipity]] | when the opposite frame fits better |
 | extends | [[Digital Minimalism]] | Named in notes that link here |
 | extends | [[Signal vs Noise]] | Named in notes that link here |
-| contradicts | [[Digital Serendipity]] | when the opposite frame fits better |
+| extends | [[Signal vs Noise]] | Named in notes that link here |

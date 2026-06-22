@@ -30,6 +30,8 @@ It's active, not passive: do the helpful thing, don't only avoid harm. The check
 |--------------|----------|--------|
 | alternative | [[Love Your Enemies]] | Fair treatment for allies vs harder love when someone actively opposes you |
 | contradicts | [[Pareto Principle]] | when I optimize for my 20% and treat the other 80% as disposable |
+| extends | [[Follow Their Lead]] | Reverse roles includes entering their thread first |
+| extends | [[Listen Before Fixing]] | Treat them how I'd want — heard before fixed |
 | extends | [[The Golden Rule]] | Same ethic with meeting-room language instead of sermon vocabulary |
 ## See also
 

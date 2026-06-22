@@ -26,5 +26,6 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| extends | [[Heed Every Near-Miss]] | Named in notes that link here |
 | contradicts | [[Failure as Feedback]] | when the opposite frame fits better |
+| extends | [[Heed Every Near-Miss]] | Named in notes that link here |
+| extends | [[Heed Every Near-Miss]] | Named in notes that link here |

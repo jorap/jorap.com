@@ -28,7 +28,9 @@ Results matter, but optimizing only for outcomes wins once. I optimize for a rep
 |--------------|----------|--------|
 | contradicts | [[The 12 Week Year]] | when the daily process beats quarterly scoreboard pressure |
 | extends | [[Compounding]] | Small gains only stack when you protect a repeatable process, not one hero outcome |
+| extends | [[Create Regular Connection]] | The repeated moment matters more than one perfect date |
 | extends | [[Finish Strong]] | Repeatable process includes closing the tail |
+| extends | [[Notice the Good]] | Reinforce the behavior in the loop, not only the score |
 | extends | [[Pressure Reveals Weakness]] | Process and defaults survive when heat rises |
 | extends | [[Systems Thinking]] | Trust the loop, not the scoreboard |
 ## See also

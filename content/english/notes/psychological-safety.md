@@ -26,6 +26,10 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| extends | [[Heed Every Near-Miss]] | Named in notes that link here |
-| extends | [[Own the Error]] | Named in notes that link here |
 | contradicts | [[Break the Escalation Cycle]] | when the opposite frame fits better |
+| extends | [[Follow Their Lead]] | Join their framing before you redirect the blame |
+| extends | [[Heed Every Near-Miss]] | Named in notes that link here |
+| extends | [[Listen Before Fixing]] | People speak up when being heard beats being fixed |
+| extends | [[Name the Feeling]] | Naming emotion without punishment keeps reporting honest |
+| extends | [[Own the Error]] | Named in notes that link here |
+| extends | [[Own the Error]] | Named in notes that link here |

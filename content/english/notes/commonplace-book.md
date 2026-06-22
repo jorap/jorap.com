@@ -26,6 +26,7 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
+| contradicts | [[Digital Minimalism]] | when the opposite frame fits better |
 | extends | [[Analog Capture Tools]] | Named in notes that link here |
 | extends | [[Intellectual Sourcing]] | Named in notes that link here |
-| contradicts | [[Digital Minimalism]] | when the opposite frame fits better |
+| extends | [[Intellectual Sourcing]] | Named in notes that link here |

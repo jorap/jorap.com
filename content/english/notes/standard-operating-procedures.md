@@ -28,8 +28,8 @@ aliases: ["SOPs"]
 |--------------|----------|--------|
 | contradicts | [[Adaptability]] | when the script can't handle the novel case the runbook never saw |
 | extends | [[Build a Reliable Default]] | SOPs are shared defaults |
-| extends | [[Systems Thinking]] | Written steps are one visible part of the loop |
 | extends | [[Preparedness]] | Write the steps before the emergency |
+| extends | [[Systems Thinking]] | Written steps are one visible part of the loop |
 | implements | [[Weekly Review Checklists]] | Checklists are SOPs for review |
 ## See also
 

@@ -29,6 +29,7 @@ I borrowed it from medicine: enough to work, not more than needed. Applies to PK
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when enough-to-work beats stacking past the dose |
+| extends | [[Create Regular Connection]] | Smallest connection habit that still lands |
 | extends | [[Develop, Don't Endanger]] | Smallest challenge that still develops the skill — not maximal suffering as the dose |
 | extends | [[Pareto Principle]] | Find the smallest change that still moves the needle — the slice of effort that earns most results |
 ## See also

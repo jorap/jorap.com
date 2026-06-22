@@ -34,7 +34,9 @@ Hard alone doesn't make an exercise worth running. A demanding drill needs a cle
 | extends | [[Duty of Care]] | Qualified supervision and safety limits are part of the job |
 | extends | [[Eliminate Before Managing]] | Safer alternative drills carry the same development without the hazard |
 | extends | [[Energy Protects Judgment]] | Sustainable load vs glorified exhaustion |
+| extends | [[Follow Their Lead]] | Join their world — not when the move crosses safety limits |
 | extends | [[Psychological Safety]] | People can't learn when fear of death sits in the room |
+| extends | [[Safety Comes First]] | Following their lead stops when the drill endangers them |
 | extends | [[Servant Leadership]] | The leader who serves protects growth — doesn't sacrifice people to prove a culture |
 | extends | [[Sustainable Performance]] | Long-term pace beats short-term brutality as proof of culture |
 ## See also

@@ -29,4 +29,6 @@ aliases: []
 | contradicts | [[Outcomes Over Pitch Decks]] | when only results get praised and the steady process gets ignored |
 | extends | [[Continuous Improvement]] | Naming what worked feeds the next rep |
 | extends | [[Process Over Outcomes]] | I reinforce the behavior in the loop, not only the score |
+| extends | [[The Golden Rule]] | Specific praise is how I'd want to be treated |
+| implements | [[Follow Their Lead]] | Sometimes the best lead to follow is the good thing they already did |
 | implements | [[Follow Their Lead]] | Sometimes the best lead to follow is the good thing they already did |

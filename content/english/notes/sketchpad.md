@@ -26,6 +26,7 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| extends | [[The Garage Concept]] | Named in notes that link here |
-| extends | [[Drafting in Public]] | Named in notes that link here |
 | contradicts | [[Creative Output]] | when the opposite frame fits better |
+| extends | [[Drafting in Public]] | Named in notes that link here |
+| extends | [[The Garage Concept]] | Named in notes that link here |
+| extends | [[The Garage Concept]] | Named in notes that link here |

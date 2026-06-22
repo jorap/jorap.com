@@ -29,6 +29,7 @@ aliases: []
 | contradicts | [[First Principles Thinking]] | when automatic habit runs past its sell-by date and nobody questions it |
 | extends | [[Build a Reliable Default]] | Habits become defaults under pressure |
 | extends | [[Compounding]] | Small repeats stack |
+| extends | [[Create Regular Connection]] | Connection rituals are habits with a person's name on them |
 | extends | [[Process Over Outcomes]] | Trust the loop until it's automatic |
 | implements | [[Capture]] | One capture habit carries the whole pipe |
 | implements | [[Systems for Growth]] | Core install move in the growth systems hub |

@@ -26,6 +26,8 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
+| contradicts | [[Outcomes Over Pitch Decks]] | when the opposite frame fits better |
 | extends | [[Develop, Don't Endanger]] | Named in notes that link here |
 | extends | [[Life Before Achievement]] | Named in notes that link here |
-| contradicts | [[Outcomes Over Pitch Decks]] | when the opposite frame fits better |
+| implements | [[Safety Comes First]] | Stopping harm is duty of care in motion |
+| implements | [[Safety Comes First]] | Stopping harm is duty of care in motion |

@@ -26,6 +26,7 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| extends | [[Servant Leadership]] | Named in notes that link here |
-| extends | [[Life Before Achievement]] | Named in notes that link here |
 | contradicts | [[Outcomes Over Pitch Decks]] | when the opposite frame fits better |
+| extends | [[Life Before Achievement]] | Named in notes that link here |
+| extends | [[Servant Leadership]] | Named in notes that link here |
+| extends | [[Servant Leadership]] | Named in notes that link here |

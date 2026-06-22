@@ -29,6 +29,7 @@ aliases: []
 | contradicts | [[Let Your Light Shine]] | when restraint hides a good work that should've been visible |
 | extends | [[Discipline]] | Control repeated becomes discipline |
 | extends | [[Emotional Regulation]] | Control the feeling before the act |
+| extends | [[Listen Before Fixing]] | Restraint is not interrupting with the answer |
 | extends | [[Slow the Moment]] | One beat of control before reaction |
 ## See also
 

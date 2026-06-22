@@ -26,6 +26,7 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
+| contradicts | [[Develop, Don't Endanger]] | when the opposite frame fits better |
 | extends | [[Eliminate Before Managing]] | Named in notes that link here |
 | extends | [[Hierarchy of Controls]] | Named in notes that link here |
-| contradicts | [[Develop, Don't Endanger]] | when the opposite frame fits better |
+| extends | [[Hierarchy of Controls]] | Named in notes that link here |

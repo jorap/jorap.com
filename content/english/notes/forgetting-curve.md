@@ -26,5 +26,6 @@ aliases: []
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| extends | [[Spaced Repetition]] | Named in notes that link here |
 | contradicts | [[Progressive Summarization]] | when the opposite frame fits better |
+| extends | [[Spaced Repetition]] | Named in notes that link here |
+| extends | [[Spaced Repetition]] | Named in notes that link here |

@@ -29,9 +29,11 @@ aliases: ["kaizen"]
 | contradicts | [[There Is No Perfect Solution]] | when endless tweaking never ships the good-enough version |
 | extends | [[Compounding]] | Small upgrades stack |
 | extends | [[Convert Pain Into Learning]] | Lessons become process changes |
+| extends | [[Create Regular Connection]] | Small connection reps compound like process fixes |
+| extends | [[Notice the Good]] | Naming what worked feeds the next rep |
 | extends | [[Process Over Outcomes]] | Trust the improving loop, not one perfect sprint |
-| implements | [[Weekly Review Checklists]] | Sunday pass is a continuous improvement ritual |
 | implements | [[Systems for Growth]] | Review-and-fix rhythm the growth hub indexes |
+| implements | [[Weekly Review Checklists]] | Sunday pass is a continuous improvement ritual |
 ## See also
 
 - [[Convert Pain Into Learning]] - Learning, Performance

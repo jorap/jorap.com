@@ -30,6 +30,9 @@ Not passivity - I can still set boundaries and name facts. I just refuse to beco
 |--------------|----------|--------|
 | contradicts | [[Sunk Cost Fallacy]] | when I keep investing anger because I already started the feud |
 | extends | [[Control the Rhythm]] | De-escalation often means taking the pace back |
+| extends | [[Listen Before Fixing]] | Hear before the sharp reply-all draft |
+| extends | [[Name the Feeling]] | Label the spike before it becomes the thread |
+| extends | [[Set Calm Boundaries]] | Calm limit stops the reply-all war |
 | extends | [[Slow the Moment]] | One beat before the sharp reply |
 | extends | [[Turn the Other Cheek]] | Refuse to return evil for evil — applied to Slack and email |
 ## See also

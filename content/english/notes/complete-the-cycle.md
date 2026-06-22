@@ -33,6 +33,7 @@ A meeting needs follow-up. A decision needs execution. A mistake needs correctio
 | extends | [[Attention to Detail]] | Verification is where sloppy handoffs die |
 | extends | [[Finish Strong]] | The tail of the job is part of finishing |
 | extends | [[Follow-Through]] | Promises mean the steps after the promise |
+| extends | [[Listen Before Fixing]] | Hearing is step one; closing the loop is step two |
 | extends | [[Pressure Reveals Weakness]] | Under load, people drop the follow-up first |
 | extends | [[The Trusted Inbox]] | [[Capture]] the next action or the loop stays open |
 | implements | [[Weekly Review Checklists]] | Sunday pass catches cycles left hanging |

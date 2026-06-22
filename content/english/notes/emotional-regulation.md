@@ -28,7 +28,10 @@ aliases: []
 |--------------|----------|--------|
 | contradicts | [[Turn the Other Cheek]] | when staying calm becomes avoiding a boundary that needed to be named |
 | extends | [[Break the Escalation Cycle]] | Regulate before you feed the thread |
+| extends | [[Listen Before Fixing]] | Hold the urge to mail the first-draft answer |
+| extends | [[Name the Feeling]] | Label the spike before it drives the reply |
 | extends | [[Self-Control]] | Restraint is regulation in motion |
+| extends | [[Set Calm Boundaries]] | Steady voice lands the line better |
 | extends | [[Slow the Moment]] | Pause is the first regulation tool |
 ## See also
 
