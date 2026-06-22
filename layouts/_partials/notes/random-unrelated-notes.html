@@ -26,8 +26,7 @@
 {{- if ge (len $pool) $minPool -}}
   <div class="section pb-0">
     <div class="notes-toolbar mb-4 flex flex-wrap items-center gap-3">
-      <h2 id="random-note" class="h3 heading-title-case mb-0 mr-auto">{{ T "random_blog_note" }}</h2>
-      <button type="button" class="btn btn-outline-primary btn-sm" {{ printf "data-%s-shuffle" $prefix | safeHTMLAttr }}>{{ T "shuffle" }}</button>
+      <h2 id="random-note" class="h3 heading-title-case mb-0">{{ T "random_blog_note" }}</h2>
     </div>
 
     <p class="text-ink-muted mb-6">
@@ -46,7 +45,10 @@
 
     <div class="row notes-random-grid items-stretch" {{ printf "data-%s-notes" $prefix | safeHTMLAttr }}>
       <div class="mb-8 flex flex-col">
-        {{ partial "notes/random-note-select.html" (dict "Prefix" $prefix "Pool" $pool "Label" (T "select_note") "Placeholder" (T "choose_note")) }}
+        <div class="notes-random-controls">
+          {{ partial "notes/random-note-select.html" (dict "Prefix" $prefix "Pool" $pool "Label" (T "select_note") "Placeholder" (T "choose_note")) }}
+          <button type="button" class="btn btn-outline-primary btn-sm shrink-0" {{ printf "data-%s-shuffle" $prefix | safeHTMLAttr }}>{{ T "shuffle" }}</button>
+        </div>
         <div class="notes-random-slot flex flex-col" {{ printf "data-%s-slot=\"0\"" $prefix | safeHTMLAttr }}>
           <p class="notes-random-loading text-ink-muted text-sm">{{ T "loading" }}</p>
         </div>

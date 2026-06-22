@@ -335,30 +335,34 @@
     var sameNoteMsg = opts.sameNoteMsg || "Pick two different notes.";
     var noPathMsg = opts.noPathMsg || "No path found through wikilinks.";
 
-    if (!resultEl || !emptyEl) return null;
+    if (!resultEl) return null;
 
     if (!start || !end) {
       resultEl.classList.add("hidden");
-      emptyEl.classList.add("hidden");
+      if (emptyEl) emptyEl.classList.add("hidden");
       return null;
     }
 
     if (start === end) {
       resultEl.classList.add("hidden");
-      emptyEl.classList.remove("hidden");
-      emptyEl.textContent = sameNoteMsg;
+      if (emptyEl) {
+        emptyEl.classList.remove("hidden");
+        emptyEl.textContent = sameNoteMsg;
+      }
       return [start];
     }
 
     var path = shortestPath(opts.adj, start, end);
     if (!path || path.length < 2) {
       resultEl.classList.add("hidden");
-      emptyEl.classList.remove("hidden");
-      emptyEl.textContent = noPathMsg;
+      if (emptyEl) {
+        emptyEl.classList.remove("hidden");
+        emptyEl.textContent = noPathMsg;
+      }
       return null;
     }
 
-    emptyEl.classList.add("hidden");
+    if (emptyEl) emptyEl.classList.add("hidden");
     resultEl.classList.remove("hidden");
     renderPathChain(chainEl, path, opts.titleByUrl);
     return path;

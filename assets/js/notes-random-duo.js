@@ -18,7 +18,6 @@
   var emptyPageEl = document.querySelector(".notes-random-empty-page");
   var pathResultEl = document.querySelector("[data-random-duo-path]");
   var pathChainEl = document.querySelector("[data-random-duo-path-chain]");
-  var pathEmptyEl = document.querySelector("[data-random-duo-path-empty]");
   if (!root || !dataEl) return;
 
   var slots = root.querySelectorAll("[data-random-duo-slot]");
@@ -104,7 +103,6 @@
     currentPath = core.renderPathBetween({
       resultEl: pathResultEl,
       chainEl: pathChainEl,
-      emptyEl: pathEmptyEl,
       adj: adj,
       titleByUrl: titleByUrl,
       start: left && left.url,
