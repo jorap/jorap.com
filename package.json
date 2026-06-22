@@ -25,9 +25,7 @@
     "lint:cards": "python3 scripts/lint-flashcard-frontmatter.py",
     "lint:voice": "python3 scripts/notes-voice-sanitize.py --check",
     "lint:utility-links": "python3 scripts/lint-utility-wikilinks.py",
-    "changelog": "node scripts/updateChangelog.mjs",
-    "hooks:install": "node scripts/installGitHooks.mjs",
-    "postinstall": "node scripts/fix-tailwind-bin.js && node scripts/installGitHooks.mjs"
+    "postinstall": "node scripts/fix-tailwind-bin.js"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.3.1",

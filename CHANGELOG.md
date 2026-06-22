@@ -1,6 +1,6 @@
 # Changelog
 
-Site **functionality** shipped to [jorap.com](https://jorap.com). Entries are appended automatically on commit when staged files touch code, layout, config, or build tooling (content paths are ignored). Deploys run on **Cloudflare Pages** via `pnpm run deploy`.
+Site **functionality** shipped to [jorap.com](https://jorap.com). Update via the `changelog-update` Cursor skill (git diffs + SpecStory session history). Deploys run on **Cloudflare Pages** via `pnpm run deploy`.
 
 Commit prefix → section: `fix:` / `Fixes` → **Fixed**; `feat:` / `add:` → **Added**; otherwise → **Changed**.
 
@@ -8,27 +8,24 @@ Commit prefix → section: `fix:` / `Fixes` → **Fixed**; `feat:` / `add:` → 
 
 ## 2026-06-22
 
+### Added
+
+- Shortest wikilink path on random duo and single-note random sections; path included in AI prompt when found
+- Notes graph: top/middle/bottom rank filters, relationship-type filters, and color-by-tag mode
+- Notes graph lazy init (IntersectionObserver) with 240-node cap on the global view
+- Skip-to-content link, nav dropdown keyboard navigation, and accessible theme-switcher button partial
+- Semantic warning/error/success/graph-weak theme tokens (replacing hardcoded banner and status colors)
+- `changelog-update` Cursor skill for human-readable changelog entries (SpecStory + git diffs)
+
 ### Changed
 
-- Centralized agent skills under `.cursor/skills/` (moved from `.agents/skills/`)
-- Sync-upstreams and ponytail-help skill doc tweaks
-- `assets/css/custom.css`
-- `layouts/_partials/components/theme-switcher.html`
-- `package.json`
-- `scripts/installGitHooks.mjs`
-- `scripts/updateChangelog.mjs`
-- `assets/js/main.js`
-- `assets/js/notes-graph.js`
-- `data/theme.json`
-- `layouts/_partials/essentials/header.html`
-- `layouts/baseof.html`
-- `layouts/notes/review.html`
-- `themes/jorap/assets/css/generated-theme.css`
-- `assets/js/notes-random-core.js`
-- `assets/js/notes-random-duo.js`
-- `layouts/_partials/notes/random-note-select.html`
-- `layouts/_partials/notes/random-unrelated-notes.html`
-- `layouts/notes/random-duo.html`
+- Random note/duo shuffle buttons moved to each dropdown; duo “shuffle both” beside the shortest-path toolbar
+- Agent skills centralized under `.cursor/skills/` (moved from `.agents/skills/`)
+- Notes review card labels: sentence case and larger type
+- Graph hub/weak percentile config replaced with `graph_tail_percentile`
+- Touch targets (44px) and focus-visible rings on filters, buttons, footer social icons, and nav CTA
+- Flashcard flip respects `prefers-reduced-motion`
+- Changelog: agent skill replaces commit-time file-path hook
 
 
 ---
