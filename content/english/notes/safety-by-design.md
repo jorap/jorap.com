@@ -15,9 +15,12 @@ aliases: []
 ---
 **Safety by design** = build the activity so harm is hard to cause — not only train people to be careful around danger.
 
-## Example
+## Examples
 
-The new stove puts controls where elbows can't bump them — safer layout, not another lecture.
+- **Sports:** The gym swapped to breakaway rims so dunk attempts don't tear shoulders - safer layout, not another lecture on landing.
+- **Non-technical work:** The new stove puts controls where elbows can't bump them - safer layout, not another lecture.
+- **Home with children:** We put outlet covers in before the crawling phase - harm harder to cause, not "be careful" fifty times a day.
+- **Real world:** The crosswalk got a bump-out so cars slow before the turn - design change, not just "watch for pedestrians" signs.
 
 ## Note Relationships
 

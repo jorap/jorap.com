@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v6" -}}
+  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v7" -}}
   {{- $notes := $data.notes -}}
   {{- $notes = sort $notes "total" "desc" -}}
 
@@ -78,7 +78,7 @@
                       {{- else if eq .type "extraSection" -}}
                         <li class="notes-issues__item notes-issues__item--structure">
                           <strong>Extra section:</strong>
-                          <code>## {{ .heading }}</code> — use <code>## Example</code>, <code>## Note Relationships</code>, or optional <code>## See also</code> only.
+                          <code>## {{ .heading }}</code> — use <code>## Examples</code>, <code>## Note Relationships</code>, or optional <code>## See also</code> only.
                         </li>
                       {{- end -}}
                     {{- end -}}

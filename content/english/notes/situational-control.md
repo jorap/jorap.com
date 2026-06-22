@@ -15,9 +15,12 @@ aliases: ["situation control"]
 ---
 **Situational control** = steer what you can in the moment — pace, format, who speaks, when you pause — when you can't own the whole outcome.
 
-## Example
+## Examples
 
-A good host ends the party before the stereo gets louder — they control the evening, not the loudest guest. My sister and I were fighting at the kitchen table past my kids' bedtime. Situational control was a fifteen-minute break and a promise to pick it up tomorrow — not surrendering the house because she talked faster.
+- **Sports:** Down twelve at halftime, our captain called a timeout she didn't need - situational control was slowing the game, not surrendering to their pace.
+- **Non-technical work:** The meeting was going sideways - situational control was "let's take ten and come back with an agenda," not letting the loudest voice own the room.
+- **Home with children:** My sister and I were fighting past the kids' bedtime - situational control was a fifteen-minute break and a promise to pick it up tomorrow.
+- **Real world:** A good host ends the party before the stereo gets louder - they control the evening, not the loudest guest.
 
 ## Note Relationships
 

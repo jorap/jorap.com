@@ -17,9 +17,12 @@ aliases: ["release the grudge at work"]
 
 Forgiving isn't pretending it didn't hurt. It's refusing to collect forever on a debt that poisons my work. Seventy times seven ends the ledger-keeping. Gospel depth: [[Forgiveness]]. Same math as [[Sunk Cost Fallacy]] - stop treating old hurt as an asset I'm owed.
 
-## Example
+## Examples
 
-I kept mentally scoring a coworker who embarrassed me in a staff meeting six months ago. Forgiveness at work meant I stopped bringing that score into every shift — and I still wrote down what I'd need to trust him on the next busy Saturday.
+- **Sports:** I kept mentally scoring a teammate who blew a play in last month's tournament - forgiveness at work meant I stopped bringing that score into every practice, and I still wrote down what I'd need to trust him on the next road trip.
+- **Non-technical work:** I kept mentally scoring a coworker who embarrassed me in a staff meeting six months ago - I stopped bringing that score into every shift and still wrote down what I'd need to trust him on the next busy Saturday.
+- **Home with children:** I replayed my sister's sharp comment at every family dinner until I chose to release the debt - forgiving isn't pretending it didn't hurt; it's refusing to collect forever.
+- **Real world:** The neighbor's parking habit still bugged me months later - forgiveness was stopping the mental spreadsheet, not pretending the curb fight never happened.
 
 ## Note Relationships
 

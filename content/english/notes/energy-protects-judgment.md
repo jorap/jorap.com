@@ -17,9 +17,12 @@ aliases: ["rest protects judgment"]
 
 Rest, prep, workload limits, and recovery aren't soft extras — they're part of performing responsibly under pressure.
 
-## Example
+## Examples
 
-Hospitals limit surgeon hours because tired hands slip — judgment is a motor skill too. I snapped at my kid over a spilled cup after a brutal week. At breakfast it would've been two calm sentences. She wasn't the problem; I was.
+- **Sports:** The club caps practice hours late in the season because tired legs slip - judgment is a motor skill too.
+- **Non-technical work:** Hospitals limit surgeon hours because tired hands slip - recovery isn't optional luxury when the call has to land.
+- **Home with children:** I snapped at my kid over a spilled cup after a brutal week; at breakfast it would've been two calm sentences - she wasn't the problem, I was.
+- **Real world:** After three nights of bad sleep I almost sent a sharp email to a neighbor - I waited until morning and the whole thread looked different.
 
 ## Note Relationships
 

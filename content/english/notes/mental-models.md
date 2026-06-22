@@ -15,9 +15,12 @@ status: evergreen
 ---
 Mental models are shortcuts for thinking. I keep a short list of ones that survived contact with real decisions - not every model on Wikipedia.
 
-## Example
+## Examples
 
-Saturday soccer signup had forty camps listed and I froze. Pareto got me to three that fit our budget; [[Low Hanging Fruit]] was registering online before slots closed; compounding was the ten minutes a week of practice that'll matter more than the flashiest jersey.
+- **Sports:** Saturday basketball camp signup had forty options listed and I froze - Pareto got me to three that fit our budget, [[Low Hanging Fruit]] was registering before slots closed, compounding was ten minutes of ball-handling a week.
+- **Non-technical work:** The restaurant had twelve menu tweaks on the whiteboard - I picked the two that actually cut ticket times and shelved the rest.
+- **Home with children:** Forty activity flyers on the fridge and we froze - three fit the budget, register online before slots close, ten minutes of practice beats the flashiest camp jersey.
+- **Real world:** Waze showed four commute routes - I stuck to the one that saves gas on the Tuesday school run, not the scenic detour.
 
 ## Note Relationships
 

@@ -15,9 +15,12 @@ aliases: ["systems thinker"]
 ---
 **Systems thinking** = see the loop behind the event — inputs, delays, feedback, side effects — so you fix the process, not only tonight's fire.
 
-## Example
+## Examples
 
-The restaurant ran out of rice on a busy Friday. Systems thinking traced it to prep checklist and par levels, not "cook faster tonight." Same at home: three missed school forms meant the morning routine needed a clipboard, not louder reminders at the door.
+- **Sports:** We lost every third possession on turnovers - systems thinking traced it to the warmup drill, not "focus harder tonight."
+- **Non-technical work:** The restaurant ran out of rice on a busy Friday - systems thinking traced it to prep checklist and par levels, not "cook faster tonight."
+- **Home with children:** Three missed school forms meant the morning routine needed a clipboard by the door, not louder reminders at 7:02.
+- **Real world:** The commute was late three Tuesdays in a row - systems thinking looked at sleep and prep the night before, not only leaving five minutes earlier.
 
 ## Note Relationships
 

@@ -15,9 +15,12 @@ aliases: []
 ---
 **Growth mindset** = skills can improve with practice — a miss is data about what to train next, not proof you're "not a math person."
 
-## Example
+## Examples
 
-You're "not a math person" until you practice fractions long enough — skill isn't fixed. I shanked three serves in a row at clinic. Growth mindset was ten minutes on toss height, not deciding I'd never have a reliable serve.
+- **Sports:** I missed three free throws in a row at clinic. Growth mindset was ten minutes on form, not deciding I'd never shoot reliably in a game.
+- **Non-technical work:** The new barista burned three lattes on the steam wand - skill isn't fixed. The trainer had her repeat one motion, not relabel her as "not a coffee person."
+- **Home with children:** My kid called herself "bad at reading" until we practiced sight words five minutes a night - the miss was data about what to drill, not a permanent label.
+- **Real world:** You're "not a math person" until you practice fractions long enough - a wrong answer on the utility bill is a cue to learn the formula, not proof you can't.
 
 ## Note Relationships
 

@@ -17,9 +17,12 @@ aliases: ["elimination before controls"]
 
 Those safeguards can cut risk, but they still need correct human action every time. When a dangerous activity isn't required, swap it for a safer alternative and the failure never gets a chance to happen.
 
-## Example
+## Examples
 
-Replace an open-water endurance drill with a controlled pool set or land-based conditioning. Same training goal — none of the drowning exposure.
+- **Sports:** Replace an open-water endurance drill with a controlled pool set or land-based conditioning - same training goal, none of the drowning exposure.
+- **Non-technical work:** Swap the wobbly ladder for a stable step stool - eliminate the fall hazard instead of adding three warning stickers and hoping someone reads them.
+- **Home with children:** We stopped storing cleaners under the sink and moved them up high - remove the hazard before we trust a "don't touch" lecture every time.
+- **Real world:** Kill the reply-all thread by fixing the process that started it - strongest safety move is removing what shouldn't happen, not managing the same near-miss forever.
 
 ## Note Relationships
 

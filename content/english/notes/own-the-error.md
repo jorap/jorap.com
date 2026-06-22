@@ -17,9 +17,12 @@ aliases: ["own your mistakes"]
 
 Name the mistake clearly, find what caused it, repair what broke, and change the process that let it through — not blame theater, not quiet hope it vanishes.
 
-## Example
+## Examples
 
-Surgeons do morbidity rounds - name the miss, fix the process, no fairy tales. I rang up the wrong total at the register, said it out loud, voided the receipt, and added a second look when bills pile up - not "the machine glitched."
+- **Sports:** After the missed free throw cost us the game, our point guard said "that was on me" in the huddle - no blame theater.
+- **Non-technical work:** Surgeons do morbidity rounds - name the miss, fix the process; I rang up the wrong total, voided the receipt, added a second look when bills pile up.
+- **Home with children:** I forgot the permission slip and told my kid out loud - reprinted, set a phone reminder, not "the teacher never emailed."
+- **Real world:** I merged wrong and clipped a bumper - I left a note with my number, not drove off hoping nobody saw.
 
 ## Note Relationships
 

@@ -15,9 +15,12 @@ aliases: []
 ---
 **Recovery** = the sleep, rest, and downtime that refill what hard work drains — judgment, patience, attention.
 
-## Example
+## Examples
 
-Elite athletes schedule rest days - muscle rebuilds off the field. Three late nights made me snap at bedtime; recovery was stopping at ten instead of a fourth heroic hour that would've hurt everyone at breakfast.
+- **Sports:** Elite athletes schedule rest days - muscle rebuilds off the field, not another heroic scrimmage.
+- **Non-technical work:** The chef took Monday off after the wedding rush - judgment came back by Thursday service.
+- **Home with children:** Three late nights made me snap at bedtime - recovery was stopping at ten instead of a fourth heroic hour that hurt everyone at breakfast.
+- **Real world:** After three nights of overtime I skipped the fourth - slept eight hours and didn't snap at the barista.
 
 ## Note Relationships
 

@@ -15,9 +15,12 @@ aliases: []
 ---
 **Inbox zero** = process the inbox to empty regularly — each item decided, not hoarded.
 
-## Example
+## Examples
 
-Friday afternoon I triaged email to zero — Monday started from decisions made, not dread.
+- **Sports:** Friday I triaged the team inbox to zero - Monday practice started from decisions made, not dread about who forgot what.
+- **Non-technical work:** Friday afternoon I triaged email to zero - Monday started from decisions made, not dread.
+- **Home with children:** Sunday night we emptied the kitchen catch-all tray - each slip got a decision so school week didn't start with mystery piles.
+- **Real world:** I process the commute voice-memo inbox every Friday - inbox zero is each item decided, not hoarded.
 
 ## Note Relationships
 

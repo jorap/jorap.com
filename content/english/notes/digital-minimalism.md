@@ -15,9 +15,12 @@ aliases: []
 ---
 Fewer apps, fewer sync layers, fewer notifications. My PKM got better when I stopped collecting tools. Overlap with [[Treasure in Heaven]]: less earthly accumulation, clearer allegiance.
 
-## Example
+## Examples
 
-We dropped the second diaper bag, the backup stroller, and the junk drawer of chargers. Fewer things means I actually know where the one working cable lives — same reason I keep one capture path instead of five apps.
+- **Sports:** We dropped the second gym bag and the backup jump rope - fewer things means I actually know where the one working pair of shoes lives.
+- **Non-technical work:** The front desk runs one scheduling app, not four - fewer sync layers means fewer places patient reminders get lost.
+- **Home with children:** We dropped the second diaper bag, the backup stroller, and the junk drawer of chargers - fewer things means I actually know where the one working cable lives.
+- **Real world:** Same reason I keep one capture path instead of five apps - my PKM got better when I stopped collecting tools.
 
 ## Note Relationships
 

@@ -15,9 +15,12 @@ aliases: []
 ---
 **Behavioral economics** = how people actually decide — biases, framing, sunk costs — not only rational models.
 
-## Example
+## Examples
 
-Kept the gym membership because 'I already paid' — classic sunk cost, not future value.
+- **Sports:** I kept paying for the unused gym membership because "I already paid" - classic sunk cost, not future value on the court.
+- **Non-technical work:** The restaurant kept the broken POS because "we already invested in training" - framing the past spend as reason to stay, not whether it still works.
+- **Home with children:** We kept the extra streaming service three months after anyone watched it - sunk cost dressed up as "we might use it again."
+- **Real world:** Kept the gym membership because "I already paid" - classic sunk cost, not future value.
 
 ## Note Relationships
 

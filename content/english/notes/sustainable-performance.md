@@ -15,9 +15,12 @@ aliases: []
 ---
 **Sustainable performance** = a pace you can repeat next month and next year — not a sprint that trades tomorrow for today's heroics.
 
-## Example
+## Examples
 
-Coffee gets you through one shift; sleep gets you through a career. The kitchen ran Friday pace five nights straight and quality slid by Wednesday - sustainable performance would've cut a night off instead of mortgaging next week's tickets.
+- **Sports:** Coffee gets you through one shift; sleep gets you through a season - sustainable performance isn't playing hurt three weeks straight to save tonight's win.
+- **Non-technical work:** The kitchen ran Friday pace five nights straight and quality slid by Wednesday - sustainable performance would've cut a night off instead of mortgaging next week's tickets.
+- **Home with children:** I can't sprint bedtime-and-homework heroics five nights a row - sustainable performance is an earlier lights-out one night so Thursday doesn't blow up.
+- **Real world:** I stopped answering work email at midnight - a pace I can repeat next month beats tonight's heroic reply.
 
 ## Note Relationships
 

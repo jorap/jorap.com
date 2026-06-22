@@ -17,9 +17,12 @@ aliases: ["effectiveness in new conditions"]
 
 Real competence means staying useful outside ideal setups, familiar roles, and comfortable routines — new tools, new teams, crisis mode, career pivots.
 
-## Example
+## Examples
 
-A great street-food cook still has to learn a new kitchen layout when the mall lease starts - same food, new tools. I walked the new counter before the lunch rush instead of defending last month's habits when the line got long.
+- **Sports:** Our guard dominates on the outdoor court and looks lost on the slick indoor floor for a week - staying effective means adjusting footwork, not defending yesterday's surface.
+- **Non-technical work:** A great street-food cook still has to learn a new kitchen layout when the mall lease starts - same food, new tools.
+- **Home with children:** Remote school broke our morning routine - we rebuilt a shorter version that worked on a laptop at the kitchen table, not the old rush-out-the-door script.
+- **Real world:** I walked the new counter before the lunch rush instead of defending last month's habits when the line got long.
 
 ## Note Relationships
 

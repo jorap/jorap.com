@@ -17,9 +17,12 @@ aliases: ["learn from failure"]
 
 Reflect on what happened, pull out the lesson, design a better response, and test it the next time the situation shows up — rumination without change is just suffering.
 
-## Example
+## Examples
 
-A basketball team watches film after a loss — not to wallow, but so the next game is cleaner. I bombed a talk and stewed for a week. Convert pain into learning was one page: weak transitions, rehearse bridges ten times, cut two slides. Next audience got the version the failure paid for.
+- **Sports:** A basketball team watches film after a loss - not to wallow, but so the next game is cleaner.
+- **Non-technical work:** I bombed a client presentation and stewed for a week - convert pain into learning was one page: weak transitions, rehearse bridges ten times, cut two slides.
+- **Home with children:** My kid failed the spelling test and we didn't just sigh - we pulled the missed pattern and drilled those ten words before the retake.
+- **Real world:** I missed the turn twice on the new commute - one note on where the sign hides, tested next Monday, rumination without change would've just been suffering.
 
 ## Note Relationships
 

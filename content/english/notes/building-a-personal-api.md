@@ -15,9 +15,12 @@ aliases: ["Future of PKM", "The Future of PKM"]
 ---
 My personal API isn't OAuth - it's consistent frontmatter, wikilinks, and folder shapes my tools can read without me re-explaining everything.
 
-## Example
+## Examples
 
-The warehouse labels every bin the same way — aisle, shelf, code — so a new hire finds parts without asking. Our pantry uses the same rule: snacks, baking, breakfast — my wife finds the rice without a tour.
+- **Sports:** Our team names drills the same way every season - level, skill, variation - so a sub can run practice without a twenty-minute briefing.
+- **Non-technical work:** The warehouse labels every bin the same way - aisle, shelf, code - so a new hire finds parts without asking, not a tour from the veteran.
+- **Home with children:** Our pantry uses the same rule - snacks, baking, breakfast - my wife finds the rice without me re-explaining where everything lives.
+- **Real world:** My notes use consistent slugs and wikilinks so future me and my tools can read the garden without me re-explaining every file from scratch.
 
 ## Note Relationships
 

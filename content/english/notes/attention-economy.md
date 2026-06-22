@@ -15,9 +15,12 @@ aliases: []
 ---
 **Attention economy** = platforms compete for your focus — your attention is the product.
 
-## Example
+## Examples
 
-Twenty minutes 'checking news' was twenty minutes of ads aimed at my outrage — not rest.
+- **Sports:** Halftime on my phone was supposed to be rest - twenty minutes of clips aimed at my outrage, not recovery.
+- **Non-technical work:** The clinic waiting-room TV runs health tips between ads - my attention was the product, not the pamphlet I came for.
+- **Home with children:** My kid's tablet "educational" game paused every level for a purchase screen - the game wanted her focus, not her learning.
+- **Real world:** Twenty minutes "checking news" was twenty minutes of ads aimed at my outrage - not rest.
 
 ## Note Relationships
 

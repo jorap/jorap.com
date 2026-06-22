@@ -17,9 +17,12 @@ aliases: ["Feynman Technique", "Richard Feynman"]
 
 I explain notes like I'm teaching someone - gaps in my explanation show gaps in understanding.
 
-## Example
+## Examples
 
-I tried to explain the offside rule to my kid at halftime and stalled halfway through. That gap told me I don't own the idea yet - I need one more game with someone who actually knows soccer.
+- **Sports:** I tried to explain the three-second violation to my kid at halftime and stalled halfway - that gap told me I don't own the idea yet.
+- **Non-technical work:** The new hire asked why we batch invoices that way and I stumbled mid-sentence - Feynman gap means I need one more pass before I teach it.
+- **Home with children:** My kid asked how the fuse box works and I waved vaguely - explaining it simply showed I didn't understand it well enough to fix anything.
+- **Real world:** I couldn't explain my note-capture workflow to a friend in two minutes - gaps in my explanation showed gaps in understanding.
 
 ## Note Relationships
 

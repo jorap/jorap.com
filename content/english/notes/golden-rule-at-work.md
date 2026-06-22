@@ -17,9 +17,12 @@ aliases: ["treat colleagues fairly", "reverse roles at work"]
 
 It's active, not passive: do the helpful thing, don't only avoid harm. The check is experiential - how would I want feedback delivered, how would I want to be included, how would I want a mistake handled? I don't wait for them to go first. Gospel depth lives in [[The Golden Rule]]; this is the version I use before I hit send.
 
-## Example
+## Examples
 
-My draft reply to a new cashier was technically right and needlessly harsh. I paused, asked how I'd want that correction on my worst shift, and rewrote it before the thread in the break room got worse.
+- **Sports:** My draft reply to the new team manager was technically right and needlessly harsh - I paused, asked how I'd want that correction on my worst game day, and rewrote it.
+- **Non-technical work:** My draft reply to a new cashier was technically right and needlessly harsh - I paused, asked how I'd want that correction on my worst shift, and rewrote it before the thread in the break room got worse.
+- **Home with children:** I was about to snap at my kid over spilled milk - golden rule at work is the home version too: how would I want that mistake handled on my worst morning?
+- **Real world:** The group chat pile-on about the neighbor's messy yard - I asked how I'd want feedback if my lawn looked that way, then said nothing mean.
 
 ## Note Relationships
 

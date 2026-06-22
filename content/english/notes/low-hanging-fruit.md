@@ -17,9 +17,12 @@ status: evergreen
 
 Not every task deserves hero energy. Fix the broken link, publish the half-done draft, delete the folder I haven't opened in a year. Small, obvious, done today. I use it when I'm avoiding work by planning harder work.
 
-## Example
+## Examples
 
-I spent an hour sketching a whole spring-cleaning plan when the actual problem was three dishes in the sink. I washed them in ten minutes, got the win, and had energy for the garage after lunch.
+- **Sports:** I spent twenty minutes redesigning our training plan when the actual problem was three cones not put away - I put them back in four minutes and had energy for drills.
+- **Non-technical work:** I reorganized the whole supply closet on paper when the actual win was restocking tape - five minutes, done before lunch.
+- **Home with children:** I spent an hour sketching a whole spring-cleaning plan when the actual problem was three dishes in the sink - washed them in ten minutes and had energy for the garage after lunch.
+- **Real world:** I mapped a whole errand route when the obvious move was mailing the one package blocking the counter.
 
 ## Note Relationships
 

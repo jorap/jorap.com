@@ -32,9 +32,12 @@ aliases: ["bless those who curse you"]
 
 Jesus overturned the tribal reading of "neighbor." Loving only people who love you back is ordinary; loving enemies is divine-shaped. Prayer and blessing are the practical handles - not agreement, not pretending harm didn't happen. The Father's free grace toward the unjust (Matthew 5:45) is the pattern: I love enemies because God loved me first.
 
-## Example
+## Examples
 
-Someone slandered me in a group chat and my thumb hovered over a reply that would have felt great for five minutes. I closed the app and prayed for them instead - not because they deserve it, but because that's what the Father does with people like me.
+- **Sports:** The rival coach trash-talked our bench and I typed a reply that would've felt great for five minutes - I closed the app and prayed instead.
+- **Non-technical work:** Someone slandered me in a group chat and my thumb hovered over a reply - I prayed for them, not because they deserve it, because that's what the Father does with people like me.
+- **Home with children:** My neighbor's honking got under my skin and I almost left a nasty note - I baked cookies instead and asked if everything was okay.
+- **Real world:** The clerk was rude at the return counter and I wanted to match it - I said thanks and walked out, same as I want when I'm having a bad day.
 
 ## Note Relationships
 

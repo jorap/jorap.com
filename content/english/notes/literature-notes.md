@@ -15,9 +15,12 @@ aliases: []
 ---
 **Literature notes** = notes about a source in your own words — not a highlight dump.
 
-## Example
+## Examples
 
-One page per book chapter with my takeaway, not yellow paint on every line.
+- **Sports:** I wrote one paragraph on the coach's chapter about zone defense, not yellow highlights on every page.
+- **Non-technical work:** One page per book chapter with my takeaway, not yellow paint on every line.
+- **Home with children:** My kid's report on the ocean book was three sentences she could explain, not copied quotes from every paragraph.
+- **Real world:** The PTA recap was what I actually remembered from the meeting, not a transcript of every speaker.
 
 ## Note Relationships
 

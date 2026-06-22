@@ -15,9 +15,12 @@ aliases: []
 ---
 **Maintenance window** = scheduled time to prune, fix links, and archive — not random Sunday panic.
 
-## Example
+## Examples
 
-First Sunday of the month is garden maintenance — broken links, stale drafts, nothing else.
+- **Sports:** Every Monday after practice we clean balls and tape the lineup board - not only when the gym floods.
+- **Non-technical work:** First Sunday of the month is garden maintenance - broken links, stale drafts, nothing else.
+- **Home with children:** Saturday morning is toy-bin purge and mending - not panicked cleaning when guests are at the door.
+- **Real world:** First Sunday I swap the car fluids and rotate tires - not waiting for the check-engine light on a Monday commute.
 
 ## Note Relationships
 

@@ -32,9 +32,12 @@ aliases: ["do not worry", "sufficient unto the day"]
 
 Worry can't add a single hour to life. The antidote isn't denial - it's priority: [[Seek the Kingdom First]], and let tomorrow carry its own trouble. Trust is active dependence on a Father who already gave eternal life by [[Free Grace]] - not anxiety about earning His care. Overlap with [[Slow Productivity]]: fewer frantic masters, deeper attention on what actually matters.
 
-## Example
+## Examples
 
-I woke up at 2am replaying next month's bills like worry could pay them. Jesus wasn't telling me to pretend the numbers don't exist - He was telling me to stop acting like I'm the one running the universe.
+- **Sports:** I replayed tomorrow's tournament bracket at 2am like worry could seed the draw - Jesus wasn't telling me to pretend the game doesn't exist, He was telling me to stop acting like I'm running the universe.
+- **Non-technical work:** I woke up at 2am replaying next month's payroll like anxiety could cut the checks - don't worry means seek the kingdom first, then act on today's actual numbers.
+- **Home with children:** My kid asked what if the school fee goes up next year and I started spiraling at bedtime - trust is active dependence on a Father who already gave what I can't earn.
+- **Real world:** I thumb-refresh the news about tomorrow's meeting instead of sleeping - worry can't add a single hour to life, and tomorrow can carry its own trouble.
 
 ## Note Relationships
 

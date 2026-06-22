@@ -15,9 +15,12 @@ aliases: []
 ---
 **Attention to detail** = the boring checks — diff review, edge cases, spelling in the customer email — that stop small misses from becoming big ones.
 
-## Example
+## Examples
 
-A nurse almost gave the wrong dose because two bags looked identical — the second read of the label caught it. I use the same pause before I sign anything that can't be undone.
+- **Sports:** We almost threw the inbounds pass on the wrong side of the line because two hash marks looked identical - the second read of the court map caught it.
+- **Non-technical work:** A nurse almost gave the wrong dose because two bags looked identical - the second read of the label caught it before it left her hands.
+- **Home with children:** I almost sent the permission slip to the wrong teacher because the forms looked the same - one more check of the name line saved the field trip.
+- **Real world:** I use the same pause before I sign anything that can't be undone - the boring second look beats the big mistake.
 
 ## Note Relationships
 

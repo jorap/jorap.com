@@ -17,9 +17,12 @@ aliases: ["yes means yes at work"]
 
 If my word needs hype to sound believable, the problem is my follow-through, not the sentence. One deadline, one owner, one plain answer in Slack. Gospel source: [[Let Your Yes Be Yes]]. PKM parallel: [[Atomic Notes]] - one claim per message, not padded prose.
 
-## Example
+## Examples
 
-The host almost said "I'll try to maybe get you a table around seven if we're not slammed" when "7pm" or "I can't tonight - want tomorrow?" was what the couple actually needed.
+- **Sports:** The coach said "practice at 4pm sharp" - not "we'll try to maybe start around four if weather holds."
+- **Non-technical work:** The host almost said "I'll try to maybe get you a table around seven if we're not slammed" when "7pm" or "I can't tonight - want tomorrow?" was what the couple needed.
+- **Home with children:** I told the carpool "yes Friday, no Thursday" - not "definitely maybe if nothing comes up."
+- **Real world:** I told my neighbor "I'll fix your fence Saturday by noon" - one deadline, one owner, not padded maybe.
 
 ## Note Relationships
 

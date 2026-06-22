@@ -15,9 +15,12 @@ aliases: []
 ---
 **Lean startup** = build the smallest test, measure, learn — don't scale before validation.
 
-## Example
+## Examples
 
-Ten users on a landing page before I built the full app — saved a month on the wrong feature.
+- **Sports:** Ten parents signed a waitlist before we booked the full tournament venue - smallest test, measure interest, learn before scaling.
+- **Non-technical work:** Ten customers on a lunch special before we rewrote the whole menu - build the smallest test, don't scale before validation.
+- **Home with children:** I posted one sample lunch-box photo in the group chat before buying a month's worth of new containers - saved money on the wrong feature.
+- **Real world:** Ten users on a landing page before I built the full app - saved a month on the wrong feature.
 
 ## Note Relationships
 

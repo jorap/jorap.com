@@ -17,9 +17,12 @@ aliases: ["Advantages of Digital Gardens", "Gardening Metaphor", "Work in Progre
 
 My digital garden is where notes grow in public - linked, imperfect, alive.
 
-## Example
+## Examples
 
-Our block's little free library still has last year's craft books beside this year's swaps. I replace a title when I learn better — not when the first donation was supposed to be final.
+- **Sports:** Our team's playbook wiki still has last season's sets beside this year's - I replace a drill when I learn better, not when the first version was supposed to be final.
+- **Non-technical work:** The shop's procedure binder grows in public - crossed-out steps stay visible so new hires see how the process actually evolved.
+- **Home with children:** Our block's little free library still has last year's craft books beside this year's swaps - I replace a title when I learn better, not when the first donation was supposed to be final.
+- **Real world:** My garden posts stay linked and imperfect - notes grow in public instead of rotting in a folder until they're "ready."
 
 ## Note Relationships
 

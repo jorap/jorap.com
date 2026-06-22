@@ -32,9 +32,12 @@ aliases: ["narrow gate", "broad road"]
 
 In [[Free Grace]] terms, the narrow gate is [[Free Grace]] in Christ - not the broad road of self-righteousness, religion-by-works, or moral performance as salvation. Jesus closes the Sermon on the Mount with a fork: not everyone who says "Lord, Lord" enters (Matthew 7:21-23). Those are false professors who never truly believed, not believers who stumbled. [[Discipleship]] on the narrow path is costly - cross-bearing, enemy-love, truth-telling - but distinct from how eternal life is received: free, by faith, through grace.
 
-## Example
+## Examples
 
-Everyone around me was taking the easy road on something I know Jesus said no to, and the crowd made it feel normal. The narrow way is lonely sometimes - hard now, life at the end, not comfortable because everyone's doing it.
+- **Sports:** Everyone cheered the dirty play that won - the narrow way was passing it up when the ref didn't see, even alone on the bench.
+- **Non-technical work:** The whole shop pads hours; the narrow way is logging honestly when nobody audits - crowded broad road, lonely honest one.
+- **Home with children:** Everyone around me was taking the easy road on something I know Jesus said no to - the crowd made it feel normal; narrow is hard now, life at the end.
+- **Real world:** Group chat gossip was "just joking" - narrow way was not forwarding the screenshot even when staying out made me the odd one.
 
 ## Note Relationships
 

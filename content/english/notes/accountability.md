@@ -15,9 +15,12 @@ aliases: []
 ---
 **Accountability** = clear ownership — who answers for the outcome, the miss, and the fix.
 
-## Example
+## Examples
 
-After a patient mix-up, our charge nurse named who was running the code cart and who was documenting — not "everyone was involved." Accountability was one owner, one timeline, and one honest chart note before the shift ended.
+- **Sports:** After we lost on a bad inbounds pass, the coach named who calls the play - not "the whole team messed up." One owner, one fix before the next possession.
+- **Non-technical work:** After a patient mix-up, our charge nurse named who was running the code cart and who was documenting - not "everyone was involved." One owner, one timeline, one honest chart note before the shift ended.
+- **Home with children:** When homework didn't get turned in, we stopped saying "we forgot" and named who packs the folder each night - one kid, one job, no vague blame.
+- **Real world:** The condo board didn't say "someone should fix the gate" - they named a contact and a deadline in the group chat before anyone drove off.
 
 ## Note Relationships
 

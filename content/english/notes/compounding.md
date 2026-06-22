@@ -17,9 +17,12 @@ status: evergreen
 
 Borrowed from finance, but it applies anywhere today's gain makes tomorrow easier: notes linked over years, publish cadence, vocab drills. Heroic weeks feel good; boring repetition wins. The first months look like nothing - that's the trap. Faith parallel: [[Abide in Me]] - fruit from staying connected over time, not self-generated effort alone. [[Eternal Rewards]] - the Father repays daily faithfulness over years, not a lump-sum merit binge that buys heaven.
 
-## Example
+## Examples
 
-My kid's piano practice looked pointless for a year — three songs a week, same scales. Year two the pieces started linking and suddenly she was playing music, not exercises. The first months looked like nothing; boring Tuesdays bent the curve.
+- **Sports:** Ten minutes of free throws every Tuesday looked pointless for months - then the percentage bent without me noticing the curve.
+- **Non-technical work:** A line cook fixes one prep station flaw every Monday - small upgrades daily, not one yearly overhaul that never sticks.
+- **Home with children:** My kid's piano practice looked pointless for a year - three songs a week, same scales, then year two the pieces started linking and suddenly she was playing music.
+- **Real world:** Our family morning checklist grew one line per forgotten backpack - six months later school mornings were boring in a good way because the small fixes stacked.
 
 ## Note Relationships
 

@@ -15,9 +15,12 @@ aliases: []
 ---
 **Tony Buzan** = popularized mind mapping as a radiant, branching sketch — name people cite for the method.
 
-## Example
+## Examples
 
-The workshop called it 'Buzan style' — center idea, branches, no sentence essays on the page.
+- **Sports:** Pre-game whiteboard: center idea, branches for set pieces - Buzan style, no sentence essays on the page.
+- **Non-technical work:** The workshop called it 'Buzan style' - center idea, branches, no paragraph outlines before the brainstorm.
+- **Home with children:** Trip planning on one page: Manila in the middle, branches for hotels, food, and "don't forget meds" - radiant sketch, not an essay.
+- **Real world:** My garden overhaul started as a mind map on a napkin - center node, branches, the name people cite for the method.
 
 ## Note Relationships
 

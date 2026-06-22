@@ -17,9 +17,12 @@ aliases: ["anti fragile systems", "Antifragile", "Antifragility"]
 
 Fragile systems break when an app shuts down. I build around plain files, open formats, and exports I actually test.
 
-## Example
+## Examples
 
-When the gym's booking app shut down for good, my paper training log still had every set. I photocopy it once a quarter so I'm not rebuilding history from memory when the next app dies.
+- **Sports:** When the gym's booking app shut down for good, my paper training log still had every set - I photocopy it once a quarter so I'm not rebuilding history from memory.
+- **Non-technical work:** The shop switched POS systems twice and the owner kept a plain spreadsheet backup - exports she actually opens, not trust in the vendor forever.
+- **Home with children:** Our family recipe box survived three phone upgrades - index cards beat the app that stopped syncing.
+- **Real world:** I keep notes as plain markdown files because the last shiny app I loved got acquired and killed - boring format, still readable ten years later.
 
 ## Note Relationships
 

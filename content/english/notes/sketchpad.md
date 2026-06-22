@@ -15,9 +15,12 @@ aliases: []
 ---
 **Sketchpad** = private scratch space before anything goes public — drafts, diagrams, half-ideas.
 
-## Example
+## Examples
 
-The napkin layout for the garden page lived in Notes app for a month before one paragraph shipped.
+- **Sports:** The set-piece sketch lived on a napkin for two practices before we ran it clean in a game.
+- **Non-technical work:** The floor plan for the new seating layout stayed on the back of a receipt until opening week - scratch space before the sign went up.
+- **Home with children:** The birthday party layout lived in Notes for a month - half-ideas in private before one paragraph shipped to the group chat.
+- **Real world:** The napkin layout for the garden page lived in my Notes app for a month before one paragraph went public.
 
 ## Note Relationships
 

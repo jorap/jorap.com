@@ -15,9 +15,12 @@ aliases: ["Research Notes", "note taking for researchers"]
 ---
 Collecting quotes isn't PKM for me. Synthesis means merging sources into what I believe and can defend - often with [[First Principles Thinking]] when a note is still someone else's words.
 
-## Example
+## Examples
 
-Three recipe clippings sat on the fridge until I merged them into one dinner I actually cooked. Collecting ideas felt like work; synthesis is when learning started.
+- **Sports:** Three coaches' clips on our press sat in my folder until I merged them into one drill we actually ran Tuesday.
+- **Non-technical work:** Three recipe clippings sat on the fridge until I merged them into one dinner I actually cooked - collecting felt like work; synthesis is when learning started.
+- **Home with children:** Five parenting articles became one rule on the fridge - merged into what we believe about screens, not a quote collection.
+- **Real world:** Quote-saved notes on productivity sat untouched until I wrote one page in my own words about how I capture - synthesis, not hoarding.
 
 ## Note Relationships
 

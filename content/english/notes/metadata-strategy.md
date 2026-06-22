@@ -15,9 +15,12 @@ aliases: []
 ---
 Tags, categories, dates, aliases - metadata should help me find notes, not become a second job.
 
-## Example
+## Examples
 
-I label the kids' bins "toys," "books," "outgrown" — not a color code I'd have to maintain like a second job. If sorting takes longer than putting stuff away, I cut a category.
+- **Sports:** The team's gear bin says "balls," "first aid," "outgrown" - not a color code I'd maintain like a second job.
+- **Non-technical work:** I label the kids' bins "toys," "books," "outgrown" - not a color code I'd have to maintain.
+- **Home with children:** If sorting takes longer than putting stuff away, I cut a category - three labels beat a system nobody follows.
+- **Real world:** My glove box has "registration," "insurance," "receipts" - three labels I can find at a traffic stop.
 
 ## Note Relationships
 

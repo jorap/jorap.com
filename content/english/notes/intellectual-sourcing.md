@@ -15,9 +15,12 @@ aliases: []
 ---
 I cite sources in notes not for academia - so I can trust my own synthesis and find the original six months later.
 
-## Example
+## Examples
 
-I tape the newspaper name under the quote on my kid's history project so six months later we know if the source still says what we thought. Without that line our own summary starts to feel like gospel.
+- **Sports:** I taped the coach's article title under the quote in our playbook so six months later we know if the source still says what we thought.
+- **Non-technical work:** I tape the newspaper name under the quote on my kid's history project so six months later we know if the source still says what we thought.
+- **Home with children:** Without that source line our own summary starts to feel like gospel - intellectual sourcing is tracking where ideas come from.
+- **Real world:** I cite the link in my garden note not for academia - so I can trust my own synthesis and find the original six months later.
 
 ## Note Relationships
 

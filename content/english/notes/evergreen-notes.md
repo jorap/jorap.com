@@ -34,9 +34,12 @@ I write evergreen notes to stay useful - timeless phrasing, clear claims, update
 
 I write in complete sentences I'd still stand behind in two years. Revise when tools change, not when trends spike. Promotion from fleeting: during [[Periodic Knowledge Review]], when a spark keeps returning. Faith parallel: [[The Beatitudes]] - character that matures over years, not a one-week mood.
 
-## Example
+## Examples
 
-A family recipe card keeps the ratios, not last year's trendy garnish. I rewrite a note when life changes how I think, not when a feed gets excited about a new trick.
+- **Sports:** My free-throw note keeps the release point and follow-through - not last week's trending drill tip I'd regret next season.
+- **Non-technical work:** A family recipe card keeps the ratios, not last year's trendy garnish - I rewrite when life changes how I cook, not when a feed gets excited about a new trick.
+- **Home with children:** The chore chart on the fridge says who empties dishes - timeless wording I'd still stand behind in two years, updated when our household actually changes.
+- **Real world:** I revise a garden note when reality changes how I think, not when Twitter spikes about a new PKM app I'll forget by autumn.
 
 ## Note Relationships
 

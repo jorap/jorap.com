@@ -15,9 +15,12 @@ aliases: []
 ---
 **Network analysis** = study links and hubs in a graph — who connects whom, what's isolated.
 
-## Example
+## Examples
 
-The graph showed one note linking twelve others — that's the doorway I'd prune first.
+- **Sports:** The playbook diagram showed one motion offense linking twelve other sets - that was the doorway I'd simplify first.
+- **Non-technical work:** The org chart showed one coordinator linking twelve others - that's where I'd add backup before peak season.
+- **Home with children:** The chore chart showed one kid linking every task - the bottleneck we fixed first.
+- **Real world:** The garden graph showed one note linking twelve others - that's the doorway I'd prune first.
 
 ## Note Relationships
 

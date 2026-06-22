@@ -30,9 +30,12 @@ aliases: []
 ---
 My weekly review is a checklist - inbox, calendar, projects, one express action. Boring on purpose.
 
-## Example
+## Examples
 
-Same four steps every Sunday: clear the bowl, check the calendar, active lists, one thing to ship. I don't reinvent the ritual for creativity - boring repetition is the point.
+- **Sports:** Same post-week ritual: clear the gear bag, check next fixture, one skill to drill - boring repetition, not a new review system every Sunday.
+- **Non-technical work:** Same four steps every Sunday: clear the tray, check the calendar, active lists, one thing to ship - don't reinvent the ritual for creativity.
+- **Home with children:** Sunday checklist: bowl by the door, calendar, kid forms, one family thing to finish - same steps even on travel weeks, shortened not skipped.
+- **Real world:** Inbox, calendar, projects, one express action - twenty minutes beats skipping review because this week's "different."
 
 ## Note Relationships
 

@@ -17,9 +17,12 @@ aliases: ["near miss investigation", "survival is not safety"]
 
 When nobody gets injured, organizations often relax. The opposite read is usually right: the system failed, and luck blocked the worst outcome. A rescue, a panic incident, or a loss of control should trigger investigation and redesign before anyone runs the same activity again.
 
-## Example
+## Examples
 
-A previous rescue during the same exercise is a warning to stop — not proof that the rescue team can keep handling it. Luck isn't a control layer.
+- **Sports:** A swimmer needed rescue during the same open-water drill last month - that's a warning to stop, not proof the safety boat can handle it forever.
+- **Non-technical work:** A kid almost choked on the same team-building snack twice - heed the near-miss; luck isn't a control layer.
+- **Home with children:** The toddler almost fell off the same chair twice - survival doesn't prove the setup is safe; fix the hazard before the third time.
+- **Real world:** A previous rescue during the same exercise is a warning to stop - not proof that the rescue team can keep handling it.
 
 ## Note Relationships
 

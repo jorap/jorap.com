@@ -32,9 +32,12 @@ aliases: ["heavenly reward", "reward in heaven"]
 
 [[Free Grace]] settles where I spend forever: faith in Christ alone. Eternal rewards settle what the Father pays the saved life for walking faithfully - including hidden devotion ([[Secret Devotion]]) and open obedience ([[Let Your Light Shine]]). [[Treasure in Heaven]] aims the heart at what to store; this note names the transaction: gift first, repayment for faithfulness second. Same shape as [[Compounding]] in the garden - small obedient acts over years, not one heroic week I mistake for a merit down payment on heaven.
 
-## Example
+## Examples
 
-I prayed for twenty minutes alone this morning and immediately wanted to mention it at breakfast so someone would notice. That's when I remember the Father already saw it - and He's the one who pays, not the table.
+- **Sports:** I stayed late to help reset the gym alone and immediately wanted to mention it at the next practice - the Father already saw it, and He's the one who pays, not the team chat.
+- **Non-technical work:** I covered a coworker's shift without telling anyone and caught myself fishing for credit in the break room - gift first, repayment for faithfulness second, not a merit down payment on heaven.
+- **Home with children:** I prayed for twenty minutes alone this morning and wanted to mention it at breakfast so someone would notice - the Father in secret is who repays, not the table.
+- **Real world:** I gave quietly at the neighborhood drive and felt discouraged nobody saw - eternal rewards means the Father sees hidden devotion and pays after salvation, not the audience at the curb.
 
 ## Note Relationships
 

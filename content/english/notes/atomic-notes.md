@@ -34,9 +34,12 @@ draft: false
 
 Small notes stack like Lego blocks - claim, how-to, example - linked, not merged. Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing. If I need headings inside one file, I probably need two notes. Faith parallel: [[Let Your Yes Be Yes]] - say one plain thing; let your yes be yes.
 
-## Example
+## Examples
 
-"Why cleats live by the door" is one claim — I'd say it alone at carpool. "Soccer gear and lunch-packing tips" is two — split them and link the ideas.
+- **Sports:** "Why my basketball shoes live by the door" is one claim - I'd say it alone at carpool.
+- **Non-technical work:** "How we hand off the closing shift" is one claim; "closing checklist and vendor call list" is two - split them.
+- **Home with children:** "Why lunch boxes get packed the night before" is atomic; "lunch packing and homework folder tips" is not - link the second idea elsewhere.
+- **Real world:** "Where we meet if the elevator is out" is one claim; "elevator outage and parking-gate codes" is two - split and wikilink.
 
 ## Note Relationships
 

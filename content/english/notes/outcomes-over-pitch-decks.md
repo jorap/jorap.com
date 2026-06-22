@@ -17,9 +17,12 @@ aliases: ["judge by outcomes", "fruit over hype"]
 
 Smooth talkers ship thorns sometimes. I look at downstream stress, turnover, delivery, and whether the team got healthier or more brittle. Don't condemn souls; do read the fruit. Gospel source: [[By Their Fruits]]. PKM parallel: [[Signal vs Noise]].
 
-## Example
+## Examples
 
-The contractor's portfolio was gorgeous; I asked two neighbors who lived through the remodel - both had permit fights and cracked tile. That answer beat every render in the deck.
+- **Sports:** The trainer's Instagram was polished - I asked two parents who finished the program about injuries and consistency.
+- **Non-technical work:** The contractor's portfolio was gorgeous - I asked two neighbors who lived through the remodel about permit fights and cracked tile.
+- **Home with children:** The tutor's brochure looked perfect - I asked one mom whether her kid actually passed after three months.
+- **Real world:** The phone plan salesman had slick slides - I asked my neighbor what his bill actually looked like month six.
 
 ## Note Relationships
 

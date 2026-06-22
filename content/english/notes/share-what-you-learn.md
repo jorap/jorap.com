@@ -17,9 +17,12 @@ aliases: ["teach what you know", "knowledge sharing at work"]
 
 A garden full of notes nobody reads is the same failure mode as a team where only one person holds the map. Gospel source: [[Great Commission]]. PKM parallel: [[Creative Output]] - truth and skill shared, not stockpiled.
 
-## Example
+## Examples
 
-The electrician labeled every breaker in the panel for whoever comes next - twenty minutes now, no guessing later. I'd almost moved on after a week wrestling the same prep; the new line cook hit it Monday and I showed him the station map.
+- **Sports:** The veteran keeper showed the rookie where to stand on corners - twenty minutes now so she's not guessing on match day.
+- **Non-technical work:** The electrician labeled every breaker in the panel for whoever comes next - twenty minutes now, no guessing later.
+- **Home with children:** I almost moved on after a week wrestling school forms - share what you learn was the sticky note on the fridge so my spouse didn't start from zero.
+- **Real world:** I'd figured out the clinic's parking trick after three visits - I told the next parent in line instead of hoarding the shortcut.
 
 ## Note Relationships
 

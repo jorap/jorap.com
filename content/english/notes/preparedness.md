@@ -15,9 +15,12 @@ aliases: []
 ---
 **Preparedness** = rehearse, document, and test before the emergency owns the clock.
 
-## Example
+## Examples
 
-Schools run fire drills on sunny Tuesdays so kids aren't learning exits during smoke. Our restaurant ran the closing checklist on a slow Tuesday; Saturday night's rush was boring because everyone had already walked it once.
+- **Sports:** We ran our inbound play every Thursday whether we needed it or not - schools run fire drills on sunny Tuesdays so kids aren't learning exits during smoke.
+- **Non-technical work:** Our restaurant ran the closing checklist on a slow Tuesday; Saturday night's rush was boring because everyone had already walked it once.
+- **Home with children:** We practiced the fire plan on a calm Tuesday - kids knew two exits before anyone smelled smoke.
+- **Real world:** I keep jumper cables and a blanket in the trunk before winter - not learning that lesson on the icy off-ramp.
 
 ## Note Relationships
 

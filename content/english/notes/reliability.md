@@ -15,9 +15,12 @@ aliases: []
 ---
 **Reliability** = others can plan around you because you close loops, hit deadlines, and show up the same way twice.
 
-## Example
+## Examples
 
-The friend who shows up at 7:00, not "around seven," is who you call in a crisis. My kid's coach sends the schedule every Monday and doesn't ghost when it's rain practice — not the loudest pep talk, the one whose yes means yes.
+- **Sports:** The friend who shows at 7:00, not "around seven," is who you call for carpool in a crisis - my kid's coach sends the schedule every Monday.
+- **Non-technical work:** The plumber who says Tuesday at 9 and actually shows is who you call when the leak spreads - not the loudest ad.
+- **Home with children:** My kid's coach sends the schedule every Monday and doesn't ghost when it's rain practice - yes means yes.
+- **Real world:** The neighbor who picks up mail every day you're away is the one I'd trust with a spare key.
 
 ## Note Relationships
 

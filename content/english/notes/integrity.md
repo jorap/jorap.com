@@ -15,9 +15,12 @@ aliases: []
 ---
 **Integrity** = what you do matches what you claim — especially when it costs applause, speed, or comfort.
 
-## Example
+## Examples
 
-A scale that reads honest when the customer isn't looking is integrity in hardware. I could've scooped light on flour when the rush got loud - same weight whether anyone was watching or not.
+- **Sports:** I could've counted a late hit as legal when the ref looked away - integrity is the same call whether anyone's watching or not.
+- **Non-technical work:** A scale that reads honest when the customer isn't looking is integrity in hardware - same weight whether anyone was watching or not.
+- **Home with children:** I could've scooped light on flour when the rush got loud - integrity is what you do matches what you claim, especially when it costs comfort.
+- **Real world:** The market scale stays honest when the seller steps away to take a call - that's the whole business.
 
 ## Note Relationships
 

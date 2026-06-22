@@ -15,9 +15,12 @@ status: evergreen
 ---
 Waiting for the perfect tool, plan, or answer feels responsible. It's often the nirvana fallacy. Faith parallel: [[Repent and Believe]] - the kingdom is at hand now, not when you've fixed yourself.
 
-## Example
+## Examples
 
-I spent a week comparing strollers instead of walking with the baby we already had. I picked the lighter one, went out tired that afternoon, and miles happened before the perfect model ever arrived.
+- **Sports:** We ran the secondary lineup ugly instead of waiting for the star to clear concussion protocol - good enough today beat perfect next month.
+- **Non-technical work:** The shop picked the good-enough supplier quote Friday instead of a fifth round of bids - tradeoffs, not an imaginary perfect vendor.
+- **Home with children:** I spent a week comparing strollers instead of walking with the baby we already had - picked the lighter one, went out tired that afternoon.
+- **Real world:** I stopped comparing note apps and shipped with the one that works on my phone tired - no perfect tool, only what I actually use.
 
 ## Note Relationships
 

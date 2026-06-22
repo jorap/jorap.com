@@ -15,9 +15,12 @@ aliases: ["Garage Concept"]
 ---
 The garage holds tools, scraps, experiments. The showroom is the blog. I don't confuse the two.
 
-## Example
+## Examples
 
-The garage holds half-finished projects and sawdust; the front porch shows the one bench I'd invite a neighbor to sit on. I don't accidentally show people the mess - I publish the finished piece.
+- **Sports:** The practice film library is messy; the highlight reel for parents is one clean cut - garage holds scraps, showroom shows the finished piece.
+- **Non-technical work:** The back kitchen holds experiments; the dining room plate is what's approved to leave - I don't confuse workshop with showroom.
+- **Home with children:** The garage holds half-finished projects and sawdust; the front porch shows the one bench I'd invite a neighbor to sit on.
+- **Real world:** Draft posts live in my private folder; the blog gets the finished essay - I don't accidentally publish the mess.
 
 ## Note Relationships
 

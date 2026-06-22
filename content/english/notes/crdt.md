@@ -15,9 +15,12 @@ aliases: []
 ---
 **CRDT** = data structures that merge edits without a central lock — useful for offline-first sync.
 
-## Example
+## Examples
 
-Two phones edited the same list offline and both changes merged — no 'you must sync first' fight.
+- **Sports:** Two coaches edited the same lineup offline at a tournament and both changes merged - no "you must sync first" fight at the bench.
+- **Non-technical work:** Two shift leads updated the patient board offline and both notes merged when Wi‑Fi came back - no lost handoff over who synced last.
+- **Home with children:** My wife and I edited the grocery list on two phones offline and both items stayed - no "your version overwrote mine" argument in aisle four.
+- **Real world:** Two phones edited the same list offline and both changes merged - no "you must sync first" fight.
 
 ## Note Relationships
 

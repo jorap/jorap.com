@@ -34,9 +34,12 @@ Grace is unmerited favor. Christ paid what I couldn't. I receive eternal life by
 
 Ephesians 2:10 keeps the order straight: saved by grace through faith first, then created in Christ Jesus for good works. Justification is free and finished at faith; discipleship, obedience, and forgiveness toward others belong to the walk after.
 
-## Example
+## Examples
 
-A friend at coffee listed every good thing he'd done this month like it was his ticket to heaven. I didn't argue - I just said I trust Christ's promise, not my report card.
+- **Sports:** A teammate listed every good deed this month like it was his ticket to heaven - I trust Christ's promise for eternal life, not my report card from the season.
+- **Non-technical work:** A friend at coffee listed every good thing he'd done this month like it was his ticket to heaven - I didn't argue; I just said I trust Christ's promise, not my report card.
+- **Home with children:** My kid asked if being good gets you into heaven - free grace is the gift through faith first; obedience follows, it doesn't buy the door.
+- **Real world:** A neighbor said she earns God's favor by trying hard - one sentence back: free gift, Christ paid what I couldn't.
 
 ## Note Relationships
 

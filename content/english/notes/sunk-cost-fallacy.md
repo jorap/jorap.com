@@ -17,9 +17,12 @@ status: evergreen
 
 Past effort is gone. I ask: if I found this today, would I start it? [[Forgiveness]] runs the same play on relational debt. [[Turn the Other Cheek]] adds the move: stop throwing more anger after sunk hurt.
 
-## Example
+## Examples
 
-I kept paying for a gym I hadn't entered since February because I'd bought a year upfront. When I asked if I'd sign up today knowing what I know now, the answer was no - I canceled and walked out in ten minutes.
+- **Sports:** I kept running a set play that lost four straight because we'd drilled it all preseason - sunk cost is asking whether I keep it because it cost time, not because it still works.
+- **Non-technical work:** The shop kept the broken POS because they'd paid the install fee - forward question only: would I buy this system fresh today?
+- **Home with children:** We finished a board game nobody liked because we'd already played an hour - sunk cost was admitting we'd rather start a new one than lose another twenty minutes.
+- **Real world:** I kept paying for a gym I hadn't entered since February - when I asked if I'd sign up today, the answer was no and I canceled in ten minutes.
 
 ## Note Relationships
 

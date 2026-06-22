@@ -34,9 +34,12 @@ draft: false
 
 Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand, not a law). I use it when my reading list, task board, or note tags all feel equally important: which few actually moved the needle? Same rule for flashcards: only spine notes carry `review: true` here - PKM habits plus six [[Eternal Principles]] with cards, not every faith note in the garden. Cards ask what I'd *do*, not what I'd *define*.
 
-## Example
+## Examples
 
-Last month the kids' activity list had six things and we skipped three nights in a row. I trimmed to two — soccer and piano — and suddenly we were showing up again instead of guilt-driving past canceled plans.
+- **Sports:** The kids' activity list had six things and we skipped three nights - I trimmed to basketball and piano and we actually showed up.
+- **Non-technical work:** The bakery had six daily specials and sold two consistently - we cut to those two and waste dropped.
+- **Home with children:** Last month six activities, skipped three nights - trimmed to two, suddenly showing up instead of guilt-driving past canceled plans.
+- **Real world:** My reading pile had forty tabs - the five that moved work got Sunday morning, the rest got deleted.
 
 ## Note Relationships
 

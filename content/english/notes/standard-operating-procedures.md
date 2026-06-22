@@ -15,9 +15,12 @@ aliases: ["SOPs"]
 ---
 **Standard operating procedures** = short written steps for work that repeats — deploys, incidents, onboarding — so the team doesn't improvise when the clock is loud.
 
-## Example
+## Examples
 
-The restaurant opening checklist lives on a clipboard because memory fails when the door unlocks at eleven. Guests were already seated when the new cook ran the sauce steps off the card - same as a recipe when you can't invent under pressure.
+- **Sports:** The closing routine after every match - ice, tape, log the injury - lives on the locker-room whiteboard so nobody improvises when everyone's exhausted.
+- **Non-technical work:** The restaurant opening checklist lives on a clipboard because memory fails when the door unlocks at eleven.
+- **Home with children:** Guests were already seated when the new cook ran the sauce steps off the card - same as a recipe when you can't invent under pressure.
+- **Real world:** The building guard walks the posted evacuation route he practiced on quiet shifts - written steps when the alarm trips loud.
 
 ## Note Relationships
 

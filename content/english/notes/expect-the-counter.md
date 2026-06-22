@@ -17,9 +17,12 @@ aliases: ["plan the second move"]
 
 Don't only rehearse the opening. Ask what happens after the other side adapts.
 
-## Example
+## Examples
 
-A restaurant drops lunch prices and the place across the street matches by Friday — the first move isn't the game. Expect the counter meant building regulars before the copy arrived, not treating opening week like a forever win.
+- **Sports:** We changed our full-court press and the other team adjusted by halftime - expect the counter meant building a backup look before tip-off.
+- **Non-technical work:** A restaurant drops lunch prices and the place across the street matches by Friday - the first move isn't the game; we built regulars before the copy arrived.
+- **Home with children:** I offered extra screen time for chores and my kid negotiated harder tasks by day three - I should've asked what happens after they adapt, not only rehearsed the opening bribe.
+- **Real world:** The condo board cut parking fees and the lot next door matched by Friday - expect the counter, don't treat opening week like permanent victory.
 
 ## Note Relationships
 

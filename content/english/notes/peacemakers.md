@@ -32,9 +32,12 @@ aliases: ["blessed are the peacemakers"]
 
 Peacemaking is work: reconciliation, truth spoken in love, de-escalation when others want a fight. It's not peace-at-any-price or avoiding hard conversations. The blessing ties peacemaking to family resemblance - acting like the Father who reconciled me to Himself through [[Free Grace]] before I reconciled with anyone.
 
-## Example
+## Examples
 
-Two friends were feuding and both wanted me to pick a side over dinner. I didn't stoke it - I called the one I wronged first and asked what it would take to actually fix things, not just keep the room quiet.
+- **Sports:** Two teammates were feuding in the locker room - I didn't pick a side, I asked what it would take to fix it before the next game.
+- **Non-technical work:** Two coworkers wanted me to pick a side over lunch - I called the one I wronged first and asked what it would take to actually fix things.
+- **Home with children:** Two friends feuding at dinner wanted me to pick a side - I called the one I wronged first and asked how to fix it, not keep the room quiet.
+- **Real world:** Neighbors were arguing over the fence line - I offered to measure together instead of nodding along with whoever complained loudest.
 
 ## Note Relationships
 

@@ -17,9 +17,12 @@ aliases: ["real priority first"]
 
 The inbox is other people's priorities wearing a siren. One block on the actual deliverable - spec, hard conversation, [[Deep Work]] - before I answer pings. Gospel source: [[Seek the Kingdom First]]. PKM parallel: [[Signal vs Noise]].
 
-## Example
+## Examples
 
-Tuesday before school, my phone was buzzing and the lunches were still on the counter. Priorities before the inbox means sandwiches packed first - then I answer messages from a morning that already moved.
+- **Sports:** Game film due Friday - I cut it before answering every parent group chat ping.
+- **Non-technical work:** The report was due at noon - I wrote the first page before opening Slack.
+- **Home with children:** Tuesday before school, phone buzzing and lunches on the counter - sandwiches packed first, then I answer messages from a morning that already moved.
+- **Real world:** Oil change before the road trip - I booked the slot before scrolling neighborhood drama.
 
 ## Note Relationships
 

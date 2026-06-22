@@ -32,9 +32,12 @@ aliases: ["light of the world", "city on a hill"]
 
 You're the light of the world, like a city on a hill. The point isn't performance for applause - Jesus warns against practicing righteousness to be seen by people (Matthew 6:1). Good works shine so God gets credit for [[Free Grace]] at work in a saved life, not so I build a personal brand. Parallel in the garden: [[Drafting in Public]] puts rough notes in the open so ideas get tested - same visibility instinct, different aim (glorify God, not the author).
 
-## Example
+## Examples
 
-I helped a neighbor move furniture and almost posted about it before I remembered why I did it. The light isn't for my brand - it's so someone sees good work and thinks God is real, not that I'm awesome.
+- **Sports:** I brought extra water for the whole bench and almost posted about it - the light isn't for my brand; it's so someone sees good work and thinks God is real.
+- **Non-technical work:** I covered a coworker's shift quietly and almost made it a LinkedIn moment - let your light shine so the Father gets credit, not my personal brand.
+- **Home with children:** I helped a neighbor move furniture and almost posted about it before I remembered why I did it - good works point to the Father, not that I'm awesome.
+- **Real world:** I almost captioned the charity run photo for applause - visibility so others glorify God, not so I build a brand.
 
 ## Note Relationships
 

@@ -43,9 +43,12 @@ aliases: ["blessed are"]
 | [[Peacemakers]] | Called children of God |
 | Persecuted for righteousness | Kingdom of heaven |
 
-## Example
+## Examples
 
-I had a great weekend with the kids and caught myself feeling spiritually self-sufficient, like I didn't need much from God. The Beatitudes start with poor in spirit - broke before God, not the dad who just had a perfect Saturday.
+- **Sports:** After a winning streak I caught myself feeling spiritually self-sufficient - Beatitudes start with poor in spirit, not the athlete who just had a perfect weekend.
+- **Non-technical work:** A good week at the clinic and I felt like I didn't need much from God - poor in spirit is broke before God, not the worker who nailed Friday's schedule.
+- **Home with children:** I had a great weekend with the kids and felt spiritually full - Beatitudes flip the scoreboard toward the needy, not the dad who just had a perfect Saturday.
+- **Real world:** Promotion week had me feeling self-made - mourning and meekness aren't weakness; they're the posture Jesus blessed instead of the scoreboard I was reading.
 
 ## Note Relationships
 

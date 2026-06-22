@@ -14,7 +14,7 @@
 
           {{- $notes := partial "notes/pages.html" . -}}
           {{- $notes = partial "notes/sort-by-connections.html" (dict "Pages" $notes "Context" .) -}}
-          {{- $issueData := partialCached "notes/collect-note-issues.html" site "note-issues-v6" -}}
+          {{- $issueData := partialCached "notes/collect-note-issues.html" site "note-issues-v7" -}}
           {{- $statusCounts := newScratch -}}
           {{- $tagCounts := dict -}}
           {{- $categoryCounts := dict -}}

@@ -15,9 +15,12 @@ status: evergreen
 ---
 Saving links isn't curation. I revisit monthly, prune what I wouldn't save again today, and connect what I actually care about.
 
-## Example
+## Examples
 
-The head cook walks the walk-in every Monday and throws out whatever won't make this week's menu. I do the same with my idea pile on the first Sunday — twelve saved links gone, three half-finished thoughts finally linked.
+- **Sports:** Our trainer reviews the drill library every month and cuts what nobody runs anymore - same job as pruning notes that wouldn't make today's practice plan.
+- **Non-technical work:** The head cook walks the walk-in every Monday and throws out whatever won't make this week's menu - twelve items gone, three worth keeping finally get a spot on the board.
+- **Home with children:** I do the same with my idea pile on the first Sunday - saved links I wouldn't act on today hit the trash, half-finished thoughts finally get linked.
+- **Real world:** The little free library on our block gets weeded every few months - stale paperbacks out, room for what neighbors actually swap.
 
 ## Note Relationships
 

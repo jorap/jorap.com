@@ -15,9 +15,12 @@ aliases: []
 ---
 **Quarterly planning** = set goals and review on a thirteen-week rhythm — short enough to feel real.
 
-## Example
+## Examples
 
-January's vague 'get fit' became twelve weeks with a fridge scoreboard — week ten finally bit.
+- **Sports:** January's vague "get faster" became twelve weeks with a fridge time chart - week ten finally bit.
+- **Non-technical work:** January's vague "reduce waste" became twelve weeks with a kitchen whiteboard tally - week ten finally bit.
+- **Home with children:** January's vague "get fit" became twelve weeks with a fridge scoreboard - week ten finally bit.
+- **Real world:** January's vague "save money" became twelve weeks with a jar on the counter - week ten finally bit.
 
 ## Note Relationships
 

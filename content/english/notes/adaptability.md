@@ -15,9 +15,12 @@ aliases: []
 ---
 **Adaptability** = keep the goal, swap the method when the ground moves.
 
-## Example
+## Examples
 
-Our usual fish supplier doubled prices overnight. Half the kitchen wanted to keep last month's specials anyway. Adaptability was rewriting the weekend menu before Saturday service — not defending a menu the market already killed.
+- **Sports:** Rain canceled our outdoor run and we moved practice to the covered court - same goal of getting reps in, different floor when the weather shifted.
+- **Non-technical work:** Our usual fish supplier doubled prices overnight and half the kitchen wanted to keep last month's specials - adaptability was rewriting the weekend menu before Saturday service.
+- **Home with children:** The school bus was late so we walked - same deadline for drop-off, different route when the morning plan broke.
+- **Real world:** The jeepney route changed overnight and I still needed to get to work - same destination, different line when the usual road closed.
 
 ## Note Relationships
 

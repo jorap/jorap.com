@@ -34,9 +34,12 @@ aliases: ["CODE", "Frictionless Capture"]
 
 Friction kills capture. One inbox, phone to desktop, weekly process - same as [[The Trusted Inbox]]. If I wouldn't act on it or cite it later, it doesn't get saved. Resonance is the filter, not FOMO.
 
-## Example
+## Examples
 
-On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it. One pocket notebook — no sorting yet. I file it Sunday when the spark is already safe.
+- **Sports:** A play tweak hits during cooldown and I scribble it on my wristband before the locker room noise eats it - one inbox, file it Sunday when the spark is safe.
+- **Non-technical work:** A customer complaint gives me a fix idea mid-shift and I drop it in one inbox - no tagging yet, process it Friday when the spark is already saved.
+- **Home with children:** On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it - one pocket notebook, no sorting yet.
+- **Real world:** A commute thought lands and I voice-memo it before the jeepney drowns it out - one trusted pipe, weekly review empties it.
 
 ## Note Relationships
 

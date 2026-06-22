@@ -15,9 +15,12 @@ aliases: []
 ---
 **Deliberate practice** = train the weak slice on purpose — feedback, correction, repeat — not run the whole piece you already nail.
 
-## Example
+## Examples
 
-A goalkeeper drills the hard save fifty times, not the whole match on autopilot. My kid's recital died in the bridges between songs. Deliberate practice was running only those transitions ten times — the rest she already knew.
+- **Sports:** Our guard drills the weak-hand finish fifty times, not the whole scrimmage on autopilot - train the weak slice on purpose.
+- **Non-technical work:** The new cashier drills voids and returns ten times, not the whole shift on autopilot - feedback, correction, repeat on what breaks.
+- **Home with children:** My kid's recital died in the bridges between songs - deliberate practice was running only those transitions ten times; the rest she already knew.
+- **Real world:** I bombed transitions in a talk and ran only those bridges ten times the next morning - not mindless repetition of what already worked.
 
 ## Note Relationships
 

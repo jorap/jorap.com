@@ -15,9 +15,12 @@ aliases: []
 ---
 **Emotional regulation** = you can feel anger, fear, or shame without handing the steering wheel to the feeling.
 
-## Example
+## Examples
 
-You can be furious at a driver who cut you off and still not chase them — feel it, don't steer with it. My kid's homework meltdown made my face hot; I took a kitchen walk before I answered. Regulation isn't numbness; it's not mailing the first draft.
+- **Sports:** I was furious at the ref's bad call and still ran the next play - feel the spike, don't steer the team with it.
+- **Non-technical work:** A customer snapped at the cashier and she kept her voice level - regulation isn't numbness, it's not mailing the first draft.
+- **Home with children:** My kid's homework meltdown made my face hot; I took a kitchen walk before I answered.
+- **Real world:** A driver cut me off on the commute and I felt the anger - I still didn't chase them down the ramp.
 
 ## Note Relationships
 

@@ -32,9 +32,12 @@ aliases: ["seek ye first", "kingdom of God"]
 
 The Sermon on the Mount ties this to not serving two masters (God and wealth) and to storing [[Treasure in Heaven]]. Kingdom isn't escape from earth - it's God's reign ordering my priorities today. Same job as [[Signal vs Noise]] in the PKM stack: what gets first place when everything feels urgent.
 
-## Example
+## Examples
 
-Tuesday at 7am the house was already loud and my Bible was still closed on the desk. Seek the kingdom first isn't a slogan - it's Scripture or prayer before the day's noise sets the agenda.
+- **Sports:** The goalie stretches before the locker-room noise - kingdom first is ten minutes of calm before the game sets the tone.
+- **Non-technical work:** The bakery owner opens with a short prayer before the ovens - feed the kingdom line before the invoice pile.
+- **Home with children:** Tuesday at 7am the house was loud and my Bible was still closed - seek the kingdom first is Scripture before the day's noise sets the agenda.
+- **Real world:** Anxiety had me scrolling finances before I prayed - kingdom first meant pray, then act on the bills.
 
 ## Note Relationships
 

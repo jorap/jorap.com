@@ -30,9 +30,12 @@ aliases: ["PARA", "Organization", "The Archive Method", "Archive Method", "The A
 ---
 **[[PARA]]** is how I sort notes by life responsibility - not by topic alphabet soup. Four buckets, clear questions.
 
-## Example
+## Examples
 
-The science fair folder lives on the counter with a deadline; the immunization records live in the filing cabinet with no end date. I sort by what owns it and when it's due, not alphabet soup.
+- **Sports:** Tournament folder on the bench with a deadline; off-season conditioning notes in the filing cabinet with no end date.
+- **Non-technical work:** The science fair folder on the counter with a deadline; immunization records in the filing cabinet with no end date.
+- **Home with children:** Science fair on the counter with a due date; immunization records in the cabinet with no end date - sorted by what owns it, not alphabet soup.
+- **Real world:** Tax envelope on the desk until April 15; car registration in the glove box year-round.
 
 ## Note Relationships
 

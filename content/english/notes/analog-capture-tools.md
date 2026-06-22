@@ -15,9 +15,12 @@ aliases: []
 ---
 I love my wiki, but sometimes paper wins - meetings, sermons, the pocket notebook that survives a dead phone battery. Sermon capture often becomes [[Eternal Principles]] notes after weekly review.
 
-## Example
+## Examples
 
-The phone dies mid-sermon and the pocket notebook still works. I scribble Philippians references in the margin and copy them into my study Bible at the kitchen table Sunday night — same captures, no battery required.
+- **Sports:** My phone died mid-game and the pocket notebook still had the set counts - same capture, no battery required.
+- **Non-technical work:** The contractor sketches room dimensions on a napkin at the site walk - paper wins when the tablet won't load and the client is standing there.
+- **Home with children:** The phone dies mid-sermon and I scribble Philippians references in the margin - I copy them into my study Bible at the kitchen table Sunday night.
+- **Real world:** Stuck in a dead-zone meeting, I jot the action items on the back of the agenda instead of pretending I'll remember them at the car.
 
 ## Note Relationships
 

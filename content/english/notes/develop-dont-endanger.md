@@ -17,9 +17,12 @@ aliases: ["challenge without endangering"]
 
 Hard alone doesn't make an exercise worth running. A demanding drill needs a clear purpose, a measurable benefit, qualified supervision, and defined safety limits. When pain becomes the point, leaders start treating harm like proof of growth.
 
-## Example
+## Examples
 
-A conditioning set can build endurance. An uncontrolled water exercise can add lethal risk without improving sport-specific performance. Pick the drill that develops the skill — not the one that merely proves toughness.
+- **Sports:** A conditioning set can build endurance - an uncontrolled water exercise adds lethal risk without improving sport-specific performance; pick the drill that develops the skill.
+- **Non-technical work:** The clinic can drill fire evacuation with a walk-through - not by blocking the only exit and hoping everyone stays calm.
+- **Home with children:** Swim lessons in the shallow end beat throwing a non-swimmer into deep water to "build toughness" - challenge without endangering.
+- **Real world:** Replace an open-water endurance drill with a controlled pool set or land-based conditioning - same training goal, none of the drowning exposure.
 
 ## Note Relationships
 

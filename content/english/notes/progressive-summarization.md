@@ -17,9 +17,12 @@ I don't rewrite whole notes when I distill - bold, then highlight, then summariz
 
 Layer one: bold the good sentences. Layer two: highlight the best bold. Layer three: summary at top - only when I reach for the note a second time. Distill on demand, not on save. Part of CODE's distill step.
 
-## Example
+## Examples
 
-I open the PTA newsletter for the second time and circle three dates, then star one. The sticky on the fridge only gets written when I'm actually blocking the calendar.
+- **Sports:** I open the playbook notes a second time and bold three plays, then star one for this week's install.
+- **Non-technical work:** I open the vendor contract a second time and bold three clauses, then highlight one before I sign.
+- **Home with children:** I open the PTA newsletter for the second time and circle three dates, then star one - sticky on the fridge only when I'm blocking the calendar.
+- **Real world:** I reread the community meeting recap and bold three action items - summary at the top only when I'm actually doing something with it.
 
 ## Note Relationships
 

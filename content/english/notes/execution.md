@@ -15,9 +15,12 @@ aliases: []
 ---
 **Execution** = turning a decision into finished work — not slides, not intentions, not "we'll get to it."
 
-## Example
+## Examples
 
-A wedding invite means nothing if nobody books the venue. The PTO committee had color-coded phases and zero volunteers signed up. Execution started when one person named who does what by when — like a coach's play only exists once players are on the field.
+- **Sports:** The coach drew a beautiful play on the whiteboard - execution started when players were on the field and someone named who cuts where on the first whistle.
+- **Non-technical work:** The PTO committee had color-coded phases and zero volunteers signed up until one person named who does what by when.
+- **Home with children:** A wedding invite means nothing if nobody books the venue - plans earn nothing until the work lands.
+- **Real world:** Our block cleanup had a group chat full of enthusiasm and no bags until one neighbor showed up with gloves and a start time.
 
 ## Note Relationships
 

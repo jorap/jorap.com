@@ -15,9 +15,12 @@ status: evergreen
 ---
 **PKM** is the boring name for how I save, organize, and use what I learn. Here's my unspectacular definition.
 
-## Example
+## Examples
 
-The school nurse keeps a card file sorted by what she actually uses on a shift, not every article she ever read. When a friend asks what PKM means, I say the same for what I learn - boring name, daily payoff.
+- **Sports:** The team manager keeps a card file sorted by what she actually uses on game day, not every article she ever read.
+- **Non-technical work:** The school nurse keeps a card file sorted by what she actually uses on a shift, not every article she ever read.
+- **Home with children:** When a friend asks what PKM means, I say the same for what I learn - boring name, daily payoff.
+- **Real world:** My commute notebook has three lists I actually open - not forty folders I'll never scroll again.
 
 ## Note Relationships
 

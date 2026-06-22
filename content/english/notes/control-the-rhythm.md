@@ -17,9 +17,12 @@ aliases: ["control the pace"]
 
 Don't let urgency, conflict, emotion, or someone else's deadline dictate how fast you think and act — take the tempo back when you can.
 
-## Example
+## Examples
 
-Good coaches don't let the loudest parent set practice length — they run drills, call water, end on time. A dad texted "my kid needs more reps today" before I'd watched him play. Control the rhythm was "let's see Thursday's scrimmage first" instead of doubling reps that bred a limp.
+- **Sports:** Good coaches don't let the loudest parent set practice length - they run drills, call water, end on time.
+- **Non-technical work:** A dad texted "my kid needs more reps today" before I'd watched him play - control the rhythm was "let's see Thursday's scrimmage first" instead of doubling reps that bred a limp.
+- **Home with children:** Bedtime spiraled into "five more minutes" chaos until we set the clock - we take the tempo back instead of letting panic set the pace.
+- **Real world:** A client wanted an answer in ten minutes on a complex quote - I said I'd send numbers after lunch and kept the room from rushing a bad decision.
 
 ## Note Relationships
 

@@ -15,9 +15,12 @@ aliases: []
 ---
 **Hierarchy of controls** = remove the hazard first, then substitute, engineer, admin, PPE — in that order.
 
-## Example
+## Examples
 
-Guard rails beat 'be careful' signs; removing the trip hazard beats both.
+- **Sports:** We removed the wet patch on the court instead of adding "slow down" signs - guard rails beat warnings; removing the hazard beats both.
+- **Non-technical work:** Guard rails beat "be careful" signs; removing the trip hazard beats both.
+- **Home with children:** We taped down the rug corner instead of yelling "watch your step" every night - hierarchy of controls: eliminate first, then engineer, admin, PPE last.
+- **Real world:** The building fixed the broken step instead of posting another caution sticker - remove the hazard first, in that order.
 
 ## Note Relationships
 

@@ -17,9 +17,12 @@ aliases: ["close the loop"]
 
 A meeting needs follow-up. A decision needs execution. A mistake needs correction. A task needs verification. The loop closes when the downstream work is done.
 
-## Example
+## Examples
 
-Parent-teacher night ended with "we'll email the action plan." By Friday, half the parents never got it. Complete the cycle was the recap sent before anyone left the parking lot — names, dates, who owns what.
+- **Sports:** Halftime talk ended with "we'll fix the press tomorrow" - I wrote the one drill on the whiteboard before anyone left the gym.
+- **Non-technical work:** Parent-teacher night ended with "we'll email the action plan" - the recap went out before anyone left the parking lot, names, dates, who owns what.
+- **Home with children:** We said we'd call the dentist back and forgot until Monday - closing the loop was booking the slot before we cleared the table.
+- **Real world:** The HOA meeting ended with vague follow-up - the summary email with owners and deadlines went out that night, not "someone will handle it."
 
 ## Note Relationships
 

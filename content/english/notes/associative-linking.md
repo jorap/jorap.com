@@ -30,9 +30,12 @@ aliases: ["Interconnectivity", "Power of Interconnectivity", "The Power of Inter
 ---
 Folders sort. Links think. I link so notes meet without me remembering every filename. Faith parallel: [[Love Your Neighbor]] - neighbors in the graph; ideas linked by proximity and care, not only folder tree.
 
-## Example
+## Examples
 
-My kid asks why we can't sprint through bedtime and I don't remember which card says "meltdown." The arrow from "rush" to "[[Slow the Moment]]" on the fridge chart gets me there — not the folder tab labeled "evening."
+- **Sports:** The playbook card links "late press" to "[[Slow the Moment]]" - I find the counter without memorizing every filename in the binder.
+- **Non-technical work:** A nurse can't find the policy by department folder but follows the wikilink from "wrong dose" to the double-check card - links think, folders only sort.
+- **Home with children:** The bedtime chart links "snack fight" to "brush teeth first" - I don't memorize every filename, the arrows get me there when everyone's tired.
+- **Real world:** I linked "jeepney delay" to "leave earlier" in my daily note and found it six weeks later when the same route broke again - proximity beats perfect filing.
 
 ## Note Relationships
 

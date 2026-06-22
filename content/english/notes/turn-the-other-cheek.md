@@ -32,9 +32,12 @@ aliases: ["non-retaliation", "resist not evil"]
 
 Jesus rejected the limit of "eye for eye" as a personal ethic for disciples. The point isn't passivity toward all evil - it's refusing to become what hurt you. Same logic as [[Sunk Cost Fallacy]]: stop throwing more anger after sunk hurt. Goes further than [[The Golden Rule]] (proactive good) and pairs with [[Love Your Enemies]] (heart posture). [[Free Grace]] frees me to absorb cost without keeping score for heaven.
 
-## Example
+## Examples
 
-Someone snapped at me in the school pickup line and I spent the drive home drafting the perfect comeback. Turning the other cheek isn't pretending it didn't hurt - it's refusing to become the kind of person who has to win every exchange.
+- **Sports:** Trash talk after the whistle and I wanted the last word - turn the other cheek is refusing to become the player who has to win every exchange.
+- **Non-technical work:** A customer snapped over a wait time and I felt the perfect comeback forming - non-retaliation is absorbing without escalating the cycle.
+- **Home with children:** Someone snapped at me in the school pickup line and I spent the drive home drafting the comeback - turning the cheek isn't pretending it didn't hurt; it's not mirroring evil.
+- **Real world:** Neighbor's passive-aggressive note about parking - I didn't post a rebuttal on the group chat; stop throwing anger after sunk hurt.
 
 ## Note Relationships
 

@@ -30,9 +30,12 @@ aliases: []
 ---
 Most content is noise. PKM fails if capture doesn't filter. I save signal - stuff that changes action or belief. Faith parallel: [[Seek the Kingdom First]] - God's reign gets first place; everything else is judged against that filter.
 
-## Example
+## Examples
 
-The dentist waiting room has a stack of magazines - I ask if this changes what I'll do this month. If it's just interesting, I read the headline and leave it; no mental slot for noise.
+- **Sports:** The trade-rumor thread was loud all week - signal was the one injury note that actually changed our lineup; the rest I admired and skipped.
+- **Non-technical work:** The dentist waiting room had a stack of magazines - if it won't change what I do this month, headline only, no mental slot.
+- **Home with children:** Three parenting hacks saved this week - I kept the one that changes bedtime this month and skipped the rest for now.
+- **Real world:** Trending thread everyone bookmarks - noise unless it changes what I do or believe this month.
 
 ## Note Relationships
 

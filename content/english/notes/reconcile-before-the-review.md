@@ -17,9 +17,12 @@ aliases: ["fix the relationship first"]
 
 Process doesn't heal a broken trust link. The person who knows there's a breach moves first - a short call, an owned apology, a specific repair - then we talk OKRs. Same order as [[Reconciliation Before Worship]], minus the religious frame: relationship before ritual performance.
 
-## Example
+## Examples
 
-I had strong numbers for the parent-teacher meeting but my co-teacher was still cold from something I'd said in the staff room. Fifteen minutes with her before we sat with the parents beat hoping the charts would smooth it over.
+- **Sports:** Strong stats for the scout meeting but my assistant coach was still cold from Tuesday - fifteen minutes with him before we sat with the scout beat hoping charts would smooth it.
+- **Non-technical work:** Strong numbers for the quarterly review but my teammate was still cold from something I'd said - I made the short call and owned the apology before OKRs.
+- **Home with children:** Strong notes for the parent-teacher meeting but my co-teacher was still cold from Tuesday - fifteen minutes with her before we sat with the parents.
+- **Real world:** The launch demo was ready but my neighbor sponsor was still hurt from a snub - coffee first, slides second.
 
 ## Note Relationships
 

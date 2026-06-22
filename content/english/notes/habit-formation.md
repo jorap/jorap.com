@@ -15,9 +15,12 @@ aliases: []
 ---
 **Habit formation** = repeat a small move until it runs without debating it every morning.
 
-## Example
+## Examples
 
-Same door, same notebook, same pocket — after thirty days you stop debating capture. Habit formation was the pad by the keys, not the fancy app I never opened. Like gym shoes by the bed: remove the decision.
+- **Sports:** Same gym bag, same water bottle, same pre-game stretch - after thirty days I stop debating warm-up; the shoes by the door beat the habit app I never opened.
+- **Non-technical work:** Same door, same notebook, same pocket - after thirty days I stop debating capture; the pad by the keys beat the fancy app I never opened.
+- **Home with children:** Gym shoes by the bed - remove the decision; after a month the kid stops debating whether we're walking to school.
+- **Real world:** I capture commute ideas on the same pocket notebook after locking the car - repeat until it runs without a daily debate.
 
 ## Note Relationships
 

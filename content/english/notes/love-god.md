@@ -32,9 +32,12 @@ aliases: ["greatest commandment"]
 
 When a scribe asked which commandment was first, Jesus quoted Deuteronomy 6:5 - whole-person devotion, not a corner of the week. Heart (affections), soul (will and life), mind (thought), strength (effort). Under [[Free Grace]], this is the first call on a life already saved by faith - love flowing from grace received, not love offered as payment for eternal life.
 
-## Example
+## Examples
 
-Sunday worship felt high but I hadn't opened my Bible since last week. Loving God with all my heart, soul, mind, and strength means more than one hour in a pew - it means I actually feed at least one of those today.
+- **Sports:** Match day adrenaline isn't the same as opening my Bible on Thursday - whole-person love means I feed at least one faculty today.
+- **Non-technical work:** Sunday worship felt high but I hadn't opened my Bible since last week - loving God means more than one hour in a pew.
+- **Home with children:** I put the phone down before bedtime stories - heart and mind get God before the scroll.
+- **Real world:** Five minutes with God before the commute beats treating Sunday like the whole deposit.
 
 ## Note Relationships
 

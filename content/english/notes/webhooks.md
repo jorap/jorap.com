@@ -15,9 +15,12 @@ aliases: []
 ---
 **Webhooks** = HTTP callbacks when something happens — push events instead of polling.
 
-## Example
+## Examples
 
-Form submit hits my script instantly instead of me refreshing the inbox every five minutes.
+- **Sports:** RSVP form submission pings the team chat instantly - push event instead of the manager refreshing the signup sheet every hour.
+- **Non-technical work:** New appointment hits the calendar the second the patient submits - webhook beats staff polling the inbox every five minutes.
+- **Home with children:** School alert webhook fires when the bus is late - push to my phone instead of refreshing the tracker tab.
+- **Real world:** Form submit hits my script instantly instead of me refreshing the inbox every five minutes - HTTP callback when something happens.
 
 ## Note Relationships
 

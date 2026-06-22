@@ -32,9 +32,12 @@ aliases: ["go and make disciples", "Matthew 28"]
 
 Mission flows from resurrection authority, not human recruitment zeal. Teaching obedience is discipleship after faith - not a works payment for salvation under [[Free Grace]]. PKM parallel: [[Creative Output]] - the gospel isn't fully kept until it's passed on; inventory notes mean nothing if they never leave the garden.
 
-## Example
+## Examples
 
-I've read the gospel for years and stay quiet when a neighbor asks what we do on Sunday mornings. Jesus didn't say hoard truth like a bookmark - He said go, baptize, teach, and He's with you while you do it.
+- **Sports:** I've coached kids for years and stay quiet when a parent asks what our team believes - Jesus didn't say hoard truth like a bookmark; He said go, baptize, teach, and He's with you.
+- **Non-technical work:** I've read the gospel for years and stay quiet when a coworker asks what we do on Sunday mornings - the commission is share truth, not hoard it in private study.
+- **Home with children:** My kid asked a friend what church is and I almost deflected - great commission is go and make disciples, starting with plain answers at the kitchen table.
+- **Real world:** A neighbor asked what we do on Sunday mornings and I almost changed the subject - Jesus said go, baptize, teach, and He's with you while you do it.
 
 ## Note Relationships
 

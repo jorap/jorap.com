@@ -32,9 +32,12 @@ aliases: ["lay up treasure", "where your treasure is"]
 
 Where your treasure is, there your heart will be. Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation. [[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life for faithfulness - not the entry fee. [[The Collector's Fallacy]] is the PKM mirror: hoarding saves and stuff on earth while nothing lasting gets stored.
 
-## Example
+## Examples
 
-I looked at my wallet and my calendar last night and both were full of stuff that won't survive a hard year. Where your treasure is, your heart follows - and mine was parked on earth again.
+- **Sports:** I almost chased a sponsorship for the ego, not the team - treasure check: where will this matter in ten years?
+- **Non-technical work:** Wallet full of gear I'll resell at a loss; calendar empty of the people I say I serve - heart follows treasure, and mine was on earth again.
+- **Home with children:** I looked at my wallet and calendar last night - both full of stuff that won't survive a hard year; store what lasts, not what rusts.
+- **Real world:** Thumb on another buy I don't need - will this rust, or store something heaven-side like mercy and obedience?
 
 ## Note Relationships
 

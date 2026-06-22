@@ -15,9 +15,12 @@ aliases: []
 ---
 **Reversibility** = prefer choices you can undo — irreversible harm needs a higher bar.
 
-## Example
+## Examples
 
-Try the haircut at home with clippers that still leave length — not the zero guard first.
+- **Sports:** Try the new play in scrimmage before running it in the championship - reversible rehearsal, higher bar for the irreversible call.
+- **Non-technical work:** Test the recipe at half batch before the wedding order - undo-able trial, not fifty servings of guesswork.
+- **Home with children:** Try the haircut at home with clippers that still leave length - not the zero guard first.
+- **Real world:** I took the longer route with an exit every mile before trying the new shortcut through construction.
 
 ## Note Relationships
 

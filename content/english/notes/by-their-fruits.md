@@ -32,9 +32,12 @@ aliases: ["know them by their fruits", "a tree is known by its fruit"]
 
 Jesus pairs this with [[Judge Not]]: don't condemn souls, but do evaluate fruit. Wolves may wear sheep's clothing; time and results tell. Garden parallel: [[Signal vs Noise]] - what actually produces good over time? The [Issues](/notes/issues/) audit - does the teaching leave the graph healthier or broken?
 
-## Example
+## Examples
 
-Last month I bookmarked a preacher who talks smooth and looks holy on stage. Six weeks later I looked at the people around him - stressed, broke, bitter - and that told me more than any sermon title ever could.
+- **Sports:** The youth coach talks smooth on day one but his players look stressed and bitter by month three - fruit told me more than any clinic title ever could.
+- **Non-technical work:** Last month I bookmarked a preacher who looks holy on stage - six weeks later the people around him looked broke and bitter, and that told me more than any sermon title.
+- **Home with children:** A parenting influencer sells calm routines but her comment section is full of moms feeling like failures - I judge the outcome, not the charisma.
+- **Real world:** A trending productivity guru's followers still drown in inbox chaos - grapes from grapevines, thorns from thistles, time and results tell.
 
 ## Note Relationships
 

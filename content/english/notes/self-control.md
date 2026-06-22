@@ -15,9 +15,12 @@ aliases: []
 ---
 **Self-control** = you choose the next move instead of the urge choosing for you.
 
-## Example
+## Examples
 
-The grocery store puts candy at checkout because impulse is predictable — self-control is the list in your hand. Thumb on the post button at midnight after a bad day: save to drafts, sleep, send tomorrow. Win the argument when you're not drunk on cortisol.
+- **Sports:** The point guard feels the pull to hero-ball on a bad stretch - self-control is the scripted pass they drilled, not the urge.
+- **Non-technical work:** The grocery store puts candy at checkout because impulse is predictable - self-control is the list in your hand, not the wrapper by the register.
+- **Home with children:** Thumb on the post button at midnight after a rough day - self-control was save to drafts, sleep, send tomorrow.
+- **Real world:** My thumb hovered over a snarky reply in the pickup-line group chat - self-control was close the app and answer when I wasn't drunk on cortisol.
 
 ## Note Relationships
 

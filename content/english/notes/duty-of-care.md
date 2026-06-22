@@ -15,9 +15,12 @@ aliases: []
 ---
 **Duty of care** = leaders owe reasonable protection to people under their authority — not zero risk, not reckless harm.
 
-## Example
+## Examples
 
-The pool had a lifeguard on deck because 'swim at your own risk' doesn't erase the job of watching kids.
+- **Sports:** The pool had a lifeguard on deck because "swim at your own risk" doesn't erase the job of watching kids in the water.
+- **Non-technical work:** The clinic keeps a crash cart checked every shift - "staff assumes risk" doesn't erase the charge nurse's job of reasonable protection.
+- **Home with children:** We don't leave the toddler pool gate open because the kids "know not to run" - duty of care is watching even when signs say be careful.
+- **Real world:** The building had a guard on the night shift because posted rules don't replace someone watching the exit when the alarm trips.
 
 ## Note Relationships
 

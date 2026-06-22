@@ -15,9 +15,12 @@ aliases: []
 ---
 **Getting Things Done** = David Allen's capture-clarify-organize system — inbox first, next actions, trusted lists.
 
-## Example
+## Examples
 
-My brain isn't a filing cabinet. GTD was one trusted inbox and a weekly review so open loops lived on paper, not at 2 a.m.
+- **Sports:** Tournament week my brain isn't a filing cabinet - GTD was one trusted inbox and a weekly review so open loops lived on paper, not at 2 a.m.
+- **Non-technical work:** My brain isn't a filing cabinet - GTD was one trusted inbox and a weekly review so open loops lived on paper, not at 2 a.m.
+- **Home with children:** School forms, dentist calls, and permission slips went into one kitchen inbox until Friday triage - capture, clarify, organize, not three mental piles.
+- **Real world:** Commute errands and neighbor requests hit one pocket notebook - each item gets a next action so nothing rots as background worry.
 
 ## Note Relationships
 

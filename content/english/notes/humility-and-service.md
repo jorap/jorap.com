@@ -32,9 +32,12 @@ aliases: ["servant leadership", "the last shall be first"]
 
 He washed feet the night before the cross. Status in the kingdom runs opposite to the world's ladder: exalt yourself and you'll be humbled; humble yourself and you'll be exalted. Service is the path to kingdom reward and greatness before God - not the price of [[Free Grace]].
 
-## Example
+## Examples
 
-I served at church on Sunday and came home expecting my family to serve me back. That's the world's ladder, not Jesus' - wash feet here too, not only where people can see you.
+- **Sports:** I organized snacks for my kid's basketball team on Sunday and came home expecting my family to serve me back - wash feet here too, not only where people can see you.
+- **Non-technical work:** I stayed late to cover a shift and expected praise all week - humility and service is the world's ladder upside down; the last shall be first.
+- **Home with children:** I served at church on Sunday and came home expecting my family to serve me back - that's the world's ladder, not Jesus'.
+- **Real world:** I helped a neighbor move and waited for credit in the group chat - greatness is serving, not being served.
 
 ## Note Relationships
 

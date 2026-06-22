@@ -32,9 +32,12 @@ aliases: ["follow Jesus", "following Christ"]
 
 Under [[Free Grace]], discipleship is grateful response, not payment. [[Repent and Believe]] opens the door. [[Take Up Your Cross]], [[The Narrow Way]], and [[The Wise Builder]] name what the road feels like - costly, narrow, built on hearing and doing. [[Great Commission]] pushes it outward: truth passed on, not hoarded like bookmarks. PKM mirror: [[Creative Output]] - notes mean little if hearing never becomes doing.
 
-## Example
+## Examples
 
-I had grace clear in my head and zero change in how I treated people at home. Discipleship isn't a badge from one altar call - it's doing what Jesus said today, messy as I still am.
+- **Sports:** I knew the basketball handbook cold and still yelled at the ref - discipleship isn't memorizing policy, it's doing what the coach actually taught today.
+- **Non-technical work:** I had grace clear in my head and zero change in how I treated people at the front desk - following Jesus is messy daily obedience, not a badge from one training day.
+- **Home with children:** I taught my kid the memory verse and still snapped over spilled milk - discipleship isn't a badge from one altar call, it's doing what Jesus said today.
+- **Real world:** My notes garden is full but the gospel rarely leaves my mouth - hearing without doing is hoarding truth like bookmarks instead of making disciples.
 
 ## Note Relationships
 

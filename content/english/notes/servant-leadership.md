@@ -17,9 +17,12 @@ aliases: ["lead by serving"]
 
 The corporate ladder rewards visibility; this principle runs the other way. Wash feet in the sprint, not only in the all-hands speech. Gospel depth: [[Humility and Service]]. I can explain this in a leadership book club without opening a sermon.
 
-## Example
+## Examples
 
-The head server took the worst section on Mother's Day and put the busser who saved the night on the thank-you board. I got a title and noticed I'd been hoarding the easy wins - servant leadership meant the messy shift and her name on the praise.
+- **Sports:** The captain takes the extra fitness drill so the rookie gets the lighter session - servant leadership is her workload, not his highlight reel.
+- **Non-technical work:** The head server took the worst section on Mother's Day and put the busser who saved the night on the thank-you board.
+- **Home with children:** I had the title at home but noticed I was hoarding easy wins - servant leadership meant the messy bedtime shift while my partner got the break.
+- **Real world:** I got promoted and realized I'd been grabbing credit for work the team carried - servant leadership was my name off the slide and hers on the praise email.
 
 ## Note Relationships
 

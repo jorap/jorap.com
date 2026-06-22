@@ -15,9 +15,12 @@ aliases: []
 ---
 **Risk management** = name what can go wrong, how likely, how bad — then choose controls in order of strength.
 
-## Example
+## Examples
 
-We moved the hot oil station away from the walk lane before buying more warning signs — eliminate before manage.
+- **Sports:** We moved the hydration table off the sprint lane before buying more caution tape - eliminate before manage.
+- **Non-technical work:** We moved the hot oil station away from the walk lane before buying more warning signs - eliminate before manage.
+- **Home with children:** We moved the space heater off the rug before lecturing the kids again about not touching it.
+- **Real world:** I moved the bike rack off the blind corner before adding another mirror - name what can go wrong, then pick the strong control.
 
 ## Note Relationships
 

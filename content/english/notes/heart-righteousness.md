@@ -32,9 +32,12 @@ aliases: ["anger and lust", "heart sins"]
 
 Jesus didn't lower the law; he exposed its depth. "You have heard… but I say" moves righteousness from courtroom compliance to motive and imagination. Under [[Free Grace]], this isn't a new merit ladder - it's the standard the Spirit applies to a life already saved, starting where only God sees.
 
-## Example
+## Examples
 
-Some guy cut me off on the EDSA commute and I smiled through it, then nursed the anger the whole ride home. Jesus said that's murder in the heart - polite outside, poison inside.
+- **Sports:** I smiled through the bad call and nursed the anger the whole ride home - heart righteousness is polite outside, poison inside; God cares about the inner life.
+- **Non-technical work:** I sent a cold reply that sounded professional while resentment ran inside - Jesus moves righteousness from courtroom compliance to motive.
+- **Home with children:** I looked patient helping with homework while I was simmering about the mess - murder in the heart doesn't need raised voices.
+- **Real world:** Some guy cut me off on the EDSA commute and I smiled through it, then nursed the anger the whole ride home - that's murder in the heart.
 
 ## Note Relationships
 

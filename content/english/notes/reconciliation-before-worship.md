@@ -32,9 +32,12 @@ aliases: ["leave your gift at the altar"]
 
 Jesus elevates restored relationship over religious performance. Worship with an unreconciled heart is hollow. The initiative is on the one who knows there's a breach - leave the altar, go, be reconciled, then return. This is fellowship restored, not salvation re-earned: [[Free Grace]] already settled my standing before God. Same discipline as [[Note Relationships]] in the garden: broken links between notes need typed repair - broken links between people need face-to-face repair first.
 
-## Example
+## Examples
 
-I walked into church ready to sing while my brother still had something against me from Wednesday. Jesus said leave the gift, go fix it, then come back - worship with a broken link still feels hollow.
+- **Sports:** I warmed up ready to compete while my teammate still had something against me from Wednesday - fix it courtside, then play.
+- **Non-technical work:** I walked into the volunteer shift ready to serve while my co-worker still had something against me - five minutes in the parking lot first.
+- **Home with children:** I walked into church ready to sing while my brother still had something against me - leave the gift, go fix it, then come back.
+- **Real world:** I arrived at the family reunion ready to mingle while my sister was still cold from last month - one honest conversation before the group photo.
 
 ## Note Relationships
 

@@ -15,9 +15,12 @@ aliases: []
 ---
 **Resilience** = you take the hit, recover, and stay useful — not pretend the hit didn't hurt.
 
-## Example
+## Examples
 
-A tree that bends in a storm and keeps growing isn't pretending the wind didn't hit. Our Saturday rush blew up; resilience was an honest huddle, a quiet week, and a smaller menu - not rage-quitting or acting like Friday never happened.
+- **Sports:** We lost the semifinal, had an honest huddle, rested a week, came back with a simpler game plan - not rage-quitting mid-season.
+- **Non-technical work:** Our Saturday rush blew up - honest huddle, quiet week, smaller menu, not acting like Friday never happened.
+- **Home with children:** A tree that bends in a storm keeps growing - we reset bedtime after a brutal week instead of pretending nobody was exhausted.
+- **Real world:** Commute delays wrecked my morning three days straight - I left earlier Thursday instead of cursing the traffic and showing up late again.
 
 ## Note Relationships
 

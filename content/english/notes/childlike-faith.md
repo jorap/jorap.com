@@ -32,9 +32,12 @@ aliases: ["become like children", "faith like a child"]
 
 Children don't enter the kingdom by achievement; they receive care they didn't earn. Jesus wasn't praising ignorance - he was naming the posture [[Free Grace]] requires: stop calculating worthiness and receive the gift. Same beginner posture as [[Getting Started]] in the garden - assume you're new, follow the guide, don't perform expertise you don't have.
 
-## Example
+## Examples
 
-My daughter asked for a snack without calculating whether she'd been good enough today. I caught myself doing the opposite with God - running a mental scoreboard before I'd even say good morning.
+- **Sports:** My daughter asked for water at practice without calculating whether she'd earned it - I caught myself running a merit scoreboard with God before I'd even say good morning.
+- **Non-technical work:** The new hire asked a "dumb" question in orientation without negotiating whether she deserved an answer - childlike faith is receive, not perform expertise you don't have yet.
+- **Home with children:** My daughter asked for a snack without calculating whether she'd been good enough today - same posture Jesus names: stop earning points, receive the gift.
+- **Real world:** I delay prayer until my week looks respectable - childlike faith means I come like a kid who already belongs, not a contractor negotiating terms.
 
 ## Note Relationships
 

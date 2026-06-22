@@ -15,9 +15,12 @@ aliases: []
 ---
 **Information diet** = choose what you consume on purpose — feeds are not neutral.
 
-## Example
+## Examples
 
-Unfollowed three outrage accounts and my morning wasn't ruined before breakfast.
+- **Sports:** I unfollowed three outrage sports accounts and pre-game wasn't ruined before warm-up.
+- **Non-technical work:** Unfollowed three outrage accounts and my morning wasn't ruined before breakfast.
+- **Home with children:** I removed the doom-scroll feed from the family tablet - feeds are not neutral; choose what you consume on purpose.
+- **Real world:** I dropped two commute podcasts that only made me angry at strangers - information diet is curating inputs, not swallowing whatever the algorithm serves.
 
 ## Note Relationships
 

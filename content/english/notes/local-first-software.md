@@ -15,9 +15,12 @@ aliases: ["local first software", "Local First", "Privacy and Data Sovereignty",
 ---
 Local-first means my device holds the truth; sync is optional icing. That's how I want my brain's backup to behave.
 
-## Example
+## Examples
 
-Grandma's recipe cards live in the kitchen drawer — not an app that might vanish. If the phone dies mid-grocery run, the list on the fridge still works.
+- **Sports:** My kid's shooting log lives in a notebook in the gym bag - not an app that might vanish when the vendor pivots.
+- **Non-technical work:** Grandma's recipe cards live in the kitchen drawer - not an app that might vanish.
+- **Home with children:** If the phone dies mid-grocery run, the list on the fridge still works.
+- **Real world:** My commute playlist is downloaded on the phone - I still hear music in the tunnel when the signal drops.
 
 ## Note Relationships
 

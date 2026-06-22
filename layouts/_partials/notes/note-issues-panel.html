@@ -6,7 +6,7 @@
   {{- return -}}
 {{- end -}}
 {{- with $page.File -}}
-  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v6" -}}
+  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v7" -}}
   {{- $issues := index $data.byPath .Path -}}
   {{- if $issues -}}
     <aside class="notes-issues border-divider mb-6 rounded border p-5" aria-label="Link issues on this note">
@@ -54,7 +54,7 @@
           {{- else if eq .type "extraSection" -}}
             <li class="notes-issues__item notes-issues__item--structure">
               <strong>Extra section:</strong>
-              <code>## {{ .heading }}</code> — atomic notes allow only <code>## Example</code>, <code>## Note Relationships</code>, and optional <code>## See also</code>. Split the note or move content to prose.
+              <code>## {{ .heading }}</code> — atomic notes allow only <code>## Examples</code>, <code>## Note Relationships</code>, and optional <code>## See also</code>. Split the note or move content to prose.
             </li>
           {{- end -}}
         {{- end -}}
