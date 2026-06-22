@@ -4,7 +4,7 @@
 
 {{- with $related -}}
   <div class="section pb-0">
-    <h2 class="h3 heading-title-case mb-6">{{ T "related_notes" }}</h2>
+    <h2 id="related-notes" class="h3 heading-title-case mb-6">{{ T "related_notes" }}</h2>
     <div class="row">
       {{- range . -}}
         {{- $note := .Page -}}

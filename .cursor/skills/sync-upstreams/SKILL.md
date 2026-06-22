@@ -57,7 +57,7 @@ Hugoplate’s theme lives at repo root (`layouts/`, `assets/`). JoRap vendors it
 | `layouts/` | `themes/jorap/layouts/` |
 | `assets/` | `themes/jorap/assets/` |
 | `scripts/` | `scripts/` (selective) |
-| `.agents/skills/` | `.agents/skills/` |
+| `.agents/skills/` (upstream) | `.cursor/skills/` |
 | `AGENTS.md` | Review; merge relevant sections only |
 
 Do **not** copy `exampleSite/`, `theme.toml`, or hugoplate’s `package.json` wholesale.
@@ -71,7 +71,7 @@ Task progress:
 - [ ] Read diff for each CANDIDATE / ADD-ONLY file
 - [ ] Copy or cherry-pick ONLY approved files — one at a time
 - [ ] Diff root scripts; update only Tier-3 matches
-- [ ] Sync .agents/skills; restore JoRap local notes
+- [ ] Sync Hugoplate agent skills into `.cursor/skills/`; restore JoRap local notes
 - [ ] pnpm build
 - [ ] Summarize: applied / skipped / needs manual review
 ```
@@ -148,10 +148,10 @@ diff -rq ../hugoplate/scripts scripts
 
 ```bash
 HUGO=../hugoplate
-rsync -av "$HUGO/.agents/skills/" .agents/skills/
+rsync -av "$HUGO/.agents/skills/" .cursor/skills/
 ```
 
-Then restore JoRap-only lines upstream removed, e.g. the `__` draft-post note in `.agents/skills/hugo-template-guidance/references/content-management.md`.
+Then restore JoRap-only lines upstream removed, e.g. the `__` draft-post note in `.cursor/skills/hugo-template-guidance/references/content-management.md`.
 
 ### Step 5 — package.json
 

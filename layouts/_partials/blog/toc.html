@@ -1,0 +1,41 @@
+{{- /*
+  Table of contents for blog posts — body headings from Hugo's TOC, plus page sections
+  (related posts, related notes, random note) when present.
+*/ -}}
+{{- $page := . -}}
+{{- $bodyToc := $page.TableOfContents -}}
+{{- $emptyBody := not (findRE `<(ol|ul)` $bodyToc) -}}
+{{- $html := "" -}}
+
+{{- $extras := slice -}}
+{{- $relatedLimit := site.Params.blog.related_posts_limit | default 3 -}}
+{{- $relatedPosts := partial "blog/related-posts-lookup.html" (dict "Context" $page "Limit" $relatedLimit) | default slice -}}
+{{- if gt (len $relatedPosts) 0 -}}
+  {{- $extras = $extras | append (dict "title" (T "related_posts") "id" "related-posts") -}}
+{{- end -}}
+{{- $relatedNotesLimit := site.Params.blog.related_notes_limit | default 5 -}}
+{{- $relatedNotes := partial "notes/related-notes.html" (dict "Context" $page "Limit" $relatedNotesLimit) | default slice -}}
+{{- if gt (len $relatedNotes) 0 -}}
+  {{- $extras = $extras | append (dict "title" (T "related_notes") "id" "related-notes") -}}
+{{- end -}}
+{{- $randomPool := partial "notes/random-pool.html" $page -}}
+{{- if ge (len $randomPool) 1 -}}
+  {{- $extras = $extras | append (dict "title" (T "random_blog_note") "id" "random-note") -}}
+{{- end -}}
+
+{{- $extraItems := "" -}}
+{{- range $extras -}}
+  {{- $extraItems = printf `%s<li class="toc-level-2"><a href="#%s">%s</a></li>` $extraItems .id (.title | safeHTML) -}}
+{{- end -}}
+
+{{- if not $emptyBody -}}
+  {{- if $extraItems -}}
+    {{- $html = replaceRE `(</(?:ol|ul)>\s*</nav>\s*)$` (printf "%s$1" $extraItems) $bodyToc 1 -}}
+  {{- else -}}
+    {{- $html = $bodyToc -}}
+  {{- end -}}
+{{- else if $extraItems -}}
+  {{- $html = printf `<nav id="TableOfContents"><ol>%s</ol></nav>` $extraItems -}}
+{{- end -}}
+
+{{- return (dict "html" $html "has" (ne $html "")) -}}

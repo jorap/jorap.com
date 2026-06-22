@@ -879,3 +879,1825 @@ Status: **completed**
 <summary>Tool use: **web_search**</summary>
 
 </details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/78189366-9a84-414e-b34d-f6d9799ad6bd.txt</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search">
+<details>
+<summary>Tool use: **web_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "searchTerm": "site:tennis.com eala noskova berlin 2026"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [VANDA Pharmaceuticals Berlin Tennis Open | Tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open)\n2. [VANDA Pharmaceuticals Berlin Tennis Open](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/draws)\n3. [Vekić, Donna vs Eala, Alexandra · Round 1 · WTA Berlin](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/d-vekic-vs-a-eala-2026-06-17)\n4. [Eala, Alexandra vs Rybakina, Elena · Round 2 · WTA Berlin](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-e-rybakina-2026-06-18)\n\nSynthesis:\nLinda Noskova and Alexandra Eala are scheduled to face each other in the semifinals of the Vanda Pharmaceuticals Berlin Tennis Open [1][2]. The match takes place on Saturday, June 20, 2026 [2][3]. Noskova entered the semifinal as the eighth seed, while Eala competed in the tournament as a wildcard entry [1][2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eVANDA Pharmaceuticals Berlin Tennis Open | Tennis.com\u003c/title\u003e\n\u003curl\u003ehttps://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open\u003c/url\u003e\n\u003ccontent\u003eVANDA Pharmaceuticals Berlin Tennis Open | Tennis.com\n\nAll Match Formats\n\nAllLiveUpcomingCompleted\n\nMatch details: Sabalenka, Aryna vs Pegula, Jessica\n\nWomen's SinglesSemifinal\n\nA. Sabalenka1\n\nJ. Pegula3\n\nMatch details: Nosková, Linda vs Eala, Alexandra\n\nWomen's SinglesSemifinal\n\nUpcoming\n\nL. Nosková8\n\nProjected Winner58%\n\nA. EalaWC\n\n42%\n\nMatch details: Muhammad, Asia vs Errani, Sara\n\nWomen's DoublesSemifinal\n\nUpcoming\n\nA. Muhammad\n\nF. Stollár\n\n39%\n\nS. Errani\n\nN. Melichar-Martinez3\n\nProjected Winner61%\n\nMatch details: Alexandrova, Ekaterina vs Eikeri, Ulrikke\n\nWomen's DoublesSemifinal\n\nUpcoming\n\nE. Alexandrova\n\nL. Nosková\n\nProjection50%\n\nU. Eikeri\n\nQ. Gleason\n\n50%\n\nSee all tournaments Back to top\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eVANDA Pharmaceuticals Berlin Tennis Open\u003c/title\u003e\n\u003curl\u003ehttps://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/draws\u003c/url\u003e\n\u003ccontent\u003eVANDA Pharmaceuticals Berlin Tennis Open\n...\nMatch details: Nosková, Linda vs Zarazúa, Renata\n...\nL. Nosková8\n...\nMatch details: Vekić, Donna vs Eala, Alexandra\n...\nA. EalaWC\n...\nE. Rybakina2\n...\nMatch details: Sabalenka, Aryna vs Alexandrova\n...\nE. Alexandrova\n...\nMatch details: Nosková, Linda vs Parry, Diane\n...\nL. Nosková8\n...\nMatch details: Eala, Alexandra vs Rybakina, Elena\n...\nA. EalaWC\n...\nE. Rybakina2\n...\nMatch details: Nosková, Linda vs Badosa\n...\nL. Nosková8\n...\nMatch details: Svitolina, Elina vs Eala, Alexandra\n...\nA. EalaWC\n...\n#### Semifinal\n...\nMatch details: Nosková, Linda vs Eala, Alexandra\n...\nL. Nosková8\n...\nA. EalaWC\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eVekić, Donna vs Eala, Alexandra · Round 1 · WTA Berlin\u003c/title\u003e\n\u003curl\u003ehttps://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/d-vekic-vs-a-eala-2026-06-17\u003c/url\u003e\n\u003ccontent\u003eMatch details: Vekić, Donna vs Eala, Alexandra\n\nWomen's SinglesRound 1\n\nCompleted\n\nWatch\n\nD. Vekić\n\n54\n\nA. EalaWC\n\n76\n\nDonna Vekić\n\nAlexandra Eala\n\n| Player | D. Vekić | Statistic | A. Eala |\n| --- | --- | --- | --- |\n| 33 | Singles Ranking | 35 |\n| — | Doubles Ranking | 151 |\n| Jun 28, 1996 | Birth Date | May 23, 2005 |\n| 5'10\" (179 cm) | Height | — |\n| 17 | Career High Singles Ranking | 70 |\n| 171 | Career High Doubles Ranking | 192 |\n| 2012 | Year Turned Pro | — |\n| Right | Dominant Hand | Left |\n\n| overall | D. Vekić | Statistic | A. Eala |\n| --- | --- | --- | --- |\n| 6 | Aces | 7 |\n| 0 | Double Faults | 2 |\n| 69% (48/70) | 1st Serve % | 52% (38/73) |\n| 60% (29/48) | 1st Serve Points Won | 66% (25/38) |\n| 50% (11/22) | 2nd Serve Points Won | 58% (19/33) |\n| 33% (2/6) | Break Points Saved | 86% (12/14) |\n| 64% (7/11) | Service Games | 82% (9/11) |\n\n| Return | D. Vekić | Statistic | A. Eala |\n| --- | --- | --- | --- |\n| 34% (13/38) | 1st Return Points Won | 40% (19/48) |\n| 42% (14/33) | 2nd Return Points Won | 50% (11/22) |\n| 14% (2/14) | Break Points Won | 67% (4/6) |\n| 18% (2/11) | Return Games | 36% (4/11) |\n\nVekić, Donna vs Eala, Alexandra · Round 1 · WTA Berlin\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eEala, Alexandra vs Rybakina, Elena · Round 2 · WTA Berlin\u003c/title\u003e\n\u003curl\u003ehttps://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-e-rybakina-2026-06-18\u003c/url\u003e\n\u003ccontent\u003eEala, Alexandra vs Rybakina, Elena · Round 2 · WTA Berlin\n\nMatch details: Eala, Alexandra vs Rybakina, Elena\n\nWomen's SinglesRound 2\n\nCompleted\n\nA. EalaWC\n\n76\n\nE. Rybakina2\n\n54\n\nAlexandra Eala\n\nElena Rybakina\n\n| Player | A. Eala | Statistic | E. Rybakina |\n| --- | --- | --- | --- |\n| 35 | Singles Ranking | 2 |\n| 151 | Doubles Ranking | 393 |\n| May 23, 2005 | Birth Date | Jun 17, 1999 |\n| — | Height | 6'0\" (184 cm) |\n| 70 | Career High Singles Ranking | 3 |\n| 192 | Career High Doubles Ranking | 48 |\n| — | Year Turned Pro | 2016 |\n| Left | Dominant Hand | Right |\n\n| overall | A. Eala | Statistic | E. Rybakina |\n| --- | --- | --- | --- |\n| 4 | Aces | 13 |\n| 3 | Double Faults | 4 |\n| 69% (46/67) | 1st Serve % | 61% (42/69) |\n| 72% (33/46) | 1st Serve Points Won | 81% (34/42) |\n| 67% (12/18) | 2nd Serve Points Won | 35% (8/23) |\n| 50% (1/2) | Break Points Saved | 57% (4/7) |\n| 91% (10/11) | Service Games | 73% (8/11) |\n\n| Return | A. Eala | Statistic | E. Rybakina |\n| --- | --- | --- | --- |\n| 19% (8/42) | 1st Return Points Won | 28% (13/46) |\n| 65% (15/23) | 2nd Return Points Won | 33% (6/18) |\n| 43% (3/7) | Break Points Won | 50% (1/2) |\n| 27% (3/11) | Return Games | 9% (1/11) |\u003c/content\u003e\n\u003c/result\u003e",
+      "title": "Web search results"
+    }
+  ],
+  "rejected": false
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -A "Mozilla/5.0" "https://www.tennis.com/players-rankings/alexandra-eala" | grep -i noskova | head -5</summary>
+
+```bash
+curl -sL -A "Mozilla/5.0" "https://www.tennis.com/players-rankings/alexandra-eala" | grep -i noskova | head -5
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch">
+<details>
+<summary>Tool use: **web_fetch**</summary>
+
+
+Parameters:
+
+```json
+{
+  "url": "https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-21"
+}
+```
+Result:
+
+```json
+{
+  "markdown": "Match not found",
+  "url": "https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-21"
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch">
+<details>
+<summary>Tool use: **web_fetch**</summary>
+
+
+Parameters:
+
+```json
+{
+  "url": "https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-l-noskova-2026-06-21"
+}
+```
+Result:
+
+```json
+{
+  "markdown": "Match not found",
+  "url": "https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-l-noskova-2026-06-21"
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003" | python3 -c "
+import sys,re
+html=sys.stdin.read()
+# try to find score patterns
+for m in re.finditer(r'(\d-\d(?:\(\d+\))?)', html):
+    pass
+# look for winner/loser and score in json
+import json
+for m in re.finditer(r'\"score\":\"([^\"]+)\"', html):
+    print('score:', m.group(1))
+for m in re.finditer(r'\"winner[^\"]*\"[^}]{0,200}', html):
+    print(m.group(0)[:200])
+" 2>/dev/null | head -20</summary>
+
+```bash
+curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003" | python3 -c "
+import sys,re
+html=sys.stdin.read()
+# try to find score patterns
+for m in re.finditer(r'(\d-\d(?:\(\d+\))?)', html):
+    pass
+# look for winner/loser and score in json
+import json
+for m in re.finditer(r'\"score\":\"([^\"]+)\"', html):
+    print('score:', m.group(1))
+for m in re.finditer(r'\"winner[^\"]*\"[^}]{0,200}', html):
+    print(m.group(0)[:200])
+" 2>/dev/null | head -20
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search">
+<details>
+<summary>Tool use: **web_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Eala Noskova Berlin semifinal 6-2 6-4 June 2026"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Eala rolls to another Top 10 win; Noskova rematch awaits in Berlin semifinals](https://www.wtatennis.com/news/4522571/eala-rolls-to-another-top-10-win-noskova-rematch-awaits-in-berlin-semifinals)\n2. [Alex Eala to face Linda Noskova in Berlin Tennis Open semifinals | GMA News Online](https://www.gmanetwork.com/news/sports/othersports/992100/alex-eala-to-face-linda-noskova-in-berlin-tennis-open-semifinals/story/)\n3. [Linda Noskova vs Alexandra Eala preview, head-to-head, odds, prediction \u0026 betting tips | Berlin Tennis Open 2026](https://www.sportskeeda.com/tennis/linda-noskova-vs-alexandra-eala-preview-head-to-head-odds-prediction-betting-tips-berlin-tennis-open-2026)\n\nSynthesis:\nThe semifinal match between Alexandra Eala and Linda Noskova at the 2026 Berlin Tennis Open has not been played yet as of June 20, 2026. The match is currently delayed due to rain [1][2]. Eala reached this stage by defeating Elina Svitolina 6-3, 6-4 [3][4], while Noskova advanced after beating Paula Badosa 6-1, 6-3 [3][4]. The score of 6-2, 6-4 cited in your query refers to their previous meeting at the 2026 Indian Wells Open, which Noskova won [4][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEala rolls to another Top 10 win; Noskova rematch awaits in Berlin semifinals\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/news/4522571/eala-rolls-to-another-top-10-win-noskova-rematch-awaits-in-berlin-semifinals\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala picked up another Top 10 win Friday, knocking off Elina Svitolina 6-3, 6-4 to book a trip to the Berlin semifinals. There she'll face Linda Noskova after the Czech defeated Paula Badosa in just 68 minutes earlier in the day.\n...\nWhen Alexandra Eala earns a Top 10 win, another often follows in short order. So it shouldn't come as a surprise that one day after upsetting Elena Rybakina, the 21-year-old collected another, defeating World No. 8 Elina Svitolina 6-3, 6-4 in 1 hour and 23 minutes to reach the Berlin semifinals for the first time.\n...\nNext up is a second WTA Tour Driven by Mercedes-Benz meeting with Linda Noskova, who defeated Paula Badosa 6-1, 6-3 in 68 minutes earlier Friday to reach her second grass-court semifinal. It will be a rematch of their recent Indian Wells encounter, where Noskova dropped just two games.\n...\n4-3\n...\nThe cycle repeated in the second. Eala broke first for 2-0, Svitolina leveled for 2-all and Eala responded with another break for 3-2. A fourth break allowed her to serve for the match at 5-2, but Svitolina refused to go quietly and narrowed the deficit to 5-4, 0-30. It was all for naught, as Eala won the final four points, sealing the win with the backhand winner.\n...\nAs was the case for Eala, the result was never really in doubt for Noskova, who raced to a 4-0 lead against the Spaniard. Badosa saved three break points to get on the board at 4-1, but Noskova took the next two games to claim the opening set.\n...\nthat proved enough as\n...\nserved it out from there. To call it a serving\n...\nclass would be\n...\nfinished with eight aces and won more than 73% of her first-serve points (30 of 41\n...\nfaced seven break points, she saved all of them\n...\nAlexandra Eala picked up another Top 10 win Friday, knocking off Elina Svitolina 6-3, 6-4 to book a trip to the Berlin semifinals. There she'll face Linda Noskova after the Czech defeated Paula Badosa in just 68 minutes earlier in the day.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eAlex Eala to face Linda Noskova in Berlin Tennis Open semifinals | GMA News Online\u003c/title\u003e\n\u003curl\u003ehttps://www.gmanetwork.com/news/sports/othersports/992100/alex-eala-to-face-linda-noskova-in-berlin-tennis-open-semifinals/story/\u003c/url\u003e\n\u003ccontent\u003eAlex Eala to face Linda Noskova in Berlin Tennis Open semifinals | GMA News Online\n...\nPublished June 20, 2026 4:27am\n...\nAlexandra “Alex” Eala will face Czech standout Linda Noskova once again, this time in the semifinals of the Berlin Tennis Open.\n...\nEala secured her spot in the final four after stunning world No. 8 Elina Svitolina, 6-3, 6-4, in the quarterfinals on early Saturday.\n...\nNoskova, meanwhile, advanced to the semifinals with a dominant 6-1, 6-3 victory over Paola Badosa.\n...\nThe two previously met at the Indian Wells Open, where Noskova handed Eala a 6-2, 6-0 defeat.\n...\nHowever, Eala got the better of Noskova in their junior days, defeating the Czech player 4-6, 6-3, 6-2 at the 2020 French Open girls' tournament.\n...\nThe winner of the match will advance to the final and face either Aryna Sabalenka or Jessica Pegula, who will square off in the other semifinal.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eLinda Noskova vs Alexandra Eala preview, head-to-head, odds, prediction \u0026 betting tips | Berlin Tennis Open 2026\u003c/title\u003e\n\u003curl\u003ehttps://www.sportskeeda.com/tennis/linda-noskova-vs-alexandra-eala-preview-head-to-head-odds-prediction-betting-tips-berlin-tennis-open-2026\u003c/url\u003e\n\u003ccontent\u003eLinda Noskova vs Alexandra Eala is one of the semifinal matches at the Berlin Tennis Open 2026. (Source: Getty)\n...\nFixture: (8) Linda Noskova vs (WC) Alexandra Eala\n...\nDate: June 20, 2026\n...\nTournament: Berlin Tennis Open\n...\nRound: Semifinal\n...\nVenue: Rot-Weiss Tennis Club, Berlin, Germany\n...\nEighth seed Linda Noskova will face Alexandra Eala in the semifinals of the Berlin Tennis Open 2026.\n...\nNoskova kicked off her campaign in Berlin with a routine 6-1, 6-4 win over Renata Zarazua. She beat Diane Parry 6-2, 6-2 to book a quarterfinal showdown with former top 10 player Paula Badosa, who eliminated Coco Gauff in the second round.\n...\nEala ousted Donna Vekic, who won the Queen's Club Championships last week, in straight sets in the first round. She scored a 7-5, 6-4 win over second seed Elena Rybakina in the second round. She faced sixth seed Elina Svitolina in the quarterfinals.\n...\nThe second set played out similarly. Svitolina negated Eala's early lead, only for the 21-year-old to surge ahead once again. While she failed to serve out the match on her first try, Eala got the job done on her second attempt for a 6-3, 6-4 win.\n...\n## Linda Noskova vs Alexandra Eala head-to-head\n...\nNoskova leads their rivalry 1-0. She won their previous meeting at the Indian Wells Open 2026 in straight sets.\n...\n## Linda Noskova vs Alexandra Eala odds\n...\n| Player | Moneyline | Handicap Bets | Total Games |\n| --- | --- | --- | --- |\n| Linda Noskova | -160 | +1.5 (-425) | Over 22.5 (-115) |\n| Alexandra Eala | +125 | -1.5 (+250) | Under 22.5 (-120) |\n...\nPick: Linda Noskova to win in straight sets.\n...\n## Linda Noskova vs Alexandra Eala betting tips\n...\nTip 1: The match will have at least 18 games.\n...\nTip 2: Noskova to win at least one set with a score of 6-3.\u003c/content\u003e\n\u003c/result\u003e",
+      "title": "Web search results"
+    }
+  ],
+  "rejected": false
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch">
+<details>
+<summary>Tool use: **web_fetch**</summary>
+
+
+Parameters:
+
+```json
+{
+  "url": "https://tnnslive.com/player/627278?content=form"
+}
+```
+Result:
+
+```json
+{
+  "markdown": "Live Tennis Scores, Results, Schedules \u0026 Streams - ATP, WTA, Challenger \u0026 ITF - TNNS\n\nGet the app\n\nScores\n\nTournaments\n\nRankings\n\nNews\n\nVideos",
+  "url": "https://tnnslive.com/player/627278?content=form"
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003" | tr ',' '\n' | grep -iE 'score|winner|noskova|eala|6-2|6-4' | head -40</summary>
+
+```bash
+curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003" | tr ',' '\n' | grep -iE 'score|winner|noskova|eala|6-2|6-4' | head -40
+```
+
+```
+    &lt;meta name="twitter:title" content="Noskova vs. Eala | Semifinals VANDA Pharmaceuticals Berlin Tennis Open 2026 | WTA Official"/&gt;
+&lt;meta name="twitter:url" content="www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003"/&gt;
+&lt;title&gt;Noskova vs. Eala | Semifinals VANDA Pharmaceuticals Berlin Tennis Open 2026 | WTA Official&lt;/title&gt;
+&lt;meta name="description" content="[8]L. Noskova d A. Eala 6-2
+6-4 | Semifinals match of VANDA Pharmaceuticals Berlin Tennis Open 2026. Stats
+ head-to-head and scores."/&gt;
+&lt;meta name="twitter:description" content="[8]L. Noskova d A. Eala 6-2
+6-4 | Semifinals match of VANDA Pharmaceuticals Berlin Tennis Open 2026. Stats
+ head-to-head and scores."/&gt;
+&lt;meta property="og:url" content="https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003"/&gt;
+&lt;link rel="canonical" href="https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003"/&gt;
+&lt;meta property="og:title" content="Noskova vs. Eala | Semifinals VANDA Pharmaceuticals Berlin Tennis Open 2026 | WTA Official"/&gt;
+&lt;meta property="og:description" content="[8]L. Noskova d A. Eala 6-2
+6-4 | Semifinals match of VANDA Pharmaceuticals Berlin Tennis Open 2026. Stats
+ head-to-head and scores."/&gt;
+                href="https://www.wtatennis.com/scores"
+                title="Scores" aria-label="Scores"
+        data-tracking-detail="Scores"
+                    &lt;span class="main-navigation__main-label"&gt;Scores&lt;/span&gt;
+                        &lt;div class="sso-nav__list-wrapper js-sso-nav-list" data-wta-unlocked-link="/unlocked" data-live-stream-link="/scores"&gt;&lt;/div&gt;
+                href="https://www.wtatennis.com/scores"
+                title="Scores" aria-label="Scores"
+        data-tracking-detail="Scores"
+                    &lt;span class="main-navigation__main-label"&gt;Scores&lt;/span&gt;
+                                &lt;a href="/tournaments/2012/berlin/2026/scores" class="breadcrumbs__link b-xs-m"&gt;
+                                    Scores
+                    href="/scores"
+                    &lt;source class="" srcset="https://photoresources.wtatennis.com/photo-resources/2025/07/24/a446fa8d-49f3-41dd-9a5e-014c856e3492/WTA_Web_Quick-Links_Tiles-Scores_288x288.png?width=142&amp;height=142
+ https://photoresources.wtatennis.com/photo-resources/2025/07/24/a446fa8d-49f3-41dd-9a5e-014c856e3492/WTA_Web_Quick-Links_Tiles-Scores_288x288.png?width=284&amp;height=284 2x" media="(max-width: 1204px)"&gt;
+                    &lt;source class="" srcset="https://photoresources.wtatennis.com/photo-resources/2025/07/24/a446fa8d-49f3-41dd-9a5e-014c856e3492/WTA_Web_Quick-Links_Tiles-Scores_288x288.png?width=284&amp;height=284
+ https://photoresources.wtatennis.com/photo-resources/2025/07/24/a446fa8d-49f3-41dd-9a5e-014c856e3492/WTA_Web_Quick-Links_Tiles-Scores_288x288.png?width=568&amp;height=568 2x" media="(min-width: 1205px)"&gt;
+                        src="https://photoresources.wtatennis.com/photo-resources/2025/07/24/a446fa8d-49f3-41dd-9a5e-014c856e3492/WTA_Web_Quick-Links_Tiles-Scores_288x288.png?width=142&amp;height=142"
+                        alt="WTA_Web_Quick-Links_Tiles-Scores_288x288"
+                        Scores
+                    &lt;source class="" srcset="https://photoresources.wtatennis.com/photo-resources/2025/07/24/0d87f564-b960-44f8-ab26-25311f04458a/WTA_Web_Quick-Links_Tiles-TourCalendar_288x288.png?width=142&amp;height=142
+ https://photoresources.wtatennis.com/photo-resources/2025/07/24/0d87f564-b960-44f8-ab26-25311f04458a/WTA_Web_Quick-Links_Tiles-TourCalendar_288x288.png?width=284&amp;height=284 2x" media="(max-width: 1204px)"&gt;
+                    &lt;source class="" srcset="https://photoresources.wtatennis.com/photo-resources/2025/07/24/0d87f564-b960-44f8-ab26-25311f04458a/WTA_Web_Quick-Links_Tiles-TourCalendar_288x288.png?width=284&amp;height=284
+ https://photoresources.wtatennis.com/photo-resources/2025/07/24/0d87f564-b960-44f8-ab26-25311f04458a/WTA_Web_Quick-Links_Tiles-TourCalendar_288x288.png?width=568&amp;height=568 2x" media="(min-width: 1205px)"&gt;
+                        src="https://photoresources.wtatennis.com/photo-resources/2025/07/24/0d87f564-b960-44f8-ab26-25311f04458a/WTA_Web_Quick-Links_Tiles-TourCalendar_288x288.png?width=142&amp;height=142"
+        class="mc-live-score page-grid-wrapper  "
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch">
+<details>
+<summary>Tool use: **web_fetch**</summary>
+
+
+Parameters:
+
+```json
+{
+  "url": "https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open"
+}
+```
+Result:
+
+```json
+{
+  "markdown": "VANDA Pharmaceuticals Berlin Tennis Open | Tennis.com\n\nAll Match Formats\n\nAllLiveUpcomingCompleted\n\nMatch details: Muhammad, Asia vs Errani, Sara\n\nWomen's DoublesSemifinal\n\nA. Muhammad\n\nF. Stollár\n\nS. Errani\n\nN. Melichar-Martinez3\n\nMatch details: Alexandrova, Ekaterina vs Eikeri, Ulrikke\n\nWomen's DoublesSemifinal\n\nUpcoming\n\nE. Alexandrova\n\nL. Nosková\n\nProjection50%\n\nU. Eikeri\n\nQ. Gleason\n\n50%\n\nMatch details: Sabalenka, Aryna vs Pegula, Jessica\n\nWomen's SinglesSemifinal\n\nCompleted\n\nA. Sabalenka1\n\n4770\n\nJ. Pegula3\n\n6646\n\nMatch details: Nosková, Linda vs Eala, Alexandra\n\nWomen's SinglesSemifinal\n\nCompleted\n\nL. Nosková8\n\n66\n\nA. EalaWC\n\n24\n\nSee all tournaments Back to top",
+  "url": "https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open"
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search">
+<details>
+<summary>Tool use: **web_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "searchTerm": "\"noskova\" \"eala\" \"berlin\" site:tennis.com/matches 2026"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "No results found",
+      "title": "Web search results"
+    }
+  ],
+  "rejected": false
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The match is finished. Noskova won 6-6, 2-4. The display shows L. Nosková8.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -A "Mozilla/5.0" "https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open" | grep -iE 'noskova|eala' | head -20</summary>
+
+```bash
+curl -sL -A "Mozilla/5.0" "https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open" | grep -iE 'noskova|eala' | head -20
+```
+
+```
+$RC=function(a,b){if(b=document.getElementById(b))(a=document.getElementById(a))?(a.previousSibling.data="$~",$RB.push(a,b),2===$RB.length&amp;&amp;("number"!==typeof $RT?requestAnimationFrame($RV.bind(null,$RB)):(a=performance.now(),setTimeout($RV.bind(null,$RB),2300&gt;a&amp;&amp;2E3&lt;a?2300-a:$RT+300-a)))):b.parentNode.removeChild(b)};$RC("B:3","S:3")&lt;/script&gt;&lt;div hidden id="S:0"&gt;&lt;/div&gt;&lt;script&gt;$RC("B:0","S:0")&lt;/script&gt;&lt;script&gt;self.__next_f.push([1,"24:I[44071,[\"/_next/static/chunks/710b599927eb5fad.js\",\"/_next/static/chunks/a31e6df0998a1ca6.js\",\"/_next/static/chunks/e8c43562c81fcd4a.js\",\"/_next/static/chunks/053cb8158a15cca8.js\",\"/_next/static/chunks/0747049063d14365.js\",\"/_next/static/chunks/e743872e219ad913.js\"],\"CountryFlag\"]\n"])&lt;/script&gt;&lt;script&gt;self.__next_f.push([1,"5:[\"$\",\"div\",null,{\"className\":\"TournamentShell-module-scss-module__udlBxW__layout\",\"children\":[[\"$\",\"header\",null,{\"className\":\"TournamentHeader-module-scss-module__VodaUq__header\",\"children\":[[\"$\",\"div\",null,{\"className\":\"TournamentHeader-module-scss-module__VodaUq__identity\",\"children\":[[\"$\",\"div\",null,{\"className\":\"TournamentHeader-module-scss-module__VodaUq__nameRow\",\"children\":[[\"$\",\"h1\",null,{\"className\":\"TournamentHeader-module-scss-module__VodaUq__name\",\"children\":\"WTA Berlin\"}],[\"$\",\"span\",null,{\"className\":\"TournamentHeader-module-scss-module__VodaUq__flag\",\"children\":[\"$\",\"$L24\",null,{\"countryCode\":\"DEU\",\"flag\":{\"cdnUrl\":\"https://d20b59fhju7onw.cloudfront.net/images/flags/deu.jpg\",\"tcMediaUrl\":\"https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg\"},\"countryName\":\"Germany\",\"size\":\"md\"}]}]]}],[\"$\",\"div\",null,{\"className\":\"TournamentHeader-module-scss-module__VodaUq__metaRow\",\"children\":[[\"$\",\"span\",null,{\"children\":\"Jun 13-21\"}],[[\"$\",\"span\",null,{\"className\":\"TournamentHeader-module-scss-module__VodaUq__metaSep\",\"aria-hidden\":\"true\",\"children\":\"·\"}],[\"$\",\"span\",null,{\"children\":\"Berlin, Germany\"}]]]}]]}],[\"$\",\"div\",null,{\"className\":\"TournamentHeader-module-scss-module__VodaUq__tagsRow\",\"children\":[[\"$\",\"ul\",null,{\"className\":\"TourLevelBadge-module-scss-module__HscEvW__list\",\"children\":[[\"$\",\"li\",\"WTA 500\",{\"className\":\"TourLevelBadge-module-scss-module__HscEvW__badge\",\"data-tour\":\"wta\",\"children\":\"WTA 500\"}]]}],[\"$\",\"span\",null,{\"className\":\"SurfaceBadge-module-scss-module__olOWtG__pill\",\"data-surface\":\"grass\",\"data-over-image\":true,\"children\":[[\"$\",\"svg\",null,{\"className\":\"SurfaceBadge-module-scss-module__olOWtG__icon\",\"viewBox\":\"0 0 12 12\",\"fill\":\"currentColor\",\"aria-hidden\":\"true\",\"children\":[\"$\",\"path\",null,{\"d\":\"M1.91699 1.5C2.33106 1.50018 2.66699 1.83589 2.66699 2.25V10.75C2.66699 11.1641 2.33106 11.4998 1.91699 11.5H1.75C1.33579 11.5 1 11.1642 1 10.75V2.25C1 1.83579 1.33579 1.5 1.75 1.5H1.91699ZM4.69434 1.5C5.10855 1.5 5.44434 1.83579 5.44434 2.25V10.75C5.44434 11.1642 5.10855 11.5 4.69434 11.5H4.52734C4.11333 11.4998 3.77734 11.1641 3.77734 10.75V2.25C3.77734 1.83593 4.11333 1.50023 4.52734 1.5H4.69434ZM7.47266 1.5C7.88667 1.50023 8.22266 1.83593 8.22266 2.25V10.75C8.22266 11.1641 7.88667 11.4998 7.47266 11.5H7.30566C6.89145 11.5 6.55566 11.1642 6.55566 10.75V2.25C6.55566 1.83579 6.89145 1.5 7.30566 1.5H7.47266ZM10.25 1.5C10.6642 1.5 11 1.83579 11 2.25V10.75C11 11.1642 10.6642 11.5 10.25 11.5H10.083C9.66894 11.4998 9.33301 11.1641 9.33301 10.75V2.25C9.33301 1.8359 9.66894 1.50018 10.083 1.5H10.25Z\"}]}],[\"$\",\"span\",null,{\"className\":\"SurfaceBadge-module-scss-module__olOWtG__label\",\"children\":\"GRASS\"}]]}]]}]]}],[\"$\",\"header\",null,{\"className\":\"TournamentHeroDesktop-module-scss-module__30c_ca__hero\",\"style\":{\"backgroundImage\":\"url(https://media.prod.tennis.com/v1/tcf/images/tournaments/2fe5daf8-c14f-4e7d-b2de-b4a618b6a160/20260428_214645.jpeg)\"},\"aria-label\":\"WTA Berlin\",\"children\":[[\"$\",\"div\",null,{\"className\":\"TournamentHeroDesktop-module-scss-module__30c_ca__overlay\",\"aria-hidden\":\"true\"}],[\"$\",\"div\",null,{\"className\":\"TournamentHeroDesktop-module-scss-module__30c_ca__inner\",\"children\":[[\"$\",\"div\",null,{\"className\":\"TournamentHeroDesktop-module-scss-module__30c_ca__content\",\"children\":[[\"$\",\"div\",null,{\"className\":\"TournamentHeroDesktop-module-scss-module__30c_ca__status\",\"children\":[[\"$\",\"span\",null,{\"className\":\"StatusBadge-module-scss-module__EZqBlW__row\",\"children\":[[\"$\",\"span\",null,{\"className\":\"StatusBadge-module-scss-module__EZqBlW__pill\",\"data-color\":\"live\",\"children\":\"Active\"}],null]}],[\"$\",\"span\",null,{\"className\":\"TournamentHeroDesktop-module-scss-module__30c_ca__dayProgress\",\"children\":[\"Day \",8,\" of \",9]}]]}],[\"$\",\"div\",null,{\"className\":\"TournamentHeroDesktop-module-scss-module__30c_ca__info\",\"children\":[[\"$\",\"div\",null,{\"className\":\"TournamentHeroDesktop-module-scss-module__30c_ca__identity\",\"children\":[\"$L25\",\"$L26\"]}],\"$L27\"]}],\"$L28\"]}],\"$L29\"]}]]}],\"$L2a\",false,\"$L2b\",\"$L2c\",\"$L2d\"]}]\n"])&lt;/script&gt;&lt;script&gt;self.__next_f.push([1,"2e:I[86890,[\"/_next/static/chunks/710b599927eb5fad.js\",\"/_next/static/chunks/a31e6df0998a1ca6.js\",\"/_next/static/chunks/e8c43562c81fcd4a.js\",\"/_next/static/chunks/053cb8158a15cca8.js\",\"/_next/static/chunks/0747049063d14365.js\",\"/_next/static/chunks/e743872e219ad913.js\"],\"TournamentNav\"]\n2f:I[7437,[\"/_next/static/chunks/710b599927eb5fad.js\",\"/_next/static/chunks/a31e6df0998a1ca6.js\",\"/_next/static/chunks/e8c43562c81fcd4a.js\",\"/_next/static/chunks/053cb8158a15cca8.js\",\"/_next/static/chunks/0747049063d14365.js\",\"/_next/static/chunks/e743872e219ad913.js\"],\"SelectorRow\"]\n30:I[45028,[\"/_next/static/chunks/710b599927eb5fad.js\",\"/_next/static/chunks/a31e6df0998a1ca6.js\",\"/_next/static/chunks/e8c43562c81fcd4a.js\",\"/_next/static/chunks/053cb8158a15cca8.js\",\"/_next/static/chunks/0747049063d14365.js\",\"/_next/static/chunks/e743872e219ad913.js\"],\"TournamentMatchesLive\"]\n25:[\"$\",\"div\",null,{\"className\":\"TournamentHeroDesktop-module-scss-module__30c_ca__nameRow\",\"children\":[[\"$\",\"h1\",null,{\"className\":\"TournamentHeroDesktop-module-scss-module__30c_ca__title\",\"children\":\"WTA Berlin\"}],[\"$\",\"$L24\",null,{\"countryCode\":\"DEU\",\"flag\":\"$5:props:children:0:props:children:0:props:children:0:props:children:1:props:children:props:flag\",\"countryName\":\"Germany\",\"size\":\"md\"}]]}]\n26:[\"$\",\"p\",null,{\"className\":\"TournamentHeroDesktop-module-scss-module__30c_ca__officialName\",\"children\":\"VANDA Pharmaceuticals Berlin Tennis Open\"}]\n27:[\"$\",\"p\",null,{\"className\":\"TournamentHeroDesktop-module-scss-module__30c_ca__meta\",\"children\":[[\"$\",\"span\",null,{\"children\":\"Jun 13-21\"}],[[\"$\",\"span\",null,{\"className\":\"TournamentHeroDesktop-module-scss-module__30c_ca__metaSep\",\"aria-hidden\":\"true\",\"children\":\"·\"}],[\"$\",\"span\",null,{\"children\":\"Berlin, Germany\"}]]]}]\n28:[\"$\",\"ul\",null,{\"className\":\"TourLevelBadge-module-scss-module__HscEvW__list\",\"children\":[[\"$\",\"li\",\"WTA 500\",{\"className\":\"TourLevelBadge-module-scss-module__HscEvW__badge\",\"data-tour\":\"wta\",\"children\":\"WTA 500\"}]]}]\n29:[\"$\",\"div\",null,{\"className\":\"TournamentHeroDesktop-module-scss-module__30c_ca__aside\",\"children\":[\"$\",\"span\",null,{\"className\":\"SurfaceBadge-module-scss-module__olOWtG__pill\",\"data-surface\":\"grass\",\"data-over-image\":true,\"children\":[[\"$\",\"svg\",null,{\"className\":\"SurfaceBadge-module-scss-module__olOWtG__icon\",\"viewBox\":\"0 0 12 12\",\"fill\":\"currentColor\",\"aria-hidden\":\"true\",\"children\":[\"$\",\"path\",null,{\"d\":\"M1.91699 1.5C2.33106 1.50018 2.66699 1.83589 2.66699 2.25V10.75C2.66699 11.1641 2.33106 11.4998 1.91699 11.5H1.75C1.33579 11.5 1 11.1642 1 10.75V2.25C1 1.83579 1.33579 1.5 1.75 1.5H1.91699ZM4.69434 1.5C5.10855 1.5 5.44434 1.83579 5.44434 2.25V10.75C5.44434 11.1642 5.10855 11.5 4.69434 11.5H4.52734C4.11333 11.4998 3.77734 11.1641 3.77734 10.75V2.25C3.77734 1.83593 4.11333 1.50023 4.52734 1.5H4.69434ZM7.47266 1.5C7.88667 1.50023 8.22266 1.83593 8.22266 2.25V10.75C8.22266 11.1641 7.88667 11.4998 7.47266 11.5H7.30566C6.89145 11.5 6.55566 11.1642 6.55566 10.75V2.25C6.55566 1.83579 6.89145 1.5 7.30566 1.5H7.47266ZM10.25 1.5C10.6642 1.5 11 1.83579 11 2.25V10.75C11 11.1642 10.6642 11.5 10.25 11.5H10.083C9.66894 11.4998 9.33301 11.1641 9.33301 10.75V2.25C9.33301 1.8359 9.66894 1.50018 10.083 1.5H10.25Z\"}]}],[\"$\",\"span\",null,{\"className\":\"SurfaceBadge-module-scss-module__olOWtG__label\",\"children\":\"GRASS\"}]]}]}]\n2a:[\"$\",\"$L2e\",null,{\"tournament\":{\"slug\":\"vanda-pharmaceuticals-berlin-tennis-open\",\"name\":\"WTA Berlin\",\"officialName\":\"VANDA Pharmaceuticals Berlin Tennis Open\",\"startDate\":\"2026-06-13\",\"endDate\":\"2026-06-21\",\"year\":2026,\"editions\":[{\"year\":2026,\"startDate\":\"2026-06-13\",\"endDate\":\"2026-06-21\"},{\"year\":2025,\"startDate\":\"2025-06-14\",\"endDate\":\"2025-06-22\"},{\"year\":2024,\"startDate\":\"2024-06-15\",\"endDate\":\"2024-06-23\"}],\"location\":\"Berlin, Germany\",\"countryCode\":\"DEU\",\"flag\":\"$5:props:children:0:props:children:0:props:children:0:props:children:1:props:children:props:flag\",\"timezone\":\"Europe/Berlin\",\"tourLevel\":\"WTA 500\",\"levels\":[\"WTA 500\"],\"surface\":\"grass\",\"logo\":null,\"banner\":{\"cdnUrl\":\"https://d20b59fhju7onw.cloudfront.net/images/tournaments/2fe5daf8-c14f-4e7d-b2de-b4a618b6a160/20260428_2"])&lt;/script&gt;&lt;script&gt;self.__next_f.push([1,"14645.jpeg\",\"tcMediaUrl\":\"https://media.prod.tennis.com/v1/tcf/images/tournaments/2fe5daf8-c14f-4e7d-b2de-b4a618b6a160/20260428_214645.jpeg\"},\"competitions\":[{\"name\":\"Berlin, Germany Women Singles\",\"shortName\":\"Women's Singles\",\"type\":\"singles\",\"gender\":\"women\",\"category\":\"WTA\"},{\"name\":\"Berlin, Germany Women Doubles\",\"shortName\":\"Women's Doubles\",\"type\":\"doubles\",\"gender\":\"women\",\"category\":\"WTA\"}]},\"activeTab\":\"$undefined\",\"matchesDate\":null}]\n"])&lt;/script&gt;&lt;script&gt;self.__next_f.push([1,"2b:[\"$\",\"main\",null,{\"className\":\"TournamentShell-module-scss-module__udlBxW__content\",\"children\":[\"$\",\"section\",null,{\"className\":\"page-module-scss-module__euNfxa__scoresPage\",\"children\":[[\"$\",\"$L2f\",null,{\"items\":[{\"key\":\"2026-06-13\",\"primaryLabel\":\"Saturday\",\"secondaryLabel\":\"June 13\",\"href\":\"/tournaments/vanda-pharmaceuticals-berlin-tennis-open?date=2026-06-13\"},{\"key\":\"2026-06-14\",\"primaryLabel\":\"Sunday\",\"secondaryLabel\":\"June 14\",\"href\":\"/tournaments/vanda-pharmaceuticals-berlin-tennis-open?date=2026-06-14\"},{\"key\":\"2026-06-15\",\"primaryLabel\":\"Monday\",\"secondaryLabel\":\"June 15\",\"href\":\"/tournaments/vanda-pharmaceuticals-berlin-tennis-open?date=2026-06-15\"},{\"key\":\"2026-06-16\",\"primaryLabel\":\"Tuesday\",\"secondaryLabel\":\"June 16\",\"href\":\"/tournaments/vanda-pharmaceuticals-berlin-tennis-open?date=2026-06-16\"},{\"key\":\"2026-06-17\",\"primaryLabel\":\"Wednesday\",\"secondaryLabel\":\"June 17\",\"href\":\"/tournaments/vanda-pharmaceuticals-berlin-tennis-open?date=2026-06-17\"},{\"key\":\"2026-06-18\",\"primaryLabel\":\"Thursday\",\"secondaryLabel\":\"June 18\",\"href\":\"/tournaments/vanda-pharmaceuticals-berlin-tennis-open?date=2026-06-18\"},{\"key\":\"2026-06-19\",\"primaryLabel\":\"Friday\",\"secondaryLabel\":\"June 19\",\"href\":\"/tournaments/vanda-pharmaceuticals-berlin-tennis-open?date=2026-06-19\"},{\"key\":\"2026-06-20\",\"primaryLabel\":\"Saturday\",\"secondaryLabel\":\"June 20\",\"href\":\"/tournaments/vanda-pharmaceuticals-berlin-tennis-open?date=2026-06-20\"},{\"key\":\"2026-06-21\",\"primaryLabel\":\"Sunday\",\"secondaryLabel\":\"June 21\",\"href\":\"/tournaments/vanda-pharmaceuticals-berlin-tennis-open?date=2026-06-21\"}],\"selectedKey\":\"2026-06-20\",\"ariaLabel\":\"Select tournament day\",\"hideBottomDivider\":true,\"hideTopDivider\":true}],[\"$\",\"$L30\",\"2026-06-20\",{\"tournamentSlug\":\"vanda-pharmaceuticals-berlin-tennis-open\",\"initialMatches\":[{\"id\":\"a-sabalenka-vs-j-pegula-2026-06-20\",\"nodeId\":\"bWF0Y2g6MzYyZDlhMjgtMTg4ZC00YjY4LTlkNjAtYjhlZDM4MGQ5ZGQy\",\"slug\":\"a-sabalenka-vs-j-pegula-2026-06-20\",\"matchScoreKey\":\"sr:sport_event:72023254\",\"status\":\"completed\",\"round\":\"Semifinal\",\"startTime\":\"2026-06-20T10:00:00Z\",\"startTimeConfirmed\":true,\"duration\":null,\"venue\":null,\"tournamentName\":\"VANDA Pharmaceuticals Berlin Tennis Open\",\"eventCategory\":\"Women's Singles\",\"competitionGender\":\"women\",\"competitionCategory\":\"WTA\",\"watchUrl\":{\"url\":\"https://www.tennischannel.com/en-us/video/sabalenka-aryna-pegula-jessica/2181722\",\"status\":\"READY\"},\"homeCompetitor\":{\"id\":\"aryna-sabalenka\",\"slug\":\"aryna-sabalenka\",\"name\":\"Sabalenka, Aryna\",\"shortName\":\"A. Sabalenka\",\"abbreviation\":\"SAB\",\"countryCode\":null,\"flag\":null,\"headshot\":null,\"seed\":1,\"entryType\":null},\"awayCompetitor\":{\"id\":\"jessica-pegula\",\"slug\":\"jessica-pegula\",\"name\":\"Pegula, Jessica\",\"shortName\":\"J. Pegula\",\"abbreviation\":\"PEG\",\"countryCode\":\"USA\",\"flag\":{\"cdnUrl\":\"https://d20b59fhju7onw.cloudfront.net/images/flags/usa.jpg\",\"tcMediaUrl\":\"https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg\"},\"headshot\":null,\"seed\":3,\"entryType\":null},\"homeTeam\":null,\"awayTeam\":null,\"winnerId\":\"jessica-pegula\",\"score\":{\"currentSetNumber\":3,\"homeSetsWon\":1,\"awaySetsWon\":2,\"sets\":[{\"setNumber\":1,\"homeGames\":4,\"awayGames\":6,\"homeTiebreakPoints\":null,\"awayTiebreakPoints\":null},{\"setNumber\":2,\"homeGames\":7,\"awayGames\":6,\"homeTiebreakPoints\":7,\"awayTiebreakPoints\":4},{\"setNumber\":3,\"homeGames\":0,\"awayGames\":6,\"homeTiebreakPoints\":null,\"awayTiebreakPoints\":null}],\"currentGame\":{\"homePointDisplay\":\"0\",\"awayPointDisplay\":\"6\",\"servingSide\":null,\"inTiebreak\":false,\"advantageSide\":null}},\"homeWinProbability\":65,\"awayWinProbability\":35},{\"id\":\"l-noskova-vs-a-eala-2026-06-20\",\"nodeId\":\"bWF0Y2g6ZjhiMWMzNjItNzdkOC00MzE4LTljNDMtMTc2ZmFhZTVkODcz\",\"slug\":\"l-noskova-vs-a-eala-2026-06-20\",\"matchScoreKey\":\"sr:sport_event:72023252\",\"status\":\"completed\",\"round\":\"Semifinal\",\"startTime\":\"2026-06-20T16:00:00Z\",\"startTimeConfirmed\":true,\"duration\":null,\"venue\":null,\"tournamentName\":\"VANDA Pharmaceuticals Berlin Tennis Open\",\"eventCategory\":\"Women's Singles\",\"competitionGender\":\"women\",\"competitionCategory\":\"WTA\",\"watchUrl\":{\"url\":\"https://www.tennischannel.com/en-us/video/noskova-linda-eala-alexandra/2181719\",\"status\":\"READY\"},\"homeCompetitor\":{\"id\":\"linda-noskova\",\"slug\":\"linda-noskova\",\"name\":\"Nosková, Linda\",\"shortName\":\"L. Nosková\",\"abbreviation\":\"NOS\",\"countryCode\":\"CZE\",\"flag\":{\"cdnUrl\":\"https://d20b59fhju7onw.cloudfront.net/images/flags/cze.jpg\",\"tcMediaUrl\":\"https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg\"},\"headshot\":null,\"seed\":8,\"entryType\":null},\"awayCompetitor\":{\"id\":\"alexandra-eala\",\"slug\":\"alexandra-eala\",\"name\":\"Eala, Alexandra\",\"shortName\":\"A. Eala\",\"abbreviation\":\"EAL\",\"countryCode\":\"PHL\",\"flag\":{\"cdnUrl\":\"https://d20b59fhju7onw.cloudfront.net/images/flags/phl.jpg\",\"tcMediaUrl\":\"https://media.prod.tennis.com/v1/tcf/images/flags/phl.jpg\"},\"headshot\":null,\"seed\":null,\"entryType\":\"WC\"},\"homeTeam\":null,\"awayTeam\":null,\"winnerId\":\"linda-noskova\",\"score\":{\"currentSetNumber\":2,\"homeSetsWon\":2,\"awaySetsWon\":0,\"sets\":[{\"setNumber\":1,\"homeGames\":6,\"awayGames\":2,\"homeTiebreakPoints\":null,\"awayTiebreakPoints\":null},{\"setNumber\":2,\"homeGames\":6,\"awayGames\":4,\"homeTiebreakPoints\":null,\"awayTiebreakPoints\":null}],\"currentGame\":{\"homePointDisplay\":\"6\",\"awayPointDisplay\":\"4\",\"servingSide\":null,\"inTiebreak\":false,\"advantageSide\":null}},\"homeWinProbability\":58,\"awayWinProbability\":42},{\"id\":\"muhammad-a-stollar-f-vs-errani-s-melichar-martinez-n-2026-06-20\",\"nodeId\":\"bWF0Y2g6Y2Y3OTExYjgtNzJiZS00YWI3LTk1NDQtYTc3ZDdlNDE1MjI4\",\"slug\":\"muhammad-a-stollar-f-vs-errani-s-melichar-martinez-n-2026-06-20\",\"matchScoreKey\":\"sr:sport_event:72023698\",\"status\":\"live\",\"round\":\"Semifinal\",\"startTime\":\"2026-06-20T16:15:00Z\",\"startTimeConfirmed\":true,\"duration\":null,\"venue\":null,\"tournamentName\":\"VANDA Pharmaceuticals Berlin Tennis Open\",\"eventCategory\":\"Women's Doubles\",\"competitionGender\":\"women\",\"competitionCategory\":\"WTA\",\"watchUrl\":{\"url\":null,\"status\":\"UNAVAILABLE\"},\"homeCompetitor\":{\"id\":\"asia-muhammad\",\"slug\":\"asia-muhammad\",\"name\":\"Muhammad, Asia\",\"shortName\":\"A. Muhammad\",\"abbreviation\":\"MUH\",\"countryCode\":\"USA\",\"flag\":{\"cdnUrl\":\"https://d20b59fhju7onw.cloudfront.net/images/flags/usa.jpg\",\"tcMediaUrl\":\"https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg\"},\"headshot\":null,\"seed\":null,\"entryType\":null},\"awayCompetitor\":{\"id\":\"sara-errani\",\"slug\":\"sara-errani\",\"name\":\"Errani, Sara\",\"shortName\":\"S. Errani\",\"abbreviation\":\"ERR\",\"countryCode\":\"ITA\",\"flag\":{\"cdnUrl\":\"https://d20b59fhju7onw.cloudfront.net/images/flags/ita.jpg\",\"tcMediaUrl\":\"https://media.prod.tennis.com/v1/tcf/images/flags/ita.jpg\"},\"headshot\":null,\"seed\":null,\"entryType\":null},\"homeTeam\":{\"id\":\"muhammad-a-stollar-f\",\"name\":\"Muhammad A / Stollar F\",\"abbreviation\":\"M/S\",\"player1\":{\"id\":\"asia-muhammad\",\"slug\":\"asia-muhammad\",\"name\":\"Muhammad, Asia\",\"shortName\":\"A. Muhammad\",\"abbreviation\":\"MUH\",\"countryCode\":\"USA\",\"flag\":\"$2b:props:children:props:children:1:props:initialMatches:2:homeCompetitor:flag\",\"headshot\":null,\"seed\":null,\"entryType\":null},\"player2\":{\"id\":\"fanny-stollar\",\"slug\":\"fanny-stollar\",\"name\":\"Stollár, Fanny\",\"shortName\":\"F. Stollár\",\"abbreviation\":\"STO\",\"countryCode\":\"HUN\",\"flag\":{\"cdnUrl\":\"https://d20b59fhju7onw.cloudfront.net/images/flags/hun.jpg\",\"tcMediaUrl\":\"https://media.prod.tennis.com/v1/tcf/images/flags/hun.jpg\"},\"headshot\":null,\"seed\":null,\"entryType\":null},\"seed\":null,\"entryType\":null},\"awayTeam\":{\"id\":\"errani-s-melichar-martinez-n\",\"name\":\"Errani S / Melichar-Martinez N\",\"abbreviation\":\"E/M\",\"player1\":{\"id\":\"sara-errani\",\"slug\":\"sara-errani\",\"name\":\"Errani, Sara\",\"shortName\":\"S. Errani\",\"abbreviation\":\"ERR\",\"countryCode\":\"ITA\",\"flag\":\"$2b:props:children:props:children:1:props:initialMatches:2:awayCompetitor:flag\",\"headshot\":null,\"seed\":null,\"entryType\":null},\"player2\":{\"id\":\"nicole-melichar-martinez\",\"slug\":\"nicole-melichar-martinez\",\"name\":\"Melichar-Martinez, Nicole\",\"shortName\":\"N. Melichar-Martinez\",\"abbreviation\":\"MEL\",\"countryCode\":\"USA\",\"flag\":{\"cdnUrl\":\"https://d20b59fhju7onw.cloudfront.net/images/flags/usa.jpg\",\"tcMediaUrl\":\"https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg\"},\"headshot\":null,\"seed\":null,\"entryType\":null},\"seed\":3,\"entryType\":null},\"winnerId\":null,\"score\":{\"currentSetNumber\":2,\"homeSetsWon\":0,\"awaySetsWon\":1,\"sets\":[{\"setNumber\":1,\"homeGames\":3,\"awayGames\":6,\"homeTiebreakPoints\":null,\"awayTiebreakPoints\":null},{\"setNumber\":2,\"homeGames\":3,\"awayGames\":5,\"homeTiebreakPoints\":null,\"awayTiebreakPoints\":null}],\"currentGame\":{\"homePointDisplay\":\"0\",\"awayPointDisplay\":\"0\",\"servingSide\":\"home\",\"inTiebreak\":false,\"advantageSide\":null}},\"homeWinProbability\":39,\"awayWinProbability\":61,\"liveDataPending\":true},{\"id\":\"alexandrova-e-noskova-l-vs-eikeri-u-gleason-q-2026-06-20\",\"nodeId\":\"bWF0Y2g6NDhkNTA5ZjYtN2FhZi00MDQ3LTlmNzItNjIyNzBhY2NkM2I4\",\"slug\":\"alexandrova-e-noskova-l-vs-eikeri-u-gleason-q-2026-06-20\",\"matchScoreKey\":\"sr:sport_event:72023696\",\"status\":\"scheduled\",\"round\":\"Semifinal\",\"startTime\":\"2026-06-20T18:20:00Z\",\"startTimeConfirmed\":true,\"duration\":null,\"venue\":null,\"tournamentName\":\"VANDA Pharmaceuticals Berlin Tennis Open\",\"eventCategory\":\"Women's Doubles\",\"competitionGender\":\"women\",\"competitionCategory\":\"WTA\",\"watchUrl\":{\"url\":\"https://www.tennischannel.com/en-us/video/alexandrova-e-noskova-l-eikeri-u-gleason-q/2181723\",\"status\":\"READY\"},\"homeCompetitor\":{\"id\":\"ekaterina-alexandrova\",\"slug\":\"ekaterina-alexandrova\",\"name\":\"Alexandrova, Ekaterina\",\"shortName\":\"E. Alexandrova\",\"abbreviation\":\"ALE\",\"countryCode\":null,\"flag\":null,\"headshot\":null,\"seed\":null,\"entryType\":null},\"awayCompetitor\":{\"id\":\"ulrikke-eikeri\",\"slug\":\"ulrikke-eikeri\",\"name\":\"Eikeri, Ulrikke\",\"shortName\":\"U. Eikeri\",\"abbreviation\":\"EIK\",\"countryCode\":\"NOR\",\"flag\":{\"cdnUrl\":\"https://d20b59fhju7onw.cloudfront.net/images/flags/nor.jpg\",\"tcMediaUrl\":\"https://media.prod.tennis.com/v1/tcf/images/flags/nor.jpg\"},\"headshot\":null,\"seed\":null,\"entryType\":null},\"homeTeam\":{\"id\":\"alexandrova-e-noskova-l\",\"name\":\"Alexandrova E / Noskova L\",\"abbreviation\":\"A/N\",\"player1\":{\"id\":\"ekaterina-alexandrova\",\"slug\":\"ekaterina-alexandrova\",\"name\":\"Alexandrova, Ekaterina\",\"shortName\":\"E. Alexandrova\",\"abbreviation\":\"ALE\",\"countryCode\":null,\"flag\":null,\"headshot\":null,\"seed\":null,\"entryType\":null},\"player2\":{\"id\":\"linda-noskova\",\"slug\":\"linda-noskova\",\"name\":\"Nosková, Linda\",\"shortName\":\"L. Nosková\",\"abbreviation\":\"NOS\",\"countryCode\":\"CZE\",\"flag\":{\"cdnUrl\":\"https://d20b59fhju7onw.cloudfront.net/images/flags/cze.jpg\",\"tcMediaUrl\":\"https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg\"},\"headshot\":null,\"seed\":null,\"entryType\":null},\"seed\":null,\"entryType\":null},\"awayTeam\":{\"id\":\"eikeri-u-gleason-q\",\"name\":\"Eikeri U / Gleason Q\",\"abbreviation\":\"E/G\",\"player1\":{\"id\":\"ulrikke-eikeri\",\"slug\":\"ulrikke-eikeri\",\"name\":\"Eikeri, Ulrikke\",\"shortName\":\"U. Eikeri\",\"abbreviation\":\"EIK\",\"countryCode\":\"NOR\",\"flag\":\"$2b:props:children:props:children:1:props:initialMatches:3:awayCompetitor:flag\",\"headshot\":null,\"seed\":null,\"entryType\":null},\"player2\":{\"id\":\"quinn-gleason\",\"slug\":\"quinn-gleason\",\"name\":\"Gleason, Quinn\",\"shortName\":\"Q. Gleason\",\"abbreviation\":\"GLE\",\"countryCode\":\"USA\",\"flag\":{\"cdnUrl\":\"https://d20b59fhju7onw.cloudfront.net/images/flags/usa.jpg\",\"tcMediaUrl\":\"https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg\"},\"headshot\":null,\"seed\":null,\"entryType\":null},\"seed\":null,\"entryType\":null},\"winnerId\":null,\"score\":{\"currentSetNumber\":null,\"homeSetsWon\":0,\"awaySetsWon\":0,\"sets\":[],\"currentGame\":null},\"homeWinProbability\":50,\"awayWinProbability\":50}],\"basePath\":\"/tournaments/vanda-pharmaceuticals-berlin-tennis-open\",\"availableFormats\":[\"womens-singles\",\"womens-doubles\"],\"adSlot\":\"$L31\",\"liveUpdates\":true}]]}]}]\n"])&lt;/script&gt;&lt;script&gt;self.__next_f.push([1,"32:T941,"])&lt;/script&gt;&lt;script&gt;self.__next_f.push([1,"{\"@context\":\"https://schema.org\",\"@type\":\"SportsEvent\",\"name\":\"VANDA Pharmaceuticals Berlin Tennis Open\",\"sport\":\"Tennis\",\"startDate\":\"2026-06-13\",\"endDate\":\"2026-06-21\",\"location\":{\"@type\":\"Place\",\"name\":\"Berlin, Germany\"},\"subEvent\":[{\"@context\":\"https://schema.org\",\"@type\":\"SportsEvent\",\"name\":\"Sabalenka, Aryna vs Pegula, Jessica\",\"sport\":\"Tennis\",\"eventStatus\":\"https://schema.org/EventCompleted\",\"startDate\":\"2026-06-20T10:00:00Z\",\"homeTeam\":{\"@type\":\"Person\",\"name\":\"Sabalenka, Aryna\"},\"awayTeam\":{\"@type\":\"Person\",\"name\":\"Pegula, Jessica\",\"nationality\":\"USA\"},\"superEvent\":{\"@type\":\"SportsEvent\",\"name\":\"VANDA Pharmaceuticals Berlin Tennis Open\",\"startDate\":\"2026-06-13\",\"endDate\":\"2026-06-21\",\"location\":{\"@type\":\"Place\",\"name\":\"Berlin, Germany\"}}},{\"@context\":\"https://schema.org\",\"@type\":\"SportsEvent\",\"name\":\"Nosková, Linda vs Eala, Alexandra\",\"sport\":\"Tennis\",\"eventStatus\":\"https://schema.org/EventCompleted\",\"startDate\":\"2026-06-20T16:00:00Z\",\"homeTeam\":{\"@type\":\"Person\",\"name\":\"Nosková, Linda\",\"nationality\":\"CZE\"},\"awayTeam\":{\"@type\":\"Person\",\"name\":\"Eala, Alexandra\",\"nationality\":\"PHL\"},\"superEvent\":{\"@type\":\"SportsEvent\",\"name\":\"VANDA Pharmaceuticals Berlin Tennis Open\",\"startDate\":\"2026-06-13\",\"endDate\":\"2026-06-21\",\"location\":{\"@type\":\"Place\",\"name\":\"Berlin, Germany\"}}},{\"@context\":\"https://schema.org\",\"@type\":\"SportsEvent\",\"name\":\"Muhammad, Asia vs Errani, Sara\",\"sport\":\"Tennis\",\"eventStatus\":\"https://schema.org/EventScheduled\",\"startDate\":\"2026-06-20T16:15:00Z\",\"homeTeam\":{\"@type\":\"Person\",\"name\":\"Muhammad, Asia\",\"nationality\":\"USA\"},\"awayTeam\":{\"@type\":\"Person\",\"name\":\"Errani, Sara\",\"nationality\":\"ITA\"},\"superEvent\":{\"@type\":\"SportsEvent\",\"name\":\"VANDA Pharmaceuticals Berlin Tennis Open\",\"startDate\":\"2026-06-13\",\"endDate\":\"2026-06-21\",\"location\":{\"@type\":\"Place\",\"name\":\"Berlin, Germany\"}}},{\"@context\":\"https://schema.org\",\"@type\":\"SportsEvent\",\"name\":\"Alexandrova, Ekaterina vs Eikeri, Ulrikke\",\"sport\":\"Tennis\",\"eventStatus\":\"https://schema.org/EventScheduled\",\"startDate\":\"2026-06-20T18:20:00Z\",\"homeTeam\":{\"@type\":\"Person\",\"name\":\"Alexandrova, Ekaterina\"},\"awayTeam\":{\"@type\":\"Person\",\"name\":\"Eikeri, Ulrikke\",\"nationality\":\"NOR\"},\"superEvent\":{\"@type\":\"SportsEvent\",\"name\":\"VANDA Pharmaceuticals Berlin Tennis Open\",\"startDate\":\"2026-06-13\",\"endDate\":\"2026-06-21\",\"location\":{\"@type\":\"Place\",\"name\":\"Berlin, Germany\"}}}]}"])&lt;/script&gt;&lt;script&gt;self.__next_f.push([1,"2d:[\"$\",\"script\",null,{\"type\":\"application/ld+json\",\"dangerouslySetInnerHTML\":{\"__html\":\"$32\"}}]\n"])&lt;/script&gt;&lt;div hidden id="S:2"&gt;&lt;div class="TournamentShell-module-scss-module__udlBxW__layout"&gt;&lt;header class="TournamentHeader-module-scss-module__VodaUq__header"&gt;&lt;div class="TournamentHeader-module-scss-module__VodaUq__identity"&gt;&lt;div class="TournamentHeader-module-scss-module__VodaUq__nameRow"&gt;&lt;h1 class="TournamentHeader-module-scss-module__VodaUq__name"&gt;WTA Berlin&lt;/h1&gt;&lt;span class="TournamentHeader-module-scss-module__VodaUq__flag"&gt;&lt;img alt="Germany" title="Germany" loading="lazy" width="48" height="32" decoding="async" data-nimg="1" class="CountryFlag-module-scss-module__LcYxaG__flag" style="color:transparent" sizes="26px" srcSet="https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=32&amp;amp;fm=webp&amp;amp;q=75 32w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=48&amp;amp;fm=webp&amp;amp;q=75 48w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=64&amp;amp;fm=webp&amp;amp;q=75 64w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=96&amp;amp;fm=webp&amp;amp;q=75 96w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=128&amp;amp;fm=webp&amp;amp;q=75 128w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=256&amp;amp;fm=webp&amp;amp;q=75 256w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=384&amp;amp;fm=webp&amp;amp;q=75 384w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=640&amp;amp;fm=webp&amp;amp;q=75 640w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=750&amp;amp;fm=webp&amp;amp;q=75 750w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=828&amp;amp;fm=webp&amp;amp;q=75 828w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=1080&amp;amp;fm=webp&amp;amp;q=75 1080w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=1200&amp;amp;fm=webp&amp;amp;q=75 1200w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=1920&amp;amp;fm=webp&amp;amp;q=75 1920w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=2048&amp;amp;fm=webp&amp;amp;q=75 2048w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75 3840w" src="https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75"/&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class="TournamentHeader-module-scss-module__VodaUq__metaRow"&gt;&lt;span&gt;Jun 13-21&lt;/span&gt;&lt;span class="TournamentHeader-module-scss-module__VodaUq__metaSep" aria-hidden="true"&gt;·&lt;/span&gt;&lt;span&gt;Berlin, Germany&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="TournamentHeader-module-scss-module__VodaUq__tagsRow"&gt;&lt;ul class="TourLevelBadge-module-scss-module__HscEvW__list"&gt;&lt;li class="TourLevelBadge-module-scss-module__HscEvW__badge" data-tour="wta"&gt;WTA 500&lt;/li&gt;&lt;/ul&gt;&lt;span class="SurfaceBadge-module-scss-module__olOWtG__pill" data-surface="grass" data-over-image="true"&gt;&lt;svg class="SurfaceBadge-module-scss-module__olOWtG__icon" viewBox="0 0 12 12" fill="currentColor" aria-hidden="true"&gt;&lt;path d="M1.91699 1.5C2.33106 1.50018 2.66699 1.83589 2.66699 2.25V10.75C2.66699 11.1641 2.33106 11.4998 1.91699 11.5H1.75C1.33579 11.5 1 11.1642 1 10.75V2.25C1 1.83579 1.33579 1.5 1.75 1.5H1.91699ZM4.69434 1.5C5.10855 1.5 5.44434 1.83579 5.44434 2.25V10.75C5.44434 11.1642 5.10855 11.5 4.69434 11.5H4.52734C4.11333 11.4998 3.77734 11.1641 3.77734 10.75V2.25C3.77734 1.83593 4.11333 1.50023 4.52734 1.5H4.69434ZM7.47266 1.5C7.88667 1.50023 8.22266 1.83593 8.22266 2.25V10.75C8.22266 11.1641 7.88667 11.4998 7.47266 11.5H7.30566C6.89145 11.5 6.55566 11.1642 6.55566 10.75V2.25C6.55566 1.83579 6.89145 1.5 7.30566 1.5H7.47266ZM10.25 1.5C10.6642 1.5 11 1.83579 11 2.25V10.75C11 11.1642 10.6642 11.5 10.25 11.5H10.083C9.66894 11.4998 9.33301 11.1641 9.33301 10.75V2.25C9.33301 1.8359 9.66894 1.50018 10.083 1.5H10.25Z"&gt;&lt;/path&gt;&lt;/svg&gt;&lt;span class="SurfaceBadge-module-scss-module__olOWtG__label"&gt;GRASS&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/header&gt;&lt;header class="TournamentHeroDesktop-module-scss-module__30c_ca__hero" style="background-image:url(https://media.prod.tennis.com/v1/tcf/images/tournaments/2fe5daf8-c14f-4e7d-b2de-b4a618b6a160/20260428_214645.jpeg)" aria-label="WTA Berlin"&gt;&lt;div class="TournamentHeroDesktop-module-scss-module__30c_ca__overlay" aria-hidden="true"&gt;&lt;/div&gt;&lt;div class="TournamentHeroDesktop-module-scss-module__30c_ca__inner"&gt;&lt;div class="TournamentHeroDesktop-module-scss-module__30c_ca__content"&gt;&lt;div class="TournamentHeroDesktop-module-scss-module__30c_ca__status"&gt;&lt;span class="StatusBadge-module-scss-module__EZqBlW__row"&gt;&lt;span class="StatusBadge-module-scss-module__EZqBlW__pill" data-color="live"&gt;Active&lt;/span&gt;&lt;/span&gt;&lt;span class="TournamentHeroDesktop-module-scss-module__30c_ca__dayProgress"&gt;Day &lt;!-- --&gt;8&lt;!-- --&gt; of &lt;!-- --&gt;9&lt;/span&gt;&lt;/div&gt;&lt;div class="TournamentHeroDesktop-module-scss-module__30c_ca__info"&gt;&lt;div class="TournamentHeroDesktop-module-scss-module__30c_ca__identity"&gt;&lt;div class="TournamentHeroDesktop-module-scss-module__30c_ca__nameRow"&gt;&lt;h1 class="TournamentHeroDesktop-module-scss-module__30c_ca__title"&gt;WTA Berlin&lt;/h1&gt;&lt;img alt="Germany" title="Germany" loading="lazy" width="48" height="32" decoding="async" data-nimg="1" class="CountryFlag-module-scss-module__LcYxaG__flag" style="color:transparent" sizes="26px" srcSet="https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=32&amp;amp;fm=webp&amp;amp;q=75 32w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=48&amp;amp;fm=webp&amp;amp;q=75 48w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=64&amp;amp;fm=webp&amp;amp;q=75 64w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=96&amp;amp;fm=webp&amp;amp;q=75 96w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=128&amp;amp;fm=webp&amp;amp;q=75 128w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=256&amp;amp;fm=webp&amp;amp;q=75 256w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=384&amp;amp;fm=webp&amp;amp;q=75 384w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=640&amp;amp;fm=webp&amp;amp;q=75 640w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=750&amp;amp;fm=webp&amp;amp;q=75 750w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=828&amp;amp;fm=webp&amp;amp;q=75 828w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=1080&amp;amp;fm=webp&amp;amp;q=75 1080w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=1200&amp;amp;fm=webp&amp;amp;q=75 1200w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=1920&amp;amp;fm=webp&amp;amp;q=75 1920w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=2048&amp;amp;fm=webp&amp;amp;q=75 2048w, https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75 3840w" src="https://media.prod.tennis.com/v1/tcf/images/flags/deu.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75"/&gt;&lt;/div&gt;&lt;p class="TournamentHeroDesktop-module-scss-module__30c_ca__officialName"&gt;VANDA Pharmaceuticals Berlin Tennis Open&lt;/p&gt;&lt;/div&gt;&lt;p class="TournamentHeroDesktop-module-scss-module__30c_ca__meta"&gt;&lt;span&gt;Jun 13-21&lt;/span&gt;&lt;span class="TournamentHeroDesktop-module-scss-module__30c_ca__metaSep" aria-hidden="true"&gt;·&lt;/span&gt;&lt;span&gt;Berlin, Germany&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;ul class="TourLevelBadge-module-scss-module__HscEvW__list"&gt;&lt;li class="TourLevelBadge-module-scss-module__HscEvW__badge" data-tour="wta"&gt;WTA 500&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class="TournamentHeroDesktop-module-scss-module__30c_ca__aside"&gt;&lt;span class="SurfaceBadge-module-scss-module__olOWtG__pill" data-surface="grass" data-over-image="true"&gt;&lt;svg class="SurfaceBadge-module-scss-module__olOWtG__icon" viewBox="0 0 12 12" fill="currentColor" aria-hidden="true"&gt;&lt;path d="M1.91699 1.5C2.33106 1.50018 2.66699 1.83589 2.66699 2.25V10.75C2.66699 11.1641 2.33106 11.4998 1.91699 11.5H1.75C1.33579 11.5 1 11.1642 1 10.75V2.25C1 1.83579 1.33579 1.5 1.75 1.5H1.91699ZM4.69434 1.5C5.10855 1.5 5.44434 1.83579 5.44434 2.25V10.75C5.44434 11.1642 5.10855 11.5 4.69434 11.5H4.52734C4.11333 11.4998 3.77734 11.1641 3.77734 10.75V2.25C3.77734 1.83593 4.11333 1.50023 4.52734 1.5H4.69434ZM7.47266 1.5C7.88667 1.50023 8.22266 1.83593 8.22266 2.25V10.75C8.22266 11.1641 7.88667 11.4998 7.47266 11.5H7.30566C6.89145 11.5 6.55566 11.1642 6.55566 10.75V2.25C6.55566 1.83579 6.89145 1.5 7.30566 1.5H7.47266ZM10.25 1.5C10.6642 1.5 11 1.83579 11 2.25V10.75C11 11.1642 10.6642 11.5 10.25 11.5H10.083C9.66894 11.4998 9.33301 11.1641 9.33301 10.75V2.25C9.33301 1.8359 9.66894 1.50018 10.083 1.5H10.25Z"&gt;&lt;/path&gt;&lt;/svg&gt;&lt;span class="SurfaceBadge-module-scss-module__olOWtG__label"&gt;GRASS&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/header&gt;&lt;nav class="TournamentNav-module-scss-module__L2k7Ga__menu" aria-label="Tournament navigation"&gt;&lt;div class="TournamentNav-module-scss-module__L2k7Ga__inner"&gt;&lt;ul class="TournamentNav-module-scss-module__L2k7Ga__tabs"&gt;&lt;li class="TournamentNav-module-scss-module__L2k7Ga__tabItem"&gt;&lt;a class="TournamentNav-module-scss-module__L2k7Ga__tab TournamentNav-module-scss-module__L2k7Ga__tabActive" aria-current="page" href="/tournaments/vanda-pharmaceuticals-berlin-tennis-open"&gt;Matches&lt;/a&gt;&lt;/li&gt;&lt;li class="TournamentNav-module-scss-module__L2k7Ga__tabItem"&gt;&lt;a class="TournamentNav-module-scss-module__L2k7Ga__tab " href="/tournaments/vanda-pharmaceuticals-berlin-tennis-open/draws"&gt;Draws&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div class="TournamentNav-module-scss-module__L2k7Ga__picker"&gt;&lt;!--$--&gt;&lt;div class="EditionPicker-module-scss-module__wdEV0a__wrapper"&gt;&lt;button type="button" class="EditionPicker-module-scss-module__wdEV0a__trigger EditionPicker-module-scss-module__wdEV0a__triggerNav" aria-expanded="false" aria-label="Select tournament edition"&gt;&lt;span class="EditionPicker-module-scss-module__wdEV0a__triggerLabel"&gt;2026&lt;/span&gt;&lt;svg class="EditionPicker-module-scss-module__wdEV0a__chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"&gt;&lt;path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/button&gt;&lt;/div&gt;&lt;!--/$--&gt;&lt;/div&gt;&lt;/div&gt;&lt;/nav&gt;&lt;main class="TournamentShell-module-scss-module__udlBxW__content"&gt;&lt;section class="page-module-scss-module__euNfxa__scoresPage"&gt;&lt;nav class="SelectorRow-module-scss-module__B0W-cG__row SelectorRow-module-scss-module__B0W-cG__noBottomDivider SelectorRow-module-scss-module__B0W-cG__noTopDivider    SelectorRow-module-scss-module__B0W-cG__bleedNarrow" aria-label="Select tournament day"&gt;&lt;button type="button" class="SelectorRow-module-scss-module__B0W-cG__arrow SelectorRow-module-scss-module__B0W-cG__arrowWide" aria-label="Previous"&gt;&lt;svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"&gt;&lt;path d="M15 18l-6-6 6-6"&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/button&gt;&lt;ul class="SelectorRow-module-scss-module__B0W-cG__narrowStrip SelectorRow-module-scss-module__B0W-cG__full" style="--visible-narrow:3"&gt;&lt;li class="SelectorRow-module-scss-module__B0W-cG__item" data-key="2026-06-13"&gt;&lt;button type="button" class="SelectorRow-module-scss-module__B0W-cG__itemButton "&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__primary"&gt;Saturday&lt;/span&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__secondary"&gt;June 13&lt;/span&gt;&lt;/button&gt;&lt;/li&gt;&lt;li class="SelectorRow-module-scss-module__B0W-cG__item" data-key="2026-06-14"&gt;&lt;button type="button" class="SelectorRow-module-scss-module__B0W-cG__itemButton "&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__primary"&gt;Sunday&lt;/span&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__secondary"&gt;June 14&lt;/span&gt;&lt;/button&gt;&lt;/li&gt;&lt;li class="SelectorRow-module-scss-module__B0W-cG__item" data-key="2026-06-15"&gt;&lt;button type="button" class="SelectorRow-module-scss-module__B0W-cG__itemButton "&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__primary"&gt;Monday&lt;/span&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__secondary"&gt;June 15&lt;/span&gt;&lt;/button&gt;&lt;/li&gt;&lt;li class="SelectorRow-module-scss-module__B0W-cG__item" data-key="2026-06-16"&gt;&lt;button type="button" class="SelectorRow-module-scss-module__B0W-cG__itemButton "&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__primary"&gt;Tuesday&lt;/span&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__secondary"&gt;June 16&lt;/span&gt;&lt;/button&gt;&lt;/li&gt;&lt;li class="SelectorRow-module-scss-module__B0W-cG__item" data-key="2026-06-17"&gt;&lt;button type="button" class="SelectorRow-module-scss-module__B0W-cG__itemButton "&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__primary"&gt;Wednesday&lt;/span&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__secondary"&gt;June 17&lt;/span&gt;&lt;/button&gt;&lt;/li&gt;&lt;li class="SelectorRow-module-scss-module__B0W-cG__item" data-key="2026-06-18"&gt;&lt;button type="button" class="SelectorRow-module-scss-module__B0W-cG__itemButton "&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__primary"&gt;Thursday&lt;/span&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__secondary"&gt;June 18&lt;/span&gt;&lt;/button&gt;&lt;/li&gt;&lt;li class="SelectorRow-module-scss-module__B0W-cG__item" data-key="2026-06-19"&gt;&lt;button type="button" class="SelectorRow-module-scss-module__B0W-cG__itemButton "&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__primary"&gt;Friday&lt;/span&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__secondary"&gt;June 19&lt;/span&gt;&lt;/button&gt;&lt;/li&gt;&lt;li class="SelectorRow-module-scss-module__B0W-cG__item" data-key="2026-06-20"&gt;&lt;button type="button" class="SelectorRow-module-scss-module__B0W-cG__itemButton SelectorRow-module-scss-module__B0W-cG__selected" aria-current="true"&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__primary"&gt;Saturday&lt;/span&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__secondary"&gt;June 20&lt;/span&gt;&lt;/button&gt;&lt;/li&gt;&lt;li class="SelectorRow-module-scss-module__B0W-cG__item" data-key="2026-06-21"&gt;&lt;button type="button" class="SelectorRow-module-scss-module__B0W-cG__itemButton "&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__primary"&gt;Sunday&lt;/span&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__secondary"&gt;June 21&lt;/span&gt;&lt;/button&gt;&lt;/li&gt;&lt;/ul&gt;&lt;ul class="SelectorRow-module-scss-module__B0W-cG__wideList SelectorRow-module-scss-module__B0W-cG__full" style="--visible-wide:3"&gt;&lt;li class="SelectorRow-module-scss-module__B0W-cG__item" data-key="2026-06-19"&gt;&lt;button type="button" class="SelectorRow-module-scss-module__B0W-cG__itemButton "&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__primary"&gt;Friday&lt;/span&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__secondary"&gt;June 19&lt;/span&gt;&lt;/button&gt;&lt;/li&gt;&lt;li class="SelectorRow-module-scss-module__B0W-cG__item" data-key="2026-06-20"&gt;&lt;button type="button" class="SelectorRow-module-scss-module__B0W-cG__itemButton SelectorRow-module-scss-module__B0W-cG__selected" aria-current="true"&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__primary"&gt;Saturday&lt;/span&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__secondary"&gt;June 20&lt;/span&gt;&lt;/button&gt;&lt;/li&gt;&lt;li class="SelectorRow-module-scss-module__B0W-cG__item" data-key="2026-06-21"&gt;&lt;button type="button" class="SelectorRow-module-scss-module__B0W-cG__itemButton "&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__primary"&gt;Sunday&lt;/span&gt;&lt;span class="SelectorRow-module-scss-module__B0W-cG__secondary"&gt;June 21&lt;/span&gt;&lt;/button&gt;&lt;/li&gt;&lt;/ul&gt;&lt;button type="button" class="SelectorRow-module-scss-module__B0W-cG__arrow SelectorRow-module-scss-module__B0W-cG__arrowWide" aria-label="Next"&gt;&lt;svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"&gt;&lt;path d="M9 18l6-6-6-6"&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/button&gt;&lt;/nav&gt;&lt;div class="page-module-scss-module__euNfxa__filterRow"&gt;&lt;div class="FilterDropdown-module-scss-module__9dyuVq__wrapper"&gt;&lt;button type="button" class="FilterDropdown-module-scss-module__9dyuVq__trigger" aria-haspopup="listbox" aria-expanded="false" aria-label="Filter matches by format"&gt;&lt;span class="FilterDropdown-module-scss-module__9dyuVq__label"&gt;All Match Formats&lt;/span&gt;&lt;svg class="FilterDropdown-module-scss-module__9dyuVq__chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"&gt;&lt;path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/button&gt;&lt;/div&gt;&lt;div role="radiogroup" aria-label="Filter matches by status" class="FilterToggle-module-scss-module__H-2n5G__group"&gt;&lt;button type="button" role="radio" aria-checked="true" tabindex="0" class="FilterToggle-module-scss-module__H-2n5G__pill FilterToggle-module-scss-module__H-2n5G__pillSelected"&gt;&lt;span class="FilterToggle-module-scss-module__H-2n5G__label"&gt;All&lt;/span&gt;&lt;/button&gt;&lt;button type="button" role="radio" aria-checked="false" tabindex="-1" class="FilterToggle-module-scss-module__H-2n5G__pill"&gt;&lt;span class="FilterToggle-module-scss-module__H-2n5G__label"&gt;Live&lt;/span&gt;&lt;/button&gt;&lt;button type="button" role="radio" aria-checked="false" tabindex="-1" class="FilterToggle-module-scss-module__H-2n5G__pill"&gt;&lt;span class="FilterToggle-module-scss-module__H-2n5G__label"&gt;Upcoming&lt;/span&gt;&lt;/button&gt;&lt;button type="button" role="radio" aria-checked="false" tabindex="-1" class="FilterToggle-module-scss-module__H-2n5G__pill"&gt;&lt;span class="FilterToggle-module-scss-module__H-2n5G__label"&gt;Completed&lt;/span&gt;&lt;/button&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="page-module-scss-module__euNfxa__adSlot"&gt;&lt;template id="P:4"&gt;&lt;/template&gt;&lt;/div&gt;&lt;div class="page-module-scss-module__euNfxa__matches"&gt;&lt;article class="Match-module-scss-module__PXKSHa__card Match-module-scss-module__PXKSHa__linked"&gt;&lt;a aria-label="Match details: Muhammad, Asia vs Errani, Sara" class="Match-module-scss-module__PXKSHa__stretchedLink" href="/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/muhammad-a-stollar-f-vs-errani-s-melichar-martinez-n-2026-06-20"&gt;&lt;/a&gt;&lt;div class="MatchHeader-module-scss-module__uXFFra__header"&gt;&lt;div class="MatchHeader-module-scss-module__uXFFra__content"&gt;&lt;div class="MatchHeader-module-scss-module__uXFFra__subLabel"&gt;&lt;span class="MatchHeader-module-scss-module__uXFFra__label"&gt;Women&amp;#x27;s Doubles&lt;/span&gt;&lt;span class="MatchHeader-module-scss-module__uXFFra__separator" aria-hidden="true"&gt;·&lt;/span&gt;&lt;span class="MatchHeader-module-scss-module__uXFFra__label"&gt;Semifinal&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="Match-module-scss-module__PXKSHa__body"&gt;&lt;div class="Match-module-scss-module__PXKSHa__statusRow"&gt;&lt;span class="MatchStatusBadgeSkeleton-module-scss-module__gnTIga__pill" aria-hidden="true"&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class="Match-module-scss-module__PXKSHa__competitors Match-module-scss-module__PXKSHa__doubles"&gt;&lt;div class="Match-module-scss-module__PXKSHa__competitorRow "&gt;&lt;div class="PlayerRow-module-scss-module__OaqTZq__row"&gt;&lt;div class="PlayerRow-module-scss-module__OaqTZq__doublesStack"&gt;&lt;div class="PlayerRow-module-scss-module__OaqTZq__doublesPlayer"&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__flagSlot"&gt;&lt;img alt="USA" loading="lazy" width="16" height="10" decoding="async" data-nimg="1" class="CountryFlag-module-scss-module__LcYxaG__flag" style="color:transparent" sizes="16px" srcSet="https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=32&amp;amp;fm=webp&amp;amp;q=75 32w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=48&amp;amp;fm=webp&amp;amp;q=75 48w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=64&amp;amp;fm=webp&amp;amp;q=75 64w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=96&amp;amp;fm=webp&amp;amp;q=75 96w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=128&amp;amp;fm=webp&amp;amp;q=75 128w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=256&amp;amp;fm=webp&amp;amp;q=75 256w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=384&amp;amp;fm=webp&amp;amp;q=75 384w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=640&amp;amp;fm=webp&amp;amp;q=75 640w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=750&amp;amp;fm=webp&amp;amp;q=75 750w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=828&amp;amp;fm=webp&amp;amp;q=75 828w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=1080&amp;amp;fm=webp&amp;amp;q=75 1080w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=1200&amp;amp;fm=webp&amp;amp;q=75 1200w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=1920&amp;amp;fm=webp&amp;amp;q=75 1920w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=2048&amp;amp;fm=webp&amp;amp;q=75 2048w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75 3840w" src="https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75"/&gt;&lt;/span&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__name"&gt;A. Muhammad&lt;/span&gt;&lt;/div&gt;&lt;div class="PlayerRow-module-scss-module__OaqTZq__doublesPlayer"&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__flagSlot"&gt;&lt;img alt="HUN" loading="lazy" width="16" height="10" decoding="async" data-nimg="1" class="CountryFlag-module-scss-module__LcYxaG__flag" style="color:transparent" sizes="16px" srcSet="https://media.prod.tennis.com/v1/tcf/images/flags/hun.jpg?w=32&amp;amp;fm=webp&amp;amp;q=75 32w, https://media.prod.tennis.com/v1/tcf/images/flags/hun.jpg?w=48&amp;amp;fm=webp&amp;amp;q=75 48w, https://media.prod.tennis.com/v1/tcf/images/flags/hun.jpg?w=64&amp;amp;fm=webp&amp;amp;q=75 64w, https://media.prod.tennis.com/v1/tcf/images/flags/hun.jpg?w=96&amp;amp;fm=webp&amp;amp;q=75 96w, https://media.prod.tennis.com/v1/tcf/images/flags/hun.jpg?w=128&amp;amp;fm=webp&amp;amp;q=75 128w, https://media.prod.tennis.com/v1/tcf/images/flags/hun.jpg?w=256&amp;amp;fm=webp&amp;amp;q=75 256w, https://media.prod.tennis.com/v1/tcf/images/flags/hun.jpg?w=384&amp;amp;fm=webp&amp;amp;q=75 384w, https://media.prod.tennis.com/v1/tcf/images/flags/hun.jpg?w=640&amp;amp;fm=webp&amp;amp;q=75 640w, https://media.prod.tennis.com/v1/tcf/images/flags/hun.jpg?w=750&amp;amp;fm=webp&amp;amp;q=75 750w, https://media.prod.tennis.com/v1/tcf/images/flags/hun.jpg?w=828&amp;amp;fm=webp&amp;amp;q=75 828w, https://media.prod.tennis.com/v1/tcf/images/flags/hun.jpg?w=1080&amp;amp;fm=webp&amp;amp;q=75 1080w, https://media.prod.tennis.com/v1/tcf/images/flags/hun.jpg?w=1200&amp;amp;fm=webp&amp;amp;q=75 1200w, https://media.prod.tennis.com/v1/tcf/images/flags/hun.jpg?w=1920&amp;amp;fm=webp&amp;amp;q=75 1920w, https://media.prod.tennis.com/v1/tcf/images/flags/hun.jpg?w=2048&amp;amp;fm=webp&amp;amp;q=75 2048w, https://media.prod.tennis.com/v1/tcf/images/flags/hun.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75 3840w" src="https://media.prod.tennis.com/v1/tcf/images/flags/hun.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75"/&gt;&lt;/span&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__name"&gt;F. Stollár&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="ScoreGridSkeleton-module-scss-module__a1--NG__grid" aria-hidden="true"&gt;&lt;span class="ScoreGridSkeleton-module-scss-module__a1--NG__placeholder ScoreGridSkeleton-module-scss-module__a1--NG__gameScore"&gt;&lt;/span&gt;&lt;div class="ScoreGridSkeleton-module-scss-module__a1--NG__sets"&gt;&lt;span class="ScoreGridSkeleton-module-scss-module__a1--NG__placeholder ScoreGridSkeleton-module-scss-module__a1--NG__setCell"&gt;&lt;/span&gt;&lt;span class="ScoreGridSkeleton-module-scss-module__a1--NG__placeholder ScoreGridSkeleton-module-scss-module__a1--NG__setCell"&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="Match-module-scss-module__PXKSHa__divider" aria-hidden="true"&gt;&lt;/div&gt;&lt;div class="Match-module-scss-module__PXKSHa__competitorRow "&gt;&lt;div class="PlayerRow-module-scss-module__OaqTZq__row"&gt;&lt;div class="PlayerRow-module-scss-module__OaqTZq__doublesStack"&gt;&lt;div class="PlayerRow-module-scss-module__OaqTZq__doublesPlayer"&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__flagSlot"&gt;&lt;img alt="ITA" loading="lazy" width="16" height="10" decoding="async" data-nimg="1" class="CountryFlag-module-scss-module__LcYxaG__flag" style="color:transparent" sizes="16px" srcSet="https://media.prod.tennis.com/v1/tcf/images/flags/ita.jpg?w=32&amp;amp;fm=webp&amp;amp;q=75 32w, https://media.prod.tennis.com/v1/tcf/images/flags/ita.jpg?w=48&amp;amp;fm=webp&amp;amp;q=75 48w, https://media.prod.tennis.com/v1/tcf/images/flags/ita.jpg?w=64&amp;amp;fm=webp&amp;amp;q=75 64w, https://media.prod.tennis.com/v1/tcf/images/flags/ita.jpg?w=96&amp;amp;fm=webp&amp;amp;q=75 96w, https://media.prod.tennis.com/v1/tcf/images/flags/ita.jpg?w=128&amp;amp;fm=webp&amp;amp;q=75 128w, https://media.prod.tennis.com/v1/tcf/images/flags/ita.jpg?w=256&amp;amp;fm=webp&amp;amp;q=75 256w, https://media.prod.tennis.com/v1/tcf/images/flags/ita.jpg?w=384&amp;amp;fm=webp&amp;amp;q=75 384w, https://media.prod.tennis.com/v1/tcf/images/flags/ita.jpg?w=640&amp;amp;fm=webp&amp;amp;q=75 640w, https://media.prod.tennis.com/v1/tcf/images/flags/ita.jpg?w=750&amp;amp;fm=webp&amp;amp;q=75 750w, https://media.prod.tennis.com/v1/tcf/images/flags/ita.jpg?w=828&amp;amp;fm=webp&amp;amp;q=75 828w, https://media.prod.tennis.com/v1/tcf/images/flags/ita.jpg?w=1080&amp;amp;fm=webp&amp;amp;q=75 1080w, https://media.prod.tennis.com/v1/tcf/images/flags/ita.jpg?w=1200&amp;amp;fm=webp&amp;amp;q=75 1200w, https://media.prod.tennis.com/v1/tcf/images/flags/ita.jpg?w=1920&amp;amp;fm=webp&amp;amp;q=75 1920w, https://media.prod.tennis.com/v1/tcf/images/flags/ita.jpg?w=2048&amp;amp;fm=webp&amp;amp;q=75 2048w, https://media.prod.tennis.com/v1/tcf/images/flags/ita.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75 3840w" src="https://media.prod.tennis.com/v1/tcf/images/flags/ita.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75"/&gt;&lt;/span&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__name"&gt;S. Errani&lt;/span&gt;&lt;/div&gt;&lt;div class="PlayerRow-module-scss-module__OaqTZq__doublesPlayer"&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__flagSlot"&gt;&lt;img alt="USA" loading="lazy" width="16" height="10" decoding="async" data-nimg="1" class="CountryFlag-module-scss-module__LcYxaG__flag" style="color:transparent" sizes="16px" srcSet="https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=32&amp;amp;fm=webp&amp;amp;q=75 32w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=48&amp;amp;fm=webp&amp;amp;q=75 48w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=64&amp;amp;fm=webp&amp;amp;q=75 64w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=96&amp;amp;fm=webp&amp;amp;q=75 96w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=128&amp;amp;fm=webp&amp;amp;q=75 128w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=256&amp;amp;fm=webp&amp;amp;q=75 256w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=384&amp;amp;fm=webp&amp;amp;q=75 384w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=640&amp;amp;fm=webp&amp;amp;q=75 640w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=750&amp;amp;fm=webp&amp;amp;q=75 750w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=828&amp;amp;fm=webp&amp;amp;q=75 828w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=1080&amp;amp;fm=webp&amp;amp;q=75 1080w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=1200&amp;amp;fm=webp&amp;amp;q=75 1200w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=1920&amp;amp;fm=webp&amp;amp;q=75 1920w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=2048&amp;amp;fm=webp&amp;amp;q=75 2048w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75 3840w" src="https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75"/&gt;&lt;/span&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__name"&gt;N. Melichar-Martinez&lt;/span&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__seed"&gt;3&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="ScoreGridSkeleton-module-scss-module__a1--NG__grid" aria-hidden="true"&gt;&lt;span class="ScoreGridSkeleton-module-scss-module__a1--NG__placeholder ScoreGridSkeleton-module-scss-module__a1--NG__gameScore"&gt;&lt;/span&gt;&lt;div class="ScoreGridSkeleton-module-scss-module__a1--NG__sets"&gt;&lt;span class="ScoreGridSkeleton-module-scss-module__a1--NG__placeholder ScoreGridSkeleton-module-scss-module__a1--NG__setCell"&gt;&lt;/span&gt;&lt;span class="ScoreGridSkeleton-module-scss-module__a1--NG__placeholder ScoreGridSkeleton-module-scss-module__a1--NG__setCell"&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/article&gt;&lt;article class="Match-module-scss-module__PXKSHa__card Match-module-scss-module__PXKSHa__linked"&gt;&lt;a aria-label="Match details: Alexandrova, Ekaterina vs Eikeri, Ulrikke" class="Match-module-scss-module__PXKSHa__stretchedLink" href="/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/alexandrova-e-noskova-l-vs-eikeri-u-gleason-q-2026-06-20"&gt;&lt;/a&gt;&lt;div class="MatchHeader-module-scss-module__uXFFra__header"&gt;&lt;div class="MatchHeader-module-scss-module__uXFFra__content"&gt;&lt;div class="MatchHeader-module-scss-module__uXFFra__subLabel"&gt;&lt;span class="MatchHeader-module-scss-module__uXFFra__label"&gt;Women&amp;#x27;s Doubles&lt;/span&gt;&lt;span class="MatchHeader-module-scss-module__uXFFra__separator" aria-hidden="true"&gt;·&lt;/span&gt;&lt;span class="MatchHeader-module-scss-module__uXFFra__label"&gt;Semifinal&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="Match-module-scss-module__PXKSHa__body"&gt;&lt;div class="Match-module-scss-module__PXKSHa__statusRow"&gt;&lt;span class="StatusBadge-module-scss-module__EZqBlW__row"&gt;&lt;span class="StatusBadge-module-scss-module__EZqBlW__pill" data-color="upcoming"&gt;Upcoming&lt;/span&gt;&lt;span class="StatusBadge-module-scss-module__EZqBlW__sibling"&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;div class="Match-module-scss-module__PXKSHa__actions"&gt;&lt;a class="WatchCTA-module-scss-module__VaZQBG__cta" href="https://www.tennischannel.com/en-us/video/alexandrova-e-noskova-l-eikeri-u-gleason-q/2181723?utm_source=tennisdotcom&amp;amp;utm_medium=website&amp;amp;utm_campaign=new" target="_blank" rel="noopener noreferrer" aria-label="Watch on Tennis Channel"&gt;&lt;svg viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"&gt;&lt;path d="M11.5986 0.223665V2.59916L0.000837054 1.07309V0.223665H11.5986ZM0.000837054 3.54346V11.8417H2.71338L4.87965 4.18052L0.000837054 3.54346ZM5.25282 11.8417H11.5986V5.07016L7.3338 4.49278L5.25282 11.8417Z" fill="currentColor"&gt;&lt;/path&gt;&lt;/svg&gt;&lt;span&gt;Watch&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="Match-module-scss-module__PXKSHa__competitors Match-module-scss-module__PXKSHa__doubles"&gt;&lt;div class="Match-module-scss-module__PXKSHa__competitorRow "&gt;&lt;div class="PlayerRow-module-scss-module__OaqTZq__row"&gt;&lt;div class="PlayerRow-module-scss-module__OaqTZq__doublesStack"&gt;&lt;div class="PlayerRow-module-scss-module__OaqTZq__doublesPlayer"&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__flagSlot"&gt;&lt;span class="CountryFlag-module-scss-module__LcYxaG__placeholder" aria-hidden="true"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__name"&gt;E. Alexandrova&lt;/span&gt;&lt;/div&gt;&lt;div class="PlayerRow-module-scss-module__OaqTZq__doublesPlayer"&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__flagSlot"&gt;&lt;img alt="CZE" loading="lazy" width="16" height="10" decoding="async" data-nimg="1" class="CountryFlag-module-scss-module__LcYxaG__flag" style="color:transparent" sizes="16px" srcSet="https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=32&amp;amp;fm=webp&amp;amp;q=75 32w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=48&amp;amp;fm=webp&amp;amp;q=75 48w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=64&amp;amp;fm=webp&amp;amp;q=75 64w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=96&amp;amp;fm=webp&amp;amp;q=75 96w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=128&amp;amp;fm=webp&amp;amp;q=75 128w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=256&amp;amp;fm=webp&amp;amp;q=75 256w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=384&amp;amp;fm=webp&amp;amp;q=75 384w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=640&amp;amp;fm=webp&amp;amp;q=75 640w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=750&amp;amp;fm=webp&amp;amp;q=75 750w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=828&amp;amp;fm=webp&amp;amp;q=75 828w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=1080&amp;amp;fm=webp&amp;amp;q=75 1080w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=1200&amp;amp;fm=webp&amp;amp;q=75 1200w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=1920&amp;amp;fm=webp&amp;amp;q=75 1920w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=2048&amp;amp;fm=webp&amp;amp;q=75 2048w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75 3840w" src="https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75"/&gt;&lt;/span&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__name"&gt;L. Nosková&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="ProbabilityGrid-module-scss-module__s4Zf3W__grid " aria-label="Win probability"&gt;&lt;span class="ProbabilityGrid-module-scss-module__s4Zf3W__label"&gt;Projection&lt;/span&gt;&lt;span class="ProbabilityGrid-module-scss-module__s4Zf3W__value"&gt;50&lt;!-- --&gt;%&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="Match-module-scss-module__PXKSHa__divider" aria-hidden="true"&gt;&lt;/div&gt;&lt;div class="Match-module-scss-module__PXKSHa__competitorRow "&gt;&lt;div class="PlayerRow-module-scss-module__OaqTZq__row"&gt;&lt;div class="PlayerRow-module-scss-module__OaqTZq__doublesStack"&gt;&lt;div class="PlayerRow-module-scss-module__OaqTZq__doublesPlayer"&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__flagSlot"&gt;&lt;img alt="NOR" loading="lazy" width="16" height="10" decoding="async" data-nimg="1" class="CountryFlag-module-scss-module__LcYxaG__flag" style="color:transparent" sizes="16px" srcSet="https://media.prod.tennis.com/v1/tcf/images/flags/nor.jpg?w=32&amp;amp;fm=webp&amp;amp;q=75 32w, https://media.prod.tennis.com/v1/tcf/images/flags/nor.jpg?w=48&amp;amp;fm=webp&amp;amp;q=75 48w, https://media.prod.tennis.com/v1/tcf/images/flags/nor.jpg?w=64&amp;amp;fm=webp&amp;amp;q=75 64w, https://media.prod.tennis.com/v1/tcf/images/flags/nor.jpg?w=96&amp;amp;fm=webp&amp;amp;q=75 96w, https://media.prod.tennis.com/v1/tcf/images/flags/nor.jpg?w=128&amp;amp;fm=webp&amp;amp;q=75 128w, https://media.prod.tennis.com/v1/tcf/images/flags/nor.jpg?w=256&amp;amp;fm=webp&amp;amp;q=75 256w, https://media.prod.tennis.com/v1/tcf/images/flags/nor.jpg?w=384&amp;amp;fm=webp&amp;amp;q=75 384w, https://media.prod.tennis.com/v1/tcf/images/flags/nor.jpg?w=640&amp;amp;fm=webp&amp;amp;q=75 640w, https://media.prod.tennis.com/v1/tcf/images/flags/nor.jpg?w=750&amp;amp;fm=webp&amp;amp;q=75 750w, https://media.prod.tennis.com/v1/tcf/images/flags/nor.jpg?w=828&amp;amp;fm=webp&amp;amp;q=75 828w, https://media.prod.tennis.com/v1/tcf/images/flags/nor.jpg?w=1080&amp;amp;fm=webp&amp;amp;q=75 1080w, https://media.prod.tennis.com/v1/tcf/images/flags/nor.jpg?w=1200&amp;amp;fm=webp&amp;amp;q=75 1200w, https://media.prod.tennis.com/v1/tcf/images/flags/nor.jpg?w=1920&amp;amp;fm=webp&amp;amp;q=75 1920w, https://media.prod.tennis.com/v1/tcf/images/flags/nor.jpg?w=2048&amp;amp;fm=webp&amp;amp;q=75 2048w, https://media.prod.tennis.com/v1/tcf/images/flags/nor.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75 3840w" src="https://media.prod.tennis.com/v1/tcf/images/flags/nor.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75"/&gt;&lt;/span&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__name"&gt;U. Eikeri&lt;/span&gt;&lt;/div&gt;&lt;div class="PlayerRow-module-scss-module__OaqTZq__doublesPlayer"&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__flagSlot"&gt;&lt;img alt="USA" loading="lazy" width="16" height="10" decoding="async" data-nimg="1" class="CountryFlag-module-scss-module__LcYxaG__flag" style="color:transparent" sizes="16px" srcSet="https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=32&amp;amp;fm=webp&amp;amp;q=75 32w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=48&amp;amp;fm=webp&amp;amp;q=75 48w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=64&amp;amp;fm=webp&amp;amp;q=75 64w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=96&amp;amp;fm=webp&amp;amp;q=75 96w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=128&amp;amp;fm=webp&amp;amp;q=75 128w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=256&amp;amp;fm=webp&amp;amp;q=75 256w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=384&amp;amp;fm=webp&amp;amp;q=75 384w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=640&amp;amp;fm=webp&amp;amp;q=75 640w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=750&amp;amp;fm=webp&amp;amp;q=75 750w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=828&amp;amp;fm=webp&amp;amp;q=75 828w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=1080&amp;amp;fm=webp&amp;amp;q=75 1080w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=1200&amp;amp;fm=webp&amp;amp;q=75 1200w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=1920&amp;amp;fm=webp&amp;amp;q=75 1920w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=2048&amp;amp;fm=webp&amp;amp;q=75 2048w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75 3840w" src="https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75"/&gt;&lt;/span&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__name"&gt;Q. Gleason&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="ProbabilityGrid-module-scss-module__s4Zf3W__grid " aria-label="Win probability"&gt;&lt;span class="ProbabilityGrid-module-scss-module__s4Zf3W__value"&gt;50&lt;!-- --&gt;%&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/article&gt;&lt;article class="Match-module-scss-module__PXKSHa__card Match-module-scss-module__PXKSHa__linked"&gt;&lt;a aria-label="Match details: Sabalenka, Aryna vs Pegula, Jessica" class="Match-module-scss-module__PXKSHa__stretchedLink" href="/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-sabalenka-vs-j-pegula-2026-06-20"&gt;&lt;/a&gt;&lt;div class="MatchHeader-module-scss-module__uXFFra__header"&gt;&lt;div class="MatchHeader-module-scss-module__uXFFra__content"&gt;&lt;div class="MatchHeader-module-scss-module__uXFFra__subLabel"&gt;&lt;span class="MatchHeader-module-scss-module__uXFFra__label"&gt;Women&amp;#x27;s Singles&lt;/span&gt;&lt;span class="MatchHeader-module-scss-module__uXFFra__separator" aria-hidden="true"&gt;·&lt;/span&gt;&lt;span class="MatchHeader-module-scss-module__uXFFra__label"&gt;Semifinal&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="Match-module-scss-module__PXKSHa__body"&gt;&lt;div class="Match-module-scss-module__PXKSHa__statusRow"&gt;&lt;span class="StatusBadge-module-scss-module__EZqBlW__row"&gt;&lt;span class="StatusBadge-module-scss-module__EZqBlW__pill" data-color="completed"&gt;Completed&lt;/span&gt;&lt;/span&gt;&lt;div class="Match-module-scss-module__PXKSHa__actions"&gt;&lt;a class="WatchCTA-module-scss-module__VaZQBG__cta" href="https://www.tennischannel.com/en-us/video/sabalenka-aryna-pegula-jessica/2181722?utm_source=tennisdotcom&amp;amp;utm_medium=website&amp;amp;utm_campaign=new" target="_blank" rel="noopener noreferrer" aria-label="Watch on Tennis Channel"&gt;&lt;svg viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"&gt;&lt;path d="M11.5986 0.223665V2.59916L0.000837054 1.07309V0.223665H11.5986ZM0.000837054 3.54346V11.8417H2.71338L4.87965 4.18052L0.000837054 3.54346ZM5.25282 11.8417H11.5986V5.07016L7.3338 4.49278L5.25282 11.8417Z" fill="currentColor"&gt;&lt;/path&gt;&lt;/svg&gt;&lt;span&gt;Watch&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="Match-module-scss-module__PXKSHa__competitors "&gt;&lt;div class="Match-module-scss-module__PXKSHa__competitorRow Match-module-scss-module__PXKSHa__loser"&gt;&lt;div class="PlayerRow-module-scss-module__OaqTZq__row"&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__flagSlot"&gt;&lt;span class="CountryFlag-module-scss-module__LcYxaG__placeholder" aria-hidden="true"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__name"&gt;A. Sabalenka&lt;/span&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__seed"&gt;1&lt;/span&gt;&lt;/div&gt;&lt;div class="ScoreGrid-module-scss-module__RutXya__grid" aria-label="Set scores"&gt;&lt;div class="ScoreGrid-module-scss-module__RutXya__sets"&gt;&lt;span class="SetScore-module-scss-module__d0FKqW__cell SetScore-module-scss-module__d0FKqW__loser"&gt;&lt;span class="SetScore-module-scss-module__d0FKqW__games "&gt;4&lt;/span&gt;&lt;/span&gt;&lt;span class="SetScore-module-scss-module__d0FKqW__cell "&gt;&lt;span class="SetScore-module-scss-module__d0FKqW__games "&gt;7&lt;/span&gt;&lt;sup class="SetScore-module-scss-module__d0FKqW__tiebreak "&gt;7&lt;/sup&gt;&lt;/span&gt;&lt;span class="SetScore-module-scss-module__d0FKqW__cell SetScore-module-scss-module__d0FKqW__loser"&gt;&lt;span class="SetScore-module-scss-module__d0FKqW__games "&gt;0&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="Match-module-scss-module__PXKSHa__divider" aria-hidden="true"&gt;&lt;/div&gt;&lt;div class="Match-module-scss-module__PXKSHa__competitorRow "&gt;&lt;div class="PlayerRow-module-scss-module__OaqTZq__row"&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__flagSlot"&gt;&lt;img alt="USA" loading="lazy" width="16" height="10" decoding="async" data-nimg="1" class="CountryFlag-module-scss-module__LcYxaG__flag" style="color:transparent" sizes="16px" srcSet="https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=32&amp;amp;fm=webp&amp;amp;q=75 32w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=48&amp;amp;fm=webp&amp;amp;q=75 48w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=64&amp;amp;fm=webp&amp;amp;q=75 64w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=96&amp;amp;fm=webp&amp;amp;q=75 96w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=128&amp;amp;fm=webp&amp;amp;q=75 128w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=256&amp;amp;fm=webp&amp;amp;q=75 256w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=384&amp;amp;fm=webp&amp;amp;q=75 384w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=640&amp;amp;fm=webp&amp;amp;q=75 640w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=750&amp;amp;fm=webp&amp;amp;q=75 750w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=828&amp;amp;fm=webp&amp;amp;q=75 828w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=1080&amp;amp;fm=webp&amp;amp;q=75 1080w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=1200&amp;amp;fm=webp&amp;amp;q=75 1200w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=1920&amp;amp;fm=webp&amp;amp;q=75 1920w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=2048&amp;amp;fm=webp&amp;amp;q=75 2048w, https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75 3840w" src="https://media.prod.tennis.com/v1/tcf/images/flags/usa.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75"/&gt;&lt;/span&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__name"&gt;J. Pegula&lt;/span&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__seed"&gt;3&lt;/span&gt;&lt;/div&gt;&lt;div class="ScoreGrid-module-scss-module__RutXya__grid" aria-label="Set scores"&gt;&lt;div class="ScoreGrid-module-scss-module__RutXya__sets"&gt;&lt;span class="SetScore-module-scss-module__d0FKqW__cell "&gt;&lt;span class="SetScore-module-scss-module__d0FKqW__games "&gt;6&lt;/span&gt;&lt;/span&gt;&lt;span class="SetScore-module-scss-module__d0FKqW__cell SetScore-module-scss-module__d0FKqW__loser"&gt;&lt;span class="SetScore-module-scss-module__d0FKqW__games "&gt;6&lt;/span&gt;&lt;sup class="SetScore-module-scss-module__d0FKqW__tiebreak "&gt;4&lt;/sup&gt;&lt;/span&gt;&lt;span class="SetScore-module-scss-module__d0FKqW__cell "&gt;&lt;span class="SetScore-module-scss-module__d0FKqW__games "&gt;6&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/article&gt;&lt;article class="Match-module-scss-module__PXKSHa__card Match-module-scss-module__PXKSHa__linked"&gt;&lt;a aria-label="Match details: Nosková, Linda vs Eala, Alexandra" class="Match-module-scss-module__PXKSHa__stretchedLink" href="/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-20"&gt;&lt;/a&gt;&lt;div class="MatchHeader-module-scss-module__uXFFra__header"&gt;&lt;div class="MatchHeader-module-scss-module__uXFFra__content"&gt;&lt;div class="MatchHeader-module-scss-module__uXFFra__subLabel"&gt;&lt;span class="MatchHeader-module-scss-module__uXFFra__label"&gt;Women&amp;#x27;s Singles&lt;/span&gt;&lt;span class="MatchHeader-module-scss-module__uXFFra__separator" aria-hidden="true"&gt;·&lt;/span&gt;&lt;span class="MatchHeader-module-scss-module__uXFFra__label"&gt;Semifinal&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="Match-module-scss-module__PXKSHa__body"&gt;&lt;div class="Match-module-scss-module__PXKSHa__statusRow"&gt;&lt;span class="StatusBadge-module-scss-module__EZqBlW__row"&gt;&lt;span class="StatusBadge-module-scss-module__EZqBlW__pill" data-color="completed"&gt;Completed&lt;/span&gt;&lt;/span&gt;&lt;div class="Match-module-scss-module__PXKSHa__actions"&gt;&lt;a class="WatchCTA-module-scss-module__VaZQBG__cta" href="https://www.tennischannel.com/en-us/video/noskova-linda-eala-alexandra/2181719?utm_source=tennisdotcom&amp;amp;utm_medium=website&amp;amp;utm_campaign=new" target="_blank" rel="noopener noreferrer" aria-label="Watch on Tennis Channel"&gt;&lt;svg viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"&gt;&lt;path d="M11.5986 0.223665V2.59916L0.000837054 1.07309V0.223665H11.5986ZM0.000837054 3.54346V11.8417H2.71338L4.87965 4.18052L0.000837054 3.54346ZM5.25282 11.8417H11.5986V5.07016L7.3338 4.49278L5.25282 11.8417Z" fill="currentColor"&gt;&lt;/path&gt;&lt;/svg&gt;&lt;span&gt;Watch&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="Match-module-scss-module__PXKSHa__competitors "&gt;&lt;div class="Match-module-scss-module__PXKSHa__competitorRow "&gt;&lt;div class="PlayerRow-module-scss-module__OaqTZq__row"&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__flagSlot"&gt;&lt;img alt="CZE" loading="lazy" width="16" height="10" decoding="async" data-nimg="1" class="CountryFlag-module-scss-module__LcYxaG__flag" style="color:transparent" sizes="16px" srcSet="https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=32&amp;amp;fm=webp&amp;amp;q=75 32w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=48&amp;amp;fm=webp&amp;amp;q=75 48w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=64&amp;amp;fm=webp&amp;amp;q=75 64w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=96&amp;amp;fm=webp&amp;amp;q=75 96w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=128&amp;amp;fm=webp&amp;amp;q=75 128w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=256&amp;amp;fm=webp&amp;amp;q=75 256w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=384&amp;amp;fm=webp&amp;amp;q=75 384w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=640&amp;amp;fm=webp&amp;amp;q=75 640w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=750&amp;amp;fm=webp&amp;amp;q=75 750w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=828&amp;amp;fm=webp&amp;amp;q=75 828w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=1080&amp;amp;fm=webp&amp;amp;q=75 1080w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=1200&amp;amp;fm=webp&amp;amp;q=75 1200w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=1920&amp;amp;fm=webp&amp;amp;q=75 1920w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=2048&amp;amp;fm=webp&amp;amp;q=75 2048w, https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75 3840w" src="https://media.prod.tennis.com/v1/tcf/images/flags/cze.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75"/&gt;&lt;/span&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__name"&gt;L. Nosková&lt;/span&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__seed"&gt;8&lt;/span&gt;&lt;/div&gt;&lt;div class="ScoreGrid-module-scss-module__RutXya__grid" aria-label="Set scores"&gt;&lt;div class="ScoreGrid-module-scss-module__RutXya__sets"&gt;&lt;span class="SetScore-module-scss-module__d0FKqW__cell "&gt;&lt;span class="SetScore-module-scss-module__d0FKqW__games "&gt;6&lt;/span&gt;&lt;/span&gt;&lt;span class="SetScore-module-scss-module__d0FKqW__cell "&gt;&lt;span class="SetScore-module-scss-module__d0FKqW__games "&gt;6&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="Match-module-scss-module__PXKSHa__divider" aria-hidden="true"&gt;&lt;/div&gt;&lt;div class="Match-module-scss-module__PXKSHa__competitorRow Match-module-scss-module__PXKSHa__loser"&gt;&lt;div class="PlayerRow-module-scss-module__OaqTZq__row"&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__flagSlot"&gt;&lt;img alt="PHL" loading="lazy" width="16" height="10" decoding="async" data-nimg="1" class="CountryFlag-module-scss-module__LcYxaG__flag" style="color:transparent" sizes="16px" srcSet="https://media.prod.tennis.com/v1/tcf/images/flags/phl.jpg?w=32&amp;amp;fm=webp&amp;amp;q=75 32w, https://media.prod.tennis.com/v1/tcf/images/flags/phl.jpg?w=48&amp;amp;fm=webp&amp;amp;q=75 48w, https://media.prod.tennis.com/v1/tcf/images/flags/phl.jpg?w=64&amp;amp;fm=webp&amp;amp;q=75 64w, https://media.prod.tennis.com/v1/tcf/images/flags/phl.jpg?w=96&amp;amp;fm=webp&amp;amp;q=75 96w, https://media.prod.tennis.com/v1/tcf/images/flags/phl.jpg?w=128&amp;amp;fm=webp&amp;amp;q=75 128w, https://media.prod.tennis.com/v1/tcf/images/flags/phl.jpg?w=256&amp;amp;fm=webp&amp;amp;q=75 256w, https://media.prod.tennis.com/v1/tcf/images/flags/phl.jpg?w=384&amp;amp;fm=webp&amp;amp;q=75 384w, https://media.prod.tennis.com/v1/tcf/images/flags/phl.jpg?w=640&amp;amp;fm=webp&amp;amp;q=75 640w, https://media.prod.tennis.com/v1/tcf/images/flags/phl.jpg?w=750&amp;amp;fm=webp&amp;amp;q=75 750w, https://media.prod.tennis.com/v1/tcf/images/flags/phl.jpg?w=828&amp;amp;fm=webp&amp;amp;q=75 828w, https://media.prod.tennis.com/v1/tcf/images/flags/phl.jpg?w=1080&amp;amp;fm=webp&amp;amp;q=75 1080w, https://media.prod.tennis.com/v1/tcf/images/flags/phl.jpg?w=1200&amp;amp;fm=webp&amp;amp;q=75 1200w, https://media.prod.tennis.com/v1/tcf/images/flags/phl.jpg?w=1920&amp;amp;fm=webp&amp;amp;q=75 1920w, https://media.prod.tennis.com/v1/tcf/images/flags/phl.jpg?w=2048&amp;amp;fm=webp&amp;amp;q=75 2048w, https://media.prod.tennis.com/v1/tcf/images/flags/phl.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75 3840w" src="https://media.prod.tennis.com/v1/tcf/images/flags/phl.jpg?w=3840&amp;amp;fm=webp&amp;amp;q=75"/&gt;&lt;/span&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__name"&gt;A. Eala&lt;/span&gt;&lt;span class="PlayerRow-module-scss-module__OaqTZq__seed"&gt;WC&lt;/span&gt;&lt;/div&gt;&lt;div class="ScoreGrid-module-scss-module__RutXya__grid" aria-label="Set scores"&gt;&lt;div class="ScoreGrid-module-scss-module__RutXya__sets"&gt;&lt;span class="SetScore-module-scss-module__d0FKqW__cell SetScore-module-scss-module__d0FKqW__loser"&gt;&lt;span class="SetScore-module-scss-module__d0FKqW__games "&gt;2&lt;/span&gt;&lt;/span&gt;&lt;span class="SetScore-module-scss-module__d0FKqW__cell SetScore-module-scss-module__d0FKqW__loser"&gt;&lt;span class="SetScore-module-scss-module__d0FKqW__games "&gt;4&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/article&gt;&lt;/div&gt;&lt;div class="page-module-scss-module__euNfxa__listFooter page-module-scss-module__euNfxa__narrowOnly"&gt;&lt;a class="page-module-scss-module__euNfxa__backLink" href="/tournaments"&gt;&lt;svg class="page-module-scss-module__euNfxa__backArrow page-module-scss-module__euNfxa__backArrowLeft" viewBox="0 0 14 12" fill="none" aria-hidden="true" focusable="false"&gt;&lt;path d="M13 6H1m0 0L6 1m-5 5l5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"&gt;&lt;/path&gt;&lt;/svg&gt;&lt;span class="page-module-scss-module__euNfxa__backLabel"&gt;See all tournaments&lt;/span&gt;&lt;/a&gt;&lt;button type="button" class="page-module-scss-module__euNfxa__backLink page-module-scss-module__euNfxa__backToTop"&gt;&lt;span class="page-module-scss-module__euNfxa__backLabel"&gt;Back to top&lt;/span&gt;&lt;svg class="page-module-scss-module__euNfxa__backArrow page-module-scss-module__euNfxa__backArrowUp" viewBox="0 0 14 12" fill="none" aria-hidden="true" focusable="false"&gt;&lt;path d="M7 11V1m0 0L2 6m5 -5l5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/button&gt;&lt;/div&gt;&lt;/section&gt;&lt;/main&gt;&lt;template id="P:5"&gt;&lt;/template&gt;&lt;script type="application/ld+json"&gt;{"@context":"https://schema.org","@type":"SportsEvent","name":"VANDA Pharmaceuticals Berlin Tennis Open","sport":"Tennis","startDate":"2026-06-13","endDate":"2026-06-21","location":{"@type":"Place","name":"Berlin, Germany"},"subEvent":[{"@context":"https://schema.org","@type":"SportsEvent","name":"Sabalenka, Aryna vs Pegula, Jessica","sport":"Tennis","eventStatus":"https://schema.org/EventCompleted","startDate":"2026-06-20T10:00:00Z","homeTeam":{"@type":"Person","name":"Sabalenka, Aryna"},"awayTeam":{"@type":"Person","name":"Pegula, Jessica","nationality":"USA"},"superEvent":{"@type":"SportsEvent","name":"VANDA Pharmaceuticals Berlin Tennis Open","startDate":"2026-06-13","endDate":"2026-06-21","location":{"@type":"Place","name":"Berlin, Germany"}}},{"@context":"https://schema.org","@type":"SportsEvent","name":"Nosková, Linda vs Eala, Alexandra","sport":"Tennis","eventStatus":"https://schema.org/EventCompleted","startDate":"2026-06-20T16:00:00Z","homeTeam":{"@type":"Person","name":"Nosková, Linda","nationality":"CZE"},"awayTeam":{"@type":"Person","name":"Eala, Alexandra","nationality":"PHL"},"superEvent":{"@type":"SportsEvent","name":"VANDA Pharmaceuticals Berlin Tennis Open","startDate":"2026-06-13","endDate":"2026-06-21","location":{"@type":"Place","name":"Berlin, Germany"}}},{"@context":"https://schema.org","@type":"SportsEvent","name":"Muhammad, Asia vs Errani, Sara","sport":"Tennis","eventStatus":"https://schema.org/EventScheduled","startDate":"2026-06-20T16:15:00Z","homeTeam":{"@type":"Person","name":"Muhammad, Asia","nationality":"USA"},"awayTeam":{"@type":"Person","name":"Errani, Sara","nationality":"ITA"},"superEvent":{"@type":"SportsEvent","name":"VANDA Pharmaceuticals Berlin Tennis Open","startDate":"2026-06-13","endDate":"2026-06-21","location":{"@type":"Place","name":"Berlin, Germany"}}},{"@context":"https://schema.org","@type":"SportsEvent","name":"Alexandrova, Ekaterina vs Eikeri, Ulrikke","sport":"Tennis","eventStatus":"https://schema.org/EventScheduled","startDate":"2026-06-20T18:20:00Z","homeTeam":{"@type":"Person","name":"Alexandrova, Ekaterina"},"awayTeam":{"@type":"Person","name":"Eikeri, Ulrikke","nationality":"NOR"},"superEvent":{"@type":"SportsEvent","name":"VANDA Pharmaceuticals Berlin Tennis Open","startDate":"2026-06-13","endDate":"2026-06-21","location":{"@type":"Place","name":"Berlin, Germany"}}}]}&lt;/script&gt;&lt;/div&gt;&lt;/div&gt;&lt;script&gt;$RS=function(a,b){a=document.getElementById(a);b=document.getElementById(b);for(a.parentNode.removeChild(a);a.firstChild;)b.parentNode.insertBefore(a.firstChild,b);b.parentNode.removeChild(b)};$RS("S:2","P:2")&lt;/script&gt;&lt;script&gt;self.__next_f.push([1,"33:I[39306,[\"/_next/static/chunks/710b599927eb5fad.js\",\"/_next/static/chunks/a31e6df0998a1ca6.js\",\"/_next/static/chunks/e8c43562c81fcd4a.js\",\"/_next/static/chunks/053cb8158a15cca8.js\",\"/_next/static/chunks/0747049063d14365.js\",\"/_next/static/chunks/e743872e219ad913.js\"],\"GoogleAdSlotWidget\"]\n2c:[\"$\",\"section\",null,{\"className\":\"LayoutRegion-module-scss-module__drBmOW__region\",\"data-region\":\"bottom\",\"children\":[[\"$\",\"$L33\",\"d2lkZ2V0OmFjMDI4NjI0LTcyMDEtNDg3MS05YjNiLTI1MTA3NzliYTA1MA\",{\"content\":{\"__typename\":\"GoogleAdSlot\",\"adUnitPath\":\"/4756/TCOM/Tournaments/details\",\"sizes\":[[728,90],[970,90]]},\"widgetId\":\"d2lkZ2V0OmFjMDI4NjI0LTcyMDEtNDg3MS05YjNiLTI1MTA3NzliYTA1MA\",\"regionCode\":\"bottom\"}]]}]\n31:[\"$\",\"section\",null,{\"className\":\"LayoutRegion-module-scss-module__drBmOW__region\",\"data-region\":\"top\",\"children\":[[\"$\",\"$L33\",\"d2lkZ2V0OmZlMGQ4Njc0LWJkMzQtNDg3MC05NGU1LWQyOTg0ZTI4OTBjMQ\",{\"content\":{\"__typename\":\"GoogleAdSlot\",\"adUnitPath\":\"/4756/TCOM/Tournaments/details\",\"sizes\":[[728,90],[970,90]]},\"widgetId\":\"d2lkZ2V0OmZlMGQ4Njc0LWJkMzQtNDg3MC05NGU1LWQyOTg0ZTI4OTBjMQ\",\"regionCode\":\"top\"}]]}]\n"])&lt;/script&gt;&lt;link rel="preload" href="https://securepubads.g.doubleclick.net/tag/js/gpt.js" as="script" crossorigin=""/&gt;&lt;div hidden id="S:5"&gt;&lt;section class="LayoutRegion-module-scss-module__drBmOW__region" data-region="bottom"&gt;&lt;div id="gpt-ad-d2lkZ2V0OmFjMDI4NjI0LTcyMDEtNDg3MS05YjNiLTI1MTA3NzliYTA1MA" class="GoogleAdSlotWidget-module-scss-module__qUeTrq__slot"&gt;&lt;/div&gt;&lt;/section&gt;&lt;/div&gt;&lt;script&gt;$RS("S:5","P:5")&lt;/script&gt;&lt;div hidden id="S:4"&gt;&lt;section class="LayoutRegion-module-scss-module__drBmOW__region" data-region="top"&gt;&lt;div id="gpt-ad-d2lkZ2V0OmZlMGQ4Njc0LWJkMzQtNDg3MC05NGU1LWQyOTg0ZTI4OTBjMQ" class="GoogleAdSlotWidget-module-scss-module__qUeTrq__slot"&gt;&lt;/div&gt;&lt;/section&gt;&lt;/div&gt;&lt;script&gt;$RS("S:4","P:4")&lt;/script&gt;&lt;script&gt;$RC("B:1","S:1")&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "path": "/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/2a5acd28-d344-4798-a9a8-417bf8b40f0d.txt",
+  "pattern": "noskova.*eala|eala.*noskova|/matches/"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/2a5acd28-d344-4798-a9a8-417bf8b40f0d.txt",
+  "pattern": "noskova.*eala|eala.*noskova|/matches/",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "../../../.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/2a5acd28-d344-4798-a9a8-417bf8b40f0d.txt"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: for url in \
+  "https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-20" \
+  "https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-l-noskova-2026-06-20" \
+  "https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-21" \
+  "https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-l-noskova-2026-06-21"; do
+  code=$(curl -sL -o /dev/null -w "%{http_code}" -A "Mozilla/5.0" "$url")
+  echo "$code $url"
+done</summary>
+
+```bash
+for url in \
+  "https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-20" \
+  "https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-l-noskova-2026-06-20" \
+  "https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-21" \
+  "https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-l-noskova-2026-06-21"; do
+  code=$(curl -sL -o /dev/null -w "%{http_code}" -A "Mozilla/5.0" "$url")
+  echo "$code $url"
+done
+```
+
+```
+200 https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-20
+200 https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-l-noskova-2026-06-20
+200 https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-21
+200 https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-l-noskova-2026-06-21
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search">
+<details>
+<summary>Tool use: **web_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Alex Eala Linda Noskova Berlin semifinal lost 6-2 6-4 June 21 2026"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [LIVE: Alex Eala vs Linda Noskova - Berlin Open semifinals](https://sports.inquirer.net/682860/live-alex-eala-vs-linda-noskova-2026-berlin-open-semifinals)\n2. [Noskova vs. Eala | Semifinals VANDA Pharmaceuticals Berlin Tennis Open 2026 | WTA Official](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003)\n3. [ALEXANDRA EALA 🇵🇭 VS LINDA NOSKOVÁ 🇨🇿 | BERLIN OPEN 2026 SEMIFINAL | LIVE SCORE \u0026 MATCH UPDATES 🎾 - YouTube](https://www.youtube.com/watch?v=aiTGkKkcFHs)\n4. [Eala rolls to another Top 10 win; Noskova rematch awaits in Berlin semifinals](https://www.wtatennis.com/news/4522571/eala-rolls-to-another-top-10-win-noskova-rematch-awaits-in-berlin-semifinals)\n\nSynthesis:\nAlex Eala defeated Linda Noskova 2-6, 6-4, 6-4 in the Berlin Open semifinals held on June 20, 2026 [1]. The match victory earned Eala a spot in the final of the tournament [2][1].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eLIVE: Alex Eala vs Linda Noskova - Berlin Open semifinals\u003c/title\u003e\n\u003curl\u003ehttps://sports.inquirer.net/682860/live-alex-eala-vs-linda-noskova-2026-berlin-open-semifinals\u003c/url\u003e\n\u003ccontent\u003eLIVE: Alex Eala vs Linda Noskova - Berlin Open semifinals\n...\n# LIVE: Alex Eala vs Linda Noskova – 2026 Berlin Open semifinals\n...\nINQUIRER.net/ Updated as of: 06:33 PM June 20, 2026\n...\n- Alex Eala battles world No. 13 Linda Noskova as she eyes a place in the 2026 Berlin Open final.\n...\n- 8pm (tentative) – Alex Eala vs Linda Noskova\n...\n## Alex Eala braces for Linda Noskova challenge in Berlin Open semis\n...\nMANILA, Philippines–Alex Eala looks to turn the tables on Linda Noskova in their semifinal showdown at the 2026 Berlin Open on Saturday.\n...\nTheir match is scheduled for 8 p.m. (Manila time) at Steffi Graf Stadium.\n...\nAlex Eala braces for Linda Noskova challenge in Berlin Open semis\n...\nThe last time Eala faced Noskova, she a bsorbed a 6-2, 6-0 loss on the hard courts of Indian Wells last March.\n...\nEala, who is enjoying a phenomenal grass-court campaign, is well aware of the challenge posed by the world No. 13 from Czechia.\n...\n“She’s a big hitter, and she’s young, but she has a lot of experience, and she’s very powerful,” Eala said of Noskova, who beat Paula Badosa to advance to the semifinals.\n...\n“My last match with her proved to be very difficult for me. So, coming into the semifinals, I hope to prepare and make some improvements and show what I’ve got.”\n...\nAlex Eala braces for Linda Noskova challenge in Berlin Open semis\n...\nAlex Eala braces for Linda Noskova challenge in Berlin Open semis\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eNoskova vs. Eala | Semifinals VANDA Pharmaceuticals Berlin Tennis Open 2026 | WTA Official\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003\u003c/url\u003e\n\u003ccontent\u003eNoskova vs. Eala | Semifinals VANDA Pharmaceuticals Berlin Tennis Open 2026 | WTA Official\n\nGo back to the home page\n\n-\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eALEXANDRA EALA 🇵🇭 VS LINDA NOSKOVÁ 🇨🇿 | BERLIN OPEN 2026 SEMIFINAL | LIVE SCORE \u0026 MATCH UPDATES 🎾 - YouTube\u003c/title\u003e\n\u003curl\u003ehttps://www.youtube.com/watch?v=aiTGkKkcFHs\u003c/url\u003e\n\u003ccontent\u003eALEXANDRA EALA 🇵🇭 VS LINDA NOSKOVÁ 🇨🇿 | BERLIN OPEN 2026 SEMIFINAL | LIVE SCORE \u0026 MATCH UPDATES 🎾 - YouTube\n\nALEXANDRA EALA 🇵🇭 VS LINDA NOSKOVÁ 🇨🇿 | BERLIN OPEN 2026 SEMIFINAL | LIVE SCORE \u0026amp; MATCH UPDATES 🎾 - YouTube\n[](https://www.youtube.com/)[](https://www.youtube.com/)\n[About](https://www.youtube.com/about/)[Press](https://www.youtube.com/about/press/)[Copyright](https://www.youtube.com/about/copyright/)[Contact us](https://www.youtube.com/t/contact_us/)[Creators](https://www.youtube.com/creators/)[Advertise](https://www.youtube.com/ads/)[Developers](https://developers.google.com/youtube)[Terms](https://www.youtube.com/t/terms)[Privacy](https://www.youtube.com/t/privacy)[Policy \u0026 Safety](https://www.youtube.com/about/policies/)[How YouTube works](https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen\u0026utm_source=ythp\u0026utm_medium=LeftNav\u0026utm_content=txt\u0026u=https://www.youtube.com/howyoutubeworks?utm_source=ythp\u0026utm_medium=LeftNav\u0026utm_campaign=ytgen)[Test new features](https://www.youtube.com/new)\n\u0026copy; 2026 Google LLC\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eEala rolls to another Top 10 win; Noskova rematch awaits in Berlin semifinals\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/news/4522571/eala-rolls-to-another-top-10-win-noskova-rematch-awaits-in-berlin-semifinals\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala picked up another Top 10 win Friday, knocking off Elina Svitolina 6-3, 6-4 to book a trip to the Berlin semifinals. There she'll face Linda Noskova after the Czech defeated Paula Badosa in just 68 minutes earlier in the day.\n...\nWhen Alexandra Eala earns a Top 10 win, another often follows in short order. So it shouldn't come as a surprise that one day after upsetting Elena Rybakina, the 21-year-old collected another, defeating World No. 8 Elina Svitolina 6-3, 6-4 in 1 hour and 23 minutes to reach the Berlin semifinals for the first time.\n...\nNext up is a second WTA Tour Driven by Mercedes-Benz meeting with Linda Noskova, who defeated Paula Badosa 6-1, 6-3 in 68 minutes earlier Friday to reach her second grass-court semifinal. It will be a rematch of their recent Indian Wells encounter, where Noskova dropped just two games.\n...\nbreaking Svitolina five times. The first break gave\n...\na 2-0 lead, which she stretched to 4-1 before Svitolina clawed back to 4-3. The momentum swing didn't last long. E\n...\nbroke immediately, then struck a\n...\nhand winner in the next game to close out the opening set.\n...\nThe cycle repeated in the second. Eala broke first for 2-0, Svitolina leveled for 2-all and Eala responded with another break for 3-2. A fourth break allowed her to serve for the match at 5-2, but Svitolina refused to go quietly and narrowed the deficit to 5-4, 0-30. It was all for naught, as Eala won the final four points, sealing the win with the backhand winner.\n...\nAs was the case for Eala, the result was never really in doubt for Noskova, who raced to a 4-0 lead against the Spaniard. Badosa saved three break points to get on the board at 4-1, but Noskova took the next two games to claim the opening set.\n...\nAlexandra Eala picked up another Top 10 win Friday, knocking off Elina Svitolina 6-3, 6-4 to book a trip to the Berlin semifinals. There she'll face Linda Noskova after the Czech defeated Paula Badosa in just 68 minutes earlier in the day.\u003c/content\u003e\n\u003c/result\u003e",
+      "title": "Web search results"
+    }
+  ],
+  "rejected": false
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+Fetch timed out while retrieving content
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+Fetch timed out while retrieving content
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -A "Mozilla/5.0" "https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-20" | grep -oE '<title>[^<]+|Match not found|6-2|6-4|Completed|Semifinal' | head -15</summary>
+
+```bash
+curl -sL -A "Mozilla/5.0" "https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-20" | grep -oE '<title>[^<]+|Match not found|6-2|6-4|Completed|Semifinal' | head -15
+```
+
+```
+6-2
+6-2
+6-2
+Semifinal
+6-2
+6-2
+6-2
+Semifinal
+Completed
+Semifinal
+Semifinal
+6-2
+Semifinal
+Semifinal
+6-2
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Confirmed the match data for the Alex-Eala tracker update. The game shows a completed status and a 6-2 score.
+
+Checking naming conventions for other Berlin entries. Links vary by opponent. Some use Eala first. Others use the opponent first. Winner-first and loser-first patterns appear inconsistently.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -A "Mozilla/5.0" "https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-l-noskova-2026-06-20" | grep -oE 'Match not found|Completed|6-4' | head -5</summary>
+
+```bash
+curl -sL -A "Mozilla/5.0" "https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-l-noskova-2026-06-20" | grep -oE 'Match not found|Completed|6-4' | head -5
+```
+
+```
+Match not found
+Match not found
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Found the correct tennis.com URL for the match. Now preparing the tracker update.</details></think>
+
+_**Agent (default)**_
+
+Searching for verified YouTube highlights for the Svitolina QF and Noskova SF.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=6djWGxG7a8E&format=json" && echo "" && curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=wQ1Y2R4_dAU&format=json"</summary>
+
+```bash
+curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=6djWGxG7a8E&format=json" && echo "" && curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=wQ1Y2R4_dAU&format=json"
+```
+
+```
+{"title":"Alex Eala moves one set away from the semifinals in Berlin, taking the first 6-3! #BTO26","author_name":"WTA","author_url":"https://www.youtube.com/@WTA","type":"video","height":113,"width":200,"version":"1.0","provider_name":"YouTube","provider_url":"https://www.youtube.com/","thumbnail_height":360,"thumbnail_width":480,"thumbnail_url":"https://i.ytimg.com/vi/6djWGxG7a8E/hqdefault.jpg","html":"\u003ciframe width=\u0022200\u0022 height=\u0022113\u0022 src=\u0022https://www.youtube.com/embed/6djWGxG7a8E?feature=oembed\u0022 frameborder=\u00220\u0022 allow=\u0022accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\u0022 referrerpolicy=\u0022strict-origin-when-cross-origin\u0022 allowfullscreen title=\u0022Alex Eala moves one set away from the semifinals in Berlin, taking the first 6-3! #BTO26\u0022\u003e\u003c/iframe\u003e"}
+{"title":"Alexandra Eala vs. Linda Noskova | 2026 Indian Wells Round of 16 | WTA Match Highlights","author_name":"WTA","author_url":"https://www.youtube.com/@WTA","type":"video","height":113,"width":200,"version":"1.0","provider_name":"YouTube","provider_url":"https://www.youtube.com/","thumbnail_height":360,"thumbnail_width":480,"thumbnail_url":"https://i.ytimg.com/vi/wQ1Y2R4_dAU/hqdefault.jpg","html":"\u003ciframe width=\u0022200\u0022 height=\u0022113\u0022 src=\u0022https://www.youtube.com/embed/wQ1Y2R4_dAU?feature=oembed\u0022 frameborder=\u00220\u0022 allow=\u0022accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\u0022 referrerpolicy=\u0022strict-origin-when-cross-origin\u0022 allowfullscreen title=\u0022Alexandra Eala vs. Linda Noskova | 2026 Indian Wells Round of 16 | WTA Match Highlights\u0022\u003e\u003c/iframe\u003e"}
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search">
+<details>
+<summary>Tool use: **web_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "searchTerm": "WTA Berlin 2026 Eala Svitolina highlights youtube OR Eala Noskova Berlin semifinal highlights"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [VANDA Pharmaceuticals Berlin Tennis Open 2026 Scores | Latest Scores \u0026 Live Updates – WTA Official](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores)\n2. [Alex Eala to face Linda Noskova in Berlin Tennis Open semifinals | GMA News Online](https://www.gmanetwork.com/news/sports/othersports/992100/alex-eala-to-face-linda-noskova-in-berlin-tennis-open-semifinals/story/)\n3. [🔥 EPIC Showdown: Alex Eala vs Elina Svitolina – Berlin Open Quarterfinal HIGHLIGHTS!](https://www.youtube.com/watch?v=H7nAB7uyKWU)\n\nSynthesis:\nYou can find the official highlight video for the Alexandra Eala vs. Elina Svitolina quarterfinal match on the WTA website or their official YouTube channel, titled Not done yet! Eala battles past Svitolina and into Berlin last four [1][2]. As of June 20, 2026, the semifinal match between Alexandra Eala and Linda Noskova is the upcoming fixture in the Berlin Tennis Open, so official highlights for that specific match are not yet available [3][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eVANDA Pharmaceuticals Berlin Tennis Open 2026 Scores | Latest Scores \u0026 Live Updates – WTA Official\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/tournaments/2012/berlin/2026/scores\u003c/url\u003e\n\u003ccontent\u003eVANDA Pharmaceuticals Berlin Tennis Open 2026 Scores | Latest Scores \u0026 Live Updates – WTA Official\n\nGo back to the home page\n\n-\n\nNot done yet! Eala battles past Svitolina and into Berlin last four\n\n05:12\n\nhighlights\n\n### Not done yet! Eala battles past Svitolina and into Berlin last four\n\n19h ago\n\nSabalenka rallies from 6-2, 4-0 down against Bartunkova to make Berlin semis\n\n06:15\n\nhighlights\n\n### Sabalenka rallies from 6-2, 4-0 down against Bartunkova to make Berlin semis\n\n21h ago\n\nNoskova overpowers Badosa in 68 minutes to reach Berlin semifinals\n\n02:15\n\nhighlights\n\n### Noskova overpowers Badosa in 68 minutes to reach Berlin semifinals\n\n1d ago\n\nIn two tiebreaks, Pegula wins fifth edition of rivalry with Keys in Berlin\n\n04:48\n\nhighlights\n\n### In two tiebreaks, Pegula wins fifth edition of rivalry with Keys in Berlin\n\n1d ago\n\nEala matches career‑best win with straight‑sets stunner over Rybakina in Berlin\n\n04:03\n\nhighlights\n\n### Eala matches career‑best win with straight‑sets stunner over Rybakina in Berlin\n\n1d ago\n\nKeys maintains perfect record vs. Muchova to reach Berlin quarters\n\n04:32\n\nhighlights\n\n### Keys maintains perfect record vs. Muchova to reach Berlin quarters\n\n1d ago\n\nSvitolina enjoys smooth passage into Berlin quarterfinals\n\n02:45\n\nhighlights\n\n### Svitolina enjoys smooth passage into Berlin quarterfinals\n\n2d ago\n\nNoskova powers past Parry in Berlin; into fourth quarterfinal of 2026\n\n03:11\n\nhighlights\n\n### Noskova powers past Parry in Berlin; into fourth quarterfinal of 2026\n\n2d ago\n\nSabalenka aces Alexandrova test to make Berlin quarterfinals\n\n04:01\n\nhighlights\n\n### Sabalenka aces Alexandrova test to make Berlin quarterfinals\n\n2d ago\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eAlex Eala to face Linda Noskova in Berlin Tennis Open semifinals | GMA News Online\u003c/title\u003e\n\u003curl\u003ehttps://www.gmanetwork.com/news/sports/othersports/992100/alex-eala-to-face-linda-noskova-in-berlin-tennis-open-semifinals/story/\u003c/url\u003e\n\u003ccontent\u003eAlex Eala to face Linda Noskova in Berlin Tennis Open semifinals | GMA News Online\n...\nWTA 500 - Berlin Open - Steffi Graf Stadium, Berlin, Germany - June 17, 2026 Philippines' Alexandra Eala in action during her round of 32 match against Croatia's Donna Vekic REUTERS/Fabrizio Bensch\n...\nAlexandra “Alex” Eala will face Czech standout Linda Noskova once again, this time in the semifinals of the Berlin Tennis Open.\n...\nEala secured her spot in the final four after stunning world No. 8 Elina Svitolina, 6-3, 6-4, in the quarterfinals on early Saturday.\n...\nNoskova, meanwhile, advanced to the semifinals with a dominant 6-1, 6-3 victory over Paola Badosa.\n...\nThe two previously met at the Indian Wells Open, where Noskova handed Eala a 6-2, 6-0 defeat.\n...\n### Alex Eala stuns world No. 8 Elina Svitolina, reaches Berlin Tennis Open semifinals\n...\n### LIVE UPDATES: Alex Eala vs Elina Svitolina at the Berlin Tennis Open Quarterfinals\n...\n### Alex Eala at the Berlin Tennis Open: Match Highlights\n...\nHowever, Eala got the better of Noskova in their junior days, defeating the Czech player 4-6, 6-3, 6-2 at the 2020 French Open girls' tournament.\n...\n“Well, like you said, she's a big hitter. She's young, but she already has a lot of experience and is very powerful,” Eala said of the 21-year-old Czech.\n...\n“My last match with her proved to be very difficult for me. So coming into the semifinals, I hope to prepare, make some improvements, and show what I've got.”\n...\nThe winner of the match will advance to the final and face either Aryna Sabalenka or Jessica Pegula, who will square off in the other semifinal.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003e🔥 EPIC Showdown: Alex Eala vs Elina Svitolina – Berlin Open Quarterfinal HIGHLIGHTS!\u003c/title\u003e\n\u003curl\u003ehttps://www.youtube.com/watch?v=H7nAB7uyKWU\u003c/url\u003e\n\u003ccontent\u003e# 🔥 EPIC Showdown: Alex Eala vs Elina Svitolina – Berlin Open Quarterfinal HIGHLIGHTS!\n...\n- Channel: USA News Sports Update\n...\n- Length: 18:14\n...\n- Views: 4.4K\n...\n- Likes: 84\n...\n- Published: 2026-06-18T19:26:29-07:00\n...\n- Category: Sports\n...\n- Keywords: #AlexEala, #ElinaSvitolina, #BerlinOpen, #Quarterfinal, #TennisMatch, #SportsHighlights, #CrazyMatch, #WTA, #TennisHighlights, #AthleteLife, #MatchOfTheDay, #WomensTennis, #EpicShowdown, #GameOn, #TennisLovers, #DuelOfTheStars, #TennisFans, #BerlinTennis, tennis highlights, atp tour, tennis, alex eala, elina svitolina, womens tennis, elena rybakina, grass court tennis, alexandra eala, berlin open 2026, hologic wta tour, alex eala news, tennis news, wta highlights, wta tour, alex eala highlights, usa\n...\n🏆 **INTENSE SHOWDOWN UNFOLDS**: Aleya Eala battles Elina Svitolina in the thrilling Berlin Open Quarterfinals! 🎾🌟 Witness every exhilarating moment as these tennis titans clash on the court, full of precision, power, and suspense! Who will rise to the challenge? 🥁🔥 In this must-see match, you'll experience epic rallies, breathtaking shot-making, and nail-biting tension that keeps you on the edge of your seat! Get ready for an unforgettable highlight reel packed with drama and unforgettable feelings. Don’t forget to relish our expert analysis after the match! 📝**SUBSCRIBE** now for more electrifying matches and updates! #AlexEala #ElinaSvitolina #BerlinOpen #TennisHighlights\u003c/content\u003e\n\u003c/result\u003e",
+      "title": "Web search results"
+    }
+  ],
+  "rejected": false
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search">
+<details>
+<summary>Tool use: **web_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "searchTerm": "youtube \"Not done yet! Eala battles past Svitolina\" BTO26 WTA"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Rybakina pulls out of Bad Homburg with right hip discomfort](https://www.wtatennis.com/news/4522559/elena-rybakina-pulls-out-of-bad-homburg-with-right-hip-discomfort)\n2. [Eala rolls to another Top 10 win; Noskova rematch awaits in Berlin semifinals](https://www.wtatennis.com/news/4522571/eala-rolls-to-another-top-10-win-noskova-rematch-awaits-in-berlin-semifinals)\n3. [Instagram](https://www.instagram.com/reel/DZxsQiltFdv/)\n4. [Alex Eala vs E. Svitolina - Quarter Finals at Berlin Open Tennis - YouTube](https://www.youtube.com/watch?v=EjCzR_7jYkE)\n\nSynthesis:\nThe phrase Not done yet! Eala battles past Svitolina and into Berlin last four refers to Alexandra Eala’s quarterfinal victory over Elina Svitolina at the 2026 Berlin Open [1][2]. Played on June 19, 2026, the match ended in a 6-3, 6-4 win for Eala, marking her second consecutive victory over a top-10 player following her defeat of Elena Rybakina [2][3]. This win advanced Eala to her first Berlin Open semifinal, where she faced Linda Noskova [2][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eRybakina pulls out of Bad Homburg with right hip discomfort\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/news/4522559/elena-rybakina-pulls-out-of-bad-homburg-with-right-hip-discomfort\u003c/url\u003e\n\u003ccontent\u003eElena Rybakina has withdrawn from next week's Bad Homburg Open, citing right hip discomfort. The World No. 2 is just 7-5 since winning Stuttgart in April, and hasn't made it past the quarterfinals in her last five tournaments.\n...\nNot done yet! Eala battles past Svitolina and into Berlin last four\n...\n### Not done yet! Eala battles past Svitolina and into Berlin last four\n...\nElena Rybakina has pulled out of next week's Bad Homburg Open with right hip discomfort, the tournament announced in an Instagram story.\n...\n\"Unfortunately, I have to withdraw from Bad Homburg due to some discomfort in my right hip,\" the World No. 2 said. \"I need to consult with my medical team and undergo further assessment before making any decisions about the next steps. Thank you for your understanding and support.\"\n...\nThe announcement comes just a day after Rybakina, who was going to be the top seed in Bad Homburg, was upset by Alexandra Eala in Berlin. Rybakina led 4-1 early in that match, but Eala rattled off six of the next seven games to take the first set. Rybakina won less than 30 percent of her second serves in the 7-5, 6-4 loss, and was broken three times.\n...\nSince winning her second WTA Tour Driven by Mercedes-Benz title of 2026 in April, in Stuttgart, Rybakina is just 7-5. She hasn't gotten past the quarterfinals in her last five tournaments.\n...\nWith Rybakina no longer in the draw, Iga Swiatek will be the top seed in Bad Homburg, and she'll be joined by Top 10 players Andreeva, Elina Svitolina and Karolina Muchova.\n...\nElena Rybakina has withdrawn from next week's Bad Homburg Open, citing right hip discomfort. The World No. 2 is just 7-5 since winning Stuttgart in April, and hasn't made it past the quarterfinals in her last five tournaments.\n...\nNot done yet! Eala battles past Svitolina and into Berlin last four\n...\n### Not done yet! Eala battles past Svitolina and into Berlin last four\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eEala rolls to another Top 10 win; Noskova rematch awaits in Berlin semifinals\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/news/4522571/eala-rolls-to-another-top-10-win-noskova-rematch-awaits-in-berlin-semifinals\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala picked up another Top 10 win Friday, knocking off Elina Svitolina 6-3, 6-4 to book a trip to the Berlin semifinals. There she'll face Linda Noskova after the Czech defeated Paula Badosa in just 68 minutes earlier in the day.\n...\nWhen Alexandra Eala earns a Top 10 win, another often follows in short order. So it shouldn't come as a surprise that one day after upsetting Elena Rybakina, the 21-year-old collected another, defeating World No. 8 Elina Svitolina 6-3, 6-4 in 1 hour and 23 minutes to reach the Berlin semifinals for the first time.\n...\nto serve out the match on her first attempt\n...\nvitolina to\n...\nNext up is a second WTA Tour Driven by Mercedes-Benz meeting with Linda Noskova, who defeated Paula Badosa 6-1, 6-3 in 68 minutes earlier Friday to reach her second grass-court semifinal. It will be a rematch of their recent Indian Wells encounter, where Noskova dropped just two games.\n...\nShe again showed why she is one of the best returners on tour, breaking Svitolina five times. The first break gave her a 2-0 lead, which she stretched to 4-1 before Svitolina clawed back to 4-3. The momentum swing didn't last long. Eala broke immediately, then struck a forehand winner in the next game to close out the opening set.\n...\nThe cycle repeated in the second. Eala broke first for 2-0, Svitolina leveled for 2-all and Eala responded with another break for 3-2. A fourth break allowed her to serve for the match at 5-2, but Svitolina refused to go quietly and narrowed the deficit to 5-4, 0-30. It was all for naught, as Eala won the final four points, sealing the win with the backhand winner.\n...\nMarching ON 💪Alex Eala is a semifinalist in Berlin, defeating Svitolina 6-3, 6-4!#BTO26 pic.twitter.com/k0zHYyYfWt\n...\nAlexandra Eala picked up another Top 10 win Friday, knocking off Elina Svitolina 6-3, 6-4 to book a trip to the Berlin semifinals. There she'll face Linda Noskova after the Czech defeated Paula Badosa in just 68 minutes earlier in the day.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eInstagram\u003c/title\u003e\n\u003curl\u003ehttps://www.instagram.com/reel/DZxsQiltFdv/\u003c/url\u003e\n\u003ccontent\u003eInstagram\n\nLog In\n\nSign Up\n\nwta and\n\nalex.eala\n\n---\n\nwta 11h\n\nAll aboard the Eala express 🔥Alex Eala moves past Svitolina for a spot in her first ever semifinal in Berlin!@alex.eala|#BTO26\n\nitsreynanmen 4s\n\nMabuhay 🇵🇭🇵🇭🇵🇭\n\nLike\n\nReply\n\nshiva.handbalance 1m\n\n😍😍\n\nLike\n\nReply\n\nmagatjo08 2m\n\n❤️❤️❤️🇵🇭🇵🇭🇵🇭🔥🔥🔥👏👏👏\n\nLike\n\nReply\n\nroannepaula15 5m\n\n🙌🇵🇭👏\n\nLike\n\nReply\n\nivandepano 9m\n\n🇵🇭🇵🇭🇵🇭 mabuhay ka\n\nLike\n\nReply\n\n_olesianes_ 9m\n\nYou are fantastic girl 💪😍\n\nLike\n\nReply\n\nletsgofaje 10m\n\n🇵🇭🇵🇭🇵🇭\n\nLike\n\nReply\n\nrosalie.santos 10m\n\nYou ROCK!!!\n\nLike\n\nReply\n\nmhorosario 11m\n\n❤️❤️❤️🇵🇭🇵🇭🇵🇭\n\nLike\n\nReply\n\nthon3141 14m\n\n🇵🇭🔥❤️Lets go Alex !!!\n\nLike\n\nReply\n\nbeautifulsoul997 15m\n\n🇵🇭🇵🇭\n\nLike\n\nReply\n\nzy.frances 15m\n\n😍😍😍\n\nLike\n\nReply\n\nzy.frances 15m\n\n🇵🇭🇵🇭🇵🇭\n\nLike\n\nReply\n\ndany_dani620 16m\n\nLakas mo@alex.eala!!! 💪\n\nLike\n\nReply\n\nmahidze 16m\n\nКоролева просто!!❤️\n\nLike\n\nReply\n\n74.7K\n\n1.2K\n\n11 hours ago\n\nLog in to like or comment.\n\n---\n\nMore posts from wta\n\nSee more posts\n\n---\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eAlex Eala vs E. Svitolina - Quarter Finals at Berlin Open Tennis - YouTube\u003c/title\u003e\n\u003curl\u003ehttps://www.youtube.com/watch?v=EjCzR_7jYkE\u003c/url\u003e\n\u003ccontent\u003eAlex Eala vs E. Svitolina - Quarter Finals at Berlin Open Tennis - YouTube\n\nAlex Eala vs E. Svitolina - Quarter Finals at Berlin Open Tennis - YouTube\n[](https://www.youtube.com/)[](https://www.youtube.com/)\n[About](https://www.youtube.com/about/)[Press](https://www.youtube.com/about/press/)[Copyright](https://www.youtube.com/about/copyright/)[Contact us](https://www.youtube.com/t/contact_us/)[Creators](https://www.youtube.com/creators/)[Advertise](https://www.youtube.com/ads/)[Developers](https://developers.google.com/youtube)[Terms](https://www.youtube.com/t/terms)[Privacy](https://www.youtube.com/t/privacy)[Policy \u0026 Safety](https://www.youtube.com/about/policies/)[How YouTube works](https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen\u0026utm_source=ythp\u0026utm_medium=LeftNav\u0026utm_content=txt\u0026u=https://www.youtube.com/howyoutubeworks?utm_source=ythp\u0026utm_medium=LeftNav\u0026utm_campaign=ytgen)[Test new features](https://www.youtube.com/new)\n\u0026copy; 2026 Google LLC\u003c/content\u003e\n\u003c/result\u003e",
+      "title": "Web search results"
+    }
+  ],
+  "rejected": false
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search">
+<details>
+<summary>Tool use: **web_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "searchTerm": "youtube Eala Noskova Berlin semifinal 2026 WTA highlights BTO26"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [LIVE: Alex Eala vs Linda Noskova - Berlin Open semifinals](https://sports.inquirer.net/682860/live-alex-eala-vs-linda-noskova-2026-berlin-open-semifinals)\n2. [Alex Eala to face Linda Noskova in Berlin Tennis Open semifinals | GMA News Online](https://www.gmanetwork.com/news/sports/othersports/992100/alex-eala-to-face-linda-noskova-in-berlin-tennis-open-semifinals/story/)\n3. [Noskova vs. Eala | Semifinals VANDA Pharmaceuticals Berlin Tennis Open 2026 | WTA Official](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003)\n4. [Live: Alexandra Eala Vs Linda Noskova - Berlin 2026 WTA 500 Preview - Semi Final - Official game WTA - YouTube](https://www.youtube.com/watch?v=KBIfYX5oIo0)\n\nSynthesis:\nThe match between Alexandra Eala and Linda Noskova in the 2026 Berlin Open semifinals is scheduled for today, June 20, 2026 [1][2]. As of now, the match has not concluded, and official highlights for this specific semifinal encounter are not yet available [3][1]. You can look for official video coverage on the WTA YouTube channel or the official WTA website once the match is completed [4][5].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eLIVE: Alex Eala vs Linda Noskova - Berlin Open semifinals\u003c/title\u003e\n\u003curl\u003ehttps://sports.inquirer.net/682860/live-alex-eala-vs-linda-noskova-2026-berlin-open-semifinals\u003c/url\u003e\n\u003ccontent\u003eLIVE: Alex Eala vs Linda Noskova - Berlin Open semifinals\n...\n# LIVE: Alex Eala vs Linda Noskova – 2026 Berlin Open semifinals\n...\nINQUIRER.net/ Updated as of: 06:33 PM\n...\n0, 2026\n...\n- Alex Eala battles world No. 13 Linda Noskova as she eyes a place in the 2026 Berlin Open final.\n...\n## Berlin Open schedule\n...\n- 8pm (tentative) – Alex Eala vs Linda Noskova\n...\n## Alex Eala braces for Linda Noskova challenge in Berlin Open semis\n...\nPhilippines’ Alexandra Eala serves the ball to Ukraine’s Elina Svitolina during the women’s singles quarter-final match at the WTA500 Berlin Tennis Open tournament in Berlin on June 19, 2026. (Photo by Tobias SCHWARZ / AFP)\n...\nMANILA, Philippines–Alex Eala looks to turn the tables on Linda Noskova in their semifinal showdown at the 2026 Berlin Open on Saturday.\n...\nTheir match is scheduled for 8 p.m. (Manila time) at Steffi Graf Stadium.\n...\nAlex Eala braces for Linda Noskova challenge in Berlin Open semis\n...\nThe last time Eala faced Noskova, she a bsorbed a 6-2, 6-0 loss on the hard courts of Indian Wells last March.\n...\nEala, who is enjoying a phenomenal grass-court campaign, is well aware of the challenge posed by the world No. 13 from Czechia.\n...\n“She’s a big hitter, and she’s young, but she has a lot of experience, and she’s very powerful,” Eala said of Noskova, who beat Paula Badosa to advance to the semifinals.\n...\n“My last match with her proved to be very difficult for me. So, coming into the semifinals, I hope to prepare and make some improvements and show what I’ve got.”\n...\nhttps://sports.inquirer.net/682807/alex-eala-braces-for-linda-noskova-challenge-in-berlin-open-semis\n...\nAlex Eala braces for Linda Noskova challenge in Berlin Open semis\n...\nhttps://sports.inquirer.net/682807/alex-eala-braces-for-linda-noskova-challenge-in-berlin-open-semis\n...\nAlex Eala braces for Linda Noskova challenge in Berlin Open semis\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eAlex Eala to face Linda Noskova in Berlin Tennis Open semifinals | GMA News Online\u003c/title\u003e\n\u003curl\u003ehttps://www.gmanetwork.com/news/sports/othersports/992100/alex-eala-to-face-linda-noskova-in-berlin-tennis-open-semifinals/story/\u003c/url\u003e\n\u003ccontent\u003eAlex Eala to face Linda Noskova in Berlin Tennis Open semifinals | GMA News Online\n...\n20\n...\nWTA 500 - Berlin Open - Steffi Graf Stadium, Berlin, Germany - June 17, 2026 Philippines' Alexandra Eala in action during her round of 32 match against Croatia's Donna Vekic REUTERS/Fabrizio Bensch\n...\nAlexandra “Alex” Eala will face Czech standout Linda Noskova once again, this time in the semifinals of the Berlin Tennis Open.\n...\nEala secured her spot in the final four after stunning world No. 8 Elina Svitolina, 6-3, 6-4, in the quarterfinals on early Saturday.\n...\nNoskova, meanwhile, advanced to the semifinals with a dominant 6-1, 6-3 victory over Paola Badosa.\n...\nThe two previously met at the Indian Wells Open, where Noskova handed Eala a 6-2, 6-0 defeat.\n...\n### Alex Eala at the Berlin Tennis Open: Match Highlights\n...\nHowever, Eala got the better of Noskova in their junior days, defeating the Czech player 4-6, 6-3, 6-2 at the 2020 French Open girls' tournament.\n...\n“Well, like you said,\n...\n's a big hitter. She's\n...\n, but she already has a lot of experience and is very powerful,” Eala said of the 21-year-old Czech.\n...\n“My last match with her proved to be very difficult for me. So coming into the semifinals, I hope to prepare, make some improvements, and show what I've got.”\n...\nThe winner of the match will advance to the final and face either Aryna Sabalenka or Jessica Pegula, who will square off in the other semifinal.\n...\nTags: Alex Eala\n...\nLinda Noskova, Berlin Tennis Open\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eNoskova vs. Eala | Semifinals VANDA Pharmaceuticals Berlin Tennis Open 2026 | WTA Official\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003\u003c/url\u003e\n\u003ccontent\u003eNoskova vs. Eala | Semifinals VANDA Pharmaceuticals Berlin Tennis Open 2026 | WTA Official\n\nGo back to the home page\n\n-\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eLive: Alexandra Eala Vs Linda Noskova - Berlin 2026 WTA 500 Preview - Semi Final - Official game WTA - YouTube\u003c/title\u003e\n\u003curl\u003ehttps://www.youtube.com/watch?v=KBIfYX5oIo0\u003c/url\u003e\n\u003ccontent\u003eLive: Alexandra Eala Vs Linda Noskova - Berlin 2026 WTA 500 Preview - Semi Final - Official game WTA - YouTube\n\nLive: Alexandra Eala Vs Linda Noskova - Berlin 2026 WTA 500 Preview - Semi Final - Official game WTA - YouTube\n[](https://www.youtube.com/)[](https://www.youtube.com/)\n[About](https://www.youtube.com/about/)[Press](https://www.youtube.com/about/press/)[Copyright](https://www.youtube.com/about/copyright/)[Contact us](https://www.youtube.com/t/contact_us/)[Creators](https://www.youtube.com/creators/)[Advertise](https://www.youtube.com/ads/)[Developers](https://developers.google.com/youtube)[Terms](https://www.youtube.com/t/terms)[Privacy](https://www.youtube.com/t/privacy)[Policy \u0026 Safety](https://www.youtube.com/about/policies/)[How YouTube works](https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen\u0026utm_source=ythp\u0026utm_medium=LeftNav\u0026utm_content=txt\u0026u=https://www.youtube.com/howyoutubeworks?utm_source=ythp\u0026utm_medium=LeftNav\u0026utm_campaign=ytgen)[Test new features](https://www.youtube.com/new)[NFL Sunday Ticket](https://tv.youtube.com/learn/nflsundayticket)\n\u0026copy; 2026 Google LLC\u003c/content\u003e\n\u003c/result\u003e",
+      "title": "Web search results"
+    }
+  ],
+  "rejected": false
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Searching WTA YouTube for full match highlights. The current clip only shows the first set.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/tournaments/2012/berlin/2026/scores" | grep -oE 'youtube\.com/watch\?v=[a-zA-Z0-9_-]+|youtu\.be/[a-zA-Z0-9_-]+|vi/[a-zA-Z0-9_-]{11}' | sort -u | head -20</summary>
+
+```bash
+curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/tournaments/2012/berlin/2026/scores" | grep -oE 'youtube\.com/watch\?v=[a-zA-Z0-9_-]+|youtu\.be/[a-zA-Z0-9_-]+|vi/[a-zA-Z0-9_-]{11}' | sort -u | head -20
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: for id in EjCzR_7jYkE 6djWGxG7a8E; do curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&format=json"; echo; done</summary>
+
+```bash
+for id in EjCzR_7jYkE 6djWGxG7a8E; do curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&format=json"; echo; done
+```
+
+```
+{"title":"Alex Eala vs E. Svitolina - Quarter Finals at Berlin Open Tennis","author_name":"Chalkdust Tennis: The WTA Podcast","author_url":"https://www.youtube.com/@WTAChalkdust","type":"video","height":113,"width":200,"version":"1.0","provider_name":"YouTube","provider_url":"https://www.youtube.com/","thumbnail_height":360,"thumbnail_width":480,"thumbnail_url":"https://i.ytimg.com/vi/EjCzR_7jYkE/hqdefault.jpg","html":"\u003ciframe width=\u0022200\u0022 height=\u0022113\u0022 src=\u0022https://www.youtube.com/embed/EjCzR_7jYkE?feature=oembed\u0022 frameborder=\u00220\u0022 allow=\u0022accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\u0022 referrerpolicy=\u0022strict-origin-when-cross-origin\u0022 allowfullscreen title=\u0022Alex Eala vs E. Svitolina - Quarter Finals at Berlin Open Tennis\u0022\u003e\u003c/iframe\u003e"}
+{"title":"Alex Eala moves one set away from the semifinals in Berlin, taking the first 6-3! #BTO26","author_name":"WTA","author_url":"https://www.youtube.com/@WTA","type":"video","height":113,"width":200,"version":"1.0","provider_name":"YouTube","provider_url":"https://www.youtube.com/","thumbnail_height":360,"thumbnail_width":480,"thumbnail_url":"https://i.ytimg.com/vi/6djWGxG7a8E/hqdefault.jpg","html":"\u003ciframe width=\u0022200\u0022 height=\u0022113\u0022 src=\u0022https://www.youtube.com/embed/6djWGxG7a8E?feature=oembed\u0022 frameborder=\u00220\u0022 allow=\u0022accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\u0022 referrerpolicy=\u0022strict-origin-when-cross-origin\u0022 allowfullscreen title=\u0022Alex Eala moves one set away from the semifinals in Berlin, taking the first 6-3! #BTO26\u0022\u003e\u003c/iframe\u003e"}
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007" | grep -oE '[a-zA-Z0-9_-]{11}' | while read id; do
+  r=$(curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&format=json" 2>/dev/null)
+  echo "$id: $(echo $r | grep -o '"title":"[^"]*"' | head -1)"
+done 2>/dev/null | grep -i svitolina | head -5</summary>
+
+```bash
+curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007" | grep -oE '[a-zA-Z0-9_-]{11}' | while read id; do
+  r=$(curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&format=json" 2>/dev/null)
+  echo "$id: $(echo $r | grep -o '"title":"[^"]*"' | head -1)"
+done 2>/dev/null | grep -i svitolina | head -5
+```
+
+```
+]633;P;Cwd=/home/jorap/Documents/GitHub/jorap.com]633;P;HasRichCommandDetection=True]633;A$ ]633;B]633;E;curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007" | grep -oE '[a-zA-Z0-9_-]{11}' | while read id\x3b do\x0a  r=$(curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&amp;format=json" 2&gt;/dev/null)\x0a  echo "$id: $(echo $r | grep -o '"title":"[^"]*"' | head -1)"\x0adone 2&gt;/dev/null | grep -i svitolina | head -5curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007" | grep -oE '[a-zA-Z0-9_-]{11}' | while read id; do
+  r=$(curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&amp;format=json" 2&gt;/dev/null)
+  echo "$id: $(echo $r | grep -o '"title":"[^"]*"' | head -1)"
+done 2&gt;/dev/null | grep -i svitolina | head -5
+]633;C
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search">
+<details>
+<summary>Tool use: **web_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "searchTerm": "site:youtube.com/@WTA \"Svitolina\" \"Berlin\" \"2026\" highlights Eala"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Elina Svitolina vs Alexandra Eala Live WTA Berlin Quarter Finals Watchalong \u0026 Commentary](https://www.youtube.com/watch?v=AdhxWjSJd7c)\n2. [Day 4 in Berlin featuring Eala, Svitolina, Keys and more | WTA Match Highlights](https://www.youtube.com/watch?v=W7mE-8W3V-Y)\n\nSynthesis:\nYou can find the match highlights of Alexandra Eala defeating Elina Svitolina in the 2026 Berlin Open quarterfinals on the official WTA YouTube channel [1][2]. The match resulted in a 6-3, 6-4 victory for Eala [3][4].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eElina Svitolina vs Alexandra Eala Live WTA Berlin Quarter Finals Watchalong \u0026 Commentary\u003c/title\u003e\n\u003curl\u003ehttps://www.youtube.com/watch?v=AdhxWjSJd7c\u003c/url\u003e\n\u003ccontent\u003ethat world number eight in a straight set to book her ticket to the semi-final round. And can you believe that? Celebrating a truly more upset and statical story behind that final score was remarkable. Filipina prodigy converted five out of 10 break point chances refusing to let up her opponent's second delivery by massive taking a massive 78% of those return points. While Satelina threw everything she had into her first self, acclimating the fourth ace her seven uh costly double fall continued to plague her whenever the score line got tied. Yad displayed the poise of the multi-time champion out there saving three critical break point herself and capturing the 53% of total points and contest across the match. The veteran tried to mount a late charge but the world number 35 stood her ground flawlessly to finish the 63 64 and spectacular match moment for the Philippines tennis. Unforgettable guys watch along. We have witnessed Till now guys this is what we have seen the play today. She truly deserve this game and what a match it has been. Look at the point. Look at this. Alina Certina 23 unfor took that 9 and four error. What a game, man. What a game. Truly, guys, she definitely what we can say man this is congratulations. Yes, congratulation to your country also for that great battle. And this was a Alexander Yella reaction just uh made uh and good sportsmanship also. So she is not believing that she made the country more proud. Look at this scene. This was the first reaction. Not a sorry, this was the last reaction. The first reaction is this one. When she got to know that she won this, she literally got emotional and that moment came where so I have this is another level game guys. What a turn around. So, thank you guys for joining us. We will meet you in the next stream. But congratulations, EA fans. Thank you for joining with us and have a nice day. We will meet you in the next stream. Till now, love you from India to the Philippine fans and have a nice day.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eDay 4 in Berlin featuring Eala, Svitolina, Keys and more | WTA Match Highlights\u003c/title\u003e\n\u003curl\u003ehttps://www.youtube.com/watch?v=W7mE-8W3V-Y\u003c/url\u003e\n\u003ccontent\u003ethe return. Had the options. \u003e\u003e Oh, there was nothing at all wrong with that serve. glided into it. \u003e\u003e A sizzling performance from Linda Noskova in this second round match in Berlin against the player in form in Deianne Perry. \u003e\u003e Yeah, like I say, uh I'm complete opposite when I step upward. Scalina to begin on. And what a start. That one she does make a few times when hit that backhand crosscourt \u003e\u003e and I'm in a here when she made her come back. It's so so smartina \u003e\u003e came in behind it. First set goes the way of Elina. \u003e\u003e She's going to just face the first break points in the set. They got through it. \u003e\u003e Nice hits where she makes her move in the second set. took that opportunity. made it. \u003e\u003e Unloaded on the forehand. made that as well. Not the power that time. \u003e\u003e Yeah. \u003e\u003e At least the finish for serve percentage in this set. \u003e\u003e What a nice hit that was. \u003e\u003e For the second time this season on German soil, Elena Spidilina defeats Evalis. It's done cutting all the grass. All over that. looking to get forward at every opportunity here. \u003e\u003e Nailed it. Oh, exceptional. \u003e\u003e Oh, that's ridiculous. makes another beauty. \u003e\u003e Nice. went a long way up into the air, which is getting ever closer. \u003e\u003e Outstanding. Hollywood finish to a Hollywood set of tennis from Madison Keys. Winners galore \u003e\u003e behind a very resilient serve getting a home 6-4. What a fabulous finish. \u003e\u003e Fabulous performance in truth from Madison Keys. They brought the best out of each other. Wow. \u003e\u003e Nice. \u003e\u003e Wasn't a bad return. Really? did well to manufacture the pass really. \u003e\u003e Yeah, exactly. \u003e\u003e Awesome power from start to finish. \u003e\u003e Yeah, thanks Isaac. What a finish to this set from Alexandra Eala. She's won six of the last seven games to make it hers. That's a staggering turnaround. Deathly done. \u003e\u003e Totally different story. It was a safe volley. \u003e\u003e Oh, you're kidding. You are kidding. \u003e\u003e Nerveless. line stand. \u003e\u003e Absolutely stunning performance from Alexandra Eala. \u003e\u003e It was almost as if she couldn't believe it.\u003c/content\u003e\n\u003c/result\u003e",
+      "title": "Web search results"
+    },
+    {
+      "chunk": "Full page text written to file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/baceb397-e398-41b3-9528-d863972a8f2d.txt\nSize: 42.7 KB, 1 lines\nUse shell / grep / read_file on this path to inspect the page; no follow-up fetch is needed.",
+      "title": "Elina Svitolina vs Alexandra Eala Live WTA Berlin Quarter Finals Watchalong \u0026 Commentary",
+      "url": "https://www.youtube.com/watch?v=AdhxWjSJd7c"
+    }
+  ],
+  "rejected": false
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search">
+<details>
+<summary>Tool use: **web_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "searchTerm": "youtube.com WTA \"Not done yet\" Eala Svitolina Berlin"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Eala rolls to another Top 10 win; Noskova rematch awaits in Berlin semifinals](https://www.wtatennis.com/news/4522571/eala-rolls-to-another-top-10-win-noskova-rematch-awaits-in-berlin-semifinals)\n2. [Alex Eala stuns world No. 8 Elina Svitolina, reaches Berlin Tennis Open semifinals | GMA News Online](https://www.gmanetwork.com/news/sports/othersports/992095/alex-eala-vs-elina-svitolina-berlin-tennis-open-quarterfinals/story/)\n3. [Eala optimistic on improvement amid Berlin streak | Philstar.com](https://www.philstar.com/sports/2026/06/20/2536585/eala-optimistic-improvement-amid-berlin-streak)\n\nSynthesis:\nAlexandra Eala defeated Elina Svitolina 6-3, 6-4 in the quarterfinals of the 2026 Berlin Open on June 19, 2026 [1][2][3]. The phrase \"Not done yet\" refers to Eala's continued momentum in the tournament after securing her second consecutive Top 10 win, following her previous upset of Elena Rybakina [1][4][5]. With this victory, Eala advanced to the semifinals to face Linda Noskova [1][2][6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEala rolls to another Top 10 win; Noskova rematch awaits in Berlin semifinals\u003c/title\u003e\n\u003curl\u003ehttps://www.wtatennis.com/news/4522571/eala-rolls-to-another-top-10-win-noskova-rematch-awaits-in-berlin-semifinals\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala picked up another Top 10 win Friday, knocking off Elina Svitolina 6-3, 6-4 to book a trip to the Berlin semifinals. There she'll face Linda Noskova after the Czech defeated Paula Badosa in just 68 minutes earlier in the day.\n...\nWhen Alexandra Eala earns a Top 10 win, another often follows in short order. So it shouldn't come as a surprise that one day after upsetting Elena Rybakina, the 21-year-old collected another, defeating World No. 8 Elina Svitolina 6-3, 6-4 in 1 hour and 23 minutes to reach the Berlin semifinals for the first time.\n...\nThe victory is the sixth Top 10 win of her career and sends her into her second grass-court semifinal. After failing to serve out the match on her first attempt, she steadied herself and held off a late push from Svitolina to secure her spot in the last four.\n...\nNext up is a second WTA Tour Driven by Mercedes-Benz meeting with Linda Noskova, who defeated Paula Badosa 6-1, 6-3 in 68 minutes earlier Friday to reach her second grass-court semifinal. It will be a rematch of their recent Indian Wells encounter, where Noskova dropped just two games.\n...\nSvitolina\n...\nbreak gave her a\n...\nSvitolina clawed back to 4-3\n...\nlast long.\n...\nwinner in the next game to close out the opening set.\n...\nThe cycle repeated in the second. Eala broke first for 2-0, Svitolina leveled for 2-all and Eala responded with another break for 3-2. A fourth break allowed her to serve for the match at 5-2, but Svitolina refused to go quietly and narrowed the deficit to 5-4, 0-30. It was all for naught, as Eala won the final four points, sealing the win with the backhand winner.\n...\ning ON 💪\n...\nis a semifinalist in Berlin, defeating Svitolina 6-3, 6-4!#BTO26 pic.twitter.com/k0zHYyYfWt\n...\nAlexandra Eala picked up another Top 10 win Friday, knocking off Elina Svitolina 6-3, 6-4 to book a trip to the Berlin semifinals. There she'll face Linda Noskova after the Czech defeated Paula Badosa in just 68 minutes earlier in the day.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eAlex Eala stuns world No. 8 Elina Svitolina, reaches Berlin Tennis Open semifinals | GMA News Online\u003c/title\u003e\n\u003curl\u003ehttps://www.gmanetwork.com/news/sports/othersports/992095/alex-eala-vs-elina-svitolina-berlin-tennis-open-quarterfinals/story/\u003c/url\u003e\n\u003ccontent\u003eAlex Eala stuns world No. 8 Elina Svitolina, reaches Berlin Tennis Open semifinals | GMA News Online\n...\nBerlin Open - Steffi Graf Stadium, Berlin, Germany - June 19, 2026 Philippines' Alexandra Eala in action during her quarter final match against Ukraine's Elina Svitolina REUTERS/Fabrizio Bensch\n...\nAlexandra “Alex” Eala pulled off another major upset, defeating world No. 8 Elina Svitolina, 6-3, 6-4, in the quarterfinals of the Berlin Tennis Open on early Saturday (Philippine time).\n...\nWith the victory, Eala advanced to the semifinals, where she will face Czech player Linda Noskova.\n...\nThe second set was closely contested early, with both players tied at 2-2. Eala then surged ahead, 5-2, putting herself within a game of the match. Svitolina fought back to win two consecutive games, but Eala held firm and sealed the victory.\n...\n, defeating Svitolina 6-3, 6\n...\n4!#BTO26 pic.\n...\n.com/k0z\n...\nyYfWt\n...\nThe win marked Eala's second consecutive victory over a Top 10 player in Berlin and her sixth overall against a Top 10 opponent on the WTA Tour.\n...\nThe Filipina first broke through with victories over Madison Keys and Iga Swiatek during her breakthrough run at the Miami Open last year. This season, she has added wins over Jasmine Paolini at the Dubai Tennis Championships, Coco Gauff at Indian Wells, Elena Rybakina in the Berlin round of 16, and now Svitolina in the quarterfinals.\n...\nTags: Alex Eala, Elina Svitolina, Berlin Tennis Open\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eEala optimistic on improvement amid Berlin streak | Philstar.com\u003c/title\u003e\n\u003curl\u003ehttps://www.philstar.com/sports/2026/06/20/2536585/eala-optimistic-improvement-amid-berlin-streak\u003c/url\u003e\n\u003ccontent\u003eEala soared into the Final Four of the WTA500 Berlin Tennis Open Saturday morning for a new feather\n...\n“I think I’m getting better and I hope I’m getting better\n...\nbeamed Eala after slaying another giant in World No. 8 Elina Svitolina of Ukraine with a 6-3, 6-4 quarterfinal win.\u003c/content\u003e\n\u003c/result\u003e",
+      "title": "Web search results"
+    }
+  ],
+  "rejected": false
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007" | grep -oE 'videoId|youtube|youtu|/[a-zA-Z0-9_-]{11}' | head -30</summary>
+
+```bash
+curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007" | grep -oE 'videoId|youtube|youtu|/[a-zA-Z0-9_-]{11}' | head -30
+```
+
+```
+/favicon-96x
+/apple-touch
+/tournaments
+/photoresour
+/photo-resou
+/837e6f32-a9
+/Home-Share_
+/photoresour
+/photo-resou
+/837e6f32-a9
+/Home-Share_
+/tournaments
+/tournaments
+/marsdenslim
+/generalsans
+/marsdenslim
+/scripttempl
+/securepubad
+/9a8ZCJ-W8eg
+/interaction
+/apv-launche
+/wta-publish
+youtube
+/EventSchedu
+/service-wor
+/onboarding-
+/art-and-cul
+/photoresour
+/photo-resou
+/1fed3d88-0b
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=9a8ZCJ-W8eg&format=json" && echo "" && curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003" | grep -oE '[A-Za-z0-9_-]{11}' | sort -u | while read id; do
+  r=$(curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&format=json" 2>/dev/null)
+  if echo "$r" | grep -qi 'WTA\|title'; then echo "$id: $(echo "$r" | python3 -c 'import sys,json; print(json.load(sys.stdin).get("title",""), "|", json.load(open("/dev/stdin")))' 2>/dev/null || echo "$r" | grep -o '"title":"[^"]*"')"; fi
+done 2>/dev/null | head -10</summary>
+
+```bash
+curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=9a8ZCJ-W8eg&format=json" && echo "" && curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003" | grep -oE '[A-Za-z0-9_-]{11}' | sort -u | while read id; do
+  r=$(curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&format=json" 2>/dev/null)
+  if echo "$r" | grep -qi 'WTA\|title'; then echo "$id: $(echo "$r" | python3 -c 'import sys,json; print(json.load(sys.stdin).get("title",""), "|", json.load(open("/dev/stdin")))' 2>/dev/null || echo "$r" | grep -o '"title":"[^"]*"')"; fi
+done 2>/dev/null | head -10
+```
+
+```
+]633;P;Cwd=/home/jorap/Documents/GitHub/jorap.com]633;P;HasRichCommandDetection=True]633;A$ ]633;B]633;E;curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=9a8ZCJ-W8eg&amp;format=json" &amp;&amp; echo "" &amp;&amp; curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003" | grep -oE '[A-Za-z0-9_-]{11}' | sort -u | while read id\x3b do\x0a  r=$(curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&amp;format=json" 2&gt;/dev/null)\x0a  if echo "$r" | grep -qi 'WTA\\|title'\x3b then echo "$id: $(echo "$r" | python3 -c 'import sys,json\x3b print(json.load(sys.stdin).get("title",""), "|", json.load(open("/dev/stdin")))' 2&gt;/dev/null || echo "$r" | grep -o '"title":"[^"]*"')"\x3b fi\x0adone 2&gt;/dev/null | head -10curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=9a8ZCJ-W8eg&amp;format=json" &amp;&amp; echo "" &amp;&amp; curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003" | grep -oE '[A-Za-z0-9_-]{11}' | sort -u | while read id; do
+  r=$(curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&amp;format=json" 2&gt;/dev/null)
+  if echo "$r" | grep -qi 'WTA\|title'; then echo "$id: $(echo "$r" | python3 -c 'import sys,json; print(json.load(sys.stdin).get("title",""), "|", json.load(open("/dev/stdin")))' 2&gt;/dev/null || echo "$r" | grep -o '"title":"[^"]*"')"; fi
+done 2&gt;/dev/null | head -10
+]633;CNot Found
+]633;D;0
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007" | grep -iE 'youtube|videoId|embed|highlight' | head -20</summary>
+
+```bash
+curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007" | grep -iE 'youtube|videoId|embed|highlight' | head -20
+```
+
+```
+                ARTICLE_EMBED: 'HpPMwIMgR',
+            "https://www.youtube.com/user/WTA",
+                href="https://www.wtatennis.com/videos/highlights"
+                title="Match highlights" aria-label="Match highlights"
+        data-tracking-detail="Match highlights"
+                    Match highlights
+                href="https://www.wtatennis.com/videos/highlights"
+                title="Match highlights" aria-label="Match highlights"
+        data-tracking-detail="Match highlights"
+                    Match highlights
+                    href="/videos/highlights"
+                        Highlights
+        data-embeddable="true"
+                &lt;div class="tennis-match__highlights-wrapper js-match-highlights"&gt;
+        class="match-highlights"
+        data-widget="tournament-list/match-highlights"
+                    &lt;h2 class="widget-header__title h-m-sb"&gt;In-Match Highlights&lt;/h2&gt;
+                        &lt;a class="sbtn sbtn--fill sbtn--med sbtn--icon-med dt:sbtn--icon-large theme-chalk" href="https://www.youtube.com/user/wta" target="_blank" rel="noopener"
+        data-tracking-detail="youtube"
+		&lt;use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/resources/v7.46.6/i/svg-output/icons.svg#icn-youtube"&gt;&lt;/use&gt;
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003" | grep -iE 'youtube|videoId|embed|highlight' | head -20</summary>
+
+```bash
+curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003" | grep -iE 'youtube|videoId|embed|highlight' | head -20
+```
+
+```
+                ARTICLE_EMBED: 'HpPMwIMgR',
+            "https://www.youtube.com/user/WTA",
+                href="https://www.wtatennis.com/videos/highlights"
+                title="Match highlights" aria-label="Match highlights"
+        data-tracking-detail="Match highlights"
+                    Match highlights
+                href="https://www.wtatennis.com/videos/highlights"
+                title="Match highlights" aria-label="Match highlights"
+        data-tracking-detail="Match highlights"
+                    Match highlights
+                    href="/videos/highlights"
+                        Highlights
+        data-embeddable="true"
+                &lt;div class="tennis-match__highlights-wrapper js-match-highlights"&gt;
+        class="match-highlights"
+        data-widget="tournament-list/match-highlights"
+                    &lt;h2 class="widget-header__title h-m-sb"&gt;In-Match Highlights&lt;/h2&gt;
+                        &lt;a class="sbtn sbtn--fill sbtn--med sbtn--icon-med dt:sbtn--icon-large theme-chalk" href="https://www.youtube.com/user/wta" target="_blank" rel="noopener"
+        data-tracking-detail="youtube"
+		&lt;use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/resources/v7.46.6/i/svg-output/icons.svg#icn-youtube"&gt;&lt;/use&gt;
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The match highlights load dynamically. I'll fetch the WTA API or search for video IDs to locate the match.
+
+The tournament block needs the last two match embeds. The Svitolina H2H already holds a short WTA clip. That video must stay out of the tournament block to avoid duplication. The Berlin block currently has no YouTube embeds.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search">
+<details>
+<summary>Tool use: **web_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "searchTerm": "site:youtube.com/watch WTA Eala Svitolina Berlin 2026 Match Highlights"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Io Shirai vs. Rhea Ripley - Semifinal Match: Mae Young Classic, Oct. 24, 2018 - YouTube](https://www.youtube.com/watch/DY20PusJhhw)\n\nSynthesis:\nHighlights from the 2026 Berlin Open quarterfinal match between Alexandra Eala and Elina Svitolina are available on the official WTA YouTube channel [1][2]. In this match, Eala defeated Svitolina to advance to the tournament semifinals [2]. You can also find broader coverage of the day's events in Berlin, which featured this match alongside other top players like Jessica Pegula and Aryna Sabalenka, through various tennis analysis and highlights channels on the platform [3][4][2].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eIo Shirai vs. Rhea Ripley - Semifinal Match: Mae Young Classic, Oct. 24, 2018 - YouTube\u003c/title\u003e\n\u003curl\u003ehttps://www.youtube.com/watch/DY20PusJhhw\u003c/url\u003e\n\u003ccontent\u003eIo Shirai vs. Rhea Ripley - Semifinal Match: Mae Young Classic, Oct. 24, 2018 - YouTube\n\nAbout Press Copyright Contact us Creators Advertise Developers Terms Privacy Policy \u0026 Safety How YouTube works Test new features NFL Sunday Ticket\u003c/content\u003e\n\u003c/result\u003e",
+      "title": "Web search results"
+    }
+  ],
+  "rejected": false
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search">
+<details>
+<summary>Tool use: **web_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "searchTerm": "site:youtube.com/watch WTA Noskova Eala Berlin 2026 semifinal highlights"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [EALA vs NOSKOVA • WTA Berlin 2026 SF • LIVE Tennis Watchalong - YouTube](https://www.youtube.com/watch?v=Xwc8C_kuDIY)\n\nSynthesis:\nHighlights for the 2026 Berlin Open semifinal match between Alexandra Eala and Linda Noskova can be found on YouTube by searching for the specific tournament and player names [1][2][3][4]. While several channels provide coverage, match commentary, and live watchalong recordings of the semifinal clash [5][3][4], official WTA tournament highlight clips for this specific match are available through broader coverage of the 2026 Berlin Open [6].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eEALA vs NOSKOVA • WTA Berlin 2026 SF • LIVE Tennis Watchalong - YouTube\u003c/title\u003e\n\u003curl\u003ehttps://www.youtube.com/watch?v=Xwc8C_kuDIY\u003c/url\u003e\n\u003ccontent\u003eEALA vs NOSKOVA • WTA Berlin 2026 SF • LIVE Tennis Watchalong - YouTube\n\nEALA vs NOSKOVA • WTA Berlin 2026 SF • LIVE Tennis Watchalong - YouTube\n[](https://www.youtube.com/)[](https://www.youtube.com/)\n[About](https://www.youtube.com/about/)[Press](https://www.youtube.com/about/press/)[Copyright](https://www.youtube.com/about/copyright/)[Contact us](https://www.youtube.com/t/contact_us/)[Creators](https://www.youtube.com/creators/)[Advertise](https://www.youtube.com/ads/)[Developers](https://developers.google.com/youtube)[Terms](https://www.youtube.com/t/terms)[Privacy](https://www.youtube.com/t/privacy)[Policy \u0026 Safety](https://www.youtube.com/about/policies/)[How YouTube works](https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen\u0026utm_source=ythp\u0026utm_medium=LeftNav\u0026utm_content=txt\u0026u=https://www.youtube.com/howyoutubeworks?utm_source=ythp\u0026utm_medium=LeftNav\u0026utm_campaign=ytgen)[Test new features](https://www.youtube.com/new)[Accessibility](https://support.google.com/youtube/answer/16668503?hl=en\u0026amp;sjid=7783677992881552504-NC)\n© 2026 Google LLC\u003c/content\u003e\n\u003c/result\u003e",
+      "title": "Web search results"
+    }
+  ],
+  "rejected": false
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Checking W7mE-8W3V-Y Day 4 highlights for Eala versus Svitolina. Verifying oembed support.
+
+Searching the WTA channel for dedicated Svitolina match highlights. The tournament section lacks a Berlin YouTube embed for Rybakina. The skill requires embedding the last two matches per run in chronological order.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: for id in W7mE-8W3V-Y 4C8dT5T-fHM kdUsythJKOg; do echo "=== $id ==="; curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&format=json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('author_name'), '|', d.get('title'))"; done</summary>
+
+```bash
+for id in W7mE-8W3V-Y 4C8dT5T-fHM kdUsythJKOg; do echo "=== $id ==="; curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&format=json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('author_name'), '|', d.get('title'))"; done
+```
+
+```
+=== W7mE-8W3V-Y ===
+WTA | Day 4 in Berlin featuring Eala, Svitolina, Keys and more | WTA Match Highlights
+=== 4C8dT5T-fHM ===
+WTA | Alexandra Eala vs. Elena Rybakina | 2026 Berlin Round of 16 | WTA Match Highlights
+=== kdUsythJKOg ===
+LTA | Eala fights to final 💪 | Alexandra Eala v Rebeka Masarova | Lexus Birmingham Open 2026 | Highlights
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/videos/highlights" | grep -iE 'eala|svitolina|noskova|berlin' | head -20</summary>
+
+```bash
+curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/videos/highlights" | grep -iE 'eala|svitolina|noskova|berlin' | head -20
+```
+
+```
+            href="/videos/4522906/pegula-blanks-sabalenka-in-decider-to-reach-23rd-career-final-second-in-berlin"
+            title="Pegula blanks Sabalenka in decider to reach 23rd career final, second in Berlin" aria-label="Pegula blanks Sabalenka in decider to reach 23rd career final, second in Berlin"
+        data-tracking-detail="Pegula blanks Sabalenka in decider to reach 23rd career final, second in Berlin"
+                        alt="Jessica Pegula, Berlin 2026"
+                        Pegula blanks Sabalenka in decider to reach 23rd career final, second in Berlin
+            href="/videos/4522547/not-done-yet-eala-battles-past-svitolina-and-into-berlin-last-four"
+            title="Not done yet! Eala battles past Svitolina and into Berlin last four" aria-label="Not done yet! Eala battles past Svitolina and into Berlin last four"
+        data-tracking-detail="Not done yet! Eala battles past Svitolina and into Berlin last four"
+                        alt="Alexandra Eala, Berlin 2026"
+                        Not done yet! Eala battles past Svitolina and into Berlin last four
+            href="/videos/4522484/sabalenka-rallies-from-6-2-4-0-down-against-bartunkova-to-reach-berlin-semis"
+            title="Sabalenka rallies from 6-2, 4-0 down against Bartunkova to make Berlin semis" aria-label="Sabalenka rallies from 6-2, 4-0 down against Bartunkova to make Berlin semis"
+        data-tracking-detail="Sabalenka rallies from 6-2, 4-0 down against Bartunkova to make Berlin semis"
+                        alt="aryna sabalenka berlin 2026"
+                        Sabalenka rallies from 6-2, 4-0 down against Bartunkova to make Berlin semis
+            href="/videos/4522310/noskova-overpowers-badosa-in-68-minutes-to-reach-berlin-semifinals"
+            title="Noskova overpowers Badosa in 68 minutes to reach Berlin semifinals" aria-label="Noskova overpowers Badosa in 68 minutes to reach Berlin semifinals"
+        data-tracking-detail="Noskova overpowers Badosa in 68 minutes to reach Berlin semifinals"
+                    &lt;source class="" srcset="https://photoresources.wtatennis.com/photo-resources/2026/06/19/3277f185-b6da-431e-8f1a-c1e9a4dc7d8c/Noskova-QF-Boris-Streubel.jpg?width=200&amp;height=200, https://photoresources.wtatennis.com/photo-resources/2026/06/19/3277f185-b6da-431e-8f1a-c1e9a4dc7d8c/Noskova-QF-Boris-Streubel.jpg?width=400&amp;height=400 2x, https://photoresources.wtatennis.com/photo-resources/2026/06/19/3277f185-b6da-431e-8f1a-c1e9a4dc7d8c/Noskova-QF-Boris-Streubel.jpg?width=600&amp;height=600 3x" media="(max-width: 640px)"&gt;
+                    &lt;source class="" srcset="https://photoresources.wtatennis.com/photo-resources/2026/06/19/3277f185-b6da-431e-8f1a-c1e9a4dc7d8c/Noskova-QF-Boris-Streubel.jpg?width=200&amp;height=200, https://photoresources.wtatennis.com/photo-resources/2026/06/19/3277f185-b6da-431e-8f1a-c1e9a4dc7d8c/Noskova-QF-Boris-Streubel.jpg?width=400&amp;height=400 2x, https://photoresources.wtatennis.com/photo-resources/2026/06/19/3277f185-b6da-431e-8f1a-c1e9a4dc7d8c/Noskova-QF-Boris-Streubel.jpg?width=600&amp;height=600 3x" media="(max-width: 839px)"&gt;
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/videos/4522547/not-done-yet-eala-battles-past-svitolina-and-into-berlin-last-four" | grep -oE 'youtube\.com/embed/[a-zA-Z0-9_-]+|videoId["'\'':]+[a-zA-Z0-9_-]+|watch\?v=[a-zA-Z0-9_-]+' | head -10</summary>
+
+```bash
+curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/videos/4522547/not-done-yet-eala-battles-past-svitolina-and-into-berlin-last-four" | grep -oE 'youtube\.com/embed/[a-zA-Z0-9_-]+|videoId["'\'':]+[a-zA-Z0-9_-]+|watch\?v=[a-zA-Z0-9_-]+' | head -10
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/videos/highlights" | grep -iE 'noskova.*eala|eala.*noskova' | head -10</summary>
+
+```bash
+curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/videos/highlights" | grep -iE 'noskova.*eala|eala.*noskova' | head -10
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/videos/4522547/not-done-yet-eala-battles-past-svitolina-and-into-berlin-last-four" | grep -oE '[A-Za-z0-9_-]{11}' | sort | uniq -c | sort -rn | head -20</summary>
+
+```bash
+curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/videos/4522547/not-done-yet-eala-battles-past-svitolina-and-into-berlin-last-four" | grep -oE '[A-Za-z0-9_-]{11}' | sort | uniq -c | sort -rn | head -20
+```
+
+```
+    793 data-tracki
+    299 main-naviga
+    138 aria-hidden
+    117 ng-componen
+    117 ng-category
+    108 click_track
+    100 photoresour
+     97 photo-resou
+     88 tion__item-
+     69 tion__dropd
+     57 icn-chevron
+     47 footer-main
+     46 js-no-dropd
+     43 icn-large-a
+     42 mobile-icon
+     40 __links-men
+     39 minutely-fe
+     39 atured-vide
+     38 ng-widget-t
+     38 ng-widget-n
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md",
+  "pattern": "4522547|Svitolina|Berlin"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md",
+  "pattern": "4522547|Svitolina|Berlin",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".cursor/skills/alex-eala-tracker-update/reference.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/videos/4522547/not-done-yet-eala-battles-past-svitolina-and-into-berlin-last-four" | tr '"' '\n' | grep -iE 'youtube|youtu|brightcove|video' | head -30</summary>
+
+```bash
+curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/videos/4522547/not-done-yet-eala-battles-past-svitolina-and-into-berlin-last-four" | tr '"' '\n' | grep -iE 'youtube|youtu|brightcove|video' | head -30
+```
+
+```
+video
+www.wtatennis.com/videos/4522547/not-done-yet-eala-battles-past-svitolina-and-into-berlin-last-four
+video
+https://www.wtatennis.com/videos/4522547/not-done-yet-eala-battles-past-svitolina-and-into-berlin-last-four
+https://www.wtatennis.com/videos/4522547/not-done-yet-eala-battles-past-svitolina-and-into-berlin-last-four
+        // Brightcove Config
+        window.BRIGHTCOVE_CONFIG = {
+https://www.youtube.com/user/WTA
+page-background page-background--video theme-purple
+page-video-background
+https://www.wtatennis.com/videos
+Videos
+                Videos
+https://www.wtatennis.com/videos
+Videos
+                                Videos
+https://www.wtatennis.com/videos
+Video hub
+Video hub
+Video hub
+                    Video hub
+https://www.wtatennis.com/videos/highlights
+main-navigation__dropdown-item main-navigation__dropdown-card-container js-videos-list
+https://www.wtatennis.com/videos
+Videos
+                Videos
+https://www.wtatennis.com/videos
+Videos
+                                Videos
+https://www.wtatennis.com/videos
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL "https://www.youtube.com/@WTA/videos" -A "Mozilla/5.0" 2>/dev/null | grep -oE 'watch\?v=[a-zA-Z0-9_-]{11}' | head -5
+# try yt search via invidious or piped
+curl -s "https://pipedapi.kavin.rocks/search?q=Not+done+yet+Eala+Svitolina+Berlin&filter=videos" 2>/dev/null | python3 -c "import sys,json; d=json.load(sys.stdin); [print(x.get('url',''), x.get('title',''), x.get('uploader','')) for x in d.get('items',[])[:5]]" 2>/dev/null</summary>
+
+```bash
+curl -sL "https://www.youtube.com/@WTA/videos" -A "Mozilla/5.0" 2>/dev/null | grep -oE 'watch\?v=[a-zA-Z0-9_-]{11}' | head -5
+# try yt search via invidious or piped
+curl -s "https://pipedapi.kavin.rocks/search?q=Not+done+yet+Eala+Svitolina+Berlin&filter=videos" 2>/dev/null | python3 -c "import sys,json; d=json.load(sys.stdin); [print(x.get('url',''), x.get('title',''), x.get('uploader','')) for x in d.get('items',[])[:5]]" 2>/dev/null
+```
+
+```
+watch?v=Il6cKvP4qAw
+watch?v=Il6cKvP4qAw
+watch?v=Il6cKvP4qAw
+watch?v=-Fj9dO8rSmg
+watch?v=-Fj9dO8rSmg
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: for id in Il6cKvP4qAw -Fj9dO8rSmg; do curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&format=json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('author_name'), '|', d.get('title'))"; done
+# search noskova berlin
+curl -s "https://pipedapi.kavin.rocks/search?q=Eala+Noskova+Berlin+2026+WTA+highlights&filter=videos" 2>/dev/null | python3 -c "import sys,json; d=json.load(sys.stdin); [print(x.get('url',''), '|', x.get('title','')[:80], '|', x.get('uploader','')) for x in d.get('items',[])[:8]]" 2>/dev/null
+curl -s "https://pipedapi.kavin.rocks/search?q=Not+done+yet+Eala+Svitolina&filter=videos" 2>/dev/null | python3 -c "import sys,json; d=json.load(sys.stdin); [print(x.get('url',''), '|', x.get('title','')[:80], '|', x.get('uploader','')) for x in d.get('items',[])[:8]]" 2>/dev/null</summary>
+
+```bash
+for id in Il6cKvP4qAw -Fj9dO8rSmg; do curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&format=json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('author_name'), '|', d.get('title'))"; done
+# search noskova berlin
+curl -s "https://pipedapi.kavin.rocks/search?q=Eala+Noskova+Berlin+2026+WTA+highlights&filter=videos" 2>/dev/null | python3 -c "import sys,json; d=json.load(sys.stdin); [print(x.get('url',''), '|', x.get('title','')[:80], '|', x.get('uploader','')) for x in d.get('items',[])[:8]]" 2>/dev/null
+curl -s "https://pipedapi.kavin.rocks/search?q=Not+done+yet+Eala+Svitolina&filter=videos" 2>/dev/null | python3 -c "import sys,json; d=json.load(sys.stdin); [print(x.get('url',''), '|', x.get('title','')[:80], '|', x.get('uploader','')) for x in d.get('items',[])[:8]]" 2>/dev/null
+```
+
+```
+WTA | Aryna Sabalenka vs. Jessica Pegula | 2026 Berlin Semifinal | WTA Match Highlights
+WTA | Emma Navarro vs. Viktorija Golubic | 2026 Nottingham Semifinal | WTA Match Highlights
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -A "Mozilla/5.0" "https://www.youtube.com/results?search_query=WTA+Eala+Svitolina+Berlin+2026+Match+Highlights" | grep -oE '"videoId":"[a-zA-Z0-9_-]{11}"' | head -10 | sort -u</summary>
+
+```bash
+curl -sL -A "Mozilla/5.0" "https://www.youtube.com/results?search_query=WTA+Eala+Svitolina+Berlin+2026+Match+Highlights" | grep -oE '"videoId":"[a-zA-Z0-9_-]{11}"' | head -10 | sort -u
+```
+
+```
+"videoId":"4C8dT5T-fHM"
+"videoId":"AdoeRVzt6FQ"
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -A "Mozilla/5.0" "https://www.youtube.com/results?search_query=WTA+Noskova+Eala+Berlin+2026" | grep -oE '"videoId":"[a-zA-Z0-9_-]{11}"' | head -10 | sort -u</summary>
+
+```bash
+curl -sL -A "Mozilla/5.0" "https://www.youtube.com/results?search_query=WTA+Noskova+Eala+Berlin+2026" | grep -oE '"videoId":"[a-zA-Z0-9_-]{11}"' | head -10 | sort -u
+```
+
+```
+"videoId":"OujZa5hnCQk"
+"videoId":"Xwc8C_kuDIY"
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: for id in AdoeRVzt6FQ OujZa5hnCQk Xwc8C_kuDIY; do echo "=== $id ==="; curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&format=json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('author_name'), '|', d.get('title'))"; done</summary>
+
+```bash
+for id in AdoeRVzt6FQ OujZa5hnCQk Xwc8C_kuDIY; do echo "=== $id ==="; curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&format=json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('author_name'), '|', d.get('title'))"; done
+```
+
+```
+=== AdoeRVzt6FQ ===
+WTA | Elina Svitolina vs. Alexandra Eala | 2026 Berlin Quarterfinal | WTA Match Highlights
+=== OujZa5hnCQk ===
+MSB Rewind | WTA Live: Alex Eala vs Linda Noskova - WTA 500 Berlin Open 2026 Women Singles Tennis Semifinal Live
+=== Xwc8C_kuDIY ===
+TENNIS TALK with Cam Williams | EALA vs NOSKOVA • WTA Berlin 2026 SF • LIVE Tennis Watchalong
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -A "Mozilla/5.0" "https://www.youtube.com/results?search_query=Alexandra+Eala+Linda+Noskova+Berlin+2026+WTA+Match+Highlights" | grep -oE '"videoId":"[a-zA-Z0-9_-]{11}"' | sort -u | while read v; do
+  id=${v#\"videoId\":\"}; id=${id%\"}
+  r=$(curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&format=json" 2>/dev/null)
+  author=$(echo "$r" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('author_name',''), '|', d.get('title','')[:70])" 2>/dev/null)
+  echo "$id: $author"
+done | head -15</summary>
+
+```bash
+curl -sL -A "Mozilla/5.0" "https://www.youtube.com/results?search_query=Alexandra+Eala+Linda+Noskova+Berlin+2026+WTA+Match+Highlights" | grep -oE '"videoId":"[a-zA-Z0-9_-]{11}"' | sort -u | while read v; do
+  id=${v#\"videoId\":\"}; id=${id%\"}
+  r=$(curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&format=json" 2>/dev/null)
+  author=$(echo "$r" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('author_name',''), '|', d.get('title','')[:70])" 2>/dev/null)
+  echo "$id: $author"
+done | head -15
+```
+
+```
+0mO499y9Ebk: WTA | Donna Vekic vs. Alexandra Eala | 2026 Berlin Round 1 | WTA Match Highl
+1p_aMJmqSYQ: Court Vision Tennis | LIVE UPDATES: ALEX EALA vs LINDA NOSKOVÁ at the Berlin Open Semi-Final
+2xXtCXEVBqg: WTA | Linda Noskova vs. Alexandra Eala | 2026 Berlin Semifinal | WTA Match H
+4C8dT5T-fHM: WTA | Alexandra Eala vs. Elena Rybakina | 2026 Berlin Round of 16 | WTA Matc
+4R2ATgzTS9o: Eyes of The World | Alex Eala 🇵🇭 Defeats Elina Svitolina 🇺🇦 6-3, 6-4 Reaches Final 4 vs #8
+5Bie9GxjISU: PapercoinageVideo | #69 ALEX EALA WTA NEW WORL RANK Dance APT #trending #viralvideo #video
+6djWGxG7a8E: WTA | Alex Eala moves one set away from the semifinals in Berlin, taking the
+6el2CJ0r8ds: Tako and Yaki | How Noskova Dominated the First Set Against Eala at the semifinals of 
+9PfS3zo1ra8: Coach Adrian | Alex Eala vs. Linda Noskova - Preview - Berlin Open 2026
+9tjFbjeSLUQ: Jasper Video Vlog | Alex Eala Post Fight Interview after beating Elina Svitolina |Berlin O
+9wQKX2SVDic: QualityShot Tennis | Alexandra Eala vs Linda Noskova - Preview &amp; Prediction - 2026 WTA Berl
+a4xOtOPEZ5I: World of Celeb  | Alex Eala vs Linda Nosková – Berlin Semi-Final Showdown! 😱🎾 #alexeala 
+AdoeRVzt6FQ: WTA | Elina Svitolina vs. Alexandra Eala | 2026 Berlin Quarterfinal | WTA Ma
+AGfFpQ-egyY: Philstar News | Alex Eala stuns World No. 2 Elena Rybakina, advances to Berlin Tennis 
+aXL4y28Oy7o: TopSports | Alex Eala vs Linda Noskova Score Today | Indian Wells 2026
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/videos/highlights" | grep -iE 'eala|noskova' | grep -oE '/videos/[0-9]+/[^"]+' | head -15</summary>
+
+```bash
+curl -sL -A "Mozilla/5.0" "https://www.wtatennis.com/videos/highlights" | grep -iE 'eala|noskova' | grep -oE '/videos/[0-9]+/[^"]+' | head -15
+```
+
+```
+/videos/4522547/not-done-yet-eala-battles-past-svitolina-and-into-berlin-last-four
+/videos/4522310/noskova-overpowers-badosa-in-68-minutes-to-reach-berlin-semifinals
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Found the official WTA semifinal highlights for Linda Noskova versus Alexandra Eala from the 2026 Berlin tournament.
+
+Verified the Noskova semifinal video link. Confirmed no duplicate entries exist between the tournament highlights and the H2H sections. Considering whether to add the Berlin semifinal embed to the Noskova H2H section, since the skill specifies Other Top 20 entries should contain only embeds without match lines.
+
+Adding the Berlin semifinal embed to the Noskova H2H section is correct since they now have two meetings. For Svitolina, the full quarterfinal highlights should move from the tournament block to the H2H section, leaving only the short clip in the tournament entry.
+
+The tournament block will keep both the Svitolina quarterfinal and the Noskova semifinal embeds. The H2H sections will hold the remaining clips.
+
+The tournament block will keep only the Svitolina quarterfinal embed. The Noskova semifinal embed will move to her H2H section, since H2H takes precedence over tournament duplicates.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=2xXtCXEVBqg&format=json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('author_name'), '|', d.get('title'))"</summary>
+
+```bash
+curl -s "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=2xXtCXEVBqg&format=json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('author_name'), '|', d.get('title'))"
+```
+
+```
+WTA | Linda Noskova vs. Alexandra Eala | 2026 Berlin Semifinal | WTA Match Highlights
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the Berlin semifinals line with the score and tennis.com link. Adding YouTube embeds after the Berlin block.</details></think>
+
+_**Agent (default)**_
+
+Applying the verified score and links, and adding WTA highlight embeds.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="read_lints">
+<details>
+<summary>Tool use: **read_lints**</summary>
+
+
+Parameters:
+
+```json
+{
+  "paths": [
+    "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md"
+  ]
+}
+```
+Result:
+
+```json
+{
+  "linterErrorsByFile": [
+    {
+      "relativeWorkspacePath": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ]
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="read_lints"><details>
+<summary>Tool use: **read_lints**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+Updated the tracker with Eala's Berlin semifinal loss to Linda Noskova.
+
+**Berlin (WTA 500)**
+- Semifinals: **l. Noskova 6-2, 6-4** (verified on WTA + tennis.com)
+- Exit line links to the SF match on both sources
+- Added WTA QF highlights embed (Svitolina win) under the Berlin block
+
+**Linda Noskova (Other Top 20)**
+- Added WTA Berlin semifinal highlights embed (newest meeting first, Indian Wells still below)
+
+**Unchanged**
+- At a glance, rankings, and notable firsts — still a WTA 500 semifinal run; career high remains No. 29
+- Elina Svitolina H2H — QF win was already logged; kept existing embed there
+
+`lastmod` bumped to `2026-06-21T02:30:00Z`. Not committed — say if you want that.
+
+---
+
+_**User**_
+
+<system_notification>
+The following task has finished. If you were already aware, ignore this notification and do not restate prior responses.
+
+<task>
+kind: shell
+status: success
+task_id: 47472
+title: Verify WTA YouTube IDs from match pages
+output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/47472.txt
+</task>
+</system_notification>
+<user_query>Briefly inform the user about the task result and perform any follow-up actions (if needed). If there's no follow-ups needed, don't explicitly say that.</user_query>
+
+---
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/47472.txt</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+The tracker is updated: Eala's Berlin semifinal loss to Noskova is recorded as **6-2, 6-4**, with WTA and tennis.com links on the exit line. WTA highlight embeds are in place — Svitolina QF under the Berlin block, Berlin SF under Linda Noskova's H2H section (Indian Wells embed kept below it).
+
+---
+
+_**User**_
+
+<system_notification>
+The following task has finished. If you were already aware, ignore this notification and do not restate prior responses.
+
+<task>
+kind: shell
+status: error
+task_id: 675600
+title: Find YouTube ID on WTA Svitolina match page
+detail: exit_code=1
+output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/675600.txt
+</task>
+</system_notification>
+<user_query>Briefly inform the user about the task result and perform any follow-up actions (if needed). If there's no follow-ups needed, don't explicitly say that.</user_query>

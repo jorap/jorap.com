@@ -104,8 +104,8 @@ If JoRap’s copy already matches upstream (`diff -q`), skip.
 
 ### Agent skills from Hugoplate
 
-- `.agents/skills/hugo-template-guidance/` — sync, then **re-apply JoRap local notes** (e.g. `__` draft-post convention in `content-management.md`)
-- `.agents/skills/find-skills/` — sync wholesale
+- `.cursor/skills/hugo-template-guidance/` — sync from Hugoplate `$HUGO/.agents/skills/`, then **re-apply JoRap local notes** (e.g. `__` draft-post convention in `content-management.md`)
+- `.cursor/skills/find-skills/` — sync wholesale from upstream
 
 ### package.json
 

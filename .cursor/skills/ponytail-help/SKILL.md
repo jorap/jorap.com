@@ -42,7 +42,7 @@ Say "stop ponytail" or "normal mode". Resume anytime with `/ponytail`.
 ## JoRap defaults
 
 - Always-on rule: `.cursor/rules/ponytail.mdc`
-- Skills live in `.cursor/skills/ponytail*/`
+- All project skills live in `.cursor/skills/` (ponytail, Hugo, JoRap voice, etc.)
 - **Exclude from audits** unless you say otherwise: `pixi.js`, `assets/js/notes-graph.js` (Obsidian graph parity)
 
 ## More

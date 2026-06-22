@@ -1,5 +1,6 @@
 {{ define "main" }}
-{{ $hasToc := ne .TableOfContents "<nav id=\"TableOfContents\"></nav>" }}
+{{ $blogToc := partial "blog/toc.html" . }}
+{{ $hasToc := $blogToc.has }}
 <section class="section pt-7">
   <div class="container">
     <div class="row justify-center">
@@ -59,7 +60,7 @@
             </button>
             <div id="mobile-toc-panel" class="mobile-toc-content mt-4 hidden">
               <div class="table-of-content toc-links">
-                {{ .TableOfContents }}
+                {{ $blogToc.html | safeHTML }}
               </div>
             </div>
           </div>
@@ -107,7 +108,7 @@
           <div class="toc-wrapper hidden lg:block sticky top-[100px] z-10 bg-surface">
             <div class="table-of-content toc-links">
               <p class="mb-3 text-h5 font-semibold leading-snug tracking-tight text-ink">{{ T "table_of_contents" | default "Table of Contents" }}</p>
-              <div class="toc-scroll">{{ .TableOfContents }}</div>
+              <div class="toc-scroll">{{ $blogToc.html | safeHTML }}</div>
             </div>
           </div>
         </div>
