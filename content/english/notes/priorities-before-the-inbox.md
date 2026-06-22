@@ -15,7 +15,7 @@ aliases: ["real priority first"]
 ---
 **Priorities before the inbox** = put the real priority first before email, Slack, and everyone else's urgency rewrite my morning.
 
-The inbox is other people's priorities wearing a siren. One block on the actual deliverable - spec, hard conversation, deep work - before I answer pings. Gospel source: [[Seek the Kingdom First]]. PKM parallel: [[Signal vs Noise]].
+The inbox is other people's priorities wearing a siren. One block on the actual deliverable - spec, hard conversation, [[Deep Work]] - before I answer pings. Gospel source: [[Seek the Kingdom First]]. PKM parallel: [[Signal vs Noise]].
 
 ## Example
 

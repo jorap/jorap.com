@@ -1,4 +1,5 @@
 ---
+
 title: "Note Relationships"
 meta_title: "Note Relationships - Four Link Types for the Garden"
 description: "Four pair types in the body table - extends, contradicts, implements, alternative. Hub and utility pages use note_kind flags."
@@ -26,8 +27,9 @@ cards:
   - front: "Two tools solve the same job - picking one for this note. Link type for the other tool?"
     back: "Link the other as alternative."
 draft: false
-aliases: ["link types"]
+aliases: ["link types", "Link Typing"]
 ---
+
 **Note relationships** = four pair types in a body table - extends, contradicts, implements, alternative - so the graph shows how ideas push and pull. **Hub/MOC pages** use `note_kind: index` in frontmatter (not a row). **Utility pages** use `note_kind: meta` — link by URL, not wikilink.
 
 | Type | Question | Example |

@@ -26,7 +26,7 @@ A basketball team watches film after a loss — not to wallow, but so the next g
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Forgiveness]] | when re-analyzing the wound becomes an excuse not to release or move on |
-| extends | [[Active Knowledge Curation]] | Capture the lesson or it rots in memory |
+| extends | [[Active Knowledge Curation]] | [[Capture]] the lesson or it rots in memory |
 | extends | [[Continuous Improvement]] | Each failure feeds the next iteration |
 | extends | [[Deliberate Practice]] | Target the weak slice, don't just repeat |
 | extends | [[Failure as Feedback]] | Pain is signal when you listen |

@@ -17,7 +17,7 @@ Mental models are shortcuts for thinking. I keep a short list of ones that survi
 
 ## Example
 
-Saturday soccer signup had forty camps listed and I froze. Pareto got me to three that fit our budget; low-hanging fruit was registering online before slots closed; compounding was the ten minutes a week of practice that'll matter more than the flashiest jersey.
+Saturday soccer signup had forty camps listed and I froze. Pareto got me to three that fit our budget; [[Low Hanging Fruit]] was registering online before slots closed; compounding was the ten minutes a week of practice that'll matter more than the flashiest jersey.
 
 ## Note Relationships
 

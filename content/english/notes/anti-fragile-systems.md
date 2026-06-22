@@ -1,4 +1,5 @@
 ---
+
 title: "Anti-Fragile Systems"
 meta_title: "Anti-Fragile PKM - Systems That Survive Tool Death"
 description: "Note systems that survive app shutdowns - plain files, open formats, and backups I actually test."
@@ -11,8 +12,9 @@ slug: "anti-fragile-systems"
 featured: false
 status: evergreen
 draft: false
-aliases: ["anti fragile systems", "Antifragile"]
+aliases: ["anti fragile systems", "Antifragile", "Antifragility"]
 ---
+
 Fragile systems break when an app shuts down. I build around plain files, open formats, and exports I actually test.
 
 ## Example

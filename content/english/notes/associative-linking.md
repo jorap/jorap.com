@@ -32,7 +32,7 @@ Folders sort. Links think. I link so notes meet without me remembering every fil
 
 ## Example
 
-My kid asks why we can't sprint through bedtime and I don't remember which card says "meltdown." The arrow from "rush" to "slow the moment" on the fridge chart gets me there — not the folder tab labeled "evening."
+My kid asks why we can't sprint through bedtime and I don't remember which card says "meltdown." The arrow from "rush" to "[[Slow the Moment]]" on the fridge chart gets me there — not the folder tab labeled "evening."
 
 ## Note Relationships
 

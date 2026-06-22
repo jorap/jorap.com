@@ -1,4 +1,5 @@
 ---
+
 note_kind: "index"
 title: "Maps of Content"
 meta_title: "Maps of Content (MOC) - Index Pages That Think"
@@ -11,9 +12,10 @@ tags: ["MOC", "Maps of Content", "PKM", "Linking", "Organization", "Second Brain
 slug: "maps-of-content"
 featured: true
 draft: false
-aliases: ["MOC"]
+aliases: ["MOC", "Table of Contents"]
 status: evergreen
 ---
+
 **Maps of Content (MOCs)** are hub notes that index related ideas. I use pages like this to wander the garden.
 
 ## Maps
@@ -81,6 +83,12 @@ status: evergreen
 ### Mental models
 
 - [[Mental Models]]
+
+### Performance & growth
+
+- [[Systems for Growth]]
+- [[Pressure Reveals Weakness]]
+- [[Workplace Principles]]
 
 ### Systems & tools
 

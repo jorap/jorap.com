@@ -32,7 +32,7 @@ A previous rescue during the same exercise is a warning to stop — not proof th
 | extends | [[Failure as Feedback]] | Close calls are feedback before harm |
 | extends | [[Incident Investigation]] | Every close call deserves a root-cause pass, not a shrug |
 | extends | [[Learning Organizations]] | Organizations that learn treat near misses as data, not luck to forget |
-| implements | [[Active Knowledge Curation]] | Capture the close call, redesign the activity, don't let the lesson rot in memory |
+| implements | [[Active Knowledge Curation]] | [[Capture]] the close call, redesign the activity, don't let the lesson rot in memory |
 ## See also
 
 - [[Life Before Achievement]] - Ethics, Leadership, Safety

@@ -28,6 +28,7 @@ A line cook pulls a bad prep tray and fixes the station before service — small
 | extends | [[Convert Pain Into Learning]] | Lessons become process changes |
 | extends | [[Process Over Outcomes]] | Trust the improving loop, not one perfect sprint |
 | implements | [[Weekly Review Checklists]] | Sunday pass is a continuous improvement ritual |
+| implements | [[Systems for Growth]] | Review-and-fix rhythm the growth hub indexes |
 ## See also
 
 - [[Convert Pain Into Learning]] - Learning, Performance

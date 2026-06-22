@@ -1,4 +1,5 @@
 ---
+
 title: "The Feynman Technique"
 meta_title: "The Feynman Technique - Teach It to Learn It"
 description: "I explain notes like I'm teaching someone - gaps in my explanation show gaps in understanding."
@@ -11,8 +12,9 @@ slug: "the-feynman-technique"
 featured: false
 status: evergreen
 draft: false
-aliases: ["Feynman Technique"]
+aliases: ["Feynman Technique", "Richard Feynman"]
 ---
+
 I explain notes like I'm teaching someone - gaps in my explanation show gaps in understanding.
 
 ## Example

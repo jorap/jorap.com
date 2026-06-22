@@ -28,6 +28,7 @@ Same door, same notebook, same pocket — after thirty days you stop debating ca
 | extends | [[Compounding]] | Small repeats stack |
 | extends | [[Process Over Outcomes]] | Trust the loop until it's automatic |
 | implements | [[Capture]] | One capture habit carries the whole pipe |
+| implements | [[Systems for Growth]] | Core install move in the growth systems hub |
 ## See also
 
 - [[Build a Reliable Default]] - Performance, Preparedness

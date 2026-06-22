@@ -28,9 +28,9 @@ cards:
 draft: false
 aliases: ["deny yourself", "daily cross"]
 ---
-**Take up your cross** = deny yourself, pick up the cross daily, and follow Jesus - the shape of discipleship after you come to him (Luke 9:23; Matthew 16:24).
+**Take up your cross** = deny yourself, pick up the cross daily, and follow [[Discipleship]] - the shape of discipleship after you come to him (Luke 9:23; Matthew 16:24).
 
-The cross isn't suffering for suffering's sake; it's choosing God's will over self-will each day. [[Free Grace]] keeps the order: eternal life is received by faith, not earned by cross-bearing - but following Christ costs something real. Same road as [[The Narrow Way]], lived one day at a time. Overlap with [[Process Over Outcomes]]: daily self-denial beats a one-time hero sprint.
+The cross isn't suffering for suffering's sake; it's choosing God's will over self-will each day. [[Free Grace]] keeps the order: eternal life is received by faith, not earned by cross-bearing - but [[Discipleship]] costs something real. Same road as [[The Narrow Way]], lived one day at a time. Overlap with [[Process Over Outcomes]]: daily self-denial beats a one-time hero sprint.
 
 ## Example
 

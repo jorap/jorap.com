@@ -25,6 +25,7 @@ The restaurant opening checklist lives on a clipboard because memory fails when 
 |--------------|----------|--------|
 | contradicts | [[Adaptability]] | when the script can't handle the novel case the runbook never saw |
 | extends | [[Build a Reliable Default]] | SOPs are shared defaults |
+| extends | [[Systems Thinking]] | Written steps are one visible part of the loop |
 | extends | [[Preparedness]] | Write the steps before the emergency |
 | implements | [[Weekly Review Checklists]] | Checklists are SOPs for review |
 ## See also

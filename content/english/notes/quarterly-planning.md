@@ -1,0 +1,28 @@
+---
+title: "Quarterly Planning"
+meta_title: "Quarterly Planning"
+description: "set goals and review on a thirteen-week rhythm — short enough to feel real."
+date: 2026-06-22T06:00:00Z
+image: "/images/note.jpg"
+categories: ["Ideas", "Tips"]
+author: "JoRap"
+tags: ["Productivity", "Planning"]
+slug: "quarterly-planning"
+featured: false
+status: seedling
+draft: false
+aliases: []
+---
+**Quarterly planning** = set goals and review on a thirteen-week rhythm — short enough to feel real.
+
+## Example
+
+January's vague 'get fit' became twelve weeks with a fridge scoreboard — week ten finally bit.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| extends | [[The 12 Week Year]] | Named in notes that link here |
+| extends | [[Periodic Knowledge Review]] | Named in notes that link here |
+| contradicts | [[Slow Productivity]] | when the opposite frame fits better |

@@ -21,7 +21,7 @@
   },
   "notes/anti-fragile-systems.md": {
     "created": "2026-06-22T02:07:38.811Z",
-    "updated": "2026-06-22T07:41:56.562Z"
+    "updated": "2026-06-22T09:33:11.825Z"
   },
   "notes/ask-seek-knock.md": {
     "created": "2026-06-22T02:07:38.811Z",
@@ -29,11 +29,15 @@
   },
   "notes/associative-linking.md": {
     "created": "2026-06-22T02:07:38.811Z",
-    "updated": "2026-06-22T07:41:58.757Z"
+    "updated": "2026-06-22T09:33:46.632Z"
   },
   "notes/atomic-notes.md": {
     "created": "2026-06-22T02:07:38.811Z",
     "updated": "2026-06-22T07:42:00.208Z"
+  },
+  "notes/attention-economy.md": {
+    "created": "2026-06-22T09:33:11.828Z",
+    "updated": "2026-06-22T09:33:11.828Z"
   },
   "notes/attention-to-detail.md": {
     "created": "2026-06-22T06:34:46.715Z",
@@ -42,6 +46,10 @@
   "notes/backlinks.md": {
     "created": "2026-06-22T02:07:38.811Z",
     "updated": "2026-06-22T02:07:38.811Z"
+  },
+  "notes/behavioral-economics.md": {
+    "created": "2026-06-22T09:33:11.829Z",
+    "updated": "2026-06-22T09:33:11.829Z"
   },
   "notes/break-the-escalation-cycle.md": {
     "created": "2026-06-22T02:07:38.811Z",
@@ -57,7 +65,7 @@
   },
   "notes/building-a-second-brain.md": {
     "created": "2026-06-22T02:07:38.811Z",
-    "updated": "2026-06-22T07:45:44.474Z"
+    "updated": "2026-06-22T09:33:11.827Z"
   },
   "notes/by-their-fruits.md": {
     "created": "2026-06-22T02:07:38.811Z",
@@ -65,15 +73,23 @@
   },
   "notes/capture.md": {
     "created": "2026-06-22T02:07:38.811Z",
-    "updated": "2026-06-22T07:45:41.140Z"
+    "updated": "2026-06-22T09:33:11.826Z"
   },
   "notes/childlike-faith.md": {
     "created": "2026-06-22T02:07:38.812Z",
     "updated": "2026-06-22T06:16:58.442Z"
   },
+  "notes/coaching-ethics.md": {
+    "created": "2026-06-22T09:33:11.827Z",
+    "updated": "2026-06-22T09:34:33.537Z"
+  },
+  "notes/commonplace-book.md": {
+    "created": "2026-06-22T09:33:11.828Z",
+    "updated": "2026-06-22T09:34:34.436Z"
+  },
   "notes/complete-the-cycle.md": {
     "created": "2026-06-22T06:32:31.054Z",
-    "updated": "2026-06-22T07:40:57.019Z"
+    "updated": "2026-06-22T09:33:08.429Z"
   },
   "notes/composure.md": {
     "created": "2026-06-22T06:35:33.175Z",
@@ -89,7 +105,7 @@
   },
   "notes/continuous-improvement.md": {
     "created": "2026-06-22T06:36:20.161Z",
-    "updated": "2026-06-22T07:40:59.615Z"
+    "updated": "2026-06-22T09:18:23.835Z"
   },
   "notes/control-the-rhythm.md": {
     "created": "2026-06-22T06:32:56.099Z",
@@ -97,11 +113,15 @@
   },
   "notes/convert-pain-into-learning.md": {
     "created": "2026-06-22T06:33:07.672Z",
-    "updated": "2026-06-22T07:41:00.948Z"
+    "updated": "2026-06-22T09:33:09.653Z"
+  },
+  "notes/crdt.md": {
+    "created": "2026-06-22T09:33:11.829Z",
+    "updated": "2026-06-22T09:33:11.829Z"
   },
   "notes/creative-blocks.md": {
     "created": "2026-06-22T02:07:38.812Z",
-    "updated": "2026-06-22T07:41:03.529Z"
+    "updated": "2026-06-22T09:33:11.825Z"
   },
   "notes/creative-output.md": {
     "created": "2026-06-22T02:07:38.812Z",
@@ -115,6 +135,10 @@
     "created": "2026-06-22T06:34:06.759Z",
     "updated": "2026-06-22T07:41:05.251Z"
   },
+  "notes/deep-work.md": {
+    "created": "2026-06-22T09:33:11.829Z",
+    "updated": "2026-06-22T09:34:49.165Z"
+  },
   "notes/deliberate-practice.md": {
     "created": "2026-06-22T06:36:08.046Z",
     "updated": "2026-06-22T07:42:09.095Z"
@@ -125,7 +149,7 @@
   },
   "notes/digital-garden.md": {
     "created": "2026-06-22T02:07:38.812Z",
-    "updated": "2026-06-22T07:42:10.904Z"
+    "updated": "2026-06-22T09:33:11.826Z"
   },
   "notes/digital-minimalism.md": {
     "created": "2026-06-22T02:07:38.812Z",
@@ -133,7 +157,7 @@
   },
   "notes/digital-serendipity.md": {
     "created": "2026-06-22T02:07:38.812Z",
-    "updated": "2026-06-22T07:42:15.276Z"
+    "updated": "2026-06-22T09:33:11.826Z"
   },
   "notes/discipleship.md": {
     "created": "2026-06-22T02:07:38.812Z",
@@ -149,11 +173,19 @@
   },
   "notes/drafting-in-public.md": {
     "created": "2026-06-22T02:07:38.812Z",
-    "updated": "2026-06-22T07:42:16.870Z"
+    "updated": "2026-06-22T09:33:11.825Z"
+  },
+  "notes/duty-of-care.md": {
+    "created": "2026-06-22T09:33:11.827Z",
+    "updated": "2026-06-22T09:33:11.827Z"
   },
   "notes/eliminate-before-managing.md": {
     "created": "2026-06-22T06:16:21.928Z",
     "updated": "2026-06-22T06:16:58.444Z"
+  },
+  "notes/elon-musk.md": {
+    "created": "2026-06-22T09:33:11.828Z",
+    "updated": "2026-06-22T09:33:11.828Z"
   },
   "notes/emotional-regulation.md": {
     "created": "2026-06-22T06:34:01.378Z",
@@ -171,13 +203,17 @@
     "created": "2026-06-22T02:07:38.812Z",
     "updated": "2026-06-22T06:16:58.445Z"
   },
+  "notes/ethical-leadership.md": {
+    "created": "2026-06-22T09:33:11.828Z",
+    "updated": "2026-06-22T09:33:11.828Z"
+  },
   "notes/evergreen-notes.md": {
     "created": "2026-06-22T02:07:38.812Z",
-    "updated": "2026-06-22T07:41:28.406Z"
+    "updated": "2026-06-22T09:33:11.826Z"
   },
   "notes/evergreen-vs-fleeting-notes.md": {
     "created": "2026-06-22T02:07:38.812Z",
-    "updated": "2026-06-22T07:41:29.936Z"
+    "updated": "2026-06-22T09:33:11.826Z"
   },
   "notes/execution.md": {
     "created": "2026-06-22T06:33:50.766Z",
@@ -207,6 +243,10 @@
     "created": "2026-06-22T06:34:44.115Z",
     "updated": "2026-06-22T07:41:39.855Z"
   },
+  "notes/forgetting-curve.md": {
+    "created": "2026-06-22T09:33:11.829Z",
+    "updated": "2026-06-22T09:33:11.829Z"
+  },
   "notes/forgiveness-at-work.md": {
     "created": "2026-06-22T02:07:38.812Z",
     "updated": "2026-06-22T07:41:40.845Z"
@@ -221,11 +261,15 @@
   },
   "notes/future-proofing-knowledge.md": {
     "created": "2026-06-22T02:07:38.812Z",
-    "updated": "2026-06-22T07:41:42.424Z"
+    "updated": "2026-06-22T09:33:11.827Z"
   },
   "notes/getting-started.md": {
     "created": "2026-06-22T02:07:38.812Z",
     "updated": "2026-06-22T07:39:14.453Z"
+  },
+  "notes/getting-things-done.md": {
+    "created": "2026-06-22T09:33:11.827Z",
+    "updated": "2026-06-22T09:33:11.827Z"
   },
   "notes/golden-rule-at-work.md": {
     "created": "2026-06-22T02:07:38.812Z",
@@ -245,7 +289,7 @@
   },
   "notes/growth-mindset.md": {
     "created": "2026-06-22T06:36:02.352Z",
-    "updated": "2026-06-22T07:41:45.601Z"
+    "updated": "2026-06-22T09:18:21.078Z"
   },
   "notes/gtd-vs-para.md": {
     "created": "2026-06-22T02:07:38.813Z",
@@ -253,7 +297,11 @@
   },
   "notes/habit-formation.md": {
     "created": "2026-06-22T06:35:18.834Z",
-    "updated": "2026-06-22T07:41:47.262Z"
+    "updated": "2026-06-22T09:18:22.441Z"
+  },
+  "notes/habit-stacking.md": {
+    "created": "2026-06-22T09:18:06.584Z",
+    "updated": "2026-06-22T09:19:41.825Z"
   },
   "notes/heart-righteousness.md": {
     "created": "2026-06-22T02:07:38.813Z",
@@ -261,11 +309,27 @@
   },
   "notes/heed-every-near-miss.md": {
     "created": "2026-06-22T06:16:30.191Z",
-    "updated": "2026-06-22T06:36:46.493Z"
+    "updated": "2026-06-22T09:33:23.693Z"
+  },
+  "notes/hierarchy-of-controls.md": {
+    "created": "2026-06-22T09:33:11.827Z",
+    "updated": "2026-06-22T09:33:11.827Z"
   },
   "notes/humility-and-service.md": {
     "created": "2026-06-22T02:07:38.813Z",
     "updated": "2026-06-22T06:16:58.447Z"
+  },
+  "notes/inbox-zero.md": {
+    "created": "2026-06-22T09:33:11.830Z",
+    "updated": "2026-06-22T09:33:11.830Z"
+  },
+  "notes/incident-investigation.md": {
+    "created": "2026-06-22T09:33:11.827Z",
+    "updated": "2026-06-22T09:33:11.828Z"
+  },
+  "notes/information-diet.md": {
+    "created": "2026-06-22T09:33:11.829Z",
+    "updated": "2026-06-22T09:33:11.829Z"
   },
   "notes/integrity-when-no-ones-watching.md": {
     "created": "2026-06-22T02:07:38.813Z",
@@ -287,9 +351,21 @@
     "created": "2026-06-22T02:07:38.813Z",
     "updated": "2026-06-22T06:16:58.448Z"
   },
+  "notes/layered-reading.md": {
+    "created": "2026-06-22T09:33:11.829Z",
+    "updated": "2026-06-22T09:33:11.829Z"
+  },
   "notes/leadership.md": {
     "created": "2026-06-22T06:35:38.077Z",
     "updated": "2026-06-22T07:41:55.088Z"
+  },
+  "notes/lean-startup.md": {
+    "created": "2026-06-22T09:33:11.829Z",
+    "updated": "2026-06-22T09:33:11.829Z"
+  },
+  "notes/learning-organizations.md": {
+    "created": "2026-06-22T09:33:11.828Z",
+    "updated": "2026-06-22T09:33:11.828Z"
   },
   "notes/let-your-light-shine.md": {
     "created": "2026-06-22T02:07:38.813Z",
@@ -297,11 +373,15 @@
   },
   "notes/let-your-yes-be-yes.md": {
     "created": "2026-06-22T02:07:38.813Z",
-    "updated": "2026-06-22T07:42:25.094Z"
+    "updated": "2026-06-22T09:33:40.226Z"
   },
   "notes/life-before-achievement.md": {
     "created": "2026-06-22T06:16:34.752Z",
     "updated": "2026-06-22T07:42:26.421Z"
+  },
+  "notes/literature-notes.md": {
+    "created": "2026-06-22T09:33:11.829Z",
+    "updated": "2026-06-22T09:33:11.829Z"
   },
   "notes/local-first-software.md": {
     "created": "2026-06-22T02:07:38.813Z",
@@ -323,13 +403,17 @@
     "created": "2026-06-22T02:07:38.813Z",
     "updated": "2026-06-22T07:42:28.013Z"
   },
+  "notes/maintenance-window.md": {
+    "created": "2026-06-22T09:33:11.829Z",
+    "updated": "2026-06-22T09:33:11.829Z"
+  },
   "notes/maps-of-content.md": {
     "created": "2026-06-22T02:07:38.813Z",
-    "updated": "2026-06-22T06:16:58.449Z"
+    "updated": "2026-06-22T09:33:11.826Z"
   },
   "notes/mental-models.md": {
     "created": "2026-06-22T02:07:38.813Z",
-    "updated": "2026-06-22T07:42:30.231Z"
+    "updated": "2026-06-22T09:33:49.167Z"
   },
   "notes/metadata-strategy.md": {
     "created": "2026-06-22T02:07:38.813Z",
@@ -351,9 +435,17 @@
     "created": "2026-06-22T02:07:38.813Z",
     "updated": "2026-06-22T07:41:58.301Z"
   },
+  "notes/network-analysis.md": {
+    "created": "2026-06-22T09:33:11.828Z",
+    "updated": "2026-06-22T09:33:11.829Z"
+  },
+  "notes/normalization-of-deviance.md": {
+    "created": "2026-06-22T09:33:11.828Z",
+    "updated": "2026-06-22T09:33:11.828Z"
+  },
   "notes/note-relationships.md": {
     "created": "2026-06-22T02:07:38.813Z",
-    "updated": "2026-06-22T07:45:47.919Z"
+    "updated": "2026-06-22T09:33:11.825Z"
   },
   "notes/outcomes-over-pitch-decks.md": {
     "created": "2026-06-22T02:07:38.813Z",
@@ -369,7 +461,7 @@
   },
   "notes/pareto-principle.md": {
     "created": "2026-06-22T02:07:38.813Z",
-    "updated": "2026-06-22T07:42:43.109Z"
+    "updated": "2026-06-22T09:33:11.825Z"
   },
   "notes/peacemakers.md": {
     "created": "2026-06-22T02:07:38.814Z",
@@ -393,11 +485,11 @@
   },
   "notes/pressure-reveals-weakness.md": {
     "created": "2026-06-22T06:31:46.348Z",
-    "updated": "2026-06-22T06:37:30.712Z"
+    "updated": "2026-06-22T09:18:19.730Z"
   },
   "notes/priorities-before-the-inbox.md": {
     "created": "2026-06-22T02:07:38.814Z",
-    "updated": "2026-06-22T07:42:09.987Z"
+    "updated": "2026-06-22T09:34:37.313Z"
   },
   "notes/process-over-outcomes.md": {
     "created": "2026-06-22T02:07:38.814Z",
@@ -407,9 +499,21 @@
     "created": "2026-06-22T02:07:38.814Z",
     "updated": "2026-06-22T07:42:44.306Z"
   },
+  "notes/psychological-safety.md": {
+    "created": "2026-06-22T09:33:11.827Z",
+    "updated": "2026-06-22T09:33:11.827Z"
+  },
+  "notes/quarterly-planning.md": {
+    "created": "2026-06-22T09:33:11.829Z",
+    "updated": "2026-06-22T09:33:11.829Z"
+  },
   "notes/random-duo.md": {
     "created": "2026-06-22T02:07:38.814Z",
     "updated": "2026-06-22T02:07:38.814Z"
+  },
+  "notes/read-later-queue.md": {
+    "created": "2026-06-22T09:33:11.829Z",
+    "updated": "2026-06-22T09:33:11.830Z"
   },
   "notes/reconcile-before-the-review.md": {
     "created": "2026-06-22T02:07:38.814Z",
@@ -439,9 +543,21 @@
     "created": "2026-06-22T06:34:39.849Z",
     "updated": "2026-06-22T07:42:17.767Z"
   },
+  "notes/reversibility.md": {
+    "created": "2026-06-22T09:33:11.828Z",
+    "updated": "2026-06-22T09:33:11.828Z"
+  },
   "notes/review.md": {
     "created": "2026-06-22T02:07:38.814Z",
     "updated": "2026-06-22T02:07:38.814Z"
+  },
+  "notes/risk-management.md": {
+    "created": "2026-06-22T09:33:11.827Z",
+    "updated": "2026-06-22T09:33:11.827Z"
+  },
+  "notes/safety-by-design.md": {
+    "created": "2026-06-22T09:33:11.827Z",
+    "updated": "2026-06-22T09:33:11.827Z"
   },
   "notes/second-order-thinking.md": {
     "created": "2026-06-22T06:34:24.864Z",
@@ -463,9 +579,17 @@
     "created": "2026-06-22T02:07:38.814Z",
     "updated": "2026-06-22T07:42:22.544Z"
   },
+  "notes/share-sheet.md": {
+    "created": "2026-06-22T09:33:11.829Z",
+    "updated": "2026-06-22T09:33:11.829Z"
+  },
   "notes/share-what-you-learn.md": {
     "created": "2026-06-22T02:07:38.814Z",
     "updated": "2026-06-22T07:42:24.247Z"
+  },
+  "notes/ship-it.md": {
+    "created": "2026-06-22T09:33:11.828Z",
+    "updated": "2026-06-22T09:33:11.828Z"
   },
   "notes/signal-vs-noise.md": {
     "created": "2026-06-22T02:07:38.814Z",
@@ -474,6 +598,10 @@
   "notes/situational-control.md": {
     "created": "2026-06-22T06:35:43.208Z",
     "updated": "2026-06-22T07:41:44.158Z"
+  },
+  "notes/sketchpad.md": {
+    "created": "2026-06-22T09:33:11.830Z",
+    "updated": "2026-06-22T09:33:11.830Z"
   },
   "notes/slow-productivity.md": {
     "created": "2026-06-22T02:07:38.814Z",
@@ -489,7 +617,7 @@
   },
   "notes/standard-operating-procedures.md": {
     "created": "2026-06-22T06:35:23.290Z",
-    "updated": "2026-06-22T07:42:29.996Z"
+    "updated": "2026-06-22T09:18:25.277Z"
   },
   "notes/stay-effective-in-new-conditions.md": {
     "created": "2026-06-22T06:32:16.920Z",
@@ -505,15 +633,27 @@
   },
   "notes/sustainable-performance.md": {
     "created": "2026-06-22T06:35:13.472Z",
-    "updated": "2026-06-22T07:42:37.160Z"
+    "updated": "2026-06-22T09:33:12.321Z"
   },
   "notes/synthesis-as-a-goal.md": {
     "created": "2026-06-22T02:07:38.814Z",
     "updated": "2026-06-22T07:43:11.387Z"
   },
+  "notes/systems-for-growth.md": {
+    "created": "2026-06-22T09:17:51.459Z",
+    "updated": "2026-06-22T09:19:40.564Z"
+  },
+  "notes/systems-thinking.md": {
+    "created": "2026-06-22T09:17:59.056Z",
+    "updated": "2026-06-22T09:19:41.210Z"
+  },
   "notes/take-up-your-cross.md": {
     "created": "2026-06-22T02:07:38.814Z",
-    "updated": "2026-06-22T06:16:58.453Z"
+    "updated": "2026-06-22T09:33:36.573Z"
+  },
+  "notes/taxonomy.md": {
+    "created": "2026-06-22T09:33:11.829Z",
+    "updated": "2026-06-22T09:33:11.829Z"
   },
   "notes/the-12-week-year.md": {
     "created": "2026-06-22T02:07:38.814Z",
@@ -529,7 +669,7 @@
   },
   "notes/the-feynman-technique.md": {
     "created": "2026-06-22T02:07:38.814Z",
-    "updated": "2026-06-22T07:41:33.238Z"
+    "updated": "2026-06-22T09:33:11.825Z"
   },
   "notes/the-garage-concept.md": {
     "created": "2026-06-22T02:07:38.814Z",
@@ -541,11 +681,11 @@
   },
   "notes/the-knowledge-lifecycle.md": {
     "created": "2026-06-22T02:07:38.815Z",
-    "updated": "2026-06-22T07:41:34.662Z"
+    "updated": "2026-06-22T09:33:11.826Z"
   },
   "notes/the-narrow-way.md": {
     "created": "2026-06-22T02:07:38.815Z",
-    "updated": "2026-06-22T06:16:58.454Z"
+    "updated": "2026-06-22T09:33:44.132Z"
   },
   "notes/the-second-brain-workflow.md": {
     "created": "2026-06-22T02:07:38.815Z",
@@ -563,6 +703,10 @@
     "created": "2026-06-22T02:07:38.815Z",
     "updated": "2026-06-22T07:42:43.628Z"
   },
+  "notes/tony-buzan.md": {
+    "created": "2026-06-22T09:33:11.829Z",
+    "updated": "2026-06-22T09:33:11.829Z"
+  },
   "notes/treasure-in-heaven.md": {
     "created": "2026-06-22T02:07:38.815Z",
     "updated": "2026-06-22T06:16:58.455Z"
@@ -574,6 +718,14 @@
   "notes/versatility.md": {
     "created": "2026-06-22T06:34:34.855Z",
     "updated": "2026-06-22T07:42:45.424Z"
+  },
+  "notes/voice-memos.md": {
+    "created": "2026-06-22T09:33:11.828Z",
+    "updated": "2026-06-22T09:34:35.217Z"
+  },
+  "notes/webhooks.md": {
+    "created": "2026-06-22T09:33:11.828Z",
+    "updated": "2026-06-22T09:33:11.828Z"
   },
   "notes/weekly-review-checklists.md": {
     "created": "2026-06-22T02:07:38.815Z",

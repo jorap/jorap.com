@@ -15,7 +15,7 @@ card_sets: ["Eternal Principles", "Gospel", "Ethics"]
 cards:
   - front: "Padding a promise with extra oaths so they'll believe me. What did Jesus say?"
     back: "Yes is yes - word stands alone."
-  - front: "Contract needs flashy language to feel binding. Integrity move?"
+  - front: "Contract needs flashy language to feel binding. [[Integrity]] move?"
     back: "Plain yes - no spin."
   - front: "Public post promises more than private life delivers. Which lane breaks?"
     back: "Private honesty first - words match life."
@@ -30,7 +30,7 @@ aliases: ["truth telling", "simply let your yes be yes"]
 ---
 **Let your yes be yes** = speak plainly - no swearing oaths to make people trust you; let your word stand on its own (Matthew 5:33-37).
 
-Jesus deepened the law against false vows: disciples should be so truthful that extra oaths aren't needed. Anything beyond simple yes/no comes from evil - meaning manipulation, not that all contracts are sin. PKM parallel: [[Atomic Notes]] - one plain claim per page, no padded prose to sound smart. Integrity of speech is [[Heart Righteousness]], not performance for [[Let Your Light Shine]].
+Jesus deepened the law against false vows: disciples should be so truthful that extra oaths aren't needed. Anything beyond simple yes/no comes from evil - meaning manipulation, not that all contracts are sin. PKM parallel: [[Atomic Notes]] - one plain claim per page, no padded prose to sound smart. [[Integrity]] of speech is [[Heart Righteousness]], not performance for [[Let Your Light Shine]].
 
 ## Example
 

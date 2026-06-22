@@ -1,4 +1,5 @@
 ---
+
 title: "Creative Blocks"
 meta_title: "Creative Blocks - When the Notes Don't Become Output"
 description: "Creative blocks aren't solved by more capture - one small ship action usually unsticks me."
@@ -11,8 +12,9 @@ slug: "creative-blocks"
 featured: false
 status: evergreen
 draft: false
-aliases: []
+aliases: ["Writer's Block"]
 ---
+
 I have thousands of notes and still stare at a blank page sometimes. Creative blocks aren't solved by more capture - here's what actually unsticks me.
 
 ## Example

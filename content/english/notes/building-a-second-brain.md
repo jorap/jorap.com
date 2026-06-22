@@ -1,4 +1,5 @@
 ---
+
 title: "Building a Second Brain"
 meta_title: "Building a Second Brain - Capture, Organize, Distill, Express"
 description: "My brain is for having ideas, not storing them. A Second Brain is the system that holds them - starting with capture."
@@ -26,8 +27,9 @@ cards:
   - front: "Tempted to publish raw captures without distilling. What's the order?"
     back: "Distill first - then express."
 draft: false
-aliases: ["Second Brain"]
+aliases: ["Second Brain", "CODE Method"]
 ---
+
 **Second Brain** = offload ideas so my head can think, not hoard.
 
 Remember CODE: [[Capture]], organize, distill, express. The system fails when any step is just for show. I review whether each step still earns its place every quarter.

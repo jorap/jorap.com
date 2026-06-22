@@ -1,4 +1,5 @@
 ---
+
 title: "Digital Serendipity"
 meta_title: "Digital Serendipity - Stumbling on Your Own Ideas"
 description: "Serendipity isn't random luck for me - it's building a system where old notes surprise me at the right time."
@@ -11,8 +12,9 @@ slug: "digital-serendipity"
 featured: false
 status: evergreen
 draft: false
-aliases: ["Serendipitous Resurfacing"]
+aliases: ["Serendipitous Resurfacing", "Serendipity"]
 ---
+
 Serendipity isn't luck for me - I build systems where old notes surprise me at the right time.
 
 ## Example

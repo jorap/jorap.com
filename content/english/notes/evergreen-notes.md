@@ -1,4 +1,5 @@
 ---
+
 title: "Evergreen Notes"
 meta_title: "Evergreen Notes - Ideas That Stay Fresh"
 description: "I write evergreen notes to stay useful - timeless phrasing, clear claims, updated when reality changes."
@@ -9,7 +10,7 @@ author: "JoRap"
 tags: ["Evergreen Notes", "PKM", "Note Taking", "Second Brain", "Writing", "Formatting", "Readability", "Markdown"]
 slug: "evergreen-notes"
 featured: false
-aliases: ["Formatting for Readability"]
+aliases: ["Formatting for Readability", "Permanent Notes"]
 status: evergreen
 review: true
 card_sets: ["Writing", "Review"]
@@ -28,6 +29,7 @@ cards:
     back: "Distill - need one clear claim."
 draft: false
 ---
+
 I write evergreen notes to stay useful - timeless phrasing, clear claims, updated when reality changes.
 
 I write in complete sentences I'd still stand behind in two years. Revise when tools change, not when trends spike. Promotion from fleeting: during [[Periodic Knowledge Review]], when a spark keeps returning. Faith parallel: [[The Beatitudes]] - character that matures over years, not a one-week mood.

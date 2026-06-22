@@ -1,4 +1,5 @@
 ---
+
 title: "Future-Proofing Knowledge"
 meta_title: "Future-Proofing Knowledge - Boring Formats Win"
 description: "Future-proofing isn't predicting tech for me. It's plain text, open tools, and exports I test before I need them."
@@ -11,8 +12,9 @@ slug: "future-proofing-knowledge"
 featured: false
 status: evergreen
 draft: false
-aliases: ["future proofing knowledge"]
+aliases: ["future proofing knowledge", "Plain Text Files"]
 ---
+
 Future-proofing isn't predicting tech for me - it's plain text, open tools, and exports I test before I need them.
 
 ## Example

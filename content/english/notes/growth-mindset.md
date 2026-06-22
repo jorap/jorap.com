@@ -27,6 +27,7 @@ You're "not a math person" until you practice fractions long enough — skill is
 | extends | [[Convert Pain Into Learning]] | Pain becomes useful when you treat it as trainable |
 | extends | [[Deliberate Practice]] | Targeted reps beat vague "try harder" |
 | extends | [[Failure as Feedback]] | Misses are signal when identity isn't on the line |
+| extends | [[Systems for Growth]] | Mindset this growth hub installs before the loops run |
 ## See also
 
 - [[Convert Pain Into Learning]] - Learning, Performance

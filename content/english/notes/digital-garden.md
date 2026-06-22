@@ -1,4 +1,5 @@
 ---
+
 title: "Digital Garden"
 meta_title: "Digital Garden - A Wiki You Can Walk Through"
 description: "My digital garden is a personal site where notes grow in public - linked, imperfect, alive."
@@ -11,8 +12,9 @@ slug: "digital-garden"
 featured: false
 status: evergreen
 draft: false
-aliases: ["Advantages of Digital Gardens"]
+aliases: ["Advantages of Digital Gardens", "Gardening Metaphor", "Work in Progress"]
 ---
+
 My digital garden is where notes grow in public - linked, imperfect, alive.
 
 ## Example

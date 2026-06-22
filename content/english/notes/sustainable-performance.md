@@ -25,7 +25,7 @@ Coffee gets you through one shift; sleep gets you through a career. The kitchen 
 |--------------|----------|--------|
 | contradicts | [[The 12 Week Year]] | when a real quarterly sprint window needs short-term intensity you can't repeat all year |
 | extends | [[Develop, Don't Endanger]] | Challenge without lethal or burnout risk |
-| extends | [[Energy Protects Judgment]] | Sustainability protects decision quality |
+| extends | [[Energy Protects Judgment]] | Sustainability protects [[Decision Quality]] |
 | extends | [[Recovery]] | Recovery is part of the pace, not a reward |
 | extends | [[Slow Productivity]] | Fewer deep projects, finished work |
 ## See also

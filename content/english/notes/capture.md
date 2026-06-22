@@ -1,4 +1,5 @@
 ---
+
 title: "Capture"
 meta_title: "Capture - The First Step of Every Note System"
 description: "Capture is where my PKM lives or dies - one trusted inbox, save what resonates."
@@ -26,8 +27,9 @@ cards:
   - front: "Something lands and I want to tag and file immediately. Where do I actually stop?"
     back: "Stop at inbox. Organize later."
 draft: false
-aliases: ["CODE"]
+aliases: ["CODE", "Frictionless Capture"]
 ---
+
 **Capture** = save what resonates into one inbox I trust - then empty it weekly.
 
 Friction kills capture. One inbox, phone to desktop, weekly process - same as [[The Trusted Inbox]]. If I wouldn't act on it or cite it later, it doesn't get saved. Resonance is the filter, not FOMO.

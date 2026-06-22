@@ -1,4 +1,5 @@
 ---
+
 title: "Evergreen vs Fleeting Notes"
 meta_title: "Evergreen vs Fleeting Notes - Two Speeds"
 description: "Fleeting notes catch sparks; evergreen notes hold truth. Both lanes, clear promotion rules."
@@ -11,8 +12,9 @@ slug: "evergreen-vs-fleeting-notes"
 featured: false
 status: evergreen
 draft: false
-aliases: ["Evergreen vs Fleeting"]
+aliases: ["Evergreen vs Fleeting", "Fleeting Notes"]
 ---
+
 Fleeting notes catch sparks. Evergreen notes hold truth. I need both lanes and a clear promotion path.
 
 ## Example

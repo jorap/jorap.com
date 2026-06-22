@@ -31,7 +31,7 @@ Parent-teacher night ended with "we'll email the action plan." By Friday, half t
 | extends | [[Finish Strong]] | The tail of the job is part of finishing |
 | extends | [[Follow-Through]] | Promises mean the steps after the promise |
 | extends | [[Pressure Reveals Weakness]] | Under load, people drop the follow-up first |
-| extends | [[The Trusted Inbox]] | Capture the next action or the loop stays open |
+| extends | [[The Trusted Inbox]] | [[Capture]] the next action or the loop stays open |
 | implements | [[Weekly Review Checklists]] | Sunday pass catches cycles left hanging |
 ## See also
 
