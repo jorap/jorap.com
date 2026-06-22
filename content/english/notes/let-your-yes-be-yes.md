@@ -34,7 +34,7 @@ Jesus deepened the law against false vows: disciples should be so truthful that 
 
 ## Example
 
-I told a client I'd have it done "God willing, absolutely, cross my heart" when a plain yes would have been enough. If my word needs extra padding to sound believable, the problem isn't the contract - it's me.
+I told the coach I'd have my kid there "God willing, absolutely, cross my heart" when a plain yes would have been enough. If my word needs extra padding to sound believable, the problem isn't the schedule — it's me.
 
 ## Note Relationships
 

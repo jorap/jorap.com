@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-A wedding invite means nothing if nobody books the venue. Our roadmap had color-coded phases and zero tickets. Execution started when one person named owners and dates — the way a coach's play only exists once players are on the field.
+A wedding invite means nothing if nobody books the venue. The PTO committee had color-coded phases and zero volunteers signed up. Execution started when one person named who does what by when — like a coach's play only exists once players are on the field.
 
 ## Note Relationships
 

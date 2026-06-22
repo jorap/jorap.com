@@ -17,7 +17,7 @@ I explain notes like I'm teaching someone - gaps in my explanation show gaps in 
 
 ## Example
 
-I try to explain [[Progressive Summarization]] out loud to my wife and stall on layer three. That gap tells me I do not own the idea yet and need another rewrite.
+I tried to explain the offside rule to my kid at halftime and stalled halfway through. That gap told me I don't own the idea yet - I need one more game with someone who actually knows soccer.
 
 ## Note Relationships
 

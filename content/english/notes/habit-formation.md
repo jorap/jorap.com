@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-Same door, same notebook, same pocket — after thirty days you stop debating capture. Habit formation was the pad by the keys, not the color-coded Notion dashboard I never opened. Like gym shoes by the bed: remove the decision.
+Same door, same notebook, same pocket — after thirty days you stop debating capture. Habit formation was the pad by the keys, not the fancy app I never opened. Like gym shoes by the bed: remove the decision.
 
 ## Note Relationships
 

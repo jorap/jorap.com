@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-You don't buy a two-seat car the year before twins arrive. We hired for this quarter's launch; strategic foresight sketched the team at double traffic — not only filling today's gap like the org chart would never change.
+You don't buy a two-seat car the year before twins arrive. The café added two high chairs before rainy-season families showed up - not only tables for today's lunch crowd.
 
 ## Note Relationships
 

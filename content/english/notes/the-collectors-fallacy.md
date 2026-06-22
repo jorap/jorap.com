@@ -32,7 +32,7 @@ Collecting articles feels like progress. It isn't. The collector's fallacy bit m
 
 ## Example
 
-My read-later folder had ninety articles and zero published posts until I tied every save to a ship date. Saving felt like progress; it was not.
+My recipe folder had forty saved dinners and we still ordered takeout three nights a week until I tied every save to one cooked meal. Saving felt like meal planning; it wasn't.
 
 ## Note Relationships
 

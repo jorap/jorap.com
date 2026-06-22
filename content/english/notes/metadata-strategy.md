@@ -17,7 +17,7 @@ Tags, categories, dates, aliases - metadata should help me find notes, not becom
 
 ## Example
 
-I use a handful of tags and one status field, not a taxonomy I have to maintain like a second job. If metadata takes longer than writing the note, I cut a field.
+I label the kids' bins "toys," "books," "outgrown" — not a color code I'd have to maintain like a second job. If sorting takes longer than putting stuff away, I cut a category.
 
 ## Note Relationships
 

@@ -19,7 +19,7 @@ Smooth talkers ship thorns sometimes. I look at downstream stress, turnover, del
 
 ## Example
 
-We almost bought a tool because the demo was gorgeous. I asked three teams who'd used it for six months - two were fighting the integration daily. That answer beat every animation in the deck.
+The contractor's portfolio was gorgeous; I asked two neighbors who lived through the remodel - both had permit fights and cracked tile. That answer beat every render in the deck.
 
 ## Note Relationships
 

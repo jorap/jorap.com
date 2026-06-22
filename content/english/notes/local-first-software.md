@@ -17,7 +17,7 @@ Local-first means my device holds the truth; sync is optional icing. That's how 
 
 ## Example
 
-My notes live on the laptop first; git push is optional icing for the public site. If Wi-Fi dies on a trip I still read, write, and review offline.
+Grandma's recipe cards live in the kitchen drawer — not an app that might vanish. If the phone dies mid-grocery run, the list on the fridge still works.
 
 ## Note Relationships
 

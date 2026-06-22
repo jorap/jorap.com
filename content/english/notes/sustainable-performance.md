@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-Coffee gets you through one deadline; sleep gets you through a career. The team pulled two all-nighters for a demo and shipped bugs for a month. Sustainable performance would've cut scope and slept — same deadline, smaller slice that didn't mortgage next month.
+Coffee gets you through one shift; sleep gets you through a career. The kitchen ran Friday pace five nights straight and quality slid by Wednesday - sustainable performance would've cut a night off instead of mortgaging next week's tickets.
 
 ## Note Relationships
 

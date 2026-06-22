@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-You can be furious at a driver who cut you off and still not chase them — feel it, don't steer with it. The email that made my face hot got a kitchen walk before the reply. Regulation isn't numbness; it's not mailing the first draft.
+You can be furious at a driver who cut you off and still not chase them — feel it, don't steer with it. My kid's homework meltdown made my face hot; I took a kitchen walk before I answered. Regulation isn't numbness; it's not mailing the first draft.
 
 ## Note Relationships
 

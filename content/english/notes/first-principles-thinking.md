@@ -17,7 +17,7 @@ When a note is just a quote from someone smarter, I add a section: what do I act
 
 ## Example
 
-My note on PARA is mostly Tiago Forte quotes until I add what I actually do with project folders. That rewrite is me stripping borrowed words down to my own setup.
+My kid's coach kept quoting a YouTube drill until I asked what problem we're actually solving — turns out we needed passing, not fancy footwork. That rewrite was stripping borrowed moves down to what our team lacks.
 
 ## Note Relationships
 

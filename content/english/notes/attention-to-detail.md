@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-A nurse almost gave the wrong dose because two bags looked identical — the second read of the label caught it. At work, attention to detail was re-reading the production config before deploy: one character off took staging down for an hour.
+A nurse almost gave the wrong dose because two bags looked identical — the second read of the label caught it. I use the same pause before I sign anything that can't be undone.
 
 ## Note Relationships
 

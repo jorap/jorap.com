@@ -17,7 +17,7 @@ Fragile systems break when an app shuts down. I build around plain files, open f
 
 ## Example
 
-When my last proprietary note app shut down, the markdown folder opened fine in three editors. I test an export every quarter so I am not learning backup at panic hour.
+When the gym's booking app shut down for good, my paper training log still had every set. I photocopy it once a quarter so I'm not rebuilding history from memory when the next app dies.
 
 ## Note Relationships
 

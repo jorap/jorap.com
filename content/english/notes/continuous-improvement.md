@@ -17,7 +17,7 @@ aliases: ["kaizen"]
 
 ## Example
 
-Toyota's line workers pull a cord when something is off — small fixes daily, not one yearly overhaul. Our deploy checklist grew one line per incident; six months later rollbacks were boring because each pain had already become a step.
+A line cook pulls a bad prep tray and fixes the station before service — small fixes daily, not one yearly overhaul. Our family morning checklist grew one line per forgotten backpack; six months later school mornings were boring in a good way.
 
 ## Note Relationships
 

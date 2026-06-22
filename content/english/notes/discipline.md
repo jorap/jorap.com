@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-A marathon isn't won on race-day adrenaline — it's won on rainy Tuesday runs nobody films. Sunday review on week twelve isn't exciting. Discipline is opening the notes folder anyway, like brushing teeth when you're already late.
+A marathon isn't won on race-day adrenaline — it's won on rainy Tuesday runs nobody films. Discipline is loading the dishwasher when I'd rather scroll — same as brushing teeth when you're already late.
 
 ## Note Relationships
 

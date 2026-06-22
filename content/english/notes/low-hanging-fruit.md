@@ -19,7 +19,7 @@ Not every task deserves hero energy. Fix the broken link, publish the half-done 
 
 ## Example
 
-I spent an hour sketching a big garden reorg when my actual problem was three dead links on the homepage. I fixed those links in ten minutes, got the win, and had energy left for the harder map work after lunch.
+I spent an hour sketching a whole spring-cleaning plan when the actual problem was three dishes in the sink. I washed them in ten minutes, got the win, and had energy for the garage after lunch.
 
 ## Note Relationships
 

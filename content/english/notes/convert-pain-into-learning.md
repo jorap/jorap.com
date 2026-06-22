@@ -19,7 +19,7 @@ Reflect on what happened, pull out the lesson, design a better response, and tes
 
 ## Example
 
-A pilot debriefs every rough landing — not to wallow, but so the next approach is cleaner. I bombed a talk and stewed for a week. Convert pain into learning was one page: weak transitions, rehearse bridges ten times, cut two slides. Next audience got the version the failure paid for.
+A basketball team watches film after a loss — not to wallow, but so the next game is cleaner. I bombed a talk and stewed for a week. Convert pain into learning was one page: weak transitions, rehearse bridges ten times, cut two slides. Next audience got the version the failure paid for.
 
 ## Note Relationships
 

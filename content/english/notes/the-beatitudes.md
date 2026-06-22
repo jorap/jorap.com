@@ -45,7 +45,7 @@ aliases: ["blessed are"]
 
 ## Example
 
-I had a good week at work and caught myself feeling spiritually self-sufficient, like I didn't need much from God. The Beatitudes start with poor in spirit - broke before God, not the guy who just nailed his quarterly review.
+I had a great weekend with the kids and caught myself feeling spiritually self-sufficient, like I didn't need much from God. The Beatitudes start with poor in spirit - broke before God, not the dad who just had a perfect Saturday.
 
 ## Note Relationships
 

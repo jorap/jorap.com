@@ -19,7 +19,7 @@ Not passivity - I can still set boundaries and name facts. I just refuse to beco
 
 ## Example
 
-A stakeholder CC'd my boss with a snarky line about our delay. My first draft was equally clever and equally cruel. I deleted it, answered the fact, offered the fix date, and let the insult die without a audience.
+A parent emailed the principal with a snarky line about our field trip delay. My first draft matched the tone. I deleted it, answered the fact, offered the new date, and let the insult die without an audience.
 
 ## Note Relationships
 

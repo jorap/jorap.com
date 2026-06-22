@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-A scale that reads honest when the customer isn't looking is integrity in hardware. I could've marked the ticket done after a shallow patch. Integrity was the full test pass — the same standard I tell juniors we use when the manager isn't watching.
+A scale that reads honest when the customer isn't looking is integrity in hardware. I could've scooped light on flour when the rush got loud - same weight whether anyone was watching or not.
 
 ## Note Relationships
 

@@ -17,7 +17,7 @@ Mind maps are for the messy first pass - branches, bubbles, relationships. I exp
 
 ## Example
 
-I sketch a messy bubble map on paper before a series of blog posts, then split each branch into its own atomic file. The map is the brainstorm; the wiki is the storage.
+I sketch a messy bubble map on paper before our road trip, then each branch becomes its own packing list. The map is the brainstorm; the checklist on the fridge is the storage.
 
 ## Note Relationships
 

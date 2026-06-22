@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-Our payment provider changed API rules with thirty days' notice. Half the team argued the old integration was "fine." Adaptability was rewriting the webhook handler on a branch before the cutoff — like a restaurant switching suppliers mid-season instead of defending last month's menu.
+Our usual fish supplier doubled prices overnight. Half the kitchen wanted to keep last month's specials anyway. Adaptability was rewriting the weekend menu before Saturday service — not defending a menu the market already killed.
 
 ## Note Relationships
 

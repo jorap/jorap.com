@@ -17,7 +17,7 @@ Most sparks die on mobile because capture takes twelve taps. I reduced mine to s
 
 ## Example
 
-An idea hits in line at the grocery store and I share the page straight to the inbox before I scroll away. Two taps, one pipe, spark saved.
+Grocery line, kid asks for something, and the thought I'm holding is gone unless I scribble it on the receipt back. Two seconds, one place - spark saved before the next aisle wipes it.
 
 ## Note Relationships
 

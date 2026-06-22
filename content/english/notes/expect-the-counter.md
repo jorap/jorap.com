@@ -19,7 +19,7 @@ Don't only rehearse the opening. Ask what happens after the other side adapts.
 
 ## Example
 
-Discount a product and competitors match by Friday — the first move isn't the game. We won a quarter on price, then three rivals copied the number. Expect the counter meant building retention before the copy arrived, not treating the first win like a forever advantage.
+A restaurant drops lunch prices and the place across the street matches by Friday — the first move isn't the game. Expect the counter meant building regulars before the copy arrived, not treating opening week like a forever win.
 
 ## Note Relationships
 

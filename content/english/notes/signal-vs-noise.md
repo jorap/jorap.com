@@ -32,7 +32,7 @@ Most content is noise. PKM fails if capture doesn't filter. I save signal - stuf
 
 ## Example
 
-My thumb hovers over save and I ask if this changes what I will do this month. If it is just interesting, I admire it and move on with no inbox slot.
+The dentist waiting room has a stack of magazines - I ask if this changes what I'll do this month. If it's just interesting, I read the headline and leave it; no mental slot for noise.
 
 ## Note Relationships
 

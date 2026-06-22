@@ -17,7 +17,7 @@ Notes rot without review. I calendar weekly and quarterly passes - inbox, projec
 
 ## Example
 
-Every Sunday I calendar thirty minutes for inbox, projects, and one evergreen touch-up. Notes rot when I only review when desperate.
+The basketball team watches film every Monday, win or lose — not only after a blowout. I calendar thirty minutes Sunday to clear the bowl by the door and check the family calendar; chores rot when I only tidy in panic.
 
 ## Note Relationships
 

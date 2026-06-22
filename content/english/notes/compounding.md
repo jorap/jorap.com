@@ -19,7 +19,7 @@ Borrowed from finance, but it applies anywhere today's gain makes tomorrow easie
 
 ## Example
 
-I have linked notes for three years and the graph finally feels dense instead of empty. The first year looked like nothing. The curve bent when I kept showing up on boring Tuesdays.
+My kid's piano practice looked pointless for a year — three songs a week, same scales. Year two the pieces started linking and suddenly she was playing music, not exercises. The first months looked like nothing; boring Tuesdays bent the curve.
 
 ## Note Relationships
 

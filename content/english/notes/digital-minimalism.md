@@ -17,7 +17,7 @@ Fewer apps, fewer sync layers, fewer notifications. My PKM got better when I sto
 
 ## Example
 
-I dropped two sync apps and one read-later pile last year and PKM got easier, not harder. Fewer pipes means I actually trust the one inbox left.
+We dropped the second diaper bag, the backup stroller, and the junk drawer of chargers. Fewer things means I actually know where the one working cable lives — same reason I keep one capture path instead of five apps.
 
 ## Note Relationships
 

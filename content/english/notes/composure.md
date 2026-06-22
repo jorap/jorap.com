@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-A referee stays calm when players yell — not because the foul didn't matter, but because the room takes cues from the steadiest person. Composure on my exec call was slower speech and one clarifying question while metrics got attacked — not matching their volume.
+A referee stays calm when players yell — not because the foul didn't matter, but because the room takes cues from the steadiest person. I used the same move in a heated parent meeting: slower speech, one clarifying question, no matching their volume.
 
 ## Note Relationships
 

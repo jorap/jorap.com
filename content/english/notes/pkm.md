@@ -17,7 +17,7 @@ status: evergreen
 
 ## Example
 
-When a friend asks what PKM means I say it is how I save, sort, and actually use what I learn instead of hoarding tabs. Boring name, unspectacular habit, daily payoff.
+The school nurse keeps a card file sorted by what she actually uses on a shift, not every article she ever read. When a friend asks what PKM means, I say the same for what I learn - boring name, daily payoff.
 
 ## Note Relationships
 

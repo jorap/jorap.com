@@ -17,7 +17,7 @@ Saving links isn't curation. I revisit monthly, prune what I wouldn't save again
 
 ## Example
 
-On the first Sunday of the month I open the notes folder and delete anything I would not save again today. Last pass I killed twelve bookmark dumps and linked three half-finished ideas that finally belong together.
+The head cook walks the walk-in every Monday and throws out whatever won't make this week's menu. I do the same with my idea pile on the first Sunday — twelve saved links gone, three half-finished thoughts finally linked.
 
 ## Note Relationships
 

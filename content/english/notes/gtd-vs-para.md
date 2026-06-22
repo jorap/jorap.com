@@ -17,7 +17,7 @@ GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - here's
 
 ## Example
 
-OmniFocus holds my next actions; PARA folders hold reference for the blog relaunch. Same brain, two systems, and I stopped forcing tasks into the notes garden.
+The fridge list holds what we buy this week; the filing cabinet holds school forms with no deadline. Same household, two systems — I stopped cramming groceries into the permanent folder.
 
 ## Note Relationships
 

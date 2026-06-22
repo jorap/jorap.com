@@ -32,7 +32,7 @@ My weekly review is a checklist - inbox, calendar, projects, one express action.
 
 ## Example
 
-Same four steps every Sunday: inbox, calendar, active projects, one ship action. I do not reinvent the ritual for creativity. Boring repetition is the point.
+Same four steps every Sunday: clear the bowl, check the calendar, active lists, one thing to ship. I don't reinvent the ritual for creativity - boring repetition is the point.
 
 ## Note Relationships
 

@@ -19,7 +19,7 @@ A meeting needs follow-up. A decision needs execution. A mistake needs correctio
 
 ## Example
 
-Parent-teacher night ended with "we'll email the action plan." By Friday, half the parents never got it. Complete the cycle was the recap sent before anyone left the parking lot — same as closing a support ticket only after the customer confirms the fix, not when you hit Send on the first reply.
+Parent-teacher night ended with "we'll email the action plan." By Friday, half the parents never got it. Complete the cycle was the recap sent before anyone left the parking lot — names, dates, who owns what.
 
 ## Note Relationships
 

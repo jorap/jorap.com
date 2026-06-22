@@ -19,7 +19,7 @@ It's active, not passive: do the helpful thing, don't only avoid harm. The check
 
 ## Example
 
-My draft reply to a junior dev was technically right and needlessly harsh. I paused, asked how I'd want that correction in a code review on my worst week, and rewrote it before the thread got worse.
+My draft reply to a new cashier was technically right and needlessly harsh. I paused, asked how I'd want that correction on my worst shift, and rewrote it before the thread in the break room got worse.
 
 ## Note Relationships
 

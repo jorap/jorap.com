@@ -19,7 +19,7 @@ Process doesn't heal a broken trust link. The person who knows there's a breach 
 
 ## Example
 
-I had a solid deck for our quarterly review but my teammate was still cold from something I said in last month's retro. I booked fifteen minutes with him before the meeting instead of hoping the slides would smooth it over.
+I had strong numbers for the parent-teacher meeting but my co-teacher was still cold from something I'd said in the staff room. Fifteen minutes with her before we sat with the parents beat hoping the charts would smooth it over.
 
 ## Note Relationships
 

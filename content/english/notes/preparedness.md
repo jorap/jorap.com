@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-Schools run fire drills on sunny Tuesdays so kids aren't learning exits during smoke. We rehearsed a deploy rollback on a quiet afternoon; production day was boring because everyone had already done it once.
+Schools run fire drills on sunny Tuesdays so kids aren't learning exits during smoke. Our restaurant ran the closing checklist on a slow Tuesday; Saturday night's rush was boring because everyone had already walked it once.
 
 ## Note Relationships
 

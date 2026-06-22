@@ -17,7 +17,7 @@ Future-proofing isn't predicting tech for me - it's plain text, open tools, and 
 
 ## Example
 
-All my notes live as markdown in git; if Hugo disappeared tomorrow I would still read them in any editor. I run a restore from backup twice a year so future-proof is not just a vibe.
+Grandma's recipes are on index cards in a tin, not an app that might shut down. My notes live as plain text I can open anywhere; I copy them to a backup drive twice a year so future-proof is not just a vibe.
 
 ## Note Relationships
 

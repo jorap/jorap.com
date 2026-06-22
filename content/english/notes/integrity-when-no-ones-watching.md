@@ -19,7 +19,7 @@ Performance for the standup is its own reward and a small one. Some good work sh
 
 ## Example
 
-I could have marked a ticket done after a quick patch that would fail on edge cases. Nobody was going to check until next sprint. Integrity when no one's watching meant running the full test and fixing what broke before I moved on.
+The market scale stays honest when the seller steps away to take a call - that's the whole business. I could've scooped light on the last bag of rice; instead I re-weighed it before the customer came back.
 
 ## Note Relationships
 

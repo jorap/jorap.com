@@ -17,7 +17,7 @@ CODE and PARA in one loop: capture to inbox, organize by project, distill on use
 
 ## Example
 
-Morning is capture to inbox, Sunday is empty and express, distill happens only when I reuse a note. CODE and PARA in one loop, not four separate hobbies.
+Friday night is capture everything in one jar; Sunday is sort, toss, and file what's worth keeping. One loop - capture, organize, distill when I reuse - not four separate hobbies I abandon by March.
 
 ## Note Relationships
 

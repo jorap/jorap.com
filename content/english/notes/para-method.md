@@ -32,7 +32,7 @@ aliases: ["PARA", "Organization", "The Archive Method", "Archive Method", "The A
 
 ## Example
 
-The blog relaunch files sit in Projects with a deadline; my theology notes sit in Areas with no end date. I sort by who owns it and when it is due, not by alphabet soup.
+The science fair folder lives on the counter with a deadline; the immunization records live in the filing cabinet with no end date. I sort by what owns it and when it's due, not alphabet soup.
 
 ## Note Relationships
 

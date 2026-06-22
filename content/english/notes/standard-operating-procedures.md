@@ -17,7 +17,7 @@ aliases: ["SOPs"]
 
 ## Example
 
-Checklists in cockpits exist because memory fails at 30,000 feet. Our on-call runbook is one page: dashboards, who to page, what to post. The new hire handled a 2 a.m. alert on night two without inventing steps — same as a recipe when guests are already at the table.
+The restaurant opening checklist lives on a clipboard because memory fails when the door unlocks at eleven. Guests were already seated when the new cook ran the sauce steps off the card - same as a recipe when you can't invent under pressure.
 
 ## Note Relationships
 

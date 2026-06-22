@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-You're "not a math person" until you practice fractions long enough — skill isn't fixed. I failed a system design interview. Growth mindset was a study plan for weak areas, not deciding seniority was permanently out of reach.
+You're "not a math person" until you practice fractions long enough — skill isn't fixed. I shanked three serves in a row at clinic. Growth mindset was ten minutes on toss height, not deciding I'd never have a reliable serve.
 
 ## Note Relationships
 

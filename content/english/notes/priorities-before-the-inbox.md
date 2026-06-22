@@ -19,7 +19,7 @@ The inbox is other people's priorities wearing a siren. One block on the actual 
 
 ## Example
 
-Tuesday at 7am my Slack was on fire and the quarterly doc was still blank. Priorities before the inbox means forty minutes on the doc first - then I answer pings from a place that already moved the needle.
+Tuesday before school, my phone was buzzing and the lunches were still on the counter. Priorities before the inbox means sandwiches packed first - then I answer messages from a morning that already moved.
 
 ## Note Relationships
 

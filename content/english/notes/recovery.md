@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-Elite athletes schedule rest days — not because they're soft, because muscle rebuilds off the field. Three late nights made my code reviews cruel. Recovery was stopping at ten instead of a fourth heroic hour that would've hurt the team.
+Elite athletes schedule rest days - muscle rebuilds off the field. Three late nights made me snap at bedtime; recovery was stopping at ten instead of a fourth heroic hour that would've hurt everyone at breakfast.
 
 ## Note Relationships
 

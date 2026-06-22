@@ -34,7 +34,7 @@ Mission flows from resurrection authority, not human recruitment zeal. Teaching 
 
 ## Example
 
-My notes garden is full and my mouth stays quiet at work when someone asks what I believe. Jesus didn't say hoard truth like bookmarks - He said go, baptize, teach, and He's with you while you do it.
+I've read the gospel for years and stay quiet when a neighbor asks what we do on Sunday mornings. Jesus didn't say hoard truth like a bookmark - He said go, baptize, teach, and He's with you while you do it.
 
 ## Note Relationships
 

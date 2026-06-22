@@ -17,7 +17,7 @@ aliases: ["second order effects"]
 
 ## Example
 
-Free candy at the door grows foot traffic — then rent rises because landlords see the crowd. Our free tier spiked signups; second-order thinking asked who stays, who burns support hours, and what happens when we raise price.
+Free cookies at the door pull kids in - then the line blocks serious shoppers and staff burns out on samples. I asked what happens after the first rush, not only whether foot traffic spikes Tuesday.
 
 ## Note Relationships
 

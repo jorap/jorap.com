@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-Buying a house on one sunny open-house visit is how people miss the flood zone. Decision quality was one reference call before we signed the cheap vendor — the integration pain cost more than the savings we'd celebrated in the meeting.
+Buying a house on one sunny open-house visit is how people miss the flood zone. Decision quality was one neighbor call before we signed — the drainage issue cost more than the discount we'd celebrated at the signing.
 
 ## Note Relationships
 

@@ -36,7 +36,7 @@ Small notes stack like Lego blocks - claim, how-to, example - linked, not merged
 
 ## Example
 
-"Why middle-click saves tab chaos" is one claim — I'd cite it alone. "Browser tips and meeting notes" is two — split into separate notes and link them.
+"Why cleats live by the door" is one claim — I'd say it alone at carpool. "Soccer gear and lunch-packing tips" is two — split them and link the ideas.
 
 ## Note Relationships
 

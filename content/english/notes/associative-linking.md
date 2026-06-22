@@ -32,7 +32,7 @@ Folders sort. Links think. I link so notes meet without me remembering every fil
 
 ## Example
 
-I am writing about [[Slow Productivity]] and remember a note on quarterly sprints without knowing its filename. The contradicts link is what gets me there, not the folder tree.
+My kid asks why we can't sprint through bedtime and I don't remember which card says "meltdown." The arrow from "rush" to "slow the moment" on the fridge chart gets me there — not the folder tab labeled "evening."
 
 ## Note Relationships
 

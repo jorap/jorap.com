@@ -17,7 +17,7 @@ My personal API isn't OAuth - it's consistent frontmatter, wikilinks, and folder
 
 ## Example
 
-An agent reads my Hugo frontmatter and knows which notes have flashcards without me pasting a tour every time. That is my personal API: consistent tags, slugs, and relationship rows, not OAuth endpoints.
+The warehouse labels every bin the same way — aisle, shelf, code — so a new hire finds parts without asking. Our pantry uses the same rule: snacks, baking, breakfast — my wife finds the rice without a tour.
 
 ## Note Relationships
 

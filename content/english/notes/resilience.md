@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-A tree that bends in a storm and keeps growing isn't pretending the wind didn't hit. Our launch flopped. Resilience was an honest postmortem, a quiet week, and a smaller bet — not rage-quitting or posting victory laps.
+A tree that bends in a storm and keeps growing isn't pretending the wind didn't hit. Our Saturday rush blew up; resilience was an honest huddle, a quiet week, and a smaller menu - not rage-quitting or acting like Friday never happened.
 
 ## Note Relationships
 

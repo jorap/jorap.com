@@ -17,7 +17,7 @@ A link without context is a mystery six weeks later. I capture why I saved somet
 
 ## Example
 
-I save a link and add two words: budget post, March. Six weeks later that line is the only reason I remember why the tab mattered.
+At the grocery I scribble "milk — school party Friday" on the list back. Saturday that line is the only reason I remember it wasn't just breakfast milk.
 
 ## Note Relationships
 

@@ -34,7 +34,7 @@ The Sermon on the Mount ties this to not serving two masters (God and wealth) an
 
 ## Example
 
-Tuesday at 7am my inbox was screaming and my Bible was still closed on the desk. Seek the kingdom first isn't a slogan - it's opening Scripture or praying before I let the day's noise set the agenda.
+Tuesday at 7am the house was already loud and my Bible was still closed on the desk. Seek the kingdom first isn't a slogan - it's Scripture or prayer before the day's noise sets the agenda.
 
 ## Note Relationships
 

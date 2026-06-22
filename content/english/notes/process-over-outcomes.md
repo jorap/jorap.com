@@ -17,7 +17,7 @@ Results matter, but optimizing only for outcomes wins once. I optimize for a rep
 
 ## Example
 
-I do not obsess over whether this week's post hits a view count; I protect the Sunday review loop that produces the next one. The process keeps working when motivation dips.
+The JV squad runs the same warmup whether the bleachers are empty or full. I protect the Sunday review loop that produces the next note - the process keeps working when motivation dips.
 
 ## Note Relationships
 

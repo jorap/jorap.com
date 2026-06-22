@@ -17,7 +17,7 @@ aliases: ["Interstitial Journaling"]
 
 ## Example
 
-Today's daily note is just fragments: two tasks, a link, call Mom back. I promote one line to evergreen Sunday if it keeps showing up; the rest can fade.
+Today's pocket slip is just fragments: pick up cleats, dentist Tuesday, call Mom back. I promote one line to the family calendar Sunday if it keeps showing up; the rest can fade.
 
 ## Note Relationships
 

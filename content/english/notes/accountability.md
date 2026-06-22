@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-After a bad deploy, our manager said "we all own this" — which meant nobody owned anything for a week. Accountability was one name in the channel, one rollback deadline, and one postmortem doc with real causes — the way a hospital names who is running the code, not "the team."
+After a patient mix-up, our charge nurse named who was running the code cart and who was documenting — not "everyone was involved." Accountability was one owner, one timeline, and one honest chart note before the shift ended.
 
 ## Note Relationships
 

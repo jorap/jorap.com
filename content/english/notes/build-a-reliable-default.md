@@ -19,7 +19,7 @@ Make that fallback a simple, dependable response — rehearsed enough to run whe
 
 ## Example
 
-Flight attendants don't invent evacuation steps mid-emergency — they run the drill they practiced. Build a reliable default was our one-page on-call card: three dashboards, who to page, what to post. Night two on call, the new hire ran it half-asleep and nobody guessed.
+Firefighters don't invent steps mid-alarm — they run the drill they practiced. Our family fire plan is one page on the fridge: two exits, where we meet, who grabs the baby. Last blackout, my kid ran it half-asleep and nobody guessed.
 
 ## Note Relationships
 

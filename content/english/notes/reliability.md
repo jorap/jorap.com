@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-The friend who shows up at 7:00, not "around seven," is who you call in a crisis. The teammate I trust sends the recap every time and doesn't vanish when it's tedious — not the flashiest presenter, the one whose yes means yes.
+The friend who shows up at 7:00, not "around seven," is who you call in a crisis. My kid's coach sends the schedule every Monday and doesn't ghost when it's rain practice — not the loudest pep talk, the one whose yes means yes.
 
 ## Note Relationships
 

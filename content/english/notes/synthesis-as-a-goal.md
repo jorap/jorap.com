@@ -17,7 +17,7 @@ Collecting quotes isn't PKM for me. Synthesis means merging sources into what I 
 
 ## Example
 
-Three literature notes on note-taking sit in my inbox until I merge them into one paragraph I actually believe. Collecting quotes felt like work; synthesis is when learning started.
+Three recipe clippings sat on the fridge until I merged them into one dinner I actually cooked. Collecting ideas felt like work; synthesis is when learning started.
 
 ## Note Relationships
 

@@ -19,7 +19,7 @@ Past effort is gone. I ask: if I found this today, would I start it? [[Forgivene
 
 ## Example
 
-I kept paying for a capture app I'd stopped opening because I'd spent a weekend migrating into it. When I asked if I'd sign up today, the answer was no - I canceled and moved on in ten minutes.
+I kept paying for a gym I hadn't entered since February because I'd bought a year upfront. When I asked if I'd sign up today knowing what I know now, the answer was no - I canceled and walked out in ten minutes.
 
 ## Note Relationships
 

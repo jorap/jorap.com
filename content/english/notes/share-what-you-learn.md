@@ -19,7 +19,7 @@ A garden full of notes nobody reads is the same failure mode as a team where onl
 
 ## Example
 
-I spent a week debugging an integration and almost moved on because documenting it felt slower than starting the next ticket. The intern hit the same bug on Monday. Sharing what I learn meant a twenty-minute write-up that saved the team a repeat.
+The electrician labeled every breaker in the panel for whoever comes next - twenty minutes now, no guessing later. I'd almost moved on after a week wrestling the same prep; the new line cook hit it Monday and I showed him the station map.
 
 ## Note Relationships
 

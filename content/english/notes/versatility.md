@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-When the star striker covers defense for ten minutes, the team survives — but you don't want them forgetting their position. Design was underwater; I wrote release notes, tested builds, ran standup. Versatility kept me useful without pretending I was suddenly a designer.
+When the star striker covers defense for ten minutes, the team survives - but you don't want them forgetting their position. The rush hit and I jumped on dishes while the line cook called tickets - useful without pretending I suddenly ran the grill.
 
 ## Note Relationships
 

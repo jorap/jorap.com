@@ -34,7 +34,7 @@ Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand
 
 ## Example
 
-Last month my review deck had forty cards and I skipped drills three nights in a row. I trimmed it to eight spine notes - the ones that actually change how I capture and review - and suddenly I was finishing sessions again instead of guilt-scrolling the backlog.
+Last month the kids' activity list had six things and we skipped three nights in a row. I trimmed to two — soccer and piano — and suddenly we were showing up again instead of guilt-driving past canceled plans.
 
 ## Note Relationships
 

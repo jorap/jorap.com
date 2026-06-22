@@ -17,7 +17,7 @@ I publish rough ideas before they're finished. Drafting in public keeps me hones
 
 ## Example
 
-I publish a rough notes post before every claim is polished because silence lets me pretend I understood it. Someone's comment last month fixed a line I had been dodging.
+I posted a rough arroz caldo recipe before I'd nailed the ginger amount because silence let me pretend I understood it. A neighbor's comment last month fixed the line I'd been dodging.
 
 ## Note Relationships
 

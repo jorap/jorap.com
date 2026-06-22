@@ -17,7 +17,7 @@ I cite sources in notes not for academia - so I can trust my own synthesis and f
 
 ## Example
 
-I paste the article URL under the quote so six months later I know if the source still says what I thought. Without that line my own synthesis starts to feel like gospel.
+I tape the newspaper name under the quote on my kid's history project so six months later we know if the source still says what we thought. Without that line our own summary starts to feel like gospel.
 
 ## Note Relationships
 

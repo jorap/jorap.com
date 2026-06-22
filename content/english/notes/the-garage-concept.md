@@ -17,7 +17,7 @@ The garage holds tools, scraps, experiments. The showroom is the blog. I don't c
 
 ## Example
 
-Half-finished drafts and ugly snippets live in private files; the Hugo site is the showroom I invite people into. I do not publish the garage mess by accident.
+The garage holds half-finished projects and sawdust; the front porch shows the one bench I'd invite a neighbor to sit on. I don't accidentally show people the mess - I publish the finished piece.
 
 ## Note Relationships
 

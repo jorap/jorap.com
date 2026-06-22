@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-When the kitchen catches fire, someone points to exits and counts heads — title optional. Nobody named me incident lead; leadership was status posts, owners, and keeping the channel off blame. Like a parent on a trip: calm voice, clear next step.
+When the kitchen catches fire, someone points to exits and counts heads - title optional. Our line cook never got named manager; leadership was calm voice, who goes where, and nobody blaming while the extinguishers were still out.
 
 ## Note Relationships
 

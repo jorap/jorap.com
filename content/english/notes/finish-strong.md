@@ -19,7 +19,7 @@ A project, conversation, competition, or responsibility isn't successful until t
 
 ## Example
 
-I shipped the first draft of a feature and moved on. The bug reports came from the edge cases I never closed. Finish strong meant the verification pass and the doc update — the unglamorous tail that actually completes the job.
+I cleared the table after dinner but left the pots soaking — the smell woke us at 3 a.m. Finish strong was the ten-minute scrub and trash run, the unglamorous tail that actually completes the job.
 
 ## Note Relationships
 

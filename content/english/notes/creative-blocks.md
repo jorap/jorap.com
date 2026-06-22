@@ -17,7 +17,7 @@ I have thousands of notes and still stare at a blank page sometimes. Creative bl
 
 ## Example
 
-I had forty open tabs of research and still couldn't start the blog post. I closed everything, wrote one ugly paragraph about my inbox setup, and published it - the block lifted once something existed outside my head.
+My daughter stared at a blank worksheet for twenty minutes. I told her to write one messy sentence about breakfast. The block lifted once something existed on the paper. I do the same when I'm stuck on a post — one ugly paragraph, then the rest can follow.
 
 ## Note Relationships
 

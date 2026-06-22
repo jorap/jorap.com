@@ -19,7 +19,7 @@ I'd rather publish a rough note or prototype and learn than polish in private fo
 
 ## Example
 
-I sat on a half-written post about notes tooling for three months because the screenshots weren't perfect. I published one rough page with broken formatting, got two emails from people who needed exactly that, and learned more than another month of private polishing would have.
+I sat on a half-planned birthday party for three months because the decorations weren't perfect. We ordered pizza, put out one banner, and the kids had a blast — I learned more than another month of Pinterest would've.
 
 ## Note Relationships
 

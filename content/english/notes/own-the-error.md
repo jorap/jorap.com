@@ -19,7 +19,7 @@ Name the mistake clearly, find what caused it, repair what broke, and change the
 
 ## Example
 
-Surgeons do morbidity rounds — name the miss, fix the process, no fairy tales. I shipped the config that took staging down. Own the error was saying it in the channel, rolling back, adding a deploy check — not "the tool glitched" when I'd skipped the diff.
+Surgeons do morbidity rounds - name the miss, fix the process, no fairy tales. I rang up the wrong total at the register, said it out loud, voided the receipt, and added a second look when bills pile up - not "the machine glitched."
 
 ## Note Relationships
 

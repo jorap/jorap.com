@@ -19,7 +19,7 @@ I borrowed it from medicine: enough to work, not more than needed. Applies to PK
 
 ## Example
 
-I tried rebuilding my whole capture system in Notion before I'd stuck with one inbox for two weeks. One pocket notebook by the door did more for missed ideas than the color-coded dashboard ever did.
+The coach added one footwork drill before buying new shoes - small dose, daily reps, feet learned faster than gear ever did. I needed the same with capture: one notebook by the door beat rebuilding the whole system again.
 
 ## Note Relationships
 

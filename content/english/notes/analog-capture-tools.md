@@ -17,7 +17,7 @@ I love my wiki, but sometimes paper wins - meetings, sermons, the pocket noteboo
 
 ## Example
 
-The phone dies mid-sermon and the pocket notebook still works. I scribble Philippians references in the margin and type them into the wiki during Friday review.
+The phone dies mid-sermon and the pocket notebook still works. I scribble Philippians references in the margin and copy them into my study Bible at the kitchen table Sunday night — same captures, no battery required.
 
 ## Note Relationships
 

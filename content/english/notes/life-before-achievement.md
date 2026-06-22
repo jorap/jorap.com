@@ -19,7 +19,7 @@ Those goals have value only while the methods used to reach them respect safety.
 
 ## Example
 
-Cancel a team-building exercise when safer activities can hit the same objective without a credible risk of death. Unity doesn't require a body count.
+The school canceled the cliff-jump field trip when the park picnic hit the same bonding goal without a credible risk of a broken leg. Unity doesn't require a stunt.
 
 ## Note Relationships
 

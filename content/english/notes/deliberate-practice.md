@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-A pianist runs the hard measure fifty times, not the whole concerto on autopilot. My talks died in the handoffs between sections. Deliberate practice was rehearsing only those bridges ten times — the rest I already knew.
+A goalkeeper drills the hard save fifty times, not the whole match on autopilot. My kid's recital died in the bridges between songs. Deliberate practice was running only those transitions ten times — the rest she already knew.
 
 ## Note Relationships
 

@@ -17,7 +17,7 @@ My digital garden is where notes grow in public - linked, imperfect, alive.
 
 ## Example
 
-This site is where notes grow in public, typos and dated takes included. I update a page when reality changes instead of pretending the first draft was final.
+Our block's little free library still has last year's craft books beside this year's swaps. I replace a title when I learn better — not when the first donation was supposed to be final.
 
 ## Note Relationships
 

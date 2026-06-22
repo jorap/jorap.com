@@ -19,7 +19,7 @@ Layer one: bold the good sentences. Layer two: highlight the best bold. Layer th
 
 ## Example
 
-I open a saved article for the second time and bold three sentences, then highlight one. The summary at the top only appears when I am actually reusing the note.
+I open the PTA newsletter for the second time and circle three dates, then star one. The sticky on the fridge only gets written when I'm actually blocking the calendar.
 
 ## Note Relationships
 

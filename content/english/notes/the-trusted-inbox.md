@@ -32,7 +32,7 @@ If I don't trust my inbox, I capture in my head instead. One pipe, weekly empty,
 
 ## Example
 
-I merged work and home into one inbox because two pipes meant I would capture in my head instead. If Sunday passes without an empty, trust breaks and sparks die on the commute.
+We kept one bowl by the door for keys, papers, and receipts - two bowls meant I'd hold things in my head instead. If Sunday passes without clearing it, trust breaks and sparks die on the commute.
 
 ## Note Relationships
 

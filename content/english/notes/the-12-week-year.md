@@ -17,7 +17,7 @@ Twelve-week years compress annual goals into quarters I actually feel. I map wik
 
 ## Example
 
-I'd been treating January goals like they had all year to breathe - by March nothing felt urgent. I broke one wiki project into twelve weeks with a scoreboard on the fridge, and the deadline finally hit my chest instead of disappearing into December.
+I'd been treating "clear the garage" like a someday project - by March the boxes still blended into the walls. I gave it twelve weeks and stuck a scoreboard on the fridge; week ten finally felt urgent instead of vague.
 
 ## Note Relationships
 

@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-"I'll look into it" without a ticket is how school projects die after the group chat goes quiet. Follow-through was the recap email with owners and dates before the standup ended — like a plumber texting when they're actually en route, not "soon."
+"I'll look into it" without a date is how school projects die after the group chat goes quiet. Follow-through was the recap with owners and dates before anyone left the parking lot — like a plumber texting when they're actually en route, not "soon."
 
 ## Note Relationships
 

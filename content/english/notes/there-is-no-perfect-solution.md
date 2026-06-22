@@ -17,7 +17,7 @@ Waiting for the perfect tool, plan, or answer feels responsible. It's often the 
 
 ## Example
 
-I spent a week comparing note apps instead of writing the one post I actually needed out. I picked Obsidian with two plugins, wrote the draft that afternoon tired, and shipped something useful before the perfect stack ever showed up.
+I spent a week comparing strollers instead of walking with the baby we already had. I picked the lighter one, went out tired that afternoon, and miles happened before the perfect model ever arrived.
 
 ## Note Relationships
 

@@ -19,7 +19,7 @@ Real competence means staying useful outside ideal setups, familiar roles, and c
 
 ## Example
 
-A great street-food cook still has to learn a new kitchen layout when the mall lease starts — same food, new tools. I was fastest on the old stack; migration meant learning the new debugger before I needed to be heroic, not defending last year's tricks in every meeting.
+A great street-food cook still has to learn a new kitchen layout when the mall lease starts - same food, new tools. I walked the new counter before the lunch rush instead of defending last month's habits when the line got long.
 
 ## Note Relationships
 

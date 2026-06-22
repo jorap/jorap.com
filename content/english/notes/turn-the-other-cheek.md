@@ -34,7 +34,7 @@ Jesus rejected the limit of "eye for eye" as a personal ethic for disciples. The
 
 ## Example
 
-Someone insulted me in a meeting and I spent the commute drafting the perfect comeback. Turning the other cheek isn't pretending it didn't hurt - it's refusing to become the kind of person who has to win every exchange.
+Someone snapped at me in the school pickup line and I spent the drive home drafting the perfect comeback. Turning the other cheek isn't pretending it didn't hurt - it's refusing to become the kind of person who has to win every exchange.
 
 ## Note Relationships
 

@@ -17,7 +17,7 @@ Serendipity isn't luck for me - I build systems where old notes surprise me at t
 
 ## Example
 
-I am reviewing unrelated notes and an old capture about RSS clicks with one I wrote yesterday on capture filters. The graph did that bump; I did not plan the meeting.
+I'm flipping through old recipe cards while packing lunch and a card on quick weeknight meals bumps into one I wrote last month on batch cooking. I didn't plan the meeting — the "see also" arrow on the adobo card did.
 
 ## Note Relationships
 

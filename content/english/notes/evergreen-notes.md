@@ -34,7 +34,7 @@ I write in complete sentences I'd still stand behind in two years. Revise when t
 
 ## Example
 
-I rewrite a note when Hugo changes how I work, not when Twitter gets excited about a new theme. If I would not say the sentence out loud in two years, it stays fleeting.
+A family recipe card keeps the ratios, not last year's trendy garnish. I rewrite a note when life changes how I think, not when a feed gets excited about a new trick.
 
 ## Note Relationships
 

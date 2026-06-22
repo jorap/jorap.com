@@ -34,7 +34,7 @@ Remember CODE: [[Capture]], organize, distill, express. The system fails when an
 
 ## Example
 
-A blog idea hits on the jeepney and I dump it in the inbox instead of holding it till I get home. My head is for having ideas; the system is for storing them until express day.
+A dinner idea hits on the jeepney and I voice-memo it before the station noise eats it. My head is for having ideas; the notebook is for storing them until Sunday.
 
 ## Note Relationships
 

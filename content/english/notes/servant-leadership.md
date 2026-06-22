@@ -19,7 +19,7 @@ The corporate ladder rewards visibility; this principle runs the other way. Wash
 
 ## Example
 
-I got promoted and caught myself delegating only the boring work while keeping the visible wins. Servant leadership meant taking the messy incident postmortem myself and putting the junior who fixed it in the demo.
+The head server took the worst section on Mother's Day and put the busser who saved the night on the thank-you board. I got a title and noticed I'd been hoarding the easy wins - servant leadership meant the messy shift and her name on the praise.
 
 ## Note Relationships
 

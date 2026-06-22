@@ -17,7 +17,7 @@ Notes are inventory. Output is the point - blog posts, sermons, code, dinner exp
 
 ## Example
 
-Friday I turn three inbox sparks into one published post, even if the prose is rough. Notes are inventory; the blog post is the point.
+Friday the art teacher makes everyone show one sketch, rough or not. I do the same with my note pile — three sparks become one finished piece, even if the prose is rough.
 
 ## Note Relationships
 

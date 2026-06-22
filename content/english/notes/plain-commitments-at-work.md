@@ -19,7 +19,7 @@ If my word needs hype to sound believable, the problem is my follow-through, not
 
 ## Example
 
-I almost wrote "I'll try my absolute best to maybe have something by EOD if nothing explodes" when "Yes, Friday 5pm" or "No, not this sprint" was what the PM actually needed.
+The host almost said "I'll try to maybe get you a table around seven if we're not slammed" when "7pm" or "I can't tonight - want tomorrow?" was what the couple actually needed.
 
 ## Note Relationships
 

@@ -17,7 +17,7 @@ Fleeting notes catch sparks. Evergreen notes hold truth. I need both lanes and a
 
 ## Example
 
-A hot take goes in today's daily note; a claim I would cite in conversation gets promoted to evergreen during Sunday review. Same vault, two speeds, one clear upgrade path.
+A hot take about today's game goes on the fridge whiteboard; a lesson I'd tell my kid next year gets copied into the recipe box. Same kitchen, two speeds, one clear upgrade path.
 
 ## Note Relationships
 

@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-A smoke alarm isn't moral judgment — it's data. Our beta feature flopped; failure as feedback was the survey and funnel, not "users are dumb" or "I'm bad at product." Treat the miss as instrument reading, not identity.
+A smoke alarm isn't moral judgment — it's data. My sourdough failed again; failure as feedback was the thermometer and timing notes, not "I'm bad at baking." Treat the miss as instrument reading, not identity.
 
 ## Note Relationships
 

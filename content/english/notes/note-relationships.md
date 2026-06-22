@@ -37,11 +37,11 @@ aliases: ["link types"]
 | **implements** | What makes this real? | [[Weekly Review Checklists]] implements [[Periodic Knowledge Review]] |
 | **alternative** | What else could do this job? | [[Mobile Capture Workflows]] alternative to [[Analog Capture Tools]] |
 
-Every atomic note (`note_kind: note`, the default) carries opening prose, optional **## Example** (one concrete scene), and a **## Note Relationships** table sorted by type: **alternative**, **contradicts**, **extends**, **implements**. At minimum: **extends** and **contradicts**, wikilinked, each with a **Reason** (what this builds on; a **when** clause on contradicts). Add **implements** and **alternative** when they fit. Broken wikilinks to obvious missing notes are fine - they flag future pages. "Pairs with" in older notes means informal extends. Pipeline order (capture → distill → express) is prose, not a fifth type.
+Every atomic note (`note_kind: note`, the default) carries opening prose, optional **## Example** (one concrete scene — sports, non-technical work, home with children, or real world), and a **## Note Relationships** table sorted by type: **alternative**, **contradicts**, **extends**, **implements**. At minimum: **extends** and **contradicts**, wikilinked, each with a **Reason** (what this builds on; a **when** clause on contradicts). Add **implements** and **alternative** when they fit. Broken wikilinks to obvious missing notes are fine - they flag future pages. "Pairs with" in older notes means informal extends. Pipeline order (capture → distill → express) is prose, not a fifth type.
 
 ## Example
 
-I'm filing a new note on weekly review and add `| extends | [[Periodic Knowledge Review]] | Sunday habit this checklist names |` plus `| contradicts | [[The 12 Week Year]] | when a repeating ritual beats quarterly sprints |` before I publish. Two rows, typed tension, graph can read it.
+I'm updating the family chore chart and add "feeds into: Saturday yard work" next to "take out trash" plus "conflicts with: bedtime when done late" before I tape it to the fridge. Two rows, named tension, everyone can read it.
 
 ## Note Relationships
 

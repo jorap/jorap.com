@@ -19,7 +19,7 @@ Rest, prep, workload limits, and recovery aren't soft extras — they're part of
 
 ## Example
 
-Hospitals limit surgeon hours because tired hands slip — judgment is a motor skill too. I took a vendor call at 11 p.m. after a sixteen-hour day and escalated over a typo. At 9 a.m. it would've been two calm sentences. The vendor wasn't the problem; I was.
+Hospitals limit surgeon hours because tired hands slip — judgment is a motor skill too. I snapped at my kid over a spilled cup after a brutal week. At breakfast it would've been two calm sentences. She wasn't the problem; I was.
 
 ## Note Relationships
 

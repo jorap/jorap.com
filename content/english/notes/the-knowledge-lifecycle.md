@@ -17,7 +17,7 @@ Ideas have lifecycles in my vault: capture, active use, evergreen, decay, archiv
 
 ## Example
 
-A spark lands in the daily note, gets promoted to evergreen after three reviews, then moves to archive when the tool it describes dies. I spend polish where the note actually sits.
+A tomato seedling on the windowsill graduates to the backyard bed after three good weeks, then gets pulled when frost hits. I spend water and stakes where the plant actually lives.
 
 ## Note Relationships
 

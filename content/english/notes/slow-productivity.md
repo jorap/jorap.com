@@ -17,7 +17,7 @@ aliases: []
 
 ## Example
 
-I cut active projects from six to three last quarter and finally shipped two posts instead of collecting research on all six. Busy is not virtue; finished work is.
+The coach cut drills from six to three and the team finally ran them clean on game day. I cut active home projects from six to three last quarter and finished the kids' bookcase instead of Pinterest boards on all six - busy isn't virtue; finished work is.
 
 ## Note Relationships
 

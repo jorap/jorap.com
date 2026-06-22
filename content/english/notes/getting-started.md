@@ -28,6 +28,8 @@ Public when `draft: false`; hidden while `draft: true`. Each note opens with a d
 
 **One note = one claim** I'd cite in conversation. Optional **## Example** (one concrete scene) when the claim needs it; required **## Note Relationships** table (extends + contradicts at minimum, sorted by type). No other `##` sections — link out instead. See [[Atomic Notes]] and [[Note Relationships]].
 
+**Example genres** — pick one scene from: **sports**, **non-technical work** (restaurant, school, clinic, retail, trades), **home with children**, or **real world** (commute, neighbors, errands). One familiar beat, then one personal line if it helps. Skip tech-job and cockpit scenes unless the note is explicitly about tools.
+
 ## Create a note
 
 ```bash

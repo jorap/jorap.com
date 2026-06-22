@@ -19,7 +19,7 @@ Forgiving isn't pretending it didn't hurt. It's refusing to collect forever on a
 
 ## Example
 
-I kept mentally scoring a coworker who embarrassed me in a retro six months ago. Forgiveness at work meant I stopped bringing that score into every standup - and I still documented what I'd need to trust him on the next launch.
+I kept mentally scoring a coworker who embarrassed me in a staff meeting six months ago. Forgiveness at work meant I stopped bringing that score into every shift — and I still wrote down what I'd need to trust him on the next busy Saturday.
 
 ## Note Relationships
 

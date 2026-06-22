@@ -16,7 +16,7 @@ Graph looks sci-fi. Mostly I use it to sort notes by link rank - top 20%, middle
 
 ## Example
 
-I open the graph sort and the orphans list jumps out right away: six notes with zero body links. That list is my linking todo, not decoration.
+I laid out the kids' chore chart and three jobs had zero arrows to anything else — nobody knew who checked them. That gap list was my fix-this-week, not decoration.
 
 ## Note Relationships
 

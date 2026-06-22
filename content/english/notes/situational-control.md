@@ -17,7 +17,7 @@ aliases: ["situation control"]
 
 ## Example
 
-A good host ends the party before the stereo gets louder — they control the evening, not the loudest guest. The negotiation was eating my hard stop. Situational control was a fifteen-minute break and an agenda for round two — not surrendering my calendar because they talked faster.
+A good host ends the party before the stereo gets louder — they control the evening, not the loudest guest. My sister and I were fighting at the kitchen table past my kids' bedtime. Situational control was a fifteen-minute break and a promise to pick it up tomorrow — not surrendering the house because she talked faster.
 
 ## Note Relationships
 

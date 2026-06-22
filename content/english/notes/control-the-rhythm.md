@@ -19,7 +19,7 @@ Don't let urgency, conflict, emotion, or someone else's deadline dictate how fas
 
 ## Example
 
-Good therapists don't let the loudest emotion set session length — they pause, redirect, close on time. A client pinged "need this today" before I'd read the brief. Control the rhythm was "I'll have a read by Thursday" instead of half-answers that bred three more panicked pings.
+Good coaches don't let the loudest parent set practice length — they run drills, call water, end on time. A dad texted "my kid needs more reps today" before I'd watched him play. Control the rhythm was "let's see Thursday's scrimmage first" instead of doubling reps that bred a limp.
 
 ## Note Relationships
 

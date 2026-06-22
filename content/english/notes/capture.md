@@ -34,7 +34,7 @@ Friction kills capture. One inbox, phone to desktop, weekly process - same as [[
 
 ## Example
 
-Mid-commute I get a sentence for a post and voice-memo it before the station noise eats it. One inbox, no tags yet. I sort on Sunday when the spark is already safe.
+On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it. One pocket notebook — no sorting yet. I file it Sunday when the spark is already safe.
 
 ## Note Relationships
 

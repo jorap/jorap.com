@@ -19,7 +19,7 @@ Vocabulary, definitions, scripture references - anything I'll be quizzed on or n
 
 ## Example
 
-Phone review hits flashcard backs on capture and gospel notes while I wait for rice to cook. The wiki holds the essay; Anki holds the facts I need cold.
+My kid's spelling list lives on the fridge; we hit five words while rice cooks. Same little doses beat cramming the night before the quiz - I do the same with note cards on capture and gospel lines.
 
 ## Note Relationships
 
