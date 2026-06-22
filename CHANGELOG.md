@@ -24,6 +24,11 @@ Commit prefix → section: `fix:` / `Fixes` → **Fixed**; `feat:` / `add:` → 
 - `layouts/baseof.html`
 - `layouts/notes/review.html`
 - `themes/jorap/assets/css/generated-theme.css`
+- `assets/js/notes-random-core.js`
+- `assets/js/notes-random-duo.js`
+- `layouts/_partials/notes/random-note-select.html`
+- `layouts/_partials/notes/random-unrelated-notes.html`
+- `layouts/notes/random-duo.html`
 
 
 ---
