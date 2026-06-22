@@ -2861,10 +2861,3756 @@ _**Agent (default)**_
 ```bash
 rmdir /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/update-changelog 2>/dev/null; ls /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/ | grep changelog
 ```
+
+```
+changelog-update
+
+```
 </details>
 </tool-use>
 
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
 <summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+Renamed to `changelog-update`:
+
+- Skill moved to `.cursor/skills/changelog-update/SKILL.md`
+- References updated in `CHANGELOG.md` and `README.md`
+
+---
+
+_**User**_
+
+can we standardize content spacing?
+
+---
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The request to standardize content spacing is ambiguous. It could refer to the changelog-update SKILL.md file or CSS spacing across the site.</details></think>
+
+_**Agent (default)**_
+
+Content spacing could mean the site, the skill file, or the changelog — I'll check how spacing is defined across the repo first.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/changelog-update/SKILL.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full">
+<details>
+<summary>Tool use: **semantic_search_full**</summary>
+
+
+Parameters:
+
+```json
+{
+  "explanation": "",
+  "query": "How is content spacing and typography margin handled for prose and page content?",
+  "topK": 10
+}
+```
+Result:
+
+```json
+{
+  "codeResults": [
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 1,
+            "text": "/* section style */"
+          },
+          {
+            "lineNumber": 2,
+            "text": ".section {"
+          },
+          {
+            "lineNumber": 3,
+            "text": "  @apply py-14 md:py-20;"
+          },
+          {
+            "lineNumber": 4,
+            "text": "}"
+          },
+          {
+            "lineNumber": 5
+          },
+          {
+            "lineNumber": 6,
+            "text": "/* Title-case for section h2 labels (capitalize first letter of each word). */"
+          },
+          {
+            "lineNumber": 7,
+            "text": ".heading-title-case {"
+          },
+          {
+            "lineNumber": 8,
+            "text": "  text-transform: capitalize;"
+          },
+          {
+            "lineNumber": 9,
+            "text": "}"
+          },
+          {
+            "lineNumber": 10
+          },
+          {
+            "lineNumber": 11,
+            "text": "/* container */"
+          },
+          {
+            "lineNumber": 12,
+            "text": ".container {"
+          },
+          {
+            "lineNumber": 13,
+            "text": "  @apply mx-auto xl:!max-w-[1320px] px-4;"
+          },
+          {
+            "lineNumber": 14,
+            "text": "}"
+          },
+          {
+            "lineNumber": 15
+          },
+          {
+            "lineNumber": 16,
+            "text": "/* social icons */"
+          },
+          {
+            "lineNumber": 17,
+            "text": ".social-icons {"
+          },
+          {
+            "lineNumber": 18,
+            "text": "  @apply space-x-4;"
+          },
+          {
+            "lineNumber": 19,
+            "text": "}"
+          },
+          {
+            "lineNumber": 20,
+            "text": ".social-icons li {"
+          },
+          {
+            "lineNumber": 21,
+            "text": "  @apply inline-block;"
+          },
+          {
+            "lineNumber": 22,
+            "text": "}"
+          },
+          {
+            "lineNumber": 23,
+            "text": ".social-icons li a {"
+          },
+          {
+            "lineNumber": 24,
+            "text": "  @apply inline-flex h-9 w-9 items-center justify-center rounded-sm bg-accent;"
+          },
+          {
+            "lineNumber": 25,
+            "text": "}"
+          },
+          {
+            "lineNumber": 26,
+            "text": ".social-icons li a svg {"
+          },
+          {
+            "lineNumber": 27,
+            "text": "  @apply h-5 w-5 fill-surface;"
+          },
+          {
+            "lineNumber": 28,
+            "text": "}"
+          },
+          {
+            "lineNumber": 29
+          },
+          {
+            "lineNumber": 30,
+            "text": "/* Content / prose style."
+          },
+          {
+            "lineNumber": 31,
+            "text": " * Uses semantic tokens (ink, ink-muted, elevated, divider, accent) so dark mode"
+          },
+          {
+            "lineNumber": 32,
+            "text": " * is handled automatically by tailwind-plugin/tw-theme.js — no &#96;dark:&#96; twins needed."
+          },
+          {
+            "lineNumber": 33,
+            "text": " */"
+          },
+          {
+            "lineNumber": 34,
+            "text": ".content {"
+          },
+          {
+            "lineNumber": 35,
+            "text": "  @apply prose max-w-full font-primary;"
+          },
+          {
+            "lineNumber": 36,
+            "text": "  @apply prose-headings:mb-[.3em] prose-headings:mt-[.6em] prose-headings:text-ink prose-headings:text-balance prose-headings:leading-[1.25];"
+          },
+          {
+            "lineNumber": 37,
+            "text": "  @apply prose-h1:text-h1-sm md:prose-h1:text-h1;"
+          },
+          {
+            "lineNumber": 38,
+            "text": "  @apply prose-h2:text-h2-sm md:prose-h2:text-h2;"
+          },
+          {
+            "lineNumber": 39,
+            "text": "  @apply prose-h3:text-h3-sm md:prose-h3:text-h3;"
+          },
+          {
+            "lineNumber": 40,
+            "text": "  @apply prose-img:max-w-full prose-img:rounded;"
+          },
+          {
+            "lineNumber": 41,
+            "text": "  @apply prose-hr:border-divider;"
+          },
+          {
+            "lineNumber": 42,
+            "text": "  @apply prose-p:text-base prose-p:text-ink-muted;"
+          },
+          {
+            "lineNumber": 43,
+            "text": "  @apply prose-blockquote:rounded-lg prose-blockquote:border prose-blockquote:border-accent/25 prose-blockquote:bg-elevated prose-blockquote:px-8 prose-blockquote:py-10 prose-blockquote:font-primary prose-blockquote:text-2xl prose-blockquote:not-italic prose-blockquote:text-ink;"
+          },
+          {
+            "lineNumber": 44,
+            "text": "  @apply prose-pre:rounded-lg prose-pre:bg-elevated;"
+          },
+          {
+            "lineNumber": 45,
+            "text": "  @apply prose-code:px-1 prose-code:text-accent;"
+          },
+          {
+            "lineNumber": 46,
+            "text": "  @apply prose-strong:text-ink;"
+          },
+          {
+            "lineNumber": 47,
+            "text": "  @apply prose-a:text-ink-muted prose-a:underline prose-a:hover:text-accent;"
+          },
+          {
+            "lineNumber": 48,
+            "text": "  @apply prose-li:text-ink-muted;"
+          },
+          {
+            "lineNumber": 49,
+            "text": "  @apply prose-table:relative prose-table:overflow-hidden prose-table:rounded-lg prose-table:before:absolute prose-table:before:left-0 prose-table:before:top-0 prose-table:before:h-full prose-table:before:w-full prose-table:before:rounded-[inherit] prose-table:before:border prose-table:before:border-divider prose-table:before:content-[\"\"];"
+          },
+          {
+            "lineNumber": 50,
+            "text": "  @apply prose-thead:border-divider prose-thead:bg-elevated;"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 50
+          },
+          "startPosition": {}
+        },
+        "relativeWorkspacePath": "./themes/jorap/assets/css/components.css",
+        "signatures": {}
+      },
+      "score": 0.4766004979610443
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 136,
+            "text": "### Hierarchy"
+          },
+          {
+            "lineNumber": 137
+          },
+          {
+            "lineNumber": 138,
+            "text": "- **Display** (700, &#96;3.81rem&#96; / &#96;clamp&#96; via &#96;text-h1&#96; and breakpoints, line-height ~1.12, tight negative tracking): Reserved for **top-level marketing or page titles** when the full scale ladder applies (&#96;h1&#96; / &#96;.h1&#96;)."
+          },
+          {
+            "lineNumber": 139,
+            "text": "- **Headline** (700, &#96;3.05rem&#96; with responsive &#96;-sm&#96; variants, line-height ~1.12): Section headings (&#96;h2&#96;), large list titles."
+          },
+          {
+            "lineNumber": 140,
+            "text": "- **Title** (600, &#96;2.44rem&#96; down through &#96;1.25rem&#96; for &#96;h3&#96;–&#96;h6&#96;): Subheads, card titles, component headings. Blog cards also use **&#96;text-2xl&#96;** for card titles in templates."
+          },
+          {
+            "lineNumber": 141,
+            "text": "- **Body** (400, &#96;16px&#96; base with &#96;0.8×&#96; on small viewports via &#96;text-base-sm&#96;, line-height relaxed): Article body, descriptions. Prose is capped at **&#96;max-w-[70ch]&#96;** in &#96;.content&#96; for comfortable line length."
+          },
+          {
+            "lineNumber": 142,
+            "text": "- **Label** (600, inherited sizes on &#96;nav-link&#96; and buttons, semibold): Navigation, buttons, and emphasis. Buttons use **capitalize** in &#96;.btn&#96; (know that convention if you add new buttons)."
+          },
+          {
+            "lineNumber": 143
+          },
+          {
+            "lineNumber": 144,
+            "text": "### Named Rules"
+          },
+          {
+            "lineNumber": 145
+          },
+          {
+            "lineNumber": 146,
+            "text": "**The Inter-Only Rule.** Do not add a second font family for \"personality\" until **PRODUCT.md** explicitly asks for it; hierarchy must stay on **scale, weight, and tracking** first."
+          },
+          {
+            "lineNumber": 147
+          },
+          {
+            "lineNumber": 148,
+            "text": "**The Article Title Rule.** Blog post titles use &#96;.article-title&#96;: real &#96;h1&#96; with a **tighter ramp** (&#96;text-h2-sm&#96; through &#96;text-h1&#96;) so long titles stay dignified on small screens."
+          },
+          {
+            "lineNumber": 149
+          },
+          {
+            "lineNumber": 150,
+            "text": "## Elevation"
+          },
+          {
+            "lineNumber": 151
+          },
+          {
+            "lineNumber": 152,
+            "text": "The system is **flat at rest**. Depth is **tonal** (surface vs elevated) first; **shadow** second."
+          },
+          {
+            "lineNumber": 153
+          },
+          {
+            "lineNumber": 154,
+            "text": "Shadows appear where something **floats above** the page: **dropdown panels** (&#96;shadow-lg&#96;), **back-to-top** control (&#96;shadow-lg&#96;), and **blog cards** (&#96;shadow-sm&#96;, **&#96;shadow-md&#96; on hover**). Cards use **border + subtle shadow** together so lift reads as **tactile**, not neon."
+          },
+          {
+            "lineNumber": 155
+          },
+          {
+            "lineNumber": 156,
+            "text": "Atmospheric **page headers** may use a **soft vertical gradient** (&#96;from-surface to-elevated&#96; or the &#96;bg-gradient&#96; utility) for a **sheet lift**, not glassmorphism."
+          },
+          {
+            "lineNumber": 157
+          },
+          {
+            "lineNumber": 158,
+            "text": "### Shadow Vocabulary"
+          },
+          {
+            "lineNumber": 159
+          },
+          {
+            "lineNumber": 160,
+            "text": "- **Card rest** (&#96;shadow-sm&#96;, Tailwind default): Blog cards and light containers at rest."
+          },
+          {
+            "lineNumber": 161,
+            "text": "- **Card hover** (&#96;shadow-md&#96;): Slightly deeper lift on &#96;.component--blog-card&#96; hover, paired with **unchanged border color** so motion is restrained."
+          },
+          {
+            "lineNumber": 162,
+            "text": "- **Overlay / menu** (&#96;shadow-lg&#96;): Dropdown panels and floating FAB-style controls."
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 162
+          },
+          "startPosition": {
+            "line": 134
+          }
+        },
+        "relativeWorkspacePath": "./docs/DESIGN.md",
+        "signatures": {}
+      },
+      "score": 0.39207080006599426
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 1,
+            "text": "/*"
+          },
+          {
+            "lineNumber": 2,
+            "text": " * Header offset: single source of truth for sticky-header height."
+          },
+          {
+            "lineNumber": 3,
+            "text": " * - CSS uses it for scroll-padding-top so anchor jumps clear the header."
+          },
+          {
+            "lineNumber": 4,
+            "text": " * - JS reads it via getComputedStyle(...) — see assets/js/toc.js + back-to-top.js."
+          },
+          {
+            "lineNumber": 5,
+            "text": " * Update here only; do not duplicate in JS."
+          },
+          {
+            "lineNumber": 6,
+            "text": " */"
+          },
+          {
+            "lineNumber": 7,
+            "text": "html {"
+          },
+          {
+            "lineNumber": 8,
+            "text": "  --header-offset: 80px;"
+          },
+          {
+            "lineNumber": 9,
+            "text": "  --touch-target-min: 2.75rem;"
+          },
+          {
+            "lineNumber": 10,
+            "text": "  --btn-py: 0.5rem;"
+          },
+          {
+            "lineNumber": 11,
+            "text": "  --nav-link-py: 0.75rem;"
+          },
+          {
+            "lineNumber": 12,
+            "text": "  --filter-py: 0.5rem;"
+          },
+          {
+            "lineNumber": 13,
+            "text": "  @apply text-base-sm md:text-base font-primary;"
+          },
+          {
+            "lineNumber": 14,
+            "text": "  color-scheme: light;"
+          },
+          {
+            "lineNumber": 15,
+            "text": "  scroll-padding-top: var(--header-offset);"
+          },
+          {
+            "lineNumber": 16,
+            "text": "  scroll-behavior: smooth;"
+          },
+          {
+            "lineNumber": 17,
+            "text": "}"
+          },
+          {
+            "lineNumber": 18
+          },
+          {
+            "lineNumber": 19,
+            "text": "@media (prefers-reduced-motion: reduce) {"
+          },
+          {
+            "lineNumber": 20,
+            "text": "  html {"
+          },
+          {
+            "lineNumber": 21,
+            "text": "    scroll-behavior: auto;"
+          },
+          {
+            "lineNumber": 22,
+            "text": "  }"
+          },
+          {
+            "lineNumber": 23,
+            "text": "}"
+          },
+          {
+            "lineNumber": 24
+          },
+          {
+            "lineNumber": 25,
+            "text": "html.dark {"
+          },
+          {
+            "lineNumber": 26,
+            "text": "  color-scheme: dark;"
+          },
+          {
+            "lineNumber": 27,
+            "text": "}"
+          },
+          {
+            "lineNumber": 28
+          },
+          {
+            "lineNumber": 29,
+            "text": "@media (min-width: 1024px) {"
+          },
+          {
+            "lineNumber": 30,
+            "text": "  html {"
+          },
+          {
+            "lineNumber": 31,
+            "text": "    --header-offset: 100px;"
+          },
+          {
+            "lineNumber": 32,
+            "text": "  }"
+          },
+          {
+            "lineNumber": 33,
+            "text": "}"
+          },
+          {
+            "lineNumber": 34
+          },
+          {
+            "lineNumber": 35,
+            "text": "@media (min-width: 1280px) {"
+          },
+          {
+            "lineNumber": 36,
+            "text": "  html {"
+          },
+          {
+            "lineNumber": 37,
+            "text": "    --header-offset: 110px;"
+          },
+          {
+            "lineNumber": 38,
+            "text": "  }"
+          },
+          {
+            "lineNumber": 39,
+            "text": "}"
+          },
+          {
+            "lineNumber": 40
+          },
+          {
+            "lineNumber": 41,
+            "text": "body {"
+          },
+          {
+            "lineNumber": 42,
+            "text": "  @apply bg-surface text-base font-primary font-normal leading-relaxed text-ink-muted antialiased;"
+          },
+          {
+            "lineNumber": 43,
+            "text": "}"
+          },
+          {
+            "lineNumber": 44
+          },
+          {
+            "lineNumber": 45,
+            "text": "h1,"
+          },
+          {
+            "lineNumber": 46,
+            "text": "h2,"
+          },
+          {
+            "lineNumber": 47,
+            "text": "h3,"
+          },
+          {
+            "lineNumber": 48,
+            "text": "h4,"
+          },
+          {
+            "lineNumber": 49,
+            "text": "h5,"
+          },
+          {
+            "lineNumber": 50,
+            "text": "h6 {"
+          },
+          {
+            "lineNumber": 51,
+            "text": "  @apply font-primary text-ink;"
+          },
+          {
+            "lineNumber": 52,
+            "text": "  text-wrap: balance;"
+          },
+          {
+            "lineNumber": 53,
+            "text": "  text-transform: capitalize;"
+          },
+          {
+            "lineNumber": 54,
+            "text": "}"
+          },
+          {
+            "lineNumber": 55
+          },
+          {
+            "lineNumber": 56,
+            "text": "/* Inter-only hierarchy: weight + tracking ladder so headings don’t collapse visually */"
+          },
+          {
+            "lineNumber": 57,
+            "text": "h1:not(.article-title),"
+          },
+          {
+            "lineNumber": 58,
+            "text": ".h1 {"
+          },
+          {
+            "lineNumber": 59,
+            "text": "  @apply text-h1-sm md:text-h1 font-bold leading-[1.12] tracking-[-0.03em];"
+          },
+          {
+            "lineNumber": 60,
+            "text": "}"
+          },
+          {
+            "lineNumber": 61
+          },
+          {
+            "lineNumber": 62,
+            "text": "h2,"
+          },
+          {
+            "lineNumber": 63,
+            "text": ".h2 {"
+          },
+          {
+            "lineNumber": 64,
+            "text": "  @apply text-h2-sm md:text-h2 font-bold leading-tight tracking-[-0.025em];"
+          },
+          {
+            "lineNumber": 65,
+            "text": "}"
+          },
+          {
+            "lineNumber": 66
+          },
+          {
+            "lineNumber": 67,
+            "text": "h3,"
+          },
+          {
+            "lineNumber": 68,
+            "text": ".h3 {"
+          },
+          {
+            "lineNumber": 69,
+            "text": "  @apply text-h3-sm md:text-h3 font-semibold leading-snug tracking-[-0.02em];"
+          },
+          {
+            "lineNumber": 70,
+            "text": "}"
+          },
+          {
+            "lineNumber": 71
+          },
+          {
+            "lineNumber": 72,
+            "text": "h4,"
+          },
+          {
+            "lineNumber": 73,
+            "text": ".h4 {"
+          },
+          {
+            "lineNumber": 74,
+            "text": "  @apply text-h4 font-semibold leading-snug tracking-tight;"
+          },
+          {
+            "lineNumber": 75,
+            "text": "}"
+          },
+          {
+            "lineNumber": 76
+          },
+          {
+            "lineNumber": 77,
+            "text": "h5,"
+          },
+          {
+            "lineNumber": 78,
+            "text": ".h5 {"
+          },
+          {
+            "lineNumber": 79,
+            "text": "  @apply text-h5 font-semibold leading-snug tracking-tight;"
+          },
+          {
+            "lineNumber": 80,
+            "text": "}"
+          },
+          {
+            "lineNumber": 81
+          },
+          {
+            "lineNumber": 82,
+            "text": "h6,"
+          },
+          {
+            "lineNumber": 83,
+            "text": ".h6 {"
+          },
+          {
+            "lineNumber": 84,
+            "text": "  @apply text-h6 font-semibold leading-normal tracking-normal;"
+          },
+          {
+            "lineNumber": 85,
+            "text": "}"
+          },
+          {
+            "lineNumber": 86
+          },
+          {
+            "lineNumber": 87,
+            "text": "/* Post titles: real h1, restrained on small screens, scales up with viewport */"
+          },
+          {
+            "lineNumber": 88,
+            "text": ".article-title {"
+          },
+          {
+            "lineNumber": 89,
+            "text": "  @apply font-primary font-bold leading-[1.15] tracking-[-0.035em] text-balance text-ink;"
+          },
+          {
+            "lineNumber": 90,
+            "text": "  @apply text-h2-sm md:text-h2 lg:text-h1-sm xl:text-h1;"
+          },
+          {
+            "lineNumber": 91,
+            "text": "}"
+          },
+          {
+            "lineNumber": 92
+          },
+          {
+            "lineNumber": 93,
+            "text": "b,"
+          },
+          {
+            "lineNumber": 94,
+            "text": "strong {"
+          },
+          {
+            "lineNumber": 95,
+            "text": "    @apply font-semibold;"
+          },
+          {
+            "lineNumber": 96,
+            "text": "}"
+          },
+          {
+            "lineNumber": 97
+          },
+          {
+            "lineNumber": 98,
+            "text": "code {"
+          },
+          {
+            "lineNumber": 99,
+            "text": "    @apply after:border-none;"
+          },
+          {
+            "lineNumber": 100,
+            "text": "}"
+          },
+          {
+            "lineNumber": 101
+          },
+          {
+            "lineNumber": 102,
+            "text": "blockquote\u003ep {"
+          },
+          {
+            "lineNumber": 103,
+            "text": "    @apply !my-0;"
+          },
+          {
+            "lineNumber": 104,
+            "text": "}"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "column": 1,
+            "line": 103
+          },
+          "startPosition": {}
+        },
+        "relativeWorkspacePath": "./themes/jorap/assets/css/base.css",
+        "signatures": {}
+      },
+      "score": 0.37455400824546814
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 186,
+            "text": "### Inputs / Fields"
+          },
+          {
+            "lineNumber": 187
+          },
+          {
+            "lineNumber": 188,
+            "text": "- **&#96;form-input&#96; utility:** Full width, **&#96;rounded&#96;**, **&#96;bg-elevated&#96;**, **&#96;px-6 py-4&#96;**, **&#96;text-ink&#96;**, placeholder **&#96;ink-faint&#96;**, **focus border** to **&#96;primary&#96;** / &#96;dark:focus:border-accent&#96;, **transparent ring** (no glow stack)."
+          },
+          {
+            "lineNumber": 189
+          },
+          {
+            "lineNumber": 190,
+            "text": "### Navigation"
+          },
+          {
+            "lineNumber": 191
+          },
+          {
+            "lineNumber": 192,
+            "text": "- **Header:** **&#96;border-b&#96;**, **&#96;bg-surface&#96;**, vertical rhythm **&#96;py-5&#96;**. Brand line uses **&#96;text-2xl&#96; / &#96;xl:text-3xl&#96;** for the site title."
+          },
+          {
+            "lineNumber": 193,
+            "text": "- **Links:** **&#96;font-semibold&#96;**, **&#96;text-ink&#96;**, **&#96;hover:text-accent&#96;**, **200ms ease-out** color transitions. Dropdown **panels** are **&#96;rounded-lg&#96;**, **&#96;border&#96;**, **&#96;shadow-lg&#96;**, **&#96;bg-elevated&#96;**, **padding &#96;p-4&#96;**, **min-width ~180px**."
+          },
+          {
+            "lineNumber": 194,
+            "text": "- **Mobile:** Checkbox hack **&#96;#nav-toggle&#96;**; ensure **keyboard and screen reader** behavior stays aligned when editing (triggers already use **&#96;aria-*&#96;** on dropdowns)."
+          },
+          {
+            "lineNumber": 195
+          },
+          {
+            "lineNumber": 196,
+            "text": "### Signature: Prose long-form"
+          },
+          {
+            "lineNumber": 197
+          },
+          {
+            "lineNumber": 198,
+            "text": "- **&#96;.content&#96; prose** applies typography plugin styling: **headings** use token-linked colors, **blockquotes** are **large, rounded, bordered** with **tinted background** (editorial pull-quote feel), **code** picks up **primary** ink for inline code, **links** underline and **hover to primary**."
+          },
+          {
+            "lineNumber": 199
+          },
+          {
+            "lineNumber": 200,
+            "text": "## Do's and Don'ts"
+          },
+          {
+            "lineNumber": 201
+          },
+          {
+            "lineNumber": 202,
+            "text": "### Do:"
+          },
+          {
+            "lineNumber": 203
+          },
+          {
+            "lineNumber": 204,
+            "text": "- **Do** keep **body copy** inside **~65–70ch** using existing &#96;.content&#96; / &#96;max-w-[70ch]&#96; patterns."
+          },
+          {
+            "lineNumber": 205,
+            "text": "- **Do** use **semantic tokens** (&#96;surface&#96;, &#96;elevated&#96;, &#96;ink&#96;, &#96;accent&#96;, &#96;divider&#96;) so light and dark stay paired."
+          },
+          {
+            "lineNumber": 206,
+            "text": "- **Do** use **short ease-out motion** (roughly **150–300ms**) for hovers and shadows, and **respect reduced motion** for scroll behavior (already on &#96;html&#96;)."
+          },
+          {
+            "lineNumber": 207,
+            "text": "- **Do** treat **charcoal / cream inversion** as the **single accent story** for CTAs and key navigation emphasis."
+          },
+          {
+            "lineNumber": 208
+          },
+          {
+            "lineNumber": 209,
+            "text": "### Don't:"
+          },
+          {
+            "lineNumber": 210
+          },
+          {
+            "lineNumber": 211,
+            "text": "- **Don't** lean on **performative nerd / dev-bro** visuals: rainbow syntax themes in chrome, meme density, or **gaming-stream** layout tropes on the **marketing shell** (per **PRODUCT.md** anti-references)."
+          },
+          {
+            "lineNumber": 212,
+            "text": "- **Don't** ship **generic SaaS landing sameness**: interchangeable hero **big-number metrics**, stock **three-icon feature rows**, or **template thought-leader** filler blocks that could be any startup (per **PRODUCT.md**)."
+          },
+          {
+            "lineNumber": 213,
+            "text": "- **Don't** use **chaotic personal brand** layouts: ironic clutter, random type scales, or **visual noise** that reads as **hard to work with** (per **PRODUCT.md**)."
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 213
+          },
+          "startPosition": {
+            "line": 184
+          }
+        },
+        "relativeWorkspacePath": "./docs/DESIGN.md",
+        "signatures": {}
+      },
+      "score": 0.3678135871887207
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 1,
+            "text": "---"
+          },
+          {
+            "lineNumber": 2,
+            "text": "name: JoRap Notes"
+          },
+          {
+            "lineNumber": 3,
+            "text": "description: Warm neutral editorial surface for a professional personal brand, Hugo + Tailwind."
+          },
+          {
+            "lineNumber": 4,
+            "text": "colors:"
+          },
+          {
+            "lineNumber": 5,
+            "text": "  surface: \"#f5f3f0\""
+          },
+          {
+            "lineNumber": 6,
+            "text": "  elevated: \"#eeebe6\""
+          },
+          {
+            "lineNumber": 7,
+            "text": "  accent: \"#181614\""
+          },
+          {
+            "lineNumber": 8,
+            "text": "  ink: \"#161412\""
+          },
+          {
+            "lineNumber": 9,
+            "text": "  ink-muted: \"#3d3a37\""
+          },
+          {
+            "lineNumber": 10,
+            "text": "  ink-faint: \"#6b6762\""
+          },
+          {
+            "lineNumber": 11,
+            "text": "  divider: \"#e5e2dd\""
+          },
+          {
+            "lineNumber": 12,
+            "text": "  deep: \"#121110\""
+          },
+          {
+            "lineNumber": 13,
+            "text": "typography:"
+          },
+          {
+            "lineNumber": 14,
+            "text": "  display:"
+          },
+          {
+            "lineNumber": 15,
+            "text": "    fontFamily: \"Inter, sans-serif\""
+          },
+          {
+            "lineNumber": 16,
+            "text": "    fontSize: \"3.81rem\""
+          },
+          {
+            "lineNumber": 17,
+            "text": "    fontWeight: 700"
+          },
+          {
+            "lineNumber": 18,
+            "text": "    lineHeight: 1.12"
+          },
+          {
+            "lineNumber": 19,
+            "text": "    letterSpacing: \"-0.03em\""
+          },
+          {
+            "lineNumber": 20,
+            "text": "  headline:"
+          },
+          {
+            "lineNumber": 21,
+            "text": "    fontFamily: \"Inter, sans-serif\""
+          },
+          {
+            "lineNumber": 22,
+            "text": "    fontSize: \"3.05rem\""
+          },
+          {
+            "lineNumber": 23,
+            "text": "    fontWeight: 700"
+          },
+          {
+            "lineNumber": 24,
+            "text": "    lineHeight: 1.12"
+          },
+          {
+            "lineNumber": 25,
+            "text": "    letterSpacing: \"-0.03em\""
+          },
+          {
+            "lineNumber": 26,
+            "text": "  title:"
+          },
+          {
+            "lineNumber": 27,
+            "text": "    fontFamily: \"Inter, sans-serif\""
+          },
+          {
+            "lineNumber": 28,
+            "text": "    fontSize: \"2.44rem\""
+          },
+          {
+            "lineNumber": 29,
+            "text": "    fontWeight: 600"
+          },
+          {
+            "lineNumber": 30,
+            "text": "    lineHeight: 1.25"
+          },
+          {
+            "lineNumber": 31,
+            "text": "    letterSpacing: \"-0.02em\""
+          },
+          {
+            "lineNumber": 32,
+            "text": "  body:"
+          },
+          {
+            "lineNumber": 33,
+            "text": "    fontFamily: \"Inter, sans-serif\""
+          },
+          {
+            "lineNumber": 34,
+            "text": "    fontSize: \"16px\""
+          },
+          {
+            "lineNumber": 35,
+            "text": "    fontWeight: 400"
+          },
+          {
+            "lineNumber": 36,
+            "text": "    lineHeight: 1.625"
+          },
+          {
+            "lineNumber": 37,
+            "text": "    letterSpacing: \"normal\""
+          },
+          {
+            "lineNumber": 38,
+            "text": "  label:"
+          },
+          {
+            "lineNumber": 39,
+            "text": "    fontFamily: \"Inter, sans-serif\""
+          },
+          {
+            "lineNumber": 40,
+            "text": "    fontSize: \"14px\""
+          },
+          {
+            "lineNumber": 41,
+            "text": "    fontWeight: 600"
+          },
+          {
+            "lineNumber": 42,
+            "text": "    lineHeight: 1.25"
+          },
+          {
+            "lineNumber": 43,
+            "text": "    letterSpacing: \"normal\""
+          },
+          {
+            "lineNumber": 44,
+            "text": "rounded:"
+          },
+          {
+            "lineNumber": 45,
+            "text": "  sm: \"2px\""
+          },
+          {
+            "lineNumber": 46,
+            "text": "  md: \"4px\""
+          },
+          {
+            "lineNumber": 47,
+            "text": "  lg: \"8px\""
+          },
+          {
+            "lineNumber": 48,
+            "text": "  xl: \"12px\""
+          },
+          {
+            "lineNumber": 49,
+            "text": "  \"2xl\": \"16px\""
+          },
+          {
+            "lineNumber": 50,
+            "text": "spacing:"
+          },
+          {
+            "lineNumber": 51,
+            "text": "  sm: \"8px\""
+          },
+          {
+            "lineNumber": 52,
+            "text": "  md: \"16px\""
+          },
+          {
+            "lineNumber": 53,
+            "text": "  lg: \"24px\""
+          },
+          {
+            "lineNumber": 54,
+            "text": "  xl: \"32px\""
+          },
+          {
+            "lineNumber": 55,
+            "text": "components:"
+          },
+          {
+            "lineNumber": 56,
+            "text": "  button-primary:"
+          },
+          {
+            "lineNumber": 57,
+            "text": "    backgroundColor: \"{colors.accent}\""
+          },
+          {
+            "lineNumber": 58,
+            "text": "    textColor: \"#ffffff\""
+          },
+          {
+            "lineNumber": 59,
+            "text": "    rounded: \"{rounded.md}\""
+          },
+          {
+            "lineNumber": 60,
+            "text": "    padding: \"10px 20px\""
+          },
+          {
+            "lineNumber": 61,
+            "text": "  button-primary-sm:"
+          },
+          {
+            "lineNumber": 62,
+            "text": "    backgroundColor: \"{colors.accent}\""
+          },
+          {
+            "lineNumber": 63,
+            "text": "    textColor: \"#ffffff\""
+          },
+          {
+            "lineNumber": 64,
+            "text": "    rounded: \"{rounded.sm}\""
+          },
+          {
+            "lineNumber": 65,
+            "text": "    padding: \"6px 16px\""
+          },
+          {
+            "lineNumber": 66,
+            "text": "  button-outline-primary:"
+          },
+          {
+            "lineNumber": 67,
+            "text": "    backgroundColor: \"transparent\""
+          },
+          {
+            "lineNumber": 68,
+            "text": "    textColor: \"{colors.ink}\""
+          },
+          {
+            "lineNumber": 69,
+            "text": "    rounded: \"{rounded.md}\""
+          },
+          {
+            "lineNumber": 70,
+            "text": "    padding: \"10px 20px\""
+          },
+          {
+            "lineNumber": 71,
+            "text": "  blog-card:"
+          },
+          {
+            "lineNumber": 72,
+            "text": "    backgroundColor: \"{colors.elevated}\""
+          },
+          {
+            "lineNumber": 73,
+            "text": "    textColor: \"{colors.ink-muted}\""
+          },
+          {
+            "lineNumber": 74,
+            "text": "    rounded: \"{rounded.xl}\""
+          },
+          {
+            "lineNumber": 75,
+            "text": "    padding: \"20px 24px 24px\""
+          },
+          {
+            "lineNumber": 76,
+            "text": "---"
+          },
+          {
+            "lineNumber": 77
+          },
+          {
+            "lineNumber": 78,
+            "text": "# Design System: JoRap Notes"
+          },
+          {
+            "lineNumber": 79
+          },
+          {
+            "lineNumber": 80,
+            "text": "## Overview"
+          },
+          {
+            "lineNumber": 81
+          },
+          {
+            "lineNumber": 82,
+            "text": "**Creative North Star: \"The Quiet Study\"**"
+          },
+          {
+            "lineNumber": 83
+          },
+          {
+            "lineNumber": 84,
+            "text": "This system behaves like **daylight on good paper**: warm off-white fields, charcoal ink for authority, and almost no chromatic noise. Density is **editorial**, not dashboard. The interface is there to make long reads and portfolio judgment feel **calm and legible** under real client skims (laptop, bright office, short attention)."
+          },
+          {
+            "lineNumber": 85
+          },
+          {
+            "lineNumber": 86,
+            "text": "The experience **rejects performative tech theater**: no neon accents, no interchangeable SaaS hero metrics, no visual chaos that reads as \"creator energy\" instead of **hireable clarity**. That line comes straight from **PRODUCT.md** (anti-references: performative nerd energy, generic SaaS sameness, chaotic personal brand)."
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 86
+          },
+          "startPosition": {}
+        },
+        "relativeWorkspacePath": "./docs/DESIGN.md",
+        "signatures": {}
+      },
+      "score": 0.36768850684165955
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 72,
+            "text": "    0 0 0 4px var(--color-accent);"
+          },
+          {
+            "lineNumber": 73,
+            "text": "}"
+          },
+          {
+            "lineNumber": 74
+          },
+          {
+            "lineNumber": 75,
+            "text": "/* Buttons: touch minimum at all breakpoints */"
+          },
+          {
+            "lineNumber": 76,
+            "text": ".btn-sm {"
+          },
+          {
+            "lineNumber": 77,
+            "text": "  min-height: var(--touch-target-min, 2.75rem);"
+          },
+          {
+            "lineNumber": 78,
+            "text": "}"
+          },
+          {
+            "lineNumber": 79
+          },
+          {
+            "lineNumber": 80,
+            "text": "/* Mobile/tablet nav CTA: vertically center label in touch-height button */"
+          },
+          {
+            "lineNumber": 81,
+            "text": "@media (max-width: 1023.98px) {"
+          },
+          {
+            "lineNumber": 82,
+            "text": "  .nav-item--cta {"
+          },
+          {
+            "lineNumber": 83,
+            "text": "    display: flex;"
+          },
+          {
+            "lineNumber": 84,
+            "text": "    align-items: center;"
+          },
+          {
+            "lineNumber": 85,
+            "text": "    justify-content: center;"
+          },
+          {
+            "lineNumber": 86,
+            "text": "    width: 100%;"
+          },
+          {
+            "lineNumber": 87,
+            "text": "  }"
+          },
+          {
+            "lineNumber": 88
+          },
+          {
+            "lineNumber": 89,
+            "text": "  .nav-item--cta .btn {"
+          },
+          {
+            "lineNumber": 90,
+            "text": "    display: inline-flex;"
+          },
+          {
+            "lineNumber": 91,
+            "text": "    align-items: center;"
+          },
+          {
+            "lineNumber": 92,
+            "text": "    justify-content: center;"
+          },
+          {
+            "lineNumber": 93,
+            "text": "    width: 100%;"
+          },
+          {
+            "lineNumber": 94,
+            "text": "    min-height: var(--touch-target-min, 2.75rem);"
+          },
+          {
+            "lineNumber": 95,
+            "text": "    line-height: 1.25;"
+          },
+          {
+            "lineNumber": 96,
+            "text": "  }"
+          },
+          {
+            "lineNumber": 97,
+            "text": "}"
+          },
+          {
+            "lineNumber": 98
+          },
+          {
+            "lineNumber": 99,
+            "text": "/* Target divs with inline style matching the YouTube embed container */"
+          },
+          {
+            "lineNumber": 100
+          },
+          {
+            "lineNumber": 101,
+            "text": "/* Robust selectors for YouTube embed containers (handles spacing variations) */"
+          },
+          {
+            "lineNumber": 102,
+            "text": "div[style*=\"position: relative\"][style*=\"padding-bottom:56.25%\"],"
+          },
+          {
+            "lineNumber": 103,
+            "text": "div[style*=\"position:relative\"][style*=\"padding-bottom:56.25%\"],"
+          },
+          {
+            "lineNumber": 104,
+            "text": "div[style*=\"position: relative\"][style*=\"padding-bottom: 56.25%\"],"
+          },
+          {
+            "lineNumber": 105,
+            "text": "div[style*=\"position:relative\"][style*=\"padding-bottom: 56.25%\"] {"
+          },
+          {
+            "lineNumber": 106,
+            "text": "  margin-bottom: 1.5rem;"
+          },
+          {
+            "lineNumber": 107,
+            "text": "}"
+          },
+          {
+            "lineNumber": 108
+          },
+          {
+            "lineNumber": 109,
+            "text": "/* If a class is used for YouTube embeds, add a rule here as well (uncomment and adjust as needed) */"
+          },
+          {
+            "lineNumber": 110,
+            "text": "/*"
+          },
+          {
+            "lineNumber": 111,
+            "text": ".youtube-embed {"
+          },
+          {
+            "lineNumber": 112,
+            "text": "  margin-bottom: 1.5rem;"
+          },
+          {
+            "lineNumber": 113,
+            "text": "}"
+          },
+          {
+            "lineNumber": 114,
+            "text": "*/"
+          },
+          {
+            "lineNumber": 115
+          },
+          {
+            "lineNumber": 116,
+            "text": "/* Dark mode prose: align with theme tokens instead of flat pure white."
+          },
+          {
+            "lineNumber": 117,
+            "text": " * Excludes &#96;.btn&#96; anchors so button variants keep their own text colors"
+          },
+          {
+            "lineNumber": 118,
+            "text": " * (otherwise btn-primary text was forced to a near-white token, going"
+          },
+          {
+            "lineNumber": 119,
+            "text": " * invisible against the cream accent fill in dark mode). */"
+          },
+          {
+            "lineNumber": 120,
+            "text": "html.dark .content p,"
+          },
+          {
+            "lineNumber": 121,
+            "text": "html.dark .content li,"
+          },
+          {
+            "lineNumber": 122,
+            "text": "html.dark .content ul,"
+          },
+          {
+            "lineNumber": 123,
+            "text": "html.dark .content ol,"
+          },
+          {
+            "lineNumber": 124,
+            "text": "html.dark .content td,"
+          },
+          {
+            "lineNumber": 125,
+            "text": "html.dark .content blockquote {"
+          },
+          {
+            "lineNumber": 126,
+            "text": "  color: var(--color-ink-muted) !important;"
+          },
+          {
+            "lineNumber": 127,
+            "text": "}"
+          },
+          {
+            "lineNumber": 128
+          },
+          {
+            "lineNumber": 129,
+            "text": "html.dark .content h1,"
+          },
+          {
+            "lineNumber": 130,
+            "text": "html.dark .content h2,"
+          },
+          {
+            "lineNumber": 131,
+            "text": "html.dark .content h3,"
+          },
+          {
+            "lineNumber": 132,
+            "text": "html.dark .content h4,"
+          },
+          {
+            "lineNumber": 133,
+            "text": "html.dark .content h5,"
+          },
+          {
+            "lineNumber": 134,
+            "text": "html.dark .content h6 {"
+          },
+          {
+            "lineNumber": 135,
+            "text": "  color: var(--color-ink) !important;"
+          },
+          {
+            "lineNumber": 136,
+            "text": "}"
+          },
+          {
+            "lineNumber": 137
+          },
+          {
+            "lineNumber": 138,
+            "text": "html.dark .content a:not(.btn) {"
+          },
+          {
+            "lineNumber": 139,
+            "text": "  color: var(--color-ink) !important;"
+          },
+          {
+            "lineNumber": 140,
+            "text": "}"
+          },
+          {
+            "lineNumber": 141
+          },
+          {
+            "lineNumber": 142,
+            "text": "html.dark .content a:not(.btn):hover {"
+          },
+          {
+            "lineNumber": 143,
+            "text": "  color: var(--color-accent) !important;"
+          },
+          {
+            "lineNumber": 144,
+            "text": "}"
+          },
+          {
+            "lineNumber": 145
+          },
+          {
+            "lineNumber": 146,
+            "text": "/* Tag chips inside &#96;.content&#96; opt out of the prose link colors above so"
+          },
+          {
+            "lineNumber": 147,
+            "text": " * their own hover (light text on accent fill) stays readable. */"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 147
+          },
+          "startPosition": {
+            "line": 71
+          }
+        },
+        "relativeWorkspacePath": "./assets/css/custom.css",
+        "signatures": {}
+      },
+      "score": 0.34015750885009766
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 182,
+            "text": "    ],"
+          },
+          {
+            "lineNumber": 183,
+            "text": "    \"rules\": ["
+          },
+          {
+            "lineNumber": 184,
+            "text": "      {"
+          },
+          {
+            "lineNumber": 185,
+            "text": "        \"name\": \"The One Accent Rule\","
+          },
+          {
+            "lineNumber": 186,
+            "text": "        \"body\": \"The charcoal / cream accent is the only strong contrast pair for chrome and CTAs. Do not introduce a second saturated hue for decoration.\","
+          },
+          {
+            "lineNumber": 187,
+            "text": "        \"section\": \"colors\""
+          },
+          {
+            "lineNumber": 188,
+            "text": "      },"
+          },
+          {
+            "lineNumber": 189,
+            "text": "      {"
+          },
+          {
+            "lineNumber": 190,
+            "text": "        \"name\": \"The Gray-on-Color Rule\","
+          },
+          {
+            "lineNumber": 191,
+            "text": "        \"body\": \"Do not park cool gray text on tinted surfaces; use the semantic ink steps (ink, ink-muted, ink-faint) so text always shares the warmth of the background.\","
+          },
+          {
+            "lineNumber": 192,
+            "text": "        \"section\": \"colors\""
+          },
+          {
+            "lineNumber": 193,
+            "text": "      },"
+          },
+          {
+            "lineNumber": 194,
+            "text": "      {"
+          },
+          {
+            "lineNumber": 195,
+            "text": "        \"name\": \"The Inter-Only Rule\","
+          },
+          {
+            "lineNumber": 196,
+            "text": "        \"body\": \"Do not add a second font family for \\\"personality\\\" until PRODUCT.md explicitly asks for it; hierarchy must stay on scale, weight, and tracking first.\","
+          },
+          {
+            "lineNumber": 197,
+            "text": "        \"section\": \"typography\""
+          },
+          {
+            "lineNumber": 198,
+            "text": "      },"
+          },
+          {
+            "lineNumber": 199,
+            "text": "      {"
+          },
+          {
+            "lineNumber": 200,
+            "text": "        \"name\": \"The Article Title Rule\","
+          },
+          {
+            "lineNumber": 201,
+            "text": "        \"body\": \"Blog post titles use .article-title: real h1 with a tighter ramp (text-h2-sm through text-h1) so long titles stay dignified on small screens.\","
+          },
+          {
+            "lineNumber": 202,
+            "text": "        \"section\": \"typography\""
+          },
+          {
+            "lineNumber": 203,
+            "text": "      },"
+          },
+          {
+            "lineNumber": 204,
+            "text": "      {"
+          },
+          {
+            "lineNumber": 205,
+            "text": "        \"name\": \"The Flat-by-Default Rule\","
+          },
+          {
+            "lineNumber": 206,
+            "text": "        \"body\": \"Do not stack shadow + heavy border + gradient on the same block unless one role is clearly primary; default to flat elevated surface.\","
+          },
+          {
+            "lineNumber": 207,
+            "text": "        \"section\": \"elevation\""
+          },
+          {
+            "lineNumber": 208,
+            "text": "      }"
+          },
+          {
+            "lineNumber": 209,
+            "text": "    ],"
+          },
+          {
+            "lineNumber": 210,
+            "text": "    \"dos\": ["
+          },
+          {
+            "lineNumber": 211,
+            "text": "      \"Do keep body copy inside ~65–70ch using existing .content / max-w-[70ch] patterns.\","
+          },
+          {
+            "lineNumber": 212,
+            "text": "      \"Do use semantic tokens (surface, elevated, ink, accent, divider) so light and dark stay paired.\","
+          },
+          {
+            "lineNumber": 213,
+            "text": "      \"Do use short ease-out motion (roughly 150–300ms) for hovers and shadows, and respect reduced motion for scroll behavior (already on html).\","
+          },
+          {
+            "lineNumber": 214,
+            "text": "      \"Do treat charcoal / cream inversion as the single accent story for CTAs and key navigation emphasis.\""
+          },
+          {
+            "lineNumber": 215,
+            "text": "    ],"
+          },
+          {
+            "lineNumber": 216,
+            "text": "    \"donts\": ["
+          },
+          {
+            "lineNumber": 217,
+            "text": "      \"Don't lean on performative nerd / dev-bro visuals: rainbow syntax themes in chrome, meme density, or gaming-stream layout tropes on the marketing shell (per PRODUCT.md anti-references).\","
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 217
+          },
+          "startPosition": {
+            "line": 181
+          }
+        },
+        "relativeWorkspacePath": "./docs/DESIGN.json",
+        "signatures": {}
+      },
+      "score": 0.3296545147895813
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 103,
+            "text": "### Secondary"
+          },
+          {
+            "lineNumber": 104
+          },
+          {
+            "lineNumber": 105,
+            "text": "- Not used as a separate hue. **Secondary actions** use **outline** treatments (border + transparent fill) or **muted ink** links instead of a second brand color."
+          },
+          {
+            "lineNumber": 106
+          },
+          {
+            "lineNumber": 107,
+            "text": "### Tertiary"
+          },
+          {
+            "lineNumber": 108
+          },
+          {
+            "lineNumber": 109,
+            "text": "- Omitted. The system does not introduce a third accent color."
+          },
+          {
+            "lineNumber": 110
+          },
+          {
+            "lineNumber": 111,
+            "text": "### Neutral"
+          },
+          {
+            "lineNumber": 112
+          },
+          {
+            "lineNumber": 113,
+            "text": "- **Warm Paper** (&#96;#f5f3f0&#96;): Default page background (&#96;body&#96; / &#96;surface&#96;)."
+          },
+          {
+            "lineNumber": 114,
+            "text": "- **Shell** (&#96;#eeebe6&#96;): Elevated panels, cards, inputs, blockquote backgrounds (&#96;elevated&#96; / &#96;light&#96;)."
+          },
+          {
+            "lineNumber": 115,
+            "text": "- **Strong Ink** (&#96;#161412&#96;): Headings and highest-contrast text (&#96;text-dark&#96; / semantic &#96;ink&#96;)."
+          },
+          {
+            "lineNumber": 116,
+            "text": "- **Body Ink** (&#96;#3d3a37&#96;): Paragraph and default reading color (&#96;text&#96; / &#96;ink-muted&#96;)."
+          },
+          {
+            "lineNumber": 117,
+            "text": "- **Quiet Ink** (&#96;#6b6762&#96;): Meta lines, placeholders, de-emphasized UI (&#96;text-light&#96; / &#96;ink-faint&#96;)."
+          },
+          {
+            "lineNumber": 118,
+            "text": "- **Dust Border** (&#96;#e5e2dd&#96;): Rules, card edges, table frames (&#96;border&#96; / &#96;divider&#96;)."
+          },
+          {
+            "lineNumber": 119,
+            "text": "- **Deep Ground** (&#96;#121110&#96;): Deepest dark theme backdrop and small UI anchors where the theme uses &#96;dark&#96; as a solid (for example theme switcher track)."
+          },
+          {
+            "lineNumber": 120
+          },
+          {
+            "lineNumber": 121,
+            "text": "Dark mode mirrors these roles with **&#96;darkmode-*&#96; CSS variables** (see &#96;data/theme.json&#96; and &#96;tailwind-plugin/tw-theme.js&#96;): surfaces darken, ink lightens, borders deepen, and the **accent fill inverts** so contrast ratios stay in family."
+          },
+          {
+            "lineNumber": 122
+          },
+          {
+            "lineNumber": 123,
+            "text": "### Named Rules"
+          },
+          {
+            "lineNumber": 124
+          },
+          {
+            "lineNumber": 125,
+            "text": "**The One Accent Rule.** The charcoal / cream accent is the **only** strong contrast pair for chrome and CTAs. Do not introduce a second saturated hue for decoration."
+          },
+          {
+            "lineNumber": 126
+          },
+          {
+            "lineNumber": 127,
+            "text": "**The Gray-on-Color Rule.** Do not park **cool gray** text on tinted surfaces; use the **semantic ink** steps (&#96;ink&#96;, &#96;ink-muted&#96;, &#96;ink-faint&#96;) so text always shares the **warmth of the background**."
+          },
+          {
+            "lineNumber": 128
+          },
+          {
+            "lineNumber": 129,
+            "text": "## Typography"
+          },
+          {
+            "lineNumber": 130
+          },
+          {
+            "lineNumber": 131,
+            "text": "**Display / UI Font:** Inter (with &#96;sans-serif&#96; fallback)  "
+          },
+          {
+            "lineNumber": 132,
+            "text": "**Body Font:** Inter (same stack for &#96;font-primary&#96; and &#96;font-secondary&#96; in this project)"
+          },
+          {
+            "lineNumber": 133
+          },
+          {
+            "lineNumber": 134,
+            "text": "**Character:** Neutral, contemporary, and **office-safe**. Weight and tracking do the hierarchy work; there is no editorial serif second voice in the current build."
+          },
+          {
+            "lineNumber": 135
+          },
+          {
+            "lineNumber": 136,
+            "text": "### Hierarchy"
+          },
+          {
+            "lineNumber": 137
+          },
+          {
+            "lineNumber": 138,
+            "text": "- **Display** (700, &#96;3.81rem&#96; / &#96;clamp&#96; via &#96;text-h1&#96; and breakpoints, line-height ~1.12, tight negative tracking): Reserved for **top-level marketing or page titles** when the full scale ladder applies (&#96;h1&#96; / &#96;.h1&#96;)."
+          },
+          {
+            "lineNumber": 139,
+            "text": "- **Headline** (700, &#96;3.05rem&#96; with responsive &#96;-sm&#96; variants, line-height ~1.12): Section headings (&#96;h2&#96;), large list titles."
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 139
+          },
+          "startPosition": {
+            "line": 101
+          }
+        },
+        "relativeWorkspacePath": "./docs/DESIGN.md",
+        "signatures": {}
+      },
+      "score": 0.3230586647987366
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 1,
+            "text": "{{ define \"main\" }}"
+          },
+          {
+            "lineNumber": 2,
+            "text": "  {{ partial \"page-header\" . }}"
+          },
+          {
+            "lineNumber": 3
+          },
+          {
+            "lineNumber": 4
+          },
+          {
+            "lineNumber": 5,
+            "text": "  \u003csection class=\"section-sm\"\u003e"
+          },
+          {
+            "lineNumber": 6,
+            "text": "    \u003cdiv class=\"container\"\u003e"
+          },
+          {
+            "lineNumber": 7,
+            "text": "      \u003cdiv class=\"row justify-center\"\u003e"
+          },
+          {
+            "lineNumber": 8,
+            "text": "        \u003cdiv class=\"lg:col-10\"\u003e"
+          },
+          {
+            "lineNumber": 9,
+            "text": "          \u003cdiv class=\"content\"\u003e"
+          },
+          {
+            "lineNumber": 10,
+            "text": "            {{ .Content }}"
+          },
+          {
+            "lineNumber": 11,
+            "text": "          \u003c/div\u003e"
+          },
+          {
+            "lineNumber": 12,
+            "text": "        \u003c/div\u003e"
+          },
+          {
+            "lineNumber": 13,
+            "text": "      \u003c/div\u003e"
+          },
+          {
+            "lineNumber": 14,
+            "text": "    \u003c/div\u003e"
+          },
+          {
+            "lineNumber": 15,
+            "text": "  \u003c/section\u003e"
+          },
+          {
+            "lineNumber": 16,
+            "text": "{{ end }}"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 16
+          },
+          "startPosition": {}
+        },
+        "relativeWorkspacePath": "./themes/jorap/layouts/single.html",
+        "signatures": {}
+      },
+      "score": 0.2930237650871277
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 48,
+            "text": "  @apply prose-li:text-ink-muted;"
+          },
+          {
+            "lineNumber": 49,
+            "text": "  @apply prose-table:relative prose-table:overflow-hidden prose-table:rounded-lg prose-table:before:absolute prose-table:before:left-0 prose-table:before:top-0 prose-table:before:h-full prose-table:before:w-full prose-table:before:rounded-[inherit] prose-table:before:border prose-table:before:border-divider prose-table:before:content-[\"\"];"
+          },
+          {
+            "lineNumber": 50,
+            "text": "  @apply prose-thead:border-divider prose-thead:bg-elevated;"
+          },
+          {
+            "lineNumber": 51,
+            "text": "  @apply prose-th:relative prose-th:z-10 prose-th:px-4 prose-th:py-[18px] prose-th:text-ink;"
+          },
+          {
+            "lineNumber": 52,
+            "text": "  @apply prose-tr:border-divider;"
+          },
+          {
+            "lineNumber": 53,
+            "text": "  @apply prose-td:relative prose-td:z-10 prose-td:px-3 prose-td:py-[18px] prose-td:text-ink-muted;"
+          },
+          {
+            "lineNumber": 54,
+            "text": "}"
+          },
+          {
+            "lineNumber": 55
+          },
+          {
+            "lineNumber": 56,
+            "text": "/* Buttons inside prose content: prose-a styles would otherwise force"
+          },
+          {
+            "lineNumber": 57,
+            "text": " * text-ink-muted/underline onto buttons. Re-assert each variant's own"
+          },
+          {
+            "lineNumber": 58,
+            "text": " * text colors with !important so light + dark mode stay consistent. */"
+          },
+          {
+            "lineNumber": 59,
+            "text": ".content .btn {"
+          },
+          {
+            "lineNumber": 60,
+            "text": "  @apply no-underline;"
+          },
+          {
+            "lineNumber": 61,
+            "text": "}"
+          },
+          {
+            "lineNumber": 62,
+            "text": ".content .btn-primary {"
+          },
+          {
+            "lineNumber": 63,
+            "text": "  @apply !text-on-accent hover:!text-on-accent;"
+          },
+          {
+            "lineNumber": 64,
+            "text": "}"
+          },
+          {
+            "lineNumber": 65,
+            "text": ".content .btn-outline-primary {"
+          },
+          {
+            "lineNumber": 66,
+            "text": "  @apply !text-ink hover:!text-on-accent;"
+          },
+          {
+            "lineNumber": 67,
+            "text": "}"
+          },
+          {
+            "lineNumber": 68
+          },
+          {
+            "lineNumber": 69,
+            "text": ".image--partial {"
+          },
+          {
+            "lineNumber": 70,
+            "text": "  @apply w-full rounded aspect-video object-cover;"
+          },
+          {
+            "lineNumber": 71,
+            "text": "  will-change: transform;"
+          },
+          {
+            "lineNumber": 72,
+            "text": "  content-visibility: auto;"
+          },
+          {
+            "lineNumber": 73,
+            "text": "}"
+          },
+          {
+            "lineNumber": 74
+          },
+          {
+            "lineNumber": 75,
+            "text": "/* Table of Contents styling */"
+          },
+          {
+            "lineNumber": 76,
+            "text": "#TableOfContents ol {"
+          },
+          {
+            "lineNumber": 77,
+            "text": "  @apply list-none pl-0;"
+          },
+          {
+            "lineNumber": 78,
+            "text": "}"
+          },
+          {
+            "lineNumber": 79
+          },
+          {
+            "lineNumber": 80,
+            "text": "#TableOfContents ol ol {"
+          },
+          {
+            "lineNumber": 81,
+            "text": "  @apply pl-4;"
+          },
+          {
+            "lineNumber": 82,
+            "text": "}"
+          },
+          {
+            "lineNumber": 83
+          },
+          {
+            "lineNumber": 84,
+            "text": "#TableOfContents ol ol ol {"
+          },
+          {
+            "lineNumber": 85,
+            "text": "  @apply pl-6;"
+          },
+          {
+            "lineNumber": 86,
+            "text": "}"
+          },
+          {
+            "lineNumber": 87
+          },
+          {
+            "lineNumber": 88,
+            "text": "#TableOfContents ol ol ol ol {"
+          },
+          {
+            "lineNumber": 89,
+            "text": "  @apply pl-8;"
+          },
+          {
+            "lineNumber": 90,
+            "text": "}"
+          },
+          {
+            "lineNumber": 91
+          },
+          {
+            "lineNumber": 92,
+            "text": "#TableOfContents .toc-level-3 {"
+          },
+          {
+            "lineNumber": 93,
+            "text": "  @apply pl-4;"
+          },
+          {
+            "lineNumber": 94,
+            "text": "}"
+          },
+          {
+            "lineNumber": 95
+          },
+          {
+            "lineNumber": 96,
+            "text": "#TableOfContents .toc-level-4 {"
+          },
+          {
+            "lineNumber": 97,
+            "text": "  @apply pl-6;"
+          },
+          {
+            "lineNumber": 98,
+            "text": "}"
+          },
+          {
+            "lineNumber": 99
+          },
+          {
+            "lineNumber": 100,
+            "text": "#TableOfContents .toc-level-5 {"
+          },
+          {
+            "lineNumber": 101,
+            "text": "  @apply pl-8;"
+          },
+          {
+            "lineNumber": 102,
+            "text": "}"
+          },
+          {
+            "lineNumber": 103
+          },
+          {
+            "lineNumber": 104,
+            "text": ".dark .mermaid {"
+          },
+          {
+            "lineNumber": 105,
+            "text": "  background: var(--color-elevated);"
+          },
+          {
+            "lineNumber": 106,
+            "text": "}"
+          },
+          {
+            "lineNumber": 107
+          },
+          {
+            "lineNumber": 108,
+            "text": ".dark .mermaid p {"
+          },
+          {
+            "lineNumber": 109,
+            "text": "  color: var(--color-ink);"
+          },
+          {
+            "lineNumber": 110,
+            "text": "}"
+          },
+          {
+            "lineNumber": 111
+          },
+          {
+            "lineNumber": 112,
+            "text": "code {"
+          },
+          {
+            "lineNumber": 113,
+            "text": "  padding-inline: 0 !important;"
+          },
+          {
+            "lineNumber": 114,
+            "text": "}"
+          },
+          {
+            "lineNumber": 115
+          },
+          {
+            "lineNumber": 116,
+            "text": "blockquote p {"
+          },
+          {
+            "lineNumber": 117,
+            "text": "  padding-bottom: 20px;"
+          },
+          {
+            "lineNumber": 118,
+            "text": "}"
+          },
+          {
+            "lineNumber": 119
+          },
+          {
+            "lineNumber": 120,
+            "text": "blockquote p:last-child {"
+          },
+          {
+            "lineNumber": 121,
+            "text": "  padding-bottom: 0;"
+          },
+          {
+            "lineNumber": 122,
+            "text": "}"
+          },
+          {
+            "lineNumber": 123
+          },
+          {
+            "lineNumber": 124,
+            "text": "blockquote li {"
+          },
+          {
+            "lineNumber": 125,
+            "text": "  font-size: var(--text-base);"
+          },
+          {
+            "lineNumber": 126,
+            "text": "}"
+          },
+          {
+            "lineNumber": 127
+          },
+          {
+            "lineNumber": 128,
+            "text": ".tags_section ul {"
+          },
+          {
+            "lineNumber": 129,
+            "text": "  padding-inline: 0;"
+          },
+          {
+            "lineNumber": 130,
+            "text": "  margin: 0;"
+          },
+          {
+            "lineNumber": 131,
+            "text": "}"
+          },
+          {
+            "lineNumber": 132
+          },
+          {
+            "lineNumber": 133,
+            "text": ".pagination-control {"
+          },
+          {
+            "lineNumber": 134,
+            "text": "  @apply inline-flex items-center justify-center;"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 134
+          },
+          "startPosition": {
+            "line": 47
+          }
+        },
+        "relativeWorkspacePath": "./themes/jorap/assets/css/components.css",
+        "signatures": {}
+      },
+      "score": 0.28549641370773315
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 1,
+            "text": "{{- $page := . -}}"
+          },
+          {
+            "lineNumber": 2,
+            "text": "{{- $class := site.Params.notes.wikilink_class | default \"wikilink\" -}}"
+          },
+          {
+            "lineNumber": 3
+          },
+          {
+            "lineNumber": 4,
+            "text": "{{- $raw := $page.RawContent -}}"
+          },
+          {
+            "lineNumber": 5,
+            "text": "{{- $raw = replaceRE &#96;(?s)\\n## See also[\\s\\S]*$&#96; \"\" $raw -}}"
+          },
+          {
+            "lineNumber": 6,
+            "text": "{{- $content := $page.RenderString $raw -}}"
+          },
+          {
+            "lineNumber": 7
+          },
+          {
+            "lineNumber": 8,
+            "text": "{{- /* Hide static See also sections; rendered dynamically via see-also.html */ -}}"
+          },
+          {
+            "lineNumber": 9,
+            "text": "{{- $content = replaceRE &#96;(?s)\u003ch2[^\u003e]*id=\"see-also\"[^\u003e]*\u003eSee also\u003c/h2\u003e.*$&#96; \"\" $content -}}"
+          },
+          {
+            "lineNumber": 10,
+            "text": "{{- $content = replaceRE &#96;(?s)\u003ch2[^\u003e]*\u003eSee also\u003c/h2\u003e.*$&#96; \"\" $content -}}"
+          },
+          {
+            "lineNumber": 11
+          },
+          {
+            "lineNumber": 12,
+            "text": "{{- /* Typographer may curl apostrophes inside [[wikilinks]] before we replace them */ -}}"
+          },
+          {
+            "lineNumber": 13,
+            "text": "{{- $content = replace $content \"\\u2019\" \"'\" -}}"
+          },
+          {
+            "lineNumber": 14,
+            "text": "{{- $content = replace $content \"\\u2018\" \"'\" -}}"
+          },
+          {
+            "lineNumber": 15,
+            "text": "{{- $content = replace $content \"\u0026rsquo;\" \"'\" -}}"
+          },
+          {
+            "lineNumber": 16,
+            "text": "{{- $content = replace $content \"\u0026#8217;\" \"'\" -}}"
+          },
+          {
+            "lineNumber": 17,
+            "text": "{{- $content = replace $content \"\u0026apos;\" \"'\" -}}"
+          },
+          {
+            "lineNumber": 18
+          },
+          {
+            "lineNumber": 19,
+            "text": "{{- /* Keep inline code / pre blocks literal (e.g. &#96;[[wikilinks]]&#96; in Getting Started) */ -}}"
+          },
+          {
+            "lineNumber": 20,
+            "text": "{{- $protected := slice -}}"
+          },
+          {
+            "lineNumber": 21,
+            "text": "{{- $blocks := findRE &#96;(?s)\u003c(?:code|pre)[^\u003e]*\u003e.*?\u003c/(?:code|pre)\u003e&#96; $content -}}"
+          },
+          {
+            "lineNumber": 22,
+            "text": "{{- range $i, $block := $blocks -}}"
+          },
+          {
+            "lineNumber": 23,
+            "text": "  {{- $token := printf \"WIKILINK-PROTECT-%d-END\" $i -}}"
+          },
+          {
+            "lineNumber": 24,
+            "text": "  {{- $protected = $protected | append (dict \"token\" $token \"block\" $block) -}}"
+          },
+          {
+            "lineNumber": 25,
+            "text": "  {{- $content = replace $content $block $token -}}"
+          },
+          {
+            "lineNumber": 26,
+            "text": "{{- end -}}"
+          },
+          {
+            "lineNumber": 27
+          },
+          {
+            "lineNumber": 28,
+            "text": "{{- /* Resolve each [[wikilink]] via the link registry (case-insensitive keys) */ -}}"
+          },
+          {
+            "lineNumber": 29,
+            "text": "{{- $links := findRE &#96;\\[\\[[^\\]|]+\\]\\]&#96; $content -}}"
+          },
+          {
+            "lineNumber": 30,
+            "text": "{{- $links = union $links (findRE &#96;\\[\\[[^\\]|]+#[^\\]|]+\\]\\]&#96; $content) -}}"
+          },
+          {
+            "lineNumber": 31,
+            "text": "{{- $seen := dict -}}"
+          },
+          {
+            "lineNumber": 32,
+            "text": "{{- range $links -}}"
+          },
+          {
+            "lineNumber": 33,
+            "text": "  {{- $full := . -}}"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 33
+          },
+          "startPosition": {}
+        },
+        "relativeWorkspacePath": "./layouts/_partials/notes/render-content.html",
+        "signatures": {}
+      },
+      "score": 0.2844125032424927
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 1,
+            "text": "######################## default configuration ####################"
+          },
+          {
+            "lineNumber": 2,
+            "text": "# The base URL of your site (required). This will be prepended to all relative URLs."
+          },
+          {
+            "lineNumber": 3,
+            "text": "# Override per-environment via the HUGO_BASEURL env var (Vercel/Netlify/Amplify build settings)."
+          },
+          {
+            "lineNumber": 4,
+            "text": "baseURL = \"https://www.jorap.com/\""
+          },
+          {
+            "lineNumber": 5,
+            "text": "# Title of your website (required)."
+          },
+          {
+            "lineNumber": 6,
+            "text": "title = \"JoRap Notes\""
+          },
+          {
+            "lineNumber": 7,
+            "text": "# Your theme name"
+          },
+          {
+            "lineNumber": 8,
+            "text": "theme = \"jorap\""
+          },
+          {
+            "lineNumber": 9,
+            "text": "# Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List"
+          },
+          {
+            "lineNumber": 10,
+            "text": "timeZone = \"Asia/Manila\""
+          },
+          {
+            "lineNumber": 11,
+            "text": "# post excerpt"
+          },
+          {
+            "lineNumber": 12,
+            "text": "summaryLength = 10 # see https://gohugo.io/content-management/excerpts/"
+          },
+          {
+            "lineNumber": 13,
+            "text": "# disable language"
+          },
+          {
+            "lineNumber": 14,
+            "text": "disableLanguages = ["
+          },
+          {
+            "lineNumber": 15,
+            "text": "] # example: [\"fr\"] for disable french language. see https://gohugo.io/content-management/multilingual/"
+          },
+          {
+            "lineNumber": 16,
+            "text": "hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage"
+          },
+          {
+            "lineNumber": 17,
+            "text": "# default language"
+          },
+          {
+            "lineNumber": 18,
+            "text": "defaultContentLanguage = 'en'"
+          },
+          {
+            "lineNumber": 19,
+            "text": "# defaultContentLanguageInSubdir need to be true if you want to use the language code as a subdirectory and language specific 404 page"
+          },
+          {
+            "lineNumber": 20,
+            "text": "defaultContentLanguageInSubdir = false"
+          },
+          {
+            "lineNumber": 21,
+            "text": "disableHugoGeneratorInject = true"
+          },
+          {
+            "lineNumber": 22
+          },
+          {
+            "lineNumber": 23,
+            "text": "########################### Security #############################"
+          },
+          {
+            "lineNumber": 24,
+            "text": "# resources.GetRemote inspects the Content-Type of every fetched resource"
+          },
+          {
+            "lineNumber": 25,
+            "text": "# against a default allowlist. Google Fonts serves woff/woff2 binaries from"
+          },
+          {
+            "lineNumber": 26,
+            "text": "# fonts.gstatic.com which are not in the default allowlist, so the build-"
+          },
+          {
+            "lineNumber": 27,
+            "text": "# time font self-hoster (partials/essentials/self-hosted-fonts.html) would"
+          },
+          {
+            "lineNumber": 28,
+            "text": "# fail without these entries. The regexes below are additive to the"
+          },
+          {
+            "lineNumber": 29,
+            "text": "# defaults, not a replacement."
+          },
+          {
+            "lineNumber": 30,
+            "text": "[security]"
+          },
+          {
+            "lineNumber": 31,
+            "text": "[security.http]"
+          },
+          {
+            "lineNumber": 32,
+            "text": "mediaTypes = ['^font/woff2?$', '^application/font-woff2?$']"
+          },
+          {
+            "lineNumber": 33
+          },
+          {
+            "lineNumber": 34,
+            "text": "########################### Services #############################"
+          },
+          {
+            "lineNumber": 35,
+            "text": "[services]"
+          },
+          {
+            "lineNumber": 36,
+            "text": "[services.googleAnalytics]"
+          },
+          {
+            "lineNumber": 37,
+            "text": "ID = 'G-MEASUREMENT_ID' # see https://gohugo.io/templates/internal/#configure-google-analytics"
+          },
+          {
+            "lineNumber": 38
+          },
+          {
+            "lineNumber": 39,
+            "text": "[services.disqus]"
+          },
+          {
+            "lineNumber": 40,
+            "text": "shortname = 'jorap' # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/"
+          },
+          {
+            "lineNumber": 41
+          },
+          {
+            "lineNumber": 42,
+            "text": "########################## Privacy ##############################"
+          },
+          {
+            "lineNumber": 43,
+            "text": "[privacy]"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 43
+          },
+          "startPosition": {}
+        },
+        "relativeWorkspacePath": "./hugo.toml",
+        "signatures": {}
+      },
+      "score": 0.27597999572753906
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 1,
+            "text": "---"
+          },
+          {
+            "lineNumber": 2,
+            "text": "title: \"Markdown Formatting\""
+          },
+          {
+            "lineNumber": 3,
+            "text": "meta_title: \"Markdown Formatting for Posts and Notes\""
+          },
+          {
+            "lineNumber": 4,
+            "text": "description: \"Good Markdown formatting is about scanning - headings, short paragraphs, lists. Same rules in blog posts and private notes.\""
+          },
+          {
+            "lineNumber": 5,
+            "text": "date: 2026-06-19T06:00:00Z"
+          },
+          {
+            "lineNumber": 6,
+            "text": "image: \"/images/image-template.jpg\""
+          },
+          {
+            "lineNumber": 7,
+            "text": "categories: [\"Website\", \"Technology\", \"Tutorial\"]"
+          },
+          {
+            "lineNumber": 8,
+            "text": "author: \"JoRap\""
+          },
+          {
+            "lineNumber": 9,
+            "text": "tags: [\"Markdown\", \"Formatting\", \"Readability\", \"Writing\", \"Hugo\", \"Note Taking\", \"PKM\"]"
+          },
+          {
+            "lineNumber": 10,
+            "text": "slug: \"markdown-formatting\""
+          },
+          {
+            "lineNumber": 11,
+            "text": "featured: false"
+          },
+          {
+            "lineNumber": 12,
+            "text": "draft: true"
+          },
+          {
+            "lineNumber": 13,
+            "text": "---"
+          },
+          {
+            "lineNumber": 14
+          },
+          {
+            "lineNumber": 15,
+            "text": "Markdown formatting is **structure without a WYSIWYG**. I use the same habits in Hugo posts and wiki tiddlers: break early, heading every scroll, code fences for commands."
+          },
+          {
+            "lineNumber": 16
+          },
+          {
+            "lineNumber": 17,
+            "text": "Bad formatting wastes the best ideas behind a wall of text."
+          },
+          {
+            "lineNumber": 18
+          },
+          {
+            "lineNumber": 19,
+            "text": "---"
+          },
+          {
+            "lineNumber": 20
+          },
+          {
+            "lineNumber": 21,
+            "text": "## One idea per paragraph"
+          },
+          {
+            "lineNumber": 22
+          },
+          {
+            "lineNumber": 23,
+            "text": "Three to five lines max on web. **Enter key is your friend.**"
+          },
+          {
+            "lineNumber": 24
+          },
+          {
+            "lineNumber": 25,
+            "text": "---"
+          },
+          {
+            "lineNumber": 26
+          },
+          {
+            "lineNumber": 27,
+            "text": "## Heading hierarchy"
+          },
+          {
+            "lineNumber": 28
+          },
+          {
+            "lineNumber": 29,
+            "text": "Don't skip H2 to H4. Screen readers and TOC generators care. **Logical outline = readable outline.**"
+          },
+          {
+            "lineNumber": 30
+          },
+          {
+            "lineNumber": 31,
+            "text": "---"
+          },
+          {
+            "lineNumber": 32
+          },
+          {
+            "lineNumber": 33,
+            "text": "## Tables sparingly"
+          },
+          {
+            "lineNumber": 34
+          },
+          {
+            "lineNumber": 35,
+            "text": "Comparison tables help; wide tables break mobile. **Lists often beat tables** for notes."
+          },
+          {
+            "lineNumber": 36
+          },
+          {
+            "lineNumber": 37,
+            "text": "---"
+          },
+          {
+            "lineNumber": 38
+          },
+          {
+            "lineNumber": 39,
+            "text": "## Bottom line"
+          },
+          {
+            "lineNumber": 40
+          },
+          {
+            "lineNumber": 41,
+            "text": "Markdown formatting is UX. **Format while you write**, not in a panic before publish. Future readers include you."
+          },
+          {
+            "lineNumber": 42
+          },
+          {
+            "lineNumber": 43,
+            "text": "*Idea captured from [ideas.jorap.com](https://ideas.jorap.com/).*"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 43
+          },
+          "startPosition": {}
+        },
+        "relativeWorkspacePath": "./content/english/blog/__markdown-formatting.md",
+        "signatures": {}
+      },
+      "score": 0.275238037109375
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 67,
+            "text": "      \"divider\": {"
+          },
+          {
+            "lineNumber": 68,
+            "text": "        \"role\": \"neutral\","
+          },
+          {
+            "lineNumber": 69,
+            "text": "        \"displayName\": \"Dust Border\","
+          },
+          {
+            "lineNumber": 70,
+            "text": "        \"canonical\": \"oklch(90% 0.004 80)\","
+          },
+          {
+            "lineNumber": 71,
+            "text": "        \"tonalRamp\": ["
+          },
+          {
+            "lineNumber": 72,
+            "text": "          \"oklch(25% 0.01 80)\","
+          },
+          {
+            "lineNumber": 73,
+            "text": "          \"oklch(40% 0.012 80)\","
+          },
+          {
+            "lineNumber": 74,
+            "text": "          \"oklch(55% 0.01 80)\","
+          },
+          {
+            "lineNumber": 75,
+            "text": "          \"oklch(68% 0.008 80)\","
+          },
+          {
+            "lineNumber": 76,
+            "text": "          \"oklch(78% 0.006 80)\","
+          },
+          {
+            "lineNumber": 77,
+            "text": "          \"oklch(85% 0.005 80)\","
+          },
+          {
+            "lineNumber": 78,
+            "text": "          \"oklch(88% 0.004 80)\","
+          },
+          {
+            "lineNumber": 79,
+            "text": "          \"oklch(90% 0.004 80)\""
+          },
+          {
+            "lineNumber": 80,
+            "text": "        ]"
+          },
+          {
+            "lineNumber": 81,
+            "text": "      }"
+          },
+          {
+            "lineNumber": 82,
+            "text": "    },"
+          },
+          {
+            "lineNumber": 83,
+            "text": "    \"typographyMeta\": {"
+          },
+          {
+            "lineNumber": 84,
+            "text": "      \"display\": {"
+          },
+          {
+            "lineNumber": 85,
+            "text": "        \"displayName\": \"Display\","
+          },
+          {
+            "lineNumber": 86,
+            "text": "        \"purpose\": \"Top-level page titles when the full h1 scale is used.\""
+          },
+          {
+            "lineNumber": 87,
+            "text": "      },"
+          },
+          {
+            "lineNumber": 88,
+            "text": "      \"body\": {"
+          },
+          {
+            "lineNumber": 89,
+            "text": "        \"displayName\": \"Body\","
+          },
+          {
+            "lineNumber": 90,
+            "text": "        \"purpose\": \"Default reading text; prose capped near 70ch.\""
+          },
+          {
+            "lineNumber": 91,
+            "text": "      }"
+          },
+          {
+            "lineNumber": 92,
+            "text": "    },"
+          },
+          {
+            "lineNumber": 93,
+            "text": "    \"shadows\": ["
+          },
+          {
+            "lineNumber": 94,
+            "text": "      {"
+          },
+          {
+            "lineNumber": 95,
+            "text": "        \"name\": \"card-rest\","
+          },
+          {
+            "lineNumber": 96,
+            "text": "        \"value\": \"0 1px 2px 0 rgb(0 0 0 / 0.05)\","
+          },
+          {
+            "lineNumber": 97,
+            "text": "        \"purpose\": \"Blog cards and light panels at rest (Tailwind shadow-sm).\""
+          },
+          {
+            "lineNumber": 98,
+            "text": "      },"
+          },
+          {
+            "lineNumber": 99,
+            "text": "      {"
+          },
+          {
+            "lineNumber": 100,
+            "text": "        \"name\": \"card-hover\","
+          },
+          {
+            "lineNumber": 101,
+            "text": "        \"value\": \"0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)\","
+          },
+          {
+            "lineNumber": 102,
+            "text": "        \"purpose\": \"Slightly deeper lift on interactive cards (Tailwind shadow-md).\""
+          },
+          {
+            "lineNumber": 103,
+            "text": "      },"
+          },
+          {
+            "lineNumber": 104,
+            "text": "      {"
+          },
+          {
+            "lineNumber": 105,
+            "text": "        \"name\": \"dropdown\","
+          },
+          {
+            "lineNumber": 106,
+            "text": "        \"value\": \"0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)\","
+          },
+          {
+            "lineNumber": 107,
+            "text": "        \"purpose\": \"Navigation dropdowns and floating controls (Tailwind shadow-lg).\""
+          },
+          {
+            "lineNumber": 108,
+            "text": "      }"
+          },
+          {
+            "lineNumber": 109,
+            "text": "    ],"
+          },
+          {
+            "lineNumber": 110,
+            "text": "    \"motion\": ["
+          },
+          {
+            "lineNumber": 111,
+            "text": "      {"
+          },
+          {
+            "lineNumber": 112,
+            "text": "        \"name\": \"ease-nav\","
+          },
+          {
+            "lineNumber": 113,
+            "text": "        \"value\": \"color 200ms ease-out\","
+          },
+          {
+            "lineNumber": 114,
+            "text": "        \"purpose\": \"Navigation link and dropdown color transitions.\""
+          },
+          {
+            "lineNumber": 115,
+            "text": "      },"
+          },
+          {
+            "lineNumber": 116,
+            "text": "      {"
+          },
+          {
+            "lineNumber": 117,
+            "text": "        \"name\": \"ease-card\","
+          },
+          {
+            "lineNumber": 118,
+            "text": "        \"value\": \"box-shadow 300ms ease-out, border-color 300ms ease-out\","
+          },
+          {
+            "lineNumber": 119,
+            "text": "        \"purpose\": \"Blog card hover lift.\""
+          },
+          {
+            "lineNumber": 120,
+            "text": "      },"
+          },
+          {
+            "lineNumber": 121,
+            "text": "      {"
+          },
+          {
+            "lineNumber": 122,
+            "text": "        \"name\": \"ease-standard\","
+          },
+          {
+            "lineNumber": 123,
+            "text": "        \"value\": \"cubic-bezier(0.25, 0.1, 0.25, 1)\","
+          },
+          {
+            "lineNumber": 124,
+            "text": "        \"purpose\": \"Default ease-out family for UI feedback.\""
+          },
+          {
+            "lineNumber": 125,
+            "text": "      }"
+          },
+          {
+            "lineNumber": 126,
+            "text": "    ],"
+          },
+          {
+            "lineNumber": 127,
+            "text": "    \"breakpoints\": ["
+          },
+          {
+            "lineNumber": 128,
+            "text": "      { \"name\": \"sm\", \"value\": \"640px\" },"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 128
+          },
+          "startPosition": {
+            "line": 66
+          }
+        },
+        "relativeWorkspacePath": "./docs/DESIGN.json",
+        "signatures": {}
+      },
+      "score": 0.27095869183540344
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 66,
+            "text": "          \u003c/div\u003e"
+          },
+          {
+            "lineNumber": 67,
+            "text": "          {{ end }}"
+          },
+          {
+            "lineNumber": 68
+          },
+          {
+            "lineNumber": 69,
+            "text": "          \u003cdiv class=\"content mb-10\"\u003e"
+          },
+          {
+            "lineNumber": 70,
+            "text": "            {{ .Content }}"
+          },
+          {
+            "lineNumber": 71
+          },
+          {
+            "lineNumber": 72,
+            "text": "            {{ $tags:= .Params.tags }}"
+          },
+          {
+            "lineNumber": 73,
+            "text": "            {{ if $tags }}"
+          },
+          {
+            "lineNumber": 74,
+            "text": "            \u003cdiv class=\"not-prose mb-2 tags_section\"\u003e"
+          },
+          {
+            "lineNumber": 75,
+            "text": "              \u003cp class=\"mb-2 font-semibold text-ink\"\u003e{{ T \"tags\" }}\u003c/p\u003e"
+          },
+          {
+            "lineNumber": 76,
+            "text": "              \u003cul class=\"flex flex-wrap gap-2\"\u003e"
+          },
+          {
+            "lineNumber": 77,
+            "text": "                {{ range $i,$p:= $tags }}"
+          },
+          {
+            "lineNumber": 78,
+            "text": "                \u003cli\u003e"
+          },
+          {
+            "lineNumber": 79,
+            "text": "                  \u003ca class=\"bg-elevated text-ink hover:bg-accent hover:text-surface no-underline transition-colors motion-reduce:transition-none block rounded px-3 py-1\""
+          },
+          {
+            "lineNumber": 80,
+            "text": "                    href=\"{{ &#96;tags/&#96; | relLangURL }}{{ . | urlize | lower }}/\"\u003e"
+          },
+          {
+            "lineNumber": 81,
+            "text": "                    {{ . | title }}"
+          },
+          {
+            "lineNumber": 82,
+            "text": "                  \u003c/a\u003e"
+          },
+          {
+            "lineNumber": 83,
+            "text": "                \u003c/li\u003e"
+          },
+          {
+            "lineNumber": 84,
+            "text": "                {{ end }}"
+          },
+          {
+            "lineNumber": 85,
+            "text": "              \u003c/ul\u003e"
+          },
+          {
+            "lineNumber": 86,
+            "text": "            \u003c/div\u003e"
+          },
+          {
+            "lineNumber": 87,
+            "text": "            {{ end }}"
+          },
+          {
+            "lineNumber": 88
+          },
+          {
+            "lineNumber": 89,
+            "text": "            \u003cdiv class=\"mb-2 share_section\"\u003e"
+          },
+          {
+            "lineNumber": 90,
+            "text": "              \u003cp class=\"not-prose mb-2 font-semibold text-ink\"\u003e{{ T \"share\" }}\u003c/p\u003e"
+          },
+          {
+            "lineNumber": 91,
+            "text": "              {{ partial \"components/social-share\" (dict \"Context\" . \"Class\" \"share-icons\" \"Title\" .Title \"Whatsapp\""
+          },
+          {
+            "lineNumber": 92,
+            "text": "              false \"Telegram\" false \"Pinterest\" false \"Tumblr\" false \"Vk\" false \"Reddit\" false) }}"
+          },
+          {
+            "lineNumber": 93,
+            "text": "            \u003c/div\u003e"
+          },
+          {
+            "lineNumber": 94
+          },
+          {
+            "lineNumber": 95,
+            "text": "          \u003c/div\u003e"
+          },
+          {
+            "lineNumber": 96,
+            "text": "          {{/* Comments */}}"
+          },
+          {
+            "lineNumber": 97,
+            "text": "          {{ if site.Config.Services.Disqus.Shortname }}"
+          },
+          {
+            "lineNumber": 98,
+            "text": "          \u003cdiv class=\"mt-20\"\u003e"
+          },
+          {
+            "lineNumber": 99,
+            "text": "            {{ template \"_internal/disqus.html\" . }}"
+          },
+          {
+            "lineNumber": 100,
+            "text": "          \u003c/div\u003e"
+          },
+          {
+            "lineNumber": 101,
+            "text": "          {{ end }}"
+          },
+          {
+            "lineNumber": 102,
+            "text": "        \u003c/article\u003e"
+          },
+          {
+            "lineNumber": 103,
+            "text": "      \u003c/div\u003e"
+          },
+          {
+            "lineNumber": 104,
+            "text": "      {{ if $hasToc }}"
+          },
+          {
+            "lineNumber": 105,
+            "text": "      \u003cdiv class=\"lg:col-4\"\u003e"
+          },
+          {
+            "lineNumber": 106,
+            "text": "        \u003cdiv class=\"sidebar-wrapper flex flex-col h-full\"\u003e"
+          },
+          {
+            "lineNumber": 107,
+            "text": "          {{/* Desktop TOC - hidden on mobile */}}"
+          },
+          {
+            "lineNumber": 108,
+            "text": "          \u003cdiv class=\"toc-wrapper hidden lg:block sticky top-[100px] z-10 bg-surface\"\u003e"
+          },
+          {
+            "lineNumber": 109,
+            "text": "            \u003cdiv class=\"table-of-content toc-links\"\u003e"
+          },
+          {
+            "lineNumber": 110,
+            "text": "              \u003cp class=\"mb-3 text-h5 font-semibold leading-snug tracking-tight text-ink\"\u003e{{ T \"table_of_contents\" | default \"Table of Contents\" }}\u003c/p\u003e"
+          },
+          {
+            "lineNumber": 111,
+            "text": "              \u003cdiv class=\"toc-scroll\"\u003e{{ $blogToc.html | safeHTML }}\u003c/div\u003e"
+          },
+          {
+            "lineNumber": 112,
+            "text": "            \u003c/div\u003e"
+          },
+          {
+            "lineNumber": 113,
+            "text": "          \u003c/div\u003e"
+          },
+          {
+            "lineNumber": 114,
+            "text": "        \u003c/div\u003e"
+          },
+          {
+            "lineNumber": 115,
+            "text": "      \u003c/div\u003e"
+          },
+          {
+            "lineNumber": 116,
+            "text": "      {{ end }}"
+          },
+          {
+            "lineNumber": 117,
+            "text": "    \u003c/div\u003e"
+          },
+          {
+            "lineNumber": 118
+          },
+          {
+            "lineNumber": 119,
+            "text": "    {{ partial \"blog/related-posts.html\" . }}"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 119
+          },
+          "startPosition": {
+            "line": 65
+          }
+        },
+        "relativeWorkspacePath": "./themes/jorap/layouts/blog/single.html",
+        "signatures": {}
+      },
+      "score": 0.2691904306411743
+    }
+  ]
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
+<summary>Tool use: **semantic_search_full**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.css",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css",
+  "pattern": "margin|spacing|prose|content"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css",
+  "pattern": "margin|spacing|prose|content",
+  "topFiles": [
+    {
+      "matchCount": 60,
+      "uri": "assets/css/custom.css"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 62
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Interpreting the request to standardize content spacing within the changelog-update SKILL.md.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*2026-06-22*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory",
+  "pattern": "content spacing|standardize.*spacing|spacing"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory",
+  "pattern": "content spacing|standardize.*spacing|spacing",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-22_02-39-52Z-impeccable-audit-discussion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_03-05-21Z-random-duo-and-shuffle-options.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_03-18-44Z-changelog-update-request.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-22_02-16-32Z-missing-hugo-extended-package-warning.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/components.css</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,css}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "mb-[0-9]|mt-[0-9]|py-[0-9]|prose-"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "mb-[0-9]|mt-[0-9]|py-[0-9]|prose-",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "layouts/notes/issues.html"
+    },
+    {
+      "matchCount": 6,
+      "uri": "themes/jorap/layouts/_partials/sections/testimonials.html"
+    },
+    {
+      "matchCount": 7,
+      "uri": "layouts/_partials/notes/random-unrelated-notes.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/layouts/authors/list.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/local-graph.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "themes/jorap/layouts/about/list.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "layouts/notes/backlinks.html"
+    },
+    {
+      "matchCount": 5,
+      "uri": "layouts/_partials/essentials/footer.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/status-badge.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "themes/jorap/layouts/404.en.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "themes/jorap/layouts/home.html"
+    },
+    {
+      "matchCount": 5,
+      "uri": "themes/jorap/layouts/_partials/essentials/footer.html"
+    },
+    {
+      "matchCount": 4,
+      "uri": "themes/jorap/layouts/_partials/sections/home-proof.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/assets/css/module-overrides.css"
+    },
+    {
+      "matchCount": 5,
+      "uri": "themes/jorap/layouts/_partials/sections/home-intro.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/see-also.html"
+    },
+    {
+      "matchCount": 4,
+      "uri": "themes/jorap/layouts/_partials/sections/home-writing.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/random-prompt-panel.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "themes/jorap/layouts/_partials/widgets/categories.html"
+    }
+  ],
+  "totalFiles": 26,
+  "totalMatches": 210
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Considering whether to add content spacing guidance to the changelog-update skill.
+
+The skill file shows inconsistent spacing. This likely refers to formatting CHANGELOG entries rather than site-wide CSS.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history",
+  "pattern": "content spacing|standardize.*spacing|prose.*spacing|mb-6|mb-8"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.specstory/history",
+  "pattern": "content spacing|standardize.*spacing|prose.*spacing|mb-6|mb-8",
+  "topFiles": [
+    {
+      "matchCount": 15,
+      "uri": ".specstory/history/2026-06-20_06-58-41Z-automatic-inclusion-of-jorap-notes-in-meta-titles.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": ".specstory/history/2026-06-18_17-06-01Z-impeccable-critique-discussion.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-18_09-41-14Z-categories-and-tags-page-format.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-30_15-07-53Z-heading-line-height-adjustment.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-30_15-20-47Z-website-performance-improvement-strategies.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-30_14-10-04Z-button-styling-in-dark-mode.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-05-28_03-07-49Z-three-column-page-layout.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-19_05-19-43Z-notes-image-asset.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_12-15-47Z-possible-notes-functionalities.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-21_12-48-52Z-format-consistency.md"
+    }
+  ],
+  "totalFiles": 10,
+  "totalMatches": 174
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/impeccable/SKILL.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,css}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-content|max-w-\\[70ch\\]|prose-p:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-content|max-w-\\[70ch\\]|prose-p:",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": "assets/css/custom.css"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/single.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/cards.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/review.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/assets/css/components.css"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/backlinks.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/issues.html"
+    }
+  ],
+  "totalFiles": 7,
+  "totalMatches": 12
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
 
 </details></tool-use>

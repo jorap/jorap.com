@@ -27,7 +27,6 @@ Commit prefix → section: `fix:` / `Fixes` → **Fixed**; `feat:` / `add:` → 
 - Flashcard flip respects `prefers-reduced-motion`
 - Changelog: agent skill replaces commit-time file-path hook
 
-
 ---
 
 ## 2026-06-21

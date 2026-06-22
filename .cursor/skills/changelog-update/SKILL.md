@@ -7,8 +7,42 @@ description: >
   One-shot edit to CHANGELOG.md only.
 ---
 
-Site **functionality** shipped to [jorap.com](https://jorap.com). Deploys run on
-**Cloudflare Pages** via `pnpm run deploy`.
+Site **functionality** shipped to [jorap.com](https://jorap.com). Deploys run on **Cloudflare Pages** via `pnpm run deploy`.
+
+## Format
+
+Match existing `CHANGELOG.md` spacing exactly:
+
+```
+# Changelog
+
+<intro paragraph>
+
+<category hint line>
+
+---
+
+## YYYY-MM-DD
+
+### Added
+
+- bullet
+- bullet
+
+### Changed
+
+- bullet
+
+---
+
+## YYYY-MM-DD
+```
+
+- One blank line after the intro, after the category hint, and after each `##` / `###` heading.
+- No blank lines between bullets in the same category.
+- One blank line before and after each `---` date divider.
+- Omit empty **Added** / **Changed** / **Fixed** sections.
+- Newest date first; do not leave trailing blank lines at EOF.
 
 ## Scope
 
