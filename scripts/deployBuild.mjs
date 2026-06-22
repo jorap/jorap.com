@@ -21,5 +21,7 @@ const hugoBin = ensureHugo();
 
 runNodeScript(join(__dirname, "themeGenerator.js"));
 runNodeScript(join(__dirname, "noteFileDates.js"));
-run(hugoBin, ["--gc", "--minify", "--forceSyncStatic"], { cwd: projectRoot });
+run(hugoBin, ["--gc", "--minify", "--forceSyncStatic", "--buildFuture"], {
+  cwd: projectRoot,
+});
 runNodeScript(join(__dirname, "cspHashes.mjs"));
