@@ -17,6 +17,13 @@ Commit prefix → section: `fix:` / `Fixes` → **Fixed**; `feat:` / `add:` → 
 - `package.json`
 - `scripts/installGitHooks.mjs`
 - `scripts/updateChangelog.mjs`
+- `assets/js/main.js`
+- `assets/js/notes-graph.js`
+- `data/theme.json`
+- `layouts/_partials/essentials/header.html`
+- `layouts/baseof.html`
+- `layouts/notes/review.html`
+- `themes/jorap/assets/css/generated-theme.css`
 
 
 ---
