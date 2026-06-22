@@ -28,7 +28,6 @@ Morning is capture to inbox, Sunday is empty and express, distill happens only w
 | extends | [[Capture]] | CODE and PARA in one loop starts with capture to inbox every day |
 | extends | [[CODE Method]] | Capture–Organize–Distill–Express loop in motion |
 | implements | [[Building a Second Brain]] | Carries it out in practice |
-
 ## See also
 
 - [[PARA Method]] - PARA, PKM, Productivity

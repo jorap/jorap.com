@@ -28,7 +28,6 @@ Every Sunday I calendar thirty minutes for inbox, projects, and one evergreen to
 | extends | [[Active Knowledge Curation]] | Calendar review is how curation happens on schedule, not only when you feel like it |
 | extends | [[Maintenance Window]] | Scheduled upkeep — same calendar habit |
 | implements | [[Active Knowledge Curation]] | Calendar review carries prune-and-connect curation |
-
 ## See also
 
 - [[Ask Seek Knock]] - Eternal Principles, Gospel, Prayer

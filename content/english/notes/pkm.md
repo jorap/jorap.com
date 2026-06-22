@@ -28,7 +28,6 @@ When a friend asks what PKM means I say it is how I save, sort, and actually use
 | extends | [[Getting Started]] | PKM is the plain name for the save-organize-use system getting started introduces |
 | extends | [[Personal Knowledge Management]] | Umbrella term this garden sits under |
 | implements | [[Getting Started]] | Garden rules carry PKM into how this site actually works |
-
 ## See also
 
 - [[Capture]] - Note Taking, PKM, Productivity

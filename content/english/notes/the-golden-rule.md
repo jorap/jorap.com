@@ -42,7 +42,6 @@ My thumb was on the post button with a critique that was probably true and defin
 |--------------|----------|--------|
 | contradicts | [[Love Your Enemies]] | when I only apply it to people who already treat me well |
 | extends | [[Free Grace]] | Treat others well because Christ treated you well first — not to buy heaven |
-
 ## See also
 
 - [[Love Your Neighbor]] - Commandments, Eternal Principles, Gospel

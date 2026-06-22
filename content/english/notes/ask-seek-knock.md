@@ -42,7 +42,6 @@ I checked email three times before I prayed this morning, then wondered why God 
 |--------------|----------|--------|
 | contradicts | [[Don't Worry]] | when anxiety replaces asking |
 | extends | [[Free Grace]] | Prayer is a dependent kid asking Dad, not bargaining for merit you already have |
-
 ## See also
 
 - [[Secret Devotion]] - Eternal Principles, Gospel, Sermon on the Mount

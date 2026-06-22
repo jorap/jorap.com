@@ -1,0 +1,39 @@
+---
+title: "Own the Error"
+meta_title: "Own the Error - Accountability Turns Failure Into Information"
+description: "Name the mistake, find the cause, repair the damage, and change the process that allowed it."
+date: 2026-06-22T08:00:00Z
+image: "/images/note.jpg"
+categories: ["Ideas", "Leadership", "Tips"]
+author: "JoRap"
+tags: ["Performance", "Accountability", "Integrity", "Leadership"]
+slug: "own-the-error"
+featured: false
+status: evergreen
+draft: false
+aliases: ["own your mistakes"]
+---
+**Own the error** = accountability turns failure into information.
+
+Name the mistake clearly, find what caused it, repair what broke, and change the process that let it through — not blame theater, not quiet hope it vanishes.
+
+## Example
+
+Surgeons do morbidity rounds — name the miss, fix the process, no fairy tales. I shipped the config that took staging down. Own the error was saying it in the channel, rolling back, adding a deploy check — not "the tool glitched" when I'd skipped the diff.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Forgiveness at Work]] | when public self-flagellation replaces fixing the system and moving on |
+| extends | [[Accountability]] | Clear ownership is the first repair step |
+| extends | [[Growth Mindset]] | Mistakes are data when you don't treat them as identity |
+| extends | [[Heed Every Near-Miss]] | Owning the close call before it becomes harm |
+| extends | [[Integrity When No One's Watching]] | Own it even when nobody would audit this week |
+| extends | [[Integrity]] | Honest naming when excuses would be easier |
+| extends | [[Pressure Reveals Weakness]] | Blame-shifting spikes when stakes rise |
+## See also
+
+- [[Convert Pain Into Learning]] - Failure, Growth, Performance
+- [[Heed Every Near-Miss]] - Leadership, Safety
+- [[Workplace Principles]] - Ethics, Leadership, Workplace

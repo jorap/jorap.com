@@ -44,7 +44,6 @@ I had grace clear in my head and zero change in how I treated people at home. Di
 | contradicts | [[There Is No Perfect Solution]] | when I delay following until I've fixed myself |
 | extends | [[Free Grace]] | Following is the grateful walk after faith saves — obedience doesn't buy eternal life |
 | extends | [[Repent and Believe]] | Turn and trust is where discipleship starts |
-
 ## See also
 
 - [[Take Up Your Cross]] - Discipleship, Eternal Principles, Gospel

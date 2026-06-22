@@ -45,7 +45,6 @@ A blog idea hits on the jeepney and I dump it in the inbox instead of holding it
 | extends | [[CODE Method]] | Capture → Organize → Distill → Express pipeline Forte names |
 | extends | [[PKM]] | A second brain offloads ideas so your head can think instead of hoard |
 | implements | [[PKM]] | CODE pipeline carries personal knowledge management into daily capture |
-
 ## See also
 
 - [[Analog Capture Tools]] - Capture, Note Taking, PKM

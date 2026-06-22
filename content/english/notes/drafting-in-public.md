@@ -28,7 +28,6 @@ I publish a rough notes post before every claim is polished because silence lets
 | extends | [[Digital Garden]] | Publishing rough drafts is how a garden grows in public instead of staying private |
 | extends | [[Learning in Public]] | Swyx frame — ship drafts, invite feedback |
 | implements | [[Creative Output]] | Public drafts carry express pressure into finished posts |
-
 ## See also
 
 - [[Let Your Light Shine]] - Eternal Principles, Gospel, Sermon on the Mount

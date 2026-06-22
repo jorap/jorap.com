@@ -44,7 +44,6 @@ A friend at coffee listed every good thing he'd done this month like it was his 
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when good works compound into a merit ladder I think buys heaven |
 | extends | [[Minimum Effective Dose]] | Faith is the smallest act that still buys eternal life — no merit ladder on top |
-
 ## See also
 
 - [[Minimum Effective Dose]] - Mental Models, PKM, Productivity

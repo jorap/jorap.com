@@ -42,7 +42,6 @@ I kept telling myself I'd trust Jesus once my habits looked respectable. Repent 
 |--------------|----------|--------|
 | contradicts | [[There Is No Perfect Solution]] | when I delay entry until I've fixed myself |
 | extends | [[Free Grace]] | Turn and trust is how life begins — you receive the kingdom as gift, then live under the King |
-
 ## See also
 
 - [[There Is No Perfect Solution]] - Decision Making, Mental Models, PKM

@@ -42,7 +42,6 @@ I am writing about [[Slow Productivity]] and remember a note on quarterly sprint
 | contradicts | [[PARA Method]] | when links beat sorting by owner and deadline |
 | extends | [[Atomic Notes]] | Links let atomic notes bump into each other without you memorizing every filename |
 | implements | [[Atomic Notes]] | Typed wikilinks make one-claim files usable |
-
 ## See also
 
 - [[Note Relationships]] - Linking, Meta, Note Taking

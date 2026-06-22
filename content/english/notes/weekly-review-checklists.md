@@ -42,7 +42,6 @@ Same four steps every Sunday: inbox, calendar, active projects, one ship action.
 | contradicts | [[Minimum Effective Dose]] | when the full checklist beats the smallest review that works |
 | extends | [[The Trusted Inbox]] | The weekly checklist empties the inbox first — the boring steps that keep trust alive |
 | implements | [[Periodic Knowledge Review]] | Carries it out in practice |
-
 ## See also
 
 - [[Periodic Knowledge Review]] - Habits, PKM, Weekly Review

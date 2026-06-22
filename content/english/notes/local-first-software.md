@@ -27,7 +27,6 @@ My notes live on the laptop first; git push is optional icing for the public sit
 | contradicts | [[Drafting in Public]] | when private-first truth beats publishing before I'm ready |
 | extends | [[CRDT]] | Sync-without-server tech local-first apps use |
 | extends | [[PKM]] | Your device holds the truth and sync is icing — that's how a brain backup should behave |
-
 ## See also
 
 - [[Anti-Fragile Systems]] - Local First, Note Taking, PKM

@@ -27,7 +27,6 @@ All my notes live as markdown in git; if Hugo disappeared tomorrow I would still
 | contradicts | [[Building a Personal API]] | when plain exports beat automation-ready structure |
 | extends | [[Local-first Software]] | Local-first plain files are how you future-proof before an app shuts down |
 | extends | [[Plain Text Files]] | Boring format that survives app churn |
-
 ## See also
 
 - [[Getting Started]] - Hugo, Note Taking, PKM

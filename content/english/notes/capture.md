@@ -45,7 +45,6 @@ Mid-commute I get a sentence for a post and voice-memo it before the station noi
 | extends | [[Frictionless Capture]] | Zero-friction inbox is the habit this note assumes |
 | extends | [[PKM]] | Capture is the first PKM move — save what hits you into one inbox |
 | implements | [[The Trusted Inbox]] | One inbox habit carries capture into something you'll empty |
-
 ## See also
 
 - [[Analog Capture Tools]] - Capture, Note Taking, PKM

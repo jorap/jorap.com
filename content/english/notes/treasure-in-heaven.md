@@ -42,7 +42,6 @@ I looked at my wallet and my calendar last night and both were full of stuff tha
 |--------------|----------|--------|
 | contradicts | [[The Collector's Fallacy]] | when I hoard earth and call it wisdom |
 | extends | [[Free Grace]] | Grace secured heaven; treasure names what you store after — not the entry fee |
-
 ## See also
 
 - [[The Collector's Fallacy]] - Capture, Learning, PKM

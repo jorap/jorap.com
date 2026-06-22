@@ -26,9 +26,8 @@ I spent a week debugging an integration and almost moved on because documenting 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[The Collector's Fallacy]] | when I hoard knowledge without teaching or shipping |
-| extends | [[Great Commission]] | Make disciples — here, make the team capable, not dependent |
 | extends | [[Creative Output]] | Inventory means nothing until it leaves your head |
-
+| extends | [[Great Commission]] | Make disciples — here, make the team capable, not dependent |
 ## See also
 
 - [[Workplace Principles]] - Leadership, Eternal Principles, Workplace

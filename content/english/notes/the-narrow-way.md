@@ -42,7 +42,6 @@ Everyone around me was taking the easy road on something I know Jesus said no to
 |--------------|----------|--------|
 | contradicts | [[The Golden Rule]] | when I take the comfortable path because everyone else does |
 | extends | [[Free Grace]] | The narrow gate is Christ by faith, not the broad road of works that buys nothing |
-
 ## See also
 
 - [[Seek the Kingdom First]] - Eternal Principles, Gospel, Priorities

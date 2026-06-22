@@ -24,7 +24,6 @@ Public when `draft: false`; hidden while `draft: true`. Each note opens with a d
 |--------------|----------|--------|
 | contradicts | [[Maps of Content]] | when jumping into a hub beats reading onboarding first |
 | extends | [[Note Relationships]] | Getting started teaches the garden rules that note relationships formalize with typed links |
-
 ## Atomic rule
 
 **One note = one claim** I'd cite in conversation. Optional **## Example** (one concrete scene) when the claim needs it; required **## Note Relationships** table (extends + contradicts at minimum, sorted by type). No other `##` sections — link out instead. See [[Atomic Notes]] and [[Note Relationships]].

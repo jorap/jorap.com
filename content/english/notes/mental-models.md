@@ -23,6 +23,7 @@ Mental models are shortcuts for thinking. I keep a short list of ones that survi
 - [[Minimum Effective Dose]]
 - [[Minimum Viable Product]]
 - [[First Principles Thinking]]
+- [[Second-Order Thinking]]
 - [[Sunk Cost Fallacy]]
 - [[There Is No Perfect Solution]]
 
@@ -31,4 +32,6 @@ Mental models are shortcuts for thinking. I keep a short list of ones that survi
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[There Is No Perfect Solution]] | when a model lens beats treating every tradeoff as equal |
+| extends | [[PKM]] | Thinking shortcuts this hub keeps when they survive real decisions |
+| extends | [[PKM]] | Thinking shortcuts this hub keeps when they survive real decisions |
 | extends | [[PKM]] | Thinking shortcuts this hub keeps when they survive real decisions |

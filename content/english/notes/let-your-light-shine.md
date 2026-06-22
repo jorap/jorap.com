@@ -42,7 +42,6 @@ I helped a neighbor move furniture and almost posted about it before I remembere
 |--------------|----------|--------|
 | contradicts | [[The Garage Concept]] | when I hide good works out of false modesty |
 | extends | [[Free Grace]] | Good works shine so God gets credit for grace at work, not so you build a brand |
-
 ## See also
 
 - [[Drafting in Public]] - Digital Garden, PKM, Publishing

@@ -42,7 +42,6 @@ I've heard the Sermon on the Mount preached a dozen times and still gossiped on 
 |--------------|----------|--------|
 | contradicts | [[The Narrow Way]] | when I claim Jesus without living his words |
 | extends | [[Free Grace]] | Faith saves you, but hearing Jesus without doing is the fool's house on sand |
-
 ## See also
 
 - [[Creative Output]] - Express, PKM, Publishing

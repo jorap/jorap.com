@@ -27,7 +27,6 @@ I use a handful of tags and one status field, not a taxonomy I have to maintain 
 | contradicts | [[Building a Personal API]] | when light tags beat automation-ready frontmatter |
 | extends | [[PARA Method]] | Tags and aliases help you find notes inside PARA buckets without taxonomy hell |
 | extends | [[Taxonomy]] | Tag-and-category design this note sizes |
-
 ## See also
 
 - [[Evergreen Notes]] - Documentation, Note Taking, PKM

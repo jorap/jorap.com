@@ -27,7 +27,6 @@ The phone dies mid-sermon and the pocket notebook still works. I scribble Philip
 | contradicts | [[Digital Minimalism]] | when paper wins over fewer digital pipes |
 | extends | [[Capture]] | Paper wins when your phone dies or you're stuck in a meeting |
 | extends | [[Commonplace Book]] | Historical paper capture habit — same low-friction lane |
-
 ## See also
 
 - [[Eternal Principles]] - Eternal Principles, Faith, Gospel

@@ -42,7 +42,6 @@ The neighbor I'd rather avoid lives two doors down and his trash bins are always
 |--------------|----------|--------|
 | contradicts | [[Love Your Enemies]] | only when I limit "neighbor" to people I already like |
 | extends | [[Free Grace]] | Grace frees you to love neighbors without keeping score for salvation |
-
 ## See also
 
 - [[The Golden Rule]] - Eternal Principles, Gospel, Sermon on the Mount

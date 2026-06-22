@@ -28,7 +28,6 @@ Friday I turn three inbox sparks into one published post, even if the prose is r
 | extends | [[Building a Second Brain]] | Offloaded notes exist to express ideas, not just store inventory |
 | extends | [[Ship It]] | Finish-and-publish pressure this note defends |
 | implements | [[Building a Second Brain]] | Express lane carries CODE's output step |
-
 ## See also
 
 - [[The Wise Builder]] - Eternal Principles, Gospel, Sermon on the Mount

@@ -42,7 +42,6 @@ Sunday worship felt high but I hadn't opened my Bible since last week. Loving Go
 |--------------|----------|--------|
 | contradicts | [[Don't Worry]] | when worry replaces trust |
 | extends | [[Free Grace]] | Love flows from grace already received, not payment offered for eternal life |
-
 ## See also
 
 - [[Love Your Neighbor]] - Commandments, Eternal Principles, Gospel

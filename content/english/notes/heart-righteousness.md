@@ -42,7 +42,6 @@ Some guy cut me off on the EDSA commute and I smiled through it, then nursed the
 |--------------|----------|--------|
 | contradicts | [[Let Your Light Shine]] | when I polish the outside while nursing anger inside |
 | extends | [[Judge Not]] | God cares about inner motive, not the hypocritical judging judge not forbids |
-
 ## See also
 
 - [[Judge Not]] - Eternal Principles, Gospel, Sermon on the Mount

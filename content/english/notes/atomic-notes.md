@@ -46,7 +46,6 @@ Small notes stack like Lego blocks - claim, how-to, example - linked, not merged
 | contradicts | [[Maps of Content]] | when I bury claims inside a hub instead of one file per idea |
 | extends | [[PKM]] | One-claim notes are the Lego blocks PKM stacks and links |
 | implements | [[PKM]] | One-claim files are the Lego blocks PKM stacks |
-
 ## See also
 
 - [[Let Your Yes Be Yes]] - Eternal Principles, Gospel, Sermon on the Mount

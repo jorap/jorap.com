@@ -28,7 +28,6 @@ This site is where notes grow in public, typos and dated takes included. I updat
 | extends | [[Evergreen Notes]] | Evergreen notes go public so they keep growing instead of rotting in a folder |
 | extends | [[Work in Progress]] | Public drafts and visible growth — garden ethos |
 | implements | [[Evergreen Notes]] | Public garden carries durable notes into visible growth |
-
 ## See also
 
 - [[Getting Started]] - Digital Garden, Hugo, PKM

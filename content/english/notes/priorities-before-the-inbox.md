@@ -28,7 +28,6 @@ Tuesday at 7am my Slack was on fire and the quarterly doc was still blank. Prior
 | contradicts | [[Signal vs Noise]] | when I treat every ping as top priority |
 | extends | [[Seek the Kingdom First]] | God's reign first — here, the real deliverable before the noise |
 | extends | [[Signal vs Noise]] | Filter what gets the week — same move with calendar instead of capture |
-
 ## See also
 
 - [[Workplace Principles]] - Productivity, Eternal Principles, Workplace

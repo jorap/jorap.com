@@ -30,7 +30,6 @@ I sat on a half-written post about notes tooling for three months because the sc
 | extends | [[Creative Output]] | Ship the smallest version that tests the idea instead of polishing a fantasy in private |
 | extends | [[Lean Startup]] | Ship-to-learn loop Ries named |
 | implements | [[Creative Output]] | Rough ship carries express when polish would miss the window |
-
 ## See also
 
 - [[Low Hanging Fruit]] - Decision Making, Mental Models, PKM

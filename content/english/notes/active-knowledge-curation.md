@@ -28,7 +28,6 @@ On the first Sunday of the month I open the notes folder and delete anything I w
 | extends | [[Building a Second Brain]] | Offloaded notes only work when you revisit and prune, not just save links |
 | extends | [[Gardening Metaphor]] | Prune and tend — same curator job |
 | implements | [[Periodic Knowledge Review]] | Monthly prune carries the review habit this note names |
-
 ## See also
 
 - [[Associative Linking]] - Note Taking, PKM, Second Brain

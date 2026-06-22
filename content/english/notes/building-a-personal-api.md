@@ -27,7 +27,6 @@ An agent reads my Hugo frontmatter and knows which notes have flashcards without
 | contradicts | [[Digital Minimalism]] | when structured context beats fewer moving parts |
 | extends | [[Metadata Strategy]] | Consistent frontmatter turns your notes into something tools can read without you re-explaining |
 | extends | [[Webhooks]] | Push events out — API glue this note imagines |
-
 ## See also
 
 - [[Building a Second Brain]] - Knowledge Management, PKM, Second Brain

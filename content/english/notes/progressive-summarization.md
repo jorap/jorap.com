@@ -30,7 +30,6 @@ I open a saved article for the second time and bold three sentences, then highli
 | extends | [[Building a Second Brain]] | Bold-then-highlight distillation is CODE's distill step |
 | extends | [[Layered Reading]] | Bold/highlight layers before rewrite — same distill move |
 | implements | [[Building a Second Brain]] | Highlight layers carry CODE's distill step |
-
 ## See also
 
 - [[Evergreen Notes]] - Note Taking, PKM, Writing

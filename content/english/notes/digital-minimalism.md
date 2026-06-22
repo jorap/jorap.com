@@ -27,7 +27,6 @@ I dropped two sync apps and one read-later pile last year and PKM got easier, no
 | contradicts | [[Digital Serendipity]] | when fewer pipes beat building for accidental rediscovery |
 | extends | [[Attention Economy]] | What Newport is pushing back on |
 | extends | [[Minimum Effective Dose]] | Cut apps and notifications until you hit the smallest setup that still works |
-
 ## See also
 
 - [[Treasure in Heaven]] - Eternal Principles, Gospel, Priorities

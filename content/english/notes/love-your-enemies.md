@@ -43,7 +43,6 @@ Someone slandered me in a group chat and my thumb hovered over a reply that woul
 | alternative | [[Turn the Other Cheek]] | Enemy-love vs non-retaliation when the moment is personal insult |
 | contradicts | [[The Golden Rule]] | when I wait for fair treatment before I act |
 | extends | [[Free Grace]] | You love enemies because God loved you first with free grace toward the unjust |
-
 ## See also
 
 - [[Forgiveness]] - Eternal Principles, Gospel, Sermon on the Mount

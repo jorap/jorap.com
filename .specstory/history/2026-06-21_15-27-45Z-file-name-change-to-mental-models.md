@@ -8717,7 +8717,7 @@ Body sections (`## Example`, `## Note Relationships`, etc.) still come from mark
 | Section | Why it's not in TOC yet |
 |---|---|
 | **See also** | Tag-based related notes — renders on most pages between outgoing links and backlinks, but wasn't on your list |
-| **Interactive graph** | Local graph at the top of the note — no `h2`, just a labeled panel |
+| **Interactive Graph** | Local graph at the top of the note — no `h2`, just a labeled panel |
 
 **Probably skip for TOC:** note issues panel (lint/dev UI), toolbar, tags/meta, local graph controls.
 

@@ -27,8 +27,8 @@ I could have marked a ticket done after a quick patch that would fail on edge ca
 |--------------|----------|--------|
 | alternative | [[Let Your Light Shine]] | Hidden quality vs visible good works when the audience differs |
 | contradicts | [[Drafting in Public]] | when every act of work becomes content for applause |
+| extends | [[Integrity]] | General integrity claim — this note is the workplace lane |
 | extends | [[Secret Devotion]] | Devotion for God's eyes alone — here, honest craft without an audience |
-
 ## See also
 
 - [[Workplace Principles]] - Ethics, Eternal Principles, Workplace

@@ -42,7 +42,6 @@ Tuesday at 7am my inbox was screaming and my Bible was still closed on the desk.
 |--------------|----------|--------|
 | contradicts | [[Signal vs Noise]] | when I treat every demand as kingdom-level priority |
 | extends | [[Free Grace]] | Put God's rule first because grace already secured where you spend forever |
-
 ## See also
 
 - [[Signal vs Noise]] - Capture, PKM, Productivity

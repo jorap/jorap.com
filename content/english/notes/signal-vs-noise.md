@@ -42,7 +42,6 @@ My thumb hovers over save and I ask if this changes what I will do this month. I
 | contradicts | [[Capture]] | when I save first and filter later |
 | extends | [[Capture]] | Capture fails without a filter — save signal that changes action, skip the noise |
 | extends | [[Information Diet]] | What you let in — filter frame next to capture |
-
 ## See also
 
 - [[Seek the Kingdom First]] - Eternal Principles, Gospel, Priorities

@@ -43,7 +43,6 @@ Two friends were feuding and both wanted me to pick a side over dinner. I didn't
 | alternative | [[Love Your Enemies]] | Make peace vs love enemies when the job is ending the fight |
 | contradicts | [[Love Your Enemies]] | when I confuse peace with never confronting wrong |
 | extends | [[Free Grace]] | Peacemaking mirrors the Father who reconciled you by grace before you reconciled with anyone |
-
 ## See also
 
 - [[Reconciliation Before Worship]] - Eternal Principles, Gospel, Sermon on the Mount

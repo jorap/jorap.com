@@ -28,7 +28,6 @@ I kept mentally scoring a coworker who embarrassed me in a retro six months ago.
 | contradicts | [[Sunk Cost Fallacy]] | when I treat old hurt as debt I'm owed forever |
 | extends | [[Forgiveness]] | Release the debt — same move without religious vocabulary |
 | extends | [[Sunk Cost Fallacy]] | Stop counting past hurt as reason to stay angry |
-
 ## See also
 
 - [[Workplace Principles]] - Ethics, Eternal Principles, Workplace

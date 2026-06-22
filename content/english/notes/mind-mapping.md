@@ -28,7 +28,6 @@ I sketch a messy bubble map on paper before a series of blog posts, then split e
 | extends | [[Creative Output]] | Mind maps are the messy first pass before creative output becomes atomic notes |
 | extends | [[Tony Buzan]] | Named mind-map method this note contrasts with atoms |
 | implements | [[Creative Output]] | Visual brainstorm carries express before atoms split |
-
 ## See also
 
 - [[Active Knowledge Curation]] - Note Taking, PKM

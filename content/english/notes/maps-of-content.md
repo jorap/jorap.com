@@ -97,7 +97,6 @@ status: evergreen
 | extends | [[Active Knowledge Curation]] | MOCs are hand-built hubs that curate what you actually care about after you prune |
 | extends | [[Table of Contents]] | Hand-written TOC — what a MOC is at heart |
 | implements | [[Active Knowledge Curation]] | Hand-built hub carries curator work into one doorway |
-
 ## See also
 
 - [[Getting Started]]

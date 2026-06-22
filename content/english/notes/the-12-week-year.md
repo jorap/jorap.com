@@ -27,7 +27,6 @@ I'd been treating January goals like they had all year to breathe - by March not
 | contradicts | [[Slow Productivity]] | when quarterly intensity beats fewer deeper projects |
 | extends | [[Periodic Knowledge Review]] | Twelve-week arcs compress goals into review quarters you actually feel |
 | extends | [[Quarterly Planning]] | Sprint scoreboard rhythm this method compresses |
-
 ## See also
 
 - [[Analog Capture Tools]] - PKM, Productivity

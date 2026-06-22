@@ -43,7 +43,6 @@ My notes garden is full and my mouth stays quiet at work when someone asks what 
 | contradicts | [[The Collector's Fallacy]] | when I hoard truth without sharing it |
 | extends | [[Discipleship]] | Make disciples — umbrella this note carries out |
 | extends | [[Repent and Believe]] | Mission flows from believing the gospel — you teach obedience after faith, not to buy salvation |
-
 ## See also
 
 - [[The Wise Builder]] - Eternal Principles, Gospel, Sermon on the Mount

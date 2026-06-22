@@ -1,0 +1,33 @@
+---
+title: "Recovery"
+meta_title: "Recovery - Refill Before the Next Hard Push"
+description: "Recovery is sleep, rest, and downtime that refill judgment — not laziness, maintenance."
+date: 2026-06-22T08:00:00Z
+image: "/images/note.jpg"
+categories: ["Ideas", "Tips"]
+author: "JoRap"
+tags: ["Health", "Performance", "Habits"]
+slug: "recovery"
+featured: false
+status: evergreen
+draft: false
+aliases: []
+---
+**Recovery** = the sleep, rest, and downtime that refill what hard work drains — judgment, patience, attention.
+
+## Example
+
+Elite athletes schedule rest days — not because they're soft, because muscle rebuilds off the field. Three late nights made my code reviews cruel. Recovery was stopping at ten instead of a fourth heroic hour that would've hurt the team.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Finish Strong]] | when rest becomes an excuse to leave the boring tail of the job open |
+| extends | [[Energy Protects Judgment]] | Recovery protects the quality of calls |
+| extends | [[Minimum Effective Dose]] | Enough work, then stop — past the dose is noise |
+| extends | [[Slow Productivity]] | Pace that includes recovery beats heroic sprints |
+## See also
+
+- [[Energy Protects Judgment]] - Decision Making, Performance
+- [[Sustainable Performance]] - Health, Performance

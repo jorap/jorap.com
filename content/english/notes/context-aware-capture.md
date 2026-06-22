@@ -26,7 +26,6 @@ I save a link and add two words: budget post, March. Six weeks later that line i
 | contradicts | [[Metadata Strategy]] | when inline why beats formal metadata fields |
 | extends | [[Capture]] | Capture the why while it's obvious or the link is a mystery six weeks later |
 | extends | [[Voice Memos]] | Capture in context — phone mic is the obvious tool |
-
 ## See also
 
 - [[Building a Second Brain]] - Capture, Note Taking, PKM

@@ -26,9 +26,8 @@ I had a solid deck for our quarterly review but my teammate was still cold from 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[The Golden Rule at Work]] | when I want fair treatment but won't initiate repair |
-| extends | [[Reconciliation Before Worship]] | Relationship before ceremony — here, before the review or demo |
 | extends | [[Note Relationships]] | Broken links between people need face-to-face repair like broken wikilinks |
-
+| extends | [[Reconciliation Before Worship]] | Relationship before ceremony — here, before the review or demo |
 ## See also
 
 - [[Workplace Principles]] - Ethics, Eternal Principles, Workplace

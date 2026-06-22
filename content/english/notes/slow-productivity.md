@@ -27,7 +27,7 @@ I cut active projects from six to three last quarter and finally shipped two pos
 | contradicts | [[The 12 Week Year]] | when fewer deep projects beat quarterly sprints |
 | extends | [[Creative Output]] | Fewer active projects turn notes into finished output instead of endless backlog |
 | extends | [[Deep Work]] | Fewer deep projects — Newport's focus frame nearby |
-
+| extends | [[Energy Protects Judgment]] | Fewer deep projects protect the energy budget |
 ## See also
 
 - [[Don't Worry]] - Eternal Principles, Gospel, Sermon on the Mount

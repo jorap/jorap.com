@@ -42,7 +42,6 @@ I told a client I'd have it done "God willing, absolutely, cross my heart" when 
 |--------------|----------|--------|
 | contradicts | [[Drafting in Public]] | when public words outrun private honesty |
 | extends | [[Love Your Neighbor]] | Plain yes-or-no speech is how you treat neighbors with integrity, not padded oaths |
-
 ## See also
 
 - [[Atomic Notes]] - Note Taking, PKM, Writing

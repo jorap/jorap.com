@@ -26,8 +26,8 @@ I tried rebuilding my whole capture system in Notion before I'd stuck with one i
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when enough-to-work beats stacking past the dose |
+| extends | [[Develop, Don't Endanger]] | Smallest challenge that still develops the skill — not maximal suffering as the dose |
 | extends | [[Pareto Principle]] | Find the smallest change that still moves the needle — the slice of effort that earns most results |
-
 ## See also
 
 - [[Free Grace]] - Eternal Principles, Faith, Gospel

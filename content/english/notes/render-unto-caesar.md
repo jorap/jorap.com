@@ -42,7 +42,6 @@ The tax bill landed and part of me wanted to treat paying it like betraying the 
 |--------------|----------|--------|
 | contradicts | [[Treasure in Heaven]] | when I treat the state as ultimate lord |
 | extends | [[Seek the Kingdom First]] | Kingdom first doesn't excuse dodging civic duty — give Caesar his coin, God yourself |
-
 ## See also
 
 - [[Seek the Kingdom First]] - Eternal Principles, Gospel, Priorities

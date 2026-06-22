@@ -28,7 +28,6 @@ I kept paying for a capture app I'd stopped opening because I'd spent a weekend 
 | contradicts | [[Forgiveness]] | when I keep collecting on a grudge I should release |
 | extends | [[Behavioral Economics]] | Bias cluster this fallacy belongs to |
 | extends | [[There Is No Perfect Solution]] | Past effort is gone — ask if you'd start this today, same as dropping a bad plan for perfect |
-
 ## See also
 
 - [[Turn the Other Cheek]] - Eternal Principles, Gospel, Sermon on the Mount

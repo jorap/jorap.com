@@ -48,11 +48,8 @@ I'm filing a new note on weekly review and add `| extends | [[Periodic Knowledge
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | alternative | [[PARA Method]] | Body link types vs folder sort when typed links beat project buckets |
-| contradicts | [[PARA Method]] | when typed body links beat sorting by project folder |
-| extends | [[Associative Linking]] | Typed relationships name how links extend, contradict, and repair — beyond vague wikilinks |
 | extends | [[Link Typing]] | Generic PKM term for what this page formalizes |
 | implements | [[Associative Linking]] | Typed rows carry vague wikilinks into named push and pull |
-
 ## See also
 
 - [[Reconciliation Before Worship]] - Eternal Principles, Gospel, Sermon on the Mount

@@ -42,7 +42,6 @@ Someone insulted me in a meeting and I spent the commute drafting the perfect co
 |--------------|----------|--------|
 | contradicts | [[The Golden Rule]] | when I wait to hit back before acting well |
 | extends | [[Love Your Enemies]] | Break the retaliation cycle — refuse to become what hurt you, further than enemy-love alone |
-
 ## See also
 
 - [[Sunk Cost Fallacy]] - Decision Making, Mental Models, PKM

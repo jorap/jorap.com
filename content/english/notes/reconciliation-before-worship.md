@@ -42,7 +42,6 @@ I walked into church ready to sing while my brother still had something against 
 |--------------|----------|--------|
 | contradicts | [[Love God]] | when I prioritize ceremony over the neighbor I've wronged |
 | extends | [[Free Grace]] | Fellowship gets repaired before worship; grace already settled your standing with God |
-
 ## See also
 
 - [[Note Relationships]] - Linking, Note Taking, PKM

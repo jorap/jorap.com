@@ -25,10 +25,10 @@ We almost bought a tool because the demo was gorgeous. I asked three teams who'd
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
+| contradicts | [[Life Before Achievement]] | when judging by results would excuse lethal methods that "worked" |
 | contradicts | [[Signal vs Noise]] | when I can't tell a slick pitch from real signal |
 | extends | [[By Their Fruits]] | Discern teaching and leaders by outcome, not charisma |
 | extends | [[Signal vs Noise]] | What produces good over time — same filter in the office |
-
 ## See also
 
 - [[Workplace Principles]] - Ethics, Eternal Principles, Workplace

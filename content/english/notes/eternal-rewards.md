@@ -42,7 +42,6 @@ I prayed for twenty minutes alone this morning and immediately wanted to mention
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when I treat stacked good works as currency that bought eternal life |
 | extends | [[Free Grace]] | Grace gets you in; rewards are what God pays for faithful living after |
-
 ## See also
 
 - [[Treasure in Heaven]] - Eternal Principles, Gospel, Priorities

@@ -45,7 +45,6 @@ I rewrite a note when Hugo changes how I work, not when Twitter gets excited abo
 | extends | [[Atomic Notes]] | Atomic notes become evergreens when one claim is phrased to last for years |
 | extends | [[Permanent Notes]] | Ahrens-style durable phrasing this note targets |
 | implements | [[Atomic Notes]] | Durable phrasing carries one-claim atoms into reuse |
-
 ## See also
 
 - [[Atomic Notes]] - Note Taking, PKM, Second Brain

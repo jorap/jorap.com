@@ -28,7 +28,6 @@ I have linked notes for three years and the graph finally feels dense instead of
 | contradicts | [[Pareto Principle]] | when boring repetition beats protecting only the vital few |
 | extends | [[Habit Stacking]] | Small repeats that stack — same compounding mechanic |
 | extends | [[Process Over Outcomes]] | Small gains stack when you repeat the process, not when you chase one heroic week |
-
 ## See also
 
 - [[Mental Models]] - Learning, Mental Models, PKM

@@ -42,7 +42,6 @@ Last month I bookmarked a preacher who talks smooth and looks holy on stage. Six
 |--------------|----------|--------|
 | contradicts | [[Signal vs Noise]] | when I can't tell fruit from hype |
 | extends | [[Judge Not]] | You can't condemn souls, but you can judge fruit without breaking judge not |
-
 ## See also
 
 - [[Judge Not]] - Eternal Principles, Gospel, Sermon on the Mount

@@ -37,6 +37,19 @@ Each note below is one claim I'd say in a standup or a 1:1 - plain language, mee
 - [[Share What You Learn]] - pass on what you know; don't hoard knowledge like private bookmarks
 - [[Integrity When No One's Watching]] - do the honest work when there's no audience in the room
 
+## Safety and duty of care
+
+- [[Eliminate Before Managing]] - remove the hazard before stacking procedures on top of it
+- [[Develop, Don't Endanger]] - challenge people without disproportionate risk
+- [[Heed Every Near-Miss]] - a rescue is a warning, not proof the system is safe
+- [[Life Before Achievement]] - no goal justifies avoidable risk of death
+
+## Performance under pressure
+
+- [[Pressure Reveals Weakness]] - build habits and systems that work when heat rises
+- [[Finish Strong]] - close the commitment, not only the exciting start
+- [[Own the Error]] - name the miss and fix the process
+
 ## Source map
 
 | Workplace note | Gospel source |
@@ -56,9 +69,10 @@ Each note below is one claim I'd say in a standup or a 1:1 - plain language, mee
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| extends | [[Eternal Principles]] | Workplace versions carry the same ethics into language that fits corporate rooms |
 | alternative | [[Maps of Content]] | Hand-built workplace hub vs full faith MOC when the audience isn't the gospel cluster |
-
+| extends | [[Eliminate Before Managing]] | Safety principles in plain office language — same duty-of-care lane |
+| extends | [[Eternal Principles]] | Workplace versions carry the same ethics into language that fits corporate rooms |
+| extends | [[Life Before Achievement]] | Non-negotiable human safety translated for teams that won't open a safety manual |
 ## See also
 
 - [[Eternal Principles]] - Eternal Principles, Faith, Gospel

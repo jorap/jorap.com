@@ -53,7 +53,6 @@ I had a good week at work and caught myself feeling spiritually self-sufficient,
 |--------------|----------|--------|
 | contradicts | [[Humility and Service]] | when pride masquerades as strength |
 | extends | [[Free Grace]] | The kingdom belongs to the spiritually needy who receive it as gift, not wage |
-
 ## See also
 
 - [[Peacemakers]] - Beatitudes, Eternal Principles, Gospel

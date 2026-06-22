@@ -44,7 +44,6 @@ I served at church on Sunday and came home expecting my family to serve me back.
 | contradicts | [[Let Your Light Shine]] | when visibility becomes the goal instead of the byproduct |
 | extends | [[Free Grace]] | Service is kingdom greatness, not the price you pay for grace you already received |
 | extends | [[Servant Leadership]] | Lead-by-serving frame Jesus models |
-
 ## See also
 
 - [[The Beatitudes]] - Beatitudes, Eternal Principles, Gospel

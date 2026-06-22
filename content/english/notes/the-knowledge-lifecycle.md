@@ -28,7 +28,6 @@ A spark lands in the daily note, gets promoted to evergreen after three reviews,
 | extends | [[Evergreen vs Fleeting Notes]] | Ideas move through stages — match your effort to where the note actually sits |
 | extends | [[Note Maturity]] | Seedling → evergreen stages this note names |
 | implements | [[Evergreen vs Fleeting Notes]] | Lifecycle names the lanes fleeting and evergreen notes use |
-
 ## See also
 
 - [[Context-Aware Capture]] - PKM, Workflow

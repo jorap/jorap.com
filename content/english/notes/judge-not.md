@@ -42,7 +42,6 @@ I spotted my friend's parenting mistake in five seconds and missed my own plank 
 |--------------|----------|--------|
 | contradicts | [[Humility and Service]] | when I critique others to elevate myself |
 | extends | [[Free Grace]] | You stood on mercy first, so you don't condemn others like you're their final judge |
-
 ## See also
 
 - [[By Their Fruits]] - Eternal Principles, Gospel, Sermon on the Mount

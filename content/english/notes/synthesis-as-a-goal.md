@@ -28,7 +28,6 @@ Three literature notes on note-taking sit in my inbox until I merge them into on
 | extends | [[Creative Output]] | Collecting quotes isn't enough — merge sources into beliefs you can defend and ship |
 | extends | [[Literature Notes]] | Source notes you merge before belief |
 | implements | [[Creative Output]] | Merged belief carries express after sources settle |
-
 ## See also
 
 - [[Digital Serendipity]] - PKM, Research, Second Brain

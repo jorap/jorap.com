@@ -1,0 +1,33 @@
+---
+title: "Emotional Regulation"
+meta_title: "Emotional Regulation - Feel It Without Being Ruled By It"
+description: "Emotional regulation is noticing the spike without letting it drive the next move."
+date: 2026-06-22T08:00:00Z
+image: "/images/note.jpg"
+categories: ["Ideas", "Tips"]
+author: "JoRap"
+tags: ["Self-Control", "Performance", "Relationships"]
+slug: "emotional-regulation"
+featured: false
+status: evergreen
+draft: false
+aliases: []
+---
+**Emotional regulation** = you can feel anger, fear, or shame without handing the steering wheel to the feeling.
+
+## Example
+
+You can be furious at a driver who cut you off and still not chase them — feel it, don't steer with it. The email that made my face hot got a kitchen walk before the reply. Regulation isn't numbness; it's not mailing the first draft.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Turn the Other Cheek]] | when staying calm becomes avoiding a boundary that needed to be named |
+| extends | [[Break the Escalation Cycle]] | Regulate before you feed the thread |
+| extends | [[Self-Control]] | Restraint is regulation in motion |
+| extends | [[Slow the Moment]] | Pause is the first regulation tool |
+## See also
+
+- [[Slow the Moment]] - Decision Making, Performance
+- [[Self-Control]] - Habits, Performance

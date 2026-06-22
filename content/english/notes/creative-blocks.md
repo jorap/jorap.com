@@ -26,7 +26,6 @@ I had forty open tabs of research and still couldn't start the blog post. I clos
 | contradicts | [[Capture]] | when one ship action beats capturing my way out of stuck |
 | extends | [[Creative Output]] | More capture won't unstick you — blocks need output fixes, not more notes |
 | extends | [[Writer's Block]] | Named stuck state this note tries to break |
-
 ## See also
 
 - [[Active Knowledge Curation]] - PKM, Productivity, Second Brain

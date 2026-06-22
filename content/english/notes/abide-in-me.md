@@ -42,7 +42,6 @@ I snap at my kid after a week with almost no prayer or Scripture, and I know whe
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when I treat spiritual growth as pure self-stacked effort |
 | extends | [[Free Grace]] | Fruit comes from staying in Christ, not from earning your spot on the vine |
-
 ## See also
 
 - [[Free Grace]] - Eternal Principles, Faith, Gospel

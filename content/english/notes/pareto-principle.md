@@ -43,7 +43,6 @@ Last month my review deck had forty cards and I skipped drills three nights in a
 | contradicts | [[Compounding]] | when cutting the long tail kills compounding habits |
 | extends | [[Signal vs Noise]] | Most results come from a small slice — find the signal and cut the noise |
 | extends | [[Vilfredo Pareto]] | 80/20 origin story — worth its own note later |
-
 ## See also
 
 - [[Eternal Principles]] - Eternal Principles, Faith, Gospel

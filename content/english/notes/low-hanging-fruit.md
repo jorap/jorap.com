@@ -27,7 +27,6 @@ I spent an hour sketching a big garden reorg when my actual problem was three de
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when the easy win today beats waiting for the curve to bend |
 | extends | [[Pareto Principle]] | Grab the easy wins first — the small slice of work that moves the needle now |
-
 ## See also
 
 - [[Mental Models]] - Decision Making, Mental Models, PKM

@@ -1,0 +1,38 @@
+---
+title: "Eliminate Before Managing"
+meta_title: "Eliminate Before Managing - Remove the Hazard First"
+description: "The strongest safety move is removing the hazard — not trusting people to manage it perfectly every time."
+date: 2026-06-22T06:00:00Z
+image: "/images/note.jpg"
+categories: ["Ideas", "Leadership", "Tips"]
+author: "JoRap"
+tags: ["Safety", "Leadership", "Risk Management", "Coaching", "Ethics"]
+slug: "eliminate-before-managing"
+featured: false
+status: evergreen
+draft: false
+aliases: ["elimination before controls"]
+---
+**Eliminate before managing** = remove unnecessary danger before you stack procedures, warnings, supervision, and protective gear on top of it.
+
+Those safeguards can cut risk, but they still need correct human action every time. When a dangerous activity isn't required, swap it for a safer alternative and the failure never gets a chance to happen.
+
+## Example
+
+Replace an open-water endurance drill with a controlled pool set or land-based conditioning. Same training goal — none of the drowning exposure.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| alternative | [[Risk Management]] | Eliminate the hazard vs manage residual risk when the activity must stay |
+| contradicts | [[Risk Management]] | when layering controls beats asking whether the activity is necessary |
+| extends | [[Develop, Don't Endanger]] | Same duty-of-care lane — challenge without keeping lethal exposure |
+| extends | [[First Principles Thinking]] | Strip to basics — is this dangerous step required at all? |
+| extends | [[Hierarchy of Controls]] | Elimination sits at the top — remove before you manage |
+| extends | [[Safety by Design]] | Build the safer path in from the start |
+## See also
+
+- [[Life Before Achievement]] - Ethics, Leadership, Safety
+- [[Heed Every Near-Miss]] - Leadership, Risk Management, Safety
+- [[Workplace Principles]] - Ethics, Leadership, Workplace

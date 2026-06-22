@@ -26,9 +26,8 @@ I almost wrote "I'll try my absolute best to maybe have something by EOD if noth
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Minimum Viable Product]] | when I ship a vague promise instead of a clear yes or no |
-| extends | [[Let Your Yes Be Yes]] | Plain speech without oath-padding — applied to deadlines and Slack |
 | extends | [[Atomic Notes]] | One plain claim per commitment, not kitchen-sink promises |
-
+| extends | [[Let Your Yes Be Yes]] | Plain speech without oath-padding — applied to deadlines and Slack |
 ## See also
 
 - [[Workplace Principles]] - Ethics, Eternal Principles, Workplace

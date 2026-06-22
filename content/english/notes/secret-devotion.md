@@ -43,7 +43,6 @@ I almost posted a photo of my Bible and coffee because the quiet time felt waste
 | alternative | [[Let Your Light Shine]] | Hidden piety vs public good works when the audience is Father alone |
 | contradicts | [[Drafting in Public]] | when every act of piety becomes content for applause |
 | extends | [[Ask Seek Knock]] | Secret give-pray-fast pairs with how Jesus taught us to pray — devotion for God's eyes, not the crowd |
-
 ## See also
 
 - [[Ask Seek Knock]] - Eternal Principles, Gospel, Prayer

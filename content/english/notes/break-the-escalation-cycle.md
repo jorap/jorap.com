@@ -26,9 +26,9 @@ A stakeholder CC'd my boss with a snarky line about our delay. My first draft wa
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Sunk Cost Fallacy]] | when I keep investing anger because I already started the feud |
+| extends | [[Control the Rhythm]] | De-escalation often means taking the pace back |
+| extends | [[Slow the Moment]] | One beat before the sharp reply |
 | extends | [[Turn the Other Cheek]] | Refuse to return evil for evil — applied to Slack and email |
-| extends | [[Sunk Cost Fallacy]] | Stop throwing more anger after sunk hurt |
-
 ## See also
 
 - [[Workplace Principles]] - Ethics, Eternal Principles, Workplace

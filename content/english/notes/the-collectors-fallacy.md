@@ -42,7 +42,6 @@ My read-later folder had ninety articles and zero published posts until I tied e
 | contradicts | [[Capture]] | when skipping the save kills a spark I'll actually ship from |
 | extends | [[Creative Output]] | Saving articles feels like progress but isn't — tie saves to express deadlines or hoard forever |
 | extends | [[Read Later Queue]] | Where hoarding hides — pile without express |
-
 ## See also
 
 - [[Treasure in Heaven]] - Eternal Principles, Gospel, Priorities

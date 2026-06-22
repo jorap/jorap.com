@@ -27,7 +27,6 @@ A hot take goes in today's daily note; a claim I would cite in conversation gets
 | contradicts | [[Evergreen Notes]] | when both lanes beat forcing everything evergreen |
 | extends | [[Note Maturity]] | Stages a note passes through — future lifecycle note |
 | extends | [[The Knowledge Lifecycle]] | The lifecycle splits quick sparks from notes you keep refining forever |
-
 ## See also
 
 - [[Associative Linking]] - Note Taking, PKM, Linking

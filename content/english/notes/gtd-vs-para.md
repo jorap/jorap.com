@@ -28,7 +28,6 @@ OmniFocus holds my next actions; PARA folders hold reference for the blog relaun
 | contradicts | [[PKM]] | when task inbox truth beats note-garden architecture |
 | extends | [[Getting Things Done]] | Allen task-inbox system on the other side of the comparison |
 | extends | [[PARA Method]] | GTD runs tasks and PARA sorts notes — here's how both work without doubling admin |
-
 ## See also
 
 - [[PARA Method]] - Note Taking, PARA, PKM

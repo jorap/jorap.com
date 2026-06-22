@@ -25,9 +25,9 @@ My note on PARA is mostly Tiago Forte quotes until I add what I actually do with
 |--------------|----------|--------|
 | alternative | [[Mental Models]] | Strip-to-basics vs pick-a-model when a lens beats invention |
 | contradicts | [[Eternal Principles]] | when I treat gospel ethics as ideas I invented |
+| extends | [[Eliminate Before Managing]] | Strip-to-basics asks whether a dangerous step is necessary before you manage it |
 | extends | [[Elon Musk]] | Famous modern example of strip-to-basics reasoning |
 | extends | [[Synthesis as a Goal]] | Synthesis means rebuilding a note from what you actually believe, not someone else's quote |
-
 ## See also
 
 - [[Eternal Principles]] - Eternal Principles, Faith, Gospel

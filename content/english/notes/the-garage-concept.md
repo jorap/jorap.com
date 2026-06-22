@@ -27,7 +27,6 @@ Half-finished drafts and ugly snippets live in private files; the Hugo site is t
 | contradicts | [[Drafting in Public]] | when private workshop beats publishing half-baked notes |
 | extends | [[Digital Garden]] | The garage is messy workshop; the garden showroom is public — you need both lanes |
 | extends | [[Sketchpad]] | Private workshop before anything goes public |
-
 ## See also
 
 - [[Digital Garden]] - Digital Garden, Hugo, PKM

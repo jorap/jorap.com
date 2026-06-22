@@ -28,7 +28,6 @@ I try to explain [[Progressive Summarization]] out loud to my wife and stall on 
 | extends | [[Evergreen Notes]] | Teach-it-to-learn-it exposes gaps so evergreen notes stay honest and clear |
 | extends | [[Richard Feynman]] | Explain-like-I'm-twelve method named after him |
 | implements | [[Evergreen Notes]] | Explain-simple carries durable phrasing into belief |
-
 ## See also
 
 - [[Intellectual Sourcing]] - Note Taking, PKM, Writing

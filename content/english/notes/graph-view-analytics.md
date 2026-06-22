@@ -27,7 +27,6 @@ I open the graph sort and the orphans list jumps out right away: six notes with 
 | extends | [[Associative Linking]] | Link-rank sorting shows which notes actually anchor the links you built |
 | extends | [[Network Analysis]] | Graph metrics borrowed from network science |
 | implements | [[Associative Linking]] | Graph rank carries link-first structure into visible hubs |
-
 ## See also
 
 - [[Maps of Content]] - Meta, PKM

@@ -26,7 +26,7 @@ When my last proprietary note app shut down, the markdown folder opened fine in 
 | contradicts | [[Building a Personal API]] | when boring files beat tool-coupled structure |
 | extends | [[Antifragility]] | Taleb term — systems that gain from stress |
 | extends | [[Future-Proofing Knowledge]] | Plain files and tested exports keep knowledge alive when apps shut down |
-
+| extends | [[Heed Every Near-Miss]] | Close calls are stress signals — learn before the system breaks for real |
 ## See also
 
 - [[Active Knowledge Curation]] - Note Taking, PKM, Productivity

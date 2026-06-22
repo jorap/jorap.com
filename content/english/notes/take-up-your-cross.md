@@ -42,7 +42,6 @@ I had one big surrender moment last year and then went back to the same comforta
 |--------------|----------|--------|
 | contradicts | [[There Is No Perfect Solution]] | when I expect discipleship without cost |
 | extends | [[Free Grace]] | Cross-bearing costs something real after faith saves you — it doesn't earn eternal life |
-
 ## See also
 
 - [[Process Over Outcomes]] - Habits, PKM, Systems Thinking

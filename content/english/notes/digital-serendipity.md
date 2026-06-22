@@ -28,7 +28,6 @@ I am reviewing unrelated notes and an old capture about RSS clicks with one I wr
 | extends | [[Associative Linking]] | Links build the systems where old notes surprise you at the right time |
 | extends | [[Serendipity]] | Happy accident discovery — the noun behind the method |
 | implements | [[Associative Linking]] | Random resurfacing carries link-first structure |
-
 ## See also
 
 - [[Atomic Notes]] - Linking, Note Taking, PKM

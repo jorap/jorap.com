@@ -42,7 +42,6 @@ I woke up at 2am replaying next month's bills like worry could pay them. Jesus w
 |--------------|----------|--------|
 | contradicts | [[The 12 Week Year]] | when sprint urgency replaces trust |
 | extends | [[Free Grace]] | You can stop panicking about tomorrow because grace already settled where you spend forever |
-
 ## See also
 
 - [[Slow Productivity]] - Focus, Note Taking, PKM

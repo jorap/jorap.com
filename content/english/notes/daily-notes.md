@@ -28,7 +28,6 @@ Today's daily note is just fragments: two tasks, a link, call Mom back. I promot
 | extends | [[Capture]] | Daily notes catch today's sparks before they vanish from your head |
 | extends | [[Fleeting Notes]] | Scratch-pad lane before anything goes evergreen |
 | implements | [[Capture]] | Daily scratch carries the capture habit before anything goes evergreen |
-
 ## See also
 
 - [[Active Knowledge Curation]] - Note Taking, PKM, Productivity

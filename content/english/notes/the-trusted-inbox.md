@@ -43,7 +43,6 @@ I merged work and home into one inbox because two pipes meant I would capture in
 | extends | [[Capture]] | If you don't trust your inbox, you capture in your head instead of using capture |
 | extends | [[Inbox Zero]] | Empty-the-inbox discipline this pipe depends on |
 | implements | [[Capture]] | Empty-the-inbox carries capture into one pipe you'll actually process |
-
 ## See also
 
 - [[Analog Capture Tools]] - Capture, PKM

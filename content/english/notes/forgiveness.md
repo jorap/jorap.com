@@ -42,7 +42,6 @@ I said the prayer about forgiving others on autopilot and skipped that line beca
 |--------------|----------|--------|
 | contradicts | [[Sunk Cost Fallacy]] | when I treat old hurt as debt I'm owed forever |
 | extends | [[Free Grace]] | You forgive because God already cleared a debt you couldn't pay |
-
 ## See also
 
 - [[Sunk Cost Fallacy]] - Decision Making, Mental Models, PKM

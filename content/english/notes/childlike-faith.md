@@ -42,7 +42,6 @@ My daughter asked for a snack without calculating whether she'd been good enough
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when I treat faith as a merit account I'm building |
 | extends | [[Free Grace]] | You enter the kingdom like a kid receiving a gift, not negotiating merit |
-
 ## See also
 
 - [[Getting Started]] - Digital Garden, Meta, PKM

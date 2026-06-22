@@ -30,7 +30,6 @@ Phone review hits flashcard backs on capture and gospel notes while I wait for r
 | extends | [[Evergreen Notes]] | Evergreen understanding lives in the wiki; spaced repetition drills the facts you need cold |
 | extends | [[Forgetting Curve]] | Ebbinghaus decay curve spaced repetition fights |
 | implements | [[Evergreen Notes]] | SRS carries durable claims into phone review |
-
 ## See also
 
 - [[Childlike Faith]] - Eternal Principles, Faith, Gospel

@@ -28,7 +28,6 @@ An idea hits in line at the grocery store and I share the page straight to the i
 | extends | [[Capture]] | Capture dies on mobile when it takes twelve taps — shrink it to share sheet → inbox |
 | extends | [[Share Sheet]] | OS capture surface most phone workflows use |
 | implements | [[Capture]] | Share-sheet capture carries the inbox habit on the phone |
-
 ## See also
 
 - [[Context-Aware Capture]] - Capture, Note Taking, PKM

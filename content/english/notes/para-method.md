@@ -43,7 +43,6 @@ The blog relaunch files sit in Projects with a deadline; my theology notes sit i
 | extends | [[Building a Second Brain]] | PARA sorts notes by life responsibility — CODE's organize step |
 | extends | [[Getting Things Done]] | Action-first capture Forte built PARA on top of |
 | implements | [[Building a Second Brain]] | PARA folders carry CODE's organize step |
-
 ## See also
 
 - [[Building a Second Brain]] - Note Taking, PKM, Productivity

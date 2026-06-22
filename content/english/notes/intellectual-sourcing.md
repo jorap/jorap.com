@@ -27,7 +27,6 @@ I paste the article URL under the quote so six months later I know if the source
 | contradicts | [[Progressive Summarization]] | when citations beat distill-on-demand layers |
 | extends | [[Literature Notes]] | Source-first lane before synthesis |
 | extends | [[Synthesis as a Goal]] | You cite sources so your own synthesis stays trustworthy six months later |
-
 ## See also
 
 - [[Digital Serendipity]] - Note Taking, PKM, Research
