@@ -13,7 +13,6 @@
   var shuffleRightBtn = document.querySelector("[data-random-duo-shuffle-right]");
   var selectEls = document.querySelectorAll("[data-random-duo-select]");
   var copyPromptBtn = document.querySelector("[data-random-duo-copy-prompt]");
-  var sendPromptBtn = document.querySelector("[data-random-duo-send-prompt]");
   var promptEl = document.querySelector("[data-random-duo-prompt]");
   var emptyPageEl = document.querySelector(".notes-random-empty-page");
   var pathResultEl = document.querySelector("[data-random-duo-path]");
@@ -26,8 +25,6 @@
   var pool = [];
   var adj = Object.create(null);
   var titleByUrl = Object.create(null);
-  var aiChatUrl = "https://chatgpt.com/?q=";
-
   try {
     pool = JSON.parse(dataEl.textContent);
   } catch (e) {
@@ -48,9 +45,7 @@
 
   var ai = core.createAiHelpers({
     promptEl: promptEl,
-    aiChatUrl: aiChatUrl,
     copyPromptBtn: copyPromptBtn,
-    sendPromptBtn: sendPromptBtn,
     openedLabel: "Opened",
     copiedLabel: "Copied — paste in chat",
   });
@@ -72,15 +67,11 @@
       return "Shuffle to load two notes, then paste this prompt into your AI chat.";
     }
 
-    var lines = [
-      "I'm exploring connections between two notes from my digital garden. Help me discover new ideas by analyzing how they relate.",
-      "",
-    ];
+    var origin = window.location.origin;
+    var lines = [core.connectionPromptIntro(), ""];
 
     usable.forEach(function (note, index) {
-      lines.push("Note " + (index + 1) + ': "' + note.title + '"');
-      if (note.url) lines.push("URL: " + window.location.origin + note.url);
-      if (note.bodyText) lines.push(note.bodyText);
+      lines.push.apply(lines, core.formatPromptNote(index + 1, note, origin));
       lines.push("");
     });
 
@@ -89,10 +80,7 @@
       lines.push("");
     }
 
-    lines.push("Please analyze:");
-    lines.push("- Note 1 + Note 2 (together)");
-    lines.push("");
-    lines.push.apply(lines, core.connectionPromptTail("For this pairing, provide:"));
+    lines.push.apply(lines, core.connectionPromptTail());
 
     return lines.join("\n");
   }
@@ -250,11 +238,7 @@
     event.stopPropagation();
     ai.copyPrompt();
   });
-  core.bindTapIf(sendPromptBtn, function (event) {
-    event.preventDefault();
-    event.stopPropagation();
-    ai.sendPromptToAI();
-  });
+  core.wireSendPromptButtons("random-duo", ai);
 
   window.addEventListener("resize", equalizePanelHeights, { passive: true });
 

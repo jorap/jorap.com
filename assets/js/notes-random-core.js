@@ -148,26 +148,117 @@
     return candidates[Math.floor(Math.random() * candidates.length)];
   }
 
-  function connectionPromptTail(heading) {
+  function connectionPromptIntro() {
+    return "I'm exploring connections between two ideas in the website.";
+  }
+
+  function formatPromptNote(index, note, origin) {
+    var lines = ["Note " + index + ":"];
+    if (!note || !note.title) return lines;
+    lines.push('"' + note.title + '"');
+    if (note.url) lines.push("URL: " + origin + note.url);
+    if (note.bodyText) lines.push(note.bodyText);
+    return lines;
+  }
+
+  function connectionPromptTail() {
     return [
-      heading,
-      "- 3 unexpected links (surprising connections or new ideas)",
-      "- 3 atomic note titles (clear, one-idea titles I can turn into [[wikilinks]])",
-      "- 3 questions the pairing raises",
-      "- 3 gaps, tensions, or contradictions worth exploring",
+      "---",
       "",
-      "Constraints:",
-      "- Keep suggestions practical for a personal knowledge garden",
-      "- One idea per note, clear atomic titles",
-      "- Focus on actionable insights, not abstract theory",
+      "## TASK",
+      "",
+      "Analyze how these notes relate and generate outputs that are:",
+      "- Concrete and actionable",
+      "- System-oriented (PKM, workflows, thinking patterns)",
+      "- Atomic (one idea per item)",
+      "- Multi-scale (immediate → experimental → strategic)",
+      "",
+      "Avoid abstract theory unless tied to action.",
+      "",
+      "---",
+      "",
+      "## OUTPUT FORMAT",
+      "",
+      "### 1. Core Relationship",
+      "1–2 sentences explaining the deepest connection between the notes.",
+      "",
+      "---",
+      "",
+      "### 2. 3 Unexpected Links (Insight → Mechanism → Action)",
+      "Each must include:",
+      "- Insight (what is connected)",
+      "- Mechanism (why/how it connects)",
+      "- Action (what I can do immediately)",
+      "",
+      "---",
+      "",
+      "### 3. 3 Atomic Wikilink Ideas",
+      "- 3–7 words max",
+      "- Clear, reusable PKM note titles",
+      "- One idea per title",
+      "",
+      "---",
+      "",
+      "### 4. 3 Experiments (Validation Layer)",
+      "Each includes:",
+      "- Name",
+      "- Steps (simple, executable)",
+      "- Time required (5–15 min / daily / weekly)",
+      "- Expected outcome",
+      "- Success indicator",
+      "",
+      "---",
+      "",
+      "### 5. 3 Quick Wins (Immediate Actions)",
+      "- Must take 2–15 minutes",
+      "- Directly tied to insights",
+      "- Requires no setup",
+      "",
+      "Format:",
+      "- Action",
+      "- Why it matters",
+      "- Immediate effect",
+      "",
+      "---",
+      "",
+      "### 6. 3 Big Picture Wins (System-Level Impact)",
+      "Focus on 3–12 month outcomes.",
+      "",
+      "Each includes:",
+      "- Big Win",
+      "- Structural change",
+      "- Long-term value",
+      "- First step",
+      "",
+      "---",
+      "",
+      "### 7. 3 Shareable Tweets (≤130 chars)",
+      "Rules:",
+      "- Self-contained",
+      "- No fluff or clichés",
+      "- Insight-driven or paradox-based",
+      "- No need for context",
+      "",
+      "Styles allowed:",
+      "- Insight shift",
+      "- System observation",
+      "- Contradiction",
+      "- Practical truth",
+      "",
+      "---",
+      "",
+      "## RULES",
+      "",
+      "- Prefer usefulness over creativity",
+      "- If uncertain, default to a simpler action or experiment",
+      "- Every insight must connect to at least one action layer",
+      "- Keep outputs minimal but high-signal",
     ];
   }
 
   function createAiHelpers(opts) {
     var promptEl = opts.promptEl;
-    var aiChatUrl = opts.aiChatUrl;
     var copyPromptBtn = opts.copyPromptBtn;
-    var sendPromptBtn = opts.sendPromptBtn;
     var openedLabel = opts.openedLabel;
     var copiedLabel = opts.copiedLabel;
 
@@ -205,30 +296,32 @@
       });
     }
 
-    function sendPromptToAI() {
+    function sendPromptToChat(chatUrl, sendBtn, prefill) {
       if (!promptEl || !promptIsReady()) return;
 
       var prompt = promptEl.value;
-      var prefillUrl = aiChatUrl + encodeURIComponent(prompt);
 
       function openChat(url) {
         window.open(url, "_blank", "noopener,noreferrer");
       }
 
-      if (prefillUrl.length <= PROMPT_PREFILL_MAX_URL) {
-        openChat(prefillUrl);
-        flashButton(sendPromptBtn, openedLabel);
-        return;
+      if (prefill && chatUrl.indexOf("?q=") !== -1) {
+        var prefillUrl = chatUrl + encodeURIComponent(prompt);
+        if (prefillUrl.length <= PROMPT_PREFILL_MAX_URL) {
+          openChat(prefillUrl);
+          flashButton(sendBtn, openedLabel);
+          return;
+        }
       }
 
       if (!navigator.clipboard) {
-        openChat(aiChatFallbackUrl(aiChatUrl));
+        openChat(aiChatFallbackUrl(chatUrl));
         return;
       }
 
       navigator.clipboard.writeText(prompt).then(function () {
-        openChat(aiChatFallbackUrl(aiChatUrl));
-        flashButton(sendPromptBtn, copiedLabel);
+        openChat(aiChatFallbackUrl(chatUrl));
+        flashButton(sendBtn, copiedLabel);
       });
     }
 
@@ -236,8 +329,21 @@
       flashButton: flashButton,
       promptIsReady: promptIsReady,
       copyPrompt: copyPrompt,
-      sendPromptToAI: sendPromptToAI,
+      sendPromptToChat: sendPromptToChat,
     };
+  }
+
+  function wireSendPromptButtons(prefix, ai) {
+    var btns = document.querySelectorAll("[data-" + prefix + "-send-prompt]");
+    Array.prototype.forEach.call(btns, function (btn) {
+      bindTapIf(btn, function (event) {
+        event.preventDefault();
+        event.stopPropagation();
+        var chatUrl = btn.getAttribute("data-ai-chat-url") || "https://chatgpt.com/?q=";
+        var prefill = btn.getAttribute("data-ai-prefill") === "true";
+        ai.sendPromptToChat(chatUrl, btn, prefill);
+      });
+    });
   }
 
   function bindTapIf(el, fn) {
@@ -383,8 +489,11 @@
   window.jorapNotesRandomCore = {
     buildAdjacency: buildAdjacency,
     cloneArticleBody: cloneArticleBody,
+    connectionPromptIntro: connectionPromptIntro,
     connectionPromptTail: connectionPromptTail,
+    formatPromptNote: formatPromptNote,
     createAiHelpers: createAiHelpers,
+    wireSendPromptButtons: wireSendPromptButtons,
     bindTapIf: bindTapIf,
     normalizeText: normalizeText,
     pathHopLabel: pathHopLabel,

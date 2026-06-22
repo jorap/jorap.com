@@ -21,8 +21,6 @@
   {{- $graph = partialCached "notes/graph-data.html" site "graph-data-v3" -}}
 {{- end -}}
 {{- $minPool := 1 -}}
-{{- $aiChatUrl := site.Params.blog.random_notes_ai_chat_url | default "https://chatgpt.com/?q=" -}}
-{{- $aiChatLabel := site.Params.blog.random_notes_ai_chat_label | default (T "open_in_chatgpt") -}}
 {{- if ge (len $pool) $minPool -}}
   <div class="section pb-0">
     <div class="notes-toolbar mb-4 flex flex-wrap items-center gap-3">
@@ -33,7 +31,7 @@
       {{- if $isBlog -}}{{ T "random_blog_note_lede" }}{{- else -}}{{ T "random_note_lede" }}{{- end -}}
     </p>
 
-    {{ partial "notes/random-prompt-panel.html" (dict "Prefix" $prefix "AiChatLabel" $aiChatLabel) }}
+    {{ partial "notes/random-prompt-panel.html" (dict "Prefix" $prefix) }}
 
     {{- if not $isBlog -}}
       <div class="notes-path-result border-divider mb-6 hidden flex flex-wrap items-center gap-x-3 gap-y-2 rounded border p-5 text-sm" data-notes-single-random-path>
@@ -56,7 +54,7 @@
     </div>
 
     <p class="notes-random-empty-page text-ink-muted hidden text-sm" {{ printf "data-%s-empty" $prefix | safeHTMLAttr }}>{{ T "no_random_blog_note" }}</p>
-    {{- $payload := dict "notes" $pool "aiChatUrl" $aiChatUrl "aiChatOpenedLabel" (T "prompt_opened_in_ai") "aiChatCopiedLabel" (T "prompt_copied_for_ai") -}}
+    {{- $payload := dict "notes" $pool "aiChatOpenedLabel" (T "prompt_opened_in_ai") "aiChatCopiedLabel" (T "prompt_copied_for_ai") -}}
     {{- if not $isBlog -}}
       {{- $payload = merge $payload (dict "currentUrl" $ctx.RelPermalink "currentTitle" $ctx.Title "graphEdges" $graph.edges) -}}
     {{- end -}}

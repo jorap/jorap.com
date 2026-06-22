@@ -14,7 +14,6 @@
   var shuffleBtn = document.querySelector("[data-" + prefix + "-shuffle]");
   var selectEl = document.querySelector("[data-" + prefix + "-select]");
   var copyPromptBtn = document.querySelector("[data-" + prefix + "-copy-prompt]");
-  var sendPromptBtn = document.querySelector("[data-" + prefix + "-send-prompt]");
   var promptEl = document.querySelector("[data-" + prefix + "-prompt]");
   var emptyPageEl = document.querySelector("[data-" + prefix + "-empty]");
   var slot = root.querySelector("[data-" + prefix + "-slot]");
@@ -29,7 +28,6 @@
   var currentTitle = "";
   var adj = Object.create(null);
   var titleByUrl = Object.create(null);
-  var aiChatUrl = "https://chatgpt.com/?q=";
   var aiChatOpenedLabel = "Opened";
   var aiChatCopiedLabel = "Copied — paste in chat";
 
@@ -41,7 +39,6 @@
       pool = config.notes || [];
       if (config.currentUrl) currentUrl = config.currentUrl;
       if (config.currentTitle) currentTitle = config.currentTitle;
-      if (config.aiChatUrl) aiChatUrl = config.aiChatUrl;
       if (config.aiChatOpenedLabel) aiChatOpenedLabel = config.aiChatOpenedLabel;
       if (config.aiChatCopiedLabel) aiChatCopiedLabel = config.aiChatCopiedLabel;
       if (!isBlog && config.graphEdges) adj = core.buildAdjacency(config.graphEdges);
@@ -59,9 +56,7 @@
 
   var ai = core.createAiHelpers({
     promptEl: promptEl,
-    aiChatUrl: aiChatUrl,
     copyPromptBtn: copyPromptBtn,
-    sendPromptBtn: sendPromptBtn,
     openedLabel: aiChatOpenedLabel,
     copiedLabel: aiChatCopiedLabel,
   });
@@ -105,26 +100,15 @@
     }
 
     var page = getPageContext();
-    var intro = isBlog
-      ? "I'm reading a blog post and a note from my digital garden. Help me find connections between them."
-      : "I'm reading a note from my digital garden and another note I'd like to pair with it. Help me find connections between them.";
-    var analyze = isBlog
-      ? "Analyze how this post and this note connect:"
-      : "Analyze how these two notes connect:";
-
-    var lines = [intro, ""];
     var origin = window.location.origin;
+    var lines = [core.connectionPromptIntro(), ""];
 
     if (page && page.title) {
-      lines.push(page.label + ': "' + page.title + '"');
-      if (page.url) lines.push("URL: " + origin + page.url);
-      if (page.bodyText) lines.push(page.bodyText);
+      lines.push.apply(lines, core.formatPromptNote(1, page, origin));
       lines.push("");
     }
 
-    lines.push('Note: "' + note.title + '"');
-    if (note.url) lines.push("URL: " + origin + note.url);
-    if (note.bodyText) lines.push(note.bodyText);
+    lines.push.apply(lines, core.formatPromptNote(2, note, origin));
     lines.push("");
 
     if (!isBlog && currentPath && currentPath.length > 1) {
@@ -132,7 +116,7 @@
       lines.push("");
     }
 
-    lines.push.apply(lines, core.connectionPromptTail(analyze));
+    lines.push.apply(lines, core.connectionPromptTail());
 
     return lines.join("\n");
   }
@@ -204,11 +188,7 @@
     event.stopPropagation();
     ai.copyPrompt();
   });
-  core.bindTapIf(sendPromptBtn, function (event) {
-    event.preventDefault();
-    event.stopPropagation();
-    ai.sendPromptToAI();
-  });
+  core.wireSendPromptButtons(prefix, ai);
 
   shuffle();
 })();

@@ -1,8 +1,6 @@
 {{ define "main" }}
   {{- $pool := partial "notes/random-pool.html" . -}}
   {{- $graph := partialCached "notes/graph-data.html" site "graph-data-v3" -}}
-  {{- $aiChatLabel := site.Params.blog.random_notes_ai_chat_label | default (T "open_in_chatgpt") -}}
-
   {{ partial "page-header" . }}
 
   <section class="section">
@@ -13,7 +11,7 @@
 
           <p class="text-ink-muted mb-6">{{ T "random_duo_lede" }}</p>
 
-          {{ partial "notes/random-prompt-panel.html" (dict "Prefix" "random-duo" "AiChatLabel" $aiChatLabel "Loading" (T "random_notes_prompt_loading") "Rows" 10) }}
+          {{ partial "notes/random-prompt-panel.html" (dict "Prefix" "random-duo" "Loading" (T "random_notes_prompt_loading") "Rows" 10) }}
 
           <div class="notes-path-toolbar mb-6">
             <div class="notes-path-result border-divider hidden" data-random-duo-path>

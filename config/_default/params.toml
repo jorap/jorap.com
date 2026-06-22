@@ -50,9 +50,8 @@ graph_tail_percentile = 20
 [blog]
 related_posts_limit = 6
 related_notes_limit = 6
-# Prefill URL for blog random-notes AI prompt (?q= is appended with the prompt text)
+# ChatGPT prefill URL for random-notes AI prompt (?q= is appended with the prompt text)
 random_notes_ai_chat_url = "https://chatgpt.com/?q="
-random_notes_ai_chat_label = "Open in ChatGPT"
 
 # Homepage framing above the blog grid (set enable = false to hide)
 [home_intro]
