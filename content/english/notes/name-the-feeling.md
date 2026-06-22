@@ -1,0 +1,32 @@
+---
+title: "Name the Feeling"
+meta_title: "Name the Feeling - Put Words to It Before You Fix It"
+description: "I say what emotion I hear before I jump to what should happen next."
+date: 2026-06-22T08:00:00Z
+image: "/images/note.jpg"
+categories: ["Ideas", "Tips"]
+author: "JoRap"
+tags: ["Relationships", "Communication", "Emotional Regulation"]
+slug: "name-the-feeling"
+featured: false
+status: seedling
+draft: false
+aliases: []
+---
+**Name the feeling** = I put simple words to what someone seems to be carrying before I argue, advise, or plan the fix. "That sounds frustrating" isn't agreement with every claim - it's making the emotion legible so we can talk without guessing.
+
+## Examples
+
+- **Sports:** A player slumped on the bench after a bad quarter - I said "you look wiped" before I drew up the next play. His shoulders dropped; then he could hear the adjustment.
+- **Non-technical work:** A coworker snapped in the break room about a late shipment - "sounds like you're getting blamed for stuff upstream" landed before we talked about who to email.
+- **Home with children:** My kid came home furious about homework - "you're mad because it felt unfair" beat "just do it." We got to the actual problem after the feeling had a name.
+- **Real world:** My spouse walked in tense after traffic and errands - "rough afternoon?" before I asked about dinner plans. Small line, less defensiveness.
+
+## Note Relationships
+
+| Relationship | Wikilink | Reason |
+|--------------|----------|--------|
+| contradicts | [[Complete the Cycle]] | when naming the feeling becomes a substitute for closing the loop |
+| extends | [[Emotional Regulation]] | Naming helps me and them before the spike drives the reply |
+| extends | [[Listen Before Fixing]] | I hear first, then label what I heard |
+| implements | [[Break the Escalation Cycle]] | A calm label can cool a thread before snark stacks |

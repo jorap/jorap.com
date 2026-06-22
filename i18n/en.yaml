@@ -5,6 +5,11 @@ related_notes: Related Notes
 random_blog_note: Random Note
 random_blog_note_lede: One garden note picked at random — shuffle for a new pairing with this post.
 random_note_lede: One garden note picked at random — shuffle for a new pairing with this note.
+note_creator_lede: Enter a topic. The AI prompt researches improvement principles, outputs one lint-ready atomic note, and lists sibling notes to create next.
+note_creator_topic_label: Topic
+note_creator_topic_placeholder: e.g. saying no without burning the relationship
+note_creator_hint: Type a topic to generate the prompt. Relevant garden notes are included as wikilink hints.
+note_creator_prompt_loading: Enter a topic above to generate the prompt.
 random_duo_lede: Two notes from the garden, side by side. Shuffle both, or lock one side and shuffle the other.
 random_duo_shortest_path: A shortest path
 random_duo_no_path: No path found through wikilinks.

@@ -56,6 +56,14 @@
       Review
     </a>
   {{- end -}}
+  <a
+    class="btn btn-sm{{ if eq $active "create" }} btn-primary{{ else }} btn-outline-primary{{ end }}"
+    href="{{ `/notes/create/` | relLangURL }}"
+    {{- if eq $active "create" -}}
+      aria-current="page"
+    {{- end -}}>
+    <span class="xl:hidden">Create</span><span class="hidden xl:inline">Create Note</span>
+  </a>
   {{- if ne $active "note" -}}
     {{- partial "notes/random-note.html" (dict "Context" $ctx "active" $active) -}}
   {{- end -}}
