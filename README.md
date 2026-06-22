@@ -56,7 +56,7 @@ New notes: `hugo new content/english/notes/my-note.md`
 
 ## Deploy
 
-Production deploy is `pnpm run deploy`. Netlify runs the same command (see [`netlify.toml`](netlify.toml)).
+Production deploy is `pnpm run deploy`. Cloudflare Pages runs the same command (see [`wrangler.toml`](wrangler.toml)). Functional changes are appended to [`CHANGELOG.md`](CHANGELOG.md) on commit (install hook: `pnpm run hooks:install`, runs on `pnpm install`).
 
 ## Theme upstream
 

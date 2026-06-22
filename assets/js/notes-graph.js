@@ -27,12 +27,34 @@ function consumePresentLocalNavigation() {
   return false;
 }
 
+var MAX_GLOBAL_GRAPH_NODES = 240;
+
 async function bootGraphs() {
   var panels = document.querySelectorAll("[data-notes-graph]");
   if (!panels.length) return;
 
-  for (var i = 0; i < panels.length; i++) {
-    await initGraph(panels[i]);
+  if (typeof IntersectionObserver === "undefined") {
+    for (var i = 0; i < panels.length; i++) {
+      await initGraph(panels[i]);
+    }
+    return;
+  }
+
+  var observer = new IntersectionObserver(
+    function (entries, obs) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        obs.unobserve(entry.target);
+        initGraph(entry.target).catch(function (err) {
+          console.error("[notes-graph] init failed:", err);
+        });
+      });
+    },
+    { rootMargin: "200px 0px" },
+  );
+
+  for (var j = 0; j < panels.length; j++) {
+    observer.observe(panels[j]);
   }
 }
 
@@ -98,6 +120,24 @@ async function initGraph(panel) {
       label: null,
     };
   });
+
+  if (!isLocalGraph && nodes.length > MAX_GLOBAL_GRAPH_NODES) {
+    var totalNodes = nodes.length;
+    nodes.sort(function (a, b) {
+      return b.inDegree + b.outDegree - (a.inDegree + a.outDegree);
+    });
+    nodes = nodes.slice(0, MAX_GLOBAL_GRAPH_NODES);
+    var hintEl = panel.closest(".container, section")?.querySelector(".notes-graph-hint");
+    if (hintEl) {
+      hintEl.textContent =
+        "Showing " +
+        MAX_GLOBAL_GRAPH_NODES +
+        " of " +
+        totalNodes +
+        " most connected notes. " +
+        hintEl.textContent;
+    }
+  }
 
   var nodeById = {};
   nodes.forEach(function (n) {
@@ -180,7 +220,7 @@ async function initGraph(panel) {
       nodeOrphan: pixiColor(resolveToken("--color-warning", "#b45309")),
       nodeTop: pixiColor(resolveToken("--color-accent", "#181614")),
       nodeMiddle: pixiColor(resolveToken("--color-ink-muted", "#6b6762")),
-      nodeBottom: pixiColor(resolveToken("--graph-weak", "#c27803")),
+      nodeBottom: pixiColor(resolveToken("--color-graph-weak", "#c27803")),
       nodeDeadEnd: pixiColor(resolveToken("--color-ink-muted", "#6b6762")),
       surface: pixiColor(resolveToken("--color-surface", "#f5f3f0")),
       label: pixiColor(resolveToken("--color-ink", "#161412")),

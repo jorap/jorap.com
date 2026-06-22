@@ -1,5 +1,101 @@
 /* Add margin below Hugo YouTube shortcode embeds (robust selector) */
 
+@layer base {
+  html.dark {
+    --color-warning: var(--color-darkmode-warning);
+    --color-warning-ink: var(--color-darkmode-warning-ink);
+    --color-warning-surface: var(--color-darkmode-warning-surface);
+    --color-warning-border: var(--color-darkmode-warning-border);
+    --color-warning-code: var(--color-darkmode-warning-code);
+    --color-error-ink: var(--color-darkmode-error-ink);
+    --color-error-surface: var(--color-darkmode-error-surface);
+    --color-error-border: var(--color-darkmode-error-border);
+    --color-error-code: var(--color-darkmode-error-code);
+    --color-success: var(--color-darkmode-success);
+    --color-graph-weak: var(--color-darkmode-graph-weak);
+  }
+}
+
+/* Skip link (WCAG 2.4.1 bypass blocks) */
+.skip-link {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 100;
+  padding: 0.625rem 1rem;
+  border-radius: 0.25rem;
+  background: var(--color-accent);
+  color: var(--color-on-accent);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+  transform: translateY(-200%);
+  transition: transform 0.15s ease-out;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+  outline: none;
+  box-shadow:
+    0 0 0 2px var(--color-surface),
+    0 0 0 4px var(--color-accent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skip-link {
+    transition: none;
+  }
+}
+
+/* Theme switcher button: match header utility focus ring */
+.theme-switcher-btn:focus-visible {
+  outline: none;
+  box-shadow:
+    0 0 0 2px var(--color-surface),
+    0 0 0 4px var(--color-accent);
+}
+
+/* Footer social icons: 44px touch targets */
+.social-icons li a {
+  min-height: var(--touch-target-min, 2.75rem);
+  min-width: var(--touch-target-min, 2.75rem);
+  height: auto;
+  width: auto;
+}
+
+/* Filter pills: keyboard focus ring */
+.notes-filter:focus-visible,
+.notes-graph-filter:focus-visible {
+  outline: none;
+  box-shadow:
+    0 0 0 2px var(--color-surface),
+    0 0 0 4px var(--color-accent);
+}
+
+/* Buttons: touch minimum at all breakpoints */
+.btn-sm {
+  min-height: var(--touch-target-min, 2.75rem);
+}
+
+/* Mobile/tablet nav CTA: vertically center label in touch-height button */
+@media (max-width: 1023.98px) {
+  .nav-item--cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .nav-item--cta .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: var(--touch-target-min, 2.75rem);
+    line-height: 1.25;
+  }
+}
+
 /* Target divs with inline style matching the YouTube embed container */
 
 /* Robust selectors for YouTube embed containers (handles spacing variations) */
@@ -69,10 +165,10 @@ html.dark .content b {
 
 .notes-dev-banner {
   margin-bottom: 1.25rem;
-  border: 1px solid #dc2626;
+  border: 1px solid var(--color-error-border);
   border-radius: 0.5rem;
-  background: #fef2f2;
-  color: #991b1b;
+  background: var(--color-error-surface);
+  color: var(--color-error-ink);
   padding: 0.75rem 1rem;
   font-size: 0.875rem;
 }
@@ -83,17 +179,7 @@ html.dark .content b {
 
 .notes-dev-banner code {
   font-size: 0.8125rem;
-  color: #7f1d1d;
-}
-
-html.dark .notes-dev-banner {
-  background: #450a0a;
-  border-color: #f87171;
-  color: #fecaca;
-}
-
-html.dark .notes-dev-banner code {
-  color: #fecaca;
+  color: var(--color-error-code);
 }
 
 .notes-content .wikilink {
@@ -110,13 +196,13 @@ html.dark .notes-dev-banner code {
 
 .notes-issues,
 .notes-issues-summary {
-  border-color: #f59e0b;
-  background: #fffbeb;
+  border-color: var(--color-warning-border);
+  background: var(--color-warning-surface);
 }
 
 .notes-issues__title,
 .notes-issues-summary .h6 {
-  color: #92400e;
+  color: var(--color-warning-ink);
 }
 
 .notes-issues__item--broken code,
@@ -124,19 +210,8 @@ html.dark .notes-dev-banner code {
   font-size: 0.8125rem;
 }
 
-html.dark .notes-issues,
-html.dark .notes-issues-summary {
-  background: #451a03;
-  border-color: #fbbf24;
-}
-
-html.dark .notes-issues__title,
-html.dark .notes-issues-summary .h6 {
-  color: #fde68a;
-}
-
 html.dark .notes-issues__item code {
-  color: #fef3c7;
+  color: var(--color-warning-code);
 }
 
 .notes-graph-panel--local {
@@ -591,7 +666,7 @@ body.notes-graph-present-open {
 }
 
 .notes-graph-filter__count--orphan {
-  color: var(--color-warning, #b45309);
+  color: var(--color-warning);
 }
 
 .notes-graph-filter__count--top {
@@ -603,7 +678,7 @@ body.notes-graph-present-open {
 }
 
 .notes-graph-filter__count--bottom {
-  color: var(--graph-weak, #c27803);
+  color: var(--color-graph-weak);
 }
 
 @media (max-width: 1279.98px) {
@@ -740,13 +815,13 @@ body.notes-graph-present-open {
 }
 
 .notes-status--seedling {
-  color: var(--color-warning, #b45309);
-  border-color: color-mix(in srgb, var(--color-warning, #b45309) 35%, var(--color-divider));
+  color: var(--color-warning);
+  border-color: color-mix(in srgb, var(--color-warning) 35%, var(--color-divider));
 }
 
 .notes-status--evergreen {
-  color: #15803d;
-  border-color: color-mix(in srgb, #15803d 35%, var(--color-divider));
+  color: var(--color-success);
+  border-color: color-mix(in srgb, var(--color-success) 35%, var(--color-divider));
 }
 
 .notes-status--inbox {
@@ -1019,6 +1094,37 @@ body.notes-graph-present-open {
   font-size: 0.9375rem;
   text-wrap: balance;
   text-align: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .notes-flashcard {
+    perspective: none;
+  }
+
+  .notes-flashcard__inner {
+    transition: none;
+    transform: none !important;
+  }
+
+  .notes-flashcard__face {
+    backface-visibility: visible;
+    position: relative;
+    inset: auto;
+    min-height: 10rem;
+  }
+
+  .notes-flashcard__face--back {
+    display: none;
+    transform: none;
+  }
+
+  .notes-flashcard.is-flipped .notes-flashcard__face--front {
+    display: none;
+  }
+
+  .notes-flashcard.is-flipped .notes-flashcard__face--back {
+    display: flex;
+  }
 }
 
 .notes-flashcard__source {
