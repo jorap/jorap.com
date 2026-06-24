@@ -1,7 +1,7 @@
 ---
 title: "Situational Control"
 meta_title: "Situational Control - Steer What You Can in the Moment"
-description: "Situational control is using the levers available — pace, venue, agenda, boundaries — when you can't control everything."
+description: "Situational control is using the levers available - pace, venue, agenda, boundaries - when you can't control everything."
 date: 2026-06-22T08:00:00Z
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
@@ -13,14 +13,14 @@ status: evergreen
 draft: false
 aliases: ["situation control"]
 ---
-**Situational control** = steer what you can in the moment — pace, format, who speaks, when you pause — when you can't own the whole outcome.
+**Situational control** = steer what you can in the moment - pace, format, who speaks, when you pause - when you can't own the whole outcome.
 
 ## Examples
 
-- **Sports:** Down twelve at halftime, our captain called a timeout she didn't need - situational control was slowing the game, not surrendering to their pace.
-- **Non-technical work:** The meeting was going sideways - situational control was "let's take ten and come back with an agenda," not letting the loudest voice own the room.
-- **Home with children:** My sister and I were fighting past the kids' bedtime - situational control was a fifteen-minute break and a promise to pick it up tomorrow.
-- **Real world:** A good host ends the party before the stereo gets louder - they control the evening, not the loudest guest.
+- My sister and I were fighting past the kids' bedtime - situational control was a fifteen-minute break and a promise to pick it up tomorrow.
+- Down twelve at halftime, our captain called a timeout she didn't need - situational control was slowing the game, not surrendering to their pace.
+- The meeting was going sideways - situational control was "let's take ten and come back with an agenda," not letting the loudest voice own the room.
+- A good host ends the party before the stereo gets louder - they control the evening, not the loudest guest.
 
 ## Note Relationships
 

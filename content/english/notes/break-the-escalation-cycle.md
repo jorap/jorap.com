@@ -19,10 +19,10 @@ Not passivity - I can still set boundaries and name facts. I just refuse to beco
 
 ## Examples
 
-- **Sports:** A parent yelled at the ref from the sideline and my first instinct was to yell back - I answered the rule, kept my voice flat, and let the insult die without an audience.
-- **Non-technical work:** A parent emailed the principal with a snarky line about our field trip delay - I deleted my matching draft, answered the fact, offered the new date, and broke the reply-all war before it started.
-- **Home with children:** My kid snapped first at dinner and I almost matched the volume - I named what happened, lowered my voice, and refused to pour fuel on it.
-- **Real world:** A neighbor's group-chat jab about parking got a sharp reply in my drafts - I sent the facts and the new plan instead of the line that would have fed the thread all week.
+- A parent emailed the principal with a snarky line about our field trip delay - I deleted my matching draft, answered the fact, offered the new date, and broke the reply-all war before it started.
+- A parent yelled at the ref from the sideline and my first instinct was to yell back - I answered the rule, kept my voice flat, and let the insult die without an audience.
+- My kid snapped first at dinner and I almost matched the volume - I named what happened, lowered my voice, and refused to pour fuel on it.
+- A neighbor's group-chat jab about parking got a sharp reply in my drafts - I sent the facts and the new plan instead of the line that would have fed the thread all week.
 
 ## Note Relationships
 
@@ -34,7 +34,7 @@ Not passivity - I can still set boundaries and name facts. I just refuse to beco
 | extends | [[Name the Feeling]] | Label the spike before it becomes the thread |
 | extends | [[Set Calm Boundaries]] | Calm limit stops the reply-all war |
 | extends | [[Slow the Moment]] | One beat before the sharp reply |
-| extends | [[Turn the Other Cheek]] | Refuse to return evil for evil — applied to Slack and email |
+| extends | [[Turn the Other Cheek]] | Refuse to return evil for evil - applied to Slack and email |
 ## See also
 
 - [[Workplace Principles]] - Ethics, Eternal Principles, Workplace

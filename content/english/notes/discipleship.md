@@ -34,10 +34,11 @@ Under [[Free Grace]], discipleship is grateful response, not payment. [[Repent a
 
 ## Examples
 
-- **Sports:** I knew the basketball handbook cold and still yelled at the ref - discipleship isn't memorizing policy, it's doing what the coach actually taught today.
-- **Non-technical work:** I had grace clear in my head and zero change in how I treated people at the front desk - following Jesus is messy daily obedience, not a badge from one training day.
-- **Home with children:** I taught my kid the memory verse and still snapped over spilled milk - discipleship isn't a badge from one altar call, it's doing what Jesus said today.
-- **Real world:** My notes garden is full but the gospel rarely leaves my mouth - hearing without doing is hoarding truth like bookmarks instead of making disciples.
+- I knew the basketball handbook cold and still yelled at the ref - discipleship isn't memorizing policy, it's doing what the coach actually taught today.
+- I had grace clear in my head and zero change in how I treated people at the front desk - following Jesus is messy daily obedience, not a badge from one training day.
+- I taught my kid the memory verse and still snapped over spilled milk - discipleship isn't a badge from one altar call, it's doing what Jesus said today.
+- My notes garden is full but the gospel rarely leaves my mouth - hearing without doing is hoarding truth like bookmarks instead of making disciples.
+- Grace saved me but life looks unchanged - obedience treated like optional extra. What's discipleship - Follow daily - grateful walk, not optional.
 
 ## Note Relationships
 
@@ -45,7 +46,7 @@ Under [[Free Grace]], discipleship is grateful response, not payment. [[Repent a
 |--------------|----------|--------|
 | alternative | [[The Collector's Fallacy]] | when I hoard teaching without obeying or sharing |
 | contradicts | [[There Is No Perfect Solution]] | when I delay following until I've fixed myself |
-| extends | [[Free Grace]] | Following is the grateful walk after faith saves — obedience doesn't buy eternal life |
+| extends | [[Free Grace]] | Following is the grateful walk after faith saves - obedience doesn't buy eternal life |
 | extends | [[Repent and Believe]] | Turn and trust is where discipleship starts |
 ## See also
 

@@ -34,10 +34,11 @@ Peacemaking is work: reconciliation, truth spoken in love, de-escalation when ot
 
 ## Examples
 
-- **Sports:** Two teammates were feuding in the locker room - I didn't pick a side, I asked what it would take to fix it before the next game.
-- **Non-technical work:** Two coworkers wanted me to pick a side over lunch - I called the one I wronged first and asked what it would take to actually fix things.
-- **Home with children:** Two friends feuding at dinner wanted me to pick a side - I called the one I wronged first and asked how to fix it, not keep the room quiet.
-- **Real world:** Neighbors were arguing over the fence line - I offered to measure together instead of nodding along with whoever complained loudest.
+- Two teammates were feuding in the locker room - I didn't pick a side, I asked what it would take to fix it before the next game.
+- Two coworkers wanted me to pick a side over lunch - I called the one I wronged first and asked what it would take to actually fix things.
+- Two friends feuding at dinner wanted me to pick a side - I called the one I wronged first and asked how to fix it, not keep the room quiet.
+- Neighbors were arguing over the fence line - I offered to measure together instead of nodding along with whoever complained loudest.
+- Hard truth needs saying but I soft-pedal to avoid fight. What am I called to - Peace through truth in love.
 
 ## Note Relationships
 

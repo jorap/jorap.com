@@ -17,10 +17,10 @@ Twelve-week years compress annual goals into quarters I actually feel. I map wik
 
 ## Examples
 
-- **Sports:** "Fix our free-throw rate" lived as a someday goal until I gave it twelve weeks and a scoreboard on the locker - week ten finally bit.
-- **Non-technical work:** "Hire and train" was vague until the twelve-week arc had weekly numbers - the quarter I actually feel, not January 1st fiction.
-- **Home with children:** I'd been treating "clear the garage" like a someday project - twelve weeks and a fridge scoreboard; week ten the boxes finally moved.
-- **Real world:** The wiki refactor got a twelve-week arc instead of "when I have time" - compressed goal I could see closing.
+- "Fix our free-throw rate" lived as a someday goal until I gave it twelve weeks and a scoreboard on the locker - week ten finally bit.
+- "Hire and train" was vague until the twelve-week arc had weekly numbers - the quarter I actually feel, not January 1st fiction.
+- The wiki refactor got a twelve-week arc instead of "when I have time" - compressed goal I could see closing.
+- I'd been treating "clear the garage" like a someday project - twelve weeks and a fridge scoreboard; week ten the boxes finally moved.
 
 ## Note Relationships
 

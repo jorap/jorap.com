@@ -34,10 +34,11 @@ Jesus elevates restored relationship over religious performance. Worship with an
 
 ## Examples
 
-- **Sports:** I warmed up ready to compete while my teammate still had something against me from Wednesday - fix it courtside, then play.
-- **Non-technical work:** I walked into the volunteer shift ready to serve while my co-worker still had something against me - five minutes in the parking lot first.
-- **Home with children:** I walked into church ready to sing while my brother still had something against me - leave the gift, go fix it, then come back.
-- **Real world:** I arrived at the family reunion ready to mingle while my sister was still cold from last month - one honest conversation before the group photo.
+- I warmed up ready to compete while my teammate still had something against me from Wednesday - fix it courtside, then play.
+- I walked into the volunteer shift ready to serve while my co-worker still had something against me - five minutes in the parking lot first.
+- I walked into church ready to sing while my brother still had something against me - leave the gift, go fix it, then come back.
+- I arrived at the family reunion ready to mingle while my sister was still cold from last month - one honest conversation before the group photo.
+- Sunday worship while avoiding someone I wronged. What breaks - Empty worship - go fix it first.
 
 ## Note Relationships
 
@@ -46,7 +47,7 @@ Jesus elevates restored relationship over religious performance. Worship with an
 | contradicts | [[Love God]] | when I prioritize ceremony over the neighbor I've wronged |
 | extends | [[Free Grace]] | Fellowship gets repaired before worship; grace already settled your standing with God |
 | extends | [[Listen Before Fixing]] | Repair starts by hearing what still hurts |
-| implements | [[Follow Their Lead]] | Leave the altar — go on their thread first |
+| implements | [[Follow Their Lead]] | Leave the altar - go on their thread first |
 ## See also
 
 - [[Note Relationships]] - Linking, Note Taking, PKM

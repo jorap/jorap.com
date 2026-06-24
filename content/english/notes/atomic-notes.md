@@ -36,10 +36,11 @@ Small notes stack like Lego blocks - claim, how-to, example - linked, not merged
 
 ## Examples
 
-- **Sports:** "Why my basketball shoes live by the door" is one claim - I'd say it alone at carpool.
-- **Non-technical work:** "How we hand off the closing shift" is one claim; "closing checklist and vendor call list" is two - split them.
-- **Home with children:** "Why lunch boxes get packed the night before" is atomic; "lunch packing and homework folder tips" is not - link the second idea elsewhere.
-- **Real world:** "Where we meet if the elevator is out" is one claim; "elevator outage and parking-gate codes" is two - split and wikilink.
+- "Why my basketball shoes live by the door" is one claim - I'd say it alone at carpool.
+- "How we hand off the closing shift" is one claim; "closing checklist and vendor call list" is two - split them.
+- "Why lunch boxes get packed the night before" is atomic; "lunch packing and homework folder tips" is not - link the second idea elsewhere.
+- "Where we meet if the elevator is out" is one claim; "elevator outage and parking-gate codes" is two - split and wikilink.
+- Tempted to organize with headings inside one file instead of links. What do I use - Wikilinks between notes.
 
 ## Note Relationships
 

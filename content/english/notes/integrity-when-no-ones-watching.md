@@ -19,10 +19,10 @@ Performance for the standup is its own reward and a small one. Some good work sh
 
 ## Examples
 
-- **Sports:** I logged the full practice hours when nobody audits the sheet - integrity when no one's watching is the hidden lane.
-- **Non-technical work:** The market scale stays honest when the seller steps away to take a call - I could've scooped light on the last bag of rice; instead I re-weighed it before the customer came back.
-- **Home with children:** I ran the real spelling check on the homework when my kid wasn't looking over my shoulder - accurate work when there's no audience.
-- **Real world:** I closed the support ticket correctly even though nobody would audit it this week - the test isn't the all-hands slide.
+- I logged the full practice hours when nobody audits the sheet - integrity when no one's watching is the hidden lane.
+- The market scale stays honest when the seller steps away to take a call - I could've scooped light on the last bag of rice; instead I re-weighed it before the customer came back.
+- I ran the real spelling check on the homework when my kid wasn't looking over my shoulder - accurate work when there's no audience.
+- I closed the support ticket correctly even though nobody would audit it this week - the test isn't the all-hands slide.
 
 ## Note Relationships
 
@@ -30,8 +30,8 @@ Performance for the standup is its own reward and a small one. Some good work sh
 |--------------|----------|--------|
 | alternative | [[Let Your Light Shine]] | Hidden quality vs visible good works when the audience differs |
 | contradicts | [[Drafting in Public]] | when every act of work becomes content for applause |
-| extends | [[Integrity]] | General integrity claim — this note is the workplace lane |
-| extends | [[Secret Devotion]] | Devotion for God's eyes alone — here, honest craft without an audience |
+| extends | [[Integrity]] | General integrity claim - this note is the workplace lane |
+| extends | [[Secret Devotion]] | Devotion for God's eyes alone - here, honest craft without an audience |
 ## See also
 
 - [[Workplace Principles]] - Ethics, Eternal Principles, Workplace

@@ -77,31 +77,35 @@ title = "Work I Take On"
 lede = "What freelance clients usually hire me for."
 
 [[home_scope.items]]
-title = "Hosting, sites & email"
-description = "Linux hosting, websites, and business email - setup, moves, and the problems that show up after go-live."
-
-[[home_scope.items]]
 title = "WordPress & static sites"
 description = "WordPress builds, theme work, and static site generators like Hugo - fast sites without the usual hosting headaches."
+
+[[home_scope.items]]
+title = "Hosting, sites & email"
+description = "Linux hosting, websites, and business email - setup, moves, and the problems that show up after go-live."
 
 [[home_scope.items]]
 title = "Migrations & upkeep"
 description = "Hosting moves, CMS migrations, core and plugin updates, and theme customizations."
 
+[[home_scope.items]]
+title = "Team training"
+description = "Classroom, video conference, and hands-on sessions on the tools your team actually uses."
+
 [home_blog]
 post_limit = 5
-section_title = "Selected Posts"
-view_all_label = "View All Posts"
+section_title = "Writing for site owners"
+view_all_label = "View all posts"
 post_slugs = [
   "consistent-ai-output-wordpress-builds",
-  "how-i-built-jorap-notes",
-  "hugoplate-theme-review",
   "top-reasons-create-maintain-your-own-website",
-  "power-of-the-mouse-wheel-click",
+  "facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience",
+  "top-reasons-why-you-still-need-use-desktop-laptop",
+  "getting-started-with-rss-feeds-a-beginners-guide",
 ]
 
 [home_proof]
-enable = true
+enable = false
 title = "What You Actually Get"
 lede = "Three skills that usually land on the same project."
 

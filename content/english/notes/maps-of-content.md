@@ -113,7 +113,7 @@ status: evergreen
 | alternative | [[Graph View Analytics]] | Curated index vs link rank when judgment beats counts |
 | contradicts | [[Atomic Notes]] | when an index gathers claims that should stay atomic |
 | extends | [[Active Knowledge Curation]] | MOCs are hand-built hubs that curate what you actually care about after you prune |
-| extends | [[Table of Contents]] | Hand-written TOC — what a MOC is at heart |
+| extends | [[Table of Contents]] | Hand-written TOC - what a MOC is at heart |
 | implements | [[Active Knowledge Curation]] | Hand-built hub carries curator work into one doorway |
 ## See also
 

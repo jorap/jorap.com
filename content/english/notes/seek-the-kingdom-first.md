@@ -34,10 +34,11 @@ The Sermon on the Mount ties this to not serving two masters (God and wealth) an
 
 ## Examples
 
-- **Sports:** The goalie stretches before the locker-room noise - kingdom first is ten minutes of calm before the game sets the tone.
-- **Non-technical work:** The bakery owner opens with a short prayer before the ovens - feed the kingdom line before the invoice pile.
-- **Home with children:** Tuesday at 7am the house was loud and my Bible was still closed - seek the kingdom first is Scripture before the day's noise sets the agenda.
-- **Real world:** Anxiety had me scrolling finances before I prayed - kingdom first meant pray, then act on the bills.
+- Tuesday at 7am the house was loud and my Bible was still closed - seek the kingdom first is Scripture before the day's noise sets the agenda.
+- Anxiety had me scrolling finances before I prayed - kingdom first meant pray, then act on the bills.
+- The goalie stretches before the locker-room noise - kingdom first is ten minutes of calm before the game sets the tone.
+- The bakery owner opens with a short prayer before the ovens - feed the kingdom line before the invoice pile.
+- Tuesday 7am, inbox calling before work. One move that puts God's reign first - Scripture or prayer before inbox.
 
 ## Note Relationships
 

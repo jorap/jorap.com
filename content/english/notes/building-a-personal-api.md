@@ -17,10 +17,10 @@ My personal API isn't OAuth - it's consistent frontmatter, wikilinks, and folder
 
 ## Examples
 
-- **Sports:** Our team names drills the same way every season - level, skill, variation - so a sub can run practice without a twenty-minute briefing.
-- **Non-technical work:** The warehouse labels every bin the same way - aisle, shelf, code - so a new hire finds parts without asking, not a tour from the veteran.
-- **Home with children:** Our pantry uses the same rule - snacks, baking, breakfast - my wife finds the rice without me re-explaining where everything lives.
-- **Real world:** My notes use consistent slugs and wikilinks so future me and my tools can read the garden without me re-explaining every file from scratch.
+- Our pantry uses the same rule - snacks, baking, breakfast - my wife finds the rice without me re-explaining where everything lives.
+- My notes use consistent slugs and wikilinks so future me and my tools can read the garden without me re-explaining every file from scratch.
+- Our team names drills the same way every season - level, skill, variation - so a sub can run practice without a twenty-minute briefing.
+- The warehouse labels every bin the same way - aisle, shelf, code - so a new hire finds parts without asking, not a tour from the veteran.
 
 ## Note Relationships
 
@@ -29,7 +29,7 @@ My personal API isn't OAuth - it's consistent frontmatter, wikilinks, and folder
 | alternative | [[Local-first Software]] | Structured API vs plain files when sync layers multiply |
 | contradicts | [[Digital Minimalism]] | when structured context beats fewer moving parts |
 | extends | [[Metadata Strategy]] | Consistent frontmatter turns your notes into something tools can read without you re-explaining |
-| extends | [[Webhooks]] | Push events out — API glue this note imagines |
+| extends | [[Webhooks]] | Push events out - API glue this note imagines |
 ## See also
 
 - [[Building a Second Brain]] - Knowledge Management, PKM, Second Brain

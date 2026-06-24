@@ -1,7 +1,7 @@
 ---
 title: "Second-Order Thinking"
 meta_title: "Second-Order Thinking - Ask What Happens Next"
-description: "Second-order thinking asks what happens after the first consequence — not only whether the move works today."
+description: "Second-order thinking asks what happens after the first consequence - not only whether the move works today."
 date: 2026-06-22T08:00:00Z
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
@@ -13,14 +13,14 @@ status: evergreen
 draft: false
 aliases: ["second order effects"]
 ---
-**Second-order thinking** = ask what happens after the first win — incentives shift, copycats arrive, shortcuts compound.
+**Second-order thinking** = ask what happens after the first win - incentives shift, copycats arrive, shortcuts compound.
 
 ## Examples
 
-- **Sports:** Free pizza after games pulled families in - then the parking lot jammed and refs quit early - I asked what happens after the first rush.
-- **Non-technical work:** Free cookies at the door pull kids in - then the line blocks serious shoppers and staff burns out on samples.
-- **Home with children:** I offered unlimited screen time on sick days - then bedtime fights lasted a week after they recovered.
-- **Real world:** The shortcut shaves ten minutes until the construction zone adds twenty - I asked what happens after Tuesday's win.
+- Free pizza after games pulled families in - then the parking lot jammed and refs quit early - I asked what happens after the first rush.
+- I offered unlimited screen time on sick days - then bedtime fights lasted a week after they recovered.
+- The shortcut shaves ten minutes until the construction zone adds twenty - I asked what happens after Tuesday's win.
+- Free cookies at the door pull kids in - then the line blocks serious shoppers and staff burns out on samples.
 
 ## Note Relationships
 

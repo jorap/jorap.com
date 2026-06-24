@@ -1,7 +1,7 @@
 ---
 title: "Deep Work"
 meta_title: "Deep Work"
-description: "long, uninterrupted focus on hard thinking — Cal Newport's term for the opposite of fragment."
+description: "long, uninterrupted focus on hard thinking - Cal Newport's term for the opposite of fragment."
 date: 2026-06-22T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
@@ -13,14 +13,14 @@ status: seedling
 draft: false
 aliases: []
 ---
-**Deep work** = long, uninterrupted focus on hard thinking — Cal Newport's term for the opposite of fragment.
+**Deep work** = long, uninterrupted focus on hard thinking - Cal Newport's term for the opposite of fragment.
 
 ## Examples
 
-- **Sports:** Phone in the gym bag for ninety minutes - one drill breakdown written that'd been "almost done" for weeks.
-- **Non-technical work:** Door closed, notifications off for one patient chart review - the error I'd been rushing past finally showed up.
-- **Home with children:** Phone in the drawer while I help with math - one problem set actually finished instead of three distracted false starts.
-- **Real world:** Phone in the drawer for ninety minutes - one note drafted that'd been "almost done" for weeks.
+- Phone in the drawer while I help with math - one problem set actually finished instead of three distracted false starts.
+- Phone in the gym bag for ninety minutes - one drill breakdown written that'd been "almost done" for weeks.
+- Door closed, notifications off for one patient chart review - the error I'd been rushing past finally showed up.
+- Phone in the drawer for ninety minutes - one note drafted that'd been "almost done" for weeks.
 
 ## Note Relationships
 

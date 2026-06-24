@@ -13,28 +13,28 @@ status: evergreen
 draft: false
 aliases: ["life over achievement", "no achievement justifies death risk"]
 ---
-**Life before achievement** = human life stays a non-negotiable constraint — even when the goal is a championship, team unity, or a reputation for toughness.
+**Life before achievement** = human life stays a non-negotiable constraint - even when the goal is a championship, team unity, or a reputation for toughness.
 
 Those goals have value only while the methods used to reach them respect safety. When an activity offers limited benefit but carries an avoidable risk of irreversible harm, leaders choose the safer course.
 
 ## Examples
 
-- **Sports:** The coach canceled cliff-jump team-building when the park picnic hit bonding without a credible broken-leg risk - unity doesn't require a stunt.
-- **Non-technical work:** The school canceled the cliff-jump field trip when the park picnic hit the same bonding goal without a credible risk of a broken leg.
-- **Home with children:** I said no to the backyard rope swing over concrete when a low tree branch and mat did the same fun with softer landings.
-- **Real world:** The scout leader picked the flat trail hike instead of the ridge walk when both got the badge and only one had a drop with no guardrail.
+- I said no to the backyard rope swing over concrete when a low tree branch and mat did the same fun with softer landings.
+- The coach canceled cliff-jump team-building when the park picnic hit bonding without a credible broken-leg risk - unity doesn't require a stunt.
+- The school canceled the cliff-jump field trip when the park picnic hit the same bonding goal without a credible risk of a broken leg.
+- The scout leader picked the flat trail hike instead of the ridge walk when both got the badge and only one had a drop with no guardrail.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| alternative | [[Reversibility]] | Prefer reversible tradeoffs when stakes are high — death isn't reversible |
+| alternative | [[Reversibility]] | Prefer reversible tradeoffs when stakes are high - death isn't reversible |
 | contradicts | [[Outcomes Over Pitch Decks]] | when judging by results would excuse lethal methods that "worked" |
 | extends | [[Develop, Don't Endanger]] | Growth goals don't outrank staying alive |
-| extends | [[Duty of Care]] | Non-negotiable floor — care of persons beats the scoreboard |
+| extends | [[Duty of Care]] | Non-negotiable floor - care of persons beats the scoreboard |
 | extends | [[Eliminate Before Managing]] | Choose the safer activity before debating how to supervise the lethal one |
 | extends | [[Ethical Leadership]] | The leader who holds the line when the room wants spectacle |
-| extends | [[Workplace Principles]] | Same ethics lane — plain language for teams that won't open a safety manual |
+| extends | [[Workplace Principles]] | Same ethics lane - plain language for teams that won't open a safety manual |
 ## See also
 
 - [[Heed Every Near-Miss]] - Leadership, Risk Management, Safety

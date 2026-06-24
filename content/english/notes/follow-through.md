@@ -1,7 +1,7 @@
 ---
 title: "Follow-Through"
 meta_title: "Follow-Through - The Steps After the Promise"
-description: "Follow-through is everything that happens after you said yes — the recap, the ticket, the check-in."
+description: "Follow-through is everything that happens after you said yes - the recap, the ticket, the check-in."
 date: 2026-06-22T08:00:00Z
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
@@ -13,14 +13,14 @@ status: evergreen
 draft: false
 aliases: []
 ---
-**Follow-through** = the work after the handshake — recap, owners, dates, verification.
+**Follow-through** = the work after the handshake - recap, owners, dates, verification.
 
 ## Examples
 
-- **Sports:** The captain said "we'll fix the rotation" without naming who covers which shift - follow-through was the recap with owners and dates before anyone left the gym.
-- **Non-technical work:** "I'll look into it" without a date is how school projects die after the group chat goes quiet - follow-through is the recap with owners and dates before anyone leaves the parking lot.
-- **Home with children:** I told my kid I'd help with the project "soon" and watched it die in the backpack - follow-through was naming when and what I'd bring to the table.
-- **Real world:** The plumber texting "en route" beats "soon" - follow-through is everything after you said yes, including the check-in that proves you meant it.
+- "I'll look into it" without a date is how school projects die after the group chat goes quiet - follow-through is the recap with owners and dates before anyone leaves the parking lot.
+- I told my kid I'd help with the project "soon" and watched it die in the backpack - follow-through was naming when and what I'd bring to the table.
+- The captain said "we'll fix the rotation" without naming who covers which shift - follow-through was the recap with owners and dates before anyone left the gym.
+- The plumber texting "en route" beats "soon" - follow-through is everything after you said yes, including the check-in that proves you meant it.
 
 ## Note Relationships
 

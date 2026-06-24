@@ -32,10 +32,11 @@ Collecting articles feels like progress. It isn't. The collector's fallacy bit m
 
 ## Examples
 
-- **Sports:** My folder had forty highlight reels and we still ran the same broken play - saving felt like improving; it wasn't until one clip became Tuesday's drill.
-- **Non-technical work:** My recipe folder had forty saved dinners and we still ordered takeout three nights a week until I tied every save to one cooked meal.
-- **Home with children:** Dozens of saved craft ideas on Pinterest and we still bought the birthday cake - collecting isn't the party until something leaves the screen.
-- **Real world:** Bookmark hoard growing with no ship date - saving articles felt like learning until I tied each save to what I'd actually make.
+- My recipe folder had forty saved dinners and we still ordered takeout three nights a week until I tied every save to one cooked meal.
+- Bookmark hoard growing with no ship date - saving articles felt like learning until I tied each save to what I'd actually make.
+- My folder had forty highlight reels and we still ran the same broken play - saving felt like improving; it wasn't until one clip became Tuesday's drill.
+- Dozens of saved craft ideas on Pinterest and we still bought the birthday cake - collecting isn't the party until something leaves the screen.
+- Reading list grows but nothing ships. One question before every save - What will I make with this?
 
 ## Note Relationships
 
@@ -43,8 +44,8 @@ Collecting articles feels like progress. It isn't. The collector's fallacy bit m
 |--------------|----------|--------|
 | alternative | [[Capture]] | Hoard without express vs disciplined inbox when saving feels like progress |
 | contradicts | [[Capture]] | when skipping the save kills a spark I'll actually ship from |
-| extends | [[Creative Output]] | Saving articles feels like progress but isn't — tie saves to express deadlines or hoard forever |
-| extends | [[Read Later Queue]] | Where hoarding hides — pile without express |
+| extends | [[Creative Output]] | Saving articles feels like progress but isn't - tie saves to express deadlines or hoard forever |
+| extends | [[Read Later Queue]] | Where hoarding hides - pile without express |
 ## See also
 
 - [[Treasure in Heaven]] - Eternal Principles, Gospel, Priorities

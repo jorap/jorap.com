@@ -19,10 +19,10 @@ Future-proofing isn't predicting tech for me - it's plain text, open tools, and 
 
 ## Examples
 
-- **Sports:** The team roster lives in a shared spreadsheet, not a app that might shut down - boring format I can open anywhere.
-- **Non-technical work:** Grandma's recipes are on index cards in a tin, not an app that might shut down.
-- **Home with children:** Our family contacts list is plain text on the fridge backup folder - I copy it twice a year so future-proof isn't just a vibe.
-- **Real world:** My notes live as plain text I can open anywhere; I test the backup drive before I need it, not after an app dies.
+- The team roster lives in a shared spreadsheet, not a app that might shut down - boring format I can open anywhere.
+- Our family contacts list is plain text on the fridge backup folder - I copy it twice a year so future-proof isn't just a vibe.
+- My notes live as plain text I can open anywhere; I test the backup drive before I need it, not after an app dies.
+- Grandma's recipes are on index cards in a tin, not an app that might shut down.
 
 ## Note Relationships
 

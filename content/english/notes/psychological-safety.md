@@ -17,10 +17,10 @@ aliases: []
 
 ## Examples
 
-- **Sports:** The rookie admitted he ran the wrong route - coach thanked the catch in film review, not humiliated him in front of everyone.
-- **Non-technical work:** The nurse reported the near-mix-up because the charge nurse thanked the catch, not the messenger.
-- **Home with children:** My kid told me he broke the vase - I thanked him for saying it instead of making him dread confessing next time.
-- **Real world:** I named the wrong turn to my carpool - nobody mocked it, so I speak up before the next missed exit.
+- My kid told me he broke the vase - I thanked him for saying it instead of making him dread confessing next time.
+- I named the wrong turn to my carpool - nobody mocked it, so I speak up before the next missed exit.
+- The rookie admitted he ran the wrong route - coach thanked the catch in film review, not humiliated him in front of everyone.
+- The nurse reported the near-mix-up because the charge nurse thanked the catch, not the messenger.
 
 ## Note Relationships
 

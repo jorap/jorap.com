@@ -13,14 +13,14 @@ status: evergreen
 draft: false
 aliases: []
 ---
-**Composure** = steady tone and pace when the room isn't — people read calm as competence.
+**Composure** = steady tone and pace when the room isn't - people read calm as competence.
 
 ## Examples
 
-- **Sports:** A referee stays calm when players yell - not because the foul didn't matter, but because the room takes cues from the steadiest person on the floor.
-- **Non-technical work:** I used the same move in a heated parent meeting - slower speech, one clarifying question, no matching their volume.
-- **Home with children:** My kid was melting down at bedtime and I kept my voice flat - composure isn't pretending nothing happened, it's staying readable when the room isn't.
-- **Real world:** The neighbor argument on the group chat heated up and I waited one beat before replying - people read calm as competence even when the issue is real.
+- The neighbor argument on the group chat heated up and I waited one beat before replying - people read calm as competence even when the issue is real.
+- I used the same move in a heated parent meeting - slower speech, one clarifying question, no matching their volume.
+- My kid was melting down at bedtime and I kept my voice flat - composure isn't pretending nothing happened, it's staying readable when the room isn't.
+- A referee stays calm when players yell - not because the foul didn't matter, but because the room takes cues from the steadiest person on the floor.
 
 ## Note Relationships
 

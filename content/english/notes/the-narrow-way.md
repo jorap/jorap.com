@@ -34,10 +34,11 @@ In [[Free Grace]] terms, the narrow gate is [[Free Grace]] in Christ - not the b
 
 ## Examples
 
-- **Sports:** Everyone cheered the dirty play that won - the narrow way was passing it up when the ref didn't see, even alone on the bench.
-- **Non-technical work:** The whole shop pads hours; the narrow way is logging honestly when nobody audits - crowded broad road, lonely honest one.
-- **Home with children:** Everyone around me was taking the easy road on something I know Jesus said no to - the crowd made it feel normal; narrow is hard now, life at the end.
-- **Real world:** Group chat gossip was "just joking" - narrow way was not forwarding the screenshot even when staying out made me the odd one.
+- Group chat gossip was "just joking" - narrow way was not forwarding the screenshot even when staying out made me the odd one.
+- Everyone around me was taking the easy road on something I know Jesus said no to - the crowd made it feel normal; narrow is hard now, life at the end.
+- Everyone cheered the dirty play that won - the narrow way was passing it up when the ref didn't see, even alone on the bench.
+- The whole shop pads hours; the narrow way is logging honestly when nobody audits - crowded broad road, lonely honest one.
+- Comfortable path everyone else is on. Which gate am I choosing - Narrow - hard road, life at the end.
 
 ## Note Relationships
 

@@ -17,10 +17,10 @@ aliases: []
 
 ## Examples
 
-- **Sports:** My teammate wanted to run a inbound play I'd never seen - I ran it once before I told him how I'd do it. Connection first, critique second.
-- **Non-technical work:** A coworker walked me through how she tracks patient callbacks - I watched the whole spreadsheet before I offered to reorder her columns.
-- **Home with children:** My kid invented new rules for a card game - I played their version instead of stopping mid-hand to teach "real" rules.
-- **Real world:** Coffee with a friend who needed to talk about her mother-in-law - I stayed on her thread instead of pivoting to my own week.
+- My teammate wanted to run a inbound play I'd never seen - I ran it once before I told him how I'd do it. Connection first, critique second.
+- A coworker walked me through how she tracks patient callbacks - I watched the whole spreadsheet before I offered to reorder her columns.
+- My kid invented new rules for a card game - I played their version instead of stopping mid-hand to teach "real" rules.
+- Coffee with a friend who needed to talk about her mother-in-law - I stayed on her thread instead of pivoting to my own week.
 
 ## Note Relationships
 

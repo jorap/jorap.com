@@ -1,7 +1,7 @@
 ---
 title: "Reversibility"
 meta_title: "Reversibility"
-description: "prefer choices you can undo — irreversible harm needs a higher bar."
+description: "prefer choices you can undo - irreversible harm needs a higher bar."
 date: 2026-06-22T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
@@ -13,14 +13,14 @@ status: seedling
 draft: false
 aliases: []
 ---
-**Reversibility** = prefer choices you can undo — irreversible harm needs a higher bar.
+**Reversibility** = prefer choices you can undo - irreversible harm needs a higher bar.
 
 ## Examples
 
-- **Sports:** Try the new play in scrimmage before running it in the championship - reversible rehearsal, higher bar for the irreversible call.
-- **Non-technical work:** Test the recipe at half batch before the wedding order - undo-able trial, not fifty servings of guesswork.
-- **Home with children:** Try the haircut at home with clippers that still leave length - not the zero guard first.
-- **Real world:** I took the longer route with an exit every mile before trying the new shortcut through construction.
+- I took the longer route with an exit every mile before trying the new shortcut through construction.
+- Try the new play in scrimmage before running it in the championship - reversible rehearsal, higher bar for the irreversible call.
+- Test the recipe at half batch before the wedding order - undo-able trial, not fifty servings of guesswork.
+- Try the haircut at home with clippers that still leave length - not the zero guard first.
 
 ## Note Relationships
 

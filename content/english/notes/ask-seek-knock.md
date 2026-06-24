@@ -34,10 +34,11 @@ Jesus compares God to a parent who gives bread, not a stone. The [[Ask Seek Knoc
 
 ## Examples
 
-- **Sports:** Before a big match I pray like a kid who won't stop knocking - not because I earned answers, but because He's Dad and I'm already in the house.
-- **Non-technical work:** The clinic chaplain rounds every floor on a schedule, not only when someone codes - ask, seek, knock is keep showing up, not one crisis visit.
-- **Home with children:** My daughter asks for help with homework without calculating whether she deserves it - same posture I need with the Father, keep coming like a child who belongs.
-- **Real world:** I thumb-refresh the news about tomorrow's meeting instead of asking - prayer is dependence, not bargaining for merit I already have under grace.
+- I thumb-refresh the news about tomorrow's meeting instead of asking - prayer is dependence, not bargaining for merit I already have under grace.
+- The clinic chaplain rounds every floor on a schedule, not only when someone codes - ask, seek, knock is keep showing up, not one crisis visit.
+- Before a big match I pray like a kid who won't stop knocking - not because I earned answers, but because He's Dad and I'm already in the house.
+- My daughter asks for help with homework without calculating whether she deserves it - same posture I need with the Father, keep coming like a child who belongs.
+- Email and inbox before any quiet time with God most mornings. How do I keep approaching the Father - Ask, seek, knock - keep coming.
 
 ## Note Relationships
 

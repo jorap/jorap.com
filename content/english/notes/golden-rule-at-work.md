@@ -19,10 +19,10 @@ It's active, not passive: do the helpful thing, don't only avoid harm. The check
 
 ## Examples
 
-- **Sports:** My draft reply to the new team manager was technically right and needlessly harsh - I paused, asked how I'd want that correction on my worst game day, and rewrote it.
-- **Non-technical work:** My draft reply to a new cashier was technically right and needlessly harsh - I paused, asked how I'd want that correction on my worst shift, and rewrote it before the thread in the break room got worse.
-- **Home with children:** I was about to snap at my kid over spilled milk - golden rule at work is the home version too: how would I want that mistake handled on my worst morning?
-- **Real world:** The group chat pile-on about the neighbor's messy yard - I asked how I'd want feedback if my lawn looked that way, then said nothing mean.
+- My draft reply to the new team manager was technically right and needlessly harsh - I paused, asked how I'd want that correction on my worst game day, and rewrote it.
+- The group chat pile-on about the neighbor's messy yard - I asked how I'd want feedback if my lawn looked that way, then said nothing mean.
+- My draft reply to a new cashier was technically right and needlessly harsh - I paused, asked how I'd want that correction on my worst shift, and rewrote it before the thread in the break room got worse.
+- I was about to snap at my kid over spilled milk - golden rule at work is the home version too: how would I want that mistake handled on my worst morning?
 
 ## Note Relationships
 
@@ -31,7 +31,7 @@ It's active, not passive: do the helpful thing, don't only avoid harm. The check
 | alternative | [[Love Your Enemies]] | Fair treatment for allies vs harder love when someone actively opposes you |
 | contradicts | [[Pareto Principle]] | when I optimize for my 20% and treat the other 80% as disposable |
 | extends | [[Follow Their Lead]] | Reverse roles includes entering their thread first |
-| extends | [[Listen Before Fixing]] | Treat them how I'd want — heard before fixed |
+| extends | [[Listen Before Fixing]] | Treat them how I'd want - heard before fixed |
 | extends | [[The Golden Rule]] | Same ethic with meeting-room language instead of sermon vocabulary |
 ## See also
 

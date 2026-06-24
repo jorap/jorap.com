@@ -1,7 +1,7 @@
 ---
 title: "Build a Reliable Default"
 meta_title: "Build a Reliable Default - What You Do When There's No Time"
-description: "Under pressure you fall back on what's most practiced — make that fallback simple and dependable."
+description: "Under pressure you fall back on what's most practiced - make that fallback simple and dependable."
 date: 2026-06-22T08:00:00Z
 image: "/images/note.jpg"
 categories: ["Ideas", "Leadership", "Tips"]
@@ -15,14 +15,14 @@ aliases: ["reliable default under pressure"]
 ---
 **Build a reliable default** = when time, information, confidence, or energy runs short, you fall back on what's most practiced.
 
-Make that fallback a simple, dependable response — rehearsed enough to run when thinking is thin.
+Make that fallback a simple, dependable response - rehearsed enough to run when thinking is thin.
 
 ## Examples
 
-- **Sports:** The point guard doesn't invent a new inbound play when the gym gets loud - she runs the one they drilled Tuesday. Same move until panic day isn't day one.
-- **Non-technical work:** The clinic front desk doesn't make up triage order when three walk-ins arrive - they run the laminated sheet taped by the phone. One script, no guessing.
-- **Home with children:** Our family fire plan is one page on the fridge: two exits, where we meet, who grabs the baby. Last blackout, my kid ran it half-asleep and nobody guessed.
-- **Real world:** The building guard doesn't improvise evacuation when the alarm trips - he walks the posted route he practiced on quiet shifts. Rehearsed beats invented.
+- The clinic front desk doesn't make up triage order when three walk-ins arrive - they run the laminated sheet taped by the phone. One script, no guessing.
+- Our family fire plan is one page on the fridge: two exits, where we meet, who grabs the baby. Last blackout, my kid ran it half-asleep and nobody guessed.
+- The point guard doesn't invent a new inbound play when the gym gets loud - she runs the one they drilled Tuesday. Same move until panic day isn't day one.
+- The building guard doesn't improvise evacuation when the alarm trips - he walks the posted route he practiced on quiet shifts. Rehearsed beats invented.
 
 ## Note Relationships
 

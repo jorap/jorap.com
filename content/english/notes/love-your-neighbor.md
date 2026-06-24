@@ -34,10 +34,11 @@ Jesus lifted Leviticus 19:18 to equal rank with loving God. The parable of the G
 
 ## Examples
 
-- **Sports:** The parent I'd rather avoid sits on my side every game - I moved my chair over and asked how his kid's ankle was healing.
-- **Non-technical work:** The neighbor I'd rather avoid lives two doors down and his trash bins are always in my way - Jesus asked whether I'm acting like a neighbor, the way I'd want if I were stuck.
-- **Home with children:** The kid down the street breaks our fence latch weekly - I fixed it again because I'd want someone to do that if our dog kept escaping.
-- **Real world:** The woman dropped her bags at the elevator - I held the door and carried one up because I'd want that if I were her.
+- The parent I'd rather avoid sits on my side every game - I moved my chair over and asked how his kid's ankle was healing.
+- The neighbor I'd rather avoid lives two doors down and his trash bins are always in my way - Jesus asked whether I'm acting like a neighbor, the way I'd want if I were stuck.
+- The kid down the street breaks our fence latch weekly - I fixed it again because I'd want someone to do that if our dog kept escaping.
+- The woman dropped her bags at the elevator - I held the door and carried one up because I'd want that if I were her.
+- Mental loop: do they qualify as neighbor? Flip the question - what do I ask instead - Am I being neighbor to them?
 
 ## Note Relationships
 

@@ -17,10 +17,10 @@ aliases: []
 
 ## Examples
 
-- **Sports:** Walking off the field I dictated the fix for tomorrow's drill - hands busy, idea captured before it evaporated.
-- **Non-technical work:** Driving between sites I voice-memo'd the supplier change - transcribed into the inbox when I parked.
-- **Home with children:** Hands full of groceries, I dictated "email teacher about field trip" into the phone before I forgot in the door scramble.
-- **Real world:** Driving home from clinic I dictated the thought into the phone - transcribed later into the inbox.
+- Driving between sites I voice-memo'd the supplier change - transcribed into the inbox when I parked.
+- Driving home from clinic I dictated the thought into the phone - transcribed later into the inbox.
+- Walking off the field I dictated the fix for tomorrow's drill - hands busy, idea captured before it evaporated.
+- Hands full of groceries, I dictated "email teacher about field trip" into the phone before I forgot in the door scramble.
 
 ## Note Relationships
 

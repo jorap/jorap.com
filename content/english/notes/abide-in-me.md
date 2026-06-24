@@ -34,10 +34,11 @@ Abiding is ongoing dependence, not a one-time conversion event. Pruning hurts bu
 
 ## Examples
 
-- **Sports:** After a losing streak our captain stopped inventing new speeches and returned to the basics we drilled in preseason - fruit from staying connected to the system, not one heroic rant.
-- **Non-technical work:** The bakery owner opens the shop with ten minutes of quiet before the rush - same posture, different room; fruit from staying connected, not from one heroic Saturday.
-- **Home with children:** I snap at my kid after a week with almost no prayer or Scripture, and I know where the fruit went - abiding is opening the Bible before the news feed wins again.
-- **Real world:** I checked email three times before I prayed this morning and wondered why God felt far away - staying connected is the daily choice, not the badge from conversion day.
+- I snap at my kid after a week with almost no prayer or Scripture, and I know where the fruit went - abiding is opening the Bible before the news feed wins again.
+- I checked email three times before I prayed this morning and wondered why God felt far away - staying connected is the daily choice, not the badge from conversion day.
+- After a losing streak our captain stopped inventing new speeches and returned to the basics we drilled in preseason - fruit from staying connected to the system, not one heroic rant.
+- The bakery owner opens the shop with ten minutes of quiet before the rush - same posture, different room; fruit from staying connected, not from one heroic Saturday.
+- No prayer or Scripture all week - patience snapped at someone. Apart from the vine, what can I produce - Nothing good - reconnect now.
 
 ## Note Relationships
 

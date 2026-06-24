@@ -17,10 +17,10 @@ Results matter, but optimizing only for outcomes wins once. I optimize for a rep
 
 ## Examples
 
-- **Sports:** The JV squad runs the same warmup whether the bleachers are empty or full.
-- **Non-technical work:** The baker follows the same proofing steps whether it's a slow Tuesday or wedding weekend.
-- **Home with children:** I protect the Sunday review loop that produces the next note - the process keeps working when motivation dips.
-- **Real world:** Same commute podcast and debrief voice memo - the loop survives a bad week at work.
+- I protect the Sunday review loop that produces the next note - the process keeps working when motivation dips.
+- The baker follows the same proofing steps whether it's a slow Tuesday or wedding weekend.
+- Same commute podcast and debrief voice memo - the loop survives a bad week at work.
+- The JV squad runs the same warmup whether the bleachers are empty or full.
 
 ## Note Relationships
 

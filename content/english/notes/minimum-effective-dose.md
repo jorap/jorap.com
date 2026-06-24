@@ -19,10 +19,10 @@ I borrowed it from medicine: enough to work, not more than needed. Applies to PK
 
 ## Examples
 
-- **Sports:** The coach added one footwork drill before buying new shoes - small dose, daily reps, feet learned faster than gear ever did.
-- **Non-technical work:** The barista trainer had her repeat one steam motion instead of rebuilding the whole menu that week.
-- **Home with children:** One notebook by the door beat rebuilding the whole capture system again - enough to work, not more than needed.
-- **Real world:** Ten minutes of flashcards on the jeepney beat an hour of app setup I'd never open twice.
+- Ten minutes of flashcards on the jeepney beat an hour of app setup I'd never open twice.
+- The coach added one footwork drill before buying new shoes - small dose, daily reps, feet learned faster than gear ever did.
+- The barista trainer had her repeat one steam motion instead of rebuilding the whole menu that week.
+- One notebook by the door beat rebuilding the whole capture system again - enough to work, not more than needed.
 
 ## Note Relationships
 
@@ -30,8 +30,8 @@ I borrowed it from medicine: enough to work, not more than needed. Applies to PK
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when enough-to-work beats stacking past the dose |
 | extends | [[Create Regular Connection]] | Smallest connection habit that still lands |
-| extends | [[Develop, Don't Endanger]] | Smallest challenge that still develops the skill — not maximal suffering as the dose |
-| extends | [[Pareto Principle]] | Find the smallest change that still moves the needle — the slice of effort that earns most results |
+| extends | [[Develop, Don't Endanger]] | Smallest challenge that still develops the skill - not maximal suffering as the dose |
+| extends | [[Pareto Principle]] | Find the smallest change that still moves the needle - the slice of effort that earns most results |
 ## See also
 
 - [[Free Grace]] - Eternal Principles, Faith, Gospel

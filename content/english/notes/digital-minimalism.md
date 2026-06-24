@@ -17,10 +17,10 @@ Fewer apps, fewer sync layers, fewer notifications. My PKM got better when I sto
 
 ## Examples
 
-- **Sports:** We dropped the second gym bag and the backup jump rope - fewer things means I actually know where the one working pair of shoes lives.
-- **Non-technical work:** The front desk runs one scheduling app, not four - fewer sync layers means fewer places patient reminders get lost.
-- **Home with children:** We dropped the second diaper bag, the backup stroller, and the junk drawer of chargers - fewer things means I actually know where the one working cable lives.
-- **Real world:** Same reason I keep one capture path instead of five apps - my PKM got better when I stopped collecting tools.
+- We dropped the second gym bag and the backup jump rope - fewer things means I actually know where the one working pair of shoes lives.
+- We dropped the second diaper bag, the backup stroller, and the junk drawer of chargers - fewer things means I actually know where the one working cable lives.
+- Same reason I keep one capture path instead of five apps - my PKM got better when I stopped collecting tools.
+- The front desk runs one scheduling app, not four - fewer sync layers means fewer places patient reminders get lost.
 
 ## Note Relationships
 

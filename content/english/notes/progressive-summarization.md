@@ -19,10 +19,10 @@ Layer one: bold the good sentences. Layer two: highlight the best bold. Layer th
 
 ## Examples
 
-- **Sports:** I open the playbook notes a second time and bold three plays, then star one for this week's install.
-- **Non-technical work:** I open the vendor contract a second time and bold three clauses, then highlight one before I sign.
-- **Home with children:** I open the PTA newsletter for the second time and circle three dates, then star one - sticky on the fridge only when I'm blocking the calendar.
-- **Real world:** I reread the community meeting recap and bold three action items - summary at the top only when I'm actually doing something with it.
+- I open the playbook notes a second time and bold three plays, then star one for this week's install.
+- I open the vendor contract a second time and bold three clauses, then highlight one before I sign.
+- I open the PTA newsletter for the second time and circle three dates, then star one - sticky on the fridge only when I'm blocking the calendar.
+- I reread the community meeting recap and bold three action items - summary at the top only when I'm actually doing something with it.
 
 ## Note Relationships
 
@@ -31,7 +31,7 @@ Layer one: bold the good sentences. Layer two: highlight the best bold. Layer th
 | alternative | [[The Feynman Technique]] | Bold layers vs explain-the-gap when distill stays on borrowed text |
 | contradicts | [[Synthesis as a Goal]] | when bold layers beat rewriting into what I believe |
 | extends | [[Building a Second Brain]] | Bold-then-highlight distillation is CODE's distill step |
-| extends | [[Layered Reading]] | Bold/highlight layers before rewrite — same distill move |
+| extends | [[Layered Reading]] | Bold/highlight layers before rewrite - same distill move |
 | implements | [[Building a Second Brain]] | Highlight layers carry CODE's distill step |
 ## See also
 

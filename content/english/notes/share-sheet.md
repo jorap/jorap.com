@@ -1,7 +1,7 @@
 ---
 title: "Share Sheet"
 meta_title: "Share Sheet"
-description: "the phone menu that sends a link or file into another app — mobile capture's front door."
+description: "the phone menu that sends a link or file into another app - mobile capture's front door."
 date: 2026-06-22T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
@@ -13,14 +13,14 @@ status: seedling
 draft: false
 aliases: []
 ---
-**Share sheet** = the phone menu that sends a link or file into another app — mobile capture's front door.
+**Share sheet** = the phone menu that sends a link or file into another app - mobile capture's front door.
 
 ## Examples
 
-- **Sports:** Halftime clip of the broken play → Share → Notes - captured before the second half erased the fix I saw.
-- **Non-technical work:** The supplier email with the corrected invoice → Share → my task app - saved before I closed the browser and lost it.
-- **Home with children:** Recipe from the school group chat → Share → grocery list - one tap before three kids pulled me away from the phone.
-- **Real world:** Article on the jeepney route change → Share → inbox - mobile capture's front door when I can't stop and type.
+- Article on the jeepney route change → Share → inbox - mobile capture's front door when I can't stop and type.
+- Recipe from the school group chat → Share → grocery list - one tap before three kids pulled me away from the phone.
+- Halftime clip of the broken play → Share → Notes - captured before the second half erased the fix I saw.
+- The supplier email with the corrected invoice → Share → my task app - saved before I closed the browser and lost it.
 
 ## Note Relationships
 

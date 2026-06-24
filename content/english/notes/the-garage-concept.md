@@ -17,10 +17,10 @@ The garage holds tools, scraps, experiments. The showroom is the blog. I don't c
 
 ## Examples
 
-- **Sports:** The practice film library is messy; the highlight reel for parents is one clean cut - garage holds scraps, showroom shows the finished piece.
-- **Non-technical work:** The back kitchen holds experiments; the dining room plate is what's approved to leave - I don't confuse workshop with showroom.
-- **Home with children:** The garage holds half-finished projects and sawdust; the front porch shows the one bench I'd invite a neighbor to sit on.
-- **Real world:** Draft posts live in my private folder; the blog gets the finished essay - I don't accidentally publish the mess.
+- Draft posts live in my private folder; the blog gets the finished essay - I don't accidentally publish the mess.
+- The back kitchen holds experiments; the dining room plate is what's approved to leave - I don't confuse workshop with showroom.
+- The practice film library is messy; the highlight reel for parents is one clean cut - garage holds scraps, showroom shows the finished piece.
+- The garage holds half-finished projects and sawdust; the front porch shows the one bench I'd invite a neighbor to sit on.
 
 ## Note Relationships
 
@@ -28,7 +28,7 @@ The garage holds tools, scraps, experiments. The showroom is the blog. I don't c
 |--------------|----------|--------|
 | alternative | [[Digital Garden]] | Private garage vs public growth when drafts need shelter |
 | contradicts | [[Drafting in Public]] | when private workshop beats publishing half-baked notes |
-| extends | [[Digital Garden]] | The garage is messy workshop; the garden showroom is public — you need both lanes |
+| extends | [[Digital Garden]] | The garage is messy workshop; the garden showroom is public - you need both lanes |
 | extends | [[Sketchpad]] | Private workshop before anything goes public |
 ## See also
 

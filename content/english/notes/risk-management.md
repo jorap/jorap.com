@@ -1,7 +1,7 @@
 ---
 title: "Risk Management"
 meta_title: "Risk Management"
-description: "name what can go wrong, how likely, how bad — then choose controls in order of strength."
+description: "name what can go wrong, how likely, how bad - then choose controls in order of strength."
 date: 2026-06-22T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
@@ -13,14 +13,14 @@ status: seedling
 draft: false
 aliases: []
 ---
-**Risk management** = name what can go wrong, how likely, how bad — then choose controls in order of strength.
+**Risk management** = name what can go wrong, how likely, how bad - then choose controls in order of strength.
 
 ## Examples
 
-- **Sports:** We moved the hydration table off the sprint lane before buying more caution tape - eliminate before manage.
-- **Non-technical work:** We moved the hot oil station away from the walk lane before buying more warning signs - eliminate before manage.
-- **Home with children:** We moved the space heater off the rug before lecturing the kids again about not touching it.
-- **Real world:** I moved the bike rack off the blind corner before adding another mirror - name what can go wrong, then pick the strong control.
+- I moved the bike rack off the blind corner before adding another mirror - name what can go wrong, then pick the strong control.
+- We moved the hydration table off the sprint lane before buying more caution tape - eliminate before manage.
+- We moved the hot oil station away from the walk lane before buying more warning signs - eliminate before manage.
+- We moved the space heater off the rug before lecturing the kids again about not touching it.
 
 ## Note Relationships
 

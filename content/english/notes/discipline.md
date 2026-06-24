@@ -17,10 +17,10 @@ aliases: []
 
 ## Examples
 
-- **Sports:** A marathon isn't won on race-day adrenaline - it's won on rainy Tuesday runs nobody films.
-- **Non-technical work:** The baker opens at 4am whether she's inspired or not - discipline is the shift she committed to when motivation wasn't there.
-- **Home with children:** Discipline is loading the dishwasher when I'd rather scroll - same as brushing teeth when you're already late.
-- **Real world:** I write on schedule whether the post feels brilliant - doing what I said I'd do when applause isn't pushing me.
+- I write on schedule whether the post feels brilliant - doing what I said I'd do when applause isn't pushing me.
+- A marathon isn't won on race-day adrenaline - it's won on rainy Tuesday runs nobody films.
+- The baker opens at 4am whether she's inspired or not - discipline is the shift she committed to when motivation wasn't there.
+- Discipline is loading the dishwasher when I'd rather scroll - same as brushing teeth when you're already late.
 
 ## Note Relationships
 

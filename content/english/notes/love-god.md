@@ -34,10 +34,11 @@ When a scribe asked which commandment was first, Jesus quoted Deuteronomy 6:5 - 
 
 ## Examples
 
-- **Sports:** Match day adrenaline isn't the same as opening my Bible on Thursday - whole-person love means I feed at least one faculty today.
-- **Non-technical work:** Sunday worship felt high but I hadn't opened my Bible since last week - loving God means more than one hour in a pew.
-- **Home with children:** I put the phone down before bedtime stories - heart and mind get God before the scroll.
-- **Real world:** Five minutes with God before the commute beats treating Sunday like the whole deposit.
+- Match day adrenaline isn't the same as opening my Bible on Thursday - whole-person love means I feed at least one faculty today.
+- Sunday worship felt high but I hadn't opened my Bible since last week - loving God means more than one hour in a pew.
+- I put the phone down before bedtime stories - heart and mind get God before the scroll.
+- Five minutes with God before the commute beats treating Sunday like the whole deposit.
+- Sunday worship felt high but I haven't opened the Bible all week. Which part of whole-person love am I skipping - Mind - open Scripture today.
 
 ## Note Relationships
 

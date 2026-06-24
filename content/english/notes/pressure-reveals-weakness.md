@@ -2,7 +2,7 @@
 note_kind: "index"
 title: "Pressure Reveals Weakness"
 meta_title: "Pressure Reveals Weakness - Build for When It Gets Hard"
-description: "High-pressure moments expose what ordinary conditions hide — the job is building systems and habits that stay reliable when the heat rises."
+description: "High-pressure moments expose what ordinary conditions hide - the job is building systems and habits that stay reliable when the heat rises."
 date: 2026-06-22T08:00:00Z
 image: "/images/note.jpg"
 categories: ["Ideas", "Leadership", "Tips"]
@@ -14,7 +14,7 @@ status: evergreen
 draft: false
 aliases: ["performance under pressure"]
 ---
-**Pressure reveals weakness** = hard situations show what easy days hide. The point isn't to dodge pressure — it's to build systems, habits, and character that still work when pressure spikes.
+**Pressure reveals weakness** = hard situations show what easy days hide. The point isn't to dodge pressure - it's to build systems, habits, and character that still work when pressure spikes.
 
 Each note below is one move I'd want automatic before the moment arrives.
 

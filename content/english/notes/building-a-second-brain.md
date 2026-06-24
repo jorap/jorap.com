@@ -36,10 +36,11 @@ Remember CODE: [[Capture]], organize, distill, express. The system fails when an
 
 ## Examples
 
-- **Sports:** A play idea hits during warm-ups and I voice-memo it before the gym noise eats it - my head is for having ideas, the inbox is for storing them until review.
-- **Non-technical work:** A sermon line lands mid-shift and I scribble it on a receipt - one trusted inbox, no sorting yet, process it Sunday when the spark is safe.
-- **Home with children:** A dinner idea hits on the jeepney and I voice-memo it before the station noise eats it - capture first, organize later.
-- **Real world:** On the commute my kid says something I want to remember and I drop it in one inbox - weekly process empties it so my brain can think instead of hoard.
+- A play idea hits during warm-ups and I voice-memo it before the gym noise eats it - my head is for having ideas, the inbox is for storing them until review.
+- A sermon line lands mid-shift and I scribble it on a receipt - one trusted inbox, no sorting yet, process it Sunday when the spark is safe.
+- A dinner idea hits on the jeepney and I voice-memo it before the station noise eats it - capture first, organize later.
+- On the commute my kid says something I want to remember and I drop it in one inbox - weekly process empties it so my brain can think instead of hoard.
+- Notes pile up but nothing publishes. Which step is failing - what do I schedule - Express - schedule ship.
 
 ## Note Relationships
 

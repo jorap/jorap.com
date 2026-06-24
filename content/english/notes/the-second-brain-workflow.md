@@ -17,10 +17,10 @@ CODE and PARA in one loop: capture to inbox, organize by project, distill on use
 
 ## Examples
 
-- **Sports:** Game notes hit one inbox after match; Sunday I sort, toss, and pull one play into next week's plan - capture, organize, distill, express in one loop.
-- **Non-technical work:** Friday night is capture everything in one jar; Sunday is sort, toss, and file what's worth keeping - not four hobbies abandoned by March.
-- **Home with children:** Receipts and school slips hit one bowl daily; Sunday review sorts, trashes, one thing to act on - same CODE loop, kitchen edition.
-- **Real world:** Links land in one inbox all week; weekly review empties it and ships one note - one loop, not separate capture and organize rituals I quit.
+- Game notes hit one inbox after match; Sunday I sort, toss, and pull one play into next week's plan - capture, organize, distill, express in one loop.
+- Links land in one inbox all week; weekly review empties it and ships one note - one loop, not separate capture and organize rituals I quit.
+- Friday night is capture everything in one jar; Sunday is sort, toss, and file what's worth keeping - not four hobbies abandoned by March.
+- Receipts and school slips hit one bowl daily; Sunday review sorts, trashes, one thing to act on - same CODE loop, kitchen edition.
 
 ## Note Relationships
 

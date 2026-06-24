@@ -19,17 +19,17 @@ Borrowed from finance, but it applies anywhere today's gain makes tomorrow easie
 
 ## Examples
 
-- **Sports:** Ten minutes of free throws every Tuesday looked pointless for months - then the percentage bent without me noticing the curve.
-- **Non-technical work:** A line cook fixes one prep station flaw every Monday - small upgrades daily, not one yearly overhaul that never sticks.
-- **Home with children:** My kid's piano practice looked pointless for a year - three songs a week, same scales, then year two the pieces started linking and suddenly she was playing music.
-- **Real world:** Our family morning checklist grew one line per forgotten backpack - six months later school mornings were boring in a good way because the small fixes stacked.
+- Ten minutes of free throws every Tuesday looked pointless for months - then the percentage bent without me noticing the curve.
+- A line cook fixes one prep station flaw every Monday - small upgrades daily, not one yearly overhaul that never sticks.
+- My kid's piano practice looked pointless for a year - three songs a week, same scales, then year two the pieces started linking and suddenly she was playing music.
+- Our family morning checklist grew one line per forgotten backpack - six months later school mornings were boring in a good way because the small fixes stacked.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Pareto Principle]] | when boring repetition beats protecting only the vital few |
-| extends | [[Habit Stacking]] | Small repeats that stack — same compounding mechanic |
+| extends | [[Habit Stacking]] | Small repeats that stack - same compounding mechanic |
 | extends | [[Process Over Outcomes]] | Small gains stack when you repeat the process, not when you chase one heroic week |
 ## See also
 

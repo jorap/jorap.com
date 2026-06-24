@@ -74,7 +74,7 @@ Each note below is one claim I'd say in a standup or a 1:1 - plain language, mee
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | alternative | [[Maps of Content]] | Hand-built workplace hub vs full faith MOC when the audience isn't the gospel cluster |
-| extends | [[Eliminate Before Managing]] | Safety principles in plain office language — same duty-of-care lane |
+| extends | [[Eliminate Before Managing]] | Safety principles in plain office language - same duty-of-care lane |
 | extends | [[Eternal Principles]] | Workplace versions carry the same ethics into language that fits corporate rooms |
 | extends | [[Life Before Achievement]] | Non-negotiable human safety translated for teams that won't open a safety manual |
 ## See also

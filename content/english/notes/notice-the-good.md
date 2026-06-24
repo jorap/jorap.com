@@ -17,10 +17,10 @@ aliases: []
 
 ## Examples
 
-- **Sports:** After practice I told the kid who boxed out every drill: "Your rebounds won that scrimmage - keep sealing like that." He knew exactly what to repeat.
-- **Non-technical work:** I emailed the intern: "You caught the duplicate invoice before I did - that saved us a call." Specific beats a generic thanks slide.
-- **Home with children:** My kid cleared the table without being asked - "you saw the mess and handled it; that helps the whole night." Not "you're so good."
-- **Real world:** I told my spouse: "You texted you'd be late before I had to ask - that took stress off dinner." One action named, easy to repeat.
+- After practice I told the kid who boxed out every drill: "Your rebounds won that scrimmage - keep sealing like that." He knew exactly what to repeat.
+- I emailed the intern: "You caught the duplicate invoice before I did - that saved us a call." Specific beats a generic thanks slide.
+- I told my spouse: "You texted you'd be late before I had to ask - that took stress off dinner." One action named, easy to repeat.
+- My kid cleared the table without being asked - "you saw the mess and handled it; that helps the whole night." Not "you're so good."
 
 ## Note Relationships
 

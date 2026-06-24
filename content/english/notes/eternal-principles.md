@@ -57,7 +57,7 @@ Start at [[Free Grace]] if the order matters. Then wander by section below. Gosp
 
 ## Character and witness
 
-- [[Discipleship]] - following Jesus after faith; learn, obey, pass it on — not salvation's price tag
+- [[Discipleship]] - following Jesus after faith; learn, obey, pass it on - not salvation's price tag
 - [[Humility and Service]] - serve the team; wash feet, don't grasp status
 - [[Let Your Light Shine]] - visible good works so others see and glorify God, not you
 - [[Take Up Your Cross]] - daily self-denial; follow behind, not a one-time hero sprint

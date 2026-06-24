@@ -1,7 +1,7 @@
 ---
 title: "Literature Notes"
 meta_title: "Literature Notes"
-description: "notes about a source in your own words — not a highlight dump."
+description: "notes about a source in your own words - not a highlight dump."
 date: 2026-06-22T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
@@ -13,14 +13,14 @@ status: seedling
 draft: false
 aliases: []
 ---
-**Literature notes** = notes about a source in your own words — not a highlight dump.
+**Literature notes** = notes about a source in your own words - not a highlight dump.
 
 ## Examples
 
-- **Sports:** I wrote one paragraph on the coach's chapter about zone defense, not yellow highlights on every page.
-- **Non-technical work:** One page per book chapter with my takeaway, not yellow paint on every line.
-- **Home with children:** My kid's report on the ocean book was three sentences she could explain, not copied quotes from every paragraph.
-- **Real world:** The PTA recap was what I actually remembered from the meeting, not a transcript of every speaker.
+- I wrote one paragraph on the coach's chapter about zone defense, not yellow highlights on every page.
+- The PTA recap was what I actually remembered from the meeting, not a transcript of every speaker.
+- One page per book chapter with my takeaway, not yellow paint on every line.
+- My kid's report on the ocean book was three sentences she could explain, not copied quotes from every paragraph.
 
 ## Note Relationships
 

@@ -34,17 +34,18 @@ Repentance is a change of mind and direction - not a down payment on salvation. 
 
 ## Examples
 
-- **Sports:** I kept telling myself I'd trust the coach's system once my form looked respectable - repent and believe is the door you walk through today, messy as you are.
-- **Non-technical work:** I kept telling myself I'd trust Jesus once my habits looked respectable - it's not a finish line when you're fixed.
-- **Home with children:** I told my kid faith isn't waiting until you're good enough - turn and trust today, then keep practicing.
-- **Real world:** I stopped delaying the hard conversation until I felt ready - believe the promise first, tidy later.
+- I kept telling myself I'd trust the coach's system once my form looked respectable - repent and believe is the door you walk through today, messy as you are.
+- I kept telling myself I'd trust Jesus once my habits looked respectable - it's not a finish line when you're fixed.
+- I told my kid faith isn't waiting until you're good enough - turn and trust today, then keep practicing.
+- I stopped delaying the hard conversation until I felt ready - believe the promise first, tidy later.
+- Trying to obey my way into eternal life. What receives life vs what guides after - Repent/believe receives. Obedience guides after.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[There Is No Perfect Solution]] | when I delay entry until I've fixed myself |
-| extends | [[Free Grace]] | Turn and trust is how life begins — you receive the kingdom as gift, then live under the King |
+| extends | [[Free Grace]] | Turn and trust is how life begins - you receive the kingdom as gift, then live under the King |
 ## See also
 
 - [[There Is No Perfect Solution]] - Decision Making, Mental Models, PKM

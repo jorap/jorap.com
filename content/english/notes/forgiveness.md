@@ -34,10 +34,11 @@ The [[Ask Seek Knock]] builds forgiveness into daily rhythm. The parable of the 
 
 ## Examples
 
-- **Sports:** I prayed about forgiving others on autopilot and skipped that line because I'm still mad at my brother from last Sunday - you can't ask for mercy with one breath and hold a grudge with the next.
-- **Non-technical work:** A coworker apologized again for the same mistake - forgive from the heart, keep boundaries where trust still needs rebuilding.
-- **Home with children:** My kid hurt my feelings at breakfast and I said "it's fine" while nursing the grudge - forgiveness is releasing the debt, not pretending it didn't matter.
-- **Real world:** I was forgiven much but choked a neighbor over a small slight - forgive the pocket-change debt the way the Father already cleared mine.
+- My kid hurt my feelings at breakfast and I said "it's fine" while nursing the grudge - forgiveness is releasing the debt, not pretending it didn't matter.
+- I was forgiven much but choked a neighbor over a small slight - forgive the pocket-change debt the way the Father already cleared mine.
+- I prayed about forgiving others on autopilot and skipped that line because I'm still mad at my brother from last Sunday - you can't ask for mercy with one breath and hold a grudge with the next.
+- A coworker apologized again for the same mistake - forgive from the heart, keep boundaries where trust still needs rebuilding.
+- Wronged and refusing to forgive before I sleep. What breaks - Closeness with God - forgive from the heart.
 
 ## Note Relationships
 

@@ -34,10 +34,11 @@ It's positive and active: *do* unto others, not merely avoid doing harm. The che
 
 ## Examples
 
-- **Sports:** Before I barked at the ref in front of the kids, I asked how I'd want a coach to talk to me after a bad call - the Golden Rule changed the volume.
-- **Non-technical work:** My thumb was on the post button with a critique that was probably true and definitely cruel - pause: how would I want someone to say that to me?
-- **Home with children:** I almost snapped at my kid the way my father snapped at me - reverse roles first, then speak.
-- **Real world:** Waiting in line at the clinic, someone cut ahead and I drafted a public scolding - Golden Rule check: I'd want grace, not an audience.
+- My thumb was on the post button with a critique that was probably true and definitely cruel - pause: how would I want someone to say that to me?
+- Waiting in line at the clinic, someone cut ahead and I drafted a public scolding - Golden Rule check: I'd want grace, not an audience.
+- Before I barked at the ref in front of the kids, I asked how I'd want a coach to talk to me after a bad call - the Golden Rule changed the volume.
+- I almost snapped at my kid the way my father snapped at me - reverse roles first, then speak.
+- Thumb on post button, public critique loaded. One check before I hit send - Reverse roles - would I want this said to me?
 
 ## Note Relationships
 
@@ -46,7 +47,7 @@ It's positive and active: *do* unto others, not merely avoid doing harm. The che
 | contradicts | [[Love Your Enemies]] | when I only apply it to people who already treat me well |
 | extends | [[Create Regular Connection]] | I'd want steady presence, not one grand gesture |
 | extends | [[Follow Their Lead]] | I'd want someone to enter my world before fixing mine |
-| extends | [[Free Grace]] | Treat others well because Christ treated you well first — not to buy heaven |
+| extends | [[Free Grace]] | Treat others well because Christ treated you well first - not to buy heaven |
 | extends | [[Listen Before Fixing]] | I'd want to be heard before being handed advice |
 | extends | [[Notice the Good]] | I'd want someone to name what I did well, not vague good job |
 ## See also

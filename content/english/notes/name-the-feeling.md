@@ -17,10 +17,10 @@ aliases: []
 
 ## Examples
 
-- **Sports:** A player slumped on the bench after a bad quarter - I said "you look wiped" before I drew up the next play. His shoulders dropped; then he could hear the adjustment.
-- **Non-technical work:** A coworker snapped in the break room about a late shipment - "sounds like you're getting blamed for stuff upstream" landed before we talked about who to email.
-- **Home with children:** My kid came home furious about homework - "you're mad because it felt unfair" beat "just do it." We got to the actual problem after the feeling had a name.
-- **Real world:** My spouse walked in tense after traffic and errands - "rough afternoon?" before I asked about dinner plans. Small line, less defensiveness.
+- A player slumped on the bench after a bad quarter - I said "you look wiped" before I drew up the next play. His shoulders dropped; then he could hear the adjustment.
+- My spouse walked in tense after traffic and errands - "rough afternoon?" before I asked about dinner plans. Small line, less defensiveness.
+- A coworker snapped in the break room about a late shipment - "sounds like you're getting blamed for stuff upstream" landed before we talked about who to email.
+- My kid came home furious about homework - "you're mad because it felt unfair" beat "just do it." We got to the actual problem after the feeling had a name.
 
 ## Note Relationships
 

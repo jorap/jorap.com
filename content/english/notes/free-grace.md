@@ -36,17 +36,18 @@ Ephesians 2:10 keeps the order straight: saved by grace through faith first, the
 
 ## Examples
 
-- **Sports:** A teammate listed every good deed this month like it was his ticket to heaven - I trust Christ's promise for eternal life, not my report card from the season.
-- **Non-technical work:** A friend at coffee listed every good thing he'd done this month like it was his ticket to heaven - I didn't argue; I just said I trust Christ's promise, not my report card.
-- **Home with children:** My kid asked if being good gets you into heaven - free grace is the gift through faith first; obedience follows, it doesn't buy the door.
-- **Real world:** A neighbor said she earns God's favor by trying hard - one sentence back: free gift, Christ paid what I couldn't.
+- A teammate listed every good deed this month like it was his ticket to heaven - I trust Christ's promise for eternal life, not my report card from the season.
+- A friend at coffee listed every good thing he'd done this month like it was his ticket to heaven - I didn't argue; I just said I trust Christ's promise, not my report card.
+- A neighbor said she earns God's favor by trying hard - one sentence back: free gift, Christ paid what I couldn't.
+- My kid asked if being good gets you into heaven - free grace is the gift through faith first; obedience follows, it doesn't buy the door.
+- Head says I must perform before God accepts me. Turn from that - what's the entry point - Trust Christ - not my performance.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when good works compound into a merit ladder I think buys heaven |
-| extends | [[Minimum Effective Dose]] | Faith is the smallest act that still buys eternal life — no merit ladder on top |
+| extends | [[Minimum Effective Dose]] | Faith is the smallest act that still buys eternal life - no merit ladder on top |
 ## See also
 
 - [[Minimum Effective Dose]] - Mental Models, PKM, Productivity

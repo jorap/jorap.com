@@ -19,10 +19,10 @@ My digital garden is where notes grow in public - linked, imperfect, alive.
 
 ## Examples
 
-- **Sports:** Our team's playbook wiki still has last season's sets beside this year's - I replace a drill when I learn better, not when the first version was supposed to be final.
-- **Non-technical work:** The shop's procedure binder grows in public - crossed-out steps stay visible so new hires see how the process actually evolved.
-- **Home with children:** Our block's little free library still has last year's craft books beside this year's swaps - I replace a title when I learn better, not when the first donation was supposed to be final.
-- **Real world:** My garden posts stay linked and imperfect - notes grow in public instead of rotting in a folder until they're "ready."
+- Our team's playbook wiki still has last season's sets beside this year's - I replace a drill when I learn better, not when the first version was supposed to be final.
+- Our block's little free library still has last year's craft books beside this year's swaps - I replace a title when I learn better, not when the first donation was supposed to be final.
+- The shop's procedure binder grows in public - crossed-out steps stay visible so new hires see how the process actually evolved.
+- My garden posts stay linked and imperfect - notes grow in public instead of rotting in a folder until they're "ready."
 
 ## Note Relationships
 
@@ -31,7 +31,7 @@ My digital garden is where notes grow in public - linked, imperfect, alive.
 | alternative | [[Drafting in Public]] | Slow public growth vs ship drafts for feedback |
 | contradicts | [[The Garage Concept]] | when public growth beats keeping scraps in the garage |
 | extends | [[Evergreen Notes]] | Evergreen notes go public so they keep growing instead of rotting in a folder |
-| extends | [[Work in Progress]] | Public drafts and visible growth — garden ethos |
+| extends | [[Work in Progress]] | Public drafts and visible growth - garden ethos |
 | implements | [[Evergreen Notes]] | Public garden carries durable notes into visible growth |
 ## See also
 

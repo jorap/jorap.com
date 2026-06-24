@@ -34,10 +34,11 @@ Children don't enter the kingdom by achievement; they receive care they didn't e
 
 ## Examples
 
-- **Sports:** My daughter asked for water at practice without calculating whether she'd earned it - I caught myself running a merit scoreboard with God before I'd even say good morning.
-- **Non-technical work:** The new hire asked a "dumb" question in orientation without negotiating whether she deserved an answer - childlike faith is receive, not perform expertise you don't have yet.
-- **Home with children:** My daughter asked for a snack without calculating whether she'd been good enough today - same posture Jesus names: stop earning points, receive the gift.
-- **Real world:** I delay prayer until my week looks respectable - childlike faith means I come like a kid who already belongs, not a contractor negotiating terms.
+- My daughter asked for water at practice without calculating whether she'd earned it - I caught myself running a merit scoreboard with God before I'd even say good morning.
+- I delay prayer until my week looks respectable - childlike faith means I come like a kid who already belongs, not a contractor negotiating terms.
+- The new hire asked a "dumb" question in orientation without negotiating whether she deserved an answer - childlike faith is receive, not perform expertise you don't have yet.
+- My daughter asked for a snack without calculating whether she'd been good enough today - same posture Jesus names: stop earning points, receive the gift.
+- New believer ashamed they don't know the Bible. What would I tell them - Receive like a child - dependence, not achievement.
 
 ## Note Relationships
 

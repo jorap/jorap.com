@@ -34,17 +34,18 @@ Where your treasure is, there your heart will be. Earthly treasure is fragile; h
 
 ## Examples
 
-- **Sports:** I almost chased a sponsorship for the ego, not the team - treasure check: where will this matter in ten years?
-- **Non-technical work:** Wallet full of gear I'll resell at a loss; calendar empty of the people I say I serve - heart follows treasure, and mine was on earth again.
-- **Home with children:** I looked at my wallet and calendar last night - both full of stuff that won't survive a hard year; store what lasts, not what rusts.
-- **Real world:** Thumb on another buy I don't need - will this rust, or store something heaven-side like mercy and obedience?
+- Thumb on another buy I don't need - will this rust, or store something heaven-side like mercy and obedience?
+- I almost chased a sponsorship for the ego, not the team - treasure check: where will this matter in ten years?
+- Wallet full of gear I'll resell at a loss; calendar empty of the people I say I serve - heart follows treasure, and mine was on earth again.
+- I looked at my wallet and calendar last night - both full of stuff that won't survive a hard year; store what lasts, not what rusts.
+- Thumb on another buy I don't need. One check before checkout - Will this rust - or store something that lasts?
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[The Collector's Fallacy]] | when I hoard earth and call it wisdom |
-| extends | [[Free Grace]] | Grace secured heaven; treasure names what you store after — not the entry fee |
+| extends | [[Free Grace]] | Grace secured heaven; treasure names what you store after - not the entry fee |
 ## See also
 
 - [[The Collector's Fallacy]] - Capture, Learning, PKM

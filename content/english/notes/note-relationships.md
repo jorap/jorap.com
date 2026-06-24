@@ -30,7 +30,7 @@ draft: false
 aliases: ["link types", "Link Typing"]
 ---
 
-**Note relationships** = four pair types in a body table - extends, contradicts, implements, alternative - so the graph shows how ideas push and pull. **Hub/MOC pages** use `note_kind: index` in frontmatter (not a row). **Utility pages** use `note_kind: meta` — link by URL, not wikilink.
+**Note relationships** = four pair types in a body table - extends, contradicts, implements, alternative - so the graph shows how ideas push and pull. **Hub/MOC pages** use `note_kind: index` in frontmatter (not a row). **Utility pages** use `note_kind: meta` - link by URL, not wikilink.
 
 | Type | Question | Example |
 |------|----------|---------|
@@ -39,14 +39,15 @@ aliases: ["link types", "Link Typing"]
 | **implements** | What makes this real? | [[Weekly Review Checklists]] implements [[Periodic Knowledge Review]] |
 | **alternative** | What else could do this job? | [[Mobile Capture Workflows]] alternative to [[Analog Capture Tools]] |
 
-Every atomic note (`note_kind: note`, the default) carries opening prose, optional **## Examples** (four concrete scenes — sports, non-technical work, home with children, real world), and a **## Note Relationships** table sorted by type: **alternative**, **contradicts**, **extends**, **implements**. At minimum: **extends** and **contradicts**, wikilinked, each with a **Reason** (what this builds on; a **when** clause on contradicts). Add **implements** and **alternative** when they fit. Broken wikilinks to obvious missing notes are fine - they flag future pages. "Pairs with" in older notes means informal extends. Pipeline order (capture → distill → express) is prose, not a fifth type.
+Every atomic note (`note_kind: note`, the default) carries opening prose, optional **## Examples** (four concrete scenes - sports, non-technical work, home with children, real world), and a **## Note Relationships** table sorted by type: **alternative**, **contradicts**, **extends**, **implements**. At minimum: **extends** and **contradicts**, wikilinked, each with a **Reason** (what this builds on; a **when** clause on contradicts). Add **implements** and **alternative** when they fit. Broken wikilinks to obvious missing notes are fine - they flag future pages. "Pairs with" in older notes means informal extends. Pipeline order (capture → distill → express) is prose, not a fifth type.
 
 ## Examples
 
-- **Sports:** The coach's whiteboard lists "feeds into: secondary break" beside each drill - players see how today's reps connect before they leave the gym.
-- **Non-technical work:** The restaurant shift board marks "feeds into: closing count" next to prep tasks and "conflicts with: rush hour" on deep cleans - two rows, named tension, everyone can read it.
-- **Home with children:** I'm updating the family chore chart and add "feeds into: Saturday yard work" next to "take out trash" plus "conflicts with: bedtime when done late" before I tape it to the fridge.
-- **Real world:** The condo bulletin board lists "feeds into: parking sticker renewal" beside move-in steps and "conflicts with: weekend gate hours" on late deliveries - typed links on paper, same idea.
+- I'm updating the family chore chart and add "feeds into: Saturday yard work" next to "take out trash" plus "conflicts with: bedtime when done late" before I tape it to the fridge.
+- The coach's whiteboard lists "feeds into: secondary break" beside each drill - players see how today's reps connect before they leave the gym.
+- The restaurant shift board marks "feeds into: closing count" next to prep tasks and "conflicts with: rush hour" on deep cleans - two rows, named tension, everyone can read it.
+- The condo bulletin board lists "feeds into: parking sticker renewal" beside move-in steps and "conflicts with: weekend gate hours" on late deliveries - typed links on paper, same idea.
+- This note pushes against a slower-work philosophy I named in the body. One typed link for that tension - Link as contradicts.
 
 ## Note Relationships
 

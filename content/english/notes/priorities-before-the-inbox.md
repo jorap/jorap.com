@@ -19,18 +19,18 @@ The inbox is other people's priorities wearing a siren. One block on the actual 
 
 ## Examples
 
-- **Sports:** Game film due Friday - I cut it before answering every parent group chat ping.
-- **Non-technical work:** The report was due at noon - I wrote the first page before opening Slack.
-- **Home with children:** Tuesday before school, phone buzzing and lunches on the counter - sandwiches packed first, then I answer messages from a morning that already moved.
-- **Real world:** Oil change before the road trip - I booked the slot before scrolling neighborhood drama.
+- Game film due Friday - I cut it before answering every parent group chat ping.
+- The report was due at noon - I wrote the first page before opening Slack.
+- Tuesday before school, phone buzzing and lunches on the counter - sandwiches packed first, then I answer messages from a morning that already moved.
+- Oil change before the road trip - I booked the slot before scrolling neighborhood drama.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Signal vs Noise]] | when I treat every ping as top priority |
-| extends | [[Seek the Kingdom First]] | God's reign first — here, the real deliverable before the noise |
-| extends | [[Signal vs Noise]] | Filter what gets the week — same move with calendar instead of capture |
+| extends | [[Seek the Kingdom First]] | God's reign first - here, the real deliverable before the noise |
+| extends | [[Signal vs Noise]] | Filter what gets the week - same move with calendar instead of capture |
 ## See also
 
 - [[Workplace Principles]] - Productivity, Eternal Principles, Workplace

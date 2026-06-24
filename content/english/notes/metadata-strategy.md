@@ -17,10 +17,10 @@ Tags, categories, dates, aliases - metadata should help me find notes, not becom
 
 ## Examples
 
-- **Sports:** The team's gear bin says "balls," "first aid," "outgrown" - not a color code I'd maintain like a second job.
-- **Non-technical work:** I label the kids' bins "toys," "books," "outgrown" - not a color code I'd have to maintain.
-- **Home with children:** If sorting takes longer than putting stuff away, I cut a category - three labels beat a system nobody follows.
-- **Real world:** My glove box has "registration," "insurance," "receipts" - three labels I can find at a traffic stop.
+- I label the kids' bins "toys," "books," "outgrown" - not a color code I'd have to maintain.
+- If sorting takes longer than putting stuff away, I cut a category - three labels beat a system nobody follows.
+- My glove box has "registration," "insurance," "receipts" - three labels I can find at a traffic stop.
+- The team's gear bin says "balls," "first aid," "outgrown" - not a color code I'd maintain like a second job.
 
 ## Note Relationships
 

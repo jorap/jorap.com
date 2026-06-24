@@ -17,10 +17,10 @@ A link without context is a mystery six weeks later. I capture why I saved somet
 
 ## Examples
 
-- **Sports:** I saved a drill clip titled "use when our pick-and-roll breaks down" - six weeks later I knew why I kept it, not just what it showed.
-- **Non-technical work:** At the clinic I scribble "follow up - Mrs. Santos, BP log" on the chart stub - Saturday that line is the only reason I remember it wasn't a generic callback.
-- **Home with children:** At the grocery I scribble "milk - school party Friday" on the list back - Saturday that line is the only reason I remember it wasn't just breakfast milk.
-- **Real world:** I bookmark a link with one line about which project it feeds - a link without context is a mystery six weeks later.
+- At the clinic I scribble "follow up - Mrs. Santos, BP log" on the chart stub - Saturday that line is the only reason I remember it wasn't a generic callback.
+- I saved a drill clip titled "use when our pick-and-roll breaks down" - six weeks later I knew why I kept it, not just what it showed.
+- At the grocery I scribble "milk - school party Friday" on the list back - Saturday that line is the only reason I remember it wasn't just breakfast milk.
+- I bookmark a link with one line about which project it feeds - a link without context is a mystery six weeks later.
 
 ## Note Relationships
 
@@ -28,7 +28,7 @@ A link without context is a mystery six weeks later. I capture why I saved somet
 |--------------|----------|--------|
 | contradicts | [[Metadata Strategy]] | when inline why beats formal metadata fields |
 | extends | [[Capture]] | Capture the why while it's obvious or the link is a mystery six weeks later |
-| extends | [[Voice Memos]] | Capture in context — phone mic is the obvious tool |
+| extends | [[Voice Memos]] | Capture in context - phone mic is the obvious tool |
 ## See also
 
 - [[Building a Second Brain]] - Capture, Note Taking, PKM

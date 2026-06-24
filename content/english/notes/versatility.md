@@ -1,7 +1,7 @@
 ---
 title: "Versatility"
 meta_title: "Versatility - More Than One Way to Contribute"
-description: "Versatility is staying useful across roles, tools, and contexts — not locked to one lane."
+description: "Versatility is staying useful across roles, tools, and contexts - not locked to one lane."
 date: 2026-06-22T08:00:00Z
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
@@ -17,10 +17,10 @@ aliases: []
 
 ## Examples
 
-- **Sports:** When our center covers the wing for ten minutes, the team survives - useful without forgetting who normally owns the paint.
-- **Non-technical work:** The rush hit and I jumped on dishes while the line cook called tickets - versatile without pretending I suddenly ran the grill.
-- **Home with children:** Sick day meant I became lunch packer, tutor, and IT help - versatility is more than one lane when the day shifts.
-- **Real world:** When the main salesperson called in sick, I covered phones for an hour - contribute adjacent, don't dilute what you're actually best at.
+- The rush hit and I jumped on dishes while the line cook called tickets - versatile without pretending I suddenly ran the grill.
+- Sick day meant I became lunch packer, tutor, and IT help - versatility is more than one lane when the day shifts.
+- When the main salesperson called in sick, I covered phones for an hour - contribute adjacent, don't dilute what you're actually best at.
+- When our center covers the wing for ten minutes, the team survives - useful without forgetting who normally owns the paint.
 
 ## Note Relationships
 

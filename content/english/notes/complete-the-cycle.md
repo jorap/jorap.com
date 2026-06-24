@@ -1,7 +1,7 @@
 ---
 title: "Complete the Cycle"
 meta_title: "Complete the Cycle - Work Isn't Done at the Main Action"
-description: "A meeting needs follow-up, a decision needs execution, a mistake needs correction — close the loop."
+description: "A meeting needs follow-up, a decision needs execution, a mistake needs correction - close the loop."
 date: 2026-06-22T08:00:00Z
 image: "/images/note.jpg"
 categories: ["Ideas", "Leadership", "Tips"]
@@ -19,10 +19,10 @@ A meeting needs follow-up. A decision needs execution. A mistake needs correctio
 
 ## Examples
 
-- **Sports:** Halftime talk ended with "we'll fix the press tomorrow" - I wrote the one drill on the whiteboard before anyone left the gym.
-- **Non-technical work:** Parent-teacher night ended with "we'll email the action plan" - the recap went out before anyone left the parking lot, names, dates, who owns what.
-- **Home with children:** We said we'd call the dentist back and forgot until Monday - closing the loop was booking the slot before we cleared the table.
-- **Real world:** The HOA meeting ended with vague follow-up - the summary email with owners and deadlines went out that night, not "someone will handle it."
+- Halftime talk ended with "we'll fix the press tomorrow" - I wrote the one drill on the whiteboard before anyone left the gym.
+- Parent-teacher night ended with "we'll email the action plan" - the recap went out before anyone left the parking lot, names, dates, who owns what.
+- We said we'd call the dentist back and forgot until Monday - closing the loop was booking the slot before we cleared the table.
+- The HOA meeting ended with vague follow-up - the summary email with owners and deadlines went out that night, not "someone will handle it."
 
 ## Note Relationships
 

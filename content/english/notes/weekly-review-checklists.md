@@ -32,10 +32,11 @@ My weekly review is a checklist - inbox, calendar, projects, one express action.
 
 ## Examples
 
-- **Sports:** Same post-week ritual: clear the gear bag, check next fixture, one skill to drill - boring repetition, not a new review system every Sunday.
-- **Non-technical work:** Same four steps every Sunday: clear the tray, check the calendar, active lists, one thing to ship - don't reinvent the ritual for creativity.
-- **Home with children:** Sunday checklist: bowl by the door, calendar, kid forms, one family thing to finish - same steps even on travel weeks, shortened not skipped.
-- **Real world:** Inbox, calendar, projects, one express action - twenty minutes beats skipping review because this week's "different."
+- Inbox, calendar, projects, one express action - twenty minutes beats skipping review because this week's "different."
+- Same post-week ritual: clear the gear bag, check next fixture, one skill to drill - boring repetition, not a new review system every Sunday.
+- Same four steps every Sunday: clear the tray, check the calendar, active lists, one thing to ship - don't reinvent the ritual for creativity.
+- Sunday checklist: bowl by the door, calendar, kid forms, one family thing to finish - same steps even on travel weeks, shortened not skipped.
+- Friday review - inbox and calendar done. Fourth step before I close - Pick one ship action.
 
 ## Note Relationships
 
@@ -43,7 +44,7 @@ My weekly review is a checklist - inbox, calendar, projects, one express action.
 |--------------|----------|--------|
 | alternative | [[Minimum Effective Dose]] | Full checklist vs smallest review when travel week shrinks time |
 | contradicts | [[Minimum Effective Dose]] | when the full checklist beats the smallest review that works |
-| extends | [[The Trusted Inbox]] | The weekly checklist empties the inbox first — the boring steps that keep trust alive |
+| extends | [[The Trusted Inbox]] | The weekly checklist empties the inbox first - the boring steps that keep trust alive |
 | implements | [[Periodic Knowledge Review]] | Carries it out in practice |
 ## See also
 

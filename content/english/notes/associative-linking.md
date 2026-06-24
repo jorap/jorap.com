@@ -32,10 +32,11 @@ Folders sort. Links think. I link so notes meet without me remembering every fil
 
 ## Examples
 
-- **Sports:** The playbook card links "late press" to "[[Slow the Moment]]" - I find the counter without memorizing every filename in the binder.
-- **Non-technical work:** A nurse can't find the policy by department folder but follows the wikilink from "wrong dose" to the double-check card - links think, folders only sort.
-- **Home with children:** The bedtime chart links "snack fight" to "brush teeth first" - I don't memorize every filename, the arrows get me there when everyone's tired.
-- **Real world:** I linked "jeepney delay" to "leave earlier" in my daily note and found it six weeks later when the same route broke again - proximity beats perfect filing.
+- I linked "jeepney delay" to "leave earlier" in my daily note and found it six weeks later when the same route broke again - proximity beats perfect filing.
+- The playbook card links "late press" to "[[Slow the Moment]]" - I find the counter without memorizing every filename in the binder.
+- The bedtime chart links "snack fight" to "brush teeth first" - I don't memorize every filename, the arrows get me there when everyone's tired.
+- A nurse can't find the policy by department folder but follows the wikilink from "wrong dose" to the double-check card - links think, folders only sort.
+- Six months later I remember the filename but not the idea. What should I have done while writing - Link while writing - filenames fade.
 
 ## Note Relationships
 

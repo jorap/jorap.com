@@ -19,10 +19,10 @@ If my word needs hype to sound believable, the problem is my follow-through, not
 
 ## Examples
 
-- **Sports:** The coach said "practice at 4pm sharp" - not "we'll try to maybe start around four if weather holds."
-- **Non-technical work:** The host almost said "I'll try to maybe get you a table around seven if we're not slammed" when "7pm" or "I can't tonight - want tomorrow?" was what the couple needed.
-- **Home with children:** I told the carpool "yes Friday, no Thursday" - not "definitely maybe if nothing comes up."
-- **Real world:** I told my neighbor "I'll fix your fence Saturday by noon" - one deadline, one owner, not padded maybe.
+- The host almost said "I'll try to maybe get you a table around seven if we're not slammed" when "7pm" or "I can't tonight - want tomorrow?" was what the couple needed.
+- I told the carpool "yes Friday, no Thursday" - not "definitely maybe if nothing comes up."
+- The coach said "practice at 4pm sharp" - not "we'll try to maybe start around four if weather holds."
+- I told my neighbor "I'll fix your fence Saturday by noon" - one deadline, one owner, not padded maybe.
 
 ## Note Relationships
 
@@ -30,7 +30,7 @@ If my word needs hype to sound believable, the problem is my follow-through, not
 |--------------|----------|--------|
 | contradicts | [[Minimum Viable Product]] | when I ship a vague promise instead of a clear yes or no |
 | extends | [[Atomic Notes]] | One plain claim per commitment, not kitchen-sink promises |
-| extends | [[Let Your Yes Be Yes]] | Plain speech without oath-padding — applied to deadlines and Slack |
+| extends | [[Let Your Yes Be Yes]] | Plain speech without oath-padding - applied to deadlines and Slack |
 | extends | [[Set Calm Boundaries]] | Plain yes/no at work uses the same steady-voice muscle |
 ## See also
 

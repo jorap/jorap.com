@@ -32,10 +32,11 @@ Most content is noise. PKM fails if capture doesn't filter. I save signal - stuf
 
 ## Examples
 
-- **Sports:** The trade-rumor thread was loud all week - signal was the one injury note that actually changed our lineup; the rest I admired and skipped.
-- **Non-technical work:** The dentist waiting room had a stack of magazines - if it won't change what I do this month, headline only, no mental slot.
-- **Home with children:** Three parenting hacks saved this week - I kept the one that changes bedtime this month and skipped the rest for now.
-- **Real world:** Trending thread everyone bookmarks - noise unless it changes what I do or believe this month.
+- The trade-rumor thread was loud all week - signal was the one injury note that actually changed our lineup; the rest I admired and skipped.
+- The dentist waiting room had a stack of magazines - if it won't change what I do this month, headline only, no mental slot.
+- Three parenting hacks saved this week - I kept the one that changes bedtime this month and skipped the rest for now.
+- Trending thread everyone bookmarks - noise unless it changes what I do or believe this month.
+- Interesting article but it won't change what I do this month. Thumb on save. What's the move - Admire and move on - don't save.
 
 ## Note Relationships
 
@@ -43,8 +44,8 @@ Most content is noise. PKM fails if capture doesn't filter. I save signal - stuf
 |--------------|----------|--------|
 | alternative | [[Active Knowledge Curation]] | Filter at save vs curate after capture |
 | contradicts | [[Capture]] | when I save first and filter later |
-| extends | [[Capture]] | Capture fails without a filter — save signal that changes action, skip the noise |
-| extends | [[Information Diet]] | What you let in — filter frame next to capture |
+| extends | [[Capture]] | Capture fails without a filter - save signal that changes action, skip the noise |
+| extends | [[Information Diet]] | What you let in - filter frame next to capture |
 ## See also
 
 - [[Seek the Kingdom First]] - Eternal Principles, Gospel, Priorities

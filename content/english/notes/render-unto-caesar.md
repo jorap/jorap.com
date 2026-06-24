@@ -34,17 +34,18 @@ The coin bore Caesar's image; give it back to him. You bear God's image; give yo
 
 ## Examples
 
-- **Sports:** Tournament fees and park permits get paid on time - kingdom first doesn't mean dodging the forms.
-- **Non-technical work:** The tax bill landed and I paid what was lawful - give Caesar the coin, give God myself.
-- **Home with children:** School activity fees go in the envelope on Monday even when I'd rather spend it on something fun - earthly duty and worship stay distinct.
-- **Real world:** The tax bill landed and part of me wanted to treat paying it like betraying the kingdom - Jesus said give Caesar what's on the coin and God what's made in His image.
+- The tax bill landed and I paid what was lawful - give Caesar the coin, give God myself.
+- Tournament fees and park permits get paid on time - kingdom first doesn't mean dodging the forms.
+- School activity fees go in the envelope on Monday even when I'd rather spend it on something fun - earthly duty and worship stay distinct.
+- The tax bill landed and part of me wanted to treat paying it like betraying the kingdom - Jesus said give Caesar what's on the coin and God what's made in His image.
+- God's image bearer - what do I owe Him vs the state - Self to God - coin to Caesar.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Treasure in Heaven]] | when I treat the state as ultimate lord |
-| extends | [[Seek the Kingdom First]] | Kingdom first doesn't excuse dodging civic duty — give Caesar his coin, God yourself |
+| extends | [[Seek the Kingdom First]] | Kingdom first doesn't excuse dodging civic duty - give Caesar his coin, God yourself |
 ## See also
 
 - [[Seek the Kingdom First]] - Eternal Principles, Gospel, Priorities

@@ -1,7 +1,7 @@
 ---
 title: "Failure as Feedback"
 meta_title: "Failure as Feedback - Misses Are Signal When You Listen"
-description: "Failure as feedback treats a miss as information about the system — not a verdict on your worth."
+description: "Failure as feedback treats a miss as information about the system - not a verdict on your worth."
 date: 2026-06-22T08:00:00Z
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
@@ -13,14 +13,14 @@ status: evergreen
 draft: false
 aliases: []
 ---
-**Failure as feedback** = a miss tells you what to fix next — process, skill, assumption — if you don't treat it as a identity verdict.
+**Failure as feedback** = a miss tells you what to fix next - process, skill, assumption - if you don't treat it as a identity verdict.
 
 ## Examples
 
-- **Sports:** I missed three free throws in a row - failure as feedback was follow-through and routine, not deciding I'm "not a basketball person."
-- **Non-technical work:** A smoke alarm isn't moral judgment - it's data; the miss tells you what to fix next if you don't treat it as a verdict on your worth.
-- **Home with children:** My sourdough failed again; failure as feedback was the thermometer and timing notes, not "I'm bad at baking."
-- **Real world:** The utility bill math was wrong - I treated it as instrument reading about the formula I skipped, not proof I can't do numbers.
+- I missed three free throws in a row - failure as feedback was follow-through and routine, not deciding I'm "not a basketball person."
+- The utility bill math was wrong - I treated it as instrument reading about the formula I skipped, not proof I can't do numbers.
+- A smoke alarm isn't moral judgment - it's data; the miss tells you what to fix next if you don't treat it as a verdict on your worth.
+- My sourdough failed again; failure as feedback was the thermometer and timing notes, not "I'm bad at baking."
 
 ## Note Relationships
 

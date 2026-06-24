@@ -19,10 +19,10 @@ Smooth talkers ship thorns sometimes. I look at downstream stress, turnover, del
 
 ## Examples
 
-- **Sports:** The trainer's Instagram was polished - I asked two parents who finished the program about injuries and consistency.
-- **Non-technical work:** The contractor's portfolio was gorgeous - I asked two neighbors who lived through the remodel about permit fights and cracked tile.
-- **Home with children:** The tutor's brochure looked perfect - I asked one mom whether her kid actually passed after three months.
-- **Real world:** The phone plan salesman had slick slides - I asked my neighbor what his bill actually looked like month six.
+- The trainer's Instagram was polished - I asked two parents who finished the program about injuries and consistency.
+- The contractor's portfolio was gorgeous - I asked two neighbors who lived through the remodel about permit fights and cracked tile.
+- The tutor's brochure looked perfect - I asked one mom whether her kid actually passed after three months.
+- The phone plan salesman had slick slides - I asked my neighbor what his bill actually looked like month six.
 
 ## Note Relationships
 
@@ -31,7 +31,7 @@ Smooth talkers ship thorns sometimes. I look at downstream stress, turnover, del
 | contradicts | [[Life Before Achievement]] | when judging by results would excuse lethal methods that "worked" |
 | contradicts | [[Signal vs Noise]] | when I can't tell a slick pitch from real signal |
 | extends | [[By Their Fruits]] | Discern teaching and leaders by outcome, not charisma |
-| extends | [[Signal vs Noise]] | What produces good over time — same filter in the office |
+| extends | [[Signal vs Noise]] | What produces good over time - same filter in the office |
 ## See also
 
 - [[Workplace Principles]] - Ethics, Eternal Principles, Workplace

@@ -17,10 +17,10 @@ aliases: []
 
 ## Examples
 
-- **Sports:** Third time someone skipped helmet strap in warmups and nobody called it - until the collision in practice.
-- **Non-technical work:** Third time someone ran the red light in the parking lot and nobody wrote it up - until the fender bender.
-- **Home with children:** Third time we let the ladder stay on the stairs and nobody moved it - until someone tripped carrying laundry.
-- **Real world:** Third time I rolled through the stop sign at dawn and nobody honked - until a kid on a bike appeared.
+- Third time I rolled through the stop sign at dawn and nobody honked - until a kid on a bike appeared.
+- Third time someone skipped helmet strap in warmups and nobody called it - until the collision in practice.
+- Third time someone ran the red light in the parking lot and nobody wrote it up - until the fender bender.
+- Third time we let the ladder stay on the stairs and nobody moved it - until someone tripped carrying laundry.
 
 ## Note Relationships
 

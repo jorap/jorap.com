@@ -1,7 +1,7 @@
 ---
 title: "Incident Investigation"
 meta_title: "Incident Investigation"
-description: "find system causes after a miss — not only who to blame."
+description: "find system causes after a miss - not only who to blame."
 date: 2026-06-22T06:00:00Z
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
@@ -13,14 +13,14 @@ status: seedling
 draft: false
 aliases: []
 ---
-**Incident investigation** = find system causes after a miss — not only who to blame.
+**Incident investigation** = find system causes after a miss - not only who to blame.
 
 ## Examples
 
-- **Sports:** After the equipment cart tipped they traced storage layout and weight limits, not just "trainer was clumsy."
-- **Non-technical work:** After the tray spill they traced prep timing, not just "server was clumsy."
-- **Home with children:** After the kitchen burn they traced pan placement and stove rules, not just "kid wasn't careful."
-- **Real world:** After the parking-lot fender bump they traced blind corners and signage, not only who to blame.
+- After the equipment cart tipped they traced storage layout and weight limits, not just "trainer was clumsy."
+- After the kitchen burn they traced pan placement and stove rules, not just "kid wasn't careful."
+- After the parking-lot fender bump they traced blind corners and signage, not only who to blame.
+- After the tray spill they traced prep timing, not just "server was clumsy."
 
 ## Note Relationships
 

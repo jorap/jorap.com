@@ -17,10 +17,10 @@ aliases: ["Interstitial Journaling"]
 
 ## Examples
 
-- **Sports:** Today's pocket slip is just fragments - pick up basketball shoes, ice after practice, call coach back - I promote one line to a real note when it repeats.
-- **Non-technical work:** My shift log is fragments - restock bay three, call vendor, fix label printer - not a diary, just today's scratch pad until review.
-- **Home with children:** Today's pocket slip is just fragments: pick up cleats, dentist Tuesday, call Mom back - I promote one line to the family calendar Sunday if it keeps showing up; the rest can fade.
-- **Real world:** The commute note catches "pay Meralco, renew OR" before it vanishes - daily notes are low-stakes logs, not permanent by default.
+- Today's pocket slip is just fragments - pick up basketball shoes, ice after practice, call coach back - I promote one line to a real note when it repeats.
+- Today's pocket slip is just fragments: pick up cleats, dentist Tuesday, call Mom back - I promote one line to the family calendar Sunday if it keeps showing up; the rest can fade.
+- My shift log is fragments - restock bay three, call vendor, fix label printer - not a diary, just today's scratch pad until review.
+- The commute note catches "pay Meralco, renew OR" before it vanishes - daily notes are low-stakes logs, not permanent by default.
 
 ## Note Relationships
 

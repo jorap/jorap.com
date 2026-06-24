@@ -34,10 +34,11 @@ He washed feet the night before the cross. Status in the kingdom runs opposite t
 
 ## Examples
 
-- **Sports:** I organized snacks for my kid's basketball team on Sunday and came home expecting my family to serve me back - wash feet here too, not only where people can see you.
-- **Non-technical work:** I stayed late to cover a shift and expected praise all week - humility and service is the world's ladder upside down; the last shall be first.
-- **Home with children:** I served at church on Sunday and came home expecting my family to serve me back - that's the world's ladder, not Jesus'.
-- **Real world:** I helped a neighbor move and waited for credit in the group chat - greatness is serving, not being served.
+- I helped a neighbor move and waited for credit in the group chat - greatness is serving, not being served.
+- I organized snacks for my kid's basketball team on Sunday and came home expecting my family to serve me back - wash feet here too, not only where people can see you.
+- I stayed late to cover a shift and expected praise all week - humility and service is the world's ladder upside down; the last shall be first.
+- I served at church on Sunday and came home expecting my family to serve me back - that's the world's ladder, not Jesus'.
+- Foot-washing feels below my role. What did Jesus model - Serve, not be served - wash feet.
 
 ## Note Relationships
 

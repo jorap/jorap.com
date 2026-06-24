@@ -17,10 +17,10 @@ I love my wiki, but sometimes paper wins - meetings, sermons, the pocket noteboo
 
 ## Examples
 
-- **Sports:** My phone died mid-game and the pocket notebook still had the set counts - same capture, no battery required.
-- **Non-technical work:** The contractor sketches room dimensions on a napkin at the site walk - paper wins when the tablet won't load and the client is standing there.
-- **Home with children:** The phone dies mid-sermon and I scribble Philippians references in the margin - I copy them into my study Bible at the kitchen table Sunday night.
-- **Real world:** Stuck in a dead-zone meeting, I jot the action items on the back of the agenda instead of pretending I'll remember them at the car.
+- The phone dies mid-sermon and I scribble Philippians references in the margin - I copy them into my study Bible at the kitchen table Sunday night.
+- Stuck in a dead-zone meeting, I jot the action items on the back of the agenda instead of pretending I'll remember them at the car.
+- My phone died mid-game and the pocket notebook still had the set counts - same capture, no battery required.
+- The contractor sketches room dimensions on a napkin at the site walk - paper wins when the tablet won't load and the client is standing there.
 
 ## Note Relationships
 
@@ -29,7 +29,7 @@ I love my wiki, but sometimes paper wins - meetings, sermons, the pocket noteboo
 | alternative | [[Mobile Capture Workflows]] | Different tool, same job |
 | contradicts | [[Digital Minimalism]] | when paper wins over fewer digital pipes |
 | extends | [[Capture]] | Paper wins when your phone dies or you're stuck in a meeting |
-| extends | [[Commonplace Book]] | Historical paper capture habit — same low-friction lane |
+| extends | [[Commonplace Book]] | Historical paper capture habit - same low-friction lane |
 ## See also
 
 - [[Eternal Principles]] - Eternal Principles, Faith, Gospel

@@ -34,10 +34,11 @@ Both builders hear the sermon; only one obeys. Storms reveal which foundation he
 
 ## Examples
 
-- **Sports:** We heard the coach's lecture on discipline and still skipped film study Tuesday - hearing without doing is sand; storms show which builder you are.
-- **Non-technical work:** Safety training Monday, same shortcut Wednesday - wise builder hears and does; fool hears and nods.
-- **Home with children:** I've heard the Sermon preached a dozen times and still gossiped on Tuesday like Monday's Bible study never happened.
-- **Real world:** Saved articles on sleep hygiene and still scrolled till 1 a.m. - hearing without doing is a sand house; obedience is rock.
+- We heard the coach's lecture on discipline and still skipped film study Tuesday - hearing without doing is sand; storms show which builder you are.
+- Safety training Monday, same shortcut Wednesday - wise builder hears and does; fool hears and nods.
+- I've heard the Sermon preached a dozen times and still gossiped on Tuesday like Monday's Bible study never happened.
+- Saved articles on sleep hygiene and still scrolled till 1 a.m. - hearing without doing is a sand house; obedience is rock.
+- Heard the Sermon preached many times - how I treat people unchanged. What's missing - Do one command today - not hear only.
 
 ## Note Relationships
 

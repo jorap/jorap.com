@@ -36,18 +36,19 @@ Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand
 
 ## Examples
 
-- **Sports:** The kids' activity list had six things and we skipped three nights - I trimmed to basketball and piano and we actually showed up.
-- **Non-technical work:** The bakery had six daily specials and sold two consistently - we cut to those two and waste dropped.
-- **Home with children:** Last month six activities, skipped three nights - trimmed to two, suddenly showing up instead of guilt-driving past canceled plans.
-- **Real world:** My reading pile had forty tabs - the five that moved work got Sunday morning, the rest got deleted.
+- The kids' activity list had six things and we skipped three nights - I trimmed to basketball and piano and we actually showed up.
+- The bakery had six daily specials and sold two consistently - we cut to those two and waste dropped.
+- Last month six activities, skipped three nights - trimmed to two, suddenly showing up instead of guilt-driving past canceled plans.
+- My reading pile had forty tabs - the five that moved work got Sunday morning, the rest got deleted.
+- Task board and reading list both screaming urgent. Protect which slice - roughly what percent moved the needle - The vital ~20%.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when cutting the long tail kills compounding habits |
-| extends | [[Signal vs Noise]] | Most results come from a small slice — find the signal and cut the noise |
-| extends | [[Vilfredo Pareto]] | 80/20 origin story — worth its own note later |
+| extends | [[Signal vs Noise]] | Most results come from a small slice - find the signal and cut the noise |
+| extends | [[Vilfredo Pareto]] | 80/20 origin story - worth its own note later |
 ## See also
 
 - [[Eternal Principles]] - Eternal Principles, Faith, Gospel

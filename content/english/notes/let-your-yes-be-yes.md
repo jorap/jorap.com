@@ -34,10 +34,11 @@ Jesus deepened the law against false vows: disciples should be so truthful that 
 
 ## Examples
 
-- **Sports:** I told the coach I'd have my kid there "God willing, absolutely, cross my heart" when a plain yes would have been enough.
-- **Non-technical work:** I padded a deadline promise with extra assurances so they'd believe me - if my word needs spin to sound believable, the problem isn't the schedule, it's me.
-- **Home with children:** I promised my kid six things in one breath to win the argument - let your yes be yes: one plain yes, no kitchen-sink speech.
-- **Real world:** I told the neighbor I'd watch their mail "cross my heart, absolutely" when yes or no would have stood alone - anything beyond simple yes/no is manipulation, not trust.
+- I told the coach I'd have my kid there "God willing, absolutely, cross my heart" when a plain yes would have been enough.
+- I padded a deadline promise with extra assurances so they'd believe me - if my word needs spin to sound believable, the problem isn't the schedule, it's me.
+- I promised my kid six things in one breath to win the argument - let your yes be yes: one plain yes, no kitchen-sink speech.
+- I told the neighbor I'd watch their mail "cross my heart, absolutely" when yes or no would have stood alone - anything beyond simple yes/no is manipulation, not trust.
+- Thumb adding qualifiers to a simple commitment. Strip to what - Simple yes or no - no spin.
 
 ## Note Relationships
 

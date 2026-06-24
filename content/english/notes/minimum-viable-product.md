@@ -19,10 +19,10 @@ I'd rather publish a rough note or prototype and learn than polish in private fo
 
 ## Examples
 
-- **Sports:** We ran one new play in scrimmage before printing playbooks for the whole league - learned more in forty minutes than another week of polish.
-- **Non-technical work:** The baker sold one test batch of sourdough before remodeling the display case - customers told her what to fix.
-- **Home with children:** I sat on a half-planned birthday party for three months - we ordered pizza, one banner, kids had a blast, learned more than another month of Pinterest.
-- **Real world:** I posted a rough neighborhood watch signup before buying printed flyers - four replies told me if anyone cared.
+- I sat on a half-planned birthday party for three months - we ordered pizza, one banner, kids had a blast, learned more than another month of Pinterest.
+- I posted a rough neighborhood watch signup before buying printed flyers - four replies told me if anyone cared.
+- We ran one new play in scrimmage before printing playbooks for the whole league - learned more in forty minutes than another week of polish.
+- The baker sold one test batch of sourdough before remodeling the display case - customers told her what to fix.
 
 ## Note Relationships
 

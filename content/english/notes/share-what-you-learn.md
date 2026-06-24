@@ -19,10 +19,10 @@ A garden full of notes nobody reads is the same failure mode as a team where onl
 
 ## Examples
 
-- **Sports:** The veteran keeper showed the rookie where to stand on corners - twenty minutes now so she's not guessing on match day.
-- **Non-technical work:** The electrician labeled every breaker in the panel for whoever comes next - twenty minutes now, no guessing later.
-- **Home with children:** I almost moved on after a week wrestling school forms - share what you learn was the sticky note on the fridge so my spouse didn't start from zero.
-- **Real world:** I'd figured out the clinic's parking trick after three visits - I told the next parent in line instead of hoarding the shortcut.
+- I'd figured out the clinic's parking trick after three visits - I told the next parent in line instead of hoarding the shortcut.
+- I almost moved on after a week wrestling school forms - share what you learn was the sticky note on the fridge so my spouse didn't start from zero.
+- The veteran keeper showed the rookie where to stand on corners - twenty minutes now so she's not guessing on match day.
+- The electrician labeled every breaker in the panel for whoever comes next - twenty minutes now, no guessing later.
 
 ## Note Relationships
 
@@ -30,7 +30,7 @@ A garden full of notes nobody reads is the same failure mode as a team where onl
 |--------------|----------|--------|
 | contradicts | [[The Collector's Fallacy]] | when I hoard knowledge without teaching or shipping |
 | extends | [[Creative Output]] | Inventory means nothing until it leaves your head |
-| extends | [[Great Commission]] | Make disciples — here, make the team capable, not dependent |
+| extends | [[Great Commission]] | Make disciples - here, make the team capable, not dependent |
 ## See also
 
 - [[Workplace Principles]] - Leadership, Eternal Principles, Workplace

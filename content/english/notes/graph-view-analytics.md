@@ -16,10 +16,10 @@ Graph looks sci-fi. Mostly I use it to sort notes by link rank - top 20%, middle
 
 ## Examples
 
-- **Sports:** I sorted our drill notes by link rank and three warm-up routines had zero arrows to anything else - that gap list was my fix-this-week, not decoration.
-- **Non-technical work:** I laid out the shift handoff chart and three tasks had zero arrows to an owner - the orphan list was my fix-this-week, not a pretty poster.
-- **Home with children:** I laid out the kids' chore chart and three jobs had zero arrows to anything else - nobody knew who checked them; that gap list was my fix-this-week.
-- **Real world:** My notes graph showed five orphans with no inbound links - graph analytics is sorting by link rank to find what I forgot to connect, not sci-fi wallpaper.
+- I sorted our drill notes by link rank and three warm-up routines had zero arrows to anything else - that gap list was my fix-this-week, not decoration.
+- I laid out the shift handoff chart and three tasks had zero arrows to an owner - the orphan list was my fix-this-week, not a pretty poster.
+- I laid out the kids' chore chart and three jobs had zero arrows to anything else - nobody knew who checked them; that gap list was my fix-this-week.
+- My notes graph showed five orphans with no inbound links - graph analytics is sorting by link rank to find what I forgot to connect, not sci-fi wallpaper.
 
 ## Note Relationships
 

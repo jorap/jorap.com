@@ -17,10 +17,10 @@ Mental models are shortcuts for thinking. I keep a short list of ones that survi
 
 ## Examples
 
-- **Sports:** Saturday basketball camp signup had forty options listed and I froze - Pareto got me to three that fit our budget, [[Low Hanging Fruit]] was registering before slots closed, compounding was ten minutes of ball-handling a week.
-- **Non-technical work:** The restaurant had twelve menu tweaks on the whiteboard - I picked the two that actually cut ticket times and shelved the rest.
-- **Home with children:** Forty activity flyers on the fridge and we froze - three fit the budget, register online before slots close, ten minutes of practice beats the flashiest camp jersey.
-- **Real world:** Waze showed four commute routes - I stuck to the one that saves gas on the Tuesday school run, not the scenic detour.
+- The restaurant had twelve menu tweaks on the whiteboard - I picked the two that actually cut ticket times and shelved the rest.
+- Waze showed four commute routes - I stuck to the one that saves gas on the Tuesday school run, not the scenic detour.
+- Saturday basketball camp signup had forty options listed and I froze - Pareto got me to three that fit our budget, [[Low Hanging Fruit]] was registering before slots closed, compounding was ten minutes of ball-handling a week.
+- Forty activity flyers on the fridge and we froze - three fit the budget, register online before slots close, ten minutes of practice beats the flashiest camp jersey.
 
 ## Note Relationships
 

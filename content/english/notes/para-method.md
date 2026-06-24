@@ -32,10 +32,11 @@ aliases: ["PARA", "Organization", "The Archive Method", "Archive Method", "The A
 
 ## Examples
 
-- **Sports:** Tournament folder on the bench with a deadline; off-season conditioning notes in the filing cabinet with no end date.
-- **Non-technical work:** The science fair folder on the counter with a deadline; immunization records in the filing cabinet with no end date.
-- **Home with children:** Science fair on the counter with a due date; immunization records in the cabinet with no end date - sorted by what owns it, not alphabet soup.
-- **Real world:** Tax envelope on the desk until April 15; car registration in the glove box year-round.
+- Tournament folder on the bench with a deadline; off-season conditioning notes in the filing cabinet with no end date.
+- The science fair folder on the counter with a deadline; immunization records in the filing cabinet with no end date.
+- Science fair on the counter with a due date; immunization records in the cabinet with no end date - sorted by what owns it, not alphabet soup.
+- Tax envelope on the desk until April 15; car registration in the glove box year-round.
+- Active work with a deadline just landed in my notes. Owner and end date clear - where does it go - Projects - or it stays Resources.
 
 ## Note Relationships
 
@@ -43,7 +44,7 @@ aliases: ["PARA", "Organization", "The Archive Method", "Archive Method", "The A
 |--------------|----------|--------|
 | alternative | [[Associative Linking]] | Life buckets vs link-first when owner and deadline are clear |
 | contradicts | [[Associative Linking]] | when life buckets beat waiting for links to find each other |
-| extends | [[Building a Second Brain]] | PARA sorts notes by life responsibility — CODE's organize step |
+| extends | [[Building a Second Brain]] | PARA sorts notes by life responsibility - CODE's organize step |
 | extends | [[Getting Things Done]] | Action-first capture Forte built PARA on top of |
 | implements | [[Building a Second Brain]] | PARA folders carry CODE's organize step |
 ## See also

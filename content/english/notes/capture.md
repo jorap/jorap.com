@@ -36,10 +36,11 @@ Friction kills capture. One inbox, phone to desktop, weekly process - same as [[
 
 ## Examples
 
-- **Sports:** A play tweak hits during cooldown and I scribble it on my wristband before the locker room noise eats it - one inbox, file it Sunday when the spark is safe.
-- **Non-technical work:** A customer complaint gives me a fix idea mid-shift and I drop it in one inbox - no tagging yet, process it Friday when the spark is already saved.
-- **Home with children:** On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it - one pocket notebook, no sorting yet.
-- **Real world:** A commute thought lands and I voice-memo it before the jeepney drowns it out - one trusted pipe, weekly review empties it.
+- A play tweak hits during cooldown and I scribble it on my wristband before the locker room noise eats it - one inbox, file it Sunday when the spark is safe.
+- A customer complaint gives me a fix idea mid-shift and I drop it in one inbox - no tagging yet, process it Friday when the spark is already saved.
+- On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it - one pocket notebook, no sorting yet.
+- A commute thought lands and I voice-memo it before the jeepney drowns it out - one trusted pipe, weekly review empties it.
+- Thumb hovering over save on an interesting link I'm unsure about. One question before it hits the inbox - Would I act on it or cite it later?
 
 ## Note Relationships
 
@@ -48,7 +49,7 @@ Friction kills capture. One inbox, phone to desktop, weekly process - same as [[
 | alternative | [[Frictionless Capture]] | Single pipe vs zero-friction everywhere when trust beats options |
 | contradicts | [[Signal vs Noise]] | when I save first and filter later |
 | extends | [[Frictionless Capture]] | Zero-friction inbox is the habit this note assumes |
-| extends | [[PKM]] | Capture is the first PKM move — save what hits you into one inbox |
+| extends | [[PKM]] | Capture is the first PKM move - save what hits you into one inbox |
 | implements | [[The Trusted Inbox]] | One inbox habit carries capture into something you'll empty |
 ## See also
 

@@ -34,17 +34,18 @@ Jesus rejected the limit of "eye for eye" as a personal ethic for disciples. The
 
 ## Examples
 
-- **Sports:** Trash talk after the whistle and I wanted the last word - turn the other cheek is refusing to become the player who has to win every exchange.
-- **Non-technical work:** A customer snapped over a wait time and I felt the perfect comeback forming - non-retaliation is absorbing without escalating the cycle.
-- **Home with children:** Someone snapped at me in the school pickup line and I spent the drive home drafting the comeback - turning the cheek isn't pretending it didn't hurt; it's not mirroring evil.
-- **Real world:** Neighbor's passive-aggressive note about parking - I didn't post a rebuttal on the group chat; stop throwing anger after sunk hurt.
+- Neighbor's passive-aggressive note about parking - I didn't post a rebuttal on the group chat; stop throwing anger after sunk hurt.
+- Trash talk after the whistle and I wanted the last word - turn the other cheek is refusing to become the player who has to win every exchange.
+- A customer snapped over a wait time and I felt the perfect comeback forming - non-retaliation is absorbing without escalating the cycle.
+- Someone snapped at me in the school pickup line and I spent the drive home drafting the comeback - turning the cheek isn't pretending it didn't hurt; it's not mirroring evil.
+- Insult landed - thumb drafting equal hurt back. What's the cycle-break - Don't retaliate - absorb without escalating.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[The Golden Rule]] | when I wait to hit back before acting well |
-| extends | [[Love Your Enemies]] | Break the retaliation cycle — refuse to become what hurt you, further than enemy-love alone |
+| extends | [[Love Your Enemies]] | Break the retaliation cycle - refuse to become what hurt you, further than enemy-love alone |
 ## See also
 
 - [[Sunk Cost Fallacy]] - Decision Making, Mental Models, PKM

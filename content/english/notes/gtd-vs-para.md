@@ -17,10 +17,10 @@ GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - here's
 
 ## Examples
 
-- **Sports:** The practice schedule lives in the task app; the playbook principles live in the notes folder - GTD runs tasks, PARA runs knowledge, cousins not competitors.
-- **Non-technical work:** The shift board holds what we finish this week; the training binder holds forms with no deadline - same workplace, two systems.
-- **Home with children:** The fridge list holds what we buy this week; the filing cabinet holds school forms with no deadline - I stopped cramming groceries into the permanent folder.
-- **Real world:** My errand list is GTD; my garden notes are PARA - I use both without doubling admin.
+- The fridge list holds what we buy this week; the filing cabinet holds school forms with no deadline - I stopped cramming groceries into the permanent folder.
+- My errand list is GTD; my garden notes are PARA - I use both without doubling admin.
+- The practice schedule lives in the task app; the playbook principles live in the notes folder - GTD runs tasks, PARA runs knowledge, cousins not competitors.
+- The shift board holds what we finish this week; the training binder holds forms with no deadline - same workplace, two systems.
 
 ## Note Relationships
 
@@ -30,7 +30,7 @@ GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - here's
 | alternative | [[PARA Method]] | PARA sort vs GTD contexts when project folders beat action lists |
 | contradicts | [[PKM]] | when task inbox truth beats note-garden architecture |
 | extends | [[Getting Things Done]] | Allen task-inbox system on the other side of the comparison |
-| extends | [[PARA Method]] | GTD runs tasks and PARA sorts notes — here's how both work without doubling admin |
+| extends | [[PARA Method]] | GTD runs tasks and PARA sorts notes - here's how both work without doubling admin |
 ## See also
 
 - [[PARA Method]] - Note Taking, PARA, PKM

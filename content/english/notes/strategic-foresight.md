@@ -17,10 +17,10 @@ aliases: []
 
 ## Examples
 
-- **Sports:** The club signed a young backup keeper before the starter's contract year - foresight looks past this Saturday's win to next season's roster crunch.
-- **Non-technical work:** The café added two high chairs before rainy-season families showed up - not only tables for today's lunch crowd.
-- **Home with children:** You don't buy a two-seat car the year before twins arrive - the board after everyone reacts to your life, not just today's trunk test.
-- **Real world:** Our condo board started the elevator fund three years before the quote arrived - looking past tonight's quiet ride to what the building looks like in six months.
+- The club signed a young backup keeper before the starter's contract year - foresight looks past this Saturday's win to next season's roster crunch.
+- The café added two high chairs before rainy-season families showed up - not only tables for today's lunch crowd.
+- You don't buy a two-seat car the year before twins arrive - the board after everyone reacts to your life, not just today's trunk test.
+- Our condo board started the elevator fund three years before the quote arrived - looking past tonight's quiet ride to what the building looks like in six months.
 
 ## Note Relationships
 
@@ -28,7 +28,7 @@ aliases: []
 |--------------|----------|--------|
 | contradicts | [[Minimum Viable Product]] | when twelve-month planning blocks shipping what you can learn from this week |
 | extends | [[Expect the Counter]] | Foresight rehearses the response |
-| extends | [[Future-Proofing Knowledge]] | PKM parallel — build for the next tool, not only today's |
+| extends | [[Future-Proofing Knowledge]] | PKM parallel - build for the next tool, not only today's |
 | extends | [[Second-Order Thinking]] | Downstream effects are foresight fuel |
 ## See also
 

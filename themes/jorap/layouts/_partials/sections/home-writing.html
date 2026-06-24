@@ -11,7 +11,15 @@
 {{ $posts := slice }}
 {{ if and $homeBlog $homeBlog.post_slugs }}
   {{ range $homeBlog.post_slugs }}
-    {{ with site.GetPage (printf "/blog/%s" .) }}
+    {{ $slug := . }}
+    {{ $page := site.GetPage (printf "/blog/%s" $slug) }}
+    {{ if not $page }}
+      {{ $page = index (where site.RegularPages "Params.slug" $slug) 0 }}
+    {{ end }}
+    {{ if not $page }}
+      {{ $page = site.GetPage (printf "blog/%s" $slug) }}
+    {{ end }}
+    {{ with $page }}
       {{ $posts = $posts | append . }}
     {{ end }}
   {{ end }}

@@ -34,10 +34,11 @@ Jesus pairs this with [[Judge Not]]: don't condemn souls, but do evaluate fruit.
 
 ## Examples
 
-- **Sports:** The youth coach talks smooth on day one but his players look stressed and bitter by month three - fruit told me more than any clinic title ever could.
-- **Non-technical work:** Last month I bookmarked a preacher who looks holy on stage - six weeks later the people around him looked broke and bitter, and that told me more than any sermon title.
-- **Home with children:** A parenting influencer sells calm routines but her comment section is full of moms feeling like failures - I judge the outcome, not the charisma.
-- **Real world:** A trending productivity guru's followers still drown in inbox chaos - grapes from grapevines, thorns from thistles, time and results tell.
+- The youth coach talks smooth on day one but his players look stressed and bitter by month three - fruit told me more than any clinic title ever could.
+- A trending productivity guru's followers still drown in inbox chaos - grapes from grapevines, thorns from thistles, time and results tell.
+- Last month I bookmarked a preacher who looks holy on stage - six weeks later the people around him looked broke and bitter, and that told me more than any sermon title.
+- A parenting influencer sells calm routines but her comment section is full of moms feeling like failures - I judge the outcome, not the charisma.
+- About to condemn the teacher's soul online. What do I do instead of playing judge - Look at fruit - don't judge their soul.
 
 ## Note Relationships
 

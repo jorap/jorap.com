@@ -19,10 +19,10 @@ Vocabulary, definitions, scripture references - anything I'll be quizzed on or n
 
 ## Examples
 
-- **Sports:** We drill the baseline out-of-bounds play five minutes before every practice - same little doses beat cramming it the night before a game.
-- **Non-technical work:** The new hire's product codes live on a card by the register - five reps during slow shifts beat one frantic hour before the audit.
-- **Home with children:** My kid's spelling list lives on the fridge; we hit five words while rice cooks - same little doses beat cramming the night before the quiz.
-- **Real world:** I do the same with note cards on capture and gospel lines - review on a schedule before I forget, not one marathon session.
+- I do the same with note cards on capture and gospel lines - review on a schedule before I forget, not one marathon session.
+- We drill the baseline out-of-bounds play five minutes before every practice - same little doses beat cramming it the night before a game.
+- The new hire's product codes live on a card by the register - five reps during slow shifts beat one frantic hour before the audit.
+- My kid's spelling list lives on the fridge; we hit five words while rice cooks - same little doses beat cramming the night before the quiz.
 
 ## Note Relationships
 

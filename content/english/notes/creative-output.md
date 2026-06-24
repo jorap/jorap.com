@@ -17,10 +17,10 @@ Notes are inventory. Output is the point - blog posts, sermons, code, dinner exp
 
 ## Examples
 
-- **Sports:** Friday film day means everyone shows one clip, rough or not - I do the same with my note pile, three sparks become one finished piece even if the cut is rough.
-- **Non-technical work:** The art teacher makes everyone show one sketch, rough or not - notes are inventory, output is the point.
-- **Home with children:** We don't wait for perfect dinner photos - we ship the meal and fix the recipe next time; hearing the idea isn't doing it.
-- **Real world:** I publish the sermon outline before it's polished because truth shared beats truth hoarded in the garden like bookmarks.
+- Friday film day means everyone shows one clip, rough or not - I do the same with my note pile, three sparks become one finished piece even if the cut is rough.
+- I publish the sermon outline before it's polished because truth shared beats truth hoarded in the garden like bookmarks.
+- The art teacher makes everyone show one sketch, rough or not - notes are inventory, output is the point.
+- We don't wait for perfect dinner photos - we ship the meal and fix the recipe next time; hearing the idea isn't doing it.
 
 ## Note Relationships
 

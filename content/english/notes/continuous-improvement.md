@@ -1,7 +1,7 @@
 ---
 title: "Continuous Improvement"
 meta_title: "Continuous Improvement - Small Fixes That Compound"
-description: "Continuous improvement is steady small upgrades to process and skill — not one heroic overhaul."
+description: "Continuous improvement is steady small upgrades to process and skill - not one heroic overhaul."
 date: 2026-06-22T08:00:00Z
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
@@ -13,14 +13,14 @@ status: evergreen
 draft: false
 aliases: ["kaizen"]
 ---
-**Continuous improvement** = small fixes to how you work, repeated — each miss feeds the next version of the process.
+**Continuous improvement** = small fixes to how you work, repeated - each miss feeds the next version of the process.
 
 ## Examples
 
-- **Sports:** A line cook pulls a bad prep tray and fixes the station before service - small fixes daily, not one yearly overhaul.
-- **Non-technical work:** The barista changed one milk-steaming step after every burned latte - kaizen in the steam wand, not a grand retraining day that never happens.
-- **Home with children:** Our family morning checklist grew one line per forgotten backpack - six months later school mornings were boring in a good way.
-- **Real world:** I tweak one line in my weekly review checklist after each miss - steady small upgrades beat the heroic overhaul I never schedule.
+- I tweak one line in my weekly review checklist after each miss - steady small upgrades beat the heroic overhaul I never schedule.
+- A line cook pulls a bad prep tray and fixes the station before service - small fixes daily, not one yearly overhaul.
+- The barista changed one milk-steaming step after every burned latte - kaizen in the steam wand, not a grand retraining day that never happens.
+- Our family morning checklist grew one line per forgotten backpack - six months later school mornings were boring in a good way.
 
 ## Note Relationships
 
