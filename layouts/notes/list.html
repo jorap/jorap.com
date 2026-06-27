@@ -36,8 +36,8 @@
           {{- $allCategories = sort $allCategories -}}
 
           <div class="notes-list-controls border-divider mb-6 rounded border p-4 sm:p-5">
-            <div class="notes-list-controls__top flex flex-col gap-3 sm:flex-row sm:items-center">
-              <label class="notes-list-search-wrap min-w-0 flex-1">
+            <div class="notes-list-controls__top flex flex-wrap items-center gap-2 sm:gap-3">
+              <label class="notes-list-search-wrap min-w-0 w-full sm:flex-1">
                 <span class="sr-only">Search notes</span>
                 <input
                   type="search"
@@ -48,6 +48,14 @@
                   data-notes-search />
               </label>
 
+              <button
+                type="button"
+                class="notes-list-clear btn btn-outline-primary btn-sm hidden shrink-0"
+                data-notes-clear
+                hidden>
+                Clear
+              </button>
+
               {{- if or (gt (len $allTags) 0) (gt (len $allCategories) 0) -}}
                 <details class="notes-list-refine shrink-0">
                   <summary class="notes-list-refine__summary btn btn-outline-primary btn-sm">Refine</summary>
@@ -55,7 +63,7 @@
                     {{- if gt (len $allTags) 0 -}}
                       <label class="notes-list-facet text-sm">
                         <span class="text-ink-muted mb-1 block">Tag</span>
-                        <select class="form-select form-select-sm w-full" data-notes-tag>
+                        <select class="notes-list-facet__select w-full" data-notes-tag>
                           <option value="">All tags</option>
                           {{- range $allTags -}}
                             <option value="{{ . | urlize }}">{{ . }} ({{ index $tagCounts . }})</option>
@@ -66,7 +74,7 @@
                     {{- if gt (len $allCategories) 0 -}}
                       <label class="notes-list-facet text-sm">
                         <span class="text-ink-muted mb-1 block">Category</span>
-                        <select class="form-select form-select-sm w-full" data-notes-category>
+                        <select class="notes-list-facet__select w-full" data-notes-category>
                           <option value="">All categories</option>
                           {{- range $allCategories -}}
                             <option value="{{ . | urlize }}">{{ . }} ({{ index $categoryCounts . }})</option>
@@ -77,6 +85,14 @@
                   </div>
                 </details>
               {{- end -}}
+
+              <span
+                class="notes-list-count text-ink-muted ms-auto shrink-0 text-sm tabular-nums whitespace-nowrap"
+                data-notes-count
+                data-notes-total="{{ len $notes }}"
+                aria-live="polite">
+                {{ len $notes }} / {{ len $notes }}
+              </span>
             </div>
           </div>
 

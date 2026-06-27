@@ -9,7 +9,12 @@
   var searchEl = document.querySelector("[data-notes-search]");
   var tagEl = document.querySelector("[data-notes-tag]");
   var categoryEl = document.querySelector("[data-notes-category]");
+  var clearEl = document.querySelector("[data-notes-clear]");
+  var countEl = document.querySelector("[data-notes-count]");
   var emptyEl = document.querySelector("[data-notes-filter-empty]");
+  var total = countEl
+    ? parseInt(countEl.getAttribute("data-notes-total") || "0", 10) || items.length
+    : items.length;
 
   var state = {
     search: "",
@@ -27,10 +32,30 @@
     if (q) state.search = q;
   }
 
+  function hasActiveFilters() {
+    return Boolean(state.search || state.tag || state.category);
+  }
+
   function syncControls() {
     if (searchEl) searchEl.value = state.search;
     if (tagEl) tagEl.value = state.tag;
     if (categoryEl) categoryEl.value = state.category;
+    if (clearEl) {
+      var active = hasActiveFilters();
+      clearEl.hidden = !active;
+      clearEl.classList.toggle("hidden", !active);
+    }
+  }
+
+  function clearFilters() {
+    state.search = "";
+    state.tag = "";
+    state.category = "";
+    syncControls();
+    applyFilters();
+    updateUrl();
+    var refineEl = document.querySelector(".notes-list-refine");
+    if (refineEl) refineEl.open = false;
   }
 
   function itemMatches(item) {
@@ -60,6 +85,7 @@
       if (show) visible += 1;
     });
     if (emptyEl) emptyEl.classList.toggle("hidden", visible > 0);
+    if (countEl) countEl.textContent = visible + " / " + total;
   }
 
   function updateUrl() {
@@ -79,6 +105,7 @@
       state.search = searchEl.value.trim().toLowerCase();
       applyFilters();
       updateUrl();
+      syncControls();
     });
   }
 
@@ -87,6 +114,7 @@
       state.tag = tagEl.value || "";
       applyFilters();
       updateUrl();
+      syncControls();
     });
   }
 
@@ -95,7 +123,12 @@
       state.category = categoryEl.value || "";
       applyFilters();
       updateUrl();
+      syncControls();
     });
+  }
+
+  if (clearEl) {
+    clearEl.addEventListener("click", clearFilters);
   }
 
   readUrlState();
