@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["PARA", "Tiago Forte", "PKM", "Organization", "Archive", "Second Brain", "Productivity", "Note Taking", "Structure"]
 slug: "para-method"
 featured: false
-status: evergreen
 review: true
 card_sets: ["Organization", "Workflow"]
 cards:

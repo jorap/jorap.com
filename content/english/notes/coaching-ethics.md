@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Leadership", "Safety", "Ethics"]
 slug: "coaching-ethics"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

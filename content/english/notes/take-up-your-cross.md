@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Discipleship", "Self-denial"]
 slug: "take-up-your-cross"
 featured: false
-status: evergreen
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:

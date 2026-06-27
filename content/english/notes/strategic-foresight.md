@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Strategy", "Thinking", "Leadership"]
 slug: "strategic-foresight"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

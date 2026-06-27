@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Relationships", "Communication", "Listening", "Respect"]
 slug: "follow-their-lead"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

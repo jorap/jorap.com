@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Performance", "Habits", "Preparedness", "Systems Thinking"]
 slug: "build-a-reliable-default"
 featured: false
-status: evergreen
 draft: false
 aliases: ["reliable default under pressure"]
 ---

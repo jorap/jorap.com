@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Leadership", "Ethics"]
 slug: "ethical-leadership"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

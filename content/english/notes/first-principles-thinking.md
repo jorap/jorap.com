@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["First Principles", "Thinking", "PKM", "Mental Models", "Note Taking", "Synthesis"]
 slug: "first-principles-thinking"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Performance", "Leadership", "Composure", "Negotiation"]
 slug: "control-the-rhythm"
 featured: false
-status: evergreen
 draft: false
 aliases: ["control the pace"]
 ---

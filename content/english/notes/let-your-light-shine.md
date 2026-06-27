@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Witness"]
 slug: "let-your-light-shine"
 featured: false
-status: evergreen
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:

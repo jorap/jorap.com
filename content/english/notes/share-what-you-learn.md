@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Workplace", "Leadership", "Eternal Principles", "Knowledge Sharing", "Teaching"]
 slug: "share-what-you-learn"
 featured: false
-status: evergreen
 draft: false
 aliases: ["teach what you know", "knowledge sharing at work"]
 ---

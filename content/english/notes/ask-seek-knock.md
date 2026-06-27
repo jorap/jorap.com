@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Prayer"]
 slug: "ask-seek-knock"
 featured: false
-status: evergreen
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Prayer"]
 cards:

@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Systems Thinking", "Work", "Performance"]
 slug: "standard-operating-procedures"
 featured: false
-status: evergreen
 draft: false
 aliases: ["SOPs"]
 ---

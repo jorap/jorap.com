@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Gospel", "Free Grace", "Salvation", "Faith", "Eternal Principles", "Theology"]
 slug: "free-grace"
 featured: false
-status: evergreen
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Faith"]
 cards:

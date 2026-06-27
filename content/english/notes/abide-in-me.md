@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Free Grace", "Fruit", "Union with Christ"]
 slug: "abide-in-me"
 featured: false
-status: evergreen
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Faith"]
 cards:

@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Health", "Performance", "Habits"]
 slug: "recovery"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

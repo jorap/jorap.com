@@ -11,7 +11,6 @@ tags: ["Mental Models", "Productivity", "Performance", "Prioritization", "Focus"
 slug: "pareto-principle"
 featured: false
 aliases: ["80/20", "80-20 Rule", "Pareto Principle", "Vilfredo Pareto"]
-status: evergreen
 review: true
 card_sets: ["Focus", "Review"]
 cards:

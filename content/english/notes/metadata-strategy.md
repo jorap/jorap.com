@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Metadata", "Tags", "PKM", "Organization", "Taxonomy", "Note Taking", "Hugo", "Documentation"]
 slug: "metadata-strategy"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

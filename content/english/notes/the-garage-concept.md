@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Garage Concept", "Digital Garden", "PKM", "Publishing", "Workflow", "Privacy", "Hugo", "Static Site Generator", "Website Building"]
 slug: "the-garage-concept"
 featured: false
-status: evergreen
 draft: false
 aliases: ["Garage Concept"]
 ---

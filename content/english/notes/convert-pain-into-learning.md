@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Performance", "Learning", "Growth", "Continuous Improvement"]
 slug: "convert-pain-into-learning"
 featured: false
-status: evergreen
 draft: false
 aliases: ["learn from failure"]
 ---

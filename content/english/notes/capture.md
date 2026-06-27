@@ -10,7 +10,6 @@ author: "JoRap"
 tags: ["Capture", "PKM", "Second Brain", "CODE Method", "Note Taking", "Productivity"]
 slug: "capture"
 featured: false
-status: evergreen
 review: true
 card_sets: ["Capture", "Workflow"]
 cards:

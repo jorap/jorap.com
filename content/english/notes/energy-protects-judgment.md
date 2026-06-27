@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Performance", "Health", "Decision Making", "Recovery"]
 slug: "energy-protects-judgment"
 featured: false
-status: evergreen
 draft: false
 aliases: ["rest protects judgment"]
 ---

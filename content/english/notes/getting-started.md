@@ -10,7 +10,6 @@ categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Notes", "Meta", "PKM", "Digital Garden", "Note Taking", "Hugo", "Website Building"]
 aliases: ["start"]
-status: evergreen
 featured: true
 draft: false
 ---
@@ -36,9 +35,7 @@ Public when `draft: false`; hidden while `draft: true`. Each note opens with a d
 hugo new notes/my-idea.md
 ```
 
-Or add a `.md` file under `content/english/notes/`. Use the same frontmatter as blog posts (`title`, `meta_title`, `description`, `slug`, `date`, `image`, `categories`, `author`, `tags`, `featured`, `draft`) plus optional lifecycle fields:
-
-- `status` - `seedling` (draft claim), `evergreen` (stable), `inbox` (unprocessed), or `archived`
+Or add a `.md` file under `content/english/notes/`. Use the same frontmatter as blog posts (`title`, `meta_title`, `description`, `slug`, `date`, `image`, `categories`, `author`, `tags`, `featured`, `draft`).
 
 Created and updated timestamps come from the file itself at build time (`scripts/noteFileDates.js`) - no manual date fields to maintain.
 
@@ -60,7 +57,6 @@ What this site gives you:
 - **See also** - tag-related notes generated at build time (not static in markdown)
 - **Hover previews** - pause on a wikilink to peek at the target note
 - **Maps of Content** - hub index at [[Maps of Content]]
-- **Status badges** - seedling/evergreen/inbox/archived on each note; stale filter uses file edit time on [/notes/](/notes/)
 - **Resurfacing** - featured random note and [Random Duo](/notes/random-duo/) on [/notes/](/notes/)
 - **Create Note** - topic → AI prompt for one lint-ready atomic note at [/notes/create/](/notes/create/)
 - **Copy MD** - on every note page: copies Hugo source for ChatGPT or your editor
@@ -89,7 +85,6 @@ These pages are **meta tools** (`note_kind: meta`), not garden ideas: [Graph](/n
 - **See also** suggests tag-related notes you haven't linked yet.
 - **Graph** at [/notes/graph/](/notes/graph/) maps connections - filter high, low, no body links, and orphans.
 - **Issues** at [/notes/issues/](/notes/issues/) lists broken wikilinks and unlinked note mentions; warnings also show on each affected note.
-- **Status filters** on [/notes/](/notes/) - inbox, stale (by file edit age), seedling, evergreen, archived.
 - `npm run lint:notes` catches broken wikilinks and unlinked mentions in the **body** at build time (frontmatter is not linted - use note titles freely in `cards:` and other fields).
 
 ## Publish to the blog

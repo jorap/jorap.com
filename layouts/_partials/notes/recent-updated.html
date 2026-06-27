@@ -14,17 +14,11 @@
       {{- range . -}}
         {{- $page := .Page -}}
         {{- $dates := .Dates -}}
-        {{- $meta := partial "notes/note-meta.html" $page -}}
         <li class="notes-recent-item">
           <a class="notes-recent-link" href="{{ $page.RelPermalink }}" data-wikilink-preview="{{ $page.RelPermalink }}">
             <span class="notes-recent-title">{{ $page.Title }}</span>
             <span class="notes-recent-meta text-ink-muted">
-              <span class="notes-recent-date">
-                Created {{ $dates.Created.Format "Jan 2, 2006" }} · Updated {{ $dates.Updated.Format "Jan 2, 2006" }}
-              </span>
-              {{- if $meta.IsStale -}}
-                <span class="notes-recent-stale">· stale</span>
-              {{- end -}}
+              Created {{ $dates.CreatedDisplay }} · Updated {{ $dates.UpdatedDisplay }}
             </span>
           </a>
         </li>

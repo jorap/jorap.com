@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Relationships", "Communication", "Self-Control"]
 slug: "set-calm-boundaries"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

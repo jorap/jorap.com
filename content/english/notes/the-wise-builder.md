@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Obedience"]
 slug: "the-wise-builder"
 featured: false
-status: evergreen
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:

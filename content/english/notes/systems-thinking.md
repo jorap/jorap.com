@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Systems Thinking", "Performance", "Habits", "Decision Making"]
 slug: "systems-thinking"
 featured: false
-status: evergreen
 draft: false
 aliases: ["systems thinker"]
 ---

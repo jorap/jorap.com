@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Relationships", "Habits", "Connection"]
 slug: "create-regular-connection"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

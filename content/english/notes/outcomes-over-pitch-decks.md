@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Workplace", "Leadership", "Ethics", "Eternal Principles", "Discernment"]
 slug: "outcomes-over-pitch-decks"
 featured: false
-status: evergreen
 draft: false
 aliases: ["judge by outcomes", "fruit over hype"]
 ---

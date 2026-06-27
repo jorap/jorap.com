@@ -11,7 +11,6 @@ slug: "pkm"
 featured: false
 draft: false
 aliases: ["Personal Knowledge Management"]
-status: evergreen
 ---
 **PKM** is the boring name for how I save, organize, and use what I learn. Here's my unspectacular definition.
 

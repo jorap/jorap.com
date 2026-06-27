@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Performance", "Execution", "Accountability", "Work"]
 slug: "complete-the-cycle"
 featured: false
-status: evergreen
 draft: false
 aliases: ["close the loop"]
 ---

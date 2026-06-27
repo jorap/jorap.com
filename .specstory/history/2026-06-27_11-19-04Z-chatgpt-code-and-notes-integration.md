@@ -9136,3 +9136,9586 @@ Status: **completed**
 <summary>Tool use: **ripgrep_raw_search**</summary>
 
 </details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Hardcoded strings in list.html can remain as-is or receive minimal i18n.</details></think>
+
+_**Agent (default)**_
+
+Consolidating into one panel: removing redundant work-queue links, merging filter rows, and tucking tag/category into a Refine section.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+Opening the Refine panel when URL includes tag or category params.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-list.js</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -12</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -12
+```
+
+```
+──────────────────┼──────
+ Pages            │ 1956 
+ Paginator pages  │   91 
+ Non-page files   │    0 
+ Static files     │  197 
+ Processed images │  331 
+ Aliases          │  616 
+ Cleaned          │    0 
+
+Total in 10465 ms
+[cspHashes] Rewrote 24 inline onerror= attribute(s) in 5 file(s).
+[cspHashes] Hashed 3971 inline &lt;script&gt; block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-list.js</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+Cleaned up the notes list controls. Here's what changed:
+
+## Before → After
+
+**5 stacked sections** → **1 compact panel** with two rows:
+
+```
+┌─────────────────────────────────────────────────┐
+│ [Search title, tag, or description…    ] Refine │
+│ All · Seedling · Evergreen │ Featured · Cards · Issues │
+└─────────────────────────────────────────────────┘
+```
+
+## Changes
+
+| Removed | Why |
+|---------|-----|
+| **Work queues** links | Duplicated Inbox/Stale filter buttons |
+| **Separate tag/category row** | 200+ tag dropdown dominated the page |
+| **Second filter row** | Status + Featured/Cards/Issues merged with a divider |
+| **Empty queue pills** | Inbox, Archived, Stale hidden when count is 0 |
+
+| Added | Why |
+|-------|-----|
+| **Refine** dropdown | Tag + category tucked behind one button; opens as a popover on desktop |
+| **Single filter bar** | All pills in one wrap with a vertical separator |
+| **Elevated panel** | Groups controls visually without adding another card layer |
+
+Search still filters titles, tags, and descriptions. URL params (`?status=`, `?tag=`, etc.) behave the same — Refine auto-opens when a tag or category is in the URL.
+
+---
+
+_**User**_
+
+remove the seedling and evergreen feature
+
+---
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Removing the seedling and evergreen features from the notes garden.</details></think>
+
+_**Agent (default)**_
+
+Searching the codebase for seedling/evergreen status usage to remove it cleanly.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,js,md,yaml,toml,py}",
+  "pattern": "seedling|evergreen|note-status|status-badge|\\.Status|data-note-status"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "seedling|evergreen|note-status|status-badge|\\.Status|data-note-status",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-06-22_15-46-06Z-atomic-note-creation-prompt.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/safety-by-design.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-narrow-way.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/webhooks.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/render-unto-caesar.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/lean-startup.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love-god.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/growth-mindset.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/accountability.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/mind-mapping.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/control-the-rhythm.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "scripts/archive/enrich-evergreen-notes.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/share-what-you-learn.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-12-week-year.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".cursor/skills/flashcards/SKILL.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/follow-through.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/self-control.md"
+    },
+    {
+      "matchCount": 48,
+      "uri": ".specstory/history/2026-06-20_07-32-04Z-capture.md-format-explanation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/reconcile-before-the-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_11-43-50Z-high-school-level-vocabulary-for-flashcards.md"
+    }
+  ],
+  "totalFiles": 20,
+  "totalMatches": 1220
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **** (1 file)
+
+| File |
+|------|
+| `layouts/_partials/notes/status-badge.html` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **** (1 file)
+
+| File |
+|------|
+| `layouts/_partials/notes/note-meta.html` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,js,md,yaml,toml}",
+  "pattern": "seedling|evergreen|status-badge|note-meta|data-note-status|Params\\.status"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "seedling|evergreen|status-badge|note-meta|data-note-status|Params\\.status",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/building-a-personal-api.md"
+    },
+    {
+      "matchCount": 18,
+      "uri": ".specstory/history/2026-06-20_08-52-20Z-page-issue-check.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/commonplace-book.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/priorities-before-the-inbox.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/digital-minimalism.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-20_02-41-11Z-upstream-synchronization.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/discipleship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-narrow-way.md"
+    },
+    {
+      "matchCount": 22,
+      "uri": ".specstory/history/2026-06-21_12-48-52Z-format-consistency.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_05-12-25Z-note-connection-analysis-framework.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/process-over-outcomes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/emotional-regulation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/mind-mapping.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/metadata-strategy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/let-your-yes-be-yes.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-06-19_03-00-56Z-post-draft-topics-for-knowledge-management.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/signal-vs-noise.md"
+    },
+    {
+      "matchCount": 36,
+      "uri": ".specstory/history/2026-06-19_04-46-28Z-notes-formatting-for-jorap-voice.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/habit-stacking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/getting-things-done.md"
+    }
+  ],
+  "totalFiles": 20,
+  "totalMatches": 1194
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/status-badge.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-meta.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Removing the seedling and evergreen feature.
+
+Planning to strip out seedling and evergreen status filters, badges, and frontmatter across roughly 185 files. Will update the UI, JavaScript, prompts, archetypes, and documentation.
+
+Will keep the evergreen-notes.md content pages intact. The scope narrows to removing seedling and evergreen statuses from the UI, default handling, and the create note prompt. The `status:` field will be stripped from all note frontmatter.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "status|seedling|evergreen|ShowStatus|status-badge"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "status|seedling|evergreen|ShowStatus|status-badge",
+  "topFiles": [
+    {
+      "matchCount": 12,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/single.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/is-utility-page.html"
+    },
+    {
+      "matchCount": 8,
+      "uri": "layouts/_partials/notes/note-meta.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "layouts/_partials/notes/note-card.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/status-badge.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/dev-banner.html"
+    }
+  ],
+  "totalFiles": 7,
+  "totalMatches": 28
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js",
+  "pattern": "status|seedling|evergreen"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js",
+  "pattern": "status|seedling|evergreen",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "assets/js/notes-creator.js"
+    },
+    {
+      "matchCount": 16,
+      "uri": "assets/js/notes-list.js"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 17
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/config",
+  "pattern": "status|seedling|evergreen"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/config",
+  "pattern": "status|seedling|evergreen",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "config/development/server.toml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/archetypes",
+  "pattern": "status|seedling"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/archetypes",
+  "pattern": "status|seedling",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "archetypes/notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "archetypes/notes-review.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Checking CSS classes for seedling and evergreen statuses. Reviewing notes-creator and getting-started components. Counting notes with a status field.
+
+Removing seedling and evergreen from note-meta.html labels and defaulting status to empty. Status badges in status-badge.html will only appear for inbox, archived, or stale notes. Stale indicators need a separate display path since they currently sit on the badge.
+
+Legacy seedling and evergreen frontmatter values will normalize to empty strings. A minimal stale-only badge may replace the full status label for normal notes. The single.html template will also suppress status badges for empty or legacy statuses.
+
+List.html will lose its seedling and evergreen filter buttons and counting logic. The JavaScript list filter remains intact for inbox, archived, stale, and all views. Unused CSS styles can stay. A script will strip legacy status fields from all note frontmatter. Archetypes and the notes creator prompt will drop the seedling status. Documentation in getting-started.md needs updating.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^status: (seedling|evergreen)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^status: (seedling|evergreen)",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/emotional-regulation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/integrity.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/periodic-knowledge-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/evergreen-vs-fleeting-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/commonplace-book.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/taxonomy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/situational-control.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/sketchpad.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/behavioral-economics.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/ethical-leadership.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/humility-and-service.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/leadership.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/learning-organizations.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/let-your-yes-be-yes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-beatitudes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/versatility.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/webhooks.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/weekly-review-checklists.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/execution.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/follow-through.md"
+    }
+  ],
+  "totalFiles": 185,
+  "totalMatches": 185
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md",
+  "pattern": "seedling|evergreen|status"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md",
+  "pattern": "seedling|evergreen|status",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/getting-started.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Updating note-meta.html to remove seedling and evergreen fields. Default values will be empty strings. Legacy values will be normalized to empty.
+
+Status badges will only render for inbox, archived, or stale statuses. List.html loses its seedling and evergreen buttons and count variables. Notes-list.js needs no changes. Single.html may conditionally wrap the badge. Archetypes and the creator script lose their status fields. The getting-started guide will be updated. Shell scripts will bulk-remove status metadata from existing note files.
+
+The status badge template will return nothing for notes with no inbox, archived, or stale status. It will display a stale-only badge for notes marked stale without inbox or archived status. Otherwise it will show the inbox or archived label plus a stale suffix.
+
+A Python one-liner will bulk-strip seedling and evergreen status lines from note markdown files. The notes-review archetype and config stale_days parameter need checking. Unused CSS selectors and scripts/lint references should be removed. Empty status meta divs on cards may be hidden.</details></think>
+
+_**Agent (default)**_
+
+Removing seedling/evergreen status from the UI, templates, and note frontmatter.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-meta.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/status-badge.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+The string to replace was not found in the file.
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+The string to replace was not found in the file.
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css",
+  "pattern": "notes-status--"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css",
+  "pattern": "notes-status--",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "assets/css/custom.css"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The status badge condition is too complex. It needs simplification.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/status-badge.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-list.js</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+The string to replace was not found in the file.
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 - <<'PY'
+import re
+from pathlib import Path
+root = Path("/home/jorap/Documents/GitHub/jorap.com/content/english/notes")
+pat = re.compile(r"^status: (seedling|evergreen)\s*\n", re.M)
+changed = 0
+for path in sorted(root.glob("*.md")):
+    text = path.read_text(encoding="utf-8")
+    new = pat.sub("", text)
+    if new != text:
+        path.write_text(new, encoding="utf-8")
+        changed += 1
+print(f"stripped status from {changed} notes")
+PY</summary>
+
+```bash
+python3 - <<'PY'
+import re
+from pathlib import Path
+root = Path("/home/jorap/Documents/GitHub/jorap.com/content/english/notes")
+pat = re.compile(r"^status: (seedling|evergreen)\s*\n", re.M)
+changed = 0
+for path in sorted(root.glob("*.md")):
+    text = path.read_text(encoding="utf-8")
+    new = pat.sub("", text)
+    if new != text:
+        path.write_text(new, encoding="utf-8")
+        changed += 1
+print(f"stripped status from {changed} notes")
+PY
+```
+
+```
+stripped status from 184 notes
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Verifying no seedling or evergreen references remain in notes and maps-of-content. Checking that the build succeeds.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,js,md,yaml}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "seedling|status: evergreen"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "seedling|status: evergreen",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-knowledge-lifecycle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./assets/js/notes-list.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./layouts/_partials/notes/note-meta.html"
+    },
+    {
+      "matchCount": 8,
+      "uri": "./.specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": "./.specstory/history/2026-06-27_10-39-09Z-knowledge-catalog-specification-comparison.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "./.specstory/history/2026-06-24_11-34-53Z-best-examples-review.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./.specstory/history/2026-06-22_16-41-21Z-new-connections-in-notes.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "./.specstory/history/2026-06-22_15-46-06Z-atomic-note-creation-prompt.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-22_15-20-49Z-heading-replacement-and-genre-examples.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-22_09-13-43Z-systems-for-growth-moc-creation.md"
+    }
+  ],
+  "totalFiles": 10,
+  "totalMatches": 133
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -15</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -15
+```
+
+```
+WARN  unlinked mention of "Trusted Inbox" (→ [[The Trusted Inbox]]) in notes/building-a-second-brain.md
+
+                  │  EN  
+──────────────────┼──────
+ Pages            │ 1956 
+ Paginator pages  │   91 
+ Non-page files   │    0 
+ Static files     │  197 
+ Processed images │  331 
+ Aliases          │  616 
+ Cleaned          │   10 
+
+Total in 9173 ms
+[cspHashes] Rewrote 37 inline onerror= attribute(s) in 6 file(s).
+[cspHashes] Hashed 3971 inline &lt;script&gt; block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+Removed the seedling/evergreen **status feature**. The concept notes ([[Evergreen Notes](/notes/evergreen-notes/), [[Evergreen vs Fleeting Notes](/notes/evergreen-vs-fleeting-notes/)]) are unchanged — those are garden content, not lifecycle labels.
+
+## What changed
+
+| Area | Change |
+|------|--------|
+| **List filters** | Seedling and Evergreen pills removed |
+| **Status badges** | No badge on normal notes; only **Inbox**, **Archived**, or **Stale** (90+ days untouched) |
+| **Frontmatter** | Stripped `status: seedling` / `status: evergreen` from **184 notes** |
+| **Create Note prompt** | No longer suggests `status: seedling` |
+| **Archetypes** | No default status on new notes |
+| **Getting Started** | Docs updated |
+
+## What still works
+
+- **Inbox** / **Archived** — optional `status:` in frontmatter for work queues
+- **Stale filter** — based on file edit age, not seedling/evergreen
+- **`draft: true`** — still hides notes from the public garden
+
+Old bookmark URLs like `?status=seedling` fall back to **All** automatically.
+
+---
+
+_**User**_
+
+remove as well:
+Inbox / Archived — optional status: in frontmatter for work queues
+Stale filter — based on file edit age, not seedling/evergreen
+
+---
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Removing the remaining status and lifecycle features: optional status in frontmatter for work queues, and stale filter based on file edit age rather than seedling or evergreen.</details></think>
+
+_**Agent (default)**_
+
+Removing inbox, archived, and stale status features from the codebase.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,js,md,toml,yaml,css}",
+  "pattern": "stale|inbox|archived|status-badge|note-meta|data-note-stale|IsStale|stale_days|ShowStatus|data-notes-filter"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "stale|inbox|archived|status-badge|note-meta|data-note-stale|IsStale|stale_days|ShowStatus|data-notes-filter",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_08-48-32Z-search-result-prioritization.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-21_12-28-14Z-note-relationships-update-and-formatting.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_03-05-21Z-random-duo-and-shuffle-options.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/gtd-vs-para.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "static/exports/okf/concepts/inbox-zero.md"
+    },
+    {
+      "matchCount": 28,
+      "uri": ".specstory/history/2026-06-20_04-29-21Z-notes-review-for-removal.md"
+    },
+    {
+      "matchCount": 15,
+      "uri": "content/english/notes/capture.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-19_03-00-56Z-post-draft-topics-for-knowledge-management.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "static/exports/okf/concepts/by-their-fruits.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-18_17-22-23Z-email-functionality-in-contact-us-form.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_05-19-43Z-notes-image-asset.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-05-30_15-46-12Z-big-wins-in-website-performance-improvement.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": "content/english/notes/the-trusted-inbox.md"
+    }
+  ],
+  "totalFiles": 13,
+  "totalMatches": 1068
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^status:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^status:",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "stale|status-badge|note-meta|ShowStatus|data-note-stale|data-note-status|statusCounts|stale_days"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "stale|status-badge|note-meta|ShowStatus|data-note-stale|data-note-status|statusCounts|stale_days",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/recent-updated.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/essentials/fingerprint-asset.html"
+    },
+    {
+      "matchCount": 12,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/notes/single.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "layouts/_partials/notes/status-badge.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "layouts/_partials/notes/note-card.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/note-meta.html"
+    }
+  ],
+  "totalFiles": 7,
+  "totalMatches": 25
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets",
+  "pattern": "stale|status-badge|note-meta|ShowStatus|data-note-stale|data-notes-filter"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets",
+  "pattern": "stale|status-badge|note-meta|ShowStatus|data-note-stale|data-notes-filter",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "assets/js/notes-list.js"
+    },
+    {
+      "matchCount": 3,
+      "uri": "assets/css/custom.css"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 10
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/config",
+  "pattern": "stale"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/config",
+  "pattern": "stale",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "config/_default/params.toml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md",
+  "pattern": "stale|inbox|archived|status"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md",
+  "pattern": "stale|inbox|archived|status",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/getting-started.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Checking recent-updated.html for the stale indicator.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,js,md,toml}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "note-meta|status-badge|IsStale|\\.Status|ShowStatus|stale_days"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "note-meta|status-badge|IsStale|\\.Status|ShowStatus|stale_days",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-22_15-46-06Z-atomic-note-creation-prompt.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "layouts/_partials/notes/status-badge.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "layouts/_partials/notes/note-card.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_10-34-58Z-card-display-settings-for-random-trio-and-duo.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-06-22_07-06-09Z-content-consistency-between-local-and-live.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/notes/single.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_06-58-41Z-automatic-inclusion-of-jorap-notes-in-meta-titles.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-21_11-05-26Z-category-number-addition.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "config/_default/params.toml"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_08-52-20Z-page-issue-check.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-06-21_15-27-45Z-file-name-change-to-mental-models.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": ".specstory/history/2026-06-27_10-39-09Z-knowledge-catalog-specification-comparison.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_10-42-35Z-graph-filters-on-mobile-and-tablet.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_09-15-01Z-flashcard-answer-hint-design.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-22_02-39-52Z-impeccable-audit-discussion.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/getting-started.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_04-29-21Z-notes-review-for-removal.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "static/exports/okf/hubs/getting-started/index.md"
+    }
+  ],
+  "totalFiles": 31,
+  "totalMatches": 108
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-updated.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-list.js</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Beginning a comprehensive simplification. Starting with note metadata.
+
+Metadata will show only Created and Updated dates. Status badges and status counts are being removed from cards and list views. The list filter row will use only toggle buttons. The notes list script will switch to toggle-only filtering. Single note pages will keep date badges but drop status indicators.
+
+The stale indicator will be removed from recent updates. Stale days settings and related CSS classes are being deleted. Documentation will be updated. Without status filters, the "All" button is unnecessary; note counts may move elsewhere.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Implementing all requested changes. Deleting status-badge.html.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,js,py,md,toml}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Params\\.status|IsStale|IsInbox|status-badge|stale_days|data-note-status|data-notes-filter"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Params\\.status|IsStale|IsInbox|status-badge|stale_days|data-note-status|data-notes-filter",
+  "topFiles": [
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-06-27_10-39-09Z-knowledge-catalog-specification-comparison.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "assets/js/notes-list.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/single.html"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-20_10-42-35Z-graph-filters-on-mobile-and-tablet.md"
+    },
+    {
+      "matchCount": 21,
+      "uri": ".specstory/history/2026-06-21_11-42-01Z-possible-additional-filters.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_02-16-32Z-missing-hugo-extended-package-warning.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_11-05-26Z-category-number-addition.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-22_03-18-44Z-changelog-update-request.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_12-15-47Z-possible-notes-functionalities.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "layouts/_partials/notes/status-badge.html"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-21_09-49-17Z-ponytail-skill-integration.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/recent-updated.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_02-55-39Z-notes-review-and-definition-updates.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_08-52-20Z-page-issue-check.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "static/exports/okf/hubs/getting-started/index.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": ".specstory/history/2026-06-21_11-09-34Z-local-display-issues-for-notes-and-graphs.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "config/_default/params.toml"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/note-card.html"
+    }
+  ],
+  "totalFiles": 30,
+  "totalMatches": 108
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+All requested changes are being implemented. The status-badge.html file will be deleted.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-meta.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="delete_file">
+<details><summary>Tool use: **delete_file**</summary>
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="delete_file"><details>
+<summary>Tool use: **delete_file**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-updated.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-list.js</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/config/_default/params.toml</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css",
+  "pattern": "notes-status|notes-recent-stale|notes-filter-sep"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css",
+  "pattern": "notes-status|notes-recent-stale|notes-filter-sep",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "assets/css/custom.css"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Removing the notes-status block and notes-recent-stale filter.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,js,css,md,toml,py,mjs}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "status-badge|IsStale|ShowStatus|data-notes-filter|stale_days|note-status|note-stale|Params\\.status|status: inbox|status: archived"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "status-badge|IsStale|ShowStatus|data-notes-filter|stale_days|note-status|note-stale|Params\\.status|status: inbox|status: archived",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./layouts/notes/list.html"
+    },
+    {
+      "matchCount": 35,
+      "uri": "./.specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./assets/js/notes-list.js"
+    },
+    {
+      "matchCount": 11,
+      "uri": "./.specstory/history/2026-06-27_10-39-09Z-knowledge-catalog-specification-comparison.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-22_15-46-06Z-atomic-note-creation-prompt.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "./.specstory/history/2026-06-22_07-06-09Z-content-consistency-between-local-and-live.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-06-21_15-27-45Z-file-name-change-to-mental-models.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-06-22_03-18-44Z-changelog-update-request.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-22_02-39-52Z-impeccable-audit-discussion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-22_02-16-32Z-missing-hugo-extended-package-warning.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-21_12-15-47Z-possible-notes-functionalities.md"
+    },
+    {
+      "matchCount": 22,
+      "uri": "./.specstory/history/2026-06-21_11-42-01Z-possible-additional-filters.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": "./.specstory/history/2026-06-21_11-09-34Z-local-display-issues-for-notes-and-graphs.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-21_11-05-26Z-category-number-addition.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "./.specstory/history/2026-06-21_09-49-17Z-ponytail-skill-integration.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./.specstory/history/2026-06-20_10-42-35Z-graph-filters-on-mobile-and-tablet.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-20_10-34-58Z-card-display-settings-for-random-trio-and-duo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-20_09-15-01Z-flashcard-answer-hint-design.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-20_08-52-20Z-page-issue-check.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-20_07-32-04Z-capture.md-format-explanation.md"
+    }
+  ],
+  "totalFiles": 22,
+  "totalMatches": 116
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "status-badge|IsStale|ShowStatus|stale_days|data-note-status|data-note-stale|Params\\.status|statusCounts"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "status-badge|IsStale|ShowStatus|stale_days|data-note-status|data-note-stale|Params\\.status|statusCounts",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets",
+  "pattern": "status-badge|IsStale|ShowStatus|stale_days|data-note-status|data-note-stale|statusCounts|inbox|archived|stale"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets",
+  "pattern": "status-badge|IsStale|ShowStatus|stale_days|data-note-status|data-note-stale|statusCounts|inbox|archived|stale",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "assets/js/notes-creator.js"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "status: (inbox|archived|stale)|stale filter|Inbox / Archived"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "status: (inbox|archived|stale)|stale filter|Inbox / Archived",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **/home/jorap/Documents/GitHub/jorap.com** (0 files)
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-meta.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,js,md,toml,py}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "stale|inbox|archived|status:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "stale|inbox|archived|status:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/hugo-template-guidance/references/script-usage.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "static/exports/okf/concepts/ask-seek-knock.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_04-04-25Z-graph-display-for-notes.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-06-20_08-52-20Z-page-issue-check.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-21_12-28-14Z-note-relationships-update-and-formatting.md"
+    },
+    {
+      "matchCount": 15,
+      "uri": "content/english/notes/capture.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": ".specstory/history/2026-06-22_15-20-49Z-heading-replacement-and-genre-examples.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/gtd-vs-para.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "hugo.toml"
+    },
+    {
+      "matchCount": 1,
+      "uri": "static/exports/okf/concepts/complete-the-cycle.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "static/exports/okf/concepts/priorities-before-the-inbox.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "static/exports/okf/concepts/mobile-capture-workflows.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-05-02_08-30-34Z-website-improvement-suggestions.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/expand-genre-free-examples.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-18_18-30-06Z-alex-eala-tracker-update.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "CHANGELOG.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": "scripts/resolve-note-link-issues.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-30_22-29-13Z-http-headers-analysis-and-recommendations.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_03-54-22Z-git-commit-symbolic-link-error.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": "scripts/sync-note-relationships.py"
+    }
+  ],
+  "totalFiles": 158,
+  "totalMatches": 1163
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md",
+  "pattern": "status|stale|inbox|archived"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md",
+  "pattern": "status|stale|inbox|archived",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/getting-started.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md",
+  "pattern": "status|stale|inbox|archived"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/okf-export.md",
+  "pattern": "status|stale|inbox|archived",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **3** results in **1** directory</summary>
+
+Directory: **/home/jorap/Documents/GitHub/jorap.com** (3 files)
+
+| File |
+|------|
+| `archetypes/notes.md` |
+| `archetypes/default.md` |
+| `archetypes/notes-review.md` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-filter-sep"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-filter-sep",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "assets/css/custom.css"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes-review.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js",
+  "pattern": "status"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/js/notes-creator.js",
+  "pattern": "status",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "^status:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": "^status:",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+The string to replace was not found in the file.
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -30</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -30
+```
+
+```
+
+&gt; jorap-com@2.2.0 build
+&gt; node scripts/deployBuild.mjs
+
+✅ Theme CSS generated successfully at: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/generated-theme.css
+✅ Note file dates written: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json (193 notes)
+Wrote OKF bundle to /home/jorap/Documents/GitHub/jorap.com/static/exports/okf (179 concepts, 6 hubs, 923 graph edges → viz.html)
+Start building sites … 
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+WARN  unlinked mention of "Digital Garden" (→ [[Digital Garden]]) in notes/commonplace-book.md
+WARN  unlinked mention of "Trusted Inbox" (→ [[The Trusted Inbox]]) in notes/building-a-second-brain.md
+
+                  │  EN  
+──────────────────┼──────
+ Pages            │ 1956 
+ Paginator pages  │   91 
+ Non-page files   │    0 
+ Static files     │  197 
+ Processed images │  331 
+ Aliases          │  616 
+ Cleaned          │   10 
+
+Total in 8269 ms
+[cspHashes] Rewrote 37 inline onerror= attribute(s) in 6 file(s).
+[cspHashes] Hashed 3971 inline &lt;script&gt; block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/exports/okf/hubs/getting-started",
+  "pattern": "stale|Inbox / Archived|status filter|status:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/exports/okf/hubs/getting-started",
+  "pattern": "stale|Inbox / Archived|status filter|status:",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes",
+  "pattern": "data-notes-filter|notes-status|data-note-stale|Inbox —|Stale —"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes",
+  "pattern": "data-notes-filter|notes-status|data-note-stale|Inbox —|Stale —",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+Inbox / Archived status and the stale filter are fully removed. Here’s what was finished:
+
+**Removed from the UI**
+- Status filter pills (All / Inbox / Archived / Stale)
+- Status badges on note cards and single pages
+- Stale indicators in the “Recently updated” sidebar
+
+**Removed from code**
+- `layouts/_partials/notes/status-badge.html` (deleted earlier)
+- `note-meta.html` now only returns `Created` / `Updated` dates
+- `assets/js/notes-list.js` — search, tag, category, and featured/cards/issues toggles only
+- Dead CSS: `.notes-status*`, `.notes-recent-stale`, `.notes-filter-sep`
+
+**Config & docs**
+- `stale_days` removed from `config/_default/params.toml`
+- `getting-started.md` — no status frontmatter docs; Issues/lint lines restored in Explore
+- `hugo.toml` comment updated (mtime is for updated timestamps, not stale tracking)
+
+**Frontmatter**
+- No `status:` fields remain in note content (inbox/archived were already absent after the seedling/evergreen strip)
+
+Production build passes; OKF export regenerated without stale/status references.
+
+---
+
+_**User**_
+
+for all buttons:
+From
+All· 185
+to 
+All | 185
+
+---
+
+_**Agent (default)**_
+
+Searching for where filter buttons use the middle-dot separator so we can switch it to a pipe.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,js,css}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "·|notes-filter__count|filter__label"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "·|notes-filter__count|filter__label",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/toolbar.html"
+    },
+    {
+      "matchCount": 4,
+      "uri": "layouts/_partials/notes/card-set-filter-buttons.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "assets/css/custom.css"
+    },
+    {
+      "matchCount": 3,
+      "uri": "layouts/notes/list.html"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 12
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,js}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": " · "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": " · ",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/review.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 14,
+      "uri": "layouts/notes/graph.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/single.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "assets/js/notes-review.js"
+    },
+    {
+      "matchCount": 4,
+      "uri": "layouts/_partials/notes/card-set-filter-buttons.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/toolbar.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/recent-updated.html"
+    }
+  ],
+  "totalFiles": 8,
+  "totalMatches": 29
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Updating all filter buttons to replace the dot with a pipe separator, e.g. `All | 185`.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toolbar.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/graph.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/card-set-filter-buttons.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,js}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "filter__count|notes-filter__count|graph-filter__count"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "filter__count|notes-filter__count|graph-filter__count",
+  "topFiles": [
+    {
+      "matchCount": 12,
+      "uri": "layouts/notes/graph.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/toolbar.html"
+    },
+    {
+      "matchCount": 4,
+      "uri": "layouts/_partials/notes/card-set-filter-buttons.html"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 21
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,js}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets",
+  "pattern": "filter__count| · "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets",
+  "pattern": "filter__count| · ",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "assets/js/notes-review.js"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Replace the dot-space separator with a pipe in all filter button count displays.</details></think>
+
+_**Agent (default)**_
+
+Updating filter button labels to use `|` instead of `·` across toolbar, list, card-set, and graph filters.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toolbar.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/card-set-filter-buttons.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/graph.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,js}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "filter__count.*·|notes-filter.*·|btn.*· \\{\\{"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "filter__count.*·|notes-filter.*·|btn.*· \\{\\{",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,js}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": " · \\{\\{"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": " · \\{\\{",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{css,js}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "·|filter__count"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "·|filter__count",
+  "topFiles": [
+    {
+      "matchCount": 9,
+      "uri": "./assets/css/custom.css"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./assets/js/notes-review.js"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 12
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+No CSS content contains the middle dot.</details></think>
+
+_**Agent (default)**_
+
+Updated all filter button count labels from `·` to `|`:
+
+- **Toolbar** — `All | 185`, `Issues | N`
+- **Notes list** — `Featured | N`, `Cards | N`, `Issues | N`
+- **Flashcards / Review** — card set filters (`All sets | N`, etc.)
+- **Graph** — all graph and relationship filter buttons (`All | 185 notes | 923 links`, etc.)
+
+Hint text like “Scroll to zoom · drag to pan” and date lines like “Created · Updated” were left unchanged — only button count labels.
+
+---
+
+_**User**_
+
+<a class="btn btn-sm btn-outline-primary" href="/notes/">
+    All<span class="notes-filter__count"> | 185</span>
+  </a>
+
+ensure there is a gap
+
+---
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+A gap is needed between "All" and the count in the filter button.</details></think>
+
+_**Agent (default)**_
+
+Checking how filter button counts are styled so we can add spacing between the label and the pipe.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css",
+  "pattern": "notes-filter__count|notes-graph-filter__count|notes-toolbar"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css",
+  "pattern": "notes-filter__count|notes-graph-filter__count|notes-toolbar",
+  "topFiles": [
+    {
+      "matchCount": 9,
+      "uri": "assets/css/custom.css"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 9
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The HTML already contains a leading space inside the span before the pipe.
+
+CSS `margin-inline-start` on the count classes would create a visible gap. The leading space in the HTML could then be removed for cleaner markup.
+
+The space sits inside the span rather than between the text and the tag. Flexbox gap is not viable since the button is not a flex container.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Adding margin-inline-start to both count classes will create the requested gap.
+
+A single CSS rule with combined selectors will cover both filter types. The margin value is set to 0.35em.
+
+The margin will be added to both existing rules separately rather than merging them. The leading space in the HTML will remain. Combining both would likely over-space the gap.</details></think>
+
+_**Agent (default)**_
+
+Adding `margin-inline-start` on count spans so the label and pipe always have visible separation.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+The string to replace was not found in the file.
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "notes-filter__count|notes-graph-filter__count"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "notes-filter__count|notes-graph-filter__count",
+  "topFiles": [
+    {
+      "matchCount": 12,
+      "uri": "layouts/notes/graph.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/toolbar.html"
+    },
+    {
+      "matchCount": 4,
+      "uri": "layouts/_partials/notes/card-set-filter-buttons.html"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 21
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The HTML already contains a leading space before the pipe inside the span.</details></think>
+
+_**Agent (default)**_
+
+Added `margin-inline-start: 0.35em` to `.notes-filter__count` and `.notes-graph-filter__count`, so every label/count button gets a consistent gap before the `|`.
+
+That covers toolbar (`All | 185`), list toggles, card-set filters, and graph filters — the margin sits between the label text and the count span, independent of HTML whitespace.
+
+---
+
+_**User**_
+
+remove <div class="notes-filters notes-list-controls__filters mt-3" role="group" aria-label="Filter notes"><button type="button" class="notes-filter" data-notes-toggle="featured" aria-pressed="false" aria-label="Featured — 3 notes">
+                    Featured<span class="notes-filter__count"> | 3</span>
+                  </button><button type="button" class="notes-filter" data-notes-toggle="cards" aria-pressed="false" aria-label="Has flashcards — 43 notes">
+                    Cards<span class="notes-filter__count"> | 43</span>
+                  </button><button type="button" class="notes-filter" data-notes-toggle="issues" aria-pressed="false" aria-label="Has issues — 2 notes">
+                    Issues<span class="notes-filter__count"> | 2</span>
+                  </button></div>
+
+---
+
+_**Agent (default)**_
+
+Removing the Featured/Cards/Issues filter row from the notes list and cleaning up related JS and markup.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-list.js</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+I will remove the filter div block from lines 91–109 in list.html.
+
+I will also strip out the count variables and their computations, remove the data attributes from grid items, and simplify notes-list.js by deleting the toggle filter logic and related state. I am checking whether $issueData and $hasCards are still needed elsewhere.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,js,css}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "data-notes-toggle|data-note-featured|data-note-cards|data-note-issues|notes-list-controls__filters"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "data-notes-toggle|data-note-featured|data-note-cards|data-note-issues|notes-list-controls__filters",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 6,
+      "uri": "assets/js/notes-list.js"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 13
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+I'll simplify list.html and notes-list.js.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-list.js</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+Removed the Featured / Cards / Issues filter row from the notes list.
+
+**`layouts/notes/list.html`**
+- Removed the filter button group
+- Dropped featured/cards/issues counting and related `data-note-*` attributes on grid items
+
+**`assets/js/notes-list.js`**
+- Search and tag/category Refine only — no toggle filter logic or URL params for `featured`, `cards`, or `issues`
+
+Search, Refine dropdown, and the empty-state message still work. Issues are still reachable via the toolbar **Issues** link.
+
+---
+
+_**User**_
+
+some text is not readable:
+<div class="content notes-content mb-6">
+            <strong>Review</strong> = active recall in the browser - show the prompt, try the answer, rate myself. Filter by <code>card_sets</code> to drill one group at a time (Capture, Linking, <strong>Eternal Principles</strong>, <strong>Faith</strong>, <strong>Commandments</strong>, <strong>Ethics</strong>, <strong>Prayer</strong>, <strong>Priorities</strong>, <strong>Discipleship</strong>, etc.). Progress saves in this browser only; I use Anki export when I want phone sync.
+          </div>
+
+---
+
+_**Agent (default)**_
+
+Finding the Review page content and checking styles affecting readability.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Review.*active recall"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Review.*active recall",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/jorap-voice-notes.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_03-05-21Z-random-duo-and-shuffle-options.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_10-34-58Z-card-display-settings-for-random-trio-and-duo.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css",
+  "pattern": "notes-content"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css",
+  "pattern": "notes-content",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": "assets/css/custom.css"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/review.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css",
+  "pattern": "strong|\\.content|text-ink|color-ink"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css",
+  "pattern": "strong|\\.content|text-ink|color-ink",
+  "topFiles": [
+    {
+      "matchCount": 52,
+      "uri": "assets/css/custom.css"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 52
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The unreadable text sits inside a div with class `content notes-content mb-6`.
+
+The bold text should be readable in dark mode, but the `<code>` element may have poor contrast. I will check the template rendering and light mode styles.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/review.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{css,scss}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\.content code|content.*code|notes-content"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "\\.content code|content.*code|notes-content",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": "assets/css/custom.css"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/render-content.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes",
+  "pattern": "\\.content code|prose.*code|code \\{"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes",
+  "pattern": "\\.content code|prose.*code|code \\{",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "themes/jorap/assets/css/components.css"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/assets/css/base.css"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.css",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "html\\.dark.*code|\\.content code"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "html\\.dark.*code|\\.content code",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "assets/css/custom.css"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/base.css</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/components.css</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Dark mode CSS is overriding paragraph text color to a muted value, which is likely causing the readability issue.
+
+Inline code uses accent color against a muted background, which may create poor contrast. Strong text color appears correct. The content might also lack a paragraph wrapper.
+
+Hugo does wrap single-paragraph markdown in `<p>` tags, so the missing wrapper theory is unlikely. The issue might instead be in light mode, where accent-colored inline code could blend into a light background. Alternatively, utility pages may place `.content` on a background that closely matches the text color.
+
+The `.content` wrapper has no special background, so the issue is not a background-color mismatch. The card set names are plain text and remain readable. The strong tags should render in bright ink, making them difficult to read.
+
+Standard prose classes appear correct for both light and dark modes. The accent color token itself may be too light or too dark against its background. I will inspect the accent color values.
+
+The forced paragraph color might override inline code inherited from the parent. The code element needs its own color declaration to prevent this.
+
+Tailwind's `prose-code:text-accent` should override the parent paragraph color. The real issue may be a missing dark-mode selector for `code`, or prose-code color being overridden elsewhere. I will search the codebase for dark mode code styling.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts/notes",
+  "pattern": "content notes-content"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts/notes",
+  "pattern": "content notes-content",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/single.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/issues.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/review.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/backlinks.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/cards.html"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*tw-theme*",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes/jorap",
+  "pattern": "color-accent|--color-accent"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes/jorap",
+  "pattern": "color-accent|--color-accent",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the built HTML and color variables to find the readability issue.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **/home/jorap/Documents/GitHub/jorap.com** (0 files)
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.js",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes/jorap",
+  "pattern": "accent|ink-muted"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes/jorap",
+  "pattern": "accent|ink-muted",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/generated-theme.css",
+  "pattern": "--color-accent|--color-ink-muted|--color-ink:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/generated-theme.css",
+  "pattern": "--color-accent|--color-ink-muted|--color-ink:",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "--color-accent:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "--color-accent:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-30_14-10-04Z-button-styling-in-dark-mode.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "themes/jorap/assets/css/semantic-tokens.css"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/semantic-tokens.css</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/semantic-tokens.css</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/theme.json",
+  "pattern": "darkmode"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/theme.json",
+  "pattern": "darkmode",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "data/theme.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/theme.json</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The cream accent color (#f2efe9) should be highly readable against the dark background (#121110).
+
+Dark mode colors appear readable. The real problem may be CSS specificity: `html.dark .content p` sets `ink-muted` text color, which could override `prose-code` accent styling and make code unreadable.
+
+The CSS specificity concern was incorrect. A child element with its own color property overrides the parent's inherited color, so the code text should still render in accent color rather than being overridden by the paragraph styling.
+
+The prose plugin might not be targeting inline code elements correctly. Another possibility is that the Review block lacks a paragraph wrapper, though Hugo should generate one. The next step is to inspect the built HTML output.
+
+The user highlighted the `notes-content` div specifically, not the elevated panel below. The card set names are only wrapped in bold for some entries, so the issue may depend on whether those specific labels are actually rendering as strong elements.
+
+The CSS cascade checks out. Strong elements should render in ink color, and code should render in accent color. Neither should be falling back to muted text. The actual cause of the unreadable text remains unclear.
+
+A new hypothesis is that the accent color matches the background in some edge case. The `.content` class or section background might also be affecting the text. The live page structure needs inspection.
+
+The pasted HTML contains no `<p>` tag inside the `notes-content` div. The text appears to be bare content without a paragraph wrapper. Prose styles that target `p` elements would therefore not apply to this block.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --quiet 2>/dev/null; rg -o '.{0,80}notes-content mb-6.{0,200}' public/notes/review/index.html | head -3</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --quiet 2>/dev/null; rg -o '.{0,80}notes-content mb-6.{0,200}' public/notes/review/index.html | head -3
+```
+
+```
+          &lt;div class="content notes-content mb-6"&gt;
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 5,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes/review/index.html",
+  "pattern": "notes-content mb-6"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes/review/index.html",
+  "pattern": "notes-content mb-6",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **/home/jorap/Documents/GitHub/jorap.com/public** (0 files)
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -5 && rg -A3 'notes-content mb-6' public/notes/review/index.html 2>/dev/null || find public -path '*review*index.html' | head -5</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && npm run build 2>&1 | tail -5 && rg -A3 'notes-content mb-6' public/notes/review/index.html 2>/dev/null || find public -path '*review*index.html' | head -5
+```
+
+```
+ Cleaned          │   10 
+
+Total in 8077 ms
+[cspHashes] Rewrote 37 inline onerror= attribute(s) in 6 file(s).
+[cspHashes] Hashed 3971 inline &lt;script&gt; block(s) → 15 unique hash(es); injected into /home/jorap/Documents/GitHub/jorap.com/public/_headers.
+&lt;/a&gt;&lt;a class="btn btn-sm btn-outline-primary" href=/notes/random-duo/ aria-label="Random duo"&gt;&lt;span class=xl:hidden&gt;Duo&lt;/span&gt;&lt;span class="hidden xl:inline"&gt;Random Duo&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class="content notes-content mb-6"&gt;&lt;strong&gt;Review&lt;/strong&gt; = active recall in the browser - show the prompt, try the answer, rate myself. Filter by &lt;code&gt;card_sets&lt;/code&gt; to drill one group at a time (Capture, Linking, &lt;strong&gt;Eternal Principles&lt;/strong&gt;, &lt;strong&gt;Faith&lt;/strong&gt;, &lt;strong&gt;Commandments&lt;/strong&gt;, &lt;strong&gt;Ethics&lt;/strong&gt;, &lt;strong&gt;Prayer&lt;/strong&gt;, &lt;strong&gt;Priorities&lt;/strong&gt;, &lt;strong&gt;Discipleship&lt;/strong&gt;, etc.). Progress saves in this browser only; I use Anki export when I want phone sync.&lt;/div&gt;&lt;div class=notes-review data-notes-review&gt;&lt;div class="notes-review-start border-divider rounded border p-5" data-notes-review-start style=background:var(--color-elevated)&gt;&lt;p class="notes-review-stats text-ink-muted mb-4 text-sm" data-notes-review-stats&gt;Loading…&lt;/p&gt;&lt;div class="notes-filters mb-4" role=group aria-label="Filter review by set"&gt;&lt;button type=button class="notes-filter is-active" data-notes-review-set=all aria-pressed=true aria-label="All sets — 258 cards"&gt;
+All sets&lt;span class=notes-filter__count&gt; | 258&lt;/span&gt;
+&lt;/button&gt;&lt;button type=button class=notes-filter data-notes-review-set=Capture aria-pressed=false aria-label="Capture — 24 cards"&gt;
+Capture&lt;span class=notes-filter__count&gt; | 24&lt;/span&gt;
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The content renders without a `<p>` wrapper, placing bare text directly inside the `.content.notes-content` div.
+
+Bare text inherits colors from its parent chain rather than receiving explicit styling. The `.content` container may not set a base color, so faint inherited text becomes unreadable in dark mode.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.css",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes/jorap",
+  "pattern": "body|text-ink|color-text"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes/jorap",
+  "pattern": "body|text-ink|color-text",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "themes/jorap/assets/css/generated-theme.css"
+    },
+    {
+      "matchCount": 2,
+      "uri": "themes/jorap/assets/css/module-overrides.css"
+    },
+    {
+      "matchCount": 10,
+      "uri": "themes/jorap/assets/css/components.css"
+    },
+    {
+      "matchCount": 3,
+      "uri": "themes/jorap/assets/css/navigation.css"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/assets/css/buttons.css"
+    },
+    {
+      "matchCount": 4,
+      "uri": "themes/jorap/assets/css/base.css"
+    },
+    {
+      "matchCount": 2,
+      "uri": "themes/jorap/assets/css/utilities.css"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/assets/css/safe.css"
+    },
+    {
+      "matchCount": 6,
+      "uri": "themes/jorap/assets/css/semantic-tokens.css"
+    }
+  ],
+  "totalFiles": 9,
+  "totalMatches": 34
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The body uses `text-ink-muted`, so bare text in `.notes-content` should render in muted ink colors. The unreadable text likely lacks explicit color classes.
+
+Strong text and code blocks both use bright accent colors against the cream background, so they should be readable. The unreadable text must come from another element missing its color class.
+
+Bare text inside `.content` may inherit the Tailwind `.prose` container color rather than the body color. The `.prose` container sets `--tw-prose-body`, which could be the source of the unreadable text.
+
+The `.content.prose` container likely falls back to default Tailwind gray body colors instead of the theme's ink-muted. Paragraphs are overridden to ink-muted, but bare text inside the container inherits that default gray, causing the unreadable text.
+
+The fix is to force `.content` to use the theme's muted ink color. Options include adding `@apply text-ink-muted` to `.content`, wrapping meta intros in `<p>` tags, or updating the render logic to ensure paragraph wrappers.
+
+Targeting `.notes-content` directly is the cleanest fix. It keeps blog prose unaffected while correcting the garden intros. Strong and code elements inside that container should also use the theme's ink color and a subtle elevated background for contrast.
+
+A global `.content` override risks breaking blog post styling. Adding `text-ink-muted` to each meta layout individually would touch too many files. The `.notes-content` selector is the most precise fix.
+
+Blog posts are wrapped in paragraph tags correctly. Meta pages use `$page.RenderString` on raw content, which produces unwrapped HTML. This confirms the missing paragraph wrapper is the root cause.</details></think>
+
+_**Agent (default)**_
+
+Bare intro text renders without a `<p>`, so it inherits Tailwind Typography's default prose color instead of our ink tokens. Fixing `.notes-content` base text and inline `code`/`strong` styling.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+The Review intro renders **without a `<p>` wrapper** — just bare text inside `.content.notes-content`. Paragraph styles (`prose-p:text-ink-muted`) never apply, so that text inherited Tailwind Typography’s default gray. **`strong`** and **`code`** had their own colors, which is why only parts of the sentence looked wrong.
+
+Added explicit styling on `.content.notes-content`:
+
+- Base text → `ink-muted`
+- **Bold** → `ink`
+- `` `code` `` → `ink` on an elevated background (instead of accent-only)
+
+That covers Review, Flashcards, Issues, and other meta page intros with the same pattern.
+
+---
+
+_**User**_
+
+are aliases case sensitive:
+aliases: ["Trusted Inbox"]
+
+---
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full">
+<details>
+<summary>Tool use: **semantic_search_full**</summary>
+
+
+Parameters:
+
+```json
+{
+  "explanation": "",
+  "query": "How are note aliases matched when resolving wikilinks? Case sensitive?",
+  "topK": 10
+}
+```
+Result:
+
+```json
+{
+  "codeResults": [
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 94,
+            "text": "    {{- range $needles -}}"
+          },
+          {
+            "lineNumber": 95,
+            "text": "      {{- if lt (len .) $minLen -}}"
+          },
+          {
+            "lineNumber": 96,
+            "text": "        {{- continue -}}"
+          },
+          {
+            "lineNumber": 97,
+            "text": "      {{- end -}}"
+          },
+          {
+            "lineNumber": 98,
+            "text": "      {{- $isAlias := ne . $other.Title -}}"
+          },
+          {
+            "lineNumber": 99,
+            "text": "      {{- if and $isAlias $linkedToOther -}}"
+          },
+          {
+            "lineNumber": 100,
+            "text": "        {{- continue -}}"
+          },
+          {
+            "lineNumber": 101,
+            "text": "      {{- end -}}"
+          },
+          {
+            "lineNumber": 102,
+            "text": "      {{- $words := split . \" \" -}}"
+          },
+          {
+            "lineNumber": 103,
+            "text": "      {{- $multiWord := gt (len $words) 1 -}}"
+          },
+          {
+            "lineNumber": 104,
+            "text": "      {{- $escaped := replaceRE &#96;([.*+?^${}()|[\\]\\\\])&#96; &#96;\\\\$1&#96; . -}}"
+          },
+          {
+            "lineNumber": 105,
+            "text": "      {{- $wikilinkPattern := printf &#96;(?i)\\[\\[%s(?:#[^\\]|]+)?\\]\\]&#96; $escaped -}}"
+          },
+          {
+            "lineNumber": 106,
+            "text": "      {{- if findRE $wikilinkPattern $raw -}}"
+          },
+          {
+            "lineNumber": 107,
+            "text": "        {{- continue -}}"
+          },
+          {
+            "lineNumber": 108,
+            "text": "      {{- end -}}"
+          },
+          {
+            "lineNumber": 109,
+            "text": "      {{- if $multiWord -}}"
+          },
+          {
+            "lineNumber": 110,
+            "text": "        {{- if not (findRE (printf &#96;(?i)%s&#96; $escaped) $mentionRaw) -}}"
+          },
+          {
+            "lineNumber": 111,
+            "text": "          {{- continue -}}"
+          },
+          {
+            "lineNumber": 112,
+            "text": "        {{- end -}}"
+          },
+          {
+            "lineNumber": 113,
+            "text": "        {{- $wordPattern := printf &#96;(?i)(?:^|[^[\\w])%s(?:[^]\\w]|$)&#96; $escaped -}}"
+          },
+          {
+            "lineNumber": 114,
+            "text": "        {{- if not (findRE $wordPattern $mentionRaw) -}}"
+          },
+          {
+            "lineNumber": 115,
+            "text": "          {{- continue -}}"
+          },
+          {
+            "lineNumber": 116,
+            "text": "        {{- end -}}"
+          },
+          {
+            "lineNumber": 117,
+            "text": "      {{- else -}}"
+          },
+          {
+            "lineNumber": 118,
+            "text": "        {{- if not (findRE (printf &#96;%s&#96; $escaped) $mentionRaw) -}}"
+          },
+          {
+            "lineNumber": 119,
+            "text": "          {{- continue -}}"
+          },
+          {
+            "lineNumber": 120,
+            "text": "        {{- end -}}"
+          },
+          {
+            "lineNumber": 121,
+            "text": "        {{- $wordPattern := printf &#96;(?:^|[^[\\wA-Z])%s(?:[^]\\w]|$)&#96; $escaped -}}"
+          },
+          {
+            "lineNumber": 122,
+            "text": "        {{- if not (findRE $wordPattern $mentionRaw) -}}"
+          },
+          {
+            "lineNumber": 123,
+            "text": "          {{- continue -}}"
+          },
+          {
+            "lineNumber": 124,
+            "text": "        {{- end -}}"
+          },
+          {
+            "lineNumber": 125,
+            "text": "      {{- end -}}"
+          },
+          {
+            "lineNumber": 126,
+            "text": "      {{- $ukey := printf \"%s|%s\" $path (lower .) -}}"
+          },
+          {
+            "lineNumber": 127,
+            "text": "      {{- if not (index $unlinkedKeys $ukey) -}}"
+          },
+          {
+            "lineNumber": 128,
+            "text": "        {{- $unlinkedKeys = merge $unlinkedKeys (dict $ukey true) -}}"
+          },
+          {
+            "lineNumber": 129,
+            "text": "        {{- $unlinked = $unlinked | append (dict \"mention\" . \"suggestTitle\" $other.Title \"suggestPage\" $other) -}}"
+          },
+          {
+            "lineNumber": 130,
+            "text": "      {{- end -}}"
+          },
+          {
+            "lineNumber": 131,
+            "text": "    {{- end -}}"
+          },
+          {
+            "lineNumber": 132,
+            "text": "  {{- end -}}"
+          },
+          {
+            "lineNumber": 133
+          },
+          {
+            "lineNumber": 134,
+            "text": "  {{- $structure := slice -}}"
+          },
+          {
+            "lineNumber": 135,
+            "text": "  {{- if and (eq ($note.Params.note_kind | default \"note\") \"note\") (not (partial \"notes/is-utility-page.html\" $note)) -}}"
+          },
+          {
+            "lineNumber": 136,
+            "text": "    {{- $rels := partial \"notes/relationship-types.html\" $note -}}"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 136
+          },
+          "startPosition": {
+            "line": 93
+          }
+        },
+        "relativeWorkspacePath": "./layouts/_partials/notes/collect-note-issues.html",
+        "signatures": {}
+      },
+      "score": 0.4161731004714966
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 50,
+            "text": "  {{- $pipeKeys := dict -}}"
+          },
+          {
+            "lineNumber": 51,
+            "text": "  {{- $pipeMatches := findRE &#96;\\[\\[[^\\]]+\\|[^\\]]+\\]\\]&#96; $raw -}}"
+          },
+          {
+            "lineNumber": 52,
+            "text": "  {{- range $pipeMatches -}}"
+          },
+          {
+            "lineNumber": 53,
+            "text": "    {{- $inner := replaceRE &#96;^\\[\\[|\\]\\]$&#96; \"\" . -}}"
+          },
+          {
+            "lineNumber": 54,
+            "text": "    {{- $key := lower $inner -}}"
+          },
+          {
+            "lineNumber": 55,
+            "text": "    {{- if not (index $pipeKeys $key) -}}"
+          },
+          {
+            "lineNumber": 56,
+            "text": "      {{- $pipeKeys = merge $pipeKeys (dict $key true) -}}"
+          },
+          {
+            "lineNumber": 57,
+            "text": "      {{- $target := $inner -}}"
+          },
+          {
+            "lineNumber": 58,
+            "text": "      {{- if strings.Contains $inner \"|\" -}}"
+          },
+          {
+            "lineNumber": 59,
+            "text": "        {{- $target = index (split $inner \"|\") 0 | strings.TrimSpace -}}"
+          },
+          {
+            "lineNumber": 60,
+            "text": "      {{- end -}}"
+          },
+          {
+            "lineNumber": 61,
+            "text": "      {{- $pipe = $pipe | append (dict \"raw\" $inner \"target\" $target) -}}"
+          },
+          {
+            "lineNumber": 62,
+            "text": "    {{- end -}}"
+          },
+          {
+            "lineNumber": 63,
+            "text": "  {{- end -}}"
+          },
+          {
+            "lineNumber": 64
+          },
+          {
+            "lineNumber": 65,
+            "text": "  {{- $unlinked := slice -}}"
+          },
+          {
+            "lineNumber": 66,
+            "text": "  {{- $unlinkedKeys := dict -}}"
+          },
+          {
+            "lineNumber": 67,
+            "text": "  {{- /* Headings are structure, not prose mentions — e.g. ## Note Relationships */ -}}"
+          },
+          {
+            "lineNumber": 68,
+            "text": "  {{- $mentionRaw := replaceRE &#96;(?m)^#{1,6}\\s+[^\\n]*\\n?&#96; \"\" $raw -}}"
+          },
+          {
+            "lineNumber": 69,
+            "text": "  {{- range $other := $gardenNotes -}}"
+          },
+          {
+            "lineNumber": 70,
+            "text": "    {{- if eq $other.RelPermalink $note.RelPermalink -}}"
+          },
+          {
+            "lineNumber": 71,
+            "text": "      {{- continue -}}"
+          },
+          {
+            "lineNumber": 72,
+            "text": "    {{- end -}}"
+          },
+          {
+            "lineNumber": 73,
+            "text": "    {{- $linkedToOther := false -}}"
+          },
+          {
+            "lineNumber": 74,
+            "text": "    {{- range findRE &#96;\\[\\[[^\\]|#]+(?:#[^\\]|]+)?\\]\\]&#96; $raw -}}"
+          },
+          {
+            "lineNumber": 75,
+            "text": "      {{- $inner := replaceRE &#96;^\\[\\[|\\]\\]$&#96; \"\" . -}}"
+          },
+          {
+            "lineNumber": 76,
+            "text": "      {{- $target := $inner -}}"
+          },
+          {
+            "lineNumber": 77,
+            "text": "      {{- if strings.Contains $target \"#\" -}}"
+          },
+          {
+            "lineNumber": 78,
+            "text": "        {{- $target = index (split $target \"#\") 0 | strings.TrimSpace -}}"
+          },
+          {
+            "lineNumber": 79,
+            "text": "      {{- end -}}"
+          },
+          {
+            "lineNumber": 80,
+            "text": "      {{- if strings.Contains $target \"|\" -}}"
+          },
+          {
+            "lineNumber": 81,
+            "text": "        {{- $target = index (split $target \"|\") 0 | strings.TrimSpace -}}"
+          },
+          {
+            "lineNumber": 82,
+            "text": "      {{- end -}}"
+          },
+          {
+            "lineNumber": 83,
+            "text": "      {{- $target = replace $target \"\\u2019\" \"'\" -}}"
+          },
+          {
+            "lineNumber": 84,
+            "text": "      {{- $target = replace $target \"\\u2018\" \"'\" -}}"
+          },
+          {
+            "lineNumber": 85,
+            "text": "      {{- $resolved := index $registry.byKey (lower $target) -}}"
+          },
+          {
+            "lineNumber": 86,
+            "text": "      {{- if and $resolved (eq $resolved.RelPermalink $other.RelPermalink) -}}"
+          },
+          {
+            "lineNumber": 87,
+            "text": "        {{- $linkedToOther = true -}}"
+          },
+          {
+            "lineNumber": 88,
+            "text": "      {{- end -}}"
+          },
+          {
+            "lineNumber": 89,
+            "text": "    {{- end -}}"
+          },
+          {
+            "lineNumber": 90,
+            "text": "    {{- $needles := slice $other.Title -}}"
+          },
+          {
+            "lineNumber": 91,
+            "text": "    {{- with $other.Params.aliases -}}"
+          },
+          {
+            "lineNumber": 92,
+            "text": "      {{- $needles = union $needles . -}}"
+          },
+          {
+            "lineNumber": 93,
+            "text": "    {{- end -}}"
+          },
+          {
+            "lineNumber": 94,
+            "text": "    {{- range $needles -}}"
+          },
+          {
+            "lineNumber": 95,
+            "text": "      {{- if lt (len .) $minLen -}}"
+          },
+          {
+            "lineNumber": 96,
+            "text": "        "
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "column": 8,
+            "line": 95
+          },
+          "startPosition": {
+            "line": 49
+          }
+        },
+        "relativeWorkspacePath": "./layouts/_partials/notes/collect-note-issues.html",
+        "signatures": {}
+      },
+      "score": 0.3943111002445221
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 1,
+            "text": "{{- /*"
+          },
+          {
+            "lineNumber": 2,
+            "text": "  Resolve a wikilink target string to a note page."
+          },
+          {
+            "lineNumber": 3,
+            "text": "  Input: Target (may include #heading; label is stripped by caller)."
+          },
+          {
+            "lineNumber": 4,
+            "text": "  Returns dict: Page, Anchor (string, may be empty)."
+          },
+          {
+            "lineNumber": 5,
+            "text": "*/ -}}"
+          },
+          {
+            "lineNumber": 6,
+            "text": "{{- $raw := strings.TrimSpace .Target -}}"
+          },
+          {
+            "lineNumber": 7,
+            "text": "{{- $anchor := \"\" -}}"
+          },
+          {
+            "lineNumber": 8,
+            "text": "{{- if strings.Contains $raw \"#\" -}}"
+          },
+          {
+            "lineNumber": 9,
+            "text": "  {{- $hashParts := split $raw \"#\" -}}"
+          },
+          {
+            "lineNumber": 10,
+            "text": "  {{- $raw = index $hashParts 0 | strings.TrimSpace -}}"
+          },
+          {
+            "lineNumber": 11,
+            "text": "  {{- $anchor = index $hashParts 1 | strings.TrimSpace -}}"
+          },
+          {
+            "lineNumber": 12,
+            "text": "{{- end -}}"
+          },
+          {
+            "lineNumber": 13,
+            "text": "{{- $registry := partialCached \"notes/link-registry.html\" site \"notes-registry-v2\" -}}"
+          },
+          {
+            "lineNumber": 14,
+            "text": "{{- $page := index $registry.byKey (lower $raw) -}}"
+          },
+          {
+            "lineNumber": 15,
+            "text": "{{- return (dict \"Page\" $page \"Anchor\" $anchor \"Target\" $raw) -}}"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 15
+          },
+          "startPosition": {}
+        },
+        "relativeWorkspacePath": "./layouts/_partials/notes/resolve-target.html",
+        "signatures": {}
+      },
+      "score": 0.38914716243743896
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 31,
+            "text": "{{- $seen := dict -}}"
+          },
+          {
+            "lineNumber": 32,
+            "text": "{{- range $links -}}"
+          },
+          {
+            "lineNumber": 33,
+            "text": "  {{- $full := . -}}"
+          },
+          {
+            "lineNumber": 34,
+            "text": "  {{- if index $seen $full -}}"
+          },
+          {
+            "lineNumber": 35,
+            "text": "    {{- continue -}}"
+          },
+          {
+            "lineNumber": 36,
+            "text": "  {{- end -}}"
+          },
+          {
+            "lineNumber": 37,
+            "text": "  {{- $seen = merge $seen (dict $full true) -}}"
+          },
+          {
+            "lineNumber": 38
+          },
+          {
+            "lineNumber": 39,
+            "text": "  {{- $inner := replaceRE &#96;^\\[\\[|\\]\\]$&#96; \"\" $full -}}"
+          },
+          {
+            "lineNumber": 40,
+            "text": "  {{- $target := $inner -}}"
+          },
+          {
+            "lineNumber": 41,
+            "text": "  {{- $anchor := \"\" -}}"
+          },
+          {
+            "lineNumber": 42,
+            "text": "  {{- if strings.Contains $inner \"#\" -}}"
+          },
+          {
+            "lineNumber": 43,
+            "text": "    {{- $hashParts := split $inner \"#\" -}}"
+          },
+          {
+            "lineNumber": 44,
+            "text": "    {{- $target = index $hashParts 0 | strings.TrimSpace -}}"
+          },
+          {
+            "lineNumber": 45,
+            "text": "    {{- $anchor = index $hashParts 1 | strings.TrimSpace -}}"
+          },
+          {
+            "lineNumber": 46,
+            "text": "  {{- end -}}"
+          },
+          {
+            "lineNumber": 47
+          },
+          {
+            "lineNumber": 48,
+            "text": "  {{- $resolved := partial \"notes/resolve-target.html\" (dict \"Target\" $target) -}}"
+          },
+          {
+            "lineNumber": 49,
+            "text": "  {{- with $resolved.Page -}}"
+          },
+          {
+            "lineNumber": 50,
+            "text": "    {{- $href := .RelPermalink -}}"
+          },
+          {
+            "lineNumber": 51,
+            "text": "    {{- if $anchor -}}"
+          },
+          {
+            "lineNumber": 52,
+            "text": "      {{- $href = printf \"%s#%s\" $href $anchor -}}"
+          },
+          {
+            "lineNumber": 53,
+            "text": "    {{- end -}}"
+          },
+          {
+            "lineNumber": 54,
+            "text": "    {{- $text := $target -}}"
+          },
+          {
+            "lineNumber": 55,
+            "text": "    {{- if $anchor -}}"
+          },
+          {
+            "lineNumber": 56,
+            "text": "      {{- $text = $anchor -}}"
+          },
+          {
+            "lineNumber": 57,
+            "text": "    {{- end -}}"
+          },
+          {
+            "lineNumber": 58,
+            "text": "    {{- $link := printf &#96;\u003ca href=\"%s\" class=\"%s\" data-wikilink-preview=\"%s\"\u003e%s\u003c/a\u003e&#96; $href $class .RelPermalink $text -}}"
+          },
+          {
+            "lineNumber": 59,
+            "text": "    {{- $content = replace $content $full $link -}}"
+          },
+          {
+            "lineNumber": 60,
+            "text": "  {{- end -}}"
+          },
+          {
+            "lineNumber": 61,
+            "text": "{{- end -}}"
+          },
+          {
+            "lineNumber": 62
+          },
+          {
+            "lineNumber": 63,
+            "text": "{{- /* Unresolved wikilinks and deprecated [[target|label]] syntax */ -}}"
+          },
+          {
+            "lineNumber": 64,
+            "text": "{{- $content = replaceRE &#96;\\[\\[([^\\]]+)\\|([^\\]]+)\\]\\]&#96; (printf &#96;\u003cspan class=\"%s-broken\" title=\"Pipe wikilinks are not supported — use [[Note Title]] only\"\u003e$1|$2\u003c/span\u003e&#96; $class) $content -}}"
+          },
+          {
+            "lineNumber": 65,
+            "text": "{{- $content = replaceRE &#96;\\[\\[([^\\]]+)\\]\\]&#96; (printf &#96;\u003cspan class=\"%s-broken\" title=\"No matching note for this wikilink\"\u003e$1\u003c/span\u003e&#96; $class) $content -}}"
+          },
+          {
+            "lineNumber": 66
+          },
+          {
+            "lineNumber": 67,
+            "text": "{{- range $protected -}}"
+          },
+          {
+            "lineNumber": 68,
+            "text": "  {{- $content = replace $content .token .block -}}"
+          },
+          {
+            "lineNumber": 69,
+            "text": "{{- end -}}"
+          },
+          {
+            "lineNumber": 70
+          },
+          {
+            "lineNumber": 71,
+            "text": "{{- $content | safeHTML -}}"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 71
+          },
+          "startPosition": {
+            "line": 30
+          }
+        },
+        "relativeWorkspacePath": "./layouts/_partials/notes/render-content.html",
+        "signatures": {}
+      },
+      "score": 0.3884848952293396
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 1,
+            "text": "{{- /*"
+          },
+          {
+            "lineNumber": 2,
+            "text": "  Cached lookup of all published notes by title, slug, filename, and aliases."
+          },
+          {
+            "lineNumber": 3,
+            "text": "  Returns dict: byKey (lowercase key → Page), notes (slice of Pages)."
+          },
+          {
+            "lineNumber": 4,
+            "text": "*/ -}}"
+          },
+          {
+            "lineNumber": 5,
+            "text": "{{- $notes := partial \"notes/pages.html\" (dict \"IncludeUtility\" true) -}}"
+          },
+          {
+            "lineNumber": 6,
+            "text": "{{- $byKey := dict -}}"
+          },
+          {
+            "lineNumber": 7,
+            "text": "{{- range $notes -}}"
+          },
+          {
+            "lineNumber": 8,
+            "text": "  {{- $page := . -}}"
+          },
+          {
+            "lineNumber": 9,
+            "text": "  {{- $keys := slice $page.Title -}}"
+          },
+          {
+            "lineNumber": 10,
+            "text": "  {{- with $page.Params.slug -}}"
+          },
+          {
+            "lineNumber": 11,
+            "text": "    {{- $keys = $keys | append . -}}"
+          },
+          {
+            "lineNumber": 12,
+            "text": "  {{- end -}}"
+          },
+          {
+            "lineNumber": 13,
+            "text": "  {{- with $page.File -}}"
+          },
+          {
+            "lineNumber": 14,
+            "text": "    {{- $keys = $keys | append .ContentBaseName -}}"
+          },
+          {
+            "lineNumber": 15,
+            "text": "  {{- end -}}"
+          },
+          {
+            "lineNumber": 16,
+            "text": "  {{- with $page.Params.aliases -}}"
+          },
+          {
+            "lineNumber": 17,
+            "text": "    {{- $keys = union $keys . -}}"
+          },
+          {
+            "lineNumber": 18,
+            "text": "  {{- end -}}"
+          },
+          {
+            "lineNumber": 19,
+            "text": "  {{- range $keys -}}"
+          },
+          {
+            "lineNumber": 20,
+            "text": "    {{- $byKey = merge $byKey (dict (lower .) $page) -}}"
+          },
+          {
+            "lineNumber": 21,
+            "text": "  {{- end -}}"
+          },
+          {
+            "lineNumber": 22,
+            "text": "{{- end -}}"
+          },
+          {
+            "lineNumber": 23,
+            "text": "{{- return (dict \"byKey\" $byKey \"notes\" $notes) -}}"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 23
+          },
+          "startPosition": {}
+        },
+        "relativeWorkspacePath": "./layouts/_partials/notes/link-registry.html",
+        "signatures": {}
+      },
+      "score": 0.38357341289520264
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 1,
+            "text": "#!/usr/bin/env python3"
+          },
+          {
+            "lineNumber": 2,
+            "text": "\"\"\"One-shot: add aliases and create stub notes for broken wikilink targets.\"\"\""
+          },
+          {
+            "lineNumber": 3
+          },
+          {
+            "lineNumber": 4,
+            "text": "from __future__ import annotations"
+          },
+          {
+            "lineNumber": 5
+          },
+          {
+            "lineNumber": 6,
+            "text": "import re"
+          },
+          {
+            "lineNumber": 7,
+            "text": "from pathlib import Path"
+          },
+          {
+            "lineNumber": 8
+          },
+          {
+            "lineNumber": 9,
+            "text": "ROOT = Path(__file__).resolve().parents[1]"
+          },
+          {
+            "lineNumber": 10,
+            "text": "NOTES = ROOT / \"content/english/notes\""
+          },
+          {
+            "lineNumber": 11
+          },
+          {
+            "lineNumber": 12,
+            "text": "ALIASES: dict[str, list[str]] = {"
+          },
+          {
+            "lineNumber": 13,
+            "text": "    \"anti-fragile-systems.md\": [\"Antifragility\"],"
+          },
+          {
+            "lineNumber": 14,
+            "text": "    \"the-feynman-technique.md\": [\"Richard Feynman\"],"
+          },
+          {
+            "lineNumber": 15,
+            "text": "    \"creative-blocks.md\": [\"Writer's Block\"],"
+          },
+          {
+            "lineNumber": 16,
+            "text": "    \"pareto-principle.md\": [\"Vilfredo Pareto\"],"
+          },
+          {
+            "lineNumber": 17,
+            "text": "    \"note-relationships.md\": [\"Link Typing\"],"
+          },
+          {
+            "lineNumber": 18,
+            "text": "    \"drafting-in-public.md\": [\"Learning in Public\"],"
+          },
+          {
+            "lineNumber": 19,
+            "text": "    \"digital-serendipity.md\": [\"Serendipity\"],"
+          },
+          {
+            "lineNumber": 20,
+            "text": "    \"evergreen-vs-fleeting-notes.md\": [\"Fleeting Notes\"],"
+          },
+          {
+            "lineNumber": 21,
+            "text": "    \"evergreen-notes.md\": [\"Permanent Notes\"],"
+          },
+          {
+            "lineNumber": 22,
+            "text": "    \"the-knowledge-lifecycle.md\": [\"Note Maturity\"],"
+          },
+          {
+            "lineNumber": 23,
+            "text": "    \"capture.md\": [\"Frictionless Capture\"],"
+          },
+          {
+            "lineNumber": 24,
+            "text": "    \"maps-of-content.md\": [\"Table of Contents\"],"
+          },
+          {
+            "lineNumber": 25,
+            "text": "    \"digital-garden.md\": [\"Gardening Metaphor\", \"Work in Progress\"],"
+          },
+          {
+            "lineNumber": 26,
+            "text": "    \"future-proofing-knowledge.md\": [\"Plain Text Files\"],"
+          },
+          {
+            "lineNumber": 27,
+            "text": "    \"building-a-second-brain.md\": [\"CODE Method\"],"
+          },
+          {
+            "lineNumber": 28,
+            "text": "}"
+          },
+          {
+            "lineNumber": 29
+          },
+          {
+            "lineNumber": 30,
+            "text": "STUBS: list[dict] = ["
+          },
+          {
+            "lineNumber": 31,
+            "text": "    {"
+          },
+          {
+            "lineNumber": 32,
+            "text": "        \"slug\": \"getting-things-done\","
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "column": 38,
+            "line": 31
+          },
+          "startPosition": {}
+        },
+        "relativeWorkspacePath": "./scripts/resolve-note-link-issues.py",
+        "signatures": {}
+      },
+      "score": 0.3734022378921509
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "isSignature": true,
+            "lineNumber": 53,
+            "text": "def utility_targets() -\u003e dict[str, Path]:"
+          },
+          {
+            "lineNumber": 54,
+            "text": "    \"\"\"Map wikilink target strings (lower) to utility note path.\"\"\""
+          },
+          {
+            "lineNumber": 55,
+            "text": "    targets: dict[str, Path] = {}"
+          },
+          {
+            "lineNumber": 56,
+            "text": "    for path in sorted(NOTES_DIR.glob(\"*.md\")):"
+          },
+          {
+            "lineNumber": 57,
+            "text": "        block, _ = split_frontmatter(path.read_text(encoding=\"utf-8\"))"
+          },
+          {
+            "lineNumber": 58,
+            "text": "        if not block or not is_utility(block):"
+          },
+          {
+            "lineNumber": 59,
+            "text": "            continue"
+          },
+          {
+            "lineNumber": 60,
+            "text": "        keys = {parse_scalar(block, \"title\"), parse_scalar(block, \"slug\"), path.stem}"
+          },
+          {
+            "lineNumber": 61,
+            "text": "        keys.update(parse_aliases(block))"
+          },
+          {
+            "lineNumber": 62,
+            "text": "        for key in keys:"
+          },
+          {
+            "lineNumber": 63,
+            "text": "            if key:"
+          },
+          {
+            "lineNumber": 64,
+            "text": "                targets[key.casefold()] = path"
+          },
+          {
+            "isSignature": true,
+            "lineNumber": 65,
+            "text": "    return targets"
+          },
+          {
+            "lineNumber": 66
+          },
+          {
+            "lineNumber": 67
+          },
+          {
+            "isSignature": true,
+            "lineNumber": 68,
+            "text": "def lint_file(path: Path, targets: dict[str, Path]) -\u003e list[str]:"
+          },
+          {
+            "lineNumber": 69,
+            "text": "    if"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 83
+          },
+          "startPosition": {
+            "column": 15,
+            "line": 49
+          }
+        },
+        "relativeWorkspacePath": "./scripts/lint-utility-wikilinks.py",
+        "signatures": {}
+      },
+      "score": 0.36119401454925537
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 1,
+            "text": "{{- /*"
+          },
+          {
+            "lineNumber": 2,
+            "text": "  Wikilinks in the current note's raw body, resolved to pages."
+          },
+          {
+            "lineNumber": 3,
+            "text": "  Returns slice of dict: Page, Label, Anchor."
+          },
+          {
+            "lineNumber": 4,
+            "text": "*/ -}}"
+          },
+          {
+            "lineNumber": 5,
+            "text": "{{- $page := . -}}"
+          },
+          {
+            "lineNumber": 6,
+            "text": "{{- $raw := $page.RawContent -}}"
+          },
+          {
+            "lineNumber": 7,
+            "text": "{{- $matches := findRE &#96;\\[\\[[^\\]|#]+(?:#[^\\]|]+)?\\]\\]&#96; $raw -}}"
+          },
+          {
+            "lineNumber": 8,
+            "text": "{{- $seen := dict -}}"
+          },
+          {
+            "lineNumber": 9,
+            "text": "{{- $links := slice -}}"
+          },
+          {
+            "lineNumber": 10,
+            "text": "{{- range $matches -}}"
+          },
+          {
+            "lineNumber": 11,
+            "text": "  {{- $inner := replaceRE &#96;^\\[\\[|\\]\\]$&#96; \"\" . -}}"
+          },
+          {
+            "lineNumber": 12,
+            "text": "  {{- $target := $inner -}}"
+          },
+          {
+            "lineNumber": 13,
+            "text": "  {{- $anchor := \"\" -}}"
+          },
+          {
+            "lineNumber": 14,
+            "text": "  {{- if strings.Contains $inner \"#\" -}}"
+          },
+          {
+            "lineNumber": 15,
+            "text": "    {{- $hashParts := split $inner \"#\" -}}"
+          },
+          {
+            "lineNumber": 16,
+            "text": "    {{- $target = index $hashParts 0 | strings.TrimSpace -}}"
+          },
+          {
+            "lineNumber": 17,
+            "text": "    {{- $anchor = index $hashParts 1 | strings.TrimSpace -}}"
+          },
+          {
+            "lineNumber": 18,
+            "text": "  {{- end -}}"
+          },
+          {
+            "lineNumber": 19,
+            "text": "  {{- $resolved := partial \"notes/resolve-target.html\" (dict \"Target\" $target) -}}"
+          },
+          {
+            "lineNumber": 20,
+            "text": "  {{- with $resolved.Page -}}"
+          },
+          {
+            "lineNumber": 21,
+            "text": "    {{- if ne .RelPermalink $page.RelPermalink -}}"
+          },
+          {
+            "lineNumber": 22,
+            "text": "      {{- if not (index $seen .RelPermalink) -}}"
+          },
+          {
+            "lineNumber": 23,
+            "text": "        {{- $seen = merge $seen (dict .RelPermalink true) -}}"
+          },
+          {
+            "lineNumber": 24,
+            "text": "        {{- $label := .Title -}}"
+          },
+          {
+            "lineNumber": 25,
+            "text": "        {{- $href := .RelPermalink -}}"
+          },
+          {
+            "lineNumber": 26,
+            "text": "        {{- if $anchor -}}"
+          },
+          {
+            "lineNumber": 27,
+            "text": "          {{- $href = printf \"%s#%s\" .RelPermalink ($anchor | anchorize) -}}"
+          },
+          {
+            "lineNumber": 28,
+            "text": "        {{- end -}}"
+          },
+          {
+            "lineNumber": 29,
+            "text": "        {{- $links = $links | append (dict \"Page\" . \"Label\" $label \"Anchor\" $anchor \"Href\" $href) -}}"
+          },
+          {
+            "lineNumber": 30,
+            "text": "      {{- end -}}"
+          },
+          {
+            "lineNumber": 31,
+            "text": "    {{- end -}}"
+          },
+          {
+            "lineNumber": 32,
+            "text": "  {{- end -}}"
+          },
+          {
+            "lineNumber": 33,
+            "text": "{{- end -}}"
+          },
+          {
+            "lineNumber": 34,
+            "text": "{{- return $links -}}"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 34
+          },
+          "startPosition": {}
+        },
+        "relativeWorkspacePath": "./layouts/_partials/notes/outgoing-links.html",
+        "signatures": {}
+      },
+      "score": 0.3506889343261719
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 1,
+            "text": "{{- $page := . -}}"
+          },
+          {
+            "lineNumber": 2,
+            "text": "{{- $class := site.Params.notes.wikilink_class | default \"wikilink\" -}}"
+          },
+          {
+            "lineNumber": 3
+          },
+          {
+            "lineNumber": 4,
+            "text": "{{- $raw := $page.RawContent -}}"
+          },
+          {
+            "lineNumber": 5,
+            "text": "{{- $raw = replaceRE &#96;(?s)\\n## See also[\\s\\S]*$&#96; \"\" $raw -}}"
+          },
+          {
+            "lineNumber": 6,
+            "text": "{{- $content := $page.RenderString $raw -}}"
+          },
+          {
+            "lineNumber": 7
+          },
+          {
+            "lineNumber": 8,
+            "text": "{{- /* Hide static See also sections; rendered dynamically via see-also.html */ -}}"
+          },
+          {
+            "lineNumber": 9,
+            "text": "{{- $content = replaceRE &#96;(?s)\u003ch2[^\u003e]*id=\"see-also\"[^\u003e]*\u003eSee also\u003c/h2\u003e.*$&#96; \"\" $content -}}"
+          },
+          {
+            "lineNumber": 10,
+            "text": "{{- $content = replaceRE &#96;(?s)\u003ch2[^\u003e]*\u003eSee also\u003c/h2\u003e.*$&#96; \"\" $content -}}"
+          },
+          {
+            "lineNumber": 11
+          },
+          {
+            "lineNumber": 12,
+            "text": "{{- /* Typographer may curl apostrophes inside [[wikilinks]] before we replace them */ -}}"
+          },
+          {
+            "lineNumber": 13,
+            "text": "{{- $content = replace $content \"\\u2019\" \"'\" -}}"
+          },
+          {
+            "lineNumber": 14,
+            "text": "{{- $content = replace $content \"\\u2018\" \"'\" -}}"
+          },
+          {
+            "lineNumber": 15,
+            "text": "{{- $content = replace $content \"\u0026rsquo;\" \"'\" -}}"
+          },
+          {
+            "lineNumber": 16,
+            "text": "{{- $content = replace $content \"\u0026#8217;\" \"'\" -}}"
+          },
+          {
+            "lineNumber": 17,
+            "text": "{{- $content = replace $content \"\u0026apos;\" \"'\" -}}"
+          },
+          {
+            "lineNumber": 18
+          },
+          {
+            "lineNumber": 19,
+            "text": "{{- /* Keep inline code / pre blocks literal (e.g. &#96;[[wikilinks]]&#96; in Getting Started) */ -}}"
+          },
+          {
+            "lineNumber": 20,
+            "text": "{{- $protected := slice -}}"
+          },
+          {
+            "lineNumber": 21,
+            "text": "{{- $blocks := findRE &#96;(?s)\u003c(?:code|pre)[^\u003e]*\u003e.*?\u003c/(?:code|pre)\u003e&#96; $content -}}"
+          },
+          {
+            "lineNumber": 22,
+            "text": "{{- range $i, $block := $blocks -}}"
+          },
+          {
+            "lineNumber": 23,
+            "text": "  {{- $token := printf \"WIKILINK-PROTECT-%d-END\" $i -}}"
+          },
+          {
+            "lineNumber": 24,
+            "text": "  {{- $protected = $protected | append (dict \"token\" $token \"block\" $block) -}}"
+          },
+          {
+            "lineNumber": 25,
+            "text": "  {{- $content = replace $content $block $token -}}"
+          },
+          {
+            "lineNumber": 26,
+            "text": "{{- end -}}"
+          },
+          {
+            "lineNumber": 27
+          },
+          {
+            "lineNumber": 28,
+            "text": "{{- /* Resolve each [[wikilink]] via the link registry (case-insensitive keys) */ -}}"
+          },
+          {
+            "lineNumber": 29,
+            "text": "{{- $links := findRE &#96;\\[\\[[^\\]|]+\\]\\]&#96; $content -}}"
+          },
+          {
+            "lineNumber": 30,
+            "text": "{{- $links = union $links (findRE &#96;\\[\\[[^\\]|]+#[^\\]|]+\\]\\]&#96; $content) -}}"
+          },
+          {
+            "lineNumber": 31,
+            "text": "{{- $seen := dict -}}"
+          },
+          {
+            "lineNumber": 32,
+            "text": "{{- range $links -}}"
+          },
+          {
+            "lineNumber": 33,
+            "text": "  {{- $full := . -}}"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 33
+          },
+          "startPosition": {}
+        },
+        "relativeWorkspacePath": "./layouts/_partials/notes/render-content.html",
+        "signatures": {}
+      },
+      "score": 0.3462502062320709
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "isSignature": true,
+            "lineNumber": 188,
+            "text": "def build_link_map(catalog: list[dict]) -\u003e dict[str, str]:"
+          },
+          {
+            "lineNumber": 189,
+            "text": "    link_map: dict[str, str] = {}"
+          },
+          {
+            "lineNumber": 190,
+            "text": "    for note in catalog:"
+          },
+          {
+            "lineNumber": 191,
+            "text": "        for key in [note[\"title\"], note[\"slug\"], note[\"stem\"], *note[\"aliases\"]]:"
+          },
+          {
+            "lineNumber": 192,
+            "text": "            if key:"
+          },
+          {
+            "lineNumber": 193,
+            "text": "                link_map[key.lower()] = note[\"title\"]"
+          },
+          {
+            "isSignature": true,
+            "lineNumber": 194,
+            "text": "    return link_map"
+          },
+          {
+            "lineNumber": 195
+          },
+          {
+            "lineNumber": 196
+          },
+          {
+            "isSignature": true,
+            "lineNumber": 197,
+            "text": "def resolved_link_titles(body: str, link_map: dict[str, str], self_title: str) -\u003e set[str]:"
+          },
+          {
+            "lineNumber": 198,
+            "text": "    "
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 202
+          },
+          "startPosition": {
+            "column": 52,
+            "line": 184
+          }
+        },
+        "relativeWorkspacePath": "./scripts/wire-notes-obsidian.py",
+        "signatures": {}
+      },
+      "score": 0.3278515338897705
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 38,
+            "text": "Or add a &#96;.md&#96; file under &#96;content/english/notes/&#96;. Use the same frontmatter as blog posts (&#96;title&#96;, &#96;meta_title&#96;, &#96;description&#96;, &#96;slug&#96;, &#96;date&#96;, &#96;image&#96;, &#96;categories&#96;, &#96;author&#96;, &#96;tags&#96;, &#96;featured&#96;, &#96;draft&#96;)."
+          },
+          {
+            "lineNumber": 39
+          },
+          {
+            "lineNumber": 40,
+            "text": "Created and updated timestamps come from the file itself at build time (&#96;scripts/noteFileDates.js&#96;) - no manual date fields to maintain."
+          },
+          {
+            "lineNumber": 41
+          },
+          {
+            "lineNumber": 42,
+            "text": "## Link between notes"
+          },
+          {
+            "lineNumber": 43
+          },
+          {
+            "lineNumber": 44,
+            "text": "Use wikilinks in the body:"
+          },
+          {
+            "lineNumber": 45
+          },
+          {
+            "lineNumber": 46,
+            "text": "- &#96;[[Atomic Notes]]&#96; - link by title"
+          },
+          {
+            "lineNumber": 47,
+            "text": "- &#96;[[atom]]&#96; - works via the &#96;aliases&#96; frontmatter field"
+          },
+          {
+            "lineNumber": 48
+          },
+          {
+            "lineNumber": 49,
+            "text": "What this site gives you:"
+          },
+          {
+            "lineNumber": 50
+          },
+          {
+            "lineNumber": 51,
+            "text": "- **Wikilinks** - &#96;[[Note Title]]&#96; in note bodies (no pipe labels)"
+          },
+          {
+            "lineNumber": 52,
+            "text": "- **Aliases** - alternate link targets in frontmatter (&#96;aliases: [\"PARA\"]&#96; on [[PARA Method]])"
+          },
+          {
+            "lineNumber": 53,
+            "text": "- **Outgoing links** - listed below each note's body"
+          },
+          {
+            "lineNumber": 54,
+            "text": "- **Backlinks** - with context snippets when another note links here"
+          },
+          {
+            "lineNumber": 55,
+            "text": "- **Graph** - map view; filter by high, low, no body links, and orphans at [/notes/graph/](/notes/graph/)"
+          },
+          {
+            "lineNumber": 56,
+            "text": "- **Issues** - broken wikilinks, pipe wikilinks, and unlinked mentions at [/notes/issues/](/notes/issues/); also shown on each note"
+          },
+          {
+            "lineNumber": 57,
+            "text": "- **See also** - tag-related notes generated at build time (not static in markdown)"
+          },
+          {
+            "lineNumber": 58,
+            "text": "- **Hover previews** - pause on a wikilink to peek at the target note"
+          },
+          {
+            "lineNumber": 59,
+            "text": "- **Maps of Content** - hub index at [[Maps of Content]]"
+          },
+          {
+            "lineNumber": 60,
+            "text": "- **Resurfacing** - featured random note and [Random Duo](/notes/random-duo/) on [/notes/](/notes/)"
+          },
+          {
+            "lineNumber": 61,
+            "text": "- **Create Note** - topic → AI prompt for one lint-ready atomic note at [/notes/create/](/notes/create/)"
+          },
+          {
+            "lineNumber": 62,
+            "text": "- **Copy MD** - on every note page: copies Hugo source for ChatGPT or your editor"
+          },
+          {
+            "lineNumber": 63,
+            "text": "- **Copy hub cluster** - on hub/MOC pages (&#96;note_kind: index&#96;): hub + all direct wikilink targets in one paste"
+          },
+          {
+            "lineNumber": 64,
+            "text": "- **Copy catalog** - on [OKF Export](/notes/okf-export/): full garden index for ChatGPT project context"
+          },
+          {
+            "lineNumber": 65,
+            "text": "- **Copy issues** - on [Issues](/notes/issues/): structured link/structure report for maintenance sprints"
+          },
+          {
+            "lineNumber": 66,
+            "text": "- **Agent copy** - OKF handoff markdown per note (resolved links), upper right beside Copy MD"
+          },
+          {
+            "lineNumber": 67,
+            "text": "- **OKF export** - full bundle at [/notes/okf-export/](/notes/okf-export/) and [/exports/okf/](/exports/okf/)"
+          },
+          {
+            "lineNumber": 68,
+            "text": "- **Flashcards** - ~12 habit spine notes (~20%) with &#96;review: true&#96; carry six scenario &#96;cards:&#96; in frontmatter plus &#96;card_sets:&#96; for Review grouping; habit prompts I drill at [/notes/review/](/notes/review/)"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 68
+          },
+          "startPosition": {
+            "line": 37
+          }
+        },
+        "relativeWorkspacePath": "./content/english/notes/getting-started.md",
+        "signatures": {}
+      },
+      "score": 0.3275381326675415
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "isSignature": true,
+            "lineNumber": 50,
+            "text": "def suggested_aliases(title: str, slug: str, existing: list[str]) -\u003e list[str]:"
+          },
+          {
+            "lineNumber": 51,
+            "text": "    aliases = list(existing)"
+          },
+          {
+            "lineNumber": 52,
+            "text": "    seen = {a.lower() for a in aliases}"
+          },
+          {
+            "lineNumber": 53
+          },
+          {
+            "lineNumber": 54,
+            "text": "    def add(value: str) -\u003e None:"
+          },
+          {
+            "lineNumber": 55,
+            "text": "        value = value.strip()"
+          },
+          {
+            "lineNumber": 56,
+            "text": "        if not value or value.lower() in seen or value.lower() == title.lower():"
+          },
+          {
+            "lineNumber": 57,
+            "text": "            return"
+          },
+          {
+            "lineNumber": 58,
+            "text": "        aliases.append(value)"
+          },
+          {
+            "lineNumber": 59,
+            "text": "        seen.add(value.lower())"
+          },
+          {
+            "lineNumber": 60
+          },
+          {
+            "lineNumber": 61,
+            "text": "    add(slug.replace(\"-\", \" \"))"
+          },
+          {
+            "lineNumber": 62,
+            "text": "    paren = re.search(r\"\\(([^)]+)\\)\\s*$\", title)"
+          },
+          {
+            "lineNumber": 63,
+            "text": "    if paren:"
+          },
+          {
+            "lineNumber": 64,
+            "text": "        add(paren.group(1).strip())"
+          },
+          {
+            "lineNumber": 65
+          },
+          {
+            "lineNumber": 66,
+            "text": "    manual: dict[str, list[str]] = {"
+          },
+          {
+            "lineNumber": 67,
+            "text": "        \"PKM\": [\"Personal Knowledge Management\"],"
+          },
+          {
+            "lineNumber": 68,
+            "text": "        \"PARA Method\": [\"PARA\"],"
+          },
+          {
+            "lineNumber": 69,
+            "text": "        \"Maps of Content\": [\"MOC\"],"
+          },
+          {
+            "lineNumber": 70,
+            "text": "        \"Building a Second Brain\": [\"Second Brain\"],"
+          },
+          {
+            "lineNumber": 71,
+            "text": "        \"The Second Brain Workflow\": [\"Second Brain Workflow\"],"
+          },
+          {
+            "lineNumber": 72,
+            "text": "        \"Second Brain Daily Workflow\": [\"Daily Workflow\"],"
+          },
+          {
+            "lineNumber": 73,
+            "text": "        \"Spaced Repetition Systems (SRS)\": [\"SRS\"],"
+          },
+          {
+            "lineNumber": 74,
+            "text": "        \"Evergreen vs Fleeting Notes\": [\"Evergreen vs Fleeting\"],"
+          },
+          {
+            "lineNumber": 75,
+            "text": "        \"Local-first Software\": [\"Local First\"],"
+          },
+          {
+            "lineNumber": 76,
+            "text": "        \"Note-Taking for Researchers\": [\"Research Notes\"],"
+          },
+          {
+            "lineNumber": 77,
+            "text": "        \"The Collector's Fallacy\": [\"Collector's Fallacy\"],"
+          },
+          {
+            "lineNumber": 78,
+            "text": "        \"The 12 Week Year\": [\"12 Week Year\"],"
+          },
+          {
+            "lineNumber": 79,
+            "text": "        \"The Feynman Technique\": [\"Feynman Technique\"],"
+          },
+          {
+            "lineNumber": 80,
+            "text": "        \"The Archive Method\": [\"Archive Method\"],"
+          },
+          {
+            "lineNumber": 81,
+            "text": "        \"The Trusted Inbox\": [\"Trusted Inbox\"],"
+          },
+          {
+            "lineNumber": 82,
+            "text": "        \"The Garage Concept\": [\"Garage Concept\"],"
+          },
+          {
+            "lineNumber": 83,
+            "text": "        \"The Future of PKM\": [\"Future of PKM\"],"
+          },
+          {
+            "lineNumber": 84,
+            "text": "        \"The Knowledge Lifecycle\": [\"Knowledge Lifecycle\"],"
+          },
+          {
+            "lineNumber": 85,
+            "text": "        \"The Power of Interconnectivity\": [\"Interconnectivity\"],"
+          },
+          {
+            "lineNumber": 86,
+            "text": "        \"Atomic Design for Notes\": [\"Atomic Design\"],"
+          },
+          {
+            "lineNumber": 87,
+            "text": "        \"GTD vs PARA\": [\"GTD\"],"
+          },
+          {
+            "lineNumber": 88,
+            "text": "        \"E2EE Security\": [\"E2EE\"],"
+          },
+          {
+            "lineNumber": 89,
+            "text": "        \"Privacy and Data Sovereignty\": [\"Data Sovereignty\"],"
+          },
+          {
+            "lineNumber": 90,
+            "text": "        \"There Is No Perfect Solution\": [\"No Perfect Solution\"],"
+          },
+          {
+            "lineNumber": 91,
+            "text": "        \"Process Over Outcomes\": [\"Process Over Outcome\"],"
+          },
+          {
+            "lineNumber": 92,
+            "text": "        \"Anti-Fragile Systems\": [\"Antifragile\"],"
+          },
+          {
+            "lineNumber": 93,
+            "text": "    }"
+          },
+          {
+            "lineNumber": 94,
+            "text": "    for value in manual.get(title, []):"
+          },
+          {
+            "lineNumber": 95,
+            "text": "        add(value)"
+          },
+          {
+            "lineNumber": 96
+          },
+          {
+            "lineNumber": 97,
+            "text": "    if title.endswith(\" Method\"):"
+          },
+          {
+            "lineNumber": 98,
+            "text": "        add(title[: -len(\" Method\")])"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 101
+          },
+          "startPosition": {
+            "column": 33,
+            "line": 46
+          }
+        },
+        "relativeWorkspacePath": "./scripts/wire-notes-obsidian.py",
+        "signatures": {}
+      },
+      "score": 0.3272038698196411
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "isSignature": true,
+            "lineNumber": 458,
+            "text": "def main() -\u003e None:"
+          },
+          {
+            "lineNumber": 459,
+            "text": "    catalog = load_catalog()"
+          },
+          {
+            "lineNumber": 460,
+            "text": "    link_targets: list[tuple[str, str]] = []"
+          },
+          {
+            "lineNumber": 461,
+            "text": "    for note in catalog:"
+          },
+          {
+            "lineNumber": 462,
+            "text": "        link_targets.append((note[\"title\"], note[\"title\"]))"
+          },
+          {
+            "lineNumber": 463,
+            "text": "        link_targets.append((note[\"slug\"], note[\"title\"]))"
+          },
+          {
+            "lineNumber": 464,
+            "text": "        link_targets.append((note[\"stem\"], note[\"title\"]))"
+          },
+          {
+            "lineNumber": 465,
+            "text": "        for alias in note[\"aliases\"]:"
+          },
+          {
+            "lineNumber": 466,
+            "text": "            link_targets.append((alias, note[\"title\"]))"
+          },
+          {
+            "lineNumber": 467
+          },
+          {
+            "lineNumber": 468,
+            "text": "    updated = 0"
+          },
+          {
+            "lineNumber": 469,
+            "text": "    for note in catalog:"
+          },
+          {
+            "lineNumber": 470,
+            "text": "        aliases = suggested_aliases(note[\"title\"], note[\"slug\"], note[\"aliases\"])"
+          },
+          {
+            "lineNumber": 471,
+            "text": "        for alias in aliases:"
+          },
+          {
+            "lineNumber": 472,
+            "text": "            link_targets.append((alias, note[\"title\"]))"
+          },
+          {
+            "lineNumber": 473
+          },
+          {
+            "lineNumber": 474,
+            "text": "    # dedupe link targets by target string length"
+          },
+          {
+            "lineNumber": 475,
+            "text": "    unique_targets: dict[str, str] = {}"
+          },
+          {
+            "lineNumber": 476,
+            "text": "    for target, title in link_targets:"
+          },
+          {
+            "lineNumber": 477,
+            "text": "        if target not in unique_targets or len(target) \u003e len(unique_targets[target]):"
+          },
+          {
+            "lineNumber": 478,
+            "text": "            unique_targets[target] = title"
+          },
+          {
+            "lineNumber": 479,
+            "text": "    targets = [(target, title) for target, title in unique_targets.items()]"
+          },
+          {
+            "lineNumber": 480,
+            "text": "    link_map = build_link_map(catalog)"
+          },
+          {
+            "lineNumber": 481
+          },
+          {
+            "lineNumber": 482,
+            "text": "    for note in catalog:"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 522
+          },
+          "startPosition": {
+            "column": 15,
+            "line": 454
+          }
+        },
+        "relativeWorkspacePath": "./scripts/wire-notes-obsidian.py",
+        "signatures": {}
+      },
+      "score": 0.3225472867488861
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 1,
+            "text": "{{- /*"
+          },
+          {
+            "lineNumber": 2,
+            "text": "  Site-wide backlink index: target RelPermalink → slice of {Page, Snippet}."
+          },
+          {
+            "lineNumber": 3,
+            "text": "  One pass per note: extract wikilinks, resolve targets, append backlink rows."
+          },
+          {
+            "lineNumber": 4,
+            "text": "*/ -}}"
+          },
+          {
+            "lineNumber": 5,
+            "text": "{{- $index := dict -}}"
+          },
+          {
+            "lineNumber": 6,
+            "text": "{{- $notes := partial \"notes/pages.html\" (dict) -}}"
+          },
+          {
+            "lineNumber": 7
+          },
+          {
+            "lineNumber": 8,
+            "text": "{{- range $source := $notes -}}"
+          },
+          {
+            "lineNumber": 9,
+            "text": "  {{- $raw := $source.RawContent -}}"
+          },
+          {
+            "lineNumber": 10,
+            "text": "  {{- $matches := findRE &#96;\\[\\[[^\\]|#]+(?:#[^\\]|]+)?\\]\\]&#96; $raw -}}"
+          },
+          {
+            "lineNumber": 11,
+            "text": "  {{- range $matches -}}"
+          },
+          {
+            "lineNumber": 12,
+            "text": "    {{- $wikilink := . -}}"
+          },
+          {
+            "lineNumber": 13,
+            "text": "    {{- $inner := replaceRE &#96;^\\[\\[|\\]\\]$&#96; \"\" . -}}"
+          },
+          {
+            "lineNumber": 14,
+            "text": "    {{- $targetStr := $inner -}}"
+          },
+          {
+            "lineNumber": 15,
+            "text": "    {{- if strings.Contains $inner \"#\" -}}"
+          },
+          {
+            "lineNumber": 16,
+            "text": "      {{- $targetStr = index (split $inner \"#\") 0 | strings.TrimSpace -}}"
+          },
+          {
+            "lineNumber": 17,
+            "text": "    {{- end -}}"
+          },
+          {
+            "lineNumber": 18,
+            "text": "    {{- $resolved := partial \"notes/resolve-target.html\" (dict \"Target\" $targetStr) -}}"
+          },
+          {
+            "lineNumber": 19,
+            "text": "    {{- with $resolved.Page -}}"
+          },
+          {
+            "lineNumber": 20,
+            "text": "      {{- if ne .RelPermalink $source.RelPermalink -}}"
+          },
+          {
+            "lineNumber": 21,
+            "text": "        {{- $key := .RelPermalink -}}"
+          },
+          {
+            "lineNumber": 22,
+            "text": "        {{- $existing := index $index $key | default slice -}}"
+          },
+          {
+            "lineNumber": 23,
+            "text": "        {{- $seen := false -}}"
+          },
+          {
+            "lineNumber": 24,
+            "text": "        {{- range $existing -}}"
+          },
+          {
+            "lineNumber": 25,
+            "text": "          {{- if eq .Page.RelPermalink $source.RelPermalink -}}"
+          },
+          {
+            "lineNumber": 26,
+            "text": "            {{- $seen = true -}}"
+          },
+          {
+            "lineNumber": 27,
+            "text": "          {{- end -}}"
+          },
+          {
+            "lineNumber": 28,
+            "text": "        {{- end -}}"
+          },
+          {
+            "lineNumber": 29,
+            "text": "        {{- if not $seen -}}"
+          },
+          {
+            "lineNumber": 30,
+            "text": "          {{- $snippet := \"\" -}}"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 30
+          },
+          "startPosition": {}
+        },
+        "relativeWorkspacePath": "./layouts/_partials/notes/backlinks-index.html",
+        "signatures": {}
+      },
+      "score": 0.32205748558044434
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "isSignature": true,
+            "lineNumber": 458,
+            "text": "def main() -\u003e None:"
+          },
+          {
+            "lineNumber": 479
+          },
+          {
+            "lineNumber": 480,
+            "text": "    link_map = build_link_map(catalog)"
+          },
+          {
+            "lineNumber": 481
+          },
+          {
+            "lineNumber": 482,
+            "text": "    for note in catalog:"
+          },
+          {
+            "lineNumber": 483,
+            "text": "        inner = update_frontmatter_aliases(note[\"inner\"], suggested_aliases(note[\"title\"], note[\"slug\"], note[\"aliases\"]))"
+          },
+          {
+            "lineNumber": 484
+          },
+          {
+            "lineNumber": 485,
+            "text": "        if note[\"stem\"] == \"maps-of-content\":"
+          },
+          {
+            "lineNumber": 486,
+            "text": "            body = build_moc_body(catalog)"
+          },
+          {
+            "lineNumber": 487,
+            "text": "        elif note[\"stem\"] == \"getting-started\":"
+          },
+          {
+            "lineNumber": 488,
+            "text": "            body = strip_section(note[\"body\"], SEE_ALSO_HEADING).rstrip() + \"\\n\""
+          },
+          {
+            "lineNumber": 489,
+            "text": "        else:"
+          },
+          {
+            "lineNumber": 490,
+            "text": "            body = strip_section(note[\"body\"], SEE_ALSO_HEADING)"
+          },
+          {
+            "lineNumber": 491,
+            "text": "            body = strip_section(body, MOC_HEADING).rstrip() + \"\\n\""
+          },
+          {
+            "lineNumber": 492,
+            "text": "            body = inline_link(body, targets)"
+          },
+          {
+            "lineNumber": 493,
+            "text": "            body = ensure_min_body_links("
+          },
+          {
+            "lineNumber": 494,
+            "text": "                body,"
+          },
+          {
+            "lineNumber": 495,
+            "text": "                note[\"stem\"],"
+          },
+          {
+            "lineNumber": 496,
+            "text": "                note[\"title\"],"
+          },
+          {
+            "lineNumber": 497,
+            "text": "                note[\"tags\"],"
+          },
+          {
+            "lineNumber": 498,
+            "text": "                catalog,"
+          },
+          {
+            "lineNumber": 499,
+            "text": "                link_map,"
+          },
+          {
+            "lineNumber": 500,
+            "text": "            )"
+          },
+          {
+            "lineNumber": 501
+          },
+          {
+            "lineNumber": 502,
+            "text": "            related = related_notes(note[\"stem\"], note[\"title\"], note[\"tags\"], catalog)"
+          },
+          {
+            "lineNumber": 503,
+            "text": "            for rel in related:"
+          },
+          {
+            "lineNumber": 504,
+            "text": "                rel[\"_shared\"] = sorted(set(note[\"tags\"]) \u0026 set(rel[\"tags\"]))"
+          },
+          {
+            "lineNumber": 505,
+            "text": "            linked = existing_wikilinks(body)"
+          },
+          {
+            "lineNumber": 506,
+            "text": "            see_also = build_see_also("
+          },
+          {
+            "lineNumber": 507,
+            "text": "                related,"
+          },
+          {
+            "lineNumber": 508,
+            "text": "                linked,"
+          },
+          {
+            "lineNumber": 509,
+            "text": "                note[\"stem\"],"
+          },
+          {
+            "lineNumber": 510,
+            "text": "                note[\"title\"],"
+          },
+          {
+            "lineNumber": 511,
+            "text": "                catalog,"
+          },
+          {
+            "lineNumber": 512,
+            "text": "                link_map,"
+          },
+          {
+            "lineNumber": 513,
+            "text": "                body,"
+          },
+          {
+            "lineNumber": 514,
+            "text": "            )"
+          },
+          {
+            "lineNumber": 515,
+            "text": "            if see_also:"
+          },
+          {
+            "lineNumber": 516,
+            "text": "                body = body.rstrip() + \"\\n\\n\" + see_also"
+          },
+          {
+            "lineNumber": 517
+          },
+          {
+            "lineNumber": 518,
+            "text": "        fm = f\"---\\n{inner}\\n---\\n\\n\""
+          },
+          {
+            "lineNumber": 519,
+            "text": "        note[\"path\"].write_text(fm + body, encoding=\"utf-8\")"
+          },
+          {
+            "lineNumber": 520,
+            "text": "        updated += 1"
+          },
+          {
+            "lineNumber": 521,
+            "text": "        print(f\"updated: {note['path'].name}\")"
+          },
+          {
+            "lineNumber": 522
+          },
+          {
+            "isSignature": true,
+            "lineNumber": 523,
+            "text": "    print(f\"\\nDone: {updated} notes wired for wikilinks, aliases, and See also sections.\")"
+          },
+          {
+            "lineNumber": 524
+          },
+          {
+            "lineNumber": 525
+          },
+          {
+            "lineNumber": 526,
+            "text": "if __name__ == \"__main__\":"
+          },
+          {
+            "lineNumber": 527,
+            "text": "    main()"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "column": 10,
+            "line": 526
+          },
+          "startPosition": {
+            "line": 457
+          }
+        },
+        "relativeWorkspacePath": "./scripts/wire-notes-obsidian.py",
+        "signatures": {
+          "ranges": [
+            {
+              "endPosition": {
+                "column": 5,
+                "line": 459
+              },
+              "startPosition": {
+                "column": 1,
+                "line": 458
+              }
+            }
+          ]
+        }
+      },
+      "score": 0.3219074010848999
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "isSignature": true,
+            "lineNumber": 113,
+            "text": "def load_notes(base_url: str) -\u003e tuple[list[NoteRecord], dict[str, NoteRecord]]:"
+          },
+          {
+            "lineNumber": 114,
+            "text": "    records: list[NoteRecord] = []"
+          },
+          {
+            "lineNumber": 115,
+            "text": "    by_key: dict[str, NoteRecord] = {}"
+          },
+          {
+            "lineNumber": 116
+          },
+          {
+            "lineNumber": 117,
+            "text": "    for path in sorted(NOTES_DIR.glob(\"*.md\")):"
+          },
+          {
+            "lineNumber": 118,
+            "text": "        if path.stem in SKIP_STEMS:"
+          },
+          {
+            "lineNumber": 119,
+            "text": "            continue"
+          },
+          {
+            "lineNumber": 120
+          },
+          {
+            "lineNumber": 121,
+            "text": "        text = path.read_text(encoding=\"utf-8\")"
+          },
+          {
+            "lineNumber": 122,
+            "text": "        _, inner, _ = split_frontmatter(text)"
+          },
+          {
+            "lineNumber": 123,
+            "text": "        if not inner:"
+          },
+          {
+            "lineNumber": 124,
+            "text": "            continue"
+          },
+          {
+            "lineNumber": 125
+          },
+          {
+            "lineNumber": 126,
+            "text": "        slug = parse_scalar(inner, \"slug\") or path.stem"
+          },
+          {
+            "lineNumber": 127,
+            "text": "        title = parse_scalar(inner, \"title\") or slug.replace(\"-\", \" \").title()"
+          },
+          {
+            "lineNumber": 128,
+            "text": "        record = NoteRecord("
+          },
+          {
+            "lineNumber": 129,
+            "text": "            path=path,"
+          },
+          {
+            "lineNumber": 130,
+            "text": "            slug=slug,"
+          },
+          {
+            "lineNumber": 131,
+            "text": "            title=title,"
+          },
+          {
+            "lineNumber": 132,
+            "text": "            description=parse_scalar(inner, \"description\"),"
+          },
+          {
+            "lineNumber": 133,
+            "text": "            tags=parse_yaml_list(inner, \"tags\"),"
+          },
+          {
+            "lineNumber": 134,
+            "text": "            note_kind=parse_scalar(inner, \"note_kind\") or \"note\","
+          },
+          {
+            "lineNumber": 135,
+            "text": "            draft=parse_bool(inner, \"draft\"),"
+          },
+          {
+            "lineNumber": 136,
+            "text": "            utility=is_utility(inner),"
+          },
+          {
+            "lineNumber": 137,
+            "text": "            timestamp=note_timestamp(inner, path),"
+          },
+          {
+            "lineNumber": 138,
+            "text": "            resource=f\"{base_url}notes/{slug}/\","
+          },
+          {
+            "lineNumber": 139,
+            "text": "        )"
+          },
+          {
+            "lineNumber": 140,
+            "text": "        records.append(record)"
+          },
+          {
+            "lineNumber": 141
+          },
+          {
+            "lineNumber": 142,
+            "text": "        keys = {title, slug, path.stem}"
+          },
+          {
+            "lineNumber": 143,
+            "text": "        keys.update(parse_yaml_list(inner, \"aliases\"))"
+          },
+          {
+            "lineNumber": 144,
+            "text": "        for key in keys:"
+          },
+          {
+            "lineNumber": 145,
+            "text": "            if key:"
+          },
+          {
+            "lineNumber": 146,
+            "text": "                by_key[key.casefold()] = record"
+          },
+          {
+            "lineNumber": 147
+          },
+          {
+            "isSignature": true,
+            "lineNumber": 148,
+            "text": "    return records, by_key"
+          },
+          {
+            "lineNumber": 149
+          },
+          {
+            "lineNumber": 150
+          },
+          {
+            "isSignature": true,
+            "lineNumber": 151,
+            "text": "def okf_link_path(record: NoteRecord) -\u003e str:"
+          },
+          {
+            "lineNumber": 152,
+            "text": "    if record.note_kind == \"index\":"
+          },
+          {
+            "lineNumber": 153,
+            "text": "        return f\"/hubs/{record.slug}/index.md\""
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 153
+          },
+          "startPosition": {
+            "column": 58,
+            "line": 109
+          }
+        },
+        "relativeWorkspacePath": "./scripts/export-okf-bundle.py",
+        "signatures": {}
+      },
+      "score": 0.3217776119709015
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 1,
+            "text": "#!/usr/bin/env python3"
+          },
+          {
+            "lineNumber": 2,
+            "text": "\"\"\"Normalize ## Note Relationships tables: note_kind index, sort rows, merge typed links.\"\"\""
+          },
+          {
+            "lineNumber": 3,
+            "text": "from __future__ import annotations"
+          },
+          {
+            "lineNumber": 4
+          },
+          {
+            "lineNumber": 5,
+            "text": "import re"
+          },
+          {
+            "lineNumber": 6,
+            "text": "from pathlib import Path"
+          },
+          {
+            "lineNumber": 7
+          },
+          {
+            "lineNumber": 8,
+            "text": "ROOT = Path(__file__).resolve().parents[1]"
+          },
+          {
+            "lineNumber": 9,
+            "text": "NOTES = ROOT / \"content/english/notes\""
+          },
+          {
+            "lineNumber": 10,
+            "text": "SKIP = {\"_index.md\"}"
+          },
+          {
+            "lineNumber": 11
+          },
+          {
+            "lineNumber": 12,
+            "text": "TYPE_ORDER = {\"alternative\": 0, \"contradicts\": 1, \"extends\": 2, \"implements\": 3}"
+          },
+          {
+            "lineNumber": 13,
+            "text": "ROW_RE = re.compile("
+          },
+          {
+            "lineNumber": 14,
+            "text": "    r\"^\\|\\s*(alternative|contradicts|extends|implements|index)\\s*\\|\\s*(\\[\\[[^\\]]+\\]\\]|—)\\s*\\|\\s*(.+?)\\s*\\|$\""
+          },
+          {
+            "lineNumber": 15,
+            "text": ")"
+          },
+          {
+            "lineNumber": 16,
+            "text": "INDEX_SLUGS = {\"getting-started\", \"eternal-principles\", \"maps-of-content\"}"
+          },
+          {
+            "lineNumber": 17
+          },
+          {
+            "lineNumber": 18,
+            "text": "# slug -\u003e list of (type, wikilink_title, reason)"
+          },
+          {
+            "lineNumber": 19,
+            "text": "ADD: dict[str, list[tuple[str, str, str]]] = {"
+          },
+          {
+            "lineNumber": 20,
+            "text": "    \"active-knowledge-curation\": ["
+          },
+          {
+            "lineNumber": 21,
+            "text": "        (\"implements\", \"Periodic Knowledge Review\", \"Monthly prune carries the review habit this note names\"),"
+          },
+          {
+            "lineNumber": 22,
+            "text": "        (\"alternative\", \"Maps of Content\", \"Hand-built hub vs revisit-and-prune when curation stays inline\"),"
+          },
+          {
+            "lineNumber": 23,
+            "text": "    ],"
+          },
+          {
+            "lineNumber": 24,
+            "text": "    \"associative-linking\": ["
+          },
+          {
+            "lineNumber": 25,
+            "text": "        (\"implements\", \"Atomic Notes\", \"Typed wikilinks make one-claim files usable\"),"
+          },
+          {
+            "lineNumber": 26,
+            "text": "        (\"alternative\", \"PARA Method\", \"Link-first graph vs life buckets when folders beat waiting for links\"),"
+          },
+          {
+            "lineNumber": 27,
+            "text": "    ],"
+          },
+          {
+            "lineNumber": 28,
+            "text": "    \"atomic-notes\": ["
+          },
+          {
+            "lineNumber": 29,
+            "text": "        (\"implements\", \"PKM\", \"One-claim files are the Lego blocks PKM stacks\"),"
+          },
+          {
+            "lineNumber": 30,
+            "text": "        (\"alternative\", \"Mind Mapping\", \"Single file per idea vs one bubble map when splitting early\"),"
+          },
+          {
+            "lineNumber": 31,
+            "text": "    ],"
+          },
+          {
+            "lineNumber": 32,
+            "text": "    \"building-a-personal-api\": ["
+          },
+          {
+            "lineNumber": 33,
+            "text": "        (\"alternative\", \"Local-first Software\", \"Structured API vs plain files when sync layers multiply\"),"
+          },
+          {
+            "lineNumber": 34,
+            "text": "    ],"
+          },
+          {
+            "lineNumber": 35,
+            "text": "    \"building-a-second-brain\": ["
+          },
+          {
+            "lineNumber": 36,
+            "text": "        (\"implements\", \"PKM\", \"CODE pipeline carries personal knowledge management into daily capture\"),"
+          },
+          {
+            "lineNumber": 37,
+            "text": "        (\"alternative\", \"GTD vs PARA\", \"Second brain stack vs task-first inbox when Forte's buckets win\"),"
+          },
+          {
+            "lineNumber": 38,
+            "text": "    ],"
+          },
+          {
+            "lineNumber": 39,
+            "text": "    \"capture\": ["
+          },
+          {
+            "lineNumber": 40,
+            "text": "        (\"implements\", \"The Trusted Inbox\","
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "column": 43,
+            "line": 39
+          },
+          "startPosition": {}
+        },
+        "relativeWorkspacePath": "./scripts/sync-note-relationships.py",
+        "signatures": {}
+      },
+      "score": 0.3215135335922241
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "isSignature": true,
+            "lineNumber": 184,
+            "text": "def rewrite_wikilinks(body: str, by_key: dict[str, NoteRecord], base_url: str) -\u003e str:"
+          },
+          {
+            "lineNumber": 185,
+            "text": "    protected, replacements = protect_code_regions(body)"
+          },
+          {
+            "lineNumber": 186
+          },
+          {
+            "lineNumber": 187,
+            "text": "    def repl(match: re.Match[str]) -\u003e str:"
+          },
+          {
+            "lineNumber": 188,
+            "text": "        target = match.group(1).strip()"
+          },
+          {
+            "lineNumber": 189,
+            "text": "        anchor = (match.group(2) or \"\").strip()"
+          },
+          {
+            "lineNumber": 190,
+            "text": "        suffix = f\"#{anchor}\" if anchor else \"\""
+          },
+          {
+            "lineNumber": 191,
+            "text": "        hit = resolve_target(target, by_key)"
+          },
+          {
+            "lineNumber": 192,
+            "text": "        if hit and hit.utility:"
+          },
+          {
+            "lineNumber": 193,
+            "text": "            return f\"[{hit.title}]({hit.resource})\""
+          },
+          {
+            "lineNumber": 194,
+            "text": "        if hit:"
+          },
+          {
+            "lineNumber": 195,
+            "text": "            return f\"[{hit.title}]({okf_link_path(hit)}{suffix})\""
+          },
+          {
+            "lineNumber": 196,
+            "text": "        if \" \" in target or (target[:1].isupper() if target else False):"
+          },
+          {
+            "lineNumber": 197,
+            "text": "            return f\"[{target}](/concepts/{slugify(target)}.md{suffix})\""
+          },
+          {
+            "lineNumber": 198,
+            "text": "        return match.group(0)"
+          },
+          {
+            "lineNumber": 199
+          },
+          {
+            "lineNumber": 200,
+            "text": "    rewritten = WIKILINK_RE.sub(repl, protected)"
+          },
+          {
+            "isSignature": true,
+            "lineNumber": 201,
+            "text": "    return restore_code_regions(rewritten, replacements)"
+          },
+          {
+            "lineNumber": 202
+          },
+          {
+            "lineNumber": 203
+          },
+          {
+            "isSignature": true,
+            "lineNumber": 204,
+            "text": "def yaml_frontmatter(fields: dict[str, object]) -\u003e str:"
+          },
+          {
+            "lineNumber": 205,
+            "text": "    lines = [\"---\"]"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 220
+          },
+          "startPosition": {
+            "column": 15,
+            "line": 180
+          }
+        },
+        "relativeWorkspacePath": "./scripts/export-okf-bundle.py",
+        "signatures": {}
+      },
+      "score": 0.31293320655822754
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 1,
+            "text": "{{- /*"
+          },
+          {
+            "lineNumber": 2,
+            "text": "  Scan garden notes for link and structure issues."
+          },
+          {
+            "lineNumber": 3,
+            "text": "  Returns dict:"
+          },
+          {
+            "lineNumber": 4,
+            "text": "    byPath — map File.Path → { broken, pipe, unlinked, structure, total }"
+          },
+          {
+            "lineNumber": 5,
+            "text": "    notes — slice of { Page, broken, pipe, unlinked, structure, total }"
+          },
+          {
+            "lineNumber": 6,
+            "text": "    brokenCount, pipeCount, unlinkedCount, structureCount, notesWithIssues"
+          },
+          {
+            "lineNumber": 7,
+            "text": "*/ -}}"
+          },
+          {
+            "lineNumber": 8,
+            "text": "{{- $registry := partialCached \"notes/link-registry.html\" site \"notes-registry-v2\" -}}"
+          },
+          {
+            "lineNumber": 9,
+            "text": "{{- $gardenNotes := partial \"notes/pages.html\" (dict) -}}"
+          },
+          {
+            "lineNumber": 10,
+            "text": "{{- $minLen := site.Params.notes.unlinked_min_length | default 6 | int -}}"
+          },
+          {
+            "lineNumber": 11,
+            "text": "{{- $byPath := dict -}}"
+          },
+          {
+            "lineNumber": 12,
+            "text": "{{- $allNotes := slice -}}"
+          },
+          {
+            "lineNumber": 13,
+            "text": "{{- $brokenCount := 0 -}}"
+          },
+          {
+            "lineNumber": 14,
+            "text": "{{- $pipeCount := 0 -}}"
+          },
+          {
+            "lineNumber": 15,
+            "text": "{{- $unlinkedCount := 0 -}}"
+          },
+          {
+            "lineNumber": 16,
+            "text": "{{- $structureCount := 0 -}}"
+          },
+          {
+            "lineNumber": 17
+          },
+          {
+            "lineNumber": 18,
+            "text": "{{- range $gardenNotes -}}"
+          },
+          {
+            "lineNumber": 19,
+            "text": "  {{- $note := . -}}"
+          },
+          {
+            "lineNumber": 20,
+            "text": "  {{- $path := $note.File.Path -}}"
+          },
+          {
+            "lineNumber": 21,
+            "text": "  {{- $raw := $note.RawContent -}}"
+          },
+          {
+            "lineNumber": 22,
+            "text": "  {{- $fence := \"&#96;&#96;&#96;\" -}}"
+          },
+          {
+            "lineNumber": 23,
+            "text": "  {{- $tick := \"&#96;\" -}}"
+          },
+          {
+            "lineNumber": 24,
+            "text": "  {{- $raw = replaceRE (printf \"(?s)%s[\\\\s\\\\S]*?%s\" $fence $fence) \"\" $raw -}}"
+          },
+          {
+            "lineNumber": 25,
+            "text": "  {{- $raw = replaceRE (printf \"%s[^%s\\\\n]+%s\" $tick $tick $tick) \"\" $raw -}}"
+          },
+          {
+            "lineNumber": 26,
+            "text": "  {{- $raw = replaceRE &#96;(?s)\u003ch2[^\u003e]*id=\"see-also\"[^\u003e]*\u003eSee also\u003c/h2\u003e.*$&#96; \"\" $raw -}}"
+          },
+          {
+            "lineNumber": 27,
+            "text": "  {{- $raw = replaceRE &#96;(?s)## See also.*$&#96; \"\" $raw -}}"
+          },
+          {
+            "lineNumber": 28
+          },
+          {
+            "lineNumber": 29,
+            "text": "  {{- $broken := slice -}}"
+          },
+          {
+            "lineNumber": 30,
+            "text": "  {{- $brokenKeys := dict -}}"
+          },
+          {
+            "lineNumber": 31,
+            "text": "  {{- $matches := findRE &#96;\\[\\[[^\\]|#]+(?:#[^\\]|]+)?\\]\\]&#96; $raw -}}"
+          },
+          {
+            "lineNumber": 32,
+            "text": "  {{- range $matches -}}"
+          },
+          {
+            "lineNumber": 33,
+            "text": "    {{- $inner := replaceRE &#96;^\\[\\[|\\]\\]$&#96; \"\" . -}}"
+          },
+          {
+            "lineNumber": 34,
+            "text": "    {{- $target := $inner -}}"
+          },
+          {
+            "lineNumber": 35,
+            "text": "    {{- if strings.Contains $target \"#\" -}}"
+          },
+          {
+            "lineNumber": 36,
+            "text": "      {{- $target = index (split $target \"#\") 0 | strings.TrimSpace -}}"
+          },
+          {
+            "lineNumber": 37,
+            "text": "    {{- end -}}"
+          },
+          {
+            "lineNumber": 38,
+            "text": "    {{- $target = replace $target \"\\u2019\" \"'\" -}}"
+          },
+          {
+            "lineNumber": 39,
+            "text": "    {{- $target = replace $target \"\\u2018\" \"'\" -}}"
+          },
+          {
+            "lineNumber": 40,
+            "text": "    {{- if not (index $registry.byKey (lower $target)) -}}"
+          },
+          {
+            "lineNumber": 41,
+            "text": "      {{- $key := lower $target -}}"
+          },
+          {
+            "lineNumber": 42,
+            "text": "      {{- if not (index $brokenKeys $key) -}}"
+          },
+          {
+            "lineNumber": 43,
+            "text": "        {{- $brokenKeys = merge $brokenKeys (dict $key true) -}}"
+          },
+          {
+            "lineNumber": 44,
+            "text": "        {{- $broken = $broken | append (dict \"target\" $target \"raw\" $inner) -}}"
+          },
+          {
+            "lineNumber": 45,
+            "text": "      {{- end -}}"
+          },
+          {
+            "lineNumber": 46,
+            "text": "    {{- end -}}"
+          },
+          {
+            "lineNumber": 47,
+            "text": "  {{- end -}}"
+          },
+          {
+            "lineNumber": 48
+          },
+          {
+            "lineNumber": 49,
+            "text": "  {{- $pipe := slice -}}"
+          },
+          {
+            "lineNumber": 50,
+            "text": "  {{- $pipeKeys := dict -}}"
+          },
+          {
+            "lineNumber": 51,
+            "text": "  {{- $pipeMatches := findRE &#96;\\[\\[[^\\]]+\\|[^\\]]+\\]\\]&#96; $raw -}}"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 51
+          },
+          "startPosition": {}
+        },
+        "relativeWorkspacePath": "./layouts/_partials/notes/collect-note-issues.html",
+        "signatures": {}
+      },
+      "score": 0.3104966878890991
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 17,
+            "text": "      \u003c/p\u003e"
+          },
+          {
+            "lineNumber": 18,
+            "text": "      \u003cul class=\"notes-issues__list mb-0 list-none space-y-2 p-0 text-sm\"\u003e"
+          },
+          {
+            "lineNumber": 19,
+            "text": "        {{- range $issues.broken -}}"
+          },
+          {
+            "lineNumber": 20,
+            "text": "          \u003cli class=\"notes-issues__item notes-issues__item--broken\"\u003e"
+          },
+          {
+            "lineNumber": 21,
+            "text": "            \u003cstrong\u003eMissing note:\u003c/strong\u003e"
+          },
+          {
+            "lineNumber": 22,
+            "text": "            wikilink \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e — no page matches this title, slug, or alias."
+          },
+          {
+            "lineNumber": 23,
+            "text": "          \u003c/li\u003e"
+          },
+          {
+            "lineNumber": 24,
+            "text": "        {{- end -}}"
+          },
+          {
+            "lineNumber": 25,
+            "text": "        {{- range $issues.pipe -}}"
+          },
+          {
+            "lineNumber": 26,
+            "text": "          \u003cli class=\"notes-issues__item notes-issues__item--pipe\"\u003e"
+          },
+          {
+            "lineNumber": 27,
+            "text": "            \u003cstrong\u003ePipe wikilink:\u003c/strong\u003e"
+          },
+          {
+            "lineNumber": 28,
+            "text": "            \u003ccode\u003e[[{{ .raw }}]]\u003c/code\u003e — use \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e only (no \u003ccode\u003e|label\u003c/code\u003e)."
+          },
+          {
+            "lineNumber": 29,
+            "text": "          \u003c/li\u003e"
+          },
+          {
+            "lineNumber": 30,
+            "text": "        {{- end -}}"
+          },
+          {
+            "lineNumber": 31,
+            "text": "        {{- range $issues.unlinked -}}"
+          },
+          {
+            "lineNumber": 32,
+            "text": "          \u003cli class=\"notes-issues__item notes-issues__item--unlinked\"\u003e"
+          },
+          {
+            "lineNumber": 33,
+            "text": "            \u003cstrong\u003eUnlinked mention:\u003c/strong\u003e"
+          },
+          {
+            "lineNumber": 34,
+            "text": "            \"{{ .mention }}\" in prose — link"
+          },
+          {
+            "lineNumber": 35,
+            "text": "            \u003ca class=\"text-accent no-underline hover:underline\" href=\"{{ .suggestPage.RelPermalink }}\"\u003e\u003ccode\u003e[[{{ .suggestTitle }}]]\u003c/code\u003e\u003c/a\u003e."
+          },
+          {
+            "lineNumber": 36,
+            "text": "          \u003c/li\u003e"
+          },
+          {
+            "lineNumber": 37,
+            "text": "        {{- end -}}"
+          },
+          {
+            "lineNumber": 38,
+            "text": "        {{- range $issues.structure -}}"
+          },
+          {
+            "lineNumber": 39,
+            "text": "          {{- if eq .type \"missingTable\" -}}"
+          },
+          {
+            "lineNumber": 40,
+            "text": "            "
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "column": 12,
+            "line": 39
+          },
+          "startPosition": {
+            "line": 16
+          }
+        },
+        "relativeWorkspacePath": "./layouts/_partials/notes/note-issues-panel.html",
+        "signatures": {}
+      },
+      "score": 0.3083069324493408
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "isSignature": true,
+            "lineNumber": 420,
+            "text": "def main() -\u003e None:"
+          },
+          {
+            "lineNumber": 421,
+            "text": "    for fname, aliases in ALIASES.items():"
+          },
+          {
+            "lineNumber": 422,
+            "text": "        path = NOTES / fname"
+          },
+          {
+            "lineNumber": 423,
+            "text": "        if path.exists():"
+          },
+          {
+            "lineNumber": 424,
+            "text": "            merge_aliases(path, aliases)"
+          },
+          {
+            "lineNumber": 425
+          },
+          {
+            "lineNumber": 426,
+            "text": "    for stub in STUBS:"
+          },
+          {
+            "lineNumber": 427,
+            "text": "        path = NOTES / f\"{stub['slug']}.md\""
+          },
+          {
+            "lineNumber": 428,
+            "text": "        if path.exists():"
+          },
+          {
+            "lineNumber": 429,
+            "text": "            print(f\"skip exists: {path.name}\")"
+          },
+          {
+            "lineNumber": 430,
+            "text": "            continue"
+          },
+          {
+            "lineNumber": 431,
+            "text": "        path.write_text(stub_markdown(stub), encoding=\"utf-8\")"
+          },
+          {
+            "isSignature": true,
+            "lineNumber": 432,
+            "text": "        print(f\"created: {path.name}\")"
+          },
+          {
+            "lineNumber": 433
+          },
+          {
+            "lineNumber": 434
+          },
+          {
+            "lineNumber": 435,
+            "text": "if __name__ == \"__main__\":"
+          },
+          {
+            "lineNumber": 436,
+            "text": "    main()"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "column": 10,
+            "line": 435
+          },
+          "startPosition": {
+            "column": 3,
+            "line": 416
+          }
+        },
+        "relativeWorkspacePath": "./scripts/resolve-note-link-issues.py",
+        "signatures": {}
+      },
+      "score": 0.30751049518585205
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 1,
+            "text": "{{- /*"
+          },
+          {
+            "lineNumber": 2,
+            "text": "  Typed relationship flags from note body (## Note Relationships table or prose)."
+          },
+          {
+            "lineNumber": 3,
+            "text": "  Returns dict: extends, contradicts, implements, alternative."
+          },
+          {
+            "lineNumber": 4,
+            "text": "  Hub/MOC pages use note_kind: index (not a row type)."
+          },
+          {
+            "lineNumber": 5,
+            "text": "*/ -}}"
+          },
+          {
+            "lineNumber": 6,
+            "text": "{{- $page := . -}}"
+          },
+          {
+            "lineNumber": 7,
+            "text": "{{- $raw := $page.RawContent -}}"
+          },
+          {
+            "lineNumber": 8,
+            "text": "{{- if strings.Contains $raw \"## See also\" -}}"
+          },
+          {
+            "lineNumber": 9,
+            "text": "  {{- $raw = index (split $raw \"## See also\") 0 -}}"
+          },
+          {
+            "lineNumber": 10,
+            "text": "{{- end -}}"
+          },
+          {
+            "lineNumber": 11,
+            "text": "{{- $wikilink := &#96;\\[\\[[^\\]]+\\]\\]&#96; -}}"
+          },
+          {
+            "lineNumber": 12,
+            "text": "{{- $row := &#96;(?im)^\\|\\s*%s\\s*\\|&#96; -}}"
+          },
+          {
+            "lineNumber": 13,
+            "text": "{{- return (dict"
+          },
+          {
+            "lineNumber": 14,
+            "text": "  \"extends\" (or"
+          },
+          {
+            "lineNumber": 15,
+            "text": "    (gt (len (findRE (printf $row \"extends\") $raw)) 0)"
+          },
+          {
+            "lineNumber": 16,
+            "text": "    (gt (len (findRE (printf &#96;(?is)\\bextends\\b[^[\\n]{0,120}%s&#96; $wikilink) $raw)) 0))"
+          },
+          {
+            "lineNumber": 17,
+            "text": "  \"contradicts\" (or"
+          },
+          {
+            "lineNumber": 18,
+            "text": "    (gt (len (findRE (printf $row \"contradicts\") $raw)) 0)"
+          },
+          {
+            "lineNumber": 19,
+            "text": "    (gt (len (findRE (printf &#96;(?is)\\bcontradicts\\b[^[\\n]{0,120}%s&#96; $wikilink) $raw)) 0))"
+          },
+          {
+            "lineNumber": 20,
+            "text": "  \"implements\" (or"
+          },
+          {
+            "lineNumber": 21,
+            "text": "    (gt (len (findRE (printf $row \"implements\") $raw)) 0)"
+          },
+          {
+            "lineNumber": 22,
+            "text": "    (gt (len (findRE (printf &#96;(?is)\\bimplements\\b[^[\\n]{0,120}%s&#96; $wikilink) $raw)) 0))"
+          },
+          {
+            "lineNumber": 23,
+            "text": "  \"alternative\" (or"
+          },
+          {
+            "lineNumber": 24,
+            "text": "    (gt (len (findRE (printf $row \"alternative\") $raw)) 0)"
+          },
+          {
+            "lineNumber": 25,
+            "text": "    (gt (len (findRE (printf &#96;(?is)\\balternative\\b[^[\\n]{0,120}%s&#96; $wikilink) $raw)) 0))"
+          },
+          {
+            "lineNumber": 26,
+            "text": ") -}}"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 26
+          },
+          "startPosition": {}
+        },
+        "relativeWorkspacePath": "./layouts/_partials/notes/relationship-types.html",
+        "signatures": {}
+      },
+      "score": 0.3061889410018921
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 1,
+            "text": "{{- /*"
+          },
+          {
+            "lineNumber": 2,
+            "text": "  Build-time lint: warnf for broken wikilinks and unlinked mentions."
+          },
+          {
+            "lineNumber": 3,
+            "text": "  Uses collect-note-issues.html; errorf when strict flags are set."
+          },
+          {
+            "lineNumber": 4,
+            "text": "*/ -}}"
+          },
+          {
+            "lineNumber": 5,
+            "text": "{{- $data := partialCached \"notes/collect-note-issues.html\" site \"note-issues-v7\" -}}"
+          },
+          {
+            "lineNumber": 6,
+            "text": "{{- $strictLinks := site.Params.notes.strict_wikilinks | default false -}}"
+          },
+          {
+            "lineNumber": 7,
+            "text": "{{- $strictUnlinked := site.Params.notes.strict_unlinked | default false -}}"
+          },
+          {
+            "lineNumber": 8
+          },
+          {
+            "lineNumber": 9,
+            "text": "{{- range $data.notes -}}"
+          },
+          {
+            "lineNumber": 10,
+            "text": "  {{- $note := .Page -}}"
+          },
+          {
+            "lineNumber": 11,
+            "text": "  {{- range .broken -}}"
+          },
+          {
+            "lineNumber": 12,
+            "text": "    {{- $msg := printf \"broken wikilink [[%s]] in %s\" .target $note.File.Path -}}"
+          },
+          {
+            "lineNumber": 13,
+            "text": "    {{- if $strictLinks -}}"
+          },
+          {
+            "lineNumber": 14,
+            "text": "      {{- errorf $msg -}}"
+          },
+          {
+            "lineNumber": 15,
+            "text": "    {{- else -}}"
+          },
+          {
+            "lineNumber": 16,
+            "text": "      {{- warnf $msg -}}"
+          },
+          {
+            "lineNumber": 17,
+            "text": "    {{- end -}}"
+          },
+          {
+            "lineNumber": 18,
+            "text": "  {{- end -}}"
+          },
+          {
+            "lineNumber": 19,
+            "text": "  {{- range .pipe -}}"
+          },
+          {
+            "lineNumber": 20,
+            "text": "    {{- $msg := printf \"pipe wikilink [[%s]] in %s — use [[%s]] only\" .raw $note.File.Path .target -}}"
+          },
+          {
+            "lineNumber": 21,
+            "text": "    {{- if $strictLinks -}}"
+          },
+          {
+            "lineNumber": 22,
+            "text": "      {{- errorf $msg -}}"
+          },
+          {
+            "lineNumber": 23,
+            "text": "    {{- else -}}"
+          },
+          {
+            "lineNumber": 24,
+            "text": "      {{- warnf $msg -}}"
+          },
+          {
+            "lineNumber": 25,
+            "text": "    {{- end -}}"
+          },
+          {
+            "lineNumber": 26,
+            "text": "  {{- end -}}"
+          },
+          {
+            "lineNumber": 27,
+            "text": "  {{- range .unlinked -}}"
+          },
+          {
+            "lineNumber": 28,
+            "text": "    {{- $msg := printf \"unlinked mention of %q (→ [[%s]]) in %s\" .mention .suggestTitle $note.File.Path -}}"
+          },
+          {
+            "lineNumber": 29,
+            "text": "    {{- if $strictUnlinked -}}"
+          },
+          {
+            "lineNumber": 30,
+            "text": "      {{- errorf $msg -}}"
+          },
+          {
+            "lineNumber": 31,
+            "text": "    {{- else -}}"
+          },
+          {
+            "lineNumber": 32,
+            "text": "      {{- warnf $msg -}}"
+          },
+          {
+            "lineNumber": 33,
+            "text": "    {{- end -}}"
+          },
+          {
+            "lineNumber": 34,
+            "text": "  {{- end -}}"
+          },
+          {
+            "lineNumber": 35,
+            "text": "{{- end -}}"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 35
+          },
+          "startPosition": {}
+        },
+        "relativeWorkspacePath": "./layouts/_partials/notes/lint-note-issues.html",
+        "signatures": {}
+      },
+      "score": 0.3042756915092468
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 80,
+            "text": "            \u003c/div\u003e"
+          },
+          {
+            "lineNumber": 81,
+            "text": "          \u003c/div\u003e"
+          },
+          {
+            "lineNumber": 82
+          },
+          {
+            "lineNumber": 83,
+            "text": "          \u003cdiv class=\"row notes-grid\" data-notes-grid\u003e"
+          },
+          {
+            "lineNumber": 84,
+            "text": "            {{ range $notes }}"
+          },
+          {
+            "lineNumber": 85,
+            "text": "              {{- $rels := partial \"notes/relationship-types.html\" . -}}"
+          },
+          {
+            "lineNumber": 86,
+            "text": "              {{- $searchBits := slice .Title (.Description | default \"\") -}}"
+          },
+          {
+            "lineNumber": 87,
+            "text": "              {{- range (.Params.tags | default slice) -}}"
+          },
+          {
+            "lineNumber": 88,
+            "text": "                {{- $searchBits = $searchBits | append . -}}"
+          },
+          {
+            "lineNumber": 89,
+            "text": "              {{- end -}}"
+          },
+          {
+            "lineNumber": 90,
+            "text": "              {{- range (.Params.aliases | default slice) -}}"
+          },
+          {
+            "lineNumber": 91,
+            "text": "                {{- $searchBits = $searchBits | append . -}}"
+          },
+          {
+            "lineNumber": 92,
+            "text": "              {{- end -}}"
+          },
+          {
+            "lineNumber": 93,
+            "text": "              {{- $tagSlugs := slice -}}"
+          },
+          {
+            "lineNumber": 94,
+            "text": "              {{- range (.Params.tags | default slice) -}}"
+          },
+          {
+            "lineNumber": 95,
+            "text": "                {{- $tagSlugs = $tagSlugs | append (. | urlize) -}}"
+          },
+          {
+            "lineNumber": 96,
+            "text": "              {{- end -}}"
+          },
+          {
+            "lineNumber": 97,
+            "text": "              {{- $categorySlugs := slice -}}"
+          },
+          {
+            "lineNumber": 98,
+            "text": "              {{- range (.Params.categories | default slice) -}}"
+          },
+          {
+            "lineNumber": 99,
+            "text": "                {{- $categorySlugs = $categorySlugs | append (. | urlize) -}}"
+          },
+          {
+            "lineNumber": 100,
+            "text": "              {{- end -}}"
+          },
+          {
+            "lineNumber": 101,
+            "text": "              \u003cdiv"
+          },
+          {
+            "lineNumber": 102,
+            "text": "                class=\"md:col-6 mb-8 flex notes-grid-item\""
+          },
+          {
+            "lineNumber": 103,
+            "text": "                data-note-tags=\"{{ delimit $tagSlugs \" \" }}\""
+          },
+          {
+            "lineNumber": 104,
+            "text": "                data-note-categories=\"{{ delimit $categorySlugs \" \" }}\""
+          },
+          {
+            "lineNumber": 105,
+            "text": "                data-note-rel-extends=\"{{ $rels.extends }}\""
+          },
+          {
+            "lineNumber": 106,
+            "text": "                data-note-rel-contradicts=\"{{ $rels.contradicts }}\""
+          },
+          {
+            "lineNumber": 107,
+            "text": "                data-note-rel-implements=\"{{ $rels.implements }}\""
+          },
+          {
+            "lineNumber": 108,
+            "text": "                data-note-rel-alternative=\"{{ $rels.alternative }}\""
+          },
+          {
+            "lineNumber": 109,
+            "text": "                data-note-rel-index=\"{{ partial \"notes/is-index-page.html\" . }}\""
+          },
+          {
+            "lineNumber": 110,
+            "text": "                data-note-search=\"{{ delimit $searchBits \" \" | lower }}\"\u003e"
+          },
+          {
+            "lineNumber": 111,
+            "text": "                {{ partial \"notes/note-card.html\" (dict"
+          },
+          {
+            "lineNumber": 112,
+            "text": "                  \"Page\" ."
+          },
+          {
+            "lineNumber": 113,
+            "text": "                  \"HeadingLevel\" 2"
+          },
+          {
+            "lineNumber": 114,
+            "text": "                  \"HeadingClass\" \"h5\""
+          },
+          {
+            "lineNumber": 115,
+            "text": "                  \"HeadingExtraClass\" \"text-ink\""
+          },
+          {
+            "lineNumber": 116,
+            "text": "                  \"ShowDescription\" true"
+          },
+          {
+            "lineNumber": 117,
+            "text": "                  \"ShowTags\" true"
+          },
+          {
+            "lineNumber": 118,
+            "text": "                ) }}"
+          },
+          {
+            "lineNumber": 119,
+            "text": "              \u003c/div\u003e"
+          },
+          {
+            "lineNumber": 120,
+            "text": "            {{ end }}"
+          },
+          {
+            "lineNumber": 121,
+            "text": "          \u003c/div\u003e"
+          },
+          {
+            "lineNumber": 122
+          },
+          {
+            "lineNumber": 123,
+            "text": "          \u003cp class=\"notes-filter-empty text-ink-muted hidden text-sm\" data-notes-filter-empty\u003e"
+          },
+          {
+            "lineNumber": 124,
+            "text": "            No notes match this filter."
+          },
+          {
+            "lineNumber": 125,
+            "text": "          \u003c/p\u003e"
+          },
+          {
+            "lineNumber": 126,
+            "text": "        \u003c/div\u003e"
+          },
+          {
+            "lineNumber": 127,
+            "text": "      \u003c/div\u003e"
+          },
+          {
+            "lineNumber": 128,
+            "text": "    \u003c/div\u003e"
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "line": 128
+          },
+          "startPosition": {
+            "line": 79
+          }
+        },
+        "relativeWorkspacePath": "./layouts/notes/list.html",
+        "signatures": {}
+      },
+      "score": 0.299474835395813
+    },
+    {
+      "codeBlock": {
+        "detailedLines": [
+          {
+            "lineNumber": 42,
+            "text": "          {{- if gt $data.notesWithIssues 0 -}}"
+          },
+          {
+            "lineNumber": 43,
+            "text": "            \u003cdiv class=\"notes-issues-index space-y-6\"\u003e"
+          },
+          {
+            "lineNumber": 44,
+            "text": "              {{- range $notes -}}"
+          },
+          {
+            "lineNumber": 45,
+            "text": "                {{- $note := .Page -}}"
+          },
+          {
+            "lineNumber": 46,
+            "text": "                \u003csection class=\"notes-issues-group border-divider rounded border p-5\" id=\"{{ $note.File.ContentBaseName }}\"\u003e"
+          },
+          {
+            "lineNumber": 47,
+            "text": "                  \u003ch2 class=\"h6 mb-3\"\u003e"
+          },
+          {
+            "lineNumber": 48,
+            "text": "                    \u003ca class=\"text-accent no-underline hover:underline\" href=\"{{ $note.RelPermalink }}\"\u003e{{ $note.Title }}\u003c/a\u003e"
+          },
+          {
+            "lineNumber": 49,
+            "text": "                    \u003cspan class=\"text-ink-muted font-normal\"\u003e({{ .total }})\u003c/span\u003e"
+          },
+          {
+            "lineNumber": 50,
+            "text": "                  \u003c/h2\u003e"
+          },
+          {
+            "lineNumber": 51,
+            "text": "                  \u003cul class=\"notes-issues__list mb-0 list-none space-y-2 p-0 text-sm\"\u003e"
+          },
+          {
+            "lineNumber": 52,
+            "text": "                    {{- range .broken -}}"
+          },
+          {
+            "lineNumber": 53,
+            "text": "                      \u003cli class=\"notes-issues__item notes-issues__item--broken\"\u003e"
+          },
+          {
+            "lineNumber": 54,
+            "text": "                        \u003cstrong\u003eMissing note:\u003c/strong\u003e"
+          },
+          {
+            "lineNumber": 55,
+            "text": "                        \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e — no matching page."
+          },
+          {
+            "lineNumber": 56,
+            "text": "                      \u003c/li\u003e"
+          },
+          {
+            "lineNumber": 57,
+            "text": "                    {{- end -}}"
+          },
+          {
+            "lineNumber": 58,
+            "text": "                    {{- range .pipe -}}"
+          },
+          {
+            "lineNumber": 59,
+            "text": "                      \u003cli class=\"notes-issues__item notes-issues__item--pipe\"\u003e"
+          },
+          {
+            "lineNumber": 60,
+            "text": "                        \u003cstrong\u003ePipe wikilink:\u003c/strong\u003e"
+          },
+          {
+            "lineNumber": 61,
+            "text": "                        \u003ccode\u003e[[{{ .raw }}]]\u003c/code\u003e — use \u003ccode\u003e[[{{ .target }}]]\u003c/code\u003e only (no \u003ccode\u003e|label\u003c/code\u003e)."
+          },
+          {
+            "lineNumber": 62,
+            "text": "                      \u003c/li\u003e"
+          },
+          {
+            "lineNumber": 63,
+            "text": "                    {{- end -}}"
+          },
+          {
+            "lineNumber": 64,
+            "text": "                    {{- range .unlinked -}}"
+          },
+          {
+            "lineNumber": 65,
+            "text": "                      \u003cli class=\"notes-issues__item notes-issues__item--unlinked\"\u003e"
+          },
+          {
+            "lineNumber": 66,
+            "text": "                        \u003cstrong\u003eUnlinked mention:\u003c/strong\u003e"
+          },
+          {
+            "lineNumber": 67,
+            "text": "                        \"{{ .mention }}\" →"
+          },
+          {
+            "lineNumber": 68,
+            "text": "                        \u003ca class=\"text-accent no-underline hover:underline\" href=\"{{ .suggestPage.RelPermalink }}\"\u003e\u003ccode\u003e[[{{ .suggestTitle }}]]\u003c/code\u003e\u003c/a\u003e"
+          },
+          {
+            "lineNumber": 69,
+            "text": "                      \u003c/li\u003e"
+          },
+          {
+            "lineNumber": 70,
+            "text": "                    {{- end -}}"
+          },
+          {
+            "lineNumber": 71,
+            "text": "                    {{- range .structure -}}"
+          },
+          {
+            "lineNumber": 72,
+            "text": "                      {{- if eq .type \"missingTable\" -}}"
+          },
+          {
+            "lineNumber": 73,
+            "text": "                        "
+          }
+        ],
+        "range": {
+          "endPosition": {
+            "column": 24,
+            "line": 72
+          },
+          "startPosition": {
+            "line": 41
+          }
+        },
+        "relativeWorkspacePath": "./layouts/notes/issues.html",
+        "signatures": {}
+      },
+      "score": 0.29104483127593994
+    }
+  ]
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="semantic_search_full"><details>
+<summary>Tool use: **semantic_search_full**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/notes/**/*.html",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "aliases|alias"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "aliases|alias",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/collect-note-issues.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/note-issues-panel.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/link-registry.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/graph-data.html"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Aliases are case-insensitive. The link registry lowercases all keys before storing them.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md",
+  "pattern": "alias|case"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/getting-started.md",
+  "pattern": "alias|case",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/getting-started.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-trusted-inbox.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Wikilink resolution is case-insensitive.</details></think>
+
+_**Agent (default)**_
+
+No — **wikilink matching is case-insensitive**.
+
+The link registry lowercases every lookup key (title, slug, filename, and aliases) when building the index:
+
+```19:20:layouts/_partials/notes/link-registry.html
+  {{- range $keys -}}
+    {{- $byKey = merge $byKey (dict (lower .) $page) -}}
+```
+
+Resolution does the same with whatever you type in the link:
+
+```13:14:layouts/_partials/notes/resolve-target.html
+{{- $registry := partialCached "notes/link-registry.html" site "notes-registry-v2" -}}
+{{- $page := index $registry.byKey (lower $raw) -}}
+```
+
+So for `the-trusted-inbox.md` with:
+
+```yaml
+aliases: ["Trusted Inbox"]
+```
+
+all of these work:
+
+- `[[Trusted Inbox]]`
+- `[[trusted inbox]]`
+- `[[TRUSTED INBOX]]`
+
+You can keep the casing you want in frontmatter for readability. What matters for linking is the text, not the case.
+
+**Caveats:**
+
+- The link label is whatever you write in markdown — it is not auto-normalized to the note title.
+- Two aliases that differ only by case would collide (last one wins); avoid that.
+- Unlinked-mention lint treats multi-word names like “Trusted Inbox” case-insensitively; single-word aliases are stricter.
+
+---
+
+_**User**_
+
+Building a Second Brain
+Created Jun 22, 2026 · Updated Jun 27, 2026
+can we add time?
+
+---
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Adding time to the Created and Updated date displays on note pages.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,js}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Created|Updated|file-dates|Format.*Jan"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Created|Updated|file-dates|Format.*Jan",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/assets/plugins/swiper/swiper-bundle.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/single.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/file-dates.html"
+    },
+    {
+      "matchCount": 4,
+      "uri": "layouts/_partials/notes/note-meta.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "themes/jorap/assets/plugins/swiper/swiper-bundle.js"
+    },
+    {
+      "matchCount": 3,
+      "uri": "layouts/_partials/notes/recent-updated.html"
+    }
+  ],
+  "totalFiles": 6,
+  "totalMatches": 16
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/file-dates.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/noteFileDates.js</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The data already contains full ISO timestamps with time included.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "timezone|timeZone"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "timezone|timeZone",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_03-18-44Z-changelog-update-request.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-02_15-02-29Z-best-practices-for-media-images-in-sveltia-cms-and-hugo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-30_13-47-25Z-hugoplate-theme-article.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-22_07-06-09Z-content-consistency-between-local-and-live.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-05-10_06-27-45Z-system-update-process-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "hugo.toml"
+    },
+    {
+      "matchCount": 5,
+      "uri": "scripts/export-okf-bundle.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-18_17-06-01Z-impeccable-critique-discussion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/cli/config.toml"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/import-from-obsidian.py"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-19_04-46-28Z-notes-formatting-for-jorap-voice.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_17-25-41Z-alex-eala-tracker-renaming.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/hugo-template-guidance/references/page-configuration.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_08-12-04Z-eternal-principles-and-jesus'-teachings.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-30_14-10-04Z-button-styling-in-dark-mode.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-18_17-22-23Z-email-functionality-in-contact-us-form.md"
+    }
+  ],
+  "totalFiles": 17,
+  "totalMatches": 32
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-updated.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The site currently uses the Asia/Manila timezone.
+
+Hugo's `.Format` respects the site timezone. I'll add a date format to the note-meta.html partial or Hugo config to avoid duplicating the format string in two places.
+
+A dedicated partial is the cleanest minimal fix. Recent-updated uses raw file dates, so note-meta.html alone won't cover both spots. A tiny partial keeps the format string in one place without duplicating it across templates.
+
+The partial will take a time.Time value and return the formatted string. This covers both single.html and recent-updated.html without duplicating the format string.
+
+A one-line partial feels like overkill for Ponytail. Adding DisplayCreated and DisplayUpdated fields to the file-dates.html return dictionary is cleaner. This avoids duplicating the format string while keeping the change minimal.
+
+The simplest fix is to update the format strings directly in single.html and recent-updated.html. This avoids adding new fields to file-dates.html or note-meta.html.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{html,md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Format \\\"Jan 2, 2006\\\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Format \\\"Jan 2, 2006\\\"",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/single.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/recent-updated.html"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>

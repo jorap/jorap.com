@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["GTD", "PARA", "Productivity", "PKM", "Tiago Forte", "David Allen", "Second Brain", "Note Taking"]
 slug: "gtd-vs-para"
 featured: false
-status: evergreen
 draft: false
 aliases: ["GTD"]
 ---

@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Leadership", "Work", "Performance"]
 slug: "leadership"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

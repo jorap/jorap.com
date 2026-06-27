@@ -12,7 +12,6 @@ slug: "eternal-principles"
 featured: true
 draft: false
 aliases: ["Jesus teachings", "gospel principles"]
-status: evergreen
 ---
 **Eternal principles** = what Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first.
 

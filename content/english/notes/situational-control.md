@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Leadership", "Performance", "Negotiation"]
 slug: "situational-control"
 featured: false
-status: evergreen
 draft: false
 aliases: ["situation control"]
 ---

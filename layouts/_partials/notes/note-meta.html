@@ -1,31 +1,11 @@
 {{- /*
-  Note lifecycle helpers.
-  Returns dict: Status, StatusLabel, Created, Updated, IsStale, IsInbox, UpdatedAgeDays.
+  Note dates from file mtime (see file-dates.html).
+  Returns dict: Created, Updated.
 */ -}}
-{{- $page := . -}}
-{{- $status := $page.Params.status | default "seedling" -}}
-{{- $labels := dict
-  "seedling" "Seedling"
-  "evergreen" "Evergreen"
-  "inbox" "Inbox"
-  "archived" "Archived"
--}}
-{{- $statusLabel := index $labels $status | default (title $status) -}}
-{{- $dates := partial "notes/file-dates.html" $page -}}
-{{- $created := $dates.Created -}}
-{{- $updated := $dates.Updated -}}
-{{- $staleDays := site.Params.notes.stale_days | default 90 | int -}}
-{{- $cutoff := now.AddDate 0 0 (sub 0 $staleDays) -}}
-{{- $isStale := and (ne $status "archived") (ne $status "inbox") ($updated.Before $cutoff) -}}
-{{- $isInbox := eq $status "inbox" -}}
-{{- $ageDays := int (div (sub now.Unix $updated.Unix) 86400) -}}
-
+{{- $dates := partial "notes/file-dates.html" . -}}
 {{- return (dict
-  "Status" $status
-  "StatusLabel" $statusLabel
-  "Created" $created
-  "Updated" $updated
-  "IsStale" $isStale
-  "IsInbox" $isInbox
-  "UpdatedAgeDays" $ageDays
+  "Created" $dates.Created
+  "Updated" $dates.Updated
+  "CreatedDisplay" $dates.CreatedDisplay
+  "UpdatedDisplay" $dates.UpdatedDisplay
 ) -}}

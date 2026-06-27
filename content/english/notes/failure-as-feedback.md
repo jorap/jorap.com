@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Learning", "Mindset", "Performance"]
 slug: "failure-as-feedback"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

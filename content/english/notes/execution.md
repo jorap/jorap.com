@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Performance", "Work", "Productivity"]
 slug: "execution"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

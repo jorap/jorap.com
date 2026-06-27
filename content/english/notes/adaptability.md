@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Performance", "Thinking", "Career"]
 slug: "adaptability"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

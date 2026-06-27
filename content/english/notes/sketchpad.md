@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["PKM", "Digital Garden"]
 slug: "sketchpad"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

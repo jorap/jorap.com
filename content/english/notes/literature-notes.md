@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["PKM", "Note Taking", "Research"]
 slug: "literature-notes"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

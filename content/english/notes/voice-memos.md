@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["PKM", "Capture"]
 slug: "voice-memos"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

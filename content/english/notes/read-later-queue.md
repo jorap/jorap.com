@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["PKM", "Capture"]
 slug: "read-later-queue"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

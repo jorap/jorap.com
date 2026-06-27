@@ -12,7 +12,6 @@ slug: "systems-for-growth"
 featured: false
 draft: false
 aliases: ["growth systems", "systems for growth"]
-status: evergreen
 ---
 **Systems for growth** = the loops you build on purpose - habits, feedback, review, recovery - so skill compounds when motivation doesn't show up.
 

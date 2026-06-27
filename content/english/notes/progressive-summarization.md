@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Progressive Summarization", "Tiago Forte", "PKM", "Distill", "Note Taking", "CODE Method", "Research", "Writing"]
 slug: "progressive-summarization"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

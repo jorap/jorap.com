@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Safety", "Systems Thinking"]
 slug: "risk-management"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

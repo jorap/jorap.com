@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Personal API", "PKM", "Automation", "Second Brain", "AI", "Knowledge Management", "Static Site Generator", "Documentation", "Future of PKM", "Trends", "Tools"]
 slug: "building-a-personal-api"
 featured: false
-status: evergreen
 draft: false
 aliases: ["Future of PKM", "The Future of PKM"]
 ---

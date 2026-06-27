@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Workplace", "Ethics", "Communication", "Eternal Principles", "Integrity"]
 slug: "plain-commitments-at-work"
 featured: false
-status: evergreen
 draft: false
 aliases: ["yes means yes at work"]
 ---

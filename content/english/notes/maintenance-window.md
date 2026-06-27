@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["PKM", "Review"]
 slug: "maintenance-window"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

@@ -152,7 +152,6 @@
       "   tags: [...]",
       "   slug: \"kebab-case-slug\"",
       "   featured: false",
-      "   status: seedling",
       "   draft: false",
       "   aliases: []",
       "   ---",

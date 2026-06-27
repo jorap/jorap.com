@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Analog", "Capture", "Note Taking", "Bullet Journal", "PKM", "Productivity"]
 slug: "analog-capture-tools"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

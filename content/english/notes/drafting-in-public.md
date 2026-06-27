@@ -10,7 +10,6 @@ author: "JoRap"
 tags: ["Drafting in Public", "Digital Garden", "Publishing", "PKM", "Writing", "Blogging", "Hugo", "Website Building"]
 slug: "drafting-in-public"
 featured: false
-status: evergreen
 draft: false
 aliases: ["Learning in Public"]
 ---

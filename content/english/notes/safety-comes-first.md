@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Relationships", "Safety", "Ethics", "Boundaries"]
 slug: "safety-comes-first"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

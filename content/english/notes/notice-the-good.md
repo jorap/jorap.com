@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Relationships", "Communication", "Habits"]
 slug: "notice-the-good"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

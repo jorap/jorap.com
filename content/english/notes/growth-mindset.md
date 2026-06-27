@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Learning", "Mindset", "Performance"]
 slug: "growth-mindset"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

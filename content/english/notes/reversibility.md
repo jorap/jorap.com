@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Decision Making", "Safety"]
 slug: "reversibility"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

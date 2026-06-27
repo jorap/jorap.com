@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["PKM", "Tools"]
 slug: "crdt"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

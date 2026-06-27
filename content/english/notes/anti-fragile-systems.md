@@ -10,7 +10,6 @@ author: "JoRap"
 tags: ["PKM", "Anti-Fragile", "Local First", "Productivity", "Note Taking", "Future Proofing", "Mindset"]
 slug: "anti-fragile-systems"
 featured: false
-status: evergreen
 draft: false
 aliases: ["anti fragile systems", "Antifragile", "Antifragility"]
 ---

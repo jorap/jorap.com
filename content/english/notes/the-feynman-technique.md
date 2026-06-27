@@ -10,7 +10,6 @@ author: "JoRap"
 tags: ["Feynman Technique", "Learning", "PKM", "Teaching", "Understanding", "Writing", "Note Taking"]
 slug: "the-feynman-technique"
 featured: false
-status: evergreen
 draft: false
 aliases: ["Feynman Technique", "Richard Feynman"]
 ---

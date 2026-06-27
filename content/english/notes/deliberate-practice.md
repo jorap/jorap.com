@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Learning", "Performance", "Habits"]
 slug: "deliberate-practice"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

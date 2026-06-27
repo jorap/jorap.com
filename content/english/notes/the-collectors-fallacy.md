@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Collectors Fallacy", "PKM", "Capture", "Learning", "Productivity", "Express", "Note Taking"]
 slug: "the-collectors-fallacy"
 featured: false
-status: evergreen
 review: true
 card_sets: ["Capture", "Focus"]
 cards:

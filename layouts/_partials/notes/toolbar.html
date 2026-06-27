@@ -10,7 +10,7 @@
     {{- if eq $active "list" -}}
       aria-current="page"
     {{- end -}}>
-    All<span class="notes-filter__count"> · {{ $noteCount }}</span>
+    All<span class="notes-filter__count"> | {{ $noteCount }}</span>
   </a>
   {{- if site.Params.notes.enable_graph -}}
     <a
@@ -28,7 +28,7 @@
     {{- if eq $active "issues" -}}
       aria-current="page"
     {{- end -}}>
-    Issues<span class="notes-filter__count"> · {{ $issueTotal }}</span>
+    Issues<span class="notes-filter__count"> | {{ $issueTotal }}</span>
   </a>
   <a
     class="btn btn-sm{{ if eq $active "backlinks" }} btn-primary{{ else }} btn-outline-primary{{ end }}"

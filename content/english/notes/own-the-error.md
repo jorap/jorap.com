@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Performance", "Accountability", "Integrity", "Leadership"]
 slug: "own-the-error"
 featured: false
-status: evergreen
 draft: false
 aliases: ["own your mistakes"]
 ---

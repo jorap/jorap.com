@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Leadership", "Performance", "Self-Control"]
 slug: "composure"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

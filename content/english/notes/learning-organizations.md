@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Leadership", "Continuous Improvement"]
 slug: "learning-organizations"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

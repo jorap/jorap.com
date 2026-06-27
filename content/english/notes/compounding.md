@@ -11,7 +11,6 @@ slug: "compounding"
 featured: false
 draft: false
 aliases: ["Compound Interest"]
-status: evergreen
 ---
 **Compounding** = repeat small gains until they stack - keep showing up; the curve looks flat until it doesn't.
 

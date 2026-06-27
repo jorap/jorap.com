@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Productivity", "Focus"]
 slug: "deep-work"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

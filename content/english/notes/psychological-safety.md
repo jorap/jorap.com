@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Leadership", "Safety", "Work"]
 slug: "psychological-safety"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

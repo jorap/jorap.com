@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Digital Minimalism", "PKM", "Productivity", "Focus", "Note Taking", "Tools", "Mindful Tech", "Information Diet"]
 slug: "digital-minimalism"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

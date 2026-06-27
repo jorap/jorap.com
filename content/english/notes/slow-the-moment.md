@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Performance", "Decision Making", "Self-Control", "Conflict"]
 slug: "slow-the-moment"
 featured: false
-status: evergreen
 draft: false
 aliases: ["pause before reacting"]
 ---

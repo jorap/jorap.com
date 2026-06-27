@@ -10,7 +10,6 @@ author: "JoRap"
 tags: ["Evergreen Notes", "Fleeting Notes", "PKM", "Note Taking", "Review"]
 slug: "evergreen-vs-fleeting-notes"
 featured: false
-status: evergreen
 draft: false
 aliases: ["Evergreen vs Fleeting", "Fleeting Notes"]
 ---

@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["PKM", "Tools"]
 slug: "webhooks"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

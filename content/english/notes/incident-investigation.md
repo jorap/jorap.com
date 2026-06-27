@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Safety", "Continuous Improvement"]
 slug: "incident-investigation"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

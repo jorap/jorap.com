@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Productivity", "Digital Minimalism"]
 slug: "attention-economy"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

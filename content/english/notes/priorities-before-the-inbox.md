@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Workplace", "Productivity", "Eternal Principles", "Priorities", "Focus"]
 slug: "priorities-before-the-inbox"
 featured: false
-status: evergreen
 draft: false
 aliases: ["real priority first"]
 ---

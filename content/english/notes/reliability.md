@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Performance", "Work", "Character"]
 slug: "reliability"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

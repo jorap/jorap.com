@@ -11,7 +11,6 @@ slug: "there-is-no-perfect-solution"
 featured: false
 draft: false
 aliases: ["No Perfect Solution"]
-status: evergreen
 ---
 Waiting for the perfect tool, plan, or answer feels responsible. It's often the nirvana fallacy. Faith parallel: [[Repent and Believe]] - the kingdom is at hand now, not when you've fixed yourself.
 

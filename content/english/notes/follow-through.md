@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Performance", "Work", "Accountability"]
 slug: "follow-through"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

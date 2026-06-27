@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["PKM", "Metadata"]
 slug: "taxonomy"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

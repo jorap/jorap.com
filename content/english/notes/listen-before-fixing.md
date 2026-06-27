@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Relationships", "Communication", "Listening"]
 slug: "listen-before-fixing"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

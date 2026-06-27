@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Safety", "Leadership", "Risk Management", "Learning", "Systems Thinking"]
 slug: "heed-every-near-miss"
 featured: false
-status: evergreen
 draft: false
 aliases: ["near miss investigation", "survival is not safety"]
 ---

@@ -10,7 +10,6 @@ author: "JoRap"
 tags: ["Digital Garden", "PKM", "Publishing", "Wiki", "Second Brain", "TiddlyWiki", "Hugo", "Static Site Generator", "Website Building", "Blogging"]
 slug: "digital-garden"
 featured: false
-status: evergreen
 draft: false
 aliases: ["Advantages of Digital Gardens", "Gardening Metaphor", "Work in Progress"]
 ---

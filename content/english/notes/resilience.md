@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Performance", "Mindset", "Character"]
 slug: "resilience"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

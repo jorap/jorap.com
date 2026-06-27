@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Mental Models", "Thinking"]
 slug: "elon-musk"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

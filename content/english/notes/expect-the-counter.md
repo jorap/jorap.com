@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Performance", "Strategy", "Thinking", "Competition"]
 slug: "expect-the-counter"
 featured: false
-status: evergreen
 draft: false
 aliases: ["plan the second move"]
 ---

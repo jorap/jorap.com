@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Mental Models", "Thinking", "Strategy"]
 slug: "second-order-thinking"
 featured: false
-status: evergreen
 draft: false
 aliases: ["second order effects"]
 ---

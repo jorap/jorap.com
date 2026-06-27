@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["PKM", "Linking", "Analytics", "Note Taking", "Graph", "Meta"]
 slug: "graph-view-analytics"
 featured: false
-status: evergreen
 draft: false
 ---
 Graph looks sci-fi. Mostly I use it to sort notes by link rank - top 20%, middle, bottom 20%, no body links, and orphans.

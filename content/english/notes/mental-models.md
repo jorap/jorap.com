@@ -11,7 +11,6 @@ slug: "mental-models"
 featured: false
 draft: false
 aliases: ["mental-models-list", "Mental Models List"]
-status: evergreen
 ---
 Mental models are shortcuts for thinking. I keep a short list of ones that survived contact with real decisions - not every model on Wikipedia.
 

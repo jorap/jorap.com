@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Habits", "Performance", "Systems Thinking"]
 slug: "habit-stacking"
 featured: false
-status: evergreen
 draft: false
 aliases: ["habit stack"]
 ---

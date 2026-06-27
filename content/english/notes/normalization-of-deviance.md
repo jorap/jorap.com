@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Safety", "Leadership"]
 slug: "normalization-of-deviance"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

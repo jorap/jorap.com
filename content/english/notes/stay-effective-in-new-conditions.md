@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Performance", "Adaptability", "Resilience", "Career"]
 slug: "stay-effective-in-new-conditions"
 featured: false
-status: evergreen
 draft: false
 aliases: ["effectiveness in new conditions"]
 ---

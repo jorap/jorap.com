@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Relationships", "Communication", "Emotional Regulation"]
 slug: "name-the-feeling"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Workplace", "Ethics", "Eternal Principles", "Integrity", "Character"]
 slug: "integrity-when-no-ones-watching"
 featured: false
-status: evergreen
 draft: false
 aliases: ["hidden integrity", "honest work offstage"]
 ---

@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Synthesis", "PKM", "Writing", "Research", "Second Brain", "Express", "Academic"]
 slug: "synthesis-as-a-goal"
 featured: false
-status: evergreen
 draft: false
 aliases: ["Research Notes", "note taking for researchers"]
 ---

@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Workplace", "Ethics", "Eternal Principles", "Forgiveness", "Conflict"]
 slug: "forgiveness-at-work"
 featured: false
-status: evergreen
 draft: false
 aliases: ["release the grudge at work"]
 ---

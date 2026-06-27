@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Workplace", "Leadership", "Eternal Principles", "Service", "Management"]
 slug: "servant-leadership"
 featured: false
-status: evergreen
 draft: false
 aliases: ["lead by serving"]
 ---

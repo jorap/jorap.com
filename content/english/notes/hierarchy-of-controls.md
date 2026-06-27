@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Safety", "Systems Thinking"]
 slug: "hierarchy-of-controls"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

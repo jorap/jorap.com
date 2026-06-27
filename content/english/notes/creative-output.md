@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Creative Output", "Express", "PKM", "Writing", "Second Brain", "Publishing", "Focus", "Distraction Free", "Markdown"]
 slug: "creative-output"
 featured: false
-status: evergreen
 draft: false
 aliases: ["Distraction-Free Writing", "distraction free writing"]
 ---

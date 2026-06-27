@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Productivity", "Planning"]
 slug: "quarterly-planning"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

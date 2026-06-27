@@ -10,7 +10,6 @@ author: "JoRap"
 tags: ["Performance", "Leadership", "Mental Models", "Habits", "MOC"]
 slug: "pressure-reveals-weakness"
 featured: false
-status: evergreen
 draft: false
 aliases: ["performance under pressure"]
 ---

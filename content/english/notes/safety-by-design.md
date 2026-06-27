@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Safety", "Systems Thinking"]
 slug: "safety-by-design"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

@@ -17,4 +17,13 @@
     {{- end -}}
   {{- end -}}
 {{- end -}}
-{{- return (dict "Created" $created "Updated" $updated) -}}
+{{- $fmt := "Jan 2, 2006, 3:04 PM" -}}
+{{- $tz := site.TimeZone | default "UTC" -}}
+{{- $createdLocal := $created.In $tz -}}
+{{- $updatedLocal := $updated.In $tz -}}
+{{- return (dict
+  "Created" $created
+  "Updated" $updated
+  "CreatedDisplay" ($createdLocal.Format $fmt)
+  "UpdatedDisplay" ($updatedLocal.Format $fmt)
+) -}}

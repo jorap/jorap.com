@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Productivity", "Projects"]
 slug: "lean-startup"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

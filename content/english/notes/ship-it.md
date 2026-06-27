@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Productivity", "Creative Output"]
 slug: "ship-it"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

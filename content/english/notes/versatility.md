@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Performance", "Career", "Adaptability"]
 slug: "versatility"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

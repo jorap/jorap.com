@@ -13,7 +13,6 @@ slug: "maps-of-content"
 featured: true
 draft: false
 aliases: ["MOC", "Table of Contents"]
-status: evergreen
 ---
 
 **Maps of Content (MOCs)** are hub notes that index related ideas. I use pages like this to wander the garden.

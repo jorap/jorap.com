@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Performance", "Health", "Leadership"]
 slug: "sustainable-performance"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

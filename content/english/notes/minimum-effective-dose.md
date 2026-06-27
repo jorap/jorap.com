@@ -11,7 +11,6 @@ slug: "minimum-effective-dose"
 featured: false
 draft: false
 aliases: ["MED"]
-status: evergreen
 ---
 **Minimum effective dose** = the smallest change that still moves the needle - not the heroic overhaul.
 

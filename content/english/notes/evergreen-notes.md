@@ -11,7 +11,6 @@ tags: ["Evergreen Notes", "PKM", "Note Taking", "Second Brain", "Writing", "Form
 slug: "evergreen-notes"
 featured: false
 aliases: ["Formatting for Readability", "Permanent Notes"]
-status: evergreen
 review: true
 card_sets: ["Writing", "Review"]
 cards:

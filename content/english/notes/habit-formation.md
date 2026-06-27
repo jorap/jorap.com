@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Habits", "Performance", "Productivity"]
 slug: "habit-formation"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

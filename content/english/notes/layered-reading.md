@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["PKM", "Learning"]
 slug: "layered-reading"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

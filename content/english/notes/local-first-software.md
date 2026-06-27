@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Local First", "PKM", "Sync", "Privacy", "Data Sovereignty", "Security", "E2EE", "Encryption", "Self-Hosting", "Note Taking", "Offline"]
 slug: "local-first-software"
 featured: false
-status: evergreen
 draft: false
 aliases: ["local first software", "Local First", "Privacy and Data Sovereignty", "Data Sovereignty", "E2EE", "E2EE Security"]
 ---

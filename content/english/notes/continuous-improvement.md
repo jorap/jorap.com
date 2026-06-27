@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Performance", "Habits", "Systems Thinking"]
 slug: "continuous-improvement"
 featured: false
-status: evergreen
 draft: false
 aliases: ["kaizen"]
 ---

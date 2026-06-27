@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Atomic Notes", "PKM", "Note Taking", "Second Brain", "Linking", "Information Architecture"]
 slug: "atomic-notes"
 aliases: ["atom", "Atomic Design for Notes", "Atomic Design"]
-status: evergreen
 review: true
 card_sets: ["Writing", "Linking"]
 cards:

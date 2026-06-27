@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Mental Models", "Decision Making"]
 slug: "behavioral-economics"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

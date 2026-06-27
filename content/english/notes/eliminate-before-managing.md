@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Safety", "Leadership", "Risk Management", "Coaching", "Ethics"]
 slug: "eliminate-before-managing"
 featured: false
-status: evergreen
 draft: false
 aliases: ["elimination before controls"]
 ---

@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["PKM", "Mobile"]
 slug: "share-sheet"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

@@ -63,42 +63,42 @@
               </div>
               <div class="notes-graph-filters" role="group" aria-label="Graph filters">
                 <button type="button" class="notes-graph-filter is-active" data-graph-filter="all" aria-pressed="true" aria-label="All notes — {{ len $graph.nodes }} notes, {{ len $graph.edges }} links">
-                  All<span class="notes-graph-filter__count"> · {{ len $graph.nodes }}<span class="notes-graph-filter__suffix"> notes</span> · {{ len $graph.edges }} links</span>
+                  All<span class="notes-graph-filter__count"> | {{ len $graph.nodes }}<span class="notes-graph-filter__suffix"> notes</span> | {{ len $graph.edges }} links</span>
                 </button>
                 <button type="button" class="notes-graph-filter" data-graph-filter="top" aria-pressed="false" aria-label="Top {{ $tailPct }} percent — {{ $tops }} notes">
-                  Top {{ $tailPct }}%<span class="notes-graph-filter__count notes-graph-filter__count--top"> · {{ $tops }}</span>
+                  Top {{ $tailPct }}%<span class="notes-graph-filter__count notes-graph-filter__count--top"> | {{ $tops }}</span>
                 </button>
                 <button type="button" class="notes-graph-filter" data-graph-filter="middle" aria-pressed="false" aria-label="Middle — {{ $middles }} notes">
-                  Middle<span class="notes-graph-filter__count notes-graph-filter__count--middle"> · {{ $middles }}</span>
+                  Middle<span class="notes-graph-filter__count notes-graph-filter__count--middle"> | {{ $middles }}</span>
                 </button>
                 <button type="button" class="notes-graph-filter" data-graph-filter="bottom" aria-pressed="false" aria-label="Bottom {{ $tailPct }} percent — {{ $bottoms }} notes">
-                  Bottom {{ $tailPct }}%<span class="notes-graph-filter__count notes-graph-filter__count--bottom"> · {{ $bottoms }}</span>
+                  Bottom {{ $tailPct }}%<span class="notes-graph-filter__count notes-graph-filter__count--bottom"> | {{ $bottoms }}</span>
                 </button>
                 <button type="button" class="notes-graph-filter" data-graph-filter="deadEnd" aria-pressed="false" aria-label="No body links — {{ $deadEnds }} notes with no wikilinks in the body">
-                  No Body<span class="notes-graph-filter__suffix"> Links</span><span class="notes-graph-filter__count"> · {{ $deadEnds }}</span>
+                  No Body<span class="notes-graph-filter__suffix"> Links</span><span class="notes-graph-filter__count"> | {{ $deadEnds }}</span>
                 </button>
                 <button type="button" class="notes-graph-filter" data-graph-filter="orphan" aria-pressed="false" aria-label="Orphans — {{ $orphans }} notes with no inbound links">
-                  Orphans<span class="notes-graph-filter__count notes-graph-filter__count--orphan"> · {{ $orphans }}</span>
+                  Orphans<span class="notes-graph-filter__count notes-graph-filter__count--orphan"> | {{ $orphans }}</span>
                 </button>
                 <button type="button" class="notes-graph-filter" data-graph-filter="hub" aria-pressed="false" aria-label="Hubs — {{ $hubs }} notes">
-                  Hubs<span class="notes-graph-filter__count"> · {{ $hubs }}</span>
+                  Hubs<span class="notes-graph-filter__count"> | {{ $hubs }}</span>
                 </button>
               </div>
               <div class="notes-graph-filters mt-2" role="group" aria-label="Relationship filters">
                 <button type="button" class="notes-graph-filter" data-graph-filter="relExtends" aria-pressed="false" aria-label="Extends — {{ $relExtends }} notes">
-                  Extends<span class="notes-graph-filter__count"> · {{ $relExtends }}</span>
+                  Extends<span class="notes-graph-filter__count"> | {{ $relExtends }}</span>
                 </button>
                 <button type="button" class="notes-graph-filter" data-graph-filter="relContradicts" aria-pressed="false" aria-label="Contradicts — {{ $relContradicts }} notes">
-                  Contradicts<span class="notes-graph-filter__count"> · {{ $relContradicts }}</span>
+                  Contradicts<span class="notes-graph-filter__count"> | {{ $relContradicts }}</span>
                 </button>
                 <button type="button" class="notes-graph-filter" data-graph-filter="relImplements" aria-pressed="false" aria-label="Implements — {{ $relImplements }} notes">
-                  Implements<span class="notes-graph-filter__count"> · {{ $relImplements }}</span>
+                  Implements<span class="notes-graph-filter__count"> | {{ $relImplements }}</span>
                 </button>
                 <button type="button" class="notes-graph-filter" data-graph-filter="relAlternative" aria-pressed="false" aria-label="Alternative — {{ $relAlternative }} notes">
-                  Alternative<span class="notes-graph-filter__count"> · {{ $relAlternative }}</span>
+                  Alternative<span class="notes-graph-filter__count"> | {{ $relAlternative }}</span>
                 </button>
                 <button type="button" class="notes-graph-filter" data-graph-filter="relIndex" aria-pressed="false" aria-label="Index — {{ $relIndex }} notes">
-                  Index<span class="notes-graph-filter__count"> · {{ $relIndex }}</span>
+                  Index<span class="notes-graph-filter__count"> | {{ $relIndex }}</span>
                 </button>
                 <button type="button" class="notes-graph-reset btn btn-outline-primary btn-sm">Reset view</button>
             </div>

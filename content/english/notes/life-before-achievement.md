@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Safety", "Leadership", "Ethics", "Coaching", "Duty of Care"]
 slug: "life-before-achievement"
 featured: false
-status: evergreen
 draft: false
 aliases: ["life over achievement", "no achievement justifies death risk"]
 ---

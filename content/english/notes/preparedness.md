@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Performance", "Systems Thinking", "Leadership"]
 slug: "preparedness"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

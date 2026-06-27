@@ -188,6 +188,25 @@ html.dark .content b {
   text-underline-offset: 2px;
 }
 
+/* Meta/utility intros often render as bare text (no <p>); inherit prose gray otherwise. */
+.content.notes-content {
+  color: var(--color-ink-muted);
+  font-size: 1rem;
+  line-height: 1.625;
+}
+
+.content.notes-content :is(strong, b) {
+  color: var(--color-ink);
+}
+
+.content.notes-content code {
+  color: var(--color-ink);
+  background: var(--color-elevated);
+  border-radius: 0.25rem;
+  padding: 0.125em 0.35em;
+  font-size: 0.875em;
+}
+
 .notes-content .wikilink-broken {
   color: var(--color-ink-muted);
   text-decoration: underline dotted;
@@ -659,6 +678,7 @@ body.notes-graph-present-open {
 .notes-graph-filter__count {
   color: var(--color-ink-muted);
   font-weight: 400;
+  margin-inline-start: 0.35em;
 }
 
 .notes-graph-filter.is-active .notes-graph-filter__count {
@@ -797,6 +817,7 @@ body.notes-graph-present-open {
 .notes-filter__count {
   color: var(--color-ink-muted);
   font-weight: 400;
+  margin-inline-start: 0.35em;
 }
 
 .notes-filter.is-active .notes-filter__count {
@@ -830,14 +851,6 @@ body.notes-graph-present-open {
   background: color-mix(in srgb, var(--color-accent) 8%, var(--color-surface));
 }
 
-.notes-filter-sep {
-  align-self: center;
-  width: 1px;
-  height: 1.25rem;
-  margin-inline: 0.1rem;
-  background: var(--color-divider);
-}
-
 @media (max-width: 639px) {
   .notes-list-refine__body {
     position: static;
@@ -848,35 +861,6 @@ body.notes-graph-present-open {
 .notes-toolbar .btn-primary .notes-filter__count {
   color: inherit;
   opacity: 0.85;
-}
-
-.notes-status {
-  border: 1px solid var(--color-divider);
-  background: var(--color-elevated);
-  color: var(--color-ink-muted);
-}
-
-.notes-status--seedling {
-  color: var(--color-warning);
-  border-color: color-mix(in srgb, var(--color-warning) 35%, var(--color-divider));
-}
-
-.notes-status--evergreen {
-  color: var(--color-success);
-  border-color: color-mix(in srgb, var(--color-success) 35%, var(--color-divider));
-}
-
-.notes-status--inbox {
-  color: var(--color-accent);
-  border-color: color-mix(in srgb, var(--color-accent) 45%, var(--color-divider));
-}
-
-.notes-status--archived {
-  opacity: 0.75;
-}
-
-.notes-status-stale {
-  font-weight: 500;
 }
 
 .notes-featured-random-panel {
@@ -926,10 +910,6 @@ body.notes-graph-present-open {
   margin-top: auto;
   font-size: 0.75rem;
   line-height: 1.35;
-}
-
-.notes-recent-stale {
-  font-weight: 500;
 }
 
 .notes-random-grid {

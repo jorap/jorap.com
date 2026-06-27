@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Learning", "Memory"]
 slug: "forgetting-curve"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

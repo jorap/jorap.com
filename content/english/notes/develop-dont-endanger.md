@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Safety", "Leadership", "Coaching", "Ethics", "Performance"]
 slug: "develop-dont-endanger"
 featured: false
-status: evergreen
 draft: false
 aliases: ["challenge without endangering"]
 ---

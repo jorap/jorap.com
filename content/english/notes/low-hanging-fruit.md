@@ -11,7 +11,6 @@ slug: "low-hanging-fruit"
 featured: false
 draft: false
 aliases: ["Low-Hanging Fruit"]
-status: evergreen
 ---
 **Low hanging fruit** = the easy win I can grab now - do it before I climb for the hard stuff.
 

@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["PKM", "Graph"]
 slug: "network-analysis"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

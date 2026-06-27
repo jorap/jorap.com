@@ -42,7 +42,6 @@ see_also_limit = 6
 strict_wikilinks = false
 strict_unlinked = false
 unlinked_min_length = 6
-stale_days = 90
 recent_limit = 12
 graph_tail_percentile = 20
 

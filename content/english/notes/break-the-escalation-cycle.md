@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Workplace", "Ethics", "Communication", "Eternal Principles", "Conflict"]
 slug: "break-the-escalation-cycle"
 featured: false
-status: evergreen
 draft: false
 aliases: ["de-escalate at work", "don't feed the reply-all war"]
 ---

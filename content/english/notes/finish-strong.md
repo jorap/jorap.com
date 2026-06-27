@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Performance", "Discipline", "Execution", "Habits"]
 slug: "finish-strong"
 featured: false
-status: evergreen
 draft: false
 aliases: ["finish what you start"]
 ---

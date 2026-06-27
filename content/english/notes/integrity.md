@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Character", "Ethics", "Work"]
 slug: "integrity"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

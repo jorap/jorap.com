@@ -9,7 +9,6 @@ categories: []
 author: "JoRap"
 tags: []
 aliases: []
-status: seedling
 review: false
 featured: false
 draft: true

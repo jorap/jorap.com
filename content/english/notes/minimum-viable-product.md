@@ -11,7 +11,6 @@ slug: "minimum-viable-product"
 featured: false
 draft: false
 aliases: ["MVP"]
-status: evergreen
 ---
 **Minimum viable product** = the smallest thing I can ship that tests the idea - not a polished fantasy.
 

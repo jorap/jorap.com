@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["PKM", "Note Taking"]
 slug: "commonplace-book"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---
@@ -19,7 +18,7 @@ aliases: []
 
 - Coach's old basketball playbook of sets and halftime talks - same job as my [[Capture]] file, paper instead of wikilinks.
 - A thrift-store find: a 1980s coach's playbook with handwritten margins - same job as my [[Capture]] file, paper instead of wikilinks.
-- Grandpa's notebook of sermon lines and recipes - quotes worth keeping before anyone had a digital garden.
+- Grandpa's notebook of sermon lines and recipes - quotes worth keeping before anyone had a [[digital garden]].
 - My mother-in-law's recipe card box with margin notes - a personal book of ideas worth keeping, ancestor of linked notes.
 
 ## Note Relationships

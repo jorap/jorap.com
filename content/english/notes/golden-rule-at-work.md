@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Workplace", "Ethics", "Leadership", "Eternal Principles", "Communication"]
 slug: "golden-rule-at-work"
 featured: false
-status: evergreen
 draft: false
 aliases: ["treat colleagues fairly", "reverse roles at work"]
 ---

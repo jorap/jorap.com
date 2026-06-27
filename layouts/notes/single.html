@@ -22,8 +22,7 @@
             {{- $meta := partial "notes/note-meta.html" . -}}
             {{- if ne (.Params.note_kind | default "note") "meta" -}}
               <div class="notes-single-meta text-ink-muted mb-4 flex flex-wrap items-center gap-3 text-sm">
-                {{ partial "notes/status-badge.html" (dict "Page" .) }}
-                <span>Created {{ $meta.Created.Format "Jan 2, 2006" }} · Updated {{ $meta.Updated.Format "Jan 2, 2006" }}</span>
+                <span>Created {{ $meta.CreatedDisplay }} · Updated {{ $meta.UpdatedDisplay }}</span>
               </div>
             {{- end -}}
 

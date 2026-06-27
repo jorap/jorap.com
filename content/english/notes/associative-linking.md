@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Linking", "PKM", "Note Taking", "Second Brain", "Digital Garden", "Graph", "Network"]
 slug: "associative-linking"
 featured: false
-status: evergreen
 review: true
 card_sets: ["Linking", "Writing"]
 cards:

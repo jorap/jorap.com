@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Second Brain", "Workflow", "CODE Method", "PARA", "PKM", "Productivity", "Hugo", "Tools", "Browser Tips", "Daily Routine", "Information Diet"]
 slug: "the-second-brain-workflow"
 featured: false
-status: evergreen
 draft: false
 aliases: ["Second Brain Workflow", "Second Brain Daily Workflow", "Daily Workflow"]
 ---

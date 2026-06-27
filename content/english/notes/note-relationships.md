@@ -10,7 +10,6 @@ author: "JoRap"
 tags: ["Linking", "PKM", "Note Taking", "Digital Garden", "Meta"]
 slug: "note-relationships"
 featured: false
-status: evergreen
 review: true
 card_sets: ["Linking", "Writing"]
 cards:

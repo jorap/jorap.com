@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Decision Making", "Thinking", "Performance"]
 slug: "decision-quality"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["PKM", "Productivity"]
 slug: "inbox-zero"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

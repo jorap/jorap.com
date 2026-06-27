@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["PKM", "Productivity", "GTD"]
 slug: "getting-things-done"
 featured: false
-status: seedling
 draft: false
 aliases: []
 ---

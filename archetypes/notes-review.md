@@ -9,7 +9,6 @@ author: "JoRap"
 tags: []
 slug: "{{ .Name }}"
 aliases: []
-status: evergreen
 featured: false
 review: true
 card_sets: ["Set Name"]

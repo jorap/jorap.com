@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Habits", "Performance", "Character"]
 slug: "self-control"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

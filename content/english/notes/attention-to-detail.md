@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Performance", "Work", "Craft"]
 slug: "attention-to-detail"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

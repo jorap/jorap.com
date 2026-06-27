@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Self-Control", "Performance", "Relationships"]
 slug: "emotional-regulation"
 featured: false
-status: evergreen
 draft: false
 aliases: []
 ---

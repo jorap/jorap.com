@@ -119,7 +119,7 @@ source = '(themes/[^/]+/)?assets/js/.+\.js$'
 target = 'js'
 
 ############################# Front matter #########################
-# Notes stale/updated tracking uses filesystem mtime (:fileModTime), not Git or manual lastmod fields.
+# Notes updated timestamps use filesystem mtime (:fileModTime), not Git or manual lastmod fields.
 [frontmatter]
 lastmod = [":fileModTime"]
 

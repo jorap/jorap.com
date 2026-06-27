@@ -10,7 +10,6 @@ author: "JoRap"
 tags: ["Serendipity", "Resurfacing", "PKM", "Second Brain", "Linking", "Review", "Discovery", "Research", "Browser Tips", "Note Taking"]
 slug: "digital-serendipity"
 featured: false
-status: evergreen
 draft: false
 aliases: ["Serendipitous Resurfacing", "Serendipity"]
 ---

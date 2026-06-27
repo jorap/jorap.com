@@ -9,7 +9,6 @@ author: "JoRap"
 tags: ["Workplace", "Ethics", "Leadership", "Eternal Principles", "Reconciliation"]
 slug: "reconcile-before-the-review"
 featured: false
-status: evergreen
 draft: false
 aliases: ["fix the relationship first"]
 ---
