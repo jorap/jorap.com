@@ -30,6 +30,9 @@ jsconfig.json
 .cursorindexingignore
 scripts/__pycache__/
 
+# Generated exports (rebuilt by pnpm build / export:* scripts)
+static/exports/okf/
+
 # Cloudflare local dev secrets / cache
 .dev.vars
 .wrangler

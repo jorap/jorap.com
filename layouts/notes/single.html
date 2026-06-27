@@ -12,7 +12,7 @@
           <article>
             {{ partial "notes/local-graph.html" . }}
 
-            {{ partial "notes/toolbar.html" (dict "Context" . "active" "note") }}
+            {{ partial "notes/toolbar.html" (dict "Context" . "active" (cond (eq .Params.slug "okf-export") "okf" "note")) }}
 
             <h1 class="article-title mb-4">{{ .Title }}</h1>
 

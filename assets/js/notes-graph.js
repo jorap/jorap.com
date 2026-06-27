@@ -345,10 +345,23 @@ async function initGraph(panel) {
     return nodeRadius(node) + 4;
   }
 
-  function nodeRadius(node) {
+  function nodeRadiusBase(node) {
     var links = node.degree || 0;
     var base = 1.5 + Math.sqrt(links) * 1.05;
-    var r = Math.min(14, Math.max(1.5, base));
+    return Math.min(14, Math.max(1.5, base));
+  }
+
+  function spacingUnit() {
+    var maxSize = 3;
+    nodes.forEach(function (n) {
+      maxSize = Math.max(maxSize, nodeRadiusBase(n) * 2);
+    });
+    // ponytail: largest node diameter + label column (matches OKF fcose spacing)
+    return maxSize + 120;
+  }
+
+  function nodeRadius(node) {
+    var r = nodeRadiusBase(node);
     return focusNode && node === focusNode ? Math.max(r, 3.5) : r;
   }
 
@@ -379,7 +392,7 @@ async function initGraph(panel) {
 
   function settleLayout() {
     simAlpha = 1;
-    var iterations = prefersReducedMotion ? 400 : 240;
+    var iterations = prefersReducedMotion ? 400 : 320;
     for (var i = 0; i < iterations; i++) {
       simulate(true);
     }
@@ -555,7 +568,8 @@ async function initGraph(panel) {
   }
 
   function initPositions() {
-    var pad = 48;
+    var unit = spacingUnit();
+    var pad = Math.round(unit * 0.5);
     var w = Math.max(width - pad * 2, 1);
     var h = Math.max(height - pad * 2, 1);
 
@@ -713,9 +727,11 @@ async function initGraph(panel) {
     var alpha = settling ? 1 : simAlpha;
     if (alpha <= 0.002) return false;
 
-    var linkDistance = 120;
+    var unit = spacingUnit();
+    var linkDistance = unit * 2;
     var linkStrength = 0.16 * alpha;
-      var repulsion = (4200 * alpha) / Math.max(1, Math.sqrt(nodes.length / 24));
+    var repulsion =
+      (unit * unit * 0.45 * alpha) / Math.max(1, Math.sqrt(nodes.length / 24));
     var centerStrength = 0.014 * alpha;
     var cx = width / 2;
     var cy = height / 2;
@@ -744,7 +760,7 @@ async function initGraph(panel) {
         var dx = a.x - b.x;
         var dy = a.y - b.y;
         var dist = Math.sqrt(dx * dx + dy * dy) || 1;
-        var minDist = nodeRadius(a) + nodeRadius(b) + 36;
+        var minDist = nodeRadius(a) + nodeRadius(b) + unit;
         var repel = repulsion / (dist * dist);
         if (dist < minDist) {
           repel += ((minDist - dist) / dist) * 0.65 * alpha;

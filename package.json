@@ -20,6 +20,8 @@
     "format": "prettier -w .",
     "wire:notes": "python3 scripts/wire-notes-obsidian.py",
     "export:anki": "python3 scripts/export-anki-deck.py",
+    "export:okf": "python3 scripts/export-okf-bundle.py",
+    "export:okf-viz": "python3 scripts/okf-viz/generate.py",
     "import:obsidian": "python3 scripts/import-from-obsidian.py",
     "lint:notes": "node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo --gc 2>&1 | rg 'broken wikilink|unlinked mention' || true",
     "lint:cards": "python3 scripts/lint-flashcard-frontmatter.py",

@@ -21,6 +21,7 @@ const hugoBin = ensureHugo();
 
 runNodeScript(join(__dirname, "themeGenerator.js"));
 runNodeScript(join(__dirname, "noteFileDates.js"));
+run("python3", [join(__dirname, "export-okf-bundle.py")], { cwd: projectRoot });
 run(hugoBin, ["--gc", "--minify", "--forceSyncStatic", "--buildFuture"], {
   cwd: projectRoot,
 });
