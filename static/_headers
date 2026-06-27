@@ -66,6 +66,9 @@
 /exports/okf/*
   Content-Security-Policy: default-src 'self'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data: blob: https:; font-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; connect-src 'self'; object-src 'none'; upgrade-insecure-requests
 
+/exports/okf/*.md
+  Content-Type: text/plain; charset=utf-8
+
 # Sveltia CMS at /admin needs to load its bundle from unpkg.com and talk to
 # GitHub for auth + content. The CMS injects inline <script>s at runtime so
 # the static-build-time CSP hash pass cannot cover them — keep

@@ -54,19 +54,51 @@
           {{- end -}}
           {{- $allCategories = sort $allCategories -}}
 
-          <div class="notes-list-controls mb-6 space-y-4">
-            <label class="notes-list-search-wrap block">
-              <span class="sr-only">Search notes</span>
-              <input
-                type="search"
-                class="notes-list-search form-input w-full"
-                placeholder="Search notes by title, description, or tag…"
-                autocomplete="off"
-                spellcheck="false"
-                data-notes-search />
-            </label>
+          <div class="notes-list-controls border-divider mb-6 rounded border p-4 sm:p-5">
+            <div class="notes-list-controls__top flex flex-col gap-3 sm:flex-row sm:items-center">
+              <label class="notes-list-search-wrap min-w-0 flex-1">
+                <span class="sr-only">Search notes</span>
+                <input
+                  type="search"
+                  class="notes-list-search form-input w-full"
+                  placeholder="Search title, tag, or description…"
+                  autocomplete="off"
+                  spellcheck="false"
+                  data-notes-search />
+              </label>
 
-            <div class="notes-filters" role="group" aria-label="Filter notes by status">
+              {{- if or (gt (len $allTags) 0) (gt (len $allCategories) 0) -}}
+                <details class="notes-list-refine shrink-0">
+                  <summary class="notes-list-refine__summary btn btn-outline-primary btn-sm">Refine</summary>
+                  <div class="notes-list-refine__body border-divider mt-2 flex flex-col gap-3 rounded border bg-surface p-3 sm:absolute sm:right-0 sm:z-30 sm:mt-2 sm:min-w-[16rem] sm:shadow-md">
+                    {{- if gt (len $allTags) 0 -}}
+                      <label class="notes-list-facet text-sm">
+                        <span class="text-ink-muted mb-1 block">Tag</span>
+                        <select class="form-select form-select-sm w-full" data-notes-tag>
+                          <option value="">All tags</option>
+                          {{- range $allTags -}}
+                            <option value="{{ . | urlize }}">{{ . }} ({{ index $tagCounts . }})</option>
+                          {{- end -}}
+                        </select>
+                      </label>
+                    {{- end -}}
+                    {{- if gt (len $allCategories) 0 -}}
+                      <label class="notes-list-facet text-sm">
+                        <span class="text-ink-muted mb-1 block">Category</span>
+                        <select class="form-select form-select-sm w-full" data-notes-category>
+                          <option value="">All categories</option>
+                          {{- range $allCategories -}}
+                            <option value="{{ . | urlize }}">{{ . }} ({{ index $categoryCounts . }})</option>
+                          {{- end -}}
+                        </select>
+                      </label>
+                    {{- end -}}
+                  </div>
+                </details>
+              {{- end -}}
+            </div>
+
+            <div class="notes-filters notes-list-controls__filters mt-3" role="group" aria-label="Filter notes">
               <button type="button" class="notes-filter is-active" data-notes-filter="all" aria-pressed="true" aria-label="All — {{ $countAll }} notes">
                 All<span class="notes-filter__count"> · {{ $countAll }}</span>
               </button>
@@ -76,59 +108,37 @@
               <button type="button" class="notes-filter" data-notes-filter="evergreen" aria-pressed="false" aria-label="Evergreen — {{ $countEvergreen }} notes">
                 Evergreen<span class="notes-filter__count"> · {{ $countEvergreen }}</span>
               </button>
-              <button type="button" class="notes-filter" data-notes-filter="inbox" aria-pressed="false" aria-label="Inbox — {{ $countInbox }} notes">
-                Inbox<span class="notes-filter__count"> · {{ $countInbox }}</span>
-              </button>
-              <button type="button" class="notes-filter" data-notes-filter="archived" aria-pressed="false" aria-label="Archived — {{ $countArchived }} notes">
-                Archived<span class="notes-filter__count"> · {{ $countArchived }}</span>
-              </button>
-              <button type="button" class="notes-filter" data-notes-filter="stale" aria-pressed="false" aria-label="Stale — {{ $countStale }} notes">
-                Stale<span class="notes-filter__count"> · {{ $countStale }}</span>
-              </button>
-            </div>
-
-            <p class="text-ink-muted text-sm">
-              Work queues:
-              <a class="text-accent no-underline hover:underline" href="{{ `/notes/` | relLangURL }}?status=inbox">Inbox</a>
-              ·
-              <a class="text-accent no-underline hover:underline" href="{{ `/notes/` | relLangURL }}?status=stale">Stale</a>
-            </p>
-
-            <div class="notes-list-facets flex flex-wrap items-center gap-3">
-              {{- if gt (len $allTags) 0 -}}
-                <label class="notes-list-facet text-sm">
-                  <span class="text-ink-muted mr-2">Tag</span>
-                  <select class="form-select form-select-sm" data-notes-tag>
-                    <option value="">All tags</option>
-                    {{- range $allTags -}}
-                      <option value="{{ . | urlize }}">{{ . }} ({{ index $tagCounts . }})</option>
-                    {{- end -}}
-                  </select>
-                </label>
+              {{- if gt $countInbox 0 -}}
+                <button type="button" class="notes-filter" data-notes-filter="inbox" aria-pressed="false" aria-label="Inbox — {{ $countInbox }} notes">
+                  Inbox<span class="notes-filter__count"> · {{ $countInbox }}</span>
+                </button>
               {{- end -}}
-              {{- if gt (len $allCategories) 0 -}}
-                <label class="notes-list-facet text-sm">
-                  <span class="text-ink-muted mr-2">Category</span>
-                  <select class="form-select form-select-sm" data-notes-category>
-                    <option value="">All categories</option>
-                    {{- range $allCategories -}}
-                      <option value="{{ . | urlize }}">{{ . }} ({{ index $categoryCounts . }})</option>
-                    {{- end -}}
-                  </select>
-                </label>
+              {{- if gt $countArchived 0 -}}
+                <button type="button" class="notes-filter" data-notes-filter="archived" aria-pressed="false" aria-label="Archived — {{ $countArchived }} notes">
+                  Archived<span class="notes-filter__count"> · {{ $countArchived }}</span>
+                </button>
               {{- end -}}
-            </div>
-
-            <div class="notes-filters" role="group" aria-label="Additional note filters">
-              <button type="button" class="notes-filter" data-notes-toggle="featured" aria-pressed="false" aria-label="Featured — {{ $countFeatured }} notes">
-                Featured<span class="notes-filter__count"> · {{ $countFeatured }}</span>
-              </button>
-              <button type="button" class="notes-filter" data-notes-toggle="cards" aria-pressed="false" aria-label="Has flashcards — {{ $countCards }} notes">
-                Cards<span class="notes-filter__count"> · {{ $countCards }}</span>
-              </button>
-              <button type="button" class="notes-filter" data-notes-toggle="issues" aria-pressed="false" aria-label="Has issues — {{ $countIssues }} notes">
-                Issues<span class="notes-filter__count"> · {{ $countIssues }}</span>
-              </button>
+              {{- if gt $countStale 0 -}}
+                <button type="button" class="notes-filter" data-notes-filter="stale" aria-pressed="false" aria-label="Stale — {{ $countStale }} notes">
+                  Stale<span class="notes-filter__count"> · {{ $countStale }}</span>
+                </button>
+              {{- end -}}
+              <span class="notes-filter-sep" aria-hidden="true"></span>
+              {{- if gt $countFeatured 0 -}}
+                <button type="button" class="notes-filter" data-notes-toggle="featured" aria-pressed="false" aria-label="Featured — {{ $countFeatured }} notes">
+                  Featured<span class="notes-filter__count"> · {{ $countFeatured }}</span>
+                </button>
+              {{- end -}}
+              {{- if gt $countCards 0 -}}
+                <button type="button" class="notes-filter" data-notes-toggle="cards" aria-pressed="false" aria-label="Has flashcards — {{ $countCards }} notes">
+                  Cards<span class="notes-filter__count"> · {{ $countCards }}</span>
+                </button>
+              {{- end -}}
+              {{- if gt $countIssues 0 -}}
+                <button type="button" class="notes-filter" data-notes-toggle="issues" aria-pressed="false" aria-label="Has issues — {{ $countIssues }} notes">
+                  Issues<span class="notes-filter__count"> · {{ $countIssues }}</span>
+                </button>
+              {{- end -}}
             </div>
           </div>
 

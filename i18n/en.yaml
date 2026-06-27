@@ -24,6 +24,11 @@ shuffle_right: Shuffle right
 ai_prompt: AI prompt
 ai_prompt_label: Prompt to paste into an AI chat
 copy_prompt: Copy prompt
+copy_md: Copy MD
+copy_hub_cluster: Copy hub cluster
+copy_okf_catalog: Copy catalog
+copy_issues: Copy issues
+agent_copy: Agent copy
 open_in_chatgpt: Open in ChatGPT
 open_in_claude: Open in Claude
 open_in_gemini: Open in Gemini

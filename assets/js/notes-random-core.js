@@ -3,7 +3,7 @@
  */
 (function () {
   var SKIP_ARTICLE =
-    ".notes-graph-panel, .notes-toolbar, .article-title, .toc-wrapper, .notes-outgoing, .notes-see-also, .notes-backlinks, .notes-note-flashcards";
+    ".notes-graph-panel, .notes-toolbar, .notes-article-header, .article-title, .notes-copy-md, .toc-wrapper, .notes-outgoing, .notes-see-also, .notes-backlinks, .notes-note-flashcards";
   var PROMPT_PREFILL_MAX_URL = 1800;
 
   function escapeHtml(str) {

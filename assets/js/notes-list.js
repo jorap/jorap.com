@@ -164,4 +164,9 @@
   readUrlState();
   syncControls();
   applyFilters();
+
+  if (state.tag || state.category) {
+    var refineEl = document.querySelector(".notes-list-refine");
+    if (refineEl) refineEl.open = true;
+  }
 })();

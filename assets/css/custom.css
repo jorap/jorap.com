@@ -803,6 +803,48 @@ body.notes-graph-present-open {
   opacity: 0.9;
 }
 
+.notes-list-controls {
+  background: var(--color-elevated);
+}
+
+.notes-list-controls__top {
+  position: relative;
+}
+
+.notes-list-refine {
+  position: relative;
+}
+
+.notes-list-refine__summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.notes-list-refine__summary::-webkit-details-marker {
+  display: none;
+}
+
+.notes-list-refine[open] .notes-list-refine__summary {
+  color: var(--color-accent);
+  border-color: color-mix(in srgb, var(--color-accent) 45%, var(--color-divider));
+  background: color-mix(in srgb, var(--color-accent) 8%, var(--color-surface));
+}
+
+.notes-filter-sep {
+  align-self: center;
+  width: 1px;
+  height: 1.25rem;
+  margin-inline: 0.1rem;
+  background: var(--color-divider);
+}
+
+@media (max-width: 639px) {
+  .notes-list-refine__body {
+    position: static;
+    box-shadow: none;
+  }
+}
+
 .notes-toolbar .btn-primary .notes-filter__count {
   color: inherit;
   opacity: 0.85;

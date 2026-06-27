@@ -16,7 +16,16 @@
           </div>
 
           <div class="notes-issues-summary border-divider mb-8 rounded border p-5">
-            <h2 class="h6 mb-3">Summary</h2>
+            <div class="mb-3 flex flex-wrap items-center justify-between gap-2">
+              <h2 class="h6 mb-0">Summary</h2>
+              {{- if gt $data.notesWithIssues 0 -}}
+                {{- $report := partial "notes/build-issues-report.html" $data -}}
+                <div class="notes-copy-wrap">
+                  <button type="button" class="btn btn-outline-primary btn-sm" data-notes-copy>{{ T "copy_issues" }}</button>
+                  <script type="application/json" class="notes-copy-data">{{ dict "source" $report | jsonify | safeJS }}</script>
+                </div>
+              {{- end -}}
+            </div>
             {{- if gt $data.notesWithIssues 0 -}}
               <ul class="notes-issues-summary__stats mb-0 list-none space-y-1 p-0 text-sm">
                 <li><strong>{{ $data.brokenCount }}</strong> broken wikilink{{ if ne $data.brokenCount 1 }}s{{ end }} (target note does not exist)</li>
@@ -91,4 +100,6 @@
       </div>
     </div>
   </section>
+
+  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-copy-md.js" "defer" true) }}
 {{ end }}

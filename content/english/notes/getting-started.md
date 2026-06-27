@@ -63,6 +63,12 @@ What this site gives you:
 - **Status badges** - seedling/evergreen/inbox/archived on each note; stale filter uses file edit time on [/notes/](/notes/)
 - **Resurfacing** - featured random note and [Random Duo](/notes/random-duo/) on [/notes/](/notes/)
 - **Create Note** - topic → AI prompt for one lint-ready atomic note at [/notes/create/](/notes/create/)
+- **Copy MD** - on every note page: copies Hugo source for ChatGPT or your editor
+- **Copy hub cluster** - on hub/MOC pages (`note_kind: index`): hub + all direct wikilink targets in one paste
+- **Copy catalog** - on [OKF Export](/notes/okf-export/): full garden index for ChatGPT project context
+- **Copy issues** - on [Issues](/notes/issues/): structured link/structure report for maintenance sprints
+- **Agent copy** - OKF handoff markdown per note (resolved links), upper right beside Copy MD
+- **OKF export** - full bundle at [/notes/okf-export/](/notes/okf-export/) and [/exports/okf/](/exports/okf/)
 - **Flashcards** - ~12 habit spine notes (~20%) with `review: true` carry six scenario `cards:` in frontmatter plus `card_sets:` for Review grouping; habit prompts I drill at [/notes/review/](/notes/review/)
 
 ## Page kinds
@@ -75,7 +81,7 @@ What this site gives you:
 
 ## Utility surfaces (don't wikilink)
 
-These pages are **meta tools** (`note_kind: meta`), not garden ideas: [Graph](/notes/graph/), [Issues](/notes/issues/), [Flashcards](/notes/flashcards/), [Review](/notes/review/), [Backlinks](/notes/backlinks/), [Random Duo](/notes/random-duo/), [Create Note](/notes/create/). They are excluded from the graph node set, random pickers, and flashcard sources. **No `## Note Relationships` table** on utility pages - link by URL when pointing readers at a tool. **Don't `[[wikilink]]` to them** from content notes. `npm run lint:utility-links` catches violations.
+These pages are **meta tools** (`note_kind: meta`), not garden ideas: [Graph](/notes/graph/), [Issues](/notes/issues/), [Flashcards](/notes/flashcards/), [Review](/notes/review/), [Backlinks](/notes/backlinks/), [Random Duo](/notes/random-duo/), [Create Note](/notes/create/), [OKF Export](/notes/okf-export/). They are excluded from the graph node set, random pickers, and flashcard sources. **No `## Note Relationships` table** on utility pages - link by URL when pointing readers at a tool. **Don't `[[wikilink]]` to them** from content notes. `npm run lint:utility-links` catches violations.
 
 ## Explore
 
