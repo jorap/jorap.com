@@ -18,12 +18,19 @@ This guide covers Sveltia CMS on your Hugo site with GitHub OAuth through Cloudf
    - **Authorization callback URL**: `https://www.jorap.com/api/callback`
 4. Register the app and note the **Client ID** and **Client Secret**
 
-## Step 2: Cloudflare Pages environment variables
+## Step 2: Cloudflare Pages credentials
 
-1. Cloudflare Pages → your project → **Settings** → **Environment variables**
-2. For **Production** and **Preview**, add:
-   - `GITHUB_CLIENT_ID`
-   - `GITHUB_CLIENT_SECRET`
+This project manages plain env vars in `wrangler.toml`. Only encrypted **secrets** can be set in the Cloudflare dashboard.
+
+1. **`GITHUB_CLIENT_ID`** — edit `wrangler.toml`, set `[vars].GITHUB_CLIENT_ID` to your OAuth app Client ID, commit, and deploy. (Client IDs are public; fine in git.)
+
+2. **`GITHUB_CLIENT_SECRET`** — set once as an encrypted secret (pick one):
+   - **Dashboard:** Pages → **jorap-com** → **Settings** → **Variables and Secrets** → **Add** → type **Secret** → name `GITHUB_CLIENT_SECRET`
+   - **CLI:** `pnpm exec wrangler pages secret put GITHUB_CLIENT_SECRET --project-name jorap-com`
+
+3. **Local dev:** copy `.dev.vars.example` → `.dev.vars` and fill both values (`.dev.vars` is gitignored).
+
+Redeploy after changing either value.
 
 ## Step 3: CMS configuration
 

@@ -11,11 +11,17 @@ Getting "404 Not Found" when accessing `/api/auth` endpoint.
 3. Go to **Functions** tab
 4. You should see `api/auth` and `api/callback` listed
 
-### 2. Check Environment Variables
-1. Go to **Settings** → **Environment Variables**
-2. Ensure these are set for **Production**:
-   - `GITHUB_CLIENT_ID` = your GitHub OAuth app client ID
-   - `GITHUB_CLIENT_SECRET` = your GitHub OAuth app client secret
+### 2. Check OAuth credentials
+
+Plain vars come from `wrangler.toml`; secrets from the dashboard or Wrangler CLI.
+
+1. **`wrangler.toml`** — `[vars].GITHUB_CLIENT_ID` must be your GitHub OAuth app Client ID (not empty).
+2. **Secret** — `GITHUB_CLIENT_SECRET` must be set:
+   - Dashboard → Pages → **jorap-com** → **Settings** → **Variables and Secrets** → add secret `GITHUB_CLIENT_SECRET`, or
+   - `pnpm exec wrangler pages secret put GITHUB_CLIENT_SECRET --project-name jorap-com`
+3. Redeploy after changes.
+
+Visit `https://www.jorap.com/api/auth` — the redirect URL must show a real `client_id=`, not `client_id=undefined` or empty.
 
 ### 3. Test Functions Deployment
 Visit: `https://jorap.com/api/auth`
@@ -56,7 +62,7 @@ If functions work but OAuth fails:
 
 ### Environment Variables Not Set
 - **Cause**: Missing GitHub OAuth credentials
-- **Solution**: Set `GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET` in Cloudflare Pages
+- **Solution**: Set `GITHUB_CLIENT_ID` in `wrangler.toml` `[vars]` and `GITHUB_CLIENT_SECRET` as a Pages secret (dashboard or `wrangler pages secret put`). Redeploy.
 
 ### OAuth App Configuration
 - **Cause**: Incorrect callback URL in GitHub OAuth app
