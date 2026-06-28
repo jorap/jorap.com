@@ -7,7 +7,7 @@ Long-form documentation for the JoRap Notes project lives here. The repo `README
 | [`PRODUCT.md`](./PRODUCT.md) | Product framing, audience, voice, content pillars. |
 | [`DESIGN.md`](./DESIGN.md) | Visual / interaction design system, tokens, motion. |
 | [`DESIGN.json`](./DESIGN.json) | Machine-readable design tokens (palette, type, spacing). |
-| [`SVELTIA_CMS_SETUP.md`](./SVELTIA_CMS_SETUP.md) | One-time setup notes for the Sveltia CMS layer. |
+| [`CMS_SETUP.md`](./CMS_SETUP.md) | One-time setup for the Static Site CMS admin (`/admin`). |
 | [`TROUBLESHOOTING.md`](./TROUBLESHOOTING.md) | Build / dev-server gotchas and fixes. |
 | [`TODO.md`](./TODO.md) | Working backlog. |
 

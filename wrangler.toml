@@ -4,7 +4,7 @@
 # Dashboard env (optional — deployBuild auto-installs pinned Hugo if PATH is wrong):
 #   HUGO_VERSION=0.163.3, GO_VERSION=1.24.2, NODE_VERSION=22.22.2
 #
-# CMS OAuth (Sveltia /admin):
+# CMS OAuth (Static Site CMS at /admin; engine: Sveltia):
 #   GITHUB_CLIENT_ID     — set below in [vars] (public; safe in git)
 #   GITHUB_CLIENT_SECRET — encrypted secret; set once via Dashboard or:
 #     pnpm exec wrangler pages secret put GITHUB_CLIENT_SECRET --project-name jorap-com

@@ -1,6 +1,16 @@
-# Sveltia CMS setup (Cloudflare Pages + GitHub)
+# Static Site CMS setup (Cloudflare Pages + GitHub)
 
-This guide covers Sveltia CMS on your Hugo site with GitHub OAuth through Cloudflare Pages Functions. Sveltia is a modern successor to Netlify/Decap CMS and uses the same `config.yml` model; see the [migration guide](https://sveltiacms.app/en/docs/migration/netlify-decap-cms) for details.
+This guide covers the content admin at `/admin` on your Hugo site. The UI is branded **Static Site CMS**; the engine is [Sveltia CMS](https://sveltiacms.app/en/docs) (a modern successor to Netlify/Decap CMS) with GitHub OAuth through Cloudflare Pages Functions. It uses the same `config.yml` model as Decap; see the [migration guide](https://sveltiacms.app/en/docs/migration/netlify-decap-cms) for details.
+
+Branding lives in `static/admin/config.yml`:
+
+```yaml
+app_title: Static Site CMS
+site_url: https://www.jorap.com
+logo:
+  src: /images/jorap.png
+  show_in_header: true
+```
 
 ## Prerequisites
 
@@ -13,7 +23,7 @@ This guide covers Sveltia CMS on your Hugo site with GitHub OAuth through Cloudf
 1. Go to GitHub **Settings** → **Developer settings** → **OAuth Apps**
 2. Click **New OAuth App**
 3. Set:
-   - **Application name**: e.g. “JoRap CMS”
+   - **Application name**: e.g. “Static Site CMS”
    - **Homepage URL**: `https://www.jorap.com` (your live URL)
    - **Authorization callback URL**: `https://www.jorap.com/api/callback`
 4. Register the app and note the **Client ID** and **Client Secret**
@@ -60,12 +70,12 @@ Redeploy after changing either value.
 ├── static/
 │   └── admin/
 │       ├── index.html    # loads Sveltia CMS
-│       └── config.yml    # collections & backend
+│       └── config.yml    # collections, backend & branding
 ├── functions/
 │   └── api/
 │       ├── auth.js
 │       └── callback.js
-└── SVELTIA_CMS_SETUP.md
+└── docs/CMS_SETUP.md
 ```
 
 ## Troubleshooting
@@ -73,8 +83,10 @@ Redeploy after changing either value.
 - **Login fails**: Check OAuth callback URL, env vars, and the **Functions** tab for `api/auth` and `api/callback`
 - **Cannot save**: Confirm repo name/branch in `config.yml` and that your GitHub user can push to the repo
 - **Blank admin (Cloudflare)**: The admin `index.html` uses `data-cfasync="false"` on the script so Rocket Loader does not break the CMS
+- **Missing logo on login**: Confirm `assets/images/jorap.png` exists and Hugo serves it at `/images/jorap.png`
 
 ## References
 
 - [Sveltia CMS — Getting started](https://sveltiacms.app/en/docs/start)
+- [Sveltia CMS — Customization (logo, app title)](https://sveltiacms.app/en/docs/customization)
 - [Migrating from Netlify or Decap CMS](https://sveltiacms.app/en/docs/migration/netlify-decap-cms)
