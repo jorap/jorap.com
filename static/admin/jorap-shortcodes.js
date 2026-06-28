@@ -40,11 +40,24 @@
     question: '#8b5cf6',
   };
 
-  const embedFrame = (src) =>
-    `<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;background:#000">
-      <iframe src="${src}" title="Embed preview" loading="lazy" allowfullscreen
+  // YouTube Error 153: embeds need a Referer/origin. CMS preview iframes often
+  // inherit none, so pass ?origin= and referrerpolicy on every embed iframe.
+  const embedFrame = (src) => {
+    let href = src;
+    if (typeof window !== 'undefined' && window.location?.origin) {
+      const url = new URL(src, window.location.origin);
+      if (!url.searchParams.has('origin')) {
+        url.searchParams.set('origin', window.location.origin);
+      }
+      href = url.toString();
+    }
+    return `<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:8px;background:#000">
+      <iframe src="${href}" title="Embed preview" loading="lazy" allowfullscreen
+        referrerpolicy="strict-origin-when-cross-origin"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         style="position:absolute;top:0;left:0;width:100%;height:100%;border:0"></iframe>
     </div>`;
+  };
 
   const placeholder = (label, detail = '') =>
     `<div style="padding:.75rem 1rem;border:1px dashed #cbd5e1;border-radius:8px;color:#64748b">
@@ -83,7 +96,7 @@
       fromBlock: ({ groups: { id, posId } = {} }) => ({ id: id || posId || '' }),
       toBlock: ({ id = '' }) => `{{< youtube ${id.trim()} >}}`,
       toPreview: ({ id = '' }) =>
-        id.trim() ? embedFrame(`https://www.youtube-nocookie.com/embed/${id.trim()}`) : '',
+        id.trim() ? embedFrame(`https://www.youtube.com/embed/${id.trim()}`) : '',
     },
     {
       id: 'jorap-youtube-time',
@@ -103,7 +116,7 @@
         const params = new URLSearchParams({ start: String(start || '0') });
         if (end) params.set('end', String(end));
         return embedFrame(
-          `https://www.youtube-nocookie.com/embed/${id.trim()}?${params.toString()}`,
+          `https://www.youtube.com/embed/${id.trim()}?${params.toString()}`,
         );
       },
     },
@@ -117,7 +130,7 @@
       fromBlock: ({ groups: { id, posId } = {} }) => ({ id: id || posId || '' }),
       toBlock: ({ id = '' }) => `{{< youtube-lite ${id.trim()} >}}`,
       toPreview: ({ id = '' }) =>
-        id.trim() ? embedFrame(`https://www.youtube-nocookie.com/embed/${id.trim()}`) : '',
+        id.trim() ? embedFrame(`https://www.youtube.com/embed/${id.trim()}`) : '',
     },
     {
       id: 'jorap-vimeo-lite',

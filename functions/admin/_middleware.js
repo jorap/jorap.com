@@ -10,6 +10,7 @@ export async function onRequest(context) {
   const headers = new Headers(response.headers);
   headers.delete("Content-Security-Policy");
   headers.set("Content-Security-Policy", ADMIN_CSP);
+  headers.set("Referrer-Policy", "strict-origin-when-cross-origin");
   return new Response(response.body, {
     status: response.status,
     statusText: response.statusText,
