@@ -38,9 +38,9 @@ A few things changed once I started using it:
 
 Facebook tucks this thing away pretty deep. Here's where it actually lives.
 
-{{< image src="images/fb-desktop-feed.jpg" caption="Facebook Feeds - Desktop" alt="Facebook Feeds - Desktop" height="486" width="329" position="center" command="fill" option="q100" class="img-fluid" title="Facebook Feeds - Desktop"  webp="true" >}}
+{{< image src="images/fb-desktop-feed.jpg" caption="Facebook Feeds - Desktop" alt="Facebook Feeds - Desktop" height="486" width="329" position="center" command="fill" option="q100" class="img-fluid" title="Facebook Feeds - Desktop" webp="true" >}}
 
-{{< image src="images/fb-mobile-feed.jpg" caption="Facebook Feeds - Mobile" alt="Facebook Feeds - Mobile" height="591" width="400" position="center" command="fill" option="q100" class="img-fluid" title="Facebook Feeds - Mobile"  webp="true" >}}
+{{< image src="images/fb-mobile-feed.jpg" caption="Facebook Feeds - Mobile" alt="Facebook Feeds - Mobile" height="591" width="400" position="center" command="fill" option="q100" class="img-fluid" title="Facebook Feeds - Mobile" webp="true" >}}
 
 **On your phone:**
 

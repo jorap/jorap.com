@@ -4,6 +4,8 @@
  * Customize labels, fields, previews, and toBlock output here.
  * Keep static/admin/config.yml editor_components in sync with the ids below.
  *
+ * Hugo block shortcodes must start at column 0 (no leading space before {{<).
+ *
  * Hugo template sources:
  *   layouts/shortcodes/card.html
  *   themes/jorap/layouts/shortcodes/{youtube,youtube_time,spotify,spotify_iframe_*}

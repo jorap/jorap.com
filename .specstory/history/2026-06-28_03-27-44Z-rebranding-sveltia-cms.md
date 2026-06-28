@@ -1003,6 +1003,56 @@ _**Agent (default)**_
 ```bash
 ls -la /home/jorap/Documents/GitHub/jorap.com/assets/images/ 2>/dev/null; ls -la /home/jorap/Documents/GitHub/jorap.com/static/images/ 2>/dev/null; ls -la /home/jorap/Documents/GitHub/jorap.com/public/images/jorap* 2>/dev/null | head -5
 ```
+
+```
+total 11792
+drwxr-xr-x 3 root root    4096 Jun 19 15:07 .
+drwxr-xr-x 5 root root    4096 May 29 08:30 ..
+-rw-r--r-- 1 root root   75717 May 29 08:30 alex-eala.jpg
+-rw-r--r-- 1 root root   98067 May 29 08:30 arroz-caldo.jpg
+-rw-r--r-- 1 root root    2271 May 29 08:30 avatar.png
+-rw-r--r-- 1 root root    4005 May 29 08:30 avatar-sm.png
+-rw-r--r-- 1 root root   80952 May 29 08:30 banner.png
+-rw-r--r-- 1 root root   20036 May 29 08:30 bg.jpg
+-rw-r--r-- 1 root root   19721 May 29 08:30 call-to-action.png
+-rw-r--r-- 1 root root  121863 May 29 08:30 Chicken-Adobo.jpg
+-rw-r--r-- 1 root root 4723249 Jun 18 15:10 Consistent_AI_Web_Development_Blueprint.png
+-rw-r--r-- 1 root root    1906 May 29 08:30 favicon.png
+-rw-r--r-- 1 root root   16937 May 29 08:30 fb-desktop-feed.jpg
+-rw-r--r-- 1 root root   33438 May 29 08:30 fbf.jpg
+-rw-r--r-- 1 root root   27471 May 29 08:30 fb-mobile-feed.jpg
+-rw-r--r-- 1 root root  320574 May 29 08:30 fb-post-isaiah-david.jpg
+-rw-r--r-- 1 root root 1759503 Jun 18 15:10 feature-consistent-ai-output.jpg
+-rw-r--r-- 1 root root   64731 May 29 08:30 feature-desktop.jpg
+-rw-r--r-- 1 root root   26653 May 29 08:30 feature-dnpap.jpg
+-rw-r--r-- 1 root root   39735 May 29 08:30 feature-isaiah-david.jpg
+-rw-r--r-- 1 root root 1911508 Jun 18 15:10 feature-mouse-wheel-click.jpg
+-rw-r--r-- 1 root root 2142670 Jun 18 15:10 feature-soundpeats-runfree.jpg
+drwxr-xr-x 2 root root    4096 May 29 08:30 gallery
+-rw-r--r-- 1 root root   73363 May 29 08:30 guitar.jpg
+-rw-r--r-- 1 root root    4881 May 29 08:30 image-placeholder.png
+-rw-r--r-- 1 root root   10972 May 29 08:30 image-template.jpg
+-rw-r--r-- 1 root root   12543 May 29 08:30 jorap.png
+-rw-r--r-- 1 root root   40663 May 29 08:30 joraps-world.jpg
+-rw-r--r-- 1 root root   27042 May 29 08:30 jw.jpg
+-rw-r--r-- 1 root root    3090 May 29 08:30 logo-darkmode.png
+-rw-r--r-- 1 root root    3648 May 29 08:30 logo.png
+-rw-r--r-- 1 root root    8267 May 29 08:30 no-search-found.png
+-rw-r--r-- 1 root root   54892 Jun 19 15:07 note.jpg
+-rw-r--r-- 1 root root  107524 May 29 08:30 og-image.png
+-rw-r--r-- 1 root root   30959 May 29 08:30 rss.jpg
+-rw-r--r-- 1 root root   11502 May 29 08:30 service-1.png
+-rw-r--r-- 1 root root   19596 May 29 08:30 service-2.png
+-rw-r--r-- 1 root root   16481 May 29 08:30 service-3.png
+-rw-r--r-- 1 root root   26395 May 29 08:30 website.jpg
+-rw-r--r-- 1 root root   51351 May 29 08:30 worship-pads.jpg
+-rw-rw-r-- 1 root root   3132 Jun 22 15:11 /home/jorap/Documents/GitHub/jorap.com/public/images/jorap_hu_2114a78a17e4e1a5.png
+-rw-rw-r-- 1 root root   7270 Jun 22 15:11 /home/jorap/Documents/GitHub/jorap.com/public/images/jorap_hu_355802ea36a03066.png
+-rw-rw-r-- 1 root root   3132 Jun 22 15:11 /home/jorap/Documents/GitHub/jorap.com/public/images/jorap_hu_364840e8d646af9.png
+-rw-rw-r-- 1 root root  14446 Jun 22 15:11 /home/jorap/Documents/GitHub/jorap.com/public/images/jorap_hu_364f2c7ce706e3bb.png
+-rw-rw-r-- 1 root root  14446 Jun 22 15:11 /home/jorap/Documents/GitHub/jorap.com/public/images/jorap_hu_612dba1a75c78865.png
+
+```
 </details>
 </tool-use>
 
@@ -1047,6 +1097,451 @@ Additional data:
 }
 ```
 Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The logo file is located at `assets/images/jorap.png` and served by Hugo at `/images/jorap.png`.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{md,toml,json}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "SVELTIA_CMS_SETUP|Sveltia CMS setup"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "SVELTIA_CMS_SETUP|Sveltia CMS setup",
+  "topFiles": [
+    {
+      "matchCount": 12,
+      "uri": "./.specstory/history/2026-06-28_03-27-44Z-rebranding-sveltia-cms.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "./.specstory/history/2026-06-28_03-00-38Z-sveltia-notes-update.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": "./.specstory/history/2026-06-28_00-39-28Z-blank-page-issue-on-jorap-admin.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./docs/SVELTIA_CMS_SETUP.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "./.specstory/history/2026-06-28_00-07-52Z-tinacms-compatibility.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./.specstory/history/2026-06-22_07-06-09Z-content-consistency-between-local-and-live.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-21_12-48-52Z-format-consistency.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./.specstory/history/2026-06-18_17-22-23Z-email-functionality-in-contact-us-form.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-17_17-47-53Z-project-update-with-new-skill.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": "./.specstory/history/2026-05-28_01-16-50Z-codebase-review-for-improvements.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-05-28_01-16-50Z-codebase-review-for-improvements-and-stability.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "./.specstory/history/2026-05-10_06-27-45Z-system-update-process-review.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-05-02_14-54-20Z-additional-fields-for-frontmatter.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-05-02_14-51-45Z-updating-fields-in-sveltia-cms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-05-02_09-17-45Z-npm-run-watch-deployment-issue.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./.specstory/history/2026-05-02_08-30-34Z-website-improvement-suggestions.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./docs/README.md"
+    }
+  ],
+  "totalFiles": 17,
+  "totalMatches": 70
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Only docs/README.md needs updating outside of the rename.</details></think>
+
+_**Agent (default)**_
+
+Applying branding to `config.yml`, pointing the login logo at `/images/jorap.png`, and renaming the setup doc.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/index.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: git mv /home/jorap/Documents/GitHub/jorap.com/docs/SVELTIA_CMS_SETUP.md /home/jorap/Documents/GitHub/jorap.com/docs/CMS_SETUP.md</summary>
+
+```bash
+git mv /home/jorap/Documents/GitHub/jorap.com/docs/SVELTIA_CMS_SETUP.md /home/jorap/Documents/GitHub/jorap.com/docs/CMS_SETUP.md
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/docs/CMS_SETUP.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/docs/README.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/wrangler.toml</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The wrangler file might also need updating.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/wrangler.toml</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -s -o /dev/null -w "%{http_code}" http://localhost:1313/images/jorap.png 2>/dev/null || echo "dev-not-running"</summary>
+
+```bash
+curl -s -o /dev/null -w "%{http_code}" http://localhost:1313/images/jorap.png 2>/dev/null || echo "dev-not-running"
+```
+
+```
+000dev-not-running
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/4.txt</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/4.txt",
+  "pattern": "localhost|Web Server"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/4.txt",
+  "pattern": "localhost|Web Server",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "../../../.cursor/projects/home-jorap-Documents-GitHub-jorap-com/terminals/4.txt"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:1313/images/jorap.png && echo && curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:1313/admin/config.yml</summary>
+
+```bash
+curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:1313/images/jorap.png && echo && curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:1313/admin/config.yml
+```
+
+```
+200
+200
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+Done. Here's what changed:
+
+**Branding in `static/admin/config.yml`**
+- `app_title: Static Site CMS`
+- `site_url: https://www.jorap.com`
+- `logo.src: /images/jorap.png` — same asset as the site header (`assets/images/jorap.png`)
+
+**`static/admin/index.html`**
+- Page title updated to match: `Static Site CMS`
+
+**Docs**
+- `docs/SVELTIA_CMS_SETUP.md` → `docs/CMS_SETUP.md` (updated content + `docs/README.md` link)
+- `wrangler.toml` comment updated
+
+On the login page you should now see the JoRap logo and "Static Site CMS" as the title. After login, the logo also appears in the admin header.
+
+**To verify:** open [http://localhost:1313/admin/](http://localhost:1313/admin/) — both `/images/jorap.png` and `/admin/config.yml` return 200 on your dev server.
+
+**Note:** Sveltia still shows a small "Powered by Sveltia CMS" footer on the login page; that can't be removed without forking the product.
+
+---
+
+_**User**_
+
+ensure all used shortcodes do not have a space before it
+
+---
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Ensuring no spaces precede shortcodes.</details></think>
+
+_**Agent (default)**_
+
+I'll scan the content for shortcodes with a leading space and fix any matches.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": " \\{\\{\u003c"
+}
+```
+Status: **loading**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content",
+  "pattern": " \\{\\{%"
+}
+```
+Status: **loading**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Status: **loading**
 
 
 </details>

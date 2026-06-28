@@ -62,7 +62,7 @@ Confirm tier on the WTA tournament page before adding or correcting an entry.
 ```markdown
   - **Dubai (WTA 1000)** - Quarterfinals | [wtatennis.com](https://...) | [tennis.com](https://...)
 
- {{< youtube VIDEO_ID >}}
+{{< youtube VIDEO_ID >}}
 ```
 
 Title run:
@@ -72,7 +72,7 @@ Title run:
     - Second Career WTA Win
     - First career title on grass
 
- {{< youtube VIDEO_ID >}}
+{{< youtube VIDEO_ID >}}
 ```
 
 With milestone (link-only round label also valid when tennis.com slug is missing):
@@ -91,7 +91,7 @@ Exit round on the main line; earlier rounds as sub-bullets. Always include partn
     - Quarterfinals | [wtatennis.com](https://...)
     - Round of 16 | [wtatennis.com](https://...)
 
- {{< youtube VIDEO_ID >}}
+{{< youtube VIDEO_ID >}}
 ```
 
 Rome-style loss note (optional sub-bullet before round links):
@@ -110,7 +110,7 @@ Rome-style loss note (optional sub-bullet before round links):
     - 1st Round | [wtatennis.com](https://...) | [usopen.org](https://...)
     - 2nd Round | [wtatennis.com](https://...) | [usopen.org](https://...)
 
- {{< youtube VIDEO_ID >}}
+{{< youtube VIDEO_ID >}}
 ```
 
 ### Grand Slam result (doubles)
@@ -122,7 +122,7 @@ Same dual-link pattern as singles; include partner on the tournament line:
     - 1st Round | [wtatennis.com](https://...) | [rolandgarros.com](https://...)
     - 2nd Round | [wtatennis.com](https://...) | [rolandgarros.com](https://...)
 
- {{< youtube VIDEO_ID >}}
+{{< youtube VIDEO_ID >}}
 ```
 
 Add embeds when verified official/broadcaster doubles footage exists — one per round if available, otherwise omit.
@@ -251,6 +251,8 @@ Use exactly: `Win`, `Loss`, or `Win (Retired)` when applicable
 ## YouTube embed rules
 
 Embed only when the video shows **actual tennis** (points, games, match action). Reject news segments that announce results without match footage.
+
+**Syntax:** each embed on its own line at **column 0** — `{{< youtube VIDEO_ID >}}` with no leading space (indented or inline shortcodes will not render in Hugo).
 
 ### Placement
 

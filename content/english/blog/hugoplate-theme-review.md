@@ -130,7 +130,9 @@ This is a `tip` - the helpful little nudge you wish someone had given you on day
 
 In-content CTA. `style="solid"` (default) or `style="outline"`. External links open in a new tab automatically.
 
-{{< button label="Read the blog" link="/blog/" style="solid" >}} &nbsp; {{< button label="View on GitHub" link="https://github.com/zeon-studio/hugoplate" style="outline" >}}
+{{< button label="Read the blog" link="/blog/" style="solid" >}}
+
+{{< button label="View on GitHub" link="https://github.com/zeon-studio/hugoplate" style="outline" >}}
 
 ```
 {{</* button label="Read the blog" link="/blog/" style="solid" */>}}
