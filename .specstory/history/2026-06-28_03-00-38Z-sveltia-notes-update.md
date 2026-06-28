@@ -1318,6 +1318,74 @@ _**Agent (default)**_
 ```bash
 python3 -c "import yaml; yaml.safe_load(open('/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml'))" && echo "YAML OK"
 ```
+
+```
+Traceback (most recent call last):
+  File "&lt;string&gt;", line 1, in &lt;module&gt;
+  File "/usr/lib/python3/dist-packages/yaml/__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 36, in get_single_node
+    document = self.compose_document()
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 82, in compose_node
+    node = self.compose_sequence_node(anchor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 111, in compose_sequence_node
+    node.value.append(self.compose_node(node, index))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 82, in compose_node
+    node = self.compose_sequence_node(anchor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 111, in compose_sequence_node
+    node.value.append(self.compose_node(node, index))
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/composer.py", line 64, in compose_node
+    if self.check_event(AliasEvent):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/parser.py", line 98, in check_event
+    self.current_event = self.state()
+                         ^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/parser.py", line 574, in parse_flow_mapping_value
+    return self.parse_flow_node()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/parser.py", line 268, in parse_flow_node
+    return self.parse_node()
+           ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/yaml/parser.py", line 369, in parse_node
+    raise ParserError("while parsing a %s node" % node, start_mark,
+yaml.parser.ParserError: while parsing a flow node
+expected the node content, but found '-'
+  in "/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml", line 145, column 13
+
+```
 </details>
 </tool-use>
 
@@ -1336,5 +1404,1249 @@ _**Agent (default)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+Fixing YAML syntax: flow mappings can't mix with block sequences.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c "import yaml; yaml.safe_load(open('/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml'))" && echo "YAML OK"</summary>
+
+```bash
+python3 -c "import yaml; yaml.safe_load(open('/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml'))" && echo "YAML OK"
+```
+
+```
+YAML OK
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+Added a **Notes** collection to `static/admin/config.yml`. After deploy, `/admin/` will show Blog Posts and Notes side by side.
+
+The notes collection maps to `content/english/notes` and includes:
+
+- **Standard fields** — title, slug, meta title, description, date, image (defaults to `/images/note.jpg`), categories, author, tags, draft (defaults to `true` for new notes)
+- **Garden fields** — `aliases`, `featured`
+- **Flashcard fields** — `review`, `card_sets`, and `cards` (front/back); card fields only show when **Review deck** is checked
+- **Utility page fields** — optional `note_kind` (regular / index / meta) and `layout` (cards, graph, review, etc.)
+- **Body** — markdown with hints for `[[wikilinks]]` and the Note Relationships table
+
+Existing notes in the folder should load in the CMS as-is, including spine notes with flashcards and utility pages like Graph and Flashcards. New notes created in Sveltia will follow the same frontmatter shape as your archetypes.
+
+Deploy and open `/admin/` to confirm the Notes collection appears. If you want, I can also add a short note to `docs/SVELTIA_CMS_SETUP.md` documenting the notes collection.
+
+---
+
+_**User**_
+
+I want this to handle shortcodes by inserting them in editing and see the proper preview of them
+
+---
+
+_**Agent (default)**_
+
+I'll trace how shortcodes are used in the site and what Sveltia already supports for preview and insertion.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-05-02_15-34-40Z-sveltia-cms-shortcodes-in-markdown.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "pattern": "shortcode|editor_components|markdown.*component"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "shortcode|editor_components|markdown.*component",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-05-31_16-59-16Z-middle-mouse-wheel-click-functionality.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": "layouts/_partials/notes/collect-cards.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-19_04-36-18Z-notes-homepage-item-arrangement.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_07-06-09Z-content-consistency-between-local-and-live.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/has-cards.html"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-20_02-41-11Z-upstream-synchronization.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_06-58-41Z-automatic-inclusion-of-jorap-notes-in-meta-titles.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".cursor/skills/hugo-template-guidance/references/hugo-modules.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "_vendor/github.com/gethugothemes/hugo-modules/images/assets/scss/images.scss"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-28_03-00-38Z-sveltia-notes-update.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-30_22-54-58Z-hugo-plate-theme-review-looping-issue.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-05-10_06-27-45Z-system-update-process-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__hugo-go-templates.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "config/_default/module.toml"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_06-30-33Z-shortening-names-of-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_08-12-04Z-eternal-principles-and-jesus'-teachings.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-20_17-18-55Z-button-and-link-padding-consistency.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": "content/english/blog/__hugo-shortcodes-deep-dive.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-05-02_10-14-48Z-terminal-process-stuck-issue.md"
+    }
+  ],
+  "totalFiles": 102,
+  "totalMatches": 842
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **21** results in **1** directory</summary>
+
+Directory: **** (21 files)
+
+| File |
+|------|
+| `_vendor/github.com/gethugothemes/hugo-modules/shortcodes/button/layouts/shortcodes/button.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/images/layouts/shortcodes/image.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/adsense/layouts/shortcodes/adsense.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/layouts/shortcodes/gallery.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/gallery-slider/layouts/shortcodes/slider.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/table-of-contents/layouts/shortcodes/toc.html` |
+| `themes/jorap/layouts/shortcodes/youtube.html` |
+| `themes/jorap/layouts/shortcodes/youtube_time.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/shortcodes/notice/layouts/shortcodes/notice.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/tab/layouts/shortcodes/tab.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/accordion/layouts/shortcodes/accordion.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/modal/layouts/shortcodes/modal.html` |
+| `layouts/shortcodes/card.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/tab/layouts/shortcodes/tabs.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/shortcodes/mermaid/layouts/shortcodes/mermaid.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/shortcodes/vimeo-lite.html` |
+| `themes/jorap/layouts/shortcodes/spotify.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/shortcodes/video.html` |
+| `_vendor/github.com/gethugothemes/hugo-modules/videos/layouts/shortcodes/youtube-lite.html` |
+| `themes/jorap/layouts/shortcodes/spotify_iframe_track.html` |
+| `themes/jorap/layouts/shortcodes/spotify_iframe_artist.html` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/index.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/**/*.{md,html}",
+  "pattern": "\\{\\{[\u003c%]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "\\{\\{[\u003c%]",
+  "topFiles": [
+    {
+      "matchCount": 46,
+      "uri": "./content/english/blog/alex-eala-pro-career-tracker.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/set-it-forget-it-arroz-caldo.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "./content/english/blog/dnpap-song-resources.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./content/english/blog/power-of-worship-pads-enhancing-your-worship-experience.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./content/english/pages/elements.md"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 207
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch">
+<details>
+<summary>Tool use: **web_fetch**</summary>
+
+
+Parameters:
+
+```json
+{
+  "url": "https://sveltiacms.app/en/docs/api/editor-components"
+}
+```
+Result:
+
+```json
+{
+  "markdown": "# Custom Editor Components\n\nA custom editor component allows you to create reusable, complex block-level component available in the rich text editor. Registered components appear under the Insert button on the editor toolbar. When clicked, they insert a predefined template into the editor at the current cursor position.\n\n## Overview\n\nTo register a custom editor component, use the &#96;registerEditorComponent&#96; method on the &#96;CMS&#96; object:\n\n&#96;&#96;&#96;js\nCMS.registerEditorComponent(definition);\n\n&#96;&#96;&#96;\n\nThe component &#96;definition&#96; object includes the following properties:\n\n### Required Properties\n\n- &#96;id&#96; (string): A unique identifier for the component. This is the name you will use to reference this component in the &#96;editor_components&#96; option for a RichText or Markdown field. It should be unique and not conflict with built-in component IDs (&#96;code-block&#96;, &#96;image&#96;).\n- &#96;fields&#96; (array of field definitions): An array defining the fields to be displayed in the component.\n- &#96;pattern&#96; (RegExp): A regular expression used to identify existing instances of the component in the Markdown content. It’s recommended to use named capture groups corresponding to the field names so that &#96;fromBlock&#96; can be omitted if no additional processing is needed. Matching could be either block (multiline) or inline, depending on the component. To match block content, use the &#96;s&#96; (dotAll) or &#96;m&#96; (multiline) flag, or include &#96;[\\s\\S]&#96; in the pattern.\n- &#96;fromBlock&#96; (function): A function that takes a regex match array and returns an object mapping field names to their values. This property can be omitted if the &#96;pattern&#96; regular expression contains named capture groups corresponding to the field names, and no additional processing like type conversion is needed. Otherwise, this property is required. You must provide a function to extract field values from the regex match.\n- &#96;toBlock&#96; (function): A function that takes an object mapping field names to their values and returns a string representing the Markdown content to be inserted.\n\n### Optional Properties\n\n- &#96;label&#96; (string): The text label displayed on the toolbar button. Defaults to the &#96;id&#96; value.\n- &#96;icon&#96; (string): A Material Symbols icon name to display on the toolbar button.\n- &#96;toPreview&#96; (function): A function that takes an object mapping field names to their values and returns a string or React element representing the HTML preview of the component in the editor. If omitted, no preview is shown.\n- &#96;mode&#96; (string): Editing mode for the component. &#96;block&#96; (default) renders the component within the rich text editor as an expandable field list. &#96;dialog&#96; renders a compact placeholder that opens a dialog when clicked.\n- &#96;summary&#96; (string): Template for the placeholder text when &#96;mode&#96; is &#96;dialog&#96;, e.g. &#96;{{title}} - {{videoId}}&#96;. Falls back to the first string field value, then to the component label.\n- &#96;collapsed&#96; (boolean): If true, the component's fields panel is collapsed by default when inserted (&#96;block&#96; mode only).\n\n::: warning Breaking change from Netlify/Decap CMS\n\nNetlify/Decap CMS implements the &#96;getAsset&#96; and &#96;fields&#96; parameters for the &#96;toPreview&#96; function, which can be used to replace image file paths with blob URLs in the preview. Sveltia CMS does not support these undocumented parameters because it automatically replaces image paths with blob URLs. See the Image with Caption example for details.\n\n:::\n\n## Using Components\n\nOnce registered, custom editor components can be used in any RichText or Markdown field. By default, all built-in and custom components are included. You can restrict which components are available by adding their &#96;id&#96; to the field’s &#96;editor_components&#96; array in the collection configuration.\n\nFor example, to allow only the built-in &#96;image&#96; component and custom &#96;callout&#96; and &#96;youtube&#96; components:\n\n::: code-group\n\n&#96;&#96;&#96;yaml{5} [YAML]\nfields:\n  - name: content\n    label: Content\n    widget: richtext\n    editor_components: [image, callout, youtube]\n\n&#96;&#96;&#96;\n\n&#96;&#96;&#96;toml{5} [TOML]\n[[fields]]\nname = \"content\"\nlabel = \"Content\"\nwidget = \"richtext\"\neditor_components = [\"image\", \"callout\", \"youtube\"]\n\n&#96;&#96;&#96;\n\n&#96;&#96;&#96;json{7} [JSON]\n{\n  \"fields\": [\n    {\n      \"name\": \"content\",\n      \"label\": \"Content\",\n      \"widget\": \"richtext\",\n      \"editor_components\": [\"image\", \"callout\", \"youtube\"]\n    }\n  ]\n}\n\n&#96;&#96;&#96;\n\n&#96;&#96;&#96;js{7} [JavaScript]\n{\n  fields: [\n    {\n      name: \"content\",\n      label: \"Content\",\n      widget: \"richtext\",\n      editor_components: [\"image\", \"callout\", \"youtube\"],\n    },\n  ],\n}\n\n&#96;&#96;&#96;\n\n:::\n\n## Examples\n\n### Callout\n\nThe following example demonstrates how to register a custom editor component for a \"Callout\" block:\n\n&#96;&#96;&#96;js\nCMS.registerEditorComponent({\n  id: 'callout',\n  label: 'Callout',\n  icon: 'campaign',\n  fields: [\n    { name: 'type', label: 'Type', widget: 'select', options: ['info', 'warning', 'error'] },\n    { name: 'message', label: 'Message' },\n  ],\n  pattern: /^:::callout (\\w+)\\n([\\s\\S]+?)\\n:::/m,\n  fromBlock: (match) =\u003e ({\n    type: match[1],\n    message: match[2].trim(),\n  }),\n  toBlock: (data) =\u003e &#96;:::callout ${data.type}\\n${data.message}\\n:::&#96;,\n  toPreview: (data) =\u003e &#96;:::callout ${data.type}\\n${data.message}\\n:::&#96;,\n});\n\n&#96;&#96;&#96;\n\nIn this example, the “Callout” component allows users to insert a callout block with a specified type (info, warning, or error) and a message. The &#96;pattern&#96; regular expression is used to identify existing callout blocks in the Markdown content, while the &#96;fromBlock&#96; and &#96;toBlock&#96; functions handle the conversion between the component's data and its Markdown representation.\n\n### File Link\n\nThis example demonstrates how to create a custom editor component for inserting a file link using the built-in &#96;file&#96; field type:\n\n&#96;&#96;&#96;js\nCMS.registerEditorComponent({\n  id: 'file-link',\n  label: 'File Link',\n  icon: 'attach_file',\n  fields: [\n    { name: 'file', label: 'File', widget: 'file' },\n    { name: 'text', label: 'Text to Display', default: '{{file}}' },\n  ],\n  pattern: /\u003ca href=\"([^\"]+?)\" data-file-link\u003e([^\\n]+?)\u003c\\/a\u003e/,\n  fromBlock: (match) =\u003e ({\n    file: decodeURI(match[1]),\n    text: match[2],\n  }),\n  toBlock: (data) =\u003e &#96;\u003ca href=\"${data.file}\" data-file-link\u003e${data.text}\u003c/a\u003e&#96;,\n  toPreview: (data) =\u003e &#96;\u003ca href=\"${data.file}\" data-file-link\u003e${data.text}\u003c/a\u003e&#96;,\n});\n\n&#96;&#96;&#96;\n\n### Collapsible Note\n\nHere’s an example of a collapsible “Note” component:\n\n&#96;&#96;&#96;js\nCMS.registerEditorComponent({\n  id: 'note',\n  label: 'Note',\n  icon: 'note_alt',\n  fields: [\n    { name: 'summary', label: 'Summary' },\n    { name: 'content', label: 'Content', widget: 'richtext' },\n  ],\n  pattern: /^\u003cdetails\u003e\\s*\u003csummary\u003e(?\u003csummary\u003e.+?)\u003c\\/summary\u003e\\s*(?\u003ccontent\u003e[\\s\\S]+?)\\s*\u003c\\/details\u003e/m,\n  toBlock: ({ summary, content }) =\u003e\n    &#96;\u003cdetails\u003e\\n\u003csummary\u003e${summary}\u003c/summary\u003e\\n${content}\\n\u003c/details\u003e&#96;,\n  toPreview: ({ summary, content }) =\u003e\n    &#96;\u003cdetails\u003e\\n\u003csummary\u003e${summary}\u003c/summary\u003e\\n\u003cp\u003e${content}\u003c/p\u003e\\n\u003c/details\u003e&#96;,\n});\n\n&#96;&#96;&#96;\n\nIn this example, the “Note” component creates a collapsible section using HTML &#96; &#96; and &#96; &#96; tags. The &#96;fromBlock&#96; function is omitted because the &#96;pattern&#96; regular expression uses named capture groups that correspond to the field names. The &#96;toBlock&#96; function generates the appropriate HTML structure for the note component based on the provided summary and content.\n\n### Image with Caption\n\nHere’s an example of a custom editor component for inserting an image with a caption using a Hugo shortcode:\n\n&#96;&#96;&#96;js\nCMS.registerEditorComponent({\n  id: 'figure',\n  label: 'Image with Caption',\n  fields: [\n    { name: 'src', label: 'Image', widget: 'image' },\n    { name: 'caption', label: 'Caption' },\n  ],\n  pattern: /{{\u003c image src=\"(?\u003csrc\u003e.*?)\" caption=\"(?\u003ccaption\u003e.*?)\" \u003e}}/,\n  toBlock: ({ src, caption }) =\u003e &#96;{{\u003c image src=\"${src}\" caption=\"${caption}\" \u003e}}&#96;,\n  toPreview: ({ src, caption }) =\u003e\n    &#96;\u003cfigure\u003e\u003cimg src=\"${src}\" alt=\"\"\u003e\u003cfigcaption\u003e${caption}\u003c/figcaption\u003e\u003c/figure\u003e&#96;,\n});\n\n&#96;&#96;&#96;\n\nThe &#96;fromBlock&#96; function is omitted again because the &#96;pattern&#96; regular expression uses named capture groups that correspond to the field names. The &#96;toBlock&#96; function generates a Hugo shortcode for the image with caption, while the &#96;toPreview&#96; function creates an HTML figure element to display the image and its caption in the editor preview.\n\nNote that the &#96;src&#96; attribute will be automatically replaced with a blob URL in the editor preview when an image is selected, while the actual file path will be stored in the Markdown content.\n\n### YouTube Embed\n\n&#96;&#96;&#96;js\nCMS.registerEditorComponent({\n  id: 'youtube',\n  label: 'YouTube',\n  icon: 'youtube_activity',\n  fields: [\n    { name: 'id', label: 'ID' },\n    { name: 'width', label: 'Width', widget: 'number', valueType: 'int', default: 560 },\n    { name: 'height', label: 'Height', widget: 'number', valueType: 'int', default: 315 },\n  ],\n  pattern: /{{\u003c youtube id=\"(?\u003cid\u003e.*?)\"(?: width=\"(?\u003cwidth\u003e.*?)\" height=\"(?\u003cheight\u003e.*?)\")? \u003e}}/m,\n  fromBlock: ({ groups: { id, width, height } = {} }) =\u003e ({\n    id,\n    width: width ? Number(width) : 560,\n    height: height ? Number(height) : 315,\n  }),\n  toBlock: ({ id, width = 560, height = 315 }) =\u003e\n    &#96;{{\u003c youtube id=\"${id}\" width=\"${width}\" height=\"${height}\" \u003e}}&#96;,\n  toPreview: ({ id, width = 560, height = 315 }) =\u003e\n    id\n      ? &#96;\u003ciframe src=\"https://www.youtube-nocookie.com/embed/${id}\"\n          width=\"${width}\" height=\"${height}\" allowfullscreen\n          allow=\"autoplay; encrypted-media; picture-in-picture\"\u003e\u003c/iframe\u003e&#96;\n      : '',\n});\n\n&#96;&#96;&#96;\n\nIn this example, the “YouTube” component allows users to embed YouTube videos using a Hugo shortcode. The &#96;pattern&#96; regular expression captures the video ID, width, and height from the shortcode. The &#96;fromBlock&#96; function processes the captured values, casting width and height to numbers. The &#96;toBlock&#96; function generates the shortcode string, while the &#96;toPreview&#96; function creates an iframe preview of the embedded video.\n\nThe &#96;pattern&#96; uses the &#96;m&#96; (multiline) flag to make the component block-level, though it’s not multiline in this case.\n\n### Inline Link (Dialog Mode)\n\nThe &#96;dialog&#96; mode is ideal for inline elements that would be too disruptive to display as a block within the editor. This example creates a custom link shortcode that appears as a compact inline placeholder and opens a dialog when clicked:\n\n&#96;&#96;&#96;js\nCMS.registerEditorComponent({\n  id: 'custom-link',\n  label: 'Custom Link',\n  icon: 'link',\n  mode: 'dialog',\n  summary: '{{text}} — {{url}}',\n  fields: [\n    { name: 'text', label: 'Link Text' },\n    { name: 'url', label: 'URL' },\n  ],\n  pattern: /\\[link text=\"(?\u003ctext\u003e.*?)\" url=\"(?\u003curl\u003e.*?)\"\\]/,\n  toBlock: ({ text, url }) =\u003e &#96;[link text=\"${text}\" url=\"${url}\"]&#96;,\n  toPreview: ({ text, url }) =\u003e &#96;\u003ca href=\"${url}\"\u003e${text}\u003c/a\u003e&#96;,\n});\n\n&#96;&#96;&#96;\n\nIn this example, the \"Custom Link\" component renders as a small inline chip in the editor showing the link text and URL. Clicking it opens a dialog where the user can fill in or update the fields. The &#96;summary&#96; template controls what text is shown in the placeholder — here it shows the link text and URL separated by an em dash. When neither the summary nor any string field value is available (e.g. for a freshly inserted component), the component &#96;label&#96; is shown as a fallback.\n\n### Using React for Preview\n\nThe &#96;toPreview&#96; function can also return a React element for a richer preview experience. This allows you to create more complex and styled previews directly in the editor. Sveltia CMS exposes &#96;createElement&#96; (alias: &#96;h&#96;) from React, so you can use it to build your preview component without needing JSX.\n\n&#96;&#96;&#96;js\nCMS.registerEditorComponent({\n  id: 'callout',\n  label: 'Callout',\n  fields: [\n    {\n      name: 'type',\n      label: 'Type',\n      widget: 'select',\n      options: ['info', 'warning', 'tip'],\n      default: 'info',\n    },\n    { name: 'content', label: 'Content', widget: 'text' },\n  ],\n  pattern: /\\[(?\u003ctype\u003einfo|warning|tip)\\]\\s*(?\u003ccontent\u003e.*)/gs,\n  fromBlock: (match) =\u003e ({ type: match.groups?.type, content: match.groups?.content }),\n  toBlock: ({ type = 'info', content = '' }) =\u003e &#96;[${type}] ${content}&#96;,\n  toPreview: ({ type = 'info', content = '' }) =\u003e {\n    const colors = { info: '#0ea5e9', warning: '#f59e0b', tip: '#22c55e' };\n    const borderColor = colors[type] ?? colors.info;\n\n    return h(\n      'div',\n      {\n        style: {\n          padding: '0.75em 1em',\n          borderLeft: &#96;4px solid ${borderColor}&#96;,\n          background: '#f8fafc',\n          borderRadius: '0 4px 4px 0',\n        },\n      },\n      h('strong', { style: { textTransform: 'capitalize' } }, type),\n      h('p', { style: { margin: '0.25em 0 0' } }, content),\n    );\n\n    /* or, with JSX (if your build setup supports it):\n    return (\n      \u003cdiv\n        style={{\n          padding: '0.75em 1em',\n          borderLeft: &#96;4px solid ${borderColor}&#96;,\n          background: '#f8fafc',\n          borderRadius: '0 4px 4px 0',\n        }}\n      \u003e\n        \u003cstrong style={{ textTransform: 'capitalize' }}\u003e{type}\u003c/strong\u003e\n        \u003cp style={{ margin: '0.25em 0 0' }}\u003e{content}\u003c/p\u003e\n      \u003c/div\u003e\n    );\n    */\n  },\n});\n\n&#96;&#96;&#96;",
+  "url": "https://sveltiacms.app/en/docs/api/editor-components"
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The site uses positional shortcode arguments rather than named parameters. For example, `{{< youtube AdoeRVzt6FQ >}}` passes the ID directly instead of using `id="..."`.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/shortcodes/youtube.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/shortcodes/youtube_time.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/shortcodes/spotify_iframe_track.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/shortcodes/spotify_iframe_artist.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/shortcodes/card.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/images/layouts/shortcodes/image.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/shortcodes/notice/layouts/shortcodes/notice.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/shortcodes/button/layouts/shortcodes/button.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/_vendor/github.com/gethugothemes/hugo-modules/shortcodes/notice/layouts/shortcodes/notice.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/**/*.{md,html}",
+  "pattern": "\\{\\{[\u003c%].*(image|notice|button|card|toc|gallery|mermaid|spotify|youtube)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "\\{\\{[\u003c%].*(image|notice|button|card|toc|gallery|mermaid|spotify|youtube)",
+  "topFiles": [
+    {
+      "matchCount": 46,
+      "uri": "./content/english/blog/alex-eala-pro-career-tracker.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/set-it-forget-it-arroz-caldo.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": "./content/english/blog/dnpap-song-resources.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./content/english/blog/power-of-worship-pads-enhancing-your-worship-experience.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": "./content/english/pages/elements.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/consistent-ai-output-wordpress-builds.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/blog/miracle-isaiah-david.md"
+    }
+  ],
+  "totalFiles": 8,
+  "totalMatches": 141
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
+
+Directory: **** (2 files)
+
+| File |
+|------|
+| `./static/admin/config.yml` |
+| `./static/admin/index.html` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Creating a shortcode registry file for the admin editor. Updating the admin index HTML to load it after the CMS script.
+
+Updating `config.yml` to include `editor_components` in the blog and notes body fields. The editor components script loads after the CMS library, so it registers correctly via the global `CMS` object. The `notice` shortcode is a paired block type.
+
+Defining regex patterns for shortcode parameters. Positional and named arguments must both be supported. The image shortcode will expose common attributes like src, caption, alt, and dimensions. YouTube, youtube_time, and spotify_iframe_track patterns are being drafted next.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/flashcard.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch">
+<details>
+<summary>Tool use: **web_fetch**</summary>
+
+
+Parameters:
+
+```json
+{
+  "url": "https://hugolify.io/docs/cms/admin/shortcodes"
+}
+```
+Result:
+
+```json
+{
+  "markdown": "Shortcodes | Hugolify, framework Hugo with Bootstrap and 7 headless CMS (CloudCannon, Decap, Netlify, Pages, Static, Sveltia and Tina)\n\n- Main content\n- Main navigation\n- Search\n- Go to the bottom of the page\n\nSearch\n\nAdd/modify shortcodes\n\nAvailable for CloudCannon, Decap CMS, Netlify CMS and Sveltia CMS\n\n## Add or remove shortcodes\n\n&#96;/config/_default/params.yaml&#96;\n\nAll shortcodes are available by default but if you want hide or add your shortcodes, you can do it:\n\n&#96;&#96;&#96;\nparams:\n  admin:\n    shortcodes:\n      # Array of available shortcodes\n      enable:\n        - alert\n        - badge\n        - blank_link\n        - blockquote\n        - button\n        - details\n        - map\n        - twitter\n        - youtube\n\n&#96;&#96;&#96;\n\n## Disable shortcodes\n\n&#96;/config/_default/params.yaml&#96;\n\n&#96;&#96;&#96;\nparams:\n  admin:\n    shortcodes:\n      enable: false\n\n&#96;&#96;&#96;\n\n## Create a shortcodes\n\n### Create file\n\nAdd a js shortcode file in shortcodes directory.\n\n&#96;&#96;&#96;\nlayouts/\n└── partials/\n    └── admin/\n        └── cms/\n            └── decapcms/\n                └── shortcodes/\n\n&#96;&#96;&#96;\n\nAnd add it in enable shortcodes: see above\n\n### Examples\n\nSee examples in repository (for decap CMS)\n\n## List of Hugolify shortcodes\n\nHugolify shortcodes",
+  "url": "https://hugolify.io/docs/cms/admin/shortcodes"
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="web_fetch"><details>
+<summary>Tool use: **web_fetch**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "pattern": "\\{\\{[\u003c%]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "\\{\\{[\u003c%]",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Cards are currently stored in frontmatter rather than content. The card shortcode already exists for inline cards in note bodies.
+
+Planning editor-components.js to render shortcodes in the editor. Nine formats are targeted: YouTube embeds, Spotify iframes, images, notices, buttons, cards, and TOC. The notice shortcode requires paired opening and closing tags. Image parameters are optional.
+
+The image shortcode regex will capture src and optional caption and alt attributes. toBlock will emit essential parameters plus sensible defaults.
+
+Image fields will include a source widget, caption, alt text, webp toggle, zoomable toggle, and position selector. The block renderer will emit the full shortcode using edited values. Parsing existing shortcodes will rely on named regex groups for common parameters, while rare extras may be dropped on re-save. Editor components will stay focused on the most frequently edited fields.
+
+The editor-components.js file will be placed at static/admin/editor-components.js and loaded via the CDN script in index.html. The CMS object is expected to be globally available immediately after initialization.
+
+The editor-components.js script will load from `/admin/editor-components.js`. The `config.yml` body fields need an explicit `editor_components` list. Built-in `image` must be excluded because it inserts plain markdown instead of Hugo shortcodes. Only custom components should be listed to ensure only Hugo shortcodes appear in the editor.
+
+The explicit editor_components list will include code-block alongside the nine custom shortcodes. This ensures only Hugo shortcodes appear in the editor while preserving markdown code blocks.
+
+Component IDs will use a prefix to avoid colliding with built-in CMS components. The YouTube shortcode regex will match both positional and named ID formats. fromBlock will extract the video ID from whichever parameter style is present.
+
+Refined regex patterns for YouTube and Spotify shortcodes to handle empty tags and missing spaces before closing. The YouTube time shortcode will capture the video ID, start time, and end time. Spotify iframe track and artist shortcodes will support both named ID and positional ID formats.
+
+Regex patterns are being defined for the remaining shortcodes. Card will capture front and back text. Button will capture label, link, and optional style. TOC is a zero-parameter insert component. The notice shortcode will use a type selector and a content textarea.</details></think>
+
+_**Agent (default)**_
+
+Implementing Sveltia editor components for our Hugo shortcodes and wiring them into the admin UI.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/functions/admin/_middleware.js</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+The Content Security Policy permits loading editor components from the same origin.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 15,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/_headers",
+  "pattern": "admin"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/static/_headers",
+  "pattern": "admin",
+  "topFiles": [
+    {
+      "matchCount": 32,
+      "uri": "static/_headers"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Updating frame-src in _headers and _middleware.js to allow YouTube and Spotify embeds for Sveltia editor previews.
+
+Planning editor-components.js with a shared YAML list of editor components. Notes will include card and blog shortcodes, while excluding TOC.
+
+Adding a quote-escaping helper for shortcode generation. Considering YAML anchors to share the component list across configuration files.</details></think>
+
+_**Agent (default)**_
+
+Creating editor components and updating CSP so embed previews (YouTube, Spotify) can render in iframes.
+
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/editor-components.js</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/index.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/functions/admin/_middleware.js</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/_headers</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c "import yaml; yaml.safe_load(open('/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml'))" && node --check /home/jorap/Documents/GitHub/jorap.com/static/admin/editor-components.js && echo OK</summary>
+
+```bash
+python3 -c "import yaml; yaml.safe_load(open('/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml'))" && node --check /home/jorap/Documents/GitHub/jorap.com/static/admin/editor-components.js && echo OK
+```
+
+```
+OK
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<think><details><summary>Thought Process</summary>
+Adding a minimal self-check for the regex patterns. The ponytail rule requires one runnable check for non-trivial logic.</details></think>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: node <<'EOF'
+const samples = [
+  ['youtube', '{{< youtube maG9TzsuVeM >}}', /^\{\{<\s*youtube\s+(?:id="(?<id>[^"]+)"|(?<posId>[^\s>]+))\s*>\}\}/m],
+  ['youtube_time', '{{< youtube_time id="7lka80ZAays" start="14" end="388" >}}', /^\{\{<\s*youtube_time\s+id="(?<id>[^"]+)"\s+start="(?<start>[^"]+)"\s+end="(?<end>[^"]+)"\s*>\}\}/m],
+  ['spotify', '{{< spotify_iframe_track 5ikuIeKWiuCKMxvu5gloyl >}}', /^\{\{<\s*spotify_iframe_track\s+(?:id="(?<id>[^"]+)"|(?<posId>[^\s>]+))\s*>\}\}/m],
+  ['image', '{{< image src="images/foo.png" caption="Cap" alt="Alt" webp="true" >}}', /^\{\{<\s*image\s+(?<attrs>[\s\S]+?)\s*>\}\}/m],
+  ['notice', '{{< notice "tip" >}}\nHello\n{{< /notice >}}', /^\{\{<\s*notice\s+"(?<type>[^"]+)"\s*>\}\}(?<content>[\s\S]+?)\{\{<\s*\/notice\s*>\}\}/m],
+  ['card', '{{< card front="Cue?" back="Move." >}}', /^\{\{<\s*card\s+front="(?<front>[^"]+)"\s+back="(?<back>[^"]+)"\s*>\}\}/m],
+];
+for (const [name, text, re] of samples) {
+  const m = text.match(re);
+  if (!m) throw new Error('no match: ' + name);
+}
+console.log('pattern checks ok');
+EOF</summary>
+
+```bash
+node <<'EOF'
+const samples = [
+  ['youtube', '{{< youtube maG9TzsuVeM >}}', /^\{\{<\s*youtube\s+(?:id="(?<id>[^"]+)"|(?<posId>[^\s>]+))\s*>\}\}/m],
+  ['youtube_time', '{{< youtube_time id="7lka80ZAays" start="14" end="388" >}}', /^\{\{<\s*youtube_time\s+id="(?<id>[^"]+)"\s+start="(?<start>[^"]+)"\s+end="(?<end>[^"]+)"\s*>\}\}/m],
+  ['spotify', '{{< spotify_iframe_track 5ikuIeKWiuCKMxvu5gloyl >}}', /^\{\{<\s*spotify_iframe_track\s+(?:id="(?<id>[^"]+)"|(?<posId>[^\s>]+))\s*>\}\}/m],
+  ['image', '{{< image src="images/foo.png" caption="Cap" alt="Alt" webp="true" >}}', /^\{\{<\s*image\s+(?<attrs>[\s\S]+?)\s*>\}\}/m],
+  ['notice', '{{< notice "tip" >}}\nHello\n{{< /notice >}}', /^\{\{<\s*notice\s+"(?<type>[^"]+)"\s*>\}\}(?<content>[\s\S]+?)\{\{<\s*\/notice\s*>\}\}/m],
+  ['card', '{{< card front="Cue?" back="Move." >}}', /^\{\{<\s*card\s+front="(?<front>[^"]+)"\s+back="(?<back>[^"]+)"\s*>\}\}/m],
+];
+for (const [name, text, re] of samples) {
+  const m = text.match(re);
+  if (!m) throw new Error('no match: ' + name);
+}
+console.log('pattern checks ok');
+EOF
+```
+
+```
+pattern checks ok
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+Shortcode support is wired up via Sveltia **editor components** — toolbar insert buttons, structured fields, and in-editor previews.
+
+### What changed
+
+1. **`static/admin/editor-components.js`** — registers Hugo shortcodes with `CMS.registerEditorComponent`:
+   - YouTube, YouTube clip (`youtube_time`)
+   - Spotify track / artist
+   - Image (Hugo `image` shortcode with caption, alt, position, webp, zoomable)
+   - Notice (paired `notice` blocks)
+   - Button, inline flashcard (`card`), table of contents (`toc`)
+
+2. **`static/admin/index.html`** — loads that script after the Sveltia bundle.
+
+3. **`static/admin/config.yml`** — blog and notes **Body** fields use the shortcode toolbar (`editor_components`).
+
+4. **Admin CSP** (`static/_headers` + `functions/admin/_middleware.js`) — allows YouTube and Spotify iframes in previews.
+
+### How to use it
+
+In `/admin/`, open a post or note body → click **Insert (+)** on the markdown toolbar → pick a shortcode (YouTube, Image, Notice, etc.). Existing shortcodes in content are parsed into editable blocks with previews.
+
+### Limits (by design)
+
+- **No autodetect** — each shortcode is registered manually; Sveltia doesn’t scan `layouts/shortcodes/`.
+- **Gallery / slider / mermaid** aren’t registered yet (more complex params). Say if you want those added.
+- **Wikilinks** (`[[Note Title]]`) stay plain markdown — no Hugo preview in the CMS.
+- **Re-saving a complex `image` shortcode** may drop rarely used attrs (height, command, etc.); common fields are preserved.
+
+After deploy, open a post with existing `{{< youtube ... >}}` embeds — they should show as editable blocks with live iframe previews.
+
+---
+
+_**User**_
+
+can you look at all possible shortcodes in the codebase and create jorap- equivalents that I can customize
+
+---
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **0** directories</summary>
+
+No results found
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Status: **loading**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: </summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: </summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: </summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: </summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: </summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: </summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: </summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: </summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: </summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: </summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: </summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: </summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: </summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: </summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: </summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (default)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/static/admin/jorap-shortcodes.js</summary>
+
+Status: **loading**
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
 
 </details></tool-use>

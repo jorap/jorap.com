@@ -11,6 +11,30 @@ media_folder: "assets/images"
 # No leading slash: matches Hugo assets (images/...) and the theme image partial.
 public_folder: "images"
 
+# Hugo shortcodes — registry in static/admin/jorap-shortcodes.js (jorap-* ids)
+editor_components: &hugo_editor_components
+  - code-block
+  - jorap-youtube
+  - jorap-youtube-time
+  - jorap-youtube-lite
+  - jorap-vimeo-lite
+  - jorap-video
+  - jorap-spotify
+  - jorap-spotify-track
+  - jorap-spotify-artist
+  - jorap-image
+  - jorap-gallery
+  - jorap-slider
+  - jorap-notice
+  - jorap-button
+  - jorap-accordion
+  - jorap-tabs
+  - jorap-modal
+  - jorap-toc
+  - jorap-card
+  - jorap-mermaid
+  - jorap-adsense
+
 collections:
   - name: "blog"
     label: "Blog Posts"
@@ -54,7 +78,12 @@ collections:
           field: {label: "Tag", widget: "string"},
         }
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {
+          label: "Body",
+          name: "body",
+          widget: "markdown",
+          editor_components: *hugo_editor_components,
+        }
 
   - name: "notes"
     label: "Notes"
@@ -172,5 +201,6 @@ collections:
           label: "Body",
           name: "body",
           widget: "markdown",
-          hint: "Use [[wikilinks]] for links. Optional ## Note Relationships table and ## See also section.",
+          editor_components: *hugo_editor_components,
+          hint: "Use [[wikilinks]] for links. Insert Hugo shortcodes from the toolbar (+). Optional ## Note Relationships table and ## See also section.",
         }
