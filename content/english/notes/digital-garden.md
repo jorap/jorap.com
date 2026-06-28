@@ -14,7 +14,7 @@ draft: false
 aliases: ["Advantages of Digital Gardens", "Gardening Metaphor", "Work in Progress"]
 ---
 
-My digital garden is where notes grow in public - linked, imperfect, alive.
+My digital garden is where notes grow in public - linked, imperfect, alive. Same [[Free Tier Hosting Stack]] I use for [[Selling Static Sites]] - Hugo, GitHub, Cloudflare Pages - though the garden is my lab, not a client deliverable.
 
 ## Examples
 
@@ -31,9 +31,11 @@ My digital garden is where notes grow in public - linked, imperfect, alive.
 | contradicts | [[The Garage Concept]] | when public growth beats keeping scraps in the garage |
 | extends | [[Evergreen Notes]] | Evergreen notes go public so they keep growing instead of rotting in a folder |
 | extends | [[Work in Progress]] | Public drafts and visible growth - garden ethos |
+| extends | [[Free Tier Hosting Stack]] | Same Hugo-plus-git host I sell for client static sites |
 | implements | [[Evergreen Notes]] | Public garden carries durable notes into visible growth |
 ## See also
 
+- [[Selling Static Sites]] - Cloudflare Pages, Freelance, Hugo
 - [[Getting Started]] - Digital Garden, Hugo, PKM
 - [[Associative Linking]] - Digital Garden, PKM, Second Brain
 - [[The Garage Concept]] - Digital Garden, Hugo, PKM

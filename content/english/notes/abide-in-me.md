@@ -29,7 +29,7 @@ aliases: ["remain in me", "the vine and branches"]
 ---
 **Abide in me** = stay connected to Christ the way branches stay in the vine - apart from him you can do nothing; fruit comes from union (John 15:1-11).
 
-Abiding is ongoing dependence, not a one-time conversion event. Pruning hurts but serves fruitfulness. Under [[Free Grace]], fruit doesn't earn the branch's place in the vine - the branch bears fruit because it's connected. Self-powered "fruit" without abiding is the dead wood Jesus removes - same trap as [[Compounding]] when I treat spiritual growth as pure self-stacked effort.
+Abiding is ongoing dependence, not a one-time conversion event. Pruning hurts but serves fruitfulness. Under [[Free Grace]], fruit doesn't earn the branch's place in the vine - the branch bears fruit because it's connected. [[Sanctification]] is the slow becoming that abiding produces over time. Self-powered "fruit" without abiding is the dead wood Jesus removes - same trap as [[Compounding]] when I treat spiritual growth as pure self-stacked effort.
 
 ## Examples
 
@@ -45,8 +45,10 @@ Abiding is ongoing dependence, not a one-time conversion event. Pruning hurts bu
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when I treat spiritual growth as pure self-stacked effort |
 | extends | [[Free Grace]] | Fruit comes from staying in Christ, not from earning your spot on the vine |
+| extends | [[Sanctification]] | Abiding is how holiness grows after justification |
 ## See also
 
+- [[Sanctification]] - Eternal Principles, Gospel, Discipleship
 - [[Free Grace]] - Eternal Principles, Faith, Gospel
 - [[Compounding]] - Mental Models, PKM, Performance
 - [[Take Up Your Cross]] - Discipleship, Eternal Principles, Gospel

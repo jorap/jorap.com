@@ -14,7 +14,7 @@ aliases: ["yes means yes at work"]
 ---
 **Plain commitments at work** = say yes or no clearly - no "definitely maybe," no stack of qualifiers so people trust a weak promise.
 
-If my word needs hype to sound believable, the problem is my follow-through, not the sentence. One deadline, one owner, one plain answer in Slack. Gospel source: [[Let Your Yes Be Yes]]. PKM parallel: [[Atomic Notes]] - one claim per message, not padded prose.
+If my word needs hype to sound believable, the problem is my follow-through, not the sentence. One deadline, one owner, one plain answer in Slack. On [[Selling Static Sites]] scoping: say yes or no to [[Static Site Client Scope]] before deposit; name the [[Client Site Handoff]] model the same way. Gospel source: [[Let Your Yes Be Yes]]. PKM parallel: [[Atomic Notes]] - one claim per message, not padded prose.
 
 ## Examples
 
@@ -31,8 +31,11 @@ If my word needs hype to sound believable, the problem is my follow-through, not
 | extends | [[Atomic Notes]] | One plain claim per commitment, not kitchen-sink promises |
 | extends | [[Let Your Yes Be Yes]] | Plain speech without oath-padding - applied to deadlines and Slack |
 | extends | [[Set Calm Boundaries]] | Plain yes/no at work uses the same steady-voice muscle |
+| extends | [[Static Site Client Scope]] | Scope yes/no before quote - same plain commitment muscle |
+| extends | [[Client Site Handoff]] | Name one publish path before deposit - same plain yes/no |
 ## See also
 
+- [[Client Site Handoff]] - Freelance, Handoff, Static Site Generator
 - [[Workplace Principles]] - Ethics, Eternal Principles, Workplace
 - [[Integrity When No One's Watching]] - Ethics, Eternal Principles, Workplace
 - [[The Golden Rule at Work]] - Ethics, Eternal Principles, Workplace

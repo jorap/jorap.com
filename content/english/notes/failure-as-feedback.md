@@ -14,6 +14,8 @@ aliases: []
 ---
 **Failure as feedback** = a miss tells you what to fix next - process, skill, assumption - if you don't treat it as a identity verdict.
 
+Faith parallel: [[Loss of Reward]] - worthless works burn at the [[Judgment Seat]], but the builder is still saved through fire. The miss is feedback on what to build next, not proof you were never in.
+
 ## Examples
 
 - I missed three free throws in a row - failure as feedback was follow-through and routine, not deciding I'm "not a basketball person."
@@ -29,7 +31,9 @@ aliases: []
 | extends | [[Convert Pain Into Learning]] | Feedback becomes useful when it produces change |
 | extends | [[Growth Mindset]] | Signal vs fixed identity |
 | extends | [[Heed Every Near-Miss]] | Close calls are feedback before harm |
+| extends | [[Loss of Reward]] | Burned work is feedback on what to build - not proof you were never saved |
 ## See also
 
+- [[Loss of Reward]] - Eternal Principles, Gospel, Reward
 - [[Convert Pain Into Learning]] - Continuous Improvement, Performance
 - [[Own the Error]] - Accountability, Integrity

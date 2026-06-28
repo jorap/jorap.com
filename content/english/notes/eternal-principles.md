@@ -22,9 +22,17 @@ Start at [[Free Grace]] if the order matters. Then wander by section below. Gosp
 ## Theological basis
 
 - [[Free Grace]] - salvation by faith, not works; principles follow, they don't pay the fare
+- [[Justification]] - declared righteous at faith; finished before the walk catches up
+- [[Sanctification]] - becoming holy over time; grateful growth after the verdict
+- [[Faith and Works]] - faith alone saves; real faith shows up in obedience
 - [[Repent and Believe]] - kingdom at hand now; turn and trust, don't wait until you're "ready"
 - [[Childlike Faith]] - receive like a child; stop negotiating merit before you enter
 - [[Abide in Me]] - fruit from staying connected to Christ, not self-generated effort alone
+
+## Salvation and reward
+
+- [[Judgment Seat]] - believers evaluated for works; rewards repaid, not re-deciding eternal life
+- [[Loss of Reward]] - saved through fire with loss vs never saved; two categories, don't collapse
 
 ## The two great commandments
 
@@ -102,6 +110,11 @@ Same ideas show up in my PKM notes. I wired the pairs below so the faith cluster
 | [[The Beatitudes]] | [[Evergreen Notes]] | Character that matures over years, not fleeting capture |
 | [[Love Your Neighbor]] | [[Associative Linking]] | Neighbors in the graph - ideas linked by proximity and care |
 | [[The Golden Rule]] | [[Note Relationships]] | Treat links like neighbors - typed relationships, not vague vibes |
+| [[Justification]] | [[Minimum Effective Dose]] | Declared righteous at faith - smallest sufficient act, not a merit ladder |
+| [[Sanctification]] | [[Process Over Outcomes]] | Becoming holy daily - not a one-time hero sprint |
+| [[Judgment Seat]] | [[Periodic Knowledge Review]] | Whole life reviewed for reward - not one heroic week as the whole report |
+| [[Faith and Works]] | [[The Wise Builder]] | Real faith hears Jesus and builds by doing |
+| [[Loss of Reward]] | [[Failure as Feedback]] | Burned work is feedback on what to build - not proof you were never saved |
 
 ## Note Relationships
 

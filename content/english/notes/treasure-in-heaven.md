@@ -29,7 +29,7 @@ aliases: ["lay up treasure", "where your treasure is"]
 ---
 **Treasure in heaven** = store up what lasts - generosity, mercy, obedience - not what moth, rust, and thieves take (Matthew 6:19-21).
 
-Where your treasure is, there your heart will be. Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation. [[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life for faithfulness - not the entry fee. [[The Collector's Fallacy]] is the PKM mirror: hoarding saves and stuff on earth while nothing lasting gets stored.
+Where your treasure is, there your heart will be. Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation. [[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life for faithfulness - not the entry fee. The [[Judgment Seat]] evaluates what lasts; [[Loss of Reward]] is when worthless treasure burns but you're still saved through fire. [[The Collector's Fallacy]] is the PKM mirror: hoarding saves and stuff on earth while nothing lasting gets stored.
 
 ## Examples
 
@@ -45,8 +45,10 @@ Where your treasure is, there your heart will be. Earthly treasure is fragile; h
 |--------------|----------|--------|
 | contradicts | [[The Collector's Fallacy]] | when I hoard earth and call it wisdom |
 | extends | [[Free Grace]] | Grace secured heaven; treasure names what you store after - not the entry fee |
+| extends | [[Loss of Reward]] | Worthless stored treasure burns; eternal life on Christ stays |
 ## See also
 
+- [[Loss of Reward]] - Eternal Principles, Gospel, Reward
 - [[The Collector's Fallacy]] - Capture, Learning, PKM
 - [[Digital Minimalism]] - Focus, Note Taking, PKM
 - [[Eternal Rewards]] - Eternal Principles, Gospel, Reward

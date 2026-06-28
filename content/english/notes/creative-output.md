@@ -12,7 +12,7 @@ featured: false
 draft: false
 aliases: ["Distraction-Free Writing", "distraction free writing"]
 ---
-Notes are inventory. Output is the point - blog posts, sermons, code, dinner experiments. When I'm testing an idea, I ship an [[Minimum Viable Product]] before I polish. Faith parallel: [[The Wise Builder]] - hear Jesus and do; [[Great Commission]] - truth shared, not hoarded in the garden.
+Notes are inventory. Output is the point - blog posts, sermons, code, dinner experiments. When I'm testing an idea, I ship an [[Minimum Viable Product]] before I polish. Client sites on [[Free Tier Hosting Stack]] are the same express lane - shipped sites, not slide decks about sites. Faith parallel: [[The Wise Builder]] - hear Jesus and do; [[Great Commission]] - truth shared, not hoarded in the garden.
 
 ## Examples
 
@@ -32,6 +32,7 @@ Notes are inventory. Output is the point - blog posts, sermons, code, dinner exp
 | implements | [[Building a Second Brain]] | Express lane carries CODE's output step |
 ## See also
 
+- [[Selling Static Sites]] - Cloudflare Pages, Freelance, Hugo
 - [[The Wise Builder]] - Eternal Principles, Gospel, Sermon on the Mount
 - [[Great Commission]] - Eternal Principles, Gospel, Mission
 - [[Digital Garden]] - PKM, Publishing, Second Brain

@@ -14,7 +14,7 @@ aliases: ["judge by outcomes", "fruit over hype"]
 ---
 **Outcomes over pitch decks** = judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura.
 
-Smooth talkers ship thorns sometimes. I look at downstream stress, turnover, delivery, and whether the team got healthier or more brittle. Don't condemn souls; do read the fruit. Gospel source: [[By Their Fruits]]. PKM parallel: [[Signal vs Noise]].
+Smooth talkers ship thorns sometimes. I look at downstream stress, turnover, delivery, and whether the team got healthier or more brittle. On [[Static Site Client Scope]], same filter: pick WordPress or Shopify when the fruit requires it - don't sell [[Free Tier Hosting Stack]] because it's my favorite hammer. Don't condemn souls; do read the fruit. Gospel source: [[By Their Fruits]]. PKM parallel: [[Signal vs Noise]].
 
 ## Examples
 
@@ -31,8 +31,10 @@ Smooth talkers ship thorns sometimes. I look at downstream stress, turnover, del
 | contradicts | [[Signal vs Noise]] | when I can't tell a slick pitch from real signal |
 | extends | [[By Their Fruits]] | Discern teaching and leaders by outcome, not charisma |
 | extends | [[Signal vs Noise]] | What produces good over time - same filter in the office |
+| extends | [[Static Site Client Scope]] | Pick client stack by needed outcome, not by my preferred tool |
 ## See also
 
+- [[Static Site Client Scope]] - Freelance, Static Site Generator, Website Building
 - [[Workplace Principles]] - Ethics, Eternal Principles, Workplace
 - [[By Their Fruits]] - Eternal Principles, Gospel, Sermon on the Mount
 - [[Priorities Before the Inbox]] - Eternal Principles, Workplace

@@ -29,7 +29,7 @@ aliases: ["follow Jesus", "following Christ"]
 ---
 **Discipleship** = learning from Jesus and doing what He said, day after day - the walk that starts when you repent and believe, not the ticket that buys eternal life.
 
-Under [[Free Grace]], discipleship is grateful response, not payment. [[Repent and Believe]] opens the door. [[Take Up Your Cross]], [[The Narrow Way]], and [[The Wise Builder]] name what the road feels like - costly, narrow, built on hearing and doing. [[Great Commission]] pushes it outward: truth passed on, not hoarded like bookmarks. PKM mirror: [[Creative Output]] - notes mean little if hearing never becomes doing.
+Under [[Free Grace]], discipleship is grateful response, not payment. [[Sanctification]] is the slow becoming that walk produces. Lazy seasons may mean [[Loss of Reward]] at the [[Judgment Seat]] - they don't un-save you. [[Repent and Believe]] opens the door. [[Take Up Your Cross]], [[The Narrow Way]], and [[The Wise Builder]] name what the road feels like - costly, narrow, built on hearing and doing. [[Great Commission]] pushes it outward: truth passed on, not hoarded like bookmarks. PKM mirror: [[Creative Output]] - notes mean little if hearing never becomes doing.
 
 ## Examples
 
@@ -47,8 +47,12 @@ Under [[Free Grace]], discipleship is grateful response, not payment. [[Repent a
 | contradicts | [[There Is No Perfect Solution]] | when I delay following until I've fixed myself |
 | extends | [[Free Grace]] | Following is the grateful walk after faith saves - obedience doesn't buy eternal life |
 | extends | [[Repent and Believe]] | Turn and trust is where discipleship starts |
+| extends | [[Sanctification]] | Daily following is how holiness grows after justification |
+| extends | [[Loss of Reward]] | Lazy obedience may shrink reward - faith still saves |
 ## See also
 
+- [[Loss of Reward]] - Eternal Principles, Gospel, Reward
+- [[Sanctification]] - Eternal Principles, Gospel, Discipleship
 - [[Take Up Your Cross]] - Discipleship, Eternal Principles, Gospel
 - [[The Narrow Way]] - Discipleship, Eternal Principles, Gospel
 - [[The Wise Builder]] - Discipleship, Eternal Principles, Gospel

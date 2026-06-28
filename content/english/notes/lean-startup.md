@@ -14,6 +14,8 @@ aliases: []
 ---
 **Lean startup** = build the smallest test, measure, learn - don't scale before validation.
 
+[[Selling Static Sites]] follows the same loop: one paid build, note what broke (migration time, client Git panic, deploy quirks), fix the template, quote the next job faster.
+
 ## Examples
 
 - I posted one sample lunch-box photo in the group chat before buying a month's worth of new containers - saved money on the wrong feature.
@@ -27,4 +29,7 @@ aliases: []
 |--------------|----------|--------|
 | contradicts | [[Finish Strong]] | when the opposite frame fits better |
 | extends | [[Minimum Viable Product]] | Named in notes that link here |
-| extends | [[Minimum Viable Product]] | Named in notes that link here |
+| extends | [[Selling Static Sites]] | Pilot client site before scaling the freelance offer |
+## See also
+
+- [[Selling Static Sites]] - Cloudflare Pages, Freelance, Hugo

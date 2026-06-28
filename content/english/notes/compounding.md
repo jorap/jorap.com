@@ -14,7 +14,7 @@ aliases: ["Compound Interest"]
 ---
 **Compounding** = repeat small gains until they stack - keep showing up; the curve looks flat until it doesn't.
 
-Borrowed from finance, but it applies anywhere today's gain makes tomorrow easier: notes linked over years, publish cadence, vocab drills. Heroic weeks feel good; boring repetition wins. The first months look like nothing - that's the trap. Faith parallel: [[Abide in Me]] - fruit from staying connected over time, not self-generated effort alone. [[Eternal Rewards]] - the Father repays daily faithfulness over years, not a lump-sum merit binge that buys heaven.
+Borrowed from finance, but it applies anywhere today's gain makes tomorrow easier: notes linked over years, publish cadence, vocab drills. Heroic weeks feel good; boring repetition wins. The first months look like nothing - that's the trap. Faith parallel: [[Abide in Me]] - fruit from staying connected over time, not self-generated effort alone. [[Eternal Rewards]] - the Father repays daily faithfulness over years, not a lump-sum merit binge that buys heaven. [[Loss of Reward]] is the other side: a bad season shrinks reward, it doesn't erase [[Free Grace]].
 
 ## Examples
 
@@ -30,8 +30,10 @@ Borrowed from finance, but it applies anywhere today's gain makes tomorrow easie
 | contradicts | [[Pareto Principle]] | when boring repetition beats protecting only the vital few |
 | extends | [[Habit Stacking]] | Small repeats that stack - same compounding mechanic |
 | extends | [[Process Over Outcomes]] | Small gains stack when you repeat the process, not when you chase one heroic week |
+| extends | [[Loss of Reward]] | Bad seasons shrink reward in the faith ledger - not proof salvation was never real |
 ## See also
 
+- [[Loss of Reward]] - Eternal Principles, Gospel, Reward
 - [[Mental Models]] - Learning, Mental Models, PKM
 - [[Abide in Me]] - Eternal Principles, Faith, Gospel
 - [[Eternal Rewards]] - Eternal Principles, Gospel, Reward

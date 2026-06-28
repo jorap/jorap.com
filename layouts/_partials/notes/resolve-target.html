@@ -10,6 +10,6 @@
   {{- $raw = index $hashParts 0 | strings.TrimSpace -}}
   {{- $anchor = index $hashParts 1 | strings.TrimSpace -}}
 {{- end -}}
-{{- $registry := partialCached "notes/link-registry.html" site "notes-registry-v2" -}}
+{{- $registry := partialCached "notes/link-registry.html" site "notes-registry-v3" -}}
 {{- $page := index $registry.byKey (lower $raw) -}}
 {{- return (dict "Page" $page "Anchor" $anchor "Target" $raw) -}}

@@ -14,6 +14,8 @@ aliases: ["Garage Concept"]
 ---
 The garage holds tools, scraps, experiments. The showroom is the blog. I don't confuse the two.
 
+Client handoff uses the same split: [[Selling Static Sites]] workshop in my drafts; the client's deploy branch is the showroom on [[Free Tier Hosting Stack]].
+
 ## Examples
 
 - Draft posts live in my private folder; the blog gets the finished essay - I don't accidentally publish the mess.
@@ -29,7 +31,9 @@ The garage holds tools, scraps, experiments. The showroom is the blog. I don't c
 | contradicts | [[Drafting in Public]] | when private workshop beats publishing half-baked notes |
 | extends | [[Digital Garden]] | The garage is messy workshop; the garden showroom is public - you need both lanes |
 | extends | [[Sketchpad]] | Private workshop before anything goes public |
+| extends | [[Selling Static Sites]] | Client site stays showroom; experiments stay in the garage |
 ## See also
 
+- [[Selling Static Sites]] - Cloudflare Pages, Freelance, Hugo
 - [[Digital Garden]] - Digital Garden, Hugo, PKM
 - [[Maps of Content]] - Hugo, PKM, Website Building

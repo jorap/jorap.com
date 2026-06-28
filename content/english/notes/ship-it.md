@@ -14,6 +14,8 @@ aliases: []
 ---
 **Ship it** = publish the good-enough version instead of polishing forever.
 
+Freelance parallel: [[Selling Static Sites]] - ship the first client site before the three-tier pricing PDF exists.
+
 ## Examples
 
 - We ran the new play ugly in scrimmage instead of drilling it another month - feedback beat perfection on the whiteboard.
@@ -28,4 +30,7 @@ aliases: []
 | contradicts | [[Attention to Detail]] | when the opposite frame fits better |
 | extends | [[Creative Output]] | Named in notes that link here |
 | extends | [[Minimum Viable Product]] | Named in notes that link here |
-| extends | [[Minimum Viable Product]] | Named in notes that link here |
+| extends | [[Selling Static Sites]] | First paid client site before polishing the service brochure |
+## See also
+
+- [[Selling Static Sites]] - Cloudflare Pages, Freelance, Hugo

@@ -29,7 +29,7 @@ aliases: ["narrow gate", "broad road"]
 ---
 **The narrow way** = enter by the narrow gate - the road to life is hard and few find it; the broad road to destruction is easy and crowded (Matthew 7:13-14).
 
-In [[Free Grace]] terms, the narrow gate is [[Free Grace]] in Christ - not the broad road of self-righteousness, religion-by-works, or moral performance as salvation. Jesus closes the Sermon on the Mount with a fork: not everyone who says "Lord, Lord" enters (Matthew 7:21-23). Those are false professors who never truly believed, not believers who stumbled. [[Discipleship]] on the narrow path is costly - cross-bearing, enemy-love, truth-telling - but distinct from how eternal life is received: free, by faith, through grace.
+In [[Free Grace]] terms, the narrow gate is [[Free Grace]] in Christ - not the broad road of self-righteousness, religion-by-works, or moral performance as salvation. Jesus closes the Sermon on the Mount with a fork: not everyone who says "Lord, Lord" enters (Matthew 7:21-23). Those are false professors who never truly believed, not believers who stumbled - [[Loss of Reward]] may apply, but they stay saved. [[Discipleship]] on the narrow path is costly - cross-bearing, enemy-love, truth-telling - but distinct from how eternal life is received: free, by faith, through grace.
 
 ## Examples
 
@@ -45,8 +45,10 @@ In [[Free Grace]] terms, the narrow gate is [[Free Grace]] in Christ - not the b
 |--------------|----------|--------|
 | contradicts | [[The Golden Rule]] | when I take the comfortable path because everyone else does |
 | extends | [[Free Grace]] | The narrow gate is Christ by faith, not the broad road of works that buys nothing |
+| alternative | [[Loss of Reward]] | False "Lord, Lord" never believed vs believer who loses reward but stays saved |
 ## See also
 
+- [[Loss of Reward]] - Eternal Principles, Gospel, Reward
 - [[Seek the Kingdom First]] - Eternal Principles, Gospel, Priorities
 - [[Love Your Enemies]] - Eternal Principles, Gospel, Sermon on the Mount
 - [[Humility and Service]] - Eternal Principles, Gospel, Service

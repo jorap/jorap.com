@@ -67,11 +67,30 @@ aliases: ["MOC", "Table of Contents"]
 - [[Drafting in Public]]
 - [[Synthesis as a Goal]]
 - [[Creative Blocks]]
+- [[Selling Static Sites]]
+- [[Free Tier Hosting Stack]]
+- [[Static Site Client Scope]]
+- [[Client Site Handoff]]
+- [[Git-Based CMS]]
+
+| Static site note | PKM / work partner | Link |
+|------------------|-------------------|------|
+| [[Selling Static Sites]] | [[Minimum Viable Product]] | One paid pilot before the pricing PDF |
+| [[Selling Static Sites]] | [[Ship It]] | First client site before polishing the sales page |
+| [[Free Tier Hosting Stack]] | [[Future-Proofing Knowledge]] | Markdown in git survives; host is swappable |
+| [[Static Site Client Scope]] | [[Plain Commitments at Work]] | Scope yes/no before deposit |
+| [[Static Site Client Scope]] | [[Outcomes Over Pitch Decks]] | Pick stack by client outcome, not favorite tool |
+| [[Static Site Client Scope]] | [[Git-Based CMS]] | Non-Git editors without redirecting to WordPress |
+| [[Client Site Handoff]] | [[Share What You Learn]] | One-page doc leaves client able to publish |
+| [[Client Site Handoff]] | [[The Garage Concept]] | Showroom branch vs workshop drafts |
+| [[Git-Based CMS]] | [[Minimum Effective Dose]] | Skip CMS layer on solo dev sites |
+| [[Selling Static Sites]] | [[The Garage Concept]] | Workshop drafts vs client showroom branch |
 
 ### Faith
 
 - [[Free Grace]]
 - [[Eternal Principles]]
+- [[Loss of Reward]]
 - [[Discipleship]]
 - [[Workplace Principles]]
 - [[Love God]]

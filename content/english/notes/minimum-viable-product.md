@@ -16,6 +16,8 @@ aliases: ["MVP"]
 
 I'd rather publish a rough note or prototype and learn than polish in private for months.
 
+Client work: [[Selling Static Sites]] is the same loop - one pilot site on [[Free Tier Hosting Stack]] before I package tiers and upsells.
+
 ## Examples
 
 - I sat on a half-planned birthday party for three months - we ordered pizza, one banner, kids had a blast, learned more than another month of Pinterest.
@@ -34,6 +36,7 @@ I'd rather publish a rough note or prototype and learn than polish in private fo
 | implements | [[Creative Output]] | Rough ship carries express when polish would miss the window |
 ## See also
 
+- [[Selling Static Sites]] - Cloudflare Pages, Freelance, Hugo
 - [[Low Hanging Fruit]] - Decision Making, Mental Models, PKM
 - [[Pareto Principle]] - Decision Making, Mental Models, PKM
 - [[Sunk Cost Fallacy]] - Decision Making, Mental Models, PKM

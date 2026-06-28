@@ -29,9 +29,9 @@ aliases: ["faith alone", "sola fide", "salvation by grace"]
 ---
 **Free grace** = eternal life is God's free gift through faith in Christ alone - not wages for keeping commandments, obeying eternal principles, or doing good works (Ephesians 2:8-9; John 3:16; Romans 4:5).
 
-Grace is unmerited favor. Christ paid what I couldn't. I receive eternal life by believing His promise - not by climbing a moral ladder. Same shape as [[Minimum Effective Dose]] for salvation: faith is the smallest act that still works - not zero effort, not a lifetime of merit. Every [[Eternal Principles]] Jesus taught flows from that ground: principles for how believers live in grateful response, pursue fellowship with God, and store up [[Eternal Rewards]] - never as currency to buy heaven.
+Grace is unmerited favor. Christ paid what I couldn't. I receive eternal life by believing His promise - not by climbing a moral ladder. Same shape as [[Minimum Effective Dose]] for salvation: faith is the smallest act that still works - not zero effort, not a lifetime of merit. Every [[Eternal Principles]] Jesus taught flows from that ground: principles for how believers live in grateful response, pursue fellowship with God, and store up [[Eternal Rewards]] - never as currency to buy heaven. [[Loss of Reward]] keeps the categories straight when a believer wastes years or worthless works burn: salvation stays on Christ, reward may shrink.
 
-Ephesians 2:10 keeps the order straight: saved by grace through faith first, then created in Christ Jesus for good works. Justification is free and finished at faith; discipleship, obedience, and forgiveness toward others belong to the walk after.
+Ephesians 2:10 keeps the order straight: saved by grace through faith first, then created in Christ Jesus for good works. [[Justification]] is free and finished at faith; [[Sanctification]], [[Discipleship]], and forgiveness toward others belong to the walk after. [[Faith and Works]] keeps the lanes straight: works prove faith alive, they don't buy heaven.
 
 ## Examples
 
@@ -47,8 +47,13 @@ Ephesians 2:10 keeps the order straight: saved by grace through faith first, the
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when good works compound into a merit ladder I think buys heaven |
 | extends | [[Minimum Effective Dose]] | Faith is the smallest act that still buys eternal life - no merit ladder on top |
+| extends | [[Justification]] | Grace is the gift; justification is God declaring you righteous when you receive it |
+| extends | [[Loss of Reward]] | Grace secures eternal life; losing reward never un-does the gift |
 ## See also
 
+- [[Justification]] - Eternal Principles, Faith, Gospel
+- [[Loss of Reward]] - Eternal Principles, Gospel, Reward
+- [[Faith and Works]] - Eternal Principles, Faith, Gospel
 - [[Minimum Effective Dose]] - Mental Models, PKM, Productivity
 - [[Compounding]] - Mental Models, PKM, Performance
 - [[Eternal Rewards]] - Eternal Principles, Gospel, Reward

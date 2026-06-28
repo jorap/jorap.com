@@ -5,7 +5,7 @@
     notes — slice of { Page, broken, pipe, unlinked, structure, total }
     brokenCount, pipeCount, unlinkedCount, structureCount, notesWithIssues
 */ -}}
-{{- $registry := partialCached "notes/link-registry.html" site "notes-registry-v2" -}}
+{{- $registry := partialCached "notes/link-registry.html" site "notes-registry-v3" -}}
 {{- $gardenNotes := partial "notes/pages.html" (dict) -}}
 {{- $minLen := site.Params.notes.unlinked_min_length | default 6 | int -}}
 {{- $byPath := dict -}}

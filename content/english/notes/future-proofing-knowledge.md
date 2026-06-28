@@ -16,6 +16,8 @@ aliases: ["future proofing knowledge", "Plain Text Files"]
 
 Future-proofing isn't predicting tech for me - it's plain text, open tools, and exports I test before I need them.
 
+[[Free Tier Hosting Stack]] client repos are markdown in git - portable if Cloudflare or I disappear; the content survives, hosting is swappable.
+
 ## Examples
 
 - The team roster lives in a shared spreadsheet, not a app that might shut down - boring format I can open anywhere.
@@ -31,7 +33,9 @@ Future-proofing isn't predicting tech for me - it's plain text, open tools, and 
 | contradicts | [[Building a Personal API]] | when plain exports beat automation-ready structure |
 | extends | [[Local-first Software]] | Local-first plain files are how you future-proof before an app shuts down |
 | extends | [[Plain Text Files]] | Boring format that survives app churn |
+| extends | [[Free Tier Hosting Stack]] | Markdown in git outlives any one host |
 ## See also
 
+- [[Selling Static Sites]] - Cloudflare Pages, Freelance, Hugo
 - [[Getting Started]] - Hugo, Note Taking, PKM
 - [[Local-first Software]] - Local First, Note Taking, PKM
