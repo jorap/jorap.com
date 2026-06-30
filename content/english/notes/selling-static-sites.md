@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Website Building", "Static Site Generator", "Hugo", "Freelance", "Business", "Cloudflare Pages", "GitHub"]
 slug: "selling-static-sites"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "Neighbor asked for a portfolio. What's the move? One check?"
+    back: "quoted build plus domain; hosting on Cloudflare free."
+  - front: "Pastor wanted a sermon archive. What's the move?"
+    back: "static fit; said no to member login and."
 draft: false
 aliases: ["static site freelance", "client static sites"]
 ---

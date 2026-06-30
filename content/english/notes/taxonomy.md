@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["PKM", "Metadata"]
 slug: "taxonomy"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "Film folders split by opponent and phase beat one dump called \"misc clips\""
+    back: "Find the corner-kick reel in seconds now"
+  - front: "Tags for 'faith' and 'PKM' beat one junk drawer folder called 'misc'"
+    back: "Find things later"
+  - front: "School papers split into \"sign,\" \"keep,\" and \"trash\" trays beat one pile on the counter"
+    back: "Taxonomy for the daily scramble"
+  - front: "Receipts sorted by taxes vs warranty vs trash beat one shoebox"
+    back: "Folders and labels, boring on purpose"
 draft: false
 aliases: []
 ---

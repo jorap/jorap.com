@@ -24,6 +24,10 @@ cards:
     back: "Still in the inbox."
   - front: "Something lands and I want to tag and file immediately. Where do I actually stop?"
     back: "Stop at inbox. Organize later."
+  - front: "Play tweak hits during cooldown and the locker room noise is rising. Where does it go?"
+    back: "One inbox - scribble now, file Sunday."
+  - front: "Customer complaint gives me a fix idea mid-shift. Capture move before the shift ends?"
+    back: "Drop in one inbox - no tagging yet."
 draft: false
 aliases: ["CODE", "Frictionless Capture"]
 ---

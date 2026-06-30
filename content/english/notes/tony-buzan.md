@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["PKM", "Learning"]
 slug: "tony-buzan"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "Pre-game whiteboard: center idea, branches for set pieces"
+    back: "Buzan style, no sentence essays on the page"
+  - front: "The workshop called it 'Buzan style'. What's the move?"
+    back: "No paragraph outlines before the brainstorm"
+  - front: "Trip planning on one page: Manila in the middle, branches for hotels, food, and \"don't forget meds\""
+    back: "Radiant sketch, not an essay"
+  - front: "My garden overhaul started as a mind map on a napkin. What's the move?"
+    back: "The name people cite for the method"
 draft: false
 aliases: []
 ---

@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Website Building", "Hugo", "CMS", "Static Site Generator", "Freelance", "Git"]
 slug: "git-based-cms"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "Church volunteer won't open a terminal. What's the move?"
+    back: "Cloudflare rebuilds on save"
+  - front: "I added Decap for a client who insisted on \"WordPress-like\""
+    back: "Still cheaper than hosted WordPress long term"
 draft: false
 aliases: ["Sveltia CMS", "Decap CMS", "git backed cms", "git based cms"]
 ---

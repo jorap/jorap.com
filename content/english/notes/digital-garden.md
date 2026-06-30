@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Digital Garden", "PKM", "Publishing", "Wiki", "Second Brain", "TiddlyWiki", "Hugo", "Static Site Generator", "Website Building", "Blogging"]
 slug: "digital-garden"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "Our team's playbook wiki still has last season's sets beside this year's"
+    back: "Not when the first version was supposed to be final"
+  - front: "Our block's little free library still has last year's craft books beside this year's swaps"
+    back: "Not when the first donation was supposed to be final"
+  - front: "The shop's procedure binder grows in public. What's the move?"
+    back: "crossed-out steps stay visible so new hires see."
+  - front: "My garden posts stay linked and imperfect. What's the move?"
+    back: "notes grow in public instead of rotting in."
 draft: false
 aliases: ["Advantages of Digital Gardens", "Gardening Metaphor", "Work in Progress"]
 ---

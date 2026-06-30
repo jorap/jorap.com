@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Decision Making", "Safety"]
 slug: "reversibility"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "I took the longer route with an exit every mile before trying the new shortcut through construction."
+    back: "prefer choices you can undo"
+  - front: "Try the new play in scrimmage before running it in the championship"
+    back: "Higher bar for the irreversible call"
+  - front: "Test the recipe at half batch before the wedding order. What's the move?"
+    back: "Undo-able trial, not fifty servings of guesswork"
+  - front: "Try the haircut at home with clippers that still leave length"
+    back: "Not the zero guard first"
 draft: false
 aliases: []
 ---

@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Mental Models", "Productivity", "Performance", "Prioritization", "Focus", "Decision Making", "PKM"]
 slug: "low-hanging-fruit"
 featured: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "I spent twenty minutes redesigning our training plan when the actual problem was three cones not put away"
+    back: "I put them back in four minutes and."
+  - front: "I reorganized the whole supply closet on paper when the actual win was restocking tape"
+    back: "Five minutes, done before lunch"
+  - front: "I spent an hour sketching a whole spring-cleaning plan when the actual problem was three dishes in the sink"
+    back: "washed them in ten minutes and had energy."
+  - front: "I mapped a whole errand route when the obvious move was mailing the one package blocking the counter."
+    back: "the easy win I can grab now"
 draft: false
 aliases: ["Low-Hanging Fruit"]
 ---

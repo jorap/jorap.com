@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Decision Making", "Tradeoffs", "Productivity", "Mindset", "Good Enough", "Mental Models", "Problem Solving", "Prioritization", "Perfectionism", "PKM", "Note Taking"]
 slug: "there-is-no-perfect-solution"
 featured: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "I spent a week comparing strollers instead of walking with the baby we already had"
+    back: "Went out tired that afternoon"
+  - front: "I stopped comparing note apps and shipped with the one that works on my phone tired"
+    back: "Actually use"
+  - front: "We ran the secondary lineup ugly instead of waiting for the star to clear concussion protocol"
+    back: "Good enough today beat perfect next month"
+  - front: "The shop picked the good-enough supplier quote Friday instead of a fifth round of bids"
+    back: "Tradeoffs, not an imaginary perfect vendor"
 draft: false
 aliases: ["No Perfect Solution"]
 ---

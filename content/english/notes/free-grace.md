@@ -24,6 +24,10 @@ cards:
     back: "Free gift - Christ paid what I couldn't."
   - front: "Obedience after conversion - what's driving it?"
     back: "Live gratefully - grace already saved."
+  - front: "Teammate listed every good deed this month like it was his heaven ticket. One sentence back?"
+    back: "Gift through faith - not wages for deeds."
+  - front: "Friend at coffee stacks good works like a merit ladder to heaven. What's true?"
+    back: "Grace through faith - Christ paid the fare."
 draft: false
 aliases: ["faith alone", "sola fide", "salvation by grace"]
 ---

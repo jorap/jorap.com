@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Leadership", "Work", "Performance"]
 slug: "leadership"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "When the gym alarm went off, someone pointed to exits and counted heads"
+    back: "Leadership was calm voice and who goes where"
+  - front: "When the kitchen catches fire, someone points to exits and counts heads"
+    back: "Title optional"
+  - front: "Our line cook never got named manager; leadership was calm voice, who goes where, and nobody blaming while the extinguishers were still out."
+    back: "you take responsibility for direction"
+  - front: "The blackout hit our block and one neighbor set pace. What's the move?"
+    back: "Direction and care when people look to you"
 draft: false
 aliases: []
 ---

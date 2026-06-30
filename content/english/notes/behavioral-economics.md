@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Mental Models", "Decision Making"]
 slug: "behavioral-economics"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "I kept paying for the unused gym membership because \"I already paid\""
+    back: "Classic sunk cost, not future value on the court"
+  - front: "Kept the gym membership because \"I already paid\". What's the move?"
+    back: "Classic sunk cost, not future value"
 draft: false
 aliases: []
 ---

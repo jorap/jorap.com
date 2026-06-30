@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Relationships", "Communication", "Emotional Regulation"]
 slug: "name-the-feeling"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "A player slumped on the bench after a bad quarter. What's the move?"
+    back: "Then he could hear the adjustment"
+  - front: "My spouse walked in tense after traffic and errands. What's the move?"
+    back: "Less defensiveness"
 draft: false
 aliases: []
 ---

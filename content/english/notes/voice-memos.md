@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["PKM", "Capture"]
 slug: "voice-memos"
 featured: false
+review: true
+card_sets: ["Capture", "Workflow"]
+cards:
+  - front: "Driving between sites I voice-memo'd the supplier change"
+    back: "Parked"
+  - front: "Driving home from clinic I dictated the thought into the phone"
+    back: "Transcribed later into the inbox"
+  - front: "Walking off the field I dictated the fix for tomorrow's drill"
+    back: "Hands busy, idea captured before it evaporated"
+  - front: "Hands full of groceries, I dictated \"email teacher about field trip\" into the phone before I forgot in the door scramble."
+    back: "Capture ideas by speaking when hands or eyes are..."
 draft: false
 aliases: []
 ---

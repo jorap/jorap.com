@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Performance", "Health", "Decision Making", "Recovery"]
 slug: "energy-protects-judgment"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "I snapped at my kid over a spilled cup after a brutal week; at breakfast it would've been two calm sentences"
+    back: "Was"
+  - front: "After three nights of bad sleep I almost sent a sharp email to a neighbor"
+    back: "I waited until morning and the whole thread."
 draft: false
 aliases: ["rest protects judgment"]
 ---

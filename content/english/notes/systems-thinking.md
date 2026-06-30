@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Systems Thinking", "Performance", "Habits", "Decision Making"]
 slug: "systems-thinking"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "We lost every third possession on turnovers. What's the move?"
+    back: "Not \"focus harder tonight.\""
+  - front: "The restaurant ran out of rice on a busy Friday. What's the move?"
+    back: "Not \"cook faster tonight.\""
 draft: false
 aliases: ["systems thinker"]
 ---

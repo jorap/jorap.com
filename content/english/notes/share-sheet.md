@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["PKM", "Mobile"]
 slug: "share-sheet"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "Article on the jeepney route change → Share → inbox. What's the move?"
+    back: "Can't stop and type"
+  - front: "Recipe from the school group chat → Share → grocery list"
+    back: "one tap before three kids pulled me away."
+  - front: "Halftime clip of the broken play → Share → Notes. What's the move?"
+    back: "Saw"
+  - front: "The supplier email with the corrected invoice → Share → my task app"
+    back: "Closed the browser and lost it"
 draft: false
 aliases: []
 ---

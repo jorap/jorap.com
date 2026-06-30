@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Workplace", "Leadership", "Eternal Principles", "Service", "Management"]
 slug: "servant-leadership"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "I had the title at home but noticed I was hoarding easy wins"
+    back: "servant leadership meant the messy bedtime shift while."
+  - front: "I got promoted and realized I'd been grabbing credit for work the team carried"
+    back: "servant leadership was my name off the slide."
+  - front: "The captain takes the extra fitness drill so the rookie gets the lighter session"
+    back: "Not his highlight reel"
+  - front: "The head server took the worst section on Mother's Day and put the busser who saved the night on the thank-you board."
+    back: "the person who wants to lead well makes the team win"
 draft: false
 aliases: ["lead by serving"]
 ---

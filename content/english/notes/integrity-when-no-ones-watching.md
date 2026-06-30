@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Workplace", "Ethics", "Eternal Principles", "Integrity", "Character"]
 slug: "integrity-when-no-ones-watching"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "I logged the full practice hours when nobody audits the sheet"
+    back: "Integrity when no one's watching is the hidden lane"
+  - front: "The market scale stays honest when the seller steps away to take a call"
+    back: "I could've scooped light on the last bag."
+  - front: "I ran the real spelling check on the homework when my kid wasn't looking over my shoulder"
+    back: "Accurate work when there's no audience"
+  - front: "I closed the support ticket correctly even though nobody would audit it this week"
+    back: "The test isn't the all-hands slide"
 draft: false
 aliases: ["hidden integrity", "honest work offstage", "integrity when no ones watching"]
 ---

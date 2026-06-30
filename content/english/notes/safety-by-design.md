@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Safety", "Systems Thinking"]
 slug: "safety-by-design"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "The gym swapped to breakaway rims so dunk attempts don't tear shoulders"
+    back: "Safer layout, not another lecture on landing"
+  - front: "The new stove puts controls where elbows can't bump them"
+    back: "Safer layout, not another lecture"
+  - front: "We put outlet covers in before the crawling phase. What's the move?"
+    back: "Not \"be careful\" fifty times a day"
+  - front: "The crosswalk got a bump-out so cars slow before the turn"
+    back: "Not just \"watch for pedestrians\" signs"
 draft: false
 aliases: []
 ---

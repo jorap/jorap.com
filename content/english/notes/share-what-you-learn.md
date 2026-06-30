@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Workplace", "Leadership", "Eternal Principles", "Knowledge Sharing", "Teaching"]
 slug: "share-what-you-learn"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "I'd figured out the clinic's parking trick after three visits"
+    back: "I told the next parent in line instead."
+  - front: "I almost moved on after a week wrestling school forms. What's the move?"
+    back: "share what you learn was the sticky note."
+  - front: "The veteran keeper showed the rookie where to stand on corners"
+    back: "twenty minutes now so she's not guessing on."
+  - front: "The electrician labeled every breaker in the panel for whoever comes next"
+    back: "Twenty minutes now, no guessing later"
 draft: false
 aliases: ["teach what you know", "knowledge sharing at work"]
 ---

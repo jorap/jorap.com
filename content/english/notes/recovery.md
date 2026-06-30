@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Health", "Performance", "Habits"]
 slug: "recovery"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "After three nights of overtime I skipped the fourth. What's the move?"
+    back: "Slept eight hours and didn't snap at the barista"
+  - front: "Elite athletes schedule rest days. What's the move?"
+    back: "Not another heroic scrimmage"
 draft: false
 aliases: []
 ---

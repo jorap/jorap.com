@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Performance", "Career", "Adaptability"]
 slug: "versatility"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "The rush hit and I jumped on dishes while the line cook called tickets"
+    back: "Suddenly ran the grill"
+  - front: "Sick day meant I became lunch packer, tutor, and IT help"
+    back: "versatility is more than one lane when the."
 draft: false
 aliases: []
 ---

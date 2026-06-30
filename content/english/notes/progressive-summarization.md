@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Progressive Summarization", "Tiago Forte", "PKM", "Distill", "Note Taking", "CODE Method", "Research", "Writing"]
 slug: "progressive-summarization"
 featured: false
+review: true
+card_sets: ["Writing", "Review"]
+cards:
+  - front: "I open the playbook notes a second time and bold three plays, then star one for this week's install."
+    back: "Progressive Summarization"
+  - front: "I open the vendor contract a second time and bold three clauses, then highlight one before I sign."
+    back: "Progressive Summarization"
+  - front: "I open the PTA newsletter for the second time and circle three dates, then star one"
+    back: "sticky on the fridge only when I'm blocking."
+  - front: "I reread the community meeting recap and bold three action items"
+    back: "summary at the top only when I'm actually."
 draft: false
 aliases: []
 ---

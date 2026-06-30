@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["James Clear", "Process", "Habits", "Mindset", "Atomic Habits", "Systems Thinking", "Goal Setting", "Continuous Improvement", "Self Improvement", "PKM", "Note Taking"]
 slug: "process-over-outcomes"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "I protect the Sunday review loop that produces the next note"
+    back: "The process keeps working when motivation dips"
+  - front: "The baker follows the same proofing steps whether it's a slow Tuesday or wedding weekend."
+    back: "Process Over Outcomes"
+  - front: "Same commute podcast and debrief voice memo. What's the move?"
+    back: "The loop survives a bad week at work"
+  - front: "The JV squad runs the same warmup whether the bleachers are empty or full."
+    back: "Process Over Outcomes"
 draft: false
 aliases: ["Process Over Outcome"]
 ---

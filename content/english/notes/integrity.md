@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Character", "Ethics", "Work"]
 slug: "integrity"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "I could've counted a late hit as legal when the ref looked away"
+    back: "integrity is the same call whether anyone's watching."
+  - front: "I could've scooped light on flour when the rush got loud"
+    back: "Especially when it costs comfort"
+  - front: "A scale that reads honest when the customer isn't looking is integrity in hardware"
+    back: "Same weight whether anyone was watching or not"
+  - front: "The market scale stays honest when the seller steps away to take a call"
+    back: "That's the whole business"
 draft: false
 aliases: []
 ---

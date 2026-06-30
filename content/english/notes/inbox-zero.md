@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["PKM", "Productivity"]
 slug: "inbox-zero"
 featured: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "Friday I triaged the team inbox to zero. What's the move?"
+    back: "Not dread about who forgot what"
+  - front: "I process the commute voice-memo inbox every Friday. What's the move?"
+    back: "Inbox zero is each item decided, not hoarded"
+  - front: "Friday afternoon I triaged email to zero. What's the move?"
+    back: "Monday started from decisions made, not dread"
+  - front: "Sunday night we emptied the kitchen catch-all tray. What's the move?"
+    back: "each slip got a decision so school week."
 draft: false
 aliases: []
 ---

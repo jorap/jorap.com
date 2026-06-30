@@ -9,6 +9,21 @@ author: "JoRap"
 tags: ["Spaced Repetition", "SRS", "Anki", "Learning", "Memory", "PKM", "Note Taking", "Tools"]
 slug: "spaced-repetition"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "I do the same with note cards on capture and gospel lines"
+    back: "Forget, not one marathon session"
+  - front: "We drill the baseline out-of-bounds play five minutes before every practice"
+    back: "same little doses beat cramming it the night."
+  - front: "The new hire's product codes live on a card by the register"
+    back: "five reps during slow shifts beat one frantic."
+  - front: "My kid's spelling list lives on the fridge; we hit five words while rice cooks"
+    back: "same little doses beat cramming the night before."
+  - front: "Mid-week moment where spaced repetition should've fired. What's the move?"
+    back: "review facts on a schedule before I forget"
+  - front: "Pressure rising and I'm about to skip this principle. One move?"
+    back: "review facts on a schedule before I forget"
 draft: false
 aliases: ["SRS", "Spaced Repetition Systems", "Spaced Repetition Systems (SRS)"]
 ---

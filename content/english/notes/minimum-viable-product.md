@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Mental Models", "Productivity", "Building", "Shipping", "Creative Output", "Decision Making", "PKM", "Writing"]
 slug: "minimum-viable-product"
 featured: false
+review: true
+card_sets: ["Writing", "Review"]
+cards:
+  - front: "I sat on a half-planned birthday party for three months"
+    back: "Learned more than another month of Pinterest"
+  - front: "I posted a rough neighborhood watch signup before buying printed flyers"
+    back: "Four replies told me if anyone cared"
+  - front: "We ran one new play in scrimmage before printing playbooks for the whole league"
+    back: "learned more in forty minutes than another week."
+  - front: "The baker sold one test batch of sourdough before remodeling the display case"
+    back: "Customers told her what to fix"
 draft: false
 aliases: ["MVP"]
 ---

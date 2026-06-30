@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Productivity", "Projects"]
 slug: "lean-startup"
 featured: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "I posted one sample lunch-box photo in the group chat before buying a month's worth of new containers"
+    back: "Saved money on the wrong feature"
+  - front: "Ten users on a landing page before I built the full app"
+    back: "Saved a month on the wrong feature"
+  - front: "Ten parents signed a waitlist before we booked the full tournament venue"
+    back: "Learn before scaling"
+  - front: "Ten customers on a lunch special before we rewrote the whole menu"
+    back: "Don't scale before validation"
 draft: false
 aliases: []
 ---

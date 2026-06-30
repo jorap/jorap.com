@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Relationships", "Communication", "Listening", "Respect"]
 slug: "follow-their-lead"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "My teammate wanted to run a inbound play I'd never seen"
+    back: "Critique second"
+  - front: "A coworker walked me through how she tracks patient callbacks"
+    back: "I watched the whole spreadsheet before I offered."
 draft: false
 aliases: []
 ---

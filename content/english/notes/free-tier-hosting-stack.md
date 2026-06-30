@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Website Building", "Static Site Generator", "Hugo", "GitHub", "Cloudflare Pages", "Free Hosting", "DevOps"]
 slug: "free-tier-hosting-stack"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "JoRap.com on this stack for months. What's the move?"
+    back: "Notice"
+  - front: "Build failed until Hugo was pinned. What's the move?"
+    back: "Env var on every new project template now"
 draft: false
 aliases: ["github cloudflare stack", "free static hosting"]
 ---

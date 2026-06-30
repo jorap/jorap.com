@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Leadership", "Performance", "Negotiation"]
 slug: "situational-control"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "My sister and I were fighting past the kids' bedtime. What's the move?"
+    back: "situational control was a fifteen-minute break and a."
+  - front: "Down twelve at halftime, our captain called a timeout she didn't need"
+    back: "Not surrendering to their pace"
+  - front: "The meeting was going sideways. What's the move?"
+    back: "\" not letting the loudest voice own the room"
+  - front: "A good host ends the party before the stereo gets louder"
+    back: "They control the evening, not the loudest guest"
 draft: false
 aliases: ["situation control"]
 ---

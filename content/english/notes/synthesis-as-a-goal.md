@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Synthesis", "PKM", "Writing", "Research", "Second Brain", "Express", "Academic"]
 slug: "synthesis-as-a-goal"
 featured: false
+review: true
+card_sets: ["Writing", "Review"]
+cards:
+  - front: "Three coaches' clips on our press sat in my folder until I merged them into one drill we actually ran Tuesday."
+    back: "Synthesis as a Goal"
+  - front: "Three recipe clippings sat on the fridge until I merged them into one dinner I actually cooked"
+    back: "Synthesis is when learning started"
+  - front: "Quote-saved notes on productivity sat untouched until I wrote one page in my own words about how I capture"
+    back: "Synthesis, not hoarding"
+  - front: "Five parenting articles became one rule on the fridge. What's the move?"
+    back: "Not a quote collection"
 draft: false
 aliases: ["Research Notes", "note taking for researchers"]
 ---

@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Performance", "Leadership", "Composure", "Negotiation"]
 slug: "control-the-rhythm"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "A dad texted \"my kid needs more reps today\" before I'd watched him play"
+    back: "control the rhythm was \"let's see Thursday's scrimmage."
+  - front: "A client wanted an answer in ten minutes on a complex quote"
+    back: "I said I'd send numbers after lunch and."
+  - front: "Good coaches don't let the loudest parent set practice length"
+    back: "They run drills, call water, end on time"
+  - front: "Bedtime spiraled into \"five more minutes\" chaos until we set the clock"
+    back: "we take the tempo back instead of letting."
 draft: false
 aliases: ["control the pace"]
 ---

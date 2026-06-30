@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["PKM", "Curation", "Note Taking", "Second Brain", "Knowledge Management", "Productivity", "MOC", "Creation"]
 slug: "active-knowledge-curation"
 featured: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "I do the same with my idea pile on the first Sunday. What's the move?"
+    back: "Half-finished thoughts finally get linked"
+  - front: "Our trainer reviews the drill library every month and cuts what nobody runs anymore"
+    back: "same job as pruning notes that wouldn't make."
+  - front: "The head cook walks the walk-in every Monday and throws out whatever won't make this week's menu"
+    back: "Three worth keeping finally get a spot on the board"
+  - front: "The little free library on our block gets weeded every few months"
+    back: "Room for what neighbors actually swap"
 draft: false
 aliases: ["Curation as Creation"]
 ---

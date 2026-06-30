@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Productivity", "Creative Output"]
 slug: "ship-it"
 featured: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "We ran the new play ugly in scrimmage instead of drilling it another month"
+    back: "Feedback beat perfection on the whiteboard"
+  - front: "The menu went live with one typo fixed after service. What's the move?"
+    back: "customers ate tonight instead of another week of."
+  - front: "The birthday slideshow shipped with one rough slide. What's the move?"
+    back: "Another month in iMovie would've missed the party"
+  - front: "The blog post went live with one rough paragraph. What's the move?"
+    back: "Feedback beat another month in drafts"
 draft: false
 aliases: []
 ---

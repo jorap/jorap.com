@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Safety", "Leadership"]
 slug: "normalization-of-deviance"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "Third time I rolled through the stop sign at dawn and nobody honked"
+    back: "Until a kid on a bike appeared"
+  - front: "Third time someone skipped helmet strap in warmups and nobody called it"
+    back: "Until the collision in practice"
+  - front: "Third time someone ran the red light in the parking lot and nobody wrote it up"
+    back: "Until the fender bender"
+  - front: "Third time we let the ladder stay on the stairs and nobody moved it"
+    back: "Until someone tripped carrying laundry"
 draft: false
 aliases: []
 ---

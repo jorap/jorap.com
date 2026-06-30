@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["PKM", "Linking", "Analytics", "Note Taking", "Graph", "Meta"]
 slug: "graph-view-analytics"
 featured: false
+review: true
+card_sets: ["Linking", "Review"]
+cards:
+  - front: "I sorted our drill notes by link rank and three warm-up routines had zero arrows to anything else"
+    back: "That gap list was my fix-this-week, not decoration"
+  - front: "I laid out the shift handoff chart and three tasks had zero arrows to an owner"
+    back: "Not a pretty poster"
+  - front: "I laid out the kids' chore chart and three jobs had zero arrows to anything else"
+    back: "That gap list was my fix-this-week"
+  - front: "My notes graph showed five orphans with no inbound links"
+    back: "Forgot to connect, not sci-fi wallpaper"
 draft: false
 aliases: []
 ---

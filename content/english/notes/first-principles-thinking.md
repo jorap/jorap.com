@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["First Principles", "Thinking", "PKM", "Mental Models", "Note Taking", "Synthesis"]
 slug: "first-principles-thinking"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "The clinic kept copying a corporate onboarding script until someone asked what problem we're actually solving"
+    back: "Strip borrowed moves down to what this team lacks"
+  - front: "My kid's coach kept quoting a YouTube drill until I asked what problem we're actually solving"
+    back: "Turns out we needed passing, not fancy footwork"
+  - front: "I kept quoting parenting advice from a podcast until I wrote what I actually believe about bedtime"
+    back: "Not someone else's quote"
+  - front: "The HOA kept adding signs about parking until a neighbor asked why people park wrong"
+    back: "Not five new rules"
 draft: false
 aliases: []
 ---

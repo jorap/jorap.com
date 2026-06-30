@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["PKM", "Graph"]
 slug: "network-analysis"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "The playbook diagram showed one motion offense linking twelve other sets"
+    back: "That was the doorway I'd simplify first"
+  - front: "The org chart showed one coordinator linking twelve others"
+    back: "That's where I'd add backup before peak season"
+  - front: "The chore chart showed one kid linking every task. What's the move?"
+    back: "The bottleneck we fixed first"
+  - front: "The garden graph showed one note linking twelve others. What's the move?"
+    back: "That's the doorway I'd prune first"
 draft: false
 aliases: []
 ---

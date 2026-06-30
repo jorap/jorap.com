@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Mind Mapping", "Visual Thinking", "PKM", "Brainstorming", "Note Taking", "Planning", "Diagrams", "Excalidraw", "Creativity"]
 slug: "mind-mapping"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "I sketched a bubble map of our season goals on paper, then each branch became its own drill checklist."
+    back: "Mind Mapping"
+  - front: "I sketch a messy bubble map before our road trip, then each branch becomes its own packing list on the fridge."
+    back: "Mind Mapping"
+  - front: "I mapped errand stops around the mall on paper first. What's the move?"
+    back: "Each branch became its own sticky on the dash"
+  - front: "The contractor sketched rooms on a napkin first. What's the move?"
+    back: "each bubble became a line item before the."
 draft: false
 aliases: ["Visual Thinking"]
 ---

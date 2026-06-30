@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["PKM", "Tools"]
 slug: "webhooks"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "Form submit hits my script instantly instead of me refreshing the inbox every five minutes"
+    back: "HTTP callback when something happens"
+  - front: "New appointment hits the calendar the second the patient submits"
+    back: "webhook beats staff polling the inbox every five."
+  - front: "School alert webhook fires when the bus is late. What's the move?"
+    back: "push to my phone instead of refreshing the."
+  - front: "RSVP form submission pings the team chat instantly. What's the move?"
+    back: "push event instead of the manager refreshing the."
 draft: false
 aliases: []
 ---

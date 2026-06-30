@@ -10,7 +10,7 @@ tags: ["Inbox", "GTD", "Capture", "PKM", "Trust", "Workflow"]
 slug: "the-trusted-inbox"
 featured: false
 review: true
-card_sets: ["Capture", "Review"]
+card_sets: ["Capture", "Workflow"]
 cards:
   - front: "Forty inbox items untouched two weeks. Trust is broken - recovery move today?"
     back: "Empty it now. Same day weekly."
@@ -24,6 +24,10 @@ cards:
     back: "Merge - one pipe."
   - front: "I tag and label but the inbox never empties. Still trusted?"
     back: "No - empty means delete or file out."
+  - front: "Keys and papers in two bowls by the door - I'm holding stuff in my head instead. Fix?"
+    back: "One bowl - one trusted pipe."
+  - front: "Substitute tweak on a napkin because I don't trust the inbox yet. One move?"
+    back: "One notebook on the bench - process Friday."
 draft: false
 aliases: ["Trusted Inbox"]
 ---

@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Leadership", "Performance", "Self-Control"]
 slug: "composure"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "The neighbor argument on the group chat heated up and I waited one beat before replying"
+    back: "people read calm as competence even when the."
+  - front: "I used the same move in a heated parent meeting. What's the move?"
+    back: "No matching their volume"
+  - front: "My kid was melting down at bedtime and I kept my voice flat"
+    back: "It's staying readable when the room isn't"
+  - front: "A referee stays calm when players yell. What's the move?"
+    back: "not because the foul didn't matter, but because."
 draft: false
 aliases: []
 ---

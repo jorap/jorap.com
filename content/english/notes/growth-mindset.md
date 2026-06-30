@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Learning", "Mindset", "Performance"]
 slug: "growth-mindset"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "I missed three free throws in a row at clinic. Growth mindset was ten minutes on form, not deciding I'd never shoot reliably in a game."
+    back: "skills can improve with practice"
+  - front: "The new barista burned three lattes on the steam wand. What's the move?"
+    back: "Not relabel her as \"not a coffee person.\""
 draft: false
 aliases: []
 ---

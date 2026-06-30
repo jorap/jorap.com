@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["PKM", "Productivity"]
 slug: "information-diet"
 featured: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "I removed the doom-scroll feed from the family tablet. What's the move?"
+    back: "Choose what you consume on purpose"
+  - front: "I dropped two commute podcasts that only made me angry at strangers"
+    back: "Not swallowing whatever the algorithm serves"
+  - front: "I unfollowed three outrage sports accounts and pre-game wasn't ruined before warm-up."
+    back: "choose what you consume on purpose"
+  - front: "Unfollowed three outrage accounts and my morning wasn't ruined before breakfast."
+    back: "choose what you consume on purpose"
 draft: false
 aliases: []
 ---

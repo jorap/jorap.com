@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Mental Models", "Thinking", "PKM", "Decision Making", "MOC", "Learning", "Performance", "Productivity"]
 slug: "mental-models"
 featured: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "The restaurant had twelve menu tweaks on the whiteboard"
+    back: "I picked the two that actually cut ticket."
+  - front: "Waze showed four commute routes. What's the move?"
+    back: "Not the scenic detour"
+  - front: "Saturday basketball camp signup had forty options listed and I froze"
+    back: "Compounding was ten minutes of ball-handling a week"
+  - front: "Forty activity flyers on the fridge and we froze. What's the move?"
+    back: "three fit the budget, register online before slots."
 draft: false
 aliases: ["mental-models-list", "Mental Models List"]
 ---

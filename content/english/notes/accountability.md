@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Leadership", "Work", "Performance"]
 slug: "accountability"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "The condo board didn't say \"someone should fix the gate\""
+    back: "they named a contact and a deadline in."
+  - front: "When homework didn't get turned in, we stopped saying \"we forgot\" and named who packs the folder each night"
+    back: "One kid, one job, no vague blame"
+  - front: "After we lost on a bad inbounds pass, the coach named who calls the play"
+    back: "One fix before the next possession"
+  - front: "After a patient mix-up, our charge nurse named who was running the code cart and who was documenting"
+    back: "One honest chart note before the shift ended"
 draft: false
 aliases: []
 ---

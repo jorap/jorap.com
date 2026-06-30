@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Performance", "Habits", "Systems Thinking"]
 slug: "continuous-improvement"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "I tweak one line in my weekly review checklist after each miss"
+    back: "Never schedule"
+  - front: "A line cook pulls a bad prep tray and fixes the station before service"
+    back: "Small fixes daily, not one yearly overhaul"
 draft: false
 aliases: ["kaizen"]
 ---

@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Safety", "Continuous Improvement"]
 slug: "incident-investigation"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "After the equipment cart tipped they traced storage layout and weight limits, not just \"trainer was clumsy.\""
+    back: "find system causes after a miss"
+  - front: "After the kitchen burn they traced pan placement and stove rules, not just \"kid wasn't careful.\""
+    back: "find system causes after a miss"
+  - front: "After the parking-lot fender bump they traced blind corners and signage, not only who to blame."
+    back: "find system causes after a miss"
+  - front: "After the tray spill they traced prep timing, not just \"server was clumsy.\""
+    back: "find system causes after a miss"
 draft: false
 aliases: []
 ---

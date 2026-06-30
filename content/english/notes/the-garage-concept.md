@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Garage Concept", "Digital Garden", "PKM", "Publishing", "Workflow", "Privacy", "Hugo", "Static Site Generator", "Website Building"]
 slug: "the-garage-concept"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "Draft posts live in my private folder; the blog gets the finished essay"
+    back: "Don't accidentally publish the mess"
+  - front: "The back kitchen holds experiments; the dining room plate is what's approved to leave"
+    back: "Don't confuse workshop with showroom"
+  - front: "The practice film library is messy; the highlight reel for parents is one clean cut"
+    back: "Showroom shows the finished piece"
+  - front: "The garage holds half-finished projects and sawdust; the front porch shows the one bench I'd invite a neighbor to sit on."
+    back: "The Garage Concept"
 draft: false
 aliases: ["Garage Concept"]
 ---

@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Daily Notes", "PKM", "Journaling", "Interstitial", "Productivity", "Note Taking", "Review", "Focus"]
 slug: "daily-notes"
 featured: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "Today's pocket slip is just fragments. What's the move?"
+    back: "Promote one line to a real note when it repeats"
+  - front: "Today's pocket slip is just fragments: pick up cleats, dentist Tuesday, call Mom back"
+    back: "The rest can fade"
+  - front: "My shift log is fragments. What's the move? One check?"
+    back: "Not a diary, just today's scratch pad until review"
+  - front: "The commute note catches \"pay Meralco, renew OR\" before it vanishes"
+    back: "Not permanent by default"
 draft: false
 aliases: ["Interstitial Journaling"]
 ---

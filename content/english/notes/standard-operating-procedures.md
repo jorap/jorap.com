@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Systems Thinking", "Work", "Performance"]
 slug: "standard-operating-procedures"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "The closing routine after every match. What's the move?"
+    back: "ice, tape, log the injury - lives on."
+  - front: "The restaurant opening checklist lives on a clipboard because memory fails when the door unlocks at eleven."
+    back: "short written steps for work that repeats"
 draft: false
 aliases: ["SOPs"]
 ---

@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["PKM", "Productivity", "GTD"]
 slug: "getting-things-done"
 featured: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "Tournament week my brain isn't a filing cabinet. What's the move?"
+    back: "Not at 2 a.m"
+  - front: "My brain isn't a filing cabinet. What's the move?"
+    back: "Not at 2 a.m"
+  - front: "School forms, dentist calls, and permission slips went into one kitchen inbox until Friday triage"
+    back: "Capture, clarify, organize, not three mental piles"
+  - front: "Commute errands and neighbor requests hit one pocket notebook"
+    back: "each item gets a next action so nothing."
 draft: false
 aliases: []
 ---

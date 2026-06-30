@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["12 Week Year", "Planning", "Goals", "PKM", "Projects", "Productivity"]
 slug: "the-12-week-year"
 featured: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "\"Fix our free-throw rate\" lived as a someday goal until I gave it twelve weeks and a scoreboard on the locker"
+    back: "Week ten finally bit"
+  - front: "\"Hire and train\" was vague until the twelve-week arc had weekly numbers"
+    back: "Actually feel, not January 1st fiction"
+  - front: "The wiki refactor got a twelve-week arc instead of \"when I have time\""
+    back: "Could see closing"
+  - front: "I'd been treating \"clear the garage\" like a someday project"
+    back: "Week ten the boxes finally moved"
 draft: false
 aliases: ["12 Week Year"]
 ---

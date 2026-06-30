@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Habits", "Performance", "Character"]
 slug: "self-control"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "My thumb hovered over a snarky reply in the pickup-line group chat"
+    back: "Wasn't drunk on cortisol"
+  - front: "Thumb on the post button at midnight after a rough day. What's the move?"
+    back: "Send tomorrow"
 draft: false
 aliases: ["self control"]
 ---

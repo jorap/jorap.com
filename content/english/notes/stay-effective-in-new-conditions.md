@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Performance", "Adaptability", "Resilience", "Career"]
 slug: "stay-effective-in-new-conditions"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "I walked the new counter before the lunch rush instead of defending last month's habits when the line got long."
+    back: "what made you strong in one room can make you..."
+  - front: "Our guard dominates on the outdoor court and looks lost on the slick indoor floor for a week"
+    back: "Not defending yesterday's surface"
 draft: false
 aliases: ["effectiveness in new conditions"]
 ---

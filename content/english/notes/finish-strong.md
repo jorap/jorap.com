@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Performance", "Discipline", "Execution", "Habits"]
 slug: "finish-strong"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "I cleared the table after dinner but left the pots soaking"
+    back: "Finish strong was the ten-minute scrub and trash run"
+  - front: "I packed for the trip but forgot to lock the back gate. What's the move?"
+    back: "Finishing well proves you can close what you open"
 draft: false
 aliases: ["finish what you start"]
 ---

@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Slow Productivity", "Cal Newport", "PKM", "Focus", "Productivity", "Deep Work", "Note Taking"]
 slug: "slow-productivity"
 featured: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "I cut active home projects from six to three last quarter and finished the kids' bookcase instead of Pinterest boards on all six."
+    back: "Slow Productivity"
+  - front: "I stopped chasing three side hobbies and finished one blog series"
+    back: "Depth beat volume for once"
+  - front: "The coach cut drills from six to three and the team finally ran them clean on game day."
+    back: "Slow Productivity"
+  - front: "The bakery dropped four \"special\" items and nailed the core six"
+    back: "Busy isn't virtue when nothing finishes"
 draft: false
 aliases: []
 ---

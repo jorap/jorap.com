@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Relationships", "Habits", "Connection"]
 slug: "create-regular-connection"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "I block fifteen minutes after standup to walk with one teammate"
+    back: "Just the same loop every Tuesday"
+  - front: "My parents and I call every Sunday after lunch. What's the move?"
+    back: "same window, even when there's nothing big to."
 draft: false
 aliases: []
 ---

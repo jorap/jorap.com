@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Metadata", "Tags", "PKM", "Organization", "Taxonomy", "Note Taking", "Hugo", "Documentation"]
 slug: "metadata-strategy"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "I label the kids' bins \"toys,\" \"books,\" \"outgrown\". What's the move?"
+    back: "Not a color code I'd have to maintain"
+  - front: "If sorting takes longer than putting stuff away, I cut a category"
+    back: "Three labels beat a system nobody follows"
+  - front: "My glove box has \"registration,\" \"insurance,\" \"receipts\""
+    back: "Can find at a traffic stop"
+  - front: "The team's gear bin says \"balls,\" \"first aid,\" \"outgrown\""
+    back: "Not a color code I'd maintain like a second job"
 draft: false
 aliases: []
 ---

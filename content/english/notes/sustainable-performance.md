@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Performance", "Health", "Leadership"]
 slug: "sustainable-performance"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "I can't sprint bedtime-and-homework heroics five nights a row"
+    back: "sustainable performance is an earlier lights-out one night."
+  - front: "I stopped answering work email at midnight. What's the move?"
+    back: "Can repeat next month beats tonight's heroic reply"
+  - front: "Coffee gets you through one shift; sleep gets you through a season"
+    back: "sustainable performance isn't playing hurt three weeks straight."
+  - front: "The kitchen ran Friday pace five nights straight and quality slid by Wednesday"
+    back: "sustainable performance would've cut a night off instead."
 draft: false
 aliases: []
 ---

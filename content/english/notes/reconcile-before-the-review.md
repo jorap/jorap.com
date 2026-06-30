@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Workplace", "Ethics", "Leadership", "Eternal Principles", "Reconciliation"]
 slug: "reconcile-before-the-review"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "Strong stats for the scout meeting but my assistant coach is still cold from Tuesday. What comes first?"
+    back: "Fifteen minutes with him - charts second."
+  - front: "Strong numbers for the quarterly review but my teammate is still cold from something I said. What comes first?"
+    back: "Short call - own the apology before OKRs."
+  - front: "Parent-teacher meeting tonight but my co-teacher is still cold from Tuesday. What comes first?"
+    back: "Fifteen minutes with her before the parents."
+  - front: "Launch demo is ready but my neighbor sponsor is still hurt from a snub. What comes first?"
+    back: "Coffee first - slides second."
 draft: false
 aliases: ["fix the relationship first"]
 ---

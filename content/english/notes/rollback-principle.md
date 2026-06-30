@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Systems Thinking", "DevOps", "Safety", "Performance", "Leadership"]
 slug: "rollback-principle"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "Bad Friday deploy. What's the move? One check?"
+    back: "Postmortem waited until the site was calm"
+  - front: "The restaurant tried a new sauce but kept the old batch in the warmer until the first table cleared their plates"
+    back: "Rollback was ladles, not a meeting"
+  - front: "We tried a stricter screen-time rule and left the old routine on the fridge for a week"
+    back: "Not \"give it two more weeks.\""
+  - front: "The point guard ran Tuesday's inbound at halftime when the new play bled points"
+    back: "Not a whiteboard invention"
 draft: false
 aliases: ["rollback", "revert first"]
 ---

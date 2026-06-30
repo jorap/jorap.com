@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Mental Models", "Decision Making", "Thinking", "Productivity", "Mindset", "PKM", "Bias"]
 slug: "sunk-cost-fallacy"
 featured: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "I kept running a set play that lost four straight because we'd drilled it all preseason"
+    back: "Not because it still works"
+  - front: "The shop kept the broken POS because they'd paid the install fee"
+    back: "Buy this system fresh today?"
+  - front: "I kept paying for a gym I hadn't entered since February"
+    back: "The answer was no and I canceled in ten minutes"
+  - front: "We finished a board game nobody liked because we'd already played an hour"
+    back: "sunk cost was admitting we'd rather start a."
 draft: false
 aliases: ["Sunk Cost"]
 ---

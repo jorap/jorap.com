@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Relationships", "Safety", "Ethics", "Boundaries"]
 slug: "safety-comes-first"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "A teammate wanted to play through a head hit. What's the move?"
+    back: "I didn't \"support his call\"; I got the."
+  - front: "A coworker wanted to skip the lockout tag on a jammed machine"
+    back: "Then we troubleshoot together"
+  - front: "A friend was too drunk to drive and insisted he was fine"
+    back: "I took the keys and called a ride.."
+  - front: "My kid wanted to ride in the truck bed on a bumpy road. What's the move?"
+    back: "We couldn't pick the hospital route"
 draft: false
 aliases: []
 ---

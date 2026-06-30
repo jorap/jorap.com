@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Relationships", "Communication", "Habits"]
 slug: "notice-the-good"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "After practice I told the kid who boxed out every drill: \"Your rebounds won that scrimmage"
+    back: "keep sealing like that.\" He knew exactly what."
+  - front: "I emailed the intern: \"You caught the duplicate invoice before I did"
+    back: "that saved us a call.\" Specific beats a."
 draft: false
 aliases: []
 ---

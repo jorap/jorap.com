@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Productivity", "Focus"]
 slug: "deep-work"
 featured: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "Phone in the drawer while I help with math. What's the move?"
+    back: "one problem set actually finished instead of three."
+  - front: "Phone in the gym bag for ninety minutes. What's the move?"
+    back: "one drill breakdown written that'd been \"almost done\"."
+  - front: "Door closed, notifications off for one patient chart review"
+    back: "The error I'd been rushing past finally showed up"
+  - front: "Phone in the drawer for ninety minutes. What's the move?"
+    back: "One note drafted that'd been \"almost done\" for weeks"
 draft: false
 aliases: []
 ---

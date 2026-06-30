@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Workplace", "Ethics", "Eternal Principles", "Forgiveness", "Conflict"]
 slug: "forgiveness-at-work"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "I replayed my sister's sharp comment at every family dinner until I chose to release the debt"
+    back: "It's refusing to collect forever"
+  - front: "I kept mentally scoring a teammate who blew a play in last month's tournament"
+    back: "forgiveness at work meant I stopped bringing that."
+  - front: "I kept mentally scoring a coworker who embarrassed me in a staff meeting six months ago"
+    back: "I stopped bringing that score into every shift."
+  - front: "The neighbor's parking habit still bugged me months later"
+    back: "Not pretending the curb fight never happened"
 draft: false
 aliases: ["release the grudge at work"]
 ---

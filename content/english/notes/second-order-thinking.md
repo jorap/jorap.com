@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Mental Models", "Thinking", "Strategy"]
 slug: "second-order-thinking"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "Free pizza after games pulled families in. What's the move?"
+    back: "Asked what happens after the first rush"
+  - front: "I offered unlimited screen time on sick days. What's the move?"
+    back: "then bedtime fights lasted a week after they."
 draft: false
 aliases: ["second order effects", "second order thinking"]
 ---

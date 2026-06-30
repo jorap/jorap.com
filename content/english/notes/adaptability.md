@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Performance", "Thinking", "Career"]
 slug: "adaptability"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "The jeepney route changed overnight and I still needed to get to work"
+    back: "Different line when the usual road closed"
+  - front: "Rain canceled our outdoor run and we moved practice to the covered court"
+    back: "Different floor when the weather shifted"
 draft: false
 aliases: []
 ---

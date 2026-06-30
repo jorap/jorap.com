@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Safety", "Systems Thinking"]
 slug: "hierarchy-of-controls"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "We removed the wet patch on the court instead of adding \"slow down\" signs"
+    back: "Removing the hazard beats both"
+  - front: "We taped down the rug corner instead of yelling \"watch your step\" every night"
+    back: "PPE last"
+  - front: "The building fixed the broken step instead of posting another caution sticker"
+    back: "Remove the hazard first, in that order"
+  - front: "Guard rails beat \"be careful\" signs; removing the trip hazard beats both."
+    back: "remove the hazard first"
 draft: false
 aliases: []
 ---

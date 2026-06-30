@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Performance", "Accountability", "Integrity", "Leadership"]
 slug: "own-the-error"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "Surgeons do morbidity rounds. What's the move?"
+    back: "Added a second look when bills pile up"
+  - front: "I forgot the permission slip and told my kid out loud. What's the move?"
+    back: "Not \"the teacher never emailed.\""
+  - front: "I merged wrong and clipped a bumper. What's the move?"
+    back: "Not drove off hoping nobody saw"
+  - front: "After the missed free throw cost us the game, our point guard said \"that was on me\" in the huddle"
+    back: "No blame theater"
 draft: false
 aliases: ["own your mistakes"]
 ---

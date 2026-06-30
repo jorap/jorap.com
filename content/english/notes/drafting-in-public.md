@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Drafting in Public", "Digital Garden", "Publishing", "PKM", "Writing", "Blogging", "Hugo", "Website Building"]
 slug: "drafting-in-public"
 featured: false
+review: true
+card_sets: ["Writing", "Review"]
+cards:
+  - front: "I shared a draft SOP with the team before it was polished"
+    back: "Understood the handoff"
+  - front: "I posted a rough footwork clip before I'd nailed the cue words"
+    back: "a teammate's comment fixed the line I'd been."
+  - front: "I posted a rough arroz caldo recipe before I'd nailed the ginger amount"
+    back: "a neighbor's comment last month fixed the line."
+  - front: "Drafting in public keeps the garden honest. What's the move?"
+    back: "rough ideas in the open grow faster than."
 draft: false
 aliases: ["Learning in Public"]
 ---

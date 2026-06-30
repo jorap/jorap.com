@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Learning", "Mindset", "Performance"]
 slug: "failure-as-feedback"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "I missed three free throws in a row. What's the move?"
+    back: "Not deciding I'm \"not a basketball person.\""
+  - front: "The utility bill math was wrong. What's the move?"
+    back: "Not proof I can't do numbers"
 draft: false
 aliases: []
 ---

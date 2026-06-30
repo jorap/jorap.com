@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Performance", "Systems Thinking", "Leadership"]
 slug: "preparedness"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "I keep jumper cables and a blanket in the trunk before winter"
+    back: "Not learning that lesson on the icy off-ramp"
+  - front: "We ran our inbound play every Thursday whether we needed it or not"
+    back: "schools run fire drills on sunny Tuesdays so."
+  - front: "Our restaurant ran the closing checklist on a slow Tuesday; Saturday night's rush was boring because everyone had already walked it once."
+    back: "rehearse"
+  - front: "We practiced the fire plan on a calm Tuesday. What's the move?"
+    back: "Kids knew two exits before anyone smelled smoke"
 draft: false
 aliases: []
 ---

@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Self-Control", "Performance", "Relationships"]
 slug: "emotional-regulation"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "A customer snapped at the cashier and she kept her voice level"
+    back: "It's not mailing the first draft"
+  - front: "I was furious at the ref's bad call and still ran the next play"
+    back: "Feel the spike, don't steer the team with it"
 draft: false
 aliases: []
 ---

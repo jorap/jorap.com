@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Digital Minimalism", "PKM", "Productivity", "Focus", "Note Taking", "Tools", "Mindful Tech", "Information Diet"]
 slug: "digital-minimalism"
 featured: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "We dropped the second gym bag and the backup jump rope. What's the move?"
+    back: "fewer things means I actually know where the."
+  - front: "We dropped the second diaper bag, the backup stroller, and the junk drawer of chargers"
+    back: "Actually know where the one working cable lives"
+  - front: "Same reason I keep one capture path instead of five apps"
+    back: "Stopped collecting tools"
+  - front: "The front desk runs one scheduling app, not four. What's the move?"
+    back: "fewer sync layers means fewer places patient reminders."
 draft: false
 aliases: []
 ---

@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Mobile", "Capture", "Workflow", "PKM", "Productivity", "Note Taking"]
 slug: "mobile-capture-workflows"
 featured: false
+review: true
+card_sets: ["Capture", "Workflow"]
+cards:
+  - front: "Halftime idea on the bench. What's the move? One check?"
+    back: "Voice-memo'd it before the third quarter wiped it"
+  - front: "Grocery line, kid asks for something, thought gone unless I scribble on the receipt back"
+    back: "Two seconds, one place"
+  - front: "Jeepney stop, blog idea hits. What's the move?"
+    back: "one tap to notes before the next ride."
+  - front: "School pickup, kid mentions a permission slip. What's the move?"
+    back: "Share sheet to inbox before the next text buries it"
 draft: false
 aliases: []
 ---

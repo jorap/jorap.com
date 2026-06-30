@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["PKM", "Note Taking"]
 slug: "commonplace-book"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "Coach's old basketball playbook of sets and halftime talks"
+    back: "Paper instead of wikilinks"
+  - front: "A thrift-store find: a 1980s coach's playbook with handwritten margins"
+    back: "Paper instead of wikilinks"
+  - front: "Grandpa's notebook of sermon lines and recipes. What's the move?"
+    back: "quotes worth keeping before anyone had a digital."
+  - front: "My mother-in-law's recipe card box with margin notes. What's the move?"
+    back: "Ancestor of linked notes"
 draft: false
 aliases: []
 ---

@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Leadership", "Ethics"]
 slug: "ethical-leadership"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "I stopped the backyard wrestling match when someone was about to get hurt"
+    back: "Even though the kids wanted the rougher version"
+  - front: "The coach killed the unsafe trust-fall drill when a safer team exercise achieved the same bonding goal"
+    back: "Not to win at their expense"
+  - front: "The manager killed the unsafe team-building exercise when a safer option achieved the same goal."
+    back: "authority used to protect people and tell the truth"
+  - front: "Our building admin reported the broken stair rail to the owner instead of scheduling another photo day on it"
+    back: "Not protect the event"
 draft: false
 aliases: []
 ---

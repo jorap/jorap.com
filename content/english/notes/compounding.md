@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Mental Models", "Productivity", "Performance", "Habits", "Learning", "PKM", "Systems Thinking"]
 slug: "compounding"
 featured: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "Ten minutes of free throws every Tuesday looked pointless for months"
+    back: "then the percentage bent without me noticing the."
+  - front: "A line cook fixes one prep station flaw every Monday. What's the move?"
+    back: "Not one yearly overhaul that never sticks"
+  - front: "My kid's piano practice looked pointless for a year. What's the move?"
+    back: "three songs a week, same scales, then year."
+  - front: "Our family morning checklist grew one line per forgotten backpack"
+    back: "six months later school mornings were boring in."
 draft: false
 aliases: ["Compound Interest"]
 ---

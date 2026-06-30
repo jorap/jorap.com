@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Feynman Technique", "Learning", "PKM", "Teaching", "Understanding", "Writing", "Note Taking"]
 slug: "the-feynman-technique"
 featured: false
+review: true
+card_sets: ["Writing", "Review"]
+cards:
+  - front: "I tried to explain the three-second violation to my kid at halftime and stalled halfway"
+    back: "Don't own the idea yet"
+  - front: "The new hire asked why we batch invoices that way and I stumbled mid-sentence"
+    back: "Need one more pass before I teach it"
+  - front: "My kid asked how the fuse box works and I waved vaguely"
+    back: "Didn't understand it well enough to fix anything"
+  - front: "I couldn't explain my note-capture workflow to a friend in two minutes"
+    back: "Gaps in my explanation showed gaps in understanding"
 draft: false
 aliases: ["Feynman Technique", "Richard Feynman"]
 ---

@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Safety", "Leadership", "Risk Management", "Coaching", "Ethics"]
 slug: "eliminate-before-managing"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "Replace an open-water endurance drill with a controlled pool set or land-based conditioning"
+    back: "Same training goal, none of the drowning exposure"
+  - front: "Swap the wobbly ladder for a stable step stool. What's the move?"
+    back: "eliminate the fall hazard instead of adding three."
+  - front: "We stopped storing cleaners under the sink and moved them up high"
+    back: "remove the hazard before we trust a \"don't."
+  - front: "Kill the reply-all thread by fixing the process that started it"
+    back: "Not managing the same near-miss forever"
 draft: false
 aliases: ["elimination before controls"]
 ---

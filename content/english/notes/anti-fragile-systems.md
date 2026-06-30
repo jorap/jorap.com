@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["PKM", "Anti-Fragile", "Local First", "Productivity", "Note Taking", "Future Proofing", "Mindset"]
 slug: "anti-fragile-systems"
 featured: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "When the gym's booking app shut down for good, my paper training log still had every set"
+    back: "I photocopy it once a quarter so I'm."
+  - front: "I keep notes as plain markdown files because the last shiny app I loved got acquired and killed"
+    back: "Boring format, still readable ten years later"
+  - front: "The shop switched POS systems twice and the owner kept a plain spreadsheet backup"
+    back: "Not trust in the vendor forever"
+  - front: "Our family recipe box survived three phone upgrades. What's the move?"
+    back: "Index cards beat the app that stopped syncing"
 draft: false
 aliases: ["anti fragile systems", "Antifragile", "Antifragility"]
 ---

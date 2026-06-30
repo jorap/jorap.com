@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Performance", "Mindset", "Character"]
 slug: "resilience"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "Commute delays wrecked my morning three days straight. What's the move?"
+    back: "I left earlier Thursday instead of cursing the."
+  - front: "We lost the semifinal, had an honest huddle, rested a week, came back with a simpler game plan"
+    back: "Not rage-quitting mid-season"
 draft: false
 aliases: []
 ---

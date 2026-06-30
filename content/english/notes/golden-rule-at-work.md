@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Workplace", "Ethics", "Leadership", "Eternal Principles", "Communication"]
 slug: "golden-rule-at-work"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "My draft reply to the new team manager was technically right and needlessly harsh"
+    back: "And rewrote it"
+  - front: "The group chat pile-on about the neighbor's messy yard. What's the move?"
+    back: "Then said nothing mean"
+  - front: "My draft reply to a new cashier was technically right and needlessly harsh"
+    back: "I paused, asked how I'd want that correction."
+  - front: "I was about to snap at my kid over spilled milk. What's the move?"
+    back: "Want that mistake handled on my worst morning?"
 draft: false
 aliases: ["treat colleagues fairly", "reverse roles at work", "golden rule at work"]
 ---

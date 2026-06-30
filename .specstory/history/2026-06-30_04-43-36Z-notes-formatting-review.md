@@ -6754,4 +6754,231 @@ The best fix is to add a proper wikilink to [[The Golden Rule]] in the relations
 
 The contradiction reason cannot be reworded because the target wikilink itself embeds the alias. The linter logic skips aliases only when they already link to another page. Since the table entry already points elsewhere, the alias is not skipped and the bare text is flagged as unlinked.
 
-The wikilink `[[The Golden Rule at Work]]` resolves to the golden-rule-at-work page, not the-golden-rule page. Therefore `linkedToOther` is false, and the alias is not skipped. The bare "Golden Rule" is not visible text in the table; it is embedded inside the wikilink cell.</details></think>
+The wikilink `[[The Golden Rule at Work]]` resolves to the golden-rule-at-work page, not the-golden-rule page. Therefore `linkedToOther` is false, and the alias is not skipped. The bare "Golden Rule" is not visible text in the table; it is embedded inside the wikilink cell.
+
+The alias regex only matches `[[Golden Rule]]`, so it misses the longer wikilink `[[The Golden Rule at Work]]`. The word boundary scan then flags the bare alias inside the bracketed text. The two fixes are adding `[[The Golden Rule]]` to the prose, or changing the linter to ignore wikilink brackets during the mention scan.</details></think>
+
+_**Agent (auto-low)**_
+
+The linter is flagging "Golden Rule" inside the `[[The Golden Rule at Work]]` wikilink text. I'll add an explicit `[[The Golden Rule]]` link in the note.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/reconcile-before-the-review.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc --buildFuture 2>&1 | rg 'reconcile-before|unlinked mention' || echo "No issues for reconcile-before"</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc --buildFuture 2>&1 | rg 'reconcile-before|unlinked mention' || echo "No issues for reconcile-before"
+```
+
+```
+No issues for reconcile-before
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Fixed. The linter was tripping on **"Golden Rule"** as a substring inside `[[The Golden Rule at Work]]` in the relationships table — it read that as an unlinked mention of [[The Golden Rule]].
+
+Added an explicit typed link in **Note Relationships**:
+
+```markdown
+| extends | [[The Golden Rule]] | I'd want someone to fix the rift before judging my performance |
+```
+
+Hugo build is clean for that note now — garden link issues should show 0 across the board.
+
+---
+
+_**User**_
+
+all notes must have at least 2 flashcards. depending on the importance of the card, provide 2, 4, 6 or 8 flashcards
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Every note needs at least two flashcards. The total depends on importance: two, four, six, or eight.</details></think>
+
+_**Agent (auto-low)**_
+
+I'll map which notes already have flashcards and how importance is defined, then bring every note up to at least 2 cards with 2/4/6/8 by tier.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+import re
+from pathlib import Path
+from collections import Counter
+
+NOTES = Path("content/english/notes")
+CARD_RE = re.compile(r'^\s+-\s+front:\s+"', re.M)
+
+skip = {'_index.md', 'flashcards.md', 'review.md', 'graph.md', 'issues.md', 'random-duo.md', 'create.md', 'okf-export.md'}
+
+for kind in ['meta', 'index', 'utility']:
+    pass
+
+stats = Counter()
+no_cards = []
+with_cards = []
+
+for f in sorted(NOTES.glob("*.md")):
+    if f.name in skip:
+        continue
+    text = f.read_text()
+    fm_end = text.find('\n---', 3)
+    fm = text[:fm_end] if fm_end > 0 else text[:2000]
+    body = text[fm_end+4:] if fm_end > 0 else ''
+    
+    note_kind = re.search(r'^note_kind:\s*"?(\w+)"?', fm, re.M)
+    kind = note_kind.group(1) if note_kind else 'note'
+    layout = re.search(r'^layout:\s*"?(\w+)"?', fm, re.M)
+    lay = layout.group(1) if layout else ''
+    
+    if kind in ('meta', 'index') or lay in ('graph', 'cards', 'review', 'issues', 'backlinks', 'random-duo', 'create'):
+        stats[f'skip_{kind or lay}'] += 1
+        continue
+    
+    review = 'review: true' in fm
+    cards = len(CARD_RE.findall(fm))
+    stats[f'cards_{cards}'] += 1
+    
+    title_m = re.search(r'^title:\s*"(.+)"', fm, re.M)
+    title = title_m.group(1) if title_m else f.stem
+    
+    entry = (f.stem, title, cards, review, kind)
+    if cards == 0:
+        no_cards.append(entry)
+    else:
+        with_cards.append(entry)
+
+print("Card count distribution:")
+for k,v in sorted(stats.items()):
+    print(f"  {k}: {v}")
+print(f"\nWith cards: {len(with_cards)}, without: {len(no_cards)}")
+print(f"\nNo cards (first 30):")
+for e in no_cards[:30]:
+    print(f"  {e[0]}: review={e[3]} kind={e[4]}")
+print(f"  ... total {len(no_cards)}")
+PYEOF
+</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+import re
+from pathlib import Path
+from collections import Counter
+
+NOTES = Path("content/english/notes")
+CARD_RE = re.compile(r'^\s+-\s+front:\s+"', re.M)
+
+skip = {'_index.md', 'flashcards.md', 'review.md', 'graph.md', 'issues.md', 'random-duo.md', 'create.md', 'okf-export.md'}
+
+for kind in ['meta', 'index', 'utility']:
+    pass
+
+stats = Counter()
+no_cards = []
+with_cards = []
+
+for f in sorted(NOTES.glob("*.md")):
+    if f.name in skip:
+        continue
+    text = f.read_text()
+    fm_end = text.find('\n---', 3)
+    fm = text[:fm_end] if fm_end > 0 else text[:2000]
+    body = text[fm_end+4:] if fm_end > 0 else ''
+    
+    note_kind = re.search(r'^note_kind:\s*"?(\w+)"?', fm, re.M)
+    kind = note_kind.group(1) if note_kind else 'note'
+    layout = re.search(r'^layout:\s*"?(\w+)"?', fm, re.M)
+    lay = layout.group(1) if layout else ''
+    
+    if kind in ('meta', 'index') or lay in ('graph', 'cards', 'review', 'issues', 'backlinks', 'random-duo', 'create'):
+        stats[f'skip_{kind or lay}'] += 1
+        continue
+    
+    review = 'review: true' in fm
+    cards = len(CARD_RE.findall(fm))
+    stats[f'cards_{cards}'] += 1
+    
+    title_m = re.search(r'^title:\s*"(.+)"', fm, re.M)
+    title = title_m.group(1) if title_m else f.stem
+    
+    entry = (f.stem, title, cards, review, kind)
+    if cards == 0:
+        no_cards.append(entry)
+    else:
+        with_cards.append(entry)
+
+print("Card count distribution:")
+for k,v in sorted(stats.items()):
+    print(f"  {k}: {v}")
+print(f"\nWith cards: {len(with_cards)}, without: {len(no_cards)}")
+print(f"\nNo cards (first 30):")
+for e in no_cards[:30]:
+    print(f"  {e[0]}: review={e[3]} kind={e[4]}")
+print(f"  ... total {len(no_cards)}")
+PYEOF
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>

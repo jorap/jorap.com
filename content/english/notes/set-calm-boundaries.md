@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Relationships", "Communication", "Self-Control"]
 slug: "set-calm-boundaries"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "A teammate kept trash-talking our own bench. What's the move?"
+    back: "Clear line"
+  - front: "A client kept calling my personal cell after hours. What's the move?"
+    back: "No apology tour"
 draft: false
 aliases: []
 ---

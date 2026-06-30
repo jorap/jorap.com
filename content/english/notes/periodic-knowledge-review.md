@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Review", "PKM", "Weekly Review", "Maintenance", "Second Brain", "Habits", "Note Taking"]
 slug: "periodic-knowledge-review"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "The clinic reviews charts every Friday at four. What's the move?"
+    back: "Not only when a complaint lands"
+  - front: "I calendar thirty minutes Sunday to clear the bowl by the door and check the family calendar"
+    back: "Only tidy in panic"
+  - front: "First Sunday I reconcile the budget. What's the move?"
+    back: "Not only when the card gets declined mid-commute"
+  - front: "The basketball team watches film every Monday, win or lose"
+    back: "Not only after a blowout"
 draft: false
 aliases: []
 ---

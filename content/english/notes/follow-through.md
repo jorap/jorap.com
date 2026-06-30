@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Performance", "Work", "Accountability"]
 slug: "follow-through"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "\"I'll look into it\" without a date is how school projects die after the group chat goes quiet"
+    back: "follow-through is the recap with owners and dates."
+  - front: "I told my kid I'd help with the project \"soon\" and watched it die in the backpack"
+    back: "follow-through was naming when and what I'd bring."
 draft: false
 aliases: ["follow through"]
 ---

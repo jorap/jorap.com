@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Sourcing", "Citations", "PKM", "Research", "Note Taking", "Integrity", "Writing"]
 slug: "intellectual-sourcing"
 featured: false
+review: true
+card_sets: ["Writing", "Review"]
+cards:
+  - front: "I taped the coach's article title under the quote in our playbook so six months later we know if the source still says what we thought."
+    back: "Intellectual Sourcing"
+  - front: "I tape the newspaper name under the quote on my kid's history project so six months later we know if the source still says what we thought."
+    back: "Intellectual Sourcing"
+  - front: "I cite the link in my garden note not for academia. What's the move?"
+    back: "so I can trust my own synthesis and."
+  - front: "Without that source line our own summary starts to feel like gospel"
+    back: "intellectual sourcing is tracking where ideas..."
 draft: false
 aliases: []
 ---

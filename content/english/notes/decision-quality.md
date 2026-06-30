@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Decision Making", "Thinking", "Performance"]
 slug: "decision-quality"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "Signing a year-long club fee on one trial session is how people miss the schedule clash"
+    back: "decision quality was one call to a current."
+  - front: "Buying supplies on one vendor quote is how clinics overpay One check?"
+    back: "decision quality was checking last month's invoice before."
 draft: false
 aliases: []
 ---

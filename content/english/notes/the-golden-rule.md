@@ -24,6 +24,10 @@ cards:
     back: "How would I want to be treated?"
   - front: "Criticism is true but tone is cruel. Finger on send. One check first?"
     back: "Pause - reverse roles first."
+  - front: "Thumb on a cruel but probably true critique. How would I want someone to say it to me?"
+    back: "Pause - say it the way I'd want to hear it."
+  - front: "Someone cut ahead at the clinic and I drafted a public scolding. One check?"
+    back: "Grace - how I'd want to be corrected."
 draft: false
 aliases: ["do unto others", "Golden Rule"]
 ---

@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Relationships", "Communication", "Listening"]
 slug: "listen-before-fixing"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "A younger player kept explaining why he missed the free throw"
+    back: "Then offered one drill"
+  - front: "A nurse vented about a scheduling mix-up. What's the move?"
+    back: "Then asked what she wanted done about it"
 draft: false
 aliases: []
 ---

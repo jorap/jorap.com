@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Safety", "Systems Thinking"]
 slug: "risk-management"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "I moved the bike rack off the blind corner before adding another mirror"
+    back: "Name what can go wrong, then pick the strong control"
+  - front: "We moved the hydration table off the sprint lane before buying more caution tape"
+    back: "Eliminate before manage"
+  - front: "We moved the hot oil station away from the walk lane before buying more warning signs"
+    back: "Eliminate before manage"
+  - front: "We moved the space heater off the rug before lecturing the kids again about not touching it."
+    back: "name what can go wrong"
 draft: false
 aliases: []
 ---

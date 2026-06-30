@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Performance", "Execution", "Accountability", "Work"]
 slug: "complete-the-cycle"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "Halftime talk ended with \"we'll fix the press tomorrow\""
+    back: "I wrote the one drill on the whiteboard."
+  - front: "Parent-teacher night ended with \"we'll email the action plan\""
+    back: "Who owns what"
 draft: false
 aliases: ["close the loop"]
 ---

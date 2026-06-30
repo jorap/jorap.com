@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Performance", "Work", "Productivity"]
 slug: "execution"
 featured: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "Our block cleanup had a group chat full of enthusiasm and no bags until one neighbor showed up with gloves and a start time."
+    back: "turning a decision into finished work"
+  - front: "The coach drew a beautiful play on the whiteboard. What's the move?"
+    back: "execution started when players were on the field."
+  - front: "The PTO committee had color-coded phases and zero volunteers signed up until one person named who does what by when."
+    back: "turning a decision into finished work"
+  - front: "A wedding invite means nothing if nobody books the venue"
+    back: "Plans earn nothing until the work lands"
 draft: false
 aliases: []
 ---

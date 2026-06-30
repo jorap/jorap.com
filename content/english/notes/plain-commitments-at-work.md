@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Workplace", "Ethics", "Communication", "Eternal Principles", "Integrity"]
 slug: "plain-commitments-at-work"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "The host almost said \"I'll try to maybe get you a table around seven if we're not slammed\" when \"7pm\" or \"I can't tonight"
+    back: "Want tomorrow?\" was what the couple needed"
+  - front: "I told the carpool \"yes Friday, no Thursday\". What's the move?"
+    back: "Not \"definitely maybe if nothing comes up.\""
+  - front: "The coach said \"practice at 4pm sharp\". What's the move?"
+    back: "not \"we'll try to maybe start around four."
+  - front: "I told my neighbor \"I'll fix your fence Saturday by noon\""
+    back: "One deadline, one owner, not padded maybe"
 draft: false
 aliases: ["yes means yes at work"]
 ---

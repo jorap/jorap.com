@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["PKM", "Personal Knowledge Management", "Second Brain", "Note Taking", "Productivity", "Learning"]
 slug: "pkm"
 featured: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "When a friend asks what PKM means, I say the same for what I learn"
+    back: "Boring name, daily payoff"
+  - front: "My commute notebook has three lists I actually open. What's the move?"
+    back: "Not forty folders I'll never scroll again"
+  - front: "The team manager keeps a card file sorted by what she actually uses on game day, not every article she ever read."
+    back: "PKM"
+  - front: "The school nurse keeps a card file sorted by what she actually uses on a shift, not every article she ever read."
+    back: "PKM"
 draft: false
 aliases: ["Personal Knowledge Management"]
 ---

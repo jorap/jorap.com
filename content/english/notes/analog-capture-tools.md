@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Analog", "Capture", "Note Taking", "Bullet Journal", "PKM", "Productivity"]
 slug: "analog-capture-tools"
 featured: false
+review: true
+card_sets: ["Capture", "Workflow"]
+cards:
+  - front: "The phone dies mid-sermon and I scribble Philippians references in the margin"
+    back: "I copy them into my study Bible at."
+  - front: "Stuck in a dead-zone meeting, I jot the action items on the back of the agenda instead of pretending I'll remember them at the car."
+    back: "Analog Capture Tools"
+  - front: "My phone died mid-game and the pocket notebook still had the set counts"
+    back: "Same capture, no battery required"
+  - front: "The contractor sketches room dimensions on a napkin at the site walk"
+    back: "paper wins when the tablet won't load and."
 draft: false
 aliases: []
 ---

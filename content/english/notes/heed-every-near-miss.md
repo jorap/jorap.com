@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Safety", "Leadership", "Risk Management", "Learning", "Systems Thinking"]
 slug: "heed-every-near-miss"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "A swimmer needed rescue during the same open-water drill last month"
+    back: "Not proof the safety boat can handle it forever"
+  - front: "A kid almost choked on the same team-building snack twice"
+    back: "Heed the near-miss; luck isn't a control layer"
+  - front: "The toddler almost fell off the same chair twice. What's the move?"
+    back: "Fix the hazard before the third time"
+  - front: "A previous rescue during the same exercise is a warning to stop"
+    back: "Not proof that the rescue team can keep handling it"
 draft: false
 aliases: ["near miss investigation", "survival is not safety", "heed every near miss"]
 ---

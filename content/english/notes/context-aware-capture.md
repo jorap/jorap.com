@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Capture", "PKM", "Context", "Note Taking", "Second Brain", "Metadata", "Workflow"]
 slug: "context-aware-capture"
 featured: false
+review: true
+card_sets: ["Capture", "Workflow"]
+cards:
+  - front: "At the clinic I scribble \"follow up. What's the move?"
+    back: "Remember it wasn't a generic callback"
+  - front: "I saved a drill clip titled \"use when our pick-and-roll breaks down\""
+    back: "Knew why I kept it, not just what it showed"
+  - front: "At the grocery I scribble \"milk. What's the move?"
+    back: "Remember it wasn't just breakfast milk"
+  - front: "I bookmark a link with one line about which project it feeds"
+    back: "A link without context is a mystery six weeks later"
 draft: false
 aliases: ["context aware capture"]
 ---

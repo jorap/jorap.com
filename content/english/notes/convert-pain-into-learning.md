@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Performance", "Learning", "Growth", "Continuous Improvement"]
 slug: "convert-pain-into-learning"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "I bombed a client presentation and stewed for a week. What's the move?"
+    back: "Cut two slides"
+  - front: "I missed the turn twice on the new commute. What's the move?"
+    back: "one note on where the sign hides, tested."
 draft: false
 aliases: ["learn from failure"]
 ---

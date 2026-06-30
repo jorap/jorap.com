@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Website Building", "Freelance", "Static Site Generator", "Client Work", "Handoff"]
 slug: "client-site-handoff"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "Neighbor chose Git lesson. What's the move? One check?"
+    back: "She broke build once, fixed typo same night"
+  - front: "Pastor emails bulletin PDF every Friday. What's the move?"
+    back: "Retainer batch, one push, no CMS layer needed"
 draft: false
 aliases: ["site handoff", "client publish path"]
 ---

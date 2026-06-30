@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Mental Models", "Thinking"]
 slug: "elon-musk"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "I caught myself saying \"what would Musk do\" about the messy garage"
+    back: "Treating him as the final answer didn't"
+  - front: "My kid's coach kept quoting a YouTube drill until someone said \"Musk would strip it to atoms\""
+    back: "Wrong idol to treat one CEO as gospel"
 draft: false
 aliases: []
 ---

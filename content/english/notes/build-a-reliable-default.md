@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Performance", "Habits", "Preparedness", "Systems Thinking"]
 slug: "build-a-reliable-default"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "The clinic front desk doesn't make up triage order when three walk-ins arrive"
+    back: "No guessing"
+  - front: "Our family fire plan is one page on the fridge: two exits, where we meet, who grabs the baby. Last blackout, my kid ran it half-asleep and nobody guessed."
+    back: "when time"
 draft: false
 aliases: ["reliable default under pressure"]
 ---

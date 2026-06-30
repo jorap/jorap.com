@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Local First", "PKM", "Sync", "Privacy", "Data Sovereignty", "Security", "E2EE", "Encryption", "Self-Hosting", "Note Taking", "Offline"]
 slug: "local-first-software"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "My commute playlist is downloaded on the phone. What's the move?"
+    back: "Still hear music in the tunnel when the signal drops"
+  - front: "My kid's shooting log lives in a notebook in the gym bag"
+    back: "Not an app that might vanish when the vendor pivots"
+  - front: "Grandma's recipe cards live in the kitchen drawer. What's the move?"
+    back: "Not an app that might vanish"
+  - front: "If the phone dies mid-grocery run, the list on the fridge still works."
+    back: "Local-first Software"
 draft: false
 aliases: ["local first software", "Local First", "Privacy and Data Sovereignty", "Data Sovereignty", "E2EE", "E2EE Security"]
 ---

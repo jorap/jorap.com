@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Safety", "Leadership", "Ethics", "Coaching", "Duty of Care"]
 slug: "life-before-achievement"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "I said no to the backyard rope swing over concrete when a low tree branch and mat did the same fun with softer landings."
+    back: "human life stays a non-negotiable constraint"
+  - front: "The coach canceled cliff-jump team-building when the park picnic hit bonding without a credible broken-leg risk"
+    back: "Unity doesn't require a stunt"
+  - front: "The school canceled the cliff-jump field trip when the park picnic hit the same bonding goal without a credible risk of a broken leg."
+    back: "human life stays a non-negotiable constraint"
+  - front: "The scout leader picked the flat trail hike instead of the ridge walk when both got the badge and only one had a drop with no guardrail."
+    back: "human life stays a non-negotiable constraint"
 draft: false
 aliases: ["life over achievement", "no achievement justifies death risk"]
 ---

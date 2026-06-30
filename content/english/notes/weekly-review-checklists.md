@@ -10,7 +10,7 @@ tags: ["Weekly Review", "Checklist", "GTD", "PKM", "PARA", "Habits", "Workflow"]
 slug: "weekly-review-checklists"
 featured: false
 review: true
-card_sets: ["Review", "Workflow"]
+card_sets: ["Focus", "Review"]
 cards:
   - front: "Friday review - inbox and calendar done. Fourth step before I close?"
     back: "Pick one ship action."
@@ -24,6 +24,10 @@ cards:
     back: "Same day every week."
   - front: "Step three after inbox and calendar - what do I review next?"
     back: "Active projects - stuck and next."
+  - front: "This week feels different - tempted to skip the checklist because travel. Minimum?"
+    back: "Twenty minutes - same four steps, shorter."
+  - front: "Post-game Sunday and gear bag still a mess. What's the boring ritual?"
+    back: "Clear bag, check fixture, one skill drill."
 draft: false
 aliases: []
 ---

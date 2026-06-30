@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Workplace", "Productivity", "Eternal Principles", "Priorities", "Focus"]
 slug: "priorities-before-the-inbox"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "Game film due Friday but parent group chats are pinging. What do I protect first?"
+    back: "Cut film first - chats wait."
+  - front: "The report was due at noon. What's the move?"
+    back: "Wrote the first page before opening Slack"
+  - front: "Tuesday before school, phone buzzing and lunches on the counter"
+    back: "Answer messages from a morning that already moved"
+  - front: "Oil change before the road trip. What's the move? One check?"
+    back: "Booked the slot before scrolling neighborhood drama"
 draft: false
 aliases: ["real priority first"]
 ---

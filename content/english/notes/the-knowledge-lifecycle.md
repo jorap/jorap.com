@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Knowledge Lifecycle", "PKM", "Archive", "Evergreen Notes", "Workflow", "Organization"]
 slug: "the-knowledge-lifecycle"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "Ideas in my vault move capture → active use → evergreen → archive"
+    back: "Spend water and stakes where the note actually lives"
+  - front: "The new set play lives in \"learning\" for three weeks, graduates to \"game plan,\" then gets archived when we change offense."
+    back: "The Knowledge Lifecycle"
+  - front: "A tomato seedling on the windowsill graduates to the backyard bed after three good weeks, then gets pulled when frost hits."
+    back: "The Knowledge Lifecycle"
+  - front: "The school FAQ note started as a fleeting capture, got updated all semester, then moved to archive when the kid changed schools."
+    back: "The Knowledge Lifecycle"
 draft: false
 aliases: ["Knowledge Lifecycle", "Note Maturity"]
 ---

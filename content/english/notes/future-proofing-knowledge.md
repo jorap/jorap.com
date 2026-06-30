@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Future Proofing", "PKM", "Markdown", "Local First", "Backup", "Note Taking", "Documentation", "Hugo"]
 slug: "future-proofing-knowledge"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "The team roster lives in a shared spreadsheet, not a app that might shut down"
+    back: "Can open anywhere"
+  - front: "Our family contacts list is plain text on the fridge backup folder"
+    back: "I copy it twice a year so future-proof."
+  - front: "My notes live as plain text I can open anywhere; I test the backup drive before I need it, not after an app dies."
+    back: "Future-Proofing Knowledge"
+  - front: "Grandma's recipes are on index cards in a tin, not an app that might shut down."
+    back: "Future-Proofing Knowledge"
 draft: false
 aliases: ["future proofing knowledge", "Plain Text Files"]
 ---

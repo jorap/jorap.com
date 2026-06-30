@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Productivity", "Planning"]
 slug: "quarterly-planning"
 featured: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "January's vague \"get faster\" became twelve weeks with a fridge time chart"
+    back: "Week ten finally bit"
+  - front: "January's vague \"reduce waste\" became twelve weeks with a kitchen whiteboard tally"
+    back: "Week ten finally bit"
+  - front: "January's vague \"get fit\" became twelve weeks with a fridge scoreboard"
+    back: "Week ten finally bit"
+  - front: "January's vague \"save money\" became twelve weeks with a jar on the counter"
+    back: "Week ten finally bit"
 draft: false
 aliases: []
 ---

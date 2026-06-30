@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Personal API", "PKM", "Automation", "Second Brain", "AI", "Knowledge Management", "Static Site Generator", "Documentation", "Future of PKM", "Trends", "Tools"]
 slug: "building-a-personal-api"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "Our pantry uses the same rule. What's the move?"
+    back: "snacks, baking, breakfast - my wife finds the."
+  - front: "My notes use consistent slugs and wikilinks so future me and my tools can read the garden without me re-explaining every file from scratch."
+    back: "Building a Personal API"
+  - front: "Our team names drills the same way every season. What's the move?"
+    back: "level, skill, variation - so a sub can."
+  - front: "The warehouse labels every bin the same way. What's the move?"
+    back: "Not a tour from the veteran"
 draft: false
 aliases: ["Future of PKM", "The Future of PKM"]
 ---

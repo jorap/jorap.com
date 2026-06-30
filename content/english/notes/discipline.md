@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Habits", "Performance", "Self-Control"]
 slug: "discipline"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "I write on schedule whether the post feels brilliant. What's the move?"
+    back: "Said I'd do when applause isn't pushing me"
+  - front: "A marathon isn't won on race-day adrenaline. What's the move?"
+    back: "It's won on rainy Tuesday runs nobody films"
 draft: false
 aliases: []
 ---

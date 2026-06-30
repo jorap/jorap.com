@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Creative Output", "Express", "PKM", "Writing", "Second Brain", "Publishing", "Focus", "Distraction Free", "Markdown"]
 slug: "creative-output"
 featured: false
+review: true
+card_sets: ["Writing", "Review"]
+cards:
+  - front: "Friday film day means everyone shows one clip, rough or not"
+    back: "I do the same with my note pile."
+  - front: "I publish the sermon outline before it's polished because truth shared beats truth hoarded in the garden like bookmarks."
+    back: "Creative Output"
+  - front: "The art teacher makes everyone show one sketch, rough or not"
+    back: "Notes are inventory, output is the point"
+  - front: "We don't wait for perfect dinner photos. What's the move?"
+    back: "Hearing the idea isn't doing it"
 draft: false
 aliases: ["Distraction-Free Writing", "distraction free writing"]
 ---

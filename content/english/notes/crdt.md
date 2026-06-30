@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["PKM", "Tools"]
 slug: "crdt"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "My wife and I edited the grocery list on two phones offline and both items stayed"
+    back: "no \"your version overwrote mine\" argument in aisle."
+  - front: "Two coaches edited the same lineup offline at a tournament and both changes merged"
+    back: "No \"you must sync first\" fight at the bench"
+  - front: "Two shift leads updated the patient board offline and both notes merged when Wi‑Fi came back"
+    back: "No lost handoff over who synced last"
+  - front: "Two phones edited the same list offline and both changes merged"
+    back: "No \"you must sync first\" fight"
 draft: false
 aliases: []
 ---

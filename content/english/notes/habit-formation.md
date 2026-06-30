@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Habits", "Performance", "Productivity"]
 slug: "habit-formation"
 featured: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "Same gym bag, same water bottle, same pre-game stretch. What's the move?"
+    back: "after thirty days I stop debating warm-up; the."
+  - front: "Same door, same notebook, same pocket. What's the move?"
+    back: "after thirty days I stop debating capture; the."
+  - front: "I capture commute ideas on the same pocket notebook after locking the car"
+    back: "Repeat until it runs without a daily debate"
+  - front: "Gym shoes by the bed. What's the move? One check?"
+    back: "remove the decision; after a month the kid."
 draft: false
 aliases: []
 ---

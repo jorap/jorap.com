@@ -24,6 +24,10 @@ cards:
     back: "Move treasure - heart follows."
   - front: "Treating kingdom life like something I must earn. What's the actual entry?"
     back: "Receive by faith - then live it."
+  - front: "Tuesday 7am, house loud, Bible still closed on the counter. What comes first?"
+    back: "Open Scripture before the inbox."
+  - front: "Anxiety scrolling finances at 11pm before I prayed. Kingdom move?"
+    back: "Pray first - then act on the numbers."
 draft: false
 aliases: ["seek ye first", "kingdom of God"]
 ---

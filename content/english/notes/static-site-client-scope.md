@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Website Building", "Freelance", "Static Site Generator", "Client Work", "Scope"]
 slug: "static-site-client-scope"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "Cafe owner wanted online ordering. What's the move?"
+    back: "Menu page plus link to existing delivery app"
+  - front: "Freelance designer needed portfolio and case studies. What's the move?"
+    back: "Yes, static, live in a week"
 draft: false
 aliases: ["static site fit", "what static sites can do"]
 ---

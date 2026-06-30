@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Performance", "Decision Making", "Self-Control", "Conflict"]
 slug: "slow-the-moment"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "Cut off in traffic, my first instinct matched horn for horn"
+    back: "Became the driver I hate"
+  - front: "Before the free throw with the game on the line, the shooter took one breath"
+    back: "slow the moment bought the routine instead of."
 draft: false
 aliases: ["pause before reacting"]
 ---

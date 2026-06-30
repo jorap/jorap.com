@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Learning", "Memory"]
 slug: "forgetting-curve"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "I forgot half the new footwork cues by Friday until I drilled five on the wall chart before every practice."
+    back: "memory fades fast without review"
+  - front: "Forgot half the vocab by Friday until I drilled five words on the fridge during rice."
+    back: "memory fades fast without review"
 draft: false
 aliases: []
 ---

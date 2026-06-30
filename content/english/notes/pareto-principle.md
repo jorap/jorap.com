@@ -10,8 +10,14 @@ tags: ["Mental Models", "Productivity", "Performance", "Prioritization", "Focus"
 slug: "pareto-principle"
 featured: false
 aliases: ["80/20", "80-20 Rule", "Pareto Principle", "Vilfredo Pareto"]
+
+
+
+
+
+
 review: true
-card_sets: ["Focus", "Review"]
+card_sets: ["Focus", "Workflow"]
 cards:
   - front: "Task board and reading list both screaming urgent. Protect which slice - roughly what percent moved the needle?"
     back: "The vital ~20%."
@@ -25,6 +31,10 @@ cards:
     back: "Protect the vital few - cut tail polish."
   - front: "Someone treats 80/20 as physical law. One correction I'd give?"
     back: "Shorthand ratio - not a law."
+  - front: "The kids' activity list had six things and we skipped three nights"
+    back: "most results come from a small slice of work"
+  - front: "The bakery had six daily specials and sold two consistently"
+    back: "we cut to those two and waste dropped"
 draft: false
 ---
 **Pareto principle** = most results come from a small slice of work - find the slice, protect it, cut the rest.

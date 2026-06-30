@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Strategy", "Thinking", "Leadership"]
 slug: "strategic-foresight"
 featured: false
+review: true
+card_sets: ["Ethics", "Focus"]
+cards:
+  - front: "The club signed a young backup keeper before the starter's contract year"
+    back: "foresight looks past this Saturday's win to next."
+  - front: "The café added two high chairs before rainy-season families showed up"
+    back: "Not only tables for today's lunch crowd"
+  - front: "You don't buy a two-seat car the year before twins arrive"
+    back: "Not just today's trunk test"
+  - front: "Our condo board started the elevator fund three years before the quote arrived"
+    back: "looking past tonight's quiet ride to what the."
 draft: false
 aliases: []
 ---

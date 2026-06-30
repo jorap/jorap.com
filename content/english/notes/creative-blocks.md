@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Creative Blocks", "Writing", "PKM", "Productivity", "Express", "Second Brain"]
 slug: "creative-blocks"
 featured: false
+review: true
+card_sets: ["Writing", "Review"]
+cards:
+  - front: "My kid stared at a blank training log for twenty minutes"
+    back: "I told her to write one messy line."
+  - front: "The new hire couldn't start the report. What's the move?"
+    back: "I said write one ugly paragraph about yesterday's."
+  - front: "My daughter stared at a blank worksheet for twenty minutes"
+    back: "I told her to write one messy sentence."
+  - front: "I do the same when I'm stuck on a post. What's the move?"
+    back: "More capture won't unstick me"
 draft: false
 aliases: ["Writer's Block"]
 ---

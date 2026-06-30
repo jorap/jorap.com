@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Performance", "Strategy", "Thinking", "Competition"]
 slug: "expect-the-counter"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "I offered extra screen time for chores and my kid negotiated harder tasks by day three"
+    back: "Not only rehearsed the opening bribe"
+  - front: "We changed our full-court press and the other team adjusted by halftime"
+    back: "expect the counter meant building a backup look."
 draft: false
 aliases: ["plan the second move"]
 ---

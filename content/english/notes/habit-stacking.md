@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Habits", "Performance", "Systems Thinking"]
 slug: "habit-stacking"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "I never remembered to stretch until it sat right after lacing gym shoes"
+    back: "The shoes were the anchor, the stretch piggybacked"
+  - front: "After I clock in, I scan the handoff sheet. What's the move?"
+    back: "No new time slot, just a chain"
 draft: false
 aliases: ["habit stack"]
 ---

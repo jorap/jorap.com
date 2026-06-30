@@ -9,6 +9,17 @@ author: "JoRap"
 tags: ["Productivity", "Digital Minimalism"]
 slug: "attention-economy"
 featured: false
+review: true
+card_sets: ["Focus", "Workflow"]
+cards:
+  - front: "The clinic waiting-room TV runs health tips between ads"
+    back: "Came for"
+  - front: "Halftime on my phone was supposed to be rest. What's the move?"
+    back: "Not recovery"
+  - front: "Twenty minutes \"checking news\" was twenty minutes of ads aimed at my outrage"
+    back: "Not rest"
+  - front: "My kid's tablet \"educational\" game paused every level for a purchase screen"
+    back: "The game wanted her focus, not her learning"
 draft: false
 aliases: []
 ---

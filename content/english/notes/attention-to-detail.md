@@ -9,6 +9,13 @@ author: "JoRap"
 tags: ["Performance", "Work", "Craft"]
 slug: "attention-to-detail"
 featured: false
+review: true
+card_sets: ["Focus", "Review"]
+cards:
+  - front: "I almost sent the permission slip to the wrong teacher because the forms looked the same"
+    back: "One more check of the name line saved the field trip"
+  - front: "I use the same pause before I sign anything that can't be undone"
+    back: "The boring second look beats the big mistake"
 draft: false
 aliases: []
 ---
