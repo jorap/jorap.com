@@ -37,16 +37,16 @@ Jesus pairs this with [[Judge Not]]: don't condemn souls, but do evaluate fruit.
 - A trending productivity guru's followers still drown in inbox chaos - grapes from grapevines, thorns from thistles, time and results tell.
 - Last month I bookmarked a preacher who looks holy on stage - six weeks later the people around him looked broke and bitter, and that told me more than any sermon title.
 - A parenting influencer sells calm routines but her comment section is full of moms feeling like failures - I judge the outcome, not the charisma.
-- About to condemn the teacher's soul online. What do I do instead of playing judge - Look at fruit - don't judge their soul.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Signal vs Noise]] | when I can't tell fruit from hype |
-| extends | [[Judge Not]] | You can't condemn souls, but you can judge fruit without breaking judge not |
+| extends | [[Judge Not]] | You can't condemn souls, but you can judge fruit without breaking judge not |. Pairs with [[Ask Seek Knock]].
+
 ## See also
 
-- [[Judge Not]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Signal vs Noise]] - Capture, PKM, Productivity
-- [[The Narrow Way]] - Discipleship, Eternal Principles, Gospel
+- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Rewards]] - Eternal Principles, Gospel, Jesus Christ
+- [[Forgiveness]] - Eternal Principles, Gospel, Jesus Christ

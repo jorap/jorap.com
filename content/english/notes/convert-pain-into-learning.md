@@ -22,7 +22,6 @@ Reflect on what happened, pull out the lesson, design a better response, and tes
 - I missed the turn twice on the new commute - one note on where the sign hides, tested next Monday, rumination without change would've just been suffering.
 - A basketball team watches film after a loss - not to wallow, but so the next game is cleaner.
 - My kid failed the spelling test and we didn't just sigh - we pulled the missed pattern and drilled those ten words before the retake.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -34,8 +33,9 @@ Reflect on what happened, pull out the lesson, design a better response, and tes
 | extends | [[Failure as Feedback]] | Pain is signal when you listen |
 | extends | [[Own the Error]] | Learning starts with honest naming |
 | extends | [[Pressure Reveals Weakness]] | Hard moments are the curriculum |
+
 ## See also
 
-- [[The Feynman Technique]] - Learning, Note Taking, PKM
-- [[Heed Every Near-Miss]] - Leadership, Risk Management, Safety
-- [[Pressure Reveals Weakness]] - Habits, Leadership, Performance
+- [[Growth Mindset]] - Learning, Performance
+- [[Compounding]] - Learning, Performance
+- [[Forgetting Curve]] - Learning

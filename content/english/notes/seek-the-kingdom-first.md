@@ -37,16 +37,16 @@ The Sermon on the Mount ties this to not serving two masters (God and wealth) an
 - Anxiety had me scrolling finances before I prayed - kingdom first meant pray, then act on the bills.
 - The goalie stretches before the locker-room noise - kingdom first is ten minutes of calm before the game sets the tone.
 - The bakery owner opens with a short prayer before the ovens - feed the kingdom line before the invoice pile.
-- Tuesday 7am, inbox calling before work. One move that puts God's reign first - Scripture or prayer before inbox.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Signal vs Noise]] | when I treat every demand as kingdom-level priority |
 | extends | [[Free Grace]] | Put God's rule first because grace already secured where you spend forever |
+
 ## See also
 
-- [[Signal vs Noise]] - Capture, PKM, Productivity
-- [[Don't Worry]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[The Narrow Way]] - Eternal Principles, Gospel, Sermon on the Mount
+- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
+- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
+- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ

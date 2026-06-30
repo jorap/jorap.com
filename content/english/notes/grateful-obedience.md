@@ -37,7 +37,6 @@ aliases: ["obedience from gratitude", "grateful response", "obey because saved"]
 - I obeyed all week to feel saved again after snapping at my kid - wrong motive; grace already saved me; obedience answers with thanks.
 - Bible study high, same sin pattern untouched - hearing without doing isn't grateful obedience; act today.
 - Cross-bearing to feel qualified for heaven - faith saves; the cross shapes daily thanks, not the entry fee.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -48,9 +47,8 @@ aliases: ["obedience from gratitude", "grateful response", "obey because saved"]
 | extends | [[Faith and Works]] | Works prove faith alive - motive is gratitude, not wages |
 | extends | [[Free Grace]] | Grace saves first; obedience answers with thanks |
 | extends | [[Sanctification]] | Holiness grows from received mercy, not earned acceptance |
+
 ## See also
 
-- [[Free Grace]] - Eternal Principles, Faith, Gospel
-- [[Discipleship]] - Eternal Principles, Gospel, Discipleship
-- [[Sanctification]] - Eternal Principles, Faith, Gospel
-- [[Take Up Your Cross]] - Discipleship, Eternal Principles, Gospel
+- [[Assurance]] - Eternal Principles, Free Grace, Gospel
+- [[Childlike Faith]] - Eternal Principles, Free Grace, Gospel

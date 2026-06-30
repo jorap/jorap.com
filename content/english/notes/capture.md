@@ -1,5 +1,4 @@
 ---
-
 title: "Capture"
 meta_title: "Capture - The First Step of Every Note System"
 description: "Capture is where my PKM lives or dies - one trusted inbox, save what resonates."
@@ -28,7 +27,6 @@ cards:
 draft: false
 aliases: ["CODE", "Frictionless Capture"]
 ---
-
 **Capture** = save what resonates into one inbox I trust - then empty it weekly.
 
 Friction kills capture. One inbox, phone to desktop, weekly process - same as [[The Trusted Inbox]]. If I wouldn't act on it or cite it later, it doesn't get saved. Resonance is the filter, not FOMO.
@@ -39,8 +37,6 @@ Friction kills capture. One inbox, phone to desktop, weekly process - same as [[
 - A customer complaint gives me a fix idea mid-shift and I drop it in one inbox - no tagging yet, process it Friday when the spark is already saved.
 - On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it - one pocket notebook, no sorting yet.
 - A commute thought lands and I voice-memo it before the jeepney drowns it out - one trusted pipe, weekly review empties it.
-- Thumb hovering over save on an interesting link I'm unsure about. One question before it hits the inbox - Would I act on it or cite it later?
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -50,8 +46,11 @@ Friction kills capture. One inbox, phone to desktop, weekly process - same as [[
 | extends | [[Frictionless Capture]] | Zero-friction inbox is the habit this note assumes |
 | extends | [[PKM]] | Capture is the first PKM move - save what hits you into one inbox |
 | implements | [[The Trusted Inbox]] | One inbox habit carries capture into something you'll empty |
+
 ## See also
 
-- [[Analog Capture Tools]] - Capture, Note Taking, PKM
-- [[Context-Aware Capture]] - Capture, Note Taking, PKM
-- [[GTD vs PARA]] - Note Taking, PKM, Productivity
+- [[Building a Second Brain]] - CODE Method, Capture, Note Taking
+- [[Commonplace Book]] - Note Taking, PKM
+- [[Inbox Zero]] - PKM, Productivity
+- [[Information Diet]] - PKM, Productivity
+- [[Read Later Queue]] - Capture, PKM

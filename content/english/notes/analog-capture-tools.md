@@ -20,7 +20,6 @@ I love my wiki, but sometimes paper wins - meetings, sermons, the pocket noteboo
 - Stuck in a dead-zone meeting, I jot the action items on the back of the agenda instead of pretending I'll remember them at the car.
 - My phone died mid-game and the pocket notebook still had the set counts - same capture, no battery required.
 - The contractor sketches room dimensions on a napkin at the site walk - paper wins when the tablet won't load and the client is standing there.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,8 +28,10 @@ I love my wiki, but sometimes paper wins - meetings, sermons, the pocket noteboo
 | contradicts | [[Digital Minimalism]] | when paper wins over fewer digital pipes |
 | extends | [[Capture]] | Paper wins when your phone dies or you're stuck in a meeting |
 | extends | [[Commonplace Book]] | Historical paper capture habit - same low-friction lane |
+
 ## See also
 
-- [[Eternal Principles]] - Eternal Principles, Faith, Gospel
-- [[Building a Second Brain]] - Capture, Note Taking, PKM
-- [[The Collector's Fallacy]] - Capture, Note Taking, PKM
+- [[Inbox Zero]] - PKM, Productivity
+- [[Information Diet]] - PKM, Productivity
+- [[Read Later Queue]] - Capture, PKM
+- [[Voice Memos]] - Capture, PKM

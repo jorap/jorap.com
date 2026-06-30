@@ -20,7 +20,6 @@ aliases: []
 - Driving home from clinic I dictated the thought into the phone - transcribed later into the inbox.
 - Walking off the field I dictated the fix for tomorrow's drill - hands busy, idea captured before it evaporated.
 - Hands full of groceries, I dictated "email teacher about field trip" into the phone before I forgot in the door scramble.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,3 +28,8 @@ aliases: []
 | extends | [[Context-Aware Capture]] | Named in notes that link here |
 | extends | [[Mobile Capture Workflows]] | Named in notes that link here |
 | extends | [[Mobile Capture Workflows]] | Named in notes that link here |
+
+## See also
+
+- [[Analog Capture Tools]] - Capture, PKM
+- [[Building a Second Brain]] - Capture, PKM

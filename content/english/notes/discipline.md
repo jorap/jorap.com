@@ -20,7 +20,6 @@ aliases: []
 - A marathon isn't won on race-day adrenaline - it's won on rainy Tuesday runs nobody films.
 - The baker opens at 4am whether she's inspired or not - discipline is the shift she committed to when motivation wasn't there.
 - Discipline is loading the dishwasher when I'd rather scroll - same as brushing teeth when you're already late.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,7 +28,11 @@ aliases: []
 | extends | [[Finish Strong]] | Discipline shows up in the boring tail |
 | extends | [[Process Over Outcomes]] | Trust the loop when the scoreboard is quiet |
 | extends | [[Take Up Your Cross]] | Daily self-denial as spiritual discipline |
+
 ## See also
 
-- [[Finish Strong]] - Execution, Performance
-- [[Habit Formation]] - Habits, Performance
+- [[Build a Reliable Default]] - Habits, Performance
+- [[Composure]] - Performance, Self-Control
+- [[Compounding]] - Habits, Performance
+- [[Continuous Improvement]] - Habits, Performance
+- [[Deliberate Practice]] - Habits, Performance

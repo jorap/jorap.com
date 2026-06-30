@@ -20,7 +20,6 @@ aliases: []
 - After every Friday service they kept one "what broke" line on the whiteboard until it was fixed or accepted.
 - After every messy school morning we kept one "what broke" sticky on the fridge until the routine changed or we accepted the tradeoff.
 - Our building chat logs one near-miss per month until the process changes - learning organizations bury mistakes in process updates, not shame.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,3 +28,10 @@ aliases: []
 | extends | [[Continuous Improvement]] | Named in notes that link here |
 | extends | [[Convert Pain Into Learning]] | Named in notes that link here |
 | extends | [[Convert Pain Into Learning]] | Named in notes that link here |
+
+## See also
+
+- [[Accountability]] - Leadership
+- [[Coaching Ethics]] - Leadership
+- [[Composure]] - Leadership
+- [[Control the Rhythm]] - Leadership

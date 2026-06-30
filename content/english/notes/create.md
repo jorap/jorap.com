@@ -12,6 +12,11 @@ author: "JoRap"
 tags: ["Notes", "Meta", "PKM"]
 featured: false
 draft: false
+aliases: ["create"]
 ---
+Enter a topic. The prompt finds improvement principles, picks one atomic claim, and asks for actionable examples in garden format. Pairs with [[Getting Started]], [[OKF Export]], and [[Random Duo]].
 
-Enter a topic. The prompt finds improvement principles, picks one atomic claim, and asks for actionable examples in garden format.
+## See also
+
+- [[Backlinks]] - Meta, Notes
+- [[Flashcards]] - Meta, Notes

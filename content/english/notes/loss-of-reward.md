@@ -37,13 +37,13 @@ Two categories, one sentence apart: [[Free Grace]] and [[Justification]] settle 
 - Wood-hay-stubble week and dread like I'm facing hell - saved through fire means loss of reward, not loss of eternal life.
 - I collapsed "I might get no reward" with "I'm not saved" - eternal life is by faith; rewards are a separate ledger.
 - Hidden sin exposed and shame screamed heaven access revoked - confess, restore fellowship, keep walking; justification on Christ doesn't get re-opened by a bad season.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | alternative | [[The Narrow Way]] | False "Lord, Lord" never believed vs believer who loses reward but stays saved |
 | contradicts | [[Compounding]] | when one bad season feels like it erased salvation instead of shrinking reward |
+| extends | [[Assurance]] | Can lose reward, not eternal life secured at faith |
 | extends | [[Eternal Rewards]] | Rewards can be gained or lost; salvation is a different category |
 | extends | [[Failure as Feedback]] | Burned work is signal to build differently - not proof you were never saved |
 | extends | [[Forgiveness]] | Sin breaks fellowship and joy; confess and walk - standing on Christ stays |
@@ -53,11 +53,3 @@ Two categories, one sentence apart: [[Free Grace]] and [[Justification]] settle 
 | extends | [[Sanctification]] | Keep becoming holy after a wasted season - growth and reward are separate ledgers |
 | extends | [[Standing vs Fellowship]] | Shame after failure is fellowship or reward, not revoked salvation |
 | extends | [[Wood Hay Stubble]] | Worthless works burn; saved through fire with loss |
-| extends | [[Assurance]] | Can lose reward, not eternal life secured at faith |
-## See also
-
-- [[Faith and Works]] - Eternal Principles, Faith, Gospel
-- [[Free Grace]] - Eternal Principles, Faith, Gospel
-- [[Eternal Rewards]] - Eternal Principles, Gospel, Reward
-- [[Judgment Seat]] - Eternal Principles, Gospel, Reward
-- [[The Narrow Way]] - Discipleship, Eternal Principles, Gospel

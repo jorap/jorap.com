@@ -37,20 +37,19 @@ Gold, silver, precious stones last. Wood, hay, stubble burn. The builder may be 
 - Years of busy church work that mostly fed my ego - motive-tested at the judgment seat; worthless work burns, faithful work lasts.
 - One visible heroic volunteer week masking empty years at home - Christ tests what it's built of, not the hype week.
 - Burned work after a selfish season felt like proof I was never saved - feedback on what to build next, not revoked eternal life.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when one visible heroic week masks years of empty busyness |
 | extends | [[Failure as Feedback]] | Burned work is signal to build differently - not proof you were never saved |
+| extends | [[Heart Righteousness]] | Inner motive determines whether work lasts or burns |
 | extends | [[Judgment Seat]] | Fire test happens at the bema - materials evaluated, not who gets in |
 | extends | [[Loss of Reward]] | Saved with loss - two categories stay separate |
 | extends | [[Treasure in Heaven]] | Store gold-side treasure; wood hay stubble won't survive |
-| extends | [[Heart Righteousness]] | Inner motive determines whether work lasts or burns |
+
 ## See also
 
-- [[Judgment Seat]] - Eternal Principles, Gospel, Reward
-- [[Loss of Reward]] - Eternal Principles, Gospel, Reward
 - [[Eternal Rewards]] - Eternal Principles, Gospel, Reward
-- [[By Their Fruits]] - Eternal Principles, Gospel, Sermon on the Mount
+- [[Faith and Works]] - Eternal Principles, Gospel, Theology
+- [[Faithful Steward]] - Eternal Principles, Gospel, Reward

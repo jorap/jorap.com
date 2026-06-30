@@ -24,7 +24,6 @@ Client work: [[Selling Static Sites]] is the same loop - one pilot site on [[Fre
 - I posted a rough neighborhood watch signup before buying printed flyers - four replies told me if anyone cared.
 - We ran one new play in scrimmage before printing playbooks for the whole league - learned more in forty minutes than another week of polish.
 - The baker sold one test batch of sourdough before remodeling the display case - customers told her what to fix.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -34,10 +33,11 @@ Client work: [[Selling Static Sites]] is the same loop - one pilot site on [[Fre
 | extends | [[Creative Output]] | Ship the smallest version that tests the idea instead of polishing a fantasy in private |
 | extends | [[Lean Startup]] | Ship-to-learn loop Ries named |
 | implements | [[Creative Output]] | Rough ship carries express when polish would miss the window |
+
 ## See also
 
-- [[Selling Static Sites]] - Cloudflare Pages, Freelance, Hugo
-- [[Low Hanging Fruit]] - Decision Making, Mental Models, PKM
-- [[Pareto Principle]] - Decision Making, Mental Models, PKM
-- [[Sunk Cost Fallacy]] - Decision Making, Mental Models, PKM
-- [[Creative Blocks]] - PKM, Productivity, Writing
+- [[Behavioral Economics]] - Decision Making, Mental Models
+- [[Inbox Zero]] - PKM, Productivity
+- [[Information Diet]] - PKM, Productivity
+- [[Ship It]] - Creative Output, Productivity
+- [[Getting Things Done]] - PKM, Productivity

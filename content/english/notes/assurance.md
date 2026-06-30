@@ -37,7 +37,6 @@ aliases: ["assurance of salvation", "eternal security", "rest in Christ"]
 - I pictured the judgment seat and panicked like heaven might get revoked - salvation settled at faith; works get reviewed for reward after.
 - Doubt loop after hidden sin - trust what Christ finished; confess, restore fellowship, keep walking.
 - Waiting to feel holy enough before I trust I'm His - believe first; assurance follows faith, not feeling.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -49,9 +48,8 @@ aliases: ["assurance of salvation", "eternal security", "rest in Christ"]
 | extends | [[Justification]] | Verdict doesn't reopen when I stumble |
 | extends | [[Loss of Reward]] | Can lose reward, not salvation |
 | extends | [[Standing vs Fellowship]] | Doubt often confuses broken closeness with revoked standing |
+
 ## See also
 
-- [[Free Grace]] - Eternal Principles, Faith, Gospel
-- [[Justification]] - Eternal Principles, Faith, Gospel
-- [[Childlike Faith]] - Eternal Principles, Faith, Gospel
-- [[Don't Worry]] - Eternal Principles, Gospel, Priorities
+- [[Faith and Works]] - Eternal Principles, Faith, Free Grace
+- [[Repent and Believe]] - Eternal Principles, Faith, Free Grace

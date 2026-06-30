@@ -10,7 +10,7 @@ tags: ["Website Building", "Hugo", "CMS", "Static Site Generator", "Freelance", 
 slug: "git-based-cms"
 featured: false
 draft: false
-aliases: ["Sveltia CMS", "Decap CMS", "git backed cms"]
+aliases: ["Sveltia CMS", "Decap CMS", "git backed cms", "git based cms"]
 ---
 **Git-based CMS** = a web editor (I use Sveltia or Decap) that commits markdown to the repo - same [[Free Tier Hosting Stack]] build on push, but the client gets buttons instead of VS Code.
 
@@ -26,18 +26,16 @@ I publish via Git directly. Clients often won't. Before I redirect them to WordP
 - I added Decap for a client who insisted on "WordPress-like" - honest scope: blog posts only, not plugins; still cheaper than hosted WordPress long term.
 - Solo portfolio client - I talked myself out of CMS; Git handoff via [[Client Site Handoff]] was enough.
 - CMS auth misconfigured once - treat login like production, not a demo sidebar.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Minimum Effective Dose]] | when a solo dev site doesn't need a CMS layer on top of markdown |
+| extends | [[Client Site Handoff]] | CMS handoff is a fourth path when Git lesson won't land |
 | extends | [[Free Tier Hosting Stack]] | Still markdown in git, still Cloudflare build on push |
 | extends | [[Static Site Client Scope]] | Widens who can edit without redirecting to WordPress |
-| extends | [[Client Site Handoff]] | CMS handoff is a fourth path when Git lesson won't land |
 
 ## See also
 
-- [[Selling Static Sites]] - Cloudflare Pages, Freelance, Hugo
-- [[Static Site Client Scope]] - Freelance, Static Site Generator, Website Building
-- [[Client Site Handoff]] - Freelance, Static Site Generator, Website Building
+- [[Selling Static Sites]] - Freelance, Hugo, Static Site Generator
+- [[Digital Garden]] - Hugo, Static Site Generator, Website Building

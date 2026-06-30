@@ -20,7 +20,6 @@ aliases: []
 - Rain canceled our outdoor run and we moved practice to the covered court - same goal of getting reps in, different floor when the weather shifted.
 - Our usual fish supplier doubled prices overnight and half the kitchen wanted to keep last month's specials - adaptability was rewriting the weekend menu before Saturday service.
 - The school bus was late so we walked - same deadline for drop-off, different route when the morning plan broke.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,7 +28,8 @@ aliases: []
 | extends | [[Expect the Counter]] | Adapt when the other side responds |
 | extends | [[Stay Effective in New Conditions]] | New terrain demands new moves |
 | extends | [[Versatility]] | More than one way to contribute |
+
 ## See also
 
-- [[Expect the Counter]] - Strategy, Thinking
-- [[Resilience]] - Performance
+- [[Decision Quality]] - Performance, Thinking
+- [[Mental Models]] - Performance, Thinking

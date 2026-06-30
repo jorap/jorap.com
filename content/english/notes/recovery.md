@@ -20,7 +20,6 @@ aliases: []
 - Elite athletes schedule rest days - muscle rebuilds off the field, not another heroic scrimmage.
 - The chef took Monday off after the wedding rush - judgment came back by Thursday service.
 - Three late nights made me snap at bedtime - recovery was stopping at ten instead of a fourth heroic hour that hurt everyone at breakfast.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,7 +28,11 @@ aliases: []
 | extends | [[Energy Protects Judgment]] | Recovery protects the quality of calls |
 | extends | [[Minimum Effective Dose]] | Enough work, then stop - past the dose is noise |
 | extends | [[Slow Productivity]] | Pace that includes recovery beats heroic sprints |
+
 ## See also
 
-- [[Energy Protects Judgment]] - Decision Making, Performance
-- [[Sustainable Performance]] - Health, Performance
+- [[Build a Reliable Default]] - Habits, Performance
+- [[Compounding]] - Habits, Performance
+- [[Continuous Improvement]] - Habits, Performance
+- [[Deliberate Practice]] - Habits, Performance
+- [[Discipline]] - Habits, Performance

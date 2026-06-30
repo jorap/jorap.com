@@ -20,7 +20,6 @@ Mental models are shortcuts for thinking. I keep a short list of ones that survi
 - Waze showed four commute routes - I stuck to the one that saves gas on the Tuesday school run, not the scenic detour.
 - Saturday basketball camp signup had forty options listed and I froze - Pareto got me to three that fit our budget, [[Low Hanging Fruit]] was registering before slots closed, compounding was ten minutes of ball-handling a week.
 - Forty activity flyers on the fridge and we froze - three fit the budget, register online before slots close, ten minutes of practice beats the flashiest camp jersey.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -31,3 +30,11 @@ Mental models are shortcuts for thinking. I keep a short list of ones that survi
 | extends | [[PKM]] | Thinking shortcuts this hub keeps when they survive real decisions |
 | extends | [[PKM]] | Thinking shortcuts this hub keeps when they survive real decisions |
 | extends | [[PKM]] | Thinking shortcuts this hub keeps when they survive real decisions |
+
+## See also
+
+- [[Behavioral Economics]] - Decision Making, Mental Models
+- [[Decision Quality]] - Decision Making, Performance, Thinking
+- [[Elon Musk]] - Mental Models, Thinking
+- [[Inbox Zero]] - PKM, Productivity
+- [[Information Diet]] - PKM, Productivity

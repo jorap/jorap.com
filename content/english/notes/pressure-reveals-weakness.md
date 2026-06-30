@@ -47,8 +47,11 @@ Each note below is one move I'd want automatic before the moment arrives.
 | alternative | [[Systems for Growth]] | Performance-under-pressure hub vs growth-loop hub when heat rises, not ordinary Tuesdays |
 | extends | [[Process Over Outcomes]] | Repeatable process and finish lines survive when motivation dips |
 | extends | [[Servant Leadership]] | Leaders set the pace and protect judgment when the room heats up |
+
 ## See also
 
-- [[Workplace Principles]] - Ethics, Leadership, Workplace
-- [[Develop, Don't Endanger]] - Coaching, Leadership, Safety
-- [[Mental Models]] - Mental Models, PKM, Thinking
+- [[Accountability]] - Leadership, Performance
+- [[Composure]] - Leadership, Performance
+- [[Continuous Improvement]] - Habits, Performance
+- [[Deliberate Practice]] - Habits, Performance
+- [[Discipline]] - Habits, Performance

@@ -20,7 +20,6 @@ Local-first means my device holds the truth; sync is optional icing. That's how 
 - My kid's shooting log lives in a notebook in the gym bag - not an app that might vanish when the vendor pivots.
 - Grandma's recipe cards live in the kitchen drawer - not an app that might vanish.
 - If the phone dies mid-grocery run, the list on the fridge still works.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,8 +28,10 @@ Local-first means my device holds the truth; sync is optional icing. That's how 
 | contradicts | [[Drafting in Public]] | when private-first truth beats publishing before I'm ready |
 | extends | [[CRDT]] | Sync-without-server tech local-first apps use |
 | extends | [[PKM]] | Your device holds the truth and sync is icing - that's how a brain backup should behave |
+
 ## See also
 
-- [[Anti-Fragile Systems]] - Local First, Note Taking, PKM
-- [[Active Knowledge Curation]] - Note Taking, PKM
-- [[Digital Garden]] - Note Taking, PKM
+- [[Commonplace Book]] - Note Taking, PKM
+- [[Literature Notes]] - Note Taking, PKM
+- [[Inbox Zero]] - PKM
+- [[Information Diet]] - PKM

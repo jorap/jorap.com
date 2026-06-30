@@ -20,7 +20,6 @@ Collecting quotes isn't PKM for me. Synthesis means merging sources into what I 
 - Three recipe clippings sat on the fridge until I merged them into one dinner I actually cooked - collecting felt like work; synthesis is when learning started.
 - Quote-saved notes on productivity sat untouched until I wrote one page in my own words about how I capture - synthesis, not hoarding.
 - Five parenting articles became one rule on the fridge - merged into what we believe about screens, not a quote collection.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -30,8 +29,9 @@ Collecting quotes isn't PKM for me. Synthesis means merging sources into what I 
 | extends | [[Creative Output]] | Collecting quotes isn't enough - merge sources into beliefs you can defend and ship |
 | extends | [[Literature Notes]] | Source notes you merge before belief |
 | implements | [[Creative Output]] | Merged belief carries express after sources settle |
+
 ## See also
 
-- [[Digital Serendipity]] - PKM, Research, Second Brain
-- [[Evergreen Notes]] - PKM, Second Brain, Writing
-- [[Intellectual Sourcing]] - PKM, Research, Writing
+- [[Creative Blocks]] - Express, PKM, Second Brain
+- [[CRDT]] - PKM
+- [[Commonplace Book]] - PKM

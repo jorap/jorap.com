@@ -1,5 +1,4 @@
 ---
-
 title: "Anti-Fragile Systems"
 meta_title: "Anti-Fragile PKM - Systems That Survive Tool Death"
 description: "Note systems that survive app shutdowns - plain files, open formats, and backups I actually test."
@@ -13,7 +12,6 @@ featured: false
 draft: false
 aliases: ["anti fragile systems", "Antifragile", "Antifragility"]
 ---
-
 Fragile systems break when an app shuts down. I build around plain files, open formats, and exports I actually test.
 
 ## Examples
@@ -22,7 +20,6 @@ Fragile systems break when an app shuts down. I build around plain files, open f
 - I keep notes as plain markdown files because the last shiny app I loved got acquired and killed - boring format, still readable ten years later.
 - The shop switched POS systems twice and the owner kept a plain spreadsheet backup - exports she actually opens, not trust in the vendor forever.
 - Our family recipe box survived three phone upgrades - index cards beat the app that stopped syncing.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -31,8 +28,11 @@ Fragile systems break when an app shuts down. I build around plain files, open f
 | extends | [[Antifragility]] | Taleb term - systems that gain from stress |
 | extends | [[Future-Proofing Knowledge]] | Plain files and tested exports keep knowledge alive when apps shut down |
 | extends | [[Heed Every Near-Miss]] | Close calls are stress signals - learn before the system breaks for real |
+
 ## See also
 
-- [[Active Knowledge Curation]] - Note Taking, PKM, Productivity
-- [[Analog Capture Tools]] - Note Taking, PKM, Productivity
-- [[Capture]] - Note Taking, PKM, Productivity
+- [[Commonplace Book]] - Note Taking, PKM
+- [[Inbox Zero]] - PKM, Productivity
+- [[Information Diet]] - PKM, Productivity
+- [[Getting Things Done]] - PKM, Productivity
+- [[Literature Notes]] - Note Taking, PKM

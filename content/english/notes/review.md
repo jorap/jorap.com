@@ -13,5 +13,11 @@ tags: ["Notes", "Meta", "Anki", "Learning"]
 featured: false
 review: false
 draft: false
+aliases: []
 ---
-**Review** = active recall in the browser - show the prompt, try the answer, rate myself. Filter by `card_sets` to drill one group at a time (Capture, Linking, **Eternal Principles**, **Faith**, **Commandments**, **Ethics**, **Prayer**, **Priorities**, **Discipleship**, etc.). Progress saves in this browser only; I use Anki export when I want phone sync.
+**Review** = active recall in the browser - show the prompt, try the answer, rate myself. Filter by `card_sets` to drill one group at a time (Capture, Linking, **Eternal Principles**, **Faith**, **Commandments**, **Ethics**, **Prayer**, **Priorities**, **Discipleship**, etc.). Progress saves in this browser only; I use Anki export when I want phone sync. Pairs with [[Flashcards]], [[Random Duo]], and [[Backlinks]].
+
+## See also
+
+- [[Create Note]] - Meta, Notes
+- [[Issues]] - Meta, Notes

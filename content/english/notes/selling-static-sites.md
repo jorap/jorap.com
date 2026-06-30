@@ -31,25 +31,20 @@ My margin is labor, not hosting markup. I already run [jorap.com](/) on Hugo, Gi
 - I almost bundled monthly "hosting" like my old PHP days - pitch is faster site, lower ongoing cost, paid once for work that matters.
 - First paid client before the three-tier pricing PDF - learned migration takes longer than theme tweaks; adjusted the next quote.
 - Client asked if I could "just host it like before" - plain yes: free tier on Cloudflare, you buy the domain, I charge for build and handoff.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Building a Personal API]] | when the client needs a live database or authenticated app, not a static brochure |
+| extends | [[Client Site Handoff]] | One publish path named and priced before deposit |
 | extends | [[Creative Output]] | Client sites are shipped output, not notes hoarded in the garden |
 | extends | [[Free Tier Hosting Stack]] | GitHub plus Cloudflare Pages is the default host until limits bite |
 | extends | [[Lean Startup]] | Pilot site, measure what breaks, then package the offer |
 | extends | [[Minimum Viable Product]] | One paid pilot before I over-build the service menu |
 | extends | [[Plain Commitments at Work]] | Clear handoff model - Git lesson, retainer, or scope no |
 | extends | [[Ship It]] | Ship the first client site before polishing the sales brochure |
-| extends | [[Client Site Handoff]] | One publish path named and priced before deposit |
 | extends | [[Static Site Client Scope]] | Say no early to jobs the stack can't carry |
+
 ## See also
 
-- [[Client Site Handoff]] - Freelance, Handoff, Static Site Generator
-- [[Free Tier Hosting Stack]] - Cloudflare Pages, GitHub, Hugo, Website Building
-- [[Git-Based CMS]] - CMS, Freelance, Hugo
-- [[Static Site Client Scope]] - Freelance, Static Site Generator, Website Building
-- [[Digital Garden]] - Hugo, PKM, Publishing
-- [[The Garage Concept]] - Digital Garden, Hugo, Publishing
+- [[Digital Garden]] - Hugo, Static Site Generator, Website Building

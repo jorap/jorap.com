@@ -37,16 +37,16 @@ Repentance is a change of mind and direction - not a down payment on salvation. 
 - I kept telling myself I'd trust Jesus once my habits looked respectable - it's not a finish line when you're fixed.
 - I told my kid faith isn't waiting until you're good enough - turn and trust today, then keep practicing.
 - I stopped delaying the hard conversation until I felt ready - believe the promise first, tidy later.
-- Trying to obey my way into eternal life. What receives life vs what guides after - Repent/believe receives. Obedience guides after.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[There Is No Perfect Solution]] | when I delay entry until I've fixed myself |
-| extends | [[Free Grace]] | Turn and trust is how life begins - you receive the kingdom as gift, then live under the King |
+| extends | [[Free Grace]] | Turn and trust is how life begins - you receive the kingdom as gift, then live under the King |. Pairs with [[Childlike Faith]].
+
 ## See also
 
-- [[There Is No Perfect Solution]] - Decision Making, Mental Models, PKM
-- [[Minimum Effective Dose]] - Mental Models, PKM, Productivity
-- [[Seek the Kingdom First]] - Eternal Principles, Gospel, Priorities
+- [[Assurance]] - Eternal Principles, Faith, Free Grace
+- [[Faith and Works]] - Eternal Principles, Faith, Free Grace
+- [[Standing vs Fellowship]] - Eternal Principles, Faith, Free Grace
+- [[Abide in Me]] - Eternal Principles, Free Grace, Gospel

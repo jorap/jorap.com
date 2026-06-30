@@ -37,17 +37,17 @@ Children don't enter the kingdom by achievement; they receive care they didn't e
 - I delay prayer until my week looks respectable - childlike faith means I come like a kid who already belongs, not a contractor negotiating terms.
 - The new hire asked a "dumb" question in orientation without negotiating whether she deserved an answer - childlike faith is receive, not perform expertise you don't have yet.
 - My daughter asked for a snack without calculating whether she'd been good enough today - same posture Jesus names: stop earning points, receive the gift.
-- New believer ashamed they don't know the Bible. What would I tell them - Receive like a child - dependence, not achievement.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when I treat faith as a merit account I'm building |
-| extends | [[Free Grace]] | You enter the kingdom like a kid receiving a gift, not negotiating merit |
 | extends | [[Assurance]] | Receive the promise like a child - stop re-negotiating merit |
+| extends | [[Free Grace]] | You enter the kingdom like a kid receiving a gift, not negotiating merit |
+
 ## See also
 
-- [[Getting Started]] - Digital Garden, Meta, PKM
-- [[Minimum Effective Dose]] - Mental Models, PKM, Productivity
-- [[Ask Seek Knock]] - Eternal Principles, Gospel, Prayer
+- [[Repent and Believe]] - Eternal Principles, Faith, Free Grace
+- [[Abide in Me]] - Eternal Principles, Free Grace, Gospel
+- [[Discipleship]] - Eternal Principles, Free Grace, Gospel
+- [[Eternal Principles]] - Eternal Principles, Free Grace, Gospel

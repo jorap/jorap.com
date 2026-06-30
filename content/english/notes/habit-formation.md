@@ -20,7 +20,6 @@ aliases: []
 - Same door, same notebook, same pocket - after thirty days I stop debating capture; the pad by the keys beat the fancy app I never opened.
 - I capture commute ideas on the same pocket notebook after locking the car - repeat until it runs without a daily debate.
 - Gym shoes by the bed - remove the decision; after a month the kid stops debating whether we're walking to school.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -32,7 +31,9 @@ aliases: []
 | extends | [[Process Over Outcomes]] | Trust the loop until it's automatic |
 | implements | [[Capture]] | One capture habit carries the whole pipe |
 | implements | [[Systems for Growth]] | Core install move in the growth systems hub |
+
 ## See also
 
-- [[Build a Reliable Default]] - Performance, Preparedness
-- [[Periodic Knowledge Review]] - Habits, PKM
+- [[Continuous Improvement]] - Habits, Performance
+- [[Deliberate Practice]] - Habits, Performance
+- [[Discipline]] - Habits, Performance

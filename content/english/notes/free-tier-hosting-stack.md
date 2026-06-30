@@ -31,7 +31,6 @@ Full walkthrough: [How I Built JoRap Notes](/blog/how-i-built-jorap-notes/). Sam
 - Client wanted daily CMS auto-deploy fantasy - counted builds per month; static plus Git pushes stay inside free tier for normal humans.
 - Shop hit file count on a bloated theme - trimmed assets before anyone paid for Pro.
 - Submodule theme broke Pages until I enabled submodule cloning in project settings.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -43,9 +42,10 @@ Full walkthrough: [How I Built JoRap Notes](/blog/how-i-built-jorap-notes/). Sam
 | extends | [[Getting Started]] | Same markdown-first workflow as garden notes |
 | extends | [[Selling Static Sites]] | Default host for client static sites until limits force upgrade |
 | extends | [[Static Site Client Scope]] | Stack limits define what jobs fit |
+| implements | [[Rollback Principle]] | Git revert and previous Cloudflare deploy are the rollback lane |
+
 ## See also
 
-- [[Selling Static Sites]] - Cloudflare Pages, Freelance, Hugo
-- [[Static Site Client Scope]] - Freelance, Static Site Generator, Website Building
-- [[The Garage Concept]] - Digital Garden, Hugo, Publishing
-- [[Metadata Strategy]] - Hugo, Organization, Tags
+- [[Git-Based CMS]] - Hugo, Static Site Generator, Website Building
+- [[The Garage Concept]] - Hugo, Static Site Generator, Website Building
+- [[Client Site Handoff]] - Static Site Generator, Website Building

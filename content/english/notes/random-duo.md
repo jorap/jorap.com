@@ -14,5 +14,9 @@ tags: ["Notes", "Meta"]
 featured: false
 draft: false
 ---
+Two notes from the garden, picked at random. I hit **Shuffle** for another pair. Pairs with [[Backlinks]], [[Create Note]], and [[Flashcards]].
 
-Two notes from the garden, picked at random. I hit **Shuffle** for another pair.
+## See also
+
+- [[Getting Started]] - Meta, Notes
+- [[Issues]] - Meta, Notes

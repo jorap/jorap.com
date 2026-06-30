@@ -20,7 +20,6 @@ aliases: []
 - A coworker wanted to skip the lockout tag on a jammed machine - I didn't go along to keep peace. Power off, tag on, then we troubleshoot together.
 - A friend was too drunk to drive and insisted he was fine - I took the keys and called a ride. Friendship isn't co-signing the crash.
 - My kid wanted to ride in the truck bed on a bumpy road - "your choice" ended at the seatbelt. We could pick music; we couldn't pick the hospital route.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -31,3 +30,9 @@ aliases: []
 | implements | [[Eliminate Before Managing]] | Remove the dangerous option before debating how to supervise it |
 | implements | [[Set Calm Boundaries]] | A safety line is a boundary with teeth |
 | implements | [[Set Calm Boundaries]] | A safety line is a boundary with teeth |
+
+## See also
+
+- [[Coaching Ethics]] - Ethics, Safety
+- [[Develop, Don't Endanger]] - Ethics, Safety
+- [[Ethical Leadership]] - Ethics

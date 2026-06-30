@@ -20,7 +20,6 @@ aliases: []
 - Halftime on my phone was supposed to be rest - twenty minutes of clips aimed at my outrage, not recovery.
 - Twenty minutes "checking news" was twenty minutes of ads aimed at my outrage - not rest.
 - My kid's tablet "educational" game paused every level for a purchase screen - the game wanted her focus, not her learning.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,3 +28,10 @@ aliases: []
 | extends | [[Digital Minimalism]] | Named in notes that link here |
 | extends | [[Signal vs Noise]] | Named in notes that link here |
 | extends | [[Signal vs Noise]] | Named in notes that link here |
+
+## See also
+
+- [[Active Knowledge Curation]] - Productivity
+- [[Analog Capture Tools]] - Productivity
+- [[Anti-Fragile Systems]] - Productivity
+- [[Building a Second Brain]] - Productivity

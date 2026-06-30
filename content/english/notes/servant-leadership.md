@@ -22,7 +22,6 @@ The corporate ladder rewards visibility; this principle runs the other way. Wash
 - I got promoted and realized I'd been grabbing credit for work the team carried - servant leadership was my name off the slide and hers on the praise email.
 - The captain takes the extra fitness drill so the rookie gets the lighter session - servant leadership is her workload, not his highlight reel.
 - The head server took the worst section on Mother's Day and put the busser who saved the night on the thank-you board.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -34,8 +33,11 @@ The corporate ladder rewards visibility; this principle runs the other way. Wash
 | extends | [[Humility and Service]] | Jesus' upside-down ladder - same move in standups and 1:1s |
 | extends | [[Life Before Achievement]] | The leader who serves holds the safety line when the room wants spectacle |
 | extends | [[Notice the Good]] | Name what the team did - don't grab the praise slide |
+
 ## See also
 
-- [[Workplace Principles]] - Leadership, Eternal Principles, Workplace
-- [[Share What You Learn]] - Leadership, Eternal Principles, Workplace
-- [[The Golden Rule at Work]] - Ethics, Eternal Principles, Workplace
+- [[Outcomes Over Pitch Decks]] - Eternal Principles, Leadership, Workplace
+- [[Reconcile Before the Review]] - Eternal Principles, Leadership, Workplace
+- [[Share What You Learn]] - Eternal Principles, Leadership, Workplace
+- [[The Golden Rule at Work]] - Eternal Principles, Leadership, Workplace
+- [[Workplace Principles]] - Eternal Principles, Leadership, Workplace

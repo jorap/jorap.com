@@ -20,7 +20,6 @@ I cite sources in notes not for academia - so I can trust my own synthesis and f
 - I tape the newspaper name under the quote on my kid's history project so six months later we know if the source still says what we thought.
 - I cite the link in my garden note not for academia - so I can trust my own synthesis and find the original six months later.
 - Without that source line our own summary starts to feel like gospel - intellectual sourcing is tracking where ideas come from.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,7 +28,9 @@ I cite sources in notes not for academia - so I can trust my own synthesis and f
 | contradicts | [[Progressive Summarization]] | when citations beat distill-on-demand layers |
 | extends | [[Literature Notes]] | Source-first lane before synthesis |
 | extends | [[Synthesis as a Goal]] | You cite sources so your own synthesis stays trustworthy six months later |
+
 ## See also
 
-- [[Digital Serendipity]] - Note Taking, PKM, Research
-- [[Evergreen Notes]] - Note Taking, PKM, Writing
+- [[Commonplace Book]] - Note Taking, PKM
+- [[CRDT]] - PKM
+- [[Inbox Zero]] - PKM

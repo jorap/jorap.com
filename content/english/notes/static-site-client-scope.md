@@ -28,22 +28,18 @@ Scope the sales call before I quote [[Selling Static Sites]]. **Good fits:** por
 - Client said "just like our old WordPress" but meant five daily editors - wrong tool; didn't pretend Hugo was WordPress.
 - Gym wanted class schedule from booking SaaS - embed the vendor widget; static shell around it was fine.
 - Sales call checklist caught login requirement - redirected before I quoted a build I'd regret.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[There Is No Perfect Solution]] | when I take a bad-fit job because saying no feels awkward |
 | extends | [[Free Tier Hosting Stack]] | Scope matches what the free static stack can actually carry |
+| extends | [[Git-Based CMS]] | Middle path for non-Git editors without full WordPress |
 | extends | [[Minimum Effective Dose]] | Smallest site that solves the job - not static forced onto dynamic needs |
 | extends | [[Outcomes Over Pitch Decks]] | Pick stack by what the client needs to produce, not my preferred tool |
 | extends | [[Plain Commitments at Work]] | Clear yes/no on scope before deposit |
 | extends | [[Selling Static Sites]] | Defines what I sell before I quote a build |
-| extends | [[Git-Based CMS]] | Middle path for non-Git editors without full WordPress |
+
 ## See also
 
-- [[Git-Based CMS]] - CMS, Freelance, Hugo
-- [[Client Site Handoff]] - Freelance, Handoff, Static Site Generator
-- [[Free Tier Hosting Stack]] - Cloudflare Pages, GitHub, Hugo
-- [[By Their Fruits]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Pareto Principle]] - Decision Making, Mental Models, PKM
+- [[Digital Garden]] - Static Site Generator, Website Building

@@ -37,16 +37,17 @@ Jesus deepened the law against false vows: disciples should be so truthful that 
 - I padded a deadline promise with extra assurances so they'd believe me - if my word needs spin to sound believable, the problem isn't the schedule, it's me.
 - I promised my kid six things in one breath to win the argument - let your yes be yes: one plain yes, no kitchen-sink speech.
 - I told the neighbor I'd watch their mail "cross my heart, absolutely" when yes or no would have stood alone - anything beyond simple yes/no is manipulation, not trust.
-- Thumb adding qualifiers to a simple commitment. Strip to what - Simple yes or no - no spin.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Drafting in Public]] | when public words outrun private honesty |
 | extends | [[Love Your Neighbor]] | Plain yes-or-no speech is how you treat neighbors with integrity, not padded oaths |
+
 ## See also
 
-- [[Atomic Notes]] - Note Taking, PKM, Writing
-- [[The Golden Rule]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Judge Not]] - Eternal Principles, Gospel, Sermon on the Mount
+- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
+- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
+- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Rewards]] - Eternal Principles, Gospel, Jesus Christ

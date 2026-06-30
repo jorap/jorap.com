@@ -1,5 +1,4 @@
 ---
-
 title: "Pareto Principle"
 meta_title: "Pareto Principle - Find the 20% That Drives 80%"
 description: "Most results come from a small slice of work - find that slice, protect it, cut the rest."
@@ -28,7 +27,6 @@ cards:
     back: "Shorthand ratio - not a law."
 draft: false
 ---
-
 **Pareto principle** = most results come from a small slice of work - find the slice, protect it, cut the rest.
 
 Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand, not a law). I use it when my reading list, task board, or note tags all feel equally important: which few actually moved the needle? Same rule for flashcards: only spine notes carry `review: true` here - PKM habits plus six [[Eternal Principles]] with cards, not every faith note in the garden. Cards ask what I'd *do*, not what I'd *define*.
@@ -39,8 +37,6 @@ Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand
 - The bakery had six daily specials and sold two consistently - we cut to those two and waste dropped.
 - Last month six activities, skipped three nights - trimmed to two, suddenly showing up instead of guilt-driving past canceled plans.
 - My reading pile had forty tabs - the five that moved work got Sunday morning, the rest got deleted.
-- Task board and reading list both screaming urgent. Protect which slice - roughly what percent moved the needle - The vital ~20%.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -48,9 +44,11 @@ Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand
 | contradicts | [[Compounding]] | when cutting the long tail kills compounding habits |
 | extends | [[Signal vs Noise]] | Most results come from a small slice - find the signal and cut the noise |
 | extends | [[Vilfredo Pareto]] | 80/20 origin story - worth its own note later |
+
 ## See also
 
-- [[Eternal Principles]] - Eternal Principles, Faith, Gospel
-- [[Compounding]] - Mental Models, PKM, Performance
-- [[There Is No Perfect Solution]] - Decision Making, Mental Models, PKM
-- [[Compounding]] - Mental Models, PKM, Performance
+- [[Behavioral Economics]] - Decision Making, Mental Models
+- [[Deep Work]] - Focus, Productivity
+- [[Inbox Zero]] - PKM, Productivity
+- [[Information Diet]] - PKM, Productivity
+- [[Low Hanging Fruit]] - Decision Making, Focus, Mental Models

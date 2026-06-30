@@ -1,5 +1,4 @@
 ---
-
 title: "Building a Second Brain"
 meta_title: "Building a Second Brain - Capture, Organize, Distill, Express"
 description: "My brain is for having ideas, not storing them. A Second Brain is the system that holds them - starting with capture."
@@ -28,7 +27,6 @@ cards:
 draft: false
 aliases: ["Second Brain", "CODE Method"]
 ---
-
 **Second Brain** = offload ideas so my head can think, not hoard.
 
 Remember CODE: [[Capture]], organize, distill, express. The system fails when any step is just for show. I review whether each step still earns its place every quarter.
@@ -39,7 +37,7 @@ Remember CODE: [[Capture]], organize, distill, express. The system fails when an
 - A sermon line lands mid-shift and I scribble it on a receipt - one [[trusted inbox]], no sorting yet, process it Sunday when the spark is safe.
 - A dinner idea hits on the jeepney and I voice-memo it before the station noise eats it - capture first, organize later.
 - On the commute my kid says something I want to remember and I drop it in one inbox - weekly process empties it so my brain can think instead of hoard.
-- Notes pile up but nothing publishes. Which step is failing - what do I schedule - Express - schedule ship.
+- Forty captures deep and nothing shipped - I blocked Friday afternoon for one express pass instead of another organize pass.
 
 ## Note Relationships
 
@@ -50,7 +48,10 @@ Remember CODE: [[Capture]], organize, distill, express. The system fails when an
 | extends | [[CODE Method]] | Capture → Organize → Distill → Express pipeline Forte names |
 | extends | [[PKM]] | A second brain offloads ideas so your head can think instead of hoard |
 | implements | [[PKM]] | CODE pipeline carries personal knowledge management into daily capture |
+
 ## See also
 
-- [[Analog Capture Tools]] - Capture, Note Taking, PKM
-- [[Atomic Notes]] - Information Architecture, Note Taking, PKM
+- [[Commonplace Book]] - Note Taking, PKM
+- [[Inbox Zero]] - PKM, Productivity
+- [[Information Diet]] - PKM, Productivity
+- [[Read Later Queue]] - Capture, PKM

@@ -76,8 +76,8 @@ Each note below is one claim I'd say in a standup or a 1:1 - plain language, mee
 | extends | [[Eliminate Before Managing]] | Safety principles in plain office language - same duty-of-care lane |
 | extends | [[Eternal Principles]] | Workplace versions carry the same ethics into language that fits corporate rooms |
 | extends | [[Life Before Achievement]] | Non-negotiable human safety translated for teams that won't open a safety manual |
+
 ## See also
 
-- [[Eternal Principles]] - Eternal Principles, Faith, Gospel
-- [[Signal vs Noise]] - Capture, PKM, Productivity
-- [[Note Relationships]] - Linking, Meta, Note Taking
+- [[Ethical Leadership]] - Ethics, Leadership
+- [[Coaching Ethics]] - Ethics, Leadership

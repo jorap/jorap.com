@@ -37,8 +37,6 @@ Jesus overturned the tribal reading of "neighbor." Loving only people who love y
 - The rival coach trash-talked our bench and I typed a reply that would've felt great for five minutes - I closed the app and prayed instead.
 - My neighbor's honking got under my skin and I almost left a nasty note - I baked cookies instead and asked if everything was okay.
 - The clerk was rude at the return counter and I wanted to match it - I said thanks and walked out, same as I want when I'm having a bad day.
-- Someone slandered me online. Thumb hovering over reply. First move before I type - Pray for them.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -46,8 +44,11 @@ Jesus overturned the tribal reading of "neighbor." Loving only people who love y
 | alternative | [[Turn the Other Cheek]] | Enemy-love vs non-retaliation when the moment is personal insult |
 | contradicts | [[The Golden Rule]] | when I wait for fair treatment before I act |
 | extends | [[Free Grace]] | You love enemies because God loved you first with free grace toward the unjust |
+
 ## See also
 
-- [[Forgiveness]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Peacemakers]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Reconciliation Before Worship]] - Eternal Principles, Gospel, Sermon on the Mount
+- [[Forgiveness]] - Eternal Principles, Forgiveness, Gospel
+- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
+- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
+- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ

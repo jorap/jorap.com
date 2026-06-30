@@ -20,7 +20,6 @@ aliases: []
 - The plumber who says Tuesday at 9 and actually shows is who you call when the leak spreads - not the loudest ad.
 - My kid's coach sends the schedule every Monday and doesn't ghost when it's rain practice - yes means yes.
 - The neighbor who picks up mail every day you're away is the one I'd trust with a spare key.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,7 +28,11 @@ aliases: []
 | extends | [[Finish Strong]] | Reliable people finish, not only start |
 | extends | [[Let Your Yes Be Yes]] | Gospel source for plain commitments |
 | extends | [[Plain Commitments at Work]] | Yes means yes - reliability in Slack-sized promises |
+
 ## See also
 
-- [[Finish Strong]] - Discipline, Execution
-- [[Accountability]] - Leadership, Performance
+- [[Accountability]] - Performance, Work
+- [[Attention to Detail]] - Performance, Work
+- [[Complete the Cycle]] - Performance, Work
+- [[Execution]] - Performance, Work
+- [[Follow-Through]] - Performance, Work

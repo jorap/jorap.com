@@ -20,7 +20,6 @@ aliases: []
 - A thrift-store find: a 1980s coach's playbook with handwritten margins - same job as my [[Capture]] file, paper instead of wikilinks.
 - Grandpa's notebook of sermon lines and recipes - quotes worth keeping before anyone had a [[digital garden]].
 - My mother-in-law's recipe card box with margin notes - a personal book of ideas worth keeping, ancestor of linked notes.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,3 +28,10 @@ aliases: []
 | extends | [[Analog Capture Tools]] | Named in notes that link here |
 | extends | [[Intellectual Sourcing]] | Named in notes that link here |
 | extends | [[Intellectual Sourcing]] | Named in notes that link here |
+
+## See also
+
+- [[Active Knowledge Curation]] - Note Taking, PKM
+- [[Anti-Fragile Systems]] - Note Taking, PKM
+- [[Associative Linking]] - Note Taking, PKM
+- [[Atomic Notes]] - Note Taking, PKM

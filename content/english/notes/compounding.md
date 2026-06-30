@@ -22,22 +22,18 @@ Borrowed from finance, but it applies anywhere today's gain makes tomorrow easie
 - A line cook fixes one prep station flaw every Monday - small upgrades daily, not one yearly overhaul that never sticks.
 - My kid's piano practice looked pointless for a year - three songs a week, same scales, then year two the pieces started linking and suddenly she was playing music.
 - Our family morning checklist grew one line per forgotten backpack - six months later school mornings were boring in a good way because the small fixes stacked.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Pareto Principle]] | when boring repetition beats protecting only the vital few |
 | extends | [[Habit Stacking]] | Small repeats that stack - same compounding mechanic |
-| extends | [[Process Over Outcomes]] | Small gains stack when you repeat the process, not when you chase one heroic week |
 | extends | [[Loss of Reward]] | Bad seasons shrink reward in the faith ledger - not proof salvation was never real |
+| extends | [[Process Over Outcomes]] | Small gains stack when you repeat the process, not when you chase one heroic week |
+
 ## See also
 
-- [[Loss of Reward]] - Eternal Principles, Gospel, Reward
-- [[Mental Models]] - Learning, Mental Models, PKM
-- [[Abide in Me]] - Eternal Principles, Faith, Gospel
-- [[Eternal Rewards]] - Eternal Principles, Gospel, Reward
-- [[Minimum Effective Dose]] - Habits, Mental Models, PKM
-- [[Low Hanging Fruit]] - Mental Models, PKM, Performance
-- [[Pareto Principle]] - Mental Models, PKM, Performance
-- [[PKM]] - Learning, PKM, Productivity
+- [[Continuous Improvement]] - Habits, Performance, Systems Thinking
+- [[Deliberate Practice]] - Habits, Learning, Performance
+- [[Habit Formation]] - Habits, Performance, Productivity
+- [[Inbox Zero]] - PKM, Productivity

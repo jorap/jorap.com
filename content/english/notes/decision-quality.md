@@ -20,7 +20,6 @@ aliases: []
 - Buying supplies on one vendor quote is how clinics overpay - decision quality was checking last month's invoice before we reordered.
 - We almost picked the school on one sunny open house - one neighbor call about the flood-prone pickup lane changed our call before we signed.
 - Buying a house on one sunny open-house visit is how people miss the flood zone - decision quality was one neighbor call before we signed.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,7 +28,8 @@ aliases: []
 | extends | [[Energy Protects Judgment]] | Tired decisions skew cheap and fast |
 | extends | [[Mental Models]] | Lenses that improve call quality |
 | extends | [[Slow the Moment]] | Space before commit improves quality |
+
 ## See also
 
-- [[Slow the Moment]] - Self-Control, Performance
-- [[There Is No Perfect Solution]] - Mental Models, Thinking
+- [[Adaptability]] - Performance, Thinking
+- [[Expect the Counter]] - Performance, Thinking

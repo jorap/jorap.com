@@ -20,7 +20,6 @@ aliases: []
 - Every Monday after practice we clean balls and tape the lineup board - not only when the gym floods.
 - First Sunday of the month is garden maintenance - broken links, stale drafts, nothing else.
 - Saturday morning is toy-bin purge and mending - not panicked cleaning when guests are at the door.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,3 +28,10 @@ aliases: []
 | extends | [[Periodic Knowledge Review]] | Named in notes that link here |
 | extends | [[Weekly Review Checklists]] | Named in notes that link here |
 | extends | [[Weekly Review Checklists]] | Named in notes that link here |
+
+## See also
+
+- [[Daily Notes]] - PKM, Review
+- [[Digital Serendipity]] - PKM, Review
+- [[Evergreen vs Fleeting Notes]] - PKM, Review
+- [[Active Knowledge Curation]] - PKM

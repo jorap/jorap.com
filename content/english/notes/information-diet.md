@@ -20,7 +20,6 @@ aliases: []
 - I dropped two commute podcasts that only made me angry at strangers - information diet is curating inputs, not swallowing whatever the algorithm serves.
 - I unfollowed three outrage sports accounts and pre-game wasn't ruined before warm-up.
 - Unfollowed three outrage accounts and my morning wasn't ruined before breakfast.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,3 +28,11 @@ aliases: []
 | extends | [[Digital Minimalism]] | Named in notes that link here |
 | extends | [[Signal vs Noise]] | Named in notes that link here |
 | extends | [[Signal vs Noise]] | Named in notes that link here |
+
+## See also
+
+- [[Active Knowledge Curation]] - PKM, Productivity
+- [[Analog Capture Tools]] - PKM, Productivity
+- [[Anti-Fragile Systems]] - PKM, Productivity
+- [[Building a Second Brain]] - PKM, Productivity
+- [[Capture]] - PKM, Productivity

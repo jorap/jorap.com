@@ -37,16 +37,15 @@ When a scribe asked which commandment was first, Jesus quoted Deuteronomy 6:5 - 
 - Sunday worship felt high but I hadn't opened my Bible since last week - loving God means more than one hour in a pew.
 - I put the phone down before bedtime stories - heart and mind get God before the scroll.
 - Five minutes with God before the commute beats treating Sunday like the whole deposit.
-- Sunday worship felt high but I haven't opened the Bible all week. Which part of whole-person love am I skipping - Mind - open Scripture today.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Don't Worry]] | when worry replaces trust |
-| extends | [[Free Grace]] | Love flows from grace already received, not payment offered for eternal life |
+| extends | [[Free Grace]] | Love flows from grace already received, not payment offered for eternal life |. Pairs with [[Love Your Neighbor]].
+
 ## See also
 
-- [[Love Your Neighbor]] - Commandments, Eternal Principles, Gospel
-- [[Seek the Kingdom First]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[The Beatitudes]] - Eternal Principles, Gospel, Sermon on the Mount
+- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
+- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ

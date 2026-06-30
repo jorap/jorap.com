@@ -20,7 +20,6 @@ aliases: []
 - Try the new play in scrimmage before running it in the championship - reversible rehearsal, higher bar for the irreversible call.
 - Test the recipe at half batch before the wedding order - undo-able trial, not fifty servings of guesswork.
 - Try the haircut at home with clippers that still leave length - not the zero guard first.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,3 +28,11 @@ aliases: []
 | extends | [[Decision Quality]] | Named in notes that link here |
 | extends | [[Life Before Achievement]] | Named in notes that link here |
 | extends | [[Life Before Achievement]] | Named in notes that link here |
+| extends | [[Rollback Principle]] | Concrete undo path when the choice is a deploy or release |
+
+## See also
+
+- [[Behavioral Economics]] - Decision Making
+- [[Coaching Ethics]] - Safety
+- [[Develop, Don't Endanger]] - Safety
+- [[Duty of Care]] - Safety

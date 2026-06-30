@@ -22,15 +22,15 @@ Not every task deserves hero energy. Fix the broken link, publish the half-done 
 - I reorganized the whole supply closet on paper when the actual win was restocking tape - five minutes, done before lunch.
 - I spent an hour sketching a whole spring-cleaning plan when the actual problem was three dishes in the sink - washed them in ten minutes and had energy for the garage after lunch.
 - I mapped a whole errand route when the obvious move was mailing the one package blocking the counter.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when the easy win today beats waiting for the curve to bend |
-| extends | [[Pareto Principle]] | Grab the easy wins first - the small slice of work that moves the needle now |
+| extends | [[Pareto Principle]] | Grab the easy wins first - the small slice of work that moves the needle now |. Pairs with [[Behavioral Economics]].
+
 ## See also
 
-- [[Mental Models]] - Decision Making, Mental Models, PKM
-- [[There Is No Perfect Solution]] - Decision Making, Mental Models, PKM
-- [[Compounding]] - Mental Models, PKM, Performance
+- [[Deep Work]] - Focus, Productivity
+- [[Inbox Zero]] - PKM, Productivity
+- [[Information Diet]] - PKM, Productivity

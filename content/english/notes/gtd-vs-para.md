@@ -20,7 +20,6 @@ GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - here's
 - My errand list is GTD; my garden notes are PARA - I use both without doubling admin.
 - The practice schedule lives in the task app; the playbook principles live in the notes folder - GTD runs tasks, PARA runs knowledge, cousins not competitors.
 - The shift board holds what we finish this week; the training binder holds forms with no deadline - same workplace, two systems.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -30,7 +29,9 @@ GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - here's
 | contradicts | [[PKM]] | when task inbox truth beats note-garden architecture |
 | extends | [[Getting Things Done]] | Allen task-inbox system on the other side of the comparison |
 | extends | [[PARA Method]] | GTD runs tasks and PARA sorts notes - here's how both work without doubling admin |
+
 ## See also
 
-- [[PARA Method]] - Note Taking, PARA, PKM
-- [[PKM]] - Note Taking, PKM, Productivity
+- [[Commonplace Book]] - Note Taking, PKM
+- [[Inbox Zero]] - PKM, Productivity
+- [[Information Diet]] - PKM, Productivity

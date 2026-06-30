@@ -71,8 +71,3 @@ Each note below is one move I'd want running before I need results. [[Pressure R
 | alternative | [[Pressure Reveals Weakness]] | Growth-building hub vs performance-under-pressure when you're designing loops, not surviving heat |
 | extends | [[Mental Models]] | Decision lenses complement the habits and review rhythms here |
 | extends | [[Process Over Outcomes]] | Repeatable loops are the core growth mechanic this hub indexes |
-## See also
-
-- [[Maps of Content]] - Linking, MOC, PKM
-- [[Pressure Reveals Weakness]] - Habits, Performance
-- [[Workplace Principles]] - Ethics, Leadership, Workplace

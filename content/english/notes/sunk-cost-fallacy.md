@@ -22,16 +22,18 @@ Past effort is gone. I ask: if I found this today, would I start it? [[Forgivene
 - The shop kept the broken POS because they'd paid the install fee - forward question only: would I buy this system fresh today?
 - I kept paying for a gym I hadn't entered since February - when I asked if I'd sign up today, the answer was no and I canceled in ten minutes.
 - We finished a board game nobody liked because we'd already played an hour - sunk cost was admitting we'd rather start a new one than lose another twenty minutes.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Forgiveness]] | when I keep collecting on a grudge I should release |
+| contradicts | [[Rollback Principle]] | when "we already deployed" blocks undoing a bad release |
 | extends | [[Behavioral Economics]] | Bias cluster this fallacy belongs to |
 | extends | [[There Is No Perfect Solution]] | Past effort is gone - ask if you'd start this today, same as dropping a bad plan for perfect |
+
 ## See also
 
-- [[Turn the Other Cheek]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Forgiveness]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Minimum Effective Dose]] - Mental Models, PKM, Productivity
+- [[Elon Musk]] - Mental Models, Thinking
+- [[Inbox Zero]] - PKM, Productivity
+- [[Information Diet]] - PKM, Productivity
+- [[Mental Models]] - Decision Making, Mental Models, PKM

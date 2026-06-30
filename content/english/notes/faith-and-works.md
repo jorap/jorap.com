@@ -37,21 +37,19 @@ Paul and James aren't two gospels fighting. Paul answers *how* I'm saved: trust 
 - Confident I'm saved but the same selfish pattern untouched - James isn't saying try harder to earn heaven; he's asking where the fruit is.
 - I listed every good deed when someone asked how to be saved - lead with trust Christ; obedience follows gratitude, not payment.
 - Bible tabs full, life unchanged - the wise builder hears and does; the fool keeps collecting sermons on sand.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when stacked works feel like currency that bought eternal life |
 | extends | [[Free Grace]] | Faith saves; works are the evidence and response, not the price |
-| extends | [[Justification]] | Declared righteous at faith; works prove faith alive afterward |
-| extends | [[The Wise Builder]] | Real faith hears Jesus and builds on rock by doing |
-| extends | [[Loss of Reward]] | Stumbled believer stays saved; false profession never had faith |
 | extends | [[Grateful Obedience]] | Works prove faith alive - motive is thanks, not wages |
+| extends | [[Justification]] | Declared righteous at faith; works prove faith alive afterward |
+| extends | [[Loss of Reward]] | Stumbled believer stays saved; false profession never had faith |
+| extends | [[The Wise Builder]] | Real faith hears Jesus and builds on rock by doing |
+
 ## See also
 
-- [[Loss of Reward]] - Eternal Principles, Gospel, Reward
-- [[Free Grace]] - Eternal Principles, Faith, Gospel
-- [[Justification]] - Eternal Principles, Faith, Gospel
-- [[Sanctification]] - Eternal Principles, Gospel, Discipleship
-- [[The Wise Builder]] - Discipleship, Eternal Principles, Gospel
+- [[Standing vs Fellowship]] - Eternal Principles, Faith, Free Grace
+- [[Assurance]] - Eternal Principles, Faith, Free Grace
+- [[Childlike Faith]] - Eternal Principles, Faith, Free Grace

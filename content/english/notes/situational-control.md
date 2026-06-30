@@ -20,7 +20,6 @@ aliases: ["situation control"]
 - Down twelve at halftime, our captain called a timeout she didn't need - situational control was slowing the game, not surrendering to their pace.
 - The meeting was going sideways - situational control was "let's take ten and come back with an agenda," not letting the loudest voice own the room.
 - A good host ends the party before the stereo gets louder - they control the evening, not the loudest guest.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,7 +28,9 @@ aliases: ["situation control"]
 | extends | [[Composure]] | Calm reads as control |
 | extends | [[Control the Rhythm]] | Pace is a control lever |
 | extends | [[Slow the Moment]] | Pause buys room to steer |
+
 ## See also
 
-- [[Control the Rhythm]] - Composure, Leadership
-- [[Break the Escalation Cycle]] - Conflict, Workplace
+- [[Accountability]] - Leadership, Performance
+- [[Develop, Don't Endanger]] - Leadership, Performance
+- [[Leadership]] - Leadership, Performance

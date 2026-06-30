@@ -20,7 +20,6 @@ aliases: []
 - When homework didn't get turned in, we stopped saying "we forgot" and named who packs the folder each night - one kid, one job, no vague blame.
 - After we lost on a bad inbounds pass, the coach named who calls the play - not "the whole team messed up." One owner, one fix before the next possession.
 - After a patient mix-up, our charge nurse named who was running the code cart and who was documenting - not "everyone was involved." One owner, one timeline, one honest chart note before the shift ended.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,7 +28,10 @@ aliases: []
 | extends | [[Complete the Cycle]] | Owners close loops |
 | extends | [[Own the Error]] | Accountability starts with naming the miss |
 | extends | [[Servant Leadership]] | Leaders take blame upward, share credit down |
+
 ## See also
 
-- [[Own the Error]] - Integrity, Leadership
-- [[Follow-Through]] - Performance, Work
+- [[Leadership]] - Leadership, Performance, Work
+- [[Attention to Detail]] - Performance, Work
+- [[Composure]] - Leadership, Performance
+- [[Control the Rhythm]] - Leadership, Performance

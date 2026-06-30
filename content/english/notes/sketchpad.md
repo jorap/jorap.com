@@ -20,7 +20,6 @@ aliases: []
 - The birthday party layout lived in Notes for a month - half-ideas in private before one paragraph shipped to the group chat.
 - The napkin layout for the garden page lived in my Notes app for a month before one paragraph went public.
 - The set-piece sketch lived on a napkin for two practices before we ran it clean in a game.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,3 +28,10 @@ aliases: []
 | extends | [[Drafting in Public]] | Named in notes that link here |
 | extends | [[The Garage Concept]] | Named in notes that link here |
 | extends | [[The Garage Concept]] | Named in notes that link here |
+
+## See also
+
+- [[Associative Linking]] - Digital Garden, PKM
+- [[Digital Garden]] - Digital Garden, PKM
+- [[Getting Started]] - Digital Garden, PKM
+- [[Note Relationships]] - Digital Garden, PKM

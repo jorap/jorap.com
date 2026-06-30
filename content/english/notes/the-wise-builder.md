@@ -25,7 +25,7 @@ cards:
   - front: "Saved sermons and notes but no obedience showing up. One move I take today?"
     back: "Obey one command Jesus gave."
 draft: false
-aliases: ["house on the rock", "hear and do"]
+aliases: ["house on the rock", "hear and do", "Wise Builder"]
 ---
 **The wise builder** = hear Jesus' words and do them - build on rock, not sand (Matthew 7:24-27).
 
@@ -37,18 +37,18 @@ Both builders hear the sermon; only one obeys. Storms reveal which foundation he
 - Safety training Monday, same shortcut Wednesday - wise builder hears and does; fool hears and nods.
 - I've heard the Sermon preached a dozen times and still gossiped on Tuesday like Monday's Bible study never happened.
 - Saved articles on sleep hygiene and still scrolled till 1 a.m. - hearing without doing is a sand house; obedience is rock.
-- Heard the Sermon preached many times - how I treat people unchanged. What's missing - Do one command today - not hear only.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[The Narrow Way]] | when I claim Jesus without living his words |
-| extends | [[Free Grace]] | Faith saves you, but hearing Jesus without doing is the fool's house on sand |
 | extends | [[Faith and Works]] | Real faith hears and does - sand is hear-only religion |
+| extends | [[Free Grace]] | Faith saves you, but hearing Jesus without doing is the fool's house on sand |
+
 ## See also
 
-- [[Faith and Works]] - Eternal Principles, Faith, Gospel
-- [[Creative Output]] - Express, PKM, Publishing
-- [[The Collector's Fallacy]] - Capture, Learning, PKM
-- [[Repent and Believe]] - Eternal Principles, Faith, Gospel
+- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
+- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
+- [[Discipleship]] - Eternal Principles, Gospel, Jesus Christ
+- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ

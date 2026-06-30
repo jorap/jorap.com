@@ -20,7 +20,6 @@ Tags, categories, dates, aliases - metadata should help me find notes, not becom
 - If sorting takes longer than putting stuff away, I cut a category - three labels beat a system nobody follows.
 - My glove box has "registration," "insurance," "receipts" - three labels I can find at a traffic stop.
 - The team's gear bin says "balls," "first aid," "outgrown" - not a color code I'd maintain like a second job.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,7 +28,10 @@ Tags, categories, dates, aliases - metadata should help me find notes, not becom
 | contradicts | [[Building a Personal API]] | when light tags beat automation-ready frontmatter |
 | extends | [[PARA Method]] | Tags and aliases help you find notes inside PARA buckets without taxonomy hell |
 | extends | [[Taxonomy]] | Tag-and-category design this note sizes |
+
 ## See also
 
-- [[Evergreen Notes]] - Documentation, Note Taking, PKM
-- [[Getting Started]] - Hugo, Note Taking, PKM
+- [[Commonplace Book]] - Note Taking, PKM
+- [[Literature Notes]] - Note Taking, PKM
+- [[CRDT]] - PKM
+- [[Future-Proofing Knowledge]] - Documentation, Hugo, Note Taking

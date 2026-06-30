@@ -22,7 +22,6 @@ Those safeguards can cut risk, but they still need correct human action every ti
 - Swap the wobbly ladder for a stable step stool - eliminate the fall hazard instead of adding three warning stickers and hoping someone reads them.
 - We stopped storing cleaners under the sink and moved them up high - remove the hazard before we trust a "don't touch" lecture every time.
 - Kill the reply-all thread by fixing the process that started it - strongest safety move is removing what shouldn't happen, not managing the same near-miss forever.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -33,8 +32,10 @@ Those safeguards can cut risk, but they still need correct human action every ti
 | extends | [[First Principles Thinking]] | Strip to basics - is this dangerous step required at all? |
 | extends | [[Hierarchy of Controls]] | Elimination sits at the top - remove before you manage |
 | extends | [[Safety by Design]] | Build the safer path in from the start |
+
 ## See also
 
-- [[Life Before Achievement]] - Ethics, Leadership, Safety
-- [[Heed Every Near-Miss]] - Leadership, Risk Management, Safety
-- [[Workplace Principles]] - Ethics, Leadership, Workplace
+- [[Coaching Ethics]] - Ethics, Leadership, Safety
+- [[Duty of Care]] - Ethics, Leadership, Safety
+- [[Ethical Leadership]] - Ethics, Leadership
+- [[Normalization of Deviance]] - Leadership, Safety

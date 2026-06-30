@@ -20,7 +20,6 @@ aliases: ["Personal Knowledge Management"]
 - My commute notebook has three lists I actually open - not forty folders I'll never scroll again.
 - The team manager keeps a card file sorted by what she actually uses on game day, not every article she ever read.
 - The school nurse keeps a card file sorted by what she actually uses on a shift, not every article she ever read.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -30,8 +29,11 @@ aliases: ["Personal Knowledge Management"]
 | extends | [[Getting Started]] | PKM is the plain name for the save-organize-use system getting started introduces |
 | extends | [[Personal Knowledge Management]] | Umbrella term this garden sits under |
 | implements | [[Getting Started]] | Garden rules carry PKM into how this site actually works |
+
 ## See also
 
-- [[Capture]] - Note Taking, PKM, Productivity
-- [[GTD vs PARA]] - Note Taking, PKM, Productivity
-- [[PARA Method]] - Note Taking, PKM, Productivity
+- [[Commonplace Book]] - Note Taking, PKM
+- [[Inbox Zero]] - PKM, Productivity
+- [[Information Diet]] - PKM, Productivity
+- [[Layered Reading]] - Learning, PKM
+- [[Tony Buzan]] - Learning, PKM

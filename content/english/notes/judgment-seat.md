@@ -37,20 +37,17 @@ aliases: ["bema seat", "bema", "judgment seat of Christ"]
 - Years of church service felt like my ticket in - what gets weighed is faithful obedience after salvation, not a re-trial on who gets eternal life.
 - Wood-hay-stubble week and dread like I'm fake - saved, but some work burns; standing on Christ stays, reward may shrink ([[Loss of Reward]]).
 - One mission trip I treat as my whole report card - Christ reviews a whole life of faithfulness, including the quiet Tuesday nobody clapped for.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when stacked service feels like it bought eternal life instead of reward |
 | extends | [[Eternal Rewards]] | Rewards promised in the Sermon on the Mount; judgment seat is where they're assessed |
+| extends | [[Faithful Steward]] | Stewardship accounts reviewed - well done for faithful use |
 | extends | [[Free Grace]] | Salvation settled at faith; this seat evaluates works, not who gets in |
 | extends | [[Justification]] | Declared righteous once; judgment seat never re-opens that verdict |
-| extends | [[Faithful Steward]] | Stewardship accounts reviewed - well done for faithful use |
 | extends | [[Wood Hay Stubble]] | Fire test separates lasting work from worthless work |
+
 ## See also
 
-- [[Eternal Rewards]] - Eternal Principles, Gospel, Reward
-- [[Loss of Reward]] - Eternal Principles, Gospel, Reward
-- [[Treasure in Heaven]] - Eternal Principles, Gospel, Priorities
-- [[Secret Devotion]] - Eternal Principles, Gospel, Prayer
+- [[Abide in Me]] - Eternal Principles, Gospel, Jesus Christ

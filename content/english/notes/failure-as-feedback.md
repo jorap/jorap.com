@@ -22,18 +22,19 @@ Faith parallel: [[Loss of Reward]] - worthless works burn at the [[Judgment Seat
 - The utility bill math was wrong - I treated it as instrument reading about the formula I skipped, not proof I can't do numbers.
 - A smoke alarm isn't moral judgment - it's data; the miss tells you what to fix next if you don't treat it as a verdict on your worth.
 - My sourdough failed again; failure as feedback was the thermometer and timing notes, not "I'm bad at baking."
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
+| alternative | [[Rollback Principle]] | Root-cause learning after calm - rollback is revert first |
 | contradicts | [[Integrity When No One's Watching]] | when "it's just feedback" excuses sloppy work nobody would ship on purpose |
 | extends | [[Convert Pain Into Learning]] | Feedback becomes useful when it produces change |
 | extends | [[Growth Mindset]] | Signal vs fixed identity |
 | extends | [[Heed Every Near-Miss]] | Close calls are feedback before harm |
 | extends | [[Loss of Reward]] | Burned work is feedback on what to build - not proof you were never saved |
+
 ## See also
 
-- [[Loss of Reward]] - Eternal Principles, Gospel, Reward
-- [[Convert Pain Into Learning]] - Continuous Improvement, Performance
-- [[Own the Error]] - Accountability, Integrity
+- [[Compounding]] - Learning, Performance
+- [[Deliberate Practice]] - Learning, Performance
+- [[Mental Models]] - Learning, Performance

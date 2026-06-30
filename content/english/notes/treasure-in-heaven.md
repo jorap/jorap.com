@@ -37,8 +37,6 @@ Where your treasure is, there your heart will be. Earthly treasure is fragile; h
 - I almost chased a sponsorship for the ego, not the team - treasure check: where will this matter in ten years?
 - Wallet full of gear I'll resell at a loss; calendar empty of the people I say I serve - heart follows treasure, and mine was on earth again.
 - I looked at my wallet and calendar last night - both full of stuff that won't survive a hard year; store what lasts, not what rusts.
-- Thumb on another buy I don't need. One check before checkout - Will this rust - or store something that lasts?
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -47,10 +45,11 @@ Where your treasure is, there your heart will be. Earthly treasure is fragile; h
 | extends | [[Free Grace]] | Grace secured heaven; treasure names what you store after - not the entry fee |
 | extends | [[Loss of Reward]] | Worthless stored treasure burns; eternal life on Christ stays |
 | extends | [[Wood Hay Stubble]] | Store gold-side treasure; wood hay stubble won't survive evaluation |
+
 ## See also
 
-- [[Loss of Reward]] - Eternal Principles, Gospel, Reward
-- [[The Collector's Fallacy]] - Capture, Learning, PKM
-- [[Digital Minimalism]] - Focus, Note Taking, PKM
-- [[Eternal Rewards]] - Eternal Principles, Gospel, Reward
-- [[The Narrow Way]] - Eternal Principles, Gospel, Sermon on the Mount
+- [[Seek the Kingdom First]] - Eternal Principles, Gospel, Jesus Christ
+- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
+- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
+- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ

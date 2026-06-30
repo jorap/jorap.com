@@ -20,7 +20,6 @@ CODE and PARA in one loop: capture to inbox, organize by project, distill on use
 - Links land in one inbox all week; weekly review empties it and ships one note - one loop, not separate capture and organize rituals I quit.
 - Friday night is capture everything in one jar; Sunday is sort, toss, and file what's worth keeping - not four hobbies abandoned by March.
 - Receipts and school slips hit one bowl daily; Sunday review sorts, trashes, one thing to act on - same CODE loop, kitchen edition.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -28,9 +27,12 @@ CODE and PARA in one loop: capture to inbox, organize by project, distill on use
 | alternative | [[Minimum Effective Dose]] | Full CODE loop vs smallest habit when the whole loop is too heavy |
 | contradicts | [[Minimum Effective Dose]] | when the full loop beats the smallest habit that works |
 | extends | [[Capture]] | CODE and PARA in one loop starts with capture to inbox every day |
-| extends | [[CODE Method]] | Capture–Organize–Distill–Express loop in motion |
+| extends | [[CODE Method]] | Capture-Organize-Distill-Express loop in motion |
 | implements | [[Building a Second Brain]] | Carries it out in practice |
+
 ## See also
 
-- [[PARA Method]] - PARA, PKM, Productivity
-- [[Active Knowledge Curation]] - PKM, Productivity, Second Brain
+- [[CRDT]] - PKM, Tools
+- [[Inbox Zero]] - PKM, Productivity
+- [[Information Diet]] - PKM, Productivity
+- [[Webhooks]] - PKM, Tools

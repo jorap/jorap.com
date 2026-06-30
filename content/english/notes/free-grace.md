@@ -39,27 +39,18 @@ Ephesians 2:10 keeps the order straight: saved by grace through faith first, the
 - A friend at coffee listed every good thing he'd done this month like it was his ticket to heaven - I didn't argue; I just said I trust Christ's promise, not my report card.
 - A neighbor said she earns God's favor by trying hard - one sentence back: free gift, Christ paid what I couldn't.
 - My kid asked if being good gets you into heaven - free grace is the gift through faith first; obedience follows, it doesn't buy the door.
-- Head says I must perform before God accepts me. Turn from that - what's the entry point - Trust Christ - not my performance.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when good works compound into a merit ladder I think buys heaven |
-| extends | [[Minimum Effective Dose]] | Faith is the smallest act that still buys eternal life - no merit ladder on top |
-| extends | [[Justification]] | Grace is the gift; justification is God declaring you righteous when you receive it |
-| extends | [[Loss of Reward]] | Grace secures eternal life; losing reward never un-does the gift |
 | extends | [[Assurance]] | Rest on Christ's promise after faith - not this week's performance |
 | extends | [[Grateful Obedience]] | Obedience answers grace with thanks - not wages for heaven |
+| extends | [[Justification]] | Grace is the gift; justification is God declaring you righteous when you receive it |
+| extends | [[Loss of Reward]] | Grace secures eternal life; losing reward never un-does the gift |
+| extends | [[Minimum Effective Dose]] | Faith is the smallest act that still buys eternal life - no merit ladder on top |
 | extends | [[Standing vs Fellowship]] | Standing settled at faith; fellowship is the daily walk |
+
 ## See also
 
-- [[Justification]] - Eternal Principles, Faith, Gospel
-- [[Loss of Reward]] - Eternal Principles, Gospel, Reward
-- [[Faith and Works]] - Eternal Principles, Faith, Gospel
-- [[Minimum Effective Dose]] - Mental Models, PKM, Productivity
-- [[Compounding]] - Mental Models, PKM, Performance
-- [[Eternal Rewards]] - Eternal Principles, Gospel, Reward
-- [[Forgiveness]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[The Beatitudes]] - Beatitudes, Eternal Principles, Gospel
-- [[The Narrow Way]] - Discipleship, Eternal Principles, Gospel
+- [[Childlike Faith]] - Eternal Principles, Faith, Free Grace

@@ -37,8 +37,6 @@ Jesus brackets the [[Ask Seek Knock]] with the same warning: religious performan
 - I almost posted my Bible-and-coffee setup because quiet time felt wasted without likes - secret devotion means the Father is enough audience.
 - The player doesn't live-stream her 5 a.m. shootarounds for applause - she trains because the game is the point, not the Strava badge.
 - The janitor who mops the back hallway when nobody's watching isn't building a reputation - he's doing the job right because it's right.
-- About to post my quiet time for likes. Who's the real audience - Father alone - not the feed.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -46,9 +44,10 @@ Jesus brackets the [[Ask Seek Knock]] with the same warning: religious performan
 | alternative | [[Let Your Light Shine]] | Hidden piety vs public good works when the audience is Father alone |
 | contradicts | [[Drafting in Public]] | when every act of piety becomes content for applause |
 | extends | [[Ask Seek Knock]] | Secret give-pray-fast pairs with how Jesus taught us to pray - devotion for God's eyes, not the crowd |
+
 ## See also
 
-- [[Ask Seek Knock]] - Eternal Principles, Gospel, Prayer
-- [[Let Your Light Shine]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Treasure in Heaven]] - Eternal Principles, Gospel, Priorities
-- [[Eternal Rewards]] - Eternal Principles, Gospel, Reward
+- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
+- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Rewards]] - Eternal Principles, Gospel, Jesus Christ

@@ -10,6 +10,7 @@ tags: ["PKM", "Linking", "Analytics", "Note Taking", "Graph", "Meta"]
 slug: "graph-view-analytics"
 featured: false
 draft: false
+aliases: []
 ---
 Graph looks sci-fi. Mostly I use it to sort notes by link rank - top 20%, middle, bottom 20%, no body links, and orphans.
 
@@ -19,7 +20,6 @@ Graph looks sci-fi. Mostly I use it to sort notes by link rank - top 20%, middle
 - I laid out the shift handoff chart and three tasks had zero arrows to an owner - the orphan list was my fix-this-week, not a pretty poster.
 - I laid out the kids' chore chart and three jobs had zero arrows to anything else - nobody knew who checked them; that gap list was my fix-this-week.
 - My notes graph showed five orphans with no inbound links - graph analytics is sorting by link rank to find what I forgot to connect, not sci-fi wallpaper.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,7 +29,9 @@ Graph looks sci-fi. Mostly I use it to sort notes by link rank - top 20%, middle
 | extends | [[Associative Linking]] | Link-rank sorting shows which notes actually anchor the links you built |
 | extends | [[Network Analysis]] | Graph metrics borrowed from network science |
 | implements | [[Associative Linking]] | Graph rank carries link-first structure into visible hubs |
+
 ## See also
 
-- [[Maps of Content]] - Meta, PKM
-- [[Associative Linking]] - Linking, Note Taking, PKM
+- [[Commonplace Book]] - Note Taking, PKM
+- [[Note Relationships]] - Linking, Meta, Note Taking
+- [[Backlinks]] - Linking, Meta

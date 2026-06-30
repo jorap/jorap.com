@@ -20,7 +20,6 @@ aliases: []
 - The new barista burned three lattes on the steam wand - skill isn't fixed. The trainer had her repeat one motion, not relabel her as "not a coffee person."
 - My kid called herself "bad at reading" until we practiced sight words five minutes a night - the miss was data about what to drill, not a permanent label.
 - You're "not a math person" until you practice fractions long enough - a wrong answer on the utility bill is a cue to learn the formula, not proof you can't.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -30,7 +29,8 @@ aliases: []
 | extends | [[Deliberate Practice]] | Targeted reps beat vague "try harder" |
 | extends | [[Failure as Feedback]] | Misses are signal when identity isn't on the line |
 | extends | [[Systems for Growth]] | Mindset this growth hub installs before the loops run |
+
 ## See also
 
-- [[Convert Pain Into Learning]] - Learning, Performance
-- [[Deliberate Practice]] - Learning, Performance
+- [[Compounding]] - Learning, Performance
+- [[Mental Models]] - Learning, Performance

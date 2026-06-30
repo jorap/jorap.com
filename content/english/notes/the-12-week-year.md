@@ -20,7 +20,6 @@ Twelve-week years compress annual goals into quarters I actually feel. I map wik
 - "Hire and train" was vague until the twelve-week arc had weekly numbers - the quarter I actually feel, not January 1st fiction.
 - The wiki refactor got a twelve-week arc instead of "when I have time" - compressed goal I could see closing.
 - I'd been treating "clear the garage" like a someday project - twelve weeks and a fridge scoreboard; week ten the boxes finally moved.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,7 +28,10 @@ Twelve-week years compress annual goals into quarters I actually feel. I map wik
 | contradicts | [[Slow Productivity]] | when quarterly intensity beats fewer deeper projects |
 | extends | [[Periodic Knowledge Review]] | Twelve-week arcs compress goals into review quarters you actually feel |
 | extends | [[Quarterly Planning]] | Sprint scoreboard rhythm this method compresses |
+
 ## See also
 
-- [[Analog Capture Tools]] - PKM, Productivity
-- [[Anti-Fragile Systems]] - PKM, Productivity
+- [[Inbox Zero]] - PKM, Productivity
+- [[Information Diet]] - PKM, Productivity
+- [[Lean Startup]] - Productivity, Projects
+- [[Getting Things Done]] - PKM, Productivity

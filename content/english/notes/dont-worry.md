@@ -25,7 +25,7 @@ cards:
   - front: "Work hustle and trust in God pulling opposite. How many masters?"
     back: "One Master - drop anxious serving of tomorrow."
 draft: false
-aliases: ["do not worry", "sufficient unto the day"]
+aliases: ["do not worry", "sufficient unto the day", "dont worry"]
 ---
 **Don't worry** = Jesus' command not to be anxious about food, clothing, or tomorrow - the Father feeds birds and clothes lilies; he'll care for you (Matthew 6:25-34).
 
@@ -37,17 +37,18 @@ Worry can't add a single hour to life. The antidote isn't denial - it's priority
 - I woke up at 2am replaying next month's payroll like anxiety could cut the checks - don't worry means seek the kingdom first, then act on today's actual numbers.
 - My kid asked what if the school fee goes up next year and I started spiraling at bedtime - trust is active dependence on a Father who already gave what I can't earn.
 - I replayed tomorrow's tournament bracket at 2am like worry could seed the draw - Jesus wasn't telling me to pretend the game doesn't exist, He was telling me to stop acting like I'm running the universe.
-- Thumb on news refresh about tomorrow's meeting. One move that breaks the worry loop - Today's enough - don't borrow tomorrow's trouble.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[The 12 Week Year]] | when sprint urgency replaces trust |
-| extends | [[Free Grace]] | You can stop panicking about tomorrow because grace already settled where you spend forever |
 | extends | [[Assurance]] | Rest on Christ's promise - not anxiety about earning His care |
+| extends | [[Free Grace]] | You can stop panicking about tomorrow because grace already settled where you spend forever |
+
 ## See also
 
-- [[Slow Productivity]] - Focus, Note Taking, PKM
-- [[Seek the Kingdom First]] - Eternal Principles, Gospel, Priorities
-- [[Love God]] - Commandments, Eternal Principles, Gospel
+- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
+- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Rewards]] - Eternal Principles, Gospel, Jesus Christ
+- [[Forgiveness]] - Eternal Principles, Gospel, Jesus Christ

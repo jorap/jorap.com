@@ -35,8 +35,6 @@ aliases: ["PARA", "Organization", "The Archive Method", "Archive Method", "The A
 - The science fair folder on the counter with a deadline; immunization records in the filing cabinet with no end date.
 - Science fair on the counter with a due date; immunization records in the cabinet with no end date - sorted by what owns it, not alphabet soup.
 - Tax envelope on the desk until April 15; car registration in the glove box year-round.
-- Active work with a deadline just landed in my notes. Owner and end date clear - where does it go - Projects - or it stays Resources.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -46,8 +44,11 @@ aliases: ["PARA", "Organization", "The Archive Method", "Archive Method", "The A
 | extends | [[Building a Second Brain]] | PARA sorts notes by life responsibility - CODE's organize step |
 | extends | [[Getting Things Done]] | Action-first capture Forte built PARA on top of |
 | implements | [[Building a Second Brain]] | PARA folders carry CODE's organize step |
+
 ## See also
 
-- [[Building a Second Brain]] - Note Taking, PKM, Productivity
-- [[Active Knowledge Curation]] - Note Taking, PKM, Productivity
+- [[Commonplace Book]] - Note Taking, PKM
+- [[Inbox Zero]] - PKM, Productivity
+- [[Information Diet]] - PKM, Productivity
 - [[GTD vs PARA]] - Note Taking, PARA, PKM
+- [[Capture]] - Note Taking, PKM, Productivity

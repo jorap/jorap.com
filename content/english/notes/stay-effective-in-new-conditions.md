@@ -22,7 +22,6 @@ Real competence means staying useful outside ideal setups, familiar roles, and c
 - Our guard dominates on the outdoor court and looks lost on the slick indoor floor for a week - staying effective means adjusting footwork, not defending yesterday's surface.
 - A great street-food cook still has to learn a new kitchen layout when the mall lease starts - same food, new tools.
 - Remote school broke our morning routine - we rebuilt a shorter version that worked on a laptop at the kitchen table, not the old rush-out-the-door script.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -33,8 +32,9 @@ Real competence means staying useful outside ideal setups, familiar roles, and c
 | extends | [[Pressure Reveals Weakness]] | New conditions are pressure without the warning label |
 | extends | [[Resilience]] | Bounce and stay useful, not only bounce |
 | extends | [[Versatility]] | More than one way to contribute when the old lane closes |
+
 ## See also
 
-- [[Expect the Counter]] - Competition, Strategy, Thinking
-- [[Future-Proofing Knowledge]] - PKM, Productivity
-- [[Pressure Reveals Weakness]] - Habits, Leadership, Performance
+- [[Accountability]] - Performance
+- [[Attention to Detail]] - Performance
+- [[Composure]] - Performance

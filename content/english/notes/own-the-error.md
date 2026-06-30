@@ -22,7 +22,6 @@ Name the mistake clearly, find what caused it, repair what broke, and change the
 - I forgot the permission slip and told my kid out loud - reprinted, set a phone reminder, not "the teacher never emailed."
 - I merged wrong and clipped a bumper - I left a note with my number, not drove off hoping nobody saw.
 - After the missed free throw cost us the game, our point guard said "that was on me" in the huddle - no blame theater.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -34,8 +33,11 @@ Name the mistake clearly, find what caused it, repair what broke, and change the
 | extends | [[Integrity When No One's Watching]] | Own it even when nobody would audit this week |
 | extends | [[Integrity]] | Honest naming when excuses would be easier |
 | extends | [[Pressure Reveals Weakness]] | Blame-shifting spikes when stakes rise |
+| extends | [[Rollback Principle]] | Revert fast, name it in the standup, fix after calm returns |
+
 ## See also
 
-- [[Convert Pain Into Learning]] - Failure, Growth, Performance
-- [[Heed Every Near-Miss]] - Leadership, Safety
-- [[Workplace Principles]] - Ethics, Leadership, Workplace
+- [[Composure]] - Leadership, Performance
+- [[Follow-Through]] - Accountability, Performance
+- [[Leadership]] - Leadership, Performance
+- [[Preparedness]] - Leadership, Performance

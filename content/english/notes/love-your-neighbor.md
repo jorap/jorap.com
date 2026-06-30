@@ -37,8 +37,6 @@ Jesus lifted Leviticus 19:18 to equal rank with loving God. The parable of the G
 - The neighbor I'd rather avoid lives two doors down and his trash bins are always in my way - Jesus asked whether I'm acting like a neighbor, the way I'd want if I were stuck.
 - The kid down the street breaks our fence latch weekly - I fixed it again because I'd want someone to do that if our dog kept escaping.
 - The woman dropped her bags at the elevator - I held the door and carried one up because I'd want that if I were her.
-- Mental loop: do they qualify as neighbor? Flip the question - what do I ask instead - Am I being neighbor to them?
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -48,8 +46,11 @@ Jesus lifted Leviticus 19:18 to equal rank with loving God. The parable of the G
 | extends | [[Follow Their Lead]] | Love neighbor means entering their world before I redirect |
 | extends | [[Free Grace]] | Grace frees you to love neighbors without keeping score for salvation |
 | extends | [[Listen Before Fixing]] | Care I'd want includes being heard before being fixed |
+
 ## See also
 
-- [[The Golden Rule]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Love Your Enemies]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Peacemakers]] - Eternal Principles, Gospel, Sermon on the Mount
+- [[Love God]] - Commandments, Eternal Principles, Gospel
+- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
+- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
+- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ

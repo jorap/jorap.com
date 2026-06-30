@@ -20,7 +20,6 @@ aliases: []
 - A coworker walked me through how she tracks patient callbacks - I watched the whole spreadsheet before I offered to reorder her columns.
 - My kid invented new rules for a card game - I played their version instead of stopping mid-hand to teach "real" rules.
 - Coffee with a friend who needed to talk about her mother-in-law - I stayed on her thread instead of pivoting to my own week.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -31,3 +30,11 @@ aliases: []
 | implements | [[Continuous Improvement]] | Trust builds through repeated small acts of attention, not one grand gesture |
 | implements | [[Emotional Regulation]] | I hold the urge to interrupt, correct, or take the wheel |
 | implements | [[Emotional Regulation]] | I hold the urge to interrupt, correct, or take the wheel |
+
+## See also
+
+- [[Listen Before Fixing]] - Communication, Listening, Relationships
+- [[Name the Feeling]] - Communication, Relationships
+- [[Notice the Good]] - Communication, Relationships
+- [[Set Calm Boundaries]] - Communication, Relationships
+- [[Create Regular Connection]] - Relationships

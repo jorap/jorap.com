@@ -38,7 +38,6 @@ aliases: ["faith and politics", "gospel and government", "Christian political en
 - Candidate lost and dread hit like God's plan failed - Christ reigns; Rome wasn't Lord on Caesar's coin either.
 - Church friend said vote their way or you're not faithful - ultimate allegiance is Christ, not my ballot.
 - News scroll at 11pm felt more urgent than morning prayer - [[Signal vs Noise]]: kingdom first, not every push notification.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -49,10 +48,9 @@ aliases: ["faith and politics", "gospel and government", "Christian political en
 | extends | [[Love Your Neighbor]] | Civic life is neighbor-love in public, not tribe warfare |
 | extends | [[Render Unto Caesar]] | Pay lawful civic duty; reserve ultimate worship for God |
 | extends | [[Seek the Kingdom First]] | God's reign orders the week before the news cycle sets panic |
+
 ## See also
 
-- [[Render Unto Caesar]] - Eternal Principles, Gospel, Discipleship
-- [[Seek the Kingdom First]] - Eternal Principles, Gospel, Priorities
-- [[Love Your Enemies]] - Eternal Principles, Gospel, Ethics
-- [[Signal vs Noise]] - Focus, Note Taking, PKM
-- [[Great Commission]] - Eternal Principles, Gospel, Discipleship
+- [[Discipleship]] - Discipleship, Eternal Principles, Gospel
+- [[Faithful Steward]] - Discipleship, Eternal Principles, Gospel
+- [[Take Up Your Cross]] - Discipleship, Eternal Principles, Gospel

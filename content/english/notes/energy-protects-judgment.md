@@ -22,7 +22,6 @@ Rest, prep, workload limits, and recovery aren't soft extras - they're part of p
 - After three nights of bad sleep I almost sent a sharp email to a neighbor - I waited until morning and the whole thread looked different.
 - The club caps practice hours late in the season because tired legs slip - judgment is a motor skill too.
 - Hospitals limit surgeon hours because tired hands slip - recovery isn't optional luxury when the call has to land.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -36,8 +35,8 @@ Rest, prep, workload limits, and recovery aren't soft extras - they're part of p
 | extends | [[Slow Productivity]] | Fewer deep projects protect the energy budget |
 | extends | [[Slow the Moment]] | You can't pause what you don't have capacity to hold |
 | extends | [[Sustainable Performance]] | Pace you can repeat beats a sprint you crash from |
+
 ## See also
 
-- [[Slow Productivity]] - Focus, PKM, Productivity
-- [[Don't Worry]] - Eternal Principles, Gospel
-- [[Pressure Reveals Weakness]] - Habits, Leadership, Performance
+- [[Behavioral Economics]] - Decision Making
+- [[Low Hanging Fruit]] - Decision Making, Performance

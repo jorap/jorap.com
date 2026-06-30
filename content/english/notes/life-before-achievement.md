@@ -22,7 +22,6 @@ Those goals have value only while the methods used to reach them respect safety.
 - The coach canceled cliff-jump team-building when the park picnic hit bonding without a credible broken-leg risk - unity doesn't require a stunt.
 - The school canceled the cliff-jump field trip when the park picnic hit the same bonding goal without a credible risk of a broken leg.
 - The scout leader picked the flat trail hike instead of the ridge walk when both got the badge and only one had a drop with no guardrail.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -34,8 +33,8 @@ Those goals have value only while the methods used to reach them respect safety.
 | extends | [[Eliminate Before Managing]] | Choose the safer activity before debating how to supervise the lethal one |
 | extends | [[Ethical Leadership]] | The leader who holds the line when the room wants spectacle |
 | extends | [[Workplace Principles]] | Same ethics lane - plain language for teams that won't open a safety manual |
+
 ## See also
 
-- [[Heed Every Near-Miss]] - Leadership, Risk Management, Safety
-- [[Servant Leadership]] - Leadership, Eternal Principles, Workplace
-- [[Workplace Principles]] - Ethics, Leadership, Workplace
+- [[Coaching Ethics]] - Ethics, Leadership, Safety
+- [[Normalization of Deviance]] - Leadership, Safety

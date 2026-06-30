@@ -20,7 +20,6 @@ aliases: []
 - We moved the hydration table off the sprint lane before buying more caution tape - eliminate before manage.
 - We moved the hot oil station away from the walk lane before buying more warning signs - eliminate before manage.
 - We moved the space heater off the rug before lecturing the kids again about not touching it.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -28,4 +27,10 @@ aliases: []
 | contradicts | [[There Is No Perfect Solution]] | when the opposite frame fits better |
 | extends | [[Eliminate Before Managing]] | Named in notes that link here |
 | extends | [[Heed Every Near-Miss]] | Named in notes that link here |
-| extends | [[Heed Every Near-Miss]] | Named in notes that link here |
+| extends | [[Rollback Principle]] | Named rollback is a control layer before irreversible harm |
+
+## See also
+
+- [[Hierarchy of Controls]] - Safety, Systems Thinking
+- [[Safety by Design]] - Safety, Systems Thinking
+- [[Build a Reliable Default]] - Systems Thinking

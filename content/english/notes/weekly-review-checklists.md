@@ -35,8 +35,6 @@ My weekly review is a checklist - inbox, calendar, projects, one express action.
 - Same post-week ritual: clear the gear bag, check next fixture, one skill to drill - boring repetition, not a new review system every Sunday.
 - Same four steps every Sunday: clear the tray, check the calendar, active lists, one thing to ship - don't reinvent the ritual for creativity.
 - Sunday checklist: bowl by the door, calendar, kid forms, one family thing to finish - same steps even on travel weeks, shortened not skipped.
-- Friday review - inbox and calendar done. Fourth step before I close - Pick one ship action.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -45,7 +43,11 @@ My weekly review is a checklist - inbox, calendar, projects, one express action.
 | contradicts | [[Minimum Effective Dose]] | when the full checklist beats the smallest review that works |
 | extends | [[The Trusted Inbox]] | The weekly checklist empties the inbox first - the boring steps that keep trust alive |
 | implements | [[Periodic Knowledge Review]] | Carries it out in practice |
+
 ## See also
 
-- [[Periodic Knowledge Review]] - Habits, PKM, Weekly Review
-- [[The Second Brain Workflow]] - PARA, PKM, Workflow
+- [[Getting Things Done]] - GTD, PKM
+- [[CRDT]] - PKM
+- [[Commonplace Book]] - PKM
+- [[Inbox Zero]] - PKM
+- [[Information Diet]] - PKM

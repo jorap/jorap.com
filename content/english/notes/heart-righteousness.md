@@ -37,16 +37,17 @@ Jesus didn't lower the law; he exposed its depth. "You have heard… but I say" 
 - I sent a cold reply that sounded professional while resentment ran inside - Jesus moves righteousness from courtroom compliance to motive.
 - I looked patient helping with homework while I was simmering about the mess - murder in the heart doesn't need raised voices.
 - Some guy cut me off on the EDSA commute and I smiled through it, then nursed the anger the whole ride home - that's murder in the heart.
-- Anger simmering after traffic - treated them fine outwardly. What did Jesus call that - Murder in the heart - deal with anger.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Let Your Light Shine]] | when I polish the outside while nursing anger inside |
 | extends | [[Judge Not]] | God cares about inner motive, not the hypocritical judging judge not forbids |
+
 ## See also
 
-- [[Judge Not]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Reconciliation Before Worship]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[The Beatitudes]] - Beatitudes, Eternal Principles, Gospel
+- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
+- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
+- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Rewards]] - Eternal Principles, Gospel, Jesus Christ

@@ -25,7 +25,7 @@ cards:
   - front: "Criticism is true but tone is cruel. Finger on send. One check first?"
     back: "Pause - reverse roles first."
 draft: false
-aliases: ["do unto others"]
+aliases: ["do unto others", "Golden Rule"]
 ---
 **The Golden Rule** = treat others how you want to be treated - Jesus called this the Law and Prophets summed up (Matthew 7:12).
 
@@ -37,8 +37,6 @@ It's positive and active: *do* unto others, not merely avoid doing harm. The che
 - Waiting in line at the clinic, someone cut ahead and I drafted a public scolding - Golden Rule check: I'd want grace, not an audience.
 - Before I barked at the ref in front of the kids, I asked how I'd want a coach to talk to me after a bad call - the Golden Rule changed the volume.
 - I almost snapped at my kid the way my father snapped at me - reverse roles first, then speak.
-- Thumb on post button, public critique loaded. One check before I hit send - Reverse roles - would I want this said to me?
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -49,8 +47,11 @@ It's positive and active: *do* unto others, not merely avoid doing harm. The che
 | extends | [[Free Grace]] | Treat others well because Christ treated you well first - not to buy heaven |
 | extends | [[Listen Before Fixing]] | I'd want to be heard before being handed advice |
 | extends | [[Notice the Good]] | I'd want someone to name what I did well, not vague good job |
+
 ## See also
 
-- [[Love Your Neighbor]] - Commandments, Eternal Principles, Gospel
-- [[Forgiveness]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Reconciliation Before Worship]] - Eternal Principles, Gospel, Sermon on the Mount
+- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
+- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
+- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Rewards]] - Eternal Principles, Gospel, Jesus Christ

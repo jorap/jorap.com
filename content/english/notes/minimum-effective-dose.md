@@ -22,7 +22,6 @@ I borrowed it from medicine: enough to work, not more than needed. Applies to PK
 - The coach added one footwork drill before buying new shoes - small dose, daily reps, feet learned faster than gear ever did.
 - The barista trainer had her repeat one steam motion instead of rebuilding the whole menu that week.
 - One notebook by the door beat rebuilding the whole capture system again - enough to work, not more than needed.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -30,12 +29,12 @@ I borrowed it from medicine: enough to work, not more than needed. Applies to PK
 | contradicts | [[Compounding]] | when enough-to-work beats stacking past the dose |
 | extends | [[Create Regular Connection]] | Smallest connection habit that still lands |
 | extends | [[Develop, Don't Endanger]] | Smallest challenge that still develops the skill - not maximal suffering as the dose |
-| extends | [[Pareto Principle]] | Find the smallest change that still moves the needle - the slice of effort that earns most results |
 | extends | [[Justification]] | Faith is the one sufficient act - declared righteous at faith, not after merit stacks |
+| extends | [[Pareto Principle]] | Find the smallest change that still moves the needle - the slice of effort that earns most results |
+
 ## See also
 
-- [[Justification]] - Eternal Principles, Faith, Gospel
-- [[Free Grace]] - Eternal Principles, Faith, Gospel
-- [[Pareto Principle]] - Focus, Mental Models, PKM
-- [[Mental Models]] - Mental Models, PKM, Productivity
-- [[Sunk Cost Fallacy]] - Mental Models, PKM, Productivity
+- [[Deep Work]] - Focus, Productivity
+- [[Elon Musk]] - Mental Models, Thinking
+- [[Inbox Zero]] - PKM, Productivity
+- [[Information Diet]] - PKM, Productivity

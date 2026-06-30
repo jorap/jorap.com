@@ -20,7 +20,7 @@ cards:
     back: "Standing settled - walk the closeness back."
   - front: "Friend says God turned His back because they messed up. One sentence back?"
     back: "Standing on Christ stays - confess, come close again."
-  - front: "Worship feels hollow after an unresolved fight. What broke - salvation or closeness?"
+  - front: "Worship feels hollow after an unresolved fight. Which ledger broke?"
     back: "Fellowship - reconcile, then worship."
   - front: "Bad season and terror heaven access got revoked. What can't faith undo?"
     back: "Justification - standing on Christ stays."
@@ -37,7 +37,6 @@ aliases: ["standing and fellowship", "position vs fellowship", "legal standing v
 - Hidden sin exposed and shame screamed I'm not saved - justified on Christ already; fellowship needed repair, not a new salvation transaction.
 - Worship felt hollow after an unresolved fight with my wife - [[Reconciliation Before Worship]]: fellowship broke, not my standing before God.
 - A friend said God turned His back because she messed up - one sentence back: standing on Christ stays; confess and come close again.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -49,9 +48,8 @@ aliases: ["standing and fellowship", "position vs fellowship", "legal standing v
 | extends | [[Justification]] | Standing declared once at faith; fellowship fluctuates with confession and sin |
 | extends | [[Loss of Reward]] | Shame after failure is fellowship or reward, not revoked salvation |
 | extends | [[Sanctification]] | Becoming holy without re-earning the verdict justification already gave |
+
 ## See also
 
-- [[Justification]] - Eternal Principles, Faith, Gospel
-- [[Forgiveness]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Loss of Reward]] - Eternal Principles, Gospel, Reward
-- [[Reconciliation Before Worship]] - Eternal Principles, Gospel, Sermon on the Mount
+- [[Assurance]] - Eternal Principles, Faith, Free Grace
+- [[Childlike Faith]] - Eternal Principles, Faith, Free Grace

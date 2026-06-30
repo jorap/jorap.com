@@ -20,7 +20,6 @@ aliases: []
 - The coach killed the unsafe trust-fall drill when a safer team exercise achieved the same bonding goal - authority used to protect people, not to win at their expense.
 - The manager killed the unsafe team-building exercise when a safer option achieved the same goal.
 - Our building admin reported the broken stair rail to the owner instead of scheduling another photo day on it - tell the truth and protect people, not protect the event.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,3 +28,10 @@ aliases: []
 | extends | [[Life Before Achievement]] | Named in notes that link here |
 | extends | [[Servant Leadership]] | Named in notes that link here |
 | extends | [[Servant Leadership]] | Named in notes that link here |
+
+## See also
+
+- [[Coaching Ethics]] - Ethics, Leadership
+- [[Develop, Don't Endanger]] - Ethics, Leadership
+- [[Duty of Care]] - Ethics, Leadership
+- [[Eliminate Before Managing]] - Ethics, Leadership

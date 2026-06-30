@@ -37,16 +37,16 @@ Jesus compares God to a parent who gives bread, not a stone. The [[Ask Seek Knoc
 - The clinic chaplain rounds every floor on a schedule, not only when someone codes - ask, seek, knock is keep showing up, not one crisis visit.
 - Before a big match I pray like a kid who won't stop knocking - not because I earned answers, but because He's Dad and I'm already in the house.
 - My daughter asks for help with homework without calculating whether she deserves it - same posture I need with the Father, keep coming like a child who belongs.
-- Email and inbox before any quiet time with God most mornings. How do I keep approaching the Father - Ask, seek, knock - keep coming.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Don't Worry]] | when anxiety replaces asking |
 | extends | [[Free Grace]] | Prayer is a dependent kid asking Dad, not bargaining for merit you already have |
+
 ## See also
 
-- [[Secret Devotion]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Periodic Knowledge Review]] - Note Taking, PKM, Review
-- [[Seek the Kingdom First]] - Eternal Principles, Gospel, Priorities
+- [[Secret Devotion]] - Eternal Principles, Gospel, Jesus Christ
+- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Rewards]] - Eternal Principles, Gospel, Jesus Christ

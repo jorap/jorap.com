@@ -20,7 +20,6 @@ aliases: []
 - I stopped chasing three side hobbies and finished one blog series - depth beat volume for once.
 - The coach cut drills from six to three and the team finally ran them clean on game day.
 - The bakery dropped four "special" items and nailed the core six - busy isn't virtue when nothing finishes.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -30,9 +29,10 @@ aliases: []
 | extends | [[Creative Output]] | Fewer active projects turn notes into finished output instead of endless backlog |
 | extends | [[Deep Work]] | Fewer deep projects - Newport's focus frame nearby |
 | extends | [[Energy Protects Judgment]] | Fewer deep projects protect the energy budget |
+
 ## See also
 
-- [[Don't Worry]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Daily Notes]] - Focus, Note Taking, PKM
-- [[Analog Capture Tools]] - Note Taking, PKM, Productivity
-- [[Capture]] - Note Taking, PKM, Productivity
+- [[Commonplace Book]] - Note Taking, PKM
+- [[Inbox Zero]] - PKM, Productivity
+- [[Information Diet]] - PKM, Productivity
+- [[Getting Things Done]] - PKM, Productivity

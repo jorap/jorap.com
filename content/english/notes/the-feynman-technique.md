@@ -1,5 +1,4 @@
 ---
-
 title: "The Feynman Technique"
 meta_title: "The Feynman Technique - Teach It to Learn It"
 description: "I explain notes like I'm teaching someone - gaps in my explanation show gaps in understanding."
@@ -13,7 +12,6 @@ featured: false
 draft: false
 aliases: ["Feynman Technique", "Richard Feynman"]
 ---
-
 I explain notes like I'm teaching someone - gaps in my explanation show gaps in understanding.
 
 ## Examples
@@ -22,7 +20,6 @@ I explain notes like I'm teaching someone - gaps in my explanation show gaps in 
 - The new hire asked why we batch invoices that way and I stumbled mid-sentence - Feynman gap means I need one more pass before I teach it.
 - My kid asked how the fuse box works and I waved vaguely - explaining it simply showed I didn't understand it well enough to fix anything.
 - I couldn't explain my note-capture workflow to a friend in two minutes - gaps in my explanation showed gaps in understanding.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -31,8 +28,11 @@ I explain notes like I'm teaching someone - gaps in my explanation show gaps in 
 | contradicts | [[Spaced Repetition]] | when explaining gaps beats flashcard drill |
 | extends | [[Evergreen Notes]] | Teach-it-to-learn-it exposes gaps so evergreen notes stay honest and clear |
 | extends | [[Richard Feynman]] | Explain-like-I'm-twelve method named after him |
-| implements | [[Evergreen Notes]] | Explain-simple carries durable phrasing into belief |
+| implements | [[Evergreen Notes]] | Explain-simple carries durable phrasing into belief |. Pairs with [[Commonplace Book]].
+
 ## See also
 
-- [[Intellectual Sourcing]] - Note Taking, PKM, Writing
-- [[Progressive Summarization]] - Note Taking, PKM, Writing
+- [[Layered Reading]] - Learning, PKM
+- [[Tony Buzan]] - Learning, PKM
+- [[Literature Notes]] - Note Taking, PKM
+- [[CRDT]] - PKM

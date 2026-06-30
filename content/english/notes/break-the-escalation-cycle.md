@@ -22,7 +22,6 @@ Not passivity - I can still set boundaries and name facts. I just refuse to beco
 - A parent yelled at the ref from the sideline and my first instinct was to yell back - I answered the rule, kept my voice flat, and let the insult die without an audience.
 - My kid snapped first at dinner and I almost matched the volume - I named what happened, lowered my voice, and refused to pour fuel on it.
 - A neighbor's group-chat jab about parking got a sharp reply in my drafts - I sent the facts and the new plan instead of the line that would have fed the thread all week.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -34,8 +33,11 @@ Not passivity - I can still set boundaries and name facts. I just refuse to beco
 | extends | [[Set Calm Boundaries]] | Calm limit stops the reply-all war |
 | extends | [[Slow the Moment]] | One beat before the sharp reply |
 | extends | [[Turn the Other Cheek]] | Refuse to return evil for evil - applied to Slack and email |
+
 ## See also
 
-- [[Workplace Principles]] - Ethics, Eternal Principles, Workplace
-- [[Forgiveness at Work]] - Ethics, Eternal Principles, Workplace
-- [[The Golden Rule at Work]] - Ethics, Eternal Principles, Workplace
+- [[Forgiveness at Work]] - Conflict, Eternal Principles, Ethics
+- [[Plain Commitments at Work]] - Communication, Eternal Principles, Ethics
+- [[The Golden Rule at Work]] - Communication, Eternal Principles, Ethics
+- [[Integrity When No One's Watching]] - Eternal Principles, Ethics, Workplace
+- [[Outcomes Over Pitch Decks]] - Eternal Principles, Ethics, Workplace

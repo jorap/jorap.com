@@ -10,7 +10,7 @@ tags: ["Mental Models", "Thinking", "Strategy"]
 slug: "second-order-thinking"
 featured: false
 draft: false
-aliases: ["second order effects"]
+aliases: ["second order effects", "second order thinking"]
 ---
 **Second-order thinking** = ask what happens after the first win - incentives shift, copycats arrive, shortcuts compound.
 
@@ -20,7 +20,6 @@ aliases: ["second order effects"]
 - I offered unlimited screen time on sick days - then bedtime fights lasted a week after they recovered.
 - The shortcut shaves ten minutes until the construction zone adds twenty - I asked what happens after Tuesday's win.
 - Free cookies at the door pull kids in - then the line blocks serious shoppers and staff burns out on samples.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,7 +28,9 @@ aliases: ["second order effects"]
 | extends | [[Expect the Counter]] | The counter is often a second-order effect |
 | extends | [[Mental Models]] | Lens for downstream effects |
 | extends | [[Strategic Foresight]] | See the next round before it lands |
+
 ## See also
 
-- [[Expect the Counter]] - Competition, Strategy
-- [[Sunk Cost Fallacy]] - Mental Models, Thinking
+- [[Elon Musk]] - Mental Models, Thinking
+- [[First Principles Thinking]] - Mental Models, Thinking
+- [[Minimum Effective Dose]] - Mental Models, Thinking

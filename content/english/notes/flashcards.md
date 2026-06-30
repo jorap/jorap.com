@@ -15,7 +15,6 @@ draft: false
 aliases:
   - /notes/cards/
 ---
-
 **Flashcards** = drill lane beside the wiki - opt in per note, export to Anki when I want SRS on my phone.
 
 This page is a **utility surface** (`note_kind: meta`) - not a garden note. Evergreen notes should not `[[wikilink]]` here; point readers to [/notes/flashcards/](/notes/flashcards/) or [/notes/review/](/notes/review/) by URL instead.
@@ -50,4 +49,11 @@ draft: false
 - Do not put `| JoRap Notes` in `meta_title` (the theme appends it).
 - Validate with `npm run lint:cards` before commit.
 
-New spine note scaffold: `hugo new content/english/notes/my-note.md --kind notes-review`.
+New spine note scaffold: `hugo new content/english/notes/my-note.md --kind notes-review`. Pairs with [[Random Duo]].
+
+## See also
+
+- [[Review]] - Anki, Learning, Meta
+- [[Backlinks]] - Meta, Notes
+- [[Create Note]] - Meta, Notes
+- [[Issues]] - Meta, Notes

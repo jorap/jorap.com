@@ -37,22 +37,19 @@ aliases: ["heavenly reward", "reward in heaven"]
 - I covered a coworker's shift without telling anyone and caught myself fishing for credit in the break room - gift first, repayment for faithfulness second, not a merit down payment on heaven.
 - I prayed for twenty minutes alone this morning and wanted to mention it at breakfast so someone would notice - the Father in secret is who repays, not the table.
 - I gave quietly at the neighborhood drive and felt discouraged nobody saw - eternal rewards means the Father sees hidden devotion and pays after salvation, not the audience at the curb.
-- Secret prayer and tempted to tell everyone so I feel credited. Who pays - Father in secret - not the audience.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when I treat stacked good works as currency that bought eternal life |
+| extends | [[Faithful Steward]] | Well done repays faithful use - not the entry fee |
 | extends | [[Free Grace]] | Grace gets you in; rewards are what God pays for faithful living after |
 | extends | [[Judgment Seat]] | Sermon promises get assessed at the bema - not a retrial on who gets in |
 | extends | [[Loss of Reward]] | Reward can shrink; eternal life stays on Christ |
-| extends | [[Faithful Steward]] | Well done repays faithful use - not the entry fee |
+
 ## See also
 
-- [[Judgment Seat]] - Eternal Principles, Gospel, Reward
-- [[Loss of Reward]] - Eternal Principles, Gospel, Reward
-- [[Treasure in Heaven]] - Eternal Principles, Gospel, Priorities
-- [[Secret Devotion]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Free Grace]] - Eternal Principles, Faith, Gospel
-- [[Compounding]] - Mental Models, PKM, Performance
+- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
+- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
+- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ

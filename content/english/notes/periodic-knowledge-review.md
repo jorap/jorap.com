@@ -20,7 +20,6 @@ Notes rot without review. I calendar weekly and quarterly passes - inbox, projec
 - I calendar thirty minutes Sunday to clear the bowl by the door and check the family calendar - chores rot when I only tidy in panic.
 - First Sunday I reconcile the budget - not only when the card gets declined mid-commute.
 - The basketball team watches film every Monday, win or lose - not only after a blowout.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -30,8 +29,10 @@ Notes rot without review. I calendar weekly and quarterly passes - inbox, projec
 | extends | [[Active Knowledge Curation]] | Calendar review is how curation happens on schedule, not only when you feel like it |
 | extends | [[Maintenance Window]] | Scheduled upkeep - same calendar habit |
 | implements | [[Active Knowledge Curation]] | Calendar review carries prune-and-connect curation |
+
 ## See also
 
-- [[Ask Seek Knock]] - Eternal Principles, Gospel, Prayer
-- [[Associative Linking]] - Note Taking, PKM, Second Brain
-- [[Atomic Notes]] - Note Taking, PKM, Second Brain
+- [[Commonplace Book]] - Note Taking, PKM
+- [[Literature Notes]] - Note Taking, PKM
+- [[Evergreen vs Fleeting Notes]] - Note Taking, PKM, Review
+- [[Digital Serendipity]] - Note Taking, PKM, Review

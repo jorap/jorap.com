@@ -1,5 +1,4 @@
 ---
-
 title: "Note Relationships"
 meta_title: "Note Relationships - Four Link Types for the Garden"
 description: "Four pair types in the body table - extends, contradicts, implements, alternative. Hub and utility pages use note_kind flags."
@@ -28,7 +27,6 @@ cards:
 draft: false
 aliases: ["link types", "Link Typing"]
 ---
-
 **Note relationships** = four pair types in a body table - extends, contradicts, implements, alternative - so the graph shows how ideas push and pull. **Hub/MOC pages** use `note_kind: index` in frontmatter (not a row). **Utility pages** use `note_kind: meta` - link by URL, not wikilink.
 
 | Type | Question | Example |
@@ -55,10 +53,10 @@ Every atomic note (`note_kind: note`, the default) carries opening prose, option
 | alternative | [[PARA Method]] | Body link types vs folder sort when typed links beat project buckets |
 | extends | [[Link Typing]] | Generic PKM term for what this page formalizes |
 | implements | [[Associative Linking]] | Typed rows carry vague wikilinks into named push and pull |
+
 ## See also
 
-- [[Reconciliation Before Worship]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[The Golden Rule]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Associative Linking]] - Linking, Note Taking, PKM
-- [[Getting Started]] - Digital Garden, Meta, PKM
-- [[Maps of Content]] - Linking, Meta, PKM
+- [[Commonplace Book]] - Note Taking, PKM
+- [[Sketchpad]] - Digital Garden, PKM
+- [[Getting Started]] - Digital Garden, Meta, Note Taking
+- [[Graph View Analytics]] - Linking, Meta, Note Taking

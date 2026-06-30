@@ -20,7 +20,6 @@ aliases: []
 - Tags for 'faith' and 'PKM' beat one junk drawer folder called 'misc' - classification scheme so I find things later.
 - School papers split into "sign," "keep," and "trash" trays beat one pile on the counter - taxonomy for the daily scramble.
 - Receipts sorted by taxes vs warranty vs trash beat one shoebox - folders and labels, boring on purpose.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,3 +28,10 @@ aliases: []
 | extends | [[Metadata Strategy]] | Named in notes that link here |
 | extends | [[PARA Method]] | Named in notes that link here |
 | extends | [[PARA Method]] | Named in notes that link here |
+
+## See also
+
+- [[Context-Aware Capture]] - Metadata, PKM
+- [[Active Knowledge Curation]] - PKM
+- [[Analog Capture Tools]] - PKM
+- [[Anti-Fragile Systems]] - PKM

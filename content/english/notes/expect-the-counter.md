@@ -22,7 +22,6 @@ Don't only rehearse the opening. Ask what happens after the other side adapts.
 - We changed our full-court press and the other team adjusted by halftime - expect the counter meant building a backup look before tip-off.
 - A restaurant drops lunch prices and the place across the street matches by Friday - the first move isn't the game; we built regulars before the copy arrived.
 - The condo board cut parking fees and the lot next door matched by Friday - expect the counter, don't treat opening week like permanent victory.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -33,8 +32,8 @@ Don't only rehearse the opening. Ask what happens after the other side adapts.
 | extends | [[Second-Order Thinking]] | First move wins; second move decides who keeps winning |
 | extends | [[Strategic Foresight]] | See the response before it arrives |
 | extends | [[Sunk Cost Fallacy]] | Don't cling to a tactic because it worked once |
+
 ## See also
 
-- [[Stay Effective in New Conditions]] - Adaptation, Performance
-- [[There Is No Perfect Solution]] - Mental Models, Thinking
-- [[Pressure Reveals Weakness]] - Leadership, Performance
+- [[Decision Quality]] - Performance, Thinking
+- [[Elon Musk]] - Thinking

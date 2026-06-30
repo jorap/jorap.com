@@ -37,7 +37,6 @@ aliases: ["becoming holy", "growth in holiness"]
 - I treated my quiet-time streak like proof God accepts me - faith saves; sanctification grows me after, it doesn't re-open the verdict.
 - Same sin pattern after conversion made me wonder if I was fake - justified at faith, becoming holy over time; both true, different jobs.
 - One altar-call high and the same temper by Friday - holiness isn't a one-time sprint, it's daily abiding and obeying.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -46,14 +45,11 @@ aliases: ["becoming holy", "growth in holiness"]
 | contradicts | [[Compounding]] | when holiness streaks compound into proof I'm saved |
 | extends | [[Abide in Me]] | Fruit and holiness flow from staying in Christ, not from earning your spot |
 | extends | [[Discipleship]] | Daily following is how sanctification shows up in real life |
+| extends | [[Grateful Obedience]] | Holiness grows from received mercy, not earned acceptance |
 | extends | [[Justification]] | Declared righteous first; becoming holy second - don't swap the order |
 | extends | [[Loss of Reward]] | Keep growing after a bad season - holiness and reward are separate ledgers |
-| extends | [[Grateful Obedience]] | Holiness grows from received mercy, not earned acceptance |
 | extends | [[Standing vs Fellowship]] | Becoming holy without re-opening the verdict justification gave |
+
 ## See also
 
-- [[Loss of Reward]] - Eternal Principles, Gospel, Reward
-- [[Justification]] - Eternal Principles, Faith, Gospel
-- [[Discipleship]] - Eternal Principles, Gospel, Discipleship
-- [[Abide in Me]] - Eternal Principles, Faith, Gospel
-- [[Faith and Works]] - Eternal Principles, Faith, Gospel
+- [[Faith and Works]] - Eternal Principles, Free Grace, Gospel

@@ -20,7 +20,6 @@ aliases: []
 - The org chart showed one coordinator linking twelve others - that's where I'd add backup before peak season.
 - The chore chart showed one kid linking every task - the bottleneck we fixed first.
 - The garden graph showed one note linking twelve others - that's the doorway I'd prune first.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,3 +28,9 @@ aliases: []
 | extends | [[Associative Linking]] | Named in notes that link here |
 | extends | [[Graph View Analytics]] | Named in notes that link here |
 | extends | [[Graph View Analytics]] | Named in notes that link here |
+
+## See also
+
+- [[Active Knowledge Curation]] - PKM
+- [[Analog Capture Tools]] - PKM
+- [[Anti-Fragile Systems]] - PKM

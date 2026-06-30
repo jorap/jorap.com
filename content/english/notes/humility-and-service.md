@@ -37,19 +37,20 @@ He washed feet the night before the cross. Status in the kingdom runs opposite t
 - I organized snacks for my kid's basketball team on Sunday and came home expecting my family to serve me back - wash feet here too, not only where people can see you.
 - I stayed late to cover a shift and expected praise all week - humility and service is the world's ladder upside down; the last shall be first.
 - I served at church on Sunday and came home expecting my family to serve me back - that's the world's ladder, not Jesus'.
-- Foot-washing feels below my role. What did Jesus model - Serve, not be served - wash feet.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | alternative | [[Let Your Light Shine]] | Hidden service vs visible good when modesty hides the work |
 | contradicts | [[Let Your Light Shine]] | when visibility becomes the goal instead of the byproduct |
-| extends | [[Free Grace]] | Service is kingdom greatness, not the price you pay for grace you already received |
 | extends | [[Faithful Steward]] | Faithful in small things - well done for use, not status |
+| extends | [[Free Grace]] | Service is kingdom greatness, not the price you pay for grace you already received |
 | extends | [[Servant Leadership]] | Lead-by-serving frame Jesus models |
+
 ## See also
 
-- [[The Beatitudes]] - Beatitudes, Eternal Principles, Gospel
-- [[Let Your Light Shine]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Love Your Neighbor]] - Commandments, Eternal Principles, Gospel
+- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
+- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
+- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Rewards]] - Eternal Principles, Gospel, Jesus Christ

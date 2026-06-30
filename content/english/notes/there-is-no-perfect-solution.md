@@ -20,7 +20,6 @@ Waiting for the perfect tool, plan, or answer feels responsible. It's often the 
 - I stopped comparing note apps and shipped with the one that works on my phone tired - no perfect tool, only what I actually use.
 - We ran the secondary lineup ugly instead of waiting for the star to clear concussion protocol - good enough today beat perfect next month.
 - The shop picked the good-enough supplier quote Friday instead of a fifth round of bids - tradeoffs, not an imaginary perfect vendor.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -28,8 +27,11 @@ Waiting for the perfect tool, plan, or answer feels responsible. It's often the 
 | alternative | [[Pareto Principle]] | Good-enough vs protect-the-vital-few when perfect is the enemy |
 | contradicts | [[Pareto Principle]] | when good-enough tired beats hunting the perfect 20% |
 | extends | [[Mental Models]] | The nirvana fallacy is a mental model for when waiting for perfect blocks the good-enough move |
+
 ## See also
 
-- [[Repent and Believe]] - Eternal Principles, Faith, Gospel
+- [[Behavioral Economics]] - Decision Making, Mental Models
+- [[Commonplace Book]] - Note Taking, PKM
+- [[Inbox Zero]] - PKM, Productivity
+- [[Information Diet]] - PKM, Productivity
 - [[Low Hanging Fruit]] - Decision Making, Mental Models, PKM
-- [[Active Knowledge Curation]] - Note Taking, PKM, Productivity

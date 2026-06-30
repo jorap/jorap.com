@@ -20,11 +20,17 @@ aliases: []
 - We taped down the rug corner instead of yelling "watch your step" every night - hierarchy of controls: eliminate first, then engineer, admin, PPE last.
 - The building fixed the broken step instead of posting another caution sticker - remove the hazard first, in that order.
 - Guard rails beat "be careful" signs; removing the trip hazard beats both.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Standard Operating Procedures]] | when the opposite frame fits better |
 | extends | [[Eliminate Before Managing]] | Named in notes that link here |
-| extends | [[Eliminate Before Managing]] | Named in notes that link here |
+| extends | [[Eliminate Before Managing]] | Named in notes that link here |. Pairs with [[Heed Every Near-Miss]].
+
+## See also
+
+- [[Risk Management]] - Safety, Systems Thinking
+- [[Rollback Principle]] - Safety, Systems Thinking
+- [[Safety by Design]] - Safety, Systems Thinking
+- [[Build a Reliable Default]] - Systems Thinking

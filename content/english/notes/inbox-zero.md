@@ -20,7 +20,6 @@ aliases: []
 - I process the commute voice-memo inbox every Friday - inbox zero is each item decided, not hoarded.
 - Friday afternoon I triaged email to zero - Monday started from decisions made, not dread.
 - Sunday night we emptied the kitchen catch-all tray - each slip got a decision so school week didn't start with mystery piles.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,3 +28,11 @@ aliases: []
 | extends | [[Getting Things Done]] | Named in notes that link here |
 | extends | [[The Trusted Inbox]] | Named in notes that link here |
 | extends | [[The Trusted Inbox]] | Named in notes that link here |
+
+## See also
+
+- [[Active Knowledge Curation]] - PKM, Productivity
+- [[Analog Capture Tools]] - PKM, Productivity
+- [[Anti-Fragile Systems]] - PKM, Productivity
+- [[Building a Second Brain]] - PKM, Productivity
+- [[Capture]] - PKM, Productivity

@@ -22,7 +22,6 @@ A project, conversation, competition, or responsibility isn't successful until t
 - I packed for the trip but forgot to lock the back gate - starting well proves you can begin; finishing well proves you can close what you open.
 - We led at halftime and coasted the third quarter - finish strong was closing the last set, not celebrating after the first fast lap.
 - The shop opened on time but left the back room half-stocked - finish strong is the unglamorous tail that actually completes the job.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -35,8 +34,10 @@ A project, conversation, competition, or responsibility isn't successful until t
 | extends | [[Pressure Reveals Weakness]] | Easy starts hide weak finish lines |
 | extends | [[Process Over Outcomes]] | Trust the repeatable close, not one heroic sprint |
 | extends | [[Reliability]] | People trust you when the tail gets done |
+
 ## See also
 
-- [[Complete the Cycle]] - Execution, Leadership, Performance
-- [[Plain Commitments at Work]] - Ethics, Eternal Principles, Workplace
-- [[Pressure Reveals Weakness]] - Habits, Leadership, Performance
+- [[Continuous Improvement]] - Habits, Performance
+- [[Deliberate Practice]] - Habits, Performance
+- [[Habit Formation]] - Habits, Performance
+- [[Habit Stacking]] - Habits, Performance

@@ -37,20 +37,18 @@ aliases: ["declared righteous", "justified by faith"]
 - I snapped at the cashier and felt like I was back on probation with God - justification means my standing was settled at faith; confession restores fellowship, it doesn't re-buy heaven.
 - A coworker said she's "working toward" being saved - one sentence back: trust Christ now; you're declared righteous at faith, not after the habit streak.
 - Romans 4 in my head but guilt still treats every bad week like a revoked passport - standing is settled; the walk is a different category.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when stacked good works feel like they finally earned God's yes |
-| extends | [[Free Grace]] | Grace is the gift; justification is God declaring you righteous when you receive it |
-| extends | [[Minimum Effective Dose]] | Faith is the one sufficient act - not a merit ladder before God accepts you |
-| extends | [[Loss of Reward]] | Standing declared at faith doesn't get revoked when reward is lost |
 | extends | [[Assurance]] | Verdict rests on Christ - doubt doesn't reopen the case |
+| extends | [[Free Grace]] | Grace is the gift; justification is God declaring you righteous when you receive it |
+| extends | [[Loss of Reward]] | Standing declared at faith doesn't get revoked when reward is lost |
+| extends | [[Minimum Effective Dose]] | Faith is the one sufficient act - not a merit ladder before God accepts you |
 | extends | [[Standing vs Fellowship]] | Standing declared once; fellowship fluctuates with sin and confession |
+
 ## See also
 
-- [[Free Grace]] - Eternal Principles, Faith, Gospel
-- [[Sanctification]] - Eternal Principles, Faith, Gospel
-- [[Faith and Works]] - Eternal Principles, Faith, Gospel
-- [[Loss of Reward]] - Eternal Principles, Gospel, Reward
+- [[Faith and Works]] - Eternal Principles, Faith, Free Grace
+- [[Childlike Faith]] - Eternal Principles, Faith, Free Grace

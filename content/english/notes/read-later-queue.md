@@ -20,7 +20,6 @@ aliases: []
 - I bookmarked forty parenting threads and acted on three - the save button was a graveyard.
 - Four hundred saved articles on my phone and I'd read twelve - parking lot, not reading.
 - Four hundred saved articles and I'd read twelve - the queue was guilt storage, not reading.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,3 +28,11 @@ aliases: []
 | extends | [[The Collector's Fallacy]] | Named in notes that link here |
 | extends | [[The Trusted Inbox]] | Named in notes that link here |
 | extends | [[The Trusted Inbox]] | Named in notes that link here |
+
+## See also
+
+- [[Analog Capture Tools]] - Capture, PKM
+- [[Building a Second Brain]] - Capture, PKM
+- [[Capture]] - Capture, PKM
+- [[Context-Aware Capture]] - Capture, PKM
+- [[Mobile Capture Workflows]] - Capture, PKM

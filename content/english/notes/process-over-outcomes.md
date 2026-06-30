@@ -20,7 +20,6 @@ Results matter, but optimizing only for outcomes wins once. I optimize for a rep
 - The baker follows the same proofing steps whether it's a slow Tuesday or wedding weekend.
 - Same commute podcast and debrief voice memo - the loop survives a bad week at work.
 - The JV squad runs the same warmup whether the bleachers are empty or full.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -32,8 +31,11 @@ Results matter, but optimizing only for outcomes wins once. I optimize for a rep
 | extends | [[Notice the Good]] | Reinforce the behavior in the loop, not only the score |
 | extends | [[Pressure Reveals Weakness]] | Process and defaults survive when heat rises |
 | extends | [[Systems Thinking]] | Trust the loop, not the scoreboard |
+
 ## See also
 
-- [[Take Up Your Cross]] - Discipleship, Eternal Principles, Gospel
-- [[Compounding]] - Habits, PKM, Systems Thinking
-- [[Periodic Knowledge Review]] - Habits, Note Taking, PKM
+- [[Commonplace Book]] - Note Taking, PKM
+- [[Continuous Improvement]] - Habits, Systems Thinking
+- [[Habit Stacking]] - Habits, Systems Thinking
+- [[Literature Notes]] - Note Taking, PKM
+- [[Build a Reliable Default]] - Habits, Systems Thinking

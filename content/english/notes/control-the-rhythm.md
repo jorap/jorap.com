@@ -22,7 +22,6 @@ Don't let urgency, conflict, emotion, or someone else's deadline dictate how fas
 - A client wanted an answer in ten minutes on a complex quote - I said I'd send numbers after lunch and kept the room from rushing a bad decision.
 - Good coaches don't let the loudest parent set practice length - they run drills, call water, end on time.
 - Bedtime spiraled into "five more minutes" chaos until we set the clock - we take the tempo back instead of letting panic set the pace.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -34,8 +33,8 @@ Don't let urgency, conflict, emotion, or someone else's deadline dictate how fas
 | extends | [[Servant Leadership]] | Protect the team from artificial urgency |
 | extends | [[Situational Control]] | Pace is one lever on the situation |
 | extends | [[Slow the Moment]] | Slowing down is how you reclaim rhythm |
+
 ## See also
 
-- [[Break the Escalation Cycle]] - Conflict, Ethics, Workplace
-- [[Slow the Moment]] - Decision Making, Performance
-- [[Pressure Reveals Weakness]] - Habits, Leadership, Performance
+- [[Accountability]] - Leadership, Performance
+- [[Preparedness]] - Leadership, Performance

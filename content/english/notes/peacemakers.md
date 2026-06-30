@@ -37,8 +37,6 @@ Peacemaking is work: reconciliation, truth spoken in love, de-escalation when ot
 - Two coworkers wanted me to pick a side over lunch - I called the one I wronged first and asked what it would take to actually fix things.
 - Two friends feuding at dinner wanted me to pick a side - I called the one I wronged first and asked how to fix it, not keep the room quiet.
 - Neighbors were arguing over the fence line - I offered to measure together instead of nodding along with whoever complained loudest.
-- Hard truth needs saying but I soft-pedal to avoid fight. What am I called to - Peace through truth in love.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -50,8 +48,11 @@ Peacemaking is work: reconciliation, truth spoken in love, de-escalation when ot
 | extends | [[Name the Feeling]] | Truth in love often starts with naming what's carried |
 | extends | [[Set Calm Boundaries]] | Peace through truth includes calm limits |
 | implements | [[Break the Escalation Cycle]] | Peacemaking in the reply-all thread |
+
 ## See also
 
-- [[Reconciliation Before Worship]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Love Your Enemies]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Forgiveness]] - Eternal Principles, Gospel, Sermon on the Mount
+- [[The Beatitudes]] - Beatitudes, Eternal Principles, Gospel
+- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
+- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
+- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ

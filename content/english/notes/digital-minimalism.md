@@ -12,7 +12,7 @@ featured: false
 draft: false
 aliases: []
 ---
-Fewer apps, fewer sync layers, fewer notifications. My PKM got better when I stopped collecting tools. Overlap with [[Treasure in Heaven]]: less earthly accumulation, clearer allegiance. Political feeds are the same trap - [[Christianity and Politics]] and [[Signal vs Noise]] keep the scroll from replacing prayer.
+**Digital minimalism** = fewer apps, fewer sync layers, fewer notifications - my PKM got better when I stopped collecting tools. Overlap with [[Treasure in Heaven]]: less earthly accumulation, clearer allegiance. Political feeds are the same trap - [[Christianity and Politics]] and [[Signal vs Noise]] keep the scroll from replacing prayer.
 
 ## Examples
 
@@ -20,7 +20,6 @@ Fewer apps, fewer sync layers, fewer notifications. My PKM got better when I sto
 - We dropped the second diaper bag, the backup stroller, and the junk drawer of chargers - fewer things means I actually know where the one working cable lives.
 - Same reason I keep one capture path instead of five apps - my PKM got better when I stopped collecting tools.
 - The front desk runs one scheduling app, not four - fewer sync layers means fewer places patient reminders get lost.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,8 +28,10 @@ Fewer apps, fewer sync layers, fewer notifications. My PKM got better when I sto
 | contradicts | [[Digital Serendipity]] | when fewer pipes beat building for accidental rediscovery |
 | extends | [[Attention Economy]] | What Newport is pushing back on |
 | extends | [[Minimum Effective Dose]] | Cut apps and notifications until you hit the smallest setup that still works |
+
 ## See also
 
-- [[Treasure in Heaven]] - Eternal Principles, Gospel, Priorities
-- [[Analog Capture Tools]] - Note Taking, PKM, Productivity
-- [[Daily Notes]] - Note Taking, PKM, Productivity
+- [[CRDT]] - PKM, Tools
+- [[Commonplace Book]] - Note Taking, PKM
+- [[Deep Work]] - Focus, Productivity
+- [[Inbox Zero]] - PKM, Productivity

@@ -20,7 +20,6 @@ aliases: []
 - Recipe from the school group chat → Share → grocery list - one tap before three kids pulled me away from the phone.
 - Halftime clip of the broken play → Share → Notes - captured before the second half erased the fix I saw.
 - The supplier email with the corrected invoice → Share → my task app - saved before I closed the browser and lost it.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,3 +28,9 @@ aliases: []
 | extends | [[Capture]] | Named in notes that link here |
 | extends | [[Mobile Capture Workflows]] | Named in notes that link here |
 | extends | [[Mobile Capture Workflows]] | Named in notes that link here |
+
+## See also
+
+- [[Active Knowledge Curation]] - PKM
+- [[Anti-Fragile Systems]] - PKM
+- [[Associative Linking]] - PKM

@@ -28,7 +28,6 @@ Deliver a one-page handoff doc: repo URL, Cloudflare project, env vars, domain D
 - Pastor emails bulletin PDF every Friday - retainer batch, one push, no CMS layer needed.
 - I kept client experiments on a draft branch - showroom main stayed clean; garage mess never hit their live site.
 - Client assumed "hosting included unlimited edits" - should have been retainer line item; fixed on client two with plain scope up front.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -39,8 +38,8 @@ Deliver a one-page handoff doc: repo URL, Cloudflare project, env vars, domain D
 | extends | [[Selling Static Sites]] | Handoff is priced separately from build setup |
 | extends | [[Share What You Learn]] | One-page doc leaves the team able to publish without me |
 | extends | [[The Garage Concept]] | Showroom branch vs messy workshop drafts |
+
 ## See also
 
-- [[Selling Static Sites]] - Cloudflare Pages, Freelance, Hugo
-- [[Static Site Client Scope]] - Freelance, Static Site Generator, Website Building
-- [[Free Tier Hosting Stack]] - Cloudflare Pages, GitHub, Hugo
+- [[Digital Garden]] - Static Site Generator, Website Building
+- [[Free Tier Hosting Stack]] - Static Site Generator, Website Building

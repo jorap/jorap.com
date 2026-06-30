@@ -20,7 +20,6 @@ aliases: []
 - When the kitchen catches fire, someone points to exits and counts heads - title optional.
 - Our line cook never got named manager; leadership was calm voice, who goes where, and nobody blaming while the extinguishers were still out.
 - The blackout hit our block and one neighbor set pace - who checks on elders, who handles the generator - direction and care when people look to you.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -30,7 +29,9 @@ aliases: []
 | extends | [[Accountability]] | Leaders name owners |
 | extends | [[Control the Rhythm]] | Leaders set pace under pressure |
 | extends | [[Life Before Achievement]] | Safety floor leaders don't trade away |
+
 ## See also
 
-- [[Servant Leadership]] - Eternal Principles, Workplace
-- [[Workplace Principles]] - Ethics, Leadership
+- [[Attention to Detail]] - Performance, Work
+- [[Complete the Cycle]] - Performance, Work
+- [[Composure]] - Leadership, Performance

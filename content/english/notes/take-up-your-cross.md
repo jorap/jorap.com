@@ -37,16 +37,15 @@ The cross isn't suffering for suffering's sake; it's choosing God's will over se
 - Turning down the easy shortcut at work because I know it's wrong - cross isn't suffering for show; it's choosing God's will over self-will again today.
 - The veteran skips the post-game party to drive a rookie home - daily cross is the costly obedience when comfort is right there.
 - The manager took the blame upward on the bad quarter instead of passing it to the junior who'd flagged the risk - cross-bearing costs something real.
-- Comfortable faith - avoiding the hard obedience I heard preached. What's the daily move - Count cost - deny self, follow daily.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[There Is No Perfect Solution]] | when I expect discipleship without cost |
 | extends | [[Free Grace]] | Cross-bearing costs something real after faith saves you - it doesn't earn eternal life |
+
 ## See also
 
-- [[Process Over Outcomes]] - Habits, PKM, Systems Thinking
-- [[Slow Productivity]] - Focus, Note Taking, PKM
-- [[Repent and Believe]] - Eternal Principles, Faith, Gospel
+- [[Christianity and Politics]] - Discipleship, Eternal Principles, Gospel
+- [[Faithful Steward]] - Discipleship, Eternal Principles, Gospel
+- [[Great Commission]] - Discipleship, Eternal Principles, Gospel

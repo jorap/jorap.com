@@ -10,7 +10,7 @@ tags: ["Workplace", "Ethics", "Eternal Principles", "Integrity", "Character"]
 slug: "integrity-when-no-ones-watching"
 featured: false
 draft: false
-aliases: ["hidden integrity", "honest work offstage"]
+aliases: ["hidden integrity", "honest work offstage", "integrity when no ones watching"]
 ---
 **Integrity when no one's watching** = do the honest work when there's no audience - accurate time logs, real tests, the fix nobody asked for yet.
 
@@ -22,7 +22,6 @@ Performance for the standup is its own reward and a small one. Some good work sh
 - The market scale stays honest when the seller steps away to take a call - I could've scooped light on the last bag of rice; instead I re-weighed it before the customer came back.
 - I ran the real spelling check on the homework when my kid wasn't looking over my shoulder - accurate work when there's no audience.
 - I closed the support ticket correctly even though nobody would audit it this week - the test isn't the all-hands slide.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -31,8 +30,10 @@ Performance for the standup is its own reward and a small one. Some good work sh
 | contradicts | [[Drafting in Public]] | when every act of work becomes content for applause |
 | extends | [[Integrity]] | General integrity claim - this note is the workplace lane |
 | extends | [[Secret Devotion]] | Devotion for God's eyes alone - here, honest craft without an audience |
+
 ## See also
 
-- [[Workplace Principles]] - Ethics, Eternal Principles, Workplace
-- [[Plain Commitments at Work]] - Ethics, Eternal Principles, Workplace
-- [[Secret Devotion]] - Eternal Principles, Gospel, Prayer
+- [[Plain Commitments at Work]] - Eternal Principles, Ethics, Integrity
+- [[Break the Escalation Cycle]] - Eternal Principles, Ethics, Workplace
+- [[Forgiveness at Work]] - Eternal Principles, Ethics, Workplace
+- [[Outcomes Over Pitch Decks]] - Eternal Principles, Ethics, Workplace

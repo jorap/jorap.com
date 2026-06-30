@@ -20,7 +20,6 @@ My personal API isn't OAuth - it's consistent frontmatter, wikilinks, and folder
 - My notes use consistent slugs and wikilinks so future me and my tools can read the garden without me re-explaining every file from scratch.
 - Our team names drills the same way every season - level, skill, variation - so a sub can run practice without a twenty-minute briefing.
 - The warehouse labels every bin the same way - aisle, shelf, code - so a new hire finds parts without asking, not a tour from the veteran.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,8 +28,10 @@ My personal API isn't OAuth - it's consistent frontmatter, wikilinks, and folder
 | contradicts | [[Digital Minimalism]] | when structured context beats fewer moving parts |
 | extends | [[Metadata Strategy]] | Consistent frontmatter turns your notes into something tools can read without you re-explaining |
 | extends | [[Webhooks]] | Push events out - API glue this note imagines |
+
 ## See also
 
-- [[Building a Second Brain]] - Knowledge Management, PKM, Second Brain
-- [[Digital Garden]] - PKM, Second Brain, Static Site Generator
-- [[Associative Linking]] - PKM, Second Brain
+- [[CRDT]] - PKM, Tools
+- [[Commonplace Book]] - PKM
+- [[Inbox Zero]] - PKM
+- [[Information Diet]] - PKM

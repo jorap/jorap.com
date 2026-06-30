@@ -37,8 +37,6 @@ Abiding is ongoing dependence, not a one-time conversion event. Pruning hurts bu
 - I checked email three times before I prayed this morning and wondered why God felt far away - staying connected is the daily choice, not the badge from conversion day.
 - After a losing streak our captain stopped inventing new speeches and returned to the basics we drilled in preseason - fruit from staying connected to the system, not one heroic rant.
 - The bakery owner opens the shop with ten minutes of quiet before the rush - same posture, different room; fruit from staying connected, not from one heroic Saturday.
-- No prayer or Scripture all week - patience snapped at someone. Apart from the vine, what can I produce - Nothing good - reconnect now.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -46,10 +44,11 @@ Abiding is ongoing dependence, not a one-time conversion event. Pruning hurts bu
 | contradicts | [[Compounding]] | when I treat spiritual growth as pure self-stacked effort |
 | extends | [[Free Grace]] | Fruit comes from staying in Christ, not from earning your spot on the vine |
 | extends | [[Sanctification]] | Abiding is how holiness grows after justification |
+
 ## See also
 
-- [[Sanctification]] - Eternal Principles, Gospel, Discipleship
-- [[Free Grace]] - Eternal Principles, Faith, Gospel
-- [[Compounding]] - Mental Models, PKM, Performance
-- [[Take Up Your Cross]] - Discipleship, Eternal Principles, Gospel
-- [[The Wise Builder]] - Eternal Principles, Gospel, Sermon on the Mount
+- [[Childlike Faith]] - Eternal Principles, Free Grace, Gospel
+- [[Discipleship]] - Eternal Principles, Free Grace, Gospel
+- [[Eternal Principles]] - Eternal Principles, Free Grace, Gospel
+- [[Repent and Believe]] - Eternal Principles, Free Grace, Gospel
+- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ

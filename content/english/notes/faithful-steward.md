@@ -37,7 +37,6 @@ aliases: ["good and faithful servant", "parable of the talents", "stewardship"]
 - One mission trip in my head as my whole eternal report card - the master reviews faithful use over years, including quiet Tuesdays nobody clapped for.
 - I compared my small platform to a friend's bigger audience and froze - stewardship asks what He gave *me*, not what someone else got.
 - Buried the talent at work - played it safe, never used the skill God gave - faithful steward uses it, not hides it in fear.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -48,9 +47,9 @@ aliases: ["good and faithful servant", "parable of the talents", "stewardship"]
 | extends | [[Humility and Service]] | Faithful in small things, not status-grabbing |
 | extends | [[Judgment Seat]] | Stewardship accounts reviewed at the bema |
 | extends | [[Secret Devotion]] | Hidden faithful use - Father sees, not the audience |
+
 ## See also
 
-- [[Eternal Rewards]] - Eternal Principles, Gospel, Reward
-- [[Discipleship]] - Eternal Principles, Gospel, Discipleship
-- [[Treasure in Heaven]] - Eternal Principles, Gospel, Priorities
-- [[Integrity When No One's Watching]] - Ethics, Eternal Principles, Workplace
+- [[Christianity and Politics]] - Discipleship, Eternal Principles, Gospel
+- [[Discipleship]] - Discipleship, Eternal Principles, Gospel
+- [[Great Commission]] - Discipleship, Eternal Principles, Gospel

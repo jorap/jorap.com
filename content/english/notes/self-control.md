@@ -10,7 +10,7 @@ tags: ["Habits", "Performance", "Character"]
 slug: "self-control"
 featured: false
 draft: false
-aliases: []
+aliases: ["self control"]
 ---
 **Self-control** = you choose the next move instead of the urge choosing for you.
 
@@ -20,7 +20,6 @@ aliases: []
 - Thumb on the post button at midnight after a rough day - self-control was save to drafts, sleep, send tomorrow.
 - The point guard feels the pull to hero-ball on a bad stretch - self-control is the scripted pass they drilled, not the urge.
 - The grocery store puts candy at checkout because impulse is predictable - self-control is the list in your hand, not the wrapper by the register.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -30,7 +29,10 @@ aliases: []
 | extends | [[Emotional Regulation]] | Control the feeling before the act |
 | extends | [[Listen Before Fixing]] | Restraint is not interrupting with the answer |
 | extends | [[Slow the Moment]] | One beat of control before reaction |
+
 ## See also
 
-- [[Emotional Regulation]] - Performance, Relationships
-- [[Discipline]] - Habits, Performance
+- [[Build a Reliable Default]] - Habits, Performance
+- [[Compounding]] - Habits, Performance
+- [[Continuous Improvement]] - Habits, Performance
+- [[Deliberate Practice]] - Habits, Performance

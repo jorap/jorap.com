@@ -20,7 +20,6 @@ aliases: []
 - Sick day meant I became lunch packer, tutor, and IT help - versatility is more than one lane when the day shifts.
 - When the main salesperson called in sick, I covered phones for an hour - contribute adjacent, don't dilute what you're actually best at.
 - When our center covers the wing for ten minutes, the team survives - useful without forgetting who normally owns the paint.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,7 +28,9 @@ aliases: []
 | extends | [[Adaptability]] | Versatility is adaptability in skills |
 | extends | [[Low Hanging Fruit]] | Pick up adjacent wins when the main lane closes |
 | extends | [[Stay Effective in New Conditions]] | New rooms need new contributions |
+
 ## See also
 
-- [[Stay Effective in New Conditions]] - Adaptability, Career
-- [[Adaptability]] - Performance, Thinking
+- [[Accountability]] - Performance
+- [[Attention to Detail]] - Performance
+- [[Build a Reliable Default]] - Performance

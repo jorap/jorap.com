@@ -37,16 +37,16 @@ Jesus forbids harsh, hypocritical condemnation - the kind that ignores my own gu
 - I spotted a coworker's missed step in five seconds and missed my own plank for a month - Jesus wasn't saying ignore sin; He was saying remove your plank first.
 - I nitpicked someone's parenting while mine was a mess - judge not is diagnose yourself first, don't condemn like you're their final judge.
 - I was about to quote a neighbor's failure online - who am I playing? Not their judge; I needed mercy first.
-- Friend's speck obvious; my plank invisible. What do I fix first - Remove my plank - then help with speck.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Humility and Service]] | when I critique others to elevate myself |
-| extends | [[Free Grace]] | You stood on mercy first, so you don't condemn others like you're their final judge |
+| extends | [[Free Grace]] | You stood on mercy first, so you don't condemn others like you're their final judge |. Pairs with [[Ask Seek Knock]].
+
 ## See also
 
-- [[By Their Fruits]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Heart Righteousness]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[The Narrow Way]] - Discipleship, Eternal Principles, Gospel
+- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
+- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Rewards]] - Eternal Principles, Gospel, Jesus Christ

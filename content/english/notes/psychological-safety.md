@@ -20,7 +20,6 @@ aliases: []
 - I named the wrong turn to my carpool - nobody mocked it, so I speak up before the next missed exit.
 - The rookie admitted he ran the wrong route - coach thanked the catch in film review, not humiliated him in front of everyone.
 - The nurse reported the near-mix-up because the charge nurse thanked the catch, not the messenger.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -32,3 +31,11 @@ aliases: []
 | extends | [[Name the Feeling]] | Naming emotion without punishment keeps reporting honest |
 | extends | [[Own the Error]] | Named in notes that link here |
 | extends | [[Own the Error]] | Named in notes that link here |
+
+## See also
+
+- [[Normalization of Deviance]] - Leadership, Safety
+- [[Accountability]] - Leadership, Work
+- [[Coaching Ethics]] - Leadership, Safety
+- [[Develop, Don't Endanger]] - Leadership, Safety
+- [[Duty of Care]] - Leadership, Safety

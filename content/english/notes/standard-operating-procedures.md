@@ -20,7 +20,6 @@ aliases: ["SOPs"]
 - The restaurant opening checklist lives on a clipboard because memory fails when the door unlocks at eleven.
 - Guests were already seated when the new cook ran the sauce steps off the card - same as a recipe when you can't invent under pressure.
 - The building guard walks the posted evacuation route he practiced on quiet shifts - written steps when the alarm trips loud.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -28,9 +27,13 @@ aliases: ["SOPs"]
 | contradicts | [[Adaptability]] | when the script can't handle the novel case the runbook never saw |
 | extends | [[Build a Reliable Default]] | SOPs are shared defaults |
 | extends | [[Preparedness]] | Write the steps before the emergency |
+| extends | [[Rollback Principle]] | Rollback steps belong in the runbook, not in someone's head |
 | extends | [[Systems Thinking]] | Written steps are one visible part of the loop |
 | implements | [[Weekly Review Checklists]] | Checklists are SOPs for review |
+
 ## See also
 
-- [[Build a Reliable Default]] - Habits, Preparedness
-- [[Preparedness]] - Performance
+- [[Accountability]] - Performance, Work
+- [[Attention to Detail]] - Performance, Work
+- [[Complete the Cycle]] - Performance, Work
+- [[Compounding]] - Performance, Systems Thinking

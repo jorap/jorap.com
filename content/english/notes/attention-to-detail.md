@@ -20,7 +20,6 @@ aliases: []
 - I use the same pause before I sign anything that can't be undone - the boring second look beats the big mistake.
 - We almost threw the inbounds pass on the wrong side of the line because two hash marks looked identical - the second read of the court map caught it.
 - A nurse almost gave the wrong dose because two bags looked identical - the second read of the label caught it before it left her hands.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,7 +28,10 @@ aliases: []
 | extends | [[Complete the Cycle]] | Verification is detail work |
 | extends | [[Integrity When No One's Watching]] | Detail when nobody audits |
 | extends | [[Signal vs Noise]] | Detail separates real signal from sloppy noise |
+
 ## See also
 
-- [[Complete the Cycle]] - Execution, Work
-- [[Integrity When No One's Watching]] - Ethics, Workplace
+- [[Accountability]] - Performance, Work
+- [[Execution]] - Performance, Work
+- [[Follow-Through]] - Performance, Work
+- [[Leadership]] - Performance, Work

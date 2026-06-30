@@ -22,7 +22,6 @@ Smooth talkers ship thorns sometimes. I look at downstream stress, turnover, del
 - The contractor's portfolio was gorgeous - I asked two neighbors who lived through the remodel about permit fights and cracked tile.
 - The tutor's brochure looked perfect - I asked one mom whether her kid actually passed after three months.
 - The phone plan salesman had slick slides - I asked my neighbor what his bill actually looked like month six.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -32,9 +31,11 @@ Smooth talkers ship thorns sometimes. I look at downstream stress, turnover, del
 | extends | [[By Their Fruits]] | Discern teaching and leaders by outcome, not charisma |
 | extends | [[Signal vs Noise]] | What produces good over time - same filter in the office |
 | extends | [[Static Site Client Scope]] | Pick client stack by needed outcome, not by my preferred tool |
+
 ## See also
 
-- [[Static Site Client Scope]] - Freelance, Static Site Generator, Website Building
-- [[Workplace Principles]] - Ethics, Eternal Principles, Workplace
-- [[By Their Fruits]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Priorities Before the Inbox]] - Eternal Principles, Workplace
+- [[Ethical Leadership]] - Ethics, Leadership
+- [[Reconcile Before the Review]] - Eternal Principles, Ethics, Leadership
+- [[The Golden Rule at Work]] - Eternal Principles, Ethics, Leadership
+- [[Workplace Principles]] - Eternal Principles, Ethics, Leadership
+- [[Coaching Ethics]] - Ethics, Leadership

@@ -20,7 +20,6 @@ aliases: []
 - Our guard drills the weak-hand finish fifty times, not the whole scrimmage on autopilot - train the weak slice on purpose.
 - The new cashier drills voids and returns ten times, not the whole shift on autopilot - feedback, correction, repeat on what breaks.
 - My kid's recital died in the bridges between songs - deliberate practice was running only those transitions ten times; the rest she already knew.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,7 +28,9 @@ aliases: []
 | extends | [[Convert Pain Into Learning]] | Practice is how lessons become skill |
 | extends | [[Minimum Effective Dose]] | Smallest focused rep that moves the needle |
 | extends | [[The Feynman Technique]] | Teach-it-back as deliberate practice for understanding |
+
 ## See also
 
-- [[Convert Pain Into Learning]] - Growth, Performance
-- [[The Feynman Technique]] - Learning, PKM
+- [[Build a Reliable Default]] - Habits, Performance
+- [[Continuous Improvement]] - Habits, Performance
+- [[Discipline]] - Habits, Performance

@@ -22,7 +22,6 @@ Forgiving isn't pretending it didn't hurt. It's refusing to collect forever on a
 - I kept mentally scoring a teammate who blew a play in last month's tournament - forgiveness at work meant I stopped bringing that score into every practice, and I still wrote down what I'd need to trust him on the next road trip.
 - I kept mentally scoring a coworker who embarrassed me in a staff meeting six months ago - I stopped bringing that score into every shift and still wrote down what I'd need to trust him on the next busy Saturday.
 - The neighbor's parking habit still bugged me months later - forgiveness was stopping the mental spreadsheet, not pretending the curb fight never happened.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -31,8 +30,11 @@ Forgiving isn't pretending it didn't hurt. It's refusing to collect forever on a
 | extends | [[Forgiveness]] | Release the debt - same move without religious vocabulary |
 | extends | [[Set Calm Boundaries]] | Release the grudge; keep boundaries where trust still rebuilds |
 | extends | [[Sunk Cost Fallacy]] | Stop counting past hurt as reason to stay angry |
+
 ## See also
 
-- [[Workplace Principles]] - Ethics, Eternal Principles, Workplace
-- [[Reconcile Before the Review]] - Ethics, Eternal Principles, Workplace
-- [[Break the Escalation Cycle]] - Ethics, Eternal Principles, Workplace
+- [[Break the Escalation Cycle]] - Conflict, Eternal Principles, Ethics
+- [[Integrity When No One's Watching]] - Eternal Principles, Ethics, Workplace
+- [[Outcomes Over Pitch Decks]] - Eternal Principles, Ethics, Workplace
+- [[Plain Commitments at Work]] - Eternal Principles, Ethics, Workplace
+- [[Reconcile Before the Review]] - Eternal Principles, Ethics, Workplace

@@ -22,7 +22,6 @@ Before you react, buy enough mental space to understand what's happening, weigh 
 - Before the free throw with the game on the line, the shooter took one breath - slow the moment bought the routine instead of the panic heave.
 - My kid melted in the grocery aisle - slow the moment was one breath, quieter voice, question before consequence; the aisle got shorter, not louder.
 - ER triage nurses ask three questions before anyone sprints - speed without sorting kills.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -38,8 +37,9 @@ Before you react, buy enough mental space to understand what's happening, weigh 
 | implements | [[Listen Before Fixing]] | One beat before the fix lands |
 | implements | [[Name the Feeling]] | Pause before the label or the lecture |
 | implements | [[Set Calm Boundaries]] | Steady voice needs a beat first |
+
 ## See also
 
-- [[Break the Escalation Cycle]] - Conflict, Ethics, Workplace
-- [[Control the Rhythm]] - Leadership, Performance
-- [[Don't Worry]] - Eternal Principles, Gospel, Sermon on the Mount
+- [[Composure]] - Performance, Self-Control
+- [[Discipline]] - Performance, Self-Control
+- [[Behavioral Economics]] - Decision Making

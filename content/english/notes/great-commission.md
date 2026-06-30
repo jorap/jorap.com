@@ -37,8 +37,6 @@ Mission flows from resurrection authority, not human recruitment zeal. Teaching 
 - A neighbor asked what we do on Sunday mornings and I almost changed the subject - Jesus said go, baptize, teach, and He's with you while you do it.
 - I've coached kids for years and stay quiet when a parent asks what our team believes - Jesus didn't say hoard truth like a bookmark; He said go, baptize, teach, and He's with you.
 - I've read the gospel for years and stay quiet when a coworker asks what we do on Sunday mornings - the commission is share truth, not hoard it in private study.
-- Notes garden full, gospel never leaves my mouth. What's the hoarding move - Share truth - don't hoard like bookmarks.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -46,8 +44,10 @@ Mission flows from resurrection authority, not human recruitment zeal. Teaching 
 | contradicts | [[The Collector's Fallacy]] | when I hoard truth without sharing it |
 | extends | [[Discipleship]] | Make disciples - umbrella this note carries out |
 | extends | [[Repent and Believe]] | Mission flows from believing the gospel - you teach obedience after faith, not to buy salvation |
+
 ## See also
 
-- [[The Wise Builder]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Creative Output]] - Express, PKM, Publishing
+- [[Christianity and Politics]] - Discipleship, Eternal Principles, Gospel
+- [[Faithful Steward]] - Discipleship, Eternal Principles, Gospel
 - [[Take Up Your Cross]] - Discipleship, Eternal Principles, Gospel
+- [[The Narrow Way]] - Discipleship, Eternal Principles, Gospel

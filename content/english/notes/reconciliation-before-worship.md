@@ -37,19 +37,20 @@ Jesus elevates restored relationship over religious performance. Worship with an
 - I walked into the volunteer shift ready to serve while my co-worker still had something against me - five minutes in the parking lot first.
 - I walked into church ready to sing while my brother still had something against me - leave the gift, go fix it, then come back.
 - I arrived at the family reunion ready to mingle while my sister was still cold from last month - one honest conversation before the group photo.
-- Sunday worship while avoiding someone I wronged. What breaks - Empty worship - go fix it first.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Love God]] | when I prioritize ceremony over the neighbor I've wronged |
 | extends | [[Free Grace]] | Fellowship gets repaired before worship; grace already settled your standing with God |
-| extends | [[Standing vs Fellowship]] | Horizontal repair restores closeness, not re-earning salvation |
 | extends | [[Listen Before Fixing]] | Repair starts by hearing what still hurts |
+| extends | [[Standing vs Fellowship]] | Horizontal repair restores closeness, not re-earning salvation |
 | implements | [[Follow Their Lead]] | Leave the altar - go on their thread first |
+
 ## See also
 
-- [[Note Relationships]] - Linking, Note Taking, PKM
-- [[Forgiveness]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[The Golden Rule]] - Eternal Principles, Gospel, Sermon on the Mount
+- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
+- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
+- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Rewards]] - Eternal Principles, Gospel, Jesus Christ

@@ -37,8 +37,6 @@ Under [[Free Grace]], discipleship is [[Grateful Obedience]] - grateful response
 - I had grace clear in my head and zero change in how I treated people at the front desk - following Jesus is messy daily obedience, not a badge from one training day.
 - I taught my kid the memory verse and still snapped over spilled milk - discipleship isn't a badge from one altar call, it's doing what Jesus said today.
 - My notes garden is full but the gospel rarely leaves my mouth - hearing without doing is hoarding truth like bookmarks instead of making disciples.
-- Grace saved me but life looks unchanged - obedience treated like optional extra. What's discipleship - Follow daily - grateful walk, not optional.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -46,16 +44,13 @@ Under [[Free Grace]], discipleship is [[Grateful Obedience]] - grateful response
 | alternative | [[The Collector's Fallacy]] | when I hoard teaching without obeying or sharing |
 | contradicts | [[There Is No Perfect Solution]] | when I delay following until I've fixed myself |
 | extends | [[Free Grace]] | Following is the grateful walk after faith saves - obedience doesn't buy eternal life |
-| extends | [[Repent and Believe]] | Turn and trust is where discipleship starts |
-| extends | [[Sanctification]] | Daily following is how holiness grows after justification |
 | extends | [[Grateful Obedience]] | Following is the grateful walk - obey from thanks, not wages |
 | extends | [[Loss of Reward]] | Lazy obedience may shrink reward - faith still saves |
+| extends | [[Repent and Believe]] | Turn and trust is where discipleship starts |
+| extends | [[Sanctification]] | Daily following is how holiness grows after justification |
+
 ## See also
 
-- [[Loss of Reward]] - Eternal Principles, Gospel, Reward
-- [[Sanctification]] - Eternal Principles, Gospel, Discipleship
-- [[Take Up Your Cross]] - Discipleship, Eternal Principles, Gospel
-- [[The Narrow Way]] - Discipleship, Eternal Principles, Gospel
-- [[The Wise Builder]] - Discipleship, Eternal Principles, Gospel
-- [[Great Commission]] - Discipleship, Eternal Principles, Gospel
-- [[Abide in Me]] - Eternal Principles, Faith, Gospel
+- [[Childlike Faith]] - Eternal Principles, Free Grace, Gospel
+- [[Christianity and Politics]] - Discipleship, Eternal Principles, Gospel
+- [[Faithful Steward]] - Discipleship, Eternal Principles, Gospel

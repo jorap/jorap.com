@@ -134,8 +134,3 @@ Same ideas show up in my PKM notes. I wired the pairs below so the faith cluster
 |--------------|----------|--------|
 | contradicts | [[First Principles Thinking]] | when I treat gospel ethics as ideas I invented |
 | extends | [[Free Grace]] | Jesus' commands are how you live after grace, not the price tag for heaven |
-## See also
-
-- [[Free Grace]] - Eternal Principles, Faith, Gospel
-- [[Maps of Content]] - Linking, MOC, PKM
-- [[Mental Models]] - Decision Making, Mental Models, PKM

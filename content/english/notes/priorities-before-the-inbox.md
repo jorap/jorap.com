@@ -22,7 +22,6 @@ The inbox is other people's priorities wearing a siren. One block on the actual 
 - The report was due at noon - I wrote the first page before opening Slack.
 - Tuesday before school, phone buzzing and lunches on the counter - sandwiches packed first, then I answer messages from a morning that already moved.
 - Oil change before the road trip - I booked the slot before scrolling neighborhood drama.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -30,8 +29,10 @@ The inbox is other people's priorities wearing a siren. One block on the actual 
 | contradicts | [[Signal vs Noise]] | when I treat every ping as top priority |
 | extends | [[Seek the Kingdom First]] | God's reign first - here, the real deliverable before the noise |
 | extends | [[Signal vs Noise]] | Filter what gets the week - same move with calendar instead of capture |
+
 ## See also
 
-- [[Workplace Principles]] - Productivity, Eternal Principles, Workplace
-- [[Slow Productivity]] - Focus, Note Taking, PKM
-- [[Don't Worry]] - Eternal Principles, Gospel, Sermon on the Mount
+- [[Attention Economy]] - Productivity
+- [[Inbox Zero]] - Productivity
+- [[Information Diet]] - Productivity
+- [[Lean Startup]] - Productivity

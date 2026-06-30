@@ -10,7 +10,7 @@ tags: ["Safety", "Leadership", "Risk Management", "Learning", "Systems Thinking"
 slug: "heed-every-near-miss"
 featured: false
 draft: false
-aliases: ["near miss investigation", "survival is not safety"]
+aliases: ["near miss investigation", "survival is not safety", "heed every near miss"]
 ---
 **Heed every near-miss** = treat a close call as evidence the system nearly produced serious harm - not as proof the activity was safe because nobody died this time.
 
@@ -22,7 +22,6 @@ When nobody gets injured, organizations often relax. The opposite read is usuall
 - A kid almost choked on the same team-building snack twice - heed the near-miss; luck isn't a control layer.
 - The toddler almost fell off the same chair twice - survival doesn't prove the setup is safe; fix the hazard before the third time.
 - A previous rescue during the same exercise is a warning to stop - not proof that the rescue team can keep handling it.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -35,8 +34,10 @@ When nobody gets injured, organizations often relax. The opposite read is usuall
 | extends | [[Incident Investigation]] | Every close call deserves a root-cause pass, not a shrug |
 | extends | [[Learning Organizations]] | Organizations that learn treat near misses as data, not luck to forget |
 | implements | [[Active Knowledge Curation]] | [[Capture]] the close call, redesign the activity, don't let the lesson rot in memory |
+
 ## See also
 
-- [[Life Before Achievement]] - Ethics, Leadership, Safety
-- [[Develop, Don't Endanger]] - Coaching, Leadership, Safety
-- [[Anti-Fragile Systems]] - Future Proofing, PKM, Productivity
+- [[Hierarchy of Controls]] - Safety, Systems Thinking
+- [[Risk Management]] - Safety, Systems Thinking
+- [[Safety by Design]] - Safety, Systems Thinking
+- [[Coaching Ethics]] - Leadership, Safety

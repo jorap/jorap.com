@@ -20,7 +20,6 @@ Saving links isn't curation. I revisit monthly, prune what I wouldn't save again
 - Our trainer reviews the drill library every month and cuts what nobody runs anymore - same job as pruning notes that wouldn't make today's practice plan.
 - The head cook walks the walk-in every Monday and throws out whatever won't make this week's menu - twelve items gone, three worth keeping finally get a spot on the board.
 - The little free library on our block gets weeded every few months - stale paperbacks out, room for what neighbors actually swap.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -30,8 +29,11 @@ Saving links isn't curation. I revisit monthly, prune what I wouldn't save again
 | extends | [[Building a Second Brain]] | Offloaded notes only work when you revisit and prune, not just save links |
 | extends | [[Gardening Metaphor]] | Prune and tend - same curator job |
 | implements | [[Periodic Knowledge Review]] | Monthly prune carries the review habit this note names |
+
 ## See also
 
-- [[Associative Linking]] - Note Taking, PKM, Second Brain
-- [[GTD vs PARA]] - Note Taking, PKM, Productivity
-- [[Maps of Content]] - Curation, Note Taking, PKM
+- [[Commonplace Book]] - Note Taking, PKM
+- [[Inbox Zero]] - PKM, Productivity
+- [[Information Diet]] - PKM, Productivity
+- [[Capture]] - Note Taking, PKM, Productivity
+- [[Getting Things Done]] - PKM, Productivity

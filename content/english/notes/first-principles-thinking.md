@@ -20,7 +20,6 @@ When a note is just a quote from someone smarter, I add a section: what do I act
 - My kid's coach kept quoting a YouTube drill until I asked what problem we're actually solving - turns out we needed passing, not fancy footwork.
 - I kept quoting parenting advice from a podcast until I wrote what I actually believe about bedtime - first principles was my own claim, not someone else's quote.
 - The HOA kept adding signs about parking until a neighbor asked why people park wrong - turns out we needed one marked loading zone, not five new rules.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -30,8 +29,10 @@ When a note is just a quote from someone smarter, I add a section: what do I act
 | extends | [[Eliminate Before Managing]] | Strip-to-basics asks whether a dangerous step is necessary before you manage it |
 | extends | [[Elon Musk]] | Famous modern example of strip-to-basics reasoning |
 | extends | [[Synthesis as a Goal]] | Synthesis means rebuilding a note from what you actually believe, not someone else's quote |
+
 ## See also
 
-- [[Eternal Principles]] - Eternal Principles, Faith, Gospel
-- [[Synthesis as a Goal]] - Note Taking, PKM, Synthesis
-- [[Active Knowledge Curation]] - Note Taking, PKM
+- [[Commonplace Book]] - Note Taking, PKM
+- [[Literature Notes]] - Note Taking, PKM
+- [[Second-Order Thinking]] - Mental Models, Thinking
+- [[Behavioral Economics]] - Mental Models

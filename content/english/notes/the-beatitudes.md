@@ -25,7 +25,7 @@ cards:
   - front: "Persecuted for doing right - tempted to quit looking faithful. What's the promise?"
     back: "Kingdom of heaven - blessed are persecuted."
 draft: false
-aliases: ["blessed are"]
+aliases: ["blessed are", "Beatitudes"]
 ---
 **The Beatitudes** = eight blessings Jesus opened the Sermon on the Mount with - poor in spirit, mourners, meek, hungry for righteousness, merciful, pure in heart, peacemakers, persecuted (Matthew 5:3-12).
 
@@ -48,16 +48,16 @@ aliases: ["blessed are"]
 - After a winning streak I caught myself feeling spiritually self-sufficient - Beatitudes start with poor in spirit, not the athlete who just had a perfect weekend.
 - I had a great weekend with the kids and felt spiritually full - Beatitudes flip the scoreboard toward the needy, not the dad who just had a perfect Saturday.
 - Promotion week had me feeling self-made - mourning and meekness aren't weakness; they're the posture Jesus blessed instead of the scoreboard I was reading.
-- Thumb itching to clap back and prove I'm strong. Which beatitude fork - Meek - don't grasp status.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Humility and Service]] | when pride masquerades as strength |
 | extends | [[Free Grace]] | The kingdom belongs to the spiritually needy who receive it as gift, not wage |
+
 ## See also
 
-- [[Peacemakers]] - Beatitudes, Eternal Principles, Gospel
-- [[Humility and Service]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Love God]] - Commandments, Eternal Principles, Gospel
+- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
+- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
+- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ

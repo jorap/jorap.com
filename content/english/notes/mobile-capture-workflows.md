@@ -20,7 +20,6 @@ Most sparks die on mobile because capture takes twelve taps. I reduced mine to s
 - Grocery line, kid asks for something, thought gone unless I scribble on the receipt back - two seconds, one place.
 - Jeepney stop, blog idea hits - one tap to notes before the next ride shakes it out of my head.
 - School pickup, kid mentions a permission slip - share sheet to inbox before the next text buries it.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -30,7 +29,10 @@ Most sparks die on mobile because capture takes twelve taps. I reduced mine to s
 | extends | [[Capture]] | Capture dies on mobile when it takes twelve taps - shrink it to share sheet → inbox |
 | extends | [[Share Sheet]] | OS capture surface most phone workflows use |
 | implements | [[Capture]] | Share-sheet capture carries the inbox habit on the phone |
+
 ## See also
 
-- [[Context-Aware Capture]] - Capture, Note Taking, PKM
-- [[Daily Notes]] - Note Taking, PKM, Productivity
+- [[Commonplace Book]] - Note Taking, PKM
+- [[Inbox Zero]] - PKM, Productivity
+- [[Information Diet]] - PKM, Productivity
+- [[Read Later Queue]] - Capture, PKM

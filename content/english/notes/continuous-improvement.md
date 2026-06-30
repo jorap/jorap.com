@@ -20,7 +20,6 @@ aliases: ["kaizen"]
 - A line cook pulls a bad prep tray and fixes the station before service - small fixes daily, not one yearly overhaul.
 - The barista changed one milk-steaming step after every burned latte - kaizen in the steam wand, not a grand retraining day that never happens.
 - Our family morning checklist grew one line per forgotten backpack - six months later school mornings were boring in a good way.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -33,7 +32,9 @@ aliases: ["kaizen"]
 | extends | [[Process Over Outcomes]] | Trust the improving loop, not one perfect sprint |
 | implements | [[Systems for Growth]] | Review-and-fix rhythm the growth hub indexes |
 | implements | [[Weekly Review Checklists]] | Sunday pass is a continuous improvement ritual |
+
 ## See also
 
-- [[Convert Pain Into Learning]] - Learning, Performance
-- [[Compounding]] - Habits, Mental Models
+- [[Build a Reliable Default]] - Habits, Performance, Systems Thinking
+- [[Habit Stacking]] - Habits, Performance, Systems Thinking
+- [[Systems Thinking]] - Habits, Performance, Systems Thinking

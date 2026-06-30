@@ -37,16 +37,17 @@ Jesus rejected the limit of "eye for eye" as a personal ethic for disciples. The
 - Trash talk after the whistle and I wanted the last word - turn the other cheek is refusing to become the player who has to win every exchange.
 - A customer snapped over a wait time and I felt the perfect comeback forming - non-retaliation is absorbing without escalating the cycle.
 - Someone snapped at me in the school pickup line and I spent the drive home drafting the comeback - turning the cheek isn't pretending it didn't hurt; it's not mirroring evil.
-- Insult landed - thumb drafting equal hurt back. What's the cycle-break - Don't retaliate - absorb without escalating.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[The Golden Rule]] | when I wait to hit back before acting well |
 | extends | [[Love Your Enemies]] | Break the retaliation cycle - refuse to become what hurt you, further than enemy-love alone |
+
 ## See also
 
-- [[Sunk Cost Fallacy]] - Decision Making, Mental Models, PKM
-- [[Forgiveness]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Love Your Neighbor]] - Commandments, Eternal Principles, Gospel
+- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
+- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
+- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Rewards]] - Eternal Principles, Gospel, Jesus Christ

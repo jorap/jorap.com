@@ -10,7 +10,7 @@ tags: ["Safety", "Leadership", "Coaching", "Ethics", "Performance"]
 slug: "develop-dont-endanger"
 featured: false
 draft: false
-aliases: ["challenge without endangering"]
+aliases: ["challenge without endangering", "develop dont endanger"]
 ---
 **Develop, don't endanger** = push people hard enough to grow - not so hard that suffering replaces the actual skill you're trying to build.
 
@@ -21,8 +21,7 @@ Hard alone doesn't make an exercise worth running. A demanding drill needs a cle
 - The clinic can drill fire evacuation with a walk-through - not by blocking the only exit and hoping everyone stays calm.
 - A conditioning set can build endurance - an uncontrolled water exercise adds lethal risk without improving sport-specific performance; pick the drill that develops the skill.
 - Swim lessons in the shallow end beat throwing a non-swimmer into deep water to "build toughness" - challenge without endangering.
-- Replace an open-water endurance drill with a controlled pool set or land-based conditioning - same training goal, none of the drowning exposure.
-
+- The scout hike can build endurance on marked trails with water stops - not by sending kids off-trail in heat without a map.
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -38,8 +37,8 @@ Hard alone doesn't make an exercise worth running. A demanding drill needs a cle
 | extends | [[Safety Comes First]] | Following their lead stops when the drill endangers them |
 | extends | [[Servant Leadership]] | The leader who serves protects growth - doesn't sacrifice people to prove a culture |
 | extends | [[Sustainable Performance]] | Long-term pace beats short-term brutality as proof of culture |
+
 ## See also
 
-- [[Life Before Achievement]] - Ethics, Leadership, Safety
-- [[Minimum Effective Dose]] - Habits, Mental Models, Productivity
-- [[Workplace Principles]] - Ethics, Leadership, Workplace
+- [[Ethical Leadership]] - Ethics, Leadership
+- [[Normalization of Deviance]] - Leadership, Safety

@@ -20,7 +20,6 @@ Mind maps are for the messy first pass - branches, bubbles, relationships. I exp
 - I sketch a messy bubble map before our road trip, then each branch becomes its own packing list on the fridge.
 - I mapped errand stops around the mall on paper first - each branch became its own sticky on the dash.
 - The contractor sketched rooms on a napkin first - each bubble became a line item before the formal quote.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -30,8 +29,11 @@ Mind maps are for the messy first pass - branches, bubbles, relationships. I exp
 | extends | [[Creative Output]] | Mind maps are the messy first pass before creative output becomes atomic notes |
 | extends | [[Tony Buzan]] | Named mind-map method this note contrasts with atoms |
 | implements | [[Creative Output]] | Visual brainstorm carries express before atoms split |
+
 ## See also
 
-- [[Active Knowledge Curation]] - Note Taking, PKM
-- [[Digital Garden]] - Note Taking, PKM
-- [[Daily Notes]] - Note Taking, PKM, Planning
+- [[Commonplace Book]] - Note Taking, PKM
+- [[Literature Notes]] - Note Taking, PKM
+- [[CRDT]] - PKM
+- [[Inbox Zero]] - PKM
+- [[Information Diet]] - PKM

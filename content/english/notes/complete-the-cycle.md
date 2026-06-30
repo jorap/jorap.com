@@ -22,7 +22,6 @@ A meeting needs follow-up. A decision needs execution. A mistake needs correctio
 - Parent-teacher night ended with "we'll email the action plan" - the recap went out before anyone left the parking lot, names, dates, who owns what.
 - We said we'd call the dentist back and forgot until Monday - closing the loop was booking the slot before we cleared the table.
 - The HOA meeting ended with vague follow-up - the summary email with owners and deadlines went out that night, not "someone will handle it."
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -36,8 +35,8 @@ A meeting needs follow-up. A decision needs execution. A mistake needs correctio
 | extends | [[Pressure Reveals Weakness]] | Under load, people drop the follow-up first |
 | extends | [[The Trusted Inbox]] | [[Capture]] the next action or the loop stays open |
 | implements | [[Weekly Review Checklists]] | Sunday pass catches cycles left hanging |
+
 ## See also
 
-- [[Finish Strong]] - Discipline, Execution, Performance
-- [[Plain Commitments at Work]] - Ethics, Workplace
-- [[Capture]] - Note Taking, PKM, Productivity
+- [[Execution]] - Performance, Work
+- [[Leadership]] - Performance, Work

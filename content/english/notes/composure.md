@@ -20,7 +20,6 @@ aliases: []
 - I used the same move in a heated parent meeting - slower speech, one clarifying question, no matching their volume.
 - My kid was melting down at bedtime and I kept my voice flat - composure isn't pretending nothing happened, it's staying readable when the room isn't.
 - A referee stays calm when players yell - not because the foul didn't matter, but because the room takes cues from the steadiest person on the floor.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,7 +28,9 @@ aliases: []
 | extends | [[Control the Rhythm]] | Composure sets pace |
 | extends | [[Emotional Regulation]] | Composure is regulation others can see |
 | extends | [[Slow the Moment]] | Pause before the visible reaction |
+
 ## See also
 
-- [[Control the Rhythm]] - Leadership, Negotiation
-- [[Servant Leadership]] - Leadership, Workplace
+- [[Accountability]] - Leadership, Performance
+- [[Develop, Don't Endanger]] - Leadership, Performance
+- [[Discipline]] - Performance, Self-Control

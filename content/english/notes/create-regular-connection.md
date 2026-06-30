@@ -20,7 +20,6 @@ aliases: []
 - My parents and I call every Sunday after lunch - same window, even when there's nothing big to report. The habit carries the closeness.
 - Our pickup group texts "same court, same time Thursday" every week - nobody's organizing a tournament; we just show up. That's the whole bond.
 - Bedtime is three questions every night: best part, hard part, tomorrow's one hope. Short, repeatable, no fancy "quality time" speech.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -32,3 +31,10 @@ aliases: []
 | extends | [[Process Over Outcomes]] | The repeated moment matters more than one perfect date night |
 | implements | [[Continuous Improvement]] | Small connection reps compound; one grand dinner doesn't |
 | implements | [[Continuous Improvement]] | Small connection reps compound; one grand dinner doesn't |
+
+## See also
+
+- [[Notice the Good]] - Habits, Relationships
+- [[Build a Reliable Default]] - Habits
+- [[Compounding]] - Habits
+- [[Deliberate Practice]] - Habits

@@ -22,7 +22,6 @@ Layer one: bold the good sentences. Layer two: highlight the best bold. Layer th
 - I open the vendor contract a second time and bold three clauses, then highlight one before I sign.
 - I open the PTA newsletter for the second time and circle three dates, then star one - sticky on the fridge only when I'm blocking the calendar.
 - I reread the community meeting recap and bold three action items - summary at the top only when I'm actually doing something with it.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -32,7 +31,10 @@ Layer one: bold the good sentences. Layer two: highlight the best bold. Layer th
 | extends | [[Building a Second Brain]] | Bold-then-highlight distillation is CODE's distill step |
 | extends | [[Layered Reading]] | Bold/highlight layers before rewrite - same distill move |
 | implements | [[Building a Second Brain]] | Highlight layers carry CODE's distill step |
+
 ## See also
 
-- [[Evergreen Notes]] - Note Taking, PKM, Writing
+- [[Commonplace Book]] - Note Taking, PKM
+- [[Literature Notes]] - Note Taking, PKM, Research
 - [[Intellectual Sourcing]] - Note Taking, PKM, Research
+- [[CRDT]] - PKM

@@ -20,7 +20,6 @@ aliases: []
 - After the kitchen burn they traced pan placement and stove rules, not just "kid wasn't careful."
 - After the parking-lot fender bump they traced blind corners and signage, not only who to blame.
 - After the tray spill they traced prep timing, not just "server was clumsy."
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,3 +28,11 @@ aliases: []
 | extends | [[Heed Every Near-Miss]] | Named in notes that link here |
 | extends | [[Own the Error]] | Named in notes that link here |
 | extends | [[Own the Error]] | Named in notes that link here |
+
+## See also
+
+- [[Coaching Ethics]] - Safety
+- [[Convert Pain Into Learning]] - Continuous Improvement
+- [[Develop, Don't Endanger]] - Safety
+- [[Duty of Care]] - Safety
+- [[Eliminate Before Managing]] - Safety

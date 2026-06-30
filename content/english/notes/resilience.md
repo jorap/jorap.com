@@ -20,7 +20,6 @@ aliases: []
 - We lost the semifinal, had an honest huddle, rested a week, came back with a simpler game plan - not rage-quitting mid-season.
 - Our Saturday rush blew up - honest huddle, quiet week, smaller menu, not acting like Friday never happened.
 - A tree that bends in a storm keeps growing - we reset bedtime after a brutal week instead of pretending nobody was exhausted.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,7 +28,11 @@ aliases: []
 | extends | [[Anti-Fragile Systems]] | Systems that gain from stress - PKM parallel |
 | extends | [[Convert Pain Into Learning]] | Resilience uses failure as fuel |
 | extends | [[Stay Effective in New Conditions]] | Bounce in new terrain, not only old |
+
 ## See also
 
-- [[Stay Effective in New Conditions]] - Adaptability, Career
-- [[Don't Worry]] - Eternal Principles, Gospel
+- [[Failure as Feedback]] - Mindset, Performance
+- [[Growth Mindset]] - Mindset, Performance
+- [[Reliability]] - Character, Performance
+- [[Self-Control]] - Character, Performance
+- [[Accountability]] - Performance

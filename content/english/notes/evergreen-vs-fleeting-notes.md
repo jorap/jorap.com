@@ -1,5 +1,4 @@
 ---
-
 title: "Evergreen vs Fleeting Notes"
 meta_title: "Evergreen vs Fleeting Notes - Two Speeds"
 description: "Fleeting notes catch sparks; evergreen notes hold truth. Both lanes, clear promotion rules."
@@ -13,7 +12,6 @@ featured: false
 draft: false
 aliases: ["Evergreen vs Fleeting", "Fleeting Notes"]
 ---
-
 Fleeting notes catch sparks. Evergreen notes hold truth. I need both lanes and a clear promotion path.
 
 ## Examples
@@ -22,7 +20,6 @@ Fleeting notes catch sparks. Evergreen notes hold truth. I need both lanes and a
 - A hot take about today's game goes on the fridge whiteboard; a lesson I'd tell my kid next year gets copied into the recipe box.
 - The shift manager's scribble about today's rush stays on the clipboard; the safety rule we'd cite in training next year lives in the binder - fleeting catches sparks, evergreen holds truth.
 - My errand list is fleeting; the note about which neighbor takes packages when we travel is evergreen - same household, two lanes, clear promotion rules.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -30,8 +27,11 @@ Fleeting notes catch sparks. Evergreen notes hold truth. I need both lanes and a
 | alternative | [[Note Maturity]] | Two-lane model vs staged maturity when lifecycle needs a third step |
 | contradicts | [[Evergreen Notes]] | when both lanes beat forcing everything evergreen |
 | extends | [[Note Maturity]] | Stages a note passes through - future lifecycle note |
-| extends | [[The Knowledge Lifecycle]] | The lifecycle splits quick sparks from notes you keep refining forever |
+| extends | [[The Knowledge Lifecycle]] | The lifecycle splits quick sparks from notes you keep refining forever |. Pairs with [[Commonplace Book]].
+
 ## See also
 
-- [[Associative Linking]] - Note Taking, PKM, Linking
-- [[Atomic Notes]] - Note Taking, PKM, Second Brain
+- [[Maintenance Window]] - PKM, Review
+- [[Literature Notes]] - Note Taking, PKM
+- [[Daily Notes]] - Note Taking, PKM, Review
+- [[Digital Serendipity]] - Note Taking, PKM, Review

@@ -25,7 +25,7 @@ cards:
   - front: "Tempted to skip hard obedience because everyone's comfortable. Who moves first?"
     back: "I take narrow - don't follow the crowd."
 draft: false
-aliases: ["narrow gate", "broad road"]
+aliases: ["narrow gate", "broad road", "Narrow Way"]
 ---
 **The narrow way** = enter by the narrow gate - the road to life is hard and few find it; the broad road to destruction is easy and crowded (Matthew 7:13-14).
 
@@ -37,18 +37,17 @@ In [[Free Grace]] terms, the narrow gate is [[Free Grace]] in Christ - not the b
 - Everyone around me was taking the easy road on something I know Jesus said no to - the crowd made it feel normal; narrow is hard now, life at the end.
 - Everyone cheered the dirty play that won - the narrow way was passing it up when the ref didn't see, even alone on the bench.
 - The whole shop pads hours; the narrow way is logging honestly when nobody audits - crowded broad road, lonely honest one.
-- Comfortable path everyone else is on. Which gate am I choosing - Narrow - hard road, life at the end.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
+| alternative | [[Loss of Reward]] | False "Lord, Lord" never believed vs believer who loses reward but stays saved |
 | contradicts | [[The Golden Rule]] | when I take the comfortable path because everyone else does |
 | extends | [[Free Grace]] | The narrow gate is Christ by faith, not the broad road of works that buys nothing |
-| alternative | [[Loss of Reward]] | False "Lord, Lord" never believed vs believer who loses reward but stays saved |
+
 ## See also
 
-- [[Loss of Reward]] - Eternal Principles, Gospel, Reward
-- [[Seek the Kingdom First]] - Eternal Principles, Gospel, Priorities
-- [[Love Your Enemies]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Humility and Service]] - Eternal Principles, Gospel, Service
+- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
+- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
+- [[Christianity and Politics]] - Discipleship, Eternal Principles, Gospel
+- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ

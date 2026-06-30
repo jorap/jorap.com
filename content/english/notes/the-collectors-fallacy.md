@@ -35,8 +35,6 @@ Collecting articles feels like progress. It isn't. The collector's fallacy bit m
 - Bookmark hoard growing with no ship date - saving articles felt like learning until I tied each save to what I'd actually make.
 - My folder had forty highlight reels and we still ran the same broken play - saving felt like improving; it wasn't until one clip became Tuesday's drill.
 - Dozens of saved craft ideas on Pinterest and we still bought the birthday cake - collecting isn't the party until something leaves the screen.
-- Reading list grows but nothing ships. One question before every save - What will I make with this?
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -45,8 +43,10 @@ Collecting articles feels like progress. It isn't. The collector's fallacy bit m
 | contradicts | [[Capture]] | when skipping the save kills a spark I'll actually ship from |
 | extends | [[Creative Output]] | Saving articles feels like progress but isn't - tie saves to express deadlines or hoard forever |
 | extends | [[Read Later Queue]] | Where hoarding hides - pile without express |
+
 ## See also
 
-- [[Treasure in Heaven]] - Eternal Principles, Gospel, Priorities
-- [[Mobile Capture Workflows]] - Capture, Note Taking, PKM
-- [[Building a Second Brain]] - Capture, Note Taking, PKM
+- [[Commonplace Book]] - Note Taking, PKM
+- [[Inbox Zero]] - PKM, Productivity
+- [[Information Diet]] - PKM, Productivity
+- [[Layered Reading]] - Learning, PKM

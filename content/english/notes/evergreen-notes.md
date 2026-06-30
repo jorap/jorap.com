@@ -1,5 +1,4 @@
 ---
-
 title: "Evergreen Notes"
 meta_title: "Evergreen Notes - Ideas That Stay Fresh"
 description: "I write evergreen notes to stay useful - timeless phrasing, clear claims, updated when reality changes."
@@ -28,8 +27,7 @@ cards:
     back: "Distill - need one clear claim."
 draft: false
 ---
-
-I write evergreen notes to stay useful - timeless phrasing, clear claims, updated when reality changes.
+**Evergreen notes** = ideas phrased to stay useful - timeless wording, clear claims, updated when reality changes.
 
 I write in complete sentences I'd still stand behind in two years. Revise when tools change, not when trends spike. Promotion from fleeting: during [[Periodic Knowledge Review]], when a spark keeps returning. Faith parallel: [[The Beatitudes]] - character that matures over years, not a one-week mood.
 
@@ -39,8 +37,6 @@ I write in complete sentences I'd still stand behind in two years. Revise when t
 - I revise a garden note when reality changes how I think, not when Twitter spikes about a new PKM app I'll forget by autumn.
 - My free-throw note keeps the release point and follow-through - not last week's trending drill tip I'd regret next season.
 - The chore chart on the fridge says who empties dishes - timeless wording I'd still stand behind in two years, updated when our household actually changes.
-- Tool I rely on changed how I work - trending spike on Twitter. One check before I rewrite the note - Revise when still true - ignore hype.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -50,9 +46,10 @@ I write in complete sentences I'd still stand behind in two years. Revise when t
 | extends | [[Atomic Notes]] | Atomic notes become evergreens when one claim is phrased to last for years |
 | extends | [[Permanent Notes]] | Ahrens-style durable phrasing this note targets |
 | implements | [[Atomic Notes]] | Durable phrasing carries one-claim atoms into reuse |
+
 ## See also
 
-- [[Atomic Notes]] - Note Taking, PKM, Second Brain
+- [[Commonplace Book]] - Note Taking, PKM
+- [[Literature Notes]] - Note Taking, PKM
 - [[Evergreen vs Fleeting Notes]] - Evergreen Notes, Note Taking, PKM
-- [[Active Knowledge Curation]] - Note Taking, PKM, Second Brain
-- [[The Beatitudes]] - Beatitudes, Eternal Principles, Gospel
+- [[CRDT]] - PKM

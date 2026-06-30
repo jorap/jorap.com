@@ -37,8 +37,6 @@ The [[Ask Seek Knock]] builds forgiveness into daily rhythm. The parable of the 
 - I was forgiven much but choked a neighbor over a small slight - forgive the pocket-change debt the way the Father already cleared mine.
 - I prayed about forgiving others on autopilot and skipped that line because I'm still mad at my brother from last Sunday - you can't ask for mercy with one breath and hold a grudge with the next.
 - A coworker apologized again for the same mistake - forgive from the heart, keep boundaries where trust still needs rebuilding.
-- Wronged and refusing to forgive before I sleep. What breaks - Closeness with God - forgive from the heart.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -46,11 +44,12 @@ The [[Ask Seek Knock]] builds forgiveness into daily rhythm. The parable of the 
 | contradicts | [[Sunk Cost Fallacy]] | when I treat old hurt as debt I'm owed forever |
 | extends | [[Free Grace]] | You forgive because God already cleared a debt you couldn't pay |
 | extends | [[Loss of Reward]] | Sin breaks fellowship; confess and walk - standing on Christ stays |
-| extends | [[Standing vs Fellowship]] | Unforgiveness breaks closeness, not the verdict at faith |
 | extends | [[Set Calm Boundaries]] | Forgive the heart; keep boundaries where trust still rebuilds |
+| extends | [[Standing vs Fellowship]] | Unforgiveness breaks closeness, not the verdict at faith |
+
 ## See also
 
-- [[Loss of Reward]] - Eternal Principles, Gospel, Reward
-- [[Sunk Cost Fallacy]] - Decision Making, Mental Models, PKM
-- [[Reconciliation Before Worship]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[The Golden Rule]] - Eternal Principles, Gospel, Sermon on the Mount
+- [[Love Your Enemies]] - Eternal Principles, Forgiveness, Gospel
+- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
+- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
+- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ

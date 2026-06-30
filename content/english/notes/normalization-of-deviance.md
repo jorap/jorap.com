@@ -20,11 +20,16 @@ aliases: []
 - Third time someone skipped helmet strap in warmups and nobody called it - until the collision in practice.
 - Third time someone ran the red light in the parking lot and nobody wrote it up - until the fender bender.
 - Third time we let the ladder stay on the stairs and nobody moved it - until someone tripped carrying laundry.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Failure as Feedback]] | when the opposite frame fits better |
 | extends | [[Heed Every Near-Miss]] | Named in notes that link here |
-| extends | [[Heed Every Near-Miss]] | Named in notes that link here |
+| extends | [[Heed Every Near-Miss]] | Named in notes that link here |. Pairs with [[Coaching Ethics]].
+
+## See also
+
+- [[Develop, Don't Endanger]] - Leadership, Safety
+- [[Duty of Care]] - Leadership, Safety
+- [[Eliminate Before Managing]] - Leadership, Safety

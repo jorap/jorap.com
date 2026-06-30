@@ -20,7 +20,6 @@ aliases: []
 - January's vague "reduce waste" became twelve weeks with a kitchen whiteboard tally - week ten finally bit.
 - January's vague "get fit" became twelve weeks with a fridge scoreboard - week ten finally bit.
 - January's vague "save money" became twelve weeks with a jar on the counter - week ten finally bit.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,3 +28,10 @@ aliases: []
 | extends | [[Periodic Knowledge Review]] | Named in notes that link here |
 | extends | [[The 12 Week Year]] | Named in notes that link here |
 | extends | [[The 12 Week Year]] | Named in notes that link here |
+
+## See also
+
+- [[Active Knowledge Curation]] - Productivity
+- [[Analog Capture Tools]] - Productivity
+- [[Anti-Fragile Systems]] - Productivity
+- [[Attention Economy]] - Productivity

@@ -20,7 +20,6 @@ aliases: []
 - I could've scooped light on flour when the rush got loud - integrity is what you do matches what you claim, especially when it costs comfort.
 - A scale that reads honest when the customer isn't looking is integrity in hardware - same weight whether anyone was watching or not.
 - The market scale stays honest when the seller steps away to take a call - that's the whole business.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,7 +28,10 @@ aliases: []
 | extends | [[Integrity When No One's Watching]] | Workplace version of hidden honest work |
 | extends | [[Own the Error]] | Integrity names the miss instead of hiding |
 | extends | [[Secret Devotion]] | Gospel parallel - faithfulness without audience |
+
 ## See also
 
-- [[Integrity When No One's Watching]] - Ethics, Workplace
-- [[Own the Error]] - Accountability, Leadership
+- [[Reliability]] - Character, Work
+- [[Ethical Leadership]] - Ethics
+- [[Accountability]] - Work
+- [[Attention to Detail]] - Work

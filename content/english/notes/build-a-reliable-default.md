@@ -22,7 +22,6 @@ Make that fallback a simple, dependable response - rehearsed enough to run when 
 - Our family fire plan is one page on the fridge: two exits, where we meet, who grabs the baby. Last blackout, my kid ran it half-asleep and nobody guessed.
 - The point guard doesn't invent a new inbound play when the gym gets loud - she runs the one they drilled Tuesday. Same move until panic day isn't day one.
 - The building guard doesn't improvise evacuation when the alarm trips - he walks the posted route he practiced on quiet shifts. Rehearsed beats invented.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -32,10 +31,14 @@ Make that fallback a simple, dependable response - rehearsed enough to run when 
 | extends | [[Habit Formation]] | Defaults are habits drilled until they're automatic |
 | extends | [[Preparedness]] | Rehearse before the emergency owns the clock |
 | extends | [[Pressure Reveals Weakness]] | Stress reveals which default you actually have |
+| extends | [[Rollback Principle]] | Rehearsed rollback is the default when deploys go loud |
 | extends | [[Standard Operating Procedures]] | Written defaults the whole team can run |
 | extends | [[The Trusted Inbox]] | One inbox default beats five capture apps in a crisis |
+
 ## See also
 
-- [[Complete the Cycle]] - Execution, Performance, Work
-- [[Process Over Outcomes]] - Habits, Mindset, Systems Thinking
-- [[Pressure Reveals Weakness]] - Leadership, Performance
+- [[Continuous Improvement]] - Habits, Performance, Systems Thinking
+- [[Habit Stacking]] - Habits, Performance, Systems Thinking
+- [[Compounding]] - Habits, Performance, Systems Thinking
+- [[Systems Thinking]] - Habits, Performance, Systems Thinking
+- [[Systems for Growth]] - Habits, Performance, Systems Thinking

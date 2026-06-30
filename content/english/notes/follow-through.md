@@ -10,7 +10,7 @@ tags: ["Performance", "Work", "Accountability"]
 slug: "follow-through"
 featured: false
 draft: false
-aliases: []
+aliases: ["follow through"]
 ---
 **Follow-through** = the work after the handshake - recap, owners, dates, verification.
 
@@ -20,7 +20,6 @@ aliases: []
 - I told my kid I'd help with the project "soon" and watched it die in the backpack - follow-through was naming when and what I'd bring to the table.
 - The captain said "we'll fix the rotation" without naming who covers which shift - follow-through was the recap with owners and dates before anyone left the gym.
 - The plumber texting "en route" beats "soon" - follow-through is everything after you said yes, including the check-in that proves you meant it.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -29,7 +28,10 @@ aliases: []
 | extends | [[Complete the Cycle]] | Follow-through closes the loop |
 | extends | [[Plain Commitments at Work]] | Plain yes needs plain follow-through |
 | extends | [[Reliability]] | Trust is follow-through repeated |
+
 ## See also
 
-- [[Complete the Cycle]] - Execution, Performance
-- [[Accountability]] - Leadership, Work
+- [[Accountability]] - Performance, Work
+- [[Attention to Detail]] - Performance, Work
+- [[Execution]] - Performance, Work
+- [[Leadership]] - Performance, Work

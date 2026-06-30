@@ -20,7 +20,6 @@ aliases: []
 - I stopped answering work email at midnight - a pace I can repeat next month beats tonight's heroic reply.
 - Coffee gets you through one shift; sleep gets you through a season - sustainable performance isn't playing hurt three weeks straight to save tonight's win.
 - The kitchen ran Friday pace five nights straight and quality slid by Wednesday - sustainable performance would've cut a night off instead of mortgaging next week's tickets.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -30,7 +29,9 @@ aliases: []
 | extends | [[Energy Protects Judgment]] | Sustainability protects [[Decision Quality]] |
 | extends | [[Recovery]] | Recovery is part of the pace, not a reward |
 | extends | [[Slow Productivity]] | Fewer deep projects, finished work |
+
 ## See also
 
-- [[Energy Protects Judgment]] - Health, Performance
-- [[Develop, Don't Endanger]] - Coaching, Safety
+- [[Accountability]] - Leadership, Performance
+- [[Composure]] - Leadership, Performance
+- [[Control the Rhythm]] - Leadership, Performance

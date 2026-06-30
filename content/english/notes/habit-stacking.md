@@ -20,7 +20,6 @@ aliases: ["habit stack"]
 - After I clock in, I scan the handoff sheet - the clock-in is the anchor, the scan piggybacked; no new time slot, just a chain.
 - After I pour the first coffee, I open the pocket notebook - habit stacking attaches the new move to one that already runs on autopilot.
 - After I lock the front door, I check the mailbox - the lock is the anchor, the mail check piggybacked on a habit I never skip.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -30,7 +29,8 @@ aliases: ["habit stack"]
 | extends | [[Compounding]] | Small chained repeats stack |
 | extends | [[Habit Formation]] | Stacking is one way habits start without a new time slot |
 | implements | [[Systems for Growth]] | Growth hub indexes the install moves this tactic serves |
+
 ## See also
 
-- [[Habit Formation]] - Habits, Performance
-- [[Build a Reliable Default]] - Habits, Preparedness
+- [[Continuous Improvement]] - Habits, Performance, Systems Thinking
+- [[Systems Thinking]] - Habits, Performance, Systems Thinking

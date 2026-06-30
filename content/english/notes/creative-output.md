@@ -20,7 +20,6 @@ Notes are inventory. Output is the point - blog posts, sermons, code, dinner exp
 - I publish the sermon outline before it's polished because truth shared beats truth hoarded in the garden like bookmarks.
 - The art teacher makes everyone show one sketch, rough or not - notes are inventory, output is the point.
 - We don't wait for perfect dinner photos - we ship the meal and fix the recipe next time; hearing the idea isn't doing it.
-
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -30,10 +29,11 @@ Notes are inventory. Output is the point - blog posts, sermons, code, dinner exp
 | extends | [[Building a Second Brain]] | Offloaded notes exist to express ideas, not just store inventory |
 | extends | [[Ship It]] | Finish-and-publish pressure this note defends |
 | implements | [[Building a Second Brain]] | Express lane carries CODE's output step |
+
 ## See also
 
-- [[Selling Static Sites]] - Cloudflare Pages, Freelance, Hugo
-- [[The Wise Builder]] - Eternal Principles, Gospel, Sermon on the Mount
-- [[Great Commission]] - Eternal Principles, Gospel, Mission
-- [[Digital Garden]] - PKM, Publishing, Second Brain
-- [[Digital Minimalism]] - Focus, PKM, Writing
+- [[Creative Blocks]] - Express, PKM, Second Brain
+- [[Synthesis as a Goal]] - Express, PKM, Second Brain
+- [[CRDT]] - PKM
+- [[Commonplace Book]] - PKM
+- [[Deep Work]] - Focus
