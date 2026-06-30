@@ -78,6 +78,7 @@ Start at [[Free Grace]] if the order matters. Then wander by section below. Gosp
 
 ## Church and world
 
+- [[Christianity and Politics]] - dual allegiance without idolatry; civic duty, neighbor-love, Christ supreme
 - [[Render Unto Caesar]] - sort civic duty from ultimate allegiance; dual obligations clarified
 - [[Great Commission]] - make disciples; truth shared, not hoarded in the garden
 
@@ -125,6 +126,7 @@ Same ideas show up in my PKM notes. I wired the pairs below so the faith cluster
 | [[Grateful Obedience]] | [[Process Over Outcomes]] | Daily obedience from thanks beats one heroic sprint to feel saved |
 | [[Faithful Steward]] | [[Compounding]] | Faithful use of entrusted gifts stacks over years |
 | [[Wood Hay Stubble]] | [[Failure as Feedback]] | Burned work signals what to build - standing on Christ stays |
+| [[Christianity and Politics]] | [[Signal vs Noise]] | Not every headline deserves kingdom-level panic - filter the feed |
 
 ## Note Relationships
 

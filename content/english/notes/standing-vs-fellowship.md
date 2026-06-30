@@ -43,6 +43,7 @@ aliases: ["standing and fellowship", "position vs fellowship", "legal standing v
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | alternative | [[Compounding]] | when a bad week feels like it erased standing instead of breaking closeness |
+| contradicts | [[Faith and Works]] | when obedience is tried to re-earn standing instead of confess for fellowship |
 | extends | [[Forgiveness]] | Sin breaks fellowship and joy; confess and walk - standing on Christ stays |
 | extends | [[Free Grace]] | Eternal life secured at faith; fellowship is the daily walk, not the entry fee |
 | extends | [[Justification]] | Standing declared once at faith; fellowship fluctuates with confession and sin |

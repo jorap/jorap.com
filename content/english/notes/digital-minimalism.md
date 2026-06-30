@@ -12,7 +12,7 @@ featured: false
 draft: false
 aliases: []
 ---
-Fewer apps, fewer sync layers, fewer notifications. My PKM got better when I stopped collecting tools. Overlap with [[Treasure in Heaven]]: less earthly accumulation, clearer allegiance.
+Fewer apps, fewer sync layers, fewer notifications. My PKM got better when I stopped collecting tools. Overlap with [[Treasure in Heaven]]: less earthly accumulation, clearer allegiance. Political feeds are the same trap - [[Christianity and Politics]] and [[Signal vs Noise]] keep the scroll from replacing prayer.
 
 ## Examples
 

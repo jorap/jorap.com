@@ -13,6 +13,5 @@ compatibility_date = "2026-06-15"
 [vars]
 # Optional CMS — GitHub OAuth app Client ID (public):
 # GITHUB_CLIENT_ID = ""
-
-[secrets]
-# required = ["GITHUB_CLIENT_SECRET"]
+#
+# GITHUB_CLIENT_SECRET — dashboard secret only (no [secrets] block in Pages wrangler.toml).

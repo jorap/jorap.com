@@ -47,6 +47,7 @@ The coin bore Caesar's image; give it back to him. You bear God's image; give yo
 | extends | [[Seek the Kingdom First]] | Kingdom first doesn't excuse dodging civic duty - give Caesar his coin, God yourself |
 ## See also
 
+- [[Christianity and Politics]] - Eternal Principles, Gospel, Discipleship
 - [[Seek the Kingdom First]] - Eternal Principles, Gospel, Priorities
 - [[Love God]] - Commandments, Eternal Principles, Gospel
 - [[The Golden Rule]] - Eternal Principles, Gospel, Sermon on the Mount
