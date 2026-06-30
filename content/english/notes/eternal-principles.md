@@ -33,6 +33,11 @@ Start at [[Free Grace]] if the order matters. Then wander by section below. Gosp
 
 - [[Judgment Seat]] - believers evaluated for works; rewards repaid, not re-deciding eternal life
 - [[Loss of Reward]] - saved through fire with loss vs never saved; two categories, don't collapse
+- [[Standing vs Fellowship]] - standing settled at faith; fellowship restored by confession
+- [[Assurance]] - rest on Christ's promise, not this week's report card
+- [[Grateful Obedience]] - obey because grace already saved, not to buy the ticket
+- [[Faithful Steward]] - faithfulness with what God entrusted; well done at review
+- [[Wood Hay Stubble]] - works that last vs works that burn; saved through fire
 
 ## The two great commandments
 
@@ -115,6 +120,11 @@ Same ideas show up in my PKM notes. I wired the pairs below so the faith cluster
 | [[Judgment Seat]] | [[Periodic Knowledge Review]] | Whole life reviewed for reward - not one heroic week as the whole report |
 | [[Faith and Works]] | [[The Wise Builder]] | Real faith hears Jesus and builds by doing |
 | [[Loss of Reward]] | [[Failure as Feedback]] | Burned work is feedback on what to build - not proof you were never saved |
+| [[Standing vs Fellowship]] | [[Note Relationships]] | Standing vs fellowship is typed repair - don't collapse broken closeness with revoked verdict |
+| [[Assurance]] | [[Minimum Effective Dose]] | Faith is sufficient; assurance rests on Christ's promise, not a merit stack |
+| [[Grateful Obedience]] | [[Process Over Outcomes]] | Daily obedience from thanks beats one heroic sprint to feel saved |
+| [[Faithful Steward]] | [[Compounding]] | Faithful use of entrusted gifts stacks over years |
+| [[Wood Hay Stubble]] | [[Failure as Feedback]] | Burned work signals what to build - standing on Christ stays |
 
 ## Note Relationships
 

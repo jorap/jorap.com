@@ -29,7 +29,7 @@ aliases: ["do not worry", "sufficient unto the day"]
 ---
 **Don't worry** = Jesus' command not to be anxious about food, clothing, or tomorrow - the Father feeds birds and clothes lilies; he'll care for you (Matthew 6:25-34).
 
-Worry can't add a single hour to life. The antidote isn't denial - it's priority: [[Seek the Kingdom First]], and let tomorrow carry its own trouble. Trust is active dependence on a Father who already gave eternal life by [[Free Grace]] - not anxiety about earning His care. Overlap with [[Slow Productivity]]: fewer frantic masters, deeper attention on what actually matters.
+Worry can't add a single hour to life. The antidote isn't denial - it's priority: [[Seek the Kingdom First]], and let tomorrow carry its own trouble. Trust is active dependence on a Father who already gave eternal life by [[Free Grace]] - [[Assurance]] rests on that promise, not anxiety about earning His care. Overlap with [[Slow Productivity]]: fewer frantic masters, deeper attention on what actually matters.
 
 ## Examples
 
@@ -45,6 +45,7 @@ Worry can't add a single hour to life. The antidote isn't denial - it's priority
 |--------------|----------|--------|
 | contradicts | [[The 12 Week Year]] | when sprint urgency replaces trust |
 | extends | [[Free Grace]] | You can stop panicking about tomorrow because grace already settled where you spend forever |
+| extends | [[Assurance]] | Rest on Christ's promise - not anxiety about earning His care |
 ## See also
 
 - [[Slow Productivity]] - Focus, Note Taking, PKM

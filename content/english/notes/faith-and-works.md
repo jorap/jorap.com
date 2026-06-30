@@ -29,7 +29,7 @@ aliases: ["faith without works is dead", "works prove faith"]
 ---
 **Faith and works** = faith alone saves through [[Free Grace]] - and real faith shows up in obedience; works prove faith alive, they don't pay for eternal life (Ephesians 2:8-10; James 2:17-26; Romans 4:5).
 
-Paul and James aren't two gospels fighting. Paul answers *how* I'm saved: trust Christ, not wages. James answers *what* living faith looks like: Abraham offered Isaac - faith already counted him righteous, then action proved it. [[Justification]] is the verdict at faith. [[Sanctification]] and [[Discipleship]] are the walk where works appear. [[The Wise Builder]] is the picture: hear Jesus and do - sand collapses when hearing never becomes action. [[The Narrow Way]] and [[Loss of Reward]] split false "Lord, Lord" (never believed) from a believer who stumbles, repents, and may lose reward but stays saved.
+Paul and James aren't two gospels fighting. Paul answers *how* I'm saved: trust Christ, not wages. James answers *what* living faith looks like: Abraham offered Isaac - faith already counted him righteous, then action proved it. [[Grateful Obedience]] names the motive: works prove faith alive because grace already saved, not to buy heaven. [[Justification]] is the verdict at faith. [[Sanctification]] and [[Discipleship]] are the walk where works appear. [[The Wise Builder]] is the picture: hear Jesus and do - sand collapses when hearing never becomes action. [[The Narrow Way]] and [[Loss of Reward]] split false "Lord, Lord" (never believed) from a believer who stumbles, repents, and may lose reward but stays saved.
 
 ## Examples
 
@@ -47,6 +47,7 @@ Paul and James aren't two gospels fighting. Paul answers *how* I'm saved: trust 
 | extends | [[Justification]] | Declared righteous at faith; works prove faith alive afterward |
 | extends | [[The Wise Builder]] | Real faith hears Jesus and builds on rock by doing |
 | extends | [[Loss of Reward]] | Stumbled believer stays saved; false profession never had faith |
+| extends | [[Grateful Obedience]] | Works prove faith alive - motive is thanks, not wages |
 ## See also
 
 - [[Loss of Reward]] - Eternal Principles, Gospel, Reward

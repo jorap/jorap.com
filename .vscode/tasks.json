@@ -24,8 +24,9 @@
       }
     },
     {
+      "label": "Watch",
       "type": "shell",
-      "command": "npm run watch",
+      "command": "pnpm run watch",
       "options": {
         "cwd": "${workspaceFolder}",
         "env": {

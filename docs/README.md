@@ -8,6 +8,7 @@ Long-form documentation for the JoRap Notes project lives here. The repo `README
 | [`DESIGN.md`](./DESIGN.md) | Visual / interaction design system, tokens, motion. |
 | [`DESIGN.json`](./DESIGN.json) | Machine-readable design tokens (palette, type, spacing). |
 | [`CMS_SETUP.md`](./CMS_SETUP.md) | One-time setup for the Static Site CMS admin (`/admin`). |
+| [`CLIENT_STATIC_SITE.md`](./CLIENT_STATIC_SITE.md) | Client site template: Hugo + GitHub + Cloudflare Pages checklist. |
 | [`TROUBLESHOOTING.md`](./TROUBLESHOOTING.md) | Build / dev-server gotchas and fixes. |
 | [`TODO.md`](./TODO.md) | Working backlog. |
 

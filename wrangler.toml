@@ -1,8 +1,12 @@
 # Cloudflare Pages — output dir for the V2 build system.
 # Dashboard build command: pnpm run deploy
 #   (CF runs pnpm install automatically; avoid npm run build — extra hop.)
-# Dashboard env (optional — deployBuild auto-installs pinned Hugo if PATH is wrong):
-#   HUGO_VERSION=0.163.3, GO_VERSION=1.24.2, NODE_VERSION=22.22.2
+#
+# BUILD env vars (NODE_VERSION, GO_VERSION) must be set in the Pages dashboard:
+#   Settings → Build → Variables — [vars] here are RUNTIME Function vars, not build vars.
+#   Hugo version is handled in-repo by scripts/ensureHugo.mjs (reads deploy-versions.json).
+# One-time build cache: Dashboard → Settings → Build → Build cache → Enable.
+#   Hugo writes to .cache via --cacheDir in deployBuild.mjs; CF restores it next build.
 #
 # CMS OAuth (Static Site CMS at /admin; engine: Sveltia):
 #   GITHUB_CLIENT_ID     — set below in [vars] (public; safe in git)

@@ -1,0 +1,25 @@
+---
+description: Cloudflare Pages deploy discipline — skip builds for non-site commits
+alwaysApply: true
+---
+
+# Deploy commits
+
+Cloudflare Pages free tier budgets ~500 builds/month per account. Every `git push` to the production branch triggers a build unless the commit is skipped.
+
+## Use `[skip ci]` when the commit does not change the live site
+
+Include `[skip ci]` or `[CI Skip]` in the commit message when changes touch only:
+
+- `.specstory/`
+- `docs/` (internal repo docs, not Hugo `content/`)
+- `.vscode/`, `.cursor/`, `.github/`, `.specify/`
+- `CHANGELOG.md`, root `README.md`, `.gitignore`, editor config
+
+Do **not** add `[skip ci]` when any deploy path changes: `content/`, `layouts/`, `assets/`, `static/`, `themes/`, `functions/`, `scripts/`, `hugo.toml`, `wrangler.toml`, `_redirects`, `package.json`, `pnpm-lock.yaml`.
+
+The repo's `.githooks/prepare-commit-msg` appends `[skip ci]` automatically for non-deploy-only commits after `scripts/setup-git-hooks.sh`.
+
+## Batch site changes
+
+Prefer one commit per publish batch, not one commit per file, to conserve builds.

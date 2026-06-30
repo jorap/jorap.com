@@ -16,7 +16,9 @@ aliases: ["github cloudflare stack", "free static hosting"]
 
 Full walkthrough: [How I Built JoRap Notes](/blog/how-i-built-jorap-notes/). Same pipeline for [[Selling Static Sites]] and my [[Digital Garden]] - markdown in, fast site out, no PHP patch Tuesday. **Hugo** turns markdown plus theme into plain HTML. **GitHub** is source of truth and backup (private client repos are fine on free GitHub). **Cloudflare Pages** builds on push, serves over CDN with HTTPS. Flow: edit → `git push` → live in about ninety seconds. No database, no admin panel - which is why [[Static Site Client Scope]] matters.
 
-**Pin env vars on every project:** `HUGO_VERSION` matching your laptop exactly; `NODE_VERSION` when the theme needs Tailwind or an asset pipeline. Enable **Git submodules** in Pages settings if the theme is a submodule. Version drift and missing submodules are the most boring deploy failures.
+**Pin env vars on every project:** set `NODE_VERSION` and `GO_VERSION` as **build-time** vars in the Pages dashboard (Settings → Build → Variables) - `wrangler.toml [vars]` are runtime-only and won't apply at build. Pin Hugo once in a versions file the build script reads. Enable **Build cache** in Pages (one-time) plus Hugo `--cacheDir .cache` in the build script. Enable **Git submodules** in Pages settings if the theme is a submodule. Version drift and missing submodules are the most boring deploy failures.
+
+**Save builds:** batch commits before push; `[skip ci]` for non-site files (`.specstory`, internal `docs/`). Run `scripts/setup-git-hooks.sh` to auto-append skip markers. Client template: `docs/CLIENT_STATIC_SITE.md`.
 
 **Free tier headroom** (re-read [Cloudflare limits](https://developers.cloudflare.com/pages/platform/limits/) before quoting): about 500 builds per month, 1 concurrent build, 20,000 files per deployment, unlimited static bandwidth, 20-minute build timeout. Normal brochure sites sit far below that. Risk shows up when one account hosts many clients who deploy often, or themes ship huge unoptimized image trees.
 

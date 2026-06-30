@@ -31,7 +31,7 @@ aliases: ["faith alone", "sola fide", "salvation by grace"]
 
 Grace is unmerited favor. Christ paid what I couldn't. I receive eternal life by believing His promise - not by climbing a moral ladder. Same shape as [[Minimum Effective Dose]] for salvation: faith is the smallest act that still works - not zero effort, not a lifetime of merit. Every [[Eternal Principles]] Jesus taught flows from that ground: principles for how believers live in grateful response, pursue fellowship with God, and store up [[Eternal Rewards]] - never as currency to buy heaven. [[Loss of Reward]] keeps the categories straight when a believer wastes years or worthless works burn: salvation stays on Christ, reward may shrink.
 
-Ephesians 2:10 keeps the order straight: saved by grace through faith first, then created in Christ Jesus for good works. [[Justification]] is free and finished at faith; [[Sanctification]], [[Discipleship]], and forgiveness toward others belong to the walk after. [[Faith and Works]] keeps the lanes straight: works prove faith alive, they don't buy heaven.
+Ephesians 2:10 keeps the order straight: saved by grace through faith first, then created in Christ Jesus for good works. [[Justification]] is free and finished at faith; [[Sanctification]], [[Discipleship]], and forgiveness toward others belong to the walk after. [[Grateful Obedience]] names the posture: obey from thanks, not to qualify. [[Assurance]] and [[Standing vs Fellowship]] keep doubt from collapsing standing with closeness. [[Faith and Works]] keeps the lanes straight: works prove faith alive, they don't buy heaven.
 
 ## Examples
 
@@ -49,6 +49,9 @@ Ephesians 2:10 keeps the order straight: saved by grace through faith first, the
 | extends | [[Minimum Effective Dose]] | Faith is the smallest act that still buys eternal life - no merit ladder on top |
 | extends | [[Justification]] | Grace is the gift; justification is God declaring you righteous when you receive it |
 | extends | [[Loss of Reward]] | Grace secures eternal life; losing reward never un-does the gift |
+| extends | [[Assurance]] | Rest on Christ's promise after faith - not this week's performance |
+| extends | [[Grateful Obedience]] | Obedience answers grace with thanks - not wages for heaven |
+| extends | [[Standing vs Fellowship]] | Standing settled at faith; fellowship is the daily walk |
 ## See also
 
 - [[Justification]] - Eternal Principles, Faith, Gospel

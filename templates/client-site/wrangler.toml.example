@@ -1,0 +1,18 @@
+# Cloudflare Pages — copy to wrangler.toml and customize.
+# Build: pnpm run deploy  (or: hugo --minify --cacheDir=$PWD/.cache)
+#
+# BUILD env vars (NODE_VERSION, GO_VERSION) go in the Pages dashboard
+#   (Settings → Build → Variables) — [vars] here are RUNTIME Function vars.
+# Hugo version: pin in scripts/deploy-versions.json (ensureHugo.mjs installs it).
+# One-time build cache: Dashboard → Settings → Build → Build cache → Enable.
+
+name = "client-site-project"
+pages_build_output_dir = "./public"
+compatibility_date = "2026-06-15"
+
+[vars]
+# Optional CMS — GitHub OAuth app Client ID (public):
+# GITHUB_CLIENT_ID = ""
+
+[secrets]
+# required = ["GITHUB_CLIENT_SECRET"]

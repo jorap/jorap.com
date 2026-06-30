@@ -29,7 +29,7 @@ aliases: ["declared righteous", "justified by faith"]
 ---
 **Justification** = God declares me righteous through faith in Christ alone - once, at faith, before my obedience catches up (Romans 3:24, 4:5, 5:1).
 
-[[Free Grace]] names the gift; justification names the legal move: guilty sinner, faith in Christ, declared not guilty - Christ's record credited to me. Same shape as [[Minimum Effective Dose]]: one sufficient act at the start, not a lifetime of merit stacked before God says yes. [[Sanctification]] is what comes after - becoming holy over time. [[Eternal Rewards]] is what the Father pays faithful living after. None of those three re-open the case justification closed.
+[[Free Grace]] names the gift; justification names the legal move: guilty sinner, faith in Christ, declared not guilty - Christ's record credited to me. Same shape as [[Minimum Effective Dose]]: one sufficient act at the start, not a lifetime of merit stacked before God says yes. [[Standing vs Fellowship]] keeps the verdict separate from daily closeness - confession restores fellowship, it doesn't re-buy heaven. [[Sanctification]] is what comes after - becoming holy over time. [[Eternal Rewards]] is what the Father pays faithful living after. None of those three re-open the case justification closed.
 
 ## Examples
 
@@ -46,6 +46,8 @@ aliases: ["declared righteous", "justified by faith"]
 | extends | [[Free Grace]] | Grace is the gift; justification is God declaring you righteous when you receive it |
 | extends | [[Minimum Effective Dose]] | Faith is the one sufficient act - not a merit ladder before God accepts you |
 | extends | [[Loss of Reward]] | Standing declared at faith doesn't get revoked when reward is lost |
+| extends | [[Assurance]] | Verdict rests on Christ - doubt doesn't reopen the case |
+| extends | [[Standing vs Fellowship]] | Standing declared once; fellowship fluctuates with sin and confession |
 ## See also
 
 - [[Free Grace]] - Eternal Principles, Faith, Gospel

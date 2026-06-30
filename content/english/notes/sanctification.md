@@ -29,7 +29,7 @@ aliases: ["becoming holy", "growth in holiness"]
 ---
 **Sanctification** = God makes me holy over time after [[Justification]] declares me righteous - gradual change of heart and habit, not the ticket that buys eternal life (1 Thessalonians 4:3; Philippians 1:6).
 
-[[Free Grace]] settles where I spend forever. Sanctification settles who I'm becoming on the way. [[Discipleship]] is the daily walk - hear Jesus, do what He said. [[Abide in Me]] names the engine: fruit from staying connected, not self-powered grit alone. [[Eternal Rewards]] repays faithful obedience; [[Loss of Reward]] warns that a wasted season may shrink reward but doesn't un-save you. Sanctification is the slow becoming that obedience shapes. PKM mirror: [[Process Over Outcomes]] - daily faithfulness beats one heroic week I treat like proof I'm saved.
+[[Free Grace]] settles where I spend forever. Sanctification settles who I'm becoming on the way. [[Grateful Obedience]] names the posture: grow from thanks, not to earn acceptance. [[Standing vs Fellowship]] keeps a fruitless week from feeling like revoked standing. [[Discipleship]] is the daily walk - hear Jesus, do what He said. [[Abide in Me]] names the engine: fruit from staying connected, not self-powered grit alone. [[Eternal Rewards]] repays faithful obedience; [[Loss of Reward]] warns that a wasted season may shrink reward but doesn't un-save you. Sanctification is the slow becoming that obedience shapes. PKM mirror: [[Process Over Outcomes]] - daily faithfulness beats one heroic week I treat like proof I'm saved.
 
 ## Examples
 
@@ -48,6 +48,8 @@ aliases: ["becoming holy", "growth in holiness"]
 | extends | [[Discipleship]] | Daily following is how sanctification shows up in real life |
 | extends | [[Justification]] | Declared righteous first; becoming holy second - don't swap the order |
 | extends | [[Loss of Reward]] | Keep growing after a bad season - holiness and reward are separate ledgers |
+| extends | [[Grateful Obedience]] | Holiness grows from received mercy, not earned acceptance |
+| extends | [[Standing vs Fellowship]] | Becoming holy without re-opening the verdict justification gave |
 ## See also
 
 - [[Loss of Reward]] - Eternal Principles, Gospel, Reward

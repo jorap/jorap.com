@@ -56,7 +56,16 @@ New notes: `hugo new content/english/notes/my-note.md`
 
 ## Deploy
 
-Production deploy is `pnpm run deploy`. Cloudflare Pages runs the same command (see [`wrangler.toml`](wrangler.toml)). Functional changes go in [`CHANGELOG.md`](CHANGELOG.md) via the `changelog-update` Cursor skill.
+Production deploy is `pnpm run deploy`. Cloudflare Pages runs the same command (see [`wrangler.toml`](wrangler.toml)). Hugo writes to `.cache` (via `--cacheDir` in `deployBuild.mjs`) so Cloudflare's build cache can reuse it. One-time Pages setup (dashboard):
+
+- **Settings → Build → Variables** — set `NODE_VERSION` and `GO_VERSION` (build-time vars; `wrangler.toml [vars]` are runtime-only). Hugo is pinned in [`scripts/deploy-versions.json`](scripts/deploy-versions.json).
+- **Settings → Build → Build cache → Enable.**
+
+```bash
+sh scripts/setup-git-hooks.sh # auto [skip ci] for .specstory / docs-only commits
+```
+
+Client site template: [`docs/CLIENT_STATIC_SITE.md`](docs/CLIENT_STATIC_SITE.md). Functional changes go in [`CHANGELOG.md`](CHANGELOG.md) via the `changelog-update` Cursor skill.
 
 ## Theme upstream
 

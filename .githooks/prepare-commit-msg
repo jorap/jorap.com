@@ -1,0 +1,34 @@
+#!/bin/sh
+# Append [skip ci] when the commit touches only non-deploy paths (saves Pages builds).
+# Install: scripts/setup-git-hooks.sh
+
+COMMIT_MSG_FILE=$1
+SOURCE=$2
+
+case "$SOURCE" in
+  merge|squash|commit) ;;
+  *) exit 0 ;;
+esac
+
+if grep -qiE '\[(skip ci|ci skip)\]' "$COMMIT_MSG_FILE"; then
+  exit 0
+fi
+
+STAGED=$(git diff --cached --name-only)
+[ -z "$STAGED" ] && exit 0
+
+needs_deploy=false
+while IFS= read -r f; do
+  case "$f" in
+    content/*|layouts/*|assets/*|static/*|themes/*|functions/*|config/*|data/*|archetypes/*|i18n/*|hugo.toml|package.json|pnpm-lock.yaml|wrangler.toml|_redirects|netlify.toml|scripts/*)
+      needs_deploy=true
+      break
+      ;;
+  esac
+done <<EOF
+$STAGED
+EOF
+
+if [ "$needs_deploy" = false ]; then
+  sed -i '1s/$/ [skip ci]/' "$COMMIT_MSG_FILE"
+fi

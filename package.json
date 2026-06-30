@@ -27,6 +27,7 @@
     "lint:cards": "python3 scripts/lint-flashcard-frontmatter.py",
     "lint:voice": "python3 scripts/notes-voice-sanitize.py --check",
     "lint:utility-links": "python3 scripts/lint-utility-wikilinks.py",
+    "setup:hooks": "sh scripts/setup-git-hooks.sh",
     "postinstall": "node scripts/fix-tailwind-bin.js"
   },
   "devDependencies": {

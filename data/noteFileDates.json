@@ -31,6 +31,10 @@
     "created": "2026-06-22T02:07:38.811Z",
     "updated": "2026-06-27T12:55:38.542Z"
   },
+  "notes/assurance.md": {
+    "created": "2026-06-30T02:08:52.391Z",
+    "updated": "2026-06-30T02:08:52.391Z"
+  },
   "notes/atomic-notes.md": {
     "created": "2026-06-22T02:07:38.811Z",
     "updated": "2026-06-27T12:55:38.542Z"
@@ -77,7 +81,7 @@
   },
   "notes/childlike-faith.md": {
     "created": "2026-06-22T02:07:38.812Z",
-    "updated": "2026-06-27T12:55:38.543Z"
+    "updated": "2026-06-30T02:09:39.643Z"
   },
   "notes/client-site-handoff.md": {
     "created": "2026-06-28T17:29:59.574Z",
@@ -161,7 +165,7 @@
   },
   "notes/digital-garden.md": {
     "created": "2026-06-22T02:07:38.812Z",
-    "updated": "2026-06-28T17:25:57.089Z"
+    "updated": "2026-06-29T00:49:11.202Z"
   },
   "notes/digital-minimalism.md": {
     "created": "2026-06-22T02:07:38.812Z",
@@ -173,7 +177,7 @@
   },
   "notes/discipleship.md": {
     "created": "2026-06-22T02:07:38.812Z",
-    "updated": "2026-06-28T17:18:54.135Z"
+    "updated": "2026-06-30T02:09:23.019Z"
   },
   "notes/discipline.md": {
     "created": "2026-06-22T06:33:45.744Z",
@@ -181,7 +185,7 @@
   },
   "notes/dont-worry.md": {
     "created": "2026-06-22T02:07:38.812Z",
-    "updated": "2026-06-27T12:55:38.545Z"
+    "updated": "2026-06-30T02:09:40.366Z"
   },
   "notes/drafting-in-public.md": {
     "created": "2026-06-22T02:07:38.812Z",
@@ -209,11 +213,11 @@
   },
   "notes/eternal-principles.md": {
     "created": "2026-06-22T02:07:38.812Z",
-    "updated": "2026-06-28T17:10:59.359Z"
+    "updated": "2026-06-30T02:09:00.151Z"
   },
   "notes/eternal-rewards.md": {
     "created": "2026-06-22T02:07:38.812Z",
-    "updated": "2026-06-28T17:11:01.990Z"
+    "updated": "2026-06-30T02:09:19.495Z"
   },
   "notes/ethical-leadership.md": {
     "created": "2026-06-22T09:33:11.828Z",
@@ -241,7 +245,11 @@
   },
   "notes/faith-and-works.md": {
     "created": "2026-06-28T17:10:51.876Z",
-    "updated": "2026-06-28T17:16:19.145Z"
+    "updated": "2026-06-30T02:09:36.528Z"
+  },
+  "notes/faithful-steward.md": {
+    "created": "2026-06-30T02:08:31.306Z",
+    "updated": "2026-06-30T02:08:31.306Z"
   },
   "notes/finish-strong.md": {
     "created": "2026-06-22T06:31:53.693Z",
@@ -253,7 +261,7 @@
   },
   "notes/flashcards.md": {
     "created": "2026-06-22T02:07:38.812Z",
-    "updated": "2026-06-28T00:07:50.034Z"
+    "updated": "2026-06-29T00:49:11.203Z"
   },
   "notes/follow-their-lead.md": {
     "created": "2026-06-22T16:09:27.704Z",
@@ -273,11 +281,11 @@
   },
   "notes/forgiveness.md": {
     "created": "2026-06-22T02:07:38.812Z",
-    "updated": "2026-06-28T17:16:30.340Z"
+    "updated": "2026-06-30T02:09:33.538Z"
   },
   "notes/free-grace.md": {
     "created": "2026-06-22T02:07:38.812Z",
-    "updated": "2026-06-28T17:16:10.798Z"
+    "updated": "2026-06-30T02:09:02.390Z"
   },
   "notes/free-tier-hosting-stack.md": {
     "created": "2026-06-28T17:22:35.186Z",
@@ -289,7 +297,7 @@
   },
   "notes/getting-started.md": {
     "created": "2026-06-22T02:07:38.812Z",
-    "updated": "2026-06-28T17:26:01.221Z"
+    "updated": "2026-06-29T00:49:11.203Z"
   },
   "notes/getting-things-done.md": {
     "created": "2026-06-22T09:33:11.827Z",
@@ -310,6 +318,10 @@
   "notes/graph.md": {
     "created": "2026-06-22T02:07:38.812Z",
     "updated": "2026-06-22T02:07:38.812Z"
+  },
+  "notes/grateful-obedience.md": {
+    "created": "2026-06-30T02:08:45.994Z",
+    "updated": "2026-06-30T02:08:45.994Z"
   },
   "notes/great-commission.md": {
     "created": "2026-06-22T02:07:38.813Z",
@@ -345,7 +357,7 @@
   },
   "notes/humility-and-service.md": {
     "created": "2026-06-22T02:07:38.813Z",
-    "updated": "2026-06-27T12:55:38.548Z"
+    "updated": "2026-06-30T02:09:45.350Z"
   },
   "notes/inbox-zero.md": {
     "created": "2026-06-22T09:33:11.830Z",
@@ -381,11 +393,11 @@
   },
   "notes/judgment-seat.md": {
     "created": "2026-06-28T17:10:47.269Z",
-    "updated": "2026-06-28T17:10:47.270Z"
+    "updated": "2026-06-30T02:09:15.554Z"
   },
   "notes/justification.md": {
     "created": "2026-06-28T17:10:37.754Z",
-    "updated": "2026-06-28T17:16:29.852Z"
+    "updated": "2026-06-30T02:09:06.739Z"
   },
   "notes/layered-reading.md": {
     "created": "2026-06-22T09:33:11.829Z",
@@ -429,7 +441,7 @@
   },
   "notes/loss-of-reward.md": {
     "created": "2026-06-28T17:10:55.784Z",
-    "updated": "2026-06-28T17:16:09.434Z"
+    "updated": "2026-06-30T02:09:11.908Z"
   },
   "notes/love-god.md": {
     "created": "2026-06-22T02:07:38.813Z",
@@ -577,7 +589,7 @@
   },
   "notes/reconciliation-before-worship.md": {
     "created": "2026-06-22T02:07:38.814Z",
-    "updated": "2026-06-27T12:55:38.553Z"
+    "updated": "2026-06-30T02:09:38.566Z"
   },
   "notes/recovery.md": {
     "created": "2026-06-22T06:35:09.335Z",
@@ -621,7 +633,7 @@
   },
   "notes/sanctification.md": {
     "created": "2026-06-28T17:10:42.292Z",
-    "updated": "2026-06-28T17:18:08.392Z"
+    "updated": "2026-06-30T02:09:31.867Z"
   },
   "notes/second-order-thinking.md": {
     "created": "2026-06-22T06:34:24.864Z",
@@ -690,6 +702,10 @@
   "notes/standard-operating-procedures.md": {
     "created": "2026-06-22T06:35:23.290Z",
     "updated": "2026-06-27T12:55:38.556Z"
+  },
+  "notes/standing-vs-fellowship.md": {
+    "created": "2026-06-30T02:08:23.008Z",
+    "updated": "2026-06-30T02:08:23.008Z"
   },
   "notes/static-site-client-scope.md": {
     "created": "2026-06-28T17:22:38.894Z",
@@ -785,7 +801,7 @@
   },
   "notes/treasure-in-heaven.md": {
     "created": "2026-06-22T02:07:38.815Z",
-    "updated": "2026-06-28T17:16:23.280Z"
+    "updated": "2026-06-30T02:09:43.624Z"
   },
   "notes/turn-the-other-cheek.md": {
     "created": "2026-06-22T02:07:38.815Z",
@@ -806,6 +822,10 @@
   "notes/weekly-review-checklists.md": {
     "created": "2026-06-22T02:07:38.815Z",
     "updated": "2026-06-27T12:55:38.560Z"
+  },
+  "notes/wood-hay-stubble.md": {
+    "created": "2026-06-30T02:08:38.461Z",
+    "updated": "2026-06-30T02:08:38.461Z"
   },
   "notes/workplace-principles.md": {
     "created": "2026-06-22T02:07:38.815Z",

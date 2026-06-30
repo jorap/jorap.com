@@ -29,7 +29,7 @@ aliases: ["loss of crown", "saved yet so as through fire", "reward vs salvation"
 ---
 **Loss of reward** = a believer can enter eternity saved but with worthless works burned up - reward shrunk or lost, eternal life still secure on Christ (1 Corinthians 3:12-15).
 
-Two categories, one sentence apart: [[Free Grace]] and [[Justification]] settle eternal life at faith. [[Eternal Rewards]] and the [[Judgment Seat]] settle what gets repaid for faithful living. Losing reward is not losing salvation. Paul says the builder "will be saved, yet so as through fire" - still in, with loss. [[Sanctification]] keeps growing after a wasted season; [[Forgiveness]] restores fellowship when sin breaks closeness - neither re-opens [[Justification]]. [[Faith and Works]] and [[The Narrow Way]] split false "Lord, Lord" (never believed) from a believer who stumbled and repents. PKM mirror: [[Failure as Feedback]] - a burned work is feedback on what to build differently, not proof you were never in the garden.
+Two categories, one sentence apart: [[Free Grace]] and [[Justification]] settle eternal life at faith. [[Eternal Rewards]] and the [[Judgment Seat]] settle what gets repaid for faithful living. Losing reward is not losing salvation. Paul says the builder "will be saved, yet so as through fire" - still in, with loss ([[Wood Hay Stubble]]). [[Standing vs Fellowship]] keeps shame from collapsing broken closeness with revoked standing. [[Sanctification]] keeps growing after a wasted season; [[Forgiveness]] restores fellowship when sin breaks closeness - neither re-opens [[Justification]]. [[Faith and Works]] and [[The Narrow Way]] split false "Lord, Lord" (never believed) from a believer who stumbled and repents. PKM mirror: [[Failure as Feedback]] - a burned work is feedback on what to build differently, not proof you were never in the garden.
 
 ## Examples
 
@@ -51,6 +51,9 @@ Two categories, one sentence apart: [[Free Grace]] and [[Justification]] settle 
 | extends | [[Judgment Seat]] | Where worthless works burn and faithful works get repaid |
 | extends | [[Justification]] | Standing declared at faith doesn't get revoked when reward is lost |
 | extends | [[Sanctification]] | Keep becoming holy after a wasted season - growth and reward are separate ledgers |
+| extends | [[Standing vs Fellowship]] | Shame after failure is fellowship or reward, not revoked salvation |
+| extends | [[Wood Hay Stubble]] | Worthless works burn; saved through fire with loss |
+| extends | [[Assurance]] | Can lose reward, not eternal life secured at faith |
 ## See also
 
 - [[Faith and Works]] - Eternal Principles, Faith, Gospel
