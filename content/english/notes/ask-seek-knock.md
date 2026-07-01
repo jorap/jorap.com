@@ -1,13 +1,28 @@
 ---
 title: "Ask Seek Knock"
 meta_title: "Ask Seek Knock - Persistent Prayer"
-description: "Jesus promised the Father gives good gifts to those who ask, seek, and knock - prayer as dependence, not manipulation."
-date: 2026-06-19T09:30:00Z
+description: "Keep coming to the Father in prayer - He gives good gifts to those who ask (Matthew 7:7-11; 6:5-13)."
+key_concept: |
+  Jesus compares God to a parent who gives bread, not a stone.
+  
+  The [[Ask Seek Knock]] (Matthew 6:9-13) models priority: God's name, kingdom, will - then daily needs and forgiveness. Prayer isn't bargaining for merit; under [[Free Grace]] it's the dependent posture of a child who already belongs to the household. Same rhythm as [[Periodic Knowledge Review]] - keep showing up on schedule, not only in crisis.
+examples:
+  - "I thumb-refresh the news about tomorrow's meeting instead of asking - prayer is dependence, not bargaining for merit I already have under grace."
+  - "The clinic chaplain rounds every floor on a schedule, not only when someone codes - ask, seek, knock is keep showing up, not one crisis visit."
+relationships:
+  - type: contradicts
+    wikilink: "[[Don't Worry]]"
+    reason: "when anxiety replaces asking"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Prayer is a dependent kid asking Dad, not bargaining for merit you already have"
+slug: "ask-seek-knock"
+date: "2026-06-19 09:30:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Prayer"]
-slug: "ask-seek-knock"
+aliases: ["persistent prayer", "the Lord's Prayer"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Prayer"]
@@ -25,31 +40,4 @@ cards:
   - front: "Know the words by heart but haven't opened Scripture in a week. Besides asking, what do I do?"
     back: "Seek in Scripture - open the Book."
 draft: false
-aliases: ["persistent prayer", "the Lord's Prayer"]
 ---
-Keep coming to the Father in prayer - He gives good gifts to those who ask (Matthew 7:7-11; 6:5-13).
-
-## Key Concept
-
-Jesus compares God to a parent who gives bread, not a stone.
-
-The [[Ask Seek Knock]] (Matthew 6:9-13) models priority: God's name, kingdom, will - then daily needs and forgiveness. Prayer isn't bargaining for merit; under [[Free Grace]] it's the dependent posture of a child who already belongs to the household. Same rhythm as [[Periodic Knowledge Review]] - keep showing up on schedule, not only in crisis.
-
-## Examples
-
-- I thumb-refresh the news about tomorrow's meeting instead of asking - prayer is dependence, not bargaining for merit I already have under grace.
-- The clinic chaplain rounds every floor on a schedule, not only when someone codes - ask, seek, knock is keep showing up, not one crisis visit.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Don't Worry]] | when anxiety replaces asking |
-| extends | [[Free Grace]] | Prayer is a dependent kid asking Dad, not bargaining for merit you already have |
-
-## See also
-
-- [[Secret Devotion]] - Eternal Principles, Gospel, Jesus Christ
-- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
-- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ
-- [[Eternal Rewards]] - Eternal Principles, Gospel, Jesus Christ

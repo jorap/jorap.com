@@ -1,13 +1,36 @@
 ---
 title: "Safety by Design"
 meta_title: "Safety by Design"
-description: "build the activity so harm is hard to cause - not only train people to be careful around danger."
-date: 2026-06-22T06:00:00Z
+description: "Build the activity so harm is hard to cause - not only train people to be careful around danger."
+key_concept: |
+  Rollback is undo-by-design when release goes loud.
+  
+  [[Rollback Principle]] names rollback is undo-by-design when release goes loud. [[Staged Rollout]] names fewer people hit before the hazard is proven safe.
+examples:
+  - "We moved the hot oil station off the walk lane before buying more warning signs."
+  - "The playground gate opens toward the fence, not the street - design beat another lecture."
+relationships:
+  - type: contradicts
+    wikilink: "[[Develop, Don't Endanger]]"
+    reason: "when the opposite frame fits better"
+  - type: extends
+    wikilink: "[[Eliminate Before Managing]]"
+    reason: "Named in notes that link here"
+  - type: extends
+    wikilink: "[[Hierarchy of Controls]]"
+    reason: "Named in notes that link here"
+  - type: extends
+    wikilink: "[[Rollback Principle]]"
+    reason: "Rollback is undo-by-design when release goes loud"
+  - type: extends
+    wikilink: "[[Staged Rollout]]"
+    reason: "Fewer people hit before the hazard is proven safe"
+slug: "safety-by-design"
+date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["Safety", "Systems Thinking"]
-slug: "safety-by-design"
 featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
@@ -21,34 +44,4 @@ cards:
   - front: "The crosswalk got a bump-out so cars slow before the turn"
     back: "Not just \"watch for pedestrians\" signs"
 draft: false
-aliases: []
 ---
-Build the activity so harm is hard to cause - not only train people to be careful around danger.
-
-## Key Concept
-
-Named in notes that link here ([[Eliminate Before Managing]]).
-
-Tension with [[Develop, Don't Endanger]] when the opposite frame fits better.
-
-## Examples
-
-- We put outlet covers in before the crawling phase - harm harder to cause, not "be careful" fifty times a day.
-- The crosswalk got a bump-out so cars slow before the turn - design change, not just "watch for pedestrians" signs.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Develop, Don't Endanger]] | when the opposite frame fits better |
-| extends | [[Eliminate Before Managing]] | Named in notes that link here |
-| extends | [[Hierarchy of Controls]] | Named in notes that link here |
-| extends | [[Rollback Principle]] | Rollback is undo-by-design when release goes loud |
-| extends | [[Staged Rollout]] | Fewer people hit before the hazard is proven safe |
-
-## See also
-
-- [[Heed Every Near-Miss]] - Safety, Systems Thinking
-- [[Risk Management]] - Safety, Systems Thinking
-- [[Rollback Principle]] - Safety, Systems Thinking
-- [[Build a Reliable Default]] - Systems Thinking

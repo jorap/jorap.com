@@ -10,7 +10,7 @@
 {{- $skipIds := slice "see-also" -}}
 {{- $html := "" -}}
 
-{{- $raw := $page.RawContent -}}
+{{- $raw := partial "notes/assembled-content.html" $page -}}
 {{- $raw = replaceRE `(?s)\n## See also[\s\S]*$` "" $raw -}}
 
 {{- $headings := slice -}}

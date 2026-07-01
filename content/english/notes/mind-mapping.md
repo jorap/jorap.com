@@ -1,13 +1,28 @@
 ---
 title: "Mind Mapping"
 meta_title: "Mind Mapping - Spatial Thinking Before Linear Notes"
-description: "Mind maps and sketches are the messy first pass - turn them into atomic notes after, not instead."
-date: 2026-06-18T06:00:00Z
+description: "Mind maps are for the messy first pass - branches, bubbles, relationships. I export to atomic notes after, not instead."
+key_concept: "Mind maps and sketches are the messy first pass - turn them into atomic notes after, not instead."
+examples:
+  - "I sketched a bubble map of our season goals on paper, then each branch became its own drill checklist."
+  - "I sketch a messy bubble map before our road trip, then each branch becomes its own packing list on the fridge."
+relationships:
+  - type: contradicts
+    wikilink: "[[Atomic Notes]]"
+    reason: "when branches and bubbles beat splitting before I see the shape"
+  - type: extends
+    wikilink: "[[Creative Output]]"
+    reason: "Mind maps are the messy first pass before creative output becomes atomic notes"
+  - type: extends
+    wikilink: "[[Tony Buzan]]"
+    reason: "Named mind-map method this note contrasts with atoms"
+slug: "mind-mapping"
+date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Mind Mapping", "Visual Thinking", "PKM", "Brainstorming", "Note Taking", "Planning", "Diagrams", "Excalidraw", "Creativity"]
-slug: "mind-mapping"
+aliases: ["Visual Thinking"]
 featured: false
 review: true
 card_sets: ["Focus", "Review"]
@@ -21,31 +36,4 @@ cards:
   - front: "The contractor sketched rooms on a napkin first. What's the move?"
     back: "each bubble became a line item before the."
 draft: false
-aliases: ["Visual Thinking"]
 ---
-Mind maps are for the messy first pass - branches, bubbles, relationships. I export to atomic notes after, not instead.
-
-## Key Concept
-
-Mind maps and sketches are the messy first pass - turn them into atomic notes after, not instead.
-
-## Examples
-
-- I sketched a bubble map of our season goals on paper, then each branch became its own drill checklist.
-- I sketch a messy bubble map before our road trip, then each branch becomes its own packing list on the fridge.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Atomic Notes]] | when branches and bubbles beat splitting before I see the shape |
-| extends | [[Creative Output]] | Mind maps are the messy first pass before creative output becomes atomic notes |
-| extends | [[Tony Buzan]] | Named mind-map method this note contrasts with atoms |
-
-## See also
-
-- [[Commonplace Book]] - Note Taking, PKM
-- [[Literature Notes]] - Note Taking, PKM
-- [[CRDT]] - PKM
-- [[Inbox Zero]] - PKM
-- [[Information Diet]] - PKM

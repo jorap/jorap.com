@@ -1,13 +1,36 @@
 ---
 title: "Reversibility"
 meta_title: "Reversibility"
-description: "prefer choices you can undo - irreversible harm needs a higher bar."
-date: 2026-06-22T06:00:00Z
+description: "Prefer choices you can undo - irreversible harm needs a higher bar."
+key_concept: |
+  Concrete undo path when the choice is a deploy or release.
+  
+  [[Rollback Principle]] names concrete undo path when the choice is a deploy or release. [[Staged Rollout]] names small blast radius makes undo cheap.
+examples:
+  - "I took the longer route with an exit every mile before trying the new shortcut through construction."
+  - "Try the new play in scrimmage before running it in the championship - reversible rehearsal, higher bar for the irreversible call."
+relationships:
+  - type: contradicts
+    wikilink: "[[Finish Strong]]"
+    reason: "when the opposite frame fits better"
+  - type: extends
+    wikilink: "[[Decision Quality]]"
+    reason: "Named in notes that link here"
+  - type: extends
+    wikilink: "[[Life Before Achievement]]"
+    reason: "Named in notes that link here"
+  - type: extends
+    wikilink: "[[Rollback Principle]]"
+    reason: "Concrete undo path when the choice is a deploy or release"
+  - type: extends
+    wikilink: "[[Staged Rollout]]"
+    reason: "Small blast radius makes undo cheap"
+slug: "reversibility"
+date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["Decision Making", "Safety"]
-slug: "reversibility"
 featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
@@ -21,34 +44,4 @@ cards:
   - front: "Try the haircut at home with clippers that still leave length"
     back: "Not the zero guard first"
 draft: false
-aliases: []
 ---
-Prefer choices you can undo - irreversible harm needs a higher bar.
-
-## Key Concept
-
-Named in notes that link here ([[Decision Quality]]).
-
-Tension with [[Finish Strong]] when the opposite frame fits better.
-
-## Examples
-
-- I took the longer route with an exit every mile before trying the new shortcut through construction.
-- Try the new play in scrimmage before running it in the championship - reversible rehearsal, higher bar for the irreversible call.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Finish Strong]] | when the opposite frame fits better |
-| extends | [[Decision Quality]] | Named in notes that link here |
-| extends | [[Life Before Achievement]] | Named in notes that link here |
-| extends | [[Rollback Principle]] | Concrete undo path when the choice is a deploy or release |
-| extends | [[Staged Rollout]] | Small blast radius makes undo cheap |
-
-## See also
-
-- [[Behavioral Economics]] - Decision Making
-- [[Coaching Ethics]] - Safety
-- [[Develop, Don't Endanger]] - Safety
-- [[Duty of Care]] - Safety

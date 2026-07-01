@@ -1,13 +1,30 @@
 ---
 title: "Inbox Zero"
 meta_title: "Inbox Zero"
-description: "process the inbox to empty regularly - each item decided, not hoarded."
-date: 2026-06-22T06:00:00Z
+description: "Process the inbox to empty regularly - each item decided, not hoarded."
+key_concept: |
+  Empty the capture pipe on schedule - zero isn't vanity, it's proof the system still works.
+  
+  [[The Trusted Inbox]] is the habit; zero is the proof you still empty it.
+examples:
+  - "Friday I triaged the team inbox to zero - Monday practice started from decisions made, not dread about who forgot what."
+  - "Sunday night we emptied the kitchen catch-all tray - each slip got a decision so school week didn't start with mystery piles."
+relationships:
+  - type: contradicts
+    wikilink: "[[The Collector's Fallacy]]"
+    reason: "when the opposite frame fits better"
+  - type: extends
+    wikilink: "[[Getting Things Done]]"
+    reason: "Named in notes that link here"
+  - type: extends
+    wikilink: "[[The Trusted Inbox]]"
+    reason: "Named in notes that link here"
+slug: "inbox-zero"
+date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["PKM", "Productivity"]
-slug: "inbox-zero"
 featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
@@ -21,33 +38,4 @@ cards:
   - front: "Sunday night we emptied the kitchen catch-all tray. What's the move?"
     back: "each slip got a decision so school week."
 draft: false
-aliases: []
 ---
-Process the inbox to empty regularly - each item decided, not hoarded.
-
-## Key Concept
-
-Named in notes that link here ([[Getting Things Done]]).
-
-Tension with [[The Collector's Fallacy]] when the opposite frame fits better.
-
-## Examples
-
-- Friday I triaged the team inbox to zero - Monday practice started from decisions made, not dread about who forgot what.
-- Sunday night we emptied the kitchen catch-all tray - each slip got a decision so school week didn't start with mystery piles.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[The Collector's Fallacy]] | when the opposite frame fits better |
-| extends | [[Getting Things Done]] | Named in notes that link here |
-| extends | [[The Trusted Inbox]] | Named in notes that link here |
-
-## See also
-
-- [[Active Knowledge Curation]] - PKM, Productivity
-- [[Analog Capture Tools]] - PKM, Productivity
-- [[Anti-Fragile Systems]] - PKM, Productivity
-- [[Building a Second Brain]] - PKM, Productivity
-- [[Capture]] - PKM, Productivity

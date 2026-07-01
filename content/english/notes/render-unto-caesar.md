@@ -1,13 +1,28 @@
 ---
 title: "Render Unto Caesar"
 meta_title: "Render Unto Caesar - Civic Duty and Worship"
-description: "Jesus said give Caesar what is Caesar's and God what is God's - earthly duty and ultimate allegiance stay distinct."
-date: 2026-06-19T10:15:00Z
+description: "Pay lawful civic obligations - taxes, duties owed the state - while reserving ultimate worship for God alone (Matthew 22:21)."
+key_concept: |
+  The coin bore Caesar's image; give it back to him.
+  
+  You bear God's image; give yourself to Him. Jesus avoids both revolutionary tax refusal and idolizing Rome. [[Seek the Kingdom First]] still ranks the kingdom above every earthly master, but that doesn't excuse dodging legitimate civic responsibility.
+examples:
+  - "The tax bill landed and I paid what was lawful - give Caesar the coin, give God myself."
+  - "School activity fees go in the envelope on Monday even when I'd rather spend it on something fun - earthly duty and worship stay distinct."
+relationships:
+  - type: contradicts
+    wikilink: "[[Treasure in Heaven]]"
+    reason: "when I treat the state as ultimate lord"
+  - type: extends
+    wikilink: "[[Seek the Kingdom First]]"
+    reason: "Kingdom-first still pays lawful civic duty - coin to Caesar, self to God"
+slug: "render-unto-caesar"
+date: "2026-06-19 10:15:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Civic Duty", "Allegiance"]
-slug: "render-unto-caesar"
+aliases: ["give to Caesar", "Caesar and God"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
@@ -25,31 +40,4 @@ cards:
   - front: "Civic duty skipped because I'm kingdom-first. What's the move?"
     back: "Kingdom first doesn't excuse lawful duty."
 draft: false
-aliases: ["give to Caesar", "Caesar and God"]
 ---
-Pay lawful civic obligations - taxes, duties owed the state - while reserving ultimate worship for God alone (Matthew 22:21).
-
-## Key Concept
-
-The coin bore Caesar's image; give it back to him.
-
-You bear God's image; give yourself to Him. Jesus avoids both revolutionary tax refusal and idolizing Rome. [[Seek the Kingdom First]] still ranks the kingdom above every earthly master, but that doesn't excuse dodging legitimate civic responsibility.
-
-## Examples
-
-- The tax bill landed and I paid what was lawful - give Caesar the coin, give God myself.
-- School activity fees go in the envelope on Monday even when I'd rather spend it on something fun - earthly duty and worship stay distinct.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Treasure in Heaven]] | when I treat the state as ultimate lord |
-| extends | [[Seek the Kingdom First]] | Kingdom-first still pays lawful civic duty - coin to Caesar, self to God |
-
-## See also
-
-- [[Abide in Me]] - Eternal Principles, Gospel, Jesus Christ
-- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
-- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
-- [[Childlike Faith]] - Eternal Principles, Gospel, Jesus Christ

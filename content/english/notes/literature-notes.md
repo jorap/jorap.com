@@ -1,13 +1,30 @@
 ---
 title: "Literature Notes"
 meta_title: "Literature Notes"
-description: "notes about a source in your own words - not a highlight dump."
-date: 2026-06-22T06:00:00Z
+description: "Notes about a source in your own words - not a highlight dump."
+key_concept: |
+  Source notes stay tied to the book or talk - your atoms link out, not the other way around.
+  
+  [[Atomic Notes]] are your claims; literature notes hold the source.
+examples:
+  - "I wrote one paragraph on the coach's chapter about zone defense, not yellow highlights on every page."
+  - "The PTA recap was what I actually remembered from the meeting, not a transcript of every speaker."
+relationships:
+  - type: contradicts
+    wikilink: "[[The Collector's Fallacy]]"
+    reason: "when the opposite frame fits better"
+  - type: extends
+    wikilink: "[[Intellectual Sourcing]]"
+    reason: "Named in notes that link here"
+  - type: extends
+    wikilink: "[[Progressive Summarization]]"
+    reason: "Named in notes that link here"
+slug: "literature-notes"
+date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["PKM", "Note Taking", "Research"]
-slug: "literature-notes"
 featured: false
 review: true
 card_sets: ["Focus", "Review"]
@@ -21,31 +38,4 @@ cards:
   - front: "My kid's report on the ocean book was three sentences she could explain, not copied quotes from every paragraph."
     back: "notes about a source in your own words"
 draft: false
-aliases: []
 ---
-Notes about a source in your own words - not a highlight dump.
-
-## Key Concept
-
-Named in notes that link here ([[Intellectual Sourcing]]).
-
-Tension with [[The Collector's Fallacy]] when the opposite frame fits better.
-
-## Examples
-
-- I wrote one paragraph on the coach's chapter about zone defense, not yellow highlights on every page.
-- The PTA recap was what I actually remembered from the meeting, not a transcript of every speaker.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[The Collector's Fallacy]] | when the opposite frame fits better |
-| extends | [[Intellectual Sourcing]] | Named in notes that link here |
-| extends | [[Progressive Summarization]] | Named in notes that link here |
-
-## See also
-
-- [[Commonplace Book]] - Note Taking, PKM
-- [[Digital Serendipity]] - Note Taking, PKM, Research
-- [[Active Knowledge Curation]] - Note Taking, PKM

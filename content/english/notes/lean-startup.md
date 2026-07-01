@@ -1,13 +1,27 @@
 ---
 title: "Lean Startup"
 meta_title: "Lean Startup"
-description: "build the smallest test, measure, learn - don't scale before validation."
-date: 2026-06-22T06:00:00Z
+description: "Build the smallest test, measure, learn - don't scale before validation."
+key_concept: "[[Selling Static Sites]] follows the same loop: one paid build, note what broke (migration time, client Git panic, deploy quirks), fix the template, quote the next job faster."
+examples:
+  - "Ten parents signed a waitlist before we booked the full tournament venue - smallest test, measure interest, learn before scaling."
+  - "Ten customers on a lunch special before we rewrote the whole menu - build the smallest test, don't scale before validation."
+relationships:
+  - type: contradicts
+    wikilink: "[[Finish Strong]]"
+    reason: "when the opposite frame fits better"
+  - type: extends
+    wikilink: "[[Minimum Viable Product]]"
+    reason: "Named in notes that link here"
+  - type: extends
+    wikilink: "[[Selling Static Sites]]"
+    reason: "Pilot client site before scaling the freelance offer"
+slug: "lean-startup"
+date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["Productivity", "Projects"]
-slug: "lean-startup"
 featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
@@ -21,31 +35,4 @@ cards:
   - front: "Ten customers on a lunch special before we rewrote the whole menu"
     back: "Don't scale before validation"
 draft: false
-aliases: []
 ---
-Build the smallest test, measure, learn - don't scale before validation.
-
-## Key Concept
-
-[[Selling Static Sites]] follows the same loop: one paid build, note what broke (migration time, client Git panic, deploy quirks), fix the template, quote the next job faster.
-
-## Examples
-
-- Ten parents signed a waitlist before we booked the full tournament venue - smallest test, measure interest, learn before scaling.
-- Ten customers on a lunch special before we rewrote the whole menu - build the smallest test, don't scale before validation.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Finish Strong]] | when the opposite frame fits better |
-| extends | [[Minimum Viable Product]] | Named in notes that link here |
-| extends | [[Selling Static Sites]] | Pilot client site before scaling the freelance offer |
-
-## See also
-
-- [[The 12 Week Year]] - Productivity, Projects
-- [[Active Knowledge Curation]] - Productivity
-- [[Analog Capture Tools]] - Productivity
-- [[Anti-Fragile Systems]] - Productivity
-- [[Attention Economy]] - Productivity

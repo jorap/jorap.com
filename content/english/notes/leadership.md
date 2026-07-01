@@ -1,13 +1,30 @@
 ---
 title: "Leadership"
 meta_title: "Leadership - Setting Direction and Pace for Others"
-description: "Leadership is taking responsibility for direction, pace, and care when others look to you."
-date: 2026-06-22T08:00:00Z
+description: "You take responsibility for direction, pace, and care when people look to you - title optional."
+key_concept: "Leadership is taking responsibility for direction, pace, and care when others look to you."
+examples:
+  - "Our line cook never got named manager; leadership was calm voice, who goes where, and nobody blaming while the extinguishers were still out."
+  - "The blackout hit our block and one neighbor set pace - who checks on elders, who handles the generator - direction and care when people look to you."
+relationships:
+  - type: contradicts
+    wikilink: "[[Servant Leadership]]"
+    reason: "when grabbing credit and visibility replaces making the team win"
+  - type: extends
+    wikilink: "[[Accountability]]"
+    reason: "Leaders name owners"
+  - type: extends
+    wikilink: "[[Control the Rhythm]]"
+    reason: "Leaders set pace under pressure"
+  - type: extends
+    wikilink: "[[Life Before Achievement]]"
+    reason: "Safety floor leaders don't trade away"
+slug: "leadership"
+date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["Leadership", "Work", "Performance"]
-slug: "leadership"
 featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
@@ -21,30 +38,4 @@ cards:
   - front: "The blackout hit our block and one neighbor set pace. What's the move?"
     back: "Direction and care when people look to you"
 draft: false
-aliases: []
 ---
-You take responsibility for direction, pace, and care when people look to you - title optional.
-
-## Key Concept
-
-Leadership is taking responsibility for direction, pace, and care when others look to you.
-
-## Examples
-
-- Our line cook never got named manager; leadership was calm voice, who goes where, and nobody blaming while the extinguishers were still out.
-- The blackout hit our block and one neighbor set pace - who checks on elders, who handles the generator - direction and care when people look to you.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Servant Leadership]] | when grabbing credit and visibility replaces making the team win |
-| extends | [[Accountability]] | Leaders name owners |
-| extends | [[Control the Rhythm]] | Leaders set pace under pressure |
-| extends | [[Life Before Achievement]] | Safety floor leaders don't trade away |
-
-## See also
-
-- [[Attention to Detail]] - Performance, Work
-- [[Complete the Cycle]] - Performance, Work
-- [[Composure]] - Leadership, Performance

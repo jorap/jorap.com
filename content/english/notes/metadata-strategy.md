@@ -2,12 +2,29 @@
 title: "Metadata Strategy"
 meta_title: "Metadata Strategy - Tags Without Taxonomy Hell"
 description: "Tags, categories, dates, aliases - metadata should help me find notes, not become a second job."
-date: 2026-06-18T06:00:00Z
+key_concept: |
+  Tags and aliases help you find notes inside PARA buckets without taxonomy hell ([[PARA Method]]).
+  
+  Tension with [[Building a Personal API]] when light tags beat automation-ready frontmatter.
+examples:
+  - "I tagged every note with twelve labels and used none on search - cut to five I'd actually pick."
+  - "The team wiki had forty categories; new hires filed everything under Misc within a week."
+relationships:
+  - type: contradicts
+    wikilink: "[[Building a Personal API]]"
+    reason: "when light tags beat automation-ready frontmatter"
+  - type: extends
+    wikilink: "[[PARA Method]]"
+    reason: "Tags and aliases help you find notes inside PARA buckets without taxonomy hell"
+  - type: extends
+    wikilink: "[[Taxonomy]]"
+    reason: "Tag-and-category design this note sizes"
+slug: "metadata-strategy"
+date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Metadata", "Tags", "PKM", "Organization", "Taxonomy", "Note Taking", "Hugo", "Documentation"]
-slug: "metadata-strategy"
 featured: false
 review: true
 card_sets: ["Focus", "Review"]
@@ -21,32 +38,4 @@ cards:
   - front: "The team's gear bin says \"balls,\" \"first aid,\" \"outgrown\""
     back: "Not a color code I'd maintain like a second job"
 draft: false
-aliases: []
 ---
-Tags, categories, dates, aliases - metadata should help me find notes, not become a second job.
-
-## Key Concept
-
-Tags and aliases help you find notes inside PARA buckets without taxonomy hell ([[PARA Method]]).
-
-Tension with [[Building a Personal API]] when light tags beat automation-ready frontmatter.
-
-## Examples
-
-- I label the kids' bins "toys," "books," "outgrown" - not a color code I'd have to maintain.
-- My glove box has "registration," "insurance," "receipts" - three labels I can find at a traffic stop.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Building a Personal API]] | when light tags beat automation-ready frontmatter |
-| extends | [[PARA Method]] | Tags and aliases help you find notes inside PARA buckets without taxonomy hell |
-| extends | [[Taxonomy]] | Tag-and-category design this note sizes |
-
-## See also
-
-- [[Commonplace Book]] - Note Taking, PKM
-- [[Literature Notes]] - Note Taking, PKM
-- [[CRDT]] - PKM
-- [[Future-Proofing Knowledge]] - Documentation, Hugo, Note Taking

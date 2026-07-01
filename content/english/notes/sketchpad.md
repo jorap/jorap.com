@@ -1,13 +1,30 @@
 ---
 title: "Sketchpad"
 meta_title: "Sketchpad"
-description: "private scratch space before anything goes public - drafts, diagrams, half-ideas."
-date: 2026-06-22T06:00:00Z
+description: "Private scratch space before anything goes public - drafts, diagrams, half-ideas."
+key_concept: |
+  Rough visual thinking belongs on paper first - polish comes after the shape is right.
+  
+  [[Mind Mapping]] can start on paper; [[Analog Capture Tools]] when screens slow you down.
+examples:
+  - "The birthday party layout lived in Notes for a month - half-ideas in private before one paragraph shipped to the group chat."
+  - "The set-piece sketch lived on a napkin for two practices before we ran it clean in a game."
+relationships:
+  - type: contradicts
+    wikilink: "[[Creative Output]]"
+    reason: "when the opposite frame fits better"
+  - type: extends
+    wikilink: "[[Drafting in Public]]"
+    reason: "Named in notes that link here"
+  - type: extends
+    wikilink: "[[The Garage Concept]]"
+    reason: "Named in notes that link here"
+slug: "sketchpad"
+date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["PKM", "Digital Garden"]
-slug: "sketchpad"
 featured: false
 review: true
 card_sets: ["Focus", "Review"]
@@ -21,32 +38,4 @@ cards:
   - front: "The set-piece sketch lived on a napkin for two practices before we ran it clean in a game."
     back: "private scratch space before anything goes public"
 draft: false
-aliases: []
 ---
-Private scratch space before anything goes public - drafts, diagrams, half-ideas.
-
-## Key Concept
-
-Named in notes that link here ([[Drafting in Public]]).
-
-Tension with [[Creative Output]] when the opposite frame fits better.
-
-## Examples
-
-- The birthday party layout lived in Notes for a month - half-ideas in private before one paragraph shipped to the group chat.
-- The set-piece sketch lived on a napkin for two practices before we ran it clean in a game.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Creative Output]] | when the opposite frame fits better |
-| extends | [[Drafting in Public]] | Named in notes that link here |
-| extends | [[The Garage Concept]] | Named in notes that link here |
-
-## See also
-
-- [[Associative Linking]] - Digital Garden, PKM
-- [[Digital Garden]] - Digital Garden, PKM
-- [[Getting Started]] - Digital Garden, PKM
-- [[Note Relationships]] - Digital Garden, PKM

@@ -1,29 +1,46 @@
 ---
+note_kind: "meta"
+layout: "cards"
 title: "Flashcards"
 meta_title: "Notes Flashcards"
-description: "Flip cards from opt-in notes - habit prompts, not trivia. Export the same deck to Anki."
+description: "Drill lane beside the wiki - opt in per note, export to Anki when I want SRS on my phone."
+key_concept: |
+  Life's cue on the front, immediate move on the back - not definitions dressed as advice. ~20% of notes opt in; gospel and PKM spine share [/notes/review/](/notes/review/).
+  
+  This page is a **utility surface** (`note_kind: meta`) - not a garden note. Evergreen notes should not `[[wikilink]]` here; point readers to [/notes/flashcards/](/notes/flashcards/) or [/notes/review/](/notes/review/) by URL instead.
+  
+  Every garden note carries flashcards (minimum 2). Deck size depends on importance: **8** hub/spine notes, **6** gospel and core PKM habits, **4** workplace/safety/PKM secondary, **2** everything else. Each carries a `card_sets:` list so Review can filter by group (Capture, Linking, Review, **Eternal Principles**, etc.). Gospel notes also tag a section set - **Faith**, **Commandments**, **Ethics**, **Prayer**, **Priorities**, **Discipleship** - matching [[Eternal Principles]] sections. Cards ask what I'd *do* when capture, review, linking, or discipleship breaks down - not what a term *means*. **Cue → apply:** front = life's moment I'd recognize; back = principle compressed into the next move (do, decide, or say in one breath). **Cue only - no multiple choice:** state the moment on the front; never list options (`X, Y, or Z?`, `A or B?`) to pick from. **Front longer than back:** the prompt carries the scenario; the answer stays short. **No answer telegraphy:** don't name the note title, quote the verse, or fill in the blank on the front - give a subtle situational trigger instead. **Quiz yourself** at [/notes/review/](/notes/review/). Sync decks with `python3 scripts/sync-note-flashcards.py`; validate with `npm run lint:cards`.
 slug: "flashcards"
-layout: "cards"
-note_kind: "meta"
-date: 2026-06-18T08:00:00Z
+date: "2026-06-18 08:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Notes", "Meta", "Anki", "Learning"]
+aliases: ["/notes/cards/"]
 featured: false
 draft: false
-aliases:
-  - /notes/cards/
 ---
-Drill lane beside the wiki - opt in per note, export to Anki when I want SRS on my phone.
+## Frontmatter format (atomic notes)
 
-## Key Concept
+Atomic garden notes store all claim data in frontmatter - body stays empty unless the page is a hub or utility doc:
 
-Life's cue on the front, immediate move on the back - not definitions dressed as advice. ~20% of notes opt in; gospel and PKM spine share [/notes/review/](/notes/review/).
+```yaml
+description: "One breath definition."
+key_concept: |
+  One sentence - the angle.
 
-This page is a **utility surface** (`note_kind: meta`) - not a garden note. Evergreen notes should not `[[wikilink]]` here; point readers to [/notes/flashcards/](/notes/flashcards/) or [/notes/review/](/notes/review/) by URL instead.
-
-Every garden note carries flashcards (minimum 2). Deck size depends on importance: **8** hub/spine notes, **6** gospel and core PKM habits, **4** workplace/safety/PKM secondary, **2** everything else. Each carries a `card_sets:` list so Review can filter by group (Capture, Linking, Review, **Eternal Principles**, etc.). Gospel notes also tag a section set - **Faith**, **Commandments**, **Ethics**, **Prayer**, **Priorities**, **Discipleship** - matching [[Eternal Principles]] sections. Cards ask what I'd *do* when capture, review, linking, or discipleship breaks down - not what a term *means*. **Cue → apply:** front = life's moment I'd recognize; back = principle compressed into the next move (do, decide, or say in one breath). **Cue only - no multiple choice:** state the moment on the front; never list options (`X, Y, or Z?`, `A or B?`) to pick from. **Front longer than back:** the prompt carries the scenario; the answer stays short. **No answer telegraphy:** don't name the note title, quote the verse, or fill in the blank on the front - give a subtle situational trigger instead. **Quiz yourself** at [/notes/review/](/notes/review/). Sync decks with `python3 scripts/sync-note-flashcards.py`; validate with `npm run lint:cards`.
+  Optional second paragraph with [[wikilinks]].
+examples:
+  - "Mid-action scene one."
+  - "Mid-action scene two - different field."
+relationships:
+  - type: extends
+    wikilink: "[[Related Note]]"
+    reason: "what this builds on"
+  - type: contradicts
+    wikilink: "[[Tension Note]]"
+    reason: "when …"
+```
 
 ## Frontmatter format (review notes)
 
@@ -54,10 +71,3 @@ draft: false
 - Validate with `npm run lint:cards` before commit.
 
 New spine note scaffold: `hugo new content/english/notes/my-note.md --kind notes-review`. Pairs with [[Random Duo]].
-
-## See also
-
-- [[Review]] - Anki, Learning, Meta
-- [[Backlinks]] - Meta, Notes
-- [[Create Note]] - Meta, Notes
-- [[Issues]] - Meta, Notes

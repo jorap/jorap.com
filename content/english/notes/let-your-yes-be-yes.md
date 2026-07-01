@@ -1,13 +1,28 @@
 ---
 title: "Let Your Yes Be Yes"
 meta_title: "Let Your Yes Be Yes - Plain Speech"
-description: "Jesus said let yes be yes and no be no - truth without oaths, exaggeration, or spin to make people believe you."
-date: 2026-06-19T09:35:00Z
+description: "Speak plainly - no swearing oaths to make people trust you; let your word stand on its own (Matthew 5:33-37)."
+key_concept: |
+  Jesus deepened the law against false vows: disciples should be so truthful that extra oaths aren't needed.
+  
+  Anything beyond simple yes/no comes from evil - meaning manipulation, not that all contracts are sin. PKM parallel: [[Atomic Notes]] - one plain claim per page, no padded prose to sound smart. [[Integrity]] of speech is [[Heart Righteousness]], not performance for [[Let Your Light Shine]].
+examples:
+  - "I told the coach I'd have my kid there \"God willing, absolutely, cross my heart\" when a plain yes would have been enough."
+  - "I padded a deadline promise with extra assurances so they'd believe me - if my word needs spin to sound believable, the problem isn't the schedule, it's me."
+relationships:
+  - type: contradicts
+    wikilink: "[[Drafting in Public]]"
+    reason: "when public words outrun private honesty"
+  - type: extends
+    wikilink: "[[Love Your Neighbor]]"
+    reason: "Plain yes-or-no speech is how you treat neighbors with integrity, not padded oaths"
+slug: "let-your-yes-be-yes"
+date: "2026-06-19 09:35:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Truth"]
-slug: "let-your-yes-be-yes"
+aliases: ["truth telling", "simply let your yes be yes"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Ethics"]
@@ -25,32 +40,4 @@ cards:
   - front: "Thumb adding qualifiers to a simple commitment. Strip to what?"
     back: "Simple yes or no - no spin."
 draft: false
-aliases: ["truth telling", "simply let your yes be yes"]
 ---
-Speak plainly - no swearing oaths to make people trust you; let your word stand on its own (Matthew 5:33-37).
-
-## Key Concept
-
-Jesus deepened the law against false vows: disciples should be so truthful that extra oaths aren't needed.
-
-Anything beyond simple yes/no comes from evil - meaning manipulation, not that all contracts are sin. PKM parallel: [[Atomic Notes]] - one plain claim per page, no padded prose to sound smart. [[Integrity]] of speech is [[Heart Righteousness]], not performance for [[Let Your Light Shine]].
-
-## Examples
-
-- I told the coach I'd have my kid there "God willing, absolutely, cross my heart" when a plain yes would have been enough.
-- I padded a deadline promise with extra assurances so they'd believe me - if my word needs spin to sound believable, the problem isn't the schedule, it's me.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Drafting in Public]] | when public words outrun private honesty |
-| extends | [[Love Your Neighbor]] | Plain yes-or-no speech is how you treat neighbors with integrity, not padded oaths |
-
-## See also
-
-- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
-- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
-- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
-- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ
-- [[Eternal Rewards]] - Eternal Principles, Gospel, Jesus Christ

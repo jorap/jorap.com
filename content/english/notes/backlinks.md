@@ -1,28 +1,19 @@
 ---
+note_kind: "meta"
+layout: "backlinks"
 title: "Backlinks"
 meta_title: "Backlinks Index"
-description: "Most-linked notes in the garden - who points here, with a snippet from each backlink."
+description: "Inbound wikilinks ranked by count - see which notes the garden treats as anchors. Pairs with [[Issues]], [[Random Duo]], and [[Create Note]]."
+key_concept: |
+  Find anchor notes by who links here - snippet context per backlink, not just a count.
+  
+  Utility surface: link by URL from content notes, not `[[wikilinks]]`.
 slug: "backlinks"
-layout: "backlinks"
-note_kind: "meta"
-date: 2026-06-21T08:00:00Z
+date: "2026-06-21 08:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Notes", "Meta", "Linking"]
 featured: false
 draft: false
-aliases: []
 ---
-Inbound wikilinks ranked by count - see which notes the garden treats as anchors. Pairs with [[Issues]], [[Random Duo]], and [[Create Note]].
-
-## Key Concept
-
-Find anchor notes by who links here - snippet context per backlink, not just a count.
-
-Utility surface: link by URL from content notes, not `[[wikilinks]]`.
-
-## See also
-
-- [[Flashcards]] - Meta, Notes
-- [[Getting Started]] - Meta, Notes

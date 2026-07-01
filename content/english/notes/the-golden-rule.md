@@ -1,13 +1,43 @@
 ---
 title: "The Golden Rule"
 meta_title: "The Golden Rule - Do Unto Others"
-description: "Jesus summed the Law and Prophets in one line: treat others the way you want to be treated."
-date: 2026-06-19T08:15:00Z
+description: "Treat others how you want to be treated - Jesus called this the Law and Prophets summed up (Matthew 7:12)."
+key_concept: |
+  It's positive and active: *do* unto others, not merely avoid doing harm.
+  
+  The check is experiential - how would I want to be spoken to, helped, forgiven, included? That sets the floor for every interaction. [[Free Grace]] keeps it from becoming a merit system: I treat others well because Christ treated me well first.
+examples:
+  - "My thumb was on the post button with a critique that was probably true and definitely cruel - pause: how would I want someone to say that to me?"
+  - "Before I barked at the ref in front of the kids, I asked how I'd want a coach to talk to me after a bad call - the Golden Rule changed the volume."
+relationships:
+  - type: contradicts
+    wikilink: "[[Love Your Enemies]]"
+    reason: "when I only apply it to people who already treat me well"
+  - type: extends
+    wikilink: "[[Create Regular Connection]]"
+    reason: "I'd want steady presence, not one grand gesture"
+  - type: extends
+    wikilink: "[[Follow Their Lead]]"
+    reason: "I'd want someone to enter my world before fixing mine"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Treat others well because Christ treated you well first - not to buy heaven"
+  - type: extends
+    wikilink: "[[Kindness]]"
+    reason: "Tender regard I'd want if roles reversed"
+  - type: extends
+    wikilink: "[[Listen Before Fixing]]"
+    reason: "I'd want to be heard before being handed advice"
+  - type: extends
+    wikilink: "[[Notice the Good]]"
+    reason: "I'd want someone to name what I did well, not vague good job"
+slug: "the-golden-rule"
+date: "2026-06-19 08:15:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Ethics"]
-slug: "the-golden-rule"
+aliases: ["do unto others", "Golden Rule"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Ethics"]
@@ -29,37 +59,4 @@ cards:
   - front: "Someone cut ahead at the clinic and I drafted a public scolding. One check?"
     back: "Grace - how I'd want to be corrected."
 draft: false
-aliases: ["do unto others", "Golden Rule"]
 ---
-Treat others how you want to be treated - Jesus called this the Law and Prophets summed up (Matthew 7:12).
-
-## Key Concept
-
-It's positive and active: *do* unto others, not merely avoid doing harm.
-
-The check is experiential - how would I want to be spoken to, helped, forgiven, included? That sets the floor for every interaction. [[Free Grace]] keeps it from becoming a merit system: I treat others well because Christ treated me well first.
-
-## Examples
-
-- My thumb was on the post button with a critique that was probably true and definitely cruel - pause: how would I want someone to say that to me?
-- Before I barked at the ref in front of the kids, I asked how I'd want a coach to talk to me after a bad call - the Golden Rule changed the volume.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Love Your Enemies]] | when I only apply it to people who already treat me well |
-| extends | [[Create Regular Connection]] | I'd want steady presence, not one grand gesture |
-| extends | [[Follow Their Lead]] | I'd want someone to enter my world before fixing mine |
-| extends | [[Free Grace]] | Treat others well because Christ treated you well first - not to buy heaven |
-| extends | [[Kindness]] | Tender regard I'd want if roles reversed |
-| extends | [[Listen Before Fixing]] | I'd want to be heard before being handed advice |
-| extends | [[Notice the Good]] | I'd want someone to name what I did well, not vague good job |
-
-## See also
-
-- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
-- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
-- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
-- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ
-- [[Eternal Rewards]] - Eternal Principles, Gospel, Jesus Christ

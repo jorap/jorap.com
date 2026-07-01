@@ -10,7 +10,10 @@
 
           {{ partial "notes/featured-random-note.html" . }}
 
-          {{ partial "notes/recent-updated.html" . }}
+          <div class="notes-recent-pair mb-8 grid gap-6 lg:grid-cols-2 lg:gap-8">
+            {{ partial "notes/recent-updated.html" . }}
+            {{ partial "notes/recent-new.html" . }}
+          </div>
 
           {{- $notes := partial "notes/pages.html" . -}}
           {{- $notes = partial "notes/sort-by-connections.html" (dict "Pages" $notes "Context" .) -}}

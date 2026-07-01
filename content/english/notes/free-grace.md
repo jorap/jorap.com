@@ -1,13 +1,52 @@
 ---
 title: "Free Grace"
 meta_title: "Free Grace - Salvation by Faith Alone"
-description: "Eternal life is God's free gift through faith in Christ - not wages for obeying eternal principles or doing good works."
-date: 2026-06-19T07:55:00Z
+description: "Eternal life is God's free gift through faith in Christ alone - not wages for keeping commandments, obeying eternal principles, or doing good works (Ephesians 2:8-9; John 3:16; Romans 4:5)."
+key_concept: |
+  [[Grace]] is unmerited favor.
+  
+  Christ paid what I couldn't. I receive eternal life by believing His promise - not by climbing a moral ladder. Same shape as [[Minimum Effective Dose]] for salvation: faith is the smallest act that still works - not zero effort, not a lifetime of merit. Every [[Eternal Principles]] Jesus taught flows from that ground: principles for how believers live in grateful response, pursue fellowship with God, and store up [[Eternal Rewards]] - never as currency to buy heaven. [[Loss of Reward]] keeps the categories straight when a believer wastes years or worthless works burn: salvation stays on Christ, reward may shrink. Ephesians 2:10 keeps the order straight: saved by grace through faith first, then created in Christ Jesus for good works. [[Justification]] is free and finished at faith; [[Sanctification]], [[Discipleship]], and forgiveness toward others belong to the walk after. [[Grateful Obedience]] names the posture: obey from thanks, not to qualify. [[Assurance]] and [[Standing vs Fellowship]] keep doubt from collapsing standing with closeness. [[Faith and Works]] keeps the lanes straight: works prove faith alive, they don't buy heaven.
+examples:
+  - "A teammate listed every good deed this month like it was his ticket to heaven - I trust Christ's promise for eternal life, not my report card from the season."
+  - "A friend at coffee listed every good thing he'd done this month like it was his ticket to heaven - I didn't argue; I just said I trust Christ's promise, not my report card."
+relationships:
+  - type: contradicts
+    wikilink: "[[Compounding]]"
+    reason: "when good works compound into a merit ladder I think buys heaven"
+  - type: extends
+    wikilink: "[[Assurance]]"
+    reason: "Rest on Christ's promise after faith - not this week's performance"
+  - type: extends
+    wikilink: "[[Grace]]"
+    reason: "Free grace is grace applied to eternal life by faith alone"
+  - type: extends
+    wikilink: "[[Grateful Obedience]]"
+    reason: "Obedience answers grace with thanks - not wages for heaven"
+  - type: extends
+    wikilink: "[[Joy]]"
+    reason: "Joy follows grace received - not wages that buy heaven"
+  - type: extends
+    wikilink: "[[Justification]]"
+    reason: "Grace is the gift; justification is God declaring you righteous when you receive it"
+  - type: extends
+    wikilink: "[[Loss of Reward]]"
+    reason: "Grace secures eternal life; losing reward never un-does the gift"
+  - type: extends
+    wikilink: "[[Mercy]]"
+    reason: "Mercy spares wrath; grace gives the gift - same rescue"
+  - type: extends
+    wikilink: "[[Minimum Effective Dose]]"
+    reason: "Faith is the smallest act that still buys eternal life - no merit ladder on top"
+  - type: extends
+    wikilink: "[[Standing vs Fellowship]]"
+    reason: "Standing settled at faith; fellowship is the daily walk"
+slug: "free-grace"
+date: "2026-06-19 07:55:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Free Grace", "Salvation", "Faith", "Eternal Principles", "Theology"]
-slug: "free-grace"
+aliases: ["faith alone", "sola fide", "salvation by grace"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Faith"]
@@ -29,36 +68,4 @@ cards:
   - front: "Friend at coffee stacks good works like a merit ladder to heaven. What's true?"
     back: "Grace through faith - Christ paid the fare."
 draft: false
-aliases: ["faith alone", "sola fide", "salvation by grace"]
 ---
-Eternal life is God's free gift through faith in Christ alone - not wages for keeping commandments, obeying eternal principles, or doing good works (Ephesians 2:8-9; John 3:16; Romans 4:5).
-
-## Key Concept
-
-[[Grace]] is unmerited favor.
-
-Christ paid what I couldn't. I receive eternal life by believing His promise - not by climbing a moral ladder. Same shape as [[Minimum Effective Dose]] for salvation: faith is the smallest act that still works - not zero effort, not a lifetime of merit. Every [[Eternal Principles]] Jesus taught flows from that ground: principles for how believers live in grateful response, pursue fellowship with God, and store up [[Eternal Rewards]] - never as currency to buy heaven. [[Loss of Reward]] keeps the categories straight when a believer wastes years or worthless works burn: salvation stays on Christ, reward may shrink. Ephesians 2:10 keeps the order straight: saved by grace through faith first, then created in Christ Jesus for good works. [[Justification]] is free and finished at faith; [[Sanctification]], [[Discipleship]], and forgiveness toward others belong to the walk after. [[Grateful Obedience]] names the posture: obey from thanks, not to qualify. [[Assurance]] and [[Standing vs Fellowship]] keep doubt from collapsing standing with closeness. [[Faith and Works]] keeps the lanes straight: works prove faith alive, they don't buy heaven.
-
-## Examples
-
-- A teammate listed every good deed this month like it was his ticket to heaven - I trust Christ's promise for eternal life, not my report card from the season.
-- A friend at coffee listed every good thing he'd done this month like it was his ticket to heaven - I didn't argue; I just said I trust Christ's promise, not my report card.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Compounding]] | when good works compound into a merit ladder I think buys heaven |
-| extends | [[Assurance]] | Rest on Christ's promise after faith - not this week's performance |
-| extends | [[Grace]] | Free grace is grace applied to eternal life by faith alone |
-| extends | [[Grateful Obedience]] | Obedience answers grace with thanks - not wages for heaven |
-| extends | [[Joy]] | Joy follows grace received - not wages that buy heaven |
-| extends | [[Justification]] | Grace is the gift; justification is God declaring you righteous when you receive it |
-| extends | [[Loss of Reward]] | Grace secures eternal life; losing reward never un-does the gift |
-| extends | [[Mercy]] | Mercy spares wrath; grace gives the gift - same rescue |
-| extends | [[Minimum Effective Dose]] | Faith is the smallest act that still buys eternal life - no merit ladder on top |
-| extends | [[Standing vs Fellowship]] | Standing settled at faith; fellowship is the daily walk |
-
-## See also
-
-- [[Childlike Faith]] - Eternal Principles, Faith, Free Grace

@@ -1,13 +1,49 @@
 ---
 title: "Assurance"
 meta_title: "Assurance - Rest on Christ's Promise, Not This Week"
-description: "Eternal life rests on Christ's finished work and promise - not on my performance this week."
-date: 2026-06-30T08:40:00Z
+description: "Eternal life rests on Christ's finished work and promise - not on my performance this week (John 10:28-29; Romans 8:38-39; 1 John 5:13)."
+key_concept: |
+  [[Free Grace]] names the gift; [[Justification]] names the verdict; assurance names where I rest when doubt hits.
+  
+  Bad weeks, hidden sin, dread at the [[Judgment Seat]] - none of those re-open the case [[Justification]] closed. [[Loss of Reward]] keeps reward-loss separate: I can stumble, lose reward, and still belong to Christ. [[Childlike Faith]] receives the promise like a child - stop re-negotiating merit every Monday. [[Standing vs Fellowship]] keeps the categories straight: closeness breaks, standing stays. PKM mirror: [[Minimum Effective Dose]] - faith is the sufficient act; assurance rests on that, not a lifetime merit stack.
+examples:
+  - "Bad week and dread God changed His mind - assurance rests on Christ's promise, not my obedience streak."
+  - "I pictured the judgment seat and panicked like heaven might get revoked - salvation settled at faith; works get reviewed for reward after."
+relationships:
+  - type: alternative
+    wikilink: "[[The Narrow Way]]"
+    reason: "False Lord Lord never believed vs believer who doubts but trusts Christ"
+  - type: contradicts
+    wikilink: "[[Compounding]]"
+    reason: "when a bad week feels like it erased salvation instead of breaking closeness"
+  - type: extends
+    wikilink: "[[Childlike Faith]]"
+    reason: "Receive the promise like a child - stop re-negotiating merit"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Gift received by faith - assurance rests on Christ, not performance"
+  - type: extends
+    wikilink: "[[Fruits of the Spirit]]"
+    reason: "Joy fruit - rest on Christ, not this week's score"
+  - type: extends
+    wikilink: "[[Joy]]"
+    reason: "Assurance is the garden echo for gospel gladness"
+  - type: extends
+    wikilink: "[[Justification]]"
+    reason: "Verdict doesn't reopen when I stumble"
+  - type: extends
+    wikilink: "[[Loss of Reward]]"
+    reason: "Can lose reward, not salvation"
+  - type: extends
+    wikilink: "[[Standing vs Fellowship]]"
+    reason: "Doubt often confuses broken closeness with revoked standing"
+slug: "assurance"
+date: "2026-06-30 08:40:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Free Grace", "Salvation", "Faith", "Eternal Principles"]
-slug: "assurance"
+aliases: ["assurance of salvation", "eternal security", "rest in Christ"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Faith"]
@@ -25,36 +61,4 @@ cards:
   - front: "Romans 8 in my head but guilt still runs the show. What can't separate me?"
     back: "Nothing from God's love in Christ."
 draft: false
-aliases: ["assurance of salvation", "eternal security", "rest in Christ"]
 ---
-Eternal life rests on Christ's finished work and promise - not on my performance this week (John 10:28-29; Romans 8:38-39; 1 John 5:13).
-
-## Key Concept
-
-[[Free Grace]] names the gift; [[Justification]] names the verdict; assurance names where I rest when doubt hits.
-
-Bad weeks, hidden sin, dread at the [[Judgment Seat]] - none of those re-open the case [[Justification]] closed. [[Loss of Reward]] keeps reward-loss separate: I can stumble, lose reward, and still belong to Christ. [[Childlike Faith]] receives the promise like a child - stop re-negotiating merit every Monday. [[Standing vs Fellowship]] keeps the categories straight: closeness breaks, standing stays. PKM mirror: [[Minimum Effective Dose]] - faith is the sufficient act; assurance rests on that, not a lifetime merit stack.
-
-## Examples
-
-- Bad week and dread God changed His mind - assurance rests on Christ's promise, not my obedience streak.
-- I pictured the judgment seat and panicked like heaven might get revoked - salvation settled at faith; works get reviewed for reward after.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| alternative | [[The Narrow Way]] | False Lord Lord never believed vs believer who doubts but trusts Christ |
-| contradicts | [[Compounding]] | when a bad week feels like it erased salvation instead of breaking closeness |
-| extends | [[Childlike Faith]] | Receive the promise like a child - stop re-negotiating merit |
-| extends | [[Free Grace]] | Gift received by faith - assurance rests on Christ, not performance |
-| extends | [[Fruits of the Spirit]] | Joy fruit - rest on Christ, not this week's score |
-| extends | [[Joy]] | Assurance is the garden echo for gospel gladness |
-| extends | [[Justification]] | Verdict doesn't reopen when I stumble |
-| extends | [[Loss of Reward]] | Can lose reward, not salvation |
-| extends | [[Standing vs Fellowship]] | Doubt often confuses broken closeness with revoked standing |
-
-## See also
-
-- [[Faith and Works]] - Eternal Principles, Faith, Free Grace
-- [[Repent and Believe]] - Eternal Principles, Faith, Free Grace

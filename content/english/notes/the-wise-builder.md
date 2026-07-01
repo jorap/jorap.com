@@ -1,13 +1,31 @@
 ---
 title: "The Wise Builder"
 meta_title: "The Wise Builder - Hear and Do"
-description: "Jesus closed the Sermon on the Mount with two builders - wisdom is hearing his words and doing them, not hearing alone."
-date: 2026-06-19T09:50:00Z
+description: "Hear Jesus' words and do them - build on rock, not sand (Matthew 7:24-27)."
+key_concept: |
+  Both builders hear the sermon; only one obeys.
+  
+  Storms reveal which foundation held. Under [[Free Grace]], doing isn't what saves - faith saves - but genuine hearing produces action. [[Faith and Works]] names the order: works prove faith alive, they don't buy heaven. Empty "Lord, Lord" without doing the Father's will is the fool's house (Matthew 7:21-23) - see [[The Narrow Way]] and [[Loss of Reward]] for false profession vs believer who stumbles. PKM mirror: [[The Collector's Fallacy]] - hearing sermons and saving articles without [[Creative Output]] is sand; obedience and output are rock.
+examples:
+  - "We heard the coach's lecture on discipline and still skipped film study Tuesday - hearing without doing is sand; storms show which builder you are."
+  - "Safety training Monday, same shortcut Wednesday - wise builder hears and does; fool hears and nods."
+relationships:
+  - type: contradicts
+    wikilink: "[[The Narrow Way]]"
+    reason: "when I claim Jesus without living his words"
+  - type: extends
+    wikilink: "[[Faith and Works]]"
+    reason: "Real faith hears and does - sand is hear-only religion"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Faith saves you, but hearing Jesus without doing is the fool's house on sand"
+slug: "the-wise-builder"
+date: "2026-06-19 09:50:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Obedience"]
-slug: "the-wise-builder"
+aliases: ["house on the rock", "hear and do", "Wise Builder"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
@@ -25,33 +43,4 @@ cards:
   - front: "Saved sermons and notes but no obedience showing up. One move I take today?"
     back: "Obey one command Jesus gave."
 draft: false
-aliases: ["house on the rock", "hear and do", "Wise Builder"]
 ---
-Hear Jesus' words and do them - build on rock, not sand (Matthew 7:24-27).
-
-## Key Concept
-
-Both builders hear the sermon; only one obeys.
-
-Storms reveal which foundation held. Under [[Free Grace]], doing isn't what saves - faith saves - but genuine hearing produces action. [[Faith and Works]] names the order: works prove faith alive, they don't buy heaven. Empty "Lord, Lord" without doing the Father's will is the fool's house (Matthew 7:21-23) - see [[The Narrow Way]] and [[Loss of Reward]] for false profession vs believer who stumbles. PKM mirror: [[The Collector's Fallacy]] - hearing sermons and saving articles without [[Creative Output]] is sand; obedience and output are rock.
-
-## Examples
-
-- We heard the coach's lecture on discipline and still skipped film study Tuesday - hearing without doing is sand; storms show which builder you are.
-- Safety training Monday, same shortcut Wednesday - wise builder hears and does; fool hears and nods.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[The Narrow Way]] | when I claim Jesus without living his words |
-| extends | [[Faith and Works]] | Real faith hears and does - sand is hear-only religion |
-| extends | [[Free Grace]] | Faith saves you, but hearing Jesus without doing is the fool's house on sand |
-
-## See also
-
-- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
-- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
-- [[Discipleship]] - Eternal Principles, Gospel, Jesus Christ
-- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
-- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ

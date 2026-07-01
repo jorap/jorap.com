@@ -1,0 +1,26 @@
+{{- $limit := site.Params.notes.recent_new_limit | default 12 | int -}}
+{{- $notes := partial "notes/pages.html" . -}}
+{{- $entries := slice -}}
+{{- range $notes -}}
+  {{- $dates := partial "notes/file-dates.html" . -}}
+  {{- $entries = $entries | append (dict "Page" . "Dates" $dates) -}}
+{{- end -}}
+{{- $recent := first $limit (sort $entries "Dates.Created" "desc") -}}
+
+{{- with $recent -}}
+  <section class="notes-recent mb-8 lg:mb-0">
+    <h2 class="h5 mb-3">New Notes</h2>
+    <ul class="notes-recent-list grid gap-3 sm:grid-cols-2">
+      {{- range . -}}
+        {{- $page := .Page -}}
+        {{- $dates := .Dates -}}
+        <li class="notes-recent-item">
+          <a class="notes-recent-link" href="{{ $page.RelPermalink }}" data-wikilink-preview="{{ $page.RelPermalink }}">
+            <span class="notes-recent-title">{{ $page.Title }}</span>
+            <span class="notes-recent-meta text-ink-muted">Created {{ $dates.CreatedDisplay }}</span>
+          </a>
+        </li>
+      {{- end -}}
+    </ul>
+  </section>
+{{- end -}}

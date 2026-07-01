@@ -1,26 +1,22 @@
 ---
+note_kind: "meta"
 title: "OKF Export"
 meta_title: "OKF Export - Agent-Readable Notes Bundle"
-description: "Open Knowledge Format v0.1 export of the notes garden - plain markdown for agents and tools outside Hugo."
+description: "The same garden, flattened for agents - markdown paths, required `type`, no Hugo build."
+key_concept: |
+  Authoring stays in Hugo (`[[wikilinks]]`, graph, flashcards); this bundle is the handoff copy for ChatGPT, agents, and tools outside the site.
+  
+  Regenerated on production build and via `npm run export:okf`.
 slug: "okf-export"
-note_kind: "meta"
-date: 2026-06-27T08:00:00Z
+date: "2026-06-27 08:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Notes", "Meta", "PKM", "OKF"]
+aliases: ["OKF", "OKF Export"]
 featured: false
 draft: false
-aliases: ["OKF", "OKF Export"]
 ---
-The same garden, flattened for agents - markdown paths, required `type`, no Hugo build.
-
-## Key Concept
-
-Authoring stays in Hugo (`[[wikilinks]]`, graph, flashcards); this bundle is the handoff copy for ChatGPT, agents, and tools outside the site.
-
-Regenerated on production build and via `npm run export:okf`.
-
 ## ChatGPT workflow
 
 Three lanes - all copy-paste friendly:
@@ -73,8 +69,3 @@ Raw `.md` links show plain markdown in the browser - fine for agents. Use **OKF 
 Regenerate bundle + graph: `npm run export:okf` (runs automatically on `pnpm build`).
 
 Spec: [Open Knowledge Format v0.1](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md). Graph viewer adapted from [Google's OKF reference visualizer](https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf#visualize). Pairs with [[Create Note]], [[Random Duo]], and [[Getting Started]].
-
-## See also
-
-- [[Backlinks]] - Meta, Notes
-- [[Issues]] - Meta, Notes

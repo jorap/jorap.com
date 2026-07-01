@@ -116,8 +116,38 @@ collections:
           label: "Description",
           name: "description",
           widget: "text",
-          hint: "One sentence: the single claim this note makes.",
+          hint: "Opening definition — one breath, the single claim this note makes.",
         }
+      - {
+          label: "Key concept",
+          name: "key_concept",
+          widget: "text",
+          required: false,
+          hint: "One sentence first, then optional second paragraph: stakes, distinctions, wikilinks.",
+        }
+      - {
+          label: "Examples",
+          name: "examples",
+          widget: "list",
+          allow_add: true,
+          required: false,
+          field: {label: "Example", widget: "text"},
+          hint: "Exactly two mid-action scenes from different fields.",
+        }
+      - label: "Relationships"
+        name: "relationships"
+        widget: "list"
+        required: false
+        hint: "Typed links — extends + contradicts minimum; each wikilink once."
+        fields:
+          - {
+              label: "Type",
+              name: "type",
+              widget: "select",
+              options: ["extends", "contradicts", "implements", "alternative"],
+            }
+          - {label: "Wikilink", name: "wikilink", widget: "string", hint: "[[Note Title]]"}
+          - {label: "Reason", name: "reason", widget: "text"}
       - {label: "Date", name: "date", widget: "datetime"}
       - {
           label: "Featured image",
@@ -208,5 +238,5 @@ collections:
           name: "body",
           widget: "markdown",
           editor_components: *hugo_editor_components,
-          hint: "Use [[wikilinks]] for links. Insert Hugo shortcodes from the toolbar (+). Optional ## Note Relationships table and ## See also section.",
+          hint: "Hub/MOC and utility pages only — atomic notes keep prose in frontmatter fields above.",
         }

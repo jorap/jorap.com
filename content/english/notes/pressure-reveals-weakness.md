@@ -2,23 +2,31 @@
 note_kind: "index"
 title: "Pressure Reveals Weakness"
 meta_title: "Pressure Reveals Weakness - Build for When It Gets Hard"
-description: "High-pressure moments expose what ordinary conditions hide - the job is building systems and habits that stay reliable when the heat rises."
-date: 2026-06-22T08:00:00Z
+description: "Hard situations show what easy days hide. The point isn't to dodge pressure - it's to build systems, habits, and character that still work when pressure spikes."
+key_concept: "Each note below is one move I'd want automatic before the moment arrives."
+relationships:
+  - type: alternative
+    wikilink: "[[Mental Models]]"
+    reason: "Performance-under-pressure hub vs decision lenses when habits beat models"
+  - type: alternative
+    wikilink: "[[Systems for Growth]]"
+    reason: "Performance-under-pressure hub vs growth-loop hub when heat rises, not ordinary Tuesdays"
+  - type: extends
+    wikilink: "[[Process Over Outcomes]]"
+    reason: "Repeatable process and finish lines survive when motivation dips"
+  - type: extends
+    wikilink: "[[Servant Leadership]]"
+    reason: "Leaders set the pace and protect judgment when the room heats up"
+slug: "pressure-reveals-weakness"
+date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Leadership", "Tips"]
 author: "JoRap"
 tags: ["Performance", "Leadership", "Mental Models", "Habits", "MOC"]
-slug: "pressure-reveals-weakness"
+aliases: ["performance under pressure"]
 featured: false
 draft: false
-aliases: ["performance under pressure"]
 ---
-Hard situations show what easy days hide. The point isn't to dodge pressure - it's to build systems, habits, and character that still work when pressure spikes.
-
-## Key Concept
-
-Each note below is one move I'd want automatic before the moment arrives.
-
 ## Execution and follow-through
 
 - [[Finish Strong]] - starting proves capability; finishing proves discipline
@@ -40,20 +48,3 @@ Each note below is one move I'd want automatic before the moment arrives.
 
 - [[Own the Error]] - name it, fix it, change the process
 - [[Convert Pain Into Learning]] - failure only helps when it produces correction
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| alternative | [[Mental Models]] | Performance-under-pressure hub vs decision lenses when habits beat models |
-| alternative | [[Systems for Growth]] | Performance-under-pressure hub vs growth-loop hub when heat rises, not ordinary Tuesdays |
-| extends | [[Process Over Outcomes]] | Repeatable process and finish lines survive when motivation dips |
-| extends | [[Servant Leadership]] | Leaders set the pace and protect judgment when the room heats up |
-
-## See also
-
-- [[Accountability]] - Leadership, Performance
-- [[Composure]] - Leadership, Performance
-- [[Continuous Improvement]] - Habits, Performance
-- [[Deliberate Practice]] - Habits, Performance
-- [[Discipline]] - Habits, Performance

@@ -1,13 +1,46 @@
 ---
 title: "Standing vs Fellowship"
 meta_title: "Standing vs Fellowship - Verdict vs Daily Closeness"
-description: "My standing before God was settled at faith; fellowship breaks when I sin and restores when I confess - don't collapse the two."
-date: 2026-06-30T08:00:00Z
+description: "My legal standing before God was settled at faith through [[Justification]]; daily fellowship with Him breaks when I sin and restores when I confess - two ledgers, don't collapse them (1 John 1:9; Romans 5:1)."
+key_concept: |
+  [[Free Grace]] secured eternal life once.
+  
+  Standing is the verdict: declared righteous on Christ, not re-opened by a bad week. Fellowship is closeness: joy, prayer, worship - choked by unconfessed sin, restored when I [[Repent and Believe]] and confess. [[Loss of Reward]] keeps reward-loss separate from salvation-loss; this note keeps fellowship-loss separate from standing-loss. [[Forgiveness]] toward others and [[Reconciliation Before Worship]] repair horizontal fellowship; confession repairs vertical. [[Sanctification]] keeps changing me without re-earning acceptance.
+examples:
+  - "I snapped at my kid and dread hit like God revoked my heaven ticket - standing was settled at faith; I confessed and walked the closeness back."
+  - "Hidden sin exposed and shame screamed I'm not saved - justified on Christ already; fellowship needed repair, not a new salvation transaction."
+relationships:
+  - type: alternative
+    wikilink: "[[Compounding]]"
+    reason: "when a bad week feels like it erased standing instead of breaking closeness"
+  - type: contradicts
+    wikilink: "[[Faith and Works]]"
+    reason: "when obedience is tried to re-earn standing instead of confess for fellowship"
+  - type: extends
+    wikilink: "[[Forgiveness]]"
+    reason: "Sin breaks fellowship and joy; confess and walk - standing on Christ stays"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Eternal life secured at faith; fellowship is the daily walk, not the entry fee"
+  - type: extends
+    wikilink: "[[Joy]]"
+    reason: "Bad week may break closeness - gospel joy still anchors on Christ's promise"
+  - type: extends
+    wikilink: "[[Justification]]"
+    reason: "Standing declared once at faith; fellowship fluctuates with confession and sin"
+  - type: extends
+    wikilink: "[[Loss of Reward]]"
+    reason: "Shame after failure is fellowship or reward, not revoked salvation"
+  - type: extends
+    wikilink: "[[Sanctification]]"
+    reason: "Becoming holy without re-earning the verdict justification already gave"
+slug: "standing-vs-fellowship"
+date: "2026-06-30 08:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Free Grace", "Eternal Principles", "Faith", "Theology"]
-slug: "standing-vs-fellowship"
+aliases: ["standing and fellowship", "position vs fellowship", "legal standing vs fellowship"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Faith"]
@@ -25,35 +58,4 @@ cards:
   - front: "Bad season and terror heaven access got revoked. What can't faith undo?"
     back: "Justification - standing on Christ stays."
 draft: false
-aliases: ["standing and fellowship", "position vs fellowship", "legal standing vs fellowship"]
 ---
-My legal standing before God was settled at faith through [[Justification]]; daily fellowship with Him breaks when I sin and restores when I confess - two ledgers, don't collapse them (1 John 1:9; Romans 5:1).
-
-## Key Concept
-
-[[Free Grace]] secured eternal life once.
-
-Standing is the verdict: declared righteous on Christ, not re-opened by a bad week. Fellowship is closeness: joy, prayer, worship - choked by unconfessed sin, restored when I [[Repent and Believe]] and confess. [[Loss of Reward]] keeps reward-loss separate from salvation-loss; this note keeps fellowship-loss separate from standing-loss. [[Forgiveness]] toward others and [[Reconciliation Before Worship]] repair horizontal fellowship; confession repairs vertical. [[Sanctification]] keeps changing me without re-earning acceptance.
-
-## Examples
-
-- I snapped at my kid and dread hit like God revoked my heaven ticket - standing was settled at faith; I confessed and walked the closeness back.
-- Hidden sin exposed and shame screamed I'm not saved - justified on Christ already; fellowship needed repair, not a new salvation transaction.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| alternative | [[Compounding]] | when a bad week feels like it erased standing instead of breaking closeness |
-| contradicts | [[Faith and Works]] | when obedience is tried to re-earn standing instead of confess for fellowship |
-| extends | [[Forgiveness]] | Sin breaks fellowship and joy; confess and walk - standing on Christ stays |
-| extends | [[Free Grace]] | Eternal life secured at faith; fellowship is the daily walk, not the entry fee |
-| extends | [[Joy]] | Bad week may break closeness - gospel joy still anchors on Christ's promise |
-| extends | [[Justification]] | Standing declared once at faith; fellowship fluctuates with confession and sin |
-| extends | [[Loss of Reward]] | Shame after failure is fellowship or reward, not revoked salvation |
-| extends | [[Sanctification]] | Becoming holy without re-earning the verdict justification already gave |
-
-## See also
-
-- [[Assurance]] - Eternal Principles, Faith, Free Grace
-- [[Childlike Faith]] - Eternal Principles, Faith, Free Grace

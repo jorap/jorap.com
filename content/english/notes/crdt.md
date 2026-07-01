@@ -1,13 +1,27 @@
 ---
 title: "CRDT"
 meta_title: "CRDT"
-description: "data structures that merge edits without a central lock - useful for offline-first sync."
-date: 2026-06-22T06:00:00Z
+description: "Data structures that merge edits without a central lock - useful for offline-first sync."
+key_concept: |
+  Conflict-free sync lets two devices edit the same note without picking a winner by timestamp alone.
+  
+  [[Local-first Software]] wants merge-without-master; CRDTs are one way to get there.
+examples:
+  - "Two phones edited the grocery list offline; both merged without picking a winner by clock."
+  - "Camp notes synced from two laptops after the hike - no \"your version lost\" fight."
+relationships:
+  - type: contradicts
+    wikilink: "[[Building a Personal API]]"
+    reason: "when the opposite frame fits better"
+  - type: extends
+    wikilink: "[[Local-first Software]]"
+    reason: "Named in notes that link here"
+slug: "crdt"
+date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["PKM", "Tools"]
-slug: "crdt"
 featured: false
 review: true
 card_sets: ["Focus", "Review"]
@@ -21,30 +35,4 @@ cards:
   - front: "Two phones edited the same list offline and both changes merged"
     back: "No \"you must sync first\" fight"
 draft: false
-aliases: []
 ---
-Data structures that merge edits without a central lock - useful for offline-first sync.
-
-## Key Concept
-
-Named in notes that link here ([[Local-first Software]]).
-
-Tension with [[Building a Personal API]] when the opposite frame fits better.
-
-## Examples
-
-- My wife and I edited the grocery list on two phones offline and both items stayed - no "your version overwrote mine" argument in aisle four.
-- Two coaches edited the same lineup offline at a tournament and both changes merged - no "you must sync first" fight at the bench.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Building a Personal API]] | when the opposite frame fits better |
-| extends | [[Local-first Software]] | Named in notes that link here |
-
-## See also
-
-- [[Spaced Repetition]] - PKM, Tools
-- [[The Second Brain Workflow]] - PKM, Tools
-- [[Webhooks]] - PKM, Tools

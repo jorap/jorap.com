@@ -11,6 +11,10 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 
+import yaml
+
+from notes_content import assemble_markdown
+
 ROOT = Path(__file__).resolve().parents[1]
 NOTES_DIR = ROOT / "content/english/notes"
 HUGO_TOML = ROOT / "hugo.toml"
@@ -377,8 +381,11 @@ def export_bundle(out_dir: Path) -> tuple[int, int]:
             continue
 
         text = record.path.read_text(encoding="utf-8")
-        _, _, body = split_frontmatter(text)
-        body = body_without_see_also(body)
+        _, inner, body = split_frontmatter(text)
+        fm = yaml.safe_load(inner) or {}
+        if not isinstance(fm, dict):
+            fm = {}
+        body = body_without_see_also(assemble_markdown(fm, body))
         body = rewrite_wikilinks(body, by_key, base_url)
 
         if record.note_kind == "index":

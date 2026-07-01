@@ -19,7 +19,7 @@
   {{- $isIndex := partial "notes/is-index-page.html" $from -}}
   {{- $nodeMeta = merge $nodeMeta (dict $fromId (dict "rels" $rels "primaryTag" $primaryTag "primaryCategory" $primaryCategory "isIndex" $isIndex)) -}}
   {{- $nodes = $nodes | append (dict "id" $fromId "title" $from.Title "url" $from.RelPermalink "inDegree" 0 "outDegree" 0 "totalDegree" 0 "top" false "middle" false "bottom" false "orphan" false "deadEnd" false) -}}
-  {{- $raw := $from.RawContent -}}
+  {{- $raw := partial "notes/assembled-content.html" $from -}}
   {{- $bodyRaw := $raw -}}
   {{- if strings.Contains $raw "## See also" -}}
     {{- $bodyRaw = index (split $raw "## See also") 0 -}}

@@ -1,13 +1,30 @@
 ---
 title: "Resilience"
 meta_title: "Resilience - Bounce and Stay Useful"
-description: "Resilience is absorbing setback without quitting or becoming useless to the people counting on you."
-date: 2026-06-22T08:00:00Z
+description: "You take the hit, recover, and stay useful - not pretend the hit didn't hurt."
+key_concept: Resilience is absorbing setback without quitting or becoming useless to the people counting on you.
+examples:
+  - "Commute delays wrecked my morning three days straight - I left earlier Thursday instead of cursing the traffic and showing up late again."
+  - "Our Saturday rush blew up - honest huddle, quiet week, smaller menu, not acting like Friday never happened."
+relationships:
+  - type: contradicts
+    wikilink: "[[Own the Error]]"
+    reason: "when \"bounce back\" skips naming what broke and who fixes it"
+  - type: extends
+    wikilink: "[[Anti-Fragile Systems]]"
+    reason: "Systems that gain from stress - PKM parallel"
+  - type: extends
+    wikilink: "[[Convert Pain Into Learning]]"
+    reason: "Resilience uses failure as fuel"
+  - type: extends
+    wikilink: "[[Stay Effective in New Conditions]]"
+    reason: "Bounce in new terrain, not only old"
+slug: "resilience"
+date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["Performance", "Mindset", "Character"]
-slug: "resilience"
 featured: false
 review: true
 card_sets: ["Focus", "Review"]
@@ -17,32 +34,4 @@ cards:
   - front: "We lost the semifinal, had an honest huddle, rested a week, came back with a simpler game plan"
     back: "Not rage-quitting mid-season"
 draft: false
-aliases: []
 ---
-You take the hit, recover, and stay useful - not pretend the hit didn't hurt.
-
-## Key Concept
-
-Resilience is absorbing setback without quitting or becoming useless to the people counting on you.
-
-## Examples
-
-- Commute delays wrecked my morning three days straight - I left earlier Thursday instead of cursing the traffic and showing up late again.
-- Our Saturday rush blew up - honest huddle, quiet week, smaller menu, not acting like Friday never happened.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Own the Error]] | when "bounce back" skips naming what broke and who fixes it |
-| extends | [[Anti-Fragile Systems]] | Systems that gain from stress - PKM parallel |
-| extends | [[Convert Pain Into Learning]] | Resilience uses failure as fuel |
-| extends | [[Stay Effective in New Conditions]] | Bounce in new terrain, not only old |
-
-## See also
-
-- [[Failure as Feedback]] - Mindset, Performance
-- [[Growth Mindset]] - Mindset, Performance
-- [[Reliability]] - Character, Performance
-- [[Self-Control]] - Character, Performance
-- [[Accountability]] - Performance

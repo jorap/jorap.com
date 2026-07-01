@@ -1,13 +1,34 @@
 ---
 title: "Building a Personal API"
 meta_title: "Building a Personal API - Your Notes as Callable Context"
-description: "My personal API isn't OAuth and microservices. It's structured context for future me and my tools without re-explaining everything."
-date: 2026-06-18T06:00:00Z
+description: "My personal API isn't OAuth - it's consistent frontmatter, wikilinks, and folder shapes my tools can read without me re-explaining everything."
+key_concept: |
+  My personal API isn't OAuth and microservices.
+  
+  It's structured context for future me and my tools without re-explaining everything.
+examples:
+  - "Our pantry uses the same rule - snacks, baking, breakfast - my wife finds the rice without me re-explaining where everything lives."
+  - "Our team names drills the same way every season - level, skill, variation - so a sub can run practice without a twenty-minute briefing."
+relationships:
+  - type: alternative
+    wikilink: "[[Local-first Software]]"
+    reason: "Structured API vs plain files when sync layers multiply"
+  - type: contradicts
+    wikilink: "[[Digital Minimalism]]"
+    reason: "when structured context beats fewer moving parts"
+  - type: extends
+    wikilink: "[[Metadata Strategy]]"
+    reason: "Consistent frontmatter turns your notes into something tools can read without you re-explaining"
+  - type: extends
+    wikilink: "[[Webhooks]]"
+    reason: "Push events out - API glue this note imagines"
+slug: "building-a-personal-api"
+date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Personal API", "PKM", "Automation", "Second Brain", "AI", "Knowledge Management", "Static Site Generator", "Documentation", "Future of PKM", "Trends", "Tools"]
-slug: "building-a-personal-api"
+aliases: ["Future of PKM", "The Future of PKM"]
 featured: false
 review: true
 card_sets: ["Focus", "Review"]
@@ -21,33 +42,4 @@ cards:
   - front: "The warehouse labels every bin the same way. What's the move?"
     back: "Not a tour from the veteran"
 draft: false
-aliases: ["Future of PKM", "The Future of PKM"]
 ---
-My personal API isn't OAuth - it's consistent frontmatter, wikilinks, and folder shapes my tools can read without me re-explaining everything.
-
-## Key Concept
-
-My personal API isn't OAuth and microservices.
-
-It's structured context for future me and my tools without re-explaining everything.
-
-## Examples
-
-- Our pantry uses the same rule - snacks, baking, breakfast - my wife finds the rice without me re-explaining where everything lives.
-- Our team names drills the same way every season - level, skill, variation - so a sub can run practice without a twenty-minute briefing.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| alternative | [[Local-first Software]] | Structured API vs plain files when sync layers multiply |
-| contradicts | [[Digital Minimalism]] | when structured context beats fewer moving parts |
-| extends | [[Metadata Strategy]] | Consistent frontmatter turns your notes into something tools can read without you re-explaining |
-| extends | [[Webhooks]] | Push events out - API glue this note imagines |
-
-## See also
-
-- [[CRDT]] - PKM, Tools
-- [[Commonplace Book]] - PKM
-- [[Inbox Zero]] - PKM
-- [[Information Diet]] - PKM

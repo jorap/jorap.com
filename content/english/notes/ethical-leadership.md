@@ -1,13 +1,30 @@
 ---
 title: "Ethical Leadership"
 meta_title: "Ethical Leadership"
-description: "authority used to protect people and tell the truth - not to win at their expense."
-date: 2026-06-22T06:00:00Z
+description: "Authority used to protect people and tell the truth - not to win at their expense."
+key_concept: |
+  The standard you walk past is the standard you accept for everyone under you.
+  
+  [[Integrity]] in general; this note is the team-visible lane.
+examples:
+  - "I stopped the backyard wrestling match when someone was about to get hurt - same fun goal, safer path, even though the kids wanted the rougher version."
+  - "The coach killed the unsafe trust-fall drill when a safer team exercise achieved the same bonding goal - authority used to protect people, not to win at their expense."
+relationships:
+  - type: contradicts
+    wikilink: "[[Outcomes Over Pitch Decks]]"
+    reason: "when the opposite frame fits better"
+  - type: extends
+    wikilink: "[[Life Before Achievement]]"
+    reason: "Named in notes that link here"
+  - type: extends
+    wikilink: "[[Servant Leadership]]"
+    reason: "Named in notes that link here"
+slug: "ethical-leadership"
+date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["Leadership", "Ethics"]
-slug: "ethical-leadership"
 featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
@@ -21,32 +38,4 @@ cards:
   - front: "Our building admin reported the broken stair rail to the owner instead of scheduling another photo day on it"
     back: "Not protect the event"
 draft: false
-aliases: []
 ---
-Authority used to protect people and tell the truth - not to win at their expense.
-
-## Key Concept
-
-Named in notes that link here ([[Life Before Achievement]]).
-
-Tension with [[Outcomes Over Pitch Decks]] when the opposite frame fits better.
-
-## Examples
-
-- I stopped the backyard wrestling match when someone was about to get hurt - same fun goal, safer path, even though the kids wanted the rougher version.
-- The coach killed the unsafe trust-fall drill when a safer team exercise achieved the same bonding goal - authority used to protect people, not to win at their expense.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Outcomes Over Pitch Decks]] | when the opposite frame fits better |
-| extends | [[Life Before Achievement]] | Named in notes that link here |
-| extends | [[Servant Leadership]] | Named in notes that link here |
-
-## See also
-
-- [[Coaching Ethics]] - Ethics, Leadership
-- [[Develop, Don't Endanger]] - Ethics, Leadership
-- [[Duty of Care]] - Ethics, Leadership
-- [[Eliminate Before Managing]] - Ethics, Leadership

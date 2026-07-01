@@ -1,13 +1,28 @@
 ---
 title: "Take Up Your Cross"
 meta_title: "Take Up Your Cross - Daily Discipleship"
-description: "Jesus said follow him by taking up your cross daily - self-denial as the shape of discipleship, not a one-time decision."
-date: 2026-06-19T09:40:00Z
+description: "Deny yourself, pick up the cross daily, and follow [[Discipleship]] - the shape of discipleship after you come to him (Luke 9:23; Matthew 16:24)."
+key_concept: |
+  The cross isn't suffering for suffering's sake; it's choosing God's will over self-will each day.
+  
+  [[Free Grace]] keeps the order: eternal life is received by faith, not earned by cross-bearing - but [[Discipleship]] costs something real. Same road as [[The Narrow Way]], lived one day at a time. Overlap with [[Process Over Outcomes]]: daily self-denial beats a one-time hero sprint.
+examples:
+  - "I had one big surrender moment last year and went back to the same comfortable sin - Jesus said daily: pick it up again today."
+  - "The veteran skips the post-game party to drive a rookie home - daily cross is the costly obedience when comfort is right there."
+relationships:
+  - type: contradicts
+    wikilink: "[[There Is No Perfect Solution]]"
+    reason: "when I expect discipleship without cost"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Cross-bearing costs something real after faith saves you - it doesn't earn eternal life"
+slug: "take-up-your-cross"
+date: "2026-06-19 09:40:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Discipleship", "Self-denial"]
-slug: "take-up-your-cross"
+aliases: ["deny yourself", "daily cross"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
@@ -25,30 +40,4 @@ cards:
   - front: "Heard the hard teaching, unchanged how I treat people. What's missing?"
     back: "Do what he said - act today."
 draft: false
-aliases: ["deny yourself", "daily cross"]
 ---
-Deny yourself, pick up the cross daily, and follow [[Discipleship]] - the shape of discipleship after you come to him (Luke 9:23; Matthew 16:24).
-
-## Key Concept
-
-The cross isn't suffering for suffering's sake; it's choosing God's will over self-will each day.
-
-[[Free Grace]] keeps the order: eternal life is received by faith, not earned by cross-bearing - but [[Discipleship]] costs something real. Same road as [[The Narrow Way]], lived one day at a time. Overlap with [[Process Over Outcomes]]: daily self-denial beats a one-time hero sprint.
-
-## Examples
-
-- I had one big surrender moment last year and went back to the same comfortable sin - Jesus said daily: pick it up again today.
-- The veteran skips the post-game party to drive a rookie home - daily cross is the costly obedience when comfort is right there.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[There Is No Perfect Solution]] | when I expect discipleship without cost |
-| extends | [[Free Grace]] | Cross-bearing costs something real after faith saves you - it doesn't earn eternal life |
-
-## See also
-
-- [[Christianity and Politics]] - Discipleship, Eternal Principles, Gospel
-- [[Faithful Steward]] - Discipleship, Eternal Principles, Gospel
-- [[Great Commission]] - Discipleship, Eternal Principles, Gospel

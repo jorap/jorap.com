@@ -207,6 +207,11 @@ html.dark .content b {
   font-size: 0.875em;
 }
 
+/* Prose tables: flat rows, borders only — no header band or zebra striping. */
+.content table :is(thead, tbody tr) {
+  background-color: transparent;
+}
+
 .notes-content .wikilink-broken {
   color: var(--color-ink-muted);
   text-decoration: underline dotted;

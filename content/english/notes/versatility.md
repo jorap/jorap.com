@@ -1,13 +1,30 @@
 ---
 title: "Versatility"
 meta_title: "Versatility - More Than One Way to Contribute"
-description: "Versatility is staying useful across roles, tools, and contexts - not locked to one lane."
-date: 2026-06-22T08:00:00Z
+description: "You can contribute in more than one lane when the team or the market shifts."
+key_concept: "Versatility is staying useful across roles, tools, and contexts - not locked to one lane."
+examples:
+  - "The rush hit and I jumped on dishes while the line cook called tickets - versatile without pretending I suddenly ran the grill."
+  - "Sick day meant I became lunch packer, tutor, and IT help - versatility is more than one lane when the day shifts."
+relationships:
+  - type: contradicts
+    wikilink: "[[Pareto Principle]]"
+    reason: "when being helpful everywhere dilutes the core twenty percent you're actually best at"
+  - type: extends
+    wikilink: "[[Adaptability]]"
+    reason: "Versatility is adaptability in skills"
+  - type: extends
+    wikilink: "[[Low Hanging Fruit]]"
+    reason: "Pick up adjacent wins when the main lane closes"
+  - type: extends
+    wikilink: "[[Stay Effective in New Conditions]]"
+    reason: "New rooms need new contributions"
+slug: "versatility"
+date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["Performance", "Career", "Adaptability"]
-slug: "versatility"
 featured: false
 review: true
 card_sets: ["Focus", "Review"]
@@ -17,30 +34,4 @@ cards:
   - front: "Sick day meant I became lunch packer, tutor, and IT help"
     back: "versatility is more than one lane when the."
 draft: false
-aliases: []
 ---
-You can contribute in more than one lane when the team or the market shifts.
-
-## Key Concept
-
-Versatility is staying useful across roles, tools, and contexts - not locked to one lane.
-
-## Examples
-
-- The rush hit and I jumped on dishes while the line cook called tickets - versatile without pretending I suddenly ran the grill.
-- Sick day meant I became lunch packer, tutor, and IT help - versatility is more than one lane when the day shifts.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Pareto Principle]] | when being helpful everywhere dilutes the core twenty percent you're actually best at |
-| extends | [[Adaptability]] | Versatility is adaptability in skills |
-| extends | [[Low Hanging Fruit]] | Pick up adjacent wins when the main lane closes |
-| extends | [[Stay Effective in New Conditions]] | New rooms need new contributions |
-
-## See also
-
-- [[Accountability]] - Performance
-- [[Attention to Detail]] - Performance
-- [[Build a Reliable Default]] - Performance

@@ -1,13 +1,31 @@
 ---
 title: "Seek the Kingdom First"
 meta_title: "Seek the Kingdom First - Matthew 6:33"
-description: "Jesus said put God's kingdom and righteousness ahead of food, clothes, and tomorrow - the rest follows."
-date: 2026-06-19T08:30:00Z
+description: "Put God's rule and righteousness ahead of food, status, and tomorrow's worry - the rest follows (Matthew 6:33)."
+key_concept: |
+  The Sermon on the Mount ties this to not serving two masters (God and wealth) and to storing [[Treasure in Heaven]].
+  
+  Kingdom isn't escape from earth - it's God's reign ordering my priorities today. Same job as [[Signal vs Noise]] in the PKM stack: what gets first place when everything feels urgent.
+examples:
+  - "Tuesday at 7am the house was loud and my Bible was still closed - seek the kingdom first is Scripture before the day's noise sets the agenda."
+  - "Anxiety had me scrolling finances before I prayed - kingdom first meant pray, then act on the bills."
+relationships:
+  - type: contradicts
+    wikilink: "[[Signal vs Noise]]"
+    reason: "when I treat every demand as kingdom-level priority"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Put God's rule first because grace already secured where you spend forever"
+  - type: extends
+    wikilink: "[[Peace]]"
+    reason: "Kingdom first orders the week before worry sets panic"
+slug: "seek-the-kingdom-first"
+date: "2026-06-19 08:30:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Priorities"]
-slug: "seek-the-kingdom-first"
+aliases: ["seek ye first", "kingdom of God"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Priorities"]
@@ -29,32 +47,4 @@ cards:
   - front: "Anxiety scrolling finances at 11pm before I prayed. Kingdom move?"
     back: "Pray first - then act on the numbers."
 draft: false
-aliases: ["seek ye first", "kingdom of God"]
 ---
-Put God's rule and righteousness ahead of food, status, and tomorrow's worry - the rest follows (Matthew 6:33).
-
-## Key Concept
-
-The Sermon on the Mount ties this to not serving two masters (God and wealth) and to storing [[Treasure in Heaven]].
-
-Kingdom isn't escape from earth - it's God's reign ordering my priorities today. Same job as [[Signal vs Noise]] in the PKM stack: what gets first place when everything feels urgent.
-
-## Examples
-
-- Tuesday at 7am the house was loud and my Bible was still closed - seek the kingdom first is Scripture before the day's noise sets the agenda.
-- Anxiety had me scrolling finances before I prayed - kingdom first meant pray, then act on the bills.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Signal vs Noise]] | when I treat every demand as kingdom-level priority |
-| extends | [[Free Grace]] | Put God's rule first because grace already secured where you spend forever |
-| extends | [[Peace]] | Kingdom first orders the week before worry sets panic |
-
-## See also
-
-- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
-- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
-- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
-- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ

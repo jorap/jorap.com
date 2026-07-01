@@ -1,13 +1,28 @@
 ---
 title: "Context-Aware Capture"
 meta_title: "Context-Aware Capture - Save the Why, Not Just the What"
-description: "Capture the why while I still remember it - project, mood, question - not just the link."
-date: 2026-06-18T06:00:00Z
+description: "A link without context is a mystery six weeks later. I capture why I saved something - project, mood, question - while it's still obvious."
+key_concept: "Capture the why while I still remember it - project, mood, question - not just the link."
+examples:
+  - "Voice memo in the parking lot after the meeting - context was still in my head."
+  - "Photo of the whiteboard before they erased it - capture matched where the idea lived."
+relationships:
+  - type: contradicts
+    wikilink: "[[Metadata Strategy]]"
+    reason: "when inline why beats formal metadata fields"
+  - type: extends
+    wikilink: "[[Capture]]"
+    reason: "Capture the why while it's obvious or the link is a mystery six weeks later"
+  - type: extends
+    wikilink: "[[Voice Memos]]"
+    reason: "Capture in context - phone mic is the obvious tool"
+slug: "context-aware-capture"
+date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Capture", "PKM", "Context", "Note Taking", "Second Brain", "Metadata", "Workflow"]
-slug: "context-aware-capture"
+aliases: ["context aware capture"]
 featured: false
 review: true
 card_sets: ["Capture", "Workflow"]
@@ -21,29 +36,4 @@ cards:
   - front: "I bookmark a link with one line about which project it feeds"
     back: "A link without context is a mystery six weeks later"
 draft: false
-aliases: ["context aware capture"]
 ---
-A link without context is a mystery six weeks later. I capture why I saved something - project, mood, question - while it's still obvious.
-
-## Key Concept
-
-Capture the why while I still remember it - project, mood, question - not just the link.
-
-## Examples
-
-- At the clinic I scribble "follow up - Mrs. Santos, BP log" on the chart stub - Saturday that line is the only reason I remember it wasn't a generic callback.
-- I saved a drill clip titled "use when our pick-and-roll breaks down" - six weeks later I knew why I kept it, not just what it showed.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Metadata Strategy]] | when inline why beats formal metadata fields |
-| extends | [[Capture]] | Capture the why while it's obvious or the link is a mystery six weeks later |
-| extends | [[Voice Memos]] | Capture in context - phone mic is the obvious tool |
-
-## See also
-
-- [[Commonplace Book]] - Note Taking, PKM
-- [[Read Later Queue]] - Capture, PKM
-- [[Taxonomy]] - Metadata, PKM

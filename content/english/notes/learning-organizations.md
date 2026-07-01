@@ -1,13 +1,33 @@
 ---
 title: "Learning Organizations"
 meta_title: "Learning Organizations"
-description: "teams that change process after mistakes instead of burying them."
-date: 2026-06-22T06:00:00Z
+description: "Teams that change process after mistakes instead of burying them."
+key_concept: |
+  "What broke" line stays until fixed or accepted.
+  
+  [[Blameless Postmortem]] names "What broke" line stays until fixed or accepted.
+examples:
+  - "After every tournament they kept one \"what broke\" line on the whiteboard until it was fixed or accepted."
+  - "After every messy school morning we kept one \"what broke\" sticky on the fridge until the routine changed or we accepted the tradeoff."
+relationships:
+  - type: contradicts
+    wikilink: "[[By Their Fruits]]"
+    reason: "when the opposite frame fits better"
+  - type: extends
+    wikilink: "[[Blameless Postmortem]]"
+    reason: "\"What broke\" line stays until fixed or accepted"
+  - type: extends
+    wikilink: "[[Continuous Improvement]]"
+    reason: "Named in notes that link here"
+  - type: extends
+    wikilink: "[[Convert Pain Into Learning]]"
+    reason: "Named in notes that link here"
+slug: "learning-organizations"
+date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["Leadership", "Continuous Improvement"]
-slug: "learning-organizations"
 featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
@@ -21,33 +41,4 @@ cards:
   - front: "Our building chat logs one near-miss per month until the process changes"
     back: "Not shame"
 draft: false
-aliases: []
 ---
-Teams that change process after mistakes instead of burying them.
-
-## Key Concept
-
-Named in notes that link here ([[Continuous Improvement]]).
-
-Tension with [[By Their Fruits]] when the opposite frame fits better.
-
-## Examples
-
-- After every tournament they kept one "what broke" line on the whiteboard until it was fixed or accepted.
-- After every messy school morning we kept one "what broke" sticky on the fridge until the routine changed or we accepted the tradeoff.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[By Their Fruits]] | when the opposite frame fits better |
-| extends | [[Blameless Postmortem]] | "What broke" line stays until fixed or accepted |
-| extends | [[Continuous Improvement]] | Named in notes that link here |
-| extends | [[Convert Pain Into Learning]] | Named in notes that link here |
-
-## See also
-
-- [[Accountability]] - Leadership
-- [[Coaching Ethics]] - Leadership
-- [[Composure]] - Leadership
-- [[Control the Rhythm]] - Leadership

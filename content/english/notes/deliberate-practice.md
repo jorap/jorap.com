@@ -1,13 +1,30 @@
 ---
 title: "Deliberate Practice"
 meta_title: "Deliberate Practice - Train the Weak Slice on Purpose"
-description: "Deliberate practice is focused reps on the part that breaks - not mindless repetition of what already works."
-date: 2026-06-22T08:00:00Z
+description: "Train the weak slice on purpose - feedback, correction, repeat - not run the whole piece you already nail."
+key_concept: Deliberate practice is focused reps on the part that breaks - not mindless repetition of what already works.
+examples:
+  - "The new cashier drills voids and returns ten times, not the whole shift on autopilot - feedback, correction, repeat on what breaks."
+  - "My kid's recital died in the bridges between songs - deliberate practice was running only those transitions ten times; the rest she already knew."
+relationships:
+  - type: contradicts
+    wikilink: "[[Compounding]]"
+    reason: "when drilling one weak slice ignores breadth the next role will demand"
+  - type: extends
+    wikilink: "[[Convert Pain Into Learning]]"
+    reason: "Practice is how lessons become skill"
+  - type: extends
+    wikilink: "[[Minimum Effective Dose]]"
+    reason: "Smallest focused rep that moves the needle"
+  - type: extends
+    wikilink: "[[The Feynman Technique]]"
+    reason: "Teach-it-back as deliberate practice for understanding"
+slug: "deliberate-practice"
+date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["Learning", "Performance", "Habits"]
-slug: "deliberate-practice"
 featured: false
 review: true
 card_sets: ["Focus", "Review"]
@@ -17,30 +34,4 @@ cards:
   - front: "Our guard drills the weak-hand finish fifty times, not the whole scrimmage on autopilot"
     back: "Train the weak slice on purpose"
 draft: false
-aliases: []
 ---
-Train the weak slice on purpose - feedback, correction, repeat - not run the whole piece you already nail.
-
-## Key Concept
-
-Deliberate practice is focused reps on the part that breaks - not mindless repetition of what already works.
-
-## Examples
-
-- The new cashier drills voids and returns ten times, not the whole shift on autopilot - feedback, correction, repeat on what breaks.
-- My kid's recital died in the bridges between songs - deliberate practice was running only those transitions ten times; the rest she already knew.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Compounding]] | when drilling one weak slice ignores breadth the next role will demand |
-| extends | [[Convert Pain Into Learning]] | Practice is how lessons become skill |
-| extends | [[Minimum Effective Dose]] | Smallest focused rep that moves the needle |
-| extends | [[The Feynman Technique]] | Teach-it-back as deliberate practice for understanding |
-
-## See also
-
-- [[Build a Reliable Default]] - Habits, Performance
-- [[Continuous Improvement]] - Habits, Performance
-- [[Discipline]] - Habits, Performance

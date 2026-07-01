@@ -1,13 +1,46 @@
 ---
 title: "Faithful Steward"
 meta_title: "Faithful Steward - Well Done for Faithful Use"
-description: "God entrusts time, gifts, and opportunities; faithfulness with what He gave earns well done - not a down payment on salvation."
-date: 2026-06-30T08:10:00Z
+description: "God entrusts time, gifts, and opportunities; faithfulness with what He gave is what earns \"well done\" - not a down payment on salvation (Matthew 25:14-30; Luke 19:11-27)."
+key_concept: |
+  [[Free Grace]] settled where I spend forever.
+  
+  Stewardship settles what I do with what He entrusted after. The master returns to settle accounts - faithful use repaid, buried talent rebuked. [[Eternal Rewards]] names the promise; [[Faithful Steward]] names the parable Jesus told for it. [[Compounding]] is the PKM mirror: small faithful use over years, not one heroic week mistaken for a merit purchase on heaven. [[Judgment Seat]] is where accounts get reviewed; [[Secret Devotion]] and [[Integrity When No One's Watching]] are hidden lanes of faithful use nobody applauded.
+examples:
+  - "I organized snacks for my kid's team and wanted credit all week - faithful steward means using what He gave, not burying it or performing for applause."
+  - "One mission trip in my head as my whole eternal report card - the master reviews faithful use over years, including quiet Tuesdays nobody clapped for."
+relationships:
+  - type: contradicts
+    wikilink: "[[Free Grace]]"
+    reason: "when I treat faithful use as currency that bought eternal life"
+  - type: extends
+    wikilink: "[[Compounding]]"
+    reason: "Small faithful use of entrusted gifts stacks over years"
+  - type: extends
+    wikilink: "[[Eternal Rewards]]"
+    reason: "Well done is repayment for faithfulness, not the entry fee"
+  - type: extends
+    wikilink: "[[Faithfulness]]"
+    reason: "Faithful steward is the garden echo for gospel faithfulness"
+  - type: extends
+    wikilink: "[[Fruits of the Spirit]]"
+    reason: "Faithfulness fruit - steady use of what He entrusted"
+  - type: extends
+    wikilink: "[[Humility and Service]]"
+    reason: "Faithful in small things, not status-grabbing"
+  - type: extends
+    wikilink: "[[Judgment Seat]]"
+    reason: "Stewardship accounts reviewed at the bema"
+  - type: extends
+    wikilink: "[[Secret Devotion]]"
+    reason: "Hidden faithful use - Father sees, not the audience"
+slug: "faithful-steward"
+date: "2026-06-30 08:10:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Reward", "Discipleship"]
-slug: "faithful-steward"
+aliases: ["good and faithful servant", "parable of the talents", "stewardship"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
@@ -25,36 +58,4 @@ cards:
   - front: "Hidden faithful work nobody applauded. Will the master count it?"
     back: "Yes - faithful steward, not the audience."
 draft: false
-aliases: ["good and faithful servant", "parable of the talents", "stewardship"]
 ---
-God entrusts time, gifts, and opportunities; faithfulness with what He gave is what earns "well done" - not a down payment on salvation (Matthew 25:14-30; Luke 19:11-27).
-
-## Key Concept
-
-[[Free Grace]] settled where I spend forever.
-
-Stewardship settles what I do with what He entrusted after. The master returns to settle accounts - faithful use repaid, buried talent rebuked. [[Eternal Rewards]] names the promise; [[Faithful Steward]] names the parable Jesus told for it. [[Compounding]] is the PKM mirror: small faithful use over years, not one heroic week mistaken for a merit purchase on heaven. [[Judgment Seat]] is where accounts get reviewed; [[Secret Devotion]] and [[Integrity When No One's Watching]] are hidden lanes of faithful use nobody applauded.
-
-## Examples
-
-- I organized snacks for my kid's team and wanted credit all week - faithful steward means using what He gave, not burying it or performing for applause.
-- One mission trip in my head as my whole eternal report card - the master reviews faithful use over years, including quiet Tuesdays nobody clapped for.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Free Grace]] | when I treat faithful use as currency that bought eternal life |
-| extends | [[Compounding]] | Small faithful use of entrusted gifts stacks over years |
-| extends | [[Eternal Rewards]] | Well done is repayment for faithfulness, not the entry fee |
-| extends | [[Faithfulness]] | Faithful steward is the garden echo for gospel faithfulness |
-| extends | [[Fruits of the Spirit]] | Faithfulness fruit - steady use of what He entrusted |
-| extends | [[Humility and Service]] | Faithful in small things, not status-grabbing |
-| extends | [[Judgment Seat]] | Stewardship accounts reviewed at the bema |
-| extends | [[Secret Devotion]] | Hidden faithful use - Father sees, not the audience |
-
-## See also
-
-- [[Christianity and Politics]] - Discipleship, Eternal Principles, Gospel
-- [[Discipleship]] - Discipleship, Eternal Principles, Gospel
-- [[Great Commission]] - Discipleship, Eternal Principles, Gospel

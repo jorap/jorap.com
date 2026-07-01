@@ -1,13 +1,31 @@
 ---
 title: "GTD vs PARA"
 meta_title: "GTD vs PARA - Tasks vs Knowledge"
-description: "GTD runs my tasks. PARA runs my notes - cousins, not competitors."
-date: 2026-06-18T06:00:00Z
+description: "GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - here's how I use both without doubling admin."
+key_concept: |
+  GTD runs my tasks.
+  
+  PARA runs my notes - cousins, not competitors.
+examples:
+  - "The practice schedule lives in the task app; the playbook principles live in the notes folder - GTD runs tasks, PARA runs knowledge, cousins not competitors."
+  - "The fridge list holds what we buy this week; the filing cabinet holds school forms with no deadline."
+relationships:
+  - type: contradicts
+    wikilink: "[[PKM]]"
+    reason: "when task inbox truth beats note-garden architecture"
+  - type: extends
+    wikilink: "[[Getting Things Done]]"
+    reason: "Allen task-inbox system on the other side of the comparison"
+  - type: extends
+    wikilink: "[[PARA Method]]"
+    reason: "GTD runs tasks and PARA sorts notes - here's how both work without doubling admin"
+slug: "gtd-vs-para"
+date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["GTD", "PARA", "Productivity", "PKM", "Tiago Forte", "David Allen", "Second Brain", "Note Taking"]
-slug: "gtd-vs-para"
+aliases: ["GTD"]
 featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
@@ -21,30 +39,4 @@ cards:
   - front: "The shift board holds what we finish this week; the training binder holds forms with no deadline"
     back: "Same workplace, two systems"
 draft: false
-aliases: ["GTD"]
 ---
-GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - here's how I use both without doubling admin.
-
-## Key Concept
-
-GTD runs my tasks.
-
-PARA runs my notes - cousins, not competitors.
-
-## Examples
-
-- The practice schedule lives in the task app; the playbook principles live in the notes folder - GTD runs tasks, PARA runs knowledge, cousins not competitors.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[PKM]] | when task inbox truth beats note-garden architecture |
-| extends | [[Getting Things Done]] | Allen task-inbox system on the other side of the comparison |
-| extends | [[PARA Method]] | GTD runs tasks and PARA sorts notes - here's how both work without doubling admin |
-
-## See also
-
-- [[Commonplace Book]] - Note Taking, PKM
-- [[Inbox Zero]] - PKM, Productivity
-- [[Information Diet]] - PKM, Productivity

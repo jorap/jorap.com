@@ -1,13 +1,61 @@
 ---
 title: "Sanctification"
 meta_title: "Sanctification - Becoming Holy After Faith"
-description: "After God declares me righteous, He makes me holy over time - grateful growth, not the price of eternal life."
-date: 2026-06-29T08:05:00Z
+description: "God makes me holy over time after [[Justification]] declares me righteous - gradual change of heart and habit, not the ticket that buys eternal life (1 Thessalonians 4:3; Philippians 1:6)."
+key_concept: |
+  [[Free Grace]] settles where I spend forever.
+  
+  Sanctification settles who I'm becoming on the way. [[Grateful Obedience]] names the posture: grow from thanks, not to earn acceptance. [[Standing vs Fellowship]] keeps a fruitless week from feeling like revoked standing. [[Discipleship]] is the daily walk - hear Jesus, do what He said. [[Abide in Me]] names the engine: fruit from staying connected, not self-powered grit alone. [[Fruits of the Spirit]] names what that fruit looks like - love, joy, peace, patience, and the rest in Galatians 5. [[Eternal Rewards]] repays faithful obedience; [[Loss of Reward]] warns that a wasted season may shrink reward but doesn't un-save you. Sanctification is the slow becoming that obedience shapes. PKM mirror: [[Process Over Outcomes]] - daily faithfulness beats one heroic week I treat like proof I'm saved.
+examples:
+  - "I knew the verse on anger and still lost it at dinner - sanctification is slow; my standing was settled at faith, and I'm still being changed."
+  - "I treated my quiet-time streak like proof God accepts me - faith saves; sanctification grows me after, it doesn't re-open the verdict."
+relationships:
+  - type: alternative
+    wikilink: "[[There Is No Perfect Solution]]"
+    reason: "when I delay obeying until I've fixed myself"
+  - type: contradicts
+    wikilink: "[[Compounding]]"
+    reason: "when holiness streaks compound into proof I'm saved"
+  - type: extends
+    wikilink: "[[Abide in Me]]"
+    reason: "Fruit and holiness flow from staying in Christ, not from earning your spot"
+  - type: extends
+    wikilink: "[[Discipleship]]"
+    reason: "Daily following is how sanctification shows up in real life"
+  - type: extends
+    wikilink: "[[Fruits of the Spirit]]"
+    reason: "Becoming holy over time - the Galatians cluster marks the walk"
+  - type: extends
+    wikilink: "[[Gentleness]]"
+    reason: "Becoming holy includes strength under control in tone"
+  - type: extends
+    wikilink: "[[Grace]]"
+    reason: "Grace sustains growth after the verdict, not before it"
+  - type: extends
+    wikilink: "[[Grateful Obedience]]"
+    reason: "Holiness grows from received [[Mercy]], not earned acceptance"
+  - type: extends
+    wikilink: "[[Joy]]"
+    reason: "Becoming holy includes gladness rooted in Christ - not performance theater"
+  - type: extends
+    wikilink: "[[Justification]]"
+    reason: "Declared righteous first; becoming holy second - don't swap the order"
+  - type: extends
+    wikilink: "[[Loss of Reward]]"
+    reason: "Keep growing after a bad season - holiness and reward are separate ledgers"
+  - type: extends
+    wikilink: "[[Patience]]"
+    reason: "Becoming holy over time - patience marks the slow walk"
+  - type: extends
+    wikilink: "[[Standing vs Fellowship]]"
+    reason: "Becoming holy without re-opening the verdict justification gave"
+slug: "sanctification"
+date: "2026-06-29 08:05:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Free Grace", "Eternal Principles", "Discipleship", "Theology"]
-slug: "sanctification"
+aliases: ["becoming holy", "growth in holiness"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
@@ -25,39 +73,4 @@ cards:
   - front: "One altar-call high, same temper by Friday. What kind of change is this?"
     back: "Daily sanctification - not one sprint."
 draft: false
-aliases: ["becoming holy", "growth in holiness"]
 ---
-God makes me holy over time after [[Justification]] declares me righteous - gradual change of heart and habit, not the ticket that buys eternal life (1 Thessalonians 4:3; Philippians 1:6).
-
-## Key Concept
-
-[[Free Grace]] settles where I spend forever.
-
-Sanctification settles who I'm becoming on the way. [[Grateful Obedience]] names the posture: grow from thanks, not to earn acceptance. [[Standing vs Fellowship]] keeps a fruitless week from feeling like revoked standing. [[Discipleship]] is the daily walk - hear Jesus, do what He said. [[Abide in Me]] names the engine: fruit from staying connected, not self-powered grit alone. [[Fruits of the Spirit]] names what that fruit looks like - love, joy, peace, patience, and the rest in Galatians 5. [[Eternal Rewards]] repays faithful obedience; [[Loss of Reward]] warns that a wasted season may shrink reward but doesn't un-save you. Sanctification is the slow becoming that obedience shapes. PKM mirror: [[Process Over Outcomes]] - daily faithfulness beats one heroic week I treat like proof I'm saved.
-
-## Examples
-
-- I knew the verse on anger and still lost it at dinner - sanctification is slow; my standing was settled at faith, and I'm still being changed.
-- I treated my quiet-time streak like proof God accepts me - faith saves; sanctification grows me after, it doesn't re-open the verdict.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| alternative | [[There Is No Perfect Solution]] | when I delay obeying until I've fixed myself |
-| contradicts | [[Compounding]] | when holiness streaks compound into proof I'm saved |
-| extends | [[Abide in Me]] | Fruit and holiness flow from staying in Christ, not from earning your spot |
-| extends | [[Discipleship]] | Daily following is how sanctification shows up in real life |
-| extends | [[Fruits of the Spirit]] | Becoming holy over time - the Galatians cluster marks the walk |
-| extends | [[Gentleness]] | Becoming holy includes strength under control in tone |
-| extends | [[Grace]] | Grace sustains growth after the verdict, not before it |
-| extends | [[Grateful Obedience]] | Holiness grows from received [[Mercy]], not earned acceptance |
-| extends | [[Joy]] | Becoming holy includes gladness rooted in Christ - not performance theater |
-| extends | [[Justification]] | Declared righteous first; becoming holy second - don't swap the order |
-| extends | [[Loss of Reward]] | Keep growing after a bad season - holiness and reward are separate ledgers |
-| extends | [[Patience]] | Becoming holy over time - patience marks the slow walk |
-| extends | [[Standing vs Fellowship]] | Becoming holy without re-opening the verdict justification gave |
-
-## See also
-
-- [[Faith and Works]] - Eternal Principles, Free Grace, Gospel

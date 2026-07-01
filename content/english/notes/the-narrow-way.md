@@ -1,13 +1,31 @@
 ---
 title: "The Narrow Way"
 meta_title: "The Narrow Way - Enter by the Narrow Gate"
-description: "Jesus warned that the wide gate and broad road lead to destruction - the narrow way is hard but leads to life."
-date: 2026-06-19T09:10:00Z
+description: "Enter by the narrow gate - the road to life is hard and few find it; the broad road to destruction is easy and crowded (Matthew 7:13-14)."
+key_concept: |
+  In [[Free Grace]] terms, the narrow gate is [[Free Grace]] in Christ - not the broad road of self-righteousness, religion-by-works, or moral performance as salvation.
+  
+  Jesus closes the Sermon on the Mount with a fork: not everyone who says "Lord, Lord" enters (Matthew 7:21-23). Those are false professors who never truly believed, not believers who stumbled - [[Loss of Reward]] may apply, but they stay saved. [[Discipleship]] on the narrow path is costly - cross-bearing, enemy-love, truth-telling - but distinct from how eternal life is received: free, by faith, through grace.
+examples:
+  - "Group chat gossip was \"just joking\" - narrow way was not forwarding the screenshot even when staying out made me the odd one."
+  - "Everyone cheered the dirty play that won - the narrow way was passing it up when the ref didn't see, even alone on the bench."
+relationships:
+  - type: alternative
+    wikilink: "[[Loss of Reward]]"
+    reason: "False \"Lord, Lord\" never believed vs believer who loses reward but stays saved"
+  - type: contradicts
+    wikilink: "[[The Golden Rule]]"
+    reason: "when I take the comfortable path because everyone else does"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "The narrow gate is Christ by faith, not the broad road of works that buys nothing"
+slug: "the-narrow-way"
+date: "2026-06-19 09:10:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Discipleship"]
-slug: "the-narrow-way"
+aliases: ["narrow gate", "broad road", "Narrow Way"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
@@ -25,32 +43,4 @@ cards:
   - front: "Tempted to skip hard obedience because everyone's comfortable. Who moves first?"
     back: "I take narrow - don't follow the crowd."
 draft: false
-aliases: ["narrow gate", "broad road", "Narrow Way"]
 ---
-Enter by the narrow gate - the road to life is hard and few find it; the broad road to destruction is easy and crowded (Matthew 7:13-14).
-
-## Key Concept
-
-In [[Free Grace]] terms, the narrow gate is [[Free Grace]] in Christ - not the broad road of self-righteousness, religion-by-works, or moral performance as salvation.
-
-Jesus closes the Sermon on the Mount with a fork: not everyone who says "Lord, Lord" enters (Matthew 7:21-23). Those are false professors who never truly believed, not believers who stumbled - [[Loss of Reward]] may apply, but they stay saved. [[Discipleship]] on the narrow path is costly - cross-bearing, enemy-love, truth-telling - but distinct from how eternal life is received: free, by faith, through grace.
-
-## Examples
-
-- Group chat gossip was "just joking" - narrow way was not forwarding the screenshot even when staying out made me the odd one.
-- Everyone cheered the dirty play that won - the narrow way was passing it up when the ref didn't see, even alone on the bench.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| alternative | [[Loss of Reward]] | False "Lord, Lord" never believed vs believer who loses reward but stays saved |
-| contradicts | [[The Golden Rule]] | when I take the comfortable path because everyone else does |
-| extends | [[Free Grace]] | The narrow gate is Christ by faith, not the broad road of works that buys nothing |
-
-## See also
-
-- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
-- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
-- [[Christianity and Politics]] - Discipleship, Eternal Principles, Gospel
-- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ

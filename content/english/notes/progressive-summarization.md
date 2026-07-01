@@ -1,13 +1,33 @@
 ---
 title: "Progressive Summarization"
 meta_title: "Progressive Summarization - Layers Over Rewrites"
-description: "I don't rewrite whole notes when I distill - bold, then highlight, then summarize when I reuse."
-date: 2026-06-18T06:00:00Z
+description: "I don't rewrite whole notes when I distill - bold, then highlight, then summarize when I actually reuse the note."
+key_concept: |
+  Layer one: bold the good sentences.
+  
+  Layer two: highlight the best bold. Layer three: summary at top - only when I reach for the note a second time. Distill on demand, not on save. Part of CODE's distill step.
+examples:
+  - "I open the playbook notes a second time and bold three plays, then star one for this week's install."
+  - "I open the vendor contract a second time and bold three clauses, then highlight one before I sign."
+relationships:
+  - type: alternative
+    wikilink: "[[The Feynman Technique]]"
+    reason: "Bold layers vs explain-the-gap when distill stays on borrowed text"
+  - type: contradicts
+    wikilink: "[[Synthesis as a Goal]]"
+    reason: "when bold layers beat rewriting into what I believe"
+  - type: extends
+    wikilink: "[[Building a Second Brain]]"
+    reason: "Bold-then-highlight distillation is CODE's distill step"
+  - type: extends
+    wikilink: "[[Layered Reading]]"
+    reason: "Bold/highlight layers before rewrite - same distill move"
+slug: "progressive-summarization"
+date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Progressive Summarization", "Tiago Forte", "PKM", "Distill", "Note Taking", "CODE Method", "Research", "Writing"]
-slug: "progressive-summarization"
 featured: false
 review: true
 card_sets: ["Writing", "Review"]
@@ -21,33 +41,4 @@ cards:
   - front: "I reread the community meeting recap and bold three action items"
     back: "summary at the top only when I'm actually."
 draft: false
-aliases: []
 ---
-I don't rewrite whole notes when I distill - bold, then highlight, then summarize when I actually reuse the note.
-
-## Key Concept
-
-Layer one: bold the good sentences.
-
-Layer two: highlight the best bold. Layer three: summary at top - only when I reach for the note a second time. Distill on demand, not on save. Part of CODE's distill step.
-
-## Examples
-
-- I open the playbook notes a second time and bold three plays, then star one for this week's install.
-- I open the vendor contract a second time and bold three clauses, then highlight one before I sign.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| alternative | [[The Feynman Technique]] | Bold layers vs explain-the-gap when distill stays on borrowed text |
-| contradicts | [[Synthesis as a Goal]] | when bold layers beat rewriting into what I believe |
-| extends | [[Building a Second Brain]] | Bold-then-highlight distillation is CODE's distill step |
-| extends | [[Layered Reading]] | Bold/highlight layers before rewrite - same distill move |
-
-## See also
-
-- [[Commonplace Book]] - Note Taking, PKM
-- [[Literature Notes]] - Note Taking, PKM, Research
-- [[Intellectual Sourcing]] - Note Taking, PKM, Research
-- [[CRDT]] - PKM

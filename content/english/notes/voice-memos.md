@@ -1,13 +1,30 @@
 ---
 title: "Voice Memos"
 meta_title: "Voice Memos"
-description: "capture ideas by speaking when hands or eyes are busy."
-date: 2026-06-22T06:00:00Z
+description: "[[Capture]] ideas by speaking when hands or eyes are busy."
+key_concept: |
+  Speak the capture when thumbs are busy - transcribe or file the audio before it vanishes.
+  
+  [[Mobile Capture Workflows]] and [[Capture]] - speak first, sort on review.
+examples:
+  - "Driving between sites I voice-memo'd the supplier change - transcribed into the inbox when I parked."
+  - "Hands full of groceries, I dictated \"email teacher about field trip\" into the phone before I forgot in the door scramble."
+relationships:
+  - type: contradicts
+    wikilink: "[[Atomic Notes]]"
+    reason: "when the opposite frame fits better"
+  - type: extends
+    wikilink: "[[Context-Aware Capture]]"
+    reason: "Named in notes that link here"
+  - type: extends
+    wikilink: "[[Mobile Capture Workflows]]"
+    reason: "Named in notes that link here"
+slug: "voice-memos"
+date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["PKM", "Capture"]
-slug: "voice-memos"
 featured: false
 review: true
 card_sets: ["Capture", "Workflow"]
@@ -21,30 +38,4 @@ cards:
   - front: "Hands full of groceries, I dictated \"email teacher about field trip\" into the phone before I forgot in the door scramble."
     back: "Capture ideas by speaking when hands or eyes are..."
 draft: false
-aliases: []
 ---
-[[Capture]] ideas by speaking when hands or eyes are busy.
-
-## Key Concept
-
-Named in notes that link here ([[Context-Aware Capture]]).
-
-Tension with [[Atomic Notes]] when the opposite frame fits better.
-
-## Examples
-
-- Driving between sites I voice-memo'd the supplier change - transcribed into the inbox when I parked.
-- Hands full of groceries, I dictated "email teacher about field trip" into the phone before I forgot in the door scramble.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Atomic Notes]] | when the opposite frame fits better |
-| extends | [[Context-Aware Capture]] | Named in notes that link here |
-| extends | [[Mobile Capture Workflows]] | Named in notes that link here |
-
-## See also
-
-- [[Analog Capture Tools]] - Capture, PKM
-- [[Building a Second Brain]] - Capture, PKM

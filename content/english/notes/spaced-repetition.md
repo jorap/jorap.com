@@ -1,13 +1,34 @@
 ---
 title: "Spaced Repetition"
 meta_title: "Spaced Repetition - Remember What You Chose"
-description: "Spaced repetition schedules reviews before I forget. I use it for facts I need cold, not for whole wiki pages."
-date: 2026-06-18T06:00:00Z
+description: "Review facts on a schedule before I forget - for recall, not whole essays."
+key_concept: |
+  Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for.
+  
+  Whole essays don't belong on flashcards. The wiki holds understanding; Anki or SRS apps hold drill - separate lanes, algorithm handles timing. In this garden, spine notes (~20%, [[Pareto Principle]]) opt in with `review: true` - PKM habit prompts and [[Eternal Principles]] gospel cards share the same drill lane via `card_sets`. [[Ask Seek Knock]] is the faith-side version: keep asking on rhythm, not cram once.
+examples:
+  - "I do the same with note cards on capture and gospel lines - review on a schedule before I forget, not one marathon session."
+  - "My kid's spelling list lives on the fridge; we hit five words while rice cooks - same little doses beat cramming the night before the quiz."
+relationships:
+  - type: alternative
+    wikilink: "[[The Feynman Technique]]"
+    reason: "Card drill vs explain-out-loud when scheduling beats narration"
+  - type: contradicts
+    wikilink: "[[Progressive Summarization]]"
+    reason: "when drill schedules beat bold layers for recall"
+  - type: extends
+    wikilink: "[[Evergreen Notes]]"
+    reason: "Evergreen understanding lives in the wiki; spaced repetition drills the facts you need cold"
+  - type: extends
+    wikilink: "[[Forgetting Curve]]"
+    reason: "Ebbinghaus decay curve spaced repetition fights"
+slug: "spaced-repetition"
+date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Spaced Repetition", "SRS", "Anki", "Learning", "Memory", "PKM", "Note Taking", "Tools"]
-slug: "spaced-repetition"
+aliases: ["SRS", "Spaced Repetition Systems", "Spaced Repetition Systems (SRS)"]
 featured: false
 review: true
 card_sets: ["Focus", "Review"]
@@ -25,33 +46,4 @@ cards:
   - front: "Pressure rising and I'm about to skip this principle. One move?"
     back: "review facts on a schedule before I forget"
 draft: false
-aliases: ["SRS", "Spaced Repetition Systems", "Spaced Repetition Systems (SRS)"]
 ---
-Review facts on a schedule before I forget - for recall, not whole essays.
-
-## Key Concept
-
-Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for.
-
-Whole essays don't belong on flashcards. The wiki holds understanding; Anki or SRS apps hold drill - separate lanes, algorithm handles timing. In this garden, spine notes (~20%, [[Pareto Principle]]) opt in with `review: true` - PKM habit prompts and [[Eternal Principles]] gospel cards share the same drill lane via `card_sets`. [[Ask Seek Knock]] is the faith-side version: keep asking on rhythm, not cram once.
-
-## Examples
-
-- I do the same with note cards on capture and gospel lines - review on a schedule before I forget, not one marathon session.
-- My kid's spelling list lives on the fridge; we hit five words while rice cooks - same little doses beat cramming the night before the quiz.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| alternative | [[The Feynman Technique]] | Card drill vs explain-out-loud when scheduling beats narration |
-| contradicts | [[Progressive Summarization]] | when drill schedules beat bold layers for recall |
-| extends | [[Evergreen Notes]] | Evergreen understanding lives in the wiki; spaced repetition drills the facts you need cold |
-| extends | [[Forgetting Curve]] | Ebbinghaus decay curve spaced repetition fights |
-
-## See also
-
-- [[CRDT]] - PKM, Tools
-- [[Commonplace Book]] - Note Taking, PKM
-- [[Layered Reading]] - Learning, PKM
-- [[Tony Buzan]] - Learning, PKM

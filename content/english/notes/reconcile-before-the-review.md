@@ -1,13 +1,40 @@
 ---
 title: "Reconcile Before the Review"
 meta_title: "Reconcile Before the Review - Fix the Relationship First"
-description: "If someone on the team still has something against me, I go fix that before the big performance conversation or project handoff."
-date: 2026-06-21T14:00:00Z
+description: "If a colleague still has something against me, I go address it before the quarterly review, the launch demo, or the reorg meeting."
+key_concept: |
+  Process doesn't heal a broken trust link.
+  
+  The person who knows there's a breach moves first - a short call, an owned apology, a specific repair - then we talk OKRs. Same order as [[Reconciliation Before Worship]], minus the religious frame: relationship before ritual performance.
+examples:
+  - "Strong stats for the scout meeting but my assistant coach was still cold from Tuesday - fifteen minutes with him before we sat with the scout beat hoping charts would smooth it."
+  - "Strong notes for the parent-teacher meeting but my co-teacher was still cold from Tuesday - fifteen minutes with her before we sat with the parents."
+relationships:
+  - type: contradicts
+    wikilink: "[[The Golden Rule at Work]]"
+    reason: "when I want fair treatment but won't initiate repair"
+  - type: extends
+    wikilink: "[[Listen Before Fixing]]"
+    reason: "Repair starts by hearing what still hurts"
+  - type: extends
+    wikilink: "[[Note Relationships]]"
+    reason: "Broken links between people need face-to-face repair like broken wikilinks"
+  - type: extends
+    wikilink: "[[Reconciliation Before Worship]]"
+    reason: "Relationship before ceremony - here, before the review or demo"
+  - type: extends
+    wikilink: "[[The Golden Rule]]"
+    reason: "I'd want someone to fix the rift before judging my performance"
+  - type: implements
+    wikilink: "[[Follow Their Lead]]"
+    reason: "Coffee first - go on their thread before the slides"
+slug: "reconcile-before-the-review"
+date: "2026-06-21 14:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Workplace", "Ethics", "Leadership", "Eternal Principles", "Reconciliation"]
-slug: "reconcile-before-the-review"
+aliases: ["fix the relationship first"]
 featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
@@ -21,35 +48,4 @@ cards:
   - front: "Launch demo is ready but my neighbor sponsor is still hurt from a snub. What comes first?"
     back: "Coffee first - slides second."
 draft: false
-aliases: ["fix the relationship first"]
 ---
-If a colleague still has something against me, I go address it before the quarterly review, the launch demo, or the reorg meeting.
-
-## Key Concept
-
-Process doesn't heal a broken trust link.
-
-The person who knows there's a breach moves first - a short call, an owned apology, a specific repair - then we talk OKRs. Same order as [[Reconciliation Before Worship]], minus the religious frame: relationship before ritual performance.
-
-## Examples
-
-- Strong stats for the scout meeting but my assistant coach was still cold from Tuesday - fifteen minutes with him before we sat with the scout beat hoping charts would smooth it.
-- Strong notes for the parent-teacher meeting but my co-teacher was still cold from Tuesday - fifteen minutes with her before we sat with the parents.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[The Golden Rule at Work]] | when I want fair treatment but won't initiate repair |
-| extends | [[Listen Before Fixing]] | Repair starts by hearing what still hurts |
-| extends | [[Note Relationships]] | Broken links between people need face-to-face repair like broken wikilinks |
-| extends | [[Reconciliation Before Worship]] | Relationship before ceremony - here, before the review or demo |
-| extends | [[The Golden Rule]] | I'd want someone to fix the rift before judging my performance |
-| implements | [[Follow Their Lead]] | Coffee first - go on their thread before the slides |
-
-## See also
-
-- [[Ethical Leadership]] - Ethics, Leadership
-- [[Outcomes Over Pitch Decks]] - Eternal Principles, Ethics, Leadership
-- [[Workplace Principles]] - Eternal Principles, Ethics, Leadership
-- [[Coaching Ethics]] - Ethics, Leadership

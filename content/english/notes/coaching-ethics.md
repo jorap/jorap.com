@@ -1,13 +1,36 @@
 ---
 title: "Coaching Ethics"
 meta_title: "Coaching Ethics"
-description: "develop the person without hiding behind their consent when the drill is unsafe or pointless."
-date: 2026-06-22T06:00:00Z
+description: "Develop the person without hiding behind their consent when the drill is unsafe or pointless."
+key_concept: |
+  Consent doesn't erase the job when the drill is unsafe.
+  
+  [[Safety Comes First]] names consent doesn't erase the job when the drill is unsafe.
+examples:
+  - "The coach who said \"they signed the waiver\" after a near-drown wasn't coaching - he dodged [[Duty of Care]] when the drill was unsafe and pointless."
+  - "The gym sold a dangerous cleanse because customers clicked agree - coaching ethics means you still owe reasonable protection to people under your influence."
+relationships:
+  - type: contradicts
+    wikilink: "[[Life Before Achievement]]"
+    reason: "when the opposite frame fits better"
+  - type: extends
+    wikilink: "[[Develop, Don't Endanger]]"
+    reason: "Named in notes that link here"
+  - type: extends
+    wikilink: "[[Safety Comes First]]"
+    reason: "Consent doesn't erase the job when the drill is unsafe"
+  - type: extends
+    wikilink: "[[Servant Leadership]]"
+    reason: "Named in notes that link here"
+  - type: implements
+    wikilink: "[[Follow Their Lead]]"
+    reason: "Join their world except when the move endangers them"
+slug: "coaching-ethics"
+date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["Leadership", "Safety", "Ethics"]
-slug: "coaching-ethics"
 featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
@@ -21,32 +44,4 @@ cards:
   - front: "The gym sold a dangerous cleanse because customers clicked agree"
     back: "coaching ethics means you still owe reasonable protection."
 draft: false
-aliases: []
 ---
-Develop the person without hiding behind their consent when the drill is unsafe or pointless.
-
-## Key Concept
-
-Named in notes that link here ([[Develop, Don't Endanger]]).
-
-Tension with [[Life Before Achievement]] when the opposite frame fits better.
-
-## Examples
-
-- The coach who said "they signed the waiver" after a near-drown wasn't coaching - he dodged [[Duty of Care]] when the drill was unsafe and pointless.
-- The gym sold a dangerous cleanse because customers clicked agree - coaching ethics means you still owe reasonable protection to people under your influence.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Life Before Achievement]] | when the opposite frame fits better |
-| extends | [[Develop, Don't Endanger]] | Named in notes that link here |
-| extends | [[Safety Comes First]] | Consent doesn't erase the job when the drill is unsafe |
-| extends | [[Servant Leadership]] | Named in notes that link here |
-| implements | [[Follow Their Lead]] | Join their world except when the move endangers them |
-
-## See also
-
-- [[Eliminate Before Managing]] - Ethics, Leadership, Safety
-- [[Ethical Leadership]] - Ethics, Leadership

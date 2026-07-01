@@ -1,4 +1,4 @@
-{{- $limit := site.Params.notes.recent_limit | default 5 | int -}}
+{{- $limit := site.Params.notes.recent_updates_limit | default 12 | int -}}
 {{- $notes := partial "notes/pages.html" . -}}
 {{- $entries := slice -}}
 {{- range $notes -}}
@@ -8,8 +8,8 @@
 {{- $recent := first $limit (sort $entries "Dates.Updated" "desc") -}}
 
 {{- with $recent -}}
-  <section class="notes-recent mb-8">
-    <h2 class="h5 mb-3">Recent Notes</h2>
+  <section class="notes-recent mb-8 lg:mb-0">
+    <h2 class="h5 mb-3">Recent Updates</h2>
     <ul class="notes-recent-list grid gap-3 sm:grid-cols-2">
       {{- range . -}}
         {{- $page := .Page -}}
@@ -17,9 +17,7 @@
         <li class="notes-recent-item">
           <a class="notes-recent-link" href="{{ $page.RelPermalink }}" data-wikilink-preview="{{ $page.RelPermalink }}">
             <span class="notes-recent-title">{{ $page.Title }}</span>
-            <span class="notes-recent-meta text-ink-muted">
-              Created {{ $dates.CreatedDisplay }} · Updated {{ $dates.UpdatedDisplay }}
-            </span>
+            <span class="notes-recent-meta text-ink-muted">Updated {{ $dates.UpdatedDisplay }}</span>
           </a>
         </li>
       {{- end -}}

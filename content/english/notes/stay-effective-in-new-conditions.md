@@ -1,13 +1,37 @@
 ---
 title: "Stay Effective in New Conditions"
 meta_title: "Stay Effective in New Conditions - Strength Outside the Comfort Zone"
-description: "A strength in one environment can fail in the next - real skill means staying useful when conditions change."
-date: 2026-06-22T08:00:00Z
+description: "What made you strong in one room can make you weak in the next."
+key_concept: "Real competence means staying useful outside ideal setups, familiar roles, and comfortable routines - new tools, new teams, crisis mode, career pivots."
+examples:
+  - "I walked the new counter before the lunch rush instead of defending last month's habits when the line got long."
+  - "Our guard dominates on the outdoor court and looks lost on the slick indoor floor for a week - staying effective means adjusting footwork, not defending yesterday's surface."
+relationships:
+  - type: contradicts
+    wikilink: "[[Compounding]]"
+    reason: "when chasing every new tool abandons depth that was still compounding"
+  - type: extends
+    wikilink: "[[Adaptability]]"
+    reason: "Adjust the method when the terrain changes"
+  - type: extends
+    wikilink: "[[Anti-Fragile Systems]]"
+    reason: "Systems that gain from change, not only survive it"
+  - type: extends
+    wikilink: "[[Pressure Reveals Weakness]]"
+    reason: "New conditions are pressure without the warning label"
+  - type: extends
+    wikilink: "[[Resilience]]"
+    reason: "Bounce and stay useful, not only bounce"
+  - type: extends
+    wikilink: "[[Versatility]]"
+    reason: "More than one way to contribute when the old lane closes"
+slug: "stay-effective-in-new-conditions"
+date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Leadership", "Tips"]
 author: "JoRap"
 tags: ["Performance", "Adaptability", "Resilience", "Career"]
-slug: "stay-effective-in-new-conditions"
+aliases: ["effectiveness in new conditions"]
 featured: false
 review: true
 card_sets: ["Focus", "Review"]
@@ -17,32 +41,4 @@ cards:
   - front: "Our guard dominates on the outdoor court and looks lost on the slick indoor floor for a week"
     back: "Not defending yesterday's surface"
 draft: false
-aliases: ["effectiveness in new conditions"]
 ---
-What made you strong in one room can make you weak in the next.
-
-## Key Concept
-
-Real competence means staying useful outside ideal setups, familiar roles, and comfortable routines - new tools, new teams, crisis mode, career pivots.
-
-## Examples
-
-- I walked the new counter before the lunch rush instead of defending last month's habits when the line got long.
-- Our guard dominates on the outdoor court and looks lost on the slick indoor floor for a week - staying effective means adjusting footwork, not defending yesterday's surface.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Compounding]] | when chasing every new tool abandons depth that was still compounding |
-| extends | [[Adaptability]] | Adjust the method when the terrain changes |
-| extends | [[Anti-Fragile Systems]] | Systems that gain from change, not only survive it |
-| extends | [[Pressure Reveals Weakness]] | New conditions are pressure without the warning label |
-| extends | [[Resilience]] | Bounce and stay useful, not only bounce |
-| extends | [[Versatility]] | More than one way to contribute when the old lane closes |
-
-## See also
-
-- [[Accountability]] - Performance
-- [[Attention to Detail]] - Performance
-- [[Composure]] - Performance

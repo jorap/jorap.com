@@ -1,13 +1,25 @@
 ---
 title: "Mental Models"
 meta_title: "Mental Models - Lenses I Actually Use"
-description: "Mainstream mental models for decisions and performance - plus the ones I keep notes on when they earn repeat use."
-date: 2026-06-18T06:00:00Z
+description: "Mental models are shortcuts for thinking. I keep a short list of ones that survived contact with real decisions - not every model on Wikipedia."
+key_concept: Mainstream mental models for decisions and performance - plus the ones I keep notes on when they earn repeat use.
+examples:
+  - "The restaurant had twelve menu tweaks on the whiteboard - I picked the two that actually cut ticket times and shelved the rest."
+  - "Waze showed four commute routes - I stuck to the one that saves gas on the Tuesday school run, not the scenic detour."
+relationships:
+  - type: contradicts
+    wikilink: "[[There Is No Perfect Solution]]"
+    reason: "when a model lens beats treating every tradeoff as equal"
+  - type: extends
+    wikilink: "[[PKM]]"
+    reason: "Thinking shortcuts this hub keeps when they survive real decisions"
+slug: "mental-models"
+date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Mental Models", "Thinking", "PKM", "Decision Making", "MOC", "Learning", "Performance", "Productivity"]
-slug: "mental-models"
+aliases: ["mental-models-list", "Mental Models List"]
 featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
@@ -21,30 +33,4 @@ cards:
   - front: "Forty activity flyers on the fridge and we froze. What's the move?"
     back: "three fit the budget, register online before slots."
 draft: false
-aliases: ["mental-models-list", "Mental Models List"]
 ---
-Mental models are shortcuts for thinking. I keep a short list of ones that survived contact with real decisions - not every model on Wikipedia.
-
-## Key Concept
-
-Mainstream mental models for decisions and performance - plus the ones I keep notes on when they earn repeat use.
-
-## Examples
-
-- The restaurant had twelve menu tweaks on the whiteboard - I picked the two that actually cut ticket times and shelved the rest.
-- Waze showed four commute routes - I stuck to the one that saves gas on the Tuesday school run, not the scenic detour.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[There Is No Perfect Solution]] | when a model lens beats treating every tradeoff as equal |
-| extends | [[PKM]] | Thinking shortcuts this hub keeps when they survive real decisions |
-
-## See also
-
-- [[Behavioral Economics]] - Decision Making, Mental Models
-- [[Decision Quality]] - Decision Making, Performance, Thinking
-- [[Elon Musk]] - Mental Models, Thinking
-- [[Inbox Zero]] - PKM, Productivity
-- [[Information Diet]] - PKM, Productivity

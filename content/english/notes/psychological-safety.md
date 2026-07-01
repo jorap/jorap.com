@@ -1,13 +1,39 @@
 ---
 title: "Psychological Safety"
 meta_title: "Psychological Safety"
-description: "people can name mistakes and near-misses without fear of humiliation or retaliation."
-date: 2026-06-22T06:00:00Z
+description: "People can name mistakes and near-misses without fear of humiliation or retaliation."
+key_concept: |
+  Join their framing before you redirect the blame ([[Follow Their Lead]]).
+  
+  Tension with [[Break the Escalation Cycle]] when the opposite frame fits better.
+examples:
+  - "My kid told me he broke the vase - I thanked him for saying it instead of making him dread confessing next time."
+  - "I named the wrong turn to my carpool - nobody mocked it, so I speak up before the next missed exit."
+relationships:
+  - type: contradicts
+    wikilink: "[[Break the Escalation Cycle]]"
+    reason: "when the opposite frame fits better"
+  - type: extends
+    wikilink: "[[Follow Their Lead]]"
+    reason: "Join their framing before you redirect the blame"
+  - type: extends
+    wikilink: "[[Heed Every Near-Miss]]"
+    reason: "Named in notes that link here"
+  - type: extends
+    wikilink: "[[Listen Before Fixing]]"
+    reason: "People speak up when being heard beats being fixed"
+  - type: extends
+    wikilink: "[[Name the Feeling]]"
+    reason: "Naming emotion without punishment keeps reporting honest"
+  - type: extends
+    wikilink: "[[Own the Error]]"
+    reason: "Named in notes that link here"
+slug: "psychological-safety"
+date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["Leadership", "Safety", "Work"]
-slug: "psychological-safety"
 featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
@@ -21,36 +47,4 @@ cards:
   - front: "The nurse reported the near-mix-up because the charge nurse thanked the catch, not the messenger."
     back: "people can name mistakes and near-misses without..."
 draft: false
-aliases: []
 ---
-People can name mistakes and near-misses without fear of humiliation or retaliation.
-
-## Key Concept
-
-Join their framing before you redirect the blame ([[Follow Their Lead]]).
-
-Tension with [[Break the Escalation Cycle]] when the opposite frame fits better.
-
-## Examples
-
-- My kid told me he broke the vase - I thanked him for saying it instead of making him dread confessing next time.
-- I named the wrong turn to my carpool - nobody mocked it, so I speak up before the next missed exit.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Break the Escalation Cycle]] | when the opposite frame fits better |
-| extends | [[Follow Their Lead]] | Join their framing before you redirect the blame |
-| extends | [[Heed Every Near-Miss]] | Named in notes that link here |
-| extends | [[Listen Before Fixing]] | People speak up when being heard beats being fixed |
-| extends | [[Name the Feeling]] | Naming emotion without punishment keeps reporting honest |
-| extends | [[Own the Error]] | Named in notes that link here |
-
-## See also
-
-- [[Normalization of Deviance]] - Leadership, Safety
-- [[Accountability]] - Leadership, Work
-- [[Coaching Ethics]] - Leadership, Safety
-- [[Develop, Don't Endanger]] - Leadership, Safety
-- [[Duty of Care]] - Leadership, Safety

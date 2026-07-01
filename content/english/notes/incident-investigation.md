@@ -1,13 +1,33 @@
 ---
 title: "Incident Investigation"
 meta_title: "Incident Investigation"
-description: "find system causes after a miss - not only who to blame."
-date: 2026-06-22T06:00:00Z
+description: "Find system causes after a miss - not only who to blame."
+key_concept: |
+  Blameless tone keeps investigation on system causes.
+  
+  [[Blameless Postmortem]] names blameless tone keeps investigation on system causes.
+examples:
+  - "After the equipment cart tipped they traced storage layout and weight limits, not just \"trainer was clumsy.\""
+  - "After the kitchen burn they traced pan placement and stove rules, not just \"kid wasn't careful.\""
+relationships:
+  - type: contradicts
+    wikilink: "[[By Their Fruits]]"
+    reason: "when the opposite frame fits better"
+  - type: extends
+    wikilink: "[[Blameless Postmortem]]"
+    reason: "Blameless tone keeps investigation on system causes"
+  - type: extends
+    wikilink: "[[Heed Every Near-Miss]]"
+    reason: "Named in notes that link here"
+  - type: extends
+    wikilink: "[[Own the Error]]"
+    reason: "Named in notes that link here"
+slug: "incident-investigation"
+date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["Safety", "Continuous Improvement"]
-slug: "incident-investigation"
 featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
@@ -21,34 +41,4 @@ cards:
   - front: "After the tray spill they traced prep timing, not just \"server was clumsy.\""
     back: "find system causes after a miss"
 draft: false
-aliases: []
 ---
-Find system causes after a miss - not only who to blame.
-
-## Key Concept
-
-Named in notes that link here ([[Heed Every Near-Miss]]).
-
-Tension with [[By Their Fruits]] when the opposite frame fits better.
-
-## Examples
-
-- After the equipment cart tipped they traced storage layout and weight limits, not just "trainer was clumsy."
-- After the kitchen burn they traced pan placement and stove rules, not just "kid wasn't careful."
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[By Their Fruits]] | when the opposite frame fits better |
-| extends | [[Blameless Postmortem]] | Blameless tone keeps investigation on system causes |
-| extends | [[Heed Every Near-Miss]] | Named in notes that link here |
-| extends | [[Own the Error]] | Named in notes that link here |
-
-## See also
-
-- [[Coaching Ethics]] - Safety
-- [[Convert Pain Into Learning]] - Continuous Improvement
-- [[Develop, Don't Endanger]] - Safety
-- [[Duty of Care]] - Safety
-- [[Eliminate Before Managing]] - Safety

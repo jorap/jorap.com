@@ -1,13 +1,30 @@
 ---
 title: "Read Later Queue"
 meta_title: "Read Later Queue"
-description: "a parking lot for links you'll process later - dangerous if it becomes a graveyard."
-date: 2026-06-22T06:00:00Z
+description: "A parking lot for links you'll process later - dangerous if it becomes a graveyard."
+key_concept: |
+  Save-for-later is capture with a trap door - without a weekly drain it becomes guilt storage.
+  
+  [[The Collector's Fallacy]] names hoarding; [[The Trusted Inbox]] is the drain that saves the queue.
+examples:
+  - "I saved forty highlight reels and watched twelve - the queue was guilt storage, not training."
+  - "Four hundred saved articles on my phone and I'd read twelve - parking lot, not reading."
+relationships:
+  - type: contradicts
+    wikilink: "[[Active Knowledge Curation]]"
+    reason: "when the opposite frame fits better"
+  - type: extends
+    wikilink: "[[The Collector's Fallacy]]"
+    reason: "Named in notes that link here"
+  - type: extends
+    wikilink: "[[The Trusted Inbox]]"
+    reason: "Named in notes that link here"
+slug: "read-later-queue"
+date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["PKM", "Capture"]
-slug: "read-later-queue"
 featured: false
 review: true
 card_sets: ["Capture", "Workflow"]
@@ -21,32 +38,4 @@ cards:
   - front: "Four hundred saved articles and I'd read twelve. What's the move?"
     back: "The queue was guilt storage, not reading"
 draft: false
-aliases: []
 ---
-A parking lot for links you'll process later - dangerous if it becomes a graveyard.
-
-## Key Concept
-
-Named in notes that link here ([[The Collector's Fallacy]]).
-
-Tension with [[Active Knowledge Curation]] when the opposite frame fits better.
-
-## Examples
-
-
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Active Knowledge Curation]] | when the opposite frame fits better |
-| extends | [[The Collector's Fallacy]] | Named in notes that link here |
-| extends | [[The Trusted Inbox]] | Named in notes that link here |
-
-## See also
-
-- [[Analog Capture Tools]] - Capture, PKM
-- [[Building a Second Brain]] - Capture, PKM
-- [[Capture]] - Capture, PKM
-- [[Context-Aware Capture]] - Capture, PKM
-- [[Mobile Capture Workflows]] - Capture, PKM

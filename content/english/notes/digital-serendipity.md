@@ -1,13 +1,28 @@
 ---
 title: "Digital Serendipity"
 meta_title: "Digital Serendipity - Stumbling on Your Own Ideas"
-description: "Serendipity isn't random luck for me - it's building a system where old notes surprise me at the right time."
-date: 2026-06-18T06:00:00Z
+description: "Serendipity isn't luck for me - I build systems where old notes surprise me at the right time."
+key_concept: "Serendipity isn't random luck for me - it's building a system where old notes surprise me at the right time."
+examples:
+  - "Random note resurfaced a wikilink I'd forgotten - led to a blog post I'd stalled."
+  - "The graph view showed an orphan I'd written two years ago - perfect intro for today's draft."
+relationships:
+  - type: contradicts
+    wikilink: "[[Digital Minimalism]]"
+    reason: "when surprise links beat cutting tools and sync layers"
+  - type: extends
+    wikilink: "[[Associative Linking]]"
+    reason: "Links build the systems where old notes surprise you at the right time"
+  - type: extends
+    wikilink: "[[Serendipity]]"
+    reason: "Happy accident discovery - the noun behind the method"
+slug: "digital-serendipity"
+date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Serendipity", "Resurfacing", "PKM", "Second Brain", "Linking", "Review", "Discovery", "Research", "Browser Tips", "Note Taking"]
-slug: "digital-serendipity"
+aliases: ["Serendipitous Resurfacing", "Serendipity"]
 featured: false
 review: true
 card_sets: ["Linking", "Review"]
@@ -21,30 +36,4 @@ cards:
   - front: "I'm flipping through old recipe cards while packing lunch and a card on quick weeknight meals bumps into one I wrote last month on batch cooking"
     back: "The \"see also\" arrow on the adobo card did the work"
 draft: false
-aliases: ["Serendipitous Resurfacing", "Serendipity"]
 ---
-Serendipity isn't luck for me - I build systems where old notes surprise me at the right time.
-
-## Key Concept
-
-Serendipity isn't random luck for me - it's building a system where old notes surprise me at the right time.
-
-## Examples
-
-- A random graph walk linked "jeepney delay" to "leave earlier" six weeks after I saved both - old notes surprised me at the right time because I'd wired the system for it.
-- I'm flipping through old recipe cards while packing lunch and a card on quick weeknight meals bumps into one I wrote last month on batch cooking - the "see also" arrow on the adobo card did the work.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Digital Minimalism]] | when surprise links beat cutting tools and sync layers |
-| extends | [[Associative Linking]] | Links build the systems where old notes surprise you at the right time |
-| extends | [[Serendipity]] | Happy accident discovery - the noun behind the method |
-
-## See also
-
-- [[Literature Notes]] - Note Taking, PKM, Research
-- [[Maintenance Window]] - PKM, Review
-- [[Atomic Notes]] - Linking, Note Taking, PKM
-- [[Evergreen vs Fleeting Notes]] - Note Taking, PKM, Review

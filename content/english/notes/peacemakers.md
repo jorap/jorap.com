@@ -1,13 +1,46 @@
 ---
 title: "Peacemakers"
 meta_title: "Peacemakers - Blessed Are the Peacemakers"
-description: "Jesus blessed peacemakers - people who actively make peace, not just avoid conflict - and called them children of God."
-date: 2026-06-19T08:45:00Z
+description: "People who actively pursue peace, not just keep quiet - Jesus blessed them and called them children of God (Matthew 5:9)."
+key_concept: |
+  Peacemaking is work: reconciliation, truth spoken in love, de-escalation when others want a fight.
+  
+  It's not peace-at-any-price or avoiding hard conversations. The blessing ties peacemaking to family resemblance - acting like the Father who reconciled me to Himself through [[Free Grace]] before I reconciled with anyone.
+examples:
+  - "Two teammates were feuding in the locker room - I didn't pick a side, I asked what it would take to fix it before the next game."
+  - "Two coworkers wanted me to pick a side over lunch - I called the one I wronged first and asked what it would take to actually fix things."
+relationships:
+  - type: contradicts
+    wikilink: "[[Love Your Enemies]]"
+    reason: "when I confuse peace with never confronting wrong"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Peacemaking mirrors the Father who reconciled you by grace before you reconciled with anyone"
+  - type: extends
+    wikilink: "[[Fruits of the Spirit]]"
+    reason: "Peace is one fruit; peacemaking is the active work Jesus blessed"
+  - type: extends
+    wikilink: "[[Listen Before Fixing]]"
+    reason: "Make peace by hearing before prescribing"
+  - type: extends
+    wikilink: "[[Name the Feeling]]"
+    reason: "Truth in love often starts with naming what's carried"
+  - type: extends
+    wikilink: "[[Peace]]"
+    reason: "Peacemakers is the active echo for gospel peace"
+  - type: extends
+    wikilink: "[[Set Calm Boundaries]]"
+    reason: "Peace through truth includes calm limits"
+  - type: implements
+    wikilink: "[[Break the Escalation Cycle]]"
+    reason: "Peacemaking in the reply-all thread"
+slug: "peacemakers"
+date: "2026-06-19 08:45:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Beatitudes", "Sermon on the Mount"]
-slug: "peacemakers"
+aliases: ["blessed are the peacemakers"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Ethics"]
@@ -25,38 +58,4 @@ cards:
   - front: "Someone thinks peace means never confronting sin. What do I say?"
     back: "Peace is work - truth plus making peace."
 draft: false
-aliases: ["blessed are the peacemakers"]
 ---
-People who actively pursue peace, not just keep quiet - Jesus blessed them and called them children of God (Matthew 5:9).
-
-## Key Concept
-
-Peacemaking is work: reconciliation, truth spoken in love, de-escalation when others want a fight.
-
-It's not peace-at-any-price or avoiding hard conversations. The blessing ties peacemaking to family resemblance - acting like the Father who reconciled me to Himself through [[Free Grace]] before I reconciled with anyone.
-
-## Examples
-
-- Two teammates were feuding in the locker room - I didn't pick a side, I asked what it would take to fix it before the next game.
-- Two coworkers wanted me to pick a side over lunch - I called the one I wronged first and asked what it would take to actually fix things.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Love Your Enemies]] | when I confuse peace with never confronting wrong |
-| extends | [[Free Grace]] | Peacemaking mirrors the Father who reconciled you by grace before you reconciled with anyone |
-| extends | [[Fruits of the Spirit]] | Peace is one fruit; peacemaking is the active work Jesus blessed |
-| extends | [[Listen Before Fixing]] | Make peace by hearing before prescribing |
-| extends | [[Name the Feeling]] | Truth in love often starts with naming what's carried |
-| extends | [[Peace]] | Peacemakers is the active echo for gospel peace |
-| extends | [[Set Calm Boundaries]] | Peace through truth includes calm limits |
-| implements | [[Break the Escalation Cycle]] | Peacemaking in the reply-all thread |
-
-## See also
-
-- [[The Beatitudes]] - Beatitudes, Eternal Principles, Gospel
-- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
-- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
-- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
-- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ

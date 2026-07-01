@@ -2,25 +2,28 @@
 note_kind: "index"
 title: "Eternal Principles"
 meta_title: "Eternal Principles - Jesus' Teachings in the Garden"
-description: "I keep Jesus' unchanging teachings here as atomic notes - faith saves first; these pages cover how I try to live after that."
-date: 2026-06-19T08:00:00Z
+description: "What Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first."
+key_concept: |
+  I split them into one-claim notes so I can link and drill them like the rest of the garden.
+  
+  The ground is [[Free Grace]]: eternal life is God's gift by faith in Christ, not works. These principles aren't the price of heaven. They're how I try to live once I've already received it. Start at [[Free Grace]] if the order matters. Then wander by section below. Gospel spine notes carry six review cards each - drill at [/notes/review/](/notes/review/) and filter by **Eternal Principles** (full deck), **Faith**, **Commandments**, **Ethics**, **Prayer**, **Priorities**, or **Discipleship** to match each section.
+relationships:
+  - type: contradicts
+    wikilink: "[[First Principles Thinking]]"
+    reason: "when I treat gospel ethics as ideas I invented"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Jesus' commands are how you live after grace, not the price tag for heaven"
+slug: "eternal-principles"
+date: "2026-06-19 08:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Free Grace", "MOC", "Sermon on the Mount"]
-slug: "eternal-principles"
+aliases: ["Jesus teachings", "gospel principles"]
 featured: true
 draft: false
-aliases: ["Jesus teachings", "gospel principles"]
 ---
-What Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first.
-
-## Key Concept
-
-I split them into one-claim notes so I can link and drill them like the rest of the garden.
-
-The ground is [[Free Grace]]: eternal life is God's gift by faith in Christ, not works. These principles aren't the price of heaven. They're how I try to live once I've already received it. Start at [[Free Grace]] if the order matters. Then wander by section below. Gospel spine notes carry six review cards each - drill at [/notes/review/](/notes/review/) and filter by **Eternal Principles** (full deck), **Faith**, **Commandments**, **Ethics**, **Prayer**, **Priorities**, or **Discipleship** to match each section.
-
 ## Theological basis
 
 - [[Grace]] - God's unmerited favor; gives good I never earned
@@ -133,11 +136,3 @@ Same ideas show up in my PKM notes. I wired the pairs below so the faith cluster
 | [[Faithful Steward]] | [[Compounding]] | Faithful use of entrusted gifts stacks over years |
 | [[Wood Hay Stubble]] | [[Failure as Feedback]] | Burned work signals what to build - standing on Christ stays |
 | [[Christianity and Politics]] | [[Signal vs Noise]] | Not every headline deserves kingdom-level panic - filter the feed |
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[First Principles Thinking]] | when I treat gospel ethics as ideas I invented |
-| extends | [[Free Grace]] | Jesus' commands are how you live after grace, not the price tag for heaven |
-

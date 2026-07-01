@@ -1,0 +1,41 @@
+{{- /*
+  Rebuild note markdown from frontmatter fields + remaining body.
+  Used for render, wikilink scans, TOC, and graph analytics.
+*/ -}}
+{{- $page := . -}}
+{{- $parts := slice -}}
+
+{{- with or $page.Params.description $page.Params.summary -}}
+  {{- $parts = $parts | append (strings.TrimSpace .) -}}
+{{- end -}}
+
+{{- with $page.Params.key_concept -}}
+  {{- $parts = $parts | append (printf "## Key Concept\n\n%s" (strings.TrimSpace .)) -}}
+{{- end -}}
+
+{{- with $page.Params.examples -}}
+  {{- $bullets := slice -}}
+  {{- range . -}}
+    {{- if strings.TrimSpace . -}}
+      {{- $bullets = $bullets | append (printf "- %s" .) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if $bullets -}}
+    {{- $parts = $parts | append (printf "## Examples\n\n%s" (delimit $bullets "\n")) -}}
+  {{- end -}}
+{{- end -}}
+
+{{- with $page.Params.relationships -}}
+  {{- $rows := slice "| Relationship | Wikilink | Reason |" "|--------------|----------|--------|" -}}
+  {{- range . -}}
+    {{- $rows = $rows | append (printf "| %s | %s | %s |" .type .wikilink .reason) -}}
+  {{- end -}}
+  {{- $parts = $parts | append (printf "## Note Relationships\n\n%s" (delimit $rows "\n")) -}}
+{{- end -}}
+
+{{- $body := $page.RawContent | strings.TrimSpace -}}
+{{- if $body -}}
+  {{- $parts = $parts | append $body -}}
+{{- end -}}
+
+{{- return (delimit $parts "\n\n") -}}

@@ -2,9 +2,23 @@
 note_kind: "index"
 title: "Getting Started"
 meta_title: "Getting Started - Notes Garden"
-description: "Notes garden = one claim per page, wikilinks, public graph. How this site works and how to add your first note."
+description: "One claim per page, linked with `[[wikilinks]]`, browsable at [/notes/](/notes/)."
+key_concept: |
+  Public when `draft: false`; hidden while `draft: true`.
+  
+  Each note opens with a definition I can quote in one breath - the graph and backlinks do the organizing. Start at [[Maps of Content]] or walk through the steps below. Paid client sites use the same Hugo-plus-git lane - hub: [[Selling Static Sites]]. Faith parallel: [[Childlike Faith]] - beginner posture; receive the guide, don't perform expertise on day one.
+relationships:
+  - type: contradicts
+    wikilink: "[[Maps of Content]]"
+    reason: "when jumping into a hub beats reading onboarding first"
+  - type: extends
+    wikilink: "[[Note Relationships]]"
+    reason: "Getting started teaches the garden rules that note relationships formalize with typed links"
+  - type: extends
+    wikilink: "[[Selling Static Sites]]"
+    reason: "Same markdown-first Hugo workflow for paid client sites"
 slug: "getting-started"
-date: 2026-06-18T08:00:00Z
+date: "2026-06-18 08:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
@@ -13,33 +27,17 @@ aliases: ["start"]
 featured: true
 draft: false
 ---
-One claim per page, linked with `[[wikilinks]]`, browsable at [/notes/](/notes/).
-
-## Key Concept
-
-Public when `draft: false`; hidden while `draft: true`.
-
-Each note opens with a definition I can quote in one breath - the graph and backlinks do the organizing. Start at [[Maps of Content]] or walk through the steps below. Paid client sites use the same Hugo-plus-git lane - hub: [[Selling Static Sites]]. Faith parallel: [[Childlike Faith]] - beginner posture; receive the guide, don't perform expertise on day one.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Maps of Content]] | when jumping into a hub beats reading onboarding first |
-| extends | [[Note Relationships]] | Getting started teaches the garden rules that note relationships formalize with typed links |
-| extends | [[Selling Static Sites]] | Same markdown-first Hugo workflow for paid client sites |
-
 ## Atomic rule
 
-**One note = one claim** I'd cite in conversation. Opening line: definition I can quote in one breath. **## Key Concept** - one sentence first, then a second paragraph for stakes, distinctions, wikilinks - before examples. Optional **## Examples
+**One note = one claim** I'd cite in conversation. Put the definition in `description`, the angle in `key_concept`, two scenes in `examples`, and typed links in `relationships` frontmatter - not body `##` sections. Hub/MOC and utility pages may keep prose sections in the body. See [[Atomic Notes]] and [[Note Relationships]].
 
+**Description** - one breath, the single claim I'd quote in conversation.
 
+**Key concept** - not a second definition. First paragraph: one sentence (the angle). Next paragraph: stakes, distinctions, wikilinks.
 
-## Note Relationships** table (extends + contradicts at minimum, sorted by relationship a-z then wikilink a-z, each wikilink once). No other `##` sections - link out instead. See [[Atomic Notes]] and [[Note Relationships]].
+**Examples** - exactly two plain bullets in frontmatter from different fields. Mid-action scenes I might hit this week: jeepney, clinic, group chat, bedtime, inbox.
 
-**Key concept** - not a second definition. First paragraph: one sentence (the angle). Next paragraph: stakes, distinctions, wikilinks. Often mirrors `description` in frontmatter.
-
-**Examples** - exactly two plain bullets from different fields, no genre labels. Mid-action scenes I might hit this week: jeepney, clinic, group chat, bedtime, inbox. Each bullet shows the principle firing, not a definition or key concept restated.
+**Relationships** - `extends` and `contradicts` minimum; optional `implements` and `alternative`. Sorted relationship a-z then wikilink a-z; each target once.
 
 ## Create a note
 
@@ -47,7 +45,7 @@ Each note opens with a definition I can quote in one breath - the graph and back
 hugo new notes/my-idea.md
 ```
 
-Or add a `.md` file under `content/english/notes/`. Use the same frontmatter as blog posts (`title`, `meta_title`, `description`, `slug`, `date`, `image`, `categories`, `author`, `tags`, `featured`, `draft`).
+Or add a `.md` file under `content/english/notes/`. Atomic notes use `description`, `key_concept`, `examples`, and `relationships` in frontmatter plus the usual blog fields (`title`, `meta_title`, `slug`, `date`, `image`, `categories`, `author`, `tags`, `featured`, `draft`).
 
 Created and updated timestamps come from the file itself at build time (`scripts/noteFileDates.js`) - no manual date fields to maintain.
 
@@ -97,7 +95,7 @@ These pages are **meta tools** (`note_kind: meta`), not garden ideas: [Graph](/n
 - **See also** suggests tag-related notes you haven't linked yet.
 - **Graph** at [/notes/graph/](/notes/graph/) maps connections - filter high, low, no body links, and orphans.
 - **Issues** at [/notes/issues/](/notes/issues/) lists broken wikilinks and unlinked note mentions; warnings also show on each affected note.
-- `npm run lint:notes` catches broken wikilinks and unlinked mentions in the **body** at build time (frontmatter is not linted - use note titles freely in `cards:` and other fields).
+- `npm run lint:notes` catches broken wikilinks and unlinked mentions in assembled note content at build time (frontmatter fields are included - use note titles freely in `cards:`).
 
 ## Publish to the blog
 

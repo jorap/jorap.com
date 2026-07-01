@@ -18,7 +18,8 @@
 {{- range $gardenNotes -}}
   {{- $note := . -}}
   {{- $path := $note.File.Path -}}
-  {{- $raw := $note.RawContent -}}
+  {{- $raw := partial "notes/assembled-content.html" $note -}}
+  {{- $bodyOnly := $note.RawContent -}}
   {{- $fence := "```" -}}
   {{- $tick := "`" -}}
   {{- $raw = replaceRE (printf "(?s)%s[\\s\\S]*?%s" $fence $fence) "" $raw -}}
@@ -66,6 +67,8 @@
   {{- $unlinkedKeys := dict -}}
   {{- /* Headings are structure, not prose mentions — e.g. ## Note Relationships */ -}}
   {{- $mentionRaw := replaceRE `(?m)^#{1,6}\s+[^\n]*\n?` "" $raw -}}
+  {{- /* ponytail: words inside [[wikilinks]] are already linked — don't substring-match other titles */ -}}
+  {{- $mentionRaw = replaceRE `\[\[[^\]]+\]\]` " " $mentionRaw -}}
   {{- range $other := $gardenNotes -}}
     {{- if eq $other.RelPermalink $note.RelPermalink -}}
       {{- continue -}}
@@ -134,7 +137,8 @@
   {{- $structure := slice -}}
   {{- if and (eq ($note.Params.note_kind | default "note") "note") (not (partial "notes/is-utility-page.html" $note)) -}}
     {{- $rels := partial "notes/relationship-types.html" $note -}}
-    {{- if not (strings.Contains $raw "## Note Relationships") -}}
+    {{- $hasRels := or $note.Params.relationships (strings.Contains $raw "## Note Relationships") -}}
+    {{- if not $hasRels -}}
       {{- $structure = $structure | append (dict "type" "missingTable") -}}
     {{- end -}}
     {{- if not $rels.extends -}}
@@ -145,7 +149,7 @@
     {{- end -}}
     {{- $allowedSections := slice "key concept" "examples" "note relationships" "see also" -}}
     {{- $extraKeys := dict -}}
-    {{- range findRE `(?m)^## ([^\n]+)` $raw -}}
+    {{- range findRE `(?m)^## ([^\n]+)` $bodyOnly -}}
       {{- $title := . | replaceRE `(?m)^## ` "" | strings.TrimSpace -}}
       {{- if not (in $allowedSections (lower $title)) -}}
         {{- $key := lower $title -}}

@@ -1,13 +1,28 @@
 ---
 title: "The Collector's Fallacy"
 meta_title: "The Collector's Fallacy - Saving Isn't Learning"
-description: "Collecting articles feels like progress - tie saves to express deadlines or cut them."
-date: 2026-06-18T06:00:00Z
+description: "Collecting articles feels like progress. It isn't. The collector's fallacy bit me until I tied saves to express deadlines. [[Treasure in Heaven]] is the faith-side mirror: hoarding what rusts instead of what lasts."
+key_concept: Collecting articles feels like progress - tie saves to express deadlines or cut them.
+examples:
+  - "My recipe folder had forty saved dinners and we still ordered takeout three nights a week until I tied every save to one cooked meal."
+  - "My folder had forty highlight reels and we still ran the same broken play - saving felt like improving; it wasn't until one clip became Tuesday's drill."
+relationships:
+  - type: contradicts
+    wikilink: "[[Capture]]"
+    reason: "when skipping the save kills a spark I'll actually ship from"
+  - type: extends
+    wikilink: "[[Creative Output]]"
+    reason: "Saving articles feels like progress but isn't - tie saves to express deadlines or hoard forever"
+  - type: extends
+    wikilink: "[[Read Later Queue]]"
+    reason: "Where hoarding hides - pile without express"
+slug: "the-collectors-fallacy"
+date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Collectors Fallacy", "PKM", "Capture", "Learning", "Productivity", "Express", "Note Taking"]
-slug: "the-collectors-fallacy"
+aliases: ["the collectors fallacy", "Collector's Fallacy"]
 featured: false
 review: true
 card_sets: ["Capture", "Focus"]
@@ -25,30 +40,4 @@ cards:
   - front: "Bookmark folder growing again - can only ask one question before save. Which?"
     back: "What will I make with this?"
 draft: false
-aliases: ["the collectors fallacy", "Collector's Fallacy"]
 ---
-Collecting articles feels like progress. It isn't. The collector's fallacy bit me until I tied saves to express deadlines. [[Treasure in Heaven]] is the faith-side mirror: hoarding what rusts instead of what lasts.
-
-## Key Concept
-
-Collecting articles feels like progress - tie saves to express deadlines or cut them.
-
-## Examples
-
-- My recipe folder had forty saved dinners and we still ordered takeout three nights a week until I tied every save to one cooked meal.
-- My folder had forty highlight reels and we still ran the same broken play - saving felt like improving; it wasn't until one clip became Tuesday's drill.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Capture]] | when skipping the save kills a spark I'll actually ship from |
-| extends | [[Creative Output]] | Saving articles feels like progress but isn't - tie saves to express deadlines or hoard forever |
-| extends | [[Read Later Queue]] | Where hoarding hides - pile without express |
-
-## See also
-
-- [[Commonplace Book]] - Note Taking, PKM
-- [[Inbox Zero]] - PKM, Productivity
-- [[Information Diet]] - PKM, Productivity
-- [[Layered Reading]] - Learning, PKM

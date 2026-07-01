@@ -1,13 +1,28 @@
 ---
 title: "Associative Linking"
 meta_title: "Associative Linking - How Ideas Find Each Other"
-description: "Folders sort. Links think. Associative linking lets notes meet without remembering every filename."
-date: 2026-06-18T06:00:00Z
+description: "Folders sort. Links think. I link so notes meet without me remembering every filename. Faith parallel: [[Love Your Neighbor]] - neighbors in the graph; ideas linked by proximity and care, not only folder tree."
+key_concept: |
+  Folders sort.
+  
+  Links think. Associative linking lets notes meet without remembering every filename.
+examples:
+  - "I linked \"jeepney delay\" to \"leave earlier\" in my daily note and found it six weeks later when the same route broke again - proximity beats perfect filing."
+  - "The playbook card links \"late press\" to \"[[Slow the Moment]]\" - I find the counter without memorizing every filename in the binder."
+relationships:
+  - type: contradicts
+    wikilink: "[[PARA Method]]"
+    reason: "when links beat sorting by owner and deadline"
+  - type: extends
+    wikilink: "[[Atomic Notes]]"
+    reason: "Links let atomic notes bump into each other without you memorizing every filename"
+slug: "associative-linking"
+date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Linking", "PKM", "Note Taking", "Second Brain", "Digital Garden", "Graph", "Network"]
-slug: "associative-linking"
+aliases: ["Interconnectivity", "Power of Interconnectivity", "The Power of Interconnectivity"]
 featured: false
 review: true
 card_sets: ["Linking", "Writing"]
@@ -25,31 +40,4 @@ cards:
   - front: "Atomic note has extends but no contradicts. Required before filing?"
     back: "Minimum - add one contradicts."
 draft: false
-aliases: ["Interconnectivity", "Power of Interconnectivity", "The Power of Interconnectivity"]
 ---
-Folders sort. Links think. I link so notes meet without me remembering every filename. Faith parallel: [[Love Your Neighbor]] - neighbors in the graph; ideas linked by proximity and care, not only folder tree.
-
-## Key Concept
-
-Folders sort.
-
-Links think. Associative linking lets notes meet without remembering every filename.
-
-## Examples
-
-- I linked "jeepney delay" to "leave earlier" in my daily note and found it six weeks later when the same route broke again - proximity beats perfect filing.
-- The playbook card links "late press" to "[[Slow the Moment]]" - I find the counter without memorizing every filename in the binder.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[PARA Method]] | when links beat sorting by owner and deadline |
-| extends | [[Atomic Notes]] | Links let atomic notes bump into each other without you memorizing every filename |
-
-## See also
-
-- [[Commonplace Book]] - Note Taking, PKM
-- [[Network Analysis]] - Graph, PKM
-- [[Sketchpad]] - Digital Garden, PKM
-- [[Note Relationships]] - Digital Garden, Linking, Note Taking

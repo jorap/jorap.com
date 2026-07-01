@@ -1,13 +1,30 @@
 ---
 title: "Attention Economy"
 meta_title: "Attention Economy"
-description: "platforms compete for your focus - your attention is the product."
-date: 2026-06-22T06:00:00Z
+description: "Platforms compete for your focus - your attention is the product."
+key_concept: |
+  Your focus is the product - guard the pipe before optimizing the inbox.
+  
+  [[Signal vs Noise]] names what to cut; [[Information Diet]] is the weekly menu habit.
+examples:
+  - "I turned off push alerts before trying a new focus app - the pipe was the leak."
+  - "My kid's group chat pinged through homework; airplane mode for forty minutes beat another planner."
+relationships:
+  - type: contradicts
+    wikilink: "[[Digital Serendipity]]"
+    reason: "when the opposite frame fits better"
+  - type: extends
+    wikilink: "[[Digital Minimalism]]"
+    reason: "Named in notes that link here"
+  - type: extends
+    wikilink: "[[Signal vs Noise]]"
+    reason: "Named in notes that link here"
+slug: "attention-economy"
+date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["Productivity", "Digital Minimalism"]
-slug: "attention-economy"
 featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
@@ -21,32 +38,4 @@ cards:
   - front: "My kid's tablet \"educational\" game paused every level for a purchase screen"
     back: "The game wanted her focus, not her learning"
 draft: false
-aliases: []
 ---
-Platforms compete for your focus - your attention is the product.
-
-## Key Concept
-
-Named in notes that link here ([[Digital Minimalism]]).
-
-Tension with [[Digital Serendipity]] when the opposite frame fits better.
-
-## Examples
-
-- The clinic waiting-room TV runs health tips between ads - my attention was the product, not the pamphlet I came for.
-- My kid's tablet "educational" game paused every level for a purchase screen - the game wanted her focus, not her learning.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Digital Serendipity]] | when the opposite frame fits better |
-| extends | [[Digital Minimalism]] | Named in notes that link here |
-| extends | [[Signal vs Noise]] | Named in notes that link here |
-
-## See also
-
-- [[Active Knowledge Curation]] - Productivity
-- [[Analog Capture Tools]] - Productivity
-- [[Anti-Fragile Systems]] - Productivity
-- [[Building a Second Brain]] - Productivity

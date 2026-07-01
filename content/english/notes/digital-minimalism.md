@@ -1,13 +1,30 @@
 ---
 title: "Digital Minimalism"
 meta_title: "Digital Minimalism for Note-Takers"
-description: "Fewer apps and less syncing. My PKM got better when I stopped collecting tools."
-date: 2026-06-18T06:00:00Z
+description: "Fewer apps, fewer sync layers, fewer notifications - my PKM got better when I stopped collecting tools. Overlap with [[Treasure in Heaven]]: less earthly accumulation, clearer allegiance. Political feeds are the same trap - [[Christianity and Politics]] and [[Signal vs Noise]] keep the scroll from replacing prayer."
+key_concept: |
+  Fewer apps and less syncing.
+  
+  My PKM got better when I stopped collecting tools.
+examples:
+  - "We dropped the second gym bag and the backup jump rope - fewer things means I actually know where the one working pair of shoes lives."
+  - "The front desk runs one scheduling app, not four - fewer sync layers means fewer places patient reminders get lost."
+relationships:
+  - type: contradicts
+    wikilink: "[[Digital Serendipity]]"
+    reason: "when fewer pipes beat building for accidental rediscovery"
+  - type: extends
+    wikilink: "[[Attention Economy]]"
+    reason: "What Newport is pushing back on"
+  - type: extends
+    wikilink: "[[Minimum Effective Dose]]"
+    reason: "Cut apps and notifications until you hit the smallest setup that still works"
+slug: "digital-minimalism"
+date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Digital Minimalism", "PKM", "Productivity", "Focus", "Note Taking", "Tools", "Mindful Tech", "Information Diet"]
-slug: "digital-minimalism"
 featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
@@ -21,32 +38,4 @@ cards:
   - front: "The front desk runs one scheduling app, not four. What's the move?"
     back: "fewer sync layers means fewer places patient reminders."
 draft: false
-aliases: []
 ---
-Fewer apps, fewer sync layers, fewer notifications - my PKM got better when I stopped collecting tools. Overlap with [[Treasure in Heaven]]: less earthly accumulation, clearer allegiance. Political feeds are the same trap - [[Christianity and Politics]] and [[Signal vs Noise]] keep the scroll from replacing prayer.
-
-## Key Concept
-
-Fewer apps and less syncing.
-
-My PKM got better when I stopped collecting tools.
-
-## Examples
-
-- We dropped the second gym bag and the backup jump rope - fewer things means I actually know where the one working pair of shoes lives.
-- The front desk runs one scheduling app, not four - fewer sync layers means fewer places patient reminders get lost.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Digital Serendipity]] | when fewer pipes beat building for accidental rediscovery |
-| extends | [[Attention Economy]] | What Newport is pushing back on |
-| extends | [[Minimum Effective Dose]] | Cut apps and notifications until you hit the smallest setup that still works |
-
-## See also
-
-- [[CRDT]] - PKM, Tools
-- [[Commonplace Book]] - Note Taking, PKM
-- [[Deep Work]] - Focus, Productivity
-- [[Inbox Zero]] - PKM, Productivity

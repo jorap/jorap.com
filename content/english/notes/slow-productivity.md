@@ -1,13 +1,30 @@
 ---
 title: "Slow Productivity"
 meta_title: "Slow Productivity - Fewer Projects, Deeper Notes"
-description: "Slow productivity pushes back on busy-as-virtue - fewer projects, more finished work."
-date: 2026-06-18T06:00:00Z
+description: "**Slow Productivity** pushes back on busy-as-virtue. I run fewer active projects so notes become output, not backlog. Overlap with [[Don't Worry]]: less frantic throughput, more trust that depth beats volume."
+key_concept: "Slow productivity pushes back on busy-as-virtue - fewer projects, more finished work."
+examples:
+  - "I dropped a fourth side project to finish one book draft - depth beat breadth this quarter."
+  - "One deep client build this month beat three half-started sites on the portfolio."
+relationships:
+  - type: contradicts
+    wikilink: "[[The 12 Week Year]]"
+    reason: "when fewer deep projects beat quarterly sprints"
+  - type: extends
+    wikilink: "[[Creative Output]]"
+    reason: "Fewer active projects turn notes into finished output instead of endless backlog"
+  - type: extends
+    wikilink: "[[Deep Work]]"
+    reason: "Fewer deep projects - Newport's focus frame nearby"
+  - type: extends
+    wikilink: "[[Energy Protects Judgment]]"
+    reason: "Fewer deep projects protect the energy budget"
+slug: "slow-productivity"
+date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Slow Productivity", "Cal Newport", "PKM", "Focus", "Productivity", "Deep Work", "Note Taking"]
-slug: "slow-productivity"
 featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
@@ -21,31 +38,4 @@ cards:
   - front: "The bakery dropped four \"special\" items and nailed the core six"
     back: "Busy isn't virtue when nothing finishes"
 draft: false
-aliases: []
 ---
-**Slow Productivity** pushes back on busy-as-virtue. I run fewer active projects so notes become output, not backlog. Overlap with [[Don't Worry]]: less frantic throughput, more trust that depth beats volume.
-
-## Key Concept
-
-Slow productivity pushes back on busy-as-virtue - fewer projects, more finished work.
-
-## Examples
-
-- I cut active home projects from six to three last quarter and finished the kids' bookcase instead of Pinterest boards on all six.
-- The bakery dropped four "special" items and nailed the core six - busy isn't virtue when nothing finishes.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[The 12 Week Year]] | when fewer deep projects beat quarterly sprints |
-| extends | [[Creative Output]] | Fewer active projects turn notes into finished output instead of endless backlog |
-| extends | [[Deep Work]] | Fewer deep projects - Newport's focus frame nearby |
-| extends | [[Energy Protects Judgment]] | Fewer deep projects protect the energy budget |
-
-## See also
-
-- [[Commonplace Book]] - Note Taking, PKM
-- [[Inbox Zero]] - PKM, Productivity
-- [[Information Diet]] - PKM, Productivity
-- [[Getting Things Done]] - PKM, Productivity

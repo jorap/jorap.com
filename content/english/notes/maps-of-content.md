@@ -2,23 +2,18 @@
 note_kind: "index"
 title: "Maps of Content"
 meta_title: "Maps of Content (MOC) - Index Pages That Think"
-description: "A MOC is a curated index of notes on a topic - a table of contents I write by hand."
-date: 2026-06-18T06:00:00Z
+description: "**Maps of Content (MOCs)** are hub notes that index related ideas. Use this page to wander the garden."
+key_concept: A MOC is a curated index of notes on a topic - a table of contents I write by hand.
+slug: "maps-of-content"
+date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["MOC", "Maps of Content", "PKM", "Linking", "Organization", "Second Brain", "Hugo", "Website Building"]
-slug: "maps-of-content"
+aliases: ["MOC", "Table of Contents"]
 featured: true
 draft: false
-aliases: ["MOC", "Table of Contents"]
 ---
-**Maps of Content (MOCs)** are hub notes that index related ideas. Use this page to wander the garden.
-
-## Key Concept
-
-A MOC is a curated index of notes on a topic - a table of contents I write by hand.
-
 ## Maps
 
 ### Foundations
@@ -72,9 +67,3 @@ A MOC is a curated index of notes on a topic - a table of contents I write by ha
 - [[Digital Garden]]
 - [[Local-first Software]]
 - [[Future-Proofing Knowledge]]
-
-## See also
-
-- [[Getting Started]]
-- [[PKM]]
-- [[Building a Second Brain]]

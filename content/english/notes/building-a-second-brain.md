@@ -1,13 +1,34 @@
 ---
 title: "Building a Second Brain"
 meta_title: "Building a Second Brain - Capture, Organize, Distill, Express"
-description: "My brain is for having ideas, not storing them. A Second Brain is the system that holds them - starting with capture."
-date: 2026-06-18T06:00:00Z
+description: "Offload ideas so my head can think, not hoard."
+key_concept: |
+  Remember CODE: [[Capture]], organize, distill, express.
+  
+  The system fails when any step is just for show. I review whether each step still earns its place every quarter.
+examples:
+  - "A play idea hits during warm-ups and I voice-memo it before the gym noise eats it - my head is for having ideas, the inbox is for storing them until review."
+  - "A sermon line lands mid-shift and I scribble it on a receipt - one [[trusted inbox]], no sorting yet, process it Sunday when the spark is safe."
+relationships:
+  - type: alternative
+    wikilink: "[[GTD vs PARA]]"
+    reason: "Second brain stack vs task-first inbox when Forte's buckets win"
+  - type: contradicts
+    wikilink: "[[The Collector's Fallacy]]"
+    reason: "when CODE steps become collection theater with no express"
+  - type: extends
+    wikilink: "[[CODE Method]]"
+    reason: "Capture → Organize → Distill → Express pipeline Forte names"
+  - type: extends
+    wikilink: "[[PKM]]"
+    reason: "A second brain offloads ideas so your head can think instead of hoard"
+slug: "building-a-second-brain"
+date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Second Brain", "PKM", "Note Taking", "Productivity", "TiddlyWiki", "Tiago Forte", "CODE Method", "Knowledge Management", "Capture", "Personal Wiki", "Information Architecture"]
-slug: "building-a-second-brain"
+aliases: ["Second Brain", "CODE Method"]
 featured: false
 review: true
 card_sets: ["Workflow", "Organization"]
@@ -25,33 +46,4 @@ cards:
   - front: "Tempted to publish raw captures without distilling. What's the order?"
     back: "Distill first - then express."
 draft: false
-aliases: ["Second Brain", "CODE Method"]
 ---
-Offload ideas so my head can think, not hoard.
-
-## Key Concept
-
-Remember CODE: [[Capture]], organize, distill, express.
-
-The system fails when any step is just for show. I review whether each step still earns its place every quarter.
-
-## Examples
-
-- A play idea hits during warm-ups and I voice-memo it before the gym noise eats it - my head is for having ideas, the inbox is for storing them until review.
-- A sermon line lands mid-shift and I scribble it on a receipt - one [[trusted inbox]], no sorting yet, process it Sunday when the spark is safe.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| alternative | [[GTD vs PARA]] | Second brain stack vs task-first inbox when Forte's buckets win |
-| contradicts | [[The Collector's Fallacy]] | when CODE steps become collection theater with no express |
-| extends | [[CODE Method]] | Capture → Organize → Distill → Express pipeline Forte names |
-| extends | [[PKM]] | A second brain offloads ideas so your head can think instead of hoard |
-
-## See also
-
-- [[Commonplace Book]] - Note Taking, PKM
-- [[Inbox Zero]] - PKM, Productivity
-- [[Information Diet]] - PKM, Productivity
-- [[Read Later Queue]] - Capture, PKM

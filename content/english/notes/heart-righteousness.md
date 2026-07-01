@@ -1,13 +1,37 @@
 ---
 title: "Heart Righteousness"
 meta_title: "Heart Righteousness - Anger and Lust as Heart Sins"
-description: "Jesus taught that murder starts as anger and adultery as lust - righteousness goes deeper than outward compliance."
-date: 2026-06-19T10:00:00Z
+description: "God cares about the inner life, not only outward acts - anger is murder in the heart; lust is adultery in the heart (Matthew 5:21-30)."
+key_concept: |
+  Jesus didn't lower the law; he exposed its depth.
+  
+  "You have heard… but I say" moves righteousness from courtroom compliance to motive and imagination. Under [[Free Grace]], this isn't a new merit ladder - it's the standard the Spirit applies to a life already saved, starting where only God sees. [[Fruits of the Spirit]] names what that inner work produces outward - love, gentleness, self-control, and the rest.
+examples:
+  - "I smiled through the bad call and nursed the anger the whole ride home - heart righteousness is polite outside, poison inside; God cares about the inner life."
+  - "I sent a cold reply that sounded professional while resentment ran inside - Jesus moves righteousness from courtroom compliance to motive."
+relationships:
+  - type: contradicts
+    wikilink: "[[Let Your Light Shine]]"
+    reason: "when I polish the outside while nursing anger inside"
+  - type: extends
+    wikilink: "[[Fruits of the Spirit]]"
+    reason: "Spirit grows inner righteousness into outward character"
+  - type: extends
+    wikilink: "[[Gentleness]]"
+    reason: "Heart standard includes strength under control in tone"
+  - type: extends
+    wikilink: "[[Goodness]]"
+    reason: "Goodness fruit matches inner motive to outward deed"
+  - type: extends
+    wikilink: "[[Judge Not]]"
+    reason: "God cares about inner motive, not the hypocritical judging judge not forbids"
+slug: "heart-righteousness"
+date: "2026-06-19 10:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Holiness"]
-slug: "heart-righteousness"
+aliases: ["anger and lust", "heart sins"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Ethics"]
@@ -25,35 +49,4 @@ cards:
   - front: "Tempted to excuse inner sin because nobody saw. Who sees?"
     back: "God sees heart - start where only He looks."
 draft: false
-aliases: ["anger and lust", "heart sins"]
 ---
-God cares about the inner life, not only outward acts - anger is murder in the heart; lust is adultery in the heart (Matthew 5:21-30).
-
-## Key Concept
-
-Jesus didn't lower the law; he exposed its depth.
-
-"You have heard… but I say" moves righteousness from courtroom compliance to motive and imagination. Under [[Free Grace]], this isn't a new merit ladder - it's the standard the Spirit applies to a life already saved, starting where only God sees. [[Fruits of the Spirit]] names what that inner work produces outward - love, gentleness, self-control, and the rest.
-
-## Examples
-
-- I smiled through the bad call and nursed the anger the whole ride home - heart righteousness is polite outside, poison inside; God cares about the inner life.
-- I sent a cold reply that sounded professional while resentment ran inside - Jesus moves righteousness from courtroom compliance to motive.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Let Your Light Shine]] | when I polish the outside while nursing anger inside |
-| extends | [[Fruits of the Spirit]] | Spirit grows inner righteousness into outward character |
-| extends | [[Gentleness]] | Heart standard includes strength under control in tone |
-| extends | [[Goodness]] | Goodness fruit matches inner motive to outward deed |
-| extends | [[Judge Not]] | God cares about inner motive, not the hypocritical judging judge not forbids |
-
-## See also
-
-- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
-- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
-- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
-- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ
-- [[Eternal Rewards]] - Eternal Principles, Gospel, Jesus Christ

@@ -1,13 +1,34 @@
 ---
 title: "Habit Stacking"
 meta_title: "Habit Stacking - Piggyback on What You Already Do"
-description: "Habit stacking attaches a new small move to a habit that already runs on autopilot - one anchor, one add-on."
-date: 2026-06-22T06:00:00Z
+description: "Attach a new small habit to one you already do without thinking - after coffee, open the notebook; after shoes on, one stretch."
+key_concept: "Habit stacking attaches a new small move to a habit that already runs on autopilot - one anchor, one add-on."
+examples:
+  - "After I clock in, I scan the handoff sheet - the clock-in is the anchor, the scan piggybacked; no new time slot, just a chain."
+  - "After I pour the first coffee, I open the pocket notebook - habit stacking attaches the new move to one that already runs on autopilot."
+relationships:
+  - type: contradicts
+    wikilink: "[[First Principles Thinking]]"
+    reason: "when stacking onto a broken anchor cements a bad loop nobody questioned"
+  - type: extends
+    wikilink: "[[Build a Reliable Default]]"
+    reason: "Stacked moves become defaults under pressure"
+  - type: extends
+    wikilink: "[[Compounding]]"
+    reason: "Small chained repeats stack"
+  - type: extends
+    wikilink: "[[Habit Formation]]"
+    reason: "Stacking is one way habits start without a new time slot"
+  - type: implements
+    wikilink: "[[Systems for Growth]]"
+    reason: "Growth hub indexes the install moves this tactic serves"
+slug: "habit-stacking"
+date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["Habits", "Performance", "Systems Thinking"]
-slug: "habit-stacking"
+aliases: ["habit stack"]
 featured: false
 review: true
 card_sets: ["Focus", "Review"]
@@ -17,30 +38,4 @@ cards:
   - front: "After I clock in, I scan the handoff sheet. What's the move?"
     back: "No new time slot, just a chain"
 draft: false
-aliases: ["habit stack"]
 ---
-Attach a new small habit to one you already do without thinking - after coffee, open the notebook; after shoes on, one stretch.
-
-## Key Concept
-
-Habit stacking attaches a new small move to a habit that already runs on autopilot - one anchor, one add-on.
-
-## Examples
-
-- After I clock in, I scan the handoff sheet - the clock-in is the anchor, the scan piggybacked; no new time slot, just a chain.
-- After I pour the first coffee, I open the pocket notebook - habit stacking attaches the new move to one that already runs on autopilot.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[First Principles Thinking]] | when stacking onto a broken anchor cements a bad loop nobody questioned |
-| extends | [[Build a Reliable Default]] | Stacked moves become defaults under pressure |
-| extends | [[Compounding]] | Small chained repeats stack |
-| extends | [[Habit Formation]] | Stacking is one way habits start without a new time slot |
-| implements | [[Systems for Growth]] | Growth hub indexes the install moves this tactic serves |
-
-## See also
-
-- [[Continuous Improvement]] - Habits, Performance, Systems Thinking
-- [[Systems Thinking]] - Habits, Performance, Systems Thinking

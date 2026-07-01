@@ -1,13 +1,58 @@
 ---
 title: "Slow the Moment"
 meta_title: "Slow the Moment - Urgency Shouldn't Erase Judgment"
-description: "Before reacting under pressure, create enough mental space to see the situation and choose deliberately."
-date: 2026-06-22T08:00:00Z
+description: "Pressure creates urgency, but urgency shouldn't erase judgment."
+key_concept: "Before you react, buy enough mental space to understand what's happening, weigh consequences, and choose on purpose - not on adrenaline."
+examples:
+  - "Cut off in traffic, my first instinct matched horn for horn - slow the moment was one breath before I became the driver I hate."
+  - "Before the free throw with the game on the line, the shooter took one breath - slow the moment bought the routine instead of the panic heave."
+relationships:
+  - type: alternative
+    wikilink: "[[Break the Escalation Cycle]]"
+    reason: "Pause before reply vs absorb without escalating when conflict is written"
+  - type: contradicts
+    wikilink: "[[Plain Commitments at Work]]"
+    reason: "when pausing breaks a response time a client or colleague was already promised"
+  - type: extends
+    wikilink: "[[Control the Rhythm]]"
+    reason: "Slowing the moment is how you take the pace back"
+  - type: extends
+    wikilink: "[[Decision Quality]]"
+    reason: "Better choices need a beat before the commit"
+  - type: extends
+    wikilink: "[[Emotional Regulation]]"
+    reason: "Name the spike before you act on it"
+  - type: extends
+    wikilink: "[[Energy Protects Judgment]]"
+    reason: "Tired brains skip the pause first"
+  - type: extends
+    wikilink: "[[Fruits of the Spirit]]"
+    reason: "Patience fruit - one beat before reaction"
+  - type: extends
+    wikilink: "[[Patience]]"
+    reason: "Slow the moment is the garden echo for gospel patience"
+  - type: extends
+    wikilink: "[[Pressure Reveals Weakness]]"
+    reason: "Rush exposes habits you never tested"
+  - type: extends
+    wikilink: "[[Self-Control]]"
+    reason: "Restraint in the second before the reaction"
+  - type: implements
+    wikilink: "[[Listen Before Fixing]]"
+    reason: "One beat before the fix lands"
+  - type: implements
+    wikilink: "[[Name the Feeling]]"
+    reason: "Pause before the label or the lecture"
+  - type: implements
+    wikilink: "[[Set Calm Boundaries]]"
+    reason: "Steady voice needs a beat first"
+slug: "slow-the-moment"
+date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Leadership", "Tips"]
 author: "JoRap"
 tags: ["Performance", "Decision Making", "Self-Control", "Conflict"]
-slug: "slow-the-moment"
+aliases: ["pause before reacting"]
 featured: false
 review: true
 card_sets: ["Focus", "Review"]
@@ -17,39 +62,4 @@ cards:
   - front: "Before the free throw with the game on the line, the shooter took one breath"
     back: "slow the moment bought the routine instead of."
 draft: false
-aliases: ["pause before reacting"]
 ---
-Pressure creates urgency, but urgency shouldn't erase judgment.
-
-## Key Concept
-
-Before you react, buy enough mental space to understand what's happening, weigh consequences, and choose on purpose - not on adrenaline.
-
-## Examples
-
-- Cut off in traffic, my first instinct matched horn for horn - slow the moment was one breath before I became the driver I hate.
-- Before the free throw with the game on the line, the shooter took one breath - slow the moment bought the routine instead of the panic heave.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| alternative | [[Break the Escalation Cycle]] | Pause before reply vs absorb without escalating when conflict is written |
-| contradicts | [[Plain Commitments at Work]] | when pausing breaks a response time a client or colleague was already promised |
-| extends | [[Control the Rhythm]] | Slowing the moment is how you take the pace back |
-| extends | [[Decision Quality]] | Better choices need a beat before the commit |
-| extends | [[Emotional Regulation]] | Name the spike before you act on it |
-| extends | [[Energy Protects Judgment]] | Tired brains skip the pause first |
-| extends | [[Fruits of the Spirit]] | Patience fruit - one beat before reaction |
-| extends | [[Patience]] | Slow the moment is the garden echo for gospel patience |
-| extends | [[Pressure Reveals Weakness]] | Rush exposes habits you never tested |
-| extends | [[Self-Control]] | Restraint in the second before the reaction |
-| implements | [[Listen Before Fixing]] | One beat before the fix lands |
-| implements | [[Name the Feeling]] | Pause before the label or the lecture |
-| implements | [[Set Calm Boundaries]] | Steady voice needs a beat first |
-
-## See also
-
-- [[Composure]] - Performance, Self-Control
-- [[Discipline]] - Performance, Self-Control
-- [[Behavioral Economics]] - Decision Making

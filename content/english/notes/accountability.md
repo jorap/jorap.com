@@ -1,13 +1,30 @@
 ---
 title: "Accountability"
 meta_title: "Accountability - Clear Ownership for Outcomes"
-description: "Accountability is naming who owns the result - and what happens when it slips."
-date: 2026-06-22T08:00:00Z
+description: "Clear ownership - who answers for the outcome, the miss, and the fix."
+key_concept: Accountability is naming who owns the result - and what happens when it slips.
+examples:
+  - "The condo board didn't say \"someone should fix the gate\" - they named a contact and a deadline in the group chat before anyone drove off."
+  - "After a patient mix-up, our charge nurse named who was running the code cart and who was documenting - not \"everyone was involved.\" One owner, one timeline, one honest chart note before the shift ended."
+relationships:
+  - type: contradicts
+    wikilink: "[[Forgiveness at Work]]"
+    reason: "when naming who owns the fix turns into a blame thread that blocks repair"
+  - type: extends
+    wikilink: "[[Complete the Cycle]]"
+    reason: "Owners close loops"
+  - type: extends
+    wikilink: "[[Own the Error]]"
+    reason: "Accountability starts with naming the miss"
+  - type: extends
+    wikilink: "[[Servant Leadership]]"
+    reason: "Leaders take blame upward, share credit down"
+slug: "accountability"
+date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["Leadership", "Work", "Performance"]
-slug: "accountability"
 featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
@@ -21,31 +38,4 @@ cards:
   - front: "After a patient mix-up, our charge nurse named who was running the code cart and who was documenting"
     back: "One honest chart note before the shift ended"
 draft: false
-aliases: []
 ---
-Clear ownership - who answers for the outcome, the miss, and the fix.
-
-## Key Concept
-
-Accountability is naming who owns the result - and what happens when it slips.
-
-## Examples
-
-- The condo board didn't say "someone should fix the gate" - they named a contact and a deadline in the group chat before anyone drove off.
-- After a patient mix-up, our charge nurse named who was running the code cart and who was documenting - not "everyone was involved." One owner, one timeline, one honest chart note before the shift ended.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Forgiveness at Work]] | when naming who owns the fix turns into a blame thread that blocks repair |
-| extends | [[Complete the Cycle]] | Owners close loops |
-| extends | [[Own the Error]] | Accountability starts with naming the miss |
-| extends | [[Servant Leadership]] | Leaders take blame upward, share credit down |
-
-## See also
-
-- [[Leadership]] - Leadership, Performance, Work
-- [[Attention to Detail]] - Performance, Work
-- [[Composure]] - Leadership, Performance
-- [[Control the Rhythm]] - Leadership, Performance

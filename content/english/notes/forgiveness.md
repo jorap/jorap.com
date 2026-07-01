@@ -1,13 +1,43 @@
 ---
 title: "Forgiveness"
 meta_title: "Forgiveness - As the Father Forgives You"
-description: "Jesus tied receiving forgiveness to extending it - forgive from the heart, not just with words."
-date: 2026-06-19T08:25:00Z
+description: "Forgive others from the heart, as the Father forgives you - Jesus tied extending forgiveness to walking in the grace already received (Matthew 6:14-15, 18:21-35)."
+key_concept: |
+  The [[Ask Seek Knock]] builds forgiveness into daily rhythm.
+  
+  The parable of the unforgiving servant (Matthew 18) makes the math plain: the king forgave an unpayable debt - picture of [[Free Grace]] already given - and the servant's refusal to forgive a small debt exposed a heart out of step with [[Mercy]]. Same move as [[Sunk Cost Fallacy]] in reverse: I stop treating past hurt as a reason to keep collecting on a debt that's already been cleared. Seventy times seven ends the ledger-keeping. For believers, unforgiveness chokes fellowship and joy; it doesn't undo eternal life bought by faith ([[Standing vs Fellowship]] and [[Loss of Reward]] keep the categories straight).
+examples:
+  - "My kid hurt my feelings at breakfast and I said \"it's fine\" while nursing the grudge - forgiveness is releasing the debt, not pretending it didn't matter."
+  - "I prayed about forgiving others on autopilot and skipped that line because I'm still mad at my brother from last Sunday - you can't ask for mercy with one breath and hold a grudge with the next."
+relationships:
+  - type: contradicts
+    wikilink: "[[Sunk Cost Fallacy]]"
+    reason: "when I treat old hurt as debt I'm owed forever"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "You forgive because God already cleared a debt you couldn't pay"
+  - type: extends
+    wikilink: "[[Grace]]"
+    reason: "Forgive from grace already received - not to earn it"
+  - type: extends
+    wikilink: "[[Loss of Reward]]"
+    reason: "Sin breaks fellowship; confess and walk - standing on Christ stays"
+  - type: extends
+    wikilink: "[[Mercy]]"
+    reason: "Mercy cleared your debt; extend the same to others"
+  - type: extends
+    wikilink: "[[Set Calm Boundaries]]"
+    reason: "Forgive the heart; keep boundaries where trust still rebuilds"
+  - type: extends
+    wikilink: "[[Standing vs Fellowship]]"
+    reason: "Unforgiveness breaks closeness, not the verdict at faith"
+slug: "forgiveness"
+date: "2026-06-19 08:25:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Forgiveness"]
-slug: "forgiveness"
+aliases: ["forgive from the heart"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Ethics"]
@@ -25,36 +55,4 @@ cards:
   - front: "I was forgiven much but choking someone over pocket change. What's my move?"
     back: "Forgive - release the small debt."
 draft: false
-aliases: ["forgive from the heart"]
 ---
-Forgive others from the heart, as the Father forgives you - Jesus tied extending forgiveness to walking in the grace already received (Matthew 6:14-15, 18:21-35).
-
-## Key Concept
-
-The [[Ask Seek Knock]] builds forgiveness into daily rhythm.
-
-The parable of the unforgiving servant (Matthew 18) makes the math plain: the king forgave an unpayable debt - picture of [[Free Grace]] already given - and the servant's refusal to forgive a small debt exposed a heart out of step with [[Mercy]]. Same move as [[Sunk Cost Fallacy]] in reverse: I stop treating past hurt as a reason to keep collecting on a debt that's already been cleared. Seventy times seven ends the ledger-keeping. For believers, unforgiveness chokes fellowship and joy; it doesn't undo eternal life bought by faith ([[Standing vs Fellowship]] and [[Loss of Reward]] keep the categories straight).
-
-## Examples
-
-- My kid hurt my feelings at breakfast and I said "it's fine" while nursing the grudge - forgiveness is releasing the debt, not pretending it didn't matter.
-- I prayed about forgiving others on autopilot and skipped that line because I'm still mad at my brother from last Sunday - you can't ask for mercy with one breath and hold a grudge with the next.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Sunk Cost Fallacy]] | when I treat old hurt as debt I'm owed forever |
-| extends | [[Free Grace]] | You forgive because God already cleared a debt you couldn't pay |
-| extends | [[Grace]] | Forgive from grace already received - not to earn it |
-| extends | [[Loss of Reward]] | Sin breaks fellowship; confess and walk - standing on Christ stays |
-| extends | [[Mercy]] | Mercy cleared your debt; extend the same to others |
-| extends | [[Set Calm Boundaries]] | Forgive the heart; keep boundaries where trust still rebuilds |
-| extends | [[Standing vs Fellowship]] | Unforgiveness breaks closeness, not the verdict at faith |
-
-## See also
-
-- [[Love Your Enemies]] - Eternal Principles, Forgiveness, Gospel
-- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
-- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
-- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ

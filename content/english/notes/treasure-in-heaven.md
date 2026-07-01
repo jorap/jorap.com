@@ -1,13 +1,34 @@
 ---
 title: "Treasure in Heaven"
 meta_title: "Treasure in Heaven - Where Your Heart Follows"
-description: "Jesus said store treasure in heaven, not on earth - moth and rust destroy earthly wealth; heaven's treasure lasts."
-date: 2026-06-19T09:05:00Z
+description: "Store up what lasts - generosity, mercy, obedience - not what moth, rust, and thieves take (Matthew 6:19-21)."
+key_concept: |
+  Where your treasure is, there your heart will be.
+  
+  Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation. [[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life for faithfulness - not the entry fee. The [[Judgment Seat]] evaluates what lasts; [[Wood Hay Stubble]] names what burns vs survives the fire; [[Loss of Reward]] is when worthless treasure burns but you're still saved through fire. [[The Collector's Fallacy]] is the PKM mirror: hoarding saves and stuff on earth while nothing lasting gets stored.
+examples:
+  - "Thumb on another buy I don't need - will this rust, or store something heaven-side like mercy and obedience?"
+  - "I almost chased a sponsorship for the ego, not the team - treasure check: where will this matter in ten years?"
+relationships:
+  - type: contradicts
+    wikilink: "[[The Collector's Fallacy]]"
+    reason: "when I hoard earth and call it wisdom"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Grace secured heaven; treasure names what you store after - not the entry fee"
+  - type: extends
+    wikilink: "[[Loss of Reward]]"
+    reason: "Worthless stored treasure burns; eternal life on Christ stays"
+  - type: extends
+    wikilink: "[[Wood Hay Stubble]]"
+    reason: "Store gold-side treasure; wood hay stubble won't survive evaluation"
+slug: "treasure-in-heaven"
+date: "2026-06-19 09:05:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Priorities"]
-slug: "treasure-in-heaven"
+aliases: ["lay up treasure", "where your treasure is"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Priorities"]
@@ -25,34 +46,4 @@ cards:
   - front: "Thumb on another buy I don't need. One check before checkout?"
     back: "Will this rust - or store something that lasts?"
 draft: false
-aliases: ["lay up treasure", "where your treasure is"]
 ---
-Store up what lasts - generosity, mercy, obedience - not what moth, rust, and thieves take (Matthew 6:19-21).
-
-## Key Concept
-
-Where your treasure is, there your heart will be.
-
-Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation. [[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life for faithfulness - not the entry fee. The [[Judgment Seat]] evaluates what lasts; [[Wood Hay Stubble]] names what burns vs survives the fire; [[Loss of Reward]] is when worthless treasure burns but you're still saved through fire. [[The Collector's Fallacy]] is the PKM mirror: hoarding saves and stuff on earth while nothing lasting gets stored.
-
-## Examples
-
-- Thumb on another buy I don't need - will this rust, or store something heaven-side like mercy and obedience?
-- I almost chased a sponsorship for the ego, not the team - treasure check: where will this matter in ten years?
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[The Collector's Fallacy]] | when I hoard earth and call it wisdom |
-| extends | [[Free Grace]] | Grace secured heaven; treasure names what you store after - not the entry fee |
-| extends | [[Loss of Reward]] | Worthless stored treasure burns; eternal life on Christ stays |
-| extends | [[Wood Hay Stubble]] | Store gold-side treasure; wood hay stubble won't survive evaluation |
-
-## See also
-
-- [[Seek the Kingdom First]] - Eternal Principles, Gospel, Jesus Christ
-- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
-- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
-- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
-- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ

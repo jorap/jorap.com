@@ -1,13 +1,54 @@
 ---
 title: "The Beatitudes"
 meta_title: "The Beatitudes - Blessed Are the..."
-description: "Eight blessings Jesus opened the Sermon on the Mount with - traits of kingdom people, not worldly winners."
-date: 2026-06-19T08:35:00Z
+description: "Eight blessings Jesus opened the Sermon on the Mount with - poor in spirit, mourners, meek, hungry for righteousness, merciful, pure in heart, peacemakers, persecuted (Matthew 5:3-12)."
+key_concept: |
+  "Beatitude" means supreme blessedness.
+  
+  Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not the self-sufficient - which fits [[Free Grace]] perfectly. "Poor in spirit" is bankruptcy before God, receiving the kingdom as gift rather than wage. Each line promises reward rooted in character shaped by grace, not self-made righteousness.
+  
+  | Trait | Promise |
+  |-------|---------|
+  | Poor in spirit | Kingdom of heaven |
+  | Mourning | Comfort |
+  | Meek | Inherit the earth |
+  | Hunger for righteousness | Filled |
+  | Merciful | Obtain [[Mercy]] |
+  | Pure in heart | See God |
+  | [[Peacemakers]] | Called children of God |
+  | Persecuted for righteousness | Kingdom of heaven |
+examples:
+  - "A good week at the clinic and I felt like I didn't need much from God - poor in spirit is broke before God, not the worker who nailed Friday's schedule."
+  - "After a winning streak I caught myself feeling spiritually self-sufficient - Beatitudes start with poor in spirit, not the athlete who just had a perfect weekend."
+relationships:
+  - type: contradicts
+    wikilink: "[[Humility and Service]]"
+    reason: "when pride masquerades as strength"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "The kingdom belongs to the spiritually needy who receive it as gift, not wage"
+  - type: extends
+    wikilink: "[[Fruits of the Spirit]]"
+    reason: "Kingdom character overlaps - meek, merciful, peacemakers meet the Galatians cluster"
+  - type: extends
+    wikilink: "[[Gentleness]]"
+    reason: "Meek inherit the earth - gentleness Jesus blessed"
+  - type: extends
+    wikilink: "[[Kindness]]"
+    reason: "Merciful obtain mercy - kindness Jesus blessed"
+  - type: extends
+    wikilink: "[[Mercy]]"
+    reason: "Merciful obtain mercy - beatitude character Jesus blessed"
+  - type: extends
+    wikilink: "[[Peace]]"
+    reason: "Peacemakers blessed - kingdom peace made visible"
+slug: "the-beatitudes"
+date: "2026-06-19 08:35:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Beatitudes"]
-slug: "the-beatitudes"
+aliases: ["blessed are", "Beatitudes"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Ethics"]
@@ -25,47 +66,4 @@ cards:
   - front: "Persecuted for doing right - tempted to quit looking faithful. What's the promise?"
     back: "Kingdom of heaven - blessed are persecuted."
 draft: false
-aliases: ["blessed are", "Beatitudes"]
 ---
-Eight blessings Jesus opened the Sermon on the Mount with - poor in spirit, mourners, meek, hungry for righteousness, merciful, pure in heart, peacemakers, persecuted (Matthew 5:3-12).
-
-## Key Concept
-
-"Beatitude" means supreme blessedness.
-
-Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not the self-sufficient - which fits [[Free Grace]] perfectly. "Poor in spirit" is bankruptcy before God, receiving the kingdom as gift rather than wage. Each line promises reward rooted in character shaped by grace, not self-made righteousness.
-
-| Trait | Promise |
-|-------|---------|
-| Poor in spirit | Kingdom of heaven |
-| Mourning | Comfort |
-| Meek | Inherit the earth |
-| Hunger for righteousness | Filled |
-| Merciful | Obtain [[Mercy]] |
-| Pure in heart | See God |
-| [[Peacemakers]] | Called children of God |
-| Persecuted for righteousness | Kingdom of heaven |
-
-## Examples
-
-- A good week at the clinic and I felt like I didn't need much from God - poor in spirit is broke before God, not the worker who nailed Friday's schedule.
-- After a winning streak I caught myself feeling spiritually self-sufficient - Beatitudes start with poor in spirit, not the athlete who just had a perfect weekend.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Humility and Service]] | when pride masquerades as strength |
-| extends | [[Free Grace]] | The kingdom belongs to the spiritually needy who receive it as gift, not wage |
-| extends | [[Fruits of the Spirit]] | Kingdom character overlaps - meek, merciful, peacemakers meet the Galatians cluster |
-| extends | [[Gentleness]] | Meek inherit the earth - gentleness Jesus blessed |
-| extends | [[Kindness]] | Merciful obtain mercy - kindness Jesus blessed |
-| extends | [[Mercy]] | Merciful obtain mercy - beatitude character Jesus blessed |
-| extends | [[Peace]] | Peacemakers blessed - kingdom peace made visible |
-
-## See also
-
-- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
-- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
-- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
-- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ

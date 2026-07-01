@@ -141,8 +141,8 @@ diff -rq ../hugoplate/scripts scripts
 | --- | --- |
 | `themeGenerator.js`, `clearModules.js` | Copy only if `diff -q` shows JoRap differs **and** diff has no JoRap-specific logic |
 | `projectSetup.js`, `themeSetup.js`, `removeDarkmode.js`, `removeMultilang.js` | Removed from JoRap (one-time Hugoplate migrations already applied); do not restore |
-| `cspHashes.mjs`, `lint-*.py`, `noteFileDates.js`, `wire-notes-obsidian.py`, etc. | Never touch |
-| `scripts/archive/*.py` | One-off migrations (already applied); do not restore to `scripts/` |
+| `cspHashes.mjs`, `lint-*.py`, `noteFileDates.js`, etc. | Never touch |
+| `scripts/archive/` | Removed; one-off migrations live in git history only |
 
 ### Step 4 — Agent skills
 

@@ -1,13 +1,46 @@
 ---
 title: "Own the Error"
 meta_title: "Own the Error - Accountability Turns Failure Into Information"
-description: "Name the mistake, find the cause, repair the damage, and change the process that allowed it."
-date: 2026-06-22T08:00:00Z
+description: "Accountability turns failure into information."
+key_concept: "Name the mistake clearly, find what caused it, repair what broke, and change the process that let it through - not blame theater, not quiet hope it vanishes."
+examples:
+  - "I sent the wrong attachment and named it in the reply thread before anyone else had to."
+  - "The point guard called the bad pass out loud in the huddle - next play trusted faster."
+relationships:
+  - type: contradicts
+    wikilink: "[[Forgiveness at Work]]"
+    reason: "when public self-flagellation replaces fixing the system and moving on"
+  - type: extends
+    wikilink: "[[Accountability]]"
+    reason: "Clear ownership is the first repair step"
+  - type: extends
+    wikilink: "[[Blameless Postmortem]]"
+    reason: "Leader names the miss; room fixes the process, not the person"
+  - type: extends
+    wikilink: "[[Growth Mindset]]"
+    reason: "Mistakes are data when you don't treat them as identity"
+  - type: extends
+    wikilink: "[[Heed Every Near-Miss]]"
+    reason: "Owning the close call before it becomes harm"
+  - type: extends
+    wikilink: "[[Integrity When No One's Watching]]"
+    reason: "Own it even when nobody would audit this week"
+  - type: extends
+    wikilink: "[[Integrity]]"
+    reason: "Honest naming when excuses would be easier"
+  - type: extends
+    wikilink: "[[Pressure Reveals Weakness]]"
+    reason: "Blame-shifting spikes when stakes rise"
+  - type: extends
+    wikilink: "[[Rollback Principle]]"
+    reason: "Revert fast, name it in the standup, fix after calm returns"
+slug: "own-the-error"
+date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Leadership", "Tips"]
 author: "JoRap"
 tags: ["Performance", "Accountability", "Integrity", "Leadership"]
-slug: "own-the-error"
+aliases: ["own your mistakes"]
 featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
@@ -21,36 +54,4 @@ cards:
   - front: "After the missed free throw cost us the game, our point guard said \"that was on me\" in the huddle"
     back: "No blame theater"
 draft: false
-aliases: ["own your mistakes"]
 ---
-Accountability turns failure into information.
-
-## Key Concept
-
-Name the mistake clearly, find what caused it, repair what broke, and change the process that let it through - not blame theater, not quiet hope it vanishes.
-
-## Examples
-
-- Surgeons do morbidity rounds - name the miss, fix the process; I rang up the wrong total, voided the receipt, added a second look when bills pile up.
-- I forgot the permission slip and told my kid out loud - reprinted, set a phone reminder, not "the teacher never emailed."
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Forgiveness at Work]] | when public self-flagellation replaces fixing the system and moving on |
-| extends | [[Accountability]] | Clear ownership is the first repair step |
-| extends | [[Blameless Postmortem]] | Leader names the miss; room fixes the process, not the person |
-| extends | [[Growth Mindset]] | Mistakes are data when you don't treat them as identity |
-| extends | [[Heed Every Near-Miss]] | Owning the close call before it becomes harm |
-| extends | [[Integrity]] | Honest naming when excuses would be easier |
-| extends | [[Integrity When No One's Watching]] | Own it even when nobody would audit this week |
-| extends | [[Pressure Reveals Weakness]] | Blame-shifting spikes when stakes rise |
-| extends | [[Rollback Principle]] | Revert fast, name it in the standup, fix after calm returns |
-
-## See also
-
-- [[Composure]] - Leadership, Performance
-- [[Follow-Through]] - Accountability, Performance
-- [[Leadership]] - Leadership, Performance
-- [[Preparedness]] - Leadership, Performance

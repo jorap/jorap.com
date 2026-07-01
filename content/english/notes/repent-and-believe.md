@@ -1,13 +1,28 @@
 ---
 title: "Repent and Believe"
 meta_title: "Repent and Believe - Jesus' First Command"
-description: "Jesus opened his preaching with two words - repent and believe the gospel. The kingdom entry point, not a works finish line."
-date: 2026-06-19T09:15:00Z
+description: "Jesus' opening command: turn from self-rule and trust the good news that the kingdom is at hand (Mark 1:15; Matthew 4:17)."
+key_concept: |
+  Repentance is a change of mind and direction - not a down payment on salvation.
+  
+  Belief is reliance on Christ's promise, not mere intellectual agreement. Under [[Free Grace]], this pair is how life begins: receive the kingdom as gift, then live under the King's rule in response. [[There Is No Perfect Solution]] - the kingdom is at hand now, not when you've fixed yourself.
+examples:
+  - "I kept telling myself I'd trust the coach's system once my form looked respectable - repent and believe is the door you walk through today, messy as you are."
+  - "I kept telling myself I'd trust Jesus once my habits looked respectable - it's not a finish line when you're fixed."
+relationships:
+  - type: contradicts
+    wikilink: "[[There Is No Perfect Solution]]"
+    reason: "when I delay entry until I've fixed myself"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Kingdom entry is receive as gift - not earn by fixed habits first"
+slug: "repent-and-believe"
+date: "2026-06-19 09:15:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Free Grace", "Repentance", "Faith"]
-slug: "repent-and-believe"
+aliases: ["repentance", "believe the gospel"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Faith"]
@@ -25,31 +40,4 @@ cards:
   - front: "Waiting until I'm worthy to enter. What's the entry point?"
     back: "Enter by faith today."
 draft: false
-aliases: ["repentance", "believe the gospel"]
 ---
-Jesus' opening command: turn from self-rule and trust the good news that the kingdom is at hand (Mark 1:15; Matthew 4:17).
-
-## Key Concept
-
-Repentance is a change of mind and direction - not a down payment on salvation.
-
-Belief is reliance on Christ's promise, not mere intellectual agreement. Under [[Free Grace]], this pair is how life begins: receive the kingdom as gift, then live under the King's rule in response. [[There Is No Perfect Solution]] - the kingdom is at hand now, not when you've fixed yourself.
-
-## Examples
-
-- I kept telling myself I'd trust the coach's system once my form looked respectable - repent and believe is the door you walk through today, messy as you are.
-- I kept telling myself I'd trust Jesus once my habits looked respectable - it's not a finish line when you're fixed.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[There Is No Perfect Solution]] | when I delay entry until I've fixed myself |
-| extends | [[Free Grace]] | Kingdom entry is receive as gift - not earn by fixed habits first |
-
-## See also
-
-- [[Assurance]] - Eternal Principles, Faith, Free Grace
-- [[Faith and Works]] - Eternal Principles, Faith, Free Grace
-- [[Standing vs Fellowship]] - Eternal Principles, Faith, Free Grace
-- [[Abide in Me]] - Eternal Principles, Free Grace, Gospel

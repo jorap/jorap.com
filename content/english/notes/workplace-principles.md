@@ -2,25 +2,34 @@
 note_kind: "index"
 title: "Workplace Principles"
 meta_title: "Workplace Principles - Eternal Ethics in Plain Office Language"
-description: "How I apply Eternal Principles at work - same ethics, language that fits meetings, Slack, and reviews without the sermon vocabulary."
-date: 2026-06-21T14:00:00Z
+description: "The same ethics I keep in [[Eternal Principles]], translated for offices where \"altar\" and \"kingdom\" would land wrong."
+key_concept: |
+  Each note below is one claim I'd say in a standup or a 1:1 - plain language, meeting-sized examples, wikilink back to the gospel source when I need the full depth.
+  
+  Faith stays in the faith cluster; these are the versions I can share with a secular team without watering down the move.
+relationships:
+  - type: alternative
+    wikilink: "[[Maps of Content]]"
+    reason: "Hand-built workplace hub vs full faith MOC when the audience isn't the gospel cluster"
+  - type: extends
+    wikilink: "[[Eliminate Before Managing]]"
+    reason: "Safety principles in plain office language - same duty-of-care lane"
+  - type: extends
+    wikilink: "[[Eternal Principles]]"
+    reason: "Workplace versions carry the same ethics into language that fits corporate rooms"
+  - type: extends
+    wikilink: "[[Life Before Achievement]]"
+    reason: "Non-negotiable human safety translated for teams that won't open a safety manual"
+slug: "workplace-principles"
+date: "2026-06-21 14:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Workplace", "Leadership", "Ethics", "Eternal Principles", "Professionalism", "MOC"]
-slug: "workplace-principles"
+aliases: ["corporate principles", "ethics at work"]
 featured: false
 draft: false
-aliases: ["corporate principles", "ethics at work"]
 ---
-The same ethics I keep in [[Eternal Principles]], translated for offices where "altar" and "kingdom" would land wrong.
-
-## Key Concept
-
-Each note below is one claim I'd say in a standup or a 1:1 - plain language, meeting-sized examples, wikilink back to the gospel source when I need the full depth.
-
-Faith stays in the faith cluster; these are the versions I can share with a secular team without watering down the move.
-
 ## How to treat colleagues
 
 - [[The Golden Rule at Work]] - treat people the way you want to be treated in email, reviews, and hallway talk
@@ -71,17 +80,3 @@ Faith stays in the faith cluster; these are the versions I can share with a secu
 | [[Servant Leadership]] | [[Humility and Service]] |
 | [[Share What You Learn]] | [[Great Commission]] |
 | [[Integrity When No One's Watching]] | [[Secret Devotion]] |
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| alternative | [[Maps of Content]] | Hand-built workplace hub vs full faith MOC when the audience isn't the gospel cluster |
-| extends | [[Eliminate Before Managing]] | Safety principles in plain office language - same duty-of-care lane |
-| extends | [[Eternal Principles]] | Workplace versions carry the same ethics into language that fits corporate rooms |
-| extends | [[Life Before Achievement]] | Non-negotiable human safety translated for teams that won't open a safety manual |
-
-## See also
-
-- [[Ethical Leadership]] - Ethics, Leadership
-- [[Coaching Ethics]] - Ethics, Leadership

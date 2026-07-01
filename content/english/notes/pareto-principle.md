@@ -1,21 +1,32 @@
 ---
 title: "Pareto Principle"
 meta_title: "Pareto Principle - Find the 20% That Drives 80%"
-description: "Most results come from a small slice of work - find that slice, protect it, cut the rest."
-date: 2026-06-18T06:00:00Z
+description: "Most results come from a small slice of work - find the slice, protect it, cut the rest."
+key_concept: |
+  Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand, not a law).
+  
+  I use it when my reading list, task board, or note tags all feel equally important: which few actually moved the needle? Same rule for flashcards: only spine notes carry `review: true` here - PKM habits plus six [[Eternal Principles]] with cards, not every faith note in the garden. Cards ask what I'd *do*, not what I'd *define*.
+examples:
+  - "The kids' activity list had six things and we skipped three nights - I trimmed to basketball and piano and we actually showed up."
+  - "My reading pile had forty tabs - the five that moved work got Sunday morning, the rest got deleted."
+relationships:
+  - type: contradicts
+    wikilink: "[[Compounding]]"
+    reason: "when cutting the long tail kills compounding habits"
+  - type: extends
+    wikilink: "[[Signal vs Noise]]"
+    reason: "Most results come from a small slice - find the signal and cut the noise"
+  - type: extends
+    wikilink: "[[Vilfredo Pareto]]"
+    reason: "80/20 origin story - worth its own note later"
+slug: "pareto-principle"
+date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Mental Models", "Productivity", "Performance", "Prioritization", "Focus", "Decision Making", "PKM"]
-slug: "pareto-principle"
-featured: false
 aliases: ["80/20", "80-20 Rule", "Pareto Principle", "Vilfredo Pareto"]
-
-
-
-
-
-
+featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
@@ -37,31 +48,3 @@ cards:
     back: "we cut to those two and waste dropped"
 draft: false
 ---
-Most results come from a small slice of work - find the slice, protect it, cut the rest.
-
-## Key Concept
-
-Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand, not a law).
-
-I use it when my reading list, task board, or note tags all feel equally important: which few actually moved the needle? Same rule for flashcards: only spine notes carry `review: true` here - PKM habits plus six [[Eternal Principles]] with cards, not every faith note in the garden. Cards ask what I'd *do*, not what I'd *define*.
-
-## Examples
-
-- The kids' activity list had six things and we skipped three nights - I trimmed to basketball and piano and we actually showed up.
-- My reading pile had forty tabs - the five that moved work got Sunday morning, the rest got deleted.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Compounding]] | when cutting the long tail kills compounding habits |
-| extends | [[Signal vs Noise]] | Most results come from a small slice - find the signal and cut the noise |
-| extends | [[Vilfredo Pareto]] | 80/20 origin story - worth its own note later |
-
-## See also
-
-- [[Behavioral Economics]] - Decision Making, Mental Models
-- [[Deep Work]] - Focus, Productivity
-- [[Inbox Zero]] - PKM, Productivity
-- [[Information Diet]] - PKM, Productivity
-- [[Low Hanging Fruit]] - Decision Making, Focus, Mental Models

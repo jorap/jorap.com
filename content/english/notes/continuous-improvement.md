@@ -1,13 +1,43 @@
 ---
 title: "Continuous Improvement"
 meta_title: "Continuous Improvement - Small Fixes That Compound"
-description: "Continuous improvement is steady small upgrades to process and skill - not one heroic overhaul."
-date: 2026-06-22T08:00:00Z
+description: "Small fixes to how you work, repeated - each miss feeds the next version of the process."
+key_concept: Continuous improvement is steady small upgrades to process and skill - not one heroic overhaul.
+examples:
+  - "I tweak one line in my weekly review checklist after each miss - steady small upgrades beat the heroic overhaul I never schedule."
+  - "The barista changed one milk-steaming step after every burned latte - kaizen in the steam wand, not a grand retraining day that never happens."
+relationships:
+  - type: contradicts
+    wikilink: "[[There Is No Perfect Solution]]"
+    reason: "when endless tweaking never ships the good-enough version"
+  - type: extends
+    wikilink: "[[Compounding]]"
+    reason: "Small upgrades stack"
+  - type: extends
+    wikilink: "[[Convert Pain Into Learning]]"
+    reason: "Lessons become process changes"
+  - type: extends
+    wikilink: "[[Create Regular Connection]]"
+    reason: "Small connection reps compound like process fixes"
+  - type: extends
+    wikilink: "[[Notice the Good]]"
+    reason: "Naming what worked feeds the next rep"
+  - type: extends
+    wikilink: "[[Process Over Outcomes]]"
+    reason: "Trust the improving loop, not one perfect sprint"
+  - type: implements
+    wikilink: "[[Systems for Growth]]"
+    reason: "Review-and-fix rhythm the growth hub indexes"
+  - type: implements
+    wikilink: "[[Weekly Review Checklists]]"
+    reason: "Sunday pass is a continuous improvement ritual"
+slug: "continuous-improvement"
+date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["Performance", "Habits", "Systems Thinking"]
-slug: "continuous-improvement"
+aliases: ["kaizen"]
 featured: false
 review: true
 card_sets: ["Focus", "Review"]
@@ -17,34 +47,4 @@ cards:
   - front: "A line cook pulls a bad prep tray and fixes the station before service"
     back: "Small fixes daily, not one yearly overhaul"
 draft: false
-aliases: ["kaizen"]
 ---
-Small fixes to how you work, repeated - each miss feeds the next version of the process.
-
-## Key Concept
-
-Continuous improvement is steady small upgrades to process and skill - not one heroic overhaul.
-
-## Examples
-
-- I tweak one line in my weekly review checklist after each miss - steady small upgrades beat the heroic overhaul I never schedule.
-- The barista changed one milk-steaming step after every burned latte - kaizen in the steam wand, not a grand retraining day that never happens.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[There Is No Perfect Solution]] | when endless tweaking never ships the good-enough version |
-| extends | [[Compounding]] | Small upgrades stack |
-| extends | [[Convert Pain Into Learning]] | Lessons become process changes |
-| extends | [[Create Regular Connection]] | Small connection reps compound like process fixes |
-| extends | [[Notice the Good]] | Naming what worked feeds the next rep |
-| extends | [[Process Over Outcomes]] | Trust the improving loop, not one perfect sprint |
-| implements | [[Systems for Growth]] | Review-and-fix rhythm the growth hub indexes |
-| implements | [[Weekly Review Checklists]] | Sunday pass is a continuous improvement ritual |
-
-## See also
-
-- [[Build a Reliable Default]] - Habits, Performance, Systems Thinking
-- [[Habit Stacking]] - Habits, Performance, Systems Thinking
-- [[Systems Thinking]] - Habits, Performance, Systems Thinking

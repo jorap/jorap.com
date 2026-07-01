@@ -1,13 +1,40 @@
 ---
 title: "Christianity and Politics"
 meta_title: "Christianity and Politics - Dual Allegiance Without Idolatry"
-description: "Christians live under earthly government and under Christ - pay lawful duty, love neighbors across tribes, keep ultimate worship off parties and power."
-date: 2026-06-30T10:30:00Z
+description: "Live as a citizen under lawful government and as a disciple under Christ - pay civic duty, love neighbors across tribes, refuse to make any party or power ultimate (Matthew 22:21; Romans 13:1-7; 1 Peter 2:13-17)."
+key_concept: |
+  [[Render Unto Caesar]] names the split: coin to Caesar, self to God.
+  
+  [[Seek the Kingdom First]] still ranks God's reign above every election cycle - without excusing dodged taxes, permits, or jury duty. [[Love Your Neighbor]] and [[Love Your Enemies]] stretch across party lines: the person on the other feed is still my neighbor, not a target. [[Treasure in Heaven]] keeps my heart off ballot-box salvation - no moth-eaten security in who wins Tuesday. [[By Their Fruits]] and [[Heart Righteousness]] judge movements by outcome and motive, not hype or tribe loyalty. [[Great Commission]] and [[Let Your Light Shine]] send witness into public life without letting the gospel get captured by one side's flag. PKM mirror: [[Signal vs Noise]] - not every headline deserves kingdom-level panic; [[Information Diet]] curbs the scroll that replaces prayer.
+examples:
+  - "Tax bill landed and part of me wanted to treat paying it like betraying the kingdom - [[Render Unto Caesar]]: lawful duty and ultimate worship stay distinct."
+  - "Group chat turned tribal after the election and my thumb hovered on a dunk - bless the neighbor, don't baptize the rage."
+relationships:
+  - type: alternative
+    wikilink: "[[Peacemakers]]"
+    reason: "When the move is de-escalation and repair, not debate scoring"
+  - type: contradicts
+    wikilink: "[[Treasure in Heaven]]"
+    reason: "when a party or election outcome becomes where my heart lives"
+  - type: extends
+    wikilink: "[[Love Your Enemies]]"
+    reason: "Political opponents stay neighbors - bless, don't return evil"
+  - type: extends
+    wikilink: "[[Love Your Neighbor]]"
+    reason: "Civic life is neighbor-love in public, not tribe warfare"
+  - type: extends
+    wikilink: "[[Render Unto Caesar]]"
+    reason: "Pay lawful civic duty; reserve ultimate worship for God"
+  - type: extends
+    wikilink: "[[Seek the Kingdom First]]"
+    reason: "God's reign orders the week before the news cycle sets panic"
+slug: "christianity-and-politics"
+date: "2026-06-30 10:30:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Jesus Christ", "Civic Duty", "Discipleship"]
-slug: "christianity-and-politics"
+aliases: ["faith and politics", "gospel and government", "Christian political engagement"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
@@ -25,34 +52,4 @@ cards:
   - front: "Church friend says vote their way or you're not faithful. One sentence?"
     back: "Ultimate allegiance is Christ - not my ballot."
 draft: false
-aliases: ["faith and politics", "gospel and government", "Christian political engagement"]
 ---
-Live as a citizen under lawful government and as a disciple under Christ - pay civic duty, love neighbors across tribes, refuse to make any party or power ultimate (Matthew 22:21; Romans 13:1-7; 1 Peter 2:13-17).
-
-## Key Concept
-
-[[Render Unto Caesar]] names the split: coin to Caesar, self to God.
-
-[[Seek the Kingdom First]] still ranks God's reign above every election cycle - without excusing dodged taxes, permits, or jury duty. [[Love Your Neighbor]] and [[Love Your Enemies]] stretch across party lines: the person on the other feed is still my neighbor, not a target. [[Treasure in Heaven]] keeps my heart off ballot-box salvation - no moth-eaten security in who wins Tuesday. [[By Their Fruits]] and [[Heart Righteousness]] judge movements by outcome and motive, not hype or tribe loyalty. [[Great Commission]] and [[Let Your Light Shine]] send witness into public life without letting the gospel get captured by one side's flag. PKM mirror: [[Signal vs Noise]] - not every headline deserves kingdom-level panic; [[Information Diet]] curbs the scroll that replaces prayer.
-
-## Examples
-
-- Tax bill landed and part of me wanted to treat paying it like betraying the kingdom - [[Render Unto Caesar]]: lawful duty and ultimate worship stay distinct.
-- Group chat turned tribal after the election and my thumb hovered on a dunk - bless the neighbor, don't baptize the rage.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| alternative | [[Peacemakers]] | When the move is de-escalation and repair, not debate scoring |
-| contradicts | [[Treasure in Heaven]] | when a party or election outcome becomes where my heart lives |
-| extends | [[Love Your Enemies]] | Political opponents stay neighbors - bless, don't return evil |
-| extends | [[Love Your Neighbor]] | Civic life is neighbor-love in public, not tribe warfare |
-| extends | [[Render Unto Caesar]] | Pay lawful civic duty; reserve ultimate worship for God |
-| extends | [[Seek the Kingdom First]] | God's reign orders the week before the news cycle sets panic |
-
-## See also
-
-- [[Discipleship]] - Discipleship, Eternal Principles, Gospel
-- [[Faithful Steward]] - Discipleship, Eternal Principles, Gospel
-- [[Take Up Your Cross]] - Discipleship, Eternal Principles, Gospel

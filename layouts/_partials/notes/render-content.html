@@ -1,7 +1,7 @@
 {{- $page := . -}}
 {{- $class := site.Params.notes.wikilink_class | default "wikilink" -}}
 
-{{- $raw := $page.RawContent -}}
+{{- $raw := partial "notes/assembled-content.html" $page -}}
 {{- $raw = replaceRE `(?s)\n## See also[\s\S]*$` "" $raw -}}
 {{- $content := $page.RenderString $raw -}}
 

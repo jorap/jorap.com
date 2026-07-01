@@ -1,7 +1,6 @@
 {{- /*
   Tag/category related notes for a page (blog → notes garden).
-  Mirrors scripts/wire-notes-obsidian.py related_notes(); falls back to Hugo
-  .Related filtered to the notes section when there is no direct overlap.
+  Hugo .Related filtered to the notes section when there is no direct overlap.
   Returns a slice of dicts: Page, Score, Shared.
 */ -}}
 {{- $page := .Context -}}

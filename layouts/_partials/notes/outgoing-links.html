@@ -3,7 +3,7 @@
   Returns slice of dict: Page, Label, Anchor.
 */ -}}
 {{- $page := . -}}
-{{- $raw := $page.RawContent -}}
+{{- $raw := partial "notes/assembled-content.html" $page -}}
 {{- $matches := findRE `\[\[[^\]|#]+(?:#[^\]|]+)?\]\]` $raw -}}
 {{- $seen := dict -}}
 {{- $links := slice -}}

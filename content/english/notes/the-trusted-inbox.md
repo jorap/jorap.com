@@ -2,12 +2,30 @@
 title: "The Trusted Inbox"
 meta_title: "The Trusted Inbox - One Place I'll Actually Empty"
 description: "If I don't trust my inbox, I capture in my head instead. One pipe, weekly empty, no exceptions."
-date: 2026-06-18T06:00:00Z
+key_concept: |
+  If you don't trust your inbox, you capture in your head instead of using capture ([[Capture]]).
+  
+  Tension with [[Mobile Capture Workflows]] when one trusted pipe beats frictionless capture everywhere.
+examples:
+  - "We kept one bowl by the door for keys, papers, receipts - two bowls meant I'd hold things in my head instead."
+  - "One notebook on the bench for every substitute tweak - if we don't review it after the match, nobody trusts writing in it next week."
+relationships:
+  - type: contradicts
+    wikilink: "[[Mobile Capture Workflows]]"
+    reason: "when one trusted pipe beats frictionless capture everywhere"
+  - type: extends
+    wikilink: "[[Capture]]"
+    reason: "If you don't trust your inbox, you capture in your head instead of using capture"
+  - type: extends
+    wikilink: "[[Inbox Zero]]"
+    reason: "Empty-the-inbox discipline this pipe depends on"
+slug: "the-trusted-inbox"
+date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Inbox", "GTD", "Capture", "PKM", "Trust", "Workflow"]
-slug: "the-trusted-inbox"
+aliases: ["Trusted Inbox"]
 featured: false
 review: true
 card_sets: ["Capture", "Workflow"]
@@ -29,33 +47,4 @@ cards:
   - front: "Substitute tweak on a napkin because I don't trust the inbox yet. One move?"
     back: "One notebook on the bench - process Friday."
 draft: false
-aliases: ["Trusted Inbox"]
 ---
-If I don't trust my inbox, I capture in my head instead. One pipe, weekly empty, no exceptions.
-
-## Key Concept
-
-If you don't trust your inbox, you capture in your head instead of using capture ([[Capture]]).
-
-Tension with [[Mobile Capture Workflows]] when one trusted pipe beats frictionless capture everywhere.
-
-## Examples
-
-- We kept one bowl by the door for keys, papers, receipts - two bowls meant I'd hold things in my head instead.
-- One notebook on the bench for every substitute tweak - if we don't review it after the match, nobody trusts writing in it next week.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Mobile Capture Workflows]] | when one trusted pipe beats frictionless capture everywhere |
-| extends | [[Capture]] | If you don't trust your inbox, you capture in your head instead of using capture |
-| extends | [[Inbox Zero]] | Empty-the-inbox discipline this pipe depends on |
-
-## See also
-
-- [[Read Later Queue]] - Capture, PKM
-- [[Voice Memos]] - Capture, PKM
-- [[Getting Things Done]] - GTD, PKM
-- [[CRDT]] - PKM
-- [[Commonplace Book]] - PKM

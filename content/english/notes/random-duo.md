@@ -1,28 +1,20 @@
 ---
+note_kind: "meta"
+layout: "random-duo"
 title: "Random Duo"
 meta_title: "Random Duo"
-description: "Two garden notes picked at random, side by side - for serendipitous resurfacing."
+description: "Two notes from the garden, picked at random. I hit **Shuffle** for another pair. Pairs with [[Backlinks]], [[Create Note]], and [[Flashcards]]."
+key_concept: |
+  Forced serendipity - two unrelated claims side by side so I notice links I forgot to make.
+  
+  Utility surface: URL only, not a wikilink target from content notes.
 slug: "random-duo"
-layout: "random-duo"
-aliases: ["random-two", "random-trio", "random-three"]
-note_kind: "meta"
-date: 2026-06-19T08:00:00Z
+date: "2026-06-19 08:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Notes", "Meta"]
+aliases: ["random-two", "random-trio", "random-three"]
 featured: false
 draft: false
 ---
-Two notes from the garden, picked at random. I hit **Shuffle** for another pair. Pairs with [[Backlinks]], [[Create Note]], and [[Flashcards]].
-
-## Key Concept
-
-Forced serendipity - two unrelated claims side by side so I notice links I forgot to make.
-
-Utility surface: URL only, not a wikilink target from content notes.
-
-## See also
-
-- [[Getting Started]] - Meta, Notes
-- [[Issues]] - Meta, Notes

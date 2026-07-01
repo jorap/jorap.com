@@ -82,7 +82,3 @@ export function capture(cmd, args = []) {
     shell: needsShell(cmd),
   });
 }
-
-export function isWindows() {
-  return isWin;
-}

@@ -1,13 +1,31 @@
 ---
 title: "Love God"
 meta_title: "Love God - The Greatest Commandment"
-description: "Jesus named love for God - heart, soul, mind, strength - as the first and greatest commandment."
-date: 2026-06-19T08:05:00Z
+description: "The greatest commandment Jesus named: love the Lord with all your heart, soul, mind, and strength (Matthew 22:37-38)."
+key_concept: |
+  When a scribe asked which commandment was first, Jesus quoted Deuteronomy 6:5 - whole-person devotion, not a corner of the week.
+  
+  Heart (affections), soul (will and life), mind (thought), strength (effort). Under [[Free Grace]], this is the first call on a life already saved by faith - love flowing from grace received, not love offered as payment for eternal life.
+examples:
+  - "Match day adrenaline isn't the same as opening my Bible on Thursday - whole-person love means I feed at least one faculty today."
+  - "Sunday worship felt high but I hadn't opened my Bible since last week - loving God means more than one hour in a pew."
+relationships:
+  - type: contradicts
+    wikilink: "[[Don't Worry]]"
+    reason: "when worry replaces trust"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "First call on a life already saved - love from grace received, not payment for eternal life"
+  - type: extends
+    wikilink: "[[Fruits of the Spirit]]"
+    reason: "Love fruit - greatest commandment cluster"
+slug: "love-god"
+date: "2026-06-19 08:05:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Commandments", "Sermon on the Mount"]
-slug: "love-god"
+aliases: ["greatest commandment"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Commandments"]
@@ -25,31 +43,4 @@ cards:
   - front: "Devotion feels vague - 'love God' with no next step. What's one move today?"
     back: "Pray, read, or serve - one faculty."
 draft: false
-aliases: ["greatest commandment"]
 ---
-The greatest commandment Jesus named: love the Lord with all your heart, soul, mind, and strength (Matthew 22:37-38).
-
-## Key Concept
-
-When a scribe asked which commandment was first, Jesus quoted Deuteronomy 6:5 - whole-person devotion, not a corner of the week.
-
-Heart (affections), soul (will and life), mind (thought), strength (effort). Under [[Free Grace]], this is the first call on a life already saved by faith - love flowing from grace received, not love offered as payment for eternal life.
-
-## Examples
-
-- Match day adrenaline isn't the same as opening my Bible on Thursday - whole-person love means I feed at least one faculty today.
-- Sunday worship felt high but I hadn't opened my Bible since last week - loving God means more than one hour in a pew.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Don't Worry]] | when worry replaces trust |
-| extends | [[Free Grace]] | First call on a life already saved - love from grace received, not payment for eternal life |
-| extends | [[Fruits of the Spirit]] | Love fruit - greatest commandment cluster |
-
-## See also
-
-- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
-- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
-- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ

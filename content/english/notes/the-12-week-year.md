@@ -2,12 +2,30 @@
 title: "The 12 Week Year"
 meta_title: "The 12 Week Year - Quarterly Intensity for Projects"
 description: "Twelve-week years compress annual goals into quarters I actually feel. I map wiki projects to 12-week arcs."
-date: 2026-06-18T06:00:00Z
+key_concept: |
+  Twelve-week arcs compress goals into review quarters you actually feel ([[Periodic Knowledge Review]]).
+  
+  Tension with [[Slow Productivity]] when quarterly intensity beats fewer deeper projects.
+examples:
+  - "Twelve-week sprint on one fitness goal beat a vague annual resolution."
+  - "The team treated the quarter like a season - one scoreboard, weekly film, no fake annual plan."
+relationships:
+  - type: contradicts
+    wikilink: "[[Slow Productivity]]"
+    reason: "when quarterly intensity beats fewer deeper projects"
+  - type: extends
+    wikilink: "[[Periodic Knowledge Review]]"
+    reason: "Twelve-week arcs compress goals into review quarters you actually feel"
+  - type: extends
+    wikilink: "[[Quarterly Planning]]"
+    reason: "Sprint scoreboard rhythm this method compresses"
+slug: "the-12-week-year"
+date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["12 Week Year", "Planning", "Goals", "PKM", "Projects", "Productivity"]
-slug: "the-12-week-year"
+aliases: ["12 Week Year"]
 featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
@@ -21,32 +39,4 @@ cards:
   - front: "I'd been treating \"clear the garage\" like a someday project"
     back: "Week ten the boxes finally moved"
 draft: false
-aliases: ["12 Week Year"]
 ---
-Twelve-week years compress annual goals into quarters I actually feel. I map wiki projects to 12-week arcs.
-
-## Key Concept
-
-Twelve-week arcs compress goals into review quarters you actually feel ([[Periodic Knowledge Review]]).
-
-Tension with [[Slow Productivity]] when quarterly intensity beats fewer deeper projects.
-
-## Examples
-
-- "Fix our free-throw rate" lived as a someday goal until I gave it twelve weeks and a scoreboard on the locker - week ten finally bit.
-- I'd been treating "clear the garage" like a someday project - twelve weeks and a fridge scoreboard; week ten the boxes finally moved.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Slow Productivity]] | when quarterly intensity beats fewer deeper projects |
-| extends | [[Periodic Knowledge Review]] | Twelve-week arcs compress goals into review quarters you actually feel |
-| extends | [[Quarterly Planning]] | Sprint scoreboard rhythm this method compresses |
-
-## See also
-
-- [[Inbox Zero]] - PKM, Productivity
-- [[Information Diet]] - PKM, Productivity
-- [[Lean Startup]] - Productivity, Projects
-- [[Getting Things Done]] - PKM, Productivity

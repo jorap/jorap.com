@@ -7,6 +7,10 @@ import re
 import sys
 from pathlib import Path
 
+import yaml
+
+from notes_content import assemble_markdown, dump_frontmatter, split_frontmatter
+
 ROOT = Path(__file__).resolve().parents[1]
 NOTES = ROOT / "content/english/notes"
 
@@ -90,13 +94,14 @@ EXAMPLE_RE = re.compile(r"^-\s+(.+)$", re.M)
 MC_FORK_OR_RE = re.compile(r"\bor\b[^.?!\n]*\?", re.I)
 
 
-def split_fm(text: str) -> tuple[str, str]:
-    if not text.startswith("---"):
-        return "", text
-    end = text.find("\n---", 3)
-    if end == -1:
-        return "", text
-    return text[3:end].strip(), text[end + 4 :]
+def load_fm(raw_fm: str) -> dict:
+    data = yaml.safe_load(raw_fm) or {}
+    return data if isinstance(data, dict) else {}
+
+
+def content_for_cards(raw_fm: str, body: str) -> str:
+    fm = load_fm(raw_fm)
+    return assemble_markdown(fm, body)
 
 
 def parse_cards(fm: str) -> list[tuple[str, str]]:
@@ -302,37 +307,30 @@ def cards_yaml(cards: list[tuple[str, str]]) -> str:
     return "\n".join(lines)
 
 
-def inject_cards(fm: str, card_sets: list[str], cards: list[tuple[str, str]]) -> str:
-    fm = re.sub(r"^review:.*\n?", "", fm, flags=re.M)
-    fm = re.sub(r"^card_sets:.*\n?", "", fm, flags=re.M)
-    fm = re.sub(r"^cards:\s*\n(?:[ \t]+-\s+front:.*\n[ \t]+back:.*\n)*", "", fm, flags=re.M)
-    fm = re.sub(r"\n{3,}", "\n\n", fm).strip()
-
-    sets_s = ", ".join(f'"{s}"' for s in card_sets)
-    block = f'review: true\ncard_sets: [{sets_s}]\n{cards_yaml(cards)}'
-
-    if re.search(r"^draft:", fm, re.M):
-        fm = re.sub(r"^(draft:.*)$", f"{block}\n\\1", fm, count=1, flags=re.M)
-    else:
-        fm = fm + "\n" + block
+def inject_cards_dict(fm: dict, card_sets: list[str], cards: list[tuple[str, str]]) -> dict:
+    fm = dict(fm)
+    fm["review"] = True
+    fm["card_sets"] = card_sets
+    fm["cards"] = [{"front": front, "back": back} for front, back in cards]
     return fm
 
 
 def sync_file(path: Path, dry_run: bool = False, rewrite: bool = False) -> str | None:
     text = path.read_text(encoding="utf-8")
-    fm, body = split_fm(text)
-    if not fm:
+    raw_fm, body = split_frontmatter(text)
+    if not raw_fm:
         return None
+    fm = load_fm(raw_fm)
     stem = path.stem
-    if not is_garden_note(fm, stem):
+    if not is_garden_note(raw_fm, stem):
         return None
 
-    tags = parse_tags(fm)
-    target = target_count(stem, fm, tags)
-    existing = parse_cards(fm)
+    tags = parse_tags(raw_fm)
+    target = target_count(stem, raw_fm, tags)
+    existing = parse_cards(raw_fm)
 
-    title_m = re.search(r'^title:\s*"(.+)"', fm, re.M)
-    title = title_m.group(1) if title_m else stem.replace("-", " ").title()
+    title = str(fm.get("title") or stem.replace("-", " ").title())
+    assembled = content_for_cards(raw_fm, body)
 
     if len(existing) == target and not rewrite:
         return None
@@ -344,7 +342,7 @@ def sync_file(path: Path, dry_run: bool = False, rewrite: bool = False) -> str |
             cards = existing[:target]
             action = f"trim {len(existing)}→{target}"
         elif len(existing) < target:
-            extra = generate_cards(body, title, target - len(existing))
+            extra = generate_cards(assembled, title, target - len(existing))
             cards = existing + extra
             action = f"expand {len(existing)}→{target}"
         else:
@@ -353,7 +351,7 @@ def sync_file(path: Path, dry_run: bool = False, rewrite: bool = False) -> str |
             cards = existing
             action = "fix frontmatter"
     elif rewrite or not existing:
-        cards = generate_cards(body, title, target)
+        cards = generate_cards(assembled, title, target)
         action = f"rewrite {len(cards)} cards (tier {target})"
     elif len(existing) > target:
         cards = existing[:target]
@@ -362,12 +360,12 @@ def sync_file(path: Path, dry_run: bool = False, rewrite: bool = False) -> str |
         cards = existing + generate_cards(body, title, target - len(existing))
         action = f"expand {len(existing)}→{target}"
     else:
-        cards = generate_cards(body, title, target)
+        cards = generate_cards(assembled, title, target)
         action = f"add {len(cards)} cards (tier {target})"
 
     card_sets = pick_card_sets(tags, stem)
-    new_fm = inject_cards(fm, card_sets, cards)
-    new_text = f"---\n{new_fm}\n---\n{body.lstrip(chr(10))}"
+    fm = inject_cards_dict(fm, card_sets, cards)
+    new_text = f"---\n{dump_frontmatter(fm)}\n---\n{body.lstrip(chr(10))}"
     if not new_text.endswith("\n"):
         new_text += "\n"
     if not dry_run:

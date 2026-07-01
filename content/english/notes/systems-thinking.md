@@ -1,13 +1,34 @@
 ---
 title: "Systems Thinking"
 meta_title: "Systems Thinking - Fix the Loop, Not Only the Symptom"
-description: "Systems thinking traces inputs, delays, and feedback - so you change the process, not only patch today's fire."
-date: 2026-06-22T06:00:00Z
+description: "See the loop behind the event - inputs, delays, feedback, side effects - so you fix the process, not only tonight's fire."
+key_concept: "Systems thinking traces inputs, delays, and feedback - so you change the process, not only patch today's fire."
+examples:
+  - "We lost every third possession on turnovers - systems thinking traced it to the warmup drill, not \"focus harder tonight.\""
+  - "The restaurant ran out of rice on a busy Friday - systems thinking traced it to prep checklist and par levels, not \"cook faster tonight.\""
+relationships:
+  - type: contradicts
+    wikilink: "[[Low Hanging Fruit]]"
+    reason: "when patching the symptom beats fixing the loop that keeps producing it"
+  - type: extends
+    wikilink: "[[Continuous Improvement]]"
+    reason: "Loop fixes are small upgrades repeated"
+  - type: extends
+    wikilink: "[[Process Over Outcomes]]"
+    reason: "Trust the repeatable loop, not one heroic save"
+  - type: extends
+    wikilink: "[[Second-Order Thinking]]"
+    reason: "Second moves and side effects are part of the system"
+  - type: implements
+    wikilink: "[[Systems for Growth]]"
+    reason: "Growth hub indexes the loops this lens is for"
+slug: "systems-thinking"
+date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["Systems Thinking", "Performance", "Habits", "Decision Making"]
-slug: "systems-thinking"
+aliases: ["systems thinker"]
 featured: false
 review: true
 card_sets: ["Focus", "Review"]
@@ -17,31 +38,4 @@ cards:
   - front: "The restaurant ran out of rice on a busy Friday. What's the move?"
     back: "Not \"cook faster tonight.\""
 draft: false
-aliases: ["systems thinker"]
 ---
-See the loop behind the event - inputs, delays, feedback, side effects - so you fix the process, not only tonight's fire.
-
-## Key Concept
-
-Systems thinking traces inputs, delays, and feedback - so you change the process, not only patch today's fire.
-
-## Examples
-
-- We lost every third possession on turnovers - systems thinking traced it to the warmup drill, not "focus harder tonight."
-- The restaurant ran out of rice on a busy Friday - systems thinking traced it to prep checklist and par levels, not "cook faster tonight."
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Low Hanging Fruit]] | when patching the symptom beats fixing the loop that keeps producing it |
-| extends | [[Continuous Improvement]] | Loop fixes are small upgrades repeated |
-| extends | [[Process Over Outcomes]] | Trust the repeatable loop, not one heroic save |
-| extends | [[Second-Order Thinking]] | Second moves and side effects are part of the system |
-| implements | [[Systems for Growth]] | Growth hub indexes the loops this lens is for |
-
-## See also
-
-- [[Habit Stacking]] - Habits, Performance, Systems Thinking
-- [[Build a Reliable Default]] - Habits, Performance, Systems Thinking
-- [[Compounding]] - Habits, Performance, Systems Thinking

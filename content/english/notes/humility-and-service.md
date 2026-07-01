@@ -1,13 +1,40 @@
 ---
 title: "Humility and Service"
 meta_title: "Humility and Service - The Last Shall Be First"
-description: "Jesus taught that greatness is serving, not being served - the humble exalted, the proud brought low."
-date: 2026-06-19T08:55:00Z
+description: "Jesus taught that whoever wants to be great must be servant of all - the Son of Man came not to be served but to serve (Matthew 23:12, Mark 10:43-45)."
+key_concept: |
+  He washed feet the night before the cross.
+  
+  Status in the kingdom runs opposite to the world's ladder: exalt yourself and you'll be humbled; humble yourself and you'll be exalted. Service is the path to kingdom reward and greatness before God - not the price of [[Free Grace]]. [[Faithful Steward]] is the parable shape: well done for faithful use of what He entrusted.
+examples:
+  - "I helped a neighbor move and waited for credit in the group chat - greatness is serving, not being served."
+  - "I organized snacks for my kid's basketball team on Sunday and came home expecting my family to serve me back - wash feet here too, not only where people can see you."
+relationships:
+  - type: contradicts
+    wikilink: "[[Let Your Light Shine]]"
+    reason: "when visibility becomes the goal instead of the byproduct"
+  - type: extends
+    wikilink: "[[Faithful Steward]]"
+    reason: "Faithful in small things - well done for use, not status"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Service is kingdom greatness, not the price you pay for grace you already received"
+  - type: extends
+    wikilink: "[[Fruits of the Spirit]]"
+    reason: "Gentleness fruit - strength without grasping"
+  - type: extends
+    wikilink: "[[Gentleness]]"
+    reason: "Humility and service is the garden echo for gospel gentleness"
+  - type: extends
+    wikilink: "[[Servant Leadership]]"
+    reason: "Lead-by-serving frame Jesus models"
+slug: "humility-and-service"
+date: "2026-06-19 08:55:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Ideas"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Service"]
-slug: "humility-and-service"
+aliases: ["servant leadership", "the last shall be first"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
@@ -25,36 +52,4 @@ cards:
   - front: "Leadership seat felt like the win. What makes someone great?"
     back: "Servant of all - not title grabbed."
 draft: false
-aliases: ["servant leadership", "the last shall be first"]
 ---
-Jesus taught that whoever wants to be great must be servant of all - the Son of Man came not to be served but to serve (Matthew 23:12, Mark 10:43-45).
-
-## Key Concept
-
-He washed feet the night before the cross.
-
-Status in the kingdom runs opposite to the world's ladder: exalt yourself and you'll be humbled; humble yourself and you'll be exalted. Service is the path to kingdom reward and greatness before God - not the price of [[Free Grace]]. [[Faithful Steward]] is the parable shape: well done for faithful use of what He entrusted.
-
-## Examples
-
-- I helped a neighbor move and waited for credit in the group chat - greatness is serving, not being served.
-- I organized snacks for my kid's basketball team on Sunday and came home expecting my family to serve me back - wash feet here too, not only where people can see you.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Let Your Light Shine]] | when visibility becomes the goal instead of the byproduct |
-| extends | [[Faithful Steward]] | Faithful in small things - well done for use, not status |
-| extends | [[Free Grace]] | Service is kingdom greatness, not the price you pay for grace you already received |
-| extends | [[Fruits of the Spirit]] | Gentleness fruit - strength without grasping |
-| extends | [[Gentleness]] | Humility and service is the garden echo for gospel gentleness |
-| extends | [[Servant Leadership]] | Lead-by-serving frame Jesus models |
-
-## See also
-
-- [[Ask Seek Knock]] - Eternal Principles, Gospel, Jesus Christ
-- [[By Their Fruits]] - Eternal Principles, Gospel, Jesus Christ
-- [[Don't Worry]] - Eternal Principles, Gospel, Jesus Christ
-- [[Eternal Principles]] - Eternal Principles, Gospel, Jesus Christ
-- [[Eternal Rewards]] - Eternal Principles, Gospel, Jesus Christ

@@ -6,7 +6,7 @@
 {{- $notes := partial "notes/pages.html" (dict) -}}
 
 {{- range $source := $notes -}}
-  {{- $raw := $source.RawContent -}}
+  {{- $raw := partial "notes/assembled-content.html" $source -}}
   {{- $matches := findRE `\[\[[^\]|#]+(?:#[^\]|]+)?\]\]` $raw -}}
   {{- range $matches -}}
     {{- $wikilink := . -}}

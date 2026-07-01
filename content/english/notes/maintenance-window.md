@@ -1,13 +1,33 @@
 ---
 title: "Maintenance Window"
 meta_title: "Maintenance Window"
-description: "scheduled time to prune, fix links, and archive - not random Sunday panic."
-date: 2026-06-22T06:00:00Z
+description: "Scheduled time to prune, fix links, and archive - not random Sunday panic."
+key_concept: |
+  Calendar the prune before the garden rots - same habit as oil changes, not panic Sundays.
+  
+  [[Periodic Knowledge Review]] calendars the pass; this note names the scheduled slot.
+examples:
+  - "First Sunday I swap the car fluids and rotate tires - not waiting for the check-engine light."
+  - "Saturday morning is toy-bin purge and mending - not panicked cleaning when guests are at the door."
+relationships:
+  - type: alternative
+    wikilink: "[[Change Window]]"
+    reason: "PKM prune schedule vs production deploy schedule"
+  - type: contradicts
+    wikilink: "[[The Collector's Fallacy]]"
+    reason: "when the opposite frame fits better"
+  - type: extends
+    wikilink: "[[Periodic Knowledge Review]]"
+    reason: "Named in notes that link here"
+  - type: extends
+    wikilink: "[[Weekly Review Checklists]]"
+    reason: "Named in notes that link here"
+slug: "maintenance-window"
+date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["PKM", "Review"]
-slug: "maintenance-window"
 featured: false
 review: true
 card_sets: ["Focus", "Review"]
@@ -21,32 +41,4 @@ cards:
   - front: "Saturday morning is toy-bin purge and mending. What's the move?"
     back: "Not panicked cleaning when guests are at the door"
 draft: false
-aliases: []
 ---
-Scheduled time to prune, fix links, and archive - not random Sunday panic.
-
-## Key Concept
-
-Named in notes that link here ([[Periodic Knowledge Review]]).
-
-Tension with [[The Collector's Fallacy]] when the opposite frame fits better.
-
-## Examples
-
-- First Sunday I swap the car fluids and rotate tires - not waiting for the check-engine light on a Monday commute.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| alternative | [[Change Window]] | PKM prune schedule vs production deploy schedule |
-| contradicts | [[The Collector's Fallacy]] | when the opposite frame fits better |
-| extends | [[Periodic Knowledge Review]] | Named in notes that link here |
-| extends | [[Weekly Review Checklists]] | Named in notes that link here |
-
-## See also
-
-- [[Daily Notes]] - PKM, Review
-- [[Digital Serendipity]] - PKM, Review
-- [[Evergreen vs Fleeting Notes]] - PKM, Review
-- [[Active Knowledge Curation]] - PKM

@@ -1,13 +1,30 @@
 ---
 title: "Weekly Review Checklists"
 meta_title: "Weekly Review Checklists - Same Steps Every Sunday"
-description: "Weekly review as a checklist - inbox, calendar, projects, one express action. Boring on purpose."
-date: 2026-06-18T06:00:00Z
+description: "My weekly review is a checklist - inbox, calendar, projects, one express action. Boring on purpose."
+key_concept: |
+  Weekly review as a checklist - inbox, calendar, projects, one express action.
+  
+  Boring on purpose.
+examples:
+  - "Inbox, calendar, projects, one express action - twenty minutes beats skipping review because this week's \"different.\""
+  - "Sunday checklist: bowl by the door, calendar, kid forms, one family thing to finish - same steps even on travel weeks, shortened not skipped."
+relationships:
+  - type: contradicts
+    wikilink: "[[Minimum Effective Dose]]"
+    reason: "when the full checklist beats the smallest review that works"
+  - type: extends
+    wikilink: "[[The Trusted Inbox]]"
+    reason: "The weekly checklist empties the inbox first - the boring steps that keep trust alive"
+  - type: implements
+    wikilink: "[[Periodic Knowledge Review]]"
+    reason: "Carries it out in practice"
+slug: "weekly-review-checklists"
+date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Weekly Review", "Checklist", "GTD", "PKM", "PARA", "Habits", "Workflow"]
-slug: "weekly-review-checklists"
 featured: false
 review: true
 card_sets: ["Focus", "Review"]
@@ -29,33 +46,4 @@ cards:
   - front: "Post-game Sunday and gear bag still a mess. What's the boring ritual?"
     back: "Clear bag, check fixture, one skill drill."
 draft: false
-aliases: []
 ---
-My weekly review is a checklist - inbox, calendar, projects, one express action. Boring on purpose.
-
-## Key Concept
-
-Weekly review as a checklist - inbox, calendar, projects, one express action.
-
-Boring on purpose.
-
-## Examples
-
-- Inbox, calendar, projects, one express action - twenty minutes beats skipping review because this week's "different."
-- Sunday checklist: bowl by the door, calendar, kid forms, one family thing to finish - same steps even on travel weeks, shortened not skipped.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Minimum Effective Dose]] | when the full checklist beats the smallest review that works |
-| extends | [[The Trusted Inbox]] | The weekly checklist empties the inbox first - the boring steps that keep trust alive |
-| implements | [[Periodic Knowledge Review]] | Carries it out in practice |
-
-## See also
-
-- [[Getting Things Done]] - GTD, PKM
-- [[CRDT]] - PKM
-- [[Commonplace Book]] - PKM
-- [[Inbox Zero]] - PKM
-- [[Information Diet]] - PKM

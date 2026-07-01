@@ -1,13 +1,30 @@
 ---
 title: "Layered Reading"
 meta_title: "Layered Reading"
-description: "pass through the same source at increasing depth - skim, highlight, summarize."
-date: 2026-06-22T06:00:00Z
+description: "Pass through the same source at increasing depth - skim, highlight, summarize."
+key_concept: |
+  Skim first pass, mark second, extract third - same book, three depths, one sitting at a time.
+  
+  [[Progressive Summarization]] is the note-side cousin of layered passes.
+examples:
+  - "First pass on the coaching manual marked three sections; second pass only those got sentences in my own words."
+  - "First pass marked three sections of the safety manual; second pass only those got sentences in my own words."
+relationships:
+  - type: contradicts
+    wikilink: "[[Spaced Repetition]]"
+    reason: "when the opposite frame fits better"
+  - type: extends
+    wikilink: "[[Literature Notes]]"
+    reason: "Named in notes that link here"
+  - type: extends
+    wikilink: "[[Progressive Summarization]]"
+    reason: "Named in notes that link here"
+slug: "layered-reading"
+date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["PKM", "Learning"]
-slug: "layered-reading"
 featured: false
 review: true
 card_sets: ["Focus", "Review"]
@@ -21,32 +38,4 @@ cards:
   - front: "First commute listen for the gist; second pass with a notebook on the parts I'd cite later"
     back: "Pass through the same source at increasing depth"
 draft: false
-aliases: []
 ---
-Pass through the same source at increasing depth - skim, highlight, summarize.
-
-## Key Concept
-
-Named in notes that link here ([[Literature Notes]]).
-
-Tension with [[Spaced Repetition]] when the opposite frame fits better.
-
-## Examples
-
-- First pass on the coaching manual marked three sections; second pass only those got sentences in my own words.
-- First pass marked three sections of the safety manual; second pass only those got sentences in my own words.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Spaced Repetition]] | when the opposite frame fits better |
-| extends | [[Literature Notes]] | Named in notes that link here |
-| extends | [[Progressive Summarization]] | Named in notes that link here |
-
-## See also
-
-- [[Compounding]] - Learning, PKM
-- [[Mental Models]] - Learning, PKM
-- [[PKM]] - Learning, PKM
-- [[The Collector's Fallacy]] - Learning, PKM

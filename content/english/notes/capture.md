@@ -1,13 +1,34 @@
 ---
 title: "Capture"
 meta_title: "Capture - The First Step of Every Note System"
-description: "Capture is where my PKM lives or dies - one trusted inbox, save what resonates."
-date: 2026-06-18T06:00:00Z
+description: "Save what resonates into one inbox I trust - then empty it weekly."
+key_concept: |
+  Friction kills capture.
+  
+  One inbox, phone to desktop, weekly process - same as [[The Trusted Inbox]]. If I wouldn't act on it or cite it later, it doesn't get saved. Resonance is the filter, not FOMO.
+examples:
+  - "A play tweak hits during cooldown and I scribble it on my wristband before the locker room noise eats it - one inbox, file it Sunday when the spark is safe."
+  - "On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it - one pocket notebook, no sorting yet."
+relationships:
+  - type: contradicts
+    wikilink: "[[Signal vs Noise]]"
+    reason: "when I save first and filter later"
+  - type: extends
+    wikilink: "[[Frictionless Capture]]"
+    reason: "Zero-friction inbox is the habit this note assumes"
+  - type: extends
+    wikilink: "[[PKM]]"
+    reason: "Capture is the first PKM move - save what hits you into one inbox"
+  - type: implements
+    wikilink: "[[The Trusted Inbox]]"
+    reason: "One inbox habit carries capture into something you'll empty"
+slug: "capture"
+date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Capture", "PKM", "Second Brain", "CODE Method", "Note Taking", "Productivity"]
-slug: "capture"
+aliases: ["CODE", "Frictionless Capture"]
 featured: false
 review: true
 card_sets: ["Capture", "Workflow"]
@@ -29,34 +50,4 @@ cards:
   - front: "Customer complaint gives me a fix idea mid-shift. Capture move before the shift ends?"
     back: "Drop in one inbox - no tagging yet."
 draft: false
-aliases: ["CODE", "Frictionless Capture"]
 ---
-Save what resonates into one inbox I trust - then empty it weekly.
-
-## Key Concept
-
-Friction kills capture.
-
-One inbox, phone to desktop, weekly process - same as [[The Trusted Inbox]]. If I wouldn't act on it or cite it later, it doesn't get saved. Resonance is the filter, not FOMO.
-
-## Examples
-
-- A play tweak hits during cooldown and I scribble it on my wristband before the locker room noise eats it - one inbox, file it Sunday when the spark is safe.
-- On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it - one pocket notebook, no sorting yet.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Signal vs Noise]] | when I save first and filter later |
-| extends | [[Frictionless Capture]] | Zero-friction inbox is the habit this note assumes |
-| extends | [[PKM]] | Capture is the first PKM move - save what hits you into one inbox |
-| implements | [[The Trusted Inbox]] | One inbox habit carries capture into something you'll empty |
-
-## See also
-
-- [[Building a Second Brain]] - CODE Method, Capture, Note Taking
-- [[Commonplace Book]] - Note Taking, PKM
-- [[Inbox Zero]] - PKM, Productivity
-- [[Information Diet]] - PKM, Productivity
-- [[Read Later Queue]] - Capture, PKM

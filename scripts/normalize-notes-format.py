@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
-"""One-shot: normalize note formatting, dedupe relationships, trim examples to two."""
+"""Normalize note formatting: dedupe relationships, trim examples to two."""
 
 from __future__ import annotations
 
 import re
 import sys
 from pathlib import Path
+
+import yaml
+
+from notes_content import dump_frontmatter, split_frontmatter
 
 ROOT = Path(__file__).resolve().parents[1]
 NOTES = ROOT / "content/english/notes"
@@ -34,24 +38,18 @@ CARD_ITEM_RE = re.compile(
     re.M,
 )
 
-REL_ROW_RE = re.compile(
-    r"^\| ([^|]+) \| \[\[([^\]]+)\]\] \| ([^|]+) \|$",
-    re.M,
-)
+
+def load_fm(raw_fm: str) -> dict:
+    data = yaml.safe_load(raw_fm) or {}
+    return data if isinstance(data, dict) else {}
 
 
-def split_frontmatter(text: str) -> tuple[str, str]:
-    if not text.startswith("---"):
-        return "", text
-    end = text.find("\n---", 3)
-    if end == -1:
-        return "", text
-    fm = text[3:end].lstrip("\n")
-    return fm, text[end + 4 :]
-
-
-def parse_cards(fm: str) -> list[tuple[str, str]]:
-    return [(m.group(1), m.group(2)) for m in CARD_ITEM_RE.finditer(fm)]
+def parse_cards(fm: dict) -> list[tuple[str, str]]:
+    cards = []
+    for item in fm.get("cards") or []:
+        if isinstance(item, dict) and item.get("front") and item.get("back"):
+            cards.append((str(item["front"]), str(item["back"])))
+    return cards
 
 
 def norm(s: str) -> str:
@@ -59,15 +57,13 @@ def norm(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
-def is_card_echo(bullet: str, cards: list[tuple[str, str]]) -> bool:
-    text = bullet[2:].strip() if bullet.startswith("- ") else bullet.strip()
+def is_card_echo(text: str, cards: list[tuple[str, str]]) -> bool:
     ntext = norm(text)
     for front, back in cards:
         nfront, nback = norm(front), norm(back)
         combo = f"{nfront} - {nback}"
         if ntext == combo:
             return True
-        # front - back pasted with minor punctuation tweaks
         if nfront in ntext and ntext.endswith(nback) and len(ntext) < len(combo) + 30:
             return True
         if ntext.startswith(nfront[: min(40, len(nfront))]) and nback in ntext:
@@ -101,76 +97,66 @@ def pick_diverse_two(bullets: list[str]) -> list[str]:
     return [bullets[first], bullets[best_j]]
 
 
-def split_section(body: str, heading: str) -> tuple[str, str, str]:
-    before, rest = body.split(heading, 1)
-    if "##" in rest:
-        block, after = rest.split("##", 1)
-        after = "##" + after
-    else:
-        block, after = rest, ""
-    return before, block, after
-
-
-def dedupe_examples(body: str, cards: list[tuple[str, str]]) -> tuple[str, int]:
-    if "## Examples" not in body:
-        return body, 0
-    before, examples_block, after = split_section(body, "## Examples")
+def dedupe_examples(fm: dict, cards: list[tuple[str, str]]) -> tuple[dict, int]:
+    examples = fm.get("examples")
+    if not isinstance(examples, list):
+        return fm, 0
 
     bullets: list[str] = []
     removed = 0
     seen: set[str] = set()
-
-    for line in examples_block.splitlines():
-        stripped = line.strip()
-        if not stripped.startswith("- "):
+    for item in examples:
+        if not isinstance(item, str):
             continue
-        key = norm(stripped)
+        text = item.strip()
+        if not text:
+            continue
+        key = norm(text)
         if key in seen:
             removed += 1
             continue
-        if cards and is_card_echo(stripped, cards):
+        if cards and is_card_echo(text, cards):
             removed += 1
             continue
         seen.add(key)
-        bullets.append(stripped)
+        bullets.append(text)
 
     trimmed = pick_diverse_two(bullets)
     removed += max(0, len(bullets) - len(trimmed))
+    if trimmed != examples:
+        fm["examples"] = trimmed
+    return fm, removed
 
-    new_block = "\n\n" + "\n".join(trimmed) + "\n\n"
-    return before + "## Examples" + new_block + after, removed
 
+def dedupe_relationships(fm: dict) -> tuple[dict, int]:
+    rels = fm.get("relationships")
+    if not isinstance(rels, list):
+        return fm, 0
 
-def dedupe_relationships(body: str) -> tuple[str, int]:
-    if "## Note Relationships" not in body:
-        return body, 0
-    before, rel_block, after = split_section(body, "## Note Relationships")
-
-    header = "| Relationship | Wikilink | Reason |\n|--------------|----------|--------|"
-    if header not in rel_block:
-        return body, 0
-
-    best: dict[str, tuple[str, str, str]] = {}
+    best: dict[str, dict[str, str]] = {}
     removed = 0
-    for rel, link, reason in REL_ROW_RE.findall(rel_block):
-        rel = rel.strip()
-        link_key = link.strip().lower()
-        reason = reason.strip()
-        row = (rel, link.strip(), reason)
+    for item in rels:
+        if not isinstance(item, dict):
+            continue
+        typ = str(item.get("type", "")).strip()
+        wikilink = str(item.get("wikilink", "")).strip()
+        reason = str(item.get("reason", "")).strip()
+        link_key = wikilink.lower()
+        row = {"type": typ, "wikilink": wikilink, "reason": reason}
         if link_key not in best:
             best[link_key] = row
             continue
         removed += 1
-        old_rel, old_link, old_reason = best[link_key]
-        old_pri = REL_PRIORITY.get(old_rel, 99)
-        new_pri = REL_PRIORITY.get(rel, 99)
-        if new_pri < old_pri or (new_pri == old_pri and len(reason) > len(old_reason)):
+        old = best[link_key]
+        old_pri = REL_PRIORITY.get(old["type"], 99)
+        new_pri = REL_PRIORITY.get(typ, 99)
+        if new_pri < old_pri or (new_pri == old_pri and len(reason) > len(old["reason"])):
             best[link_key] = row
 
-    rows = sorted(best.values(), key=lambda r: (r[0].lower(), r[1].lower()))
-    table = header + "\n" + "\n".join(f"| {rel} | [[{link}]] | {reason} |" for rel, link, reason in rows)
-    new_block = "\n\n" + table + "\n\n"
-    return before + "## Note Relationships" + new_block + after, removed
+    rows = sorted(best.values(), key=lambda r: (r["type"].lower(), r["wikilink"].lower()))
+    if rows != rels:
+        fm["relationships"] = rows
+    return fm, removed
 
 
 def normalize_file(path: Path, dry_run: bool = False) -> list[str]:
@@ -178,8 +164,8 @@ def normalize_file(path: Path, dry_run: bool = False) -> list[str]:
     raw = path.read_text(encoding="utf-8")
     fixed = raw.replace("\u2014", "-").replace("\u2013", "-")
 
-    fm, body = split_frontmatter(fixed)
-    if not fm:
+    raw_fm, body = split_frontmatter(fixed)
+    if not raw_fm:
         if not fixed.endswith("\n"):
             fixed += "\n"
             changes.append("trailing newline")
@@ -187,27 +173,22 @@ def normalize_file(path: Path, dry_run: bool = False) -> list[str]:
             path.write_text(fixed, encoding="utf-8")
         return changes
 
+    fm = load_fm(raw_fm)
     cards = parse_cards(fm)
 
-    # No blank line inside frontmatter after opening ---
-    if fm.startswith("\n"):
-        fm = fm.lstrip("\n")
-        changes.append("frontmatter leading blank")
+    fm, removed = dedupe_examples(fm, cards)
+    if removed:
+        changes.append(f"trimmed {removed} example(s)")
 
-    # Exactly one blank line between closing --- and body
+    fm, rel_removed = dedupe_relationships(fm)
+    if rel_removed:
+        changes.append(f"removed {rel_removed} duplicate relationship(s)")
+
     body = body.lstrip("\n")
     if body:
         body = "\n" + body
 
-    new_body, removed = dedupe_examples(body, cards)
-    if removed:
-        changes.append(f"trimmed {removed} example(s)")
-
-    new_body, rel_removed = dedupe_relationships(new_body)
-    if rel_removed:
-        changes.append(f"removed {rel_removed} duplicate relationship(s)")
-
-    out = f"---\n{fm}\n---{new_body}"
+    out = f"---\n{dump_frontmatter(fm)}\n---{body}"
     if not out.endswith("\n"):
         out += "\n"
         changes.append("trailing newline")
@@ -226,26 +207,25 @@ def verify_notes() -> int:
     for path in sorted(NOTES.glob("*.md")):
         if path.name in SKIP:
             continue
-        text = path.read_text(encoding="utf-8")
-        if "## Examples" in text:
-            m = re.search(r"## Examples\n\n((?:- .+\n)+)", text)
-            if m:
-                bullets = [l for l in m.group(1).strip().split("\n") if l.startswith("- ")]
-                if len(bullets) > MAX_EXAMPLES:
-                    print(f"FAIL examples {path.name}: {len(bullets)}")
-                    bad += 1
-        if "## Note Relationships" in text:
-            rel = text[text.index("## Note Relationships") :]
-            rows = [(rel.strip(), link.strip()) for rel, link, _ in REL_ROW_RE.findall(rel)]
+        fm = load_fm(split_frontmatter(path.read_text(encoding="utf-8"))[0])
+        examples = fm.get("examples")
+        if isinstance(examples, list):
+            bullets = [x for x in examples if isinstance(x, str) and x.strip()]
+            if len(bullets) > MAX_EXAMPLES:
+                print(f"FAIL examples {path.name}: {len(bullets)}")
+                bad += 1
+        rels = fm.get("relationships")
+        if isinstance(rels, list):
+            rows = [(r.get("type", ""), r.get("wikilink", "")) for r in rels if isinstance(r, dict)]
             sorted_rows = sorted(rows, key=lambda r: (r[0].lower(), r[1].lower()))
             if rows != sorted_rows:
                 print(f"FAIL unsorted rel {path.name}")
                 bad += 1
             seen: set[str] = set()
-            for _, link, _reason in REL_ROW_RE.findall(rel):
-                key = link.strip().lower()
+            for row in rows:
+                key = row[1].strip().lower()
                 if key in seen:
-                    print(f"FAIL duplicate rel {path.name}: [[{link}]]")
+                    print(f"FAIL duplicate rel {path.name}: {row[1]}")
                     bad += 1
                 seen.add(key)
     return bad

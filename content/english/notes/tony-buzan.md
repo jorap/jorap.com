@@ -1,13 +1,27 @@
 ---
 title: "Tony Buzan"
 meta_title: "Tony Buzan"
-description: "popularized mind mapping as a radiant, branching sketch - name people cite for the method."
-date: 2026-06-22T06:00:00Z
+description: "Popularized mind mapping as a radiant, branching sketch - name people cite for the method."
+key_concept: |
+  Radiant branches beat outline bullets when the goal is association, not argument order.
+  
+  [[Mind Mapping]] is the method; Buzan is the name on the workshop slide.
+examples:
+  - "The workshop called it 'Buzan style' - center idea, branches, no paragraph outlines before the brainstorm."
+  - "Trip planning on one page: Manila in the middle, branches for hotels, food, and don't forget meds."
+relationships:
+  - type: contradicts
+    wikilink: "[[Atomic Notes]]"
+    reason: "when the opposite frame fits better"
+  - type: extends
+    wikilink: "[[Mind Mapping]]"
+    reason: "Named in notes that link here"
+slug: "tony-buzan"
+date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["PKM", "Learning"]
-slug: "tony-buzan"
 featured: false
 review: true
 card_sets: ["Focus", "Review"]
@@ -21,30 +35,4 @@ cards:
   - front: "My garden overhaul started as a mind map on a napkin. What's the move?"
     back: "The name people cite for the method"
 draft: false
-aliases: []
 ---
-Popularized mind mapping as a radiant, branching sketch - name people cite for the method.
-
-## Key Concept
-
-Named in notes that link here ([[Mind Mapping]]).
-
-Tension with [[Atomic Notes]] when the opposite frame fits better.
-
-## Examples
-
-- The workshop called it 'Buzan style' - center idea, branches, no paragraph outlines before the brainstorm.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Atomic Notes]] | when the opposite frame fits better |
-| extends | [[Mind Mapping]] | Named in notes that link here |
-
-## See also
-
-- [[Layered Reading]] - Learning, PKM
-- [[Mental Models]] - Learning, PKM
-- [[PKM]] - Learning, PKM
-- [[Spaced Repetition]] - Learning, PKM

@@ -1,13 +1,33 @@
 ---
 title: "Composure"
 meta_title: "Composure - Steady When the Room Isn't"
-description: "Composure is staying readable and deliberate when others speed up or heat up."
-date: 2026-06-22T08:00:00Z
+description: "Steady tone and pace when the room isn't - people read calm as competence."
+key_concept: Composure is staying readable and deliberate when others speed up or heat up.
+examples:
+  - "The neighbor argument on the group chat heated up and I waited one beat before replying - people read calm as competence even when the issue is real."
+  - "I used the same move in a heated parent meeting - slower speech, one clarifying question, no matching their volume."
+relationships:
+  - type: contradicts
+    wikilink: "[[The 12 Week Year]]"
+    reason: "when performed calm misses a real deadline the team actually committed to"
+  - type: extends
+    wikilink: "[[Control the Rhythm]]"
+    reason: "Composure sets pace"
+  - type: extends
+    wikilink: "[[Emotional Regulation]]"
+    reason: "Composure is regulation others can see"
+  - type: extends
+    wikilink: "[[Gentleness]]"
+    reason: "Steady voice under pressure is gentleness others can see"
+  - type: extends
+    wikilink: "[[Slow the Moment]]"
+    reason: "Pause before the visible reaction"
+slug: "composure"
+date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["Leadership", "Performance", "Self-Control"]
-slug: "composure"
 featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
@@ -21,31 +41,4 @@ cards:
   - front: "A referee stays calm when players yell. What's the move?"
     back: "not because the foul didn't matter, but because."
 draft: false
-aliases: []
 ---
-Steady tone and pace when the room isn't - people read calm as competence.
-
-## Key Concept
-
-Composure is staying readable and deliberate when others speed up or heat up.
-
-## Examples
-
-- The neighbor argument on the group chat heated up and I waited one beat before replying - people read calm as competence even when the issue is real.
-- I used the same move in a heated parent meeting - slower speech, one clarifying question, no matching their volume.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[The 12 Week Year]] | when performed calm misses a real deadline the team actually committed to |
-| extends | [[Control the Rhythm]] | Composure sets pace |
-| extends | [[Emotional Regulation]] | Composure is regulation others can see |
-| extends | [[Gentleness]] | Steady voice under pressure is gentleness others can see |
-| extends | [[Slow the Moment]] | Pause before the visible reaction |
-
-## See also
-
-- [[Accountability]] - Leadership, Performance
-- [[Develop, Don't Endanger]] - Leadership, Performance
-- [[Discipline]] - Performance, Self-Control

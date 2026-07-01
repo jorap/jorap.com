@@ -2,25 +2,31 @@
 note_kind: "index"
 title: "Systems for Growth"
 meta_title: "Systems for Growth - Loops That Compound Skill Over Time"
-description: "Growth isn't one heroic week - it's habits, feedback, and review loops you can rerun when motivation dips."
-date: 2026-06-22T06:00:00Z
+description: "The loops you build on purpose - habits, feedback, review, recovery - so skill compounds when motivation doesn't show up."
+key_concept: |
+  Each note below is one move I'd want running before I need results.
+  
+  [[Pressure Reveals Weakness]] covers what holds when heat rises; this hub covers what you install on ordinary Tuesdays.
+relationships:
+  - type: alternative
+    wikilink: "[[Pressure Reveals Weakness]]"
+    reason: "Growth-building hub vs performance-under-pressure when you're designing loops, not surviving heat"
+  - type: extends
+    wikilink: "[[Mental Models]]"
+    reason: "Decision lenses complement the habits and review rhythms here"
+  - type: extends
+    wikilink: "[[Process Over Outcomes]]"
+    reason: "Repeatable loops are the core growth mechanic this hub indexes"
+slug: "systems-for-growth"
+date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Productivity", "Tips"]
 author: "JoRap"
 tags: ["Growth", "Habits", "Performance", "Systems Thinking", "MOC"]
-slug: "systems-for-growth"
+aliases: ["growth systems", "systems for growth"]
 featured: false
 draft: false
-aliases: ["growth systems", "systems for growth"]
 ---
-The loops you build on purpose - habits, feedback, review, recovery - so skill compounds when motivation doesn't show up.
-
-## Key Concept
-
-Each note below is one move I'd want running before I need results.
-
-[[Pressure Reveals Weakness]] covers what holds when heat rises; this hub covers what you install on ordinary Tuesdays.
-
 ## Mindset
 
 - [[Growth Mindset]] - skills train; a miss is data, not identity
@@ -67,12 +73,3 @@ Each note below is one move I'd want running before I need results.
 
 - [[The 12 Week Year]] - quarterly intensity you can actually feel
 - [[Adaptability]] - strength in one room can fail when conditions shift
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| alternative | [[Pressure Reveals Weakness]] | Growth-building hub vs performance-under-pressure when you're designing loops, not surviving heat |
-| extends | [[Mental Models]] | Decision lenses complement the habits and review rhythms here |
-| extends | [[Process Over Outcomes]] | Repeatable loops are the core growth mechanic this hub indexes |
-

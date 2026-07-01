@@ -7,6 +7,10 @@ import re
 import sys
 from pathlib import Path
 
+import yaml
+
+from notes_content import assemble_markdown, split_frontmatter
+
 ROOT = Path(__file__).resolve().parents[1]
 NOTES_DIR = ROOT / "content/english/notes"
 
@@ -15,15 +19,6 @@ UTILITY_LAYOUTS = frozenset({"graph", "cards", "review", "issues", "random-duo",
 WIKILINK_RE = re.compile(
     r"\[\[([^\]|#]+)(?:#[^\]|]+)?\]\]"
 )
-
-
-def split_frontmatter(text: str) -> tuple[str, str]:
-    if not text.startswith("---"):
-        return "", text
-    end = text.find("\n---", 3)
-    if end == -1:
-        return "", text
-    return text[3:end].strip(), text[end + 4 :]
 
 
 def parse_scalar(block: str, key: str) -> str:
@@ -44,12 +39,6 @@ def is_utility(block: str) -> bool:
     return parse_scalar(block, "layout") in UTILITY_LAYOUTS
 
 
-def body_without_see_also(body: str) -> str:
-    if "## See also" in body:
-        return body.split("## See also", 1)[0]
-    return body
-
-
 def utility_targets() -> dict[str, Path]:
     """Map wikilink target strings (lower) to utility note path."""
     targets: dict[str, Path] = {}
@@ -66,14 +55,20 @@ def utility_targets() -> dict[str, Path]:
 
 
 def lint_file(path: Path, targets: dict[str, Path]) -> list[str]:
-    if is_utility(split_frontmatter(path.read_text(encoding="utf-8"))[0]):
+    text = path.read_text(encoding="utf-8")
+    raw_fm, body = split_frontmatter(text)
+    if is_utility(raw_fm):
         return []
 
+    fm = yaml.safe_load(raw_fm) or {}
+    if not isinstance(fm, dict):
+        fm = {}
+    content = assemble_markdown(fm, body)
+
     rel = path.relative_to(ROOT)
-    body = body_without_see_also(split_frontmatter(path.read_text(encoding="utf-8"))[1])
     errors: list[str] = []
 
-    for match in WIKILINK_RE.finditer(body):
+    for match in WIKILINK_RE.finditer(content):
         target = (match.group(1) or "").strip()
         hit = targets.get(target.casefold())
         if hit:

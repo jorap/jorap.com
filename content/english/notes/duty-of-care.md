@@ -1,13 +1,33 @@
 ---
 title: "Duty of Care"
 meta_title: "Duty of Care"
-description: "leaders owe reasonable protection to people under their authority - not zero risk, not reckless harm."
-date: 2026-06-22T06:00:00Z
+description: "Leaders owe reasonable protection to people under their authority - not zero risk, not reckless harm."
+key_concept: |
+  Owe people the care you'd expect if roles reversed - not the minimum the handbook allows.
+  
+  [[Safety Comes First]] at work; duty of care is the legal and moral floor under it.
+examples:
+  - "The clinic keeps a crash cart checked every shift - \"staff assumes risk\" doesn't erase the charge nurse's job of reasonable protection."
+  - "We don't leave the toddler pool gate open because the kids \"know not to run\" - duty of care is watching even when signs say be careful."
+relationships:
+  - type: contradicts
+    wikilink: "[[Outcomes Over Pitch Decks]]"
+    reason: "when the opposite frame fits better"
+  - type: extends
+    wikilink: "[[Develop, Don't Endanger]]"
+    reason: "Named in notes that link here"
+  - type: extends
+    wikilink: "[[Life Before Achievement]]"
+    reason: "Named in notes that link here"
+  - type: implements
+    wikilink: "[[Safety Comes First]]"
+    reason: "Stopping harm is duty of care in motion"
+slug: "duty-of-care"
+date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Ideas", "Tips"]
 author: "JoRap"
 tags: ["Leadership", "Safety", "Ethics"]
-slug: "duty-of-care"
 featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
@@ -21,32 +41,4 @@ cards:
   - front: "The building had a guard on the night shift because posted rules don't replace someone watching the exit when the alarm trips."
     back: "leaders owe reasonable protection to people..."
 draft: false
-aliases: []
 ---
-Leaders owe reasonable protection to people under their authority - not zero risk, not reckless harm.
-
-## Key Concept
-
-Named in notes that link here ([[Develop, Don't Endanger]]).
-
-Tension with [[Outcomes Over Pitch Decks]] when the opposite frame fits better.
-
-## Examples
-
-- The clinic keeps a crash cart checked every shift - "staff assumes risk" doesn't erase the charge nurse's job of reasonable protection.
-- We don't leave the toddler pool gate open because the kids "know not to run" - duty of care is watching even when signs say be careful.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Outcomes Over Pitch Decks]] | when the opposite frame fits better |
-| extends | [[Develop, Don't Endanger]] | Named in notes that link here |
-| extends | [[Life Before Achievement]] | Named in notes that link here |
-| implements | [[Safety Comes First]] | Stopping harm is duty of care in motion |
-
-## See also
-
-- [[Coaching Ethics]] - Ethics, Leadership, Safety
-- [[Eliminate Before Managing]] - Ethics, Leadership, Safety
-- [[Ethical Leadership]] - Ethics, Leadership

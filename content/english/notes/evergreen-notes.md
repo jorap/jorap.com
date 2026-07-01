@@ -1,15 +1,32 @@
 ---
 title: "Evergreen Notes"
 meta_title: "Evergreen Notes - Ideas That Stay Fresh"
-description: "I write evergreen notes to stay useful - timeless phrasing, clear claims, updated when reality changes."
-date: 2026-06-18T06:00:00Z
+description: "Ideas phrased to stay useful - timeless wording, clear claims, updated when reality changes."
+key_concept: |
+  I write in complete sentences I'd still stand behind in two years.
+  
+  Revise when tools change, not when trends spike. Promotion from fleeting: during [[Periodic Knowledge Review]], when a spark keeps returning. Faith parallel: [[The Beatitudes]] - character that matures over years, not a one-week mood.
+examples:
+  - "A family recipe card keeps the ratios, not last year's trendy garnish - I rewrite when life changes how I cook, not when a feed gets excited about a new trick."
+  - "My free-throw note keeps the release point and follow-through - not last week's trending drill tip I'd regret next season."
+relationships:
+  - type: contradicts
+    wikilink: "[[Daily Notes]]"
+    reason: "when two-year phrasing beats today's scratch pad"
+  - type: extends
+    wikilink: "[[Atomic Notes]]"
+    reason: "Atomic notes become evergreens when one claim is phrased to last for years"
+  - type: extends
+    wikilink: "[[Permanent Notes]]"
+    reason: "Ahrens-style durable phrasing this note targets"
+slug: "evergreen-notes"
+date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Evergreen Notes", "PKM", "Note Taking", "Second Brain", "Writing", "Formatting", "Readability", "Markdown"]
-slug: "evergreen-notes"
-featured: false
 aliases: ["Formatting for Readability", "Permanent Notes"]
+featured: false
 review: true
 card_sets: ["Writing", "Review"]
 cards:
@@ -27,30 +44,3 @@ cards:
     back: "Distill - need one clear claim."
 draft: false
 ---
-Ideas phrased to stay useful - timeless wording, clear claims, updated when reality changes.
-
-## Key Concept
-
-I write in complete sentences I'd still stand behind in two years.
-
-Revise when tools change, not when trends spike. Promotion from fleeting: during [[Periodic Knowledge Review]], when a spark keeps returning. Faith parallel: [[The Beatitudes]] - character that matures over years, not a one-week mood.
-
-## Examples
-
-- A family recipe card keeps the ratios, not last year's trendy garnish - I rewrite when life changes how I cook, not when a feed gets excited about a new trick.
-- My free-throw note keeps the release point and follow-through - not last week's trending drill tip I'd regret next season.
-
-## Note Relationships
-
-| Relationship | Wikilink | Reason |
-|--------------|----------|--------|
-| contradicts | [[Daily Notes]] | when two-year phrasing beats today's scratch pad |
-| extends | [[Atomic Notes]] | Atomic notes become evergreens when one claim is phrased to last for years |
-| extends | [[Permanent Notes]] | Ahrens-style durable phrasing this note targets |
-
-## See also
-
-- [[Commonplace Book]] - Note Taking, PKM
-- [[Literature Notes]] - Note Taking, PKM
-- [[Evergreen vs Fleeting Notes]] - Evergreen Notes, Note Taking, PKM
-- [[CRDT]] - PKM
