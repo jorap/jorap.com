@@ -46,6 +46,7 @@ Eternal rewards settle what the Father pays the saved life for walking faithfull
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when I treat stacked good works as currency that bought eternal life |
 | extends | [[Faithful Steward]] | Well done repays faithful use - not the entry fee |
+| extends | [[Faithfulness]] | Eternal rewards may repay steady faithfulness - not the entry fee |
 | extends | [[Free Grace]] | Grace gets you in; rewards are what God pays for faithful living after |
 | extends | [[Judgment Seat]] | Sermon promises get assessed at the bema - not a retrial on who gets in |
 | extends | [[Loss of Reward]] | Reward can shrink; eternal life stays on Christ |

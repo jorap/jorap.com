@@ -33,7 +33,9 @@ Eight blessings Jesus opened the Sermon on the Mount with - poor in spirit, mour
 
 "Beatitude" means supreme blessedness.
 
-Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not the self-sufficient - which fits [[Free Grace]] perfectly. "Poor in spirit" is bankruptcy before God, receiving the kingdom as gift rather than wage. Each line promises reward rooted in character shaped by grace, not self-made righteousness. | Trait | Promise |
+Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not the self-sufficient - which fits [[Free Grace]] perfectly. "Poor in spirit" is bankruptcy before God, receiving the kingdom as gift rather than wage. Each line promises reward rooted in character shaped by grace, not self-made righteousness.
+
+| Trait | Promise |
 |-------|---------|
 | Poor in spirit | Kingdom of heaven |
 | Mourning | Comfort |
@@ -56,7 +58,10 @@ Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not th
 | contradicts | [[Humility and Service]] | when pride masquerades as strength |
 | extends | [[Free Grace]] | The kingdom belongs to the spiritually needy who receive it as gift, not wage |
 | extends | [[Fruits of the Spirit]] | Kingdom character overlaps - meek, merciful, peacemakers meet the Galatians cluster |
+| extends | [[Gentleness]] | Meek inherit the earth - gentleness Jesus blessed |
+| extends | [[Kindness]] | Merciful obtain mercy - kindness Jesus blessed |
 | extends | [[Mercy]] | Merciful obtain mercy - beatitude character Jesus blessed |
+| extends | [[Peace]] | Peacemakers blessed - kingdom peace made visible |
 
 ## See also
 

@@ -40,6 +40,7 @@ Creative blocks aren't solved by more capture - one small ship action usually un
 |--------------|----------|--------|
 | contradicts | [[Capture]] | when one ship action beats capturing my way out of stuck |
 | extends | [[Creative Output]] | More capture won't unstick you - blocks need output fixes, not more notes |
+| extends | [[Writer's Block]] | Named stuck state this note tries to break |
 
 ## See also
 

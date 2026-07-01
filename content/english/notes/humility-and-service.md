@@ -47,6 +47,8 @@ Status in the kingdom runs opposite to the world's ladder: exalt yourself and yo
 | contradicts | [[Let Your Light Shine]] | when visibility becomes the goal instead of the byproduct |
 | extends | [[Faithful Steward]] | Faithful in small things - well done for use, not status |
 | extends | [[Free Grace]] | Service is kingdom greatness, not the price you pay for grace you already received |
+| extends | [[Fruits of the Spirit]] | Gentleness fruit - strength without grasping |
+| extends | [[Gentleness]] | Humility and service is the garden echo for gospel gentleness |
 | extends | [[Servant Leadership]] | Lead-by-serving frame Jesus models |
 
 ## See also

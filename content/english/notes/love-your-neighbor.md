@@ -48,6 +48,8 @@ The parable of the Good Samaritan (Luke 10) reframes the question - not "who cou
 | extends | [[Create Regular Connection]] | Neighbor-love shows up in small repeated presence |
 | extends | [[Follow Their Lead]] | Love neighbor means entering their world before I redirect |
 | extends | [[Free Grace]] | Grace frees you to love neighbors without keeping score for salvation |
+| extends | [[Fruits of the Spirit]] | Love fruit outward - second commandment pair |
+| extends | [[Kindness]] | Neighbor-love shows kindness to the person in front |
 | extends | [[Listen Before Fixing]] | Care I'd want includes being heard before being fixed |
 | extends | [[Mercy]] | Neighbor-love shows mercy to the person in front of me |
 

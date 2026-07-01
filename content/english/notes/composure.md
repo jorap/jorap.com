@@ -41,6 +41,7 @@ Composure is staying readable and deliberate when others speed up or heat up.
 | contradicts | [[The 12 Week Year]] | when performed calm misses a real deadline the team actually committed to |
 | extends | [[Control the Rhythm]] | Composure sets pace |
 | extends | [[Emotional Regulation]] | Composure is regulation others can see |
+| extends | [[Gentleness]] | Steady voice under pressure is gentleness others can see |
 | extends | [[Slow the Moment]] | Pause before the visible reaction |
 
 ## See also

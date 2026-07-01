@@ -41,6 +41,7 @@ Heroic weeks feel good; boring repetition wins. The first months look like nothi
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Pareto Principle]] | when boring repetition beats protecting only the vital few |
+| extends | [[Faithfulness]] | Small faithful use stacks over quiet Tuesdays |
 | extends | [[Habit Stacking]] | Small repeats that stack - same compounding mechanic |
 | extends | [[Loss of Reward]] | Bad seasons shrink reward in the faith ledger - not proof salvation was never real |
 | extends | [[Process Over Outcomes]] | Small gains stack when you repeat the process, not when you chase one heroic week |

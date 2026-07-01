@@ -46,6 +46,7 @@ Heart (affections), soul (will and life), mind (thought), strength (effort). Und
 |--------------|----------|--------|
 | contradicts | [[Don't Worry]] | when worry replaces trust |
 | extends | [[Free Grace]] | First call on a life already saved - love from grace received, not payment for eternal life |
+| extends | [[Fruits of the Spirit]] | Love fruit - greatest commandment cluster |
 
 ## See also
 

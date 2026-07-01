@@ -46,10 +46,14 @@ Under [[Free Grace]], discipleship is [[Grateful Obedience]] - grateful response
 |--------------|----------|--------|
 | alternative | [[The Collector's Fallacy]] | when I hoard teaching without obeying or sharing |
 | contradicts | [[There Is No Perfect Solution]] | when I delay following until I've fixed myself |
+| extends | [[Faithfulness]] | Daily following is where faithfulness shows up |
 | extends | [[Free Grace]] | Following is the grateful walk after faith saves - obedience doesn't buy eternal life |
 | extends | [[Fruits of the Spirit]] | Daily following is where love, patience, and gentleness show up |
+| extends | [[Gentleness]] | Daily following is where gentleness shows up in tone |
 | extends | [[Grateful Obedience]] | Following is the grateful walk - obey from thanks, not wages |
+| extends | [[Kindness]] | Daily following is where kindness shows up with real people |
 | extends | [[Loss of Reward]] | Lazy obedience may shrink reward - faith still saves |
+| extends | [[Patience]] | Daily following is where patience shows up with real people |
 | extends | [[Repent and Believe]] | Turn and trust is where discipleship starts |
 | extends | [[Sanctification]] | Daily following is how holiness grows after justification |
 

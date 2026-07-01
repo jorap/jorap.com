@@ -48,6 +48,8 @@ Bad weeks, hidden sin, dread at the [[Judgment Seat]] - none of those re-open th
 | contradicts | [[Compounding]] | when a bad week feels like it erased salvation instead of breaking closeness |
 | extends | [[Childlike Faith]] | Receive the promise like a child - stop re-negotiating merit |
 | extends | [[Free Grace]] | Gift received by faith - assurance rests on Christ, not performance |
+| extends | [[Fruits of the Spirit]] | Joy fruit - rest on Christ, not this week's score |
+| extends | [[Joy]] | Assurance is the garden echo for gospel gladness |
 | extends | [[Justification]] | Verdict doesn't reopen when I stumble |
 | extends | [[Loss of Reward]] | Can lose reward, not salvation |
 | extends | [[Standing vs Fellowship]] | Doubt often confuses broken closeness with revoked standing |

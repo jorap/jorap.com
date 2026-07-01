@@ -51,6 +51,7 @@ Grateful obedience is the posture: I obey because Christ already saved me, not t
 | extends | [[Free Grace]] | Grace saves first; obedience answers with thanks |
 | extends | [[Fruits of the Spirit]] | Thanks-motivated obedience produces Spirit fruit, not theater |
 | extends | [[Grace]] | Unmerited favor received - obedience flows from thanks |
+| extends | [[Joy]] | Thanks-motivated walk produces gospel joy - not performed credit |
 | extends | [[Mercy]] | Holiness grows from received mercy, not earned acceptance |
 | extends | [[Sanctification]] | Grateful walk is how becoming holy shows up daily |
 

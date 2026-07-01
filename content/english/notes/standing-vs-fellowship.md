@@ -48,6 +48,7 @@ Standing is the verdict: declared righteous on Christ, not re-opened by a bad we
 | contradicts | [[Faith and Works]] | when obedience is tried to re-earn standing instead of confess for fellowship |
 | extends | [[Forgiveness]] | Sin breaks fellowship and joy; confess and walk - standing on Christ stays |
 | extends | [[Free Grace]] | Eternal life secured at faith; fellowship is the daily walk, not the entry fee |
+| extends | [[Joy]] | Bad week may break closeness - gospel joy still anchors on Christ's promise |
 | extends | [[Justification]] | Standing declared once at faith; fellowship fluctuates with confession and sin |
 | extends | [[Loss of Reward]] | Shame after failure is fellowship or reward, not revoked salvation |
 | extends | [[Sanctification]] | Becoming holy without re-earning the verdict justification already gave |

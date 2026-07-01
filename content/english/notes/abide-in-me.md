@@ -47,6 +47,8 @@ Pruning hurts but serves fruitfulness. Under [[Free Grace]], fruit doesn't earn 
 | contradicts | [[Compounding]] | when I treat spiritual growth as pure self-stacked effort |
 | extends | [[Free Grace]] | Fruit comes from staying in Christ, not from earning your spot on the vine |
 | extends | [[Fruits of the Spirit]] | Abiding produces the Galatians cluster - love through self-control |
+| extends | [[Joy]] | Gladness grows from staying in the vine - not self-stacked effort |
+| extends | [[Patience]] | Slow fuse grows from staying in the vine - not willpower alone |
 | extends | [[Sanctification]] | Abiding is how holiness grows after justification |
 
 ## See also

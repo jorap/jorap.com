@@ -36,6 +36,7 @@ Follow-through is everything that happens after you said yes - the recap, the ti
 |--------------|----------|--------|
 | contradicts | [[Forgiveness at Work]] | when endless check-ins become nagging that erodes trust |
 | extends | [[Complete the Cycle]] | Follow-through closes the loop |
+| extends | [[Faithfulness]] | Recap with owners and dates is faithfulness after the handshake |
 | extends | [[Plain Commitments at Work]] | Plain yes needs plain follow-through |
 | extends | [[Reliability]] | Trust is follow-through repeated |
 

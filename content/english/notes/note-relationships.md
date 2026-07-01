@@ -38,7 +38,9 @@ Four pair types in a body table - extends, contradicts, implements, alternative 
 | **implements** | What makes this real? | [[Weekly Review Checklists]] implements [[Periodic Knowledge Review]] |
 | **alternative** | What else could do this job? | [[Mobile Capture Workflows]] alternative to [[Analog Capture Tools]] |
 
-Every atomic note carries a one-breath **definition**, **## Key Concept** (one sentence, then a second paragraph), optional **## Examples**, and a **Note Relationships** table sorted by relationship a-z then wikilink a-z. At minimum: **extends** and **contradicts**, wikilinked, each with a **Reason** - each target note linked once. Broken wikilinks to obvious missing notes are fine - they flag future pages.
+Every atomic note carries a one-breath **definition**, **## Key Concept** (one sentence, then a second paragraph), optional **## Examples
+
+
 
 ## Examples
 

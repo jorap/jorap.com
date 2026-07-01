@@ -52,6 +52,7 @@ Christ paid what I couldn't. I receive eternal life by believing His promise - n
 | extends | [[Assurance]] | Rest on Christ's promise after faith - not this week's performance |
 | extends | [[Grace]] | Free grace is grace applied to eternal life by faith alone |
 | extends | [[Grateful Obedience]] | Obedience answers grace with thanks - not wages for heaven |
+| extends | [[Joy]] | Joy follows grace received - not wages that buy heaven |
 | extends | [[Justification]] | Grace is the gift; justification is God declaring you righteous when you receive it |
 | extends | [[Loss of Reward]] | Grace secures eternal life; losing reward never un-does the gift |
 | extends | [[Mercy]] | Mercy spares wrath; grace gives the gift - same rescue |

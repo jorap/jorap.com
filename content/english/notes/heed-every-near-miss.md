@@ -42,9 +42,9 @@ The opposite read is usually right: the system failed, and luck blocked the wors
 |--------------|----------|--------|
 | contradicts | [[Normalization of Deviance]] | when "we've done this before without dying" becomes permission to repeat |
 | extends | [[Anti-Fragile Systems]] | Near misses are stress signals - learn before the system breaks for real |
+| extends | [[Blameless Postmortem]] | Close call deserves postmortem before the third repeat |
 | extends | [[Eliminate Before Managing]] | Investigation should ask whether the hazard can be removed, not only managed better |
 | extends | [[Failure as Feedback]] | Close calls are feedback before harm |
-| extends | [[Blameless Postmortem]] | Close call deserves postmortem before the third repeat |
 | extends | [[Incident Investigation]] | Every close call deserves a root-cause pass, not a shrug |
 | extends | [[Learning Organizations]] | Organizations that learn treat near misses as data, not luck to forget |
 | implements | [[Active Knowledge Curation]] | [[Capture]] the close call, redesign the activity, don't let the lesson rot in memory |

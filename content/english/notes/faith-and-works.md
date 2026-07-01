@@ -46,6 +46,7 @@ Paul answers *how* I'm saved: trust Christ, not wages. James answers *what* livi
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when stacked works feel like currency that bought eternal life |
 | extends | [[Free Grace]] | Faith saves; works are the evidence and response, not the price |
+| extends | [[Goodness]] | Good works prove faith alive - motive is thanks not wages |
 | extends | [[Grateful Obedience]] | Works prove faith alive - motive is thanks, not wages |
 | extends | [[Justification]] | Declared righteous at faith; works prove faith alive afterward |
 | extends | [[Loss of Reward]] | Stumbled believer stays saved; false profession never had faith |

@@ -47,6 +47,8 @@ Prayer and blessing are the practical handles - not agreement, not pretending ha
 | alternative | [[Turn the Other Cheek]] | Enemy-love vs non-retaliation when the moment is personal insult |
 | contradicts | [[The Golden Rule]] | when I wait for fair treatment before I act |
 | extends | [[Free Grace]] | You love enemies because God loved you first with free grace toward the unjust |
+| extends | [[Fruits of the Spirit]] | Love fruit when it's hard - bless persecutors |
+| extends | [[Kindness]] | Blessing persecutors is kindness when it's hard |
 | extends | [[Mercy]] | Blessing persecutors is mercy shaped like the Father's |
 
 ## See also

@@ -52,6 +52,7 @@ The check is experiential - how would I want to be spoken to, helped, forgiven, 
 | extends | [[Create Regular Connection]] | I'd want steady presence, not one grand gesture |
 | extends | [[Follow Their Lead]] | I'd want someone to enter my world before fixing mine |
 | extends | [[Free Grace]] | Treat others well because Christ treated you well first - not to buy heaven |
+| extends | [[Kindness]] | Tender regard I'd want if roles reversed |
 | extends | [[Listen Before Fixing]] | I'd want to be heard before being handed advice |
 | extends | [[Notice the Good]] | I'd want someone to name what I did well, not vague good job |
 

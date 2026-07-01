@@ -37,6 +37,7 @@ This note is the general skill: close the app, sleep on the reply, stick to the 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | alternative | [[Fruits of the Spirit]] | PKM restraint skill vs Spirit-produced self-control in Galatians |
+| alternative | [[Gentleness]] | Restraint skill vs Spirit-grown gentleness in tone |
 | contradicts | [[Let Your Light Shine]] | when restraint hides a good work that should've been visible |
 | extends | [[Discipline]] | Control repeated becomes discipline |
 | extends | [[Emotional Regulation]] | Control the feeling before the act |

@@ -45,6 +45,7 @@ Wolves may wear sheep's clothing; time and results tell. Garden parallel: [[Sign
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | alternative | [[Fruits of the Spirit]] | Same word fruit - discern teachers by outcome vs Spirit character in believers |
+| alternative | [[Goodness]] | Same word fruit - discern teachers by outcome vs Spirit-grown deeds |
 | contradicts | [[Signal vs Noise]] | when I can't tell fruit from hype |
 | extends | [[Judge Not]] | You can't condemn souls, but you can judge fruit without breaking judge not |
 

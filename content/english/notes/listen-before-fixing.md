@@ -36,6 +36,7 @@ I let people finish before I hand them advice, correction, or a fix.
 |--------------|----------|--------|
 | contradicts | [[Safety Comes First]] | when waiting to hear more would let harm continue |
 | extends | [[Follow Their Lead]] | Listening is how I stay in their world before I steer |
+| extends | [[Gentleness]] | Hear before you prescribe - gentleness in conversation |
 | extends | [[The Golden Rule]] | I'd want someone to hear me out before they fixed me |
 | implements | [[Emotional Regulation]] | I hold the urge to interrupt with the answer |
 

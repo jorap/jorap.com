@@ -46,6 +46,8 @@ The point isn't performance for applause - Jesus warns against practicing righte
 |--------------|----------|--------|
 | contradicts | [[The Garage Concept]] | when I hide good works out of false modesty |
 | extends | [[Free Grace]] | Good works shine so God gets credit for grace at work, not so you build a brand |
+| extends | [[Fruits of the Spirit]] | Goodness fruit - visible good works that glorify the Father |
+| extends | [[Goodness]] | Let your light shine is the garden echo for gospel goodness |
 
 ## See also
 

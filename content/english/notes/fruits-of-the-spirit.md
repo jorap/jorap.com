@@ -33,17 +33,19 @@ Love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-c
 
 Paul contrasts **works of the flesh** (sexual immorality, jealousy, fits of anger, envy, and the rest in Galatians 5:19-21) with **fruit of the Spirit** - one vine, one cluster, grown over time.
 
-[[Abide in Me]] names the engine in John: branches bear fruit because they stay in the vine. [[Sanctification]] is the slow becoming that fruit marks. [[Grateful Obedience]] keeps the motive straight: fruit follows [[Grace]] already received, it doesn't pay for eternal life. [[Heart Righteousness]] is the inner standard the Spirit applies - not polished outside, poison inside. [[By Their Fruits]] uses the same word differently: discern teachers by outcome, not charisma - don't collapse the two jobs. | Fruit | Garden echo |
+[[Abide in Me]] names the engine in John: branches bear fruit because they stay in the vine. [[Sanctification]] is the slow becoming that fruit marks. [[Grateful Obedience]] keeps the motive straight: fruit follows [[Grace]] already received, it doesn't pay for eternal life. [[Heart Righteousness]] is the inner standard the Spirit applies - not polished outside, poison inside. [[By Their Fruits]] uses the same word differently: discern teachers by outcome, not charisma - don't collapse the two jobs.
+
+| Fruit | Garden echo |
 |-------|-------------|
 | Love | [[Love God]], [[Love Your Neighbor]], [[Love Your Enemies]] |
-| Joy | [[Assurance]] - rest on Christ, not this week's score |
-| Peace | [[Peacemakers]], [[Don't Worry]] |
-| Patience | [[Slow the Moment]] - one beat before reaction |
-| Kindness | [[Mercy]] toward the person in front of me |
-| Goodness | [[Let Your Light Shine]] - visible good works |
-| Faithfulness | [[Faithful Steward]] - steady use of what He entrusted |
-| Gentleness | [[Humility and Service]] - strength without grasping |
-| Self-control | [[Self-Control]] - PKM skill; Spirit grows the gospel version |
+| Joy | [[Joy]] - [[Assurance]] |
+| Peace | [[Peace]] - [[Peacemakers]], [[Don't Worry]] |
+| Patience | [[Patience]] - [[Slow the Moment]] |
+| Kindness | [[Kindness]] - [[Mercy]] |
+| Goodness | [[Goodness]] - [[Let Your Light Shine]] |
+| Faithfulness | [[Faithfulness]] - [[Faithful Steward]] |
+| Gentleness | [[Gentleness]] - [[Humility and Service]] |
+| Self-control | [[Self-Control]] |
 
 ## Examples
 
@@ -59,10 +61,19 @@ Paul contrasts **works of the flesh** (sexual immorality, jealousy, fits of ange
 | contradicts | [[Compounding]] | when white-knuckle streaks mimic fruit to prove I'm saved |
 | extends | [[Abide in Me]] | Fruit comes from staying in the vine - Galatians names what grows |
 | extends | [[Discipleship]] | Daily following is where love, patience, and gentleness show up |
+| extends | [[Faithfulness]] | Galatians steady use of what He entrusted |
+| extends | [[Gentleness]] | Galatians strength under control |
+| extends | [[Goodness]] | Galatians upright deeds that glorify the Father |
 | extends | [[Grace]] | Fruit follows grace received - not wages that buy heaven |
 | extends | [[Grateful Obedience]] | Obedience from thanks produces fruit; merit-motive produces theater |
 | extends | [[Heart Righteousness]] | Spirit applies the inner standard Jesus taught - motive, not polish |
-| extends | [[Peacemakers]] | Peace is one fruit; peacemaking is the active work Jesus blessed |
+| extends | [[Joy]] | Galatians gladness rooted in Christ's promise |
+| extends | [[Kindness]] | Galatians tender regard for the person in front |
+| extends | [[Love God]] | Love fruit - greatest commandment cluster |
+| extends | [[Love Your Enemies]] | Love fruit when it's hard - bless persecutors |
+| extends | [[Love Your Neighbor]] | Love fruit outward - second commandment pair |
+| extends | [[Patience]] | Galatians slow fuse from the Spirit |
+| extends | [[Peace]] | Galatians calm from trusting the Father |
 | extends | [[Sanctification]] | Becoming holy over time - fruit is what that walk looks like |
 | extends | [[The Beatitudes]] | Kingdom character overlaps - poor in spirit, merciful, peacemakers |
 

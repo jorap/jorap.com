@@ -47,6 +47,8 @@ The antidote isn't denial - it's priority: [[Seek the Kingdom First]], and let t
 | contradicts | [[The 12 Week Year]] | when sprint urgency replaces trust |
 | extends | [[Assurance]] | Rest on Christ's promise - not anxiety about earning His care |
 | extends | [[Free Grace]] | You can stop panicking about tomorrow because grace already settled where you spend forever |
+| extends | [[Fruits of the Spirit]] | Peace fruit when anxiety replaces trust |
+| extends | [[Peace]] | Don't worry is the trust echo for gospel peace |
 
 ## See also
 

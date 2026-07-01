@@ -46,6 +46,8 @@ Jesus didn't lower the law; he exposed its depth.
 |--------------|----------|--------|
 | contradicts | [[Let Your Light Shine]] | when I polish the outside while nursing anger inside |
 | extends | [[Fruits of the Spirit]] | Spirit grows inner righteousness into outward character |
+| extends | [[Gentleness]] | Heart standard includes strength under control in tone |
+| extends | [[Goodness]] | Goodness fruit matches inner motive to outward deed |
 | extends | [[Judge Not]] | God cares about inner motive, not the hypocritical judging judge not forbids |
 
 ## See also

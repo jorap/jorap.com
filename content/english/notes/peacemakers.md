@@ -49,6 +49,7 @@ It's not peace-at-any-price or avoiding hard conversations. The blessing ties pe
 | extends | [[Fruits of the Spirit]] | Peace is one fruit; peacemaking is the active work Jesus blessed |
 | extends | [[Listen Before Fixing]] | Make peace by hearing before prescribing |
 | extends | [[Name the Feeling]] | Truth in love often starts with naming what's carried |
+| extends | [[Peace]] | Peacemakers is the active echo for gospel peace |
 | extends | [[Set Calm Boundaries]] | Peace through truth includes calm limits |
 | implements | [[Break the Escalation Cycle]] | Peacemaking in the reply-all thread |
 

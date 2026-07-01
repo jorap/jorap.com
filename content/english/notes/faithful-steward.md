@@ -47,6 +47,8 @@ Stewardship settles what I do with what He entrusted after. The master returns t
 | contradicts | [[Free Grace]] | when I treat faithful use as currency that bought eternal life |
 | extends | [[Compounding]] | Small faithful use of entrusted gifts stacks over years |
 | extends | [[Eternal Rewards]] | Well done is repayment for faithfulness, not the entry fee |
+| extends | [[Faithfulness]] | Faithful steward is the garden echo for gospel faithfulness |
+| extends | [[Fruits of the Spirit]] | Faithfulness fruit - steady use of what He entrusted |
 | extends | [[Humility and Service]] | Faithful in small things, not status-grabbing |
 | extends | [[Judgment Seat]] | Stewardship accounts reviewed at the bema |
 | extends | [[Secret Devotion]] | Hidden faithful use - Father sees, not the audience |

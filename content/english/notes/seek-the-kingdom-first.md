@@ -50,6 +50,7 @@ Kingdom isn't escape from earth - it's God's reign ordering my priorities today.
 |--------------|----------|--------|
 | contradicts | [[Signal vs Noise]] | when I treat every demand as kingdom-level priority |
 | extends | [[Free Grace]] | Put God's rule first because grace already secured where you spend forever |
+| extends | [[Peace]] | Kingdom first orders the week before worry sets panic |
 
 ## See also
 

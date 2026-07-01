@@ -47,8 +47,10 @@ Ephesians 2:4-5 keeps them in one breath: rich in mercy, saved by grace. [[Free 
 | contradicts | [[Sunk Cost Fallacy]] | when I treat old hurt as debt I'm owed forever |
 | extends | [[Forgiveness]] | Mercy is the posture; forgiveness is releasing the debt |
 | extends | [[Free Grace]] | Mercy spares wrath; grace gives eternal life - same rescue, two angles |
+| extends | [[Fruits of the Spirit]] | Kindness fruit toward the person in front of me |
 | extends | [[Grace]] | Grace gives good I don't deserve; mercy withholds bad I do |
 | extends | [[Judge Not]] | I stood on mercy first, so I don't condemn like their final judge |
+| extends | [[Kindness]] | Mercy is the garden echo for gospel kindness |
 | extends | [[Love Your Enemies]] | Blessing persecutors is mercy shaped like the Father's |
 | extends | [[Love Your Neighbor]] | Neighbor-love shows mercy to the person in front of me |
 | extends | [[The Beatitudes]] | Merciful obtain mercy - character Jesus blessed |

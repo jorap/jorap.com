@@ -49,10 +49,13 @@ Sanctification settles who I'm becoming on the way. [[Grateful Obedience]] names
 | extends | [[Abide in Me]] | Fruit and holiness flow from staying in Christ, not from earning your spot |
 | extends | [[Discipleship]] | Daily following is how sanctification shows up in real life |
 | extends | [[Fruits of the Spirit]] | Becoming holy over time - the Galatians cluster marks the walk |
+| extends | [[Gentleness]] | Becoming holy includes strength under control in tone |
 | extends | [[Grace]] | Grace sustains growth after the verdict, not before it |
 | extends | [[Grateful Obedience]] | Holiness grows from received [[Mercy]], not earned acceptance |
+| extends | [[Joy]] | Becoming holy includes gladness rooted in Christ - not performance theater |
 | extends | [[Justification]] | Declared righteous first; becoming holy second - don't swap the order |
 | extends | [[Loss of Reward]] | Keep growing after a bad season - holiness and reward are separate ledgers |
+| extends | [[Patience]] | Becoming holy over time - patience marks the slow walk |
 | extends | [[Standing vs Fellowship]] | Becoming holy without re-opening the verdict justification gave |
 
 ## See also

@@ -40,6 +40,8 @@ Before you react, buy enough mental space to understand what's happening, weigh 
 | extends | [[Decision Quality]] | Better choices need a beat before the commit |
 | extends | [[Emotional Regulation]] | Name the spike before you act on it |
 | extends | [[Energy Protects Judgment]] | Tired brains skip the pause first |
+| extends | [[Fruits of the Spirit]] | Patience fruit - one beat before reaction |
+| extends | [[Patience]] | Slow the moment is the garden echo for gospel patience |
 | extends | [[Pressure Reveals Weakness]] | Rush exposes habits you never tested |
 | extends | [[Self-Control]] | Restraint in the second before the reaction |
 | implements | [[Listen Before Fixing]] | One beat before the fix lands |
