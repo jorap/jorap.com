@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Webhooks** = HTTP callbacks when something happens - push events instead of polling.
+HTTP callbacks when something happens - push events instead of polling.
 
 ## Key Concept
 

@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["become like children", "faith like a child"]
 ---
-**Childlike faith** = receive the kingdom like a child - dependent, trusting, not negotiating merit (Matthew 18:3; Mark 10:15).
+Receive the kingdom like a child - dependent, trusting, not negotiating merit (Matthew 18:3; Mark 10:15).
 
 ## Key Concept
 

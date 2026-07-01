@@ -13,7 +13,7 @@ featured: false
 draft: false
 aliases: ["growth systems", "systems for growth"]
 ---
-**Systems for growth** = the loops you build on purpose - habits, feedback, review, recovery - so skill compounds when motivation doesn't show up.
+The loops you build on purpose - habits, feedback, review, recovery - so skill compounds when motivation doesn't show up.
 
 ## Key Concept
 

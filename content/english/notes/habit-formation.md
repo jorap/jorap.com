@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Habit formation** = repeat a small move until it runs without debating it every morning.
+Repeat a small move until it runs without debating it every morning.
 
 ## Key Concept
 

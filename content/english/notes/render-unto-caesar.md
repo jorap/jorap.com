@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["give to Caesar", "Caesar and God"]
 ---
-**Render unto Caesar** = pay lawful civic obligations - taxes, duties owed the state - while reserving ultimate worship for God alone (Matthew 22:21).
+Pay lawful civic obligations - taxes, duties owed the state - while reserving ultimate worship for God alone (Matthew 22:21).
 
 ## Key Concept
 

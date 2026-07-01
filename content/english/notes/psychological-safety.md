@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Psychological safety** = people can name mistakes and near-misses without fear of humiliation or retaliation.
+People can name mistakes and near-misses without fear of humiliation or retaliation.
 
 ## Key Concept
 

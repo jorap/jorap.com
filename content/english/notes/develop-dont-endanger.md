@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["challenge without endangering", "develop dont endanger"]
 ---
-**Develop, don't endanger** = push people hard enough to grow - not so hard that suffering replaces the actual skill you're trying to build.
+Push people hard enough to grow - not so hard that suffering replaces the actual skill you're trying to build.
 
 ## Key Concept
 

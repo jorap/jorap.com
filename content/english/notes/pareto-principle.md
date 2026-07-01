@@ -37,7 +37,7 @@ cards:
     back: "we cut to those two and waste dropped"
 draft: false
 ---
-**Pareto principle** = most results come from a small slice of work - find the slice, protect it, cut the rest.
+Most results come from a small slice of work - find the slice, protect it, cut the rest.
 
 ## Key Concept
 

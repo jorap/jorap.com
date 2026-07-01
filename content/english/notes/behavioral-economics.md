@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Behavioral economics** = how people actually decide - biases, framing, sunk costs - not only rational models.
+How people actually decide - biases, framing, sunk costs - not only rational models.
 
 ## Key Concept
 

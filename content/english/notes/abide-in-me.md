@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["remain in me", "the vine and branches"]
 ---
-**Abide in me** = stay connected to Christ the way branches stay in the vine - apart from him you can do nothing; fruit comes from union (John 15:1-11).
+Stay connected to Christ the way branches stay in the vine - apart from him you can do nothing; fruit comes from union (John 15:1-11).
 
 ## Key Concept
 

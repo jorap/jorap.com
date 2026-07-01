@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Ethical leadership** = authority used to protect people and tell the truth - not to win at their expense.
+Authority used to protect people and tell the truth - not to win at their expense.
 
 ## Key Concept
 

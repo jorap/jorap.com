@@ -13,7 +13,7 @@ featured: false
 draft: false
 aliases: ["performance under pressure"]
 ---
-**Pressure reveals weakness** = hard situations show what easy days hide. The point isn't to dodge pressure - it's to build systems, habits, and character that still work when pressure spikes.
+Hard situations show what easy days hide. The point isn't to dodge pressure - it's to build systems, habits, and character that still work when pressure spikes.
 
 ## Key Concept
 

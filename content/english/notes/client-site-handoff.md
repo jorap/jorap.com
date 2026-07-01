@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: ["site handoff", "client publish path"]
 ---
-**Client site handoff** = after [[Selling Static Sites]] build, one clear path for who publishes next - priced and named in the proposal before deposit.
+After [[Selling Static Sites]] build, one clear path for who publishes next - priced and named in the proposal before deposit.
 
 ## Key Concept
 

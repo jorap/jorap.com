@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Incident investigation** = find system causes after a miss - not only who to blame.
+Find system causes after a miss - not only who to blame.
 
 ## Key Concept
 

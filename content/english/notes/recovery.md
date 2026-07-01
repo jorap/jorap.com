@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Recovery** = the sleep, rest, and downtime that refill what hard work drains - judgment, patience, attention.
+The sleep, rest, and downtime that refill what hard work drains - judgment, patience, attention.
 
 ## Key Concept
 

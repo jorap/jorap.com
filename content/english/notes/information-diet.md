@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Information diet** = choose what you consume on purpose - feeds are not neutral.
+Choose what you consume on purpose - feeds are not neutral.
 
 ## Key Concept
 

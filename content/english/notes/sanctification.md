@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["becoming holy", "growth in holiness"]
 ---
-**Sanctification** = God makes me holy over time after [[Justification]] declares me righteous - gradual change of heart and habit, not the ticket that buys eternal life (1 Thessalonians 4:3; Philippians 1:6).
+God makes me holy over time after [[Justification]] declares me righteous - gradual change of heart and habit, not the ticket that buys eternal life (1 Thessalonians 4:3; Philippians 1:6).
 
 ## Key Concept
 

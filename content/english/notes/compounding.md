@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["Compound Interest"]
 ---
-**Compounding** = repeat small gains until they stack - keep showing up; the curve looks flat until it doesn't.
+Repeat small gains until they stack - keep showing up; the curve looks flat until it doesn't.
 
 ## Key Concept
 

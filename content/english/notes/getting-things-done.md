@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Getting Things Done** = David Allen's capture-clarify-organize system - inbox first, next actions, trusted lists.
+David Allen's capture-clarify-organize system - inbox first, next actions, trusted lists.
 
 ## Key Concept
 

@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: ["pause before reacting"]
 ---
-**Slow the moment** = pressure creates urgency, but urgency shouldn't erase judgment.
+Pressure creates urgency, but urgency shouldn't erase judgment.
 
 ## Key Concept
 

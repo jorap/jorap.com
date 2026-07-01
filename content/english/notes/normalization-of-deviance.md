@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Normalization of deviance** = repeated close calls slowly redefine 'normal' until disaster feels surprising but was predictable.
+Repeated close calls slowly redefine 'normal' until disaster feels surprising but was predictable.
 
 ## Key Concept
 

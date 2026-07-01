@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Deliberate practice** = train the weak slice on purpose - feedback, correction, repeat - not run the whole piece you already nail.
+Train the weak slice on purpose - feedback, correction, repeat - not run the whole piece you already nail.
 
 ## Key Concept
 

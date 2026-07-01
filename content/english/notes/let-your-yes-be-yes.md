@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["truth telling", "simply let your yes be yes"]
 ---
-**Let your yes be yes** = speak plainly - no swearing oaths to make people trust you; let your word stand on its own (Matthew 5:33-37).
+Speak plainly - no swearing oaths to make people trust you; let your word stand on its own (Matthew 5:33-37).
 
 ## Key Concept
 

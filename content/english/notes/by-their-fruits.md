@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["know them by their fruits", "a tree is known by its fruit"]
 ---
-**By their fruits** = discern teachers and teaching by outcome - grapes from grapevines, thorns from thistles (Matthew 7:16-20).
+Discern teachers and teaching by outcome - grapes from grapevines, thorns from thistles (Matthew 7:16-20).
 
 ## Key Concept
 

@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Safety by design** = build the activity so harm is hard to cause - not only train people to be careful around danger.
+Build the activity so harm is hard to cause - not only train people to be careful around danger.
 
 ## Key Concept
 

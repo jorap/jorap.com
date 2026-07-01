@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["yes means yes at work"]
 ---
-**Plain commitments at work** = say yes or no clearly - no "definitely maybe," no stack of qualifiers so people trust a weak promise.
+Say yes or no clearly - no "definitely maybe," no stack of qualifiers so people trust a weak promise.
 
 ## Key Concept
 

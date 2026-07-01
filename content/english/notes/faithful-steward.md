@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["good and faithful servant", "parable of the talents", "stewardship"]
 ---
-**Faithful steward** = God entrusts time, gifts, and opportunities; faithfulness with what He gave is what earns "well done" - not a down payment on salvation (Matthew 25:14-30; Luke 19:11-27).
+God entrusts time, gifts, and opportunities; faithfulness with what He gave is what earns "well done" - not a down payment on salvation (Matthew 25:14-30; Luke 19:11-27).
 
 ## Key Concept
 

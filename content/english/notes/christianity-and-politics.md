@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["faith and politics", "gospel and government", "Christian political engagement"]
 ---
-**Christianity and politics** = live as a citizen under lawful government and as a disciple under Christ - pay civic duty, love neighbors across tribes, refuse to make any party or power ultimate (Matthew 22:21; Romans 13:1-7; 1 Peter 2:13-17).
+Live as a citizen under lawful government and as a disciple under Christ - pay civic duty, love neighbors across tribes, refuse to make any party or power ultimate (Matthew 22:21; Romans 13:1-7; 1 Peter 2:13-17).
 
 ## Key Concept
 

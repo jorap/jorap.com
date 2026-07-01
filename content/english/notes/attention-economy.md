@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Attention economy** = platforms compete for your focus - your attention is the product.
+Platforms compete for your focus - your attention is the product.
 
 ## Key Concept
 

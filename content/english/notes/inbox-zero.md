@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Inbox zero** = process the inbox to empty regularly - each item decided, not hoarded.
+Process the inbox to empty regularly - each item decided, not hoarded.
 
 ## Key Concept
 

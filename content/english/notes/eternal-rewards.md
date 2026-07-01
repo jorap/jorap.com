@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["heavenly reward", "reward in heaven"]
 ---
-**Eternal rewards** = Jesus promised believers the Father will repay faithful obedience - prayer, generosity, endurance, service - after salvation, not as the price of eternal life (Matthew 6:4, 6:18; 16:27; 25:21).
+Jesus promised believers the Father will repay faithful obedience - prayer, generosity, endurance, service - after salvation, not as the price of eternal life (Matthew 6:4, 6:18; 16:27; 25:21).
 
 ## Key Concept
 

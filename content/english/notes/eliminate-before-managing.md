@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["elimination before controls"]
 ---
-**Eliminate before managing** = remove unnecessary danger before you stack procedures, warnings, supervision, and protective gear on top of it.
+Remove unnecessary danger before you stack procedures, warnings, supervision, and protective gear on top of it.
 
 ## Key Concept
 

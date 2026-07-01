@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Emotional regulation** = you can feel anger, fear, or shame without handing the steering wheel to the feeling.
+You can feel anger, fear, or shame without handing the steering wheel to the feeling.
 
 ## Key Concept
 

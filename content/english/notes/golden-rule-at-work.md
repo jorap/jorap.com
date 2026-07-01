@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["treat colleagues fairly", "reverse roles at work", "golden rule at work"]
 ---
-**The golden rule at work** = treat colleagues the way you want to be treated - in email tone, credit, deadlines, and hallway gossip.
+Treat colleagues the way you want to be treated - in email tone, credit, deadlines, and hallway gossip.
 
 ## Key Concept
 

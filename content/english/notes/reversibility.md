@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Reversibility** = prefer choices you can undo - irreversible harm needs a higher bar.
+Prefer choices you can undo - irreversible harm needs a higher bar.
 
 ## Key Concept
 

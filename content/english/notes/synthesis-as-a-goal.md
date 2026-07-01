@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["Research Notes", "note taking for researchers"]
 ---
-**Synthesis as a Goal** = merging sources into what I believe and can defend - not a quote collection.
+Merging sources into what I believe and can defend - not a quote collection.
 
 ## Key Concept
 

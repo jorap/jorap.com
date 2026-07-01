@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["persistent prayer", "the Lord's Prayer"]
 ---
-**Ask, seek, knock** = keep coming to the Father in prayer - He gives good gifts to those who ask (Matthew 7:7-11; 6:5-13).
+Keep coming to the Father in prayer - He gives good gifts to those who ask (Matthew 7:7-11; 6:5-13).
 
 ## Key Concept
 

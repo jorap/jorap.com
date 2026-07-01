@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["bema seat", "bema", "judgment seat of Christ"]
 ---
-**Judgment seat** = believers stand before Christ after salvation to have their works evaluated for reward - what lasts gets repaid, what was worthless burns; eternal life was already settled by faith (2 Corinthians 5:10; 1 Corinthians 3:12-15).
+Believers stand before Christ after salvation to have their works evaluated for reward - what lasts gets repaid, what was worthless burns; eternal life was already settled by faith (2 Corinthians 5:10; 1 Corinthians 3:12-15).
 
 ## Key Concept
 

@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Discipline** = doing what you said you'd do when motivation, mood, or applause aren't there to push you.
+Doing what you said you'd do when motivation, mood, or applause aren't there to push you.
 
 ## Key Concept
 

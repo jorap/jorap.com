@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**CRDT** = data structures that merge edits without a central lock - useful for offline-first sync.
+Data structures that merge edits without a central lock - useful for offline-first sync.
 
 ## Key Concept
 

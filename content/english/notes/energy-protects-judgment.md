@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: ["rest protects judgment"]
 ---
-**Energy protects judgment** = fatigue hits more than muscles. It weakens patience, attention, restraint, and the quality of calls you make.
+Fatigue hits more than muscles. It weakens patience, attention, restraint, and the quality of calls you make.
 
 ## Key Concept
 

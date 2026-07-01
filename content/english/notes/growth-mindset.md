@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Growth mindset** = skills can improve with practice - a miss is data about what to train next, not proof you're "not a math person."
+Skills can improve with practice - a miss is data about what to train next, not proof you're "not a math person."
 
 ## Key Concept
 

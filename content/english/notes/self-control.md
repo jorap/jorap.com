@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: ["self control"]
 ---
-**Self-control** = you choose the next move instead of the urge choosing for you.
+You choose the next move instead of the urge choosing for you.
 
 ## Key Concept
 

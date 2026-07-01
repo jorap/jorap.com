@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: ["github cloudflare stack", "free static hosting"]
 ---
-**Free tier hosting stack** = Hugo builds static HTML, GitHub stores the repo, Cloudflare Pages builds and serves on every push - $0 until account limits or client policy say upgrade.
+Hugo builds static HTML, GitHub stores the repo, Cloudflare Pages builds and serves on every push - $0 until account limits or client policy say upgrade.
 
 ## Key Concept
 

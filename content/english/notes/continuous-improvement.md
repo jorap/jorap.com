@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: ["kaizen"]
 ---
-**Continuous improvement** = small fixes to how you work, repeated - each miss feeds the next version of the process.
+Small fixes to how you work, repeated - each miss feeds the next version of the process.
 
 ## Key Concept
 

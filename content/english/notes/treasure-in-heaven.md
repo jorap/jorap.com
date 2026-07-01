@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["lay up treasure", "where your treasure is"]
 ---
-**Treasure in heaven** = store up what lasts - generosity, mercy, obedience - not what moth, rust, and thieves take (Matthew 6:19-21).
+Store up what lasts - generosity, mercy, obedience - not what moth, rust, and thieves take (Matthew 6:19-21).
 
 ## Key Concept
 

@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["loss of crown", "saved yet so as through fire", "reward vs salvation"]
 ---
-**Loss of reward** = a believer can enter eternity saved but with worthless works burned up - reward shrunk or lost, eternal life still secure on Christ (1 Corinthians 3:12-15).
+A believer can enter eternity saved but with worthless works burned up - reward shrunk or lost, eternal life still secure on Christ (1 Corinthians 3:12-15).
 
 ## Key Concept
 

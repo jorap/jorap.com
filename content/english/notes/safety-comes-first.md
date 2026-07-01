@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Safety comes first** = following someone else's lead stops when serious harm is on the table. Respect isn't letting danger or cruelty run because I don't want to be controlling. I stop the unsafe thing, then restore choice when the situation is stable.
+Following someone else's lead stops when serious harm is on the table. Respect isn't letting danger or cruelty run because I don't want to be controlling. I stop the unsafe thing, then restore choice when the situation is stable.
 
 ## Key Concept
 

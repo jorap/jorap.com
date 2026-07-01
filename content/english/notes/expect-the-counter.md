@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: ["plan the second move"]
 ---
-**Expect the counter** = every strategy that works long enough eventually meets a response - copycats, pushback, rule changes, or a smarter opponent.
+Every strategy that works long enough eventually meets a response - copycats, pushback, rule changes, or a smarter opponent.
 
 ## Key Concept
 

@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Sustainable performance** = a pace you can repeat next month and next year - not a sprint that trades tomorrow for today's heroics.
+A pace you can repeat next month and next year - not a sprint that trades tomorrow for today's heroics.
 
 ## Key Concept
 

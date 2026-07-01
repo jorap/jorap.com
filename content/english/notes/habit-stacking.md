@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: ["habit stack"]
 ---
-**Habit stacking** = attach a new small habit to one you already do without thinking - after coffee, open the notebook; after shoes on, one stretch.
+Attach a new small habit to one you already do without thinking - after coffee, open the notebook; after shoes on, one stretch.
 
 ## Key Concept
 

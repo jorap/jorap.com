@@ -13,7 +13,7 @@ featured: false
 draft: false
 aliases: ["corporate principles", "ethics at work"]
 ---
-**Workplace principles** = the same ethics I keep in [[Eternal Principles]], translated for offices where "altar" and "kingdom" would land wrong.
+The same ethics I keep in [[Eternal Principles]], translated for offices where "altar" and "kingdom" would land wrong.
 
 ## Key Concept
 

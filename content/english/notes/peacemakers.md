@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["blessed are the peacemakers"]
 ---
-**Peacemakers** = people who actively pursue peace, not just keep quiet - Jesus blessed them and called them children of God (Matthew 5:9).
+People who actively pursue peace, not just keep quiet - Jesus blessed them and called them children of God (Matthew 5:9).
 
 ## Key Concept
 

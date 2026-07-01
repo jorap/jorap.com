@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Attention to detail** = the boring checks - diff review, edge cases, spelling in the customer email - that stop small misses from becoming big ones.
+The boring checks - diff review, edge cases, spelling in the customer email - that stop small misses from becoming big ones.
 
 ## Key Concept
 

@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["de-escalate at work", "don't feed the reply-all war"]
 ---
-**Break the escalation cycle** = when a colleague lands a sharp email or public jab, I don't match tone for tone - I break the loop before the reply-all war starts.
+When a colleague lands a sharp email or public jab, I don't match tone for tone - I break the loop before the reply-all war starts.
 
 ## Key Concept
 

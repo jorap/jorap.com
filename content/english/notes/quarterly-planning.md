@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Quarterly planning** = set goals and review on a thirteen-week rhythm - short enough to feel real.
+Set goals and review on a thirteen-week rhythm - short enough to feel real.
 
 ## Key Concept
 

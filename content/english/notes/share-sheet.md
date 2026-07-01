@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Share sheet** = the phone menu that sends a link or file into another app - mobile capture's front door.
+The phone menu that sends a link or file into another app - mobile capture's front door.
 
 ## Key Concept
 

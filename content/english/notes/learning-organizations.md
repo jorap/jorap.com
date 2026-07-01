@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Learning organizations** = teams that change process after mistakes instead of burying them.
+Teams that change process after mistakes instead of burying them.
 
 ## Key Concept
 

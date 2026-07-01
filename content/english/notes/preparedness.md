@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Preparedness** = rehearse, document, and test before the emergency owns the clock.
+Rehearse, document, and test before the emergency owns the clock.
 
 ## Key Concept
 

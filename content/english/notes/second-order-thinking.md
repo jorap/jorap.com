@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: ["second order effects", "second order thinking"]
 ---
-**Second-order thinking** = ask what happens after the first win - incentives shift, copycats arrive, shortcuts compound.
+Ask what happens after the first win - incentives shift, copycats arrive, shortcuts compound.
 
 ## Key Concept
 

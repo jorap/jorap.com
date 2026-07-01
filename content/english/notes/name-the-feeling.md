@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Name the feeling** = I put simple words to what someone seems to be carrying before I argue, advise, or plan the fix. "That sounds frustrating" isn't agreement with every claim - it's making the emotion legible so we can talk without guessing.
+I put simple words to what someone seems to be carrying before I argue, advise, or plan the fix. "That sounds frustrating" isn't agreement with every claim - it's making the emotion legible so we can talk without guessing.
 
 ## Key Concept
 

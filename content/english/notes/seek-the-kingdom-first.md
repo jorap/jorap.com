@@ -31,7 +31,7 @@ cards:
 draft: false
 aliases: ["seek ye first", "kingdom of God"]
 ---
-**Seek the kingdom first** = put God's rule and righteousness ahead of food, status, and tomorrow's worry - the rest follows (Matthew 6:33).
+Put God's rule and righteousness ahead of food, status, and tomorrow's worry - the rest follows (Matthew 6:33).
 
 ## Key Concept
 

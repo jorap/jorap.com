@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["link types", "Link Typing"]
 ---
-**Note relationships** = four pair types in a body table - extends, contradicts, implements, alternative - so the graph shows how ideas push and pull. **Hub/MOC pages** use `note_kind: index` in frontmatter (not a row). **Utility pages** use `note_kind: meta` - link by URL, not wikilink.
+Four pair types in a body table - extends, contradicts, implements, alternative - so the graph shows how ideas push and pull. **Hub/MOC pages** use `note_kind: index` in frontmatter (not a row). **Utility pages** use `note_kind: meta` - link by URL, not wikilink.
 
 ## Key Concept
 

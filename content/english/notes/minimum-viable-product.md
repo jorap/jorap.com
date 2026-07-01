@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["MVP"]
 ---
-**Minimum viable product** = the smallest thing I can ship that tests the idea - not a polished fantasy.
+The smallest thing I can ship that tests the idea - not a polished fantasy.
 
 ## Key Concept
 

@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Composure** = steady tone and pace when the room isn't - people read calm as competence.
+Steady tone and pace when the room isn't - people read calm as competence.
 
 ## Key Concept
 

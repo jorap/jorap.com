@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["life over achievement", "no achievement justifies death risk"]
 ---
-**Life before achievement** = human life stays a non-negotiable constraint - even when the goal is a championship, team unity, or a reputation for toughness.
+Human life stays a non-negotiable constraint - even when the goal is a championship, team unity, or a reputation for toughness.
 
 ## Key Concept
 

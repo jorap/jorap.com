@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["situation control"]
 ---
-**Situational control** = steer what you can in the moment - pace, format, who speaks, when you pause - when you can't own the whole outcome.
+Steer what you can in the moment - pace, format, who speaks, when you pause - when you can't own the whole outcome.
 
 ## Key Concept
 

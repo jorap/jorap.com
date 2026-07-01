@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Notice the good** = I say out loud the specific thing someone did that I want to see again - not "good job," but "you paused before you answered that email" or "you kept your voice down when you were mad." Praise works when it points at behavior.
+I say out loud the specific thing someone did that I want to see again - not "good job," but "you paused before you answered that email" or "you kept your voice down when you were mad." Praise works when it points at behavior.
 
 ## Key Concept
 

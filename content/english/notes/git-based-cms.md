@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: ["Sveltia CMS", "Decap CMS", "git backed cms", "git based cms"]
 ---
-**Git-based CMS** = a web editor (I use Sveltia or Decap) that commits markdown to the repo - same [[Free Tier Hosting Stack]] build on push, but the client gets buttons instead of VS Code.
+A web editor (I use Sveltia or Decap) that commits markdown to the repo - same [[Free Tier Hosting Stack]] build on push, but the client gets buttons instead of VS Code.
 
 ## Key Concept
 

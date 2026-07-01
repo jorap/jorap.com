@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["near miss investigation", "survival is not safety", "heed every near miss"]
 ---
-**Heed every near-miss** = treat a close call as evidence the system nearly produced serious harm - not as proof the activity was safe because nobody died this time.
+Treat a close call as evidence the system nearly produced serious harm - not as proof the activity was safe because nobody died this time.
 
 ## Key Concept
 

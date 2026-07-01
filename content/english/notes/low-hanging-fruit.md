@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["Low-Hanging Fruit"]
 ---
-**Low hanging fruit** = the easy win I can grab now - do it before I climb for the hard stuff.
+The easy win I can grab now - do it before I climb for the hard stuff.
 
 ## Key Concept
 

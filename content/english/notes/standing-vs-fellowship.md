@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["standing and fellowship", "position vs fellowship", "legal standing vs fellowship"]
 ---
-**Standing vs fellowship** = my legal standing before God was settled at faith through [[Justification]]; daily fellowship with Him breaks when I sin and restores when I confess - two ledgers, don't collapse them (1 John 1:9; Romans 5:1).
+My legal standing before God was settled at faith through [[Justification]]; daily fellowship with Him breaks when I sin and restores when I confess - two ledgers, don't collapse them (1 John 1:9; Romans 5:1).
 
 ## Key Concept
 

@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: ["finish what you start"]
 ---
-**Finish strong** = starting well proves you can begin; finishing well proves you can keep going when it's boring, hard, or no longer exciting.
+Starting well proves you can begin; finishing well proves you can keep going when it's boring, hard, or no longer exciting.
 
 ## Key Concept
 

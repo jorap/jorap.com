@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Follow their lead** = I join their world before I redirect it - their activity, topic, pace, or starting point. I pay attention first. I can suggest a better way later; the first move is to see what matters to them, not to steer.
+I join their world before I redirect it - their activity, topic, pace, or starting point. I pay attention first. I can suggest a better way later; the first move is to see what matters to them, not to steer.
 
 ## Key Concept
 

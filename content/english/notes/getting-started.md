@@ -13,7 +13,7 @@ aliases: ["start"]
 featured: true
 draft: false
 ---
-**Notes garden** = one claim per page, linked with `[[wikilinks]]`, browsable at [/notes/](/notes/).
+One claim per page, linked with `[[wikilinks]]`, browsable at [/notes/](/notes/).
 
 ## Key Concept
 
@@ -31,7 +31,7 @@ Each note opens with a definition I can quote in one breath - the graph and back
 
 ## Atomic rule
 
-**One note = one claim** I'd cite in conversation. Opening line: **Term** = definition I can quote in one breath. **## Key Concept** — one sentence first, then a second paragraph for stakes, distinctions, wikilinks — before examples. Optional **## Examples** (up to five concrete scenes, ranked best-first) when the claim needs it; required **## Note Relationships** table (extends + contradicts at minimum, sorted by type). No other `##` sections - link out instead. See [[Atomic Notes]] and [[Note Relationships]].
+**One note = one claim** I'd cite in conversation. Opening line: definition I can quote in one breath. **## Key Concept** — one sentence first, then a second paragraph for stakes, distinctions, wikilinks — before examples. Optional **## Examples** (up to five concrete scenes, ranked best-first) when the claim needs it; required **## Note Relationships** table (extends + contradicts at minimum, sorted by type). No other `##` sections - link out instead. See [[Atomic Notes]] and [[Note Relationships]].
 
 **Key concept** - not a second definition. First paragraph: one sentence (the angle). Next paragraph: stakes, distinctions, wikilinks. Often mirrors `description` in frontmatter.
 

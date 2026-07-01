@@ -14,7 +14,7 @@ featured: false
 draft: true
 ---
 
-**{{ replace .Name "-" " " | title }}** = one idea, stated plainly in one breath. If you need `and` or a second claim, split into another note and link it with `[[wikilinks]]`.
+One idea, stated plainly in one breath. If you need `and` or a second claim, split into another note and link it with `[[wikilinks]]`.
 
 ## Key Concept
 

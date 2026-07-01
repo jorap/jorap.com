@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["give in secret", "pray in secret", "fast in secret"]
 ---
-**Secret devotion** = give, pray, and fast for the Father's eyes - not to be seen by people (Matthew 6:1-18).
+Give, pray, and fast for the Father's eyes - not to be seen by people (Matthew 6:1-18).
 
 ## Key Concept
 

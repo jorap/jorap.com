@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["bless those who curse you"]
 ---
-**Love your enemies** = bless those who curse you, pray for persecutors - so you reflect the Father who sends rain on just and unjust alike (Matthew 5:44-45).
+Bless those who curse you, pray for persecutors - so you reflect the Father who sends rain on just and unjust alike (Matthew 5:44-45).
 
 ## Key Concept
 

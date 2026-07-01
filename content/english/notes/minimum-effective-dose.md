@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["MED"]
 ---
-**Minimum effective dose** = the smallest change that still moves the needle - not the heroic overhaul.
+The smallest change that still moves the needle - not the heroic overhaul.
 
 ## Key Concept
 

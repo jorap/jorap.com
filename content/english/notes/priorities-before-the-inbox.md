@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["real priority first"]
 ---
-**Priorities before the inbox** = put the real priority first before email, Slack, and everyone else's urgency rewrite my morning.
+Put the real priority first before email, Slack, and everyone else's urgency rewrite my morning.
 
 ## Key Concept
 

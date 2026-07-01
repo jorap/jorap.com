@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["rollback", "revert first"]
 ---
-**Rollback principle** = know how to restore the last good state before you push - and when the new state breaks, revert first, debug second.
+Know how to restore the last good state before you push - and when the new state breaks, revert first, debug second.
 
 ## Key Concept
 

@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["deny yourself", "daily cross"]
 ---
-**Take up your cross** = deny yourself, pick up the cross daily, and follow [[Discipleship]] - the shape of discipleship after you come to him (Luke 9:23; Matthew 16:24).
+Deny yourself, pick up the cross daily, and follow [[Discipleship]] - the shape of discipleship after you come to him (Luke 9:23; Matthew 16:24).
 
 ## Key Concept
 

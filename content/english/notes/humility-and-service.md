@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["servant leadership", "the last shall be first"]
 ---
-**Humility and service** = Jesus taught that whoever wants to be great must be servant of all - the Son of Man came not to be served but to serve (Matthew 23:12, Mark 10:43-45).
+Jesus taught that whoever wants to be great must be servant of all - the Son of Man came not to be served but to serve (Matthew 23:12, Mark 10:43-45).
 
 ## Key Concept
 

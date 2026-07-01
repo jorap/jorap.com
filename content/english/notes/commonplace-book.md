@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Commonplace book** = a personal book of quotes and ideas worth keeping - ancestor of linked notes.
+A personal book of quotes and ideas worth keeping - ancestor of linked notes.
 
 ## Key Concept
 

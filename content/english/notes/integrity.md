@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Integrity** = what you do matches what you claim - especially when it costs applause, speed, or comfort.
+What you do matches what you claim - especially when it costs applause, speed, or comfort.
 
 ## Key Concept
 

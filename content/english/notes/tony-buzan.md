@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Tony Buzan** = popularized mind mapping as a radiant, branching sketch - name people cite for the method.
+Popularized mind mapping as a radiant, branching sketch - name people cite for the method.
 
 ## Key Concept
 

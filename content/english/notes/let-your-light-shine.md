@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["light of the world", "city on a hill"]
 ---
-**Let your light shine** = do good works visibly so others see them and glorify the Father - not hidden under a basket (Matthew 5:14-16).
+Do good works visibly so others see them and glorify the Father - not hidden under a basket (Matthew 5:14-16).
 
 ## Key Concept
 

@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Literature notes** = notes about a source in your own words - not a highlight dump.
+Notes about a source in your own words - not a highlight dump.
 
 ## Key Concept
 

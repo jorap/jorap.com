@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["wood hay and stubble", "works that burn", "1 corinthians 3 fire"]
 ---
-**Wood hay stubble** = some works survive Christ's evaluation; some burn - saved through fire, but worthless work is gone (1 Corinthians 3:12-15).
+Some works survive Christ's evaluation; some burn - saved through fire, but worthless work is gone (1 Corinthians 3:12-15).
 
 ## Key Concept
 

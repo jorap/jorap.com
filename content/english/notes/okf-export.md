@@ -13,7 +13,7 @@ featured: false
 draft: false
 aliases: ["OKF", "OKF Export"]
 ---
-**OKF export** = the same garden, flattened for agents - markdown paths, required `type`, no Hugo build.
+The same garden, flattened for agents - markdown paths, required `type`, no Hugo build.
 
 ## Key Concept
 

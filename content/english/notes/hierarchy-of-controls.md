@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Hierarchy of controls** = remove the hazard first, then substitute, engineer, admin, PPE - in that order.
+Remove the hazard first, then substitute, engineer, admin, PPE - in that order.
 
 ## Key Concept
 

@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: ["reliable default under pressure"]
 ---
-**Build a reliable default** = when time, information, confidence, or energy runs short, you fall back on what's most practiced.
+When time, information, confidence, or energy runs short, you fall back on what's most practiced.
 
 ## Key Concept
 

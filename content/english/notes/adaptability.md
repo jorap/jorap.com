@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Adaptability** = keep the goal, swap the method when the ground moves.
+Keep the goal, swap the method when the ground moves.
 
 ## Key Concept
 

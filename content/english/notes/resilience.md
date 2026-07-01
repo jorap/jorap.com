@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Resilience** = you take the hit, recover, and stay useful - not pretend the hit didn't hurt.
+You take the hit, recover, and stay useful - not pretend the hit didn't hurt.
 
 ## Key Concept
 

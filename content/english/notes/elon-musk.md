@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Elon Musk** = public example people cite for first-principles reinvention - useful as shorthand, not as gospel.
+Public example people cite for first-principles reinvention - useful as shorthand, not as gospel.
 
 ## Key Concept
 

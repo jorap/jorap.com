@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["second commandment"]
 ---
-**Love your neighbor** = the second commandment like the first: love others as yourself (Matthew 22:39, Mark 12:31).
+The second commandment like the first: love others as yourself (Matthew 22:39, Mark 12:31).
 
 ## Key Concept
 

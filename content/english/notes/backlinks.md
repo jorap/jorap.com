@@ -14,7 +14,7 @@ featured: false
 draft: false
 aliases: []
 ---
-**Backlinks** = inbound wikilinks ranked by count - see which notes the garden treats as anchors. Pairs with [[Issues]], [[Random Duo]], and [[Create Note]].
+Inbound wikilinks ranked by count - see which notes the garden treats as anchors. Pairs with [[Issues]], [[Random Duo]], and [[Create Note]].
 
 ## Key Concept
 

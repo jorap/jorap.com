@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Digital minimalism** = fewer apps, fewer sync layers, fewer notifications - my PKM got better when I stopped collecting tools. Overlap with [[Treasure in Heaven]]: less earthly accumulation, clearer allegiance. Political feeds are the same trap - [[Christianity and Politics]] and [[Signal vs Noise]] keep the scroll from replacing prayer.
+Fewer apps, fewer sync layers, fewer notifications - my PKM got better when I stopped collecting tools. Overlap with [[Treasure in Heaven]]: less earthly accumulation, clearer allegiance. Political feeds are the same trap - [[Christianity and Politics]] and [[Signal vs Noise]] keep the scroll from replacing prayer.
 
 ## Key Concept
 

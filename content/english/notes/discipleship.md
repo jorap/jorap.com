@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["follow Jesus", "following Christ"]
 ---
-**Discipleship** = learning from Jesus and doing what He said, day after day - the walk that starts when you repent and believe, not the ticket that buys eternal life.
+Learning from Jesus and doing what He said, day after day - the walk that starts when you repent and believe, not the ticket that buys eternal life.
 
 ## Key Concept
 

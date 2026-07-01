@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["assurance of salvation", "eternal security", "rest in Christ"]
 ---
-**Assurance** = eternal life rests on Christ's finished work and promise - not on my performance this week (John 10:28-29; Romans 8:38-39; 1 John 5:13).
+Eternal life rests on Christ's finished work and promise - not on my performance this week (John 10:28-29; Romans 8:38-39; 1 John 5:13).
 
 ## Key Concept
 

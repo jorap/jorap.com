@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Ship it** = publish the good-enough version instead of polishing forever.
+Publish the good-enough version instead of polishing forever.
 
 ## Key Concept
 

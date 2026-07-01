@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["hidden integrity", "honest work offstage", "integrity when no ones watching"]
 ---
-**Integrity when no one's watching** = do the honest work when there's no audience - accurate time logs, real tests, the fix nobody asked for yet.
+Do the honest work when there's no audience - accurate time logs, real tests, the fix nobody asked for yet.
 
 ## Key Concept
 

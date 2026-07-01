@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Layered reading** = pass through the same source at increasing depth - skim, highlight, summarize.
+Pass through the same source at increasing depth - skim, highlight, summarize.
 
 ## Key Concept
 

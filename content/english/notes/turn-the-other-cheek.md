@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["non-retaliation", "resist not evil"]
 ---
-**Turn the other cheek** = when someone strikes or insults you, don't return the same - break the cycle of retaliation (Matthew 5:38-39).
+When someone strikes or insults you, don't return the same - break the cycle of retaliation (Matthew 5:38-39).
 
 ## Key Concept
 

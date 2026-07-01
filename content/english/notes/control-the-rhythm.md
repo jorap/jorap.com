@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["control the pace"]
 ---
-**Control the rhythm** = whoever sets the pace often steers the room.
+Whoever sets the pace often steers the room.
 
 ## Key Concept
 

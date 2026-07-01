@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Taxonomy** = a classification scheme - folders, tags, types - for finding things later.
+A classification scheme - folders, tags, types - for finding things later.
 
 ## Key Concept
 

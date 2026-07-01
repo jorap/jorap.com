@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Execution** = turning a decision into finished work - not slides, not intentions, not "we'll get to it."
+Turning a decision into finished work - not slides, not intentions, not "we'll get to it."
 
 ## Key Concept
 

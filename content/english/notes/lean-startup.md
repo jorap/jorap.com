@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Lean startup** = build the smallest test, measure, learn - don't scale before validation.
+Build the smallest test, measure, learn - don't scale before validation.
 
 ## Key Concept
 

@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["anger and lust", "heart sins"]
 ---
-**Heart righteousness** = God cares about the inner life, not only outward acts - anger is murder in the heart; lust is adultery in the heart (Matthew 5:21-30).
+God cares about the inner life, not only outward acts - anger is murder in the heart; lust is adultery in the heart (Matthew 5:21-30).
 
 ## Key Concept
 

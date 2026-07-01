@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: ["SOPs"]
 ---
-**Standard operating procedures** = short written steps for work that repeats - deploys, incidents, onboarding - so the team doesn't improvise when the clock is loud.
+Short written steps for work that repeats - deploys, incidents, onboarding - so the team doesn't improvise when the clock is loud.
 
 ## Key Concept
 

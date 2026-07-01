@@ -15,7 +15,7 @@ draft: false
 aliases:
   - /notes/cards/
 ---
-**Flashcards** = drill lane beside the wiki - opt in per note, export to Anki when I want SRS on my phone.
+Drill lane beside the wiki - opt in per note, export to Anki when I want SRS on my phone.
 
 ## Key Concept
 

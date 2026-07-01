@@ -27,7 +27,7 @@ cards:
     back: "Grace saves - mercy spared wrath first."
 draft: false
 ---
-**Grace** = God's unmerited favor - He gives good I never earned, starting with salvation and continuing through the walk after (Ephesians 2:8-9; 2 Corinthians 12:9; Titus 2:11-12).
+God's unmerited favor - He gives good I never earned, starting with salvation and continuing through the walk after (Ephesians 2:8-9; 2 Corinthians 12:9; Titus 2:11-12).
 
 ## Key Concept
 

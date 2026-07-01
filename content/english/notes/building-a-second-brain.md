@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["Second Brain", "CODE Method"]
 ---
-**Second Brain** = offload ideas so my head can think, not hoard.
+Offload ideas so my head can think, not hoard.
 
 ## Key Concept
 

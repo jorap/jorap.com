@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["go and make disciples", "Matthew 28"]
 ---
-**Great Commission** = go to all nations, baptize, teach obedience to everything Jesus commanded - he goes with you to the end of the age (Matthew 28:19-20).
+Go to all nations, baptize, teach obedience to everything Jesus commanded - he goes with you to the end of the age (Matthew 28:19-20).
 
 ## Key Concept
 

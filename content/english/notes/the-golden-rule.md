@@ -31,7 +31,7 @@ cards:
 draft: false
 aliases: ["do unto others", "Golden Rule"]
 ---
-**The Golden Rule** = treat others how you want to be treated - Jesus called this the Law and Prophets summed up (Matthew 7:12).
+Treat others how you want to be treated - Jesus called this the Law and Prophets summed up (Matthew 7:12).
 
 ## Key Concept
 

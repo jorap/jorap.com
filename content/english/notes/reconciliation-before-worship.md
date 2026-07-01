@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["leave your gift at the altar"]
 ---
-**Reconciliation before worship** = if your brother has something against you, go reconcile first - then come offer your gift (Matthew 5:23-24).
+If your brother has something against you, go reconcile first - then come offer your gift (Matthew 5:23-24).
 
 ## Key Concept
 

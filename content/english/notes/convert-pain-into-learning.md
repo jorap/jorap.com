@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: ["learn from failure"]
 ---
-**Convert pain into learning** = failure becomes useful only when it produces correction.
+Failure becomes useful only when it produces correction.
 
 ## Key Concept
 

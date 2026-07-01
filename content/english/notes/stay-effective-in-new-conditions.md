@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: ["effectiveness in new conditions"]
 ---
-**Stay effective in new conditions** = what made you strong in one room can make you weak in the next.
+What made you strong in one room can make you weak in the next.
 
 ## Key Concept
 

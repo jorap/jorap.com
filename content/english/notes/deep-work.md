@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Deep work** = long, uninterrupted focus on hard thinking - Cal Newport's term for the opposite of fragment.
+Long, uninterrupted focus on hard thinking - Cal Newport's term for the opposite of fragment.
 
 ## Key Concept
 

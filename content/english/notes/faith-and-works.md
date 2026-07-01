@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["faith without works is dead", "works prove faith"]
 ---
-**Faith and works** = faith alone saves through [[Free Grace]] - and real faith shows up in obedience; works prove faith alive, they don't pay for eternal life (Ephesians 2:8-10; James 2:17-26; Romans 4:5).
+Faith alone saves through [[Free Grace]] - and real faith shows up in obedience; works prove faith alive, they don't pay for eternal life (Ephesians 2:8-10; James 2:17-26; Romans 4:5).
 
 ## Key Concept
 

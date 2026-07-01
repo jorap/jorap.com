@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Reliability** = others can plan around you because you close loops, hit deadlines, and show up the same way twice.
+Others can plan around you because you close loops, hit deadlines, and show up the same way twice.
 
 ## Key Concept
 

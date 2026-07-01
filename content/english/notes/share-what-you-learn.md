@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["teach what you know", "knowledge sharing at work"]
 ---
-**Share what you learn** = pass on what you figured out - write the doc, do the handoff, answer the junior's question - don't hoard know-how like private bookmarks.
+Pass on what you figured out - write the doc, do the handoff, answer the junior's question - don't hoard know-how like private bookmarks.
 
 ## Key Concept
 

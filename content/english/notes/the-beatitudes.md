@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["blessed are", "Beatitudes"]
 ---
-**The Beatitudes** = eight blessings Jesus opened the Sermon on the Mount with - poor in spirit, mourners, meek, hungry for righteousness, merciful, pure in heart, peacemakers, persecuted (Matthew 5:3-12).
+Eight blessings Jesus opened the Sermon on the Mount with - poor in spirit, mourners, meek, hungry for righteousness, merciful, pure in heart, peacemakers, persecuted (Matthew 5:3-12).
 
 ## Key Concept
 

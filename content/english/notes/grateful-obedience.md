@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["obedience from gratitude", "grateful response", "obey because saved"]
 ---
-**Grateful obedience** = obedience after salvation flows from gratitude for [[Free Grace]] already received - not from trying to qualify for eternal life (Romans 12:1; Ephesians 2:8-10).
+Obedience after salvation flows from gratitude for [[Free Grace]] already received - not from trying to qualify for eternal life (Romans 12:1; Ephesians 2:8-10).
 
 ## Key Concept
 

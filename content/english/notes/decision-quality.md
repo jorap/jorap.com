@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Decision quality** = choices that still look right after you sleep, learn more, and pay the bill - not only in the meeting where they felt clever.
+Choices that still look right after you sleep, learn more, and pay the bill - not only in the meeting where they felt clever.
 
 ## Key Concept
 

@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["declared righteous", "justified by faith"]
 ---
-**Justification** = God declares me righteous through faith in Christ alone - once, at faith, before my obedience catches up (Romans 3:24, 4:5, 5:1).
+God declares me righteous through faith in Christ alone - once, at faith, before my obedience catches up (Romans 3:24, 4:5, 5:1).
 
 ## Key Concept
 

@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Listen before fixing** = I let the other person finish before I hand them advice, correction, or a solution. I repeat what I heard in my own words, then respond. Feeling heard comes before being helped.
+I let the other person finish before I hand them advice, correction, or a solution. I repeat what I heard in my own words, then respond. Feeling heard comes before being helped.
 
 ## Key Concept
 

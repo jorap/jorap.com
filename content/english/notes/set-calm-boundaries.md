@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Set calm boundaries** = I name one clear limit on behavior in a steady voice - not a character attack. The relationship can stay warm while the line is plain: this stops, that continues.
+I name one clear limit on behavior in a steady voice - not a character attack. The relationship can stay warm while the line is plain: this stops, that continues.
 
 ## Key Concept
 

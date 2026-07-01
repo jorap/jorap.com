@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: ["follow through"]
 ---
-**Follow-through** = the work after the handshake - recap, owners, dates, verification.
+The work after the handshake - recap, owners, dates, verification.
 
 ## Key Concept
 

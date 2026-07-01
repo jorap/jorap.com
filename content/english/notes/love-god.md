@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["greatest commandment"]
 ---
-**Love God** = the greatest commandment Jesus named: love the Lord with all your heart, soul, mind, and strength (Matthew 22:37-38).
+The greatest commandment Jesus named: love the Lord with all your heart, soul, mind, and strength (Matthew 22:37-38).
 
 ## Key Concept
 

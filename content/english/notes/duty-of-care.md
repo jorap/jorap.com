@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Duty of care** = leaders owe reasonable protection to people under their authority - not zero risk, not reckless harm.
+Leaders owe reasonable protection to people under their authority - not zero risk, not reckless harm.
 
 ## Key Concept
 

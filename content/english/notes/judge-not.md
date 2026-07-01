@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["speck and plank", "do not judge"]
 ---
-**Judge not** = don't condemn others as if you're their final judge - remove your own plank before nitpicking their speck (Matthew 7:1-5).
+Don't condemn others as if you're their final judge - remove your own plank before nitpicking their speck (Matthew 7:1-5).
 
 ## Key Concept
 

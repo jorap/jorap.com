@@ -27,7 +27,7 @@ cards:
     back: "Extend mercy - release the small debt."
 draft: false
 ---
-**Mercy** = God withholds the punishment I deserve and calls me to show the same compassion to others - not pretending harm didn't happen (Matthew 5:7, 18:21-35; Luke 10:37; Ephesians 2:4).
+God withholds the punishment I deserve and calls me to show the same compassion to others - not pretending harm didn't happen (Matthew 5:7, 18:21-35; Luke 10:37; Ephesians 2:4).
 
 ## Key Concept
 

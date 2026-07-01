@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["repentance", "believe the gospel"]
 ---
-**Repent and believe** = Jesus' opening command: turn from self-rule and trust the good news that the kingdom is at hand (Mark 1:15; Matthew 4:17).
+Jesus' opening command: turn from self-rule and trust the good news that the kingdom is at hand (Mark 1:15; Matthew 4:17).
 
 ## Key Concept
 

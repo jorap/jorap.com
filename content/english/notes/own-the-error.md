@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["own your mistakes"]
 ---
-**Own the error** = accountability turns failure into information.
+Accountability turns failure into information.
 
 ## Key Concept
 

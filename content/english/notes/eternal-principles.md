@@ -13,7 +13,7 @@ featured: true
 draft: false
 aliases: ["Jesus teachings", "gospel principles"]
 ---
-**Eternal principles** = what Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first.
+What Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first.
 
 ## Key Concept
 

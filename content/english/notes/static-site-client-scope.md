@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: ["static site fit", "what static sites can do"]
 ---
-**Static site client scope** = jobs that fit [[Free Tier Hosting Stack]]: mostly text and images, published by git push or by me on retainer - not live databases, shopping carts, or teams that need a WordPress admin without training.
+Jobs that fit [[Free Tier Hosting Stack]]: mostly text and images, published by git push or by me on retainer - not live databases, shopping carts, or teams that need a WordPress admin without training.
 
 ## Key Concept
 

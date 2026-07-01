@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Coaching ethics** = develop the person without hiding behind their consent when the drill is unsafe or pointless.
+Develop the person without hiding behind their consent when the drill is unsafe or pointless.
 
 ## Key Concept
 

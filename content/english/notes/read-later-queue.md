@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Read later queue** = a parking lot for links you'll process later - dangerous if it becomes a graveyard.
+A parking lot for links you'll process later - dangerous if it becomes a graveyard.
 
 ## Key Concept
 

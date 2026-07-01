@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["judge by outcomes", "fruit over hype"]
 ---
-**Outcomes over pitch decks** = judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura.
+Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura.
 
 ## Key Concept
 

@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["narrow gate", "broad road", "Narrow Way"]
 ---
-**The narrow way** = enter by the narrow gate - the road to life is hard and few find it; the broad road to destruction is easy and crowded (Matthew 7:13-14).
+Enter by the narrow gate - the road to life is hard and few find it; the broad road to destruction is easy and crowded (Matthew 7:13-14).
 
 ## Key Concept
 

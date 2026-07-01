@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: ["close the loop"]
 ---
-**Complete the cycle** = work isn't finished when the main action ends.
+Work isn't finished when the main action ends.
 
 ## Key Concept
 

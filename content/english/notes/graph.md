@@ -13,7 +13,7 @@ tags: ["Notes", "Meta", "PKM", "Note Taking", "Digital Garden", "Linking"]
 featured: false
 draft: false
 ---
-**Graph** = open the link map and filter by link rank.
+Open the link map and filter by link rank.
 
 ## Key Concept
 

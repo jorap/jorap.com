@@ -31,7 +31,7 @@ cards:
 draft: false
 aliases: ["faith alone", "sola fide", "salvation by grace"]
 ---
-**Free grace** = eternal life is God's free gift through faith in Christ alone - not wages for keeping commandments, obeying eternal principles, or doing good works (Ephesians 2:8-9; John 3:16; Romans 4:5).
+Eternal life is God's free gift through faith in Christ alone - not wages for keeping commandments, obeying eternal principles, or doing good works (Ephesians 2:8-9; John 3:16; Romans 4:5).
 
 ## Key Concept
 

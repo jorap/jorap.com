@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: ["static site freelance", "client static sites"]
 ---
-**Selling static sites** = I charge for the build and handoff; hosting runs on [[Free Tier Hosting Stack]] until traffic, build count, or client policy forces a paid plan.
+I charge for the build and handoff; hosting runs on [[Free Tier Hosting Stack]] until traffic, build count, or client policy forces a paid plan.
 
 ## Key Concept
 

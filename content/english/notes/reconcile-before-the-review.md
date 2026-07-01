@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["fix the relationship first"]
 ---
-**Reconcile before the review** = if a colleague still has something against me, I go address it before the quarterly review, the launch demo, or the reorg meeting.
+If a colleague still has something against me, I go address it before the quarterly review, the launch demo, or the reorg meeting.
 
 ## Key Concept
 

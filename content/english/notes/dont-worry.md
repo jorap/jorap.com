@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["do not worry", "sufficient unto the day", "dont worry"]
 ---
-**Don't worry** = Jesus' command not to be anxious about food, clothing, or tomorrow - the Father feeds birds and clothes lilies; he'll care for you (Matthew 6:25-34).
+Jesus' command not to be anxious about food, clothing, or tomorrow - the Father feeds birds and clothes lilies; he'll care for you (Matthew 6:25-34).
 
 ## Key Concept
 

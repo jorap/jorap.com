@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Failure as feedback** = a miss tells you what to fix next - process, skill, assumption - if you don't treat it as a identity verdict.
+A miss tells you what to fix next - process, skill, assumption - if you don't treat it as a identity verdict.
 
 ## Key Concept
 

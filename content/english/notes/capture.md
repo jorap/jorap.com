@@ -31,7 +31,7 @@ cards:
 draft: false
 aliases: ["CODE", "Frictionless Capture"]
 ---
-**Capture** = save what resonates into one inbox I trust - then empty it weekly.
+Save what resonates into one inbox I trust - then empty it weekly.
 
 ## Key Concept
 

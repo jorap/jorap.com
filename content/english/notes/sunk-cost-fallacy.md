@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["Sunk Cost"]
 ---
-**Sunk cost fallacy** = keeping a bad tool, project, or note because I already invested time - not because it still earns its place.
+Keeping a bad tool, project, or note because I already invested time - not because it still earns its place.
 
 ## Key Concept
 

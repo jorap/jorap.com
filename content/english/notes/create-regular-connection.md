@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Create regular connection** = I pick one small ritual and repeat it - ten minutes, one walk, one check-in - instead of waiting for a big gesture to make up for a dry month. Consistency tells people the relationship still has a slot on the calendar.
+I pick one small ritual and repeat it - ten minutes, one walk, one check-in - instead of waiting for a big gesture to make up for a dry month. Consistency tells people the relationship still has a slot on the calendar.
 
 ## Key Concept
 

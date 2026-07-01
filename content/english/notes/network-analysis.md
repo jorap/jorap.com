@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Network analysis** = study links and hubs in a graph - who connects whom, what's isolated.
+Study links and hubs in a graph - who connects whom, what's isolated.
 
 ## Key Concept
 

@@ -27,7 +27,7 @@ cards:
     back: "Distill - need one clear claim."
 draft: false
 ---
-**Evergreen notes** = ideas phrased to stay useful - timeless wording, clear claims, updated when reality changes.
+Ideas phrased to stay useful - timeless wording, clear claims, updated when reality changes.
 
 ## Key Concept
 

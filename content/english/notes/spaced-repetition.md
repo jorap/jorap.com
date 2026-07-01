@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["SRS", "Spaced Repetition Systems", "Spaced Repetition Systems (SRS)"]
 ---
-**Spaced repetition** = review facts on a schedule before I forget - for recall, not whole essays.
+Review facts on a schedule before I forget - for recall, not whole essays.
 
 ## Key Concept
 

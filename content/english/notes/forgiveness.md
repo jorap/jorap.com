@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["forgive from the heart"]
 ---
-**Forgiveness** = forgive others from the heart, as the Father forgives you - Jesus tied extending forgiveness to walking in the grace already received (Matthew 6:14-15, 18:21-35).
+Forgive others from the heart, as the Father forgives you - Jesus tied extending forgiveness to walking in the grace already received (Matthew 6:14-15, 18:21-35).
 
 ## Key Concept
 

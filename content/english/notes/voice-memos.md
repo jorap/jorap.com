@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Voice memos** = [[Capture]] ideas by speaking when hands or eyes are busy.
+[[Capture]] ideas by speaking when hands or eyes are busy.
 
 ## Key Concept
 

@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Risk management** = name what can go wrong, how likely, how bad - then choose controls in order of strength.
+Name what can go wrong, how likely, how bad - then choose controls in order of strength.
 
 ## Key Concept
 

@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["lead by serving"]
 ---
-**Servant leadership** = the person who wants to lead well makes the team win - unblocks, coaches, takes blame upward, shares credit downward.
+The person who wants to lead well makes the team win - unblocks, coaches, takes blame upward, shares credit downward.
 
 ## Key Concept
 

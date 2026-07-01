@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Maintenance window** = scheduled time to prune, fix links, and archive - not random Sunday panic.
+Scheduled time to prune, fix links, and archive - not random Sunday panic.
 
 ## Key Concept
 

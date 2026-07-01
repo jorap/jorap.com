@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: ["systems thinker"]
 ---
-**Systems thinking** = see the loop behind the event - inputs, delays, feedback, side effects - so you fix the process, not only tonight's fire.
+See the loop behind the event - inputs, delays, feedback, side effects - so you fix the process, not only tonight's fire.
 
 ## Key Concept
 

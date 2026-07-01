@@ -27,7 +27,7 @@ cards:
     back: "Abide - fruit grows, not forced."
 draft: false
 ---
-**Fruits of the Spirit** = love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control - character the Holy Spirit produces in believers who walk by the Spirit, not a merit checklist that buys heaven (Galatians 5:22-23).
+Love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control - character the Holy Spirit produces in believers who walk by the Spirit, not a merit checklist that buys heaven (Galatians 5:22-23).
 
 ## Key Concept
 

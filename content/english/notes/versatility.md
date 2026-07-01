@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Versatility** = you can contribute in more than one lane when the team or the market shifts.
+You can contribute in more than one lane when the team or the market shifts.
 
 ## Key Concept
 

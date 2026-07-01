@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Sketchpad** = private scratch space before anything goes public - drafts, diagrams, half-ideas.
+Private scratch space before anything goes public - drafts, diagrams, half-ideas.
 
 ## Key Concept
 

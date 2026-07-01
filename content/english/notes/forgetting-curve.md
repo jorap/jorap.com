@@ -19,7 +19,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Forgetting curve** = memory fades fast without review - Ebbinghaus curve spaced repetition fights.
+Memory fades fast without review - Ebbinghaus curve spaced repetition fights.
 
 ## Key Concept
 

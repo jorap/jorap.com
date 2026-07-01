@@ -27,7 +27,7 @@ cards:
 draft: false
 aliases: ["house on the rock", "hear and do", "Wise Builder"]
 ---
-**The wise builder** = hear Jesus' words and do them - build on rock, not sand (Matthew 7:24-27).
+Hear Jesus' words and do them - build on rock, not sand (Matthew 7:24-27).
 
 ## Key Concept
 

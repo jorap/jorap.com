@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Leadership** = you take responsibility for direction, pace, and care when people look to you - title optional.
+You take responsibility for direction, pace, and care when people look to you - title optional.
 
 ## Key Concept
 

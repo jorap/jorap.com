@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Accountability** = clear ownership - who answers for the outcome, the miss, and the fix.
+Clear ownership - who answers for the outcome, the miss, and the fix.
 
 ## Key Concept
 

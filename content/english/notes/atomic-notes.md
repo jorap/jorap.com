@@ -27,7 +27,7 @@ cards:
 featured: false
 draft: false
 ---
-**Atomic notes** = one claim I'd say out loud - too many `and`s, split it.
+One claim I'd say out loud - too many `and`s, split it.
 
 ## Key Concept
 

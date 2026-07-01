@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: []
 ---
-**Strategic foresight** = look past today's win to what the landscape looks like after others react.
+Look past today's win to what the landscape looks like after others react.
 
 ## Key Concept
 

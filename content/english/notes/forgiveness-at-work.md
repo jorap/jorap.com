@@ -23,7 +23,7 @@ cards:
 draft: false
 aliases: ["release the grudge at work"]
 ---
-**Forgiveness at work** = release the debt I'm keeping on a colleague - stop replaying the slight in every meeting, forgive from the heart, keep boundaries where trust still needs rebuilding.
+Release the debt I'm keeping on a colleague - stop replaying the slight in every meeting, forgive from the heart, keep boundaries where trust still needs rebuilding.
 
 ## Key Concept
 
