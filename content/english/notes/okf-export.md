@@ -15,7 +15,9 @@ aliases: ["OKF", "OKF Export"]
 ---
 **OKF export** = the same garden, flattened for agents - markdown paths, required `type`, no Hugo build.
 
-The live site stays the authoring surface (`[[wikilinks]]`, graph, flashcards). This bundle is the handoff copy: OKF v0.1, regenerated on production build and via `npm run export:okf`.
+## Key Concept
+
+Authoring stays in Hugo (`[[wikilinks]]`, graph, flashcards); this bundle is the handoff copy for ChatGPT, agents, and tools outside the site. Regenerated on production build and via `npm run export:okf`.
 
 ## ChatGPT workflow
 

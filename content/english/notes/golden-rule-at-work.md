@@ -25,6 +25,8 @@ aliases: ["treat colleagues fairly", "reverse roles at work", "golden rule at wo
 ---
 **The golden rule at work** = treat colleagues the way you want to be treated - in email tone, credit, deadlines, and hallway gossip.
 
+## Key Concept
+
 It's active, not passive: do the helpful thing, don't only avoid harm. The check is experiential - how would I want feedback delivered, how would I want to be included, how would I want a mistake handled? I don't wait for them to go first. Gospel depth lives in [[The Golden Rule]]; this is the version I use before I hit send.
 
 ## Examples
@@ -33,6 +35,7 @@ It's active, not passive: do the helpful thing, don't only avoid harm. The check
 - The group chat pile-on about the neighbor's messy yard - I asked how I'd want feedback if my lawn looked that way, then said nothing mean.
 - My draft reply to a new cashier was technically right and needlessly harsh - I paused, asked how I'd want that correction on my worst shift, and rewrote it before the thread in the break room got worse.
 - I was about to snap at my kid over spilled milk - golden rule at work is the home version too: how would I want that mistake handled on my worst morning?
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

@@ -25,6 +25,8 @@ aliases: ["own your mistakes"]
 ---
 **Own the error** = accountability turns failure into information.
 
+## Key Concept
+
 Name the mistake clearly, find what caused it, repair what broke, and change the process that let it through - not blame theater, not quiet hope it vanishes.
 
 ## Examples
@@ -33,6 +35,7 @@ Name the mistake clearly, find what caused it, repair what broke, and change the
 - I forgot the permission slip and told my kid out loud - reprinted, set a phone reminder, not "the teacher never emailed."
 - I merged wrong and clipped a bumper - I left a note with my number, not drove off hoping nobody saw.
 - After the missed free throw cost us the game, our point guard said "that was on me" in the huddle - no blame theater.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

@@ -29,6 +29,8 @@ aliases: ["do not worry", "sufficient unto the day", "dont worry"]
 ---
 **Don't worry** = Jesus' command not to be anxious about food, clothing, or tomorrow - the Father feeds birds and clothes lilies; he'll care for you (Matthew 6:25-34).
 
+## Key Concept
+
 Worry can't add a single hour to life. The antidote isn't denial - it's priority: [[Seek the Kingdom First]], and let tomorrow carry its own trouble. Trust is active dependence on a Father who already gave eternal life by [[Free Grace]] - [[Assurance]] rests on that promise, not anxiety about earning His care. Overlap with [[Slow Productivity]]: fewer frantic masters, deeper attention on what actually matters.
 
 ## Examples
@@ -37,6 +39,7 @@ Worry can't add a single hour to life. The antidote isn't denial - it's priority
 - I woke up at 2am replaying next month's payroll like anxiety could cut the checks - don't worry means seek the kingdom first, then act on today's actual numbers.
 - My kid asked what if the school fee goes up next year and I started spiraling at bedtime - trust is active dependence on a Father who already gave what I can't earn.
 - I replayed tomorrow's tournament bracket at 2am like worry could seed the draw - Jesus wasn't telling me to pretend the game doesn't exist, He was telling me to stop acting like I'm running the universe.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

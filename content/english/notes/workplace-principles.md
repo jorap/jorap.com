@@ -15,6 +15,8 @@ aliases: ["corporate principles", "ethics at work"]
 ---
 **Workplace principles** = the same ethics I keep in [[Eternal Principles]], translated for offices where "altar" and "kingdom" would land wrong.
 
+## Key Concept
+
 Each note below is one claim I'd say in a standup or a 1:1 - plain language, meeting-sized examples, wikilink back to the gospel source when I need the full depth. Faith stays in the faith cluster; these are the versions I can share with a secular team without watering down the move.
 
 ## How to treat colleagues

@@ -33,6 +33,8 @@ aliases: ["do unto others", "Golden Rule"]
 ---
 **The Golden Rule** = treat others how you want to be treated - Jesus called this the Law and Prophets summed up (Matthew 7:12).
 
+## Key Concept
+
 It's positive and active: *do* unto others, not merely avoid doing harm. The check is experiential - how would I want to be spoken to, helped, forgiven, included? That sets the floor for every interaction. [[Free Grace]] keeps it from becoming a merit system: I treat others well because Christ treated me well first.
 
 ## Examples
@@ -41,6 +43,7 @@ It's positive and active: *do* unto others, not merely avoid doing harm. The che
 - Waiting in line at the clinic, someone cut ahead and I drafted a public scolding - Golden Rule check: I'd want grace, not an audience.
 - Before I barked at the ref in front of the kids, I asked how I'd want a coach to talk to me after a bad call - the Golden Rule changed the volume.
 - I almost snapped at my kid the way my father snapped at me - reverse roles first, then speak.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

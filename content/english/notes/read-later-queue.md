@@ -25,12 +25,17 @@ aliases: []
 ---
 **Read later queue** = a parking lot for links you'll process later - dangerous if it becomes a graveyard.
 
+## Key Concept
+
+Named in notes that link here ([[The Collector's Fallacy]]). Tension with [[Active Knowledge Curation]] when the opposite frame fits better.
+
 ## Examples
 
 - I saved forty highlight reels and watched twelve - the queue was guilt storage, not training.
 - I bookmarked forty parenting threads and acted on three - the save button was a graveyard.
 - Four hundred saved articles on my phone and I'd read twelve - parking lot, not reading.
 - Four hundred saved articles and I'd read twelve - the queue was guilt storage, not reading.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

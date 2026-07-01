@@ -29,7 +29,9 @@ aliases: ["remain in me", "the vine and branches"]
 ---
 **Abide in me** = stay connected to Christ the way branches stay in the vine - apart from him you can do nothing; fruit comes from union (John 15:1-11).
 
-Abiding is ongoing dependence, not a one-time conversion event. Pruning hurts but serves fruitfulness. Under [[Free Grace]], fruit doesn't earn the branch's place in the vine - the branch bears fruit because it's connected. [[Sanctification]] is the slow becoming that abiding produces over time. Self-powered "fruit" without abiding is the dead wood Jesus removes - same trap as [[Compounding]] when I treat spiritual growth as pure self-stacked effort.
+## Key Concept
+
+Abiding is ongoing dependence, not a one-time conversion event. Pruning hurts but serves fruitfulness. Under [[Free Grace]], fruit doesn't earn the branch's place in the vine - the branch bears fruit because it's connected. [[Fruits of the Spirit]] names the cluster Galatians lists - love through self-control - grown by walking in the Spirit, not white-knuckling. [[Sanctification]] is the slow becoming that abiding produces over time. Self-powered "fruit" without abiding is the dead wood Jesus removes - same trap as [[Compounding]] when I treat spiritual growth as pure self-stacked effort.
 
 ## Examples
 
@@ -37,12 +39,14 @@ Abiding is ongoing dependence, not a one-time conversion event. Pruning hurts bu
 - I checked email three times before I prayed this morning and wondered why God felt far away - staying connected is the daily choice, not the badge from conversion day.
 - After a losing streak our captain stopped inventing new speeches and returned to the basics we drilled in preseason - fruit from staying connected to the system, not one heroic rant.
 - The bakery owner opens the shop with ten minutes of quiet before the rush - same posture, different room; fruit from staying connected, not from one heroic Saturday.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when I treat spiritual growth as pure self-stacked effort |
 | extends | [[Free Grace]] | Fruit comes from staying in Christ, not from earning your spot on the vine |
+| extends | [[Fruits of the Spirit]] | Abiding produces the Galatians cluster - love through self-control |
 | extends | [[Sanctification]] | Abiding is how holiness grows after justification |
 
 ## See also

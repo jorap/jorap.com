@@ -25,6 +25,8 @@ aliases: ["judge by outcomes", "fruit over hype"]
 ---
 **Outcomes over pitch decks** = judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura.
 
+## Key Concept
+
 Smooth talkers ship thorns sometimes. I look at downstream stress, turnover, delivery, and whether the team got healthier or more brittle. On [[Static Site Client Scope]], same filter: pick WordPress or Shopify when the fruit requires it - don't sell [[Free Tier Hosting Stack]] because it's my favorite hammer. Don't condemn souls; do read the fruit. Gospel source: [[By Their Fruits]]. PKM parallel: [[Signal vs Noise]].
 
 ## Examples
@@ -33,6 +35,7 @@ Smooth talkers ship thorns sometimes. I look at downstream stress, turnover, del
 - The contractor's portfolio was gorgeous - I asked two neighbors who lived through the remodel about permit fights and cracked tile.
 - The tutor's brochure looked perfect - I asked one mom whether her kid actually passed after three months.
 - The phone plan salesman had slick slides - I asked my neighbor what his bill actually looked like month six.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

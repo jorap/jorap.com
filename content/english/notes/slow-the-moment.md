@@ -21,6 +21,8 @@ aliases: ["pause before reacting"]
 ---
 **Slow the moment** = pressure creates urgency, but urgency shouldn't erase judgment.
 
+## Key Concept
+
 Before you react, buy enough mental space to understand what's happening, weigh consequences, and choose on purpose - not on adrenaline.
 
 ## Examples
@@ -29,6 +31,7 @@ Before you react, buy enough mental space to understand what's happening, weigh 
 - Before the free throw with the game on the line, the shooter took one breath - slow the moment bought the routine instead of the panic heave.
 - My kid melted in the grocery aisle - slow the moment was one breath, quieter voice, question before consequence; the aisle got shorter, not louder.
 - ER triage nurses ask three questions before anyone sprints - speed without sorting kills.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

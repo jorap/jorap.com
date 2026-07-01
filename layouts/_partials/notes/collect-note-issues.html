@@ -143,7 +143,7 @@
     {{- if not $rels.contradicts -}}
       {{- $structure = $structure | append (dict "type" "missingContradicts") -}}
     {{- end -}}
-    {{- $allowedSections := slice "examples" "note relationships" "see also" -}}
+    {{- $allowedSections := slice "key concept" "examples" "note relationships" "see also" -}}
     {{- $extraKeys := dict -}}
     {{- range findRE `(?m)^## ([^\n]+)` $raw -}}
       {{- $title := . | replaceRE `(?m)^## ` "" | strings.TrimSpace -}}

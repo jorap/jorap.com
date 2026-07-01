@@ -21,12 +21,17 @@ aliases: []
 ---
 **Name the feeling** = I put simple words to what someone seems to be carrying before I argue, advise, or plan the fix. "That sounds frustrating" isn't agreement with every claim - it's making the emotion legible so we can talk without guessing.
 
+## Key Concept
+
+I say what emotion I hear before I jump to what should happen next.
+
 ## Examples
 
 - A player slumped on the bench after a bad quarter - I said "you look wiped" before I drew up the next play. His shoulders dropped; then he could hear the adjustment.
 - My spouse walked in tense after traffic and errands - "rough afternoon?" before I asked about dinner plans. Small line, less defensiveness.
 - A coworker snapped in the break room about a late shipment - "sounds like you're getting blamed for stuff upstream" landed before we talked about who to email.
 - My kid came home furious about homework - "you're mad because it felt unfair" beat "just do it." We got to the actual problem after the feeling had a name.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

@@ -25,12 +25,17 @@ aliases: ["Visual Thinking"]
 ---
 Mind maps are for the messy first pass - branches, bubbles, relationships. I export to atomic notes after, not instead.
 
+## Key Concept
+
+Mind maps and sketches are the messy first pass - turn them into atomic notes after, not instead.
+
 ## Examples
 
 - I sketched a bubble map of our season goals on paper, then each branch became its own drill checklist.
 - I sketch a messy bubble map before our road trip, then each branch becomes its own packing list on the fridge.
 - I mapped errand stops around the mall on paper first - each branch became its own sticky on the dash.
 - The contractor sketched rooms on a napkin first - each bubble became a line item before the formal quote.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

@@ -25,6 +25,8 @@ aliases: ["yes means yes at work"]
 ---
 **Plain commitments at work** = say yes or no clearly - no "definitely maybe," no stack of qualifiers so people trust a weak promise.
 
+## Key Concept
+
 If my word needs hype to sound believable, the problem is my follow-through, not the sentence. One deadline, one owner, one plain answer in Slack. On [[Selling Static Sites]] scoping: say yes or no to [[Static Site Client Scope]] before deposit; name the [[Client Site Handoff]] model the same way. Gospel source: [[Let Your Yes Be Yes]]. PKM parallel: [[Atomic Notes]] - one claim per message, not padded prose.
 
 ## Examples
@@ -33,6 +35,7 @@ If my word needs hype to sound believable, the problem is my follow-through, not
 - I told the carpool "yes Friday, no Thursday" - not "definitely maybe if nothing comes up."
 - The coach said "practice at 4pm sharp" - not "we'll try to maybe start around four if weather holds."
 - I told my neighbor "I'll fix your fence Saturday by noon" - one deadline, one owner, not padded maybe.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

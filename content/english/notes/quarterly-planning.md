@@ -25,12 +25,17 @@ aliases: []
 ---
 **Quarterly planning** = set goals and review on a thirteen-week rhythm - short enough to feel real.
 
+## Key Concept
+
+Named in notes that link here ([[Periodic Knowledge Review]]). Tension with [[Slow Productivity]] when the opposite frame fits better.
+
 ## Examples
 
 - January's vague "get faster" became twelve weeks with a fridge time chart - week ten finally bit.
 - January's vague "reduce waste" became twelve weeks with a kitchen whiteboard tally - week ten finally bit.
 - January's vague "get fit" became twelve weeks with a fridge scoreboard - week ten finally bit.
 - January's vague "save money" became twelve weeks with a jar on the counter - week ten finally bit.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

@@ -25,12 +25,17 @@ aliases: []
 ---
 **Share sheet** = the phone menu that sends a link or file into another app - mobile capture's front door.
 
+## Key Concept
+
+Named in notes that link here ([[Capture]]). Tension with [[Analog Capture Tools]] when the opposite frame fits better.
+
 ## Examples
 
 - Article on the jeepney route change → Share → inbox - mobile capture's front door when I can't stop and type.
 - Recipe from the school group chat → Share → grocery list - one tap before three kids pulled me away from the phone.
 - Halftime clip of the broken play → Share → Notes - captured before the second half erased the fix I saw.
 - The supplier email with the corrected invoice → Share → my task app - saved before I closed the browser and lost it.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

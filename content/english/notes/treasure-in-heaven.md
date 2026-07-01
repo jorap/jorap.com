@@ -29,6 +29,8 @@ aliases: ["lay up treasure", "where your treasure is"]
 ---
 **Treasure in heaven** = store up what lasts - generosity, mercy, obedience - not what moth, rust, and thieves take (Matthew 6:19-21).
 
+## Key Concept
+
 Where your treasure is, there your heart will be. Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation. [[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life for faithfulness - not the entry fee. The [[Judgment Seat]] evaluates what lasts; [[Wood Hay Stubble]] names what burns vs survives the fire; [[Loss of Reward]] is when worthless treasure burns but you're still saved through fire. [[The Collector's Fallacy]] is the PKM mirror: hoarding saves and stuff on earth while nothing lasting gets stored.
 
 ## Examples
@@ -37,6 +39,7 @@ Where your treasure is, there your heart will be. Earthly treasure is fragile; h
 - I almost chased a sponsorship for the ego, not the team - treasure check: where will this matter in ten years?
 - Wallet full of gear I'll resell at a loss; calendar empty of the people I say I serve - heart follows treasure, and mine was on earth again.
 - I looked at my wallet and calendar last night - both full of stuff that won't survive a hard year; store what lasts, not what rusts.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

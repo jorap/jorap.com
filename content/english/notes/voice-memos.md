@@ -25,12 +25,17 @@ aliases: []
 ---
 **Voice memos** = [[Capture]] ideas by speaking when hands or eyes are busy.
 
+## Key Concept
+
+Named in notes that link here ([[Context-Aware Capture]]). Tension with [[Atomic Notes]] when the opposite frame fits better.
+
 ## Examples
 
 - Driving between sites I voice-memo'd the supplier change - transcribed into the inbox when I parked.
 - Driving home from clinic I dictated the thought into the phone - transcribed later into the inbox.
 - Walking off the field I dictated the fix for tomorrow's drill - hands busy, idea captured before it evaporated.
 - Hands full of groceries, I dictated "email teacher about field trip" into the phone before I forgot in the door scramble.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

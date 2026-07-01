@@ -33,6 +33,8 @@ aliases: ["seek ye first", "kingdom of God"]
 ---
 **Seek the kingdom first** = put God's rule and righteousness ahead of food, status, and tomorrow's worry - the rest follows (Matthew 6:33).
 
+## Key Concept
+
 The Sermon on the Mount ties this to not serving two masters (God and wealth) and to storing [[Treasure in Heaven]]. Kingdom isn't escape from earth - it's God's reign ordering my priorities today. Same job as [[Signal vs Noise]] in the PKM stack: what gets first place when everything feels urgent.
 
 ## Examples
@@ -41,6 +43,7 @@ The Sermon on the Mount ties this to not serving two masters (God and wealth) an
 - Anxiety had me scrolling finances before I prayed - kingdom first meant pray, then act on the bills.
 - The goalie stretches before the locker-room noise - kingdom first is ten minutes of calm before the game sets the tone.
 - The bakery owner opens with a short prayer before the ovens - feed the kingdom line before the invoice pile.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

@@ -21,12 +21,17 @@ aliases: []
 ---
 **Listen before fixing** = I let the other person finish before I hand them advice, correction, or a solution. I repeat what I heard in my own words, then respond. Feeling heard comes before being helped.
 
+## Key Concept
+
+I let people finish before I hand them advice, correction, or a fix.
+
 ## Examples
 
 - A younger player kept explaining why he missed the free throw - I almost jumped in with form tips. I waited, said back what he thought went wrong, then offered one drill.
 - A nurse vented about a scheduling mix-up - I didn't open with "just tell admin." I mirrored the problem, then asked what she wanted done about it.
 - A friend called about a job mess - I didn't pitch my résumé tips until she'd finished the story and I checked I had it right.
 - My kid told me about a fight at school - I caught myself lining up a lecture and stopped. "So he took your pencil and you pushed him" - then we talked about what to try tomorrow.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

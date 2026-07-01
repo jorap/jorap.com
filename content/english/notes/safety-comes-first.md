@@ -25,12 +25,17 @@ aliases: []
 ---
 **Safety comes first** = following someone else's lead stops when serious harm is on the table. Respect isn't letting danger or cruelty run because I don't want to be controlling. I stop the unsafe thing, then restore choice when the situation is stable.
 
+## Key Concept
+
+Respect doesn't mean I ignore danger - I stop serious harm first, then restore choice when it's safe.
+
 ## Examples
 
 - A teammate wanted to play through a head hit - I didn't "support his call"; I got the trainer. Following his lead would have meant ignoring the injury.
 - A coworker wanted to skip the lockout tag on a jammed machine - I didn't go along to keep peace. Power off, tag on, then we troubleshoot together.
 - A friend was too drunk to drive and insisted he was fine - I took the keys and called a ride. Friendship isn't co-signing the crash.
 - My kid wanted to ride in the truck bed on a bumpy road - "your choice" ended at the seatbelt. We could pick music; we couldn't pick the hospital route.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

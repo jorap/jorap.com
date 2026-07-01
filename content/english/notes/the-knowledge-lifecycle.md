@@ -25,12 +25,17 @@ aliases: ["Knowledge Lifecycle", "Note Maturity"]
 ---
 Ideas have lifecycles in my vault: capture, active use, evergreen, decay, archive. I match effort to stage.
 
+## Key Concept
+
+Ideas move through capture, use, polish, fade, and archive - spend effort where the note actually is.
+
 ## Examples
 
 - Ideas in my vault move capture → active use → evergreen → archive - I spend water and stakes where the note actually lives.
 - The new set play lives in "learning" for three weeks, graduates to "game plan," then gets archived when we change offense.
 - A tomato seedling on the windowsill graduates to the backyard bed after three good weeks, then gets pulled when frost hits.
 - The school FAQ note started as a fleeting capture, got updated all semester, then moved to archive when the kid changed schools.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

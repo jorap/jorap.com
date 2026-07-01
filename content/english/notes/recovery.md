@@ -21,12 +21,17 @@ aliases: []
 ---
 **Recovery** = the sleep, rest, and downtime that refill what hard work drains - judgment, patience, attention.
 
+## Key Concept
+
+Recovery is sleep, rest, and downtime that refill judgment - not laziness, maintenance.
+
 ## Examples
 
 - After three nights of overtime I skipped the fourth - slept eight hours and didn't snap at the barista.
 - Elite athletes schedule rest days - muscle rebuilds off the field, not another heroic scrimmage.
 - The chef took Monday off after the wedding rush - judgment came back by Thursday service.
 - Three late nights made me snap at bedtime - recovery was stopping at ten instead of a fourth heroic hour that hurt everyone at breakfast.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

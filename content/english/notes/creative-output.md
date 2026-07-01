@@ -25,12 +25,17 @@ aliases: ["Distraction-Free Writing", "distraction free writing"]
 ---
 Notes are inventory. Output is the point - blog posts, sermons, code, dinner experiments. When I'm testing an idea, I ship an [[Minimum Viable Product]] before I polish. Client sites on [[Free Tier Hosting Stack]] are the same express lane - shipped sites, not slide decks about sites. Faith parallel: [[The Wise Builder]] - hear Jesus and do; [[Great Commission]] - truth shared, not hoarded in the garden.
 
+## Key Concept
+
+Notes are inventory. Output is the point - ship posts, sermons, code on a deadline, in distraction-free focus.
+
 ## Examples
 
 - Friday film day means everyone shows one clip, rough or not - I do the same with my note pile, three sparks become one finished piece even if the cut is rough.
 - I publish the sermon outline before it's polished because truth shared beats truth hoarded in the garden like bookmarks.
 - The art teacher makes everyone show one sketch, rough or not - notes are inventory, output is the point.
 - We don't wait for perfect dinner photos - we ship the meal and fix the recipe next time; hearing the idea isn't doing it.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

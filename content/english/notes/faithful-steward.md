@@ -29,6 +29,8 @@ aliases: ["good and faithful servant", "parable of the talents", "stewardship"]
 ---
 **Faithful steward** = God entrusts time, gifts, and opportunities; faithfulness with what He gave is what earns "well done" - not a down payment on salvation (Matthew 25:14-30; Luke 19:11-27).
 
+## Key Concept
+
 [[Free Grace]] settled where I spend forever. Stewardship settles what I do with what He entrusted after. The master returns to settle accounts - faithful use repaid, buried talent rebuked. [[Eternal Rewards]] names the promise; [[Faithful Steward]] names the parable Jesus told for it. [[Compounding]] is the PKM mirror: small faithful use over years, not one heroic week mistaken for a merit purchase on heaven. [[Judgment Seat]] is where accounts get reviewed; [[Secret Devotion]] and [[Integrity When No One's Watching]] are hidden lanes of faithful use nobody applauded.
 
 ## Examples
@@ -37,6 +39,7 @@ aliases: ["good and faithful servant", "parable of the talents", "stewardship"]
 - One mission trip in my head as my whole eternal report card - the master reviews faithful use over years, including quiet Tuesdays nobody clapped for.
 - I compared my small platform to a friend's bigger audience and froze - stewardship asks what He gave *me*, not what someone else got.
 - Buried the talent at work - played it safe, never used the skill God gave - faithful steward uses it, not hides it in fear.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

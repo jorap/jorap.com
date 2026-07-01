@@ -21,6 +21,8 @@ aliases: ["effectiveness in new conditions"]
 ---
 **Stay effective in new conditions** = what made you strong in one room can make you weak in the next.
 
+## Key Concept
+
 Real competence means staying useful outside ideal setups, familiar roles, and comfortable routines - new tools, new teams, crisis mode, career pivots.
 
 ## Examples
@@ -29,6 +31,7 @@ Real competence means staying useful outside ideal setups, familiar roles, and c
 - Our guard dominates on the outdoor court and looks lost on the slick indoor floor for a week - staying effective means adjusting footwork, not defending yesterday's surface.
 - A great street-food cook still has to learn a new kitchen layout when the mall lease starts - same food, new tools.
 - Remote school broke our morning routine - we rebuilt a shorter version that worked on a laptop at the kitchen table, not the old rush-out-the-door script.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

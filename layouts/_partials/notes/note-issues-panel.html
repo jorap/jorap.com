@@ -6,7 +6,7 @@
   {{- return -}}
 {{- end -}}
 {{- with $page.File -}}
-  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v7" -}}
+  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v8" -}}
   {{- $issues := index $data.byPath .Path -}}
   {{- if $issues -}}
     <aside class="notes-issues border-divider mb-6 rounded border p-5" aria-label="Link issues on this note">

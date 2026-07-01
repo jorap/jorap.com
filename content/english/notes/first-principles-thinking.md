@@ -25,12 +25,17 @@ aliases: []
 ---
 When a note is just a quote from someone smarter, I add a section: what do I actually believe from scratch. Not the same job as [[Eternal Principles]] - those are Jesus' received teachings grounded in [[Free Grace]], not claims I reason up from zero.
 
+## Key Concept
+
+When a note is only a quote, I add what I actually believe from scratch.
+
 ## Examples
 
 - The clinic kept copying a corporate onboarding script until someone asked what problem we're actually solving - strip borrowed moves down to what this team lacks.
 - My kid's coach kept quoting a YouTube drill until I asked what problem we're actually solving - turns out we needed passing, not fancy footwork.
 - I kept quoting parenting advice from a podcast until I wrote what I actually believe about bedtime - first principles was my own claim, not someone else's quote.
 - The HOA kept adding signs about parking until a neighbor asked why people park wrong - turns out we needed one marked loading zone, not five new rules.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

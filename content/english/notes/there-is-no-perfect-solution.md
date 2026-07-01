@@ -25,12 +25,17 @@ aliases: ["No Perfect Solution"]
 ---
 Waiting for the perfect tool, plan, or answer feels responsible. It's often the nirvana fallacy. Faith parallel: [[Repent and Believe]] - the kingdom is at hand now, not when you've fixed yourself.
 
+## Key Concept
+
+Every real choice has tradeoffs - stop comparing real options to an imaginary perfect one. I pick what works tired and ship.
+
 ## Examples
 
 - I spent a week comparing strollers instead of walking with the baby we already had - picked the lighter one, went out tired that afternoon.
 - I stopped comparing note apps and shipped with the one that works on my phone tired - no perfect tool, only what I actually use.
 - We ran the secondary lineup ugly instead of waiting for the star to clear concussion protocol - good enough today beat perfect next month.
 - The shop picked the good-enough supplier quote Friday instead of a fifth round of bids - tradeoffs, not an imaginary perfect vendor.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

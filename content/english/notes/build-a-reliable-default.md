@@ -21,6 +21,8 @@ aliases: ["reliable default under pressure"]
 ---
 **Build a reliable default** = when time, information, confidence, or energy runs short, you fall back on what's most practiced.
 
+## Key Concept
+
 Make that fallback a simple, dependable response - rehearsed enough to run when thinking is thin.
 
 ## Examples
@@ -29,6 +31,7 @@ Make that fallback a simple, dependable response - rehearsed enough to run when 
 - Our family fire plan is one page on the fridge: two exits, where we meet, who grabs the baby. Last blackout, my kid ran it half-asleep and nobody guessed.
 - The point guard doesn't invent a new inbound play when the gym gets loud - she runs the one they drilled Tuesday. Same move until panic day isn't day one.
 - The building guard doesn't improvise evacuation when the alarm trips - he walks the posted route he practiced on quiet shifts. Rehearsed beats invented.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

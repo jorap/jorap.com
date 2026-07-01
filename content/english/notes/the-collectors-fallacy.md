@@ -29,12 +29,17 @@ aliases: ["the collectors fallacy", "Collector's Fallacy"]
 ---
 Collecting articles feels like progress. It isn't. The collector's fallacy bit me until I tied saves to express deadlines. [[Treasure in Heaven]] is the faith-side mirror: hoarding what rusts instead of what lasts.
 
+## Key Concept
+
+Collecting articles feels like progress - tie saves to express deadlines or cut them.
+
 ## Examples
 
 - My recipe folder had forty saved dinners and we still ordered takeout three nights a week until I tied every save to one cooked meal.
 - Bookmark hoard growing with no ship date - saving articles felt like learning until I tied each save to what I'd actually make.
 - My folder had forty highlight reels and we still ran the same broken play - saving felt like improving; it wasn't until one clip became Tuesday's drill.
 - Dozens of saved craft ideas on Pinterest and we still bought the birthday cake - collecting isn't the party until something leaves the screen.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

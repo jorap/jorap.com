@@ -29,6 +29,8 @@ aliases: ["deny yourself", "daily cross"]
 ---
 **Take up your cross** = deny yourself, pick up the cross daily, and follow [[Discipleship]] - the shape of discipleship after you come to him (Luke 9:23; Matthew 16:24).
 
+## Key Concept
+
 The cross isn't suffering for suffering's sake; it's choosing God's will over self-will each day. [[Free Grace]] keeps the order: eternal life is received by faith, not earned by cross-bearing - but [[Discipleship]] costs something real. Same road as [[The Narrow Way]], lived one day at a time. Overlap with [[Process Over Outcomes]]: daily self-denial beats a one-time hero sprint.
 
 ## Examples
@@ -37,6 +39,7 @@ The cross isn't suffering for suffering's sake; it's choosing God's will over se
 - Turning down the easy shortcut at work because I know it's wrong - cross isn't suffering for show; it's choosing God's will over self-will again today.
 - The veteran skips the post-game party to drive a rookie home - daily cross is the costly obedience when comfort is right there.
 - The manager took the blame upward on the bad quarter instead of passing it to the junior who'd flagged the risk - cross-bearing costs something real.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

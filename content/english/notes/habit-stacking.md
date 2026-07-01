@@ -21,12 +21,17 @@ aliases: ["habit stack"]
 ---
 **Habit stacking** = attach a new small habit to one you already do without thinking - after coffee, open the notebook; after shoes on, one stretch.
 
+## Key Concept
+
+Habit stacking attaches a new small move to a habit that already runs on autopilot - one anchor, one add-on.
+
 ## Examples
 
 - I never remembered to stretch until it sat right after lacing gym shoes - the shoes were the anchor, the stretch piggybacked.
 - After I clock in, I scan the handoff sheet - the clock-in is the anchor, the scan piggybacked; no new time slot, just a chain.
 - After I pour the first coffee, I open the pocket notebook - habit stacking attaches the new move to one that already runs on autopilot.
 - After I lock the front door, I check the mailbox - the lock is the anchor, the mail check piggybacked on a habit I never skip.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

@@ -29,6 +29,8 @@ draft: false
 ---
 **Evergreen notes** = ideas phrased to stay useful - timeless wording, clear claims, updated when reality changes.
 
+## Key Concept
+
 I write in complete sentences I'd still stand behind in two years. Revise when tools change, not when trends spike. Promotion from fleeting: during [[Periodic Knowledge Review]], when a spark keeps returning. Faith parallel: [[The Beatitudes]] - character that matures over years, not a one-week mood.
 
 ## Examples
@@ -37,6 +39,7 @@ I write in complete sentences I'd still stand behind in two years. Revise when t
 - I revise a garden note when reality changes how I think, not when Twitter spikes about a new PKM app I'll forget by autumn.
 - My free-throw note keeps the release point and follow-through - not last week's trending drill tip I'd regret next season.
 - The chore chart on the fridge says who empties dishes - timeless wording I'd still stand behind in two years, updated when our household actually changes.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

@@ -16,6 +16,10 @@ aliases: []
 ---
 **Backlinks** = inbound wikilinks ranked by count - see which notes the garden treats as anchors. Pairs with [[Issues]], [[Random Duo]], and [[Create Note]].
 
+## Key Concept
+
+Find anchor notes by who links here - snippet context per backlink, not just a count. Utility surface: link by URL from content notes, not `[[wikilinks]]`.
+
 ## See also
 
 - [[Flashcards]] - Meta, Notes

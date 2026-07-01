@@ -29,6 +29,8 @@ aliases: ["repentance", "believe the gospel"]
 ---
 **Repent and believe** = Jesus' opening command: turn from self-rule and trust the good news that the kingdom is at hand (Mark 1:15; Matthew 4:17).
 
+## Key Concept
+
 Repentance is a change of mind and direction - not a down payment on salvation. Belief is reliance on Christ's promise, not mere intellectual agreement. Under [[Free Grace]], this pair is how life begins: receive the kingdom as gift, then live under the King's rule in response. [[There Is No Perfect Solution]] - the kingdom is at hand now, not when you've fixed yourself.
 
 ## Examples
@@ -37,6 +39,7 @@ Repentance is a change of mind and direction - not a down payment on salvation. 
 - I kept telling myself I'd trust Jesus once my habits looked respectable - it's not a finish line when you're fixed.
 - I told my kid faith isn't waiting until you're good enough - turn and trust today, then keep practicing.
 - I stopped delaying the hard conversation until I felt ready - believe the promise first, tidy later.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

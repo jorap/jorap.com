@@ -21,12 +21,17 @@ aliases: []
 ---
 **Deliberate practice** = train the weak slice on purpose - feedback, correction, repeat - not run the whole piece you already nail.
 
+## Key Concept
+
+Deliberate practice is focused reps on the part that breaks - not mindless repetition of what already works.
+
 ## Examples
 
 - I bombed transitions in a talk and ran only those bridges ten times the next morning - not mindless repetition of what already worked.
 - Our guard drills the weak-hand finish fifty times, not the whole scrimmage on autopilot - train the weak slice on purpose.
 - The new cashier drills voids and returns ten times, not the whole shift on autopilot - feedback, correction, repeat on what breaks.
 - My kid's recital died in the bridges between songs - deliberate practice was running only those transitions ten times; the rest she already knew.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

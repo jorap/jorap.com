@@ -29,6 +29,8 @@ aliases: ["give to Caesar", "Caesar and God"]
 ---
 **Render unto Caesar** = pay lawful civic obligations - taxes, duties owed the state - while reserving ultimate worship for God alone (Matthew 22:21).
 
+## Key Concept
+
 The coin bore Caesar's image; give it back to him. You bear God's image; give yourself to Him. Jesus avoids both revolutionary tax refusal and idolizing Rome. [[Seek the Kingdom First]] still ranks the kingdom above every earthly master, but that doesn't excuse dodging legitimate civic responsibility.
 
 ## Examples

@@ -25,6 +25,8 @@ aliases: ["de-escalate at work", "don't feed the reply-all war"]
 ---
 **Break the escalation cycle** = when a colleague lands a sharp email or public jab, I don't match tone for tone - I break the loop before the reply-all war starts.
 
+## Key Concept
+
 Not passivity - I can still set boundaries and name facts. I just refuse to become what hurt me in the thread. Stop throwing anger after sunk hurt. Gospel source: [[Turn the Other Cheek]]. PKM parallel: [[Sunk Cost Fallacy]].
 
 ## Examples
@@ -33,6 +35,7 @@ Not passivity - I can still set boundaries and name facts. I just refuse to beco
 - A parent yelled at the ref from the sideline and my first instinct was to yell back - I answered the rule, kept my voice flat, and let the insult die without an audience.
 - My kid snapped first at dinner and I almost matched the volume - I named what happened, lowered my voice, and refused to pour fuel on it.
 - A neighbor's group-chat jab about parking got a sharp reply in my drafts - I sent the facts and the new plan instead of the line that would have fed the thread all week.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

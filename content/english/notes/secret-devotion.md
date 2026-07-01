@@ -29,6 +29,8 @@ aliases: ["give in secret", "pray in secret", "fast in secret"]
 ---
 **Secret devotion** = give, pray, and fast for the Father's eyes - not to be seen by people (Matthew 6:1-18).
 
+## Key Concept
+
 Jesus brackets the [[Ask Seek Knock]] with the same warning: religious performance for an audience is its own reward. Secret devotion pairs with [[Ask Seek Knock]] (how to pray) and contrasts [[Let Your Light Shine]] - some good works shine publicly for God's glory; other devotion stays hidden so the left hand doesn't know what the right is doing. [[Free Grace]] means I'm not earning visibility points with God.
 
 ## Examples
@@ -37,6 +39,7 @@ Jesus brackets the [[Ask Seek Knock]] with the same warning: religious performan
 - I almost posted my Bible-and-coffee setup because quiet time felt wasted without likes - secret devotion means the Father is enough audience.
 - The player doesn't live-stream her 5 a.m. shootarounds for applause - she trains because the game is the point, not the Strava badge.
 - The janitor who mops the back hallway when nobody's watching isn't building a reputation - he's doing the job right because it's right.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

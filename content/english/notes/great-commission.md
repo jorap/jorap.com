@@ -29,6 +29,8 @@ aliases: ["go and make disciples", "Matthew 28"]
 ---
 **Great Commission** = go to all nations, baptize, teach obedience to everything Jesus commanded - he goes with you to the end of the age (Matthew 28:19-20).
 
+## Key Concept
+
 Mission flows from resurrection authority, not human recruitment zeal. Teaching obedience is discipleship after faith - not a works payment for salvation under [[Free Grace]]. PKM parallel: [[Creative Output]] - the gospel isn't fully kept until it's passed on; inventory notes mean nothing if they never leave the garden.
 
 ## Examples
@@ -37,6 +39,7 @@ Mission flows from resurrection authority, not human recruitment zeal. Teaching 
 - A neighbor asked what we do on Sunday mornings and I almost changed the subject - Jesus said go, baptize, teach, and He's with you while you do it.
 - I've coached kids for years and stay quiet when a parent asks what our team believes - Jesus didn't say hoard truth like a bookmark; He said go, baptize, teach, and He's with you.
 - I've read the gospel for years and stay quiet when a coworker asks what we do on Sunday mornings - the commission is share truth, not hoard it in private study.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

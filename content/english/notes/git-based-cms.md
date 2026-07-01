@@ -21,6 +21,8 @@ aliases: ["Sveltia CMS", "Decap CMS", "git backed cms", "git based cms"]
 ---
 **Git-based CMS** = a web editor (I use Sveltia or Decap) that commits markdown to the repo - same [[Free Tier Hosting Stack]] build on push, but the client gets buttons instead of VS Code.
 
+## Key Concept
+
 I publish via Git directly. Clients often won't. Before I redirect them to WordPress, this is the middle path: marketing volunteer, pastor's secretary, family member posting updates - still static HTML out the other end, still free tier hosting if deploy volume stays sane. Git stays source of truth; the CMS is just another commit path. More setup than raw markdown (auth, config, media folders) - quote it, don't tuck it in "theme tweaks."
 
 **When it fits [[Static Site Client Scope]]:** one or two non-technical editors, occasional posts, no member login, no cart. **When it doesn't:** five daily editors with workflows, private content, or "make it exactly like our old WordPress admin" without budget for config. Still say no to bad dynamic scope - CMS doesn't add a database.
@@ -33,6 +35,7 @@ I publish via Git directly. Clients often won't. Before I redirect them to WordP
 - I added Decap for a client who insisted on "WordPress-like" - honest scope: blog posts only, not plugins; still cheaper than hosted WordPress long term.
 - Solo portfolio client - I talked myself out of CMS; Git handoff via [[Client Site Handoff]] was enough.
 - CMS auth misconfigured once - treat login like production, not a demo sidebar.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

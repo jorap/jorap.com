@@ -29,6 +29,8 @@ aliases: ["blessed are the peacemakers"]
 ---
 **Peacemakers** = people who actively pursue peace, not just keep quiet - Jesus blessed them and called them children of God (Matthew 5:9).
 
+## Key Concept
+
 Peacemaking is work: reconciliation, truth spoken in love, de-escalation when others want a fight. It's not peace-at-any-price or avoiding hard conversations. The blessing ties peacemaking to family resemblance - acting like the Father who reconciled me to Himself through [[Free Grace]] before I reconciled with anyone.
 
 ## Examples
@@ -37,6 +39,7 @@ Peacemaking is work: reconciliation, truth spoken in love, de-escalation when ot
 - Two coworkers wanted me to pick a side over lunch - I called the one I wronged first and asked what it would take to actually fix things.
 - Two friends feuding at dinner wanted me to pick a side - I called the one I wronged first and asked how to fix it, not keep the room quiet.
 - Neighbors were arguing over the fence line - I offered to measure together instead of nodding along with whoever complained loudest.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -44,6 +47,7 @@ Peacemaking is work: reconciliation, truth spoken in love, de-escalation when ot
 | alternative | [[Love Your Enemies]] | Make peace vs love enemies when the job is ending the fight |
 | contradicts | [[Love Your Enemies]] | when I confuse peace with never confronting wrong |
 | extends | [[Free Grace]] | Peacemaking mirrors the Father who reconciled you by grace before you reconciled with anyone |
+| extends | [[Fruits of the Spirit]] | Peace is one fruit; peacemaking is the active work Jesus blessed |
 | extends | [[Listen Before Fixing]] | Make peace by hearing before prescribing |
 | extends | [[Name the Feeling]] | Truth in love often starts with naming what's carried |
 | extends | [[Set Calm Boundaries]] | Peace through truth includes calm limits |

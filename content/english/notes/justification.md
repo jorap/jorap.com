@@ -29,6 +29,8 @@ aliases: ["declared righteous", "justified by faith"]
 ---
 **Justification** = God declares me righteous through faith in Christ alone - once, at faith, before my obedience catches up (Romans 3:24, 4:5, 5:1).
 
+## Key Concept
+
 [[Free Grace]] names the gift; justification names the legal move: guilty sinner, faith in Christ, declared not guilty - Christ's record credited to me. Same shape as [[Minimum Effective Dose]]: one sufficient act at the start, not a lifetime of merit stacked before God says yes. [[Standing vs Fellowship]] keeps the verdict separate from daily closeness - confession restores fellowship, it doesn't re-buy heaven. [[Sanctification]] is what comes after - becoming holy over time. [[Eternal Rewards]] is what the Father pays faithful living after. None of those three re-open the case justification closed.
 
 ## Examples
@@ -37,6 +39,7 @@ aliases: ["declared righteous", "justified by faith"]
 - I snapped at the cashier and felt like I was back on probation with God - justification means my standing was settled at faith; confession restores fellowship, it doesn't re-buy heaven.
 - A coworker said she's "working toward" being saved - one sentence back: trust Christ now; you're declared righteous at faith, not after the habit streak.
 - Romans 4 in my head but guilt still treats every bad week like a revoked passport - standing is settled; the walk is a different category.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -44,6 +47,7 @@ aliases: ["declared righteous", "justified by faith"]
 | contradicts | [[Compounding]] | when stacked good works feel like they finally earned God's yes |
 | extends | [[Assurance]] | Verdict rests on Christ - doubt doesn't reopen the case |
 | extends | [[Free Grace]] | Grace is the gift; justification is God declaring you righteous when you receive it |
+| extends | [[Grace]] | Justification is the verdict grace triggers at faith |
 | extends | [[Loss of Reward]] | Standing declared at faith doesn't get revoked when reward is lost |
 | extends | [[Minimum Effective Dose]] | Faith is the one sufficient act - not a merit ladder before God accepts you |
 | extends | [[Standing vs Fellowship]] | Standing declared once; fellowship fluctuates with sin and confession |

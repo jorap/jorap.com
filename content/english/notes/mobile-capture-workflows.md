@@ -25,12 +25,17 @@ aliases: []
 ---
 Most sparks die on mobile because capture takes twelve taps. I reduced mine to share sheet → inbox.
 
+## Key Concept
+
+Mobile capture: share sheet to inbox - save the spark before I scroll away.
+
 ## Examples
 
 - Halftime idea on the bench - I voice-memo'd it before the third quarter wiped it.
 - Grocery line, kid asks for something, thought gone unless I scribble on the receipt back - two seconds, one place.
 - Jeepney stop, blog idea hits - one tap to notes before the next ride shakes it out of my head.
 - School pickup, kid mentions a permission slip - share sheet to inbox before the next text buries it.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

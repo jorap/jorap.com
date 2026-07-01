@@ -29,7 +29,9 @@ aliases: ["becoming holy", "growth in holiness"]
 ---
 **Sanctification** = God makes me holy over time after [[Justification]] declares me righteous - gradual change of heart and habit, not the ticket that buys eternal life (1 Thessalonians 4:3; Philippians 1:6).
 
-[[Free Grace]] settles where I spend forever. Sanctification settles who I'm becoming on the way. [[Grateful Obedience]] names the posture: grow from thanks, not to earn acceptance. [[Standing vs Fellowship]] keeps a fruitless week from feeling like revoked standing. [[Discipleship]] is the daily walk - hear Jesus, do what He said. [[Abide in Me]] names the engine: fruit from staying connected, not self-powered grit alone. [[Eternal Rewards]] repays faithful obedience; [[Loss of Reward]] warns that a wasted season may shrink reward but doesn't un-save you. Sanctification is the slow becoming that obedience shapes. PKM mirror: [[Process Over Outcomes]] - daily faithfulness beats one heroic week I treat like proof I'm saved.
+## Key Concept
+
+[[Free Grace]] settles where I spend forever. Sanctification settles who I'm becoming on the way. [[Grateful Obedience]] names the posture: grow from thanks, not to earn acceptance. [[Standing vs Fellowship]] keeps a fruitless week from feeling like revoked standing. [[Discipleship]] is the daily walk - hear Jesus, do what He said. [[Abide in Me]] names the engine: fruit from staying connected, not self-powered grit alone. [[Fruits of the Spirit]] names what that fruit looks like - love, joy, peace, patience, and the rest in Galatians 5. [[Eternal Rewards]] repays faithful obedience; [[Loss of Reward]] warns that a wasted season may shrink reward but doesn't un-save you. Sanctification is the slow becoming that obedience shapes. PKM mirror: [[Process Over Outcomes]] - daily faithfulness beats one heroic week I treat like proof I'm saved.
 
 ## Examples
 
@@ -37,6 +39,7 @@ aliases: ["becoming holy", "growth in holiness"]
 - I treated my quiet-time streak like proof God accepts me - faith saves; sanctification grows me after, it doesn't re-open the verdict.
 - Same sin pattern after conversion made me wonder if I was fake - justified at faith, becoming holy over time; both true, different jobs.
 - One altar-call high and the same temper by Friday - holiness isn't a one-time sprint, it's daily abiding and obeying.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -45,7 +48,9 @@ aliases: ["becoming holy", "growth in holiness"]
 | contradicts | [[Compounding]] | when holiness streaks compound into proof I'm saved |
 | extends | [[Abide in Me]] | Fruit and holiness flow from staying in Christ, not from earning your spot |
 | extends | [[Discipleship]] | Daily following is how sanctification shows up in real life |
-| extends | [[Grateful Obedience]] | Holiness grows from received mercy, not earned acceptance |
+| extends | [[Fruits of the Spirit]] | Becoming holy over time - the Galatians cluster marks the walk |
+| extends | [[Grace]] | Grace sustains growth after the verdict, not before it |
+| extends | [[Grateful Obedience]] | Holiness grows from received [[Mercy]], not earned acceptance |
 | extends | [[Justification]] | Declared righteous first; becoming holy second - don't swap the order |
 | extends | [[Loss of Reward]] | Keep growing after a bad season - holiness and reward are separate ledgers |
 | extends | [[Standing vs Fellowship]] | Becoming holy without re-opening the verdict justification gave |

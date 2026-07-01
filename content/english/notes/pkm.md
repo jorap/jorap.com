@@ -25,12 +25,17 @@ aliases: ["Personal Knowledge Management"]
 ---
 **PKM** is the boring name for how I save, organize, and use what I learn. Here's my unspectacular definition.
 
+## Key Concept
+
+PKM is the plain name for the save-organize-use system getting started introduces ([[Getting Started]]). Tension with [[The Collector's Fallacy]] when building the system feels like progress without output.
+
 ## Examples
 
 - When a friend asks what PKM means, I say the same for what I learn - boring name, daily payoff.
 - My commute notebook has three lists I actually open - not forty folders I'll never scroll again.
 - The team manager keeps a card file sorted by what she actually uses on game day, not every article she ever read.
 - The school nurse keeps a card file sorted by what she actually uses on a shift, not every article she ever read.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

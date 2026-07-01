@@ -29,6 +29,8 @@ aliases: ["persistent prayer", "the Lord's Prayer"]
 ---
 **Ask, seek, knock** = keep coming to the Father in prayer - He gives good gifts to those who ask (Matthew 7:7-11; 6:5-13).
 
+## Key Concept
+
 Jesus compares God to a parent who gives bread, not a stone. The [[Ask Seek Knock]] (Matthew 6:9-13) models priority: God's name, kingdom, will - then daily needs and forgiveness. Prayer isn't bargaining for merit; under [[Free Grace]] it's the dependent posture of a child who already belongs to the household. Same rhythm as [[Periodic Knowledge Review]] - keep showing up on schedule, not only in crisis.
 
 ## Examples
@@ -37,6 +39,7 @@ Jesus compares God to a parent who gives bread, not a stone. The [[Ask Seek Knoc
 - The clinic chaplain rounds every floor on a schedule, not only when someone codes - ask, seek, knock is keep showing up, not one crisis visit.
 - Before a big match I pray like a kid who won't stop knocking - not because I earned answers, but because He's Dad and I'm already in the house.
 - My daughter asks for help with homework without calculating whether she deserves it - same posture I need with the Father, keep coming like a child who belongs.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

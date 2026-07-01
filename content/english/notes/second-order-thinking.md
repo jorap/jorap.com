@@ -21,12 +21,17 @@ aliases: ["second order effects", "second order thinking"]
 ---
 **Second-order thinking** = ask what happens after the first win - incentives shift, copycats arrive, shortcuts compound.
 
+## Key Concept
+
+Second-order thinking asks what happens after the first consequence - not only whether the move works today.
+
 ## Examples
 
 - Free pizza after games pulled families in - then the parking lot jammed and refs quit early - I asked what happens after the first rush.
 - I offered unlimited screen time on sick days - then bedtime fights lasted a week after they recovered.
 - The shortcut shaves ten minutes until the construction zone adds twenty - I asked what happens after Tuesday's win.
 - Free cookies at the door pull kids in - then the line blocks serious shoppers and staff burns out on samples.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

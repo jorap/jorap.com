@@ -29,6 +29,8 @@ aliases: ["bless those who curse you"]
 ---
 **Love your enemies** = bless those who curse you, pray for persecutors - so you reflect the Father who sends rain on just and unjust alike (Matthew 5:44-45).
 
+## Key Concept
+
 Jesus overturned the tribal reading of "neighbor." Loving only people who love you back is ordinary; loving enemies is divine-shaped. Prayer and blessing are the practical handles - not agreement, not pretending harm didn't happen. The Father's free grace toward the unjust (Matthew 5:45) is the pattern: I love enemies because God loved me first.
 
 ## Examples
@@ -37,6 +39,7 @@ Jesus overturned the tribal reading of "neighbor." Loving only people who love y
 - The rival coach trash-talked our bench and I typed a reply that would've felt great for five minutes - I closed the app and prayed instead.
 - My neighbor's honking got under my skin and I almost left a nasty note - I baked cookies instead and asked if everything was okay.
 - The clerk was rude at the return counter and I wanted to match it - I said thanks and walked out, same as I want when I'm having a bad day.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -44,6 +47,7 @@ Jesus overturned the tribal reading of "neighbor." Loving only people who love y
 | alternative | [[Turn the Other Cheek]] | Enemy-love vs non-retaliation when the moment is personal insult |
 | contradicts | [[The Golden Rule]] | when I wait for fair treatment before I act |
 | extends | [[Free Grace]] | You love enemies because God loved you first with free grace toward the unjust |
+| extends | [[Mercy]] | Blessing persecutors is mercy shaped like the Father's |
 
 ## See also
 

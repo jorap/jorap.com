@@ -29,6 +29,8 @@ aliases: ["greatest commandment"]
 ---
 **Love God** = the greatest commandment Jesus named: love the Lord with all your heart, soul, mind, and strength (Matthew 22:37-38).
 
+## Key Concept
+
 When a scribe asked which commandment was first, Jesus quoted Deuteronomy 6:5 - whole-person devotion, not a corner of the week. Heart (affections), soul (will and life), mind (thought), strength (effort). Under [[Free Grace]], this is the first call on a life already saved by faith - love flowing from grace received, not love offered as payment for eternal life.
 
 ## Examples
@@ -37,6 +39,7 @@ When a scribe asked which commandment was first, Jesus quoted Deuteronomy 6:5 - 
 - Sunday worship felt high but I hadn't opened my Bible since last week - loving God means more than one hour in a pew.
 - I put the phone down before bedtime stories - heart and mind get God before the scroll.
 - Five minutes with God before the commute beats treating Sunday like the whole deposit.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

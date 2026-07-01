@@ -25,12 +25,17 @@ aliases: []
 ---
 **Strategic foresight** = look past today's win to what the landscape looks like after others react.
 
+## Key Concept
+
+Strategic foresight is looking past the immediate move to what the board will look like in six months.
+
 ## Examples
 
 - The club signed a young backup keeper before the starter's contract year - foresight looks past this Saturday's win to next season's roster crunch.
 - The café added two high chairs before rainy-season families showed up - not only tables for today's lunch crowd.
 - You don't buy a two-seat car the year before twins arrive - the board after everyone reacts to your life, not just today's trunk test.
 - Our condo board started the elevator fund three years before the quote arrived - looking past tonight's quiet ride to what the building looks like in six months.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

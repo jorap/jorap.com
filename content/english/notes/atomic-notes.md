@@ -29,9 +29,11 @@ draft: false
 ---
 **Atomic notes** = one claim I'd say out loud - too many `and`s, split it.
 
+## Key Concept
+
 **Rule of thumb:** one thing I'd cite in conversation - "why middle-click saves tab chaos" is atomic; "browser tips and meeting notes" is not.
 
-Small notes stack like Lego blocks - claim, how-to, example - linked, not merged. Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing. If I need headings inside one file, I probably need two notes. Faith parallel: [[Let Your Yes Be Yes]] - say one plain thing; let your yes be yes.
+Small notes stack like Lego blocks - linked, not merged. Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing. If I need headings inside one file, I probably need two notes. Faith parallel: [[Let Your Yes Be Yes]] - say one plain thing; let your yes be yes.
 
 ## Examples
 
@@ -39,6 +41,7 @@ Small notes stack like Lego blocks - claim, how-to, example - linked, not merged
 - "How we hand off the closing shift" is one claim; "closing checklist and vendor call list" is two - split them.
 - "Why lunch boxes get packed the night before" is atomic; "lunch packing and homework folder tips" is not - link the second idea elsewhere.
 - "Where we meet if the elevator is out" is one claim; "elevator outage and parking-gate codes" is two - split and wikilink.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

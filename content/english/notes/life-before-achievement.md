@@ -25,6 +25,8 @@ aliases: ["life over achievement", "no achievement justifies death risk"]
 ---
 **Life before achievement** = human life stays a non-negotiable constraint - even when the goal is a championship, team unity, or a reputation for toughness.
 
+## Key Concept
+
 Those goals have value only while the methods used to reach them respect safety. When an activity offers limited benefit but carries an avoidable risk of irreversible harm, leaders choose the safer course.
 
 ## Examples
@@ -33,6 +35,7 @@ Those goals have value only while the methods used to reach them respect safety.
 - The coach canceled cliff-jump team-building when the park picnic hit bonding without a credible broken-leg risk - unity doesn't require a stunt.
 - The school canceled the cliff-jump field trip when the park picnic hit the same bonding goal without a credible risk of a broken leg.
 - The scout leader picked the flat trail hike instead of the ridge walk when both got the badge and only one had a drop with no guardrail.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

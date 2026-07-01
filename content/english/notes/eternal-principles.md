@@ -15,12 +15,16 @@ aliases: ["Jesus teachings", "gospel principles"]
 ---
 **Eternal principles** = what Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first.
 
+## Key Concept
+
 I split them into one-claim notes so I can link and drill them like the rest of the garden. The ground is [[Free Grace]]: eternal life is God's gift by faith in Christ, not works. These principles aren't the price of heaven. They're how I try to live once I've already received it.
 
 Start at [[Free Grace]] if the order matters. Then wander by section below. Gospel spine notes carry six review cards each - drill at [/notes/review/](/notes/review/) and filter by **Eternal Principles** (full deck), **Faith**, **Commandments**, **Ethics**, **Prayer**, **Priorities**, or **Discipleship** to match each section.
 
 ## Theological basis
 
+- [[Grace]] - God's unmerited favor; gives good I never earned
+- [[Mercy]] - compassion on the guilty; withholds punishment I deserve
 - [[Free Grace]] - salvation by faith, not works; principles follow, they don't pay the fare
 - [[Justification]] - declared righteous at faith; finished before the walk catches up
 - [[Sanctification]] - becoming holy over time; grateful growth after the verdict
@@ -69,6 +73,7 @@ Start at [[Free Grace]] if the order matters. Then wander by section below. Gosp
 
 ## Character and witness
 
+- [[Fruits of the Spirit]] - love through self-control; character the Spirit grows when I walk by the Spirit
 - [[Discipleship]] - following Jesus after faith; learn, obey, pass it on - not salvation's price tag
 - [[Humility and Service]] - serve the team; wash feet, don't grasp status
 - [[Let Your Light Shine]] - visible good works so others see and glorify God, not you
@@ -111,6 +116,7 @@ Same ideas show up in my PKM notes. I wired the pairs below so the faith cluster
 | [[Great Commission]] | [[Creative Output]] | Truth shared - not hoarded in the garden |
 | [[Discipleship]] | [[Process Over Outcomes]] | Daily following beats a one-time hero sprint |
 | [[Abide in Me]] | [[Compounding]] | Fruit from connection over time - not self-power alone |
+| [[Fruits of the Spirit]] | [[Self-Control]] | Spirit-produced character vs general restraint skill |
 | [[Childlike Faith]] | [[Getting Started]] | Beginner posture - receive the guide, don't perform expertise you don't have |
 | [[Ask Seek Knock]] | [[Periodic Knowledge Review]] | Keep asking on rhythm - review loop, not one cram session |
 | [[The Beatitudes]] | [[Evergreen Notes]] | Character that matures over years, not fleeting capture |

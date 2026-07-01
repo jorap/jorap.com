@@ -21,12 +21,17 @@ aliases: []
 ---
 **Reliability** = others can plan around you because you close loops, hit deadlines, and show up the same way twice.
 
+## Key Concept
+
+Reliability is doing what you said, when you said, often enough that others can plan around you.
+
 ## Examples
 
 - The friend who shows at 7:00, not "around seven," is who you call for carpool in a crisis - my kid's coach sends the schedule every Monday.
 - The plumber who says Tuesday at 9 and actually shows is who you call when the leak spreads - not the loudest ad.
 - My kid's coach sends the schedule every Monday and doesn't ghost when it's rain practice - yes means yes.
 - The neighbor who picks up mail every day you're away is the one I'd trust with a spare key.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

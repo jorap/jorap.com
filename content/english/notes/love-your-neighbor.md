@@ -29,7 +29,9 @@ aliases: ["second commandment"]
 ---
 **Love your neighbor** = the second commandment like the first: love others as yourself (Matthew 22:39, Mark 12:31).
 
-Jesus lifted Leviticus 19:18 to equal rank with loving God. The parable of the Good Samaritan (Luke 10) reframes the question - not "who counts?" but "who acted as neighbor?" The standard is the care you'd want if you were hurt on the road. Free grace doesn't erase the command - it frees me to love without keeping score for salvation.
+## Key Concept
+
+Jesus lifted Leviticus 19:18 to equal rank with loving God. The parable of the Good Samaritan (Luke 10) reframes the question - not "who counts?" but "who acted as neighbor?" The standard is the care you'd want if you were hurt on the road. [[Mercy]] shows up in the body - bandage, ride, cost covered. [[Free Grace]] doesn't erase the command - it frees me to love without keeping score for salvation.
 
 ## Examples
 
@@ -37,6 +39,7 @@ Jesus lifted Leviticus 19:18 to equal rank with loving God. The parable of the G
 - The neighbor I'd rather avoid lives two doors down and his trash bins are always in my way - Jesus asked whether I'm acting like a neighbor, the way I'd want if I were stuck.
 - The kid down the street breaks our fence latch weekly - I fixed it again because I'd want someone to do that if our dog kept escaping.
 - The woman dropped her bags at the elevator - I held the door and carried one up because I'd want that if I were her.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
@@ -45,6 +48,7 @@ Jesus lifted Leviticus 19:18 to equal rank with loving God. The parable of the G
 | extends | [[Create Regular Connection]] | Neighbor-love shows up in small repeated presence |
 | extends | [[Follow Their Lead]] | Love neighbor means entering their world before I redirect |
 | extends | [[Free Grace]] | Grace frees you to love neighbors without keeping score for salvation |
+| extends | [[Mercy]] | Neighbor-love shows mercy to the person in front of me |
 | extends | [[Listen Before Fixing]] | Care I'd want includes being heard before being fixed |
 
 ## See also

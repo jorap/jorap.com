@@ -29,6 +29,8 @@ aliases: ["non-retaliation", "resist not evil"]
 ---
 **Turn the other cheek** = when someone strikes or insults you, don't return the same - break the cycle of retaliation (Matthew 5:38-39).
 
+## Key Concept
+
 Jesus rejected the limit of "eye for eye" as a personal ethic for disciples. The point isn't passivity toward all evil - it's refusing to become what hurt you. Same logic as [[Sunk Cost Fallacy]]: stop throwing more anger after sunk hurt. Goes further than [[The Golden Rule]] (proactive good) and pairs with [[Love Your Enemies]] (heart posture). [[Free Grace]] frees me to absorb cost without keeping score for heaven.
 
 ## Examples
@@ -37,6 +39,7 @@ Jesus rejected the limit of "eye for eye" as a personal ethic for disciples. The
 - Trash talk after the whistle and I wanted the last word - turn the other cheek is refusing to become the player who has to win every exchange.
 - A customer snapped over a wait time and I felt the perfect comeback forming - non-retaliation is absorbing without escalating the cycle.
 - Someone snapped at me in the school pickup line and I spent the drive home drafting the comeback - turning the cheek isn't pretending it didn't hurt; it's not mirroring evil.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

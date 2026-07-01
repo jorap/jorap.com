@@ -21,6 +21,8 @@ aliases: ["learn from failure"]
 ---
 **Convert pain into learning** = failure becomes useful only when it produces correction.
 
+## Key Concept
+
 Reflect on what happened, pull out the lesson, design a better response, and test it the next time the situation shows up - rumination without change is just suffering.
 
 ## Examples
@@ -29,6 +31,7 @@ Reflect on what happened, pull out the lesson, design a better response, and tes
 - I missed the turn twice on the new commute - one note on where the sign hides, tested next Monday, rumination without change would've just been suffering.
 - A basketball team watches film after a loss - not to wallow, but so the next game is cleaner.
 - My kid failed the spelling test and we didn't just sigh - we pulled the missed pattern and drilled those ten words before the retake.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

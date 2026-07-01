@@ -25,6 +25,8 @@ aliases: ["MVP"]
 ---
 **Minimum viable product** = the smallest thing I can ship that tests the idea - not a polished fantasy.
 
+## Key Concept
+
 I'd rather publish a rough note or prototype and learn than polish in private for months.
 
 Client work: [[Selling Static Sites]] is the same loop - one pilot site on [[Free Tier Hosting Stack]] before I package tiers and upsells.
@@ -35,6 +37,7 @@ Client work: [[Selling Static Sites]] is the same loop - one pilot site on [[Fre
 - I posted a rough neighborhood watch signup before buying printed flyers - four replies told me if anyone cared.
 - We ran one new play in scrimmage before printing playbooks for the whole league - learned more in forty minutes than another week of polish.
 - The baker sold one test batch of sourdough before remodeling the display case - customers told her what to fix.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

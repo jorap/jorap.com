@@ -25,6 +25,8 @@ aliases: ["Garage Concept"]
 ---
 The garage holds tools, scraps, experiments. The showroom is the blog. I don't confuse the two.
 
+## Key Concept
+
 Client handoff uses the same split: [[Selling Static Sites]] workshop in my drafts; the client's deploy branch is the showroom on [[Free Tier Hosting Stack]].
 
 ## Examples
@@ -33,6 +35,7 @@ Client handoff uses the same split: [[Selling Static Sites]] workshop in my draf
 - The back kitchen holds experiments; the dining room plate is what's approved to leave - I don't confuse workshop with showroom.
 - The practice film library is messy; the highlight reel for parents is one clean cut - garage holds scraps, showroom shows the finished piece.
 - The garage holds half-finished projects and sawdust; the front porch shows the one bench I'd invite a neighbor to sit on.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

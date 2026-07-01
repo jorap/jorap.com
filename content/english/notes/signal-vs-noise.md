@@ -29,12 +29,17 @@ aliases: []
 ---
 Most content is noise. PKM fails if capture doesn't filter. I save signal - stuff that changes action or belief. Faith parallel: [[Seek the Kingdom First]] - God's reign gets first place; everything else is judged against that filter.
 
+## Key Concept
+
+I save only what changes what I do or believe this month - most content is noise.
+
 ## Examples
 
 - The trade-rumor thread was loud all week - signal was the one injury note that actually changed our lineup; the rest I admired and skipped.
 - The dentist waiting room had a stack of magazines - if it won't change what I do this month, headline only, no mental slot.
 - Three parenting hacks saved this week - I kept the one that changes bedtime this month and skipped the rest for now.
 - Trending thread everyone bookmarks - noise unless it changes what I do or believe this month.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

@@ -25,6 +25,8 @@ aliases: ["Compound Interest"]
 ---
 **Compounding** = repeat small gains until they stack - keep showing up; the curve looks flat until it doesn't.
 
+## Key Concept
+
 Borrowed from finance, but it applies anywhere today's gain makes tomorrow easier: notes linked over years, publish cadence, vocab drills. Heroic weeks feel good; boring repetition wins. The first months look like nothing - that's the trap. Faith parallel: [[Abide in Me]] - fruit from staying connected over time, not self-generated effort alone. [[Eternal Rewards]] - the Father repays daily faithfulness over years, not a lump-sum merit binge that buys heaven. [[Loss of Reward]] is the other side: a bad season shrinks reward, it doesn't erase [[Free Grace]].
 
 ## Examples
@@ -33,6 +35,7 @@ Borrowed from finance, but it applies anywhere today's gain makes tomorrow easie
 - A line cook fixes one prep station flaw every Monday - small upgrades daily, not one yearly overhaul that never sticks.
 - My kid's piano practice looked pointless for a year - three songs a week, same scales, then year two the pieces started linking and suddenly she was playing music.
 - Our family morning checklist grew one line per forgotten backpack - six months later school mornings were boring in a good way because the small fixes stacked.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

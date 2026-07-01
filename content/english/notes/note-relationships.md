@@ -29,6 +29,8 @@ aliases: ["link types", "Link Typing"]
 ---
 **Note relationships** = four pair types in a body table - extends, contradicts, implements, alternative - so the graph shows how ideas push and pull. **Hub/MOC pages** use `note_kind: index` in frontmatter (not a row). **Utility pages** use `note_kind: meta` - link by URL, not wikilink.
 
+## Key Concept
+
 | Type | Question | Example |
 |------|----------|---------|
 | **extends** | What does this build on? | [[Signal vs Noise]] extends [[Capture]] |
@@ -36,7 +38,7 @@ aliases: ["link types", "Link Typing"]
 | **implements** | What makes this real? | [[Weekly Review Checklists]] implements [[Periodic Knowledge Review]] |
 | **alternative** | What else could do this job? | [[Mobile Capture Workflows]] alternative to [[Analog Capture Tools]] |
 
-Every atomic note (`note_kind: note`, the default) carries opening prose, optional **## Examples** (four concrete scenes - sports, non-technical work, home with children, real world), and a **## Note Relationships** table sorted by type: **alternative**, **contradicts**, **extends**, **implements**. At minimum: **extends** and **contradicts**, wikilinked, each with a **Reason** (what this builds on; a **when** clause on contradicts). Add **implements** and **alternative** when they fit. Broken wikilinks to obvious missing notes are fine - they flag future pages. "Pairs with" in older notes means informal extends. Pipeline order (capture → distill → express) is prose, not a fifth type.
+Every atomic note carries a one-breath **definition**, **## Key Concept**, optional **## Examples**, and a **## Note Relationships** table sorted by type. At minimum: **extends** and **contradicts**, wikilinked, each with a **Reason**. Broken wikilinks to obvious missing notes are fine - they flag future pages.
 
 ## Examples
 

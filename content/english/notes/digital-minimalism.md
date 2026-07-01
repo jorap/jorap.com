@@ -25,12 +25,17 @@ aliases: []
 ---
 **Digital minimalism** = fewer apps, fewer sync layers, fewer notifications - my PKM got better when I stopped collecting tools. Overlap with [[Treasure in Heaven]]: less earthly accumulation, clearer allegiance. Political feeds are the same trap - [[Christianity and Politics]] and [[Signal vs Noise]] keep the scroll from replacing prayer.
 
+## Key Concept
+
+Fewer apps and less syncing. My PKM got better when I stopped collecting tools.
+
 ## Examples
 
 - We dropped the second gym bag and the backup jump rope - fewer things means I actually know where the one working pair of shoes lives.
 - We dropped the second diaper bag, the backup stroller, and the junk drawer of chargers - fewer things means I actually know where the one working cable lives.
 - Same reason I keep one capture path instead of five apps - my PKM got better when I stopped collecting tools.
 - The front desk runs one scheduling app, not four - fewer sync layers means fewer places patient reminders get lost.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

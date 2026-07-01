@@ -29,6 +29,8 @@ aliases: ["bema seat", "bema", "judgment seat of Christ"]
 ---
 **Judgment seat** = believers stand before Christ after salvation to have their works evaluated for reward - what lasts gets repaid, what was worthless burns; eternal life was already settled by faith (2 Corinthians 5:10; 1 Corinthians 3:12-15).
 
+## Key Concept
+
 [[Free Grace]] and [[Justification]] already decided where I spend forever. The judgment seat (Greek *bema* - think awards podium, not criminal court) decides what reward faithful living earned. [[Eternal Rewards]] names the promise; this note names the evaluation. [[Wood Hay Stubble]] names what burns vs lasts at the fire test. [[Faithful Steward]] is the parable shape: well done for faithful use, not re-buying eternal life. [[Secret Devotion]] and [[Let Your Light Shine]] both show up in the ledger - hidden and public obedience counted by Christ, not the audience. [[Loss of Reward]] keeps the categories straight: saved through fire with loss, not unsaved. PKM mirror: [[Periodic Knowledge Review]] - the whole history gets reviewed, not one heroic week mistaken for the whole career.
 
 ## Examples
@@ -37,6 +39,7 @@ aliases: ["bema seat", "bema", "judgment seat of Christ"]
 - Years of church service felt like my ticket in - what gets weighed is faithful obedience after salvation, not a re-trial on who gets eternal life.
 - Wood-hay-stubble week and dread like I'm fake - saved, but some work burns; standing on Christ stays, reward may shrink ([[Loss of Reward]]).
 - One mission trip I treat as my whole report card - Christ reviews a whole life of faithfulness, including the quiet Tuesday nobody clapped for.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

@@ -21,6 +21,8 @@ aliases: ["static site freelance", "client static sites"]
 ---
 **Selling static sites** = I charge for the build and handoff; hosting runs on [[Free Tier Hosting Stack]] until traffic, build count, or client policy forces a paid plan.
 
+## Key Concept
+
 My margin is labor, not hosting markup. I already run [jorap.com](/) on Hugo, GitHub, and Cloudflare Pages for about the cost of a domain - not the $12/month PHP plan I used to share with a client. Client work uses the same lane: markdown content, a theme, git push, live in about ninety seconds. I quote work that moves the needle; I don't resell "hosting" as a monthly mystery fee.
 
 **What I quote:** discovery and [[Static Site Client Scope]] yes/no before I touch a theme; repo plus Cloudflare setup with `HUGO_VERSION` and `NODE_VERSION` pinned; theme and layout; content migration and contact form; handoff priced separately from retainer updates. Domain (~$12/year) and free hosting stay visible in the proposal - I'm not hiding Cloudflare to mark up server rent.
@@ -38,6 +40,7 @@ My margin is labor, not hosting markup. I already run [jorap.com](/) on Hugo, Gi
 - I almost bundled monthly "hosting" like my old PHP days - pitch is faster site, lower ongoing cost, paid once for work that matters.
 - First paid client before the three-tier pricing PDF - learned migration takes longer than theme tweaks; adjusted the next quote.
 - Client asked if I could "just host it like before" - plain yes: free tier on Cloudflare, you buy the domain, I charge for build and handoff.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

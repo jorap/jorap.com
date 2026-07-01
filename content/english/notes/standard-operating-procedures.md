@@ -21,12 +21,17 @@ aliases: ["SOPs"]
 ---
 **Standard operating procedures** = short written steps for work that repeats - deploys, incidents, onboarding - so the team doesn't improvise when the clock is loud.
 
+## Key Concept
+
+SOPs are simple written steps for recurring work - so nobody improvises under stress.
+
 ## Examples
 
 - The closing routine after every match - ice, tape, log the injury - lives on the locker-room whiteboard so nobody improvises when everyone's exhausted.
 - The restaurant opening checklist lives on a clipboard because memory fails when the door unlocks at eleven.
 - Guests were already seated when the new cook ran the sauce steps off the card - same as a recipe when you can't invent under pressure.
 - The building guard walks the posted evacuation route he practiced on quiet shifts - written steps when the alarm trips loud.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

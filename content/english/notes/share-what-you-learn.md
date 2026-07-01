@@ -25,6 +25,8 @@ aliases: ["teach what you know", "knowledge sharing at work"]
 ---
 **Share what you learn** = pass on what you figured out - write the doc, do the handoff, answer the junior's question - don't hoard know-how like private bookmarks.
 
+## Key Concept
+
 Client sites: the one-page [[Client Site Handoff]] doc (repo, branch, DNS, env vars) is [[Share What You Learn]] in practice - not launch-and-vanish.
 
 A garden full of notes nobody reads is the same failure mode as a team where only one person holds the map. Gospel source: [[Great Commission]]. PKM parallel: [[Creative Output]] - truth and skill shared, not stockpiled.
@@ -35,6 +37,7 @@ A garden full of notes nobody reads is the same failure mode as a team where onl
 - I almost moved on after a week wrestling school forms - share what you learn was the sticky note on the fridge so my spouse didn't start from zero.
 - The veteran keeper showed the rookie where to stand on corners - twenty minutes now so she's not guessing on match day.
 - The electrician labeled every breaker in the panel for whoever comes next - twenty minutes now, no guessing later.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

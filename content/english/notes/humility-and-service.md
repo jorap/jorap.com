@@ -29,6 +29,8 @@ aliases: ["servant leadership", "the last shall be first"]
 ---
 **Humility and service** = Jesus taught that whoever wants to be great must be servant of all - the Son of Man came not to be served but to serve (Matthew 23:12, Mark 10:43-45).
 
+## Key Concept
+
 He washed feet the night before the cross. Status in the kingdom runs opposite to the world's ladder: exalt yourself and you'll be humbled; humble yourself and you'll be exalted. Service is the path to kingdom reward and greatness before God - not the price of [[Free Grace]]. [[Faithful Steward]] is the parable shape: well done for faithful use of what He entrusted.
 
 ## Examples
@@ -37,6 +39,7 @@ He washed feet the night before the cross. Status in the kingdom runs opposite t
 - I organized snacks for my kid's basketball team on Sunday and came home expecting my family to serve me back - wash feet here too, not only where people can see you.
 - I stayed late to cover a shift and expected praise all week - humility and service is the world's ladder upside down; the last shall be first.
 - I served at church on Sunday and came home expecting my family to serve me back - that's the world's ladder, not Jesus'.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

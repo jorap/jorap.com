@@ -25,6 +25,8 @@ aliases: ["MED"]
 ---
 **Minimum effective dose** = the smallest change that still moves the needle - not the heroic overhaul.
 
+## Key Concept
+
 I borrowed it from medicine: enough to work, not more than needed. Applies to PKM habits, fitness, and side projects. More input past the dose is noise. Same shape in [[Free Grace]] and [[Justification]]: faith is the minimum sufficient act for eternal life - not zero response, not a lifetime of merit stacked on top.
 
 ## Examples
@@ -33,6 +35,7 @@ I borrowed it from medicine: enough to work, not more than needed. Applies to PK
 - The coach added one footwork drill before buying new shoes - small dose, daily reps, feet learned faster than gear ever did.
 - The barista trainer had her repeat one steam motion instead of rebuilding the whole menu that week.
 - One notebook by the door beat rebuilding the whole capture system again - enough to work, not more than needed.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

@@ -1,7 +1,7 @@
 {{- $ctx := .Context -}}
 {{- $active := .active | default "" -}}
 {{- $noteCount := len (partial "notes/pages.html" $ctx) -}}
-{{- $issueData := partialCached "notes/collect-note-issues.html" site "note-issues-v7" -}}
+{{- $issueData := partialCached "notes/collect-note-issues.html" site "note-issues-v8" -}}
 {{- $issueTotal := add (add $issueData.brokenCount $issueData.unlinkedCount) $issueData.structureCount -}}
 <div class="notes-toolbar mb-6 flex flex-wrap items-center gap-2 xl:gap-3">
   <a

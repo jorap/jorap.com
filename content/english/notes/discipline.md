@@ -21,12 +21,17 @@ aliases: []
 ---
 **Discipline** = doing what you said you'd do when motivation, mood, or applause aren't there to push you.
 
+## Key Concept
+
+Discipline is keeping the commitment when the feeling that started it is gone.
+
 ## Examples
 
 - I write on schedule whether the post feels brilliant - doing what I said I'd do when applause isn't pushing me.
 - A marathon isn't won on race-day adrenaline - it's won on rainy Tuesday runs nobody films.
 - The baker opens at 4am whether she's inspired or not - discipline is the shift she committed to when motivation wasn't there.
 - Discipline is loading the dishwasher when I'd rather scroll - same as brushing teeth when you're already late.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

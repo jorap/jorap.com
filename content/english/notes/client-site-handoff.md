@@ -21,6 +21,8 @@ aliases: ["site handoff", "client publish path"]
 ---
 **Client site handoff** = after [[Selling Static Sites]] build, one clear path for who publishes next - priced and named in the proposal before deposit.
 
+## Key Concept
+
 Pick exactly one primary model with [[Plain Commitments at Work]] - not "we'll figure it out at launch."
 
 **Git lesson** - client gets repo access plus a short doc ([[Getting Started]] shape: edit markdown, commit, push). Fits owners who want control and won't panic at a terminal. **Retainer** - they email copy or photos; I push on a batch schedule. Price per update batch, not fake monthly hosting. **Showroom branch** - [[The Garage Concept]]: my experiments stay off their deploy branch; what they see is clean.main only. **[[Git-Based CMS]]** - when Git lesson won't land but scope still fits static; quote CMS setup separately.
@@ -35,6 +37,7 @@ Deliver a one-page handoff doc: repo URL, Cloudflare project, env vars, domain D
 - Pastor emails bulletin PDF every Friday - retainer batch, one push, no CMS layer needed.
 - I kept client experiments on a draft branch - showroom main stayed clean; garage mess never hit their live site.
 - Client assumed "hosting included unlimited edits" - should have been retainer line item; fixed on client two with plain scope up front.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

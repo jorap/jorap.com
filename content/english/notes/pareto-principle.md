@@ -39,6 +39,8 @@ draft: false
 ---
 **Pareto principle** = most results come from a small slice of work - find the slice, protect it, cut the rest.
 
+## Key Concept
+
 Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand, not a law). I use it when my reading list, task board, or note tags all feel equally important: which few actually moved the needle? Same rule for flashcards: only spine notes carry `review: true` here - PKM habits plus six [[Eternal Principles]] with cards, not every faith note in the garden. Cards ask what I'd *do*, not what I'd *define*.
 
 ## Examples
@@ -47,6 +49,7 @@ Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand
 - The bakery had six daily specials and sold two consistently - we cut to those two and waste dropped.
 - Last month six activities, skipped three nights - trimmed to two, suddenly showing up instead of guilt-driving past canceled plans.
 - My reading pile had forty tabs - the five that moved work got Sunday morning, the rest got deleted.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

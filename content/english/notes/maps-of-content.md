@@ -15,6 +15,10 @@ aliases: ["MOC", "Table of Contents"]
 ---
 **Maps of Content (MOCs)** are hub notes that index related ideas. Use this page to wander the garden.
 
+## Key Concept
+
+A MOC is a curated index of notes on a topic - a table of contents I write by hand.
+
 ## Maps
 
 ### Foundations

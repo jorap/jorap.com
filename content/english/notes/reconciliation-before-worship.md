@@ -29,6 +29,8 @@ aliases: ["leave your gift at the altar"]
 ---
 **Reconciliation before worship** = if your brother has something against you, go reconcile first - then come offer your gift (Matthew 5:23-24).
 
+## Key Concept
+
 Jesus elevates restored relationship over religious performance. Worship with an unreconciled heart is hollow. The initiative is on the one who knows there's a breach - leave the altar, go, be reconciled, then return. This is fellowship restored, not salvation re-earned: [[Free Grace]] already settled my standing before God ([[Standing vs Fellowship]]). Same discipline as [[Note Relationships]] in the garden: broken links between notes need typed repair - broken links between people need face-to-face repair first.
 
 ## Examples
@@ -37,6 +39,7 @@ Jesus elevates restored relationship over religious performance. Worship with an
 - I walked into the volunteer shift ready to serve while my co-worker still had something against me - five minutes in the parking lot first.
 - I walked into church ready to sing while my brother still had something against me - leave the gift, go fix it, then come back.
 - I arrived at the family reunion ready to mingle while my sister was still cold from last month - one honest conversation before the group photo.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

@@ -25,12 +25,17 @@ aliases: ["12 Week Year"]
 ---
 Twelve-week years compress annual goals into quarters I actually feel. I map wiki projects to 12-week arcs.
 
+## Key Concept
+
+Twelve-week arcs compress goals into review quarters you actually feel ([[Periodic Knowledge Review]]). Tension with [[Slow Productivity]] when quarterly intensity beats fewer deeper projects.
+
 ## Examples
 
 - "Fix our free-throw rate" lived as a someday goal until I gave it twelve weeks and a scoreboard on the locker - week ten finally bit.
 - "Hire and train" was vague until the twelve-week arc had weekly numbers - the quarter I actually feel, not January 1st fiction.
 - The wiki refactor got a twelve-week arc instead of "when I have time" - compressed goal I could see closing.
 - I'd been treating "clear the garage" like a someday project - twelve weeks and a fridge scoreboard; week ten the boxes finally moved.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

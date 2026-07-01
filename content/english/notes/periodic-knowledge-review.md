@@ -25,12 +25,17 @@ aliases: []
 ---
 Notes rot without review. I calendar weekly and quarterly passes - inbox, projects, evergreens. Faith parallel: [[Ask Seek Knock]] - same rhythm of showing up on schedule, not only when desperate.
 
+## Key Concept
+
+Notes rot without review - calendar weekly and quarterly passes for inbox, projects, evergreens.
+
 ## Examples
 
 - The clinic reviews charts every Friday at four - not only when a complaint lands.
 - I calendar thirty minutes Sunday to clear the bowl by the door and check the family calendar - chores rot when I only tidy in panic.
 - First Sunday I reconcile the budget - not only when the card gets declined mid-commute.
 - The basketball team watches film every Monday, win or lose - not only after a blowout.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

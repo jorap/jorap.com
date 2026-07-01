@@ -21,6 +21,8 @@ aliases: ["static site fit", "what static sites can do"]
 ---
 **Static site client scope** = jobs that fit [[Free Tier Hosting Stack]]: mostly text and images, published by git push or by me on retainer - not live databases, shopping carts, or teams that need a WordPress admin without training.
 
+## Key Concept
+
 Scope the sales call before I quote [[Selling Static Sites]]. **Good fits:** portfolio, org brochure, small business presence, project docs, blog where owner learns Git or pays retainer. **Bad fits:** e-commerce you host, member login, booking engines, five daily non-technical editors with no retainer. Redirect honestly to Shopify, WordPress, or a dynamic stack. [[Outcomes Over Pitch Decks]] - pick by fruit, not by what I want to sell.
 
 **Before I quote, ask:** who updates content and how often? Anything private behind login? Real-time database changes? Cart or checkout I must host? What if I'm unavailable a month? Two or more dynamic yes answers → not this stack. [[Plain Commitments at Work]]: say no in the room, not after deposit.
@@ -35,6 +37,7 @@ Scope the sales call before I quote [[Selling Static Sites]]. **Good fits:** por
 - Client said "just like our old WordPress" but meant five daily editors - wrong tool; didn't pretend Hugo was WordPress.
 - Gym wanted class schedule from booking SaaS - embed the vendor widget; static shell around it was fine.
 - Sales call checklist caught login requirement - redirected before I quoted a build I'd regret.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

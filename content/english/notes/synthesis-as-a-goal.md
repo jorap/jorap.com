@@ -23,7 +23,11 @@ cards:
 draft: false
 aliases: ["Research Notes", "note taking for researchers"]
 ---
-Collecting quotes isn't PKM for me. Synthesis means merging sources into what I believe and can defend - often with [[First Principles Thinking]] when a note is still someone else's words.
+**Synthesis as a Goal** = merging sources into what I believe and can defend - not a quote collection.
+
+## Key Concept
+
+Collecting quotes isn't PKM for me. Synthesis is when learning starts - often with [[First Principles Thinking]] when a note is still someone else's words. The wiki holds borrowed lines; belief lives in prose I can ship.
 
 ## Examples
 
@@ -31,6 +35,7 @@ Collecting quotes isn't PKM for me. Synthesis means merging sources into what I 
 - Three recipe clippings sat on the fridge until I merged them into one dinner I actually cooked - collecting felt like work; synthesis is when learning started.
 - Quote-saved notes on productivity sat untouched until I wrote one page in my own words about how I capture - synthesis, not hoarding.
 - Five parenting articles became one rule on the fridge - merged into what we believe about screens, not a quote collection.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

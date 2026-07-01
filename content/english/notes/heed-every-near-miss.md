@@ -25,6 +25,8 @@ aliases: ["near miss investigation", "survival is not safety", "heed every near 
 ---
 **Heed every near-miss** = treat a close call as evidence the system nearly produced serious harm - not as proof the activity was safe because nobody died this time.
 
+## Key Concept
+
 When nobody gets injured, organizations often relax. The opposite read is usually right: the system failed, and luck blocked the worst outcome. A rescue, a panic incident, or a loss of control should trigger investigation and redesign before anyone runs the same activity again.
 
 ## Examples
@@ -33,6 +35,7 @@ When nobody gets injured, organizations often relax. The opposite read is usuall
 - A kid almost choked on the same team-building snack twice - heed the near-miss; luck isn't a control layer.
 - The toddler almost fell off the same chair twice - survival doesn't prove the setup is safe; fix the hazard before the third time.
 - A previous rescue during the same exercise is a warning to stop - not proof that the rescue team can keep handling it.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

@@ -29,6 +29,8 @@ aliases: ["house on the rock", "hear and do", "Wise Builder"]
 ---
 **The wise builder** = hear Jesus' words and do them - build on rock, not sand (Matthew 7:24-27).
 
+## Key Concept
+
 Both builders hear the sermon; only one obeys. Storms reveal which foundation held. Under [[Free Grace]], doing isn't what saves - faith saves - but genuine hearing produces action. [[Faith and Works]] names the order: works prove faith alive, they don't buy heaven. Empty "Lord, Lord" without doing the Father's will is the fool's house (Matthew 7:21-23) - see [[The Narrow Way]] and [[Loss of Reward]] for false profession vs believer who stumbles. PKM mirror: [[The Collector's Fallacy]] - hearing sermons and saving articles without [[Creative Output]] is sand; obedience and output are rock.
 
 ## Examples
@@ -37,6 +39,7 @@ Both builders hear the sermon; only one obeys. Storms reveal which foundation he
 - Safety training Monday, same shortcut Wednesday - wise builder hears and does; fool hears and nods.
 - I've heard the Sermon preached a dozen times and still gossiped on Tuesday like Monday's Bible study never happened.
 - Saved articles on sleep hygiene and still scrolled till 1 a.m. - hearing without doing is a sand house; obedience is rock.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

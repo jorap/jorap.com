@@ -33,6 +33,8 @@ aliases: ["CODE", "Frictionless Capture"]
 ---
 **Capture** = save what resonates into one inbox I trust - then empty it weekly.
 
+## Key Concept
+
 Friction kills capture. One inbox, phone to desktop, weekly process - same as [[The Trusted Inbox]]. If I wouldn't act on it or cite it later, it doesn't get saved. Resonance is the filter, not FOMO.
 
 ## Examples
@@ -41,6 +43,7 @@ Friction kills capture. One inbox, phone to desktop, weekly process - same as [[
 - A customer complaint gives me a fix idea mid-shift and I drop it in one inbox - no tagging yet, process it Friday when the spark is already saved.
 - On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it - one pocket notebook, no sorting yet.
 - A commute thought lands and I voice-memo it before the jeepney drowns it out - one trusted pipe, weekly review empties it.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

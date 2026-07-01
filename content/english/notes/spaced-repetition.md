@@ -29,6 +29,8 @@ aliases: ["SRS", "Spaced Repetition Systems", "Spaced Repetition Systems (SRS)"]
 ---
 **Spaced repetition** = review facts on a schedule before I forget - for recall, not whole essays.
 
+## Key Concept
+
 Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for. Whole essays don't belong on flashcards. The wiki holds understanding; Anki or SRS apps hold drill - separate lanes, algorithm handles timing. In this garden, spine notes (~20%, [[Pareto Principle]]) opt in with `review: true` - PKM habit prompts and [[Eternal Principles]] gospel cards share the same drill lane via `card_sets`. [[Ask Seek Knock]] is the faith-side version: keep asking on rhythm, not cram once.
 
 ## Examples
@@ -37,6 +39,7 @@ Vocabulary, definitions, scripture references - anything I'll be quizzed on or n
 - We drill the baseline out-of-bounds play five minutes before every practice - same little doses beat cramming it the night before a game.
 - The new hire's product codes live on a card by the register - five reps during slow shifts beat one frantic hour before the audit.
 - My kid's spelling list lives on the fridge; we hit five words while rice cooks - same little doses beat cramming the night before the quiz.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

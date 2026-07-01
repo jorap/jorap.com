@@ -29,6 +29,8 @@ aliases: ["blessed are", "Beatitudes"]
 ---
 **The Beatitudes** = eight blessings Jesus opened the Sermon on the Mount with - poor in spirit, mourners, meek, hungry for righteousness, merciful, pure in heart, peacemakers, persecuted (Matthew 5:3-12).
 
+## Key Concept
+
 "Beatitude" means supreme blessedness. Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not the self-sufficient - which fits [[Free Grace]] perfectly. "Poor in spirit" is bankruptcy before God, receiving the kingdom as gift rather than wage. Each line promises reward rooted in character shaped by grace, not self-made righteousness.
 
 | Trait | Promise |
@@ -37,7 +39,7 @@ aliases: ["blessed are", "Beatitudes"]
 | Mourning | Comfort |
 | Meek | Inherit the earth |
 | Hunger for righteousness | Filled |
-| Merciful | Obtain mercy |
+| Merciful | Obtain [[Mercy]] |
 | Pure in heart | See God |
 | [[Peacemakers]] | Called children of God |
 | Persecuted for righteousness | Kingdom of heaven |
@@ -48,12 +50,15 @@ aliases: ["blessed are", "Beatitudes"]
 - After a winning streak I caught myself feeling spiritually self-sufficient - Beatitudes start with poor in spirit, not the athlete who just had a perfect weekend.
 - I had a great weekend with the kids and felt spiritually full - Beatitudes flip the scoreboard toward the needy, not the dad who just had a perfect Saturday.
 - Promotion week had me feeling self-made - mourning and meekness aren't weakness; they're the posture Jesus blessed instead of the scoreboard I was reading.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Humility and Service]] | when pride masquerades as strength |
 | extends | [[Free Grace]] | The kingdom belongs to the spiritually needy who receive it as gift, not wage |
+| extends | [[Fruits of the Spirit]] | Kingdom character overlaps - meek, merciful, peacemakers meet the Galatians cluster |
+| extends | [[Mercy]] | Merciful obtain mercy - beatitude character Jesus blessed |
 
 ## See also
 

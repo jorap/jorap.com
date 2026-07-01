@@ -25,6 +25,8 @@ aliases: ["Sunk Cost"]
 ---
 **Sunk cost fallacy** = keeping a bad tool, project, or note because I already invested time - not because it still earns its place.
 
+## Key Concept
+
 Past effort is gone. I ask: if I found this today, would I start it? [[Forgiveness]] runs the same play on relational debt. [[Turn the Other Cheek]] adds the move: stop throwing more anger after sunk hurt.
 
 ## Examples
@@ -33,6 +35,7 @@ Past effort is gone. I ask: if I found this today, would I start it? [[Forgivene
 - The shop kept the broken POS because they'd paid the install fee - forward question only: would I buy this system fresh today?
 - I kept paying for a gym I hadn't entered since February - when I asked if I'd sign up today, the answer was no and I canceled in ten minutes.
 - We finished a board game nobody liked because we'd already played an hour - sunk cost was admitting we'd rather start a new one than lose another twenty minutes.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

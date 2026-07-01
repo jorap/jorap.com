@@ -21,6 +21,8 @@ aliases: ["rest protects judgment"]
 ---
 **Energy protects judgment** = fatigue hits more than muscles. It weakens patience, attention, restraint, and the quality of calls you make.
 
+## Key Concept
+
 Rest, prep, workload limits, and recovery aren't soft extras - they're part of performing responsibly under pressure.
 
 ## Examples
@@ -29,6 +31,7 @@ Rest, prep, workload limits, and recovery aren't soft extras - they're part of p
 - After three nights of bad sleep I almost sent a sharp email to a neighbor - I waited until morning and the whole thread looked different.
 - The club caps practice hours late in the season because tired legs slip - judgment is a motor skill too.
 - Hospitals limit surgeon hours because tired hands slip - recovery isn't optional luxury when the call has to land.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

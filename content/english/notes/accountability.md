@@ -25,12 +25,17 @@ aliases: []
 ---
 **Accountability** = clear ownership - who answers for the outcome, the miss, and the fix.
 
+## Key Concept
+
+Accountability is naming who owns the result - and what happens when it slips.
+
 ## Examples
 
 - The condo board didn't say "someone should fix the gate" - they named a contact and a deadline in the group chat before anyone drove off.
 - When homework didn't get turned in, we stopped saying "we forgot" and named who packs the folder each night - one kid, one job, no vague blame.
 - After we lost on a bad inbounds pass, the coach named who calls the play - not "the whole team messed up." One owner, one fix before the next possession.
 - After a patient mix-up, our charge nurse named who was running the code cart and who was documenting - not "everyone was involved." One owner, one timeline, one honest chart note before the shift ended.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

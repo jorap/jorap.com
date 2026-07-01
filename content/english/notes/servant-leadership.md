@@ -25,6 +25,8 @@ aliases: ["lead by serving"]
 ---
 **Servant leadership** = the person who wants to lead well makes the team win - unblocks, coaches, takes blame upward, shares credit downward.
 
+## Key Concept
+
 The corporate ladder rewards visibility; this principle runs the other way. Wash feet in the sprint, not only in the all-hands speech. Gospel depth: [[Humility and Service]]. I can explain this in a leadership book club without opening a sermon.
 
 ## Examples
@@ -33,6 +35,7 @@ The corporate ladder rewards visibility; this principle runs the other way. Wash
 - I got promoted and realized I'd been grabbing credit for work the team carried - servant leadership was my name off the slide and hers on the praise email.
 - The captain takes the extra fitness drill so the rookie gets the lighter session - servant leadership is her workload, not his highlight reel.
 - The head server took the worst section on Mother's Day and put the busser who saved the night on the thank-you board.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

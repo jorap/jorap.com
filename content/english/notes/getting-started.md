@@ -15,6 +15,8 @@ draft: false
 ---
 **Notes garden** = one claim per page, linked with `[[wikilinks]]`, browsable at [/notes/](/notes/).
 
+## Key Concept
+
 Public when `draft: false`; hidden while `draft: true`. Each note opens with a definition I can quote in one breath - the graph and backlinks do the organizing. Start at [[Maps of Content]] or walk through the steps below. Paid client sites use the same Hugo-plus-git lane - hub: [[Selling Static Sites]]. Faith parallel: [[Childlike Faith]] - beginner posture; receive the guide, don't perform expertise on day one.
 
 ## Note Relationships
@@ -24,11 +26,14 @@ Public when `draft: false`; hidden while `draft: true`. Each note opens with a d
 | contradicts | [[Maps of Content]] | when jumping into a hub beats reading onboarding first |
 | extends | [[Note Relationships]] | Getting started teaches the garden rules that note relationships formalize with typed links |
 | extends | [[Selling Static Sites]] | Same markdown-first Hugo workflow for paid client sites |
+
 ## Atomic rule
 
-**One note = one claim** I'd cite in conversation. Optional **## Examples** (up to five concrete scenes, ranked best-first) when the claim needs it; required **## Note Relationships** table (extends + contradicts at minimum, sorted by type). No other `##` sections - link out instead. See [[Atomic Notes]] and [[Note Relationships]].
+**One note = one claim** I'd cite in conversation. Opening line: **Term** = definition I can quote in one breath. **## Key Concept** (why it matters, stakes, distinctions, wikilinks) before examples. Optional **## Examples** (up to five concrete scenes, ranked best-first) when the claim needs it; required **## Note Relationships** table (extends + contradicts at minimum, sorted by type). No other `##` sections - link out instead. See [[Atomic Notes]] and [[Note Relationships]].
 
-**Examples** - plain bullets, no genre labels. Mid-action scenes I might hit this week: jeepney, clinic, group chat, bedtime, inbox. Each bullet shows the principle firing, not a definition restated.
+**Key concept** - not a second definition. The angle: what this note is for, how it differs from neighbors, where it lands in the graph. Often mirrors `description` in frontmatter but can carry wikilinks.
+
+**Examples** - plain bullets, no genre labels. Mid-action scenes I might hit this week: jeepney, clinic, group chat, bedtime, inbox. Each bullet shows the principle firing, not a definition or key concept restated.
 
 ## Create a note
 

@@ -25,12 +25,17 @@ aliases: []
 ---
 **Deep work** = long, uninterrupted focus on hard thinking - Cal Newport's term for the opposite of fragment.
 
+## Key Concept
+
+Protected focus blocks; [[Capture]] handles the rest ([[Capture]]). Tension with [[Mobile Capture Workflows]] when the opposite frame fits better.
+
 ## Examples
 
 - Phone in the drawer while I help with math - one problem set actually finished instead of three distracted false starts.
 - Phone in the gym bag for ninety minutes - one drill breakdown written that'd been "almost done" for weeks.
 - Door closed, notifications off for one patient chart review - the error I'd been rushing past finally showed up.
 - Phone in the drawer for ninety minutes - one note drafted that'd been "almost done" for weeks.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

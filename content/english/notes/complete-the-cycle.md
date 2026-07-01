@@ -21,6 +21,8 @@ aliases: ["close the loop"]
 ---
 **Complete the cycle** = work isn't finished when the main action ends.
 
+## Key Concept
+
 A meeting needs follow-up. A decision needs execution. A mistake needs correction. A task needs verification. The loop closes when the downstream work is done.
 
 ## Examples
@@ -29,6 +31,7 @@ A meeting needs follow-up. A decision needs execution. A mistake needs correctio
 - Parent-teacher night ended with "we'll email the action plan" - the recap went out before anyone left the parking lot, names, dates, who owns what.
 - We said we'd call the dentist back and forgot until Monday - closing the loop was booking the slot before we cleared the table.
 - The HOA meeting ended with vague follow-up - the summary email with owners and deadlines went out that night, not "someone will handle it."
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

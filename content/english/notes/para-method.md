@@ -29,12 +29,17 @@ aliases: ["PARA", "Organization", "The Archive Method", "Archive Method", "The A
 ---
 **[[PARA]]** is how I sort notes by life responsibility - not by topic alphabet soup. Four buckets, clear questions.
 
+## Key Concept
+
+PARA sorts notes by life responsibility - enough structure to find things, archive when done.
+
 ## Examples
 
 - Tournament folder on the bench with a deadline; off-season conditioning notes in the filing cabinet with no end date.
 - The science fair folder on the counter with a deadline; immunization records in the filing cabinet with no end date.
 - Science fair on the counter with a due date; immunization records in the cabinet with no end date - sorted by what owns it, not alphabet soup.
 - Tax envelope on the desk until April 15; car registration in the glove box year-round.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

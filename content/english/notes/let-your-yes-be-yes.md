@@ -29,6 +29,8 @@ aliases: ["truth telling", "simply let your yes be yes"]
 ---
 **Let your yes be yes** = speak plainly - no swearing oaths to make people trust you; let your word stand on its own (Matthew 5:33-37).
 
+## Key Concept
+
 Jesus deepened the law against false vows: disciples should be so truthful that extra oaths aren't needed. Anything beyond simple yes/no comes from evil - meaning manipulation, not that all contracts are sin. PKM parallel: [[Atomic Notes]] - one plain claim per page, no padded prose to sound smart. [[Integrity]] of speech is [[Heart Righteousness]], not performance for [[Let Your Light Shine]].
 
 ## Examples
@@ -37,6 +39,7 @@ Jesus deepened the law against false vows: disciples should be so truthful that 
 - I padded a deadline promise with extra assurances so they'd believe me - if my word needs spin to sound believable, the problem isn't the schedule, it's me.
 - I promised my kid six things in one breath to win the argument - let your yes be yes: one plain yes, no kitchen-sink speech.
 - I told the neighbor I'd watch their mail "cross my heart, absolutely" when yes or no would have stood alone - anything beyond simple yes/no is manipulation, not trust.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

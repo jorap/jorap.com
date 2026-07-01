@@ -21,12 +21,17 @@ aliases: []
 ---
 **Follow their lead** = I join their world before I redirect it - their activity, topic, pace, or starting point. I pay attention first. I can suggest a better way later; the first move is to see what matters to them, not to steer.
 
+## Key Concept
+
+I join their world before I redirect it - their activity, topic, pace, starting point.
+
 ## Examples
 
 - My teammate wanted to run a inbound play I'd never seen - I ran it once before I told him how I'd do it. Connection first, critique second.
 - A coworker walked me through how she tracks patient callbacks - I watched the whole spreadsheet before I offered to reorder her columns.
 - My kid invented new rules for a card game - I played their version instead of stopping mid-hand to teach "real" rules.
 - Coffee with a friend who needed to talk about her mother-in-law - I stayed on her thread instead of pivoting to my own week.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

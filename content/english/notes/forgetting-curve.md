@@ -21,12 +21,17 @@ aliases: []
 ---
 **Forgetting curve** = memory fades fast without review - Ebbinghaus curve spaced repetition fights.
 
+## Key Concept
+
+Named in notes that link here ([[Spaced Repetition]]). Tension with [[Progressive Summarization]] when the opposite frame fits better.
+
 ## Examples
 
 - I forgot half the new footwork cues by Friday until I drilled five on the wall chart before every practice.
 - Forgot half the vocab by Friday until I drilled five words on the fridge during rice.
 - I forgot the neighbor's gate code by the second visit until I saved it where I'd see it on errand day - memory fades fast without review.
 - The new cashier forgot half the codes by Friday until the trainer taped five on the register during slow shifts.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

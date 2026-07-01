@@ -29,7 +29,9 @@ aliases: ["speck and plank", "do not judge"]
 ---
 **Judge not** = don't condemn others as if you're their final judge - remove your own plank before nitpicking their speck (Matthew 7:1-5).
 
-Jesus forbids harsh, hypocritical condemnation - the kind that ignores my own guilt while magnifying yours. He doesn't forbid all moral discernment: the same sermon says judge trees by fruit (Matthew 7:16-20). Garden parallel: the [Issues](/notes/issues/) page lists broken wikilinks to fix - diagnose the graph, don't condemn the author. [[Free Grace]] reminds me I stood on mercy first.
+## Key Concept
+
+Jesus forbids harsh, hypocritical condemnation - the kind that ignores my own guilt while magnifying yours. He doesn't forbid all moral discernment: the same sermon says judge trees by fruit (Matthew 7:16-20). Garden parallel: the [Issues](/notes/issues/) page lists broken wikilinks to fix - diagnose the graph, don't condemn the author. [[Mercy]] and [[Free Grace]] remind me I stood on mercy first.
 
 ## Examples
 
@@ -37,12 +39,14 @@ Jesus forbids harsh, hypocritical condemnation - the kind that ignores my own gu
 - I spotted a coworker's missed step in five seconds and missed my own plank for a month - Jesus wasn't saying ignore sin; He was saying remove your plank first.
 - I nitpicked someone's parenting while mine was a mess - judge not is diagnose yourself first, don't condemn like you're their final judge.
 - I was about to quote a neighbor's failure online - who am I playing? Not their judge; I needed mercy first.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Humility and Service]] | when I critique others to elevate myself |
-| extends | [[Free Grace]] | You stood on mercy first, so you don't condemn others like you're their final judge |. Pairs with [[Ask Seek Knock]].
+| extends | [[Free Grace]] | You stood on mercy first, so you don't condemn others like you're their final judge |
+| extends | [[Mercy]] | Mercy received first keeps me from playing final judge over others |
 
 ## See also
 

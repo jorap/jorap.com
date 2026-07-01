@@ -25,12 +25,17 @@ aliases: ["GTD"]
 ---
 GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - here's how I use both without doubling admin.
 
+## Key Concept
+
+GTD runs my tasks. PARA runs my notes - cousins, not competitors.
+
 ## Examples
 
 - The fridge list holds what we buy this week; the filing cabinet holds school forms with no deadline - I stopped cramming groceries into the permanent folder.
 - My errand list is GTD; my garden notes are PARA - I use both without doubling admin.
 - The practice schedule lives in the task app; the playbook principles live in the notes folder - GTD runs tasks, PARA runs knowledge, cousins not competitors.
 - The shift board holds what we finish this week; the training binder holds forms with no deadline - same workplace, two systems.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

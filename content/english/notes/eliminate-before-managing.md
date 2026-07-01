@@ -25,6 +25,8 @@ aliases: ["elimination before controls"]
 ---
 **Eliminate before managing** = remove unnecessary danger before you stack procedures, warnings, supervision, and protective gear on top of it.
 
+## Key Concept
+
 Those safeguards can cut risk, but they still need correct human action every time. When a dangerous activity isn't required, swap it for a safer alternative and the failure never gets a chance to happen.
 
 ## Examples
@@ -33,6 +35,7 @@ Those safeguards can cut risk, but they still need correct human action every ti
 - Swap the wobbly ladder for a stable step stool - eliminate the fall hazard instead of adding three warning stickers and hoping someone reads them.
 - We stopped storing cleaners under the sink and moved them up high - remove the hazard before we trust a "don't touch" lecture every time.
 - Kill the reply-all thread by fixing the process that started it - strongest safety move is removing what shouldn't happen, not managing the same near-miss forever.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

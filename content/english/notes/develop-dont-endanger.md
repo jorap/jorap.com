@@ -25,6 +25,8 @@ aliases: ["challenge without endangering", "develop dont endanger"]
 ---
 **Develop, don't endanger** = push people hard enough to grow - not so hard that suffering replaces the actual skill you're trying to build.
 
+## Key Concept
+
 Hard alone doesn't make an exercise worth running. A demanding drill needs a clear purpose, a measurable benefit, qualified supervision, and defined safety limits. When pain becomes the point, leaders start treating harm like proof of growth.
 
 ## Examples
@@ -33,6 +35,7 @@ Hard alone doesn't make an exercise worth running. A demanding drill needs a cle
 - A conditioning set can build endurance - an uncontrolled water exercise adds lethal risk without improving sport-specific performance; pick the drill that develops the skill.
 - Swim lessons in the shallow end beat throwing a non-swimmer into deep water to "build toughness" - challenge without endangering.
 - The scout hike can build endurance on marked trails with water stops - not by sending kids off-trail in heat without a map.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

@@ -29,7 +29,9 @@ aliases: ["anger and lust", "heart sins"]
 ---
 **Heart righteousness** = God cares about the inner life, not only outward acts - anger is murder in the heart; lust is adultery in the heart (Matthew 5:21-30).
 
-Jesus didn't lower the law; he exposed its depth. "You have heard… but I say" moves righteousness from courtroom compliance to motive and imagination. Under [[Free Grace]], this isn't a new merit ladder - it's the standard the Spirit applies to a life already saved, starting where only God sees.
+## Key Concept
+
+Jesus didn't lower the law; he exposed its depth. "You have heard… but I say" moves righteousness from courtroom compliance to motive and imagination. Under [[Free Grace]], this isn't a new merit ladder - it's the standard the Spirit applies to a life already saved, starting where only God sees. [[Fruits of the Spirit]] names what that inner work produces outward - love, gentleness, self-control, and the rest.
 
 ## Examples
 
@@ -37,11 +39,13 @@ Jesus didn't lower the law; he exposed its depth. "You have heard… but I say" 
 - I sent a cold reply that sounded professional while resentment ran inside - Jesus moves righteousness from courtroom compliance to motive.
 - I looked patient helping with homework while I was simmering about the mess - murder in the heart doesn't need raised voices.
 - Some guy cut me off on the EDSA commute and I smiled through it, then nursed the anger the whole ride home - that's murder in the heart.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Let Your Light Shine]] | when I polish the outside while nursing anger inside |
+| extends | [[Fruits of the Spirit]] | Spirit grows inner righteousness into outward character |
 | extends | [[Judge Not]] | God cares about inner motive, not the hypocritical judging judge not forbids |
 
 ## See also

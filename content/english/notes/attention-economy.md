@@ -25,12 +25,17 @@ aliases: []
 ---
 **Attention economy** = platforms compete for your focus - your attention is the product.
 
+## Key Concept
+
+Named in notes that link here ([[Digital Minimalism]]). Tension with [[Digital Serendipity]] when the opposite frame fits better.
+
 ## Examples
 
 - The clinic waiting-room TV runs health tips between ads - my attention was the product, not the pamphlet I came for.
 - Halftime on my phone was supposed to be rest - twenty minutes of clips aimed at my outrage, not recovery.
 - Twenty minutes "checking news" was twenty minutes of ads aimed at my outrage - not rest.
 - My kid's tablet "educational" game paused every level for a purchase screen - the game wanted her focus, not her learning.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

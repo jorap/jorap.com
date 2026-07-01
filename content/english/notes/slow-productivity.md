@@ -25,12 +25,17 @@ aliases: []
 ---
 **Slow Productivity** pushes back on busy-as-virtue. I run fewer active projects so notes become output, not backlog. Overlap with [[Don't Worry]]: less frantic throughput, more trust that depth beats volume.
 
+## Key Concept
+
+Slow productivity pushes back on busy-as-virtue - fewer projects, more finished work.
+
 ## Examples
 
 - I cut active home projects from six to three last quarter and finished the kids' bookcase instead of Pinterest boards on all six.
 - I stopped chasing three side hobbies and finished one blog series - depth beat volume for once.
 - The coach cut drills from six to three and the team finally ran them clean on game day.
 - The bakery dropped four "special" items and nailed the core six - busy isn't virtue when nothing finishes.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

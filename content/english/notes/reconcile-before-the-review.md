@@ -25,6 +25,8 @@ aliases: ["fix the relationship first"]
 ---
 **Reconcile before the review** = if a colleague still has something against me, I go address it before the quarterly review, the launch demo, or the reorg meeting.
 
+## Key Concept
+
 Process doesn't heal a broken trust link. The person who knows there's a breach moves first - a short call, an owned apology, a specific repair - then we talk OKRs. Same order as [[Reconciliation Before Worship]], minus the religious frame: relationship before ritual performance.
 
 ## Examples
@@ -33,6 +35,7 @@ Process doesn't heal a broken trust link. The person who knows there's a breach 
 - Strong numbers for the quarterly review but my teammate was still cold from something I'd said - I made the short call and owned the apology before OKRs.
 - Strong notes for the parent-teacher meeting but my co-teacher was still cold from Tuesday - fifteen minutes with her before we sat with the parents.
 - The launch demo was ready but my neighbor sponsor was still hurt from a snub - coffee first, slides second.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

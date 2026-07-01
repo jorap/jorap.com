@@ -25,6 +25,8 @@ aliases: ["real priority first"]
 ---
 **Priorities before the inbox** = put the real priority first before email, Slack, and everyone else's urgency rewrite my morning.
 
+## Key Concept
+
 The inbox is other people's priorities wearing a siren. One block on the actual deliverable - spec, hard conversation, [[Deep Work]] - before I answer pings. Gospel source: [[Seek the Kingdom First]]. PKM parallel: [[Signal vs Noise]].
 
 ## Examples
@@ -33,6 +35,7 @@ The inbox is other people's priorities wearing a siren. One block on the actual 
 - The report was due at noon - I wrote the first page before opening Slack.
 - Tuesday before school, phone buzzing and lunches on the counter - sandwiches packed first, then I answer messages from a morning that already moved.
 - Oil change before the road trip - I booked the slot before scrolling neighborhood drama.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

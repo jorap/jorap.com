@@ -25,12 +25,17 @@ aliases: []
 ---
 **Safety by design** = build the activity so harm is hard to cause - not only train people to be careful around danger.
 
+## Key Concept
+
+Named in notes that link here ([[Eliminate Before Managing]]). Tension with [[Develop, Don't Endanger]] when the opposite frame fits better.
+
 ## Examples
 
 - The gym swapped to breakaway rims so dunk attempts don't tear shoulders - safer layout, not another lecture on landing.
 - The new stove puts controls where elbows can't bump them - safer layout, not another lecture.
 - We put outlet covers in before the crawling phase - harm harder to cause, not "be careful" fifty times a day.
 - The crosswalk got a bump-out so cars slow before the turn - design change, not just "watch for pedestrians" signs.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

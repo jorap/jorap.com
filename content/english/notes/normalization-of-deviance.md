@@ -25,12 +25,17 @@ aliases: []
 ---
 **Normalization of deviance** = repeated close calls slowly redefine 'normal' until disaster feels surprising but was predictable.
 
+## Key Concept
+
+Named in notes that link here ([[Heed Every Near-Miss]]). Tension with [[Failure as Feedback]] when the opposite frame fits better.
+
 ## Examples
 
 - Third time I rolled through the stop sign at dawn and nobody honked - until a kid on a bike appeared.
 - Third time someone skipped helmet strap in warmups and nobody called it - until the collision in practice.
 - Third time someone ran the red light in the parking lot and nobody wrote it up - until the fender bender.
 - Third time we let the ladder stay on the stairs and nobody moved it - until someone tripped carrying laundry.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

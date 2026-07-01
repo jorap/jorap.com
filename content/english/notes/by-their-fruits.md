@@ -29,6 +29,8 @@ aliases: ["know them by their fruits", "a tree is known by its fruit"]
 ---
 **By their fruits** = discern teachers and teaching by outcome - grapes from grapevines, thorns from thistles (Matthew 7:16-20).
 
+## Key Concept
+
 Jesus pairs this with [[Judge Not]]: don't condemn souls, but do evaluate fruit. Wolves may wear sheep's clothing; time and results tell. Garden parallel: [[Signal vs Noise]] - what actually produces good over time? The [Issues](/notes/issues/) audit - does the teaching leave the graph healthier or broken?
 
 ## Examples
@@ -37,12 +39,14 @@ Jesus pairs this with [[Judge Not]]: don't condemn souls, but do evaluate fruit.
 - A trending productivity guru's followers still drown in inbox chaos - grapes from grapevines, thorns from thistles, time and results tell.
 - Last month I bookmarked a preacher who looks holy on stage - six weeks later the people around him looked broke and bitter, and that told me more than any sermon title.
 - A parenting influencer sells calm routines but her comment section is full of moms feeling like failures - I judge the outcome, not the charisma.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
+| alternative | [[Fruits of the Spirit]] | Same word fruit - discern teachers by outcome vs Spirit character in believers |
 | contradicts | [[Signal vs Noise]] | when I can't tell fruit from hype |
-| extends | [[Judge Not]] | You can't condemn souls, but you can judge fruit without breaking judge not |. Pairs with [[Ask Seek Knock]].
+| extends | [[Judge Not]] | You can't condemn souls, but you can judge fruit without breaking judge not |
 
 ## See also
 

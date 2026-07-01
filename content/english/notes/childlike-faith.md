@@ -29,6 +29,8 @@ aliases: ["become like children", "faith like a child"]
 ---
 **Childlike faith** = receive the kingdom like a child - dependent, trusting, not negotiating merit (Matthew 18:3; Mark 10:15).
 
+## Key Concept
+
 Children don't enter the kingdom by achievement; they receive care they didn't earn. Jesus wasn't praising ignorance - he was naming the posture [[Free Grace]] and [[Assurance]] require: stop calculating worthiness and receive the gift. Same beginner posture as [[Getting Started]] in the garden - assume you're new, follow the guide, don't perform expertise you don't have.
 
 ## Examples
@@ -37,6 +39,7 @@ Children don't enter the kingdom by achievement; they receive care they didn't e
 - I delay prayer until my week looks respectable - childlike faith means I come like a kid who already belongs, not a contractor negotiating terms.
 - The new hire asked a "dumb" question in orientation without negotiating whether she deserved an answer - childlike faith is receive, not perform expertise you don't have yet.
 - My daughter asked for a snack without calculating whether she'd been good enough today - same posture Jesus names: stop earning points, receive the gift.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

@@ -25,12 +25,17 @@ aliases: ["local first software", "Local First", "Privacy and Data Sovereignty",
 ---
 Local-first means my device holds the truth; sync is optional icing. That's how I want my brain's backup to behave.
 
+## Key Concept
+
+Local-first means your device holds the truth; choose what's public, what's private, and what gets encrypted.
+
 ## Examples
 
 - My commute playlist is downloaded on the phone - I still hear music in the tunnel when the signal drops.
 - My kid's shooting log lives in a notebook in the gym bag - not an app that might vanish when the vendor pivots.
 - Grandma's recipe cards live in the kitchen drawer - not an app that might vanish.
 - If the phone dies mid-grocery run, the list on the fridge still works.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

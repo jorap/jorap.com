@@ -33,12 +33,17 @@ aliases: ["Trusted Inbox"]
 ---
 If I don't trust my inbox, I capture in my head instead. One pipe, weekly empty, no exceptions.
 
+## Key Concept
+
+If you don't trust your inbox, you capture in your head instead of using capture ([[Capture]]). Tension with [[Mobile Capture Workflows]] when one trusted pipe beats frictionless capture everywhere.
+
 ## Examples
 
 - We kept one bowl by the door for keys, papers, receipts - two bowls meant I'd hold things in my head instead.
 - One notebook on the bench for every substitute tweak - if we don't review it after the match, nobody trusts writing in it next week.
 - One tray at the front desk for callbacks - two trays meant staff held follow-ups in their heads instead.
 - If Sunday passes without clearing the bowl, trust breaks and sparks die on the commute - one pipe, weekly empty, no exceptions.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |

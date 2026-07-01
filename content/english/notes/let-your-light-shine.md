@@ -29,6 +29,8 @@ aliases: ["light of the world", "city on a hill"]
 ---
 **Let your light shine** = do good works visibly so others see them and glorify the Father - not hidden under a basket (Matthew 5:14-16).
 
+## Key Concept
+
 You're the light of the world, like a city on a hill. The point isn't performance for applause - Jesus warns against practicing righteousness to be seen by people (Matthew 6:1). Good works shine so God gets credit for [[Free Grace]] at work in a saved life, not so I build a personal brand. Parallel in the garden: [[Drafting in Public]] puts rough notes in the open so ideas get tested - same visibility instinct, different aim (glorify God, not the author).
 
 ## Examples
@@ -37,6 +39,7 @@ You're the light of the world, like a city on a hill. The point isn't performanc
 - I covered a coworker's shift quietly and almost made it a LinkedIn moment - let your light shine so the Father gets credit, not my personal brand.
 - I helped a neighbor move furniture and almost posted about it before I remembered why I did it - good works point to the Father, not that I'm awesome.
 - I almost captioned the charity run photo for applause - visibility so others glorify God, not so I build a brand.
+
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
