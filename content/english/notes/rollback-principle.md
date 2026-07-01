@@ -27,7 +27,9 @@ aliases: ["rollback", "revert first"]
 
 ## Key Concept
 
-If I can't explain the path back in one sentence, I'm not ready to ship. [[Reversibility]] is the decision frame; rollback is the rehearsed move. Last quarter I kept a bad Friday deploy live because I wanted the milestone more than the rollback conversation - the team needed "my call, here's the fix," not a speech.
+If I can't explain the path back in one sentence, I'm not ready to ship.
+
+[[Reversibility]] is the decision frame; rollback is the rehearsed move. Last quarter I kept a bad Friday deploy live because I wanted the milestone more than the rollback conversation - the team needed "my call, here's the fix," not a speech.
 
 ## Examples
 

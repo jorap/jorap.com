@@ -27,7 +27,9 @@ aliases: []
 
 ## Key Concept
 
-Named in notes that link here ([[Context-Aware Capture]]). Tension with [[Atomic Notes]] when the opposite frame fits better.
+Named in notes that link here ([[Context-Aware Capture]]).
+
+Tension with [[Atomic Notes]] when the opposite frame fits better.
 
 ## Examples
 

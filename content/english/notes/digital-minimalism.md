@@ -27,7 +27,9 @@ aliases: []
 
 ## Key Concept
 
-Fewer apps and less syncing. My PKM got better when I stopped collecting tools.
+Fewer apps and less syncing.
+
+My PKM got better when I stopped collecting tools.
 
 ## Examples
 

@@ -27,7 +27,9 @@ aliases: ["MED"]
 
 ## Key Concept
 
-I borrowed it from medicine: enough to work, not more than needed. Applies to PKM habits, fitness, and side projects. More input past the dose is noise. Same shape in [[Free Grace]] and [[Justification]]: faith is the minimum sufficient act for eternal life - not zero response, not a lifetime of merit stacked on top.
+I borrowed it from medicine: enough to work, not more than needed.
+
+Applies to PKM habits, fitness, and side projects. More input past the dose is noise. Same shape in [[Free Grace]] and [[Justification]]: faith is the minimum sufficient act for eternal life - not zero response, not a lifetime of merit stacked on top.
 
 ## Examples
 

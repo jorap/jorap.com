@@ -31,7 +31,9 @@ aliases: ["do not worry", "sufficient unto the day", "dont worry"]
 
 ## Key Concept
 
-Worry can't add a single hour to life. The antidote isn't denial - it's priority: [[Seek the Kingdom First]], and let tomorrow carry its own trouble. Trust is active dependence on a Father who already gave eternal life by [[Free Grace]] - [[Assurance]] rests on that promise, not anxiety about earning His care. Overlap with [[Slow Productivity]]: fewer frantic masters, deeper attention on what actually matters.
+Worry can't add a single hour to life.
+
+The antidote isn't denial - it's priority: [[Seek the Kingdom First]], and let tomorrow carry its own trouble. Trust is active dependence on a Father who already gave eternal life by [[Free Grace]] - [[Assurance]] rests on that promise, not anxiety about earning His care. Overlap with [[Slow Productivity]]: fewer frantic masters, deeper attention on what actually matters.
 
 ## Examples
 

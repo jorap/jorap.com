@@ -27,7 +27,9 @@ aliases: ["real priority first"]
 
 ## Key Concept
 
-The inbox is other people's priorities wearing a siren. One block on the actual deliverable - spec, hard conversation, [[Deep Work]] - before I answer pings. Gospel source: [[Seek the Kingdom First]]. PKM parallel: [[Signal vs Noise]].
+The inbox is other people's priorities wearing a siren.
+
+One block on the actual deliverable - spec, hard conversation, [[Deep Work]] - before I answer pings. Gospel source: [[Seek the Kingdom First]]. PKM parallel: [[Signal vs Noise]].
 
 ## Examples
 

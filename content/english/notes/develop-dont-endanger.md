@@ -27,7 +27,9 @@ aliases: ["challenge without endangering", "develop dont endanger"]
 
 ## Key Concept
 
-Hard alone doesn't make an exercise worth running. A demanding drill needs a clear purpose, a measurable benefit, qualified supervision, and defined safety limits. When pain becomes the point, leaders start treating harm like proof of growth.
+Hard alone doesn't make an exercise worth running.
+
+A demanding drill needs a clear purpose, a measurable benefit, qualified supervision, and defined safety limits. When pain becomes the point, leaders start treating harm like proof of growth.
 
 ## Examples
 

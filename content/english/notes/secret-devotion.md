@@ -31,7 +31,9 @@ aliases: ["give in secret", "pray in secret", "fast in secret"]
 
 ## Key Concept
 
-Jesus brackets the [[Ask Seek Knock]] with the same warning: religious performance for an audience is its own reward. Secret devotion pairs with [[Ask Seek Knock]] (how to pray) and contrasts [[Let Your Light Shine]] - some good works shine publicly for God's glory; other devotion stays hidden so the left hand doesn't know what the right is doing. [[Free Grace]] means I'm not earning visibility points with God.
+Jesus brackets the [[Ask Seek Knock]] with the same warning: religious performance for an audience is its own reward.
+
+Secret devotion pairs with [[Ask Seek Knock]] (how to pray) and contrasts [[Let Your Light Shine]] - some good works shine publicly for God's glory; other devotion stays hidden so the left hand doesn't know what the right is doing. [[Free Grace]] means I'm not earning visibility points with God.
 
 ## Examples
 

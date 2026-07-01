@@ -35,7 +35,9 @@ My weekly review is a checklist - inbox, calendar, projects, one express action.
 
 ## Key Concept
 
-Weekly review as a checklist - inbox, calendar, projects, one express action. Boring on purpose.
+Weekly review as a checklist - inbox, calendar, projects, one express action.
+
+Boring on purpose.
 
 ## Examples
 

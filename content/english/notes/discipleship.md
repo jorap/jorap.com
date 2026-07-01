@@ -31,7 +31,9 @@ aliases: ["follow Jesus", "following Christ"]
 
 ## Key Concept
 
-Under [[Free Grace]], discipleship is [[Grateful Obedience]] - grateful response, not payment. [[Sanctification]] is the slow becoming that walk produces. [[Fruits of the Spirit]] is what people see when the walk is real - love, patience, gentleness, and the rest grown by the Spirit, not performed for credit. Lazy seasons may mean [[Loss of Reward]] at the [[Judgment Seat]] - they don't un-save you. [[Repent and Believe]] opens the door. [[Take Up Your Cross]], [[The Narrow Way]], and [[The Wise Builder]] name what the road feels like - costly, narrow, built on hearing and doing. [[Great Commission]] pushes it outward: truth passed on, not hoarded like bookmarks. PKM mirror: [[Creative Output]] - notes mean little if hearing never becomes doing.
+Under [[Free Grace]], discipleship is [[Grateful Obedience]] - grateful response, not payment.
+
+[[Sanctification]] is the slow becoming that walk produces. [[Fruits of the Spirit]] is what people see when the walk is real - love, patience, gentleness, and the rest grown by the Spirit, not performed for credit. Lazy seasons may mean [[Loss of Reward]] at the [[Judgment Seat]] - they don't un-save you. [[Repent and Believe]] opens the door. [[Take Up Your Cross]], [[The Narrow Way]], and [[The Wise Builder]] name what the road feels like - costly, narrow, built on hearing and doing. [[Great Commission]] pushes it outward: truth passed on, not hoarded like bookmarks. PKM mirror: [[Creative Output]] - notes mean little if hearing never becomes doing.
 
 ## Examples
 

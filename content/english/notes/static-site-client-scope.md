@@ -23,11 +23,9 @@ aliases: ["static site fit", "what static sites can do"]
 
 ## Key Concept
 
-Scope the sales call before I quote [[Selling Static Sites]]. **Good fits:** portfolio, org brochure, small business presence, project docs, blog where owner learns Git or pays retainer. **Bad fits:** e-commerce you host, member login, booking engines, five daily non-technical editors with no retainer. Redirect honestly to Shopify, WordPress, or a dynamic stack. [[Outcomes Over Pitch Decks]] - pick by fruit, not by what I want to sell.
+Scope the sales call before I quote [[Selling Static Sites]]. **Good fits:** portfolio, org brochure, small business presence, project docs, blog where owner learns Git or pays retainer. **Bad fits:** e-commerce you host, member login, booking engines, five daily non-technical editors with no retainer.
 
-**Before I quote, ask:** who updates content and how often? Anything private behind login? Real-time database changes? Cart or checkout I must host? What if I'm unavailable a month? Two or more dynamic yes answers → not this stack. [[Plain Commitments at Work]]: say no in the room, not after deposit.
-
-**Updates that still fit static:** owner learns Git via [[Client Site Handoff]]; retainer batches; [[Git-Based CMS]] when buttons beat terminal; seasonal pages; external embeds (donate link, Formspree, Calendly) where the site stays static and the tool carries the dynamic part. [[Minimum Effective Dose]]: smallest site that solves the job - don't force Hugo where WordPress was honest.
+Redirect honestly to Shopify, WordPress, or a dynamic stack. [[Outcomes Over Pitch Decks]] - pick by fruit, not by what I want to sell. **Before I quote, ask:** who updates content and how often? Anything private behind login? Real-time database changes? Cart or checkout I must host? What if I'm unavailable a month? Two or more dynamic yes answers → not this stack. [[Plain Commitments at Work]]: say no in the room, not after deposit. **Updates that still fit static:** owner learns Git via [[Client Site Handoff]]; retainer batches; [[Git-Based CMS]] when buttons beat terminal; seasonal pages; external embeds (donate link, Formspree, Calendly) where the site stays static and the tool carries the dynamic part. [[Minimum Effective Dose]]: smallest site that solves the job - don't force Hugo where WordPress was honest.
 
 ## Examples
 

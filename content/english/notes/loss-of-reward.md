@@ -31,7 +31,9 @@ aliases: ["loss of crown", "saved yet so as through fire", "reward vs salvation"
 
 ## Key Concept
 
-Two categories, one sentence apart: [[Free Grace]] and [[Justification]] settle eternal life at faith. [[Eternal Rewards]] and the [[Judgment Seat]] settle what gets repaid for faithful living. Losing reward is not losing salvation. Paul says the builder "will be saved, yet so as through fire" - still in, with loss ([[Wood Hay Stubble]]). [[Standing vs Fellowship]] keeps shame from collapsing broken closeness with revoked standing. [[Sanctification]] keeps growing after a wasted season; [[Forgiveness]] restores fellowship when sin breaks closeness - neither re-opens [[Justification]]. [[Faith and Works]] and [[The Narrow Way]] split false "Lord, Lord" (never believed) from a believer who stumbled and repents. PKM mirror: [[Failure as Feedback]] - a burned work is feedback on what to build differently, not proof you were never in the garden.
+Two categories, one sentence apart: [[Free Grace]] and [[Justification]] settle eternal life at faith.
+
+[[Eternal Rewards]] and the [[Judgment Seat]] settle what gets repaid for faithful living. Losing reward is not losing salvation. Paul says the builder "will be saved, yet so as through fire" - still in, with loss ([[Wood Hay Stubble]]). [[Standing vs Fellowship]] keeps shame from collapsing broken closeness with revoked standing. [[Sanctification]] keeps growing after a wasted season; [[Forgiveness]] restores fellowship when sin breaks closeness - neither re-opens [[Justification]]. [[Faith and Works]] and [[The Narrow Way]] split false "Lord, Lord" (never believed) from a believer who stumbled and repents. PKM mirror: [[Failure as Feedback]] - a burned work is feedback on what to build differently, not proof you were never in the garden.
 
 ## Examples
 

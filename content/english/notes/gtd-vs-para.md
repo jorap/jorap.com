@@ -27,7 +27,9 @@ GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - here's
 
 ## Key Concept
 
-GTD runs my tasks. PARA runs my notes - cousins, not competitors.
+GTD runs my tasks.
+
+PARA runs my notes - cousins, not competitors.
 
 ## Examples
 

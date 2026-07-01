@@ -31,7 +31,9 @@ aliases: ["speck and plank", "do not judge"]
 
 ## Key Concept
 
-Jesus forbids harsh, hypocritical condemnation - the kind that ignores my own guilt while magnifying yours. He doesn't forbid all moral discernment: the same sermon says judge trees by fruit (Matthew 7:16-20). Garden parallel: the [Issues](/notes/issues/) page lists broken wikilinks to fix - diagnose the graph, don't condemn the author. [[Mercy]] and [[Free Grace]] remind me I stood on mercy first.
+Jesus forbids harsh, hypocritical condemnation - the kind that ignores my own guilt while magnifying yours.
+
+He doesn't forbid all moral discernment: the same sermon says judge trees by fruit (Matthew 7:16-20). Garden parallel: the [Issues](/notes/issues/) page lists broken wikilinks to fix - diagnose the graph, don't condemn the author. [[Mercy]] and [[Free Grace]] remind me I stood on mercy first.
 
 ## Examples
 

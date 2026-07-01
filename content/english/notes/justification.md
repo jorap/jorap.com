@@ -31,7 +31,9 @@ aliases: ["declared righteous", "justified by faith"]
 
 ## Key Concept
 
-[[Free Grace]] names the gift; justification names the legal move: guilty sinner, faith in Christ, declared not guilty - Christ's record credited to me. Same shape as [[Minimum Effective Dose]]: one sufficient act at the start, not a lifetime of merit stacked before God says yes. [[Standing vs Fellowship]] keeps the verdict separate from daily closeness - confession restores fellowship, it doesn't re-buy heaven. [[Sanctification]] is what comes after - becoming holy over time. [[Eternal Rewards]] is what the Father pays faithful living after. None of those three re-open the case justification closed.
+[[Free Grace]] names the gift; justification names the legal move: guilty sinner, faith in Christ, declared not guilty - Christ's record credited to me.
+
+Same shape as [[Minimum Effective Dose]]: one sufficient act at the start, not a lifetime of merit stacked before God says yes. [[Standing vs Fellowship]] keeps the verdict separate from daily closeness - confession restores fellowship, it doesn't re-buy heaven. [[Sanctification]] is what comes after - becoming holy over time. [[Eternal Rewards]] is what the Father pays faithful living after. None of those three re-open the case justification closed.
 
 ## Examples
 

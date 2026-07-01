@@ -31,7 +31,9 @@ aliases: ["SRS", "Spaced Repetition Systems", "Spaced Repetition Systems (SRS)"]
 
 ## Key Concept
 
-Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for. Whole essays don't belong on flashcards. The wiki holds understanding; Anki or SRS apps hold drill - separate lanes, algorithm handles timing. In this garden, spine notes (~20%, [[Pareto Principle]]) opt in with `review: true` - PKM habit prompts and [[Eternal Principles]] gospel cards share the same drill lane via `card_sets`. [[Ask Seek Knock]] is the faith-side version: keep asking on rhythm, not cram once.
+Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for.
+
+Whole essays don't belong on flashcards. The wiki holds understanding; Anki or SRS apps hold drill - separate lanes, algorithm handles timing. In this garden, spine notes (~20%, [[Pareto Principle]]) opt in with `review: true` - PKM habit prompts and [[Eternal Principles]] gospel cards share the same drill lane via `card_sets`. [[Ask Seek Knock]] is the faith-side version: keep asking on rhythm, not cram once.
 
 ## Examples
 

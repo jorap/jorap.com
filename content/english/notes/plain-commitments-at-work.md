@@ -27,7 +27,9 @@ aliases: ["yes means yes at work"]
 
 ## Key Concept
 
-If my word needs hype to sound believable, the problem is my follow-through, not the sentence. One deadline, one owner, one plain answer in Slack. On [[Selling Static Sites]] scoping: say yes or no to [[Static Site Client Scope]] before deposit; name the [[Client Site Handoff]] model the same way. Gospel source: [[Let Your Yes Be Yes]]. PKM parallel: [[Atomic Notes]] - one claim per message, not padded prose.
+If my word needs hype to sound believable, the problem is my follow-through, not the sentence.
+
+One deadline, one owner, one plain answer in Slack. On [[Selling Static Sites]] scoping: say yes or no to [[Static Site Client Scope]] before deposit; name the [[Client Site Handoff]] model the same way. Gospel source: [[Let Your Yes Be Yes]]. PKM parallel: [[Atomic Notes]] - one claim per message, not padded prose.
 
 ## Examples
 

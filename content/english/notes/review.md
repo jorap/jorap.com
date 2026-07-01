@@ -19,7 +19,9 @@ aliases: []
 
 ## Key Concept
 
-Success is acting correctly in real life when the front shows up - not passing the quiz in the browser. Filter by `card_sets` to drill one lane at a time.
+Success is acting correctly in real life when the front shows up - not passing the quiz in the browser.
+
+Filter by `card_sets` to drill one lane at a time.
 
 ## See also
 

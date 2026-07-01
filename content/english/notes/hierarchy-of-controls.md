@@ -27,7 +27,9 @@ aliases: []
 
 ## Key Concept
 
-Named in notes that link here ([[Eliminate Before Managing]]). Tension with [[Standard Operating Procedures]] when the opposite frame fits better.
+Named in notes that link here ([[Eliminate Before Managing]]).
+
+Tension with [[Standard Operating Procedures]] when the opposite frame fits better.
 
 ## Examples
 

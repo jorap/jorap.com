@@ -27,7 +27,9 @@ aliases: ["near miss investigation", "survival is not safety", "heed every near 
 
 ## Key Concept
 
-When nobody gets injured, organizations often relax. The opposite read is usually right: the system failed, and luck blocked the worst outcome. A rescue, a panic incident, or a loss of control should trigger investigation and redesign before anyone runs the same activity again.
+When nobody gets injured, organizations often relax.
+
+The opposite read is usually right: the system failed, and luck blocked the worst outcome. A rescue, a panic incident, or a loss of control should trigger investigation and redesign before anyone runs the same activity again.
 
 ## Examples
 

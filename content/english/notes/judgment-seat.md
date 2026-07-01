@@ -31,7 +31,9 @@ aliases: ["bema seat", "bema", "judgment seat of Christ"]
 
 ## Key Concept
 
-[[Free Grace]] and [[Justification]] already decided where I spend forever. The judgment seat (Greek *bema* - think awards podium, not criminal court) decides what reward faithful living earned. [[Eternal Rewards]] names the promise; this note names the evaluation. [[Wood Hay Stubble]] names what burns vs lasts at the fire test. [[Faithful Steward]] is the parable shape: well done for faithful use, not re-buying eternal life. [[Secret Devotion]] and [[Let Your Light Shine]] both show up in the ledger - hidden and public obedience counted by Christ, not the audience. [[Loss of Reward]] keeps the categories straight: saved through fire with loss, not unsaved. PKM mirror: [[Periodic Knowledge Review]] - the whole history gets reviewed, not one heroic week mistaken for the whole career.
+[[Free Grace]] and [[Justification]] already decided where I spend forever.
+
+The judgment seat (Greek *bema* - think awards podium, not criminal court) decides what reward faithful living earned. [[Eternal Rewards]] names the promise; this note names the evaluation. [[Wood Hay Stubble]] names what burns vs lasts at the fire test. [[Faithful Steward]] is the parable shape: well done for faithful use, not re-buying eternal life. [[Secret Devotion]] and [[Let Your Light Shine]] both show up in the ledger - hidden and public obedience counted by Christ, not the audience. [[Loss of Reward]] keeps the categories straight: saved through fire with loss, not unsaved. PKM mirror: [[Periodic Knowledge Review]] - the whole history gets reviewed, not one heroic week mistaken for the whole career.
 
 ## Examples
 

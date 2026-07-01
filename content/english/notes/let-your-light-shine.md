@@ -31,7 +31,9 @@ aliases: ["light of the world", "city on a hill"]
 
 ## Key Concept
 
-You're the light of the world, like a city on a hill. The point isn't performance for applause - Jesus warns against practicing righteousness to be seen by people (Matthew 6:1). Good works shine so God gets credit for [[Free Grace]] at work in a saved life, not so I build a personal brand. Parallel in the garden: [[Drafting in Public]] puts rough notes in the open so ideas get tested - same visibility instinct, different aim (glorify God, not the author).
+You're the light of the world, like a city on a hill.
+
+The point isn't performance for applause - Jesus warns against practicing righteousness to be seen by people (Matthew 6:1). Good works shine so God gets credit for [[Free Grace]] at work in a saved life, not so I build a personal brand. Parallel in the garden: [[Drafting in Public]] puts rough notes in the open so ideas get tested - same visibility instinct, different aim (glorify God, not the author).
 
 ## Examples
 

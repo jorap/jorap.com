@@ -31,7 +31,9 @@ aliases: ["become like children", "faith like a child"]
 
 ## Key Concept
 
-Children don't enter the kingdom by achievement; they receive care they didn't earn. Jesus wasn't praising ignorance - he was naming the posture [[Free Grace]] and [[Assurance]] require: stop calculating worthiness and receive the gift. Same beginner posture as [[Getting Started]] in the garden - assume you're new, follow the guide, don't perform expertise you don't have.
+Children don't enter the kingdom by achievement; they receive care they didn't earn.
+
+Jesus wasn't praising ignorance - he was naming the posture [[Free Grace]] and [[Assurance]] require: stop calculating worthiness and receive the gift. Same beginner posture as [[Getting Started]] in the garden - assume you're new, follow the guide, don't perform expertise you don't have.
 
 ## Examples
 

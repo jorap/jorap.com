@@ -31,7 +31,9 @@ aliases: ["good and faithful servant", "parable of the talents", "stewardship"]
 
 ## Key Concept
 
-[[Free Grace]] settled where I spend forever. Stewardship settles what I do with what He entrusted after. The master returns to settle accounts - faithful use repaid, buried talent rebuked. [[Eternal Rewards]] names the promise; [[Faithful Steward]] names the parable Jesus told for it. [[Compounding]] is the PKM mirror: small faithful use over years, not one heroic week mistaken for a merit purchase on heaven. [[Judgment Seat]] is where accounts get reviewed; [[Secret Devotion]] and [[Integrity When No One's Watching]] are hidden lanes of faithful use nobody applauded.
+[[Free Grace]] settled where I spend forever.
+
+Stewardship settles what I do with what He entrusted after. The master returns to settle accounts - faithful use repaid, buried talent rebuked. [[Eternal Rewards]] names the promise; [[Faithful Steward]] names the parable Jesus told for it. [[Compounding]] is the PKM mirror: small faithful use over years, not one heroic week mistaken for a merit purchase on heaven. [[Judgment Seat]] is where accounts get reviewed; [[Secret Devotion]] and [[Integrity When No One's Watching]] are hidden lanes of faithful use nobody applauded.
 
 ## Examples
 

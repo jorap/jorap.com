@@ -27,7 +27,9 @@ I explain notes like I'm teaching someone - gaps in my explanation show gaps in 
 
 ## Key Concept
 
-Teach-it-to-learn-it exposes gaps so evergreen notes stay honest and clear ([[Evergreen Notes]]). Tension with [[Spaced Repetition]] when explaining gaps beats flashcard drill.
+Teach-it-to-learn-it exposes gaps so evergreen notes stay honest and clear ([[Evergreen Notes]]).
+
+Tension with [[Spaced Repetition]] when explaining gaps beats flashcard drill.
 
 ## Examples
 

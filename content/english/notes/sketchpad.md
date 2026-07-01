@@ -27,7 +27,9 @@ aliases: []
 
 ## Key Concept
 
-Named in notes that link here ([[Drafting in Public]]). Tension with [[Creative Output]] when the opposite frame fits better.
+Named in notes that link here ([[Drafting in Public]]).
+
+Tension with [[Creative Output]] when the opposite frame fits better.
 
 ## Examples
 

@@ -27,7 +27,9 @@ aliases: ["fix the relationship first"]
 
 ## Key Concept
 
-Process doesn't heal a broken trust link. The person who knows there's a breach moves first - a short call, an owned apology, a specific repair - then we talk OKRs. Same order as [[Reconciliation Before Worship]], minus the religious frame: relationship before ritual performance.
+Process doesn't heal a broken trust link.
+
+The person who knows there's a breach moves first - a short call, an owned apology, a specific repair - then we talk OKRs. Same order as [[Reconciliation Before Worship]], minus the religious frame: relationship before ritual performance.
 
 ## Examples
 

@@ -27,7 +27,9 @@ aliases: []
 
 ## Key Concept
 
-Named in notes that link here ([[Literature Notes]]). Tension with [[Spaced Repetition]] when the opposite frame fits better.
+Named in notes that link here ([[Literature Notes]]).
+
+Tension with [[Spaced Repetition]] when the opposite frame fits better.
 
 ## Examples
 

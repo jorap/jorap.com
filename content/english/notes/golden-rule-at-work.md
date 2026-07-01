@@ -27,7 +27,9 @@ aliases: ["treat colleagues fairly", "reverse roles at work", "golden rule at wo
 
 ## Key Concept
 
-It's active, not passive: do the helpful thing, don't only avoid harm. The check is experiential - how would I want feedback delivered, how would I want to be included, how would I want a mistake handled? I don't wait for them to go first. Gospel depth lives in [[The Golden Rule]]; this is the version I use before I hit send.
+It's active, not passive: do the helpful thing, don't only avoid harm.
+
+The check is experiential - how would I want feedback delivered, how would I want to be included, how would I want a mistake handled? I don't wait for them to go first. Gospel depth lives in [[The Golden Rule]]; this is the version I use before I hit send.
 
 ## Examples
 

@@ -18,7 +18,9 @@ aliases: []
 
 ## Key Concept
 
-Find anchor notes by who links here - snippet context per backlink, not just a count. Utility surface: link by URL from content notes, not `[[wikilinks]]`.
+Find anchor notes by who links here - snippet context per backlink, not just a count.
+
+Utility surface: link by URL from content notes, not `[[wikilinks]]`.
 
 ## See also
 

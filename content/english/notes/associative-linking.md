@@ -31,7 +31,9 @@ Folders sort. Links think. I link so notes meet without me remembering every fil
 
 ## Key Concept
 
-Folders sort. Links think. Associative linking lets notes meet without remembering every filename.
+Folders sort.
+
+Links think. Associative linking lets notes meet without remembering every filename.
 
 ## Examples
 

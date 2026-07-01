@@ -31,7 +31,9 @@ aliases: ["anger and lust", "heart sins"]
 
 ## Key Concept
 
-Jesus didn't lower the law; he exposed its depth. "You have heard… but I say" moves righteousness from courtroom compliance to motive and imagination. Under [[Free Grace]], this isn't a new merit ladder - it's the standard the Spirit applies to a life already saved, starting where only God sees. [[Fruits of the Spirit]] names what that inner work produces outward - love, gentleness, self-control, and the rest.
+Jesus didn't lower the law; he exposed its depth.
+
+"You have heard… but I say" moves righteousness from courtroom compliance to motive and imagination. Under [[Free Grace]], this isn't a new merit ladder - it's the standard the Spirit applies to a life already saved, starting where only God sees. [[Fruits of the Spirit]] names what that inner work produces outward - love, gentleness, self-control, and the rest.
 
 ## Examples
 

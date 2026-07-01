@@ -23,7 +23,9 @@ aliases: ["self control"]
 
 ## Key Concept
 
-[[Fruits of the Spirit]] lists self-control as one trait the Spirit grows in believers - gospel fruit, not a merit streak. This note is the general skill: close the app, sleep on the reply, stick to the list. Same word, different job unless the Spirit is doing the growing.
+[[Fruits of the Spirit]] lists self-control as one trait the Spirit grows in believers - gospel fruit, not a merit streak.
+
+This note is the general skill: close the app, sleep on the reply, stick to the list. Same word, different job unless the Spirit is doing the growing.
 
 ## Examples
 

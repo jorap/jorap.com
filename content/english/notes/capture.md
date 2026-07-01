@@ -35,7 +35,9 @@ aliases: ["CODE", "Frictionless Capture"]
 
 ## Key Concept
 
-Friction kills capture. One inbox, phone to desktop, weekly process - same as [[The Trusted Inbox]]. If I wouldn't act on it or cite it later, it doesn't get saved. Resonance is the filter, not FOMO.
+Friction kills capture.
+
+One inbox, phone to desktop, weekly process - same as [[The Trusted Inbox]]. If I wouldn't act on it or cite it later, it doesn't get saved. Resonance is the filter, not FOMO.
 
 ## Examples
 

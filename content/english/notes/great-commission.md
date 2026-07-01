@@ -31,7 +31,9 @@ aliases: ["go and make disciples", "Matthew 28"]
 
 ## Key Concept
 
-Mission flows from resurrection authority, not human recruitment zeal. Teaching obedience is discipleship after faith - not a works payment for salvation under [[Free Grace]]. PKM parallel: [[Creative Output]] - the gospel isn't fully kept until it's passed on; inventory notes mean nothing if they never leave the garden.
+Mission flows from resurrection authority, not human recruitment zeal.
+
+Teaching obedience is discipleship after faith - not a works payment for salvation under [[Free Grace]]. PKM parallel: [[Creative Output]] - the gospel isn't fully kept until it's passed on; inventory notes mean nothing if they never leave the garden.
 
 ## Examples
 

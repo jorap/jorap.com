@@ -23,7 +23,9 @@ aliases: []
 
 ## Key Concept
 
-Named in notes that link here ([[First Principles Thinking]]). Tension with [[There Is No Perfect Solution]] when the opposite frame fits better.
+Named in notes that link here ([[First Principles Thinking]]).
+
+Tension with [[There Is No Perfect Solution]] when the opposite frame fits better.
 
 ## Examples
 

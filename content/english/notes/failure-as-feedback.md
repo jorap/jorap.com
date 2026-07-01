@@ -23,7 +23,9 @@ aliases: []
 
 ## Key Concept
 
-Faith parallel: [[Loss of Reward]] - worthless works burn at the [[Judgment Seat]], but the builder is still saved through fire. The miss is feedback on what to build next, not proof you were never in.
+Faith parallel: [[Loss of Reward]] - worthless works burn at the [[Judgment Seat]], but the builder is still saved through fire.
+
+The miss is feedback on what to build next, not proof you were never in.
 
 ## Examples
 

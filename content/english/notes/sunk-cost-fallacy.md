@@ -27,7 +27,9 @@ aliases: ["Sunk Cost"]
 
 ## Key Concept
 
-Past effort is gone. I ask: if I found this today, would I start it? [[Forgiveness]] runs the same play on relational debt. [[Turn the Other Cheek]] adds the move: stop throwing more anger after sunk hurt.
+Past effort is gone.
+
+I ask: if I found this today, would I start it? [[Forgiveness]] runs the same play on relational debt. [[Turn the Other Cheek]] adds the move: stop throwing more anger after sunk hurt.
 
 ## Examples
 

@@ -31,7 +31,9 @@ aliases: ["wood hay and stubble", "works that burn", "1 corinthians 3 fire"]
 
 ## Key Concept
 
-Gold, silver, precious stones last. Wood, hay, stubble burn. The builder may be saved yet so as through fire - still in, with loss. [[Judgment Seat]] is where the fire test happens; [[Loss of Reward]] names the outcome; this note names the materials. [[Treasure in Heaven]] aims the heart at what to store; wood hay stubble warns what won't survive the review. [[Heart Righteousness]] and [[By Their Fruits]] test motive and outcome before the fire. PKM mirror: [[Failure as Feedback]] - burned work signals what to build differently, not proof you were never saved.
+Gold, silver, precious stones last.
+
+Wood, hay, stubble burn. The builder may be saved yet so as through fire - still in, with loss. [[Judgment Seat]] is where the fire test happens; [[Loss of Reward]] names the outcome; this note names the materials. [[Treasure in Heaven]] aims the heart at what to store; wood hay stubble warns what won't survive the review. [[Heart Righteousness]] and [[By Their Fruits]] test motive and outcome before the fire. PKM mirror: [[Failure as Feedback]] - burned work signals what to build differently, not proof you were never saved.
 
 ## Examples
 

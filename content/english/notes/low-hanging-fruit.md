@@ -27,7 +27,9 @@ aliases: ["Low-Hanging Fruit"]
 
 ## Key Concept
 
-Not every task deserves hero energy. Fix the broken link, publish the half-done draft, delete the folder I haven't opened in a year. Small, obvious, done today. I use it when I'm avoiding work by planning harder work.
+Not every task deserves hero energy.
+
+Fix the broken link, publish the half-done draft, delete the folder I haven't opened in a year. Small, obvious, done today. I use it when I'm avoiding work by planning harder work.
 
 ## Examples
 

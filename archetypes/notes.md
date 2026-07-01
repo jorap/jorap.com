@@ -18,6 +18,8 @@ draft: true
 
 ## Key Concept
 
-Why this note matters — stakes, distinctions, wikilinks. Optional; skip when the definition is enough.
+One sentence — the angle, not a second definition.
+
+Further explanation on the next paragraph: stakes, distinctions, [[wikilinks]]. Skip this section when the opening definition is enough.
 
 For habit spine notes (`review: true`), copy the frontmatter pattern from [/notes/flashcards/](/notes/flashcards/) or run `hugo new content/english/notes/my-note.md --kind notes-review`. Rules: double-quote every `front`, `back`, and set name; inline `card_sets: ["Set"]`; block list for `cards`; put `draft` last; do not add `| JoRap Notes` to `meta_title`. Don't `[[wikilink]]` utility pages (Graph, Issues, Flashcards, Review, Random Duo) — use URLs; see [[Getting Started]].

@@ -27,7 +27,9 @@ aliases: []
 
 ## Key Concept
 
-Named in notes that link here ([[Building a Personal API]]). Tension with [[Local-first Software]] when the opposite frame fits better.
+Named in notes that link here ([[Building a Personal API]]).
+
+Tension with [[Local-first Software]] when the opposite frame fits better.
 
 ## Examples
 

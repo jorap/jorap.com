@@ -27,7 +27,9 @@ Fleeting notes catch sparks. Evergreen notes hold truth. I need both lanes and a
 
 ## Key Concept
 
-Fleeting notes catch sparks; evergreen notes hold truth. Both lanes, clear promotion rules.
+Fleeting notes catch sparks; evergreen notes hold truth.
+
+Both lanes, clear promotion rules.
 
 ## Examples
 

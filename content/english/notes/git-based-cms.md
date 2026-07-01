@@ -23,11 +23,9 @@ aliases: ["Sveltia CMS", "Decap CMS", "git backed cms", "git based cms"]
 
 ## Key Concept
 
-I publish via Git directly. Clients often won't. Before I redirect them to WordPress, this is the middle path: marketing volunteer, pastor's secretary, family member posting updates - still static HTML out the other end, still free tier hosting if deploy volume stays sane. Git stays source of truth; the CMS is just another commit path. More setup than raw markdown (auth, config, media folders) - quote it, don't tuck it in "theme tweaks."
+I publish via Git directly.
 
-**When it fits [[Static Site Client Scope]]:** one or two non-technical editors, occasional posts, no member login, no cart. **When it doesn't:** five daily editors with workflows, private content, or "make it exactly like our old WordPress admin" without budget for config. Still say no to bad dynamic scope - CMS doesn't add a database.
-
-**Ops I don't skip:** treat the CMS like a small production app (auth, who can publish, which branch). Pin the same `HUGO_VERSION` on Cloudflare. Count CMS-triggered builds toward the monthly quota. [[Minimum Effective Dose]] for solo sites: skip the CMS layer entirely.
+Clients often won't. Before I redirect them to WordPress, this is the middle path: marketing volunteer, pastor's secretary, family member posting updates - still static HTML out the other end, still free tier hosting if deploy volume stays sane. Git stays source of truth; the CMS is just another commit path. More setup than raw markdown (auth, config, media folders) - quote it, don't tuck it in "theme tweaks." **When it fits [[Static Site Client Scope]]:** one or two non-technical editors, occasional posts, no member login, no cart. **When it doesn't:** five daily editors with workflows, private content, or "make it exactly like our old WordPress admin" without budget for config. Still say no to bad dynamic scope - CMS doesn't add a database. **Ops I don't skip:** treat the CMS like a small production app (auth, who can publish, which branch). Pin the same `HUGO_VERSION` on Cloudflare. Count CMS-triggered builds toward the monthly quota. [[Minimum Effective Dose]] for solo sites: skip the CMS layer entirely.
 
 ## Examples
 

@@ -27,7 +27,9 @@ aliases: []
 
 ## Key Concept
 
-Named in notes that link here ([[Getting Things Done]]). Tension with [[The Collector's Fallacy]] when the opposite frame fits better.
+Named in notes that link here ([[Getting Things Done]]).
+
+Tension with [[The Collector's Fallacy]] when the opposite frame fits better.
 
 ## Examples
 

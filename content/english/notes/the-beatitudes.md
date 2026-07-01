@@ -31,9 +31,9 @@ aliases: ["blessed are", "Beatitudes"]
 
 ## Key Concept
 
-"Beatitude" means supreme blessedness. Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not the self-sufficient - which fits [[Free Grace]] perfectly. "Poor in spirit" is bankruptcy before God, receiving the kingdom as gift rather than wage. Each line promises reward rooted in character shaped by grace, not self-made righteousness.
+"Beatitude" means supreme blessedness.
 
-| Trait | Promise |
+Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not the self-sufficient - which fits [[Free Grace]] perfectly. "Poor in spirit" is bankruptcy before God, receiving the kingdom as gift rather than wage. Each line promises reward rooted in character shaped by grace, not self-made righteousness. | Trait | Promise |
 |-------|---------|
 | Poor in spirit | Kingdom of heaven |
 | Mourning | Comfort |

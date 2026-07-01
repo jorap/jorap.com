@@ -31,9 +31,9 @@ draft: false
 
 ## Key Concept
 
-Paul contrasts **works of the flesh** (sexual immorality, jealousy, fits of anger, envy, and the rest in Galatians 5:19-21) with **fruit of the Spirit** - one vine, one cluster, grown over time. [[Abide in Me]] names the engine in John: branches bear fruit because they stay in the vine. [[Sanctification]] is the slow becoming that fruit marks. [[Grateful Obedience]] keeps the motive straight: fruit follows [[Grace]] already received, it doesn't pay for eternal life. [[Heart Righteousness]] is the inner standard the Spirit applies - not polished outside, poison inside. [[By Their Fruits]] uses the same word differently: discern teachers by outcome, not charisma - don't collapse the two jobs.
+Paul contrasts **works of the flesh** (sexual immorality, jealousy, fits of anger, envy, and the rest in Galatians 5:19-21) with **fruit of the Spirit** - one vine, one cluster, grown over time.
 
-| Fruit | Garden echo |
+[[Abide in Me]] names the engine in John: branches bear fruit because they stay in the vine. [[Sanctification]] is the slow becoming that fruit marks. [[Grateful Obedience]] keeps the motive straight: fruit follows [[Grace]] already received, it doesn't pay for eternal life. [[Heart Righteousness]] is the inner standard the Spirit applies - not polished outside, poison inside. [[By Their Fruits]] uses the same word differently: discern teachers by outcome, not charisma - don't collapse the two jobs. | Fruit | Garden echo |
 |-------|-------------|
 | Love | [[Love God]], [[Love Your Neighbor]], [[Love Your Enemies]] |
 | Joy | [[Assurance]] - rest on Christ, not this week's score |

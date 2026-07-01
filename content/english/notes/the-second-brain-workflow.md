@@ -27,7 +27,9 @@ CODE and PARA in one loop: capture to inbox, organize by project, distill on use
 
 ## Key Concept
 
-CODE and PARA in one loop starts with capture to inbox every day ([[Capture]]). Tension with [[Minimum Effective Dose]] when the full loop beats the smallest habit that works.
+CODE and PARA in one loop starts with capture to inbox every day ([[Capture]]).
+
+Tension with [[Minimum Effective Dose]] when the full loop beats the smallest habit that works.
 
 ## Examples
 

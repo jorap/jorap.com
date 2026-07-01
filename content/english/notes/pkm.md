@@ -27,7 +27,9 @@ aliases: ["Personal Knowledge Management"]
 
 ## Key Concept
 
-PKM is the plain name for the save-organize-use system getting started introduces ([[Getting Started]]). Tension with [[The Collector's Fallacy]] when building the system feels like progress without output.
+PKM is the plain name for the save-organize-use system getting started introduces ([[Getting Started]]).
+
+Tension with [[The Collector's Fallacy]] when building the system feels like progress without output.
 
 ## Examples
 

@@ -31,7 +31,9 @@ aliases: ["faith without works is dead", "works prove faith"]
 
 ## Key Concept
 
-Paul and James aren't two gospels fighting. Paul answers *how* I'm saved: trust Christ, not wages. James answers *what* living faith looks like: Abraham offered Isaac - faith already counted him righteous, then action proved it. [[Grateful Obedience]] names the motive: works prove faith alive because grace already saved, not to buy heaven. [[Justification]] is the verdict at faith. [[Sanctification]] and [[Discipleship]] are the walk where works appear. [[The Wise Builder]] is the picture: hear Jesus and do - sand collapses when hearing never becomes action. [[The Narrow Way]] and [[Loss of Reward]] split false "Lord, Lord" (never believed) from a believer who stumbles, repents, and may lose reward but stays saved.
+Paul and James aren't two gospels fighting.
+
+Paul answers *how* I'm saved: trust Christ, not wages. James answers *what* living faith looks like: Abraham offered Isaac - faith already counted him righteous, then action proved it. [[Grateful Obedience]] names the motive: works prove faith alive because grace already saved, not to buy heaven. [[Justification]] is the verdict at faith. [[Sanctification]] and [[Discipleship]] are the walk where works appear. [[The Wise Builder]] is the picture: hear Jesus and do - sand collapses when hearing never becomes action. [[The Narrow Way]] and [[Loss of Reward]] split false "Lord, Lord" (never believed) from a believer who stumbles, repents, and may lose reward but stays saved.
 
 ## Examples
 

@@ -27,7 +27,9 @@ aliases: ["Research Notes", "note taking for researchers"]
 
 ## Key Concept
 
-Collecting quotes isn't PKM for me. Synthesis is when learning starts - often with [[First Principles Thinking]] when a note is still someone else's words. The wiki holds borrowed lines; belief lives in prose I can ship.
+Collecting quotes isn't PKM for me.
+
+Synthesis is when learning starts - often with [[First Principles Thinking]] when a note is still someone else's words. The wiki holds borrowed lines; belief lives in prose I can ship.
 
 ## Examples
 

@@ -17,7 +17,9 @@ aliases: ["growth systems", "systems for growth"]
 
 ## Key Concept
 
-Each note below is one move I'd want running before I need results. [[Pressure Reveals Weakness]] covers what holds when heat rises; this hub covers what you install on ordinary Tuesdays.
+Each note below is one move I'd want running before I need results.
+
+[[Pressure Reveals Weakness]] covers what holds when heat rises; this hub covers what you install on ordinary Tuesdays.
 
 ## Mindset
 

@@ -27,7 +27,9 @@ aliases: ["hidden integrity", "honest work offstage", "integrity when no ones wa
 
 ## Key Concept
 
-Performance for the standup is its own reward and a small one. Some good work should stay hidden; some should shine in [[Let Your Light Shine]]. This note is the hidden lane: quality when the manager isn't looking. Gospel source: [[Secret Devotion]].
+Performance for the standup is its own reward and a small one.
+
+Some good work should stay hidden; some should shine in [[Let Your Light Shine]]. This note is the hidden lane: quality when the manager isn't looking. Gospel source: [[Secret Devotion]].
 
 ## Examples
 

@@ -27,7 +27,9 @@ aliases: []
 
 ## Key Concept
 
-Named in notes that link here ([[Associative Linking]]). Tension with [[Maps of Content]] when the opposite frame fits better.
+Named in notes that link here ([[Associative Linking]]).
+
+Tension with [[Maps of Content]] when the opposite frame fits better.
 
 ## Examples
 

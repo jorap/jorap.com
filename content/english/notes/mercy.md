@@ -31,7 +31,9 @@ draft: false
 
 ## Key Concept
 
-[[Grace]] gives good I couldn't earn; mercy spares bad I had coming. Ephesians 2:4-5 keeps them in one breath: rich in mercy, saved by grace. [[Free Grace]] is how that pair lands on eternal life - gift through faith, wrath withheld, heaven given. [[Forgiveness]] is mercy toward a debtor: release what you're owed because the King already cleared yours. [[The Beatitudes]] promise mercy to the merciful. [[Judge Not]] starts from the same ground - I needed mercy before I play judge. [[Love Your Neighbor]] and [[Love Your Enemies]] turn mercy outward: act for the hurt person, bless the persecutor. PKM mirror: [[Sunk Cost Fallacy]] in reverse - stop treating old hurt like a debt I'm still collecting when mercy already closed the ledger.
+[[Grace]] gives good I couldn't earn; mercy spares bad I had coming.
+
+Ephesians 2:4-5 keeps them in one breath: rich in mercy, saved by grace. [[Free Grace]] is how that pair lands on eternal life - gift through faith, wrath withheld, heaven given. [[Forgiveness]] is mercy toward a debtor: release what you're owed because the King already cleared yours. [[The Beatitudes]] promise mercy to the merciful. [[Judge Not]] starts from the same ground - I needed mercy before I play judge. [[Love Your Neighbor]] and [[Love Your Enemies]] turn mercy outward: act for the hurt person, bless the persecutor. PKM mirror: [[Sunk Cost Fallacy]] in reverse - stop treating old hurt like a debt I'm still collecting when mercy already closed the ledger.
 
 ## Examples
 

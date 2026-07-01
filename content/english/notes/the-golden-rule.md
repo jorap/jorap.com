@@ -35,7 +35,9 @@ aliases: ["do unto others", "Golden Rule"]
 
 ## Key Concept
 
-It's positive and active: *do* unto others, not merely avoid doing harm. The check is experiential - how would I want to be spoken to, helped, forgiven, included? That sets the floor for every interaction. [[Free Grace]] keeps it from becoming a merit system: I treat others well because Christ treated me well first.
+It's positive and active: *do* unto others, not merely avoid doing harm.
+
+The check is experiential - how would I want to be spoken to, helped, forgiven, included? That sets the floor for every interaction. [[Free Grace]] keeps it from becoming a merit system: I treat others well because Christ treated me well first.
 
 ## Examples
 

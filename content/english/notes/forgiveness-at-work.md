@@ -27,7 +27,9 @@ aliases: ["release the grudge at work"]
 
 ## Key Concept
 
-Forgiving isn't pretending it didn't hurt. It's refusing to collect forever on a debt that poisons my work. Seventy times seven ends the ledger-keeping. Gospel depth: [[Forgiveness]]. Same math as [[Sunk Cost Fallacy]] - stop treating old hurt as an asset I'm owed.
+Forgiving isn't pretending it didn't hurt.
+
+It's refusing to collect forever on a debt that poisons my work. Seventy times seven ends the ledger-keeping. Gospel depth: [[Forgiveness]]. Same math as [[Sunk Cost Fallacy]] - stop treating old hurt as an asset I'm owed.
 
 ## Examples
 

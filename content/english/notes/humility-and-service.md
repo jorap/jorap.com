@@ -31,7 +31,9 @@ aliases: ["servant leadership", "the last shall be first"]
 
 ## Key Concept
 
-He washed feet the night before the cross. Status in the kingdom runs opposite to the world's ladder: exalt yourself and you'll be humbled; humble yourself and you'll be exalted. Service is the path to kingdom reward and greatness before God - not the price of [[Free Grace]]. [[Faithful Steward]] is the parable shape: well done for faithful use of what He entrusted.
+He washed feet the night before the cross.
+
+Status in the kingdom runs opposite to the world's ladder: exalt yourself and you'll be humbled; humble yourself and you'll be exalted. Service is the path to kingdom reward and greatness before God - not the price of [[Free Grace]]. [[Faithful Steward]] is the parable shape: well done for faithful use of what He entrusted.
 
 ## Examples
 

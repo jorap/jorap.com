@@ -27,7 +27,9 @@ My personal API isn't OAuth - it's consistent frontmatter, wikilinks, and folder
 
 ## Key Concept
 
-My personal API isn't OAuth and microservices. It's structured context for future me and my tools without re-explaining everything.
+My personal API isn't OAuth and microservices.
+
+It's structured context for future me and my tools without re-explaining everything.
 
 ## Examples
 

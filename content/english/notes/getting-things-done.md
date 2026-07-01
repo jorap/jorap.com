@@ -27,7 +27,9 @@ aliases: []
 
 ## Key Concept
 
-Named in notes that link here ([[GTD vs PARA]]). Tension with [[Slow Productivity]] when the opposite frame fits better.
+Named in notes that link here ([[GTD vs PARA]]).
+
+Tension with [[Slow Productivity]] when the opposite frame fits better.
 
 ## Examples
 

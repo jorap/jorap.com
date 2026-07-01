@@ -27,7 +27,9 @@ aliases: ["de-escalate at work", "don't feed the reply-all war"]
 
 ## Key Concept
 
-Not passivity - I can still set boundaries and name facts. I just refuse to become what hurt me in the thread. Stop throwing anger after sunk hurt. Gospel source: [[Turn the Other Cheek]]. PKM parallel: [[Sunk Cost Fallacy]].
+Not passivity - I can still set boundaries and name facts.
+
+I just refuse to become what hurt me in the thread. Stop throwing anger after sunk hurt. Gospel source: [[Turn the Other Cheek]]. PKM parallel: [[Sunk Cost Fallacy]].
 
 ## Examples
 

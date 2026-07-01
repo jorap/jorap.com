@@ -18,7 +18,9 @@ Two notes from the garden, picked at random. I hit **Shuffle** for another pair.
 
 ## Key Concept
 
-Forced serendipity - two unrelated claims side by side so I notice links I forgot to make. Utility surface: URL only, not a wikilink target from content notes.
+Forced serendipity - two unrelated claims side by side so I notice links I forgot to make.
+
+Utility surface: URL only, not a wikilink target from content notes.
 
 ## See also
 

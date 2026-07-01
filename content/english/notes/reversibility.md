@@ -27,7 +27,9 @@ aliases: []
 
 ## Key Concept
 
-Named in notes that link here ([[Decision Quality]]). Tension with [[Finish Strong]] when the opposite frame fits better.
+Named in notes that link here ([[Decision Quality]]).
+
+Tension with [[Finish Strong]] when the opposite frame fits better.
 
 ## Examples
 

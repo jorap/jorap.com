@@ -31,7 +31,9 @@ aliases: ["leave your gift at the altar"]
 
 ## Key Concept
 
-Jesus elevates restored relationship over religious performance. Worship with an unreconciled heart is hollow. The initiative is on the one who knows there's a breach - leave the altar, go, be reconciled, then return. This is fellowship restored, not salvation re-earned: [[Free Grace]] already settled my standing before God ([[Standing vs Fellowship]]). Same discipline as [[Note Relationships]] in the garden: broken links between notes need typed repair - broken links between people need face-to-face repair first.
+Jesus elevates restored relationship over religious performance.
+
+Worship with an unreconciled heart is hollow. The initiative is on the one who knows there's a breach - leave the altar, go, be reconciled, then return. This is fellowship restored, not salvation re-earned: [[Free Grace]] already settled my standing before God ([[Standing vs Fellowship]]). Same discipline as [[Note Relationships]] in the garden: broken links between notes need typed repair - broken links between people need face-to-face repair first.
 
 ## Examples
 

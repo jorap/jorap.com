@@ -27,7 +27,9 @@ aliases: ["lead by serving"]
 
 ## Key Concept
 
-The corporate ladder rewards visibility; this principle runs the other way. Wash feet in the sprint, not only in the all-hands speech. Gospel depth: [[Humility and Service]]. I can explain this in a leadership book club without opening a sermon.
+The corporate ladder rewards visibility; this principle runs the other way.
+
+Wash feet in the sprint, not only in the all-hands speech. Gospel depth: [[Humility and Service]]. I can explain this in a leadership book club without opening a sermon.
 
 ## Examples
 

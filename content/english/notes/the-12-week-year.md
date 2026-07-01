@@ -27,7 +27,9 @@ Twelve-week years compress annual goals into quarters I actually feel. I map wik
 
 ## Key Concept
 
-Twelve-week arcs compress goals into review quarters you actually feel ([[Periodic Knowledge Review]]). Tension with [[Slow Productivity]] when quarterly intensity beats fewer deeper projects.
+Twelve-week arcs compress goals into review quarters you actually feel ([[Periodic Knowledge Review]]).
+
+Tension with [[Slow Productivity]] when quarterly intensity beats fewer deeper projects.
 
 ## Examples
 

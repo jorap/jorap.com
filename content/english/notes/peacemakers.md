@@ -31,7 +31,9 @@ aliases: ["blessed are the peacemakers"]
 
 ## Key Concept
 
-Peacemaking is work: reconciliation, truth spoken in love, de-escalation when others want a fight. It's not peace-at-any-price or avoiding hard conversations. The blessing ties peacemaking to family resemblance - acting like the Father who reconciled me to Himself through [[Free Grace]] before I reconciled with anyone.
+Peacemaking is work: reconciliation, truth spoken in love, de-escalation when others want a fight.
+
+It's not peace-at-any-price or avoiding hard conversations. The blessing ties peacemaking to family resemblance - acting like the Father who reconciled me to Himself through [[Free Grace]] before I reconciled with anyone.
 
 ## Examples
 

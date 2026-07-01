@@ -27,7 +27,9 @@ aliases: ["elimination before controls"]
 
 ## Key Concept
 
-Those safeguards can cut risk, but they still need correct human action every time. When a dangerous activity isn't required, swap it for a safer alternative and the failure never gets a chance to happen.
+Those safeguards can cut risk, but they still need correct human action every time.
+
+When a dangerous activity isn't required, swap it for a safer alternative and the failure never gets a chance to happen.
 
 ## Examples
 

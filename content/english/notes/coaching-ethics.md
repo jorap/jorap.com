@@ -27,7 +27,9 @@ aliases: []
 
 ## Key Concept
 
-Named in notes that link here ([[Develop, Don't Endanger]]). Tension with [[Life Before Achievement]] when the opposite frame fits better.
+Named in notes that link here ([[Develop, Don't Endanger]]).
+
+Tension with [[Life Before Achievement]] when the opposite frame fits better.
 
 ## Examples
 

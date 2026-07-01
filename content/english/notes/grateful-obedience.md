@@ -31,7 +31,9 @@ aliases: ["obedience from gratitude", "grateful response", "obey because saved"]
 
 ## Key Concept
 
-[[Discipleship]] is the daily walk; [[Sanctification]] is slow becoming. Grateful obedience is the posture: I obey because Christ already saved me, not to buy the ticket. [[Fruits of the Spirit]] is what shows up when the posture is real - love, patience, gentleness grown by the Spirit, not performed for credit. [[Faith and Works]] keeps the lanes straight - works prove faith alive, motive is thanks not wages. [[Abide in Me]] names the engine: fruit from staying connected, not self-powered grit to earn acceptance. [[Take Up Your Cross]] and [[Repent and Believe]] start the walk today - not after habits look respectable. PKM mirror: [[Process Over Outcomes]] - daily faithful obedience beats one heroic sprint I treat like proof I'm saved.
+[[Discipleship]] is the daily walk; [[Sanctification]] is slow becoming.
+
+Grateful obedience is the posture: I obey because Christ already saved me, not to buy the ticket. [[Fruits of the Spirit]] is what shows up when the posture is real - love, patience, gentleness grown by the Spirit, not performed for credit. [[Faith and Works]] keeps the lanes straight - works prove faith alive, motive is thanks not wages. [[Abide in Me]] names the engine: fruit from staying connected, not self-powered grit to earn acceptance. [[Take Up Your Cross]] and [[Repent and Believe]] start the walk today - not after habits look respectable. PKM mirror: [[Process Over Outcomes]] - daily faithful obedience beats one heroic sprint I treat like proof I'm saved.
 
 ## Examples
 

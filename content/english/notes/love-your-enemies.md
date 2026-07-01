@@ -31,7 +31,9 @@ aliases: ["bless those who curse you"]
 
 ## Key Concept
 
-Jesus overturned the tribal reading of "neighbor." Loving only people who love you back is ordinary; loving enemies is divine-shaped. Prayer and blessing are the practical handles - not agreement, not pretending harm didn't happen. The Father's free grace toward the unjust (Matthew 5:45) is the pattern: I love enemies because God loved me first.
+Jesus overturned the tribal reading of "neighbor." Loving only people who love you back is ordinary; loving enemies is divine-shaped.
+
+Prayer and blessing are the practical handles - not agreement, not pretending harm didn't happen. The Father's free grace toward the unjust (Matthew 5:45) is the pattern: I love enemies because God loved me first.
 
 ## Examples
 

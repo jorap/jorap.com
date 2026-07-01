@@ -31,7 +31,9 @@ aliases: ["non-retaliation", "resist not evil"]
 
 ## Key Concept
 
-Jesus rejected the limit of "eye for eye" as a personal ethic for disciples. The point isn't passivity toward all evil - it's refusing to become what hurt you. Same logic as [[Sunk Cost Fallacy]]: stop throwing more anger after sunk hurt. Goes further than [[The Golden Rule]] (proactive good) and pairs with [[Love Your Enemies]] (heart posture). [[Free Grace]] frees me to absorb cost without keeping score for heaven.
+Jesus rejected the limit of "eye for eye" as a personal ethic for disciples.
+
+The point isn't passivity toward all evil - it's refusing to become what hurt you. Same logic as [[Sunk Cost Fallacy]]: stop throwing more anger after sunk hurt. Goes further than [[The Golden Rule]] (proactive good) and pairs with [[Love Your Enemies]] (heart posture). [[Free Grace]] frees me to absorb cost without keeping score for heaven.
 
 ## Examples
 

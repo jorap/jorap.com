@@ -23,7 +23,9 @@ aliases: ["close the loop"]
 
 ## Key Concept
 
-A meeting needs follow-up. A decision needs execution. A mistake needs correction. A task needs verification. The loop closes when the downstream work is done.
+A meeting needs follow-up.
+
+A decision needs execution. A mistake needs correction. A task needs verification. The loop closes when the downstream work is done.
 
 ## Examples
 

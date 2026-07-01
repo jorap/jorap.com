@@ -17,7 +17,9 @@ aliases: ["OKF", "OKF Export"]
 
 ## Key Concept
 
-Authoring stays in Hugo (`[[wikilinks]]`, graph, flashcards); this bundle is the handoff copy for ChatGPT, agents, and tools outside the site. Regenerated on production build and via `npm run export:okf`.
+Authoring stays in Hugo (`[[wikilinks]]`, graph, flashcards); this bundle is the handoff copy for ChatGPT, agents, and tools outside the site.
+
+Regenerated on production build and via `npm run export:okf`.
 
 ## ChatGPT workflow
 

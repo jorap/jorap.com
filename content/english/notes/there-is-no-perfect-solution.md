@@ -27,7 +27,9 @@ Waiting for the perfect tool, plan, or answer feels responsible. It's often the 
 
 ## Key Concept
 
-Every real choice has tradeoffs - stop comparing real options to an imaginary perfect one. I pick what works tired and ship.
+Every real choice has tradeoffs - stop comparing real options to an imaginary perfect one.
+
+I pick what works tired and ship.
 
 ## Examples
 

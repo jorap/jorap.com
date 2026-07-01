@@ -23,7 +23,9 @@ aliases: ["plan the second move"]
 
 ## Key Concept
 
-Don't only rehearse the opening. Ask what happens after the other side adapts.
+Don't only rehearse the opening.
+
+Ask what happens after the other side adapts.
 
 ## Examples
 

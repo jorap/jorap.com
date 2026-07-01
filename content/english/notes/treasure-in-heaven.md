@@ -31,7 +31,9 @@ aliases: ["lay up treasure", "where your treasure is"]
 
 ## Key Concept
 
-Where your treasure is, there your heart will be. Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation. [[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life for faithfulness - not the entry fee. The [[Judgment Seat]] evaluates what lasts; [[Wood Hay Stubble]] names what burns vs survives the fire; [[Loss of Reward]] is when worthless treasure burns but you're still saved through fire. [[The Collector's Fallacy]] is the PKM mirror: hoarding saves and stuff on earth while nothing lasting gets stored.
+Where your treasure is, there your heart will be.
+
+Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation. [[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life for faithfulness - not the entry fee. The [[Judgment Seat]] evaluates what lasts; [[Wood Hay Stubble]] names what burns vs survives the fire; [[Loss of Reward]] is when worthless treasure burns but you're still saved through fire. [[The Collector's Fallacy]] is the PKM mirror: hoarding saves and stuff on earth while nothing lasting gets stored.
 
 ## Examples
 

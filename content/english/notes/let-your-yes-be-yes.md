@@ -31,7 +31,9 @@ aliases: ["truth telling", "simply let your yes be yes"]
 
 ## Key Concept
 
-Jesus deepened the law against false vows: disciples should be so truthful that extra oaths aren't needed. Anything beyond simple yes/no comes from evil - meaning manipulation, not that all contracts are sin. PKM parallel: [[Atomic Notes]] - one plain claim per page, no padded prose to sound smart. [[Integrity]] of speech is [[Heart Righteousness]], not performance for [[Let Your Light Shine]].
+Jesus deepened the law against false vows: disciples should be so truthful that extra oaths aren't needed.
+
+Anything beyond simple yes/no comes from evil - meaning manipulation, not that all contracts are sin. PKM parallel: [[Atomic Notes]] - one plain claim per page, no padded prose to sound smart. [[Integrity]] of speech is [[Heart Righteousness]], not performance for [[Let Your Light Shine]].
 
 ## Examples
 

@@ -31,7 +31,9 @@ aliases: ["give to Caesar", "Caesar and God"]
 
 ## Key Concept
 
-The coin bore Caesar's image; give it back to him. You bear God's image; give yourself to Him. Jesus avoids both revolutionary tax refusal and idolizing Rome. [[Seek the Kingdom First]] still ranks the kingdom above every earthly master, but that doesn't excuse dodging legitimate civic responsibility.
+The coin bore Caesar's image; give it back to him.
+
+You bear God's image; give yourself to Him. Jesus avoids both revolutionary tax refusal and idolizing Rome. [[Seek the Kingdom First]] still ranks the kingdom above every earthly master, but that doesn't excuse dodging legitimate civic responsibility.
 
 ## Examples
 

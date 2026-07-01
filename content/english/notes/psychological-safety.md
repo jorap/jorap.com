@@ -27,7 +27,9 @@ aliases: []
 
 ## Key Concept
 
-Join their framing before you redirect the blame ([[Follow Their Lead]]). Tension with [[Break the Escalation Cycle]] when the opposite frame fits better.
+Join their framing before you redirect the blame ([[Follow Their Lead]]).
+
+Tension with [[Break the Escalation Cycle]] when the opposite frame fits better.
 
 ## Examples
 

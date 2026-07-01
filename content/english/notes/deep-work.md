@@ -27,7 +27,9 @@ aliases: []
 
 ## Key Concept
 
-Protected focus blocks; [[Capture]] handles the rest ([[Capture]]). Tension with [[Mobile Capture Workflows]] when the opposite frame fits better.
+Protected focus blocks; [[Capture]] handles the rest ([[Capture]]).
+
+Tension with [[Mobile Capture Workflows]] when the opposite frame fits better.
 
 ## Examples
 

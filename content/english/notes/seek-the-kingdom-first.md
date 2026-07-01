@@ -35,7 +35,9 @@ aliases: ["seek ye first", "kingdom of God"]
 
 ## Key Concept
 
-The Sermon on the Mount ties this to not serving two masters (God and wealth) and to storing [[Treasure in Heaven]]. Kingdom isn't escape from earth - it's God's reign ordering my priorities today. Same job as [[Signal vs Noise]] in the PKM stack: what gets first place when everything feels urgent.
+The Sermon on the Mount ties this to not serving two masters (God and wealth) and to storing [[Treasure in Heaven]].
+
+Kingdom isn't escape from earth - it's God's reign ordering my priorities today. Same job as [[Signal vs Noise]] in the PKM stack: what gets first place when everything feels urgent.
 
 ## Examples
 

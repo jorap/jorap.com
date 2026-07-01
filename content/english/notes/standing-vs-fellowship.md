@@ -31,7 +31,9 @@ aliases: ["standing and fellowship", "position vs fellowship", "legal standing v
 
 ## Key Concept
 
-[[Free Grace]] secured eternal life once. Standing is the verdict: declared righteous on Christ, not re-opened by a bad week. Fellowship is closeness: joy, prayer, worship - choked by unconfessed sin, restored when I [[Repent and Believe]] and confess. [[Loss of Reward]] keeps reward-loss separate from salvation-loss; this note keeps fellowship-loss separate from standing-loss. [[Forgiveness]] toward others and [[Reconciliation Before Worship]] repair horizontal fellowship; confession repairs vertical. [[Sanctification]] keeps changing me without re-earning acceptance.
+[[Free Grace]] secured eternal life once.
+
+Standing is the verdict: declared righteous on Christ, not re-opened by a bad week. Fellowship is closeness: joy, prayer, worship - choked by unconfessed sin, restored when I [[Repent and Believe]] and confess. [[Loss of Reward]] keeps reward-loss separate from salvation-loss; this note keeps fellowship-loss separate from standing-loss. [[Forgiveness]] toward others and [[Reconciliation Before Worship]] repair horizontal fellowship; confession repairs vertical. [[Sanctification]] keeps changing me without re-earning acceptance.
 
 ## Examples
 

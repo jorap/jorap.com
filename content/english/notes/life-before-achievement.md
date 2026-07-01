@@ -27,7 +27,9 @@ aliases: ["life over achievement", "no achievement justifies death risk"]
 
 ## Key Concept
 
-Those goals have value only while the methods used to reach them respect safety. When an activity offers limited benefit but carries an avoidable risk of irreversible harm, leaders choose the safer course.
+Those goals have value only while the methods used to reach them respect safety.
+
+When an activity offers limited benefit but carries an avoidable risk of irreversible harm, leaders choose the safer course.
 
 ## Examples
 

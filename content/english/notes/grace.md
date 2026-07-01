@@ -31,7 +31,9 @@ draft: false
 
 ## Key Concept
 
-[[Mercy]] withholds what I deserve; grace gives what I couldn't earn. Same rescue, two angles - rich in mercy, saved by grace (Ephesians 2:4-5). [[Free Grace]] is grace applied to eternal life: Christ paid what I couldn't; I receive by faith, not wages. [[Justification]] names the verdict grace triggers - declared righteous at faith. [[Sanctification]] and [[Grateful Obedience]] are grace after the gift: grow and obey from thanks, not to buy acceptance. [[Forgiveness]] flows the same way - forgive because grace already cleared my debt. [[Assurance]] and [[Standing vs Fellowship]] keep a bad week from collapsing standing with closeness. PKM mirror: [[Minimum Effective Dose]] - faith is the smallest act that still works for salvation; grace is why one sufficient gift beats a lifetime merit ladder.
+[[Mercy]] withholds what I deserve; grace gives what I couldn't earn.
+
+Same rescue, two angles - rich in mercy, saved by grace (Ephesians 2:4-5). [[Free Grace]] is grace applied to eternal life: Christ paid what I couldn't; I receive by faith, not wages. [[Justification]] names the verdict grace triggers - declared righteous at faith. [[Sanctification]] and [[Grateful Obedience]] are grace after the gift: grow and obey from thanks, not to buy acceptance. [[Forgiveness]] flows the same way - forgive because grace already cleared my debt. [[Assurance]] and [[Standing vs Fellowship]] keep a bad week from collapsing standing with closeness. PKM mirror: [[Minimum Effective Dose]] - faith is the smallest act that still works for salvation; grace is why one sufficient gift beats a lifetime merit ladder.
 
 ## Examples
 

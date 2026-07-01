@@ -27,7 +27,9 @@ Tags, categories, dates, aliases - metadata should help me find notes, not becom
 
 ## Key Concept
 
-Tags and aliases help you find notes inside PARA buckets without taxonomy hell ([[PARA Method]]). Tension with [[Building a Personal API]] when light tags beat automation-ready frontmatter.
+Tags and aliases help you find notes inside PARA buckets without taxonomy hell ([[PARA Method]]).
+
+Tension with [[Building a Personal API]] when light tags beat automation-ready frontmatter.
 
 ## Examples
 

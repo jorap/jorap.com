@@ -31,7 +31,9 @@ aliases: ["Second Brain", "CODE Method"]
 
 ## Key Concept
 
-Remember CODE: [[Capture]], organize, distill, express. The system fails when any step is just for show. I review whether each step still earns its place every quarter.
+Remember CODE: [[Capture]], organize, distill, express.
+
+The system fails when any step is just for show. I review whether each step still earns its place every quarter.
 
 ## Examples
 

@@ -27,7 +27,9 @@ Notes are inventory. Output is the point - blog posts, sermons, code, dinner exp
 
 ## Key Concept
 
-Notes are inventory. Output is the point - ship posts, sermons, code on a deadline, in distraction-free focus.
+Notes are inventory.
+
+Output is the point - ship posts, sermons, code on a deadline, in distraction-free focus.
 
 ## Examples
 
