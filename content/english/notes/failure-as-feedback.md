@@ -37,6 +37,7 @@ The miss is feedback on what to build next, not proof you were never in.
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | alternative | [[Rollback Principle]] | Root-cause learning after calm - rollback is revert first |
+| extends | [[Blameless Postmortem]] | Miss becomes signal when nobody's hiding to keep their job |
 | contradicts | [[Integrity When No One's Watching]] | when "it's just feedback" excuses sloppy work nobody would ship on purpose |
 | extends | [[Convert Pain Into Learning]] | Feedback becomes useful when it produces change |
 | extends | [[Growth Mindset]] | Signal vs fixed identity |

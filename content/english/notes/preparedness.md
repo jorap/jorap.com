@@ -40,6 +40,7 @@ Preparedness is practicing and documenting moves before you need them at full sp
 |--------------|----------|--------|
 | contradicts | [[Low Hanging Fruit]] | when prep past the dose delays action on a problem that needed a move today |
 | extends | [[Build a Reliable Default]] | Prep builds the fallback |
+| extends | [[Change Window]] | Window assumes rehearsed undo path and someone on call |
 | extends | [[Eliminate Before Managing]] | Remove hazards where you can; prep for what must stay |
 | extends | [[Rollback Principle]] | Rehearse the undo path before the alarm owns the clock |
 | extends | [[Standard Operating Procedures]] | Written steps are prep you can share |

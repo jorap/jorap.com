@@ -43,6 +43,7 @@ Tension with [[There Is No Perfect Solution]] when the opposite frame fits bette
 | extends | [[Eliminate Before Managing]] | Named in notes that link here |
 | extends | [[Heed Every Near-Miss]] | Named in notes that link here |
 | extends | [[Rollback Principle]] | Named rollback is a control layer before irreversible harm |
+| extends | [[Staged Rollout]] | Limit exposure before you bet the whole lane |
 
 ## See also
 

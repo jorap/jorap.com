@@ -41,6 +41,7 @@ Tension with [[By Their Fruits]] when the opposite frame fits better.
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[By Their Fruits]] | when the opposite frame fits better |
+| extends | [[Blameless Postmortem]] | Blameless tone keeps investigation on system causes |
 | extends | [[Heed Every Near-Miss]] | Named in notes that link here |
 | extends | [[Own the Error]] | Named in notes that link here |
 

@@ -40,6 +40,7 @@ Name the mistake clearly, find what caused it, repair what broke, and change the
 |--------------|----------|--------|
 | contradicts | [[Forgiveness at Work]] | when public self-flagellation replaces fixing the system and moving on |
 | extends | [[Accountability]] | Clear ownership is the first repair step |
+| extends | [[Blameless Postmortem]] | Leader names the miss; room fixes the process, not the person |
 | extends | [[Growth Mindset]] | Mistakes are data when you don't treat them as identity |
 | extends | [[Heed Every Near-Miss]] | Owning the close call before it becomes harm |
 | extends | [[Integrity]] | Honest naming when excuses would be easier |

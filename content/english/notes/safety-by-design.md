@@ -43,6 +43,8 @@ Tension with [[Develop, Don't Endanger]] when the opposite frame fits better.
 | contradicts | [[Develop, Don't Endanger]] | when the opposite frame fits better |
 | extends | [[Eliminate Before Managing]] | Named in notes that link here |
 | extends | [[Hierarchy of Controls]] | Named in notes that link here |
+| extends | [[Rollback Principle]] | Rollback is undo-by-design when release goes loud |
+| extends | [[Staged Rollout]] | Fewer people hit before the hazard is proven safe |
 
 ## See also
 

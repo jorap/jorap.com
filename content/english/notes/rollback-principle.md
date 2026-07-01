@@ -40,14 +40,17 @@ If I can't explain the path back in one sentence, I'm not ready to ship.
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
+| alternative | [[Blameless Postmortem]] | Rollback first; postmortem after calm - not root-cause while users are down |
 | alternative | [[Failure as Feedback]] | Rollback is move first; root-cause learning comes after the site is calm |
 | contradicts | [[Ship It]] | when milestone pride blocks calling rollback Friday night |
 | contradicts | [[Sunk Cost Fallacy]] | when "we already deployed" blocks undoing a bad release |
 | extends | [[Build a Reliable Default]] | Rehearsed rollback is the default when deploys go loud |
+| extends | [[Change Window]] | Risky push only when revert crew is reachable |
 | extends | [[Own the Error]] | Revert fast, name it in the standup, fix after calm returns |
 | extends | [[Preparedness]] | Practice the undo path before the alarm owns the clock |
 | extends | [[Reversibility]] | Concrete undo path - not only "prefer reversible choices" |
 | extends | [[Risk Management]] | Named rollback is a control layer before irreversible harm |
+| extends | [[Staged Rollout]] | Small slice first keeps rollback cheap before everyone's affected |
 | extends | [[Standard Operating Procedures]] | Rollback steps belong in the runbook, not in someone's head |
 | implements | [[Free Tier Hosting Stack]] | Git revert and previous Cloudflare deploy are the rollback lane |
 

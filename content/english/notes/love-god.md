@@ -45,6 +45,7 @@ Heart (affections), soul (will and life), mind (thought), strength (effort). Und
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Don't Worry]] | when worry replaces trust |
+| extends | [[Free Grace]] | First call on a life already saved - love from grace received, not payment for eternal life |
 
 ## See also
 

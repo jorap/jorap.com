@@ -42,6 +42,7 @@ Tension with [[Standard Operating Procedures]] when the opposite frame fits bett
 |--------------|----------|--------|
 | contradicts | [[Standard Operating Procedures]] | when the opposite frame fits better |
 | extends | [[Eliminate Before Managing]] | Named in notes that link here |
+| extends | [[Rollback Principle]] | Named rollback is a control layer before irreversible harm |
 
 ## See also
 

@@ -36,6 +36,7 @@ SOPs are simple written steps for recurring work - so nobody improvises under st
 |--------------|----------|--------|
 | contradicts | [[Adaptability]] | when the script can't handle the novel case the runbook never saw |
 | extends | [[Build a Reliable Default]] | SOPs are shared defaults |
+| extends | [[Change Window]] | Written deploy windows belong in the runbook |
 | extends | [[Preparedness]] | Write the steps before the emergency |
 | extends | [[Rollback Principle]] | Rollback steps belong in the runbook, not in someone's head |
 | extends | [[Systems Thinking]] | Written steps are one visible part of the loop |

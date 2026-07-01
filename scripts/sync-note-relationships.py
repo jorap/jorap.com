@@ -137,6 +137,12 @@ ADD: dict[str, list[tuple[str, str, str]]] = {
     "slow-productivity": [
         ("alternative", "The 12 Week Year", "Few deep projects vs quarterly sprint when pace should slow"),
     ],
+    "staged-rollout": [
+        ("contradicts", "Ship It", "when blasting to everyone beats waiting for the small-slice signal"),
+        ("extends", "Reversibility", "Small blast radius makes undo cheap"),
+        ("extends", "Rollback Principle", "Staged slice is where you practice undo before everyone's affected"),
+        ("implements", "Free Tier Hosting Stack", "PR preview deploy before Pages merges to main"),
+    ],
     "spaced-repetition": [
         ("alternative", "The Feynman Technique", "Card drill vs explain-out-loud when scheduling beats narration"),
         ("implements", "Evergreen Notes", "SRS carries durable claims into phone review"),
@@ -172,15 +178,27 @@ ADD: dict[str, list[tuple[str, str, str]]] = {
     "there-is-no-perfect-solution": [
         ("alternative", "Pareto Principle", "Good-enough vs protect-the-vital-few when perfect is the enemy"),
     ],
+    "low-hanging-fruit": [
+        ("extends", "Pareto Principle", "Easy wins are often the vital slice - grab low fruit before hunting perfect 20%"),
+    ],
     "weekly-review-checklists": [
         ("alternative", "Minimum Effective Dose", "Full checklist vs smallest review when travel week shrinks time"),
     ],
     # Gospel — alternative where sibling practices compete, not fourth-type filler
+    "love-god": [
+        ("extends", "Free Grace", "First call on a life already saved - love from grace received, not payment for eternal life"),
+    ],
     "love-your-enemies": [
         ("alternative", "Turn the Other Cheek", "Enemy-love vs non-retaliation when the moment is personal insult"),
     ],
     "peacemakers": [
         ("alternative", "Love Your Enemies", "Make peace vs love enemies when the job is ending the fight"),
+    ],
+    "render-unto-caesar": [
+        ("extends", "Seek the Kingdom First", "Kingdom-first still pays lawful civic duty - coin to Caesar, self to God"),
+    ],
+    "repent-and-believe": [
+        ("extends", "Free Grace", "Kingdom entry is receive as gift - not earn by fixed habits first"),
     ],
     "humility-and-service": [
         ("alternative", "Let Your Light Shine", "Hidden service vs visible good when modesty hides the work"),
@@ -192,7 +210,17 @@ ADD: dict[str, list[tuple[str, str, str]]] = {
         ("contradicts", "First Principles Thinking", "when I treat gospel ethics as ideas I invented"),
     ],
     # Relationship connection cluster
-    "break-the-escalation-cycle": [
+    "blameless-postmortem": [
+        ("alternative", "Rollback Principle", "Rollback first; postmortem after calm - not root-cause while users are down"),
+        ("extends", "Incident Investigation", "Blameless tone keeps investigation on system causes"),
+        ("extends", "Own the Error", "Leader names the miss; room fixes the process, not the person"),
+    ],
+    "change-window": [
+        ("alternative", "Maintenance Window", "PKM prune schedule vs production deploy schedule"),
+        ("contradicts", "Ship It", "when milestone pride ships Friday at 5:01"),
+        ("extends", "Preparedness", "Window assumes rehearsed undo path and someone on call"),
+        ("extends", "Rollback Principle", "Risky push only when revert crew is reachable"),
+    ],
         ("extends", "Listen Before Fixing", "Hear before the sharp reply-all draft"),
         ("extends", "Name the Feeling", "Label the spike before it becomes the thread"),
         ("extends", "Set Calm Boundaries", "Calm limit stops the reply-all war"),

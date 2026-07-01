@@ -38,6 +38,7 @@ Reflect on what happened, pull out the lesson, design a better response, and tes
 | extends | [[Active Knowledge Curation]] | [[Capture]] the lesson or it rots in memory |
 | extends | [[Continuous Improvement]] | Each failure feeds the next iteration |
 | extends | [[Deliberate Practice]] | Target the weak slice, don't just repeat |
+| extends | [[Blameless Postmortem]] | Postmortem is the scheduled convert step after harm |
 | extends | [[Failure as Feedback]] | Pain is signal when you listen |
 | extends | [[Own the Error]] | Learning starts with honest naming |
 | extends | [[Pressure Reveals Weakness]] | Hard moments are the curriculum |

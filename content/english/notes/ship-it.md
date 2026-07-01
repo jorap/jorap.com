@@ -38,7 +38,9 @@ Freelance parallel: [[Selling Static Sites]] - ship the first client site before
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Attention to Detail]] | when the opposite frame fits better |
+| contradicts | [[Change Window]] | when milestone pride ships Friday at 5:01 |
 | contradicts | [[Rollback Principle]] | when milestone pride blocks calling rollback Friday night |
+| contradicts | [[Staged Rollout]] | when blasting to everyone beats waiting for the small-slice signal |
 | extends | [[Creative Output]] | Named in notes that link here |
 | extends | [[Minimum Viable Product]] | Named in notes that link here |
 | extends | [[Selling Static Sites]] | First paid client site before polishing the service brochure |

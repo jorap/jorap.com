@@ -39,6 +39,7 @@ Tension with [[The Collector's Fallacy]] when the opposite frame fits better.
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
+| alternative | [[Change Window]] | PKM prune schedule vs production deploy schedule |
 | contradicts | [[The Collector's Fallacy]] | when the opposite frame fits better |
 | extends | [[Periodic Knowledge Review]] | Named in notes that link here |
 | extends | [[Weekly Review Checklists]] | Named in notes that link here |

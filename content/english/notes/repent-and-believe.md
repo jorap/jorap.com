@@ -45,6 +45,7 @@ Belief is reliance on Christ's promise, not mere intellectual agreement. Under [
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[There Is No Perfect Solution]] | when I delay entry until I've fixed myself |
+| extends | [[Free Grace]] | Kingdom entry is receive as gift - not earn by fixed habits first |
 
 ## See also
 

@@ -39,6 +39,7 @@ Tension with [[Failure as Feedback]] when the opposite frame fits better.
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
+| contradicts | [[Blameless Postmortem]] | when "nobody died" ends the conversation without a postmortem |
 | contradicts | [[Failure as Feedback]] | when the opposite frame fits better |
 | extends | [[Heed Every Near-Miss]] | Named in notes that link here |
 

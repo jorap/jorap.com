@@ -55,6 +55,10 @@
     "created": "2026-06-22T09:33:11.829Z",
     "updated": "2026-07-01T13:11:06.683Z"
   },
+  "notes/blameless-postmortem.md": {
+    "created": "2026-07-01T13:29:29.673Z",
+    "updated": "2026-07-01T13:29:29.675Z"
+  },
   "notes/break-the-escalation-cycle.md": {
     "created": "2026-06-22T02:07:38.811Z",
     "updated": "2026-07-01T13:11:06.683Z"
@@ -78,6 +82,10 @@
   "notes/capture.md": {
     "created": "2026-06-22T02:07:38.811Z",
     "updated": "2026-07-01T13:11:06.686Z"
+  },
+  "notes/change-window.md": {
+    "created": "2026-07-01T13:29:43.037Z",
+    "updated": "2026-07-01T13:29:43.037Z"
   },
   "notes/childlike-faith.md": {
     "created": "2026-06-22T02:07:38.812Z",
@@ -125,7 +133,7 @@
   },
   "notes/convert-pain-into-learning.md": {
     "created": "2026-06-22T06:33:07.672Z",
-    "updated": "2026-07-01T13:11:06.691Z"
+    "updated": "2026-07-01T13:29:51.814Z"
   },
   "notes/crdt.md": {
     "created": "2026-06-22T09:33:11.829Z",
@@ -245,7 +253,7 @@
   },
   "notes/failure-as-feedback.md": {
     "created": "2026-06-22T06:36:13.231Z",
-    "updated": "2026-07-01T13:14:35.277Z"
+    "updated": "2026-07-01T13:29:51.071Z"
   },
   "notes/faith-and-works.md": {
     "created": "2026-06-28T17:10:51.876Z",
@@ -293,7 +301,7 @@
   },
   "notes/free-tier-hosting-stack.md": {
     "created": "2026-07-01T12:27:48.421Z",
-    "updated": "2026-07-01T13:11:39.119Z"
+    "updated": "2026-07-01T13:30:02.298Z"
   },
   "notes/fruits-of-the-spirit.md": {
     "created": "2026-07-01T11:56:06.431Z",
@@ -361,11 +369,11 @@
   },
   "notes/heed-every-near-miss.md": {
     "created": "2026-06-22T06:16:30.191Z",
-    "updated": "2026-07-01T13:11:39.141Z"
+    "updated": "2026-07-01T13:29:55.372Z"
   },
   "notes/hierarchy-of-controls.md": {
     "created": "2026-06-22T09:33:11.827Z",
-    "updated": "2026-07-01T13:11:39.141Z"
+    "updated": "2026-07-01T13:30:06.529Z"
   },
   "notes/humility-and-service.md": {
     "created": "2026-06-22T02:07:38.813Z",
@@ -377,7 +385,7 @@
   },
   "notes/incident-investigation.md": {
     "created": "2026-06-22T09:33:11.827Z",
-    "updated": "2026-07-01T13:11:39.143Z"
+    "updated": "2026-07-01T13:29:49.904Z"
   },
   "notes/information-diet.md": {
     "created": "2026-06-22T09:33:11.829Z",
@@ -425,7 +433,7 @@
   },
   "notes/learning-organizations.md": {
     "created": "2026-06-22T09:33:11.828Z",
-    "updated": "2026-07-01T13:11:39.156Z"
+    "updated": "2026-07-01T13:29:52.970Z"
   },
   "notes/let-your-light-shine.md": {
     "created": "2026-06-22T02:07:38.813Z",
@@ -457,7 +465,7 @@
   },
   "notes/love-god.md": {
     "created": "2026-06-22T02:07:38.813Z",
-    "updated": "2026-07-01T13:11:39.163Z"
+    "updated": "2026-07-01T13:26:08.090Z"
   },
   "notes/love-your-enemies.md": {
     "created": "2026-06-22T02:07:38.813Z",
@@ -469,11 +477,11 @@
   },
   "notes/low-hanging-fruit.md": {
     "created": "2026-06-22T02:07:38.813Z",
-    "updated": "2026-07-01T13:11:39.166Z"
+    "updated": "2026-07-01T13:24:35.917Z"
   },
   "notes/maintenance-window.md": {
     "created": "2026-06-22T09:33:11.829Z",
-    "updated": "2026-07-01T13:11:39.168Z"
+    "updated": "2026-07-01T13:30:07.973Z"
   },
   "notes/maps-of-content.md": {
     "created": "2026-06-22T02:07:38.813Z",
@@ -517,11 +525,11 @@
   },
   "notes/normalization-of-deviance.md": {
     "created": "2026-06-22T09:33:11.828Z",
-    "updated": "2026-07-01T13:11:39.192Z"
+    "updated": "2026-07-01T13:29:54.519Z"
   },
   "notes/note-relationships.md": {
     "created": "2026-06-22T02:07:38.813Z",
-    "updated": "2026-07-01T13:14:35.289Z"
+    "updated": "2026-07-01T13:24:32.141Z"
   },
   "notes/notice-the-good.md": {
     "created": "2026-06-22T16:11:45.868Z",
@@ -537,7 +545,7 @@
   },
   "notes/own-the-error.md": {
     "created": "2026-06-22T06:33:02.060Z",
-    "updated": "2026-07-01T13:11:39.194Z"
+    "updated": "2026-07-01T13:30:07.389Z"
   },
   "notes/para-method.md": {
     "created": "2026-06-22T02:07:38.813Z",
@@ -565,7 +573,7 @@
   },
   "notes/preparedness.md": {
     "created": "2026-06-22T06:35:28.660Z",
-    "updated": "2026-07-01T13:11:39.206Z"
+    "updated": "2026-07-01T13:30:03.917Z"
   },
   "notes/pressure-reveals-weakness.md": {
     "created": "2026-06-22T06:31:46.348Z",
@@ -617,11 +625,11 @@
   },
   "notes/render-unto-caesar.md": {
     "created": "2026-06-22T02:07:38.814Z",
-    "updated": "2026-07-01T13:11:39.217Z"
+    "updated": "2026-07-01T13:24:32.183Z"
   },
   "notes/repent-and-believe.md": {
     "created": "2026-06-22T02:07:38.814Z",
-    "updated": "2026-07-01T13:11:39.217Z"
+    "updated": "2026-07-01T13:24:33.329Z"
   },
   "notes/resilience.md": {
     "created": "2026-06-22T06:34:39.849Z",
@@ -629,7 +637,7 @@
   },
   "notes/reversibility.md": {
     "created": "2026-06-22T09:33:11.828Z",
-    "updated": "2026-07-01T13:11:39.218Z"
+    "updated": "2026-07-01T13:29:59.028Z"
   },
   "notes/review.md": {
     "created": "2026-06-22T02:07:38.814Z",
@@ -637,15 +645,15 @@
   },
   "notes/risk-management.md": {
     "created": "2026-06-22T09:33:11.827Z",
-    "updated": "2026-07-01T13:11:39.219Z"
+    "updated": "2026-07-01T13:29:59.833Z"
   },
   "notes/rollback-principle.md": {
     "created": "2026-06-30T04:48:40.483Z",
-    "updated": "2026-07-01T13:14:35.294Z"
+    "updated": "2026-07-01T13:29:48.774Z"
   },
   "notes/safety-by-design.md": {
     "created": "2026-06-22T09:33:11.827Z",
-    "updated": "2026-07-01T13:11:39.219Z"
+    "updated": "2026-07-01T13:30:01.539Z"
   },
   "notes/safety-comes-first.md": {
     "created": "2026-06-22T16:11:51.826Z",
@@ -693,7 +701,7 @@
   },
   "notes/ship-it.md": {
     "created": "2026-06-22T09:33:11.828Z",
-    "updated": "2026-07-01T13:11:39.227Z"
+    "updated": "2026-07-01T13:30:10.571Z"
   },
   "notes/signal-vs-noise.md": {
     "created": "2026-06-22T02:07:38.814Z",
@@ -719,9 +727,13 @@
     "created": "2026-06-22T02:07:38.814Z",
     "updated": "2026-07-01T13:14:35.297Z"
   },
+  "notes/staged-rollout.md": {
+    "created": "2026-07-01T13:29:36.776Z",
+    "updated": "2026-07-01T13:29:36.778Z"
+  },
   "notes/standard-operating-procedures.md": {
     "created": "2026-06-22T06:35:23.290Z",
-    "updated": "2026-07-01T13:11:39.231Z"
+    "updated": "2026-07-01T13:30:11.416Z"
   },
   "notes/standing-vs-fellowship.md": {
     "created": "2026-06-30T02:08:23.008Z",

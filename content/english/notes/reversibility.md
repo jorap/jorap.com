@@ -44,6 +44,7 @@ Tension with [[Finish Strong]] when the opposite frame fits better.
 | extends | [[Decision Quality]] | Named in notes that link here |
 | extends | [[Life Before Achievement]] | Named in notes that link here |
 | extends | [[Rollback Principle]] | Concrete undo path when the choice is a deploy or release |
+| extends | [[Staged Rollout]] | Small blast radius makes undo cheap |
 
 ## See also
 

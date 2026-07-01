@@ -52,6 +52,7 @@ Same pipeline for [[Selling Static Sites]] and my [[Digital Garden]] - markdown 
 | extends | [[Selling Static Sites]] | Default host for client static sites until limits force upgrade |
 | extends | [[Static Site Client Scope]] | Stack limits define what jobs fit |
 | implements | [[Rollback Principle]] | Git revert and previous Cloudflare deploy are the rollback lane |
+| implements | [[Staged Rollout]] | PR preview deploy before Pages merges to main |
 
 ## See also
 

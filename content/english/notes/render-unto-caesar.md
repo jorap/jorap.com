@@ -45,6 +45,7 @@ You bear God's image; give yourself to Him. Jesus avoids both revolutionary tax 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Treasure in Heaven]] | when I treat the state as ultimate lord |
+| extends | [[Seek the Kingdom First]] | Kingdom-first still pays lawful civic duty - coin to Caesar, self to God |
 
 ## See also
 

@@ -41,6 +41,7 @@ Fix the broken link, publish the half-done draft, delete the folder I haven't op
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when the easy win today beats waiting for the curve to bend |
+| extends | [[Pareto Principle]] | Easy wins are often the vital slice - grab low fruit before hunting perfect 20% |
 
 ## See also
 

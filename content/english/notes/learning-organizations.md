@@ -41,6 +41,7 @@ Tension with [[By Their Fruits]] when the opposite frame fits better.
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[By Their Fruits]] | when the opposite frame fits better |
+| extends | [[Blameless Postmortem]] | "What broke" line stays until fixed or accepted |
 | extends | [[Continuous Improvement]] | Named in notes that link here |
 | extends | [[Convert Pain Into Learning]] | Named in notes that link here |
 
