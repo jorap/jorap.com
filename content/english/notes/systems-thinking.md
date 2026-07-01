@@ -29,8 +29,6 @@ Systems thinking traces inputs, delays, and feedback - so you change the process
 
 - We lost every third possession on turnovers - systems thinking traced it to the warmup drill, not "focus harder tonight."
 - The restaurant ran out of rice on a busy Friday - systems thinking traced it to prep checklist and par levels, not "cook faster tonight."
-- Three missed school forms meant the morning routine needed a clipboard by the door, not louder reminders at 7:02.
-- The commute was late three Tuesdays in a row - systems thinking looked at sleep and prep the night before, not only leaving five minutes earlier.
 
 ## Note Relationships
 

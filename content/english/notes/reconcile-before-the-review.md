@@ -34,19 +34,17 @@ The person who knows there's a breach moves first - a short call, an owned apolo
 ## Examples
 
 - Strong stats for the scout meeting but my assistant coach was still cold from Tuesday - fifteen minutes with him before we sat with the scout beat hoping charts would smooth it.
-- Strong numbers for the quarterly review but my teammate was still cold from something I'd said - I made the short call and owned the apology before OKRs.
 - Strong notes for the parent-teacher meeting but my co-teacher was still cold from Tuesday - fifteen minutes with her before we sat with the parents.
-- The launch demo was ready but my neighbor sponsor was still hurt from a snub - coffee first, slides second.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[The Golden Rule at Work]] | when I want fair treatment but won't initiate repair |
-| extends | [[The Golden Rule]] | I'd want someone to fix the rift before judging my performance |
 | extends | [[Listen Before Fixing]] | Repair starts by hearing what still hurts |
 | extends | [[Note Relationships]] | Broken links between people need face-to-face repair like broken wikilinks |
 | extends | [[Reconciliation Before Worship]] | Relationship before ceremony - here, before the review or demo |
+| extends | [[The Golden Rule]] | I'd want someone to fix the rift before judging my performance |
 | implements | [[Follow Their Lead]] | Coffee first - go on their thread before the slides |
 
 ## See also

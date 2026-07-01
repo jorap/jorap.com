@@ -29,8 +29,6 @@ Before you react, buy enough mental space to understand what's happening, weigh 
 
 - Cut off in traffic, my first instinct matched horn for horn - slow the moment was one breath before I became the driver I hate.
 - Before the free throw with the game on the line, the shooter took one breath - slow the moment bought the routine instead of the panic heave.
-- My kid melted in the grocery aisle - slow the moment was one breath, quieter voice, question before consequence; the aisle got shorter, not louder.
-- ER triage nurses ask three questions before anyone sprints - speed without sorting kills.
 
 ## Note Relationships
 

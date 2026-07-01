@@ -33,10 +33,8 @@ Tension with [[Associative Linking]] when the opposite frame fits better.
 
 ## Examples
 
-- Film folders split by opponent and phase beat one dump called "misc clips" - I find the corner-kick reel in seconds now.
 - Tags for 'faith' and 'PKM' beat one junk drawer folder called 'misc' - classification scheme so I find things later.
 - School papers split into "sign," "keep," and "trash" trays beat one pile on the counter - taxonomy for the daily scramble.
-- Receipts sorted by taxes vs warranty vs trash beat one shoebox - folders and labels, boring on purpose.
 
 ## Note Relationships
 
@@ -44,7 +42,6 @@ Tension with [[Associative Linking]] when the opposite frame fits better.
 |--------------|----------|--------|
 | contradicts | [[Associative Linking]] | when the opposite frame fits better |
 | extends | [[Metadata Strategy]] | Named in notes that link here |
-| extends | [[PARA Method]] | Named in notes that link here |
 | extends | [[PARA Method]] | Named in notes that link here |
 
 ## See also

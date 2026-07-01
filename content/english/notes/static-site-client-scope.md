@@ -30,11 +30,7 @@ Redirect honestly to Shopify, WordPress, or a dynamic stack. [[Outcomes Over Pit
 ## Examples
 
 - Cafe owner wanted online ordering - out of scope; menu page plus link to existing delivery app.
-- Freelance designer needed portfolio and case studies - yes, static, live in a week.
-- Nonprofit wanted donor portal - no; brochure plus donate button to external processor.
-- Client said "just like our old WordPress" but meant five daily editors - wrong tool; didn't pretend Hugo was WordPress.
 - Gym wanted class schedule from booking SaaS - embed the vendor widget; static shell around it was fine.
-- Sales call checklist caught login requirement - redirected before I quoted a build I'd regret.
 
 ## Note Relationships
 

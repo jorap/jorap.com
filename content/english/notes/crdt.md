@@ -35,8 +35,6 @@ Tension with [[Building a Personal API]] when the opposite frame fits better.
 
 - My wife and I edited the grocery list on two phones offline and both items stayed - no "your version overwrote mine" argument in aisle four.
 - Two coaches edited the same lineup offline at a tournament and both changes merged - no "you must sync first" fight at the bench.
-- Two shift leads updated the patient board offline and both notes merged when Wi‑Fi came back - no lost handoff over who synced last.
-- Two phones edited the same list offline and both changes merged - no "you must sync first" fight.
 
 ## Note Relationships
 
@@ -44,7 +42,6 @@ Tension with [[Building a Personal API]] when the opposite frame fits better.
 |--------------|----------|--------|
 | contradicts | [[Building a Personal API]] | when the opposite frame fits better |
 | extends | [[Local-first Software]] | Named in notes that link here |
-| extends | [[Local-first Software]] | Named in notes that link here |. Pairs with [[Digital Minimalism]].
 
 ## See also
 

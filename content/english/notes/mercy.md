@@ -39,8 +39,6 @@ Ephesians 2:4-5 keeps them in one breath: rich in mercy, saved by grace. [[Free 
 
 - I prayed about forgiving others on autopilot and skipped that line because I'm still mad at my brother from last Sunday - you can't ask for mercy with one breath and hold a grudge with the next.
 - A coworker apologized again for the same mistake - mercy forgives from the heart; boundaries stay where trust still rebuilds.
-- I was about to quote a neighbor's failure online - who am I playing? Not their judge; I needed mercy first.
-- The Good Samaritan didn't ask if the robbed man deserved help - mercy showed up on the road, not in a courtroom.
 
 ## Note Relationships
 

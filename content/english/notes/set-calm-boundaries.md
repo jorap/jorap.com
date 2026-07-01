@@ -29,8 +29,6 @@ I name one clear limit in a steady voice - behavior, not character.
 
 - A teammate kept trash-talking our own bench - I pulled him aside: "Ride the refs if you want; don't go at our guys. That stops now." Same team, clear line.
 - A client kept calling my personal cell after hours - "I'll answer until six on this number; after that use the office line." No drama, no apology tour.
-- A neighbor's dog kept jumping our fence - "I like you; the dog can't be in our yard. Leash or fix the gap by Friday." Steady voice, one ask.
-- My kid yelled insults during a board game - "you can be mad; name-calling ends the game." We paused, reset, kept playing when the tone shifted.
 
 ## Note Relationships
 
@@ -39,7 +37,6 @@ I name one clear limit in a steady voice - behavior, not character.
 | contradicts | [[Follow Their Lead]] | when joining their world would mean accepting harm or disrespect |
 | extends | [[Emotional Regulation]] | Boundaries land better when I'm not mailing the first draft |
 | extends | [[Plain Commitments at Work]] | A clear yes/no line at home uses the same muscle as at work |
-| implements | [[Break the Escalation Cycle]] | A calm limit can stop a fight before it feeds itself |
 | implements | [[Break the Escalation Cycle]] | A calm limit can stop a fight before it feeds itself |
 
 ## See also

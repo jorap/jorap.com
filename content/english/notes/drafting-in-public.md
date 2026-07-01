@@ -33,14 +33,11 @@ I publish rough ideas before they're finished - drafting in public keeps the gar
 
 - I shared a draft SOP with the team before it was polished - silence would've let me pretend I understood the handoff.
 - I posted a rough footwork clip before I'd nailed the cue words - a teammate's comment fixed the line I'd been dodging in private notes.
-- I posted a rough arroz caldo recipe before I'd nailed the ginger amount - a neighbor's comment last month fixed the line I'd been dodging.
-- Drafting in public keeps the garden honest - rough ideas in the open grow faster than perfect drafts rotting in a folder.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| alternative | [[Digital Garden]] | Ship drafts vs slow garden when feedback must land this week |
 | contradicts | [[Evergreen Notes]] | when rough publish beats waiting for evergreen polish |
 | extends | [[Digital Garden]] | Publishing rough drafts is how a garden grows in public instead of staying private |
 | extends | [[Learning in Public]] | Swyx frame - ship drafts, invite feedback |

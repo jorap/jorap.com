@@ -33,8 +33,6 @@ Active curation means revisiting, pruning, and ordering notes - choosing what si
 
 - I do the same with my idea pile on the first Sunday - saved links I wouldn't act on today hit the trash, half-finished thoughts finally get linked.
 - Our trainer reviews the drill library every month and cuts what nobody runs anymore - same job as pruning notes that wouldn't make today's practice plan.
-- The head cook walks the walk-in every Monday and throws out whatever won't make this week's menu - twelve items gone, three worth keeping finally get a spot on the board.
-- The little free library on our block gets weeded every few months - stale paperbacks out, room for what neighbors actually swap.
 
 ## Note Relationships
 

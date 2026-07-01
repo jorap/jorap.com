@@ -28,9 +28,7 @@ Decision quality is how often your choices hold up after information, time, and 
 ## Examples
 
 - Signing a year-long club fee on one trial session is how people miss the schedule clash - decision quality was one call to a current member before we paid.
-- Buying supplies on one vendor quote is how clinics overpay - decision quality was checking last month's invoice before we reordered.
 - We almost picked the school on one sunny open house - one neighbor call about the flood-prone pickup lane changed our call before we signed.
-- Buying a house on one sunny open-house visit is how people miss the flood zone - decision quality was one neighbor call before we signed.
 
 ## Note Relationships
 

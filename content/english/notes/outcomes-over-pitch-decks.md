@@ -35,8 +35,6 @@ I look at downstream stress, turnover, delivery, and whether the team got health
 
 - The trainer's Instagram was polished - I asked two parents who finished the program about injuries and consistency.
 - The contractor's portfolio was gorgeous - I asked two neighbors who lived through the remodel about permit fights and cracked tile.
-- The tutor's brochure looked perfect - I asked one mom whether her kid actually passed after three months.
-- The phone plan salesman had slick slides - I asked my neighbor what his bill actually looked like month six.
 
 ## Note Relationships
 
@@ -45,7 +43,6 @@ I look at downstream stress, turnover, delivery, and whether the team got health
 | contradicts | [[Life Before Achievement]] | when judging by results would excuse lethal methods that "worked" |
 | contradicts | [[Signal vs Noise]] | when I can't tell a slick pitch from real signal |
 | extends | [[By Their Fruits]] | Discern teaching and leaders by outcome, not charisma |
-| extends | [[Signal vs Noise]] | What produces good over time - same filter in the office |
 | extends | [[Static Site Client Scope]] | Pick client stack by needed outcome, not by my preferred tool |
 
 ## See also

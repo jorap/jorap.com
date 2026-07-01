@@ -33,14 +33,11 @@ I cite sources so I can trust what I wrote and find the original six months late
 
 - I taped the coach's article title under the quote in our playbook so six months later we know if the source still says what we thought.
 - I tape the newspaper name under the quote on my kid's history project so six months later we know if the source still says what we thought.
-- I cite the link in my garden note not for academia - so I can trust my own synthesis and find the original six months later.
-- Without that source line our own summary starts to feel like gospel - intellectual sourcing is tracking where ideas come from.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| alternative | [[Progressive Summarization]] | Source-first citations vs bold layers when provenance must stay visible |
 | contradicts | [[Progressive Summarization]] | when citations beat distill-on-demand layers |
 | extends | [[Literature Notes]] | Source-first lane before synthesis |
 | extends | [[Synthesis as a Goal]] | You cite sources so your own synthesis stays trustworthy six months later |

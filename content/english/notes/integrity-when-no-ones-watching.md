@@ -33,10 +33,7 @@ Some good work should stay hidden; some should shine in [[Let Your Light Shine]]
 
 ## Examples
 
-- I logged the full practice hours when nobody audits the sheet - integrity when no one's watching is the hidden lane.
 - The market scale stays honest when the seller steps away to take a call - I could've scooped light on the last bag of rice; instead I re-weighed it before the customer came back.
-- I ran the real spelling check on the homework when my kid wasn't looking over my shoulder - accurate work when there's no audience.
-- I closed the support ticket correctly even though nobody would audit it this week - the test isn't the all-hands slide.
 
 ## Note Relationships
 

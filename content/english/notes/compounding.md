@@ -34,9 +34,7 @@ Heroic weeks feel good; boring repetition wins. The first months look like nothi
 ## Examples
 
 - Ten minutes of free throws every Tuesday looked pointless for months - then the percentage bent without me noticing the curve.
-- A line cook fixes one prep station flaw every Monday - small upgrades daily, not one yearly overhaul that never sticks.
 - My kid's piano practice looked pointless for a year - three songs a week, same scales, then year two the pieces started linking and suddenly she was playing music.
-- Our family morning checklist grew one line per forgotten backpack - six months later school mornings were boring in a good way because the small fixes stacked.
 
 ## Note Relationships
 

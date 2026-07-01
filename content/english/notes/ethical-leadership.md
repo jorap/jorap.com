@@ -35,8 +35,6 @@ Tension with [[Outcomes Over Pitch Decks]] when the opposite frame fits better.
 
 - I stopped the backyard wrestling match when someone was about to get hurt - same fun goal, safer path, even though the kids wanted the rougher version.
 - The coach killed the unsafe trust-fall drill when a safer team exercise achieved the same bonding goal - authority used to protect people, not to win at their expense.
-- The manager killed the unsafe team-building exercise when a safer option achieved the same goal.
-- Our building admin reported the broken stair rail to the owner instead of scheduling another photo day on it - tell the truth and protect people, not protect the event.
 
 ## Note Relationships
 
@@ -44,7 +42,6 @@ Tension with [[Outcomes Over Pitch Decks]] when the opposite frame fits better.
 |--------------|----------|--------|
 | contradicts | [[Outcomes Over Pitch Decks]] | when the opposite frame fits better |
 | extends | [[Life Before Achievement]] | Named in notes that link here |
-| extends | [[Servant Leadership]] | Named in notes that link here |
 | extends | [[Servant Leadership]] | Named in notes that link here |
 
 ## See also

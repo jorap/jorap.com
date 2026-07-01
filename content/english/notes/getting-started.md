@@ -31,11 +31,15 @@ Each note opens with a definition I can quote in one breath - the graph and back
 
 ## Atomic rule
 
-**One note = one claim** I'd cite in conversation. Opening line: definition I can quote in one breath. **## Key Concept** — one sentence first, then a second paragraph for stakes, distinctions, wikilinks — before examples. Optional **## Examples** (up to five concrete scenes, ranked best-first) when the claim needs it; required **## Note Relationships** table (extends + contradicts at minimum, sorted by type). No other `##` sections - link out instead. See [[Atomic Notes]] and [[Note Relationships]].
+**One note = one claim** I'd cite in conversation. Opening line: definition I can quote in one breath. **## Key Concept** - one sentence first, then a second paragraph for stakes, distinctions, wikilinks - before examples. Optional **## Examples
+
+
+
+## Note Relationships** table (extends + contradicts at minimum, sorted by relationship a-z then wikilink a-z, each wikilink once). No other `##` sections - link out instead. See [[Atomic Notes]] and [[Note Relationships]].
 
 **Key concept** - not a second definition. First paragraph: one sentence (the angle). Next paragraph: stakes, distinctions, wikilinks. Often mirrors `description` in frontmatter.
 
-**Examples** - plain bullets, no genre labels. Mid-action scenes I might hit this week: jeepney, clinic, group chat, bedtime, inbox. Each bullet shows the principle firing, not a definition or key concept restated.
+**Examples** - exactly two plain bullets from different fields, no genre labels. Mid-action scenes I might hit this week: jeepney, clinic, group chat, bedtime, inbox. Each bullet shows the principle firing, not a definition or key concept restated.
 
 ## Create a note
 

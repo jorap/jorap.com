@@ -39,14 +39,11 @@ It's not peace-at-any-price or avoiding hard conversations. The blessing ties pe
 
 - Two teammates were feuding in the locker room - I didn't pick a side, I asked what it would take to fix it before the next game.
 - Two coworkers wanted me to pick a side over lunch - I called the one I wronged first and asked what it would take to actually fix things.
-- Two friends feuding at dinner wanted me to pick a side - I called the one I wronged first and asked how to fix it, not keep the room quiet.
-- Neighbors were arguing over the fence line - I offered to measure together instead of nodding along with whoever complained loudest.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| alternative | [[Love Your Enemies]] | Make peace vs love enemies when the job is ending the fight |
 | contradicts | [[Love Your Enemies]] | when I confuse peace with never confronting wrong |
 | extends | [[Free Grace]] | Peacemaking mirrors the Father who reconciled you by grace before you reconciled with anyone |
 | extends | [[Fruits of the Spirit]] | Peace is one fruit; peacemaking is the active work Jesus blessed |

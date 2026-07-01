@@ -38,9 +38,7 @@ Under [[Free Grace]], discipleship is [[Grateful Obedience]] - grateful response
 ## Examples
 
 - I knew the basketball handbook cold and still yelled at the ref - discipleship isn't memorizing policy, it's doing what the coach actually taught today.
-- I had grace clear in my head and zero change in how I treated people at the front desk - following Jesus is messy daily obedience, not a badge from one training day.
 - I taught my kid the memory verse and still snapped over spilled milk - discipleship isn't a badge from one altar call, it's doing what Jesus said today.
-- My notes garden is full but the gospel rarely leaves my mouth - hearing without doing is hoarding truth like bookmarks instead of making disciples.
 
 ## Note Relationships
 

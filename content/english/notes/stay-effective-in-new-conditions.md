@@ -29,8 +29,6 @@ Real competence means staying useful outside ideal setups, familiar roles, and c
 
 - I walked the new counter before the lunch rush instead of defending last month's habits when the line got long.
 - Our guard dominates on the outdoor court and looks lost on the slick indoor floor for a week - staying effective means adjusting footwork, not defending yesterday's surface.
-- A great street-food cook still has to learn a new kitchen layout when the mall lease starts - same food, new tools.
-- Remote school broke our morning routine - we rebuilt a shorter version that worked on a laptop at the kitchen table, not the old rush-out-the-door script.
 
 ## Note Relationships
 

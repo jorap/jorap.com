@@ -39,8 +39,6 @@ Eternal rewards settle what the Father pays the saved life for walking faithfull
 
 - I stayed late to help reset the gym alone and immediately wanted to mention it at the next practice - the Father already saw it, and He's the one who pays, not the team chat.
 - I covered a coworker's shift without telling anyone and caught myself fishing for credit in the break room - gift first, repayment for faithfulness second, not a merit down payment on heaven.
-- I prayed for twenty minutes alone this morning and wanted to mention it at breakfast so someone would notice - the Father in secret is who repays, not the table.
-- I gave quietly at the neighborhood drive and felt discouraged nobody saw - eternal rewards means the Father sees hidden devotion and pays after salvation, not the audience at the curb.
 
 ## Note Relationships
 

@@ -39,8 +39,6 @@ Stewardship settles what I do with what He entrusted after. The master returns t
 
 - I organized snacks for my kid's team and wanted credit all week - faithful steward means using what He gave, not burying it or performing for applause.
 - One mission trip in my head as my whole eternal report card - the master reviews faithful use over years, including quiet Tuesdays nobody clapped for.
-- I compared my small platform to a friend's bigger audience and froze - stewardship asks what He gave *me*, not what someone else got.
-- Buried the talent at work - played it safe, never used the skill God gave - faithful steward uses it, not hides it in fear.
 
 ## Note Relationships
 

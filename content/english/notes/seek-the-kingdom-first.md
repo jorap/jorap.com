@@ -43,8 +43,6 @@ Kingdom isn't escape from earth - it's God's reign ordering my priorities today.
 
 - Tuesday at 7am the house was loud and my Bible was still closed - seek the kingdom first is Scripture before the day's noise sets the agenda.
 - Anxiety had me scrolling finances before I prayed - kingdom first meant pray, then act on the bills.
-- The goalie stretches before the locker-room noise - kingdom first is ten minutes of calm before the game sets the tone.
-- The bakery owner opens with a short prayer before the ovens - feed the kingdom line before the invoice pile.
 
 ## Note Relationships
 

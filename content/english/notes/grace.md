@@ -38,8 +38,6 @@ Same rescue, two angles - rich in mercy, saved by grace (Ephesians 2:4-5). [[Fre
 ## Examples
 
 - A teammate listed every good deed this month like it was his ticket to heaven - grace is the gift through faith, not the report card from the season.
-- I obeyed all week to feel saved again after snapping at my kid - wrong motive; grace already saved me; obedience answers with thanks.
-- My kid asked if being good gets you into heaven - grace is the gift first; obedience follows, it doesn't buy the door.
 - Romans 4 in my head but guilt still treats every bad week like a revoked passport - grace settled standing; the walk is a different category.
 
 ## Note Relationships

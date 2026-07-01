@@ -31,8 +31,6 @@ Client handoff uses the same split: [[Selling Static Sites]] workshop in my draf
 
 ## Examples
 
-- Draft posts live in my private folder; the blog gets the finished essay - I don't accidentally publish the mess.
-- The back kitchen holds experiments; the dining room plate is what's approved to leave - I don't confuse workshop with showroom.
 - The practice film library is messy; the highlight reel for parents is one clean cut - garage holds scraps, showroom shows the finished piece.
 - The garage holds half-finished projects and sawdust; the front porch shows the one bench I'd invite a neighbor to sit on.
 
@@ -40,7 +38,6 @@ Client handoff uses the same split: [[Selling Static Sites]] workshop in my draf
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| alternative | [[Digital Garden]] | Private garage vs public growth when drafts need shelter |
 | contradicts | [[Drafting in Public]] | when private workshop beats publishing half-baked notes |
 | extends | [[Digital Garden]] | The garage is messy workshop; the garden showroom is public - you need both lanes |
 | extends | [[Selling Static Sites]] | Client site stays showroom; experiments stay in the garage |

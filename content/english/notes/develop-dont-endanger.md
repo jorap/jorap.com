@@ -35,8 +35,6 @@ A demanding drill needs a clear purpose, a measurable benefit, qualified supervi
 
 - The clinic can drill fire evacuation with a walk-through - not by blocking the only exit and hoping everyone stays calm.
 - A conditioning set can build endurance - an uncontrolled water exercise adds lethal risk without improving sport-specific performance; pick the drill that develops the skill.
-- Swim lessons in the shallow end beat throwing a non-swimmer into deep water to "build toughness" - challenge without endangering.
-- The scout hike can build endurance on marked trails with water stops - not by sending kids off-trail in heat without a map.
 
 ## Note Relationships
 
@@ -52,7 +50,6 @@ A demanding drill needs a clear purpose, a measurable benefit, qualified supervi
 | extends | [[Psychological Safety]] | People can't learn when fear of death sits in the room |
 | extends | [[Safety Comes First]] | Following their lead stops when the drill endangers them |
 | extends | [[Servant Leadership]] | The leader who serves protects growth - doesn't sacrifice people to prove a culture |
-| extends | [[Sustainable Performance]] | Long-term pace beats short-term brutality as proof of culture |
 
 ## See also
 

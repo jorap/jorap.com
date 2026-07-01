@@ -39,8 +39,6 @@ Jesus wasn't praising ignorance - he was naming the posture [[Free Grace]] and [
 
 - My daughter asked for water at practice without calculating whether she'd earned it - I caught myself running a merit scoreboard with God before I'd even say good morning.
 - I delay prayer until my week looks respectable - childlike faith means I come like a kid who already belongs, not a contractor negotiating terms.
-- The new hire asked a "dumb" question in orientation without negotiating whether she deserved an answer - childlike faith is receive, not perform expertise you don't have yet.
-- My daughter asked for a snack without calculating whether she'd been good enough today - same posture Jesus names: stop earning points, receive the gift.
 
 ## Note Relationships
 

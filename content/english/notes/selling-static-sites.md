@@ -39,9 +39,6 @@ I already run [jorap.com](/) on Hugo, GitHub, and Cloudflare Pages for about the
 
 - Neighbor asked for a portfolio - quoted build plus domain; hosting on Cloudflare free until her push volume gets weird.
 - Pastor wanted a sermon archive - static fit; said no to member login and scoped brochure plus archive pages only.
-- I almost bundled monthly "hosting" like my old PHP days - pitch is faster site, lower ongoing cost, paid once for work that matters.
-- First paid client before the three-tier pricing PDF - learned migration takes longer than theme tweaks; adjusted the next quote.
-- Client asked if I could "just host it like before" - plain yes: free tier on Cloudflare, you buy the domain, I charge for build and handoff.
 
 ## Note Relationships
 

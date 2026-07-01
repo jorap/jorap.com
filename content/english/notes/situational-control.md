@@ -33,8 +33,6 @@ Situational control is using the levers available - pace, venue, agenda, boundar
 
 - My sister and I were fighting past the kids' bedtime - situational control was a fifteen-minute break and a promise to pick it up tomorrow.
 - Down twelve at halftime, our captain called a timeout she didn't need - situational control was slowing the game, not surrendering to their pace.
-- The meeting was going sideways - situational control was "let's take ten and come back with an agenda," not letting the loudest voice own the room.
-- A good host ends the party before the stereo gets louder - they control the evening, not the loudest guest.
 
 ## Note Relationships
 

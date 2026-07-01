@@ -39,8 +39,6 @@ Wood, hay, stubble burn. The builder may be saved yet so as through fire - still
 
 - Wood-hay-stubble week and dread like I'm facing hell - saved through fire means some work burns; standing on Christ stays ([[Loss of Reward]]).
 - Years of busy church work that mostly fed my ego - motive-tested at the judgment seat; worthless work burns, faithful work lasts.
-- One visible heroic volunteer week masking empty years at home - Christ tests what it's built of, not the hype week.
-- Burned work after a selfish season felt like proof I was never saved - feedback on what to build next, not revoked eternal life.
 
 ## Note Relationships
 

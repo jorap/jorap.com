@@ -28,9 +28,7 @@ A project, conversation, competition, or responsibility isn't successful until t
 ## Examples
 
 - I cleared the table after dinner but left the pots soaking - the smell woke us at 3 a.m.; finish strong was the ten-minute scrub and trash run.
-- I packed for the trip but forgot to lock the back gate - starting well proves you can begin; finishing well proves you can close what you open.
 - We led at halftime and coasted the third quarter - finish strong was closing the last set, not celebrating after the first fast lap.
-- The shop opened on time but left the back room half-stocked - finish strong is the unglamorous tail that actually completes the job.
 
 ## Note Relationships
 

@@ -29,8 +29,6 @@ I name the specific helpful thing they did - not vague good job.
 
 - After practice I told the kid who boxed out every drill: "Your rebounds won that scrimmage - keep sealing like that." He knew exactly what to repeat.
 - I emailed the intern: "You caught the duplicate invoice before I did - that saved us a call." Specific beats a generic thanks slide.
-- I told my spouse: "You texted you'd be late before I had to ask - that took stress off dinner." One action named, easy to repeat.
-- My kid cleared the table without being asked - "you saw the mess and handled it; that helps the whole night." Not "you're so good."
 
 ## Note Relationships
 
@@ -40,7 +38,6 @@ I name the specific helpful thing they did - not vague good job.
 | extends | [[Continuous Improvement]] | Naming what worked feeds the next rep |
 | extends | [[Process Over Outcomes]] | I reinforce the behavior in the loop, not only the score |
 | extends | [[The Golden Rule]] | Specific praise is how I'd want to be treated |
-| implements | [[Follow Their Lead]] | Sometimes the best lead to follow is the good thing they already did |
 | implements | [[Follow Their Lead]] | Sometimes the best lead to follow is the good thing they already did |
 
 ## See also

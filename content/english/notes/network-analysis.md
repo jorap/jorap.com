@@ -33,10 +33,7 @@ Tension with [[Maps of Content]] when the opposite frame fits better.
 
 ## Examples
 
-- The playbook diagram showed one motion offense linking twelve other sets - that was the doorway I'd simplify first.
-- The org chart showed one coordinator linking twelve others - that's where I'd add backup before peak season.
-- The chore chart showed one kid linking every task - the bottleneck we fixed first.
-- The garden graph showed one note linking twelve others - that's the doorway I'd prune first.
+
 
 ## Note Relationships
 
@@ -44,7 +41,6 @@ Tension with [[Maps of Content]] when the opposite frame fits better.
 |--------------|----------|--------|
 | contradicts | [[Maps of Content]] | when the opposite frame fits better |
 | extends | [[Associative Linking]] | Named in notes that link here |
-| extends | [[Graph View Analytics]] | Named in notes that link here |
 | extends | [[Graph View Analytics]] | Named in notes that link here |
 
 ## See also

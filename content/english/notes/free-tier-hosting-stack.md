@@ -39,9 +39,6 @@ Same pipeline for [[Selling Static Sites]] and my [[Digital Garden]] - markdown 
 
 - JoRap.com on this stack for months - domain is the only recurring bill I notice.
 - Build failed until Hugo was pinned - env var on every new project template now.
-- Client wanted daily CMS auto-deploy fantasy - counted builds per month; static plus Git pushes stay inside free tier for normal humans.
-- Shop hit file count on a bloated theme - trimmed assets before anyone paid for Pro.
-- Submodule theme broke Pages until I enabled submodule cloning in project settings.
 
 ## Note Relationships
 

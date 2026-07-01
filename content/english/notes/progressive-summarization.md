@@ -35,8 +35,6 @@ Layer two: highlight the best bold. Layer three: summary at top - only when I re
 
 - I open the playbook notes a second time and bold three plays, then star one for this week's install.
 - I open the vendor contract a second time and bold three clauses, then highlight one before I sign.
-- I open the PTA newsletter for the second time and circle three dates, then star one - sticky on the fridge only when I'm blocking the calendar.
-- I reread the community meeting recap and bold three action items - summary at the top only when I'm actually doing something with it.
 
 ## Note Relationships
 
@@ -46,7 +44,6 @@ Layer two: highlight the best bold. Layer three: summary at top - only when I re
 | contradicts | [[Synthesis as a Goal]] | when bold layers beat rewriting into what I believe |
 | extends | [[Building a Second Brain]] | Bold-then-highlight distillation is CODE's distill step |
 | extends | [[Layered Reading]] | Bold/highlight layers before rewrite - same distill move |
-| implements | [[Building a Second Brain]] | Highlight layers carry CODE's distill step |
 
 ## See also
 

@@ -38,9 +38,7 @@ The antidote isn't denial - it's priority: [[Seek the Kingdom First]], and let t
 ## Examples
 
 - I thumb-refresh the news about tomorrow's meeting instead of sleeping - worry can't add a single hour to life, and tomorrow can carry its own trouble.
-- I woke up at 2am replaying next month's payroll like anxiety could cut the checks - don't worry means seek the kingdom first, then act on today's actual numbers.
 - My kid asked what if the school fee goes up next year and I started spiraling at bedtime - trust is active dependence on a Father who already gave what I can't earn.
-- I replayed tomorrow's tournament bracket at 2am like worry could seed the draw - Jesus wasn't telling me to pretend the game doesn't exist, He was telling me to stop acting like I'm running the universe.
 
 ## Note Relationships
 

@@ -34,9 +34,7 @@ It's structured context for future me and my tools without re-explaining everyth
 ## Examples
 
 - Our pantry uses the same rule - snacks, baking, breakfast - my wife finds the rice without me re-explaining where everything lives.
-- My notes use consistent slugs and wikilinks so future me and my tools can read the garden without me re-explaining every file from scratch.
 - Our team names drills the same way every season - level, skill, variation - so a sub can run practice without a twenty-minute briefing.
-- The warehouse labels every bin the same way - aisle, shelf, code - so a new hire finds parts without asking, not a tour from the veteran.
 
 ## Note Relationships
 

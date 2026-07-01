@@ -33,8 +33,6 @@ Paper capture uses the same inbox rule as digital - for meetings, sermons, and d
 
 - The phone dies mid-sermon and I scribble Philippians references in the margin - I copy them into my study Bible at the kitchen table Sunday night.
 - Stuck in a dead-zone meeting, I jot the action items on the back of the agenda instead of pretending I'll remember them at the car.
-- My phone died mid-game and the pocket notebook still had the set counts - same capture, no battery required.
-- The contractor sketches room dimensions on a napkin at the site walk - paper wins when the tablet won't load and the client is standing there.
 
 ## Note Relationships
 

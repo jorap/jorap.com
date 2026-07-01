@@ -38,9 +38,7 @@ The cross isn't suffering for suffering's sake; it's choosing God's will over se
 ## Examples
 
 - I had one big surrender moment last year and went back to the same comfortable sin - Jesus said daily: pick it up again today.
-- Turning down the easy shortcut at work because I know it's wrong - cross isn't suffering for show; it's choosing God's will over self-will again today.
 - The veteran skips the post-game party to drive a rookie home - daily cross is the costly obedience when comfort is right there.
-- The manager took the blame upward on the bad quarter instead of passing it to the junior who'd flagged the risk - cross-bearing costs something real.
 
 ## Note Relationships
 

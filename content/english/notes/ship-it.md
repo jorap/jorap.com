@@ -31,10 +31,7 @@ Freelance parallel: [[Selling Static Sites]] - ship the first client site before
 
 ## Examples
 
-- We ran the new play ugly in scrimmage instead of drilling it another month - feedback beat perfection on the whiteboard.
 - The menu went live with one typo fixed after service - customers ate tonight instead of another week of proofreading.
-- The birthday slideshow shipped with one rough slide - the kid laughed at the candid; another month in iMovie would've missed the party.
-- The blog post went live with one rough paragraph - feedback beat another month in drafts.
 
 ## Note Relationships
 

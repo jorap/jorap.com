@@ -33,8 +33,6 @@ Creative blocks aren't solved by more capture - one small ship action usually un
 
 - My kid stared at a blank training log for twenty minutes - I told her to write one messy line about today's warmup and the block lifted once something existed on the paper.
 - The new hire couldn't start the report - I said write one ugly paragraph about yesterday's customer call and the rest followed.
-- My daughter stared at a blank worksheet for twenty minutes - I told her to write one messy sentence about breakfast and the block lifted once something existed on the paper.
-- I do the same when I'm stuck on a post - one ugly paragraph, then the rest can follow; more capture won't unstick me.
 
 ## Note Relationships
 
@@ -42,7 +40,6 @@ Creative blocks aren't solved by more capture - one small ship action usually un
 |--------------|----------|--------|
 | contradicts | [[Capture]] | when one ship action beats capturing my way out of stuck |
 | extends | [[Creative Output]] | More capture won't unstick you - blocks need output fixes, not more notes |
-| extends | [[Writer's Block]] | Named stuck state this note tries to break |. Pairs with [[Inbox Zero]].
 
 ## See also
 

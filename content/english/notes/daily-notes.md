@@ -33,18 +33,14 @@ Daily notes are a scratch pad for the day - fleeting by default, with interstiti
 
 - Today's pocket slip is just fragments - pick up basketball shoes, ice after practice, call coach back - I promote one line to a real note when it repeats.
 - Today's pocket slip is just fragments: pick up cleats, dentist Tuesday, call Mom back - I promote one line to the family calendar Sunday if it keeps showing up; the rest can fade.
-- My shift log is fragments - restock bay three, call vendor, fix label printer - not a diary, just today's scratch pad until review.
-- The commute note catches "pay Meralco, renew OR" before it vanishes - daily notes are low-stakes logs, not permanent by default.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| alternative | [[Fleeting Notes]] | Dated scratch vs title-only fleeting when the pad is today's lane |
 | contradicts | [[Evergreen Notes]] | when fleeting capture beats polishing for permanence |
 | extends | [[Capture]] | Daily notes catch today's sparks before they vanish from your head |
 | extends | [[Fleeting Notes]] | Scratch-pad lane before anything goes evergreen |
-| implements | [[Capture]] | Daily scratch carries the capture habit before anything goes evergreen |
 
 ## See also
 

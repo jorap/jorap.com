@@ -32,8 +32,6 @@ Sustainable performance is output you can keep without burning out or cutting co
 ## Examples
 
 - I can't sprint bedtime-and-homework heroics five nights a row - sustainable performance is an earlier lights-out one night so Thursday doesn't blow up.
-- I stopped answering work email at midnight - a pace I can repeat next month beats tonight's heroic reply.
-- Coffee gets you through one shift; sleep gets you through a season - sustainable performance isn't playing hurt three weeks straight to save tonight's win.
 - The kitchen ran Friday pace five nights straight and quality slid by Wednesday - sustainable performance would've cut a night off instead of mortgaging next week's tickets.
 
 ## Note Relationships

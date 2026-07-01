@@ -34,8 +34,6 @@ If I can't explain the path back in one sentence, I'm not ready to ship.
 ## Examples
 
 - Bad Friday deploy - I reverted in standup, said my call, fixed Monday. Users got the old build before lunch; postmortem waited until the site was calm.
-- The restaurant tried a new sauce but kept the old batch in the warmer until the first table cleared their plates - rollback was ladles, not a meeting.
-- We tried a stricter screen-time rule and left the old routine on the fridge for a week - Tuesday meltdowns meant revert that night, not "give it two more weeks."
 - The point guard ran Tuesday's inbound at halftime when the new play bled points - rollback was the drill they'd already walked, not a whiteboard invention.
 
 ## Note Relationships

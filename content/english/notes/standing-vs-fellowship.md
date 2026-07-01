@@ -39,8 +39,6 @@ Standing is the verdict: declared righteous on Christ, not re-opened by a bad we
 
 - I snapped at my kid and dread hit like God revoked my heaven ticket - standing was settled at faith; I confessed and walked the closeness back.
 - Hidden sin exposed and shame screamed I'm not saved - justified on Christ already; fellowship needed repair, not a new salvation transaction.
-- Worship felt hollow after an unresolved fight with my wife - [[Reconciliation Before Worship]]: fellowship broke, not my standing before God.
-- A friend said God turned His back because she messed up - one sentence back: standing on Christ stays; confess and come close again.
 
 ## Note Relationships
 

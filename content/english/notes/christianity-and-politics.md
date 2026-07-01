@@ -39,9 +39,6 @@ Live as a citizen under lawful government and as a disciple under Christ - pay c
 
 - Tax bill landed and part of me wanted to treat paying it like betraying the kingdom - [[Render Unto Caesar]]: lawful duty and ultimate worship stay distinct.
 - Group chat turned tribal after the election and my thumb hovered on a dunk - bless the neighbor, don't baptize the rage.
-- Candidate lost and dread hit like God's plan failed - Christ reigns; Rome wasn't Lord on Caesar's coin either.
-- Church friend said vote their way or you're not faithful - ultimate allegiance is Christ, not my ballot.
-- News scroll at 11pm felt more urgent than morning prayer - [[Signal vs Noise]]: kingdom first, not every push notification.
 
 ## Note Relationships
 

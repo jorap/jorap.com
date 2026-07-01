@@ -33,9 +33,6 @@ Tension with [[There Is No Perfect Solution]] when the opposite frame fits bette
 
 ## Examples
 
-- I moved the bike rack off the blind corner before adding another mirror - name what can go wrong, then pick the strong control.
-- We moved the hydration table off the sprint lane before buying more caution tape - eliminate before manage.
-- We moved the hot oil station away from the walk lane before buying more warning signs - eliminate before manage.
 - We moved the space heater off the rug before lecturing the kids again about not touching it.
 
 ## Note Relationships

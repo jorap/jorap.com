@@ -31,8 +31,6 @@ Build the smallest test, measure, learn - don't scale before validation.
 
 ## Examples
 
-- I posted one sample lunch-box photo in the group chat before buying a month's worth of new containers - saved money on the wrong feature.
-- Ten users on a landing page before I built the full app - saved a month on the wrong feature.
 - Ten parents signed a waitlist before we booked the full tournament venue - smallest test, measure interest, learn before scaling.
 - Ten customers on a lunch special before we rewrote the whole menu - build the smallest test, don't scale before validation.
 

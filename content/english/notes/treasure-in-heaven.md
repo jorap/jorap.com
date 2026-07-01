@@ -39,8 +39,6 @@ Earthly treasure is fragile; heavenly treasure is tied to faithful service and g
 
 - Thumb on another buy I don't need - will this rust, or store something heaven-side like mercy and obedience?
 - I almost chased a sponsorship for the ego, not the team - treasure check: where will this matter in ten years?
-- Wallet full of gear I'll resell at a loss; calendar empty of the people I say I serve - heart follows treasure, and mine was on earth again.
-- I looked at my wallet and calendar last night - both full of stuff that won't survive a hard year; store what lasts, not what rusts.
 
 ## Note Relationships
 

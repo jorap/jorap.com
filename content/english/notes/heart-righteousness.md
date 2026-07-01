@@ -39,8 +39,6 @@ Jesus didn't lower the law; he exposed its depth.
 
 - I smiled through the bad call and nursed the anger the whole ride home - heart righteousness is polite outside, poison inside; God cares about the inner life.
 - I sent a cold reply that sounded professional while resentment ran inside - Jesus moves righteousness from courtroom compliance to motive.
-- I looked patient helping with homework while I was simmering about the mess - murder in the heart doesn't need raised voices.
-- Some guy cut me off on the EDSA commute and I smiled through it, then nursed the anger the whole ride home - that's murder in the heart.
 
 ## Note Relationships
 

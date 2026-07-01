@@ -39,15 +39,12 @@ Heart (affections), soul (will and life), mind (thought), strength (effort). Und
 
 - Match day adrenaline isn't the same as opening my Bible on Thursday - whole-person love means I feed at least one faculty today.
 - Sunday worship felt high but I hadn't opened my Bible since last week - loving God means more than one hour in a pew.
-- I put the phone down before bedtime stories - heart and mind get God before the scroll.
-- Five minutes with God before the commute beats treating Sunday like the whole deposit.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Don't Worry]] | when worry replaces trust |
-| extends | [[Free Grace]] | Love flows from grace already received, not payment offered for eternal life |. Pairs with [[Love Your Neighbor]].
 
 ## See also
 

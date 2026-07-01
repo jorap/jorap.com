@@ -35,8 +35,6 @@ A garden full of notes nobody reads is the same failure mode as a team where onl
 
 - I'd figured out the clinic's parking trick after three visits - I told the next parent in line instead of hoarding the shortcut.
 - I almost moved on after a week wrestling school forms - share what you learn was the sticky note on the fridge so my spouse didn't start from zero.
-- The veteran keeper showed the rookie where to stand on corners - twenty minutes now so she's not guessing on match day.
-- The electrician labeled every breaker in the panel for whoever comes next - twenty minutes now, no guessing later.
 
 ## Note Relationships
 

@@ -27,10 +27,8 @@ Habit stacking attaches a new small move to a habit that already runs on autopil
 
 ## Examples
 
-- I never remembered to stretch until it sat right after lacing gym shoes - the shoes were the anchor, the stretch piggybacked.
 - After I clock in, I scan the handoff sheet - the clock-in is the anchor, the scan piggybacked; no new time slot, just a chain.
 - After I pour the first coffee, I open the pocket notebook - habit stacking attaches the new move to one that already runs on autopilot.
-- After I lock the front door, I check the mailbox - the lock is the anchor, the mail check piggybacked on a habit I never skip.
 
 ## Note Relationships
 

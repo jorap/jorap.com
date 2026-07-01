@@ -28,8 +28,6 @@ I say what emotion I hear before I jump to what should happen next.
 ## Examples
 
 - A player slumped on the bench after a bad quarter - I said "you look wiped" before I drew up the next play. His shoulders dropped; then he could hear the adjustment.
-- My spouse walked in tense after traffic and errands - "rough afternoon?" before I asked about dinner plans. Small line, less defensiveness.
-- A coworker snapped in the break room about a late shipment - "sounds like you're getting blamed for stuff upstream" landed before we talked about who to email.
 - My kid came home furious about homework - "you're mad because it felt unfair" beat "just do it." We got to the actual problem after the feeling had a name.
 
 ## Note Relationships
@@ -39,7 +37,6 @@ I say what emotion I hear before I jump to what should happen next.
 | contradicts | [[Complete the Cycle]] | when naming the feeling becomes a substitute for closing the loop |
 | extends | [[Emotional Regulation]] | Naming helps me and them before the spike drives the reply |
 | extends | [[Listen Before Fixing]] | I hear first, then label what I heard |
-| implements | [[Break the Escalation Cycle]] | A calm label can cool a thread before snark stacks |
 | implements | [[Break the Escalation Cycle]] | A calm label can cool a thread before snark stacks |
 
 ## See also

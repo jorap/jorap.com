@@ -37,8 +37,6 @@ I save only what changes what I do or believe this month - most content is noise
 
 - The trade-rumor thread was loud all week - signal was the one injury note that actually changed our lineup; the rest I admired and skipped.
 - The dentist waiting room had a stack of magazines - if it won't change what I do this month, headline only, no mental slot.
-- Three parenting hacks saved this week - I kept the one that changes bedtime this month and skipped the rest for now.
-- Trending thread everyone bookmarks - noise unless it changes what I do or believe this month.
 
 ## Note Relationships
 
@@ -46,7 +44,6 @@ I save only what changes what I do or believe this month - most content is noise
 |--------------|----------|--------|
 | alternative | [[Active Knowledge Curation]] | Filter at save vs curate after capture |
 | contradicts | [[Capture]] | when I save first and filter later |
-| extends | [[Capture]] | Capture fails without a filter - save signal that changes action, skip the noise |
 | extends | [[Information Diet]] | What you let in - filter frame next to capture |
 
 ## See also

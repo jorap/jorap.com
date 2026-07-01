@@ -42,9 +42,7 @@ The check is experiential - how would I want to be spoken to, helped, forgiven, 
 ## Examples
 
 - My thumb was on the post button with a critique that was probably true and definitely cruel - pause: how would I want someone to say that to me?
-- Waiting in line at the clinic, someone cut ahead and I drafted a public scolding - Golden Rule check: I'd want grace, not an audience.
 - Before I barked at the ref in front of the kids, I asked how I'd want a coach to talk to me after a bad call - the Golden Rule changed the volume.
-- I almost snapped at my kid the way my father snapped at me - reverse roles first, then speak.
 
 ## Note Relationships
 

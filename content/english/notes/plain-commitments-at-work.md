@@ -34,8 +34,6 @@ One deadline, one owner, one plain answer in Slack. On [[Selling Static Sites]] 
 ## Examples
 
 - The host almost said "I'll try to maybe get you a table around seven if we're not slammed" when "7pm" or "I can't tonight - want tomorrow?" was what the couple needed.
-- I told the carpool "yes Friday, no Thursday" - not "definitely maybe if nothing comes up."
-- The coach said "practice at 4pm sharp" - not "we'll try to maybe start around four if weather holds."
 - I told my neighbor "I'll fix your fence Saturday by noon" - one deadline, one owner, not padded maybe.
 
 ## Note Relationships

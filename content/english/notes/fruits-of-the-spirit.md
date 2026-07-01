@@ -49,8 +49,6 @@ Paul contrasts **works of the flesh** (sexual immorality, jealousy, fits of ange
 
 - I snapped at my kid after a week with almost no prayer and wondered why patience vanished - Galatians fruit comes from walking by the Spirit, not white-knuckling until Friday.
 - Performing joy at church while empty at home told me I was manufacturing fruit - abiding first, then the cluster grows.
-- I corrected my kid with volume instead of gentleness - one fruit missing, same root fix: stay connected, walk by the Spirit.
-- A hard season ended and love showed up in places I didn't force - the Spirit produced it, not a merit streak I could brag about.
 
 ## Note Relationships
 

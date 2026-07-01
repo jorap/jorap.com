@@ -28,9 +28,7 @@ Emotional regulation is noticing the spike without letting it drive the next mov
 ## Examples
 
 - A customer snapped at the cashier and she kept her voice level - regulation isn't numbness, it's not mailing the first draft.
-- I was furious at the ref's bad call and still ran the next play - feel the spike, don't steer the team with it.
 - My kid's homework meltdown made my face hot; I took a kitchen walk before I answered.
-- A driver cut me off on the commute and I felt the anger - I still didn't chase them down the ramp.
 
 ## Note Relationships
 

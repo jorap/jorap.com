@@ -33,8 +33,6 @@ Name the mistake clearly, find what caused it, repair what broke, and change the
 
 - Surgeons do morbidity rounds - name the miss, fix the process; I rang up the wrong total, voided the receipt, added a second look when bills pile up.
 - I forgot the permission slip and told my kid out loud - reprinted, set a phone reminder, not "the teacher never emailed."
-- I merged wrong and clipped a bumper - I left a note with my number, not drove off hoping nobody saw.
-- After the missed free throw cost us the game, our point guard said "that was on me" in the huddle - no blame theater.
 
 ## Note Relationships
 
@@ -44,8 +42,8 @@ Name the mistake clearly, find what caused it, repair what broke, and change the
 | extends | [[Accountability]] | Clear ownership is the first repair step |
 | extends | [[Growth Mindset]] | Mistakes are data when you don't treat them as identity |
 | extends | [[Heed Every Near-Miss]] | Owning the close call before it becomes harm |
-| extends | [[Integrity When No One's Watching]] | Own it even when nobody would audit this week |
 | extends | [[Integrity]] | Honest naming when excuses would be easier |
+| extends | [[Integrity When No One's Watching]] | Own it even when nobody would audit this week |
 | extends | [[Pressure Reveals Weakness]] | Blame-shifting spikes when stakes rise |
 | extends | [[Rollback Principle]] | Revert fast, name it in the standup, fix after calm returns |
 

@@ -31,8 +31,6 @@ Tension with [[There Is No Perfect Solution]] when the opposite frame fits bette
 
 - I caught myself saying "what would Musk do" about the messy garage - the strip-to-basics nudge helped; treating him as the final answer didn't.
 - My kid's coach kept quoting a YouTube drill until someone said "Musk would strip it to atoms" - fair push to ask what problem we're actually solving, wrong idol to treat one CEO as gospel.
-- A friend said "Musk would strip it to atoms" about our overbuilt onboarding - useful shorthand for first-principles reinvention, not a license to copy one person's playbook.
-- The commute podcast kept name-dropping Musk on every hard problem - fine as a reminder to question assumptions, not as proof your fix has to look like his.
 
 ## Note Relationships
 
@@ -40,7 +38,6 @@ Tension with [[There Is No Perfect Solution]] when the opposite frame fits bette
 |--------------|----------|--------|
 | contradicts | [[There Is No Perfect Solution]] | when the opposite frame fits better |
 | extends | [[First Principles Thinking]] | Named in notes that link here |
-| extends | [[First Principles Thinking]] | Named in notes that link here |. Pairs with [[Mental Models]].
 
 ## See also
 

@@ -43,20 +43,18 @@ Christ paid what I couldn't. I receive eternal life by believing His promise - n
 
 - A teammate listed every good deed this month like it was his ticket to heaven - I trust Christ's promise for eternal life, not my report card from the season.
 - A friend at coffee listed every good thing he'd done this month like it was his ticket to heaven - I didn't argue; I just said I trust Christ's promise, not my report card.
-- A neighbor said she earns God's favor by trying hard - one sentence back: free gift, Christ paid what I couldn't.
-- My kid asked if being good gets you into heaven - free grace is the gift through faith first; obedience follows, it doesn't buy the door.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[Compounding]] | when good works compound into a merit ladder I think buys heaven |
-| extends | [[Grace]] | Free grace is grace applied to eternal life by faith alone |
-| extends | [[Mercy]] | Mercy spares wrath; grace gives the gift - same rescue |
 | extends | [[Assurance]] | Rest on Christ's promise after faith - not this week's performance |
+| extends | [[Grace]] | Free grace is grace applied to eternal life by faith alone |
 | extends | [[Grateful Obedience]] | Obedience answers grace with thanks - not wages for heaven |
 | extends | [[Justification]] | Grace is the gift; justification is God declaring you righteous when you receive it |
 | extends | [[Loss of Reward]] | Grace secures eternal life; losing reward never un-does the gift |
+| extends | [[Mercy]] | Mercy spares wrath; grace gives the gift - same rescue |
 | extends | [[Minimum Effective Dose]] | Faith is the smallest act that still buys eternal life - no merit ladder on top |
 | extends | [[Standing vs Fellowship]] | Standing settled at faith; fellowship is the daily walk |
 

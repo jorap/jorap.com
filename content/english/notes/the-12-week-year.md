@@ -34,15 +34,12 @@ Tension with [[Slow Productivity]] when quarterly intensity beats fewer deeper p
 ## Examples
 
 - "Fix our free-throw rate" lived as a someday goal until I gave it twelve weeks and a scoreboard on the locker - week ten finally bit.
-- "Hire and train" was vague until the twelve-week arc had weekly numbers - the quarter I actually feel, not January 1st fiction.
-- The wiki refactor got a twelve-week arc instead of "when I have time" - compressed goal I could see closing.
 - I'd been treating "clear the garage" like a someday project - twelve weeks and a fridge scoreboard; week ten the boxes finally moved.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| alternative | [[Slow Productivity]] | Quarterly sprint vs fewer deep projects when scoreboard beats depth |
 | contradicts | [[Slow Productivity]] | when quarterly intensity beats fewer deeper projects |
 | extends | [[Periodic Knowledge Review]] | Twelve-week arcs compress goals into review quarters you actually feel |
 | extends | [[Quarterly Planning]] | Sprint scoreboard rhythm this method compresses |

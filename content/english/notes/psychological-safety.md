@@ -35,8 +35,6 @@ Tension with [[Break the Escalation Cycle]] when the opposite frame fits better.
 
 - My kid told me he broke the vase - I thanked him for saying it instead of making him dread confessing next time.
 - I named the wrong turn to my carpool - nobody mocked it, so I speak up before the next missed exit.
-- The rookie admitted he ran the wrong route - coach thanked the catch in film review, not humiliated him in front of everyone.
-- The nurse reported the near-mix-up because the charge nurse thanked the catch, not the messenger.
 
 ## Note Relationships
 
@@ -47,7 +45,6 @@ Tension with [[Break the Escalation Cycle]] when the opposite frame fits better.
 | extends | [[Heed Every Near-Miss]] | Named in notes that link here |
 | extends | [[Listen Before Fixing]] | People speak up when being heard beats being fixed |
 | extends | [[Name the Feeling]] | Naming emotion without punishment keeps reporting honest |
-| extends | [[Own the Error]] | Named in notes that link here |
 | extends | [[Own the Error]] | Named in notes that link here |
 
 ## See also

@@ -39,17 +39,13 @@ Links think. Associative linking lets notes meet without remembering every filen
 
 - I linked "jeepney delay" to "leave earlier" in my daily note and found it six weeks later when the same route broke again - proximity beats perfect filing.
 - The playbook card links "late press" to "[[Slow the Moment]]" - I find the counter without memorizing every filename in the binder.
-- The bedtime chart links "snack fight" to "brush teeth first" - I don't memorize every filename, the arrows get me there when everyone's tired.
-- A nurse can't find the policy by department folder but follows the wikilink from "wrong dose" to the double-check card - links think, folders only sort.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| alternative | [[PARA Method]] | Link-first graph vs life buckets when folders beat waiting for links |
 | contradicts | [[PARA Method]] | when links beat sorting by owner and deadline |
 | extends | [[Atomic Notes]] | Links let atomic notes bump into each other without you memorizing every filename |
-| implements | [[Atomic Notes]] | Typed wikilinks make one-claim files usable |
 
 ## See also
 

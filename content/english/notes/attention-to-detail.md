@@ -27,8 +27,6 @@ Attention to detail is catching the typo, edge case, and loose end before they b
 
 ## Examples
 
-- I almost sent the permission slip to the wrong teacher because the forms looked the same - one more check of the name line saved the field trip.
-- I use the same pause before I sign anything that can't be undone - the boring second look beats the big mistake.
 - We almost threw the inbounds pass on the wrong side of the line because two hash marks looked identical - the second read of the court map caught it.
 - A nurse almost gave the wrong dose because two bags looked identical - the second read of the label caught it before it left her hands.
 

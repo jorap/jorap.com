@@ -38,8 +38,6 @@ Two categories, one sentence apart: [[Free Grace]] and [[Justification]] settle 
 ## Examples
 
 - Wasted years of selfish living and terror I'm not saved - reward may burn at the judgment seat; my standing was settled when I trusted Christ.
-- Wood-hay-stubble week and dread like I'm facing hell - saved through fire means loss of reward, not loss of eternal life.
-- I collapsed "I might get no reward" with "I'm not saved" - eternal life is by faith; rewards are a separate ledger.
 - Hidden sin exposed and shame screamed heaven access revoked - confess, restore fellowship, keep walking; justification on Christ doesn't get re-opened by a bad season.
 
 ## Note Relationships
@@ -58,3 +56,4 @@ Two categories, one sentence apart: [[Free Grace]] and [[Justification]] settle 
 | extends | [[Sanctification]] | Keep becoming holy after a wasted season - growth and reward are separate ledgers |
 | extends | [[Standing vs Fellowship]] | Shame after failure is fellowship or reward, not revoked salvation |
 | extends | [[Wood Hay Stubble]] | Worthless works burn; saved through fire with loss |
+

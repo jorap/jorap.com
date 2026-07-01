@@ -38,9 +38,7 @@ Prayer and blessing are the practical handles - not agreement, not pretending ha
 ## Examples
 
 - Someone slandered me in a group chat and my thumb hovered over a reply - I prayed for them, not because they deserve it, because that's what the Father does with people like me.
-- The rival coach trash-talked our bench and I typed a reply that would've felt great for five minutes - I closed the app and prayed instead.
 - My neighbor's honking got under my skin and I almost left a nasty note - I baked cookies instead and asked if everything was okay.
-- The clerk was rude at the return counter and I wanted to match it - I said thanks and walked out, same as I want when I'm having a bad day.
 
 ## Note Relationships
 

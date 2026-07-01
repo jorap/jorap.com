@@ -33,10 +33,8 @@ Tension with [[Local-first Software]] when the opposite frame fits better.
 
 ## Examples
 
-- Form submit hits my script instantly instead of me refreshing the inbox every five minutes - HTTP callback when something happens.
 - New appointment hits the calendar the second the patient submits - webhook beats staff polling the inbox every five minutes.
 - School alert webhook fires when the bus is late - push to my phone instead of refreshing the tracker tab.
-- RSVP form submission pings the team chat instantly - push event instead of the manager refreshing the signup sheet every hour.
 
 ## Note Relationships
 
@@ -44,7 +42,6 @@ Tension with [[Local-first Software]] when the opposite frame fits better.
 |--------------|----------|--------|
 | contradicts | [[Local-first Software]] | when the opposite frame fits better |
 | extends | [[Building a Personal API]] | Named in notes that link here |
-| extends | [[Building a Personal API]] | Named in notes that link here |. Pairs with [[CRDT]].
 
 ## See also
 

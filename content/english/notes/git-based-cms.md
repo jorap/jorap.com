@@ -31,8 +31,6 @@ Clients often won't. Before I redirect them to WordPress, this is the middle pat
 
 - Church volunteer won't open a terminal - Sveltia on the repo, she edits announcements, Cloudflare rebuilds on save.
 - I added Decap for a client who insisted on "WordPress-like" - honest scope: blog posts only, not plugins; still cheaper than hosted WordPress long term.
-- Solo portfolio client - I talked myself out of CMS; Git handoff via [[Client Site Handoff]] was enough.
-- CMS auth misconfigured once - treat login like production, not a demo sidebar.
 
 ## Note Relationships
 

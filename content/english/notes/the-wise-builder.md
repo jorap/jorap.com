@@ -39,8 +39,6 @@ Storms reveal which foundation held. Under [[Free Grace]], doing isn't what save
 
 - We heard the coach's lecture on discipline and still skipped film study Tuesday - hearing without doing is sand; storms show which builder you are.
 - Safety training Monday, same shortcut Wednesday - wise builder hears and does; fool hears and nods.
-- I've heard the Sermon preached a dozen times and still gossiped on Tuesday like Monday's Bible study never happened.
-- Saved articles on sleep hygiene and still scrolled till 1 a.m. - hearing without doing is a sand house; obedience is rock.
 
 ## Note Relationships
 

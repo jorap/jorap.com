@@ -31,16 +31,13 @@ Future-proofing isn't predicting tech for me - it's plain text, open tools, and 
 
 ## Examples
 
-- The team roster lives in a shared spreadsheet, not a app that might shut down - boring format I can open anywhere.
 - Our family contacts list is plain text on the fridge backup folder - I copy it twice a year so future-proof isn't just a vibe.
 - My notes live as plain text I can open anywhere; I test the backup drive before I need it, not after an app dies.
-- Grandma's recipes are on index cards in a tin, not an app that might shut down.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| alternative | [[Building a Personal API]] | Plain export vs structured API when boring files survive churn |
 | contradicts | [[Building a Personal API]] | when plain exports beat automation-ready structure |
 | extends | [[Free Tier Hosting Stack]] | Markdown in git outlives any one host |
 | extends | [[Local-first Software]] | Local-first plain files are how you future-proof before an app shuts down |

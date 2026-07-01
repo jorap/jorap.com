@@ -34,15 +34,12 @@ My PKM got better when I stopped collecting tools.
 ## Examples
 
 - We dropped the second gym bag and the backup jump rope - fewer things means I actually know where the one working pair of shoes lives.
-- We dropped the second diaper bag, the backup stroller, and the junk drawer of chargers - fewer things means I actually know where the one working cable lives.
-- Same reason I keep one capture path instead of five apps - my PKM got better when I stopped collecting tools.
 - The front desk runs one scheduling app, not four - fewer sync layers means fewer places patient reminders get lost.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| alternative | [[Digital Serendipity]] | Fewer tools vs engineered surprise when cutting pipes wins |
 | contradicts | [[Digital Serendipity]] | when fewer pipes beat building for accidental rediscovery |
 | extends | [[Attention Economy]] | What Newport is pushing back on |
 | extends | [[Minimum Effective Dose]] | Cut apps and notifications until you hit the smallest setup that still works |

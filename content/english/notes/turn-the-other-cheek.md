@@ -38,8 +38,6 @@ The point isn't passivity toward all evil - it's refusing to become what hurt yo
 ## Examples
 
 - Neighbor's passive-aggressive note about parking - I didn't post a rebuttal on the group chat; stop throwing anger after sunk hurt.
-- Trash talk after the whistle and I wanted the last word - turn the other cheek is refusing to become the player who has to win every exchange.
-- A customer snapped over a wait time and I felt the perfect comeback forming - non-retaliation is absorbing without escalating the cycle.
 - Someone snapped at me in the school pickup line and I spent the drive home drafting the comeback - turning the cheek isn't pretending it didn't hurt; it's not mirroring evil.
 
 ## Note Relationships

@@ -35,8 +35,6 @@ I ask: if I found this today, would I start it? [[Forgiveness]] runs the same pl
 
 - I kept running a set play that lost four straight because we'd drilled it all preseason - sunk cost is asking whether I keep it because it cost time, not because it still works.
 - The shop kept the broken POS because they'd paid the install fee - forward question only: would I buy this system fresh today?
-- I kept paying for a gym I hadn't entered since February - when I asked if I'd sign up today, the answer was no and I canceled in ten minutes.
-- We finished a board game nobody liked because we'd already played an hour - sunk cost was admitting we'd rather start a new one than lose another twenty minutes.
 
 ## Note Relationships
 

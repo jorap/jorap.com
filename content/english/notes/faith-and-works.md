@@ -39,8 +39,6 @@ Paul answers *how* I'm saved: trust Christ, not wages. James answers *what* livi
 
 - A coworker quoted James like you need faith plus works to get in - one sentence: works prove faith is real; they don't buy the door Christ already opened.
 - Confident I'm saved but the same selfish pattern untouched - James isn't saying try harder to earn heaven; he's asking where the fruit is.
-- I listed every good deed when someone asked how to be saved - lead with trust Christ; obedience follows gratitude, not payment.
-- Bible tabs full, life unchanged - the wise builder hears and does; the fool keeps collecting sermons on sand.
 
 ## Note Relationships
 

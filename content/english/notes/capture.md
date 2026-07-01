@@ -42,15 +42,12 @@ One inbox, phone to desktop, weekly process - same as [[The Trusted Inbox]]. If 
 ## Examples
 
 - A play tweak hits during cooldown and I scribble it on my wristband before the locker room noise eats it - one inbox, file it Sunday when the spark is safe.
-- A customer complaint gives me a fix idea mid-shift and I drop it in one inbox - no tagging yet, process it Friday when the spark is already saved.
 - On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it - one pocket notebook, no sorting yet.
-- A commute thought lands and I voice-memo it before the jeepney drowns it out - one trusted pipe, weekly review empties it.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| alternative | [[Frictionless Capture]] | Single pipe vs zero-friction everywhere when trust beats options |
 | contradicts | [[Signal vs Noise]] | when I save first and filter later |
 | extends | [[Frictionless Capture]] | Zero-friction inbox is the habit this note assumes |
 | extends | [[PKM]] | Capture is the first PKM move - save what hits you into one inbox |

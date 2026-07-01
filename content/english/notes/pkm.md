@@ -33,8 +33,6 @@ Tension with [[The Collector's Fallacy]] when building the system feels like pro
 
 ## Examples
 
-- When a friend asks what PKM means, I say the same for what I learn - boring name, daily payoff.
-- My commute notebook has three lists I actually open - not forty folders I'll never scroll again.
 - The team manager keeps a card file sorted by what she actually uses on game day, not every article she ever read.
 - The school nurse keeps a card file sorted by what she actually uses on a shift, not every article she ever read.
 
@@ -46,7 +44,6 @@ Tension with [[The Collector's Fallacy]] when building the system feels like pro
 | contradicts | [[The Collector's Fallacy]] | when building the system feels like progress without output |
 | extends | [[Getting Started]] | PKM is the plain name for the save-organize-use system getting started introduces |
 | extends | [[Personal Knowledge Management]] | Umbrella term this garden sits under |
-| implements | [[Getting Started]] | Garden rules carry PKM into how this site actually works |
 
 ## See also
 

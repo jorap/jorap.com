@@ -35,8 +35,6 @@ Tension with [[Mobile Capture Workflows]] when the opposite frame fits better.
 
 - Phone in the drawer while I help with math - one problem set actually finished instead of three distracted false starts.
 - Phone in the gym bag for ninety minutes - one drill breakdown written that'd been "almost done" for weeks.
-- Door closed, notifications off for one patient chart review - the error I'd been rushing past finally showed up.
-- Phone in the drawer for ninety minutes - one note drafted that'd been "almost done" for weeks.
 
 ## Note Relationships
 
@@ -44,7 +42,6 @@ Tension with [[Mobile Capture Workflows]] when the opposite frame fits better.
 |--------------|----------|--------|
 | contradicts | [[Mobile Capture Workflows]] | when the opposite frame fits better |
 | extends | [[Capture]] | Protected focus blocks; [[Capture]] handles the rest |
-| extends | [[Slow Productivity]] | Named in notes that link here |
 | extends | [[Slow Productivity]] | Named in notes that link here |
 
 ## See also

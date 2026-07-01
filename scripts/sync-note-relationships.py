@@ -9,7 +9,6 @@ ROOT = Path(__file__).resolve().parents[1]
 NOTES = ROOT / "content/english/notes"
 SKIP = {"_index.md"}
 
-TYPE_ORDER = {"alternative": 0, "contradicts": 1, "extends": 2, "implements": 3}
 ROW_RE = re.compile(
     r"^\|\s*(alternative|contradicts|extends|implements|index)\s*\|\s*(\[\[[^\]]+\]\]|—)\s*\|\s*(.+?)\s*\|$"
 )
@@ -406,7 +405,7 @@ def merge_rows(existing: list[tuple[str, str, str]], slug: str) -> list[tuple[st
             out.append(r)
             seen.add(k)
 
-    out.sort(key=lambda r: (TYPE_ORDER.get(r[0], 99), r[1].lower()))
+    out.sort(key=lambda r: (r[0].lower(), r[1].lower()))
     return out
 
 

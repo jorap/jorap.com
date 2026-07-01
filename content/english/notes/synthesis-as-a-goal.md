@@ -34,19 +34,15 @@ Synthesis is when learning starts - often with [[First Principles Thinking]] whe
 ## Examples
 
 - Three coaches' clips on our press sat in my folder until I merged them into one drill we actually ran Tuesday.
-- Three recipe clippings sat on the fridge until I merged them into one dinner I actually cooked - collecting felt like work; synthesis is when learning started.
-- Quote-saved notes on productivity sat untouched until I wrote one page in my own words about how I capture - synthesis, not hoarding.
 - Five parenting articles became one rule on the fridge - merged into what we believe about screens, not a quote collection.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| alternative | [[Progressive Summarization]] | Rewrite into belief vs bold layers when merge beats highlight |
 | contradicts | [[Progressive Summarization]] | when merged belief beats layered highlights on borrowed words |
 | extends | [[Creative Output]] | Collecting quotes isn't enough - merge sources into beliefs you can defend and ship |
 | extends | [[Literature Notes]] | Source notes you merge before belief |
-| implements | [[Creative Output]] | Merged belief carries express after sources settle |
 
 ## See also
 

@@ -39,8 +39,6 @@ Same shape as [[Minimum Effective Dose]]: one sufficient act at the start, not a
 
 - My kid asked if God likes him yet - I said God already declared him righteous the moment he trusted Christ, not when his room got clean.
 - I snapped at the cashier and felt like I was back on probation with God - justification means my standing was settled at faith; confession restores fellowship, it doesn't re-buy heaven.
-- A coworker said she's "working toward" being saved - one sentence back: trust Christ now; you're declared righteous at faith, not after the habit streak.
-- Romans 4 in my head but guilt still treats every bad week like a revoked passport - standing is settled; the walk is a different category.
 
 ## Note Relationships
 

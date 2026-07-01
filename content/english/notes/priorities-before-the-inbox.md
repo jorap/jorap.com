@@ -35,8 +35,6 @@ One block on the actual deliverable - spec, hard conversation, [[Deep Work]] - b
 
 - Game film due Friday - I cut it before answering every parent group chat ping.
 - The report was due at noon - I wrote the first page before opening Slack.
-- Tuesday before school, phone buzzing and lunches on the counter - sandwiches packed first, then I answer messages from a morning that already moved.
-- Oil change before the road trip - I booked the slot before scrolling neighborhood drama.
 
 ## Note Relationships
 
@@ -44,7 +42,6 @@ One block on the actual deliverable - spec, hard conversation, [[Deep Work]] - b
 |--------------|----------|--------|
 | contradicts | [[Signal vs Noise]] | when I treat every ping as top priority |
 | extends | [[Seek the Kingdom First]] | God's reign first - here, the real deliverable before the noise |
-| extends | [[Signal vs Noise]] | Filter what gets the week - same move with calendar instead of capture |
 
 ## See also
 

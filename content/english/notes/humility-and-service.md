@@ -39,14 +39,11 @@ Status in the kingdom runs opposite to the world's ladder: exalt yourself and yo
 
 - I helped a neighbor move and waited for credit in the group chat - greatness is serving, not being served.
 - I organized snacks for my kid's basketball team on Sunday and came home expecting my family to serve me back - wash feet here too, not only where people can see you.
-- I stayed late to cover a shift and expected praise all week - humility and service is the world's ladder upside down; the last shall be first.
-- I served at church on Sunday and came home expecting my family to serve me back - that's the world's ladder, not Jesus'.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| alternative | [[Let Your Light Shine]] | Hidden service vs visible good when modesty hides the work |
 | contradicts | [[Let Your Light Shine]] | when visibility becomes the goal instead of the byproduct |
 | extends | [[Faithful Steward]] | Faithful in small things - well done for use, not status |
 | extends | [[Free Grace]] | Service is kingdom greatness, not the price you pay for grace you already received |

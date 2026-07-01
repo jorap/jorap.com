@@ -38,8 +38,6 @@ Whole essays don't belong on flashcards. The wiki holds understanding; Anki or S
 ## Examples
 
 - I do the same with note cards on capture and gospel lines - review on a schedule before I forget, not one marathon session.
-- We drill the baseline out-of-bounds play five minutes before every practice - same little doses beat cramming it the night before a game.
-- The new hire's product codes live on a card by the register - five reps during slow shifts beat one frantic hour before the audit.
 - My kid's spelling list lives on the fridge; we hit five words while rice cooks - same little doses beat cramming the night before the quiz.
 
 ## Note Relationships
@@ -50,7 +48,6 @@ Whole essays don't belong on flashcards. The wiki holds understanding; Anki or S
 | contradicts | [[Progressive Summarization]] | when drill schedules beat bold layers for recall |
 | extends | [[Evergreen Notes]] | Evergreen understanding lives in the wiki; spaced repetition drills the facts you need cold |
 | extends | [[Forgetting Curve]] | Ebbinghaus decay curve spaced repetition fights |
-| implements | [[Evergreen Notes]] | SRS carries durable claims into phone review |
 
 ## See also
 

@@ -39,8 +39,6 @@ He doesn't forbid all moral discernment: the same sermon says judge trees by fru
 
 - I spotted my teammate's travel in five seconds and missed my own lazy dribble - judge not starts with the log in my eye.
 - I spotted a coworker's missed step in five seconds and missed my own plank for a month - Jesus wasn't saying ignore sin; He was saying remove your plank first.
-- I nitpicked someone's parenting while mine was a mess - judge not is diagnose yourself first, don't condemn like you're their final judge.
-- I was about to quote a neighbor's failure online - who am I playing? Not their judge; I needed mercy first.
 
 ## Note Relationships
 

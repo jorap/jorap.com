@@ -35,8 +35,6 @@ Tension with [[Slow Productivity]] when the opposite frame fits better.
 
 - January's vague "get faster" became twelve weeks with a fridge time chart - week ten finally bit.
 - January's vague "reduce waste" became twelve weeks with a kitchen whiteboard tally - week ten finally bit.
-- January's vague "get fit" became twelve weeks with a fridge scoreboard - week ten finally bit.
-- January's vague "save money" became twelve weeks with a jar on the counter - week ten finally bit.
 
 ## Note Relationships
 
@@ -44,7 +42,6 @@ Tension with [[Slow Productivity]] when the opposite frame fits better.
 |--------------|----------|--------|
 | contradicts | [[Slow Productivity]] | when the opposite frame fits better |
 | extends | [[Periodic Knowledge Review]] | Named in notes that link here |
-| extends | [[The 12 Week Year]] | Named in notes that link here |
 | extends | [[The 12 Week Year]] | Named in notes that link here |
 
 ## See also

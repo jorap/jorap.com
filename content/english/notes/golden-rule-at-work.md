@@ -35,8 +35,6 @@ The check is experiential - how would I want feedback delivered, how would I wan
 
 - My draft reply to the new team manager was technically right and needlessly harsh - I paused, asked how I'd want that correction on my worst game day, and rewrote it.
 - The group chat pile-on about the neighbor's messy yard - I asked how I'd want feedback if my lawn looked that way, then said nothing mean.
-- My draft reply to a new cashier was technically right and needlessly harsh - I paused, asked how I'd want that correction on my worst shift, and rewrote it before the thread in the break room got worse.
-- I was about to snap at my kid over spilled milk - golden rule at work is the home version too: how would I want that mistake handled on my worst morning?
 
 ## Note Relationships
 

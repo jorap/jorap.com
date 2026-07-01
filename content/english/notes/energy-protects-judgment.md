@@ -29,8 +29,6 @@ Rest, prep, workload limits, and recovery aren't soft extras - they're part of p
 
 - I snapped at my kid over a spilled cup after a brutal week; at breakfast it would've been two calm sentences - she wasn't the problem, I was.
 - After three nights of bad sleep I almost sent a sharp email to a neighbor - I waited until morning and the whole thread looked different.
-- The club caps practice hours late in the season because tired legs slip - judgment is a motor skill too.
-- Hospitals limit surgeon hours because tired hands slip - recovery isn't optional luxury when the call has to land.
 
 ## Note Relationships
 

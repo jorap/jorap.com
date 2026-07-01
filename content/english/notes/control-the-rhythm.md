@@ -33,8 +33,6 @@ Don't let urgency, conflict, emotion, or someone else's deadline dictate how fas
 
 - A dad texted "my kid needs more reps today" before I'd watched him play - control the rhythm was "let's see Thursday's scrimmage first" instead of doubling reps that bred a limp.
 - A client wanted an answer in ten minutes on a complex quote - I said I'd send numbers after lunch and kept the room from rushing a bad decision.
-- Good coaches don't let the loudest parent set practice length - they run drills, call water, end on time.
-- Bedtime spiraled into "five more minutes" chaos until we set the clock - we take the tempo back instead of letting panic set the pace.
 
 ## Note Relationships
 

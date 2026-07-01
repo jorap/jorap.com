@@ -34,9 +34,7 @@ I just refuse to become what hurt me in the thread. Stop throwing anger after su
 ## Examples
 
 - A parent emailed the principal with a snarky line about our field trip delay - I deleted my matching draft, answered the fact, offered the new date, and broke the reply-all war before it started.
-- A parent yelled at the ref from the sideline and my first instinct was to yell back - I answered the rule, kept my voice flat, and let the insult die without an audience.
 - My kid snapped first at dinner and I almost matched the volume - I named what happened, lowered my voice, and refused to pour fuel on it.
-- A neighbor's group-chat jab about parking got a sharp reply in my drafts - I sent the facts and the new plan instead of the line that would have fed the thread all week.
 
 ## Note Relationships
 

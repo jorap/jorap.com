@@ -27,8 +27,6 @@ Deliberate practice is focused reps on the part that breaks - not mindless repet
 
 ## Examples
 
-- I bombed transitions in a talk and ran only those bridges ten times the next morning - not mindless repetition of what already worked.
-- Our guard drills the weak-hand finish fifty times, not the whole scrimmage on autopilot - train the weak slice on purpose.
 - The new cashier drills voids and returns ten times, not the whole shift on autopilot - feedback, correction, repeat on what breaks.
 - My kid's recital died in the bridges between songs - deliberate practice was running only those transitions ten times; the rest she already knew.
 

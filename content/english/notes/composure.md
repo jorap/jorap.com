@@ -33,8 +33,6 @@ Composure is staying readable and deliberate when others speed up or heat up.
 
 - The neighbor argument on the group chat heated up and I waited one beat before replying - people read calm as competence even when the issue is real.
 - I used the same move in a heated parent meeting - slower speech, one clarifying question, no matching their volume.
-- My kid was melting down at bedtime and I kept my voice flat - composure isn't pretending nothing happened, it's staying readable when the room isn't.
-- A referee stays calm when players yell - not because the foul didn't matter, but because the room takes cues from the steadiest person on the floor.
 
 ## Note Relationships
 

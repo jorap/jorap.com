@@ -29,8 +29,6 @@ Make that fallback a simple, dependable response - rehearsed enough to run when 
 
 - The clinic front desk doesn't make up triage order when three walk-ins arrive - they run the laminated sheet taped by the phone. One script, no guessing.
 - Our family fire plan is one page on the fridge: two exits, where we meet, who grabs the baby. Last blackout, my kid ran it half-asleep and nobody guessed.
-- The point guard doesn't invent a new inbound play when the gym gets loud - she runs the one they drilled Tuesday. Same move until panic day isn't day one.
-- The building guard doesn't improvise evacuation when the alarm trips - he walks the posted route he practiced on quiet shifts. Rehearsed beats invented.
 
 ## Note Relationships
 

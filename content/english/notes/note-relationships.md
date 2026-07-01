@@ -38,15 +38,16 @@ Four pair types in a body table - extends, contradicts, implements, alternative 
 | **implements** | What makes this real? | [[Weekly Review Checklists]] implements [[Periodic Knowledge Review]] |
 | **alternative** | What else could do this job? | [[Mobile Capture Workflows]] alternative to [[Analog Capture Tools]] |
 
-Every atomic note carries a one-breath **definition**, **## Key Concept** (one sentence, then a second paragraph), optional **## Examples**, and a **## Note Relationships** table sorted by type. At minimum: **extends** and **contradicts**, wikilinked, each with a **Reason**. Broken wikilinks to obvious missing notes are fine - they flag future pages.
+Every atomic note carries a one-breath **definition**, **## Key Concept** (one sentence, then a second paragraph), optional **## Examples
+
+
+
+## Note Relationships** table sorted by relationship a-z then wikilink a-z. At minimum: **extends** and **contradicts**, wikilinked, each with a **Reason** - each target note linked once. Broken wikilinks to obvious missing notes are fine - they flag future pages.
 
 ## Examples
 
 - I'm updating the family chore chart and add "feeds into: Saturday yard work" next to "take out trash" plus "conflicts with: bedtime when done late" before I tape it to the fridge.
 - The coach's whiteboard lists "feeds into: secondary break" beside each drill - players see how today's reps connect before they leave the gym.
-- The restaurant shift board marks "feeds into: closing count" next to prep tasks and "conflicts with: rush hour" on deep cleans - two rows, named tension, everyone can read it.
-- The condo bulletin board lists "feeds into: parking sticker renewal" beside move-in steps and "conflicts with: weekend gate hours" on late deliveries - typed links on paper, same idea.
-- This note pushes against a slower-work philosophy I named in the body. One typed link for that tension - Link as contradicts.
 
 ## Note Relationships
 

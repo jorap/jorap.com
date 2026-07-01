@@ -34,15 +34,12 @@ The opposite read is usually right: the system failed, and luck blocked the wors
 ## Examples
 
 - A swimmer needed rescue during the same open-water drill last month - that's a warning to stop, not proof the safety boat can handle it forever.
-- A kid almost choked on the same team-building snack twice - heed the near-miss; luck isn't a control layer.
 - The toddler almost fell off the same chair twice - survival doesn't prove the setup is safe; fix the hazard before the third time.
-- A previous rescue during the same exercise is a warning to stop - not proof that the rescue team can keep handling it.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| alternative | [[Incident Investigation]] | Formal probe vs immediate stop-and-redesign when the near miss is obvious |
 | contradicts | [[Normalization of Deviance]] | when "we've done this before without dying" becomes permission to repeat |
 | extends | [[Anti-Fragile Systems]] | Near misses are stress signals - learn before the system breaks for real |
 | extends | [[Eliminate Before Managing]] | Investigation should ask whether the hazard can be removed, not only managed better |

@@ -39,8 +39,6 @@ Worship with an unreconciled heart is hollow. The initiative is on the one who k
 
 - I warmed up ready to compete while my teammate still had something against me from Wednesday - fix it courtside, then play.
 - I walked into the volunteer shift ready to serve while my co-worker still had something against me - five minutes in the parking lot first.
-- I walked into church ready to sing while my brother still had something against me - leave the gift, go fix it, then come back.
-- I arrived at the family reunion ready to mingle while my sister was still cold from last month - one honest conversation before the group photo.
 
 ## Note Relationships
 

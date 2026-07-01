@@ -34,9 +34,7 @@ It's refusing to collect forever on a debt that poisons my work. Seventy times s
 ## Examples
 
 - I replayed my sister's sharp comment at every family dinner until I chose to release the debt - forgiving isn't pretending it didn't hurt; it's refusing to collect forever.
-- I kept mentally scoring a teammate who blew a play in last month's tournament - forgiveness at work meant I stopped bringing that score into every practice, and I still wrote down what I'd need to trust him on the next road trip.
 - I kept mentally scoring a coworker who embarrassed me in a staff meeting six months ago - I stopped bringing that score into every shift and still wrote down what I'd need to trust him on the next busy Saturday.
-- The neighbor's parking habit still bugged me months later - forgiveness was stopping the mental spreadsheet, not pretending the curb fight never happened.
 
 ## Note Relationships
 
@@ -45,7 +43,6 @@ It's refusing to collect forever on a debt that poisons my work. Seventy times s
 | contradicts | [[Sunk Cost Fallacy]] | when I treat old hurt as debt I'm owed forever |
 | extends | [[Forgiveness]] | Release the debt - same move without religious vocabulary |
 | extends | [[Set Calm Boundaries]] | Release the grudge; keep boundaries where trust still rebuilds |
-| extends | [[Sunk Cost Fallacy]] | Stop counting past hurt as reason to stay angry |
 
 ## See also
 

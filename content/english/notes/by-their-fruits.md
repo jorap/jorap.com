@@ -39,8 +39,6 @@ Wolves may wear sheep's clothing; time and results tell. Garden parallel: [[Sign
 
 - The youth coach talks smooth on day one but his players look stressed and bitter by month three - fruit told me more than any clinic title ever could.
 - A trending productivity guru's followers still drown in inbox chaos - grapes from grapevines, thorns from thistles, time and results tell.
-- Last month I bookmarked a preacher who looks holy on stage - six weeks later the people around him looked broke and bitter, and that told me more than any sermon title.
-- A parenting influencer sells calm routines but her comment section is full of moms feeling like failures - I judge the outcome, not the charisma.
 
 ## Note Relationships
 

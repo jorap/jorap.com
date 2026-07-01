@@ -39,9 +39,6 @@ The system fails when any step is just for show. I review whether each step stil
 
 - A play idea hits during warm-ups and I voice-memo it before the gym noise eats it - my head is for having ideas, the inbox is for storing them until review.
 - A sermon line lands mid-shift and I scribble it on a receipt - one [[trusted inbox]], no sorting yet, process it Sunday when the spark is safe.
-- A dinner idea hits on the jeepney and I voice-memo it before the station noise eats it - capture first, organize later.
-- On the commute my kid says something I want to remember and I drop it in one inbox - weekly process empties it so my brain can think instead of hoard.
-- Forty captures deep and nothing shipped - I blocked Friday afternoon for one express pass instead of another organize pass.
 
 ## Note Relationships
 
@@ -51,7 +48,6 @@ The system fails when any step is just for show. I review whether each step stil
 | contradicts | [[The Collector's Fallacy]] | when CODE steps become collection theater with no express |
 | extends | [[CODE Method]] | Capture → Organize → Distill → Express pipeline Forte names |
 | extends | [[PKM]] | A second brain offloads ideas so your head can think instead of hoard |
-| implements | [[PKM]] | CODE pipeline carries personal knowledge management into daily capture |
 
 ## See also
 

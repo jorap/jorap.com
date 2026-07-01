@@ -35,8 +35,6 @@ Deliver a one-page handoff doc: repo URL, Cloudflare project, env vars, domain D
 
 - Neighbor chose Git lesson - twenty minutes on edit, commit, push; she broke build once, fixed typo same night.
 - Pastor emails bulletin PDF every Friday - retainer batch, one push, no CMS layer needed.
-- I kept client experiments on a draft branch - showroom main stayed clean; garage mess never hit their live site.
-- Client assumed "hosting included unlimited edits" - should have been retainer line item; fixed on client two with plain scope up front.
 
 ## Note Relationships
 

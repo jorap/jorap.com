@@ -39,8 +39,6 @@ Sanctification settles who I'm becoming on the way. [[Grateful Obedience]] names
 
 - I knew the verse on anger and still lost it at dinner - sanctification is slow; my standing was settled at faith, and I'm still being changed.
 - I treated my quiet-time streak like proof God accepts me - faith saves; sanctification grows me after, it doesn't re-open the verdict.
-- Same sin pattern after conversion made me wonder if I was fake - justified at faith, becoming holy over time; both true, different jobs.
-- One altar-call high and the same temper by Friday - holiness isn't a one-time sprint, it's daily abiding and obeying.
 
 ## Note Relationships
 

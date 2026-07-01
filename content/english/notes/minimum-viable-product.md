@@ -34,19 +34,15 @@ Client work: [[Selling Static Sites]] is the same loop - one pilot site on [[Fre
 ## Examples
 
 - I sat on a half-planned birthday party for three months - we ordered pizza, one banner, kids had a blast, learned more than another month of Pinterest.
-- I posted a rough neighborhood watch signup before buying printed flyers - four replies told me if anyone cared.
 - We ran one new play in scrimmage before printing playbooks for the whole league - learned more in forty minutes than another week of polish.
-- The baker sold one test batch of sourdough before remodeling the display case - customers told her what to fix.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| alternative | [[Evergreen Notes]] | MVP cut vs two-year phrasing when speed beats permanence |
 | contradicts | [[Evergreen Notes]] | when rough ship beats two-year polish |
 | extends | [[Creative Output]] | Ship the smallest version that tests the idea instead of polishing a fantasy in private |
 | extends | [[Lean Startup]] | Ship-to-learn loop Ries named |
-| implements | [[Creative Output]] | Rough ship carries express when polish would miss the window |
 
 ## See also
 

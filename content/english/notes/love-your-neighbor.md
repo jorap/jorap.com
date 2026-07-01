@@ -39,8 +39,6 @@ The parable of the Good Samaritan (Luke 10) reframes the question - not "who cou
 
 - The parent I'd rather avoid sits on my side every game - I moved my chair over and asked how his kid's ankle was healing.
 - The neighbor I'd rather avoid lives two doors down and his trash bins are always in my way - Jesus asked whether I'm acting like a neighbor, the way I'd want if I were stuck.
-- The kid down the street breaks our fence latch weekly - I fixed it again because I'd want someone to do that if our dog kept escaping.
-- The woman dropped her bags at the elevator - I held the door and carried one up because I'd want that if I were her.
 
 ## Note Relationships
 
@@ -50,8 +48,8 @@ The parable of the Good Samaritan (Luke 10) reframes the question - not "who cou
 | extends | [[Create Regular Connection]] | Neighbor-love shows up in small repeated presence |
 | extends | [[Follow Their Lead]] | Love neighbor means entering their world before I redirect |
 | extends | [[Free Grace]] | Grace frees you to love neighbors without keeping score for salvation |
-| extends | [[Mercy]] | Neighbor-love shows mercy to the person in front of me |
 | extends | [[Listen Before Fixing]] | Care I'd want includes being heard before being fixed |
+| extends | [[Mercy]] | Neighbor-love shows mercy to the person in front of me |
 
 ## See also
 

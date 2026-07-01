@@ -28,9 +28,7 @@ Continuous improvement is steady small upgrades to process and skill - not one h
 ## Examples
 
 - I tweak one line in my weekly review checklist after each miss - steady small upgrades beat the heroic overhaul I never schedule.
-- A line cook pulls a bad prep tray and fixes the station before service - small fixes daily, not one yearly overhaul.
 - The barista changed one milk-steaming step after every burned latte - kaizen in the steam wand, not a grand retraining day that never happens.
-- Our family morning checklist grew one line per forgotten backpack - six months later school mornings were boring in a good way.
 
 ## Note Relationships
 

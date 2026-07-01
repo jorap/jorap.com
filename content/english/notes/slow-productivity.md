@@ -32,15 +32,12 @@ Slow productivity pushes back on busy-as-virtue - fewer projects, more finished 
 ## Examples
 
 - I cut active home projects from six to three last quarter and finished the kids' bookcase instead of Pinterest boards on all six.
-- I stopped chasing three side hobbies and finished one blog series - depth beat volume for once.
-- The coach cut drills from six to three and the team finally ran them clean on game day.
 - The bakery dropped four "special" items and nailed the core six - busy isn't virtue when nothing finishes.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| alternative | [[The 12 Week Year]] | Few deep projects vs quarterly sprint when pace should slow |
 | contradicts | [[The 12 Week Year]] | when fewer deep projects beat quarterly sprints |
 | extends | [[Creative Output]] | Fewer active projects turn notes into finished output instead of endless backlog |
 | extends | [[Deep Work]] | Fewer deep projects - Newport's focus frame nearby |

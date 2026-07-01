@@ -38,9 +38,7 @@ Jesus closes the Sermon on the Mount with a fork: not everyone who says "Lord, L
 ## Examples
 
 - Group chat gossip was "just joking" - narrow way was not forwarding the screenshot even when staying out made me the odd one.
-- Everyone around me was taking the easy road on something I know Jesus said no to - the crowd made it feel normal; narrow is hard now, life at the end.
 - Everyone cheered the dirty play that won - the narrow way was passing it up when the ref didn't see, even alone on the bench.
-- The whole shop pads hours; the narrow way is logging honestly when nobody audits - crowded broad road, lonely honest one.
 
 ## Note Relationships
 

@@ -28,9 +28,7 @@ Follow-through is everything that happens after you said yes - the recap, the ti
 ## Examples
 
 - "I'll look into it" without a date is how school projects die after the group chat goes quiet - follow-through is the recap with owners and dates before anyone leaves the parking lot.
-- I told my kid I'd help with the project "soon" and watched it die in the backpack - follow-through was naming when and what I'd bring to the table.
 - The captain said "we'll fix the rotation" without naming who covers which shift - follow-through was the recap with owners and dates before anyone left the gym.
-- The plumber texting "en route" beats "soon" - follow-through is everything after you said yes, including the check-in that proves you meant it.
 
 ## Note Relationships
 

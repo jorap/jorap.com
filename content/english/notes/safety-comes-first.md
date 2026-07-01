@@ -32,8 +32,6 @@ Respect doesn't mean I ignore danger - I stop serious harm first, then restore c
 ## Examples
 
 - A teammate wanted to play through a head hit - I didn't "support his call"; I got the trainer. Following his lead would have meant ignoring the injury.
-- A coworker wanted to skip the lockout tag on a jammed machine - I didn't go along to keep peace. Power off, tag on, then we troubleshoot together.
-- A friend was too drunk to drive and insisted he was fine - I took the keys and called a ride. Friendship isn't co-signing the crash.
 - My kid wanted to ride in the truck bed on a bumpy road - "your choice" ended at the seatbelt. We could pick music; we couldn't pick the hospital route.
 
 ## Note Relationships
@@ -44,7 +42,6 @@ Respect doesn't mean I ignore danger - I stop serious harm first, then restore c
 | extends | [[Duty of Care]] | Care means stopping what could hurt them or others |
 | extends | [[Life Before Achievement]] | No bond outranks avoidable injury or death |
 | implements | [[Eliminate Before Managing]] | Remove the dangerous option before debating how to supervise it |
-| implements | [[Set Calm Boundaries]] | A safety line is a boundary with teeth |
 | implements | [[Set Calm Boundaries]] | A safety line is a boundary with teeth |
 
 ## See also

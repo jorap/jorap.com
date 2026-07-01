@@ -31,8 +31,6 @@ Leadership is taking responsibility for direction, pace, and care when others lo
 
 ## Examples
 
-- When the gym alarm went off, someone pointed to exits and counted heads - title optional; leadership was calm voice and who goes where.
-- When the kitchen catches fire, someone points to exits and counts heads - title optional.
 - Our line cook never got named manager; leadership was calm voice, who goes where, and nobody blaming while the extinguishers were still out.
 - The blackout hit our block and one neighbor set pace - who checks on elders, who handles the generator - direction and care when people look to you.
 
@@ -40,7 +38,6 @@ Leadership is taking responsibility for direction, pace, and care when others lo
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
-| alternative | [[Servant Leadership]] | Generic lead vs serve-first when credit is the trap |
 | contradicts | [[Servant Leadership]] | when grabbing credit and visibility replaces making the team win |
 | extends | [[Accountability]] | Leaders name owners |
 | extends | [[Control the Rhythm]] | Leaders set pace under pressure |

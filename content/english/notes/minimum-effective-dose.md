@@ -35,8 +35,6 @@ Applies to PKM habits, fitness, and side projects. More input past the dose is n
 
 - Ten minutes of flashcards on the jeepney beat an hour of app setup I'd never open twice.
 - The coach added one footwork drill before buying new shoes - small dose, daily reps, feet learned faster than gear ever did.
-- The barista trainer had her repeat one steam motion instead of rebuilding the whole menu that week.
-- One notebook by the door beat rebuilding the whole capture system again - enough to work, not more than needed.
 
 ## Note Relationships
 

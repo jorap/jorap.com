@@ -39,8 +39,6 @@ The [[Ask Seek Knock]] (Matthew 6:9-13) models priority: God's name, kingdom, wi
 
 - I thumb-refresh the news about tomorrow's meeting instead of asking - prayer is dependence, not bargaining for merit I already have under grace.
 - The clinic chaplain rounds every floor on a schedule, not only when someone codes - ask, seek, knock is keep showing up, not one crisis visit.
-- Before a big match I pray like a kid who won't stop knocking - not because I earned answers, but because He's Dad and I'm already in the house.
-- My daughter asks for help with homework without calculating whether she deserves it - same posture I need with the Father, keep coming like a child who belongs.
 
 ## Note Relationships
 

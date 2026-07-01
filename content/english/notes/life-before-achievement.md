@@ -34,9 +34,7 @@ When an activity offers limited benefit but carries an avoidable risk of irrever
 ## Examples
 
 - I said no to the backyard rope swing over concrete when a low tree branch and mat did the same fun with softer landings.
-- The coach canceled cliff-jump team-building when the park picnic hit bonding without a credible broken-leg risk - unity doesn't require a stunt.
 - The school canceled the cliff-jump field trip when the park picnic hit the same bonding goal without a credible risk of a broken leg.
-- The scout leader picked the flat trail hike instead of the ridge walk when both got the badge and only one had a drop with no guardrail.
 
 ## Note Relationships
 

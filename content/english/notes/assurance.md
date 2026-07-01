@@ -39,8 +39,6 @@ Bad weeks, hidden sin, dread at the [[Judgment Seat]] - none of those re-open th
 
 - Bad week and dread God changed His mind - assurance rests on Christ's promise, not my obedience streak.
 - I pictured the judgment seat and panicked like heaven might get revoked - salvation settled at faith; works get reviewed for reward after.
-- Doubt loop after hidden sin - trust what Christ finished; confess, restore fellowship, keep walking.
-- Waiting to feel holy enough before I trust I'm His - believe first; assurance follows faith, not feeling.
 
 ## Note Relationships
 

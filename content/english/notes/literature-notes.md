@@ -35,8 +35,6 @@ Tension with [[The Collector's Fallacy]] when the opposite frame fits better.
 
 - I wrote one paragraph on the coach's chapter about zone defense, not yellow highlights on every page.
 - The PTA recap was what I actually remembered from the meeting, not a transcript of every speaker.
-- One page per book chapter with my takeaway, not yellow paint on every line.
-- My kid's report on the ocean book was three sentences she could explain, not copied quotes from every paragraph.
 
 ## Note Relationships
 
@@ -44,7 +42,6 @@ Tension with [[The Collector's Fallacy]] when the opposite frame fits better.
 |--------------|----------|--------|
 | contradicts | [[The Collector's Fallacy]] | when the opposite frame fits better |
 | extends | [[Intellectual Sourcing]] | Named in notes that link here |
-| extends | [[Progressive Summarization]] | Named in notes that link here |
 | extends | [[Progressive Summarization]] | Named in notes that link here |
 
 ## See also

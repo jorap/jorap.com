@@ -33,8 +33,6 @@ Execution is the gap between deciding and delivered - plans earn nothing until w
 
 - Our block cleanup had a group chat full of enthusiasm and no bags until one neighbor showed up with gloves and a start time.
 - The coach drew a beautiful play on the whiteboard - execution started when players were on the field and someone named who cuts where on the first whistle.
-- The PTO committee had color-coded phases and zero volunteers signed up until one person named who does what by when.
-- A wedding invite means nothing if nobody books the venue - plans earn nothing until the work lands.
 
 ## Note Relationships
 

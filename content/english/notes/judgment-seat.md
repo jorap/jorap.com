@@ -39,8 +39,6 @@ The judgment seat (Greek *bema* - think awards podium, not criminal court) decid
 
 - I pictured standing before Christ and panicked like heaven might get revoked - the judgment seat evaluates works for reward; salvation was settled at faith.
 - Years of church service felt like my ticket in - what gets weighed is faithful obedience after salvation, not a re-trial on who gets eternal life.
-- Wood-hay-stubble week and dread like I'm fake - saved, but some work burns; standing on Christ stays, reward may shrink ([[Loss of Reward]]).
-- One mission trip I treat as my whole report card - Christ reviews a whole life of faithfulness, including the quiet Tuesday nobody clapped for.
 
 ## Note Relationships
 

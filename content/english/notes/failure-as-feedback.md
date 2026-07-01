@@ -31,8 +31,6 @@ The miss is feedback on what to build next, not proof you were never in.
 
 - I missed three free throws in a row - failure as feedback was follow-through and routine, not deciding I'm "not a basketball person."
 - The utility bill math was wrong - I treated it as instrument reading about the formula I skipped, not proof I can't do numbers.
-- A smoke alarm isn't moral judgment - it's data; the miss tells you what to fix next if you don't treat it as a verdict on your worth.
-- My sourdough failed again; failure as feedback was the thermometer and timing notes, not "I'm bad at baking."
 
 ## Note Relationships
 

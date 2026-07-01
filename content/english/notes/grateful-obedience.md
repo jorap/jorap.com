@@ -39,8 +39,6 @@ Grateful obedience is the posture: I obey because Christ already saved me, not t
 
 - Grace clear in my head and zero change in how I treated people at the front desk - grateful obedience means doing what Jesus said today, not waiting until I feel holy enough.
 - I obeyed all week to feel saved again after snapping at my kid - wrong motive; grace already saved me; obedience answers with thanks.
-- Bible study high, same sin pattern untouched - hearing without doing isn't grateful obedience; act today.
-- Cross-bearing to feel qualified for heaven - faith saves; the cross shapes daily thanks, not the entry fee.
 
 ## Note Relationships
 

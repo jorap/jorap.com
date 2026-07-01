@@ -48,8 +48,6 @@ Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not th
 
 - A good week at the clinic and I felt like I didn't need much from God - poor in spirit is broke before God, not the worker who nailed Friday's schedule.
 - After a winning streak I caught myself feeling spiritually self-sufficient - Beatitudes start with poor in spirit, not the athlete who just had a perfect weekend.
-- I had a great weekend with the kids and felt spiritually full - Beatitudes flip the scoreboard toward the needy, not the dad who just had a perfect Saturday.
-- Promotion week had me feeling self-made - mourning and meekness aren't weakness; they're the posture Jesus blessed instead of the scoreboard I was reading.
 
 ## Note Relationships
 

@@ -39,8 +39,6 @@ The point isn't performance for applause - Jesus warns against practicing righte
 
 - I brought extra water for the whole bench and almost posted about it - the light isn't for my brand; it's so someone sees good work and thinks God is real.
 - I covered a coworker's shift quietly and almost made it a LinkedIn moment - let your light shine so the Father gets credit, not my personal brand.
-- I helped a neighbor move furniture and almost posted about it before I remembered why I did it - good works point to the Father, not that I'm awesome.
-- I almost captioned the charity run photo for applause - visibility so others glorify God, not so I build a brand.
 
 ## Note Relationships
 

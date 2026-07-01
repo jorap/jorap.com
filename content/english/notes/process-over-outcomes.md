@@ -31,9 +31,7 @@ I focus on a repeatable process - I can rerun it when motivation dips.
 
 ## Examples
 
-- I protect the Sunday review loop that produces the next note - the process keeps working when motivation dips.
 - The baker follows the same proofing steps whether it's a slow Tuesday or wedding weekend.
-- Same commute podcast and debrief voice memo - the loop survives a bad week at work.
 - The JV squad runs the same warmup whether the bleachers are empty or full.
 
 ## Note Relationships

@@ -39,15 +39,12 @@ Belief is reliance on Christ's promise, not mere intellectual agreement. Under [
 
 - I kept telling myself I'd trust the coach's system once my form looked respectable - repent and believe is the door you walk through today, messy as you are.
 - I kept telling myself I'd trust Jesus once my habits looked respectable - it's not a finish line when you're fixed.
-- I told my kid faith isn't waiting until you're good enough - turn and trust today, then keep practicing.
-- I stopped delaying the hard conversation until I felt ready - believe the promise first, tidy later.
 
 ## Note Relationships
 
 | Relationship | Wikilink | Reason |
 |--------------|----------|--------|
 | contradicts | [[There Is No Perfect Solution]] | when I delay entry until I've fixed myself |
-| extends | [[Free Grace]] | Turn and trust is how life begins - you receive the kingdom as gift, then live under the King |. Pairs with [[Childlike Faith]].
 
 ## See also
 

@@ -38,9 +38,7 @@ The parable of the unforgiving servant (Matthew 18) makes the math plain: the ki
 ## Examples
 
 - My kid hurt my feelings at breakfast and I said "it's fine" while nursing the grudge - forgiveness is releasing the debt, not pretending it didn't matter.
-- I was forgiven much but choked a neighbor over a small slight - forgive the pocket-change debt the way the Father already cleared mine.
 - I prayed about forgiving others on autopilot and skipped that line because I'm still mad at my brother from last Sunday - you can't ask for mercy with one breath and hold a grudge with the next.
-- A coworker apologized again for the same mistake - forgive from the heart, keep boundaries where trust still needs rebuilding.
 
 ## Note Relationships
 
@@ -49,8 +47,8 @@ The parable of the unforgiving servant (Matthew 18) makes the math plain: the ki
 | contradicts | [[Sunk Cost Fallacy]] | when I treat old hurt as debt I'm owed forever |
 | extends | [[Free Grace]] | You forgive because God already cleared a debt you couldn't pay |
 | extends | [[Grace]] | Forgive from grace already received - not to earn it |
-| extends | [[Mercy]] | Mercy cleared your debt; extend the same to others |
 | extends | [[Loss of Reward]] | Sin breaks fellowship; confess and walk - standing on Christ stays |
+| extends | [[Mercy]] | Mercy cleared your debt; extend the same to others |
 | extends | [[Set Calm Boundaries]] | Forgive the heart; keep boundaries where trust still rebuilds |
 | extends | [[Standing vs Fellowship]] | Unforgiveness breaks closeness, not the verdict at faith |
 

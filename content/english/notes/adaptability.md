@@ -27,9 +27,7 @@ Adaptability is changing method without losing aim when conditions, tools, or op
 
 ## Examples
 
-- The jeepney route changed overnight and I still needed to get to work - same destination, different line when the usual road closed.
 - Rain canceled our outdoor run and we moved practice to the covered court - same goal of getting reps in, different floor when the weather shifted.
-- Our usual fish supplier doubled prices overnight and half the kitchen wanted to keep last month's specials - adaptability was rewriting the weekend menu before Saturday service.
 - The school bus was late so we walked - same deadline for drop-off, different route when the morning plan broke.
 
 ## Note Relationships
