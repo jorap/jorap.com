@@ -11,9 +11,7 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 
-import yaml
-
-from notes_content import assemble_markdown
+from notes_content import assemble_markdown, parse_display_fields
 
 ROOT = Path(__file__).resolve().parents[1]
 NOTES_DIR = ROOT / "content/english/notes"
@@ -382,9 +380,7 @@ def export_bundle(out_dir: Path) -> tuple[int, int]:
 
         text = record.path.read_text(encoding="utf-8")
         _, inner, body = split_frontmatter(text)
-        fm = yaml.safe_load(inner) or {}
-        if not isinstance(fm, dict):
-            fm = {}
+        fm = parse_display_fields(inner)
         body = body_without_see_also(assemble_markdown(fm, body))
         body = rewrite_wikilinks(body, by_key, base_url)
 

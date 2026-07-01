@@ -51,6 +51,83 @@ def split_frontmatter(text: str) -> tuple[str, str]:
     return text[3:end].strip(), text[end + 4 :]
 
 
+def _parse_scalar(block: str, key: str) -> str:
+    match = re.search(rf'^{key}:\s*"?([^"\n]+)"?\s*$', block, re.M)
+    return match.group(1).strip() if match else ""
+
+
+def _parse_block_scalar(block: str, key: str) -> str:
+    match = re.search(rf"^{key}:\s*\|\s*\n((?:  .*\n?)*)", block, re.M)
+    if not match:
+        return _parse_scalar(block, key)
+    lines: list[str] = []
+    for line in match.group(1).splitlines():
+        lines.append(line[2:] if line.startswith("  ") else line)
+    return "\n".join(lines).rstrip("\n")
+
+
+def _parse_string_list(block: str, key: str) -> list[str]:
+    inline = re.search(rf"^{key}:\s*\[(.*)\]\s*$", block, re.M)
+    if inline:
+        return [
+            item.strip().strip('"').strip("'")
+            for item in inline.group(1).split(",")
+            if item.strip()
+        ]
+    match = re.search(rf"^{key}:\s*\n((?:  - .*\n?)*)", block, re.M)
+    if not match:
+        return []
+    items: list[str] = []
+    for line in match.group(1).splitlines():
+        item_match = re.match(r'  - "?(.+?)"?\s*$', line)
+        if item_match:
+            items.append(item_match.group(1))
+    return items
+
+
+def _parse_relationships(block: str) -> list[dict[str, str]]:
+    match = re.search(
+        r"^relationships:\s*\n((?:  - .*\n(?:    .*\n?)*)*)", block, re.M
+    )
+    if not match:
+        return []
+    rows: list[dict[str, str]] = []
+    current: dict[str, str] = {}
+    for line in match.group(1).splitlines():
+        if line.startswith("  - "):
+            if current:
+                rows.append(current)
+            current = {}
+            rest = line[4:].strip()
+            if rest.startswith("type:"):
+                current["type"] = rest.split(":", 1)[1].strip()
+        elif line.startswith("    "):
+            key, _, val = line.strip().partition(":")
+            current[key.strip()] = val.strip().strip('"')
+    if current:
+        rows.append(current)
+    return rows
+
+
+def parse_display_fields(raw_fm: str) -> dict[str, Any]:
+    """Parse frontmatter fields needed by assemble_markdown (stdlib only)."""
+    fm: dict[str, Any] = {}
+    for key in ("description", "summary"):
+        val = _parse_scalar(raw_fm, key)
+        if val:
+            fm[key] = val
+    key_concept = _parse_block_scalar(raw_fm, "key_concept")
+    if key_concept:
+        fm["key_concept"] = key_concept
+    examples = _parse_string_list(raw_fm, "examples")
+    if examples:
+        fm["examples"] = examples
+    relationships = _parse_relationships(raw_fm)
+    if relationships:
+        fm["relationships"] = relationships
+    return fm
+
+
 def relationships_table(rows: list[dict[str, str]]) -> str:
     lines = [
         "## Note Relationships",
