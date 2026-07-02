@@ -6,6 +6,8 @@ Long-form documentation for the JoRap Notes project. The repo [`README.md`](../R
 
 | File | What it covers |
 | --- | --- |
+| [`SPEC.md`](./SPEC.md) | Complete platform specification: users, requirements, notes garden, success criteria. Start here for *what the system is*. |
+| [`../specs/`](../specs/) | Feature-specific speckit specs (plan → tasks → implement). |
 | [`PRODUCT.md`](./PRODUCT.md) | Audience, voice, anti-references, design principles. Start here for *why*. |
 | [`DESIGN.md`](./DESIGN.md) | Visual system: north star, tokens, typography, components, notes garden. Start here for *how it looks*. |
 | [`DESIGN.json`](./DESIGN.json) | Machine-readable design sidecar (palette meta, components, narrative) for tooling. |

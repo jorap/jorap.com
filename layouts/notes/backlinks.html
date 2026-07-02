@@ -150,12 +150,12 @@
                     {{- if lt $i 10 -}}
                       <span class="notes-backlinks-rank tabular-nums" aria-hidden="true">#{{ add $i 1 }}</span>
                     {{- end -}}
-                    <span class="notes-backlinks-group__heading">
+                    <div class="notes-backlinks-group__heading">
                       <span class="notes-backlinks-group__title">{{ $row.Page.Title }}</span>
-                      {{- with partial "notes/note-blurb.html" (dict "Page" $row.Page) -}}
+                      {{- with partial "notes/note-blurb.html" (dict "Page" $row.Page "DescriptionOnly" true) -}}
                         <span class="notes-backlinks-group__desc">{{ . }}</span>
                       {{- end -}}
-                    </span>
+                    </div>
                     <span class="notes-backlinks-group__meta">
                       <span
                         class="notes-backlinks-strength"

@@ -795,7 +795,7 @@ body.notes-graph-present-open {
 
 .notes-backlinks-group__summary {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.75rem;
   padding: 0.9rem 1rem;
   cursor: pointer;
@@ -849,12 +849,10 @@ body.notes-graph-present-open {
 .notes-backlinks-group__heading {
   flex: 1;
   min-width: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 0.15rem;
 }
 
 .notes-backlinks-group__title {
+  display: block;
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.35;
@@ -862,12 +860,10 @@ body.notes-graph-present-open {
 }
 
 .notes-backlinks-group__desc {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
-  overflow: hidden;
+  display: block;
+  margin-top: 0.2rem;
   font-size: 0.8125rem;
-  line-height: 1.35;
+  line-height: 1.4;
   color: var(--color-ink-muted);
 }
 
@@ -878,6 +874,7 @@ body.notes-graph-present-open {
   align-items: center;
   justify-content: flex-end;
   min-width: 4.5rem;
+  margin-top: 0.1rem;
 }
 
 .notes-backlinks-strength {
