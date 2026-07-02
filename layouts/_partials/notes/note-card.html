@@ -29,7 +29,7 @@
   {{- if $body -}}
     <p class="notes-card__body text-ink-muted relative z-[1] mb-0 flex-1 text-sm leading-snug pointer-events-none">{{ $body }}</p>
   {{- else if $showDescription -}}
-    {{- with partial "notes/note-blurb.html" (dict "Page" $page) -}}
+    {{- with partial "notes/note-blurb.html" (dict "Page" $page "DescriptionOnly" true) -}}
       <p class="notes-card__body text-ink-muted relative z-[1] mb-0 flex-1 text-sm leading-snug pointer-events-none">{{ . }}</p>
     {{- else -}}
       <div class="notes-card__spacer relative z-[1] flex-1 pointer-events-none" aria-hidden="true"></div>

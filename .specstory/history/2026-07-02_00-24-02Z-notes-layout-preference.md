@@ -2410,3 +2410,766 @@ Done.
 **New notes** now uses the same card pattern as random pick and the catalog — title plus description blurb (`note-blurb`), in a 3-column grid.
 
 Refresh `/notes/` to see it.
+
+---
+
+_**User**_
+
+all card in blocks show the description instead of the key concept
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All cards in blocks currently display the description instead of the key concept.</details></think>
+
+_**Agent (auto-low)**_
+
+Checking how card blurbs are built and where they're used in block layouts.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,js}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "note-blurb|ShowDescription"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "note-blurb|ShowDescription",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/blog/related-notes.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "layouts/_partials/notes/note-card.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/recent-new.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/backlinks.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/note-link-card.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/random-pool.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/notes/list.html"
+    }
+  ],
+  "totalFiles": 7,
+  "totalMatches": 10
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Cards in blocks currently display `key_concept` instead of `description`. The cleanest approach is being determined.
+
+Three approaches are under consideration: adding a parameter to `note-blurb.html`, creating a separate partial, or changing the blurb to prefer `description` in card contexts. The user's request targets card blocks specifically, so the change should be scoped there rather than affecting all backlinks.
+
+All card contexts are affected, including featured random, recent-new, list grids, related notes, and backlinks. The simplest fix is either a `Prefer` parameter on `note-blurb.html` or a dedicated `note-card-description.html` partial.
+
+A single optional `Source` parameter on `note-blurb.html` is the preferred minimal fix. This would let card blocks pass `"description"` while keeping existing blurb behavior intact.
+
+A `DescriptionOnly` flag on `note-blurb.html` is the chosen approach. Card blocks will pass it to render only the Description field, stripped and truncated. A separate partial was rejected because too many call sites would need updating.
+
+The `DescriptionOnly` flag must be added to `note-card.html`, `recent-new.html`, `list.html`, `related-notes.html`, `note-link-card.html`, and `random-pool.html`. Alternatively, `note-blurb.html` could default to description-only for card contexts.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/backlinks.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user wants block cards to display Description instead of key_concept. I'm determining the cleanest approach.
+
+Adding a `DescriptionOnly` parameter to `note-blurb.html` will let `note-link-card.html` pass it through. This covers see-also, outgoing, and backlink cards automatically. Recent-new, list catalog, related-notes, and random-pool also need updates. The `note-card` ShowDescription path should use this flag too. Search in `list.html` should likely use Description for consistency.
+
+Search logic stays unchanged since the request only concerns card display. The DescriptionOnly mode will pull text directly from page.Description, reuse the existing markdown stripping block, and truncate to 120 characters. A comment documenting the new parameter will be added to note-blurb.html.
+
+Hugo partials support `return`, so the DescriptionOnly helper can cleanly exit early. Call sites are now set: `note-link-card.html`, `recent-new.html`, and the card body in `list.html`. The search blurb at line 125 may also switch to description-only, since description already appears in search bits.</details></think>
+
+_**Agent (auto-low)**_
+
+Updating `note-blurb` to support description-only mode and applying it everywhere cards render in blocks.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Hugo partials cannot define variables inside themselves and call themselves recursively.
+
+The missing `blurb-clean.html` file prevents using a recursive partial. The plan is to inline the clean logic directly in the DescriptionOnly branch and duplicate the five lines there.</details></think>
+
+_**Agent (auto-low)**_
+
+Fixing `note-blurb.html` — Hugo doesn't support inline `define` the way I used it. Using a simpler approach:
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-link-card.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-pool.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Search indexing intentionally keeps key_concept snippets visible via note-blurb, even though DescriptionOnly is applied elsewhere.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "note-blurb"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "note-blurb",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/random-pool.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/blog/related-notes.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/recent-new.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/note-link-card.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/note-card.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/backlinks.html"
+    }
+  ],
+  "totalFiles": 7,
+  "totalMatches": 8
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: touch /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html && sleep 12 && curl -s http://localhost:1313/notes/ | rg -o '"description":"[^"]{0,80}' | head -5</summary>
+
+```bash
+touch /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html && sleep 12 && curl -s http://localhost:1313/notes/ | rg -o '"description":"[^"]{0,80}' | head -5
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | tail -20</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | tail -20
+```
+
+```
+Start building sites … 
+hugo v0.163.3-4d22555aebf458d5d150500c9ac4bee5b24cf0d3+extended linux/amd64 BuildDate=2026-06-18T16:18:24Z VendorInfo=gohugoio
+
+Total in 3645 ms
+ERROR error building site: render: [en v1.0.0 guest] failed to render pages: render of "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md" failed: "/home/jorap/Documents/GitHub/jorap.com/themes/jorap/layouts/blog/single.html:2:15": execute of template failed: template: blog/single.html:2:15: executing "main" at &lt;partial "blog/toc.html" .&gt;: error calling partial: "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/toc.html:21:19": execute of template failed: template: _partials/blog/toc.html:21:19: executing "_partials/blog/toc.html" at &lt;partial "notes/random-pool.html" $page&gt;: error calling partial: "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-pool.html:10:19": execute of template failed: template: _partials/notes/random-pool.html:10:19: executing "_partials/notes/random-pool.html" at &lt;partial "notes/note-blurb.html" (dict "Page" . "DescriptionOnly" true)&gt;: error calling partial: "/home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html:24:6": execute of template failed: template: _partials/notes/note-blurb.html:24:6: executing "_partials/notes/note-blurb.html" at &lt;return&gt;: wrong number of args for return: want 0 got 1
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Hugo's `return` in partials appears to require zero arguments. The current error indicates one argument was provided.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/note*.html",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "return "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/layouts",
+  "pattern": "return ",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "layouts/_partials/notes/note-blurb.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/note-issues-panel.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/note-meta.html"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/random-pool.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Noted that `note-meta.html` returns a dictionary while `random-pool` returns `$pool`, confirming that returning values with arguments works in some partials.
+
+The error likely stems from an early return inside a `with` block. The original template returned a value successfully, so the empty string return at line 24 appears problematic.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-meta.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The issue likely stems from a template returning an empty string literal. Hugo may interpret `return` without arguments differently than `return ""`.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The `return` statement inside the `with` block may be overriding the outer `return` and causing the wrong value to display.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | tail -5</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | tail -5
+```
+
+```
+ Processed images │  331 
+ Aliases          │  710 
+ Cleaned          │   10 
+
+Total in 12886 ms
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The build succeeded. Card blocks now display key concepts instead of descriptions. This applies to the random pick, new notes, and all notes catalog.</details></think>
+
+_**Agent (auto-low)**_
+
+All card blocks now pull from frontmatter **description** only, not `key_concept`.
+
+**What changed**
+- Added a `DescriptionOnly` mode to `note-blurb.html`
+- Turned it on for: random pick, new notes, the full catalog grid, related notes, and any list using `note-link-card` (see-also, outgoing links, backlinks)
+
+Search on the notes index still indexes `key_concept` blurbs so you can find notes by concept text — only what shows on cards switched to description.
+
+Refresh `/notes/` to see it. Cards with no description will show title only.
+
+---
+
+_**User**_
+
+do not truncate the description
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The card descriptions in note-blurb.html are currently truncated at 120 characters when DescriptionOnly is true. They should remain fully visible.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css",
+  "pattern": "line-clamp|truncate|notes-card__body"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css",
+  "pattern": "line-clamp|truncate|notes-card__body",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "assets/css/custom.css"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Removing the truncate block in DescriptionOnly mode from note-blurb.html.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-blurb.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixed truncation at the source level for random pool descriptions via the note-blurb DescriptionOnly path.</details></think>
+
+_**Agent (auto-low)**_
+
+Removed both truncation layers:
+
+1. **Template** — `DescriptionOnly` blurbs no longer cut at 120 characters.
+2. **CSS** — `.notes-card__body` no longer uses a 3-line clamp; the full description renders.
+
+Refresh `/notes/` to see it. Cards in the same row may vary in height now that descriptions run full length.
+
+---
+
+_**User**_
+
+review all descriptions. they must follow /jorap-voice bible verses must be transferred to key concept
+
+---
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **0** directories</summary>
+
+No results found
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: </summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Status: **loading**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>

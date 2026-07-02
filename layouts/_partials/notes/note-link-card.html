@@ -4,7 +4,7 @@
 */ -}}
 {{- $card := . -}}
 {{- if not $card.Body -}}
-  {{- $card = merge $card (dict "Body" (partial "notes/note-blurb.html" (dict "Page" $card.Page))) -}}
+  {{- $card = merge $card (dict "Body" (partial "notes/note-blurb.html" (dict "Page" $card.Page "DescriptionOnly" true))) -}}
 {{- end -}}
 <li class="notes-link-card flex">
   {{ partial "notes/note-card.html" $card }}

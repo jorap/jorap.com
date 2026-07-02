@@ -12,7 +12,7 @@
         <div class="md:col-6 mb-8 flex lg:col-4">
           {{ partial "notes/note-card.html" (dict
             "Page" $note
-            "Body" (partial "notes/note-blurb.html" (dict "Page" $note))
+            "Body" (partial "notes/note-blurb.html" (dict "Page" $note "DescriptionOnly" true))
             "HeadingLevel" 3
             "HeadingClass" "h5"
             "Shared" .Shared

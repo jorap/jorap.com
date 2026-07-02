@@ -7,7 +7,7 @@
   {{- $pool = $pool | append (dict
     "url" .RelPermalink
     "title" .Title
-    "description" (partial "notes/note-blurb.html" (dict "Page" .))
+    "description" (partial "notes/note-blurb.html" (dict "Page" . "DescriptionOnly" true))
   ) -}}
 {{- end -}}
 {{- return $pool -}}

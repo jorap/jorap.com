@@ -27,7 +27,7 @@
         <li class="notes-recent-item flex">
           {{ partial "notes/note-card.html" (dict
             "Page" $page
-            "Body" (partial "notes/note-blurb.html" (dict "Page" $page))
+            "Body" (partial "notes/note-blurb.html" (dict "Page" $page "DescriptionOnly" true))
             "HeadingLevel" 3
             "HeadingClass" "h6"
           ) }}

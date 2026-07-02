@@ -152,7 +152,7 @@
                 data-note-search="{{ delimit $searchBits " " | lower }}">
                 {{ partial "notes/note-card.html" (dict
                   "Page" .
-                  "Body" (partial "notes/note-blurb.html" (dict "Page" .))
+                  "Body" (partial "notes/note-blurb.html" (dict "Page" . "DescriptionOnly" true))
                   "HeadingLevel" 2
                   "HeadingClass" "h5"
                   "ShowTags" true
