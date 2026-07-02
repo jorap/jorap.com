@@ -20,7 +20,7 @@ STAGED=$(git diff --cached --name-only)
 needs_deploy=false
 while IFS= read -r f; do
   case "$f" in
-    content/*|layouts/*|assets/*|static/*|themes/*|functions/*|config/*|data/*|archetypes/*|i18n/*|hugo.toml|package.json|pnpm-lock.yaml|wrangler.toml|_redirects|netlify.toml|scripts/*)
+    content/*|layouts/*|assets/*|static/*|themes/*|functions/*|config/*|data/*|archetypes/*|i18n/*|hugo.toml|package.json|pnpm-lock.yaml|wrangler.toml|netlify.toml|scripts/*)
       needs_deploy=true
       break
       ;;

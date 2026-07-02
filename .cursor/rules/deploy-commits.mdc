@@ -16,7 +16,7 @@ Include `[skip ci]` or `[CI Skip]` in the commit message when changes touch only
 - `.vscode/`, `.cursor/`, `.github/`, `.specify/`
 - `CHANGELOG.md`, root `README.md`, `.gitignore`, editor config
 
-Do **not** add `[skip ci]` when any deploy path changes: `content/`, `layouts/`, `assets/`, `static/`, `themes/`, `functions/`, `scripts/`, `hugo.toml`, `wrangler.toml`, `_redirects`, `package.json`, `pnpm-lock.yaml`.
+Do **not** add `[skip ci]` when any deploy path changes: `content/`, `layouts/`, `assets/`, `static/`, `themes/`, `functions/`, `scripts/`, `hugo.toml`, `wrangler.toml`, `package.json`, `pnpm-lock.yaml`.
 
 The repo's `.githooks/prepare-commit-msg` appends `[skip ci]` automatically for non-deploy-only commits after `scripts/setup-git-hooks.sh`.
 

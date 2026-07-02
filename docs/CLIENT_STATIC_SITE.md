@@ -112,7 +112,7 @@ Same GitHub → Cloudflare flow; only output directory and build command change.
 | `scripts/deployBuild.mjs` | Canonical build (adapt pre-steps per site) |
 | `scripts/ensureHugo.mjs` | CI Hugo install when PATH is wrong |
 | `static/_headers` | Security headers + long-cache fingerprinted assets |
-| `_redirects` | www canonicalization + legacy paths |
+| `static/_redirects` | www canonicalization + legacy paths |
 | `netlify.toml` | Optional Netlify mirror (same env vars) |
 
 Strip JoRap-specific pieces (notes garden, CMS functions, OKF export) unless the client needs them.
