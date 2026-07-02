@@ -622,9 +622,31 @@ body.notes-graph-present-open {
   box-shadow: 0 4px 16px color-mix(in srgb, var(--color-ink) 8%, transparent);
 }
 
+.notes-card__title {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--color-accent) 35%, transparent);
+  text-underline-offset: 0.15em;
+  transition: text-decoration-color 0.15s ease;
+}
+
 .notes-card--interactive:hover .notes-card__title,
 .notes-card--interactive:focus-within .notes-card__title {
   color: var(--color-accent);
+  text-decoration-color: var(--color-accent);
+}
+
+.notes-card__tags a {
+  border: 1px solid color-mix(in srgb, var(--color-accent) 30%, var(--color-divider));
+  background: var(--color-surface);
+  color: var(--color-accent);
+}
+
+.notes-card__tags a:hover,
+.notes-card__tags a:focus-visible {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-on-accent);
 }
 
 .notes-card__overlay {
@@ -1295,7 +1317,6 @@ html.dark .notes-list-facet__select {
 .notes-recent-link:hover,
 .notes-recent-link:focus-visible {
   border-color: var(--color-accent);
-  color: var(--color-accent);
 }
 
 .notes-recent-title {
@@ -1307,12 +1328,23 @@ html.dark .notes-list-facet__select {
   font-size: 0.875rem;
   font-weight: 500;
   line-height: 1.35;
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--color-accent) 35%, transparent);
+  text-underline-offset: 0.12em;
+  transition: text-decoration-color 0.15s ease;
+}
+
+.notes-recent-link:hover .notes-recent-title,
+.notes-recent-link:focus-visible .notes-recent-title {
+  text-decoration-color: var(--color-accent);
 }
 
 .notes-recent-meta {
   display: block;
   font-size: 0.75rem;
   line-height: 1.35;
+  color: var(--color-ink-muted);
 }
 
 .notes-random-grid {

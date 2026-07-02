@@ -25,7 +25,6 @@
       <div class="notes-index-discover mb-10 grid gap-8">
         {{ partial "notes/featured-random-note.html" . }}
         {{ partial "notes/recent-new.html" (dict "Context" . "Limit" 6) }}
-        {{ partial "notes/recent-updated.html" (dict "Context" . "Limit" 6) }}
       </div>
 
       <div class="row justify-center">
@@ -156,7 +155,6 @@
                   "Body" (partial "notes/note-blurb.html" (dict "Page" .))
                   "HeadingLevel" 2
                   "HeadingClass" "h5"
-                  "HeadingExtraClass" "text-ink"
                   "ShowTags" true
                   "TagLimit" 4
                 ) }}

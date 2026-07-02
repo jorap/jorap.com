@@ -21,15 +21,16 @@
   <section class="notes-recent">
     <h2 class="h5 mb-1">New notes</h2>
     <p class="text-ink-muted mb-3 text-sm">Latest additions to the garden.</p>
-    <ul class="notes-recent-list grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+    <ul class="notes-recent-list grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
       {{- range . -}}
         {{- $page := .Page -}}
-        {{- $dates := .Dates -}}
-        <li class="notes-recent-item">
-          <a class="notes-recent-link" href="{{ $page.RelPermalink }}" data-wikilink-preview="{{ $page.RelPermalink }}">
-            <span class="notes-recent-title">{{ $page.Title }}</span>
-            <span class="notes-recent-meta text-ink-muted">{{ $dates.CreatedShort }}</span>
-          </a>
+        <li class="notes-recent-item flex">
+          {{ partial "notes/note-card.html" (dict
+            "Page" $page
+            "Body" (partial "notes/note-blurb.html" (dict "Page" $page))
+            "HeadingLevel" 3
+            "HeadingClass" "h6"
+          ) }}
         </li>
       {{- end -}}
     </ul>

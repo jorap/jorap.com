@@ -58,7 +58,7 @@
       '" aria-label="' +
       escapeHtml(pick.title) +
       '"></a>' +
-      '<h3 class="h6 notes-card__title relative z-[1] mb-2 text-ink font-medium pointer-events-none">' +
+      '<h3 class="h6 notes-card__title relative z-[1] mb-2 font-medium pointer-events-none">' +
       escapeHtml(pick.title) +
       "</h3>" +
       desc +

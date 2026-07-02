@@ -1538,3 +1538,875 @@ _**Agent (auto-low)**_
 <summary>Tool use: **read_file_v2**</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Notes-card titles use `text-ink` for link styling. They appear as plain text until hovered. This creates poor contrast.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{css,toml}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "--color-accent|--color-ink"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "--color-accent|--color-ink",
+  "topFiles": [
+    {
+      "matchCount": 8,
+      "uri": "themes/jorap/assets/css/semantic-tokens.css"
+    },
+    {
+      "matchCount": 3,
+      "uri": "themes/jorap/assets/css/module-overrides.css"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/assets/css/buttons.css"
+    },
+    {
+      "matchCount": 2,
+      "uri": "themes/jorap/assets/css/navigation.css"
+    },
+    {
+      "matchCount": 26,
+      "uri": "assets/css/custom.css"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 115
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Links inside card blocks need sufficient contrast.
+
+Three specific issues were identified. Card titles default to `text-ink` and only turn accent on hover. Recent link titles inherit color and look non-clickable. Tag chips on elevated cards are invisible against the background. Scoped CSS rules for card blocks are preferable to template changes.
+
+The plan now includes four concrete file changes. `note-card.html` will default card titles to accent color. `list.html` and `featured-random.js` will stop overriding titles with `text-ink`. Recent link titles will also use accent color. Tag chip visibility will be fixed through scoped CSS.
+
+Recent link titles will stay muted by default and only shift to accent on hover or focus. The parent link element will not carry a color override, preventing the metadata from inheriting accent color.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "HeadingExtraClass|notes-card__title"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "HeadingExtraClass|notes-card__title",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./layouts/notes/list.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./assets/css/custom.css"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./assets/js/notes-featured-random.js"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./layouts/_partials/notes/note-card.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./layouts/_partials/blog/related-notes.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-27_10-39-09Z-knowledge-catalog-specification-comparison.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-22_07-06-09Z-content-consistency-between-local-and-live.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-06-21_11-42-01Z-possible-additional-filters.md"
+    }
+  ],
+  "totalFiles": 9,
+  "totalMatches": 12
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Implementing CSS-first contrast fixes for links within card blocks.
+
+Applying accent color to card titles and tag chips against elevated backgrounds. Meta text will stay muted on hover. Using higher-specificity CSS to override utility classes.
+
+Switching templates to `text-accent` directly instead of relying on CSS overrides. Updating note-card.html, list.html, and related-notes.html heading classes.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css",
+  "pattern": "color-primary|color-text-dark"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css",
+  "pattern": "color-primary|color-text-dark",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "themes/jorap/assets/css/generated-theme.css"
+    },
+    {
+      "matchCount": 2,
+      "uri": "themes/jorap/assets/css/semantic-tokens.css"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The primary color variable is nearly black (#181614). This likely causes poor link contrast in card blocks.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/generated-theme.css</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The light mode accent color (#181614) is nearly identical to the ink color (#161412). This overlap likely causes poor link contrast.
+
+Dark mode accent (#f2efe9) and ink (#f5f2ed) are also nearly identical. This overlap likely makes links appear non-clickable. The user probably needs a distinct link color or underline for accessibility.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/semantic-tokens.css</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{css,html}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "color-elevated|bg-elevated"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "color-elevated|bg-elevated",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "themes/jorap/assets/css/module-overrides.css"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/tag-chips.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/layouts/_partials/call-to-action.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/layouts/_partials/components/blog-card.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": "themes/jorap/layouts/_partials/components/pagination.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/layouts/taxonomy.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/layouts/_partials/widgets/tags.html"
+    },
+    {
+      "matchCount": 17,
+      "uri": "assets/css/custom.css"
+    },
+    {
+      "matchCount": 2,
+      "uri": "themes/jorap/assets/css/safe.css"
+    }
+  ],
+  "totalFiles": 9,
+  "totalMatches": 46
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Tag chips on cards with `bg-elevated` inherit the same background color as the parent card. This makes them invisible except for their text.
+
+Links on elevated backgrounds have strong contrast. Accent text is nearly identical to the background. The real problem is likely missing borders or visual separation for links.
+
+Hovering recent links turns meta text to accent color. That may be hard to read at 0.75rem. Tag chips hover to accent on surface. That contrast is fine. The real issue is whether default tag chips look like clickable links.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css",
+  "pattern": "text-ink-muted|\\.text-ink"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css",
+  "pattern": "text-ink-muted|\\.text-ink",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/assets/css/base.css"
+    },
+    {
+      "matchCount": 5,
+      "uri": "themes/jorap/assets/css/components.css"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+`text-ink-muted` appears to be a Tailwind utility class mapped to the CSS variable `var(--color-ink-muted)`.
+
+Tailwind utilities set color directly, so parent hover states won't override them. The contrast issue may instead involve dark mode legibility or the accent underline pattern used in backlinks and stats. Existing link patterns in the notes UI will be reviewed.
+
+A cohesive card-link system is being drafted in CSS. Card titles will use accent-colored underlines with a translucent offset. Hover and focus states will switch the underline to solid accent. Tag links inside cards will sit on a surface background to remain visible against elevated cards.
+
+Tag links inside cards will use a translucent accent border, surface background, and accent text. Hover and focus states swap the background to solid accent with inverted text and border. Recent list titles will follow the same underline pattern with a tighter offset.
+
+Recent list links will use accent borders on hover and focus. The accent background color token will be applied to the entire link element rather than just the title text. Semantic `--color-on-accent` handles light and dark mode text contrast. Tag chip styling stays scoped to `.notes-card__tags` within card blocks.
+
+The `text-ink` utility will be removed from card templates and replaced with `text-accent` or handled entirely through CSS. This avoids specificity conflicts with the custom stylesheet. Both the template defaults and the custom CSS will be updated.
+
+Conflicting hover rules that only change color will be removed while keeping underline enhancements. Featured-random.js, list.html, and related-notes templates will drop text-ink from card titles. Note-card heading defaults will shift to font-medium. See-also and other note-link-card usages still need review. The contrast requirement may target WCAG standards, though text-ink on elevated surfaces is already legible.</details></think>
+
+_**Agent (auto-low)**_
+
+Updating card-block link styles so titles and tag chips read clearly as links on elevated backgrounds.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/blog/related-notes.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-featured-random.js</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Tag chips in tag-chips.html still carry default background and text colors. Card-scoped CSS with higher specificity should override these defaults to ensure proper link contrast.
+
+The card-scoped selector `.notes-card__tags a` outranks the utility classes by one specificity point. This ensures its background and color declarations override the defaults. Hover states should match in specificity.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css",
+  "pattern": "custom\\.css"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css",
+  "pattern": "custom\\.css",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/assets/css/main.css"
+    },
+    {
+      "matchCount": 1,
+      "uri": "themes/jorap/assets/css/custom.css"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+custom.css is imported at the end of main.css. Project assets/css/custom.css is piped through Hugo assets.</details></think>
+
+_**Agent (auto-low)**_
+
+Updated link contrast across card blocks:
+
+**Note cards** (random pick, catalog, see-also, backlinks)
+- Titles use `--color-accent` with a subtle underline that strengthens on hover/focus
+- Tag chips sit on `--color-surface` with an accent border and text, so they stand out on the elevated card background
+- Tag hover uses `--color-on-accent` for readable text on the accent fill
+
+**Recent note cards** (New notes / Recent updates)
+- Titles are accent + underline instead of inheriting body color
+- Meta dates stay `--color-ink-muted` on hover (no longer washed into accent)
+- Border still highlights on hover
+
+Refresh `/notes/` to see it. The same rules apply anywhere `note-card` is used (related notes on blog posts, outgoing links, etc.).
+
+---
+
+_**User**_
+
+remove 
+Recent updates
+Notes touched most recently.
+
+add description in new notes cards
+
+---
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-card.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Remove the recent-updated partial from list.html. Rewrite recent-new.html to use note-card components with descriptions instead of simple links.
+
+The new cards will use note-card with body text from note-blurb.html, matching the catalog grid style. The three-column grid layout stays. Date may be kept as small meta, but the focus is title plus description.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "recent-updated|notes-recent-link"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "recent-updated|notes-recent-link",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-06-21_09-49-17Z-ponytail-skill-integration.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_12-48-52Z-format-consistency.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-21_11-42-01Z-possible-additional-filters.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_11-05-26Z-category-number-addition.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-07-02_00-24-02Z-notes-layout-preference.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_15-46-06Z-atomic-note-creation-prompt.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_10-34-58Z-card-display-settings-for-random-trio-and-duo.md"
+    },
+    {
+      "matchCount": 13,
+      "uri": ".specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-28_00-07-52Z-tinacms-compatibility.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_10-42-35Z-graph-filters-on-mobile-and-tablet.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-21_12-15-47Z-possible-notes-functionalities.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-22_02-16-32Z-missing-hugo-extended-package-warning.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-20_17-18-55Z-button-and-link-padding-consistency.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_08-12-04Z-eternal-principles-and-jesus'-teachings.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_07-06-09Z-content-consistency-between-local-and-live.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-01_15-16-34Z-http-500-error-on-jorap.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_11-09-34Z-local-display-issues-for-notes-and-graphs.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-28_03-00-38Z-sveltia-notes-update.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-07-01_23-35-09Z-notes-layout-adjustment.md"
+    }
+  ],
+  "totalFiles": 35,
+  "totalMatches": 93
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Removing the recent-updated partial call from list.html. The partial file itself will remain, though it appears unused elsewhere.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/list.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/recent-new.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Removed the unused `$dates` variable from the range.</details></think>
+
+_**Agent (auto-low)**_
+
+Done.
+
+**Removed** the Recent updates block from the notes index.
+
+**New notes** now uses the same card pattern as random pick and the catalog — title plus description blurb (`note-blurb`), in a 3-column grid.
+
+Refresh `/notes/` to see it.
