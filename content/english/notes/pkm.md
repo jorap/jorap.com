@@ -3,8 +3,9 @@ title: "PKM"
 meta_title: "PKM - Personal Knowledge Management in Plain Language"
 description: "Personal Knowledge Management (PKM) is the boring name for how I save, organize, and use what I learn. Here's my unspectacular definition."
 key_concept: |
-  PKM is the plain name for the save-organize-use system getting started introduces ([[Getting Started]]).
+  Tension with The Collector's Fallacy when building the system feels like progress without output.
   
+  PKM is the plain name for the save-organize-use system getting started introduces ([[Getting Started]]).
   Tension with [[The Collector's Fallacy]] when building the system feels like progress without output.
 examples:
   - "The team manager keeps a card file sorted by what she actually uses on game day, not every article she ever read."
@@ -33,13 +34,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "When a friend asks what PKM means, I say the same for what I learn"
-    back: "Boring name, daily payoff"
-  - front: "My commute notebook has three lists I actually open. What's the move?"
-    back: "Not forty folders I'll never scroll again"
-  - front: "The team manager keeps a card file sorted by what she actually uses on game day, not every article she ever read."
-    back: "PKM"
-  - front: "The school nurse keeps a card file sorted by what she actually uses on a shift, not every article she ever read."
-    back: "PKM"
+  - front: "Friend asks what PKM means. One plain sentence?"
+    back: "How I save, organize, use what I learn."
+  - front: "Commute notebook has three lists I actually open. What's the move?"
+    back: "Not forty folders I'll never scroll."
+  - front: "Card file sorted by what I use game day - not every article I read. What's the move?"
+    back: "Keep what I use - cut the hoard."
+  - front: "Shift card file - only what I need tonight, not the whole library. One sentence I'd tell a friend?"
+    back: "Save, organize, use - boring name."
 draft: false
 ---

@@ -42,9 +42,9 @@ cards:
     back: "Protect the vital few - cut tail polish."
   - front: "Someone treats 80/20 as physical law. One correction I'd give?"
     back: "Shorthand ratio - not a law."
-  - front: "The kids' activity list had six things and we skipped three nights"
-    back: "most results come from a small slice of work"
-  - front: "The bakery had six daily specials and sold two consistently"
-    back: "we cut to those two and waste dropped"
+  - front: "Six activities on the kids' list and we skipped three nights. What's the vital slice?"
+    back: "Keep basketball and piano - cut the rest."
+  - front: "Menu has six daily specials but only two sell consistently. What's the move?"
+    back: "Cut to those two."
 draft: false
 ---

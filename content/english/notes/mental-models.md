@@ -24,13 +24,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "The restaurant had twelve menu tweaks on the whiteboard"
-    back: "I picked the two that actually cut ticket."
+  - front: "Twelve menu tweaks on the whiteboard - I can only chase two. What's the move?"
+    back: "Pick the two that cut ticket times."
   - front: "Waze showed four commute routes. What's the move?"
-    back: "Not the scenic detour"
-  - front: "Saturday basketball camp signup had forty options listed and I froze"
-    back: "Compounding was ten minutes of ball-handling a week"
+    back: "Gas saver on Tuesday school run."
+  - front: "Saturday basketball camp signup - forty options and I froze. First move?"
+    back: "Ten minutes ball-handling a week."
   - front: "Forty activity flyers on the fridge and we froze. What's the move?"
-    back: "three fit the budget, register online before slots."
+    back: "Three fit budget - register now."
 draft: false
 ---

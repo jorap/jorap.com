@@ -33,9 +33,9 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "We lost every third possession on turnovers. What's the move?"
-    back: "Not \"focus harder tonight.\""
-  - front: "The restaurant ran out of rice on a busy Friday. What's the move?"
-    back: "Not \"cook faster tonight.\""
+  - front: "We're losing every third possession on turnovers again."
+    back: "Trace the warmup drill - not 'focus harder.'"
+  - front: "Busy Friday and the restaurant just ran out of rice mid-rush."
+    back: "Fix prep checklist - not 'cook faster.'"
 draft: false
 ---

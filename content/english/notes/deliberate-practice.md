@@ -29,9 +29,9 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "I bombed transitions in a talk and ran only those bridges ten times the next morning"
-    back: "Not mindless repetition of what already worked"
-  - front: "Our guard drills the weak-hand finish fifty times, not the whole scrimmage on autopilot"
-    back: "Train the weak slice on purpose"
+  - front: "Bombed transitions in yesterday's talk. Tomorrow morning - what's the rep?"
+    back: "Run only those bridges ten times."
+  - front: "Weak-hand finish keeps failing in scrimmage. What slice do I actually drill?"
+    back: "Fifty weak-hand reps - not autopilot."
 draft: false
 ---

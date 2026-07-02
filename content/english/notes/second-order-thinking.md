@@ -2,7 +2,10 @@
 title: "Second-Order Thinking"
 meta_title: "Second-Order Thinking - Ask What Happens Next"
 description: "Ask what happens after the first win - incentives shift, copycats arrive, shortcuts compound."
-key_concept: Second-order thinking asks what happens after the first consequence - not only whether the move works today.
+key_concept: |
+  Ask what happens after the first win - incentives shift, copycats arrive, shortcuts compound.
+  
+  Second-order thinking asks what happens after the first consequence - not only whether the move works today.
 examples:
   - "Free pizza after games pulled families in - then the parking lot jammed and refs quit early - I asked what happens after the first rush."
   - "I offered unlimited screen time on sick days - then bedtime fights lasted a week after they recovered."
@@ -30,9 +33,9 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Free pizza after games pulled families in. What's the move?"
-    back: "Asked what happens after the first rush"
-  - front: "I offered unlimited screen time on sick days. What's the move?"
-    back: "then bedtime fights lasted a week after they."
+  - front: "Free pizza packed the lot last month and refs quit early. One question before I try it again?"
+    back: "What happens after the first rush?"
+  - front: "Kid's well after a sick week of unlimited screens - and bedtime's a war zone again. What did I miss?"
+    back: "Ask what happens after the win."
 draft: false
 ---

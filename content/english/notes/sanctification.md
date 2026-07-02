@@ -61,7 +61,7 @@ review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
   - front: "Same sin pattern after conversion - feels like faith didn't take. What's the second process?"
-    back: "Sanctification - becoming holy over time."
+    back: "Slow becoming - standing settled at faith."
   - front: "Waiting to feel holy before I call myself saved. Which came first?"
     back: "Justified at faith - holiness follows."
   - front: "Bible reading streak is my proof God accepts me. Mixing up what saves vs what grows?"

@@ -35,9 +35,9 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "I block fifteen minutes after standup to walk with one teammate"
-    back: "Just the same loop every Tuesday"
-  - front: "My parents and I call every Sunday after lunch. What's the move?"
-    back: "same window, even when there's nothing big to."
+  - front: "Dry month with a teammate and a big gesture feels overdue. Smaller move?"
+    back: "Fifteen-minute walk after standup - every Tuesday."
+  - front: "Sunday after lunch and nothing big to report to my parents. Still call?"
+    back: "Call anyway - same window every Sunday."
 draft: false
 ---

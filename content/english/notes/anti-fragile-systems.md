@@ -30,13 +30,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "When the gym's booking app shut down for good, my paper training log still had every set"
-    back: "I photocopy it once a quarter so I'm."
-  - front: "I keep notes as plain markdown files because the last shiny app I loved got acquired and killed"
-    back: "Boring format, still readable ten years later"
-  - front: "The shop switched POS systems twice and the owner kept a plain spreadsheet backup"
-    back: "Not trust in the vendor forever"
-  - front: "Our family recipe box survived three phone upgrades. What's the move?"
-    back: "Index cards beat the app that stopped syncing"
+  - front: "Gym booking app shut down for good and my paper log still has every set. What's my backup habit?"
+    back: "Photocopy the log each quarter."
+  - front: "Last shiny notes app got acquired and killed. What's my format move?"
+    back: "Plain markdown files."
+  - front: "POS vendor changed twice and I'm tempted to trust the cloud forever. What do I keep?"
+    back: "Plain spreadsheet backup."
+  - front: "Family recipe box survived three phone upgrades while the sync app died. What's the lesson?"
+    back: "Boring format that outlives apps."
 draft: false
 ---

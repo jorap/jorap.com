@@ -39,13 +39,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "I protect the Sunday review loop that produces the next note"
-    back: "The process keeps working when motivation dips"
-  - front: "The baker follows the same proofing steps whether it's a slow Tuesday or wedding weekend."
-    back: "Process Over Outcomes"
+  - front: "I protect the Sunday review loop that produces the next note. Why?"
+    back: "Process runs when motivation dips."
+  - front: "Same proofing steps whether slow Tuesday or wedding weekend. What's the bet?"
+    back: "Trust the loop - not one hero day."
   - front: "Same commute podcast and debrief voice memo. What's the move?"
-    back: "The loop survives a bad week at work"
-  - front: "The JV squad runs the same warmup whether the bleachers are empty or full."
-    back: "Process Over Outcomes"
+    back: "Loop survives a bad week."
+  - front: "Same warmup whether bleachers empty or full. What's the bet?"
+    back: "Repeatable beats one big win."
 draft: false
 ---

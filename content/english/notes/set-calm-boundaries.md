@@ -29,9 +29,9 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "A teammate kept trash-talking our own bench. What's the move?"
-    back: "Clear line"
-  - front: "A client kept calling my personal cell after hours. What's the move?"
-    back: "No apology tour"
+  - front: "Teammate keeps trash-talking our own bench during timeouts. Finger on send for the group chat rant. What do I say?"
+    back: "Pull him aside - behavior line, steady voice."
+  - front: "Client's ringing my personal cell at 9pm again. What's the boundary?"
+    back: "Six on this number - office line after."
 draft: false
 ---

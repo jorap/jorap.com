@@ -3,8 +3,9 @@ title: "Compounding"
 meta_title: "Compounding - Small Gains That Stack Over Time"
 description: "Repeat small gains until they stack - keep showing up; the curve looks flat until it doesn't."
 key_concept: |
-  Borrowed from finance, but it applies anywhere today's gain makes tomorrow easier: notes linked over years, publish cadence, vocab drills.
+  Repeat small gains until they stack - keep showing up; the curve looks flat until it doesn't.
   
+  Borrowed from finance, but it applies anywhere today's gain makes tomorrow easier: notes linked over years, publish cadence, vocab drills.
   Heroic weeks feel good; boring repetition wins. The first months look like nothing - that's the trap. Faith parallel: [[Abide in Me]] - fruit from staying connected over time, not self-generated effort alone. [[Eternal Rewards]] - the Father repays daily faithfulness over years, not a lump-sum merit binge that buys heaven. [[Loss of Reward]] is the other side: a bad season shrinks reward, it doesn't erase [[Free Grace]].
 examples:
   - "Ten minutes of free throws every Tuesday looked pointless for months - then the percentage bent without me noticing the curve."
@@ -36,13 +37,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "Ten minutes of free throws every Tuesday looked pointless for months"
-    back: "then the percentage bent without me noticing the."
-  - front: "A line cook fixes one prep station flaw every Monday. What's the move?"
-    back: "Not one yearly overhaul that never sticks"
-  - front: "My kid's piano practice looked pointless for a year. What's the move?"
-    back: "three songs a week, same scales, then year."
-  - front: "Our family morning checklist grew one line per forgotten backpack"
-    back: "six months later school mornings were boring in."
+  - front: "Ten minutes of free throws every Tuesday and the percentage hasn't moved in months. Keep going?"
+    back: "Yes - the curve bends quietly."
+  - front: "Line cook fixing one prep flaw every Monday instead of a yearly overhaul. Why?"
+    back: "Small reps stack - big overhauls don't stick."
+  - front: "Kid's piano practice feels pointless after a year of the same three songs. What's compounding?"
+    back: "Keep the scales weekly - year two links."
+  - front: "Morning checklist grew one line per forgotten backpack and mornings are still chaos. Trust the curve?"
+    back: "Six months - boring reps win."
 draft: false
 ---

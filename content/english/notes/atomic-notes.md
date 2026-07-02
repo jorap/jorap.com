@@ -3,8 +3,9 @@ title: "Atomic Notes"
 meta_title: "Atomic Notes - One Idea, One File"
 description: "One claim I'd say out loud - too many `and`s, split it."
 key_concept: |
-  **Rule of thumb:** one thing I'd cite in conversation - "why middle-click saves tab chaos" is atomic; "browser tips and meeting notes" is not.
+  One claim I'd say out loud - too many ands, split it.
   
+  **Rule of thumb:** one thing I'd cite in conversation - "why middle-click saves tab chaos" is atomic; "browser tips and meeting notes" is not.
   Small notes stack like Lego blocks - linked, not merged. Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing. If I need headings inside one file, I probably need two notes. Faith parallel: [[Let Your Yes Be Yes]] - say one plain thing; let your yes be yes.
 examples:
   - "\"Why my basketball shoes live by the door\" is one claim - I'd say it alone at carpool."

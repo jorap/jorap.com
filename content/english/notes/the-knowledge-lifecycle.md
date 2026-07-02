@@ -27,13 +27,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Ideas in my vault move capture → active use → evergreen → archive"
-    back: "Spend water and stakes where the note actually lives"
-  - front: "The new set play lives in \"learning\" for three weeks, graduates to \"game plan,\" then gets archived when we change offense."
-    back: "The Knowledge Lifecycle"
-  - front: "A tomato seedling on the windowsill graduates to the backyard bed after three good weeks, then gets pulled when frost hits."
-    back: "The Knowledge Lifecycle"
-  - front: "The school FAQ note started as a fleeting capture, got updated all semester, then moved to archive when the kid changed schools."
-    back: "The Knowledge Lifecycle"
+  - front: "New note just landed - not sure if it's fleeting or evergreen yet."
+    back: "Match effort to where it actually sits."
+  - front: "New set play's in 'learning' folder - three weeks till game plan."
+    back: "Graduate when game-ready - archive when offense changes."
+  - front: "Tomato seedling's been on the windowsill three good weeks."
+    back: "Move to the bed - pull when frost hits."
+  - front: "School FAQ note got updated all semester and the kid's changing schools."
+    back: "Archive it - capture served its season."
 draft: false
 ---

@@ -29,13 +29,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "We dropped the second gym bag and the backup jump rope. What's the move?"
-    back: "fewer things means I actually know where the."
-  - front: "We dropped the second diaper bag, the backup stroller, and the junk drawer of chargers"
-    back: "Actually know where the one working cable lives"
-  - front: "Same reason I keep one capture path instead of five apps"
-    back: "Stopped collecting tools"
-  - front: "The front desk runs one scheduling app, not four. What's the move?"
-    back: "fewer sync layers means fewer places patient reminders."
+  - front: "Second gym bag and backup jump rope collecting dust. What's minimalism here?"
+    back: "Fewer things - I know where stuff lives."
+  - front: "Second diaper bag, backup stroller, junk drawer of chargers. What's the win?"
+    back: "One working cable - findable."
+  - front: "Tempted to add another capture app on top of four already. What's the move?"
+    back: "One capture path - stop collecting tools."
+  - front: "Front desk running four scheduling apps and reminders are slipping. Cut to what?"
+    back: "One app - fewer sync layers."
 draft: false
 ---

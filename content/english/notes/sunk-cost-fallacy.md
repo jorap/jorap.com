@@ -33,13 +33,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "I kept running a set play that lost four straight because we'd drilled it all preseason"
-    back: "Not because it still works"
-  - front: "The shop kept the broken POS because they'd paid the install fee"
-    back: "Buy this system fresh today?"
-  - front: "I kept paying for a gym I hadn't entered since February"
-    back: "The answer was no and I canceled in ten minutes"
-  - front: "We finished a board game nobody liked because we'd already played an hour"
-    back: "sunk cost was admitting we'd rather start a."
+  - front: "Set play lost four straight but we drilled it all preseason. Keep running it?"
+    back: "Would I pick it fresh today? No."
+  - front: "Software keeps crashing but I already paid the annual license."
+    back: "Would I buy it today? Cancel."
+  - front: "Gym membership charging since February and I haven't gone."
+    back: "Cancel it - past money's gone."
+  - front: "Board game's boring and we're an hour in."
+    back: "Stop - don't finish because we started."
 draft: false
 ---

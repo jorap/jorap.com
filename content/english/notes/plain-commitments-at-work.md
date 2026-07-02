@@ -39,13 +39,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "The host almost said \"I'll try to maybe get you a table around seven if we're not slammed\" when \"7pm\" or \"I can't tonight"
-    back: "Want tomorrow?\" was what the couple needed"
-  - front: "I told the carpool \"yes Friday, no Thursday\". What's the move?"
-    back: "Not \"definitely maybe if nothing comes up.\""
-  - front: "The coach said \"practice at 4pm sharp\". What's the move?"
-    back: "not \"we'll try to maybe start around four."
-  - front: "I told my neighbor \"I'll fix your fence Saturday by noon\""
-    back: "One deadline, one owner, not padded maybe"
+  - front: "Host almost said I'll try maybe get you a table around seven. What's the plain move?"
+    back: "7pm or I can't tonight - pick one."
+  - front: "I told the carpool yes Friday, no Thursday. What do I refuse to say?"
+    back: "Definitely maybe if nothing comes up."
+  - front: "Coach needs practice at 4pm sharp. What do I refuse to pad?"
+    back: "We'll try maybe around four."
+  - front: "I told my neighbor I'll fix his fence Saturday by noon. What makes it plain?"
+    back: "One deadline, one owner."
 draft: false
 ---

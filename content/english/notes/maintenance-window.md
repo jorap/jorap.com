@@ -3,8 +3,9 @@ title: "Maintenance Window"
 meta_title: "Maintenance Window"
 description: "Scheduled time to prune, fix links, and archive - not random Sunday panic."
 key_concept: |
-  Calendar the prune before the garden rots - same habit as oil changes, not panic Sundays.
+  Scheduled time to prune, fix links, and archive - not random Sunday panic.
   
+  Calendar the prune before the garden rots - same habit as oil changes, not panic Sundays.
   [[Periodic Knowledge Review]] calendars the pass; this note names the scheduled slot.
 examples:
   - "First Sunday I swap the car fluids and rotate tires - not waiting for the check-engine light."
@@ -32,13 +33,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "First Sunday I swap the car fluids and rotate tires. What's the move?"
-    back: "not waiting for the check-engine light on a."
-  - front: "Every Monday after practice we clean balls and tape the lineup board"
-    back: "Not only when the gym floods"
-  - front: "First Sunday of the month is garden maintenance. What's the move?"
-    back: "Broken links, stale drafts, nothing else"
-  - front: "Saturday morning is toy-bin purge and mending. What's the move?"
-    back: "Not panicked cleaning when guests are at the door"
+  - front: "First Sunday - swapping car fluids and rotating tires. Why now?"
+    back: "Before the check-engine light."
+  - front: "Every Monday after practice we clean balls and tape the lineup board. Why not wait?"
+    back: "Not only when the gym floods."
+  - front: "First Sunday of the month is garden maintenance. What gets pruned?"
+    back: "Broken links, stale drafts."
+  - front: "Saturday morning toy-bin purge and mending. Why not wait for guests?"
+    back: "Not panicked cleaning at the door."
 draft: false
 ---

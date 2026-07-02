@@ -3,8 +3,9 @@ title: "Commonplace Book"
 meta_title: "Commonplace Book"
 description: "A personal book of quotes and ideas worth keeping - ancestor of linked notes."
 key_concept: |
-  A personal quote bank beats rereading whole books when you need one line in conversation.
+  A personal book of quotes and ideas worth keeping - ancestor of linked notes.
   
+  A personal quote bank beats rereading whole books when you need one line in conversation.
   [[Literature Notes]] feed the bank; [[Progressive Summarization]] distills before filing.
 examples:
   - "Coach's old basketball playbook of sets and halftime talks - same job as my [[Capture]] file, paper instead of wikilinks."
@@ -29,13 +30,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Coach's old basketball playbook of sets and halftime talks"
-    back: "Paper instead of wikilinks"
-  - front: "A thrift-store find: a 1980s coach's playbook with handwritten margins"
-    back: "Paper instead of wikilinks"
-  - front: "Grandpa's notebook of sermon lines and recipes. What's the move?"
-    back: "quotes worth keeping before anyone had a digital."
-  - front: "My mother-in-law's recipe card box with margin notes. What's the move?"
-    back: "Ancestor of linked notes"
+  - front: "Found a thrift-store coach's playbook with handwritten margin notes. Ancestor of what?"
+    back: "Linked notes - paper edition."
+  - front: "Old basketball playbook of sets and halftime talks sitting on the shelf. Same job as my garden?"
+    back: "Quotes and ideas worth keeping."
+  - front: "Grandpa's notebook mixing sermon lines and recipes. What's the move with finds like this?"
+    back: "Keep what still hits - one book."
+  - front: "Mother-in-law's recipe cards with margin notes in her handwriting. What's this shape?"
+    back: "Personal collection - link later."
 draft: false
 ---

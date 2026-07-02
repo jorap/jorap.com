@@ -463,3 +463,398 @@ A third compresses the goal to judgment speed. One clear judgment in under three
 A sharper alternative is emerging: "Recognize faster than the wrong move completes." This targets impulse and temptation cards more precisely than the current north star.
 
 The idea of one universal replacement is fading. The current framework is likely adequate, but a sharper formulation could sharpen it for specific card types.</details></think>
+
+_**Agent (auto-low)**_
+
+Checking whether your docs already explore alternative framings.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Considering this question from a philosophical angle.
+
+The current north star may be too cognitive. Explicit principle recall can fail to trigger action. Relational moves and procedural tasks need different triggers. Implementation intentions offer a simpler if-then model.
+
+Gollwitzer's validated if-then model removes the cognitive burden of recalling principles. The card should simply bind the situation to the move. Recognizing the fork before the wrong move offers a sharper impulse target. Replacement framing—wrong default loads → right default loads—works well for habit change.
+
+Transfer is the real learning gold standard, but it feels less motivating.
+
+The current north star is already solid. The word "principle" may be the weakest link; once a habit is drilled, the cue should lead straight to the move.
+
+A better fit for mixed work might be two north stars. One binds cues to procedures for PKM. The other binds cues to pauses and moves for gospel and ethics.
+
+The card backs already compress the principle into the move. The north star may be over-describing the chain.
+
+The litmus test itself could serve as the operational north star. If a front appears tonight, the back must be known without opening the site.</details></think>
+
+_**Agent (auto-low)**_
+
+Short answer: your current north star is already in the top tier. If you want something *better*, it is probably **sharper**, not **bigger**.
+
+## What you have is already the right family
+
+```
+Life shows up (cue) → I recall the principle → I do the next right thing now
+```
+
+That is basically **implementation intentions** from the research: *if this situation, then this move*. The litmus test you already use — *could this front happen this week, and does the back tell me what to do right now?* — is the operational version of the same idea.
+
+So the problem is not direction. It is one word in the middle.
+
+## The weak link: “recall the principle”
+
+In practice, a drilled card usually does not run:
+
+> recognize moment → consciously retrieve doctrine → choose action
+
+It runs:
+
+> recognize moment → move
+
+The principle still matters — it lives in the wiki, it shaped the card, it explains *why* the back is right. But under pressure, the card is training a **reflex**, not a lecture.
+
+Naming “principle” in the north star can quietly push you toward backs that explain instead of direct. That is the main failure mode your anti-goals already fight.
+
+## Sharper candidates
+
+**1. Replace the chain with the litmus test**
+
+> **When the front happens in real life, the back fires before I need the site.**
+
+This is better as a north star than the diagram, because it is falsifiable. You can test every card against it tonight.
+
+**2. Tighten the chain**
+
+> **Cue → move**
+
+Or, when interruption matters (gospel, conflict, impulse):
+
+> **Cue → pause → move**
+
+That second version is often more accurate for cards like `thumb hovering over reply` than “recall the principle.” The win is not knowing more. It is **not completing the wrong script**.
+
+**3. Name the real enemy**
+
+> **Beat the default move**
+
+Useful when the card exists because you already know the right answer intellectually, but your body reaches for the wrong one anyway: snap back, hoard tabs, merge inboxes, defend yourself first.
+
+That framing explains why spaced repetition is worth it at all. You are not studying. You are **preloading an override**.
+
+## Is there one better north star?
+
+I would not replace yours with something totally different. I would rank them like this:
+
+| North star | Best for |
+|------------|----------|
+| **When the front happens, the back fires in real life** | QA, deck audits, deciding whether a card should exist |
+| **Cue → move** | PKM / workflow cards |
+| **Cue → pause → move** | gospel, ethics, emotional forks |
+| **Beat the default move** | temptation, habit-break, online-reply cards |
+
+Your original chain is still a good **teaching** north star. It explains the system to a human. The litmus test is the better **governing** north star. It tells you whether a card earns its place.
+
+## What I would not promote
+
+- **“Remember more”** — too Anki-brained; rewards trivia.
+- **“Understand deeper”** — belongs in the wiki.
+- **“Master the concept”** — vague; produces definition cards.
+- **“Become a better person”** — true, but not actionable when writing card #4.
+
+## Practical recommendation
+
+Keep the philosophy, shorten the slogan:
+
+> **Cards exist so the right move is already loaded when life shows up.**
+
+Use the old chain when explaining the system. Use the litmus test when writing or auditing cards. If a card needs a middle step, make it **pause**, not **principle**.
+
+That is a better north star not because it changes the project, but because it matches what your best cards already do — like `Drop in one inbox. Don't organize yet.` No principle on the back. Just the move.
+
+---
+
+_**User**_
+
+proceed with the updating the north star. review all flashcards
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the flashcard north star. The philosophy centers on the litmus test and the cue-to-move flow. Reviewing all flashcards next.</details></think>
+
+_**Agent (auto-low)**_
+
+Updating the north star in docs/skills, then auditing every flashcard deck against it.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/**/*.md",
+  "outputMode": "files_with_matches",
+  "pattern": "review:\\s*true"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "files_with_matches",
+  "pattern": "review:\\s*true",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/normalization-of-deviance.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/secret-devotion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/expect-the-counter.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/rollback-principle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/signal-vs-noise.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/discipleship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/change-window.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/kindness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/duty-of-care.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/abide-in-me.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/context-aware-capture.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/failure-as-feedback.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/mobile-capture-workflows.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/recovery.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/risk-management.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/capture.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/emotional-regulation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/free-grace.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/situational-control.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/mental-models.md"
+    }
+  ],
+  "totalFiles": 212,
+  "totalMatches": 212
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
+
+Directory: **/home/jorap/Documents/GitHub/jorap.com** (2 files)
+
+| File |
+|------|
+| `scripts/lint-flashcard-frontmatter.py` |
+| `scripts/sync-note-flashcards.py` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **/home/jorap/Documents/GitHub/jorap.com** (1 file)
+
+| File |
+|------|
+| `scripts/lint-flashcard-frontmatter.py` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+About 200 notes are marked for review.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 | tail -100</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && npm run lint:cards 2>&1 | tail -100
+```
+
+```
+
+&gt; jorap-com@2.2.0 lint:cards
+&gt; python3 scripts/lint-flashcard-frontmatter.py
+
+Flashcard frontmatter OK
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-flashcard-frontmatter.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **/home/jorap/Documents/GitHub/jorap.com** (0 files)
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>

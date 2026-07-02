@@ -33,13 +33,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Our pantry uses the same rule. What's the move?"
-    back: "snacks, baking, breakfast - my wife finds the."
-  - front: "My notes use consistent slugs and wikilinks so future me and my tools can read the garden without me re-explaining every file from scratch."
-    back: "Building a Personal API"
-  - front: "Our team names drills the same way every season. What's the move?"
-    back: "level, skill, variation - so a sub can."
-  - front: "The warehouse labels every bin the same way. What's the move?"
-    back: "Not a tour from the veteran"
+  - front: "Pantry's chaos and my wife can't find snacks without a tour. What's the rule?"
+    back: "Label every shelf - snacks, baking, breakfast."
+  - front: "Future me opens a random note file and has to re-read half the garden to understand it. One fix?"
+    back: "Consistent slugs and wikilinks."
+  - front: "New sub shows up mid-season and can't find the drill we ran Tuesday. Naming move?"
+    back: "Level, skill, variation - every year."
+  - front: "Warehouse newbie hunting parts while the veteran's on break. What's the system?"
+    back: "One label system - no tour needed."
 draft: false
 ---

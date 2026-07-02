@@ -2,7 +2,10 @@
 title: "Control the Rhythm"
 meta_title: "Control the Rhythm - Don't Let Urgency Set Your Pace"
 description: "Whoever sets the pace often steers the room."
-key_concept: "Don't let urgency, conflict, emotion, or someone else's deadline dictate how fast you think and act - take the tempo back when you can."
+key_concept: |
+  Whoever sets the pace often steers the room.
+  
+  Don't let urgency, conflict, emotion, or someone else's deadline dictate how fast you think and act - take the tempo back when you can.
 examples:
   - "A dad texted \"my kid needs more reps today\" before I'd watched him play - control the rhythm was \"let's see Thursday's scrimmage first\" instead of doubling reps that bred a limp."
   - "A client wanted an answer in ten minutes on a complex quote - I said I'd send numbers after lunch and kept the room from rushing a bad decision."
@@ -39,13 +42,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "A dad texted \"my kid needs more reps today\" before I'd watched him play"
-    back: "control the rhythm was \"let's see Thursday's scrimmage."
-  - front: "A client wanted an answer in ten minutes on a complex quote"
-    back: "I said I'd send numbers after lunch and."
-  - front: "Good coaches don't let the loudest parent set practice length"
-    back: "They run drills, call water, end on time"
-  - front: "Bedtime spiraled into \"five more minutes\" chaos until we set the clock"
-    back: "we take the tempo back instead of letting."
+  - front: "Dad texted \"my kid needs more reps today\" before I've watched him play. Who sets the pace?"
+    back: "\"Let's see Thursday's scrimmage first.\""
+  - front: "Client wants a complex quote answer in ten minutes. Match their deadline?"
+    back: "Numbers after lunch - I'll set the tempo."
+  - front: "Loudest parent trying to extend practice tonight. Who ends on time?"
+    back: "I run drills, call water, end clock."
+  - front: "Bedtime spiraled into \"five more minutes\" chaos. Who takes the tempo back?"
+    back: "Clock on the wall - not their negotiation."
 draft: false
 ---

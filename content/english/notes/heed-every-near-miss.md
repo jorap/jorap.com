@@ -45,13 +45,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "A swimmer needed rescue during the same open-water drill last month"
-    back: "Not proof the safety boat can handle it forever"
-  - front: "A kid almost choked on the same team-building snack twice"
-    back: "Heed the near-miss; luck isn't a control layer"
-  - front: "The toddler almost fell off the same chair twice. What's the move?"
-    back: "Fix the hazard before the third time"
-  - front: "A previous rescue during the same exercise is a warning to stop"
-    back: "Not proof that the rescue team can keep handling it"
+  - front: "Swimmer needed rescue during the same open-water drill last month. How do I read that?"
+    back: "Warning - stop before the third time."
+  - front: "Kid almost choked on the same team-building snack twice. What isn't a control layer?"
+    back: "Luck isn't control - change the snack."
+  - front: "Toddler almost fell off the same chair twice. What's the move before visit three?"
+    back: "Fix the hazard - luck blocked harm twice."
+  - front: "Same exercise needed a rescue before and we're running it again. Read on the near-miss?"
+    back: "Investigate and redesign - don't repeat."
 draft: false
 ---

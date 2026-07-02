@@ -29,13 +29,13 @@ featured: false
 review: true
 card_sets: ["Capture", "Workflow"]
 cards:
-  - front: "The phone dies mid-sermon and I scribble Philippians references in the margin"
-    back: "I copy them into my study Bible at."
-  - front: "Stuck in a dead-zone meeting, I jot the action items on the back of the agenda instead of pretending I'll remember them at the car."
-    back: "Analog Capture Tools"
-  - front: "My phone died mid-game and the pocket notebook still had the set counts"
-    back: "Same capture, no battery required"
-  - front: "The contractor sketches room dimensions on a napkin at the site walk"
-    back: "paper wins when the tablet won't load and."
+  - front: "Phone dies mid-sermon and I'm scribbling Philippians refs in the margin. Where does it go after?"
+    back: "Copy into my study Bible Sunday."
+  - front: "Dead-zone meeting and the action items are only in my head. Capture move before I hit the car?"
+    back: "Jot on the agenda back."
+  - front: "Phone died mid-game but I've got set counts in the pocket notebook. Same rule as digital?"
+    back: "One inbox - file it later."
+  - front: "Tablet won't load at the site walk and I'm sketching dimensions on a napkin. That counts?"
+    back: "Paper wins. Drop in inbox."
 draft: false
 ---

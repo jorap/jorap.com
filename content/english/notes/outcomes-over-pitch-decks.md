@@ -33,13 +33,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "The trainer's Instagram was polished. What's the move?"
-    back: "I asked two parents who finished the program."
-  - front: "The contractor's portfolio was gorgeous. What's the move?"
-    back: "I asked two neighbors who lived through the."
-  - front: "The tutor's brochure looked perfect. What's the move?"
-    back: "I asked one mom whether her kid actually."
-  - front: "The phone plan salesman had slick slides. What's the move?"
-    back: "I asked my neighbor what his bill actually."
+  - front: "Trainer's Instagram looks polished. What's the move before I sign up?"
+    back: "Ask two parents who finished."
+  - front: "Contractor's portfolio looks gorgeous. What's the move before I hire?"
+    back: "Ask two neighbors who lived the remodel."
+  - front: "Tutor's brochure looks perfect. What's the move?"
+    back: "Ask one mom if her kid actually learned."
+  - front: "Phone plan salesman has slick slides. What's the move?"
+    back: "Ask my neighbor his real bill."
 draft: false
 ---

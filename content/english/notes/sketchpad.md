@@ -29,13 +29,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "The floor plan for the new seating layout stayed on the back of a receipt until opening week"
-    back: "Scratch space before the sign went up"
-  - front: "The birthday party layout lived in Notes for a month. What's the move?"
-    back: "half-ideas in private before one paragraph shipped to."
-  - front: "The napkin layout for the garden page lived in my Notes app for a month before one paragraph went public."
-    back: "private scratch space before anything goes public"
-  - front: "The set-piece sketch lived on a napkin for two practices before we ran it clean in a game."
-    back: "private scratch space before anything goes public"
+  - front: "New seating layout's scribbled on a receipt - opening week's Friday. Where does it live until then?"
+    back: "Private sketchpad - not the sign yet."
+  - front: "Birthday party layout's half-baked in Notes and the group chat wants a plan."
+    back: "Keep it private until one paragraph's ready."
+  - front: "Garden page layout's messy in Notes - not ready for the blog yet."
+    back: "Scratch space first - polish later."
+  - front: "Set-piece idea on a napkin - two practices in and it's still rough."
+    back: "Napkin sketchpad until it runs clean."
 draft: false
 ---

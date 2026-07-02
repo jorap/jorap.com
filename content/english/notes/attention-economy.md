@@ -3,8 +3,9 @@ title: "Attention Economy"
 meta_title: "Attention Economy"
 description: "Platforms compete for your focus - your attention is the product."
 key_concept: |
-  Your focus is the product - guard the pipe before optimizing the inbox.
+  Platforms compete for your focus - your attention is the product.
   
+  Your focus is the product - guard the pipe before optimizing the inbox.
   [[Signal vs Noise]] names what to cut; [[Information Diet]] is the weekly menu habit.
 examples:
   - "I turned off push alerts before trying a new focus app - the pipe was the leak."
@@ -29,13 +30,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "The clinic waiting-room TV runs health tips between ads"
-    back: "Came for"
-  - front: "Halftime on my phone was supposed to be rest. What's the move?"
-    back: "Not recovery"
-  - front: "Twenty minutes \"checking news\" was twenty minutes of ads aimed at my outrage"
-    back: "Not rest"
-  - front: "My kid's tablet \"educational\" game paused every level for a purchase screen"
-    back: "The game wanted her focus, not her learning"
+  - front: "Clinic waiting room and the TV's running health tips between ads. Why am I here?"
+    back: "My focus is the product - guard it."
+  - front: "Halftime scroll was supposed to be rest but my thumb's on news. What's actually happening?"
+    back: "Platforms want my attention, not recovery."
+  - front: "Twenty minutes \"checking news\" and it's all outrage-bait ads. What did I trade?"
+    back: "My focus for their revenue."
+  - front: "Kid's \"educational\" game paused again for a purchase screen. What's it really after?"
+    back: "Her attention - not learning."
 draft: false
 ---

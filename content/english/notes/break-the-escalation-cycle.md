@@ -42,13 +42,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "A parent emailed the principal with a snarky line about our field trip delay"
-    back: "And broke the reply-all war before it started"
-  - front: "A parent yelled at the ref from the sideline and my first instinct was to yell back"
-    back: "And let the insult die without an audience"
-  - front: "My kid snapped first at dinner and I almost matched the volume"
-    back: "And refused to pour fuel on it"
-  - front: "A neighbor's group-chat jab about parking got a sharp reply in my drafts"
-    back: "I sent the facts and the new plan."
+  - front: "Parent emailed the principal with a snarky line about our field trip delay. Thumb on reply-all."
+    back: "State facts. Don't match tone."
+  - front: "Parent yelling at the ref from the sideline and my voice is climbing too. One move?"
+    back: "Let the insult die - no audience."
+  - front: "Kid snapped first at dinner and I'm about to match the volume. What do I refuse?"
+    back: "Don't pour fuel on it."
+  - front: "Neighbor's group-chat jab about parking sitting in my drafts - sharp reply loaded. Send that?"
+    back: "Facts and the plan only."
 draft: false
 ---

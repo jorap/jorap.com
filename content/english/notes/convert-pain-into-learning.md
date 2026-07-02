@@ -2,7 +2,10 @@
 title: "Convert Pain Into Learning"
 meta_title: "Convert Pain Into Learning - Failure Must Produce Correction"
 description: "Failure becomes useful only when it produces correction."
-key_concept: "Reflect on what happened, pull out the lesson, design a better response, and test it the next time the situation shows up - rumination without change is just suffering."
+key_concept: |
+  Failure becomes useful only when it produces correction.
+  
+  Reflect on what happened, pull out the lesson, design a better response, and test it the next time the situation shows up - rumination without change is just suffering.
 examples:
   - "I bombed a client presentation and stewed for a week - convert pain into learning was one page: weak transitions, rehearse bridges ten times, cut two slides."
   - "I missed the turn twice on the new commute - one note on where the sign hides, tested next Monday, rumination without change would've just been suffering."
@@ -42,9 +45,9 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "I bombed a client presentation and stewed for a week. What's the move?"
-    back: "Cut two slides"
-  - front: "I missed the turn twice on the new commute. What's the move?"
-    back: "one note on where the sign hides, tested."
+  - front: "Bombed a client presentation and I've been stewing for a week. What's the convert move?"
+    back: "Cut two slides - test next time."
+  - front: "Missed the turn twice on my new commute. Pain into learning?"
+    back: "One note on where the sign hides."
 draft: false
 ---

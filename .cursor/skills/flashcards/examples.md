@@ -1,16 +1,18 @@
-# Flashcard examples - cue → apply
+# Flashcard examples - cue → move
 
-Every card is one chain: **life's cue (front) → recall → immediate move (back)**.
+**North star:** Cards exist so the right move is already loaded when life shows up.
 
-## North star test
+## Litmus test (governing)
 
 Before committing a card:
 
-1. **Could this front happen this week?** - specific time, place, urge, or count
-2. **Cover the back.** Do you know what to **do in the next five seconds**?
-3. **Note closed.** No garden open - would you still act?
+1. **Could this front happen this week?** — specific time, place, urge, or count
+2. **Cover the back.** Do you know what to **do or decide in the next five seconds**?
+3. **Note closed.** No garden open — would you still act?
 
 If the back only explains and doesn't direct, rewrite as a move.
+
+**Teaching chain:** `cue → [pause] → move`. PKM cards often skip straight to move; gospel and impulse cards earn a pause beat before the back.
 
 ## Cue → apply (good)
 

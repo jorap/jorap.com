@@ -30,13 +30,13 @@ featured: false
 review: true
 card_sets: ["Writing", "Review"]
 cards:
-  - front: "Three coaches' clips on our press sat in my folder until I merged them into one drill we actually ran Tuesday."
-    back: "Synthesis as a Goal"
-  - front: "Three recipe clippings sat on the fridge until I merged them into one dinner I actually cooked"
-    back: "Synthesis is when learning started"
-  - front: "Quote-saved notes on productivity sat untouched until I wrote one page in my own words about how I capture"
-    back: "Synthesis, not hoarding"
-  - front: "Five parenting articles became one rule on the fridge. What's the move?"
-    back: "Not a quote collection"
+  - front: "Three press clips in my folder and Tuesday practice needs a drill."
+    back: "Merge into one drill I'd actually run."
+  - front: "Three recipe clippings on the fridge and dinner's tonight."
+    back: "One merged recipe - not a collage."
+  - front: "Quote-saved productivity notes and I still can't explain my capture system."
+    back: "Write one page in my words."
+  - front: "Five parenting articles saved and the fridge is still blank."
+    back: "One rule we believe - not quotes."
 draft: false
 ---

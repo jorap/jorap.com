@@ -36,13 +36,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "Replace an open-water endurance drill with a controlled pool set or land-based conditioning"
-    back: "Same training goal, none of the drowning exposure"
-  - front: "Swap the wobbly ladder for a stable step stool. What's the move?"
-    back: "eliminate the fall hazard instead of adding three."
-  - front: "We stopped storing cleaners under the sink and moved them up high"
-    back: "remove the hazard before we trust a \"don't."
-  - front: "Kill the reply-all thread by fixing the process that started it"
-    back: "Not managing the same near-miss forever"
+  - front: "Open-water endurance drill vs controlled pool set. Same goal - safer pick?"
+    back: "Pool set - eliminate drowning exposure."
+  - front: "Wobbly ladder for that high shelf. First fix I try?"
+    back: "Stable step stool - eliminate the fall."
+  - front: "Cleaners under the sink where the toddler reaches. Manage with a sign?"
+    back: "Move them up high - remove the hazard."
+  - front: "Same reply-all near-miss every month. First fix I try?"
+    back: "Fix what started it - don't manage forever."
 draft: false
 ---

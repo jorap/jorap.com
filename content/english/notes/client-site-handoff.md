@@ -43,9 +43,9 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Neighbor chose Git lesson. What's the move? One check?"
-    back: "She broke build once, fixed typo same night"
-  - front: "Pastor emails bulletin PDF every Friday. What's the move?"
-    back: "Retainer batch, one push, no CMS layer needed"
+  - front: "Neighbor picked the Git lesson path at handoff. One check that it's working?"
+    back: "She fixed her own typo same night."
+  - front: "Friday bulletin lands as a PDF attachment and I need to push it live. Publish move?"
+    back: "Retainer batch - one push."
 draft: false
 ---

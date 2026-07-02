@@ -3,8 +3,9 @@ title: "Forgetting Curve"
 meta_title: "Forgetting Curve"
 description: "Memory fades fast without review - Ebbinghaus curve spaced repetition fights."
 key_concept: |
-  Memory drops fast without spaced touch - the curve names why review isn't optional.
+  Memory fades fast without review - Ebbinghaus curve spaced repetition fights.
   
+  Memory drops fast without spaced touch - the curve names why review isn't optional.
   [[Spaced Repetition]] fights the drop; [Flashcards](/notes/flashcards/) are one drill surface.
 examples:
   - "I forgot half the new footwork cues by Friday until I drilled five on the wall chart before every practice."

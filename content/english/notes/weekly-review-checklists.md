@@ -3,9 +3,9 @@ title: "Weekly Review Checklists"
 meta_title: "Weekly Review Checklists - Same Steps Every Sunday"
 description: "My weekly review is a checklist - inbox, calendar, projects, one express action. Boring on purpose."
 key_concept: |
-  Weekly review as a checklist - inbox, calendar, projects, one express action.
-  
   Boring on purpose.
+  
+  Weekly review as a checklist - inbox, calendar, projects, one express action.
 examples:
   - "Inbox, calendar, projects, one express action - twenty minutes beats skipping review because this week's \"different.\""
   - "Sunday checklist: bowl by the door, calendar, kid forms, one family thing to finish - same steps even on travel weeks, shortened not skipped."
@@ -38,7 +38,7 @@ cards:
   - front: "Travel week - review might get skipped entirely. What's the minimum?"
     back: "Twenty minutes - shorten, don't skip."
   - front: "Review keeps drifting to random days. What rhythm do I lock in?"
-    back: "Same day every week."
+    back: "Lock Sunday - every week."
   - front: "Step three after inbox and calendar - what do I review next?"
     back: "Active projects - stuck and next."
   - front: "This week feels different - tempted to skip the checklist because travel. Minimum?"

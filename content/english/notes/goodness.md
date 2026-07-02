@@ -41,11 +41,11 @@ card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
   - front: "Extra water for the bench - almost posted about it. Who gets glory?"
     back: "Father - not my brand."
-  - front: "Good deed done but I want credit in the caption. Goodness fruit?"
+  - front: "Good deed done but I want credit in the caption. What's the fruit test?"
     back: "Shine so God gets credit."
-  - front: "Hiding help from false modesty. What was light for?"
-    back: "Let it shine - glorify Father."
-  - front: "Practicing righteousness to be seen by people. Which fruit fails?"
-    back: "Goodness for Father - not audience."
+  - front: "Hiding help from false modesty when it should point up. What was light for?"
+    back: "Let it shine - glorify the Father."
+  - front: "Practicing righteousness for the audience in the room. Which motive fails?"
+    back: "Father's glory - not applause."
 draft: false
 ---

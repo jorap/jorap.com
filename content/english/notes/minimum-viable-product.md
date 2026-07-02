@@ -3,8 +3,9 @@ title: "Minimum Viable Product"
 meta_title: "Minimum Viable Product - Smallest Thing Worth Shipping"
 description: "The smallest thing I can ship that tests the idea - not a polished fantasy."
 key_concept: |
-  I'd rather publish a rough note or prototype and learn than polish in private for months.
+  The smallest thing I can ship that tests the idea - not a polished fantasy.
   
+  I'd rather publish a rough note or prototype and learn than polish in private for months.
   Client work: [[Selling Static Sites]] is the same loop - one pilot site on [[Free Tier Hosting Stack]] before I package tiers and upsells.
 examples:
   - "I sat on a half-planned birthday party for three months - we ordered pizza, one banner, kids had a blast, learned more than another month of Pinterest."
@@ -30,13 +31,13 @@ featured: false
 review: true
 card_sets: ["Writing", "Review"]
 cards:
-  - front: "I sat on a half-planned birthday party for three months"
-    back: "Learned more than another month of Pinterest"
-  - front: "I posted a rough neighborhood watch signup before buying printed flyers"
-    back: "Four replies told me if anyone cared"
-  - front: "We ran one new play in scrimmage before printing playbooks for the whole league"
-    back: "learned more in forty minutes than another week."
-  - front: "The baker sold one test batch of sourdough before remodeling the display case"
-    back: "Customers told her what to fix"
+  - front: "Half-planned birthday party sat for three months. What's the ship move?"
+    back: "Pizza, one banner - learn now."
+  - front: "Rough neighborhood watch signup posted before printed flyers. Why?"
+    back: "Four replies tell me if anyone cares."
+  - front: "One new play in scrimmage before printing playbooks for the whole league. Why?"
+    back: "Forty minutes beats another week of polish."
+  - front: "Tempted to remodel the display case before selling sourdough. First ship?"
+    back: "One test batch - let customers speak."
 draft: false
 ---

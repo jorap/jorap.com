@@ -3,6 +3,8 @@ title: "Fruits of the Spirit"
 meta_title: "Fruits of the Spirit - Character the Spirit Produces"
 description: "Love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control - character the Holy Spirit produces in believers who walk by the Spirit, not a merit checklist that buys heaven (Galatians 5:22-23)."
 key_concept: |
+  One cluster the Spirit grows - love, joy, peace, patience, and the rest in Galatians 5.
+  
   Paul contrasts **works of the flesh** (sexual immorality, jealousy, fits of anger, envy, and the rest in Galatians 5:19-21) with **fruit of the Spirit** - one vine, one cluster, grown over time.
   
   [[Abide in Me]] names the engine in John: branches bear fruit because they stay in the vine. [[Sanctification]] is the slow becoming that fruit marks. [[Grateful Obedience]] keeps the motive straight: fruit follows [[Grace]] already received, it doesn't pay for eternal life. [[Heart Righteousness]] is the inner standard the Spirit applies - not polished outside, poison inside. [[By Their Fruits]] uses the same word differently: discern teachers by outcome, not charisma - don't collapse the two jobs.

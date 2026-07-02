@@ -2,7 +2,10 @@
 title: "Adaptability"
 meta_title: "Adaptability - Adjust When the Ground Moves"
 description: "Keep the goal, swap the method when the ground moves."
-key_concept: "Adaptability is changing method without losing aim when conditions, tools, or opponents shift."
+key_concept: |
+  Keep the goal, swap the method when the ground moves.
+  
+  Adaptability is changing method without losing aim when conditions, tools, or opponents shift.
 examples:
   - "Rain canceled our outdoor run and we moved practice to the covered court - same goal of getting reps in, different floor when the weather shifted."
   - "The school bus was late so we walked - same deadline for drop-off, different route when the morning plan broke."
@@ -29,9 +32,9 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "The jeepney route changed overnight and I still needed to get to work"
-    back: "Different line when the usual road closed"
-  - front: "Rain canceled our outdoor run and we moved practice to the covered court"
-    back: "Different floor when the weather shifted"
+  - front: "Jeepney route changed overnight and I'm still staring at the old stop. Same destination - what's the swap?"
+    back: "Different line, same goal."
+  - front: "Rain killed our outdoor run mid-practice. Same reps goal - where do we move?"
+    back: "Covered court. Keep drilling."
 draft: false
 ---

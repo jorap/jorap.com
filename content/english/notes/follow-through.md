@@ -2,7 +2,10 @@
 title: "Follow-Through"
 meta_title: "Follow-Through - The Steps After the Promise"
 description: "The work after the handshake - recap, owners, dates, verification."
-key_concept: "Follow-through is everything that happens after you said yes - the recap, the ticket, the check-in."
+key_concept: |
+  The work after the handshake - recap, owners, dates, verification.
+  
+  Follow-through is everything that happens after you said yes - the recap, the ticket, the check-in.
 examples:
   - "\"I'll look into it\" without a date is how school projects die after the group chat goes quiet - follow-through is the recap with owners and dates before anyone leaves the parking lot."
   - "The captain said \"we'll fix the rotation\" without naming who covers which shift - follow-through was the recap with owners and dates before anyone left the gym."

@@ -30,7 +30,7 @@ relationships:
     reason: "Thanks-motivated obedience produces Spirit fruit, not theater"
   - type: extends
     wikilink: "[[Grace]]"
-    reason: "Unmerited favor received - obedience flows from thanks"
+    reason: "Gift already received - obedience flows from thanks"
   - type: extends
     wikilink: "[[Joy]]"
     reason: "Thanks-motivated walk produces gospel joy - not performed credit"

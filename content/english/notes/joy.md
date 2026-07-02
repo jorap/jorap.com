@@ -42,13 +42,13 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Good week and I feel spiritually qualified. What checks the motive?"
-    back: "Joy rests on Christ, not the streak."
-  - front: "Performing joy at church, empty at home. What's missing?"
-    back: "Abide first - fruit grows from connection."
-  - front: "Bad week but still His - where does gospel joy anchor?"
+  - front: "Good week at work and I feel spiritually qualified. What checks the motive?"
+    back: "Rest on Christ's promise - not the streak."
+  - front: "Performing gladness at church, empty at home after. What's missing?"
+    back: "Abide first - fruit from connection."
+  - front: "Bad week but still His - where does gospel gladness anchor?"
     back: "Christ's promise - not this week's score."
   - front: "Waiting to feel happy before I trust I'm saved. Wrong order?"
-    back: "Rest on promise - joy follows faith."
+    back: "Rest on promise first - gladness follows."
 draft: false
 ---

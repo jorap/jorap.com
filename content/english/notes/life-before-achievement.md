@@ -42,13 +42,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "I said no to the backyard rope swing over concrete when a low tree branch and mat did the same fun with softer landings."
-    back: "human life stays a non-negotiable constraint"
-  - front: "The coach canceled cliff-jump team-building when the park picnic hit bonding without a credible broken-leg risk"
-    back: "Unity doesn't require a stunt"
-  - front: "The school canceled the cliff-jump field trip when the park picnic hit the same bonding goal without a credible risk of a broken leg."
-    back: "human life stays a non-negotiable constraint"
-  - front: "The scout leader picked the flat trail hike instead of the ridge walk when both got the badge and only one had a drop with no guardrail."
-    back: "human life stays a non-negotiable constraint"
+  - front: "Backyard rope swing over concrete vs low branch and mat - same fun, softer landing. Which do I pick?"
+    back: "Safer course - life isn't negotiable."
+  - front: "Team wants cliff-jump bonding; park picnic hits unity without broken-leg risk. Leader call?"
+    back: "Cancel the stunt - unity doesn't need it."
+  - front: "Field trip proposal is cliff-jump for bonding cred. Same goal, safer option on the table?"
+    back: "Pick the picnic - life stays the floor."
+  - front: "Scout hike choice: ridge with a drop and no guardrail vs flat trail, same badge. Which trail?"
+    back: "Flat trail - achievement doesn't outrank life."
 draft: false
 ---

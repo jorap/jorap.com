@@ -42,9 +42,9 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "The clinic front desk doesn't make up triage order when three walk-ins arrive"
-    back: "No guessing"
-  - front: "Our family fire plan is one page on the fridge: two exits, where we meet, who grabs the baby. Last blackout, my kid ran it half-asleep and nobody guessed."
-    back: "when time"
+  - front: "Three walk-ins hit the front desk and triage is getting improvised. What's already decided?"
+    back: "Run the posted order - no guessing."
+  - front: "Blackout hit and my kid's half-asleep running our fire plan from the fridge. What made that work?"
+    back: "One page, rehearsed - nobody guessed."
 draft: false
 ---

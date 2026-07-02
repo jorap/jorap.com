@@ -61,12 +61,12 @@ review: true
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Bad Friday deploy. What's the move? One check?"
-    back: "Postmortem waited until the site was calm"
-  - front: "The restaurant tried a new sauce but kept the old batch in the warmer until the first table cleared their plates"
-    back: "Rollback was ladles, not a meeting"
-  - front: "We tried a stricter screen-time rule and left the old routine on the fridge for a week"
-    back: "Not \"give it two more weeks.\""
-  - front: "The point guard ran Tuesday's inbound at halftime when the new play bled points"
-    back: "Not a whiteboard invention"
+    back: "Revert first - postmortem when calm."
+  - front: "New sauce on the menu but old batch still in the warmer. Why?"
+    back: "Rollback ready - ladles not meetings."
+  - front: "Stricter screen-time rule tried but old routine still on the fridge. Why?"
+    back: "Keep undo path - not two more weeks."
+  - front: "New play bled points at halftime - Tuesday's inbound ready. Move?"
+    back: "Run the drill we already walked."
 draft: false
 ---

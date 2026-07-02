@@ -165,11 +165,53 @@ Land on what you actually use, what you'd buy again, or a plain recommendation. 
 - `description`: first person, concrete, often mentions personal experience. Not keyword-stuffed.
 - `meta_title`: useful and specific - not clickbait, not "Ultimate Guide to…" unless the post truly is a full guide.
 
+## Notes garden (variant)
+
+Notes use **two registers**. Wiki prose can be denser; cards must stay plain.
+
+| Field | Voice | Pattern |
+|-------|-------|---------|
+| `description` | One breath, first person when natural | "I don't rewrite whole notes when I boil them down - bold, then highlight, then summarize on reuse." |
+| `key_concept` | Punch line, then expansion with wikilinks | Line 1: short claim. Blank line. Then lanes, links, "first X, then Y" |
+| `examples` | Two scenes, different domains, same move | Sports + jeepney, deploy + kitchen, coffee + sideline - not two variants of one scene |
+| `relationships.reason` | Short clause, telegraphic OK | "Rollback first; postmortem after calm - not root-cause while users are down" |
+| `cards` | Plainest layer - see [flashcards](../flashcards/SKILL.md) | Cue → apply. No definition backs, no truncated fragments |
+
+**Reference notes by type:** PKM `capture.md`; faith `free-grace.md`, `sanctification.md`; ethics `the-golden-rule.md`; systems `blameless-postmortem.md`.
+
+**Flashcards boundary:** flashcards skill owns cue→apply structure and card count. jorap-voice owns word choice. Don't turn a good life cue into a "What is X?" definition card.
+
+### `key_concept` shape
+
+```
+[[Free Grace]] settles where I spend forever.
+
+Sanctification settles who I'm becoming on the way. [[Grateful Obedience]] names the posture: grow from thanks, not to earn acceptance.
+```
+
+Not: "Sanctification is the process whereby believers undergo moral transformation…"
+
+### `meta_title` (notes)
+
+`Topic - Plain subtitle` - e.g. `Sanctification - Becoming Holy After Faith`. Not dictionary labels alone.
+
 ## Recipe posts (variant)
 
 Recipe content can be more instructional - ingredients, steps, timings - but section intros should still sound human. Avoid generic food-blog filler ("This delicious recipe will tantalize your taste buds"). Keep the "why this method" parts in JoRap voice; keep the method itself scannable.
 
 ## Voice check
+
+### Notes garden
+
+- [ ] `description` reads in one breath
+- [ ] `key_concept` opens with a punch, not a dictionary definition
+- [ ] Two `examples` from different life surfaces (not two tweaks of one scene)
+- [ ] `relationships.reason` is a clause, not a paragraph
+- [ ] Cards pass [flashcards](../flashcards/SKILL.md) *and* plain-words test - no definition backs, no fragments
+- [ ] Theology/PKM term glossed in plain English before the wikilink stack
+- [ ] `pnpm lint:voice` clean (dashes + AI-tell words)
+
+### Blog posts
 
 Before finishing, verify:
 

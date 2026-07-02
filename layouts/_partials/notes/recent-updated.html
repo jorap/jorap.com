@@ -21,7 +21,7 @@
   <section class="notes-recent">
     <h2 class="h5 mb-1">Recent updates</h2>
     <p class="text-ink-muted mb-3 text-sm">Notes touched most recently.</p>
-    <ul class="notes-recent-list grid gap-2 sm:grid-cols-2">
+    <ul class="notes-recent-list grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
       {{- range . -}}
         {{- $page := .Page -}}
         {{- $dates := .Dates -}}

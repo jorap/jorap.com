@@ -48,9 +48,9 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Halftime talk ended with \"we'll fix the press tomorrow\""
-    back: "I wrote the one drill on the whiteboard."
-  - front: "Parent-teacher night ended with \"we'll email the action plan\""
-    back: "Who owns what"
+  - front: "Halftime talk ended with \"we'll fix the press tomorrow\" and the whiteboard's blank. What closes it?"
+    back: "Write the one drill now."
+  - front: "Parent-teacher night wrapped with \"we'll email the action plan.\" Who owns what before we leave?"
+    back: "Name owner and deadline tonight."
 draft: false
 ---

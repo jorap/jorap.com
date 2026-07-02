@@ -3,8 +3,9 @@ title: "Share What You Learn"
 meta_title: "Share What You Learn - Don't Hoard Knowledge"
 description: "Pass on what you figured out - write the doc, do the handoff, answer the junior's question - don't hoard know-how like private bookmarks."
 key_concept: |
-  Client sites: the one-page [[Client Site Handoff]] doc (repo, branch, DNS, env vars) is [[Share What You Learn]] in practice - not launch-and-vanish.
+  Pass on what you figured out - write the doc, do the handoff, answer the junior's question - don't hoard know-how like private bookmarks.
   
+  Client sites: the one-page [[Client Site Handoff]] doc (repo, branch, DNS, env vars) is [[Share What You Learn]] in practice - not launch-and-vanish.
   A garden full of notes nobody reads is the same failure mode as a team where only one person holds the map. Gospel source: [[Great Commission]]. PKM parallel: [[Creative Output]] - truth and skill shared, not stockpiled.
 examples:
   - "I'd figured out the clinic's parking trick after three visits - I told the next parent in line instead of hoarding the shortcut."
@@ -33,13 +34,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "I'd figured out the clinic's parking trick after three visits"
-    back: "I told the next parent in line instead."
-  - front: "I almost moved on after a week wrestling school forms. What's the move?"
-    back: "share what you learn was the sticky note."
-  - front: "The veteran keeper showed the rookie where to stand on corners"
-    back: "twenty minutes now so she's not guessing on."
-  - front: "The electrician labeled every breaker in the panel for whoever comes next"
-    back: "Twenty minutes now, no guessing later"
+  - front: "Three clinic visits and I finally know the parking trick. Parent behind me looks lost."
+    back: "Tell them - don't hoard the shortcut."
+  - front: "Week wrestling school forms - spouse starts from zero Monday unless I leave something."
+    back: "Leave a sticky on the fridge - pass it forward."
+  - front: "Rookie keeper keeps guessing on corner stands. I've got twenty minutes before warmups."
+    back: "Show her once - now, not later."
+  - front: "I'm the only one who knows which breaker kills the kitchen. Next electrician won't."
+    back: "Label the panel - twenty minutes now."
 draft: false
 ---

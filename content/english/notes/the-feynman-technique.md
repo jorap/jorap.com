@@ -3,8 +3,9 @@ title: "The Feynman Technique"
 meta_title: "The Feynman Technique - Teach It to Learn It"
 description: "I explain notes like I'm teaching someone - gaps in my explanation show gaps in understanding."
 key_concept: |
-  Teach-it-to-learn-it exposes gaps so evergreen notes stay honest and clear ([[Evergreen Notes]]).
+  Tension with Spaced Repetition when explaining gaps beats flashcard drill.
   
+  Teach-it-to-learn-it exposes gaps so evergreen notes stay honest and clear ([[Evergreen Notes]]).
   Tension with [[Spaced Repetition]] when explaining gaps beats flashcard drill.
 examples:
   - "My kid asked how the fuse box works and I waved vaguely - explaining it simply showed I didn't understand it well enough to fix anything."
@@ -30,13 +31,13 @@ featured: false
 review: true
 card_sets: ["Writing", "Review"]
 cards:
-  - front: "I tried to explain the three-second violation to my kid at halftime and stalled halfway"
-    back: "Don't own the idea yet"
-  - front: "The new hire asked why we batch invoices that way and I stumbled mid-sentence"
-    back: "Need one more pass before I teach it"
-  - front: "My kid asked how the fuse box works and I waved vaguely"
-    back: "Didn't understand it well enough to fix anything"
-  - front: "I couldn't explain my note-capture workflow to a friend in two minutes"
-    back: "Gaps in my explanation showed gaps in understanding"
+  - front: "Halftime and someone's asking about the three-second violation - I'm stalling halfway through."
+    back: "Don't own it yet - study before teaching."
+  - front: "New hire asked why we batch invoices and I stumbled mid-sentence."
+    back: "One more pass before I teach it."
+  - front: "Kid pointed at the fuse box and I waved vaguely."
+    back: "I don't understand it enough to fix anything."
+  - front: "Friend asked my capture workflow and I couldn't explain it in two minutes."
+    back: "Gaps in talk show gaps in understanding."
 draft: false
 ---

@@ -35,13 +35,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "The gym swapped to breakaway rims so dunk attempts don't tear shoulders"
-    back: "Safer layout, not another lecture on landing"
-  - front: "The new stove puts controls where elbows can't bump them"
-    back: "Safer layout, not another lecture"
-  - front: "We put outlet covers in before the crawling phase. What's the move?"
-    back: "Not \"be careful\" fifty times a day"
-  - front: "The crosswalk got a bump-out so cars slow before the turn"
-    back: "Not just \"watch for pedestrians\" signs"
+  - front: "Gym swapped to breakaway rims so dunk attempts don't tear shoulders. What's the bet?"
+    back: "Safer layout - not another lecture."
+  - front: "New stove puts controls where elbows can't bump them. What's the bet?"
+    back: "Design beats another warning."
+  - front: "Outlet covers in before crawling phase. What's the move?"
+    back: "Harm hard to cause - not fifty warnings."
+  - front: "Crosswalk bump-out slows cars before the turn. What's the bet?"
+    back: "Design beats another sign."
 draft: false
 ---

@@ -39,12 +39,12 @@ review: true
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "My kid told me he broke the vase. What's the move?"
-    back: "I thanked him for saying it instead of."
-  - front: "I named the wrong turn to my carpool. What's the move?"
-    back: "Speak up before the next missed exit"
-  - front: "The rookie admitted he ran the wrong route. What's the move?"
-    back: "Not humiliated him in front of everyone"
-  - front: "The nurse reported the near-mix-up because the charge nurse thanked the catch, not the messenger."
-    back: "people can name mistakes and near-misses without..."
+    back: "Thank him for saying it."
+  - front: "Carpool driver and I both realize I missed the turn. What's the move?"
+    back: "Speak up before next missed exit."
+  - front: "Rookie admitted he ran the wrong route. What's the move?"
+    back: "Fix it - no public humiliation."
+  - front: "Nurse reported a near-mix-up because charge nurse thanked the catch. What culture is that?"
+    back: "Name mistakes without retaliation."
 draft: false
 ---

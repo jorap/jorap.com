@@ -2,7 +2,10 @@
 title: "Composure"
 meta_title: "Composure - Steady When the Room Isn't"
 description: "Steady tone and pace when the room isn't - people read calm as competence."
-key_concept: Composure is staying readable and deliberate when others speed up or heat up.
+key_concept: |
+  Steady tone and pace when the room isn't - people read calm as competence.
+  
+  Composure is staying readable and deliberate when others speed up or heat up.
 examples:
   - "The neighbor argument on the group chat heated up and I waited one beat before replying - people read calm as competence even when the issue is real."
   - "I used the same move in a heated parent meeting - slower speech, one clarifying question, no matching their volume."
@@ -32,13 +35,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "The neighbor argument on the group chat heated up and I waited one beat before replying"
-    back: "people read calm as competence even when the."
-  - front: "I used the same move in a heated parent meeting. What's the move?"
-    back: "No matching their volume"
-  - front: "My kid was melting down at bedtime and I kept my voice flat"
-    back: "It's staying readable when the room isn't"
-  - front: "A referee stays calm when players yell. What's the move?"
-    back: "not because the foul didn't matter, but because."
+  - front: "Neighbor argument heating up on the group chat and my finger's on send. One beat first?"
+    back: "Wait - calm reads as competence."
+  - front: "Heated parent meeting and their volume's climbing. Match it?"
+    back: "Keep my voice flat."
+  - front: "Kid melting down at bedtime and I'm tempted to yell back. What's composure here?"
+    back: "Stay readable when the room isn't."
+  - front: "Players yelling at the ref and I'm tempted to match the energy. What's the move?"
+    back: "Steady tone - don't speed up."
 draft: false
 ---

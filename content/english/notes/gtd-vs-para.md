@@ -30,13 +30,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "The fridge list holds what we buy this week; the filing cabinet holds school forms with no deadline"
-    back: "Stopped cramming groceries into the permanent folder"
-  - front: "My errand list is GTD; my garden notes are PARA. What's the move?"
-    back: "Use both without doubling admin"
-  - front: "The practice schedule lives in the task app; the playbook principles live in the notes folder"
-    back: "Cousins not competitors"
-  - front: "The shift board holds what we finish this week; the training binder holds forms with no deadline"
-    back: "Same workplace, two systems"
+  - front: "Fridge list for this week's groceries vs filing cabinet for school forms with no deadline. Which system?"
+    back: "GTD for tasks - PARA holds the forms."
+  - front: "Errand list in the task app; garden notes in PARA folders. One rule so admin doesn't double?"
+    back: "Tasks in GTD - knowledge in PARA."
+  - front: "Practice schedule in the task app; playbook principles in the notes folder. Same system?"
+    back: "Cousins - tasks app, notes folder."
+  - front: "Shift board for this week's finish line vs training binder for forms with no deadline. Two lanes - what goes where?"
+    back: "Board is GTD - binder is PARA."
 draft: false
 ---

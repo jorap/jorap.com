@@ -29,13 +29,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "I cut active home projects from six to three last quarter and finished the kids' bookcase instead of Pinterest boards on all six."
-    back: "Slow Productivity"
-  - front: "I stopped chasing three side hobbies and finished one blog series"
-    back: "Depth beat volume for once"
-  - front: "The coach cut drills from six to three and the team finally ran them clean on game day."
-    back: "Slow Productivity"
-  - front: "The bakery dropped four \"special\" items and nailed the core six"
-    back: "Busy isn't virtue when nothing finishes"
+  - front: "Six active home projects and none are finished - Pinterest boards everywhere."
+    back: "Cut to three - finish one bookcase."
+  - front: "Three side hobbies pulling me and the blog series is stuck at post two."
+    back: "Drop two hobbies - finish the series."
+  - front: "Four side projects open and my one client build keeps stalling."
+    back: "One deep build this month - kill the rest."
+  - front: "Busy every night but nothing shipped last quarter."
+    back: "Fewer projects - depth beats breadth."
 draft: false
 ---

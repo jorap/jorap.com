@@ -39,9 +39,9 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "The closing routine after every match. What's the move?"
-    back: "ice, tape, log the injury - lives on."
-  - front: "The restaurant opening checklist lives on a clipboard because memory fails when the door unlocks at eleven."
-    back: "short written steps for work that repeats"
+  - front: "Match just ended, everyone's gassed, and ice hasn't hit yet. What's the move?"
+    back: "Run the posted close - ice, tape, log."
+  - front: "Restaurant door unlocks at eleven and I'm opening solo."
+    back: "Clipboard checklist - don't improvise."
 draft: false
 ---

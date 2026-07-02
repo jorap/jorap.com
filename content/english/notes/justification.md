@@ -3,8 +3,9 @@ title: "Justification"
 meta_title: "Justification - Declared Righteous at Faith"
 description: "God declares me righteous through faith in Christ alone - once, at faith, before my obedience catches up (Romans 3:24, 4:5, 5:1)."
 key_concept: |
-  [[Free Grace]] names the gift; justification names the legal move: guilty sinner, faith in Christ, declared not guilty - Christ's record credited to me.
+  God declares me righteous through faith in Christ alone - once, at faith, before my obedience catches up (Romans 3:24, 4:5, 5:1).
   
+  [[Free Grace]] names the gift; justification names the legal move: guilty sinner, faith in Christ, declared not guilty - Christ's record credited to me.
   Same shape as [[Minimum Effective Dose]]: one sufficient act at the start, not a lifetime of merit stacked before God says yes. [[Standing vs Fellowship]] keeps the verdict separate from daily closeness - confession restores fellowship, it doesn't re-buy heaven. [[Sanctification]] is what comes after - becoming holy over time. [[Eternal Rewards]] is what the Father pays faithful living after. None of those three re-open the case justification closed.
 examples:
   - "My kid asked if God likes him yet - I said God already declared him righteous the moment he trusted Christ, not when his room got clean."
@@ -53,6 +54,6 @@ cards:
   - front: "Someone says they're 'working toward' being saved. One sentence back?"
     back: "Trust Christ now - declared righteous at faith."
   - front: "Good deed streak broke and panic hit - like heaven access revoked. What's still true?"
-    back: "Justification stands on Christ, not the streak."
+    back: "Standing settled at faith - confess, keep walking."
 draft: false
 ---

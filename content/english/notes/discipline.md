@@ -2,7 +2,10 @@
 title: "Discipline"
 meta_title: "Discipline - Doing What You Committed When Motivation Drops"
 description: "Doing what you said you'd do when motivation, mood, or applause aren't there to push you."
-key_concept: Discipline is keeping the commitment when the feeling that started it is gone.
+key_concept: |
+  Doing what you said you'd do when motivation, mood, or applause aren't there to push you.
+  
+  Discipline is keeping the commitment when the feeling that started it is gone.
 examples:
   - "The baker opens at 4am whether she's inspired or not - discipline is the shift she committed to when motivation wasn't there."
   - "Discipline is loading the dishwasher when I'd rather scroll - same as brushing teeth when you're already late."

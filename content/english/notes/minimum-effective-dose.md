@@ -36,13 +36,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "Ten minutes of flashcards on the jeepney beat an hour of app setup I'd never open twice."
-    back: "the smallest change that still moves the needle"
-  - front: "The coach added one footwork drill before buying new shoes"
-    back: "Feet learned faster than gear ever did"
-  - front: "The barista trainer had her repeat one steam motion instead of rebuilding the whole menu that week."
-    back: "the smallest change that still moves the needle"
-  - front: "One notebook by the door beat rebuilding the whole capture system again"
-    back: "Enough to work, not more than needed"
+  - front: "Ten minutes flashcards on the jeepney vs hour of app setup I'd never open twice. What's the dose?"
+    back: "Smallest change that moves the needle."
+  - front: "Tempted to buy new shoes before fixing footwork. What's the dose?"
+    back: "One drill daily - feet before gear."
+  - front: "Barista trainee - tempted to rebuild the whole menu this week. One move?"
+    back: "Repeat one steam motion."
+  - front: "Tempted to rebuild the whole capture system again. What beats it?"
+    back: "One notebook by the door."
 draft: false
 ---

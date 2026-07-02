@@ -23,7 +23,7 @@ FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
 AI_WORDS = re.compile(
     r"\b("
     r"landscape|delve|leverage|utilize|facilitate|robust|seamless|comprehensive|"
-    r"Furthermore|Moreover|Additionally|navigate|realm|tapestry|harness|elevate"
+    r"Furthermore|Moreover|Additionally|realm|tapestry|harness|elevate"
     r")\b",
     re.I,
 )
@@ -31,7 +31,7 @@ AI_PHRASES = re.compile(
     r"(In today'?s fast-paced world|Let'?s dive in|Whether you'?re a beginner|"
     r"game-?changer|It'?s worth noting|In conclusion|Unlock the full potential|"
     r"Without further ado|When it comes to|In the realm of|delve into|"
-    r"navigate the world of|comprehensive guide)",
+    r"navigate the (world|landscape)|comprehensive guide)",
     re.I,
 )
 GLOSS_HINTS = re.compile(r"\b(unmerited favor)\b", re.I)
@@ -84,16 +84,35 @@ def prose_chunks(meta: dict, body: str, *, notes: bool) -> list[tuple[str, str]]
     return chunks
 
 
+GLOSS_FIELDS = frozenset(
+    {
+        "description",
+        "key_concept",
+        "examples",
+        "cards",
+        "relationships.reason",
+        "body",
+    }
+)
+
+
 def lint_text(field: str, text: str) -> list[str]:
     issues: list[str] = []
     for match in AI_WORDS.finditer(text):
         issues.append(f"{field}: AI-tell word `{match.group(0)}`")
     if AI_PHRASES.search(text):
         issues.append(f"{field}: AI-slop phrase")
-    for match in GLOSS_HINTS.finditer(text):
-        issues.append(
-            f"{field}: `{match.group(0)}` — add plain gloss (e.g. gift you didn't earn)"
-        )
+    base = field.split("[", 1)[0]
+    if base in GLOSS_FIELDS or field.startswith("examples[") or field.startswith("cards["):
+        for match in GLOSS_HINTS.finditer(text):
+            start = max(0, match.start() - 50)
+            end = min(len(text), match.end() + 80)
+            window = text[start:end].lower()
+            if any(token in window for token in ("earned", "gift", "deserved", "didn't earn", "never earned")):
+                continue
+            issues.append(
+                f"{field}: `{match.group(0)}` — add plain gloss (e.g. gift you didn't earn)"
+            )
     return issues
 
 

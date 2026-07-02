@@ -3,8 +3,9 @@ title: "Layered Reading"
 meta_title: "Layered Reading"
 description: "Pass through the same source at increasing depth - skim, highlight, summarize."
 key_concept: |
-  Skim first pass, mark second, extract third - same book, three depths, one sitting at a time.
+  Pass through the same source at increasing depth - skim, highlight, summarize.
   
+  Skim first pass, mark second, extract third - same book, three depths, one sitting at a time.
   [[Progressive Summarization]] is the note-side cousin of layered passes.
 examples:
   - "First pass on the coaching manual marked three sections; second pass only those got sentences in my own words."
@@ -29,13 +30,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "First pass on the coaching manual marked three sections; second pass only those got sentences in my own words."
-    back: "pass through the same source at increasing depth"
-  - front: "First pass marked three sections of the safety manual; second pass only those got sentences in my own words."
-    back: "pass through the same source at increasing depth"
-  - front: "Skim the permission form, highlight the three dates that matter, summarize those on the fridge"
-    back: "Not one heroic read"
-  - front: "First commute listen for the gist; second pass with a notebook on the parts I'd cite later"
-    back: "Pass through the same source at increasing depth"
+  - front: "Coaching manual - first pass marked three sections. Second pass move?"
+    back: "Only those three get sentences in my words."
+  - front: "Safety manual skim done - three sections flagged. Next sitting?"
+    back: "Second pass - summarize flagged parts only."
+  - front: "Permission form due - skim, mark three dates, summarize on fridge. How many passes?"
+    back: "Three depths - skim, highlight, summarize."
+  - front: "First commute listen for gist on the podcast. Second pass when?"
+    back: "Notebook pass on parts I'd cite later."
 draft: false
 ---

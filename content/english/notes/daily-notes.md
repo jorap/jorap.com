@@ -27,13 +27,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "Today's pocket slip is just fragments. What's the move?"
-    back: "Promote one line to a real note when it repeats"
-  - front: "Today's pocket slip is just fragments: pick up cleats, dentist Tuesday, call Mom back"
-    back: "The rest can fade"
-  - front: "My shift log is fragments. What's the move? One check?"
-    back: "Not a diary, just today's scratch pad until review"
-  - front: "The commute note catches \"pay Meralco, renew OR\" before it vanishes"
-    back: "Not permanent by default"
+  - front: "Pocket slip tonight: cleats pickup, dentist Tuesday, coach callback. What earns a real note?"
+    back: "Promote one line if it repeats."
+  - front: "Pocket slip full of one-off errands. Permanent note?"
+    back: "No - let the rest fade."
+  - front: "End of shift - log's just scribbled fragments and a coworker wants it filed permanently. How long does it live?"
+    back: "Today's scratch pad until review."
+  - front: "Commute note caught \"pay Meralco, renew OR\" before it vanished. Archive forever?"
+    back: "Not permanent by default."
 draft: false
 ---

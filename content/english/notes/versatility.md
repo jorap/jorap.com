@@ -2,7 +2,10 @@
 title: "Versatility"
 meta_title: "Versatility - More Than One Way to Contribute"
 description: "You can contribute in more than one lane when the team or the market shifts."
-key_concept: "Versatility is staying useful across roles, tools, and contexts - not locked to one lane."
+key_concept: |
+  You can contribute in more than one lane when the team or the market shifts.
+  
+  Versatility is staying useful across roles, tools, and contexts - not locked to one lane.
 examples:
   - "The rush hit and I jumped on dishes while the line cook called tickets - versatile without pretending I suddenly ran the grill."
   - "Sick day meant I became lunch packer, tutor, and IT help - versatility is more than one lane when the day shifts."
@@ -29,9 +32,9 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "The rush hit and I jumped on dishes while the line cook called tickets"
-    back: "Suddenly ran the grill"
-  - front: "Sick day meant I became lunch packer, tutor, and IT help"
-    back: "versatility is more than one lane when the."
+  - front: "Lunch rush hit and dishes are piled - line cook's buried in tickets."
+    back: "Jump on dishes - I'm not running the grill."
+  - front: "Sick day and I'm lunch packer, tutor, and IT help before noon."
+    back: "Pick up the lane that opens - don't fake expertise."
 draft: false
 ---

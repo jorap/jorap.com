@@ -3,8 +3,9 @@ title: "Information Diet"
 meta_title: "Information Diet"
 description: "Choose what you consume on purpose - feeds are not neutral."
 key_concept: |
-  Curate inputs like food - binge headlines and your judgment gets as sloppy as your sleep.
+  Choose what you consume on purpose - feeds are not neutral.
   
+  Curate inputs like food - binge headlines and your judgment gets as sloppy as your sleep.
   [[Digital Minimalism]] cuts tools; diet cuts feeds.
 examples:
   - "I dropped two commute podcasts that only made me angry at strangers - information diet is curating inputs, not swallowing whatever the algorithm serves."
@@ -29,13 +30,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "I removed the doom-scroll feed from the family tablet. What's the move?"
-    back: "Choose what you consume on purpose"
-  - front: "I dropped two commute podcasts that only made me angry at strangers"
-    back: "Not swallowing whatever the algorithm serves"
-  - front: "I unfollowed three outrage sports accounts and pre-game wasn't ruined before warm-up."
-    back: "choose what you consume on purpose"
-  - front: "Unfollowed three outrage accounts and my morning wasn't ruined before breakfast."
-    back: "choose what you consume on purpose"
+  - front: "Family tablet still opens to the doom-scroll feed every morning. One move?"
+    back: "Remove it - curate inputs on purpose."
+  - front: "Two commute podcasts that only leave me angry at strangers. Diet move?"
+    back: "Drop them - feeds aren't neutral."
+  - front: "Thumb hovering over three outrage sports accounts before warm-up. Pre-game move?"
+    back: "Unfollow - choose what I consume."
+  - front: "Morning ruined by outrage accounts before breakfast again. What's the diet move?"
+    back: "Unfollow - curate the feed on purpose."
 draft: false
 ---

@@ -2,7 +2,10 @@
 title: "Ship It"
 meta_title: "Ship It"
 description: "Publish the good-enough version instead of polishing forever."
-key_concept: "Freelance parallel: [[Selling Static Sites]] - ship the first client site before the three-tier pricing PDF exists."
+key_concept: |
+  Publish the good-enough version instead of polishing forever.
+  
+  Freelance parallel: [[Selling Static Sites]] - ship the first client site before the three-tier pricing PDF exists.
 examples:
   - "The menu went live with one typo fixed after service - customers ate tonight."
   - "We ran the new play ugly in scrimmage instead of drilling it another month."
@@ -38,13 +41,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "We ran the new play ugly in scrimmage instead of drilling it another month"
-    back: "Feedback beat perfection on the whiteboard"
-  - front: "The menu went live with one typo fixed after service. What's the move?"
-    back: "customers ate tonight instead of another week of."
-  - front: "The birthday slideshow shipped with one rough slide. What's the move?"
-    back: "Another month in iMovie would've missed the party"
-  - front: "The blog post went live with one rough paragraph. What's the move?"
-    back: "Feedback beat another month in drafts"
+  - front: "New play's still ugly but we've drilled it a month. Scrimmage's tomorrow and I'm tempted to drill another month."
+    back: "Run it ugly - feedback beats the whiteboard."
+  - front: "Menu typo spotted mid-service but kitchen's rolling. Perfectionist urge to hold the launch."
+    back: "Go live - customers eat tonight."
+  - front: "Birthday slideshow has one rough slide and the party's tomorrow."
+    back: "Ship it - don't miss the party."
+  - front: "Blog post's 90% there and I've been editing a month."
+    back: "Publish - feedback beats another draft month."
 draft: false
 ---

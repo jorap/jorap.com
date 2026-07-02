@@ -180,3 +180,71 @@ Most extension cords look the same on the shelf. They're not. The wrong gauge on
 | How-to | Personal journey + plain English | "How I Built JoRap Notes" |
 | Tips | Problem → fix, no hype | "Facebook's Hidden Gem: How the Favorites Feed…" |
 | Opinion | Relatable setup → thesis | "Top Reasons Why You Still Need a Desktop or Laptop" |
+| Notes | Topic - plain subtitle | "Sanctification - Becoming Holy After Faith" |
+
+---
+
+## Notes garden - on voice
+
+### ✅ Punch-line `key_concept`
+
+> [[Rollback Principle]] gets users back on the old build; blameless postmortem gets judgment back.
+>
+> Same shape as [[Incident Investigation]] - trace system causes - but the culture rule is no scalpel hunts for a fall guy.
+
+### ✅ Cross-domain `examples` (same move, two surfaces)
+
+> A play tweak hits during cooldown and I scribble it on my wristband before the locker room noise eats it - one inbox, file it Sunday when the spark is safe.
+>
+> On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it - one pocket notebook, no sorting yet.
+
+### ✅ Faith gloss before theology stack
+
+> [[Grace]] is a gift I never earned.
+>
+> Christ paid what I couldn't. I receive eternal life by believing His promise - not by climbing a moral ladder.
+
+### ✅ Card cue → apply (plain back)
+
+| Front | Back |
+|-------|------|
+| `Thumb on post button, public critique loaded. One check before I hit send?` | `Reverse roles - would I want this said to me?` |
+| `Mid-commute spark I might forget before I'm home.` | `Drop in one inbox. Don't organize yet.` |
+
+### ❌ Dictionary `key_concept`
+
+> Strategic foresight is the practice of looking past the immediate move to what the board will look like in six months.
+
+### ✅ Same idea, punch first
+
+> Look past the immediate win.
+>
+> The board six months out - after everyone reacts - matters more than tonight's score.
+
+### ❌ Thesaurus in `description`
+
+> Look past today's win to what the landscape looks like after others react.
+
+### ✅ Plain swap
+
+> Look past today's win to what happens after everyone reacts.
+
+### ❌ Definition card back
+
+| Front | Back |
+|-------|------|
+| `I open the playbook notes a second time and bold three plays…` | `Progressive Summarization` |
+
+### ✅ Apply card back
+
+| Front | Back |
+|-------|------|
+| `Second time opening the same note - tempted to rewrite the whole thing.` | `Bold good lines first. Summary at top only on reuse.` |
+
+### ❌ Truncated card back
+
+> `summary at the top only when I'm actually.`
+
+### ✅ Full move on the back
+
+> `Summary at top only when I'm reusing it this week.`

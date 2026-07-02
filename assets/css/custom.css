@@ -610,26 +610,46 @@ body.notes-graph-present-open {
 
 .notes-card {
   background: var(--color-elevated);
-  transition: border-color 0.15s ease;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
   min-height: 100%;
 }
 
-.notes-card:hover,
-.notes-card:focus-visible,
-.notes-card-interactive:focus-within {
+.notes-card--interactive:hover,
+.notes-card--interactive:focus-within {
   border-color: var(--color-accent);
+  box-shadow: 0 4px 16px color-mix(in srgb, var(--color-ink) 8%, transparent);
 }
 
-.notes-card-interactive:hover .notes-card-title,
-.notes-card-interactive:focus-within .notes-card-title {
+.notes-card--interactive:hover .notes-card__title,
+.notes-card--interactive:focus-within .notes-card__title {
   color: var(--color-accent);
 }
 
-.notes-card-overlay {
+.notes-card__overlay {
   position: absolute;
   inset: 0;
   z-index: 0;
   border-radius: inherit;
+}
+
+.notes-card__body {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.notes-card__shared-label {
+  color: var(--color-ink-faint);
+}
+
+.notes-see-also-list .notes-link-card,
+.notes-outgoing-list .notes-link-card,
+.notes-backlinks-list .notes-link-card {
+  list-style: none;
+  min-width: 0;
 }
 
 .notes-backlinks {
@@ -1229,8 +1249,13 @@ html.dark .notes-list-facet__select {
   opacity: 0.85;
 }
 
-.notes-featured-random-panel {
-  background: var(--color-elevated);
+.notes-featured-random-grid {
+  align-items: stretch;
+}
+
+.notes-featured-random-grid .notes-random-loading,
+.notes-featured-random-grid .notes-featured-random-empty {
+  margin: 0;
 }
 
 .notes-index-intro {
@@ -1243,26 +1268,8 @@ html.dark .notes-list-facet__select {
   text-wrap: balance;
 }
 
-.notes-index-discover {
-  align-items: stretch;
-}
-
 .notes-index-catalog__head {
   text-wrap: balance;
-}
-
-.notes-featured-random-slot {
-  min-height: 8.5rem;
-  background: var(--color-elevated);
-  overflow: hidden;
-}
-
-.notes-featured-random-slot .notes-random-loading {
-  margin: 0;
-}
-
-.notes-recent-stack .notes-recent:last-child {
-  margin-bottom: 0;
 }
 
 .notes-recent-item {

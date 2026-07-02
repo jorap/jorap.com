@@ -13,8 +13,8 @@ featured: false
 review: true
 card_sets: ["Set Name"]
 cards:
-  - front: "Situational cue I'd recognize mid-week — first person, mid-action, no options listed on the front."
-    back: "Immediate move — plain imperative, what I do or decide next."
+  - front: "Situational cue I'd recognize mid-week — first person, mid-action, no options on the front."
+    back: "Immediate move — plain imperative; the right default already loaded."
   - front: "Second prompt?"
     back: "Second answer."
   - front: "Third prompt?"

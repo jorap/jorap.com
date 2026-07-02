@@ -27,13 +27,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "I sketched a bubble map of our season goals on paper, then each branch became its own drill checklist."
-    back: "Mind Mapping"
-  - front: "I sketch a messy bubble map before our road trip, then each branch becomes its own packing list on the fridge."
-    back: "Mind Mapping"
-  - front: "I mapped errand stops around the mall on paper first. What's the move?"
-    back: "Each branch became its own sticky on the dash"
-  - front: "The contractor sketched rooms on a napkin first. What's the move?"
-    back: "each bubble became a line item before the."
+  - front: "Season goals sketched as bubbles on paper before the drill list. What comes next?"
+    back: "Each branch becomes its own checklist."
+  - front: "Messy bubble map before our road trip. What comes next?"
+    back: "Each branch becomes a packing list."
+  - front: "Errand stops mapped around the mall on paper first. What's next?"
+    back: "Each branch becomes a sticky on the dash."
+  - front: "Rooms sketched on a napkin before the quote. What comes next?"
+    back: "Each bubble becomes a line item."
 draft: false
 ---

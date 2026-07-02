@@ -29,13 +29,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "We removed the wet patch on the court instead of adding \"slow down\" signs"
-    back: "Removing the hazard beats both"
-  - front: "We taped down the rug corner instead of yelling \"watch your step\" every night"
-    back: "PPE last"
-  - front: "The building fixed the broken step instead of posting another caution sticker"
-    back: "Remove the hazard first, in that order"
-  - front: "Guard rails beat \"be careful\" signs; removing the trip hazard beats both."
-    back: "remove the hazard first"
+  - front: "Wet patch on the court and someone wants another 'slow down' sign. Higher control?"
+    back: "Remove the wet patch first."
+  - front: "Rug corner still tripping us - tempted to yell 'watch your step' every night. First fix?"
+    back: "Tape it down - elimination before warnings."
+  - front: "Broken step fixed with another caution sticker proposed. What beats admin controls?"
+    back: "Fix the step - hazard out first."
+  - front: "Trip hazard still there and someone wants guard rails AND a 'be careful' sign. Order check?"
+    back: "Remove hazard first - then engineer, admin, PPE."
 draft: false
 ---

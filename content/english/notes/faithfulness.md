@@ -3,8 +3,9 @@ title: "Faithfulness"
 meta_title: "Faithfulness - Steady Use the Spirit Grows"
 description: "Steady use of what God entrusted - time, gifts, opportunities - not one heroic week mistaken for proof you earned heaven (Galatians 5:22)."
 key_concept: |
-  [[Fruits of the Spirit]] names faithfulness beside gentleness - reliable follow-through because the Spirit sustains the walk, not because merit bought your seat.
+  Steady use of what God entrusted - time, gifts, opportunities - not one heroic week mistaken for proof you earned heaven (Galatians 5:22).
   
+  [[Fruits of the Spirit]] names faithfulness beside gentleness - reliable follow-through because the Spirit sustains the walk, not because merit bought your seat.
   [[Faithful Steward]] is the garden echo: well done for faithful use over quiet Tuesdays, not burying what He gave or performing for applause. [[Follow-Through]] is the workplace mirror - recap, owners, dates after you said yes. [[Eternal Rewards]] names what steady faithfulness may receive; [[Free Grace]] keeps it from becoming the entry fee.
 examples:
   - "One mission trip in my head as my whole eternal report card - faithfulness fruit is steady use over years, including Tuesdays nobody clapped for."

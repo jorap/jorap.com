@@ -2,7 +2,10 @@
 title: "Future-Proofing Knowledge"
 meta_title: "Future-Proofing Knowledge - Boring Formats Win"
 description: "Future-proofing isn't predicting tech for me - it's plain text, open tools, and exports I test before I need them."
-key_concept: "[[Free Tier Hosting Stack]] client repos are markdown in git - portable if Cloudflare or I disappear; the content survives, hosting is swappable."
+key_concept: |
+  Future-proofing isn't predicting tech for me - it's plain text, open tools, and exports I test before I need them.
+  
+  [[Free Tier Hosting Stack]] client repos are markdown in git - portable if Cloudflare or I disappear; the content survives, hosting is swappable.
 examples:
   - "Our family contacts list is plain text on the fridge backup folder - I copy it twice a year so future-proof isn't just a vibe."
   - "My notes live as plain text I can open anywhere; I test the backup drive before I need it, not after an app dies."
@@ -30,13 +33,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "The team roster lives in a shared spreadsheet, not a app that might shut down"
-    back: "Can open anywhere"
-  - front: "Our family contacts list is plain text on the fridge backup folder"
-    back: "I copy it twice a year so future-proof."
-  - front: "My notes live as plain text I can open anywhere; I test the backup drive before I need it, not after an app dies."
-    back: "Future-Proofing Knowledge"
-  - front: "Grandma's recipes are on index cards in a tin, not an app that might shut down."
-    back: "Future-Proofing Knowledge"
+  - front: "Team roster locked in an app that might shut down. Safer format?"
+    back: "Plain text or spreadsheet I can export."
+  - front: "Family contacts only on the fridge folder backup. When do I test it?"
+    back: "Copy it twice a year - before I need it."
+  - front: "Notes app dying and my garden is inside it. One move this week?"
+    back: "Export plain text - test the backup drive now."
+  - front: "Grandma's recipes in an app that might vanish. Boring format wins - where do they live?"
+    back: "Index cards in a tin - portable either way."
 draft: false
 ---

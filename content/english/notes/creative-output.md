@@ -33,13 +33,13 @@ featured: false
 review: true
 card_sets: ["Writing", "Review"]
 cards:
-  - front: "Friday film day means everyone shows one clip, rough or not"
-    back: "I do the same with my note pile."
-  - front: "I publish the sermon outline before it's polished because truth shared beats truth hoarded in the garden like bookmarks."
-    back: "Creative Output"
-  - front: "The art teacher makes everyone show one sketch, rough or not"
-    back: "Notes are inventory, output is the point"
-  - front: "We don't wait for perfect dinner photos. What's the move?"
-    back: "Hearing the idea isn't doing it"
+  - front: "Friday film day - everyone's supposed to show one clip, rough or not. My note pile?"
+    back: "Publish one rough piece too."
+  - front: "Sermon outline's still rough but truth hoarded in the garden helps nobody. Ship it?"
+    back: "Publish before it's polished."
+  - front: "Art class making everyone show one sketch, rough edges and all. Notes vs output?"
+    back: "Inventory isn't the point - ship."
+  - front: "Dinner's ready and I'm waiting for perfect photos before anyone eats. What's the move?"
+    back: "Serve it - don't polish the post."
 draft: false
 ---

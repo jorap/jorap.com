@@ -30,13 +30,13 @@ featured: false
 review: true
 card_sets: ["Writing", "Review"]
 cards:
-  - front: "I shared a draft SOP with the team before it was polished"
-    back: "Understood the handoff"
-  - front: "I posted a rough footwork clip before I'd nailed the cue words"
-    back: "a teammate's comment fixed the line I'd been."
-  - front: "I posted a rough arroz caldo recipe before I'd nailed the ginger amount"
-    back: "a neighbor's comment last month fixed the line."
-  - front: "Drafting in public keeps the garden honest. What's the move?"
-    back: "rough ideas in the open grow faster than."
+  - front: "Shared a draft SOP with the team before it was polished. What did they get?"
+    back: "Honest handoff - they could fix it."
+  - front: "Posted a rough footwork clip before I'd nailed the cue words. What came back?"
+    back: "Teammate's comment fixed my line."
+  - front: "Posted rough arroz caldo before I'd nailed the ginger amount. Why risk it?"
+    back: "Neighbor's comment beats solo guessing."
+  - front: "Note feels half-baked but I've been hoarding it for a perfect edit pass. Garden move?"
+    back: "Publish rough - grow in public."
 draft: false
 ---

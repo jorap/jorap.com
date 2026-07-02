@@ -3,8 +3,9 @@ title: "Failure as Feedback"
 meta_title: "Failure as Feedback - Misses Are Signal When You Listen"
 description: "A miss tells you what to fix next - process, skill, assumption - if you don't treat it as a identity verdict."
 key_concept: |
-  Faith parallel: [[Loss of Reward]] - worthless works burn at the [[Judgment Seat]], but the builder is still saved through fire.
+  A miss tells you what to fix next - process, skill, assumption - if you don't treat it as a identity verdict.
   
+  Faith parallel: [[Loss of Reward]] - worthless works burn at the [[Judgment Seat]], but the builder is still saved through fire.
   The miss is feedback on what to build next, not proof you were never in.
 examples:
   - "I missed three free throws in a row - failure as feedback was follow-through and routine, not deciding I'm \"not a basketball person.\""
@@ -42,8 +43,8 @@ review: true
 card_sets: ["Focus", "Review"]
 cards:
   - front: "I missed three free throws in a row. What's the move?"
-    back: "Not deciding I'm \"not a basketball person.\""
-  - front: "The utility bill math was wrong. What's the move?"
-    back: "Not proof I can't do numbers"
+    back: "Adjust form - not \"I'm not a basketball person.\""
+  - front: "I messed up the utility bill math again. What's the move?"
+    back: "Fix the math - not proof I can't do numbers."
 draft: false
 ---

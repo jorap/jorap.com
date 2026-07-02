@@ -32,13 +32,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "The clinic keeps a crash cart checked every shift. What's the move?"
-    back: "\"staff assumes risk\" doesn't erase the charge nurse's."
-  - front: "The pool had a lifeguard on deck because \"swim at your own risk\" doesn't erase the job of watching kids in the water."
-    back: "leaders owe reasonable protection to people..."
-  - front: "We don't leave the toddler pool gate open because the kids \"know not to run\""
-    back: "duty of care is watching even when signs."
-  - front: "The building had a guard on the night shift because posted rules don't replace someone watching the exit when the alarm trips."
-    back: "leaders owe reasonable protection to people..."
+  - front: "Crash cart checklist due every shift and someone's shrugging \"staff assumes risk.\" Still my job?"
+    back: "Yes - reasonable protection owed."
+  - front: "Pool shift and the sign says swim at your own risk. What's still required?"
+    back: "Watch the kids - sign doesn't erase it."
+  - front: "Toddler pool gate's open because \"kids know not to run.\" Duty-of-care move?"
+    back: "Close it - watch even when signs exist."
+  - front: "Night shift, alarm trips, and posted rules are the only \"guard.\" What's missing?"
+    back: "Someone watching the exit."
 draft: false
 ---

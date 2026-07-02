@@ -48,7 +48,7 @@ cards:
   - front: "One visible heroic week masking empty years. What gets tested?"
     back: "What it's built of - not the hype."
   - front: "Burned work feels like proof I was never saved. Reframe?"
-    back: "Feedback on what to build - still in."
+    back: "Still saved - fire shows what to build next."
   - front: "Tempted to stack performance for God's yes. What materials last?"
     back: "Gold, silver, stones - not wood hay stubble."
 draft: false

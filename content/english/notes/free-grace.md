@@ -3,7 +3,7 @@ title: "Free Grace"
 meta_title: "Free Grace - Salvation by Faith Alone"
 description: "Eternal life is God's free gift through faith in Christ alone - not wages for keeping commandments, obeying eternal principles, or doing good works (Ephesians 2:8-9; John 3:16; Romans 4:5)."
 key_concept: |
-  [[Grace]] is unmerited favor.
+  [[Grace]] is a gift I never earned - unmerited favor.
   
   Christ paid what I couldn't. I receive eternal life by believing His promise - not by climbing a moral ladder. Same shape as [[Minimum Effective Dose]] for salvation: faith is the smallest act that still works - not zero effort, not a lifetime of merit. Every [[Eternal Principles]] Jesus taught flows from that ground: principles for how believers live in grateful response, pursue fellowship with God, and store up [[Eternal Rewards]] - never as currency to buy heaven. [[Loss of Reward]] keeps the categories straight when a believer wastes years or worthless works burn: salvation stays on Christ, reward may shrink. Ephesians 2:10 keeps the order straight: saved by grace through faith first, then created in Christ Jesus for good works. [[Justification]] is free and finished at faith; [[Sanctification]], [[Discipleship]], and forgiveness toward others belong to the walk after. [[Grateful Obedience]] names the posture: obey from thanks, not to qualify. [[Assurance]] and [[Standing vs Fellowship]] keep doubt from collapsing standing with closeness. [[Faith and Works]] keeps the lanes straight: works prove faith alive, they don't buy heaven.
 examples:

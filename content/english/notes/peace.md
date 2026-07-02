@@ -45,7 +45,7 @@ cards:
     back: "No - peacemaking is work too."
   - front: "Conflict avoided so nobody's upset. Galatians peace?"
     back: "Not peace-at-any-price - trust God, make peace."
-  - front: "Anxiety scrolling finances. What fruit replaces the loop?"
-    back: "Peace - Father knows what I need."
+  - front: "Anxiety scrolling finances at midnight. What fruit replaces the loop?"
+    back: "Trust Father - pray, then act."
 draft: false
 ---

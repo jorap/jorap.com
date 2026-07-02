@@ -29,13 +29,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "Phone in the drawer while I help with math. What's the move?"
-    back: "one problem set actually finished instead of three."
-  - front: "Phone in the gym bag for ninety minutes. What's the move?"
-    back: "one drill breakdown written that'd been \"almost done\"."
-  - front: "Door closed, notifications off for one patient chart review"
-    back: "The error I'd been rushing past finally showed up"
-  - front: "Phone in the drawer for ninety minutes. What's the move?"
-    back: "One note drafted that'd been \"almost done\" for weeks"
+  - front: "Phone's in the drawer while I help with math homework. What's possible now?"
+    back: "One problem set actually finished."
+  - front: "Gym bag's zipped with my phone inside for a full ninety-minute block. What gets finished?"
+    back: "One drill breakdown - no fragments."
+  - front: "Door closed, notifications off for one patient chart review. What shows up?"
+    back: "The error I'd been rushing past."
+  - front: "Ninety minutes, phone in the drawer, and that note's been \"almost done\" for weeks. Move?"
+    back: "Draft it - one uninterrupted block."
 draft: false
 ---

@@ -33,13 +33,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "I logged the full practice hours when nobody audits the sheet"
-    back: "Integrity when no one's watching is the hidden lane"
-  - front: "The market scale stays honest when the seller steps away to take a call"
-    back: "I could've scooped light on the last bag."
-  - front: "I ran the real spelling check on the homework when my kid wasn't looking over my shoulder"
-    back: "Accurate work when there's no audience"
-  - front: "I closed the support ticket correctly even though nobody would audit it this week"
-    back: "The test isn't the all-hands slide"
+  - front: "Practice hours sheet open and nobody audits it this month. What do I log?"
+    back: "Full hours - honest work offstage."
+  - front: "Market scale honest when the seller steps away mid-weigh. Last bag of rice - move?"
+    back: "Re-weigh it - scoop light isn't an option."
+  - front: "Homework spelling check with my kid in the other room. One honest move?"
+    back: "Run the real check - no audience test."
+  - front: "Support ticket I could close sloppy - nobody would audit this week. Move?"
+    back: "Close it correctly - manager isn't the test."
 draft: false
 ---

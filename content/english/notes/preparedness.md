@@ -2,7 +2,10 @@
 title: "Preparedness"
 meta_title: "Preparedness - Rehearse Before the Emergency Owns the Clock"
 description: "Rehearse, document, and test before the emergency owns the clock."
-key_concept: Preparedness is practicing and documenting moves before you need them at full speed.
+key_concept: |
+  Rehearse, document, and test before the emergency owns the clock.
+  
+  Preparedness is practicing and documenting moves before you need them at full speed.
 examples:
   - "We ran our inbound play every Thursday whether we needed it or not - schools run fire drills on sunny Tuesdays so kids aren't learning exits during smoke."
   - "Our restaurant ran the closing checklist on a slow Tuesday; Saturday night's rush was boring because everyone had already walked it once."
@@ -35,13 +38,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "I keep jumper cables and a blanket in the trunk before winter"
-    back: "Not learning that lesson on the icy off-ramp"
-  - front: "We ran our inbound play every Thursday whether we needed it or not"
-    back: "schools run fire drills on sunny Tuesdays so."
-  - front: "Our restaurant ran the closing checklist on a slow Tuesday; Saturday night's rush was boring because everyone had already walked it once."
-    back: "rehearse"
-  - front: "We practiced the fire plan on a calm Tuesday. What's the move?"
-    back: "Kids knew two exits before anyone smelled smoke"
+  - front: "Winter's coming and my trunk still has no jumper cables or blanket. One prep move?"
+    back: "Pack them before the first freeze."
+  - front: "Thursday practice and our inbound play still feels rusty. Why run it when we're not behind?"
+    back: "Rehearse before the clock owns you."
+  - front: "Slow Tuesday at the shop and Saturday rush is coming. Why run closing checklist now?"
+    back: "Walk it once before the rush owns you."
+  - front: "Fire drill on a calm Tuesday - kids still guessing exits. What should they know?"
+    back: "Two exits before anyone smells smoke."
 draft: false
 ---

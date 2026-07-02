@@ -26,13 +26,13 @@ featured: false
 review: true
 card_sets: ["Writing", "Review"]
 cards:
-  - front: "I taped the coach's article title under the quote in our playbook so six months later we know if the source still says what we thought."
-    back: "Intellectual Sourcing"
-  - front: "I tape the newspaper name under the quote on my kid's history project so six months later we know if the source still says what we thought."
-    back: "Intellectual Sourcing"
-  - front: "I cite the link in my garden note not for academia. What's the move?"
-    back: "so I can trust my own synthesis and."
-  - front: "Without that source line our own summary starts to feel like gospel"
-    back: "intellectual sourcing is tracking where ideas..."
+  - front: "Coach's quote in our playbook with no article title underneath. Six months from now - one move?"
+    back: "Tape the source under the quote."
+  - front: "Newspaper quote on my kid's history project with no name under it. Fix before turn-in?"
+    back: "Tape the source - find the original later."
+  - front: "Garden note has a sharp claim and no link. Why cite when it's not academia?"
+    back: "Trust my synthesis - find the original six months out."
+  - front: "My summary started feeling like gospel because the source line got lost. One restore move?"
+    back: "Put the source line back under the quote."
 draft: false
 ---

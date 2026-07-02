@@ -3,8 +3,9 @@ title: "Taxonomy"
 meta_title: "Taxonomy"
 description: "A classification scheme - folders, tags, types - for finding things later."
 key_concept: |
-  Tags and types only help when the list stays short enough you'd actually pick from it.
+  A classification scheme - folders, tags, types - for finding things later.
   
+  Tags and types only help when the list stays short enough you'd actually pick from it.
   [[Metadata Strategy]] plans tags; taxonomy is the short list you'd actually use.
 examples:
   - "Five tags I actually filter by beat thirty I never click."
@@ -29,13 +30,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Film folders split by opponent and phase beat one dump called \"misc clips\""
-    back: "Find the corner-kick reel in seconds now"
-  - front: "Tags for 'faith' and 'PKM' beat one junk drawer folder called 'misc'"
-    back: "Find things later"
-  - front: "School papers split into \"sign,\" \"keep,\" and \"trash\" trays beat one pile on the counter"
-    back: "Taxonomy for the daily scramble"
-  - front: "Receipts sorted by taxes vs warranty vs trash beat one shoebox"
-    back: "Folders and labels, boring on purpose"
+  - front: "Film folders dumped in one 'misc clips' pile and I need the corner-kick reel."
+    back: "Split by opponent and phase."
+  - front: "Faith notes, PKM notes, all in one junk folder called misc."
+    back: "Short tag list I'd actually click."
+  - front: "School papers in one counter pile and permission slips keep getting lost."
+    back: "Three trays - sign, keep, trash."
+  - front: "Receipts in one shoebox and tax season's coming."
+    back: "Sort taxes, warranty, trash now."
 draft: false
 ---

@@ -3,8 +3,9 @@ title: "Patience"
 meta_title: "Patience - Slow Fuse the Spirit Grows"
 description: "A slow fuse the Spirit grows in believers - not gritted teeth until Friday or white-knuckling through a dry prayer week (Galatians 5:22)."
 key_concept: |
-  [[Fruits of the Spirit]] names patience in the same cluster as gentleness and self-control - endurance with people and providence because you're connected to the vine, not performing virtue.
+  A slow fuse the Spirit grows in believers - not gritted teeth until Friday or white-knuckling through a dry prayer week (Galatians 5:22).
   
+  [[Fruits of the Spirit]] names patience in the same cluster as gentleness and self-control - endurance with people and providence because you're connected to the vine, not performing virtue.
   [[Slow the Moment]] is the garden echo: one beat before reaction buys the Spirit room to answer instead of the urge. [[Abide in Me]] is the engine; [[Sanctification]] is the slow becoming patience marks over years, not one white-knuckle Friday.
 examples:
   - "I snapped at my kid after a week with almost no prayer - Galatians patience comes from walking by the Spirit, not white-knuckling until Friday."
@@ -51,7 +52,7 @@ cards:
     back: "Slow the moment - Spirit slow fuse."
   - front: "Trying to checklist patience by Friday. What grows it?"
     back: "Abide - fruit grows, not forced."
-  - front: "Correction turned sharp - volume up, patience gone. Which fruit?"
-    back: "Patience - tone from Spirit."
+  - front: "Correction turned sharp - volume up, slow fuse gone. One beat?"
+    back: "Slow the moment - tone from Spirit."
 draft: false
 ---

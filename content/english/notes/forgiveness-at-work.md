@@ -30,13 +30,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "I replayed my sister's sharp comment at every family dinner until I chose to release the debt"
-    back: "It's refusing to collect forever"
-  - front: "I kept mentally scoring a teammate who blew a play in last month's tournament"
-    back: "forgiveness at work meant I stopped bringing that."
-  - front: "I kept mentally scoring a coworker who embarrassed me in a staff meeting six months ago"
-    back: "I stopped bringing that score into every shift."
-  - front: "The neighbor's parking habit still bugged me months later"
-    back: "Not pretending the curb fight never happened"
+  - front: "Sister's sharp comment still replaying at every family dinner. What am I refusing to do?"
+    back: "Collect forever on a debt that poisons me."
+  - front: "Teammate's blown play from last month still scoring in my head mid-shift. One move?"
+    back: "Drop the ledger - stop scoring that play."
+  - front: "Coworker embarrassed me in staff meeting six months ago. Trust still broken. Two moves?"
+    back: "Release the grudge - write what I'd need to trust him."
+  - front: "Neighbor's parking habit still bugging me months later. What am I not pretending?"
+    back: "It happened - I'm not replaying it forever."
 draft: false
 ---

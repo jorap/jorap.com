@@ -3,8 +3,9 @@ title: "Inbox Zero"
 meta_title: "Inbox Zero"
 description: "Process the inbox to empty regularly - each item decided, not hoarded."
 key_concept: |
-  Empty the capture pipe on schedule - zero isn't vanity, it's proof the system still works.
+  Process the inbox to empty regularly - each item decided, not hoarded.
   
+  Empty the capture pipe on schedule - zero isn't vanity, it's proof the system still works.
   [[The Trusted Inbox]] is the habit; zero is the proof you still empty it.
 examples:
   - "Friday I triaged the team inbox to zero - Monday practice started from decisions made, not dread about who forgot what."
@@ -29,13 +30,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "Friday I triaged the team inbox to zero. What's the move?"
-    back: "Not dread about who forgot what"
-  - front: "I process the commute voice-memo inbox every Friday. What's the move?"
-    back: "Inbox zero is each item decided, not hoarded"
-  - front: "Friday afternoon I triaged email to zero. What's the move?"
-    back: "Monday started from decisions made, not dread"
-  - front: "Sunday night we emptied the kitchen catch-all tray. What's the move?"
-    back: "each slip got a decision so school week."
+  - front: "Friday triage and team inbox still at forty. What's zero actually proving?"
+    back: "Each item decided - empty the pipe."
+  - front: "Commute voice-memo inbox piling up since Tuesday. Friday move?"
+    back: "Process each - decide, delete, or defer."
+  - front: "Email at ninety-eight unread Friday afternoon. Monday starts how?"
+    back: "Triage to zero - decisions made, not dread."
+  - front: "Kitchen catch-all tray overflowing Sunday night. School week starts when?"
+    back: "Each slip gets a decision tonight."
 draft: false
 ---

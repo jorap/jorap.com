@@ -45,13 +45,13 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Correction with my kid - volume up, gentleness gone. Which fruit?"
-    back: "Gentleness - tone from Spirit."
-  - front: "Grasping for status in a group project. Kingdom gentleness?"
-    back: "Serve - strength without grasping."
+  - front: "Correction with my kid - volume up, love thinned. Which fruit am I missing?"
+    back: "Drop volume - strength under control."
+  - front: "Group project and I'm grasping for status credit. Kingdom move?"
+    back: "Serve - don't strut for the spotlight."
   - front: "Foot-washing feels below my role. What did Jesus model?"
-    back: "Gentleness - serve, not strut."
-  - front: "Tempted to exalt myself in a sacrifice story. One check?"
-    back: "Humble - don't grab spotlight."
+    back: "Serve first - greatness isn't grasping."
+  - front: "Sacrifice story ready to post for applause. One check before send?"
+    back: "Humble - let the Father get credit."
 draft: false
 ---

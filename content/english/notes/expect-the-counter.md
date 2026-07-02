@@ -39,9 +39,9 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "I offered extra screen time for chores and my kid negotiated harder tasks by day three"
-    back: "Not only rehearsed the opening bribe"
-  - front: "We changed our full-court press and the other team adjusted by halftime"
-    back: "expect the counter meant building a backup look."
+  - front: "Extra screen time for chores worked Monday. By day three my kid negotiates harder tasks. What did I skip?"
+    back: "Ask what happens after they adapt."
+  - front: "Full-court press worked first quarter. Halftime they're adjusted. What's the second move?"
+    back: "Built a backup look before tip-off."
 draft: false
 ---

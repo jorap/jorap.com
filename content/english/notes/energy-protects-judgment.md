@@ -2,7 +2,10 @@
 title: "Energy Protects Judgment"
 meta_title: "Energy Protects Judgment - Rest Is Part of Performance"
 description: "Fatigue hits more than muscles. It weakens patience, attention, restraint, and the quality of calls you make."
-key_concept: "Rest, prep, workload limits, and recovery aren't soft extras - they're part of performing responsibly under pressure."
+key_concept: |
+  Fatigue hits more than muscles. It weakens patience, attention, restraint, and the quality of calls you make.
+  
+  Rest, prep, workload limits, and recovery aren't soft extras - they're part of performing responsibly under pressure.
 examples:
   - "I snapped at my kid over a spilled cup after a brutal week; at breakfast it would've been two calm sentences - she wasn't the problem, I was."
   - "After three nights of bad sleep I almost sent a sharp email to a neighbor - I waited until morning and the whole thread looked different."
@@ -45,9 +48,9 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "I snapped at my kid over a spilled cup after a brutal week; at breakfast it would've been two calm sentences"
-    back: "Was"
-  - front: "After three nights of bad sleep I almost sent a sharp email to a neighbor"
-    back: "I waited until morning and the whole thread."
+  - front: "Snapped at my kid over a spilled cup after a brutal week - would've been two calm sentences at breakfast. What failed?"
+    back: "Fatigue - protect energy before judgment calls."
+  - front: "Three nights of bad sleep and I'm drafting a sharp email to a neighbor. Send tonight?"
+    back: "Wait until morning - judgment's back."
 draft: false
 ---

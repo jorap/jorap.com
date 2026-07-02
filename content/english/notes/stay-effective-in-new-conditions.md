@@ -2,7 +2,10 @@
 title: "Stay Effective in New Conditions"
 meta_title: "Stay Effective in New Conditions - Strength Outside the Comfort Zone"
 description: "What made you strong in one room can make you weak in the next."
-key_concept: "Real competence means staying useful outside ideal setups, familiar roles, and comfortable routines - new tools, new teams, crisis mode, career pivots."
+key_concept: |
+  What made you strong in one room can make you weak in the next.
+  
+  Real competence means staying useful outside ideal setups, familiar roles, and comfortable routines - new tools, new teams, crisis mode, career pivots.
 examples:
   - "I walked the new counter before the lunch rush instead of defending last month's habits when the line got long."
   - "Our guard dominates on the outdoor court and looks lost on the slick indoor floor for a week - staying effective means adjusting footwork, not defending yesterday's surface."
@@ -36,9 +39,9 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "I walked the new counter before the lunch rush instead of defending last month's habits when the line got long."
-    back: "what made you strong in one room can make you..."
-  - front: "Our guard dominates on the outdoor court and looks lost on the slick indoor floor for a week"
-    back: "Not defending yesterday's surface"
+  - front: "New counter at work and lunch rush is tomorrow. I'm still defending last month's habits."
+    back: "Walk it first - adapt, don't defend."
+  - front: "I own the outdoor court but tonight's indoor floor is slick and I'm slipping everywhere."
+    back: "New footwork - don't defend yesterday."
 draft: false
 ---

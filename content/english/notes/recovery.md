@@ -2,7 +2,10 @@
 title: "Recovery"
 meta_title: "Recovery - Refill Before the Next Hard Push"
 description: "The sleep, rest, and downtime that refill what hard work drains - judgment, patience, attention."
-key_concept: "Recovery is sleep, rest, and downtime that refill judgment - not laziness, maintenance."
+key_concept: |
+  The sleep, rest, and downtime that refill what hard work drains - judgment, patience, attention.
+  
+  Recovery is sleep, rest, and downtime that refill judgment - not laziness, maintenance.
 examples:
   - "Elite athletes schedule rest days - muscle rebuilds off the field, not another heroic scrimmage."
   - "Three late nights made me snap at bedtime - recovery was stopping at ten instead of a fourth heroic hour that hurt everyone at breakfast."

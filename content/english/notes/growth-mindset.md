@@ -32,9 +32,9 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "I missed three free throws in a row at clinic. Growth mindset was ten minutes on form, not deciding I'd never shoot reliably in a game."
-    back: "skills can improve with practice"
-  - front: "The new barista burned three lattes on the steam wand. What's the move?"
-    back: "Not relabel her as \"not a coffee person.\""
+  - front: "Three free throws missed in a row at clinic. What's the trainable read?"
+    back: "Ten minutes on form - not 'never a shooter.'"
+  - front: "New barista burned three lattes on the steam wand. Trainer move?"
+    back: "One motion on repeat - not 'not a coffee person.'"
 draft: false
 ---

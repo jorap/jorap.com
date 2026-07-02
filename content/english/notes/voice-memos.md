@@ -3,8 +3,9 @@ title: "Voice Memos"
 meta_title: "Voice Memos"
 description: "[[Capture]] ideas by speaking when hands or eyes are busy."
 key_concept: |
-  Speak the capture when thumbs are busy - transcribe or file the audio before it vanishes.
+  Capture ideas by speaking when hands or eyes are busy.
   
+  Speak the capture when thumbs are busy - transcribe or file the audio before it vanishes.
   [[Mobile Capture Workflows]] and [[Capture]] - speak first, sort on review.
 examples:
   - "Driving between sites I voice-memo'd the supplier change - transcribed into the inbox when I parked."
@@ -29,13 +30,13 @@ featured: false
 review: true
 card_sets: ["Capture", "Workflow"]
 cards:
-  - front: "Driving between sites I voice-memo'd the supplier change"
-    back: "Parked"
-  - front: "Driving home from clinic I dictated the thought into the phone"
-    back: "Transcribed later into the inbox"
-  - front: "Walking off the field I dictated the fix for tomorrow's drill"
-    back: "Hands busy, idea captured before it evaporated"
-  - front: "Hands full of groceries, I dictated \"email teacher about field trip\" into the phone before I forgot in the door scramble."
-    back: "Capture ideas by speaking when hands or eyes are..."
+  - front: "Driving between sites and the supplier change just hit me."
+    back: "Voice memo now - transcribe when I park."
+  - front: "Driving home from clinic with a thought I can't write down."
+    back: "Dictate into phone - file on review."
+  - front: "Walking off the field and tomorrow's drill fix is in my head."
+    back: "Dictate before it evaporates."
+  - front: "Groceries in both hands and I need to email the teacher about the field trip."
+    back: "Voice memo at the door - before I forget."
 draft: false
 ---

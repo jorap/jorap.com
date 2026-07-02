@@ -2,7 +2,10 @@
 title: "Habit Formation"
 meta_title: "Habit Formation - Repeat Until Automatic"
 description: "Repeat a small move until it runs without debating it every morning."
-key_concept: Habit formation is practicing a move until it runs without a daily decision.
+key_concept: |
+  Repeat a small move until it runs without debating it every morning.
+  
+  Habit formation is practicing a move until it runs without a daily decision.
 examples:
   - "Same gym bag, same water bottle, same pre-game stretch - after thirty days I stop debating warm-up; the shoes by the door beat the habit app I never opened."
   - "Same door, same notebook, same pocket - after thirty days I stop debating capture; the pad by the keys beat the fancy app I never opened."
@@ -38,13 +41,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "Same gym bag, same water bottle, same pre-game stretch. What's the move?"
-    back: "after thirty days I stop debating warm-up; the."
-  - front: "Same door, same notebook, same pocket. What's the move?"
-    back: "after thirty days I stop debating capture; the."
-  - front: "I capture commute ideas on the same pocket notebook after locking the car"
-    back: "Repeat until it runs without a daily debate"
-  - front: "Gym shoes by the bed. What's the move? One check?"
-    back: "remove the decision; after a month the kid."
+  - front: "Same gym bag, same water bottle, same pre-game stretch every day. What's the point?"
+    back: "Repeat till warm-up runs without debate."
+  - front: "Keys by the door, notebook in the pocket - same spot every evening. What's forming?"
+    back: "Capture habit - no daily decision."
+  - front: "Commute ideas always hit the same pocket notebook after I lock the car. What's automatic now?"
+    back: "Capture without debating whether today."
+  - front: "Gym shoes by the bed every night. One check after thirty days?"
+    back: "Did the cue kill the daily debate?"
 draft: false
 ---

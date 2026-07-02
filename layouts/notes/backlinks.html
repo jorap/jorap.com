@@ -152,7 +152,7 @@
                     {{- end -}}
                     <span class="notes-backlinks-group__heading">
                       <span class="notes-backlinks-group__title">{{ $row.Page.Title }}</span>
-                      {{- with $row.Page.Description -}}
+                      {{- with partial "notes/note-blurb.html" (dict "Page" $row.Page) -}}
                         <span class="notes-backlinks-group__desc">{{ . }}</span>
                       {{- end -}}
                     </span>

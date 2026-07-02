@@ -32,13 +32,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "After the equipment cart tipped they traced storage layout and weight limits, not just \"trainer was clumsy.\""
-    back: "find system causes after a miss"
-  - front: "After the kitchen burn they traced pan placement and stove rules, not just \"kid wasn't careful.\""
-    back: "find system causes after a miss"
-  - front: "After the parking-lot fender bump they traced blind corners and signage, not only who to blame."
-    back: "find system causes after a miss"
-  - front: "After the tray spill they traced prep timing, not just \"server was clumsy.\""
-    back: "find system causes after a miss"
+  - front: "Equipment cart tipped and the standup wants to blame the trainer. What do we trace instead?"
+    back: "Storage layout and weight limits."
+  - front: "Kitchen burn happened and 'kid wasn't careful' is the whole story. What do we trace?"
+    back: "Pan placement and stove rules."
+  - front: "Parking-lot fender bump - everyone's naming the driver. What else gets traced?"
+    back: "Blind corners and signage."
+  - front: "Tray spill blamed on clumsy server. Blameless move?"
+    back: "Trace prep timing and station layout."
 draft: false
 ---

@@ -36,13 +36,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "My draft reply to the new team manager was technically right and needlessly harsh"
-    back: "And rewrote it"
-  - front: "The group chat pile-on about the neighbor's messy yard. What's the move?"
-    back: "Then said nothing mean"
-  - front: "My draft reply to a new cashier was technically right and needlessly harsh"
-    back: "I paused, asked how I'd want that correction."
-  - front: "I was about to snap at my kid over spilled milk. What's the move?"
-    back: "Want that mistake handled on my worst morning?"
+  - front: "Draft reply to new team manager - technically right, needlessly harsh. One pause before send?"
+    back: "How would I want that correction on my worst day?"
+  - front: "Group chat piling on the neighbor's messy yard. What's the move?"
+    back: "Ask how I'd want feedback - say nothing mean."
+  - front: "Draft reply to new cashier - sharp and correct. Rewrite check?"
+    back: "Say it how I'd want it on my worst shift."
+  - front: "About to snap at my kid over spilled milk. What comes first?"
+    back: "How would I want that mistake handled?"
 draft: false
 ---

@@ -33,13 +33,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Our team's playbook wiki still has last season's sets beside this year's"
-    back: "Not when the first version was supposed to be final"
-  - front: "Our block's little free library still has last year's craft books beside this year's swaps"
-    back: "Not when the first donation was supposed to be final"
-  - front: "The shop's procedure binder grows in public. What's the move?"
-    back: "crossed-out steps stay visible so new hires see."
-  - front: "My garden posts stay linked and imperfect. What's the move?"
-    back: "notes grow in public instead of rotting in."
+  - front: "Playbook wiki still has last season's sets beside this year's. Is the first version supposed to be final?"
+    back: "No - growing beats frozen."
+  - front: "Little free library has last year's craft books beside this month's swaps. Same shape as my garden?"
+    back: "Linked, imperfect, alive."
+  - front: "Shop procedure binder with crossed-out steps still visible for new hires. Why leave them?"
+    back: "Grow in public - history shows the edit."
+  - front: "Blog post feels too rough to publish because the links aren't perfect yet. Garden move?"
+    back: "Ship linked and imperfect."
 draft: false
 ---

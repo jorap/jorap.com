@@ -32,13 +32,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "I can't sprint bedtime-and-homework heroics five nights a row"
-    back: "sustainable performance is an earlier lights-out one night."
-  - front: "I stopped answering work email at midnight. What's the move?"
-    back: "Can repeat next month beats tonight's heroic reply"
-  - front: "Coffee gets you through one shift; sleep gets you through a season"
-    back: "sustainable performance isn't playing hurt three weeks straight."
-  - front: "The kitchen ran Friday pace five nights straight and quality slid by Wednesday"
-    back: "sustainable performance would've cut a night off instead."
+  - front: "Third straight night of bedtime-and-homework heroics and Thursday's melting down."
+    back: "Earlier lights-out tonight - pace I can repeat."
+  - front: "Thumb on work email at midnight again and tomorrow's already packed."
+    back: "Close the laptop - heroics don't scale."
+  - front: "Third coffee today and it's only Tuesday - eyelids already heavy at pickup."
+    back: "Sleep tonight - coffee buys one shift."
+  - front: "Kitchen ran Friday pace five nights and quality slid by Wednesday."
+    back: "Cut a night off - don't mortgage next week."
 draft: false
 ---

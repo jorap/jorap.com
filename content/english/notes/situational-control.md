@@ -30,13 +30,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "My sister and I were fighting past the kids' bedtime. What's the move?"
-    back: "situational control was a fifteen-minute break and a."
-  - front: "Down twelve at halftime, our captain called a timeout she didn't need"
-    back: "Not surrendering to their pace"
-  - front: "The meeting was going sideways. What's the move?"
-    back: "\" not letting the loudest voice own the room"
-  - front: "A good host ends the party before the stereo gets louder"
-    back: "They control the evening, not the loudest guest"
+  - front: "Fighting with my sister and the kids should've been asleep twenty minutes ago."
+    back: "Fifteen-minute break - pick up tomorrow."
+  - front: "Down twelve at halftime and they're running our pace. Captain's hand's up for timeout."
+    back: "Slow the game - don't match their tempo."
+  - front: "Meeting's sideways and the loudest voice owns the room."
+    back: "Reset agenda - my pace, not theirs."
+  - front: "Party's getting louder and I'm the host watching the stereo creep up."
+    back: "End it early - I set the evening."
 draft: false
 ---

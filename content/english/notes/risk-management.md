@@ -35,13 +35,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "I moved the bike rack off the blind corner before adding another mirror"
-    back: "Name what can go wrong, then pick the strong control"
-  - front: "We moved the hydration table off the sprint lane before buying more caution tape"
-    back: "Eliminate before manage"
-  - front: "We moved the hot oil station away from the walk lane before buying more warning signs"
-    back: "Eliminate before manage"
-  - front: "We moved the space heater off the rug before lecturing the kids again about not touching it."
-    back: "name what can go wrong"
+  - front: "Bike rack still on the blind corner - tempted to add another mirror first. What's the move?"
+    back: "Move the rack - eliminate before manage."
+  - front: "Hydration table still on the sprint lane - tempted to buy caution tape. Move?"
+    back: "Move the table - eliminate first."
+  - front: "Hot oil station on the walk lane - tempted to buy warning signs. Move?"
+    back: "Move the station - eliminate first."
+  - front: "Space heater on the rug - tempted to lecture the kids again. Move?"
+    back: "Move the heater - then teach."
 draft: false
 ---

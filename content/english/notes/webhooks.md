@@ -3,8 +3,9 @@ title: "Webhooks"
 meta_title: "Webhooks"
 description: "HTTP callbacks when something happens - push events instead of polling."
 key_concept: |
-  Push events beat polling when the site needs to rebuild the moment content lands in git.
+  HTTP callbacks when something happens - push events instead of polling.
   
+  Push events beat polling when the site needs to rebuild the moment content lands in git.
   [[Git-Based CMS]] and [[Free Tier Hosting Stack]] - push rebuild when markdown lands.
 examples:
   - "New appointment hits the calendar the second the patient submits - webhook beats staff polling the inbox every five minutes."
@@ -26,13 +27,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Form submit hits my script instantly instead of me refreshing the inbox every five minutes"
-    back: "HTTP callback when something happens"
-  - front: "New appointment hits the calendar the second the patient submits"
-    back: "webhook beats staff polling the inbox every five."
-  - front: "School alert webhook fires when the bus is late. What's the move?"
-    back: "push to my phone instead of refreshing the."
-  - front: "RSVP form submission pings the team chat instantly. What's the move?"
-    back: "push event instead of the manager refreshing the."
+  - front: "Refreshing the form inbox every five minutes waiting for submissions."
+    back: "Webhook on submit - push, don't poll."
+  - front: "Front desk keeps polling for new appointment submissions."
+    back: "Webhook to calendar - instant on submit."
+  - front: "Bus tracker tab open again - school alert should tell me when it's late."
+    back: "Webhook to my phone - close the tab."
+  - front: "Manager refreshing RSVP page every ten minutes before the event."
+    back: "Webhook to team chat - push on submit."
 draft: false
 ---

@@ -2,7 +2,10 @@
 title: "Integrity"
 meta_title: "Integrity - Alignment Between Claim and Action"
 description: "What you do matches what you claim - especially when it costs applause, speed, or comfort."
-key_concept: "Integrity is doing what you said matters when it costs something - not only when someone's watching."
+key_concept: |
+  What you do matches what you claim - especially when it costs applause, speed, or comfort.
+  
+  Integrity is doing what you said matters when it costs something - not only when someone's watching.
 examples:
   - "I could've counted a late hit as legal when the ref looked away - integrity is the same call whether anyone's watching or not."
   - "I could've scooped light on flour when the rush got loud - integrity is what you do matches what you claim, especially when it costs comfort."
@@ -29,13 +32,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "I could've counted a late hit as legal when the ref looked away"
-    back: "integrity is the same call whether anyone's watching."
-  - front: "I could've scooped light on flour when the rush got loud"
-    back: "Especially when it costs comfort"
-  - front: "A scale that reads honest when the customer isn't looking is integrity in hardware"
-    back: "Same weight whether anyone was watching or not"
-  - front: "The market scale stays honest when the seller steps away to take a call"
-    back: "That's the whole business"
+  - front: "Late hit that looked legal when the ref looked away. Same call if nobody watched?"
+    back: "Call it out - match claim and action."
+  - front: "Flour scoop light when the rush got loud and nobody would notice. Move?"
+    back: "Full scoop - costs comfort, keeps the claim."
+  - front: "Market scale honest when the customer steps around the corner. What's integrity here?"
+    back: "Full weight every time - claim matches action."
+  - front: "Tempted to round down the practice hours when nobody audits the sheet. Move?"
+    back: "Log the real hours - especially when it costs."
 draft: false
 ---

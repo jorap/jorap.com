@@ -22,14 +22,10 @@
         </div>
       </div>
 
-      <div class="notes-index-discover mb-10 grid gap-6 lg:grid-cols-2 lg:items-start lg:gap-8">
-        <div class="notes-index-discover__random min-w-0">
-          {{ partial "notes/featured-random-note.html" . }}
-        </div>
-        <div class="notes-index-discover__recent notes-recent-stack grid min-w-0 gap-6">
-          {{ partial "notes/recent-new.html" (dict "Context" . "Limit" 6) }}
-          {{ partial "notes/recent-updated.html" (dict "Context" . "Limit" 6) }}
-        </div>
+      <div class="notes-index-discover mb-10 grid gap-8">
+        {{ partial "notes/featured-random-note.html" . }}
+        {{ partial "notes/recent-new.html" (dict "Context" . "Limit" 6) }}
+        {{ partial "notes/recent-updated.html" (dict "Context" . "Limit" 6) }}
       </div>
 
       <div class="row justify-center">
@@ -127,6 +123,10 @@
             {{ range $notes }}
               {{- $rels := partial "notes/relationship-types.html" . -}}
               {{- $searchBits := slice .Title (.Description | default "") -}}
+              {{- $blurb := partial "notes/note-blurb.html" (dict "Page" .) -}}
+              {{- with $blurb -}}
+                {{- $searchBits = $searchBits | append . -}}
+              {{- end -}}
               {{- range (.Params.tags | default slice) -}}
                 {{- $searchBits = $searchBits | append . -}}
               {{- end -}}

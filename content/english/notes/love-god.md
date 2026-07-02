@@ -3,8 +3,9 @@ title: "Love God"
 meta_title: "Love God - The Greatest Commandment"
 description: "The greatest commandment Jesus named: love the Lord with all your heart, soul, mind, and strength (Matthew 22:37-38)."
 key_concept: |
-  When a scribe asked which commandment was first, Jesus quoted Deuteronomy 6:5 - whole-person devotion, not a corner of the week.
+  The greatest commandment Jesus named: love the Lord with all your heart, soul, mind, and strength (Matthew 22:37-38).
   
+  When a scribe asked which commandment was first, Jesus quoted Deuteronomy 6:5 - whole-person devotion, not a corner of the week.
   Heart (affections), soul (will and life), mind (thought), strength (effort). Under [[Free Grace]], this is the first call on a life already saved by faith - love flowing from grace received, not love offered as payment for eternal life.
 examples:
   - "Match day adrenaline isn't the same as opening my Bible on Thursday - whole-person love means I feed at least one faculty today."
@@ -33,11 +34,11 @@ cards:
   - front: "Sunday worship felt high but I haven't opened the Bible all week. Which part of whole-person love am I skipping?"
     back: "Mind - open Scripture today."
   - front: "Calendar full, prayer thin - reordering the day. What comes first?"
-    back: "Love God first - pray before inbox."
+    back: "Pray before inbox."
   - front: "Church checkbox ticked, heart still elsewhere. Move from going through motions to what?"
     back: "Love back - engage heart."
   - front: "About to snap at family right after worship. Which love comes first at home?"
-    back: "Love God first - then neighbor."
+    back: "God first - then neighbor."
   - front: "Morning fork: scroll or five minutes with God. One faculty to feed right now?"
     back: "Pick one - heart, soul, mind, or strength."
   - front: "Devotion feels vague - 'love God' with no next step. What's one move today?"

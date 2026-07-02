@@ -27,13 +27,13 @@ featured: false
 review: true
 card_sets: ["Writing", "Review"]
 cards:
-  - front: "My kid stared at a blank training log for twenty minutes"
-    back: "I told her to write one messy line."
-  - front: "The new hire couldn't start the report. What's the move?"
-    back: "I said write one ugly paragraph about yesterday's."
-  - front: "My daughter stared at a blank worksheet for twenty minutes"
-    back: "I told her to write one messy sentence."
-  - front: "I do the same when I'm stuck on a post. What's the move?"
-    back: "More capture won't unstick me"
+  - front: "Kid staring at a blank training log twenty minutes in. What's the unstick?"
+    back: "One messy line - ship it."
+  - front: "New hire frozen on the report first day. What do I tell them?"
+    back: "Write one ugly paragraph."
+  - front: "Daughter stuck on a blank worksheet and the pencil hasn't moved. Same move I use?"
+    back: "One messy sentence - start ugly."
+  - front: "Thousands of notes in the garden and I'm still staring at a blank post. Capture more?"
+    back: "No - one small ship action."
 draft: false
 ---

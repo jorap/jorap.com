@@ -3,8 +3,9 @@ title: "The 12 Week Year"
 meta_title: "The 12 Week Year - Quarterly Intensity for Projects"
 description: "Twelve-week years compress annual goals into quarters I actually feel. I map wiki projects to 12-week arcs."
 key_concept: |
-  Twelve-week arcs compress goals into review quarters you actually feel ([[Periodic Knowledge Review]]).
+  Tension with Slow Productivity when quarterly intensity beats fewer deeper projects.
   
+  Twelve-week arcs compress goals into review quarters you actually feel ([[Periodic Knowledge Review]]).
   Tension with [[Slow Productivity]] when quarterly intensity beats fewer deeper projects.
 examples:
   - "Twelve-week sprint on one fitness goal beat a vague annual resolution."
@@ -30,13 +31,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "\"Fix our free-throw rate\" lived as a someday goal until I gave it twelve weeks and a scoreboard on the locker"
-    back: "Week ten finally bit"
-  - front: "\"Hire and train\" was vague until the twelve-week arc had weekly numbers"
-    back: "Actually feel, not January 1st fiction"
-  - front: "The wiki refactor got a twelve-week arc instead of \"when I have time\""
-    back: "Could see closing"
-  - front: "I'd been treating \"clear the garage\" like a someday project"
-    back: "Week ten the boxes finally moved"
+  - front: "\"Fix free-throw rate\" lived on my someday list until I put twelve weeks on the locker scoreboard."
+    back: "Week ten finally bit."
+  - front: "\"Hire and train\" was vague until the twelve-week arc had weekly numbers."
+    back: "Feel the quarter - not January fiction."
+  - front: "Wiki refactor's been 'when I have time' for a year."
+    back: "Twelve-week arc - weekly numbers on the board."
+  - front: "Garage clear-out's a someday project again."
+    back: "Twelve weeks - boxes move by week ten."
 draft: false
 ---

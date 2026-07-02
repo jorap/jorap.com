@@ -35,13 +35,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "I wouldn't let my kid do a backflip off the couch because she asked twice"
-    back: "Don't hide behind consent when the move is reckless"
-  - front: "The coach who said \"they signed the waiver\" after a near-drown wasn't coaching"
-    back: "he dodged Duty of Care when the drill."
-  - front: "The swim instructor kept pushing breath-hold games after a kid panicked"
-    back: "\"parent consented\" doesn't erase the job of picking."
-  - front: "The gym sold a dangerous cleanse because customers clicked agree"
-    back: "coaching ethics means you still owe reasonable protection."
+  - front: "Kid asked twice to backflip off the couch and I'm tempted to say yes. Consent enough?"
+    back: "No - reckless move stays off limits."
+  - front: "Coach shrugs \"they signed the waiver\" after a near-drown. What's he dodging?"
+    back: "Duty of care when the drill's unsafe."
+  - front: "Swim instructor pushing breath-hold games after a kid panicked. \"Parent consented\" enough?"
+    back: "Still my job to pick safe drills."
+  - front: "Gym selling a dangerous cleanse because customers clicked agree. Still owe them what?"
+    back: "Reasonable protection - consent isn't cover."
 draft: false
 ---

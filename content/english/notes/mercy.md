@@ -56,7 +56,7 @@ cards:
   - front: "Someone who wronged me needs help on the road. First merciful move?"
     back: "Act - mercy shows up in the body."
   - front: "About to quote their failure online. What did I need from God first?"
-    back: "Mercy first - I'm not their final judge."
+    back: "Release the debt - I'm not final judge."
   - front: "Beatitude check after a sharp reply. What do the merciful obtain?"
     back: "Show mercy - merciful obtain mercy."
   - front: "Coworker apologizes again for the same mistake. Still counting?"

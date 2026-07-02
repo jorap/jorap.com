@@ -12,30 +12,36 @@ description: >-
 
 # Flashcards
 
-Flashcards are a **drill lane beside the wiki** - not a second copy of the note. The wiki holds linked understanding; cards wire **life's cue → recall principle → act immediately**.
+Flashcards are a **drill lane beside the wiki** - not a second copy of the note. The wiki holds linked understanding; cards wire **life's cue → move** so the right default is already loaded when the moment hits.
 
 Only ~20% of notes (spine habits + gospel cluster) carry cards. Full spec: `content/english/notes/flashcards.md`. Reference decks: `capture.md`, `free-grace.md`, `the-golden-rule.md`.
 
-**Voice:** Always load and follow [jorap-voice](../jorap-voice/SKILL.md). Cards are first-person drill cues - same plain, lived-in tone as the notes garden, not Anki boilerplate. Vocabulary rules live in jorap-voice.
+**Voice:** Always load and follow [jorap-voice](../jorap-voice/SKILL.md). Cards are first-person drill cues - same plain, lived-in tone as the notes garden, not Anki boilerplate. **flashcards skill owns cue→apply shape; jorap-voice owns word choice.** Vocabulary rules live in jorap-voice.
 
-## North star - recall and apply in real life
+## North star - the right move is already loaded
 
-Every card trains one chain:
+**Governing slogan:** Cards exist so the right move is already loaded when life shows up.
+
+**Litmus test (use this when writing or auditing):** Read only the front. Could this exact moment happen this week? Cover the back — do you know what to **do or decide right now**, without opening the garden?
+
+Review practice exists so **when the front happens tomorrow**, the back fires in real life. Success is not passing `/notes/review/` — success is acting correctly in the next five seconds.
+
+**Teaching chain** (explains the shape; drilled cards usually skip the middle step):
 
 ```
-Life shows up (cue)  →  I recall the principle  →  I do the next right thing now
+Cue  →  [pause]  →  move
 ```
 
-Review practice exists so that **when the front happens tomorrow**, the back fires without opening the garden. Success is not passing `/notes/review/` - success is acting correctly in the next five seconds of real life.
-
-**Real-life litmus test:** Read only the front. Could this exact moment happen this week? Cover the back - do you know what to **do or decide right now**, not what to study later?
+- **PKM / workflow:** `cue → move` — recognize the fork, do the procedure.
+- **Gospel / impulse / conflict:** `cue → pause → move` — interrupt the default script, then act.
+- **Habit you're breaking:** beat the **default move** — you already know the answer; the card preloads the override.
 
 | Part | Role | Write it as |
 |------|------|-------------|
-| **Front** | Life's cue - recognize the moment | Present tense, mid-action, sensory or emotional (`thumb on post button`, `inbox at 40`, `guilt after snapping`) |
-| **Back** | Immediate apply - principle compressed into action | Imperative or decision (`Pray for them.`, `One inbox. Don't organize.`, `Kingdom first - Scripture before inbox.`) |
+| **Front** | Life's cue — recognize the moment | Present tense, first person, mid-action (`thumb on post button`, `inbox at 40`, `guilt after snapping`) |
+| **Back** | Immediate move — do, decide, or say in one breath | Imperative or decision (`Pray for them.`, `One inbox. Don't organize.`, `Kingdom first — Scripture before inbox.`) |
 
-The back can name a principle **only if it IS the immediate move** - e.g. `"Kingdom first."` redirects the next ten minutes. Avoid backs that explain without directing.
+The back can name a principle **only if it IS the immediate move** — e.g. `"Kingdom first."` redirects the next ten minutes. Avoid backs that explain without directing. Never split an `examples:` sentence across front/back — that's re-reading, not retrieval.
 
 ## Goals - what flashcards are for
 
@@ -79,6 +85,7 @@ Wiki = nuance. Cards = spine habits (~20%) you drill weekly so the chain is auto
 
 ## Anti-goals
 
+- **Example-split cards** - front/back fragments copied from `examples:`; re-reading, not retrieval
 - **Review-only recall** - passes in Anki, never fires in life (cue too abstract)
 - **Principle without apply** - backs that teach but don't direct the next move
 - **Definitions, trivia, verse fill-in-the-blank**
@@ -101,7 +108,7 @@ Wiki = nuance. Cards = spine habits (~20%) you drill weekly so the chain is auto
 5. **Draft cue → apply pairs** - front = recognize; back = do/decide now. Optional subtle hint question on the front (`One check?`, `What comes first?`) when the back is a specific check, filter, or order (see [examples.md](examples.md)).
 6. **De-AI pass (jorap-voice + vocab)** - read each front aloud. Would JoRap actually think this mid-commute, mid-argument, inbox at 40? Cut textbook phrasing, abstract nouns, and third-person setup. Swap any word you wouldn't say to a friend mid-rush (`utilize` → `use`, `repository` → `inbox`, `facilitate` → `help`). Backs stay short imperatives - no essays.
 7. **Real-life litmus** - for each card: *If this front happened tonight, would I know the back without opening the site?*
-8. **Pick `card_sets`**, validate with `npm run lint:cards` and `npm run lint:voice`.
+8. **Pick `card_sets`**, validate with `npm run lint:cards`, `npm run audit:cards`, and `npm run lint:voice`.
 
 ### Scaffold
 
@@ -222,7 +229,7 @@ Each card:
 - [ ] Plain words only - no jargon or thesaurus words you wouldn't say out loud
 - [ ] Front is cue only - no multiple choice (`X, Y, or Z?`, `A or B?` on the front)
 - [ ] Subtle hint question OR pure cue-only - never telegraphy; front longer than back; one move on back
-- [ ] `npm run lint:cards` and `npm run lint:voice` pass
+- [ ] `npm run lint:cards`, `npm run audit:cards`, and `npm run lint:voice` pass
 
 Deck:
 
@@ -233,6 +240,7 @@ Deck:
 
 ```bash
 npm run lint:cards
+npm run audit:cards
 npm run lint:voice
 ```
 

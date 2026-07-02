@@ -2,7 +2,10 @@
 title: "Own the Error"
 meta_title: "Own the Error - Accountability Turns Failure Into Information"
 description: "Accountability turns failure into information."
-key_concept: "Name the mistake clearly, find what caused it, repair what broke, and change the process that let it through - not blame theater, not quiet hope it vanishes."
+key_concept: |
+  Accountability turns failure into information.
+  
+  Name the mistake clearly, find what caused it, repair what broke, and change the process that let it through - not blame theater, not quiet hope it vanishes.
 examples:
   - "I sent the wrong attachment and named it in the reply thread before anyone else had to."
   - "The point guard called the bad pass out loud in the huddle - next play trusted faster."

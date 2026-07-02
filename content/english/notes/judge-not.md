@@ -12,7 +12,7 @@ examples:
 relationships:
   - type: contradicts
     wikilink: "[[Humility and Service]]"
-    reason: "when I critique others to elevate myself"
+    reason: "when I critique others to lift myself up"
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "You stood on mercy first, so you don't condemn others like you're their final judge"

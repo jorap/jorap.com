@@ -51,17 +51,17 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Faith"]
 cards:
-  - front: "Friend at coffee lists good deeds as their heaven ticket. What does grace give?"
+  - front: "Friend at coffee lists good deeds as their heaven ticket. What do I trust for eternal life?"
     back: "Gift through faith - not wages for deeds."
-  - front: "Good week makes me feel qualified for heaven. What kind of favor am I actually standing on?"
-    back: "Grace - favor I didn't earn."
+  - front: "Good week makes me feel qualified for heaven. What kind of favor am I standing on?"
+    back: "Favor I never earned - gift through faith."
   - front: "Obedience after conversion - what's driving it?"
-    back: "Live gratefully - grace already gave."
-  - front: "Head says perform before God accepts me. Grace entry point?"
+    back: "Live gratefully - the gift already landed."
+  - front: "Head says perform before God accepts me. Entry point?"
     back: "Trust Christ - not my report card."
   - front: "Bad week and panic that heaven access revoked. What still holds?"
-    back: "Grace settled standing - confess, keep walking."
-  - front: "Ephesians 2 pairs mercy and grace in one rescue. Which one names the gift?"
-    back: "Grace saves - mercy spared wrath first."
+    back: "Standing settled - confess, keep walking."
+  - front: "Ephesians 2 pairs mercy and the gift in one rescue. Which one names what I receive?"
+    back: "The gift saves - mercy spared wrath first."
 draft: false
 ---

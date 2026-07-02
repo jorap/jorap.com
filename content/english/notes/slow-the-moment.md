@@ -2,7 +2,10 @@
 title: "Slow the Moment"
 meta_title: "Slow the Moment - Urgency Shouldn't Erase Judgment"
 description: "Pressure creates urgency, but urgency shouldn't erase judgment."
-key_concept: "Before you react, buy enough mental space to understand what's happening, weigh consequences, and choose on purpose - not on adrenaline."
+key_concept: |
+  Pressure creates urgency, but urgency shouldn't erase judgment.
+  
+  Before you react, buy enough mental space to understand what's happening, weigh consequences, and choose on purpose - not on adrenaline.
 examples:
   - "Cut off in traffic, my first instinct matched horn for horn - slow the moment was one breath before I became the driver I hate."
   - "Before the free throw with the game on the line, the shooter took one breath - slow the moment bought the routine instead of the panic heave."
@@ -57,9 +60,9 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Cut off in traffic, my first instinct matched horn for horn"
-    back: "Became the driver I hate"
-  - front: "Before the free throw with the game on the line, the shooter took one breath"
-    back: "slow the moment bought the routine instead of."
+  - front: "Cut off in traffic and my hand's already on the horn."
+    back: "One breath - don't become that driver."
+  - front: "Free throw to win it and my chest is thumping."
+    back: "One breath - run the routine."
 draft: false
 ---

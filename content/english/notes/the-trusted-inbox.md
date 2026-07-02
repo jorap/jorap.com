@@ -3,8 +3,9 @@ title: "The Trusted Inbox"
 meta_title: "The Trusted Inbox - One Place I'll Actually Empty"
 description: "If I don't trust my inbox, I capture in my head instead. One pipe, weekly empty, no exceptions."
 key_concept: |
-  If you don't trust your inbox, you capture in your head instead of using capture ([[Capture]]).
+  If I don't trust my inbox, I capture in my head instead. One pipe, weekly empty, no exceptions.
   
+  If you don't trust your inbox, you capture in your head instead of using capture ([[Capture]]).
   Tension with [[Mobile Capture Workflows]] when one trusted pipe beats frictionless capture everywhere.
 examples:
   - "We kept one bowl by the door for keys, papers, receipts - two bowls meant I'd hold things in my head instead."

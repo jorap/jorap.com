@@ -26,13 +26,13 @@ featured: false
 review: true
 card_sets: ["Linking", "Review"]
 cards:
-  - front: "I sorted our drill notes by link rank and three warm-up routines had zero arrows to anything else"
-    back: "That gap list was my fix-this-week, not decoration"
-  - front: "I laid out the shift handoff chart and three tasks had zero arrows to an owner"
-    back: "Not a pretty poster"
-  - front: "I laid out the kids' chore chart and three jobs had zero arrows to anything else"
-    back: "That gap list was my fix-this-week"
-  - front: "My notes graph showed five orphans with no inbound links"
-    back: "Forgot to connect, not sci-fi wallpaper"
+  - front: "Sorted drill notes by link rank - three warm-up routines with zero arrows out. What do I fix this week?"
+    back: "Gap list - link them or cut them."
+  - front: "Shift handoff chart laid out - three tasks with zero arrows to an owner. What's the orphan list for?"
+    back: "Fix-this-week - assign owners now."
+  - front: "Kids' chore chart on the wall - three jobs with no arrows to anything. Nobody knows who checks. One move?"
+    back: "Gap list - name the checker this week."
+  - front: "Notes graph shows five orphans with no inbound links. One move before I close the tab?"
+    back: "Link them in - forgot to connect."
 draft: false
 ---

@@ -32,9 +32,9 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "After practice I told the kid who boxed out every drill: \"Your rebounds won that scrimmage"
-    back: "keep sealing like that.\" He knew exactly what."
-  - front: "I emailed the intern: \"You caught the duplicate invoice before I did"
-    back: "that saved us a call.\" Specific beats a."
+  - front: "Kid boxed out every drill at practice. What do I say out loud?"
+    back: "Name the rebound - say what to repeat."
+  - front: "Intern caught the duplicate invoice before I did. What goes in the email?"
+    back: "Spell the catch - specific thanks."
 draft: false
 ---

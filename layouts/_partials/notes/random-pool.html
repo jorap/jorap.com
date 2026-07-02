@@ -4,6 +4,10 @@
 {{- $notes := partial "notes/pages.html" . -}}
 {{- $pool := slice -}}
 {{- range $notes -}}
-  {{- $pool = $pool | append (dict "url" .RelPermalink "title" .Title) -}}
+  {{- $pool = $pool | append (dict
+    "url" .RelPermalink
+    "title" .Title
+    "description" (partial "notes/note-blurb.html" (dict "Page" .))
+  ) -}}
 {{- end -}}
 {{- return $pool -}}

@@ -29,13 +29,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "I stopped the backyard wrestling match when someone was about to get hurt"
-    back: "Even though the kids wanted the rougher version"
-  - front: "The coach killed the unsafe trust-fall drill when a safer team exercise achieved the same bonding goal"
-    back: "Not to win at their expense"
-  - front: "The manager killed the unsafe team-building exercise when a safer option achieved the same goal."
-    back: "authority used to protect people and tell the truth"
-  - front: "Our building admin reported the broken stair rail to the owner instead of scheduling another photo day on it"
-    back: "Not protect the event"
+  - front: "Backyard wrestling getting rough and someone's about to get hurt. Kids want the rougher version. Stop?"
+    back: "Yes - protect people, not the win."
+  - front: "Unsafe trust-fall drill on the schedule but a safer exercise hits the same bonding goal. Kill it?"
+    back: "Yes - authority protects, not endangers."
+  - front: "Manager picking between unsafe team-building and a safer option that works. Which is ethical leadership?"
+    back: "Safer option - truth over spectacle."
+  - front: "Broken stair rail and the owner wants another photo day on it instead of a repair report. My move?"
+    back: "Report the hazard - protect people."
 draft: false
 ---

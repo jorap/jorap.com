@@ -2,7 +2,10 @@
 title: "Leadership"
 meta_title: "Leadership - Setting Direction and Pace for Others"
 description: "You take responsibility for direction, pace, and care when people look to you - title optional."
-key_concept: "Leadership is taking responsibility for direction, pace, and care when others look to you."
+key_concept: |
+  You take responsibility for direction, pace, and care when people look to you - title optional.
+  
+  Leadership is taking responsibility for direction, pace, and care when others look to you.
 examples:
   - "Our line cook never got named manager; leadership was calm voice, who goes where, and nobody blaming while the extinguishers were still out."
   - "The blackout hit our block and one neighbor set pace - who checks on elders, who handles the generator - direction and care when people look to you."
@@ -29,13 +32,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "When the gym alarm went off, someone pointed to exits and counted heads"
-    back: "Leadership was calm voice and who goes where"
-  - front: "When the kitchen catches fire, someone points to exits and counts heads"
-    back: "Title optional"
-  - front: "Our line cook never got named manager; leadership was calm voice, who goes where, and nobody blaming while the extinguishers were still out."
-    back: "you take responsibility for direction"
-  - front: "The blackout hit our block and one neighbor set pace. What's the move?"
-    back: "Direction and care when people look to you"
+  - front: "Gym alarm going off - nobody has a title but people are looking around. First move?"
+    back: "Point to exits - count heads, calm voice."
+  - front: "Kitchen smoke and everyone's frozen. No title on my shirt - what do I take?"
+    back: "Direction and pace - who goes where."
+  - front: "Line cook never named manager but she's counting heads by the extinguishers. What's that?"
+    back: "Take responsibility - calm voice, no blame spiral."
+  - front: "Blackout on our block and neighbors looking for pace. What do I set?"
+    back: "Who checks elders - who handles the generator."
 draft: false
 ---

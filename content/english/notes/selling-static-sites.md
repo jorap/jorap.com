@@ -56,9 +56,9 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Neighbor asked for a portfolio. What's the move? One check?"
-    back: "quoted build plus domain; hosting on Cloudflare free."
-  - front: "Pastor wanted a sermon archive. What's the move?"
-    back: "static fit; said no to member login and."
+  - front: "Neighbor wants a portfolio site and asks what hosting costs monthly. One thing I quote?"
+    back: "Build fee plus domain - free tier hosting."
+  - front: "Pastor wants sermon archive plus member login and comments. One scope call?"
+    back: "Brochure plus archive - no login."
 draft: false
 ---

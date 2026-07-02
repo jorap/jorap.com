@@ -8,7 +8,7 @@ categories: ["Website", "Tutorial"]
 author: "JoRap"
 tags: ["Hugo CMS", "Markdown", "Shortcodes", "Frontmatter", "Blog Template", "Hugo", "Content Management", "Static Sites", "Web Development"]
 slug: "blog-template"
-# related_notes:  # optional; exclusive note slugs — skips auto tag/mention matching
+# related_notes:  # optional; exclusive note slugs - skips auto tag/mention matching
 #   - digital-garden
 featured: false
 draft: true

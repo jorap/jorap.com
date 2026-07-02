@@ -3,8 +3,9 @@ title: "Self-Control"
 meta_title: "Self-Control - Choosing the Next Move on Purpose"
 description: "You choose the next move instead of the urge choosing for you."
 key_concept: |
-  [[Fruits of the Spirit]] lists self-control as one trait the Spirit grows in believers - gospel fruit, not a merit streak.
+  You choose the next move instead of the urge choosing for you.
   
+  [[Fruits of the Spirit]] lists self-control as one trait the Spirit grows in believers - gospel fruit, not a merit streak.
   This note is the general skill: close the app, sleep on the reply, stick to the list. Same word, different job unless the Spirit is doing the growing.
 examples:
   - "My thumb hovered over a snarky reply in the pickup-line group chat - self-control was close the app and answer when I wasn't drunk on cortisol."

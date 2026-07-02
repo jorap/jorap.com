@@ -3,8 +3,9 @@ title: "Spaced Repetition"
 meta_title: "Spaced Repetition - Remember What You Chose"
 description: "Review facts on a schedule before I forget - for recall, not whole essays."
 key_concept: |
-  Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for.
+  Review facts on a schedule before I forget - for recall, not whole essays.
   
+  Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for.
   Whole essays don't belong on flashcards. The wiki holds understanding; Anki or SRS apps hold drill - separate lanes, algorithm handles timing. In this garden, spine notes (~20%, [[Pareto Principle]]) opt in with `review: true` - PKM habit prompts and [[Eternal Principles]] gospel cards share the same drill lane via `card_sets`. [[Ask Seek Knock]] is the faith-side version: keep asking on rhythm, not cram once.
 examples:
   - "I do the same with note cards on capture and gospel lines - review on a schedule before I forget, not one marathon session."
@@ -33,17 +34,17 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "I do the same with note cards on capture and gospel lines"
-    back: "Forget, not one marathon session"
-  - front: "We drill the baseline out-of-bounds play five minutes before every practice"
-    back: "same little doses beat cramming it the night."
-  - front: "The new hire's product codes live on a card by the register"
-    back: "five reps during slow shifts beat one frantic."
-  - front: "My kid's spelling list lives on the fridge; we hit five words while rice cooks"
-    back: "same little doses beat cramming the night before."
-  - front: "Mid-week moment where spaced repetition should've fired. What's the move?"
-    back: "review facts on a schedule before I forget"
-  - front: "Pressure rising and I'm about to skip this principle. One move?"
-    back: "review facts on a schedule before I forget"
+  - front: "Tempted to cram every capture and gospel card into one long Sunday session."
+    back: "Five cards today. Same time tomorrow."
+  - front: "New spine note landed and I want to marathon-review the whole deck tonight."
+    back: "Short reps on rhythm - not one binge."
+  - front: "Kid's spelling quiz is tomorrow and I haven't opened the list all week."
+    back: "Five words now while rice cooks - not cram at midnight."
+  - front: "Friday inbox clear but I skipped note review all week again."
+    back: "Open /notes/review/ - ten minutes, then stop."
+  - front: "Pressure rising and I'm about to skip today's card drill. One move?"
+    back: "Ten minutes now - rhythm beats cramming later."
+  - front: "Anki export sitting untouched while I tell myself I'll batch-review someday."
+    back: "Review on schedule before I forget - not one marathon later."
 draft: false
 ---

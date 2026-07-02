@@ -33,9 +33,9 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Church volunteer won't open a terminal. What's the move?"
-    back: "Cloudflare rebuilds on save"
-  - front: "I added Decap for a client who insisted on \"WordPress-like\""
-    back: "Still cheaper than hosted WordPress long term"
+  - front: "Church volunteer won't open a terminal but needs to edit announcements. What's the middle path?"
+    back: "Git CMS on the repo - Cloudflare rebuilds on save."
+  - front: "Client insists on WordPress feel for blog posts only. Honest scope - what's still true?"
+    back: "Decap on the repo - still markdown, still cheaper long term."
 draft: false
 ---

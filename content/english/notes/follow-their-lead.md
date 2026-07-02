@@ -32,9 +32,9 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "My teammate wanted to run a inbound play I'd never seen"
-    back: "Critique second"
-  - front: "A coworker walked me through how she tracks patient callbacks"
-    back: "I watched the whole spreadsheet before I offered."
+  - front: "Teammate wants to run an inbound play I've never seen. Finger itching to correct. First move?"
+    back: "Run it once - connection before critique."
+  - front: "Coworker walks me through her patient callback spreadsheet. Columns look wrong. First move?"
+    back: "Watch the whole flow before I reorder."
 draft: false
 ---

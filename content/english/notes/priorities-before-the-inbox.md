@@ -29,11 +29,11 @@ card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Game film due Friday but parent group chats are pinging. What do I protect first?"
     back: "Cut film first - chats wait."
-  - front: "The report was due at noon. What's the move?"
-    back: "Wrote the first page before opening Slack"
-  - front: "Tuesday before school, phone buzzing and lunches on the counter"
-    back: "Answer messages from a morning that already moved"
-  - front: "Oil change before the road trip. What's the move? One check?"
-    back: "Booked the slot before scrolling neighborhood drama"
+  - front: "Report due at noon and Slack is glowing. What's the move?"
+    back: "First page before I open Slack."
+  - front: "Tuesday before school - phone buzzing, lunches still on the counter. What comes first?"
+    back: "Lunches and bags - then messages."
+  - front: "Road trip Friday and I still haven't booked the oil change. One check?"
+    back: "Book the slot before I scroll drama."
 draft: false
 ---

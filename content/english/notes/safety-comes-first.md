@@ -32,13 +32,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "A teammate wanted to play through a head hit. What's the move?"
-    back: "I didn't \"support his call\"; I got the."
-  - front: "A coworker wanted to skip the lockout tag on a jammed machine"
-    back: "Then we troubleshoot together"
-  - front: "A friend was too drunk to drive and insisted he was fine"
-    back: "I took the keys and called a ride.."
-  - front: "My kid wanted to ride in the truck bed on a bumpy road. What's the move?"
-    back: "We couldn't pick the hospital route"
+  - front: "Teammate wants to play through a head hit. What's the move?"
+    back: "Get the trainer - stop the play."
+  - front: "Coworker wants to skip lockout tag on a jammed machine. Move?"
+    back: "Tag out first - then troubleshoot."
+  - front: "Friend too drunk to drive and insists he's fine. Move?"
+    back: "Take keys - call a ride."
+  - front: "Kid wants truck bed on a bumpy road. Where does choice end?"
+    back: "Seatbelt - not hospital route."
 draft: false
 ---

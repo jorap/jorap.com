@@ -2,7 +2,10 @@
 title: "Digital Serendipity"
 meta_title: "Digital Serendipity - Stumbling on Your Own Ideas"
 description: "Serendipity isn't luck for me - I build systems where old notes surprise me at the right time."
-key_concept: "Serendipity isn't random luck for me - it's building a system where old notes surprise me at the right time."
+key_concept: |
+  Serendipity isn't luck for me - I build systems where old notes surprise me at the right time.
+  
+  Serendipity isn't random luck for me - it's building a system where old notes surprise me at the right time.
 examples:
   - "Random note resurfaced a wikilink I'd forgotten - led to a blog post I'd stalled."
   - "The graph view showed an orphan I'd written two years ago - perfect intro for today's draft."

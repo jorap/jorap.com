@@ -3,8 +3,9 @@ title: "Secret Devotion"
 meta_title: "Secret Devotion - For the Father's Eyes Alone"
 description: "Give, pray, and fast for the Father's eyes - not to be seen by people (Matthew 6:1-18)."
 key_concept: |
-  Jesus brackets the [[Ask Seek Knock]] with the same warning: religious performance for an audience is its own reward.
+  Give, pray, and fast for the Father's eyes - not to be seen by people (Matthew 6:1-18).
   
+  Jesus brackets the [[Ask Seek Knock]] with the same warning: religious performance for an audience is its own reward.
   Secret devotion pairs with [[Ask Seek Knock]] (how to pray) and contrasts [[Let Your Light Shine]] - some good works shine publicly for God's glory; other devotion stays hidden so the left hand doesn't know what the right is doing. [[Free Grace]] means I'm not earning visibility points with God.
 examples:
   - "I pray with the kids before bed with the door closed - no photo, no caption, just the Father who already knows we're here."

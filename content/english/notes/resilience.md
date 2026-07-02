@@ -2,7 +2,10 @@
 title: "Resilience"
 meta_title: "Resilience - Bounce and Stay Useful"
 description: "You take the hit, recover, and stay useful - not pretend the hit didn't hurt."
-key_concept: Resilience is absorbing setback without quitting or becoming useless to the people counting on you.
+key_concept: |
+  You take the hit, recover, and stay useful - not pretend the hit didn't hurt.
+  
+  Resilience is absorbing setback without quitting or becoming useless to the people counting on you.
 examples:
   - "Commute delays wrecked my morning three days straight - I left earlier Thursday instead of cursing the traffic and showing up late again."
   - "Our Saturday rush blew up - honest huddle, quiet week, smaller menu, not acting like Friday never happened."
@@ -29,9 +32,9 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Commute delays wrecked my morning three days straight. What's the move?"
-    back: "I left earlier Thursday instead of cursing the."
-  - front: "We lost the semifinal, had an honest huddle, rested a week, came back with a simpler game plan"
-    back: "Not rage-quitting mid-season"
+  - front: "Commute delays wrecked my morning three days straight. What's the move Thursday?"
+    back: "Leave earlier - stop cursing traffic."
+  - front: "Semifinal loss - honest huddle, quiet week, simpler plan. What's the move?"
+    back: "Come back - don't rage-quit mid-season."
 draft: false
 ---

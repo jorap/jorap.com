@@ -32,13 +32,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "The clinic kept copying a corporate onboarding script until someone asked what problem we're actually solving"
-    back: "Strip borrowed moves down to what this team lacks"
-  - front: "My kid's coach kept quoting a YouTube drill until I asked what problem we're actually solving"
-    back: "Turns out we needed passing, not fancy footwork"
-  - front: "I kept quoting parenting advice from a podcast until I wrote what I actually believe about bedtime"
-    back: "Not someone else's quote"
-  - front: "The HOA kept adding signs about parking until a neighbor asked why people park wrong"
-    back: "Not five new rules"
+  - front: "Clinic keeps copying a corporate onboarding script. One question before we adopt another page?"
+    back: "What problem are we actually solving?"
+  - front: "Coach keeps quoting a YouTube drill. One question before next practice?"
+    back: "What skill gap are we actually fixing?"
+  - front: "Parenting podcast quote pasted into my bedtime note again. What's missing?"
+    back: "Write what I actually believe from scratch."
+  - front: "HOA wants a fifth parking sign. One question before we add another?"
+    back: "Why do people park wrong - fix that first."
 draft: false
 ---

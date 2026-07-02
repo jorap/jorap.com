@@ -29,13 +29,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Article on the jeepney route change → Share → inbox. What's the move?"
-    back: "Can't stop and type"
-  - front: "Recipe from the school group chat → Share → grocery list"
-    back: "one tap before three kids pulled me away."
-  - front: "Halftime clip of the broken play → Share → Notes. What's the move?"
-    back: "Saw"
-  - front: "The supplier email with the corrected invoice → Share → my task app"
-    back: "Closed the browser and lost it"
+  - front: "Jeepney article on the route change - can't stop and type. Capture move?"
+    back: "Share sheet into inbox - one tap."
+  - front: "School group recipe just dropped and three kids need me. Fastest capture?"
+    back: "Share to grocery list - one tap."
+  - front: "Halftime and I spotted the broken play on film. Phone in hand before second half starts."
+    back: "Share clip to Notes - capture now."
+  - front: "Corrected invoice sitting in email and I'm about to close the browser tab."
+    back: "Share to task app - don't lose it."
 draft: false
 ---
