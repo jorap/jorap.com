@@ -41,12 +41,12 @@
   @apply prose-hr:border-divider;
   @apply prose-p:text-base prose-p:text-ink-muted;
   @apply prose-blockquote:rounded-lg prose-blockquote:border prose-blockquote:border-accent/25 prose-blockquote:bg-elevated prose-blockquote:px-8 prose-blockquote:py-10 prose-blockquote:font-primary prose-blockquote:text-2xl prose-blockquote:not-italic prose-blockquote:text-ink;
-  @apply prose-pre:rounded-lg prose-pre:bg-elevated;
+  @apply prose-pre:rounded-lg prose-pre:bg-elevated prose-pre:max-w-full prose-pre:overflow-x-auto;
   @apply prose-code:px-1 prose-code:text-accent;
   @apply prose-strong:text-ink;
   @apply prose-a:text-ink-muted prose-a:underline prose-a:hover:text-accent;
   @apply prose-li:text-ink-muted;
-  @apply prose-table:relative prose-table:overflow-hidden prose-table:rounded-lg prose-table:before:absolute prose-table:before:left-0 prose-table:before:top-0 prose-table:before:h-full prose-table:before:w-full prose-table:before:rounded-[inherit] prose-table:before:border prose-table:before:border-divider prose-table:before:content-[""];
+  @apply prose-table:relative prose-table:block prose-table:max-w-full prose-table:overflow-x-auto prose-table:rounded-lg prose-table:before:absolute prose-table:before:left-0 prose-table:before:top-0 prose-table:before:h-full prose-table:before:w-full prose-table:before:rounded-[inherit] prose-table:before:border prose-table:before:border-divider prose-table:before:content-[""] prose-table:before:pointer-events-none;
   @apply prose-thead:border-divider prose-thead:bg-elevated;
   @apply prose-th:relative prose-th:z-10 prose-th:px-4 prose-th:py-[18px] prose-th:text-ink;
   @apply prose-tr:border-divider;

@@ -205,6 +205,26 @@ html.dark .content b {
   border-radius: 0.25rem;
   padding: 0.125em 0.35em;
   font-size: 0.875em;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.content.notes-content pre {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.content.notes-content pre code {
+  word-break: normal;
+  overflow-wrap: normal;
+}
+
+.notes-issues__item {
+  overflow-wrap: anywhere;
+}
+
+.notes-issues__item code {
+  word-break: break-word;
 }
 
 /* Prose tables: flat rows, borders only — no header band or zebra striping. */
@@ -1263,6 +1283,68 @@ html.dark .notes-list-facet__select {
     position: static;
     box-shadow: none;
   }
+
+  .notes-list-count,
+  .notes-backlinks-count {
+    flex-basis: 100%;
+    margin-left: 0;
+    white-space: normal;
+  }
+
+  .notes-backlinks-sort-wrap {
+    width: 100%;
+  }
+
+  .notes-backlinks-sort {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .notes-graph-search-wrap {
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+
+  .notes-graph-actions {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .notes-graph-filter__count {
+    display: none;
+  }
+
+  .notes-random-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .notes-random-controls .btn {
+    justify-self: stretch;
+    width: 100%;
+  }
+
+  .notes-random-prompt-actions {
+    width: 100%;
+  }
+
+  .notes-random-prompt-actions .btn {
+    flex: 1 1 100%;
+  }
+
+  .notes-article-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .notes-copy-md {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .notes-copy-md .btn {
+    flex: 1 1 calc(50% - 0.25rem);
+    min-width: 0;
+  }
 }
 
 .notes-toolbar .btn-primary .notes-filter__count {
@@ -1350,11 +1432,21 @@ html.dark .notes-list-facet__select {
   align-items: stretch;
 }
 
+@media (max-width: 767px) {
+  .notes-random-grid {
+    align-items: start;
+  }
+
+  .notes-random-panel {
+    flex: 0 1 auto;
+  }
+}
+
 .notes-random-controls {
   align-items: stretch;
-  display: flex;
-  flex-wrap: nowrap;
+  display: grid;
   gap: 0.75rem;
+  grid-template-columns: minmax(0, 1fr) auto;
   margin-bottom: 0.75rem;
 }
 
@@ -1366,15 +1458,16 @@ html.dark .notes-list-facet__select {
 }
 
 .notes-random-controls .notes-random-select {
-  flex: 1;
   line-height: 1.25;
   margin-bottom: 0;
+  max-width: 100%;
   min-width: 0;
   padding-block: var(--btn-py, 0.5rem);
+  width: 100%;
 }
 
 .notes-random-controls .btn {
-  flex-shrink: 0;
+  justify-self: start;
   white-space: nowrap;
 }
 

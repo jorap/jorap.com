@@ -38,11 +38,10 @@
               <code>npm run export:anki</code>.
             </p>
             <a class="btn btn-outline-primary btn-sm" href="{{ $exportRel | relURL }}" download>Download Anki deck (.txt)</a>
-            <a class="btn btn-primary btn-sm" href="{{ `/notes/review/` | relLangURL }}">Start review</a>
           </div>
 
           <div data-notes-cards>
-            <div class="mb-4 flex flex-wrap items-center justify-between gap-3">
+            <div class="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <p class="text-ink-muted mb-0 text-sm">{{ len $cards }} cards</p>
               {{- if gt (len $setNames) 0 -}}
                 <div class="notes-filters" role="group" aria-label="Filter cards by set">

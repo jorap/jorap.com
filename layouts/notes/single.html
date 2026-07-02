@@ -4,6 +4,7 @@
   {{ $page := . }}
   {{ $backlinks := partial "notes/backlinks.html" . }}
   {{ $outgoing := partial "notes/outgoing-links.html" . }}
+  {{ $hideOutgoingCards := partial "notes/index-has-body-wikilinks.html" . }}
 
   <section class="section pt-7">
     <div class="container">
@@ -46,6 +47,7 @@
             {{ partial "notes/note-flashcards.html" . }}
 
             {{ with $outgoing }}
+              {{- if not $hideOutgoingCards -}}
               <aside class="notes-outgoing border-divider mb-6 rounded border p-5">
                 <h2 id="links-from-this-note" class="h6 mb-3">Links from this Note</h2>
                 <ul class="notes-outgoing-list grid gap-3 sm:grid-cols-2">
@@ -54,6 +56,7 @@
                   {{ end }}
                 </ul>
               </aside>
+              {{- end -}}
             {{ end }}
 
             {{ partial "notes/see-also.html" . }}

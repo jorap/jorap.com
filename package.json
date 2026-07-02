@@ -29,6 +29,7 @@
     "lint:voice": "python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check",
     "lint:utility-links": "python3 scripts/lint-utility-wikilinks.py",
     "test:search": "node scripts/test-search.mjs",
+    "test:responsive": "node scripts/test-responsive.mjs",
     "setup:hooks": "sh scripts/setup-git-hooks.sh",
     "postinstall": "node scripts/fix-tailwind-bin.js"
   },

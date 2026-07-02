@@ -110,6 +110,9 @@
       panel.style.minHeight = "";
     });
 
+    // Side-by-side only (md+); stacked columns should use natural height.
+    if (!window.matchMedia("(min-width: 768px)").matches) return;
+
     var maxHeight = 0;
     panels.forEach(function (panel) {
       maxHeight = Math.max(maxHeight, panel.offsetHeight);
