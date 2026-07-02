@@ -17,19 +17,19 @@
   <section class="section">
     <div class="container">
       <div class="row justify-center">
-        <div class="lg:col-10">
+        <div class="lg:col-12">
           {{ partial "notes/toolbar.html" (dict "Context" . "active" "flashcards") }}
 
-          <details class="notes-random-prompt border-divider mb-6 rounded border">
-            <summary class="notes-random-prompt-summary p-5">
-              <span class="notes-random-prompt-label h6 mb-0">About flashcards</span>
+          <details class="notes-cards__about border-divider mb-6 rounded border">
+            <summary class="notes-cards__about-summary p-5">
+              <span class="notes-cards__about-label h6 mb-0">About flashcards</span>
             </summary>
-            <div class="notes-random-prompt-body content notes-content px-5 pb-5">
+            <div class="notes-cards__about-body content notes-content px-5 pb-5">
               {{ partial "notes/render-content.html" . }}
             </div>
           </details>
 
-          <div class="border-divider mb-8 rounded border p-5" style="background: var(--color-elevated);">
+          <div class="notes-cards__export border-divider mb-8 rounded border p-5">
             <h2 class="h6 mb-2">Anki export</h2>
             <p class="text-ink-muted mb-3 text-sm">
               Notes with <code>review: true</code> export their <code>cards:</code> list (and any

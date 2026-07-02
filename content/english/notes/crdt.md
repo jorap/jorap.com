@@ -1,7 +1,7 @@
 ---
 title: "CRDT"
 meta_title: "CRDT"
-description: "Data structures that merge edits without a central lock - useful for offline-first sync."
+description: "Conflict-free Replicated Data Types (CRDT) merge edits without a central lock - useful for offline-first sync."
 key_concept: |
   Conflict-free sync lets two devices edit the same note without picking a winner by timestamp alone.
   

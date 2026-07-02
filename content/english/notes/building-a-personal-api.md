@@ -1,7 +1,7 @@
 ---
 title: "Building a Personal API"
 meta_title: "Building a Personal API - Your Notes as Callable Context"
-description: "My personal API isn't OAuth - it's consistent frontmatter, wikilinks, and folder shapes my tools can read without me re-explaining everything."
+description: "My personal Application Programming Interface (API) isn't OAuth - it's consistent frontmatter, wikilinks, and folder shapes my tools can read without me re-explaining everything."
 key_concept: |
   My personal API isn't OAuth and microservices.
   

@@ -3,7 +3,7 @@
  */
 (function () {
   var root = document.querySelector("[data-notes-review]");
-  var dataEl = document.querySelector(".notes-review-data");
+  var dataEl = document.querySelector(".notes-review__data");
   if (!root || !dataEl) return;
 
   var STORAGE_KEY = "jorap-notes-review-v1";

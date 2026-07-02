@@ -2,7 +2,7 @@
 note_kind: "meta"
 title: "OKF Export"
 meta_title: "OKF Export - Agent-Readable Notes Bundle"
-description: "The same garden, flattened for agents - markdown paths, required `type`, no Hugo build."
+description: "Open Knowledge Format (OKF) bundle - the same garden, flattened for agents - markdown paths, required `type`, no Hugo build."
 key_concept: |
   Authoring stays in Hugo (`[[wikilinks]]`, graph, flashcards); this bundle is the handoff copy for ChatGPT, agents, and tools outside the site.
   
@@ -17,6 +17,8 @@ aliases: ["OKF", "OKF Export"]
 featured: false
 draft: false
 ---
+[Open Knowledge Format (OKF) graph](/exports/okf/viz.html) - visual network of the exported bundle.
+
 ## ChatGPT workflow
 
 Three lanes - all copy-paste friendly:
@@ -27,7 +29,7 @@ Three lanes - all copy-paste friendly:
 | **Find connections** between notes | Any note page (Random Note section) or [Random Duo](/notes/random-duo/) | Copy prompt - includes both note bodies + shortest wikilink path when one exists |
 | **Give context** on existing notes | **Copy MD** or **Agent copy** on any note (upper right) | Paste into ChatGPT as background before asking questions |
 
-**Copy MD** copies the full Hugo file (frontmatter + `[[wikilinks]]`) - ready to save or edit. **Agent copy** copies the OKF version with resolved markdown links, better when the model doesn't know your wikilink titles.
+**Copy MD** copies the full Hugo file (frontmatter + `[[wikilinks]]`) - ready to save or edit. **Agent copy** copies the Open Knowledge Format (OKF) version with resolved markdown links, better when the model doesn't know your wikilink titles.
 
 For the whole garden at once: **Copy catalog** on this page, or open [Bundle index](/exports/okf/index.md).
 
@@ -37,7 +39,7 @@ Each row maps to a site button plus a ChatGPT ask.
 
 | Combo | Copy from site | Ask ChatGPT |
 |-------|----------------|-------------|
-| **Expand a hub (MOC)** | **Copy hub cluster** on a hub page (e.g. [Maps of Content](/notes/maps-of-content/), [Eternal Principles](/notes/eternal-principles/)) + **Copy catalog** here | *What atomic notes are missing from this cluster? Output Hugo markdown files.* |
+| **Expand a hub (Maps of Content, MOC)** | **Copy hub cluster** on a hub page (e.g. [Maps of Content](/notes/maps-of-content/), [Eternal Principles](/notes/eternal-principles/)) + **Copy catalog** here | *What atomic notes are missing from this cluster? Output Hugo markdown files.* |
 | **Garden maintenance** | **Copy issues** on [Issues](/notes/issues/) + **Copy MD** on 3-5 affected notes | *Fix broken links, add extends/contradicts rows, keep voice plain.* |
 | **Flashcard pass** | **Copy MD** on a `review: true` spine note + **Copy MD** on [Flashcards](/notes/flashcards/) for format rules | *Write six new scenario cards - cue on front, one-breath action on back.* |
 | **Blog from note** | **Copy MD** on the source note | *Distill this into an 800-word blog post. Keep JoRap voice. No extra ## sections.* |
@@ -48,20 +50,17 @@ Each row maps to a site button plus a ChatGPT ask.
 
 ## Browse the bundle
 
-- **[OKF graph](/exports/okf/viz.html)** - Google's reference OKF visualizer (Cytoscape.js force layout, search, backlinks)
 - [Bundle index](/exports/okf/index.md) - all concepts and hubs (`okf_version: "0.1"`)
 - [Update log](/exports/okf/log.md) - recent garden changes from git
-- [Example concept: PKM](/exports/okf/concepts/pkm.md)
+- [Example concept: Personal Knowledge Management (PKM)](/exports/okf/concepts/pkm.md)
 - [Example hub: Maps of Content](/exports/okf/hubs/maps-of-content/index.md)
-
-Raw `.md` links show plain markdown in the browser - fine for agents. Use **OKF graph** for the visual network.
 
 ## What changes in export
 
-| Live garden | OKF bundle |
+| Live garden | Open Knowledge Format (OKF) bundle |
 |-------------|------------|
 | `[[wikilinks]]` | `[Title](/concepts/slug.md)` |
-| Hub/MOC pages | `hubs/{slug}/index.md` (no frontmatter) |
+| Hub/Maps of Content (MOC) pages | `hubs/{slug}/index.md` (no frontmatter) |
 | Graph, Review, Flashcards | Omitted |
 | Draft notes | Omitted |
 | Canonical URL | `resource:` on each concept |

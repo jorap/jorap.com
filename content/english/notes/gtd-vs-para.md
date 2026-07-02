@@ -1,7 +1,7 @@
 ---
 title: "GTD vs PARA"
 meta_title: "GTD vs PARA - Tasks vs Knowledge"
-description: "GTD runs my tasks. PARA runs my notes. They're cousins, not competitors - here's how I use both without doubling admin."
+description: "Getting Things Done (GTD) runs my tasks. Projects, Areas, Resources, Archives (PARA) runs my notes. They're cousins, not competitors - here's how I use both without doubling admin."
 key_concept: |
   GTD runs my tasks.
   

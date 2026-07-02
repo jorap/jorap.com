@@ -1,7 +1,7 @@
 ---
 title: "Git-Based CMS"
 meta_title: "Git-Based CMS - Buttons for Non-Git Editors"
-description: "A web editor (I use Sveltia or Decap) that commits markdown to the repo - same [[Free Tier Hosting Stack]] build on push, but the client gets buttons instead of VS Code."
+description: "A git-based Content Management System (CMS) web editor (I use Sveltia or Decap) that commits markdown to the repo - same [[Free Tier Hosting Stack]] build on push, but the client gets buttons instead of VS Code."
 key_concept: |
   I publish via Git directly.
   

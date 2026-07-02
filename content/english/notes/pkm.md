@@ -1,7 +1,7 @@
 ---
 title: "PKM"
 meta_title: "PKM - Personal Knowledge Management in Plain Language"
-description: "**PKM** is the boring name for how I save, organize, and use what I learn. Here's my unspectacular definition."
+description: "Personal Knowledge Management (PKM) is the boring name for how I save, organize, and use what I learn. Here's my unspectacular definition."
 key_concept: |
   PKM is the plain name for the save-organize-use system getting started introduces ([[Getting Started]]).
   

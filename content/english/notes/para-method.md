@@ -1,7 +1,7 @@
 ---
 title: "PARA Method"
 meta_title: "PARA Method - Projects, Areas, Resources, Archives"
-description: "**[[PARA]]** is how I sort notes by life responsibility - not by topic alphabet soup. Four buckets, clear questions."
+description: "Projects, Areas, Resources, Archives (PARA) is how I sort notes by life responsibility - not by topic alphabet soup. Four buckets, clear questions."
 key_concept: "PARA sorts notes by life responsibility - enough structure to find things, archive when done."
 examples:
   - "Tournament folder on the bench with a deadline; off-season conditioning notes in the filing cabinet with no end date."

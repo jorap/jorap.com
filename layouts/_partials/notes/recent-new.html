@@ -10,7 +10,7 @@
 {{- with $recent -}}
   <section class="notes-recent mb-8 lg:mb-0">
     <h2 class="h5 mb-3">New Notes</h2>
-    <ul class="notes-recent-list grid gap-3 sm:grid-cols-2">
+    <ul class="notes-recent-list grid gap-3 sm:grid-cols-3">
       {{- range . -}}
         {{- $page := .Page -}}
         {{- $dates := .Dates -}}
