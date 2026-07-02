@@ -1,8 +1,11 @@
 ---
 title: "Strategic Foresight"
 meta_title: "Strategic Foresight - See the Next Round Early"
-description: "Look past today's win to what the landscape looks like after others react."
-key_concept: Strategic foresight is looking past the immediate move to what the board will look like in six months.
+description: "Look past today's win to what happens after everyone reacts."
+key_concept: |
+  Look past the immediate win.
+  
+  The board six months out - after everyone reacts - matters more than tonight's score.
 examples:
   - "The club signed a young backup keeper before the starter's contract year - foresight looks past this Saturday's win to next season's roster crunch."
   - "You don't buy a two-seat car the year before twins arrive - the board after everyone reacts to your life, not just today's trunk test."
@@ -29,13 +32,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "The club signed a young backup keeper before the starter's contract year"
-    back: "foresight looks past this Saturday's win to next."
-  - front: "The café added two high chairs before rainy-season families showed up"
-    back: "Not only tables for today's lunch crowd"
-  - front: "You don't buy a two-seat car the year before twins arrive"
-    back: "Not just today's trunk test"
-  - front: "Our condo board started the elevator fund three years before the quote arrived"
-    back: "looking past tonight's quiet ride to what the."
+  - front: "Tempted to celebrate this quarter's win and skip next year's roster gap."
+    back: "Plan for the board after everyone reacts - not just Saturday."
+  - front: "Shopping for a two-seat car while twins are due next year."
+    back: "Buy for life after it reacts - not today's trunk test."
+  - front: "Café owner added high chairs before rainy-season families arrived."
+    back: "Stock for who shows up next - not just today's lunch rush."
+  - front: "Condo board starts elevator fund three years before the repair quote."
+    back: "Fund what's coming - not only tonight's quiet ride."
 draft: false
 ---

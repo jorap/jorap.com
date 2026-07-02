@@ -1,0 +1,15 @@
+{{- /*
+  One-line card blurb: first line of key_concept, else description (wikilinks stripped).
+  Dict: Page (required).
+*/ -}}
+{{- $page := .Page -}}
+{{- $text := "" -}}
+{{- with $page.Params.key_concept -}}
+  {{- $text = index (split . "\n") 0 | strings.TrimSpace -}}
+{{- else -}}
+  {{- $text = $page.Description | default "" -}}
+{{- end -}}
+{{- $text = replaceRE `\[\[([^\]|#]+)(?:#[^\]|]+)?\]\]` "$1" $text -}}
+{{- $text = replaceRE `\[([^\]]+)\]\([^)]+\)` "$1" $text -}}
+{{- $text = replaceRE "`([^`]+)`" "$1" $text -}}
+{{- return ($text | strings.TrimSpace) -}}

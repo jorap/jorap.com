@@ -8,6 +8,10 @@ image: "/images/worship-pads.jpg"
 categories: ["Worship", "Music", "Tips"]
 author: "JoRap"
 tags: ["Worship Pads", "Church Music", "Worship Leading", "Guitar Worship", "Solo Worship", "Acoustic Guitar", "Pad Tracks", "Christian Music", "Music Production", "Church", "Worship Ministry", "Backing Tracks", "Live Worship", "Worship Team", "Ambient Music"]
+related_notes:
+  - love-god
+  - ask-seek-knock
+  - dont-worry
 featured: false
 draft: false
 ---

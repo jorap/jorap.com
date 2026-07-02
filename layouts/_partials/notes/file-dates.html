@@ -18,9 +18,12 @@
   {{- end -}}
 {{- end -}}
 {{- $fmt := "Jan 2, 2006, 3:04 PM" -}}
+{{- $shortFmt := "Jan 2, 2006" -}}
 {{- return (dict
   "Created" $created
   "Updated" $updated
   "CreatedDisplay" ($created.Format $fmt)
   "UpdatedDisplay" ($updated.Format $fmt)
+  "CreatedShort" ($created.Format $shortFmt)
+  "UpdatedShort" ($updated.Format $shortFmt)
 ) -}}

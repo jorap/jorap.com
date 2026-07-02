@@ -1,5 +1,15 @@
+{{- /*
+  Recent updated notes. Dict: Context (page), Limit (optional, default site param).
+*/ -}}
+{{- $ctx := . -}}
 {{- $limit := site.Params.notes.recent_updates_limit | default 12 | int -}}
-{{- $notes := partial "notes/pages.html" . -}}
+{{- if reflect.IsMap . -}}
+  {{- $ctx = .Context -}}
+  {{- with .Limit -}}
+    {{- $limit = . | int -}}
+  {{- end -}}
+{{- end -}}
+{{- $notes := partial "notes/pages.html" $ctx -}}
 {{- $entries := slice -}}
 {{- range $notes -}}
   {{- $dates := partial "notes/file-dates.html" . -}}
@@ -8,16 +18,17 @@
 {{- $recent := first $limit (sort $entries "Dates.Updated" "desc") -}}
 
 {{- with $recent -}}
-  <section class="notes-recent mb-8 lg:mb-0">
-    <h2 class="h5 mb-3">Recent Updates</h2>
-    <ul class="notes-recent-list grid gap-3 sm:grid-cols-3">
+  <section class="notes-recent">
+    <h2 class="h5 mb-1">Recent updates</h2>
+    <p class="text-ink-muted mb-3 text-sm">Notes touched most recently.</p>
+    <ul class="notes-recent-list grid gap-2 sm:grid-cols-2">
       {{- range . -}}
         {{- $page := .Page -}}
         {{- $dates := .Dates -}}
         <li class="notes-recent-item">
           <a class="notes-recent-link" href="{{ $page.RelPermalink }}" data-wikilink-preview="{{ $page.RelPermalink }}">
             <span class="notes-recent-title">{{ $page.Title }}</span>
-            <span class="notes-recent-meta text-ink-muted">Updated {{ $dates.UpdatedDisplay }}</span>
+            <span class="notes-recent-meta text-ink-muted">{{ $dates.UpdatedShort }}</span>
           </a>
         </li>
       {{- end -}}

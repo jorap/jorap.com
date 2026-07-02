@@ -2,19 +2,34 @@
   {{ partial "notes/lint-note-issues.html" . }}
   {{ partial "page-header" . }}
 
-  <section class="section">
+  <section class="section notes-index">
     <div class="container">
       <div class="row justify-center">
         <div class="lg:col-12">
           {{ partial "notes/toolbar.html" (dict "Context" . "active" "list") }}
 
-          {{ partial "notes/featured-random-note.html" . }}
+          {{- $page := . -}}
+          {{- if or $page.Description $page.Content -}}
+            <div class="notes-index-intro content notes-content mb-8 max-w-[70ch]">
+              {{- with $page.Description -}}
+                <p class="notes-index-lede text-ink-muted mb-4">{{ . }}</p>
+              {{- end -}}
+              {{- with $page.Content -}}
+                {{ partial "notes/render-content.html" (dict "Page" $page "BodyOnly" true) }}
+              {{- end -}}
+            </div>
+          {{- end -}}
         </div>
       </div>
 
-      <div class="notes-recent-pair mb-8 grid gap-6">
-        {{ partial "notes/recent-new.html" . }}
-        {{ partial "notes/recent-updated.html" . }}
+      <div class="notes-index-discover mb-10 grid gap-6 lg:grid-cols-2 lg:items-start lg:gap-8">
+        <div class="notes-index-discover__random min-w-0">
+          {{ partial "notes/featured-random-note.html" . }}
+        </div>
+        <div class="notes-index-discover__recent notes-recent-stack grid min-w-0 gap-6">
+          {{ partial "notes/recent-new.html" (dict "Context" . "Limit" 6) }}
+          {{ partial "notes/recent-updated.html" (dict "Context" . "Limit" 6) }}
+        </div>
       </div>
 
       <div class="row justify-center">
@@ -41,6 +56,11 @@
             {{- $allCategories = $allCategories | append $cat -}}
           {{- end -}}
           {{- $allCategories = sort $allCategories -}}
+
+          <header class="notes-index-catalog__head mb-4">
+            <h2 class="h5 mb-1">All notes</h2>
+            <p class="text-ink-muted mb-0 text-sm">Browse, search, and filter the full garden.</p>
+          </header>
 
           <div class="notes-list-controls border-divider mb-6 rounded border p-4 sm:p-5">
             <div class="notes-list-controls__top flex flex-wrap items-center gap-2 sm:gap-3">
@@ -98,7 +118,7 @@
                 data-notes-count
                 data-notes-total="{{ len $notes }}"
                 aria-live="polite">
-                {{ len $notes }} / {{ len $notes }}
+                {{ len $notes }} notes
               </span>
             </div>
           </div>
@@ -133,11 +153,12 @@
                 data-note-search="{{ delimit $searchBits " " | lower }}">
                 {{ partial "notes/note-card.html" (dict
                   "Page" .
+                  "Body" (partial "notes/note-blurb.html" (dict "Page" .))
                   "HeadingLevel" 2
                   "HeadingClass" "h5"
                   "HeadingExtraClass" "text-ink"
-                  "ShowDescription" true
                   "ShowTags" true
+                  "TagLimit" 4
                 ) }}
               </div>
             {{ end }}

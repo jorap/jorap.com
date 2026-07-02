@@ -1,10 +1,11 @@
 ---
 name: jorap-voice
 description: >-
-  Write and edit JoRap blog posts in the author's personal voice. Use
-  plain words that land on first read.
+  Write and edit JoRap blog posts and notes garden prose in the author's personal
+  voice. Use plain words that land on first read.
   Use when drafting, outlining, rewriting, or polishing blog content under
-  content/, flashcard fronts and backs on content/english/notes (with flashcards
+  content/, notes frontmatter (description, key_concept, examples, relationship
+  reasons), flashcard fronts and backs on content/english/notes (with flashcards
   skill), when the user asks to match their writing style, sound more human, or
   when posts sound generic, SEO-ish, stiff, or AI-generated.
 ---
@@ -21,16 +22,20 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
 - Rewriting AI-generated or stiff drafts
 - Editing for tone without changing facts
 - Writing `meta_title` and `description` frontmatter
-- **Flashcards** - cue fronts and apply backs on spine notes (use with [flashcards](../flashcards/SKILL.md); reference `capture.md`, `free-grace.md`, `the-golden-rule.md`)
+- **Notes garden** - `description`, `key_concept`, `examples`, `relationships.reason` on `content/english/notes/`
+- **Flashcards** - cue fronts and apply backs on spine notes (use with [flashcards](../flashcards/SKILL.md); flashcards skill wins on shape, jorap-voice wins on word choice)
 
 ## Workflow
 
-1. **Read 1-2 reference posts** in the same category before writing. Good defaults:
+1. **Read 1-2 reference pieces** in the same category before writing. Good defaults:
    - Gear/reviews: `content/english/blog/what-i-look-for-in-wireless-earphones.md`
    - Tech/how-to: `content/english/blog/how-i-built-jorap-notes.md`
    - Tips: `content/english/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md`
    - Opinion: `content/english/blog/top-reasons-why-you-still-need-use-desktop-laptop.md`
-   - **Flashcards:** `content/english/notes/capture.md`, `free-grace.md`, `the-golden-rule.md`
+   - **Notes - PKM:** `content/english/notes/capture.md`, `progressive-summarization.md`
+   - **Notes - faith:** `content/english/notes/free-grace.md`, `sanctification.md`
+   - **Notes - ethics/systems:** `content/english/notes/the-golden-rule.md`, `blameless-postmortem.md`
+   - **Flashcards:** `capture.md`, `free-grace.md`, `the-golden-rule.md`
 2. **Draft in the author's voice**, not a generic blogger voice.
 3. **Run the de-AI pass** (below) - mandatory, even on small edits.
 4. **Run the voice check** (below) before finishing.
@@ -56,12 +61,37 @@ Plain speech beats smart-sounding prose. Every word should land on first pass.
 |------|--------|
 | **Everyday words** | `use`, `check`, `fix`, `skip` - not `utilize`, `facilitate`, `implement`, `leverage` |
 | **Say it out loud** | If you wouldn't say it to a friend mid-rush, swap for the plain word |
-| **Topic terms OK** | Gear names, tool names, note-garden terms when they're the actual subject |
+| **Topic terms OK** | See decision tree below - gear names, tool names, theology/PKM terms when they're the subject |
 | **No academic voice** | `repository` → `folder`; `prioritize` → `do first`; `comprehensive` → cut or say what's in it |
+| **Gloss once** | First use of a theology or PKM term: plain English in the same breath, then the term |
+
+### Topic terms - when jargon is OK
+
+| Lane | Where | Rule |
+|------|-------|------|
+| **Faith** | `key_concept`, `description` | Theology terms OK after a plain gloss: "declared right with God - justification" |
+| **PKM** | `key_concept`, `description` | Prefer plain verbs unless the note is *about* the term: `boil down` over `distill`; `after-action review` over `postmortem` |
+| **Tools** | blog body, tech notes | Product names OK (Hugo, Cloudflare) - still explain in plain English nearby |
+| **Cards** | `cards.front` / `cards.back` | Plainest layer. Term on the back only if it *is* the immediate move |
+
+### Common swaps (garden)
+
+| Instead of | Say |
+|------------|-----|
+| `landscape` | what things look like after / what happens next |
+| `unmerited favor` | gift you didn't earn (then "unmerited favor" if needed) |
+| `postmortem` | after-action review |
+| `distill` | boil down / shorten |
+| `handoff` | pass off / pass to client |
+| `deploy` | push live |
+| `metadata` | tags and fields |
+| `contradicts` (in relationship reasons) | goes against |
 
 **Vocab test:** Read a paragraph aloud. Any word you'd pause to define? Replace it before finishing.
 
-See [examples.md](examples.md) for vocabulary swaps and anti-patterns.
+Run `pnpm lint:voice` before commit - catches em/en dashes and AI-tell words in notes/blog prose.
+
+See [examples.md](examples.md) for vocabulary swaps, garden samples, and anti-patterns.
 
 ## Sound human, not AI
 

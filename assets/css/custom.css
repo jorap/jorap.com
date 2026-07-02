@@ -609,7 +609,7 @@ body.notes-graph-present-open {
 }
 
 .notes-card {
-  background: var(--color-surface);
+  background: var(--color-elevated);
   transition: border-color 0.15s ease;
   min-height: 100%;
 }
@@ -1233,6 +1233,38 @@ html.dark .notes-list-facet__select {
   background: var(--color-elevated);
 }
 
+.notes-index-intro {
+  text-wrap: pretty;
+}
+
+.notes-index-lede {
+  font-size: 1.0625rem;
+  line-height: 1.55;
+  text-wrap: balance;
+}
+
+.notes-index-discover {
+  align-items: stretch;
+}
+
+.notes-index-catalog__head {
+  text-wrap: balance;
+}
+
+.notes-featured-random-slot {
+  min-height: 8.5rem;
+  background: var(--color-elevated);
+  overflow: hidden;
+}
+
+.notes-featured-random-slot .notes-random-loading {
+  margin: 0;
+}
+
+.notes-recent-stack .notes-recent:last-child {
+  margin-bottom: 0;
+}
+
 .notes-recent-item {
   display: flex;
   min-height: 100%;
@@ -1242,14 +1274,15 @@ html.dark .notes-list-facet__select {
   display: flex;
   flex: 1;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.35rem;
   height: 100%;
-  padding: 0.75rem 0.85rem;
+  padding: 0.65rem 0.75rem;
   border: 1px solid var(--color-divider);
   border-radius: 0.5rem;
   background: var(--color-elevated);
   text-decoration: none;
   color: inherit;
+  transition: border-color 0.15s ease, color 0.15s ease;
 }
 
 .notes-recent-link:hover,
@@ -1264,16 +1297,13 @@ html.dark .notes-list-facet__select {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   overflow: hidden;
+  font-size: 0.875rem;
   font-weight: 500;
   line-height: 1.35;
 }
 
 .notes-recent-meta {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 0.25rem 0.5rem;
-  margin-top: auto;
+  display: block;
   font-size: 0.75rem;
   line-height: 1.35;
 }

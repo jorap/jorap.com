@@ -1,7 +1,12 @@
 {{- $page := . -}}
+{{- $bodyOnly := false -}}
+{{- if reflect.IsMap . -}}
+  {{- $page = .Page -}}
+  {{- $bodyOnly = .BodyOnly | default false -}}
+{{- end -}}
 {{- $class := site.Params.notes.wikilink_class | default "wikilink" -}}
 
-{{- $raw := partial "notes/assembled-content.html" $page -}}
+{{- $raw := cond $bodyOnly $page.RawContent (partial "notes/assembled-content.html" $page) -}}
 {{- $raw = replaceRE `(?s)\n## See also[\s\S]*$` "" $raw -}}
 {{- $content := $page.RenderString $raw -}}
 

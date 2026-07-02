@@ -8,6 +8,10 @@ image: "/images/feature-dnpap.jpg"
 categories: ["Worship", "Music", "Filipino"]
 author: "JoRap"
 tags: ["DNPAP", "Destiny Music", "Spotify", "YouTube", "Filipino Worship", "OPM", "Song Resources", "Lyrics", "Live Recording", "Christian Music", "Worship Resources", "Music Ministry", "Filipino Music", "Chord Charts", "Music Video", "Philippines", "Filipino"]
+related_notes:
+  - love-god
+  - free-grace
+  - ask-seek-knock
 featured: false
 draft: false
 ---

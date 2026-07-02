@@ -32,13 +32,13 @@ featured: false
 review: true
 card_sets: ["Writing", "Review"]
 cards:
-  - front: "I open the playbook notes a second time and bold three plays, then star one for this week's install."
-    back: "Progressive Summarization"
-  - front: "I open the vendor contract a second time and bold three clauses, then highlight one before I sign."
-    back: "Progressive Summarization"
-  - front: "I open the PTA newsletter for the second time and circle three dates, then star one"
-    back: "sticky on the fridge only when I'm blocking."
-  - front: "I reread the community meeting recap and bold three action items"
-    back: "summary at the top only when I'm actually."
+  - front: "Second time opening the same note - tempted to rewrite the whole thing."
+    back: "Bold good lines first. Summary at top only on reuse."
+  - front: "Fresh capture and I want to highlight, bold, and summarize immediately."
+    back: "Stop at capture. Distill only when I reach for it again."
+  - front: "PTA newsletter, second read - three dates circled, one starred."
+    back: "Layers, not rewrite - star what blocks my week."
+  - front: "Meeting recap open again - three action items bolded."
+    back: "Summary at top only when I'm reusing it this week."
 draft: false
 ---

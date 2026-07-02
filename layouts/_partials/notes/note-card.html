@@ -3,16 +3,18 @@
   Dict: Page (required), Href, Title, Body, Shared, ShowDescription, ShowTags,
         HeadingLevel (default 3), HeadingClass (default "h6"), HeadingExtraClass (default "text-ink font-medium").
 */ -}}
-{{- $page := .Page -}}
-{{- $href := .Href | default $page.RelPermalink -}}
-{{- $title := .Title | default $page.Title -}}
-{{- $body := .Body -}}
-{{- $shared := .Shared -}}
-{{- $showDescription := .ShowDescription | default false -}}
-{{- $showTags := .ShowTags | default false -}}
-{{- $headingLevel := .HeadingLevel | default 3 -}}
-{{- $headingClass := .HeadingClass | default "h6" -}}
-{{- $headingExtraClass := .HeadingExtraClass | default "text-ink font-medium" -}}
+{{- $card := . -}}
+{{- $page := $card.Page -}}
+{{- $href := $card.Href | default $page.RelPermalink -}}
+{{- $title := $card.Title | default $page.Title -}}
+{{- $body := $card.Body -}}
+{{- $shared := $card.Shared -}}
+{{- $showDescription := $card.ShowDescription | default false -}}
+{{- $showTags := $card.ShowTags | default false -}}
+{{- $tagLimit := $card.TagLimit | default 0 | int -}}
+{{- $headingLevel := $card.HeadingLevel | default 3 -}}
+{{- $headingClass := $card.HeadingClass | default "h6" -}}
+{{- $headingExtraClass := $card.HeadingExtraClass | default "text-ink font-medium" -}}
 {{- $headingTag := printf "h%d" $headingLevel -}}
 {{- $headingOpen := printf "<%s class=\"%s notes-card-title relative z-[1] mb-2 %s pointer-events-none\">" $headingTag $headingClass $headingExtraClass | safeHTML -}}
 {{- $headingClose := printf "</%s>" $headingTag | safeHTML -}}
@@ -38,8 +40,12 @@
   {{- end -}}
   {{- if $showTags -}}
     {{- with $page.Params.tags -}}
+      {{- $tags := . -}}
+      {{- if gt $tagLimit 0 -}}
+        {{- $tags = first $tagLimit . -}}
+      {{- end -}}
       {{ partial "notes/tag-chips.html" (dict
-        "Tags" .
+        "Tags" $tags
         "ListClass" "notes-card-tags relative z-[2] mt-auto flex flex-wrap gap-2"
         "SizeClass" "text-xs"
         "PadClass" "px-2 py-0.5"

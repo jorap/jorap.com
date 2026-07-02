@@ -85,7 +85,10 @@
       if (show) visible += 1;
     });
     if (emptyEl) emptyEl.classList.toggle("hidden", visible > 0);
-    if (countEl) countEl.textContent = visible + " / " + total;
+    if (countEl) {
+      countEl.textContent =
+        visible === total ? total + " notes" : visible + " of " + total;
+    }
   }
 
   function updateUrl() {

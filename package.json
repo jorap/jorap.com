@@ -25,7 +25,7 @@
     "lint:frontmatter": "python3 scripts/lint-notes-frontmatter.py",
     "lint:cards": "python3 scripts/lint-flashcard-frontmatter.py",
     "lint:garden": "python3 scripts/lint-notes-frontmatter.py && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-flashcard-frontmatter.py && python3 scripts/lint-utility-wikilinks.py",
-    "lint:voice": "python3 scripts/notes-voice-sanitize.py --check",
+    "lint:voice": "python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check",
     "lint:utility-links": "python3 scripts/lint-utility-wikilinks.py",
     "setup:hooks": "sh scripts/setup-git-hooks.sh",
     "postinstall": "node scripts/fix-tailwind-bin.js"

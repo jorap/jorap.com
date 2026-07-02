@@ -8,6 +8,10 @@ image: "/images/alex-eala.jpg"
 categories: ["Sports", "Filipino", "People"]
 author: "JoRap"
 tags: ["Tennis", "Alex Eala", "WTA", "Pinoy Pride", "Career Tracker", "Grand Slam", "Athletes", "Women's Tennis", "Philippines", "Tennis Rankings", "Live Tracker", "Pro Tennis", "Sports Fan"]
+related_notes:
+  - expect-the-counter
+  - resilience
+  - follow-through
 featured: false
 draft: false
 lastmod: 2026-06-21T02:30:00Z
