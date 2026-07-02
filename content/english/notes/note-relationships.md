@@ -40,9 +40,9 @@ featured: false
 review: true
 card_sets: ["Linking", "Writing"]
 cards:
-  - front: "New note builds on an older atomic claim - typing the connection in the body now. One relationship word?"
-    back: "Type extends in the body."
-  - front: "This note pushes against a slower-work philosophy I named in the body. One typed link for that tension?"
+  - front: "New note builds on an older atomic claim - adding a typed row in frontmatter now. One relationship word?"
+    back: "Type extends."
+  - front: "This note pushes against a slower-work philosophy I already have in the garden. One typed row for that tension?"
     back: "Link as contradicts."
   - front: "Weekly checklist makes a review habit real in my notes. Link type that says this note carries it out?"
     back: "Link as implements."
