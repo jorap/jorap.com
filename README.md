@@ -1,6 +1,8 @@
 # JoRap Notes
 
-Personal blog and digital garden at [jorap.com](https://jorap.com). Built with Hugo, Tailwind CSS v4, and the `jorap` theme.
+Personal blog and digital garden at [www.jorap.com](https://www.jorap.com). Built with Hugo, Tailwind CSS v4, and the `jorap` theme.
+
+**Docs:** [`docs/README.md`](docs/README.md) — product voice, design system, deploy, CMS, troubleshooting.
 
 ## Requirements
 
@@ -41,9 +43,12 @@ Open http://localhost:1313
 ```
 content/english/     Blog posts, notes garden, pages
 layouts/             Site-specific Hugo templates
-themes/jorap/        Active theme
+themes/jorap/        Active theme (tokens in data/theme.json)
 assets/js/           Site JavaScript (graph, random notes, flashcards)
+assets/css/          Site overrides (notes garden, a11y)
+static/              _headers, _redirects (copied to public/ by Hugo)
 scripts/             Build, deploy, and content tooling
+docs/                Product, design system, deploy guides
 ```
 
 ## Content

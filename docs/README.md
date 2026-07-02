@@ -1,15 +1,31 @@
 # Docs
 
-Long-form documentation for the JoRap Notes project lives here. The repo `README.md` covers quick start and project overview; everything below is reference material.
+Long-form documentation for the JoRap Notes project. The repo [`README.md`](../README.md) covers quick start; everything below is reference material for humans and agents.
+
+## Index
 
 | File | What it covers |
 | --- | --- |
-| [`PRODUCT.md`](./PRODUCT.md) | Product framing, audience, voice, content pillars. |
-| [`DESIGN.md`](./DESIGN.md) | Visual / interaction design system, tokens, motion. |
-| [`DESIGN.json`](./DESIGN.json) | Machine-readable design tokens (palette, type, spacing). |
-| [`CMS_SETUP.md`](./CMS_SETUP.md) | One-time setup for the Static Site CMS admin (`/admin`). |
-| [`CLIENT_STATIC_SITE.md`](./CLIENT_STATIC_SITE.md) | Client site template: Hugo + GitHub + Cloudflare Pages checklist. |
-| [`TROUBLESHOOTING.md`](./TROUBLESHOOTING.md) | Build / dev-server gotchas and fixes. |
-| [`TODO.md`](./TODO.md) | Working backlog. |
+| [`PRODUCT.md`](./PRODUCT.md) | Audience, voice, anti-references, design principles. Start here for *why*. |
+| [`DESIGN.md`](./DESIGN.md) | Visual system: north star, tokens, typography, components, notes garden. Start here for *how it looks*. |
+| [`DESIGN.json`](./DESIGN.json) | Machine-readable design sidecar (palette meta, components, narrative) for tooling. |
+| [`.impeccable/design.json`](../.impeccable/design.json) | Same schema as `DESIGN.json`; consumed by the Impeccable live panel. Keep in sync when tokens change. |
+| [`CMS_SETUP.md`](./CMS_SETUP.md) | One-time setup for Static Site CMS (`/admin`). |
+| [`CLIENT_STATIC_SITE.md`](./CLIENT_STATIC_SITE.md) | Client template: Hugo + GitHub + Cloudflare Pages checklist. |
+| [`TROUBLESHOOTING.md`](./TROUBLESHOOTING.md) | Deploy, redirects, CMS, and build gotchas. |
+| [`TODO.md`](./TODO.md) | Working backlog (shipped vs open). |
 
-When adding a new doc, drop it in this folder and link it from the table above so the index stays current.
+## Canonical URLs
+
+- **Live site:** [https://www.jorap.com](https://www.jorap.com)
+- **Apex redirect:** `jorap.com` → `www.jorap.com` via [`static/_redirects`](../static/_redirects) (both hosts must be attached in Cloudflare Pages).
+
+## Token sources (code)
+
+| Source | Role |
+| --- | --- |
+| [`data/theme.json`](../data/theme.json) | Authoritative color and font scale; edit here first. |
+| [`themes/jorap/assets/css/generated-theme.css`](../themes/jorap/assets/css/generated-theme.css) | Auto-generated Tailwind `@theme` vars (`node scripts/themeGenerator.js`). |
+| [`themes/jorap/assets/css/semantic-tokens.css`](../themes/jorap/assets/css/semantic-tokens.css) | Semantic aliases (`surface`, `elevated`, `ink`, `accent`, …) with dark swaps. |
+
+When adding a new doc, drop it in this folder and link it from the table above.

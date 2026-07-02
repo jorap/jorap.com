@@ -1,6 +1,6 @@
 ---
 title: "Static Site Client Scope"
-meta_title: "Static Site Client Scope - What Fits the Free Static Stack"
+meta_title: "Static Site Client Scope - What Fits the Static Stack"
 description: "Static sites fit text and images on git push - not live databases or mystery WordPress admins."
 key_concept: |
   Scope the sales call before I quote [[Selling Static Sites]] - say no to bad fits in the room, not after deposit.
@@ -15,7 +15,7 @@ relationships:
     reason: "when I take a bad-fit job because saying no feels awkward"
   - type: extends
     wikilink: "[[Free Tier Hosting Stack]]"
-    reason: "Scope matches what the free static stack can actually carry"
+    reason: "Scope matches what the static stack can actually carry"
   - type: extends
     wikilink: "[[Git-Based CMS]]"
     reason: "Middle path for non-Git editors without full WordPress"

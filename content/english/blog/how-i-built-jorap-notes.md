@@ -1,15 +1,14 @@
 ---
-title: "How I Built JoRap Notes: My Journey from Expensive Hosting to Free (and Better!)"
-meta_title: "How I Built JoRap Notes: A Developer's Guide to Free Static Site Hosting"
-description: "I lost my old PHP hosting (and a chunk of my work with it). A weekend of fumbling later, I landed on Hugo + GitHub + Cloudflare Pages - free, faster, and honestly better than what I was paying for."
+title: "How I Built JoRap Notes: My Journey from Expensive Hosting (and Better!)"
+meta_title: "How I Built JoRap Notes: A Developer's Guide to Static Site Hosting"
+description: "I lost my old PHP hosting (and a chunk of my work with it). A weekend of fumbling later, I landed on Hugo + GitHub + Cloudflare Pages - faster, and honestly better than what I was paying for."
 slug: "how-i-built-jorap-notes"
 date: 2024-06-14T05:00:00Z
 image: "/images/joraps-world.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
-tags: ["Website Building", "Free Hosting", "Hugo CMS", "GitHub", "Cloudflare Pages", "Static Sites", "JAMstack", "Self-Hosting", "PHP", "Migration", "Developer Life", "Hugo", "DevOps", "Site Migration", "Static Site Generator", "Web Hosting", "Publishing", "Digital Garden", "PKM", "Note Taking", "Blogging"]
+tags: ["Website Building", "Hugo CMS", "GitHub", "Cloudflare Pages", "Static Sites", "JAMstack", "Self-Hosting", "PHP", "Migration", "Developer Life", "Hugo", "DevOps", "Site Migration", "Static Site Generator", "Web Hosting", "Publishing", "Digital Garden", "PKM", "Note Taking", "Blogging"]
 related_notes:
-  - free-tier-hosting-stack
   - digital-garden
   - drafting-in-public
   - the-garage-concept
@@ -29,7 +28,7 @@ I'd been hearing about static site generators and the whole "JAMstack" thing for
 
 ## What I ended up using
 
-Three pieces, all free, all working together:
+Three pieces, all working together:
 
 - **Hugo** generates the site.
 - **GitHub** stores the code.
@@ -47,9 +46,9 @@ Setup on Windows took me about thirty minutes from download to first running pag
 
 ### Cloudflare Pages, the part that surprised me
 
-Cloudflare Pages hosts static sites for free. Not "free trial." Free, forever, for personal use. It connects directly to GitHub, watches the branch you tell it to, and rebuilds the site every time you push.
+Cloudflare Pages hosts static sites. It connects directly to GitHub, watches the branch you tell it to, and rebuilds the site every time you push.
 
-Months in, I still haven't paid them a cent. I keep waiting for the catch. I haven't found one yet.
+Months in, the setup has been rock solid. I keep waiting for the catch. I haven't found one yet.
 
 ### GitHub, the place I sometimes forget to push to
 
@@ -246,28 +245,23 @@ If my computer died tomorrow, I could clone the repo to a new machine and be wri
 
 ## What it costs me
 
-**Monthly: $0.**
+No monthly hosting bill — a big change from the old $12/month PHP plan.
 
-Breakdown:
-
-- Hugo: free, open source
-- GitHub: free for public repos (fine for a personal site)
-- Cloudflare Pages: free for personal use, with SSL and a global CDN included
-- Custom domain: ~$12/year, the only thing I actually pay for
+The only thing I actually pay for is a custom domain, about $12 a year from my registrar. Hugo, GitHub, and Cloudflare Pages handle the rest, with SSL and a global CDN included.
 
 If you want your own domain, point it at Cloudflare from your registrar (Namecheap, GoDaddy, etc.), add it under Custom Domains in Cloudflare Pages, and wait for DNS to settle. Usually within a day.
 
-The `*.pages.dev` URL is perfectly fine if you don't want to spend the $12.
+The `*.pages.dev` URL works fine if you skip the custom domain.
 
 ---
 
 ## Why I'm sticking with it
 
-Compared to the old PHP setup, this one is faster, more reliable, simpler to update, and free. The only thing I traded away is a built-in comments system, and I don't really miss it. If I ever wanted comments back, Disqus or a small Worker would do the job.
+Compared to the old PHP setup, this one is faster, more reliable, and simpler to update. The only thing I traded away is a built-in comments system, and I don't really miss it. If I ever wanted comments back, Disqus or a small Worker would do the job.
 
 If you have the patience for an evening of setup, I genuinely think this beats most paid hosting for personal use. The first time you push a typo fix and see it live a minute later, you'll get it.
 
-You're reading the result right now. The whole thing - every page, every post, every image - is built and served exactly the way I described above. Pretty hard to argue with free.
+You're reading the result right now. The whole thing - every page, every post, every image - is built and served exactly the way I described above.
 
 ## A couple of useful links
 

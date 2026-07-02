@@ -80,7 +80,9 @@ Redeploy after changing either value.
 
 ## Troubleshooting
 
-- **Login fails**: Check OAuth callback URL, env vars, and the **Functions** tab for `api/auth` and `api/callback`
+See [`TROUBLESHOOTING.md`](./TROUBLESHOOTING.md) for redirects, Functions 404, build failures, and CMS issues.
+
+- **Login fails**: Check OAuth callback URL (`https://www.jorap.com/api/callback`), env vars, and the **Functions** tab for `api/auth` and `api/callback`
 - **Cannot save**: Confirm repo name/branch in `config.yml` and that your GitHub user can push to the repo
 - **Blank admin (Cloudflare)**: The admin `index.html` uses `data-cfasync="false"` on the script so Rocket Loader does not break the CMS
 - **Missing logo on login**: Confirm `assets/images/jorap.png` exists and Hugo serves it at `/images/jorap.png`

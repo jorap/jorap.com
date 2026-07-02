@@ -1,6 +1,6 @@
 # Changelog
 
-Site **functionality** shipped to [jorap.com](https://jorap.com). Update via the `changelog-update` Cursor skill (git diffs + SpecStory session history). Deploys run on **Cloudflare Pages** via `pnpm run deploy`.
+Site **functionality** shipped to [www.jorap.com](https://www.jorap.com). Update via the `changelog-update` Cursor skill (git diffs + SpecStory session history). Deploys run on **Cloudflare Pages** via `pnpm run deploy`.
 
 Commit prefix → section: `fix:` / `Fixes` → **Fixed**; `feat:` / `add:` → **Added**; otherwise → **Changed**.
 

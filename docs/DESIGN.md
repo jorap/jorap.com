@@ -91,6 +91,30 @@ The experience **rejects performative tech theater**: no neon accents, no interc
 - **Single sans hierarchy:** Inter for everything; hierarchy is **scale + weight + tracking**, not a second display face.
 - **Flat-first depth:** Surfaces are mostly **flat**; shadows are **small and rare**, used for dropdowns, floating controls, and card lift on hover, not for fake 3D marketing stacks.
 - **Motion is polite:** Short **ease-out** transitions (often 200 to 300ms). **Scroll behavior respects `prefers-reduced-motion`** at the document level.
+- **Layout rhythm:** Content lives in a **1320px max-width** container with **16px** horizontal padding. Sections use **56px / 80px** vertical padding (`py-14` / `md:py-20`). The notes garden reuses the same tokens and card language as the blog; tool surfaces (graph, flashcards) stay within the warm-neutral system.
+
+### Style positioning
+
+**Label:** **Restrained editorial** — not stark minimalism, not SaaS product UI.
+
+| Reads as | Does not read as |
+| --- | --- |
+| Daylight on good paper, hireable clarity | Sterile white-box minimal |
+| Professional personal brand | Dev-bro / creator chaos |
+| Calm long-form reading | Dashboard or marketing template |
+
+**Minimal in discipline** (one accent, one type family, flat-first). **Not minimal in look** (warm tints, cards, notes tools, tactile hovers). See **PRODUCT.md** for voice and anti-references.
+
+### Alternative directions (exploration only)
+
+Shortlist if the brand needs a sharper pivot later — prototype on one surface before a site-wide retheme:
+
+1. **Document / institutional** — memo/briefing layout; rules and columns; highest client-safe trust.
+2. **Typographic authority** — distinctive serif display + sans body; magazine hierarchy without template eyebrows.
+3. **Committed color** — one saturated hue carries 30–60% of surface; everything else quiet.
+4. **Monochrome instrument** — cool neutrals, tighter grid; notes tools feel native.
+
+Do not mix directions on one page without narrative reason. Identity-preservation wins: variants should extend **The Quiet Study**, not replace it silently.
 
 ## Colors
 
@@ -119,6 +143,15 @@ The palette is **warm paper and charcoal ink**: low chroma, slightly cream body,
 - **Deep Ground** (`#121110`): Deepest dark theme backdrop and small UI anchors where the theme uses `dark` as a solid (for example theme switcher track).
 
 Dark mode mirrors these roles with **`darkmode-*` CSS variables** (see `data/theme.json` and `tailwind-plugin/tw-theme.js`): surfaces darken, ink lightens, borders deepen, and the **accent fill inverts** so contrast ratios stay in family.
+
+### Functional (status & tools)
+
+Reserved for **feedback and data visualization**, not brand decoration. Each has light and dark variants in `data/theme.json`.
+
+- **Warning** (`#b45309` / dark `#fbbf24`): Caution banners, dev-only notices.
+- **Error** (`#991b1b` ink on `#fef2f2` surface): Broken links, validation failures.
+- **Success** (`#15803d` / dark `#4ade80`): Positive confirmation states.
+- **Graph weak link** (`#c27803`): Low-weight edges in the notes graph canvas.
 
 ### Named Rules
 
@@ -196,6 +229,16 @@ Atmospheric **page headers** may use a **soft vertical gradient** (`from-surface
 ### Signature: Prose long-form
 
 - **`.content` prose** applies typography plugin styling: **headings** use token-linked colors, **blockquotes** are **large, rounded, bordered** with **tinted background** (editorial pull-quote feel), **code** picks up **primary** ink for inline code, **links** underline and **hover to primary**.
+
+### Notes garden
+
+The notes section is a **second product surface** on the same system: no second palette, no dev-tool dark chrome. Cards, filters, and graph controls inherit blog-card language.
+
+- **Note card (`notes-card`):** Same **`rounded-xl` (`12px`)**, **`border-divider`**, **`bg-elevated`**, **`shadow-sm`** as blog cards. Title uses **accent** with a **subtle underline** that strengthens on hover/focus. Hover lifts with **accent border** and a **soft ink-tinted shadow** (`0 4px 16px` at 8% ink). Tags are **surface pills** with accent border; hover inverts to **accent fill**.
+- **Toolbar / filters:** Reuses **`.btn` / `.btn-sm`** primary and outline variants. Active filter = **filled accent**; inactive = **outline**. Count suffixes use muted ink (`notes-filter__count`).
+- **Graph view:** Canvas sits on **`bg-elevated`** with **`border-divider`** frame. Controls are **44px touch targets**, **`rounded-md` (`6px`)**, surface fill, divider border; pressed/hover states tint toward **accent** (8% mix on surface). Tooltip is a small elevated panel, not a floating neon HUD.
+- **Flashcards:** **`rounded-lg` (`8px`)**, **`min-height 10–12rem`**, front on **surface**, back on **elevated**. Flip uses **350ms ease**; reduced motion **crossfades** faces instead of 3D rotate.
+- **Backlinks / stats:** Stat tiles are **surface** on **elevated** panel, **`rounded-lg`**, divider border. Large values use **700 weight, −0.02em tracking**; labels are **13px muted ink**. Jump pills are **full-radius** (`999px`) surface chips.
 
 ## Do's and Don'ts
 

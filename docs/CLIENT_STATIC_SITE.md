@@ -13,7 +13,7 @@ JoRap.com is the reference implementation. Clone this pattern for freelance clie
 ### 2. Cloudflare Pages
 
 - [ ] **Workers & Pages → Create → Connect to Git** → pick the repo.
-- [ ] Production branch: `main`.
+- [ ] Production branch: `master` (or your default; JoRap uses `master`).
 - [ ] Build command: `pnpm run deploy` (or `npm run deploy` if no pnpm).
 - [ ] Build output directory: `public`.
 - [ ] **Settings → Build → Variables** — set `NODE_VERSION` and `GO_VERSION`. These are *build-time* vars; `wrangler.toml [vars]` are runtime-only and won't apply at build. Hugo version is handled in-repo by `scripts/ensureHugo.mjs`.
@@ -56,9 +56,18 @@ Pin tool versions. Version drift between laptop and Cloudflare is the most commo
 
 ### 5. DNS
 
-- [ ] Add custom domain in Pages.
+- [ ] Add **both** apex and `www` as custom domains in Pages (e.g. `jorap.com` and `www.jorap.com`).
 - [ ] Point domain DNS to Cloudflare (registrar or CF DNS).
-- [ ] Pick **www** or **apex** and redirect the other (`_redirects` file).
+- [ ] Pick **www** or **apex** as canonical and redirect the other in `static/_redirects` (Hugo copies it to `public/_redirects`).
+
+JoRap pattern (apex → www):
+
+```
+http://example.com/* https://www.example.com/:splat 301!
+https://example.com/* https://www.example.com/:splat 301!
+```
+
+Both hostnames must be attached in Pages or the redirect target will 404.
 
 ### 6. Optional CMS (`/admin`)
 
