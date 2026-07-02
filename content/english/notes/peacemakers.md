@@ -58,4 +58,3 @@ cards:
     back: "Peace is work - truth plus making peace."
 draft: false
 ---
--

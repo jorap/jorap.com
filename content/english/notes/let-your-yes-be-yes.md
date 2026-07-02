@@ -40,4 +40,3 @@ cards:
     back: "Simple yes or no - no spin."
 draft: false
 ---
--

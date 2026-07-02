@@ -49,4 +49,3 @@ cards:
     back: "Closeness restored - not re-earning heaven."
 draft: false
 ---
--

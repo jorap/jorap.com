@@ -65,4 +65,3 @@ cards:
     back: "Faith saves - cross shapes daily thanks."
 draft: false
 ---
--

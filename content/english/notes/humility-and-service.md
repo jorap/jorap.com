@@ -52,4 +52,3 @@ cards:
     back: "Servant of all - not title grabbed."
 draft: false
 ---
--

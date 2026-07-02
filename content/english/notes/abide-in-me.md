@@ -52,4 +52,3 @@ cards:
     back: "His words - read Scripture."
 draft: false
 ---
--

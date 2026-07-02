@@ -57,4 +57,3 @@ cards:
     back: "Standing settled at faith - confess, keep walking."
 draft: false
 ---
--

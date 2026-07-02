@@ -62,4 +62,3 @@ cards:
     back: "Nothing from God's love in Christ."
 draft: false
 ---
--

@@ -56,4 +56,3 @@ cards:
     back: "Slow the moment - tone from Spirit."
 draft: false
 ---
--

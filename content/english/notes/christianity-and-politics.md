@@ -53,4 +53,3 @@ cards:
     back: "Ultimate allegiance is Christ - not my ballot."
 draft: false
 ---
--

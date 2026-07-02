@@ -41,4 +41,3 @@ cards:
     back: "Do what he said - act today."
 draft: false
 ---
--

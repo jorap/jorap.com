@@ -51,4 +51,3 @@ cards:
     back: "Mercy first - person in front."
 draft: false
 ---
--

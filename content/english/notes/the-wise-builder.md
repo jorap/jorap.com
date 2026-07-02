@@ -43,4 +43,3 @@ cards:
     back: "Obey one command Jesus gave."
 draft: false
 ---
--

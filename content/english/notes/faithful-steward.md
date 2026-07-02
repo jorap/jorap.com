@@ -59,4 +59,3 @@ cards:
     back: "Yes - faithful steward, not the audience."
 draft: false
 ---
--

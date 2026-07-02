@@ -58,4 +58,3 @@ cards:
     back: "Am I being neighbor to them?"
 draft: false
 ---
--

@@ -40,4 +40,3 @@ cards:
     back: "Kingdom first doesn't excuse lawful duty."
 draft: false
 ---
--

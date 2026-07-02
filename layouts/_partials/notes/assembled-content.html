@@ -34,7 +34,7 @@
 {{- end -}}
 
 {{- $body := $page.RawContent | strings.TrimSpace -}}
-{{- if $body -}}
+{{- if and $body (ne $body "-") -}}
   {{- $parts = $parts | append $body -}}
 {{- end -}}
 

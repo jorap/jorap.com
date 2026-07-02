@@ -54,4 +54,3 @@ cards:
     back: "Humble - let the Father get credit."
 draft: false
 ---
--

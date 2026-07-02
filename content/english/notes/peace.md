@@ -48,4 +48,3 @@ cards:
     back: "Trust Father - pray, then act."
 draft: false
 ---
--

@@ -56,4 +56,3 @@ cards:
     back: "Faith saves - obedience responds."
 draft: false
 ---
--

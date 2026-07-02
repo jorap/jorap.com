@@ -41,4 +41,3 @@ cards:
     back: "Enter by faith today."
 draft: false
 ---
--

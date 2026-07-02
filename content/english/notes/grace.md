@@ -65,4 +65,3 @@ cards:
     back: "The gift saves - mercy spared wrath first."
 draft: false
 ---
--

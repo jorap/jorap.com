@@ -49,4 +49,3 @@ cards:
     back: "God sees heart - start where only He looks."
 draft: false
 ---
--

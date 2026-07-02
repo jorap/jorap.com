@@ -51,4 +51,3 @@ cards:
     back: "Rest on promise first - gladness follows."
 draft: false
 ---
--

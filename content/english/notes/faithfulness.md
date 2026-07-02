@@ -53,4 +53,3 @@ cards:
     back: "Saved by faith - faithfulness follows."
 draft: false
 ---
--

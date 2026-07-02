@@ -43,4 +43,3 @@ cards:
     back: "Go make disciples - not hoard in garden."
 draft: false
 ---
--

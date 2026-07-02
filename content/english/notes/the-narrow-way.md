@@ -45,4 +45,3 @@ cards:
     back: "I take narrow - don't follow the crowd."
 draft: false
 ---
--

@@ -53,4 +53,3 @@ cards:
     back: "Whole life of faithfulness - not one week."
 draft: false
 ---
--

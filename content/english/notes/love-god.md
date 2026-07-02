@@ -45,4 +45,3 @@ cards:
     back: "Pray, read, or serve - one faculty."
 draft: false
 ---
--

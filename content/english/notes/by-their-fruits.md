@@ -46,4 +46,3 @@ cards:
     back: "What fruit does it produce - not charisma?"
 draft: false
 ---
--

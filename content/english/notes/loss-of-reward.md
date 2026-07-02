@@ -70,4 +70,3 @@ cards:
     back: "Confess, restore walk - standing on Christ stays."
 draft: false
 ---
--

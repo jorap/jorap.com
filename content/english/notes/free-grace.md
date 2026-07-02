@@ -69,4 +69,3 @@ cards:
     back: "Grace through faith - Christ paid the fare."
 draft: false
 ---
--

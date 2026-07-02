@@ -59,4 +59,3 @@ cards:
     back: "Justification - standing on Christ stays."
 draft: false
 ---
--

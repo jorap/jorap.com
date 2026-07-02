@@ -52,4 +52,3 @@ cards:
     back: "Gold, silver, stones - not wood hay stubble."
 draft: false
 ---
--

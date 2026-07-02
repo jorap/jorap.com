@@ -49,4 +49,3 @@ cards:
     back: "One Master - drop anxious serving of tomorrow."
 draft: false
 ---
--

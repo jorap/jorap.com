@@ -49,4 +49,3 @@ cards:
     back: "Pray first - then act on the numbers."
 draft: false
 ---
--

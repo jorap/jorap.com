@@ -74,4 +74,3 @@ cards:
     back: "Daily sanctification - not one sprint."
 draft: false
 ---
--

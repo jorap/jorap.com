@@ -48,4 +48,3 @@ cards:
     back: "Father's glory - not applause."
 draft: false
 ---
--

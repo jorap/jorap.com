@@ -52,4 +52,3 @@ cards:
     back: "Father's kindness - bless both kinds."
 draft: false
 ---
--

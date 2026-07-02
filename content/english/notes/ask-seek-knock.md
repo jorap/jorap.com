@@ -41,4 +41,3 @@ cards:
     back: "Seek in Scripture - open the Book."
 draft: false
 ---
--

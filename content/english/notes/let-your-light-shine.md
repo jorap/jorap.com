@@ -46,4 +46,3 @@ cards:
     back: "So others glorify God - don't hide."
 draft: false
 ---
--

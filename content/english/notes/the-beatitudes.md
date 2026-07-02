@@ -66,4 +66,3 @@ cards:
     back: "Kingdom of heaven - blessed are persecuted."
 draft: false
 ---
--

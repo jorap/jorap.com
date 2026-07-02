@@ -52,4 +52,3 @@ cards:
     back: "Faithful acts compound - Father repays."
 draft: false
 ---
--
