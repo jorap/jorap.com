@@ -1,7 +1,7 @@
 ---
 title: "Reconcile Before the Review"
 meta_title: "Reconcile Before the Review - Fix the Relationship First"
-description: "If a colleague still has something against me, I go address it before the quarterly review, the launch demo, or the reorg meeting."
+description: "Reconcile before the review - fix the relationship before OKRs, demos, or reorg meetings."
 key_concept: |
   Process doesn't heal a broken trust link.
   
@@ -31,7 +31,7 @@ relationships:
 slug: "reconcile-before-the-review"
 date: "2026-06-21 14:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Workplace", "Ethics", "Leadership", "Eternal Principles", "Reconciliation"]
 aliases: ["fix the relationship first"]

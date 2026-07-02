@@ -1,7 +1,7 @@
 ---
 title: "Heed Every Near-Miss"
 meta_title: "Heed Every Near-Miss - Survival Does Not Prove Safety"
-description: "Treat a close call as evidence the system nearly produced serious harm - not as proof the activity was safe because nobody died this time."
+description: "A close call means the system nearly failed, not that we got proof the activity was safe because nobody died."
 key_concept: |
   When nobody gets injured, organizations often relax.
   
@@ -37,7 +37,7 @@ relationships:
 slug: "heed-every-near-miss"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Leadership", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Safety", "Leadership", "Risk Management", "Learning", "Systems Thinking"]
 aliases: ["near miss investigation", "survival is not safety", "heed every near miss"]

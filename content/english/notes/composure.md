@@ -1,7 +1,7 @@
 ---
 title: "Composure"
 meta_title: "Composure - Steady When the Room Isn't"
-description: "Steady tone and pace when the room isn't - people read calm as competence."
+description: "When the room spikes, I slow my tone so people read calm instead of panic."
 key_concept: |
   Steady tone and pace when the room isn't - people read calm as competence.
   
@@ -28,7 +28,7 @@ relationships:
 slug: "composure"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Leadership", "Performance", "Self-Control"]
 featured: false

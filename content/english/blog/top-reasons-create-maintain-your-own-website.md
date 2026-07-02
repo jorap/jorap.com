@@ -7,6 +7,13 @@ image: "/images/website.jpg"
 categories: ["Website", "Ideas", "Tips"]
 author: "JoRap"
 tags: ["Internet", "Branding", "Content", "Business", "Personal Branding", "Online Presence", "Self-Hosting", "Web Ownership", "Blogging", "Website Building", "Digital Independence", "Content Ownership", "Portfolio", "Personal Website", "Platform Risk", "Publishing", "Digital Garden", "PKM", "Note Taking"]
+related_notes:
+  - drafting-in-public
+  - digital-garden
+  - commonplace-book
+  - sketchpad
+  - note-relationships
+  - the-garage-concept
 featured: false
 draft: false
 ---

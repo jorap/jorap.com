@@ -1,7 +1,7 @@
 ---
 title: "Follow Their Lead"
 meta_title: "Follow Their Lead - Connect Without Taking Over"
-description: "I join their world before I redirect it - their activity, topic, pace, or starting point. I pay attention first. I can suggest a better way later; the first move is to see what matters to them, not to steer."
+description: "I join their world - their topic, pace, starting point - before I try to steer."
 key_concept: "I join their world before I redirect it - their activity, topic, pace, starting point."
 examples:
   - "My teammate wanted to run a inbound play I'd never seen - I ran it once before I told him how I'd do it. Connection first, critique second."
@@ -25,7 +25,7 @@ relationships:
 slug: "follow-their-lead"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Relationships", "Communication", "Listening", "Respect"]
 featured: false

@@ -1,7 +1,7 @@
 ---
 title: "Synthesis as a Goal"
 meta_title: "Synthesis as a Goal - Notes Should Combine"
-description: "Merging sources into what I believe and can defend - not a quote collection."
+description: "I merge sources into what I believe and can defend - a quote pile isn't the goal."
 key_concept: |
   Collecting quotes isn't PKM for me.
   
@@ -22,7 +22,7 @@ relationships:
 slug: "synthesis-as-a-goal"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Synthesis", "PKM", "Writing", "Research", "Second Brain", "Express", "Academic"]
 aliases: ["Research Notes", "note taking for researchers"]

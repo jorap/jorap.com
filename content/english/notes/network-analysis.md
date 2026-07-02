@@ -1,7 +1,7 @@
 ---
 title: "Network Analysis"
 meta_title: "Network Analysis"
-description: "Study links and hubs in a graph - who connects whom, what's isolated."
+description: "I look at which notes connect everything else - those hubs tell me where the garden actually lives."
 key_concept: |
   Study links and hubs in a graph - who connects whom, what's isolated.
   
@@ -23,7 +23,7 @@ relationships:
 slug: "network-analysis"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["PKM", "Graph"]
 featured: false

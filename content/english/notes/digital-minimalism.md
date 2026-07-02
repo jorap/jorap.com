@@ -1,7 +1,7 @@
 ---
 title: "Digital Minimalism"
 meta_title: "Digital Minimalism for Note-Takers"
-description: "Fewer apps, fewer sync layers, fewer notifications - my PKM got better when I stopped collecting tools. Overlap with [[Treasure in Heaven]]: less earthly accumulation, clearer allegiance. Political feeds are the same trap - [[Christianity and Politics]] and [[Signal vs Noise]] keep the scroll from replacing prayer."
+description: "My notes got sharper when I dropped extra apps, sync layers, and notifications I wasn't really using."
 key_concept: |
   Fewer apps and less syncing.
   
@@ -22,7 +22,7 @@ relationships:
 slug: "digital-minimalism"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Digital Minimalism", "PKM", "Productivity", "Focus", "Note Taking", "Tools", "Mindful Tech", "Information Diet"]
 featured: false

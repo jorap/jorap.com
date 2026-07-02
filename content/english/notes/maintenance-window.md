@@ -1,7 +1,7 @@
 ---
 title: "Maintenance Window"
 meta_title: "Maintenance Window"
-description: "Scheduled time to prune, fix links, and archive - not random Sunday panic."
+description: "I block garden time on the calendar so broken links don't ambush me on a random Sunday."
 key_concept: |
   Scheduled time to prune, fix links, and archive - not random Sunday panic.
   
@@ -26,7 +26,7 @@ relationships:
 slug: "maintenance-window"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["PKM", "Review"]
 featured: false

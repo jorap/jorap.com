@@ -1,7 +1,7 @@
 ---
 title: "Rollback Principle"
 meta_title: "Rollback Principle - Undo Before You Push, Revert Before You Debug"
-description: "Know how to restore the last good state before you push - and when the new state breaks, revert first, debug second."
+description: "Restore the last good state before you push - when the new state breaks, revert first, debug second."
 key_concept: |
   If I can't explain the path back in one sentence, I'm not ready to ship.
   
@@ -52,7 +52,7 @@ relationships:
 slug: "rollback-principle"
 date: "2026-06-30 12:48:40+08:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Systems Thinking", "DevOps", "Safety", "Performance", "Leadership"]
 aliases: ["rollback", "revert first"]

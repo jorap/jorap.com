@@ -1,7 +1,7 @@
 ---
 title: "Set Calm Boundaries"
 meta_title: "Set Calm Boundaries - Limit the Behavior, Not the Person"
-description: "I name one clear limit on behavior in a steady voice - not a character attack. The relationship can stay warm while the line is plain: this stops, that continues."
+description: "I name one clear limit on behavior in a steady voice - not a character attack."
 key_concept: "I name one clear limit in a steady voice - behavior, not character."
 examples:
   - "A teammate kept trash-talking our own bench - I pulled him aside: \"Ride the refs if you want; don't go at our guys. That stops now.\" Same team, clear line."
@@ -22,7 +22,7 @@ relationships:
 slug: "set-calm-boundaries"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Relationships", "Communication", "Self-Control"]
 featured: false

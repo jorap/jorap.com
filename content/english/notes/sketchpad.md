@@ -1,7 +1,7 @@
 ---
 title: "Sketchpad"
 meta_title: "Sketchpad"
-description: "Private scratch space before anything goes public - drafts, diagrams, half-ideas."
+description: "I rough out shapes on paper first - drafts and diagrams before anything public."
 key_concept: |
   Rough visual thinking belongs on paper first - polish comes after the shape is right.
   
@@ -22,7 +22,7 @@ relationships:
 slug: "sketchpad"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Productivity", "Tips"]
 author: "JoRap"
 tags: ["PKM", "Digital Garden"]
 featured: false

@@ -1,7 +1,7 @@
 ---
 title: "CRDT"
 meta_title: "CRDT"
-description: "Conflict-free Replicated Data Types (CRDT) merge edits without a central lock - useful for offline-first sync."
+description: "CRDTs let two offline devices merge edits without me picking last-write-wins by clock alone."
 key_concept: |
   Conflict-free sync lets two devices edit the same note without picking a winner by timestamp alone.
   
@@ -19,7 +19,7 @@ relationships:
 slug: "crdt"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["PKM", "Tools"]
 featured: false

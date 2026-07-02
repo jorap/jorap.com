@@ -25,7 +25,7 @@ relationships:
 slug: "progressive-summarization"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity", "Tips"]
 author: "JoRap"
 tags: ["Progressive Summarization", "Tiago Forte", "PKM", "Distill", "Note Taking", "CODE Method", "Research", "Writing"]
 featured: false

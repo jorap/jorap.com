@@ -1,10 +1,9 @@
 ---
 title: "Judge Not"
 meta_title: "Judge Not - Speck and Plank"
-description: "Don't condemn others as if you're their final judge - remove your own plank before nitpicking their speck (Matthew 7:1-5)."
+description: "I don't play final judge on souls - I pull my own plank before nitpicking someone's speck."
 key_concept: |
-  Jesus forbids harsh, hypocritical condemnation - the kind that ignores my own guilt while magnifying yours.
-  
+  Jesus forbids harsh, hypocritical condemnation - the kind that ignores my own guilt while magnifying yours. (Matthew 7:1-5).
   He doesn't forbid all moral discernment: the same sermon says judge trees by fruit (Matthew 7:16-20). Garden parallel: the [Issues](/notes/issues/) page lists broken wikilinks to fix - diagnose the graph, don't condemn the author. [[Mercy]] and [[Free Grace]] remind me I stood on mercy first.
 examples:
   - "I spotted my teammate's travel in five seconds and missed my own lazy dribble - judge not starts with the log in my eye."
@@ -22,7 +21,7 @@ relationships:
 slug: "judge-not"
 date: "2026-06-19 09:25:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Judgment"]
 aliases: ["speck and plank", "do not judge"]
@@ -44,3 +43,4 @@ cards:
     back: "Fix my plank - audit myself first."
 draft: false
 ---
+-

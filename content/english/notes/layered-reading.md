@@ -1,7 +1,7 @@
 ---
 title: "Layered Reading"
 meta_title: "Layered Reading"
-description: "Pass through the same source at increasing depth - skim, highlight, summarize."
+description: "I don't read a book once and pretend I absorbed it - I pass through again when I need more."
 key_concept: |
   Pass through the same source at increasing depth - skim, highlight, summarize.
   
@@ -23,7 +23,7 @@ relationships:
 slug: "layered-reading"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Productivity", "Tips"]
 author: "JoRap"
 tags: ["PKM", "Learning"]
 featured: false

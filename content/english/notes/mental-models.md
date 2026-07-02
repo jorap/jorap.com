@@ -1,7 +1,7 @@
 ---
 title: "Mental Models"
 meta_title: "Mental Models - Lenses I Actually Use"
-description: "Mental models are shortcuts for thinking. I keep a short list of ones that survived contact with real decisions - not every model on Wikipedia."
+description: "I keep a short list of thinking shortcuts that survived real decisions - not every model on Wikipedia."
 key_concept: Mainstream mental models for decisions and performance - plus the ones I keep notes on when they earn repeat use.
 examples:
   - "The restaurant had twelve menu tweaks on the whiteboard - I picked the two that actually cut ticket times and shelved the rest."
@@ -16,7 +16,7 @@ relationships:
 slug: "mental-models"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Thinking"]
 author: "JoRap"
 tags: ["Mental Models", "Thinking", "PKM", "Decision Making", "MOC", "Learning", "Performance", "Productivity"]
 aliases: ["mental-models-list", "Mental Models List"]

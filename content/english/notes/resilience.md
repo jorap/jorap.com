@@ -1,7 +1,7 @@
 ---
 title: "Resilience"
 meta_title: "Resilience - Bounce and Stay Useful"
-description: "You take the hit, recover, and stay useful - not pretend the hit didn't hurt."
+description: "I bend without lying to myself that the hit didn't cost anything."
 key_concept: |
   You take the hit, recover, and stay useful - not pretend the hit didn't hurt.
   
@@ -25,7 +25,7 @@ relationships:
 slug: "resilience"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Performance", "Mindset", "Character"]
 featured: false

@@ -1,7 +1,7 @@
 ---
 title: "Graph View Analytics"
 meta_title: "Graph View Analytics - What the Graph Actually Tells You"
-description: "Graph looks sci-fi. Mostly I use it to sort notes by link rank - top 20%, middle, bottom 20%, no body links, and orphans."
+description: "I use the link graph to spot orphans and over-connected hubs, not because it looks sci-fi pretty."
 key_concept: "The link map shows notes with no links, notes with too many, and gaps I forgot to connect."
 examples:
   - "I laid out the shift handoff chart and three tasks had zero arrows to an owner - the orphan list was my fix-this-week, not a pretty poster."
@@ -19,7 +19,7 @@ relationships:
 slug: "graph-view-analytics"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["PKM", "Linking", "Analytics", "Note Taking", "Graph", "Meta"]
 featured: false

@@ -8,6 +8,13 @@ categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Obsidian", "Hugo", "PKM", "Publishing", "Markdown", "Workflow", "Digital Garden", "Note Taking"]
 slug: "obsidian-vs-hugo"
+related_notes:
+  - the-garage-concept
+  - drafting-in-public
+  - future-proofing-knowledge
+  - digital-garden
+  - note-relationships
+  - commonplace-book
 featured: false
 draft: true
 ---

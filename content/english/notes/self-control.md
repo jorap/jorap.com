@@ -1,7 +1,7 @@
 ---
 title: "Self-Control"
 meta_title: "Self-Control - Choosing the Next Move on Purpose"
-description: "You choose the next move instead of the urge choosing for you."
+description: "I pick the next move on purpose - the urge doesn't get to drive."
 key_concept: |
   You choose the next move instead of the urge choosing for you.
   
@@ -35,7 +35,7 @@ relationships:
 slug: "self-control"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Habits", "Performance", "Character"]
 aliases: ["self control"]

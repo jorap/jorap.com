@@ -1,10 +1,9 @@
 ---
 title: "Peacemakers"
 meta_title: "Peacemakers - Blessed Are the Peacemakers"
-description: "People who actively pursue peace, not just keep quiet - Jesus blessed them and called them children of God (Matthew 5:9)."
+description: "I pursue peace on purpose - repair, truth in love, de-escalation - not just staying quiet."
 key_concept: |
-  Peacemaking is work: reconciliation, truth spoken in love, de-escalation when others want a fight.
-  
+  Peacemaking is work: reconciliation, truth spoken in love, de-escalation when others want a fight. (Matthew 5:9).
   It's not peace-at-any-price or avoiding hard conversations. The blessing ties peacemaking to family resemblance - acting like the Father who reconciled me to Himself through [[Free Grace]] before I reconciled with anyone.
 examples:
   - "Two teammates were feuding in the locker room - I didn't pick a side, I asked what it would take to fix it before the next game."
@@ -37,7 +36,7 @@ relationships:
 slug: "peacemakers"
 date: "2026-06-19 08:45:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Beatitudes", "Sermon on the Mount"]
 aliases: ["blessed are the peacemakers"]
@@ -59,3 +58,4 @@ cards:
     back: "Peace is work - truth plus making peace."
 draft: false
 ---
+-

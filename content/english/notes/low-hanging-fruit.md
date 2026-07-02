@@ -19,7 +19,7 @@ relationships:
 slug: "low-hanging-fruit"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Thinking"]
 author: "JoRap"
 tags: ["Mental Models", "Productivity", "Performance", "Prioritization", "Focus", "Decision Making", "PKM"]
 aliases: ["Low-Hanging Fruit"]

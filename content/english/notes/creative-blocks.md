@@ -1,7 +1,7 @@
 ---
 title: "Creative Blocks"
 meta_title: "Creative Blocks - When the Notes Don't Become Output"
-description: "I have thousands of notes and still stare at a blank page sometimes. Creative blocks aren't solved by more capture - here's what actually unsticks me."
+description: "Thousands of notes and I still stare at a blank page - one small ship action usually unsticks me."
 key_concept: "Creative blocks aren't solved by more capture - one small ship action usually unsticks me."
 examples:
   - "My kid stared at a blank training log for twenty minutes - I told her to write one messy line about today's warmup and the block lifted once something existed on the paper."
@@ -19,7 +19,7 @@ relationships:
 slug: "creative-blocks"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Creative Blocks", "Writing", "PKM", "Productivity", "Express", "Second Brain"]
 aliases: ["Writer's Block"]

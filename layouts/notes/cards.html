@@ -55,7 +55,7 @@
               <div class="row notes-cards-grid">
                 {{- range $cards -}}
                   {{- $sets := delimit (.sets | default slice) "," -}}
-                  <div class="md:col-6 mb-8" data-notes-cards-item data-notes-cards-sets="{{ $sets }}">
+                  <div class="md:col-6 lg:col-4 mb-8" data-notes-cards-item data-notes-cards-sets="{{ $sets }}">
                     {{ partial "notes/flashcard.html" (dict "Front" .front "Back" .back "Source" .source "Class" "h-full") }}
                   </div>
                 {{- end -}}

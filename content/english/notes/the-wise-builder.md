@@ -1,10 +1,9 @@
 ---
 title: "The Wise Builder"
 meta_title: "The Wise Builder - Hear and Do"
-description: "Hear Jesus' words and do them - build on rock, not sand (Matthew 7:24-27)."
+description: "Hearing the words isn't enough - I build on rock when I actually do what Jesus said."
 key_concept: |
-  Both builders hear the sermon; only one obeys.
-  
+  Both builders hear the sermon; only one obeys. (Matthew 7:24-27).
   Storms reveal which foundation held. Under [[Free Grace]], doing isn't what saves - faith saves - but genuine hearing produces action. [[Faith and Works]] names the order: works prove faith alive, they don't buy heaven. Empty "Lord, Lord" without doing the Father's will is the fool's house (Matthew 7:21-23) - see [[The Narrow Way]] and [[Loss of Reward]] for false profession vs believer who stumbles. PKM mirror: [[The Collector's Fallacy]] - hearing sermons and saving articles without [[Creative Output]] is sand; obedience and output are rock.
 examples:
   - "We heard the coach's lecture on discipline and still skipped film study Tuesday - hearing without doing is sand; storms show which builder you are."
@@ -22,7 +21,7 @@ relationships:
 slug: "the-wise-builder"
 date: "2026-06-19 09:50:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Obedience"]
 aliases: ["house on the rock", "hear and do", "Wise Builder"]
@@ -44,3 +43,4 @@ cards:
     back: "Obey one command Jesus gave."
 draft: false
 ---
+-

@@ -1,7 +1,7 @@
 ---
 title: "Stay Effective in New Conditions"
 meta_title: "Stay Effective in New Conditions - Strength Outside the Comfort Zone"
-description: "What made you strong in one room can make you weak in the next."
+description: "The habit that worked in my last role can flop in the next room - I retune instead of clinging."
 key_concept: |
   What made you strong in one room can make you weak in the next.
   
@@ -31,7 +31,7 @@ relationships:
 slug: "stay-effective-in-new-conditions"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Leadership", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Performance", "Adaptability", "Resilience", "Career"]
 aliases: ["effectiveness in new conditions"]

@@ -1,7 +1,7 @@
 ---
 title: "Listen Before Fixing"
 meta_title: "Listen Before Fixing - Hear It Before You Solve It"
-description: "I let the other person finish before I hand them advice, correction, or a solution. I repeat what I heard in my own words, then respond. Feeling heard comes before being helped."
+description: "Listen before fixing - repeat what you heard, then respond. Feeling heard comes before being helped."
 key_concept: "I let people finish before I hand them advice, correction, or a fix."
 examples:
   - "A younger player kept explaining why he missed the free throw - I almost jumped in with form tips. I waited, said back what he thought went wrong, then offered one drill."
@@ -25,7 +25,7 @@ relationships:
 slug: "listen-before-fixing"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Relationships", "Communication", "Listening"]
 featured: false

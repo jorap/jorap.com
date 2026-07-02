@@ -1,7 +1,7 @@
 ---
 title: "Control the Rhythm"
 meta_title: "Control the Rhythm - Don't Let Urgency Set Your Pace"
-description: "Whoever sets the pace often steers the room."
+description: "I set pace in hard conversations before adrenaline picks it for me."
 key_concept: |
   Whoever sets the pace often steers the room.
   
@@ -34,7 +34,7 @@ relationships:
 slug: "control-the-rhythm"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Leadership", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Performance", "Leadership", "Composure", "Negotiation"]
 aliases: ["control the pace"]

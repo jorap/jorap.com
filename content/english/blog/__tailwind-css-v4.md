@@ -8,6 +8,12 @@ categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Tailwind CSS", "CSS", "Web Development", "Hugo", "Hugoplate", "Frontend"]
 slug: "tailwind-css-v4"
+related_notes:
+  - future-proofing-knowledge
+  - the-garage-concept
+  - free-tier-hosting-stack
+  - git-based-cms
+  - metadata-strategy
 featured: false
 draft: true
 ---

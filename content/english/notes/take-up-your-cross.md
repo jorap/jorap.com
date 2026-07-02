@@ -1,7 +1,7 @@
 ---
 title: "Take Up Your Cross"
 meta_title: "Take Up Your Cross - Daily Discipleship"
-description: "Deny yourself, pick up the cross daily, and follow [[Discipleship]] - the shape of discipleship after you come to him (Luke 9:23; Matthew 16:24)."
+description: "I deny myself and follow Christ daily - choosing his will over mine, not collecting suffering points."
 key_concept: |
   The cross isn't suffering for suffering's sake; it's choosing God's will over self-will each day.
   
@@ -19,7 +19,7 @@ relationships:
 slug: "take-up-your-cross"
 date: "2026-06-19 09:40:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Discipleship", "Self-denial"]
 aliases: ["deny yourself", "daily cross"]
@@ -41,3 +41,4 @@ cards:
     back: "Do what he said - act today."
 draft: false
 ---
+-

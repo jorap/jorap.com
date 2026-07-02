@@ -1,7 +1,7 @@
 ---
 title: "There Is No Perfect Solution"
 meta_title: "There Is No Perfect Solution - Only Tradeoffs"
-description: "Waiting for the perfect tool, plan, or answer feels responsible. It's often the nirvana fallacy. Faith parallel: [[Repent and Believe]] - the kingdom is at hand now, not when you've fixed yourself."
+description: "There's no perfect solution - pick what works tired and ship instead of waiting for the ideal."
 key_concept: |
   I pick what works tired and ship.
   
@@ -19,7 +19,7 @@ relationships:
 slug: "there-is-no-perfect-solution"
 date: "2026-06-18 06:03:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Productivity", "Tips"]
+categories: ["Thinking"]
 author: "JoRap"
 tags: ["Decision Making", "Tradeoffs", "Productivity", "Mindset", "Good Enough", "Mental Models", "Problem Solving", "Prioritization", "Perfectionism", "PKM", "Note Taking"]
 aliases: ["No Perfect Solution"]

@@ -8,6 +8,8 @@ categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Sveltia CMS", "Hugo", "CMS", "Git", "Static Sites", "Content Management"]
 slug: "sveltia-cms"
+related_notes:
+  - git-based-cms
 featured: false
 draft: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: "The Knowledge Lifecycle"
 meta_title: "The Knowledge Lifecycle - From Spark to Archive"
-description: "Ideas have lifecycles in my vault: capture, active use, evergreen, decay, archive. I match effort to stage."
+description: "Ideas move through capture, use, polish, fade, and archive in my vault - I match effort to the stage."
 key_concept: "Ideas move through capture, use, polish, fade, and archive - spend effort where the note actually is."
 examples:
   - "The new set play lives in \"learning\" for three weeks, graduates to \"game plan,\" then gets archived when we change offense."
@@ -19,7 +19,7 @@ relationships:
 slug: "the-knowledge-lifecycle"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Knowledge Lifecycle", "PKM", "Archive", "Evergreen Notes", "Workflow", "Organization"]
 aliases: ["Knowledge Lifecycle", "Note Maturity"]

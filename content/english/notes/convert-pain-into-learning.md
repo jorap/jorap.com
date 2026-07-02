@@ -1,7 +1,7 @@
 ---
 title: "Convert Pain Into Learning"
 meta_title: "Convert Pain Into Learning - Failure Must Produce Correction"
-description: "Failure becomes useful only when it produces correction."
+description: "I only gain from a failure if it changes how I act the next time the situation shows up."
 key_concept: |
   Failure becomes useful only when it produces correction.
   
@@ -37,7 +37,7 @@ relationships:
 slug: "convert-pain-into-learning"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Leadership", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Performance", "Learning", "Growth", "Continuous Improvement"]
 aliases: ["learn from failure"]

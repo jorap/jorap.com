@@ -1,7 +1,7 @@
 ---
 title: "The Garage Concept"
 meta_title: "The Garage Concept - Messy Workshop, Clean Showroom"
-description: "The garage holds tools, scraps, experiments. The showroom is the blog. I don't confuse the two."
+description: "My vault is the garage for scraps and experiments - the blog is the showroom, and I keep them separate."
 key_concept: |
   The garage holds tools, scraps, experiments. The showroom is the blog. I don't confuse the two.
   
@@ -25,7 +25,7 @@ relationships:
 slug: "the-garage-concept"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Garage Concept", "Digital Garden", "PKM", "Publishing", "Workflow", "Privacy", "Hugo", "Static Site Generator", "Website Building"]
 aliases: ["Garage Concept"]

@@ -1,10 +1,9 @@
 ---
 title: "Forgiveness"
 meta_title: "Forgiveness - As the Father Forgives You"
-description: "Forgive others from the heart, as the Father forgives you - Jesus tied extending forgiveness to walking in the grace already received (Matthew 6:14-15, 18:21-35)."
+description: "I extend the forgiveness I already received, not ledger-keeping on debts Christ cleared."
 key_concept: |
-  The [[Ask Seek Knock]] builds forgiveness into daily rhythm.
-  
+  The [[Ask Seek Knock]] builds forgiveness into daily rhythm. (Matthew 6:14-15, 18:21-35).
   The parable of the unforgiving servant (Matthew 18) makes the math plain: the king forgave an unpayable debt - picture of [[Free Grace]] already given - and the servant's refusal to forgive a small debt exposed a heart out of step with [[Mercy]]. Same move as [[Sunk Cost Fallacy]] in reverse: I stop treating past hurt as a reason to keep collecting on a debt that's already been cleared. Seventy times seven ends the ledger-keeping. For believers, unforgiveness chokes fellowship and joy; it doesn't undo eternal life bought by faith ([[Standing vs Fellowship]] and [[Loss of Reward]] keep the categories straight).
 examples:
   - "My kid hurt my feelings at breakfast and I said \"it's fine\" while nursing the grudge - forgiveness is releasing the debt, not pretending it didn't matter."
@@ -34,7 +33,7 @@ relationships:
 slug: "forgiveness"
 date: "2026-06-19 08:25:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Forgiveness"]
 aliases: ["forgive from the heart"]
@@ -56,3 +55,4 @@ cards:
     back: "Forgive - release the small debt."
 draft: false
 ---
+-

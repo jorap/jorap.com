@@ -1,10 +1,9 @@
 ---
 title: "Gentleness"
 meta_title: "Gentleness - Strength Under Control the Spirit Grows"
-description: "Strength under control the Spirit grows in believers - not weakness, not sharp correction that trades volume for love (Galatians 5:22)."
+description: "Gentleness fruit is strength held back on purpose, not weakness or loud correction that skips love."
 key_concept: |
-  [[Fruits of the Spirit]] lists gentleness beside patience and self-control - power restrained, not power absent.
-  
+  [[Fruits of the Spirit]] lists gentleness beside patience and self-control - power restrained, not power absent. (Galatians 5:22).
   [[Humility and Service]] is the garden echo: greatness is serving, not being served; the Son washed feet the night before the cross. [[Listen Before Fixing]] is gentleness in conversation - hear before you prescribe. [[The Beatitudes]] bless the meek - strength without grasping for status.
 examples:
   - "Correction with my kid turned sharp - volume up, gentleness gone - Galatians gentleness is strength under control, not force."
@@ -37,7 +36,7 @@ relationships:
 slug: "gentleness"
 date: "2026-07-01 21:00:00+08:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Galatians", "Discipleship"]
 aliases: ["fruit of gentleness", "Galatians gentleness", "meekness"]
@@ -55,3 +54,4 @@ cards:
     back: "Humble - let the Father get credit."
 draft: false
 ---
+-

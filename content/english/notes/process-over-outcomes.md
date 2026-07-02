@@ -1,7 +1,7 @@
 ---
 title: "Process Over Outcomes"
 meta_title: "Process Over Outcomes - Why James Clear's Line Stuck"
-description: "Results matter, but optimizing only for outcomes wins once. I optimize for a repeatable process that wins again and again. Faith parallel: [[Take Up Your Cross]] - daily self-denial is the process; one heroic Sunday isn't."
+description: "One heroic sprint doesn't beat a routine I can rerun when motivation dips."
 key_concept: I focus on a repeatable process - I can rerun it when motivation dips.
 examples:
   - "The baker follows the same proofing steps whether it's a slow Tuesday or wedding weekend."
@@ -31,7 +31,7 @@ relationships:
 slug: "process-over-outcomes"
 date: "2026-06-18 06:06:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Productivity", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["James Clear", "Process", "Habits", "Mindset", "Atomic Habits", "Systems Thinking", "Goal Setting", "Continuous Improvement", "Self Improvement", "PKM", "Note Taking"]
 aliases: ["Process Over Outcome"]

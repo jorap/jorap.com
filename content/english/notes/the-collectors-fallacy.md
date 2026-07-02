@@ -1,7 +1,7 @@
 ---
 title: "The Collector's Fallacy"
 meta_title: "The Collector's Fallacy - Saving Isn't Learning"
-description: "Collecting articles feels like progress. It isn't. The collector's fallacy bit me until I tied saves to express deadlines. [[Treasure in Heaven]] is the faith-side mirror: hoarding what rusts instead of what lasts."
+description: "Saving articles felt like progress until I tied every save to an express deadline or cut it."
 key_concept: Collecting articles feels like progress - tie saves to express deadlines or cut them.
 examples:
   - "My recipe folder had forty saved dinners and we still ordered takeout three nights a week until I tied every save to one cooked meal."
@@ -19,7 +19,7 @@ relationships:
 slug: "the-collectors-fallacy"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Collectors Fallacy", "PKM", "Capture", "Learning", "Productivity", "Express", "Note Taking"]
 aliases: ["the collectors fallacy", "Collector's Fallacy"]

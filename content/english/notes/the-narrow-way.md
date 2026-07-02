@@ -1,7 +1,7 @@
 ---
 title: "The Narrow Way"
 meta_title: "The Narrow Way - Enter by the Narrow Gate"
-description: "Enter by the narrow gate - the road to life is hard and few find it; the broad road to destruction is easy and crowded (Matthew 7:13-14)."
+description: "The road to life is narrow and hard - the easy broad path is the one I'd drift onto."
 key_concept: |
   Enter by the narrow gate - the road to life is hard and few find it; the broad road to destruction is easy and crowded (Matthew 7:13-14).
   
@@ -23,7 +23,7 @@ relationships:
 slug: "the-narrow-way"
 date: "2026-06-19 09:10:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Discipleship"]
 aliases: ["narrow gate", "broad road", "Narrow Way"]
@@ -45,3 +45,4 @@ cards:
     back: "I take narrow - don't follow the crowd."
 draft: false
 ---
+-

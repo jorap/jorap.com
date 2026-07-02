@@ -1,7 +1,7 @@
 ---
 title: "Ethical Leadership"
 meta_title: "Ethical Leadership"
-description: "Authority used to protect people and tell the truth - not to win at their expense."
+description: "What I let slide in front of my team becomes their real standard, not what's printed on the poster."
 key_concept: |
   The standard you walk past is the standard you accept for everyone under you.
   
@@ -22,7 +22,7 @@ relationships:
 slug: "ethical-leadership"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Leadership", "Ethics"]
 featured: false

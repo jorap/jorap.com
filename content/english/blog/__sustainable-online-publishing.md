@@ -8,6 +8,13 @@ categories: ["Website", "Ideas", "Technology"]
 author: "JoRap"
 tags: ["Publishing", "Self-Hosting", "Hugo", "TiddlyWiki", "Cloudflare Pages", "Content Ownership", "Indie Web", "Digital Independence", "Open Publishing", "Platform Risk", "Blogging", "Digital Garden", "PKM"]
 slug: "sustainable-online-publishing"
+related_notes:
+  - digital-garden
+  - drafting-in-public
+  - sketchpad
+  - the-garage-concept
+  - note-relationships
+  - commonplace-book
 featured: false
 draft: true
 ---

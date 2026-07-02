@@ -1,7 +1,7 @@
 ---
 title: "Forgiveness at Work"
 meta_title: "Forgiveness at Work - Release the Ledger"
-description: "Release the debt I'm keeping on a colleague - stop replaying the slight in every meeting, forgive from the heart, keep boundaries where trust still needs rebuilding."
+description: "I release a colleague's debt from my heart without pretending the slight didn't matter or skipping boundaries where trust broke."
 key_concept: |
   Forgiving isn't pretending it didn't hurt.
   
@@ -22,7 +22,7 @@ relationships:
 slug: "forgiveness-at-work"
 date: "2026-06-21 14:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Workplace", "Ethics", "Eternal Principles", "Forgiveness", "Conflict"]
 aliases: ["release the grudge at work"]

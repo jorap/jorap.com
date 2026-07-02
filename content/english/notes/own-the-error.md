@@ -1,7 +1,7 @@
 ---
 title: "Own the Error"
 meta_title: "Own the Error - Accountability Turns Failure Into Information"
-description: "Accountability turns failure into information."
+description: "When I miss, I say I missed - blame-shifting turns a fixable bug into a long argument."
 key_concept: |
   Accountability turns failure into information.
   
@@ -40,7 +40,7 @@ relationships:
 slug: "own-the-error"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Leadership", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Performance", "Accountability", "Integrity", "Leadership"]
 aliases: ["own your mistakes"]

@@ -1,7 +1,7 @@
 ---
 title: "Evergreen vs Fleeting Notes"
 meta_title: "Evergreen vs Fleeting Notes - Two Speeds"
-description: "Fleeting notes catch sparks. Evergreen notes hold truth. I need both lanes and a clear promotion path."
+description: "Sparks belong in fleeting notes; claims I trust belong in evergreen, with a clear path between them."
 key_concept: |
   Both lanes, clear promotion rules.
   
@@ -19,7 +19,7 @@ relationships:
 slug: "evergreen-vs-fleeting-notes"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Evergreen Notes", "Fleeting Notes", "PKM", "Note Taking", "Review"]
 aliases: ["Evergreen vs Fleeting", "Fleeting Notes"]

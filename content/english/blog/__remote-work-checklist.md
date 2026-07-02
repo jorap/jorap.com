@@ -8,6 +8,13 @@ categories: ["Productivity", "Technology", "Tips"]
 author: "JoRap"
 tags: ["Remote Work", "Checklist", "Home Office", "Gear", "Laptop Bag", "Ergonomic Setup", "Work From Home", "Mobile Office", "Productivity", "Travel Setup", "PKM"]
 slug: "remote-work-checklist"
+related_notes:
+  - inbox-zero
+  - information-diet
+  - getting-things-done
+  - weekly-review-checklists
+  - attention-economy
+  - deep-work
 featured: false
 draft: true
 ---

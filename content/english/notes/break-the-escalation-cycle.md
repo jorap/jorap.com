@@ -1,7 +1,7 @@
 ---
 title: "Break the Escalation Cycle"
 meta_title: "Break the Escalation Cycle - Don't Match Snark with Snark"
-description: "When a colleague lands a sharp email or public jab, I don't match tone for tone - I break the loop before the reply-all war starts."
+description: "Break the escalation cycle - don't match tone for tone when a sharp email lands; stop the loop first."
 key_concept: |
   Not passivity - I can still set boundaries and name facts.
   
@@ -34,7 +34,7 @@ relationships:
 slug: "break-the-escalation-cycle"
 date: "2026-06-21 14:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Workplace", "Ethics", "Communication", "Eternal Principles", "Conflict"]
 aliases: ["de-escalate at work", "don't feed the reply-all war"]

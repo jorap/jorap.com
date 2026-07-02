@@ -1,7 +1,7 @@
 ---
 title: "Building a Second Brain"
 meta_title: "Building a Second Brain - Capture, Organize, Distill, Express"
-description: "Offload ideas so my head can think, not hoard."
+description: "My head is for thinking, not storing - notes hold what I'd otherwise lose."
 key_concept: |
   Offload ideas so my head can think, not hoard.
   
@@ -26,7 +26,7 @@ relationships:
 slug: "building-a-second-brain"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Second Brain", "PKM", "Note Taking", "Productivity", "TiddlyWiki", "Tiago Forte", "CODE Method", "Knowledge Management", "Capture", "Personal Wiki", "Information Architecture"]
 aliases: ["Second Brain", "CODE Method"]

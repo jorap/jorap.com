@@ -8,6 +8,13 @@ categories: ["Ideas", "Business", "Productivity"]
 author: "JoRap"
 tags: ["Jobs to Be Done", "JTBD", "Product Development", "Framework", "Customer Research", "Innovation", "Product Strategy", "Clayton Christensen", "User Needs", "Problem Solving", "PKM", "Productivity"]
 slug: "jobs-to-be-done-framework"
+related_notes:
+  - inbox-zero
+  - information-diet
+  - getting-things-done
+  - attention-economy
+  - deep-work
+  - lean-startup
 featured: false
 draft: true
 ---

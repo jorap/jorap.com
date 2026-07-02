@@ -8,6 +8,13 @@ image: "/images/feature-desktop.jpg"
 categories: ["Technology", "Productivity", "Tips"]
 author: "JoRap"
 tags: ["Computers", "Hardware", "Desktop", "Laptop", "Mobile vs Desktop", "Workflow", "Devices", "Productivity", "Remote Work", "Typing", "Multitasking", "Power User", "Work From Home", "PC vs Mobile", "Note Taking"]
+related_notes:
+  - commonplace-book
+  - mobile-capture-workflows
+  - literature-notes
+  - context-aware-capture
+  - attention-economy
+  - deep-work
 featured: false
 draft: false
 ---

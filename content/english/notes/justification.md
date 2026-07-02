@@ -1,7 +1,7 @@
 ---
 title: "Justification"
 meta_title: "Justification - Declared Righteous at Faith"
-description: "God declares me righteous through faith in Christ alone - once, at faith, before my obedience catches up (Romans 3:24, 4:5, 5:1)."
+description: "God declared me righteous at faith - before my obedience caught up."
 key_concept: |
   God declares me righteous through faith in Christ alone - once, at faith, before my obedience catches up (Romans 3:24, 4:5, 5:1).
   
@@ -35,7 +35,7 @@ relationships:
 slug: "justification"
 date: "2026-06-29 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Free Grace", "Salvation", "Faith", "Eternal Principles", "Theology"]
 aliases: ["declared righteous", "justified by faith"]
@@ -57,3 +57,4 @@ cards:
     back: "Standing settled at faith - confess, keep walking."
 draft: false
 ---
+-

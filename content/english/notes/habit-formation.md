@@ -1,7 +1,7 @@
 ---
 title: "Habit Formation"
 meta_title: "Habit Formation - Repeat Until Automatic"
-description: "Repeat a small move until it runs without debating it every morning."
+description: "I repeat one small move until it runs on autopilot instead of re-debating it every morning."
 key_concept: |
   Repeat a small move until it runs without debating it every morning.
   
@@ -34,7 +34,7 @@ relationships:
 slug: "habit-formation"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Habits", "Performance", "Productivity"]
 featured: false

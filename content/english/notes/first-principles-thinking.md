@@ -1,7 +1,7 @@
 ---
 title: "First Principles Thinking"
 meta_title: "First Principles Thinking in Your Notes"
-description: "When a note is just a quote from someone smarter, I add a section: what do I actually believe from scratch. Not the same job as [[Eternal Principles]] - those are Jesus' received teachings grounded in [[Free Grace]], not claims I reason up from zero."
+description: "When a note is just someone else's quote, I add a section on what I actually believe from scratch."
 key_concept: "When a note is only a quote, I add what I actually believe from scratch."
 examples:
   - "I kept quoting parenting advice from a podcast until I wrote what I actually believe about bedtime - first principles was my own claim, not someone else's quote."
@@ -25,7 +25,7 @@ relationships:
 slug: "first-principles-thinking"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Thinking"]
 author: "JoRap"
 tags: ["First Principles", "Thinking", "PKM", "Mental Models", "Note Taking", "Synthesis"]
 featured: false

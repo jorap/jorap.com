@@ -1,7 +1,7 @@
 ---
 title: "Eliminate Before Managing"
 meta_title: "Eliminate Before Managing - Remove the Hazard First"
-description: "Remove unnecessary danger before you stack procedures, warnings, supervision, and protective gear on top of it."
+description: "I remove unnecessary danger first instead of stacking procedures and gear on top of it."
 key_concept: |
   Those safeguards can cut risk, but they still need correct human action every time.
   
@@ -28,7 +28,7 @@ relationships:
 slug: "eliminate-before-managing"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Leadership", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Safety", "Leadership", "Risk Management", "Coaching", "Ethics"]
 aliases: ["elimination before controls"]

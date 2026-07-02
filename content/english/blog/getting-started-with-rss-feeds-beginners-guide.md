@@ -8,6 +8,13 @@ image: "/images/rss.jpg"
 categories: ["Technology", "Productivity", "Guide"]
 author: "JoRap"
 tags: ["RSS Feeds", "RSS", "Inoreader", "Content Management", "Productivity Tools", "Digital Organization", "News Reader", "Information Management", "Beginner Guide", "Internet", "Reading", "Feedly", "Syndication", "Web Reading", "Digital Minimalism", "News Aggregation", "PKM", "Research", "Second Brain", "Information Diet"]
+related_notes:
+  - synthesis-as-a-goal
+  - literature-notes
+  - digital-minimalism
+  - digital-serendipity
+  - the-second-brain-workflow
+  - attention-economy
 featured: false
 draft: false
 ---

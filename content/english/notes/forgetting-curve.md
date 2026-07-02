@@ -1,7 +1,7 @@
 ---
 title: "Forgetting Curve"
 meta_title: "Forgetting Curve"
-description: "Memory fades fast without review - Ebbinghaus curve spaced repetition fights."
+description: "I review on a schedule because memory drops fast - the forgetting curve is why I don't skip drills."
 key_concept: |
   Memory fades fast without review - Ebbinghaus curve spaced repetition fights.
   
@@ -20,7 +20,7 @@ relationships:
 slug: "forgetting-curve"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Learning", "Memory"]
 featured: false

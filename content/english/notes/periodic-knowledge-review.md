@@ -1,7 +1,7 @@
 ---
 title: "Periodic Knowledge Review"
 meta_title: "Periodic Knowledge Review - Revisit on a Schedule"
-description: "Notes rot without review. I calendar weekly and quarterly passes - inbox, projects, evergreens. Faith parallel: [[Ask Seek Knock]] - same rhythm of showing up on schedule, not only when desperate."
+description: "If I never revisit notes, they rot - I calendar weekly and quarterly passes like I'd calendar bills."
 key_concept: "Notes rot without review - calendar weekly and quarterly passes for inbox, projects, evergreens."
 examples:
   - "First Sunday I reconcile the budget - not only when the card gets declined mid-commute."
@@ -19,7 +19,7 @@ relationships:
 slug: "periodic-knowledge-review"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Review", "PKM", "Weekly Review", "Maintenance", "Second Brain", "Habits", "Note Taking"]
 featured: false

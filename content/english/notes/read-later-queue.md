@@ -1,7 +1,7 @@
 ---
 title: "Read Later Queue"
 meta_title: "Read Later Queue"
-description: "A parking lot for links you'll process later - dangerous if it becomes a graveyard."
+description: "Save for later is fine until the queue turns into a guilt pile I'll never touch."
 key_concept: |
   A parking lot for links you'll process later - dangerous if it becomes a graveyard.
   
@@ -23,7 +23,7 @@ relationships:
 slug: "read-later-queue"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Productivity", "Tips"]
 author: "JoRap"
 tags: ["PKM", "Capture"]
 featured: false

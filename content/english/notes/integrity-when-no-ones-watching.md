@@ -25,7 +25,7 @@ relationships:
 slug: "integrity-when-no-ones-watching"
 date: "2026-06-21 14:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Workplace", "Ethics", "Eternal Principles", "Integrity", "Character"]
 aliases: ["hidden integrity", "honest work offstage", "integrity when no ones watching"]

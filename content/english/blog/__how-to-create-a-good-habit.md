@@ -8,6 +8,13 @@ categories: ["Productivity", "Health", "Tips"]
 author: "JoRap"
 tags: ["Habits", "James Clear", "Atomic Habits", "Productivity", "Behavior Change", "Four Laws", "Habit Stacking", "Self Improvement", "Routine Building", "Mindset", "PKM", "Note Taking"]
 slug: "how-to-create-a-good-habit"
+related_notes:
+  - process-over-outcomes
+  - inbox-zero
+  - information-diet
+  - anti-fragile-systems
+  - periodic-knowledge-review
+  - getting-things-done
 featured: false
 draft: true
 ---

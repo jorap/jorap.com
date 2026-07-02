@@ -1,7 +1,7 @@
 ---
 title: "Failure as Feedback"
 meta_title: "Failure as Feedback - Misses Are Signal When You Listen"
-description: "A miss tells you what to fix next - process, skill, assumption - if you don't treat it as a identity verdict."
+description: "I read a miss as signal about process or skill, not as proof I'm the wrong kind of person."
 key_concept: |
   A miss tells you what to fix next - process, skill, assumption - if you don't treat it as a identity verdict.
   
@@ -35,7 +35,7 @@ relationships:
 slug: "failure-as-feedback"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Learning", "Mindset", "Performance"]
 featured: false

@@ -1,7 +1,7 @@
 ---
 title: "Discipleship"
 meta_title: "Discipleship - Following Jesus After Faith"
-description: "Learning from Jesus and doing what He said, day after day - the walk that starts when you repent and believe, not the ticket that buys eternal life."
+description: "Discipleship is following Jesus daily - learning and doing what He said after faith, not buying eternal life."
 key_concept: |
   Under [[Free Grace]], discipleship is [[Grateful Obedience]] - grateful response, not payment.
   
@@ -49,7 +49,7 @@ relationships:
 slug: "discipleship"
 date: "2026-06-21 12:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Discipleship", "Obedience", "Free Grace"]
 aliases: ["follow Jesus", "following Christ"]

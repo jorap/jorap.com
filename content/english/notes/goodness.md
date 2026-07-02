@@ -1,10 +1,9 @@
 ---
 title: "Goodness"
 meta_title: "Goodness - Upright Deeds the Spirit Grows"
-description: "Active upright deeds the Spirit grows so the Father gets glory - not hidden virtue or good works performed for applause (Galatians 5:22)."
+description: "Goodness fruit is upright action that points to God, not hidden virtue or good deeds performed for applause."
 key_concept: |
-  [[Fruits of the Spirit]] pairs goodness with kindness - outward integrity that points to God, not a personal brand.
-  
+  [[Fruits of the Spirit]] pairs goodness with kindness - outward integrity that points to God, not a personal brand. (Galatians 5:22).
   [[Let Your Light Shine]] is the garden echo: do good visibly so others glorify the Father, not so you collect likes. [[Heart Righteousness]] keeps the inside matching the outside - upright deeds from motive, not polish over poison. [[Secret Devotion]] on the other side: some good stays hidden; goodness fruit still refuses to bury what should point to God.
 examples:
   - "I brought extra water for the whole bench and almost posted about it - goodness fruit shines so someone thinks God is real, not so my brand grows."
@@ -31,7 +30,7 @@ relationships:
 slug: "goodness"
 date: "2026-07-01 21:00:00+08:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Galatians", "Discipleship"]
 aliases: ["fruit of goodness", "Galatians goodness"]
@@ -49,3 +48,4 @@ cards:
     back: "Father's glory - not applause."
 draft: false
 ---
+-

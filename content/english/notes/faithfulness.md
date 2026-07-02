@@ -1,7 +1,7 @@
 ---
 title: "Faithfulness"
 meta_title: "Faithfulness - Steady Use the Spirit Grows"
-description: "Steady use of what God entrusted - time, gifts, opportunities - not one heroic week mistaken for proof you earned heaven (Galatians 5:22)."
+description: "The Spirit grows steady follow-through with what God gave me, not one heroic sprint I mistake for earned salvation."
 key_concept: |
   Steady use of what God entrusted - time, gifts, opportunities - not one heroic week mistaken for proof you earned heaven (Galatians 5:22).
   
@@ -35,7 +35,7 @@ relationships:
 slug: "faithfulness"
 date: "2026-07-01 21:00:00+08:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Galatians", "Discipleship"]
 aliases: ["fruit of faithfulness", "Galatians faithfulness"]
@@ -53,3 +53,4 @@ cards:
     back: "Saved by faith - faithfulness follows."
 draft: false
 ---
+-

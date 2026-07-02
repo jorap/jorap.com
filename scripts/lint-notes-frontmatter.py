@@ -24,6 +24,26 @@ def load_fm(raw_fm: str) -> dict:
     return data if isinstance(data, dict) else {}
 
 
+MAX_DESCRIPTION_WORDS = 20
+
+
+def lint_description(path: Path, fm: dict) -> list[str]:
+    """description = memorable one-breath definition; no wikilinks, <=20 words."""
+    if fm.get("note_kind", "note") in {"meta", "index"}:
+        return []
+    desc = fm.get("description")
+    if not isinstance(desc, str) or not desc.strip():
+        return [f"FAIL missing description: {path.name}"]
+    desc = desc.strip()
+    errs: list[str] = []
+    if "[[" in desc:
+        errs.append(f"FAIL wikilink in description: {path.name}")
+    words = len(desc.split())
+    if words > MAX_DESCRIPTION_WORDS:
+        errs.append(f"FAIL description {words} words (max {MAX_DESCRIPTION_WORDS}): {path.name}")
+    return errs
+
+
 def verify() -> int:
     bad = 0
     for path in sorted(NOTES.glob("*.md")):
@@ -41,6 +61,9 @@ def verify() -> int:
             bad += 1
         if body.strip() and fm.get("note_kind", "note") not in {"meta", "index"}:
             print(f"FAIL non-empty body on atomic note: {path.name}")
+            bad += 1
+        for msg in lint_description(path, fm):
+            print(msg)
             bad += 1
     return bad
 

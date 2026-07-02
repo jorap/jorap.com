@@ -1,7 +1,7 @@
 ---
 title: "Digital Serendipity"
 meta_title: "Digital Serendipity - Stumbling on Your Own Ideas"
-description: "Serendipity isn't luck for me - I build systems where old notes surprise me at the right time."
+description: "Old notes surprise me on schedule because I linked them on purpose, not because I got lucky."
 key_concept: |
   Serendipity isn't luck for me - I build systems where old notes surprise me at the right time.
   
@@ -22,7 +22,7 @@ relationships:
 slug: "digital-serendipity"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Serendipity", "Resurfacing", "PKM", "Second Brain", "Linking", "Review", "Discovery", "Research", "Browser Tips", "Note Taking"]
 aliases: ["Serendipitous Resurfacing", "Serendipity"]

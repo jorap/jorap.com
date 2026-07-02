@@ -25,7 +25,7 @@ relationships:
 slug: "outcomes-over-pitch-decks"
 date: "2026-06-21 14:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Workplace", "Leadership", "Ethics", "Eternal Principles", "Discernment"]
 aliases: ["judge by outcomes", "fruit over hype"]

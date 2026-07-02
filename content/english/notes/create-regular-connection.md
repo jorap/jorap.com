@@ -1,7 +1,7 @@
 ---
 title: "Create Regular Connection"
 meta_title: "Create Regular Connection - Small Rituals Beat Grand Gestures"
-description: "I pick one small ritual and repeat it - ten minutes, one walk, one check-in - instead of waiting for a big gesture to make up for a dry month. Consistency tells people the relationship still has a slot on the calendar."
+description: "Connection grows from small repeated rituals - one walk, one check-in - not one big gesture after a dry month."
 key_concept: I pick one simple connection habit and repeat it - trust grows in the boring reps.
 examples:
   - "I block fifteen minutes after standup to walk with one teammate - not a performance review, just the same loop every Tuesday."
@@ -28,7 +28,7 @@ relationships:
 slug: "create-regular-connection"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Relationships", "Habits", "Connection"]
 featured: false

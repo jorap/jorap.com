@@ -1,10 +1,9 @@
 ---
 title: "Wood Hay Stubble"
 meta_title: "Wood Hay Stubble - Works That Burn vs Last"
-description: "Some works survive Christ's evaluation; some burn - saved through fire, but worthless work is gone (1 Corinthians 3:12-15)."
+description: "Some work survives Christ's review; some burns - saved through fire, but worthless effort is gone."
 key_concept: |
-  Gold, silver, precious stones last.
-  
+  Gold, silver, precious stones last. (1 Corinthians 3:12-15).
   Wood, hay, stubble burn. The builder may be saved yet so as through fire - still in, with loss. [[Judgment Seat]] is where the fire test happens; [[Loss of Reward]] names the outcome; this note names the materials. [[Treasure in Heaven]] aims the heart at what to store; wood hay stubble warns what won't survive the review. [[Heart Righteousness]] and [[By Their Fruits]] test motive and outcome before the fire. PKM mirror: [[Failure as Feedback]] - burned work signals what to build differently, not proof you were never saved.
 examples:
   - "Wood-hay-stubble week and dread like I'm facing hell - saved through fire means some work burns; standing on Christ stays ([[Loss of Reward]])."
@@ -31,7 +30,7 @@ relationships:
 slug: "wood-hay-stubble"
 date: "2026-06-30 08:20:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Reward", "Theology"]
 aliases: ["wood hay and stubble", "works that burn", "1 corinthians 3 fire"]
@@ -53,3 +52,4 @@ cards:
     back: "Gold, silver, stones - not wood hay stubble."
 draft: false
 ---
+-

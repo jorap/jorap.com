@@ -1,7 +1,7 @@
 ---
 title: "Sustainable Performance"
 meta_title: "Sustainable Performance - Pace You Can Repeat"
-description: "A pace you can repeat next month and next year - not a sprint that trades tomorrow for today's heroics."
+description: "I aim for a pace I can hold next month without burning out or cutting safety corners."
 key_concept: Sustainable performance is output you can keep without burning out or cutting corners on safety.
 examples:
   - "I can't sprint bedtime-and-homework heroics five nights a row - sustainable performance is an earlier lights-out one night so Thursday doesn't blow up."
@@ -25,7 +25,7 @@ relationships:
 slug: "sustainable-performance"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Performance", "Health", "Leadership"]
 featured: false

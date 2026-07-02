@@ -8,6 +8,13 @@ image: "/images/feature-consistent-ai-output.jpg"
 categories: ["Technology", "AI", "Web Development"]
 author: "JoRap"
 tags: ["WordPress", "Workflow", "Developer Life", "Automation", "Code Generation", "Cursor", "Productivity Tools", "Best Practices", "Reusable Code", "PHP", "AI Coding", "LLM", "Prompt Engineering", "Coding Standards", "Theme Development", "Writing", "Documentation", "PKM"]
+related_notes:
+  - building-a-personal-api
+  - creative-blocks
+  - mobile-capture-workflows
+  - the-knowledge-lifecycle
+  - the-trusted-inbox
+  - context-aware-capture
 featured: false
 draft: false
 ---

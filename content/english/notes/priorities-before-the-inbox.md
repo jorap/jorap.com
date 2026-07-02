@@ -19,7 +19,7 @@ relationships:
 slug: "priorities-before-the-inbox"
 date: "2026-06-21 14:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Workplace", "Productivity", "Eternal Principles", "Priorities", "Focus"]
 aliases: ["real priority first"]

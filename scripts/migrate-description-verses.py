@@ -12,6 +12,9 @@ try:
 except ImportError:
     sys.exit("pip install pyyaml required")
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from notes_content import dump_frontmatter, split_frontmatter
+
 ROOT = Path(__file__).resolve().parents[1]
 NOTES = ROOT / "content/english/notes"
 SKIP = {
@@ -24,13 +27,12 @@ SKIP = {
     "issues.md",
     "random-duo.md",
 }
-FM = re.compile(r"^(---\s*\n.*?\n---)(\s*)", re.DOTALL)
 
 BOOKS = (
     r"Matthew|Mark|Luke|John|Romans|Galatians|Ephesians|Philippians|Colossians|"
     r"1\s*(?:Cor|Tim|Pet|John|Sam|Kings|Chron)|2\s*(?:Cor|Tim|Pet|Sam|Kings|Chron)|"
     r"3\s*John|Hebrews|James|Jude|Revelation|Genesis|Exodus|Leviticus|Deuteronomy|"
-    r"Psalm|Proverbs|Isaiah|Jeremiah|Acts|Timothy|Titus|Philemon|Peter"
+    r"Psalm|Proverbs|Isaiah|Jeremiah|Acts|Timothy|Titus|Philemon|Peter|Deuteronomy"
 )
 REF = rf"(?:{BOOKS})\s+\d+:\d+(?:-\d+)?"
 PAREN_REFS = re.compile(rf"\s*\([^)]*(?:\d+:\d+)[^)]*\)")
@@ -57,68 +59,71 @@ def strip_refs(text: str) -> str:
     return text
 
 
-def first_line(text: str) -> str:
-    return (text or "").strip().split("\n", 1)[0].strip()
+def normalize_key_concept(kc: str) -> str:
+    kc = (kc or "").strip()
+    # Drop broken auto-insert lines from earlier yaml.dump runs
+    lines = kc.split("\n")
+    cleaned: list[str] = []
+    for line in lines:
+        stripped = line.strip()
+        if re.fullmatch(r"(?:\d+:\d+(?:-\d+)?(?:\s*[;,]\s*)?)+", stripped.rstrip(".")):
+            continue
+        if re.fullmatch(r"(?:[A-Za-z0-9\s.;:-]+(?:\d+:\d+)[A-Za-z0-9\s.;:-]*)+", stripped) and ";" in stripped:
+            # standalone ref dump line
+            if sum(1 for _ in re.finditer(r"\d+:\d+", stripped)) >= 2:
+                continue
+        cleaned.append(line)
+    return "\n".join(cleaned).strip()
 
 
 def ensure_refs_in_key_concept(kc: str, refs: list[str]) -> str:
+    kc = normalize_key_concept(kc)
     if not refs:
         return kc
     missing = [r for r in refs if r not in kc]
     if not missing:
         return kc
     block = "; ".join(missing)
-    kc = (kc or "").strip()
     if not kc:
         return block + "."
-    lines = kc.split("\n")
-    if len(lines) >= 2 and lines[1].strip() == "":
-        lines.insert(2, f"  {block}.")
-    else:
-        lines.insert(1, "")
-        lines.insert(2, f"  {block}.")
-    return "\n".join(lines)
-
-
-def dump_meta(meta: dict) -> str:
-    return yaml.safe_dump(meta, sort_keys=False, allow_unicode=True, width=1000).rstrip()
+    parts = kc.split("\n\n", 1)
+    head = parts[0].rstrip()
+    tail = parts[1] if len(parts) > 1 else ""
+    head = f"{head} ({block})."
+    return head + ("\n\n" + tail if tail else "")
 
 
 def process(path: Path, *, dry_run: bool) -> bool:
-    raw = path.read_text(encoding="utf-8")
-    m = FM.match(raw)
-    if not m:
+    text = path.read_text(encoding="utf-8")
+    raw_fm, body = split_frontmatter(text)
+    if not raw_fm:
         return False
-    meta = yaml.safe_load(m.group(1)[4:-4]) or {}
+    meta = yaml.safe_load(raw_fm) or {}
     desc = meta.get("description")
     if not isinstance(desc, str) or not desc.strip():
         return False
-    refs = extract_refs(desc)
-    if not refs:
-        return False
 
-    new_desc = strip_refs(desc)
+    refs = extract_refs(desc)
+    new_desc = strip_refs(desc) if refs else desc.strip()
     kc = meta.get("key_concept")
     if not isinstance(kc, str):
         kc = ""
-    new_kc = ensure_refs_in_key_concept(kc, refs)
+    new_kc = ensure_refs_in_key_concept(kc, refs) if refs else normalize_key_concept(kc)
 
-    if new_desc == desc and new_kc == kc:
+    changed = new_desc != desc or new_kc != kc
+    if not changed:
         return False
 
     meta["description"] = new_desc
-    if new_kc != kc:
+    if isinstance(meta.get("key_concept"), str) or refs:
         meta["key_concept"] = new_kc
 
     if dry_run:
-        print(f"{path.name}:")
-        print(f"  desc: {desc[:90]}...")
-        print(f"  ->   {new_desc[:90]}...")
-        print(f"  refs: {refs}")
+        print(f"{path.name}: refs={refs}")
         return True
 
-    new_fm = "---\n" + dump_meta(meta) + "\n---"
-    path.write_text(new_fm + raw[m.end(1) - len(m.group(2)) :], encoding="utf-8")
+    out = f"---\n{dump_frontmatter(meta)}\n---\n{body.lstrip()}"
+    path.write_text(out, encoding="utf-8")
     return True
 
 

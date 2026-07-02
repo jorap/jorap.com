@@ -1,7 +1,7 @@
 ---
 title: "Signal vs Noise"
 meta_title: "Signal vs Noise in Your Information Diet"
-description: "Most content is noise. PKM fails if capture doesn't filter. I save signal - stuff that changes action or belief. Faith parallel: [[Seek the Kingdom First]] - God's reign gets first place; everything else is judged against that filter."
+description: "I save only what changes what I do or believe this month - most feeds are noise."
 key_concept: I save only what changes what I do or believe this month - most content is noise.
 examples:
   - "The trade-rumor thread was loud all week - signal was the one injury note that actually changed our lineup; the rest I admired and skipped."
@@ -19,7 +19,7 @@ relationships:
 slug: "signal-vs-noise"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Signal vs Noise", "Information Diet", "PKM", "Capture", "Focus", "Curation"]
 featured: false

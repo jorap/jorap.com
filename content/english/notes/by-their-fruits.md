@@ -1,10 +1,9 @@
 ---
 title: "By Their Fruits"
 meta_title: "By Their Fruits - Discern Teachers by Outcome"
-description: "Discern teachers and teaching by outcome - grapes from grapevines, thorns from thistles (Matthew 7:16-20)."
+description: "I check teachers by what their teaching produces, not by how polished the talk sounds."
 key_concept: |
-  Jesus pairs this with [[Judge Not]]: don't condemn souls, but do evaluate fruit.
-  
+  Jesus pairs this with [[Judge Not]]: don't condemn souls, but do evaluate fruit. (Matthew 7:16-20).
   Wolves may wear sheep's clothing; time and results tell. Garden parallel: [[Signal vs Noise]] - what actually produces good over time? The [Issues](/notes/issues/) audit - does the teaching leave the graph healthier or broken?
 examples:
   - "The youth coach talks smooth on day one but his players look stressed and bitter by month three - fruit told me more than any clinic title ever could."
@@ -25,7 +24,7 @@ relationships:
 slug: "by-their-fruits"
 date: "2026-06-19 10:10:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Discernment"]
 aliases: ["know them by their fruits", "a tree is known by its fruit"]
@@ -47,3 +46,4 @@ cards:
     back: "What fruit does it produce - not charisma?"
 draft: false
 ---
+-

@@ -22,7 +22,7 @@ relationships:
 slug: "pareto-principle"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Thinking"]
 author: "JoRap"
 tags: ["Mental Models", "Productivity", "Performance", "Prioritization", "Focus", "Decision Making", "PKM"]
 aliases: ["80/20", "80-20 Rule", "Pareto Principle", "Vilfredo Pareto"]

@@ -1,7 +1,7 @@
 ---
 title: "Daily Notes"
 meta_title: "Daily Notes - Low-Stakes Logs That Compound"
-description: "**Daily Notes** are my scratch pad for the day - tasks, fragments, links. Not a diary. Not permanent by default."
+description: "My daily note is a scratch pad for today's fragments, not a diary I expect to last forever."
 key_concept: "Daily notes are a scratch pad for the day - fleeting by default, with interstitial buffer flushes between tasks."
 examples:
   - "Today's pocket slip is just fragments - pick up basketball shoes, ice after practice, call coach back - I promote one line to a real note when it repeats."
@@ -19,7 +19,7 @@ relationships:
 slug: "daily-notes"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity", "Tips"]
 author: "JoRap"
 tags: ["Daily Notes", "PKM", "Journaling", "Interstitial", "Productivity", "Note Taking", "Review", "Focus"]
 aliases: ["Interstitial Journaling"]

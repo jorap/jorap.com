@@ -28,7 +28,7 @@ relationships:
 slug: "minimum-effective-dose"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Thinking"]
 author: "JoRap"
 tags: ["Mental Models", "Productivity", "Habits", "Thinking", "PKM", "Focus", "Systems Thinking"]
 aliases: ["MED"]

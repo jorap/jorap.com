@@ -2,7 +2,7 @@
 note_kind: "index"
 title: "Workplace Principles"
 meta_title: "Workplace Principles - Eternal Ethics in Plain Office Language"
-description: "The same ethics I keep in [[Eternal Principles]], translated for offices where \"altar\" and \"kingdom\" would land wrong."
+description: "The same ethics as Eternal Principles, in plain office language where altar talk would land wrong."
 key_concept: |
   Each note below is one claim I'd say in a standup or a 1:1 - plain language, meeting-sized examples, wikilink back to the gospel source when I need the full depth.
   
@@ -23,7 +23,7 @@ relationships:
 slug: "workplace-principles"
 date: "2026-06-21 14:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Workplace", "Leadership", "Ethics", "Eternal Principles", "Professionalism", "MOC"]
 aliases: ["corporate principles", "ethics at work"]

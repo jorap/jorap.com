@@ -8,6 +8,13 @@ categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Hugo", "Static Site Generator", "JAMstack", "Web Development", "JoRap Notes", "Cloudflare Pages", "PKM", "Publishing", "Digital Garden"]
 slug: "hugo-static-site-generator"
+related_notes:
+  - the-garage-concept
+  - digital-garden
+  - drafting-in-public
+  - sketchpad
+  - free-tier-hosting-stack
+  - selling-static-sites
 featured: false
 draft: true
 ---

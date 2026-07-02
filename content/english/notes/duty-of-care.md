@@ -1,7 +1,7 @@
 ---
 title: "Duty of Care"
 meta_title: "Duty of Care"
-description: "Leaders owe reasonable protection to people under their authority - not zero risk, not reckless harm."
+description: "If roles flipped, I'd want reasonable protection from harm - that's the bar I owe people under me."
 key_concept: |
   Owe people the care you'd expect if roles reversed - not the minimum the handbook allows.
   
@@ -25,7 +25,7 @@ relationships:
 slug: "duty-of-care"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Leadership", "Safety", "Ethics"]
 featured: false

@@ -1,7 +1,7 @@
 ---
 title: "Recovery"
 meta_title: "Recovery - Refill Before the Next Hard Push"
-description: "The sleep, rest, and downtime that refill what hard work drains - judgment, patience, attention."
+description: "Sleep isn't laziness for me - it's the refill that keeps judgment and patience online."
 key_concept: |
   The sleep, rest, and downtime that refill what hard work drains - judgment, patience, attention.
   
@@ -25,7 +25,7 @@ relationships:
 slug: "recovery"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Health", "Performance", "Habits"]
 featured: false

@@ -1,7 +1,7 @@
 ---
 title: "Systems Thinking"
 meta_title: "Systems Thinking - Fix the Loop, Not Only the Symptom"
-description: "See the loop behind the event - inputs, delays, feedback, side effects - so you fix the process, not only tonight's fire."
+description: "I trace the loop behind the fire - inputs, delays, feedback - and fix the process, not tonight's patch."
 key_concept: "Systems thinking traces inputs, delays, and feedback - so you change the process, not only patch today's fire."
 examples:
   - "We lost every third possession on turnovers - systems thinking traced it to the warmup drill, not \"focus harder tonight.\""
@@ -25,7 +25,7 @@ relationships:
 slug: "systems-thinking"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Systems Thinking", "Performance", "Habits", "Decision Making"]
 aliases: ["systems thinker"]

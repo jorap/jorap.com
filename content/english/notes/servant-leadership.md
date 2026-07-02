@@ -1,7 +1,7 @@
 ---
 title: "Servant Leadership"
 meta_title: "Servant Leadership - Last Becomes First at Work"
-description: "The person who wants to lead well makes the team win - unblocks, coaches, takes blame upward, shares credit downward."
+description: "I unblock the team, coach through the mess, take blame up, and pass credit down."
 key_concept: |
   The corporate ladder rewards visibility; this principle runs the other way.
   
@@ -34,7 +34,7 @@ relationships:
 slug: "servant-leadership"
 date: "2026-06-21 14:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Workplace", "Leadership", "Eternal Principles", "Service", "Management"]
 aliases: ["lead by serving"]

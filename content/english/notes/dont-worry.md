@@ -1,10 +1,9 @@
 ---
 title: "Don't Worry"
 meta_title: "Don't Worry - Trust Over Tomorrow"
-description: "Jesus' command not to be anxious about food, clothing, or tomorrow - the Father feeds birds and clothes lilies; he'll care for you (Matthew 6:25-34)."
+description: "Jesus told me not to stack worry on food, clothes, or tomorrow - the Father already feeds birds."
 key_concept: |
-  Worry can't add a single hour to life.
-  
+  Worry can't add a single hour to life. (Matthew 6:25-34).
   The antidote isn't denial - it's priority: [[Seek the Kingdom First]], and let tomorrow carry its own trouble. Trust is active dependence on a Father who already gave eternal life by [[Free Grace]] - [[Assurance]] rests on that promise, not anxiety about earning His care. Overlap with [[Slow Productivity]]: fewer frantic masters, deeper attention on what actually matters.
 examples:
   - "I thumb-refresh the news about tomorrow's meeting instead of sleeping - worry can't add a single hour to life, and tomorrow can carry its own trouble."
@@ -28,7 +27,7 @@ relationships:
 slug: "dont-worry"
 date: "2026-06-19 08:40:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Trust"]
 aliases: ["do not worry", "sufficient unto the day", "dont worry"]
@@ -50,3 +49,4 @@ cards:
     back: "One Master - drop anxious serving of tomorrow."
 draft: false
 ---
+-

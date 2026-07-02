@@ -31,7 +31,7 @@ relationships:
 slug: "plain-commitments-at-work"
 date: "2026-06-21 14:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Workplace", "Ethics", "Communication", "Eternal Principles", "Integrity"]
 aliases: ["yes means yes at work"]

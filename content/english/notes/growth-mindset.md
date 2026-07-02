@@ -1,7 +1,7 @@
 ---
 title: "Growth Mindset"
 meta_title: "Growth Mindset - Skills Can Improve With Practice"
-description: "Skills can improve with practice - a miss is data about what to train next, not proof you're \"not a math person.\""
+description: "I treat a rough outing as data about what to practice next, not proof I'm stuck with a fixed label."
 key_concept: "Growth mindset treats ability as trainable - mistakes are data, not a fixed identity."
 examples:
   - "I missed three free throws in a row at clinic. Growth mindset was ten minutes on form, not deciding I'd never shoot reliably in a game."
@@ -25,7 +25,7 @@ relationships:
 slug: "growth-mindset"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Learning", "Mindset", "Performance"]
 featured: false

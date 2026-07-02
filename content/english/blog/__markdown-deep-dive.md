@@ -8,6 +8,13 @@ categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Markdown", "Hugo", "Writing", "PKM", "Documentation", "Plain Text", "Note Taking"]
 slug: "markdown-deep-dive"
+related_notes:
+  - future-proofing-knowledge
+  - evergreen-notes
+  - metadata-strategy
+  - commonplace-book
+  - intellectual-sourcing
+  - the-feynman-technique
 featured: false
 draft: true
 ---

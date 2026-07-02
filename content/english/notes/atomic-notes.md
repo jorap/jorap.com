@@ -1,7 +1,7 @@
 ---
 title: "Atomic Notes"
 meta_title: "Atomic Notes - One Idea, One File"
-description: "One claim I'd say out loud - too many `and`s, split it."
+description: "If a note needs three ands to make its point, I split it before I link it."
 key_concept: |
   One claim I'd say out loud - too many ands, split it.
   
@@ -23,7 +23,7 @@ relationships:
 slug: "atomic-notes"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Atomic Notes", "PKM", "Note Taking", "Second Brain", "Linking", "Information Architecture"]
 aliases: ["atom", "Atomic Design for Notes", "Atomic Design"]

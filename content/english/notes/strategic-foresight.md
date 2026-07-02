@@ -25,7 +25,7 @@ relationships:
 slug: "strategic-foresight"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Thinking"]
 author: "JoRap"
 tags: ["Strategy", "Thinking", "Leadership"]
 featured: false

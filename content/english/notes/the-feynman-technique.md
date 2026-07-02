@@ -1,7 +1,7 @@
 ---
 title: "The Feynman Technique"
 meta_title: "The Feynman Technique - Teach It to Learn It"
-description: "I explain notes like I'm teaching someone - gaps in my explanation show gaps in understanding."
+description: "I teach the note out loud to a blank page - wherever I stumble, I don't understand yet."
 key_concept: |
   Tension with Spaced Repetition when explaining gaps beats flashcard drill.
   
@@ -23,7 +23,7 @@ relationships:
 slug: "the-feynman-technique"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Feynman Technique", "Learning", "PKM", "Teaching", "Understanding", "Writing", "Note Taking"]
 aliases: ["Feynman Technique", "Richard Feynman"]

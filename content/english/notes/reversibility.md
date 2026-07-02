@@ -28,7 +28,7 @@ relationships:
 slug: "reversibility"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Decision Making", "Safety"]
 featured: false

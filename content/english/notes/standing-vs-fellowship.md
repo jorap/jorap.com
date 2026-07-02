@@ -1,7 +1,7 @@
 ---
 title: "Standing vs Fellowship"
 meta_title: "Standing vs Fellowship - Verdict vs Daily Closeness"
-description: "My legal standing before God was settled at faith through [[Justification]]; daily fellowship with Him breaks when I sin and restores when I confess - two ledgers, don't collapse them (1 John 1:9; Romans 5:1)."
+description: "Standing with God is settled at faith; fellowship breaks when I sin and restores when I confess - two ledgers."
 key_concept: |
   [[Free Grace]] secured eternal life once.
   
@@ -37,7 +37,7 @@ relationships:
 slug: "standing-vs-fellowship"
 date: "2026-06-30 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Free Grace", "Eternal Principles", "Faith", "Theology"]
 aliases: ["standing and fellowship", "position vs fellowship", "legal standing vs fellowship"]
@@ -59,3 +59,4 @@ cards:
     back: "Justification - standing on Christ stays."
 draft: false
 ---
+-

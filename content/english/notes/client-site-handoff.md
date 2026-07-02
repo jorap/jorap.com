@@ -1,7 +1,7 @@
 ---
 title: "Client Site Handoff"
 meta_title: "Client Site Handoff - Git Lesson, Retainer, or Showroom"
-description: "After [[Selling Static Sites]] build, one clear path for who publishes next - priced and named in the proposal before deposit."
+description: "Before deposit, I name who publishes next and price the handoff so launch isn't a guessing game."
 key_concept: |
   Pick exactly one primary model with [[Plain Commitments at Work]] - not "we'll figure it out at launch."
   
@@ -35,7 +35,7 @@ relationships:
 slug: "client-site-handoff"
 date: "2026-06-29 11:05:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Website Building", "Freelance", "Static Site Generator", "Client Work", "Handoff"]
 aliases: ["site handoff", "client publish path"]

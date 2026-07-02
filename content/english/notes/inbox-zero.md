@@ -1,7 +1,7 @@
 ---
 title: "Inbox Zero"
 meta_title: "Inbox Zero"
-description: "Process the inbox to empty regularly - each item decided, not hoarded."
+description: "I process the inbox to empty each week - decide, don't hoard."
 key_concept: |
   Process the inbox to empty regularly - each item decided, not hoarded.
   
@@ -23,7 +23,7 @@ relationships:
 slug: "inbox-zero"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Productivity", "Tips"]
 author: "JoRap"
 tags: ["PKM", "Productivity"]
 featured: false

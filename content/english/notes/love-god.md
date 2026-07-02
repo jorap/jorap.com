@@ -1,7 +1,7 @@
 ---
 title: "Love God"
 meta_title: "Love God - The Greatest Commandment"
-description: "The greatest commandment Jesus named: love the Lord with all your heart, soul, mind, and strength (Matthew 22:37-38)."
+description: "First command, whole self - heart, mind, strength, not a corner of Sunday morning."
 key_concept: |
   The greatest commandment Jesus named: love the Lord with all your heart, soul, mind, and strength (Matthew 22:37-38).
   
@@ -23,7 +23,7 @@ relationships:
 slug: "love-god"
 date: "2026-06-19 08:05:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Commandments", "Sermon on the Mount"]
 aliases: ["greatest commandment"]
@@ -45,3 +45,4 @@ cards:
     back: "Pray, read, or serve - one faculty."
 draft: false
 ---
+-

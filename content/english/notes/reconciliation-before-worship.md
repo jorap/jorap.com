@@ -1,10 +1,9 @@
 ---
 title: "Reconciliation Before Worship"
 meta_title: "Reconciliation Before Worship - Leave Your Gift"
-description: "If your brother has something against you, go reconcile first - then come offer your gift (Matthew 5:23-24)."
+description: "If your brother has something against you, go reconcile first - then come offer your gift."
 key_concept: |
-  Jesus elevates restored relationship over religious performance.
-  
+  Jesus elevates restored relationship over religious performance. (Matthew 5:23-24).
   Worship with an unreconciled heart is hollow. The initiative is on the one who knows there's a breach - leave the altar, go, be reconciled, then return. This is fellowship restored, not salvation re-earned: [[Free Grace]] already settled my standing before God ([[Standing vs Fellowship]]). Same discipline as [[Note Relationships]] in the garden: broken links between notes need typed repair - broken links between people need face-to-face repair first.
 examples:
   - "I warmed up ready to compete while my teammate still had something against me from Wednesday - fix it courtside, then play."
@@ -28,7 +27,7 @@ relationships:
 slug: "reconciliation-before-worship"
 date: "2026-06-19 08:50:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Reconciliation"]
 aliases: ["leave your gift at the altar"]
@@ -50,3 +49,4 @@ cards:
     back: "Closeness restored - not re-earning heaven."
 draft: false
 ---
+-

@@ -1,7 +1,7 @@
 ---
 title: "Emotional Regulation"
 meta_title: "Emotional Regulation - Feel It Without Being Ruled By It"
-description: "You can feel anger, fear, or shame without handing the steering wheel to the feeling."
+description: "I can feel the spike without letting it pick my next sentence."
 key_concept: Emotional regulation is noticing the spike without letting it drive the next move.
 examples:
   - "A customer snapped at the cashier and she kept her voice level - regulation isn't numbness, it's not mailing the first draft."
@@ -34,7 +34,7 @@ relationships:
 slug: "emotional-regulation"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Self-Control", "Performance", "Relationships"]
 featured: false

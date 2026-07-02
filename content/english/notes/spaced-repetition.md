@@ -1,12 +1,11 @@
 ---
 title: "Spaced Repetition"
 meta_title: "Spaced Repetition - Remember What You Chose"
-description: "Review facts on a schedule before I forget - for recall, not whole essays."
+description: "I review on a schedule so ideas stick - retention, application, and explanation, not fact pile-up."
 key_concept: |
-  Review facts on a schedule before I forget - for recall, not whole essays.
+  Review on a schedule before I forget - for **retention**, **application**, and **explanation**, not vanity metrics or fact pile-up.
   
-  Vocabulary, definitions, scripture references - anything I'll be quizzed on or need instant recall for.
-  Whole essays don't belong on flashcards. The wiki holds understanding; Anki or SRS apps hold drill - separate lanes, algorithm handles timing. In this garden, spine notes (~20%, [[Pareto Principle]]) opt in with `review: true` - PKM habit prompts and [[Eternal Principles]] gospel cards share the same drill lane via `card_sets`. [[Ask Seek Knock]] is the faith-side version: keep asking on rhythm, not cram once.
+  The wiki holds understanding; cards and SRS hold drill - separate lanes, algorithm handles timing. In this garden, spine notes (~20%, [[Pareto Principle]]) opt in with `review: true` - PKM habit prompts and [[Eternal Principles]] gospel cards share the same drill lane via `card_sets`. [[Ask Seek Knock]] is the faith-side version: keep asking on rhythm, not cram once.
 examples:
   - "I do the same with note cards on capture and gospel lines - review on a schedule before I forget, not one marathon session."
   - "My kid's spelling list lives on the fridge; we hit five words while rice cooks - same little doses beat cramming the night before the quiz."
@@ -26,7 +25,7 @@ relationships:
 slug: "spaced-repetition"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Spaced Repetition", "SRS", "Anki", "Learning", "Memory", "PKM", "Note Taking", "Tools"]
 aliases: ["SRS", "Spaced Repetition Systems", "Spaced Repetition Systems (SRS)"]

@@ -1,7 +1,7 @@
 ---
 title: "Free Tier Hosting Stack"
 meta_title: "Free Tier Hosting Stack - Hugo, GitHub, Cloudflare Pages"
-description: "Hugo builds static HTML, GitHub stores the repo, Cloudflare Pages builds and serves on every push - $0 until account limits or client policy say upgrade."
+description: "Hugo, GitHub, and Cloudflare Pages ship static sites for $0 until traffic or policy forces an upgrade."
 key_concept: |
   Full walkthrough: [How I Built JoRap Notes](/blog/how-i-built-jorap-notes/).
   
@@ -48,7 +48,7 @@ relationships:
 slug: "free-tier-hosting-stack"
 date: "2026-06-29 10:05:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Website Building", "Static Site Generator", "Hugo", "GitHub", "Cloudflare Pages", "Free Hosting", "DevOps"]
 aliases: ["github cloudflare stack", "free static hosting"]

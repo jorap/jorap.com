@@ -1,7 +1,7 @@
 ---
 title: "PKM"
 meta_title: "PKM - Personal Knowledge Management in Plain Language"
-description: "Personal Knowledge Management (PKM) is the boring name for how I save, organize, and use what I learn. Here's my unspectacular definition."
+description: "PKM is how I save, organize, and reuse what I learn - not a hobby of collecting apps."
 key_concept: |
   Tension with The Collector's Fallacy when building the system feels like progress without output.
   
@@ -26,7 +26,7 @@ relationships:
 slug: "pkm"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["PKM", "Personal Knowledge Management", "Second Brain", "Note Taking", "Productivity", "Learning"]
 aliases: ["Personal Knowledge Management"]

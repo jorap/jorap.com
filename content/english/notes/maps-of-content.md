@@ -2,12 +2,12 @@
 note_kind: "index"
 title: "Maps of Content"
 meta_title: "Maps of Content (MOC) - Index Pages That Think"
-description: "**Maps of Content (MOCs)** are hub notes that index related ideas. Use this page to wander the garden."
+description: "I write hub notes by hand when one topic spreads across too many files to hold in my head."
 key_concept: A MOC is a curated index of notes on a topic - a table of contents I write by hand.
 slug: "maps-of-content"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["MOC", "Maps of Content", "PKM", "Linking", "Organization", "Second Brain", "Hugo", "Website Building"]
 aliases: ["MOC", "Table of Contents"]

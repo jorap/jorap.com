@@ -1,7 +1,7 @@
 ---
 title: "Voice Memos"
 meta_title: "Voice Memos"
-description: "[[Capture]] ideas by speaking when hands or eyes are busy."
+description: "I talk the idea into my phone when my hands are on the wheel or the stove."
 key_concept: |
   Capture ideas by speaking when hands or eyes are busy.
   
@@ -23,7 +23,7 @@ relationships:
 slug: "voice-memos"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Productivity", "Tips"]
 author: "JoRap"
 tags: ["PKM", "Capture"]
 featured: false

@@ -8,6 +8,13 @@ categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Hugo", "Go Templates", "Web Development", "Static Sites", "Templating", "Hugoplate", "PKM", "Documentation"]
 slug: "hugo-go-templates"
+related_notes:
+  - future-proofing-knowledge
+  - metadata-strategy
+  - drafting-in-public
+  - the-garage-concept
+  - digital-garden
+  - building-a-personal-api
 featured: false
 draft: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Future-Proofing Knowledge"
 meta_title: "Future-Proofing Knowledge - Boring Formats Win"
-description: "Future-proofing isn't predicting tech for me - it's plain text, open tools, and exports I test before I need them."
+description: "I future-proof notes with plain text, open tools, and exports I test before a vendor locks me in."
 key_concept: |
   Future-proofing isn't predicting tech for me - it's plain text, open tools, and exports I test before I need them.
   
@@ -25,7 +25,7 @@ relationships:
 slug: "future-proofing-knowledge"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Future Proofing", "PKM", "Markdown", "Local First", "Backup", "Note Taking", "Documentation", "Hugo"]
 aliases: ["future proofing knowledge", "Plain Text Files"]

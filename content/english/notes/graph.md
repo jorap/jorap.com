@@ -11,7 +11,7 @@ key_concept: |
 slug: "graph"
 date: "2026-06-18 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Notes", "Meta", "PKM", "Note Taking", "Digital Garden", "Linking"]
 featured: false

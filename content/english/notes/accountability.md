@@ -1,7 +1,7 @@
 ---
 title: "Accountability"
 meta_title: "Accountability - Clear Ownership for Outcomes"
-description: "Clear ownership - who answers for the outcome, the miss, and the fix."
+description: "I name one owner for the outcome before the group chat turns into someone should fix it."
 key_concept: |
   Clear ownership - who answers for the outcome, the miss, and the fix.
   
@@ -25,7 +25,7 @@ relationships:
 slug: "accountability"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Leadership", "Work", "Performance"]
 featured: false

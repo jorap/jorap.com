@@ -1,7 +1,7 @@
 ---
 title: "Follow-Through"
 meta_title: "Follow-Through - The Steps After the Promise"
-description: "The work after the handshake - recap, owners, dates, verification."
+description: "Saying yes is cheap; follow-through is recap, owners, dates, and checking it actually landed."
 key_concept: |
   The work after the handshake - recap, owners, dates, verification.
   
@@ -28,7 +28,7 @@ relationships:
 slug: "follow-through"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Performance", "Work", "Accountability"]
 aliases: ["follow through"]

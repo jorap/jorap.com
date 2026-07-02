@@ -1,7 +1,7 @@
 ---
 title: "Tony Buzan"
 meta_title: "Tony Buzan"
-description: "Popularized mind mapping as a radiant, branching sketch - name people cite for the method."
+description: "He's the name people cite for mind maps - radiant branches when I'm chasing associations, not argument order."
 key_concept: |
   Radiant branches beat outline bullets when the goal is association, not argument order.
   
@@ -19,7 +19,7 @@ relationships:
 slug: "tony-buzan"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["PKM", "Learning"]
 featured: false

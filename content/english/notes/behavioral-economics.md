@@ -1,7 +1,7 @@
 ---
 title: "Behavioral Economics"
 meta_title: "Behavioral Economics"
-description: "How people actually decide - biases, framing, sunk costs - not only rational models."
+description: "People choose what default and friction make easy, not what a neat lecture said they should pick."
 key_concept: |
   People don't act on facts alone - defaults and friction steer choices more than lectures.
   
@@ -22,7 +22,7 @@ relationships:
 slug: "behavioral-economics"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Thinking"]
 author: "JoRap"
 tags: ["Mental Models", "Decision Making"]
 featured: false

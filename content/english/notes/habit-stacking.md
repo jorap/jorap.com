@@ -1,7 +1,7 @@
 ---
 title: "Habit Stacking"
 meta_title: "Habit Stacking - Piggyback on What You Already Do"
-description: "Attach a new small habit to one you already do without thinking - after coffee, open the notebook; after shoes on, one stretch."
+description: "I piggyback a new tiny habit onto one that already runs without thinking, like notebook after coffee."
 key_concept: "Habit stacking attaches a new small move to a habit that already runs on autopilot - one anchor, one add-on."
 examples:
   - "After I clock in, I scan the handoff sheet - the clock-in is the anchor, the scan piggybacked; no new time slot, just a chain."
@@ -25,7 +25,7 @@ relationships:
 slug: "habit-stacking"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth", "Tips"]
 author: "JoRap"
 tags: ["Habits", "Performance", "Systems Thinking"]
 aliases: ["habit stack"]

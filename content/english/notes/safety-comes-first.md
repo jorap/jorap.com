@@ -1,7 +1,7 @@
 ---
 title: "Safety Comes First"
 meta_title: "Safety Comes First - Stop Harm Before You Follow Along"
-description: "Following someone else's lead stops when serious harm is on the table. Respect isn't letting danger or cruelty run because I don't want to be controlling. I stop the unsafe thing, then restore choice when the situation is stable."
+description: "I stop the unsafe thing first, then restore choice when the situation is stable - respect isn't letting harm run."
 key_concept: "Respect doesn't mean I ignore danger - I stop serious harm first, then restore choice when it's safe."
 examples:
   - "A teammate wanted to play through a head hit - I didn't \"support his call\"; I got the trainer. Following his lead would have meant ignoring the injury."
@@ -25,7 +25,7 @@ relationships:
 slug: "safety-comes-first"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Relationships", "Safety", "Ethics", "Boundaries"]
 featured: false

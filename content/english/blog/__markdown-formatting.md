@@ -8,6 +8,13 @@ categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Markdown", "Formatting", "Readability", "Writing", "Hugo", "Note Taking", "PKM"]
 slug: "markdown-formatting"
+related_notes:
+  - evergreen-notes
+  - future-proofing-knowledge
+  - commonplace-book
+  - intellectual-sourcing
+  - the-feynman-technique
+  - drafting-in-public
 featured: false
 draft: true
 ---

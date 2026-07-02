@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 meta_title: "{{ replace .Name "-" " " | title }}"
-description: "One idea, stated plainly in one breath."
+description: "One memorable definition - what this concept is or does, in one breath you could recall cold."
 slug: "{{ .Name }}"
 date: {{ .Date }}
 image: "/images/note.jpg"

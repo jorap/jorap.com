@@ -1,7 +1,7 @@
 ---
 title: "Secret Devotion"
 meta_title: "Secret Devotion - For the Father's Eyes Alone"
-description: "Give, pray, and fast for the Father's eyes - not to be seen by people (Matthew 6:1-18)."
+description: "I give, pray, and fast for God to see - not for applause in the group chat."
 key_concept: |
   Give, pray, and fast for the Father's eyes - not to be seen by people (Matthew 6:1-18).
   
@@ -23,7 +23,7 @@ relationships:
 slug: "secret-devotion"
 date: "2026-06-19 10:05:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Prayer"]
 aliases: ["give in secret", "pray in secret", "fast in secret"]
@@ -45,3 +45,4 @@ cards:
     back: "Father sees hidden - that's enough."
 draft: false
 ---
+-

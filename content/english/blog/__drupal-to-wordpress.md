@@ -8,6 +8,8 @@ categories: ["Technology", "Web Development", "Opinion"]
 author: "JoRap"
 tags: ["Drupal", "WordPress", "CMS", "Web Development", "Developer Life", "Career", "Open Source", "Gutenberg", "ACF", "Content Management", "WordCamp", "PHP", "Freelance"]
 slug: "drupal-to-wordpress"
+related_notes:
+  - git-based-cms
 featured: true
 draft: true
 ---

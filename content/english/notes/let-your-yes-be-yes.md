@@ -1,10 +1,9 @@
 ---
 title: "Let Your Yes Be Yes"
 meta_title: "Let Your Yes Be Yes - Plain Speech"
-description: "Speak plainly - no swearing oaths to make people trust you; let your word stand on its own (Matthew 5:33-37)."
+description: "Speak plainly - no swearing oaths to make people trust you; let your word stand on its own."
 key_concept: |
-  Jesus deepened the law against false vows: disciples should be so truthful that extra oaths aren't needed.
-  
+  Jesus deepened the law against false vows: disciples should be so truthful that extra oaths aren't needed. (Matthew 5:33-37).
   Anything beyond simple yes/no comes from evil - meaning manipulation, not that all contracts are sin. PKM parallel: [[Atomic Notes]] - one plain claim per page, no padded prose to sound smart. [[Integrity]] of speech is [[Heart Righteousness]], not performance for [[Let Your Light Shine]].
 examples:
   - "I told the coach I'd have my kid there \"God willing, absolutely, cross my heart\" when a plain yes would have been enough."
@@ -19,7 +18,7 @@ relationships:
 slug: "let-your-yes-be-yes"
 date: "2026-06-19 09:35:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Truth"]
 aliases: ["truth telling", "simply let your yes be yes"]
@@ -41,3 +40,4 @@ cards:
     back: "Simple yes or no - no spin."
 draft: false
 ---
+-

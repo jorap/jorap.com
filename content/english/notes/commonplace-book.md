@@ -1,7 +1,7 @@
 ---
 title: "Commonplace Book"
 meta_title: "Commonplace Book"
-description: "A personal book of quotes and ideas worth keeping - ancestor of linked notes."
+description: "Before linked notes, I kept quotes and ideas in one book I'd actually reopen."
 key_concept: |
   A personal book of quotes and ideas worth keeping - ancestor of linked notes.
   
@@ -23,7 +23,7 @@ relationships:
 slug: "commonplace-book"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["PKM", "Note Taking"]
 featured: false

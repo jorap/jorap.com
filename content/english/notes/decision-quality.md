@@ -1,7 +1,7 @@
 ---
 title: "Decision Quality"
 meta_title: "Decision Quality - Good Calls Under Real Constraints"
-description: "Choices that still look right after you sleep, learn more, and pay the bill - not only in the meeting where they felt clever."
+description: "I judge choices by whether they hold after sleep, new facts, and the real bill - not the meeting high."
 key_concept: "Decision quality is how often your choices hold up after information, time, and energy are factored in."
 examples:
   - "Signing a year-long club fee on one trial session is how people miss the schedule clash - decision quality was one call to a current member before we paid."
@@ -22,7 +22,7 @@ relationships:
 slug: "decision-quality"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Decision Making", "Thinking", "Performance"]
 featured: false

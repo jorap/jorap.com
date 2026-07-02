@@ -1,10 +1,9 @@
 ---
 title: "Joy"
 meta_title: "Joy - Gladness the Spirit Grows"
-description: "Gladness the Spirit grows in believers who rest on Christ's promise - not a good-week performance or a forced Sunday smile (Galatians 5:22)."
+description: "Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance."
 key_concept: |
-  [[Fruits of the Spirit]] names joy beside love and peace in one cluster - grown by walking in the Spirit, not manufactured for credit.
-  
+  [[Fruits of the Spirit]] names joy beside love and peace in one cluster - grown by walking in the Spirit, not manufactured for credit. (Galatians 5:22).
   [[Assurance]] is the garden echo: rest on what Christ finished, not this week's report card. [[Abide in Me]] is the engine - performing joy while empty at home told me I was white-knuckling fruit instead of staying in the vine. [[Standing vs Fellowship]] keeps a bad week from collapsing gladness with closeness - joy anchors on Christ's promise, not the streak.
 examples:
   - "Good week at work and I felt spiritually qualified - Galatians joy rests on Christ's promise, not the streak."
@@ -34,7 +33,7 @@ relationships:
 slug: "joy"
 date: "2026-07-01 21:00:00+08:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Galatians", "Discipleship"]
 aliases: ["fruit of joy", "Galatians joy"]
@@ -52,3 +51,4 @@ cards:
     back: "Rest on promise first - gladness follows."
 draft: false
 ---
+-

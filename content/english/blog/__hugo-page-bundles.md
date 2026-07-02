@@ -8,6 +8,13 @@ categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Hugo", "Page Bundles", "Content Management", "Static Sites", "Markdown", "Assets", "PKM", "Static Site Generator"]
 slug: "hugo-page-bundles"
+related_notes:
+  - future-proofing-knowledge
+  - the-garage-concept
+  - digital-garden
+  - git-based-cms
+  - free-tier-hosting-stack
+  - selling-static-sites
 featured: false
 draft: true
 ---

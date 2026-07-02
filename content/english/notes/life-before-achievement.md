@@ -1,7 +1,7 @@
 ---
 title: "Life Before Achievement"
 meta_title: "Life Before Achievement - No Goal Justifies Avoidable Death Risk"
-description: "Human life stays a non-negotiable constraint - even when the goal is a championship, team unity, or a reputation for toughness."
+description: "Human life is non-negotiable - even when the goal is a championship or a reputation for toughness."
 key_concept: |
   Those goals have value only while the methods used to reach them respect safety.
   
@@ -34,7 +34,7 @@ relationships:
 slug: "life-before-achievement"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Leadership", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Safety", "Leadership", "Ethics", "Coaching", "Duty of Care"]
 aliases: ["life over achievement", "no achievement justifies death risk"]

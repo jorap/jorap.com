@@ -1,7 +1,7 @@
 ---
 title: "Discipline"
 meta_title: "Discipline - Doing What You Committed When Motivation Drops"
-description: "Doing what you said you'd do when motivation, mood, or applause aren't there to push you."
+description: "I do what I said I'd do when nobody's clapping and motivation walked out."
 key_concept: |
   Doing what you said you'd do when motivation, mood, or applause aren't there to push you.
   
@@ -25,7 +25,7 @@ relationships:
 slug: "discipline"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Habits", "Performance", "Self-Control"]
 featured: false

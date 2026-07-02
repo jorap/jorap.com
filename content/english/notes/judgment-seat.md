@@ -1,7 +1,7 @@
 ---
 title: "Judgment Seat"
 meta_title: "Judgment Seat - Believers Evaluated for Works"
-description: "Believers stand before Christ after salvation to have their works evaluated for reward - what lasts gets repaid, what was worthless burns; eternal life was already settled by faith (2 Corinthians 5:10; 1 Corinthians 3:12-15)."
+description: "Believers stand before Christ after salvation to have works evaluated for reward - eternal life was already settled by faith."
 key_concept: |
   [[Free Grace]] and [[Justification]] already decided where I spend forever.
   
@@ -31,7 +31,7 @@ relationships:
 slug: "judgment-seat"
 date: "2026-06-29 08:10:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Reward", "Theology"]
 aliases: ["bema seat", "bema", "judgment seat of Christ"]
@@ -53,3 +53,4 @@ cards:
     back: "Whole life of faithfulness - not one week."
 draft: false
 ---
+-

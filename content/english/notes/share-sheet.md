@@ -1,7 +1,7 @@
 ---
 title: "Share Sheet"
 meta_title: "Share Sheet"
-description: "The phone menu that sends a link or file into another app - mobile capture's front door."
+description: "The share sheet is the fastest pipe from phone to inbox when the idea hits away from the desk."
 key_concept: |
   Mobile share targets are the fastest capture pipe when the idea hits away from your desk.
   
@@ -22,7 +22,7 @@ relationships:
 slug: "share-sheet"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Productivity", "Tips"]
 author: "JoRap"
 tags: ["PKM", "Mobile"]
 featured: false

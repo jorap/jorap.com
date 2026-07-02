@@ -1,7 +1,7 @@
 ---
 title: "Note Relationships"
 meta_title: "Note Relationships - Four Link Types for the Garden"
-description: "Four pair types in `relationships` frontmatter - extends, contradicts, implements, alternative - so the graph shows how ideas push and pull. **Hub/MOC pages** use `note_kind: index` (not a row). **Utility pages** use `note_kind: meta` - link by URL, not wikilink."
+description: "My graph shows extends, contradicts, implements, alternative - not just two notes mentioning the same word."
 key_concept: |
   Four pair types in `relationships` frontmatter show how ideas push and pull - not just that two notes mention each other.
   
@@ -32,7 +32,7 @@ relationships:
 slug: "note-relationships"
 date: "2026-06-19 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Linking", "PKM", "Note Taking", "Digital Garden", "Meta"]
 aliases: ["link types", "Link Typing"]

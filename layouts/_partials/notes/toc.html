@@ -39,7 +39,7 @@
 {{- if gt (len $outgoing) 0 -}}
   {{- $extras = $extras | append (dict "level" 2 "title" "Links from this Note" "id" "links-from-this-note") -}}
 {{- end -}}
-{{- $backlinkIndex := partialCached "notes/backlinks-index.html" site "backlinks-index-v1" -}}
+{{- $backlinkIndex := partialCached "notes/backlinks-index.html" site "backlinks-index-v5" -}}
 {{- $backlinks := index $backlinkIndex $page.RelPermalink | default slice -}}
 {{- if gt (len $backlinks) 0 -}}
   {{- $extras = $extras | append (dict "level" 2 "title" "Backlinks" "id" "backlinks") -}}

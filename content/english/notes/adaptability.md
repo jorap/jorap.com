@@ -1,7 +1,7 @@
 ---
 title: "Adaptability"
 meta_title: "Adaptability - Adjust When the Ground Moves"
-description: "Keep the goal, swap the method when the ground moves."
+description: "Adaptability swaps the method when conditions shift - same aim, different plan."
 key_concept: |
   Keep the goal, swap the method when the ground moves.
   
@@ -25,7 +25,7 @@ relationships:
 slug: "adaptability"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Performance", "Thinking", "Career"]
 featured: false

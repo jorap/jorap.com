@@ -141,7 +141,7 @@
                 {{- $categorySlugs = $categorySlugs | append (. | urlize) -}}
               {{- end -}}
               <div
-                class="md:col-6 mb-8 flex notes-grid-item"
+                class="md:col-6 lg:col-4 mb-8 flex notes-grid-item"
                 data-note-tags="{{ delimit $tagSlugs " " }}"
                 data-note-categories="{{ delimit $categorySlugs " " }}"
                 data-note-rel-extends="{{ $rels.extends }}"

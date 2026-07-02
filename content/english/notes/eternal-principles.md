@@ -17,7 +17,7 @@ relationships:
 slug: "eternal-principles"
 date: "2026-06-19 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Free Grace", "MOC", "Sermon on the Mount"]
 aliases: ["Jesus teachings", "gospel principles"]

@@ -1,7 +1,7 @@
 ---
 title: "Patience"
 meta_title: "Patience - Slow Fuse the Spirit Grows"
-description: "A slow fuse the Spirit grows in believers - not gritted teeth until Friday or white-knuckling through a dry prayer week (Galatians 5:22)."
+description: "I wait without turning brittle - the Spirit grows a slow fuse, not a countdown to snapping."
 key_concept: |
   A slow fuse the Spirit grows in believers - not gritted teeth until Friday or white-knuckling through a dry prayer week (Galatians 5:22).
   
@@ -38,7 +38,7 @@ relationships:
 slug: "patience"
 date: "2026-07-01 21:00:00+08:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Galatians", "Discipleship"]
 aliases: ["fruit of patience", "Galatians patience", "longsuffering"]
@@ -56,3 +56,4 @@ cards:
     back: "Slow the moment - tone from Spirit."
 draft: false
 ---
+-

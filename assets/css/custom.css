@@ -962,25 +962,27 @@ body.notes-graph-present-open {
   overflow: hidden;
   margin: 0;
   padding: 0;
-  border: 0;
   font-size: 0.8125rem;
-  font-style: normal;
   line-height: 1.45;
   color: var(--color-ink-muted);
-  quotes: "“" "”" "‘" "’";
 }
 
-.notes-backlink-snippet::before {
-  content: open-quote;
-}
-
-.notes-backlink-snippet::after {
-  content: close-quote;
+.notes-backlink-hit {
+  padding: 0 0.15em;
+  border-radius: 0.15em;
+  background: color-mix(in srgb, var(--color-accent) 18%, transparent);
+  color: var(--color-ink);
+  font-weight: 500;
 }
 
 .notes-backlink-link:hover .notes-backlink-snippet,
 .notes-backlink-link:focus-visible .notes-backlink-snippet {
   color: color-mix(in srgb, var(--color-accent) 72%, var(--color-ink-muted));
+}
+
+.notes-backlink-link:hover .notes-backlink-hit,
+.notes-backlink-link:focus-visible .notes-backlink-hit {
+  background: color-mix(in srgb, var(--color-accent) 28%, transparent);
 }
 
 .notes-backlinks-empty-state {

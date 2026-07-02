@@ -8,6 +8,13 @@ categories: ["AI", "Writing", "Tips"]
 author: "JoRap"
 tags: ["AI", "Prompts", "ChatGPT", "CRAFT", "Writing", "Prompt Engineering", "LLM", "Context", "Role Prompting", "Content Creation", "AI Writing", "Framework", "PKM", "Note Taking"]
 slug: "craft-prompt-framework"
+related_notes:
+  - intellectual-sourcing
+  - the-feynman-technique
+  - evergreen-notes
+  - progressive-summarization
+  - commonplace-book
+  - literature-notes
 featured: false
 draft: true
 ---

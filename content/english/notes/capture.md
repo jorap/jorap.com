@@ -25,7 +25,7 @@ relationships:
 slug: "capture"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Capture", "PKM", "Second Brain", "CODE Method", "Note Taking", "Productivity"]
 aliases: ["CODE", "Frictionless Capture"]

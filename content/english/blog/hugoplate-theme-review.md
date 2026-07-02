@@ -8,6 +8,13 @@ image: "/images/joraps-world.jpg"
 categories: ["Website", "Technology", "Reviews"]
 author: "JoRap"
 tags: ["Hugo CMS", "Hugoplate", "Tailwind CSS", "Website Building", "Themes", "Theme Review", "Static Sites", "Open Source", "Frontend", "Developer Life", "Hugo", "Static Site Generator", "Bootstrap", "Web Development", "JoRap", "Publishing", "Digital Garden", "PKM"]
+related_notes:
+  - the-garage-concept
+  - digital-garden
+  - drafting-in-public
+  - git-based-cms
+  - free-tier-hosting-stack
+  - selling-static-sites
 featured: false
 draft: false
 ---

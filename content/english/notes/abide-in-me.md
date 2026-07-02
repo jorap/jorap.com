@@ -1,10 +1,9 @@
 ---
 title: "Abide in Me"
 meta_title: "Abide in Me - Fruit from Union with Christ"
-description: "Stay connected to Christ the way branches stay in the vine - apart from him you can do nothing; fruit comes from union (John 15:1-11)."
+description: "I bear fruit when I stay connected to Christ, not when I white-knuckle harder on my own."
 key_concept: |
-  Abiding is ongoing dependence, not a one-time conversion event.
-  
+  Abiding is ongoing dependence, not a one-time conversion event. (John 15:1-11).
   Pruning hurts but serves fruitfulness. Under [[Free Grace]], fruit doesn't earn the branch's place in the vine - the branch bears fruit because it's connected. [[Fruits of the Spirit]] names the cluster Galatians lists - love through self-control - grown by walking in the Spirit, not white-knuckling. [[Sanctification]] is the slow becoming that abiding produces over time. Self-powered "fruit" without abiding is the dead wood Jesus removes - same trap as [[Compounding]] when I treat spiritual growth as pure self-stacked effort.
 examples:
   - "I snap at my kid after a week with almost no prayer or Scripture, and I know where the fruit went - abiding is opening the Bible before the news feed wins again."
@@ -31,7 +30,7 @@ relationships:
 slug: "abide-in-me"
 date: "2026-06-19 10:25:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Free Grace", "Fruit", "Union with Christ"]
 aliases: ["remain in me", "the vine and branches"]
@@ -53,3 +52,4 @@ cards:
     back: "His words - read Scripture."
 draft: false
 ---
+-

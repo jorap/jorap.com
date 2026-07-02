@@ -8,6 +8,13 @@ categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Hugo", "Taxonomies", "Tags", "Categories", "SEO", "Content Management", "PKM", "Note Taking"]
 slug: "native-hugo-taxonomies"
+related_notes:
+  - metadata-strategy
+  - commonplace-book
+  - future-proofing-knowledge
+  - literature-notes
+  - evergreen-vs-fleeting-notes
+  - note-relationships
 featured: false
 draft: true
 ---

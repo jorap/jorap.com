@@ -19,7 +19,7 @@ relationships:
 slug: "mobile-capture-workflows"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity", "Tips"]
 author: "JoRap"
 tags: ["Mobile", "Capture", "Workflow", "PKM", "Productivity", "Note Taking"]
 featured: false

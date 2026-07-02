@@ -1,7 +1,7 @@
 ---
 title: "Blameless Postmortem"
 meta_title: "Blameless Postmortem - Learn System Causes After Calm Returns"
-description: "After rollback restores service, learn what broke in the system - not who to punish for pushing deploy."
+description: "After rollback restores service, I learn what broke in the system - not who to punish for pushing deploy."
 key_concept: |
   [[Rollback Principle]] gets users back on the old build; blameless postmortem gets judgment back.
   
@@ -34,7 +34,7 @@ relationships:
 slug: "blameless-postmortem"
 date: "2026-07-01 14:00:00+08:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Safety", "Leadership", "Continuous Improvement", "Systems Thinking"]
 aliases: ["postmortem", "blameless review"]

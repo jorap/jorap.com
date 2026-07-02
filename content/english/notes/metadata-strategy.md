@@ -1,7 +1,7 @@
 ---
 title: "Metadata Strategy"
 meta_title: "Metadata Strategy - Tags Without Taxonomy Hell"
-description: "Tags, categories, dates, aliases - metadata should help me find notes, not become a second job."
+description: "If tagging a note takes longer than writing it, my system is fighting me."
 key_concept: |
   Tags, categories, dates, aliases - metadata should help me find notes, not become a second job.
   
@@ -23,7 +23,7 @@ relationships:
 slug: "metadata-strategy"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Metadata", "Tags", "PKM", "Organization", "Taxonomy", "Note Taking", "Hugo", "Documentation"]
 featured: false

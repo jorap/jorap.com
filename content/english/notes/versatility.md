@@ -1,7 +1,7 @@
 ---
 title: "Versatility"
 meta_title: "Versatility - More Than One Way to Contribute"
-description: "You can contribute in more than one lane when the team or the market shifts."
+description: "I can plug into more than one lane when the team or the client needs a shift."
 key_concept: |
   You can contribute in more than one lane when the team or the market shifts.
   
@@ -25,7 +25,7 @@ relationships:
 slug: "versatility"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Performance", "Career", "Adaptability"]
 featured: false

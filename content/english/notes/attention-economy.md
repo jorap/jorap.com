@@ -1,7 +1,7 @@
 ---
 title: "Attention Economy"
 meta_title: "Attention Economy"
-description: "Platforms compete for your focus - your attention is the product."
+description: "I treat my feed like a slot machine someone else owns - if I'm not paying, I'm the product."
 key_concept: |
   Platforms compete for your focus - your attention is the product.
   
@@ -23,7 +23,7 @@ relationships:
 slug: "attention-economy"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Productivity", "Digital Minimalism"]
 featured: false

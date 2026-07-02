@@ -1,7 +1,7 @@
 ---
 title: "Repent and Believe"
 meta_title: "Repent and Believe - Jesus' First Command"
-description: "Jesus' opening command: turn from self-rule and trust the good news that the kingdom is at hand (Mark 1:15; Matthew 4:17)."
+description: "Jesus' opening command: turn from self-rule and trust the good news that the kingdom is at hand."
 key_concept: |
   Repentance is a change of mind and direction - not a down payment on salvation.
   
@@ -19,7 +19,7 @@ relationships:
 slug: "repent-and-believe"
 date: "2026-06-19 09:15:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Free Grace", "Repentance", "Faith"]
 aliases: ["repentance", "believe the gospel"]
@@ -41,3 +41,4 @@ cards:
     back: "Enter by faith today."
 draft: false
 ---
+-

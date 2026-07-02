@@ -1,10 +1,9 @@
 ---
 title: "Peace"
 meta_title: "Peace - Calm the Spirit Grows"
-description: "Calm the Spirit grows in believers who trust the Father - not silence at any price or pretending tomorrow won't matter (Galatians 5:22)."
+description: "Peace is Spirit-grown calm in believers who trust the Father - not silence at any price."
 key_concept: |
-  [[Fruits of the Spirit]] lists peace beside love and joy - inner calm from God's reign, not denial.
-  
+  [[Fruits of the Spirit]] lists peace beside love and joy - inner calm from God's reign, not denial. (Galatians 5:22).
   [[Don't Worry]] is the trust echo: stop borrowing tomorrow's trouble. [[Peacemakers]] is the active echo: pursue reconciliation, not just keep quiet. [[Seek the Kingdom First]] orders the week before anxiety sets the agenda. Same fruit, two moves - rest in the Father, work for peace where you can.
 examples:
   - "I thumb-refreshed the news at 2am instead of sleeping - peace fruit was pray first, then act on what I can actually change."
@@ -31,7 +30,7 @@ relationships:
 slug: "peace"
 date: "2026-07-01 21:00:00+08:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Galatians", "Discipleship"]
 aliases: ["fruit of peace", "Galatians peace"]
@@ -49,3 +48,4 @@ cards:
     back: "Trust Father - pray, then act."
 draft: false
 ---
+-

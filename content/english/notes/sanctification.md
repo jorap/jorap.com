@@ -1,7 +1,7 @@
 ---
 title: "Sanctification"
 meta_title: "Sanctification - Becoming Holy After Faith"
-description: "God makes me holy over time after [[Justification]] declares me righteous - gradual change of heart and habit, not the ticket that buys eternal life (1 Thessalonians 4:3; Philippians 1:6)."
+description: "After God declares me righteous, he keeps shaping my habits and heart - growth, not the ticket in."
 key_concept: |
   [[Free Grace]] settles where I spend forever.
   
@@ -52,7 +52,7 @@ relationships:
 slug: "sanctification"
 date: "2026-06-29 08:05:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Free Grace", "Eternal Principles", "Discipleship", "Theology"]
 aliases: ["becoming holy", "growth in holiness"]
@@ -74,3 +74,4 @@ cards:
     back: "Daily sanctification - not one sprint."
 draft: false
 ---
+-

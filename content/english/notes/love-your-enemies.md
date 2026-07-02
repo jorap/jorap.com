@@ -1,10 +1,9 @@
 ---
 title: "Love Your Enemies"
 meta_title: "Love Your Enemies - Jesus' Hard Command"
-description: "Bless those who curse you, pray for persecutors - so you reflect the Father who sends rain on just and unjust alike (Matthew 5:44-45)."
+description: "Love your enemies - bless, pray, reflect the Father who sends rain on just and unjust alike."
 key_concept: |
-  Jesus overturned the tribal reading of "neighbor." Loving only people who love you back is ordinary; loving enemies is divine-shaped.
-  
+  Jesus overturned the tribal reading of "neighbor." Loving only people who love you back is ordinary; loving enemies is divine-shaped. (Matthew 5:44-45).
   Prayer and blessing are the practical handles - not agreement, not pretending harm didn't happen. The Father's free grace toward the unjust (Matthew 5:45) is the pattern: I love enemies because God loved me first.
 examples:
   - "Someone slandered me in a group chat and my thumb hovered over a reply - I prayed for them, not because they deserve it, because that's what the Father does with people like me."
@@ -31,7 +30,7 @@ relationships:
 slug: "love-your-enemies"
 date: "2026-06-19 08:20:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Forgiveness"]
 aliases: ["bless those who curse you"]
@@ -53,3 +52,4 @@ cards:
     back: "Father's kindness - bless both kinds."
 draft: false
 ---
+-

@@ -1,7 +1,7 @@
 ---
 title: "Childlike Faith"
 meta_title: "Childlike Faith - Receive the Kingdom"
-description: "Receive the kingdom like a child - dependent, trusting, not negotiating merit (Matthew 18:3; Mark 10:15)."
+description: "I stop negotiating merit and receive the kingdom the way a child receives care."
 key_concept: |
   Children don't enter the kingdom by achievement; they receive care they didn't earn.
   
@@ -22,7 +22,7 @@ relationships:
 slug: "childlike-faith"
 date: "2026-06-19 09:45:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Free Grace", "Faith"]
 aliases: ["become like children", "faith like a child"]
@@ -44,3 +44,4 @@ cards:
     back: "Now - receive before I've figured it all out."
 draft: false
 ---
+-

@@ -1,7 +1,7 @@
 ---
 title: "Taxonomy"
 meta_title: "Taxonomy"
-description: "A classification scheme - folders, tags, types - for finding things later."
+description: "Tags, folders, and types are how I find notes later - classification in service of retrieval."
 key_concept: |
   A classification scheme - folders, tags, types - for finding things later.
   
@@ -23,7 +23,7 @@ relationships:
 slug: "taxonomy"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["PKM", "Metadata"]
 featured: false

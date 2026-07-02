@@ -1,7 +1,7 @@
 ---
 title: "Safety by Design"
 meta_title: "Safety by Design"
-description: "Build the activity so harm is hard to cause - not only train people to be careful around danger."
+description: "I build workflows so the dangerous move is hard - not just a warning label and good intentions."
 key_concept: |
   Rollback is undo-by-design when release goes loud.
   
@@ -28,7 +28,7 @@ relationships:
 slug: "safety-by-design"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Safety", "Systems Thinking"]
 featured: false

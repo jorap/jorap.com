@@ -61,9 +61,9 @@
             {{ with $backlinks }}
               <aside class="notes-backlinks border-divider mt-6 rounded border p-5">
                 <h2 id="backlinks" class="h6 mb-3">Backlinks</h2>
-                <ul class="notes-backlinks-list grid gap-3 sm:grid-cols-2">
+                <ul class="notes-backlinks-list grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
                   {{ range . }}
-                    {{ partial "notes/note-link-card.html" (dict "Page" .Page) }}
+                    {{ partial "notes/backlink-item.html" . }}
                   {{ end }}
                 </ul>
               </aside>

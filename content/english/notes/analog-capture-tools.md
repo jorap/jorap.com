@@ -1,7 +1,7 @@
 ---
 title: "Analog Capture Tools"
 meta_title: "Analog Capture Tools - Paper When Screens Fail"
-description: "I love my wiki, but sometimes paper wins - meetings, sermons, the pocket notebook that survives a dead phone battery. Sermon capture often becomes [[Eternal Principles]] notes after weekly review."
+description: "Analog capture wins when the phone dies or the meeting blocks screens - same inbox rule."
 key_concept: "Paper capture uses the same inbox rule as digital - for meetings, sermons, and dead phone batteries."
 examples:
   - "The phone dies mid-sermon and I scribble Philippians references in the margin - I copy them into my study Bible at the kitchen table Sunday night."
@@ -22,7 +22,7 @@ relationships:
 slug: "analog-capture-tools"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity", "Tips"]
 author: "JoRap"
 tags: ["Analog", "Capture", "Note Taking", "Bullet Journal", "PKM", "Productivity"]
 featured: false

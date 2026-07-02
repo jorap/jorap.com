@@ -1,7 +1,7 @@
 ---
 title: "Seek the Kingdom First"
 meta_title: "Seek the Kingdom First - Matthew 6:33"
-description: "Put God's rule and righteousness ahead of food, status, and tomorrow's worry - the rest follows (Matthew 6:33)."
+description: "I put God's rule first and let food, status, and tomorrow's worry sort behind that."
 key_concept: |
   Put God's rule and righteousness ahead of food, status, and tomorrow's worry - the rest follows (Matthew 6:33).
   
@@ -23,7 +23,7 @@ relationships:
 slug: "seek-the-kingdom-first"
 date: "2026-06-19 08:30:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Priorities"]
 aliases: ["seek ye first", "kingdom of God"]
@@ -49,3 +49,4 @@ cards:
     back: "Pray first - then act on the numbers."
 draft: false
 ---
+-

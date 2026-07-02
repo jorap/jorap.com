@@ -8,6 +8,13 @@ categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Hugo", "Shortcodes", "Markdown", "Web Development", "Static Sites", "Components", "PKM", "Documentation"]
 slug: "hugo-shortcodes-deep-dive"
+related_notes:
+  - future-proofing-knowledge
+  - metadata-strategy
+  - drafting-in-public
+  - evergreen-notes
+  - creative-output
+  - the-garage-concept
 featured: false
 draft: true
 ---

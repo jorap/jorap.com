@@ -1,7 +1,7 @@
 ---
 title: "Assurance"
 meta_title: "Assurance - Rest on Christ's Promise, Not This Week"
-description: "Eternal life rests on Christ's finished work and promise - not on my performance this week (John 10:28-29; Romans 8:38-39; 1 John 5:13)."
+description: "When doubt shows up, I rest on what Christ already finished, not on how clean my week looked."
 key_concept: |
   [[Free Grace]] names the gift; [[Justification]] names the verdict; assurance names where I rest when doubt hits.
   
@@ -40,7 +40,7 @@ relationships:
 slug: "assurance"
 date: "2026-06-30 08:40:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Free Grace", "Salvation", "Faith", "Eternal Principles"]
 aliases: ["assurance of salvation", "eternal security", "rest in Christ"]
@@ -62,3 +62,4 @@ cards:
     back: "Nothing from God's love in Christ."
 draft: false
 ---
+-

@@ -7,7 +7,7 @@ description: "Enter a topic. The prompt finds improvement principles, picks one 
 slug: "create"
 date: "2026-06-22 15:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Notes", "Meta", "PKM"]
 aliases: ["create"]

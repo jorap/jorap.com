@@ -1,10 +1,9 @@
 ---
 title: "Treasure in Heaven"
 meta_title: "Treasure in Heaven - Where Your Heart Follows"
-description: "Store up what lasts - generosity, mercy, obedience - not what moth, rust, and thieves take (Matthew 6:19-21)."
+description: "I store up what lasts - generosity and obedience - not what rust, moth, and thieves can take."
 key_concept: |
-  Where your treasure is, there your heart will be.
-  
+  Where your treasure is, there your heart will be. (Matthew 6:19-21).
   Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation. [[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life for faithfulness - not the entry fee. The [[Judgment Seat]] evaluates what lasts; [[Wood Hay Stubble]] names what burns vs survives the fire; [[Loss of Reward]] is when worthless treasure burns but you're still saved through fire. [[The Collector's Fallacy]] is the PKM mirror: hoarding saves and stuff on earth while nothing lasting gets stored.
 examples:
   - "Thumb on another buy I don't need - will this rust, or store something heaven-side like mercy and obedience?"
@@ -25,7 +24,7 @@ relationships:
 slug: "treasure-in-heaven"
 date: "2026-06-19 09:05:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Priorities"]
 aliases: ["lay up treasure", "where your treasure is"]
@@ -47,3 +46,4 @@ cards:
     back: "Will this rust - or store something that lasts?"
 draft: false
 ---
+-

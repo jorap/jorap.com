@@ -8,6 +8,8 @@ categories: ["Technology", "Gear", "Reviews"]
 author: "JoRap"
 tags: ["Smart Home", "Smart Plug", "Automation", "Gear", "IoT", "Home Automation", "Scheduling", "Energy Saving", "Wi-Fi Plug", "Voice Assistant", "PKM"]
 slug: "smart-plug"
+related_notes:
+  - building-a-personal-api
 featured: false
 draft: true
 ---

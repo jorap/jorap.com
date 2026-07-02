@@ -8,6 +8,8 @@ categories: ["Technology", "Gear", "Reviews"]
 author: "JoRap"
 tags: ["Wi-Fi", "Router", "Home Network", "Gear", "Wi-Fi 6", "Mesh Network", "Internet", "Networking", "Home Office", "ISP", "Bandwidth", "Dead Zones"]
 slug: "wifi-router"
+related_notes:
+  - reliability
 featured: false
 draft: true
 ---

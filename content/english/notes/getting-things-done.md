@@ -1,7 +1,7 @@
 ---
 title: "Getting Things Done"
 meta_title: "Getting Things Done"
-description: "David Allen's capture-clarify-organize system - inbox first, next actions, trusted lists."
+description: "David Allen's capture-clarify-organize loop gives me a trusted inbox, next actions, and a weekly review."
 key_concept: |
   GTD vs PARA splits tasks from notes; Allen owns the task side.
   
@@ -23,7 +23,7 @@ relationships:
 slug: "getting-things-done"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["PKM", "Productivity", "GTD"]
 featured: false

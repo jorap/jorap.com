@@ -1,10 +1,9 @@
 ---
 title: "The Beatitudes"
 meta_title: "The Beatitudes - Blessed Are the..."
-description: "Eight blessings Jesus opened the Sermon on the Mount with - poor in spirit, mourners, meek, hungry for righteousness, merciful, pure in heart, peacemakers, persecuted (Matthew 5:3-12)."
+description: "Jesus opened the Sermon on the Mount with eight blessings - a picture of who the kingdom favors."
 key_concept: |
-  "Beatitude" means supreme blessedness.
-  
+  "Beatitude" means supreme blessedness. (Matthew 5:3-12).
   Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not the self-sufficient - which fits [[Free Grace]] perfectly. "Poor in spirit" is bankruptcy before God, receiving the kingdom as gift rather than wage. Each line promises reward rooted in character shaped by grace, not self-made righteousness.
   
   | Trait | Promise |
@@ -45,7 +44,7 @@ relationships:
 slug: "the-beatitudes"
 date: "2026-06-19 08:35:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Beatitudes"]
 aliases: ["blessed are", "Beatitudes"]
@@ -67,3 +66,4 @@ cards:
     back: "Kingdom of heaven - blessed are persecuted."
 draft: false
 ---
+-

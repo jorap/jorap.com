@@ -1,7 +1,7 @@
 ---
 title: "GTD vs PARA"
 meta_title: "GTD vs PARA - Tasks vs Knowledge"
-description: "Getting Things Done (GTD) runs my tasks. Projects, Areas, Resources, Archives (PARA) runs my notes. They're cousins, not competitors - here's how I use both without doubling admin."
+description: "I run tasks through GTD and notes through PARA as cousins that share capture, not rival systems that double admin."
 key_concept: |
   GTD runs my tasks.
   
@@ -22,7 +22,7 @@ relationships:
 slug: "gtd-vs-para"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["GTD", "PARA", "Productivity", "PKM", "Tiago Forte", "David Allen", "Second Brain", "Note Taking"]
 aliases: ["GTD"]

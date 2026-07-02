@@ -1,7 +1,7 @@
 ---
 title: "Grace"
 meta_title: "Grace - Unmerited Favor from God"
-description: "God's unmerited favor - He gives good I never earned, starting with salvation and continuing through the walk after (Ephesians 2:8-9; 2 Corinthians 12:9; Titus 2:11-12)."
+description: "Grace is gift I never earned starting with salvation and continuing through the walk after, not wages I could stack."
 key_concept: |
   [[Mercy]] withholds what I deserve; grace gives what I couldn't earn.
   
@@ -43,7 +43,7 @@ relationships:
 slug: "grace"
 date: "2026-07-01 19:53:14+08:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Theology", "Grace", "Faith"]
 aliases: ["unmerited favor", "charis"]
@@ -65,3 +65,4 @@ cards:
     back: "The gift saves - mercy spared wrath first."
 draft: false
 ---
+-

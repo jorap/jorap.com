@@ -2,7 +2,7 @@
 note_kind: "index"
 title: "Getting Started"
 meta_title: "Getting Started - Notes Garden"
-description: "One claim per page, linked with `[[wikilinks]]`, browsable at [/notes/](/notes/)."
+description: "I keep one clear claim per note page and let wikilinks plus [/notes/](/notes/) do the browsing."
 key_concept: |
   Public when `draft: false`; hidden while `draft: true`.
   
@@ -20,7 +20,7 @@ relationships:
 slug: "getting-started"
 date: "2026-06-18 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Notes", "Meta", "PKM", "Digital Garden", "Note Taking", "Hugo", "Website Building"]
 aliases: ["start"]

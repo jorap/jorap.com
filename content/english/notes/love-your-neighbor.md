@@ -1,10 +1,9 @@
 ---
 title: "Love Your Neighbor"
 meta_title: "Love Your Neighbor - The Second Commandment"
-description: "The second commandment like the first: love others as yourself (Matthew 22:39, Mark 12:31)."
+description: "Love others the way I'd want care if our roles flipped - second command, paired with loving God."
 key_concept: |
-  Jesus lifted Leviticus 19:18 to equal rank with loving God.
-  
+  Jesus lifted Leviticus 19:18 to equal rank with loving God. (Matthew 22:39, Mark 12:31).
   The parable of the Good Samaritan (Luke 10) reframes the question - not "who counts?" but "who acted as neighbor?" The standard is the care you'd want if you were hurt on the road. [[Mercy]] shows up in the body - bandage, ride, cost covered. [[Free Grace]] doesn't erase the command - it frees me to love without keeping score for salvation.
 examples:
   - "The parent I'd rather avoid sits on my side every game - I moved my chair over and asked how his kid's ankle was healing."
@@ -37,7 +36,7 @@ relationships:
 slug: "love-your-neighbor"
 date: "2026-06-19 08:10:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Commandments", "Sermon on the Mount"]
 aliases: ["second commandment"]
@@ -59,3 +58,4 @@ cards:
     back: "Am I being neighbor to them?"
 draft: false
 ---
+-

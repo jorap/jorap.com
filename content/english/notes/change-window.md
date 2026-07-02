@@ -1,7 +1,7 @@
 ---
 title: "Change Window"
 meta_title: "Change Window - Schedule Risky Changes When Rollback Help Is Awake"
-description: "Schedule risky changes when rollback help is awake - not Friday night when everyone's offline."
+description: "I ship risky changes when someone awake can roll back, not Friday night when everyone's offline."
 key_concept: |
   [[Rollback Principle]] fails when the people who can revert are asleep or at a wedding.
   
@@ -31,7 +31,7 @@ relationships:
 slug: "change-window"
 date: "2026-07-01 14:00:00+08:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Safety", "DevOps", "Systems Thinking", "Leadership"]
 aliases: ["deploy window", "release window"]

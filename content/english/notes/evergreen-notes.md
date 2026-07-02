@@ -1,7 +1,7 @@
 ---
 title: "Evergreen Notes"
 meta_title: "Evergreen Notes - Ideas That Stay Fresh"
-description: "Ideas phrased to stay useful - timeless wording, clear claims, updated when reality changes."
+description: "I phrase ideas I'd still stand behind in two years and revise when reality shifts, not when a trend spikes."
 key_concept: |
   I write in complete sentences I'd still stand behind in two years.
   
@@ -22,7 +22,7 @@ relationships:
 slug: "evergreen-notes"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Evergreen Notes", "PKM", "Note Taking", "Second Brain", "Writing", "Formatting", "Readability", "Markdown"]
 aliases: ["Formatting for Readability", "Permanent Notes"]

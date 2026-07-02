@@ -1,7 +1,7 @@
 ---
 title: "Standard Operating Procedures"
 meta_title: "Standard Operating Procedures - Written Defaults the Team Can Run"
-description: "Short written steps for work that repeats - deploys, incidents, onboarding - so the team doesn't improvise when the clock is loud."
+description: "I write short steps for deploys and incidents so nobody has to improvise when the clock is loud."
 key_concept: SOPs are simple written steps for recurring work - so nobody improvises under stress.
 examples:
   - "The closing routine after every match - ice, tape, log the injury - lives on the locker-room whiteboard so nobody improvises when everyone's exhausted."
@@ -31,7 +31,7 @@ relationships:
 slug: "standard-operating-procedures"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Systems Thinking", "Work", "Performance"]
 aliases: ["SOPs"]

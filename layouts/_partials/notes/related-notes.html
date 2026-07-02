@@ -1,6 +1,6 @@
 {{- /*
   Related garden notes for a page (blog → notes garden; notes → see-also).
-  Priority: related_notes frontmatter (exclusive) → tag overlap → title mentions (blog) → Hugo .Related.
+  Priority: related_notes frontmatter (first, in order) → tag overlap → title mentions (blog) → Hugo .Related.
   Returns a slice of dicts: Page, Score, Shared.
 */ -}}
 {{- $page := .Context -}}
@@ -10,26 +10,31 @@
 {{- $items := slice -}}
 {{- $seen := dict -}}
 
-{{- if isset $page.Params "related_notes" -}}
-  {{- range $slug := $page.Params.related_notes -}}
+{{- with $page.Params.related_notes -}}
+  {{- range $i, $slug := . -}}
     {{- range $notes -}}
       {{- if or (eq (.Params.slug | default "") $slug) (eq .File.ContentBaseName $slug) -}}
         {{- $key := .RelPermalink -}}
         {{- if not (index $seen $key) -}}
           {{- $seen = merge $seen (dict $key true) -}}
-          {{- $items = $items | append (dict "Page" . "Score" 1.0 "Shared" slice) -}}
+          {{- $score := sub 10.0 (float $i) -}}
+          {{- $items = $items | append (dict "Page" . "Score" $score "Shared" slice) -}}
         {{- end -}}
       {{- end -}}
     {{- end -}}
   {{- end -}}
-{{- else -}}
+{{- end -}}
 
+{{- if lt (len $items) $limit -}}
 {{- $labels := $page.Params.tags | default slice -}}
 {{- $labels = $labels | append ($page.Params.categories | default slice) -}}
 
 {{- if gt (len $labels) 0 -}}
   {{- range $notes -}}
     {{- if eq .RelPermalink $page.RelPermalink -}}
+      {{- continue -}}
+    {{- end -}}
+    {{- if index $seen .RelPermalink -}}
       {{- continue -}}
     {{- end -}}
     {{- $noteLabels := .Params.tags | default slice -}}
@@ -49,11 +54,10 @@
     {{- end -}}
     {{- $score := div (float $overlap) (math.Sqrt (mul (float (len $labels)) (float (len $noteLabels)))) -}}
     {{- $key := .RelPermalink -}}
-    {{- if not (index $seen $key) -}}
-      {{- $seen = merge $seen (dict $key true) -}}
-      {{- $items = $items | append (dict "Page" . "Score" $score "Shared" $shared) -}}
-    {{- end -}}
+    {{- $seen = merge $seen (dict $key true) -}}
+    {{- $items = $items | append (dict "Page" . "Score" $score "Shared" $shared) -}}
   {{- end -}}
+{{- end -}}
 {{- end -}}
 
 {{- if and (eq $page.Section "blog") (lt (len $items) $limit) -}}
@@ -107,12 +111,12 @@
   {{- end -}}
 {{- end -}}
 
-{{- $items = sort $items "Score" "desc" -}}
-{{- $items = first $limit $items -}}
-
-{{- if eq (len $items) 0 -}}
+{{- if lt (len $items) $limit -}}
   {{- range site.RegularPages.Related $page -}}
     {{- if ne .Section "notes" -}}
+      {{- continue -}}
+    {{- end -}}
+    {{- if index $seen .RelPermalink -}}
       {{- continue -}}
     {{- end -}}
     {{- if partial "notes/is-utility-page.html" . -}}
@@ -121,11 +125,9 @@
     {{- if eq (.Params.note_kind | default "note") "index" -}}
       {{- continue -}}
     {{- end -}}
+    {{- $seen = merge $seen (dict .RelPermalink true) -}}
     {{- $items = $items | append (dict "Page" . "Score" 0.1 "Shared" slice) -}}
   {{- end -}}
-  {{- $items = first $limit $items -}}
-{{- end -}}
-
 {{- end -}}
 
 {{- return (first $limit (sort $items "Score" "desc")) -}}

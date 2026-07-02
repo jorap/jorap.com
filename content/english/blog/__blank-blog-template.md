@@ -8,6 +8,8 @@ image: "/images/image-template.jpg"
 categories: ["Website", "Tutorial"]
 author: "JoRap"
 tags: ["Hugo CMS", "Markdown", "Shortcodes", "Frontmatter", "Blog Template", "Hugo", "Content Management", "Static Sites", "Web Development"]
+related_notes:
+  - digital-garden
 featured: false
 draft: true
 ---

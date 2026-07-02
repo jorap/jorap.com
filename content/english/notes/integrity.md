@@ -1,7 +1,7 @@
 ---
 title: "Integrity"
 meta_title: "Integrity - Alignment Between Claim and Action"
-description: "What you do matches what you claim - especially when it costs applause, speed, or comfort."
+description: "What I do matches what I claim when applause, speed, or comfort aren't watching."
 key_concept: |
   What you do matches what you claim - especially when it costs applause, speed, or comfort.
   
@@ -25,7 +25,7 @@ relationships:
 slug: "integrity"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Character", "Ethics", "Work"]
 featured: false

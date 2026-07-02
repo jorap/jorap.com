@@ -1,10 +1,9 @@
 ---
 title: "Let Your Light Shine"
 meta_title: "Let Your Light Shine - Good Works That Glorify God"
-description: "Do good works visibly so others see them and glorify the Father - not hidden under a basket (Matthew 5:14-16)."
+description: "Good works aren't for hiding - let people see the Father in how I live, not perform for applause."
 key_concept: |
-  You're the light of the world, like a city on a hill.
-  
+  You're the light of the world, like a city on a hill. (Matthew 5:14-16).
   The point isn't performance for applause - Jesus warns against practicing righteousness to be seen by people (Matthew 6:1). Good works shine so God gets credit for [[Free Grace]] at work in a saved life, not so I build a personal brand. Parallel in the garden: [[Drafting in Public]] puts rough notes in the open so ideas get tested - same visibility instinct, different aim (glorify God, not the author).
 examples:
   - "I brought extra water for the whole bench and almost posted about it - the light isn't for my brand; it's so someone sees good work and thinks God is real."
@@ -25,7 +24,7 @@ relationships:
 slug: "let-your-light-shine"
 date: "2026-06-19 09:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Witness"]
 aliases: ["light of the world", "city on a hill"]
@@ -47,3 +46,4 @@ cards:
     back: "So others glorify God - don't hide."
 draft: false
 ---
+-

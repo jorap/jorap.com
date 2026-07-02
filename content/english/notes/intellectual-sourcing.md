@@ -1,7 +1,7 @@
 ---
 title: "Intellectual Sourcing"
 meta_title: "Intellectual Sourcing - Track Where Ideas Come From"
-description: "I cite sources in notes not for academia - so I can trust my own synthesis and find the original six months later."
+description: "I cite sources in notes to trust my synthesis and find the original later."
 key_concept: I cite sources so I can trust what I wrote and find the original six months later.
 examples:
   - "I taped the coach's article title under the quote in our playbook so six months later we know if the source still says what we thought."
@@ -19,7 +19,7 @@ relationships:
 slug: "intellectual-sourcing"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Sourcing", "Citations", "PKM", "Research", "Note Taking", "Integrity", "Writing"]
 featured: false

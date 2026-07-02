@@ -1,7 +1,7 @@
 ---
 title: "Information Diet"
 meta_title: "Information Diet"
-description: "Choose what you consume on purpose - feeds are not neutral."
+description: "I choose feeds on purpose because algorithm defaults aren't neutral."
 key_concept: |
   Choose what you consume on purpose - feeds are not neutral.
   
@@ -23,7 +23,7 @@ relationships:
 slug: "information-diet"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["PKM", "Productivity"]
 featured: false

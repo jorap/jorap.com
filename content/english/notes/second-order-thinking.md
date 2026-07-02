@@ -1,7 +1,7 @@
 ---
 title: "Second-Order Thinking"
 meta_title: "Second-Order Thinking - Ask What Happens Next"
-description: "Ask what happens after the first win - incentives shift, copycats arrive, shortcuts compound."
+description: "I ask what the clever fix triggers next - copycats, shortcuts, and incentives I didn't plan for."
 key_concept: |
   Ask what happens after the first win - incentives shift, copycats arrive, shortcuts compound.
   
@@ -25,7 +25,7 @@ relationships:
 slug: "second-order-thinking"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Thinking"]
 author: "JoRap"
 tags: ["Mental Models", "Thinking", "Strategy"]
 aliases: ["second order effects", "second order thinking"]

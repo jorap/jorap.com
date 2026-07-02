@@ -1,7 +1,7 @@
 ---
 title: "PARA Method"
 meta_title: "PARA Method - Projects, Areas, Resources, Archives"
-description: "Projects, Areas, Resources, Archives (PARA) is how I sort notes by life responsibility - not by topic alphabet soup. Four buckets, clear questions."
+description: "PARA sorts notes into Projects, Areas, Resources, and Archives - four buckets by life responsibility, not topic soup."
 key_concept: "PARA sorts notes by life responsibility - enough structure to find things, archive when done."
 examples:
   - "Tournament folder on the bench with a deadline; off-season conditioning notes in the filing cabinet with no end date."
@@ -19,7 +19,7 @@ relationships:
 slug: "para-method"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["PARA", "Tiago Forte", "PKM", "Organization", "Archive", "Second Brain", "Productivity", "Note Taking", "Structure"]
 aliases: ["PARA", "Organization", "The Archive Method", "Archive Method", "The Archive"]

@@ -1,10 +1,9 @@
 ---
 title: "Turn the Other Cheek"
 meta_title: "Turn the Other Cheek - Non-Retaliation"
-description: "When someone strikes or insults you, don't return the same - break the cycle of retaliation (Matthew 5:38-39)."
+description: "When someone hits or insults me, I don't hand back the same - I break the retaliation loop."
 key_concept: |
-  Jesus rejected the limit of "eye for eye" as a personal ethic for disciples.
-  
+  Jesus rejected the limit of "eye for eye" as a personal ethic for disciples. (Matthew 5:38-39).
   The point isn't passivity toward all evil - it's refusing to become what hurt you. Same logic as [[Sunk Cost Fallacy]]: stop throwing more anger after sunk hurt. Goes further than [[The Golden Rule]] (proactive good) and pairs with [[Love Your Enemies]] (heart posture). [[Free Grace]] frees me to absorb cost without keeping score for heaven.
 examples:
   - "Neighbor's passive-aggressive note about parking - I didn't post a rebuttal on the group chat; stop throwing anger after sunk hurt."
@@ -19,7 +18,7 @@ relationships:
 slug: "turn-the-other-cheek"
 date: "2026-06-19 09:20:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Non-violence"]
 aliases: ["non-retaliation", "resist not evil"]
@@ -41,3 +40,4 @@ cards:
     back: "Grace freed me - don't score back."
 draft: false
 ---
+-

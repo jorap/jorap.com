@@ -1,7 +1,7 @@
 ---
 title: "Preparedness"
 meta_title: "Preparedness - Rehearse Before the Emergency Owns the Clock"
-description: "Rehearse, document, and test before the emergency owns the clock."
+description: "I'd rather run the fire drill bored than improvise when the alarm is real."
 key_concept: |
   Rehearse, document, and test before the emergency owns the clock.
   
@@ -31,7 +31,7 @@ relationships:
 slug: "preparedness"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Performance", "Systems Thinking", "Leadership"]
 featured: false

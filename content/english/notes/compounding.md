@@ -1,7 +1,7 @@
 ---
 title: "Compounding"
 meta_title: "Compounding - Small Gains That Stack Over Time"
-description: "Repeat small gains until they stack - keep showing up; the curve looks flat until it doesn't."
+description: "I keep doing the small right thing until the curve finally bends - flat for a long time, then not."
 key_concept: |
   Repeat small gains until they stack - keep showing up; the curve looks flat until it doesn't.
   
@@ -29,7 +29,7 @@ relationships:
 slug: "compounding"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Thinking"]
 author: "JoRap"
 tags: ["Mental Models", "Productivity", "Performance", "Habits", "Learning", "PKM", "Systems Thinking"]
 aliases: ["Compound Interest"]

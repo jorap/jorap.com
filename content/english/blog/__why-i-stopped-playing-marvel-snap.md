@@ -8,6 +8,11 @@ categories: ["Games", "Opinion"]
 author: "JoRap"
 tags: ["Marvel Snap", "Card Games", "Gaming", "Mobile Games", "Digital Collectibles", "FOMO", "Game Design", "Marvel", "Free to Play", "Gacha", "Quit Gaming"]
 slug: "why-i-stopped-playing-marvel-snap"
+related_notes:
+  - attention-economy
+  - digital-minimalism
+  - signal-vs-noise
+  - sunk-cost-fallacy
 featured: true
 draft: true
 ---

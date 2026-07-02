@@ -1,7 +1,7 @@
 ---
 title: "Staged Rollout"
 meta_title: "Staged Rollout - Ship to a Slice Before Everyone Is the Test"
-description: "Ship the change to a small slice first - rollback stays cheap if the new state bleeds."
+description: "I ship to a small slice first so rollback stays cheap if the new state bleeds."
 key_concept: |
   Full-blast deploy turns every user into a test subject.
   
@@ -34,7 +34,7 @@ relationships:
 slug: "staged-rollout"
 date: "2026-07-01 14:00:00+08:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Safety", "Systems Thinking", "DevOps", "Risk Management"]
 aliases: ["canary deploy", "gradual rollout"]

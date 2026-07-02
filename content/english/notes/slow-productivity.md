@@ -1,7 +1,7 @@
 ---
 title: "Slow Productivity"
 meta_title: "Slow Productivity - Fewer Projects, Deeper Notes"
-description: "**Slow Productivity** pushes back on busy-as-virtue. I run fewer active projects so notes become output, not backlog. Overlap with [[Don't Worry]]: less frantic throughput, more trust that depth beats volume."
+description: "I run fewer active projects so notes become finished work, not a guilt backlog."
 key_concept: "Slow productivity pushes back on busy-as-virtue - fewer projects, more finished work."
 examples:
   - "I dropped a fourth side project to finish one book draft - depth beat breadth this quarter."
@@ -22,7 +22,7 @@ relationships:
 slug: "slow-productivity"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Slow Productivity", "Cal Newport", "PKM", "Focus", "Productivity", "Deep Work", "Note Taking"]
 featured: false

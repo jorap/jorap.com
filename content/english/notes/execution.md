@@ -1,7 +1,7 @@
 ---
 title: "Execution"
 meta_title: "Execution - Turning Decisions Into Done Work"
-description: "Turning a decision into finished work - not slides, not intentions, not \"we'll get to it.\""
+description: "A decision earns nothing until finished work lands, not when the slide deck or the intention is done."
 key_concept: |
   Turning a decision into finished work - not slides, not intentions, not "we'll get to it."
   
@@ -25,7 +25,7 @@ relationships:
 slug: "execution"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Performance", "Work", "Productivity"]
 featured: false

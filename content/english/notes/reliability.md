@@ -1,7 +1,7 @@
 ---
 title: "Reliability"
 meta_title: "Reliability - People Trust What Repeats"
-description: "Others can plan around you because you close loops, hit deadlines, and show up the same way twice."
+description: "People stop asking twice when they know you'll [[Complete the Cycle]] without a reminder."
 key_concept: |
   Others can plan around you because you close loops, hit deadlines, and show up the same way twice.
   
@@ -25,7 +25,7 @@ relationships:
 slug: "reliability"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Performance", "Work", "Character"]
 featured: false

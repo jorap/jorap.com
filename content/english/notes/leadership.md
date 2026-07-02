@@ -1,7 +1,7 @@
 ---
 title: "Leadership"
 meta_title: "Leadership - Setting Direction and Pace for Others"
-description: "You take responsibility for direction, pace, and care when people look to you - title optional."
+description: "When the room goes quiet and everyone looks at me, I own what happens next - title optional."
 key_concept: |
   You take responsibility for direction, pace, and care when people look to you - title optional.
   
@@ -25,7 +25,7 @@ relationships:
 slug: "leadership"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Leadership", "Work", "Performance"]
 featured: false

@@ -1,7 +1,7 @@
 ---
 title: "Active Knowledge Curation"
 meta_title: "Active Knowledge Curation - Notes That Stay Alive"
-description: "Saving links isn't curation. I revisit monthly, prune what I wouldn't save again today, and connect what I actually care about."
+description: "A folder of unread saves isn't a garden - I prune monthly and wire notes I'd actually recommend."
 key_concept: "Active curation means revisiting, pruning, and ordering notes - choosing what sits next to what is creative work."
 examples:
   - "I do the same with my idea pile on the first Sunday - saved links I wouldn't act on today hit the trash, half-finished thoughts finally get linked."
@@ -25,7 +25,7 @@ relationships:
 slug: "active-knowledge-curation"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["PKM", "Curation", "Note Taking", "Second Brain", "Knowledge Management", "Productivity", "MOC", "Creation"]
 aliases: ["Curation as Creation"]

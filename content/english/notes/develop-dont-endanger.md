@@ -1,7 +1,7 @@
 ---
 title: "Develop, Don't Endanger"
 meta_title: "Develop, Don't Endanger - Challenge Without Disproportionate Risk"
-description: "Push people hard enough to grow - not so hard that suffering replaces the actual skill you're trying to build."
+description: "I push people to grow without picking drills where pain or risk replaces the actual skill."
 key_concept: |
   Hard alone doesn't make an exercise worth running.
   
@@ -43,7 +43,7 @@ relationships:
 slug: "develop-dont-endanger"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Leadership", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Safety", "Leadership", "Coaching", "Ethics", "Performance"]
 aliases: ["challenge without endangering", "develop dont endanger"]

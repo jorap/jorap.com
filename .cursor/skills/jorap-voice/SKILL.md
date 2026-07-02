@@ -162,7 +162,7 @@ Land on what you actually use, what you'd buy again, or a plain recommendation. 
 
 ### Frontmatter
 
-- `description`: first person, concrete, often mentions personal experience. Not keyword-stuffed.
+- `description`: memorable one-breath **definition** - what the concept is or does; you should recall it cold weeks later. First person is fine when it states the claim plainly. Not keyword-stuffed, no `[[wikilinks]]`.
 - `meta_title`: useful and specific - not clickbait, not "Ultimate Guide to…" unless the post truly is a full guide.
 
 ## Notes garden (variant)
@@ -171,7 +171,7 @@ Notes use **two registers**. Wiki prose can be denser; cards must stay plain.
 
 | Field | Voice | Pattern |
 |-------|-------|---------|
-| `description` | One breath, first person when natural | "I don't rewrite whole notes when I boil them down - bold, then highlight, then summarize on reuse." |
+| `description` | Memorable definition, one breath | "Eternal life is Christ's gift by faith alone - not wages for good works." / "Save what resonates into one inbox - then empty it weekly." |
 | `key_concept` | Punch line, then expansion with wikilinks | Line 1: short claim. Blank line. Then lanes, links, "first X, then Y" |
 | `examples` | Two scenes, different domains, same move | Sports + jeepney, deploy + kitchen, coffee + sideline - not two variants of one scene |
 | `relationships.reason` | Short clause, telegraphic OK | "Rollback first; postmortem after calm - not root-cause while users are down" |
@@ -203,7 +203,7 @@ Recipe content can be more instructional - ingredients, steps, timings - but sec
 
 ### Notes garden
 
-- [ ] `description` reads in one breath
+- [ ] `description` reads in one breath — memorable definition, ≤20 words, no `[[wikilinks]]`
 - [ ] `key_concept` opens with a punch, not a dictionary definition
 - [ ] Two `examples` from different life surfaces (not two tweaks of one scene)
 - [ ] `relationships.reason` is a clause, not a paragraph

@@ -1,7 +1,7 @@
 ---
 title: "Faith and Works"
 meta_title: "Faith and Works - Saved by Faith, Shown by Action"
-description: "Faith alone saves through [[Free Grace]] - and real faith shows up in obedience; works prove faith alive, they don't pay for eternal life (Ephesians 2:8-10; James 2:17-26; Romans 4:5)."
+description: "Faith alone saves me - works show it's alive, they don't buy heaven."
 key_concept: |
   Paul and James aren't two gospels fighting.
   
@@ -34,7 +34,7 @@ relationships:
 slug: "faith-and-works"
 date: "2026-06-29 08:15:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Free Grace", "Faith", "Eternal Principles", "Theology"]
 aliases: ["faith without works is dead", "works prove faith"]
@@ -56,3 +56,4 @@ cards:
     back: "Faith saves - obedience responds."
 draft: false
 ---
+-

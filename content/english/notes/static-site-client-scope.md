@@ -1,7 +1,7 @@
 ---
 title: "Static Site Client Scope"
 meta_title: "Static Site Client Scope - What Fits the Free Static Stack"
-description: "Jobs that fit [[Free Tier Hosting Stack]]: mostly text and images, published by git push or by me on retainer - not live databases, shopping carts, or teams that need a WordPress admin without training."
+description: "Static sites fit text and images on git push - not live databases or mystery WordPress admins."
 key_concept: |
   Scope the sales call before I quote [[Selling Static Sites]] - say no to bad fits in the room, not after deposit.
   
@@ -34,7 +34,7 @@ relationships:
 slug: "static-site-client-scope"
 date: "2026-06-29 10:10:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Website Building", "Freelance", "Static Site Generator", "Client Work", "Scope"]
 aliases: ["static site fit", "what static sites can do"]

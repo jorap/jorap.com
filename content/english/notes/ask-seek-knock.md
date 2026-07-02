@@ -1,7 +1,7 @@
 ---
 title: "Ask Seek Knock"
 meta_title: "Ask Seek Knock - Persistent Prayer"
-description: "Keep coming to the Father in prayer - He gives good gifts to those who ask (Matthew 7:7-11; 6:5-13)."
+description: "Ask, seek, knock means prayer on schedule - not a one-time burst when desperation hits."
 key_concept: |
   Jesus compares God to a parent who gives bread, not a stone.
   
@@ -19,7 +19,7 @@ relationships:
 slug: "ask-seek-knock"
 date: "2026-06-19 09:30:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Prayer"]
 aliases: ["persistent prayer", "the Lord's Prayer"]
@@ -41,3 +41,4 @@ cards:
     back: "Seek in Scripture - open the Book."
 draft: false
 ---
+-

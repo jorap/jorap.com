@@ -11,7 +11,7 @@ key_concept: |
 slug: "random-duo"
 date: "2026-06-19 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Notes", "Meta"]
 aliases: ["random-two", "random-trio", "random-three"]

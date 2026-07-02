@@ -8,6 +8,13 @@ image: "/images/fbf.jpg"
 categories: ["Social Media", "Technology", "Tips"]
 author: "JoRap"
 tags: ["Facebook", "Favorites Feed", "Social Media Tips", "Digital Wellbeing", "Algorithm", "Personalization", "Mindful Tech", "Feed Curation", "Internet", "Meta", "News Feed", "Screen Time", "Content Curation", "Social Networks", "PKM", "Information Diet", "Digital Minimalism"]
+related_notes:
+  - digital-minimalism
+  - note-relationships
+  - attention-economy
+  - graph-view-analytics
+  - signal-vs-noise
+  - commonplace-book
 featured: false
 draft: false
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Anti-Fragile Systems"
 meta_title: "Anti-Fragile PKM - Systems That Survive Tool Death"
-description: "Fragile systems break when an app shuts down. I build around plain files, open formats, and exports I actually test."
+description: "I build on plain files and open formats so an app shutdown doesn't erase years of notes."
 key_concept: "Note systems that survive app shutdowns - plain files, open formats, and backups I actually test."
 examples:
   - "When the gym's booking app shut down for good, my paper training log still had every set - I photocopy it once a quarter so I'm not rebuilding history from memory."
@@ -22,7 +22,7 @@ relationships:
 slug: "anti-fragile-systems"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["PKM", "Anti-Fragile", "Local First", "Productivity", "Note Taking", "Future Proofing", "Mindset"]
 aliases: ["anti fragile systems", "Antifragile", "Antifragility"]

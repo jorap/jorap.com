@@ -1,7 +1,7 @@
 ---
 title: "Slow the Moment"
 meta_title: "Slow the Moment - Urgency Shouldn't Erase Judgment"
-description: "Pressure creates urgency, but urgency shouldn't erase judgment."
+description: "I slow down one breath before I answer - urgency is real, but it shouldn't pick the move."
 key_concept: |
   Pressure creates urgency, but urgency shouldn't erase judgment.
   
@@ -52,7 +52,7 @@ relationships:
 slug: "slow-the-moment"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Leadership", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Performance", "Decision Making", "Self-Control", "Conflict"]
 aliases: ["pause before reacting"]

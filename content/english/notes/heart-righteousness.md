@@ -1,10 +1,9 @@
 ---
 title: "Heart Righteousness"
 meta_title: "Heart Righteousness - Anger and Lust as Heart Sins"
-description: "God cares about the inner life, not only outward acts - anger is murder in the heart; lust is adultery in the heart (Matthew 5:21-30)."
+description: "Heart righteousness goes deeper than outward acts - anger is murder, lust is adultery, in the heart."
 key_concept: |
-  Jesus didn't lower the law; he exposed its depth.
-  
+  Jesus didn't lower the law; he exposed its depth. (Matthew 5:21-30).
   "You have heard… but I say" moves righteousness from courtroom compliance to motive and imagination. Under [[Free Grace]], this isn't a new merit ladder - it's the standard the Spirit applies to a life already saved, starting where only God sees. [[Fruits of the Spirit]] names what that inner work produces outward - love, gentleness, self-control, and the rest.
 examples:
   - "I smiled through the bad call and nursed the anger the whole ride home - heart righteousness is polite outside, poison inside; God cares about the inner life."
@@ -28,7 +27,7 @@ relationships:
 slug: "heart-righteousness"
 date: "2026-06-19 10:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Sermon on the Mount", "Holiness"]
 aliases: ["anger and lust", "heart sins"]
@@ -50,3 +49,4 @@ cards:
     back: "God sees heart - start where only He looks."
 draft: false
 ---
+-

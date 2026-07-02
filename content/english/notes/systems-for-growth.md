@@ -20,7 +20,7 @@ relationships:
 slug: "systems-for-growth"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Productivity", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Growth", "Habits", "Performance", "Systems Thinking", "MOC"]
 aliases: ["growth systems", "systems for growth"]

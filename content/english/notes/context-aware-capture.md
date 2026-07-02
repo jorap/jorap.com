@@ -1,7 +1,7 @@
 ---
 title: "Context-Aware Capture"
 meta_title: "Context-Aware Capture - Save the Why, Not Just the What"
-description: "A link without context is a mystery six weeks later. I capture why I saved something - project, mood, question - while it's still obvious."
+description: "A saved link is a mystery six weeks later unless I jot the why while I still remember it."
 key_concept: "Capture the why while I still remember it - project, mood, question - not just the link."
 examples:
   - "Voice memo in the parking lot after the meeting - context was still in my head."
@@ -19,7 +19,7 @@ relationships:
 slug: "context-aware-capture"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity", "Tips"]
 author: "JoRap"
 tags: ["Capture", "PKM", "Context", "Note Taking", "Second Brain", "Metadata", "Workflow"]
 aliases: ["context aware capture"]

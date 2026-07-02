@@ -1,7 +1,7 @@
 ---
 title: "Expect the Counter"
 meta_title: "Expect the Counter - Prepare for the Second Move"
-description: "Every strategy that works long enough eventually meets a response - copycats, pushback, rule changes, or a smarter opponent."
+description: "I plan what happens after the other side adapts, not just how my opening move looks on paper."
 key_concept: |
   Don't only rehearse the opening.
   
@@ -31,7 +31,7 @@ relationships:
 slug: "expect-the-counter"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Leadership", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Performance", "Strategy", "Thinking", "Competition"]
 aliases: ["plan the second move"]

@@ -8,6 +8,13 @@ categories: ["AI", "Writing", "Tips"]
 author: "JoRap"
 tags: ["AI", "Writing", "Content", "ChatGPT", "Prompts", "Perplexity", "Burstiness", "Human Writing", "Editing", "AI Detection", "Content Creation", "Voice and Tone", "PKM", "Note Taking"]
 slug: "make-ai-articles-more-human"
+related_notes:
+  - intellectual-sourcing
+  - the-feynman-technique
+  - evergreen-notes
+  - progressive-summarization
+  - commonplace-book
+  - literature-notes
 featured: false
 draft: true
 ---

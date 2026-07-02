@@ -8,6 +8,11 @@ author: JoRap
 image: /images/Chicken-Adobo.jpg
 categories: ["Food", "Recipes", "Filipino"]
 tags: ["Chicken Adobo", "Filipino Recipes", "Instant Pot", "Pressure Cooking", "Comfort Food", "Home Cooking", "Chicken Recipes", "Easy Cooking", "Meal Prep", "Filipino Food", "Adobo", "Weeknight Dinner", "Pressure Cooker", "Soy Sauce", "Garlic", "Vinegar", "Philippines", "Filipino Cuisine"]
+related_notes:
+  - habit-formation
+  - slow-productivity
+  - preparedness
+  - recovery
 featured: false
 draft: false
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Grateful Obedience"
 meta_title: "Grateful Obedience - Obey Because Grace Already Saved"
-description: "Obedience after salvation flows from gratitude for [[Free Grace]] already received - not from trying to qualify for eternal life (Romans 12:1; Ephesians 2:8-10)."
+description: "I obey today because Christ already saved me, not to buy or re-earn eternal life."
 key_concept: |
   [[Discipleship]] is the daily walk; [[Sanctification]] is slow becoming.
   
@@ -43,7 +43,7 @@ relationships:
 slug: "grateful-obedience"
 date: "2026-06-30 08:30:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Free Grace", "Eternal Principles", "Discipleship", "Obedience"]
 aliases: ["obedience from gratitude", "grateful response", "obey because saved"]
@@ -65,3 +65,4 @@ cards:
     back: "Faith saves - cross shapes daily thanks."
 draft: false
 ---
+-

@@ -1,7 +1,7 @@
 ---
 title: "Attention to Detail"
 meta_title: "Attention to Detail - Small Misses Become Big Failures"
-description: "The boring checks - diff review, edge cases, spelling in the customer email - that stop small misses from becoming big ones."
+description: "I catch the typo and the edge case before they turn into an incident or a dumb customer email."
 key_concept: "Attention to detail is catching the typo, edge case, and loose end before they become incidents."
 examples:
   - "We almost threw the inbounds pass on the wrong side of the line because two hash marks looked identical - the second read of the court map caught it."
@@ -22,7 +22,7 @@ relationships:
 slug: "attention-to-detail"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Performance", "Work", "Craft"]
 featured: false

@@ -1,7 +1,7 @@
 ---
 title: "Drafting in Public"
 meta_title: "Drafting in Public - Learn Out Loud, Messily"
-description: "I publish rough ideas before they're finished. Drafting in public keeps me honest and makes the garden grow. Faith parallel: [[Let Your Light Shine]] - visible good works, same instinct of putting work in the open, but the aim is God's credit not mine."
+description: "Posting rough drafts keeps me honest and lets the garden grow from feedback, not private hoarding."
 key_concept: "I publish rough ideas before they're finished - drafting in public keeps the garden honest."
 examples:
   - "I shared a draft SOP with the team before it was polished - silence would've let me pretend I understood the handoff."
@@ -22,7 +22,7 @@ relationships:
 slug: "drafting-in-public"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Drafting in Public", "Digital Garden", "Publishing", "PKM", "Writing", "Blogging", "Hugo", "Website Building"]
 aliases: ["Learning in Public"]

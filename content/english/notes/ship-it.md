@@ -1,7 +1,7 @@
 ---
 title: "Ship It"
 meta_title: "Ship It"
-description: "Publish the good-enough version instead of polishing forever."
+description: "I push the good-enough version live instead of polishing until the deadline owns me."
 key_concept: |
   Publish the good-enough version instead of polishing forever.
   
@@ -34,7 +34,7 @@ relationships:
 slug: "ship-it"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Productivity", "Creative Output"]
 featured: false

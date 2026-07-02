@@ -1,7 +1,7 @@
 ---
 title: "Webhooks"
 meta_title: "Webhooks"
-description: "HTTP callbacks when something happens - push events instead of polling."
+description: "The server pings my app when something happens - push the event instead of polling every minute."
 key_concept: |
   HTTP callbacks when something happens - push events instead of polling.
   
@@ -20,7 +20,7 @@ relationships:
 slug: "webhooks"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["PKM", "Tools"]
 featured: false

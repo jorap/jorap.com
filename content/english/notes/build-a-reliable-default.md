@@ -1,7 +1,7 @@
 ---
 title: "Build a Reliable Default"
 meta_title: "Build a Reliable Default - What You Do When There's No Time"
-description: "When time, information, confidence, or energy runs short, you fall back on what's most practiced."
+description: "When I'm tired, I fall back on what I've rehearsed most - so that fallback has to be simple."
 key_concept: "Make that fallback a simple, dependable response - rehearsed enough to run when thinking is thin."
 examples:
   - "The clinic front desk doesn't make up triage order when three walk-ins arrive - they run the laminated sheet taped by the phone. One script, no guessing."
@@ -34,7 +34,7 @@ relationships:
 slug: "build-a-reliable-default"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Leadership", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Performance", "Habits", "Preparedness", "Systems Thinking"]
 aliases: ["reliable default under pressure"]

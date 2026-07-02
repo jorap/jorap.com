@@ -1,10 +1,9 @@
 ---
 title: "Great Commission"
 meta_title: "Great Commission - Go and Make Disciples"
-description: "Go to all nations, baptize, teach obedience to everything Jesus commanded - he goes with you to the end of the age (Matthew 28:19-20)."
+description: "Jesus sends believers to go, baptize, and teach obedience under His authority and presence to the end of the age."
 key_concept: |
-  Mission flows from resurrection authority, not human recruitment zeal.
-  
+  Mission flows from resurrection authority, not human recruitment zeal. (Matthew 28:19-20).
   Teaching obedience is discipleship after faith - not a works payment for salvation under [[Free Grace]]. PKM parallel: [[Creative Output]] - the gospel isn't fully kept until it's passed on; inventory notes mean nothing if they never leave the garden.
 examples:
   - "My kid asked a friend what church is and I almost deflected - great commission is go and make disciples, starting with plain answers at the kitchen table."
@@ -22,7 +21,7 @@ relationships:
 slug: "great-commission"
 date: "2026-06-19 10:20:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Mission", "Discipleship"]
 aliases: ["go and make disciples", "Matthew 28"]
@@ -44,3 +43,4 @@ cards:
     back: "Go make disciples - not hoard in garden."
 draft: false
 ---
+-

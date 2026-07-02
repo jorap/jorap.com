@@ -1,7 +1,7 @@
 ---
 title: "Selling Static Sites"
 meta_title: "Selling Static Sites - Charge for the Build, Not the Host"
-description: "I charge for the build and handoff; hosting runs on [[Free Tier Hosting Stack]] until traffic, build count, or client policy forces a paid plan."
+description: "I charge for the build and handoff; hosting stays free until traffic or client policy forces upgrade."
 key_concept: |
   My margin is labor, not hosting markup.
   
@@ -48,7 +48,7 @@ relationships:
 slug: "selling-static-sites"
 date: "2026-06-29 10:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Website Building", "Static Site Generator", "Hugo", "Freelance", "Business", "Cloudflare Pages", "GitHub"]
 aliases: ["static site freelance", "client static sites"]

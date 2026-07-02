@@ -1,7 +1,7 @@
 ---
 title: "Elon Musk"
 meta_title: "Elon Musk"
-description: "Public example people cite for first-principles reinvention - useful as shorthand, not as gospel."
+description: "When someone needs a pop-culture name for strip-to-basics thinking, Musk is the cite I reach for, not the gospel."
 key_concept: |
   Public example people cite for first-principles reinvention - useful as shorthand, not as gospel.
   
@@ -20,7 +20,7 @@ relationships:
 slug: "elon-musk"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Thinking"]
 author: "JoRap"
 tags: ["Mental Models", "Thinking"]
 featured: false

@@ -1,7 +1,7 @@
 ---
 title: "Literature Notes"
 meta_title: "Literature Notes"
-description: "Notes about a source in your own words - not a highlight dump."
+description: "After I read a source, I write what stuck in my own words - not a pile of copied highlights."
 key_concept: |
   Notes about a source in your own words - not a highlight dump.
   
@@ -23,7 +23,7 @@ relationships:
 slug: "literature-notes"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["PKM", "Note Taking", "Research"]
 featured: false

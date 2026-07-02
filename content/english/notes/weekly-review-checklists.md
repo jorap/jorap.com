@@ -1,7 +1,7 @@
 ---
 title: "Weekly Review Checklists"
 meta_title: "Weekly Review Checklists - Same Steps Every Sunday"
-description: "My weekly review is a checklist - inbox, calendar, projects, one express action. Boring on purpose."
+description: "My weekly review is a checklist on purpose - inbox, calendar, projects, one express action."
 key_concept: |
   Boring on purpose.
   
@@ -22,7 +22,7 @@ relationships:
 slug: "weekly-review-checklists"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity", "Tips"]
 author: "JoRap"
 tags: ["Weekly Review", "Checklist", "GTD", "PKM", "PARA", "Habits", "Workflow"]
 featured: false

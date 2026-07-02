@@ -2,7 +2,7 @@
 note_kind: "index"
 title: "Pressure Reveals Weakness"
 meta_title: "Pressure Reveals Weakness - Build for When It Gets Hard"
-description: "Hard situations show what easy days hide. The point isn't to dodge pressure - it's to build systems, habits, and character that still work when pressure spikes."
+description: "Pressure reveals what easy days hide - build habits and systems that still work when stakes spike."
 key_concept: "Each note below is one move I'd want automatic before the moment arrives."
 relationships:
   - type: alternative
@@ -20,7 +20,7 @@ relationships:
 slug: "pressure-reveals-weakness"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Leadership", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Performance", "Leadership", "Mental Models", "Habits", "MOC"]
 aliases: ["performance under pressure"]

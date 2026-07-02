@@ -1,7 +1,7 @@
 ---
 title: "Christianity and Politics"
 meta_title: "Christianity and Politics - Dual Allegiance Without Idolatry"
-description: "Live as a citizen under lawful government and as a disciple under Christ - pay civic duty, love neighbors across tribes, refuse to make any party or power ultimate (Matthew 22:21; Romans 13:1-7; 1 Peter 2:13-17)."
+description: "I owe Caesar what Caesar's owed and God what I'm His - no party gets my soul."
 key_concept: |
   [[Render Unto Caesar]] names the split: coin to Caesar, self to God.
   
@@ -31,7 +31,7 @@ relationships:
 slug: "christianity-and-politics"
 date: "2026-06-30 10:30:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Eternal Principles", "Jesus Christ", "Civic Duty", "Discipleship"]
 aliases: ["faith and politics", "gospel and government", "Christian political engagement"]
@@ -53,3 +53,4 @@ cards:
     back: "Ultimate allegiance is Christ - not my ballot."
 draft: false
 ---
+-

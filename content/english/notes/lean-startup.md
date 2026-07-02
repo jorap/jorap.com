@@ -1,7 +1,7 @@
 ---
 title: "Lean Startup"
 meta_title: "Lean Startup"
-description: "Build the smallest test, measure, learn - don't scale before validation."
+description: "I'd rather ship a rough test and learn than polish a product nobody wanted."
 key_concept: |
   Build the smallest test, measure, learn - don't scale before validation.
   
@@ -22,7 +22,7 @@ relationships:
 slug: "lean-startup"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Productivity", "Projects"]
 featured: false

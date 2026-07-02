@@ -1,7 +1,7 @@
 ---
 title: "Continuous Improvement"
 meta_title: "Continuous Improvement - Small Fixes That Compound"
-description: "Small fixes to how you work, repeated - each miss feeds the next version of the process."
+description: "Each miss becomes one tweak to the process, not a lecture about trying harder."
 key_concept: |
   Small fixes to how you work, repeated - each miss feeds the next version of the process.
   
@@ -37,7 +37,7 @@ relationships:
 slug: "continuous-improvement"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Performance", "Habits", "Systems Thinking"]
 aliases: ["kaizen"]

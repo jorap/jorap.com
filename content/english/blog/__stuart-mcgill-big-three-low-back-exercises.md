@@ -8,6 +8,11 @@ categories: ["Health", "Fitness", "Tips"]
 author: "JoRap"
 tags: ["Stuart McGill", "Low Back", "Core", "Exercise", "Health", "Back Pain", "Bird Dog", "Side Plank", "Curl-Up", "Spine Health", "Physical Therapy", "Core Stability"]
 slug: "stuart-mcgill-big-three-low-back-exercises"
+related_notes:
+  - recovery
+  - sustainable-performance
+  - energy-protects-judgment
+  - building-a-second-brain
 featured: false
 draft: true
 ---

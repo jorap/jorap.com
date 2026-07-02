@@ -1,7 +1,7 @@
 ---
 title: "Deliberate Practice"
 meta_title: "Deliberate Practice - Train the Weak Slice on Purpose"
-description: "Train the weak slice on purpose - feedback, correction, repeat - not run the whole piece you already nail."
+description: "I train the weak slice on purpose - feedback, correction, repeat - not the part I already nail."
 key_concept: Deliberate practice is focused reps on the part that breaks - not mindless repetition of what already works.
 examples:
   - "The new cashier drills voids and returns ten times, not the whole shift on autopilot - feedback, correction, repeat on what breaks."
@@ -22,7 +22,7 @@ relationships:
 slug: "deliberate-practice"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Learning", "Performance", "Habits"]
 featured: false

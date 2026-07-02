@@ -4,7 +4,7 @@ meta_title: "{{ replace .Name "-" " " | title }}"
 description: "One sentence: the single claim this note makes."
 date: {{ .Date }}
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: []
 slug: "{{ .Name }}"

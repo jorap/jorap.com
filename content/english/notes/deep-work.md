@@ -1,7 +1,7 @@
 ---
 title: "Deep Work"
 meta_title: "Deep Work"
-description: "Long, uninterrupted focus on hard thinking - Cal Newport's term for the opposite of fragment."
+description: "I protect uninterrupted blocks for hard thinking and let capture catch what tries to interrupt."
 key_concept: |
   Protected focus blocks; [[Capture]] handles the rest ([[Capture]]).
   
@@ -22,7 +22,7 @@ relationships:
 slug: "deep-work"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Productivity", "Focus"]
 featured: false

@@ -1,7 +1,7 @@
 ---
 title: "Sunk Cost Fallacy"
 meta_title: "Sunk Cost Fallacy - Past Effort Isn't a Reason to Continue"
-description: "Keeping a bad tool, project, or note because I already invested time - not because it still earns its place."
+description: "I drop the bad tool or project when it stops earning its place - past effort is gone either way."
 key_concept: |
   Past effort is gone.
   
@@ -25,7 +25,7 @@ relationships:
 slug: "sunk-cost-fallacy"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Thinking"]
 author: "JoRap"
 tags: ["Mental Models", "Decision Making", "Thinking", "Productivity", "Mindset", "PKM", "Bias"]
 aliases: ["Sunk Cost"]

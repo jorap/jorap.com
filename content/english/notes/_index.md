@@ -5,7 +5,7 @@ description: "My linked note garden - wikilinks, backlinks, and a graph view of 
 slug: "notes"
 date: 2026-06-18T08:00:00Z
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Notes", "Meta"]
 featured: false

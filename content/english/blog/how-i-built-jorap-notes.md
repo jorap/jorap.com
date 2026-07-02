@@ -8,6 +8,13 @@ image: "/images/joraps-world.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Website Building", "Free Hosting", "Hugo CMS", "GitHub", "Cloudflare Pages", "Static Sites", "JAMstack", "Self-Hosting", "PHP", "Migration", "Developer Life", "Hugo", "DevOps", "Site Migration", "Static Site Generator", "Web Hosting", "Publishing", "Digital Garden", "PKM", "Note Taking", "Blogging"]
+related_notes:
+  - free-tier-hosting-stack
+  - digital-garden
+  - drafting-in-public
+  - the-garage-concept
+  - selling-static-sites
+  - note-relationships
 featured: false
 draft: false
 ---

@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{- $index := partialCached "notes/backlinks-index.html" site "backlinks-index-v1" -}}
+  {{- $index := partialCached "notes/backlinks-index.html" site "backlinks-index-v5" -}}
   {{- $notes := partial "notes/pages.html" (dict) -}}
   {{- $rows := slice -}}
   {{- range $notes -}}
@@ -131,8 +131,8 @@
                 {{- $searchBits := slice $row.Page.Title -}}
                 {{- range $row.Backlinks -}}
                   {{- $searchBits = $searchBits | append .Page.Title -}}
-                  {{- with .Snippet -}}
-                    {{- $searchBits = $searchBits | append . -}}
+                  {{- with .SnippetHtml -}}
+                    {{- $searchBits = $searchBits | append (. | plainify) -}}
                   {{- end -}}
                 {{- end -}}
                 {{- $fillPct := div (mul $row.Count 100) $maxCount -}}
@@ -182,20 +182,9 @@
                         ) }}
                       {{- end -}}
                     </div>
-                    <ul class="notes-backlinks-list mb-0 grid list-none gap-2 p-0 sm:grid-cols-2">
+                    <ul class="notes-backlinks-list mb-0 grid list-none gap-2 p-0 sm:grid-cols-2 lg:grid-cols-3">
                       {{- range $row.Backlinks -}}
-                        <li class="notes-backlink-item">
-                          <a
-                            class="notes-backlink-link"
-                            href="{{ .Page.RelPermalink }}"
-                            data-wikilink-preview="{{ .Page.RelPermalink }}">
-                            <span class="notes-backlink-from text-ink-muted text-xs">Links here</span>
-                            <span class="notes-backlink-title">{{ .Page.Title }}</span>
-                            {{- with .Snippet -}}
-                              <q class="notes-backlink-snippet">{{ . }}</q>
-                            {{- end -}}
-                          </a>
-                        </li>
+                        {{ partial "notes/backlink-item.html" . }}
                       {{- end -}}
                     </ul>
                   </div>

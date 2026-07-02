@@ -28,7 +28,7 @@ relationships:
 slug: "golden-rule-at-work"
 date: "2026-06-21 14:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Workplace", "Ethics", "Leadership", "Eternal Principles", "Communication"]
 aliases: ["treat colleagues fairly", "reverse roles at work", "golden rule at work"]

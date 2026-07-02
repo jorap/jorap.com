@@ -6,8 +6,8 @@ description: >-
   not like textbook prompts. Use plain words on every front and back.
   Use when adding, rewriting, or auditing flashcards on
   content/english/notes, enabling review on spine notes, fixing card lint errors, or when
-  the user asks about flashcard goals, real-life recall, immediate application, scenario
-  cards, card_sets, or /notes/review/.
+  the user asks about flashcard goals, retention, application, explanation, real-life
+  recall, scenario cards, card_sets, or /notes/review/.
 ---
 
 # Flashcards
@@ -18,9 +18,31 @@ Only ~20% of notes (spine habits + gospel cluster) carry cards. Full spec: `cont
 
 **Voice:** Always load and follow [jorap-voice](../jorap-voice/SKILL.md). Cards are first-person drill cues - same plain, lived-in tone as the notes garden, not Anki boilerplate. **flashcards skill owns cue→apply shape; jorap-voice owns word choice.** Vocabulary rules live in jorap-voice.
 
+## Guiding principle
+
+**"Learn less, retain longer, and apply more."**
+
+**The question that matters:** "Can I recall and use this knowledge when it matters?"
+
+**Not the scoreboard:**
+
+- How many cards you reviewed
+- How long your streak is
+- How many facts you memorized
+
+**Three outcomes** — write every card toward at least one:
+
+| Outcome | Test |
+|---------|------|
+| **Retention** | Can you remember the idea after weeks or months? |
+| **Application** | Can you use it in work, decisions, projects, or conversations? |
+| **Explanation** | Can you explain it clearly without looking at your notes? |
+
+**Keep a card only if** the knowledge helps you solve a recurring problem, make a better decision, perform a useful skill, understand an important subject, or communicate more clearly. Otherwise cut it or leave it in the wiki.
+
 ## North star - the right move is already loaded
 
-**Governing slogan:** Cards exist so the right move is already loaded when life shows up.
+**Card shape:** Cards exist so the right move is already loaded when life shows up.
 
 **Litmus test (use this when writing or auditing):** Read only the front. Could this exact moment happen this week? Cover the back — do you know what to **do or decide right now**, without opening the garden?
 
@@ -43,17 +65,21 @@ Cue  →  [pause]  →  move
 
 The back can name a principle **only if it IS the immediate move** — e.g. `"Kingdom first."` redirects the next ten minutes. Avoid backs that explain without directing. Never split an `examples:` sentence across front/back — that's re-reading, not retrieval.
 
-## Goals - what flashcards are for
+## Goals - how cards serve the three outcomes
 
-Write every card toward these outcomes. If a card doesn't serve at least one, cut it or rewrite it.
+### Retention — durable recall on rhythm
 
-### 1. Cue recognition in the wild
+Spaced review (`/notes/review/`, Anki) so the cue→apply link survives weeks until life triggers it again. **Active retrieval, not re-reading:** produce the back from memory before flipping. No telegraphy on the front - if you can answer without thinking, the cue won't stick to real life.
+
+**Subtle hint questions are OK.** After the cue, a short open question can nudge *what kind* of move to recall (`One check before send?`, `What comes first?`, `First fix I try?`) without naming the answer.
+
+**Transfer across surfaces:** same principle, different cues - so recall isn't locked to one phrasing. Vary time, place, and emotion across the six cards in a deck.
+
+### Application — cue recognition and immediate move
 
 The front must match **how life actually arrives** - messy, mid-habit, under temptation - not how the note is titled. You should read a front and think *"that happened Tuesday."*
 
 **Mine cues from:** real failures this week, bodily urges (post, snap, hoard, skip prayer), time/place forks (commute, Friday review, before bed).
-
-### 2. Immediate application on the back
 
 Back = what you **do, say, or decide in the next breath**. Verb-first when possible. If the back reads like a textbook sentence, rewrite as a move.
 
@@ -61,30 +87,19 @@ Back = what you **do, say, or decide in the next breath**. Verb-first when possi
 - ⚠️ `"Faith saves; principles guide after."` - OK when the immediate move is *correcting a wrong instinct in your head*
 - ❌ `"Free grace is unmerited favor received by faith."` - true, but no action; belongs in the wiki
 
-### 3. Active retrieval, not re-reading
+**One move per card:** one cue → one apply. Multi-step backs split into separate cards or collapse to the **first** physical move.
 
-Produce the back from memory before flipping. No telegraphy on the front - if you can answer without thinking, the cue won't stick to real life.
+### Explanation — say it without the garden
 
-**Subtle hint questions are OK.** After the cue, a short open question can nudge *what kind* of move to recall (`One check before send?`, `What comes first?`, `First fix I try?`) without naming the answer. The hint says "there's a retrieval target here" - it doesn't give the target away.
+If a card tests whether you can explain an idea, the back should be a **clear one-breath explanation you'd say to someone** - not a definition you'd paste from the note. Prefer application cards; use explanation cards sparingly on spine ideas you actually teach or defend.
 
-### 4. One move per card
+### Pareto the deck
 
-One cue → one apply. Multi-step backs split into separate cards or collapse to the **first** physical move.
-
-### 5. Transfer across surfaces
-
-Same principle, different cues - so recall isn't locked to one phrasing. Vary time, place, and emotion across the six cards in a deck.
-
-### 6. Durable recall on rhythm
-
-Spaced review (`/notes/review/`, Anki) so the cue→apply link survives until life triggers it again.
-
-### 7. Keep lanes separate + Pareto the deck
-
-Wiki = nuance. Cards = spine habits (~20%) you drill weekly so the chain is automatic under pressure.
+Wiki = nuance. Cards = spine habits (~20%) you drill weekly so the chain is automatic under pressure. Learn less; retain longer; apply more.
 
 ## Anti-goals
 
+- **Vanity metrics** - chasing review count, streak length, or fact pile-up instead of recall-and-use in real life
 - **Example-split cards** - front/back fragments copied from `examples:`; re-reading, not retrieval
 - **Review-only recall** - passes in Anki, never fires in life (cue too abstract)
 - **Principle without apply** - backs that teach but don't direct the next move
@@ -222,6 +237,7 @@ Cards fire under pressure. Fancy words slow recall. Every word should land on fi
 
 Each card:
 
+- [ ] Serves retention, application, or explanation - and passes the keep-a-card-only-if rule
 - [ ] Front is a cue I'd recognize in real life this week
 - [ ] Back tells me what to **do or decide now** - not just what is true
 - [ ] Cue → apply chain works with note closed (real-life litmus)

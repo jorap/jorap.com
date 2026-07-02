@@ -1,7 +1,7 @@
 ---
 title: "Associative Linking"
 meta_title: "Associative Linking - How Ideas Find Each Other"
-description: "Folders sort. Links think. I link so notes meet without me remembering every filename. Faith parallel: [[Love Your Neighbor]] - neighbors in the graph; ideas linked by proximity and care, not only folder tree."
+description: "I link notes so ideas meet in the graph without me memorizing every folder path."
 key_concept: |
   Folders sort.
   
@@ -19,7 +19,7 @@ relationships:
 slug: "associative-linking"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Linking", "PKM", "Note Taking", "Second Brain", "Digital Garden", "Graph", "Network"]
 aliases: ["Interconnectivity", "Power of Interconnectivity", "The Power of Interconnectivity"]

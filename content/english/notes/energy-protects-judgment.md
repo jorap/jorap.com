@@ -1,7 +1,7 @@
 ---
 title: "Energy Protects Judgment"
 meta_title: "Energy Protects Judgment - Rest Is Part of Performance"
-description: "Fatigue hits more than muscles. It weakens patience, attention, restraint, and the quality of calls you make."
+description: "I protect sleep and recovery because tired me makes worse calls than rested me on the same facts."
 key_concept: |
   Fatigue hits more than muscles. It weakens patience, attention, restraint, and the quality of calls you make.
   
@@ -40,7 +40,7 @@ relationships:
 slug: "energy-protects-judgment"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Leadership", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Performance", "Health", "Decision Making", "Recovery"]
 aliases: ["rest protects judgment"]

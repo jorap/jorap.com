@@ -1,7 +1,7 @@
 ---
 title: "Finish Strong"
 meta_title: "Finish Strong - Starting Proves Capability, Finishing Proves Discipline"
-description: "Starting well proves you can begin; finishing well proves you can keep going when it's boring, hard, or no longer exciting."
+description: "Launch day excitement doesn't count - I judge success by whether the last commitment actually got done."
 key_concept: |
   Starting well proves you can begin; finishing well proves you can keep going when it's boring, hard, or no longer exciting.
   
@@ -37,7 +37,7 @@ relationships:
 slug: "finish-strong"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Leadership", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Performance", "Discipline", "Execution", "Habits"]
 aliases: ["finish what you start"]

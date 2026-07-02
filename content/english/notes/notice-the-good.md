@@ -1,7 +1,7 @@
 ---
 title: "Notice the Good"
 meta_title: "Notice the Good - Say What You Want to See Again"
-description: "I say out loud the specific thing someone did that I want to see again - not \"good job,\" but \"you paused before you answered that email\" or \"you kept your voice down when you were mad.\" Praise works when it points at behavior."
+description: "I name the specific helpful move out loud so people know what to repeat."
 key_concept: I name the specific helpful thing they did - not vague good job.
 examples:
   - "After practice I told the kid who boxed out every drill: \"Your rebounds won that scrimmage - keep sealing like that.\" He knew exactly what to repeat."
@@ -25,7 +25,7 @@ relationships:
 slug: "notice-the-good"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Growth"]
 author: "JoRap"
 tags: ["Relationships", "Communication", "Habits"]
 featured: false

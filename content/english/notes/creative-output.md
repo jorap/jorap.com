@@ -1,7 +1,7 @@
 ---
 title: "Creative Output"
 meta_title: "Creative Output - Why I Capture at All"
-description: "Notes are inventory. Output is the point - blog posts, sermons, code, dinner experiments. When I'm testing an idea, I ship an [[Minimum Viable Product]] before I polish. Client sites on [[Free Tier Hosting Stack]] are the same express lane - shipped sites, not slide decks about sites. Faith parallel: [[The Wise Builder]] - hear Jesus and do; [[Great Commission]] - truth shared, not hoarded in the garden."
+description: "Notes are inventory for me - posts, sermons, code, and dinner experiments are the point."
 key_concept: |
   Notes are inventory.
   
@@ -25,7 +25,7 @@ relationships:
 slug: "creative-output"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Creative Output", "Express", "PKM", "Writing", "Second Brain", "Publishing", "Focus", "Distraction Free", "Markdown"]
 aliases: ["Distraction-Free Writing", "distraction free writing"]

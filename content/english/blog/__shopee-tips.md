@@ -8,6 +8,13 @@ categories: ["Shopping", "Tips", "Guide"]
 author: "JoRap"
 tags: ["Shopee", "Online Shopping", "Tips", "Philippines", "E-commerce", "Deals", "Free Shipping", "Local Sellers", "Marketplace", "Shopping Hacks", "Filipino"]
 slug: "shopee-tips"
+related_notes:
+  - attention-economy
+  - behavioral-economics
+  - commonplace-book
+  - crdt
+  - deep-work
+  - elon-musk
 featured: false
 draft: true
 ---

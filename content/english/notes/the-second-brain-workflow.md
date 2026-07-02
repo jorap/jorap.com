@@ -1,7 +1,7 @@
 ---
 title: "The Second Brain Workflow"
 meta_title: "The Second Brain Workflow - End to End"
-description: "CODE and PARA in one loop: capture to inbox, organize by project, distill on use, express weekly."
+description: "Capture to inbox, organize by project, distill on reuse, express weekly - CODE and PARA in one loop."
 key_concept: |
   CODE and PARA in one loop starts with capture to inbox every day ([[Capture]]).
   
@@ -25,7 +25,7 @@ relationships:
 slug: "the-second-brain-workflow"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Productivity"]
 author: "JoRap"
 tags: ["Second Brain", "Workflow", "CODE Method", "PARA", "PKM", "Productivity", "Hugo", "Tools", "Browser Tips", "Daily Routine", "Information Diet"]
 aliases: ["Second Brain Workflow", "Second Brain Daily Workflow", "Daily Workflow"]

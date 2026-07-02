@@ -1,7 +1,7 @@
 ---
 title: "Complete the Cycle"
 meta_title: "Complete the Cycle - Work Isn't Done at the Main Action"
-description: "Work isn't finished when the main action ends."
+description: "The meeting isn't done until recap, owners, dates, and verification close the loop."
 key_concept: |
   A meeting needs follow-up.
   
@@ -40,7 +40,7 @@ relationships:
 slug: "complete-the-cycle"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Leadership", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Performance", "Execution", "Accountability", "Work"]
 aliases: ["close the loop"]

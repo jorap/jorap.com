@@ -1,7 +1,7 @@
 ---
 title: "Minimum Viable Product"
 meta_title: "Minimum Viable Product - Smallest Thing Worth Shipping"
-description: "The smallest thing I can ship that tests the idea - not a polished fantasy."
+description: "Ship the smallest version that proves someone actually wants this - polish comes after proof."
 key_concept: |
   The smallest thing I can ship that tests the idea - not a polished fantasy.
   
@@ -23,7 +23,7 @@ relationships:
 slug: "minimum-viable-product"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Thinking"]
 author: "JoRap"
 tags: ["Mental Models", "Productivity", "Building", "Shipping", "Creative Output", "Decision Making", "PKM", "Writing"]
 aliases: ["MVP"]

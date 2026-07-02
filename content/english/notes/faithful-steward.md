@@ -1,7 +1,7 @@
 ---
 title: "Faithful Steward"
 meta_title: "Faithful Steward - Well Done for Faithful Use"
-description: "God entrusts time, gifts, and opportunities; faithfulness with what He gave is what earns \"well done\" - not a down payment on salvation (Matthew 25:14-30; Luke 19:11-27)."
+description: "After salvation is settled, stewardship is about faithful use of what God entrusted, not buying heaven with busy weeks."
 key_concept: |
   [[Free Grace]] settled where I spend forever.
   
@@ -37,7 +37,7 @@ relationships:
 slug: "faithful-steward"
 date: "2026-06-30 08:10:00+00:00"
 image: "/images/note.jpg"
-categories: ["Faith", "Ideas"]
+categories: ["Faith"]
 author: "JoRap"
 tags: ["Gospel", "Jesus Christ", "Eternal Principles", "Reward", "Discipleship"]
 aliases: ["good and faithful servant", "parable of the talents", "stewardship"]
@@ -59,3 +59,4 @@ cards:
     back: "Yes - faithful steward, not the audience."
 draft: false
 ---
+-

@@ -1,7 +1,7 @@
 ---
 title: "Share What You Learn"
 meta_title: "Share What You Learn - Don't Hoard Knowledge"
-description: "Pass on what you figured out - write the doc, do the handoff, answer the junior's question - don't hoard know-how like private bookmarks."
+description: "I write the doc, do the handoff, and answer the junior's question - hoarding know-how helps nobody."
 key_concept: |
   Pass on what you figured out - write the doc, do the handoff, answer the junior's question - don't hoard know-how like private bookmarks.
   
@@ -26,7 +26,7 @@ relationships:
 slug: "share-what-you-learn"
 date: "2026-06-21 14:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Productivity", "Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Workplace", "Leadership", "Eternal Principles", "Knowledge Sharing", "Teaching"]
 aliases: ["teach what you know", "knowledge sharing at work"]

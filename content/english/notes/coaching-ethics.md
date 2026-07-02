@@ -1,7 +1,7 @@
 ---
 title: "Coaching Ethics"
 meta_title: "Coaching Ethics"
-description: "Develop the person without hiding behind their consent when the drill is unsafe or pointless."
+description: "Develop the person without hiding behind consent when the drill is unsafe or pointless."
 key_concept: |
   Consent doesn't erase the job when the drill is unsafe.
   
@@ -28,7 +28,7 @@ relationships:
 slug: "coaching-ethics"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
-categories: ["Ideas", "Tips"]
+categories: ["Leadership"]
 author: "JoRap"
 tags: ["Leadership", "Safety", "Ethics"]
 featured: false

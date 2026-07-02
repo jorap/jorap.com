@@ -1,11 +1,14 @@
 # Flashcard examples - cue → move
 
-**North star:** Cards exist so the right move is already loaded when life shows up.
+**Guiding principle:** Learn less, retain longer, and apply more.
+
+**The question:** Can I recall and use this knowledge when it matters?
 
 ## Litmus test (governing)
 
 Before committing a card:
 
+0. **Keep it?** Does this knowledge help solve a recurring problem, make a better decision, perform a useful skill, understand an important subject, or communicate more clearly? If not, cut it.
 1. **Could this front happen this week?** — specific time, place, urge, or count
 2. **Cover the back.** Do you know what to **do or decide in the next five seconds**?
 3. **Note closed.** No garden open — would you still act?
