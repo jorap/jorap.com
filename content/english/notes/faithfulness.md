@@ -32,6 +32,9 @@ relationships:
   - type: extends
     wikilink: "[[Fruits of the Spirit]]"
     reason: "Galatians names faithfulness in the Spirit-grown cluster"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Headline for steady use of entrusted gifts"
 slug: "faithfulness"
 date: "2026-07-01 21:00:00+08:00"
 image: "/images/note.jpg"

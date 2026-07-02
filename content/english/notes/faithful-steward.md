@@ -34,6 +34,9 @@ relationships:
   - type: extends
     wikilink: "[[Secret Devotion]]"
     reason: "Hidden faithful use - Father sees, not the audience"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Parable shape for the headline - entrusted gifts, not owned trophies"
 slug: "faithful-steward"
 date: "2026-06-30 08:10:00+00:00"
 image: "/images/note.jpg"

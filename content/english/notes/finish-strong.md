@@ -34,6 +34,9 @@ relationships:
   - type: extends
     wikilink: "[[Reliability]]"
     reason: "People trust you when the tail gets done"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Steward the tail end, not only the exciting start"
 slug: "finish-strong"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"

@@ -14,6 +14,7 @@ related_notes:
   - the-garage-concept
   - selling-static-sites
   - note-relationships
+  - success-is-stewardship
 featured: false
 draft: false
 ---

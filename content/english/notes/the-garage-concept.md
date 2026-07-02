@@ -22,6 +22,9 @@ relationships:
   - type: extends
     wikilink: "[[Sketchpad]]"
     reason: "Private workshop before anything goes public"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Showroom vs workshop - steward both lanes"
 slug: "the-garage-concept"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"

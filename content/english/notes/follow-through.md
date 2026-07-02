@@ -25,6 +25,9 @@ relationships:
   - type: extends
     wikilink: "[[Reliability]]"
     reason: "Trust is follow-through repeated"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Steward promises through the tail"
 slug: "follow-through"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"

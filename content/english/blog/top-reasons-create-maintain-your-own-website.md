@@ -14,6 +14,7 @@ related_notes:
   - sketchpad
   - note-relationships
   - the-garage-concept
+  - success-is-stewardship
 featured: false
 draft: false
 ---

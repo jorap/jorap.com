@@ -52,6 +52,7 @@ draft: false
 - [[Servant Leadership]] - greatness is making the team win, not grabbing the credit
 - [[Share What You Learn]] - pass on what you know; don't hoard knowledge like private bookmarks
 - [[Integrity When No One's Watching]] - do the honest work when there's no audience in the room
+- [[Success is Stewardship]] - promotion and platform are borrowed - use them for the team, not ego
 
 ## Safety and duty of care
 
@@ -80,3 +81,4 @@ draft: false
 | [[Servant Leadership]] | [[Humility and Service]] |
 | [[Share What You Learn]] | [[Great Commission]] |
 | [[Integrity When No One's Watching]] | [[Secret Devotion]] |
+| [[Success is Stewardship]] | [[Faithful Steward]] |

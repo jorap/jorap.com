@@ -40,6 +40,9 @@ relationships:
   - type: extends
     wikilink: "[[Sanctification]]"
     reason: "Grateful walk is how becoming holy shows up daily"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Entrusted gifts answered with thanks, not entitlement"
 slug: "grateful-obedience"
 date: "2026-06-30 08:30:00+00:00"
 image: "/images/note.jpg"

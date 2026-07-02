@@ -15,6 +15,7 @@ related_notes:
   - the-garage-concept
   - note-relationships
   - commonplace-book
+  - success-is-stewardship
 featured: false
 draft: true
 ---

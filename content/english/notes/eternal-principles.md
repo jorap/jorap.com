@@ -44,6 +44,7 @@ draft: false
 - [[Assurance]] - rest on Christ's promise, not this week's report card
 - [[Grateful Obedience]] - obey because grace already saved, not to buy the ticket
 - [[Faithful Steward]] - faithfulness with what God entrusted; well done at review
+- [[Success is Stewardship]] - success is borrowed accountability, not permanent ownership
 - [[Wood Hay Stubble]] - works that last vs works that burn; saved through fire
 
 ## The two great commandments
@@ -134,5 +135,9 @@ Same ideas show up in my PKM notes. I wired the pairs below so the faith cluster
 | [[Assurance]] | [[Minimum Effective Dose]] | Faith is sufficient; assurance rests on Christ's promise, not a merit stack |
 | [[Grateful Obedience]] | [[Process Over Outcomes]] | Daily obedience from thanks beats one heroic sprint to feel saved |
 | [[Faithful Steward]] | [[Compounding]] | Faithful use of entrusted gifts stacks over years |
+| [[Success is Stewardship]] | [[Digital Garden]] | Tend borrowed reach - share notes, don't hoard bookmarks |
+| [[Success is Stewardship]] | [[Servant Leadership]] | Use the platform for the team - workplace frame for the headline |
+| [[Success is Stewardship]] | [[Finish Strong]] | Steward the tail, not only the launch |
+| [[Success is Stewardship]] | [[Great Commission]] | Pass on truth - don't hoard the garden |
 | [[Wood Hay Stubble]] | [[Failure as Feedback]] | Burned work signals what to build - standing on Christ stays |
 | [[Christianity and Politics]] | [[Signal vs Noise]] | Not every headline deserves kingdom-level panic - filter the feed |

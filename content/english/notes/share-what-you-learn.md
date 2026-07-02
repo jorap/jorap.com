@@ -23,6 +23,9 @@ relationships:
   - type: extends
     wikilink: "[[Great Commission]]"
     reason: "Make disciples - here, make the team capable, not dependent"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Headline for passing on entrusted know-how"
 slug: "share-what-you-learn"
 date: "2026-06-21 14:00:00+00:00"
 image: "/images/note.jpg"

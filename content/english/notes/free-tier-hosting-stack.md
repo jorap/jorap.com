@@ -45,6 +45,9 @@ relationships:
   - type: implements
     wikilink: "[[Staged Rollout]]"
     reason: "PR preview deploy before Pages merges to main"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Steward the build budget on borrowed infra"
 slug: "free-tier-hosting-stack"
 date: "2026-06-29 10:05:00+00:00"
 image: "/images/note.jpg"

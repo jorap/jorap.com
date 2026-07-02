@@ -19,6 +19,9 @@ relationships:
   - type: implements
     wikilink: "[[Creative Output]]"
     reason: "Public drafts carry express pressure into finished posts"
+  - type: alternative
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Publish vs hoard when the audience differs"
 slug: "drafting-in-public"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"

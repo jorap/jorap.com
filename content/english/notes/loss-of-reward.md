@@ -34,6 +34,9 @@ relationships:
     wikilink: "[[Judgment Seat]]"
     reason: "Where worthless works burn and faithful works get repaid"
   - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Poor stewardship shrinks reward, not salvation"
+  - type: extends
     wikilink: "[[Justification]]"
     reason: "Standing declared at faith doesn't get revoked when reward is lost"
   - type: extends

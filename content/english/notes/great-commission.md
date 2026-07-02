@@ -18,6 +18,9 @@ relationships:
   - type: extends
     wikilink: "[[Repent and Believe]]"
     reason: "Mission flows from believing the gospel - you teach obedience after faith, not to buy salvation"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Don't hoard truth - steward by passing it on"
 slug: "great-commission"
 date: "2026-06-19 10:20:00+00:00"
 image: "/images/note.jpg"

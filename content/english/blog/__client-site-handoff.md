@@ -15,6 +15,7 @@ related_notes:
   - share-what-you-learn
   - the-garage-concept
   - plain-commitments-at-work
+  - success-is-stewardship
 featured: false
 draft: true
 ---

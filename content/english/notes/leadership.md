@@ -22,6 +22,9 @@ relationships:
   - type: extends
     wikilink: "[[Life Before Achievement]]"
     reason: "Safety floor leaders don't trade away"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Direction and care with entrusted authority"
 slug: "leadership"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"

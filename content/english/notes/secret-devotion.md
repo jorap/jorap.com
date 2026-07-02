@@ -20,6 +20,9 @@ relationships:
   - type: extends
     wikilink: "[[Ask Seek Knock]]"
     reason: "Secret give-pray-fast pairs with how Jesus taught us to pray - devotion for God's eyes, not the crowd"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Hidden faithful use - steward without applause"
 slug: "secret-devotion"
 date: "2026-06-19 10:05:00+00:00"
 image: "/images/note.jpg"
