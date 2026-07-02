@@ -1,8 +1,11 @@
 ---
 title: "Slow Productivity"
 meta_title: "Slow Productivity - Fewer Projects, Deeper Notes"
-description: "I run fewer active projects so notes become finished work, not a guilt backlog."
-key_concept: "Slow productivity pushes back on busy-as-virtue - fewer projects, more finished work."
+description: "Slow productivity is fewer active projects so work finishes deep instead of piling as guilt."
+key_concept: |
+  Busy isn't the same as finished.
+  
+  I run fewer active projects so notes become shipped work, not a guilt backlog - that's the pushback on busy-as-virtue. [[Deep Work]] needs protected depth; four half-started builds eat the one client site that was supposed to ship this month. Breadth feels productive until nothing crosses the line.
 examples:
   - "I dropped a fourth side project to finish one book draft - depth beat breadth this quarter."
   - "One deep client build this month beat three half-started sites on the portfolio."

@@ -1,7 +1,7 @@
 ---
 title: "First Principles Thinking"
 meta_title: "First Principles Thinking in Your Notes"
-description: "When a note is just someone else's quote, I add a section on what I actually believe from scratch."
+description: "First principles thinking is rebuilding from what I actually believe, not someone else's quote."
 key_concept: "When a note is only a quote, I add what I actually believe from scratch."
 examples:
   - "I kept quoting parenting advice from a podcast until I wrote what I actually believe about bedtime - first principles was my own claim, not someone else's quote."

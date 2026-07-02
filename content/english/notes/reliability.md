@@ -1,7 +1,7 @@
 ---
 title: "Reliability"
 meta_title: "Reliability - People Trust What Repeats"
-description: "People stop asking twice when they know you'll [[Complete the Cycle]] without a reminder."
+description: "Reliability is closing loops on time often enough that people stop asking twice."
 key_concept: |
   Others can plan around you because you close loops, hit deadlines, and show up the same way twice.
   

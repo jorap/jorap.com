@@ -15,7 +15,7 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Minimum Viable Product]]"
-    reason: "Named in notes that link here"
+    reason: "MVP is the smallest test the loop names"
   - type: extends
     wikilink: "[[Selling Static Sites]]"
     reason: "Pilot client site before scaling the freelance offer"

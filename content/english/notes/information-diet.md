@@ -16,10 +16,10 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Digital Minimalism]]"
-    reason: "Named in notes that link here"
+    reason: "Cut feeds after you cut the apps that serve them"
   - type: extends
     wikilink: "[[Signal vs Noise]]"
-    reason: "Named in notes that link here"
+    reason: "Diet is picking signal and starving noise"
 slug: "information-diet"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

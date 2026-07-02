@@ -15,13 +15,13 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Develop, Don't Endanger]]"
-    reason: "Named in notes that link here"
+    reason: "Develop the person - unsafe drills don't get consent cover"
   - type: extends
     wikilink: "[[Safety Comes First]]"
     reason: "Consent doesn't erase the job when the drill is unsafe"
   - type: extends
     wikilink: "[[Servant Leadership]]"
-    reason: "Named in notes that link here"
+    reason: "Serve people under you - consent isn't a shield for bad drills"
   - type: implements
     wikilink: "[[Follow Their Lead]]"
     reason: "Join their world except when the move endangers them"

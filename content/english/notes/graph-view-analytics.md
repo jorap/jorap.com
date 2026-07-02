@@ -1,7 +1,7 @@
 ---
 title: "Graph View Analytics"
 meta_title: "Graph View Analytics - What the Graph Actually Tells You"
-description: "I use the link graph to spot orphans and over-connected hubs, not because it looks sci-fi pretty."
+description: "Graph view analytics reads my link map for orphans, over-connected hubs, and gaps I'd forgotten."
 key_concept: "The link map shows notes with no links, notes with too many, and gaps I forgot to connect."
 examples:
   - "I laid out the shift handoff chart and three tasks had zero arrows to an owner - the orphan list was my fix-this-week, not a pretty poster."

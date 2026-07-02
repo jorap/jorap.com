@@ -16,10 +16,10 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Analog Capture Tools]]"
-    reason: "Named in notes that link here"
+    reason: "Paper quote bank before screens and wikilinks"
   - type: extends
     wikilink: "[[Intellectual Sourcing]]"
-    reason: "Named in notes that link here"
+    reason: "Quotes worth keeping start as sourced lines"
 slug: "commonplace-book"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

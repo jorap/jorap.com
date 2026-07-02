@@ -16,10 +16,10 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Context-Aware Capture]]"
-    reason: "Named in notes that link here"
+    reason: "Speak when hands and eyes are on something else"
   - type: extends
     wikilink: "[[Mobile Capture Workflows]]"
-    reason: "Named in notes that link here"
+    reason: "Dictation lane when thumbs can't type"
 slug: "voice-memos"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

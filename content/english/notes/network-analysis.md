@@ -16,10 +16,10 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Associative Linking]]"
-    reason: "Named in notes that link here"
+    reason: "Links create the graph you analyze for hubs"
   - type: extends
     wikilink: "[[Graph View Analytics]]"
-    reason: "Named in notes that link here"
+    reason: "Analytics surface hubs and orphans from the link graph"
 slug: "network-analysis"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

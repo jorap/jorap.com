@@ -1,7 +1,7 @@
 ---
 title: "Assurance"
 meta_title: "Assurance - Rest on Christ's Promise, Not This Week"
-description: "When doubt shows up, I rest on what Christ already finished, not on how clean my week looked."
+description: "Assurance is resting on Christ's finished work when doubt hits - not my week's obedience score."
 key_concept: |
   [[Free Grace]] names the gift; [[Justification]] names the verdict; assurance names where I rest when doubt hits.
   

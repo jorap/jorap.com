@@ -16,10 +16,10 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Intellectual Sourcing]]"
-    reason: "Named in notes that link here"
+    reason: "Source notes start where you track what you read"
   - type: extends
     wikilink: "[[Progressive Summarization]]"
-    reason: "Named in notes that link here"
+    reason: "Each pass shrinks the source into your words"
 slug: "literature-notes"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

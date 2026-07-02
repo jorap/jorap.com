@@ -1,8 +1,11 @@
 ---
 title: "Notice the Good"
 meta_title: "Notice the Good - Say What You Want to See Again"
-description: "I name the specific helpful move out loud so people know what to repeat."
-key_concept: I name the specific helpful thing they did - not vague good job.
+description: "Notice the good means naming the specific helpful move so people know what to repeat."
+key_concept: |
+  "Good job" teaches nothing. "Your rebounds won that scrimmage" teaches the rep.
+  
+  Specific praise names the behavior I want again - that's how [[Process Over Outcomes]] sounds out loud. Vague thanks flatters; spelled-out moves give people something to repeat tomorrow. The stake is reinforcement: praise the scoreboard and the steady process stays invisible.
 examples:
   - "After practice I told the kid who boxed out every drill: \"Your rebounds won that scrimmage - keep sealing like that.\" He knew exactly what to repeat."
   - "I emailed the intern: \"You caught the duplicate invoice before I did - that saved us a call.\" Specific beats a generic thanks slide."

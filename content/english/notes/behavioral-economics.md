@@ -15,10 +15,10 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Decision Quality]]"
-    reason: "Named in notes that link here"
+    reason: "Defaults and friction shape choices more than facts alone"
   - type: extends
     wikilink: "[[Sunk Cost Fallacy]]"
-    reason: "Named in notes that link here"
+    reason: "Sunk cost is the bias that keeps bad bets alive"
 slug: "behavioral-economics"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

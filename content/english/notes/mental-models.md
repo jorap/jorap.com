@@ -1,7 +1,7 @@
 ---
 title: "Mental Models"
 meta_title: "Mental Models - Lenses I Actually Use"
-description: "I keep a short list of thinking shortcuts that survived real decisions - not every model on Wikipedia."
+description: "Mental models are thinking shortcuts I keep when they survive real decisions."
 key_concept: Mainstream mental models for decisions and performance - plus the ones I keep notes on when they earn repeat use.
 examples:
   - "The restaurant had twelve menu tweaks on the whiteboard - I picked the two that actually cut ticket times and shelved the rest."

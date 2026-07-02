@@ -1,7 +1,7 @@
 ---
 title: "Pareto Principle"
 meta_title: "Pareto Principle - Find the 20% That Drives 80%"
-description: "Most results come from a small slice of work - find the slice, protect it, cut the rest."
+description: "The Pareto principle is the 80/20 rule - most results come from a small slice of effort."
 key_concept: |
   Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand, not a law).
   

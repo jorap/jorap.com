@@ -15,10 +15,10 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Decision Quality]]"
-    reason: "Named in notes that link here"
+    reason: "Undo path is part of a good decision, not an afterthought"
   - type: extends
     wikilink: "[[Life Before Achievement]]"
-    reason: "Named in notes that link here"
+    reason: "Irreversible bets shouldn't outrank people"
   - type: extends
     wikilink: "[[Rollback Principle]]"
     reason: "Concrete undo path when the choice is a deploy or release"

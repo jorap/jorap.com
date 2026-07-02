@@ -3,9 +3,9 @@ title: "Expect the Counter"
 meta_title: "Expect the Counter - Prepare for the Second Move"
 description: "I plan what happens after the other side adapts, not just how my opening move looks on paper."
 key_concept: |
-  Don't only rehearse the opening.
+  The opening move isn't the game.
   
-  Ask what happens after the other side adapts.
+  I rehearse what happens after they adapt - that's [[Second-Order Thinking]] with skin in it. [[Adaptability]] on my side matters more than a tactic that only worked once; [[Pressure Reveals Weakness]] when their counter finds the habit I never stress-tested. Build the second move before tip-off, not at halftime.
 examples:
   - "I offered extra screen time for chores and my kid negotiated harder tasks by day three - I should've asked what happens after they adapt, not only rehearsed the opening bribe."
   - "A restaurant drops lunch prices and the place across the street matches by Friday - the first move isn't the game; we built regulars before the copy arrived."

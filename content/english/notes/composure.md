@@ -1,7 +1,7 @@
 ---
 title: "Composure"
 meta_title: "Composure - Steady When the Room Isn't"
-description: "When the room spikes, I slow my tone so people read calm instead of panic."
+description: "Composure is steady voice and pace when the room isn't - people read calm as competence."
 key_concept: |
   Steady tone and pace when the room isn't - people read calm as competence.
   

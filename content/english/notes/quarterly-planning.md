@@ -15,10 +15,10 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Periodic Knowledge Review]]"
-    reason: "Named in notes that link here"
+    reason: "Ninety-day zoom on the same review rhythm"
   - type: extends
     wikilink: "[[The 12 Week Year]]"
-    reason: "Named in notes that link here"
+    reason: "Thirteen weeks is short enough to feel real"
 slug: "quarterly-planning"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

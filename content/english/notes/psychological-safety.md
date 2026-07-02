@@ -18,7 +18,7 @@ relationships:
     reason: "Join their framing before you redirect the blame"
   - type: extends
     wikilink: "[[Heed Every Near-Miss]]"
-    reason: "Named in notes that link here"
+    reason: "People name near-misses when retaliation isn't the cost"
   - type: extends
     wikilink: "[[Listen Before Fixing]]"
     reason: "People speak up when being heard beats being fixed"
@@ -27,7 +27,7 @@ relationships:
     reason: "Naming emotion without punishment keeps reporting honest"
   - type: extends
     wikilink: "[[Own the Error]]"
-    reason: "Named in notes that link here"
+    reason: "Owning mistakes needs a room that won't punish honesty"
 slug: "psychological-safety"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Convert Pain Into Learning"
 meta_title: "Convert Pain Into Learning - Failure Must Produce Correction"
-description: "I only gain from a failure if it changes how I act the next time the situation shows up."
+description: "Convert pain into learning means failure must produce correction, not rumination without change."
 key_concept: |
   Failure becomes useful only when it produces correction.
   

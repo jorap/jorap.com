@@ -15,10 +15,10 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Eliminate Before Managing]]"
-    reason: "Named in notes that link here"
+    reason: "Remove the hazard before you rank residual controls"
   - type: extends
     wikilink: "[[Heed Every Near-Miss]]"
-    reason: "Named in notes that link here"
+    reason: "Close calls are data before you pick controls"
   - type: extends
     wikilink: "[[Rollback Principle]]"
     reason: "Named rollback is a control layer before irreversible harm"

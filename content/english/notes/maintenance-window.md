@@ -19,10 +19,10 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Periodic Knowledge Review]]"
-    reason: "Named in notes that link here"
+    reason: "Calendar block for the periodic review pass"
   - type: extends
     wikilink: "[[Weekly Review Checklists]]"
-    reason: "Named in notes that link here"
+    reason: "Weekly checklist fits inside the scheduled slot"
 slug: "maintenance-window"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

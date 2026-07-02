@@ -16,7 +16,7 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Building a Personal API]]"
-    reason: "Named in notes that link here"
+    reason: "Callbacks are one pipe in a personal API"
 slug: "webhooks"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

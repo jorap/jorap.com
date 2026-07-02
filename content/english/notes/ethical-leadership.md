@@ -15,10 +15,10 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Life Before Achievement]]"
-    reason: "Named in notes that link here"
+    reason: "Walked-past standards shouldn't buy achievement at people's expense"
   - type: extends
     wikilink: "[[Servant Leadership]]"
-    reason: "Named in notes that link here"
+    reason: "Serve the team - authority protects, not spectacle"
 slug: "ethical-leadership"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

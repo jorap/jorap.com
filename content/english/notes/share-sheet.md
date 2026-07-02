@@ -15,10 +15,10 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Capture]]"
-    reason: "Named in notes that link here"
+    reason: "One-tap share is capture when thumbs beat typing"
   - type: extends
     wikilink: "[[Mobile Capture Workflows]]"
-    reason: "Named in notes that link here"
+    reason: "Share sheet is the fastest lane in mobile capture"
 slug: "share-sheet"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

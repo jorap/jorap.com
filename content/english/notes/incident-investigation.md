@@ -18,10 +18,10 @@ relationships:
     reason: "Blameless tone keeps investigation on system causes"
   - type: extends
     wikilink: "[[Heed Every Near-Miss]]"
-    reason: "Named in notes that link here"
+    reason: "Investigation starts where near-misses were logged"
   - type: extends
     wikilink: "[[Own the Error]]"
-    reason: "Named in notes that link here"
+    reason: "Blameless ownership feeds system-level investigation"
 slug: "incident-investigation"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Own the Error"
 meta_title: "Own the Error - Accountability Turns Failure Into Information"
-description: "When I miss, I say I missed - blame-shifting turns a fixable bug into a long argument."
+description: "Owning the error is naming the miss clearly so failure becomes information, not blame theater."
 key_concept: |
   Accountability turns failure into information.
   

@@ -1,7 +1,7 @@
 ---
 title: "Elon Musk"
 meta_title: "Elon Musk"
-description: "When someone needs a pop-culture name for strip-to-basics thinking, Musk is the cite I reach for, not the gospel."
+description: "Elon Musk is the pop-culture shorthand for first-principles thinking - useful cite, not gospel."
 key_concept: |
   Public example people cite for first-principles reinvention - useful as shorthand, not as gospel.
   
@@ -16,7 +16,7 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[First Principles Thinking]]"
-    reason: "Named in notes that link here"
+    reason: "Musk is the pop-culture cite for strip-to-basics thinking"
 slug: "elon-musk"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

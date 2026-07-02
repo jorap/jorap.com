@@ -1,7 +1,7 @@
 ---
 title: "Leadership"
 meta_title: "Leadership - Setting Direction and Pace for Others"
-description: "When the room goes quiet and everyone looks at me, I own what happens next - title optional."
+description: "Leadership is owning direction, pace, and care when people look to you - title optional."
 key_concept: |
   You take responsibility for direction, pace, and care when people look to you - title optional.
   

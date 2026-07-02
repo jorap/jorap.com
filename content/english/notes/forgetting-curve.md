@@ -16,7 +16,7 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Spaced Repetition]]"
-    reason: "Named in notes that link here"
+    reason: "Spaced touch fights the curve's steep drop"
 slug: "forgetting-curve"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

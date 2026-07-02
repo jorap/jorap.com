@@ -15,7 +15,7 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Eliminate Before Managing]]"
-    reason: "Named in notes that link here"
+    reason: "Elimination tops the hierarchy - warnings come last"
   - type: extends
     wikilink: "[[Rollback Principle]]"
     reason: "Named rollback is a control layer before irreversible harm"

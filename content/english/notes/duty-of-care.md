@@ -15,10 +15,10 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Develop, Don't Endanger]]"
-    reason: "Named in notes that link here"
+    reason: "Develop people without trading away reasonable protection"
   - type: extends
     wikilink: "[[Life Before Achievement]]"
-    reason: "Named in notes that link here"
+    reason: "Achievement doesn't shrink the care you owe"
   - type: implements
     wikilink: "[[Safety Comes First]]"
     reason: "Stopping harm is duty of care in motion"

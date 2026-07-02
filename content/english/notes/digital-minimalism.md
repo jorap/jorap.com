@@ -3,9 +3,9 @@ title: "Digital Minimalism"
 meta_title: "Digital Minimalism for Note-Takers"
 description: "My notes got sharper when I dropped extra apps, sync layers, and notifications I wasn't really using."
 key_concept: |
-  Fewer apps and less syncing.
+  Every new app is a pipe I have to babysit.
   
-  My PKM got better when I stopped collecting tools.
+  I cut capture paths and sync layers until I hit [[Minimum Effective Dose]] - the smallest setup that still works. That trades some [[Digital Serendipity]] for fewer places sparks get lost and fewer notifications pulling me off the note I was actually writing.
 examples:
   - "We dropped the second gym bag and the backup jump rope - fewer things means I actually know where the one working pair of shoes lives."
   - "The front desk runs one scheduling app, not four - fewer sync layers means fewer places patient reminders get lost."

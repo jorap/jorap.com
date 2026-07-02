@@ -18,7 +18,7 @@ relationships:
     reason: "Protected focus blocks; [[Capture]] handles the rest"
   - type: extends
     wikilink: "[[Slow Productivity]]"
-    reason: "Named in notes that link here"
+    reason: "Uninterrupted blocks need a slower throughput target"
 slug: "deep-work"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

@@ -16,10 +16,10 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[The Collector's Fallacy]]"
-    reason: "Named in notes that link here"
+    reason: "Saved links pile up like collected highlights nobody reads"
   - type: extends
     wikilink: "[[The Trusted Inbox]]"
-    reason: "Named in notes that link here"
+    reason: "Weekly drain keeps the queue from becoming guilt storage"
 slug: "read-later-queue"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

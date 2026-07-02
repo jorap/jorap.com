@@ -16,10 +16,10 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Digital Minimalism]]"
-    reason: "Named in notes that link here"
+    reason: "Cut tools before feeds eat the rest of your day"
   - type: extends
     wikilink: "[[Signal vs Noise]]"
-    reason: "Named in notes that link here"
+    reason: "Platforms sell noise - you guard signal"
 slug: "attention-economy"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

@@ -16,10 +16,10 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[GTD vs PARA]]"
-    reason: "Named in notes that link here"
+    reason: "Allen owns the task side of the split"
   - type: extends
     wikilink: "[[The Trusted Inbox]]"
-    reason: "Named in notes that link here"
+    reason: "Trusted inbox is the heart of the loop"
 slug: "getting-things-done"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

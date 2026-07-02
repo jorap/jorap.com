@@ -18,7 +18,7 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Heed Every Near-Miss]]"
-    reason: "Named in notes that link here"
+    reason: "Log the third shortcut before it becomes normal"
 slug: "normalization-of-deviance"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

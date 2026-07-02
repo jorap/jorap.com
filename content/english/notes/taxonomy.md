@@ -16,10 +16,10 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Metadata Strategy]]"
-    reason: "Named in notes that link here"
+    reason: "Strategy plans tags; taxonomy is the short list you'd click"
   - type: extends
     wikilink: "[[PARA Method]]"
-    reason: "Named in notes that link here"
+    reason: "PARA folders are taxonomy you actually navigate"
 slug: "taxonomy"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

@@ -15,10 +15,10 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Drafting in Public]]"
-    reason: "Named in notes that link here"
+    reason: "Private sketchpad before you draft in public"
   - type: extends
     wikilink: "[[The Garage Concept]]"
-    reason: "Named in notes that link here"
+    reason: "Rough shapes live in the garage before the show"
 slug: "sketchpad"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

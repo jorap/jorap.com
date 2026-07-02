@@ -15,10 +15,10 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Eliminate Before Managing]]"
-    reason: "Named in notes that link here"
+    reason: "Design out the hazard before you label it"
   - type: extends
     wikilink: "[[Hierarchy of Controls]]"
-    reason: "Named in notes that link here"
+    reason: "Hard-to-cause harm is elimination at the top of the ladder"
   - type: extends
     wikilink: "[[Rollback Principle]]"
     reason: "Rollback is undo-by-design when release goes loud"

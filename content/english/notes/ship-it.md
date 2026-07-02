@@ -24,10 +24,10 @@ relationships:
     reason: "when blasting to everyone beats waiting for the small-slice signal"
   - type: extends
     wikilink: "[[Creative Output]]"
-    reason: "Named in notes that link here"
+    reason: "Output beats polish when feedback is the fuel"
   - type: extends
     wikilink: "[[Minimum Viable Product]]"
-    reason: "Named in notes that link here"
+    reason: "Smallest shippable slice beats endless polish"
   - type: extends
     wikilink: "[[Selling Static Sites]]"
     reason: "First paid client site before polishing the service brochure"

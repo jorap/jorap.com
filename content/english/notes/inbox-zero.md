@@ -16,10 +16,10 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Getting Things Done]]"
-    reason: "Named in notes that link here"
+    reason: "Zero is Allen's proof the capture loop still runs"
   - type: extends
     wikilink: "[[The Trusted Inbox]]"
-    reason: "Named in notes that link here"
+    reason: "Empty the trusted inbox on schedule - zero is the proof"
 slug: "inbox-zero"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

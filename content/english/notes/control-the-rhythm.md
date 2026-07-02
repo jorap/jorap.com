@@ -1,7 +1,7 @@
 ---
 title: "Control the Rhythm"
 meta_title: "Control the Rhythm - Don't Let Urgency Set Your Pace"
-description: "I set pace in hard conversations before adrenaline picks it for me."
+description: "Control the rhythm is taking back pace before urgency, conflict, or someone else sets it."
 key_concept: |
   Whoever sets the pace often steers the room.
   

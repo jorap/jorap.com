@@ -16,10 +16,10 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Literature Notes]]"
-    reason: "Named in notes that link here"
+    reason: "Deeper passes become literature notes in your words"
   - type: extends
     wikilink: "[[Progressive Summarization]]"
-    reason: "Named in notes that link here"
+    reason: "Skim, mark, extract - same cousin as progressive layers"
 slug: "layered-reading"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

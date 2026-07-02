@@ -2,7 +2,10 @@
 title: "Periodic Knowledge Review"
 meta_title: "Periodic Knowledge Review - Revisit on a Schedule"
 description: "If I never revisit notes, they rot - I calendar weekly and quarterly passes like I'd calendar bills."
-key_concept: "Notes rot without review - calendar weekly and quarterly passes for inbox, projects, evergreens."
+key_concept: |
+  Crisis review is always too late.
+  
+  I calendar weekly and quarterly passes the way I'd calendar bills - inbox, active projects, evergreens on the clock, not when guilt spikes. [[Active Knowledge Curation]] happens on schedule or it doesn't happen; [[Maintenance Window]] is the same muscle for the garden as for the server.
 examples:
   - "First Sunday I reconcile the budget - not only when the card gets declined mid-commute."
   - "The clinic reviews charts every Friday at four - not only when a complaint lands."

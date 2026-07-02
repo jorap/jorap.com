@@ -18,10 +18,10 @@ relationships:
     reason: "\"What broke\" line stays until fixed or accepted"
   - type: extends
     wikilink: "[[Continuous Improvement]]"
-    reason: "Named in notes that link here"
+    reason: "Fix the process loop after every what-broke line"
   - type: extends
     wikilink: "[[Convert Pain Into Learning]]"
-    reason: "Named in notes that link here"
+    reason: "Pain on the whiteboard becomes process change"
 slug: "learning-organizations"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

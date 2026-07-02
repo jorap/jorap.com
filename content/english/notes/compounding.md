@@ -1,7 +1,7 @@
 ---
 title: "Compounding"
 meta_title: "Compounding - Small Gains That Stack Over Time"
-description: "I keep doing the small right thing until the curve finally bends - flat for a long time, then not."
+description: "Compounding is small gains stacked over time - the curve stays flat until it suddenly bends."
 key_concept: |
   Repeat small gains until they stack - keep showing up; the curve looks flat until it doesn't.
   

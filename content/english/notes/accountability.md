@@ -1,7 +1,7 @@
 ---
 title: "Accountability"
 meta_title: "Accountability - Clear Ownership for Outcomes"
-description: "I name one owner for the outcome before the group chat turns into someone should fix it."
+description: "Accountability is naming who owns the result - and what happens when it slips."
 key_concept: |
   Clear ownership - who answers for the outcome, the miss, and the fix.
   

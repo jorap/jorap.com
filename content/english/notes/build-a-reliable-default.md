@@ -1,7 +1,7 @@
 ---
 title: "Build a Reliable Default"
 meta_title: "Build a Reliable Default - What You Do When There's No Time"
-description: "When I'm tired, I fall back on what I've rehearsed most - so that fallback has to be simple."
+description: "A reliable default is the simple rehearsed move I run when thinking is thin."
 key_concept: "Make that fallback a simple, dependable response - rehearsed enough to run when thinking is thin."
 examples:
   - "The clinic front desk doesn't make up triage order when three walk-ins arrive - they run the laminated sheet taped by the phone. One script, no guessing."

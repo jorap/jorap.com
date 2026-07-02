@@ -3,9 +3,9 @@ title: "Associative Linking"
 meta_title: "Associative Linking - How Ideas Find Each Other"
 description: "I link notes so ideas meet in the graph without me memorizing every folder path."
 key_concept: |
-  Folders sort.
+  Folders sort. Links think.
   
-  Links think. Associative linking lets notes meet without remembering every filename.
+  I stopped trying to memorize every filename and started wiring [[Atomic Notes]] so ideas bump into each other in the graph. One link to what extends the thought, one to what pushes back - that's enough for the garden to be walkable six months later when the folder path is gone.
 examples:
   - "I linked \"jeepney delay\" to \"leave earlier\" in my daily note and found it six weeks later when the same route broke again - proximity beats perfect filing."
   - "The playbook card links \"late press\" to \"[[Slow the Moment]]\" - I find the counter without memorizing every filename in the binder."

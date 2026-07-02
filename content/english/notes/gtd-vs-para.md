@@ -1,11 +1,11 @@
 ---
 title: "GTD vs PARA"
 meta_title: "GTD vs PARA - Tasks vs Knowledge"
-description: "I run tasks through GTD and notes through PARA as cousins that share capture, not rival systems that double admin."
+description: "GTD vs PARA runs tasks in one system and notes in another - cousins, not rivals."
 key_concept: |
-  GTD runs my tasks.
+  Tasks and knowledge need different homes.
   
-  PARA runs my notes - cousins, not competitors.
+  [[Getting Things Done]] runs what has a next action and a deadline; [[PARA Method]] sorts what I'd cite with no finish line. Cousins, not competitors - same capture habit, two lanes. The failure mode is doubling admin: one inbox emptied weekly, tasks in the task app, notes in the garden.
 examples:
   - "The practice schedule lives in the task app; the playbook principles live in the notes folder - GTD runs tasks, PARA runs knowledge, cousins not competitors."
   - "The fridge list holds what we buy this week; the filing cabinet holds school forms with no deadline."

@@ -15,7 +15,7 @@ relationships:
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Mind Mapping]]"
-    reason: "Named in notes that link here"
+    reason: "Buzan is the name on the workshop slide"
 slug: "tony-buzan"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
