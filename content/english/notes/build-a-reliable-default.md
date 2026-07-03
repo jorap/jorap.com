@@ -5,7 +5,7 @@ description: "A reliable default is the simple rehearsed move I run when thinkin
 key_concept: |
   Make that fallback a simple, dependable response - rehearsed enough to run when thinking is thin.
   
-  When thinking is thin, run the script you already rehearsed.
+  Build it before the crisis, not during it - a default assembled mid-emergency isn't a default.
   
   The rehearsed move beats improvising when the clock is loud.
 examples:
@@ -15,7 +15,7 @@ shareable_thought:
   - "A reliable default is the simple rehearsed move I run when thinking is thin."
   - "Make that fallback a simple, dependable response."
   - "Rehearsed enough to run when thinking is thin."
-  - "When thinking is thin, run the script you already rehearsed."
+  - "Build it before the crisis, not during it - a default assembled mid-emergency isn't a default."
 relationships:
   - type: contradicts
     wikilink: "[[First Principles Thinking]]"

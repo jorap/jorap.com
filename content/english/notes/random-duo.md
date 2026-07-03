@@ -10,8 +10,6 @@ key_concept: |
   Two notes from the garden, picked at random.
   
   Shuffle again when the pair doesn't spark a link worth making.
-  
-  Side-by-side unrelated claims surface links I forgot to make.
 shareable_thought:
   - "Two notes from the garden, picked at random."
   - "I hit Shuffle for another pair."

@@ -10,7 +10,7 @@ key_concept: |
   A scratch pad for the day - not every fragment deserves to become permanent.
 examples:
   - "Today's pocket slip is just fragments - pick up basketball shoes, ice after practice, call coach back - I promote one line to a real note when it repeats."
-  - "Today's pocket slip is just fragments: pick up cleats, dentist Tuesday, call Mom back - I promote one line to the family calendar Sunday if it keeps showing up; the rest can fade."
+  - "My work daily note today is three fragments - a Slack thread to revisit, a lunch idea, a reminder to call the dentist - only the one that keeps repeating earns a real note; the rest fades by Friday."
 shareable_thought:
   - "My daily note is a scratch pad for today's fragments, not a diary I expect to last forever."
   - "Daily notes are fleeting by default, with quick buffer flushes between tasks."

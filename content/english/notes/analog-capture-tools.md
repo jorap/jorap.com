@@ -7,7 +7,7 @@ key_concept: |
   
   Paper still goes in the same inbox when screens are off limits.
   
-  When screens are banned or batteries die, paper still lands in the same inbox.
+  The scrap gets copied into the real system later - paper is capture, not storage.
 examples:
   - "The phone dies mid-sermon and I scribble Philippians references in the margin - I copy them into my study Bible at the kitchen table Sunday night."
   - "Stuck in a dead-zone meeting, I jot the action items on the back of the agenda instead of pretending I'll remember them at the car."
@@ -15,7 +15,7 @@ shareable_thought:
   - "Analog capture wins when the phone dies or the meeting blocks screens - same inbox rule."
   - "Paper capture uses the same inbox rule as digital - for meetings, sermons, and dead phone batteries."
   - "Paper still goes in the same inbox when screens are off limits."
-  - "When screens are banned or batteries die, paper still lands in the same inbox."
+  - "The scrap gets copied into the real system later - paper is capture, not storage."
 relationships:
   - type: alternative
     wikilink: "[[Mobile Capture Workflows]]"

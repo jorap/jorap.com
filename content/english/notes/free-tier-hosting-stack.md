@@ -44,15 +44,15 @@ relationships:
   - type: extends
     wikilink: "[[Static Site Client Scope]]"
     reason: "Stack limits define what jobs fit"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Steward the build budget on borrowed infra"
   - type: implements
     wikilink: "[[Rollback Principle]]"
     reason: "Git revert and previous Cloudflare deploy are the rollback lane"
   - type: implements
     wikilink: "[[Staged Rollout]]"
     reason: "PR preview deploy before Pages merges to main"
-  - type: extends
-    wikilink: "[[Success is Stewardship]]"
-    reason: "Steward the build budget on borrowed infra"
 slug: "free-tier-hosting-stack"
 date: "2026-06-29 10:05:00+00:00"
 image: "/images/note.jpg"

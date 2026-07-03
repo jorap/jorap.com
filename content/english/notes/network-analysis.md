@@ -20,11 +20,11 @@ relationships:
     wikilink: "[[Maps of Content]]"
     reason: "when the opposite frame fits better"
   - type: extends
-    wikilink: "[[Linking by Meaning]]"
-    reason: "Links create the graph you analyze for hubs"
-  - type: extends
     wikilink: "[[Graph View Analytics]]"
     reason: "Analytics surface hubs and orphans from the link graph"
+  - type: extends
+    wikilink: "[[Linking by Meaning]]"
+    reason: "Links create the graph you analyze for hubs"
 slug: "network-analysis"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

@@ -15,6 +15,9 @@ shareable_thought:
   - "Faithful Steward is the parable Jesus told."
   - "Well done for faithful use, buried talent rebuked."
 relationships:
+  - type: alternative
+    wikilink: "[[Drafting in Public]]"
+    reason: "Publish vs hoard when the audience differs"
   - type: contradicts
     wikilink: "[[Free Grace]]"
     reason: "when a good season feels like proof I earned heaven"
@@ -33,9 +36,6 @@ relationships:
   - type: extends
     wikilink: "[[Digital Garden]]"
     reason: "Tend borrowed reach - notes grow when shared"
-  - type: alternative
-    wikilink: "[[Drafting in Public]]"
-    reason: "Publish vs hoard when the audience differs"
   - type: extends
     wikilink: "[[Eternal Rewards]]"
     reason: "Well done repays faithful use - not the entry fee"
@@ -55,11 +55,11 @@ relationships:
     wikilink: "[[Free Tier Hosting Stack]]"
     reason: "Steward the build budget on borrowed infra"
   - type: extends
-    wikilink: "[[Great Commission]]"
-    reason: "Don't hoard truth - steward by passing it on"
-  - type: extends
     wikilink: "[[Grateful Obedience]]"
     reason: "Entrusted gifts answered with thanks, not entitlement"
+  - type: extends
+    wikilink: "[[Great Commission]]"
+    reason: "Don't hoard truth - steward by passing it on"
   - type: extends
     wikilink: "[[Humility and Service]]"
     reason: "Success serves others - kingdom ladder runs opposite the world's"
@@ -112,8 +112,8 @@ cards:
     back: "Saved by faith - well done follows."
   - front: "I'm the only one who knows the workaround and I'm hoarding it. Steward move?"
     back: "Share what you learned - don't bury it."
-  - front: "Early win and I'm tempted to coast. What is success actually?"
-    back: "Borrowed gift - keep using it faithfully."
+  - front: "Early win landed and I'm tempted to coast on what I was given."
+    back: "Steward it - keep using the gift faithfully."
   - front: "Platform changed the rules overnight and reach vanished. What was I never holding?"
     back: "Ownership - steward what lasts, not rented land."
 draft: false

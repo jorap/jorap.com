@@ -5,7 +5,7 @@ description: "I steer pace, format, and who speaks in the room when I can't own 
 key_concept: |
   Situational control is using the levers available - pace, venue, agenda, boundaries - when you can't control everything.
   
-  Steer pace, agenda, and boundaries when you cannot own every outcome.
+  The room notices who's steering even when nobody announced it.
 examples:
   - "My sister and I were fighting past the kids' bedtime - situational control was a fifteen-minute break and a promise to pick it up tomorrow."
   - "Down twelve at halftime, our captain called a timeout she didn't need - situational control was slowing the game, not surrendering to their pace."
@@ -13,7 +13,7 @@ shareable_thought:
   - "I steer pace, format, and who speaks in the room when I can't own the whole outcome."
   - "Situational control is using the levers available."
   - "Pace, venue, agenda, boundaries - when you can't control everything."
-  - "Steer pace, agenda, and boundaries when you cannot own every outcome."
+  - "The room notices who's steering even when nobody announced it."
 relationships:
   - type: contradicts
     wikilink: "[[Humility and Service]]"

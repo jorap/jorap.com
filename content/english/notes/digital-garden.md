@@ -30,11 +30,11 @@ relationships:
     wikilink: "[[Free Tier Hosting Stack]]"
     reason: "Same Hugo-plus-git host I sell for [[Selling Static Sites]]"
   - type: extends
-    wikilink: "[[Work in Progress]]"
-    reason: "Public drafts and visible growth - garden ethos"
-  - type: extends
     wikilink: "[[Success is Stewardship]]"
     reason: "Tend borrowed reach - notes grow when shared"
+  - type: extends
+    wikilink: "[[Work in Progress]]"
+    reason: "Public drafts and visible growth - garden ethos"
 slug: "digital-garden"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"

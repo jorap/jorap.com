@@ -5,7 +5,7 @@ description: "I build workflows so the dangerous move is hard - not just a warni
 key_concept: |
   Rollback is undo-by-design when release goes loud.
   
-  [[Rollback Principle]] names rollback is undo-by-design when release goes loud. [[Staged Rollout]] names fewer people hit before the hazard is proven safe.
+  [[Staged Rollout]] means fewer people hit before the hazard is proven safe.
   
   Make the dangerous move hard by default - not just forbidden on paper.
 examples:
@@ -14,7 +14,7 @@ examples:
 shareable_thought:
   - "I build workflows so the dangerous move is hard - not just a warning label and good intentions."
   - "Rollback is undo-by-design when release goes loud."
-  - "Staged Rollout names fewer people hit before the hazard is proven safe."
+  - "Staged Rollout means fewer people hit before the hazard is proven safe."
   - "Make the dangerous move hard by default - not just forbidden on paper."
 relationships:
   - type: contradicts

@@ -3,19 +3,19 @@ title: "Strong Outside Your Comfort"
 meta_title: "Strong Outside Your Comfort - Stay Useful in New Conditions"
 description: "The habit that worked in my last role can flop in the next room - I retune instead of clinging."
 key_concept: |
-  What made you strong in one room can make you weak in the next.
+  The tell is confidence that doesn't match the room - certainty imported from somewhere else.
   
   Real competence means staying useful outside ideal setups, familiar roles, and comfortable routines - new tools, new teams, crisis mode, career pivots.
   
-  Retune the habit when the room changes - don't cling to what used to work.
+  Nobody warns you the room changed; you just start losing at things that used to work.
 examples:
   - "I walked the new counter before the lunch rush instead of defending last month's habits when the line got long."
   - "Our guard dominates on the outdoor court and looks lost on the slick indoor floor for a week - staying effective means adjusting footwork, not defending yesterday's surface."
 shareable_thought:
   - "The habit that worked in my last role can flop in the next room."
   - "I retune instead of clinging."
-  - "What made you strong in one room can make you weak in the next."
-  - "Retune the habit when the room changes."
+  - "The tell is confidence that doesn't match the room - certainty imported from somewhere else."
+  - "Nobody warns you the room changed; you just start losing at things that used to work."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

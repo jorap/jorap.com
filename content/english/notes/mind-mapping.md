@@ -5,7 +5,7 @@ description: "Mind maps are for the messy first pass - branches, bubbles, relati
 key_concept: |
   Mind maps and sketches are the messy first pass - turn them into atomic notes after, not instead.
   
-  Branches and bubbles first; atomic notes after.
+  The map shows relationships at a glance; the atomic notes are what actually survive review and get linked in.
 examples:
   - "I sketched a bubble map of our season goals on paper, then each branch became its own drill checklist."
   - "I sketch a messy bubble map before our road trip, then each branch becomes its own packing list on the fridge."
@@ -13,7 +13,7 @@ shareable_thought:
   - "Mind maps are for the messy first pass - branches, bubbles, relationships."
   - "I export to atomic notes after, not instead."
   - "Mind maps and sketches are the messy first pass."
-  - "Turn them into atomic notes after, not instead."
+  - "The map shows relationships at a glance; the atomic notes are what actually survive review."
 relationships:
   - type: contradicts
     wikilink: "[[Atomic Notes]]"

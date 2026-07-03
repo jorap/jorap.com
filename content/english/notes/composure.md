@@ -7,17 +7,17 @@ key_concept: |
   
   One beat before I reply often beats matching their volume.
   
-  Stay readable and deliberate when others speed up or heat up.
+  The composure has to be visible - a calm voice with shaking hands under the table still reads as calm to everyone watching.
   
-  Slower speech and one clarifying question beat reflex when the room runs hot.
+  Composure isn't suppressing the reaction - it's choosing which one gets shown.
 examples:
   - "The neighbor argument on the group chat heated up and I waited one beat before replying - people read calm as competence even when the issue is real."
   - "I used the same move in a heated parent meeting - slower speech, one clarifying question, no matching their volume."
 shareable_thought:
   - "Composure is steady voice and pace when the room isn't - people read calm as competence."
   - "One beat before I reply often beats matching their volume."
-  - "Stay readable and deliberate when others speed up or heat up."
-  - "Slower speech and one clarifying question beat reflex when the room runs hot."
+  - "The composure has to be visible - a calm voice with shaking hands under the table still reads as calm."
+  - "Composure isn't suppressing the reaction - it's choosing which one gets shown."
 relationships:
   - type: contradicts
     wikilink: "[[The 12 Week Year]]"

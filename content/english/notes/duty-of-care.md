@@ -5,7 +5,7 @@ description: "If roles flipped, I'd want reasonable protection from harm - that'
 key_concept: |
   Owe people the care you'd expect if roles reversed - not the minimum the handbook allows.
   
-  Duty of care is the legal and moral floor - not the minimum the handbook allows.
+  Duty of care is the legal and moral floor, not a target to hit exactly and stop.
   
   Stop serious harm first; reasonable protection isn't optional because paperwork says so.
 examples:
@@ -14,7 +14,7 @@ examples:
 shareable_thought:
   - "If roles flipped, I'd want reasonable protection from harm - that's the bar I owe people under me."
   - "Owe people the care you'd expect if roles reversed - not the minimum the handbook allows."
-  - "Duty of care is the legal and moral floor - not the minimum the handbook allows."
+  - "Duty of care is the legal and moral floor, not a target to hit exactly and stop."
   - "Stop serious harm first; reasonable protection isn't optional because paperwork says so."
 relationships:
   - type: contradicts

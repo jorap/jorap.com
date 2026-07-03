@@ -7,14 +7,14 @@ description: "Enter a topic. The prompt finds improvement principles, picks one 
 key_concept: |
   One topic in, one atomic note out - same shape as the rest of the garden.
   
-  The prompt picks an improvement principle, one standup-sized claim, then actionable examples.
+  The prompt narrows a topic to one standup-sized claim. The examples that come out are actionable, not theoretical.
   
-  One topic in, one atomic note out - same garden shape every time.
+  Paste the result straight into `content/english/notes/` - it's already lint-ready.
 shareable_thought:
-  - "The prompt finds improvement principles, picks one atomic claim, and asks for actionable examples in garden format."
   - "One topic in, one atomic note out - same shape as the rest of the garden."
-  - "The prompt picks an improvement principle, one standup-sized claim, then actionable examples."
-  - "Same garden shape every time."
+  - "The prompt narrows a topic to one standup-sized claim."
+  - "The examples that come out are actionable, not theoretical."
+  - "Paste the result straight into content/english/notes/ - it's already lint-ready."
 slug: "create"
 date: "2026-06-22 15:00:00+00:00"
 image: "/images/note.jpg"

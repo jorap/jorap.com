@@ -5,9 +5,9 @@ description: "Set goals and review on a thirteen-week rhythm - short enough to f
 key_concept: |
   Zoom out every ninety days so weekly noise doesn't eat the year's aim.
   
-  Thirteen weeks is short enough to feel real on the calendar.
+  Long enough to actually finish something, short enough that slipping is still visible before it's too late.
   
-  Ninety-day zoom-outs keep weekly noise from eating the year's aim.
+  A year-long goal hides slippage for months; thirteen weeks can't.
 examples:
   - "First Sunday of the quarter we picked three outcomes - not twenty wishes that drowned the month."
   - "The clinic's ninety-day huddle moved one backlog project to done instead of adding a fourth starter."
@@ -15,7 +15,7 @@ shareable_thought:
   - "Set goals and review on a thirteen-week rhythm."
   - "Short enough to feel real."
   - "Zoom out every ninety days so weekly noise doesn't eat the year's aim."
-  - "Thirteen weeks is short enough to feel real on the calendar."
+  - "Long enough to actually finish something, short enough that slipping is still visible before it's too late."
 relationships:
   - type: contradicts
     wikilink: "[[Slow Productivity]]"
@@ -36,13 +36,13 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "January's vague \"get faster\" became twelve weeks with a fridge time chart"
-    back: "Week ten finally bit"
-  - front: "January's vague \"reduce waste\" became twelve weeks with a kitchen whiteboard tally"
-    back: "Week ten finally bit"
-  - front: "January's vague \"get fit\" became twelve weeks with a fridge scoreboard"
-    back: "Week ten finally bit"
-  - front: "January's vague \"save money\" became twelve weeks with a jar on the counter"
-    back: "Week ten finally bit"
+  - front: "New Year's resolution list, already abandoned by week three. What's the actual planning unit?"
+    back: "Thirteen weeks - not twelve months."
+  - front: "Halfway through the year and nobody's checked the goal since January. What catches drift earlier?"
+    back: "Ninety-day zoom-out."
+  - front: "\"Get fit\" written on the fridge with no way to tell if it's working. What turns it real?"
+    back: "A visible tracker, not a slogan."
+  - front: "Quarter's ending and the goal quietly slipped back in week four. When would thirteen weeks have caught it?"
+    back: "Week ten - before it's too late."
 draft: false
 ---

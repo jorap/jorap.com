@@ -10,7 +10,7 @@ key_concept: |
   A cited note is one I can defend in conversation months later.
 examples:
   - "I taped the coach's article title under the quote in our playbook so six months later we know if the source still says what we thought."
-  - "I tape the newspaper name under the quote on my kid's history project so six months later we know if the source still says what we thought."
+  - "My sermon notes app just says 'trust me, great quote' with no reference - six months later I can't tell if I'm misquoting the pastor or making it up."
 shareable_thought:
   - "I cite sources in notes to trust my synthesis and find the original later."
   - "I cite sources so I can trust what I wrote and find the original six months later."

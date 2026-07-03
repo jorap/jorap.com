@@ -6,16 +6,16 @@ description: "Pressure reveals what easy days hide - build habits and systems th
 key_concept: |
   Pressure reveals what easy days hide.
   
-  Build habits and systems that still work when stakes spike.
+  Build habits and systems that still work when stakes spike - not just when things are calm and cooperative.
   
-  Rehearse the move on easy days so it runs when pressure hits.
+  Rehearse the move on easy days so it's already loaded when pressure hits.
   
-  Easy days are for rehearsing the move pressure will demand later.
+  What survives contact with pressure was built long before the pressure showed up.
 shareable_thought:
   - "Pressure reveals what easy days hide."
   - "Build habits and systems that still work when stakes spike."
-  - "Rehearse the move on easy days so it runs when pressure hits."
-  - "Easy days are for rehearsing the move pressure will demand later."
+  - "Rehearse the move on easy days so it's already loaded when pressure hits."
+  - "What survives contact with pressure was built long before the pressure showed up."
 relationships:
   - type: alternative
     wikilink: "[[Mental Models]]"

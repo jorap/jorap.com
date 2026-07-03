@@ -3,7 +3,7 @@ title: "Failure as Feedback"
 meta_title: "Failure as Feedback - Misses Are Signal When You Listen"
 description: "I read a miss as signal about process or skill, not as proof I'm the wrong kind of person."
 key_concept: |
-  A miss tells you what to fix next - process, skill, assumption - if you don't treat it as a identity verdict.
+  A miss tells you what to fix next - process, skill, assumption - if you don't treat it as an identity verdict.
   
   Faith parallel: [[Loss of Reward]] - worthless works burn at the [[Judgment Seat]], but the builder is still saved through fire.
   The miss is feedback on what to build next, not proof you were never in.
@@ -13,7 +13,7 @@ examples:
 shareable_thought:
   - "I read a miss as signal about process or skill, not as proof I'm the wrong kind of person."
   - "A miss tells you what to fix next."
-  - "Process, skill, assumption - if you don't treat it as a identity verdict."
+  - "Process, skill, assumption - if you don't treat it as an identity verdict."
   - "The miss is feedback on what to build next, not proof you were never in."
 relationships:
   - type: alternative

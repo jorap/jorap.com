@@ -5,7 +5,7 @@ description: "Mental models are thinking shortcuts I keep when they survive real
 key_concept: |
   Mainstream mental models for decisions and performance - note the ones that earn repeat use.
   
-  Keep the lens only if it survives a real decision.
+  A model nobody reaches for is the same problem as a junk-drawer bookmark - recall under pressure is the value.
   
   Retire the model when real decisions prove it wrong.
 examples:
@@ -15,7 +15,7 @@ shareable_thought:
   - "Mental models are thinking shortcuts I keep when they survive real decisions."
   - "Mainstream mental models for decisions and performance."
   - "Note the ones that earn repeat use."
-  - "Keep the lens only if it survives a real decision."
+  - "A model nobody reaches for is the same problem as a junk-drawer bookmark - recall under pressure is the value."
 relationships:
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"

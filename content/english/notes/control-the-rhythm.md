@@ -7,7 +7,7 @@ key_concept: |
   
   Don't let urgency, conflict, emotion, or someone else's deadline dictate how fast you think and act - take the tempo back when you can.
   
-  Take the tempo back before urgency or someone else sets it for you.
+  The room usually can't tell the difference between you slowing down and you being in control - so slow down.
   
   Urgency is real - I still choose the pace I work at.
 examples:
@@ -16,7 +16,7 @@ examples:
 shareable_thought:
   - "Control the rhythm is taking back pace before urgency, conflict, or someone else sets it."
   - "Whoever sets the pace often steers the room."
-  - "Take the tempo back before urgency or someone else sets it for you."
+  - "The room usually can't tell the difference between you slowing down and you being in control."
   - "Urgency is real - I still choose the pace I work at."
 relationships:
   - type: contradicts

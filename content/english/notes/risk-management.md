@@ -5,7 +5,7 @@ description: "Name what can go wrong, how likely, how bad - then choose controls
 key_concept: |
   Named rollback is a control layer before irreversible harm.
   
-  [[Rollback Principle]] names named rollback is a control layer before irreversible harm. [[Staged Rollout]] names limit exposure before you bet the whole lane.
+  [[Staged Rollout]] limits exposure before you bet the whole lane.
   
   Likelihood times severity sets how strong the control needs to be.
 examples:
@@ -14,7 +14,7 @@ examples:
 shareable_thought:
   - "Name what can go wrong, how likely, how bad - then choose controls in order of strength."
   - "Named rollback is a control layer before irreversible harm."
-  - "Staged Rollout names limit exposure before you bet the whole lane."
+  - "Staged Rollout limits exposure before you bet the whole lane."
   - "Likelihood times severity sets how strong the control needs to be."
 relationships:
   - type: contradicts

@@ -7,7 +7,7 @@ key_concept: |
   
   Ethical leadership is integrity the team can see - what you tolerate in the open, not what you preach on the poster.
   
-  The team copies what you tolerate, not what you preach.
+  Silence in the room is a decision too - people read it as a yes.
 examples:
   - "I stopped the backyard wrestling match when someone was about to get hurt - same fun goal, safer path, even though the kids wanted the rougher version."
   - "The coach killed the unsafe trust-fall drill when a safer team exercise achieved the same bonding goal - authority used to protect people, not to win at their expense."
@@ -15,7 +15,7 @@ shareable_thought:
   - "What I let slide in front of my team becomes their real standard, not what's printed on the poster."
   - "The standard you walk past is the standard you accept for everyone under you."
   - "Ethical leadership is integrity the team can see - what you tolerate in the open, not what you preach on the poster."
-  - "The team copies what you tolerate, not what you preach."
+  - "Silence in the room is a decision too - people read it as a yes."
 relationships:
   - type: contradicts
     wikilink: "[[Outcomes Over Pitch Decks]]"

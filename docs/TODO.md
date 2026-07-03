@@ -28,6 +28,7 @@ Recent work already live or documented — no action unless regressing:
 
 ## Open — high value
 
+- [ ] **Site-wide voice review** — [CONTENT_VOICE_REVIEW.md](./CONTENT_VOICE_REVIEW.md): Sonnet 5 (Thinking) bulk pass, Opus 4.8 (Thinking) escalations, Composer for mechanical fixes only (~15 blogs + ~214 notes)
 - [ ] **Critical CSS / above-the-fold CSS** — inline or early-load key shell styles to improve FCP on slow networks
 - [ ] **Core Web Vitals pass** — run PageSpeed on home, blog post, notes list; fix any LCP/CLS regressions
 - [ ] **Image audit** — WebP/AVIF where missing; explicit dimensions on content images to prevent CLS

@@ -3,9 +3,9 @@ title: "Attention Economy"
 meta_title: "Attention Economy"
 description: "I treat my feed like a slot machine someone else owns - if I'm not paying, I'm the product."
 key_concept: |
-  Platforms compete for your focus - your attention is the product.
+  Platforms compete for your focus - engagement optimized against you still counts as optimization.
   
-  Your focus is the product - guard the pipe before optimizing the inbox.
+  Guard the pipe before optimizing the inbox - a tidy inbox for content you shouldn't be consuming is still a loss.
   [[Signal vs Noise]] names what to cut; [[Information Diet]] is the weekly menu habit.
 examples:
   - "I turned off push alerts before trying a new focus app - the pipe was the leak."
@@ -14,7 +14,7 @@ shareable_thought:
   - "I treat my feed like a slot machine someone else owns."
   - "If I'm not paying, I'm the product."
   - "Platforms compete for your focus."
-  - "Your attention is the product."
+  - "Engagement optimized against you still counts as optimization."
 relationships:
   - type: contradicts
     wikilink: "[[Digital Serendipity]]"

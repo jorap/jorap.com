@@ -12,7 +12,7 @@ examples:
 shareable_thought:
   - "I review on a schedule so ideas stick."
   - "Retention, application, and explanation, not fact pile-up."
-  - "Review on a schedule before I forget - for retention, application, and explanation, not vanity metrics or fact pile-up."
+  - "Keep asking on rhythm, not cram once."
   - "The wiki holds understanding; cards and SRS hold drill."
 relationships:
   - type: contradicts

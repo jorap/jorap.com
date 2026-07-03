@@ -3,7 +3,7 @@ title: "Compounding"
 meta_title: "Compounding - Small Gains That Stack Over Time"
 description: "Compounding is small gains stacked over time - the curve stays flat until it suddenly bends."
 key_concept: |
-  Repeat small gains until they stack - keep showing up; the curve looks flat until it doesn't.
+  Small gains repeated look like nothing is happening. Most people quit right before the curve would have bent.
   
   Borrowed from finance, but it applies anywhere today's gain makes tomorrow easier: notes linked over years, publish cadence, vocab drills.
   Heroic weeks feel good; boring repetition wins. The first months look like nothing - that's the trap. Faith parallel: [[Abide in Me]] - fruit from staying connected over time, not self-generated effort alone. [[Eternal Rewards]] - the Father repays daily faithfulness over years, not a lump-sum merit binge that buys heaven. [[Loss of Reward]] is the other side: a bad season shrinks reward, it doesn't erase [[Free Grace]].
@@ -13,8 +13,8 @@ examples:
 shareable_thought:
   - "Compounding is small gains stacked over time."
   - "The curve stays flat until it suddenly bends."
-  - "Repeat small gains until they stack."
-  - "Keep showing up; the curve looks flat until it doesn't."
+  - "Small gains repeated look like nothing is happening."
+  - "Most people quit right before the curve would have bent."
 relationships:
   - type: contradicts
     wikilink: "[[Pareto Principle]]"

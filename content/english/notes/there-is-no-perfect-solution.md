@@ -3,7 +3,7 @@ title: "There Is No Perfect Solution"
 meta_title: "There Is No Perfect Solution - Only Tradeoffs"
 description: "There's no perfect solution - pick what works tired and ship instead of waiting for the ideal."
 key_concept: |
-  I pick what works tired and ship.
+  Waiting for the ideal option is itself a choice - usually the choice to stay stuck with the status quo.
   
   Every real choice has tradeoffs - stop comparing real options to an imaginary perfect one.
 examples:
@@ -11,7 +11,7 @@ examples:
   - "I stopped comparing note apps and shipped with the one that works on my phone tired - no perfect tool, only what I actually use."
 shareable_thought:
   - "There's no perfect solution - pick what works tired and ship instead of waiting for the ideal."
-  - "I pick what works tired and ship."
+  - "Waiting for the ideal option is itself a choice - usually the choice to stay stuck with the status quo."
   - "Every real choice has tradeoffs."
   - "Stop comparing real options to an imaginary perfect one."
 relationships:

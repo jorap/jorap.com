@@ -5,8 +5,6 @@ description: "Owning the error is naming the miss clearly so failure becomes inf
 key_concept: |
   Accountability turns failure into information.
   
-  Name the mistake clearly, find what caused it, repair what broke, and change the process that let it through - not blame theater, not quiet hope it vanishes.
-  
   Name the miss clearly so the team learns from it - not from blame theater.
   
   Repair what broke, then fix the process that let it through.

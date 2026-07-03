@@ -7,13 +7,13 @@ key_concept: |
   
   Staring at a blank page with full notes means output fixes, not another capture pass.
   
-  One small ship action usually unsticks me when the page stays blank.
+  Once something ugly exists on the page, editing is a different, easier problem than starting.
 examples:
   - "My kid stared at a blank training log for twenty minutes - I told her to write one messy line about today's warmup and the block lifted once something existed on the paper."
   - "The new hire couldn't start the report - I said write one ugly paragraph about yesterday's customer call and the rest followed."
 shareable_thought:
   - "Thousands of notes and I still stare at a blank page."
-  - "One small ship action usually unsticks me."
+  - "Once something ugly exists on the page, editing is a different, easier problem than starting."
   - "Creative blocks aren't solved by more capture - ship one small action instead."
   - "Staring at a blank page with full notes means output fixes, not another capture pass."
 relationships:

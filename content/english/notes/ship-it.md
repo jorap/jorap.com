@@ -7,7 +7,7 @@ key_concept: |
   
   Freelance parallel: [[Selling Static Sites]] - ship the first client site before the three-tier pricing PDF exists.
   
-  Good enough shipped beats perfect still sitting in drafts.
+  Feedback on a live, flawed version teaches more in a week than another month of internal debate.
 examples:
   - "The menu went live with one typo fixed after service - customers ate tonight."
   - "We ran the new play ugly in scrimmage instead of drilling it another month."
@@ -15,7 +15,7 @@ shareable_thought:
   - "I push the good-enough version live instead of polishing until the deadline owns me."
   - "Publish the good-enough version instead of polishing forever."
   - "Freelance parallel: Selling Static Sites - ship the first client site before the three-tier pricing PDF exists."
-  - "Good enough shipped beats perfect still sitting in drafts."
+  - "Feedback on a live, flawed version teaches more in a week than another month of internal debate."
 relationships:
   - type: contradicts
     wikilink: "[[Attention to Detail]]"

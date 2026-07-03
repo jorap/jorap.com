@@ -39,9 +39,6 @@ relationships:
     wikilink: "[[Judgment Seat]]"
     reason: "Where worthless works burn and faithful works get repaid"
   - type: extends
-    wikilink: "[[Success is Stewardship]]"
-    reason: "Ignoring [[Faithful Steward]] shrinks reward, not salvation"
-  - type: extends
     wikilink: "[[Justification]]"
     reason: "Standing declared at faith doesn't get revoked when reward is lost"
   - type: extends
@@ -50,6 +47,9 @@ relationships:
   - type: extends
     wikilink: "[[Standing vs Fellowship]]"
     reason: "Shame after failure is fellowship or reward, not revoked salvation"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Ignoring [[Faithful Steward]] shrinks reward, not salvation"
 slug: "loss-of-reward"
 date: "2026-06-29 08:20:00+00:00"
 image: "/images/note.jpg"

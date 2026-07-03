@@ -8,7 +8,7 @@ key_concept: |
   Christ paid what I couldn't. I receive eternal life by believing His promise - not by climbing a moral ladder. Same shape as [[Minimum Effective Dose]] for salvation: faith is the smallest act that still works - not zero effort, not a lifetime of merit. Every [[Eternal Principles]] Jesus taught flows from that ground: principles for how believers live in grateful response, pursue fellowship with God, and store up [[Eternal Rewards]] - never as currency to buy heaven. [[Loss of Reward]] keeps the categories straight when a believer wastes years or worthless works burn: salvation stays on Christ, reward may shrink. Ephesians 2:10 keeps the order straight: saved by grace through faith first, then created in Christ Jesus for good works. [[Justification]] is free and finished at faith; [[Sanctification]], [[Discipleship]], and forgiveness toward others belong to the walk after. [[Grateful Obedience]] names the posture: obey from thanks, not to qualify. [[Assurance]] and [[Standing vs Fellowship]] keep doubt from collapsing standing with closeness. [[Faith and Works]] keeps the lanes straight: works prove faith alive, they don't buy heaven.
 examples:
   - "A teammate listed every good deed this month like it was his ticket to heaven - I trust Christ's promise for eternal life, not my report card from the season."
-  - "A friend at coffee listed every good thing he'd done this month like it was his ticket to heaven - I didn't argue; I just said I trust Christ's promise, not my report card."
+  - "My kid thinks he has to be extra good the week before his birthday to \"deserve\" presents - grace doesn't work that way with God either; the gift's already decided before the behavior."
 shareable_thought:
   - "Eternal life is Christ's gift received by faith alone, not wages for commandments, principles, or good works."
   - "Grace is a gift I never earned."
@@ -68,9 +68,9 @@ cards:
     back: "Free gift - Christ paid what I couldn't."
   - front: "Obedience after conversion - what's driving it?"
     back: "Live gratefully - grace already saved."
-  - front: "Teammate listed every good deed this month like it was his heaven ticket. One sentence back?"
-    back: "Gift through faith - not wages for deeds."
-  - front: "Friend at coffee stacks good works like a merit ladder to heaven. What's true?"
-    back: "Grace through faith - Christ paid the fare."
+  - front: "A kid behaving extra well right before his birthday, hoping to earn the presents. What's actually true about the gift?"
+    back: "Already decided - not earned by behavior."
+  - front: "Neighbor says he's earned God's favor by volunteering every weekend. What's true?"
+    back: "Gift through faith - not volunteer hours."
 draft: false
 ---

@@ -5,7 +5,7 @@ description: "I join their world - their topic, pace, starting point - before I 
 key_concept: |
   I join their world before I redirect it - their activity, topic, pace, starting point.
   
-  Enter their frame before you try to redirect the conversation.
+  The redirect lands better once they know you actually understood their version first.
   
   Connection first, critique second - run their play once before you offer yours.
   
@@ -15,7 +15,7 @@ examples:
   - "A coworker walked me through how she tracks patient callbacks - I watched the whole spreadsheet before I offered to reorder her columns."
 shareable_thought:
   - "I join their world - their topic, pace, starting point - before I try to steer."
-  - "Enter their frame before you try to redirect the conversation."
+  - "The redirect lands better once they know you actually understood their version first."
   - "Connection first, critique second - run their play once before you offer yours."
   - "Skip their starting point and you're fixing a problem they weren't naming."
 relationships:

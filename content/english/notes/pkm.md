@@ -8,7 +8,7 @@ key_concept: |
   Save, organize, reuse - output beats tuning the system alone.
 examples:
   - "The team manager keeps a card file sorted by what she actually uses on game day, not every article she ever read."
-  - "The school nurse keeps a card file sorted by what she actually uses on a shift, not every article she ever read."
+  - "My phone's Notes app only keeps recipes I've cooked twice, not every recipe I ever screenshotted."
 shareable_thought:
   - "PKM is how I save, organize, and reuse what I learn - not a hobby of collecting apps."
   - "PKM is the plain name for the save-organize-use system getting started introduces (Getting Started)."

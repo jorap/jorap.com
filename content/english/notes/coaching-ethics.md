@@ -7,7 +7,7 @@ key_concept: |
   
   Unsafe or pointless drills still owe reasonable protection to people under your influence.
   
-  Reasonable protection still applies when consent was given for a bad drill.
+  Waivers protect against lawsuits, not against the drill actually hurting someone.
 examples:
   - "The coach who said \"they signed the waiver\" after a near-drown wasn't coaching - he dodged [[Duty of Care]] when the drill was unsafe and pointless."
   - "The gym sold a dangerous cleanse because customers clicked agree - coaching ethics means you still owe reasonable protection to people under your influence."
@@ -15,7 +15,7 @@ shareable_thought:
   - "Develop the person without hiding behind consent when the drill is unsafe or pointless."
   - "Consent doesn't erase the job when the drill is unsafe."
   - "Unsafe or pointless drills still owe reasonable protection to people under your influence."
-  - "Reasonable protection still applies when consent was given for a bad drill."
+  - "Waivers protect against lawsuits, not against the drill actually hurting someone."
 relationships:
   - type: contradicts
     wikilink: "[[Life Before Achievement]]"

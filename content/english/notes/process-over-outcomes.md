@@ -6,8 +6,6 @@ key_concept: |
   One hero sprint doesn't survive a bad week.
   
   I protect the loop I can rerun when motivation dips - same proofing steps on a slow Tuesday and a wedding weekend. [[Compounding]] only stacks when the process holds; [[Notice the Good]] reinforces the behavior in the loop, not only the score that happened to land this time.
-  
-  Protect the routine you can rerun when motivation dips.
 examples:
   - "The baker follows the same proofing steps whether it's a slow Tuesday or wedding weekend."
   - "The JV squad runs the same warmup whether the bleachers are empty or full."

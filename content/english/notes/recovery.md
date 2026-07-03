@@ -5,17 +5,17 @@ description: "Sleep isn't laziness for me - it's the refill that keeps judgment 
 key_concept: |
   The sleep, rest, and downtime that refill what hard work drains - judgment, patience, attention.
   
-  Recovery is sleep, rest, and downtime that refill judgment - not laziness, maintenance.
+  Skipping it doesn't show up immediately - it shows up three days later as a short fuse and bad calls.
   
-  Sleep refills judgment and patience - it's maintenance, not laziness.
+  The elite athlete's rest day isn't optional recovery - it's programmed like the workout.
 examples:
   - "Elite athletes schedule rest days - muscle rebuilds off the field, not another heroic scrimmage."
   - "Three late nights made me snap at bedtime - recovery was stopping at ten instead of a fourth heroic hour that hurt everyone at breakfast."
 shareable_thought:
   - "Sleep isn't laziness for me - it's the refill that keeps judgment and patience online."
   - "The sleep, rest, and downtime that refill what hard work drains - judgment, patience, attention."
-  - "Recovery is sleep, rest, and downtime that refill judgment - not laziness, maintenance."
-  - "Sleep refills judgment and patience - it's maintenance, not laziness."
+  - "Skipping it doesn't show up immediately - it shows up three days later as a short fuse and bad calls."
+  - "The elite athlete's rest day isn't optional recovery - it's programmed like the workout."
 relationships:
   - type: contradicts
     wikilink: "[[Finish Strong]]"

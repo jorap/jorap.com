@@ -246,7 +246,7 @@ If my computer died tomorrow, I could clone the repo to a new machine and be wri
 
 ## What it costs me
 
-No monthly hosting bill — a big change from the old $12/month PHP plan.
+No monthly hosting bill - a big change from the old $12/month PHP plan.
 
 The only thing I actually pay for is a custom domain, about $12 a year from my registrar. Hugo, GitHub, and Cloudflare Pages handle the rest, with SSL and a global CDN included.
 

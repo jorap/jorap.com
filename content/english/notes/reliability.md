@@ -3,7 +3,7 @@ title: "Reliability"
 meta_title: "Reliability - People Trust What Repeats"
 description: "Reliability is closing loops on time often enough that people stop asking twice."
 key_concept: |
-  Others can plan around you because you close loops, hit deadlines, and show up the same way twice.
+  Small reliability compounds - the person who's five minutes early every time gets trusted with the big thing eventually.
   
   Reliability is doing what you said, when you said, often enough that others can plan around you.
   
@@ -13,7 +13,7 @@ examples:
   - "Same opener on the gate every morning - neighbors trust it without calling to check."
 shareable_thought:
   - "Reliability is closing loops on time often enough that people stop asking twice."
-  - "Others can plan around you because you close loops, hit deadlines, and show up the same way twice."
+  - "Small reliability compounds - the person who's five minutes early every time gets trusted with the big thing eventually."
   - "Reliability is doing what you said, when you said, often enough that others can plan around you."
   - "People stop chasing updates when you close loops without reminders."
 relationships:
