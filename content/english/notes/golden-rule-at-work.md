@@ -9,11 +9,11 @@ key_concept: |
 examples:
   - "My draft reply to the new team manager was technically right and needlessly harsh - I paused, asked how I'd want that correction on my worst game day, and rewrote it."
   - "The group chat pile-on about the neighbor's messy yard - I asked how I'd want feedback if my lawn looked that way, then said nothing mean."
-shareable_lines:
+shareable_thought:
   - "Treat colleagues the way you want to be treated."
   - "In email tone, credit, deadlines, and hallway gossip."
   - "It's active, not passive: do the helpful thing, don't only avoid harm."
-  - "The check is experiential."
+  - "I don't wait for them to go first."
 relationships:
   - type: alternative
     wikilink: "[[Love Your Enemies]]"

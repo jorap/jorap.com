@@ -19,7 +19,7 @@ key_concept: |
 examples:
   - "A good week at the clinic and I felt like I didn't need much from God - poor in spirit is broke before God, not the worker who nailed Friday's schedule."
   - "After a winning streak I caught myself feeling spiritually self-sufficient - Beatitudes start with poor in spirit, not the athlete who just had a perfect weekend."
-shareable_lines:
+shareable_thought:
   - "Jesus opened the Sermon on the Mount with eight blessings."
   - "A picture of who the kingdom favors."
   - "Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not the self-sufficient."

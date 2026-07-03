@@ -10,7 +10,7 @@ key_concept: |
 examples:
   - "I snapped at my kid after a week with almost no prayer - Galatians patience comes from walking by the Spirit, not forcing virtue until Friday."
   - "Cut off in traffic, my first instinct matched horn for horn - patience fruit was one breath before I became the driver I hate."
-shareable_lines:
+shareable_thought:
   - "I wait without turning brittle."
   - "The Spirit grows a slow fuse, not a countdown to snapping."
   - "A slow fuse the Spirit grows in believers - not gritted teeth until Friday or forcing through a dry prayer week (Galatians 5:22)."

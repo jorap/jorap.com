@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "The new cashier drills voids and returns ten times, not the whole shift on autopilot - feedback, correction, repeat on what breaks."
   - "My kid's recital died in the bridges between songs - deliberate practice was running only those transitions ten times; the rest she already knew."
-shareable_lines:
+shareable_thought:
   - "I train the weak slice on purpose."
   - "Feedback, correction, repeat - not the part I already nail."
   - "Deliberate practice is focused reps on the part that breaks - not mindless repetition of what already works."

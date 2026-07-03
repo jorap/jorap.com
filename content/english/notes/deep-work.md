@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "Phone in the drawer while I help with math - one problem set actually finished instead of three distracted false starts."
   - "Phone in the gym bag for ninety minutes - one drill breakdown written that'd been \"almost done\" for weeks."
-shareable_lines:
+shareable_thought:
   - "I protect uninterrupted blocks for hard thinking and let capture catch what tries to interrupt."
   - "Protected focus blocks; Capture handles the rest."
   - "Hard thinking earns a protected block."

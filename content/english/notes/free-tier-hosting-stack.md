@@ -17,11 +17,11 @@ key_concept: |
 examples:
   - "Twelve client sites on one free account - hit 500 builds mid-month and Friday deploys started queuing."
   - "Build failed until Hugo was pinned - env var on every new project template now, and that failure still counted against the cap."
-shareable_lines:
+shareable_thought:
   - "Hugo, GitHub, and Cloudflare Pages ship static sites for $0."
   - "Until build caps, queues, or account limits bite."
-  - "Static bandwidth is unmetered."
-  - "That part is genuinely generous."
+  - "Free tier is not unlimited."
+  - "Static bandwidth is unmetered - that part is genuinely generous."
 relationships:
   - type: contradicts
     wikilink: "[[Building a Personal API]]"

@@ -11,7 +11,7 @@ key_concept: |
 examples:
   - "The menu went live with one typo fixed after service - customers ate tonight."
   - "We ran the new play ugly in scrimmage instead of drilling it another month."
-shareable_lines:
+shareable_thought:
   - "I push the good-enough version live instead of polishing until the deadline owns me."
   - "Publish the good-enough version instead of polishing forever."
   - "Freelance parallel: Selling Static Sites - ship the first client site before the three-tier pricing PDF exists."

@@ -8,11 +8,13 @@ key_concept: |
   One topic in, one atomic note out - same shape as the rest of the garden.
   
   The prompt picks an improvement principle, one standup-sized claim, then actionable examples.
-shareable_lines:
-  - "Enter a topic."
+  
+  One topic in, one atomic note out - same garden shape every time.
+shareable_thought:
   - "The prompt finds improvement principles, picks one atomic claim, and asks for actionable examples in garden format."
-  - "One topic in, one atomic note out."
-  - "Same shape as the rest of the garden."
+  - "One topic in, one atomic note out - same shape as the rest of the garden."
+  - "The prompt picks an improvement principle, one standup-sized claim, then actionable examples."
+  - "Same garden shape every time."
 slug: "create"
 date: "2026-06-22 15:00:00+00:00"
 image: "/images/note.jpg"

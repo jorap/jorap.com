@@ -11,7 +11,7 @@ key_concept: |
 examples:
   - "We almost threw the inbounds pass on the wrong side of the line because two hash marks looked identical - the second read of the court map caught it."
   - "A nurse almost gave the wrong dose because two bags looked identical - the second read of the label caught it before it left her hands."
-shareable_lines:
+shareable_thought:
   - "I catch the typo and the edge case before they turn into an incident or a dumb customer email."
   - "Attention to detail is catching the typo, edge case, and loose end before they become incidents."
   - "Small misses compound into incidents when nobody catches them early."

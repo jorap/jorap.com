@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Key_concept expansions + four distinct principle-only shareable_lines."""
+"""Key_concept expansions + four distinct principle-only shareable_thought."""
 
 from __future__ import annotations
 
@@ -322,8 +322,8 @@ def _pad_to_four(lines: list[str], fm: dict) -> list[str]:
             return merged[:4]
     import importlib
 
-    seed = importlib.import_module("seed-note-shareable-lines")
-    for line in seed.draft_shareable_lines(fm):
+    seed = importlib.import_module("seed-note-shareable-thought")
+    for line in seed.draft_shareable_thought(fm):
         if any(shareable_lines_overlap(line, x) for x in merged):
             continue
         merged.append(line)
@@ -344,7 +344,7 @@ def main() -> int:
         if path.name in KEY_PATCHES:
             fm["key_concept"] = KEY_PATCHES[path.name]
         if path.name in SHAREABLE:
-            fm["shareable_lines"] = _pad_to_four(SHAREABLE[path.name], fm)
+            fm["shareable_thought"] = _pad_to_four(SHAREABLE[path.name], fm)
         new_text = f"---\n{dump_frontmatter(fm)}\n---{body}"
         if new_text != text:
             path.write_text(new_text, encoding="utf-8")

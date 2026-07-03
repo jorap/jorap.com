@@ -9,11 +9,11 @@ key_concept: |
 examples:
   - "A teammate kept trash-talking our own bench - I pulled him aside: \"Ride the refs if you want; don't go at our guys. That stops now.\" Same team, clear line."
   - "A client kept calling my personal cell after hours - \"I'll answer until six on this number; after that use the office line.\" No drama, no apology tour."
-shareable_lines:
+shareable_thought:
   - "A calm boundary is one clear limit on behavior, named steady - not a character attack."
-  - "Limit the behavior."
   - "Keep the person."
   - "One clear line in a steady voice."
+  - "\"that stops now\" on the act, not a character attack."
 relationships:
   - type: contradicts
     wikilink: "[[Follow Their Lead]]"

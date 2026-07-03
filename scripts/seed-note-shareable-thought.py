@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Draft or verify shareable_lines frontmatter on garden notes (4 lines, max 130 chars)."""
+"""Draft or verify shareable_thought frontmatter on garden notes (4 lines, max 130 chars)."""
 
 from __future__ import annotations
 
@@ -12,10 +12,12 @@ import yaml
 from notes_content import (
     dump_frontmatter,
     ensure_terminal_punct,
+    gets_point_across,
     is_complete_shareable_line,
     shareable_lines_overlap,
     split_frontmatter,
     _looks_like_title_fragment,
+    INCOMPLETE_SPLIT_HEAD,
 )
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -41,7 +43,7 @@ def lines_overlap(a: str, b: str) -> bool:
 def pick_distinct(candidates: list[str], count: int = LINE_COUNT) -> list[str]:
     picked: list[str] = []
     for line in candidates:
-        if not is_complete_shareable_line(line):
+        if not gets_point_across(line):
             continue
         if any(lines_overlap(line, existing) for existing in picked):
             continue
@@ -108,6 +110,8 @@ def _contrast_halves(sentence: str) -> list[str]:
         head, tail = clean_raw(head), clean_raw(tail)
         if not head or not tail:
             continue
+        if INCOMPLETE_SPLIT_HEAD.search(head):
+            return []
         head_c = clamp(head)
         if not head_c or not is_complete_shareable_line(head_c):
             continue
@@ -121,11 +125,13 @@ def _contrast_halves(sentence: str) -> list[str]:
         if not tail_text.endswith((".", "!", "?")):
             tail_text += "."
         tail_c = clamp(tail_text)
-        if not tail_c or not is_complete_shareable_line(tail_c):
+        if not tail_c or not gets_point_across(tail_c):
             continue
         if lines_overlap(head_c, tail_c):
-            return [head_c]
-        return [head_c, tail_c]
+            return [head_c] if gets_point_across(head_c) else []
+        if gets_point_across(head_c) and gets_point_across(tail_c):
+            return [head_c, tail_c]
+        return [clamp(sentence)] if gets_point_across(clamp(sentence)) else []
     return []
 
 
@@ -141,6 +147,8 @@ def _candidates_from_text(text: str, *, min_len: int = 12) -> list[str]:
         if not line or len(line) < min_len or line in seen:
             return
         if META_SKIP.match(line):
+            return
+        if not gets_point_across(line):
             return
         if "when the opposite frame fits" in line.lower():
             return
@@ -169,7 +177,7 @@ def _candidates_from_text(text: str, *, min_len: int = 12) -> list[str]:
     return out
 
 
-def draft_shareable_lines(fm: dict) -> list[str]:
+def draft_shareable_thought(fm: dict) -> list[str]:
     """Four distinct quotable lines from description + key_concept only (no examples)."""
     tier_desc: list[str] = []
     tier_key: list[str] = []
@@ -202,37 +210,39 @@ def draft_shareable_lines(fm: dict) -> list[str]:
     return pick_distinct(tier_desc + tier_key + tier_contrast)[:LINE_COUNT]
 
 
-def lint_shareable_lines(path: Path, fm: dict) -> list[str]:
+def lint_shareable_thought(path: Path, fm: dict) -> list[str]:
     if path.name in SKIP:
         return []
-    lines = fm.get("shareable_lines")
+    lines = fm.get("shareable_thought")
     if not isinstance(lines, list) or len(lines) != LINE_COUNT:
-        return [f"FAIL shareable_lines need {LINE_COUNT} items: {path.name}"]
+        return [f"FAIL shareable_thought need {LINE_COUNT} items: {path.name}"]
     errs: list[str] = []
     for i, line in enumerate(lines):
         if not isinstance(line, str) or not line.strip():
-            errs.append(f"FAIL shareable_lines[{i}] empty: {path.name}")
+            errs.append(f"FAIL shareable_thought[{i}] empty: {path.name}")
             continue
         if len(line) > MAX_LINE:
-            errs.append(f"FAIL shareable_lines[{i}] {len(line)} chars (max {MAX_LINE}): {path.name}")
+            errs.append(f"FAIL shareable_thought[{i}] {len(line)} chars (max {MAX_LINE}): {path.name}")
         if "[[" in line:
-            errs.append(f"FAIL wikilink in shareable_lines[{i}]: {path.name}")
+            errs.append(f"FAIL wikilink in shareable_thought[{i}]: {path.name}")
         if not is_complete_shareable_line(line):
-            errs.append(f"FAIL shareable_lines[{i}] fragment: {path.name}")
+            errs.append(f"FAIL shareable_thought[{i}] fragment: {path.name}")
+        if not gets_point_across(line):
+            errs.append(f"FAIL shareable_thought[{i}] weak: {path.name}")
     for i in range(len(lines)):
         for j in range(i + 1, len(lines)):
             if isinstance(lines[i], str) and isinstance(lines[j], str) and lines_overlap(lines[i], lines[j]):
-                errs.append(f"FAIL shareable_lines[{i}] overlaps [{j}]: {path.name}")
+                errs.append(f"FAIL shareable_thought[{i}] overlaps [{j}]: {path.name}")
     return errs
 
 
-def write_shareable_lines(path: Path) -> bool:
+def write_shareable_thought(path: Path) -> bool:
     text = path.read_text(encoding="utf-8")
     raw_fm, body = split_frontmatter(text)
     fm = yaml.safe_load(raw_fm) or {}
     if not isinstance(fm, dict):
         return False
-    fm["shareable_lines"] = draft_shareable_lines(fm)
+    fm["shareable_thought"] = draft_shareable_thought(fm)
     new_text = f"---\n{dump_frontmatter(fm)}\n---{body}"
     if new_text != text:
         path.write_text(new_text, encoding="utf-8")
@@ -244,16 +254,21 @@ def _self_check() -> None:
     sample = {
         "title": "Capture",
         "description": "Save what resonates into one inbox I trust - then empty it weekly.",
-        "key_concept": "Friction kills capture.\n\nOne inbox, weekly process. Resonance is the filter, not FOMO.",
+        "key_concept": (
+            "Friction kills capture.\n\n"
+            "One inbox, phone to desktop, weekly process - same as The Trusted Inbox. "
+            "If I wouldn't act on it or cite it later, it doesn't get saved. "
+            "Resonance is the filter, not FOMO."
+        ),
         "examples": ["Jeepney spark on a receipt - one pocket notebook, no sorting yet."],
     }
-    lines = draft_shareable_lines(sample)
+    lines = draft_shareable_thought(sample)
     assert len(lines) == 4
     assert all(len(t) <= MAX_LINE for t in lines)
     assert all("[[" not in t for t in lines)
-    assert all(is_complete_shareable_line(t) for t in lines)
+    assert all(gets_point_across(t) for t in lines)
     assert len(lines) == len(pick_distinct(lines))
-    errs = lint_shareable_lines(Path("capture.md"), {"shareable_lines": lines})
+    errs = lint_shareable_thought(Path("capture.md"), {"shareable_thought": lines})
     assert not errs
     repent = {
         "description": "Jesus' opening command: turn from self-rule and trust the good news that the kingdom is at hand.",
@@ -264,16 +279,16 @@ def _self_check() -> None:
             "then live under the King's rule in response."
         ),
     }
-    rlines = draft_shareable_lines(repent)
+    rlines = draft_shareable_thought(repent)
     assert len(rlines) == 4
-    assert all(is_complete_shareable_line(t) for t in rlines)
+    assert all(gets_point_across(t) for t in rlines)
     assert not any(t.lower().startswith("not ") for t in rlines[1:])
 
 
 def main() -> int:
     if "--self-check" in sys.argv:
         _self_check()
-        print("seed-note-shareable-lines self-check OK")
+        print("seed-note-shareable-thought self-check OK")
         return 0
 
     check_only = "--check" in sys.argv
@@ -288,21 +303,21 @@ def main() -> int:
         if not isinstance(fm, dict):
             continue
         if check_only:
-            for msg in lint_shareable_lines(path, fm):
+            for msg in lint_shareable_thought(path, fm):
                 print(msg)
                 bad += 1
             continue
-        if write_shareable_lines(path):
+        if write_shareable_thought(path):
             changed += 1
 
     if check_only:
         if bad:
-            print(f"\n{bad} shareable_lines lint issue(s)")
+            print(f"\n{bad} shareable_thought lint issue(s)")
             return 1
-        print("Note shareable_lines lint OK")
+        print("Note shareable_thought lint OK")
         return 0
 
-    print(f"Wrote shareable_lines on {changed} note(s)")
+    print(f"Wrote shareable_thought on {changed} note(s)")
     return 0
 
 

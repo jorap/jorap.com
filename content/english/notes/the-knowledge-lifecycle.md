@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "The new set play lives in \"learning\" for three weeks, graduates to \"game plan,\" then gets archived when we change offense."
   - "The school FAQ note started as a fleeting capture, got updated all semester, then moved to archive when the kid changed schools."
-shareable_lines:
+shareable_thought:
   - "Ideas move through capture, use, polish, fade, and archive in my vault."
   - "I match effort to the stage."
   - "Spend effort where the note actually is."

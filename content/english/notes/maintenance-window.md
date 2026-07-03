@@ -10,7 +10,7 @@ key_concept: |
 examples:
   - "First Sunday I swap the car fluids and rotate tires - not waiting for the check-engine light."
   - "Saturday morning is toy-bin purge and mending - not panicked cleaning when guests are at the door."
-shareable_lines:
+shareable_thought:
   - "I block garden time on the calendar so broken links don't ambush me on a random Sunday."
   - "Scheduled time to prune, fix links, and archive - not random Sunday panic."
   - "Calendar the prune before the garden rots."

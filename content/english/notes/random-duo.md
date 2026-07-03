@@ -12,11 +12,11 @@ key_concept: |
   Shuffle again when the pair doesn't spark a link worth making.
   
   Side-by-side unrelated claims surface links I forgot to make.
-shareable_lines:
+shareable_thought:
   - "Two notes from the garden, picked at random."
   - "I hit Shuffle for another pair."
-  - "Forced serendipity."
-  - "Two unrelated claims side by side so I notice links I forgot to make."
+  - "Forced serendipity - two unrelated claims side by side so I notice links I forgot to make."
+  - "Shuffle again when the pair doesn't spark a link worth making."
 slug: "random-duo"
 date: "2026-06-19 08:00:00+00:00"
 image: "/images/note.jpg"

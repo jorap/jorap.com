@@ -11,7 +11,7 @@ key_concept: |
 examples:
   - "After the equipment cart tipped they traced storage layout and weight limits, not just \"trainer was clumsy.\""
   - "After the kitchen burn they traced pan placement and stove rules, not just \"kid wasn't careful.\""
-shareable_lines:
+shareable_thought:
   - "Find system causes after a miss - not only who to blame."
   - "Blameless tone keeps investigation on system causes."
   - "Trace layout, limits, and rules - not just who was standing there when it broke."

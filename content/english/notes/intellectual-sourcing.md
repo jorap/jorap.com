@@ -11,7 +11,7 @@ key_concept: |
 examples:
   - "I taped the coach's article title under the quote in our playbook so six months later we know if the source still says what we thought."
   - "I tape the newspaper name under the quote on my kid's history project so six months later we know if the source still says what we thought."
-shareable_lines:
+shareable_thought:
   - "I cite sources in notes to trust my synthesis and find the original later."
   - "I cite sources so I can trust what I wrote and find the original six months later."
   - "Without a source, six months later I won't trust my own synthesis."

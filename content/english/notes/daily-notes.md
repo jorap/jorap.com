@@ -11,7 +11,7 @@ key_concept: |
 examples:
   - "Today's pocket slip is just fragments - pick up basketball shoes, ice after practice, call coach back - I promote one line to a real note when it repeats."
   - "Today's pocket slip is just fragments: pick up cleats, dentist Tuesday, call Mom back - I promote one line to the family calendar Sunday if it keeps showing up; the rest can fade."
-shareable_lines:
+shareable_thought:
   - "My daily note is a scratch pad for today's fragments, not a diary I expect to last forever."
   - "Daily notes are fleeting by default, with quick buffer flushes between tasks."
   - "Promote a repeating fragment to a real note; let the rest fade."

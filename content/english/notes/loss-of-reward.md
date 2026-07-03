@@ -8,7 +8,7 @@ key_concept: |
 examples:
   - "Wasted years of selfish living and terror I'm not saved - reward may burn at the judgment seat; my standing was settled when I trusted Christ."
   - "Hidden sin exposed and shame screamed heaven access revoked - confess, restore fellowship, keep walking; justification on Christ doesn't get re-opened by a bad season."
-shareable_lines:
+shareable_thought:
   - "A saved believer can still lose reward."
   - "Worthless works burn, eternal life stays secure on Christ."
   - "Paul says the builder \"will be saved, yet so as through fire\"."

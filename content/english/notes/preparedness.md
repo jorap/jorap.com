@@ -11,7 +11,7 @@ key_concept: |
 examples:
   - "We ran our inbound play every Thursday whether we needed it or not - schools run fire drills on sunny Tuesdays so kids aren't learning exits during smoke."
   - "Our restaurant ran the closing checklist on a slow Tuesday; Saturday night's rush was boring because everyone had already walked it once."
-shareable_lines:
+shareable_thought:
   - "I'd rather run the fire drill bored than improvise when the alarm is real."
   - "Rehearse, document, and test before the emergency owns the clock."
   - "Preparedness is practicing and documenting moves before you need them at full speed."

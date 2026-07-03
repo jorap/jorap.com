@@ -10,7 +10,7 @@ key_concept: |
 examples:
   - "Ten minutes of free throws every Tuesday looked pointless for months - then the percentage bent without me noticing the curve."
   - "My kid's piano practice looked pointless for a year - three songs a week, same scales, then year two the pieces started linking and suddenly she was playing music."
-shareable_lines:
+shareable_thought:
   - "Compounding is small gains stacked over time."
   - "The curve stays flat until it suddenly bends."
   - "Repeat small gains until they stack."

@@ -8,14 +8,16 @@ key_concept: |
   A project, conversation, competition, or responsibility isn't successful until the last commitment is done - not when the launch post goes up or the first lap feels fast.
   
   The last commitment closed is what makes the launch real.
+  
+  A launch only counts when the last commitment actually closes.
 examples:
   - "I cleared the table after dinner but left the pots soaking - the smell woke us at 3 a.m.; finish strong was the ten-minute scrub and trash run."
   - "We led at halftime and coasted the third quarter - finish strong was closing the last set, not celebrating after the first fast lap."
-shareable_lines:
-  - "Launch day excitement doesn't count."
-  - "I judge success by whether the last commitment actually got done."
+shareable_thought:
+  - "Launch day excitement doesn't count - I judge success by whether the last commitment actually got done."
   - "Starting well proves you can begin; finishing well proves you can keep going when it's boring, hard, or no longer exciting."
   - "The last commitment closed is what makes the launch real."
+  - "A launch only counts when the last commitment actually closes."
 relationships:
   - type: alternative
     wikilink: "[[Minimum Viable Product]]"

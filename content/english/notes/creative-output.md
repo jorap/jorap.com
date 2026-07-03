@@ -6,14 +6,18 @@ key_concept: |
   Notes are inventory.
   
   Output is the point - ship posts, sermons, code on a deadline, in distraction-free focus.
+  
+  Posts, sermons, code, and dinner experiments are the point - notes are just inventory.
+  
+  Ship on a deadline in distraction-free focus - that's when notes pay off.
 examples:
   - "Friday film day means everyone shows one clip, rough or not - I do the same with my note pile, three sparks become one finished piece even if the cut is rough."
   - "We don't wait for perfect dinner photos - we ship the meal and fix the recipe next time; hearing the idea isn't doing it."
-shareable_lines:
+shareable_thought:
   - "Notes are inventory for me."
   - "Posts, sermons, code, and dinner experiments are the point."
-  - "Output is the point."
-  - "Ship posts, sermons, code on a deadline, in distraction-free focus."
+  - "Output is the point - ship posts, sermons, code on a deadline, in distraction-free focus."
+  - "Ship on a deadline in distraction-free focus."
 relationships:
   - type: alternative
     wikilink: "[[Minimum Viable Product]]"

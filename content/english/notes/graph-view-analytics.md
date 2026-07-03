@@ -11,7 +11,7 @@ key_concept: |
 examples:
   - "I laid out the shift-change chart and three tasks had zero arrows to an owner - the orphan list was my fix-this-week, not a pretty poster."
   - "I laid out the kids' chore chart and three jobs had zero arrows to anything else - nobody knew who checked them; that gap list was my fix-this-week."
-shareable_lines:
+shareable_thought:
   - "Graph view analytics reads my link map for orphans, over-connected hubs, and gaps I'd forgotten."
   - "The link map shows notes with no links, notes with too many, and gaps I forgot to connect."
   - "Orphan notes and over-linked hubs both signal a graph that needs pruning."

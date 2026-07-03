@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "A family recipe card keeps the ratios, not last year's trendy garnish - I rewrite when life changes how I cook, not when a feed gets excited about a new trick."
   - "My free-throw note keeps the release point and follow-through - not last week's trending drill tip I'd regret next season."
-shareable_lines:
+shareable_thought:
   - "I phrase ideas I'd still stand behind in two years and revise when reality shifts, not when a trend spikes."
   - "I write in complete sentences I'd still stand behind in two years."
   - "Revise when tools change, not when trends spike."

@@ -9,11 +9,11 @@ key_concept: |
 examples:
   - "I snapped at my kid over a spilled cup after a brutal week; at breakfast it would've been two calm sentences - she wasn't the problem, I was."
   - "After three nights of bad sleep I almost sent a sharp email to a neighbor - I waited until morning and the whole thread looked different."
-shareable_lines:
+shareable_thought:
   - "I protect sleep and recovery because tired me makes worse calls than rested me on the same facts."
   - "Fatigue hits more than muscles."
   - "It weakens patience, attention, restraint, and the quality of calls you make."
-  - "Rest, prep, workload limits, and recovery aren't soft extras."
+  - "Rest, prep, workload limits, and recovery aren't soft extras - they're part of performing responsibly under pressure."
 relationships:
   - type: contradicts
     wikilink: "[[The 12 Week Year]]"

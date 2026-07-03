@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "I took the longer route with an exit every mile before trying the new shortcut through construction."
   - "Try the new play in scrimmage before running it in the championship - reversible rehearsal, higher bar for the irreversible call."
-shareable_lines:
+shareable_thought:
   - "Prefer choices you can undo."
   - "Irreversible harm needs a higher bar."
   - "Concrete undo path when the choice is a deploy or release."

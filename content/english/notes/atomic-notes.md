@@ -10,7 +10,7 @@ key_concept: |
 examples:
   - "\"Why my basketball shoes live by the door\" is one claim - I'd say it alone at carpool."
   - "\"Where we meet if the elevator is out\" is one claim; \"elevator outage and parking-gate codes\" is two - split and wikilink."
-shareable_lines:
+shareable_thought:
   - "If a note needs three ands to make its point, I split it before I link it."
   - "One claim I'd say out loud."
   - "Too many ands, split it."

@@ -8,11 +8,11 @@ key_concept: |
 examples:
   - "Correction with my kid turned sharp - volume up, gentleness gone - Galatians gentleness is strength under control, not force."
   - "I helped a neighbor move and waited for credit in the group chat - gentleness fruit serves without grasping for status."
-shareable_lines:
+shareable_thought:
   - "Gentleness fruit is strength held back on purpose, not weakness or loud correction that skips love."
   - "Fruits of the Spirit lists gentleness beside patience and self-control."
   - "Power restrained, not power absent. (Galatians 5:22)."
-  - "Listen Before Fixing is gentleness in conversation."
+  - "The Beatitudes bless the meek."
 relationships:
   - type: alternative
     wikilink: "[[Self-Control]]"

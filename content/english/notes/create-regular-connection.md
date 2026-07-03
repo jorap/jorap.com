@@ -6,7 +6,7 @@ key_concept: I pick one simple connection habit and repeat it - trust grows in t
 examples:
   - "I block fifteen minutes after standup to walk with one teammate - not a performance review, just the same loop every Tuesday."
   - "My parents and I call every Sunday after lunch - same window, even when there's nothing big to report. The habit carries the closeness."
-shareable_lines:
+shareable_thought:
   - "Connection grows from small repeated rituals."
   - "One walk, one check-in - not one big gesture after a dry month."
   - "I pick one simple connection habit and repeat it."

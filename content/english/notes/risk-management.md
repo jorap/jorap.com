@@ -11,7 +11,7 @@ key_concept: |
 examples:
   - "We moved the space heater off the rug before lecturing the kids again about not touching it."
   - "We moved the hot oil station away from the walk lane before buying more warning signs."
-shareable_lines:
+shareable_thought:
   - "Name what can go wrong, how likely, how bad - then choose controls in order of strength."
   - "Named rollback is a control layer before irreversible harm."
   - "Staged Rollout names limit exposure before you bet the whole lane."

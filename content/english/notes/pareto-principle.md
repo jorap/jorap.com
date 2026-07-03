@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "The kids' activity list had six things and we skipped three nights - I trimmed to basketball and piano and we actually showed up."
   - "My reading pile had forty tabs - the five that moved work got Sunday morning, the rest got deleted."
-shareable_lines:
+shareable_thought:
   - "The Pareto principle is the 80/20 rule."
   - "Most results come from a small slice of effort."
   - "Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand, not a law)."

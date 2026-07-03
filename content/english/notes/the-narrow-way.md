@@ -10,7 +10,7 @@ key_concept: |
 examples:
   - "Group chat gossip was \"just joking\" - narrow way was not forwarding the screenshot even when staying out made me the odd one."
   - "Everyone cheered the dirty play that won - the narrow way was passing it up when the ref didn't see, even alone on the bench."
-shareable_lines:
+shareable_thought:
   - "The road to life is narrow and hard."
   - "The easy broad path is the one I'd drift onto."
   - "Enter by the narrow gate."

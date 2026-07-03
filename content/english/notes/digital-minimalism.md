@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "We dropped the second gym bag and the backup jump rope - fewer things means I actually know where the one working pair of shoes lives."
   - "The front desk runs one scheduling app, not four - fewer sync layers means fewer places patient reminders get lost."
-shareable_lines:
+shareable_thought:
   - "My notes got sharper when I dropped extra apps, sync layers, and notifications I wasn't really using."
   - "Every new app is a pipe I have to babysit."
   - "I cut capture paths and sync layers until I hit Minimum Effective Dose."

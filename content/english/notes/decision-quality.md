@@ -11,7 +11,7 @@ key_concept: |
 examples:
   - "Signing a year-long club fee on one trial session is how people miss the schedule clash - decision quality was one call to a current member before we paid."
   - "We almost picked the school on one sunny open house - one neighbor call about the flood-prone pickup lane changed our call before we signed."
-shareable_lines:
+shareable_thought:
   - "I judge choices by whether they hold after sleep, new facts, and the real bill - not the meeting high."
   - "Decision quality is how often your choices hold up after information, time, and energy are factored in."
   - "A choice that only looks good in the meeting room is not a quality decision."

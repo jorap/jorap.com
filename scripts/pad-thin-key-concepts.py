@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Add principle sentences to key_concept when shareable_lines cannot reach four."""
+"""Add principle sentences to key_concept when shareable_thought cannot reach four."""
 
 from __future__ import annotations
 
@@ -72,6 +72,29 @@ KEY_PAD_EXTRA: dict[str, str] = {
     "great-commission.md": "Go, baptize, teach obedience - under Christ's authority, not recruitment zeal.",
     "process-over-outcomes.md": "Protect the routine you can rerun when motivation dips.",
     "ship-it.md": "Good enough shipped beats perfect still sitting in drafts.",
+    "active-knowledge-curation.md": "Unread saves rot until I prune monthly and wire what I'd actually recommend.",
+    "analog-capture-tools.md": "When screens are banned or batteries die, paper still lands in the same inbox.",
+    "behavioral-economics.md": "Defaults and friction steer choices more than lectures ever do.",
+    "by-their-fruits.md": "Evaluate teaching by what it produces over time, not by polish on stage.",
+    "composure.md": "Stay readable and deliberate when others speed up or heat up.",
+    "control-the-rhythm.md": "Urgency is real - I still choose the pace I work at.",
+    "create.md": "One topic in, one atomic note out - same garden shape every time.",
+    "digital-serendipity.md": "I link notes on purpose so old ideas surprise me on schedule.",
+    "finish-strong.md": "A launch only counts when the last commitment actually closes.",
+    "leadership.md": "Own direction, pace, and care when people look to you - title optional.",
+    "safety-comes-first.md": "Stop serious harm first, then restore choice when the situation is stable.",
+    "creative-output.md": "Posts, sermons, code, and dinner experiments are the point - notes are just inventory.",
+    "duty-of-care.md": "Owe people the protection you'd want if roles flipped - not the handbook minimum.",
+    "follow-their-lead.md": "Join their topic, pace, and starting point before you try to steer.",
+    "follow-through.md": "After yes comes recap, owners, dates, and checking it actually landed.",
+    "habit-stacking.md": "One anchor habit already on autopilot, one tiny add-on - not a whole new routine.",
+    "issues.md": "Broken wikilinks and unlinked note titles are graph hygiene problems to fix.",
+    "lean-startup.md": "Ship a rough test and learn before you polish a product nobody wanted.",
+    "life-before-achievement.md": "Human life comes before the championship or the reputation for toughness.",
+    "metadata-strategy.md": "Tags should help me find notes, not become a second job.",
+    "recovery.md": "Sleep refills judgment and patience - it's maintenance, not laziness.",
+    "signal-vs-noise.md": "If it won't change what I do or believe this month, it's noise.",
+    "stay-effective-in-new-conditions.md": "Retune the habit when the room changes - don't cling to what used to work.",
 }
 
 DESCRIPTION_FIX: dict[str, str] = {

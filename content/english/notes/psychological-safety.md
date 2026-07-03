@@ -11,7 +11,7 @@ key_concept: |
 examples:
   - "My kid told me he broke the vase - I thanked him for saying it instead of making him dread confessing next time."
   - "I named the wrong turn to my carpool - nobody mocked it, so I speak up before the next missed exit."
-shareable_lines:
+shareable_thought:
   - "People can name mistakes and near-misses without fear of humiliation or retaliation."
   - "Join their framing before you redirect the blame."
   - "Thank the person for speaking up."

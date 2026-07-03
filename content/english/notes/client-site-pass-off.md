@@ -13,11 +13,11 @@ key_concept: |
 examples:
   - "Neighbor chose Git lesson - twenty minutes on edit, commit, push; she broke build once, fixed typo same night."
   - "Pastor emails bulletin PDF every Friday - retainer batch, one push, no CMS layer needed."
-shareable_lines:
+shareable_thought:
   - "Before deposit, I name who publishes next and price the pass-off so launch isn't a guessing game."
   - "Pick exactly one primary model with Plain Commitments at Work - not \"we'll figure it out at launch.\"."
-  - "Showroom branch."
-  - "The Garage Concept: my experiments stay off their deploy branch; what they see is clean.main only."
+  - "Git lesson - client gets repo access plus a short doc (Getting Started shape: edit markdown, commit, push)."
+  - "Fits owners who want control and won't panic at a terminal."
 relationships:
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"

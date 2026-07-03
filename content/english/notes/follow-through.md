@@ -6,14 +6,16 @@ key_concept: |
   The work after the handshake - recap, owners, dates, verification.
   
   Follow-through is everything that happens after you said yes - the recap, the ticket, the check-in.
+  
+  After yes comes recap, owners, dates, and checking it actually landed.
 examples:
   - "\"I'll look into it\" without a date is how school projects die after the group chat goes quiet - follow-through is the recap with owners and dates before anyone leaves the parking lot."
   - "The captain said \"we'll fix the rotation\" without naming who covers which shift - follow-through was the recap with owners and dates before anyone left the gym."
-shareable_lines:
+shareable_thought:
   - "Saying yes is cheap; follow-through is recap, owners, dates, and checking it actually landed."
-  - "The work after the handshake."
-  - "Recap, owners, dates, verification."
-  - "Follow-through is everything that happens after you said yes."
+  - "The work after the handshake - recap, owners, dates, verification."
+  - "Follow-through is everything that happens after you said yes - the recap, the ticket, the check-in."
+  - "After yes comes recap, owners, dates, and checking it actually landed."
 relationships:
   - type: contradicts
     wikilink: "[[Forgiveness at Work]]"

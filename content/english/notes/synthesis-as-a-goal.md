@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "Three coaches' clips on our press sat in my folder until I merged them into one drill we actually ran Tuesday."
   - "Five parenting articles became one rule on the fridge - merged into what we believe about screens, not a quote collection."
-shareable_lines:
+shareable_thought:
   - "I merge sources into what I believe and can defend."
   - "A quote pile isn't the goal."
   - "Collecting quotes isn't PKM for me."

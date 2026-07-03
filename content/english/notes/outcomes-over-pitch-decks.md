@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "The trainer's Instagram was polished - I asked two parents who finished the program about injuries and consistency."
   - "The contractor's portfolio was gorgeous - I asked two neighbors who lived through the remodel about permit fights and cracked tile."
-shareable_lines:
+shareable_thought:
   - "Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura."
   - "Smooth talkers ship thorns sometimes."
   - "On Static Site Client Scope, same filter: pick WordPress or Shopify when the fruit requires it."

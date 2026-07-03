@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "A coworker quoted James like you need faith plus works to get in - one sentence: works prove faith is real; they don't buy the door Christ already opened."
   - "Confident I'm saved but the same selfish pattern untouched - James isn't saying try harder to earn heaven; he's asking where the fruit is."
-shareable_lines:
+shareable_thought:
   - "Faith alone saves me."
   - "Works show it's alive, they don't buy heaven."
   - "Paul and James aren't two gospels fighting."

@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "Voice memo in the parking lot after the meeting - context was still in my head."
   - "Photo of the whiteboard before they erased it - capture matched where the idea lived."
-shareable_lines:
+shareable_thought:
   - "A saved link is a mystery six weeks later unless I jot the why while I still remember it."
   - "Capture the why while I still remember it."
   - "Project, mood, question - not just the link."

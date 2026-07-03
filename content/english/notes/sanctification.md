@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "I knew the verse on anger and still lost it at dinner - sanctification is slow; my standing was settled at faith, and I'm still being changed."
   - "I treated my quiet-time streak like proof God accepts me - faith saves; sanctification grows me after, it doesn't re-open the verdict."
-shareable_lines:
+shareable_thought:
   - "After God declares me righteous, he keeps shaping my habits and heart."
   - "Growth, not the ticket in."
   - "Free Grace settles where I spend forever."

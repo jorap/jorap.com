@@ -9,11 +9,11 @@ key_concept: |
 examples:
   - "Cloudflare preview branch caught the broken layout before main - rollback was not touching production."
   - "New inbound play ran in scrimmage Tuesday before Friday's game - point guard reverted to last week's call at halftime without reinventing."
-shareable_lines:
+shareable_thought:
   - "I ship to a small slice first so rollback stays cheap if the new state bleeds."
   - "Full-blast deploy turns every user into a test subject."
-  - "Staged rollout."
-  - "Preview branch, one table section, scrimmage Tuesday - keeps Reversibility real."
+  - "Staged rollout - preview branch, one table section, scrimmage Tuesday - keeps Reversibility real."
+  - "Safety by Design at release time: harm hits fewer people before you commit the whole lane."
 relationships:
   - type: alternative
     wikilink: "[[Preparedness]]"

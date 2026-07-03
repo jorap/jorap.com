@@ -10,7 +10,7 @@ key_concept: |
 examples:
   - "I wrote one paragraph on the coach's chapter about zone defense, not yellow highlights on every page."
   - "The PTA recap was what I actually remembered from the meeting, not a transcript of every speaker."
-shareable_lines:
+shareable_thought:
   - "After I read a source, I write what stuck in my own words - not a pile of copied highlights."
   - "Notes about a source in your own words - not a highlight dump."
   - "Source notes stay tied to the book or talk."

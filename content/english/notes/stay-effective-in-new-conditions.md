@@ -6,14 +6,16 @@ key_concept: |
   What made you strong in one room can make you weak in the next.
   
   Real competence means staying useful outside ideal setups, familiar roles, and comfortable routines - new tools, new teams, crisis mode, career pivots.
+  
+  Retune the habit when the room changes - don't cling to what used to work.
 examples:
   - "I walked the new counter before the lunch rush instead of defending last month's habits when the line got long."
   - "Our guard dominates on the outdoor court and looks lost on the slick indoor floor for a week - staying effective means adjusting footwork, not defending yesterday's surface."
-shareable_lines:
+shareable_thought:
   - "The habit that worked in my last role can flop in the next room."
   - "I retune instead of clinging."
   - "What made you strong in one room can make you weak in the next."
-  - "Real competence means staying useful outside ideal setups, familiar roles, and comfortable routines."
+  - "Retune the habit when the room changes."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

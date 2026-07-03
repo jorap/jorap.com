@@ -10,7 +10,7 @@ key_concept: |
 examples:
   - "I saved forty highlight reels and watched twelve - the queue was guilt storage, not training."
   - "Four hundred saved articles on my phone and I'd read twelve - parking lot, not reading."
-shareable_lines:
+shareable_thought:
   - "Save for later is fine until the queue turns into a guilt pile I'll never touch."
   - "A parking lot for links you'll process later."
   - "Dangerous if it becomes a graveyard."

@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "Grace clear in my head and zero change in how I treated people at the front desk - grateful obedience means doing what Jesus said today, not waiting until I feel holy enough."
   - "I obeyed all week to feel saved again after snapping at my kid - wrong motive; grace already saved me; obedience answers with thanks."
-shareable_lines:
+shareable_thought:
   - "I obey today because Christ already saved me, not to buy or re-earn eternal life."
   - "Discipleship is the daily walk; Sanctification is slow becoming."
   - "Fruits of the Spirit is what shows up when the posture is real."

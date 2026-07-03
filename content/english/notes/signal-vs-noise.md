@@ -6,14 +6,16 @@ key_concept: |
   I save only what changes what I do or believe this month - most content is noise.
   
   If it won't change action or belief this month, it's noise.
+  
+  If it won't change what I do or believe this month, it's noise.
 examples:
   - "The trade-rumor thread was loud all week - signal was the one injury note that actually changed our lineup; the rest I admired and skipped."
   - "The dentist waiting room had a stack of magazines - if it won't change what I do this month, headline only, no mental slot."
-shareable_lines:
-  - "I save only what changes what I do or believe this month."
-  - "Most feeds are noise."
-  - "Most content is noise."
+shareable_thought:
+  - "I save only what changes what I do or believe this month - most feeds are noise."
+  - "I save only what changes what I do or believe this month - most content is noise."
   - "If it won't change action or belief this month, it's noise."
+  - "If it won't change what I do or believe this month, it's noise."
 relationships:
   - type: alternative
     wikilink: "[[Active Knowledge Curation]]"

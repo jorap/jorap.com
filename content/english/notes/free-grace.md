@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "A teammate listed every good deed this month like it was his ticket to heaven - I trust Christ's promise for eternal life, not my report card from the season."
   - "A friend at coffee listed every good thing he'd done this month like it was his ticket to heaven - I didn't argue; I just said I trust Christ's promise, not my report card."
-shareable_lines:
+shareable_thought:
   - "Eternal life is Christ's gift received by faith alone, not wages for commandments, principles, or good works."
   - "Grace is a gift I never earned."
   - "Unmerited favor (Ephesians 2:8-9; John 3:16; Romans 4:5)."

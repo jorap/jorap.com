@@ -10,11 +10,11 @@ key_concept: |
 examples:
   - "Match day adrenaline isn't the same as opening my Bible on Thursday - whole-person love means I feed at least one faculty today."
   - "Sunday worship felt high but I hadn't opened my Bible since last week - loving God means more than one hour in a pew."
-shareable_lines:
-  - "First command, whole self."
-  - "Heart, mind, strength, not a corner of Sunday morning."
+shareable_thought:
+  - "First command, whole self - heart, mind, strength, not a corner of Sunday morning."
   - "The greatest commandment Jesus named: love the Lord with all your heart, soul, mind, and strength (Matthew 22:37-38)."
   - "When a scribe asked which commandment was first, Jesus quoted Deuteronomy 6:5."
+  - "Whole-person devotion, not a corner of the week."
 relationships:
   - type: contradicts
     wikilink: "[[Don't Worry]]"

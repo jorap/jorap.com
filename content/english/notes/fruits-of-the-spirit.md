@@ -22,7 +22,7 @@ key_concept: |
 examples:
   - "I snapped at my kid after a week with almost no prayer and wondered why patience vanished - Galatians fruit comes from walking by the Spirit, not forcing virtue until Friday."
   - "Performing joy at church while empty at home told me I was manufacturing fruit - abiding first, then the cluster grows."
-shareable_lines:
+shareable_thought:
   - "Love through self-control is one Spirit-grown cluster in believers, not a merit checklist that buys heaven."
   - "One cluster the Spirit grows."
   - "Love, joy, peace, patience, and the rest in Galatians 5. (Galatians 5:22-23)."

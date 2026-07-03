@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "A parent emailed the principal with a snarky line about our field trip delay - I deleted my matching draft, answered the fact, offered the new date, and broke the reply-all war before it started."
   - "My kid snapped first at dinner and I almost matched the volume - I named what happened, lowered my voice, and refused to pour fuel on it."
-shareable_lines:
+shareable_thought:
   - "Break the escalation cycle."
   - "Don't match tone for tone when a sharp email lands; stop the loop first."
   - "I just refuse to become what hurt me in the thread."

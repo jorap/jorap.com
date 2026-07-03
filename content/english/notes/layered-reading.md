@@ -9,11 +9,11 @@ key_concept: |
 examples:
   - "First pass on the coaching manual marked three sections; second pass only those got sentences in my own words."
   - "First pass marked three sections of the safety manual; second pass only those got sentences in my own words."
-shareable_lines:
-  - "I don't read a book once and pretend I absorbed it."
-  - "I pass through again when I need more."
-  - "Pass through the same source at increasing depth."
-  - "Skim, highlight, summarize."
+shareable_thought:
+  - "I don't read a book once and pretend I absorbed it - I pass through again when I need more."
+  - "Pass through the same source at increasing depth - skim, highlight, summarize."
+  - "Skim first pass, mark second, extract third."
+  - "Same book, three depths, one sitting at a time."
 relationships:
   - type: contradicts
     wikilink: "[[Spaced Repetition]]"

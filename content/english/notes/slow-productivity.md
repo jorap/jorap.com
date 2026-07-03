@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "I dropped a fourth side project to finish one book draft - depth beat breadth this quarter."
   - "One deep client build this month beat three half-started sites on the portfolio."
-shareable_lines:
+shareable_thought:
   - "Slow productivity is fewer active projects so work finishes deep instead of piling as guilt."
   - "Busy isn't the same as finished."
   - "I run fewer active projects so notes become shipped work, not a guilt backlog."

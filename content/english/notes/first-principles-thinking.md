@@ -11,7 +11,7 @@ key_concept: |
 examples:
   - "I kept quoting parenting advice from a podcast until I wrote what I actually believe about bedtime - first principles was my own claim, not someone else's quote."
   - "The HOA kept adding signs about parking until a neighbor asked why people park wrong - turns out we needed one marked loading zone, not five new rules."
-shareable_lines:
+shareable_thought:
   - "First principles thinking is rebuilding from what I actually believe, not someone else's quote."
   - "When a note is only a quote, I add what I actually believe from scratch."
   - "Rebuild the claim in your own words before you link it."

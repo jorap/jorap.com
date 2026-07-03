@@ -11,7 +11,7 @@ key_concept: |
 examples:
   - "First Sunday of the quarter we picked three outcomes - not twenty wishes that drowned the month."
   - "The clinic's ninety-day huddle moved one backlog project to done instead of adding a fourth starter."
-shareable_lines:
+shareable_thought:
   - "Set goals and review on a thirteen-week rhythm."
   - "Short enough to feel real."
   - "Zoom out every ninety days so weekly noise doesn't eat the year's aim."

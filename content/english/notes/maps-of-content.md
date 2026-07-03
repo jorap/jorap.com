@@ -9,7 +9,7 @@ key_concept: |
   Write the hub by hand when the topic sprawls past what you can hold in memory.
   
   A table of contents I write by hand beats whatever the folder tree implies.
-shareable_lines:
+shareable_thought:
   - "I write hub notes by hand when one topic spreads across too many files to hold in my head."
   - "A MOC is a curated index of notes on a topic."
   - "Write the hub by hand when the topic sprawls past what you can hold in memory."

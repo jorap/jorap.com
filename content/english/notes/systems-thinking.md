@@ -6,7 +6,7 @@ key_concept: "Systems thinking traces inputs, delays, and feedback - so you chan
 examples:
   - "We lost every third possession on turnovers - systems thinking traced it to the warmup drill, not \"focus harder tonight.\""
   - "The restaurant ran out of rice on a busy Friday - systems thinking traced it to prep checklist and par levels, not \"cook faster tonight.\""
-shareable_lines:
+shareable_thought:
   - "I trace the loop behind the fire."
   - "Inputs, delays, feedback - and fix the process, not tonight's patch."
   - "Systems thinking traces inputs, delays, and feedback."

@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "My recipe folder had forty saved dinners and we still ordered takeout three nights a week until I tied every save to one cooked meal."
   - "My folder had forty highlight reels and we still ran the same broken play - saving felt like improving; it wasn't until one clip became Tuesday's drill."
-shareable_lines:
+shareable_thought:
   - "Saving articles felt like progress until I tied every save to an express deadline or cut it."
   - "Collecting articles feels like progress."
   - "Tie saves to express deadlines or cut them."

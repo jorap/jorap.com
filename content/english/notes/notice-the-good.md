@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "After practice I told the kid who boxed out every drill: \"Your rebounds won that scrimmage - keep sealing like that.\" He knew exactly what to repeat."
   - "I emailed the intern: \"You caught the duplicate invoice before I did - that saved us a call.\" Specific beats a generic thanks slide."
-shareable_lines:
+shareable_thought:
   - "Notice the good means naming the specific helpful move so people know what to repeat."
   - "\"Good job\" teaches nothing."
   - "\"Your rebounds won that scrimmage\" teaches the rep."

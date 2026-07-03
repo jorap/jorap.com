@@ -10,11 +10,11 @@ key_concept: |
 examples:
   - "Coach's old basketball playbook of sets and halftime talks - same job as my [[Capture]] file, paper instead of wikilinks."
   - "Grandpa's notebook of sermon lines and recipes - quotes worth keeping before anyone had a [[digital garden]]."
-shareable_lines:
+shareable_thought:
   - "Before linked notes, I kept quotes and ideas in one book I'd actually reopen."
-  - "A personal book of quotes and ideas worth keeping."
-  - "Ancestor of linked notes."
+  - "A personal book of quotes and ideas worth keeping - ancestor of linked notes."
   - "A personal quote bank beats rereading whole books when you need one line in conversation."
+  - "Literature Notes feed the bank; Layered Reading distills before filing."
 relationships:
   - type: contradicts
     wikilink: "[[Digital Minimalism]]"

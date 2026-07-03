@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "I offered extra screen time for chores and my kid negotiated harder tasks by day three - I should've asked what happens after they adapt, not only rehearsed the opening bribe."
   - "A restaurant drops lunch prices and the place across the street matches by Friday - the first move isn't the game; we built regulars before the copy arrived."
-shareable_lines:
+shareable_thought:
   - "I plan what happens after the other side adapts, not just how my opening move looks on paper."
   - "The opening move isn't the game."
   - "I rehearse what happens after they adapt."

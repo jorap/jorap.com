@@ -13,7 +13,7 @@ key_concept: |
 examples:
   - "I sent the wrong attachment and named it in the reply thread before anyone else had to."
   - "The point guard called the bad pass out loud in the huddle - next play trusted faster."
-shareable_lines:
+shareable_thought:
   - "Owning the error is naming the miss clearly so failure becomes information, not blame theater."
   - "Accountability turns failure into information."
   - "Name the miss clearly so the team learns from it - not from blame theater."

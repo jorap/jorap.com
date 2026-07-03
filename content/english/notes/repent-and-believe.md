@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "I kept telling myself I'd trust the coach's system once my form looked respectable - repent and believe is the door you walk through today, messy as you are."
   - "I kept telling myself I'd trust Jesus once my habits looked respectable - it's not a finish line when you're fixed."
-shareable_lines:
+shareable_thought:
   - "Jesus' opening command: turn from self-rule and trust the good news that the kingdom is at hand."
   - "Repentance is a change of mind and direction - not a down payment on salvation."
   - "Belief is reliance on Christ's promise, not mere intellectual agreement."

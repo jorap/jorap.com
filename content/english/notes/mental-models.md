@@ -11,7 +11,7 @@ key_concept: |
 examples:
   - "The restaurant had twelve menu tweaks on the whiteboard - I picked the two that actually cut ticket times and shelved the rest."
   - "Waze showed four commute routes - I stuck to the one that saves gas on the Tuesday school run, not the scenic detour."
-shareable_lines:
+shareable_thought:
   - "Mental models are thinking shortcuts I keep when they survive real decisions."
   - "Mainstream mental models for decisions and performance."
   - "Note the ones that earn repeat use."

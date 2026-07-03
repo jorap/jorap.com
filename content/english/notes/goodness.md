@@ -8,7 +8,7 @@ key_concept: |
 examples:
   - "I brought extra water for the whole bench and almost posted about it - goodness fruit shines so someone thinks God is real, not so my brand grows."
   - "I covered a coworker's shift quietly and almost made it a LinkedIn moment - let the Father get credit, not my personal brand."
-shareable_lines:
+shareable_thought:
   - "Goodness fruit is upright action that points to God, not hidden virtue or good deeds performed for applause."
   - "Fruits of the Spirit pairs goodness with kindness."
   - "Outward integrity that points to God, not a personal brand. (Galatians 5:22)."

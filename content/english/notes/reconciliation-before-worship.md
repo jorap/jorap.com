@@ -8,7 +8,7 @@ key_concept: |
 examples:
   - "I warmed up ready to compete while my teammate still had something against me from Wednesday - fix it courtside, then play."
   - "I walked into the volunteer shift ready to serve while my co-worker still had something against me - five minutes in the parking lot first."
-shareable_lines:
+shareable_thought:
   - "If your brother has something against you, go reconcile first - then come offer your gift."
   - "The initiative is on the one who knows there's a breach."
   - "Leave the altar, go, be reconciled, then return."

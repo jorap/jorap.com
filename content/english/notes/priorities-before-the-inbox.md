@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "Game film due Friday - I cut it before answering every parent group chat ping."
   - "The report was due at noon - I wrote the first page before opening Slack."
-shareable_lines:
+shareable_thought:
   - "Put the real priority first before email, Slack, and everyone else's urgency rewrite my morning."
   - "The inbox is other people's priorities wearing a siren."
   - "One block on the actual deliverable."

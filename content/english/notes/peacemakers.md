@@ -8,7 +8,7 @@ key_concept: |
 examples:
   - "Two teammates were feuding in the locker room - I didn't pick a side, I asked what it would take to fix it before the next game."
   - "Two coworkers wanted me to pick a side over lunch - I called the one I wronged first and asked what it would take to actually fix things."
-shareable_lines:
+shareable_thought:
   - "I pursue peace on purpose."
   - "Repair, truth in love, de-escalation - not just staying quiet."
   - "The blessing ties peacemaking to family resemblance."

@@ -10,11 +10,11 @@ key_concept: |
 examples:
   - "Friday I triaged the team inbox to zero - Monday practice started from decisions made, not dread about who forgot what."
   - "Sunday night we emptied the kitchen catch-all tray - each slip got a decision so school week didn't start with mystery piles."
-shareable_lines:
-  - "I process the inbox to empty each week."
-  - "Decide, don't hoard."
+shareable_thought:
+  - "I process the inbox to empty each week - decide, don't hoard."
   - "Process the inbox to empty regularly."
   - "Each item decided, not hoarded."
+  - "Empty the capture pipe on schedule."
 relationships:
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"

@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "My kid asked how the fuse box works and I waved vaguely - explaining it simply showed I didn't understand it well enough to fix anything."
   - "The new hire asked why we batch invoices that way and I stumbled mid-sentence."
-shareable_lines:
+shareable_thought:
   - "I teach the note out loud to a blank page."
   - "Wherever I stumble, I don't understand yet."
   - "Teach-it-to-learn-it exposes gaps so evergreen notes stay honest and clear (Evergreen Notes)."

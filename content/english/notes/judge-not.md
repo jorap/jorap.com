@@ -8,11 +8,11 @@ key_concept: |
 examples:
   - "I spotted my teammate's travel in five seconds and missed my own lazy dribble - judge not starts with the log in my eye."
   - "I spotted a coworker's missed step in five seconds and missed my own plank for a month - Jesus wasn't saying ignore sin; He was saying remove your plank first."
-shareable_lines:
-  - "I don't play final judge on souls."
-  - "I pull my own plank before nitpicking someone's speck."
+shareable_thought:
+  - "I don't play final judge on souls - I pull my own plank before nitpicking someone's speck."
   - "Jesus forbids harsh, hypocritical condemnation."
   - "The kind that ignores my own guilt while magnifying yours. (Matthew 7:1-5)."
+  - "He doesn't forbid all moral discernment: the same sermon says judge trees by fruit (Matthew 7:16-20)."
 relationships:
   - type: contradicts
     wikilink: "[[Humility and Service]]"

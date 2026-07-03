@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "Tax bill landed and part of me wanted to treat paying it like betraying the kingdom - [[Render Unto Caesar]]: lawful duty and ultimate worship stay distinct."
   - "Group chat turned tribal after the election and my thumb hovered on a dunk - bless the neighbor, don't baptize the rage."
-shareable_lines:
+shareable_thought:
   - "I owe Caesar what Caesar's owed and God what I'm His."
   - "No party gets my soul."
   - "Render Unto Caesar names the split: coin to Caesar, self to God."

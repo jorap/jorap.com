@@ -11,6 +11,7 @@ import yaml
 
 from notes_content import (
     is_complete_shareable_line,
+    gets_point_across,
     shareable_lines_overlap,
     shareable_line_from_principle,
     split_frontmatter,
@@ -62,39 +63,39 @@ def lint_title(path: Path, fm: dict) -> list[str]:
     return []
 
 
-def lint_shareable_lines(path: Path, fm: dict) -> list[str]:
+def lint_shareable_thought(path: Path, fm: dict) -> list[str]:
     if path.name in SKIP:
         return []
-    lines = fm.get("shareable_lines")
+    lines = fm.get("shareable_thought")
     if not isinstance(lines, list) or len(lines) != SHAREABLE_LINE_COUNT:
-        return [f"FAIL shareable_lines need {SHAREABLE_LINE_COUNT} items: {path.name}"]
+        return [f"FAIL shareable_thought need {SHAREABLE_LINE_COUNT} items: {path.name}"]
     errs: list[str] = []
     for i, line in enumerate(lines):
         if not isinstance(line, str) or not line.strip():
-            errs.append(f"FAIL shareable_lines[{i}] empty: {path.name}")
+            errs.append(f"FAIL shareable_thought[{i}] empty: {path.name}")
             continue
         if len(line) > MAX_SHAREABLE_LINE_CHARS:
-            errs.append(f"FAIL shareable_lines[{i}] {len(line)} chars (max {MAX_SHAREABLE_LINE_CHARS}): {path.name}")
+            errs.append(f"FAIL shareable_thought[{i}] {len(line)} chars (max {MAX_SHAREABLE_LINE_CHARS}): {path.name}")
         if "[[" in line:
-            errs.append(f"FAIL wikilink in shareable_lines[{i}]: {path.name}")
+            errs.append(f"FAIL wikilink in shareable_thought[{i}]: {path.name}")
         if "Tension with" in line:
-            errs.append(f"FAIL shareable_lines[{i}] relationship tension: {path.name}")
-        if not is_complete_shareable_line(line):
-            errs.append(f"FAIL shareable_lines[{i}] fragment: {path.name}")
+            errs.append(f"FAIL shareable_thought[{i}] relationship tension: {path.name}")
+        if not gets_point_across(line):
+            errs.append(f"FAIL shareable_thought[{i}] fragment: {path.name}")
         if not shareable_line_from_principle(line, fm):
-            errs.append(f"FAIL shareable_lines[{i}] not from principle: {path.name}")
+            errs.append(f"FAIL shareable_thought[{i}] not from principle: {path.name}")
         for ex in fm.get("examples") or []:
             if not isinstance(ex, str):
                 continue
             ex_head = ex.strip().split(" - ")[0][:45]
             if len(line) > 25 and line.startswith(ex_head):
-                errs.append(f"FAIL shareable_lines[{i}] looks like example: {path.name}")
+                errs.append(f"FAIL shareable_thought[{i}] looks like example: {path.name}")
                 break
     for i in range(len(lines)):
         for j in range(i + 1, len(lines)):
             if isinstance(lines[i], str) and isinstance(lines[j], str):
                 if shareable_lines_overlap(lines[i], lines[j]):
-                    errs.append(f"FAIL shareable_lines[{i}] overlaps [{j}]: {path.name}")
+                    errs.append(f"FAIL shareable_thought[{i}] overlaps [{j}]: {path.name}")
     return errs
 
 
@@ -139,7 +140,7 @@ def verify() -> int:
         for msg in lint_description(path, fm):
             print(msg)
             bad += 1
-        for msg in lint_shareable_lines(path, fm):
+        for msg in lint_shareable_thought(path, fm):
             print(msg)
             bad += 1
     return bad

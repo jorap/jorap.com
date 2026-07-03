@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "I kept running a set play that lost four straight because we'd drilled it all preseason - sunk cost is asking whether I keep it because it cost time, not because it still works."
   - "The shop kept the broken POS because they'd paid the install fee - forward question only: would I buy this system fresh today?"
-shareable_lines:
+shareable_thought:
   - "I drop the bad tool or project when it stops earning its place."
   - "Past effort is gone either way."
   - "I ask: if I found this today, would I start it?"

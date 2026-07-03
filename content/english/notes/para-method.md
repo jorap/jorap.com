@@ -6,7 +6,7 @@ key_concept: "PARA sorts notes by life responsibility - enough structure to find
 examples:
   - "Tournament folder on the bench with a deadline; off-season conditioning notes in the filing cabinet with no end date."
   - "Science fair on the counter with a due date; immunization records in the cabinet with no end date - sorted by what owns it, not alphabet soup."
-shareable_lines:
+shareable_thought:
   - "PARA sorts notes into Projects, Areas, Resources, and Archives."
   - "Four buckets by life responsibility, not topic soup."
   - "PARA sorts notes by life responsibility."

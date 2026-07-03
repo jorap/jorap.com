@@ -11,7 +11,7 @@ key_concept: |
 examples:
   - "The baker follows the same proofing steps whether it's a slow Tuesday or wedding weekend."
   - "The JV squad runs the same warmup whether the bleachers are empty or full."
-shareable_lines:
+shareable_thought:
   - "One heroic sprint doesn't beat a routine I can rerun when motivation dips."
   - "One hero sprint doesn't survive a bad week."
   - "I protect the loop I can rerun when motivation dips."

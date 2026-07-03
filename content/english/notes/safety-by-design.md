@@ -11,7 +11,7 @@ key_concept: |
 examples:
   - "We moved the hot oil station off the walk lane before buying more warning signs."
   - "The playground gate opens toward the fence, not the street - design beat another lecture."
-shareable_lines:
+shareable_thought:
   - "I build workflows so the dangerous move is hard - not just a warning label and good intentions."
   - "Rollback is undo-by-design when release goes loud."
   - "Staged Rollout names fewer people hit before the hazard is proven safe."

@@ -11,11 +11,17 @@ key_concept: |
   Fix the speck in the graph without playing judge over the author.
   
   Structure issues flag missing extends or contradicts rows in the Note Relationships table.
-shareable_lines:
-  - "Broken wikilinks and note titles mentioned in prose without a wikilink."
-  - "Listed below and on each affected note."
-  - "Use Note Title only."
-  - "Only the note body."
+  
+  Broken wikilinks and unlinked note titles are graph hygiene problems to fix.
+  
+  Missing extends or contradicts rows in relationships frontmatter are structure bugs to fix.
+  
+  Garden notes need typed links in frontmatter - utility pages are exempt from structure checks.
+shareable_thought:
+  - "Fix the speck in the graph without playing judge over the author."
+  - "Broken wikilinks and unlinked note titles are graph hygiene problems to fix."
+  - "Missing extends or contradicts rows in relationships frontmatter are structure bugs to fix."
+  - "Garden notes need typed links in frontmatter."
 slug: "issues"
 date: "2026-06-19 08:00:00+00:00"
 image: "/images/note.jpg"

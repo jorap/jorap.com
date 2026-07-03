@@ -31,9 +31,9 @@
   {{- end -}}
 {{- end -}}
 
-{{- with $page.Params.shareable_lines -}}
+{{- with $page.Params.shareable_thought -}}
   {{- if gt (len .) 0 -}}
-    {{- $shareableHeading := dict "level" 2 "title" "Shareable lines" "id" "shareable-lines" -}}
+    {{- $shareableHeading := dict "level" 2 "title" "Shareable thoughts" "id" "shareable-thought" -}}
     {{- $inserted := false -}}
     {{- $ordered := slice -}}
     {{- range $headings -}}

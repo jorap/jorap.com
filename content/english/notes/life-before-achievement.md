@@ -6,14 +6,16 @@ key_concept: |
   Those goals have value only while the methods used to reach them respect safety.
   
   When an activity offers limited benefit but carries an avoidable risk of irreversible harm, leaders choose the safer course.
+  
+  Human life comes before the championship or the reputation for toughness.
 examples:
   - "I said no to the backyard rope swing over concrete when a low tree branch and mat did the same fun with softer landings."
   - "The school canceled the cliff-jump field trip when the park picnic hit the same bonding goal without a credible risk of a broken leg."
-shareable_lines:
-  - "Human life is non-negotiable."
-  - "Even when the goal is a championship or a reputation for toughness."
+shareable_thought:
+  - "Human life is non-negotiable - even when the goal is a championship or a reputation for toughness."
   - "Those goals have value only while the methods used to reach them respect safety."
   - "When an activity offers limited benefit but carries an avoidable risk of irreversible harm, leaders choose the safer course."
+  - "Human life comes before the championship or the reputation for toughness."
 relationships:
   - type: alternative
     wikilink: "[[Reversibility]]"

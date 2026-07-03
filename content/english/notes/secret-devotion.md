@@ -10,7 +10,7 @@ key_concept: |
 examples:
   - "I pray with the kids before bed with the door closed - no photo, no caption, just the Father who already knows we're here."
   - "The player doesn't live-stream her 5 a.m. shootarounds for applause - she trains because the game is the point, not the Strava badge."
-shareable_lines:
+shareable_thought:
   - "I give, pray, and fast for God to see - not for applause in the group chat."
   - "Give, pray, and fast for the Father's eyes - not to be seen by people (Matthew 6:1-18)."
   - "Secret devotion pairs with Ask Seek Knock (how to pray) and contrasts Let Your Light Shine."

@@ -9,11 +9,11 @@ key_concept: |
 examples:
   - "I knew the basketball handbook cold and still yelled at the ref - discipleship isn't memorizing policy, it's doing what the coach actually taught today."
   - "I taught my kid the memory verse and still snapped over spilled milk - discipleship isn't a badge from one emotional Sunday, it's doing what Jesus said today."
-shareable_lines:
+shareable_thought:
   - "Discipleship is following Jesus daily."
   - "Learning and doing what He said after faith, not buying eternal life."
-  - "Under Free Grace, discipleship is Grateful Obedience."
-  - "Grateful response, not payment."
+  - "Under Free Grace, discipleship is Grateful Obedience - grateful response, not payment."
+  - "Fruits of the Spirit is what people see when the walk is real."
 relationships:
   - type: alternative
     wikilink: "[[The Collector's Fallacy]]"

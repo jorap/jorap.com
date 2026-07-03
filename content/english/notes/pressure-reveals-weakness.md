@@ -11,7 +11,7 @@ key_concept: |
   Rehearse the move on easy days so it runs when pressure hits.
   
   Easy days are for rehearsing the move pressure will demand later.
-shareable_lines:
+shareable_thought:
   - "Pressure reveals what easy days hide."
   - "Build habits and systems that still work when stakes spike."
   - "Rehearse the move on easy days so it runs when pressure hits."

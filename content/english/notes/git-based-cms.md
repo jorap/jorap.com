@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "Church volunteer won't open a terminal - Sveltia on the repo, she edits announcements, Cloudflare rebuilds on save."
   - "I added Decap for a client who insisted on \"WordPress-like\" - honest scope: blog posts only, not plugins; still cheaper than hosted WordPress long term."
-shareable_lines:
+shareable_thought:
   - "A git CMS commits markdown to the repo so clients get buttons while the same push-live build still runs."
   - "I publish via Git directly."
   - "Still say no to bad dynamic scope."

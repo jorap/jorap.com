@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "The practice film library is messy; the highlight reel for parents is one clean cut - garage holds scraps, showroom shows the finished piece."
   - "The garage holds half-finished projects and sawdust; the front porch shows the one bench I'd invite a neighbor to sit on."
-shareable_lines:
+shareable_thought:
   - "My vault is the garage for scraps and experiments."
   - "The blog is the showroom, and I keep them separate."
   - "The garage holds tools, scraps, experiments."

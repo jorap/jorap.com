@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "I organized snacks for my kid's team and wanted credit all week - faithful steward means using what He gave, not burying it or performing for applause."
   - "One mission trip in my head as my whole eternal report card - the master reviews faithful use over years, including quiet Tuesdays nobody clapped for."
-shareable_lines:
+shareable_thought:
   - "After salvation is settled, stewardship is about faithful use of what God entrusted, not buying heaven with busy weeks."
   - "Free Grace settled where I spend forever."
   - "The master returns to settle accounts."

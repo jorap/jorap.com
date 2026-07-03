@@ -9,11 +9,11 @@ key_concept: |
 examples:
   - "A player slumped on the bench after a bad quarter - I said \"you look wiped\" before I drew up the next play. His shoulders dropped; then he could hear the adjustment."
   - "My kid came home furious about homework - \"you're mad because it felt unfair\" beat \"just do it.\" We got to the actual problem after the feeling had a name."
-shareable_lines:
+shareable_thought:
   - "That sounds frustrating lands before my fix plan."
   - "I name the emotion so we're not guessing."
   - "\"That sounds frustrating\" before \"here's what to do.\"."
-  - "Listen Before Fixing comes first."
+  - "Naming the emotion lowers defensiveness so the fix can land."
 relationships:
   - type: contradicts
     wikilink: "[[Complete the Cycle]]"

@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "First Sunday I reconcile the budget - not only when the card gets declined mid-commute."
   - "The clinic reviews charts every Friday at four - not only when a complaint lands."
-shareable_lines:
+shareable_thought:
   - "If I never revisit notes, they rot."
   - "I calendar weekly and quarterly passes like I'd calendar bills."
   - "Crisis review is always too late."

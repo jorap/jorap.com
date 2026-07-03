@@ -1,7 +1,7 @@
 ---
 title: "What JoRap Notes Actually Does"
 meta_title: "JoRap Notes - Features, Applications, and Principles"
-description: "My blog is for essays. JoRap Notes is a linked garden of one-claim pages - graph, flashcards, shareable lines, typed links, and copy buttons for AI - all on the same Hugo site."
+description: "My blog is for essays. JoRap Notes is a linked garden of one-claim pages - graph, flashcards, shareable thoughts, typed links, and copy buttons for AI - all on the same Hugo site."
 slug: "jorap-notes-features"
 date: 2026-07-03T02:00:00Z
 image: "/images/joraps-world.jpg"
@@ -20,7 +20,7 @@ featured: false
 draft: true
 ---
 
-> **TL;DR**: JoRap Notes is not a separate app. It is a second surface on this site - short linked pages, each holding one claim I'd say out loud, with a graph, flashcard review, typed relationships, shareable lines, and copy buttons that hand the whole garden to ChatGPT. The blog is for long essays. The garden is for ideas I want to walk through and reuse.
+> **TL;DR**: JoRap Notes is not a separate app. It is a second surface on this site - short linked pages, each holding one claim I'd say out loud, with a graph, flashcard review, typed relationships, shareable thoughts, and copy buttons that hand the whole garden to ChatGPT. The blog is for long essays. The garden is for ideas I want to walk through and reuse.
 
 ## Two surfaces, one site
 
@@ -41,7 +41,7 @@ I built the hosting stack first (Hugo, GitHub, Cloudflare - [that story is here]
 | Feature | What it does | Apply it when… |
 |--------|--------------|----------------|
 | **Atomic notes** | One claim per page; argument lives in frontmatter | You want a quote you'd actually say in a meeting, not a chapter |
-| **Shareable lines** | Four quotable lines per note, shown on the page | You need a Slack reply, card pull-quote, or social post without rewriting |
+| **Shareable thoughts** | Four self-contained ideas per note, shown on the page | You need a Slack reply, card pull-quote, or social post without rewriting |
 | **Wikilinks + aliases** | `[[Note Title]]` resolves to the note; aliases catch shorthand | You think in links, not folder trees |
 | **Typed relationships** | `extends`, `contradicts`, `implements`, `alternative` with a one-line reason | Two notes share a word but pull opposite ways - you need the tension visible |
 | **Hub pages (MOCs)** | Curated indexes with prose; Copy hub cluster | One topic sprawled across twenty files and you need a hand-built map |
@@ -67,12 +67,12 @@ Each atomic note stores its whole argument in frontmatter - not in the body:
 - **description** - one breath. What is this idea? Twenty words max, no wikilinks.
 - **key_concept** - the angle, not a second definition. Stakes, distinctions, `[[wikilinks]]`.
 - **examples** - exactly two scenes from different parts of life (jeepney and deploy, clinic and group chat - not two tweaks of the same story).
-- **shareable_lines** - four lines I'd paste into Slack, a standup, or a caption without editing. Pulled from `description` and `key_concept` only - principle and angle, not examples. Max 130 characters each, plain text, no wikilinks.
+- **shareable_thought** - four self-contained ideas I'd paste into Slack, a standup, or a caption without editing. Pulled from `description` and `key_concept` only - principle and angle, not examples. Max 130 characters each, plain text, no wikilinks.
 - **relationships** - typed links to other notes (more on that below).
 
-Hugo assembles `## Key Concept`, `## Examples`, `## Shareable lines`, and `## Note Relationships` at build time. The Markdown body stays empty for atomic notes. That keeps every note the same shape when you browse, copy, or export.
+Hugo assembles `## Key Concept`, `## Examples`, `## Shareable thoughts`, and `## Note Relationships` at build time. The Markdown body stays empty for atomic notes. That keeps every note the same shape when you browse, copy, or export.
 
-**Application:** When a coworker asks "what's your take on X?", you open one URL and read the description aloud. When you need a pull-quote for a deck, you grab a shareable line. When an idea won't fit one breath, that's your signal to split.
+**Application:** When a coworker asks "what's your take on X?", you open one URL and read the description aloud. When you need a pull-quote for a deck, you grab a shareable thought. When an idea won't fit one breath, that's your signal to split.
 
 **Principle:** Compression forces clarity. If you cannot state the claim in one sentence, you do not understand it yet - or you are smuggling two ideas into one file.
 
@@ -80,21 +80,21 @@ Hub pages like [Maps of Content](/notes/maps-of-content/) and [Workplace Princip
 
 ---
 
-## Shareable lines
+## Shareable thoughts
 
-Every note carries four **shareable lines** in frontmatter. They render in a grid on the note page - ready-made quotes you can copy without hunting through `key_concept`.
+Every note carries four **shareable thoughts** in frontmatter. They render in a grid on the note page - ready-made quotes you can copy without hunting through `key_concept`.
 
 The rules are tight on purpose:
 
-- Exactly four lines per note
+- Exactly four thoughts per note
 - Max 130 characters each
 - Plain text only - no `[[wikilinks]]`
 - Pulled from `description` and `key_concept` only - the claim and its angle, not `examples` or relationship tension
-- All four lines must be distinct - no duplicate claims or one line that is a fragment of another
+- All four must be distinct - no duplicate claims or one thought that is a fragment of another
 
 **Application:** Paste into Slack when someone asks for your framing. Drop into a slide without rewriting. Feed a social post. Hand an AI session a quotable summary without the full frontmatter dump.
 
-**Principle:** Ideas you cannot quote are ideas you cannot reuse. Shareable lines are the garden's "out loud" layer - what you'd actually say when someone interrupts you mid-coffee.
+**Principle:** Ideas you cannot quote are ideas you cannot reuse. Shareable thoughts are the garden's "out loud" layer - what you'd actually say when someone interrupts you mid-coffee.
 
 ---
 
@@ -211,9 +211,9 @@ A garden rots when links break and nobody notices.
 
 [/notes/issues/](/notes/issues/) aggregates warnings garden-wide: broken `[[wikilinks]]`, pipe syntax I do not support, note titles mentioned in prose without a link. Warnings also show on the affected note page.
 
-Before deploy, `pnpm lint:garden` checks frontmatter shape, flashcard rules, utility-link violations, shareable line counts, title length, and voice lint (plain words, no em dashes). `pnpm lint:notes` fails the build on broken wikilinks. Created and updated dates come from the file itself at build time - I do not maintain `lastmod` by hand.
+Before deploy, `pnpm lint:garden` checks frontmatter shape, flashcard rules, utility-link violations, shareable thought counts, title length, and voice lint (plain words, no em dashes). `pnpm lint:notes` fails the build on broken wikilinks. Created and updated dates come from the file itself at build time - I do not maintain `lastmod` by hand.
 
-Titles stay short - four words by default, five only when the phrase is long enough to need the extra word (scripture lines, full principles). Descriptions stay under twenty words. Shareable lines stay under 130 characters. The linter enforces what my tired Sunday self would skip.
+Titles stay short - four words by default, five only when the phrase is long enough to need the extra word (scripture lines, full principles). Descriptions stay under twenty words. Shareable thoughts stay under 130 characters. The linter enforces what my tired Sunday self would skip.
 
 These are not features you brag about at a party. They are why the graph still works six months after I wrote half the notes on a tired Sunday.
 
@@ -244,7 +244,7 @@ You do not need my exact Hugo setup to benefit from the pattern. These are the m
 1. **One claim per file** - If you need "and" to finish the sentence, split. Compression is a clarity test.
 2. **Links over folders** - Wikilinks and backlinks surface structure you did not plan. Folders hide it.
 3. **Name the tension** - `extends` and `contradicts` beat a flat "related" list. Ideas live in push and pull.
-4. **Quote-ready output** - Description, shareable lines, and flashcard backs are three registers of the same claim: define it, share it, apply it.
+4. **Quote-ready output** - Description, shareable thoughts, and flashcard backs are three registers of the same claim: define it, share it, apply it.
 5. **Tools are not ideas** - Graph, Review, and Issues are meta pages. Keep garden notes about ideas; link to tools by URL.
 6. **Agents eat structure** - Copy buttons and OKF export only matter if your notes are already shaped consistently. Garbage in, garbage out - but shaped garbage travels.
 7. **Lint what you will not notice** - Broken links and vague titles rot quietly. Automate the boring checks so the garden survives your tired Sundays.
@@ -256,7 +256,7 @@ You do not need my exact Hugo setup to benefit from the pattern. These are the m
 
 ## Who this is for (and who it is not)
 
-**Good fit** if you already think in linked notes, want a public garden without a monthly wiki bill, and are fine editing Markdown in Git. The copy buttons, shareable lines, and OKF export matter if you pair the garden with AI editing sessions or need quotable output for work.
+**Good fit** if you already think in linked notes, want a public garden without a monthly wiki bill, and are fine editing Markdown in Git. The copy buttons, shareable thoughts, and OKF export matter if you pair the garden with AI editing sessions or need quotable output for work.
 
 **Bad fit** if you need real-time collaboration, a WYSIWYG editor for non-technical co-authors, or private notes behind a login. This is a static site. Everything published is public. Private thinking stays in Obsidian or TiddlyWiki; the subset I am willing to grow in public lands here.
 
@@ -273,4 +273,4 @@ I am not selling JoRap Notes as a product. It is my corner of the internet, docu
 - Pick a random pair: [Random Duo](/notes/random-duo/)
 - Hosting and deploy: [How I Built JoRap Notes](/blog/how-i-built-jorap-notes/)
 
-If you build something similar, start with one claim per file and working wikilinks. Add shareable lines, the graph, flashcards, and agent export after you have twenty notes worth linking - not before.
+If you build something similar, start with one claim per file and working wikilinks. Add shareable thoughts, the graph, flashcards, and agent export after you have twenty notes worth linking - not before.

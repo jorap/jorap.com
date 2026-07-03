@@ -9,7 +9,7 @@ key_concept: |
 examples:
   - "Halftime talk ended with \"we'll fix the press tomorrow\" - I wrote the one drill on the whiteboard before anyone left the gym."
   - "Parent-teacher night ended with \"we'll email the action plan\" - the recap went out before anyone left the parking lot, names, dates, who owns what."
-shareable_lines:
+shareable_thought:
   - "The meeting isn't done until recap, owners, dates, and verification close the loop."
   - "A meeting needs follow-up."
   - "A decision needs execution."

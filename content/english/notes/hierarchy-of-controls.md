@@ -11,11 +11,11 @@ key_concept: |
 examples:
   - "We removed the wet patch on the court instead of adding \"slow down\" signs - guard rails beat warnings; removing the hazard beats both."
   - "We taped down the rug corner instead of yelling \"watch your step\" every night - hierarchy of controls: eliminate first, then engineer, admin, PPE last."
-shareable_lines:
-  - "Remove the hazard first, then substitute, engineer, admin, PPE."
-  - "In that order."
+shareable_thought:
+  - "Remove the hazard first, then substitute, engineer, admin, PPE - in that order."
   - "Eliminate the hazard before warnings, admin, or PPE."
   - "Guard rails beat signs when you can remove the hazard instead."
+  - "Named rollback is a control layer before irreversible harm."
 relationships:
   - type: contradicts
     wikilink: "[[Standard Operating Procedures]]"

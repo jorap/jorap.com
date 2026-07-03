@@ -8,11 +8,11 @@ key_concept: |
 examples:
   - "I smiled through the bad call and nursed the anger the whole ride home - heart righteousness is polite outside, poison inside; God cares about the inner life."
   - "I sent a cold reply that sounded professional while resentment ran inside - Jesus moves righteousness from courtroom compliance to motive."
-shareable_lines:
+shareable_thought:
   - "Heart righteousness goes deeper than outward acts."
   - "Anger is murder, lust is adultery, in the heart."
-  - "Under Free Grace, this isn't a new merit ladder."
-  - "It's the standard the Spirit applies to a life already saved, starting where only God sees."
+  - "Fruits of the Spirit names what that inner work produces outward."
+  - "Love, gentleness, self-control, and the rest."
 relationships:
   - type: contradicts
     wikilink: "[[Let Your Light Shine]]"

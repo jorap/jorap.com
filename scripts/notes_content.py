@@ -14,7 +14,7 @@ FM_ORDER = (
     "description",
     "key_concept",
     "examples",
-    "shareable_lines",
+    "shareable_thought",
     "relationships",
     "slug",
     "date",
@@ -241,10 +241,10 @@ def dump_frontmatter(fm: dict[str, Any]) -> str:
                 if isinstance(ex, str) and ex.strip():
                     lines.append(f"  - {yaml_quote(ex.strip())}")
             return
-        if key == "shareable_lines" and isinstance(value, list):
+        if key == "shareable_thought" and isinstance(value, list):
             if not value:
                 return
-            lines.append("shareable_lines:")
+            lines.append("shareable_thought:")
             for line in value:
                 if isinstance(line, str) and line.strip():
                     lines.append(f"  - {yaml_quote(line.strip())}")
@@ -323,6 +323,19 @@ FRAGMENT_START = re.compile(
     re.I,
 )
 SAME_AS_FRAGMENT = re.compile(r"^same as\b", re.I)
+INCOMPLETE_SPLIT_HEAD = re.compile(
+    r"\b(isn't|aren't|wasn't|weren't|don't|doesn't|didn't|can't|won't|not merely|not just|not only)\b",
+    re.I,
+)
+POINTER_PREFIX = re.compile(
+    r"^(Garden parallel|Same shape|Same rhythm|Same logic|Same math|Same fruit|Same rescue|Faith parallel|More on|Cousins,?|Listed below|Use Note Title|The \[|Goes further than|Pairs with|Ancestor of)\b",
+    re.I,
+)
+DANGLING_DEMONSTRATIVE = re.compile(r"^that('s| is)\s+the\s+bar\b", re.I)
+PUNCH_VERB = re.compile(
+    r"\b(kill|kills|win|wins|work|works|beat|beats|need|needs|ship|ships|save|saves|fix|fixes|stop|stops|break|breaks|trust|trusts|keep|keeps|make|makes|go|goes|teach|teaches|name|names|run|runs|build|builds|grow|grows|learn|learns|cite|cites|push|pushes|protect|protects|catch|catches|judge|judges|pick|picks|turn|turns|believe|believes|receive|receives|live|lives|love|loves)\b",
+    re.I,
+)
 
 
 def ensure_terminal_punct(text: str) -> str:
@@ -367,12 +380,75 @@ def is_complete_shareable_line(line: str) -> bool:
     return True
 
 
+def _incomplete_negation_line(text: str) -> bool:
+    """Negation-only line that needs its contrast half to land."""
+    if len(text) > 90:
+        return False
+    lower = text.lower()
+    if not any(
+        x in lower
+        for x in ("isn't", "aren't", "don't", "doesn't", "not merely", "not just", "not only")
+    ):
+        return False
+    if " - " in text or "; " in text:
+        return False
+    if ", not " in lower:
+        return False
+    if lower.startswith("the point isn't"):
+        return True
+    if "don't hand back" in lower:
+        return True
+    return False
+
+
+def _bare_noun_list(text: str) -> bool:
+    """Comma list of labels with no verb - e.g. 'Judgment, patience, attention.'"""
+    t = text.rstrip(".!?").strip()
+    if "," not in t or " - " in t or " not " in t.lower():
+        return False
+    if PUNCH_VERB.search(t):
+        return False
+    parts = [p.strip() for p in t.split(",")]
+    return len(parts) >= 2 and all(len(p.split()) <= 2 for p in parts)
+
+
+def gets_point_across(line: str) -> bool:
+    """True when a reader gets the claim without another line for context."""
+    if not is_complete_shareable_line(line):
+        return False
+    text = line.strip()
+    words = text.split()
+    if len(words) < 5 and len(text) < 35 and not PUNCH_VERB.search(text):
+        return False
+    if POINTER_PREFIX.match(text):
+        return False
+    if DANGLING_DEMONSTRATIVE.match(text):
+        return False
+    if _bare_noun_list(text):
+        return False
+    if "listed below" in text.lower():
+        return False
+    if re.match(r"^In that order\.?$", text, re.I):
+        return False
+    if re.search(r"\[.*\]\([^)]+\)", text):
+        return False
+    if text.startswith("For ") and not PUNCH_VERB.search(text):
+        return False
+    if _incomplete_negation_line(text):
+        return False
+    return True
+
+
 def _self_check() -> None:
     assert is_complete_shareable_line("Friction kills capture.")
     assert is_complete_shareable_line("Same aim, different plan.")
     assert not is_complete_shareable_line("not mere intellectual agreement.")
     assert not is_complete_shareable_line("Same as The Trusted Inbox.")
     assert not is_complete_shareable_line("There Is No Perfect Solution")
+    assert not gets_point_across("The point isn't passivity toward all evil.")
+    assert not gets_point_across("Same inbox rule.")
+    assert gets_point_across("Friction kills capture.")
+    assert gets_point_across("The point isn't passivity toward all evil - it's refusing to become what hurt you.")
     assert ensure_terminal_punct("Keep the goal") == "Keep the goal."
 
 

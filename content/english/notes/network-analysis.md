@@ -10,7 +10,7 @@ key_concept: |
 examples:
   - "The playbook diagram showed one motion offense linking twelve other sets - that was the doorway I'd simplify first."
   - "The chore chart showed one kid linking every task - that's the bottleneck we fixed first."
-shareable_lines:
+shareable_thought:
   - "I look at which notes connect everything else."
   - "Those hubs tell me where the garden actually lives."
   - "Study links and hubs in a graph."
