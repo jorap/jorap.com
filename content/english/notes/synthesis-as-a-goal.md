@@ -10,10 +10,10 @@ examples:
   - "Three coaches' clips on our press sat in my folder until I merged them into one drill we actually ran Tuesday."
   - "Five parenting articles became one rule on the fridge - merged into what we believe about screens, not a quote collection."
 shareable_lines:
-  - "I merge sources into what I believe and can defend - a quote pile isn't the goal."
+  - "I merge sources into what I believe and can defend."
+  - "A quote pile isn't the goal."
   - "Collecting quotes isn't PKM for me."
-  - "Synthesis is when learning starts - often with First Principles Thinking when a note is still someone else's words. The wiki…"
-  - "Three coaches' clips on our press sat in my folder until I merged them into one drill we actually ran Tuesday."
+  - "Synthesis is when learning starts."
 relationships:
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"

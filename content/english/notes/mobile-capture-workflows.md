@@ -10,10 +10,10 @@ examples:
   - "Halftime idea on the bench - I voice-memo'd it before the third quarter wiped it."
   - "Jeepney stop, blog idea hits - one tap to notes before the next ride shakes it out of my head."
 shareable_lines:
-  - "Mobile capture is one tap to save the spark before I scroll away - share sheet to inbox."
+  - "Mobile capture is one tap to save the spark before I scroll away."
+  - "Share sheet to inbox."
   - "Twelve taps kills the spark."
-  - "On mobile, friction is the enemy - most ideas die between the notification and the app switch. I shrunk capture to share sheet →…"
-  - "Halftime idea on the bench"
+  - "On mobile, friction is the enemy."
 relationships:
   - type: contradicts
     wikilink: "[[Analog Capture Tools]]"

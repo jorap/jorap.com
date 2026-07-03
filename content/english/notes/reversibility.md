@@ -10,10 +10,10 @@ examples:
   - "I took the longer route with an exit every mile before trying the new shortcut through construction."
   - "Try the new play in scrimmage before running it in the championship - reversible rehearsal, higher bar for the irreversible call."
 shareable_lines:
-  - "Prefer choices you can undo - irreversible harm needs a higher bar."
+  - "Prefer choices you can undo."
+  - "Irreversible harm needs a higher bar."
   - "Concrete undo path when the choice is a deploy or release."
-  - "Rollback Principle names concrete undo path when the choice is a deploy or release. Staged Rollout names small blast radius makes…"
-  - "I took the longer route with an exit every mile before trying the new shortcut through construction."
+  - "Staged Rollout names small blast radius makes undo cheap."
 relationships:
   - type: contradicts
     wikilink: "[[Finish Strong]]"

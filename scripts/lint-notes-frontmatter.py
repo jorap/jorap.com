@@ -9,7 +9,12 @@ from pathlib import Path
 
 import yaml
 
-from notes_content import split_frontmatter
+from notes_content import (
+    is_complete_shareable_line,
+    shareable_lines_overlap,
+    shareable_line_from_principle,
+    split_frontmatter,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 NOTES = ROOT / "content/english/notes"
@@ -72,6 +77,24 @@ def lint_shareable_lines(path: Path, fm: dict) -> list[str]:
             errs.append(f"FAIL shareable_lines[{i}] {len(line)} chars (max {MAX_SHAREABLE_LINE_CHARS}): {path.name}")
         if "[[" in line:
             errs.append(f"FAIL wikilink in shareable_lines[{i}]: {path.name}")
+        if "Tension with" in line:
+            errs.append(f"FAIL shareable_lines[{i}] relationship tension: {path.name}")
+        if not is_complete_shareable_line(line):
+            errs.append(f"FAIL shareable_lines[{i}] fragment: {path.name}")
+        if not shareable_line_from_principle(line, fm):
+            errs.append(f"FAIL shareable_lines[{i}] not from principle: {path.name}")
+        for ex in fm.get("examples") or []:
+            if not isinstance(ex, str):
+                continue
+            ex_head = ex.strip().split(" - ")[0][:45]
+            if len(line) > 25 and line.startswith(ex_head):
+                errs.append(f"FAIL shareable_lines[{i}] looks like example: {path.name}")
+                break
+    for i in range(len(lines)):
+        for j in range(i + 1, len(lines)):
+            if isinstance(lines[i], str) and isinstance(lines[j], str):
+                if shareable_lines_overlap(lines[i], lines[j]):
+                    errs.append(f"FAIL shareable_lines[{i}] overlaps [{j}]: {path.name}")
     return errs
 
 

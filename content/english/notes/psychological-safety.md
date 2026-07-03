@@ -3,17 +3,19 @@ title: "Psychological Safety"
 meta_title: "Psychological Safety"
 description: "People can name mistakes and near-misses without fear of humiliation or retaliation."
 key_concept: |
-  Join their framing before you redirect the blame ([[Follow Their Lead]]).
+  Join their framing before you redirect the blame.
   
-  Tension with [[Break the Escalation Cycle]] when the opposite frame fits better.
+  Thank the person for speaking up - silence teaches the next person to hide the miss.
+  
+  Near-miss reports need gratitude, not punishment.
 examples:
   - "My kid told me he broke the vase - I thanked him for saying it instead of making him dread confessing next time."
   - "I named the wrong turn to my carpool - nobody mocked it, so I speak up before the next missed exit."
 shareable_lines:
   - "People can name mistakes and near-misses without fear of humiliation or retaliation."
-  - "Join their framing before you redirect the blame (Follow Their Lead)."
-  - "Tension with Break the Escalation Cycle when the opposite frame fits better."
-  - "My kid told me he broke the vase"
+  - "Join their framing before you redirect the blame."
+  - "Thank the person for speaking up."
+  - "Silence teaches the next person to hide the miss."
 relationships:
   - type: contradicts
     wikilink: "[[Break the Escalation Cycle]]"

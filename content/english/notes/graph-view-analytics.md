@@ -2,15 +2,20 @@
 title: "Graph View Analytics"
 meta_title: "Graph View Analytics - What the Graph Actually Tells You"
 description: "Graph view analytics reads my link map for orphans, over-connected hubs, and gaps I'd forgotten."
-key_concept: "The link map shows notes with no links, notes with too many, and gaps I forgot to connect."
+key_concept: |
+  The link map shows notes with no links, notes with too many, and gaps I forgot to connect.
+  
+  Orphan notes and over-linked hubs both signal a graph that needs pruning.
+  
+  Read the graph for orphans and over-linked hubs before they skew the garden.
 examples:
   - "I laid out the shift-change chart and three tasks had zero arrows to an owner - the orphan list was my fix-this-week, not a pretty poster."
   - "I laid out the kids' chore chart and three jobs had zero arrows to anything else - nobody knew who checked them; that gap list was my fix-this-week."
 shareable_lines:
   - "Graph view analytics reads my link map for orphans, over-connected hubs, and gaps I'd forgotten."
   - "The link map shows notes with no links, notes with too many, and gaps I forgot to connect."
-  - "I laid out the shift-change chart and three tasks had zero arrows to an owner"
-  - "I laid out the shift-change chart and three tasks had zero arrows to an owner - the orphan list was my fix-this-week, not a…"
+  - "Orphan notes and over-linked hubs both signal a graph that needs pruning."
+  - "Read the graph for orphans and over-linked hubs before they skew the garden."
 relationships:
   - type: contradicts
     wikilink: "[[Maps of Content]]"

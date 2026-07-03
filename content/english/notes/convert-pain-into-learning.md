@@ -12,8 +12,8 @@ examples:
 shareable_lines:
   - "Convert pain into learning means failure must produce correction, not stewing without change."
   - "Failure becomes useful only when it produces correction."
-  - "Reflect on what happened, pull out the lesson, design a better response, and test it the next time the situation shows up…"
-  - "I bombed a client presentation and stewed for a week"
+  - "Reflect on what happened, pull out the lesson, design a better response, and test it the next time the situation shows up."
+  - "Stewing without change is just suffering."
 relationships:
   - type: contradicts
     wikilink: "[[Forgiveness]]"

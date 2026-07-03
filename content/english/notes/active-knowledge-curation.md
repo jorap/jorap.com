@@ -7,10 +7,10 @@ examples:
   - "I do the same with my idea pile on the first Sunday - saved links I wouldn't act on today hit the trash, half-finished thoughts finally get linked."
   - "Our trainer reviews the drill library every month and cuts what nobody runs anymore - same job as pruning notes that wouldn't make today's practice plan."
 shareable_lines:
-  - "A folder of unread saves isn't a garden - I prune monthly and wire notes I'd actually recommend."
-  - "Active curation means revisiting, pruning, and ordering notes - choosing what sits next to what is creative work."
-  - "I do the same with my idea pile on the first Sunday"
-  - "I do the same with my idea pile on the first Sunday - saved links I wouldn't act on today hit the trash, half-finished thoughts…"
+  - "A folder of unread saves isn't a garden."
+  - "I prune monthly and wire notes I'd actually recommend."
+  - "Active curation means revisiting, pruning, and ordering notes."
+  - "Choosing what sits next to what is creative work."
 relationships:
   - type: alternative
     wikilink: "[[Maps of Content]]"

@@ -13,8 +13,8 @@ examples:
 shareable_lines:
   - "I give, pray, and fast for God to see - not for applause in the group chat."
   - "Give, pray, and fast for the Father's eyes - not to be seen by people (Matthew 6:1-18)."
-  - "Jesus brackets the Ask Seek Knock with the same warning: religious performance for an audience is its own reward."
-  - "Secret devotion pairs with Ask Seek Knock (how to pray) and contrasts Let Your Light Shine - some good works shine publicly for…"
+  - "Secret devotion pairs with Ask Seek Knock (how to pray) and contrasts Let Your Light Shine."
+  - "Some good works shine publicly for God's glory; other devotion stays hidden so the left hand doesn't know what the right is doing."
 relationships:
   - type: alternative
     wikilink: "[[Let Your Light Shine]]"

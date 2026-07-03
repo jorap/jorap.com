@@ -9,10 +9,10 @@ key_concept: |
   
   Utility surface: link by URL from content notes, not `[[wikilinks]]`.
 shareable_lines:
-  - "Inbound wikilinks ranked by count - see which notes the garden treats as anchors. Pairs with Issues, Random Duo, and Create Note."
-  - "Find anchor notes by who links here - snippet context per backlink, not just a count."
-  - "Utility surface: link by URL from content notes, not `wikilinks`."
-  - "Backlinks — Inbound wikilinks ranked by count - see which notes the garden treats as anchors. Pairs with Issues, Random Duo, and…"
+  - "Inbound wikilinks ranked by count."
+  - "See which notes the garden treats as anchors."
+  - "Find anchor notes by who links here."
+  - "Snippet context per backlink, not just a count."
 slug: "backlinks"
 date: "2026-06-21 08:00:00+00:00"
 image: "/images/note.jpg"

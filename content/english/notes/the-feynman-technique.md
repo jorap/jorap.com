@@ -3,18 +3,17 @@ title: "The Feynman Technique"
 meta_title: "The Feynman Technique - Teach It to Learn It"
 description: "I teach the note out loud to a blank page - wherever I stumble, I don't understand yet."
 key_concept: |
-  Tension with Spaced Repetition when explaining gaps beats flashcard drill.
-  
   Teach-it-to-learn-it exposes gaps so evergreen notes stay honest and clear ([[Evergreen Notes]]).
-  Tension with [[Spaced Repetition]] when explaining gaps beats flashcard drill.
+  
+  Explain it simply to a blank page - the stumble marks the gap.
 examples:
   - "My kid asked how the fuse box works and I waved vaguely - explaining it simply showed I didn't understand it well enough to fix anything."
   - "The new hire asked why we batch invoices that way and I stumbled mid-sentence."
 shareable_lines:
-  - "I teach the note out loud to a blank page - wherever I stumble, I don't understand yet."
-  - "Tension with Spaced Repetition when explaining gaps beats flashcard drill."
+  - "I teach the note out loud to a blank page."
+  - "Wherever I stumble, I don't understand yet."
   - "Teach-it-to-learn-it exposes gaps so evergreen notes stay honest and clear (Evergreen Notes)."
-  - "My kid asked how the fuse box works and I waved vaguely"
+  - "Explain it simply to a blank page."
 relationships:
   - type: contradicts
     wikilink: "[[Spaced Repetition]]"

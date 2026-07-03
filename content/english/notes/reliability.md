@@ -6,6 +6,8 @@ key_concept: |
   Others can plan around you because you close loops, hit deadlines, and show up the same way twice.
   
   Reliability is doing what you said, when you said, often enough that others can plan around you.
+  
+  People stop chasing updates when you close loops without reminders.
 examples:
   - "The backup alarm texts if the freezer warms - I don't discover thawed meat at breakfast."
   - "Same opener on the gate every morning - neighbors trust it without calling to check."
@@ -13,7 +15,7 @@ shareable_lines:
   - "Reliability is closing loops on time often enough that people stop asking twice."
   - "Others can plan around you because you close loops, hit deadlines, and show up the same way twice."
   - "Reliability is doing what you said, when you said, often enough that others can plan around you."
-  - "The backup alarm texts if the freezer warms"
+  - "People stop chasing updates when you close loops without reminders."
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Viable Product]]"

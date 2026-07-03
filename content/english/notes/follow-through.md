@@ -11,9 +11,9 @@ examples:
   - "The captain said \"we'll fix the rotation\" without naming who covers which shift - follow-through was the recap with owners and dates before anyone left the gym."
 shareable_lines:
   - "Saying yes is cheap; follow-through is recap, owners, dates, and checking it actually landed."
-  - "The work after the handshake - recap, owners, dates, verification."
-  - "Follow-through is everything that happens after you said yes - the recap, the ticket, the check-in."
-  - "\"I'll look into it\" without a date is how school projects die after the group chat goes quiet"
+  - "The work after the handshake."
+  - "Recap, owners, dates, verification."
+  - "Follow-through is everything that happens after you said yes."
 relationships:
   - type: contradicts
     wikilink: "[[Forgiveness at Work]]"

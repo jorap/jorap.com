@@ -9,10 +9,10 @@ examples:
   - "I brought extra water for the whole bench and almost posted about it - the light isn't for my brand; it's so someone sees good work and thinks God is real."
   - "I covered a coworker's shift quietly and almost made it a LinkedIn moment - let your light shine so the Father gets credit, not my personal brand."
 shareable_lines:
-  - "Good works aren't for hiding - let people see the Father in how I live, not perform for applause."
-  - "You're the light of the world, like a city on a hill. (Matthew 5:14-16)."
-  - "The point isn't performance for applause - Jesus warns against practicing righteousness to be seen by people (Matthew 6:1). Good…"
-  - "I brought extra water for the whole bench and almost posted about it"
+  - "Good works aren't for hiding."
+  - "Let people see the Father in how I live, not perform for applause."
+  - "The point isn't performance for applause."
+  - "Jesus warns against practicing righteousness to be seen by people (Matthew 6:1)."
 relationships:
   - type: contradicts
     wikilink: "[[The Garage Concept]]"

@@ -12,8 +12,8 @@ examples:
 shareable_lines:
   - "Slow productivity is fewer active projects so work finishes deep instead of piling as guilt."
   - "Busy isn't the same as finished."
-  - "I run fewer active projects so notes become shipped work, not a guilt backlog - that's the pushback on busy-as-virtue. Deep Work…"
-  - "I dropped a fourth side project to finish one book draft"
+  - "I run fewer active projects so notes become shipped work, not a guilt backlog."
+  - "That's the pushback on busy-as-virtue."
 relationships:
   - type: contradicts
     wikilink: "[[The 12 Week Year]]"

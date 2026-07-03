@@ -6,6 +6,8 @@ key_concept: |
   You take the hit, recover, and stay useful - not pretend the hit didn't hurt.
   
   Resilience is absorbing setback without quitting or becoming useless to the people counting on you.
+  
+  Stay useful to the people counting on you after the hit lands.
 examples:
   - "Commute delays wrecked my morning three days straight - I left earlier Thursday instead of cursing the traffic and showing up late again."
   - "Our Saturday rush blew up - honest huddle, quiet week, smaller menu, not acting like Friday never happened."
@@ -13,7 +15,7 @@ shareable_lines:
   - "I bend without lying to myself that the hit didn't cost anything."
   - "You take the hit, recover, and stay useful - not pretend the hit didn't hurt."
   - "Resilience is absorbing setback without quitting or becoming useless to the people counting on you."
-  - "Commute delays wrecked my morning three days straight"
+  - "Stay useful to the people counting on you after the hit lands."
 relationships:
   - type: contradicts
     wikilink: "[[Own the Error]]"

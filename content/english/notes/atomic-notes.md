@@ -12,9 +12,9 @@ examples:
   - "\"Where we meet if the elevator is out\" is one claim; \"elevator outage and parking-gate codes\" is two - split and wikilink."
 shareable_lines:
   - "If a note needs three ands to make its point, I split it before I link it."
-  - "One claim I'd say out loud - too many ands, split it."
-  - "**Rule of thumb:** one thing I'd cite in conversation - \"why middle-click saves tab chaos\" is atomic; \"browser tips and meeting…"
-  - "Small notes stack like Lego blocks - linked, not merged. Link with `wikilinks`; let Maps of Content and backlinks do the…"
+  - "One claim I'd say out loud."
+  - "Too many ands, split it."
+  - "Rule of thumb: one thing I'd cite in conversation."
 relationships:
   - type: alternative
     wikilink: "[[Mind Mapping]]"

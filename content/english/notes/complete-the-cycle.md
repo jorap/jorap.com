@@ -12,8 +12,8 @@ examples:
 shareable_lines:
   - "The meeting isn't done until recap, owners, dates, and verification close the loop."
   - "A meeting needs follow-up."
-  - "A decision needs execution. A mistake needs correction. A task needs verification. The loop closes when the downstream work is…"
-  - "Halftime talk ended with \"we'll fix the press tomorrow\""
+  - "A decision needs execution."
+  - "A mistake needs correction."
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Viable Product]]"

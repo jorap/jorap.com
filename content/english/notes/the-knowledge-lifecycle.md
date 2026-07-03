@@ -2,15 +2,18 @@
 title: "The Knowledge Lifecycle"
 meta_title: "The Knowledge Lifecycle - From Spark to Archive"
 description: "Ideas move through capture, use, polish, fade, and archive in my vault - I match effort to the stage."
-key_concept: "Ideas move through capture, use, polish, fade, and archive - spend effort where the note actually is."
+key_concept: |
+  Ideas move through capture, use, polish, fade, and archive - spend effort where the note actually is.
+  
+  Match effort to the stage the note is in, not the stage you wish it were.
 examples:
   - "The new set play lives in \"learning\" for three weeks, graduates to \"game plan,\" then gets archived when we change offense."
   - "The school FAQ note started as a fleeting capture, got updated all semester, then moved to archive when the kid changed schools."
 shareable_lines:
-  - "Ideas move through capture, use, polish, fade, and archive in my vault - I match effort to the stage."
-  - "Ideas move through capture, use, polish, fade, and archive - spend effort where the note actually is."
-  - "The new set play lives in \"learning\" for three weeks, graduates to \"game plan,\" then gets archived when we change offense."
-  - "The school FAQ note started as a fleeting capture, got updated all semester, then moved to archive when the kid changed schools."
+  - "Ideas move through capture, use, polish, fade, and archive in my vault."
+  - "I match effort to the stage."
+  - "Spend effort where the note actually is."
+  - "Match effort to the stage the note is in, not the stage you wish it were."
 relationships:
   - type: contradicts
     wikilink: "[[Evergreen Notes]]"

@@ -10,10 +10,10 @@ examples:
   - "I snapped at my kid and dread hit like God revoked my heaven ticket - standing was settled at faith; I confessed and walked the closeness back."
   - "Hidden sin exposed and shame screamed I'm not saved - justified on Christ already; fellowship needed repair, not a new salvation transaction."
 shareable_lines:
-  - "Standing with God is settled at faith; fellowship breaks when I sin and restores when I confess - two ledgers."
+  - "Standing with God is settled at faith; fellowship breaks when I sin and restores when I confess."
+  - "Two ledgers."
   - "Free Grace secured eternal life once."
-  - "Standing is the verdict: declared righteous on Christ, not re-opened by a bad week. Fellowship is closeness: joy, prayer, worship…"
-  - "I snapped at my kid and dread hit like God revoked my heaven ticket"
+  - "Fellowship is closeness: joy, prayer, worship."
 relationships:
   - type: alternative
     wikilink: "[[Compounding]]"

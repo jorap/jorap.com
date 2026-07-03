@@ -12,8 +12,8 @@ examples:
 shareable_lines:
   - "Grace is gift I never earned starting with salvation and continuing through the walk after, not wages I could stack."
   - "Mercy withholds what I deserve; grace gives what I couldn't earn."
-  - "Same rescue, two angles - rich in mercy, saved by grace (Ephesians 2:4-5). Free Grace is grace applied to eternal life: Christ…"
-  - "A teammate listed every good deed this month like it was his ticket to heaven"
+  - "Same rescue, two angles."
+  - "Rich in mercy, saved by grace (Ephesians 2:4-5)."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

@@ -12,8 +12,8 @@ examples:
 shareable_lines:
   - "I obey today because Christ already saved me, not to buy or re-earn eternal life."
   - "Discipleship is the daily walk; Sanctification is slow becoming."
-  - "Grateful obedience is the posture: I obey because Christ already saved me, not to buy the ticket. Fruits of the Spirit is what…"
-  - "Grace clear in my head and zero change in how I treated people at the front desk"
+  - "Fruits of the Spirit is what shows up when the posture is real."
+  - "Love, patience, gentleness grown by the Spirit, not performed for credit."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

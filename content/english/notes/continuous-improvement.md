@@ -11,9 +11,9 @@ examples:
   - "The barista changed one milk-steaming step after every burned latte - kaizen in the steam wand, not a grand retraining day that never happens."
 shareable_lines:
   - "Each miss becomes one tweak to the process, not a lecture about trying harder."
-  - "Small fixes to how you work, repeated - each miss feeds the next version of the process."
+  - "Small fixes to how you work, repeated."
+  - "Each miss feeds the next version of the process."
   - "Continuous improvement is steady small upgrades to process and skill - not one heroic overhaul."
-  - "I tweak one line in my weekly review checklist after each miss"
 relationships:
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"

@@ -11,10 +11,10 @@ examples:
   - "Five tags I actually filter by beat thirty I never click."
   - "The filing system had three drawers - everyone knew where the warranty went."
 shareable_lines:
-  - "Tags, folders, and types are how I find notes later - classification in service of retrieval."
-  - "A classification scheme - folders, tags, types - for finding things later."
-  - "Tags and types only help when the list stays short enough you'd actually pick from it."
-  - "Metadata Strategy plans tags; taxonomy is the short list you'd actually use."
+  - "Tags, folders, and types are how I find notes later."
+  - "Classification in service of retrieval."
+  - "A classification scheme."
+  - "Folders, tags, types - for finding things later."
 relationships:
   - type: contradicts
     wikilink: "[[Linking by Meaning]]"

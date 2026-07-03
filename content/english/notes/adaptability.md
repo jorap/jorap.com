@@ -6,14 +6,16 @@ key_concept: |
   Keep the goal, swap the method when the ground moves.
   
   Adaptability is changing method without losing aim when conditions, tools, or opponents shift.
+  
+  Same aim, different plan when the ground moves.
 examples:
   - "Rain canceled our outdoor run and we moved practice to the covered court - same goal of getting reps in, different floor when the weather shifted."
   - "The school bus was late so we walked - same deadline for drop-off, different route when the morning plan broke."
 shareable_lines:
-  - "Adaptability swaps the method when conditions shift - same aim, different plan."
+  - "Adaptability swaps the method when conditions shift."
+  - "Same aim, different plan."
   - "Keep the goal, swap the method when the ground moves."
   - "Adaptability is changing method without losing aim when conditions, tools, or opponents shift."
-  - "Rain canceled our outdoor run and we moved practice to the covered court"
 relationships:
   - type: contradicts
     wikilink: "[[Let Your Yes Be Yes]]"

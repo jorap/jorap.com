@@ -11,9 +11,9 @@ examples:
   - "Gym wanted class schedule from booking SaaS - embed the vendor widget; static shell around it was fine."
 shareable_lines:
   - "Static sites fit text and images on git push - not live databases or mystery WordPress admins."
-  - "Scope the sales call before I quote Selling Static Sites - say no to bad fits in the room, not after deposit."
-  - "**Good fits:** portfolio, org brochure, small business presence, project docs, blog where owner learns Git or pays retainer…"
-  - "Cafe owner wanted online ordering"
+  - "Scope the sales call before I quote Selling Static Sites."
+  - "Say no to bad fits in the room, not after deposit."
+  - "Minimum Effective Dose: smallest site that solves the job."
 relationships:
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"

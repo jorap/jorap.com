@@ -6,14 +6,16 @@ key_concept: |
   When nobody gets injured, organizations often relax.
   
   The opposite read is usually right: the system failed, and luck blocked the worst outcome. A rescue, a panic incident, or a loss of control should trigger investigation and redesign before anyone runs the same activity again.
+  
+  Luck covering a near-miss is not proof the system works.
 examples:
   - "A swimmer needed rescue during the same open-water drill last month - that's a warning to stop, not proof the safety boat can handle it forever."
   - "The toddler almost fell off the same chair twice - survival doesn't prove the setup is safe; fix the hazard before the third time."
 shareable_lines:
   - "A close call means the system nearly failed, not that we got proof the activity was safe because nobody died."
   - "When nobody gets injured, organizations often relax."
-  - "The opposite read is usually right: the system failed, and luck blocked the worst outcome. A rescue, a panic incident, or a loss…"
-  - "A swimmer needed rescue during the same open-water drill last month"
+  - "The opposite read is usually right: the system failed, and luck blocked the worst outcome."
+  - "Luck covering a near-miss is not proof the system works."
 relationships:
   - type: contradicts
     wikilink: "[[Normalization of Deviance]]"

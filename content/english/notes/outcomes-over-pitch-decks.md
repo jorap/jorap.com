@@ -12,8 +12,8 @@ examples:
 shareable_lines:
   - "Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura."
   - "Smooth talkers ship thorns sometimes."
-  - "I look at downstream stress, turnover, delivery, and whether the team got healthier or more brittle. On Static Site Client Scope…"
-  - "The trainer's Instagram was polished"
+  - "On Static Site Client Scope, same filter: pick WordPress or Shopify when the fruit requires it."
+  - "Don't sell Free Tier Hosting Stack because it's my favorite hammer."
 relationships:
   - type: contradicts
     wikilink: "[[Life Before Achievement]]"

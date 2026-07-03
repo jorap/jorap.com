@@ -10,10 +10,10 @@ examples:
   - "If the phone dies mid-grocery run, the list on the fridge still works."
   - "Grandma's recipe cards live in the kitchen drawer - not an app that might vanish."
 shareable_lines:
-  - "Local-first means my device holds the truth; sync is optional icing. That's how I want my brain's backup to behave."
+  - "Local-first means my device holds the truth; sync is optional icing."
+  - "That's how I want my brain's backup to behave."
   - "Local-first means your device holds the truth; choose what's public, what's private, and what gets encrypted."
   - "Sync should merge edits without picking last-write-wins by clock alone."
-  - "If the phone dies mid-grocery run, the list on the fridge still works."
 relationships:
   - type: alternative
     wikilink: "[[Building a Personal API]]"

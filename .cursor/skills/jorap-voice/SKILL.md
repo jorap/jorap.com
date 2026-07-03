@@ -172,6 +172,7 @@ Notes use **two registers**. Wiki prose can be denser; cards must stay plain.
 | `description` | Memorable definition, one breath | "Eternal life is Christ's gift by faith alone - not wages for good works." / "Save what resonates into one inbox - then empty it weekly." |
 | `key_concept` | Punch line, then expansion with wikilinks | Line 1: short claim. Blank line. Then lanes, links, "first X, then Y" |
 | `examples` | Two scenes, different domains, same move | Sports + jeepney, deploy + kitchen, coffee + sideline - not two variants of one scene |
+| `shareable_lines` | Four independent principle-only quotes from `description` + `key_concept` | Paste-ready for Slack or slides. Each line stands alone - complete sentence, not a fragment or clause split from another line. No examples, no relationship tension, no wikilinks |
 | `relationships.reason` | Short clause, telegraphic OK | "Rollback first; after-action review after calm - not root-cause while users are down" |
 | `cards` | Plainest layer - see [flashcards](../flashcards/SKILL.md) | Cue → apply. No definition backs, no truncated fragments |
 
@@ -211,6 +212,7 @@ Recipe content can be more instructional - ingredients, steps, timings - but sec
 - [ ] `description` reads in one breath — memorable definition, ≤20 words, no `[[wikilinks]]`
 - [ ] `key_concept` opens with a punch, not a dictionary definition
 - [ ] Two `examples` from different life surfaces (not two tweaks of one scene)
+- [ ] `shareable_lines` are four independent principle-only quotes from `description` and `key_concept` - complete sentences, no duplicates, fragments, examples, or "Tension with…"
 - [ ] `relationships.reason` is a clause, not a paragraph
 - [ ] Cards pass [flashcards](../flashcards/SKILL.md) *and* plain-words test - no definition backs, no fragments
 - [ ] Theology/PKM term glossed in plain English before the wikilink stack

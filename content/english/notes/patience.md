@@ -11,10 +11,10 @@ examples:
   - "I snapped at my kid after a week with almost no prayer - Galatians patience comes from walking by the Spirit, not forcing virtue until Friday."
   - "Cut off in traffic, my first instinct matched horn for horn - patience fruit was one breath before I became the driver I hate."
 shareable_lines:
-  - "I wait without turning brittle - the Spirit grows a slow fuse, not a countdown to snapping."
+  - "I wait without turning brittle."
+  - "The Spirit grows a slow fuse, not a countdown to snapping."
   - "A slow fuse the Spirit grows in believers - not gritted teeth until Friday or forcing through a dry prayer week (Galatians 5:22)."
-  - "Fruits of the Spirit names patience in the same cluster as gentleness and self-control - endurance under delay and providence…"
-  - "Slow the Moment is the garden echo: one beat before reaction buys the Spirit room to answer instead of the urge. Abide in Me is…"
+  - "Fruits of the Spirit names patience in the same cluster as gentleness and self-control."
 relationships:
   - type: contradicts
     wikilink: "[[Ship It]]"

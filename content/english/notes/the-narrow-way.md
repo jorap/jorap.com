@@ -11,10 +11,10 @@ examples:
   - "Group chat gossip was \"just joking\" - narrow way was not forwarding the screenshot even when staying out made me the odd one."
   - "Everyone cheered the dirty play that won - the narrow way was passing it up when the ref didn't see, even alone on the bench."
 shareable_lines:
-  - "The road to life is narrow and hard - the easy broad path is the one I'd drift onto."
-  - "Enter by the narrow gate - the road to life is hard and few find it; the broad road to destruction is easy and crowded (Matthew…"
-  - "In Free Grace terms, the narrow gate is Free Grace in Christ - not the broad road of self-righteousness, religion-by-works, or…"
-  - "Jesus closes the Sermon on the Mount with a fork: not everyone who says \"Lord, Lord\" enters (Matthew 7:21-23). Those are false…"
+  - "The road to life is narrow and hard."
+  - "The easy broad path is the one I'd drift onto."
+  - "Enter by the narrow gate."
+  - "The road to life is hard and few find it; the broad road to destruction is easy and crowded (Matthew 7:13-14)."
 relationships:
   - type: alternative
     wikilink: "[[Loss of Reward]]"

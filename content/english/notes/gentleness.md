@@ -10,9 +10,9 @@ examples:
   - "I helped a neighbor move and waited for credit in the group chat - gentleness fruit serves without grasping for status."
 shareable_lines:
   - "Gentleness fruit is strength held back on purpose, not weakness or loud correction that skips love."
-  - "Fruits of the Spirit lists gentleness beside patience and self-control - power restrained, not power absent. (Galatians 5:22)."
-  - "Humility and Service is the garden echo: greatness is serving, not being served; the Son washed feet the night before the cross…"
-  - "Correction with my kid turned sharp"
+  - "Fruits of the Spirit lists gentleness beside patience and self-control."
+  - "Power restrained, not power absent. (Galatians 5:22)."
+  - "Listen Before Fixing is gentleness in conversation."
 relationships:
   - type: alternative
     wikilink: "[[Self-Control]]"

@@ -2,15 +2,18 @@
 title: "Signal vs Noise"
 meta_title: "Signal vs Noise in Your Information Diet"
 description: "I save only what changes what I do or believe this month - most feeds are noise."
-key_concept: I save only what changes what I do or believe this month - most content is noise.
+key_concept: |
+  I save only what changes what I do or believe this month - most content is noise.
+  
+  If it won't change action or belief this month, it's noise.
 examples:
   - "The trade-rumor thread was loud all week - signal was the one injury note that actually changed our lineup; the rest I admired and skipped."
   - "The dentist waiting room had a stack of magazines - if it won't change what I do this month, headline only, no mental slot."
 shareable_lines:
-  - "I save only what changes what I do or believe this month - most feeds are noise."
-  - "I save only what changes what I do or believe this month - most content is noise."
-  - "The trade-rumor thread was loud all week"
-  - "The trade-rumor thread was loud all week - signal was the one injury note that actually changed our lineup; the rest I admired…"
+  - "I save only what changes what I do or believe this month."
+  - "Most feeds are noise."
+  - "Most content is noise."
+  - "If it won't change action or belief this month, it's noise."
 relationships:
   - type: alternative
     wikilink: "[[Active Knowledge Curation]]"

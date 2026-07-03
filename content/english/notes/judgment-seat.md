@@ -10,10 +10,10 @@ examples:
   - "I pictured standing before Christ and panicked like heaven might get revoked - the judgment seat evaluates works for reward; salvation was settled at faith."
   - "Years of church service felt like my ticket in - what gets weighed is faithful obedience after salvation, not a re-trial on who gets eternal life."
 shareable_lines:
-  - "Believers stand before Christ after salvation to have works evaluated for reward - eternal life was already settled by faith."
+  - "Believers stand before Christ after salvation to have works evaluated for reward."
+  - "Eternal life was already settled by faith."
   - "Free Grace and Justification already decided where I spend forever."
-  - "The judgment seat (Greek *bema* - think awards podium, not criminal court) decides what reward faithful living earned. Eternal…"
-  - "I pictured standing before Christ and panicked like heaven might get revoked"
+  - "Secret Devotion and Let Your Light Shine both show up in the ledger."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

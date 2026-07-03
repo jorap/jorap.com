@@ -3,12 +3,17 @@ note_kind: "index"
 title: "Maps of Content"
 meta_title: "Maps of Content (MOC) - Index Pages That Think"
 description: "I write hub notes by hand when one topic spreads across too many files to hold in my head."
-key_concept: A MOC is a curated index of notes on a topic - a table of contents I write by hand.
+key_concept: |
+  A MOC is a curated index of notes on a topic.
+  
+  Write the hub by hand when the topic sprawls past what you can hold in memory.
+  
+  A table of contents I write by hand beats whatever the folder tree implies.
 shareable_lines:
   - "I write hub notes by hand when one topic spreads across too many files to hold in my head."
-  - "A MOC is a curated index of notes on a topic - a table of contents I write by hand."
-  - "Maps of Content — I write hub notes by hand when one topic spreads across too many files to hold in my head."
-  - "More on Maps of Content in JoRap Notes."
+  - "A MOC is a curated index of notes on a topic."
+  - "Write the hub by hand when the topic sprawls past what you can hold in memory."
+  - "A table of contents I write by hand beats whatever the folder tree implies."
 slug: "maps-of-content"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"

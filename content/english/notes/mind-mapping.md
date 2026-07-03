@@ -2,15 +2,18 @@
 title: "Mind Mapping"
 meta_title: "Mind Mapping - Spatial Thinking Before Linear Notes"
 description: "Mind maps are for the messy first pass - branches, bubbles, relationships. I export to atomic notes after, not instead."
-key_concept: "Mind maps and sketches are the messy first pass - turn them into atomic notes after, not instead."
+key_concept: |
+  Mind maps and sketches are the messy first pass - turn them into atomic notes after, not instead.
+  
+  Branches and bubbles first; atomic notes after.
 examples:
   - "I sketched a bubble map of our season goals on paper, then each branch became its own drill checklist."
   - "I sketch a messy bubble map before our road trip, then each branch becomes its own packing list on the fridge."
 shareable_lines:
-  - "Mind maps are for the messy first pass - branches, bubbles, relationships. I export to atomic notes after, not instead."
-  - "Mind maps and sketches are the messy first pass - turn them into atomic notes after, not instead."
-  - "I sketched a bubble map of our season goals on paper, then each branch became its own drill checklist."
-  - "I sketch a messy bubble map before our road trip, then each branch becomes its own packing list on the fridge."
+  - "Mind maps are for the messy first pass."
+  - "Branches, bubbles, relationships."
+  - "I export to atomic notes after, not instead."
+  - "Mind maps and sketches are the messy first pass."
 relationships:
   - type: contradicts
     wikilink: "[[Atomic Notes]]"

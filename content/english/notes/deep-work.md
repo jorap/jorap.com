@@ -3,17 +3,17 @@ title: "Deep Work"
 meta_title: "Deep Work"
 description: "I protect uninterrupted blocks for hard thinking and let capture catch what tries to interrupt."
 key_concept: |
-  Protected focus blocks; [[Capture]] handles the rest ([[Capture]]).
+  Protected focus blocks; Capture handles the rest.
   
-  Tension with [[Mobile Capture Workflows]] when the opposite frame fits better.
+  Hard thinking earns a protected block. Capture handles what tries to interrupt it.
 examples:
   - "Phone in the drawer while I help with math - one problem set actually finished instead of three distracted false starts."
   - "Phone in the gym bag for ninety minutes - one drill breakdown written that'd been \"almost done\" for weeks."
 shareable_lines:
   - "I protect uninterrupted blocks for hard thinking and let capture catch what tries to interrupt."
-  - "Protected focus blocks; Capture handles the rest (Capture)."
-  - "Tension with Mobile Capture Workflows when the opposite frame fits better."
-  - "Phone in the drawer while I help with math"
+  - "Protected focus blocks; Capture handles the rest."
+  - "Hard thinking earns a protected block."
+  - "Capture handles what tries to interrupt it."
 relationships:
   - type: contradicts
     wikilink: "[[Mobile Capture Workflows]]"

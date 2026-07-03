@@ -10,9 +10,9 @@ examples:
   - "Performing joy at church while empty at home told me I was manufacturing fruit - abide first, then gladness shows up."
 shareable_lines:
   - "Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance."
-  - "Fruits of the Spirit names joy beside love and peace in one cluster - grown by walking in the Spirit, not manufactured for…"
-  - "Assurance is the garden echo: rest on what Christ finished, not this week's report card. Abide in Me is the engine - performing…"
-  - "Good week at work and I felt spiritually qualified"
+  - "Fruits of the Spirit names joy beside love and peace in one cluster."
+  - "Grown by walking in the Spirit, not manufactured for credit. (Galatians 5:22)."
+  - "Abide in Me is the engine."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

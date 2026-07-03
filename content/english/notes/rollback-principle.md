@@ -10,10 +10,10 @@ examples:
   - "Bad Friday deploy - I reverted in standup, said my call, fixed Monday. Users got the old build before lunch; after-action review waited until the site was calm."
   - "The point guard ran Tuesday's inbound at halftime when the new play bled points - rollback was the drill they'd already walked, not a whiteboard invention."
 shareable_lines:
-  - "Restore the last good state before you push - when the new state breaks, revert first, debug second."
+  - "Restore the last good state before you push."
+  - "When the new state breaks, revert first, debug second."
   - "If I can't explain the path back in one sentence, I'm not ready to ship."
-  - "Reversibility is the decision frame; rollback is the rehearsed move. Last quarter I kept a bad Friday deploy live because I…"
-  - "Bad Friday deploy"
+  - "Last quarter I kept a bad Friday deploy live because I wanted the milestone more than the rollback conversation."
 relationships:
   - type: alternative
     wikilink: "[[Blameless After-Action Review]]"

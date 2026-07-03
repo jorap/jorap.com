@@ -10,10 +10,10 @@ examples:
   - "The practice schedule lives in the task app; the playbook principles live in the notes folder - GTD runs tasks, PARA runs knowledge, cousins not competitors."
   - "The fridge list holds what we buy this week; the filing cabinet holds school forms with no deadline."
 shareable_lines:
-  - "GTD vs PARA runs tasks in one system and notes in another - cousins, not rivals."
+  - "GTD vs PARA runs tasks in one system and notes in another."
+  - "Cousins, not rivals."
   - "Tasks and knowledge need different homes."
-  - "Getting Things Done runs what has a next action and a deadline; PARA Method sorts what I'd cite with no finish line. Cousins, not…"
-  - "The practice schedule lives in the task app; the playbook principles live in the notes folder"
+  - "Cousins, not competitors."
 relationships:
   - type: contradicts
     wikilink: "[[PKM]]"

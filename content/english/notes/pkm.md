@@ -3,18 +3,17 @@ title: "PKM"
 meta_title: "PKM - Personal Knowledge Management in Plain Language"
 description: "PKM is how I save, organize, and reuse what I learn - not a hobby of collecting apps."
 key_concept: |
-  Tension with The Collector's Fallacy when building the system feels like progress without output.
-  
   PKM is the plain name for the save-organize-use system getting started introduces ([[Getting Started]]).
-  Tension with [[The Collector's Fallacy]] when building the system feels like progress without output.
+  
+  Save, organize, reuse - output beats tuning the system alone.
 examples:
   - "The team manager keeps a card file sorted by what she actually uses on game day, not every article she ever read."
   - "The school nurse keeps a card file sorted by what she actually uses on a shift, not every article she ever read."
 shareable_lines:
   - "PKM is how I save, organize, and reuse what I learn - not a hobby of collecting apps."
-  - "Tension with The Collector's Fallacy when building the system feels like progress without output."
   - "PKM is the plain name for the save-organize-use system getting started introduces (Getting Started)."
-  - "The team manager keeps a card file sorted by what she actually uses on game day, not every article she ever read."
+  - "Save, organize, reuse."
+  - "Output beats tuning the system alone."
 relationships:
   - type: alternative
     wikilink: "[[GTD vs PARA]]"

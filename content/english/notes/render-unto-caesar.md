@@ -9,10 +9,10 @@ examples:
   - "The tax bill landed and I paid what was lawful - give Caesar the coin, give God myself."
   - "School activity fees go in the envelope on Monday even when I'd rather spend it on something fun - earthly duty and worship stay distinct."
 shareable_lines:
-  - "Pay lawful civic obligations - taxes, duties owed the state - while reserving ultimate worship for God alone."
+  - "Pay lawful civic obligations."
+  - "Taxes, duties owed the state - while reserving ultimate worship for God alone."
   - "The coin bore Caesar's image; give it back to him. (Matthew 22:21)."
-  - "You bear God's image; give yourself to Him. Jesus avoids both revolutionary tax refusal and idolizing Rome. Seek the Kingdom…"
-  - "The tax bill landed and I paid what was lawful"
+  - "You bear God's image; give yourself to Him."
 relationships:
   - type: contradicts
     wikilink: "[[Treasure in Heaven]]"

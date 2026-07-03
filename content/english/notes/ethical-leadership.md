@@ -6,6 +6,8 @@ key_concept: |
   The standard you walk past is the standard you accept for everyone under you.
   
   [[Integrity]] in general; this note is the team-visible lane.
+  
+  The team copies what you tolerate, not what you preach.
 examples:
   - "I stopped the backyard wrestling match when someone was about to get hurt - same fun goal, safer path, even though the kids wanted the rougher version."
   - "The coach killed the unsafe trust-fall drill when a safer team exercise achieved the same bonding goal - authority used to protect people, not to win at their expense."
@@ -13,7 +15,7 @@ shareable_lines:
   - "What I let slide in front of my team becomes their real standard, not what's printed on the poster."
   - "The standard you walk past is the standard you accept for everyone under you."
   - "Integrity in general; this note is the team-visible lane."
-  - "I stopped the backyard wrestling match when someone was about to get hurt"
+  - "The team copies what you tolerate, not what you preach."
 relationships:
   - type: contradicts
     wikilink: "[[Outcomes Over Pitch Decks]]"

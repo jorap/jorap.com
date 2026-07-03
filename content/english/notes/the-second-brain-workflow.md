@@ -6,14 +6,18 @@ key_concept: |
   CODE and PARA in one loop starts with capture to inbox every day ([[Capture]]).
   
   Tension with [[Minimum Effective Dose]] when the full loop beats the smallest habit that works.
+  
+  Capture daily, organize by project, distill on reuse, express weekly.
+  
+  Express weekly closes the loop - capture and organize are not enough.
 examples:
   - "Links land in one inbox all week; weekly review empties it and ships one note - one loop, not separate capture and organize rituals I quit."
   - "Friday night is capture everything in one jar; Sunday is sort, toss, and file what's worth keeping."
 shareable_lines:
-  - "Capture to inbox, organize by project, distill on reuse, express weekly - CODE and PARA in one loop."
-  - "CODE and PARA in one loop starts with capture to inbox every day (Capture)."
-  - "Tension with Minimum Effective Dose when the full loop beats the smallest habit that works."
-  - "Links land in one inbox all week; weekly review empties it and ships one note"
+  - "Capture to inbox, organize by project, distill on reuse, express weekly."
+  - "CODE and PARA in one loop."
+  - "Capture daily, organize by project, distill on reuse, express weekly."
+  - "Express weekly closes the loop."
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Effective Dose]]"

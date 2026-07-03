@@ -9,10 +9,10 @@ examples:
   - "Two teammates were feuding in the locker room - I didn't pick a side, I asked what it would take to fix it before the next game."
   - "Two coworkers wanted me to pick a side over lunch - I called the one I wronged first and asked what it would take to actually fix things."
 shareable_lines:
-  - "I pursue peace on purpose - repair, truth in love, de-escalation - not just staying quiet."
-  - "Peacemaking is work: reconciliation, truth spoken in love, de-escalation when others want a fight. (Matthew 5:9)."
-  - "It's not peace-at-any-price or avoiding hard conversations. The blessing ties peacemaking to family resemblance - acting like the…"
-  - "Two teammates were feuding in the locker room"
+  - "I pursue peace on purpose."
+  - "Repair, truth in love, de-escalation - not just staying quiet."
+  - "The blessing ties peacemaking to family resemblance."
+  - "Acting like the Father who reconciled me to Himself through Free Grace before I reconciled with anyone."
 relationships:
   - type: contradicts
     wikilink: "[[Love Your Enemies]]"

@@ -11,9 +11,9 @@ examples:
   - "A friend at coffee listed every good thing he'd done this month like it was his ticket to heaven - I didn't argue; I just said I trust Christ's promise, not my report card."
 shareable_lines:
   - "Eternal life is Christ's gift received by faith alone, not wages for commandments, principles, or good works."
-  - "Grace is a gift I never earned - unmerited favor (Ephesians 2:8-9; John 3:16; Romans 4:5)."
-  - "Christ paid what I couldn't. I receive eternal life by believing His promise - not by climbing a moral ladder. Same shape as…"
-  - "A teammate listed every good deed this month like it was his ticket to heaven"
+  - "Grace is a gift I never earned."
+  - "Unmerited favor (Ephesians 2:8-9; John 3:16; Romans 4:5)."
+  - "Christ paid what I couldn't."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

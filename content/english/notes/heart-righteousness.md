@@ -9,10 +9,10 @@ examples:
   - "I smiled through the bad call and nursed the anger the whole ride home - heart righteousness is polite outside, poison inside; God cares about the inner life."
   - "I sent a cold reply that sounded professional while resentment ran inside - Jesus moves righteousness from courtroom compliance to motive."
 shareable_lines:
-  - "Heart righteousness goes deeper than outward acts - anger is murder, lust is adultery, in the heart."
-  - "Jesus didn't lower the law; he exposed its depth. (Matthew 5:21-30)."
-  - "\"You have heard… but I say\" moves righteousness from courtroom compliance to motive and imagination. Under Free Grace, this isn't…"
-  - "I smiled through the bad call and nursed the anger the whole ride home"
+  - "Heart righteousness goes deeper than outward acts."
+  - "Anger is murder, lust is adultery, in the heart."
+  - "Under Free Grace, this isn't a new merit ladder."
+  - "It's the standard the Spirit applies to a life already saved, starting where only God sees."
 relationships:
   - type: contradicts
     wikilink: "[[Let Your Light Shine]]"

@@ -6,14 +6,18 @@ key_concept: |
   Accountability turns failure into information.
   
   Name the mistake clearly, find what caused it, repair what broke, and change the process that let it through - not blame theater, not quiet hope it vanishes.
+  
+  Name the miss clearly so the team learns from it - not from blame theater.
+  
+  Repair what broke, then fix the process that let it through.
 examples:
   - "I sent the wrong attachment and named it in the reply thread before anyone else had to."
   - "The point guard called the bad pass out loud in the huddle - next play trusted faster."
 shareable_lines:
   - "Owning the error is naming the miss clearly so failure becomes information, not blame theater."
   - "Accountability turns failure into information."
-  - "Name the mistake clearly, find what caused it, repair what broke, and change the process that let it through - not blame theater…"
-  - "I sent the wrong attachment and named it in the reply thread before anyone else had to."
+  - "Name the miss clearly so the team learns from it - not from blame theater."
+  - "Repair what broke, then fix the process that let it through."
 relationships:
   - type: contradicts
     wikilink: "[[Forgiveness at Work]]"

@@ -20,8 +20,8 @@ examples:
 shareable_lines:
   - "I charge for the build and pass-off; hosting is a clear line item, not a mystery monthly bundle."
   - "My margin is labor, not hosting markup."
-  - "I already run [jorap.com](/) on Hugo, GitHub, and Cloudflare Pages for about the cost of a domain - not the $12/month PHP plan I…"
-  - "**What I quote:** discovery and Static Site Client Scope yes/no before I touch a theme; repo plus Cloudflare setup with…"
+  - "Client work uses the same lane: markdown content, a theme, git push, live in about ninety seconds."
+  - "I quote work that moves the needle; I don't resell \"hosting\" as a monthly mystery fee."
 relationships:
   - type: contradicts
     wikilink: "[[Building a Personal API]]"

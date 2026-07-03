@@ -67,7 +67,7 @@ Each atomic note stores its whole argument in frontmatter - not in the body:
 - **description** - one breath. What is this idea? Twenty words max, no wikilinks.
 - **key_concept** - the angle, not a second definition. Stakes, distinctions, `[[wikilinks]]`.
 - **examples** - exactly two scenes from different parts of life (jeepney and deploy, clinic and group chat - not two tweaks of the same story).
-- **shareable_lines** - four lines I'd paste into Slack, a standup, or a caption without editing. Max 130 characters each, plain text, no wikilinks.
+- **shareable_lines** - four lines I'd paste into Slack, a standup, or a caption without editing. Pulled from `description` and `key_concept` only - principle and angle, not examples. Max 130 characters each, plain text, no wikilinks.
 - **relationships** - typed links to other notes (more on that below).
 
 Hugo assembles `## Key Concept`, `## Examples`, `## Shareable lines`, and `## Note Relationships` at build time. The Markdown body stays empty for atomic notes. That keeps every note the same shape when you browse, copy, or export.
@@ -89,7 +89,8 @@ The rules are tight on purpose:
 - Exactly four lines per note
 - Max 130 characters each
 - Plain text only - no `[[wikilinks]]`
-- Pulled from the claim, the angle, and a title-attributed variant
+- Pulled from `description` and `key_concept` only - the claim and its angle, not `examples` or relationship tension
+- All four lines must be distinct - no duplicate claims or one line that is a fragment of another
 
 **Application:** Paste into Slack when someone asks for your framing. Drop into a slide without rewriting. Feed a social post. Hand an AI session a quotable summary without the full frontmatter dump.
 

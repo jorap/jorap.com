@@ -10,9 +10,9 @@ examples:
   - "I walked into the volunteer shift ready to serve while my co-worker still had something against me - five minutes in the parking lot first."
 shareable_lines:
   - "If your brother has something against you, go reconcile first - then come offer your gift."
-  - "Jesus elevates restored relationship over religious performance. (Matthew 5:23-24)."
-  - "Worship with an unreconciled heart is hollow. The initiative is on the one who knows there's a breach - leave the altar, go, be…"
-  - "I warmed up ready to compete while my teammate still had something against me from Wednesday"
+  - "The initiative is on the one who knows there's a breach."
+  - "Leave the altar, go, be reconciled, then return."
+  - "Same discipline as Note Relationships in the garden: broken links between notes need typed repair."
 relationships:
   - type: contradicts
     wikilink: "[[Love God]]"

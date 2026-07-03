@@ -7,12 +7,16 @@ description: "Two notes from the garden, picked at random. I hit **Shuffle** for
 key_concept: |
   Forced serendipity - two unrelated claims side by side so I notice links I forgot to make.
   
-  Utility surface: URL only, not a wikilink target from content notes.
+  Two notes from the garden, picked at random.
+  
+  Shuffle again when the pair doesn't spark a link worth making.
+  
+  Side-by-side unrelated claims surface links I forgot to make.
 shareable_lines:
-  - "Two notes from the garden, picked at random. I hit **Shuffle** for another pair. Pairs with Backlinks, Create Note, and…"
-  - "Forced serendipity - two unrelated claims side by side so I notice links I forgot to make."
-  - "Utility surface: URL only, not a wikilink target from content notes."
-  - "Random Duo — Two notes from the garden, picked at random. I hit **Shuffle** for another pair. Pairs with Backlinks, Create Note…"
+  - "Two notes from the garden, picked at random."
+  - "I hit Shuffle for another pair."
+  - "Forced serendipity."
+  - "Two unrelated claims side by side so I notice links I forgot to make."
 slug: "random-duo"
 date: "2026-06-19 08:00:00+00:00"
 image: "/images/note.jpg"

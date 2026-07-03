@@ -11,10 +11,10 @@ examples:
   - "I turned off push alerts before trying a new focus app - the pipe was the leak."
   - "My kid's group chat pinged through homework; airplane mode for forty minutes beat another planner."
 shareable_lines:
-  - "I treat my feed like a slot machine someone else owns - if I'm not paying, I'm the product."
-  - "Platforms compete for your focus - your attention is the product."
-  - "Your focus is the product - guard the pipe before optimizing the inbox."
-  - "Signal vs Noise names what to cut; Information Diet is the weekly menu habit."
+  - "I treat my feed like a slot machine someone else owns."
+  - "If I'm not paying, I'm the product."
+  - "Platforms compete for your focus."
+  - "Your attention is the product."
 relationships:
   - type: contradicts
     wikilink: "[[Digital Serendipity]]"

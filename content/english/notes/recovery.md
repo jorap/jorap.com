@@ -10,10 +10,10 @@ examples:
   - "Elite athletes schedule rest days - muscle rebuilds off the field, not another heroic scrimmage."
   - "Three late nights made me snap at bedtime - recovery was stopping at ten instead of a fourth heroic hour that hurt everyone at breakfast."
 shareable_lines:
-  - "Sleep isn't laziness for me - it's the refill that keeps judgment and patience online."
-  - "The sleep, rest, and downtime that refill what hard work drains - judgment, patience, attention."
-  - "Recovery is sleep, rest, and downtime that refill judgment - not laziness, maintenance."
-  - "Elite athletes schedule rest days"
+  - "Sleep isn't laziness for me."
+  - "It's the refill that keeps judgment and patience online."
+  - "The sleep, rest, and downtime that refill what hard work drains."
+  - "Judgment, patience, attention."
 relationships:
   - type: contradicts
     wikilink: "[[Finish Strong]]"

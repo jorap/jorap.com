@@ -12,8 +12,8 @@ examples:
 shareable_lines:
   - "Save what resonates into one inbox I trust - then empty it weekly."
   - "Friction kills capture."
-  - "One inbox, phone to desktop, weekly process - same as The Trusted Inbox. If I wouldn't act on it or cite it later, it doesn't get…"
-  - "A play tweak hits during cooldown and I scribble it on my wristband before the locker room noise eats it"
+  - "One inbox, phone to desktop, weekly process - same as The Trusted Inbox."
+  - "If I wouldn't act on it or cite it later, it doesn't get saved."
 relationships:
   - type: contradicts
     wikilink: "[[Signal vs Noise]]"

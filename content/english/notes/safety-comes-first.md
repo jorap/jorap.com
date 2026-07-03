@@ -7,10 +7,10 @@ examples:
   - "A teammate wanted to play through a head hit - I didn't \"support his call\"; I got the trainer. Following his lead would have meant ignoring the injury."
   - "My kid wanted to ride in the truck bed on a bumpy road - \"your choice\" ended at the seatbelt. We could pick music; we couldn't pick the hospital route."
 shareable_lines:
-  - "I stop the unsafe thing first, then restore choice when the situation is stable - respect isn't letting harm run."
-  - "Respect doesn't mean I ignore danger - I stop serious harm first, then restore choice when it's safe."
-  - "A teammate wanted to play through a head hit"
-  - "A teammate wanted to play through a head hit - I didn't \"support his call\"; I got the trainer. Following his lead would have…"
+  - "I stop the unsafe thing first, then restore choice when the situation is stable."
+  - "Respect isn't letting harm run."
+  - "Respect doesn't mean I ignore danger."
+  - "I stop serious harm first, then restore choice when it's safe."
 relationships:
   - type: contradicts
     wikilink: "[[Follow Their Lead]]"

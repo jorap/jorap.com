@@ -18,10 +18,10 @@ examples:
   - "Twelve client sites on one free account - hit 500 builds mid-month and Friday deploys started queuing."
   - "Build failed until Hugo was pinned - env var on every new project template now, and that failure still counted against the cap."
 shareable_lines:
-  - "Hugo, GitHub, and Cloudflare Pages ship static sites for $0 - until build caps, queues, or account limits bite."
-  - "**Free tier is not unlimited.** Re-read [Cloudflare limits](https://developers.cloudflare.com/pages/platform/limits/) before…"
-  - "Full walkthrough: [How I Built JoRap Notes](/blog/how-i-built-jorap-notes/). Same pipeline for Selling Static Sites and the…"
-  - "**Where free breaks first:** one account hosting many clients who push often burns the 500-build budget fast. A theme with…"
+  - "Hugo, GitHub, and Cloudflare Pages ship static sites for $0."
+  - "Until build caps, queues, or account limits bite."
+  - "Static bandwidth is unmetered."
+  - "That part is genuinely generous."
 relationships:
   - type: contradicts
     wikilink: "[[Building a Personal API]]"

@@ -2,15 +2,20 @@
 title: "Build a Reliable Default"
 meta_title: "Build a Reliable Default - What You Do When There's No Time"
 description: "A reliable default is the simple rehearsed move I run when thinking is thin."
-key_concept: "Make that fallback a simple, dependable response - rehearsed enough to run when thinking is thin."
+key_concept: |
+  Make that fallback a simple, dependable response - rehearsed enough to run when thinking is thin.
+  
+  When thinking is thin, run the script you already rehearsed.
+  
+  The rehearsed move beats improvising when the clock is loud.
 examples:
   - "The clinic front desk doesn't make up triage order when three walk-ins arrive - they run the laminated sheet taped by the phone. One script, no guessing."
   - "Our family fire plan is one page on the fridge: two exits, where we meet, who grabs the baby. Last blackout, my kid ran it half-asleep and nobody guessed."
 shareable_lines:
   - "A reliable default is the simple rehearsed move I run when thinking is thin."
-  - "Make that fallback a simple, dependable response - rehearsed enough to run when thinking is thin."
-  - "The clinic front desk doesn't make up triage order when three walk-ins arrive"
-  - "The clinic front desk doesn't make up triage order when three walk-ins arrive - they run the laminated sheet taped by the phone…"
+  - "Make that fallback a simple, dependable response."
+  - "Rehearsed enough to run when thinking is thin."
+  - "When thinking is thin, run the script you already rehearsed."
 relationships:
   - type: contradicts
     wikilink: "[[First Principles Thinking]]"

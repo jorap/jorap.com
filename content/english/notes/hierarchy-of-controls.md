@@ -3,17 +3,19 @@ title: "Hierarchy of Controls"
 meta_title: "Hierarchy of Controls"
 description: "Remove the hazard first, then substitute, engineer, admin, PPE - in that order."
 key_concept: |
-  Named rollback is a control layer before irreversible harm.
+  Eliminate the hazard before warnings, admin, or PPE.
   
-  [[Rollback Principle]] names named rollback is a control layer before irreversible harm.
+  Guard rails beat signs when you can remove the hazard instead.
+  
+  Named rollback is a control layer before irreversible harm.
 examples:
   - "We removed the wet patch on the court instead of adding \"slow down\" signs - guard rails beat warnings; removing the hazard beats both."
   - "We taped down the rug corner instead of yelling \"watch your step\" every night - hierarchy of controls: eliminate first, then engineer, admin, PPE last."
 shareable_lines:
-  - "Remove the hazard first, then substitute, engineer, admin, PPE - in that order."
-  - "Named rollback is a control layer before irreversible harm."
-  - "Rollback Principle names named rollback is a control layer before irreversible harm."
-  - "We removed the wet patch on the court instead of adding \"slow down\" signs"
+  - "Remove the hazard first, then substitute, engineer, admin, PPE."
+  - "In that order."
+  - "Eliminate the hazard before warnings, admin, or PPE."
+  - "Guard rails beat signs when you can remove the hazard instead."
 relationships:
   - type: contradicts
     wikilink: "[[Standard Operating Procedures]]"

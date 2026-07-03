@@ -12,8 +12,8 @@ examples:
 shareable_lines:
   - "After salvation is settled, stewardship is about faithful use of what God entrusted, not buying heaven with busy weeks."
   - "Free Grace settled where I spend forever."
-  - "Stewardship settles what I do with what He entrusted after. The master returns to settle accounts - faithful use repaid, buried…"
-  - "I organized snacks for my kid's team and wanted credit all week"
+  - "The master returns to settle accounts."
+  - "Faithful use repaid, buried talent rebuked."
 relationships:
   - type: contradicts
     wikilink: "[[Free Grace]]"

@@ -2,15 +2,20 @@
 title: "Attention to Detail"
 meta_title: "Attention to Detail - Small Misses Become Big Failures"
 description: "I catch the typo and the edge case before they turn into an incident or a dumb customer email."
-key_concept: "Attention to detail is catching the typo, edge case, and loose end before they become incidents."
+key_concept: |
+  Attention to detail is catching the typo, edge case, and loose end before they become incidents.
+  
+  Small misses compound into incidents when nobody catches them early.
+  
+  Catch loose ends before they become customer-facing incidents.
 examples:
   - "We almost threw the inbounds pass on the wrong side of the line because two hash marks looked identical - the second read of the court map caught it."
   - "A nurse almost gave the wrong dose because two bags looked identical - the second read of the label caught it before it left her hands."
 shareable_lines:
   - "I catch the typo and the edge case before they turn into an incident or a dumb customer email."
   - "Attention to detail is catching the typo, edge case, and loose end before they become incidents."
-  - "We almost threw the inbounds pass on the wrong side of the line because two hash marks looked identical"
-  - "We almost threw the inbounds pass on the wrong side of the line because two hash marks looked identical - the second read of the…"
+  - "Small misses compound into incidents when nobody catches them early."
+  - "Catch loose ends before they become customer-facing incidents."
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Viable Product]]"

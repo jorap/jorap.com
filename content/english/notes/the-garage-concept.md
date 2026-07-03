@@ -10,10 +10,10 @@ examples:
   - "The practice film library is messy; the highlight reel for parents is one clean cut - garage holds scraps, showroom shows the finished piece."
   - "The garage holds half-finished projects and sawdust; the front porch shows the one bench I'd invite a neighbor to sit on."
 shareable_lines:
-  - "My vault is the garage for scraps and experiments - the blog is the showroom, and I keep them separate."
-  - "The garage holds tools, scraps, experiments. The showroom is the blog. I don't confuse the two."
-  - "Client pass-off uses the same split: Selling Static Sites workshop in my drafts; the client's deploy branch is the showroom on…"
-  - "The practice film library is messy; the highlight reel for parents is one clean cut"
+  - "My vault is the garage for scraps and experiments."
+  - "The blog is the showroom, and I keep them separate."
+  - "The garage holds tools, scraps, experiments."
+  - "The showroom is the blog."
 relationships:
   - type: contradicts
     wikilink: "[[Drafting in Public]]"

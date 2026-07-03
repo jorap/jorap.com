@@ -10,10 +10,10 @@ examples:
   - "The neighbor argument on the group chat heated up and I waited one beat before replying - people read calm as competence even when the issue is real."
   - "I used the same move in a heated parent meeting - slower speech, one clarifying question, no matching their volume."
 shareable_lines:
-  - "Composure is steady voice and pace when the room isn't - people read calm as competence."
-  - "Steady tone and pace when the room isn't - people read calm as competence."
+  - "Composure is steady voice and pace when the room isn't."
+  - "People read calm as competence."
+  - "Steady tone and pace when the room isn't."
   - "Composure is staying readable and deliberate when others speed up or heat up."
-  - "The neighbor argument on the group chat heated up and I waited one beat before replying"
 relationships:
   - type: contradicts
     wikilink: "[[The 12 Week Year]]"

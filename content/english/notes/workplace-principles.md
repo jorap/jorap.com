@@ -4,14 +4,16 @@ title: "Workplace Principles"
 meta_title: "Workplace Principles - Eternal Ethics in Plain Office Language"
 description: "The same ethics as Eternal Principles, in plain office language where religious terms sound awkward."
 key_concept: |
-  Each note below is one claim I'd say in a standup or a 1:1 - plain language, meeting-sized examples, wikilink back to the gospel source when I need the full depth.
+  One standup-sized claim per note - plain language I can share with a secular team.
   
   Faith stays in the faith cluster; these are the versions I can share with a secular team without watering down the move.
+  
+  Meeting-sized examples with wikilink back to gospel depth when I need the full move.
 shareable_lines:
   - "The same ethics as Eternal Principles, in plain office language where religious terms sound awkward."
-  - "Each note below is one claim I'd say in a standup or a 1:1 - plain language, meeting-sized examples, wikilink back to the gospel…"
+  - "One standup-sized claim per note."
+  - "Plain language I can share with a secular team."
   - "Faith stays in the faith cluster; these are the versions I can share with a secular team without watering down the move."
-  - "Workplace Principles — The same ethics as Eternal Principles, in plain office language where religious terms sound awkward."
 relationships:
   - type: alternative
     wikilink: "[[Maps of Content]]"

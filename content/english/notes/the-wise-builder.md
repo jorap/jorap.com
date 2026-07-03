@@ -9,10 +9,10 @@ examples:
   - "We heard the coach's lecture on discipline and still skipped film study Tuesday - hearing without doing is sand; storms show which builder you are."
   - "Safety training Monday, same shortcut Wednesday - wise builder hears and does; fool hears and nods."
 shareable_lines:
-  - "Hearing the words isn't enough - I build on rock when I actually do what Jesus said."
-  - "Both builders hear the sermon; only one obeys. (Matthew 7:24-27)."
-  - "Storms reveal which foundation held. Under Free Grace, doing isn't what saves - faith saves - but genuine hearing produces…"
-  - "We heard the coach's lecture on discipline and still skipped film study Tuesday"
+  - "Hearing the words isn't enough."
+  - "I build on rock when I actually do what Jesus said."
+  - "Under Free Grace, doing isn't what saves."
+  - "Faith saves - but genuine hearing produces action."
 relationships:
   - type: contradicts
     wikilink: "[[The Narrow Way]]"

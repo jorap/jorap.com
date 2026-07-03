@@ -11,10 +11,10 @@ examples:
   - "My kid asked if God likes him yet - I said God already declared him righteous the moment he trusted Christ, not when his room got clean."
   - "I snapped at the cashier and felt like I was back on probation with God - justification means my standing was settled at faith; confession restores fellowship, it doesn't re-buy heaven."
 shareable_lines:
-  - "God declared me righteous at faith - before my obedience caught up."
-  - "God declares me righteous through faith in Christ alone - once, at faith, before my obedience catches up (Romans 3:24, 4:5, 5:1)."
-  - "Free Grace names the gift; justification names the legal move: guilty sinner, faith in Christ, declared not guilty - Christ's…"
-  - "Same shape as Minimum Effective Dose: one sufficient act at the start, not a lifetime of merit stacked before God says yes…"
+  - "God declared me righteous at faith."
+  - "Before my obedience caught up."
+  - "God declares me righteous through faith in Christ alone."
+  - "Once, at faith, before my obedience catches up (Romans 3:24, 4:5, 5:1)."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

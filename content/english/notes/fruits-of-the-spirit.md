@@ -24,9 +24,9 @@ examples:
   - "Performing joy at church while empty at home told me I was manufacturing fruit - abiding first, then the cluster grows."
 shareable_lines:
   - "Love through self-control is one Spirit-grown cluster in believers, not a merit checklist that buys heaven."
-  - "One cluster the Spirit grows - love, joy, peace, patience, and the rest in Galatians 5. (Galatians 5:22-23)."
-  - "Paul contrasts **works of the flesh** (sexual immorality, jealousy, fits of anger, envy, and the rest in Galatians 5:19-21) with…"
-  - "Abide in Me names the engine in John: branches bear fruit because they stay in the vine. Sanctification is the slow becoming that…"
+  - "One cluster the Spirit grows."
+  - "Love, joy, peace, patience, and the rest in Galatians 5. (Galatians 5:22-23)."
+  - "By Their Fruits uses the same word differently: discern teachers by outcome, not charisma."
 relationships:
   - type: alternative
     wikilink: "[[By Their Fruits]]"

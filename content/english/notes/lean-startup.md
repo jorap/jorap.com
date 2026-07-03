@@ -6,14 +6,16 @@ key_concept: |
   Build the smallest test, measure, learn - don't scale before validation.
   
   [[Selling Static Sites]] follows the same loop: one paid build, note what broke (migration time, client Git panic, deploy quirks), fix the template, quote the next job faster.
+  
+  Validate before you scale - polish comes after proof someone wants it.
 examples:
   - "Ten parents signed a waitlist before we booked the full tournament venue - smallest test, measure interest, learn before scaling."
   - "Ten customers on a lunch special before we rewrote the whole menu - build the smallest test, don't scale before validation."
 shareable_lines:
   - "I'd rather ship a rough test and learn than polish a product nobody wanted."
-  - "Build the smallest test, measure, learn - don't scale before validation."
-  - "Selling Static Sites follows the same loop: one paid build, note what broke (migration time, client Git panic, deploy quirks)…"
-  - "Ten parents signed a waitlist before we booked the full tournament venue"
+  - "Build the smallest test, measure, learn."
+  - "Don't scale before validation."
+  - "Validate before you scale."
 relationships:
   - type: contradicts
     wikilink: "[[Finish Strong]]"

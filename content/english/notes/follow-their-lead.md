@@ -2,15 +2,18 @@
 title: "Follow Their Lead"
 meta_title: "Follow Their Lead - Connect Without Taking Over"
 description: "I join their world - their topic, pace, starting point - before I try to steer."
-key_concept: "I join their world before I redirect it - their activity, topic, pace, starting point."
+key_concept: |
+  I join their world before I redirect it - their activity, topic, pace, starting point.
+  
+  Enter their frame before you try to redirect the conversation.
 examples:
   - "My teammate wanted to run a inbound play I'd never seen - I ran it once before I told him how I'd do it. Connection first, critique second."
   - "A coworker walked me through how she tracks patient callbacks - I watched the whole spreadsheet before I offered to reorder her columns."
 shareable_lines:
-  - "I join their world - their topic, pace, starting point - before I try to steer."
-  - "I join their world before I redirect it - their activity, topic, pace, starting point."
-  - "My teammate wanted to run a inbound play I'd never seen"
-  - "My teammate wanted to run a inbound play I'd never seen - I ran it once before I told him how I'd do it. Connection first…"
+  - "I join their world."
+  - "Their topic, pace, starting point - before I try to steer."
+  - "Their activity, topic, pace, starting point."
+  - "Enter their frame before you try to redirect the conversation."
 relationships:
   - type: contradicts
     wikilink: "[[Safety Comes First]]"

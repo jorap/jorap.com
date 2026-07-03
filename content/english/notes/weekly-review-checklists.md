@@ -1,19 +1,21 @@
 ---
 title: "Weekly Review Checklists"
 meta_title: "Weekly Review Checklists - Same Steps Every Sunday"
-description: "My weekly review is a checklist on purpose - inbox, calendar, projects, one express action."
+description: "Weekly review works when the same short checklist runs every Sunday on purpose."
 key_concept: |
-  Boring on purpose.
+  The checklist should be boring on purpose.
   
-  Weekly review as a checklist - inbox, calendar, projects, one express action.
+  Same steps every week: empty inbox, scan calendar, check projects, pick one express action.
+  
+  Skip the fancy template - repeat the same short list even on travel weeks.
 examples:
   - "Inbox, calendar, projects, one express action - twenty minutes beats skipping review because this week's \"different.\""
   - "Sunday checklist: bowl by the door, calendar, kid forms, one family thing to finish - same steps even on travel weeks, shortened not skipped."
 shareable_lines:
-  - "My weekly review is a checklist on purpose - inbox, calendar, projects, one express action."
-  - "Boring on purpose."
-  - "Weekly review as a checklist - inbox, calendar, projects, one express action."
-  - "Inbox, calendar, projects, one express action"
+  - "Weekly review works when the same short checklist runs every Sunday on purpose."
+  - "The checklist should be boring on purpose."
+  - "Same steps every week: empty inbox, scan calendar, check projects, pick one express action."
+  - "Skip the fancy template."
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Effective Dose]]"

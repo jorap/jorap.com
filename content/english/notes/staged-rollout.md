@@ -12,8 +12,8 @@ examples:
 shareable_lines:
   - "I ship to a small slice first so rollback stays cheap if the new state bleeds."
   - "Full-blast deploy turns every user into a test subject."
-  - "Staged rollout - preview branch, one table section, scrimmage Tuesday - keeps Reversibility real. Safety by Design at release…"
-  - "Cloudflare preview branch caught the broken layout before main"
+  - "Staged rollout."
+  - "Preview branch, one table section, scrimmage Tuesday - keeps Reversibility real."
 relationships:
   - type: alternative
     wikilink: "[[Preparedness]]"

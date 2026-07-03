@@ -9,10 +9,10 @@ examples:
   - "I told the coach I'd have my kid there \"God willing, absolutely, cross my heart\" when a plain yes would have been enough."
   - "I padded a deadline promise with extra assurances so they'd believe me - if my word needs spin to sound believable, the problem isn't the schedule, it's me."
 shareable_lines:
-  - "Speak plainly - no swearing oaths to make people trust you; let your word stand on its own."
-  - "Jesus deepened the law against false vows: disciples should be so truthful that extra oaths aren't needed. (Matthew 5:33-37)."
-  - "Anything beyond simple yes/no comes from evil - meaning manipulation, not that all contracts are sin. PKM parallel: Atomic Notes…"
-  - "I told the coach I'd have my kid there \"God willing, absolutely, cross my heart\" when a plain yes would have been enough."
+  - "Speak plainly."
+  - "No swearing oaths to make people trust you; let your word stand on its own."
+  - "Anything beyond simple yes/no comes from evil."
+  - "Meaning manipulation, not that all contracts are sin."
 relationships:
   - type: contradicts
     wikilink: "[[Drafting in Public]]"

@@ -10,10 +10,10 @@ examples:
   - "Strong stats for the scout meeting but my assistant coach was still cold from Tuesday - fifteen minutes with him before we sat with the scout beat hoping charts would smooth it."
   - "Strong notes for the parent-teacher meeting but my co-teacher was still cold from Tuesday - fifteen minutes with her before we sat with the parents."
 shareable_lines:
-  - "Reconcile before the review - fix the relationship before OKRs, demos, or reorg meetings."
+  - "Reconcile before the review."
+  - "Fix the relationship before OKRs, demos, or reorg meetings."
   - "Process doesn't heal a broken trust link."
-  - "The person who knows there's a breach moves first - a short call, an owned apology, a specific repair - then we talk OKRs. Same…"
-  - "Strong stats for the scout meeting but my assistant coach was still cold from Tuesday"
+  - "The person who knows there's a breach moves first."
 relationships:
   - type: contradicts
     wikilink: "[[Golden Rule at Work]]"

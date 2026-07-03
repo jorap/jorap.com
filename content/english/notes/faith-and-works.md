@@ -10,10 +10,10 @@ examples:
   - "A coworker quoted James like you need faith plus works to get in - one sentence: works prove faith is real; they don't buy the door Christ already opened."
   - "Confident I'm saved but the same selfish pattern untouched - James isn't saying try harder to earn heaven; he's asking where the fruit is."
 shareable_lines:
-  - "Faith alone saves me - works show it's alive, they don't buy heaven."
+  - "Faith alone saves me."
+  - "Works show it's alive, they don't buy heaven."
   - "Paul and James aren't two gospels fighting."
-  - "Paul answers *how* I'm saved: trust Christ, not wages. James answers *what* living faith looks like: Abraham offered Isaac…"
-  - "A coworker quoted James like you need faith plus works to get in"
+  - "James answers what living faith looks like: Abraham offered Isaac."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

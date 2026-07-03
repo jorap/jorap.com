@@ -10,9 +10,9 @@ examples:
   - "I checked email three times before I prayed this morning and wondered why God felt far away - staying connected is the daily choice, not the badge from conversion day."
 shareable_lines:
   - "I bear fruit when I stay connected to Christ, not when I force it by willpower alone."
-  - "Abiding is ongoing dependence, not a one-time conversion event. (John 15:1-11)."
-  - "Pruning hurts but serves fruitfulness. Under Free Grace, fruit doesn't earn the branch's place in the vine - the branch bears…"
-  - "I snap at my kid after a week with almost no prayer or Scripture, and I know where the fruit went"
+  - "Under Free Grace, fruit doesn't earn the branch's place in the vine."
+  - "The branch bears fruit because it's connected."
+  - "Fruits of the Spirit names the cluster Galatians lists."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

@@ -3,12 +3,19 @@ note_kind: "index"
 title: "Pressure Reveals Weakness"
 meta_title: "Pressure Reveals Weakness - Build for When It Gets Hard"
 description: "Pressure reveals what easy days hide - build habits and systems that still work when stakes spike."
-key_concept: "Each note below is one move I'd want automatic before the moment arrives."
+key_concept: |
+  Pressure reveals what easy days hide.
+  
+  Build habits and systems that still work when stakes spike.
+  
+  Rehearse the move on easy days so it runs when pressure hits.
+  
+  Easy days are for rehearsing the move pressure will demand later.
 shareable_lines:
-  - "Pressure reveals what easy days hide - build habits and systems that still work when stakes spike."
-  - "Each note below is one move I'd want automatic before the moment arrives."
-  - "Pressure Reveals Weakness — Pressure reveals what easy days hide - build habits and systems that still work when stakes spike."
-  - "More on Pressure Reveals Weakness in JoRap Notes."
+  - "Pressure reveals what easy days hide."
+  - "Build habits and systems that still work when stakes spike."
+  - "Rehearse the move on easy days so it runs when pressure hits."
+  - "Easy days are for rehearsing the move pressure will demand later."
 relationships:
   - type: alternative
     wikilink: "[[Mental Models]]"

@@ -9,10 +9,10 @@ examples:
   - "Wasted years of selfish living and terror I'm not saved - reward may burn at the judgment seat; my standing was settled when I trusted Christ."
   - "Hidden sin exposed and shame screamed heaven access revoked - confess, restore fellowship, keep walking; justification on Christ doesn't get re-opened by a bad season."
 shareable_lines:
-  - "A saved believer can still lose reward - worthless works burn, eternal life stays secure on Christ."
-  - "Two categories, one sentence apart: Free Grace and Justification settle eternal life at faith. (1 Corinthians 3:12-15)."
-  - "Eternal Rewards and the Judgment Seat settle what gets repaid for faithful living. Losing reward is not losing salvation. Paul…"
-  - "Wasted years of selfish living and terror I'm not saved"
+  - "A saved believer can still lose reward."
+  - "Worthless works burn, eternal life stays secure on Christ."
+  - "Paul says the builder \"will be saved, yet so as through fire\"."
+  - "Still in, with loss when wood, hay, and stubble burn."
 relationships:
   - type: alternative
     wikilink: "[[The Narrow Way]]"

@@ -10,10 +10,10 @@ examples:
   - "I walked the new counter before the lunch rush instead of defending last month's habits when the line got long."
   - "Our guard dominates on the outdoor court and looks lost on the slick indoor floor for a week - staying effective means adjusting footwork, not defending yesterday's surface."
 shareable_lines:
-  - "The habit that worked in my last role can flop in the next room - I retune instead of clinging."
+  - "The habit that worked in my last role can flop in the next room."
+  - "I retune instead of clinging."
   - "What made you strong in one room can make you weak in the next."
-  - "Real competence means staying useful outside ideal setups, familiar roles, and comfortable routines - new tools, new teams…"
-  - "I walked the new counter before the lunch rush instead of defending last month's habits when the line got long."
+  - "Real competence means staying useful outside ideal setups, familiar roles, and comfortable routines."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

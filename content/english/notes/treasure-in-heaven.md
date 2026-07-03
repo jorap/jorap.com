@@ -9,10 +9,10 @@ examples:
   - "Thumb on another buy I don't need - will this rust, or store something heaven-side like mercy and obedience?"
   - "I almost chased a sponsorship for the ego, not the team - treasure check: where will this matter in ten years?"
 shareable_lines:
-  - "I store up what lasts - generosity and obedience - not what rust, moth, and thieves can take."
+  - "I store up what lasts."
+  - "Generosity and obedience - not what rust, moth, and thieves can take."
   - "Where your treasure is, there your heart will be. (Matthew 6:19-21)."
-  - "Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation. Free Grace already…"
-  - "Thumb on another buy I don't need"
+  - "Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation."
 relationships:
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"

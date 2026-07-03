@@ -11,9 +11,9 @@ examples:
   - "The graph view showed an orphan I'd written two years ago - perfect intro for today's draft."
 shareable_lines:
   - "Old notes surprise me on schedule because I linked them on purpose, not because I got lucky."
-  - "Serendipity isn't luck for me - I build systems where old notes surprise me at the right time."
-  - "Serendipity isn't random luck for me - it's building a system where old notes surprise me at the right time."
-  - "Random note resurfaced a wikilink I'd forgotten"
+  - "Serendipity isn't luck for me."
+  - "I build systems where old notes surprise me at the right time."
+  - "Serendipity isn't random luck for me."
 relationships:
   - type: contradicts
     wikilink: "[[Digital Minimalism]]"

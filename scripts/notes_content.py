@@ -260,3 +260,130 @@ def dump_frontmatter(fm: dict[str, Any]) -> str:
         if key not in seen:
             emit(key, fm[key])
     return "\n".join(lines)
+
+
+WIKILINK_PLAIN = re.compile(r"\[\[([^\]|#]+)(?:#[^\]]+)?\]\]")
+
+
+def normalize_shareable_line(text: str) -> str:
+    text = WIKILINK_PLAIN.sub(r"\1", text)
+    text = " ".join(text.replace("`", "").replace("*", "").split()).lower().rstrip(".,;:-— ")
+    if text.endswith("…"):
+        text = text[:-1].rstrip(".,;:-— ")
+    return text
+
+
+def shareable_lines_overlap(a: str, b: str) -> bool:
+    """True when one line is the same claim or an obvious fragment of the other."""
+    na, nb = normalize_shareable_line(a), normalize_shareable_line(b)
+    if not na or not nb:
+        return na == nb
+    if na == nb:
+        return True
+    shorter, longer = (na, nb) if len(na) <= len(nb) else (nb, na)
+    if len(shorter) < 10:
+        return False
+    if longer.startswith(shorter) or longer.endswith(shorter):
+        return True
+    if shorter.endswith("…"):
+        stem = shorter[:-1].rstrip(".,;:-— ")
+        if stem and (longer.startswith(stem) or stem in longer):
+            return True
+    return False
+
+
+def principle_line_pool(fm: dict) -> list[str]:
+    """Normalized clauses drawn only from description and key_concept."""
+    pool: list[str] = []
+    seen: set[str] = set()
+    for field in ("description", "key_concept"):
+        src = fm.get(field)
+        if not isinstance(src, str) or not src.strip():
+            continue
+        chunks = [src.strip()]
+        for block in src.strip().split("\n\n"):
+            block = block.strip()
+            if block and "|" not in block:
+                chunks.append(block.replace("\n", " "))
+        for chunk in chunks:
+            flat = WIKILINK_PLAIN.sub(r"\1", chunk)
+            flat = " ".join(flat.replace("**", "").replace("*", "").replace("`", "").split())
+            parts = [flat]
+            parts.extend(re.split(r"(?<=[.!?])\s+|\s[-—–]\s|;\s+", flat))
+            for part in parts:
+                norm = normalize_shareable_line(part)
+                if len(norm) >= 10 and norm not in seen:
+                    seen.add(norm)
+                    pool.append(norm)
+    return pool
+
+
+FRAGMENT_START = re.compile(
+    r"^(not|and|or|but|then)\s",
+    re.I,
+)
+SAME_AS_FRAGMENT = re.compile(r"^same as\b", re.I)
+
+
+def ensure_terminal_punct(text: str) -> str:
+    text = text.strip()
+    if text and text[-1] not in ".!?":
+        text += "."
+    return text
+
+
+def _looks_like_title_fragment(text: str) -> bool:
+    """Short title-case phrase without a verb — usually a wikilink label, not a principle."""
+    t = text.strip().rstrip(".!?")
+    if len(t) > 60 or "," in t or ";" in t:
+        return False
+    words = t.split()
+    if len(words) > 7:
+        return False
+    return not any(w.islower() for w in words if w.isalpha())
+
+
+def is_complete_shareable_line(line: str) -> bool:
+    """True when line reads as a standalone principle, not a clause fragment."""
+    text = line.strip()
+    if len(text) < 12:
+        return False
+    if text.endswith("…"):
+        return False
+    if text[-1] not in ".!?":
+        return False
+    if text.endswith((",", ";", " -", "—", "–")):
+        return False
+    if not (text[0].isupper() or text[0] in '"\'('):
+        return False
+    if FRAGMENT_START.match(text):
+        return False
+    if SAME_AS_FRAGMENT.match(text):
+        return False
+    if text.count("(") > text.count(")"):
+        return False
+    if _looks_like_title_fragment(text):
+        return False
+    return True
+
+
+def _self_check() -> None:
+    assert is_complete_shareable_line("Friction kills capture.")
+    assert is_complete_shareable_line("Same aim, different plan.")
+    assert not is_complete_shareable_line("not mere intellectual agreement.")
+    assert not is_complete_shareable_line("Same as The Trusted Inbox.")
+    assert not is_complete_shareable_line("There Is No Perfect Solution")
+    assert ensure_terminal_punct("Keep the goal") == "Keep the goal."
+
+
+def shareable_line_from_principle(line: str, fm: dict) -> bool:
+    """True when line is a clause from description or key_concept, not meta padding."""
+    nl = normalize_shareable_line(line)
+    if not nl:
+        return False
+    for p in principle_line_pool(fm):
+        if nl == p:
+            return True
+        if len(nl) >= 10 and (p.startswith(nl) or nl.startswith(p) or nl in p or p in nl):
+            return True
+    return False

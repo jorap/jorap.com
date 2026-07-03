@@ -2,15 +2,20 @@
 title: "Digital Garden"
 meta_title: "Digital Garden - A Wiki You Can Walk Through"
 description: "My garden is where notes grow in public - linked, imperfect, alive on Hugo and Git."
-key_concept: "My digital garden is a personal site where notes grow in public - linked, imperfect, alive."
+key_concept: |
+  My digital garden is a personal site where notes grow in public.
+  
+  Public, linked, imperfect notes beat a private hoard.
+  
+  Update in public instead of hoarding drafts until they feel ready.
 examples:
   - "Our team's playbook wiki still has last season's sets beside this year's - I replace a drill when I learn better, not when the first version was supposed to be final."
   - "My garden posts stay linked and imperfect - notes grow in public instead of rotting in a folder until they're \"ready.\""
 shareable_lines:
-  - "My garden is where notes grow in public - linked, imperfect, alive on Hugo and Git."
-  - "My digital garden is a personal site where notes grow in public - linked, imperfect, alive."
-  - "Our team's playbook wiki still has last season's sets beside this year's"
-  - "Our team's playbook wiki still has last season's sets beside this year's - I replace a drill when I learn better, not when the…"
+  - "My garden is where notes grow in public."
+  - "Linked, imperfect, alive on Hugo and Git."
+  - "My digital garden is a personal site where notes grow in public."
+  - "Public, linked, imperfect notes beat a private hoard."
 relationships:
   - type: alternative
     wikilink: "[[Drafting in Public]]"

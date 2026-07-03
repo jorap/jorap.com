@@ -2,15 +2,18 @@
 title: "Standard Operating Procedures"
 meta_title: "Standard Operating Procedures - Written Defaults the Team Can Run"
 description: "I write short steps for deploys and incidents so nobody has to improvise when the clock is loud."
-key_concept: SOPs are simple written steps for recurring work - so nobody improvises under stress.
+key_concept: |
+  SOPs are simple written steps for recurring work - so nobody improvises under stress.
+  
+  Written steps beat improvisation when stress shrinks working memory.
 examples:
   - "The closing routine after every match - ice, tape, log the injury - lives on the locker-room whiteboard so nobody improvises when everyone's exhausted."
   - "The building guard walks the posted evacuation route he practiced on quiet shifts - written steps when the alarm trips loud."
 shareable_lines:
   - "I write short steps for deploys and incidents so nobody has to improvise when the clock is loud."
-  - "SOPs are simple written steps for recurring work - so nobody improvises under stress."
-  - "The closing routine after every match"
-  - "The closing routine after every match - ice, tape, log the injury - lives on the locker-room whiteboard so nobody improvises when…"
+  - "SOPs are simple written steps for recurring work."
+  - "So nobody improvises under stress."
+  - "Written steps beat improvisation when stress shrinks working memory."
 relationships:
   - type: contradicts
     wikilink: "[[Adaptability]]"
