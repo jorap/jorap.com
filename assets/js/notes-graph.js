@@ -1205,6 +1205,10 @@ async function initGraph(panel) {
       el.classList.toggle("is-active", active);
       el.setAttribute("aria-pressed", active ? "true" : "false");
     });
+    var relationshipsDetails = panel.querySelector(".notes-graph-relationships");
+    if (relationshipsDetails && /^rel/.test(graphFilter)) {
+      relationshipsDetails.open = true;
+    }
     hovered = graphFilter === "all" ? focusNode || null : null;
     fitToView();
     draw();

@@ -6,6 +6,7 @@ key_concept: |
   Offload ideas so my head can think, not hoard.
   
   Remember CODE: [[Capture]], organize, distill, express.
+  [[The Second Brain Workflow]] is how CODE and PARA run as one daily-to-weekly loop.
   The system fails when any step is just for show. I review whether each step still earns its place every quarter.
 examples:
   - "A play idea hits during warm-ups and I voice-memo it before the gym noise eats it - my head is for having ideas, the inbox is for storing them until review."

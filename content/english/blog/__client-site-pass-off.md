@@ -1,15 +1,15 @@
 ---
 title: "What Happens After Your Website Goes Live"
-meta_title: "Client Site Handoff - Who Publishes After Launch"
+meta_title: "Client Site Pass-Off - Who Publishes After Launch"
 description: "Launch day isn't the finish line. Before deposit I name who publishes next - Git lesson, retainer batches, showroom branch, or CMS - and I leave a one-page doc so you're not stuck calling me for every typo."
-slug: "client-site-handoff"
+slug: "client-site-pass-off"
 date: 2026-07-02T07:00:00Z
 image: "/images/website.jpg"
 categories: ["Website", "Business", "Tips"]
 author: "JoRap"
-tags: ["Website Building", "Freelance", "Client Work", "Handoff", "Static Site Generator", "GitHub", "Business", "Documentation"]
+tags: ["Website Building", "Freelance", "Client Work", "Pass-off", "Static Site Generator", "GitHub", "Business", "Documentation"]
 related_notes:
-  - client-site-handoff
+  - client-site-pass-off
   - selling-static-sites
   - static-site-client-scope
   - share-what-you-learn
@@ -28,7 +28,7 @@ I've seen sites go live to applause and die quietly six weeks later because nobo
 
 The developer disappears. The client opens cPanel out of habit and finds nothing familiar. Staff still email copy to someone's personal Gmail. Typos sit for a month because "that's a developer thing."
 
-That's not a hosting problem. It's a **handoff** problem - and it should be solved in the sales call, not improvised over Zoom while the DNS is still propagating.
+That's not a hosting problem. It's a **pass-off** problem - and it should be solved in the sales call, not improvised over Zoom while the DNS is still propagating.
 
 ---
 
@@ -62,11 +62,11 @@ Middle path between "learn Git" and "install WordPress for a five-page brochure.
 
 ---
 
-## The handoff that always fails
+## The pass-off that always fails
 
 Promise WordPress-style daily edits to five non-technical staff **with no training, no retainer, and no CMS**.
 
-That's not a static site handoff. That's a scope lie from the sales call finally catching up. Week two someone asks why they can't "just log in and fix the header like the old site." Because we never chose a publish path. Because static doesn't have a mystery admin panel unless we build one on purpose.
+That's not a static site pass-off. That's a scope lie from the sales call finally catching up. Week two someone asks why they can't "just log in and fix the header like the old site." Because we never chose a publish path. Because static doesn't have a mystery admin panel unless we build one on purpose.
 
 If that's what the job needs, WordPress or a CMS layer should have been in scope from day one - with the price and training to match.
 
@@ -83,13 +83,13 @@ The product isn't tribal knowledge in my head. It's a single page the client can
 - **Build failures** - the three boring fixes (version mismatch, bad frontmatter, asset too large)
 - **Who to call** when none of that works
 
-If they can publish a correction without a panic call, handoff worked. If every comma routes through my inbox forever, I underpriced the job or skipped the training line item.
+If they can publish a correction without a panic call, pass-off worked. If every comma routes through my inbox forever, I underpriced the job or skipped the training line item.
 
 ---
 
 ## What I price separately (on purpose)
 
-Build and handoff are different work. Setup is theme, pages, migration, deploy. Handoff is training, documentation, CMS wiring, or an ongoing retainer agreement.
+Build and pass-off are different work. Setup is theme, pages, migration, deploy. pass-off is training, documentation, CMS wiring, or an ongoing retainer agreement.
 
 Bundling them into one opaque number sounds simpler. It isn't. Clients forget what they paid for. I forget what I promised. Separate lines keep **plain commitments** plain.
 
@@ -117,8 +117,8 @@ I ask the same questions from my side. If the answers are fuzzy, we fix them bef
 
 Anyone can make a pretty homepage. The hireable part is whether the site **keeps working** when the meeting ends.
 
-Clients don't remember your build pipeline. They remember whether Tuesday's announcement went live without a crisis. They remember whether the handoff doc existed when your phone was off.
+Clients don't remember your build pipeline. They remember whether Tuesday's announcement went live without a crisis. They remember whether the pass-off doc existed when your phone was off.
 
 I'd rather lose a job than promise a publish path I won't support. I'd rather price training honestly than absorb unlimited "small tweaks" until I resent the client.
 
-Launch is not the finish line. It's the handoff. Get that right and the build actually earns its keep.
+Launch is not the finish line. It's the pass-off. Get that right and the build actually earns its keep.

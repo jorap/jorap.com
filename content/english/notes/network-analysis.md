@@ -6,7 +6,7 @@ key_concept: |
   Study links and hubs in a graph - who connects whom, what's isolated.
   
   Bridges and orphans matter more than node count - the graph shows who carries traffic and what's stranded.
-  [[Associative Linking]] builds the graph; [[Maps of Content]] wins when a hand hub beats metrics.
+  [[Linking by Meaning]] builds the graph; [[Maps of Content]] wins when a hand hub beats metrics.
 examples:
   - "The playbook diagram showed one motion offense linking twelve other sets - that was the doorway I'd simplify first."
   - "The chore chart showed one kid linking every task - that's the bottleneck we fixed first."
@@ -15,7 +15,7 @@ relationships:
     wikilink: "[[Maps of Content]]"
     reason: "when the opposite frame fits better"
   - type: extends
-    wikilink: "[[Associative Linking]]"
+    wikilink: "[[Linking by Meaning]]"
     reason: "Links create the graph you analyze for hubs"
   - type: extends
     wikilink: "[[Graph View Analytics]]"

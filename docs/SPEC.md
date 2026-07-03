@@ -27,7 +27,7 @@ JoRap Notes is a **personal brand surface**: a static site that showcases how th
 The platform combines:
 
 - **Blog** — long-form credibility and SEO
-- **Notes garden** — atomic linked notes, graph, flashcards, and agent handoff
+- **Notes garden** — atomic linked notes, graph, flashcards, and agent copy
 - **Static pages** — about, contact, portfolio framing
 - **CMS** — optional git-backed authoring for non-developers
 
@@ -78,7 +78,7 @@ The author writes Markdown, runs lint, pushes to Git; the site rebuilds and depl
 
 **Acceptance:** `pnpm dev` for local preview. `pnpm run deploy` produces `public/`. Cloudflare Pages rebuilds on push. Non-deploy commits can use `[skip ci]`.
 
-#### P6 — Agent handoff
+#### P6 — agent copy
 
 The author copies garden context into ChatGPT or another agent for drafting, connection-finding, or maintenance.
 
@@ -269,7 +269,7 @@ Each relationship row:
 | Create Note | `/notes/create/` | Topic → AI prompt for one atomic note |
 | OKF Export | `/notes/okf-export/` | Bundle index and agent workflow docs |
 
-**Per-note affordances:** outgoing links, backlinks with snippets, See also (tag-related), hover previews, Copy MD, Agent copy (OKF handoff). Hub pages add Copy hub cluster.
+**Per-note affordances:** outgoing links, backlinks with snippets, See also (tag-related), hover previews, Copy MD, Agent copy (OKF export). Hub pages add Copy hub cluster.
 
 ### 5.7 Flashcards
 

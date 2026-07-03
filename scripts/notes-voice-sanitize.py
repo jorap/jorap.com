@@ -8,10 +8,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-CONTENT_DIRS = (
-    ROOT / "content/english/notes",
-    ROOT / "content/english/blog",
-)
+CONTENT_ROOT = ROOT / "content/english"
 DASH_RE = re.compile(r"[\u2013\u2014]")
 
 
@@ -32,17 +29,17 @@ def main() -> int:
     errors: list[str] = []
     updated = 0
 
-    for content_dir in CONTENT_DIRS:
-        for path in sorted(content_dir.glob("*.md")):
-            if check_only:
-                errors.extend(lint_file(path))
-                continue
-            raw = path.read_text(encoding="utf-8")
-            fixed = sanitize(raw)
-            if fixed != raw:
-                path.write_text(fixed, encoding="utf-8")
-                updated += 1
-                print(f"  sanitized {path.relative_to(ROOT)}")
+    paths = sorted(CONTENT_ROOT.rglob("*.md")) if CONTENT_ROOT.is_dir() else []
+    for path in paths:
+        if check_only:
+            errors.extend(lint_file(path))
+            continue
+        raw = path.read_text(encoding="utf-8")
+        fixed = sanitize(raw)
+        if fixed != raw:
+            path.write_text(fixed, encoding="utf-8")
+            updated += 1
+            print(f"  sanitized {path.relative_to(ROOT)}")
 
     if check_only:
         if errors:

@@ -4,7 +4,7 @@ title: "OKF Export"
 meta_title: "OKF Export - Agent-Readable Notes Bundle"
 description: "Open Knowledge Format (OKF) bundle - the same garden, flattened for agents - markdown paths, required `type`, no Hugo build."
 key_concept: |
-  Authoring stays in Hugo (`[[wikilinks]]`, graph, flashcards); this bundle is the handoff copy for ChatGPT, agents, and tools outside the site.
+  Authoring stays in Hugo (`[[wikilinks]]`, graph, flashcards); this bundle is the pass-off copy for ChatGPT, agents, and tools outside the site.
   
   Regenerated on production build and via `npm run export:okf`.
 slug: "okf-export"

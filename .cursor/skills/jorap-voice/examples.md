@@ -188,7 +188,7 @@ Most extension cords look the same on the shelf. They're not. The wrong gauge on
 
 ### ✅ Punch-line `key_concept`
 
-> [[Rollback Principle]] gets users back on the old build; blameless postmortem gets judgment back.
+> [[Rollback Principle]] gets users back on the old build; blameless after-action review gets judgment back.
 >
 > Same shape as [[Incident Investigation]] - trace system causes - but the culture rule is no scalpel hunts for a fall guy.
 
@@ -233,7 +233,7 @@ Most extension cords look the same on the shelf. They're not. The wrong gauge on
 
 | Front | Back |
 |-------|------|
-| `I open the playbook notes a second time and bold three plays…` | `Progressive Summarization` |
+| `I open the playbook notes a second time and bold three plays…` | `Progressive Layers` |
 
 ### ✅ Apply card back
 

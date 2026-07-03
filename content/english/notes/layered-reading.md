@@ -6,7 +6,7 @@ key_concept: |
   Pass through the same source at increasing depth - skim, highlight, summarize.
   
   Skim first pass, mark second, extract third - same book, three depths, one sitting at a time.
-  [[Progressive Summarization]] is the note-side cousin of layered passes.
+  [[Progressive Layers]] is the note-side cousin of layered passes.
 examples:
   - "First pass on the coaching manual marked three sections; second pass only those got sentences in my own words."
   - "First pass marked three sections of the safety manual; second pass only those got sentences in my own words."
@@ -18,7 +18,7 @@ relationships:
     wikilink: "[[Literature Notes]]"
     reason: "Deeper passes become literature notes in your words"
   - type: extends
-    wikilink: "[[Progressive Summarization]]"
+    wikilink: "[[Progressive Layers]]"
     reason: "Skim, mark, extract - same cousin as progressive layers"
 slug: "layered-reading"
 date: "2026-06-22 06:00:00+00:00"

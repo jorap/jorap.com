@@ -4,7 +4,7 @@ meta_title: "Drafting in Public - Learn Out Loud, Messily"
 description: "Posting rough drafts keeps me honest and lets the garden grow from feedback, not private hoarding."
 key_concept: "I publish rough ideas before they're finished - drafting in public keeps the garden honest."
 examples:
-  - "I shared a draft SOP with the team before it was polished - silence would've let me pretend I understood the handoff."
+  - "I shared a draft SOP with the team before it was polished - silence would've let me pretend I understood the pass-off."
   - "I posted a rough footwork clip before I'd nailed the cue words - a teammate's comment fixed the line I'd been dodging in private notes."
 relationships:
   - type: contradicts
@@ -34,7 +34,7 @@ review: true
 card_sets: ["Writing", "Review"]
 cards:
   - front: "Shared a draft SOP with the team before it was polished. What did they get?"
-    back: "Honest handoff - they could fix it."
+    back: "Honest pass-off - they could fix it."
   - front: "Posted a rough footwork clip before I'd nailed the cue words. What came back?"
     back: "Teammate's comment fixed my line."
   - front: "Posted rough arroz caldo before I'd nailed the ginger amount. Why risk it?"

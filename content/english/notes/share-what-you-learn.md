@@ -1,11 +1,11 @@
 ---
 title: "Share What You Learn"
 meta_title: "Share What You Learn - Don't Hoard Knowledge"
-description: "I write the doc, do the handoff, and answer the junior's question - hoarding know-how helps nobody."
+description: "I write the doc, do the pass-off, and answer the junior's question - hoarding know-how helps nobody."
 key_concept: |
-  Pass on what you figured out - write the doc, do the handoff, answer the junior's question - don't hoard know-how like private bookmarks.
+  Pass on what you figured out - write the doc, do the pass-off, answer the junior's question - don't hoard know-how like private bookmarks.
   
-  Client sites: the one-page [[Client Site Handoff]] doc (repo, branch, DNS, env vars) is [[Share What You Learn]] in practice - not launch-and-vanish.
+  Client sites: the one-page [[Client Site Pass-Off]] doc (repo, branch, DNS, env vars) is [[Share What You Learn]] in practice - not launch-and-vanish.
   A garden full of notes nobody reads is the same failure mode as a team where only one person holds the map. Gospel source: [[Great Commission]]. PKM parallel: [[Creative Output]] - truth and skill shared, not stockpiled.
 examples:
   - "I'd figured out the clinic's parking trick after three visits - I told the next parent in line instead of hoarding the shortcut."
@@ -15,8 +15,8 @@ relationships:
     wikilink: "[[The Collector's Fallacy]]"
     reason: "when I hoard knowledge without teaching or shipping"
   - type: extends
-    wikilink: "[[Client Site Handoff]]"
-    reason: "One-page handoff doc is share what you learn in practice"
+    wikilink: "[[Client Site Pass-Off]]"
+    reason: "One-page pass-off doc is share what you learn in practice"
   - type: extends
     wikilink: "[[Creative Output]]"
     reason: "Inventory means nothing until it leaves your head"

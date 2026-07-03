@@ -27,7 +27,7 @@ relationships:
     wikilink: "[[Link Typing]]"
     reason: "Generic PKM term for what this page formalizes"
   - type: implements
-    wikilink: "[[Associative Linking]]"
+    wikilink: "[[Linking by Meaning]]"
     reason: "Typed rows carry vague wikilinks into named push and pull"
 slug: "note-relationships"
 date: "2026-06-19 08:00:00+00:00"

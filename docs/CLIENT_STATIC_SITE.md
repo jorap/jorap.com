@@ -73,7 +73,7 @@ Both hostnames must be attached in Pages or the redirect target will 404.
 
 See [`CMS_SETUP.md`](./CMS_SETUP.md). Needs Pages Functions + GitHub OAuth app per client.
 
-### 7. Handoff doc (one page)
+### 7. pass-off doc (one page)
 
 Give the client:
 

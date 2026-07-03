@@ -48,11 +48,26 @@
 }
 
 /* Theme switcher button: match header utility focus ring */
-.theme-switcher-btn:focus-visible {
+.theme-switcher-btn:focus-visible,
+.header-nav-toggle:focus-visible,
+.header-search-btn:focus-visible {
   outline: none;
   box-shadow:
     0 0 0 2px var(--color-surface),
     0 0 0 4px var(--color-accent);
+}
+
+.header-utility-control:hover {
+  background: color-mix(in srgb, var(--color-accent) 8%, transparent);
+}
+
+@media (max-width: 767.98px) {
+  .navbar-brand span {
+    max-width: 9.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 }
 
 /* Footer social icons: 44px touch targets */
@@ -65,7 +80,9 @@
 
 /* Filter pills: keyboard focus ring */
 .notes-filter:focus-visible,
-.notes-graph-filter:focus-visible {
+.notes-graph-filter:focus-visible,
+.notes-toolbar-tools__summary:focus-visible,
+.notes-graph-relationships__summary:focus-visible {
   outline: none;
   box-shadow:
     0 0 0 2px var(--color-surface),
@@ -1277,8 +1294,37 @@ html.dark .notes-list-facet__select {
   background: color-mix(in srgb, var(--color-accent) 8%, var(--color-surface));
 }
 
+.notes-toolbar-tools,
+.notes-graph-relationships {
+  position: relative;
+}
+
+.notes-toolbar-tools__summary,
+.notes-graph-relationships__summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.notes-toolbar-tools__summary::-webkit-details-marker,
+.notes-graph-relationships__summary::-webkit-details-marker {
+  display: none;
+}
+
+.notes-toolbar-tools[open] .notes-toolbar-tools__summary,
+.notes-graph-relationships[open] .notes-graph-relationships__summary {
+  color: var(--color-accent);
+  border-color: color-mix(in srgb, var(--color-accent) 45%, var(--color-divider));
+  background: color-mix(in srgb, var(--color-accent) 8%, var(--color-surface));
+}
+
 @media (max-width: 639px) {
   .notes-list-refine__body {
+    position: static;
+    box-shadow: none;
+  }
+
+  .notes-toolbar-tools__body,
+  .notes-graph-relationships__body {
     position: static;
     box-shadow: none;
   }
@@ -1347,6 +1393,11 @@ html.dark .notes-list-facet__select {
 }
 
 .notes-toolbar .btn-primary .notes-filter__count {
+  color: inherit;
+  opacity: 0.85;
+}
+
+.notes-toolbar-tools[open] .notes-toolbar-tools__summary .notes-filter__count {
   color: inherit;
   opacity: 0.85;
 }

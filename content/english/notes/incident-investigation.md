@@ -5,7 +5,7 @@ description: "Find system causes after a miss - not only who to blame."
 key_concept: |
   Blameless tone keeps investigation on system causes.
   
-  [[Blameless Postmortem]] names blameless tone keeps investigation on system causes.
+  [[Blameless After-Action Review]] names blameless tone keeps investigation on system causes.
 examples:
   - "After the equipment cart tipped they traced storage layout and weight limits, not just \"trainer was clumsy.\""
   - "After the kitchen burn they traced pan placement and stove rules, not just \"kid wasn't careful.\""
@@ -14,7 +14,7 @@ relationships:
     wikilink: "[[By Their Fruits]]"
     reason: "when the opposite frame fits better"
   - type: extends
-    wikilink: "[[Blameless Postmortem]]"
+    wikilink: "[[Blameless After-Action Review]]"
     reason: "Blameless tone keeps investigation on system causes"
   - type: extends
     wikilink: "[[Heed Every Near-Miss]]"

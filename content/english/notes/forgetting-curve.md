@@ -12,7 +12,7 @@ examples:
   - "I forgot the neighbor's gate code by the second visit until I saved it where I'd see it on errand day - memory fades fast without review."
 relationships:
   - type: contradicts
-    wikilink: "[[Progressive Summarization]]"
+    wikilink: "[[Progressive Layers]]"
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Spaced Repetition]]"

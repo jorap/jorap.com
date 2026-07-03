@@ -1,5 +1,5 @@
 /**
- * Copy embedded text (markdown, issue reports, hub clusters) for ChatGPT handoff.
+ * Copy embedded text (markdown, issue reports, hub clusters) for agent copy.
  */
 (function () {
   function readSource(dataEl) {

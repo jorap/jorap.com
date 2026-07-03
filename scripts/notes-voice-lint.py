@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Lint JoRap voice: AI-tells and plain-word swap candidates in notes/blog prose."""
+"""Lint JoRap voice: AI-tells and plain-word swap candidates in site prose."""
 
 from __future__ import annotations
 
 import re
 import sys
+from collections import defaultdict
+from dataclasses import dataclass
 from pathlib import Path
 
 try:
@@ -13,31 +15,70 @@ except ImportError:
     sys.exit("pip install pyyaml required for notes-voice-lint")
 
 ROOT = Path(__file__).resolve().parents[1]
-CONTENT_DIRS = (
-    ROOT / "content/english/notes",
-    ROOT / "content/english/blog",
-)
+CONTENT_ROOT = ROOT / "content/english"
+VOICE_WORDS = ROOT / "data/voice-words.yaml"
 FRONTMATTER = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
-
-# ponytail: word list only — no NLP; catches obvious thesaurus/AI slop, not context
-AI_WORDS = re.compile(
-    r"\b("
-    r"landscape|delve|leverage|utilize|facilitate|robust|seamless|comprehensive|"
-    r"Furthermore|Moreover|Additionally|realm|tapestry|harness|elevate"
-    r")\b",
-    re.I,
-)
-AI_PHRASES = re.compile(
-    r"(In today'?s fast-paced world|Let'?s dive in|Whether you'?re a beginner|"
-    r"game-?changer|It'?s worth noting|In conclusion|Unlock the full potential|"
-    r"Without further ado|When it comes to|In the realm of|delve into|"
-    r"navigate the (world|landscape)|comprehensive guide)",
-    re.I,
-)
-GLOSS_HINTS = re.compile(r"\b(unmerited favor)\b", re.I)
 
 NOTE_FIELDS = ("title", "meta_title", "description", "key_concept")
 SKIP_NOTE_KINDS = {"meta", "index"}
+GLOSS_FIELDS = frozenset(
+    {
+        "description",
+        "key_concept",
+        "examples",
+        "cards",
+        "relationships.reason",
+        "body",
+    }
+)
+GLOSS_OK = ("earned", "gift", "deserved", "didn't earn", "never earned")
+
+
+@dataclass(frozen=True)
+class Hit:
+    path: str
+    field: str
+    kind: str  # word | phrase | review | gloss
+    match: str
+    hint: str = ""
+
+
+@dataclass
+class VoiceRules:
+    words: dict[str, re.Pattern[str]]
+    word_hints: dict[str, str]
+    phrases: list[tuple[re.Pattern[str], str]]
+    review: dict[str, re.Pattern[str]]
+    review_hints: dict[str, str]
+    gloss: dict[str, re.Pattern[str]]
+    gloss_hints: dict[str, str]
+
+
+def load_rules() -> VoiceRules:
+    raw = yaml.safe_load(VOICE_WORDS.read_text(encoding="utf-8")) or {}
+    words_raw = raw.get("words") or {}
+    review_raw = raw.get("review") or {}
+    gloss_raw = raw.get("gloss") or {}
+    phrases_raw = raw.get("phrases") or []
+
+    words = {w: re.compile(rf"\b{re.escape(w)}\b", re.I) for w in words_raw}
+    review = {w: re.compile(rf"\b{re.escape(w)}\b", re.I) for w in review_raw}
+    gloss = {w: re.compile(rf"\b{re.escape(w)}\b", re.I) for w in gloss_raw}
+    phrases = [(re.compile(p, re.I), p) for p in phrases_raw]
+
+    return VoiceRules(
+        words=words,
+        word_hints={str(k): str(v) for k, v in words_raw.items()},
+        phrases=phrases,
+        review=review,
+        review_hints={str(k): str(v) for k, v in review_raw.items()},
+        gloss=gloss,
+        gloss_hints={str(k): str(v) for k, v in gloss_raw.items()},
+    )
+
+
+def content_paths() -> list[Path]:
+    return sorted(CONTENT_ROOT.rglob("*.md")) if CONTENT_ROOT.is_dir() else []
 
 
 def load_md(path: Path) -> tuple[dict, str]:
@@ -61,6 +102,8 @@ def prose_chunks(meta: dict, body: str, *, notes: bool) -> list[tuple[str, str]]
             if isinstance(val, list):
                 for i, item in enumerate(val):
                     if isinstance(item, str) and item.strip():
+                        if key == "aliases" and item.startswith("/"):
+                            continue  # ponytail: URL redirects keep old slugs; not prose
                         chunks.append((f"{key}[{i}]", item))
         for i, card in enumerate(meta.get("cards") or []):
             if not isinstance(card, dict):
@@ -84,40 +127,42 @@ def prose_chunks(meta: dict, body: str, *, notes: bool) -> list[tuple[str, str]]
     return chunks
 
 
-GLOSS_FIELDS = frozenset(
-    {
-        "description",
-        "key_concept",
-        "examples",
-        "cards",
-        "relationships.reason",
-        "body",
-    }
-)
+def _glossed(text: str, start: int, end: int) -> bool:
+    window = text[max(0, start - 50) : min(len(text), end + 80)].lower()
+    return any(token in window for token in GLOSS_OK)
 
 
-def lint_text(field: str, text: str) -> list[str]:
-    issues: list[str] = []
-    for match in AI_WORDS.finditer(text):
-        issues.append(f"{field}: AI-tell word `{match.group(0)}`")
-    if AI_PHRASES.search(text):
-        issues.append(f"{field}: AI-slop phrase")
+def scan_text(field: str, text: str, rules: VoiceRules, *, include_review: bool) -> list[Hit]:
+    hits: list[Hit] = []
+    for word, pattern in rules.words.items():
+        for match in pattern.finditer(text):
+            hint = rules.word_hints.get(word, "")
+            hits.append(Hit("", field, "word", match.group(0), hint))
+
+    for pattern, label in rules.phrases:
+        if pattern.search(text):
+            hits.append(Hit("", field, "phrase", label))
+
+    if include_review:
+        for word, pattern in rules.review.items():
+            for match in pattern.finditer(text):
+                hint = rules.review_hints.get(word, "")
+                hits.append(Hit("", field, "review", match.group(0), hint))
+
     base = field.split("[", 1)[0]
     if base in GLOSS_FIELDS or field.startswith("examples[") or field.startswith("cards["):
-        for match in GLOSS_HINTS.finditer(text):
-            start = max(0, match.start() - 50)
-            end = min(len(text), match.end() + 80)
-            window = text[start:end].lower()
-            if any(token in window for token in ("earned", "gift", "deserved", "didn't earn", "never earned")):
-                continue
-            issues.append(
-                f"{field}: `{match.group(0)}` — add plain gloss (e.g. gift you didn't earn)"
-            )
-    return issues
+        for word, pattern in rules.gloss.items():
+            for match in pattern.finditer(text):
+                if _glossed(text, match.start(), match.end()):
+                    continue
+                hint = rules.gloss_hints.get(word, "")
+                hits.append(Hit("", field, "gloss", match.group(0), hint))
+
+    return hits
 
 
-def lint_file(path: Path) -> list[str]:
-    rel = path.relative_to(ROOT)
+def scan_file(path: Path, rules: VoiceRules, *, include_review: bool) -> list[Hit]:
+    rel = str(path.relative_to(ROOT))
     meta, body = load_md(path)
     notes = path.parent.name == "notes"
     if notes:
@@ -128,17 +173,72 @@ def lint_file(path: Path) -> list[str]:
     elif meta.get("draft"):
         return []
 
-    errors: list[str] = []
+    hits: list[Hit] = []
     for field, text in prose_chunks(meta, body, notes=notes):
-        for issue in lint_text(field, text):
-            errors.append(f"{rel}: {issue}")
-    return errors
+        for hit in scan_text(field, text, rules, include_review=include_review):
+            hits.append(Hit(rel, hit.field, hit.kind, hit.match, hit.hint))
+    return hits
+
+
+def hit_message(hit: Hit) -> str:
+    if hit.kind == "phrase":
+        return f"{hit.field}: AI-slop phrase"
+    if hit.kind == "gloss":
+        gloss = hit.hint or "add plain gloss"
+        return f"{hit.field}: `{hit.match}` — {gloss}"
+    if hit.kind == "review":
+        say = f" — try: {hit.hint}" if hit.hint else ""
+        return f"{hit.field}: review `{hit.match}`{say}"
+    say = f" — try: {hit.hint}" if hit.hint else ""
+    return f"{hit.field}: AI-tell word `{hit.match}`{say}"
+
+
+def is_strict(hit: Hit) -> bool:
+    return hit.kind in {"word", "phrase", "gloss"}
+
+
+def print_summary(hits: list[Hit], file_count: int) -> None:
+    strict = [h for h in hits if is_strict(h)]
+    review = [h for h in hits if h.kind == "review"]
+    print(f"Voice scan — {file_count} files, {len(strict)} strict, {len(review)} review-only")
+    print(f"Word list: {VOICE_WORDS.relative_to(ROOT)}")
+    print()
+
+    def _group(items: list[Hit]) -> dict[str, list[Hit]]:
+        grouped: dict[str, list[Hit]] = defaultdict(list)
+        for item in items:
+            grouped[item.match.lower()].append(item)
+        return dict(sorted(grouped.items(), key=lambda kv: (-len(kv[1]), kv[0])))
+
+    if strict:
+        print("Strict (lint:voice fails on these)")
+        for key, group in _group(strict).items():
+            hint = next((h.hint for h in group if h.hint), "")
+            print(f"  {group[0].match} ({len(group)})" + (f" → {hint}" if hint else ""))
+            for h in sorted(group, key=lambda x: (x.path, x.field)):
+                print(f"    {h.path} · {h.field}")
+        print()
+
+    if review:
+        print("Review-only (edit data/voice-words.yaml review: to tune)")
+        for key, group in _group(review).items():
+            hint = next((h.hint for h in group if h.hint), "")
+            print(f"  {group[0].match} ({len(group)})" + (f" → {hint}" if hint else ""))
+            for h in sorted(group, key=lambda x: (x.path, x.field)):
+                print(f"    {h.path} · {h.field}")
+        print()
+
+    if not hits:
+        print("No voice flags. Plain words only.")
+    else:
+        print("pnpm lint:voice — fail CI on strict hits")
 
 
 def _self_check() -> None:
-    assert AI_WORDS.search("navigate the landscape")
-    assert AI_PHRASES.search("Let's dive in")
-    assert not lint_text("t", "plain words only")
+    rules = load_rules()
+    assert rules.words["delve"].search("delve into the topic")
+    assert any(p.search("Let's dive in") for p, _ in rules.phrases)
+    assert not scan_text("t", "plain words only", rules, include_review=False)
 
 
 def main() -> int:
@@ -147,22 +247,29 @@ def main() -> int:
         print("notes-voice-lint self-check OK")
         return 0
 
+    rules = load_rules()
+    paths = content_paths()
+    summary = "--summary" in sys.argv
     check_only = "--check" in sys.argv
-    errors: list[str] = []
-    for content_dir in CONTENT_DIRS:
-        if not content_dir.is_dir():
-            continue
-        for path in sorted(content_dir.glob("*.md")):
-            errors.extend(lint_file(path))
+    include_review = summary or "--review" in sys.argv
 
-    if not errors:
+    hits: list[Hit] = []
+    for path in paths:
+        hits.extend(scan_file(path, rules, include_review=include_review))
+
+    if summary:
+        print_summary(hits, len(paths))
+        return 0
+
+    strict = [h for h in hits if is_strict(h)]
+    if not strict:
         print("Voice lint OK")
         return 0
 
     label = "Voice lint warnings" if check_only else "Voice lint"
     print(f"{label}:", file=sys.stderr)
-    for err in errors:
-        print(f"  {err}", file=sys.stderr)
+    for hit in strict:
+        print(f"  {hit.path}: {hit_message(hit)}", file=sys.stderr)
     return 1 if check_only else 0
 
 

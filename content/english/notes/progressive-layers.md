@@ -1,6 +1,6 @@
 ---
-title: "Progressive Summarization"
-meta_title: "Progressive Summarization - Layers Over Rewrites"
+title: "Progressive Layers"
+meta_title: "Progressive Layers - Layers Over Rewrites"
 description: "I don't rewrite whole notes when I distill - bold, then highlight, then summarize when I actually reuse the note."
 key_concept: |
   Layer one: bold the good sentences.
@@ -22,12 +22,13 @@ relationships:
   - type: extends
     wikilink: "[[Layered Reading]]"
     reason: "Bold/highlight layers before rewrite - same distill move"
-slug: "progressive-summarization"
+slug: "progressive-layers"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Tips"]
 author: "JoRap"
-tags: ["Progressive Summarization", "Tiago Forte", "PKM", "Distill", "Note Taking", "CODE Method", "Research", "Writing"]
+tags: ["Progressive Layers", "Tiago Forte", "PKM", "Distill", "Note Taking", "CODE Method", "Research", "Writing"]
+aliases: ["/notes/progressive-summarization/"]
 featured: false
 review: true
 card_sets: ["Writing", "Review"]

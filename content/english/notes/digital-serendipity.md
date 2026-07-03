@@ -14,7 +14,7 @@ relationships:
     wikilink: "[[Digital Minimalism]]"
     reason: "when surprise links beat cutting tools and sync layers"
   - type: extends
-    wikilink: "[[Associative Linking]]"
+    wikilink: "[[Linking by Meaning]]"
     reason: "Links build the systems where old notes surprise you at the right time"
   - type: extends
     wikilink: "[[Serendipity]]"

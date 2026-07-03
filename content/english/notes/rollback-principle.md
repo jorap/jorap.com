@@ -7,12 +7,12 @@ key_concept: |
   
   [[Reversibility]] is the decision frame; rollback is the rehearsed move. Last quarter I kept a bad Friday deploy live because I wanted the milestone more than the rollback conversation - the team needed "my call, here's the fix," not a speech.
 examples:
-  - "Bad Friday deploy - I reverted in standup, said my call, fixed Monday. Users got the old build before lunch; postmortem waited until the site was calm."
+  - "Bad Friday deploy - I reverted in standup, said my call, fixed Monday. Users got the old build before lunch; after-action review waited until the site was calm."
   - "The point guard ran Tuesday's inbound at halftime when the new play bled points - rollback was the drill they'd already walked, not a whiteboard invention."
 relationships:
   - type: alternative
-    wikilink: "[[Blameless Postmortem]]"
-    reason: "Rollback first; postmortem after calm - not root-cause while users are down"
+    wikilink: "[[Blameless After-Action Review]]"
+    reason: "Rollback first; after-action review after calm - not root-cause while users are down"
   - type: alternative
     wikilink: "[[Failure as Feedback]]"
     reason: "Rollback is move first; root-cause learning comes after the site is calm"
@@ -61,7 +61,7 @@ review: true
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Bad Friday deploy. What's the move? One check?"
-    back: "Revert first - postmortem when calm."
+    back: "Revert first - after-action review when calm."
   - front: "New sauce on the menu but old batch still in the warmer. Why?"
     back: "Rollback ready - ladles not meetings."
   - front: "Stricter screen-time rule tried but old routine still on the fridge. Why?"

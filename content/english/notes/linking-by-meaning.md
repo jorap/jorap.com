@@ -1,6 +1,6 @@
 ---
-title: "Associative Linking"
-meta_title: "Associative Linking - How Ideas Find Each Other"
+title: "Linking by Meaning"
+meta_title: "Linking by Meaning - How Ideas Find Each Other"
 description: "I link notes so ideas meet in the graph without me memorizing every folder path."
 key_concept: |
   Folders sort. Links think.
@@ -16,13 +16,13 @@ relationships:
   - type: extends
     wikilink: "[[Atomic Notes]]"
     reason: "Links let atomic notes bump into each other without you memorizing every filename"
-slug: "associative-linking"
+slug: "linking-by-meaning"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity"]
 author: "JoRap"
 tags: ["Linking", "PKM", "Note Taking", "Second Brain", "Digital Garden", "Graph", "Network"]
-aliases: ["Interconnectivity", "Power of Interconnectivity", "The Power of Interconnectivity"]
+aliases: ["Interconnectivity", "Power of Interconnectivity", "The Power of Interconnectivity", "/notes/associative-linking/"]
 featured: false
 review: true
 card_sets: ["Linking", "Writing"]

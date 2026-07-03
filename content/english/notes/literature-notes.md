@@ -18,7 +18,7 @@ relationships:
     wikilink: "[[Intellectual Sourcing]]"
     reason: "Source notes start where you track what you read"
   - type: extends
-    wikilink: "[[Progressive Summarization]]"
+    wikilink: "[[Progressive Layers]]"
     reason: "Each pass shrinks the source into your words"
 slug: "literature-notes"
 date: "2026-06-22 06:00:00+00:00"

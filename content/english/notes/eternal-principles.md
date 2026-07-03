@@ -124,7 +124,7 @@ Same ideas show up in my PKM notes. I wired the pairs below so the faith cluster
 | [[Childlike Faith]] | [[Getting Started]] | Beginner posture - receive the guide, don't perform expertise you don't have |
 | [[Ask Seek Knock]] | [[Periodic Knowledge Review]] | Keep asking on rhythm - review loop, not one cram session |
 | [[The Beatitudes]] | [[Evergreen Notes]] | Character that matures over years, not fleeting capture |
-| [[Love Your Neighbor]] | [[Associative Linking]] | Neighbors in the graph - ideas linked by proximity and care |
+| [[Love Your Neighbor]] | [[Linking by Meaning]] | Neighbors in the graph - ideas linked by proximity and care |
 | [[The Golden Rule]] | [[Note Relationships]] | Treat links like neighbors - typed relationships, not vague vibes |
 | [[Justification]] | [[Minimum Effective Dose]] | Declared righteous at faith - smallest sufficient act, not a merit ladder |
 | [[Sanctification]] | [[Process Over Outcomes]] | Becoming holy daily - not a one-time hero sprint |

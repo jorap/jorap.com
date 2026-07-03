@@ -17,7 +17,7 @@ relationships:
     wikilink: "[[Accountability]]"
     reason: "Clear ownership is the first repair step"
   - type: extends
-    wikilink: "[[Blameless Postmortem]]"
+    wikilink: "[[Blameless After-Action Review]]"
     reason: "Leader names the miss; room fixes the process, not the person"
   - type: extends
     wikilink: "[[Growth Mindset]]"

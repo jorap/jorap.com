@@ -6,7 +6,7 @@ key_concept: |
   A personal book of quotes and ideas worth keeping - ancestor of linked notes.
   
   A personal quote bank beats rereading whole books when you need one line in conversation.
-  [[Literature Notes]] feed the bank; [[Progressive Summarization]] distills before filing.
+  [[Literature Notes]] feed the bank; [[Progressive Layers]] distills before filing.
 examples:
   - "Coach's old basketball playbook of sets and halftime talks - same job as my [[Capture]] file, paper instead of wikilinks."
   - "Grandpa's notebook of sermon lines and recipes - quotes worth keeping before anyone had a [[digital garden]]."

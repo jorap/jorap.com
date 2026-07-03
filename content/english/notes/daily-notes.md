@@ -2,7 +2,7 @@
 title: "Daily Notes"
 meta_title: "Daily Notes - Low-Stakes Logs That Compound"
 description: "My daily note is a scratch pad for today's fragments, not a diary I expect to last forever."
-key_concept: "Daily notes are a scratch pad for the day - fleeting by default, with interstitial buffer flushes between tasks."
+key_concept: "Daily notes are a scratch pad for the day - fleeting by default, with quick buffer flushes between tasks."
 examples:
   - "Today's pocket slip is just fragments - pick up basketball shoes, ice after practice, call coach back - I promote one line to a real note when it repeats."
   - "Today's pocket slip is just fragments: pick up cleats, dentist Tuesday, call Mom back - I promote one line to the family calendar Sunday if it keeps showing up; the rest can fade."
@@ -21,8 +21,8 @@ date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Tips"]
 author: "JoRap"
-tags: ["Daily Notes", "PKM", "Journaling", "Interstitial", "Productivity", "Note Taking", "Review", "Focus"]
-aliases: ["Interstitial Journaling"]
+tags: ["Daily Notes", "PKM", "Journaling", "Between Tasks", "Productivity", "Note Taking", "Review", "Focus"]
+aliases: ["Between-Task Journaling", "/notes/interstitial-journaling/"]
 featured: false
 review: true
 card_sets: ["Focus", "Workflow"]

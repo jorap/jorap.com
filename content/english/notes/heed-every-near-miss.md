@@ -17,8 +17,8 @@ relationships:
     wikilink: "[[Anti-Fragile Systems]]"
     reason: "Near misses are stress signals - learn before the system breaks for real"
   - type: extends
-    wikilink: "[[Blameless Postmortem]]"
-    reason: "Close call deserves postmortem before the third repeat"
+    wikilink: "[[Blameless After-Action Review]]"
+    reason: "Close call deserves after-action review before the third repeat"
   - type: extends
     wikilink: "[[Eliminate Before Managing]]"
     reason: "Investigation should ask whether the hazard can be removed, not only managed better"

@@ -4,7 +4,7 @@ meta_title: "Habit Stacking - Piggyback on What You Already Do"
 description: "I piggyback a new tiny habit onto one that already runs without thinking, like notebook after coffee."
 key_concept: "Habit stacking attaches a new small move to a habit that already runs on autopilot - one anchor, one add-on."
 examples:
-  - "After I clock in, I scan the handoff sheet - the clock-in is the anchor, the scan piggybacked; no new time slot, just a chain."
+  - "After I clock in, I scan the shift-change sheet - the clock-in is the anchor, the scan piggybacked; no new time slot, just a chain."
   - "After I pour the first coffee, I open the pocket notebook - habit stacking attaches the new move to one that already runs on autopilot."
 relationships:
   - type: contradicts
@@ -35,7 +35,7 @@ card_sets: ["Focus", "Review"]
 cards:
   - front: "I never remembered to stretch until it sat right after lacing gym shoes"
     back: "The shoes were the anchor, the stretch piggybacked"
-  - front: "After I clock in, I scan the handoff sheet. What's the move?"
+  - front: "After I clock in, I scan the shift-change sheet. What's the move?"
     back: "No new time slot, just a chain"
 draft: false
 ---

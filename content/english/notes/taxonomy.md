@@ -12,7 +12,7 @@ examples:
   - "The filing system had three drawers - everyone knew where the warranty went."
 relationships:
   - type: contradicts
-    wikilink: "[[Associative Linking]]"
+    wikilink: "[[Linking by Meaning]]"
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Metadata Strategy]]"

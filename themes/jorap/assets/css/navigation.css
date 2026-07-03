@@ -85,10 +85,22 @@ button.nav-link.nav-dropdown-trigger {
 }
 
 /* Header icon controls (search, theme toggle) */
+.header-utilities {
+  @apply flex shrink-0 items-center gap-0.5 sm:gap-1;
+}
+
 .header-utility-control {
-  @apply inline-flex min-h-11 min-w-11 items-center justify-center;
+  @apply inline-flex min-h-11 min-w-11 shrink-0 items-center justify-center rounded-md;
   touch-action: manipulation;
   -webkit-tap-highlight-color: color-mix(in srgb, var(--color-accent) 20%, transparent);
+}
+
+.header-search-btn {
+  @apply gap-1.5 px-2 md:min-w-0 md:px-3;
+}
+
+.header-nav-toggle {
+  @apply lg:hidden;
 }
 
 .header-lang-select {

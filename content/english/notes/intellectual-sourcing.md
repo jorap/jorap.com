@@ -8,7 +8,7 @@ examples:
   - "I tape the newspaper name under the quote on my kid's history project so six months later we know if the source still says what we thought."
 relationships:
   - type: contradicts
-    wikilink: "[[Progressive Summarization]]"
+    wikilink: "[[Progressive Layers]]"
     reason: "when citations beat distill-on-demand layers"
   - type: extends
     wikilink: "[[Literature Notes]]"

@@ -18,7 +18,7 @@ relationships:
     reason: "Named owners close loops; vague agreement doesn't"
   - type: extends
     wikilink: "[[Attention to Detail]]"
-    reason: "Verification is where sloppy handoffs die"
+    reason: "Verification is where sloppy pass-offs die"
   - type: extends
     wikilink: "[[Finish Strong]]"
     reason: "The tail of the job is part of finishing"

@@ -14,7 +14,7 @@ relationships:
     wikilink: "[[The Feynman Technique]]"
     reason: "Card drill vs explain-out-loud when scheduling beats narration"
   - type: contradicts
-    wikilink: "[[Progressive Summarization]]"
+    wikilink: "[[Progressive Layers]]"
     reason: "when drill schedules beat bold layers for recall"
   - type: extends
     wikilink: "[[Evergreen Notes]]"

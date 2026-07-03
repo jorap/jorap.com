@@ -46,7 +46,7 @@ TIER_SIX_TAGS = {"gospel", "eternal principles", "sermon on the mount"}
 TIER_SIX_STEMS = {
     "building-a-second-brain",
     "atomic-notes",
-    "associative-linking",
+    "linking-by-meaning",
     "evergreen-notes",
     "signal-vs-noise",
     "the-collectors-fallacy",
@@ -67,7 +67,7 @@ TIER_FOUR_TAGS = {
 
 # Hand-tuned spine decks - tier 6/8; only expand/trim count, never replace existing cards
 HANDCRAFTED_STEMS = {
-    "abide-in-me", "ask-seek-knock", "assurance", "atomic-notes", "associative-linking",
+    "abide-in-me", "ask-seek-knock", "assurance", "atomic-notes", "linking-by-meaning",
     "building-a-second-brain", "by-their-fruits", "capture", "childlike-faith",
     "christianity-and-politics", "discipleship", "dont-worry", "eternal-rewards",
     "evergreen-notes", "faith-and-works", "faithful-steward", "forgiveness",

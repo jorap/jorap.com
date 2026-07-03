@@ -14,8 +14,8 @@ relationships:
     wikilink: "[[Minimum Effective Dose]]"
     reason: "when a solo dev site doesn't need a CMS layer on top of markdown"
   - type: extends
-    wikilink: "[[Client Site Handoff]]"
-    reason: "CMS handoff is a fourth path when Git lesson won't land"
+    wikilink: "[[Client Site Pass-Off]]"
+    reason: "CMS pass-off is a fourth path when Git lesson won't land"
   - type: extends
     wikilink: "[[Free Tier Hosting Stack]]"
     reason: "Still markdown in git, still Cloudflare build on push"

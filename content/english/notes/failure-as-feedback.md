@@ -18,7 +18,7 @@ relationships:
     wikilink: "[[Integrity When No One's Watching]]"
     reason: "when \"it's just feedback\" excuses sloppy work nobody would ship on purpose"
   - type: extends
-    wikilink: "[[Blameless Postmortem]]"
+    wikilink: "[[Blameless After-Action Review]]"
     reason: "Miss becomes signal when nobody's hiding to keep their job"
   - type: extends
     wikilink: "[[Convert Pain Into Learning]]"

@@ -5,7 +5,7 @@ description: "Teams that change process after mistakes instead of burying them."
 key_concept: |
   "What broke" line stays until fixed or accepted.
   
-  [[Blameless Postmortem]] names "What broke" line stays until fixed or accepted.
+  [[Blameless After-Action Review]] names "What broke" line stays until fixed or accepted.
 examples:
   - "After every tournament they kept one \"what broke\" line on the whiteboard until it was fixed or accepted."
   - "After every messy school morning we kept one \"what broke\" sticky on the fridge until the routine changed or we accepted the tradeoff."
@@ -14,7 +14,7 @@ relationships:
     wikilink: "[[By Their Fruits]]"
     reason: "when the opposite frame fits better"
   - type: extends
-    wikilink: "[[Blameless Postmortem]]"
+    wikilink: "[[Blameless After-Action Review]]"
     reason: "\"What broke\" line stays until fixed or accepted"
   - type: extends
     wikilink: "[[Continuous Improvement]]"

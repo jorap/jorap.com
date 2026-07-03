@@ -11,7 +11,7 @@ tags: ["Website Building", "Freelance", "Static Site Generator", "Client Work", 
 related_notes:
   - static-site-client-scope
   - selling-static-sites
-  - client-site-handoff
+  - client-site-pass-off
   - outcomes-over-pitch-decks
   - plain-commitments-at-work
   - minimum-effective-dose
@@ -42,7 +42,7 @@ I run a short fit check before every quote. Not to be difficult. Because the fas
 
 **Project docs and reference sites.** Content that changes occasionally, mostly written by one or two people who can learn a publish path or email me updates.
 
-**Blogs where the owner picks a handoff model.** Git lesson, retainer batches, or a Git-based CMS when buttons beat terminal. The key is **naming that path before deposit**, not improvising at launch.
+**Blogs where the owner picks a pass-off model.** Git lesson, retainer batches, or a Git-based CMS when buttons beat terminal. The key is **naming that path before deposit**, not improvising at launch.
 
 **Archives that don't need accounts.** A pastor wanted sermon audio and notes online. Brochure plus archive pages. No member login, no comments wall. Static fit.
 

@@ -34,7 +34,7 @@
         <div class="lg:col-12">
           {{ partial "notes/toolbar.html" (dict "Context" . "active" "graph") }}
 
-          <p class="text-ink-muted mb-4">Interactive map of wikilinks. Filter by link rank, relationship type, or hub notes. Toggle tag colors to see clusters.</p>
+          <p class="text-ink-muted mb-4">Interactive map of wikilinks. Filter by link rank or hub notes; relationship types sit under Relationships. Toggle tag colors to see clusters.</p>
 
           <div class="notes-graph-panel notes-graph-panel--page" data-notes-graph>
             <script type="application/json" class="notes-graph-data">{{ $graph | jsonify | safeJS }}</script>
@@ -83,24 +83,30 @@
                 <button type="button" class="notes-graph-filter" data-graph-filter="hub" aria-pressed="false" aria-label="Hubs — {{ $hubs }} notes">
                   Hubs<span class="notes-graph-filter__count"> | {{ $hubs }}</span>
                 </button>
-              </div>
-              <div class="notes-graph-filters mt-2" role="group" aria-label="Relationship filters">
-                <button type="button" class="notes-graph-filter" data-graph-filter="relExtends" aria-pressed="false" aria-label="Extends — {{ $relExtends }} notes">
-                  Extends<span class="notes-graph-filter__count"> | {{ $relExtends }}</span>
-                </button>
-                <button type="button" class="notes-graph-filter" data-graph-filter="relContradicts" aria-pressed="false" aria-label="Contradicts — {{ $relContradicts }} notes">
-                  Contradicts<span class="notes-graph-filter__count"> | {{ $relContradicts }}</span>
-                </button>
-                <button type="button" class="notes-graph-filter" data-graph-filter="relImplements" aria-pressed="false" aria-label="Implements — {{ $relImplements }} notes">
-                  Implements<span class="notes-graph-filter__count"> | {{ $relImplements }}</span>
-                </button>
-                <button type="button" class="notes-graph-filter" data-graph-filter="relAlternative" aria-pressed="false" aria-label="Alternative — {{ $relAlternative }} notes">
-                  Alternative<span class="notes-graph-filter__count"> | {{ $relAlternative }}</span>
-                </button>
-                <button type="button" class="notes-graph-filter" data-graph-filter="relIndex" aria-pressed="false" aria-label="Index — {{ $relIndex }} notes">
-                  Index<span class="notes-graph-filter__count"> | {{ $relIndex }}</span>
-                </button>
                 <button type="button" class="notes-graph-reset btn btn-outline-primary btn-sm">Reset view</button>
+              </div>
+              <details class="notes-graph-relationships mt-2">
+                <summary class="notes-graph-relationships__summary btn btn-outline-primary btn-sm">Relationships</summary>
+                <div class="notes-graph-relationships__body border-divider mt-2 rounded border bg-surface p-3">
+                  <div class="notes-graph-filters" role="group" aria-label="Relationship filters">
+                    <button type="button" class="notes-graph-filter" data-graph-filter="relExtends" aria-pressed="false" aria-label="Extends — {{ $relExtends }} notes">
+                      Extends<span class="notes-graph-filter__count"> | {{ $relExtends }}</span>
+                    </button>
+                    <button type="button" class="notes-graph-filter" data-graph-filter="relContradicts" aria-pressed="false" aria-label="Contradicts — {{ $relContradicts }} notes">
+                      Contradicts<span class="notes-graph-filter__count"> | {{ $relContradicts }}</span>
+                    </button>
+                    <button type="button" class="notes-graph-filter" data-graph-filter="relImplements" aria-pressed="false" aria-label="Implements — {{ $relImplements }} notes">
+                      Implements<span class="notes-graph-filter__count"> | {{ $relImplements }}</span>
+                    </button>
+                    <button type="button" class="notes-graph-filter" data-graph-filter="relAlternative" aria-pressed="false" aria-label="Alternative — {{ $relAlternative }} notes">
+                      Alternative<span class="notes-graph-filter__count"> | {{ $relAlternative }}</span>
+                    </button>
+                    <button type="button" class="notes-graph-filter" data-graph-filter="relIndex" aria-pressed="false" aria-label="Index — {{ $relIndex }} notes">
+                      Index<span class="notes-graph-filter__count"> | {{ $relIndex }}</span>
+                    </button>
+                  </div>
+                </div>
+              </details>
             </div>
 
             <div class="graph-view-container graph-icons-top">

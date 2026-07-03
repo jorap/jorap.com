@@ -5,7 +5,7 @@ description: "Say yes or no clearly - no \"definitely maybe,\" no stack of quali
 key_concept: |
   If my word needs hype to sound believable, the problem is my follow-through, not the sentence.
   
-  One deadline, one owner, one plain answer in Slack. On [[Selling Static Sites]] scoping: say yes or no to [[Static Site Client Scope]] before deposit; name the [[Client Site Handoff]] model the same way. Gospel source: [[Let Your Yes Be Yes]]. PKM parallel: [[Atomic Notes]] - one claim per message, not padded prose.
+  One deadline, one owner, one plain answer in Slack. On [[Selling Static Sites]] scoping: say yes or no to [[Static Site Client Scope]] before deposit; name the [[Client Site Pass-Off]] model the same way. Gospel source: [[Let Your Yes Be Yes]]. PKM parallel: [[Atomic Notes]] - one claim per message, not padded prose.
 examples:
   - "I said yes to Friday delivery in the meeting and meant it - no silent scope creep over Slack that night."
   - "The coach promised equal minutes and tracked them on the whiteboard - parents stopped guessing."
@@ -17,7 +17,7 @@ relationships:
     wikilink: "[[Atomic Notes]]"
     reason: "One plain claim per commitment, not kitchen-sink promises"
   - type: extends
-    wikilink: "[[Client Site Handoff]]"
+    wikilink: "[[Client Site Pass-Off]]"
     reason: "Name one publish path before deposit - same plain yes/no"
   - type: extends
     wikilink: "[[Let Your Yes Be Yes]]"

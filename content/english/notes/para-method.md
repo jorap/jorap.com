@@ -8,7 +8,7 @@ examples:
   - "Science fair on the counter with a due date; immunization records in the cabinet with no end date - sorted by what owns it, not alphabet soup."
 relationships:
   - type: contradicts
-    wikilink: "[[Associative Linking]]"
+    wikilink: "[[Linking by Meaning]]"
     reason: "when life buckets beat waiting for links to find each other"
   - type: extends
     wikilink: "[[Building a Second Brain]]"

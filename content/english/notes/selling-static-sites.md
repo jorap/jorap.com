@@ -1,15 +1,15 @@
 ---
 title: "Selling Static Sites"
 meta_title: "Selling Static Sites - Charge for the Build, Price Hosting Honestly"
-description: "I charge for the build and handoff; hosting is a clear line item, not a mystery monthly bundle."
+description: "I charge for the build and pass-off; hosting is a clear line item, not a mystery monthly bundle."
 key_concept: |
   My margin is labor, not hosting markup.
   
   I already run [jorap.com](/) on Hugo, GitHub, and Cloudflare Pages for about the cost of a domain - not the $12/month PHP plan I used to share with a client. Client work uses the same lane: markdown content, a theme, git push, live in about ninety seconds. I quote work that moves the needle; I don't resell "hosting" as a monthly mystery fee.
   
-  **What I quote:** discovery and [[Static Site Client Scope]] yes/no before I touch a theme; repo plus Cloudflare setup with `HUGO_VERSION` and `NODE_VERSION` pinned; theme and layout; content migration and contact form; handoff priced separately from retainer updates. Domain (~$12/year) and hosting priced as their own lines - no bundled fog that hides labor behind server rent.
+  **What I quote:** discovery and [[Static Site Client Scope]] yes/no before I touch a theme; repo plus Cloudflare setup with `HUGO_VERSION` and `NODE_VERSION` pinned; theme and layout; content migration and contact form; pass-off priced separately from retainer updates. Domain (~$12/year) and hosting priced as their own lines - no bundled fog that hides labor behind server rent.
   
-  **Handoff models** (pick one with [[Plain Commitments at Work]] clarity): see [[Client Site Handoff]] - Git lesson, retainer, showroom branch, or [[Git-Based CMS]]. Bad handoff: promise WordPress-style daily edits to five non-technical staff without training.
+  **Pass-off models** (pick one with [[Plain Commitments at Work]] clarity): see [[Client Site Pass-Off]] - Git lesson, retainer, showroom branch, or [[Git-Based CMS]]. Bad pass-off: promise WordPress-style daily edits to five non-technical staff without training.
   
   **Grow the offer:** [[Minimum Viable Product]] = one paid pilot before a three-tier pricing PDF. [[Lean Startup]] loop: ship site, note what broke, fix the template, quote faster next time. [[Ship It]] beats polishing a service page with zero clients. [[Outcomes Over Pitch Decks]] on my own stack: judge by load time and whether the client can publish, not proposal polish.
   
@@ -22,7 +22,7 @@ relationships:
     wikilink: "[[Building a Personal API]]"
     reason: "when the client needs a live database or authenticated app, not a static brochure"
   - type: extends
-    wikilink: "[[Client Site Handoff]]"
+    wikilink: "[[Client Site Pass-Off]]"
     reason: "One publish path named and priced before deposit"
   - type: extends
     wikilink: "[[Creative Output]]"
@@ -38,7 +38,7 @@ relationships:
     reason: "One paid pilot before I over-build the service menu"
   - type: extends
     wikilink: "[[Plain Commitments at Work]]"
-    reason: "Clear handoff model - Git lesson, retainer, or scope no"
+    reason: "Clear pass-off model - Git lesson, retainer, or scope no"
   - type: extends
     wikilink: "[[Ship It]]"
     reason: "Ship the first client site before polishing the sales brochure"

@@ -73,7 +73,7 @@ What this site gives you:
 - **Copy hub cluster** - on hub/MOC pages (`note_kind: index`): hub + all direct wikilink targets in one paste
 - **Copy catalog** - on [OKF Export](/notes/okf-export/): full garden index for ChatGPT project context
 - **Copy issues** - on [Issues](/notes/issues/): structured link/structure report for maintenance sprints
-- **Agent copy** - OKF handoff markdown per note (resolved links), upper right beside Copy MD
+- **Agent copy** - OKF export markdown per note (resolved links), upper right beside Copy MD
 - **OKF export** - full bundle at [/notes/okf-export/](/notes/okf-export/) and [/exports/okf/](/exports/okf/)
 - **Flashcards** - ~12 habit spine notes (~20%) with `review: true` carry six scenario `cards:` in frontmatter plus `card_sets:` for Review grouping; habit prompts I drill at [/notes/review/](/notes/review/)
 

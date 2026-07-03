@@ -32,9 +32,9 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
    - Tech/how-to: `content/english/blog/how-i-built-jorap-notes.md`
    - Tips: `content/english/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md`
    - Opinion: `content/english/blog/top-reasons-why-you-still-need-use-desktop-laptop.md`
-   - **Notes - PKM:** `content/english/notes/capture.md`, `progressive-summarization.md`
+   - **Notes - PKM:** `content/english/notes/capture.md`, `progressive-layers.md`
    - **Notes - faith:** `content/english/notes/free-grace.md`, `sanctification.md`
-   - **Notes - ethics/systems:** `content/english/notes/the-golden-rule.md`, `blameless-postmortem.md`
+   - **Notes - ethics/systems:** `content/english/notes/the-golden-rule.md`, `blameless-after-action-review.md`
    - **Flashcards:** `capture.md`, `free-grace.md`, `the-golden-rule.md`
 2. **Draft in the author's voice**, not a generic blogger voice.
 3. **Run the de-AI pass** (below) - mandatory, even on small edits.
@@ -59,10 +59,9 @@ Plain speech beats smart-sounding prose. Every word should land on first pass.
 
 | Rule | Detail |
 |------|--------|
-| **Everyday words** | `use`, `check`, `fix`, `skip` - not `utilize`, `facilitate`, `implement`, `leverage` |
+| **Everyday default** | Plain words first - but see `data/voice-words.yaml` for what lint actually flags |
 | **Say it out loud** | If you wouldn't say it to a friend mid-rush, swap for the plain word |
 | **Topic terms OK** | See decision tree below - gear names, tool names, theology/PKM terms when they're the subject |
-| **No academic voice** | `repository` → `folder`; `prioritize` → `do first`; `comprehensive` → cut or say what's in it |
 | **Gloss once** | First use of a theology or PKM term: plain English in the same breath, then the term |
 
 ### Topic terms - when jargon is OK
@@ -70,7 +69,7 @@ Plain speech beats smart-sounding prose. Every word should land on first pass.
 | Lane | Where | Rule |
 |------|-------|------|
 | **Faith** | `key_concept`, `description` | Theology terms OK after a plain gloss: "declared right with God - justification" |
-| **PKM** | `key_concept`, `description` | Prefer plain verbs unless the note is *about* the term: `boil down` over `distill`; `after-action review` over `postmortem` |
+| **PKM** | `key_concept`, `description` | Plain verbs when you can; PKM terms OK when the note is *about* the term |
 | **Tools** | blog body, tech notes | Product names OK (Hugo, Cloudflare) - still explain in plain English nearby |
 | **Cards** | `cards.front` / `cards.back` | Plainest layer. Term on the back only if it *is* the immediate move |
 
@@ -78,18 +77,17 @@ Plain speech beats smart-sounding prose. Every word should land on first pass.
 
 | Instead of | Say |
 |------------|-----|
-| `landscape` | what things look like after / what happens next |
 | `unmerited favor` | gift you didn't earn (then "unmerited favor" if needed) |
-| `postmortem` | after-action review |
 | `distill` | boil down / shorten |
-| `handoff` | pass off / pass to client |
 | `deploy` | push live |
 | `metadata` | tags and fields |
 | `contradicts` (in relationship reasons) | goes against |
 
+Hard bans live in `data/voice-words.yaml` - not every row above is linted.
+
 **Vocab test:** Read a paragraph aloud. Any word you'd pause to define? Replace it before finishing.
 
-Run `pnpm lint:voice` before commit - catches em/en dashes and AI-tell words in notes/blog prose.
+Edit `data/voice-words.yaml` for words and phrases you wouldn't say out loud. Run `pnpm voice:scan` to review the whole site grouped by hit; `pnpm lint:voice` before commit catches em/en dashes and strict list matches.
 
 See [examples.md](examples.md) for vocabulary swaps, garden samples, and anti-patterns.
 
@@ -109,14 +107,14 @@ AI writing is smooth, balanced, and empty. JoRap writing is specific, uneven, an
 ### AI tells - remove these
 
 - **Hollow openers**: "When it comes to…", "In the world of…", "X has become increasingly important…"
-- **Significance inflation**: "crucial", "vital", "essential", "plays a key role", "it's important to remember" - unless something is actually life-or-death, dial it down.
+- **Significance inflation**: "plays a key role", "it's important to remember" - unless something is actually life-or-death, dial it down.
 - **Transition spam**: Furthermore, Additionally, Moreover, That said, With that in mind - cut most of them. Start the next thought.
 - **Parallelism disease**: three bullets that all start with "Ensures…" / "Provides…" / "Delivers…" - rewrite as plain speech.
 - **Summary sandwiches**: don't announce what you'll say, say it, then restate it. Say it once, well.
 - **Fake balance**: "While X has benefits, Y also has drawbacks" on every point - pick a side when you have one.
 - **Abstract nouns**: "functionality", "utilization", "optimization" → what does it actually *do*?
 - **No subject**: "It is recommended to…" → "I'd get…" / "Skip…"
-- **Thesaurus voice**: delve, landscape, navigate, leverage, robust, seamless, elevate, realm, tapestry, harness, comprehensive.
+- **Thesaurus voice**: delve, tapestry, harness - plus hollow phrase patterns in `data/voice-words.yaml`.
 - **Over-polish**: if every sentence is grammatically perfect and emotionally flat, roughen one or two.
 
 ### De-AI pass (mandatory)
@@ -174,10 +172,10 @@ Notes use **two registers**. Wiki prose can be denser; cards must stay plain.
 | `description` | Memorable definition, one breath | "Eternal life is Christ's gift by faith alone - not wages for good works." / "Save what resonates into one inbox - then empty it weekly." |
 | `key_concept` | Punch line, then expansion with wikilinks | Line 1: short claim. Blank line. Then lanes, links, "first X, then Y" |
 | `examples` | Two scenes, different domains, same move | Sports + jeepney, deploy + kitchen, coffee + sideline - not two variants of one scene |
-| `relationships.reason` | Short clause, telegraphic OK | "Rollback first; postmortem after calm - not root-cause while users are down" |
+| `relationships.reason` | Short clause, telegraphic OK | "Rollback first; after-action review after calm - not root-cause while users are down" |
 | `cards` | Plainest layer - see [flashcards](../flashcards/SKILL.md) | Cue → apply. No definition backs, no truncated fragments |
 
-**Reference notes by type:** PKM `capture.md`; faith `free-grace.md`, `sanctification.md`; ethics `the-golden-rule.md`; systems `blameless-postmortem.md`.
+**Reference notes by type:** PKM `capture.md`; faith `free-grace.md`, `sanctification.md`; ethics `the-golden-rule.md`; systems `blameless-after-action-review.md`.
 
 **Flashcards boundary:** flashcards skill owns cue→apply structure and card count. jorap-voice owns word choice. Don't turn a good life cue into a "What is X?" definition card.
 
@@ -222,7 +220,7 @@ Before finishing, verify:
 - [ ] Plain words only - no jargon or thesaurus words you wouldn't say out loud
 - [ ] Read aloud - no word you'd pause to define
 - [ ] No AI-slop phrases or thesaurus words (see examples.md)
-- [ ] No corporate/marketing language ("leverage", "robust", "seamless experience")
+- [ ] No AI-slop phrases (see `data/voice-words.yaml` phrases + examples.md)
 - [ ] Sentence lengths vary - not a wall of same-shaped paragraphs
 - [ ] Section headings sound like JoRap, not a product manual
 - [ ] Would sound natural read aloud by a person, not narrated by a help article

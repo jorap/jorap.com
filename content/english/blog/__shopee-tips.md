@@ -41,7 +41,7 @@ I've bought plenty of good stuff there. I've also bought junk because the algori
 - Thousands of sales but almost no written reviews
 - "Ships from overseas" on something you needed this weekend
 
-Shopee's sorting centers (SOCs) move a lot of volume - Paranaque, Biñan, Plaridel, Calamba, Meycauayan, and others handle regional routing. **Closer origin usually means fewer handoffs.** Fewer handoffs usually means fewer surprises.
+Shopee's sorting centers (SOCs) move a lot of volume - Paranaque, Biñan, Plaridel, Calamba, Meycauayan, and others handle regional routing. **Closer origin usually means fewer warehouse hops.** Fewer warehouse hops usually means fewer surprises.
 
 ---
 

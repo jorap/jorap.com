@@ -4,14 +4,14 @@ meta_title: "Graph View Analytics - What the Graph Actually Tells You"
 description: "Graph view analytics reads my link map for orphans, over-connected hubs, and gaps I'd forgotten."
 key_concept: "The link map shows notes with no links, notes with too many, and gaps I forgot to connect."
 examples:
-  - "I laid out the shift handoff chart and three tasks had zero arrows to an owner - the orphan list was my fix-this-week, not a pretty poster."
+  - "I laid out the shift-change chart and three tasks had zero arrows to an owner - the orphan list was my fix-this-week, not a pretty poster."
   - "I laid out the kids' chore chart and three jobs had zero arrows to anything else - nobody knew who checked them; that gap list was my fix-this-week."
 relationships:
   - type: contradicts
     wikilink: "[[Maps of Content]]"
     reason: "when link counts beat a hand-curated index"
   - type: extends
-    wikilink: "[[Associative Linking]]"
+    wikilink: "[[Linking by Meaning]]"
     reason: "Link-rank sorting shows which notes actually anchor the links you built"
   - type: extends
     wikilink: "[[Network Analysis]]"
@@ -28,7 +28,7 @@ card_sets: ["Linking", "Review"]
 cards:
   - front: "Sorted drill notes by link rank - three warm-up routines with zero arrows out. What do I fix this week?"
     back: "Gap list - link them or cut them."
-  - front: "Shift handoff chart laid out - three tasks with zero arrows to an owner. What's the orphan list for?"
+  - front: "Shift pass-off chart laid out - three tasks with zero arrows to an owner. What's the orphan list for?"
     back: "Fix-this-week - assign owners now."
   - front: "Kids' chore chart on the wall - three jobs with no arrows to anything. Nobody knows who checks. One move?"
     back: "Gap list - name the checker this week."

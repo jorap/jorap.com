@@ -20,6 +20,7 @@ draft: false
 
 - [[PKM]]
 - [[Building a Second Brain]]
+- [[The Second Brain Workflow]]
 - [[Atomic Notes]]
 - [[Maps of Content]]
 - [[Getting Started]]
@@ -42,7 +43,7 @@ draft: false
 
 ### Distill & review
 
-- [[Progressive Summarization]]
+- [[Progressive Layers]]
 - [[Weekly Review Checklists]]
 - [[Periodic Knowledge Review]]
 - [[Evergreen Notes]]
@@ -50,7 +51,7 @@ draft: false
 
 ### Connect & explore
 
-- [[Associative Linking]]
+- [[Linking by Meaning]]
 - [[Graph View Analytics]]
 - [[Digital Serendipity]]
 - [[Mind Mapping]]

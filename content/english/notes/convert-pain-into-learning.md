@@ -1,14 +1,14 @@
 ---
 title: "Convert Pain Into Learning"
 meta_title: "Convert Pain Into Learning - Failure Must Produce Correction"
-description: "Convert pain into learning means failure must produce correction, not rumination without change."
+description: "Convert pain into learning means failure must produce correction, not stewing without change."
 key_concept: |
   Failure becomes useful only when it produces correction.
   
-  Reflect on what happened, pull out the lesson, design a better response, and test it the next time the situation shows up - rumination without change is just suffering.
+  Reflect on what happened, pull out the lesson, design a better response, and test it the next time the situation shows up - stewing without change is just suffering.
 examples:
   - "I bombed a client presentation and stewed for a week - convert pain into learning was one page: weak transitions, rehearse bridges ten times, cut two slides."
-  - "I missed the turn twice on the new commute - one note on where the sign hides, tested next Monday, rumination without change would've just been suffering."
+  - "I missed the turn twice on the new commute - one note on where the sign hides, tested next Monday, stewing on it without change would've just been suffering."
 relationships:
   - type: contradicts
     wikilink: "[[Forgiveness]]"
@@ -17,8 +17,8 @@ relationships:
     wikilink: "[[Active Knowledge Curation]]"
     reason: "[[Capture]] the lesson or it rots in memory"
   - type: extends
-    wikilink: "[[Blameless Postmortem]]"
-    reason: "Postmortem is the scheduled convert step after harm"
+    wikilink: "[[Blameless After-Action Review]]"
+    reason: "After-action review is the scheduled convert step after harm"
   - type: extends
     wikilink: "[[Continuous Improvement]]"
     reason: "Each failure feeds the next iteration"

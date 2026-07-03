@@ -1,7 +1,7 @@
 ---
 title: "How I Quote Client Websites"
 meta_title: "How I Quote Client Websites - Clear Line Items, No Mystery Fees"
-description: "I break quotes into pieces you can read - discovery, build, migration, handoff, hosting. No bundled fog, no invoice that mixes labor with server rent you can't audit."
+description: "I break quotes into pieces you can read - discovery, build, migration, pass-off, hosting. No bundled fog, no invoice that mixes labor with server rent you can't audit."
 slug: "selling-static-sites"
 date: 2026-07-02T05:00:00Z
 image: "/images/website.jpg"
@@ -11,14 +11,14 @@ tags: ["Website Building", "Freelance", "Static Site Generator", "Hugo", "Cloudf
 related_notes:
   - selling-static-sites
   - static-site-client-scope
-  - client-site-handoff
+  - client-site-pass-off
   - plain-commitments-at-work
   - success-is-stewardship
 featured: false
 draft: true
 ---
 
-> **TL;DR**: I quote discovery, build, migration, handoff, and hosting as separate line items. You see what labor costs and what infrastructure costs - no $25/month "maintenance" bundle that hides half the bill in mystery server rent.
+> **TL;DR**: I quote discovery, build, migration, pass-off, and hosting as separate line items. You see what labor costs and what infrastructure costs - no $25/month "maintenance" bundle that hides half the bill in mystery server rent.
 
 ## The old way cost me money and trust
 
@@ -42,7 +42,7 @@ Every quote breaks into pieces the client can see:
 
 **Content migration.** Moving copy, images, and old pages from whatever they had before - Facebook-only presence, a WordPress install, a pile of Google Docs, a PDF brochure.
 
-**Handoff, priced separately.** Who publishes after launch? That's not a footnote. I price it as its own line because the answer changes the whole project. More on that in a separate post, but the short version: Git lesson, retainer batches, showroom branch, or a Git-based CMS - pick one before deposit.
+**Pass-off, priced separately.** Who publishes after launch? That's not a footnote. I price it as its own line because the answer changes the whole project. More on that in a separate post, but the short version: Git lesson, retainer batches, showroom branch, or a Git-based CMS - pick one before deposit.
 
 **Retainer updates, if they want them.** Email me copy, I push on a schedule. Priced per batch, not folded into a vague monthly fee.
 
@@ -69,7 +69,7 @@ Rough shape, not a price list (every job differs):
 | Discovery | Fit check, sitemap, publish-path decision |
 | Build | Repo, deploy, theme, core pages |
 | Migration | Content and media from old sources |
-| Handoff | Training, one-page doc, or CMS setup |
+| Pass-off | Training, one-page doc, or CMS setup |
 | Domain | ~$12/year, paid to registrar, visible |
 | Hosting | CDN, HTTPS, deploy pipeline - priced in writing |
 
@@ -81,7 +81,7 @@ No "starting at" fog. No bundled mystery fees. If they want me on retainer after
 
 I didn't start with a three-tier pricing PDF. I started with **one paid pilot** - build the site, note what broke, fix the template, quote the next job faster.
 
-Neighbor wanted a portfolio. Quoted build plus domain. She chose the Git lesson handoff, broke the build once fixing a typo, and fixed it the same night. That's more proof than any "services" page I could have polished first.
+Neighbor wanted a portfolio. Quoted build plus domain. She chose the Git lesson pass-off, broke the build once fixing a typo, and fixed it the same night. That's more proof than any "services" page I could have polished first.
 
 Pastor wanted a sermon archive. Static fit. Said no to member login. Scoped brochure plus archive pages only. Bulletin updates go through a retainer batch every Friday - one push, no CMS layer he didn't need.
 

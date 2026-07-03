@@ -11,7 +11,7 @@ examples:
   - "Five parenting articles became one rule on the fridge - merged into what we believe about screens, not a quote collection."
 relationships:
   - type: contradicts
-    wikilink: "[[Progressive Summarization]]"
+    wikilink: "[[Progressive Layers]]"
     reason: "when merged belief beats layered highlights on borrowed words"
   - type: extends
     wikilink: "[[Creative Output]]"

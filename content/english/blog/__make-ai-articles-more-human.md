@@ -12,7 +12,7 @@ related_notes:
   - intellectual-sourcing
   - the-feynman-technique
   - evergreen-notes
-  - progressive-summarization
+  - progressive-layers
   - commonplace-book
   - literature-notes
 featured: false

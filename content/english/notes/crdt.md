@@ -3,9 +3,9 @@ title: "CRDT"
 meta_title: "CRDT"
 description: "CRDTs let two offline devices merge edits without me picking last-write-wins by clock alone."
 key_concept: |
-  Conflict-free sync lets two devices edit the same note without picking a winner by timestamp alone.
+  Conflict-free replicated data types (CRDTs) let two devices edit the same note without picking a winner by timestamp alone.
   
-  [[Local-first Software]] wants merge-without-master; CRDTs are one way to get there.
+  [[Local-first Software]] wants merge-without-master; they're one way to get there.
 examples:
   - "Two phones edited the grocery list offline; both merged without picking a winner by clock."
   - "Camp notes synced from two laptops after the hike - no \"your version lost\" fight."
@@ -31,7 +31,7 @@ cards:
   - front: "Two coaches edited the same lineup offline at a tournament and both changes merged"
     back: "No \"you must sync first\" fight at the bench"
   - front: "Two shift leads updated the patient board offline and both notes merged when Wi‑Fi came back"
-    back: "No lost handoff over who synced last"
+    back: "No lost pass-off over who synced last"
   - front: "Two phones edited the same list offline and both changes merged"
     back: "No \"you must sync first\" fight"
 draft: false
