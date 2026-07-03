@@ -16,8 +16,8 @@ examples:
 shareable_thought:
   - "I piggyback a new tiny habit onto one that already runs without thinking, like notebook after coffee."
   - "Habit stacking attaches a new small move to a habit that already runs on autopilot - one anchor, one add-on."
-  - "The anchor has to already be bulletproof - stacking onto a habit you sometimes skip just gives you two habits you sometimes skip."
-  - "No calendar slot to defend, no motivation to summon - the existing habit does the reminding."
+  - "The anchor has to already be bulletproof."
+  - "Stacking onto a habit you sometimes skip just gives you two habits you sometimes skip."
 relationships:
   - type: contradicts
     wikilink: "[[First Principles Thinking]]"

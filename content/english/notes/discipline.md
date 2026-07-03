@@ -15,9 +15,9 @@ examples:
   - "Discipline is loading the dishwasher when I'd rather scroll - same as brushing teeth when you're already late."
 shareable_thought:
   - "I do what I said I'd do when nobody's clapping and motivation walked out."
-  - "The applause was never reliable fuel to begin with - it shows up for the highlight, not the Tuesday rep."
+  - "The applause was never reliable fuel to begin with."
+  - "It shows up for the highlight, not the Tuesday rep."
   - "Discipline is keeping the commitment when the feeling that started it is gone."
-  - "Nobody claps for the version of you that just does the boring rep anyway."
 relationships:
   - type: contradicts
     wikilink: "[[Don't Worry]]"

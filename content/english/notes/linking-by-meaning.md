@@ -5,9 +5,9 @@ description: "I link notes so ideas meet in the graph without me memorizing ever
 key_concept: |
   Folders sort files; links connect ideas.
   
-  One link to what extends the thought, one to what pushes back.
-  
   Two typed links are enough for the garden to stay walkable six months later when the folder path is gone.
+  
+  One link to what extends the thought, one to what pushes back.
   
   I link notes so ideas meet in the graph without me memorizing every folder path.
 examples:
@@ -16,8 +16,8 @@ examples:
 shareable_thought:
   - "I link notes so ideas meet in the graph without me memorizing every folder path."
   - "Folders sort files; links connect ideas."
-  - "One link to what extends the thought, one to what pushes back."
   - "Two typed links are enough for the garden to stay walkable six months later when the folder path is gone."
+  - "One link to what extends the thought, one to what pushes back."
 relationships:
   - type: contradicts
     wikilink: "[[PARA Method]]"

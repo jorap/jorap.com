@@ -5,9 +5,9 @@ description: "I'd rather run the fire drill bored than improvise when the alarm 
 key_concept: |
   Rehearse, document, and test before the emergency owns the clock.
   
-  The rehearsal doesn't need to be dramatic - walking the checklist once on a slow day counts.
-  
   Practice the move slowly so you can run it when the clock is loud.
+  
+  The rehearsal doesn't need to be dramatic - walking the checklist once on a slow day counts.
   
   I'd rather run the fire drill bored than improvise when the alarm is real.
 examples:
@@ -16,8 +16,8 @@ examples:
 shareable_thought:
   - "I'd rather run the fire drill bored than improvise when the alarm is real."
   - "Rehearse, document, and test before the emergency owns the clock."
-  - "The rehearsal doesn't need to be dramatic - walking the checklist once on a slow day counts."
   - "Practice the move slowly so you can run it when the clock is loud."
+  - "The rehearsal doesn't need to be dramatic - walking the checklist once on a slow day counts."
 relationships:
   - type: contradicts
     wikilink: "[[Low Hanging Fruit]]"

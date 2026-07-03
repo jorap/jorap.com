@@ -5,8 +5,6 @@ description: "Prefer choices you can undo - irreversible harm needs a higher bar
 key_concept: |
   Concrete undo path when the choice is a deploy or release.
   
-  [[Rollback Principle]] names concrete undo path when the choice is a deploy or release. [[Staged Rollout]] names small blast radius makes undo cheap.
-  
   Prefer choices you can undo.
   
   Irreversible harm needs a higher bar.

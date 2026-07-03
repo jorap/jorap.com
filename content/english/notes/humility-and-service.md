@@ -3,12 +3,11 @@ title: "Humility and Service"
 meta_title: "Humility and Service - The Last Shall Be First"
 description: "Jesus taught greatness through service - the Son of Man came to serve, not be served."
 key_concept: |
-  He washed feet the night before the cross. (Matthew 23:12, Mark 10:43-45).
-  Status in the kingdom runs opposite to the world's ladder: exalt yourself and you'll be humbled; humble yourself and you'll be exalted. Service is the path to kingdom reward and greatness before God - not the price of [[Free Grace]]. [[Faithful Steward]] is the parable shape: well done for faithful use of what He entrusted.
-  
-  Jesus taught greatness through service.
+  He washed feet the night before the cross. (Matthew 23:12, Mark 10:43-45). Status in the kingdom runs opposite to the world's ladder: exalt yourself and you'll be humbled; humble yourself and you'll be exalted. Service is the path to kingdom reward and greatness before God - not the price of [[Free Grace]]. [[Faithful Steward]] is the parable shape: well done for faithful use of what He entrusted.
   
   The Son of Man came to serve, not be served.
+  
+  Jesus taught greatness through service.
   
   Service is the path to kingdom reward and greatness before God - not the price of Free Grace.
 examples:

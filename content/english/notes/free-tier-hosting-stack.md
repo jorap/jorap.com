@@ -9,12 +9,6 @@ key_concept: |
   
   **Where free breaks first:** one account hosting many clients who push often burns the 500-build budget fast. A theme with thousands of unoptimized images can hit the 20k-file cap. One slow Hugo build plus a second push means the second deploy sits behind the first - fine for a solo site, painful when three clients want Friday updates. GitHub free is separate but has its own limits (Actions minutes if you use them; plain git push hosting is usually fine until the repo is huge).
   
-  **Pin env vars on every project:** set `NODE_VERSION` and `GO_VERSION` as **build-time** vars in the Pages dashboard (Settings → Build → Variables) - `wrangler.toml [vars]` are runtime-only and won't apply at build. Pin Hugo once in a versions file the build script reads. Enable **Build cache** in Pages (one-time) plus Hugo `--cacheDir .cache` in the build script. Enable **Git submodules** in Pages settings if the theme is a submodule. Version drift and missing submodules are the most boring deploy failures - and they still eat a build slot when they fail.
-  
-  **Save builds:** batch commits before push; `[skip ci]` for non-site files (`.specstory`, internal `docs/`). Run `scripts/setup-git-hooks.sh` to auto-append skip markers. Every wasted build is one fewer in the monthly pool. Client template: `docs/CLIENT_STATIC_SITE.md`.
-  
-  **When free tier stops fitting:** move to the client's Cloudflare account, trim file bloat, step up to Pages Pro (~$20/mo) for build volume, or split projects across accounts. Domain stays separate (~$12/year). Early pilots can live on my account; before scale, production should move to **client-owned Cloudflare plus GitHub** with a one-page pass-off doc. [[Future-Proofing Knowledge]] parallel: markdown in git is the portable asset; Cloudflare is swappable hosting.
-  
   Hugo, GitHub, and Cloudflare Pages ship static sites for $0.
   
   Until build caps, queues, or account limits bite.

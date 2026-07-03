@@ -16,8 +16,8 @@ examples:
 shareable_thought:
   - "What I let slide in front of my team becomes their real standard, not what's printed on the poster."
   - "The standard you walk past is the standard you accept for everyone under you."
-  - "Ethical leadership is integrity the team can see - what you tolerate in the open, not what you preach on the poster."
-  - "Silence in the room is a decision too - people read it as a yes."
+  - "Ethical leadership is integrity the team can see."
+  - "What you tolerate in the open, not what you preach on the poster."
 relationships:
   - type: contradicts
     wikilink: "[[Outcomes Over Pitch Decks]]"

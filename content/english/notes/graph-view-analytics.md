@@ -5,9 +5,9 @@ description: "Graph view analytics reads my link map for orphans, over-connected
 key_concept: |
   The link map shows notes with no links, notes with too many, and gaps I forgot to connect.
   
-  Orphan notes and over-linked hubs both signal a graph that needs pruning.
-  
   Read the graph for orphans and over-linked hubs before they skew the garden.
+  
+  Orphan notes and over-linked hubs both signal a graph that needs pruning.
   
   Graph view analytics reads my link map for orphans, over-connected hubs, and gaps I'd forgotten.
 examples:
@@ -16,8 +16,8 @@ examples:
 shareable_thought:
   - "Graph view analytics reads my link map for orphans, over-connected hubs, and gaps I'd forgotten."
   - "The link map shows notes with no links, notes with too many, and gaps I forgot to connect."
-  - "Orphan notes and over-linked hubs both signal a graph that needs pruning."
   - "Read the graph for orphans and over-linked hubs before they skew the garden."
+  - "Orphan notes and over-linked hubs both signal a graph that needs pruning."
 relationships:
   - type: contradicts
     wikilink: "[[Maps of Content]]"

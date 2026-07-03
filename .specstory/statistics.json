@@ -991,13 +991,13 @@
       "last_updated": "2026-07-03T00:00:51Z"
     },
     "e1999be1-abaf-481e-943e-baedd20531e4": {
-      "user_message_count": 2,
-      "agent_message_count": 25,
+      "user_message_count": 3,
+      "agent_message_count": 53,
       "start_timestamp": "2026-07-03T14:41:32+08:00",
       "end_timestamp": "2026-07-03T14:41:32+08:00",
-      "markdown_size_bytes": 25171,
+      "markdown_size_bytes": 73782,
       "provider": "cursoride",
-      "last_updated": "2026-07-03T06:58:43Z"
+      "last_updated": "2026-07-03T07:05:09Z"
     },
     "e2391db2-a9b4-462d-923c-204f1cf75664": {
       "user_message_count": 2,

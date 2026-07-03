@@ -7,9 +7,9 @@ key_concept: |
   
   I cut capture paths and sync layers until I hit [[Minimum Effective Dose]] - the smallest setup that still works. That trades some [[Digital Serendipity]] for fewer places sparks get lost and fewer notifications pulling me off the note I was actually writing.
   
-  My notes got sharper when I dropped extra apps, sync layers, and notifications I wasn't really using.
-  
   I cut capture paths and sync layers until I hit Minimum Effective Dose.
+  
+  My notes got sharper when I dropped extra apps, sync layers, and notifications I wasn't really using.
 examples:
   - "We dropped the second gym bag and the backup jump rope - fewer things means I actually know where the one working pair of shoes lives."
   - "The front desk runs one scheduling app, not four - fewer sync layers means fewer places patient reminders get lost."

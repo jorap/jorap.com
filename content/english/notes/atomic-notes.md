@@ -5,8 +5,7 @@ description: "If a note needs three ands to make its point, I split it before I 
 key_concept: |
   One claim I'd say out loud - too many ands, split it.
   
-  **Rule of thumb:** one thing I'd cite in conversation - "why middle-click saves tab chaos" is atomic; "browser tips and meeting notes" is not.
-  Small notes stack like Lego blocks - linked, not merged. Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing. If I need headings inside one file, I probably need two notes. Faith parallel: [[Let Your Yes Be Yes]] - say one plain thing; let your yes be yes.
+  **Rule of thumb:** one thing I'd cite in conversation - "why middle-click saves tab chaos" is atomic; "browser tips and meeting notes" is not. Small notes stack like Lego blocks - linked, not merged. Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing. If I need headings inside one file, I probably need two notes. Faith parallel: [[Let Your Yes Be Yes]] - say one plain thing; let your yes be yes.
   
   If a note needs three ands to make its point, I split it before I link it.
 examples:

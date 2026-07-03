@@ -5,9 +5,9 @@ description: "My daily note is a scratch pad for today's fragments, not a diary 
 key_concept: |
   Daily notes are fleeting by default, with quick buffer flushes between tasks.
   
-  Promote a repeating fragment to a real note; let the rest fade.
-  
   A scratch pad for the day - not every fragment deserves to become permanent.
+  
+  Promote a repeating fragment to a real note; let the rest fade.
   
   My daily note is a scratch pad for today's fragments, not a diary I expect to last forever.
 examples:
@@ -16,8 +16,8 @@ examples:
 shareable_thought:
   - "My daily note is a scratch pad for today's fragments, not a diary I expect to last forever."
   - "Daily notes are fleeting by default, with quick buffer flushes between tasks."
-  - "Promote a repeating fragment to a real note; let the rest fade."
   - "A scratch pad for the day - not every fragment deserves to become permanent."
+  - "Promote a repeating fragment to a real note; let the rest fade."
 relationships:
   - type: contradicts
     wikilink: "[[Evergreen Notes]]"

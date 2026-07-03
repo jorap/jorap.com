@@ -3,8 +3,7 @@ title: "Heart Righteousness"
 meta_title: "Heart Righteousness - Anger and Lust as Heart Sins"
 description: "Heart righteousness goes deeper than outward acts - anger is murder, lust is adultery, in the heart."
 key_concept: |
-  Jesus didn't lower the law; he exposed its depth. (Matthew 5:21-30).
-  "You have heard… but I say" moves righteousness from courtroom compliance to motive and imagination. Under [[Free Grace]], this isn't a new merit ladder - it's the standard the Spirit applies to a life already saved, starting where only God sees. [[Fruits of the Spirit]] names what that inner work produces outward - love, gentleness, self-control, and the rest.
+  Jesus didn't lower the law; he exposed its depth. (Matthew 5:21-30). "You have heard… but I say" moves righteousness from courtroom compliance to motive and imagination. Under [[Free Grace]], this isn't a new merit ladder - it's the standard the Spirit applies to a life already saved, starting where only God sees. [[Fruits of the Spirit]] names what that inner work produces outward - love, gentleness, self-control, and the rest.
   
   Heart righteousness goes deeper than outward acts.
   

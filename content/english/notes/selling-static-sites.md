@@ -5,15 +5,11 @@ description: "I charge for the build and pass-off; hosting is a clear line item,
 key_concept: |
   My margin is labor, not hosting markup.
   
-  I already run [jorap.com](/) on Hugo, GitHub, and Cloudflare Pages for about the cost of a domain - not the $12/month PHP plan I used to share with a client. Client work uses the same lane: markdown content, a theme, git push, live in about ninety seconds. I quote work that moves the needle; I don't resell "hosting" as a monthly mystery fee.
-  
   **What I quote:** discovery and [[Static Site Client Scope]] yes/no before I touch a theme; repo plus Cloudflare setup with `HUGO_VERSION` and `NODE_VERSION` pinned; theme and layout; content migration and contact form; pass-off priced separately from retainer updates. Domain (~$12/year) and hosting priced as their own lines - no bundled fog that hides labor behind server rent.
   
+  I already run [jorap.com](/) on Hugo, GitHub, and Cloudflare Pages for about the cost of a domain - not the $12/month PHP plan I used to share with a client. Client work uses the same lane: markdown content, a theme, git push, live in about ninety seconds. I quote work that moves the needle; I don't resell "hosting" as a monthly mystery fee.
+  
   **Pass-off models** (pick one with [[Plain Commitments at Work]] clarity): see [[Client Site Pass-Off]] - Git lesson, retainer, showroom branch, or [[Git-Based CMS]]. Bad pass-off: promise WordPress-style daily edits to five non-technical staff without training.
-  
-  **Grow the offer:** [[Minimum Viable Product]] = one paid pilot before a three-tier pricing PDF. [[Lean Startup]] loop: ship site, note what broke, fix the template, quote faster next time. [[Ship It]] beats polishing a service page with zero clients. [[Outcomes Over Pitch Decks]] on my own stack: judge by load time and whether the client can publish, not proposal polish.
-  
-  **When hosting needs to scale:** build count climbing, file bloat, client wants their own Cloudflare org, or concurrent builds blocking deploys. Mitigations live in [[Free Tier Hosting Stack]]; scope traps live in [[Static Site Client Scope]].
   
   I charge for the build and pass-off; hosting is a clear line item, not a mystery monthly bundle.
 examples:
@@ -22,8 +18,8 @@ examples:
 shareable_thought:
   - "I charge for the build and pass-off; hosting is a clear line item, not a mystery monthly bundle."
   - "My margin is labor, not hosting markup."
-  - "Client work uses the same lane: markdown content, a theme, git push, live in about ninety seconds."
-  - "I quote work that moves the needle; I don't resell \"hosting\" as a monthly mystery fee."
+  - "Domain (~$12/year) and hosting priced as their own lines."
+  - "No bundled fog that hides labor behind server rent."
 relationships:
   - type: contradicts
     wikilink: "[[Building a Personal API]]"

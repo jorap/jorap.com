@@ -13,9 +13,9 @@ examples:
   - "I stopped comparing note apps and shipped with the one that works on my phone tired - no perfect tool, only what I actually use."
 shareable_thought:
   - "There's no perfect solution - pick what works tired and ship instead of waiting for the ideal."
-  - "Waiting for the ideal option is itself a choice - usually the choice to stay stuck with the status quo."
+  - "Waiting for the ideal option is itself a choice."
+  - "Usually the choice to stay stuck with the status quo."
   - "Every real choice has tradeoffs."
-  - "Stop comparing real options to an imaginary perfect one."
 relationships:
   - type: contradicts
     wikilink: "[[Pareto Principle]]"

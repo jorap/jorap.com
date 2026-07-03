@@ -5,9 +5,9 @@ description: "Develop the person without hiding behind consent when the drill is
 key_concept: |
   Consent doesn't erase the job when the drill is unsafe.
   
-  Unsafe or pointless drills still owe reasonable protection to people under your influence.
-  
   Waivers protect against lawsuits, not against the drill actually hurting someone.
+  
+  Unsafe or pointless drills still owe reasonable protection to people under your influence.
   
   Develop the person without hiding behind consent when the drill is unsafe or pointless.
 examples:
@@ -16,8 +16,8 @@ examples:
 shareable_thought:
   - "Develop the person without hiding behind consent when the drill is unsafe or pointless."
   - "Consent doesn't erase the job when the drill is unsafe."
-  - "Unsafe or pointless drills still owe reasonable protection to people under your influence."
   - "Waivers protect against lawsuits, not against the drill actually hurting someone."
+  - "Unsafe or pointless drills still owe reasonable protection to people under your influence."
 relationships:
   - type: contradicts
     wikilink: "[[Life Before Achievement]]"

@@ -5,20 +5,19 @@ description: "I put God's rule first and let food, status, and tomorrow's worry 
 key_concept: |
   The test isn't whether I believe God should be first - it's what actually gets my first ten minutes of the day (Matthew 6:33).
   
-  The Sermon on the Mount ties this to not serving two masters (God and wealth) and to storing [[Treasure in Heaven]].
-  Kingdom isn't escape from earth - it's God's reign ordering my priorities today. Same job as [[Signal vs Noise]] in the PKM stack: what gets first place when everything feels urgent.
-  
-  I put God's rule first and let food, status, and tomorrow's worry sort behind that.
+  The Sermon on the Mount ties this to not serving two masters (God and wealth) and to storing [[Treasure in Heaven]]. Kingdom isn't escape from earth - it's God's reign ordering my priorities today. Same job as [[Signal vs Noise]] in the PKM stack: what gets first place when everything feels urgent.
   
   The Sermon on the Mount ties this to not serving two masters (God and wealth) and to storing Treasure in Heaven.
+  
+  I put God's rule first and let food, status, and tomorrow's worry sort behind that.
 examples:
   - "Tuesday at 7am the house was loud and my Bible was still closed - seek the kingdom first is Scripture before the day's noise sets the agenda."
   - "Anxiety had me scrolling finances before I prayed - kingdom first meant pray, then act on the bills."
 shareable_thought:
   - "I put God's rule first and let food, status, and tomorrow's worry sort behind that."
-  - "The test isn't whether I believe God should be first - it's what actually gets my first ten minutes of the day."
-  - "Kingdom isn't escape from earth - it's God's reign ordering my priorities today."
+  - "The test isn't whether I believe God should be first - it's what actually gets my first ten minutes of the day (Matthew 6:33)."
   - "The Sermon on the Mount ties this to not serving two masters (God and wealth) and to storing Treasure in Heaven."
+  - "Kingdom isn't escape from earth - it's God's reign ordering my priorities today."
 relationships:
   - type: contradicts
     wikilink: "[[Signal vs Noise]]"

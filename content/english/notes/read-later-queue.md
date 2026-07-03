@@ -5,8 +5,7 @@ description: "Save for later is fine until the queue turns into a guilt pile I'l
 key_concept: |
   A parking lot for links you'll process later - dangerous if it becomes a graveyard.
   
-  Save-for-later is capture with a trap door - without a weekly drain it becomes guilt storage.
-  [[The Collector's Fallacy]] names hoarding; [[The Trusted Inbox]] is the drain that saves the queue.
+  Save-for-later is capture with a trap door - without a weekly drain it becomes guilt storage. [[The Collector's Fallacy]] names hoarding; [[The Trusted Inbox]] is the drain that saves the queue.
   
   Save for later is fine until the queue turns into a guilt pile I'll never touch.
 examples:

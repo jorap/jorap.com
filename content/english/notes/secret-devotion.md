@@ -5,12 +5,11 @@ description: "I give, pray, and fast for God to see - not for applause in the gr
 key_concept: |
   Give, pray, and fast for the Father's eyes - not to be seen by people (Matthew 6:1-18).
   
-  Jesus brackets the [[Ask Seek Knock]] with the same warning: religious performance for an audience is its own reward.
-  Secret devotion pairs with [[Ask Seek Knock]] (how to pray) and contrasts [[Let Your Light Shine]] - some good works shine publicly for God's glory; other devotion stays hidden so the left hand doesn't know what the right is doing. [[Free Grace]] means I'm not earning visibility points with God.
-  
-  I give, pray, and fast for God to see - not for applause in the group chat.
+  Jesus brackets the [[Ask Seek Knock]] with the same warning: religious performance for an audience is its own reward. Secret devotion pairs with [[Ask Seek Knock]] (how to pray) and contrasts [[Let Your Light Shine]] - some good works shine publicly for God's glory; other devotion stays hidden so the left hand doesn't know what the right is doing. [[Free Grace]] means I'm not earning visibility points with God.
   
   Secret devotion pairs with Ask Seek Knock (how to pray) and contrasts Let Your Light Shine.
+  
+  I give, pray, and fast for God to see - not for applause in the group chat.
 examples:
   - "I pray with the kids before bed with the door closed - no photo, no caption, just the Father who already knows we're here."
   - "The player doesn't live-stream her 5 a.m. shootarounds for applause - she trains because the game is the point, not the Strava badge."

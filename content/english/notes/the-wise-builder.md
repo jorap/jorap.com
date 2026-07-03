@@ -3,19 +3,20 @@ title: "The Wise Builder"
 meta_title: "The Wise Builder - Hear and Do"
 description: "Hearing the words isn't enough - I build on rock when I actually do what Jesus said."
 key_concept: |
-  Both builders hear the sermon; only one obeys. (Matthew 7:24-27).
-  Storms reveal which foundation held. Under [[Free Grace]], doing isn't what saves - faith saves - but genuine hearing produces action. [[Faith and Works]] names the order: works prove faith alive, they don't buy heaven. Empty "Lord, Lord" without doing the Father's will is the fool's house (Matthew 7:21-23) - see [[The Narrow Way]] and [[Loss of Reward]] for false profession vs believer who stumbles. PKM mirror: [[The Collector's Fallacy]] - hearing sermons and saving articles without [[Creative Output]] is sand; obedience and output are rock.
+  Both builders hear the sermon; only one obeys. (Matthew 7:24-27). Storms reveal which foundation held. Under [[Free Grace]], doing isn't what saves - faith saves - but genuine hearing produces action. [[Faith and Works]] names the order: works prove faith alive, they don't buy heaven. Empty "Lord, Lord" without doing the Father's will is the fool's house (Matthew 7:21-23) - see [[The Narrow Way]] and [[Loss of Reward]] for false profession vs believer who stumbles. PKM mirror: [[The Collector's Fallacy]] - hearing sermons and saving articles without [[Creative Output]] is sand; obedience and output are rock.
+  
+  Doing isn't what saves - faith saves - but genuine hearing still produces action.
   
   Hearing the words isn't enough - I build on rock when I actually do what Jesus said.
   
-  Doing isn't what saves - faith saves - but genuine hearing still produces action.
+  False profession and a stumbling believer are not the same thing.
 examples:
   - "We heard the coach's lecture on discipline and still skipped film study Tuesday - hearing without doing is sand; storms show which builder you are."
   - "Safety training Monday, same shortcut Wednesday - wise builder hears and does; fool hears and nods."
 shareable_thought:
   - "Hearing the words isn't enough - I build on rock when I actually do what Jesus said."
   - "Empty \"Lord, Lord\" without doing the Father's will is the fool's house (Matthew 7:21-23)."
-  - "Doing isn't what saves - faith saves - but genuine hearing still produces action."
+  - "False profession and a stumbling believer are not the same thing."
   - "Both builders hear the sermon; only one obeys. (Matthew 7:24-27)."
 relationships:
   - type: contradicts

@@ -5,8 +5,7 @@ description: "I look at which notes connect everything else - those hubs tell me
 key_concept: |
   Study links and hubs in a graph - who connects whom, what's isolated.
   
-  Bridges and orphans matter more than node count - the graph shows who carries traffic and what's stranded.
-  [[Linking by Meaning]] builds the graph; [[Maps of Content]] wins when a hand hub beats metrics.
+  Bridges and orphans matter more than node count - the graph shows who carries traffic and what's stranded. [[Linking by Meaning]] builds the graph; [[Maps of Content]] wins when a hand hub beats metrics.
   
   I look at which notes connect everything else.
   

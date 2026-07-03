@@ -5,8 +5,7 @@ description: "I process the inbox to empty each week - decide, don't hoard."
 key_concept: |
   Process the inbox to empty regularly - each item decided, not hoarded.
   
-  Empty the capture pipe on schedule - zero isn't vanity, it's proof the system still works.
-  [[The Trusted Inbox]] is the habit; zero is the proof you still empty it.
+  Empty the capture pipe on schedule - zero isn't vanity, it's proof the system still works. [[The Trusted Inbox]] is the habit; zero is the proof you still empty it.
   
   I process the inbox to empty each week - decide, don't hoard.
 examples:

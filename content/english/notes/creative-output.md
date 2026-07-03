@@ -9,9 +9,9 @@ key_concept: |
   
   The inventory only pays off the day it becomes something someone else can read, hear, or eat.
   
-  Notes are inventory for me.
-  
   Posts, sermons, code, and dinner experiments are the point.
+  
+  Notes are inventory for me.
 examples:
   - "Friday film day means everyone shows one clip, rough or not - I do the same with my note pile, three sparks become one finished piece even if the cut is rough."
   - "We don't wait for perfect dinner photos - we ship the meal and fix the recipe next time; hearing the idea isn't doing it."

@@ -7,9 +7,9 @@ description: "Two notes from the garden, picked at random. I hit **Shuffle** for
 key_concept: |
   Forced serendipity - two unrelated claims side by side so I notice links I forgot to make.
   
-  Two notes from the garden, picked at random.
-  
   Shuffle again when the pair doesn't spark a link worth making.
+  
+  Two notes from the garden, picked at random.
   
   I hit Shuffle for another pair.
 shareable_thought:

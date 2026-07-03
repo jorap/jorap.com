@@ -5,9 +5,7 @@ description: "My head is for thinking, not storing - notes hold what I'd otherwi
 key_concept: |
   Offload ideas so my head can think, not hoard.
   
-  Remember CODE: [[Capture]], organize, distill, express.
-  [[The Second Brain Workflow]] is how CODE and PARA run as one daily-to-weekly loop.
-  The system fails when any step is just for show. I review whether each step still earns its place every quarter.
+  Remember CODE: [[Capture]], organize, distill, express. [[The Second Brain Workflow]] is how CODE and PARA run as one daily-to-weekly loop. The system fails when any step is just for show. I review whether each step still earns its place every quarter.
   
   My head is for thinking, not storing.
   

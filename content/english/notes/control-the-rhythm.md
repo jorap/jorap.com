@@ -18,7 +18,7 @@ examples:
 shareable_thought:
   - "Control the rhythm is taking back pace before urgency, conflict, or someone else sets it."
   - "Whoever sets the pace often steers the room."
-  - "The room usually can't tell the difference between you slowing down and you being in control."
+  - "The room usually can't tell the difference between you slowing down and you being in control - so slow down."
   - "Urgency is real - I still choose the pace I work at."
 relationships:
   - type: contradicts

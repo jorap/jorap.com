@@ -11,9 +11,9 @@ key_concept: |
   
   No party gets my soul.
   
-  Render Unto Caesar names the split: coin to Caesar, self to God.
-  
   Seek the Kingdom First still ranks God's reign above every election cycle.
+  
+  Render Unto Caesar names the split: coin to Caesar, self to God.
 examples:
   - "Tax bill landed and part of me wanted to treat paying it like betraying the kingdom - [[Render Unto Caesar]]: lawful duty and ultimate worship stay distinct."
   - "Group chat turned tribal after the election and my thumb hovered on a dunk - bless the neighbor, don't baptize the rage."

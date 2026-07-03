@@ -15,9 +15,9 @@ examples:
   - "The building guard walks the posted evacuation route he practiced on quiet shifts - written steps when the alarm trips loud."
 shareable_thought:
   - "I write short steps for deploys and incidents so nobody has to improvise when the clock is loud."
-  - "SOPs are simple written steps for recurring work."
-  - "The checklist isn't an insult to competence - it's what competence looks like when adrenaline is running the show."
+  - "SOPs are simple written steps for recurring work - so nobody improvises under stress."
   - "Written steps beat improvisation when stress shrinks working memory."
+  - "The checklist isn't an insult to competence - it's what competence looks like when adrenaline is running the show."
 relationships:
   - type: contradicts
     wikilink: "[[Adaptability]]"

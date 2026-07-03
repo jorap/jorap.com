@@ -5,8 +5,7 @@ description: "Tags, folders, and types are how I find notes later - classificati
 key_concept: |
   A classification scheme - folders, tags, types - for finding things later.
   
-  Tags and types only help when the list stays short enough you'd actually pick from it.
-  [[Metadata Strategy]] plans tags; taxonomy is the short list you'd actually use.
+  Tags and types only help when the list stays short enough you'd actually pick from it. [[Metadata Strategy]] plans tags; taxonomy is the short list you'd actually use.
   
   Tags, folders, and types are how I find notes later.
   

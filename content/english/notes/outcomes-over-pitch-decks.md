@@ -7,17 +7,21 @@ key_concept: |
   
   I look at downstream stress, turnover, delivery, and whether the team got healthier or more brittle. On [[Static Site Client Scope]], same filter: pick WordPress or Shopify when the fruit requires it - don't sell [[Free Tier Hosting Stack]] because it's my favorite hammer. Don't condemn souls; do read the fruit. Gospel source: [[By Their Fruits]]. PKM parallel: [[Signal vs Noise]].
   
+  Don't condemn souls; do read the fruit over time.
+  
   Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura.
   
-  Don't condemn souls; do read the fruit over time.
+  On Static Site Client Scope, same filter: pick WordPress or Shopify when the fruit requires it.
+  
+  Don't sell Free Tier Hosting Stack because it's my favorite hammer.
 examples:
   - "The trainer's Instagram was polished - I asked two parents who finished the program about injuries and consistency."
   - "The contractor's portfolio was gorgeous - I asked two neighbors who lived through the remodel about permit fights and cracked tile."
 shareable_thought:
   - "Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura."
   - "Smooth talkers ship thorns sometimes."
-  - "I look at downstream stress, turnover, delivery, and whether the team got healthier or more brittle."
-  - "Don't condemn souls; do read the fruit over time."
+  - "On Static Site Client Scope, same filter: pick WordPress or Shopify when the fruit requires it."
+  - "Don't sell Free Tier Hosting Stack because it's my favorite hammer."
 relationships:
   - type: contradicts
     wikilink: "[[Life Before Achievement]]"

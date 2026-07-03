@@ -17,7 +17,7 @@ shareable_thought:
   - "I plan what happens after the other side adapts, not just how my opening move looks on paper."
   - "The opening move isn't the game."
   - "I rehearse what happens after they adapt."
-  - "Rehearse the second move before tip-off - second-order thinking with skin in the game."
+  - "Rehearse the second move before tip-off."
 relationships:
   - type: contradicts
     wikilink: "[[Low Hanging Fruit]]"

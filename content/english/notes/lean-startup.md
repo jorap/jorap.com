@@ -5,9 +5,9 @@ description: "I'd rather ship a rough test and learn than polish a product nobod
 key_concept: |
   Build the smallest test, measure, learn - don't scale before validation.
   
-  The waitlist number matters less than whether those people would actually pay today.
-  
   Measure what happened, then fix the template - not the pitch deck.
+  
+  The waitlist number matters less than whether those people would actually pay today.
   
   I'd rather ship a rough test and learn than polish a product nobody wanted.
 examples:
@@ -16,8 +16,8 @@ examples:
 shareable_thought:
   - "I'd rather ship a rough test and learn than polish a product nobody wanted."
   - "Build the smallest test, measure, learn - don't scale before validation."
-  - "The waitlist number matters less than whether those people would actually pay today."
   - "Measure what happened, then fix the template - not the pitch deck."
+  - "The waitlist number matters less than whether those people would actually pay today."
 relationships:
   - type: contradicts
     wikilink: "[[Finish Strong]]"

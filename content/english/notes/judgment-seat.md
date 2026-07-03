@@ -12,6 +12,8 @@ key_concept: |
   Eternal life was already settled by faith.
   
   Free Grace and Justification already decided where I spend forever.
+  
+  Secret Devotion and Let Your Light Shine both show up in the ledger.
 examples:
   - "I pictured standing before Christ and panicked like heaven might get revoked - the judgment seat evaluates works for reward; salvation was settled at faith."
   - "Years of church service felt like my ticket in - what gets weighed is faithful obedience after salvation, not a re-trial on who gets eternal life."
@@ -19,7 +21,7 @@ shareable_thought:
   - "Believers stand before Christ after salvation to have works evaluated for reward."
   - "Eternal life was already settled by faith."
   - "Free Grace and Justification already decided where I spend forever."
-  - "Wood, hay, and stubble burn; gold, silver, and precious stones last at the fire test."
+  - "Secret Devotion and Let Your Light Shine both show up in the ledger."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

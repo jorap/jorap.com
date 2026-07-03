@@ -7,8 +7,6 @@ key_concept: |
   
   I calendar weekly and quarterly passes the way I'd calendar bills - inbox, active projects, evergreens on the clock, not when guilt spikes.
   
-  Active curation on schedule beats guilt-driven binge review when the vault feels heavy.
-  
   If I never revisit notes, they rot.
   
   I calendar weekly and quarterly passes like I'd calendar bills.
@@ -19,7 +17,7 @@ shareable_thought:
   - "If I never revisit notes, they rot."
   - "I calendar weekly and quarterly passes like I'd calendar bills."
   - "Crisis review is always too late."
-  - "Active curation on schedule beats guilt-driven binge review when the vault feels heavy."
+  - "I calendar weekly and quarterly passes the way I'd calendar bills."
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Effective Dose]]"

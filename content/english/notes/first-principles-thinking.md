@@ -16,8 +16,8 @@ examples:
 shareable_thought:
   - "First principles thinking is rebuilding from what I actually believe, not someone else's quote."
   - "A saved quote isn't a principle until I rebuild the claim in my own words."
-  - "The tell is whether you can defend the claim without citing the source - if you can't, you don't own it yet."
-  - "This isn't distrust of the source - it's that you can't explain, extend, or apply an idea you never rebuilt."
+  - "The tell is whether you can defend the claim without citing the source."
+  - "If you can't, you don't own it yet."
 relationships:
   - type: alternative
     wikilink: "[[Mental Models]]"

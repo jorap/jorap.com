@@ -3,8 +3,7 @@ title: "Love Your Enemies"
 meta_title: "Love Your Enemies - Jesus' Hard Command"
 description: "Love your enemies - bless, pray, reflect the Father who sends rain on just and unjust alike."
 key_concept: |
-  Jesus overturned the tribal reading of "neighbor." Loving only people who love you back is ordinary; loving enemies is divine-shaped. (Matthew 5:44-45).
-  Prayer and blessing are the practical handles - not agreement, not pretending harm didn't happen. The Father's free grace toward the unjust (Matthew 5:45) is the pattern: I love enemies because God loved me first.
+  Jesus overturned the tribal reading of "neighbor." Loving only people who love you back is ordinary; loving enemies is divine-shaped. (Matthew 5:44-45). Prayer and blessing are the practical handles - not agreement, not pretending harm didn't happen. The Father's free grace toward the unjust (Matthew 5:45) is the pattern: I love enemies because God loved me first.
   
   Love your enemies.
   

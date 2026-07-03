@@ -3,8 +3,7 @@ title: "Render Unto Caesar"
 meta_title: "Render Unto Caesar - Civic Duty and Worship"
 description: "Pay lawful civic obligations - taxes, duties owed the state - while reserving ultimate worship for God alone."
 key_concept: |
-  The coin bore Caesar's image; give it back to him. (Matthew 22:21).
-  You bear God's image; give yourself to Him. Jesus avoids both revolutionary tax refusal and idolizing Rome. [[Seek the Kingdom First]] still ranks the kingdom above every earthly master, but that doesn't excuse dodging legitimate civic responsibility.
+  The coin bore Caesar's image; give it back to him. (Matthew 22:21). You bear God's image; give yourself to Him. Jesus avoids both revolutionary tax refusal and idolizing Rome. [[Seek the Kingdom First]] still ranks the kingdom above every earthly master, but that doesn't excuse dodging legitimate civic responsibility.
   
   Pay lawful civic obligations - taxes, duties owed the state - while reserving ultimate worship for God alone.
 examples:

@@ -17,7 +17,7 @@ shareable_thought:
   - "A reliable default is the simple rehearsed move I run when thinking is thin."
   - "Make that fallback a simple, dependable response."
   - "Rehearsed enough to run when thinking is thin."
-  - "Build it before the crisis, not during it - a default assembled mid-emergency isn't a default."
+  - "Build it before the crisis, not during it."
 relationships:
   - type: contradicts
     wikilink: "[[First Principles Thinking]]"
