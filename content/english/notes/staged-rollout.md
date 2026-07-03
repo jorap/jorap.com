@@ -18,6 +18,9 @@ shareable_thought:
   - "Safety by Design at release time: harm hits fewer people before you commit the whole lane."
 relationships:
   - type: alternative
+    wikilink: "[[Practice Small Experiments]]"
+    reason: "Controlled slice when micro-trials are too small for the risk"
+  - type: alternative
     wikilink: "[[Preparedness]]"
     reason: "Rehearse on a slice vs rehearse the undo drill on paper"
   - type: contradicts

@@ -8,11 +8,13 @@ key_concept: |
   Jesus taught greatness through service.
   
   The Son of Man came to serve, not be served.
+  
+  Jesus taught greatness through service - the Son washed feet the night before the cross.
 examples:
   - "I helped a neighbor move and waited for credit in the group chat - greatness is serving, not being served."
   - "I organized snacks for my kid's basketball team on Sunday and came home expecting my family to serve me back - wash feet here too, not only where people can see you."
 shareable_thought:
-  - "Jesus taught greatness through service."
+  - "Jesus taught greatness through service - the Son washed feet the night before the cross."
   - "The Son of Man came to serve, not be served."
   - "He washed feet the night before the cross. (Matthew 23:12, Mark 10:43-45)."
   - "Service is the path to kingdom reward and greatness before God - not the price of Free Grace."

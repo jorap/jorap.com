@@ -8,11 +8,13 @@ key_concept: |
   I store up what lasts.
   
   Generosity and obedience - not what rust, moth, and thieves can take.
+  
+  Treasure in heaven means I store up what lasts - earthly trophies rust, kingdom storage doesn't.
 examples:
   - "Thumb on another buy I don't need - will this rust, or store something heaven-side like mercy and obedience?"
   - "I almost chased a sponsorship for the ego, not the team - treasure check: where will this matter in ten years?"
 shareable_thought:
-  - "I store up what lasts."
+  - "Treasure in heaven means I store up what lasts - earthly trophies rust, kingdom storage doesn't."
   - "Generosity and obedience - not what rust, moth, and thieves can take."
   - "Where your treasure is, there your heart will be. (Matthew 6:19-21)."
   - "Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation."
@@ -20,6 +22,9 @@ relationships:
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"
     reason: "when I hoard earth and call it wisdom"
+  - type: extends
+    wikilink: "[[God Centered Design]]"
+    reason: "Store what lasts - earthly applause rusts"
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Grace secured heaven; treasure names what you store after - not the entry fee"

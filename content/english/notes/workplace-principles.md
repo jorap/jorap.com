@@ -59,6 +59,9 @@ draft: false
 ## Leadership and craft
 
 - [[Servant Leadership]] - greatness is making the team win, not grabbing the credit
+- [[Own Your Part]] - move your slice before permission arrives from upstairs
+- [[People-Centered Design]] - real human needs first or the change won't stick
+- [[Shadow the Work]] - watch one person do the real job before you redraw the process
 - [[Share What You Learn]] - pass on what you know; don't hoard knowledge like private bookmarks
 - [[Integrity Without an Audience]] - do the honest work when there's no audience in the room
 - [[Success is Stewardship]] - promotion and platform are borrowed - use them for the team, not ego
@@ -87,6 +90,9 @@ draft: false
 | [[Plain Commitments at Work]] | [[Let Your Yes Be Yes]] |
 | [[Outcomes Over Pitch Decks]] | [[By Their Fruits]] |
 | [[Priorities Before the Inbox]] | [[Seek the Kingdom First]] |
+| [[Own Your Part]] | [[Accountability]] |
+| [[People-Centered Design]] | [[Listen Before Fixing]] |
+| [[Shadow the Work]] | [[Outcomes Over Pitch Decks]] |
 | [[Servant Leadership]] | [[Humility and Service]] |
 | [[Share What You Learn]] | [[Great Commission]] |
 | [[Integrity Without an Audience]] | [[Secret Devotion]] |

@@ -8,18 +8,26 @@ key_concept: |
   One block on the actual deliverable - spec, hard conversation, [[Deep Work]] - before I answer pings. Gospel source: [[Seek the Kingdom First]]. PKM parallel: [[Signal vs Noise]].
   
   Put the real priority first before email, Slack, and everyone else's urgency rewrite my morning.
+  
+  Priorities before the inbox means one protected block on the actual deliverable - email can wait its turn.
 examples:
   - "Game film due Friday - I cut it before answering every parent group chat ping."
   - "The report was due at noon - I wrote the first page before opening Slack."
 shareable_thought:
   - "Put the real priority first before email, Slack, and everyone else's urgency rewrite my morning."
   - "The inbox is other people's priorities wearing a siren."
-  - "One block on the actual deliverable."
+  - "Priorities before the inbox means one protected block on the actual deliverable - email can wait its turn."
   - "Spec, hard conversation, Deep Work - before I answer pings."
 relationships:
   - type: contradicts
     wikilink: "[[Signal vs Noise]]"
     reason: "when I treat every ping as top priority"
+  - type: extends
+    wikilink: "[[God Centered Design]]"
+    reason: "Protect the real aim - faith lane names God's glory first"
+  - type: extends
+    wikilink: "[[Purpose and Vision]]"
+    reason: "Named outcome before Slack sets the morning"
   - type: extends
     wikilink: "[[Seek the Kingdom First]]"
     reason: "God's reign first - here, the real deliverable before the noise"

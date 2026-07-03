@@ -31,6 +31,9 @@ relationships:
     wikilink: "[[Patience]]"
     reason: "Slow fuse grows from staying in the vine - not willpower alone"
   - type: extends
+    wikilink: "[[Christlikeness]]"
+    reason: "Likeness grows from staying in the vine - not willpower theater"
+  - type: extends
     wikilink: "[[Sanctification]]"
     reason: "Abiding is how holiness grows after justification"
 slug: "abide-in-me"

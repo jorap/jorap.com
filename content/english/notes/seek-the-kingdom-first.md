@@ -21,6 +21,12 @@ relationships:
     wikilink: "[[Signal vs Noise]]"
     reason: "when I treat every demand as kingdom-level priority"
   - type: extends
+    wikilink: "[[God Centered Design]]"
+    reason: "Kingdom-first orders what you build - not only the calendar"
+  - type: extends
+    wikilink: "[[Purpose and Vision]]"
+    reason: "God's reign is the outcome worth tradeoffs"
+  - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Put God's rule first because grace already secured where you spend forever"
   - type: extends

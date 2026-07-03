@@ -8,18 +8,23 @@ key_concept: |
   Same rescue, two angles - rich in mercy, saved by grace (Ephesians 2:4-5). [[Free Grace]] is grace applied to eternal life: Christ paid what I couldn't; I receive by faith, not wages. [[Justification]] names the verdict grace triggers - declared righteous at faith. [[Sanctification]] and [[Grateful Obedience]] are grace after the gift: grow and obey from thanks, not to buy acceptance. [[Forgiveness]] flows the same way - forgive because grace already cleared my debt. [[Assurance]] and [[Standing vs Fellowship]] keep a bad week from collapsing standing with closeness. PKM mirror: [[Minimum Effective Dose]] - faith is the smallest act that still works for salvation; grace is why one sufficient gift beats a lifetime merit ladder.
   
   Grace is gift I never earned starting with salvation and continuing through the walk after, not wages I could stack.
+  
+  Grace and forgiveness flow the same way - gift received first, extension to others second.
 examples:
   - "A teammate listed every good deed this month like it was his ticket to heaven - grace is the gift through faith, not the report card from the season."
   - "Romans 4 in my head but guilt still treats every bad week like a revoked passport - grace settled standing; the walk is a different category."
 shareable_thought:
   - "Grace is gift I never earned starting with salvation and continuing through the walk after, not wages I could stack."
   - "Mercy withholds what I deserve; grace gives what I couldn't earn."
-  - "Forgiveness flows the same way."
+  - "Grace and forgiveness flow the same way - gift received first, extension to others second."
   - "Forgive because grace already cleared my debt."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"
     reason: "when good works compound into proof I earned God's yes"
+  - type: extends
+    wikilink: "[[Accept the Starting Line]]"
+    reason: "Grow from where grace already left you - not fantasy targets"
   - type: extends
     wikilink: "[[Assurance]]"
     reason: "Rest on grace received - not this week's performance"

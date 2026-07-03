@@ -26,6 +26,9 @@ relationships:
     wikilink: "[[There Is No Perfect Solution]]"
     reason: "when I delay following until I've fixed myself"
   - type: extends
+    wikilink: "[[Christlikeness]]"
+    reason: "Daily following produces His likeness over ordinary Tuesdays"
+  - type: extends
     wikilink: "[[Faithfulness]]"
     reason: "Daily following is where faithfulness shows up"
   - type: extends

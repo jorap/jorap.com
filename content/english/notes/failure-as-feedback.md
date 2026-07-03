@@ -24,6 +24,12 @@ relationships:
     wikilink: "[[Integrity Without an Audience]]"
     reason: "when \"it's just feedback\" excuses sloppy work nobody would ship on purpose"
   - type: extends
+    wikilink: "[[Honest Self-Awareness]]"
+    reason: "Admit the miss before you read it as signal"
+  - type: extends
+    wikilink: "[[Measure Then Iterate]]"
+    reason: "Signal needs something you'd actually track"
+  - type: extends
     wikilink: "[[Blameless After-Action Review]]"
     reason: "Miss becomes signal when nobody's hiding to keep their job"
   - type: extends

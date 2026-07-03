@@ -21,6 +21,12 @@ relationships:
     wikilink: "[[Compounding]]"
     reason: "when enough-to-work beats stacking past the dose"
   - type: extends
+    wikilink: "[[Accept the Starting Line]]"
+    reason: "Real limits set the smallest change that still works"
+  - type: extends
+    wikilink: "[[Practice Small Experiments]]"
+    reason: "Smallest trial that still tells you something"
+  - type: extends
     wikilink: "[[Create Regular Connection]]"
     reason: "Smallest connection habit that still lands"
   - type: extends

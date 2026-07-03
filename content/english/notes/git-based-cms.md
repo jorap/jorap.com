@@ -10,13 +10,17 @@ key_concept: |
   A git CMS commits markdown to the repo so clients get buttons while the same push-live build still runs.
   
   A git CMS doesn't add a database - it commits markdown the same push-live build already uses.
+  
+  I publish via Git directly when I'm the author - the CMS is for clients who need buttons.
+  
+  A git CMS still means saying no to bad dynamic scope - buttons for clients, same static build underneath.
 examples:
   - "Church volunteer won't open a terminal - Sveltia on the repo, she edits announcements, Cloudflare rebuilds on save."
   - "I added Decap for a client who insisted on \"WordPress-like\" - honest scope: blog posts only, not plugins; still cheaper than hosted WordPress long term."
 shareable_thought:
   - "A git CMS commits markdown to the repo so clients get buttons while the same push-live build still runs."
-  - "I publish via Git directly."
-  - "Still say no to bad dynamic scope."
+  - "I publish via Git directly when I'm the author - the CMS is for clients who need buttons."
+  - "A git CMS still means saying no to bad dynamic scope - buttons for clients, same static build underneath."
   - "A git CMS doesn't add a database - it commits markdown the same push-live build already uses."
 relationships:
   - type: contradicts

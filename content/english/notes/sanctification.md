@@ -10,14 +10,18 @@ key_concept: |
   After God declares me righteous, he keeps shaping my habits and heart.
   
   Growth, not the ticket in.
+  
+  Sanctification is growth after faith - not the ticket that got me in the door.
+  
+  Discipleship is the daily walk with Jesus - not a one-time decision I filed and forgot.
 examples:
   - "I knew the verse on anger and still lost it at dinner - sanctification is slow; my standing was settled at faith, and I'm still being changed."
   - "I treated my quiet-time streak like proof God accepts me - faith saves; sanctification grows me after, it doesn't re-open the verdict."
 shareable_thought:
   - "After God declares me righteous, he keeps shaping my habits and heart."
-  - "Growth, not the ticket in."
+  - "Sanctification is growth after faith - not the ticket that got me in the door."
   - "Free Grace settles where I spend forever."
-  - "Discipleship is the daily walk."
+  - "Discipleship is the daily walk with Jesus - not a one-time decision I filed and forgot."
 relationships:
   - type: alternative
     wikilink: "[[There Is No Perfect Solution]]"
@@ -25,6 +29,18 @@ relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"
     reason: "when holiness streaks compound into proof I'm saved"
+  - type: extends
+    wikilink: "[[Accept the Starting Line]]"
+    reason: "Grow from where you are - grace already settled standing"
+  - type: extends
+    wikilink: "[[Change Takes Repetition]]"
+    reason: "Slow becoming on ordinary Tuesdays - not one heroic week"
+  - type: extends
+    wikilink: "[[Christlikeness]]"
+    reason: "Sanctification is the process; Christlikeness is the shape it aims at"
+  - type: extends
+    wikilink: "[[God Centered Design]]"
+    reason: "Design the walk under God's reign, not applause"
   - type: extends
     wikilink: "[[Abide in Me]]"
     reason: "Fruit and holiness flow from staying in Christ, not from earning your spot"

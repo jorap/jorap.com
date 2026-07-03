@@ -10,6 +10,8 @@ key_concept: |
   Mental models are thinking shortcuts I keep when they survive real decisions.
   
   Retire the model when real decisions prove it wrong.
+  
+  I note the mental models that earn repeat use in real decisions - retire the rest.
 examples:
   - "The restaurant had twelve menu tweaks on the whiteboard - I picked the two that actually cut ticket times and shelved the rest."
   - "Waze showed four commute routes - I stuck to the one that saves gas on the Tuesday school run, not the scenic detour."
@@ -17,7 +19,7 @@ shareable_thought:
   - "Mental models are thinking shortcuts I keep when they survive real decisions."
   - "Mainstream mental models for decisions and performance."
   - "Retire the model when real decisions prove it wrong."
-  - "Note the ones that earn repeat use."
+  - "I note the mental models that earn repeat use in real decisions - retire the rest."
 relationships:
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"

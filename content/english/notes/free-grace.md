@@ -27,6 +27,9 @@ relationships:
     wikilink: "[[Compounding]]"
     reason: "when good works compound into a merit ladder I think buys heaven"
   - type: extends
+    wikilink: "[[Christlikeness]]"
+    reason: "Grace saves first; likeness to Christ grows after - never the entry fee"
+  - type: extends
     wikilink: "[[Assurance]]"
     reason: "Rest on Christ's promise after faith - not this week's performance"
   - type: extends

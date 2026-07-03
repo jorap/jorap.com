@@ -8,6 +8,8 @@ key_concept: |
   Wash feet in the sprint, not only in the all-hands speech. Gospel depth: [[Humility and Service]]. I can explain this in a leadership book club without opening a sermon.
   
   I unblock the team, coach through the mess, take blame up, and pass credit down.
+  
+  Servant leadership has gospel depth in humility and service - greatness is serving, not being served.
 examples:
   - "I had the title at home but noticed I was hoarding easy wins - servant leadership meant the messy bedtime shift while my partner got the break."
   - "I got promoted and realized I'd been grabbing credit for work the team carried - servant leadership was my name off the slide and hers on the praise email."
@@ -15,7 +17,7 @@ shareable_thought:
   - "I unblock the team, coach through the mess, take blame up, and pass credit down."
   - "The corporate ladder rewards visibility; this principle runs the other way."
   - "Wash feet in the sprint, not only in the all-hands speech."
-  - "Gospel depth: Humility and Service."
+  - "Servant leadership has gospel depth in humility and service - greatness is serving, not being served."
 relationships:
   - type: alternative
     wikilink: "[[Let Your Light Shine]]"
@@ -23,6 +25,12 @@ relationships:
   - type: contradicts
     wikilink: "[[Pareto Principle]]"
     reason: "when I protect my 20% status and treat everyone else as support staff"
+  - type: extends
+    wikilink: "[[Own Your Part]]"
+    reason: "Leaders model moving your slice - don't delegate waiting"
+  - type: extends
+    wikilink: "[[People-Centered Design]]"
+    reason: "Unblock humans, not only metrics"
   - type: extends
     wikilink: "[[Develop, Don't Endanger]]"
     reason: "Serve the team by protecting growth - not by sacrificing people to prove toughness"

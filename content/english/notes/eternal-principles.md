@@ -38,6 +38,7 @@ draft: false
 - [[Free Grace]] - salvation by faith, not works; principles follow, they don't pay the fare
 - [[Justification]] - declared righteous at faith; finished before the walk catches up
 - [[Sanctification]] - becoming holy over time; grateful growth after the verdict
+- [[Christlikeness]] - shaped to look and love more like Jesus; the aim sanctification moves toward
 - [[Faith and Works]] - faith alone saves; real faith shows up in obedience
 - [[Repent and Believe]] - kingdom at hand now; turn and trust, don't wait until you're "ready"
 - [[Childlike Faith]] - receive like a child; stop negotiating merit before you enter
@@ -76,6 +77,7 @@ draft: false
 - [[Ask Seek Knock]] - keep asking, seeking, knocking on rhythm
 - [[Secret Devotion]] - prayer and giving without performing for an audience
 - [[Seek the Kingdom First]] - God's reign gets first place in the week
+- [[God Centered Design]] - build life and work for God's glory first, not applause or ego
 - [[Don't Worry]] - trust provision; one Master, not many anxieties fighting for attention
 - [[Treasure in Heaven]] - store what lasts, not what rusts or rots on earth
 - [[Eternal Rewards]] - the Father repays faithful obedience after salvation; not how eternal life is received
@@ -110,6 +112,7 @@ Same ideas show up in my PKM notes. I wired the pairs below so the faith cluster
 | [[Free Grace]] | [[Minimum Effective Dose]] | [[Free Grace]] is the smallest sufficient act - not a works ladder |
 | [[Forgiveness]] | [[Sunk Cost Fallacy]] | Release the debt; stop counting past hurt as a reason to stay angry |
 | [[Seek the Kingdom First]] | [[Signal vs Noise]] | Kingdom-first is the priority filter for what gets my week |
+| [[God Centered Design]] | [[People-Centered Design]] | God's glory orders the aim; people-first serves real needs under that |
 | [[Treasure in Heaven]] | [[The Collector's Fallacy]] | Hoarding articles or stuff on earth vs storing what lasts |
 | [[Eternal Rewards]] | [[Compounding]] | Daily faithfulness stacks; reward is not a lump-sum merit purchase for heaven |
 | [[Don't Worry]] | [[Slow Productivity]] | Less anxious busy-ness; fewer masters fighting for attention |
@@ -134,6 +137,8 @@ Same ideas show up in my PKM notes. I wired the pairs below so the faith cluster
 | [[The Golden Rule]] | [[Note Relationships]] | Treat links like neighbors - typed relationships, not vague vibes |
 | [[Justification]] | [[Minimum Effective Dose]] | Declared righteous at faith - smallest sufficient act, not a merit ladder |
 | [[Sanctification]] | [[Process Over Outcomes]] | Becoming holy daily - not a one-time hero sprint |
+| [[Christlikeness]] | [[God Centered Design]] | Grow toward His likeness - design life for God's glory, not applause |
+| [[Change Takes Repetition]] | [[Process Over Outcomes]] | Transformation bends on repeated Tuesdays - not one heroic sprint |
 | [[Judgment Seat]] | [[Periodic Knowledge Review]] | Whole life reviewed for reward - not one heroic week as the whole report |
 | [[Faith and Works]] | [[The Wise Builder]] | Real faith hears Jesus and builds by doing |
 | [[Loss of Reward]] | [[Failure as Feedback]] | Burned work is feedback on what to build - not proof you were never saved |

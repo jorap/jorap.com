@@ -10,6 +10,8 @@ key_concept: |
   My vault is the garage for scraps and experiments.
   
   The blog is the showroom, and I keep them separate.
+  
+  The garage concept splits showroom and workshop - the blog is the showroom, drafts are the garage.
 examples:
   - "The practice film library is messy; the highlight reel for parents is one clean cut - garage holds scraps, showroom shows the finished piece."
   - "The garage holds half-finished projects and sawdust; the front porch shows the one bench I'd invite a neighbor to sit on."
@@ -17,7 +19,7 @@ shareable_thought:
   - "My vault is the garage for scraps and experiments."
   - "The blog is the showroom, and I keep them separate."
   - "The garage holds tools, scraps, experiments."
-  - "The showroom is the blog."
+  - "The garage concept splits showroom and workshop - the blog is the showroom, drafts are the garage."
 relationships:
   - type: contradicts
     wikilink: "[[Drafting in Public]]"

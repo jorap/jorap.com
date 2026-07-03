@@ -23,6 +23,12 @@ relationships:
     wikilink: "[[Break the Escalation Cycle]]"
     reason: "when the opposite frame fits better"
   - type: extends
+    wikilink: "[[People-Centered Design]]"
+    reason: "People tell you what breaks when honesty is safe"
+  - type: extends
+    wikilink: "[[Shadow the Work]]"
+    reason: "Real workarounds show when punishment isn't the cost"
+  - type: extends
     wikilink: "[[Follow Their Lead]]"
     reason: "Join their framing before you redirect the blame"
   - type: extends

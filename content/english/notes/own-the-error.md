@@ -23,6 +23,9 @@ relationships:
     wikilink: "[[Forgiveness at Work]]"
     reason: "when public self-flagellation replaces fixing the system and moving on"
   - type: extends
+    wikilink: "[[Own Your Part]]"
+    reason: "Proactive lane - fix your slice before the miss lands"
+  - type: extends
     wikilink: "[[Accountability]]"
     reason: "Clear ownership is the first repair step"
   - type: extends

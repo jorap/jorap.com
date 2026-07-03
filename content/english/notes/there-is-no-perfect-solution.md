@@ -20,6 +20,9 @@ relationships:
   - type: contradicts
     wikilink: "[[Pareto Principle]]"
     reason: "when good-enough tired beats hunting the perfect 20%"
+  - type: alternative
+    wikilink: "[[Accept the Starting Line]]"
+    reason: "when waiting to feel ready blocks the good-enough move from where you are"
   - type: extends
     wikilink: "[[Mental Models]]"
     reason: "The nirvana fallacy is a mental model for when waiting for perfect blocks the good-enough move"

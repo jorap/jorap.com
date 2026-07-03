@@ -18,8 +18,10 @@ key_concept: |
   Success is recall and use when it matters, not review count or streak length.
   
   Progress saves in this browser only; I use Anki export when I want phone sync.
+  
+  Review is active recall in the browser - flip cards when the right move needs to load under pressure.
 shareable_thought:
-  - "Active recall in the browser."
+  - "Review is active recall in the browser - flip cards when the right move needs to load under pressure."
   - "Show the prompt, try the answer, rate myself."
   - "Success is recall and use when it matters, not review count or streak length."
   - "Progress saves in this browser only; I use Anki export when I want phone sync."

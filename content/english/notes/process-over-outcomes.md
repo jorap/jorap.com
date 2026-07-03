@@ -21,6 +21,9 @@ relationships:
     wikilink: "[[The 12 Week Year]]"
     reason: "when the daily process beats quarterly scoreboard pressure"
   - type: extends
+    wikilink: "[[Change Takes Repetition]]"
+    reason: "Trust the loop across many Tuesdays, not one heroic week"
+  - type: extends
     wikilink: "[[Compounding]]"
     reason: "Small gains only stack when you protect a repeatable process, not one hero outcome"
   - type: extends

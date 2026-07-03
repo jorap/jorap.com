@@ -21,6 +21,12 @@ relationships:
     wikilink: "[[Compounding]]"
     reason: "when obedience streaks become proof I'm saved"
   - type: extends
+    wikilink: "[[God Centered Design]]"
+    reason: "Obedience from thanks designs life for God's glory, not applause"
+  - type: extends
+    wikilink: "[[Christlikeness]]"
+    reason: "Thanks-motivated obedience aims at His likeness, not performance theater"
+  - type: extends
     wikilink: "[[Abide in Me]]"
     reason: "Fruit and obedience flow from connection, not earning your spot"
   - type: extends

@@ -8,6 +8,8 @@ key_concept: |
   I cut capture paths and sync layers until I hit [[Minimum Effective Dose]] - the smallest setup that still works. That trades some [[Digital Serendipity]] for fewer places sparks get lost and fewer notifications pulling me off the note I was actually writing.
   
   My notes got sharper when I dropped extra apps, sync layers, and notifications I wasn't really using.
+  
+  Digital minimalism means the smallest setup that still works - not the fanciest stack I never open.
 examples:
   - "We dropped the second gym bag and the backup jump rope - fewer things means I actually know where the one working pair of shoes lives."
   - "The front desk runs one scheduling app, not four - fewer sync layers means fewer places patient reminders get lost."
@@ -15,7 +17,7 @@ shareable_thought:
   - "My notes got sharper when I dropped extra apps, sync layers, and notifications I wasn't really using."
   - "Every new app is a pipe I have to babysit."
   - "I cut capture paths and sync layers until I hit Minimum Effective Dose."
-  - "The smallest setup that still works."
+  - "Digital minimalism means the smallest setup that still works - not the fanciest stack I never open."
 relationships:
   - type: contradicts
     wikilink: "[[Digital Serendipity]]"

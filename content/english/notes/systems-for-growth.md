@@ -13,15 +13,23 @@ key_concept: |
   Habits, feedback, review, recovery - so skill compounds when motivation doesn't show up.
   
   Install the loops on ordinary Tuesdays - not only when results are due.
+  
+  Systems for growth are the loops I build on purpose - habits on ordinary Tuesdays, not crisis heroics.
 shareable_thought:
-  - "The loops you build on purpose."
+  - "Systems for growth are the loops I build on purpose - habits on ordinary Tuesdays, not crisis heroics."
   - "Habits, feedback, review, recovery - so skill compounds when motivation doesn't show up."
   - "Pressure Reveals Weakness covers what holds when heat rises; this hub covers what you install on ordinary Tuesdays."
   - "Install the loops on ordinary Tuesdays - not only when results are due."
 relationships:
   - type: alternative
+    wikilink: "[[Transformation Principles]]"
+    reason: "Growth loops hub vs transformation hub when you're compounding skill, not designing change"
+  - type: alternative
     wikilink: "[[Pressure Reveals Weakness]]"
     reason: "Growth-building hub vs performance-under-pressure when you're designing loops, not surviving heat"
+  - type: extends
+    wikilink: "[[Transformation Principles]]"
+    reason: "Alternative hub when you're designing change, not compounding loops"
   - type: extends
     wikilink: "[[Mental Models]]"
     reason: "Decision lenses complement the habits and review rhythms here"
@@ -41,11 +49,14 @@ draft: false
 ## Mindset
 
 - [[Growth Mindset]] - skills train; a miss is data, not identity
+- [[Honest Self-Awareness]] - strengths, gaps, and limits before fantasy targets
+- [[Accept the Starting Line]] - pick targets from the real line you actually have
 - [[Failure as Feedback]] - treat the miss as instrument reading, not a verdict
 
 ## Habits and loops
 
 - [[Habit Formation]] - repeat until the move runs without a daily debate
+- [[Change Takes Repetition]] - same levers many times before the room feels different
 - [[Habit Stacking]] - piggyback a new habit on one you already do
 - [[Process Over Outcomes]] - trust the loop when the scoreboard is quiet
 - [[Compounding]] - boring repetition until the curve bends
@@ -59,6 +70,7 @@ draft: false
 
 ## Practice and skill
 
+- [[Practice Small Experiments]] - repeat, test small, learn fast, fail small
 - [[Deliberate Practice]] - train the weak slice on purpose
 - [[Minimum Effective Dose]] - smallest change that still moves the needle
 - [[The Feynman Technique]] - teach it back to find the gap
@@ -66,6 +78,7 @@ draft: false
 
 ## Review and improvement
 
+- [[Measure Then Iterate]] - name the metric, watch one cycle, then adjust
 - [[Continuous Improvement]] - small fixes to process, repeated
 - [[Weekly Review Checklists]] - Sunday pass that closes open loops
 - [[Periodic Knowledge Review]] - quarterly sweep so notes don't rot

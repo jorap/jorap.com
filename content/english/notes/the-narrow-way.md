@@ -10,13 +10,17 @@ key_concept: |
   The road to life is narrow and hard.
   
   The easy broad path is the one I'd drift onto.
+  
+  The narrow way warns the road to life is narrow and hard - few find it, but it's the one Jesus named.
+  
+  Enter by the narrow gate - few find it because it costs self-rule, not because God hides the door.
 examples:
   - "Group chat gossip was \"just joking\" - narrow way was not forwarding the screenshot even when staying out made me the odd one."
   - "Everyone cheered the dirty play that won - the narrow way was passing it up when the ref didn't see, even alone on the bench."
 shareable_thought:
-  - "The road to life is narrow and hard."
+  - "The narrow way warns the road to life is narrow and hard - few find it, but it's the one Jesus named."
   - "The easy broad path is the one I'd drift onto."
-  - "Enter by the narrow gate."
+  - "Enter by the narrow gate - few find it because it costs self-rule, not because God hides the door."
   - "The road to life is hard and few find it; the broad road to destruction is easy and crowded (Matthew 7:13-14)."
 relationships:
   - type: alternative

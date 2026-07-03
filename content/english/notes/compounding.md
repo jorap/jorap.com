@@ -23,6 +23,9 @@ relationships:
     wikilink: "[[Pareto Principle]]"
     reason: "when boring repetition beats protecting only the vital few"
   - type: extends
+    wikilink: "[[Change Takes Repetition]]"
+    reason: "Boring reps until the curve bends - transformation shape"
+  - type: extends
     wikilink: "[[Faithfulness]]"
     reason: "Small faithful use stacks over quiet Tuesdays"
   - type: extends

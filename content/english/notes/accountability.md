@@ -7,7 +7,7 @@ key_concept: |
   
   Accountability is naming who owns the result - and what happens when it slips.
   
-  One owner per outcome - not "everyone was involved.".
+  One owner per outcome beats a room where everyone was involved and nobody answers.
   
   Name the owner, the miss, and the fix before the conversation ends.
 examples:
@@ -16,7 +16,7 @@ examples:
 shareable_thought:
   - "Accountability is naming who owns the result - and what happens when it slips."
   - "Clear ownership - who answers for the outcome, the miss, and the fix."
-  - "One owner per outcome - not \"everyone was involved.\"."
+  - "One owner per outcome beats a room where everyone was involved and nobody answers."
   - "Name the owner, the miss, and the fix before the conversation ends."
 relationships:
   - type: contradicts
@@ -25,6 +25,9 @@ relationships:
   - type: extends
     wikilink: "[[Complete the Cycle]]"
     reason: "Owners close loops"
+  - type: extends
+    wikilink: "[[Own Your Part]]"
+    reason: "Name the owner - then move your slice before the memo"
   - type: extends
     wikilink: "[[Own the Error]]"
     reason: "Accountability starts with naming the miss"

@@ -17,6 +17,9 @@ shareable_thought:
   - "A demanding drill needs a clear purpose, a measurable benefit, qualified supervision, and defined safety limits."
   - "When pain becomes the point, leaders start treating harm like proof of growth."
 relationships:
+  - type: extends
+    wikilink: "[[Accept the Starting Line]]"
+    reason: "Real limits before you stack challenge on the person"
   - type: alternative
     wikilink: "[[Minimum Effective Dose]]"
     reason: "Smallest challenge that still works vs maximal suffering as the goal"

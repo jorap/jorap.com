@@ -8,12 +8,14 @@ key_concept: |
   I treat people how I'd want to be treated.
   
   Active care, not just avoiding harm.
+  
+  The Golden Rule is active care for my neighbor - not just avoiding harm and calling it love.
 examples:
   - "My thumb was on the post button with a critique that was probably true and definitely cruel - pause: how would I want someone to say that to me?"
   - "Before I barked at the ref in front of the kids, I asked how I'd want a coach to talk to me after a bad call - the Golden Rule changed the volume."
 shareable_thought:
   - "I treat people how I'd want to be treated."
-  - "Active care, not just avoiding harm."
+  - "The Golden Rule is active care for my neighbor - not just avoiding harm and calling it love."
   - "It's positive and active: do unto others, not merely avoid doing harm. (Matthew 7:12)."
   - "The check is experiential - how would I want to be spoken to, helped, forgiven, included?"
 relationships:

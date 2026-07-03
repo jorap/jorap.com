@@ -21,6 +21,9 @@ relationships:
     wikilink: "[[There Is No Perfect Solution]]"
     reason: "when endless tweaking never ships the good-enough version"
   - type: extends
+    wikilink: "[[Measure Then Iterate]]"
+    reason: "Each tweak needs a signal to know what to repeat"
+  - type: extends
     wikilink: "[[Compounding]]"
     reason: "Small upgrades stack"
   - type: extends

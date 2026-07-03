@@ -10,18 +10,28 @@ key_concept: |
   Growth mindset treats ability as trainable.
   
   Mistakes are data, not proof of a fixed label.
+  
+  Growth mindset treats "I'm bad at this" as a verdict - "I missed three" is data I can train on.
+  
+  Growth mindset says "I missed three" is data to train on - not a fixed label on who I am.
 examples:
   - "I missed three free throws in a row at clinic. Growth mindset was ten minutes on form, not deciding I'd never shoot reliably in a game."
   - "The new barista burned three lattes on the steam wand - skill isn't fixed. The trainer had her repeat one motion, not relabel her as \"not a coffee person.\""
 shareable_thought:
   - "Growth mindset treats ability as trainable."
   - "Mistakes are data, not proof of a fixed label."
-  - "\"I'm bad at this\" is a verdict."
-  - "\"I missed three\" is data."
+  - "Growth mindset treats \"I'm bad at this\" as a verdict - \"I missed three\" is data I can train on."
+  - "Growth mindset says \"I missed three\" is data to train on - not a fixed label on who I am."
 relationships:
   - type: contradicts
     wikilink: "[[By Their Fruits]]"
     reason: "when \"still learning\" excuses the same bad outcome quarter after quarter"
+  - type: extends
+    wikilink: "[[Honest Self-Awareness]]"
+    reason: "Admit the gap before misses become data you can train on"
+  - type: extends
+    wikilink: "[[Accept the Starting Line]]"
+    reason: "Trainable skill still needs a real starting line"
   - type: extends
     wikilink: "[[Convert Pain Into Learning]]"
     reason: "Pain becomes useful when you treat it as trainable"

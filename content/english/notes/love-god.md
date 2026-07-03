@@ -21,6 +21,9 @@ relationships:
     wikilink: "[[Don't Worry]]"
     reason: "when worry replaces trust"
   - type: extends
+    wikilink: "[[God Centered Design]]"
+    reason: "Whole-person devotion sets who the plan ultimately serves"
+  - type: extends
     wikilink: "[[Free Grace]]"
     reason: "First call on a life already saved - love from grace received, not payment for eternal life"
   - type: extends

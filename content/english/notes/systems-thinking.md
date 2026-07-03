@@ -33,6 +33,12 @@ relationships:
   - type: extends
     wikilink: "[[Second-Order Thinking]]"
     reason: "Second moves and side effects are part of the system"
+  - type: extends
+    wikilink: "[[People-Centered Design]]"
+    reason: "Fix the loop humans actually run - not only the chart"
+  - type: implements
+    wikilink: "[[Transformation Principles]]"
+    reason: "Systems lens lever the transformation hub indexes"
   - type: implements
     wikilink: "[[Systems for Growth]]"
     reason: "Growth hub indexes the loops this lens is for"

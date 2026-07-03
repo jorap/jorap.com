@@ -8,12 +8,14 @@ key_concept: |
   Love others the way I'd want care if our roles flipped.
   
   Second command, paired with loving God.
+  
+  Love your neighbor is the second command, paired with loving God - same heart, next person in front of me.
 examples:
   - "The parent I'd rather avoid sits on my side every game - I moved my chair over and asked how his kid's ankle was healing."
   - "The neighbor I'd rather avoid lives two doors down and his trash bins are always in my way - Jesus asked whether I'm acting like a neighbor, the way I'd want if I were stuck."
 shareable_thought:
   - "Love others the way I'd want care if our roles flipped."
-  - "Second command, paired with loving God."
+  - "Love your neighbor is the second command, paired with loving God - same heart, next person in front of me."
   - "Jesus lifted Leviticus 19:18 to equal rank with loving God. (Matthew 22:39, Mark 12:31)."
   - "Mercy shows up in the body - bandage, ride, cost covered."
 relationships:

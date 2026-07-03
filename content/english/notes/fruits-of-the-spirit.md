@@ -32,6 +32,9 @@ relationships:
     wikilink: "[[Abide in Me]]"
     reason: "Fruit comes from staying in the vine - Galatians names what grows"
   - type: extends
+    wikilink: "[[Christlikeness]]"
+    reason: "Galatians cluster is what Christlikeness looks like up close"
+  - type: extends
     wikilink: "[[Discipleship]]"
     reason: "Daily following is where love, patience, and gentleness show up"
   - type: extends

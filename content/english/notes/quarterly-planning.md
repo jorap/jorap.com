@@ -12,18 +12,26 @@ key_concept: |
   Short enough to feel real.
   
   Long enough to actually finish something, short enough that slipping is still visible before it's too late.
+  
+  Quarterly planning works in thirteen-week arcs - short enough to feel real on the calendar.
 examples:
   - "First Sunday of the quarter we picked three outcomes - not twenty wishes that drowned the month."
   - "The clinic's ninety-day huddle moved one backlog project to done instead of adding a fourth starter."
 shareable_thought:
   - "Set goals and review on a thirteen-week rhythm."
-  - "Short enough to feel real."
+  - "Quarterly planning works in thirteen-week arcs - short enough to feel real on the calendar."
   - "Zoom out every ninety days so weekly noise doesn't eat the year's aim."
   - "Long enough to actually finish something, short enough that slipping is still visible before it's too late."
 relationships:
   - type: contradicts
     wikilink: "[[Slow Productivity]]"
     reason: "when the opposite frame fits better"
+  - type: extends
+    wikilink: "[[Measure Then Iterate]]"
+    reason: "Thirteen-week rhythm needs a number you'd actually track"
+  - type: extends
+    wikilink: "[[Purpose and Vision]]"
+    reason: "Named outcome on a rhythm that stays visible"
   - type: extends
     wikilink: "[[Periodic Knowledge Review]]"
     reason: "Ninety-day zoom on the same review rhythm"

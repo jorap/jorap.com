@@ -10,14 +10,18 @@ key_concept: |
   Jesus opened the Sermon on the Mount with eight blessings.
   
   A picture of who the kingdom favors.
+  
+  The Beatitudes are a picture of who the kingdom favors - meek, merciful, peacemakers, not the loud and grasping.
+  
+  The Beatitudes fit Free Grace perfectly - kingdom favor is gift, not wages for performance.
 examples:
   - "A good week at the clinic and I felt like I didn't need much from God - poor in spirit is broke before God, not the worker who nailed Friday's schedule."
   - "After a winning streak I caught myself feeling spiritually self-sufficient - Beatitudes start with poor in spirit, not the athlete who just had a perfect weekend."
 shareable_thought:
   - "Jesus opened the Sermon on the Mount with eight blessings."
-  - "A picture of who the kingdom favors."
+  - "The Beatitudes are a picture of who the kingdom favors - meek, merciful, peacemakers, not the loud and grasping."
   - "Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not the self-sufficient."
-  - "Which fits Free Grace perfectly."
+  - "The Beatitudes fit Free Grace perfectly - kingdom favor is gift, not wages for performance."
 relationships:
   - type: contradicts
     wikilink: "[[Humility and Service]]"

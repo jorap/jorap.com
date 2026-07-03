@@ -13,7 +13,7 @@ key_concept: |
   
   If I don't trust it, I hoard ideas in my head instead.
   
-  If capture lives in my head, the system is decoration - not a second brain.
+  If capture lives in my head, the system is decoration - not a [[Building a Second Brain]].
 examples:
   - "We kept one bowl by the door for keys, papers, receipts - two bowls meant I'd hold things in my head instead."
   - "One notebook on the bench for every substitute tweak - if we don't review it after the match, nobody trusts writing in it next week."
@@ -21,7 +21,7 @@ shareable_thought:
   - "One capture pipe I empty every week."
   - "If I don't trust it, I hoard ideas in my head instead."
   - "If I don't trust my inbox, I capture in my head instead."
-  - "If capture lives in my head, the system is decoration - not a second brain."
+  - "If capture lives in my head, the system is decoration - not a [[Building a Second Brain]]."
 relationships:
   - type: contradicts
     wikilink: "[[Mobile Capture Workflows]]"

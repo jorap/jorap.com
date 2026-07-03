@@ -10,12 +10,14 @@ key_concept: |
   Tags, folders, and types are how I find notes later.
   
   Classification in service of retrieval.
+  
+  Taxonomy is classification in service of retrieval - tags should help me find notes, not become a second job.
 examples:
   - "Five tags I actually filter by beat thirty I never click."
   - "The filing system had three drawers - everyone knew where the warranty went."
 shareable_thought:
   - "Tags, folders, and types are how I find notes later."
-  - "Classification in service of retrieval."
+  - "Taxonomy is classification in service of retrieval - tags should help me find notes, not become a second job."
   - "A classification scheme - folders, tags, types - for finding things later."
   - "Tags and types only help when the list stays short enough you'd actually pick from it."
 relationships:

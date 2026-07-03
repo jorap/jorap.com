@@ -8,11 +8,13 @@ key_concept: |
   Love your enemies.
   
   Bless, pray, reflect the Father who sends rain on just and unjust alike.
+  
+  Love your enemies - bless, pray, and do good without pretending the harm didn't happen.
 examples:
   - "Someone slandered me in a group chat and my thumb hovered over a reply - I prayed for them, not because they deserve it, because that's what the Father does with people like me."
   - "My neighbor's honking got under my skin and I almost left a nasty note - I baked cookies instead and asked if everything was okay."
 shareable_thought:
-  - "Love your enemies."
+  - "Love your enemies - bless, pray, and do good without pretending the harm didn't happen."
   - "Bless, pray, reflect the Father who sends rain on just and unjust alike."
   - "Prayer and blessing are the practical handles - not agreement, not pretending harm didn't happen."
   - "The Father's free grace toward the unjust (Matthew 5:45) is the pattern: I love enemies because God loved me first."
