@@ -5,7 +5,7 @@ description: "What I let slide in front of my team becomes their real standard, 
 key_concept: |
   The standard you walk past is the standard you accept for everyone under you.
   
-  [[Integrity]] in general; this note is the team-visible lane.
+  Ethical leadership is integrity the team can see - what you tolerate in the open, not what you preach on the poster.
   
   The team copies what you tolerate, not what you preach.
 examples:
@@ -14,7 +14,7 @@ examples:
 shareable_thought:
   - "What I let slide in front of my team becomes their real standard, not what's printed on the poster."
   - "The standard you walk past is the standard you accept for everyone under you."
-  - "Integrity in general; this note is the team-visible lane."
+  - "Ethical leadership is integrity the team can see - what you tolerate in the open, not what you preach on the poster."
   - "The team copies what you tolerate, not what you preach."
 relationships:
   - type: contradicts

@@ -1,19 +1,21 @@
 ---
 title: "The Feynman Technique"
 meta_title: "The Feynman Technique - Teach It to Learn It"
-description: "I teach the note out loud to a blank page - wherever I stumble, I don't understand yet."
+description: "I teach the idea out loud to a blank page - wherever I stumble, I don't understand yet."
 key_concept: |
-  Teach-it-to-learn-it exposes gaps so evergreen notes stay honest and clear ([[Evergreen Notes]]).
+  Teach-it-to-learn-it exposes gaps so evergreen notes stay honest and clear.
   
   Explain it simply to a blank page - the stumble marks the gap.
+  
+  A blank page is the honest audience - no jargon to hide behind.
 examples:
   - "My kid asked how the fuse box works and I waved vaguely - explaining it simply showed I didn't understand it well enough to fix anything."
   - "The new hire asked why we batch invoices that way and I stumbled mid-sentence."
 shareable_thought:
-  - "I teach the note out loud to a blank page."
-  - "Wherever I stumble, I don't understand yet."
-  - "Teach-it-to-learn-it exposes gaps so evergreen notes stay honest and clear (Evergreen Notes)."
-  - "Explain it simply to a blank page."
+  - "I teach the idea out loud to a blank page - wherever I stumble, I don't understand yet."
+  - "Explain it simply to a blank page - the stumble marks the gap."
+  - "Teach-it-to-learn-it exposes gaps so evergreen notes stay honest and clear."
+  - "A blank page is the honest audience - no jargon to hide behind."
 relationships:
   - type: contradicts
     wikilink: "[[Spaced Repetition]]"

@@ -13,7 +13,7 @@ shareable_thought:
   - "Believers stand before Christ after salvation to have works evaluated for reward."
   - "Eternal life was already settled by faith."
   - "Free Grace and Justification already decided where I spend forever."
-  - "Secret Devotion and Let Your Light Shine both show up in the ledger."
+  - "Wood, hay, and stubble burn; gold, silver, and precious stones last at the fire test."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

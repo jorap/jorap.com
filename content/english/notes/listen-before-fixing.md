@@ -5,7 +5,9 @@ description: "Listen before fixing - repeat what you heard, then respond. Feelin
 key_concept: |
   Feeling heard comes before being helped.
   
-  I repeat what I heard before I prescribe - that's the move that keeps advice from landing like a correction. [[Emotional Regulation]] is holding the urge to interrupt; [[Follow Their Lead]] is staying in their world until they've said the real thing. Skip the replay and I'm fixing a problem they weren't naming.
+  I repeat what I heard before I prescribe.
+  
+  Repeating what I heard keeps advice from landing like a correction.
 examples:
   - "A younger player kept explaining why he missed the free throw - I almost jumped in with form tips. I waited, said back what he thought went wrong, then offered one drill."
   - "My kid told me about a fight at school - I caught myself lining up a lecture and stopped. \"So he took your pencil and you pushed him\" - then we talked about what to try tomorrow."
@@ -13,7 +15,7 @@ shareable_thought:
   - "Listen before fixing - repeat what you heard, then respond."
   - "Feeling heard comes before being helped."
   - "I repeat what I heard before I prescribe."
-  - "That's the move that keeps advice from landing like a correction."
+  - "Repeating what I heard keeps advice from landing like a correction."
 relationships:
   - type: contradicts
     wikilink: "[[Safety Comes First]]"

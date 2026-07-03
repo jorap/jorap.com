@@ -5,24 +5,17 @@ description: "My graph shows extends, contradicts, implements, alternative - not
 key_concept: |
   Four pair types in `relationships` frontmatter show how ideas push and pull - not just that two notes mention each other.
   
-  | Type | Question | Example |
-  |------|----------|---------|
-  | **extends** | What does this build on? | [[Signal vs Noise]] extends [[Capture]] |
-  | **contradicts** | What tradeoff does this push against? | [[Slow Productivity]] contradicts [[The 12 Week Year]] when fewer deep projects beat quarterly sprints |
-  | **implements** | What makes this real? | [[Weekly Review Checklists]] implements [[Periodic Knowledge Review]] |
-  | **alternative** | What else could do this job? | [[Mobile Capture Workflows]] alternative to [[Analog Capture Tools]] |
+  Extends asks what this idea builds on; contradicts names the tradeoff it pushes against.
   
-  Every atomic note carries a one-breath definition in `description`, angle in `key_concept`, two scenes in `examples`, and typed links in `relationships` frontmatter - not body sections.
-  
-  Extends builds on another note. Contradicts names the tradeoff. Implements makes it real. Alternative names another path.
+  Implements names what makes the idea real; alternative names another path that does the job.
 examples:
   - "I'm updating the family chore chart and add \"feeds into: Saturday yard work\" next to \"take out trash\" plus \"conflicts with: bedtime when done late\" before I tape it to the fridge."
   - "The coach's whiteboard lists \"feeds into: secondary break\" beside each drill - players see how today's reps connect before they leave the gym."
 shareable_thought:
   - "My graph shows extends, contradicts, implements, alternative - not just two notes mentioning the same word."
   - "Four pair types in relationships frontmatter show how ideas push and pull - not just that two notes mention each other."
-  - "Extends builds on another note."
-  - "Contradicts names the tradeoff."
+  - "Extends asks what this idea builds on; contradicts names the tradeoff it pushes against."
+  - "Implements names what makes the idea real; alternative names another path that does the job."
 relationships:
   - type: alternative
     wikilink: "[[PARA Method]]"

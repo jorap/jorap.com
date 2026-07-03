@@ -3,17 +3,19 @@ title: "Linking by Meaning"
 meta_title: "Linking by Meaning - How Ideas Find Each Other"
 description: "I link notes so ideas meet in the graph without me memorizing every folder path."
 key_concept: |
-  Folders sort. Links think.
+  Folders sort files; links connect ideas.
   
-  I stopped trying to memorize every filename and started wiring [[Atomic Notes]] so ideas bump into each other in the graph. One link to what extends the thought, one to what pushes back - that's enough for the garden to be walkable six months later when the folder path is gone.
+  One link to what extends the thought, one to what pushes back.
+  
+  Two typed links are enough for the garden to stay walkable six months later when the folder path is gone.
 examples:
   - "I linked \"jeepney delay\" to \"leave earlier\" in my daily note and found it six weeks later when the same route broke again - proximity beats perfect filing."
   - "The playbook card links \"late press\" to \"[[Slow the Moment]]\" - I find the counter without memorizing every filename in the binder."
 shareable_thought:
   - "I link notes so ideas meet in the graph without me memorizing every folder path."
+  - "Folders sort files; links connect ideas."
   - "One link to what extends the thought, one to what pushes back."
-  - "That's enough for the garden to be walkable six months later when the folder path is gone."
-  - "I stopped trying to memorize every filename and started wiring Atomic Notes so ideas bump into each other in the graph."
+  - "Two typed links are enough for the garden to stay walkable six months later when the folder path is gone."
 relationships:
   - type: contradicts
     wikilink: "[[PARA Method]]"

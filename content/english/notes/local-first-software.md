@@ -1,7 +1,7 @@
 ---
 title: "Local-first Software"
 meta_title: "Local-first Software for Notes"
-description: "Local-first means my device holds the truth; sync is optional icing. That's how I want my brain's backup to behave."
+description: "Local-first means my device holds the truth; sync is optional icing - backup should behave the same way."
 key_concept: |
   Local-first means your device holds the truth; choose what's public, what's private, and what gets encrypted.
   
@@ -11,7 +11,7 @@ examples:
   - "Grandma's recipe cards live in the kitchen drawer - not an app that might vanish."
 shareable_thought:
   - "Local-first means my device holds the truth; sync is optional icing."
-  - "That's how I want my brain's backup to behave."
+  - "I want my notes backup to behave like local-first - device holds truth, sync is optional icing."
   - "Local-first means your device holds the truth; choose what's public, what's private, and what gets encrypted."
   - "Sync should merge edits without picking last-write-wins by clock alone."
 relationships:

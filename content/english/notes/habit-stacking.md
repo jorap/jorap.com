@@ -7,7 +7,7 @@ key_concept: |
   
   One anchor habit, one tiny add-on - not a whole new routine.
   
-  One anchor habit already on autopilot, one tiny add-on - not a whole new routine.
+  No new time slot - chain the new move onto one that already runs without thinking.
 examples:
   - "After I clock in, I scan the shift-change sheet - the clock-in is the anchor, the scan piggybacked; no new time slot, just a chain."
   - "After I pour the first coffee, I open the pocket notebook - habit stacking attaches the new move to one that already runs on autopilot."
@@ -15,7 +15,7 @@ shareable_thought:
   - "I piggyback a new tiny habit onto one that already runs without thinking, like notebook after coffee."
   - "Habit stacking attaches a new small move to a habit that already runs on autopilot - one anchor, one add-on."
   - "One anchor habit, one tiny add-on - not a whole new routine."
-  - "One anchor habit already on autopilot, one tiny add-on - not a whole new routine."
+  - "No new time slot - chain the new move onto one that already runs without thinking."
 relationships:
   - type: contradicts
     wikilink: "[[First Principles Thinking]]"

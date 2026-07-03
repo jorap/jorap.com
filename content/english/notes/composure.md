@@ -5,17 +5,19 @@ description: "Composure is steady voice and pace when the room isn't - people re
 key_concept: |
   Steady tone and pace when the room isn't - people read calm as competence.
   
-  Composure is staying readable and deliberate when others speed up or heat up.
+  One beat before I reply often beats matching their volume.
   
   Stay readable and deliberate when others speed up or heat up.
+  
+  Slower speech and one clarifying question beat reflex when the room runs hot.
 examples:
   - "The neighbor argument on the group chat heated up and I waited one beat before replying - people read calm as competence even when the issue is real."
   - "I used the same move in a heated parent meeting - slower speech, one clarifying question, no matching their volume."
 shareable_thought:
   - "Composure is steady voice and pace when the room isn't - people read calm as competence."
-  - "Steady tone and pace when the room isn't - people read calm as competence."
-  - "Composure is staying readable and deliberate when others speed up or heat up."
+  - "One beat before I reply often beats matching their volume."
   - "Stay readable and deliberate when others speed up or heat up."
+  - "Slower speech and one clarifying question beat reflex when the room runs hot."
 relationships:
   - type: contradicts
     wikilink: "[[The 12 Week Year]]"

@@ -11,7 +11,7 @@ examples:
 shareable_thought:
   - "Hearing the words isn't enough - I build on rock when I actually do what Jesus said."
   - "Empty \"Lord, Lord\" without doing the Father's will is the fool's house (Matthew 7:21-23)."
-  - "See The Narrow Way and Loss of Reward for false profession vs believer who stumbles."
+  - "Doing isn't what saves - faith saves - but genuine hearing still produces action."
   - "Both builders hear the sermon; only one obeys. (Matthew 7:24-27)."
 relationships:
   - type: contradicts

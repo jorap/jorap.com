@@ -2,15 +2,20 @@
 title: "Systems Thinking"
 meta_title: "Systems Thinking - Fix the Loop, Not Only the Symptom"
 description: "I trace the loop behind the fire - inputs, delays, feedback - and fix the process, not tonight's patch."
-key_concept: "Systems thinking traces inputs, delays, and feedback - so you change the process, not only patch today's fire."
+key_concept: |
+  Systems thinking traces inputs, delays, and feedback behind the symptom.
+  
+  Change the process that keeps producing the fire - don't only patch tonight's symptom.
+  
+  Trace inputs, delays, and feedback before you patch tonight's symptom.
 examples:
   - "We lost every third possession on turnovers - systems thinking traced it to the warmup drill, not \"focus harder tonight.\""
   - "The restaurant ran out of rice on a busy Friday - systems thinking traced it to prep checklist and par levels, not \"cook faster tonight.\""
 shareable_thought:
-  - "I trace the loop behind the fire."
-  - "Inputs, delays, feedback - and fix the process, not tonight's patch."
-  - "Systems thinking traces inputs, delays, and feedback."
-  - "So you change the process, not only patch today's fire."
+  - "I trace the loop behind the fire - inputs, delays, feedback - and fix the process, not tonight's patch."
+  - "Systems thinking traces inputs, delays, and feedback behind the symptom."
+  - "Change the process that keeps producing the fire - don't only patch tonight's symptom."
+  - "Trace inputs, delays, and feedback before you patch tonight's symptom."
 relationships:
   - type: contradicts
     wikilink: "[[Low Hanging Fruit]]"

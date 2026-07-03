@@ -5,7 +5,9 @@ description: "I plan what happens after the other side adapts, not just how my o
 key_concept: |
   The opening move isn't the game.
   
-  I rehearse what happens after they adapt - that's [[Second-Order Thinking]] with skin in it. [[Adaptability]] on my side matters more than a tactic that only worked once; [[Pressure Reveals Weakness]] when their counter finds the habit I never stress-tested. Build the second move before tip-off, not at halftime.
+  I rehearse what happens after they adapt.
+  
+  Rehearse the second move before tip-off - second-order thinking with skin in the game.
 examples:
   - "I offered extra screen time for chores and my kid negotiated harder tasks by day three - I should've asked what happens after they adapt, not only rehearsed the opening bribe."
   - "A restaurant drops lunch prices and the place across the street matches by Friday - the first move isn't the game; we built regulars before the copy arrived."
@@ -13,7 +15,7 @@ shareable_thought:
   - "I plan what happens after the other side adapts, not just how my opening move looks on paper."
   - "The opening move isn't the game."
   - "I rehearse what happens after they adapt."
-  - "That's Second-Order Thinking with skin in it."
+  - "Rehearse the second move before tip-off - second-order thinking with skin in the game."
 relationships:
   - type: contradicts
     wikilink: "[[Low Hanging Fruit]]"

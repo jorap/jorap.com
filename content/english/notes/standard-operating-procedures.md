@@ -6,13 +6,15 @@ key_concept: |
   SOPs are simple written steps for recurring work - so nobody improvises under stress.
   
   Written steps beat improvisation when stress shrinks working memory.
+  
+  Nobody should improvise recurring work when stress shrinks working memory.
 examples:
   - "The closing routine after every match - ice, tape, log the injury - lives on the locker-room whiteboard so nobody improvises when everyone's exhausted."
   - "The building guard walks the posted evacuation route he practiced on quiet shifts - written steps when the alarm trips loud."
 shareable_thought:
   - "I write short steps for deploys and incidents so nobody has to improvise when the clock is loud."
   - "SOPs are simple written steps for recurring work."
-  - "So nobody improvises under stress."
+  - "Nobody should improvise recurring work when stress shrinks working memory."
   - "Written steps beat improvisation when stress shrinks working memory."
 relationships:
   - type: contradicts

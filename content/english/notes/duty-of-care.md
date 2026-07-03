@@ -5,17 +5,17 @@ description: "If roles flipped, I'd want reasonable protection from harm - that'
 key_concept: |
   Owe people the care you'd expect if roles reversed - not the minimum the handbook allows.
   
-  [[Safety Comes First]] at work; duty of care is the legal and moral floor under it.
+  Duty of care is the legal and moral floor - not the minimum the handbook allows.
   
-  Owe people the protection you'd want if roles flipped - not the handbook minimum.
+  Stop serious harm first; reasonable protection isn't optional because paperwork says so.
 examples:
   - "The clinic keeps a crash cart checked every shift - \"staff assumes risk\" doesn't erase the charge nurse's job of reasonable protection."
   - "We don't leave the toddler pool gate open because the kids \"know not to run\" - duty of care is watching even when signs say be careful."
 shareable_thought:
   - "If roles flipped, I'd want reasonable protection from harm - that's the bar I owe people under me."
   - "Owe people the care you'd expect if roles reversed - not the minimum the handbook allows."
-  - "Safety Comes First at work; duty of care is the legal and moral floor under it."
-  - "Owe people the protection you'd want if roles flipped - not the handbook minimum."
+  - "Duty of care is the legal and moral floor - not the minimum the handbook allows."
+  - "Stop serious harm first; reasonable protection isn't optional because paperwork says so."
 relationships:
   - type: contradicts
     wikilink: "[[Outcomes Over Pitch Decks]]"

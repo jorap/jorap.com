@@ -3,7 +3,7 @@ title: "First Principles Thinking"
 meta_title: "First Principles Thinking in Your Notes"
 description: "First principles thinking is rebuilding from what I actually believe, not someone else's quote."
 key_concept: |
-  When a note is only a quote, I add what I actually believe from scratch.
+  A saved quote isn't a principle until I rebuild the claim in my own words.
   
   Rebuild the claim in your own words before you link it.
   
@@ -13,7 +13,7 @@ examples:
   - "The HOA kept adding signs about parking until a neighbor asked why people park wrong - turns out we needed one marked loading zone, not five new rules."
 shareable_thought:
   - "First principles thinking is rebuilding from what I actually believe, not someone else's quote."
-  - "When a note is only a quote, I add what I actually believe from scratch."
+  - "A saved quote isn't a principle until I rebuild the claim in my own words."
   - "Rebuild the claim in your own words before you link it."
   - "Borrowed quotes aren't principles until you rebuild the claim yourself."
 relationships:

@@ -15,6 +15,9 @@ from notes_content import (
     shareable_lines_overlap,
     shareable_line_from_principle,
     split_frontmatter,
+    META_NOTE_LANG,
+    DANGLING_THAT_START,
+    CLAUSE_SO_START,
 )
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -84,6 +87,14 @@ def lint_shareable_thought(path: Path, fm: dict) -> list[str]:
             errs.append(f"FAIL shareable_thought[{i}] fragment: {path.name}")
         if not shareable_line_from_principle(line, fm):
             errs.append(f"FAIL shareable_thought[{i}] not from principle: {path.name}")
+        if META_NOTE_LANG.search(line):
+            errs.append(f"FAIL shareable_thought[{i}] meta note language: {path.name}")
+        if DANGLING_THAT_START.match(line.strip()):
+            errs.append(f"FAIL shareable_thought[{i}] dangling That's: {path.name}")
+        if CLAUSE_SO_START.match(line.strip()):
+            errs.append(f"FAIL shareable_thought[{i}] So-clause fragment: {path.name}")
+        if re.match(r"^See [A-Z]", line.strip()):
+            errs.append(f"FAIL shareable_thought[{i}] cross-note See pointer: {path.name}")
         for ex in fm.get("examples") or []:
             if not isinstance(ex, str):
                 continue

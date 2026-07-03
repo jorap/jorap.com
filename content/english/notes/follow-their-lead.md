@@ -7,15 +7,17 @@ key_concept: |
   
   Enter their frame before you try to redirect the conversation.
   
-  Join their topic, pace, and starting point before you try to steer.
+  Connection first, critique second - run their play once before you offer yours.
+  
+  Skip their starting point and you're fixing a problem they weren't naming.
 examples:
   - "My teammate wanted to run a inbound play I'd never seen - I ran it once before I told him how I'd do it. Connection first, critique second."
   - "A coworker walked me through how she tracks patient callbacks - I watched the whole spreadsheet before I offered to reorder her columns."
 shareable_thought:
   - "I join their world - their topic, pace, starting point - before I try to steer."
-  - "I join their world before I redirect it - their activity, topic, pace, starting point."
   - "Enter their frame before you try to redirect the conversation."
-  - "Join their topic, pace, and starting point before you try to steer."
+  - "Connection first, critique second - run their play once before you offer yours."
+  - "Skip their starting point and you're fixing a problem they weren't naming."
 relationships:
   - type: contradicts
     wikilink: "[[Safety Comes First]]"

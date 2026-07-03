@@ -328,9 +328,15 @@ INCOMPLETE_SPLIT_HEAD = re.compile(
     re.I,
 )
 POINTER_PREFIX = re.compile(
-    r"^(Garden parallel|Same shape|Same rhythm|Same logic|Same math|Same fruit|Same rescue|Faith parallel|More on|Cousins,?|Listed below|Use Note Title|The \[|Goes further than|Pairs with|Ancestor of)\b",
+    r"^(Garden parallel|Same shape|Same rhythm|Same logic|Same math|Same fruit|Same rescue|Faith parallel|More on|Cousins,?|Listed below|Use Note Title|The \[|Goes further than|Pairs with|Ancestor of|See [A-Z]|On [A-Z][a-z]+ [A-Z])\b",
     re.I,
 )
+META_NOTE_LANG = re.compile(
+    r"\b(this note|teach the note|where the note|stage the note|note garden|when a note is only)\b",
+    re.I,
+)
+DANGLING_THAT_START = re.compile(r"^That's\b", re.I)
+CLAUSE_SO_START = re.compile(r"^So \b", re.I)
 DANGLING_DEMONSTRATIVE = re.compile(r"^that('s| is)\s+the\s+bar\b", re.I)
 PUNCH_VERB = re.compile(
     r"\b(kill|kills|win|wins|work|works|beat|beats|need|needs|ship|ships|save|saves|fix|fixes|stop|stops|break|breaks|trust|trusts|keep|keeps|make|makes|go|goes|teach|teaches|name|names|run|runs|build|builds|grow|grows|learn|learns|cite|cites|push|pushes|protect|protects|catch|catches|judge|judges|pick|picks|turn|turns|believe|believes|receive|receives|live|lives|love|loves)\b",
@@ -422,6 +428,12 @@ def gets_point_across(line: str) -> bool:
         return False
     if POINTER_PREFIX.match(text):
         return False
+    if META_NOTE_LANG.search(text):
+        return False
+    if DANGLING_THAT_START.match(text):
+        return False
+    if CLAUSE_SO_START.match(text):
+        return False
     if DANGLING_DEMONSTRATIVE.match(text):
         return False
     if _bare_noun_list(text):
@@ -447,6 +459,10 @@ def _self_check() -> None:
     assert not is_complete_shareable_line("There Is No Perfect Solution")
     assert not gets_point_across("The point isn't passivity toward all evil.")
     assert not gets_point_across("Same inbox rule.")
+    assert not gets_point_across("That's the pushback on busy-as-virtue.")
+    assert not gets_point_across("See The Narrow Way and Loss of Reward for false profession.")
+    assert not gets_point_across("Integrity in general; this note is the team-visible lane.")
+    assert not gets_point_across("So you change the process, not only patch today's fire.")
     assert gets_point_across("Friction kills capture.")
     assert gets_point_across("The point isn't passivity toward all evil - it's refusing to become what hurt you.")
     assert ensure_terminal_punct("Keep the goal") == "Keep the goal."

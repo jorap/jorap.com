@@ -3,16 +3,19 @@ title: "Joy"
 meta_title: "Joy - Gladness the Spirit Grows"
 description: "Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance."
 key_concept: |
-  [[Fruits of the Spirit]] names joy beside love and peace in one cluster - grown by walking in the Spirit, not manufactured for credit. (Galatians 5:22).
-  [[Assurance]] is the garden echo: rest on what Christ finished, not this week's report card. [[Abide in Me]] is the engine - performing joy while empty at home told me I was forcing fruit by will alone instead of staying in the vine. [[Standing vs Fellowship]] keeps a bad week from collapsing gladness with closeness - joy anchors on Christ's promise, not the streak.
+  Fruits of the Spirit names joy beside love and peace in one cluster.
+  
+  Joy is grown by walking in the Spirit, not manufactured for credit. (Galatians 5:22).
+  
+  Performing joy while empty at home told me I was forcing fruit by will instead of abiding in Christ.
 examples:
   - "Good week at work and I felt spiritually qualified - Galatians joy rests on Christ's promise, not the streak."
   - "Performing joy at church while empty at home told me I was manufacturing fruit - abide first, then gladness shows up."
 shareable_thought:
   - "Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance."
   - "Fruits of the Spirit names joy beside love and peace in one cluster."
-  - "Grown by walking in the Spirit, not manufactured for credit. (Galatians 5:22)."
-  - "Abide in Me is the engine."
+  - "Joy is grown by walking in the Spirit, not manufactured for credit. (Galatians 5:22)."
+  - "Performing joy while empty at home told me I was forcing fruit by will instead of abiding in Christ."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"
