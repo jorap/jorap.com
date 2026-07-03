@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v9" -}}
+  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v10" -}}
   {{- $notes := $data.notes -}}
   {{- $notes = sort $notes "total" "desc" -}}
 
@@ -31,11 +31,16 @@
                 <li><strong>{{ $data.brokenCount }}</strong> broken wikilink{{ if ne $data.brokenCount 1 }}s{{ end }} (target note does not exist)</li>
                 <li><strong>{{ $data.pipeCount }}</strong> pipe wikilink{{ if ne $data.pipeCount 1 }}s{{ end }} (deprecated <code>[[note|label]]</code> syntax)</li>
                 <li><strong>{{ $data.unlinkedCount }}</strong> unlinked mention{{ if ne $data.unlinkedCount 1 }}s{{ end }} (note title in prose without <code>[[wikilink]]</code>)</li>
-                <li><strong>{{ $data.structureCount }}</strong> structure issue{{ if ne $data.structureCount 1 }}s{{ end }} (missing typed links)</li>
+                <li><strong>{{ $data.structureCount }}</strong> structure issue{{ if ne $data.structureCount 1 }}s{{ end }} (missing typed links or extra sections)</li>
+                <li><strong>{{ $data.orphanCount }}</strong> orphan{{ if ne $data.orphanCount 1 }}s{{ end }} (no inbound wikilinks)</li>
+                <li><strong>{{ $data.deadEndCount }}</strong> dead end{{ if ne $data.deadEndCount 1 }}s{{ end }} (no body wikilinks)</li>
+                <li><strong>{{ $data.utilityCount }}</strong> utility wikilink{{ if ne $data.utilityCount 1 }}s{{ end }} (tool page linked via <code>[[wikilink]]</code>)</li>
+                <li><strong>{{ $data.relBrokenCount }}</strong> broken relationship target{{ if ne $data.relBrokenCount 1 }}s{{ end }} (frontmatter <code>relationships:</code>)</li>
+                <li><strong>{{ $data.bodySectionCount }}</strong> body section{{ if ne $data.bodySectionCount 1 }}s{{ end }} (frontmatter headings still in markdown body)</li>
                 <li><strong>{{ $data.notesWithIssues }}</strong> note{{ if ne $data.notesWithIssues 1 }}s{{ end }} affected</li>
               </ul>
             {{- else -}}
-              <p class="notes-issues-summary__ok mb-0 text-sm">No link issues found. Every wikilink resolves and no note titles are mentioned without linking.</p>
+              <p class="notes-issues-summary__ok mb-0 text-sm">No garden issues found. Links resolve, graph shape looks connected, and note bodies match the atomic format.</p>
             {{- end -}}
           </div>
 
@@ -90,6 +95,48 @@
                           <code>## {{ .heading }}</code> — use <code>## Examples</code>, <code>## Note Relationships</code>, or optional <code>## See also</code> only.
                         </li>
                       {{- end -}}
+                    {{- end -}}
+                    {{- range .orphan -}}
+                      <li class="notes-issues__item notes-issues__item--orphan">
+                        <strong>Orphan:</strong>
+                        no other note links here — add inbound wikilinks from parent notes or hubs. See <a class="text-accent no-underline hover:underline" href="{{ `/notes/graph/` | relLangURL }}">Graph</a> (Orphans filter).
+                      </li>
+                    {{- end -}}
+                    {{- range .deadEnd -}}
+                      <li class="notes-issues__item notes-issues__item--dead-end">
+                        <strong>Dead end:</strong>
+                        no wikilinks in the note body — link out to related notes in prose. See <a class="text-accent no-underline hover:underline" href="{{ `/notes/graph/` | relLangURL }}">Graph</a> (No body links filter).
+                      </li>
+                    {{- end -}}
+                    {{- range .utility -}}
+                      <li class="notes-issues__item notes-issues__item--utility">
+                        <strong>Utility wikilink:</strong>
+                        <code>[[{{ .target }}]]</code> — use <code>/notes/{{ .slug }}/</code> instead (tool pages are not garden notes).
+                      </li>
+                    {{- end -}}
+                    {{- range .relBroken -}}
+                      <li class="notes-issues__item notes-issues__item--rel-broken">
+                        <strong>Broken relationship:</strong>
+                        {{- with .relType -}}
+                          <code>{{ . }}</code>
+                        {{- end -}}
+                        target <code>[[{{ .target }}]]</code> in <code>relationships:</code> — no matching page.
+                      </li>
+                    {{- end -}}
+                    {{- range .bodySection -}}
+                      <li class="notes-issues__item notes-issues__item--body-section">
+                        <strong>Body section:</strong>
+                        <code>## {{ .heading }}</code> still in markdown body —
+                        {{- if eq .heading "Key Concept" -}}
+                          move content to <code>key_concept:</code> frontmatter.
+                        {{- else if eq .heading "Examples" -}}
+                          move bullets to <code>examples:</code> frontmatter.
+                        {{- else if eq .heading "Note Relationships" -}}
+                          move rows to <code>relationships:</code> frontmatter.
+                        {{- else -}}
+                          remove the heading (See also is optional in body only when needed).
+                        {{- end -}}
+                      </li>
                     {{- end -}}
                   </ul>
                 </section>

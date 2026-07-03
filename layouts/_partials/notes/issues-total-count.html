@@ -1,0 +1,14 @@
+{{- /*
+  Sum all issue counters from collect-note-issues data.
+  Pass the dict returned by collect-note-issues.html.
+*/ -}}
+{{- $d := . -}}
+{{- $n := add ($d.brokenCount | default 0) ($d.pipeCount | default 0) -}}
+{{- $n = add $n ($d.unlinkedCount | default 0) -}}
+{{- $n = add $n ($d.structureCount | default 0) -}}
+{{- $n = add $n ($d.orphanCount | default 0) -}}
+{{- $n = add $n ($d.deadEndCount | default 0) -}}
+{{- $n = add $n ($d.utilityCount | default 0) -}}
+{{- $n = add $n ($d.relBrokenCount | default 0) -}}
+{{- $n = add $n ($d.bodySectionCount | default 0) -}}
+{{- return $n -}}

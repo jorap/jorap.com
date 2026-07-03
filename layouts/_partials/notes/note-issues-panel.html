@@ -6,7 +6,7 @@
   {{- return -}}
 {{- end -}}
 {{- with $page.File -}}
-  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v9" -}}
+  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v10" -}}
   {{- $issues := index $data.byPath .Path -}}
   {{- if $issues -}}
     <aside class="notes-issues border-divider mb-6 rounded border p-5" aria-label="Link issues on this note">
@@ -57,6 +57,39 @@
               <code>## {{ .heading }}</code> — atomic notes allow only <code>## Examples</code>, <code>## Note Relationships</code>, and optional <code>## See also</code>. Split the note or move content to prose.
             </li>
           {{- end -}}
+        {{- end -}}
+        {{- range $issues.orphan -}}
+          <li class="notes-issues__item notes-issues__item--orphan">
+            <strong>Orphan:</strong>
+            no inbound wikilinks — link here from a parent note or hub.
+          </li>
+        {{- end -}}
+        {{- range $issues.deadEnd -}}
+          <li class="notes-issues__item notes-issues__item--dead-end">
+            <strong>Dead end:</strong>
+            no wikilinks in the note body — link out in prose.
+          </li>
+        {{- end -}}
+        {{- range $issues.utility -}}
+          <li class="notes-issues__item notes-issues__item--utility">
+            <strong>Utility wikilink:</strong>
+            <code>[[{{ .target }}]]</code> — use <code>/notes/{{ .slug }}/</code> instead.
+          </li>
+        {{- end -}}
+        {{- range $issues.relBroken -}}
+          <li class="notes-issues__item notes-issues__item--rel-broken">
+            <strong>Broken relationship:</strong>
+            {{- with .relType -}}
+              <code>{{ . }}</code>
+            {{- end -}}
+            <code>[[{{ .target }}]]</code> in <code>relationships:</code> — no matching page.
+          </li>
+        {{- end -}}
+        {{- range $issues.bodySection -}}
+          <li class="notes-issues__item notes-issues__item--body-section">
+            <strong>Body section:</strong>
+            <code>## {{ .heading }}</code> still in markdown body — move to frontmatter.
+          </li>
         {{- end -}}
       </ul>
     </aside>
