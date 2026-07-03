@@ -10,6 +10,10 @@ key_concept: |
 examples:
   - "The team manager keeps a card file sorted by what she actually uses on game day, not every article she ever read."
   - "The school nurse keeps a card file sorted by what she actually uses on a shift, not every article she ever read."
+shareable_lines:
+  - "PKM is how I save, organize, and reuse what I learn - not a hobby of collecting apps."
+  - "Tension with The Collector's Fallacy when building the system feels like progress without output."
+  - "PKM is the plain name for the save-organize-use system getting started introduces (Getting Started)."
 relationships:
   - type: alternative
     wikilink: "[[GTD vs PARA]]"

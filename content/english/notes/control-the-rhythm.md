@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "A dad texted \"my kid needs more reps today\" before I'd watched him play - control the rhythm was \"let's see Thursday's scrimmage first\" instead of doubling reps that bred a limp."
   - "A client wanted an answer in ten minutes on a complex quote - I said I'd send numbers after lunch and kept the room from rushing a bad decision."
+shareable_lines:
+  - "Control the rhythm is taking back pace before urgency, conflict, or someone else sets it."
+  - "Whoever sets the pace often steers the room."
+  - "Don't let urgency, conflict, emotion, or someone else's deadline dictate how fast you think and act - take the tempo back when…"
 relationships:
   - type: contradicts
     wikilink: "[[Plain Commitments at Work]]"

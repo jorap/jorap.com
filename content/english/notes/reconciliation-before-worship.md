@@ -8,6 +8,10 @@ key_concept: |
 examples:
   - "I warmed up ready to compete while my teammate still had something against me from Wednesday - fix it courtside, then play."
   - "I walked into the volunteer shift ready to serve while my co-worker still had something against me - five minutes in the parking lot first."
+shareable_lines:
+  - "If your brother has something against you, go reconcile first - then come offer your gift."
+  - "Jesus elevates restored relationship over religious performance. (Matthew 5:23-24)."
+  - "Worship with an unreconciled heart is hollow. The initiative is on the one who knows there's a breach - leave the altar, go, be…"
 relationships:
   - type: contradicts
     wikilink: "[[Love God]]"
@@ -39,7 +43,7 @@ cards:
     back: "Fix it first - then offer gift."
   - front: "Sunday worship while avoiding someone I wronged. What breaks?"
     back: "Empty worship - go fix it first."
-  - front: "Altar call feeling high but unrepaired relationship at home. First move?"
+  - front: "Worship feeling high but unrepaired relationship at home. First move?"
     back: "Leave gift - go fix it."
   - front: "Broken link in the garden I keep ignoring. Human parallel?"
     back: "Repair breach first - face to face."

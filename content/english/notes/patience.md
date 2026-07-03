@@ -3,13 +3,17 @@ title: "Patience"
 meta_title: "Patience - Slow Fuse the Spirit Grows"
 description: "I wait without turning brittle - the Spirit grows a slow fuse, not a countdown to snapping."
 key_concept: |
-  A slow fuse the Spirit grows in believers - not gritted teeth until Friday or white-knuckling through a dry prayer week (Galatians 5:22).
+  A slow fuse the Spirit grows in believers - not gritted teeth until Friday or forcing through a dry prayer week (Galatians 5:22).
   
-  [[Fruits of the Spirit]] names patience in the same cluster as gentleness and self-control - endurance with people and providence because you're connected to the vine, not performing virtue.
-  [[Slow the Moment]] is the garden echo: one beat before reaction buys the Spirit room to answer instead of the urge. [[Abide in Me]] is the engine; [[Sanctification]] is the slow becoming patience marks over years, not one white-knuckle Friday.
+  [[Fruits of the Spirit]] names patience in the same cluster as gentleness and self-control - endurance under delay and providence because you're connected to the vine, not performing virtue.
+  [[Slow the Moment]] is the garden echo: one beat before reaction buys the Spirit room to answer instead of the urge. [[Abide in Me]] is the engine; [[Sanctification]] is the slow becoming patience marks over years, not one willpower sprint Friday.
 examples:
-  - "I snapped at my kid after a week with almost no prayer - Galatians patience comes from walking by the Spirit, not white-knuckling until Friday."
+  - "I snapped at my kid after a week with almost no prayer - Galatians patience comes from walking by the Spirit, not forcing virtue until Friday."
   - "Cut off in traffic, my first instinct matched horn for horn - patience fruit was one breath before I became the driver I hate."
+shareable_lines:
+  - "I wait without turning brittle - the Spirit grows a slow fuse, not a countdown to snapping."
+  - "A slow fuse the Spirit grows in believers - not gritted teeth until Friday or forcing through a dry prayer week (Galatians 5:22)."
+  - "Fruits of the Spirit names patience in the same cluster as gentleness and self-control - endurance under delay and providence…"
 relationships:
   - type: contradicts
     wikilink: "[[Ship It]]"
@@ -19,7 +23,7 @@ relationships:
     reason: "Slow fuse grows from staying in the vine - not willpower alone"
   - type: extends
     wikilink: "[[Discipleship]]"
-    reason: "Daily following is where patience shows up with real people"
+    reason: "Daily following is where patience shows up in obedience"
   - type: extends
     wikilink: "[[Emotional Regulation]]"
     reason: "Patience fruit needs the spike named before the act"
@@ -47,7 +51,7 @@ review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
   - front: "Snapped at my kid after a dry prayer week. What grows the slow fuse?"
-    back: "Walk by Spirit - not white-knuckle."
+    back: "Walk by Spirit - not willpower alone."
   - front: "Cut off in traffic - horn for horn incoming. One beat?"
     back: "Slow the moment - Spirit slow fuse."
   - front: "Trying to checklist patience by Friday. What grows it?"

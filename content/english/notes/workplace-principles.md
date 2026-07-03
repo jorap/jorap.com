@@ -2,11 +2,15 @@
 note_kind: "index"
 title: "Workplace Principles"
 meta_title: "Workplace Principles - Eternal Ethics in Plain Office Language"
-description: "The same ethics as Eternal Principles, in plain office language where altar talk would land wrong."
+description: "The same ethics as Eternal Principles, in plain office language where religious terms sound awkward."
 key_concept: |
   Each note below is one claim I'd say in a standup or a 1:1 - plain language, meeting-sized examples, wikilink back to the gospel source when I need the full depth.
   
   Faith stays in the faith cluster; these are the versions I can share with a secular team without watering down the move.
+shareable_lines:
+  - "The same ethics as Eternal Principles, in plain office language where religious terms sound awkward."
+  - "Each note below is one claim I'd say in a standup or a 1:1 - plain language, meeting-sized examples, wikilink back to the gospel…"
+  - "Faith stays in the faith cluster; these are the versions I can share with a secular team without watering down the move."
 relationships:
   - type: alternative
     wikilink: "[[Maps of Content]]"
@@ -32,7 +36,7 @@ draft: false
 ---
 ## How to treat colleagues
 
-- [[The Golden Rule at Work]] - treat people the way you want to be treated in email, reviews, and hallway talk
+- [[Golden Rule at Work]] - treat people the way you want to be treated in email, reviews, and hallway talk
 - [[Forgiveness at Work]] - release the grudge; stop running a ledger on old slights
 - [[Reconcile Before the Review]] - fix the relationship before the performance conversation
 - [[Break the Escalation Cycle]] - don't match snark with snark; break the reply-all war
@@ -51,7 +55,7 @@ draft: false
 
 - [[Servant Leadership]] - greatness is making the team win, not grabbing the credit
 - [[Share What You Learn]] - pass on what you know; don't hoard knowledge like private bookmarks
-- [[Integrity When No One's Watching]] - do the honest work when there's no audience in the room
+- [[Integrity Without an Audience]] - do the honest work when there's no audience in the room
 - [[Success is Stewardship]] - promotion and platform are borrowed - use them for the team, not ego
 
 ## Safety and duty of care
@@ -71,7 +75,7 @@ draft: false
 
 | Workplace note | Gospel source |
 |----------------|---------------|
-| [[The Golden Rule at Work]] | [[The Golden Rule]] |
+| [[Golden Rule at Work]] | [[The Golden Rule]] |
 | [[Forgiveness at Work]] | [[Forgiveness]] |
 | [[Reconcile Before the Review]] | [[Reconciliation Before Worship]] |
 | [[Break the Escalation Cycle]] | [[Turn the Other Cheek]] |
@@ -80,5 +84,5 @@ draft: false
 | [[Priorities Before the Inbox]] | [[Seek the Kingdom First]] |
 | [[Servant Leadership]] | [[Humility and Service]] |
 | [[Share What You Learn]] | [[Great Commission]] |
-| [[Integrity When No One's Watching]] | [[Secret Devotion]] |
+| [[Integrity Without an Audience]] | [[Secret Devotion]] |
 | [[Success is Stewardship]] | [[Faithful Steward]] |

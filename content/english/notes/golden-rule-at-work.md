@@ -1,6 +1,6 @@
 ---
-title: "The Golden Rule at Work"
-meta_title: "The Golden Rule at Work - Treat Colleagues How You Want to Be Treated"
+title: "Golden Rule at Work"
+meta_title: "Golden Rule at Work - Treat Colleagues How You Want to Be Treated"
 description: "Treat colleagues the way you want to be treated - in email tone, credit, deadlines, and hallway gossip."
 key_concept: |
   It's active, not passive: do the helpful thing, don't only avoid harm.
@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "My draft reply to the new team manager was technically right and needlessly harsh - I paused, asked how I'd want that correction on my worst game day, and rewrote it."
   - "The group chat pile-on about the neighbor's messy yard - I asked how I'd want feedback if my lawn looked that way, then said nothing mean."
+shareable_lines:
+  - "Treat colleagues the way you want to be treated - in email tone, credit, deadlines, and hallway gossip."
+  - "It's active, not passive: do the helpful thing, don't only avoid harm."
+  - "The check is experiential - how would I want feedback delivered, how would I want to be included, how would I want a mistake…"
 relationships:
   - type: alternative
     wikilink: "[[Love Your Enemies]]"
@@ -31,7 +35,7 @@ image: "/images/note.jpg"
 categories: ["Leadership"]
 author: "JoRap"
 tags: ["Workplace", "Ethics", "Leadership", "Eternal Principles", "Communication"]
-aliases: ["treat colleagues fairly", "reverse roles at work", "golden rule at work"]
+aliases: ["The Golden Rule at Work", "treat colleagues fairly", "reverse roles at work", "golden rule at work"]
 featured: false
 review: true
 card_sets: ["Ethics", "Focus"]

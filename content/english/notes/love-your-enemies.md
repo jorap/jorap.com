@@ -8,6 +8,10 @@ key_concept: |
 examples:
   - "Someone slandered me in a group chat and my thumb hovered over a reply - I prayed for them, not because they deserve it, because that's what the Father does with people like me."
   - "My neighbor's honking got under my skin and I almost left a nasty note - I baked cookies instead and asked if everything was okay."
+shareable_lines:
+  - "Love your enemies - bless, pray, reflect the Father who sends rain on just and unjust alike."
+  - "Jesus overturned the tribal reading of \"neighbor.\" Loving only people who love you back is ordinary; loving enemies is…"
+  - "Prayer and blessing are the practical handles - not agreement, not pretending harm didn't happen. The Father's free grace toward…"
 relationships:
   - type: alternative
     wikilink: "[[Turn the Other Cheek]]"

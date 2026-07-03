@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "I dropped a fourth side project to finish one book draft - depth beat breadth this quarter."
   - "One deep client build this month beat three half-started sites on the portfolio."
+shareable_lines:
+  - "Slow productivity is fewer active projects so work finishes deep instead of piling as guilt."
+  - "Busy isn't the same as finished."
+  - "I run fewer active projects so notes become shipped work, not a guilt backlog - that's the pushback on busy-as-virtue. Deep Work…"
 relationships:
   - type: contradicts
     wikilink: "[[The 12 Week Year]]"

@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "A play tweak hits during cooldown and I scribble it on my wristband before the locker room noise eats it - one inbox, file it Sunday when the spark is safe."
   - "On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it - one pocket notebook, no sorting yet."
+shareable_lines:
+  - "Save what resonates into one inbox I trust - then empty it weekly."
+  - "Friction kills capture."
+  - "One inbox, phone to desktop, weekly process - same as The Trusted Inbox. If I wouldn't act on it or cite it later, it doesn't get…"
 relationships:
   - type: contradicts
     wikilink: "[[Signal vs Noise]]"

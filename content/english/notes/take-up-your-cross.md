@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "I had one big surrender moment last year and went back to the same comfortable sin - Jesus said daily: pick it up again today."
   - "The veteran skips the post-game party to drive a rookie home - daily cross is the costly obedience when comfort is right there."
+shareable_lines:
+  - "I deny myself and follow Christ daily - choosing his will over mine, not collecting suffering points."
+  - "The cross isn't suffering for suffering's sake; it's choosing God's will over self-will each day."
+  - "Free Grace keeps the order: eternal life is received by faith, not earned by cross-bearing - but Discipleship costs something…"
 relationships:
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"

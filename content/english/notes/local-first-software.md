@@ -2,10 +2,17 @@
 title: "Local-first Software"
 meta_title: "Local-first Software for Notes"
 description: "Local-first means my device holds the truth; sync is optional icing. That's how I want my brain's backup to behave."
-key_concept: "Local-first means your device holds the truth; choose what's public, what's private, and what gets encrypted."
+key_concept: |
+  Local-first means your device holds the truth; choose what's public, what's private, and what gets encrypted.
+  
+  Sync should merge edits without picking last-write-wins by clock alone.
 examples:
   - "If the phone dies mid-grocery run, the list on the fridge still works."
   - "Grandma's recipe cards live in the kitchen drawer - not an app that might vanish."
+shareable_lines:
+  - "Local-first means my device holds the truth; sync is optional icing. That's how I want my brain's backup to behave."
+  - "Local-first means your device holds the truth; choose what's public, what's private, and what gets encrypted."
+  - "Sync should merge edits without picking last-write-wins by clock alone."
 relationships:
   - type: alternative
     wikilink: "[[Building a Personal API]]"
@@ -13,9 +20,6 @@ relationships:
   - type: contradicts
     wikilink: "[[Drafting in Public]]"
     reason: "when private-first truth beats publishing before I'm ready"
-  - type: extends
-    wikilink: "[[CRDT]]"
-    reason: "Sync-without-server tech local-first apps use"
   - type: extends
     wikilink: "[[PKM]]"
     reason: "Your device holds the truth and sync is icing - that's how a brain backup should behave"

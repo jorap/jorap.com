@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "Ten minutes of flashcards on the jeepney beat an hour of app setup I'd never open twice."
   - "The coach added one footwork drill before buying new shoes - small dose, daily reps, feet learned faster than gear ever did."
+shareable_lines:
+  - "The smallest change that still moves the needle - not the heroic overhaul."
+  - "I borrowed it from medicine: enough to work, not more than needed."
+  - "Applies to PKM habits, fitness, and side projects. More input past the dose is noise. Same shape in Free Grace and Justification…"
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

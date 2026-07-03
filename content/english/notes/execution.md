@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "Our block cleanup had a group chat full of enthusiasm and no bags until one neighbor showed up with gloves and a start time."
   - "The coach drew a beautiful play on the whiteboard - execution started when players were on the field and someone named who cuts where on the first whistle."
+shareable_lines:
+  - "A decision earns nothing until finished work lands, not when the slide deck or the intention is done."
+  - "Turning a decision into finished work - not slides, not intentions, not \"we'll get to it.\""
+  - "Execution is the gap between deciding and delivered - plans earn nothing until work lands."
 relationships:
   - type: contradicts
     wikilink: "[[Slow Productivity]]"

@@ -11,6 +11,10 @@ key_concept: |
 examples:
   - "A play idea hits during warm-ups and I voice-memo it before the gym noise eats it - my head is for having ideas, the inbox is for storing them until review."
   - "A sermon line lands mid-shift and I scribble it on a receipt - one [[trusted inbox]], no sorting yet, process it Sunday when the spark is safe."
+shareable_lines:
+  - "My head is for thinking, not storing - notes hold what I'd otherwise lose."
+  - "Offload ideas so my head can think, not hoard."
+  - "Remember CODE: Capture, organize, distill, express."
 relationships:
   - type: alternative
     wikilink: "[[GTD vs PARA]]"

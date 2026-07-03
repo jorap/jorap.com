@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "I spent a week comparing strollers instead of walking with the baby we already had - picked the lighter one, went out tired that afternoon."
   - "I stopped comparing note apps and shipped with the one that works on my phone tired - no perfect tool, only what I actually use."
+shareable_lines:
+  - "There's no perfect solution - pick what works tired and ship instead of waiting for the ideal."
+  - "I pick what works tired and ship."
+  - "Every real choice has tradeoffs - stop comparing real options to an imaginary perfect one."
 relationships:
   - type: contradicts
     wikilink: "[[Pareto Principle]]"
@@ -22,7 +26,7 @@ image: "/images/note.jpg"
 categories: ["Thinking"]
 author: "JoRap"
 tags: ["Decision Making", "Tradeoffs", "Productivity", "Mindset", "Good Enough", "Mental Models", "Problem Solving", "Prioritization", "Perfectionism", "PKM", "Note Taking"]
-aliases: ["No Perfect Solution"]
+aliases: ["Pick What Works Tired", "No Perfect Solution"]
 featured: false
 review: true
 card_sets: ["Focus", "Workflow"]

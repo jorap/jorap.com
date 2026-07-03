@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "I had the title at home but noticed I was hoarding easy wins - servant leadership meant the messy bedtime shift while my partner got the break."
   - "I got promoted and realized I'd been grabbing credit for work the team carried - servant leadership was my name off the slide and hers on the praise email."
+shareable_lines:
+  - "I unblock the team, coach through the mess, take blame up, and pass credit down."
+  - "The corporate ladder rewards visibility; this principle runs the other way."
+  - "Wash feet in the sprint, not only in the all-hands speech. Gospel depth: Humility and Service. I can explain this in a leadership…"
 relationships:
   - type: alternative
     wikilink: "[[Let Your Light Shine]]"

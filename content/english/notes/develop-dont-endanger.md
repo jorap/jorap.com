@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "The clinic can drill fire evacuation with a walk-through - not by blocking the only exit and hoping everyone stays calm."
   - "A conditioning set can build endurance - an uncontrolled water exercise adds lethal risk without improving sport-specific performance; pick the drill that develops the skill."
+shareable_lines:
+  - "I push people to grow without picking drills where pain or risk replaces the actual skill."
+  - "Hard alone doesn't make an exercise worth running."
+  - "A demanding drill needs a clear purpose, a measurable benefit, qualified supervision, and defined safety limits. When pain…"
 relationships:
   - type: alternative
     wikilink: "[[Minimum Effective Dose]]"

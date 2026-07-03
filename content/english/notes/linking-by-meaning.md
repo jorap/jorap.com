@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "I linked \"jeepney delay\" to \"leave earlier\" in my daily note and found it six weeks later when the same route broke again - proximity beats perfect filing."
   - "The playbook card links \"late press\" to \"[[Slow the Moment]]\" - I find the counter without memorizing every filename in the binder."
+shareable_lines:
+  - "I link notes so ideas meet in the graph without me memorizing every folder path."
+  - "Folders sort. Links think."
+  - "I stopped trying to memorize every filename and started wiring Atomic Notes so ideas bump into each other in the graph. One link…"
 relationships:
   - type: contradicts
     wikilink: "[[PARA Method]]"

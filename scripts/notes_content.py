@@ -14,6 +14,7 @@ FM_ORDER = (
     "description",
     "key_concept",
     "examples",
+    "shareable_lines",
     "relationships",
     "slug",
     "date",
@@ -239,6 +240,14 @@ def dump_frontmatter(fm: dict[str, Any]) -> str:
             for ex in value:
                 if isinstance(ex, str) and ex.strip():
                     lines.append(f"  - {yaml_quote(ex.strip())}")
+            return
+        if key == "shareable_lines" and isinstance(value, list):
+            if not value:
+                return
+            lines.append("shareable_lines:")
+            for line in value:
+                if isinstance(line, str) and line.strip():
+                    lines.append(f"  - {yaml_quote(line.strip())}")
             return
         line = yaml_scalar(key, value)
         if line:

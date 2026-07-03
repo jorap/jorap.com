@@ -6,6 +6,10 @@ key_concept: "I publish rough ideas before they're finished - drafting in public
 examples:
   - "I shared a draft SOP with the team before it was polished - silence would've let me pretend I understood the pass-off."
   - "I posted a rough footwork clip before I'd nailed the cue words - a teammate's comment fixed the line I'd been dodging in private notes."
+shareable_lines:
+  - "Posting rough drafts keeps me honest and lets the garden grow from feedback, not private hoarding."
+  - "I publish rough ideas before they're finished - drafting in public keeps the garden honest."
+  - "I shared a draft SOP with the team before it was polished"
 relationships:
   - type: contradicts
     wikilink: "[[Evergreen Notes]]"

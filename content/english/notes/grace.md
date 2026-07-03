@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "A teammate listed every good deed this month like it was his ticket to heaven - grace is the gift through faith, not the report card from the season."
   - "Romans 4 in my head but guilt still treats every bad week like a revoked passport - grace settled standing; the walk is a different category."
+shareable_lines:
+  - "Grace is gift I never earned starting with salvation and continuing through the walk after, not wages I could stack."
+  - "Mercy withholds what I deserve; grace gives what I couldn't earn."
+  - "Same rescue, two angles - rich in mercy, saved by grace (Ephesians 2:4-5). Free Grace is grace applied to eternal life: Christ…"
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

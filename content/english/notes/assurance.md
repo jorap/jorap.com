@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "Bad week and dread God changed His mind - assurance rests on Christ's promise, not my obedience streak."
   - "I pictured the judgment seat and panicked like heaven might get revoked - salvation settled at faith; works get reviewed for reward after."
+shareable_lines:
+  - "Assurance is resting on Christ's finished work when doubt hits - not my week's obedience score."
+  - "Free Grace names the gift; Justification names the verdict; assurance names where I rest when doubt hits."
+  - "Bad weeks, hidden sin, dread at the Judgment Seat - none of those re-open the case Justification closed. Loss of Reward keeps…"
 relationships:
   - type: alternative
     wikilink: "[[The Narrow Way]]"

@@ -6,6 +6,10 @@ key_concept: Mainstream mental models for decisions and performance - plus the o
 examples:
   - "The restaurant had twelve menu tweaks on the whiteboard - I picked the two that actually cut ticket times and shelved the rest."
   - "Waze showed four commute routes - I stuck to the one that saves gas on the Tuesday school run, not the scenic detour."
+shareable_lines:
+  - "Mental models are thinking shortcuts I keep when they survive real decisions."
+  - "Mainstream mental models for decisions and performance - plus the ones I keep notes on when they earn repeat use."
+  - "The restaurant had twelve menu tweaks on the whiteboard"
 relationships:
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"

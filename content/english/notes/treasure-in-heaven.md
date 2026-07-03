@@ -4,10 +4,14 @@ meta_title: "Treasure in Heaven - Where Your Heart Follows"
 description: "I store up what lasts - generosity and obedience - not what rust, moth, and thieves can take."
 key_concept: |
   Where your treasure is, there your heart will be. (Matthew 6:19-21).
-  Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation. [[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life for faithfulness - not the entry fee. The [[Judgment Seat]] evaluates what lasts; [[Wood Hay Stubble]] names what burns vs survives the fire; [[Loss of Reward]] is when worthless treasure burns but you're still saved through fire. [[The Collector's Fallacy]] is the PKM mirror: hoarding saves and stuff on earth while nothing lasting gets stored.
+  Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation. [[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life for faithfulness - not the entry fee. The [[Judgment Seat]] evaluates what lasts; wood, hay, and stubble burn while gold lasts; [[Loss of Reward]] is when worthless treasure burns but you're still saved through fire. [[The Collector's Fallacy]] is the PKM mirror: hoarding saves and stuff on earth while nothing lasting gets stored.
 examples:
   - "Thumb on another buy I don't need - will this rust, or store something heaven-side like mercy and obedience?"
   - "I almost chased a sponsorship for the ego, not the team - treasure check: where will this matter in ten years?"
+shareable_lines:
+  - "I store up what lasts - generosity and obedience - not what rust, moth, and thieves can take."
+  - "Where your treasure is, there your heart will be. (Matthew 6:19-21)."
+  - "Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation. Free Grace already…"
 relationships:
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"
@@ -18,9 +22,6 @@ relationships:
   - type: extends
     wikilink: "[[Loss of Reward]]"
     reason: "Worthless stored treasure burns; eternal life on Christ stays"
-  - type: extends
-    wikilink: "[[Wood Hay Stubble]]"
-    reason: "Store gold-side treasure; wood hay stubble won't survive evaluation"
 slug: "treasure-in-heaven"
 date: "2026-06-19 09:05:00+00:00"
 image: "/images/note.jpg"

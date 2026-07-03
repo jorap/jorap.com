@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "The cafeteria put fruit at eye level and salad sales jumped - no sermon required."
   - "Default opt-in to save made more people enroll than the bonus email campaign."
+shareable_lines:
+  - "People choose what default and friction make easy, not what a neat lecture said they should pick."
+  - "People don't act on facts alone - defaults and friction steer choices more than lectures."
+  - "Mental Models gives lenses; this field names why nudges beat sermons."
 relationships:
   - type: contradicts
     wikilink: "[[First Principles Thinking]]"

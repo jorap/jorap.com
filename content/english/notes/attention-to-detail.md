@@ -6,6 +6,10 @@ key_concept: "Attention to detail is catching the typo, edge case, and loose end
 examples:
   - "We almost threw the inbounds pass on the wrong side of the line because two hash marks looked identical - the second read of the court map caught it."
   - "A nurse almost gave the wrong dose because two bags looked identical - the second read of the label caught it before it left her hands."
+shareable_lines:
+  - "I catch the typo and the edge case before they turn into an incident or a dumb customer email."
+  - "Attention to detail is catching the typo, edge case, and loose end before they become incidents."
+  - "We almost threw the inbounds pass on the wrong side of the line because two hash marks looked identical"
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Viable Product]]"
@@ -14,7 +18,7 @@ relationships:
     wikilink: "[[Complete the Cycle]]"
     reason: "Verification is detail work"
   - type: extends
-    wikilink: "[[Integrity When No One's Watching]]"
+    wikilink: "[[Integrity Without an Audience]]"
     reason: "Detail when nobody audits"
   - type: extends
     wikilink: "[[Signal vs Noise]]"

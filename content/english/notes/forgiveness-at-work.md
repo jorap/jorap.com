@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "I replayed my sister's sharp comment at every family dinner until I chose to release the debt - forgiving isn't pretending it didn't hurt; it's refusing to collect forever."
   - "I kept mentally scoring a coworker who embarrassed me in a staff meeting six months ago - I stopped bringing that score into every shift and still wrote down what I'd need to trust him on the next busy Saturday."
+shareable_lines:
+  - "I release a colleague's debt from my heart without pretending the slight didn't matter or skipping boundaries where trust broke."
+  - "Forgiving isn't pretending it didn't hurt."
+  - "It's refusing to collect forever on a debt that poisons my work. Seventy times seven ends the ledger-keeping. Gospel depth…"
 relationships:
   - type: contradicts
     wikilink: "[[Sunk Cost Fallacy]]"

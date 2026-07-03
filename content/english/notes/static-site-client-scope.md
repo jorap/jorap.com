@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "Cafe owner wanted online ordering - out of scope; menu page plus link to existing delivery app."
   - "Gym wanted class schedule from booking SaaS - embed the vendor widget; static shell around it was fine."
+shareable_lines:
+  - "Static sites fit text and images on git push - not live databases or mystery WordPress admins."
+  - "Scope the sales call before I quote Selling Static Sites - say no to bad fits in the room, not after deposit."
+  - "**Good fits:** portfolio, org brochure, small business presence, project docs, blog where owner learns Git or pays retainer…"
 relationships:
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"

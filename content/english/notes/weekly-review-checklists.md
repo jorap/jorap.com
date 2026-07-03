@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "Inbox, calendar, projects, one express action - twenty minutes beats skipping review because this week's \"different.\""
   - "Sunday checklist: bowl by the door, calendar, kid forms, one family thing to finish - same steps even on travel weeks, shortened not skipped."
+shareable_lines:
+  - "My weekly review is a checklist on purpose - inbox, calendar, projects, one express action."
+  - "Boring on purpose."
+  - "Weekly review as a checklist - inbox, calendar, projects, one express action."
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Effective Dose]]"

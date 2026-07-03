@@ -6,6 +6,10 @@ key_concept: "Systems thinking traces inputs, delays, and feedback - so you chan
 examples:
   - "We lost every third possession on turnovers - systems thinking traced it to the warmup drill, not \"focus harder tonight.\""
   - "The restaurant ran out of rice on a busy Friday - systems thinking traced it to prep checklist and par levels, not \"cook faster tonight.\""
+shareable_lines:
+  - "I trace the loop behind the fire - inputs, delays, feedback - and fix the process, not tonight's patch."
+  - "Systems thinking traces inputs, delays, and feedback - so you change the process, not only patch today's fire."
+  - "We lost every third possession on turnovers"
 relationships:
   - type: contradicts
     wikilink: "[[Low Hanging Fruit]]"

@@ -20,8 +20,12 @@ key_concept: |
   | Gentleness | [[Gentleness]] - [[Humility and Service]] |
   | Self-control | [[Self-Control]] |
 examples:
-  - "I snapped at my kid after a week with almost no prayer and wondered why patience vanished - Galatians fruit comes from walking by the Spirit, not white-knuckling until Friday."
+  - "I snapped at my kid after a week with almost no prayer and wondered why patience vanished - Galatians fruit comes from walking by the Spirit, not forcing virtue until Friday."
   - "Performing joy at church while empty at home told me I was manufacturing fruit - abiding first, then the cluster grows."
+shareable_lines:
+  - "Love through self-control is one Spirit-grown cluster in believers, not a merit checklist that buys heaven."
+  - "One cluster the Spirit grows - love, joy, peace, patience, and the rest in Galatians 5. (Galatians 5:22-23)."
+  - "Paul contrasts **works of the flesh** (sexual immorality, jealousy, fits of anger, envy, and the rest in Galatians 5:19-21) with…"
 relationships:
   - type: alternative
     wikilink: "[[By Their Fruits]]"
@@ -31,7 +35,7 @@ relationships:
     reason: "PKM restraint skill vs Spirit-produced self-control in the Galatians cluster"
   - type: contradicts
     wikilink: "[[Compounding]]"
-    reason: "when white-knuckle streaks mimic fruit to prove I'm saved"
+    reason: "when willpower streaks mimic fruit to prove I'm saved"
   - type: extends
     wikilink: "[[Abide in Me]]"
     reason: "Fruit comes from staying in the vine - Galatians names what grows"
@@ -94,7 +98,7 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship"]
 cards:
-  - front: "Snapped at my kid after a dry week - no prayer, just white-knuckling patience. Where does Galatians fruit come from?"
+  - front: "Snapped at my kid after a dry week - no prayer, just forcing patience by will. Where does Galatians fruit come from?"
     back: "Walk by the Spirit - not flesh willpower."
   - front: "Galatians 5 - flesh works on one side, Spirit fruit on the other. Which side am I feeding?"
     back: "Spirit - stay connected, crucify flesh."

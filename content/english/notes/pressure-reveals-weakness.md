@@ -4,6 +4,10 @@ title: "Pressure Reveals Weakness"
 meta_title: "Pressure Reveals Weakness - Build for When It Gets Hard"
 description: "Pressure reveals what easy days hide - build habits and systems that still work when stakes spike."
 key_concept: "Each note below is one move I'd want automatic before the moment arrives."
+shareable_lines:
+  - "Pressure reveals what easy days hide - build habits and systems that still work when stakes spike."
+  - "Each note below is one move I'd want automatic before the moment arrives."
+  - "Pressure Reveals Weakness — Pressure reveals what easy days hide - build habits and systems that still work when stakes spike."
 relationships:
   - type: alternative
     wikilink: "[[Mental Models]]"
@@ -42,7 +46,7 @@ draft: false
 ## Adaptation and foresight
 
 - [[Expect the Counter]] - every winning move eventually meets a response
-- [[Stay Effective in New Conditions]] - strength in one room can fail in the next
+- [[Strong Outside Your Comfort]] - strength in one room can fail in the next
 
 ## Learning from failure
 

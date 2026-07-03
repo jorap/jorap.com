@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "I spent twenty minutes redesigning our training plan when the actual problem was three cones not put away - I put them back in four minutes and had energy for drills."
   - "I spent an hour sketching a whole spring-cleaning plan when the actual problem was three dishes in the sink - washed them in ten minutes and had energy for the garage after lunch."
+shareable_lines:
+  - "The easy win I can grab now - do it before I climb for the hard stuff."
+  - "Not every task deserves hero energy."
+  - "Fix the broken link, publish the half-done draft, delete the folder I haven't opened in a year. Small, obvious, done today. I use…"
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

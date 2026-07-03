@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "The trainer's Instagram was polished - I asked two parents who finished the program about injuries and consistency."
   - "The contractor's portfolio was gorgeous - I asked two neighbors who lived through the remodel about permit fights and cracked tile."
+shareable_lines:
+  - "Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura."
+  - "Smooth talkers ship thorns sometimes."
+  - "I look at downstream stress, turnover, delivery, and whether the team got healthier or more brittle. On Static Site Client Scope…"
 relationships:
   - type: contradicts
     wikilink: "[[Life Before Achievement]]"

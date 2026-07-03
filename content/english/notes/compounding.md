@@ -10,6 +10,10 @@ key_concept: |
 examples:
   - "Ten minutes of free throws every Tuesday looked pointless for months - then the percentage bent without me noticing the curve."
   - "My kid's piano practice looked pointless for a year - three songs a week, same scales, then year two the pieces started linking and suddenly she was playing music."
+shareable_lines:
+  - "Compounding is small gains stacked over time - the curve stays flat until it suddenly bends."
+  - "Repeat small gains until they stack - keep showing up; the curve looks flat until it doesn't."
+  - "Borrowed from finance, but it applies anywhere today's gain makes tomorrow easier: notes linked over years, publish cadence…"
 relationships:
   - type: contradicts
     wikilink: "[[Pareto Principle]]"

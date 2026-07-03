@@ -16,6 +16,10 @@ key_concept: |
 examples:
   - "I'm updating the family chore chart and add \"feeds into: Saturday yard work\" next to \"take out trash\" plus \"conflicts with: bedtime when done late\" before I tape it to the fridge."
   - "The coach's whiteboard lists \"feeds into: secondary break\" beside each drill - players see how today's reps connect before they leave the gym."
+shareable_lines:
+  - "My graph shows extends, contradicts, implements, alternative - not just two notes mentioning the same word."
+  - "Four pair types in `relationships` frontmatter show how ideas push and pull - not just that two notes mention each other."
+  - "Every atomic note carries a one-breath definition in `description`, angle in `key_concept`, two scenes in `examples`, and typed…"
 relationships:
   - type: alternative
     wikilink: "[[PARA Method]]"

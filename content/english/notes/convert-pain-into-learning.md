@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "I bombed a client presentation and stewed for a week - convert pain into learning was one page: weak transitions, rehearse bridges ten times, cut two slides."
   - "I missed the turn twice on the new commute - one note on where the sign hides, tested next Monday, stewing on it without change would've just been suffering."
+shareable_lines:
+  - "Convert pain into learning means failure must produce correction, not stewing without change."
+  - "Failure becomes useful only when it produces correction."
+  - "Reflect on what happened, pull out the lesson, design a better response, and test it the next time the situation shows up…"
 relationships:
   - type: contradicts
     wikilink: "[[Forgiveness]]"

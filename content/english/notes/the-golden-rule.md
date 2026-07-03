@@ -8,6 +8,10 @@ key_concept: |
 examples:
   - "My thumb was on the post button with a critique that was probably true and definitely cruel - pause: how would I want someone to say that to me?"
   - "Before I barked at the ref in front of the kids, I asked how I'd want a coach to talk to me after a bad call - the Golden Rule changed the volume."
+shareable_lines:
+  - "I treat people how I'd want to be treated - active care, not just avoiding harm."
+  - "It's positive and active: *do* unto others, not merely avoid doing harm. (Matthew 7:12)."
+  - "The check is experiential - how would I want to be spoken to, helped, forgiven, included? That sets the floor for every…"
 relationships:
   - type: contradicts
     wikilink: "[[Love Your Enemies]]"

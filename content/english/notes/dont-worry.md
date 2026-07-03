@@ -8,6 +8,10 @@ key_concept: |
 examples:
   - "I thumb-refresh the news about tomorrow's meeting instead of sleeping - worry can't add a single hour to life, and tomorrow can carry its own trouble."
   - "My kid asked what if the school fee goes up next year and I started spiraling at bedtime - trust is active dependence on a Father who already gave what I can't earn."
+shareable_lines:
+  - "Jesus told me not to stack worry on food, clothes, or tomorrow - the Father already feeds birds."
+  - "Worry can't add a single hour to life. (Matthew 6:25-34)."
+  - "The antidote isn't denial - it's priority: Seek the Kingdom First, and let tomorrow carry its own trouble. Trust is active…"
 relationships:
   - type: contradicts
     wikilink: "[[The 12 Week Year]]"

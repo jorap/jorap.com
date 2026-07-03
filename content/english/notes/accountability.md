@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "The condo board didn't say \"someone should fix the gate\" - they named a contact and a deadline in the group chat before anyone drove off."
   - "After a patient mix-up, our charge nurse named who was running the code cart and who was documenting - not \"everyone was involved.\" One owner, one timeline, one honest chart note before the shift ended."
+shareable_lines:
+  - "Accountability is naming who owns the result - and what happens when it slips."
+  - "Clear ownership - who answers for the outcome, the miss, and the fix."
+  - "The condo board didn't say \"someone should fix the gate\""
 relationships:
   - type: contradicts
     wikilink: "[[Forgiveness at Work]]"

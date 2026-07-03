@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "Our line cook never got named manager; leadership was calm voice, who goes where, and nobody blaming while the extinguishers were still out."
   - "The blackout hit our block and one neighbor set pace - who checks on elders, who handles the generator - direction and care when people look to you."
+shareable_lines:
+  - "Leadership is owning direction, pace, and care when people look to you - title optional."
+  - "You take responsibility for direction, pace, and care when people look to you - title optional."
+  - "Leadership is taking responsibility for direction, pace, and care when others look to you."
 relationships:
   - type: contradicts
     wikilink: "[[Servant Leadership]]"

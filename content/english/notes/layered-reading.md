@@ -6,10 +6,13 @@ key_concept: |
   Pass through the same source at increasing depth - skim, highlight, summarize.
   
   Skim first pass, mark second, extract third - same book, three depths, one sitting at a time.
-  [[Progressive Layers]] is the note-side cousin of layered passes.
 examples:
   - "First pass on the coaching manual marked three sections; second pass only those got sentences in my own words."
   - "First pass marked three sections of the safety manual; second pass only those got sentences in my own words."
+shareable_lines:
+  - "I don't read a book once and pretend I absorbed it - I pass through again when I need more."
+  - "Pass through the same source at increasing depth - skim, highlight, summarize."
+  - "Skim first pass, mark second, extract third - same book, three depths, one sitting at a time."
 relationships:
   - type: contradicts
     wikilink: "[[Spaced Repetition]]"
@@ -17,15 +20,13 @@ relationships:
   - type: extends
     wikilink: "[[Literature Notes]]"
     reason: "Deeper passes become literature notes in your words"
-  - type: extends
-    wikilink: "[[Progressive Layers]]"
-    reason: "Skim, mark, extract - same cousin as progressive layers"
 slug: "layered-reading"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Productivity", "Tips"]
 author: "JoRap"
 tags: ["PKM", "Learning"]
+aliases: ["/notes/progressive-layers/", "/notes/progressive-summarization/"]
 featured: false
 review: true
 card_sets: ["Focus", "Review"]

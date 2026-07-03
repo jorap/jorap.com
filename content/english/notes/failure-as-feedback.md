@@ -10,12 +10,16 @@ key_concept: |
 examples:
   - "I missed three free throws in a row - failure as feedback was follow-through and routine, not deciding I'm \"not a basketball person.\""
   - "The utility bill math was wrong - I treated it as instrument reading about the formula I skipped, not proof I can't do numbers."
+shareable_lines:
+  - "I read a miss as signal about process or skill, not as proof I'm the wrong kind of person."
+  - "A miss tells you what to fix next - process, skill, assumption - if you don't treat it as a identity verdict."
+  - "Faith parallel: Loss of Reward - worthless works burn at the Judgment Seat, but the builder is still saved through fire."
 relationships:
   - type: alternative
     wikilink: "[[Rollback Principle]]"
     reason: "Root-cause learning after calm - rollback is revert first"
   - type: contradicts
-    wikilink: "[[Integrity When No One's Watching]]"
+    wikilink: "[[Integrity Without an Audience]]"
     reason: "when \"it's just feedback\" excuses sloppy work nobody would ship on purpose"
   - type: extends
     wikilink: "[[Blameless After-Action Review]]"

@@ -7,6 +7,10 @@ key_concept: |
   I split them into one-claim notes so I can link and drill them like the rest of the garden.
   
   The ground is [[Free Grace]]: eternal life is God's gift by faith in Christ, not works. These principles aren't the price of heaven. They're how I try to live once I've already received it. Start at [[Free Grace]] if the order matters. Then wander by section below. Gospel spine notes carry six review cards each - drill at [/notes/review/](/notes/review/) and filter by **Eternal Principles** (full deck), **Faith**, **Commandments**, **Ethics**, **Prayer**, **Priorities**, or **Discipleship** to match each section.
+shareable_lines:
+  - "What Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first."
+  - "I split them into one-claim notes so I can link and drill them like the rest of the garden."
+  - "The ground is Free Grace: eternal life is God's gift by faith in Christ, not works. These principles aren't the price of heaven…"
 relationships:
   - type: contradicts
     wikilink: "[[First Principles Thinking]]"
@@ -39,13 +43,12 @@ draft: false
 ## Salvation and reward
 
 - [[Judgment Seat]] - believers evaluated for works; rewards repaid, not re-deciding eternal life
-- [[Loss of Reward]] - saved through fire with loss vs never saved; two categories, don't collapse
+- [[Loss of Reward]] - saved through fire with loss vs never saved; worthless works burn (wood, hay, stubble)
 - [[Standing vs Fellowship]] - standing settled at faith; fellowship restored by confession
 - [[Assurance]] - rest on Christ's promise, not this week's report card
 - [[Grateful Obedience]] - obey because grace already saved, not to buy the ticket
 - [[Faithful Steward]] - faithfulness with what God entrusted; well done at review
 - [[Success is Stewardship]] - success is borrowed accountability, not permanent ownership
-- [[Wood Hay Stubble]] - works that last vs works that burn; saved through fire
 
 ## The two great commandments
 
@@ -139,5 +142,4 @@ Same ideas show up in my PKM notes. I wired the pairs below so the faith cluster
 | [[Success is Stewardship]] | [[Servant Leadership]] | Use the platform for the team - workplace frame for the headline |
 | [[Success is Stewardship]] | [[Finish Strong]] | Steward the tail, not only the launch |
 | [[Success is Stewardship]] | [[Great Commission]] | Pass on truth - don't hoard the garden |
-| [[Wood Hay Stubble]] | [[Failure as Feedback]] | Burned work signals what to build - standing on Christ stays |
 | [[Christianity and Politics]] | [[Signal vs Noise]] | Not every headline deserves kingdom-level panic - filter the feed |

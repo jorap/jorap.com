@@ -5,10 +5,14 @@ description: "Believers stand before Christ after salvation to have works evalua
 key_concept: |
   [[Free Grace]] and [[Justification]] already decided where I spend forever.
   
-  The judgment seat (Greek *bema* - think awards podium, not criminal court) decides what reward faithful living earned. [[Eternal Rewards]] names the promise; this note names the evaluation. [[Wood Hay Stubble]] names what burns vs lasts at the fire test. [[Faithful Steward]] is the parable shape: well done for faithful use, not re-buying eternal life. [[Secret Devotion]] and [[Let Your Light Shine]] both show up in the ledger - hidden and public obedience counted by Christ, not the audience. [[Loss of Reward]] keeps the categories straight: saved through fire with loss, not unsaved. PKM mirror: [[Periodic Knowledge Review]] - the whole history gets reviewed, not one heroic week mistaken for the whole career.
+  The judgment seat (Greek *bema* - think awards podium, not criminal court) decides what reward faithful living earned. [[Eternal Rewards]] names the promise; this note names the evaluation. Wood, hay, and stubble burn; gold, silver, and precious stones last at the fire test. [[Faithful Steward]] is the parable shape: well done for faithful use, not re-buying eternal life. [[Secret Devotion]] and [[Let Your Light Shine]] both show up in the ledger - hidden and public obedience counted by Christ, not the audience. [[Loss of Reward]] keeps the categories straight: saved through fire with loss, not unsaved. PKM mirror: [[Periodic Knowledge Review]] - the whole history gets reviewed, not one heroic week mistaken for the whole career.
 examples:
   - "I pictured standing before Christ and panicked like heaven might get revoked - the judgment seat evaluates works for reward; salvation was settled at faith."
   - "Years of church service felt like my ticket in - what gets weighed is faithful obedience after salvation, not a re-trial on who gets eternal life."
+shareable_lines:
+  - "Believers stand before Christ after salvation to have works evaluated for reward - eternal life was already settled by faith."
+  - "Free Grace and Justification already decided where I spend forever."
+  - "The judgment seat (Greek *bema* - think awards podium, not criminal court) decides what reward faithful living earned. Eternal…"
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"
@@ -25,9 +29,6 @@ relationships:
   - type: extends
     wikilink: "[[Justification]]"
     reason: "Declared righteous once; judgment seat never re-opens that verdict"
-  - type: extends
-    wikilink: "[[Wood Hay Stubble]]"
-    reason: "Fire test separates lasting work from worthless work"
 slug: "judgment-seat"
 date: "2026-06-29 08:10:00+00:00"
 image: "/images/note.jpg"

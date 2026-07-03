@@ -60,7 +60,6 @@ PKM_TAGS = {
     "SRS",
     "Metadata",
     "Taxonomy",
-    "Progressive Layers",
     "Evergreen Notes",
     "Daily Notes",
     "Inbox",

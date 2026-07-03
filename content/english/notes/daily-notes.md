@@ -6,6 +6,10 @@ key_concept: "Daily notes are a scratch pad for the day - fleeting by default, w
 examples:
   - "Today's pocket slip is just fragments - pick up basketball shoes, ice after practice, call coach back - I promote one line to a real note when it repeats."
   - "Today's pocket slip is just fragments: pick up cleats, dentist Tuesday, call Mom back - I promote one line to the family calendar Sunday if it keeps showing up; the rest can fade."
+shareable_lines:
+  - "My daily note is a scratch pad for today's fragments, not a diary I expect to last forever."
+  - "Daily notes are a scratch pad for the day - fleeting by default, with quick buffer flushes between tasks."
+  - "Today's pocket slip is just fragments"
 relationships:
   - type: contradicts
     wikilink: "[[Evergreen Notes]]"

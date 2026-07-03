@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "After the equipment cart tipped they traced storage layout and weight limits, not just \"trainer was clumsy.\""
   - "After the kitchen burn they traced pan placement and stove rules, not just \"kid wasn't careful.\""
+shareable_lines:
+  - "Find system causes after a miss - not only who to blame."
+  - "Blameless tone keeps investigation on system causes."
+  - "Blameless After-Action Review names blameless tone keeps investigation on system causes."
 relationships:
   - type: contradicts
     wikilink: "[[By Their Fruits]]"

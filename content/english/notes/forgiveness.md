@@ -8,6 +8,10 @@ key_concept: |
 examples:
   - "My kid hurt my feelings at breakfast and I said \"it's fine\" while nursing the grudge - forgiveness is releasing the debt, not pretending it didn't matter."
   - "I prayed about forgiving others on autopilot and skipped that line because I'm still mad at my brother from last Sunday - you can't ask for mercy with one breath and hold a grudge with the next."
+shareable_lines:
+  - "I extend the forgiveness I already received, not ledger-keeping on debts Christ cleared."
+  - "The Ask Seek Knock builds forgiveness into daily rhythm. (Matthew 6:14-15, 18:21-35)."
+  - "The parable of the unforgiving servant (Matthew 18) makes the math plain: the king forgave an unpayable debt - picture of Free…"
 relationships:
   - type: contradicts
     wikilink: "[[Sunk Cost Fallacy]]"

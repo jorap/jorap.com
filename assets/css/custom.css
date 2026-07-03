@@ -1040,8 +1040,38 @@ body.notes-graph-present-open {
 }
 
 .notes-outgoing,
-.notes-see-also {
+.notes-see-also,
+.notes-shareable-lines {
   background: var(--color-elevated);
+}
+
+.content.notes-content .notes-shareable-lines + h2 {
+  margin-top: 0.75rem;
+}
+
+.notes-shareable-lines__item {
+  min-width: 0;
+}
+
+.notes-shareable-lines__card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 10rem;
+  padding: 1.25rem;
+  border: 1px solid var(--color-divider);
+  border-radius: 0.5rem;
+  background: var(--color-surface);
+  transition: border-color 0.15s ease;
+}
+
+.notes-shareable-lines__text {
+  color: var(--color-ink);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  text-wrap: balance;
 }
 
 .notes-graph-filters {

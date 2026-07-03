@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "I sent the wrong attachment and named it in the reply thread before anyone else had to."
   - "The point guard called the bad pass out loud in the huddle - next play trusted faster."
+shareable_lines:
+  - "Owning the error is naming the miss clearly so failure becomes information, not blame theater."
+  - "Accountability turns failure into information."
+  - "Name the mistake clearly, find what caused it, repair what broke, and change the process that let it through - not blame theater…"
 relationships:
   - type: contradicts
     wikilink: "[[Forgiveness at Work]]"
@@ -26,7 +30,7 @@ relationships:
     wikilink: "[[Heed Every Near-Miss]]"
     reason: "Owning the close call before it becomes harm"
   - type: extends
-    wikilink: "[[Integrity When No One's Watching]]"
+    wikilink: "[[Integrity Without an Audience]]"
     reason: "Own it even when nobody would audit this week"
   - type: extends
     wikilink: "[[Integrity]]"

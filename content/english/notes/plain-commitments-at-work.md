@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "I said yes to Friday delivery in the meeting and meant it - no silent scope creep over Slack that night."
   - "The coach promised equal minutes and tracked them on the whiteboard - parents stopped guessing."
+shareable_lines:
+  - "Say yes or no clearly - no \"definitely maybe,\" no stack of qualifiers so people trust a weak promise."
+  - "If my word needs hype to sound believable, the problem is my follow-through, not the sentence."
+  - "One deadline, one owner, one plain answer in Slack. On Selling Static Sites scoping: say yes or no to Static Site Client Scope…"
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Viable Product]]"

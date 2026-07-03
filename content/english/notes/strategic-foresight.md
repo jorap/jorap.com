@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "The club signed a young backup keeper before the starter's contract year - foresight looks past this Saturday's win to next season's roster crunch."
   - "You don't buy a two-seat car the year before twins arrive - the board after everyone reacts to your life, not just today's trunk test."
+shareable_lines:
+  - "Look past today's win to what happens after everyone reacts."
+  - "Look past the immediate win."
+  - "The board six months out - after everyone reacts - matters more than tonight's score."
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Viable Product]]"

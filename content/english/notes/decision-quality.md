@@ -6,6 +6,10 @@ key_concept: "Decision quality is how often your choices hold up after informati
 examples:
   - "Signing a year-long club fee on one trial session is how people miss the schedule clash - decision quality was one call to a current member before we paid."
   - "We almost picked the school on one sunny open house - one neighbor call about the flood-prone pickup lane changed our call before we signed."
+shareable_lines:
+  - "I judge choices by whether they hold after sleep, new facts, and the real bill - not the meeting high."
+  - "Decision quality is how often your choices hold up after information, time, and energy are factored in."
+  - "Signing a year-long club fee on one trial session is how people miss the schedule clash"
 relationships:
   - type: contradicts
     wikilink: "[[Low Hanging Fruit]]"

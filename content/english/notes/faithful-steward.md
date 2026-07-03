@@ -5,10 +5,14 @@ description: "After salvation is settled, stewardship is about faithful use of w
 key_concept: |
   [[Free Grace]] settled where I spend forever.
   
-  Stewardship settles what I do with what He entrusted after. The master returns to settle accounts - faithful use repaid, buried talent rebuked. [[Eternal Rewards]] names the promise; [[Faithful Steward]] names the parable Jesus told for it. [[Compounding]] is the PKM mirror: small faithful use over years, not one heroic week mistaken for a merit purchase on heaven. [[Judgment Seat]] is where accounts get reviewed; [[Secret Devotion]] and [[Integrity When No One's Watching]] are hidden lanes of faithful use nobody applauded.
+  Stewardship settles what I do with what He entrusted after. The master returns to settle accounts - faithful use repaid, buried talent rebuked. [[Eternal Rewards]] names the promise; [[Faithful Steward]] names the parable Jesus told for it. [[Compounding]] is the PKM mirror: small faithful use over years, not one heroic week mistaken for a merit purchase on heaven. [[Judgment Seat]] is where accounts get reviewed; [[Secret Devotion]] and [[Integrity Without an Audience]] are hidden lanes of faithful use nobody applauded.
 examples:
   - "I organized snacks for my kid's team and wanted credit all week - faithful steward means using what He gave, not burying it or performing for applause."
   - "One mission trip in my head as my whole eternal report card - the master reviews faithful use over years, including quiet Tuesdays nobody clapped for."
+shareable_lines:
+  - "After salvation is settled, stewardship is about faithful use of what God entrusted, not buying heaven with busy weeks."
+  - "Free Grace settled where I spend forever."
+  - "Stewardship settles what I do with what He entrusted after. The master returns to settle accounts - faithful use repaid, buried…"
 relationships:
   - type: contradicts
     wikilink: "[[Free Grace]]"

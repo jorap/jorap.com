@@ -10,6 +10,10 @@ key_concept: |
 examples:
   - "I tagged every note with twelve labels and used none on search - cut to five I'd actually pick."
   - "The team wiki had forty categories; new hires filed everything under Misc within a week."
+shareable_lines:
+  - "If tagging a note takes longer than writing it, my system is fighting me."
+  - "Tags, categories, dates, aliases - metadata should help me find notes, not become a second job."
+  - "Tags and aliases help you find notes inside PARA buckets without taxonomy hell (PARA Method)."
 relationships:
   - type: contradicts
     wikilink: "[[Building a Personal API]]"

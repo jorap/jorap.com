@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "The backup alarm texts if the freezer warms - I don't discover thawed meat at breakfast."
   - "Same opener on the gate every morning - neighbors trust it without calling to check."
+shareable_lines:
+  - "Reliability is closing loops on time often enough that people stop asking twice."
+  - "Others can plan around you because you close loops, hit deadlines, and show up the same way twice."
+  - "Reliability is doing what you said, when you said, often enough that others can plan around you."
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Viable Product]]"

@@ -6,6 +6,10 @@ key_concept: "Creative blocks aren't solved by more capture - one small ship act
 examples:
   - "My kid stared at a blank training log for twenty minutes - I told her to write one messy line about today's warmup and the block lifted once something existed on the paper."
   - "The new hire couldn't start the report - I said write one ugly paragraph about yesterday's customer call and the rest followed."
+shareable_lines:
+  - "Thousands of notes and I still stare at a blank page - one small ship action usually unsticks me."
+  - "Creative blocks aren't solved by more capture - one small ship action usually unsticks me."
+  - "My kid stared at a blank training log for twenty minutes"
 relationships:
   - type: contradicts
     wikilink: "[[Capture]]"

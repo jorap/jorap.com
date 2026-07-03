@@ -233,7 +233,7 @@ Most extension cords look the same on the shelf. They're not. The wrong gauge on
 
 | Front | Back |
 |-------|------|
-| `I open the playbook notes a second time and bold three plays…` | `Progressive Layers` |
+| `I open the playbook notes a second time and bold three plays…` | `Layered Reading` |
 
 ### ✅ Apply card back
 

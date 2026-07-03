@@ -10,6 +10,10 @@ key_concept: |
   Three outcomes: **retention** (remember after weeks), **application** (use in work, decisions, projects, conversations), **explanation** (say it clearly without the garden). Success is acting correctly in real life when the front shows up - not passing the quiz in the browser.
   
   Filter by `card_sets` to drill one lane at a time.
+shareable_lines:
+  - "Active recall in the browser - show the prompt, try the answer, rate myself. Success is recall and use when it matters, not…"
+  - "**The question:** Can I recall and use this knowledge when it matters? Not how many cards you reviewed, how long your streak is…"
+  - "Three outcomes: **retention** (remember after weeks), **application** (use in work, decisions, projects, conversations)…"
 slug: "review"
 date: "2026-06-18 08:00:00+00:00"
 image: "/images/note.jpg"

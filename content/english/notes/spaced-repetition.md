@@ -9,19 +9,17 @@ key_concept: |
 examples:
   - "I do the same with note cards on capture and gospel lines - review on a schedule before I forget, not one marathon session."
   - "My kid's spelling list lives on the fridge; we hit five words while rice cooks - same little doses beat cramming the night before the quiz."
+shareable_lines:
+  - "I review on a schedule so ideas stick - retention, application, and explanation, not fact pile-up."
+  - "Review on a schedule before I forget - for **retention**, **application**, and **explanation**, not vanity metrics or fact…"
+  - "The wiki holds understanding; cards and SRS hold drill - separate lanes, algorithm handles timing. In this garden, spine notes…"
 relationships:
   - type: alternative
     wikilink: "[[The Feynman Technique]]"
     reason: "Card drill vs explain-out-loud when scheduling beats narration"
-  - type: contradicts
-    wikilink: "[[Progressive Layers]]"
-    reason: "when drill schedules beat bold layers for recall"
   - type: extends
     wikilink: "[[Evergreen Notes]]"
     reason: "Evergreen understanding lives in the wiki; spaced repetition drills the facts you need cold"
-  - type: extends
-    wikilink: "[[Forgetting Curve]]"
-    reason: "Ebbinghaus decay curve spaced repetition fights"
 slug: "spaced-repetition"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"

@@ -8,6 +8,10 @@ key_concept: |
 examples:
   - "I helped a neighbor move and waited for credit in the group chat - greatness is serving, not being served."
   - "I organized snacks for my kid's basketball team on Sunday and came home expecting my family to serve me back - wash feet here too, not only where people can see you."
+shareable_lines:
+  - "Jesus taught greatness through service - the Son of Man came to serve, not be served."
+  - "He washed feet the night before the cross. (Matthew 23:12, Mark 10:43-45)."
+  - "Status in the kingdom runs opposite to the world's ladder: exalt yourself and you'll be humbled; humble yourself and you'll be…"
 relationships:
   - type: contradicts
     wikilink: "[[Let Your Light Shine]]"

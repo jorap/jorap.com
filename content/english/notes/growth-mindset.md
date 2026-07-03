@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "I missed three free throws in a row at clinic. Growth mindset was ten minutes on form, not deciding I'd never shoot reliably in a game."
   - "The new barista burned three lattes on the steam wand - skill isn't fixed. The trainer had her repeat one motion, not relabel her as \"not a coffee person.\""
+shareable_lines:
+  - "Growth mindset treats ability as trainable - mistakes are data, not proof of a fixed label."
+  - "\"I'm bad at this\" is a verdict. \"I missed three\" is data."
+  - "The stake is identity on the line - one rough outing becomes a label instead of a rep list. Failure as Feedback only works when I…"
 relationships:
   - type: contradicts
     wikilink: "[[By Their Fruits]]"

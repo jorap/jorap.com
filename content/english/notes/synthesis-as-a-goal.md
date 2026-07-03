@@ -9,10 +9,11 @@ key_concept: |
 examples:
   - "Three coaches' clips on our press sat in my folder until I merged them into one drill we actually ran Tuesday."
   - "Five parenting articles became one rule on the fridge - merged into what we believe about screens, not a quote collection."
+shareable_lines:
+  - "I merge sources into what I believe and can defend - a quote pile isn't the goal."
+  - "Collecting quotes isn't PKM for me."
+  - "Synthesis is when learning starts - often with First Principles Thinking when a note is still someone else's words. The wiki…"
 relationships:
-  - type: contradicts
-    wikilink: "[[Progressive Layers]]"
-    reason: "when merged belief beats layered highlights on borrowed words"
   - type: extends
     wikilink: "[[Creative Output]]"
     reason: "Collecting quotes isn't enough - merge sources into beliefs you can defend and ship"

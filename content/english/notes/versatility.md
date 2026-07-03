@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "The rush hit and I jumped on dishes while the line cook called tickets - versatile without pretending I suddenly ran the grill."
   - "Sick day meant I became lunch packer, tutor, and IT help - versatility is more than one lane when the day shifts."
+shareable_lines:
+  - "I can plug into more than one lane when the team or the client needs a shift."
+  - "You can contribute in more than one lane when the team or the market shifts."
+  - "Versatility is staying useful across roles, tools, and contexts - not locked to one lane."
 relationships:
   - type: contradicts
     wikilink: "[[Pareto Principle]]"

@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "My daughter asked for water at practice without calculating whether she'd earned it - I caught myself running a merit scoreboard with God before I'd even say good morning."
   - "I delay prayer until my week looks respectable - childlike faith means I come like a kid who already belongs, not a contractor negotiating terms."
+shareable_lines:
+  - "I stop negotiating merit and receive the kingdom the way a child receives care."
+  - "Children don't enter the kingdom by achievement; they receive care they didn't earn."
+  - "Jesus wasn't praising ignorance - he was naming the posture Free Grace and Assurance require: stop calculating worthiness and…"
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

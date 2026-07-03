@@ -6,6 +6,10 @@ key_concept: Sustainable performance is output you can keep without burning out 
 examples:
   - "I can't sprint bedtime-and-homework heroics five nights a row - sustainable performance is an earlier lights-out one night so Thursday doesn't blow up."
   - "The kitchen ran Friday pace five nights straight and quality slid by Wednesday - sustainable performance would've cut a night off instead of mortgaging next week's tickets."
+shareable_lines:
+  - "I aim for a pace I can hold next month without burning out or cutting safety corners."
+  - "Sustainable performance is output you can keep without burning out or cutting corners on safety."
+  - "I can't sprint bedtime-and-homework heroics five nights a row"
 relationships:
   - type: contradicts
     wikilink: "[[The 12 Week Year]]"

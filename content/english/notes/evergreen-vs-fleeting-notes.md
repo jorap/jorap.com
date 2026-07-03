@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "A hot take about today's game goes on the fridge whiteboard; a lesson I'd tell my kid next year gets copied into the recipe box."
   - "The shift manager's scribble about today's rush stays on the clipboard; the safety rule we'd cite in training next year lives in the binder."
+shareable_lines:
+  - "Sparks belong in fleeting notes; claims I trust belong in evergreen, with a clear path between them."
+  - "Two speeds, one promotion rule."
+  - "Fleeting notes catch sparks I'd lose by Friday; evergreen notes hold claims I'd cite next year. The stake is rot - sparks that…"
 relationships:
   - type: contradicts
     wikilink: "[[Evergreen Notes]]"

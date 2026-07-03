@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "I knew the verse on anger and still lost it at dinner - sanctification is slow; my standing was settled at faith, and I'm still being changed."
   - "I treated my quiet-time streak like proof God accepts me - faith saves; sanctification grows me after, it doesn't re-open the verdict."
+shareable_lines:
+  - "After God declares me righteous, he keeps shaping my habits and heart - growth, not the ticket in."
+  - "Free Grace settles where I spend forever."
+  - "Sanctification settles who I'm becoming on the way. Grateful Obedience names the posture: grow from thanks, not to earn…"
 relationships:
   - type: alternative
     wikilink: "[[There Is No Perfect Solution]]"
@@ -68,9 +72,9 @@ cards:
     back: "Faith saves - sanctification grows after."
   - front: "Fruitless week and panic that I'm fake. What two things are both true?"
     back: "Standing settled - keep abiding, keep obeying."
-  - front: "Trying to white-knuckle holiness without prayer or Scripture. What's missing?"
+  - front: "Trying to force holiness by will alone without prayer or Scripture. What's missing?"
     back: "Abide first - fruit from connection."
-  - front: "One altar-call high, same temper by Friday. What kind of change is this?"
+  - front: "One emotional Sunday high, same temper by Friday. What kind of change is this?"
     back: "Daily sanctification - not one sprint."
 draft: false
 ---

@@ -10,6 +10,10 @@ key_concept: |
 examples:
   - "One mission trip in my head as my whole eternal report card - faithfulness fruit is steady use over years, including Tuesdays nobody clapped for."
   - "I organized snacks for my kid's team and wanted credit all week - the master reviews faithful use, not buried gifts or performance."
+shareable_lines:
+  - "The Spirit grows steady follow-through with what God gave me, not one heroic sprint I mistake for earned salvation."
+  - "Steady use of what God entrusted - time, gifts, opportunities - not one heroic week mistaken for proof you earned heaven…"
+  - "Fruits of the Spirit names faithfulness beside gentleness - reliable follow-through because the Spirit sustains the walk, not…"
 relationships:
   - type: contradicts
     wikilink: "[[Free Grace]]"

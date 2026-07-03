@@ -10,6 +10,10 @@ key_concept: |
 examples:
   - "I'd figured out the clinic's parking trick after three visits - I told the next parent in line instead of hoarding the shortcut."
   - "I almost moved on after a week wrestling school forms - share what you learn was the sticky note on the fridge so my spouse didn't start from zero."
+shareable_lines:
+  - "I write the doc, do the pass-off, and answer the junior's question - hoarding know-how helps nobody."
+  - "Pass on what you figured out - write the doc, do the pass-off, answer the junior's question - don't hoard know-how like private…"
+  - "Client sites: the one-page Client Site Pass-Off doc (repo, branch, DNS, env vars) is Share What You Learn in practice - not…"
 relationships:
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"

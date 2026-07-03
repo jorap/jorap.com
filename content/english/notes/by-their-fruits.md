@@ -8,6 +8,10 @@ key_concept: |
 examples:
   - "The youth coach talks smooth on day one but his players look stressed and bitter by month three - fruit told me more than any clinic title ever could."
   - "A trending productivity guru's followers still drown in inbox chaos - grapes from grapevines, thorns from thistles, time and results tell."
+shareable_lines:
+  - "I check teachers by what their teaching produces, not by how polished the talk sounds."
+  - "Jesus pairs this with Judge Not: don't condemn souls, but do evaluate fruit. (Matthew 7:16-20)."
+  - "Wolves may wear sheep's clothing; time and results tell. Garden parallel: Signal vs Noise - what actually produces good over…"
 relationships:
   - type: alternative
     wikilink: "[[Fruits of the Spirit]]"

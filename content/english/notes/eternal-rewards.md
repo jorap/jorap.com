@@ -8,6 +8,10 @@ key_concept: |
 examples:
   - "I stayed late to help reset the gym alone and immediately wanted to mention it at the next practice - the Father already saw it, and He's the one who pays, not the team chat."
   - "I covered a coworker's shift without telling anyone and caught myself fishing for credit in the break room - gift first, repayment for faithfulness second, not a merit down payment on heaven."
+shareable_lines:
+  - "Jesus promised believers the Father will repay faithful obedience after salvation, not as the price of eternal life."
+  - "Free Grace settles where I spend forever: faith in Christ alone. (Matthew 6:4, 6:18; 16:27; 25:21)."
+  - "Eternal rewards settle what the Father pays the saved life for walking faithfully - including hidden devotion (Secret Devotion)…"
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

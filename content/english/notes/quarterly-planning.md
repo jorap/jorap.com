@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "First Sunday of the quarter we picked three outcomes - not twenty wishes that drowned the month."
   - "The clinic's ninety-day huddle moved one backlog project to done instead of adding a fourth starter."
+shareable_lines:
+  - "Set goals and review on a thirteen-week rhythm - short enough to feel real."
+  - "Zoom out every ninety days so weekly noise doesn't eat the year's aim."
+  - "Periodic Knowledge Review weekly and quarterly; this note is the ninety-day zoom."
 relationships:
   - type: contradicts
     wikilink: "[[Slow Productivity]]"

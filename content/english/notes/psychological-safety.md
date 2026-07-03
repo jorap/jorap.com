@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "My kid told me he broke the vase - I thanked him for saying it instead of making him dread confessing next time."
   - "I named the wrong turn to my carpool - nobody mocked it, so I speak up before the next missed exit."
+shareable_lines:
+  - "People can name mistakes and near-misses without fear of humiliation or retaliation."
+  - "Join their framing before you redirect the blame (Follow Their Lead)."
+  - "Tension with Break the Escalation Cycle when the opposite frame fits better."
 relationships:
   - type: contradicts
     wikilink: "[[Break the Escalation Cycle]]"

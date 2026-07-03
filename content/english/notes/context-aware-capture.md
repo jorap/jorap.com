@@ -6,6 +6,10 @@ key_concept: "Capture the why while I still remember it - project, mood, questio
 examples:
   - "Voice memo in the parking lot after the meeting - context was still in my head."
   - "Photo of the whiteboard before they erased it - capture matched where the idea lived."
+shareable_lines:
+  - "A saved link is a mystery six weeks later unless I jot the why while I still remember it."
+  - "Capture the why while I still remember it - project, mood, question - not just the link."
+  - "Voice memo in the parking lot after the meeting"
 relationships:
   - type: contradicts
     wikilink: "[[Metadata Strategy]]"
@@ -13,9 +17,6 @@ relationships:
   - type: extends
     wikilink: "[[Capture]]"
     reason: "Capture the why while it's obvious or the link is a mystery six weeks later"
-  - type: extends
-    wikilink: "[[Voice Memos]]"
-    reason: "Capture in context - phone mic is the obvious tool"
 slug: "context-aware-capture"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"

@@ -10,6 +10,10 @@ key_concept: |
 examples:
   - "I saved forty highlight reels and watched twelve - the queue was guilt storage, not training."
   - "Four hundred saved articles on my phone and I'd read twelve - parking lot, not reading."
+shareable_lines:
+  - "Save for later is fine until the queue turns into a guilt pile I'll never touch."
+  - "A parking lot for links you'll process later - dangerous if it becomes a graveyard."
+  - "Save-for-later is capture with a trap door - without a weekly drain it becomes guilt storage."
 relationships:
   - type: contradicts
     wikilink: "[[Active Knowledge Curation]]"

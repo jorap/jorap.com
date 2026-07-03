@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "Phone in the drawer while I help with math - one problem set actually finished instead of three distracted false starts."
   - "Phone in the gym bag for ninety minutes - one drill breakdown written that'd been \"almost done\" for weeks."
+shareable_lines:
+  - "I protect uninterrupted blocks for hard thinking and let capture catch what tries to interrupt."
+  - "Protected focus blocks; Capture handles the rest (Capture)."
+  - "Tension with Mobile Capture Workflows when the opposite frame fits better."
 relationships:
   - type: contradicts
     wikilink: "[[Mobile Capture Workflows]]"

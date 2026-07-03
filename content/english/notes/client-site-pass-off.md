@@ -13,6 +13,10 @@ key_concept: |
 examples:
   - "Neighbor chose Git lesson - twenty minutes on edit, commit, push; she broke build once, fixed typo same night."
   - "Pastor emails bulletin PDF every Friday - retainer batch, one push, no CMS layer needed."
+shareable_lines:
+  - "Before deposit, I name who publishes next and price the pass-off so launch isn't a guessing game."
+  - "Pick exactly one primary model with Plain Commitments at Work - not \"we'll figure it out at launch.\""
+  - "**Git lesson** - client gets repo access plus a short doc (Getting Started shape: edit markdown, commit, push). Fits owners who…"
 relationships:
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"

@@ -189,6 +189,12 @@ Sanctification settles who I'm becoming on the way. [[Grateful Obedience]] names
 
 Not: "Sanctification is the process whereby believers undergo moral transformation…"
 
+### `title` (notes)
+
+**4 words.** A 5th word is allowed only when `len(title) ≥ 30` (letters, spaces, punctuation), the line is a **fixed phrase or scripture quote**, and the 5-word title beats the best 4-word option you can write. Otherwise trim.
+
+Examples: `Golden Rule at Work` (4); `Integrity Without an Audience` (4); `Let Your Yes Be Yes` (5 — Matthew 5:37, phrase exempt); `There Is No Perfect Solution` (5 — stable slug, phrase exempt).
+
 ### `meta_title` (notes)
 
 `Topic - Plain subtitle` - e.g. `Sanctification - Becoming Holy After Faith`. Not dictionary labels alone.
@@ -201,6 +207,7 @@ Recipe content can be more instructional - ingredients, steps, timings - but sec
 
 ### Notes garden
 
+- [ ] `title` is 4 words (5 only at ≥30 chars, phrase exempt, beats best 4-word trim)
 - [ ] `description` reads in one breath — memorable definition, ≤20 words, no `[[wikilinks]]`
 - [ ] `key_concept` opens with a punch, not a dictionary definition
 - [ ] Two `examples` from different life surfaces (not two tweaks of one scene)

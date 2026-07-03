@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "Same gym bag, same water bottle, same pre-game stretch - after thirty days I stop debating warm-up; the shoes by the door beat the habit app I never opened."
   - "Same door, same notebook, same pocket - after thirty days I stop debating capture; the pad by the keys beat the fancy app I never opened."
+shareable_lines:
+  - "I repeat one small move until it runs on autopilot instead of re-debating it every morning."
+  - "Repeat a small move until it runs without debating it every morning."
+  - "Habit formation is practicing a move until it runs without a daily decision."
 relationships:
   - type: contradicts
     wikilink: "[[First Principles Thinking]]"

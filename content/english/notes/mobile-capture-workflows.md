@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "Halftime idea on the bench - I voice-memo'd it before the third quarter wiped it."
   - "Jeepney stop, blog idea hits - one tap to notes before the next ride shakes it out of my head."
+shareable_lines:
+  - "Mobile capture is one tap to save the spark before I scroll away - share sheet to inbox."
+  - "Twelve taps kills the spark."
+  - "On mobile, friction is the enemy - most ideas die between the notification and the app switch. I shrunk capture to share sheet →…"
 relationships:
   - type: contradicts
     wikilink: "[[Analog Capture Tools]]"
@@ -16,9 +20,6 @@ relationships:
   - type: extends
     wikilink: "[[Capture]]"
     reason: "Capture dies on mobile when it takes twelve taps - shrink it to share sheet → inbox"
-  - type: extends
-    wikilink: "[[Share Sheet]]"
-    reason: "OS capture surface most phone workflows use"
 slug: "mobile-capture-workflows"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"

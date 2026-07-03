@@ -10,6 +10,10 @@ key_concept: |
 examples:
   - "I turned off push alerts before trying a new focus app - the pipe was the leak."
   - "My kid's group chat pinged through homework; airplane mode for forty minutes beat another planner."
+shareable_lines:
+  - "I treat my feed like a slot machine someone else owns - if I'm not paying, I'm the product."
+  - "Platforms compete for your focus - your attention is the product."
+  - "Your focus is the product - guard the pipe before optimizing the inbox."
 relationships:
   - type: contradicts
     wikilink: "[[Digital Serendipity]]"

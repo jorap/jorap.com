@@ -10,6 +10,10 @@ key_concept: |
 examples:
   - "The playbook diagram showed one motion offense linking twelve other sets - that was the doorway I'd simplify first."
   - "The chore chart showed one kid linking every task - that's the bottleneck we fixed first."
+shareable_lines:
+  - "I look at which notes connect everything else - those hubs tell me where the garden actually lives."
+  - "Study links and hubs in a graph - who connects whom, what's isolated."
+  - "Bridges and orphans matter more than node count - the graph shows who carries traffic and what's stranded."
 relationships:
   - type: contradicts
     wikilink: "[[Maps of Content]]"

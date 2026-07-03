@@ -1,6 +1,6 @@
 ---
-title: "Integrity When No One's Watching"
-meta_title: "Integrity When No One's Watching - Do the Honest Work"
+title: "Integrity Without an Audience"
+meta_title: "Integrity Without an Audience - Do the Honest Work"
 description: "Do the honest work when there's no audience - accurate time logs, real tests, the fix nobody asked for yet."
 key_concept: |
   Performance for the standup is its own reward and a small one.
@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "The market scale stays honest when the seller steps away to take a call - I could've scooped light on the last bag of rice; instead I re-weighed it before the customer came back."
   - "I ran the real spelling check on the homework when my kid wasn't looking over my shoulder."
+shareable_lines:
+  - "Do the honest work when there's no audience - accurate time logs, real tests, the fix nobody asked for yet."
+  - "Performance for the standup is its own reward and a small one."
+  - "Some good work should stay hidden; some should shine in Let Your Light Shine. This note is the hidden lane: quality when the…"
 relationships:
   - type: alternative
     wikilink: "[[Let Your Light Shine]]"
@@ -22,13 +26,13 @@ relationships:
   - type: extends
     wikilink: "[[Secret Devotion]]"
     reason: "Devotion for God's eyes alone - here, honest craft without an audience"
-slug: "integrity-when-no-ones-watching"
+slug: "integrity-without-an-audience"
 date: "2026-06-21 14:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Leadership"]
 author: "JoRap"
 tags: ["Workplace", "Ethics", "Eternal Principles", "Integrity", "Character"]
-aliases: ["hidden integrity", "honest work offstage", "integrity when no ones watching"]
+aliases: ["Integrity When No One's Watching", "hidden integrity", "honest work offstage", "integrity when no ones watching", "/notes/integrity-when-no-ones-watching/"]
 featured: false
 review: true
 card_sets: ["Ethics", "Focus"]

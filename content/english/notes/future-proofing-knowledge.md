@@ -9,6 +9,10 @@ key_concept: |
 examples:
   - "Our family contacts list is plain text on the fridge backup folder - I copy it twice a year so future-proof isn't just a vibe."
   - "My notes live as plain text I can open anywhere; I test the backup drive before I need it, not after an app dies."
+shareable_lines:
+  - "I future-proof notes with plain text, open tools, and exports I test before a vendor locks me in."
+  - "Future-proofing isn't predicting tech for me - it's plain text, open tools, and exports I test before I need them."
+  - "Free Tier Hosting Stack client repos are markdown in git - portable if Cloudflare or I disappear; the content survives, hosting…"
 relationships:
   - type: contradicts
     wikilink: "[[Building a Personal API]]"

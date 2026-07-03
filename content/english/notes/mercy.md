@@ -8,6 +8,10 @@ key_concept: |
 examples:
   - "I prayed about forgiving others on autopilot and skipped that line because I'm still mad at my brother from last Sunday - you can't ask for mercy with one breath and hold a grudge with the next."
   - "A coworker apologized again for the same mistake - mercy forgives from the heart; boundaries stay where trust still rebuilds."
+shareable_lines:
+  - "Mercy withholds the punishment I deserve and calls me to show the same compassion to others."
+  - "Grace gives good I couldn't earn; mercy spares bad I had coming. (Matthew 5:7, 18:21-35; Luke 10:37; Ephesians 2:4)."
+  - "Ephesians 2:4-5 keeps them in one breath: rich in mercy, saved by grace. Free Grace is how that pair lands on eternal life - gift…"
 relationships:
   - type: contradicts
     wikilink: "[[Sunk Cost Fallacy]]"
