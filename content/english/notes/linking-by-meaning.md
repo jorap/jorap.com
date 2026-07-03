@@ -8,6 +8,8 @@ key_concept: |
   One link to what extends the thought, one to what pushes back.
   
   Two typed links are enough for the garden to stay walkable six months later when the folder path is gone.
+  
+  I link notes so ideas meet in the graph without me memorizing every folder path.
 examples:
   - "I linked \"jeepney delay\" to \"leave earlier\" in my daily note and found it six weeks later when the same route broke again - proximity beats perfect filing."
   - "The playbook card links \"late press\" to \"[[Slow the Moment]]\" - I find the counter without memorizing every filename in the binder."

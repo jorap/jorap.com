@@ -213,6 +213,7 @@ Utility surfaces (`note_kind: meta` or dedicated layouts) must **not** be wikili
 | `description` | Yes (atomic) | One breath, ≤20 words, no wikilinks |
 | `key_concept` | Yes (atomic) | Angle + stakes; wikilinks allowed |
 | `examples` | Recommended | Exactly two plain bullets; mid-action scenes |
+| `shareable_thought` | Yes (except `_index.md`) | Exactly four standalone lines; each must map to the note principle and stay distinct |
 | `relationships` | Yes (atomic) | Typed rows; each target once; sorted a-z |
 | `aliases` | Optional | Alternate wikilink targets |
 | `note_kind` | Optional | `note` (default), `index`, `meta` |

@@ -6,6 +6,8 @@ key_concept: |
   Waiting for the ideal option is itself a choice - usually the choice to stay stuck with the status quo.
   
   Every real choice has tradeoffs - stop comparing real options to an imaginary perfect one.
+  
+  There's no perfect solution - pick what works tired and ship instead of waiting for the ideal.
 examples:
   - "I spent a week comparing strollers instead of walking with the baby we already had - picked the lighter one, went out tired that afternoon."
   - "I stopped comparing note apps and shipped with the one that works on my phone tired - no perfect tool, only what I actually use."

@@ -5,6 +5,10 @@ description: "I treat people how I'd want to be treated - active care, not just 
 key_concept: |
   It's positive and active: *do* unto others, not merely avoid doing harm. (Matthew 7:12).
   The check is experiential - how would I want to be spoken to, helped, forgiven, included? That sets the floor for every interaction. [[Free Grace]] keeps it from becoming a merit system: I treat others well because Christ treated me well first.
+  
+  I treat people how I'd want to be treated.
+  
+  Active care, not just avoiding harm.
 examples:
   - "My thumb was on the post button with a critique that was probably true and definitely cruel - pause: how would I want someone to say that to me?"
   - "Before I barked at the ref in front of the kids, I asked how I'd want a coach to talk to me after a bad call - the Golden Rule changed the volume."

@@ -134,6 +134,15 @@ collections:
           field: {label: "Example", widget: "text"},
           hint: "Exactly two mid-action scenes from different fields.",
         }
+      - {
+          label: "Shareable thoughts",
+          name: "shareable_thought",
+          widget: "list",
+          allow_add: true,
+          required: false,
+          field: {label: "Thought", widget: "text"},
+          hint: "Exactly four standalone lines; each one should be a distinct perspective from key concept.",
+        }
       - label: "Relationships"
         name: "relationships"
         widget: "list"

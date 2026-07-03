@@ -8,6 +8,10 @@ key_concept: |
   Real competence means staying useful outside ideal setups, familiar roles, and comfortable routines - new tools, new teams, crisis mode, career pivots.
   
   Nobody warns you the room changed; you just start losing at things that used to work.
+  
+  The habit that worked in my last role can flop in the next room.
+  
+  I retune instead of clinging.
 examples:
   - "I walked the new counter before the lunch rush instead of defending last month's habits when the line got long."
   - "Our guard dominates on the outdoor court and looks lost on the slick indoor floor for a week - staying effective means adjusting footwork, not defending yesterday's surface."

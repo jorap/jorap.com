@@ -8,6 +8,8 @@ key_concept: |
   The waitlist number matters less than whether those people would actually pay today.
   
   Measure what happened, then fix the template - not the pitch deck.
+  
+  I'd rather ship a rough test and learn than polish a product nobody wanted.
 examples:
   - "Ten parents signed a waitlist before we booked the full tournament venue - smallest test, measure interest, learn before scaling."
   - "Ten customers on a lunch special before we rewrote the whole menu - build the smallest test, don't scale before validation."

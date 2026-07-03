@@ -7,6 +7,10 @@ key_concept: |
   
   Guard the pipe before optimizing the inbox - a tidy inbox for content you shouldn't be consuming is still a loss.
   [[Signal vs Noise]] names what to cut; [[Information Diet]] is the weekly menu habit.
+  
+  I treat my feed like a slot machine someone else owns.
+  
+  If I'm not paying, I'm the product.
 examples:
   - "I turned off push alerts before trying a new focus app - the pipe was the leak."
   - "My kid's group chat pinged through homework; airplane mode for forty minutes beat another planner."

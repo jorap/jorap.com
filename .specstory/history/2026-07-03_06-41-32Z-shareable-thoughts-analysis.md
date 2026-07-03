@@ -10,18 +10,18 @@ I want a thorough analysis of all shareable thoughts of the notes. the thoughts 
 
 ---
 
-_**Agent (auto-high)**_
+_**Agent (auto-medium)**_
 
 <think><details><summary>Thought Process</summary>
 **Considering task approach**
 
 The task seems broad, so I’m thinking about using subagents to tackle it. One could focus on exploring the notes structure and fields, while another might analyze the documents or the content for voice review. It seems like a good idea to organize things this way to manage the workflow better. I think I'll start with a commentary update to lay the groundwork for this approach.</details></think>
 
-_**Agent (auto-high)**_
+_**Agent (auto-medium)**_
 
 I’m first checking how note metadata is structured and whether there’s already a review standard for `description`, `key_concept`, and shareable thoughts, so I can turn your request into a concrete repo-wide plan.
 
-_**Agent (auto-high)**_
+_**Agent (auto-medium)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2">
 <details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
@@ -34,7 +34,7 @@ _**Agent (auto-high)**_
 
 </details></tool-use>
 
-_**Agent (auto-high)**_
+_**Agent (auto-medium)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="task_v2">
 <details>
@@ -56,11 +56,19 @@ Additional data:
 
 ```json
 {
-  "status": "loading",
-  "subagentComposerId": "3a3865b9-b95f-44aa-a4ff-a7df1595508c"
+  "status": "success",
+  "subagentComposerId": "3a3865b9-b95f-44aa-a4ff-a7df1595508c",
+  "terminationReason": "completed"
 }
 ```
-Status: **loading**
+Result:
+
+```json
+{
+  "agentId": "3a3865b9-b95f-44aa-a4ff-a7df1595508c"
+}
+```
+Status: **completed**
 
 
 </details>
@@ -71,7 +79,7 @@ Status: **loading**
 
 </details></tool-use>
 
-_**Agent (auto-high)**_
+_**Agent (auto-medium)**_
 
 <tool-use data-tool-type="unknown" data-tool-name="task_v2">
 <details>
@@ -93,11 +101,19 @@ Additional data:
 
 ```json
 {
-  "status": "loading",
-  "subagentComposerId": "1780fa4b-c7b6-4ea1-9c78-09931c465fc8"
+  "status": "success",
+  "subagentComposerId": "1780fa4b-c7b6-4ea1-9c78-09931c465fc8",
+  "terminationReason": "completed"
 }
 ```
-Status: **loading**
+Result:
+
+```json
+{
+  "agentId": "1780fa4b-c7b6-4ea1-9c78-09931c465fc8"
+}
+```
+Status: **completed**
 
 
 </details>
@@ -108,7 +124,7 @@ Status: **loading**
 
 </details></tool-use>
 
-_**Agent (auto-high)**_
+_**Agent (auto-medium)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2">
 <details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/CONTENT_VOICE_REVIEW.md</summary>
@@ -118,5 +134,449 @@ _**Agent (auto-high)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-medium)**_
+
+<think><details><summary>Thought Process</summary>
+**Considering scope of questions**
+
+I need to clarify if I should ask critical questions about the scope, like whether it should cover all note files or just the atomic/published notes. I also wonder if I should ask about preserving the description unless it’s clearly weak. It seems important to use the AskQuestion tool to get this information. Figuring this out will help ensure I address the user's needs effectively!</details></think>
+
+_**Agent (auto-medium)**_
+
+I’ve confirmed the repo already treats `shareable_thought` as a strict 4-line field and that it’s downstream of `description` and `key_concept`. Before I lock the plan, I need one scope decision so I don’t plan the wrong batch.
+
+_**Agent (auto-medium)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ask_question">
+<details>
+<summary>Tool use: **ask_question**</summary>
+
+
+Parameters:
+
+```json
+{
+  "questions": [
+    {
+      "id": "notes-scope",
+      "options": [
+        {
+          "id": "published-atomic-only",
+          "label": "Published atomic notes only (Recommended)"
+        },
+        {
+          "id": "all-note-files",
+          "label": "All note files, including hub/meta/index notes"
+        },
+        {
+          "id": "only-currently-modified",
+          "label": "Only the note files already modified in this branch"
+        }
+      ],
+      "prompt": "Which notes should this shareable-thought analysis cover?"
+    },
+    {
+      "id": "description-policy",
+      "options": [
+        {
+          "id": "leave-description-alone",
+          "label": "Keep &#96;description&#96; mostly as-is; only expand &#96;key_concept&#96; (Recommended)"
+        },
+        {
+          "id": "allow-description-refresh",
+          "label": "Allow &#96;description&#96; to be rewritten too when needed for alignment"
+        }
+      ],
+      "prompt": "When a strong shareable thought adds a perspective not already stated cleanly, how should &#96;description&#96; be handled?"
+    }
+  ],
+  "title": "Confirm review scope"
+}
+```
+Additional data:
+
+```json
+{
+  "currentSelections": {
+    "description-policy": [
+      "leave-description-alone"
+    ],
+    "notes-scope": [
+      "all-note-files"
+    ]
+  },
+  "freeformTexts": {
+    "description-policy": "",
+    "notes-scope": ""
+  },
+  "status": "submitted"
+}
+```
+Result:
+
+```json
+{
+  "answers": [
+    {
+      "freeformText": "",
+      "questionId": "notes-scope",
+      "selectedOptionIds": [
+        "all-note-files"
+      ]
+    },
+    {
+      "freeformText": "",
+      "questionId": "description-policy",
+      "selectedOptionIds": [
+        "leave-description-alone"
+      ]
+    }
+  ]
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ask_question"><details>
+<summary>Tool use: **ask_question**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-medium)**_
+
+<think><details><summary>Thought Process</summary>
+**Creating a plan**
+
+I need to create a plan now. I might inspect the documents or the specification (docs/SPEC) or look at archetypes, but maybe I won't need that. I want to cite specific files in my plan, so I'm considering reading the relevant sections in docs/SPEC or checking out scripts/notes_content. I need to gather enough information for the plan, so I'll read a sample note and script to get started.</details></think>
+
+_**Agent (auto-medium)**_
+
+The scope is clear now: all note files, including hub/meta/index notes, and `description` stays mostly stable while `key_concept` absorbs any valid extra thought. I’m pulling just the key implementation touchpoints so the plan cites the right files and checks.
+
+_**Agent (auto-medium)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-medium)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-medium)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-medium)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-medium)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/adaptability.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-medium)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/docs/SPEC.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-medium)**_
+
+<think><details><summary>Thought Process</summary>
+**Planning content structure**
+
+I’m figuring out how to set a rubric so that the shareable thought goes beyond just description, while still being tied to an updated key concept. I think I need to first expand on the key concept before adding any novel thoughts to meet the user's requirements. I'll keep the CreatePlan content concise, and I’ll use full file paths for links. I just have to ensure everything is actionable. Let's start crafting the plan!</details></think>
+
+_**Agent (auto-medium)**_
+
+I have enough context now. I’m turning this into a repo-wide plan centered on two truths in the current setup: `shareable_thought` must stay self-contained and exactly 4 items, and any “new” thought has to be promoted into `key_concept` first so lint and intent both agree.
+
+_**Agent (auto-medium)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="create_plan">
+<details>
+<summary>Tool use: **create_plan**</summary>
+
+
+Parameters:
+
+```json
+{
+  "name": "Shareable thoughts audit",
+  "overview": "Audit all note files so each note has four distinct, self-contained shareable thoughts, while keeping &#96;description&#96; mostly stable and expanding &#96;key_concept&#96; whenever a valid thought introduces a perspective not yet stated there.",
+  "plan": "# Audit All Note Shareable Thoughts\n\n## Goal\nBring every note file under [/home/jorap/Documents/GitHub/jorap.com/content/english/notes/](file:///home/jorap/Documents/GitHub/jorap.com/content/english/notes/) into the stricter standard you described:\n\n- every note has exactly 4 &#96;shareable_thought&#96; lines\n- each line presents a distinct perspective on the note's main principle\n- a thought may go beyond &#96;description&#96;\n- if a thought is not already represented in &#96;key_concept&#96;, add that perspective to &#96;key_concept&#96; first\n- keep &#96;description&#96; mostly stable unless it is clearly blocking alignment\n\n## What The Repo Already Enforces\nThe current content model already treats &#96;shareable_thought&#96; as a downstream field after &#96;description&#96; and &#96;key_concept&#96;.\n\nKey files:\n- [/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py](file:///home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py) enforces exactly 4 shareable lines, no wikilinks, self-contained phrasing, and overlap checks.\n- [/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py](file:///home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py) defines frontmatter order and the logic that a shareable line must come from the note's principle pool.\n- [/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md](file:///home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md) says &#96;shareable_thought&#96; should be four self-contained ideas from &#96;description&#96; + &#96;key_concept&#96;.\n\nThat means your rule is best implemented as:\n1. analyze whether the note has 4 truly different principle angles\n2. expand &#96;key_concept&#96; when one of those angles is missing\n3. rewrite &#96;shareable_thought&#96; from the updated &#96;key_concept&#96;\n\n## Review Rubric Per Note\nFor each note, review &#96;description&#96;, &#96;key_concept&#96;, and &#96;shareable_thought&#96; together, not separately.\n\nUse this rubric for the 4 thoughts:\n- Thought 1: the core claim or plain-definition line\n- Thought 2: the operating rule or practical move\n- Thought 3: the boundary, contrast, or failure mode that sharpens the principle\n- Thought 4: the test, consequence, or deeper stake that shows why the principle matters\n\nRules:\n- the 4 lines must not be paraphrase-clones of each other\n- they can differ from &#96;description&#96;, but they cannot be invented out of nowhere\n- if a line introduces a real angle not present in &#96;key_concept&#96;, add that angle into &#96;key_concept&#96; first\n- &#96;description&#96; remains a one-breath definition, not a container for all 4 angles\n\n## Execution Order\n### 1. Baseline and fail list\nRun the existing garden checks first so the work starts from the real corpus state:\n- &#96;pnpm lint:garden&#96;\n- &#96;pnpm lint:voice&#96;\n\nThis will expose notes that already fail structure, overlap, fragment, or voice constraints.\n\n### 2. Audit all note files in batches\nWork through all files in [/home/jorap/Documents/GitHub/jorap.com/content/english/notes/](file:///home/jorap/Documents/GitHub/jorap.com/content/english/notes/) including atomic notes plus hub/meta/index notes.\n\nBatch in this order:\n- atomic notes by category first, because they carry the clearest principle structure\n- hub/index/meta notes after, because they may need lighter but still consistent &#96;shareable_thought&#96; treatment\n\nWithin each batch:\n- inspect the current &#96;description&#96;\n- inspect whether &#96;key_concept&#96; already contains 4 distinct principle angles\n- if not, revise &#96;key_concept&#96; so it can legitimately support 4 unique shareable lines\n- then rewrite &#96;shareable_thought&#96;\n\n### 3. Preserve the right hierarchy\nKeep these field roles intact:\n- &#96;description&#96;: short and memorable\n- &#96;key_concept&#96;: the fuller principle map\n- &#96;shareable_thought&#96;: four paste-ready stand-alone lines derived from that fuller map\n\nDo not solve thin shareable thoughts by bloating &#96;description&#96;. Solve them in &#96;key_concept&#96;.\n\n### 4. Validate after each batch\nAfter each content batch:\n- rerun &#96;pnpm lint:garden&#96;\n- rerun &#96;pnpm lint:voice&#96;\n- spot-read a few notes where &#96;shareable_thought&#96; changed most heavily to catch lint-passing repetition that still feels too similar\n\n### 5. Update scaffolding so the rule sticks\nOnce content is fixed, update the authoring surfaces so future notes don't drift:\n- [/home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md](file:///home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md): add &#96;shareable_thought&#96; guidance to the note template\n- [/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml](file:///home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml): expose &#96;shareable_thought&#96; in the CMS note form\n- [/home/jorap/Documents/GitHub/jorap.com/docs/SPEC.md](file:///home/jorap/Documents/GitHub/jorap.com/docs/SPEC.md): document &#96;shareable_thought&#96; explicitly in the notes spec\n\n## Key Files To Touch\n- [/home/jorap/Documents/GitHub/jorap.com/content/english/notes/](file:///home/jorap/Documents/GitHub/jorap.com/content/english/notes/)\n- [/home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md](file:///home/jorap/Documents/GitHub/jorap.com/archetypes/notes.md)\n- [/home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml](file:///home/jorap/Documents/GitHub/jorap.com/static/admin/config.yml)\n- [/home/jorap/Documents/GitHub/jorap.com/docs/SPEC.md](file:///home/jorap/Documents/GitHub/jorap.com/docs/SPEC.md)\n\n## Success Criteria\nThe work is done when:\n- every note file has 4 distinct &#96;shareable_thought&#96; lines\n- no shareable line feels like a duplicate paraphrase of another line in the same note\n- any extra perspective introduced by a shareable line is already present in &#96;key_concept&#96;\n- &#96;description&#96; stays concise and mostly stable\n- &#96;pnpm lint:garden&#96; and &#96;pnpm lint:voice&#96; pass cleanly",
+  "todos": [
+    {
+      "content": "Run garden and voice lint to establish the actual shareable-thought failure set.",
+      "id": "baseline-lint",
+      "status": "pending"
+    },
+    {
+      "content": "Audit all note files in batches, expanding thin key concepts before rewriting shareable thoughts.",
+      "id": "batch-audit-notes",
+      "status": "pending"
+    },
+    {
+      "content": "Re-run lint and spot-read edited notes after each batch to catch duplicate or weak thought angles.",
+      "id": "validate-batches",
+      "status": "pending"
+    },
+    {
+      "content": "Update the note archetype, CMS config, and spec so future notes preserve the 4-thought rule.",
+      "id": "update-scaffolding",
+      "status": "pending"
+    }
+  ]
+}
+```
+Additional data:
+
+```json
+{
+  "hasOpenedEditor": true,
+  "planId": "shareable_thoughts_audit_b7ff570b",
+  "planUri": "file:///home/jorap/.cursor/plans/shareable_thoughts_audit_b7ff570b.plan.md",
+  "reviewData": {
+    "isShowingInput": false,
+    "selectedOption": "none",
+    "status": "Requested"
+  }
+}
+```
+Result:
+
+```json
+{
+  "rejected": {}
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="create_plan"><details>
+<summary>Tool use: **create_plan**</summary>
+
+</details></tool-use>
+
+---
+
+_**User**_
+
+Implement the plan as specified, it is attached for your reference. Do NOT edit the plan file itself.
+
+To-do's from the plan have already been created. Do not create them again. Mark them as in_progress as you work, starting with the first one. Don't stop until you have completed all the to-dos.
+
+---
+
+_**Agent (auto-medium)**_
+
+I’m starting implementation now with the first to-do: baseline lint and failure mapping. I’ll run the garden/voice checks first, then move through any remaining note edits batch by batch until everything is clean.
+
+_**Agent (auto-medium)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write">
+<details>
+<summary>Tool use: **todo_write**</summary>
+
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Run garden and voice lint to establish the actual shareable-thought failure set.",
+      "id": "baseline-lint",
+      "status": "in_progress"
+    },
+    {
+      "content": "Audit all note files in batches, expanding thin key concepts before rewriting shareable thoughts.",
+      "id": "batch-audit-notes",
+      "status": "pending"
+    },
+    {
+      "content": "Re-run lint and spot-read edited notes after each batch to catch duplicate or weak thought angles.",
+      "id": "validate-batches",
+      "status": "pending"
+    },
+    {
+      "content": "Update the note archetype, CMS config, and spec so future notes preserve the 4-thought rule.",
+      "id": "update-scaffolding",
+      "status": "pending"
+    }
+  ],
+  "initialTodos": [
+    {
+      "content": "Run garden and voice lint to establish the actual shareable-thought failure set.",
+      "id": "baseline-lint",
+      "status": "pending"
+    },
+    {
+      "content": "Audit all note files in batches, expanding thin key concepts before rewriting shareable thoughts.",
+      "id": "batch-audit-notes",
+      "status": "pending"
+    },
+    {
+      "content": "Re-run lint and spot-read edited notes after each batch to catch duplicate or weak thought angles.",
+      "id": "validate-batches",
+      "status": "pending"
+    },
+    {
+      "content": "Update the note archetype, CMS config, and spec so future notes preserve the 4-thought rule.",
+      "id": "update-scaffolding",
+      "status": "pending"
+    }
+  ],
+  "success": true,
+  "wasMerge": true
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-medium)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: pnpm lint:garden && pnpm lint:voice</summary>
+
+```bash
+pnpm lint:garden && pnpm lint:voice
+```
+
+```
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/pnpm/11.7.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.163.3/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.146.5/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.150.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.155.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.157.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.158.0/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.163.2/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+mise WARN  failed to write cache file: /home/jorap/.cache/mise/hugo-extended/0.163.3/bin_paths-7ea32.msgpack.z Permission denied (os error 13)
+Command 'pnpm' not found, did you mean:
+  command 'npm' from deb npm (9.2.0~ds1-2)
+Try: apt install &lt;deb name&gt;
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-medium)**_
+
+Quick blocker: `pnpm` isn’t available in this shell environment, so I’m switching to `npm run` equivalents to complete the same lint baseline and continue the audit.
+
+_**Agent (auto-medium)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: npm run lint:garden && npm run lint:voice</summary>
+
+```bash
+npm run lint:garden && npm run lint:voice
+```
+
+```
+
+&gt; jorap-com@2.2.0 lint:garden
+&gt; python3 scripts/lint-notes-frontmatter.py &amp;&amp; python3 scripts/normalize-notes-format.py --verify &amp;&amp; python3 scripts/lint-flashcard-frontmatter.py &amp;&amp; python3 scripts/audit-flashcard-north-star.py &amp;&amp; python3 scripts/lint-utility-wikilinks.py
+
+Note frontmatter lint OK
+Flashcard frontmatter OK
+Flashcard north-star audit OK
+Utility wikilinks OK
+
+&gt; jorap-com@2.2.0 lint:voice
+&gt; python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check
+
+Voice dash lint OK
+Voice lint OK
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
 
 </details></tool-use>

@@ -8,6 +8,10 @@ key_concept: |
   Admiring an article without a behavior change is entertainment, not signal.
   
   The filter is simple: would I act or cite this within thirty days?
+  
+  I save only what changes what I do or believe this month - most feeds are noise.
+  
+  Most feeds are noise until proven otherwise.
 examples:
   - "The trade-rumor thread was loud all week - signal was the one injury note that actually changed our lineup; the rest I admired and skipped."
   - "The dentist waiting room had a stack of magazines - if it won't change what I do this month, headline only, no mental slot."

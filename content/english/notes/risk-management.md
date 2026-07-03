@@ -8,6 +8,10 @@ key_concept: |
   [[Staged Rollout]] limits exposure before you bet the whole lane.
   
   Likelihood times severity sets how strong the control needs to be.
+  
+  Name what can go wrong, how likely, how bad - then choose controls in order of strength.
+  
+  Staged Rollout limits exposure before you bet the whole lane.
 examples:
   - "We moved the space heater off the rug before lecturing the kids again about not touching it."
   - "We moved the hot oil station away from the walk lane before buying more warning signs."

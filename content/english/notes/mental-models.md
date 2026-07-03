@@ -8,6 +8,8 @@ key_concept: |
   A model nobody reaches for is the same problem as a junk-drawer bookmark - recall under pressure is the value.
   
   Retire the model when real decisions prove it wrong.
+  
+  Mental models are thinking shortcuts I keep when they survive real decisions.
 examples:
   - "The restaurant had twelve menu tweaks on the whiteboard - I picked the two that actually cut ticket times and shelved the rest."
   - "Waze showed four commute routes - I stuck to the one that saves gas on the Tuesday school run, not the scenic detour."

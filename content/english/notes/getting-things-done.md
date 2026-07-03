@@ -8,6 +8,8 @@ key_concept: |
   Allen task-inbox system: capture everything, clarify next actions, trust the weekly review.
   
   Tasks and notes live in separate systems - capture and weekly review own the task lane.
+  
+  David Allen's capture-clarify-organize loop gives me a trusted inbox, next actions, and a weekly review.
 examples:
   - "Tournament week my brain isn't a filing cabinet - GTD was one trusted inbox and a weekly review so open loops lived on paper, not at 2 a.m."
   - "Commute errands and neighbor requests hit one pocket notebook - each item gets a next action so nothing rots as background worry."

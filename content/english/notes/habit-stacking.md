@@ -8,6 +8,8 @@ key_concept: |
   The anchor has to already be bulletproof - stacking onto a habit you sometimes skip just gives you two habits you sometimes skip.
   
   No calendar slot to defend, no motivation to summon - the existing habit does the reminding.
+  
+  I piggyback a new tiny habit onto one that already runs without thinking, like notebook after coffee.
 examples:
   - "After I clock in, I scan the shift-change sheet - the clock-in is the anchor, the scan piggybacked; no new time slot, just a chain."
   - "After I pour the first coffee, I open the pocket notebook - habit stacking attaches the new move to one that already runs on autopilot."

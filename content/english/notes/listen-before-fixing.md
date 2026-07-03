@@ -8,6 +8,8 @@ key_concept: |
   I repeat what I heard before I prescribe.
   
   Repeating what I heard keeps advice from landing like a correction.
+  
+  Listen before fixing - repeat what you heard, then respond.
 examples:
   - "A younger player kept explaining why he missed the free throw - I almost jumped in with form tips. I waited, said back what he thought went wrong, then offered one drill."
   - "My kid told me about a fight at school - I caught myself lining up a lecture and stopped. \"So he took your pencil and you pushed him\" - then we talked about what to try tomorrow."

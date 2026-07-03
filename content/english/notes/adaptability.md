@@ -8,6 +8,8 @@ key_concept: |
   Adaptability is changing method without losing aim when conditions, tools, or opponents shift.
   
   The tell isn't whether you adapt - it's whether the goal survives the pivot intact.
+  
+  Adaptability swaps the method when conditions shift - same aim, different plan.
 examples:
   - "Rain canceled our outdoor run and we moved practice to the covered court - same goal of getting reps in, different floor when the weather shifted."
   - "The school bus was late so we walked - same deadline for drop-off, different route when the morning plan broke."

@@ -6,6 +6,8 @@ key_concept: |
   Process doesn't heal a broken trust link.
   
   The person who knows there's a breach moves first - a short call, an owned apology, a specific repair - then we talk OKRs. Same order as [[Reconciliation Before Worship]], minus the religious frame: relationship before ritual performance.
+  
+  Reconcile before the review - fix the relationship before OKRs, demos, or reorg meetings.
 examples:
   - "Strong stats for the scout meeting but my assistant coach was still cold from Tuesday - fifteen minutes with him before we sat with the scout beat hoping charts would smooth it."
   - "The client renewal call was booked but my business partner and I hadn't spoken since our blowup over a missed invoice - I texted him first, we talked ten minutes, then got on the call together."

@@ -8,6 +8,10 @@ key_concept: |
   I calendar weekly and quarterly passes the way I'd calendar bills - inbox, active projects, evergreens on the clock, not when guilt spikes.
   
   Active curation on schedule beats guilt-driven binge review when the vault feels heavy.
+  
+  If I never revisit notes, they rot.
+  
+  I calendar weekly and quarterly passes like I'd calendar bills.
 examples:
   - "First Sunday I reconcile the budget - not only when the card gets declined mid-commute."
   - "The clinic reviews charts every Friday at four - not only when a complaint lands."

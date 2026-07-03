@@ -8,6 +8,8 @@ key_concept: |
   Written steps beat improvisation when stress shrinks working memory.
   
   The checklist isn't an insult to competence - it's what competence looks like when adrenaline is running the show.
+  
+  I write short steps for deploys and incidents so nobody has to improvise when the clock is loud.
 examples:
   - "The closing routine after every match - ice, tape, log the injury - lives on the locker-room whiteboard so nobody improvises when everyone's exhausted."
   - "The building guard walks the posted evacuation route he practiced on quiet shifts - written steps when the alarm trips loud."

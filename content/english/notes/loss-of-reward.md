@@ -5,6 +5,10 @@ description: "A saved believer can still lose reward - worthless works burn, ete
 key_concept: |
   Two categories, one sentence apart: [[Free Grace]] and [[Justification]] settle eternal life at faith. (1 Corinthians 3:12-15).
   [[Eternal Rewards]] and the [[Judgment Seat]] settle what gets repaid for faithful living. Losing reward is not losing salvation. Paul says the builder "will be saved, yet so as through fire" - still in, with loss when wood, hay, and stubble burn. [[Standing vs Fellowship]] keeps shame from collapsing broken closeness with revoked standing. [[Sanctification]] keeps growing after a wasted season; [[Forgiveness]] restores fellowship when sin breaks closeness - neither re-opens [[Justification]]. [[Faith and Works]] and [[The Narrow Way]] split false "Lord, Lord" (never believed) from a believer who stumbled and repents. PKM mirror: [[Failure as Feedback]] - a burned work is feedback on what to build differently, not proof you were never in the garden.
+  
+  A saved believer can still lose reward.
+  
+  Worthless works burn, eternal life stays secure on Christ.
 examples:
   - "Wasted years of selfish living and terror I'm not saved - reward may burn at the judgment seat; my standing was settled when I trusted Christ."
   - "Hidden sin exposed and shame screamed heaven access revoked - confess, restore fellowship, keep walking; justification on Christ doesn't get re-opened by a bad season."

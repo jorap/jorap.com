@@ -8,6 +8,8 @@ key_concept: |
   I link notes on purpose so forgotten ideas surprise me when a new problem rhymes.
   
   A walkable graph beats hoping I'll remember the right filename.
+  
+  Old notes surprise me on schedule because I linked them on purpose, not because I got lucky.
 examples:
   - "Random note resurfaced a wikilink I'd forgotten - led to a blog post I'd stalled."
   - "The graph view showed an orphan I'd written two years ago - perfect intro for today's draft."

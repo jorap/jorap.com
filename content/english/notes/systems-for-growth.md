@@ -9,6 +9,12 @@ key_concept: |
   [[Pressure Reveals Weakness]] covers what holds when heat rises; this hub covers what you install on ordinary Tuesdays.
   
   Install the loops on ordinary Tuesdays - not only when results are due.
+  
+  The loops you build on purpose.
+  
+  Habits, feedback, review, recovery - so skill compounds when motivation doesn't show up.
+  
+  Pressure Reveals Weakness covers what holds when heat rises; this hub covers what you install on ordinary Tuesdays.
 shareable_thought:
   - "The loops you build on purpose."
   - "Habits, feedback, review, recovery - so skill compounds when motivation doesn't show up."

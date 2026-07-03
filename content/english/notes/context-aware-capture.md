@@ -6,6 +6,8 @@ key_concept: |
   Capture the why while I still remember it - project, mood, question - not just the link.
   
   Six weeks later, only the why saves a bookmark from becoming junk.
+  
+  A saved link is a mystery six weeks later unless I jot the why while I still remember it.
 examples:
   - "Voice memo in the parking lot after the meeting - context was still in my head."
   - "Photo of the whiteboard before they erased it - capture matched where the idea lived."

@@ -9,6 +9,10 @@ key_concept: |
   Regenerated on production build and via `npm run export:okf`.
   
   Authoring stays in Hugo; OKF is the agent-readable pass-off copy.
+  
+  Open Knowledge Format (OKF) bundle.
+  
+  The same garden, flattened for agents - markdown paths, required type, no Hugo build.
 shareable_thought:
   - "Open Knowledge Format (OKF) bundle."
   - "The same garden, flattened for agents - markdown paths, required type, no Hugo build."

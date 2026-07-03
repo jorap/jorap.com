@@ -5,6 +5,10 @@ description: "When someone hits or insults me, I don't hand back the same - I br
 key_concept: |
   Jesus rejected the limit of "eye for eye" as a personal ethic for disciples. (Matthew 5:38-39).
   The point isn't passivity toward all evil - it's refusing to become what hurt you.   Same logic as [[Sunk Cost Fallacy]]: stop throwing more anger after sunk hurt. Goes further than [[The Golden Rule]] (proactive good) and pairs with [[Love Your Enemies]] (heart posture). [[Free Grace]] frees me to absorb cost without keeping score for heaven.
+  
+  When someone hits or insults me, I don't hand back the same - I break the retaliation loop.
+  
+  Free Grace frees me to absorb cost without keeping score for heaven.
 examples:
   - "Neighbor's passive-aggressive note about parking - I didn't post a rebuttal on the group chat; stop throwing anger after sunk hurt."
   - "Someone snapped at me in the school pickup line and I spent the drive home drafting the comeback - turning the cheek isn't pretending it didn't hurt; it's not mirroring evil."

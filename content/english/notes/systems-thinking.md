@@ -8,6 +8,8 @@ key_concept: |
   Change the process that keeps producing the fire - don't only patch tonight's symptom.
   
   The same fire coming back next week is the tell you patched the symptom and left the loop untouched.
+  
+  I trace the loop behind the fire - inputs, delays, feedback - and fix the process, not tonight's patch.
 examples:
   - "We lost every third possession on turnovers - systems thinking traced it to the warmup drill, not \"focus harder tonight.\""
   - "The restaurant ran out of rice on a busy Friday - systems thinking traced it to prep checklist and par levels, not \"cook faster tonight.\""

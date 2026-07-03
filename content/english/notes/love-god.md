@@ -7,6 +7,8 @@ key_concept: |
   
   When a scribe asked which commandment was first, Jesus quoted Deuteronomy 6:5 - whole-person devotion, not a corner of the week.
   Heart (affections), soul (will and life), mind (thought), strength (effort). Under [[Free Grace]], this is the first call on a life already saved by faith - love flowing from grace received, not love offered as payment for eternal life.
+  
+  First command, whole self - heart, mind, strength, not a corner of Sunday morning.
 examples:
   - "Match day adrenaline isn't the same as opening my Bible on Thursday - whole-person love means I feed at least one faculty today."
   - "Sunday worship felt high but I hadn't opened my Bible since last week - loving God means more than one hour in a pew."

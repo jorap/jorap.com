@@ -8,6 +8,10 @@ key_concept: |
   Map wiki projects to the arc you can actually feel on the calendar.
   
   Review quarters you can feel beat vague annual resolutions.
+  
+  I compress yearly goals into twelve-week arcs I can actually feel - and map wiki projects to them.
+  
+  Twelve-week arcs compress goals into review quarters you actually feel (Periodic Knowledge Review).
 examples:
   - "Twelve-week sprint on one fitness goal beat a vague annual resolution."
   - "The team treated the quarter like a season - one scoreboard, weekly film, no fake annual plan."

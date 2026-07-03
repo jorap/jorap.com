@@ -10,6 +10,12 @@ key_concept: |
   Bad pass-off: promise WordPress-style daily edits to five non-technical staff with no training, retainer, or CMS. That's a [[Static Site Client Scope]] lie that blows up on week two.
   
   Deliver a one-page pass-off doc: repo URL, Cloudflare project, env vars, domain DNS, which branch deploys, who to call when build fails. [[Share What You Learn]] - the doc is the product, not hoarded in my head.
+  
+  Before deposit, I name who publishes next and price the pass-off so launch isn't a guessing game.
+  
+  Pick exactly one primary model with Plain Commitments at Work - not "we'll figure it out at launch.".
+  
+  Git lesson - client gets repo access plus a short doc (Getting Started shape: edit markdown, commit, push).
 examples:
   - "Neighbor chose Git lesson - twenty minutes on edit, commit, push; she broke build once, fixed typo same night."
   - "Pastor emails bulletin PDF every Friday - retainer batch, one push, no CMS layer needed."

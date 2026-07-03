@@ -6,6 +6,10 @@ key_concept: |
   The corporate ladder rewards visibility; this principle runs the other way.
   
   Wash feet in the sprint, not only in the all-hands speech. Gospel depth: [[Humility and Service]]. I can explain this in a leadership book club without opening a sermon.
+  
+  I unblock the team, coach through the mess, take blame up, and pass credit down.
+  
+  Gospel depth: Humility and Service.
 examples:
   - "I had the title at home but noticed I was hoarding easy wins - servant leadership meant the messy bedtime shift while my partner got the break."
   - "I got promoted and realized I'd been grabbing credit for work the team carried - servant leadership was my name off the slide and hers on the praise email."

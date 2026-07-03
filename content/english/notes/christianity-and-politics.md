@@ -6,6 +6,14 @@ key_concept: |
   [[Render Unto Caesar]] names the split: coin to Caesar, self to God.
   
   [[Seek the Kingdom First]] still ranks God's reign above every election cycle - without excusing dodged taxes, permits, or jury duty. [[Love Your Neighbor]] and [[Love Your Enemies]] stretch across party lines: the person on the other feed is still my neighbor, not a target. [[Treasure in Heaven]] keeps my heart off ballot-box salvation - no moth-eaten security in who wins Tuesday. [[By Their Fruits]] and [[Heart Righteousness]] judge movements by outcome and motive, not hype or tribe loyalty. [[Great Commission]] and [[Let Your Light Shine]] send witness into public life without letting the gospel get captured by one side's flag. PKM mirror: [[Signal vs Noise]] - not every headline deserves kingdom-level panic; [[Information Diet]] curbs the scroll that replaces prayer.
+  
+  I owe Caesar what Caesar's owed and God what I'm His.
+  
+  No party gets my soul.
+  
+  Render Unto Caesar names the split: coin to Caesar, self to God.
+  
+  Seek the Kingdom First still ranks God's reign above every election cycle.
 examples:
   - "Tax bill landed and part of me wanted to treat paying it like betraying the kingdom - [[Render Unto Caesar]]: lawful duty and ultimate worship stay distinct."
   - "Group chat turned tribal after the election and my thumb hovered on a dunk - bless the neighbor, don't baptize the rage."

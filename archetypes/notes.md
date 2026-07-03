@@ -19,6 +19,11 @@ key_concept: |
 examples:
   - "Mid-action scene where this principle fires — not a definition restated."
   - "Second scene from a different field — jeepney, clinic, inbox, bedtime."
+shareable_thought:
+  - "Core claim in one standalone line."
+  - "Operating move in one standalone line."
+  - "Boundary or contrast that sharpens the principle."
+  - "Test or consequence that shows why it matters."
 relationships:
   - type: extends
     wikilink: "[[Related Note]]"

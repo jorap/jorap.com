@@ -8,6 +8,8 @@ key_concept: |
   Name the miss clearly so the team learns from it - not from blame theater.
   
   Repair what broke, then fix the process that let it through.
+  
+  Owning the error is naming the miss clearly so failure becomes information, not blame theater.
 examples:
   - "I sent the wrong attachment and named it in the reply thread before anyone else had to."
   - "The point guard called the bad pass out loud in the huddle - next play trusted faster."

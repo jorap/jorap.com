@@ -8,6 +8,8 @@ key_concept: |
   I rehearse what happens after they adapt.
   
   Rehearse the second move before tip-off - second-order thinking with skin in the game.
+  
+  I plan what happens after the other side adapts, not just how my opening move looks on paper.
 examples:
   - "I offered extra screen time for chores and my kid negotiated harder tasks by day three - I should've asked what happens after they adapt, not only rehearsed the opening bribe."
   - "A restaurant drops lunch prices and the place across the street matches by Friday - the first move isn't the game; we built regulars before the copy arrived."

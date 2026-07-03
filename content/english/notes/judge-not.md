@@ -5,6 +5,8 @@ description: "I don't play final judge on souls - I pull my own plank before nit
 key_concept: |
   Jesus forbids harsh, hypocritical condemnation - the kind that ignores my own guilt while magnifying yours. (Matthew 7:1-5).
   He doesn't forbid all moral discernment: the same sermon says judge trees by fruit (Matthew 7:16-20). Garden parallel: the [Issues](/notes/issues/) page lists broken wikilinks to fix - diagnose the graph, don't condemn the author. [[Mercy]] and [[Free Grace]] remind me I stood on mercy first.
+  
+  I don't play final judge on souls - I pull my own plank before nitpicking someone's speck.
 examples:
   - "I spotted my teammate's travel in five seconds and missed my own lazy dribble - judge not starts with the log in my eye."
   - "I spotted a coworker's missed step in five seconds and missed my own plank for a month - Jesus wasn't saying ignore sin; He was saying remove your plank first."

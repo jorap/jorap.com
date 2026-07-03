@@ -8,6 +8,12 @@ key_concept: |
   Same shape as [[Incident Investigation]] - trace system causes - but the culture rule is no scalpel hunts for a fall guy. [[Own the Error]] still means someone says "my call" in standup; the room fixes the runbook, not the person.
   
   Fix the runbook after rollback - not the person who pushed deploy.
+  
+  After rollback restores service, I learn what broke in the system - not who to punish for pushing deploy.
+  
+  Rollback Principle gets users back on the old build; blameless after-action review gets judgment back.
+  
+  Own the Error still means someone says "my call" in standup; the room fixes the runbook, not the person.
 examples:
   - "Bad Friday deploy reverted by lunch - Monday after-action review traced the missing env var check, not which intern merged."
   - "After the equipment cart tipped twice we changed storage layout - debrief named the hazard, not \"trainer was clumsy.\""

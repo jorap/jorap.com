@@ -10,6 +10,8 @@ key_concept: |
   Connection first, critique second - run their play once before you offer yours.
   
   Skip their starting point and you're fixing a problem they weren't naming.
+  
+  I join their world - their topic, pace, starting point - before I try to steer.
 examples:
   - "My teammate wanted to run a inbound play I'd never seen - I ran it once before I told him how I'd do it. Connection first, critique second."
   - "A coworker walked me through how she tracks patient callbacks - I watched the whole spreadsheet before I offered to reorder her columns."

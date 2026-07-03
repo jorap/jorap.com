@@ -7,6 +7,8 @@ key_concept: |
   
   Calendar the prune before the garden rots - same habit as oil changes, not panic Sundays.
   [[Periodic Knowledge Review]] calendars the pass; this note names the scheduled slot.
+  
+  I block garden time on the calendar so broken links don't ambush me on a random Sunday.
 examples:
   - "First Sunday I swap the car fluids and rotate tires - not waiting for the check-engine light."
   - "Saturday morning is toy-bin purge and mending - not panicked cleaning when guests are at the door."

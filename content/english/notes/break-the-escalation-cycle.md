@@ -6,6 +6,10 @@ key_concept: |
   Not passivity - I can still set boundaries and name facts.
   
   I just refuse to become what hurt me in the thread. Stop throwing anger after sunk hurt. Gospel source: [[Turn the Other Cheek]]. PKM parallel: [[Sunk Cost Fallacy]].
+  
+  Break the escalation cycle.
+  
+  Don't match tone for tone when a sharp email lands; stop the loop first.
 examples:
   - "A parent emailed the principal with a snarky line about our field trip delay - I deleted my matching draft, answered the fact, offered the new date, and broke the reply-all war before it started."
   - "My kid snapped first at dinner and I almost matched the volume - I named what happened, lowered my voice, and refused to pour fuel on it."

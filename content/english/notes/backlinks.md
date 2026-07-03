@@ -8,6 +8,10 @@ key_concept: |
   Find anchor notes by who links here - snippet context per backlink, not just a count.
   
   Utility surface: link by URL from content notes, not `[[wikilinks]]`.
+  
+  Inbound wikilinks ranked by count.
+  
+  See which notes the garden treats as anchors.
 shareable_thought:
   - "Inbound wikilinks ranked by count."
   - "See which notes the garden treats as anchors."

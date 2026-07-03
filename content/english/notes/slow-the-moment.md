@@ -8,6 +8,10 @@ key_concept: |
   Before you react, buy enough mental space to understand what's happening, weigh consequences, and choose on purpose - not on adrenaline.
   
   One deliberate breath buys room for a better second move.
+  
+  I slow down one breath before I answer.
+  
+  Urgency is real, but it shouldn't pick the move.
 examples:
   - "Cut off in traffic, my first instinct matched horn for horn - slow the moment was one breath before I became the driver I hate."
   - "Before the free throw with the game on the line, the shooter took one breath - slow the moment bought the routine instead of the panic heave."

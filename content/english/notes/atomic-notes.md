@@ -7,6 +7,8 @@ key_concept: |
   
   **Rule of thumb:** one thing I'd cite in conversation - "why middle-click saves tab chaos" is atomic; "browser tips and meeting notes" is not.
   Small notes stack like Lego blocks - linked, not merged. Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing. If I need headings inside one file, I probably need two notes. Faith parallel: [[Let Your Yes Be Yes]] - say one plain thing; let your yes be yes.
+  
+  If a note needs three ands to make its point, I split it before I link it.
 examples:
   - "\"Why my basketball shoes live by the door\" is one claim - I'd say it alone at carpool."
   - "\"Where we meet if the elevator is out\" is one claim; \"elevator outage and parking-gate codes\" is two - split and wikilink."

@@ -7,6 +7,8 @@ key_concept: |
   
   Faith parallel: [[Loss of Reward]] - worthless works burn at the [[Judgment Seat]], but the builder is still saved through fire.
   The miss is feedback on what to build next, not proof you were never in.
+  
+  I read a miss as signal about process or skill, not as proof I'm the wrong kind of person.
 examples:
   - "I missed three free throws in a row - failure as feedback was follow-through and routine, not deciding I'm \"not a basketball person.\""
   - "The utility bill math was wrong - I treated it as instrument reading about the formula I skipped, not proof I can't do numbers."

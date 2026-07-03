@@ -8,6 +8,8 @@ key_concept: |
   Build it before the crisis, not during it - a default assembled mid-emergency isn't a default.
   
   The rehearsed move beats improvising when the clock is loud.
+  
+  A reliable default is the simple rehearsed move I run when thinking is thin.
 examples:
   - "The clinic front desk doesn't make up triage order when three walk-ins arrive - they run the laminated sheet taped by the phone. One script, no guessing."
   - "Our family fire plan is one page on the fridge: two exits, where we meet, who grabs the baby. Last blackout, my kid ran it half-asleep and nobody guessed."

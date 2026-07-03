@@ -8,6 +8,8 @@ key_concept: |
   Skipping it doesn't show up immediately - it shows up three days later as a short fuse and bad calls.
   
   The elite athlete's rest day isn't optional recovery - it's programmed like the workout.
+  
+  Sleep isn't laziness for me - it's the refill that keeps judgment and patience online.
 examples:
   - "Elite athletes schedule rest days - muscle rebuilds off the field, not another heroic scrimmage."
   - "Three late nights made me snap at bedtime - recovery was stopping at ten instead of a fourth heroic hour that hurt everyone at breakfast."

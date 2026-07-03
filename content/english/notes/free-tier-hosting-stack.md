@@ -14,6 +14,10 @@ key_concept: |
   **Save builds:** batch commits before push; `[skip ci]` for non-site files (`.specstory`, internal `docs/`). Run `scripts/setup-git-hooks.sh` to auto-append skip markers. Every wasted build is one fewer in the monthly pool. Client template: `docs/CLIENT_STATIC_SITE.md`.
   
   **When free tier stops fitting:** move to the client's Cloudflare account, trim file bloat, step up to Pages Pro (~$20/mo) for build volume, or split projects across accounts. Domain stays separate (~$12/year). Early pilots can live on my account; before scale, production should move to **client-owned Cloudflare plus GitHub** with a one-page pass-off doc. [[Future-Proofing Knowledge]] parallel: markdown in git is the portable asset; Cloudflare is swappable hosting.
+  
+  Hugo, GitHub, and Cloudflare Pages ship static sites for $0.
+  
+  Until build caps, queues, or account limits bite.
 examples:
   - "Twelve client sites on one free account - hit 500 builds mid-month and Friday deploys started queuing."
   - "Build failed until Hugo was pinned - env var on every new project template now, and that failure still counted against the cap."

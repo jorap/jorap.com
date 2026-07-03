@@ -8,6 +8,8 @@ key_concept: |
   Versatility is staying useful across roles, tools, and contexts - not locked to one lane.
   
   Nobody schedules the sick day or the rush - versatility is just having more than one answer ready when they hit.
+  
+  I can plug into more than one lane when the team or the client needs a shift.
 examples:
   - "The rush hit and I jumped on dishes while the line cook called tickets - versatile without pretending I suddenly ran the grill."
   - "Sick day meant I became lunch packer, tutor, and IT help - versatility is more than one lane when the day shifts."

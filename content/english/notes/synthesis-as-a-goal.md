@@ -6,6 +6,10 @@ key_concept: |
   Collecting quotes isn't PKM for me.
   
   Synthesis is when learning starts - often with [[First Principles Thinking]] when a note is still someone else's words. The wiki holds borrowed lines; belief lives in prose I can ship.
+  
+  I merge sources into what I believe and can defend.
+  
+  A quote pile isn't the goal.
 examples:
   - "Three coaches' clips on our press sat in my folder until I merged them into one drill we actually ran Tuesday."
   - "Five parenting articles became one rule on the fridge - merged into what we believe about screens, not a quote collection."

@@ -10,6 +10,8 @@ key_concept: |
   The composure has to be visible - a calm voice with shaking hands under the table still reads as calm to everyone watching.
   
   Composure isn't suppressing the reaction - it's choosing which one gets shown.
+  
+  Composure is steady voice and pace when the room isn't - people read calm as competence.
 examples:
   - "The neighbor argument on the group chat heated up and I waited one beat before replying - people read calm as competence even when the issue is real."
   - "I used the same move in a heated parent meeting - slower speech, one clarifying question, no matching their volume."

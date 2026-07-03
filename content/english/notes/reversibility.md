@@ -6,6 +6,12 @@ key_concept: |
   Concrete undo path when the choice is a deploy or release.
   
   [[Rollback Principle]] names concrete undo path when the choice is a deploy or release. [[Staged Rollout]] names small blast radius makes undo cheap.
+  
+  Prefer choices you can undo.
+  
+  Irreversible harm needs a higher bar.
+  
+  Staged Rollout names small blast radius makes undo cheap.
 examples:
   - "I took the longer route with an exit every mile before trying the new shortcut through construction."
   - "Try the new play in scrimmage before running it in the championship - reversible rehearsal, higher bar for the irreversible call."

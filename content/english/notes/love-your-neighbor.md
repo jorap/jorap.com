@@ -5,6 +5,12 @@ description: "Love others the way I'd want care if our roles flipped - second co
 key_concept: |
   Jesus lifted Leviticus 19:18 to equal rank with loving God. (Matthew 22:39, Mark 12:31).
   The parable of the Good Samaritan (Luke 10) reframes the question - not "who counts?" but "who acted as neighbor?" The standard is the care you'd want if you were hurt on the road. [[Mercy]] shows up in the body - bandage, ride, cost covered. [[Free Grace]] doesn't erase the command - it frees me to love without keeping score for salvation.
+  
+  Love others the way I'd want care if our roles flipped.
+  
+  Second command, paired with loving God.
+  
+  Mercy shows up in the body - bandage, ride, cost covered.
 examples:
   - "The parent I'd rather avoid sits on my side every game - I moved my chair over and asked how his kid's ankle was healing."
   - "The neighbor I'd rather avoid lives two doors down and his trash bins are always in my way - Jesus asked whether I'm acting like a neighbor, the way I'd want if I were stuck."

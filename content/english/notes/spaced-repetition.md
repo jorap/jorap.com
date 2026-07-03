@@ -6,6 +6,10 @@ key_concept: |
   Review on a schedule before I forget - for **retention**, **application**, and **explanation**, not vanity metrics or fact pile-up.
   
   The wiki holds understanding; cards and SRS hold drill - separate lanes, algorithm handles timing. In this garden, spine notes (~20%, [[Pareto Principle]]) opt in with `review: true` - PKM habit prompts and [[Eternal Principles]] gospel cards share the same drill lane via `card_sets`. [[Ask Seek Knock]] is the faith-side version: keep asking on rhythm, not cram once.
+  
+  I review on a schedule so ideas stick.
+  
+  Retention, application, and explanation, not fact pile-up.
 examples:
   - "I do the same with note cards on capture and gospel lines - review on a schedule before I forget, not one marathon session."
   - "My kid's spelling list lives on the fridge; we hit five words while rice cooks - same little doses beat cramming the night before the quiz."

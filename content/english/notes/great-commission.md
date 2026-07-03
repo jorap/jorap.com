@@ -7,6 +7,10 @@ key_concept: |
   Teaching obedience is discipleship after faith - not a works payment for salvation under [[Free Grace]]. PKM parallel: [[Creative Output]] - the gospel isn't fully kept until it's passed on; inventory notes mean nothing if they never leave the garden.
   
   Go, baptize, teach obedience - under Christ's authority, not recruitment zeal.
+  
+  Jesus sends believers to go, baptize, and teach obedience under His authority and presence to the end of the age.
+  
+  Teaching obedience is discipleship after faith - not a works payment for salvation under Free Grace.
 examples:
   - "My kid asked a friend what church is and I almost deflected - great commission is go and make disciples, starting with plain answers at the kitchen table."
   - "A neighbor asked what we do on Sunday mornings and I almost changed the subject - Jesus said go, baptize, teach, and He's with you while you do it."

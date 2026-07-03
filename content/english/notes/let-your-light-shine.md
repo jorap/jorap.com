@@ -5,6 +5,10 @@ description: "Good works aren't for hiding - let people see the Father in how I 
 key_concept: |
   You're the light of the world, like a city on a hill. (Matthew 5:14-16).
   The point isn't performance for applause - Jesus warns against practicing righteousness to be seen by people (Matthew 6:1). Good works shine so God gets credit for [[Free Grace]] at work in a saved life, not so I build a personal brand. Parallel in the garden: [[Drafting in Public]] puts rough notes in the open so ideas get tested - same visibility instinct, different aim (glorify God, not the author).
+  
+  Good works aren't for hiding - let people see the Father in how I live, not perform for applause.
+  
+  Parallel in the garden: Drafting in Public puts rough notes in the open so ideas get tested.
 examples:
   - "I brought extra water for the whole bench and almost posted about it - the light isn't for my brand; it's so someone sees good work and thinks God is real."
   - "I covered a coworker's shift quietly and almost made it a LinkedIn moment - let your light shine so the Father gets credit, not my personal brand."

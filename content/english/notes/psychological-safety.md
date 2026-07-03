@@ -8,6 +8,8 @@ key_concept: |
   Thank the person for speaking up - silence teaches the next person to hide the miss.
   
   Near-miss reports need gratitude, not punishment.
+  
+  People can name mistakes and near-misses without fear of humiliation or retaliation.
 examples:
   - "My kid told me he broke the vase - I thanked him for saying it instead of making him dread confessing next time."
   - "I named the wrong turn to my carpool - nobody mocked it, so I speak up before the next missed exit."

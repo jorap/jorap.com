@@ -19,6 +19,10 @@ key_concept: |
   | Faithfulness | [[Faithfulness]] - [[Faithful Steward]] |
   | Gentleness | [[Gentleness]] - [[Humility and Service]] |
   | Self-control | [[Self-Control]] |
+  
+  Love through self-control is one Spirit-grown cluster in believers, not a merit checklist that buys heaven.
+  
+  By Their Fruits uses the same word differently: discern teachers by outcome, not charisma.
 examples:
   - "I snapped at my kid after a week with almost no prayer and wondered why patience vanished - Galatians fruit comes from walking by the Spirit, not forcing virtue until Friday."
   - "Performing joy at church while empty at home told me I was manufacturing fruit - abiding first, then the cluster grows."
