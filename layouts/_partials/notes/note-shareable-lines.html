@@ -1,11 +1,11 @@
 {{- /*
-  Three shareable lines from frontmatter shareable_lines (max 130 chars each).
+  Four shareable lines from frontmatter shareable_lines (max 130 chars each).
 */ -}}
 {{- with .Params.shareable_lines -}}
   {{- if gt (len .) 0 -}}
     <aside class="notes-shareable-lines border-divider mb-6 rounded border p-5" aria-labelledby="shareable-lines">
       <h2 id="shareable-lines" class="h6 mb-4">Shareable lines</h2>
-      <ul class="notes-shareable-lines__grid m-0 grid list-none gap-4 p-0 sm:grid-cols-3">
+      <ul class="notes-shareable-lines__grid m-0 grid list-none gap-4 p-0 sm:grid-cols-2">
         {{- range $i, $line := . -}}
           <li class="notes-shareable-lines__item min-w-0">
             <div class="notes-shareable-lines__card h-full">

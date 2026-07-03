@@ -13,6 +13,7 @@ shareable_lines:
   - "Notice the good means naming the specific helpful move so people know what to repeat."
   - "\"Good job\" teaches nothing. \"Your rebounds won that scrimmage\" teaches the rep."
   - "Specific praise names the behavior I want again - that's how Process Over Outcomes sounds out loud. Vague thanks flatters…"
+  - "After practice I told the kid who boxed out every drill: \"Your rebounds won that scrimmage"
 relationships:
   - type: contradicts
     wikilink: "[[Outcomes Over Pitch Decks]]"

@@ -12,6 +12,7 @@ shareable_lines:
   - "I check teachers by what their teaching produces, not by how polished the talk sounds."
   - "Jesus pairs this with Judge Not: don't condemn souls, but do evaluate fruit. (Matthew 7:16-20)."
   - "Wolves may wear sheep's clothing; time and results tell. Garden parallel: Signal vs Noise - what actually produces good over…"
+  - "The youth coach talks smooth on day one but his players look stressed and bitter by month three"
 relationships:
   - type: alternative
     wikilink: "[[Fruits of the Spirit]]"

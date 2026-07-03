@@ -13,6 +13,7 @@ shareable_lines:
   - "Remove the hazard first, then substitute, engineer, admin, PPE - in that order."
   - "Named rollback is a control layer before irreversible harm."
   - "Rollback Principle names named rollback is a control layer before irreversible harm."
+  - "We removed the wet patch on the court instead of adding \"slow down\" signs"
 relationships:
   - type: contradicts
     wikilink: "[[Standard Operating Procedures]]"

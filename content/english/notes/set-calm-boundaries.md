@@ -13,6 +13,7 @@ shareable_lines:
   - "A calm boundary is one clear limit on behavior, named steady - not a character attack."
   - "Limit the behavior. Keep the person."
   - "One clear line in a steady voice - \"that stops now\" on the act, not a character attack. Emotional Regulation keeps me from…"
+  - "A teammate kept trash-talking our own bench"
 relationships:
   - type: contradicts
     wikilink: "[[Follow Their Lead]]"

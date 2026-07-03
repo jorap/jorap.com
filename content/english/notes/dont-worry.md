@@ -12,6 +12,7 @@ shareable_lines:
   - "Jesus told me not to stack worry on food, clothes, or tomorrow - the Father already feeds birds."
   - "Worry can't add a single hour to life. (Matthew 6:25-34)."
   - "The antidote isn't denial - it's priority: Seek the Kingdom First, and let tomorrow carry its own trouble. Trust is active…"
+  - "I thumb-refresh the news about tomorrow's meeting instead of sleeping"
 relationships:
   - type: contradicts
     wikilink: "[[The 12 Week Year]]"

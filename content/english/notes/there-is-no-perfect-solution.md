@@ -13,6 +13,7 @@ shareable_lines:
   - "There's no perfect solution - pick what works tired and ship instead of waiting for the ideal."
   - "I pick what works tired and ship."
   - "Every real choice has tradeoffs - stop comparing real options to an imaginary perfect one."
+  - "I spent a week comparing strollers instead of walking with the baby we already had"
 relationships:
   - type: contradicts
     wikilink: "[[Pareto Principle]]"

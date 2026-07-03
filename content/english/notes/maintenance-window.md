@@ -14,6 +14,7 @@ shareable_lines:
   - "I block garden time on the calendar so broken links don't ambush me on a random Sunday."
   - "Scheduled time to prune, fix links, and archive - not random Sunday panic."
   - "Calendar the prune before the garden rots - same habit as oil changes, not panic Sundays."
+  - "Periodic Knowledge Review calendars the pass; this note names the scheduled slot."
 relationships:
   - type: alternative
     wikilink: "[[Change Window]]"

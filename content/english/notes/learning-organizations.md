@@ -13,6 +13,7 @@ shareable_lines:
   - "Teams that change process after mistakes instead of burying them."
   - "\"What broke\" line stays until fixed or accepted."
   - "Blameless After-Action Review names \"What broke\" line stays until fixed or accepted."
+  - "After every tournament they kept one \"what broke\" line on the whiteboard until it was fixed or accepted."
 relationships:
   - type: contradicts
     wikilink: "[[By Their Fruits]]"

@@ -14,6 +14,7 @@ shareable_lines:
   - "I treat my feed like a slot machine someone else owns - if I'm not paying, I'm the product."
   - "Platforms compete for your focus - your attention is the product."
   - "Your focus is the product - guard the pipe before optimizing the inbox."
+  - "Signal vs Noise names what to cut; Information Diet is the weekly menu habit."
 relationships:
   - type: contradicts
     wikilink: "[[Digital Serendipity]]"

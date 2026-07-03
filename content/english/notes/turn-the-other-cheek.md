@@ -12,6 +12,7 @@ shareable_lines:
   - "When someone hits or insults me, I don't hand back the same - I break the retaliation loop."
   - "Jesus rejected the limit of \"eye for eye\" as a personal ethic for disciples. (Matthew 5:38-39)."
   - "The point isn't passivity toward all evil - it's refusing to become what hurt you. Same logic as Sunk Cost Fallacy: stop throwing…"
+  - "Neighbor's passive-aggressive note about parking"
 relationships:
   - type: contradicts
     wikilink: "[[The Golden Rule]]"

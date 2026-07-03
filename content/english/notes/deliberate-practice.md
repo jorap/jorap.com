@@ -10,6 +10,7 @@ shareable_lines:
   - "I train the weak slice on purpose - feedback, correction, repeat - not the part I already nail."
   - "Deliberate practice is focused reps on the part that breaks - not mindless repetition of what already works."
   - "The new cashier drills voids and returns ten times, not the whole shift on autopilot"
+  - "The new cashier drills voids and returns ten times, not the whole shift on autopilot - feedback, correction, repeat on what…"
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

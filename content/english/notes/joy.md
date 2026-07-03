@@ -12,6 +12,7 @@ shareable_lines:
   - "Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance."
   - "Fruits of the Spirit names joy beside love and peace in one cluster - grown by walking in the Spirit, not manufactured for…"
   - "Assurance is the garden echo: rest on what Christ finished, not this week's report card. Abide in Me is the engine - performing…"
+  - "Good week at work and I felt spiritually qualified"
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

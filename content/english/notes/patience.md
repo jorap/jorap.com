@@ -14,6 +14,7 @@ shareable_lines:
   - "I wait without turning brittle - the Spirit grows a slow fuse, not a countdown to snapping."
   - "A slow fuse the Spirit grows in believers - not gritted teeth until Friday or forcing through a dry prayer week (Galatians 5:22)."
   - "Fruits of the Spirit names patience in the same cluster as gentleness and self-control - endurance under delay and providence…"
+  - "Slow the Moment is the garden echo: one beat before reaction buys the Spirit room to answer instead of the urge. Abide in Me is…"
 relationships:
   - type: contradicts
     wikilink: "[[Ship It]]"

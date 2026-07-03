@@ -13,6 +13,7 @@ shareable_lines:
   - "I phrase ideas I'd still stand behind in two years and revise when reality shifts, not when a trend spikes."
   - "I write in complete sentences I'd still stand behind in two years."
   - "Revise when tools change, not when trends spike. Promotion from fleeting: during Periodic Knowledge Review, when a spark keeps…"
+  - "A family recipe card keeps the ratios, not last year's trendy garnish"
 relationships:
   - type: contradicts
     wikilink: "[[Daily Notes]]"

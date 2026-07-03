@@ -12,6 +12,7 @@ shareable_lines:
   - "If your brother has something against you, go reconcile first - then come offer your gift."
   - "Jesus elevates restored relationship over religious performance. (Matthew 5:23-24)."
   - "Worship with an unreconciled heart is hollow. The initiative is on the one who knows there's a breach - leave the altar, go, be…"
+  - "I warmed up ready to compete while my teammate still had something against me from Wednesday"
 relationships:
   - type: contradicts
     wikilink: "[[Love God]]"

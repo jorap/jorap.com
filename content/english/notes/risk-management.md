@@ -13,6 +13,7 @@ shareable_lines:
   - "Name what can go wrong, how likely, how bad - then choose controls in order of strength."
   - "Named rollback is a control layer before irreversible harm."
   - "Rollback Principle names named rollback is a control layer before irreversible harm. Staged Rollout names limit exposure before…"
+  - "We moved the space heater off the rug before lecturing the kids again about not touching it."
 relationships:
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"

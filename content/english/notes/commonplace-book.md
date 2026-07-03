@@ -14,6 +14,7 @@ shareable_lines:
   - "Before linked notes, I kept quotes and ideas in one book I'd actually reopen."
   - "A personal book of quotes and ideas worth keeping - ancestor of linked notes."
   - "A personal quote bank beats rereading whole books when you need one line in conversation."
+  - "Literature Notes feed the bank; Layered Reading distills before filing."
 relationships:
   - type: contradicts
     wikilink: "[[Digital Minimalism]]"

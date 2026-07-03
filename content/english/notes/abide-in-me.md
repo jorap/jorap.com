@@ -12,6 +12,7 @@ shareable_lines:
   - "I bear fruit when I stay connected to Christ, not when I force it by willpower alone."
   - "Abiding is ongoing dependence, not a one-time conversion event. (John 15:1-11)."
   - "Pruning hurts but serves fruitfulness. Under Free Grace, fruit doesn't earn the branch's place in the vine - the branch bears…"
+  - "I snap at my kid after a week with almost no prayer or Scripture, and I know where the fruit went"
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

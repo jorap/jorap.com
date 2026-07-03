@@ -10,6 +10,7 @@ shareable_lines:
   - "Saving articles felt like progress until I tied every save to an express deadline or cut it."
   - "Collecting articles feels like progress - tie saves to express deadlines or cut them."
   - "My recipe folder had forty saved dinners and we still ordered takeout three nights a week until I tied every save to one cooked…"
+  - "My folder had forty highlight reels and we still ran the same broken play"
 relationships:
   - type: contradicts
     wikilink: "[[Capture]]"

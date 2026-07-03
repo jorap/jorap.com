@@ -13,6 +13,7 @@ shareable_lines:
   - "I ask what the clever fix triggers next - copycats, shortcuts, and incentives I didn't plan for."
   - "Ask what happens after the first win - incentives shift, copycats arrive, shortcuts compound."
   - "Second-order thinking asks what happens after the first consequence - not only whether the move works today."
+  - "Free pizza after games pulled families in"
 relationships:
   - type: contradicts
     wikilink: "[[Low Hanging Fruit]]"

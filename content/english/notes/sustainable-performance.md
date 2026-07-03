@@ -10,6 +10,7 @@ shareable_lines:
   - "I aim for a pace I can hold next month without burning out or cutting safety corners."
   - "Sustainable performance is output you can keep without burning out or cutting corners on safety."
   - "I can't sprint bedtime-and-homework heroics five nights a row"
+  - "I can't sprint bedtime-and-homework heroics five nights a row - sustainable performance is an earlier lights-out one night so…"
 relationships:
   - type: contradicts
     wikilink: "[[The 12 Week Year]]"

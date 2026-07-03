@@ -13,6 +13,7 @@ shareable_lines:
   - "Sleep isn't laziness for me - it's the refill that keeps judgment and patience online."
   - "The sleep, rest, and downtime that refill what hard work drains - judgment, patience, attention."
   - "Recovery is sleep, rest, and downtime that refill judgment - not laziness, maintenance."
+  - "Elite athletes schedule rest days"
 relationships:
   - type: contradicts
     wikilink: "[[Finish Strong]]"

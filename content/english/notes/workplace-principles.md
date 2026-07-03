@@ -11,6 +11,7 @@ shareable_lines:
   - "The same ethics as Eternal Principles, in plain office language where religious terms sound awkward."
   - "Each note below is one claim I'd say in a standup or a 1:1 - plain language, meeting-sized examples, wikilink back to the gospel…"
   - "Faith stays in the faith cluster; these are the versions I can share with a secular team without watering down the move."
+  - "Workplace Principles — The same ethics as Eternal Principles, in plain office language where religious terms sound awkward."
 relationships:
   - type: alternative
     wikilink: "[[Maps of Content]]"

@@ -12,6 +12,7 @@ shareable_lines:
   - "I don't play final judge on souls - I pull my own plank before nitpicking someone's speck."
   - "Jesus forbids harsh, hypocritical condemnation - the kind that ignores my own guilt while magnifying yours. (Matthew 7:1-5)."
   - "He doesn't forbid all moral discernment: the same sermon says judge trees by fruit (Matthew 7:16-20). Garden parallel: the…"
+  - "I spotted my teammate's travel in five seconds and missed my own lazy dribble"
 relationships:
   - type: contradicts
     wikilink: "[[Humility and Service]]"

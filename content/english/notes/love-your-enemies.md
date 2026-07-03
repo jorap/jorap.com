@@ -12,6 +12,7 @@ shareable_lines:
   - "Love your enemies - bless, pray, reflect the Father who sends rain on just and unjust alike."
   - "Jesus overturned the tribal reading of \"neighbor.\" Loving only people who love you back is ordinary; loving enemies is…"
   - "Prayer and blessing are the practical handles - not agreement, not pretending harm didn't happen. The Father's free grace toward…"
+  - "Someone slandered me in a group chat and my thumb hovered over a reply"
 relationships:
   - type: alternative
     wikilink: "[[Turn the Other Cheek]]"

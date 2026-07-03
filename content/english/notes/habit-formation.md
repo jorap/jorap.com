@@ -13,6 +13,7 @@ shareable_lines:
   - "I repeat one small move until it runs on autopilot instead of re-debating it every morning."
   - "Repeat a small move until it runs without debating it every morning."
   - "Habit formation is practicing a move until it runs without a daily decision."
+  - "Same gym bag, same water bottle, same pre-game stretch"
 relationships:
   - type: contradicts
     wikilink: "[[First Principles Thinking]]"

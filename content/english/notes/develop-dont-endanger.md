@@ -13,6 +13,7 @@ shareable_lines:
   - "I push people to grow without picking drills where pain or risk replaces the actual skill."
   - "Hard alone doesn't make an exercise worth running."
   - "A demanding drill needs a clear purpose, a measurable benefit, qualified supervision, and defined safety limits. When pain…"
+  - "The clinic can drill fire evacuation with a walk-through"
 relationships:
   - type: alternative
     wikilink: "[[Minimum Effective Dose]]"

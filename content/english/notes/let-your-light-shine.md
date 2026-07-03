@@ -12,6 +12,7 @@ shareable_lines:
   - "Good works aren't for hiding - let people see the Father in how I live, not perform for applause."
   - "You're the light of the world, like a city on a hill. (Matthew 5:14-16)."
   - "The point isn't performance for applause - Jesus warns against practicing righteousness to be seen by people (Matthew 6:1). Good…"
+  - "I brought extra water for the whole bench and almost posted about it"
 relationships:
   - type: contradicts
     wikilink: "[[The Garage Concept]]"

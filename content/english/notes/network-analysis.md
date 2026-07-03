@@ -14,6 +14,7 @@ shareable_lines:
   - "I look at which notes connect everything else - those hubs tell me where the garden actually lives."
   - "Study links and hubs in a graph - who connects whom, what's isolated."
   - "Bridges and orphans matter more than node count - the graph shows who carries traffic and what's stranded."
+  - "Linking by Meaning builds the graph; Maps of Content wins when a hand hub beats metrics."
 relationships:
   - type: contradicts
     wikilink: "[[Maps of Content]]"

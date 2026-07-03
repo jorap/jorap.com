@@ -13,6 +13,7 @@ shareable_lines:
   - "Sparks belong in fleeting notes; claims I trust belong in evergreen, with a clear path between them."
   - "Two speeds, one promotion rule."
   - "Fleeting notes catch sparks I'd lose by Friday; evergreen notes hold claims I'd cite next year. The stake is rot - sparks that…"
+  - "A hot take about today's game goes on the fridge whiteboard; a lesson I'd tell my kid next year gets copied into the recipe box."
 relationships:
   - type: contradicts
     wikilink: "[[Evergreen Notes]]"

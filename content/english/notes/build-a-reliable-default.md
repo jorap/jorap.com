@@ -10,6 +10,7 @@ shareable_lines:
   - "A reliable default is the simple rehearsed move I run when thinking is thin."
   - "Make that fallback a simple, dependable response - rehearsed enough to run when thinking is thin."
   - "The clinic front desk doesn't make up triage order when three walk-ins arrive"
+  - "The clinic front desk doesn't make up triage order when three walk-ins arrive - they run the laminated sheet taped by the phone…"
 relationships:
   - type: contradicts
     wikilink: "[[First Principles Thinking]]"

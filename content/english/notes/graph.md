@@ -12,6 +12,7 @@ shareable_lines:
   - "Open the link map and filter by link rank."
   - "Spot hubs, orphans, and notes with no body links - maintenance targets, not vanity metrics. Open the live view at…"
   - "**Top 20%** = most total wikilinks. **Middle** = between the tails. **Bottom 20%** = fewest total wikilinks. **No body links** =…"
+  - "Graph — Open the link map and filter by link rank."
 slug: "graph"
 date: "2026-06-18 08:00:00+00:00"
 image: "/images/note.jpg"

@@ -13,6 +13,7 @@ shareable_lines:
   - "Put the real priority first before email, Slack, and everyone else's urgency rewrite my morning."
   - "The inbox is other people's priorities wearing a siren."
   - "One block on the actual deliverable - spec, hard conversation, Deep Work - before I answer pings. Gospel source: Seek the Kingdom…"
+  - "Game film due Friday"
 relationships:
   - type: contradicts
     wikilink: "[[Signal vs Noise]]"

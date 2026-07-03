@@ -13,6 +13,7 @@ shareable_lines:
   - "Notes are inventory for me - posts, sermons, code, and dinner experiments are the point."
   - "Notes are inventory."
   - "Output is the point - ship posts, sermons, code on a deadline, in distraction-free focus."
+  - "Friday film day means everyone shows one clip, rough or not"
 relationships:
   - type: alternative
     wikilink: "[[Minimum Viable Product]]"

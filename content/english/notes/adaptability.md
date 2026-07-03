@@ -13,6 +13,7 @@ shareable_lines:
   - "Adaptability swaps the method when conditions shift - same aim, different plan."
   - "Keep the goal, swap the method when the ground moves."
   - "Adaptability is changing method without losing aim when conditions, tools, or opponents shift."
+  - "Rain canceled our outdoor run and we moved practice to the covered court"
 relationships:
   - type: contradicts
     wikilink: "[[Let Your Yes Be Yes]]"

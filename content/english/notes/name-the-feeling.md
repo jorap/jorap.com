@@ -13,6 +13,7 @@ shareable_lines:
   - "That sounds frustrating lands before my fix plan - I name the emotion so we're not guessing."
   - "\"That sounds frustrating\" before \"here's what to do.\""
   - "Naming the emotion lowers defensiveness so the fix can land. Listen Before Fixing comes first - hear it, label it, then steer…"
+  - "A player slumped on the bench after a bad quarter"
 relationships:
   - type: contradicts
     wikilink: "[[Complete the Cycle]]"

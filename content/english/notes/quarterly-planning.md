@@ -13,6 +13,7 @@ shareable_lines:
   - "Set goals and review on a thirteen-week rhythm - short enough to feel real."
   - "Zoom out every ninety days so weekly noise doesn't eat the year's aim."
   - "Periodic Knowledge Review weekly and quarterly; this note is the ninety-day zoom."
+  - "First Sunday of the quarter we picked three outcomes"
 relationships:
   - type: contradicts
     wikilink: "[[Slow Productivity]]"

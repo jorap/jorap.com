@@ -13,6 +13,7 @@ shareable_lines:
   - "What I let slide in front of my team becomes their real standard, not what's printed on the poster."
   - "The standard you walk past is the standard you accept for everyone under you."
   - "Integrity in general; this note is the team-visible lane."
+  - "I stopped the backyard wrestling match when someone was about to get hurt"
 relationships:
   - type: contradicts
     wikilink: "[[Outcomes Over Pitch Decks]]"

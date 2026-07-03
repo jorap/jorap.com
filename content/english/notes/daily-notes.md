@@ -10,6 +10,7 @@ shareable_lines:
   - "My daily note is a scratch pad for today's fragments, not a diary I expect to last forever."
   - "Daily notes are a scratch pad for the day - fleeting by default, with quick buffer flushes between tasks."
   - "Today's pocket slip is just fragments"
+  - "Today's pocket slip is just fragments - pick up basketball shoes, ice after practice, call coach back - I promote one line to a…"
 relationships:
   - type: contradicts
     wikilink: "[[Evergreen Notes]]"

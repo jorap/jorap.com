@@ -26,7 +26,7 @@ def load_fm(raw_fm: str) -> dict:
 
 MAX_DESCRIPTION_WORDS = 20
 MAX_SHAREABLE_LINE_CHARS = 130
-SHAREABLE_LINE_COUNT = 3
+SHAREABLE_LINE_COUNT = 4
 TITLE_MAX_WORDS = 4
 TITLE_FIVE_MIN_LEN = 30
 # ponytail: phrase/scripture titles; lint cannot judge "better than best 4-word"

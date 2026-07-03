@@ -10,6 +10,7 @@ shareable_lines:
   - "Mental models are thinking shortcuts I keep when they survive real decisions."
   - "Mainstream mental models for decisions and performance - plus the ones I keep notes on when they earn repeat use."
   - "The restaurant had twelve menu tweaks on the whiteboard"
+  - "The restaurant had twelve menu tweaks on the whiteboard - I picked the two that actually cut ticket times and shelved the rest."
 relationships:
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"

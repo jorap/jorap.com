@@ -14,6 +14,7 @@ shareable_lines:
   - "Active recall in the browser - show the prompt, try the answer, rate myself. Success is recall and use when it matters, not…"
   - "**The question:** Can I recall and use this knowledge when it matters? Not how many cards you reviewed, how long your streak is…"
   - "Three outcomes: **retention** (remember after weeks), **application** (use in work, decisions, projects, conversations)…"
+  - "Filter by `card_sets` to drill one lane at a time."
 slug: "review"
 date: "2026-06-18 08:00:00+00:00"
 image: "/images/note.jpg"

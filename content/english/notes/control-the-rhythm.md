@@ -13,6 +13,7 @@ shareable_lines:
   - "Control the rhythm is taking back pace before urgency, conflict, or someone else sets it."
   - "Whoever sets the pace often steers the room."
   - "Don't let urgency, conflict, emotion, or someone else's deadline dictate how fast you think and act - take the tempo back when…"
+  - "A dad texted \"my kid needs more reps today\" before I'd watched him play"
 relationships:
   - type: contradicts
     wikilink: "[[Plain Commitments at Work]]"

@@ -13,6 +13,7 @@ shareable_lines:
   - "A close call means the system nearly failed, not that we got proof the activity was safe because nobody died."
   - "When nobody gets injured, organizations often relax."
   - "The opposite read is usually right: the system failed, and luck blocked the worst outcome. A rescue, a panic incident, or a loss…"
+  - "A swimmer needed rescue during the same open-water drill last month"
 relationships:
   - type: contradicts
     wikilink: "[[Normalization of Deviance]]"

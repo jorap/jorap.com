@@ -14,6 +14,7 @@ shareable_lines:
   - "I compress yearly goals into twelve-week arcs I can actually feel - and map wiki projects to them."
   - "Tension with Slow Productivity when quarterly intensity beats fewer deeper projects."
   - "Twelve-week arcs compress goals into review quarters you actually feel (Periodic Knowledge Review)."
+  - "Twelve-week sprint on one fitness goal beat a vague annual resolution."
 relationships:
   - type: contradicts
     wikilink: "[[Slow Productivity]]"

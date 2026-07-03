@@ -16,6 +16,7 @@ shareable_lines:
   - "Learn less, retain longer, apply more - I opt notes into drill cards when recall and use in real life matter, and export to Anki…"
   - "**Guiding principle:** Learn less, retain longer, and apply more. **The question:** Can I recall and use this knowledge when it…"
   - "Cards exist so the right move is already loaded when life shows up - cue on the front, immediate move on the back, not…"
+  - "This page is a **utility surface** (`note_kind: meta`) - not a garden note. Evergreen notes should not `wikilink` here; point…"
 slug: "flashcards"
 date: "2026-06-18 08:00:00+00:00"
 image: "/images/note.jpg"

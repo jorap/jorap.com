@@ -17,6 +17,7 @@ shareable_lines:
   - "Before deposit, I name who publishes next and price the pass-off so launch isn't a guessing game."
   - "Pick exactly one primary model with Plain Commitments at Work - not \"we'll figure it out at launch.\""
   - "**Git lesson** - client gets repo access plus a short doc (Getting Started shape: edit markdown, commit, push). Fits owners who…"
+  - "Bad pass-off: promise WordPress-style daily edits to five non-technical staff with no training, retainer, or CMS. That's a Static…"
 relationships:
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"

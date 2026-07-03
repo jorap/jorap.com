@@ -10,6 +10,7 @@ shareable_lines:
   - "A saved link is a mystery six weeks later unless I jot the why while I still remember it."
   - "Capture the why while I still remember it - project, mood, question - not just the link."
   - "Voice memo in the parking lot after the meeting"
+  - "Voice memo in the parking lot after the meeting - context was still in my head."
 relationships:
   - type: contradicts
     wikilink: "[[Metadata Strategy]]"

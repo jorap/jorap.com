@@ -13,6 +13,7 @@ shareable_lines:
   - "I can feel the spike without letting it pick my next sentence."
   - "Feel the spike. Don't mail it."
   - "Regulation isn't numbness - it's the gap between heat and the next sentence. Slow the Moment buys that gap; Name the Feeling…"
+  - "A customer snapped at the cashier and she kept her voice level"
 relationships:
   - type: contradicts
     wikilink: "[[Turn the Other Cheek]]"

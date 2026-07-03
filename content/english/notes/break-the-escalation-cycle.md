@@ -13,6 +13,7 @@ shareable_lines:
   - "Break the escalation cycle - don't match tone for tone when a sharp email lands; stop the loop first."
   - "Not passivity - I can still set boundaries and name facts."
   - "I just refuse to become what hurt me in the thread. Stop throwing anger after sunk hurt. Gospel source: Turn the Other Cheek. PKM…"
+  - "A parent emailed the principal with a snarky line about our field trip delay"
 relationships:
   - type: contradicts
     wikilink: "[[Sunk Cost Fallacy]]"

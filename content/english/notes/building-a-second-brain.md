@@ -15,6 +15,7 @@ shareable_lines:
   - "My head is for thinking, not storing - notes hold what I'd otherwise lose."
   - "Offload ideas so my head can think, not hoard."
   - "Remember CODE: Capture, organize, distill, express."
+  - "The Second Brain Workflow is how CODE and PARA run as one daily-to-weekly loop."
 relationships:
   - type: alternative
     wikilink: "[[GTD vs PARA]]"

@@ -13,6 +13,7 @@ shareable_lines:
   - "After God declares me righteous, he keeps shaping my habits and heart - growth, not the ticket in."
   - "Free Grace settles where I spend forever."
   - "Sanctification settles who I'm becoming on the way. Grateful Obedience names the posture: grow from thanks, not to earn…"
+  - "I knew the verse on anger and still lost it at dinner"
 relationships:
   - type: alternative
     wikilink: "[[There Is No Perfect Solution]]"

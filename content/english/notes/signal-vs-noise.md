@@ -10,6 +10,7 @@ shareable_lines:
   - "I save only what changes what I do or believe this month - most feeds are noise."
   - "I save only what changes what I do or believe this month - most content is noise."
   - "The trade-rumor thread was loud all week"
+  - "The trade-rumor thread was loud all week - signal was the one injury note that actually changed our lineup; the rest I admired…"
 relationships:
   - type: alternative
     wikilink: "[[Active Knowledge Curation]]"

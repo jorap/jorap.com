@@ -10,6 +10,7 @@ shareable_lines:
   - "First principles thinking is rebuilding from what I actually believe, not someone else's quote."
   - "When a note is only a quote, I add what I actually believe from scratch."
   - "I kept quoting parenting advice from a podcast until I wrote what I actually believe about bedtime"
+  - "I kept quoting parenting advice from a podcast until I wrote what I actually believe about bedtime - first principles was my own…"
 relationships:
   - type: alternative
     wikilink: "[[Mental Models]]"

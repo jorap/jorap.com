@@ -13,6 +13,7 @@ shareable_lines:
   - "Do the honest work when there's no audience - accurate time logs, real tests, the fix nobody asked for yet."
   - "Performance for the standup is its own reward and a small one."
   - "Some good work should stay hidden; some should shine in Let Your Light Shine. This note is the hidden lane: quality when the…"
+  - "The market scale stays honest when the seller steps away to take a call"
 relationships:
   - type: alternative
     wikilink: "[[Let Your Light Shine]]"

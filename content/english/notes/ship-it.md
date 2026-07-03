@@ -13,6 +13,7 @@ shareable_lines:
   - "I push the good-enough version live instead of polishing until the deadline owns me."
   - "Publish the good-enough version instead of polishing forever."
   - "Freelance parallel: Selling Static Sites - ship the first client site before the three-tier pricing PDF exists."
+  - "The menu went live with one typo fixed after service"
 relationships:
   - type: contradicts
     wikilink: "[[Attention to Detail]]"

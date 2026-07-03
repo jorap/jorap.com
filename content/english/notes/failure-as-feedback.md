@@ -14,6 +14,7 @@ shareable_lines:
   - "I read a miss as signal about process or skill, not as proof I'm the wrong kind of person."
   - "A miss tells you what to fix next - process, skill, assumption - if you don't treat it as a identity verdict."
   - "Faith parallel: Loss of Reward - worthless works burn at the Judgment Seat, but the builder is still saved through fire."
+  - "The miss is feedback on what to build next, not proof you were never in."
 relationships:
   - type: alternative
     wikilink: "[[Rollback Principle]]"

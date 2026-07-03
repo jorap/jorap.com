@@ -13,6 +13,7 @@ shareable_lines:
   - "I release a colleague's debt from my heart without pretending the slight didn't matter or skipping boundaries where trust broke."
   - "Forgiving isn't pretending it didn't hurt."
   - "It's refusing to collect forever on a debt that poisons my work. Seventy times seven ends the ledger-keeping. Gospel depth…"
+  - "I replayed my sister's sharp comment at every family dinner until I chose to release the debt"
 relationships:
   - type: contradicts
     wikilink: "[[Sunk Cost Fallacy]]"

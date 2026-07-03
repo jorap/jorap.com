@@ -13,6 +13,7 @@ shareable_lines:
   - "Say yes or no clearly - no \"definitely maybe,\" no stack of qualifiers so people trust a weak promise."
   - "If my word needs hype to sound believable, the problem is my follow-through, not the sentence."
   - "One deadline, one owner, one plain answer in Slack. On Selling Static Sites scoping: say yes or no to Static Site Client Scope…"
+  - "I said yes to Friday delivery in the meeting and meant it"
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Viable Product]]"

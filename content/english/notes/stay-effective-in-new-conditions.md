@@ -13,6 +13,7 @@ shareable_lines:
   - "The habit that worked in my last role can flop in the next room - I retune instead of clinging."
   - "What made you strong in one room can make you weak in the next."
   - "Real competence means staying useful outside ideal setups, familiar roles, and comfortable routines - new tools, new teams…"
+  - "I walked the new counter before the lunch rush instead of defending last month's habits when the line got long."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

@@ -12,6 +12,7 @@ shareable_lines:
   - "I treat people how I'd want to be treated - active care, not just avoiding harm."
   - "It's positive and active: *do* unto others, not merely avoid doing harm. (Matthew 7:12)."
   - "The check is experiential - how would I want to be spoken to, helped, forgiven, included? That sets the floor for every…"
+  - "My thumb was on the post button with a critique that was probably true and definitely cruel"
 relationships:
   - type: contradicts
     wikilink: "[[Love Your Enemies]]"

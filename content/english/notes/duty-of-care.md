@@ -13,6 +13,7 @@ shareable_lines:
   - "If roles flipped, I'd want reasonable protection from harm - that's the bar I owe people under me."
   - "Owe people the care you'd expect if roles reversed - not the minimum the handbook allows."
   - "Safety Comes First at work; duty of care is the legal and moral floor under it."
+  - "The clinic keeps a crash cart checked every shift"
 relationships:
   - type: contradicts
     wikilink: "[[Outcomes Over Pitch Decks]]"

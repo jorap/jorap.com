@@ -13,6 +13,7 @@ shareable_lines:
   - "Reconcile before the review - fix the relationship before OKRs, demos, or reorg meetings."
   - "Process doesn't heal a broken trust link."
   - "The person who knows there's a breach moves first - a short call, an owned apology, a specific repair - then we talk OKRs. Same…"
+  - "Strong stats for the scout meeting but my assistant coach was still cold from Tuesday"
 relationships:
   - type: contradicts
     wikilink: "[[Golden Rule at Work]]"

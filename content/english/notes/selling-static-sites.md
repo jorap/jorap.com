@@ -21,6 +21,7 @@ shareable_lines:
   - "I charge for the build and pass-off; hosting is a clear line item, not a mystery monthly bundle."
   - "My margin is labor, not hosting markup."
   - "I already run [jorap.com](/) on Hugo, GitHub, and Cloudflare Pages for about the cost of a domain - not the $12/month PHP plan I…"
+  - "**What I quote:** discovery and Static Site Client Scope yes/no before I touch a theme; repo plus Cloudflare setup with…"
 relationships:
   - type: contradicts
     wikilink: "[[Building a Personal API]]"

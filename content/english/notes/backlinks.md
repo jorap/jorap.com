@@ -12,6 +12,7 @@ shareable_lines:
   - "Inbound wikilinks ranked by count - see which notes the garden treats as anchors. Pairs with Issues, Random Duo, and Create Note."
   - "Find anchor notes by who links here - snippet context per backlink, not just a count."
   - "Utility surface: link by URL from content notes, not `wikilinks`."
+  - "Backlinks — Inbound wikilinks ranked by count - see which notes the garden treats as anchors. Pairs with Issues, Random Duo, and…"
 slug: "backlinks"
 date: "2026-06-21 08:00:00+00:00"
 image: "/images/note.jpg"

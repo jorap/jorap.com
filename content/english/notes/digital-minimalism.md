@@ -13,6 +13,7 @@ shareable_lines:
   - "My notes got sharper when I dropped extra apps, sync layers, and notifications I wasn't really using."
   - "Every new app is a pipe I have to babysit."
   - "I cut capture paths and sync layers until I hit Minimum Effective Dose - the smallest setup that still works. That trades some…"
+  - "We dropped the second gym bag and the backup jump rope"
 relationships:
   - type: contradicts
     wikilink: "[[Digital Serendipity]]"

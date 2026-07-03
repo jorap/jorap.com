@@ -14,6 +14,7 @@ shareable_lines:
   - "God declared me righteous at faith - before my obedience caught up."
   - "God declares me righteous through faith in Christ alone - once, at faith, before my obedience catches up (Romans 3:24, 4:5, 5:1)."
   - "Free Grace names the gift; justification names the legal move: guilty sinner, faith in Christ, declared not guilty - Christ's…"
+  - "Same shape as Minimum Effective Dose: one sufficient act at the start, not a lifetime of merit stacked before God says yes…"
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

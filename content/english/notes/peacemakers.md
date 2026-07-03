@@ -12,6 +12,7 @@ shareable_lines:
   - "I pursue peace on purpose - repair, truth in love, de-escalation - not just staying quiet."
   - "Peacemaking is work: reconciliation, truth spoken in love, de-escalation when others want a fight. (Matthew 5:9)."
   - "It's not peace-at-any-price or avoiding hard conversations. The blessing ties peacemaking to family resemblance - acting like the…"
+  - "Two teammates were feuding in the locker room"
 relationships:
   - type: contradicts
     wikilink: "[[Love Your Enemies]]"

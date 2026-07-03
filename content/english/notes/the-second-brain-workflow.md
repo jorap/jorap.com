@@ -13,6 +13,7 @@ shareable_lines:
   - "Capture to inbox, organize by project, distill on reuse, express weekly - CODE and PARA in one loop."
   - "CODE and PARA in one loop starts with capture to inbox every day (Capture)."
   - "Tension with Minimum Effective Dose when the full loop beats the smallest habit that works."
+  - "Links land in one inbox all week; weekly review empties it and ships one note"
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Effective Dose]]"

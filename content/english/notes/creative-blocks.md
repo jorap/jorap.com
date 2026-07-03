@@ -10,6 +10,7 @@ shareable_lines:
   - "Thousands of notes and I still stare at a blank page - one small ship action usually unsticks me."
   - "Creative blocks aren't solved by more capture - one small ship action usually unsticks me."
   - "My kid stared at a blank training log for twenty minutes"
+  - "My kid stared at a blank training log for twenty minutes - I told her to write one messy line about today's warmup and the block…"
 relationships:
   - type: contradicts
     wikilink: "[[Capture]]"

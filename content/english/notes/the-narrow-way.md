@@ -14,6 +14,7 @@ shareable_lines:
   - "The road to life is narrow and hard - the easy broad path is the one I'd drift onto."
   - "Enter by the narrow gate - the road to life is hard and few find it; the broad road to destruction is easy and crowded (Matthew…"
   - "In Free Grace terms, the narrow gate is Free Grace in Christ - not the broad road of self-righteousness, religion-by-works, or…"
+  - "Jesus closes the Sermon on the Mount with a fork: not everyone who says \"Lord, Lord\" enters (Matthew 7:21-23). Those are false…"
 relationships:
   - type: alternative
     wikilink: "[[Loss of Reward]]"

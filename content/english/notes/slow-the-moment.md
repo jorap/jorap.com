@@ -13,6 +13,7 @@ shareable_lines:
   - "I slow down one breath before I answer - urgency is real, but it shouldn't pick the move."
   - "Pressure creates urgency, but urgency shouldn't erase judgment."
   - "Before you react, buy enough mental space to understand what's happening, weigh consequences, and choose on purpose - not on…"
+  - "Cut off in traffic, my first instinct matched horn for horn"
 relationships:
   - type: alternative
     wikilink: "[[Break the Escalation Cycle]]"

@@ -13,6 +13,7 @@ shareable_lines:
   - "Listen before fixing - repeat what you heard, then respond. Feeling heard comes before being helped."
   - "Feeling heard comes before being helped."
   - "I repeat what I heard before I prescribe - that's the move that keeps advice from landing like a correction. Emotional Regulation…"
+  - "A younger player kept explaining why he missed the free throw"
 relationships:
   - type: contradicts
     wikilink: "[[Safety Comes First]]"

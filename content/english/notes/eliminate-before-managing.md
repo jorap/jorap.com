@@ -13,6 +13,7 @@ shareable_lines:
   - "I remove unnecessary danger first instead of stacking procedures and gear on top of it."
   - "Those safeguards can cut risk, but they still need correct human action every time."
   - "When a dangerous activity isn't required, swap it for a safer alternative and the failure never gets a chance to happen."
+  - "Swap the wobbly ladder for a stable step stool"
 relationships:
   - type: contradicts
     wikilink: "[[Risk Management]]"

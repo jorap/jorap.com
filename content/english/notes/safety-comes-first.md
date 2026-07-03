@@ -10,6 +10,7 @@ shareable_lines:
   - "I stop the unsafe thing first, then restore choice when the situation is stable - respect isn't letting harm run."
   - "Respect doesn't mean I ignore danger - I stop serious harm first, then restore choice when it's safe."
   - "A teammate wanted to play through a head hit"
+  - "A teammate wanted to play through a head hit - I didn't \"support his call\"; I got the trainer. Following his lead would have…"
 relationships:
   - type: contradicts
     wikilink: "[[Follow Their Lead]]"

@@ -13,6 +13,7 @@ shareable_lines:
   - "Owning the error is naming the miss clearly so failure becomes information, not blame theater."
   - "Accountability turns failure into information."
   - "Name the mistake clearly, find what caused it, repair what broke, and change the process that let it through - not blame theater…"
+  - "I sent the wrong attachment and named it in the reply thread before anyone else had to."
 relationships:
   - type: contradicts
     wikilink: "[[Forgiveness at Work]]"

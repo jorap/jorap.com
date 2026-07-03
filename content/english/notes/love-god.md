@@ -14,6 +14,7 @@ shareable_lines:
   - "First command, whole self - heart, mind, strength, not a corner of Sunday morning."
   - "The greatest commandment Jesus named: love the Lord with all your heart, soul, mind, and strength (Matthew 22:37-38)."
   - "When a scribe asked which commandment was first, Jesus quoted Deuteronomy 6:5 - whole-person devotion, not a corner of the week."
+  - "Heart (affections), soul (will and life), mind (thought), strength (effort). Under Free Grace, this is the first call on a life…"
 relationships:
   - type: contradicts
     wikilink: "[[Don't Worry]]"

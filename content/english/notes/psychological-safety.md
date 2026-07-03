@@ -13,6 +13,7 @@ shareable_lines:
   - "People can name mistakes and near-misses without fear of humiliation or retaliation."
   - "Join their framing before you redirect the blame (Follow Their Lead)."
   - "Tension with Break the Escalation Cycle when the opposite frame fits better."
+  - "My kid told me he broke the vase"
 relationships:
   - type: contradicts
     wikilink: "[[Break the Escalation Cycle]]"

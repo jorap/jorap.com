@@ -11,6 +11,7 @@ shareable_lines:
   - "The loops you build on purpose - habits, feedback, review, recovery - so skill compounds when motivation doesn't show up."
   - "Each note below is one move I'd want running before I need results."
   - "Pressure Reveals Weakness covers what holds when heat rises; this hub covers what you install on ordinary Tuesdays."
+  - "Systems for Growth — The loops you build on purpose - habits, feedback, review, recovery - so skill compounds when motivation…"
 relationships:
   - type: alternative
     wikilink: "[[Pressure Reveals Weakness]]"

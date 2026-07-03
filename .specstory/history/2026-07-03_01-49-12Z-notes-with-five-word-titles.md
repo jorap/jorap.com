@@ -10113,3 +10113,1369 @@ _**Agent (auto-low)**_
 <summary>Tool use: **read_file_v2**</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+This is a large task. I need to add three 130-character tweets to each note's frontmatter and display them on the note page.
+
+I'll create a partial template and CSS for the tweet display. A script will generate three 130-character tweets from each note's description and key concept. I'll run it across roughly 214 notes and enforce the length limit. I'm also deciding whether to include utility pages like the graph or skip them.
+
+Utility pages like graph, issues, and backlinks will be skipped. The script will pull from the description and the first line of key_concept to craft three JoRap-style tweets under 130 characters each.
+
+I cannot write 642 quality tweets manually. I will read the existing normalize-notes-format and lint patterns first. Then I will build a script that pulls the description, the first line of key_concept, and an example to draft three variants.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+import yaml, re
+from pathlib import Path
+notes = Path('content/english/notes')
+kinds = {}
+for f in notes.glob('*.md'):
+    m = re.match(r'^---\s*\n(.*?)\n---', f.read_text(), re.S)
+    if not m: continue
+    fm = yaml.safe_load(m.group(1)) or {}
+    k = fm.get('note_kind', 'note')
+    kinds[k] = kinds.get(k, 0) + 1
+print('note kinds:', kinds)
+print('total:', sum(kinds.values()))
+"
+</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+import yaml, re
+from pathlib import Path
+notes = Path('content/english/notes')
+kinds = {}
+for f in notes.glob('*.md'):
+    m = re.match(r'^---\s*\n(.*?)\n---', f.read_text(), re.S)
+    if not m: continue
+    fm = yaml.safe_load(m.group(1)) or {}
+    k = fm.get('note_kind', 'note')
+    kinds[k] = kinds.get(k, 0) + 1
+print('note kinds:', kinds)
+print('total:', sum(kinds.values()))
+"
+
+```
+
+```
+note kinds: {'note': 201, 'meta': 8, 'index': 6}
+total: 215
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css",
+  "pattern": "notes-note-flashcards"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css",
+  "pattern": "notes-note-flashcards",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All 215 notes will receive three 130-character tweets in frontmatter, displayed on each note page.
+
+A seed script will generate three 130-character tweets per note from descriptions and key concepts. Frontmatter ordering and emission handlers will be updated. A new partial template will render the tweets on note pages. Table-of-contents and CSS updates will follow. Lint checks will validate tweet fields. The script will then run across all notes.
+
+The first tweet will reuse the note description. The second will pull from the first non-empty line of the key concept. The third will shorten the first example or a second key concept line. Wikilinks and markdown will be stripped. Index notes will use description and key concept. Meta notes will also get tweets. The 130-character limit will be enforced in the script and lint checks. Export changes are unnecessary.
+
+The tweets section will appear after the note content and before the flashcards, styled as a minimal aside with a rounded border and bird icon. Each tweet will render as a small quote-like card inside a grid list.
+
+The seed script gathers candidate text from the description, key concept lines, and examples. It strips wikilinks and duplicates, then selects the three strongest candidates to form the three tweets.
+
+The script will pad missing tweets from the note title and description. Descriptions may exceed 130 characters, so clamping is required. Index notes with body content still work because their description field is used directly.
+
+The `tweets` field will be placed in frontmatter after `examples` or before `relationships`. Lint validation will cover all note kinds including meta and index, though `_index.md` will be skipped. The seed script will run once across all 215 notes. `notes_content.py` will handle the `tweets` list in the emit handler, mirroring how `examples` are currently emitted.
+
+The seed script will adopt a short, plain, first-person voice drawn from the jorap-voice skill. It will prefer first-person phrasing from the description, optionally strip trailing periods, and remove wikilinks. The normalize-notes-format script will also be updated if it exists. The table of contents will gain a dedicated Tweets entry.
+
+The seed script will be tested on a few notes first to catch duplicate or overly similar tweets before running on all 215. It will overwrite existing entries rather than skip them.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css",
+  "pattern": "notes-note-flashcards|notes-outgoing"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css",
+  "pattern": "notes-note-flashcards|notes-outgoing",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "assets/css/custom.css"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing existing CSS for note sections to ensure styling consistency before building the tweet frontmatter feature.
+
+Drafting a Python patch function to inject the three tweets into each note's YAML frontmatter. The new field will be placed in FM_ORDER between examples and relationships.
+
+Designing the `draft_tweets` helper to extract candidate sentences from note content. It strips wiki links, clamps each candidate to 130 characters, and filters out anything under 15 characters.
+
+The candidate builder now pulls from the description, key concept paragraphs, and example lines. It strips wiki links and deduplicates candidates before returning the first three.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Creating all required files and running the seed script.
+
+Planning to add three 130-character tweets per note via a Python seed script. They will appear after note content and before flashcards on the page. A lint check will validate that each note has exactly three tweets.
+
+The lint logic rejects empty strings, tweets over 130 characters, or ones containing wikilinks. The rendered tweets will use a semantic blockquote with a left border accent.</details></think>
+
+_**Agent (auto-low)**_
+
+Building the tweet partial, styles, lint, seed script, then populating all notes.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-tweets.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/notes/single.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/toc.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/seed-note-tweets.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 2,
+  "contextBefore": 1,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/package.json",
+  "pattern": "lint:frontmatter"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/package.json",
+  "pattern": "lint:frontmatter",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "package.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Lint is already updated.
+
+Tweets lint should skip meta/index MOC pages, matching the description lint rule. Running the seed script next.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "note_kind:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "note_kind:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/maps-of-content.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/backlinks.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/systems-for-growth.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/eternal-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/random-duo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/okf-export.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/note-relationships.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/getting-started.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/workplace-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/pressure-reveals-weakness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/create.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/issues.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/graph.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/flashcards.md"
+    }
+  ],
+  "totalFiles": 15,
+  "totalMatches": 18
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Meta/index notes have non-empty bodies and are excluded from key_concept lint.
+
+Meta/index notes will receive seeded tweet frontmatter rather than being skipped. Drafts will be generated from their titles and descriptions.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/seed-note-tweets.py --self-check && python3 scripts/seed-note-tweets.py</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/seed-note-tweets.py --self-check && python3 scripts/seed-note-tweets.py
+```
+
+```
+seed-note-tweets self-check OK
+Wrote tweets on 214 note(s)
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-notes-frontmatter.py && python3 scripts/seed-note-tweets.py --check</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-notes-frontmatter.py && python3 scripts/seed-note-tweets.py --check
+```
+
+```
+FAIL tweets[2] 131 chars (max 130): by-their-fruits.md
+FAIL tweets[2] 131 chars (max 130): change-window.md
+FAIL tweets[2] 131 chars (max 130): compounding.md
+FAIL tweets[2] 131 chars (max 130): control-the-rhythm.md
+FAIL tweets[2] 131 chars (max 130): develop-dont-endanger.md
+FAIL tweets[2] 131 chars (max 130): emotional-regulation.md
+FAIL tweets[2] 131 chars (max 130): expect-the-counter.md
+FAIL tweets[2] 131 chars (max 130): faith-and-works.md
+FAIL tweets[2] 131 chars (max 130): flashcards.md
+FAIL tweets[2] 131 chars (max 130): future-proofing-knowledge.md
+FAIL tweets[2] 131 chars (max 130): git-based-cms.md
+FAIL tweets[2] 131 chars (max 130): great-commission.md
+FAIL tweets[2] 131 chars (max 130): lean-startup.md
+FAIL tweets[2] 131 chars (max 130): love-your-neighbor.md
+FAIL tweets[2] 131 chars (max 130): pareto-principle.md
+FAIL tweets[2] 131 chars (max 130): render-unto-caesar.md
+FAIL tweets[0] 131 chars (max 130): review.md
+FAIL tweets[2] 131 chars (max 130): rollback-principle.md
+FAIL tweets[2] 131 chars (max 130): set-calm-boundaries.md
+FAIL tweets[2] 131 chars (max 130): static-site-client-scope.md
+FAIL tweets[2] 131 chars (max 130): stay-effective-in-new-conditions.md
+FAIL tweets[2] 131 chars (max 130): synthesis-as-a-goal.md
+
+22 note(s) failed frontmatter lint
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/workplace-principles.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The clamp function has a bug. Tweets are ending up at 131 characters instead of 130.
+
+The clamp function needs to reserve space for the ellipsis before truncating. Otherwise the final string becomes 131 characters long.
+
+The fix reserves one character for the ellipsis before truncating. If the resulting string still exceeds the limit, it trims once more.</details></think>
+
+_**Agent (auto-low)**_
+
+Fixing the clamp function — ellipsis pushed some tweets to 131 characters.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/seed-note-tweets.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Re-running the seed script across all notes. The write_tweets function only updates files when their content actually changes.
+
+The clamp bug caused 22 bad tweets. Re-drafting should fix them. Most unchanged notes won't trigger a rewrite.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/seed-note-tweets.py && python3 scripts/lint-notes-frontmatter.py</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/seed-note-tweets.py && python3 scripts/lint-notes-frontmatter.py
+```
+
+```
+Wrote tweets on 26 note(s)
+Note frontmatter lint OK
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | tail -5</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo --gc 2>&1 | tail -5
+```
+
+```
+ Processed images │  331 
+ Aliases          │  721 
+ Cleaned          │    0 
+
+Total in 11409 ms
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-tweets.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All notes were seeded as requested. Skipping tweet lint for meta/index.</details></think>
+
+_**Agent (auto-low)**_
+
+Tweets are wired through end to end.
+
+### Frontmatter
+Every note (214 files) now has a `tweets:` list with **3 lines**, each **≤130 characters**, drafted from `description`, `key_concept`, and `examples` (wikilinks stripped). Example from `capture.md`:
+
+```12:15:content/english/notes/capture.md
+tweets:
+  - "Save what resonates into one inbox I trust - then empty it weekly."
+  - "Friction kills capture."
+  - "One inbox, phone to desktop, weekly process - same as The Trusted Inbox. If I wouldn't act on it or cite it later, it doesn't…"
+```
+
+### Display
+- Partial: `layouts/_partials/notes/note-tweets.html` — card-style list below note body, above flashcards
+- Wired into `layouts/notes/single.html`
+- TOC entry when tweets exist (`layouts/_partials/notes/toc.html`)
+- Styles in `assets/css/custom.css` — elevated panel, left accent border per tweet
+
+### Tooling
+- `scripts/seed-note-tweets.py` — generate or refresh tweets (`pnpm seed:tweets`)
+- `scripts/lint-notes-frontmatter.py` — enforces exactly 3 tweets, max 130 chars, no `[[wikilinks]]`
+- `scripts/notes_content.py` — preserves `tweets` order in frontmatter dumps
+
+Lint and Hugo build both pass. The seeded copy is a first pass from existing frontmatter; you can hand-edit any tweet in place and lint will keep it honest.
+
+---
+
+_**User**_
+
+all notes must have 4 shareable_lines change display to 2 cols
+
+---
+
+_**Agent (auto-low)**_
+
+Checking how shareable lines are defined and rendered so we can require four per note and switch the layout to two columns.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{py,html,md,json,yaml,css}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "shareable_lines|tweets"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "shareable_lines|tweets",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/deliberate-practice.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/life-before-achievement.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/stay-effective-in-new-conditions.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/minimum-effective-dose.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/future-proofing-knowledge.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/notice-the-good.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/free-grace.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/emotional-regulation.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/minimum-viable-product.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/versatility.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/systems-for-growth.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/signal-vs-noise.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/dont-worry.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/free-tier-hosting-stack.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/follow-their-lead.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-trusted-inbox.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/secret-devotion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/flashcards.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/notes_content.py"
+    }
+  ],
+  "totalFiles": 223,
+  "totalMatches": 322
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/note-shareable-lines.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All notes must have 4 shareable_lines. The display should change to 2 columns.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/seed-note-shareable-lines.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "LINE_COUNT|shareable_lines|TWEET_COUNT|3 items"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "LINE_COUNT|shareable_lines|TWEET_COUNT|3 items",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/faith-and-works.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/secret-devotion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-wise-builder.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/digital-garden.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/justification.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/toc.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/analog-capture-tools.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love-god.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/rollback-principle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/abide-in-me.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/staged-rollout.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/mental-models.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/getting-started.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/success-is-stewardship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/git-based-cms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-feynman-technique.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/reconciliation-before-worship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/habit-stacking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/fruits-of-the-spirit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/safety-by-design.md"
+    }
+  ],
+  "totalFiles": 223,
+  "totalMatches": 270
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css",
+  "pattern": "notes-shareable-lines"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css",
+  "pattern": "notes-shareable-lines",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": "assets/css/custom.css"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the seed script to set LINE_COUNT to 4.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "shareable.*3|LINE_COUNT|SHAREABLE_LINE_COUNT"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "shareable.*3|LINE_COUNT|SHAREABLE_LINE_COUNT",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/note-shareable-lines.html"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-07-03_02-07-57Z-jorap-notes-functionality.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "package.json"
+    },
+    {
+      "matchCount": 3,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    },
+    {
+      "matchCount": 6,
+      "uri": "scripts/seed-note-shareable-lines.py"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 18
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating the seed script to set LINE_COUNT to 4, adding a fallback, and asserting 4 shareable lines.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills",
+  "pattern": "shareable_lines|shareable lines"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills",
+  "pattern": "shareable_lines|shareable lines",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/seed-note-shareable-lines.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/seed-note-shareable-lines.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/seed-note-shareable-lines.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/seed-note-shareable-lines.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2**</summary>
+
+Status: **loading**
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>

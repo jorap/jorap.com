@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Draft or verify shareable_lines frontmatter on garden notes (3 lines, max 130 chars)."""
+"""Draft or verify shareable_lines frontmatter on garden notes (4 lines, max 130 chars)."""
 
 from __future__ import annotations
 
@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 NOTES = ROOT / "content/english/notes"
 SKIP = {"_index.md"}
 MAX_LINE = 130
-LINE_COUNT = 3
+LINE_COUNT = 4
 WIKILINK = re.compile(r"\[\[([^\]|#]+)(?:#[^\]]+)?\]\]")
 SKIP_LINE = re.compile(r"^\s*\|")
 
@@ -69,6 +69,7 @@ def draft_shareable_lines(fm: dict) -> list[str]:
         clamp(desc) if desc else clamp(title),
         clamp(f"{title} — {desc}") if desc else clamp(f"On {title} in the garden."),
         clamp(f"More on {title} in JoRap Notes."),
+        clamp(title),
     ]
     for fb in fallbacks:
         if len(candidates) >= LINE_COUNT:
@@ -119,7 +120,7 @@ def _self_check() -> None:
         "examples": ["Jeepney spark on a receipt - one pocket notebook, no sorting yet."],
     }
     lines = draft_shareable_lines(sample)
-    assert len(lines) == 3
+    assert len(lines) == 4
     assert all(len(t) <= MAX_LINE for t in lines)
     assert all("[[" not in t for t in lines)
     errs = lint_shareable_lines(Path("capture.md"), {"shareable_lines": lines})

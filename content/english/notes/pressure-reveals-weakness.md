@@ -8,6 +8,7 @@ shareable_lines:
   - "Pressure reveals what easy days hide - build habits and systems that still work when stakes spike."
   - "Each note below is one move I'd want automatic before the moment arrives."
   - "Pressure Reveals Weakness — Pressure reveals what easy days hide - build habits and systems that still work when stakes spike."
+  - "More on Pressure Reveals Weakness in JoRap Notes."
 relationships:
   - type: alternative
     wikilink: "[[Mental Models]]"

@@ -10,6 +10,7 @@ shareable_lines:
   - "I build on plain files and open formats so an app shutdown doesn't erase years of notes."
   - "Note systems that survive app shutdowns - plain files, open formats, and backups I actually test."
   - "When the gym's booking app shut down for good, my paper training log still had every set"
+  - "When the gym's booking app shut down for good, my paper training log still had every set - I photocopy it once a quarter so I'm…"
 relationships:
   - type: contradicts
     wikilink: "[[Building a Personal API]]"

@@ -14,6 +14,7 @@ shareable_lines:
   - "After I read a source, I write what stuck in my own words - not a pile of copied highlights."
   - "Notes about a source in your own words - not a highlight dump."
   - "Source notes stay tied to the book or talk - your atoms link out, not the other way around."
+  - "Atomic Notes are your claims; literature notes hold the source."
 relationships:
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"

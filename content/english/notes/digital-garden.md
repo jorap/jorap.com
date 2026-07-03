@@ -10,6 +10,7 @@ shareable_lines:
   - "My garden is where notes grow in public - linked, imperfect, alive on Hugo and Git."
   - "My digital garden is a personal site where notes grow in public - linked, imperfect, alive."
   - "Our team's playbook wiki still has last season's sets beside this year's"
+  - "Our team's playbook wiki still has last season's sets beside this year's - I replace a drill when I learn better, not when the…"
 relationships:
   - type: alternative
     wikilink: "[[Drafting in Public]]"

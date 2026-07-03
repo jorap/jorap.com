@@ -13,6 +13,7 @@ shareable_lines:
   - "The Pareto principle is the 80/20 rule - most results come from a small slice of effort."
   - "Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand, not a law)."
   - "I use it when my reading list, task board, or note tags all feel equally important: which few actually moved the needle? Same…"
+  - "The kids' activity list had six things and we skipped three nights"
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

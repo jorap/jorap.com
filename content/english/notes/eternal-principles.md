@@ -11,6 +11,7 @@ shareable_lines:
   - "What Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first."
   - "I split them into one-claim notes so I can link and drill them like the rest of the garden."
   - "The ground is Free Grace: eternal life is God's gift by faith in Christ, not works. These principles aren't the price of heaven…"
+  - "Eternal Principles — What Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the…"
 relationships:
   - type: contradicts
     wikilink: "[[First Principles Thinking]]"

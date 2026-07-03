@@ -13,10 +13,11 @@ shareable_lines:
   - "I review on a schedule so ideas stick - retention, application, and explanation, not fact pile-up."
   - "Review on a schedule before I forget - for **retention**, **application**, and **explanation**, not vanity metrics or fact…"
   - "The wiki holds understanding; cards and SRS hold drill - separate lanes, algorithm handles timing. In this garden, spine notes…"
+  - "I do the same with note cards on capture and gospel lines"
 relationships:
-  - type: alternative
+  - type: contradicts
     wikilink: "[[The Feynman Technique]]"
-    reason: "Card drill vs explain-out-loud when scheduling beats narration"
+    reason: "when explaining gaps beats flashcard drill"
   - type: extends
     wikilink: "[[Evergreen Notes]]"
     reason: "Evergreen understanding lives in the wiki; spaced repetition drills the facts you need cold"

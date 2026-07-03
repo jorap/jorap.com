@@ -10,6 +10,7 @@ shareable_lines:
   - "I write short steps for deploys and incidents so nobody has to improvise when the clock is loud."
   - "SOPs are simple written steps for recurring work - so nobody improvises under stress."
   - "The closing routine after every match"
+  - "The closing routine after every match - ice, tape, log the injury - lives on the locker-room whiteboard so nobody improvises when…"
 relationships:
   - type: contradicts
     wikilink: "[[Adaptability]]"

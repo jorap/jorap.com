@@ -13,6 +13,7 @@ shareable_lines:
   - "Faith alone saves me - works show it's alive, they don't buy heaven."
   - "Paul and James aren't two gospels fighting."
   - "Paul answers *how* I'm saved: trust Christ, not wages. James answers *what* living faith looks like: Abraham offered Isaac…"
+  - "A coworker quoted James like you need faith plus works to get in"
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

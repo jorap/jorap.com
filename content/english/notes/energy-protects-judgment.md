@@ -13,6 +13,7 @@ shareable_lines:
   - "I protect sleep and recovery because tired me makes worse calls than rested me on the same facts."
   - "Fatigue hits more than muscles. It weakens patience, attention, restraint, and the quality of calls you make."
   - "Rest, prep, workload limits, and recovery aren't soft extras - they're part of performing responsibly under pressure."
+  - "I snapped at my kid over a spilled cup after a brutal week; at breakfast it would've been two calm sentences"
 relationships:
   - type: contradicts
     wikilink: "[[The 12 Week Year]]"

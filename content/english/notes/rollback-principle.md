@@ -13,6 +13,7 @@ shareable_lines:
   - "Restore the last good state before you push - when the new state breaks, revert first, debug second."
   - "If I can't explain the path back in one sentence, I'm not ready to ship."
   - "Reversibility is the decision frame; rollback is the rehearsed move. Last quarter I kept a bad Friday deploy live because I…"
+  - "Bad Friday deploy"
 relationships:
   - type: alternative
     wikilink: "[[Blameless After-Action Review]]"

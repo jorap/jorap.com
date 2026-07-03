@@ -13,6 +13,7 @@ shareable_lines:
   - "Believers stand before Christ after salvation to have works evaluated for reward - eternal life was already settled by faith."
   - "Free Grace and Justification already decided where I spend forever."
   - "The judgment seat (Greek *bema* - think awards podium, not criminal court) decides what reward faithful living earned. Eternal…"
+  - "I pictured standing before Christ and panicked like heaven might get revoked"
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

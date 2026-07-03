@@ -13,6 +13,7 @@ shareable_lines:
   - "A git CMS commits markdown to the repo so clients get buttons while the same push-live build still runs."
   - "I publish via Git directly."
   - "Clients often won't. Before I redirect them to WordPress, this is the middle path: marketing volunteer, pastor's secretary…"
+  - "Church volunteer won't open a terminal"
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Effective Dose]]"

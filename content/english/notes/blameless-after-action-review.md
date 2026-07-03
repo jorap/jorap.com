@@ -13,6 +13,7 @@ shareable_lines:
   - "After rollback restores service, I learn what broke in the system - not who to punish for pushing deploy."
   - "Rollback Principle gets users back on the old build; blameless after-action review gets judgment back."
   - "Same shape as Incident Investigation - trace system causes - but the culture rule is no scalpel hunts for a fall guy. Own the…"
+  - "Bad Friday deploy reverted by lunch"
 relationships:
   - type: alternative
     wikilink: "[[Rollback Principle]]"

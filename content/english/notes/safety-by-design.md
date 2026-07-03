@@ -13,6 +13,7 @@ shareable_lines:
   - "I build workflows so the dangerous move is hard - not just a warning label and good intentions."
   - "Rollback is undo-by-design when release goes loud."
   - "Rollback Principle names rollback is undo-by-design when release goes loud. Staged Rollout names fewer people hit before the…"
+  - "We moved the hot oil station off the walk lane before buying more warning signs."
 relationships:
   - type: contradicts
     wikilink: "[[Develop, Don't Endanger]]"

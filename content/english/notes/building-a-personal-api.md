@@ -13,6 +13,7 @@ shareable_lines:
   - "I shape frontmatter and folders so future me and my scripts don't need a fresh briefing every time."
   - "My personal API isn't OAuth and microservices."
   - "It's structured context for future me and my tools without re-explaining everything."
+  - "Our pantry uses the same rule"
 relationships:
   - type: alternative
     wikilink: "[[Local-first Software]]"

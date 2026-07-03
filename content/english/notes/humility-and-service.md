@@ -12,6 +12,7 @@ shareable_lines:
   - "Jesus taught greatness through service - the Son of Man came to serve, not be served."
   - "He washed feet the night before the cross. (Matthew 23:12, Mark 10:43-45)."
   - "Status in the kingdom runs opposite to the world's ladder: exalt yourself and you'll be humbled; humble yourself and you'll be…"
+  - "I helped a neighbor move and waited for credit in the group chat"
 relationships:
   - type: contradicts
     wikilink: "[[Let Your Light Shine]]"

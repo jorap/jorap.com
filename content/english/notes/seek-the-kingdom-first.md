@@ -14,6 +14,7 @@ shareable_lines:
   - "I put God's rule first and let food, status, and tomorrow's worry sort behind that."
   - "Put God's rule and righteousness ahead of food, status, and tomorrow's worry - the rest follows (Matthew 6:33)."
   - "The Sermon on the Mount ties this to not serving two masters (God and wealth) and to storing Treasure in Heaven."
+  - "Kingdom isn't escape from earth - it's God's reign ordering my priorities today. Same job as Signal vs Noise in the PKM stack…"
 relationships:
   - type: contradicts
     wikilink: "[[Signal vs Noise]]"

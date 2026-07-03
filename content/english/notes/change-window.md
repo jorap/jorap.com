@@ -13,6 +13,7 @@ shareable_lines:
   - "I ship risky changes when someone awake can roll back, not Friday night when everyone's offline."
   - "Rollback Principle fails when the people who can revert are asleep or at a wedding."
   - "A change window is boring calendar hygiene: deploy Tuesday morning, freeze before holidays, keep the old build one click away…"
+  - "We stopped Friday-night client deploys after the bad release"
 relationships:
   - type: alternative
     wikilink: "[[Maintenance Window]]"

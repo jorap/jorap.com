@@ -13,6 +13,7 @@ shareable_lines:
   - "Human life is non-negotiable - even when the goal is a championship or a reputation for toughness."
   - "Those goals have value only while the methods used to reach them respect safety."
   - "When an activity offers limited benefit but carries an avoidable risk of irreversible harm, leaders choose the safer course."
+  - "I said no to the backyard rope swing over concrete when a low tree branch and mat did the same fun with softer landings."
 relationships:
   - type: alternative
     wikilink: "[[Reversibility]]"

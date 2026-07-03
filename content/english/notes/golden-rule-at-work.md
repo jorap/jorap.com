@@ -13,6 +13,7 @@ shareable_lines:
   - "Treat colleagues the way you want to be treated - in email tone, credit, deadlines, and hallway gossip."
   - "It's active, not passive: do the helpful thing, don't only avoid harm."
   - "The check is experiential - how would I want feedback delivered, how would I want to be included, how would I want a mistake…"
+  - "My draft reply to the new team manager was technically right and needlessly harsh"
 relationships:
   - type: alternative
     wikilink: "[[Love Your Enemies]]"

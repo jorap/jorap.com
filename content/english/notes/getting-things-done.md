@@ -14,6 +14,7 @@ shareable_lines:
   - "David Allen's capture-clarify-organize loop gives me a trusted inbox, next actions, and a weekly review."
   - "GTD vs PARA splits tasks from notes; Allen owns the task side."
   - "Allen task-inbox system: capture everything, clarify next actions, trust the weekly review."
+  - "Tournament week my brain isn't a filing cabinet"
 relationships:
   - type: contradicts
     wikilink: "[[Slow Productivity]]"

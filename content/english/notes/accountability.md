@@ -13,6 +13,7 @@ shareable_lines:
   - "Accountability is naming who owns the result - and what happens when it slips."
   - "Clear ownership - who answers for the outcome, the miss, and the fix."
   - "The condo board didn't say \"someone should fix the gate\""
+  - "The condo board didn't say \"someone should fix the gate\" - they named a contact and a deadline in the group chat before anyone…"
 relationships:
   - type: contradicts
     wikilink: "[[Forgiveness at Work]]"

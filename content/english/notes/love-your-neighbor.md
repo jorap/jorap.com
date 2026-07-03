@@ -12,6 +12,7 @@ shareable_lines:
   - "Love others the way I'd want care if our roles flipped - second command, paired with loving God."
   - "Jesus lifted Leviticus 19:18 to equal rank with loving God. (Matthew 22:39, Mark 12:31)."
   - "The parable of the Good Samaritan (Luke 10) reframes the question - not \"who counts?\" but \"who acted as neighbor?\" The standard…"
+  - "The parent I'd rather avoid sits on my side every game"
 relationships:
   - type: contradicts
     wikilink: "[[Love Your Enemies]]"

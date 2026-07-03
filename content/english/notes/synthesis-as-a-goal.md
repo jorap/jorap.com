@@ -13,7 +13,11 @@ shareable_lines:
   - "I merge sources into what I believe and can defend - a quote pile isn't the goal."
   - "Collecting quotes isn't PKM for me."
   - "Synthesis is when learning starts - often with First Principles Thinking when a note is still someone else's words. The wiki…"
+  - "Three coaches' clips on our press sat in my folder until I merged them into one drill we actually ran Tuesday."
 relationships:
+  - type: contradicts
+    wikilink: "[[The Collector's Fallacy]]"
+    reason: "when a quote pile feels like belief you haven't written yet"
   - type: extends
     wikilink: "[[Creative Output]]"
     reason: "Collecting quotes isn't enough - merge sources into beliefs you can defend and ship"

@@ -14,6 +14,7 @@ shareable_lines:
   - "I write the doc, do the pass-off, and answer the junior's question - hoarding know-how helps nobody."
   - "Pass on what you figured out - write the doc, do the pass-off, answer the junior's question - don't hoard know-how like private…"
   - "Client sites: the one-page Client Site Pass-Off doc (repo, branch, DNS, env vars) is Share What You Learn in practice - not…"
+  - "A garden full of notes nobody reads is the same failure mode as a team where only one person holds the map. Gospel source: Great…"
 relationships:
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"

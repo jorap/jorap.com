@@ -13,6 +13,7 @@ shareable_lines:
   - "Ask, seek, knock means prayer on schedule - not a one-time burst when desperation hits."
   - "Jesus compares God to a parent who gives bread, not a stone."
   - "The Ask Seek Knock (Matthew 6:9-13) models priority: God's name, kingdom, will - then daily needs and forgiveness. Prayer isn't…"
+  - "I thumb-refresh the news about tomorrow's meeting instead of asking"
 relationships:
   - type: contradicts
     wikilink: "[[Don't Worry]]"

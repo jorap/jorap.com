@@ -21,6 +21,7 @@ shareable_lines:
   - "Hugo, GitHub, and Cloudflare Pages ship static sites for $0 - until build caps, queues, or account limits bite."
   - "**Free tier is not unlimited.** Re-read [Cloudflare limits](https://developers.cloudflare.com/pages/platform/limits/) before…"
   - "Full walkthrough: [How I Built JoRap Notes](/blog/how-i-built-jorap-notes/). Same pipeline for Selling Static Sites and the…"
+  - "**Where free breaks first:** one account hosting many clients who push often burns the 500-build budget fast. A theme with…"
 relationships:
   - type: contradicts
     wikilink: "[[Building a Personal API]]"

@@ -13,6 +13,7 @@ shareable_lines:
   - "Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura."
   - "Smooth talkers ship thorns sometimes."
   - "I look at downstream stress, turnover, delivery, and whether the team got healthier or more brittle. On Static Site Client Scope…"
+  - "The trainer's Instagram was polished"
 relationships:
   - type: contradicts
     wikilink: "[[Life Before Achievement]]"

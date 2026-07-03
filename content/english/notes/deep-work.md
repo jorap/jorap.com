@@ -13,6 +13,7 @@ shareable_lines:
   - "I protect uninterrupted blocks for hard thinking and let capture catch what tries to interrupt."
   - "Protected focus blocks; Capture handles the rest (Capture)."
   - "Tension with Mobile Capture Workflows when the opposite frame fits better."
+  - "Phone in the drawer while I help with math"
 relationships:
   - type: contradicts
     wikilink: "[[Mobile Capture Workflows]]"

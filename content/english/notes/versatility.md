@@ -13,6 +13,7 @@ shareable_lines:
   - "I can plug into more than one lane when the team or the client needs a shift."
   - "You can contribute in more than one lane when the team or the market shifts."
   - "Versatility is staying useful across roles, tools, and contexts - not locked to one lane."
+  - "The rush hit and I jumped on dishes while the line cook called tickets"
 relationships:
   - type: contradicts
     wikilink: "[[Pareto Principle]]"

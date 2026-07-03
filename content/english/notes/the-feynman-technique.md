@@ -14,6 +14,7 @@ shareable_lines:
   - "I teach the note out loud to a blank page - wherever I stumble, I don't understand yet."
   - "Tension with Spaced Repetition when explaining gaps beats flashcard drill."
   - "Teach-it-to-learn-it exposes gaps so evergreen notes stay honest and clear (Evergreen Notes)."
+  - "My kid asked how the fuse box works and I waved vaguely"
 relationships:
   - type: contradicts
     wikilink: "[[Spaced Repetition]]"

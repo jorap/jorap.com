@@ -13,6 +13,7 @@ shareable_lines:
   - "I bend without lying to myself that the hit didn't cost anything."
   - "You take the hit, recover, and stay useful - not pretend the hit didn't hurt."
   - "Resilience is absorbing setback without quitting or becoming useless to the people counting on you."
+  - "Commute delays wrecked my morning three days straight"
 relationships:
   - type: contradicts
     wikilink: "[[Own the Error]]"

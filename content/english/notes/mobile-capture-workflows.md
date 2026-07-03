@@ -13,6 +13,7 @@ shareable_lines:
   - "Mobile capture is one tap to save the spark before I scroll away - share sheet to inbox."
   - "Twelve taps kills the spark."
   - "On mobile, friction is the enemy - most ideas die between the notification and the app switch. I shrunk capture to share sheet →…"
+  - "Halftime idea on the bench"
 relationships:
   - type: contradicts
     wikilink: "[[Analog Capture Tools]]"

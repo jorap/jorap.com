@@ -13,6 +13,7 @@ shareable_lines:
   - "Success is borrowed - I'm accountable for how I use what I was given, not entitled to keep it forever."
   - "Success isn't ownership - it's stewardship of what I was given: time, health, platform, money, influence."
   - "Free Grace settled where I spend forever; stewardship settles what I do with the gifts after. Faithful Steward is the parable…"
+  - "Site traffic spiked after a post hit and I caught myself acting like I'd built a kingdom"
 relationships:
   - type: contradicts
     wikilink: "[[Free Grace]]"

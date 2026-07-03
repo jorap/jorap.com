@@ -13,6 +13,7 @@ shareable_lines:
   - "I stop negotiating merit and receive the kingdom the way a child receives care."
   - "Children don't enter the kingdom by achievement; they receive care they didn't earn."
   - "Jesus wasn't praising ignorance - he was naming the posture Free Grace and Assurance require: stop calculating worthiness and…"
+  - "My daughter asked for water at practice without calculating whether she'd earned it"
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

@@ -14,6 +14,7 @@ shareable_lines:
   - "Compounding is small gains stacked over time - the curve stays flat until it suddenly bends."
   - "Repeat small gains until they stack - keep showing up; the curve looks flat until it doesn't."
   - "Borrowed from finance, but it applies anywhere today's gain makes tomorrow easier: notes linked over years, publish cadence…"
+  - "Heroic weeks feel good; boring repetition wins. The first months look like nothing - that's the trap. Faith parallel: Abide in Me…"
 relationships:
   - type: contradicts
     wikilink: "[[Pareto Principle]]"

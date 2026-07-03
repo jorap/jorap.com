@@ -10,7 +10,11 @@ shareable_lines:
   - "I cite sources in notes to trust my synthesis and find the original later."
   - "I cite sources so I can trust what I wrote and find the original six months later."
   - "I taped the coach's article title under the quote in our playbook so six months later we know if the source still says what we…"
+  - "I tape the newspaper name under the quote on my kid's history project so six months later we know if the source still says what…"
 relationships:
+  - type: contradicts
+    wikilink: "[[Drafting in Public]]"
+    reason: "when rough publish beats pausing to trace every quote"
   - type: extends
     wikilink: "[[Literature Notes]]"
     reason: "Source-first lane before synthesis"

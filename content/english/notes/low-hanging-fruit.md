@@ -13,6 +13,7 @@ shareable_lines:
   - "The easy win I can grab now - do it before I climb for the hard stuff."
   - "Not every task deserves hero energy."
   - "Fix the broken link, publish the half-done draft, delete the folder I haven't opened in a year. Small, obvious, done today. I use…"
+  - "I spent twenty minutes redesigning our training plan when the actual problem was three cones not put away"
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

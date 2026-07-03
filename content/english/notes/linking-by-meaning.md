@@ -13,6 +13,7 @@ shareable_lines:
   - "I link notes so ideas meet in the graph without me memorizing every folder path."
   - "Folders sort. Links think."
   - "I stopped trying to memorize every filename and started wiring Atomic Notes so ideas bump into each other in the graph. One link…"
+  - "I linked \"jeepney delay\" to \"leave earlier\" in my daily note and found it six weeks later when the same route broke again"
 relationships:
   - type: contradicts
     wikilink: "[[PARA Method]]"

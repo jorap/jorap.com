@@ -14,6 +14,7 @@ shareable_lines:
   - "One capture pipe I empty every week - if I don't trust it, I hoard ideas in my head instead."
   - "If I don't trust my inbox, I capture in my head instead. One pipe, weekly empty, no exceptions."
   - "If you don't trust your inbox, you capture in your head instead of using capture (Capture)."
+  - "Tension with Mobile Capture Workflows when one trusted pipe beats frictionless capture everywhere."
 relationships:
   - type: contradicts
     wikilink: "[[Mobile Capture Workflows]]"

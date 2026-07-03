@@ -10,6 +10,7 @@ shareable_lines:
   - "Analog capture wins when the phone dies or the meeting blocks screens - same inbox rule."
   - "Paper capture uses the same inbox rule as digital - for meetings, sermons, and dead phone batteries."
   - "The phone dies mid-sermon and I scribble Philippians references in the margin"
+  - "The phone dies mid-sermon and I scribble Philippians references in the margin - I copy them into my study Bible at the kitchen…"
 relationships:
   - type: alternative
     wikilink: "[[Mobile Capture Workflows]]"

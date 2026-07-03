@@ -12,6 +12,7 @@ shareable_lines:
   - "Heart righteousness goes deeper than outward acts - anger is murder, lust is adultery, in the heart."
   - "Jesus didn't lower the law; he exposed its depth. (Matthew 5:21-30)."
   - "\"You have heard… but I say\" moves righteousness from courtroom compliance to motive and imagination. Under Free Grace, this isn't…"
+  - "I smiled through the bad call and nursed the anger the whole ride home"
 relationships:
   - type: contradicts
     wikilink: "[[Let Your Light Shine]]"

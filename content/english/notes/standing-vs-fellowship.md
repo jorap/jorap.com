@@ -13,6 +13,7 @@ shareable_lines:
   - "Standing with God is settled at faith; fellowship breaks when I sin and restores when I confess - two ledgers."
   - "Free Grace secured eternal life once."
   - "Standing is the verdict: declared righteous on Christ, not re-opened by a bad week. Fellowship is closeness: joy, prayer, worship…"
+  - "I snapped at my kid and dread hit like God revoked my heaven ticket"
 relationships:
   - type: alternative
     wikilink: "[[Compounding]]"

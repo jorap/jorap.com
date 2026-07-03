@@ -13,6 +13,7 @@ shareable_lines:
   - "I drop the bad tool or project when it stops earning its place - past effort is gone either way."
   - "Past effort is gone."
   - "I ask: if I found this today, would I start it? Forgiveness runs the same play on relational debt. Turn the Other Cheek adds the…"
+  - "I kept running a set play that lost four straight because we'd drilled it all preseason"
 relationships:
   - type: contradicts
     wikilink: "[[Forgiveness]]"

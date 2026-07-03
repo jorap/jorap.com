@@ -13,6 +13,7 @@ shareable_lines:
   - "Static sites fit text and images on git push - not live databases or mystery WordPress admins."
   - "Scope the sales call before I quote Selling Static Sites - say no to bad fits in the room, not after deposit."
   - "**Good fits:** portfolio, org brochure, small business presence, project docs, blog where owner learns Git or pays retainer…"
+  - "Cafe owner wanted online ordering"
 relationships:
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"

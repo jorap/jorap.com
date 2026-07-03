@@ -13,6 +13,7 @@ shareable_lines:
   - "My weekly review is a checklist on purpose - inbox, calendar, projects, one express action."
   - "Boring on purpose."
   - "Weekly review as a checklist - inbox, calendar, projects, one express action."
+  - "Inbox, calendar, projects, one express action"
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Effective Dose]]"

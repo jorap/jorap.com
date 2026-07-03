@@ -13,6 +13,7 @@ shareable_lines:
   - "Leadership is owning direction, pace, and care when people look to you - title optional."
   - "You take responsibility for direction, pace, and care when people look to you - title optional."
   - "Leadership is taking responsibility for direction, pace, and care when others look to you."
+  - "Our line cook never got named manager; leadership was calm voice, who goes where, and nobody blaming while the extinguishers were…"
 relationships:
   - type: contradicts
     wikilink: "[[Servant Leadership]]"

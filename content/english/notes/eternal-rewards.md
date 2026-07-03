@@ -12,6 +12,7 @@ shareable_lines:
   - "Jesus promised believers the Father will repay faithful obedience after salvation, not as the price of eternal life."
   - "Free Grace settles where I spend forever: faith in Christ alone. (Matthew 6:4, 6:18; 16:27; 25:21)."
   - "Eternal rewards settle what the Father pays the saved life for walking faithfully - including hidden devotion (Secret Devotion)…"
+  - "I stayed late to help reset the gym alone and immediately wanted to mention it at the next practice"
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

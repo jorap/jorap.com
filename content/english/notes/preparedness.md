@@ -13,6 +13,7 @@ shareable_lines:
   - "I'd rather run the fire drill bored than improvise when the alarm is real."
   - "Rehearse, document, and test before the emergency owns the clock."
   - "Preparedness is practicing and documenting moves before you need them at full speed."
+  - "We ran our inbound play every Thursday whether we needed it or not"
 relationships:
   - type: contradicts
     wikilink: "[[Low Hanging Fruit]]"

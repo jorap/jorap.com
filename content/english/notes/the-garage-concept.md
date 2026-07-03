@@ -13,6 +13,7 @@ shareable_lines:
   - "My vault is the garage for scraps and experiments - the blog is the showroom, and I keep them separate."
   - "The garage holds tools, scraps, experiments. The showroom is the blog. I don't confuse the two."
   - "Client pass-off uses the same split: Selling Static Sites workshop in my drafts; the client's deploy branch is the showroom on…"
+  - "The practice film library is messy; the highlight reel for parents is one clean cut"
 relationships:
   - type: contradicts
     wikilink: "[[Drafting in Public]]"

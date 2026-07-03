@@ -13,6 +13,7 @@ shareable_lines:
   - "Repeated close calls slowly redefine 'normal' until disaster feels surprising but was predictable."
   - "The third unchallenged shortcut is the warning - not the accident that finally forces a meeting."
   - "Heed Every Near-Miss logs each close call; Blameless After-Action Review when \"nobody died\" can't end the talk."
+  - "Third time someone ran the red light in the parking lot and nobody wrote it up"
 relationships:
   - type: contradicts
     wikilink: "[[Blameless After-Action Review]]"

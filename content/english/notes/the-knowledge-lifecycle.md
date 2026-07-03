@@ -10,6 +10,7 @@ shareable_lines:
   - "Ideas move through capture, use, polish, fade, and archive in my vault - I match effort to the stage."
   - "Ideas move through capture, use, polish, fade, and archive - spend effort where the note actually is."
   - "The new set play lives in \"learning\" for three weeks, graduates to \"game plan,\" then gets archived when we change offense."
+  - "The school FAQ note started as a fleeting capture, got updated all semester, then moved to archive when the kid changed schools."
 relationships:
   - type: contradicts
     wikilink: "[[Evergreen Notes]]"

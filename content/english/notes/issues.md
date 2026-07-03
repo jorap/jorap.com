@@ -11,6 +11,7 @@ shareable_lines:
   - "Broken wikilinks and note titles mentioned in prose without a `wikilink` - listed below and on each affected note. Faith…"
   - "Issues — Broken wikilinks and note titles mentioned in prose without a `wikilink` - listed below and on each affected note. Faith…"
   - "More on Issues in JoRap Notes."
+  - "Issues"
 slug: "issues"
 date: "2026-06-19 08:00:00+00:00"
 image: "/images/note.jpg"

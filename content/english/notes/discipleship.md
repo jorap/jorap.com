@@ -13,6 +13,7 @@ shareable_lines:
   - "Discipleship is following Jesus daily - learning and doing what He said after faith, not buying eternal life."
   - "Under Free Grace, discipleship is Grateful Obedience - grateful response, not payment."
   - "Sanctification is the slow becoming that walk produces. Fruits of the Spirit is what people see when the walk is real - love…"
+  - "I knew the basketball handbook cold and still yelled at the ref"
 relationships:
   - type: alternative
     wikilink: "[[The Collector's Fallacy]]"

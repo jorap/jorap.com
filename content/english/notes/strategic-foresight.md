@@ -13,6 +13,7 @@ shareable_lines:
   - "Look past today's win to what happens after everyone reacts."
   - "Look past the immediate win."
   - "The board six months out - after everyone reacts - matters more than tonight's score."
+  - "The club signed a young backup keeper before the starter's contract year"
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Viable Product]]"

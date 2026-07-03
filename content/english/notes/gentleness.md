@@ -12,6 +12,7 @@ shareable_lines:
   - "Gentleness fruit is strength held back on purpose, not weakness or loud correction that skips love."
   - "Fruits of the Spirit lists gentleness beside patience and self-control - power restrained, not power absent. (Galatians 5:22)."
   - "Humility and Service is the garden echo: greatness is serving, not being served; the Son washed feet the night before the cross…"
+  - "Correction with my kid turned sharp"
 relationships:
   - type: alternative
     wikilink: "[[Self-Control]]"

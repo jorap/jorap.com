@@ -12,6 +12,7 @@ shareable_lines:
   - "Tender regard the Spirit grows for the person in front of you - not polite distance or performance niceness."
   - "Fruits of the Spirit names kindness beside goodness - soft strength toward actual people, not a generic nice-guy pose. (Galatians…"
   - "Mercy is the garden echo: compassion on the guilty, act for the hurt person, release the debt you're counting because the King…"
+  - "The parent I'd rather avoid sits on my side every game"
 relationships:
   - type: contradicts
     wikilink: "[[Judge Not]]"

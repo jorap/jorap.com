@@ -13,6 +13,7 @@ shareable_lines:
   - "I plan what happens after the other side adapts, not just how my opening move looks on paper."
   - "The opening move isn't the game."
   - "I rehearse what happens after they adapt - that's Second-Order Thinking with skin in it. Adaptability on my side matters more…"
+  - "I offered extra screen time for chores and my kid negotiated harder tasks by day three"
 relationships:
   - type: contradicts
     wikilink: "[[Low Hanging Fruit]]"

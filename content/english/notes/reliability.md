@@ -13,6 +13,7 @@ shareable_lines:
   - "Reliability is closing loops on time often enough that people stop asking twice."
   - "Others can plan around you because you close loops, hit deadlines, and show up the same way twice."
   - "Reliability is doing what you said, when you said, often enough that others can plan around you."
+  - "The backup alarm texts if the freezer warms"
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Viable Product]]"

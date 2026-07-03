@@ -13,6 +13,7 @@ shareable_lines:
   - "I owe Caesar what Caesar's owed and God what I'm His - no party gets my soul."
   - "Render Unto Caesar names the split: coin to Caesar, self to God."
   - "Seek the Kingdom First still ranks God's reign above every election cycle - without excusing dodged taxes, permits, or jury duty…"
+  - "Tax bill landed and part of me wanted to treat paying it like betraying the kingdom"
 relationships:
   - type: alternative
     wikilink: "[[Peacemakers]]"
