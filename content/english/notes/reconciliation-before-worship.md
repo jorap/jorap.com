@@ -5,8 +5,6 @@ description: "If your brother has something against you, go reconcile first - th
 key_concept: |
   Jesus elevates restored relationship over religious performance. (Matthew 5:23-24). Worship with an unreconciled heart is hollow. The initiative is on the one who knows there's a breach - leave the altar, go, be reconciled, then return. This is fellowship restored, not salvation re-earned: [[Free Grace]] already settled my standing before God ([[Standing vs Fellowship]]). Same discipline as [[Note Relationships]] in the garden: broken links between notes need typed repair - broken links between people need face-to-face repair first.
   
-  Same discipline as Note Relationships in the garden: broken links between notes need typed repair.
-  
   If your brother has something against you, go reconcile first - then come offer your gift.
 examples:
   - "I warmed up ready to compete while my teammate still had something against me from Wednesday - fix it courtside, then play."

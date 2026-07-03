@@ -6,13 +6,13 @@ description: "Open Knowledge Format (OKF) bundle - the same garden, flattened fo
 key_concept: |
   Authoring stays in Hugo (`[[wikilinks]]`, graph, flashcards); this bundle is the pass-off copy for ChatGPT, agents, and tools outside the site.
   
-  Regenerated on production build and via `npm run export:okf`.
-  
-  Authoring stays in Hugo; OKF is the agent-readable pass-off copy.
-  
   Open Knowledge Format (OKF) bundle.
   
   The same garden, flattened for agents - markdown paths, required type, no Hugo build.
+  
+  Regenerated on production build and via npm run export:okf.
+  
+  Authoring stays in Hugo; OKF is the agent-readable pass-off copy.
 shareable_thought:
   - "Open Knowledge Format (OKF) bundle."
   - "The same garden, flattened for agents - markdown paths, required type, no Hugo build."

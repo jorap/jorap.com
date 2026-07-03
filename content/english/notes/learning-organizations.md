@@ -5,9 +5,9 @@ description: "Teams that change process after mistakes instead of burying them."
 key_concept: |
   "What broke" line stays until fixed or accepted.
   
-  Change the process after a miss - don't bury it and move on.
-  
   Teams that change process after mistakes instead of burying them.
+  
+  Change the process after a miss - don't bury it and move on.
 examples:
   - "After every tournament they kept one \"what broke\" line on the whiteboard until it was fixed or accepted."
   - "After every messy school morning we kept one \"what broke\" sticky on the fridge until the routine changed or we accepted the tradeoff."

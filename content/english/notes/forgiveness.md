@@ -5,10 +5,6 @@ description: "I extend the forgiveness I already received, not ledger-keeping on
 key_concept: |
   The [[Ask Seek Knock]] builds forgiveness into daily rhythm. (Matthew 6:14-15, 18:21-35). The parable of the unforgiving servant (Matthew 18) makes the math plain: the king forgave an unpayable debt - picture of [[Free Grace]] already given - and the servant's refusal to forgive a small debt exposed a heart out of step with [[Mercy]]. Same move as [[Sunk Cost Fallacy]] in reverse: I stop treating past hurt as a reason to keep collecting on a debt that's already been cleared. Seventy times seven ends the ledger-keeping. For believers, unforgiveness chokes fellowship and joy; it doesn't undo eternal life bought by faith ([[Standing vs Fellowship]] and [[Loss of Reward]] keep the categories straight).
   
-  Picture of Free Grace already given - and the servant's refusal to forgive a small debt exposed a heart out of step with Mercy.
-  
-  The Ask Seek Knock builds forgiveness into daily rhythm. (Matthew 6:14-15, 18:21-35).
-  
   I extend the forgiveness I already received, not ledger-keeping on debts Christ cleared.
 examples:
   - "My kid hurt my feelings at breakfast and I said \"it's fine\" while nursing the grudge - forgiveness is releasing the debt, not pretending it didn't matter."

@@ -5,11 +5,11 @@ description: "My daily note is a scratch pad for today's fragments, not a diary 
 key_concept: |
   Daily notes are fleeting by default, with quick buffer flushes between tasks.
   
+  My daily note is a scratch pad for today's fragments, not a diary I expect to last forever.
+  
   A scratch pad for the day - not every fragment deserves to become permanent.
   
   Promote a repeating fragment to a real note; let the rest fade.
-  
-  My daily note is a scratch pad for today's fragments, not a diary I expect to last forever.
 examples:
   - "Today's pocket slip is just fragments - pick up basketball shoes, ice after practice, call coach back - I promote one line to a real note when it repeats."
   - "My work daily note today is three fragments - a Slack thread to revisit, a lunch idea, a reminder to call the dentist - only the one that keeps repeating earns a real note; the rest fades by Friday."

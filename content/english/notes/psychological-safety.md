@@ -5,11 +5,11 @@ description: "People can name mistakes and near-misses without fear of humiliati
 key_concept: |
   Join their framing before you redirect the blame.
   
+  People can name mistakes and near-misses without fear of humiliation or retaliation.
+  
   Near-miss reports need gratitude, not punishment.
   
   Thank the person for speaking up - silence teaches the next person to hide the miss.
-  
-  People can name mistakes and near-misses without fear of humiliation or retaliation.
 examples:
   - "My kid told me he broke the vase - I thanked him for saying it instead of making him dread confessing next time."
   - "I named the wrong turn to my carpool - nobody mocked it, so I speak up before the next missed exit."
@@ -17,7 +17,7 @@ shareable_thought:
   - "People can name mistakes and near-misses without fear of humiliation or retaliation."
   - "Join their framing before you redirect the blame."
   - "Near-miss reports need gratitude, not punishment."
-  - "Thank the person for speaking up."
+  - "Thank the person for speaking up - silence teaches the next person to hide the miss."
 relationships:
   - type: contradicts
     wikilink: "[[Break the Escalation Cycle]]"

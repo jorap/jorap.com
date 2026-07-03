@@ -7,8 +7,6 @@ key_concept: |
   
   Wash feet in the sprint, not only in the all-hands speech. Gospel depth: [[Humility and Service]]. I can explain this in a leadership book club without opening a sermon.
   
-  Gospel depth: Humility and Service.
-  
   I unblock the team, coach through the mess, take blame up, and pass credit down.
 examples:
   - "I had the title at home but noticed I was hoarding easy wins - servant leadership meant the messy bedtime shift while my partner got the break."

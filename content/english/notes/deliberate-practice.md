@@ -5,11 +5,11 @@ description: "I train the weak slice on purpose - feedback, correction, repeat -
 key_concept: |
   Deliberate practice is focused reps on the part that breaks - not mindless repetition of what already works.
   
-  Feedback, correction, repeat - not the part I already nail.
-  
   The discomfort is the signal you're in the right spot - comfortable reps mean you drifted back to what you already do well.
   
   I train the weak slice on purpose.
+  
+  Feedback, correction, repeat - not the part I already nail.
 examples:
   - "The new cashier drills voids and returns ten times, not the whole shift on autopilot - feedback, correction, repeat on what breaks."
   - "My kid's recital died in the bridges between songs - deliberate practice was running only those transitions ten times; the rest she already knew."

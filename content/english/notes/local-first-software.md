@@ -5,17 +5,17 @@ description: "Local-first means my device holds the truth; sync is optional icin
 key_concept: |
   Local-first means your device holds the truth; choose what's public, what's private, and what gets encrypted.
   
-  Sync should merge edits without picking last-write-wins by clock alone.
-  
   Local-first means my device holds the truth; sync is optional icing.
   
   Backup should behave the same way as local-first storage - it shouldn't need the cloud to prove your data exists.
+  
+  Sync should merge edits without picking last-write-wins by clock alone.
 examples:
   - "If the phone dies mid-grocery run, the list on the fridge still works."
   - "Grandma's recipe cards live in the kitchen drawer - not an app that might vanish."
 shareable_thought:
   - "Local-first means my device holds the truth; sync is optional icing."
-  - "Backup should behave the same way."
+  - "Backup should behave the same way as local-first storage - it shouldn't need the cloud to prove your data exists."
   - "Local-first means your device holds the truth; choose what's public, what's private, and what gets encrypted."
   - "Sync should merge edits without picking last-write-wins by clock alone."
 relationships:

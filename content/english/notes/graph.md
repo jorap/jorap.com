@@ -10,11 +10,13 @@ key_concept: |
   **Top 20%** = most total wikilinks. **Middle** = between the tails. **Bottom 20%** = fewest total wikilinks. **No body links** = no wikilinks in the note body (See also excluded). **Orphans** = no inbound wikilinks.
   
   Open the link map and filter by link rank.
+  
+  The top twenty percent by wikilinks are the anchors worth pruning around.
 shareable_thought:
   - "Open the link map and filter by link rank."
   - "Spot hubs, orphans, and notes with no body links."
   - "Maintenance targets, not vanity metrics."
-  - "Top 20% = most total wikilinks."
+  - "The top twenty percent by wikilinks are the anchors worth pruning around."
 slug: "graph"
 date: "2026-06-18 08:00:00+00:00"
 image: "/images/note.jpg"

@@ -3,19 +3,21 @@ title: "Complete the Cycle"
 meta_title: "Complete the Cycle - Work Isn't Done at the Main Action"
 description: "The meeting isn't done until recap, owners, dates, and verification close the loop."
 key_concept: |
-  A meeting needs follow-up.
-  
-  A decision needs execution. A mistake needs correction. A task needs verification. The loop closes when the downstream work is done.
-  
   The meeting isn't done until recap, owners, dates, and verification close the loop.
+  
+  A decision without an owner and a date is still just talk - execution is where the loop actually starts.
+  
+  Mistakes need correction, not ceremony - fix the process or the miss comes back next week.
+  
+  Verification closes the loop - if nobody checks it landed, the cycle never really finished.
 examples:
   - "Halftime talk ended with \"we'll fix the press tomorrow\" - I wrote the one drill on the whiteboard before anyone left the gym."
   - "Parent-teacher night ended with \"we'll email the action plan\" - the recap went out before anyone left the parking lot, names, dates, who owns what."
 shareable_thought:
   - "The meeting isn't done until recap, owners, dates, and verification close the loop."
-  - "A meeting needs follow-up."
-  - "A decision needs execution."
-  - "A mistake needs correction."
+  - "A decision without an owner and a date is still just talk - execution is where the loop actually starts."
+  - "Mistakes need correction, not ceremony - fix the process or the miss comes back next week."
+  - "Verification closes the loop - if nobody checks it landed, the cycle never really finished."
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Viable Product]]"

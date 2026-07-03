@@ -9,8 +9,6 @@ key_concept: |
   
   I drop the bad tool or project when it stops earning its place.
   
-  Forgiveness runs the same play on relational debt.
-  
   Past effort is gone either way.
 examples:
   - "I kept running a set play that lost four straight because we'd drilled it all preseason - sunk cost is asking whether I keep it because it cost time, not because it still works."

@@ -7,8 +7,6 @@ key_concept: |
   
   Jesus wasn't praising ignorance - he was naming the posture [[Free Grace]] and [[Assurance]] require: stop calculating worthiness and receive the gift. Same beginner posture as [[Getting Started]] in the garden - assume you're new, follow the guide, don't perform expertise you don't have.
   
-  Same beginner posture as Getting Started in the garden.
-  
   I stop negotiating merit and receive the kingdom the way a child receives care.
 examples:
   - "My daughter asked for water at practice without calculating whether she'd earned it - I caught myself running a merit scoreboard with God before I'd even say good morning."

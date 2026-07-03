@@ -7,17 +7,21 @@ key_concept: |
   
   Christ paid what I couldn't. I receive eternal life by believing His promise - not by climbing a moral ladder. Same shape as [[Minimum Effective Dose]] for salvation: faith is the smallest act that still works - not zero effort, not a lifetime of merit. Every [[Eternal Principles]] Jesus taught flows from that ground: principles for how believers live in grateful response, pursue fellowship with God, and store up [[Eternal Rewards]] - never as currency to buy heaven. [[Loss of Reward]] keeps the categories straight when a believer wastes years or worthless works burn: salvation stays on Christ, reward may shrink. Ephesians 2:10 keeps the order straight: saved by grace through faith first, then created in Christ Jesus for good works. [[Justification]] is free and finished at faith; [[Sanctification]], [[Discipleship]], and forgiveness toward others belong to the walk after. [[Grateful Obedience]] names the posture: obey from thanks, not to qualify. [[Assurance]] and [[Standing vs Fellowship]] keep doubt from collapsing standing with closeness. [[Faith and Works]] keeps the lanes straight: works prove faith alive, they don't buy heaven.
   
-  Grace is a gift I never earned.
-  
   Eternal life is Christ's gift received by faith alone, not wages for commandments, principles, or good works.
+  
+  Grace is a gift I never earned - Christ paid what I couldn't.
+  
+  Good works prove faith is alive - they never buy the ticket to heaven.
+  
+  Faith is the smallest act that still works - not a lifetime of merit stacked on top.
 examples:
   - "A teammate listed every good deed this month like it was his ticket to heaven - I trust Christ's promise for eternal life, not my report card from the season."
   - "My kid thinks he has to be extra good the week before his birthday to \"deserve\" presents - grace doesn't work that way with God either; the gift's already decided before the behavior."
 shareable_thought:
   - "Eternal life is Christ's gift received by faith alone, not wages for commandments, principles, or good works."
-  - "Grace is a gift I never earned."
-  - "Unmerited favor (Ephesians 2:8-9; John 3:16; Romans 4:5)."
-  - "Christ paid what I couldn't."
+  - "Grace is a gift I never earned - Christ paid what I couldn't."
+  - "Good works prove faith is alive - they never buy the ticket to heaven."
+  - "Faith is the smallest act that still works - not a lifetime of merit stacked on top."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

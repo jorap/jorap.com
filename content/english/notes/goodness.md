@@ -5,10 +5,6 @@ description: "Goodness fruit is upright action that points to God, not hidden vi
 key_concept: |
   [[Fruits of the Spirit]] pairs goodness with kindness - outward integrity that points to God, not a personal brand. (Galatians 5:22). [[Let Your Light Shine]] is the garden echo: do good visibly so others glorify the Father, not so you collect likes. [[Heart Righteousness]] keeps the inside matching the outside - upright deeds from motive, not polish over poison. [[Secret Devotion]] on the other side: some good stays hidden; goodness fruit still refuses to bury what should point to God.
   
-  Fruits of the Spirit pairs goodness with kindness.
-  
-  Heart Righteousness keeps the inside matching the outside.
-  
   Goodness fruit is upright action that points to God, not hidden virtue or good deeds performed for applause.
 examples:
   - "I brought extra water for the whole bench and almost posted about it - goodness fruit shines so someone thinks God is real, not so my brand grows."

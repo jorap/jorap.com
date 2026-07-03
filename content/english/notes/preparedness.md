@@ -5,11 +5,11 @@ description: "I'd rather run the fire drill bored than improvise when the alarm 
 key_concept: |
   Rehearse, document, and test before the emergency owns the clock.
   
+  I'd rather run the fire drill bored than improvise when the alarm is real.
+  
   Practice the move slowly so you can run it when the clock is loud.
   
   The rehearsal doesn't need to be dramatic - walking the checklist once on a slow day counts.
-  
-  I'd rather run the fire drill bored than improvise when the alarm is real.
 examples:
   - "We ran our inbound play every Thursday whether we needed it or not - schools run fire drills on sunny Tuesdays so kids aren't learning exits during smoke."
   - "Our restaurant ran the closing checklist on a slow Tuesday; Saturday night's rush was boring because everyone had already walked it once."

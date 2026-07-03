@@ -5,11 +5,11 @@ description: "I aim for a pace I can hold next month without burning out or cutt
 key_concept: |
   Sustainable performance is output you can keep without burning out or cutting corners on safety.
   
+  I aim for a pace I can hold next month without burning out or cutting safety corners.
+  
   Pace you can repeat beats a sprint that mortgages next month.
   
   The sprint feels like progress in the moment; the bill for it always arrives, just later than planned.
-  
-  I aim for a pace I can hold next month without burning out or cutting safety corners.
 examples:
   - "I can't sprint bedtime-and-homework heroics five nights a row - sustainable performance is an earlier lights-out one night so Thursday doesn't blow up."
   - "The kitchen ran Friday pace five nights straight and quality slid by Wednesday - sustainable performance would've cut a night off instead of mortgaging next week's tickets."

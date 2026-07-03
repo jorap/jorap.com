@@ -9,8 +9,6 @@ key_concept: |
   
   I wait without turning brittle.
   
-  Fruits of the Spirit names patience in the same cluster as gentleness and self-control.
-  
   The Spirit grows a slow fuse, not a countdown to snapping.
 examples:
   - "I snapped at my kid after a week with almost no prayer - Galatians patience comes from walking by the Spirit, not forcing virtue until Friday."

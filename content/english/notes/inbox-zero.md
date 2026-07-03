@@ -3,19 +3,25 @@ title: "Inbox Zero"
 meta_title: "Inbox Zero"
 description: "I process the inbox to empty each week - decide, don't hoard."
 key_concept: |
+  I process the inbox to empty each week - decide, don't hoard.
+  
   Process the inbox to empty regularly - each item decided, not hoarded.
   
-  Empty the capture pipe on schedule - zero isn't vanity, it's proof the system still works. [[The Trusted Inbox]] is the habit; zero is the proof you still empty it.
+  Zero isn't vanity - it's proof the capture system still works when Monday doesn't start with dread.
   
-  I process the inbox to empty each week - decide, don't hoard.
+  Empty the capture pipe on schedule, or ideas retreat back into my head.
+  
+  Each item gets decide, delete, or defer - not another week in the pile.
+  
+  If I won't empty the inbox, I stop trusting it and hoard in my head instead.
 examples:
   - "Friday I triaged the team inbox to zero - Monday practice started from decisions made, not dread about who forgot what."
   - "Sunday night we emptied the kitchen catch-all tray - each slip got a decision so school week didn't start with mystery piles."
 shareable_thought:
   - "I process the inbox to empty each week - decide, don't hoard."
-  - "Process the inbox to empty regularly."
-  - "Each item decided, not hoarded."
-  - "Empty the capture pipe on schedule."
+  - "Each item gets decide, delete, or defer - not another week in the pile."
+  - "Zero isn't vanity - it's proof the capture system still works."
+  - "If I won't empty the inbox, I stop trusting it and hoard in my head instead."
 relationships:
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"

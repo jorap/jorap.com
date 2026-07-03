@@ -5,9 +5,9 @@ description: "Ideas move through capture, use, polish, fade, and archive in my v
 key_concept: |
   Ideas move through capture, use, polish, fade, and archive - spend effort where the idea actually is.
   
-  I match effort to the stage an idea is in, not the stage I wish it were.
-  
   Ideas move through capture, use, polish, fade, and archive in my vault.
+  
+  I match effort to the stage an idea is in, not the stage I wish it were.
   
   Spend effort on polish only when an idea is in reuse - not when it's still a raw capture.
 examples:
@@ -15,7 +15,7 @@ examples:
   - "The school FAQ note started as a fleeting capture, got updated all semester, then moved to archive when the kid changed schools."
 shareable_thought:
   - "Ideas move through capture, use, polish, fade, and archive in my vault."
-  - "I match effort to the stage."
+  - "I match effort to the stage an idea is in, not the stage I wish it were."
   - "Spend effort where the idea actually is."
   - "Spend effort on polish only when an idea is in reuse - not when it's still a raw capture."
 relationships:

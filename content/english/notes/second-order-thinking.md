@@ -5,11 +5,11 @@ description: "I ask what the clever fix triggers next - copycats, shortcuts, and
 key_concept: |
   Ask what happens after the first win - incentives shift, copycats arrive, shortcuts compound.
   
-  Second-order thinking asks what happens after the first consequence - not only whether the move works today.
-  
   I ask what the clever fix triggers next.
   
   Copycats, shortcuts, and incentives I didn't plan for.
+  
+  Second-order thinking asks what happens after the first consequence - not only whether the move works today.
 examples:
   - "Free pizza after games pulled families in - then the parking lot jammed and refs quit early - I asked what happens after the first rush."
   - "I offered unlimited screen time on sick days - then bedtime fights lasted a week after they recovered."

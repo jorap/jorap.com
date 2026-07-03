@@ -10,8 +10,6 @@ key_concept: |
   Do the honest work when there's no audience.
   
   Accurate time logs, real tests, the fix nobody asked for yet.
-  
-  Some good work should stay hidden; some should shine in Let Your Light Shine.
 examples:
   - "The market scale stays honest when the seller steps away to take a call - I could've scooped light on the last bag of rice; instead I re-weighed it before the customer came back."
   - "I ran the real spelling check on the homework when my kid wasn't looking over my shoulder."

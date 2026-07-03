@@ -5,19 +5,19 @@ description: "Mental models are thinking shortcuts I keep when they survive real
 key_concept: |
   Mainstream mental models for decisions and performance - note the ones that earn repeat use.
   
-  Retire the model when real decisions prove it wrong.
-  
   A model nobody reaches for is the same problem as a junk-drawer bookmark - recall under pressure is the value.
   
   Mental models are thinking shortcuts I keep when they survive real decisions.
+  
+  Retire the model when real decisions prove it wrong.
 examples:
   - "The restaurant had twelve menu tweaks on the whiteboard - I picked the two that actually cut ticket times and shelved the rest."
   - "Waze showed four commute routes - I stuck to the one that saves gas on the Tuesday school run, not the scenic detour."
 shareable_thought:
   - "Mental models are thinking shortcuts I keep when they survive real decisions."
   - "Mainstream mental models for decisions and performance."
-  - "Note the ones that earn repeat use."
   - "Retire the model when real decisions prove it wrong."
+  - "Note the ones that earn repeat use."
 relationships:
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"

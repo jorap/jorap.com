@@ -7,17 +7,15 @@ key_concept: |
   
   Remember CODE: [[Capture]], organize, distill, express. [[The Second Brain Workflow]] is how CODE and PARA run as one daily-to-weekly loop. The system fails when any step is just for show. I review whether each step still earns its place every quarter.
   
-  My head is for thinking, not storing.
+  My head is for thinking, not storing - notes hold what I'd otherwise lose.
   
-  Notes hold what I'd otherwise lose.
-  
-  Remember CODE: Capture, organize, distill, express.
+  Notes hold what I'd otherwise lose - capture is how ideas survive the week.
 examples:
   - "A play idea hits during warm-ups and I voice-memo it before the gym noise eats it - my head is for having ideas, the inbox is for storing them until review."
   - "A sermon line lands mid-shift and I scribble it on a receipt - one [[trusted inbox]], no sorting yet, process it Sunday when the spark is safe."
 shareable_thought:
-  - "My head is for thinking, not storing."
-  - "Notes hold what I'd otherwise lose."
+  - "My head is for thinking, not storing - notes hold what I'd otherwise lose."
+  - "Notes hold what I'd otherwise lose - capture is how ideas survive the week."
   - "Offload ideas so my head can think, not hoard."
   - "Remember CODE: Capture, organize, distill, express."
 relationships:

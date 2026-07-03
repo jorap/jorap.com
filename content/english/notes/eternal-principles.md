@@ -8,8 +8,6 @@ key_concept: |
   
   The ground is [[Free Grace]]: eternal life is God's gift by faith in Christ, not works. These principles aren't the price of heaven. They're how I try to live once I've already received it. Start at [[Free Grace]] if the order matters. Then wander by section below. Gospel spine notes carry six review cards each - drill at [/notes/review/](/notes/review/) and filter by **Eternal Principles** (full deck), **Faith**, **Commandments**, **Ethics**, **Prayer**, **Priorities**, or **Discipleship** to match each section.
   
-  The ground is Free Grace: eternal life is God's gift by faith in Christ, not works.
-  
   What Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first.
 shareable_thought:
   - "What Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first."

@@ -7,11 +7,9 @@ key_concept: |
   
   [[Mental Models]] gives lenses; this field names why nudges beat sermons.
   
-  A well-designed default beats a well-argued lecture almost every time.
-  
   People choose what default and friction make easy, not what a neat lecture said they should pick.
   
-  Mental Models gives lenses; this field names why nudges beat sermons.
+  A well-designed default beats a well-argued lecture almost every time.
 examples:
   - "The cafeteria put fruit at eye level and salad sales jumped - no sermon required."
   - "Default opt-in to save made more people enroll than the bonus email campaign."

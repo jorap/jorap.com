@@ -5,9 +5,9 @@ description: "I protect uninterrupted blocks for hard thinking and let capture c
 key_concept: |
   The block only works if it's actually protected - phone away, door closed, not just fewer tabs open.
   
-  Hard thinking earns a protected block. Capture handles what tries to interrupt it.
-  
   I protect uninterrupted blocks for hard thinking and let capture catch what tries to interrupt.
+  
+  Hard thinking earns a protected block. Capture handles what tries to interrupt it.
 examples:
   - "Phone in the drawer while I help with math - one problem set actually finished instead of three distracted false starts."
   - "Phone in the gym bag for ninety minutes - one drill breakdown written that'd been \"almost done\" for weeks."
@@ -15,7 +15,7 @@ shareable_thought:
   - "I protect uninterrupted blocks for hard thinking and let capture catch what tries to interrupt."
   - "The block only works if it's actually protected."
   - "Phone away, door closed, not just fewer tabs open."
-  - "Hard thinking earns a protected block."
+  - "Hard thinking earns a protected block. Capture handles what tries to interrupt it."
 relationships:
   - type: contradicts
     wikilink: "[[Mobile Capture Workflows]]"

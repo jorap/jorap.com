@@ -5,11 +5,11 @@ description: "Graph view analytics reads my link map for orphans, over-connected
 key_concept: |
   The link map shows notes with no links, notes with too many, and gaps I forgot to connect.
   
+  Graph view analytics reads my link map for orphans, over-connected hubs, and gaps I'd forgotten.
+  
   Read the graph for orphans and over-linked hubs before they skew the garden.
   
   Orphan notes and over-linked hubs both signal a graph that needs pruning.
-  
-  Graph view analytics reads my link map for orphans, over-connected hubs, and gaps I'd forgotten.
 examples:
   - "I laid out the shift-change chart and three tasks had zero arrows to an owner - the orphan list was my fix-this-week, not a pretty poster."
   - "I laid out the kids' chore chart and three jobs had zero arrows to anything else - nobody knew who checked them; that gap list was my fix-this-week."

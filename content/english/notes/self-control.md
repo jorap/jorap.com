@@ -10,8 +10,6 @@ key_concept: |
   I pick the next move on purpose.
   
   The urge doesn't get to drive.
-  
-  Fruits of the Spirit lists self-control as one trait the Spirit grows in believers.
 examples:
   - "My thumb hovered over a snarky reply in the pickup-line group chat - self-control was close the app and answer when I wasn't drunk on cortisol."
   - "The point guard feels the pull to hero-ball on a bad stretch - self-control is the scripted pass they drilled, not the urge."

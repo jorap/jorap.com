@@ -5,11 +5,11 @@ description: "I do what I said I'd do when nobody's clapping and motivation walk
 key_concept: |
   The applause was never reliable fuel to begin with - it shows up for the highlight, not the Tuesday rep.
   
-  Discipline is keeping the commitment when the feeling that started it is gone.
-  
   Nobody claps for the version of you that just does the boring rep anyway.
   
   I do what I said I'd do when nobody's clapping and motivation walked out.
+  
+  Discipline is keeping the commitment when the feeling that started it is gone.
 examples:
   - "The baker opens at 4am whether she's inspired or not - discipline is the shift she committed to when motivation wasn't there."
   - "Discipline is loading the dishwasher when I'd rather scroll - same as brushing teeth when you're already late."

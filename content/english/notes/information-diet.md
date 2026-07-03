@@ -7,8 +7,6 @@ key_concept: |
   
   Curate inputs like food - binge headlines and your judgment gets as sloppy as your sleep. [[Digital Minimalism]] cuts tools; diet cuts feeds.
   
-  Digital Minimalism cuts tools; diet cuts feeds.
-  
   I choose feeds on purpose because algorithm defaults aren't neutral.
 examples:
   - "I dropped two commute podcasts that only made me angry at strangers - information diet is curating inputs, not swallowing whatever the algorithm serves."

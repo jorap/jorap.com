@@ -7,11 +7,9 @@ key_concept: |
   
   [[Heed Every Near-Miss]] logs each close call; [[Blameless After-Action Review]] when "nobody died" can't end the talk.
   
-  Heed Every Near-Miss logs each close call; Blameless After-Action Review when "nobody died" can't end the talk.
+  Repeated close calls slowly redefine 'normal' until disaster feels surprising but was predictable.
   
   By the fourth or fifth time, the shortcut isn't even a decision anymore - it's just how things are done here.
-  
-  Repeated close calls slowly redefine 'normal' until disaster feels surprising but was predictable.
 examples:
   - "Third time someone ran the red light in the parking lot and nobody wrote it up - until the fender bender."
   - "Third time we let the ladder stay on the stairs and nobody moved it - until someone tripped carrying laundry."

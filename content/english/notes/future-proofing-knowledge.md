@@ -7,8 +7,6 @@ key_concept: |
   
   [[Free Tier Hosting Stack]] client repos are markdown in git - portable if Cloudflare or I disappear; the content survives, hosting is swappable.
   
-  Free Tier Hosting Stack client repos are markdown in git.
-  
   I future-proof notes with plain text, open tools, and exports I test before a vendor locks me in.
 examples:
   - "Our family contacts list is plain text on the fridge backup folder - I copy it twice a year so future-proof isn't just a vibe."

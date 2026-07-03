@@ -7,11 +7,9 @@ key_concept: |
   
   [[Free Grace]] keeps the order: eternal life is received by faith, not earned by cross-bearing - but [[Discipleship]] costs something real. Same road as [[The Narrow Way]], lived one day at a time. Overlap with [[Process Over Outcomes]]: daily self-denial beats a one-time hero sprint.
   
-  Choosing his will over mine, not collecting suffering points.
-  
   I deny myself and follow Christ daily.
   
-  Same road as The Narrow Way, lived one day at a time.
+  Choosing his will over mine, not collecting suffering points.
 examples:
   - "I had one big surrender moment last year and went back to the same comfortable sin - Jesus said daily: pick it up again today."
   - "The veteran skips the post-game party to drive a rookie home - daily cross is the costly obedience when comfort is right there."

@@ -11,11 +11,11 @@ key_concept: |
   
   Cards exist so the right move is already loaded when life shows up - cue on the front, immediate move on the back, not definitions dressed as advice. Keep a card only if the knowledge helps solve a recurring problem, make a better decision, perform a useful skill, understand an important subject, or communicate more clearly. ~20% of notes opt in; gospel and PKM spine share [/notes/review/](/notes/review/).
   
-  Learn less, retain longer, apply more.
+  Learn less, retain longer, apply more - cards exist so the right move loads when life shows up.
   
   I opt notes into drill cards when recall and use in real life matter, and export to Anki when I want SRS on my phone.
 shareable_thought:
-  - "Learn less, retain longer, apply more."
+  - "Learn less, retain longer, apply more - cards exist so the right move loads when life shows up."
   - "I opt notes into drill cards when recall and use in real life matter, and export to Anki when I want SRS on my phone."
   - "Guiding principle: Learn less, retain longer, and apply more."
   - "The question: Can I recall and use this knowledge when it matters?"

@@ -5,11 +5,11 @@ description: "My graph shows extends, contradicts, implements, alternative - not
 key_concept: |
   Four pair types in `relationships` frontmatter show how ideas push and pull - not just that two notes mention each other.
   
+  My graph shows extends, contradicts, implements, alternative - not just two notes mentioning the same word.
+  
   Extends asks what this idea builds on; contradicts names the tradeoff it pushes against.
   
   Implements names what makes the idea real; alternative names another path that does the job.
-  
-  My graph shows extends, contradicts, implements, alternative - not just two notes mentioning the same word.
 examples:
   - "I'm updating the family chore chart and add \"feeds into: Saturday yard work\" next to \"take out trash\" plus \"conflicts with: bedtime when done late\" before I tape it to the fridge."
   - "The coach's whiteboard lists \"feeds into: secondary break\" beside each drill - players see how today's reps connect before they leave the gym."

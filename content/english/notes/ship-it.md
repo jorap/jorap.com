@@ -7,11 +7,9 @@ key_concept: |
   
   Freelance parallel: [[Selling Static Sites]] - ship the first client site before the three-tier pricing PDF exists.
   
-  Freelance parallel: Selling Static Sites - ship the first client site before the three-tier pricing PDF exists.
+  I push the good-enough version live instead of polishing until the deadline owns me.
   
   Feedback on a live, flawed version teaches more in a week than another month of internal debate.
-  
-  I push the good-enough version live instead of polishing until the deadline owns me.
 examples:
   - "The menu went live with one typo fixed after service - customers ate tonight."
   - "We ran the new play ugly in scrimmage instead of drilling it another month."

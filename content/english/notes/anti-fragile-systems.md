@@ -5,9 +5,9 @@ description: "I build on plain files and open formats so an app shutdown doesn't
 key_concept: |
   Note systems that survive app shutdowns - plain files, open formats, and backups I actually test.
   
-  Test backups while the app still works - not after the export dies.
-  
   I build on plain files and open formats so an app shutdown doesn't erase years of notes.
+  
+  Test backups while the app still works - not after the export dies.
 examples:
   - "When the gym's booking app shut down for good, my paper training log still had every set - I photocopy it once a quarter so I'm not rebuilding history from memory."
   - "The shop switched POS systems twice and the owner kept a plain spreadsheet backup - exports she actually opens, not trust in the vendor forever."

@@ -5,8 +5,6 @@ description: "I bear fruit when I stay connected to Christ, not when I force it 
 key_concept: |
   Abiding is ongoing dependence, not a one-time conversion event. (John 15:1-11). Pruning hurts but serves fruitfulness. Under [[Free Grace]], fruit doesn't earn the branch's place in the vine - the branch bears fruit because it's connected. [[Fruits of the Spirit]] names the cluster Galatians lists - love through self-control - grown by walking in the Spirit, not sheer willpower. [[Sanctification]] is the slow becoming that abiding produces over time. Self-powered "fruit" without abiding is the dead wood Jesus removes - same trap as [[Compounding]] when I treat spiritual growth as pure self-stacked effort.
   
-  Fruits of the Spirit names the cluster Galatians lists.
-  
   I bear fruit when I stay connected to Christ, not when I force it by willpower alone.
 examples:
   - "I snap at my kid after a week with almost no prayer or Scripture, and I know where the fruit went - abiding is opening the Bible before the news feed wins again."

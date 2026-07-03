@@ -10,10 +10,6 @@ key_concept: |
   Don't condemn souls; do read the fruit over time.
   
   Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura.
-  
-  On Static Site Client Scope, same filter: pick WordPress or Shopify when the fruit requires it.
-  
-  Don't sell Free Tier Hosting Stack because it's my favorite hammer.
 examples:
   - "The trainer's Instagram was polished - I asked two parents who finished the program about injuries and consistency."
   - "The contractor's portfolio was gorgeous - I asked two neighbors who lived through the remodel about permit fights and cracked tile."

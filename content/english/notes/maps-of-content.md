@@ -6,11 +6,11 @@ description: "I write hub notes by hand when one topic spreads across too many f
 key_concept: |
   A MOC is a curated index of notes on a topic.
   
+  I write hub notes by hand when one topic spreads across too many files to hold in my head.
+  
   Write the hub by hand when the topic sprawls past what you can hold in memory.
   
   A table of contents I write by hand beats whatever the folder tree implies.
-  
-  I write hub notes by hand when one topic spreads across too many files to hold in my head.
 shareable_thought:
   - "I write hub notes by hand when one topic spreads across too many files to hold in my head."
   - "A MOC is a curated index of notes on a topic."

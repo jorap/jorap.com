@@ -14,8 +14,8 @@ examples:
 shareable_thought:
   - "Save for later is fine until the queue turns into a guilt pile I'll never touch."
   - "A parking lot for links you'll process later."
-  - "Dangerous if it becomes a graveyard."
   - "Save-for-later is capture with a trap door."
+  - "Dangerous if it becomes a graveyard."
 relationships:
   - type: contradicts
     wikilink: "[[Active Knowledge Curation]]"

@@ -7,8 +7,6 @@ key_concept: |
   
   [[Getting Things Done]] runs what has a next action and a deadline; [[PARA Method]] sorts what I'd cite with no finish line. Cousins, not competitors - same capture habit, two lanes. The failure mode is doubling admin: one inbox emptied weekly, tasks in the task app, notes in the garden.
   
-  Getting Things Done runs what has a next action and a deadline; PARA Method sorts what I'd cite with no finish line.
-  
   GTD vs PARA runs tasks in one system and notes in another - cousins, not rivals.
 examples:
   - "The practice schedule lives in the task app; the playbook principles live in the notes folder - GTD runs tasks, PARA runs knowledge, cousins not competitors."

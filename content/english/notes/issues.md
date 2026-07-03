@@ -10,11 +10,11 @@ description: |
 key_concept: |
   Fix the speck in the graph without playing judge over the author.
   
-  Structure issues flag missing extends or contradicts rows in the Note Relationships table.
-  
   Broken wikilinks and unlinked note titles are graph hygiene problems to fix.
   
   Missing extends or contradicts rows in relationships frontmatter are structure bugs to fix.
+  
+  Structure issues flag missing extends or contradicts rows in the Note Relationships table.
 shareable_thought:
   - "Fix the speck in the graph without playing judge over the author."
   - "Broken wikilinks and unlinked note titles are graph hygiene problems to fix."
