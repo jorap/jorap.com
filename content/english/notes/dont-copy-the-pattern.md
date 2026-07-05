@@ -22,6 +22,9 @@ relationships:
   - type: alternative
     wikilink: "[[Mental Models]]"
     reason: "Worldly thinking shortcuts vs refusing culture's default script"
+  - type: contradicts
+    wikilink: "[[There Is No Perfect Solution]]"
+    reason: "when I wait for a clean feed before I refuse the world's script"
   - type: extends
     wikilink: "[[Attention Economy]]"
     reason: "What fights for mind-share before I refuse the pattern"

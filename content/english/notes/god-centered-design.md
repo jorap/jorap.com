@@ -51,7 +51,7 @@ relationships:
     reason: "Kingdom-first is the filter this design principle runs on"
   - type: extends
     wikilink: "[[Success is Stewardship]]"
-    reason: "Borrowed platform - design for faithful use, not ego metrics"
+    reason: "[[Platform Reach Is Borrowed]] - design for faithful use, not ego metrics"
   - type: extends
     wikilink: "[[Treasure in Heaven]]"
     reason: "Store what lasts - earthly applause rusts"
