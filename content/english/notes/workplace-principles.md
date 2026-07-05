@@ -59,6 +59,7 @@ draft: false
 ## Leadership and craft
 
 - [[Servant Leadership]] - greatness is making the team win, not grabbing the credit
+- [[Follow Christ, Then Lead]] - when leadership pressure and Christ's command collide, follow Christ first
 - [[Own Your Part]] - move your slice before permission arrives from upstairs
 - [[People-Centered Design]] - real human needs first or the change won't stick
 - [[Shadow the Work]] - watch one person do the real job before you redraw the process
@@ -95,6 +96,7 @@ draft: false
 | [[People-Centered Design]] | [[Listen Before Fixing]] |
 | [[Shadow the Work]] | [[Outcomes Over Pitch Decks]] |
 | [[Servant Leadership]] | [[Humility and Service]] |
+| [[Follow Christ, Then Lead]] | [[Discipleship vs Leadership]] |
 | [[Share What You Learn]] | [[Great Commission]] |
 | [[Integrity Without an Audience]] | [[Secret Devotion]] |
 | [[Success is Stewardship]] | [[Faithful Steward]] |

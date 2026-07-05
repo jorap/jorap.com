@@ -29,6 +29,9 @@ relationships:
     wikilink: "[[Christlikeness]]"
     reason: "Daily following produces His likeness over ordinary Tuesdays"
   - type: extends
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "Vertical following vs horizontal direction - two seats, same person"
+  - type: extends
     wikilink: "[[Faithfulness]]"
     reason: "Daily following is where faithfulness shows up"
   - type: extends

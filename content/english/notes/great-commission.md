@@ -24,6 +24,9 @@ relationships:
     wikilink: "[[Discipleship]]"
     reason: "Make disciples - umbrella this note carries out"
   - type: extends
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "Make disciples outward - not the same job as managing a team calendar"
+  - type: extends
     wikilink: "[[Repent and Believe]]"
     reason: "Mission flows from believing the gospel - you teach obedience after faith, not to buy salvation"
   - type: extends

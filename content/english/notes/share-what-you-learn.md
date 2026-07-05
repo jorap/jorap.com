@@ -27,6 +27,9 @@ relationships:
     wikilink: "[[Creative Output]]"
     reason: "Inventory means nothing until it leaves your head"
   - type: extends
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "Workplace echo of making disciples - pass skill, don't hoard"
+  - type: extends
     wikilink: "[[Great Commission]]"
     reason: "Make disciples - here, make the team capable, not dependent"
   - type: extends

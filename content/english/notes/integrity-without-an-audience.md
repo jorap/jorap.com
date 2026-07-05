@@ -26,6 +26,9 @@ relationships:
     wikilink: "[[Drafting in Public]]"
     reason: "when every act of work becomes content for applause"
   - type: extends
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "Hidden walk with Christ - public leadership can't substitute for this seat"
+  - type: extends
     wikilink: "[[Integrity]]"
     reason: "General integrity claim - this note is the workplace lane"
   - type: extends

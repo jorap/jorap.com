@@ -23,6 +23,9 @@ relationships:
     wikilink: "[[Outcomes Over Pitch Decks]]"
     reason: "when the opposite frame fits better"
   - type: extends
+    wikilink: "[[Follow Christ, Then Lead]]"
+    reason: "Team sees integrity because private following came first"
+  - type: extends
     wikilink: "[[Life Before Achievement]]"
     reason: "Walked-past standards shouldn't buy achievement at people's expense"
   - type: extends

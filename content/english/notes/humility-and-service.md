@@ -32,6 +32,9 @@ relationships:
     wikilink: "[[Fruits of the Spirit]]"
     reason: "Gentleness fruit - strength without grasping"
   - type: extends
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "Gospel greatness through service - horizontal move with vertical root"
+  - type: extends
     wikilink: "[[Gentleness]]"
     reason: "Humility and service is the garden echo for gospel gentleness"
   - type: extends

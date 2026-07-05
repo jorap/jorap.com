@@ -29,6 +29,9 @@ relationships:
     wikilink: "[[Develop, Don't Endanger]]"
     reason: "Serve the team by protecting growth - not by sacrificing people to prove toughness"
   - type: extends
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "Overlap without collapse - serve the team, still follow Christ upward"
+  - type: extends
     wikilink: "[[Follow Their Lead]]"
     reason: "Serve by joining their world before redirecting credit"
   - type: extends

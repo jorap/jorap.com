@@ -91,6 +91,7 @@ draft: false
 
 - [[Fruits of the Spirit]] - love through self-control; character the Spirit grows when I walk by the Spirit
 - [[Discipleship]] - following Jesus after faith; learn, obey, pass it on - not salvation's price tag
+- [[Discipleship vs Leadership]] - two seats: follow Christ upward; own direction and care outward
 - [[Humility and Service]] - serve the team; wash feet, don't grasp status
 - [[Let Your Light Shine]] - visible good works so others see and glorify God, not you
 - [[Take Up Your Cross]] - daily self-denial; follow behind, not a one-time hero sprint
@@ -132,6 +133,8 @@ Same ideas show up in my PKM notes. I wired the pairs below so the faith cluster
 | [[Secret Devotion]] | [[Drafting in Public]] | Hidden piety vs performance for an audience |
 | [[Great Commission]] | [[Creative Output]] | Truth shared - not hoarded in the garden |
 | [[Discipleship]] | [[Process Over Outcomes]] | Daily following beats a one-time hero sprint |
+| [[Discipleship vs Leadership]] | [[Standing vs Fellowship]] | Two categories that feel merged until you name the seat or ledger |
+| [[Follow Christ, Then Lead]] | [[Seek the Kingdom First]] | Kingdom before org-chart pressure when the seats collide |
 | [[Abide in Me]] | [[Compounding]] | Fruit from connection over time - not self-power alone |
 | [[Fruits of the Spirit]] | [[Self-Control]] | Spirit-produced character vs general restraint skill |
 | [[Childlike Faith]] | [[Getting Started]] | Beginner posture - receive the guide, don't perform expertise you don't have |
