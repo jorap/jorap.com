@@ -21,12 +21,6 @@ relationships:
     wikilink: "[[By Their Fruits]]"
     reason: "when the opposite frame fits better"
   - type: extends
-    wikilink: "[[Measure Then Iterate]]"
-    reason: "What broke line needs a metric or honest accept"
-  - type: implements
-    wikilink: "[[Transformation Principles]]"
-    reason: "Organizational end state the transformation hub points toward"
-  - type: extends
     wikilink: "[[Blameless After-Action Review]]"
     reason: "\"What broke\" line stays until fixed or accepted"
   - type: extends
@@ -35,6 +29,12 @@ relationships:
   - type: extends
     wikilink: "[[Convert Pain Into Learning]]"
     reason: "Pain on the whiteboard becomes process change"
+  - type: extends
+    wikilink: "[[Measure Then Iterate]]"
+    reason: "What broke line needs a metric or honest accept"
+  - type: implements
+    wikilink: "[[Transformation Principles]]"
+    reason: "Organizational end state the transformation hub points toward"
 slug: "learning-organizations"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

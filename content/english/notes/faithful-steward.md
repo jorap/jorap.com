@@ -48,6 +48,9 @@ relationships:
   - type: extends
     wikilink: "[[Success is Stewardship]]"
     reason: "Parable shape for the headline - entrusted gifts, not owned trophies"
+  - type: extends
+    wikilink: "[[Steward After the Win]]"
+    reason: "Buried talent after one good season - coast kills faithful use"
 slug: "faithful-steward"
 date: "2026-06-30 08:10:00+00:00"
 image: "/images/note.jpg"

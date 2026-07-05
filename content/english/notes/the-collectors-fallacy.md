@@ -26,6 +26,9 @@ relationships:
   - type: extends
     wikilink: "[[Read Later Queue]]"
     reason: "Where hoarding hides - pile without express"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Burying talent in bookmarks - hoard instead of use"
 slug: "the-collectors-fallacy"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"

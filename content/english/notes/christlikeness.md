@@ -19,15 +19,6 @@ shareable_thought:
   - "Sanctification is the slow process; Christlikeness is the aim."
   - "I don't manufacture Christlikeness to earn standing - justification already settled that."
 relationships:
-  - type: extends
-    wikilink: "[[Free Grace]]"
-    reason: "Likeness grows after grace settles where you spend forever"
-  - type: extends
-    wikilink: "[[Change Takes Repetition]]"
-    reason: "Reshaping is slow reps - not one emotional Sunday"
-  - type: implements
-    wikilink: "[[Transformation Principles]]"
-    reason: "Faith aim the transformation hub points toward"
   - type: alternative
     wikilink: "[[There Is No Perfect Solution]]"
     reason: "when I delay obeying until I look Christlike enough to start"
@@ -38,8 +29,14 @@ relationships:
     wikilink: "[[Abide in Me]]"
     reason: "Likeness grows from staying in the vine - not willpower theater"
   - type: extends
+    wikilink: "[[Change Takes Repetition]]"
+    reason: "Reshaping is slow reps - not one emotional Sunday"
+  - type: extends
     wikilink: "[[Discipleship]]"
     reason: "Daily following is how Christlikeness shows up in real life"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Likeness grows after grace settles where you spend forever"
   - type: extends
     wikilink: "[[Fruits of the Spirit]]"
     reason: "Love through self-control is what Christlikeness looks like up close"
@@ -56,11 +53,17 @@ relationships:
     wikilink: "[[Justification]]"
     reason: "Declared righteous first - Christlikeness follows, doesn't reopen the verdict"
   - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Romans 12:2 engine for conformity to Christ, not the world"
+  - type: extends
     wikilink: "[[Sanctification]]"
     reason: "Sanctification is the process; Christlikeness is the shape it aims at"
   - type: extends
     wikilink: "[[Take Up Your Cross]]"
     reason: "Daily self-denial - His path, not my comfort script"
+  - type: implements
+    wikilink: "[[Transformation Principles]]"
+    reason: "Faith aim the transformation hub points toward"
 slug: "christlikeness"
 date: "2026-07-03 11:30:00+00:00"
 image: "/images/note.jpg"

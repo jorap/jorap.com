@@ -38,6 +38,10 @@ draft: false
 - [[Free Grace]] - salvation by faith, not works; principles follow, they don't pay the fare
 - [[Justification]] - declared righteous at faith; finished before the walk catches up
 - [[Sanctification]] - becoming holy over time; grateful growth after the verdict
+- [[Present a Living Sacrifice]] - in view of God's mercy, offer your body as worship that's alive (Romans 12:1)
+- [[Renewed Mind]] - don't conform to the world's pattern; be transformed by renewing your mind (Romans 12:2)
+- [[Don't Copy the Pattern]] - refuse culture's default script before reactions run on autopilot (Romans 12:2)
+- [[Discern His Will Daily]] - test and approve what God wants after renewal reshapes judgment (Romans 12:2)
 - [[Christlikeness]] - shaped to look and love more like Jesus; the aim sanctification moves toward
 - [[Faith and Works]] - faith alone saves; real faith shows up in obedience
 - [[Repent and Believe]] - kingdom at hand now; turn and trust, don't wait until you're "ready"
@@ -137,6 +141,11 @@ Same ideas show up in my PKM notes. I wired the pairs below so the faith cluster
 | [[The Golden Rule]] | [[Note Relationships]] | Treat links like neighbors - typed relationships, not vague vibes |
 | [[Justification]] | [[Minimum Effective Dose]] | Declared righteous at faith - smallest sufficient act, not a merit ladder |
 | [[Sanctification]] | [[Process Over Outcomes]] | Becoming holy daily - not a one-time hero sprint |
+| [[Present a Living Sacrifice]] | [[Grateful Obedience]] | Romans 12:1 offering from mercy received - not payment to earn grace |
+| [[Don't Copy the Pattern]] | [[Information Diet]] | Refuse culture's default script; curate feeds that shape thinking |
+| [[Discern His Will Daily]] | [[Decision Quality]] | Test His will after renewal - better calls when inputs aren't all noise |
+| [[Renewed Mind]] | [[Information Diet]] | Curate feeds that shape thinking; renewal feeds Scripture that reshapes judgment |
+| [[Renewed Mind]] | [[Habit Formation]] | Scripture-before-inbox reps bend the mind's default loop |
 | [[Christlikeness]] | [[God Centered Design]] | Grow toward His likeness - design life for God's glory, not applause |
 | [[Change Takes Repetition]] | [[Process Over Outcomes]] | Transformation bends on repeated Tuesdays - not one heroic sprint |
 | [[Judgment Seat]] | [[Periodic Knowledge Review]] | Whole life reviewed for reward - not one heroic week as the whole report |
@@ -150,4 +159,6 @@ Same ideas show up in my PKM notes. I wired the pairs below so the faith cluster
 | [[Success is Stewardship]] | [[Servant Leadership]] | Use the platform for the team - workplace frame for the headline |
 | [[Success is Stewardship]] | [[Finish Strong]] | Steward the tail, not only the launch |
 | [[Success is Stewardship]] | [[Great Commission]] | Pass on truth - don't hoard the garden |
+| [[Success is Stewardship]] | [[Platform Reach Is Borrowed]] | Rented reach - steward megaphone, own the vault |
+| [[Success is Stewardship]] | [[Steward After the Win]] | Coast temptation right after promotion or traffic spike |
 | [[Christianity and Politics]] | [[Signal vs Noise]] | Not every headline deserves kingdom-level panic - filter the feed |

@@ -65,6 +65,7 @@ draft: false
 - [[Share What You Learn]] - pass on what you know; don't hoard knowledge like private bookmarks
 - [[Integrity Without an Audience]] - do the honest work when there's no audience in the room
 - [[Success is Stewardship]] - promotion and platform are borrowed - use them for the team, not ego
+- [[Steward After the Win]] - early win is entrusted, not a license to coast through the boring middle
 
 ## Safety and duty of care
 
@@ -97,3 +98,4 @@ draft: false
 | [[Share What You Learn]] | [[Great Commission]] |
 | [[Integrity Without an Audience]] | [[Secret Devotion]] |
 | [[Success is Stewardship]] | [[Faithful Steward]] |
+| [[Steward After the Win]] | [[Faithful Steward]] |

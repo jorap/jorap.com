@@ -40,6 +40,9 @@ relationships:
     wikilink: "[[Minimum Effective Dose]]"
     reason: "Faith is the one sufficient act - not a merit ladder before God accepts you"
   - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Declared righteous first; mind renewal grows after"
+  - type: extends
     wikilink: "[[Standing vs Fellowship]]"
     reason: "Standing declared once; fellowship fluctuates with sin and confession"
 slug: "justification"

@@ -19,6 +19,9 @@ relationships:
     wikilink: "[[Compounding]]"
     reason: "when I treat spiritual growth as pure self-stacked effort"
   - type: extends
+    wikilink: "[[Christlikeness]]"
+    reason: "Likeness grows from staying in the vine - not willpower theater"
+  - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Fruit comes from staying in Christ, not from earning your spot on the vine"
   - type: extends
@@ -31,8 +34,8 @@ relationships:
     wikilink: "[[Patience]]"
     reason: "Slow fuse grows from staying in the vine - not willpower alone"
   - type: extends
-    wikilink: "[[Christlikeness]]"
-    reason: "Likeness grows from staying in the vine - not willpower theater"
+    wikilink: "[[Renewed Mind]]"
+    reason: "His words dwell where mind renewal actually reads"
   - type: extends
     wikilink: "[[Sanctification]]"
     reason: "Abiding is how holiness grows after justification"

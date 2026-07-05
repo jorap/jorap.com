@@ -15,6 +15,9 @@ shareable_thought:
   - "Including hidden devotion (Secret Devotion) and open obedience (Let Your Light Shine)."
   - "Free Grace settles where I spend forever: faith in Christ alone. (Matthew 6:4, 6:18; 16:27; 25:21)."
 relationships:
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Well done repays faithful use - not the entry fee"
   - type: contradicts
     wikilink: "[[Compounding]]"
     reason: "when I treat stacked good works as currency that bought eternal life"

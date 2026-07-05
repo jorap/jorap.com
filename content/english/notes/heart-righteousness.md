@@ -32,6 +32,9 @@ relationships:
   - type: extends
     wikilink: "[[Judge Not]]"
     reason: "God cares about inner motive, not the hypocritical judging judge not forbids"
+  - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Inner standard starts where mind renewal reaches motive"
 slug: "heart-righteousness"
 date: "2026-06-19 10:00:00+00:00"
 image: "/images/note.jpg"

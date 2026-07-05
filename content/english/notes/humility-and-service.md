@@ -37,6 +37,9 @@ relationships:
   - type: extends
     wikilink: "[[Servant Leadership]]"
     reason: "Lead-by-serving frame Jesus models"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Kingdom ladder runs opposite the world's - serve entrusted gifts"
 slug: "humility-and-service"
 date: "2026-06-19 08:55:00+00:00"
 image: "/images/note.jpg"

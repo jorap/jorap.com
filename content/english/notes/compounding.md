@@ -22,6 +22,9 @@ relationships:
   - type: contradicts
     wikilink: "[[Pareto Principle]]"
     reason: "when boring repetition beats protecting only the vital few"
+  - type: contradicts
+    wikilink: "[[Renewed Mind]]"
+    reason: "when self-stacked discipline mimics renewal without abiding"
   - type: extends
     wikilink: "[[Change Takes Repetition]]"
     reason: "Boring reps until the curve bends - transformation shape"
@@ -37,6 +40,12 @@ relationships:
   - type: extends
     wikilink: "[[Process Over Outcomes]]"
     reason: "Small gains stack when you repeat the process, not when you chase one heroic week"
+  - type: extends
+    wikilink: "[[Steward After the Win]]"
+    reason: "Quiet Tuesdays after the spike still stack"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Faithful use of entrusted gifts stacks over quiet Tuesdays"
 slug: "compounding"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"

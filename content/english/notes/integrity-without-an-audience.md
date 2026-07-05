@@ -31,6 +31,9 @@ relationships:
   - type: extends
     wikilink: "[[Secret Devotion]]"
     reason: "Devotion for God's eyes alone - here, honest craft without an audience"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Hidden lane - steward honestly when nobody applauds"
 slug: "integrity-without-an-audience"
 date: "2026-06-21 14:00:00+00:00"
 image: "/images/note.jpg"

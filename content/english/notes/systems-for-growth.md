@@ -22,14 +22,11 @@ shareable_thought:
   - "Install the loops on ordinary Tuesdays - not only when results are due."
 relationships:
   - type: alternative
-    wikilink: "[[Transformation Principles]]"
-    reason: "Growth loops hub vs transformation hub when you're compounding skill, not designing change"
-  - type: alternative
     wikilink: "[[Pressure Reveals Weakness]]"
     reason: "Growth-building hub vs performance-under-pressure when you're designing loops, not surviving heat"
-  - type: extends
+  - type: alternative
     wikilink: "[[Transformation Principles]]"
-    reason: "Alternative hub when you're designing change, not compounding loops"
+    reason: "Growth loops hub vs transformation hub when you're compounding skill, not designing change"
   - type: extends
     wikilink: "[[Mental Models]]"
     reason: "Decision lenses complement the habits and review rhythms here"

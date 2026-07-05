@@ -29,6 +29,9 @@ relationships:
     wikilink: "[[Purpose and Vision]]"
     reason: "Named outcome before Slack sets the morning"
   - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Scripture before algorithm defaults rewrite the morning"
+  - type: extends
     wikilink: "[[Seek the Kingdom First]]"
     reason: "God's reign first - here, the real deliverable before the noise"
 slug: "priorities-before-the-inbox"

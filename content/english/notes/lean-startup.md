@@ -26,11 +26,11 @@ relationships:
     wikilink: "[[Measure Then Iterate]]"
     reason: "Build-measure-learn is the product lane of the same loop"
   - type: extends
-    wikilink: "[[Practice Small Experiments]]"
-    reason: "Smallest test before you scale"
-  - type: extends
     wikilink: "[[Minimum Viable Product]]"
     reason: "MVP is the smallest test the loop names"
+  - type: extends
+    wikilink: "[[Practice Small Experiments]]"
+    reason: "Smallest test before you scale"
   - type: extends
     wikilink: "[[Selling Static Sites]]"
     reason: "Pilot client site before scaling the freelance offer"

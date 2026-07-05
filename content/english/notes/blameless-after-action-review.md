@@ -26,9 +26,6 @@ relationships:
     wikilink: "[[Normalization of Deviance]]"
     reason: "when \"nobody died\" ends the conversation without an after-action review"
   - type: extends
-    wikilink: "[[Measure Then Iterate]]"
-    reason: "After calm, learn what broke with something you'd track next time"
-  - type: extends
     wikilink: "[[Convert Pain Into Learning]]"
     reason: "After-action review is the scheduled convert step after harm"
   - type: extends
@@ -40,6 +37,9 @@ relationships:
   - type: extends
     wikilink: "[[Learning Organizations]]"
     reason: "\"What broke\" line stays until fixed or accepted"
+  - type: extends
+    wikilink: "[[Measure Then Iterate]]"
+    reason: "After calm, learn what broke with something you'd track next time"
   - type: extends
     wikilink: "[[Own the Error]]"
     reason: "Leader names the miss; room fixes the process, not the person"

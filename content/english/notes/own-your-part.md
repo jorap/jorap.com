@@ -23,23 +23,20 @@ relationships:
     wikilink: "[[Accountability]]"
     reason: "when naming an owner upstairs replaces moving your own slice"
   - type: extends
-    wikilink: "[[Accountability]]"
-    reason: "Ownership starts with your slice before the room assigns roles"
+    wikilink: "[[Complete the Cycle]]"
+    reason: "Own your slice - close the loop you can move"
   - type: extends
     wikilink: "[[Own the Error]]"
     reason: "Proactive lane before the miss becomes a blame thread"
   - type: extends
     wikilink: "[[Servant Leadership]]"
     reason: "Leaders model own-your-part - unblock, don't delegate waiting"
-  - type: extends
-    wikilink: "[[Complete the Cycle]]"
-    reason: "Own your slice - close the loop you can move"
-  - type: implements
-    wikilink: "[[Workplace Principles]]"
-    reason: "Proactive ownership in plain office language"
   - type: implements
     wikilink: "[[Transformation Principles]]"
     reason: "Ownership lever - change doesn't wait on a memo"
+  - type: implements
+    wikilink: "[[Workplace Principles]]"
+    reason: "Proactive ownership in plain office language"
 slug: "own-your-part"
 date: "2026-07-03 10:00:00+00:00"
 image: "/images/note.jpg"

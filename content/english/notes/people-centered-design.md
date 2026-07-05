@@ -19,12 +19,12 @@ shareable_thought:
   - "What slows a nurse down, what confuses a new hire, what a customer is trying to finish - before I optimize the chart."
   - "You can't design for people you didn't hear."
 relationships:
+  - type: alternative
+    wikilink: "[[God Centered Design]]"
+    reason: "People-first serves humans; God-first orders who you're ultimately building for"
   - type: contradicts
     wikilink: "[[Outcomes Over Pitch Decks]]"
     reason: "when slick decks beat watching one real user struggle"
-  - type: extends
-    wikilink: "[[Shadow the Work]]"
-    reason: "Watch real use - flowcharts lie politely"
   - type: extends
     wikilink: "[[Listen Before Fixing]]"
     reason: "Hear the need before you ship the fix"
@@ -34,15 +34,15 @@ relationships:
   - type: extends
     wikilink: "[[Servant Leadership]]"
     reason: "Leaders unblock humans, not only metrics"
-  - type: alternative
-    wikilink: "[[God Centered Design]]"
-    reason: "People-first serves humans; God-first orders who you're ultimately building for"
-  - type: implements
-    wikilink: "[[Workplace Principles]]"
-    reason: "People-first change in plain office language"
+  - type: extends
+    wikilink: "[[Shadow the Work]]"
+    reason: "Watch real use - flowcharts lie politely"
   - type: implements
     wikilink: "[[Transformation Principles]]"
     reason: "People-first lever - why change survives contact with real work"
+  - type: implements
+    wikilink: "[[Workplace Principles]]"
+    reason: "People-first change in plain office language"
 slug: "people-centered-design"
 date: "2026-07-03 09:00:00+00:00"
 image: "/images/note.jpg"

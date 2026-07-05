@@ -27,9 +27,6 @@ relationships:
     wikilink: "[[By Their Fruits]]"
     reason: "when \"still learning\" excuses the same bad outcome quarter after quarter"
   - type: extends
-    wikilink: "[[Honest Self-Awareness]]"
-    reason: "Admit the gap before misses become data you can train on"
-  - type: extends
     wikilink: "[[Accept the Starting Line]]"
     reason: "Trainable skill still needs a real starting line"
   - type: extends
@@ -41,6 +38,12 @@ relationships:
   - type: extends
     wikilink: "[[Failure as Feedback]]"
     reason: "Misses are signal when identity isn't on the line"
+  - type: extends
+    wikilink: "[[Honest Self-Awareness]]"
+    reason: "Admit the gap before misses become data you can train on"
+  - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Faith lane - mind can change; world's fixed labels aren't the verdict"
   - type: extends
     wikilink: "[[Systems for Growth]]"
     reason: "Mindset this growth hub installs before the loops run"

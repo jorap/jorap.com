@@ -27,9 +27,6 @@ relationships:
     wikilink: "[[The Collector's Fallacy]]"
     reason: "when I hoard gifts instead of using or sharing them"
   - type: extends
-    wikilink: "[[God Centered Design]]"
-    reason: "Borrowed platform - design for faithful use, not ego metrics"
-  - type: extends
     wikilink: "[[Accountability]]"
     reason: "Stewardship names who answers for how the gift gets used"
   - type: extends
@@ -60,6 +57,9 @@ relationships:
     wikilink: "[[Free Tier Hosting Stack]]"
     reason: "Steward the build budget on borrowed infra"
   - type: extends
+    wikilink: "[[God Centered Design]]"
+    reason: "Borrowed platform - design for faithful use, not ego metrics"
+  - type: extends
     wikilink: "[[Grateful Obedience]]"
     reason: "Entrusted gifts answered with thanks, not entitlement"
   - type: extends
@@ -80,6 +80,12 @@ relationships:
   - type: extends
     wikilink: "[[Loss of Reward]]"
     reason: "Poor stewardship shrinks reward, not salvation"
+  - type: extends
+    wikilink: "[[Platform Reach Is Borrowed]]"
+    reason: "Rented reach - steward megaphone, own the vault"
+  - type: extends
+    wikilink: "[[Steward After the Win]]"
+    reason: "Coast temptation right after promotion or traffic spike"
   - type: extends
     wikilink: "[[Secret Devotion]]"
     reason: "Hidden faithful use - steward without applause"

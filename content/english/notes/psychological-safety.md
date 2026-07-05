@@ -23,12 +23,6 @@ relationships:
     wikilink: "[[Break the Escalation Cycle]]"
     reason: "when the opposite frame fits better"
   - type: extends
-    wikilink: "[[People-Centered Design]]"
-    reason: "People tell you what breaks when honesty is safe"
-  - type: extends
-    wikilink: "[[Shadow the Work]]"
-    reason: "Real workarounds show when punishment isn't the cost"
-  - type: extends
     wikilink: "[[Follow Their Lead]]"
     reason: "Join their framing before you redirect the blame"
   - type: extends
@@ -43,6 +37,12 @@ relationships:
   - type: extends
     wikilink: "[[Own the Error]]"
     reason: "Owning mistakes needs a room that won't punish honesty"
+  - type: extends
+    wikilink: "[[People-Centered Design]]"
+    reason: "People tell you what breaks when honesty is safe"
+  - type: extends
+    wikilink: "[[Shadow the Work]]"
+    reason: "Real workarounds show when punishment isn't the cost"
 slug: "psychological-safety"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

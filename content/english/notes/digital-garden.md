@@ -37,6 +37,9 @@ relationships:
     wikilink: "[[Success is Stewardship]]"
     reason: "Tend borrowed reach - notes grow when shared"
   - type: extends
+    wikilink: "[[Platform Reach Is Borrowed]]"
+    reason: "Garden on your domain - social points home"
+  - type: extends
     wikilink: "[[Work in Progress]]"
     reason: "Public drafts and visible growth - garden ethos"
 slug: "digital-garden"

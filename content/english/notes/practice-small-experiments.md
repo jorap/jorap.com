@@ -32,17 +32,17 @@ relationships:
     wikilink: "[[Failure as Feedback]]"
     reason: "Small miss, small cost - read signal without identity drama"
   - type: extends
-    wikilink: "[[Measure Then Iterate]]"
-    reason: "Small trial plus a metric - keep or drop on signal"
-  - type: extends
-    wikilink: "[[Minimum Effective Dose]]"
-    reason: "Smallest trial that still tells you something"
-  - type: extends
     wikilink: "[[Habit Formation]]"
     reason: "Repeat the trial that survived the test"
   - type: extends
     wikilink: "[[Lean Startup]]"
     reason: "Smallest test before you scale the change"
+  - type: extends
+    wikilink: "[[Measure Then Iterate]]"
+    reason: "Small trial plus a metric - keep or drop on signal"
+  - type: extends
+    wikilink: "[[Minimum Effective Dose]]"
+    reason: "Smallest trial that still tells you something"
   - type: implements
     wikilink: "[[Systems for Growth]]"
     reason: "Practice lever the growth hub indexes"

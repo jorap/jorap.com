@@ -33,6 +33,9 @@ relationships:
     wikilink: "[[Patience]]"
     reason: "Patience fruit needs the spike named before the act"
   - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Renewed mind buys the gap before the world's script mails the reply"
+  - type: extends
     wikilink: "[[Self-Control]]"
     reason: "Restraint is regulation in motion"
   - type: extends

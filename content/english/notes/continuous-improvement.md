@@ -21,9 +21,6 @@ relationships:
     wikilink: "[[There Is No Perfect Solution]]"
     reason: "when endless tweaking never ships the good-enough version"
   - type: extends
-    wikilink: "[[Measure Then Iterate]]"
-    reason: "Each tweak needs a signal to know what to repeat"
-  - type: extends
     wikilink: "[[Compounding]]"
     reason: "Small upgrades stack"
   - type: extends
@@ -32,6 +29,9 @@ relationships:
   - type: extends
     wikilink: "[[Create Regular Connection]]"
     reason: "Small connection reps compound like process fixes"
+  - type: extends
+    wikilink: "[[Measure Then Iterate]]"
+    reason: "Each tweak needs a signal to know what to repeat"
   - type: extends
     wikilink: "[[Notice the Good]]"
     reason: "Naming what worked feeds the next rep"

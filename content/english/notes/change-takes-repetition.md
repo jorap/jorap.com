@@ -23,8 +23,14 @@ relationships:
     wikilink: "[[Practice Small Experiments]]"
     reason: "when endless micro-trials never commit to repeating what worked"
   - type: extends
+    wikilink: "[[Christlikeness]]"
+    reason: "Faith lane - slow becoming on ordinary Tuesdays"
+  - type: extends
     wikilink: "[[Compounding]]"
     reason: "Boring reps until the curve bends"
+  - type: extends
+    wikilink: "[[Discipleship]]"
+    reason: "Daily following is how repetition produces change"
   - type: extends
     wikilink: "[[Habit Formation]]"
     reason: "One move repeated until it runs without debate"
@@ -32,14 +38,11 @@ relationships:
     wikilink: "[[Process Over Outcomes]]"
     reason: "Trust the loop when the scoreboard is quiet"
   - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Mind renewal bends across ordinary Tuesdays"
+  - type: extends
     wikilink: "[[Sanctification]]"
     reason: "Slow becoming - not a one-time event"
-  - type: extends
-    wikilink: "[[Christlikeness]]"
-    reason: "Faith lane - slow becoming on ordinary Tuesdays"
-  - type: extends
-    wikilink: "[[Discipleship]]"
-    reason: "Daily following is how repetition produces change"
   - type: implements
     wikilink: "[[Systems for Growth]]"
     reason: "Shape-of-change headline the growth hub shares"

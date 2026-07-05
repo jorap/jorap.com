@@ -21,17 +21,23 @@ relationships:
     wikilink: "[[Signal vs Noise]]"
     reason: "when I treat every demand as kingdom-level priority"
   - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Put God's rule first because grace already secured where you spend forever"
+  - type: extends
     wikilink: "[[God Centered Design]]"
     reason: "Kingdom-first orders what you build - not only the calendar"
+  - type: extends
+    wikilink: "[[Peace]]"
+    reason: "Kingdom first orders the week before worry sets panic"
   - type: extends
     wikilink: "[[Purpose and Vision]]"
     reason: "God's reign is the outcome worth tradeoffs"
   - type: extends
-    wikilink: "[[Free Grace]]"
-    reason: "Put God's rule first because grace already secured where you spend forever"
+    wikilink: "[[Discern His Will Daily]]"
+    reason: "Kingdom-first fills the mind before worry sets the agenda"
   - type: extends
-    wikilink: "[[Peace]]"
-    reason: "Kingdom first orders the week before worry sets panic"
+    wikilink: "[[Renewed Mind]]"
+    reason: "Kingdom-first fills the mind before worry sets the agenda"
 slug: "seek-the-kingdom-first"
 date: "2026-06-19 08:30:00+00:00"
 image: "/images/note.jpg"

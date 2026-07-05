@@ -31,15 +31,12 @@ relationships:
   - type: extends
     wikilink: "[[Psychological Safety]]"
     reason: "People show real workarounds when you're not auditing to punish"
-  - type: extends
-    wikilink: "[[Outcomes Over Pitch Decks]]"
-    reason: "Watch real struggle - not deck polish"
-  - type: implements
-    wikilink: "[[Workplace Principles]]"
-    reason: "Concrete move for people-first change at work"
   - type: implements
     wikilink: "[[Transformation Principles]]"
     reason: "People-first move before process redesign ships"
+  - type: implements
+    wikilink: "[[Workplace Principles]]"
+    reason: "Concrete move for people-first change at work"
 slug: "shadow-the-work"
 date: "2026-07-03 10:00:00+00:00"
 image: "/images/note.jpg"

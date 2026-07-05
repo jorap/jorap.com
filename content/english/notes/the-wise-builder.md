@@ -28,6 +28,9 @@ relationships:
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Faith saves you, but hearing Jesus without doing is the fool's house on sand"
+  - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Renewed hearing produces doing - sand is hear-only religion"
 slug: "the-wise-builder"
 date: "2026-06-19 09:50:00+00:00"
 image: "/images/note.jpg"

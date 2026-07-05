@@ -23,14 +23,20 @@ relationships:
     wikilink: "[[The Collector's Fallacy]]"
     reason: "when I hoard earth and call it wisdom"
   - type: extends
-    wikilink: "[[God Centered Design]]"
-    reason: "Store what lasts - earthly applause rusts"
-  - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Grace secured heaven; treasure names what you store after - not the entry fee"
   - type: extends
+    wikilink: "[[God Centered Design]]"
+    reason: "Store what lasts - earthly applause rusts"
+  - type: extends
     wikilink: "[[Loss of Reward]]"
     reason: "Worthless stored treasure burns; eternal life on Christ stays"
+  - type: extends
+    wikilink: "[[Platform Reach Is Borrowed]]"
+    reason: "Earthly reach rusts - followers aren't permanent treasure"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Earthly success rusts - store what lasts"
 slug: "treasure-in-heaven"
 date: "2026-06-19 09:05:00+00:00"
 image: "/images/note.jpg"

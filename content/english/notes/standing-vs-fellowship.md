@@ -41,6 +41,9 @@ relationships:
     wikilink: "[[Loss of Reward]]"
     reason: "Shame after failure is fellowship or reward, not revoked salvation"
   - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Fruitless week - keep renewing without panicking standing"
+  - type: extends
     wikilink: "[[Sanctification]]"
     reason: "Becoming holy without re-earning the verdict justification already gave"
 slug: "standing-vs-fellowship"

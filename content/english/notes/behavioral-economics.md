@@ -26,6 +26,9 @@ relationships:
     wikilink: "[[Decision Quality]]"
     reason: "Defaults and friction shape choices more than facts alone"
   - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Culture's defaults steer choices - renewal interrupts the pattern"
+  - type: extends
     wikilink: "[[Sunk Cost Fallacy]]"
     reason: "Sunk cost is the bias that keeps bad bets alive"
 slug: "behavioral-economics"

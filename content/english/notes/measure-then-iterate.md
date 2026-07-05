@@ -23,26 +23,23 @@ relationships:
     wikilink: "[[Outcomes Over Pitch Decks]]"
     reason: "when charisma replaces a metric you'd actually track"
   - type: extends
+    wikilink: "[[Blameless After-Action Review]]"
+    reason: "Measure after calm - learn what broke in the system"
+  - type: extends
     wikilink: "[[Continuous Improvement]]"
     reason: "Measurement tells you which tweak to repeat"
   - type: extends
     wikilink: "[[Failure as Feedback]]"
     reason: "The number is signal - not identity"
   - type: extends
+    wikilink: "[[Habit Formation]]"
+    reason: "Repeat what the metric says worked"
+  - type: extends
     wikilink: "[[Lean Startup]]"
     reason: "Build-measure-learn before you scale"
   - type: extends
     wikilink: "[[Practice Small Experiments]]"
     reason: "Small trial plus a metric beats big-bang faith"
-  - type: extends
-    wikilink: "[[Blameless After-Action Review]]"
-    reason: "Measure after calm - learn what broke in the system"
-  - type: extends
-    wikilink: "[[Habit Formation]]"
-    reason: "Repeat what the metric says worked"
-  - type: extends
-    wikilink: "[[Lean Startup]]"
-    reason: "Build-measure-learn loop in product lane"
   - type: extends
     wikilink: "[[Quarterly Planning]]"
     reason: "Thirteen-week rhythm to watch whether direction still holds"

@@ -17,12 +17,15 @@ shareable_thought:
   - "Usually the choice to stay stuck with the status quo."
   - "Every real choice has tradeoffs - stop comparing real options to an imaginary perfect one."
 relationships:
-  - type: contradicts
-    wikilink: "[[Pareto Principle]]"
-    reason: "when good-enough tired beats hunting the perfect 20%"
   - type: alternative
     wikilink: "[[Accept the Starting Line]]"
     reason: "when waiting to feel ready blocks the good-enough move from where you are"
+  - type: contradicts
+    wikilink: "[[Pareto Principle]]"
+    reason: "when good-enough tired beats hunting the perfect 20%"
+  - type: contradicts
+    wikilink: "[[Renewed Mind]]"
+    reason: "when I delay feeding my mind until thoughts feel holy"
   - type: extends
     wikilink: "[[Mental Models]]"
     reason: "The nirvana fallacy is a mental model for when waiting for perfect blocks the good-enough move"

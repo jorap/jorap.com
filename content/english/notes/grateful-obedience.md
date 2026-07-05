@@ -21,14 +21,11 @@ relationships:
     wikilink: "[[Compounding]]"
     reason: "when obedience streaks become proof I'm saved"
   - type: extends
-    wikilink: "[[God Centered Design]]"
-    reason: "Obedience from thanks designs life for God's glory, not applause"
+    wikilink: "[[Abide in Me]]"
+    reason: "Fruit and obedience flow from connection, not earning your spot"
   - type: extends
     wikilink: "[[Christlikeness]]"
     reason: "Thanks-motivated obedience aims at His likeness, not performance theater"
-  - type: extends
-    wikilink: "[[Abide in Me]]"
-    reason: "Fruit and obedience flow from connection, not earning your spot"
   - type: extends
     wikilink: "[[Discipleship]]"
     reason: "Grateful walk is how following shows up daily"
@@ -42,6 +39,9 @@ relationships:
     wikilink: "[[Fruits of the Spirit]]"
     reason: "Thanks-motivated obedience produces Spirit fruit, not theater"
   - type: extends
+    wikilink: "[[God Centered Design]]"
+    reason: "Obedience from thanks designs life for God's glory, not applause"
+  - type: extends
     wikilink: "[[Grace]]"
     reason: "Gift already received - obedience flows from thanks"
   - type: extends
@@ -50,6 +50,12 @@ relationships:
   - type: extends
     wikilink: "[[Mercy]]"
     reason: "Holiness grows from received mercy, not earned acceptance"
+  - type: extends
+    wikilink: "[[Present a Living Sacrifice]]"
+    reason: "Romans 12:1 shape of thanks-motivated obedience"
+  - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Romans 12:1-2 pair - living sacrifice needs a renewed mind"
   - type: extends
     wikilink: "[[Sanctification]]"
     reason: "Grateful walk is how becoming holy shows up daily"

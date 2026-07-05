@@ -53,6 +53,9 @@ relationships:
     wikilink: "[[Patience]]"
     reason: "Daily following is where patience shows up with real people"
   - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Daily following reshapes the mind that chooses obedience"
+  - type: extends
     wikilink: "[[Repent and Believe]]"
     reason: "Turn and trust is where discipleship starts"
   - type: extends

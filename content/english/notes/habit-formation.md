@@ -23,11 +23,11 @@ relationships:
     wikilink: "[[First Principles Thinking]]"
     reason: "when automatic habit runs past its sell-by date and nobody questions it"
   - type: extends
-    wikilink: "[[Change Takes Repetition]]"
-    reason: "One move repeated until it runs without debate"
-  - type: extends
     wikilink: "[[Build a Reliable Default]]"
     reason: "Habits become defaults under pressure"
+  - type: extends
+    wikilink: "[[Change Takes Repetition]]"
+    reason: "One move repeated until it runs without debate"
   - type: extends
     wikilink: "[[Compounding]]"
     reason: "Small repeats stack"
@@ -37,6 +37,9 @@ relationships:
   - type: extends
     wikilink: "[[Process Over Outcomes]]"
     reason: "Trust the loop until it's automatic"
+  - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Scripture-before-inbox reps bend thought defaults"
   - type: implements
     wikilink: "[[Capture]]"
     reason: "One capture habit carries the whole pipe"

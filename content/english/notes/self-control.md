@@ -25,6 +25,9 @@ relationships:
   - type: alternative
     wikilink: "[[Gentleness]]"
     reason: "Restraint skill vs Spirit-grown gentleness in tone"
+  - type: alternative
+    wikilink: "[[Renewed Mind]]"
+    reason: "Spirit-fed renewal vs general restraint skill"
   - type: contradicts
     wikilink: "[[Let Your Light Shine]]"
     reason: "when restraint hides a good work that should've been visible"

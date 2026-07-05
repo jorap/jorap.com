@@ -19,20 +19,20 @@ relationships:
     wikilink: "[[Systems for Growth]]"
     reason: "Transformation hub vs growth loops hub when you're designing change, not compounding skill"
   - type: extends
-    wikilink: "[[Christlikeness]]"
-    reason: "Faith lane - the aim personal change moves toward"
-  - type: extends
     wikilink: "[[Change Takes Repetition]]"
     reason: "Headline shape - same levers until the system bends"
+  - type: extends
+    wikilink: "[[Christlikeness]]"
+    reason: "Faith lane - the aim personal change moves toward"
   - type: extends
     wikilink: "[[God Centered Design]]"
     reason: "Faith anchor for direction - God's glory before applause"
   - type: extends
-    wikilink: "[[Purpose and Vision]]"
-    reason: "Direction lever indexed first in this hub"
-  - type: extends
     wikilink: "[[Learning Organizations]]"
     reason: "Teams that change process after misses - organizational end state"
+  - type: extends
+    wikilink: "[[Purpose and Vision]]"
+    reason: "Direction lever indexed first in this hub"
   - type: extends
     wikilink: "[[Sanctification]]"
     reason: "Faith lane - becoming who I'm called to be, not a one-time event"

@@ -29,6 +29,9 @@ relationships:
     wikilink: "[[Christlikeness]]"
     reason: "Design the week toward His likeness, not applause"
   - type: extends
+    wikilink: "[[Grateful Obedience]]"
+    reason: "Grow toward His likeness from thanks, not wages"
+  - type: extends
     wikilink: "[[Love God]]"
     reason: "First commandment - whole-person devotion sets the center"
   - type: extends
@@ -38,6 +41,12 @@ relationships:
     wikilink: "[[Purpose and Vision]]"
     reason: "Faith lane for clear outcome - God's reign before urgency"
   - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Don't conform life to culture's design defaults"
+  - type: extends
+    wikilink: "[[Sanctification]]"
+    reason: "Design life for slow becoming under God's reign"
+  - type: extends
     wikilink: "[[Seek the Kingdom First]]"
     reason: "Kingdom-first is the filter this design principle runs on"
   - type: extends
@@ -46,12 +55,6 @@ relationships:
   - type: extends
     wikilink: "[[Treasure in Heaven]]"
     reason: "Store what lasts - earthly applause rusts"
-  - type: extends
-    wikilink: "[[Grateful Obedience]]"
-    reason: "Grow toward His likeness from thanks, not wages"
-  - type: extends
-    wikilink: "[[Sanctification]]"
-    reason: "Design life for slow becoming under God's reign"
   - type: implements
     wikilink: "[[Transformation Principles]]"
     reason: "Faith anchor for direction - change ordered under God's reign"

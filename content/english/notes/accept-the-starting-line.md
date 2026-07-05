@@ -19,9 +19,18 @@ shareable_thought:
   - "Name real limits this quarter before you promise the room a transformation."
   - "Pick targets from the real line, not the inspirational poster."
 relationships:
+  - type: alternative
+    wikilink: "[[There Is No Perfect Solution]]"
+    reason: "when waiting to feel ready blocks the good-enough starting target"
   - type: contradicts
     wikilink: "[[Growth Mindset]]"
     reason: "when 'still learning' excuses never updating the starting line"
+  - type: extends
+    wikilink: "[[Develop, Don't Endanger]]"
+    reason: "Real limits - challenge without fantasy bandwidth"
+  - type: extends
+    wikilink: "[[Grace]]"
+    reason: "Grace settled standing - acceptance picks targets from where you are"
   - type: extends
     wikilink: "[[Honest Self-Awareness]]"
     reason: "Inventory first - acceptance picks targets from what you found"
@@ -29,20 +38,11 @@ relationships:
     wikilink: "[[Minimum Effective Dose]]"
     reason: "Real starting line sets the smallest change that still works"
   - type: extends
-    wikilink: "[[Sanctification]]"
-    reason: "Grow from where you are - grace already settled standing"
-  - type: extends
-    wikilink: "[[Grace]]"
-    reason: "Grace settled standing - acceptance picks targets from where you are"
-  - type: extends
     wikilink: "[[Purpose and Vision]]"
     reason: "Real starting line before you name the outcome"
   - type: extends
-    wikilink: "[[Develop, Don't Endanger]]"
-    reason: "Real limits - challenge without fantasy bandwidth"
-  - type: alternative
-    wikilink: "[[There Is No Perfect Solution]]"
-    reason: "when waiting to feel ready blocks the good-enough starting target"
+    wikilink: "[[Sanctification]]"
+    reason: "Grow from where you are - grace already settled standing"
   - type: implements
     wikilink: "[[Transformation Principles]]"
     reason: "Acceptance lever - targets that survive contact with Tuesday"

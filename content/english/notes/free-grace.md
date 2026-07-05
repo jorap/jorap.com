@@ -27,11 +27,11 @@ relationships:
     wikilink: "[[Compounding]]"
     reason: "when good works compound into a merit ladder I think buys heaven"
   - type: extends
-    wikilink: "[[Christlikeness]]"
-    reason: "Grace saves first; likeness to Christ grows after - never the entry fee"
-  - type: extends
     wikilink: "[[Assurance]]"
     reason: "Rest on Christ's promise after faith - not this week's performance"
+  - type: extends
+    wikilink: "[[Christlikeness]]"
+    reason: "Grace saves first; likeness to Christ grows after - never the entry fee"
   - type: extends
     wikilink: "[[Grace]]"
     reason: "Free grace is grace applied to eternal life by faith alone"
@@ -53,6 +53,9 @@ relationships:
   - type: extends
     wikilink: "[[Minimum Effective Dose]]"
     reason: "Faith is the smallest act that still buys eternal life - no merit ladder on top"
+  - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Mind renewal follows gift received - doesn't buy heaven"
   - type: extends
     wikilink: "[[Standing vs Fellowship]]"
     reason: "Standing settled at faith; fellowship is the daily walk"

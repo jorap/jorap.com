@@ -28,6 +28,9 @@ relationships:
     wikilink: "[[Digital Minimalism]]"
     reason: "Cut tools before feeds eat the rest of your day"
   - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "What fights for mind-share before Scripture gets a turn"
+  - type: extends
     wikilink: "[[Signal vs Noise]]"
     reason: "Platforms sell noise - you guard signal"
 slug: "attention-economy"

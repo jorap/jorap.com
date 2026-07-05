@@ -77,6 +77,9 @@ relationships:
     wikilink: "[[Peace]]"
     reason: "Galatians calm from trusting the Father"
   - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Renewed mind walks by the Spirit - flesh defaults lose steering"
+  - type: extends
     wikilink: "[[Sanctification]]"
     reason: "Becoming holy over time - fruit is what that walk looks like"
   - type: extends

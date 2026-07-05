@@ -21,6 +21,9 @@ shareable_thought:
   - "Retire the model when real decisions prove it wrong."
   - "I note the mental models that earn repeat use in real decisions - retire the rest."
 relationships:
+  - type: alternative
+    wikilink: "[[Renewed Mind]]"
+    reason: "Scripture-shaped mind vs worldly thinking shortcuts"
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"
     reason: "when a model lens beats treating every tradeoff as equal"

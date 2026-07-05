@@ -28,6 +28,9 @@ relationships:
   - type: extends
     wikilink: "[[Minimum Effective Dose]]"
     reason: "Cut apps and notifications until you hit the smallest setup that still works"
+  - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Cut feeds that conform the mind to outrage and hurry"
 slug: "digital-minimalism"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"

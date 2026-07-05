@@ -30,6 +30,9 @@ relationships:
     wikilink: "[[Compounding]]"
     reason: "when holiness streaks compound into proof I'm saved"
   - type: extends
+    wikilink: "[[Abide in Me]]"
+    reason: "Fruit and holiness flow from staying in Christ, not from earning your spot"
+  - type: extends
     wikilink: "[[Accept the Starting Line]]"
     reason: "Grow from where you are - grace already settled standing"
   - type: extends
@@ -39,12 +42,6 @@ relationships:
     wikilink: "[[Christlikeness]]"
     reason: "Sanctification is the process; Christlikeness is the shape it aims at"
   - type: extends
-    wikilink: "[[God Centered Design]]"
-    reason: "Design the walk under God's reign, not applause"
-  - type: extends
-    wikilink: "[[Abide in Me]]"
-    reason: "Fruit and holiness flow from staying in Christ, not from earning your spot"
-  - type: extends
     wikilink: "[[Discipleship]]"
     reason: "Daily following is how sanctification shows up in real life"
   - type: extends
@@ -53,6 +50,9 @@ relationships:
   - type: extends
     wikilink: "[[Gentleness]]"
     reason: "Becoming holy includes strength under control in tone"
+  - type: extends
+    wikilink: "[[God Centered Design]]"
+    reason: "Design the walk under God's reign, not applause"
   - type: extends
     wikilink: "[[Grace]]"
     reason: "Grace sustains growth after the verdict, not before it"
@@ -71,6 +71,9 @@ relationships:
   - type: extends
     wikilink: "[[Patience]]"
     reason: "Becoming holy over time - patience marks the slow walk"
+  - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Mind renewal is the inner engine of slow becoming"
   - type: extends
     wikilink: "[[Standing vs Fellowship]]"
     reason: "Becoming holy without re-opening the verdict justification gave"

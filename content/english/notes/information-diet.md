@@ -24,6 +24,9 @@ relationships:
     wikilink: "[[Digital Minimalism]]"
     reason: "Cut feeds after you cut the apps that serve them"
   - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Diet curates feeds; renewal feeds Scripture that reshapes judgment"
+  - type: extends
     wikilink: "[[Signal vs Noise]]"
     reason: "Diet is picking signal and starving noise"
 slug: "information-diet"

@@ -23,6 +23,9 @@ relationships:
     wikilink: "[[Low Hanging Fruit]]"
     reason: "when extra diligence blocks an obvious quick win that was already good enough"
   - type: extends
+    wikilink: "[[Discern His Will Daily]]"
+    reason: "Faith lane - better calls when Scripture reshapes judgment first"
+  - type: extends
     wikilink: "[[Energy Protects Judgment]]"
     reason: "Tired decisions skew cheap and fast"
   - type: extends

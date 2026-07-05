@@ -23,6 +23,9 @@ relationships:
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Prayer is a dependent kid asking Dad, not bargaining for merit you already have"
+  - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Seek in Scripture feeds mind renewal on rhythm"
 slug: "ask-seek-knock"
 date: "2026-06-19 09:30:00+00:00"
 image: "/images/note.jpg"

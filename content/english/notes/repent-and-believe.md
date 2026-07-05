@@ -23,6 +23,9 @@ relationships:
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Kingdom entry is receive as gift - not earn by fixed habits first"
+  - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Change of mind at entry; renewal keeps the turn going"
 slug: "repent-and-believe"
 date: "2026-06-19 09:15:00+00:00"
 image: "/images/note.jpg"

@@ -35,6 +35,9 @@ relationships:
   - type: extends
     wikilink: "[[Ship It]]"
     reason: "Finish-and-publish pressure this note defends"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Inventory means nothing until it leaves your head"
 slug: "creative-output"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"

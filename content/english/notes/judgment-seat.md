@@ -34,6 +34,9 @@ relationships:
   - type: extends
     wikilink: "[[Justification]]"
     reason: "Declared righteous once; judgment seat never re-opens that verdict"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Accounts reviewed - borrowed gifts, not permanent trophies"
 slug: "judgment-seat"
 date: "2026-06-29 08:10:00+00:00"
 image: "/images/note.jpg"

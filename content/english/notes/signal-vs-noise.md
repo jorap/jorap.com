@@ -30,6 +30,9 @@ relationships:
   - type: extends
     wikilink: "[[Information Diet]]"
     reason: "What you let in - filter frame next to capture"
+  - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Kingdom signal before culture noise enters the mind"
 slug: "signal-vs-noise"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"

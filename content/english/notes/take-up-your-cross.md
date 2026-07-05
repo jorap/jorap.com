@@ -25,6 +25,15 @@ relationships:
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Cross-bearing costs something real after faith saves you - it doesn't earn eternal life"
+  - type: extends
+    wikilink: "[[Discern His Will Daily]]"
+    reason: "Choosing God's will over self-will - discernment names the fork"
+  - type: extends
+    wikilink: "[[Present a Living Sacrifice]]"
+    reason: "Daily death to self-will - body offered alive on the altar"
+  - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Renewed mind enables choosing God's will over self-will"
 slug: "take-up-your-cross"
 date: "2026-06-19 09:40:00+00:00"
 image: "/images/note.jpg"

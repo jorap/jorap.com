@@ -28,20 +28,20 @@ relationships:
     wikilink: "[[Continuous Improvement]]"
     reason: "Loop fixes are small upgrades repeated"
   - type: extends
+    wikilink: "[[People-Centered Design]]"
+    reason: "Fix the loop humans actually run - not only the chart"
+  - type: extends
     wikilink: "[[Process Over Outcomes]]"
     reason: "Trust the repeatable loop, not one heroic save"
   - type: extends
     wikilink: "[[Second-Order Thinking]]"
     reason: "Second moves and side effects are part of the system"
-  - type: extends
-    wikilink: "[[People-Centered Design]]"
-    reason: "Fix the loop humans actually run - not only the chart"
-  - type: implements
-    wikilink: "[[Transformation Principles]]"
-    reason: "Systems lens lever the transformation hub indexes"
   - type: implements
     wikilink: "[[Systems for Growth]]"
     reason: "Growth hub indexes the loops this lens is for"
+  - type: implements
+    wikilink: "[[Transformation Principles]]"
+    reason: "Systems lens lever the transformation hub indexes"
 slug: "systems-thinking"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

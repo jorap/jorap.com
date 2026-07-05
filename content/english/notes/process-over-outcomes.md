@@ -39,6 +39,9 @@ relationships:
     wikilink: "[[Pressure Reveals Weakness]]"
     reason: "Process and defaults survive when heat rises"
   - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Daily mind renewal beats one emotional retreat high"
+  - type: extends
     wikilink: "[[Systems Thinking]]"
     reason: "Trust the loop, not the scoreboard"
 slug: "process-over-outcomes"

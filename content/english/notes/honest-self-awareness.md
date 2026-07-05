@@ -23,23 +23,17 @@ relationships:
     wikilink: "[[Growth Mindset]]"
     reason: "when 'still learning' excuses the same gap quarter after quarter"
   - type: extends
-    wikilink: "[[Failure as Feedback]]"
-    reason: "Admit the miss before you treat it as signal"
-  - type: extends
-    wikilink: "[[Growth Mindset]]"
-    reason: "Data only works when you stop defending the label"
-  - type: extends
     wikilink: "[[Accept the Starting Line]]"
     reason: "Inventory first - acceptance picks targets from what you found"
+  - type: extends
+    wikilink: "[[Failure as Feedback]]"
+    reason: "Admit the miss before you treat it as signal"
   - type: extends
     wikilink: "[[Minimum Effective Dose]]"
     reason: "Real limits pick the smallest change that still works"
   - type: extends
     wikilink: "[[Name the Feeling]]"
     reason: "Label what's true before you inventory strengths and gaps"
-  - type: extends
-    wikilink: "[[Growth Mindset]]"
-    reason: "Honest inventory is the floor misses-as-data needs"
   - type: implements
     wikilink: "[[Systems for Growth]]"
     reason: "Mindset lever the growth hub installs before loops run"

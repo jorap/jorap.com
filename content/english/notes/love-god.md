@@ -21,14 +21,17 @@ relationships:
     wikilink: "[[Don't Worry]]"
     reason: "when worry replaces trust"
   - type: extends
-    wikilink: "[[God Centered Design]]"
-    reason: "Whole-person devotion sets who the plan ultimately serves"
-  - type: extends
     wikilink: "[[Free Grace]]"
     reason: "First call on a life already saved - love from grace received, not payment for eternal life"
   - type: extends
     wikilink: "[[Fruits of the Spirit]]"
     reason: "Love fruit - greatest commandment cluster"
+  - type: extends
+    wikilink: "[[God Centered Design]]"
+    reason: "Whole-person devotion sets who the plan ultimately serves"
+  - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Mind devotion is one quarter of whole-person love"
 slug: "love-god"
 date: "2026-06-19 08:05:00+00:00"
 image: "/images/note.jpg"

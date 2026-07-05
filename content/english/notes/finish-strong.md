@@ -48,6 +48,9 @@ relationships:
   - type: extends
     wikilink: "[[Success is Stewardship]]"
     reason: "Steward the tail end, not only the exciting start"
+  - type: extends
+    wikilink: "[[Steward After the Win]]"
+    reason: "Win is mid-game - close the tail, don't stop at halftime"
 slug: "finish-strong"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"

@@ -23,14 +23,14 @@ relationships:
     wikilink: "[[Compounding]]"
     reason: "when drilling one weak slice ignores breadth the next role will demand"
   - type: extends
-    wikilink: "[[Practice Small Experiments]]"
-    reason: "Targeted reps inside a small trial you can keep or drop"
-  - type: extends
     wikilink: "[[Convert Pain Into Learning]]"
     reason: "Practice is how lessons become skill"
   - type: extends
     wikilink: "[[Minimum Effective Dose]]"
     reason: "Smallest focused rep that moves the needle"
+  - type: extends
+    wikilink: "[[Practice Small Experiments]]"
+    reason: "Targeted reps inside a small trial you can keep or drop"
   - type: extends
     wikilink: "[[The Feynman Technique]]"
     reason: "Teach-it-back as deliberate practice for understanding"

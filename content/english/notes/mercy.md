@@ -45,6 +45,12 @@ relationships:
     wikilink: "[[Love Your Neighbor]]"
     reason: "Neighbor-love shows mercy to the person in front of me"
   - type: extends
+    wikilink: "[[Present a Living Sacrifice]]"
+    reason: "Romans 12:1 - in view of God's mercy, then the offering"
+  - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Romans 12:1 - renewal responds to mercy already received"
+  - type: extends
     wikilink: "[[The Beatitudes]]"
     reason: "Merciful obtain mercy - character Jesus blessed"
 slug: "mercy"

@@ -26,12 +26,6 @@ relationships:
     wikilink: "[[Pareto Principle]]"
     reason: "when I protect my 20% status and treat everyone else as support staff"
   - type: extends
-    wikilink: "[[Own Your Part]]"
-    reason: "Leaders model moving your slice - don't delegate waiting"
-  - type: extends
-    wikilink: "[[People-Centered Design]]"
-    reason: "Unblock humans, not only metrics"
-  - type: extends
     wikilink: "[[Develop, Don't Endanger]]"
     reason: "Serve the team by protecting growth - not by sacrificing people to prove toughness"
   - type: extends
@@ -46,6 +40,15 @@ relationships:
   - type: extends
     wikilink: "[[Notice the Good]]"
     reason: "Name what the team did - don't grab the praise slide"
+  - type: extends
+    wikilink: "[[Own Your Part]]"
+    reason: "Leaders model moving your slice - don't delegate waiting"
+  - type: extends
+    wikilink: "[[People-Centered Design]]"
+    reason: "Unblock humans, not only metrics"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Use the platform for the team, not ego"
 slug: "servant-leadership"
 date: "2026-06-21 14:00:00+00:00"
 image: "/images/note.jpg"

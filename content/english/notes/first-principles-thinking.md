@@ -22,6 +22,9 @@ relationships:
   - type: alternative
     wikilink: "[[Mental Models]]"
     reason: "Strip-to-basics vs pick-a-model when a lens beats invention"
+  - type: alternative
+    wikilink: "[[Renewed Mind]]"
+    reason: "Received gospel mind vs ethics derived from scratch"
   - type: contradicts
     wikilink: "[[Eternal Principles]]"
     reason: "when I treat gospel ethics as ideas I invented"

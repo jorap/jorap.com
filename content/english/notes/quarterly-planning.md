@@ -30,11 +30,11 @@ relationships:
     wikilink: "[[Measure Then Iterate]]"
     reason: "Thirteen-week rhythm needs a number you'd actually track"
   - type: extends
-    wikilink: "[[Purpose and Vision]]"
-    reason: "Named outcome on a rhythm that stays visible"
-  - type: extends
     wikilink: "[[Periodic Knowledge Review]]"
     reason: "Ninety-day zoom on the same review rhythm"
+  - type: extends
+    wikilink: "[[Purpose and Vision]]"
+    reason: "Named outcome on a rhythm that stays visible"
   - type: extends
     wikilink: "[[The 12 Week Year]]"
     reason: "Thirteen weeks is short enough to feel real"

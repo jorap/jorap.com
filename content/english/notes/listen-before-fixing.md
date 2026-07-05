@@ -23,17 +23,17 @@ relationships:
     wikilink: "[[Safety Comes First]]"
     reason: "when waiting to hear more would let harm continue"
   - type: extends
-    wikilink: "[[People-Centered Design]]"
-    reason: "Hear the need before you ship the fix"
-  - type: extends
-    wikilink: "[[Shadow the Work]]"
-    reason: "Listening plus watching the real job"
-  - type: extends
     wikilink: "[[Follow Their Lead]]"
     reason: "Listening is how I stay in their world before I steer"
   - type: extends
     wikilink: "[[Gentleness]]"
     reason: "Hear before you prescribe - gentleness in conversation"
+  - type: extends
+    wikilink: "[[People-Centered Design]]"
+    reason: "Hear the need before you ship the fix"
+  - type: extends
+    wikilink: "[[Shadow the Work]]"
+    reason: "Listening plus watching the real job"
   - type: extends
     wikilink: "[[The Golden Rule]]"
     reason: "I'd want someone to hear me out before they fixed me"

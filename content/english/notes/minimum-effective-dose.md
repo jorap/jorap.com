@@ -24,9 +24,6 @@ relationships:
     wikilink: "[[Accept the Starting Line]]"
     reason: "Real limits set the smallest change that still works"
   - type: extends
-    wikilink: "[[Practice Small Experiments]]"
-    reason: "Smallest trial that still tells you something"
-  - type: extends
     wikilink: "[[Create Regular Connection]]"
     reason: "Smallest connection habit that still lands"
   - type: extends
@@ -38,6 +35,9 @@ relationships:
   - type: extends
     wikilink: "[[Pareto Principle]]"
     reason: "Find the smallest change that still moves the needle - the slice of effort that earns most results"
+  - type: extends
+    wikilink: "[[Practice Small Experiments]]"
+    reason: "Smallest trial that still tells you something"
 slug: "minimum-effective-dose"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"

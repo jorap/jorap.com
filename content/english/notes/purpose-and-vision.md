@@ -23,23 +23,23 @@ relationships:
     wikilink: "[[Signal vs Noise]]"
     reason: "when every ping feels equally important because direction is vague"
   - type: extends
+    wikilink: "[[God Centered Design]]"
+    reason: "Faith lane - God's glory orders the outcome worth tradeoffs"
+  - type: extends
     wikilink: "[[Priorities Before the Inbox]]"
     reason: "Named outcome protects the morning before Slack sets it"
   - type: extends
     wikilink: "[[Quarterly Planning]]"
     reason: "Thirteen-week rhythm keeps direction visible"
   - type: extends
-    wikilink: "[[God Centered Design]]"
-    reason: "Faith lane - God's glory orders the outcome worth tradeoffs"
-  - type: extends
     wikilink: "[[Seek the Kingdom First]]"
     reason: "Faith anchor - God's reign before urgency rewrites the day"
   - type: implements
-    wikilink: "[[Workplace Principles]]"
-    reason: "Clear outcome before inbox and hallway urgency"
-  - type: implements
     wikilink: "[[Transformation Principles]]"
     reason: "Direction lever this hub installs first"
+  - type: implements
+    wikilink: "[[Workplace Principles]]"
+    reason: "Clear outcome before inbox and hallway urgency"
 slug: "purpose-and-vision"
 date: "2026-07-03 09:00:00+00:00"
 image: "/images/note.jpg"

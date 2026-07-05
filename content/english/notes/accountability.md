@@ -26,14 +26,17 @@ relationships:
     wikilink: "[[Complete the Cycle]]"
     reason: "Owners close loops"
   - type: extends
-    wikilink: "[[Own Your Part]]"
-    reason: "Name the owner - then move your slice before the memo"
-  - type: extends
     wikilink: "[[Own the Error]]"
     reason: "Accountability starts with naming the miss"
   - type: extends
+    wikilink: "[[Own Your Part]]"
+    reason: "Name the owner - then move your slice before the memo"
+  - type: extends
     wikilink: "[[Servant Leadership]]"
     reason: "Leaders take blame upward, share credit down"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Stewardship names who answers for how the gift gets used"
 slug: "accountability"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"
