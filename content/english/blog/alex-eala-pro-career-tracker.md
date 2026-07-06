@@ -14,7 +14,7 @@ related_notes:
   - follow-through
 featured: false
 draft: false
-lastmod: 2026-06-21T02:30:00Z
+lastmod: 2026-07-06T08:52:00Z
 ---
 
 I've been following Alex Eala's career since her amazing run at the 2025 Miami Open, and watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook - career-high rankings, the matches I'll always remember, the head-to-heads with Grand Slam champions, and the upcoming matchups I'm watching for. I update it as her career unfolds.
@@ -169,7 +169,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
     - Round of 128, d. Volynets 6-3, 7-6(3) | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS114) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/k-volynets-vs-a-eala-2025-03-20)
 
   - **Canberra International (WTA 125, Hard)**
-    - Semifinals, l. Wei 5-7, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2096/canberra-125/2025/scores/LS003)
+    - Semifinals, l. Wei 5-7, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2096/canberra-125/2025/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/workday-canberra-international/matches/s-wei-vs-a-eala-2025-01-03)
     - Quarterfinals, d. Preston 4-6, 6-2, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/2096/canberra-125/2025/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/workday-canberra-international/matches/t-preston-vs-a-eala-2025-01-02)
     - Round of 16, d. Hartono 6-3, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/2096/canberra-125/2025/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/workday-canberra-international/matches/a-eala-vs-a-hartono-2025-01-01)
     - Round of 32, d. Kraus 6-2, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2096/canberra-125/2025/scores/LS030) | [tennis.com](https://www.tennis.com/tournaments/workday-canberra-international/matches/a-eala-vs-s-kraus-2024-12-31)
