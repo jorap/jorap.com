@@ -31,6 +31,24 @@ Match the author's voice: first-person Filipino fan, proud but factual. Preserve
 | Top 20 opponent wins a Slam | [Slam-winner promotion workflow](#slam-winner-promotion-workflow) |
 | Formatting templates and player IDs | [reference.md](reference.md) |
 
+## Polite fetching (mandatory)
+
+**Goal:** one update session should feel like a human checking a few pages — not a scraper.
+
+1. **Read the tracker first.** Treat the file as cache. Only fetch what changed or is missing — never re-pull data already correct in the post.
+2. **One domain at a time.** No parallel requests to the same host. Wait **≥ 2 seconds** between consecutive requests to the same domain.
+3. **Fetch budget per session** (hard caps — stop and report gaps instead of exceeding):
+   - WTA (`wtatennis.com`): **≤ 6** page loads (profile + singles matches + doubles matches + up to 3 targeted score/H2H URLs)
+   - Tennis.com: **≤ 2**
+   - TNNSLIVE: **≤ 1**
+   - Grand Slam official sites: **≤ 4** total (only for rounds you are adding)
+   - YouTube oembed: **only new** `VIDEO_ID`s you plan to embed — never re-verify IDs already in the file
+4. **Prefer web search for discovery.** Use search to learn results, opponents, and URLs; then open **one** authoritative page per fact to confirm. Do not crawl search-result links in bulk.
+5. **No retry loops.** If a WTA/Tennis.com fetch returns empty or errors once, switch source (see fallback below) or stop — do not retry the same URL with different headers, agents, or backoff spam.
+6. **Opponent profiles are on demand.** Fetch an opponent's WTA page only when adding/promoting that opponent or verifying a new meeting — never bulk-check every Other Top 20 block on a routine refresh.
+7. **Link checks:** spot-check **new** URLs only. Skip HEAD/fetch on links already in the tracker unless a user reports breakage.
+8. **Summarize unverified gaps** rather than hammering sites to close every open question in one pass.
+
 ## Authoritative sources (use in this order)
 
 1. **WTA profile** — rankings, career overview, H2H: `https://www.wtatennis.com/players/330332/alexandra-eala`
@@ -42,16 +60,16 @@ Match the author's voice: first-person Filipino fan, proud but factual. Preserve
 5. **Grand Slam sites** — Aus Open (`ausopen.com`), Roland Garros, Wimbledon, US Open official match pages
 6. **YouTube** — match highlights, extended highlights, or full-match replays from official tour/slam channels or **regional rights-holding broadcasters worldwide**; see [reference.md](reference.md#youtube-embed-rules)
 
-Use the WTA **Matches** pages to discover gaps vs the tracker (filter by year/tournament). Cross-check round reached and opponent on at least two sources before editing.
+Use the WTA **Matches** pages to discover gaps vs the tracker (filter by year/tournament). Cross-check round reached and opponent on **one** alternate source before editing — not every source on every line.
 
-**WTA fetch fallback:** WTA match pages are often client-rendered and may return little HTML to automated fetches. When that happens, use Tennis.com activity, TNNSLIVE form, `curl` with a browser `User-Agent` against WTA score URLs (`/tournaments/.../scores/LS…` or `LD…`), or targeted web search — then verify on a second source.
+**WTA fetch fallback:** WTA match pages are often client-rendered and may return little HTML to automated fetches. When that happens, use **one** of: Tennis.com activity, TNNSLIVE form, a single targeted WTA score URL (`/tournaments/.../scores/LS…` or `LD…`), or web search — then confirm on a second source. Do not chain multiple fallbacks against the same host.
 
 ## Full update workflow
 
 ```
 Task progress:
-- [ ] Read current tracker file
-- [ ] Fetch WTA profile (rankings) and WTA Matches pages (singles + doubles)
+- [ ] Read current tracker file (cache — note what is already current)
+- [ ] Fetch only what gaps need: WTA profile if career high may have changed; WTA Matches (singles + doubles) if recent results missing — respect [Polite fetching](#polite-fetching-mandatory) caps
 - [ ] Compare against existing content; list gaps
 - [ ] Update WTA Rankings if career high changed
 - [ ] Update **At a glance** if career highs, titles, best Slam, or notable firsts changed
@@ -182,7 +200,7 @@ Count titles from each opponent's **Grand Slam Titles** table. Do not re-sort **
 
 ### Step 6 — YouTube embeds
 
-Add `{{< youtube VIDEO_ID >}}` shortcodes below tournament and H2H entries when verified match footage exists. Follow [YouTube embed rules](reference.md#youtube-embed-rules). Never guess video IDs — verify each ID via YouTube oembed (`title` + `author_name`).
+Add `{{< youtube VIDEO_ID >}}` shortcodes below tournament and H2H entries when verified match footage exists. Follow [YouTube embed rules](reference.md#youtube-embed-rules). Never guess video IDs — oembed-check **new** IDs only (`title` + `author_name`); IDs already embedded in the tracker are trusted.
 
 Search **official tour/slam channels first**, then **rights-holding broadcasters in any region** (Americas, Europe, Asia-Pacific, Middle East, etc.) before leaving a gap. See [Broadcaster search strategy](reference.md#broadcaster-search-strategy).
 
@@ -204,7 +222,7 @@ For **Grand Slam Main Draw Results** (singles and doubles), search for verified 
 - Exit-round tournament links point to the deepest round played
 - Tournament names are **brand-free** and include `(WTA 125|250|500|1000)` on every WTA tour line; Grand Slams use the four major names only
 - H2H match lines use brand-free tournament names
-- Links resolve (fetch or spot-check key URLs)
+- New links only: spot-check URLs added this session (do not re-fetch every existing link)
 - `lastmod` bumped; other frontmatter unchanged unless user asks
 - Run `read_lints` on the edited file if available
 
@@ -224,7 +242,7 @@ For **Grand Slam Main Draw Results** (singles and doubles), search for verified 
 
 When the user names one tournament or match:
 
-1. Confirm result on WTA + tennis.com
+1. Confirm result on WTA **or** tennis.com (one primary + one quick cross-check — stay within fetch budget)
 2. Insert in the correct year block (create the year heading if missing)
 3. Update H2H if opponent section exists; otherwise follow [Head-to-head workflow](#head-to-head-workflow)
 4. Update career-high ranking and **At a glance** if this result caused a new peak, title, or notable first
@@ -244,7 +262,7 @@ When the user names one tournament or match:
 
 Run during every full refresh and whenever a known Other Top 20 opponent wins a major.
 
-**Who to check:** every `###` block in **Matches Against Other Top 20 Players**. Confirm Slam singles titles on the opponent's WTA profile and list completed singles meetings via [WTA H2H](https://www.wtatennis.com/head-to-head/330332/[OPPONENT_ID]).
+**Who to check:** `###` blocks in **Matches Against Other Top 20 Players** only when a full refresh runs **and** you have fetch budget left — prioritize opponents with recent Slam news (web search first). Confirm titles on **one** opponent WTA profile at a time; list meetings via that opponent's [WTA H2H](https://www.wtatennis.com/head-to-head/330332/[OPPONENT_ID]) URL only when promoting.
 
 **When to promote:** opponent has **at least one Grand Slam singles title** and an existing H2H block (they have already met Eala in a tracked context).
 
