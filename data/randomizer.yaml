@@ -1,11 +1,11 @@
-# Game prompt collections. Names describe the prompt type — not branded deck titles.
+# Game prompt collections. Names describe the prompt type, not branded deck titles.
 # All prompts are family-friendly and generic for a worldwide audience.
 collections:
 - id: scale-clues
   title: Ranking prompts
   mode: ranked-prompts
-  tagline: Open situations and what-if scenarios. Name one concrete example — the group ranks it from 1 to 100.
-  play_hint: Give one real example ("flashlight", "take a nap", "duct tape"). 1 = weakest fit for the theme, 100 = strongest — rank what you meant, not what everyone else would pick. Don't say your number.
+  tagline: A theme on the card. You name one real thing; everyone ranks it 1-100 in their head.
+  play_hint: One real example ("flashlight", "take a nap", "duct tape"). 1 = weakest fit for the theme, 100 = strongest. Rank what you meant, not what the table would guess. Don't say your number out loud.
   items:
   - Things you'd want to do when you're very tired.
   - Things to bring on a deserted island.
@@ -311,8 +311,8 @@ collections:
 - id: personal-scales
   title: Personal icebreakers
   mode: personal
-  tagline: Honest 1-to-100 self-ratings about real habits and personality — one surprising answer at a time.
-  play_hint: Answer honestly.
+  tagline: Rate yourself 1-100 on habits you'd actually admit at the table. Someone always surprises the room.
+  play_hint: Pick your number honestly. Out loud or in your head - your call.
   scale_label: On a scale of 1 to 100
   items:
   - "How dramatic are you?"
@@ -619,7 +619,7 @@ collections:
 - id: spectrum
   title: Concept spectrums
   mode: spectrum
-  tagline: Two opposing ideas on one sliding scale. One hidden spot on the line — name one word or phrase that belongs there.
+  tagline: Two poles on one line. Someone picks a hidden spot; you give one clue that lands there.
   play_hint: Give a single clue for where the target lands. Works near either pole, not only the middle. Expect friendly debate.
   spectrums:
   - left: Hot
@@ -1027,7 +1027,7 @@ collections:
   title: Either-or dilemmas
   mode: ranked-prompts
   tagline: Two options, one choice. Pick a side and say why.
-  play_hint: Read both options aloud. Everyone picks one — no middle ground. Best argument wins.
+  play_hint: Read both options aloud. Everyone picks one, no middle ground. Best argument wins.
   items:
   - "Always be ten minutes early, or always be ten minutes late?"
   - "Always have perfect weather on vacation, or always get the best seat at home?"
@@ -1333,8 +1333,8 @@ collections:
 - id: table-topics
   title: Conversation starters
   mode: ranked-prompts
-  tagline: Open prompts — share a story, a memory, or a hot take. No scoring.
-  play_hint: Take turns answering. There is no right answer — stories beat one-word replies.
+  tagline: Open prompts to swap stories and opinions. No scoring.
+  play_hint: Take turns. There is no right answer; stories beat one-word replies.
   items:
   - A rule from childhood you still follow.
   - A toy or game you wish you still had.
@@ -1376,7 +1376,7 @@ collections:
   - A meal that only tasted right at someone's house.
   - A time you shared a room and what you learned.
   - A time you had your own space and what you did with it.
-  - "A weather day you remember — snow, rain, or heat."
+  - "A weather day you remember: snow, rain, or heat."
   - A time you built something with your hands.
   - A time you broke something and had to fix it.
   - A time you laughed so hard you could not stop.
@@ -1394,11 +1394,11 @@ collections:
   - A country you want to visit for the food.
   - A country you want to visit for nature.
   - A country you want to visit for history.
-  - A beach memory — good or bad.
+  - A beach memory, good or bad.
   - A mountain or hill climb worth the effort.
   - A museum exhibit that stuck with you.
   - A market or fair you loved browsing.
-  - A long flight story — good seat or bad seat.
+  - A long flight story, good seat or bad seat.
   - A train or bus ride you still remember.
   - A road trip snack tradition.
   - A souvenir you actually kept and use.
@@ -1407,7 +1407,7 @@ collections:
   - A place you would return to again and again.
   - A place you would visit once and never need to return.
   - A hotel or hostel story.
-  - "A camping memory — tent, cabin, or backyard."
+  - "A camping memory: tent, cabin, or backyard."
   - A time you got wonderfully lost in a new place.
   - A local food you tried abroad and loved.
   - A local food you tried abroad and could not finish.
@@ -1506,8 +1506,8 @@ collections:
   - A board game role you always end up playing.
   - A video game world you would live in for a week.
   - A card game you learned as a kid.
-  - "A puzzle type you love — jigsaw, crossword, or other."
-  - "A collection you had as a kid — cards, rocks, stickers."
+  - "A puzzle type you love: jigsaw, crossword, or other."
+  - "A collection you had as a kid: cards, rocks, stickers."
   - A talent you would perform at a school talent show.
   - A talent you absolutely would not perform.
   - A hobby that costs more than people think.
@@ -1525,7 +1525,7 @@ collections:
   - A holiday craft or decoration you enjoy making.
   - A party game that works with any group.
   - A party game that needs exactly the right group.
-  - "A place you go to think — park, café, library."
+  - "A place you go to think: park, café, library."
   - A creative block you pushed through.
   - A time you taught someone a game or skill.
   - A time someone taught you something that stuck.
@@ -1591,7 +1591,7 @@ collections:
   - A coincidence that still feels unreal.
   - A dream you remember vividly.
   - A nightmare that stuck with you.
-  - "A near miss — car, bike, kitchen, sports — that taught you something."
+  - "A near miss (car, bike, kitchen, sports) that taught you something."
   - A time you found money or lost money in a memorable way.
   - A prank you pulled that went perfectly.
   - A prank that backfired on you.
@@ -1605,7 +1605,7 @@ collections:
   - A time you said no and were relieved.
   - A costume or outfit you wore proudly.
   - A costume or outfit you regret.
-  - "A weather event you lived through — storm, flood, heat wave."
+  - "A weather event you lived through: storm, flood, heat wave."
   - A power outage story.
   - A time the internet went out and you did something better.
   - A thing you believed until embarrassingly late in life.

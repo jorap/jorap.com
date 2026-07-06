@@ -299,8 +299,8 @@ def main():
     text = YAML.read_text()
     block = "- id: spectrum\n  title: Concept spectrums\n  mode: spectrum\n"
     block += (
-        "  tagline: Two opposing ideas on one sliding scale. "
-        "One hidden spot on the line — name one word or phrase that belongs there.\n"
+        "  tagline: Two poles on one line. "
+        "Someone picks a hidden spot; you give one clue that lands there.\n"
     )
     block += (
         "  play_hint: Give a single clue for where the target lands. "

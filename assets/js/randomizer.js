@@ -179,7 +179,7 @@
   function renderHome() {
     if (els.lede) {
       els.lede.textContent =
-        "Ranking prompts, icebreakers, spectrums, either-or dilemmas, and conversation starters — pick one to start.";
+        "Five decks for table time. Pick one, shuffle, pass the phone.";
     }
     if (els.collections) {
       els.collections.innerHTML = collections.map(collectionCardHtml).join("");
@@ -366,7 +366,7 @@
       "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,viewport-fit=cover\">\n" +
       "<title>" +
       escapeHtml(payload.title) +
-      " — randomizer</title>\n<style>" +
+      " - randomizer</title>\n<style>" +
       offlineCss() +
       "</style>\n</head>\n<body>\n" +
       '<div class="randomizer-play">\n' +

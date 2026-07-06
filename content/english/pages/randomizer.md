@@ -1,9 +1,11 @@
 ---
 title: "Randomizer"
-meta_title: "Game Prompt Randomizer"
-description: "Shuffle ranking prompts, icebreakers, spectrums, either-or dilemmas, or conversation starters for game night anywhere. Save an offline HTML copy."
+meta_title: "Game Night Prompt Randomizer"
+description: "Five prompt decks for game night when the box isn't handy. Shuffle at the table, or save an offline copy."
 layout: randomizer
 draft: false
 ---
 
-Five prompt styles — ranking scales, personal questions, binary spectrums, either-or dilemmas, and conversation starters. Pick a collection, then shuffle at the table.
+I keep a few party games around for family night. When someone wants ranking prompts or spectrums and the boxed deck isn't on the shelf, this page shuffles the cards for us.
+
+Pick a collection, hit shuffle, pass the phone. Save an offline HTML copy if wifi is spotty.

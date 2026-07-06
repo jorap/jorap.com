@@ -799,8 +799,8 @@ def score_personal(item: str) -> float:
 
 
 SPECTRUM_TAGLINE = (
-    "Two opposing ideas on one sliding scale. "
-    "One hidden spot on the line — name one word or phrase that belongs there."
+    "Two poles on one line. "
+    "Someone picks a hidden spot; you give one clue that lands there."
 )
 SPECTRUM_PLAY_HINT = (
     "Give a single clue for where the target lands. "

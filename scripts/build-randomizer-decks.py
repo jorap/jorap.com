@@ -19,7 +19,7 @@ WYR_META = {
     "mode": "ranked-prompts",
     "tagline": "Two options, one choice. Pick a side and say why.",
     "play_hint": (
-        "Read both options aloud. Everyone picks one — no middle ground. "
+        "Read both options aloud. Everyone picks one, no middle ground. "
         "Best argument wins."
     ),
 }
@@ -28,9 +28,9 @@ TABLE_META = {
     "id": "table-topics",
     "title": "Conversation starters",
     "mode": "ranked-prompts",
-    "tagline": "Open prompts — share a story, a memory, or a hot take. No scoring.",
+    "tagline": "Open prompts to swap stories and opinions. No scoring.",
     "play_hint": (
-        "Take turns answering. There is no right answer — stories beat one-word replies."
+        "Take turns. There is no right answer; stories beat one-word replies."
     ),
 }
 
@@ -433,7 +433,7 @@ TABLE_CATEGORIES: list[dict] = [
             "A meal that only tasted right at someone's house.",
             "A time you shared a room and what you learned.",
             "A time you had your own space and what you did with it.",
-            "A weather day you remember — snow, rain, or heat.",
+            "A weather day you remember: snow, rain, or heat.",
             "A time you built something with your hands.",
             "A time you broke something and had to fix it.",
             "A time you laughed so hard you could not stop.",
@@ -457,11 +457,11 @@ TABLE_CATEGORIES: list[dict] = [
             "A country you want to visit for the food.",
             "A country you want to visit for nature.",
             "A country you want to visit for history.",
-            "A beach memory — good or bad.",
+            "A beach memory, good or bad.",
             "A mountain or hill climb worth the effort.",
             "A museum exhibit that stuck with you.",
             "A market or fair you loved browsing.",
-            "A long flight story — good seat or bad seat.",
+            "A long flight story, good seat or bad seat.",
             "A train or bus ride you still remember.",
             "A road trip snack tradition.",
             "A souvenir you actually kept and use.",
@@ -470,7 +470,7 @@ TABLE_CATEGORIES: list[dict] = [
             "A place you would return to again and again.",
             "A place you would visit once and never need to return.",
             "A hotel or hostel story.",
-            "A camping memory — tent, cabin, or backyard.",
+            "A camping memory: tent, cabin, or backyard.",
             "A time you got wonderfully lost in a new place.",
             "A local food you tried abroad and loved.",
             "A local food you tried abroad and could not finish.",
@@ -581,8 +581,8 @@ TABLE_CATEGORIES: list[dict] = [
             "A board game role you always end up playing.",
             "A video game world you would live in for a week.",
             "A card game you learned as a kid.",
-            "A puzzle type you love — jigsaw, crossword, or other.",
-            "A collection you had as a kid — cards, rocks, stickers.",
+            "A puzzle type you love: jigsaw, crossword, or other.",
+            "A collection you had as a kid: cards, rocks, stickers.",
             "A talent you would perform at a school talent show.",
             "A talent you absolutely would not perform.",
             "A hobby that costs more than people think.",
@@ -600,7 +600,7 @@ TABLE_CATEGORIES: list[dict] = [
             "A holiday craft or decoration you enjoy making.",
             "A party game that works with any group.",
             "A party game that needs exactly the right group.",
-            "A place you go to think — park, café, library.",
+            "A place you go to think: park, café, library.",
             "A creative block you pushed through.",
             "A time you taught someone a game or skill.",
             "A time someone taught you something that stuck.",
@@ -678,7 +678,7 @@ TABLE_CATEGORIES: list[dict] = [
             "A coincidence that still feels unreal.",
             "A dream you remember vividly.",
             "A nightmare that stuck with you.",
-            "A near miss — car, bike, kitchen, sports — that taught you something.",
+            "A near miss (car, bike, kitchen, sports) that taught you something.",
             "A time you found money or lost money in a memorable way.",
             "A prank you pulled that went perfectly.",
             "A prank that backfired on you.",
@@ -692,7 +692,7 @@ TABLE_CATEGORIES: list[dict] = [
             "A time you said no and were relieved.",
             "A costume or outfit you wore proudly.",
             "A costume or outfit you regret.",
-            "A weather event you lived through — storm, flood, heat wave.",
+            "A weather event you lived through: storm, flood, heat wave.",
             "A power outage story.",
             "A time the internet went out and you did something better.",
             "A thing you believed until embarrassingly late in life.",
