@@ -1,6 +1,6 @@
 ---
 title: "Alex Eala Pro Career Tracker"
-date: 2026-06-21T05:00:00Z
+date: 2026-07-05T05:00:00Z
 meta_title: "Alex Eala Pro Career Tracker"
 slug: "alex-eala-pro-career-tracker"
 description: "My running scrapbook of Alex Eala's WTA career - rankings, matches I'll never forget, and matchups I'm watching for next."
@@ -14,7 +14,7 @@ related_notes:
   - follow-through
 featured: false
 draft: false
-lastmod: 2026-07-06T12:52:00Z
+lastmod: 2026-07-06T13:00:00Z
 ---
 
 I've been following Alex Eala's career since her amazing run at the 2025 Miami Open, and watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook - career-high rankings, the matches I'll always remember, the head-to-heads with Grand Slam champions, and the upcoming matchups I'm watching for. I update it as her career unfolds.
@@ -238,9 +238,9 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
   - **Wimbledon**
     - First Filipina to reach the second week (Round of 16) at a Grand Slam
     - Upset defending champion Iga Swiatek on Centre Court
-    - 3rd Round, d. Swiatek 7-6(9), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362774) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04)
-    - 2nd Round, d. Joint 3-6, 6-2, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362773) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-m-joint-2026-07-02)
-    - 1st Round, d. Zarazua 6-1, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362772) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-r-zarazua-2026-06-30)
+    - 3rd Round, d. Swiatek 7-6(9), 6-2
+    - 2nd Round, d. Joint 3-6, 6-2, 6-0
+    - 1st Round, d. Zarazua 6-1, 6-2
 
 {{< youtube bgSs0pKIAGI >}}
 
@@ -264,7 +264,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 {{< youtube vB6HVBHjpAg >}}
 
   - **Wimbledon**
-    - 1st Round, l. Krejcikova 3-6, 6-2, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS61511608) | [tennis.com](https://www.tennis.com/tournaments/sr-tournament-2553-wimbledon/sr-match-61511608/) | [wimbledon.com](https://www.wimbledon.com/en_GB/scores/stats/61511608.html)
+    - 1st Round, l. Krejcikova 3-6, 6-2, 1-6
     - Played against the defending champion Krejcikova at the Centre Court
 
   - **French Open**
@@ -276,7 +276,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - 2026
 
   - **Wimbledon - with Nikola Bartunkova**
-    - 1st Round, l. Ostapenko/Kenin 6-3, 3-6, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LD72362771) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-n-bartunkova-vs-j-ostapenko-s-kenin-2026-07-02) | [wimbledon.com](https://www.wimbledon.com/en_GB/scores/stats/72362771.html)
+    - 1st Round, l. Ostapenko/Kenin 6-3, 3-6, 1-6
 
   - **Australian Open - with Ingrid Martins**
     - 1st Round, l. Aoyama/Linette 6-7(3), 2-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LD67893812) | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-2026-01-21) | [ausopen.com](https://ausopen.com/match/2026-alexandra-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-wd126)
@@ -284,7 +284,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - 2025
 
   - **Wimbledon - with Eva Lys**
-    - 1st Round, l. Gleason/Martins 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LD61641892) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-e-lys-vs-q-gleason-i-martins-2025-07-03) | [wimbledon.com](https://www.wimbledon.com/en_GB/scores/stats/61641892.html)
+    - 1st Round, l. Gleason/Martins 4-6, 2-6
 
 {{< youtube NqbMdbIUuFE >}}
 
@@ -311,7 +311,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2026 Wimbledon (Grass)** - 3rd Round, WIN, 7-6(9), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362774) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04) | [wimbledon.com](https://www.wimbledon.com/en_GB/scores/stats/72362774.html)
+- **2026 Wimbledon (Grass)** - 3rd Round, WIN, 7-6(9), 6-2
 
 {{< youtube KUVh-Jflv_Q >}}
 
@@ -386,7 +386,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2025 Wimbledon (Grass)** - 1st Round, LOSS, 6-3, 2-6, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS61511608) | [tennis.com](https://www.tennis.com/tournaments/sr-tournament-2553-wimbledon/sr-match-61511608/) | [wimbledon.com](https://www.wimbledon.com/en_GB/scores/stats/61511608.html)
+- **2025 Wimbledon (Grass)** - 1st Round, LOSS, 6-3, 2-6, 1-6
 
 {{< youtube PtLGq_avxI4 >}}
 
