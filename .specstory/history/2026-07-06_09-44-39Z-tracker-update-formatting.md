@@ -1450,3 +1450,299 @@ _**Agent (auto-low)**_
 _**Agent (auto-low)**_
 
 Moved the two milestone notes above the round lines in the 2026 Wimbledon block — notes first, then 3rd / 2nd / 1st Round results.
+
+---
+
+_**User**_
+
+the bilyonaryo yt video is just sports news. replace
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Bilyonaryo YouTube video in the career tracker file is just sports news rather than match footage. It needs to be replaced.</details></think>
+
+_**Agent (auto-low)**_
+
+Searching the tracker for the Bilyonaryo embed and a verified match-footage replacement.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "youtube"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "youtube",
+  "topFiles": [
+    {
+      "matchCount": 48,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 48
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Bilyonaryo|bilyonaryo"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Bilyonaryo|bilyonaryo",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-06_08-37-14Z-external-links-verification.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Bilyonaryo video is the Round 2 Joint match highlights replacement for Wimbledon 2026. It is sports news and needs replacing.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Joint.*Wimbledon|ZwGElu9|eMUf4ILewBI|Maya Joint"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "Joint.*Wimbledon|ZwGElu9|eMUf4ILewBI|Maya Joint",
+  "topFiles": [
+    {
+      "matchCount": 11,
+      "uri": ".specstory/history/2026-06-18_01-46-41Z-alex-eala-tracker-update.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-18_02-54-38Z-skill-update-based-on-history.md"
+    },
+    {
+      "matchCount": 39,
+      "uri": ".specstory/history/2026-07-06_08-37-14Z-external-links-verification.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 52
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Searching for official Wimbledon or WTA highlights of the Eala versus Joint match in Round 2 of the 2026 tournament.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: for id in eMUf4ILewBI ZwGElu9-ynk KUVh-Jflv_Q; do
+  echo "=== $id ==="
+  curl -sL "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&format=json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('author_name','?'), '|', d.get('title','?')[:100])"
+done</summary>
+
+```bash
+for id in eMUf4ILewBI ZwGElu9-ynk KUVh-Jflv_Q; do
+  echo "=== $id ==="
+  curl -sL "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&format=json" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('author_name','?'), '|', d.get('title','?')[:100])"
+done
+```
+
+```
+=== eMUf4ILewBI ===
+John Eric Poli | Alex Eala vs Maya Joint - Wimbledon Round 2
+=== ZwGElu9-ynk ===
+Bilyonaryo News Channel | Alex Eala reaches Wimbledon 3rd round, avenges Eastbourne loss to Maya Joint
+=== KUVh-Jflv_Q ===
+Wimbledon | HISTORIC WIN! 🇵🇭 | Alexandra Eala vs Iga Swiatek | Extended Highlights | Wimbledon 2026
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search">
+<details>
+<summary>Tool use: **web_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "searchTerm": "Alexandra Eala Maya Joint Wimbledon 2026 Round 2 WTA Match Highlights YouTube"
+}
+```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [Alexandra Eala vs Maya Joint Highlights, Wimbledon 2026: Filipina Sensation Settles Scores To Reach Round Three | Outlook India](https://www.outlookindia.com/sports/tennis/alexandra-eala-vs-maya-joint-wimbledon-2026-grand-slam-womens-singles-second-round-updates-highlights)\n2. [Alex Eala earns sweet revenge vs Maya Joint to extend Wimbledon run](https://www.rappler.com/sports/tennis-alex-eala-maya-joint-wimbledon-july-2-2026/)\n3. [Alex Eala reaches Wimbledon third round after comeback win over Maya Joint - ESPN](https://www.espn.com/tennis/story/_/id/49248013/alex-eala-reaches-wimbledon-third-round-comeback-win-maya-joint)\n4. [Alex Eala vs Maya Joint - Wimbledon Round 2 - YouTube](https://www.youtube.com/watch?v=eMUf4ILewBI)\n\nSynthesis:\nAlexandra Eala defeated Maya Joint 3-6, 6-2, 6-0 in the second round of the 2026 Wimbledon Championships on July 2, 2026 [1][2][3]. You can find match highlights on the official Wimbledon YouTube channel or by searching for the match on the platform [4][5][6]. The victory marked Eala's first appearance in the third round of a Grand Slam, avenging her loss to Joint in the 2025 Eastbourne Open final [2][7][3].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eAlexandra Eala vs Maya Joint Highlights, Wimbledon 2026: Filipina Sensation Settles Scores To Reach Round Three | Outlook India\u003c/title\u003e\n\u003curl\u003ehttps://www.outlookindia.com/sports/tennis/alexandra-eala-vs-maya-joint-wimbledon-2026-grand-slam-womens-singles-second-round-updates-highlights\u003c/url\u003e\n\u003ccontent\u003eAlexandra Eala vs Maya Joint Highlights, Wimbledon 2026: Filipina Sensation Settles Scores To Reach Round Three | Outlook India\n...\nAlexandra Eala vs Maya Joint Highlights, Wimbledon 2026\n...\nAlexandra Eala vs Maya Joint Highlights, Wimbledon 2026: The Filipina star took revenge of the final's loss last year in Eastbourne final as she beat Australia's Maya Joint 3-6, 6-2, 6-0 to enter the third round of Wimbledon 2026\n...\nAlexandra Eala vs Maya Joint highlights, Wimbledon 2026: Hello and welcome to the highlights of the round 2 match of Wimbledon 2026 at the All England Lawn Tennis and Croquet Club, London on Thursday, July 2. Alex Eala put on a show in the deciding set as she won the third set without dropping a point and scripted a remarkable win on Court 3. The Filipina kept her composure as she served for a place in the third round and took four points on the trot to march into the next round. Eala was outdone by the Aussie counterpart in the first set, but the Filipina changed her approach to hitting deeper shots and made her opponent toil hard, which worked in her favor. She won nine consecutive games to win the second set and continued her domination in the third set to seek her revenge for the loss in the Eastbourne final last year in June. She will be up against third seed Iga Swiatek in the third round.\n...\n## Alexandra Eala vs Maya Joint LIVE Score, Wimbledon 2026: Match Details\n...\nAlexandra Eala vs Maya Joint LIVE Score,\n...\n## Alexandra Eala vs Maya Joint LIVE Score, Wimbledon 2026: Game And\n...\nAlexandra Eala\n...\n## Alexandra Eala vs Maya Joint LIVE Score, Wimbledon 2026: Game Set And Match\n...\nThat's it! What a turnaround by the Filipina star after the first set drubbing. She put up a near flawless show in the third set to win it by 6-0 and with it seal the match to enter the round three of Wimbledon 2026.\n...\n### Alexandra Eala vs Maya Joint Highlights, Wimbledon 2026: Filipina Sensation Settles Scores To Reach Round Three\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eAlex Eala earns sweet revenge vs Maya Joint to extend Wimbledon run\u003c/title\u003e\n\u003curl\u003ehttps://www.rappler.com/sports/tennis-alex-eala-maya-joint-wimbledon-july-2-2026/\u003c/url\u003e\n\u003ccontent\u003eAlex Eala earns sweet revenge vs Maya Joint to extend Wimbledon run\n...\nAlex Eala earns sweet revenge vs Maya Joint to extend Wimbledon run\n...\nAlex Eala advances to the third round of a Grand Slam for the first time with a three-set win over Maya Joint as the Filipina redeems herself from a painful loss to the Australian in her first WTA Tour final\n...\nEala advanced to the third round of a Grand Slam for the first time after a 3-6, 6-2, 6-0 win over Australia’s Maya Joint in the round of 64 of the Wimbledon Championships at Court 3 of the All England Club on Thursday, July 2.\n...\nThe come-from-behind triumph allowed Eala to redeem herself after she fell achingly\n...\nm able to smile,” said\n...\nBut Eala refused a repeat of that defeat by dominating the second half of Thursday’s match that took 1 hour and 57 minutes to finish, winning all of the last nine games to eliminate the world No. 87 Australian and book her spot in the round of 32.\n...\nThe turning point of the match came in the third game of the deciding set, with Joint on serve and on the cusp of cutting her deficit to 1-2 as she gained the advantage after five deuces, only to lose her nerve with three consecutive errors.\n...\nJoint dumped back-to-back shots into the net, then hit another one that sailed wide, paving the way for Eala to clinch a commanding 3-0 lead.\n...\nEala cruised from there as she won the next three games, including a love break in the fifth, as she arranged a clash with defending champion and six-time Grand Slam winner Iga Swiatek in the next round.\n...\nRanked 32nd in the world and seeded 29th, Eala rose to the occasion as she neutralized\n...\nconfident Joint who was fresh from a gallant three-set win over 23-time Grand Slam champion Serena Williams in the previous round.\n...\nEala, though, turned the tide as she reeled off three consecutive games to grab a 3-1 lead in the second set and three more in succession after Joint pulled within 2-3 to force a decider.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eAlex Eala reaches Wimbledon third round after comeback win over Maya Joint - ESPN\u003c/title\u003e\n\u003curl\u003ehttps://www.espn.com/tennis/story/_/id/49248013/alex-eala-reaches-wimbledon-third-round-comeback-win-maya-joint\u003c/url\u003e\n\u003ccontent\u003eAlex Eala reaches Wimbledon third round after comeback win over Maya Joint - ESPN\n...\nAlex Eala has earned a measure of revenge on Maya Joint, defeating the Australian 3-6, 6-2, 6-0, to book her place in the third round of the 2026 Wimbledon Open on Thursday.\n...\nThe win avenged Eala's heartbreaking defeat to the 20-year-old Australian in the 2025 Lexus Eastbourne Open final, where Joint prevailed 4-6, 6-1, 7-6 (12).\n...\nAll the emotions. What a moment for Alexandra Eala����#Wimbledon pic.twitter.com/ETpQxxuUO0\n...\n- Wimbledon (@Wimbledon) July 2, 2026\n...\nEala carried her momentum into the deciding set by putting Joint under pressure. The Australian's opening service game turned into a grueling 13-minute battle, with Eala converting her sixth break point of the game to seize an early advantage before backing it up with a hold for a 2-0 advantage.\n...\nThe pressure never rel\n...\nShe claimed a third break, in the fifth game, before serving out to complete a dominant bagel that capped off a remarkable comeback.\n...\n\"She's coming off an amazing win. I watched it and I think she played really well and handled herself really well in that situation. Congratulations to Maya.\"\n...\n\"It hit me quite hard. I cried a lot. I don't think I was able to watch those highlights for a couple of months.\n...\n\"So I'm really happy. I think I improved\n...\npast year.\n...\nable to look back at that\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eAlex Eala vs Maya Joint - Wimbledon Round 2 - YouTube\u003c/title\u003e\n\u003curl\u003ehttps://www.youtube.com/watch?v=eMUf4ILewBI\u003c/url\u003e\n\u003ccontent\u003eAlex Eala vs Maya Joint - Wimbledon Round 2 - YouTube\n\nAlex Eala vs Maya Joint - Wimbledon Round 2 - YouTube\n[](https://www.youtube.com/)[](https://www.youtube.com/)\n[About](https://www.youtube.com/about/)[Press](https://www.youtube.com/about/press/)[Copyright](https://www.youtube.com/about/copyright/)[Contact us](https://www.youtube.com/t/contact_us/)[Creators](https://www.youtube.com/creators/)[Advertise](https://www.youtube.com/ads/)[Developers](https://developers.google.com/youtube)[Terms](https://www.youtube.com/t/terms)[Privacy](https://www.youtube.com/t/privacy)[Policy \u0026 Safety](https://www.youtube.com/about/policies/)[How YouTube works](https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen\u0026utm_source=ythp\u0026utm_medium=LeftNav\u0026utm_content=txt\u0026u=https://www.youtube.com/howyoutubeworks?utm_source=ythp\u0026utm_medium=LeftNav\u0026utm_campaign=ytgen)[Test new features](https://www.youtube.com/new)[NFL Sunday Ticket](https://tv.youtube.com/learn/nflsundayticket)\n\u0026copy; 2026 Google LLC\u003c/content\u003e\n\u003c/result\u003e",
+      "title": "Web search results"
+    },
+    {
+      "chunk": "Full page text written to file: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-tools/efb546de-2eea-47bf-b4c1-0333f2bd58fa.txt\nSize: 19.6 KB, 411 lines\nUse shell / grep / read_file on this path to inspect the page; no follow-up fetch is needed.",
+      "title": "Alexandra Eala vs Maya Joint Highlights, Wimbledon 2026: Filipina Sensation Settles Scores To Reach Round Three | Outlook India",
+      "url": "https://www.outlookindia.com/sports/tennis/alexandra-eala-vs-maya-joint-wimbledon-2026-grand-slam-womens-singles-second-round-updates-highlights"
+    }
+  ],
+  "rejected": false
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="web_search"><details>
+<summary>Tool use: **web_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: sleep 2
+curl -sL -A "Mozilla/5.0" "https://www.youtube.com/results?search_query=Alexandra+Eala+Maya+Joint+Wimbledon+2026+highlights" 2>/dev/null | grep -oE 'watch\?v=[a-zA-Z0-9_-]{11}' | sed 's/watch?v=//' | sort -u | head -12 | while read id; do
+  meta=$(curl -sL "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&format=json" 2>/dev/null)
+  author=$(echo "$meta" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('author_name','?'))" 2>/dev/null)
+  title=$(echo "$meta" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('title','?')[:90])" 2>/dev/null)
+  echo "$id | $author | $title"
+  sleep 2
+done</summary>
+
+```bash
+sleep 2
+curl -sL -A "Mozilla/5.0" "https://www.youtube.com/results?search_query=Alexandra+Eala+Maya+Joint+Wimbledon+2026+highlights" 2>/dev/null | grep -oE 'watch\?v=[a-zA-Z0-9_-]{11}' | sed 's/watch?v=//' | sort -u | head -12 | while read id; do
+  meta=$(curl -sL "https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=$id&format=json" 2>/dev/null)
+  author=$(echo "$meta" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('author_name','?'))" 2>/dev/null)
+  title=$(echo "$meta" | python3 -c "import sys,json; d=json.load(sys.stdin); print(d.get('title','?')[:90])" 2>/dev/null)
+  echo "$id | $author | $title"
+  sleep 2
+done
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
