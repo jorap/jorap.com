@@ -244,9 +244,15 @@ html.dark .content b {
   word-break: break-word;
 }
 
-/* Prose tables: flat rows, borders only — no header band or zebra striping. */
-.content table :is(thead, tbody tr) {
+/* Notes tables only: flat rows — blog `.content` keeps theme prose-table styling. */
+.notes-content table :is(thead, tbody tr) {
   background-color: transparent;
+}
+
+/* Blog prose tables: shrink to content; wide tables still scroll via overflow-x-auto. */
+.content table {
+  width: fit-content;
+  max-width: 100%;
 }
 
 .notes-content .wikilink-broken {
