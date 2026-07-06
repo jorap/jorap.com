@@ -28,6 +28,9 @@ relationships:
     wikilink: "[[Digital Garden]]"
     reason: "The garage is messy workshop; the garden showroom is public - you need both lanes"
   - type: extends
+    wikilink: "[[Free Tier Hosting Stack]]"
+    reason: "Garage-stage sites run on free tier stacks first"
+  - type: extends
     wikilink: "[[Selling Static Sites]]"
     reason: "Client site stays showroom; experiments stay in the garage"
   - type: extends

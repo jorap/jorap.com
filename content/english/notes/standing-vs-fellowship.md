@@ -41,8 +41,14 @@ relationships:
     wikilink: "[[Loss of Reward]]"
     reason: "Shame after failure is fellowship or reward, not revoked salvation"
   - type: extends
+    wikilink: "[[Reconciliation Before Worship]]"
+    reason: "Fellowship ledger needs repair before performance - same order"
+  - type: extends
     wikilink: "[[Renewed Mind]]"
     reason: "Fruitless week - keep renewing without panicking standing"
+  - type: extends
+    wikilink: "[[Repent and Believe]]"
+    reason: "Standing secured by faith - fellowship restored by repentance"
   - type: extends
     wikilink: "[[Sanctification]]"
     reason: "Becoming holy without re-earning the verdict justification already gave"

@@ -23,6 +23,9 @@ relationships:
     wikilink: "[[Let Your Light Shine]]"
     reason: "when visibility becomes the goal instead of the byproduct"
   - type: extends
+    wikilink: "[[Discipleship vs Leadership]]"
+    reason: "Gospel greatness through service - horizontal move with vertical root"
+  - type: extends
     wikilink: "[[Faithful Steward]]"
     reason: "Faithful in small things - well done for use, not status"
   - type: extends
@@ -31,9 +34,6 @@ relationships:
   - type: extends
     wikilink: "[[Fruits of the Spirit]]"
     reason: "Gentleness fruit - strength without grasping"
-  - type: extends
-    wikilink: "[[Discipleship vs Leadership]]"
-    reason: "Gospel greatness through service - horizontal move with vertical root"
   - type: extends
     wikilink: "[[Gentleness]]"
     reason: "Humility and service is the garden echo for gospel gentleness"

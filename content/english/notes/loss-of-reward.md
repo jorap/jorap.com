@@ -33,6 +33,9 @@ relationships:
     wikilink: "[[Failure as Feedback]]"
     reason: "Burned work is signal to build differently - not proof you were never saved"
   - type: extends
+    wikilink: "[[Faith and Works]]"
+    reason: "Works that survive fire - faith without fruit may lose reward"
+  - type: extends
     wikilink: "[[Forgiveness]]"
     reason: "Sin breaks fellowship and joy; confess and walk - standing on Christ stays"
   - type: extends

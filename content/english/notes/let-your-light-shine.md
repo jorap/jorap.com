@@ -15,6 +15,9 @@ shareable_thought:
   - "Same visibility instinct, different aim (glorify God, not the author)."
   - "You're the light of the world, like a city on a hill. (Matthew 5:14-16)."
 relationships:
+  - type: alternative
+    wikilink: "[[Drafting in Public]]"
+    reason: "Shine good works vs publish every draft for applause"
   - type: contradicts
     wikilink: "[[The Garage Concept]]"
     reason: "when I hide good works out of false modesty"

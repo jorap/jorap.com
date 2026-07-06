@@ -15,6 +15,9 @@ shareable_thought:
   - "Leave the altar, go, be reconciled, then return."
   - "Same discipline as Note Relationships in the garden: broken links between notes need typed repair."
 relationships:
+  - type: alternative
+    wikilink: "[[Note Relationships]]"
+    reason: "Repair people before ceremony - typed links need repair too"
   - type: contradicts
     wikilink: "[[Love God]]"
     reason: "when I prioritize ceremony over the neighbor I've wronged"

@@ -32,6 +32,9 @@ relationships:
     wikilink: "[[Let Your Yes Be Yes]]"
     reason: "Plain speech without oath-padding - applied to deadlines and Slack"
   - type: extends
+    wikilink: "[[Selling Static Sites]]"
+    reason: "Yes means yes on delivery dates - same plain promise discipline"
+  - type: extends
     wikilink: "[[Set Calm Boundaries]]"
     reason: "Plain yes/no at work uses the same steady-voice muscle"
   - type: extends

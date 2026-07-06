@@ -19,6 +19,9 @@ shareable_thought:
   - "Trust is active dependence on a Father who already gave eternal life by Free Grace."
   - "Assurance rests on that promise, not anxiety about earning His care."
 relationships:
+  - type: alternative
+    wikilink: "[[Slow Productivity]]"
+    reason: "Trust God's provision vs hustle-as-proof you're not falling behind"
   - type: contradicts
     wikilink: "[[The 12 Week Year]]"
     reason: "when sprint urgency replaces trust"
@@ -34,6 +37,9 @@ relationships:
   - type: extends
     wikilink: "[[Peace]]"
     reason: "Don't worry is the trust echo for gospel peace"
+  - type: extends
+    wikilink: "[[Seek the Kingdom First]]"
+    reason: "Anxiety loses when kingdom priority names what comes first"
 slug: "dont-worry"
 date: "2026-06-19 08:40:00+00:00"
 image: "/images/note.jpg"

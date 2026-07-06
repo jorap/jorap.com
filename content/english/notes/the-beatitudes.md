@@ -44,6 +44,9 @@ relationships:
   - type: extends
     wikilink: "[[Peace]]"
     reason: "Peacemakers blessed - kingdom peace made visible"
+  - type: extends
+    wikilink: "[[Peacemakers]]"
+    reason: "Blessed are the peacemakers - beatitude named in the cluster"
 slug: "the-beatitudes"
 date: "2026-06-19 08:35:00+00:00"
 image: "/images/note.jpg"

@@ -35,17 +35,17 @@ relationships:
     wikilink: "[[Ethical Leadership]]"
     reason: "Team sees integrity because private following came first"
   - type: extends
-    wikilink: "[[Leadership Is Influence]]"
-    reason: "When influence pressure asks for a compromise Christ wouldn't take"
-  - type: extends
     wikilink: "[[God Centered Design]]"
     reason: "Who the plan serves - God's glory before org-chart pressure"
   - type: extends
-    wikilink: "[[Seek the Kingdom First]]"
-    reason: "Kingdom before inbox; here, kingdom before the room's urgency"
-  - type: extends
     wikilink: "[[Integrity Without an Audience]]"
     reason: "Hidden walk with Christ sets what public leadership can honestly carry"
+  - type: extends
+    wikilink: "[[Leadership Is Influence]]"
+    reason: "When influence pressure asks for a compromise Christ wouldn't take"
+  - type: extends
+    wikilink: "[[Seek the Kingdom First]]"
+    reason: "Kingdom before inbox; here, kingdom before the room's urgency"
 slug: "follow-christ-then-lead"
 date: "2026-07-05 15:00:00+00:00"
 image: "/images/note.jpg"

@@ -26,6 +26,9 @@ relationships:
     wikilink: "[[Decision Quality]]"
     reason: "Defaults and friction shape choices more than facts alone"
   - type: extends
+    wikilink: "[[Mental Models]]"
+    reason: "Bias catalog sits inside the wider mental-models shelf"
+  - type: extends
     wikilink: "[[Renewed Mind]]"
     reason: "Culture's defaults steer choices - renewal interrupts the pattern"
   - type: extends

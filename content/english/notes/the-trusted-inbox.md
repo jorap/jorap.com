@@ -27,6 +27,9 @@ relationships:
     wikilink: "[[Mobile Capture Workflows]]"
     reason: "when one trusted pipe beats frictionless capture everywhere"
   - type: extends
+    wikilink: "[[Building a Second Brain]]"
+    reason: "Trusted capture sits inside the wider second-brain system"
+  - type: extends
     wikilink: "[[Capture]]"
     reason: "If you don't trust your inbox, you capture in your head instead of using capture"
   - type: extends

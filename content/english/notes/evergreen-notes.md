@@ -24,8 +24,14 @@ relationships:
     wikilink: "[[Atomic Notes]]"
     reason: "Atomic notes become evergreens when one claim is phrased to last for years"
   - type: extends
+    wikilink: "[[Periodic Knowledge Review]]"
+    reason: "Evergreen notes stay sharp through scheduled revisit"
+  - type: extends
     wikilink: "[[Permanent Notes]]"
     reason: "Ahrens-style durable phrasing this note targets"
+  - type: extends
+    wikilink: "[[The Beatitudes]]"
+    reason: "Timeless claims like the Beatitudes - notes that age well"
 slug: "evergreen-notes"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"

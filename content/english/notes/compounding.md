@@ -26,11 +26,20 @@ relationships:
     wikilink: "[[Renewed Mind]]"
     reason: "when self-stacked discipline mimics renewal without abiding"
   - type: extends
+    wikilink: "[[Abide in Me]]"
+    reason: "Fruit compounds from staying connected - not self-powered streaks alone"
+  - type: extends
     wikilink: "[[Change Takes Repetition]]"
     reason: "Boring reps until the curve bends - transformation shape"
   - type: extends
+    wikilink: "[[Eternal Rewards]]"
+    reason: "Faithful small deposits stack toward kingdom repayment"
+  - type: extends
     wikilink: "[[Faithfulness]]"
     reason: "Small faithful use stacks over quiet Tuesdays"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Compounding obedience follows grace received - not to earn the gift"
   - type: extends
     wikilink: "[[Habit Stacking]]"
     reason: "Small repeats that stack - same compounding mechanic"

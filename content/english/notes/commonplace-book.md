@@ -26,6 +26,12 @@ relationships:
   - type: extends
     wikilink: "[[Intellectual Sourcing]]"
     reason: "Quotes worth keeping start as sourced lines"
+  - type: extends
+    wikilink: "[[Layered Reading]]"
+    reason: "Commonplace entries grow from layered passes through sources"
+  - type: extends
+    wikilink: "[[Literature Notes]]"
+    reason: "Literature notes feed the commonplace - quotes with context"
 slug: "commonplace-book"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

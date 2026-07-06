@@ -54,14 +54,23 @@ relationships:
     wikilink: "[[Present a Living Sacrifice]]"
     reason: "Romans 12:1 shape of thanks-motivated obedience"
   - type: extends
+    wikilink: "[[Process Over Outcomes]]"
+    reason: "Obey gratefully in the process - not only when outcomes reward"
+  - type: extends
     wikilink: "[[Renewed Mind]]"
     reason: "Romans 12:1-2 pair - living sacrifice needs a renewed mind"
+  - type: extends
+    wikilink: "[[Repent and Believe]]"
+    reason: "Believe first - obedience flows from repentance and faith"
   - type: extends
     wikilink: "[[Sanctification]]"
     reason: "Grateful walk is how becoming holy shows up daily"
   - type: extends
     wikilink: "[[Success is Stewardship]]"
     reason: "Entrusted gifts answered with thanks, not entitlement"
+  - type: extends
+    wikilink: "[[Take Up Your Cross]]"
+    reason: "Grateful yes to the daily cross - not grudging compliance"
 slug: "grateful-obedience"
 date: "2026-06-30 08:30:00+00:00"
 image: "/images/note.jpg"

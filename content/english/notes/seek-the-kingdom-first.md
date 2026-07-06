@@ -21,6 +21,9 @@ relationships:
     wikilink: "[[Signal vs Noise]]"
     reason: "when I treat every demand as kingdom-level priority"
   - type: extends
+    wikilink: "[[Discern His Will Daily]]"
+    reason: "Kingdom-first fills the mind before worry sets the agenda"
+  - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Put God's rule first because grace already secured where you spend forever"
   - type: extends
@@ -33,11 +36,11 @@ relationships:
     wikilink: "[[Purpose and Vision]]"
     reason: "God's reign is the outcome worth tradeoffs"
   - type: extends
-    wikilink: "[[Discern His Will Daily]]"
-    reason: "Kingdom-first fills the mind before worry sets the agenda"
-  - type: extends
     wikilink: "[[Renewed Mind]]"
     reason: "Kingdom-first fills the mind before worry sets the agenda"
+  - type: extends
+    wikilink: "[[Treasure in Heaven]]"
+    reason: "Seek first - store treasure where the kingdom points"
 slug: "seek-the-kingdom-first"
 date: "2026-06-19 08:30:00+00:00"
 image: "/images/note.jpg"

@@ -30,6 +30,9 @@ relationships:
     wikilink: "[[The Golden Rule]]"
     reason: "when I take the comfortable path because everyone else does"
   - type: extends
+    wikilink: "[[Discipleship]]"
+    reason: "Narrow gate is the discipleship path - few find it"
+  - type: extends
     wikilink: "[[Free Grace]]"
     reason: "The narrow gate is Christ by faith, not the broad road of works that buys nothing"
 slug: "the-narrow-way"

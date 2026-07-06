@@ -18,6 +18,9 @@ shareable_thought:
   - "The miss is feedback on what to build next, not proof you were never in."
 relationships:
   - type: alternative
+    wikilink: "[[Judgment Seat]]"
+    reason: "Iterative learning from misses vs final review - different clocks"
+  - type: alternative
     wikilink: "[[Rollback Principle]]"
     reason: "Root-cause learning after calm - rollback is revert first"
   - type: contradicts

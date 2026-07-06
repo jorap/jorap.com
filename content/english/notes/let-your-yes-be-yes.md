@@ -19,6 +19,18 @@ relationships:
     wikilink: "[[Drafting in Public]]"
     reason: "when public words outrun private honesty"
   - type: extends
+    wikilink: "[[Atomic Notes]]"
+    reason: "One plain yes per claim - atomic notes carry the same rule"
+  - type: extends
+    wikilink: "[[Heart Righteousness]]"
+    reason: "Integrity starts in the heart - yes means yes inside first"
+  - type: extends
+    wikilink: "[[Integrity]]"
+    reason: "Plain speech is integrity made audible"
+  - type: extends
+    wikilink: "[[Let Your Light Shine]]"
+    reason: "Public yes matches private word - light and speech aligned"
+  - type: extends
     wikilink: "[[Love Your Neighbor]]"
     reason: "Plain yes-or-no speech is how you treat neighbors with integrity, not padded oaths"
 slug: "let-your-yes-be-yes"

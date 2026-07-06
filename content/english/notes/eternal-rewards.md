@@ -15,9 +15,6 @@ shareable_thought:
   - "Including hidden devotion (Secret Devotion) and open obedience (Let Your Light Shine)."
   - "Free Grace settles where I spend forever: faith in Christ alone. (Matthew 6:4, 6:18; 16:27; 25:21)."
 relationships:
-  - type: extends
-    wikilink: "[[Success is Stewardship]]"
-    reason: "Well done repays faithful use - not the entry fee"
   - type: contradicts
     wikilink: "[[Compounding]]"
     reason: "when I treat stacked good works as currency that bought eternal life"
@@ -34,8 +31,20 @@ relationships:
     wikilink: "[[Judgment Seat]]"
     reason: "Sermon promises get assessed at the bema - not a retrial on who gets in"
   - type: extends
+    wikilink: "[[Let Your Light Shine]]"
+    reason: "Visible good works stored up - shine with eternity in view"
+  - type: extends
     wikilink: "[[Loss of Reward]]"
     reason: "Reward can shrink; eternal life stays on Christ"
+  - type: extends
+    wikilink: "[[Secret Devotion]]"
+    reason: "Hidden devotion repaid - Father who sees in secret"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Well done repays faithful use - not the entry fee"
+  - type: extends
+    wikilink: "[[Treasure in Heaven]]"
+    reason: "Repayment language - store where moth and rust don't reach"
 slug: "eternal-rewards"
 date: "2026-06-20 08:00:00+00:00"
 image: "/images/note.jpg"

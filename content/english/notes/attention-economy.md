@@ -28,6 +28,9 @@ relationships:
     wikilink: "[[Digital Minimalism]]"
     reason: "Cut tools before feeds eat the rest of your day"
   - type: extends
+    wikilink: "[[Information Diet]]"
+    reason: "Platforms compete for attention - diet is the counter-move"
+  - type: extends
     wikilink: "[[Renewed Mind]]"
     reason: "What fights for mind-share before Scripture gets a turn"
   - type: extends

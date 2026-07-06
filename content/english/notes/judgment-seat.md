@@ -19,6 +19,9 @@ shareable_thought:
   - "Free Grace and Justification already decided where I spend forever."
   - "Secret Devotion and Let Your Light Shine both show up in the ledger."
 relationships:
+  - type: alternative
+    wikilink: "[[Periodic Knowledge Review]]"
+    reason: "Final divine review vs garden revisit - same audit instinct, different scale"
   - type: contradicts
     wikilink: "[[Compounding]]"
     reason: "when stacked service feels like it bought eternal life instead of reward"
@@ -34,6 +37,15 @@ relationships:
   - type: extends
     wikilink: "[[Justification]]"
     reason: "Declared righteous once; judgment seat never re-opens that verdict"
+  - type: extends
+    wikilink: "[[Let Your Light Shine]]"
+    reason: "Works reviewed include visible good done in Christ's name"
+  - type: extends
+    wikilink: "[[Loss of Reward]]"
+    reason: "Review can mean loss of reward - standing secure, works weighed"
+  - type: extends
+    wikilink: "[[Secret Devotion]]"
+    reason: "Hidden devotion reviewed - Father who sees in secret repays"
   - type: extends
     wikilink: "[[Success is Stewardship]]"
     reason: "Accounts reviewed - borrowed gifts, not permanent trophies"

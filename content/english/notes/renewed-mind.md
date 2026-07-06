@@ -53,17 +53,17 @@ relationships:
     wikilink: "[[Christlikeness]]"
     reason: "Conformed to Christ, not the world's pattern - Romans 8:29 aim, Romans 12:2 engine"
   - type: extends
-    wikilink: "[[Discern His Will Daily]]"
-    reason: "Romans 12:2 outcome - renewal enables testing His will"
-  - type: extends
     wikilink: "[[Digital Minimalism]]"
     reason: "Cut feeds that conform the mind to outrage and hurry"
   - type: extends
-    wikilink: "[[Don't Copy the Pattern]]"
-    reason: "Romans 12:2 refusal - don't conform before renewal reshapes the mind"
+    wikilink: "[[Discern His Will Daily]]"
+    reason: "Romans 12:2 outcome - renewal enables testing His will"
   - type: extends
     wikilink: "[[Discipleship]]"
     reason: "Daily following reshapes the mind that chooses obedience"
+  - type: extends
+    wikilink: "[[Don't Copy the Pattern]]"
+    reason: "Romans 12:2 refusal - don't conform before renewal reshapes the mind"
   - type: extends
     wikilink: "[[Emotional Regulation]]"
     reason: "Renewed mind buys the gap before the world's script mails the reply"

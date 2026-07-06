@@ -40,17 +40,20 @@ relationships:
     wikilink: "[[Humility and Service]]"
     reason: "Faithful in small things, not status-grabbing"
   - type: extends
+    wikilink: "[[Integrity Without an Audience]]"
+    reason: "Workplace lane - faithful use when nobody applauds"
+  - type: extends
     wikilink: "[[Judgment Seat]]"
     reason: "Stewardship accounts reviewed at the bema"
   - type: extends
     wikilink: "[[Secret Devotion]]"
     reason: "Hidden faithful use - Father sees, not the audience"
   - type: extends
-    wikilink: "[[Success is Stewardship]]"
-    reason: "Parable shape for the headline - entrusted gifts, not owned trophies"
-  - type: extends
     wikilink: "[[Steward After the Win]]"
     reason: "Buried talent after one good season - coast kills faithful use"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Parable shape for the headline - entrusted gifts, not owned trophies"
 slug: "faithful-steward"
 date: "2026-06-30 08:10:00+00:00"
 image: "/images/note.jpg"

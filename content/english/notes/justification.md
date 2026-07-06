@@ -28,6 +28,9 @@ relationships:
     wikilink: "[[Assurance]]"
     reason: "Verdict rests on Christ - doubt doesn't reopen the case"
   - type: extends
+    wikilink: "[[Eternal Rewards]]"
+    reason: "Declared righteous now - rewards for faithful use after"
+  - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Grace is the gift; justification is God declaring you righteous when you receive it"
   - type: extends
@@ -42,6 +45,9 @@ relationships:
   - type: extends
     wikilink: "[[Renewed Mind]]"
     reason: "Declared righteous first; mind renewal grows after"
+  - type: extends
+    wikilink: "[[Sanctification]]"
+    reason: "Justified once - being made holy is the lifelong follow-on"
   - type: extends
     wikilink: "[[Standing vs Fellowship]]"
     reason: "Standing declared once; fellowship fluctuates with sin and confession"

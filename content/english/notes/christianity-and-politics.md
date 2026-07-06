@@ -26,6 +26,21 @@ relationships:
     wikilink: "[[Treasure in Heaven]]"
     reason: "when a party or election outcome becomes where my heart lives"
   - type: extends
+    wikilink: "[[By Their Fruits]]"
+    reason: "Judge political claims by outcomes, not slogans or tribe"
+  - type: extends
+    wikilink: "[[Great Commission]]"
+    reason: "Make-disciples mission outranks party loyalty"
+  - type: extends
+    wikilink: "[[Heart Righteousness]]"
+    reason: "Outward policy fights can't substitute for inward obedience"
+  - type: extends
+    wikilink: "[[Information Diet]]"
+    reason: "Outrage feeds need the same diet discipline as any other feed"
+  - type: extends
+    wikilink: "[[Let Your Light Shine]]"
+    reason: "Good works visible - politics isn't the only lamp stand"
+  - type: extends
     wikilink: "[[Love Your Enemies]]"
     reason: "Political opponents stay neighbors - bless, don't return evil"
   - type: extends
@@ -37,6 +52,9 @@ relationships:
   - type: extends
     wikilink: "[[Seek the Kingdom First]]"
     reason: "God's reign orders the week before the news cycle sets panic"
+  - type: extends
+    wikilink: "[[Signal vs Noise]]"
+    reason: "Political noise drowns signal - filter before you amplify"
 slug: "christianity-and-politics"
 date: "2026-06-30 10:30:00+00:00"
 image: "/images/note.jpg"

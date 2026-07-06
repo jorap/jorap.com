@@ -32,17 +32,20 @@ relationships:
     wikilink: "[[Follow Christ, Then Lead]]"
     reason: "When the two seats collide, order them - Christ first"
   - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Vertical seat rests on grace received - not leadership performance"
+  - type: extends
     wikilink: "[[Great Commission]]"
     reason: "Discipleship pushed outward - make disciples, not only run programs"
   - type: extends
     wikilink: "[[Humility and Service]]"
     reason: "Gospel depth on the overlap - last becomes first"
   - type: extends
-    wikilink: "[[Leadership]]"
-    reason: "Horizontal seat - direction, pace, care when people look to you"
-  - type: extends
     wikilink: "[[Leadership Is Influence]]"
     reason: "Horizontal seat tested by followership - badge optional"
+  - type: extends
+    wikilink: "[[Leadership]]"
+    reason: "Horizontal seat - direction, pace, care when people look to you"
   - type: extends
     wikilink: "[[Share What You Learn]]"
     reason: "Workplace echo of making disciples - pass on skill, don't hoard"

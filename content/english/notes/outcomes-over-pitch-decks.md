@@ -29,6 +29,9 @@ relationships:
     wikilink: "[[By Their Fruits]]"
     reason: "Discern teaching and leaders by outcome, not charisma"
   - type: extends
+    wikilink: "[[Free Tier Hosting Stack]]"
+    reason: "Judge the stack by what ships - not slide charisma"
+  - type: extends
     wikilink: "[[Static Site Client Scope]]"
     reason: "Pick client stack by needed outcome, not by my preferred tool"
 slug: "outcomes-over-pitch-decks"

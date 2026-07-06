@@ -18,6 +18,9 @@ shareable_thought:
   - "None of those re-open the case Justification closed."
 relationships:
   - type: alternative
+    wikilink: "[[Minimum Effective Dose]]"
+    reason: "Enough assurance to obey vs endless self-audit for proof you belong"
+  - type: alternative
     wikilink: "[[The Narrow Way]]"
     reason: "False Lord Lord never believed vs believer who doubts but trusts Christ"
   - type: contradicts
@@ -35,6 +38,9 @@ relationships:
   - type: extends
     wikilink: "[[Joy]]"
     reason: "Assurance is the garden echo for gospel gladness"
+  - type: extends
+    wikilink: "[[Judgment Seat]]"
+    reason: "Assurance holds when the review comes - works judged, not the standing"
   - type: extends
     wikilink: "[[Justification]]"
     reason: "Verdict doesn't reopen when I stumble"

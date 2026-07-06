@@ -29,6 +29,9 @@ relationships:
     wikilink: "[[Christlikeness]]"
     reason: "Daily following produces His likeness over ordinary Tuesdays"
   - type: extends
+    wikilink: "[[Creative Output]]"
+    reason: "Follow Jesus includes making and sharing - not only consuming"
+  - type: extends
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "Vertical following vs horizontal direction - two seats, same person"
   - type: extends
@@ -47,6 +50,12 @@ relationships:
     wikilink: "[[Grateful Obedience]]"
     reason: "Following is the grateful walk - obey from thanks, not wages"
   - type: extends
+    wikilink: "[[Great Commission]]"
+    reason: "Make disciples - the outward push of daily following"
+  - type: extends
+    wikilink: "[[Judgment Seat]]"
+    reason: "Following has a review - works weighed, standing secure in grace"
+  - type: extends
     wikilink: "[[Kindness]]"
     reason: "Daily following is where kindness shows up with real people"
   - type: extends
@@ -64,6 +73,15 @@ relationships:
   - type: extends
     wikilink: "[[Sanctification]]"
     reason: "Daily following is how holiness grows after justification"
+  - type: extends
+    wikilink: "[[Take Up Your Cross]]"
+    reason: "Daily cross-bearing is the cost shape of following"
+  - type: extends
+    wikilink: "[[The Narrow Way]]"
+    reason: "Few find it - discipleship is the narrow path, not crowd default"
+  - type: extends
+    wikilink: "[[The Wise Builder]]"
+    reason: "Hear and do - obedience that survives the storm"
 slug: "discipleship"
 date: "2026-06-21 12:00:00+00:00"
 image: "/images/note.jpg"

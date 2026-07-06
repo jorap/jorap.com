@@ -21,6 +21,9 @@ relationships:
     wikilink: "[[The Collector's Fallacy]]"
     reason: "when the opposite frame fits better"
   - type: extends
+    wikilink: "[[Atomic Notes]]"
+    reason: "Literature notes distill into atomic claims you can link"
+  - type: extends
     wikilink: "[[Intellectual Sourcing]]"
     reason: "Source notes start where you track what you read"
   - type: extends

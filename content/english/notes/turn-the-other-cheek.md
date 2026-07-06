@@ -16,8 +16,14 @@ shareable_thought:
   - "Free Grace frees me to absorb cost without keeping score for heaven."
 relationships:
   - type: contradicts
+    wikilink: "[[Sunk Cost Fallacy]]"
+    reason: "Absorb the hit vs cut losses - cheek isn't sunk-cost denial"
+  - type: contradicts
     wikilink: "[[The Golden Rule]]"
     reason: "when I wait to hit back before acting well"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Forgiven people forgive - grace received enables the second cheek"
   - type: extends
     wikilink: "[[Love Your Enemies]]"
     reason: "Break the retaliation cycle - refuse to become what hurt you, further than enemy-love alone"

@@ -45,6 +45,12 @@ relationships:
     wikilink: "[[Discipleship]]"
     reason: "Daily following is how sanctification shows up in real life"
   - type: extends
+    wikilink: "[[Eternal Rewards]]"
+    reason: "Holiness now stacks toward kingdom repayment"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Made holy after declared righteous - not to earn the gift"
+  - type: extends
     wikilink: "[[Fruits of the Spirit]]"
     reason: "Becoming holy over time - the Galatians cluster marks the walk"
   - type: extends
@@ -71,6 +77,9 @@ relationships:
   - type: extends
     wikilink: "[[Patience]]"
     reason: "Becoming holy over time - patience marks the slow walk"
+  - type: extends
+    wikilink: "[[Process Over Outcomes]]"
+    reason: "Sanctification is slow process faithfulness - not instant perfection"
   - type: extends
     wikilink: "[[Renewed Mind]]"
     reason: "Mind renewal is the inner engine of slow becoming"

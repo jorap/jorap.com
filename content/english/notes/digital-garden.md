@@ -34,11 +34,11 @@ relationships:
     wikilink: "[[Free Tier Hosting Stack]]"
     reason: "Same Hugo-plus-git host I sell for [[Selling Static Sites]]"
   - type: extends
-    wikilink: "[[Success is Stewardship]]"
-    reason: "Tend borrowed reach - notes grow when shared"
-  - type: extends
     wikilink: "[[Platform Reach Is Borrowed]]"
     reason: "Garden on your domain - social points home"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Tend borrowed reach - notes grow when shared"
   - type: extends
     wikilink: "[[Work in Progress]]"
     reason: "Public drafts and visible growth - garden ethos"

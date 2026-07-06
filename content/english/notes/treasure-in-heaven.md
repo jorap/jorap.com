@@ -23,11 +23,17 @@ relationships:
     wikilink: "[[The Collector's Fallacy]]"
     reason: "when I hoard earth and call it wisdom"
   - type: extends
+    wikilink: "[[Eternal Rewards]]"
+    reason: "Store up treasure - eternal rewards language for the same horizon"
+  - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Grace secured heaven; treasure names what you store after - not the entry fee"
   - type: extends
     wikilink: "[[God Centered Design]]"
     reason: "Store what lasts - earthly applause rusts"
+  - type: extends
+    wikilink: "[[Judgment Seat]]"
+    reason: "Treasure stored is treasure reviewed - kingdom accounting"
   - type: extends
     wikilink: "[[Loss of Reward]]"
     reason: "Worthless stored treasure burns; eternal life on Christ stays"

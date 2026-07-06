@@ -24,6 +24,9 @@ relationships:
     wikilink: "[[Free Grace]]"
     reason: "Prayer is a dependent kid asking Dad, not bargaining for merit you already have"
   - type: extends
+    wikilink: "[[Periodic Knowledge Review]]"
+    reason: "Ask-seek-knock rhythm needs scheduled review, not one-off prayer bursts"
+  - type: extends
     wikilink: "[[Renewed Mind]]"
     reason: "Seek in Scripture feeds mind renewal on rhythm"
 slug: "ask-seek-knock"

@@ -23,6 +23,9 @@ relationships:
     wikilink: "[[Compounding]]"
     reason: "when stacked works feel like currency that bought eternal life"
   - type: extends
+    wikilink: "[[Discipleship]]"
+    reason: "Works flow from following - faith alive shows up in obedience"
+  - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Faith saves; works are the evidence and response, not the price"
   - type: extends
@@ -37,6 +40,12 @@ relationships:
   - type: extends
     wikilink: "[[Loss of Reward]]"
     reason: "Stumbled believer stays saved; false profession never had faith"
+  - type: extends
+    wikilink: "[[Sanctification]]"
+    reason: "James and Paul meet - faith that works is being made holy"
+  - type: extends
+    wikilink: "[[The Narrow Way]]"
+    reason: "Faith without the narrow walk is dead on inspection"
   - type: extends
     wikilink: "[[The Wise Builder]]"
     reason: "Real faith hears Jesus and builds on rock by doing"

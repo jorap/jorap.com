@@ -20,8 +20,17 @@ shareable_thought:
   - "Both builders hear the sermon; only one obeys. (Matthew 7:24-27)."
 relationships:
   - type: contradicts
+    wikilink: "[[Loss of Reward]]"
+    reason: "Sand foundation looks built until the storm - false profession loses reward"
+  - type: contradicts
+    wikilink: "[[The Collector's Fallacy]]"
+    reason: "Hearing without doing is hoarding blueprints - same empty foundation"
+  - type: contradicts
     wikilink: "[[The Narrow Way]]"
     reason: "when I claim Jesus without living his words"
+  - type: extends
+    wikilink: "[[Creative Output]]"
+    reason: "Hear and do - output that survives the storm"
   - type: extends
     wikilink: "[[Faith and Works]]"
     reason: "Real faith hears and does - sand is hear-only religion"

@@ -28,6 +28,9 @@ relationships:
     wikilink: "[[Maps of Content]]"
     reason: "when I bury claims inside a hub instead of one file per idea"
   - type: extends
+    wikilink: "[[Let Your Yes Be Yes]]"
+    reason: "One plain claim per note - same yes-means-yes discipline"
+  - type: extends
     wikilink: "[[PKM]]"
     reason: "One-claim notes are the Lego blocks PKM stacks and links"
 slug: "atomic-notes"

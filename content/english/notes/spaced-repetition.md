@@ -23,8 +23,14 @@ relationships:
     wikilink: "[[The Feynman Technique]]"
     reason: "when explaining gaps beats flashcard drill"
   - type: extends
+    wikilink: "[[Ask Seek Knock]]"
+    reason: "Persistent asking needs spaced return - not one-shot prayer"
+  - type: extends
     wikilink: "[[Evergreen Notes]]"
     reason: "Evergreen understanding lives in the wiki; spaced repetition drills the facts you need cold"
+  - type: extends
+    wikilink: "[[Pareto Principle]]"
+    reason: "Review the vital few cards - spaced reps on what moves recall"
 slug: "spaced-repetition"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"

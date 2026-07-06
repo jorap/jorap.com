@@ -32,11 +32,20 @@ relationships:
     wikilink: "[[Abide in Me]]"
     reason: "Fruit comes from staying in the vine - Galatians names what grows"
   - type: extends
+    wikilink: "[[Assurance]]"
+    reason: "Spirit fruit confirms belonging - not earns it"
+  - type: extends
     wikilink: "[[Christlikeness]]"
     reason: "Galatians cluster is what Christlikeness looks like up close"
   - type: extends
     wikilink: "[[Discipleship]]"
     reason: "Daily following is where love, patience, and gentleness show up"
+  - type: extends
+    wikilink: "[[Don't Worry]]"
+    reason: "Peace fruit pushes back on anxiety's grip"
+  - type: extends
+    wikilink: "[[Faithful Steward]]"
+    reason: "Stewardship fruit - faithful use of what was entrusted"
   - type: extends
     wikilink: "[[Faithfulness]]"
     reason: "Galatians steady use of what He entrusted"
@@ -56,11 +65,17 @@ relationships:
     wikilink: "[[Heart Righteousness]]"
     reason: "Spirit applies the inner standard Jesus taught - motive, not polish"
   - type: extends
+    wikilink: "[[Humility and Service]]"
+    reason: "Gentleness and service - kingdom greatness through serving"
+  - type: extends
     wikilink: "[[Joy]]"
     reason: "Galatians gladness rooted in Christ's promise"
   - type: extends
     wikilink: "[[Kindness]]"
     reason: "Galatians tender regard for the person in front"
+  - type: extends
+    wikilink: "[[Let Your Light Shine]]"
+    reason: "Good works fruit - visible light from inner life"
   - type: extends
     wikilink: "[[Love God]]"
     reason: "Love fruit - greatest commandment cluster"
@@ -71,17 +86,26 @@ relationships:
     wikilink: "[[Love Your Neighbor]]"
     reason: "Love fruit outward - second commandment pair"
   - type: extends
+    wikilink: "[[Mercy]]"
+    reason: "Mercy named among the fruit cluster"
+  - type: extends
     wikilink: "[[Patience]]"
     reason: "Galatians slow fuse from the Spirit"
   - type: extends
     wikilink: "[[Peace]]"
     reason: "Galatians calm from trusting the Father"
   - type: extends
+    wikilink: "[[Peacemakers]]"
+    reason: "Peacemaking fruit - blessed are those who mend"
+  - type: extends
     wikilink: "[[Renewed Mind]]"
     reason: "Renewed mind walks by the Spirit - flesh defaults lose steering"
   - type: extends
     wikilink: "[[Sanctification]]"
     reason: "Becoming holy over time - fruit is what that walk looks like"
+  - type: extends
+    wikilink: "[[Slow the Moment]]"
+    reason: "Self-control fruit needs a slowed moment before reaction"
   - type: extends
     wikilink: "[[The Beatitudes]]"
     reason: "Kingdom character overlaps - poor in spirit, merciful, peacemakers"

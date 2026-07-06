@@ -45,6 +45,9 @@ relationships:
     wikilink: "[[Psychological Safety]]"
     reason: "People can't learn when fear of death sits in the room"
   - type: extends
+    wikilink: "[[Purpose and Vision]]"
+    reason: "Challenge people toward a named purpose - not risk without aim"
+  - type: extends
     wikilink: "[[Safety Comes First]]"
     reason: "Following their lead stops when the drill endangers them"
   - type: extends

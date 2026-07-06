@@ -84,9 +84,6 @@ relationships:
     wikilink: "[[Platform Reach Is Borrowed]]"
     reason: "Rented reach - steward megaphone, own the vault"
   - type: extends
-    wikilink: "[[Steward After the Win]]"
-    reason: "Coast temptation right after promotion or traffic spike"
-  - type: extends
     wikilink: "[[Secret Devotion]]"
     reason: "Hidden faithful use - steward without applause"
   - type: extends
@@ -95,6 +92,9 @@ relationships:
   - type: extends
     wikilink: "[[Share What You Learn]]"
     reason: "Pass on what you figured out - don't bury know-how"
+  - type: extends
+    wikilink: "[[Steward After the Win]]"
+    reason: "Coast temptation right after promotion or traffic spike"
   - type: extends
     wikilink: "[[Sustainable Performance]]"
     reason: "Pace you can repeat - don't burn the gift"

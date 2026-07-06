@@ -19,6 +19,9 @@ relationships:
     wikilink: "[[Sunk Cost Fallacy]]"
     reason: "when I treat old hurt as debt I'm owed forever"
   - type: extends
+    wikilink: "[[Ask Seek Knock]]"
+    reason: "Forgive as you have been forgiven - ask-seek-knock includes mercy"
+  - type: extends
     wikilink: "[[Free Grace]]"
     reason: "You forgive because God already cleared a debt you couldn't pay"
   - type: extends

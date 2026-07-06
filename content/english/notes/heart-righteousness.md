@@ -21,6 +21,9 @@ relationships:
     wikilink: "[[Let Your Light Shine]]"
     reason: "when I polish the outside while nursing anger inside"
   - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Clean heart follows gift received - not performance that buys heaven"
+  - type: extends
     wikilink: "[[Fruits of the Spirit]]"
     reason: "Spirit grows inner righteousness into outward character"
   - type: extends

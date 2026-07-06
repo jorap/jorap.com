@@ -24,8 +24,14 @@ relationships:
     wikilink: "[[Creative Output]]"
     reason: "Ship the smallest version that tests the idea instead of polishing a fantasy in private"
   - type: extends
+    wikilink: "[[Free Tier Hosting Stack]]"
+    reason: "Ship the smallest live site - free tier stack covers the first slice"
+  - type: extends
     wikilink: "[[Lean Startup]]"
     reason: "Ship-to-learn loop Ries named"
+  - type: extends
+    wikilink: "[[Selling Static Sites]]"
+    reason: "Client MVP lane - sell the smallest site that solves the job"
 slug: "minimum-viable-product"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"

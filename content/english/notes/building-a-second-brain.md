@@ -26,11 +26,17 @@ relationships:
     wikilink: "[[The Collector's Fallacy]]"
     reason: "when CODE steps become collection theater with no express"
   - type: extends
+    wikilink: "[[Capture]]"
+    reason: "CODE starts with capture - nothing to organize until it lands"
+  - type: extends
     wikilink: "[[CODE Method]]"
     reason: "Capture → Organize → Distill → Express pipeline Forte names"
   - type: extends
     wikilink: "[[PKM]]"
     reason: "A second brain offloads ideas so your head can think instead of hoard"
+  - type: implements
+    wikilink: "[[The Second Brain Workflow]]"
+    reason: "CODE stages operationalized in the workflow note"
 slug: "building-a-second-brain"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"

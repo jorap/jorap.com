@@ -23,6 +23,9 @@ relationships:
     wikilink: "[[Signal vs Noise]]"
     reason: "when I treat every ping as top priority"
   - type: extends
+    wikilink: "[[Deep Work]]"
+    reason: "Kingdom-first block before inbox - deep work needs protected priority"
+  - type: extends
     wikilink: "[[God Centered Design]]"
     reason: "Protect the real aim - faith lane names God's glory first"
   - type: extends

@@ -23,17 +23,26 @@ relationships:
     wikilink: "[[There Is No Perfect Solution]]"
     reason: "when I expect discipleship without cost"
   - type: extends
-    wikilink: "[[Free Grace]]"
-    reason: "Cross-bearing costs something real after faith saves you - it doesn't earn eternal life"
-  - type: extends
     wikilink: "[[Discern His Will Daily]]"
     reason: "Choosing God's will over self-will - discernment names the fork"
+  - type: extends
+    wikilink: "[[Discipleship]]"
+    reason: "Daily cross is the shape of following Jesus"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Cross-bearing costs something real after faith saves you - it doesn't earn eternal life"
   - type: extends
     wikilink: "[[Present a Living Sacrifice]]"
     reason: "Daily death to self-will - body offered alive on the altar"
   - type: extends
+    wikilink: "[[Process Over Outcomes]]"
+    reason: "Carry the cross in today's step - not only when outcomes reward"
+  - type: extends
     wikilink: "[[Renewed Mind]]"
     reason: "Renewed mind enables choosing God's will over self-will"
+  - type: extends
+    wikilink: "[[The Narrow Way]]"
+    reason: "Cross-bearing is the narrow path - few take it"
 slug: "take-up-your-cross"
 date: "2026-06-19 09:40:00+00:00"
 image: "/images/note.jpg"

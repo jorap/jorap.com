@@ -26,11 +26,11 @@ relationships:
     wikilink: "[[Humility and Service]]"
     reason: "Gospel root - greatness through serving earns followership"
   - type: extends
-    wikilink: "[[Leadership]]"
-    reason: "Direction, pace, care when people look to you - title optional"
-  - type: extends
     wikilink: "[[Leadership Is Influence]]"
     reason: "Positive proof of the influence test - followers before titles"
+  - type: extends
+    wikilink: "[[Leadership]]"
+    reason: "Direction, pace, care when people look to you - title optional"
   - type: extends
     wikilink: "[[Servant Leadership]]"
     reason: "How you earn followership without pulling rank"

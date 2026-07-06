@@ -38,6 +38,9 @@ relationships:
   - type: extends
     wikilink: "[[Selling Static Sites]]"
     reason: "Defines what I sell before I quote a build"
+  - type: implements
+    wikilink: "[[Client Site Pass-Off]]"
+    reason: "Scope note names the boundary - pass-off is how you close the handoff"
 slug: "static-site-client-scope"
 date: "2026-06-29 10:10:00+00:00"
 image: "/images/note.jpg"

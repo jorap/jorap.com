@@ -21,11 +21,17 @@ relationships:
     wikilink: "[[The Collector's Fallacy]]"
     reason: "when I hoard truth without sharing it"
   - type: extends
-    wikilink: "[[Discipleship]]"
-    reason: "Make disciples - umbrella this note carries out"
+    wikilink: "[[Creative Output]]"
+    reason: "Make disciples includes teaching what you make - pass it on"
   - type: extends
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "Make disciples outward - not the same job as managing a team calendar"
+  - type: extends
+    wikilink: "[[Discipleship]]"
+    reason: "Make disciples - umbrella this note carries out"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Go and make disciples - mission flows from grace received"
   - type: extends
     wikilink: "[[Repent and Believe]]"
     reason: "Mission flows from believing the gospel - you teach obedience after faith, not to buy salvation"

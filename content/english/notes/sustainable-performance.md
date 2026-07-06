@@ -35,11 +35,11 @@ relationships:
     wikilink: "[[Slow Productivity]]"
     reason: "Fewer deep projects, finished work"
   - type: extends
-    wikilink: "[[Success is Stewardship]]"
-    reason: "Pace you can repeat - don't burn the gift"
-  - type: extends
     wikilink: "[[Steward After the Win]]"
     reason: "Victory-lap sprint burns the gift - pace you can repeat"
+  - type: extends
+    wikilink: "[[Success is Stewardship]]"
+    reason: "Pace you can repeat - don't burn the gift"
 slug: "sustainable-performance"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"

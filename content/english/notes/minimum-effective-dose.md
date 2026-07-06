@@ -30,6 +30,9 @@ relationships:
     wikilink: "[[Develop, Don't Endanger]]"
     reason: "Smallest challenge that still develops the skill - not maximal suffering as the dose"
   - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Enough gospel to believe - not endless proof before you rest"
+  - type: extends
     wikilink: "[[Justification]]"
     reason: "Faith is the one sufficient act - declared righteous at faith, not after merit stacks"
   - type: extends

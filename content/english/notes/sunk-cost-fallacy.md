@@ -19,6 +19,9 @@ shareable_thought:
   - "I ask: if I found this today, would I start it?"
   - "Forgiveness runs the same play on relational debt."
 relationships:
+  - type: alternative
+    wikilink: "[[Turn the Other Cheek]]"
+    reason: "Cut the sunk cost vs absorb the hit - different exits from the same trap"
   - type: contradicts
     wikilink: "[[Forgiveness]]"
     reason: "when I keep collecting on a grudge I should release"
