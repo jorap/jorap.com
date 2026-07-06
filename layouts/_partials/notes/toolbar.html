@@ -2,7 +2,14 @@
 {{- $active := .active | default "" -}}
 {{- $noteCount := len (partial "notes/pages.html" $ctx) -}}
 {{- $issueData := partialCached "notes/collect-note-issues.html" site "note-issues-v10" -}}
-{{- $issueTotal := partial "notes/issues-total-count.html" $issueData -}}
+{{- $issueTotal := add ($issueData.brokenCount | default 0) ($issueData.pipeCount | default 0) -}}
+{{- $issueTotal = add $issueTotal ($issueData.unlinkedCount | default 0) -}}
+{{- $issueTotal = add $issueTotal ($issueData.structureCount | default 0) -}}
+{{- $issueTotal = add $issueTotal ($issueData.orphanCount | default 0) -}}
+{{- $issueTotal = add $issueTotal ($issueData.deadEndCount | default 0) -}}
+{{- $issueTotal = add $issueTotal ($issueData.utilityCount | default 0) -}}
+{{- $issueTotal = add $issueTotal ($issueData.relBrokenCount | default 0) -}}
+{{- $issueTotal = add $issueTotal ($issueData.bodySectionCount | default 0) -}}
 {{- $toolsActive := or (eq $active "issues") (eq $active "review") (eq $active "create") (eq $active "okf") -}}
 <div class="notes-toolbar mb-6 flex flex-wrap items-center gap-2 xl:gap-3">
   <a

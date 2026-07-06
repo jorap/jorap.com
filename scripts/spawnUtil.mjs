@@ -57,15 +57,6 @@ export function runNodeScript(scriptPath, args = []) {
   run(nodeBin, [scriptPath, ...args]);
 }
 
-export function runLocalBin(name, args = []) {
-  const bin = resolveLocalBin(name);
-  if (bin) {
-    run(bin, args);
-    return;
-  }
-  run(name, args, { shell: isWin });
-}
-
 export function runNpx(args) {
   const npx = resolveLocalBin("npx");
   if (npx) {

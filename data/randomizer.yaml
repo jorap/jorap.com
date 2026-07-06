@@ -7,83 +7,54 @@ collections:
   tagline: A theme on the card. You name one real thing; everyone ranks it 1-100 in their head.
   play_hint: One real example ("flashlight", "take a nap", "duct tape"). 1 = weakest fit for the theme, 100 = strongest. Rank what you meant, not what the table would guess. Don't say your number out loud.
   items:
-  - Things you'd want to do when you're very tired.
   - Things to bring on a deserted island.
-  - Superpowers you'd actually want to have.
-  - Board games you'd bring to game night.
+  - Things you'd want to do when you're very tired.
   - Snacks you'd want during a movie at home.
-  - Foods you'd want for a comfort meal.
-  - Things that would cheer you up on a bad day.
-  - Things that would start a good conversation.
-  - Things that would be embarrassing to drop in public.
-  - Things you'd want when the Wi-Fi goes down at home.
-  - Things you'd want when you're bored at home.
-  - Things you'd want on a lazy Sunday morning.
-  - Things that would make a party more fun.
-  - Party games that work with any group size.
-  - Card games you'd teach in five minutes.
-  - Things that would end an awkward silence.
-  - Things you'd want when you can't find your keys.
-  - Things you'd want when you lock yourself out of a room.
-  - Things you'd want when your phone battery hits one percent.
-  - Things you'd want when you forget an umbrella.
-  - Things you'd want when you spill coffee on your shirt.
-  - Things that would make you laugh in a serious meeting.
-  - Things that would make a prank harmless and funny.
-  - Excuses for being late that might actually work.
-  - Things you'd love to find in your lunchbox.
-  - Things you'd hate to find in your lunchbox.
-  - Desserts you'd order if calories didn't matter.
-  - Foods you'd bring to a potluck.
-  - Breakfast foods that would wake you up.
-  - Drinks you'd want on a scorching day.
-  - Movies perfect for a family night.
-  - Movies perfect for a solo rainy afternoon.
-  - Songs you'd put on a road-trip playlist.
-  - TV shows you'd binge on a sick day.
-  - Superpowers perfect for a lazy person.
   - Superpowers perfect for a helpful person.
-  - Time periods you'd visit with a time machine.
-  - Animals you'd want as an impossible pet.
-  - Things to bring if stranded in a forest overnight.
-  - Things to bring if the power went out for a week.
-  - Things you'd want if you could only carry one bag.
-  - Things you'd want if you had no internet for a month.
-  - Things you'd want during a power outage.
-  - Things you'd want when it's raining outside.
-  - Things you'd want when you're stuck indoors all day.
-  - Things you'd want during a snow day.
-  - Things you'd want during a long queue at the doctor.
-  - Things you'd want during a delayed flight.
-  - Things you'd want on a long flight.
-  - Things you'd want at a beach all day.
+  - Superpowers perfect for a lazy person.
   - Superpowers you'd actually use every week.
+  - Superpowers you'd actually want to have.
   - Sounds that would be awkward in a quiet library.
   - Things that would be awkward to forget someone's name.
+  - Things that would be embarrassing to drop in public.
   - Things that would be embarrassing to say too loudly.
   - Things that would be embarrassing to wear to a formal event.
   - Things that would be funny to bring to show-and-tell.
   - Things that would be funny to see a celebrity do.
-  - Board games you'd play with non-gamers.
+  - Things that would end an awkward silence.
+  - Things that would make a prank harmless and funny.
+  - Things to bring if stranded in a forest overnight.
+  - Things that would cheer you up on a bad day.
   - Things you'd want to do when you're bored at home.
+  - Things you'd want when you're bored at home.
+  - Desserts you'd order if calories didn't matter.
+  - Foods you'd want for a comfort meal.
   - Snacks you'd want after school or work.
   - Snacks you'd want at a sleepover.
   - Snacks you'd want on a long car ride.
   - Birthday party ideas that always work.
+  - Foods you'd want at a casual picnic.
+  - Things that would make a party more fun.
+  - Things that would start a good conversation.
   - Things you'd want during a neighborhood block party.
-  - Things you'd want if you could rewind one conversation a day.
+  - Things you'd want when hosting your first dinner party.
+  - Movies perfect for a family night.
+  - Movies perfect for a solo rainy afternoon.
   - Movies you'd watch again and again.
   - Songs you'd put on a cleaning playlist.
+  - Songs you'd put on a road-trip playlist.
   - Songs you'd put on a workout playlist.
-  - Things you'd want when hosting your first dinner party.
+  - Things you'd want during a power outage.
+  - Things you'd want if you could rewind one conversation a day.
+  - Things you'd want if you had no internet for a month.
   - Activities for a rainy day with kids.
   - Activities for a sunny day at the park.
+  - Animals you'd want as an impossible pet.
   - Animals you'd want to see in the wild once.
   - Back-to-school supplies worth splurging on.
   - Bedtime stories that never get old.
-  - Birthday gifts kids actually use.
   - Books you'd bring on a long trip.
-  - Books you'd give to a curious teenager.
+  - Breakfast foods that would wake you up.
   - Cartoons adults still enjoy.
   - Chores you actually don't mind doing.
   - Chores you'd feel good about finishing before guests arrive.
@@ -93,19 +64,19 @@ collections:
   - Countries you'd want to visit for the food.
   - Dinner foods you'd cook for someone you like.
   - Drinks you'd want on a freezing day.
+  - Drinks you'd want on a scorching day.
+  - Excuses for being late that might actually work.
   - Family outings that don't cost much.
   - Family outings worth saving up for.
   - Festivals or fairs you'd travel to attend.
   - Foods that smell amazing while cooking.
   - Foods you'd avoid eating in public.
+  - Foods you'd bring to a potluck.
   - Foods you'd teach a kid to cook first.
-  - Foods you'd want at a casual picnic.
   - Foods you'd want at a celebration dinner.
   - Foods you'd want on a cold winter night.
   - Foods you'd want on a hot summer afternoon.
   - Foods you'd want on a sick day.
-  - Games you'd play with a five-year-old.
-  - Games you'd play with a teenager.
   - Groceries you'd grab first if the store was about to close.
   - Historical figures you'd want to meet for an hour.
   - Hobbies you'd pick up if you had more free time.
@@ -145,17 +116,15 @@ collections:
   - Qualities you'd want in a relay-race teammate.
   - Rewards you'd offer for good behavior.
   - School projects you'd actually look forward to.
-  - School subjects you'd enjoy revisiting as an adult.
   - Science fair project ideas that sound impressive.
   - Skills that would impress at a talent show.
   - Skills you'd want to learn in a weekend workshop.
   - Sounds that would be welcome at a sports game.
   - Sports you'd actually try yourself.
   - Sports you'd watch even if you don't play.
-  - Summer activities you'd sign a kid up for.
   - Surprises you'd enjoy on an ordinary Tuesday.
   - Surprises you'd hate on an ordinary Tuesday.
-  - Things grandparents love to do with grandkids.
+  - TV shows you'd binge on a sick day.
   - Things in life you'd never want to lose.
   - Things that feel more valuable the longer you keep them.
   - Things that feel worth the wait.
@@ -175,78 +144,35 @@ collections:
   - Things that would make a waiting room less boring.
   - Things that would make an apology feel genuine.
   - Things that would make an ordinary day feel special.
-  - Things that would make you ten minutes late to an important meeting.
   - Things that would ruin a perfectly good cake.
   - Things that would save a ruined dinner.
   - Things to bring if an elevator stopped between floors.
+  - Things to bring if the power went out for a week.
   - Things to bring if you were locked out of your house.
-  - Things to bring if you were lost on a hiking trail.
   - Things to bring if you were stuck in a snowstorm indoors.
   - Things to bring if your car broke down far from town.
-  - Things you'd buy if you could only shop at a dollar store.
   - Things you'd give a tourist from another planet.
   - Things you'd grab if the store was closing in two minutes.
-  - Things you'd grab in a five-minute pharmacy run.
-  - Things you'd pack for a one-week space station visit.
+  - Things you'd hate to find in your lunchbox.
+  - Things you'd love to find in your lunchbox.
   - Things you'd replace the moment they start to wear out.
   - Things you'd save first in a small fire (if safe).
   - Things you'd want after finishing a big project.
+  - Things you'd want at a beach all day.
   - Things you'd want before a hurricane indoors.
   - Things you'd want before giving a presentation.
   - Things you'd want during a broken washing machine.
   - Things you'd want during a cold snap with a weak furnace.
+  - Things you'd want during a delayed flight.
   - Things you'd want during a heat advisory with no AC.
   - Things you'd want during a heat wave.
   - Things you'd want during a last-minute potluck.
   - Things you'd want during a long drought.
+  - Things you'd want during a long queue at the doctor.
   - Things you'd want during a school fundraiser.
   - Things you'd want during a sick day at home.
+  - Things you'd want during a snow day.
   - Things you'd want during a week of nonstop rain.
-  - Things you'd want if a heat wave knocked out air conditioning.
-  - Things you'd want if a river rose near a campsite.
-  - Things you'd want if a tree fell across your driveway.
-  - Things you'd want if a volcano erupted far away but ash arrived.
-  - Things you'd want if all screens stopped working for a weekend.
-  - Things you'd want if animals could talk for one day.
-  - Things you'd want if batteries disappeared for a day.
-  - Things you'd want if bees moved into your porch.
-  - Things you'd want if chores paid real coins.
-  - Things you'd want if delivery apps stopped working.
-  - "Things you'd want if elevators only went up, never down."
-  - Things you'd want if every cat in town gathered on your lawn.
-  - Things you'd want if every door became a portal for an hour.
-  - Things you'd want if fog made driving impossible.
-  - Things you'd want if gravity suddenly halved for an hour.
-  - Things you'd want if hail damaged your garden.
-  - Things you'd want if homework graded itself honestly.
-  - Things you'd want if ice coated every sidewalk.
-  - Things you'd want if it rained something other than water.
-  - Things you'd want if it snowed in summer for one day.
-  - Things you'd want if maps stopped working on your phone.
-  - Things you'd want if money grew on a tree in your yard.
-  - Things you'd want if restaurants closed for a week.
-  - Things you'd want if sandstorm trapped you at a rest stop.
-  - Things you'd want if the moon looked twice as big tonight.
-  - Things you'd want if water supply was cut off for three days.
-  - Things you'd want if wildlife wandered into your yard.
-  - Things you'd want if you could breathe underwater for a day.
-  - Things you'd want if you could fly for one afternoon.
-  - Things you'd want if you could only eat one food for a week.
-  - Things you'd want if you could only use hand tools.
-  - Things you'd want if you could only wear one outfit for a month.
-  - Things you'd want if you could pause time for five minutes a day.
-  - Things you'd want if you could speak every language for a week.
-  - Things you'd want if you discovered a secret garden.
-  - Things you'd want if you found a hidden room in your house.
-  - Things you'd want if you grew to the size of a building.
-  - Things you'd want if you had no car for a month.
-  - Things you'd want if you heard a strange noise at night.
-  - Things you'd want if you shrunk to the size of an ant.
-  - Things you'd want if you woke up a hundred years in the future.
-  - Things you'd want if you woke up a hundred years in the past.
-  - Things you'd want if your bicycle could only go backwards.
-  - Things you'd want if your phone only worked on Tuesdays.
-  - Things you'd want if your town flooded (safe indoors).
   - Things you'd want in a backyard obstacle course.
   - Things you'd want in a bathroom cabinet.
   - Things you'd want in a blindfolded taste test.
@@ -264,17 +190,14 @@ collections:
   - Things you'd want in a one-minute packing challenge.
   - Things you'd want in a perfect study space.
   - Things you'd want in a school lunchbox.
-  - Things you'd want in a team meeting to go smoothly.
   - Things you'd want in a treasure hunt in the backyard.
-  - Things you'd want in a twenty-four-hour charity livestream.
   - Things you'd want in an egg-and-spoon race.
   - Things you'd want near the front door.
   - Things you'd want on a hot-air balloon ride gone long.
-  - Things you'd want on a submarine for a month.
+  - Things you'd want on a lazy Sunday morning.
+  - Things you'd want on a long flight.
   - Things you'd want on a train journey.
   - Things you'd want on a well-stocked desk.
-  - Things you'd want on the first colony on Mars.
-  - Things you'd want on the first day of a new job.
   - Things you'd want on the first day of school.
   - Things you'd want to barricade a door with in an emergency.
   - Things you'd want to build a raft with.
@@ -302,11 +225,88 @@ collections:
   - Things you'd want to find when cleaning a messy room.
   - Things you'd want to finish before a vacation.
   - Things you'd want to grab before guests arrive.
-  - Things you'd want to learn before age thirty.
   - Things you'd want to navigate without GPS.
   - Things you'd want to own if you lived alone.
   - Things you'd want to pass time during a long blackout.
   - Things you'd want to purify questionable water.
+  - Things you'd want when it's raining outside.
+  - Things you'd want when the Wi-Fi goes down at home.
+  - Things you'd want when you can't find your keys.
+  - Things you'd want when you forget an umbrella.
+  - Things you'd want when you lock yourself out of a room.
+  - Things you'd want when you spill coffee on your shirt.
+  - Things you'd want when you're stuck indoors all day.
+  - Things you'd want when your phone battery hits one percent.
+  - Time periods you'd visit with a time machine.
+  - Things you'd want if a heat wave knocked out air conditioning.
+  - Things you'd want if a river rose near a campsite.
+  - Things you'd want if a tree fell across your driveway.
+  - Things you'd want if all screens stopped working for a weekend.
+  - Things you'd want if animals could talk for one day.
+  - Things you'd want if batteries disappeared for a day.
+  - Things you'd want if bees moved into your porch.
+  - Things you'd want if chores paid real coins.
+  - Things you'd want if delivery apps stopped working.
+  - Things you'd want if every cat in town gathered on your lawn.
+  - Things you'd want if every door became a portal for an hour.
+  - Things you'd want if fog made driving impossible.
+  - Things you'd want if gravity suddenly halved for an hour.
+  - Things you'd want if hail damaged your garden.
+  - Things you'd want if ice coated every sidewalk.
+  - Things you'd want if it rained something other than water.
+  - Things you'd want if it snowed in summer for one day.
+  - Things you'd want if maps stopped working on your phone.
+  - Things you'd want if money grew on a tree in your yard.
+  - Things you'd want if restaurants closed for a week.
+  - Things you'd want if the moon looked twice as big tonight.
+  - Things you'd want if water supply was cut off for three days.
+  - Things you'd want if wildlife wandered into your yard.
+  - Things you'd want if you could breathe underwater for a day.
+  - Things you'd want if you could fly for one afternoon.
+  - Things you'd want if you could only carry one bag.
+  - Things you'd want if you could only eat one food for a week.
+  - Things you'd want if you could only use hand tools.
+  - Things you'd want if you could only wear one outfit for a month.
+  - Things you'd want if you could pause time for five minutes a day.
+  - Things you'd want if you could speak every language for a week.
+  - Things you'd want if you discovered a secret garden.
+  - Things you'd want if you found a hidden room in your house.
+  - Things you'd want if you grew to the size of a building.
+  - Things you'd want if you had no car for a month.
+  - Things you'd want if you heard a strange noise at night.
+  - Things you'd want if you woke up a hundred years in the future.
+  - Things you'd want if you woke up a hundred years in the past.
+  - Things you'd want if your bicycle could only go backwards.
+  - Things you'd want if your phone only worked on Tuesdays.
+  - Things you'd want if your town flooded (safe indoors).
+  - "Things you'd want if elevators only went up, never down."
+  - Things you'd want if homework graded itself honestly.
+  - Things you'd want if sandstorm trapped you at a rest stop.
+  - Things you'd want if you shrunk to the size of an ant.
+  - Things grandparents love to do with grandkids.
+  - Card games you'd teach in five minutes.
+  - Birthday gifts kids actually use.
+  - Books you'd give to a curious teenager.
+  - Games you'd play with a five-year-old.
+  - Games you'd play with a teenager.
+  - School subjects you'd enjoy revisiting as an adult.
+  - Summer activities you'd sign a kid up for.
+  - Things that would make you laugh in a serious meeting.
+  - Things that would make you ten minutes late to an important meeting.
+  - Things to bring if you were lost on a hiking trail.
+  - Things you'd buy if you could only shop at a dollar store.
+  - Things you'd grab in a five-minute pharmacy run.
+  - Things you'd pack for a one-week space station visit.
+  - Things you'd want in a team meeting to go smoothly.
+  - Things you'd want in a twenty-four-hour charity livestream.
+  - Things you'd want on a submarine for a month.
+  - Things you'd want on the first colony on Mars.
+  - Things you'd want on the first day of a new job.
+  - Things you'd want to learn before age thirty.
+  - Party games that work with any group size.
+  - Board games you'd bring to game night.
+  - Board games you'd play with non-gamers.
+  - Things you'd want if a volcano erupted far away but ash arrived.
 
 - id: personal-scales
   title: Personal icebreakers
@@ -1394,11 +1394,11 @@ collections:
   - A country you want to visit for the food.
   - A country you want to visit for nature.
   - A country you want to visit for history.
-  - A beach memory, good or bad.
+  - "A beach memory, good or bad."
   - A mountain or hill climb worth the effort.
   - A museum exhibit that stuck with you.
   - A market or fair you loved browsing.
-  - A long flight story, good seat or bad seat.
+  - "A long flight story, good seat or bad seat."
   - A train or bus ride you still remember.
   - A road trip snack tradition.
   - A souvenir you actually kept and use.

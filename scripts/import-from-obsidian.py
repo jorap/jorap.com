@@ -5,8 +5,12 @@ from __future__ import annotations
 
 import argparse
 import re
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from notes_content import split_frontmatter_parts as split_frontmatter
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DEST = ROOT / "content/english/notes"
@@ -38,18 +42,6 @@ def slugify(name: str) -> str:
     slug = re.sub(r"[\s_]+", "-", slug)
     slug = re.sub(r"-+", "-", slug).strip("-")
     return slug or "note"
-
-
-def split_frontmatter(text: str) -> tuple[str, str, str]:
-    if not text.startswith("---"):
-        return "", text, text
-    end = text.find("\n---", 3)
-    if end == -1:
-        return "", text, text
-    fm = text[: end + 4]
-    body = text[end + 4 :].lstrip("\n")
-    inner = text[3:end].strip()
-    return fm, inner, body
 
 
 def parse_yaml_list(block: str, key: str) -> list[str]:

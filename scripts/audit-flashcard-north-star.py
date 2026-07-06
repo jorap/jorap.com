@@ -7,6 +7,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from notes_content import split_frontmatter
+
 ROOT = Path(__file__).resolve().parents[1]
 NOTES_DIR = ROOT / "content/english/notes"
 SKIP_STEMS = {"flashcards", "review", "_index"}
@@ -31,13 +34,6 @@ TELEGRAPH_FRONT = re.compile(
     r"(what is |define |says what\?|one active rule|Matthew \d|verse \d)",
     re.I,
 )
-
-
-def split_frontmatter(text: str) -> str:
-    if not text.startswith("---"):
-        return ""
-    end = text.find("\n---", 3)
-    return text[3:end].strip() if end != -1 else ""
 
 
 def parse_examples(block: str) -> list[str]:
@@ -80,7 +76,7 @@ def main() -> int:
     for path in sorted(NOTES_DIR.glob("*.md")):
         if path.stem in SKIP_STEMS:
             continue
-        block = split_frontmatter(path.read_text(encoding="utf-8"))
+        block, _ = split_frontmatter(path.read_text(encoding="utf-8"))
         if not block or not re.search(r"^review:\s*true", block, re.M):
             continue
         if not re.search(r"^cards:\s*$", block, re.M):

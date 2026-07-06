@@ -9,7 +9,7 @@ from pathlib import Path
 
 import yaml
 
-from notes_content import assemble_markdown, split_frontmatter
+from notes_content import assemble_markdown, parse_scalar, split_frontmatter
 
 ROOT = Path(__file__).resolve().parents[1]
 NOTES_DIR = ROOT / "content/english/notes"
@@ -19,11 +19,6 @@ UTILITY_LAYOUTS = frozenset({"graph", "cards", "review", "issues", "random-duo",
 WIKILINK_RE = re.compile(
     r"\[\[([^\]|#]+)(?:#[^\]|]+)?\]\]"
 )
-
-
-def parse_scalar(block: str, key: str) -> str:
-    match = re.search(rf"^{key}:\s*(.+?)\s*$", block, re.M)
-    return match.group(1).strip().strip('"') if match else ""
 
 
 def parse_aliases(block: str) -> list[str]:

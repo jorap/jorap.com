@@ -11,7 +11,13 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 
-from notes_content import assemble_markdown, parse_display_fields
+from notes_content import (
+    assemble_markdown,
+    parse_bool,
+    parse_display_fields,
+    parse_scalar,
+    split_frontmatter_parts as split_frontmatter,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 NOTES_DIR = ROOT / "content/english/notes"
@@ -38,25 +44,6 @@ class NoteRecord:
     utility: bool
     timestamp: str
     resource: str
-
-
-def split_frontmatter(text: str) -> tuple[str, str, str]:
-    if not text.startswith("---"):
-        return "", text, text
-    end = text.find("\n---", 3)
-    if end == -1:
-        return "", text, text
-    return text[: end + 4], text[3:end].strip(), text[end + 4 :].lstrip("\n")
-
-
-def parse_scalar(block: str, key: str) -> str:
-    match = re.search(rf'^{key}:\s*"?([^"\n]+)"?\s*$', block, re.M)
-    return match.group(1).strip() if match else ""
-
-
-def parse_bool(block: str, key: str) -> bool:
-    match = re.search(rf"^{key}:\s*(true|false)\s*$", block, re.M)
-    return match.group(1) == "true" if match else False
 
 
 def parse_yaml_list(block: str, key: str) -> list[str]:

@@ -7,6 +7,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from notes_content import split_frontmatter
+
 ROOT = Path(__file__).resolve().parents[1]
 NOTES_DIR = ROOT / "content/english/notes"
 
@@ -43,15 +46,6 @@ def is_multiple_choice_front(front: str) -> bool:
     if MC_FORK_OR_RE.search(front):
         return True
     return False
-
-
-def split_frontmatter(text: str) -> tuple[str, str]:
-    if not text.startswith("---"):
-        return "", text
-    end = text.find("\n---", 3)
-    if end == -1:
-        return "", text
-    return text[3:end].strip(), text[end + 4 :]
 
 
 def parse_bool(block: str, key: str) -> bool:

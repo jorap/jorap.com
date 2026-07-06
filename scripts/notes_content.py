@@ -52,6 +52,25 @@ def split_frontmatter(text: str) -> tuple[str, str]:
     return text[3:end].strip(), text[end + 4 :]
 
 
+def split_frontmatter_parts(text: str) -> tuple[str, str, str]:
+    """Full --- block, inner YAML, body (for export/import scripts)."""
+    if not text.startswith("---"):
+        return "", text, text
+    end = text.find("\n---", 3)
+    if end == -1:
+        return "", text, text
+    return text[: end + 4], text[3:end].strip(), text[end + 4 :].lstrip("\n")
+
+
+def parse_scalar(block: str, key: str) -> str:
+    return _parse_scalar(block, key)
+
+
+def parse_bool(block: str, key: str) -> bool:
+    match = re.search(rf"^{key}:\s*(true|false)\s*$", block, re.M)
+    return match.group(1) == "true" if match else False
+
+
 def _parse_scalar(block: str, key: str) -> str:
     match = re.search(rf'^{key}:\s*"?([^"\n]+)"?\s*$', block, re.M)
     return match.group(1).strip() if match else ""
