@@ -14,7 +14,7 @@ related_notes:
   - follow-through
 featured: false
 draft: false
-lastmod: 2026-07-06T12:20:00Z
+lastmod: 2026-07-06T12:52:00Z
 ---
 
 I've been following Alex Eala's career since her amazing run at the 2025 Miami Open, and watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook - career-high rankings, the matches I'll always remember, the head-to-heads with Grand Slam champions, and the upcoming matchups I'm watching for. I update it as her career unfolds.
@@ -245,10 +245,10 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 {{< youtube bgSs0pKIAGI >}}
 
   - **French Open**
-    - 1st Round, l. Jovic 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS71642254) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2026/SD068)
+    - 1st Round, l. Jovic 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS71642254) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/i-jovic-vs-a-eala-2026-05-26) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2026/SD068)
 
   - **Australian Open**
-    - 1st Round, l. Parks | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LS67816724) | [ausopen.com](https://ausopen.com/match/2026-alycia-parks-vs-alexandra-eala-ws122)
+    - 1st Round, l. Parks | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LS67816724) | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-parks-vs-a-eala-2026-01-20) | [ausopen.com](https://ausopen.com/match/2026-alycia-parks-vs-alexandra-eala-ws122)
 
 {{< youtube HhdkG1AwDhU >}}
 
@@ -256,19 +256,19 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - 2025
 
   - **US Open**
-    - 2nd Round, l. Bucsa 4-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63101293) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2204.html)
-    - 1st Round, d. Tauson 6-3, 2-6, 7-6(11) | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63131469) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2108.html)
+    - 2nd Round, l. Bucsa 4-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63101293) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/c-bucsa-vs-a-eala-2025-08-27) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2204.html)
+    - 1st Round, d. Tauson 6-3, 2-6, 7-6(11) | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63131469) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/c-tauson-vs-a-eala-2025-08-24) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2108.html)
 
 {{< youtube JRCuP2U5Alk >}}
 
 {{< youtube vB6HVBHjpAg >}}
 
   - **Wimbledon**
-    - 1st Round, l. Krejcikova 3-6, 6-2, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS61511608) | [tennis.com](https://www.tennis.com/tournaments/sr-tournament-2553-wimbledon/sr-match-61511608/)
+    - 1st Round, l. Krejcikova 3-6, 6-2, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS61511608) | [tennis.com](https://www.tennis.com/tournaments/sr-tournament-2553-wimbledon/sr-match-61511608/) | [wimbledon.com](https://www.wimbledon.com/en_GB/scores/stats/61511608.html)
     - Played against the defending champion Krejcikova at the Centre Court
 
   - **French Open**
-    - 1st Round, l. Arango 0-6, 6-2, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS60736223) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2025/SD078)
+    - 1st Round, l. Arango 0-6, 6-2, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS60736223) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/e-arango-vs-a-eala-2025-05-25) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2025/SD078)
     - First Filipina to compete in a Grand Slam main draw
 
 ### Doubles
@@ -276,21 +276,21 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - 2026
 
   - **Wimbledon - with Nikola Bartunkova**
-    - 1st Round, l. Ostapenko/Kenin 6-3, 3-6, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LD72362771) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-n-bartunkova-vs-j-ostapenko-s-kenin-2026-07-02)
+    - 1st Round, l. Ostapenko/Kenin 6-3, 3-6, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LD72362771) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-n-bartunkova-vs-j-ostapenko-s-kenin-2026-07-02) | [wimbledon.com](https://www.wimbledon.com/en_GB/scores/stats/72362771.html)
 
   - **Australian Open - with Ingrid Martins**
-    - 1st Round, l. Aoyama/Linette 6-7(3), 2-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LD67893812) | [ausopen.com](https://ausopen.com/match/2026-alexandra-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-wd126)
+    - 1st Round, l. Aoyama/Linette 6-7(3), 2-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LD67893812) | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-2026-01-21) | [ausopen.com](https://ausopen.com/match/2026-alexandra-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-wd126)
 
 - 2025
 
   - **Wimbledon - with Eva Lys**
-    - 1st Round, l. Gleason/Martins 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LD61641892) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-e-lys-vs-q-gleason-i-martins-2025-07-03)
+    - 1st Round, l. Gleason/Martins 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LD61641892) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-e-lys-vs-q-gleason-i-martins-2025-07-03) | [wimbledon.com](https://www.wimbledon.com/en_GB/scores/stats/61641892.html)
 
 {{< youtube NqbMdbIUuFE >}}
 
   - **French Open - with Renata Zarazua**
-    - 2nd Round, l. Danilovic/Potapova 1-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LD60707893) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2025/DD024)
-    - 1st Round, d. Appleton/Cavalle-Reimers 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LD60813525) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2025/DD049)
+    - 2nd Round, l. Danilovic/Potapova 1-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LD60707893) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/a-eala-renata-zarazua-vs-olga-danilovic-anastasia-potapova-2025-05-29) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2025/DD024)
+    - 1st Round, d. Appleton/Cavalle-Reimers 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LD60813525) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/a-eala-renata-zarazua-vs-emily-appleton-yvonne-cavalle-reimers-2025-05-27) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2025/DD049)
 
 ---
 
@@ -311,17 +311,17 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2026 Wimbledon (Grass)** - 3rd Round, WIN, 7-6(9), 6-2 | [Match Stats](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04)
+- **2026 Wimbledon (Grass)** - 3rd Round, WIN, 7-6(9), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362774) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04) | [wimbledon.com](https://www.wimbledon.com/en_GB/scores/stats/72362774.html)
 
 {{< youtube KUVh-Jflv_Q >}}
 
-- **2025 Miami Open (Hard)** - Quarterfinals, WIN, 6-2, 7-5 | [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906263/)
+- **2025 Miami Open (Hard)** - Quarterfinals, WIN, 6-2, 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906263/)
 
 {{< youtube maG9TzsuVeM >}}
 
 {{< youtube ARjpvQDZFcw >}}
 
-- **2025 Madrid (Clay)** - Round of 64, LOSS, 6-4, 4-6, 2-6 | [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2785-madrid-spain/sr-match-59915292/)
+- **2025 Madrid (Clay)** - Round of 64, LOSS, 6-4, 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1038/madrid/2025/scores/LS063) | [tennis.com](https://www.tennis.com/tournaments/sr-tournament-2785-madrid-spain/sr-match-59915292/)
 
 {{< youtube TqBCa8hIHcY >}}
 
@@ -341,11 +341,11 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2026 Berlin (Grass)** - Round of 16, WIN, 7-5, 6-4 | [Match Stats](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-e-rybakina-2026-06-18)
+- **2026 Berlin (Grass)** - Round of 16, WIN, 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-e-rybakina-2026-06-18)
 
 {{< youtube 4C8dT5T-fHM >}}
 
-- **2026 Rome (Clay)** - Round of 32, LOSS, 4-6, 3-6 | [Match Stats](https://www.tennis.com/tournaments/internazionali-bnl-ditalia/matches/a-eala-vs-e-rybakina-2026-05-10)
+- **2026 Rome (Clay)** - Round of 32, LOSS, 4-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2026/scores/LS031) | [tennis.com](https://www.tennis.com/tournaments/internazionali-bnl-ditalia/matches/a-eala-vs-e-rybakina-2026-05-10)
 
 {{< youtube AgecNaf6eE4 >}}
 
@@ -365,8 +365,8 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2026 Indian Wells (Hard)** - Round of 32, WIN (Retired), 6-2, 2-0 | [Match Stats](https://www.tennis.com/tournaments/bnp-paribas-open-indian-wells/matches/c-gauff-vs-a-eala-2026-03-09)
-- **2026 Dubai (Hard)** - Quarterfinals, LOSS, 0-6, 2-6 | [Match Stats](https://www.tennis.com/tournaments/wta-dubai-uae/matches/c-gauff-vs-a-eala-2026-02-19)
+- **2026 Indian Wells (Hard)** - Round of 32, WIN (Retired), 6-2, 2-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/indian-wells/scores/LS020) | [tennis.com](https://www.tennis.com/tournaments/bnp-paribas-open-indian-wells/matches/c-gauff-vs-a-eala-2026-03-09)
+- **2026 Dubai (Hard)** - Quarterfinals, LOSS, 0-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS005) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/c-gauff-vs-a-eala-2026-02-19)
 
 {{< youtube Z-NN1Y1lknY >}}
 
@@ -386,7 +386,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2025 Wimbledon (Grass)** - 1st Round, LOSS, 6-3, 2-6, 1-6 | [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2553-wimbledon/sr-match-61511608/)
+- **2025 Wimbledon (Grass)** - 1st Round, LOSS, 6-3, 2-6, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS61511608) | [tennis.com](https://www.tennis.com/tournaments/sr-tournament-2553-wimbledon/sr-match-61511608/) | [wimbledon.com](https://www.wimbledon.com/en_GB/scores/stats/61511608.html)
 
 {{< youtube PtLGq_avxI4 >}}
 
@@ -407,7 +407,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2025 Miami Open (Hard)** - Round of 32, WIN, 6-4, 6-2 | [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906303/)
+- **2025 Miami Open (Hard)** - Round of 32, WIN, 6-4, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS028) | [tennis.com](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906303/)
 
 {{< youtube rK9CLjVv_dY >}}
 
@@ -428,7 +428,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2025 Montreal (Hard)** - 1st Round, LOSS, 6-3, 1-6, 2-6 | [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2975-wta-montreal-canada/sr-match-62356318/)
+- **2025 Montreal (Hard)** - 1st Round, LOSS, 6-3, 1-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/806/montreal/2025/scores/LS085) | [tennis.com](https://www.tennis.com/tournaments/sr-tournament-2975-wta-montreal-canada/sr-match-62356318/)
 
 {{< youtube 3jTnT-QQZAI >}}
 
@@ -447,12 +447,12 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2026 Linz (Clay)** - Round of 16, LOSS, 4-6, 5-7 | [Match Stats](https://www.tennis.com/tournaments/upper-austria-ladies-linz/matches/j-ostapenko-vs-a-eala-2026-04-08)
+- **2026 Linz (Clay)** - Round of 16, LOSS, 4-6, 5-7 | [wtatennis.com](https://www.wtatennis.com/tournaments/528/linz/2026/scores/LS010) | [tennis.com](https://www.tennis.com/tournaments/upper-austria-ladies-linz/matches/j-ostapenko-vs-a-eala-2026-04-08)
 
 {{< youtube pBmH23s_VJY >}}
 
-- **2025 Eastbourne (Grass)** - Round of 16, WIN (Retired), 0-6, 6-2, 3-2 | [Match Stats](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS013)
-- **2025 Miami Open (Hard)** - Round of 64, WIN, 7-6(2), 7-5 | [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906325/)
+- **2025 Eastbourne (Grass)** - Round of 16, WIN (Retired), 0-6, 6-2, 3-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS013) | [tennis.com](https://www.tennis.com/tournaments/lexus-eastbourne-open/matches/j-ostapenko-vs-a-eala-2025-06-25)
+- **2025 Miami Open (Hard)** - Round of 64, WIN, 7-6(2), 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS057) | [tennis.com](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906325/)
 
 {{< youtube m0TgQhZNRxk >}}
 
