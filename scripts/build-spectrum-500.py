@@ -298,8 +298,14 @@ def main():
     assert pairs, "no spectrum pairs"
     text = YAML.read_text()
     block = "- id: spectrum\n  title: Concept spectrums\n  mode: spectrum\n"
-    block += "  tagline: Two opposing ideas — no categories, no questions. Name one word or phrase that sits in the grey area between them.\n"
-    block += "  play_hint: Think of a single noun or short phrase that lands between these extremes. Expect a friendly group debate.\n"
+    block += (
+        "  tagline: Two opposing ideas on one sliding scale. "
+        "One hidden spot on the line — name one word or phrase that belongs there.\n"
+    )
+    block += (
+        "  play_hint: Give a single clue for where the target lands. "
+        "Works near either pole, not only the middle. Expect friendly debate.\n"
+    )
     block += "  spectrums:\n"
     for l, r in pairs:
         block += f"  - left: {l}\n    right: {r}\n"

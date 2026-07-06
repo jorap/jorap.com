@@ -2,6 +2,7 @@
 """Curate each randomizer collection to 300 entries, best first (rank 1 = top)."""
 from __future__ import annotations
 
+import argparse
 import re
 from pathlib import Path
 
@@ -10,6 +11,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 YAML = ROOT / "data" / "randomizer.yaml"
 TARGET = 300
+SPECTRUM_TARGET = 200
 
 # ponytail: maintainer script; run after bulk prompt edits
 
@@ -17,7 +19,7 @@ SCALE_CLUES_PIN = [
     "Things you'd want to do when you're very tired.",
     "Things to bring on a deserted island.",
     "Superpowers you'd actually want to have.",
-    "Board games you'd bring to game night.",
+    "Games that need no equipment at all.",
     "Snacks you'd want during a movie at home.",
     "Foods you'd want for a comfort meal.",
     "Things that would cheer you up on a bad day.",
@@ -25,18 +27,15 @@ SCALE_CLUES_PIN = [
     "Things that would be embarrassing to drop in public.",
     "Things you'd want when the Wi-Fi goes down at home.",
     "Things you'd want when you're bored at home.",
-    "Things you'd want on a lazy Sunday morning.",
     "Things that would make a party more fun.",
-    "Party games that work with any group size.",
-    "Card games you'd teach in five minutes.",
+    "Card games everyone already knows.",
+    "Games you could explain in one sentence.",
     "Things that would end an awkward silence.",
-    "Things you'd want when you can't find your keys.",
-    "Things you'd want when you lock yourself out of a room.",
-    "Things you'd want when your phone battery hits one percent.",
-    "Things you'd want when you forget an umbrella.",
-    "Things you'd want when you spill coffee on your shirt.",
-    "Things that would make you laugh in a serious meeting.",
-    "Things that would make a prank harmless and funny.",
+    "Things that would make you giggle when you should stay quiet.",
+    "Things you'd want when playing hide-and-seek.",
+    "Things you'd want when playing musical chairs.",
+    "Things you'd want when playing Simon says.",
+    "Things you'd want when playing rock paper scissors.",
     "Excuses for being late that might actually work.",
     "Things you'd love to find in your lunchbox.",
     "Things you'd hate to find in your lunchbox.",
@@ -74,30 +73,71 @@ def score_scale_clue(item: str) -> float:
         score -= 18
     elif len(item) > 75:
         score -= 8
-    if lower.count("if you had to") >= 1:
-        score -= 14
-    if lower.startswith("things you'd want when"):
-        score -= 6
-    if lower.startswith("things you'd want if you had to"):
-        score -= 12
+    if re.search(
+        r"\b(meeting|new job|team meeting|as an adult|age thirty|livestream|submarine|"
+        r"space station|first colony|volcano erupted|sign a kid|kids actually|"
+        r"curious teenager|important meeting|pharmacy run|dollar store|"
+        r"hiking trail|charity livestream|five-year-old|teenager)\b",
+        lower,
+    ):
+        score -= 40
+    if "grandparent" in lower and "child and a grandparent" not in lower:
+        score -= 20
+    if re.search(
+        r"\b(board games? you'd|party games? that|card games? you'd teach|non-gamers?|"
+        r"game night|bluffing|mixed ages|rules are easy|teams up against|drawing skills|"
+        r"under twenty minutes|luck matters more|duck duck goose|mother may i|musical statues|"
+        r"capture the flag|leapfrog|follow the leader)\b",
+        lower,
+    ):
+        score -= 35
+    if re.search(
+        r"\bwhen playing (hide-and-seek|tag|musical chairs|simon says|rock paper scissors|"
+        r"charades|hot potato|tic-tac-toe|hopscotch|jump rope|catch|twenty questions)\b",
+        lower,
+    ):
+        score += 14
+    if re.search(
+        r"\bwhen playing (dodgeball|tug of war|freeze tag|freeze dance|arm wrestling|thumb war)\b",
+        lower,
+    ):
+        score += 6
+    if lower.startswith("things you'd want when the family "):
+        score -= 10
+    if lower.startswith("things you'd want if "):
+        score -= 3
+    if "board game" in lower or "party game" in lower:
+        score -= 15
+    if lower.startswith("card games everyone") or lower.startswith("games that need no"):
+        score += 12
+    if lower.startswith("games you could explain") or lower.startswith("games a child"):
+        score += 8
+    if lower.startswith("games everyone") or lower.startswith("games that are fun"):
+        score += 8
     if "superpower" in lower:
         score += 14
-    if "embarrassing" in lower or "funny" in lower or "awkward" in lower:
+    if "deserted island" in lower:
+        score += 18
+    if "very tired" in lower:
+        score += 16
+    if "stranded" in lower:
         score += 12
-    if "deserted island" in lower or "stranded" in lower:
-        score += 14
-    if "board game" in lower or "card game" in lower or "party game" in lower:
-        score += 10
+    if "embarrassing" in lower or "funny" in lower or "awkward" in lower or "giggle" in lower:
+        score += 12
     if "snack" in lower or "comfort meal" in lower or "dessert" in lower:
         score += 8
-    if "conversation" in lower or "party" in lower:
+    if "conversation" in lower or "party" in lower or "picnic" in lower:
         score += 7
     if "wifi" in lower or "power outage" in lower or "internet" in lower:
-        score += 8
+        score += 6
     if "movie" in lower or "road-trip" in lower or "playlist" in lower:
         score += 6
-    if "very tired" in lower or "bored at home" in lower:
+    if "bored at home" in lower or "bad day" in lower:
         score += 10
+    if any(w in lower for w in ("any age", "group project", "speaking in front")):
+        score += 8
+    if re.search(r"\b(sandstorm|elevators only|volcano|homework graded|shrunk to the size)\b", lower):
+        score -= 8
     if "zombie" in lower or "socks kept disappearing" in lower:
         score -= 5
     return score
@@ -689,155 +729,332 @@ PERSONAL_NEW = [
 def score_personal(item: str) -> float:
     lower = item.lower()
     score = 50.0
-    if lower.startswith("how much do you enjoy"):
-        score -= 12
-    if lower.startswith("how good are you at"):
-        score -= 4
-    if "board game" in lower or "lazy" in lower or "gossip" in lower:
+    if len(item) > 58:
+        score -= 10
+    elif len(item) < 38:
+        score += 4
+    if lower in ("how lazy are you?", "how dramatic are you?", "how stubborn are you?"):
+        score += 18
+    if "sore loser" in lower:
+        score += 16
+    if "competitive are you at board games" in lower:
+        score += 15
+    if lower == "how likely are you to gossip?":
+        score += 14
+    if "honest are you, even when it hurts" in lower:
+        score += 14
+    if "procrastinator" in lower:
+        score += 12
+    if "ignore your phone" in lower:
+        score += 12
+    if "eat food that fell on the floor" in lower:
+        score += 12
+    if "return a shopping cart" in lower:
+        score += 11
+    if "sing in the shower" in lower:
         score += 10
-    if "phone" in lower or "procrastinat" in lower or "honest" in lower:
-        score += 8
-    if "sore loser" in lower or "dramatic" in lower or "stubborn" in lower:
+    if "cry during a movie" in lower:
+        score += 10
+    if "double-dip at a party" in lower:
+        score += 10
+    if "sarcastic" in lower or "impulsive" in lower:
         score += 9
-    if lower.count("how calm are you") > 0:
-        score -= 3
-    if len(item) < 45:
-        score += 3
+    if "replay awkward moments" in lower:
+        score += 9
+    if "include someone sitting alone" in lower:
+        score += 8
+    if "how funny do you think you are" in lower:
+        score += 8
+    if "apologize first" in lower:
+        score += 8
+    if "scroll on your phone in bed" in lower:
+        score += 7
+    if lower.startswith("how much do you enjoy"):
+        score -= 14
+    if lower.startswith("how good are you at"):
+        score -= 6
+    if lower.startswith("how good a "):
+        score -= 4
+    if "how calm are you" in lower:
+        score -= 6
+    if re.search(
+        r"\b(wedding|while driving|road rage|jaywalk|raise or promotion|"
+        r"google someone before meeting|comment sections|tip creators|"
+        r"ghost a group plan|speakerphone in public|vacation days|"
+        r"mute politics|house-rule a board game|rule lawyer|workaholic|"
+        r"vengeful|argue a late fee|unique passwords|dog-ear library|"
+        r"extreme sports|eating alone in public|wear headphones to avoid)\b",
+        lower,
+    ):
+        score -= 14
+    if re.match(
+        r"^how (adventurous|ambitious|athletic|brave|cautious|coordinated|"
+        r"diplomatic|easygoing|nostalgic|rebellious|romantic) are you\?$",
+        lower,
+    ):
+        score -= 8
+    if "like your food" in lower or "like your drinks" in lower:
+        score -= 5
     return score
 
 
-SPECTRUM_PIN = [
-    ("Hot", "Cold"),
-    ("Overrated", "Underrated"),
-    ("City life", "Country life"),
-    ("Early bird", "Night owl"),
-    ("Dog person", "Cat person"),
-    ("Icebreaker", "Conversation ender"),
-    ("Healthy choice", "Indulgent choice"),
-    ("Formal event", "Casual hangout"),
-    ("Window seat", "Aisle seat"),
-    ("Text message", "Phone call"),
-    ("Board game", "Video game"),
-    ("Home cooking", "Restaurant meal"),
-    ("Camping trip", "Hotel stay"),
-    ("Beach vacation", "Mountain vacation"),
-    ("Fiction book", "Nonfiction book"),
-    ("Live music", "Recorded music"),
-    ("Team sport", "Individual sport"),
-    ("Ask for help", "Figure it out alone"),
-    ("Digital detox", "Always connected"),
-    ("Gift experiences", "Gift objects"),
-    ("Harmless prank", "Cruel joke"),
-    ("Time saver", "Time waster"),
-    ("Stress relief", "Stress cause"),
-    ("Low effort", "High effort"),
-    ("Too spicy", "Too bland"),
-    ("Too loud", "Too quiet"),
-    ("Planned trip", "Spontaneous trip"),
-    ("Minimal home", "Cozy clutter"),
-    ("Eco-friendly", "Convenient"),
-    ("Remote work", "Office work"),
-    ("Video call", "In-person meeting"),
-    ("Try new food", "Stick to favorites"),
-    ("Repair item", "Replace item"),
-    ("Cook from scratch", "Use shortcuts"),
-    ("Group travel", "Solo travel"),
-    ("Physical book", "E-book"),
-    ("Dark mode", "Light mode"),
-    ("Multitask", "Single task"),
-    ("Hot shower", "Cold rinse"),
-    ("DIY repair", "Call a pro"),
-    ("Big party", "Small dinner"),
-    ("Quiet library", "Busy cafe"),
-    ("Strategy game", "Luck game"),
-    ("Apologize first", "Wait for apology"),
-    ("Stay late at party", "Leave early"),
-    ("Morning news", "Morning music"),
-    ("Sandwich", "Wrap"),
-    ("Pancake", "Waffle"),
-    ("Tea person", "Coffee person"),
-    ("Sunrise watch", "Sunset watch"),
-    ("Forest walk", "Beach walk"),
-    ("Comedy show", "Drama show"),
+SPECTRUM_TAGLINE = (
+    "Two opposing ideas on one sliding scale. "
+    "One hidden spot on the line — name one word or phrase that belongs there."
+)
+SPECTRUM_PLAY_HINT = (
+    "Give a single clue for where the target lands. "
+    "Works near either pole, not only the middle. Expect friendly debate."
+)
+
+# Wavelength-grade pairs: one sliding axis, many placeable clues (best first).
+SPECTRUM_CURATED = [
+    ('Hot', 'Cold'),
+    ('Overrated', 'Underrated'),
+    ('Boring', 'Exciting'),
+    ('Smells bad', 'Smells good'),
+    ('Rough', 'Smooth'),
+    ('Cheap', 'Expensive'),
+    ('Easy', 'Hard'),
+    ('Safe', 'Dangerous'),
+    ('Common', 'Rare'),
+    ('Simple', 'Complex'),
+    ('Quiet', 'Loud'),
+    ('Mild', 'Spicy'),
+    ('Useless', 'Useful'),
+    ('Predictable', 'Surprising'),
+    ('Relaxing', 'Stressful'),
+    ('Polite', 'Rude'),
+    ('Healthy', 'Unhealthy'),
+    ('Old-fashioned', 'Modern'),
+    ('Local', 'Exotic'),
+    ('Calm', 'Chaotic'),
+    ('Forgiving', 'Strict'),
+    ('Obvious', 'Subtle'),
+    ('Big', 'Small'),
+    ('Fast', 'Slow'),
+    ('Bright', 'Dim'),
+    ('Sweet', 'Savory'),
+    ('Soft', 'Firm'),
+    ('Light', 'Heavy'),
+    ('Clean', 'Dirty'),
+    ('Full', 'Empty'),
+    ('Shallow', 'Deep'),
+    ('Narrow', 'Wide'),
+    ('Sharp', 'Dull'),
+    ('Fresh', 'Stale'),
+    ('Patient', 'Impatient'),
+    ('Brave', 'Timid'),
+    ('Honest', 'Deceptive'),
+    ('Serious', 'Silly'),
+    ('Formal', 'Casual'),
+    ('Private', 'Public'),
+    ('Temporary', 'Permanent'),
+    ('Literal', 'Figurative'),
+    ('Fact', 'Opinion'),
+    ('Introvert', 'Extrovert'),
+    ('Beginner', 'Expert'),
+    ('Childish', 'Mature'),
+    ('Optimistic', 'Pessimistic'),
+    ('Lazy', 'Driven'),
+    ('Pointless', 'Essential'),
+    ('Weak', 'Powerful'),
+    ('Fragile', 'Durable'),
+    ('Gentle', 'Aggressive'),
+    ('Passive', 'Assertive'),
+    ('Flexible', 'Rigid'),
+    ('Minimal', 'Extravagant'),
+    ('Ordinary', 'Extraordinary'),
+    ('Mainstream', 'Underground'),
+    ('Natural', 'Artificial'),
+    ('Handmade', 'Mass-produced'),
+    ('Crowded', 'Empty'),
+    ('Sandwich', 'Not a sandwich'),
+    ('Sport', 'Not a sport'),
+    ('Vegetable', 'Not a vegetable'),
+    ('Art', 'Science'),
+    ('Job', 'Career'),
+    ('Tool', 'Toy'),
+    ('Pet', 'Pest'),
+    ('Fantasy', 'Sci-fi'),
+    ('Sad song', 'Happy song'),
+    ('Fiction', 'Nonfiction'),
+    ('Comedy', 'Drama'),
+    ('Indoor activity', 'Outdoor activity'),
+    ('Gift', 'Not a gift'),
+    ('Dessert', 'Not dessert'),
+    ('Breakfast food', 'Dinner food'),
+    ('Game', 'Not a game'),
+    ('Snack', 'Meal'),
+    ('Joke', 'Not a joke'),
+    ('Exercise', 'Not exercise'),
+    ('Holiday', 'Not a holiday'),
+    ('Harmless prank', 'Cruel joke'),
+    ('Icebreaker', 'Conversation ender'),
+    ('Time saver', 'Time waster'),
+    ('Stress relief', 'Stress cause'),
+    ('Healthy choice', 'Indulgent choice'),
+    ('Selfish choice', 'Generous choice'),
+    ('Confidence boost', 'Confidence drain'),
+    ('Team builder', 'Team divider'),
+    ('Low effort', 'High effort'),
+    ('Mild habit', 'Risky habit'),
+    ('Simple skill', 'Impressive skill'),
+    ('Cheap thrill', 'Expensive hobby'),
+    ('Overhyped', 'Underrated gem'),
+    ('Guilty pleasure', 'Proud favorite'),
+    ('Comfort zone', 'Challenge'),
+    ('Nostalgia', 'Novelty'),
+    ('Classic', 'Trending'),
+    ('Comfort food', 'Adventurous food'),
+    ('Underdone', 'Overdone'),
+    ('Overexplained', 'Mysterious'),
+    ('Quiet hobby', 'Loud hobby'),
+    ('Solo hobby', 'Group hobby'),
+    ('Low-key hangout', 'Big night out'),
+    ('Quick errand', 'All-day outing'),
+    ('Short walk', 'Long hike'),
+    ('Quick shower', 'Long bath'),
+    ('Light snack', 'Full meal'),
+    ('Power nap', 'Deep sleep'),
+    ('Mini vacation', 'Dream trip'),
+    ('Quick game', 'Epic campaign'),
+    ('Casual sport', 'Competitive sport'),
+    ('Practice round', 'Championship'),
+    ('Chore', 'Hobby'),
+    ('Routine', 'Adventure'),
+    ('Stay home', 'Go out'),
+    ('Rest day', 'Training day'),
+    ('Window shopping', 'Big purchase'),
+    ('Budget meal', 'Fine dining'),
+    ('Instant reply', 'Thoughtful reply'),
+    ('Quick fix', 'Long-term fix'),
+    ('Last minute', 'Planned ahead'),
+    ('Rough draft', 'Final version'),
+    ('Warm-up', 'Main event'),
+    ('Appetizer', 'Main course'),
+    ('Trailer', 'Feature film'),
+    ('Tutorial', 'Boss fight'),
+    ('Whisper', 'Shout'),
+    ('Shy greeting', 'Bold introduction'),
+    ('Listen', 'Talk'),
+    ('Follow', 'Lead'),
+    ('Play it safe', 'Take a risk'),
+    ('Overthink', 'Go with gut'),
+    ('Trust easily', 'Trust slowly'),
+    ('Open book', 'Hard to read'),
+    ('Forgive quickly', 'Hold a grudge'),
+    ('Ask permission', 'Take initiative'),
+    ('Overshare', 'Keep mystery'),
+    ('Early bird', 'Night owl'),
+    ('Summer mood', 'Winter mood'),
+    ('Rainy day', 'Sunny day'),
+    ('School day', 'Weekend'),
+    ('Work mode', 'Vacation mode'),
+    ('Screen time', 'Outside time'),
+    ('Homework', 'Passion project'),
+    ('Background music', 'Live concert'),
+    ('Short video', 'Feature film'),
+    ('Cartoon', 'Documentary'),
+    ('Rewatch', 'First watch'),
+    ('Spoiler', 'Surprise twist'),
+    ('Happy ending', 'Tragic ending'),
+    ('Formal event', 'Casual hangout'),
+    ('City life', 'Country life'),
+    ('Planned trip', 'Spontaneous trip'),
+    ('Minimal home', 'Cozy clutter'),
+    ('Packing light', 'Packing heavy'),
+    ('Deep research', 'Quick search'),
+    ('Fresh pizza', 'Reheated pizza'),
+    ('Firm mattress', 'Soft mattress'),
+    ('Indie film', 'Blockbuster'),
+    ('Thrift find', 'Brand new'),
+    ('Learn by doing', 'Learn by watching'),
+    ('Strict budget', 'Treat yourself'),
+    ('Big city noise', 'Small town quiet'),
+    ('Whole foods', 'Processed foods'),
+    ('Gentle ride', 'Thrill ride'),
+    ('Overprepared', 'Underprepared'),
+    ('Detailed itinerary', 'Rough outline'),
+    ('Inbox zero', 'Inbox backlog'),
+    ('Early arrival', 'Fashionably late'),
+    ('Strategy game', 'Luck game'),
+    ('Loud restaurant', 'Quiet restaurant'),
+    ('Home cooking', 'Restaurant meal'),
+    ('Camping trip', 'Hotel stay'),
+    ('Beach vacation', 'Mountain vacation'),
+    ('Group travel', 'Solo travel'),
+    ('Remote work', 'Office work'),
+    ('Video call', 'In-person meeting'),
+    ('Ask for help', 'Figure it out alone'),
+    ('Digital detox', 'Always connected'),
+    ('Physical book', 'E-book'),
+    ('DIY repair', 'Call a pro'),
+    ('Repair item', 'Replace item'),
+    ('Cook from scratch', 'Use shortcuts'),
+    ('Morning workout', 'Evening workout'),
+    ('Car karaoke', 'Quiet drive'),
+    ('Home movie night', 'Theater night'),
+    ('Spontaneous gift', 'Planned gift'),
+    ('Farmers market', 'Supermarket run'),
+    ('Bookstore browse', 'Online checkout'),
+    ('Theme park ride', 'Nature trail'),
+    ('Tent camping', 'Cabin stay'),
+    ('Hotel buffet', 'Corner café'),
+    ('Guided tour', 'Self-guided tour'),
+    ('City break', 'Nature retreat'),
+    ('Board game', 'Video game'),
+    ('Live music', 'Recorded music'),
+    ('Comedy podcast', 'True crime podcast'),
+    ('Kid movie', 'Grown-up movie'),
+    ('Instant coffee', 'Fancy coffee'),
+    ('Fruit dessert', 'Chocolate dessert'),
 ]
 
-SPECTRUM_NEW = [
-    ("Cheap thrill", "Expensive hobby"),
-    ("Loud restaurant", "Quiet restaurant"),
-    ("Structured game", "Open-ended game"),
-    ("Bookstore browse", "Online checkout"),
-    ("Spontaneous gift", "Planned gift"),
-    ("DIY haircut", "Salon cut"),
-    ("Home movie night", "Theater night"),
-    ("Open headphones", "Noise canceling"),
-    ("Group photo", "Solo selfie"),
-    ("Window open", "Window closed"),
-    ("Firm mattress", "Soft mattress"),
-    ("Fresh pizza", "Reheated pizza"),
-    ("Quick shower", "Long bath"),
-    ("Full calendar", "Blank weekend"),
-    ("Paper map", "GPS navigation"),
-    ("Handwritten list", "Phone notes"),
-    ("Road trip music", "Drive podcast"),
-    ("Comedy podcast", "True crime podcast"),
-    ("Fancy coffee", "Instant coffee"),
-    ("Meal kit", "Takeout order"),
-    ("Farmers market", "Supermarket run"),
-    ("Sunrise jog", "Sunset stroll"),
-    ("Gym class", "Solo run"),
-    ("Public praise", "Private thanks"),
-    ("Detailed itinerary", "Rough outline"),
-    ("Pack snacks", "Buy on the road"),
-    ("Hotel buffet", "Corner café"),
-    ("Museum guide", "Wander freely"),
-    ("Theme park ride", "Nature trail"),
-    ("Chocolate dessert", "Fruit dessert"),
-    ("Classic board game", "Party card game"),
-    ("Indie film", "Blockbuster"),
-    ("Thrift find", "Brand new"),
-    ("Shared appetizer", "Own entree"),
-    ("Window shopping", "Purpose trip"),
-    ("Camping stove meal", "Restaurant splurge"),
-    ("Early checkout", "Late checkout"),
-    ("Car karaoke", "Quiet drive"),
-    ("Photo album", "Camera roll only"),
-    ("Handwritten letter", "Quick text"),
-    ("Board game teach", "Jump right in"),
-    ("Strict budget", "Treat yourself"),
-    ("Rainy day indoors", "Sunny day outdoors"),
-    ("Morning workout", "Evening workout"),
-    ("Cook for crowd", "Cook for one"),
-    ("Learn by doing", "Learn by watching"),
-    ("Keep mystery", "Spoil the ending"),
-    ("Talk it out", "Sleep on it"),
-    ("Big city noise", "Small town quiet"),
-    ("Window plant", "Garden plot"),
-]
+
+# Parallel-alternative pairs that fail the pole test (preference forks, not gradients).
+SPECTRUM_WEAK = {
+    "sandwich", "wrap", "pancake", "waffle", "tea person", "coffee person",
+    "morning news", "morning music", "sunrise watch", "sunset watch",
+    "forest walk", "beach walk", "apple orchard", "apple bag",
+    "escalator", "stairs", "elevator", "bike errand", "car errand",
+    "cash payment", "card payment", "charades act", "charades guess",
+    "hot cocoa mug", "hot tea mug", "remember faces", "remember names",
+    "dog person", "cat person", "window seat", "aisle seat",
+}
+
 
 
 def score_spectrum(left: str, right: str) -> float:
     score = 50.0
+    ll, rl = left.lower(), right.lower()
     if left.startswith("Better ") or right.startswith("Better "):
-        score -= 10
+        score -= 20
     if left.startswith("Too ") and right.startswith("Too "):
-        score -= 2
-    if left.startswith("Low ") or left.startswith("High "):
-        score -= 4
-    ll, rl = len(left), len(right)
-    if ll > 22 or rl > 22:
+        score -= 8
+    if (left.startswith("Low ") and right.startswith("High ")) or (
+        left.startswith("High ") and right.startswith("Low ")
+    ):
         score -= 6
-    if ll < 16 and rl < 16:
-        score += 4
-    if "person" in left.lower() or "person" in right.lower():
-        score += 6
+    if ll in SPECTRUM_WEAK or rl in SPECTRUM_WEAK:
+        score -= 15
+    if " person" in f" {ll}" or " person" in f" {rl}":
+        score -= 10
+    if "not a " in ll or "not a " in rl or "not " in ll or "not " in rl:
+        score += 8  # fuzzy-boundary cards clue well in Wavelength
+    if len(left) > 22 or len(right) > 22:
+        score -= 6
+    if len(left) < 14 and len(right) < 14:
+        score += 5
     return score
 
 
 def rank_unique(items: list[str], pin: list[str], scorer) -> list[str]:
+    pool = set(items)
     seen = set()
     ordered: list[str] = []
     for item in pin:
-        if item not in seen:
+        if item in pool and item not in seen:
             seen.add(item)
             ordered.append(item)
     rest = sorted(
@@ -849,6 +1066,16 @@ def rank_unique(items: list[str], pin: list[str], scorer) -> list[str]:
             seen.add(item)
             ordered.append(item)
     return ordered
+
+
+def rank_scale_clues(items: list[str]) -> list[str]:
+    """Best prompt first — pure score order."""
+    return sorted(items, key=lambda x: (-score_scale_clue(x), x))
+
+
+def rank_personal_scales(items: list[str]) -> list[str]:
+    """Best icebreaker first — pure score order."""
+    return sorted(items, key=lambda x: (-score_personal(x), x))
 
 
 def rank_spectrums(pairs: list[dict], pin: list[tuple[str, str]], extra: list[tuple[str, str]]) -> list[dict]:
@@ -901,59 +1128,74 @@ def replace_collection_block(text: str, col_id: str, new_block: str) -> str:
     return re.sub(pattern, new_block.rstrip() + "\n", text, count=1, flags=re.S)
 
 
-def main():
+def main(only: str | None = None):
     data = yaml.safe_load(YAML.read_text())
     text = YAML.read_text()
     cols = {c["id"]: c for c in data["collections"]}
+    touch = {"scale-clues", "personal-scales", "spectrum"} if only is None else {only}
 
-    scale = rank_unique(cols["scale-clues"]["items"], SCALE_CLUES_PIN, score_scale_clue)[:TARGET]
-    personal_pool = cols["personal-scales"]["items"] + PERSONAL_NEW
-    personal = rank_unique(personal_pool, PERSONAL_PIN, score_personal)[:TARGET]
-    spectrum = rank_spectrums(cols["spectrum"]["spectrums"], SPECTRUM_PIN, SPECTRUM_NEW)[:TARGET]
+    if "scale-clues" in touch:
+        scale = rank_scale_clues(cols["scale-clues"]["items"])[:TARGET]
+        assert len(scale) == TARGET, len(scale)
+        sc = cols["scale-clues"]
+        block = (
+            f"- id: scale-clues\n"
+            f"  title: {sc['title']}\n"
+            f"  mode: {sc['mode']}\n"
+            f"  tagline: {sc['tagline']}\n"
+            f"  play_hint: {sc['play_hint']}\n"
+            f"  items:\n{dump_items(scale)}\n"
+        )
+        text = replace_collection_block(text, "scale-clues", block)
 
-    assert len(scale) == TARGET, len(scale)
-    assert len(personal) == TARGET, len(personal)
-    assert len(spectrum) == TARGET, len(spectrum)
+    if "personal-scales" in touch:
+        personal_pool = list(cols["personal-scales"]["items"])
+        if len(personal_pool) < TARGET:
+            seen = set(personal_pool)
+            personal_pool.extend(x for x in PERSONAL_NEW if x not in seen)
+        personal = rank_personal_scales(personal_pool)[:TARGET]
+        assert len(personal) == TARGET, len(personal)
+        ps = cols["personal-scales"]
+        block = (
+            f"- id: personal-scales\n"
+            f"  title: {ps['title']}\n"
+            f"  mode: {ps['mode']}\n"
+            f"  tagline: {ps['tagline']}\n"
+            f"  play_hint: {ps['play_hint']}\n"
+            f"  scale_label: {ps['scale_label']}\n"
+            f"  items:\n{dump_items(personal)}\n"
+        )
+        text = replace_collection_block(text, "personal-scales", block)
 
-    sc = cols["scale-clues"]
-    block = (
-        f"- id: scale-clues\n"
-        f"  title: {sc['title']}\n"
-        f"  mode: {sc['mode']}\n"
-        f"  tagline: {sc['tagline']}\n"
-        f"  play_hint: {sc['play_hint']}\n"
-        f"  items:\n{dump_items(scale)}\n"
-    )
-    text = replace_collection_block(text, "scale-clues", block)
-
-    ps = cols["personal-scales"]
-    block = (
-        f"- id: personal-scales\n"
-        f"  title: {ps['title']}\n"
-        f"  mode: {ps['mode']}\n"
-        f"  tagline: {ps['tagline']}\n"
-        f"  play_hint: {ps['play_hint']}\n"
-        f"  scale_label: {ps['scale_label']}\n"
-        f"  items:\n{dump_items(personal)}\n"
-    )
-    text = replace_collection_block(text, "personal-scales", block)
-
-    sp = cols["spectrum"]
-    block = (
-        f"- id: spectrum\n"
-        f"  title: {sp['title']}\n"
-        f"  mode: {sp['mode']}\n"
-        f"  tagline: {sp['tagline']}\n"
-        f"  play_hint: {sp['play_hint']}\n"
-        f"  spectrums:\n{dump_spectrums(spectrum)}\n"
-    )
-    text = replace_collection_block(text, "spectrum", block)
+    if "spectrum" in touch:
+        spectrum = [{"left": l, "right": r} for l, r in SPECTRUM_CURATED[:SPECTRUM_TARGET]]
+        assert len(spectrum) == SPECTRUM_TARGET, len(spectrum)
+        sp = cols["spectrum"]
+        block = (
+            f"- id: spectrum\n"
+            f"  title: {sp['title']}\n"
+            f"  mode: {sp['mode']}\n"
+            f"  tagline: {SPECTRUM_TAGLINE}\n"
+            f"  play_hint: {SPECTRUM_PLAY_HINT}\n"
+            f"  spectrums:\n{dump_spectrums(spectrum)}\n"
+        )
+        text = replace_collection_block(text, "spectrum", block)
 
     YAML.write_text(text)
-    print(f"scale-clues: {len(scale)} (top: {scale[0][:50]}...)")
-    print(f"personal-scales: {len(personal)} (top: {personal[0]})")
-    print(f"spectrum: {len(spectrum)} (top: {spectrum[0]['left']} | {spectrum[0]['right']})")
+    if "scale-clues" in touch:
+        print(f"scale-clues: {len(scale)} (top: {scale[0][:50]}...)")
+    if "personal-scales" in touch:
+        print(f"personal-scales: {len(personal)} (top: {personal[0]})")
+    if "spectrum" in touch:
+        print(f"spectrum: {len(spectrum)} (top: {spectrum[0]['left']} | {spectrum[0]['right']})")
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Curate randomizer collections to 300 entries.")
+    parser.add_argument(
+        "--only",
+        choices=["scale-clues", "personal-scales", "spectrum"],
+        help="Regenerate one collection only (default: all three).",
+    )
+    args = parser.parse_args()
+    main(args.only)

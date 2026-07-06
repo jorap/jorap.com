@@ -1,5 +1,6 @@
 /**
- * Game prompt randomizer: ranked prompts, personal icebreakers, concept spectrums.
+ * Game prompt randomizer: ranked prompts, personal icebreakers, concept spectrums,
+ * either-or dilemmas, and conversation starters.
  */
 (function () {
   var root = document.querySelector("[data-randomizer]");
@@ -66,6 +67,7 @@
   }
 
   function isDirectPlay(col) {
+    if (col.categories && col.categories.length) return false;
     var mode = collectionMode(col);
     return mode === "spectrum" || mode === "personal" || mode === "ranked-prompts";
   }
@@ -177,7 +179,7 @@
   function renderHome() {
     if (els.lede) {
       els.lede.textContent =
-        "Ranking prompts, personal icebreakers, and concept spectrums — pick one to start.";
+        "Ranking prompts, icebreakers, spectrums, either-or dilemmas, and conversation starters — pick one to start.";
     }
     if (els.collections) {
       els.collections.innerHTML = collections.map(collectionCardHtml).join("");
@@ -264,11 +266,12 @@
     state.categoryId = categoryId;
     state.mode = collectionMode(col);
     state.items = (cat.items || []).slice();
-    state.index = state.items.length ? 0 : -1;
+    state.index = -1;
 
     setPlayChrome(col, col.title + " · " + cat.title);
     showView("play");
-    renderPrompt();
+    if (state.items.length) shuffleNext();
+    else renderPrompt();
   }
 
   function startFlatPlay(collectionId) {
@@ -282,11 +285,12 @@
     state.categoryId = "";
     state.mode = collectionMode(col);
     state.items = flatItems(col);
-    state.index = state.items.length ? 0 : -1;
+    state.index = -1;
 
     setPlayChrome(col, col.title);
     showView("play");
-    renderPrompt();
+    if (state.items.length) shuffleNext();
+    else renderPrompt();
   }
 
   function shuffleNext() {

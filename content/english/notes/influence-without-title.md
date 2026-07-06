@@ -22,6 +22,9 @@ relationships:
   - type: alternative
     wikilink: "[[Title Without Influence]]"
     reason: "Earned followership vs hollow badge - same org, opposite test"
+  - type: contradicts
+    wikilink: "[[Let Your Light Shine]]"
+    reason: "when crisis heroics become a personal brand instead of serving the crew"
   - type: extends
     wikilink: "[[Humility and Service]]"
     reason: "Gospel root - greatness through serving earns followership"
