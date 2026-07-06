@@ -2,8 +2,8 @@
 title: "Why I Stopped Playing Marvel Snap"
 meta_title: "Why I Quit Marvel Snap"
 description: "Marvel Snap hooked me with three-minute matches and slick Marvel cards. Then the meta treadmill, collection FOMO, and cube anxiety turned it into work. Here's what pulled me in and what pushed me out."
-date: 2026-06-18T06:11:00Z
-image: "/images/image-template.jpg"
+date: 2026-07-05T06:11:00Z
+image: "/images/stop_snap.jpg"
 categories: ["Games", "Opinion"]
 author: "JoRap"
 tags: ["Marvel Snap", "Card Games", "Gaming", "Mobile Games", "Digital Collectibles", "FOMO", "Game Design", "Marvel", "Free to Play", "Gacha", "Quit Gaming"]
@@ -14,7 +14,7 @@ related_notes:
   - signal-vs-noise
   - sunk-cost-fallacy
 featured: true
-draft: true
+draft: false
 ---
 
 I still get the itch sometimes. Three locations, six turns, snap on turn four - my brain knows the rhythm even months after I stopped opening the app.
@@ -106,5 +106,3 @@ The game didn't get worse. **My relationship to it did.** What started as a quic
 I still think Snap is well-designed. The match length, the snap tension, the production value - all top-tier. I just don't want to live inside its treadmill anymore.
 
 If you're still playing and loving it: snap responsibly, filter by what you actually own, and retreat when it stops being fun. That last part isn't weakness. It's the whole point of a game.
-
-*Expanded from [Marvel Snap](https://ideas.jorap.com/) on [ideas.jorap.com](https://ideas.jorap.com/).*
