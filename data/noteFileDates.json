@@ -197,7 +197,7 @@
   },
   "notes/discipleship-vs-leadership.md": {
     "created": "2026-07-05T14:41:48.611Z",
-    "updated": "2026-07-05T14:41:48.612Z"
+    "updated": "2026-07-06T00:47:20.032Z"
   },
   "notes/discipleship.md": {
     "created": "2026-07-03T05:11:05.471Z",
@@ -245,7 +245,7 @@
   },
   "notes/ethical-leadership.md": {
     "created": "2026-07-03T05:11:05.474Z",
-    "updated": "2026-07-05T14:42:46.122Z"
+    "updated": "2026-07-06T00:47:21.284Z"
   },
   "notes/evergreen-notes.md": {
     "created": "2026-07-03T05:11:05.482Z",
@@ -293,7 +293,7 @@
   },
   "notes/follow-christ-then-lead.md": {
     "created": "2026-07-05T14:41:58.240Z",
-    "updated": "2026-07-05T14:43:34.857Z"
+    "updated": "2026-07-06T00:47:24.818Z"
   },
   "notes/follow-their-lead.md": {
     "created": "2026-07-03T05:11:05.470Z",
@@ -409,7 +409,7 @@
   },
   "notes/humility-and-service.md": {
     "created": "2026-07-03T05:11:05.491Z",
-    "updated": "2026-07-05T14:42:38.816Z"
+    "updated": "2026-07-06T00:47:21.867Z"
   },
   "notes/inbox-zero.md": {
     "created": "2026-07-03T05:11:05.475Z",
@@ -418,6 +418,10 @@
   "notes/incident-investigation.md": {
     "created": "2026-07-03T05:11:05.476Z",
     "updated": "2026-07-05T14:20:25.287Z"
+  },
+  "notes/influence-without-title.md": {
+    "created": "2026-07-06T00:47:12.085Z",
+    "updated": "2026-07-06T00:49:25.979Z"
   },
   "notes/information-diet.md": {
     "created": "2026-07-03T05:11:05.495Z",
@@ -463,9 +467,13 @@
     "created": "2026-07-03T05:11:05.467Z",
     "updated": "2026-07-03T07:00:18.872Z"
   },
+  "notes/leadership-is-influence.md": {
+    "created": "2026-07-06T00:47:08.054Z",
+    "updated": "2026-07-06T00:49:24.969Z"
+  },
   "notes/leadership.md": {
     "created": "2026-07-03T05:11:05.463Z",
-    "updated": "2026-07-05T14:42:34.584Z"
+    "updated": "2026-07-06T00:47:19.365Z"
   },
   "notes/lean-startup.md": {
     "created": "2026-07-03T05:11:05.485Z",
@@ -765,7 +773,7 @@
   },
   "notes/servant-leadership.md": {
     "created": "2026-07-03T05:11:05.480Z",
-    "updated": "2026-07-05T14:42:36.905Z"
+    "updated": "2026-07-06T00:47:20.719Z"
   },
   "notes/set-calm-boundaries.md": {
     "created": "2026-07-03T05:11:05.489Z",
@@ -911,6 +919,10 @@
     "created": "2026-07-03T05:11:05.474Z",
     "updated": "2026-07-05T14:26:04.785Z"
   },
+  "notes/title-without-influence.md": {
+    "created": "2026-07-06T00:47:17.180Z",
+    "updated": "2026-07-06T00:49:26.929Z"
+  },
   "notes/transformation-principles.md": {
     "created": "2026-07-03T09:35:51.540Z",
     "updated": "2026-07-05T14:26:04.787Z"
@@ -933,6 +945,6 @@
   },
   "notes/workplace-principles.md": {
     "created": "2026-07-03T05:11:05.481Z",
-    "updated": "2026-07-05T14:43:00.791Z"
+    "updated": "2026-07-06T00:47:23.045Z"
   }
 }

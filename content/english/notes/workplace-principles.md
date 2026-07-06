@@ -58,6 +58,7 @@ draft: false
 
 ## Leadership and craft
 
+- [[Leadership Is Influence]] - if nobody's following, you're just taking a walk - title optional
 - [[Servant Leadership]] - greatness is making the team win, not grabbing the credit
 - [[Follow Christ, Then Lead]] - when leadership pressure and Christ's command collide, follow Christ first
 - [[Own Your Part]] - move your slice before permission arrives from upstairs
@@ -95,6 +96,7 @@ draft: false
 | [[Own Your Part]] | [[Accountability]] |
 | [[People-Centered Design]] | [[Listen Before Fixing]] |
 | [[Shadow the Work]] | [[Outcomes Over Pitch Decks]] |
+| [[Leadership Is Influence]] | [[Leadership]] |
 | [[Servant Leadership]] | [[Humility and Service]] |
 | [[Follow Christ, Then Lead]] | [[Discipleship vs Leadership]] |
 | [[Share What You Learn]] | [[Great Commission]] |

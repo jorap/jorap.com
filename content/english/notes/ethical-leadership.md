@@ -26,6 +26,9 @@ relationships:
     wikilink: "[[Follow Christ, Then Lead]]"
     reason: "Team sees integrity because private following came first"
   - type: extends
+    wikilink: "[[Leadership Is Influence]]"
+    reason: "How you spend influence - tolerated behavior becomes their standard"
+  - type: extends
     wikilink: "[[Life Before Achievement]]"
     reason: "Walked-past standards shouldn't buy achievement at people's expense"
   - type: extends

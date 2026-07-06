@@ -38,6 +38,9 @@ relationships:
     wikilink: "[[Gentleness]]"
     reason: "Humility and service is the garden echo for gospel gentleness"
   - type: extends
+    wikilink: "[[Leadership Is Influence]]"
+    reason: "Kingdom greatness earns influence through serving, not grasping"
+  - type: extends
     wikilink: "[[Servant Leadership]]"
     reason: "Lead-by-serving frame Jesus models"
   - type: extends

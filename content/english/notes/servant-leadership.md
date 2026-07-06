@@ -35,6 +35,9 @@ relationships:
     wikilink: "[[Follow Their Lead]]"
     reason: "Serve by joining their world before redirecting credit"
   - type: extends
+    wikilink: "[[Leadership Is Influence]]"
+    reason: "Unblock and serve - trust deposits that buy real followership"
+  - type: extends
     wikilink: "[[Humility and Service]]"
     reason: "Jesus' upside-down ladder - same move in standups and 1:1s"
   - type: extends

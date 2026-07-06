@@ -31,6 +31,9 @@ relationships:
     wikilink: "[[Control the Rhythm]]"
     reason: "Leaders set pace under pressure"
   - type: extends
+    wikilink: "[[Leadership Is Influence]]"
+    reason: "Direction, pace, care need followership - title alone doesn't supply it"
+  - type: extends
     wikilink: "[[Discipleship vs Leadership]]"
     reason: "Horizontal care vs vertical following - title doesn't replace Christ"
   - type: extends

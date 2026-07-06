@@ -35,6 +35,9 @@ relationships:
     wikilink: "[[Ethical Leadership]]"
     reason: "Team sees integrity because private following came first"
   - type: extends
+    wikilink: "[[Leadership Is Influence]]"
+    reason: "When influence pressure asks for a compromise Christ wouldn't take"
+  - type: extends
     wikilink: "[[God Centered Design]]"
     reason: "Who the plan serves - God's glory before org-chart pressure"
   - type: extends

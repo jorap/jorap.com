@@ -41,6 +41,9 @@ relationships:
     wikilink: "[[Leadership]]"
     reason: "Horizontal seat - direction, pace, care when people look to you"
   - type: extends
+    wikilink: "[[Leadership Is Influence]]"
+    reason: "Horizontal seat tested by followership - badge optional"
+  - type: extends
     wikilink: "[[Share What You Learn]]"
     reason: "Workplace echo of making disciples - pass on skill, don't hoard"
   - type: extends
