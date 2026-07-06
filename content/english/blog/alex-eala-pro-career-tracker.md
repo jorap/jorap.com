@@ -14,7 +14,7 @@ related_notes:
   - follow-through
 featured: false
 draft: false
-lastmod: 2026-07-06T09:40:00Z
+lastmod: 2026-07-06T09:54:00Z
 ---
 
 I've been following Alex Eala's career since her amazing run at the 2025 Miami Open, and watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook - career-high rankings, the matches I'll always remember, the head-to-heads with Grand Slam champions, and the upcoming matchups I'm watching for. I update it as her career unfolds.
@@ -205,10 +205,10 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
     - Round of 16, d. Appleton/Tang 6-4, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1023/guangzhou/2025/scores/LD010)
 
   - **Rome Open (WTA 1000, Clay) - with Coco Gauff**
+    - Lost to defending champions Jasmine Paolini / Sara Errani
     - Quarterfinals, l. Paolini/Errani 7-5, 3-6, 10-7 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD005)
     - Round of 16, d. Grant/Pigato 6-2, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD011)
     - Round of 32, d. Panova/Stollar 6-3, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD022)
-    - Lost to defending champions Jasmine Paolini / Sara Errani
 
 - 2024
 
@@ -236,11 +236,11 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - 2026
 
   - **Wimbledon**
+    - First Filipina to reach the second week (Round of 16) at a Grand Slam
+    - Upset defending champion Iga Swiatek on Centre Court
     - 3rd Round, d. Swiatek 7-6(9), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362774) | [wimbledon.com](https://www.wimbledon.com/en_GB/match/2026-iga-swiatek-vs-alexandra-eala-ws003)
     - 2nd Round, d. Joint 3-6, 6-2, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362773) | [wimbledon.com](https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-maya-joint-ws002)
     - 1st Round, d. Zarazua 6-1, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362772) | [wimbledon.com](https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-renata-zarazua-ws001)
-    - First Filipina to reach the second week (Round of 16) at a Grand Slam
-    - Upset defending champion Iga Swiatek on Centre Court
 
 {{< youtube ZwGElu9-ynk >}}
 
@@ -311,17 +311,17 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2026 Wimbledon - Grass Court - Win** - [Match Stats](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04)
+- **2026 Wimbledon (Grass)** - 3rd Round, WIN, 7-6(9), 6-2 | [Match Stats](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04)
 
 {{< youtube KUVh-Jflv_Q >}}
 
-- **2025 Miami Open - Hard Court - Win** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906263/)
+- **2025 Miami Open (Hard)** - Quarterfinals, WIN, 6-2, 7-5 | [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906263/)
 
 {{< youtube maG9TzsuVeM >}}
 
 {{< youtube ARjpvQDZFcw >}}
 
-- **2025 Madrid Open - Clay Court - Loss** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2785-madrid-spain/sr-match-59915292/)
+- **2025 Madrid (Clay)** - Round of 64, LOSS, 6-4, 4-6, 2-6 | [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2785-madrid-spain/sr-match-59915292/)
 
 {{< youtube TqBCa8hIHcY >}}
 
@@ -341,11 +341,11 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2026 Berlin Open - Grass Court - Win** - [Match Stats](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-e-rybakina-2026-06-18)
+- **2026 Berlin (Grass)** - Round of 16, WIN, 7-5, 6-4 | [Match Stats](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-e-rybakina-2026-06-18)
 
 {{< youtube 4C8dT5T-fHM >}}
 
-- **2026 Italian Open - Clay Court - Loss** - [Match Stats](https://www.tennis.com/tournaments/internazionali-bnl-ditalia/matches/a-eala-vs-e-rybakina-2026-05-10)
+- **2026 Rome (Clay)** - Round of 32, LOSS, 4-6, 3-6 | [Match Stats](https://www.tennis.com/tournaments/internazionali-bnl-ditalia/matches/a-eala-vs-e-rybakina-2026-05-10)
 
 {{< youtube AgecNaf6eE4 >}}
 
@@ -365,8 +365,8 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2026 Indian Wells - Hard Court - Win (Retired)** - [Match Stats](https://www.tennis.com/tournaments/bnp-paribas-open-indian-wells/matches/c-gauff-vs-a-eala-2026-03-09)
-- **2026 Dubai - Hard Court - Loss** - [Match Stats](https://www.tennis.com/tournaments/wta-dubai-uae/matches/c-gauff-vs-a-eala-2026-02-19)
+- **2026 Indian Wells (Hard)** - Round of 32, WIN (Retired), 6-2, 2-0 | [Match Stats](https://www.tennis.com/tournaments/bnp-paribas-open-indian-wells/matches/c-gauff-vs-a-eala-2026-03-09)
+- **2026 Dubai (Hard)** - Quarterfinals, LOSS, 0-6, 2-6 | [Match Stats](https://www.tennis.com/tournaments/wta-dubai-uae/matches/c-gauff-vs-a-eala-2026-02-19)
 
 {{< youtube Z-NN1Y1lknY >}}
 
@@ -387,7 +387,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2025 Wimbledon - Grass Court - Loss** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2553-wimbledon/sr-match-61511608/)
+- **2025 Wimbledon (Grass)** - 1st Round, LOSS, 6-3, 2-6, 1-6 | [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2553-wimbledon/sr-match-61511608/)
 
 {{< youtube PtLGq_avxI4 >}}
 
@@ -408,7 +408,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2025 Miami Open - Hard Court - Win** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906303/)
+- **2025 Miami Open (Hard)** - Round of 32, WIN, 6-4, 6-2 | [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906303/)
 
 {{< youtube rK9CLjVv_dY >}}
 
@@ -429,7 +429,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2025 Montreal Open - Hard Court - Loss** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2975-wta-montreal-canada/sr-match-62356318/)
+- **2025 Montreal (Hard)** - 1st Round, LOSS, 6-3, 1-6, 2-6 | [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2975-wta-montreal-canada/sr-match-62356318/)
 
 {{< youtube 3jTnT-QQZAI >}}
 
@@ -448,12 +448,12 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2026 Linz - Clay Court - Loss** - [Match Stats](https://www.tennis.com/tournaments/upper-austria-ladies-linz/matches/j-ostapenko-vs-a-eala-2026-04-08)
+- **2026 Linz (Clay)** - Round of 16, LOSS, 4-6, 5-7 | [Match Stats](https://www.tennis.com/tournaments/upper-austria-ladies-linz/matches/j-ostapenko-vs-a-eala-2026-04-08)
 
 {{< youtube pBmH23s_VJY >}}
 
-- **2025 Eastbourne Open - Grass Court - Win (Retired)** - [Match Stats](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS013)
-- **2025 Miami Open - Hard Court - Win** - [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906325/)
+- **2025 Eastbourne (Grass)** - Round of 16, WIN (Retired), 0-6, 6-2, 3-2 | [Match Stats](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS013)
+- **2025 Miami Open (Hard)** - Round of 64, WIN, 7-6(2), 7-5 | [Match Stats](https://www.tennis.com/tournaments/sr-tournament-2743-miami-usa/sr-match-58906325/)
 
 {{< youtube m0TgQhZNRxk >}}
 
