@@ -88,6 +88,11 @@ url = "/tags"
 weight = 5
 
 [[footer]]
+name = "Randomizer"
+url = "/randomizer"
+weight = 6
+
+[[footer]]
 name = "Contact"
 url = "/contact"
-weight = 6
+weight = 7

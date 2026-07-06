@@ -1,0 +1,1224 @@
+# Game prompt collections. Names describe the prompt type — not branded deck titles.
+# All prompts are family-friendly and generic for a worldwide audience.
+collections:
+- id: scale-clues
+  title: Ranking prompts
+  mode: ranked-prompts
+  tagline: Open situations and what-if scenarios. Name one concrete example — the group ranks it from 1 to 100.
+  play_hint: Give one real example ("flashlight", "take a nap", "duct tape"). 1 = weakest fit for the theme, 100 = strongest — rank what you meant, not what everyone else would pick. Don't say your number.
+  items:
+  - Things you'd want to do when you're very tired.
+  - Things to bring on a deserted island.
+  - Superpowers you'd actually want to have.
+  - Board games you'd bring to game night.
+  - Snacks you'd want during a movie at home.
+  - Foods you'd want for a comfort meal.
+  - Things that would cheer you up on a bad day.
+  - Things that would start a good conversation.
+  - Things that would be embarrassing to drop in public.
+  - Things you'd want when the Wi-Fi goes down at home.
+  - Things you'd want when you're bored at home.
+  - Things you'd want on a lazy Sunday morning.
+  - Things that would make a party more fun.
+  - Party games that work with any group size.
+  - Card games you'd teach in five minutes.
+  - Things that would end an awkward silence.
+  - Things you'd want when you can't find your keys.
+  - Things you'd want when you lock yourself out of a room.
+  - Things you'd want when your phone battery hits one percent.
+  - Things you'd want when you forget an umbrella.
+  - Things you'd want when you spill coffee on your shirt.
+  - Things that would make you laugh in a serious meeting.
+  - Things that would make a prank harmless and funny.
+  - Excuses for being late that might actually work.
+  - Things you'd love to find in your lunchbox.
+  - Things you'd hate to find in your lunchbox.
+  - Desserts you'd order if calories didn't matter.
+  - Foods you'd bring to a potluck.
+  - Breakfast foods that would wake you up.
+  - Drinks you'd want on a scorching day.
+  - Movies perfect for a family night.
+  - Movies perfect for a solo rainy afternoon.
+  - Songs you'd put on a road-trip playlist.
+  - TV shows you'd binge on a sick day.
+  - Superpowers perfect for a lazy person.
+  - Superpowers perfect for a helpful person.
+  - Time periods you'd visit with a time machine.
+  - Animals you'd want as an impossible pet.
+  - Things to bring if stranded in a forest overnight.
+  - Things to bring if the power went out for a week.
+  - Things you'd want if you could only carry one bag.
+  - Things you'd want if you had no internet for a month.
+  - Things you'd want during a power outage.
+  - Things you'd want when it's raining outside.
+  - Things you'd want when you're stuck indoors all day.
+  - Things you'd want during a snow day.
+  - Things you'd want during a long queue at the doctor.
+  - Things you'd want during a delayed flight.
+  - Things you'd want on a long flight.
+  - Things you'd want at a beach all day.
+  - Superpowers you'd actually use every week.
+  - Sounds that would be awkward in a quiet library.
+  - Things that would be awkward to forget someone's name.
+  - Things that would be embarrassing to say too loudly.
+  - Things that would be embarrassing to wear to a formal event.
+  - Things that would be funny to bring to show-and-tell.
+  - Things that would be funny to see a celebrity do.
+  - Board games you'd play with non-gamers.
+  - Things you'd want to do when you're bored at home.
+  - Snacks you'd want after school or work.
+  - Snacks you'd want at a sleepover.
+  - Snacks you'd want on a long car ride.
+  - Birthday party ideas that always work.
+  - Things you'd want during a neighborhood block party.
+  - Things you'd want if you could rewind one conversation a day.
+  - Movies you'd watch again and again.
+  - Songs you'd put on a cleaning playlist.
+  - Songs you'd put on a workout playlist.
+  - Things you'd want when hosting your first dinner party.
+  - Activities for a rainy day with kids.
+  - Activities for a sunny day at the park.
+  - Animals you'd want to see in the wild once.
+  - Back-to-school supplies worth splurging on.
+  - Bedtime stories that never get old.
+  - Birthday gifts kids actually use.
+  - Books you'd bring on a long trip.
+  - Books you'd give to a curious teenager.
+  - Cartoons adults still enjoy.
+  - Chores you actually don't mind doing.
+  - Chores you'd feel good about finishing before guests arrive.
+  - Cities you'd want to wander without a plan.
+  - Countries you'd want to visit for history.
+  - Countries you'd want to visit for nature.
+  - Countries you'd want to visit for the food.
+  - Dinner foods you'd cook for someone you like.
+  - Drinks you'd want on a freezing day.
+  - Family outings that don't cost much.
+  - Family outings worth saving up for.
+  - Festivals or fairs you'd travel to attend.
+  - Foods that smell amazing while cooking.
+  - Foods you'd avoid eating in public.
+  - Foods you'd teach a kid to cook first.
+  - Foods you'd want at a casual picnic.
+  - Foods you'd want at a celebration dinner.
+  - Foods you'd want on a cold winter night.
+  - Foods you'd want on a hot summer afternoon.
+  - Foods you'd want on a sick day.
+  - Games you'd play with a five-year-old.
+  - Games you'd play with a teenager.
+  - Groceries you'd grab first if the store was about to close.
+  - Historical figures you'd want to meet for an hour.
+  - Hobbies you'd pick up if you had more free time.
+  - Hobbies you'd recommend to a complete beginner.
+  - Holiday traditions you'd invent for friends.
+  - Holiday traditions you'd want to keep.
+  - Household tasks that always take longer than expected.
+  - Household tasks that feel satisfying when done.
+  - Inventions that would make daily life easier.
+  - Inventions that would make travel easier.
+  - Jobs children often dream about.
+  - Jobs that would suit someone who loves being outdoors.
+  - Jobs that would suit someone who loves building things.
+  - Jobs that would suit someone who loves helping people.
+  - Jobs that would suit someone who loves quiet.
+  - Jobs that would suit someone who loves travel.
+  - Jobs you'd pick if you love working outdoors all day.
+  - Jobs you'd want to try for just one day.
+  - Lunch foods you could eat every week.
+  - Museum exhibits that would hold your attention.
+  - Outfits that would blend in anywhere.
+  - Outfits that would stand out at a wedding.
+  - Pets that would fit a busy family.
+  - Pets that would fit a small home.
+  - Places that would feel exciting to visit alone.
+  - Places that would feel fun with a big group.
+  - Places that would feel peaceful to sit in for an hour.
+  - Places you'd want to explore on foot for a day.
+  - Places you'd want to photograph on vacation.
+  - Places you'd want to return to again and again.
+  - Places you'd want to see at night.
+  - Places you'd want to see at sunrise.
+  - Places you'd want to take a visiting friend.
+  - Places you'd want to visit on a once-in-a-lifetime trip.
+  - Plants you'd want in every neighborhood.
+  - Products you'd happily buy a second time.
+  - Qualities you'd want in a relay-race teammate.
+  - Rewards you'd offer for good behavior.
+  - School projects you'd actually look forward to.
+  - School subjects you'd enjoy revisiting as an adult.
+  - Science fair project ideas that sound impressive.
+  - Skills that would impress at a talent show.
+  - Skills you'd want to learn in a weekend workshop.
+  - Sounds that would be welcome at a sports game.
+  - Sports you'd actually try yourself.
+  - Sports you'd watch even if you don't play.
+  - Summer activities you'd sign a kid up for.
+  - Surprises you'd enjoy on an ordinary Tuesday.
+  - Surprises you'd hate on an ordinary Tuesday.
+  - Things grandparents love to do with grandkids.
+  - Things in life you'd never want to lose.
+  - Things that feel more valuable the longer you keep them.
+  - Things that feel worth the wait.
+  - Things that would be nice to hear after a hard week.
+  - Things that would be nice to hear from a friend far away.
+  - Things that would be nice to hear on your birthday.
+  - Things that would calm you down when you're stressed.
+  - Things that would help you focus when studying.
+  - Things that would help you relax before a test.
+  - Things that would make a compliment land well.
+  - Things that would make a guest feel welcome.
+  - Things that would make a long dinner more interesting.
+  - Things that would make a road trip more bearable.
+  - Things that would make a shy person open up.
+  - Things that would make a small gift feel thoughtful.
+  - Things that would make a thank-you feel sincere.
+  - Things that would make a waiting room less boring.
+  - Things that would make an apology feel genuine.
+  - Things that would make an ordinary day feel special.
+  - Things that would make you ten minutes late to an important meeting.
+  - Things that would ruin a perfectly good cake.
+  - Things that would save a ruined dinner.
+  - Things to bring if an elevator stopped between floors.
+  - Things to bring if you were locked out of your house.
+  - Things to bring if you were lost on a hiking trail.
+  - Things to bring if you were stuck in a snowstorm indoors.
+  - Things to bring if your car broke down far from town.
+  - Things you'd buy if you could only shop at a dollar store.
+  - Things you'd give a tourist from another planet.
+  - Things you'd grab if the store was closing in two minutes.
+  - Things you'd grab in a five-minute pharmacy run.
+  - Things you'd pack for a one-week space station visit.
+  - Things you'd replace the moment they start to wear out.
+  - Things you'd save first in a small fire (if safe).
+  - Things you'd want after finishing a big project.
+  - Things you'd want before a hurricane indoors.
+  - Things you'd want before giving a presentation.
+  - Things you'd want during a broken washing machine.
+  - Things you'd want during a cold snap with a weak furnace.
+  - Things you'd want during a heat advisory with no AC.
+  - Things you'd want during a heat wave.
+  - Things you'd want during a last-minute potluck.
+  - Things you'd want during a long drought.
+  - Things you'd want during a school fundraiser.
+  - Things you'd want during a sick day at home.
+  - Things you'd want during a week of nonstop rain.
+  - Things you'd want if a heat wave knocked out air conditioning.
+  - Things you'd want if a river rose near a campsite.
+  - Things you'd want if a tree fell across your driveway.
+  - Things you'd want if a volcano erupted far away but ash arrived.
+  - Things you'd want if all screens stopped working for a weekend.
+  - Things you'd want if animals could talk for one day.
+  - Things you'd want if batteries disappeared for a day.
+  - Things you'd want if bees moved into your porch.
+  - Things you'd want if chores paid real coins.
+  - Things you'd want if delivery apps stopped working.
+  - "Things you'd want if elevators only went up, never down."
+  - Things you'd want if every cat in town gathered on your lawn.
+  - Things you'd want if every door became a portal for an hour.
+  - Things you'd want if fog made driving impossible.
+  - Things you'd want if gravity suddenly halved for an hour.
+  - Things you'd want if hail damaged your garden.
+  - Things you'd want if homework graded itself honestly.
+  - Things you'd want if ice coated every sidewalk.
+  - Things you'd want if it rained something other than water.
+  - Things you'd want if it snowed in summer for one day.
+  - Things you'd want if maps stopped working on your phone.
+  - Things you'd want if money grew on a tree in your yard.
+  - Things you'd want if restaurants closed for a week.
+  - Things you'd want if sandstorm trapped you at a rest stop.
+  - Things you'd want if the moon looked twice as big tonight.
+  - Things you'd want if water supply was cut off for three days.
+  - Things you'd want if wildlife wandered into your yard.
+  - Things you'd want if you could breathe underwater for a day.
+  - Things you'd want if you could fly for one afternoon.
+  - Things you'd want if you could only eat one food for a week.
+  - Things you'd want if you could only use hand tools.
+  - Things you'd want if you could only wear one outfit for a month.
+  - Things you'd want if you could pause time for five minutes a day.
+  - Things you'd want if you could speak every language for a week.
+  - Things you'd want if you discovered a secret garden.
+  - Things you'd want if you found a hidden room in your house.
+  - Things you'd want if you grew to the size of a building.
+  - Things you'd want if you had no car for a month.
+  - Things you'd want if you heard a strange noise at night.
+  - Things you'd want if you shrunk to the size of an ant.
+  - Things you'd want if you woke up a hundred years in the future.
+  - Things you'd want if you woke up a hundred years in the past.
+  - Things you'd want if your bicycle could only go backwards.
+  - Things you'd want if your phone only worked on Tuesdays.
+  - Things you'd want if your town flooded (safe indoors).
+  - Things you'd want in a backyard obstacle course.
+  - Things you'd want in a bathroom cabinet.
+  - Things you'd want in a blindfolded taste test.
+  - Things you'd want in a build-the-tallest-tower contest.
+  - Things you'd want in a cooking challenge with random ingredients.
+  - Things you'd want in a cozy reading nook.
+  - Things you'd want in a dream kitchen.
+  - Things you'd want in a first apartment.
+  - Things you'd want in a garage toolbox.
+  - Things you'd want in a garden shed.
+  - Things you'd want in a homemade fort.
+  - Things you'd want in a hotel room.
+  - Things you'd want in a kid's backpack.
+  - Things you'd want in a no-talking team challenge.
+  - Things you'd want in a one-minute packing challenge.
+  - Things you'd want in a perfect study space.
+  - Things you'd want in a school lunchbox.
+  - Things you'd want in a team meeting to go smoothly.
+  - Things you'd want in a treasure hunt in the backyard.
+  - Things you'd want in a twenty-four-hour charity livestream.
+  - Things you'd want in an egg-and-spoon race.
+  - Things you'd want near the front door.
+  - Things you'd want on a hot-air balloon ride gone long.
+  - Things you'd want on a submarine for a month.
+  - Things you'd want on a train journey.
+  - Things you'd want on a well-stocked desk.
+  - Things you'd want on the first colony on Mars.
+  - Things you'd want on the first day of a new job.
+  - Things you'd want on the first day of school.
+  - Things you'd want to barricade a door with in an emergency.
+  - Things you'd want to build a raft with.
+  - Things you'd want to cross a muddy field with.
+  - Things you'd want to do before going to bed.
+  - Things you'd want to do during a lunch break.
+  - Things you'd want to do during a short break at work or school.
+  - Things you'd want to do on a commute.
+  - Things you'd want to do on a lazy Sunday morning.
+  - Things you'd want to do on your first day off in months.
+  - Things you'd want to do right after a big meal.
+  - Things you'd want to do right after waking up.
+  - Things you'd want to do the morning of a trip.
+  - Things you'd want to do the night before a trip.
+  - Things you'd want to do when it's raining outside.
+  - Things you'd want to do when it's too cold to go outside.
+  - Things you'd want to do when it's too hot to go outside.
+  - Things you'd want to do when waiting for food to arrive.
+  - Things you'd want to do when you can't sleep.
+  - Things you'd want to do when you have a whole afternoon free.
+  - Things you'd want to do when you have ten free minutes.
+  - Things you'd want to do when you're slightly hungry.
+  - Things you'd want to do when you're stuck indoors all day.
+  - Things you'd want to do while waiting in a long line.
+  - Things you'd want to find when cleaning a messy room.
+  - Things you'd want to finish before a vacation.
+  - Things you'd want to grab before guests arrive.
+  - Things you'd want to learn before age thirty.
+  - Things you'd want to navigate without GPS.
+  - Things you'd want to own if you lived alone.
+  - Things you'd want to pass time during a long blackout.
+  - Things you'd want to purify questionable water.
+
+- id: personal-scales
+  title: Personal icebreakers
+  mode: personal
+  tagline: Honest 1-to-100 self-ratings about real habits and personality — one surprising answer at a time.
+  play_hint: Answer honestly.
+  scale_label: On a scale of 1 to 100
+  items:
+  - "How lazy are you?"
+  - "To what degree would you call yourself a sore loser?"
+  - "How competitive are you at board games?"
+  - "How hard is it for you to ignore your phone?"
+  - "How likely are you to gossip?"
+  - "How honest are you, even when it hurts?"
+  - "How dramatic are you?"
+  - "How stubborn are you?"
+  - "How much of a procrastinator are you?"
+  - "How funny do you think you are?"
+  - "How sarcastic are you?"
+  - "How impulsive are you?"
+  - "How jealous are you?"
+  - "How forgiving are you?"
+  - "How likely are you to hold a grudge?"
+  - "How likely are you to apologize first?"
+  - "How good are you at keeping secrets?"
+  - "How likely are you to return a shopping cart?"
+  - "How likely are you to eat food that fell on the floor?"
+  - "How likely are you to pretend you didn't see a message?"
+  - "How often do you replay awkward moments in your head?"
+  - "How likely are you to cry during a movie?"
+  - "How territorial are you about personal space?"
+  - "How comfortable are you eating alone in public?"
+  - "How comfortable are you with silence in conversation?"
+  - "How likely are you to include someone sitting alone?"
+  - "How likely are you to stand up for a friend?"
+  - "How calm are you when you lose a game?"
+  - "How gracious are you when you win?"
+  - "How tidy is your bedroom right now?"
+  - "How punctual are you?"
+  - "How adventurous are you with food?"
+  - "How picky are you about what you eat?"
+  - "How likely are you to overpack?"
+  - "How likely are you to get lost and not mind?"
+  - "How good are you at admitting when you're wrong?"
+  - "How good are you at winning arguments?"
+  - "How much do you enjoy being in charge?"
+  - "How much do you enjoy surprises?"
+  - "How much do you enjoy karaoke?"
+  - "How much do you enjoy trying local food when traveling?"
+  - "How likely are you to fact-check before sharing online?"
+  - "How environmentally conscious are you?"
+  - "How sentimental are you?"
+  - "How superstitious are you?"
+  - "How anxious are you in everyday life?"
+  - "How confident are you in new situations?"
+  - "How empathetic are you?"
+  - "How patient are you?"
+  - "How short-tempered are you?"
+  - "How likely are you to house-rule a board game?"
+  - "How likely are you to enjoy a full day without your phone?"
+  - "How likely are you to feel naked without your phone?"
+  - "How likely are you to keep your phone on the table during meals?"
+  - "How likely are you to let the phone ring and text back later?"
+  - "How likely are you to procrastinate on gift shopping?"
+  - "How likely are you to put your phone away at concerts?"
+  - "How likely are you to put your phone away during conversations?"
+  - "How likely are you to scroll on your phone in bed?"
+  - "How likely are you to talk on the phone while driving?"
+  - "How likely are you to use speakerphone in public?"
+  - "How likely are you to value honesty over harmony?"
+  - "How likely are you to wear headphones to avoid small talk?"
+  - "How adventurous are you?"
+  - "How ambitious are you?"
+  - "How athletic are you?"
+  - "How brave are you?"
+  - "How cautious are you?"
+  - "How comfortable are you asking for help?"
+  - "How comfortable are you meeting new people?"
+  - "How competitive are you at work or school?"
+  - "How coordinated are you?"
+  - "How diplomatic are you in disagreements?"
+  - "How easily are you distracted?"
+  - "How easygoing are you?"
+  - "How energetic are you in the evening?"
+  - "How energetic are you in the morning?"
+  - "How good a cook are you?"
+  - "How good a driver are you?"
+  - "How good a listener are you?"
+  - "How likely are you to appreciate tough love?"
+  - "How likely are you to argue a late fee?"
+  - "How likely are you to ask for substitutions?"
+  - "How likely are you to avoid horror movies?"
+  - "How likely are you to avoid public speaking?"
+  - "How likely are you to avoid the spotlight?"
+  - "How likely are you to back up your photos?"
+  - "How likely are you to believe in luck?"
+  - "How likely are you to believe you are lucky?"
+  - "How likely are you to bluff in casual games?"
+  - "How likely are you to call someone's bluff?"
+  - "How likely are you to choose generic brands?"
+  - "How likely are you to cry at a wedding?"
+  - "How likely are you to cry happy tears?"
+  - "How likely are you to dance at weddings?"
+  - "How likely are you to deflect a compliment?"
+  - "How likely are you to delete old photos?"
+  - "How likely are you to dog-ear a book page?"
+  - "How likely are you to dog-ear library books?"
+  - "How likely are you to donate unused gifts?"
+  - "How likely are you to double-dip at a party?"
+  - "How likely are you to dwell on mistakes?"
+  - "How likely are you to eat breakfast?"
+  - "How likely are you to enjoy family reunions?"
+  - "How likely are you to exercise on vacation?"
+  - "How likely are you to fall asleep reading?"
+  - "How likely are you to feel guilty relaxing?"
+  - "How likely are you to get road rage?"
+  - "How likely are you to get your own dessert?"
+  - "How likely are you to ghost a group plan?"
+  - "How likely are you to give second chances?"
+  - "How likely are you to hate being pranked?"
+  - "How likely are you to hoard vacation days?"
+  - "How likely are you to hold the elevator?"
+  - "How likely are you to host holidays?"
+  - "How likely are you to jaywalk?"
+  - "How likely are you to journal your feelings?"
+  - "How likely are you to love gift wrapping?"
+  - "How likely are you to mute a group chat?"
+  - "How likely are you to mute politics online?"
+  - "How likely are you to need silence to focus?"
+  - "How likely are you to notice fashion trends?"
+  - "How likely are you to play an instrument?"
+  - "How likely are you to play devil's advocate?"
+  - "How likely are you to prefer museums alone?"
+  - "How likely are you to prefer surprise gifts?"
+  - "How likely are you to read before sleep?"
+  - "How likely are you to read nutrition labels?"
+  - "How likely are you to regift something?"
+  - "How likely are you to regift thoughtfully?"
+  - "How likely are you to rely on memory alone?"
+  - "How likely are you to remember dreams?"
+  - "How likely are you to rewatch comfort shows?"
+  - "How likely are you to say I love you first?"
+  - "How likely are you to set multiple alarms?"
+  - "How likely are you to sing in the shower?"
+  - "How likely are you to skip lunch when busy?"
+  - "How likely are you to split a dessert?"
+  - "How likely are you to stress-eat?"
+  - "How likely are you to stretch daily?"
+  - "How likely are you to take leftovers home?"
+  - "How likely are you to take notes by hand?"
+  - "How likely are you to tip creators online?"
+  - "How likely are you to tip generously?"
+  - "How likely are you to tip on takeout?"
+  - "How likely are you to try extreme sports?"
+  - "How likely are you to try store samples?"
+  - "How likely are you to try street food?"
+  - "How likely are you to use unique passwords?"
+  - "How likely are you to vent to friends often?"
+  - "How likely are you to walk away from drama?"
+  - "How likely are you to wing it with spices?"
+  - "How likely are you to write thank-you notes?"
+  - "How likely are you to write wish lists?"
+  - "How minimalist are you at home?"
+  - "How moody are you?"
+  - "How much do you like having a daily routine?"
+  - "How much of a chatterbox are you?"
+  - "How much of a night owl are you?"
+  - "How nostalgic are you?"
+  - "How optimistic are you?"
+  - "How organized is your workspace?"
+  - "How outgoing are you at parties?"
+  - "How perfectionist are you?"
+  - "How pessimistic are you?"
+  - "How rebellious are you?"
+  - "How romantic are you?"
+  - "How rule-following are you?"
+  - "How salty do you like your food?"
+  - "How shy are you around strangers?"
+  - "How spicy do you like your food?"
+  - "How sweet do you like your drinks?"
+  - "How tech-savvy are you?"
+  - "How trustworthy do you consider yourself?"
+  - "How vengeful are you?"
+  - "How workaholic are you?"
+  - "How much do you enjoy board games?"
+  - "How affectionate are you with people you care about?"
+  - "How calm are you under pressure?"
+  - "How calm are you when plans fall apart?"
+  - "How comfortable are you speaking in front of a group?"
+  - "How focused are you when working or studying?"
+  - "How health-conscious are you about what you eat?"
+  - "How likely are you to Google someone before meeting them?"
+  - "How likely are you to Google symptoms after a minor ache?"
+  - "How likely are you to abandon habits after a week?"
+  - "How likely are you to address conflict directly?"
+  - "How likely are you to admit a recipe experiment failed?"
+  - "How likely are you to always tell the full truth?"
+  - "How likely are you to answer unknown numbers?"
+  - "How likely are you to argue in comment sections?"
+  - "How likely are you to arrive early to get a good spot?"
+  - "How likely are you to ask dumb questions on purpose?"
+  - "How likely are you to ask for a raise or promotion?"
+  - "How likely are you to ask for feedback at work or school?"
+  - "How likely are you to ask for help before you are desperate?"
+  - "How likely are you to ask for help with assembly instructions?"
+  - "How likely are you to ask people what they want?"
+  - "How likely are you to ask questions when confused?"
+  - "How likely are you to ask the server for recommendations?"
+  - "How likely are you to assume others will contact you?"
+  - "How likely are you to audit subscriptions yearly?"
+  - "How likely are you to avoid conflict at all costs?"
+  - "How likely are you to avoid hurting feelings even if it means bending truth?"
+  - "How likely are you to avoid spoilers at all costs?"
+  - "How likely are you to be the emotional support friend?"
+  - "How likely are you to be the first to try a new restaurant?"
+  - "How likely are you to be the friend who checks in first?"
+  - "How likely are you to be the friend who remembers everyone's orders?"
+  - "How likely are you to be the last one to leave a party?"
+  - "How likely are you to be the peacemaker in your family?"
+  - "How likely are you to be the planner in your friend group?"
+  - "How likely are you to be the rule lawyer at game night?"
+  - "How likely are you to believe competence is your core trait?"
+  - "How likely are you to believe humor is your core trait?"
+  - "How likely are you to believe kindness is your core trait?"
+  - "How likely are you to believe love at first sight?"
+  - "How likely are you to believe opposites attract?"
+  - "How likely are you to believe people can really change?"
+  - "How likely are you to believe reliability is your core trait?"
+  - "How likely are you to believe systems beat willpower?"
+  - "How likely are you to believe white lies are sometimes kind?"
+  - "How likely are you to believe willpower is enough?"
+  - "How likely are you to believe you are a good driver?"
+  - "How likely are you to believe you are unlucky?"
+  - "How likely are you to blame traffic when you left late?"
+  - "How likely are you to blurt secrets when excited?"
+  - "How likely are you to borrow something and forget to return it?"
+  - "How likely are you to bring a book you never open on trips?"
+  - "How likely are you to bring workout clothes you never use?"
+  - "How likely are you to burn food while multitasking?"
+  - "How likely are you to buy books you never read?"
+  - "How likely are you to buy clothes for comfort only?"
+  - "How likely are you to buy clothes for who you want to be?"
+  - "How likely are you to buy gifts months early?"
+  - "How likely are you to buy something because it is on sale?"
+  - "How likely are you to buy souvenirs for everyone?"
+  - "How likely are you to buy souvenirs only for yourself?"
+  - "How likely are you to buy the checkout-line item?"
+  - "How likely are you to buy the extended warranty?"
+  - "How likely are you to call a professional for home repairs?"
+  - "How likely are you to call out friendly cheating?"
+  - "How likely are you to cancel because the house is not ready?"
+  - "How likely are you to cancel plans when something better comes up?"
+  - "How likely are you to carry a portable battery?"
+  - "How likely are you to celebrate others' wins genuinely?"
+  - "How likely are you to celebrate personal records quietly?"
+  - "How likely are you to celebrate small wins out loud?"
+  - "How likely are you to celebrate your own birthday loudly?"
+  - "How likely are you to change your opinion after a good argument?"
+  - "How likely are you to chat with cashiers or baristas?"
+  - "How likely are you to cheat in a friendly game?"
+  - "How likely are you to choose loyalty over trying new places?"
+  - "How likely are you to clap along even when you cannot keep rhythm?"
+  - "How likely are you to clean a little every day?"
+  - "How likely are you to clean before guests arrive?"
+  - "How likely are you to clean in one big session?"
+  - "How likely are you to clean while listening to podcasts?"
+  - "How likely are you to clear notifications immediately?"
+  - "How likely are you to click suspicious links by accident?"
+  - "How likely are you to collect something when you travel?"
+  - "How likely are you to color-code your notes or calendar?"
+  - "How likely are you to commit to plans you are unsure about?"
+  - "How likely are you to compare your home to others online?"
+  - "How likely are you to compare your progress to others?"
+  - "How likely are you to compare yourself to people online?"
+  - "How likely are you to compete with friends on fitness apps?"
+  - "How likely are you to compliment someone's outfit?"
+  - "How likely are you to cook when you could order delivery?"
+  - "How likely are you to correct someone's grammar?"
+  - "How likely are you to cover your eyes during scary scenes?"
+  - "How likely are you to cringe at your old social posts?"
+  - "How likely are you to cry when saying goodbye at an airport?"
+  - "How likely are you to customize your home screen?"
+  - "How likely are you to cut people off after one betrayal?"
+  - "How likely are you to dance when everyone is watching?"
+  - "How likely are you to dance when no one is watching?"
+  - "How likely are you to decorate at the last minute?"
+  - "How likely are you to decorate early for holidays?"
+  - "How likely are you to display books for looks?"
+  - "How likely are you to donate clothes every season?"
+  - "How likely are you to donate clothes you still kind of like?"
+  - "How likely are you to downplay your achievements?"
+  - "How likely are you to dread large family gatherings?"
+  - "How likely are you to dress in layers no matter the forecast?"
+  - "How likely are you to drink water before coffee?"
+  - "How likely are you to eat only at highly rated places?"
+  - "How likely are you to eat only familiar food while traveling?"
+  - "How likely are you to eat organic when possible?"
+  - "How likely are you to eat straight from the container?"
+  - "How likely are you to enable two-factor authentication?"
+  - "How likely are you to enjoy being scared on purpose?"
+  - "How likely are you to enjoy being the center of attention?"
+  - "How likely are you to enjoy home improvement shows?"
+  - "How likely are you to enjoy learning in public?"
+  - "How likely are you to enjoy luck more than strategy?"
+  - "How likely are you to enjoy pranking friends?"
+  - "How likely are you to enjoy self-help content?"
+  - "How likely are you to enjoy strategy more than luck?"
+  - "How likely are you to exercise when stressed?"
+
+- id: spectrum
+  title: Concept spectrums
+  mode: spectrum
+  tagline: Two opposing ideas — no categories, no questions. Name one word or phrase that sits in the grey area between them.
+  play_hint: Think of a single noun or short phrase that lands between these extremes. Expect a friendly group debate.
+  spectrums:
+  - left: Hot
+    right: Cold
+  - left: Overrated
+    right: Underrated
+  - left: City life
+    right: Country life
+  - left: Early bird
+    right: Night owl
+  - left: Dog person
+    right: Cat person
+  - left: Icebreaker
+    right: Conversation ender
+  - left: Healthy choice
+    right: Indulgent choice
+  - left: Formal event
+    right: Casual hangout
+  - left: Window seat
+    right: Aisle seat
+  - left: Text message
+    right: Phone call
+  - left: Board game
+    right: Video game
+  - left: Home cooking
+    right: Restaurant meal
+  - left: Camping trip
+    right: Hotel stay
+  - left: Beach vacation
+    right: Mountain vacation
+  - left: Fiction book
+    right: Nonfiction book
+  - left: Live music
+    right: Recorded music
+  - left: Team sport
+    right: Individual sport
+  - left: Ask for help
+    right: Figure it out alone
+  - left: Digital detox
+    right: Always connected
+  - left: Gift experiences
+    right: Gift objects
+  - left: Harmless prank
+    right: Cruel joke
+  - left: Time saver
+    right: Time waster
+  - left: Stress relief
+    right: Stress cause
+  - left: Low effort
+    right: High effort
+  - left: Too spicy
+    right: Too bland
+  - left: Too loud
+    right: Too quiet
+  - left: Planned trip
+    right: Spontaneous trip
+  - left: Minimal home
+    right: Cozy clutter
+  - left: Eco-friendly
+    right: Convenient
+  - left: Remote work
+    right: Office work
+  - left: Video call
+    right: In-person meeting
+  - left: Try new food
+    right: Stick to favorites
+  - left: Repair item
+    right: Replace item
+  - left: Cook from scratch
+    right: Use shortcuts
+  - left: Group travel
+    right: Solo travel
+  - left: Physical book
+    right: E-book
+  - left: Dark mode
+    right: Light mode
+  - left: Multitask
+    right: Single task
+  - left: Hot shower
+    right: Cold rinse
+  - left: DIY repair
+    right: Call a pro
+  - left: Big party
+    right: Small dinner
+  - left: Quiet library
+    right: Busy cafe
+  - left: Strategy game
+    right: Luck game
+  - left: Apologize first
+    right: Wait for apology
+  - left: Stay late at party
+    right: Leave early
+  - left: Morning news
+    right: Morning music
+  - left: Sandwich
+    right: Wrap
+  - left: Pancake
+    right: Waffle
+  - left: Tea person
+    right: Coffee person
+  - left: Sunrise watch
+    right: Sunset watch
+  - left: Forest walk
+    right: Beach walk
+  - left: Comedy show
+    right: Drama show
+  - left: Online course
+    right: In-person class
+  - left: Annual checkup
+    right: Go when needed
+  - left: Apple orchard
+    right: Apple bag
+  - left: Art
+    right: Craft
+  - left: Bedtime story
+    right: Bedtime solo
+  - left: Bike errand
+    right: Car errand
+  - left: Bike helmet
+    right: No helmet
+  - left: Birthday big
+    right: Birthday small
+  - left: Bleacher seat
+    right: Field edge
+  - left: Blog post
+    right: Private note
+  - left: Book lend
+    right: Library only
+  - left: Borrow tools
+    right: Own every tool
+  - left: Breakfast food
+    right: Dinner food
+  - left: Bright colors
+    right: Neutral colors
+  - left: Budget plan
+    right: Spend freely
+  - left: Bullet journal
+    right: Blank notebook
+  - left: Camp in yard
+    right: Camp in room
+  - left: Campfire song
+    right: Indoor playlist
+  - left: Car karaoke
+    right: Quiet drive
+  - left: Carpool
+    right: Drive solo
+  - left: Cash payment
+    right: Card payment
+  - left: Catch release
+    right: Catch keep
+  - left: Charades act
+    right: Charades guess
+  - left: Cheap thrill
+    right: Expensive hobby
+  - left: City break
+    right: Nature retreat
+  - left: City museum
+    right: Science museum
+  - left: Classic film
+    right: New blockbuster
+  - left: Cloud sync
+    right: Local file
+  - left: Clutch shot
+    right: Pass clutch
+  - left: Comfort shoes
+    right: Dress shoes
+  - left: Compost bin
+    right: Trash bin
+  - left: Cook for crowd
+    right: Cook for one
+  - left: Cook together
+    right: Cook alone
+  - left: Coupon hunting
+    right: Pay full price
+  - left: DIY haircut
+    right: Salon cut
+  - left: Daily routine
+    right: Mix it up
+  - left: Dark mode app
+    right: Light mode app
+  - left: Debate for fun
+    right: Avoid debates
+  - left: Deep research
+    right: Quick search
+  - left: Desk job
+    right: Physical job
+  - left: Doctor visit
+    right: Home rest
+  - left: Early checkout
+    right: Late checkout
+  - left: Elevator
+    right: Walk up
+  - left: Emergency kit
+    right: Figure it out
+  - left: Escalator
+    right: Stairs
+  - left: Family dinner
+    right: Solo dinner
+  - left: Fan sleep
+    right: AC sleep
+  - left: Fancy coffee
+    right: Instant coffee
+  - left: Farm visit
+    right: Petting zoo
+  - left: Farmers market
+    right: Supermarket run
+  - left: File folder
+    right: Pile stack
+  - left: Firm mattress
+    right: Soft mattress
+  - left: Food bank drop
+    right: Pantry buy
+  - left: Fresh pizza
+    right: Reheated pizza
+  - left: Front of class
+    right: Back of class
+  - left: Front row
+    right: Back row
+  - left: Full calendar
+    right: Blank weekend
+  - left: Garage sale
+    right: Online listing
+  - left: Gentle ride
+    right: Thrill ride
+  - left: Grill outside
+    right: Pan inside
+  - left: Group photo
+    right: Solo selfie
+  - left: Group study
+    right: Solo study
+  - left: Gym class
+    right: Solo run
+  - left: Gym membership
+    right: Home exercise
+  - left: Halftime adjust
+    right: Same plan
+  - left: Headset mic
+    right: Laptop mic
+  - left: Healthy snack
+    right: Treat food
+  - left: Heavy blanket
+    right: Light sheet
+  - left: Herb garden
+    right: Store herbs
+  - left: Home colors
+    right: Visiting colors
+  - left: Home workout
+    right: Gym workout
+  - left: Host duties
+    right: Guest relax
+  - left: Hot cocoa mug
+    right: Hot tea mug
+  - left: Hot drink
+    right: Iced drink
+  - left: Hot lunchbox
+    right: Cold lunchbox
+  - left: Hotel buffet
+    right: Corner café
+  - left: Hydrate sports
+    right: Drink when dry
+  - left: Inbox zero
+    right: Inbox backlog
+  - left: Indie film
+    right: Blockbuster
+  - left: Indoor court
+    right: Outdoor court
+  - left: Indoor pool
+    right: Outdoor pool
+  - left: Keep box
+    right: Recycle box
+  - left: Laptop couch
+    right: Desk proper
+  - left: Layer many
+    right: One warm layer
+  - left: Lego set
+    right: Free build
+  - left: Library book
+    right: Owned book
+  - left: Lucky socks
+    right: Any socks
+  - left: Meal kit
+    right: Takeout order
+  - left: Meal prep
+    right: Cook daily
+  - left: Mild habit
+    right: Risky habit
+  - left: Minimal wallet
+    right: Stuffed wallet
+  - left: Morning workout
+    right: Evening workout
+  - left: Mountain view
+    right: Ocean view
+  - left: Museum guide
+    right: Wander freely
+  - left: Neighbor chat
+    right: Quick wave
+  - left: Night read
+    right: Night stream
+  - left: Open headphones
+    right: Noise canceling
+  - left: Open mic
+    right: Shower concert
+  - left: Overprepared
+    right: Underprepared
+  - left: Pack snacks
+    right: Buy on the road
+  - left: Packed schedule
+    right: Open schedule
+  - left: Packing light
+    right: Packing heavy
+  - left: Paint canvas
+    right: Sketch pad
+  - left: Paper map
+    right: GPS navigation
+  - left: Park bench
+    right: Kitchen table
+  - left: Password book
+    right: Memory only
+  - left: Pool noodle
+    right: Free swim
+  - left: Postcard send
+    right: Text photo
+  - left: Prom attend
+    right: Skip dance
+  - left: Public post
+    right: Private diary
+  - left: Public praise
+    right: Private thanks
+  - left: Quick shower
+    right: Long bath
+  - left: Quiet activity
+    right: Active sport
+  - left: Raincoat
+    right: Hoodie
+  - left: Remember faces
+    right: Remember names
+  - left: Remote start
+    right: Bundle first
+  - left: Reusable cup
+    right: Disposable cup
+  - left: Review honest
+    right: Review skip
+  - left: Road trip music
+    right: Drive podcast
+  - left: Save for bike
+    right: Spend now
+  - left: Say no politely
+    right: Say yes often
+  - left: Scented candle
+    right: Unscented air
+  - left: School club
+    right: Free afternoon
+  - left: Selfish choice
+    right: Generous choice
+  - left: Share toy
+    right: Mine toy
+  - left: Short hike
+    right: Long trek
+  - left: Sick day rest
+    right: Work while sick
+  - left: Simple gift
+    right: Fancy gift
+  - left: Small venue
+    right: Big arena
+  - left: Snow angel
+    right: Sand castle
+  - left: Solo hobby
+    right: Group hobby
+  - left: Spa day
+    right: Home mask
+  - left: Speak up
+    right: Stay quiet
+  - left: Split the bill
+    right: Treat everyone
+  - left: Standing desk
+    right: Sitting desk
+  - left: Sticker reward
+    right: Word praise
+  - left: Strict budget
+    right: Treat yourself
+  - left: Structured game
+    right: Open-ended game
+  - left: Summer activity
+    right: Winter activity
+  - left: Summer camp
+    right: Summer home
+  - left: Sunrise jog
+    right: Sunset stroll
+  - left: Sweet treat
+    right: Savory treat
+  - left: Table chat
+    right: TV dinner
+  - left: Talk it out
+    right: Sleep on it
+  - left: Teach to learn
+    right: Learn quietly
+  - left: Team builder
+    right: Team divider
+  - left: Team meeting
+    right: One-on-one chat
+  - left: Tent camping
+    right: Cabin stay
+  - left: Theme park ride
+    right: Nature trail
+  - left: Thrift find
+    right: Brand new
+  - left: Thrift treasure
+    right: Retail new
+  - left: Train harder
+    right: Rest more
+  - left: Tree plant day
+    right: Water tree
+  - left: Trivia teams
+    right: Trivia solo
+  - left: Trust strangers
+    right: Trust slowly
+  - left: Umbrella carry
+    right: Hoodie only
+  - left: Vegetarian meal
+    right: Meat meal
+  - left: Victory lap
+    right: Quiet exit
+  - left: Walk to school
+    right: Drive to school
+  - left: Walking commute
+    right: Driving commute
+  - left: Walking meeting
+    right: Desk meeting
+  - left: Wash car often
+    right: Wash when dirty
+  - left: Watching sports
+    right: Playing sports
+  - left: Welcome mat
+    right: Bare step
+  - left: Whole foods
+    right: Processed foods
+  - left: Window open
+    right: Window closed
+  - left: Window plant
+    right: Garden plot
+  - left: Window shopping
+    right: Purpose trip
+  - left: Work music
+    right: Work silence
+  - left: Too big
+    right: Too small
+  - left: Too bright
+    right: Too dim
+  - left: Too cautious
+    right: Too reckless
+  - left: Too crowded
+    right: Too empty
+  - left: Too fast
+    right: Too slow
+  - left: Too formal
+    right: Too casual
+  - left: Too frugal
+    right: Too generous
+  - left: Too organized
+    right: Too spontaneous
+  - left: Too serious
+    right: Too silly
+  - left: Too strict
+    right: Too lenient
+  - left: Too sweet
+    right: Too bitter
+  - left: Adopt rescue
+    right: Buy from breeder
+  - left: Alarm snooze
+    right: Up on first ring
+  - left: Big celebration
+    right: Quiet acknowledgment
+  - left: Big city noise
+    right: Small town quiet
+  - left: Board game teach
+    right: Jump right in
+  - left: Bookstore browse
+    right: Online checkout
+  - left: Camping stove meal
+    right: Restaurant splurge
+  - left: Chocolate dessert
+    right: Fruit dessert
+  - left: Classic board game
+    right: Party card game
+  - left: Comedy podcast
+    right: True crime podcast
+  - left: Confidence boost
+    right: Confidence drain
+  - left: Detailed itinerary
+    right: Rough outline
+  - left: Donate monthly
+    right: Donate once a year
+  - left: Early arrival
+    right: Fashionably late
+  - left: Emergency fund big
+    right: Month to month
+  - left: Fiction escape
+    right: Nonfiction learn
+  - left: Gift handmade card
+    right: Store card
+  - left: Goal vision board
+    right: Goal list
+  - left: Guided tour
+    right: Self-guided tour
+  - left: Handwritten letter
+    right: Quick text
+  - left: Handwritten list
+    right: Phone notes
+  - left: Handwritten note
+    right: Typed message
+  - left: Home movie night
+    right: Theater night
+  - left: Keep mystery
+    right: Spoil the ending
+  - left: Language flashcards
+    right: Phrase book
+  - left: Learn by doing
+    right: Learn by watching
+  - left: Live plants
+    right: Artificial plants
+  - left: Loud restaurant
+    right: Quiet restaurant
+  - left: Low cost
+    right: High cost
+  - left: Low noise
+    right: High noise
+  - left: Low risk
+    right: High risk
+  - left: Low skill
+    right: High skill
+  - left: New clothes
+    right: Secondhand clothes
+  - left: Offer a ride
+    right: Find your own way
+  - left: Open curtain
+    right: Blackout curtain
+  - left: Paper to-do list
+    right: App to-do list
+  - left: Pet on furniture
+    right: Pet off furniture
+  - left: Phone until it dies
+    right: New phone yearly
+  - left: Photo album
+    right: Camera roll only
+  - left: Potluck dish
+    right: Store-bought dish
+  - left: Public speech
+    right: Private conversation
+  - left: Public transport
+    right: Private car
+  - left: RSVP promptly
+    right: RSVP last minute
+  - left: Rainy day indoors
+    right: Sunny day outdoors
+  - left: Read privacy policy
+    right: Accept quickly
+  - left: Screen time earn
+    right: Screen time free
+  - left: Shared appetizer
+    right: Own entree
+  - left: Shopping in store
+    right: Shopping online
+  - left: Simple skill
+    right: Impressive skill
+  - left: Sing at parties
+    right: Watch others dance
+  - left: Spontaneous gift
+    right: Planned gift
+  - left: Strict deadline
+    right: Flexible deadline
+  - left: Vacation unplugged
+    right: Vacation online
+  - left: Volunteer often
+    right: Volunteer rarely
+  - left: Vote every election
+    right: Vote sometimes
+  - left: Weather app check
+    right: Look outside
+  - left: Weekly deep clean
+    right: Daily light tidy
+  - left: Window shopping
+    right: Purpose shopping
+  - left: Low maintenance
+    right: High maintenance
+  - left: Better familiar
+    right: Better exotic
+  - left: Better hot
+    right: Better cold
+  - left: Better indoors
+    right: Better outdoors
+  - left: Better mild
+    right: Better bold
+  - left: Better plain
+    right: Better fancy
+  - left: Better quiet
+    right: Better lively
+  - left: Better saved
+    right: Better spent
+  - left: Better short
+    right: Better long
+  - left: Better small
+    right: Better large
