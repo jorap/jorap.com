@@ -3,16 +3,22 @@ title: "By Their Fruits"
 meta_title: "By Their Fruits - Discern Teachers by Outcome"
 description: "I check teachers by what their teaching produces, not by how polished the talk sounds."
 key_concept: |
-  You will know them by their fruits. (Matthew 7:16).
+  You will know them by their fruits. (Matthew 7:16 NASB1995).
 
-  .
+  Wolves wear sheep's clothing - time and results tell, not the polished talk.
 
-  Jesus pairs this with [[Judge Not]]: don't condemn souls, but do evaluate fruit. (Matthew 7:16-20). Wolves may wear sheep's clothing; time and results tell. Garden parallel: [[Signal vs Noise]] - what actually produces good over time? The [Issues](/notes/issues/).
+  You will know them by their fruits. Grapes are not gathered from thorn bushes nor figs from thistles, are they? So every good tree bears good fruit, but the bad tree bears bad fruit. A good tree cannot produce bad fruit, nor can a bad tree produce good fruit. Every tree that does not bear good fruit is cut down and thrown into the fire. So then, you will know them by their fruits. (Matthew 7:16-20 NASB1995).
+
+  Don't condemn souls, but do evaluate fruit - grapes from vines, not hype.
+
+  Jesus pairs this with [[Judge Not]]: don't condemn souls, but do evaluate fruit
+
+  Wolves may wear sheep's clothing; time and results tell. Garden parallel: [[Signal vs Noise]] - what actually produces good over time? The [Issues](/notes/issues/).
 
   audit - does the teaching leave the graph healthier or broken?
-  
+
   I check teachers by what their teaching produces, not by how polished the talk sounds.
-  
+
   The wolf doesn't announce itself - only a season of results tells you what's underneath the sheep's clothing.
 examples:
   - "The youth coach talks smooth on day one but his players look stressed and bitter by month three - fruit told me more than any clinic title ever could."

@@ -3,14 +3,18 @@ title: "Ask Seek Knock"
 meta_title: "Ask Seek Knock - Persistent Prayer"
 description: "Ask, seek, knock means prayer on schedule - not a one-time burst when desperation hits."
 key_concept: |
-  Ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you (Matthew 7:7-11).
+  Ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you. (Matthew 7:7-11 NASB1995).
+
+  Keep asking, seeking, knocking - God gives like a parent who gives bread, not a stone.
 
   Jesus compares God to a parent who gives bread, not a stone.
-  
-  The [[Ask Seek Knock]] (Matthew 6:9-13).
 
-  models priority: God's name, kingdom, will - then daily needs and forgiveness. Prayer isn't bargaining for merit; under [[Free Grace]] it's the dependent posture of a child who already belongs to the household. Same rhythm as [[Periodic Knowledge Review]] - keep showing up on schedule, not only in crisis.
-  
+  Pray, then, in this way: 'Our Father who is in heaven, Hallowed be Your name. Your kingdom come. Your will be done, On earth as it is in heaven. Give us this day our daily bread. And forgive us our debts, as we also have forgiven our debtors. And do not lead us into temptation, but deliver us from evil.' (Matthew 6:9-13 NASB1995).
+
+  Lord's Prayer order - Father's name, kingdom, will first, then daily bread and forgiveness.
+
+  [[Ask Seek Knock]] models priority: God's name, kingdom, will - then daily needs and forgiveness. Prayer isn't bargaining for merit; under [[Free Grace]] it's the dependent posture of a child who already belongs to the household. Same rhythm as [[Periodic Knowledge Review]] - keep showing up on schedule, not only in crisis.
+
   Ask, seek, knock means prayer on schedule - not a one-time burst when desperation hits.
 examples:
   - "I thumb-refresh the news about tomorrow's meeting instead of asking - prayer is dependence, not bargaining for merit I already have under grace."

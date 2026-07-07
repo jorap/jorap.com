@@ -3,16 +3,16 @@ title: "Christianity and Politics"
 meta_title: "Christianity and Politics - Dual Allegiance Without Idolatry"
 description: "I owe Caesar what Caesar's owed and God what I'm His - no party gets my soul."
 key_concept: |
-  Render to Caesar the things that are Caesar's; and to God the things that are God's. (Matthew 22:21).
+  Render to Caesar the things that are Caesar's; and to God the things that are God's. (Matthew 22:21 NASB1995).
 
-  .
+  Coin to Caesar, self to God - civic duty without making Rome or any party ultimate lord.
 
   [[Render Unto Caesar]] names the split: coin to Caesar, self to God.
-  
+
   [[Seek the Kingdom First]] still ranks God's reign above every election cycle - without excusing dodged taxes, permits, or jury duty. [[Love Your Neighbor]] and [[Love Your Enemies]] stretch across party lines: the person on the other feed is still my neighbor, not a target. [[Treasure in Heaven]] keeps my heart off ballot-box salvation - no moth-eaten security in who wins Tuesday. [[By Their Fruits]] and [[Heart Righteousness]] judge movements by outcome and motive, not hype or tribe loyalty. [[Great Commission]] and [[Let Your Light Shine]] send witness into public life without letting the gospel get captured by one side's flag. PKM mirror: [[Signal vs Noise]] - not every headline deserves kingdom-level panic; [[Information Diet]] curbs the scroll that replaces prayer.
-  
+
   I owe Caesar what Caesar's owed and God what I'm His.
-  
+
   No party gets my soul - Caesar gets what Caesar is owed, God gets what I'm His.
 examples:
   - "Tax bill landed and part of me wanted to treat paying it like betraying the kingdom - [[Render Unto Caesar]]: lawful duty and ultimate worship stay distinct."

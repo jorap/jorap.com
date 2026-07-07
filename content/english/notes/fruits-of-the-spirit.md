@@ -3,18 +3,22 @@ title: "Fruits of the Spirit"
 meta_title: "Fruits of the Spirit - Character the Spirit Produces"
 description: "Love through self-control is one Spirit-grown cluster in believers, not a merit checklist that buys heaven."
 key_concept: |
-  My Father is glorified by this, that you bear much fruit, and so prove to be My disciples. (John 15:8).
+  My Father is glorified by this, that you bear much fruit, and so prove to be My disciples. (John 15:8 NASB1995).
 
-  .
+  Much fruit glorifies the Father and proves discipleship - grown on the vine, not manufactured for credit.
 
-  the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control (Galatians 5:22-23). Paul contrasts **works of the flesh** (immorality, impurity, sensuality, idolatry, sorcery, enmities, strife, jealousy, outbursts of anger, disputes, dissensions, factions, envying, drunkenness, carousing - Galatians 5:19-21).
+  the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control (Galatians 5:22-23 NASB1995).
+
+  Paul lists the cluster - one Spirit, love through self-control, not a merit checklist.
+
+  Paul contrasts **works of the flesh** (immorality, impurity, sensuality, idolatry, sorcery, enmities, strife, jealousy, outbursts of anger, disputes, dissensions, factions, envying, drunkenness, carousing - Galatians 5:19-21).
 
   with **fruit of the Spirit** - one vine, one cluster, grown over time.
-  
+
   [[Abide in Me]] names the engine in John: branches bear fruit because they stay in the vine. [[Sanctification]] is the slow becoming that fruit marks. [[Grateful Obedience]] keeps the motive straight: fruit follows [[Grace]] already received, it doesn't pay for eternal life. [[Heart Righteousness]] is the inner standard the Spirit applies - not polished outside, poison inside. [[By Their Fruits]] uses the same word differently: discern teachers by outcome, not charisma - don't collapse the two jobs.
-  
+
   | Fruit | Garden echo | |-------|-------------| | Love | [[Love God]], [[Love Your Neighbor]], [[Love Your Enemies]] | | Joy | [[Joy]] - [[Assurance]] | | Peace | [[Peace]] - [[Peacemakers]], [[Don't Worry]] | | Patience | [[Patience]] - [[Slow the Moment]] | | Kindness | [[Kindness]] - [[Mercy]] | | Goodness | [[Goodness]] - [[Let Your Light Shine]] | | Faithfulness | [[Faithfulness]] - [[Faithful Steward]] | | Gentleness | [[Gentleness]] - [[Humility and Service]] | | Self-control | [[Self-Control]] |
-  
+
   Love through self-control is one Spirit-grown cluster in believers, not a merit checklist that buys heaven.
 examples:
   - "I snapped at my kid after a week with almost no prayer and wondered why patience vanished - Galatians fruit comes from walking by the Spirit, not forcing virtue until Friday."

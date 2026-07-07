@@ -3,12 +3,14 @@ title: "Great Commission"
 meta_title: "Great Commission - Go and Make Disciples"
 description: "Jesus sends believers to go, baptize, and teach obedience under His authority and presence to the end of the age."
 key_concept: |
-  Go therefore and make disciples of all the nations, baptizing them in the name of the Father and the Son and the Holy Spirit, teaching them to observe all that I commanded you; and lo, I am with you always, even to the end of the age. (Matthew 28:19-20).
+  Go therefore and make disciples of all the nations, baptizing them in the name of the Father and the Son and the Holy Spirit, teaching them to observe all that I commanded you; and lo, I am with you always, even to the end of the age. (Matthew 28:19-20 NASB1995).
+
+  Go, baptize, teach obedience - Christ's authority and presence to the end of the age, not recruitment zeal.
 
   Teaching obedience is discipleship after faith - not a works payment for salvation under [[Free Grace]]. PKM parallel: [[Creative Output]] - the gospel isn't fully kept until it's passed on; inventory notes mean nothing if they never leave the garden.
-  
+
   Jesus sends believers to go, baptize, and teach obedience under His authority and presence to the end of the age.
-  
+
   Go, baptize, teach obedience - under Christ's authority, not recruitment zeal.
 examples:
   - "My kid asked a friend what church is and I almost deflected - great commission is go and make disciples, starting with plain answers at the kitchen table."

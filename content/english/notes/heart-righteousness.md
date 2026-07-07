@@ -3,15 +3,18 @@ title: "Heart Righteousness"
 meta_title: "Heart Righteousness - Anger and Lust as Heart Sins"
 description: "Heart righteousness goes deeper than outward acts - anger is murder, lust is adultery, in the heart."
 key_concept: |
-  Jesus didn't lower the law; he exposed its depth. (Matthew 5:21-30).
+  You have heard that the ancients were told, 'YOU SHALL NOT COMMIT MURDER' and 'Whoever commits murder shall be liable to the court.' But I say to you that everyone who is angry with his brother shall be guilty before the court. (Matthew 5:21-22 NASB1995).
+
+  Angry with your brother - guilty before the court even if you smiled outwardly.
+
+  everyone who looks at a woman with lust for her has already committed adultery with her in his heart (Matthew 5:28 NASB1995).
+
+  Lust logged mentally - adultery in the heart though marriage looks fine outside.
 
   "You have heard… but I say" moves righteousness from courtroom compliance to motive and imagination. Under [[Free Grace]], this isn't a new merit ladder - it's the standard the Spirit applies to a life already saved, starting where only God sees. [[Fruits of the Spirit]] names what that inner work produces outward - love, gentleness, self-control, and the rest.
-  
-  Heart righteousness goes deeper than outward acts.
-  
-  everyone who is angry with his brother shall be guilty before the court; everyone who looks at a woman with lust for her has already committed adultery with her in his heart (Matthew 5:22, 28).
 
-  .
+  Heart righteousness goes deeper than outward acts.
+
 examples:
   - "I smiled through the bad call and nursed the anger the whole ride home - heart righteousness is polite outside, poison inside; God cares about the inner life."
   - "I sent a cold reply that sounded professional while resentment ran inside - Jesus moves righteousness from courtroom compliance to motive."

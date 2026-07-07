@@ -3,18 +3,20 @@ title: "Renewed Mind"
 meta_title: "Renewed Mind - Romans 12:2 Mind Transformation"
 description: "Don't copy the world's default thinking - let Scripture reshape how I see, choose, and obey."
 key_concept: |
-  If you continue in My word, then you are truly disciples of Mine; and you will know the truth, and the truth will make you free. (John 8:31-32).
+  If you continue in My word, then you are truly disciples of Mine; and you will know the truth, and the truth will make you free. (John 8:31-32 NASB1995).
 
-  .
+  Stay in His word and you're His disciple - truth frees the mind culture tried to lock in hurry and outrage.
 
-  [[Mercy]] received first - then the living sacrifice, then the renewed mind (Romans 12:1-2).
+  I urge you, brethren, by the mercies of God, to present your bodies a living and holy sacrifice, acceptable to God, which is your spiritual service of worship. And do not be conformed to this world, but be transformed by the renewing of your mind, so that you may prove what the will of God is, that which is good and acceptable and perfect. (Romans 12:1-2 NASB1995).
 
-  .
-  
+  Mercy first, then sacrifice, then a mind being renewed - Paul stacks the order I keep swapping.
+
+  [[Mercy]] received first - then the living sacrifice, then the renewed mind
+
   And do not be conformed to this world, but be transformed by the renewing of your mind, so that you may prove what the will of God is, that which is good and acceptable and perfect. Under [[Free Grace]], renewal doesn't earn eternal life; it follows the verdict [[Justification]] already gave. [[Sanctification]] is the slow becoming; mind renewal is the inner engine that keeps choices from running on culture's defaults. [[Abide in Me]] feeds it - His words dwell where I actually read. [[Repent and Believe]] names the turn: change of mind and direction, not a down payment on salvation. PKM mirror: [[Information Diet]] curates feeds; renewed mind goes deeper - Scripture and prayer reshape judgment, not just block noise.
-  
+
   Don't copy the world's default thinking.
-  
+
   Let Scripture reshape how I see, choose, and obey.
 examples:
   - "I knew the verse on patience and still snapped at dinner - my standing was settled at faith, but my mind was still running the world's hurry-and-react script until I opened Scripture before the group chat."

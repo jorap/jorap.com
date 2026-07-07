@@ -3,14 +3,14 @@ title: "Success is Stewardship"
 meta_title: "Success is Stewardship - Borrowed Gifts, Not Permanent Ownership"
 description: "Success is borrowed - I'm accountable for how I use what I was given, not entitled to keep it forever."
 key_concept: |
-  Well done, good and faithful slave. You were faithful with a few things, I will put you in charge of many things; enter into the joy of your master. (Matthew 25:21).
+  Well done, good and faithful slave. You were faithful with a few things, I will put you in charge of many things; enter into the joy of your master. (Matthew 25:21 NASB1995).
 
-  .
+  Promotion and platform are entrusted for faithful use - enter the master's joy, don't bury the talent in ego.
 
   Success isn't ownership - it's stewardship of what I was given: time, health, platform, money, influence.
-  
+
   [[Free Grace]] settled where I spend forever; stewardship settles what I do with the gifts after. [[Faithful Steward]] is the parable Jesus told - well done for faithful use, buried talent rebuked. This note is the headline above the parable: promotion, audience, and a good season are entrusted, not trophies I earned to keep. [[Eternal Rewards]] names repayment; [[Judgment Seat]] names the review. Workplace mirrors: [[Servant Leadership]], [[Share What You Learn]], [[Integrity Without an Audience]] - use the slot for the team, not ego. PKM mirror: [[Creative Output]] and [[Digital Garden]] - notes hoarded help nobody; [[The Collector's Fallacy]] is burying the talent in bookmarks.
-  
+
   Success is borrowed - I'm accountable for how I use what I was given, not entitled to keep it forever.
 examples:
   - "Site traffic spiked after a post hit and I caught myself acting like I'd built a kingdom - success is stewardship: tend the garden, share what landed, don't confuse reach with ownership."

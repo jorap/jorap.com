@@ -102,6 +102,8 @@ verses:
   love-your-neighbor:
     - ref: Matthew 22:39
       explain: "Second command, paired with the first - love the person in front of you the way you'd want care if roles flipped."
+    - ref: Mark 12:31
+      explain: "Jesus echoed Moses on the second command - no command ranks higher than loving God and neighbor."
     - ref: Luke 10:37
       explain: "The Samaritan acted as neighbor - go and do the same, don't debate who counts."
   the-golden-rule:
@@ -110,8 +112,6 @@ verses:
   love-your-enemies:
     - ref: Matthew 5:44-45
       explain: "Bless and pray for persecutors - the Father sends sun and rain on just and unjust; I copy that kindness."
-    - ref: Matthew 5:45
-      explain: "Free grace toward the unjust is the pattern - I loved enemies because God loved me first."
   forgiveness:
     - ref: Matthew 6:14-15
       explain: "Forgive others or the Father won't forgive you - daily rhythm, not a one-time sermon nod."
@@ -173,6 +173,10 @@ verses:
   eternal-rewards:
     - ref: Matthew 6:4
       explain: "Father who sees in secret repays - hidden devotion counted, not applause theater."
+    - ref: Matthew 6:18
+      explain: "Secret fasting gets the same promise - Father who sees in secret rewards, not the crowd's applause."
+    - ref: Matthew 16:27
+      explain: "Son of Man repays deeds at His return - reward review for the saved life, not the price of eternal life."
     - ref: Matthew 25:21
       explain: "Well done for faithful use - gift first, repayment for faithfulness second, not the price of eternal life."
   the-beatitudes:

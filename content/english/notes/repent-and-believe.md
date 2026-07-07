@@ -3,14 +3,14 @@ title: "Repent and Believe"
 meta_title: "Repent and Believe - Jesus' First Command"
 description: "Jesus' opening command: turn from self-rule and trust the good news that the kingdom is at hand."
 key_concept: |
-  The time is fulfilled, and the kingdom of God is at hand; repent and believe in the gospel. (Mark 1:15).
+  The time is fulfilled, and the kingdom of God is at hand; repent and believe in the gospel. (Mark 1:15 NASB1995).
 
-  .
+  Kingdom's here now - turn from self-rule and trust the gospel today, not when habits look respectable.
 
   Repentance is a change of mind and direction - not a down payment on salvation.
-  
+
   Belief is reliance on Christ's promise, not mere intellectual agreement. Under [[Free Grace]], this pair is how life begins: receive the kingdom as gift, then live under the King's rule in response. [[There Is No Perfect Solution]] - the kingdom is at hand now, not when you've fixed yourself.
-  
+
   Jesus' opening command: turn from self-rule and trust the good news that the kingdom is at hand.
 examples:
   - "I kept telling myself I'd trust the coach's system once my form looked respectable - repent and believe is the door you walk through today, messy as you are."

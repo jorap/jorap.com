@@ -3,10 +3,20 @@ title: "The Beatitudes"
 meta_title: "The Beatitudes - Blessed Are the..."
 description: "Jesus opened the Sermon on the Mount with eight blessings - a picture of who the kingdom favors."
 key_concept: |
-  "Beatitude" means supreme blessedness. (Matthew 5:3-12). Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not the self-sufficient - which fits [[Free Grace]] perfectly. Blessed are the poor in spirit, for theirs is the kingdom of heaven (Matthew 5:3).
+  Blessed are the poor in spirit, for theirs is the kingdom of heaven. Blessed are those who mourn, for they shall be comforted. Blessed are the gentle, for they shall inherit the earth. Blessed are those who hunger and thirst for righteousness, for they shall be satisfied. Blessed are the merciful, for they shall receive mercy. Blessed are the pure in heart, for they shall see God. Blessed are the peacemakers, for they shall be called sons of God. Blessed are those who have been persecuted for the sake of righteousness, for theirs is the kingdom of heaven. (Matthew 5:3-12 NASB1995).
+
+  Eight blessings flip the scoreboard - kingdom favor for the spiritually needy, not the self-sufficient.
+
+  "Beatitude" means supreme blessedness
+
+  Blessed are the poor in spirit, for theirs is the kingdom of heaven. (Matthew 5:3 NASB1995).
+
+  Poor in spirit - broke before God, receiving the kingdom as gift not wage.
+
+  Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not the self-sufficient - which fits [[Free Grace]] perfectly. Blessed are the poor in spirit, for theirs is the kingdom of heaven
 
   - bankruptcy before God, receiving the kingdom as gift rather than wage. Each line promises reward rooted in character shaped by grace, not self-made righteousness.
-  
+
   | Trait (NASB) | Promise (NASB).
 
   |
@@ -19,13 +29,13 @@ key_concept: |
   | Pure in heart | they shall see God |
   | [[Peacemakers]] | they shall be called sons of God |
   | Persecuted for righteousness | theirs is the kingdom of heaven |
-  
+
   Jesus opened the Sermon on the Mount with eight blessings.
-  
+
   A picture of who the kingdom favors.
-  
+
   The Beatitudes are a picture of who the kingdom favors - meek, merciful, peacemakers, not the loud and grasping.
-  
+
   The Beatitudes fit Free Grace perfectly - kingdom favor is gift, not wages for performance.
 examples:
   - "A good week at the clinic and I felt like I didn't need much from God - poor in spirit is broke before God, not the worker who nailed Friday's schedule."

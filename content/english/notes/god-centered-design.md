@@ -3,16 +3,16 @@ title: "God Centered Design"
 meta_title: "God Centered Design - Build for God's Glory First"
 description: "I design life and work around God's glory first - not crowd applause, ego, or my comfort."
 key_concept: |
-  Let your light shine before men in such a way that they may see your good works, and glorify your Father who is in heaven. (Matthew 5:16).
+  Let your light shine before men in such a way that they may see your good works, and glorify your Father who is in heaven. (Matthew 5:16 NASB1995).
 
-  .
+  Good works visible so the Father gets glory - build for His name, not my brand.
 
   A calendar built for applause still feels empty on Monday.
-  
+
   God-centered design asks who the plan ultimately serves before I optimize the slide, the program, or the side project. [[Seek the Kingdom First]] is the priority filter; [[Love Your Neighbor]] keeps it from becoming selfish spirituality - people still matter, but God's reign sets the aim. PKM mirror: [[People-Centered Design]] serves real human needs; this note orders what I'm building and why. [[Success is Stewardship]] - the platform was borrowed, not mine to brand.
-  
+
   I design life and work around God's glory first.
-  
+
   Not crowd applause, ego, or my comfort.
 examples:
   - "The youth event looked great in parent photos but nobody prayed afterward - God-centered design meant cutting one performance block for small groups and Scripture."

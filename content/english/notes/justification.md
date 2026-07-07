@@ -3,20 +3,30 @@ title: "Justification"
 meta_title: "Justification - Declared Righteous at Faith"
 description: "God declared me righteous at faith - before my obedience caught up."
 key_concept: |
-  I tell you, this man went to his house justified rather than the other; for everyone who exalts himself will be humbled, but he who humbles himself will be exalted. (Luke 18:14).
+  I tell you, this man went to his house justified rather than the other; for everyone who exalts himself will be humbled, but he who humbles himself will be exalted. (Luke 18:14 NASB1995).
 
-  .
+  The tax collector went home justified - humility before God, not self-promotion, is what Jesus commended.
 
-  being justified as a gift by His grace through the redemption which is in Christ Jesus (Romans 3:24). Faith credited as righteousness (Romans 4:5). Therefore, having been justified by faith, we have peace with God through our Lord Jesus Christ (Romans 5:1).
+  being justified as a gift by His grace through the redemption which is in Christ Jesus (Romans 3:24 NASB1995).
 
-  .
-  
+  Paul names the verdict - justified as a gift by grace, Christ's redemption, not my performance.
+
+  to the one who does not work, but believes in Him who justifies the ungodly, his faith is credited as righteousness (Romans 4:5 NASB1995).
+
+  Faith credited as righteousness
+
+  Faith credited as righteousness for the one who believes, not the one who works the room.
+
+  Therefore, having been justified by faith, we have peace with God through our Lord Jesus Christ (Romans 5:1 NASB1995).
+
+  Justified by faith, peace with God - the case closed at trust, not at perfect obedience.
+
   [[Free Grace]] names the gift; justification names the legal move: guilty sinner, faith in Christ, declared not guilty - Christ's record credited to me. Same shape as [[Minimum Effective Dose]]: one sufficient act at the start, not a lifetime of merit stacked before God says yes. [[Standing vs Fellowship]] keeps the verdict separate from daily closeness - confession restores fellowship, it doesn't re-buy heaven. [[Sanctification]] is what comes after - becoming holy over time. [[Eternal Rewards]] is what the Father pays faithful living after. None of those three re-open the case justification closed.
-  
+
   God declared me righteous at faith.
-  
+
   Before my obedience caught up.
-  
+
   Justification means God declared me righteous at faith - before my obedience caught up.
 examples:
   - "My kid asked if God likes him yet - I said God already declared him righteous the moment he trusted Christ, not when his room got clean."

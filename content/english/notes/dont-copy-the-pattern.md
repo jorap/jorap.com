@@ -3,18 +3,20 @@ title: "Don't Copy the Pattern"
 meta_title: "Don't Copy the Pattern - Refuse Culture's Default"
 description: "Culture's default script isn't neutral - I refuse the pattern before reactions run on autopilot."
 key_concept: |
-  If you were of the world, the world would love its own; but because you are not of the world, but I chose you out of the world, because of this the world hates you. (John 15:19).
+  If you were of the world, the world would love its own; but because you are not of the world, but I chose you out of the world, because of this the world hates you. (John 15:19 NASB1995).
 
-  .
+  Chosen out of the world - so when the feed's outrage feels normal, that's the world's script, not mine.
 
-  And do not be conformed to this world (Romans 12:2).
+  And do not be conformed to this world, but be transformed by the renewing of your mind, so that you may prove what the will of God is, that which is good and acceptable and perfect. (Romans 12:2 NASB1995).
+
+  Don't conform - refuse the default before renewal reshapes how I react.
 
   [[Renewed Mind]] is the positive half - be transformed by the renewing of your mind. This note names the refusal: outrage feeds, hurry-and-react, comparison traps - culture's presets I didn't choose but my nervous system runs anyway.
-  
+
   [[Information Diet]] curates inputs; [[Digital Minimalism]] cuts tools; this is the posture before the feed loads. [[Attention Economy]] fights for what fills the mind first. [[Behavioral Economics]] names the default nudges; refusal is the interrupt before the script mails the reply.
-  
+
   Culture's default script isn't neutral - I refuse the pattern before reactions run on autopilot.
-  
+
   And do not be conformed to this world - refuse before renewal reshapes the mind.
 examples:
   - "I knew the verse on patience and still snapped at dinner - my mind was running the world's hurry-and-react script until I stopped copying the pattern and opened Scripture before the group chat."

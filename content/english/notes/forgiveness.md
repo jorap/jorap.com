@@ -3,10 +3,20 @@ title: "Forgiveness"
 meta_title: "Forgiveness - As the Father Forgives You"
 description: "I extend the forgiveness I already received, not ledger-keeping on debts Christ cleared."
 key_concept: |
-  The [[Ask Seek Knock]] builds forgiveness into daily rhythm. (Matthew 6:14-15, 18:21-35). The parable of the unforgiving servant (Matthew 18) makes the math plain: the king forgave an unpayable debt - picture of [[Free Grace]] already given - and the servant's refusal to forgive a small debt exposed a heart out of step with [[Mercy]]. Same move as [[Sunk Cost Fallacy]] in reverse: I stop treating past hurt as a reason to keep collecting on a debt that's already been cleared. up to seventy times seven (Matthew 18:22) ends the ledger-keeping. For believers, unforgiveness chokes fellowship and joy; it doesn't undo eternal life bought by faith ([[Standing vs Fellowship]] and [[Loss of Reward]] keep the categories straight).
+  if you forgive others for their transgressions, your heavenly Father will also forgive you. But if you do not forgive others, then your Father will not forgive your transgressions. (Matthew 6:14-15 NASB1995).
 
-  .
-  
+  Forgive others or the Father won't forgive you - daily rhythm, not a one-time sermon nod.
+
+  I do not say to you, up to seven times, but up to seventy times seven. (Matthew 18:22 NASB1995).
+
+  Seventy times seven ends ledger-keeping - stop counting how many times you've been wronged.
+
+  Then summoning him, his lord said to him, 'You wicked slave, I forgave you all that debt because you pleaded with me. Should you not also have had mercy on your fellow slave, in the same way that I had mercy on you?' (Matthew 18 NASB1995).
+
+  The unforgiving servant - king forgave an unpayable debt; refusing a small debt exposed a heart out of step.
+
+  The parable of the unforgiving servant makes the math plain: the king forgave an unpayable debt - picture of [[Free Grace]] already given - and the servant's refusal to forgive a small debt exposed a heart out of step with [[Mercy]]. Same move as [[Sunk Cost Fallacy]] in reverse: I stop treating past hurt as a reason to keep collecting on a debt that's already been cleared. For believers, unforgiveness chokes fellowship and joy; it doesn't undo eternal life bought by faith ([[Standing vs Fellowship]] and [[Loss of Reward]] keep the categories straight). [[Ask Seek Knock]] builds forgiveness into daily rhythm
+
   I extend the forgiveness I already received, not ledger-keeping on debts Christ cleared.
 examples:
   - "My kid hurt my feelings at breakfast and I said \"it's fine\" while nursing the grudge - forgiveness is releasing the debt, not pretending it didn't matter."

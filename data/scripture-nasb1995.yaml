@@ -1,6 +1,40 @@
 # NASB 1995 — canonical wording for direct scripture quotes in the notes garden.
 # Commentary stays JoRap voice; quoted text matches this file.
 verses:
+  "Matthew 5:14-16":
+    text: "You are the light of the world. A city set on a hill cannot be hidden; nor does anyone light a lamp and put it under a basket, but on the lampstand, and it gives light to all who are in the house. Let your light shine before men in such a way that they may see your good works, and glorify your Father who is in heaven."
+  "Matthew 5:21-30":
+    text: "You have heard that the ancients were told, 'YOU SHALL NOT COMMIT MURDER' and 'Whoever commits murder shall be liable to the court.' But I say to you that everyone who is angry with his brother shall be guilty before the court; and whoever says to his brother, 'You good-for-nothing,' shall be guilty before the supreme court; and whoever says, 'You fool,' shall be guilty enough to go into the fiery hell. If your right eye makes you stumble, tear it out and throw it from you; for it is better for you to lose one of the parts of your body, than for your whole body to be thrown into hell."
+  "Matthew 5:22":
+    text: "everyone who is angry with his brother shall be guilty before the court"
+  "Matthew 5:23-24":
+    text: "Therefore if you are presenting your offering at the altar, and there remember that your brother has something against you, leave your offering there before the altar and go; first be reconciled to your brother, and then come and present your offering."
+  "Matthew 5:3-12":
+    text: "Blessed are the poor in spirit, for theirs is the kingdom of heaven. Blessed are those who mourn, for they shall be comforted. Blessed are the gentle, for they shall inherit the earth. Blessed are those who hunger and thirst for righteousness, for they shall be satisfied. Blessed are the merciful, for they shall receive mercy. Blessed are the pure in heart, for they shall see God. Blessed are the peacemakers, for they shall be called sons of God. Blessed are those who have been persecuted for the sake of righteousness, for theirs is the kingdom of heaven."
+  "Matthew 5:45":
+    text: "He causes His sun to rise on the evil and the good, and sends rain on the righteous and the unrighteous."
+  "Matthew 6:4":
+    text: "so that your giving will be in secret; and your Father who sees what is done in secret will reward you."
+  "Matthew 6:9-13":
+    text: "Pray, then, in this way: 'Our Father who is in heaven, Hallowed be Your name. Your kingdom come. Your will be done, On earth as it is in heaven. Give us this day our daily bread. And forgive us our debts, as we also have forgiven our debtors. And do not lead us into temptation, but deliver us from evil.'"
+  "Matthew 6:1-18":
+    text: "Beware of practicing your righteousness before men to be noticed by them; otherwise you have no reward with your Father who is in heaven. But when you give to the poor, do not let your left hand know what your right hand is doing, so that your giving will be in secret; and your Father who sees what is done in secret will reward you. But you, when you pray, go into your inner room, close your door and pray to your Father who is in secret, and your Father who sees what is done in secret will reward you."
+  "Matthew 6:27":
+    text: "And who of you by being worried can add a single hour to his life's span?"
+  "Matthew 7:1-5":
+    text: "Do not judge so that you will not be judged. For in the way you judge, you will be judged; and by your standard of measure, it will be measured to you. Why do you look at the speck that is in your brother's eye, but do not notice the log that is in your own eye? Or how can you say to your brother, 'Let me take the speck out of your eye,' and behold, the log is in your own eye? You hypocrite, first take the log out of your own eye, and then you will see clearly to take the speck out of your brother's eye."
+  "Matthew 7:16-20":
+    text: "You will know them by their fruits. Grapes are not gathered from thorn bushes nor figs from thistles, are they? So every good tree bears good fruit, but the bad tree bears bad fruit. A good tree cannot produce bad fruit, nor can a bad tree produce good fruit. Every tree that does not bear good fruit is cut down and thrown into the fire. So then, you will know them by their fruits."
+  "Matthew 18":
+    text: "Then summoning him, his lord said to him, 'You wicked slave, I forgave you all that debt because you pleaded with me. Should you not also have had mercy on your fellow slave, in the same way that I had mercy on you?'"
+  "John 15:1-11":
+    text: "I am the true vine, and My Father is the vinedresser. Every branch in Me that does not bear fruit, He takes away; and every branch that bears fruit, He prunes it so that it may bear more fruit. Abide in Me, and I in you. As the branch cannot bear fruit of itself unless it abides in the vine, so neither can you unless you abide in Me. I am the vine, you are the branches; he who abides in Me and I in him, he bears much fruit, for apart from Me you can do nothing. These things I have spoken to you so that My joy may be in you, and that your joy may be made full."
+  "Romans 12:1-2":
+    text: "I urge you, brethren, by the mercies of God, to present your bodies a living and holy sacrifice, acceptable to God, which is your spiritual service of worship. And do not be conformed to this world, but be transformed by the renewing of your mind, so that you may prove what the will of God is, that which is good and acceptable and perfect."
+  "Matthew 6:18":
+    text: "so that your fasting will not be noticed by men, but by your Father who is in secret; and your Father who sees what is done in secret will reward you."
+  "Mark 12:31":
+    text: "The second is this, 'YOU SHALL LOVE YOUR NEIGHBOR AS YOURSELF.' There is no other commandment greater than these."
   "Matthew 5:16":
     text: "Let your light shine before men in such a way that they may see your good works, and glorify your Father who is in heaven."
   "Matthew 7:7-11":

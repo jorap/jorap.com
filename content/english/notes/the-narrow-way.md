@@ -3,20 +3,24 @@ title: "The Narrow Way"
 meta_title: "The Narrow Way - Enter by the Narrow Gate"
 description: "The road to life is narrow and hard - the easy broad path is the one I'd drift onto."
 key_concept: |
-  Enter through the narrow gate; for the gate is wide and the way is broad that leads to destruction, and there are many who enter through it. For the gate is small and the way is narrow that leads to life, and there are few who find it. (Matthew 7:13-14).
+  Enter through the narrow gate; for the gate is wide and the way is broad that leads to destruction, and there are many who enter through it. For the gate is small and the way is narrow that leads to life, and there are few who find it. (Matthew 7:13-14 NASB1995).
 
-  .
-  
-  In [[Free Grace]] terms, the narrow gate is [[Free Grace]] in Christ - not the broad road of self-righteousness, religion-by-works, or moral performance as salvation. Jesus closes the Sermon on the Mount with a fork: not everyone who says "Lord, Lord" enters (Matthew 7:21-23).
+  Broad road is crowded and easy; narrow gate costs self-rule - few find it, but it's the one Jesus named.
+
+  Not everyone who says to Me, 'Lord, Lord,' will enter the kingdom of heaven, but he who does the will of My Father who is in heaven will enter. (Matthew 7:21-23 NASB1995).
+
+  Not everyone who says Lord Lord enters - false profession vs believer who stumbles and may lose reward but stays saved.
+
+  In [[Free Grace]] terms, the narrow gate is [[Free Grace]] in Christ - not the broad road of self-righteousness, religion-by-works, or moral performance as salvation. Jesus closes the Sermon on the Mount with a fork: not everyone who says "Lord, Lord" enters
 
   Those are false professors who never truly believed, not believers who stumbled - [[Loss of Reward]] may apply, but they stay saved. [[Discipleship]] on the narrow path is costly - cross-bearing, enemy-love, truth-telling - but distinct from how eternal life is received: free, by faith, through grace.
-  
+
   The road to life is narrow and hard.
-  
+
   The easy broad path is the one I'd drift onto.
-  
+
   The narrow way warns the road to life is narrow and hard - few find it, but it's the one Jesus named.
-  
+
   Enter by the narrow gate - few find it because it costs self-rule, not because God hides the door.
 examples:
   - "Group chat gossip was \"just joking\" - narrow way was not forwarding the screenshot even when staying out made me the odd one."

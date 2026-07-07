@@ -3,14 +3,12 @@ title: "Love God"
 meta_title: "Love God - The Greatest Commandment"
 description: "First command, whole self - heart, mind, strength, not a corner of Sunday morning."
 key_concept: |
-  Jesus named the great and foremost commandment: YOU SHALL LOVE THE LORD YOUR GOD WITH ALL YOUR HEART, AND WITH ALL YOUR SOUL, AND WITH ALL YOUR MIND (Matthew 22:37-38).
+  YOU SHALL LOVE THE LORD YOUR GOD WITH ALL YOUR HEART, AND WITH ALL YOUR SOUL, AND WITH ALL YOUR MIND. This is the great and foremost commandment. (Matthew 22:37-38 NASB1995).
 
-  .
-  
-  When a scribe asked which commandment was first, Jesus quoted Deuteronomy 6:5: You shall love the LORD your God with all your heart and with all your soul and with all your might - whole-person devotion, not a corner of the week. Heart (affections), soul (will and life), mind (thought), strength (effort).
+  First command, whole self - heart, soul, mind, not a corner of Sunday morning.
 
   Under [[Free Grace]], this is the first call on a life already saved by faith - love flowing from grace received, not love offered as payment for eternal life.
-  
+
   First command, whole self - heart, mind, strength, not a corner of Sunday morning.
 examples:
   - "Match day adrenaline isn't the same as opening my Bible on Thursday - whole-person love means I feed at least one faculty today."

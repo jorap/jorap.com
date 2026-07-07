@@ -3,14 +3,16 @@ title: "Don't Worry"
 meta_title: "Don't Worry - Trust Over Tomorrow"
 description: "Jesus told me not to stack worry on food, clothes, or tomorrow - the Father already feeds birds."
 key_concept: |
-  And who of you by being worried can add a single hour to his life? (Matthew 6:27).
+  And who of you by being worried can add a single hour to his life's span? (Matthew 6:27 NASB1995).
+
+  Worry can't add an hour to your life - trust the Father who already feeds birds before you stack anxiety on tomorrow.
 
   The antidote isn't denial - it's priority: [[Seek the Kingdom First]], and let tomorrow carry its own trouble. Trust is active dependence on a Father who already gave eternal life by [[Free Grace]] - [[Assurance]] rests on that promise, not anxiety about earning His care. Overlap with [[Slow Productivity]]: fewer frantic masters, deeper attention on what actually matters.
-  
+
   Jesus told me not to stack worry on food, clothes, or tomorrow.
-  
+
   The Father already feeds birds.
-  
+
   The Father already feeds birds - worry about tomorrow argues with someone who runs the weather.
 examples:
   - "I thumb-refresh the news about tomorrow's meeting instead of sleeping - worry can't add a single hour to life, and tomorrow can carry its own trouble."

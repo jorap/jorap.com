@@ -79,4 +79,7 @@
   {{- $content = replace $content .token .block -}}
 {{- end -}}
 
+{{- /* Red-letter: Jesus' words in Gospel NASB paragraphs (Matthew/Mark/Luke/John NASB1995). */ -}}
+{{- $content = replaceRE `<p>([^<]*)\((Matthew|Mark|Luke|John) ([^)]+) NASB1995\)\.</p>` `<p><span class="jesus-words">$1($2 $3 NASB1995).</span></p>` $content -}}
+
 {{- $content | safeHTML -}}

@@ -3,18 +3,18 @@ title: "Faith and Works"
 meta_title: "Faith and Works - Saved by Faith, Shown by Action"
 description: "Faith alone saves me - works show it's alive, they don't buy heaven."
 key_concept: |
-  everyone who hears these words of Mine and acts on them, may be compared to a wise man who built his house on the rock. (Matthew 7:24-27).
+  everyone who hears these words of Mine and acts on them, may be compared to a wise man who built his house on the rock. (Matthew 7:24-27 NASB1995).
 
-  .
+  Hear Jesus and do - rock stands in the storm; hearing alone is sand.
 
   Paul and James aren't two gospels fighting.
-  
+
   Paul answers *how* I'm saved: trust Christ, not wages. James answers *what* living faith looks like: Abraham offered Isaac - faith already counted him righteous, then action proved it. [[Grateful Obedience]] names the motive: works prove faith alive because grace already saved, not to buy heaven. [[Justification]] is the verdict at faith. [[Sanctification]] and [[Discipleship]] are the walk where works appear. [[The Wise Builder]] is the picture: hear Jesus and do - sand collapses when hearing never becomes action. [[The Narrow Way]] and [[Loss of Reward]] split false "Lord, Lord" (never believed).
 
   from a believer who stumbles, repents, and may lose reward but stays saved.
-  
+
   Faith alone saves me - good works follow, they never buy the ticket.
-  
+
   Works show it's alive, they don't buy heaven.
 examples:
   - "A coworker quoted James like you need faith plus works to get in - one sentence: works prove faith is real; they don't buy the door Christ already opened."

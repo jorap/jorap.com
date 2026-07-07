@@ -3,10 +3,28 @@ title: "Eternal Rewards"
 meta_title: "Eternal Rewards - Faithfulness Repaid After Salvation"
 description: "Jesus promised believers the Father will repay faithful obedience after salvation, not as the price of eternal life."
 key_concept: |
-  [[Free Grace]] settles where I spend forever: faith in Christ alone. (Matthew 6:4, 6:18; 16:27; 25:21). Eternal rewards settle what the Father pays the saved life for walking faithfully - including hidden devotion ([[Secret Devotion]]) and open obedience ([[Let Your Light Shine]]). [[Faithful Steward]] is Jesus' parable for it: Well done, good and faithful slave (Matthew 25:21).
+  so that your giving will be in secret; and your Father who sees what is done in secret will reward you. (Matthew 6:4 NASB1995).
 
-  [[Treasure in Heaven]] aims the heart at what to store; this note names the transaction: gift first, repayment for faithfulness second. The [[Judgment Seat]] is where works get evaluated; [[Loss of Reward]] keeps reward-loss separate from salvation-loss. Same shape as [[Compounding]] in the garden - small obedient acts over years, not one heroic week I mistake for a merit down payment on heaven.
-  
+  Father who sees in secret repays - hidden devotion counted, not applause theater.
+
+  so that your fasting will not be noticed by men, but by your Father who is in secret; and your Father who sees what is done in secret will reward you. (Matthew 6:18 NASB1995).
+
+  Secret fasting gets the same promise - Father who sees in secret rewards, not the crowd's applause.
+
+  For the Son of Man is going to come in the glory of His Father with His angels, and WILL THEN REPAY EVERY MAN ACCORDING TO HIS DEEDS. (Matthew 16:27 NASB1995).
+
+  Son of Man repays deeds at His return - reward review for the saved life, not the price of eternal life.
+
+  Well done, good and faithful slave. You were faithful with a few things, I will put you in charge of many things; enter into the joy of your master. (Matthew 25:21 NASB1995).
+
+  Well done for faithful use - gift first, repayment for faithfulness second, not the price of eternal life.
+
+  [[Free Grace]] settles where I spend forever: faith in Christ alone.
+
+  Eternal rewards settle what the Father pays the saved life for walking faithfully - including hidden devotion ([[Secret Devotion]]) and open obedience ([[Let Your Light Shine]]).
+
+  [[Faithful Steward]] is Jesus' parable for it. [[Treasure in Heaven]] aims the heart at what to store; this note names the transaction: gift first, repayment for faithfulness second. The [[Judgment Seat]] is where works get evaluated; [[Loss of Reward]] keeps reward-loss separate from salvation-loss. Same shape as [[Compounding]] in the garden - small obedient acts over years, not one heroic week I mistake for a merit down payment on heaven.
+
   Jesus promised believers the Father will repay faithful obedience after salvation, not as the price of eternal life.
 examples:
   - "I stayed late to help reset the gym alone and immediately wanted to mention it at the next practice - the Father already saw it, and He's the one who pays, not the team chat."

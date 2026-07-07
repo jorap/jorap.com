@@ -3,10 +3,12 @@ title: "Let Your Yes Be Yes"
 meta_title: "Let Your Yes Be Yes - Plain Speech"
 description: "Speak plainly - no swearing oaths to make people trust you; let your word stand on its own."
 key_concept: |
-  let your statement be, 'Yes, yes' or 'No, no'; anything beyond these is of evil. (Matthew 5:33-37).
+  let your statement be, 'Yes, yes' or 'No, no'; anything beyond these is of evil (Matthew 5:33-37 NASB1995).
+
+  Yes means yes - padded oaths mean your word wasn't trustworthy on its own.
 
   anything beyond these is of evil - meaning manipulation, not that all contracts are sin. PKM parallel: [[Atomic Notes]] - one plain claim per page, no padded prose to sound smart. [[Integrity]] of speech is [[Heart Righteousness]], not performance for [[Let Your Light Shine]].
-  
+
   Speak plainly - no swearing oaths to make people trust you; let your word stand on its own.
 examples:
   - "I told the coach I'd have my kid there \"God willing, absolutely, cross my heart\" when a plain yes would have been enough."

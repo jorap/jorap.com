@@ -3,14 +3,16 @@ title: "Seek the Kingdom First"
 meta_title: "Seek the Kingdom First - Matthew 6:33"
 description: "I put God's rule first and let food, status, and tomorrow's worry sort behind that."
 key_concept: |
-  seek first His kingdom and His righteousness, and all these things will be added to you (Matthew 6:33).
+  seek first His kingdom and His righteousness, and all these things will be added to you. (Matthew 6:33 NASB1995).
+
+  Kingdom and righteousness first - food, status, and tomorrow sort behind that, not before my inbox.
 
   - the test is what actually gets my first ten minutes of the day.
-  
+
   The Sermon on the Mount ties this to not serving two masters (God and wealth).
 
   and to storing [[Treasure in Heaven]]. Kingdom isn't escape from earth - it's God's reign ordering my priorities today. Same job as [[Signal vs Noise]] in the PKM stack: what gets first place when everything feels urgent.
-  
+
   I put God's rule first and let food, status, and tomorrow's worry sort behind that.
 examples:
   - "Tuesday at 7am the house was loud and my Bible was still closed - seek the kingdom first is Scripture before the day's noise sets the agenda."

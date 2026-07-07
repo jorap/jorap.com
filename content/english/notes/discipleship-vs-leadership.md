@@ -3,16 +3,16 @@ title: "Discipleship vs Leadership"
 meta_title: "Discipleship vs Leadership - Two Seats, One Person"
 description: "Discipleship is who I follow upward; leadership is who looks to me for direction and care - two seats."
 key_concept: |
-  whoever wishes to become great among you shall be your servant, and whoever wishes to be first among you shall be your slave; just as the Son of Man did not come to be served, but to serve, and to give His life a ransom for many. (Matthew 20:26-28).
+  whoever wishes to become great among you shall be your servant, and whoever wishes to be first among you shall be your slave; just as the Son of Man did not come to be served, but to serve, and to give His life a ransom for many. (Matthew 20:26-28 NASB1995).
 
-  .
+  Greatness is service - Son of Man came to serve; two seats, upward allegiance and outward care.
 
   [[Discipleship]] answers upward - learn and do what Jesus said after faith, not to buy heaven under [[Free Grace]]. [[Leadership]] answers outward - direction, pace, and care when people look my way; title optional.
-  
+
   Same person, two seats. Swapping them is the failure: running a standup isn't following Christ, and a promotion doesn't cancel private obedience. [[Servant Leadership]] overlaps - unblock the team, pass credit down - but that's still horizontal care for people, not the vertical allegiance discipleship names. [[Humility and Service]] is gospel depth on the overlap: greatness through serving, not being served.
-  
+
   [[Great Commission]] pushes discipleship outward - make disciples, teach obedience. [[Share What You Learn]] is the workplace echo: pass on skill, don't hoard the map. PKM mirror: [[Standing vs Fellowship]] - two ledgers that feel the same until you name the category.
-  
+
   Discipleship is who I follow upward; leadership is who looks to me for direction and care - two seats.
 examples:
   - "I ran the youth program like a CEO and skipped morning prayer for a month - leadership filled the calendar; discipleship is who I follow when nobody's watching."

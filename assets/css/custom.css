@@ -5,6 +5,7 @@
     --color-graph-center: #eab308;
     --color-graph-hub: #15803d;
     --color-graph-tail: #dc2626;
+    --color-jesus-words: #b91c1c;
   }
 
   html.dark {
@@ -22,6 +23,7 @@
     --color-graph-center: #facc15;
     --color-graph-hub: var(--color-darkmode-success);
     --color-graph-tail: #f87171;
+    --color-jesus-words: #f87171;
   }
 }
 
@@ -219,6 +221,11 @@ html.dark .content b {
   color: var(--color-ink-muted);
   font-size: 1rem;
   line-height: 1.625;
+}
+
+/* Gospel NASB paragraphs — Jesus' words (see render-content.html). */
+.content.notes-content .jesus-words {
+  color: var(--color-jesus-words);
 }
 
 .content.notes-content :is(strong, b) {

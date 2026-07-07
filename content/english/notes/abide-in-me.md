@@ -3,10 +3,18 @@ title: "Abide in Me"
 meta_title: "Abide in Me - Fruit from Union with Christ"
 description: "I bear fruit when I stay connected to Christ, not when I force it by willpower alone."
 key_concept: |
-  apart from Me you can do nothing (John 15:5). Abiding is ongoing dependence, not a one-time conversion event. (John 15:1-11).
+  apart from Me you can do nothing. (John 15:5 NASB1995).
+
+  Cut off from the vine, I produce nothing lasting - fruit comes from staying connected, not willpower theater.
+
+  I am the true vine, and My Father is the vinedresser. Every branch in Me that does not bear fruit, He takes away; and every branch that bears fruit, He prunes it so that it may bear more fruit. Abide in Me, and I in you. As the branch cannot bear fruit of itself unless it abides in the vine, so neither can you unless you abide in Me. I am the vine, you are the branches; he who abides in Me and I in him, he bears much fruit, for apart from Me you can do nothing. These things I have spoken to you so that My joy may be in you, and that your joy may be made full. (John 15:1-11 NASB1995).
+
+  Abiding is ongoing dependence - pruning hurts but serves fruitfulness over time.
+
+  Abiding is ongoing dependence, not a one-time conversion event
 
   Pruning hurts but serves fruitfulness. Under [[Free Grace]], fruit doesn't earn the branch's place in the vine - the branch bears fruit because it's connected. [[Fruits of the Spirit]] names the cluster Galatians lists - love through self-control - grown by walking in the Spirit, not sheer willpower. [[Sanctification]] is the slow becoming that abiding produces over time. Self-powered "fruit" without abiding is the dead wood Jesus removes - same trap as [[Compounding]] when I treat spiritual growth as pure self-stacked effort.
-  
+
   I bear fruit when I stay connected to Christ, not when I force it by willpower alone.
 examples:
   - "I snap at my kid after a week with almost no prayer or Scripture, and I know where the fruit went - abiding is opening the Bible before the news feed wins again."
