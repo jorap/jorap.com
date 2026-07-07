@@ -14,7 +14,7 @@ related_notes:
   - follow-through
 featured: false
 draft: false
-lastmod: 2026-07-07T04:00:00Z
+lastmod: 2026-07-07T04:10:00Z
 ---
 
 I've been following Alex Eala's career since her amazing run at the 2025 Miami Open, and watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook - career-high rankings, the matches I'll always remember, the head-to-heads with Grand Slam champions, and the upcoming matchups I'm watching for. I update it as her career unfolds.
@@ -235,10 +235,10 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
     - First Filipina to reach the second week (Round of 16) at a Grand Slam
     - First Filipina to reach the fourth round of a major in the Open era
     - Upset defending champion Iga Swiatek on Centre Court
-    - 4th Round, l. Paolini 4-6, 6-4, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320404) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/j-paolini-vs-a-eala-2026-07-06) | [wimbledon.com](https://www.wimbledon.com/en_GB/match/2026-jasmine-paolini-vs-alexandra-eala-ws004)
-    - 3rd Round, d. Swiatek 7-6(9), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362774) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04) | [wimbledon.com](https://www.wimbledon.com/en_GB/match/2026-iga-swiatek-vs-alexandra-eala-ws003)
-    - 2nd Round, d. Joint 3-6, 6-2, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362773) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-m-joint-2026-07-02) | [wimbledon.com](https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-maya-joint-ws002)
-    - 1st Round, d. Zarazua 6-1, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362772) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-r-zarazua-2026-06-30) | [wimbledon.com](https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-renata-zarazua-ws001)
+    - 4th Round, l. Paolini 4-6, 6-4, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320404) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/j-paolini-vs-a-eala-2026-07-06)
+    - 3rd Round, d. Swiatek 7-6(9), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320392) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04)
+    - 2nd Round, d. Joint 3-6, 6-2, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320418) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-m-joint-2026-07-02)
+    - 1st Round, d. Zarazua 6-1, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362772) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-r-zarazua-2026-06-30)
 
 {{< youtube bgSs0pKIAGI >}}
 
@@ -307,7 +307,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2026 Wimbledon (Grass)** - 3rd Round, WIN, 7-6(9), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362774) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04)
+- **2026 Wimbledon (Grass)** - 3rd Round, WIN, 7-6(9), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320392) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04)
 
 {{< youtube KUVh-Jflv_Q >}}
 
@@ -543,7 +543,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2026 Wimbledon (Grass)** - 4th Round, LOSS, 4-6, 6-4, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320404) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/j-paolini-vs-a-eala-2026-07-06) | [wimbledon.com](https://www.wimbledon.com/en_GB/match/2026-jasmine-paolini-vs-alexandra-eala-ws004)
+- **2026 Wimbledon (Grass)** - 4th Round, LOSS, 4-6, 6-4, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320404) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/j-paolini-vs-a-eala-2026-07-06)
 
 {{< youtube ZsJYg7q0ZnM >}}
 

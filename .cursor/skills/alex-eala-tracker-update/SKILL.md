@@ -47,7 +47,7 @@ Match the author's voice: first-person Filipino fan, proud but factual. Preserve
 4. **Prefer web search for discovery.** Use search to learn results, opponents, and URLs; then open **one** authoritative page per fact to confirm. Do not crawl search-result links in bulk.
 5. **No retry loops.** If a WTA/Tennis.com fetch returns empty or errors once, switch source (see fallback below) or stop — do not retry the same URL with different headers, agents, or backoff spam.
 6. **Opponent profiles are on demand.** Fetch an opponent's WTA page only when adding/promoting that opponent or verifying a new meeting — never bulk-check every Other Top 20 block on a routine refresh.
-7. **Link checks:** spot-check **new** URLs only. Skip HEAD/fetch on links already in the tracker unless a user reports breakage.
+7. **Link checks:** spot-check **new** URLs only. Skip HEAD/fetch on links already in the tracker unless a user reports breakage. For **Wimbledon** `wtatennis.com` score URLs, confirm the page `<title>` names both players (IDs are not sequential). For `wimbledon.com`, reject URLs whose canonical is `/notfound` or whose page payload is empty — omit the slam link rather than guess slug patterns.
 8. **Summarize unverified gaps** rather than hammering sites to close every open question in one pass.
 
 ## Authoritative sources (use in this order)
