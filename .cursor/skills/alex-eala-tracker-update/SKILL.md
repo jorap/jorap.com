@@ -29,6 +29,7 @@ Match the author's voice: first-person Filipino fan, proud but factual. Preserve
 | At a glance / summary refresh | [At a glance workflow](#at-a-glance-workflow) |
 | Grand Slam Champions re-sort | [Grand Slam Champions sort](#grand-slam-champions-sort) |
 | Top 20 opponent wins a Slam | [Slam-winner promotion workflow](#slam-winner-promotion-workflow) |
+| Video embed priority / dedup | [Video embed priority](#video-embed-priority-mandatory) |
 | Formatting templates and player IDs | [reference.md](reference.md) |
 
 ## Polite fetching (mandatory)
@@ -185,7 +186,7 @@ Two groups exist today:
 **New opponent rule:**
 
 - Won a Grand Slam (or wins one before/after first meeting) → `### [Name]` under **Grand Slam Champions** — never under Other Top 20, even if they are also a current top-20 player
-- Top 20 or notable rivalry **without** a Slam singles title → new `### [Name]` under **Other Top 20 Players** (WTA profile, H2H link, and YouTube embeds only — no match stat lines)
+- Top 20 or notable rivalry **without** a Slam singles title → new `### [Name]` under **Other Top 20 Players** (WTA profile, H2H link, **Matches:** stat lines, and YouTube embeds — same match-line format as Grand Slam Champions, but no Slam titles table)
 
 Grand Slam titles table is required only in the Grand Slam Champions section. Look up titles on the opponent's WTA profile.
 
@@ -200,13 +201,19 @@ Count titles from each opponent's **Grand Slam Titles** table. Do not re-sort **
 
 ### Step 6 — YouTube embeds
 
-Add `{{< youtube VIDEO_ID >}}` shortcodes below tournament and H2H entries when verified match footage exists. Follow [YouTube embed rules](reference.md#youtube-embed-rules). Never guess video IDs — oembed-check **new** IDs only (`title` + `author_name`); IDs already embedded in the tracker are trusted.
+Add `{{< youtube VIDEO_ID >}}` shortcodes when verified match footage exists. Follow [YouTube embed rules](reference.md#youtube-embed-rules). Never guess video IDs — oembed-check **new** IDs only (`title` + `author_name`); IDs already embedded in the tracker are trusted.
 
 Search **official tour/slam channels first**, then **rights-holding broadcasters in any region** (Americas, Europe, Asia-Pacific, Middle East, etc.) before leaving a gap. See [Broadcaster search strategy](reference.md#broadcaster-search-strategy).
 
-For **Best Performances in WTA Tournaments** (singles), embed the **last two matches** of each run, in chronological order (earlier round first, exit round second).
+#### Video embed priority (mandatory)
 
-For **Grand Slam Main Draw Results** (singles and doubles), search for verified match footage for **each round played**. Embed below the tournament block — one shortcode per round when separate official/broadcaster uploads exist; otherwise one embed for the run. Same channel rules as singles; include `doubles` / both pair names in YouTube queries.
+Apply in this order. A `VIDEO_ID` lives in **one** section only — higher-priority sections win.
+
+1. **Matches Against Grand Slam Champions** — embed **every** verified video for **all** completed singles meetings (one or more per match line, directly under the matching line when possible).
+2. **Matches Against Other Top 20 Players** — embed **every** verified video for **all** completed meetings (singles; doubles when that is the only documented H2H); place under the matching **Matches:** line when possible.
+3. **Best Performances in WTA Tournaments** — at most **two** embeds per tournament run, **only** for matches vs opponents **not** in either H2H section. Use the **last two** such matches in the run, chronological order (earlier round first). **Never** embed H2H-opponent footage here — it belongs in H2H only. A run may have **zero** tournament embeds when every deep round was vs an H2H opponent.
+
+**Grand Slam Main Draw Results** (singles and doubles): search for verified footage for **each round played**. Embed below the tournament block — one shortcode per round when separate uploads exist; otherwise one embed for the run. **Deduplicate** against H2H when the same `VIDEO_ID` covers an H2H opponent (H2H wins).
 
 ### Step 7 — Verify
 
@@ -218,7 +225,8 @@ For **Grand Slam Main Draw Results** (singles and doubles), search for verified 
 - No Slam singles title-holder left in Other Top 20 (promote if found)
 - **At a glance** matches WTA Rankings and latest milestones
 - YouTube embeds from official/broadcaster channels only — no fan reuploads
-- No duplicate `VIDEO_ID` across tournament and H2H sections (H2H wins)
+- Video embed priority followed: H2H sections have all opponent match videos; Best Performances has ≤2 embeds and only for non-H2H opponents
+- No duplicate `VIDEO_ID` across sections (H2H wins over Best Performances and Grand Slam)
 - Exit-round tournament links point to the deepest round played
 - Tournament names are **brand-free** and include `(WTA 125|250|500|1000)` on every WTA tour line; Grand Slams use the four major names only
 - H2H match lines use brand-free tournament names
@@ -236,7 +244,7 @@ For **Grand Slam Main Draw Results** (singles and doubles), search for verified 
 | Grand Slam singles/doubles | `1st Round \| [wtatennis.com](url) \| [official slam site](url)` per round played |
 | Grand Slam doubles header | `- **Slam** - Round (with Partner)` before round sub-bullets |
 | Grand Slam Champions H2H | Match stat lines use `tennis.com` or `wtatennis.com` match URLs |
-| Other Top 20 H2H | WTA profile + H2H links + YouTube only — no match lines |
+| Other Top 20 H2H | WTA profile + H2H links + **Matches:** stat lines + YouTube embeds (no Slam titles table) |
 
 ## Single-result workflow
 
@@ -254,7 +262,7 @@ When the user names one tournament or match:
 2. H2H URL pattern: `https://www.wtatennis.com/head-to-head/330332/[OPPONENT_ID]`
 3. Copy structure from an existing opponent block (Grand Slam Champions: Madison Keys; Other Top 20: Iva Jovic)
 4. Add match line: `**YYYY Tournament - Surface - Win/Loss** - [Match Stats](url)` (Grand Slam Champions section only). List matches **newest first**. Tournament name must be **brand-free** (see [Tournament naming rules](#tournament-naming-rules)).
-5. Add YouTube shortcodes only if a verified highlight, extended highlight, or full-match replay exists — see [YouTube embed rules](reference.md#youtube-embed-rules). For **Other Top 20 Players**, embeds only — no match lines.
+5. Add match stat lines under **Matches:** (newest first) and **every** verified YouTube shortcode for **all** meetings vs that opponent — see [YouTube embed rules](reference.md#youtube-embed-rules) and [Video embed priority](#video-embed-priority-mandatory). **Other Top 20** uses the same match-line format as Grand Slam Champions but omits the Slam titles table.
 6. If opponent came from the watch list, remove their watch-list line
 7. Re-sort **Grand Slam Champions** if a new Slam winner was added
 
@@ -281,7 +289,7 @@ Run during every full refresh and whenever a known Other Top 20 opponent wins a 
 
 **Doubles-only context:** if the only documented meeting is doubles (e.g. a Rome QF loss to a Slam-winning pair), keep the opponent in **Other Top 20** until a singles H2H exists, unless the user asks to promote on doubles alone. **Doubles-Slam titles do not trigger promotion** — e.g. Paolini (French Open 2024 singles + Rome 2025 doubles QF only) stays in Other Top 20.
 
-**Duplicate YouTube embeds:** when the same video appears in a tournament entry and an H2H section, keep it in **H2H only**; tournament blocks retain non-overlapping round highlights.
+**Duplicate YouTube embeds:** when the same video appears in a tournament entry and an H2H section, keep it in **H2H only** (see [Video embed priority](#video-embed-priority-mandatory)); tournament blocks retain at most two non-H2H embeds only.
 
 ## Watch-list workflow
 

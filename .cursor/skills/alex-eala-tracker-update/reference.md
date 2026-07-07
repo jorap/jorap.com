@@ -65,6 +65,8 @@ Confirm tier on the WTA tournament page before adding or correcting an entry.
 {{< youtube VIDEO_ID >}}
 ```
 
+Embed at most **two** videos for opponents **not** in either H2H section (last two such matches in the run). Omit embeds when deep rounds were all vs H2H opponents.
+
 Title run:
 
 ```markdown
@@ -153,13 +155,19 @@ List completed singles meetings **newest first**.
 
 ### H2H section (top player, no slam table)
 
-Other Top 20 sections list **YouTube embeds only** — no `**Matches:**` block or match stat lines.
+Other Top 20 sections use the same **Matches:** format as Grand Slam Champions but **omit** the Slam titles table.
 
 ```markdown
 ### Opponent Name
 
 - [WTA Profile](https://www.wtatennis.com/players/XXXXXX/opponent-slug)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/XXXXXX)
+
+**Matches:**
+
+- **2026 Berlin (Grass)** - Quarterfinals, WIN, 6-3, 6-4 | [wtatennis.com](https://...) | [tennis.com](https://...)
+
+List completed singles meetings **newest first**. Add official slam site link on Grand Slam meetings.
 
 {{< youtube VIDEO_ID >}}
 ```
@@ -195,8 +203,8 @@ Recompute this table whenever a new Slam champion block is added or an opponent 
 | Opponent status | Section | Format |
 | --- | --- | --- |
 | Slam singles winner + singles H2H with Eala | **Grand Slam Champions** | Titles table + match stat lines + YouTube |
-| Top 20 / notable, no Slam singles title | **Other Top 20 Players** | WTA + H2H links + YouTube only |
-| Slam winner, no singles H2H yet (doubles only) | **Other Top 20** until singles meeting | YouTube only |
+| Top 20 / notable, no Slam singles title | **Other Top 20 Players** | WTA + H2H links + match stat lines + YouTube |
+| Slam winner, no singles H2H yet (doubles only) | **Other Top 20** until singles meeting | Match lines when singles H2H exists; YouTube only until then |
 | Slam winner, no pro H2H yet | **Matches to Watch Out For** | H2H link + credential note |
 
 When an Other Top 20 player **wins a new Slam**, promote on the next update (see Slam-winner promotion workflow in `SKILL.md`).
@@ -254,17 +262,16 @@ Embed only when the video shows **actual tennis** (points, games, match action).
 
 **Syntax:** each embed on its own line at **column 0** — `{{< youtube VIDEO_ID >}}` with no leading space (indented or inline shortcodes will not render in Hugo).
 
-### Placement
+### Placement (priority order)
 
-- **WTA tournament entries (singles):** up to two embeds directly below the entry — the **last two matches** played, **earlier round first**
-- **Grand Slams (singles):** embed below the tournament block — one per round when separate verified uploads exist
-- **Grand Slams (doubles):** same as singles; search with `doubles`, partner surname, and both team names (e.g. `Eala Lys Wimbledon doubles`, `Eala Zarazua Roland Garros doubles`)
-- **H2H sections (Grand Slam Champions):** match stat lines plus YouTube embeds below relevant match lines
-- **H2H sections (Other Top 20 Players):** YouTube embeds only — no match stat lines
+A `VIDEO_ID` appears in **one** section only. Higher priority wins.
 
-**Duplicate embeds:** When the same `VIDEO_ID` would appear in both a tournament block and an H2H section, keep it in **one place only**. Prefer **H2H sections** for opponent-specific duplicates; tournament blocks keep non-overlapping round highlights only. A tournament entry may have **no embeds** when every verified video was moved to H2H (e.g. Miami 2025 SF vs Pegula/Świątek).
+1. **Matches Against Grand Slam Champions** — **every** verified video for **all** completed singles meetings; place under the matching match line when possible
+2. **Matches Against Other Top 20 Players** — **every** verified video for **all** completed meetings; place under the matching **Matches:** line when possible
+3. **Best Performances in WTA Tournaments (singles and doubles)** — at most **two** embeds per run, **only** for opponents **not** in either H2H section; **last two** such matches in the run, earlier round first. Zero embeds when all deep rounds were vs H2H opponents (e.g. Miami 2025)
+4. **Grand Slam Main Draw Results (singles and doubles)** — one per round when separate verified uploads exist; deduplicate against H2H when the opponent is in an H2H section
 
-- **WTA tournament entries (doubles):** primary `wtatennis.com` link on the exit round; sub-bullets for earlier rounds. Up to two verified embeds below the entry (last two rounds, earlier first).
+**Duplicate embeds:** H2H sections win over Best Performances and Grand Slam blocks. Tournament entries may have **no embeds** after dedup.
 
 Search in this order until a verified match video is found:
 

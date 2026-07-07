@@ -14,7 +14,7 @@ related_notes:
   - follow-through
 featured: false
 draft: false
-lastmod: 2026-07-06T13:00:00Z
+lastmod: 2026-07-07T04:00:00Z
 ---
 
 I've been following Alex Eala's career since her amazing run at the 2025 Miami Open, and watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook - career-high rankings, the matches I'll always remember, the head-to-heads with Grand Slam champions, and the upcoming matchups I'm watching for. I update it as her career unfolds.
@@ -26,7 +26,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - **Career highs:** No. 29 singles · No. 88 doubles
 - **WTA titles:** 2 (Guadalajara 125, Birmingham 125)
 - **Best Slam (singles):** Wimbledon 2026 — Round of 16
-- **Notable firsts:** First Filipina in a Grand Slam main draw; first Filipina to win a Slam main-draw match (US Open 2025); first Filipina in a Grand Slam second week (Wimbledon 2026); first Filipina in a WTA 1000 semifinal (Miami 2025); first Filipina in a WTA 500 semifinal (Berlin 2026); first Filipina in the WTA top 100
+- **Notable firsts:** First Filipina in a Grand Slam main draw; first Filipina to win a Slam main-draw match (US Open 2025); first Filipina to reach a Grand Slam fourth round in the Open era (Wimbledon 2026); first Filipina in a WTA 1000 semifinal (Miami 2025); first Filipina in a WTA 500 semifinal (Berlin 2026); first Filipina in the WTA top 100
 
 ---
 
@@ -64,10 +64,6 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
     - Quarterfinals, d. Svitolina 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/e-svitolina-vs-a-eala-2026-06-19)
     - Round of 16, d. Rybakina 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-e-rybakina-2026-06-18)
     - Round of 32, d. Vekić 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS030) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/d-vekic-vs-a-eala-2026-06-17)
-
-{{< youtube AdoeRVzt6FQ >}}
-
-{{< youtube 2xXtCXEVBqg >}}
 
   - **Birmingham (WTA 125, Grass)**
     - Second Career WTA Title Win
@@ -237,10 +233,12 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
   - **Wimbledon**
     - First Filipina to reach the second week (Round of 16) at a Grand Slam
+    - First Filipina to reach the fourth round of a major in the Open era
     - Upset defending champion Iga Swiatek on Centre Court
-    - 3rd Round, d. Swiatek 7-6(9), 6-2
-    - 2nd Round, d. Joint 3-6, 6-2, 6-0
-    - 1st Round, d. Zarazua 6-1, 6-2
+    - 4th Round, l. Paolini 4-6, 6-4, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320404) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/j-paolini-vs-a-eala-2026-07-06) | [wimbledon.com](https://www.wimbledon.com/en_GB/match/2026-jasmine-paolini-vs-alexandra-eala-ws004)
+    - 3rd Round, d. Swiatek 7-6(9), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362774) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04) | [wimbledon.com](https://www.wimbledon.com/en_GB/match/2026-iga-swiatek-vs-alexandra-eala-ws003)
+    - 2nd Round, d. Joint 3-6, 6-2, 6-0 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362773) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-m-joint-2026-07-02) | [wimbledon.com](https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-maya-joint-ws002)
+    - 1st Round, d. Zarazua 6-1, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362772) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-r-zarazua-2026-06-30) | [wimbledon.com](https://www.wimbledon.com/en_GB/match/2026-alexandra-eala-vs-renata-zarazua-ws001)
 
 {{< youtube bgSs0pKIAGI >}}
 
@@ -258,8 +256,6 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
   - **US Open**
     - 2nd Round, l. Bucsa 4-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63101293) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/c-bucsa-vs-a-eala-2025-08-27) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2204.html)
     - 1st Round, d. Tauson 6-3, 2-6, 7-6(11) | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63131469) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/c-tauson-vs-a-eala-2025-08-24) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2108.html)
-
-{{< youtube JRCuP2U5Alk >}}
 
 {{< youtube vB6HVBHjpAg >}}
 
@@ -311,7 +307,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2026 Wimbledon (Grass)** - 3rd Round, WIN, 7-6(9), 6-2
+- **2026 Wimbledon (Grass)** - 3rd Round, WIN, 7-6(9), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72362774) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-vs-i-swiatek-2026-07-04)
 
 {{< youtube KUVh-Jflv_Q >}}
 
@@ -465,6 +461,10 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - [WTA Profile](https://www.wtatennis.com/players/319007/ekaterina-alexandrova)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/319007)
 
+**Matches:**
+
+- **2026 Abu Dhabi (Hard)** - Quarterfinals, LOSS, 3-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-e-alexandrova-2026-02-05)
+
 {{< youtube Cfn0SHv302U >}}
 
 ---
@@ -473,6 +473,10 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - [WTA Profile](https://www.wtatennis.com/players/326735/leylah-fernandez)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/326735)
+
+**Matches:**
+
+- **2026 Stuttgart (Clay)** - Round of 32, LOSS, 6-1, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/1051/stuttgart/2026/scores/LS018) | [tennis.com](https://www.tennis.com/tournaments/porsche-tennis-grand-prix/matches/l-fernandez-vs-a-eala-2026-04-14)
 
 {{< youtube Opdw8Q_HFdQ >}}
 
@@ -483,9 +487,15 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - [WTA Profile](https://www.wtatennis.com/players/332285/iva-jovic)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/332285)
 
-{{< youtube WRTmI2IH0is >}}
+**Matches:**
+
+- **2026 London (Grass)** - Round of 16, LOSS, 6-2, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1111/queens/2026/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/hsbc-championships/matches/i-jovic-vs-a-eala-2026-06-10)
 
 {{< youtube kv9jOR3P7O0 >}}
+
+- **2026 French Open (Clay)** - 1st Round, LOSS, 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/roland-garros/scores/LS71642254) | [tennis.com](https://www.tennis.com/tournaments/roland-garros/matches/i-jovic-vs-a-eala-2026-05-26) | [rolandgarros.com](https://www.rolandgarros.com/en-us/matches/2026/SD068)
+
+{{< youtube WRTmI2IH0is >}}
 
 ---
 
@@ -494,12 +504,18 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - [WTA Profile](https://www.wtatennis.com/players/326482/marta-kostyuk)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/326482)
 
----
+**Matches:**
+
+- **2025 Rome (Clay)** - Round of 128, LOSS, 6-0, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2025/scores/LS070) | [tennis.com](https://www.tennis.com/tournaments/internazionali-bnl-ditalia/matches/m-kostyuk-vs-a-eala-2025-05-07)
 
 ### Karolina Muchova
 
 - [WTA Profile](https://www.wtatennis.com/players/322191/karolina-muchova)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/322191)
+
+**Matches:**
+
+- **2026 Miami Open (Hard)** - Round of 16, LOSS, 6-0, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/miami-open/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/k-muchova-vs-a-eala-2026-03-23)
 
 {{< youtube FRKYk8uPUJo >}}
 
@@ -509,6 +525,10 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - [WTA Profile](https://www.wtatennis.com/players/329668/linda-noskova)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/329668)
+
+**Matches:**
+
+- **2026 Berlin (Grass)** - Semifinals, LOSS, 6-2, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-20)
 
 {{< youtube 2xXtCXEVBqg >}}
 
@@ -521,6 +541,14 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - [WTA Profile](https://www.wtatennis.com/players/319280/jasmine-paolini)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/319280)
 
+**Matches:**
+
+- **2026 Wimbledon (Grass)** - 4th Round, LOSS, 4-6, 6-4, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS72320404) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/j-paolini-vs-a-eala-2026-07-06) | [wimbledon.com](https://www.wimbledon.com/en_GB/match/2026-jasmine-paolini-vs-alexandra-eala-ws004)
+
+{{< youtube ZsJYg7q0ZnM >}}
+
+- **2026 Dubai (Hard)** - Round of 32, WIN, 6-1, 7-6(5) | [wtatennis.com](https://www.wtatennis.com/tournaments/dubai/scores/LS023) | [tennis.com](https://www.tennis.com/tournaments/wta-dubai-uae/matches/a-eala-vs-j-paolini-2026-02-17)
+
 {{< youtube eUCpH8JRkg4 >}}
 
 ---
@@ -529,6 +557,10 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - [WTA Profile](https://www.wtatennis.com/players/316956/jessica-pegula)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/316956)
+
+**Matches:**
+
+- **2025 Miami Open (Hard)** - Semifinals, LOSS, 6-7(3), 7-5, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/j-pegula-vs-a-eala-2025-03-28)
 
 {{< youtube efazYG5hSAA >}}
 
@@ -541,7 +573,13 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - [WTA Profile](https://www.wtatennis.com/players/316738/elina-svitolina)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/316738)
 
+**Matches:**
+
+- **2026 Berlin (Grass)** - Quarterfinals, WIN, 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/e-svitolina-vs-a-eala-2026-06-19)
+
 {{< youtube 6djWGxG7a8E >}}
+
+{{< youtube AdoeRVzt6FQ >}}
 
 ---
 
@@ -549,6 +587,10 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - [WTA Profile](https://www.wtatennis.com/players/327793/clara-tauson)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/327793)
+
+**Matches:**
+
+- **2025 US Open (Hard)** - 1st Round, WIN, 6-3, 2-6, 7-6(11) | [wtatennis.com](https://www.wtatennis.com/tournaments/us-open/scores/LS63131469) | [tennis.com](https://www.tennis.com/tournaments/us-open/matches/c-tauson-vs-a-eala-2025-08-24) | [usopen.org](https://www.usopen.org/en_US/scores/stats/2108.html)
 
 {{< youtube HFzs0qaQJ6I >}}
 
