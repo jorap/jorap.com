@@ -2111,6 +2111,60 @@ html.dark .notes-list-facet__select {
   text-wrap: balance;
 }
 
+.randomizer-card__answer,
+.randomizer-card__answer-hint {
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.35;
+  margin: 1rem 0 0;
+  text-transform: uppercase;
+}
+
+.randomizer-card__answer-hint {
+  align-items: flex-end;
+  color: #6b6358;
+  display: flex;
+  gap: 0.1em;
+  justify-content: center;
+  min-height: 1em;
+  user-select: none;
+  width: 100%;
+}
+
+.randomizer-card__answer-slot {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: left bottom 0.08em;
+  background-repeat: no-repeat;
+  background-size: 100% 0.14em;
+  display: inline-block;
+  flex-shrink: 0;
+  height: 1em;
+  min-width: 0.65em;
+  overflow: hidden;
+  width: 1ch;
+}
+
+.randomizer-card__answer {
+  color: var(--color-primary);
+}
+
+.randomizer-card--grade-1 .randomizer-card__answer,
+.randomizer-card--grade-1 .randomizer-card__answer-hint {
+  font-size: clamp(2.75rem, 11vw, 5rem);
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  margin-top: 1.25rem;
+}
+
+.randomizer-card--grade-1 .randomizer-card__answer-slot {
+  background-size: 100% 0.12em;
+}
+
+.randomizer-card--grade-1 .randomizer-card__answer {
+  color: var(--color-ink);
+}
+
 .randomizer-play-actions {
   align-items: center;
   display: flex;

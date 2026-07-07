@@ -70,10 +70,19 @@
                       <span class="randomizer-card__pole" data-randomizer-pole-right></span>
                     </div>
                     <p class="randomizer-card__prompt" data-randomizer-prompt hidden></p>
+                    <p class="randomizer-card__answer-hint" data-randomizer-answer-hint hidden></p>
+                    <p class="randomizer-card__answer" data-randomizer-answer hidden></p>
                   </div>
                 </div>
 
                 <div class="randomizer-play-actions">
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary randomizer-play__reveal"
+                    data-randomizer-reveal
+                    hidden>
+                    Show answer
+                  </button>
                   <button type="button" class="btn btn-primary randomizer-play__shuffle" data-randomizer-shuffle>
                     Shuffle
                   </button>

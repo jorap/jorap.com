@@ -1636,3 +1636,609 @@ collections:
   - A story you shorten every time you tell it.
   - A story that gets better with every retelling.
   - A plot twist in your own life you did not see coming.
+- id: grade-1-quiz
+  title: Grade 1 quick quiz
+  mode: quiz
+  tagline: Short questions for first graders. Every answer is 3 to 5 letters.
+  play_hint: Read the question aloud. Let them guess before you reveal the answer. Tap Shuffle for a random question — about half are medium, a quarter easy, a quarter hard.
+  items:
+  - q: "What animal says meow?"
+    a: cat
+    d: easy
+  - q: "What animal says woof?"
+    a: dog
+    d: easy
+  - q: "What animal says moo?"
+    a: cow
+    d: easy
+  - q: "What animal says oink?"
+    a: pig
+    d: easy
+  - q: "What animal says quack?"
+    a: duck
+    d: easy
+  - q: "What animal says baa?"
+    a: sheep
+    d: easy
+  - q: "What animal says neigh?"
+    a: horse
+    d: easy
+  - q: "What animal says ribbit?"
+    a: frog
+    d: easy
+  - q: "What animal says hoot?"
+    a: owl
+    d: easy
+  - q: "What animal says buzz?"
+    a: bee
+    d: easy
+  - q: "What animal says cluck?"
+    a: hen
+    d: easy
+  - q: "What color is grass?"
+    a: green
+    d: easy
+  - q: "What color is the sky on a clear day?"
+    a: blue
+    d: easy
+  - q: "What color is snow?"
+    a: white
+    d: easy
+  - q: "What color is a ripe strawberry?"
+    a: red
+    d: easy
+  - q: "What star gives us light and heat?"
+    a: sun
+    d: easy
+  - q: "What do you see in the sky at night?"
+    a: moon
+    d: easy
+  - q: "What do you drink when you are thirsty?"
+    a: water
+    d: easy
+  - q: "What sweet food do bees make?"
+    a: honey
+    d: easy
+  - q: "What do hens lay?"
+    a: eggs
+    d: easy
+  - q: "What is water when it is frozen?"
+    a: ice
+    d: easy
+  - q: "What body part do you see with?"
+    a: eyes
+    d: easy
+  - q: "What body part do you hear with?"
+    a: ears
+    d: easy
+  - q: "What body part do you smell with?"
+    a: nose
+    d: easy
+  - q: "What is at the end of your arm?"
+    a: hand
+    d: easy
+  - q: "What is at the end of your leg?"
+    a: foot
+    d: easy
+  - q: "What do you sleep on?"
+    a: bed
+    d: easy
+  - q: "What do you sit on?"
+    a: chair
+    d: easy
+  - q: "What do you wear on your feet?"
+    a: shoes
+    d: easy
+  - q: "What do you wear on your head?"
+    a: hat
+    d: easy
+  - q: "What is one plus one?"
+    a: two
+    d: easy
+  - q: "What is two plus two?"
+    a: four
+    d: easy
+  - q: "What is the opposite of hot?"
+    a: cold
+    d: easy
+  - q: "What is the opposite of big?"
+    a: small
+    d: easy
+  - q: "What is the opposite of up?"
+    a: down
+    d: easy
+  - q: "What is the opposite of day?"
+    a: night
+    d: easy
+  - q: "What is the opposite of happy?"
+    a: sad
+    d: easy
+  - q: "What do you call a very young child?"
+    a: baby
+    d: easy
+  - q: "What round toy do you throw?"
+    a: ball
+    d: easy
+  - q: "What do you kick a ball with?"
+    a: foot
+    d: easy
+  - q: "What wags on a happy dog?"
+    a: tail
+    d: easy
+  - q: "What do you read stories in?"
+    a: book
+    d: easy
+  - q: "What big yellow ride takes you to school?"
+    a: bus
+    d: easy
+  - q: "What sweet treat do kids lick?"
+    a: candy
+    d: easy
+  - q: "What white drink comes from cows?"
+    a: milk
+    d: easy
+  - q: "What red fruit is crunchy?"
+    a: apple
+    d: easy
+  - q: "What do you open to go inside?"
+    a: door
+    d: easy
+  - q: "What do you drink from?"
+    a: cup
+    d: easy
+  - q: "How many fingers are on one hand?"
+    a: five
+    d: easy
+  - q: "Where do fish live?"
+    a: water
+    d: easy
+  - q: "What falls from gray clouds in the sky?"
+    a: rain
+    d: medium
+  - q: "What white flakes fall when it is cold?"
+    a: snow
+    d: medium
+  - q: "What body part do you taste with?"
+    a: mouth
+    d: medium
+  - q: "What hard white things chew food?"
+    a: teeth
+    d: medium
+  - q: "What covers your whole body?"
+    a: skin
+    d: medium
+  - q: "What beats inside your chest?"
+    a: heart
+    d: medium
+  - q: "What grows on top of your head?"
+    a: hair
+    d: medium
+  - q: "How many toes are on one foot?"
+    a: five
+    d: medium
+  - q: "What do you eat soup from?"
+    a: bowl
+    d: medium
+  - q: "What do you write with?"
+    a: pen
+    d: medium
+  - q: "What do you cook in on the stove?"
+    a: pan
+    d: medium
+  - q: "What bakes food in the kitchen?"
+    a: oven
+    d: medium
+  - q: "What do you wash your hands with?"
+    a: soap
+    d: medium
+  - q: "What do you dry off with?"
+    a: towel
+    d: medium
+  - q: "What white food comes from a hen?"
+    a: egg
+    d: medium
+  - q: "What sweet stuff do you put on bread?"
+    a: jam
+    d: medium
+  - q: "What do you eat for breakfast with butter?"
+    a: toast
+    d: medium
+  - q: "What veggie makes you cry when you cut it?"
+    a: onion
+    d: medium
+  - q: "What do you use to cut food?"
+    a: knife
+    d: medium
+  - q: "What do you use to make a sandwich?"
+    a: bread
+    d: medium
+  - q: "What do you stir soup with?"
+    a: spoon
+    d: medium
+  - q: "What is two plus one?"
+    a: three
+    d: medium
+  - q: "What is three plus two?"
+    a: five
+    d: medium
+  - q: "What is four plus two?"
+    a: six
+    d: medium
+  - q: "What is five plus five?"
+    a: ten
+    d: medium
+  - q: "What number comes right after one?"
+    a: two
+    d: medium
+  - q: "What number comes right after four?"
+    a: five
+    d: medium
+  - q: "What number comes right before three?"
+    a: two
+    d: medium
+  - q: "What do birds use to fly?"
+    a: wings
+    d: medium
+  - q: "What do you find at the beach?"
+    a: sand
+    d: medium
+  - q: "What toy do you fly when it is windy?"
+    a: kite
+    d: medium
+  - q: "What do plants grow from?"
+    a: seed
+    d: medium
+  - q: "What is hot and can burn wood?"
+    a: fire
+    d: medium
+  - q: "What has four wheels and drives on roads?"
+    a: car
+    d: medium
+  - q: "What floats on water?"
+    a: boat
+    d: medium
+  - q: "What rides on tracks and says choo-choo?"
+    a: train
+    d: medium
+  - q: "Where do you see animals in cages?"
+    a: zoo
+    d: medium
+  - q: "What is the opposite of fast?"
+    a: slow
+    d: medium
+  - q: "What is the opposite of open?"
+    a: shut
+    d: medium
+  - q: "What is the opposite of wet?"
+    a: dry
+    d: medium
+  - q: "What is the opposite of old?"
+    a: new
+    d: medium
+  - q: "What is the opposite of loud?"
+    a: soft
+    d: medium
+  - q: "What is the opposite of dark?"
+    a: light
+    d: medium
+  - q: "What do you call a friend you play with?"
+    a: buddy
+    d: medium
+  - q: "What are children your age called?"
+    a: kids
+    d: medium
+  - q: "What do you bang with sticks?"
+    a: drum
+    d: medium
+  - q: "What do you use to unlock a door?"
+    a: key
+    d: medium
+  - q: "What does a key open?"
+    a: lock
+    d: medium
+  - q: "What do you tie on your shoes?"
+    a: bow
+    d: medium
+  - q: "What do you use to call people?"
+    a: phone
+    d: medium
+  - q: "What big animal loves honey?"
+    a: bear
+    d: medium
+  - q: "What yellow fruit is very sour?"
+    a: lemon
+    d: medium
+  - q: "What yellow kernels do you eat?"
+    a: corn
+    d: medium
+  - q: "What sweet food has candles on birthdays?"
+    a: cake
+    d: medium
+  - q: "What round dessert is cut in slices?"
+    a: pie
+    d: medium
+  - q: "What soft round bread do you eat?"
+    a: bun
+    d: medium
+  - q: "What green veggie is long and skinny?"
+    a: bean
+    d: medium
+  - q: "What fuzzy yellow baby bird says peep?"
+    a: chick
+    d: medium
+  - q: "Where do you put garbage?"
+    a: trash
+    d: medium
+  - q: "What warm things go on your feet?"
+    a: socks
+    d: medium
+  - q: "What covers you in bed?"
+    a: sheet
+    d: medium
+  - q: "What do you use on messy hair?"
+    a: comb
+    d: medium
+  - q: "What gives light in your room?"
+    a: lamp
+    d: medium
+  - q: "What do you sweep the floor with?"
+    a: broom
+    d: medium
+  - q: "What do we breathe?"
+    a: air
+    d: medium
+  - q: "What toy spins fast on the ground?"
+    a: top
+    d: medium
+  - q: "What loud sound comes with thunder?"
+    a: boom
+    d: medium
+  - q: "What white puff is in the sky?"
+    a: cloud
+    d: medium
+  - q: "What tall plant has a trunk?"
+    a: tree
+    d: medium
+  - q: "What green plant covers the ground?"
+    a: grass
+    d: medium
+  - q: "What shines in the sky at night?"
+    a: star
+    d: medium
+  - q: "How many legs does a dog have?"
+    a: four
+    d: medium
+  - q: "How many eyes do most people have?"
+    a: two
+    d: medium
+  - q: "How many ears do most people have?"
+    a: two
+    d: medium
+  - q: "How many wheels does a bike have?"
+    a: two
+    d: medium
+  - q: "How many fingers are on two hands?"
+    a: ten
+    d: medium
+  - q: "What drink comes from oranges?"
+    a: juice
+    d: medium
+  - q: "What short sleep do you take in the day?"
+    a: nap
+    d: medium
+  - q: "What do bunnies do when they go?"
+    a: hop
+    d: medium
+  - q: "What pet swims and blows bubbles?"
+    a: fish
+    d: medium
+  - q: "What do birds make in trees?"
+    a: nest
+    d: medium
+  - q: "What is a baby dog called?"
+    a: puppy
+    d: medium
+  - q: "What is a baby sheep called?"
+    a: lamb
+    d: medium
+  - q: "What is a baby cow called?"
+    a: calf
+    d: medium
+  - q: "What animal has a bushy tail and red fur?"
+    a: fox
+    d: medium
+  - q: "What insect wiggles in garden soil?"
+    a: worm
+    d: medium
+  - q: "What black bird says caw?"
+    a: crow
+    d: medium
+  - q: "What color is chocolate?"
+    a: brown
+    d: medium
+  - q: "What tells you the time?"
+    a: clock
+    d: medium
+  - q: "What meal do you eat at noon?"
+    a: lunch
+    d: medium
+  - q: "What do you sit on and pump your legs?"
+    a: swing
+    d: medium
+  - q: "What sea animal has big claws?"
+    a: crab
+    d: medium
+  - q: "What long animal has no legs?"
+    a: snake
+    d: medium
+  - q: "What dry grass do farm animals eat?"
+    a: hay
+    d: medium
+  - q: "What moves sand at the beach?"
+    a: scoop
+    d: medium
+  - q: "What rubber shoes do you wear in puddles?"
+    a: boots
+    d: medium
+  - q: "What big white bird swims in water?"
+    a: swan
+    d: medium
+  - q: "How many legs does a table have?"
+    a: four
+    d: medium
+  - q: "What color is a stop sign?"
+    a: red
+    d: medium
+  - q: "What helps plants grow from the sky?"
+    a: sun
+    d: medium
+  - q: "What big cat has a mane?"
+    a: lion
+    d: hard
+  - q: "What animal has black and white stripes?"
+    a: zebra
+    d: hard
+  - q: "What desert animal has one hump?"
+    a: camel
+    d: hard
+  - q: "What big cat has orange and black stripes?"
+    a: tiger
+    d: hard
+  - q: "What animal carries its house on its back?"
+    a: snail
+    d: hard
+  - q: "What bear is black and white?"
+    a: panda
+    d: hard
+  - q: "What big sea fish has sharp teeth?"
+    a: shark
+    d: hard
+  - q: "What animal flies at night and hangs upside down?"
+    a: bat
+    d: hard
+  - q: "What tiny insect lifts heavy things?"
+    a: ant
+    d: hard
+  - q: "What color is a dark piece of coal?"
+    a: black
+    d: hard
+  - q: "What color is a flamingo?"
+    a: pink
+    d: hard
+  - q: "What color is a fire truck?"
+    a: red
+    d: hard
+  - q: "What green part is on a tree?"
+    a: leaf
+    d: hard
+  - q: "What long water flows to the sea?"
+    a: river
+    d: hard
+  - q: "What is a little lake?"
+    a: pond
+    d: hard
+  - q: "What is seven minus two?"
+    a: five
+    d: hard
+  - q: "What is eight minus five?"
+    a: three
+    d: hard
+  - q: "What is nine minus four?"
+    a: five
+    d: hard
+  - q: "What is eight minus three?"
+    a: five
+    d: hard
+  - q: "How many days are in one week?"
+    a: seven
+    d: hard
+  - q: "How many sides does a triangle have?"
+    a: three
+    d: hard
+  - q: "How many corners does a square have?"
+    a: four
+    d: hard
+  - q: "How many wheels does a tricycle have?"
+    a: three
+    d: hard
+  - q: "How many sides does a square have?"
+    a: four
+    d: hard
+  - q: "What paper in class shows the weather?"
+    a: chart
+    d: hard
+  - q: "What helps you measure how long things are?"
+    a: ruler
+    d: hard
+  - q: "What pin holds paper on a corkboard?"
+    a: tack
+    d: hard
+  - q: "What sticky stuff holds paper?"
+    a: glue
+    d: hard
+  - q: "What do teachers write with on a board?"
+    a: chalk
+    d: hard
+  - q: "What has black and white keys you press?"
+    a: piano
+    d: hard
+  - q: "What shows roads and places?"
+    a: map
+    d: hard
+  - q: "What home do bees live in?"
+    a: hive
+    d: hard
+  - q: "What does a horse pull on a farm?"
+    a: cart
+    d: hard
+  - q: "What big boat sails on the ocean?"
+    a: ship
+    d: hard
+  - q: "Where do you buy milk and eggs?"
+    a: shop
+    d: hard
+  - q: "Who is your mother's sister?"
+    a: aunt
+    d: hard
+  - q: "Who is your father's brother?"
+    a: uncle
+    d: hard
+  - q: "What bird flies in a V?"
+    a: goose
+    d: hard
+  - q: "What white grains do many people eat?"
+    a: rice
+    d: hard
+  - q: "What white and yellow flower grows in grass?"
+    a: daisy
+    d: hard
+  - q: "What do library books sit on?"
+    a: shelf
+    d: hard
+  - q: "How many arms does an octopus have?"
+    a: eight
+    d: hard
+  - q: "What planet do we live on?"
+    a: earth
+    d: hard
+  - q: "How many legs does an insect have?"
+    a: six
+    d: hard
+  - q: "How many legs does a spider have?"
+    a: eight
+    d: hard
+  - q: "How many sides does a star have?"
+    a: five
+    d: hard
+  - q: "How many seasons are in one year?"
+    a: four
+    d: hard
+  - q: "How many planets go around the sun?"
+    a: eight
+    d: hard
+  - q: "What in your head helps you think?"
+    a: brain
+    d: hard
+  - q: "How many corners does a circle have?"
+    a: none
+    d: hard
