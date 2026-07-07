@@ -1,6 +1,12 @@
 /* Add margin below Hugo YouTube shortcode embeds (robust selector) */
 
 @layer base {
+  :root {
+    --color-graph-center: #eab308;
+    --color-graph-hub: #15803d;
+    --color-graph-tail: #dc2626;
+  }
+
   html.dark {
     --color-warning: var(--color-darkmode-warning);
     --color-warning-ink: var(--color-darkmode-warning-ink);
@@ -13,6 +19,9 @@
     --color-error-code: var(--color-darkmode-error-code);
     --color-success: var(--color-darkmode-success);
     --color-graph-weak: var(--color-darkmode-graph-weak);
+    --color-graph-center: #facc15;
+    --color-graph-hub: var(--color-darkmode-success);
+    --color-graph-tail: #f87171;
   }
 }
 
@@ -441,6 +450,51 @@ body.notes-graph-present-open {
 
 .graph-expand {
   right: calc(var(--graph-control-inset) + var(--graph-control-size) + var(--graph-control-gap));
+}
+
+.graph-layout-group {
+  position: absolute;
+  top: var(--graph-control-inset);
+  right: calc(var(--graph-control-inset) + (var(--graph-control-size) + var(--graph-control-gap)) * 2);
+  z-index: 4;
+  display: inline-flex;
+  overflow: hidden;
+  border: 1px solid var(--color-divider);
+  border-radius: 0.25rem;
+  background: color-mix(in srgb, var(--color-surface) 90%, transparent);
+}
+
+.graph-layout-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--graph-control-size);
+  padding: 0 0.55rem;
+  border: 0;
+  background: transparent;
+  color: var(--color-ink-muted);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  line-height: 1;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: color-mix(in srgb, var(--color-accent) 20%, transparent);
+}
+
+.graph-layout-btn + .graph-layout-btn {
+  border-left: 1px solid var(--color-divider);
+}
+
+.graph-layout-btn:hover,
+.graph-layout-btn:focus-visible {
+  color: var(--color-accent);
+  background: var(--color-surface);
+  outline: none;
+}
+
+.graph-layout-btn.is-active {
+  color: var(--color-accent);
+  background: color-mix(in srgb, var(--color-accent) 10%, var(--color-surface));
 }
 
 .graph-global {
@@ -1047,6 +1101,13 @@ body.notes-graph-present-open {
 
 .notes-outgoing,
 .notes-see-also,
+.notes-rel-neighbors {
+  background: var(--color-elevated);
+}
+
+.notes-rel-neighbors-list .notes-link-card {
+  min-width: 0;
+}
 .notes-shareable-thought {
   background: var(--color-elevated);
 }
@@ -1130,11 +1191,11 @@ body.notes-graph-present-open {
 }
 
 .notes-graph-filter__count--orphan {
-  color: var(--color-warning);
+  color: var(--color-graph-tail);
 }
 
 .notes-graph-filter__count--top {
-  color: var(--color-accent);
+  color: var(--color-graph-hub);
 }
 
 .notes-graph-filter__count--middle {
@@ -1142,7 +1203,7 @@ body.notes-graph-present-open {
 }
 
 .notes-graph-filter__count--bottom {
-  color: var(--color-graph-weak);
+  color: var(--color-graph-tail);
 }
 
 @media (max-width: 1279.98px) {
@@ -1194,6 +1255,12 @@ body.notes-graph-present-open {
 .graph-view-container.graph-icons-top > .graph-expand,
 .graph-view-container.is-present > .graph-expand {
   right: calc(var(--graph-control-inset) + var(--graph-control-size) + var(--graph-control-gap));
+}
+
+.graph-view-container.graph-icons-top > .graph-layout-group,
+.graph-view-container.is-present > .graph-layout-group {
+  top: var(--graph-control-inset);
+  right: calc(var(--graph-control-inset) + (var(--graph-control-size) + var(--graph-control-gap)) * 2);
 }
 
 .wikilink-preview {

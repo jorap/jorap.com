@@ -115,6 +115,7 @@
                   <span class="notes-graph__zoom-hint">Scroll to zoom · drag to pan</span>
                 </div>
               </div>
+              {{ partial "notes/graph-layout-controls.html" . }}
               <button type="button" class="graph-icon graph-expand notes-graph-expand" aria-label="Present graph" title="Present graph" aria-pressed="false">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-arrow-up-right" aria-hidden="true">
                   <path d="M7 7h10v10"></path>
@@ -131,7 +132,7 @@
                 </svg>
               </span>
             </div>
-            <p class="notes-graph-hint text-ink-muted">Hover to highlight links · click a node to open · ⌘/Ctrl-click for a new tab · colored dots mark top, middle, bottom, no body links, and orphans</p>
+            <p class="notes-graph-hint text-ink-muted">Hover to highlight links · click a node to open · ⌘/Ctrl-click for a new tab · yellow = center · green = top 20% · red = bottom 20% or orphan · gray = middle</p>
           </div>
 
           <p class="notes-graph-empty text-ink-muted mt-4 hidden text-sm">No linked notes yet. Add <code>[[wikilinks]]</code> in your notes.</p>

@@ -4,6 +4,7 @@
   {{ $page := . }}
   {{ $backlinks := partial "notes/backlinks.html" . }}
   {{ $outgoing := partial "notes/outgoing-links.html" . }}
+  {{ $relNeighbors := partial "notes/relationship-neighbors.html" . }}
   {{ $hideOutgoingCards := partial "notes/index-has-body-wikilinks.html" . }}
 
   <section class="section pt-7">
@@ -47,6 +48,27 @@
             </div>
 
             {{ partial "notes/note-flashcards.html" . }}
+
+            {{ with $relNeighbors.groups }}
+              <aside class="notes-rel-neighbors border-divider mb-6 rounded border p-5">
+                <h2 id="relationship-neighbors" class="h6 mb-4">Relationship neighbors</h2>
+                <div class="notes-rel-neighbors__groups space-y-5">
+                  {{ range . }}
+                    <section class="notes-rel-neighbors__group" aria-labelledby="{{ .id }}">
+                      <h3 id="{{ .id }}" class="notes-rel-neighbors__label text-ink-muted mb-3 text-xs font-medium tracking-wide uppercase">{{ .label }}</h3>
+                      <ul class="notes-rel-neighbors-list mb-0 grid list-none gap-3 p-0 sm:grid-cols-2">
+                        {{ range .rows }}
+                          {{ partial "notes/note-link-card.html" (dict
+                            "Page" .Page
+                            "Body" .Reason
+                          ) }}
+                        {{ end }}
+                      </ul>
+                    </section>
+                  {{ end }}
+                </div>
+              </aside>
+            {{ end }}
 
             {{ with $outgoing }}
               {{- if not $hideOutgoingCards -}}

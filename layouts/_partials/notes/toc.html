@@ -54,6 +54,10 @@
 {{- if gt (len (partial "notes/cards-for-page.html" $page)) 0 -}}
   {{- $extras = $extras | append (dict "level" 2 "title" "Flashcards" "id" "flashcards") -}}
 {{- end -}}
+{{- $relNeighbors := partial "notes/relationship-neighbors.html" $page -}}
+{{- if $relNeighbors.has -}}
+  {{- $extras = $extras | append (dict "level" 2 "title" "Relationship neighbors" "id" "relationship-neighbors") -}}
+{{- end -}}
 {{- $outgoing := partial "notes/outgoing-links.html" $page | default slice -}}
 {{- if gt (len $outgoing) 0 -}}
   {{- $extras = $extras | append (dict "level" 2 "title" "Links from this Note" "id" "links-from-this-note") -}}

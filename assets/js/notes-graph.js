@@ -6,6 +6,7 @@ import "pixi.js";
 import { Application, Color, Container, Graphics, Text } from "pixi.js";
 
 var PRESENT_LOCAL_KEY = "jorap.notesGraph.presentLocal";
+var LAYOUT_KEY = "jorap.notesGraph.layout";
 
 function markPresentLocalNavigation() {
   try {
@@ -28,6 +29,8 @@ function consumePresentLocalNavigation() {
 }
 
 var MAX_GLOBAL_GRAPH_NODES = 240;
+// ponytail: splits crowded hop rings into sub-rings; raise if depth-1 hubs still feel tight
+var MAX_RADIAL_NODES_PER_RING = 10;
 
 async function bootGraphs() {
   var panels = document.querySelectorAll("[data-notes-graph]");
@@ -72,6 +75,7 @@ async function initGraph(panel) {
   var zoomOutEl = panel.querySelector(".notes-graph-zoom-out");
   var filterEls = panel.querySelectorAll("[data-graph-filter]");
   var colorEls = panel.querySelectorAll("[data-graph-color]");
+  var layoutEls = panel.querySelectorAll("[data-graph-layout]");
   if (!dataEl || !container) return;
 
   var data;
@@ -172,6 +176,13 @@ async function initGraph(panel) {
   var searchQuery = "";
   var graphFilter = "all";
   var graphColorMode = "rank";
+  var graphLayout = "force";
+  try {
+    var savedLayout = localStorage.getItem(LAYOUT_KEY);
+    if (savedLayout === "radial" || savedLayout === "force") graphLayout = savedLayout;
+  } catch (e) {
+    /* ignore */
+  }
   var tagPalette = ["#2563eb", "#15803d", "#b45309", "#be123c", "#7c3aed", "#0f766e", "#c27803", "#4b5563"];
   var draggingNode = null;
   var dragMoved = false;
@@ -217,10 +228,11 @@ async function initGraph(panel) {
       nodeActive: pixiColor(resolveToken("--color-accent", "#181614")),
       nodeHover: pixiColor(resolveToken("--color-ink", "#161412")),
       nodeFocus: pixiColor(resolveToken("--color-accent", "#181614")),
-      nodeOrphan: pixiColor(resolveToken("--color-warning", "#b45309")),
-      nodeTop: pixiColor(resolveToken("--color-accent", "#181614")),
+      nodeCenter: pixiColor(resolveToken("--color-graph-center", "#eab308")),
+      nodeOrphan: pixiColor(resolveToken("--color-graph-tail", "#dc2626")),
+      nodeTop: pixiColor(resolveToken("--color-graph-hub", "#15803d")),
       nodeMiddle: pixiColor(resolveToken("--color-ink-muted", "#6b6762")),
-      nodeBottom: pixiColor(resolveToken("--color-graph-weak", "#c27803")),
+      nodeBottom: pixiColor(resolveToken("--color-graph-tail", "#dc2626")),
       nodeDeadEnd: pixiColor(resolveToken("--color-ink-muted", "#6b6762")),
       surface: pixiColor(resolveToken("--color-surface", "#f5f3f0")),
       label: pixiColor(resolveToken("--color-ink", "#161412")),
@@ -377,6 +389,11 @@ async function initGraph(panel) {
 
   function relayoutGraph() {
     initPositions();
+    if (graphLayout === "radial") {
+      simAlpha = 0;
+      needsFrame = true;
+      return;
+    }
     settleLayout();
     needsFrame = true;
   }
@@ -487,7 +504,9 @@ async function initGraph(panel) {
     searchQuery = "";
     hovered = focusNode || null;
     initPositions();
-    if (inPresent) {
+    if (graphLayout === "radial") {
+      simAlpha = 0;
+    } else if (inPresent) {
       settlePresentLayout();
     } else {
       settleLayout();
@@ -500,8 +519,12 @@ async function initGraph(panel) {
   function refocusLocalGraph() {
     hovered = focusNode || null;
     initPositions();
-    settleLayout();
-    simAlpha = prefersReducedMotion ? 0 : 0.22;
+    if (graphLayout === "radial") {
+      simAlpha = 0;
+    } else {
+      settleLayout();
+      simAlpha = prefersReducedMotion ? 0 : 0.22;
+    }
     fitToView();
   }
 
@@ -567,7 +590,99 @@ async function initGraph(panel) {
     updatePresentUi();
   }
 
+  function initRadialPositions() {
+    var cx = width / 2;
+    var cy = height / 2;
+    var unit = spacingUnit();
+    var root = focusNode;
+    if (!root) {
+      nodes.forEach(function (n) {
+        if (!root || n.inDegree + n.outDegree > root.inDegree + root.outDegree) root = n;
+      });
+    }
+    if (!root && nodes.length) root = nodes[0];
+    if (!root) return;
+
+    nodes.forEach(function (n) {
+      n.isCenter = false;
+    });
+
+    var depth = Object.create(null);
+    var queue = [root];
+    depth[root.id] = 0;
+    var head = 0;
+    while (head < queue.length) {
+      var cur = queue[head++];
+      var d = depth[cur.id];
+      edges.forEach(function (e) {
+        var other = e.source === cur ? e.target : e.target === cur ? e.source : null;
+        if (!other || depth[other.id] !== undefined) return;
+        depth[other.id] = d + 1;
+        queue.push(other);
+      });
+    }
+
+    var rings = Object.create(null);
+    var maxDepth = 0;
+    var disconnected = [];
+    nodes.forEach(function (n) {
+      var d = depth[n.id];
+      if (d === undefined) {
+        disconnected.push(n);
+        return;
+      }
+      maxDepth = Math.max(maxDepth, d);
+      if (!rings[d]) rings[d] = [];
+      rings[d].push(n);
+    });
+
+    nodes.forEach(function (n) {
+      n.vx = 0;
+      n.vy = 0;
+    });
+
+    root.x = cx;
+    root.y = cy;
+    root.isCenter = true;
+
+    var ringGap = unit * 1.35;
+    var outerLayoutRadius = 0;
+
+    for (var ringDepth = 1; ringDepth <= maxDepth; ringDepth++) {
+      var ring = (rings[ringDepth] || []).slice();
+      ring.sort(function (a, b) {
+        return (a.title || "").localeCompare(b.title || "");
+      });
+      var numSubRings = Math.max(1, Math.ceil(ring.length / MAX_RADIAL_NODES_PER_RING));
+      for (var sub = 0; sub < numSubRings; sub++) {
+        var start = sub * MAX_RADIAL_NODES_PER_RING;
+        var chunk = ring.slice(start, start + MAX_RADIAL_NODES_PER_RING);
+        var radius = (ringDepth - 1 + (sub + 1) / numSubRings) * ringGap;
+        outerLayoutRadius = Math.max(outerLayoutRadius, radius);
+        chunk.forEach(function (n, i) {
+          var angle = (2 * Math.PI * i) / Math.max(chunk.length, 1) - Math.PI / 2;
+          n.x = cx + Math.cos(angle) * radius;
+          n.y = cy + Math.sin(angle) * radius;
+        });
+      }
+    }
+
+    if (disconnected.length) {
+      var outer = (outerLayoutRadius || ringGap) + ringGap;
+      disconnected.forEach(function (n, i) {
+        var angle = (2 * Math.PI * i) / Math.max(disconnected.length, 1);
+        n.x = cx + Math.cos(angle) * outer;
+        n.y = cy + Math.sin(angle) * outer;
+      });
+    }
+  }
+
   function initPositions() {
+    if (graphLayout === "radial") {
+      initRadialPositions();
+      return;
+    }
+
     var unit = spacingUnit();
     var pad = Math.round(unit * 0.5);
     var w = Math.max(width - pad * 2, 1);
@@ -578,6 +693,7 @@ async function initGraph(panel) {
       n.y = pad + hashSeed(n.id + ":y") * h;
       n.vx = 0;
       n.vy = 0;
+      n.isCenter = false;
     });
   }
 
@@ -699,14 +815,18 @@ async function initGraph(panel) {
   }
 
   function nodeFill(node, isFocus, isHover, inHighlight, highlight) {
-    if (isFocus) return colors.nodeFocus;
-    if (isHover) return colors.nodeHover;
-    if (graphColorMode === "tag") return tagColor(node.primaryTag);
+    if (graphColorMode === "tag") {
+      if (isFocus) return colors.nodeFocus;
+      if (isHover) return colors.nodeHover;
+      return tagColor(node.primaryTag);
+    }
+    if (isFocus || node.isCenter) return colors.nodeCenter;
     if (node.orphan && (graphFilter === "all" || graphFilter === "orphan")) return colors.nodeOrphan;
     if (node.top && (graphFilter === "all" || graphFilter === "top")) return colors.nodeTop;
     if (node.bottom && (graphFilter === "all" || graphFilter === "bottom")) return colors.nodeBottom;
     if (node.middle && (graphFilter === "all" || graphFilter === "middle")) return colors.nodeMiddle;
     if (node.deadEnd && (graphFilter === "all" || graphFilter === "deadEnd")) return colors.nodeDeadEnd;
+    if (isHover) return colors.nodeHover;
     if (inHighlight && highlight) return colors.nodeActive;
     return colors.node;
   }
@@ -724,6 +844,7 @@ async function initGraph(panel) {
   }
 
   function simulate(settling) {
+    if (graphLayout === "radial") return false;
     var alpha = settling ? 1 : simAlpha;
     if (alpha <= 0.002) return false;
 
@@ -856,23 +977,27 @@ async function initGraph(panel) {
 
       var r = nodeRadius(n);
       var isFocus = !typeFilterActive() && focusNode && n === focusNode;
+      var isCenterNode = graphColorMode === "rank" && (isFocus || n.isCenter);
       var isHover = hovered === n;
       var inHighlight = !highlight || highlight[n.id];
       var matches = matchesSearch(n);
       var dimmed = (highlight && !inHighlight) || (hasFilter && !matches && !isHover);
       var fillColor = nodeFill(n, isFocus, isHover, inHighlight, highlight);
-      var nodeAlpha = dimmed ? 0.08 : isFocus ? 1 : isHover ? 1 : inHighlight && highlight ? 0.95 : 0.65;
+      var nodeAlpha = dimmed ? 0.08 : isFocus || n.isCenter ? 1 : isHover ? 1 : inHighlight && highlight ? 0.95 : 0.65;
 
-      if (isFocus) {
-        nodesGfx.circle(n.x, n.y, r + 8).fill({ color: colors.nodeFocus, alpha: 0.12 });
+      if (isFocus || n.isCenter) {
+        var haloColor = graphColorMode === "rank" ? colors.nodeCenter : colors.nodeFocus;
+        nodesGfx.circle(n.x, n.y, r + 8).fill({ color: haloColor, alpha: 0.12 });
       }
 
       nodesGfx.circle(n.x, n.y, r).fill({ color: fillColor, alpha: nodeAlpha });
 
-      if (isFocus || isHover) {
+      if (isFocus || isHover || n.isCenter) {
+        var strokeColor =
+          graphColorMode === "rank" && (isFocus || n.isCenter) ? colors.nodeCenter : colors.nodeActive;
         nodesGfx.circle(n.x, n.y, r).stroke({
-          width: (isFocus ? 1.6 : 1.25) / transform.k,
-          color: colors.nodeActive,
+          width: (isFocus || n.isCenter ? 1.6 : 1.25) / transform.k,
+          color: strokeColor,
           alpha: 0.95,
         });
       }
@@ -1231,6 +1356,44 @@ async function initGraph(panel) {
       var value = btn.getAttribute("data-graph-filter") || "all";
       bindGraphControl(btn, function () {
         applyGraphFilter(value, btn);
+      });
+    });
+  }
+
+  function applyLayoutMode(mode, activeBtn) {
+    graphLayout = mode === "radial" ? "radial" : "force";
+    try {
+      localStorage.setItem(LAYOUT_KEY, graphLayout);
+    } catch (e) {
+      /* ignore */
+    }
+    layoutEls.forEach(function (el) {
+      var active = el === activeBtn;
+      el.classList.toggle("is-active", active);
+      el.setAttribute("aria-pressed", active ? "true" : "false");
+    });
+    relayoutGraph();
+    fitToView();
+    draw();
+    wake();
+  }
+
+  function syncLayoutButtons() {
+    if (!layoutEls.length) return;
+    layoutEls.forEach(function (btn) {
+      var mode = btn.getAttribute("data-graph-layout") || "force";
+      var active = mode === graphLayout;
+      btn.classList.toggle("is-active", active);
+      btn.setAttribute("aria-pressed", active ? "true" : "false");
+    });
+  }
+
+  if (layoutEls.length) {
+    syncLayoutButtons();
+    layoutEls.forEach(function (btn) {
+      var mode = btn.getAttribute("data-graph-layout") || "force";
+      bindGraphControl(btn, function () {
+        applyLayoutMode(mode, btn);
       });
     });
   }
