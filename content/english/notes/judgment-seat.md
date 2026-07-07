@@ -3,9 +3,15 @@ title: "Judgment Seat"
 meta_title: "Judgment Seat - Believers Evaluated for Works"
 description: "Believers stand before Christ after salvation to have works evaluated for reward - eternal life was already settled by faith."
 key_concept: |
+  For the Son of Man is going to come in the glory of His Father with His angels, and WILL THEN REPAY EVERY MAN ACCORDING TO HIS DEEDS. (Matthew 16:27).
+
+  .
+
   [[Free Grace]] and [[Justification]] already decided where I spend forever.
   
-  The judgment seat (Greek *bema* - think awards podium, not criminal court) decides what reward faithful living earned. [[Eternal Rewards]] names the promise; this note names the evaluation. Wood, hay, and stubble burn; gold, silver, and precious stones last at the fire test. [[Faithful Steward]] is the parable shape: well done for faithful use, not re-buying eternal life. [[Secret Devotion]] and [[Let Your Light Shine]] both show up in the ledger - hidden and public obedience counted by Christ, not the audience. [[Loss of Reward]] keeps the categories straight: saved through fire with loss, not unsaved. PKM mirror: [[Periodic Knowledge Review]] - the whole history gets reviewed, not one heroic week mistaken for the whole career.
+  The judgment seat (Greek *bema* - think awards podium, not criminal court) decides what reward faithful living earned. [[Eternal Rewards]] names the promise; this note names the evaluation. If any man's work is burned up, he will suffer loss; but he himself will be saved, yet so as through fire (1 Corinthians 3:12-15).
+
+  Wood, hay, and straw burn; gold, silver, and precious stones last at the fire test. [[Faithful Steward]] is the parable shape: well done for faithful use, not re-buying eternal life. [[Secret Devotion]] and [[Let Your Light Shine]] both show up in the ledger - hidden and public obedience counted by Christ, not the audience. [[Loss of Reward]] keeps the categories straight: saved through fire with loss, not unsaved. PKM mirror: [[Periodic Knowledge Review]] - the whole history gets reviewed, not one heroic week mistaken for the whole career.
   
   Believers stand before Christ after salvation to have works evaluated for reward.
   

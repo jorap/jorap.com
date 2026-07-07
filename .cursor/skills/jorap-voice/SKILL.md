@@ -85,6 +85,12 @@ Plain speech beats smart-sounding prose. Every word should land on first pass.
 
 Hard bans live in `data/voice-words.yaml` - not every row above is linted.
 
+### Scripture quotes
+
+**Eternal Principles** notes anchor on **Jesus' words** (Matthew, Mark, Luke, John) in **NASB 1995**. Open `key_concept` with the Jesus quote and reference; Paul and other writers may follow as expansion, not as the primary anchor. Commentary and paraphrase stay JoRap voice. Canonical wording lives in `data/scripture-nasb1995.yaml`. Run `python3 scripts/apply-jesus-quotes.py` after bulk edits to spot-check spine notes.
+
+When quoting Bible **text** elsewhere in the garden, use **NASB 1995** wording. Run `python3 scripts/apply-nasb-quotes.py` for paraphrase migrations.
+
 **Vocab test:** Read a paragraph aloud. Any word you'd pause to define? Replace it before finishing.
 
 Edit `data/voice-words.yaml` for words and phrases you wouldn't say out loud. Run `pnpm voice:scan` to review the whole site grouped by hit; `pnpm lint:voice` before commit catches em/en dashes and strict list matches.

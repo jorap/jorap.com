@@ -3,7 +3,9 @@ title: "The Golden Rule"
 meta_title: "The Golden Rule - Do Unto Others"
 description: "I treat people how I'd want to be treated - active care, not just avoiding harm."
 key_concept: |
-  It's positive and active: *do* unto others, not merely avoid doing harm. (Matthew 7:12). The check is experiential - how would I want to be spoken to, helped, forgiven, included? That sets the floor for every interaction. [[Free Grace]] keeps it from becoming a merit system: I treat others well because Christ treated me well first.
+  In everything, therefore, treat people the same way you want them to treat you, for this is the Law and the Prophets. (Matthew 7:12).
+
+  The check is experiential - how would I want to be spoken to, helped, forgiven, included? That sets the floor for every interaction. [[Free Grace]] keeps it from becoming a merit system: I treat others well because Christ treated me well first.
   
   I treat people how I'd want to be treated.
   
@@ -16,7 +18,7 @@ examples:
 shareable_thought:
   - "I treat people how I'd want to be treated."
   - "The Golden Rule is active care for my neighbor - not just avoiding harm and calling it love."
-  - "It's positive and active: do unto others, not merely avoid doing harm. (Matthew 7:12)."
+  - "In everything, therefore, treat people the same way you want them to treat you, for this is the Law and the Prophets. (Matthew 7:12)."
   - "The check is experiential - how would I want to be spoken to, helped, forgiven, included?"
 relationships:
   - type: contradicts

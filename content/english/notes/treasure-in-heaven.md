@@ -3,7 +3,9 @@ title: "Treasure in Heaven"
 meta_title: "Treasure in Heaven - Where Your Heart Follows"
 description: "I store up what lasts - generosity and obedience - not what rust, moth, and thieves can take."
 key_concept: |
-  Where your treasure is, there your heart will be. (Matthew 6:19-21). Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation. [[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life for faithfulness - not the entry fee. The [[Judgment Seat]] evaluates what lasts; wood, hay, and stubble burn while gold lasts; [[Loss of Reward]] is when worthless treasure burns but you're still saved through fire. [[The Collector's Fallacy]] is the PKM mirror: hoarding saves and stuff on earth while nothing lasting gets stored.
+  Do not store up for yourselves treasures on earth, where moth and rust destroy, and where thieves break in and steal; for where your treasure is, there your heart will be also. (Matthew 6:19-21).
+
+  Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation. [[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life for faithfulness - not the entry fee. The [[Judgment Seat]] evaluates what lasts; wood, hay, and stubble burn while gold lasts; [[Loss of Reward]] is when worthless treasure burns but you're still saved through fire. [[The Collector's Fallacy]] is the PKM mirror: hoarding saves and stuff on earth while nothing lasting gets stored.
   
   I store up what lasts.
   
@@ -16,7 +18,7 @@ examples:
 shareable_thought:
   - "Treasure in heaven means I store up what lasts - earthly trophies rust, kingdom storage doesn't."
   - "Generosity and obedience - not what rust, moth, and thieves can take."
-  - "Where your treasure is, there your heart will be. (Matthew 6:19-21)."
+  - "for where your treasure is, there your heart will be also. (Matthew 6:19-21)."
   - "Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation."
 relationships:
   - type: contradicts

@@ -3,7 +3,13 @@ title: "Justification"
 meta_title: "Justification - Declared Righteous at Faith"
 description: "God declared me righteous at faith - before my obedience caught up."
 key_concept: |
-  God declares me righteous through faith in Christ alone - once, at faith, before my obedience catches up (Romans 3:24, 4:5, 5:1).
+  I tell you, this man went to his house justified rather than the other; for everyone who exalts himself will be humbled, but he who humbles himself will be exalted. (Luke 18:14).
+
+  .
+
+  being justified as a gift by His grace through the redemption which is in Christ Jesus (Romans 3:24). Faith credited as righteousness (Romans 4:5). Therefore, having been justified by faith, we have peace with God through our Lord Jesus Christ (Romans 5:1).
+
+  .
   
   [[Free Grace]] names the gift; justification names the legal move: guilty sinner, faith in Christ, declared not guilty - Christ's record credited to me. Same shape as [[Minimum Effective Dose]]: one sufficient act at the start, not a lifetime of merit stacked before God says yes. [[Standing vs Fellowship]] keeps the verdict separate from daily closeness - confession restores fellowship, it doesn't re-buy heaven. [[Sanctification]] is what comes after - becoming holy over time. [[Eternal Rewards]] is what the Father pays faithful living after. None of those three re-open the case justification closed.
   
@@ -19,7 +25,7 @@ shareable_thought:
   - "God declared me righteous at faith."
   - "Justification means God declared me righteous at faith - before my obedience caught up."
   - "God declares me righteous through faith in Christ alone."
-  - "Once, at faith, before my obedience catches up (Romans 3:24, 4:5, 5:1)."
+  - "Therefore, having been justified by faith, we have peace with God through our Lord Jesus Christ (Romans 5:1)."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

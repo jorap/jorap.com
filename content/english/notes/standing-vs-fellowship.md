@@ -3,6 +3,10 @@ title: "Standing vs Fellowship"
 meta_title: "Standing vs Fellowship - Verdict vs Daily Closeness"
 description: "Standing with God is settled at faith; fellowship breaks when I sin and restores when I confess - two ledgers."
 key_concept: |
+  I give eternal life to them, and they will never perish; and no one will snatch them out of My hand. (John 10:28).
+
+  .
+
   [[Free Grace]] secured eternal life once.
   
   Standing is the verdict: declared righteous on Christ, not re-opened by a bad week. Fellowship is closeness: joy, prayer, worship - choked by unconfessed sin, restored when I [[Repent and Believe]] and confess. [[Loss of Reward]] keeps reward-loss separate from salvation-loss; this note keeps fellowship-loss separate from standing-loss. [[Forgiveness]] toward others and [[Reconciliation Before Worship]] repair horizontal fellowship; confession repairs vertical. [[Sanctification]] keeps changing me without re-earning acceptance.

@@ -81,12 +81,12 @@ The adjusted liquid base is about 425-430 ml total, or roughly 1.8 cups. This fi
 
 In a bowl, combine:
 
-- Soy sauce
-- Crushed garlic
-- Whole black peppercorns
-- Bay leaves
+- 160 ml soy sauce, about ⅔ cup
+- 10-11 cloves garlic, crushed
+- 1⅓ tsp whole black peppercorns
+- 4 dried bay leaves
 
-Add the chicken thighs and coat thoroughly.
+Add 2 kg bone-in, skin-on chicken thighs and coat thoroughly.
 
 Marination time:
 
@@ -111,9 +111,9 @@ Since this recipe uses 2 kg of chicken, brown in 2 batches so the pieces sear pr
 Transfer the browned chicken to the Instant Pot. Add:
 
 - Reserved marinade
-- Water
+- 160 ml water, about ⅔ cup (use 120 ml for a thicker sauce)
 
-Add the vinegar last.
+Add 105-110 ml vinegar last (7 tbsp, or ⅓ cup + 2 tbsp).
 
 Do not stir for the first 2 minutes after adding the vinegar. Let it simmer briefly so the acidity mellows.
 

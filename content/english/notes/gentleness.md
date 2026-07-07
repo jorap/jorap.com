@@ -16,7 +16,7 @@ examples:
 shareable_thought:
   - "Gentleness fruit is strength held back on purpose, not weakness or loud correction that skips love."
   - "Gentleness is power restrained, not power absent - Galatians 5:22 names it beside patience."
-  - "The Beatitudes bless the meek - strength without grasping for status."
+  - "Blessed are the gentle, for they shall inherit the earth (Matthew 5:5) - strength without grasping for status."
   - "Hear before you prescribe - loud correction without love isn't Spirit-grown gentleness."
 relationships:
   - type: alternative

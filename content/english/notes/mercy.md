@@ -3,7 +3,13 @@ title: "Mercy"
 meta_title: "Mercy - Compassion on the Guilty"
 description: "Mercy withholds the punishment I deserve and calls me to show the same compassion to others."
 key_concept: |
-  [[Grace]] gives good I couldn't earn; mercy spares bad I had coming. (Matthew 5:7, 18:21-35; Luke 10:37; Ephesians 2:4). Ephesians 2:4-5 keeps them in one breath: rich in mercy, saved by grace. [[Free Grace]] is how that pair lands on eternal life - gift through faith, wrath withheld, heaven given. [[Forgiveness]] is mercy toward a debtor: release what you're owed because the King already cleared yours. [[The Beatitudes]] promise mercy to the merciful. [[Judge Not]] starts from the same ground - I needed mercy before I play judge. [[Love Your Neighbor]] and [[Love Your Enemies]] turn mercy outward: act for the hurt person, bless the persecutor. PKM mirror: [[Sunk Cost Fallacy]] in reverse - stop treating old hurt like a debt I'm still collecting when mercy already closed the ledger.
+  Blessed are the merciful, for they shall receive mercy. (Matthew 5:7).
+
+  .
+
+  [[Grace]] gives good I couldn't earn; mercy spares bad I had coming. But God, being rich in mercy, because of His great love with which He loved us, even when we were dead in our transgressions, made us alive together with Christ (by grace you have been saved) (Ephesians 2:4-5).
+
+  [[Free Grace]] is how that pair lands on eternal life - gift through faith, wrath withheld, heaven given. [[Forgiveness]] is mercy toward a debtor: release what you're owed because the King already cleared yours. [[The Beatitudes]] promise mercy to the merciful. [[Judge Not]] starts from the same ground - I needed mercy before I play judge. [[Love Your Neighbor]] and [[Love Your Enemies]] turn mercy outward: act for the hurt person, bless the persecutor. PKM mirror: [[Sunk Cost Fallacy]] in reverse - stop treating old hurt like a debt I'm still collecting when mercy already closed the ledger.
   
   Mercy withholds the punishment I deserve and calls me to show the same compassion to others.
   

@@ -3,9 +3,15 @@ title: "Grace"
 meta_title: "Grace - Unmerited Favor from God"
 description: "Grace is gift I never earned starting with salvation and continuing through the walk after, not wages I could stack."
 key_concept: |
+  For God so loved the world, that He gave His only begotten Son, that whoever believes in Him shall not perish, but have eternal life. (John 3:16).
+
+  .
+
   [[Mercy]] withholds what I deserve; grace gives what I couldn't earn.
   
-  Same rescue, two angles - rich in mercy, saved by grace (Ephesians 2:4-5). [[Free Grace]] is grace applied to eternal life: Christ paid what I couldn't; I receive by faith, not wages. [[Justification]] names the verdict grace triggers - declared righteous at faith. [[Sanctification]] and [[Grateful Obedience]] are grace after the gift: grow and obey from thanks, not to buy acceptance. [[Forgiveness]] flows the same way - forgive because grace already cleared my debt. [[Assurance]] and [[Standing vs Fellowship]] keep a bad week from collapsing standing with closeness. PKM mirror: [[Minimum Effective Dose]] - faith is the smallest act that still works for salvation; grace is why one sufficient gift beats a lifetime merit ladder.
+  But God, being rich in mercy, because of His great love with which He loved us, even when we were dead in our transgressions, made us alive together with Christ (by grace you have been saved). (Ephesians 2:4-5).
+
+  [[Free Grace]] is grace applied to eternal life: Christ paid what I couldn't; I receive by faith, not wages. [[Justification]] names the verdict grace triggers - declared righteous at faith. [[Sanctification]] and [[Grateful Obedience]] are grace after the gift: grow and obey from thanks, not to buy acceptance. [[Forgiveness]] flows the same way - forgive because grace already cleared my debt. [[Assurance]] and [[Standing vs Fellowship]] keep a bad week from collapsing standing with closeness. PKM mirror: [[Minimum Effective Dose]] - faith is the smallest act that still works for salvation; grace is why one sufficient gift beats a lifetime merit ladder.
   
   Grace is gift I never earned starting with salvation and continuing through the walk after, not wages I could stack.
   

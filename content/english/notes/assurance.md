@@ -3,6 +3,10 @@ title: "Assurance"
 meta_title: "Assurance - Rest on Christ's Promise, Not This Week"
 description: "Assurance is resting on Christ's finished work when doubt hits - not my week's obedience score."
 key_concept: |
+  Truly, truly, I say to you, he who believes has eternal life. (John 6:47).
+
+  .
+
   [[Free Grace]] names the gift; [[Justification]] names the verdict; assurance names where I rest when doubt hits.
   
   Bad weeks, hidden sin, dread at the [[Judgment Seat]] - none of those re-open the case [[Justification]] closed. [[Loss of Reward]] keeps reward-loss separate: I can stumble, lose reward, and still belong to Christ. [[Childlike Faith]] receives the promise like a child - stop re-negotiating merit every Monday. [[Standing vs Fellowship]] keeps the categories straight: closeness breaks, standing stays. PKM mirror: [[Minimum Effective Dose]] - faith is the sufficient act; assurance rests on that, not a lifetime merit stack.

@@ -3,11 +3,15 @@ title: "Love Your Enemies"
 meta_title: "Love Your Enemies - Jesus' Hard Command"
 description: "Love your enemies - bless, pray, reflect the Father who sends rain on just and unjust alike."
 key_concept: |
-  Jesus overturned the tribal reading of "neighbor." Loving only people who love you back is ordinary; loving enemies is divine-shaped. (Matthew 5:44-45). Prayer and blessing are the practical handles - not agreement, not pretending harm didn't happen. The Father's free grace toward the unjust (Matthew 5:45) is the pattern: I love enemies because God loved me first.
+  love your enemies and pray for those who persecute you. (Matthew 5:44-45). Loving only people who love you back is ordinary; loving enemies is divine-shaped. Prayer and blessing are the practical handles - not agreement, not pretending harm didn't happen. The Father's free grace toward the unjust (Matthew 5:45).
+
+  is the pattern: I love enemies because God loved me first.
   
   Love your enemies.
   
-  Bless, pray, reflect the Father who sends rain on just and unjust alike.
+  love your enemies and pray for those who persecute you - He causes His sun to rise on the evil and the good, and sends rain on the righteous and the unrighteous (Matthew 5:44-45).
+
+  .
   
   Love your enemies - bless, pray, and do good without pretending the harm didn't happen.
 examples:
@@ -15,7 +19,7 @@ examples:
   - "My neighbor's honking got under my skin and I almost left a nasty note - I baked cookies instead and asked if everything was okay."
 shareable_thought:
   - "Love your enemies - bless, pray, and do good without pretending the harm didn't happen."
-  - "Bless, pray, reflect the Father who sends rain on just and unjust alike."
+  - "love your enemies and pray for those who persecute you - He causes His sun to rise on the evil and the good, and sends rain on the righteous and the unrighteous (Matthew 5:44-45)."
   - "Prayer and blessing are the practical handles - not agreement, not pretending harm didn't happen."
   - "The Father's free grace toward the unjust (Matthew 5:45) is the pattern: I love enemies because God loved me first."
 relationships:

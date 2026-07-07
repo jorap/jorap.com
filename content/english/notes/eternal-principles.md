@@ -6,7 +6,7 @@ description: "What Jesus taught that doesn't expire when the culture shifts - lo
 key_concept: |
   I split them into one-claim notes so I can link and drill them like the rest of the garden.
   
-  The ground is [[Free Grace]]: eternal life is God's gift by faith in Christ, not works. These principles aren't the price of heaven. They're how I try to live once I've already received it. Start at [[Free Grace]] if the order matters. Then wander by section below. Gospel spine notes carry six review cards each - drill at [/notes/review/](/notes/review/) and filter by **Eternal Principles** (full deck), **Faith**, **Commandments**, **Ethics**, **Prayer**, **Priorities**, or **Discipleship** to match each section.
+  The ground is [[Free Grace]]: eternal life is God's gift by faith in Christ, not works. These principles aren't the price of heaven. They're how I try to live once I've already received it. Each spine note opens `key_concept` with Jesus' words on that principle (NASB 1995) - then JoRap commentary and cross-links. Start at [[Free Grace]] if the order matters. Then wander by section below. Gospel spine notes carry six review cards each - drill at [/notes/review/](/notes/review/) and filter by **Eternal Principles** (full deck), **Faith**, **Commandments**, **Ethics**, **Prayer**, **Priorities**, or **Discipleship** to match each section.
   
   What Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first.
 shareable_thought:
@@ -33,15 +33,15 @@ draft: false
 ---
 ## Theological basis
 
-- [[Grace]] - God's unmerited favor; gives good I never earned
-- [[Mercy]] - compassion on the guilty; withholds punishment I deserve
-- [[Free Grace]] - salvation by faith, not works; principles follow, they don't pay the fare
-- [[Justification]] - declared righteous at faith; finished before the walk catches up
-- [[Sanctification]] - becoming holy over time; grateful growth after the verdict
-- [[Present a Living Sacrifice]] - in view of God's mercy, offer your body as worship that's alive (Romans 12:1)
-- [[Renewed Mind]] - don't conform to the world's pattern; be transformed by renewing your mind (Romans 12:2)
-- [[Don't Copy the Pattern]] - refuse culture's default script before reactions run on autopilot (Romans 12:2)
-- [[Discern His Will Daily]] - test and approve what God wants after renewal reshapes judgment (Romans 12:2)
+- [[Grace]] - For God so loved the world (John 3:16); gift I never earned
+- [[Mercy]] - Blessed are the merciful (Matthew 5:7); withholds punishment I deserve
+- [[Free Grace]] - eternal life by faith, not works (John 5:24); principles follow, they don't pay the fare
+- [[Justification]] - justified at faith (Luke 18:14); finished before the walk catches up
+- [[Sanctification]] - sanctified in the truth (John 17:17); grateful growth after the verdict
+- [[Present a Living Sacrifice]] - deny yourself, take up your cross; offer your body as worship that's alive (Matthew 16:24; Romans 12:1)
+- [[Renewed Mind]] - continue in My word; be transformed by renewing your mind (John 8:31-32; Romans 12:2)
+- [[Don't Copy the Pattern]] - not of the world; refuse culture's default script (John 15:19; Romans 12:2)
+- [[Discern His Will Daily]] - willing to do His will; test and approve what God wants (John 7:17; Romans 12:2)
 - [[Christlikeness]] - shaped to look and love more like Jesus; the aim sanctification moves toward
 - [[Faith and Works]] - faith alone saves; real faith shows up in obedience
 - [[Repent and Believe]] - kingdom at hand now; turn and trust, don't wait until you're "ready"

@@ -3,17 +3,21 @@ title: "Heart Righteousness"
 meta_title: "Heart Righteousness - Anger and Lust as Heart Sins"
 description: "Heart righteousness goes deeper than outward acts - anger is murder, lust is adultery, in the heart."
 key_concept: |
-  Jesus didn't lower the law; he exposed its depth. (Matthew 5:21-30). "You have heard… but I say" moves righteousness from courtroom compliance to motive and imagination. Under [[Free Grace]], this isn't a new merit ladder - it's the standard the Spirit applies to a life already saved, starting where only God sees. [[Fruits of the Spirit]] names what that inner work produces outward - love, gentleness, self-control, and the rest.
+  Jesus didn't lower the law; he exposed its depth. (Matthew 5:21-30).
+
+  "You have heard… but I say" moves righteousness from courtroom compliance to motive and imagination. Under [[Free Grace]], this isn't a new merit ladder - it's the standard the Spirit applies to a life already saved, starting where only God sees. [[Fruits of the Spirit]] names what that inner work produces outward - love, gentleness, self-control, and the rest.
   
   Heart righteousness goes deeper than outward acts.
   
-  Anger is murder, lust is adultery, in the heart.
+  everyone who is angry with his brother shall be guilty before the court; everyone who looks at a woman with lust for her has already committed adultery with her in his heart (Matthew 5:22, 28).
+
+  .
 examples:
   - "I smiled through the bad call and nursed the anger the whole ride home - heart righteousness is polite outside, poison inside; God cares about the inner life."
   - "I sent a cold reply that sounded professional while resentment ran inside - Jesus moves righteousness from courtroom compliance to motive."
 shareable_thought:
   - "Heart righteousness goes deeper than outward acts."
-  - "Anger is murder, lust is adultery, in the heart."
+  - "everyone who is angry with his brother shall be guilty before the court; everyone who looks at a woman with lust for her has already committed adultery with her in his heart (Matthew 5:22, 28)."
   - "Fruits of the Spirit names what that inner work produces outward."
   - "Love, gentleness, self-control, and the rest."
 relationships:

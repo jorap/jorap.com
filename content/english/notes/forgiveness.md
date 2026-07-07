@@ -3,7 +3,9 @@ title: "Forgiveness"
 meta_title: "Forgiveness - As the Father Forgives You"
 description: "I extend the forgiveness I already received, not ledger-keeping on debts Christ cleared."
 key_concept: |
-  The [[Ask Seek Knock]] builds forgiveness into daily rhythm. (Matthew 6:14-15, 18:21-35). The parable of the unforgiving servant (Matthew 18) makes the math plain: the king forgave an unpayable debt - picture of [[Free Grace]] already given - and the servant's refusal to forgive a small debt exposed a heart out of step with [[Mercy]]. Same move as [[Sunk Cost Fallacy]] in reverse: I stop treating past hurt as a reason to keep collecting on a debt that's already been cleared. Seventy times seven ends the ledger-keeping. For believers, unforgiveness chokes fellowship and joy; it doesn't undo eternal life bought by faith ([[Standing vs Fellowship]] and [[Loss of Reward]] keep the categories straight).
+  The [[Ask Seek Knock]] builds forgiveness into daily rhythm. (Matthew 6:14-15, 18:21-35). The parable of the unforgiving servant (Matthew 18) makes the math plain: the king forgave an unpayable debt - picture of [[Free Grace]] already given - and the servant's refusal to forgive a small debt exposed a heart out of step with [[Mercy]]. Same move as [[Sunk Cost Fallacy]] in reverse: I stop treating past hurt as a reason to keep collecting on a debt that's already been cleared. up to seventy times seven (Matthew 18:22) ends the ledger-keeping. For believers, unforgiveness chokes fellowship and joy; it doesn't undo eternal life bought by faith ([[Standing vs Fellowship]] and [[Loss of Reward]] keep the categories straight).
+
+  .
   
   I extend the forgiveness I already received, not ledger-keeping on debts Christ cleared.
 examples:

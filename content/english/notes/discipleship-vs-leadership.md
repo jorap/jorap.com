@@ -3,6 +3,10 @@ title: "Discipleship vs Leadership"
 meta_title: "Discipleship vs Leadership - Two Seats, One Person"
 description: "Discipleship is who I follow upward; leadership is who looks to me for direction and care - two seats."
 key_concept: |
+  whoever wishes to become great among you shall be your servant, and whoever wishes to be first among you shall be your slave; just as the Son of Man did not come to be served, but to serve, and to give His life a ransom for many. (Matthew 20:26-28).
+
+  .
+
   [[Discipleship]] answers upward - learn and do what Jesus said after faith, not to buy heaven under [[Free Grace]]. [[Leadership]] answers outward - direction, pace, and care when people look my way; title optional.
   
   Same person, two seats. Swapping them is the failure: running a standup isn't following Christ, and a promotion doesn't cancel private obedience. [[Servant Leadership]] overlaps - unblock the team, pass credit down - but that's still horizontal care for people, not the vertical allegiance discipleship names. [[Humility and Service]] is gospel depth on the overlap: greatness through serving, not being served.

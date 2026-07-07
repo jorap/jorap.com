@@ -3,9 +3,13 @@ title: "The Narrow Way"
 meta_title: "The Narrow Way - Enter by the Narrow Gate"
 description: "The road to life is narrow and hard - the easy broad path is the one I'd drift onto."
 key_concept: |
-  Enter by the narrow gate - the road to life is hard and few find it; the broad road to destruction is easy and crowded (Matthew 7:13-14).
+  Enter through the narrow gate; for the gate is wide and the way is broad that leads to destruction, and there are many who enter through it. For the gate is small and the way is narrow that leads to life, and there are few who find it. (Matthew 7:13-14).
+
+  .
   
-  In [[Free Grace]] terms, the narrow gate is [[Free Grace]] in Christ - not the broad road of self-righteousness, religion-by-works, or moral performance as salvation. Jesus closes the Sermon on the Mount with a fork: not everyone who says "Lord, Lord" enters (Matthew 7:21-23). Those are false professors who never truly believed, not believers who stumbled - [[Loss of Reward]] may apply, but they stay saved. [[Discipleship]] on the narrow path is costly - cross-bearing, enemy-love, truth-telling - but distinct from how eternal life is received: free, by faith, through grace.
+  In [[Free Grace]] terms, the narrow gate is [[Free Grace]] in Christ - not the broad road of self-righteousness, religion-by-works, or moral performance as salvation. Jesus closes the Sermon on the Mount with a fork: not everyone who says "Lord, Lord" enters (Matthew 7:21-23).
+
+  Those are false professors who never truly believed, not believers who stumbled - [[Loss of Reward]] may apply, but they stay saved. [[Discipleship]] on the narrow path is costly - cross-bearing, enemy-love, truth-telling - but distinct from how eternal life is received: free, by faith, through grace.
   
   The road to life is narrow and hard.
   
@@ -21,7 +25,7 @@ shareable_thought:
   - "The narrow way warns the road to life is narrow and hard - few find it, but it's the one Jesus named."
   - "The easy broad path is the one I'd drift onto."
   - "Enter by the narrow gate - few find it because it costs self-rule, not because God hides the door."
-  - "The road to life is hard and few find it; the broad road to destruction is easy and crowded (Matthew 7:13-14)."
+  - "For the gate is small and the way is narrow that leads to life, and there are few who find it. (Matthew 7:13-14)."
 relationships:
   - type: alternative
     wikilink: "[[Loss of Reward]]"

@@ -3,7 +3,9 @@ title: "Great Commission"
 meta_title: "Great Commission - Go and Make Disciples"
 description: "Jesus sends believers to go, baptize, and teach obedience under His authority and presence to the end of the age."
 key_concept: |
-  Mission flows from resurrection authority, not human recruitment zeal. (Matthew 28:19-20). Teaching obedience is discipleship after faith - not a works payment for salvation under [[Free Grace]]. PKM parallel: [[Creative Output]] - the gospel isn't fully kept until it's passed on; inventory notes mean nothing if they never leave the garden.
+  Go therefore and make disciples of all the nations, baptizing them in the name of the Father and the Son and the Holy Spirit, teaching them to observe all that I commanded you; and lo, I am with you always, even to the end of the age. (Matthew 28:19-20).
+
+  Teaching obedience is discipleship after faith - not a works payment for salvation under [[Free Grace]]. PKM parallel: [[Creative Output]] - the gospel isn't fully kept until it's passed on; inventory notes mean nothing if they never leave the garden.
   
   Jesus sends believers to go, baptize, and teach obedience under His authority and presence to the end of the age.
   
@@ -13,7 +15,7 @@ examples:
   - "A neighbor asked what we do on Sunday mornings and I almost changed the subject - Jesus said go, baptize, teach, and He's with you while you do it."
 shareable_thought:
   - "Jesus sends believers to go, baptize, and teach obedience under His authority and presence to the end of the age."
-  - "Mission flows from resurrection authority, not human recruitment zeal. (Matthew 28:19-20)."
+  - "Go therefore and make disciples of all the nations, baptizing them in the name of the Father and the Son and the Holy Spirit, teaching them to observe all that I commanded you; and lo, I am with you always, even to the end of the age. (Matthew 28:19-20)."
   - "Teaching obedience is discipleship after faith - not a works payment for salvation under Free Grace."
   - "Go, baptize, teach obedience - under Christ's authority, not recruitment zeal."
 relationships:

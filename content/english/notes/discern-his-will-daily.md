@@ -1,20 +1,24 @@
 ---
 title: "Discern His Will Daily"
 meta_title: "Discern His Will Daily - Romans 12:2 Outcome"
-description: "A renewed mind can test what God wants - good, pleasing, perfect - without culture's noise picking first."
+description: "A renewed mind can test what God wants - good and acceptable and perfect - without culture's noise picking first."
 key_concept: |
-  Romans 12:2's outcome: then you can test and approve what God's will is - good, pleasing, perfect. Not mystical lottery - discernment after Scripture and prayer reshape judgment.
+  If anyone is willing to do His will, he will know of the teaching, whether it is of God or whether I speak from Myself. (John 7:17).
+
+  .
+
+  Romans 12:2's outcome: so that you may prove what the will of God is, that which is good and acceptable and perfect. Not mystical lottery - discernment after Scripture and prayer reshape judgment.
   
   [[Renewed Mind]] is the engine; this is what it enables at the fork. [[Take Up Your Cross]] is choosing His will over mine - discernment names the fork. [[God Centered Design]] orders the aim toward His glory. [[Seek the Kingdom First]] fills the agenda before worry rewrites it. PKM mirror: [[Decision Quality]] - better calls when the inputs aren't all culture noise.
   
-  A renewed mind can test what God wants - good, pleasing, perfect - without culture's noise picking first.
+  A renewed mind can test what God wants - good and acceptable and perfect - without culture's noise picking first.
   
   Renewal enables the fork - test His will before culture picks.
 examples:
   - "Two job offers and I was polling the group chat for vibes - discernment came after a renewed mind: which role serves the kingdom, not which title feeds my ego."
   - "The coach had three plays for the last possession - film and prayer beat the crowd's panic script; test and approve which move fits the game plan, not the hot hand."
 shareable_thought:
-  - "A renewed mind can test what God wants - good, pleasing, perfect - without culture's noise picking first."
+  - "A renewed mind can test what God wants - good and acceptable and perfect - without culture's noise picking first."
   - "Discernment after Scripture and prayer reshape judgment - not mystical lottery."
   - "Renewal enables the fork - test His will before culture picks."
   - "Choosing God's will over self-will - discernment names the fork."
@@ -62,6 +66,6 @@ cards:
   - front: "Big fork tomorrow and I haven't opened Scripture all week. What's missing?"
     back: "Renew first - then approve His will."
   - front: "Choosing between comfort and the hard right thing. Romans 12:2 outcome?"
-    back: "Test His will - good, pleasing, perfect."
+    back: "Test His will - good and acceptable and perfect."
 draft: false
 ---

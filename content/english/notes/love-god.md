@@ -3,9 +3,13 @@ title: "Love God"
 meta_title: "Love God - The Greatest Commandment"
 description: "First command, whole self - heart, mind, strength, not a corner of Sunday morning."
 key_concept: |
-  The greatest commandment Jesus named: love the Lord with all your heart, soul, mind, and strength (Matthew 22:37-38).
+  Jesus named the great and foremost commandment: YOU SHALL LOVE THE LORD YOUR GOD WITH ALL YOUR HEART, AND WITH ALL YOUR SOUL, AND WITH ALL YOUR MIND (Matthew 22:37-38).
+
+  .
   
-  When a scribe asked which commandment was first, Jesus quoted Deuteronomy 6:5 - whole-person devotion, not a corner of the week. Heart (affections), soul (will and life), mind (thought), strength (effort). Under [[Free Grace]], this is the first call on a life already saved by faith - love flowing from grace received, not love offered as payment for eternal life.
+  When a scribe asked which commandment was first, Jesus quoted Deuteronomy 6:5: You shall love the LORD your God with all your heart and with all your soul and with all your might - whole-person devotion, not a corner of the week. Heart (affections), soul (will and life), mind (thought), strength (effort).
+
+  Under [[Free Grace]], this is the first call on a life already saved by faith - love flowing from grace received, not love offered as payment for eternal life.
   
   First command, whole self - heart, mind, strength, not a corner of Sunday morning.
 examples:
@@ -13,7 +17,7 @@ examples:
   - "Sunday worship felt high but I hadn't opened my Bible since last week - loving God means more than one hour in a pew."
 shareable_thought:
   - "First command, whole self - heart, mind, strength, not a corner of Sunday morning."
-  - "The greatest commandment Jesus named: love the Lord with all your heart, soul, mind, and strength (Matthew 22:37-38)."
+  - "Jesus named the great and foremost commandment: YOU SHALL LOVE THE LORD YOUR GOD WITH ALL YOUR HEART, AND WITH ALL YOUR SOUL, AND WITH ALL YOUR MIND (Matthew 22:37-38)."
   - "When a scribe asked which commandment was first, Jesus quoted Deuteronomy 6:5."
   - "Whole-person devotion, not a corner of the week."
 relationships:

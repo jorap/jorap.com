@@ -3,7 +3,9 @@ title: "Judge Not"
 meta_title: "Judge Not - Speck and Plank"
 description: "I don't play final judge on souls - I pull my own plank before nitpicking someone's speck."
 key_concept: |
-  Jesus forbids harsh, hypocritical condemnation - the kind that ignores my own guilt while magnifying yours. (Matthew 7:1-5). He doesn't forbid all moral discernment: the same sermon says judge trees by fruit (Matthew 7:16-20). Garden parallel: the [Issues](/notes/issues/) page lists broken wikilinks to fix - diagnose the graph, don't condemn the author. [[Mercy]] and [[Free Grace]] remind me I stood on mercy first.
+  Do not judge so that you will not be judged. (Matthew 7:1-5). Jesus forbids harsh, hypocritical condemnation - the kind that ignores my own guilt while magnifying yours. He doesn't forbid all moral discernment: the same sermon says You will know them by their fruits (Matthew 7:16-20). Garden parallel: the [Issues](/notes/issues/).
+
+  page lists broken wikilinks to fix - diagnose the graph, don't condemn the author. [[Mercy]] and [[Free Grace]] remind me I stood on mercy first.
   
   I don't play final judge on souls - I pull my own plank before nitpicking someone's speck.
 examples:
@@ -11,9 +13,8 @@ examples:
   - "I spotted a coworker's missed step in five seconds and missed my own plank for a month - Jesus wasn't saying ignore sin; He was saying remove your plank first."
 shareable_thought:
   - "I don't play final judge on souls - I pull my own plank before nitpicking someone's speck."
-  - "Jesus forbids harsh, hypocritical condemnation."
-  - "The kind that ignores my own guilt while magnifying yours. (Matthew 7:1-5)."
-  - "He doesn't forbid all moral discernment: the same sermon says judge trees by fruit (Matthew 7:16-20)."
+  - "Do not judge so that you will not be judged. (Matthew 7:1-5)."
+  - "He doesn't forbid all moral discernment: the same sermon says You will know them by their fruits (Matthew 7:16-20)."
 relationships:
   - type: contradicts
     wikilink: "[[Humility and Service]]"

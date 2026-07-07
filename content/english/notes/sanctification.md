@@ -3,6 +3,10 @@ title: "Sanctification"
 meta_title: "Sanctification - Becoming Holy After Faith"
 description: "After God declares me righteous, he keeps shaping my habits and heart - growth, not the ticket in."
 key_concept: |
+  Sanctify them in the truth; Your word is truth. (John 17:17).
+
+  .
+
   [[Free Grace]] settles where I spend forever.
   
   Sanctification settles who I'm becoming on the way. [[Grateful Obedience]] names the posture: grow from thanks, not to earn acceptance. [[Standing vs Fellowship]] keeps a fruitless week from feeling like revoked standing. [[Discipleship]] is the daily walk - hear Jesus, do what He said. [[Abide in Me]] names the engine: fruit from staying connected, not self-powered grit alone. [[Fruits of the Spirit]] names what that fruit looks like - love, joy, peace, patience, and the rest in Galatians 5. [[Eternal Rewards]] repays faithful obedience; [[Loss of Reward]] warns that a wasted season may shrink reward but doesn't un-save you. Sanctification is the slow becoming that obedience shapes. PKM mirror: [[Process Over Outcomes]] - daily faithfulness beats one heroic week I treat like proof I'm saved.

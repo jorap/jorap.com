@@ -3,20 +3,26 @@ title: "Don't Copy the Pattern"
 meta_title: "Don't Copy the Pattern - Refuse Culture's Default"
 description: "Culture's default script isn't neutral - I refuse the pattern before reactions run on autopilot."
 key_concept: |
-  Romans 12:2 opens with don't conform to this world's pattern. [[Renewed Mind]] is the positive half - be transformed by renewing your mind. This note names the refusal: outrage feeds, hurry-and-react, comparison traps - culture's presets I didn't choose but my nervous system runs anyway.
+  If you were of the world, the world would love its own; but because you are not of the world, but I chose you out of the world, because of this the world hates you. (John 15:19).
+
+  .
+
+  And do not be conformed to this world (Romans 12:2).
+
+  [[Renewed Mind]] is the positive half - be transformed by the renewing of your mind. This note names the refusal: outrage feeds, hurry-and-react, comparison traps - culture's presets I didn't choose but my nervous system runs anyway.
   
   [[Information Diet]] curates inputs; [[Digital Minimalism]] cuts tools; this is the posture before the feed loads. [[Attention Economy]] fights for what fills the mind first. [[Behavioral Economics]] names the default nudges; refusal is the interrupt before the script mails the reply.
   
   Culture's default script isn't neutral - I refuse the pattern before reactions run on autopilot.
   
-  Don't conform to this world's pattern - refuse before renewal reshapes the mind.
+  And do not be conformed to this world - refuse before renewal reshapes the mind.
 examples:
   - "I knew the verse on patience and still snapped at dinner - my mind was running the world's hurry-and-react script until I stopped copying the pattern and opened Scripture before the group chat."
   - "The team copied the league's trash-talk culture after one bad call - same data, old habit loop; refusing the pattern means film study on composure, not one inspirational speech."
 shareable_thought:
   - "Culture's default script isn't neutral - I refuse the pattern before reactions run on autopilot."
   - "Outrage feeds, hurry-and-react, comparison traps - culture's presets I didn't choose but my nervous system runs anyway."
-  - "Don't conform to this world's pattern - refuse before renewal reshapes the mind."
+  - "And do not be conformed to this world - refuse before renewal reshapes the mind."
   - "Refusal is the interrupt before the script mails the reply."
 relationships:
   - type: alternative

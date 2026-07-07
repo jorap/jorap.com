@@ -3,7 +3,9 @@ title: "Let Your Light Shine"
 meta_title: "Let Your Light Shine - Good Works That Glorify God"
 description: "Good works aren't for hiding - let people see the Father in how I live, not perform for applause."
 key_concept: |
-  You're the light of the world, like a city on a hill. (Matthew 5:14-16). The point isn't performance for applause - Jesus warns against practicing righteousness to be seen by people (Matthew 6:1). Good works shine so God gets credit for [[Free Grace]] at work in a saved life, not so I build a personal brand. Parallel in the garden: [[Drafting in Public]] puts rough notes in the open so ideas get tested - same visibility instinct, different aim (glorify God, not the author).
+  You are the light of the world. A city set on a hill cannot be hidden. (Matthew 5:14-16). The point isn't performance for applause - Jesus warns against practicing righteousness to be seen by people (Matthew 6:1). Good works shine so God gets credit for [[Free Grace]] at work in a saved life, not so I build a personal brand. Parallel in the garden: [[Drafting in Public]] puts rough notes in the open so ideas get tested - same visibility instinct, different aim (glorify God, not the author).
+
+  .
   
   Good works aren't for hiding - let people see the Father in how I live, not perform for applause.
 examples:
@@ -13,7 +15,7 @@ shareable_thought:
   - "Good works aren't for hiding - let people see the Father in how I live, not perform for applause."
   - "Parallel in the garden: Drafting in Public puts rough notes in the open so ideas get tested."
   - "Same visibility instinct, different aim (glorify God, not the author)."
-  - "You're the light of the world, like a city on a hill. (Matthew 5:14-16)."
+  - "You are the light of the world. A city set on a hill cannot be hidden. (Matthew 5:14-16)."
 relationships:
   - type: alternative
     wikilink: "[[Drafting in Public]]"

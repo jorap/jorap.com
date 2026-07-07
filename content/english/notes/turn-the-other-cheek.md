@@ -3,7 +3,9 @@ title: "Turn the Other Cheek"
 meta_title: "Turn the Other Cheek - Non-Retaliation"
 description: "When someone hits or insults me, I don't hand back the same - I break the retaliation loop."
 key_concept: |
-  Jesus rejected the limit of "eye for eye" as a personal ethic for disciples. (Matthew 5:38-39). The point isn't passivity toward all evil - it's refusing to become what hurt you. Same logic as [[Sunk Cost Fallacy]]: stop throwing more anger after sunk hurt. Goes further than [[The Golden Rule]] (proactive good) and pairs with [[Love Your Enemies]] (heart posture). [[Free Grace]] frees me to absorb cost without keeping score for heaven.
+  An eye for an eye, and a tooth for a tooth - but I say to you, do not resist an evil person; but whoever slaps you on your right cheek, turn the other to him also. (Matthew 5:38-39). The point isn't passivity toward all evil - it's refusing to become what hurt you. Same logic as [[Sunk Cost Fallacy]]: stop throwing more anger after sunk hurt. Goes further than [[The Golden Rule]] (proactive good) and pairs with [[Love Your Enemies]] (heart posture).
+
+  [[Free Grace]] frees me to absorb cost without keeping score for heaven.
   
   When someone hits or insults me, I don't hand back the same - I break the retaliation loop.
 examples:

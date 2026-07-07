@@ -3,7 +3,13 @@ title: "Present a Living Sacrifice"
 meta_title: "Present a Living Sacrifice - Romans 12:1 Worship"
 description: "I offer my ordinary day to God first - thanks after mercy, not payment to earn grace."
 key_concept: |
-  [[Mercy]] received first (Romans 12:1) - then the living sacrifice. Not a dead bull on an altar - my body, my Tuesday, my choices offered as worship that's alive.
+  If anyone wishes to come after Me, he must deny himself, and take up his cross and follow Me. (Matthew 16:24).
+
+  .
+
+  [[Mercy]] received first - I urge you, brethren, by the mercies of God, to present your bodies a living and holy sacrifice, acceptable to God, which is your spiritual service of worship. (Romans 12:1).
+
+  Not a dead bull on an altar - my body, my Tuesday, my choices offered as worship that's alive.
   
   [[Grateful Obedience]] names the motive: offer because Christ already saved me, not to buy the ticket. [[Renewed Mind]] is the paired move in verse 2 - sacrifice without a mind being reshaped becomes performance theater. [[Take Up Your Cross]] is daily death to self-will in the same lane. PKM mirror: [[Process Over Outcomes]] - faithful offering on ordinary Tuesdays beats one heroic retreat week I treat like proof I'm saved.
   

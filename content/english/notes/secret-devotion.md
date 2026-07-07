@@ -3,9 +3,13 @@ title: "Secret Devotion"
 meta_title: "Secret Devotion - For the Father's Eyes Alone"
 description: "I give, pray, and fast for God to see - not for applause in the group chat."
 key_concept: |
-  Give, pray, and fast for the Father's eyes - not to be seen by people (Matthew 6:1-18).
+  Beware of practicing your righteousness before men to be noticed by them. (Matthew 6:1). Give, pray, and fast for the Father who sees in secret (Matthew 6:1-18).
+
+  .
   
-  Jesus brackets the [[Ask Seek Knock]] with the same warning: religious performance for an audience is its own reward. Secret devotion pairs with [[Ask Seek Knock]] (how to pray) and contrasts [[Let Your Light Shine]] - some good works shine publicly for God's glory; other devotion stays hidden so the left hand doesn't know what the right is doing. [[Free Grace]] means I'm not earning visibility points with God.
+  Jesus brackets the [[Ask Seek Knock]] with the same warning: religious performance for an audience is its own reward. Secret devotion pairs with [[Ask Seek Knock]] (how to pray).
+
+  and contrasts [[Let Your Light Shine]] - some good works shine publicly for God's glory; other devotion stays hidden so the left hand doesn't know what the right is doing. [[Free Grace]] means I'm not earning visibility points with God.
   
   I give, pray, and fast for God to see - not for applause in the group chat.
 examples:
@@ -13,7 +17,7 @@ examples:
   - "The player doesn't live-stream her 5 a.m. shootarounds for applause - she trains because the game is the point, not the Strava badge."
 shareable_thought:
   - "I give, pray, and fast for God to see - not for applause in the group chat."
-  - "Give, pray, and fast for the Father's eyes - not to be seen by people (Matthew 6:1-18)."
+  - "Beware of practicing your righteousness before men to be noticed by them. (Matthew 6:1). Give, pray, and fast for the Father who sees in secret (Matthew 6:1-18)."
   - "Secret devotion pairs with Ask Seek Knock (how to pray) and contrasts Let Your Light Shine."
   - "Some good works shine publicly for God's glory; other devotion stays hidden so the left hand doesn't know what the right is doing."
 relationships:
