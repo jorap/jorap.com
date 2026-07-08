@@ -3,11 +3,10 @@ title: "Mercy"
 meta_title: "Mercy - Compassion on the Guilty"
 description: "Mercy withholds the punishment I deserve and calls me to show the same compassion to others."
 key_concept: |
-  Blessed are the merciful, for they shall receive mercy. (Matthew 5:7 NASB1995).
-
+  {{< bible "Matthew 5:7" >}}
   Show mercy and you'll receive mercy - the beatitude ties compassion out to compassion back.
 
-  But God, being rich in mercy, because of His great love with which He loved us, even when we were dead in our transgressions, made us alive together with Christ (by grace you have been saved) (Ephesians 2:4-5 NASB1995).
+  But God, being rich in mercy, because of His great love with which He loved us, even when we were dead in our transgressions, made us alive together with Christ (by grace you have been saved) Ephesians 2:4-5 NASB1995
 
   Paul keeps mercy and grace in one breath - rich in mercy, saved by grace while I was still dead in sin.
 

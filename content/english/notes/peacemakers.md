@@ -3,8 +3,7 @@ title: "Peacemakers"
 meta_title: "Peacemakers - Blessed Are the Peacemakers"
 description: "I pursue peace on purpose - repair, truth in love, de-escalation - not just staying quiet."
 key_concept: |
-  Blessed are the peacemakers, for they shall be called sons of God. (Matthew 5:9 NASB1995).
-
+  {{< bible "Matthew 5:9" >}}
   Blessed are peacemakers - active repair, not just staying quiet while two friends feud.
 
   Peacemaking is work: reconciliation, truth spoken in love, de-escalation when others want a fight. The blessing ties peacemaking to family resemblance - acting like the Father who reconciled me to Himself through [[Free Grace]] before I reconciled with anyone.

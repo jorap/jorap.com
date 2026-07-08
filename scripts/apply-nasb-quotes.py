@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 NOTES = ROOT / "content" / "english" / "notes"
-YAML = ROOT / "data" / "scripture-nasb1995.yaml"
+DATA = ROOT / "data" / "scripture-nasb1995.json"
 
 # ponytail: one-shot migration map — old paraphrase → NASB 1995 (unique strings only)
 REPLACEMENTS: list[tuple[str, str]] = [
@@ -232,9 +232,9 @@ def apply() -> int:
 
 
 def self_check() -> None:
-    import yaml
+    import json
 
-    data = yaml.safe_load(YAML.read_text(encoding="utf-8"))
+    data = json.loads(DATA.read_text(encoding="utf-8"))
     assert len(data["verses"]) >= 40
     # spot-check a migrated note
     treasure = (NOTES / "treasure-in-heaven.md").read_text(encoding="utf-8")

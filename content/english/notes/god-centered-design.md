@@ -3,8 +3,7 @@ title: "God Centered Design"
 meta_title: "God Centered Design - Build for God's Glory First"
 description: "I design life and work around God's glory first - not crowd applause, ego, or my comfort."
 key_concept: |
-  Let your light shine before men in such a way that they may see your good works, and glorify your Father who is in heaven. (Matthew 5:16 NASB1995).
-
+  {{< bible "Matthew 5:16" >}}
   Good works visible so the Father gets glory - build for His name, not my brand.
 
   A calendar built for applause still feels empty on Monday.

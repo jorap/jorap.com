@@ -9,7 +9,7 @@
     "node": ">=22.22.2"
   },
   "scripts": {
-    "dev": "concurrently \"node scripts/themeGenerator.js --watch\" \"node scripts/noteFileDates.js --watch\" \"hugo server --buildDrafts --buildFuture\"",
+    "dev": "concurrently \"node scripts/themeGenerator.js --watch\" \"node scripts/noteFileDates.js --watch\" \"hugo server --buildDrafts --buildFuture -e development --baseURL=http://localhost:1313/\"",
     "build": "node scripts/deployBuild.mjs",
     "deploy": "node scripts/deployBuild.mjs",
     "serve": "node scripts/servePublic.mjs",

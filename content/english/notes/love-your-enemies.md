@@ -3,8 +3,7 @@ title: "Love Your Enemies"
 meta_title: "Love Your Enemies - Jesus' Hard Command"
 description: "Love your enemies - bless, pray, reflect the Father who sends rain on just and unjust alike."
 key_concept: |
-  love your enemies and pray for those who persecute you, so that you may be sons of your Father who is in heaven; for He causes His sun to rise on the evil and the good, and sends rain on the righteous and the unrighteous. (Matthew 5:44-45 NASB1995).
-
+  {{< bible "Matthew 5:44-45" >}}
   Bless and pray for persecutors - the Father sends sun and rain on just and unjust; I copy that kindness.
 
   Loving only people who love you back is ordinary; loving enemies is divine-shaped. Prayer and blessing are the practical handles - not agreement, not pretending harm didn't happen. The Father's free grace toward the unjust is the pattern: I love enemies because God loved me first.

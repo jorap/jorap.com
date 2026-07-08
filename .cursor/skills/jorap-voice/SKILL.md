@@ -87,21 +87,23 @@ Hard bans live in `data/voice-words.yaml` - not every row above is linted.
 
 ### Scripture quotes
 
-**Eternal Principles** notes anchor on **Jesus' words** (Matthew, Mark, Luke, John) in **NASB 1995**. Open `key_concept` with the Jesus quote and reference; Paul and other writers may follow as expansion, not as the primary anchor. Commentary and paraphrase stay JoRap voice. Canonical wording lives in `data/scripture-nasb1995.yaml`. Run `python3 scripts/apply-jesus-quotes.py` after bulk edits to spot-check spine notes.
+**Eternal Principles** notes anchor on **Jesus' words** (Matthew, Mark, Luke, John) in **NASB 1995**. Open `key_concept` with the Jesus quote and reference; Paul and other writers may follow as expansion, not as the primary anchor. Commentary and paraphrase stay JoRap voice. Canonical wording lives in `data/scripture-nasb1995.json`. Run `python3 scripts/apply-jesus-quotes.py` after bulk edits to spot-check spine notes.
 
 After each scripture line in EP `key_concept`, add a **plain-language gloss** in JoRap voice on the next line (blank line between verse and gloss). Glosses live in `data/ep-verse-explanations.yaml`. Run `python3 scripts/apply-verse-explanations.py` after bulk edits.
 
-Each verse is its **own paragraph** with the **full NASB 1995 text** and citation suffix. Gospel quotes (Matthew, Mark, Luke, John) render **red on the site** automatically — Paul and other writers stay default ink.
+Each verse is its **own paragraph** with the **full NASB 1995 text** and citation suffix. On the site, verse paragraphs render on their **own line, right-aligned**; glosses and commentary stay left-aligned. Gospel quotes (Matthew, Mark, Luke, John) render **red** automatically — Paul and other writers stay default ink.
 
 ```
-  [Full NASB 1995 verse text] (Ref NASB1995).
+  [Full NASB 1995 verse text] Ref NASB1995
 
   [1-2 sentence gloss - plain words, first person where natural]
 
   [Commentary, wikilinks, cross-refs...]
 ```
 
-Run `python3 scripts/normalize-verse-paragraphs.py` after bulk edits to pull canonical wording from `data/scripture-nasb1995.yaml` and split inline refs into standalone verse paragraphs.
+Frontmatter shape is unchanged: one verse per paragraph block, blank line before the gloss. Hugo adds `scripture-verse` at build time — do not hand-write HTML in notes.
+
+Run `python3 scripts/normalize-verse-paragraphs.py` after bulk edits to pull canonical wording from `data/scripture-nasb1995.json` and split inline refs into standalone verse paragraphs.
 
 When quoting Bible **text** elsewhere in the garden, use **NASB 1995** wording. Run `python3 scripts/apply-nasb-quotes.py` for paraphrase migrations.
 
@@ -236,6 +238,7 @@ Recipe content can be more instructional - ingredients, steps, timings - but sec
 - [ ] `relationships.reason` is a clause, not a paragraph
 - [ ] Cards pass [flashcards](../flashcards/SKILL.md) *and* plain-words test - no definition backs, no fragments
 - [ ] Theology/PKM term glossed in plain English before the wikilink stack
+- [ ] EP scripture: each NASB verse is its own `key_concept` paragraph; gloss on the next line (site renders verses right-aligned — no HTML in frontmatter)
 - [ ] `pnpm lint:voice` clean (dashes + AI-tell words)
 
 ### Blog posts

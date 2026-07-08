@@ -3,15 +3,14 @@ title: "Forgiveness"
 meta_title: "Forgiveness - As the Father Forgives You"
 description: "I extend the forgiveness I already received, not ledger-keeping on debts Christ cleared."
 key_concept: |
-  if you forgive others for their transgressions, your heavenly Father will also forgive you. But if you do not forgive others, then your Father will not forgive your transgressions. (Matthew 6:14-15 NASB1995).
-
+  {{< bible "Matthew 6:14-15" >}}
   Forgive others or the Father won't forgive you - daily rhythm, not a one-time sermon nod.
 
-  I do not say to you, up to seven times, but up to seventy times seven. (Matthew 18:22 NASB1995).
+  {{< bible "Matthew 18:22" >}}
 
   Seventy times seven ends ledger-keeping - stop counting how many times you've been wronged.
 
-  Then summoning him, his lord said to him, 'You wicked slave, I forgave you all that debt because you pleaded with me. Should you not also have had mercy on your fellow slave, in the same way that I had mercy on you?' (Matthew 18 NASB1995).
+  {{< bible ref="Matthew 18:32-33" label="Matthew 18" >}}
 
   The unforgiving servant - king forgave an unpayable debt; refusing a small debt exposed a heart out of step.
 

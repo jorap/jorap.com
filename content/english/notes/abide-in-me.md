@@ -3,11 +3,10 @@ title: "Abide in Me"
 meta_title: "Abide in Me - Fruit from Union with Christ"
 description: "I bear fruit when I stay connected to Christ, not when I force it by willpower alone."
 key_concept: |
-  apart from Me you can do nothing. (John 15:5 NASB1995).
-
+  {{< bible "John 15:5" >}}
   Cut off from the vine, I produce nothing lasting - fruit comes from staying connected, not willpower theater.
 
-  I am the true vine, and My Father is the vinedresser. Every branch in Me that does not bear fruit, He takes away; and every branch that bears fruit, He prunes it so that it may bear more fruit. Abide in Me, and I in you. As the branch cannot bear fruit of itself unless it abides in the vine, so neither can you unless you abide in Me. I am the vine, you are the branches; he who abides in Me and I in him, he bears much fruit, for apart from Me you can do nothing. These things I have spoken to you so that My joy may be in you, and that your joy may be made full. (John 15:1-11 NASB1995).
+  {{< bible "John 15:1-11" >}}
 
   Abiding is ongoing dependence - pruning hurts but serves fruitfulness over time.
 

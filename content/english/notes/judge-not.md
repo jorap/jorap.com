@@ -3,11 +3,10 @@ title: "Judge Not"
 meta_title: "Judge Not - Speck and Plank"
 description: "I don't play final judge on souls - I pull my own plank before nitpicking someone's speck."
 key_concept: |
-  Do not judge so that you will not be judged. For in the way you judge, you will be judged; and by your standard of measure, it will be measured to you. Why do you look at the speck that is in your brother's eye, but do not notice the log that is in your own eye? Or how can you say to your brother, 'Let me take the speck out of your eye,' and behold, the log is in your own eye? You hypocrite, first take the log out of your own eye, and then you will see clearly to take the speck out of your brother's eye. (Matthew 7:1-5 NASB1995).
-
+  {{< bible "Matthew 7:1-5" >}}
   Don't play final judge on souls - pull your plank before you nitpick someone's speck.
 
-  You will know them by their fruits. Grapes are not gathered from thorn bushes nor figs from thistles, are they? So every good tree bears good fruit, but the bad tree bears bad fruit. A good tree cannot produce bad fruit, nor can a bad tree produce good fruit. Every tree that does not bear good fruit is cut down and thrown into the fire. So then, you will know them by their fruits. (Matthew 7:16-20 NASB1995).
+  {{< bible "Matthew 7:16-20" >}}
 
   Still judge fruit - outcomes over time tell you what's underneath the hype.
 

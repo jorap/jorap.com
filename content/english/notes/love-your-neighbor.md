@@ -3,15 +3,14 @@ title: "Love Your Neighbor"
 meta_title: "Love Your Neighbor - The Second Commandment"
 description: "Love others the way I'd want care if our roles flipped - second command, paired with loving God."
 key_concept: |
-  YOU SHALL LOVE YOUR NEIGHBOR AS YOURSELF. (Matthew 22:39 NASB1995).
-
+  {{< bible "Matthew 22:39" >}}
   Second command, paired with the first - love the person in front of you the way you'd want care if roles flipped.
 
-  The second is this, 'YOU SHALL LOVE YOUR NEIGHBOR AS YOURSELF.' There is no other commandment greater than these. (Mark 12:31 NASB1995).
+  {{< bible "Mark 12:31" >}}
 
   Jesus echoed Moses on the second command - no command ranks higher than loving God and neighbor.
 
-  Go and do the same. (Luke 10:37 NASB1995).
+  {{< bible "Luke 10:37" >}}
 
   The Samaritan acted as neighbor - go and do the same, don't debate who counts.
 

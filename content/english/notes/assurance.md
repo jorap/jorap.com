@@ -3,8 +3,7 @@ title: "Assurance"
 meta_title: "Assurance - Rest on Christ's Promise, Not This Week"
 description: "Assurance is resting on Christ's finished work when doubt hits - not my week's obedience score."
 key_concept: |
-  Truly, truly, I say to you, he who believes has eternal life. (John 6:47 NASB1995).
-
+  {{< bible "John 6:47" >}}
   Believe and you have eternal life - rest on that promise when the week was ugly, not on your scorecard.
 
   [[Free Grace]] names the gift; [[Justification]] names the verdict; assurance names where I rest when doubt hits.

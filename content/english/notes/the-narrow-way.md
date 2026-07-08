@@ -3,11 +3,10 @@ title: "The Narrow Way"
 meta_title: "The Narrow Way - Enter by the Narrow Gate"
 description: "The road to life is narrow and hard - the easy broad path is the one I'd drift onto."
 key_concept: |
-  Enter through the narrow gate; for the gate is wide and the way is broad that leads to destruction, and there are many who enter through it. For the gate is small and the way is narrow that leads to life, and there are few who find it. (Matthew 7:13-14 NASB1995).
-
+  {{< bible "Matthew 7:13-14" >}}
   Broad road is crowded and easy; narrow gate costs self-rule - few find it, but it's the one Jesus named.
 
-  Not everyone who says to Me, 'Lord, Lord,' will enter the kingdom of heaven, but he who does the will of My Father who is in heaven will enter. (Matthew 7:21-23 NASB1995).
+  {{< bible ref="Matthew 7:21" label="Matthew 7:21-23" >}}
 
   Not everyone who says Lord Lord enters - false profession vs believer who stumbles and may lose reward but stays saved.
 

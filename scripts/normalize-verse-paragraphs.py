@@ -12,7 +12,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 NOTES = ROOT / "content" / "english" / "notes"
-NASB_YAML = ROOT / "data" / "scripture-nasb1995.yaml"
+NASB_DATA = ROOT / "data" / "scripture-nasb1995.json"
 EXPLAIN_YAML = ROOT / "data" / "ep-verse-explanations.yaml"
 
 BOOK = (
@@ -20,11 +20,20 @@ BOOK = (
     r"Deuteronomy|1 Corinthians|2 Corinthians|James|Hebrews|Psalm|Psalms|Proverbs)"
 )
 PAREN_GROUP = re.compile(rf"\(([^)]*{BOOK}[^)]*)\)\.?")
+REF_SUFFIX = re.compile(rf" ({BOOK} [\d:,\s-]+) NASB1995\.?$")
 
 
 def load_nasb() -> dict[str, str]:
-    raw = yaml.safe_load(NASB_YAML.read_text(encoding="utf-8"))["verses"]
-    return {k: v["text"] if isinstance(v, dict) else v for k, v in raw.items()}
+    import json
+
+    raw = json.loads(NASB_DATA.read_text(encoding="utf-8"))["verses"]
+    out: dict[str, str] = {}
+    for k, v in raw.items():
+        if isinstance(v, dict) and "text" in v:
+            out[k] = v["text"]
+        elif isinstance(v, dict) and "nasb1995" in v:
+            out[k] = v["nasb1995"]["verse"]
+    return out
 
 
 def load_slugs() -> list[str]:
@@ -65,19 +74,23 @@ def refs_on_line(stripped: str) -> list[str]:
     found: list[str] = []
     for m in PAREN_GROUP.finditer(stripped):
         found.extend(parse_refs_from_inner(m.group(1)))
+    m = REF_SUFFIX.search(stripped)
+    if m:
+        found.append(m.group(1).strip())
     return found
 
 
 def verse_line(canonical: str, text: str) -> str:
-    return f"  {text} ({canonical} NASB1995)."
+    return f"  {text} {canonical} NASB1995"
 
 
 def norm(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", "", s.lower())
 
 
-def strip_paren_refs(text: str) -> str:
+def strip_refs(text: str) -> str:
     cleaned = PAREN_GROUP.sub("", text)
+    cleaned = REF_SUFFIX.sub("", cleaned)
     return re.sub(r"\s{2,}", " ", cleaned).strip(" .,;")
 
 
@@ -102,7 +115,7 @@ def merge_broken_lines(lines: list[str]) -> list[str]:
 
 
 def is_duplicate_paraphrase(stripped: str, canon: str) -> bool:
-    body = strip_paren_refs(stripped)
+    body = strip_refs(stripped)
     if not body or "[[" in stripped:
         return False
     nbody, ncanon = norm(body), norm(canon)
@@ -140,7 +153,7 @@ def normalize_block(kc: str, nasb: dict[str, str]) -> str:
 
         if len(resolved) == 1 and "[[" not in stripped:
             canonical, text = resolved[0]
-            body = strip_paren_refs(stripped)
+            body = strip_refs(stripped)
             if not body or norm(body)[:40] in norm(text) or norm(text)[:40] in norm(body):
                 emit_verse(canonical, text, seen, out)
                 continue
@@ -148,7 +161,7 @@ def normalize_block(kc: str, nasb: dict[str, str]) -> str:
         if resolved:
             for canonical, text in resolved:
                 emit_verse(canonical, text, seen, out)
-            body = strip_paren_refs(stripped)
+            body = strip_refs(stripped)
             if body:
                 # drop partial quote if full verse already emitted
                 skip = any(is_duplicate_paraphrase(body, nasb[k]) for k in seen)
@@ -168,10 +181,10 @@ def normalize_block(kc: str, nasb: dict[str, str]) -> str:
     deduped: list[str] = []
     prev_verse = ""
     for ln in out:
-        if " NASB1995)." in ln and ln == prev_verse:
+        if REF_SUFFIX.search(ln.rstrip()) and ln == prev_verse:
             continue
         deduped.append(ln)
-        prev_verse = ln if " NASB1995)." in ln else ""
+        prev_verse = ln if REF_SUFFIX.search(ln.rstrip()) else ""
 
     text = "\n".join(deduped)
     text = re.sub(r"\n{3,}", "\n\n", text)
@@ -208,11 +221,10 @@ def main() -> None:
             print(f"updated {slug}")
             changed += 1
     # ponytail: spot-check
-    lyn = (NOTES / "love-your-neighbor.md").read_text(encoding="utf-8")
-    assert "Matthew 22:39 NASB1995" in lyn
-    assert lyn.count("Matthew 22:39 NASB1995") == 1
-    er = (NOTES / "eternal-rewards.md").read_text(encoding="utf-8")
-    assert "Matthew 25:21 NASB1995" in er
+    fg = (NOTES / "free-grace.md").read_text(encoding="utf-8")
+    assert "Ephesians 2:8-9 NASB1995" in fg
+    assert fg.count("Ephesians 2:8-9 NASB1995") == 1
+    assert " NASB1995)." not in fg
     print(f"Done — {changed} note(s) updated")
 
 

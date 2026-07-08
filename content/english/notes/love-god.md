@@ -3,8 +3,7 @@ title: "Love God"
 meta_title: "Love God - The Greatest Commandment"
 description: "First command, whole self - heart, mind, strength, not a corner of Sunday morning."
 key_concept: |
-  YOU SHALL LOVE THE LORD YOUR GOD WITH ALL YOUR HEART, AND WITH ALL YOUR SOUL, AND WITH ALL YOUR MIND. This is the great and foremost commandment. (Matthew 22:37-38 NASB1995).
-
+  {{< bible "Matthew 22:37-38" >}}
   First command, whole self - heart, soul, mind, not a corner of Sunday morning.
 
   Under [[Free Grace]], this is the first call on a life already saved by faith - love flowing from grace received, not love offered as payment for eternal life.

@@ -29,6 +29,8 @@ let searchModalVisible =
   hasSearchModal && searchModal.classList.contains("show") ? true : false;
 let jsonData = [];
 
+const escapeRegex = (string) => string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
 const loadJsonData = async () => {
   try {
     const res = await fetch(indexURL);
@@ -138,11 +140,15 @@ if (hasSearchWrapper) {
     });
   });
 
-  // dom content loaded
-  document.addEventListener("DOMContentLoaded", async () => {
+  const initSearch = async () => {
     await loadJsonData();
     doSearch(searchString);
-  });
+  };
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initSearch);
+  } else {
+    initSearch();
+  }
 
   // doSearch
   const doSearch = async (searchString) => {
@@ -186,7 +192,7 @@ if (hasSearchWrapper) {
         return false;
       }
       return item.data.some((el) => {
-        const regex = new RegExp(searchString, "gi");
+        const regex = new RegExp(escapeRegex(searchString), "gi");
         return (
           el.title.toLowerCase().match(regex) ||
           el.description?.toLowerCase().match(regex) ||
@@ -255,12 +261,13 @@ if (hasSearchWrapper) {
 
   const displayResult = (searchItems, searchString) => {
     const generateSearchResultHTML = (item) => {
+      const safeQuery = escapeRegex(searchString);
       const highlightResult = (content) => {
-        const regex = new RegExp(searchString, "i");
+        const regex = new RegExp(safeQuery, "i");
         return content.replace(regex, (match) => `<u>${match}</u>`);
       };
       const highlightResultContent = (content) => {
-        const regex = new RegExp(searchString, "i");
+        const regex = new RegExp(safeQuery, "i");
         const matchIndex = content.search(regex);
 
         if (matchIndex >= 0) {
@@ -430,7 +437,7 @@ const resetSearch = () => {
     el.style.display = "";
     el.innerHTML = search_initial_message;
   });
-  searchResultInfo.innerHTML = "";
+  searchResultInfo && (searchResultInfo.innerHTML = "");
 
   // clear search query string from URL
   if (window.location.search.includes("?s=")) {

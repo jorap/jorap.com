@@ -3,8 +3,7 @@ title: "Christianity and Politics"
 meta_title: "Christianity and Politics - Dual Allegiance Without Idolatry"
 description: "I owe Caesar what Caesar's owed and God what I'm His - no party gets my soul."
 key_concept: |
-  Render to Caesar the things that are Caesar's; and to God the things that are God's. (Matthew 22:21 NASB1995).
-
+  {{< bible "Matthew 22:21" >}}
   Coin to Caesar, self to God - civic duty without making Rome or any party ultimate lord.
 
   [[Render Unto Caesar]] names the split: coin to Caesar, self to God.

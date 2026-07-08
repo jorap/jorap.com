@@ -236,7 +236,10 @@ function testBuiltHtml() {
   }
 
   const html = readFileSync(HOME_HTML, "utf8");
-  assert(html.includes("let indexURL="), "homepage defines indexURL");
+  assert(
+    /let indexURL\s*=/.test(html) && html.includes("searchindex.json"),
+    "homepage defines same-origin searchindex URL",
+  );
   assert(
     html.includes("includeSectionsInSearch="),
     "homepage defines includeSectionsInSearch",

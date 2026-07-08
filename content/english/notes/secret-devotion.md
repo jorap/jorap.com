@@ -3,11 +3,10 @@ title: "Secret Devotion"
 meta_title: "Secret Devotion - For the Father's Eyes Alone"
 description: "I give, pray, and fast for God to see - not for applause in the group chat."
 key_concept: |
-  Beware of practicing your righteousness before men to be noticed by them; otherwise you have no reward with your Father who is in heaven. (Matthew 6:1 NASB1995).
-
+  {{< bible "Matthew 6:1" >}}
   Piety for an audience is its own reward - give, pray, fast for the Father who sees in secret.
 
-  Beware of practicing your righteousness before men to be noticed by them; otherwise you have no reward with your Father who is in heaven. But when you give to the poor, do not let your left hand know what your right hand is doing, so that your giving will be in secret; and your Father who sees what is done in secret will reward you. But you, when you pray, go into your inner room, close your door and pray to your Father who is in secret, and your Father who sees what is done in secret will reward you. (Matthew 6:1-18 NASB1995).
+  {{< bible "Matthew 6:1-18" >}}
 
   Some good shines publicly; some stays hidden so the left hand doesn't know what the right is doing.
 

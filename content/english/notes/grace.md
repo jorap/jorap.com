@@ -3,13 +3,12 @@ title: "Grace"
 meta_title: "Grace - Unmerited Favor from God"
 description: "Grace is gift I never earned starting with salvation and continuing through the walk after, not wages I could stack."
 key_concept: |
-  For God so loved the world, that He gave His only begotten Son, that whoever believes in Him shall not perish, but have eternal life. (John 3:16 NASB1995).
-
+  {{< bible "John 3:16" >}}
   God didn't wait for me to earn it - He gave His Son so belief, not merit, decides where I spend forever.
 
   [[Mercy]] withholds what I deserve; grace gives what I couldn't earn.
 
-  But God, being rich in mercy, because of His great love with which He loved us, even when we were dead in our transgressions, made us alive together with Christ (by grace you have been saved) (Ephesians 2:4-5 NASB1995).
+  But God, being rich in mercy, because of His great love with which He loved us, even when we were dead in our transgressions, made us alive together with Christ (by grace you have been saved) Ephesians 2:4-5 NASB1995
 
   Paul names the same rescue from the dead side - alive with Christ by grace, not wages I stacked.
 

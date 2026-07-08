@@ -3,8 +3,7 @@ title: "Reconciliation Before Worship"
 meta_title: "Reconciliation Before Worship - Leave Your Gift"
 description: "first be reconciled to your brother, and then come and present your offering (Matthew 5:23-24)."
 key_concept: |
-  Therefore if you are presenting your offering at the altar, and there remember that your brother has something against you, leave your offering there before the altar and go; first be reconciled to your brother, and then come and present your offering. (Matthew 5:23-24 NASB1995).
-
+  {{< bible "Matthew 5:23-24" >}}
   Fix the breach with your brother before the offering - worship with an unreconciled heart is hollow.
 
   Worship with an unreconciled heart is hollow. The initiative is on the one who knows there's a breach - leave the altar, go, be reconciled, then return. This is fellowship restored, not salvation re-earned: [[Free Grace]] already settled my standing before God ([[Standing vs Fellowship]]).

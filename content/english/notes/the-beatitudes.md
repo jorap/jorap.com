@@ -3,13 +3,12 @@ title: "The Beatitudes"
 meta_title: "The Beatitudes - Blessed Are the..."
 description: "Jesus opened the Sermon on the Mount with eight blessings - a picture of who the kingdom favors."
 key_concept: |
-  Blessed are the poor in spirit, for theirs is the kingdom of heaven. Blessed are those who mourn, for they shall be comforted. Blessed are the gentle, for they shall inherit the earth. Blessed are those who hunger and thirst for righteousness, for they shall be satisfied. Blessed are the merciful, for they shall receive mercy. Blessed are the pure in heart, for they shall see God. Blessed are the peacemakers, for they shall be called sons of God. Blessed are those who have been persecuted for the sake of righteousness, for theirs is the kingdom of heaven. (Matthew 5:3-12 NASB1995).
-
+  {{< bible ref="Matthew 5:3-10" label="Matthew 5:3-12" >}}
   Eight blessings flip the scoreboard - kingdom favor for the spiritually needy, not the self-sufficient.
 
   "Beatitude" means supreme blessedness
 
-  Blessed are the poor in spirit, for theirs is the kingdom of heaven. (Matthew 5:3 NASB1995).
+  {{< bible "Matthew 5:3" >}}
 
   Poor in spirit - broke before God, receiving the kingdom as gift not wage.
 

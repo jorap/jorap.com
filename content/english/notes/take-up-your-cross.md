@@ -3,8 +3,7 @@ title: "Take Up Your Cross"
 meta_title: "Take Up Your Cross - Daily Discipleship"
 description: "I deny myself and follow Christ daily - choosing his will over mine, not collecting suffering points."
 key_concept: |
-  If anyone wishes to come after Me, he must deny himself, and take up his cross daily and follow Me. (Luke 9:23 NASB1995).
-
+  {{< bible "Luke 9:23" >}}
   Daily self-denial and follow - choosing God's will over mine, not collecting suffering points.
 
   The cross isn't suffering for suffering's sake; it's choosing God's will over self-will each day.

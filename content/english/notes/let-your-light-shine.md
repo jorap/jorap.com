@@ -3,11 +3,10 @@ title: "Let Your Light Shine"
 meta_title: "Let Your Light Shine - Good Works That Glorify God"
 description: "Good works aren't for hiding - let people see the Father in how I live, not perform for applause."
 key_concept: |
-  You are the light of the world. A city set on a hill cannot be hidden; nor does anyone light a lamp and put it under a basket, but on the lampstand, and it gives light to all who are in the house. Let your light shine before men in such a way that they may see your good works, and glorify your Father who is in heaven. (Matthew 5:14-16 NASB1995).
-
+  {{< bible "Matthew 5:14-16" >}}
   City on a hill can't hide - let good works shine so people glorify the Father, not my personal brand.
 
-  Beware of practicing your righteousness before men to be noticed by them; otherwise you have no reward with your Father who is in heaven. (Matthew 6:1 NASB1995).
+  {{< bible "Matthew 6:1" >}}
 
   Not performance piety for applause - visible good for God's credit, not my feed.
 

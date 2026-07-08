@@ -3,11 +3,10 @@ title: "Fruits of the Spirit"
 meta_title: "Fruits of the Spirit - Character the Spirit Produces"
 description: "Love through self-control is one Spirit-grown cluster in believers, not a merit checklist that buys heaven."
 key_concept: |
-  My Father is glorified by this, that you bear much fruit, and so prove to be My disciples. (John 15:8 NASB1995).
-
+  {{< bible "John 15:8" >}}
   Much fruit glorifies the Father and proves discipleship - grown on the vine, not manufactured for credit.
 
-  the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control (Galatians 5:22-23 NASB1995).
+  the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control Galatians 5:22-23 NASB1995
 
   Paul lists the cluster - one Spirit, love through self-control, not a merit checklist.
 

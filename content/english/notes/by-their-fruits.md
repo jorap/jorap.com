@@ -3,11 +3,10 @@ title: "By Their Fruits"
 meta_title: "By Their Fruits - Discern Teachers by Outcome"
 description: "I check teachers by what their teaching produces, not by how polished the talk sounds."
 key_concept: |
-  You will know them by their fruits. (Matthew 7:16 NASB1995).
-
+  {{< bible "Matthew 7:16" >}}
   Wolves wear sheep's clothing - time and results tell, not the polished talk.
 
-  You will know them by their fruits. Grapes are not gathered from thorn bushes nor figs from thistles, are they? So every good tree bears good fruit, but the bad tree bears bad fruit. A good tree cannot produce bad fruit, nor can a bad tree produce good fruit. Every tree that does not bear good fruit is cut down and thrown into the fire. So then, you will know them by their fruits. (Matthew 7:16-20 NASB1995).
+  {{< bible "Matthew 7:16-20" >}}
 
   Don't condemn souls, but do evaluate fruit - grapes from vines, not hype.
 

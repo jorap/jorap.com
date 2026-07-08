@@ -1,0 +1,91 @@
+{{- $ref := .ref | strings.TrimSpace -}}
+{{- $label := .label | default $ref | strings.TrimSpace -}}
+{{- $page := .page -}}
+{{- $showCite := ne (.cite | default "true") "false" -}}
+{{- $useFull := eq (.full | default "false") "true" -}}
+{{- $translation := .translation | default "nasb1995" | lower -}}
+{{- $citeTag := cond (eq $translation "nasb1995") "NASB1995" (upper $translation) -}}
+{{- $jesusDb := index hugo.Data "jesus-words" -}}
+{{- $scriptureDb := index hugo.Data "scripture-nasb1995" -}}
+{{- if not $ref -}}
+  {{- warnf "bible shortcode on %q needs a ref (e.g. Matthew 7:7)" $page.RelPermalink -}}
+{{- else if and (not $jesusDb) (not $scriptureDb) -}}
+  {{- warnf "bible shortcode on %q: scripture data not loaded" $page.RelPermalink -}}
+{{- else -}}
+  {{- $parts := split $ref " " -}}
+  {{- $loc := index $parts (sub (len $parts) 1) -}}
+  {{- $book := "" -}}
+  {{- range $i, $p := $parts -}}
+    {{- if lt $i (sub (len $parts) 1) -}}
+      {{- $book = cond (eq $book "") $p (printf "%s %s" $book $p) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $gospel := in (slice "Matthew" "Mark" "Luke" "John") $book -}}
+  {{- $refs := slice -}}
+  {{- if and $book $loc -}}
+    {{- if strings.Contains $loc "-" -}}
+      {{- $se := split $loc "-" -}}
+      {{- $left := index $se 0 -}}
+      {{- $right := index $se 1 -}}
+      {{- if strings.Contains $left ":" -}}
+        {{- $ch := index (split $left ":") 0 -}}
+        {{- $vStart := int (index (split $left ":") 1) -}}
+        {{- $vEnd := int $right -}}
+        {{- if strings.Contains $right ":" -}}
+          {{- $vEnd = int (index (split $right ":") 1) -}}
+        {{- end -}}
+        {{- range $v := seq $vStart $vEnd -}}
+          {{- $refs = $refs | append (printf "%s %s:%d" $book $ch $v) -}}
+        {{- end -}}
+      {{- end -}}
+    {{- else -}}
+      {{- $refs = $refs | append $ref -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $textParts := slice -}}
+  {{- range $r := $refs -}}
+    {{- $chunk := "" -}}
+    {{- if eq $translation "nasb1995" -}}
+      {{- with index $jesusDb.verses $r -}}
+        {{- with index . "nasb1995" -}}
+          {{- $chunk = cond $useFull .verse .words -}}
+          {{- if and (not $useFull) (not $chunk) -}}
+            {{- $chunk = .verse -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+      {{- if not $chunk -}}
+        {{- with index $scriptureDb.verses $r -}}
+          {{- with index . "nasb1995" -}}
+            {{- $chunk = cond $useFull .verse .words -}}
+            {{- if and (not $useFull) (not $chunk) -}}
+              {{- $chunk = .verse -}}
+            {{- end -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- else -}}
+      {{- with index $jesusDb.verses $r -}}
+        {{- with index . $translation -}}
+          {{- $chunk = cond $useFull .verse .words -}}
+          {{- if and (not $useFull) (not $chunk) -}}
+            {{- $chunk = .verse -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if $chunk -}}
+      {{- $textParts = $textParts | append $chunk -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if gt (len $textParts) 0 -}}
+    {{- $text := delimit $textParts " " -}}
+    {{- if $gospel -}}
+      <p class="scripture-verse"><span class="scripture-text jesus-words">{{ $text }}</span>{{ if $showCite }}<span class="scripture-ref">{{ $label }} {{ $citeTag }}</span>{{ end }}</p>
+    {{- else -}}
+      <p class="scripture-verse"><span class="scripture-text">{{ $text }}</span>{{ if $showCite }}<span class="scripture-ref">{{ $label }} {{ $citeTag }}</span>{{ end }}</p>
+    {{- end -}}
+  {{- else -}}
+    {{- warnf "bible shortcode on %q: no %s entry for %q" $page.RelPermalink $translation $ref -}}
+  {{- end -}}
+{{- end -}}

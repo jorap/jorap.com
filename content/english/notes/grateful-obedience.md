@@ -3,8 +3,7 @@ title: "Grateful Obedience"
 meta_title: "Grateful Obedience - Obey Because Grace Already Saved"
 description: "I obey today because Christ already saved me, not to buy or re-earn eternal life."
 key_concept: |
-  If you love Me, you will keep My commandments. (John 14:15 NASB1995).
-
+  {{< bible "John 14:15" >}}
   Love shows up as keeping His commands - thanks after salvation, not payment to earn it.
 
   [[Discipleship]] is the daily walk; [[Sanctification]] is slow becoming.

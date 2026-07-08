@@ -3,11 +3,10 @@ title: "Present a Living Sacrifice"
 meta_title: "Present a Living Sacrifice - Romans 12:1 Worship"
 description: "I offer my ordinary day to God first - thanks after mercy, not payment to earn grace."
 key_concept: |
-  If anyone wishes to come after Me, he must deny himself, and take up his cross and follow Me. (Matthew 16:24 NASB1995).
-
+  {{< bible "Matthew 16:24" >}}
   Following Jesus costs self-denial and a cross - not suffering theater, daily surrender of my will to His.
 
-  I urge you, brethren, by the mercies of God, to present your bodies a living and holy sacrifice, acceptable to God, which is your spiritual service of worship. (Romans 12:1 NASB1995).
+  Therefore I urge you, brethren, by the mercies of God, to present your bodies a living and holy sacrifice, acceptable to God, which is your spiritual service of worship. Romans 12:1 NASB1995
 
   Paul pictures the same move as worship that's alive - my Tuesday and my body offered after mercy received.
 

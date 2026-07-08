@@ -3,8 +3,7 @@ title: "The Golden Rule"
 meta_title: "The Golden Rule - Do Unto Others"
 description: "I treat people how I'd want to be treated - active care, not just avoiding harm."
 key_concept: |
-  In everything, therefore, treat people the same way you want them to treat you, for this is the Law and the Prophets. (Matthew 7:12 NASB1995).
-
+  {{< bible "Matthew 7:12" >}}
   Treat people how you want to be treated - active care, not just avoiding harm.
 
   The check is experiential - how would I want to be spoken to, helped, forgiven, included? That sets the floor for every interaction. [[Free Grace]] keeps it from becoming a merit system: I treat others well because Christ treated me well first.

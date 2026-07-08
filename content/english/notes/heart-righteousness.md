@@ -3,11 +3,10 @@ title: "Heart Righteousness"
 meta_title: "Heart Righteousness - Anger and Lust as Heart Sins"
 description: "Heart righteousness goes deeper than outward acts - anger is murder, lust is adultery, in the heart."
 key_concept: |
-  You have heard that the ancients were told, 'YOU SHALL NOT COMMIT MURDER' and 'Whoever commits murder shall be liable to the court.' But I say to you that everyone who is angry with his brother shall be guilty before the court. (Matthew 5:21-22 NASB1995).
-
+  {{< bible "Matthew 5:21-22" >}}
   Angry with your brother - guilty before the court even if you smiled outwardly.
 
-  everyone who looks at a woman with lust for her has already committed adultery with her in his heart (Matthew 5:28 NASB1995).
+  {{< bible "Matthew 5:28" >}}
 
   Lust logged mentally - adultery in the heart though marriage looks fine outside.
 

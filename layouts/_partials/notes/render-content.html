@@ -79,7 +79,11 @@
   {{- $content = replace $content .token .block -}}
 {{- end -}}
 
-{{- /* Red-letter: Jesus' words in Gospel NASB paragraphs (Matthew/Mark/Luke/John NASB1995). */ -}}
-{{- $content = replaceRE `<p>([^<]*)\((Matthew|Mark|Luke|John) ([^)]+) NASB1995\)\.</p>` `<p><span class="jesus-words">$1($2 $3 NASB1995).</span></p>` $content -}}
+{{- /* NASB verse paragraphs: text left, reference right on its own line; Gospel quotes red. */ -}}
+{{- $nasbBook := `(?:[1-3] )?(?:Matthew|Mark|Luke|John|Romans|Ephesians|Galatians|Deuteronomy|1 Corinthians|2 Corinthians|James|Hebrews|Psalm|Psalms|Proverbs)` -}}
+{{- $content = replaceRE (printf `<p>(.+?) ((?:Matthew|Mark|Luke|John) [\d:,\s-]+ NASB1995)</p>`) `<p class="scripture-verse"><span class="scripture-text jesus-words">$1</span><span class="scripture-ref">$2</span></p>` $content -}}
+{{- $content = replaceRE (printf `<p>(.+?) (%s [\d:,\s-]+ NASB1995)</p>` $nasbBook) `<p class="scripture-verse"><span class="scripture-text">$1</span><span class="scripture-ref">$2</span></p>` $content -}}
+{{- $content = replaceRE `<p class="scripture-verse"><span class="scripture-text">(.+?) ((?:Matthew|Mark|Luke|John) [\d:,\s-]+ NASB1995)</span></p>` `<p class="scripture-verse"><span class="scripture-text jesus-words">$1</span><span class="scripture-ref">$2</span></p>` $content -}}
+{{- $content = replaceRE (printf `<p class="scripture-verse">(.+?) (%s [\d:,\s-]+ NASB1995)</p>` $nasbBook) `<p class="scripture-verse"><span class="scripture-text">$1</span><span class="scripture-ref">$2</span></p>` $content -}}
 
 {{- $content | safeHTML -}}

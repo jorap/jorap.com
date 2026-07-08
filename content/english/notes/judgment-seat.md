@@ -3,13 +3,12 @@ title: "Judgment Seat"
 meta_title: "Judgment Seat - Believers Evaluated for Works"
 description: "Believers stand before Christ after salvation to have works evaluated for reward - eternal life was already settled by faith."
 key_concept: |
-  For the Son of Man is going to come in the glory of His Father with His angels, and WILL THEN REPAY EVERY MAN ACCORDING TO HIS DEEDS. (Matthew 16:27 NASB1995).
-
+  {{< bible "Matthew 16:27" >}}
   The Son of Man repays deeds - reward review for the saved, not re-deciding who gets eternal life.
 
   [[Free Grace]] and [[Justification]] already decided where I spend forever.
 
-  If any man's work is burned up, he will suffer loss; but he himself will be saved, yet so as through fire. (1 Corinthians 3:12-15 NASB1995).
+  If any man's work is burned up, he will suffer loss; but he himself will be saved, yet so as through fire. 1 Corinthians 3:12-15 NASB1995
 
   Paul's fire test - some work burns, you're still saved through fire; worthless work shrinks reward, not standing.
 

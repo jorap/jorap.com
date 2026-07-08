@@ -3,13 +3,12 @@ title: "Ask Seek Knock"
 meta_title: "Ask Seek Knock - Persistent Prayer"
 description: "Ask, seek, knock means prayer on schedule - not a one-time burst when desperation hits."
 key_concept: |
-  Ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you. (Matthew 7:7-11 NASB1995).
-
+  {{< bible ref="Matthew 7:7" label="Matthew 7:7-11" >}}
   Keep asking, seeking, knocking - God gives like a parent who gives bread, not a stone.
 
   Jesus compares God to a parent who gives bread, not a stone.
 
-  Pray, then, in this way: 'Our Father who is in heaven, Hallowed be Your name. Your kingdom come. Your will be done, On earth as it is in heaven. Give us this day our daily bread. And forgive us our debts, as we also have forgiven our debtors. And do not lead us into temptation, but deliver us from evil.' (Matthew 6:9-13 NASB1995).
+  {{< bible "Matthew 6:9-13" >}}
 
   Lord's Prayer order - Father's name, kingdom, will first, then daily bread and forgiveness.
 

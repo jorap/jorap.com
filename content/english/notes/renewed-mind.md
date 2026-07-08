@@ -3,11 +3,10 @@ title: "Renewed Mind"
 meta_title: "Renewed Mind - Romans 12:2 Mind Transformation"
 description: "Don't copy the world's default thinking - let Scripture reshape how I see, choose, and obey."
 key_concept: |
-  If you continue in My word, then you are truly disciples of Mine; and you will know the truth, and the truth will make you free. (John 8:31-32 NASB1995).
-
+  {{< bible "John 8:31-32" >}}
   Stay in His word and you're His disciple - truth frees the mind culture tried to lock in hurry and outrage.
 
-  I urge you, brethren, by the mercies of God, to present your bodies a living and holy sacrifice, acceptable to God, which is your spiritual service of worship. And do not be conformed to this world, but be transformed by the renewing of your mind, so that you may prove what the will of God is, that which is good and acceptable and perfect. (Romans 12:1-2 NASB1995).
+  I urge you, brethren, by the mercies of God, to present your bodies a living and holy sacrifice, acceptable to God, which is your spiritual service of worship. And do not be conformed to this world, but be transformed by the renewing of your mind, so that you may prove what the will of God is, that which is good and acceptable and perfect. Romans 12:1-2 NASB1995
 
   Mercy first, then sacrifice, then a mind being renewed - Paul stacks the order I keep swapping.
 

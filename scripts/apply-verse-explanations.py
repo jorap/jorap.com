@@ -13,14 +13,14 @@ EXPLAIN_YAML = ROOT / "data" / "ep-verse-explanations.yaml"
 
 # ponytail: book chapter:verse only — skips parenthetical asides like (by grace you have been saved)
 BOOK_REF_END = re.compile(
-    r"\((?:(?:[1-3]\s+)?(?:Matthew|Mark|Luke|John|Romans|Ephesians|Galatians|"
-    r"Deuteronomy|1 Corinthians|2 Corinthians|James|Hebrews|Psalm|Psalms|Proverbs)\s+[\d:,\s-]+)"
-    r"(?:\s+NASB1995)?\)\."
+    r" ((?P<ref>(?:[1-3]\s+)?(?:Matthew|Mark|Luke|John|Romans|Ephesians|Galatians|"
+    r"Deuteronomy|1 Corinthians|2 Corinthians|James|Hebrews|Psalm|Psalms|Proverbs) [\d:,\s-]+))"
+    r" NASB1995$"
 )
 INLINE_AFTER_REF = re.compile(
-    r"^(?P<verse>.*\((?:(?:[1-3]\s+)?(?:Matthew|Mark|Luke|John|Romans|Ephesians|Galatians|"
-    r"Deuteronomy|1 Corinthians|2 Corinthians|James|Hebrews|Psalm|Psalms|Proverbs)\s+[\d:,\s-]+)"
-    r"(?:\s+NASB1995)?\)\.)\s+"
+    r"^(?P<verse>.+ (?:(?:[1-3]\s+)?(?:Matthew|Mark|Luke|John|Romans|Ephesians|Galatians|"
+    r"Deuteronomy|1 Corinthians|2 Corinthians|James|Hebrews|Psalm|Psalms|Proverbs) [\d:,\s-]+)"
+    r" NASB1995)\s+"
     r"(?P<rest>.+)$"
 )
 BOGUS_GLOSS = re.compile(r"^\s*\.\s*$")
@@ -35,7 +35,12 @@ def load_explanations() -> dict[str, list[tuple[str, str]]]:
 
 
 def ref_in_line(ref: str, line: str) -> bool:
-    return f"({ref})" in line or f"({ref}:" in line or f"({ref}." in line
+    return (
+        f"({ref})" in line
+        or f"({ref}:" in line
+        or f"({ref}." in line
+        or f"{ref} NASB1995" in line
+    )
 
 
 def find_explain(slug_items: list[tuple[str, str]], ref: str, line: str = "") -> str | None:
@@ -104,8 +109,7 @@ def split_verse_chunks(stripped: str) -> list[tuple[str, str | None]]:
     pos = 0
     for m in matches:
         chunk = stripped[pos : m.end()].strip()
-        inner = m.group(0)
-        ref = inner[1:-2].strip().removesuffix(" NASB1995")
+        ref = m.group("ref")
         chunks.append((chunk, ref))
         pos = m.end()
     tail = stripped[pos:].strip()
@@ -120,7 +124,7 @@ def emit_verse_block(
     explain: str | None,
     peek: list[str],
 ) -> None:
-    if not verse.endswith("."):
+    if not verse.endswith(".") and not verse.rstrip().endswith("NASB1995"):
         verse += "."
     out.append(f"  {verse}")
     if not explain or has_gloss_after(peek, explain):
@@ -146,7 +150,7 @@ def process_block(kc: str, slug_items: list[tuple[str, str]]) -> str:
             verse = inline.group("verse").strip()
             rest = inline.group("rest").strip()
             ref_m = list(BOOK_REF_END.finditer(verse))[-1]
-            ref = ref_m.group(0)[1:-2].strip()
+            ref = ref_m.group("ref")
             explain = find_explain(slug_items, ref, verse)
             emit_verse_block(out, verse, explain, raw_lines[i + 1 :])
             out.append("")
