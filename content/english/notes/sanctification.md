@@ -5,9 +5,7 @@ description: "After God declares me righteous, he keeps shaping my habits and he
 key_concept: |
   {{< bible ref="John 17:17-19" emphasize="17" >}}
   - Jesus asks the Father to make us holy through truth - Scripture shapes the slow becoming, not one heroic week.
-  
   - [[Free Grace]] settles where I spend forever.
-  
   - Sanctification settles who I'm becoming on the way.
   - [[Grateful Obedience]] names the posture: grow from thanks, not to earn acceptance.
   - [[Standing vs Fellowship]] keeps a fruitless week from feeling like revoked standing.
@@ -17,13 +15,9 @@ key_concept: |
   - [[Eternal Rewards]] repays faithful obedience; [[Loss of Reward]] warns that a wasted season may shrink reward but doesn't un-save you.
   - Sanctification is the slow becoming that obedience shapes.
   - PKM mirror: [[Process Over Outcomes]] - daily faithfulness beats one heroic week I treat like proof I'm saved.
-  
   - After God declares me righteous, he keeps shaping my habits and heart.
-  
   - Growth, not the ticket in.
-  
   - Sanctification is growth after faith - not the ticket that got me in the door.
-  
   - Discipleship is the daily walk with Jesus - not a one-time decision I filed and forgot.
 examples:
   - "I knew the verse on anger and still lost it at dinner - sanctification is slow; my standing was settled at faith, and I'm still being changed."

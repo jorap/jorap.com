@@ -5,13 +5,10 @@ description: "When someone hits or insults me, I don't hand back the same - I br
 key_concept: |
   {{< bible ref="Matthew 5:38-42" emphasize="39" >}}
   - Don't return evil for evil - break the retaliation loop, not pretend harm didn't happen.
-  
   - The point isn't passivity toward all evil - it's refusing to become what hurt you.
   - Same logic as [[Sunk Cost Fallacy]]: stop throwing more anger after sunk hurt.
   - Goes further than [[The Golden Rule]] (proactive good) and pairs with [[Love Your Enemies]] (heart posture).
-  
   - [[Free Grace]] frees me to absorb cost without keeping score for heaven.
-  
   - When someone hits or insults me, I don't hand back the same - I break the retaliation loop.
 examples:
   - "Neighbor's passive-aggressive note about parking - I didn't post a rebuttal on the group chat; stop throwing anger after sunk hurt."

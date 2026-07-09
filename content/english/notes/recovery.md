@@ -4,11 +4,8 @@ meta_title: "Recovery - Refill Before the Next Hard Push"
 description: "Sleep isn't laziness for me - it's the refill that keeps judgment and patience online."
 key_concept: |
   - The sleep, rest, and downtime that refill what hard work drains - judgment, patience, attention.
-  
   - Sleep isn't laziness for me - it's the refill that keeps judgment and patience online.
-  
   - Skipping it doesn't show up immediately - it shows up three days later as a short fuse and bad calls.
-  
   - The elite athlete's rest day isn't optional recovery - it's programmed like the workout.
 examples:
   - "Elite athletes schedule rest days - muscle rebuilds off the field, not another heroic scrimmage."

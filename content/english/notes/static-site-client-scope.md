@@ -4,7 +4,6 @@ meta_title: "Static Site Client Scope - What Fits the Static Stack"
 description: "Static sites fit text and images on git push - not live databases or mystery WordPress admins."
 key_concept: |
   - Scope the sales call before I quote [[Selling Static Sites]] - say no to bad fits in the room, not after deposit.
-  
   - **Good fits:** portfolio, org brochure, small business presence, project docs, blog where owner learns Git or pays retainer.
   - **Bad fits:** e-commerce you host, member login, booking engines, five daily non-technical editors with no retainer.
   - Redirect honestly to Shopify, WordPress, or a dynamic stack.
@@ -19,7 +18,6 @@ key_concept: |
   - [[Git-Based CMS]] when buttons beat terminal.
   - Seasonal pages, external embeds (donate link, Formspree, Calendly) - site stays static, tool carries the dynamic part.
   - [[Minimum Effective Dose]]: smallest site that solves the job - don't force Hugo where WordPress was honest.
-  
   - Static sites fit text and images on git push - not live databases or mystery WordPress admins.
 examples:
   - "Cafe owner wanted online ordering - out of scope; menu page plus link to existing delivery app."

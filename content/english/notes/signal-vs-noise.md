@@ -4,13 +4,9 @@ meta_title: "Signal vs Noise in Your Information Diet"
 description: "I save only what changes what I do or believe this month - most feeds are noise."
 key_concept: |
   - I save only what changes what I do or believe this month - most content is noise.
-  
   - Admiring an article without a behavior change is entertainment, not signal.
-  
   - The filter is simple: would I act or cite this within thirty days?
-  
   - Most feeds are noise until proven otherwise.
-  
   - I save only what changes what I do or believe this month - most feeds are noise.
 examples:
   - "The trade-rumor thread was loud all week - signal was the one injury note that actually changed our lineup; the rest I admired and skipped."

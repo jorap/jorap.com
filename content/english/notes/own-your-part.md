@@ -4,15 +4,11 @@ meta_title: "Own Your Part - Change Your Slice Without Waiting"
 description: "I change my slice of the problem - not wait for a hand-down fix from upstairs."
 key_concept: |
   - Waiting for headquarters to fix your lane is how stale processes survive years.
-  
   - Own your part means I take charge of what I can move - my habit, my pass-off, my corner of the workflow.
   - Not filing complaints until someone else acts.
   - [[Accountability]] names who answers for the outcome; [[Own the Error]] names the miss after it lands.
   - This note is the proactive lane: start the fix before permission arrives.
-  
-  - I change my slice of the problem.
-  
-  - Not wait for a hand-down fix from upstairs.
+  - I change my slice of the problem - not wait for a hand-down fix from upstairs.
 examples:
   - "The shared drive was chaos for months until one teammate renamed folders and posted a one-page map - own your part, not another ticket to IT."
   - "I stopped waiting for the coach to fix my defense and asked for ten minutes of footwork after practice - my gap, my rep request."

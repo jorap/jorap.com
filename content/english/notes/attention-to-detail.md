@@ -4,11 +4,8 @@ meta_title: "Attention to Detail - Small Misses Become Big Failures"
 description: "I catch the typo and the edge case before they turn into an incident or a dumb customer email."
 key_concept: |
   - Attention to detail is catching the typo, edge case, and loose end before they become incidents.
-  
   - I catch the typo and the edge case before they turn into an incident or a dumb customer email.
-  
   - Small misses compound into incidents when nobody catches them early.
-  
   - The second look before it ships is cheaper than the fix after it's customer-facing.
 examples:
   - "We almost threw the inbounds pass on the wrong side of the line because two hash marks looked identical - the second read of the court map caught it."

@@ -4,11 +4,8 @@ meta_title: "Habit Formation - Repeat Until Automatic"
 description: "I repeat one small move until it runs on autopilot instead of re-debating it every morning."
 key_concept: |
   - The goal isn't motivation - it's making the decision once, so it stops needing to be re-made every single day.
-  
   - I repeat one small move until it runs on autopilot instead of re-debating it every morning.
-  
   - Habit formation is practicing a move until it runs without a daily decision.
-  
   - Thirty reps in, the cue does more work than the willpower ever did.
 examples:
   - "Same gym bag, same water bottle, same pre-game stretch - after thirty days I stop debating warm-up; the shoes by the door beat the habit app I never opened."

@@ -9,17 +9,12 @@ key_concept: |
   {{< bible "Romans 12:1" >}}
   
   - Paul pictures the same move as worship that's alive - my Tuesday and my body offered after mercy received.
-  
   - [[Mercy]] received first - by the mercies of God, present your bodies a living and holy sacrifice.
-  - Acceptable to God - your spiritual service of worship.
-  
-  - Not a dead bull on an altar - my body, my Tuesday, my choices offered as worship that's alive.
-  
+  - Acceptable to God - your spiritual service of worship - not a dead bull on an altar - my body, my Tuesday, my choices offered as worship that's alive.
   - [[Grateful Obedience]] names the motive: offer because Christ already saved me, not to buy the ticket.
   - [[Renewed Mind]] is the paired move in verse 2 - sacrifice without a mind being reshaped becomes performance theater.
   - [[Take Up Your Cross]] is daily death to self-will in the same lane.
   - PKM mirror: [[Process Over Outcomes]] - faithful offering on ordinary Tuesdays beats one heroic retreat week I treat like proof I'm saved.
-  
   - I offer my ordinary day to God first - thanks after mercy, not payment to earn grace.
 examples:
   - "I stacked volunteer hours to feel acceptable again after a bad week - Romans 12:1 is living sacrifice from mercy already received, not a down payment on salvation."

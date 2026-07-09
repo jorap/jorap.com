@@ -4,11 +4,9 @@ meta_title: "Emotional Regulation - Feel It Without Being Ruled By It"
 description: "I can feel the spike without letting it pick my next sentence."
 key_concept: |
   - Feel the spike. Don't mail it.
-  
   - Regulation isn't numbness - it's the gap between heat and the next sentence.
   - [[Slow the Moment]] buys that gap; [[Name the Feeling]] gives the spike a label before it picks my tone.
   - The stake is simple: one unchecked reply can feed a thread I didn't mean to start.
-  
   - I can feel the spike without letting it pick my next sentence.
 examples:
   - "A customer snapped at the cashier and she kept her voice level - regulation isn't numbness, it's not mailing the first draft."

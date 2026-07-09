@@ -4,11 +4,8 @@ meta_title: "Linking by Meaning - How Ideas Find Each Other"
 description: "I link notes so ideas meet in the graph without me memorizing every folder path."
 key_concept: |
   - Folders sort files; links connect ideas.
-  
   - I link notes so ideas meet in the graph without me memorizing every folder path.
-  
   - Two typed links are enough for the garden to stay walkable six months later when the folder path is gone.
-  
   - One link to what extends the thought, one to what pushes back.
 examples:
   - "I linked \"jeepney delay\" to \"leave earlier\" in my daily note and found it six weeks later when the same route broke again - proximity beats perfect filing."

@@ -4,9 +4,7 @@ meta_title: "Active Knowledge Curation - Notes That Stay Alive"
 description: "A folder of unread saves isn't a garden - I prune monthly and wire notes I'd actually recommend."
 key_concept: |
   - Active curation means revisiting, pruning, and ordering notes - choosing what sits next to what is creative work.
-  
   - A folder of unread saves isn't a garden - I prune monthly and wire notes I'd actually recommend.
-  
   - Unread saves rot until I prune monthly and wire what I'd actually recommend.
 examples:
   - "I do the same with my idea pile on the first Sunday - saved links I wouldn't act on today hit the trash, half-finished thoughts finally get linked."

@@ -4,9 +4,7 @@ meta_title: "PARA Method - Projects, Areas, Resources, Archives"
 description: "PARA sorts notes into Projects, Areas, Resources, and Archives - four buckets by life responsibility, not topic soup."
 key_concept: |
   - PARA sorts notes by life responsibility - enough structure to find things, archive when done.
-  
   - PARA sorts notes into Projects, Areas, Resources, and Archives.
-  
   - Four buckets by life responsibility, not topic soup.
 examples:
   - "Tournament folder on the bench with a deadline; off-season conditioning notes in the filing cabinet with no end date."

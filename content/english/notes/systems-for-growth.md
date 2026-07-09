@@ -5,15 +5,10 @@ meta_title: "Systems for Growth - Loops That Compound Skill Over Time"
 description: "The loops you build on purpose - habits, feedback, review, recovery - so skill compounds when motivation doesn't show up."
 key_concept: |
   - Each note below is one move I'd want running before I need results.
-  
   - [[Pressure Reveals Weakness]] covers what holds when heat rises; this hub covers what you install on ordinary Tuesdays.
-  
   - The loops you build on purpose.
-  
   - Habits, feedback, review, recovery - so skill compounds when motivation doesn't show up.
-  
   - Install the loops on ordinary Tuesdays - not only when results are due.
-  
   - Systems for growth are the loops I build on purpose - habits on ordinary Tuesdays, not crisis heroics.
 shareable_thought:
   - "The loops you build on purpose."

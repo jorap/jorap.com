@@ -4,13 +4,10 @@ meta_title: "Integrity Without an Audience - Do the Honest Work"
 description: "Do the honest work when there's no audience - accurate time logs, real tests, the fix nobody asked for yet."
 key_concept: |
   - Performance for the standup is its own reward and a small one.
-  
   - Some good work should stay hidden; some should shine in [[Let Your Light Shine]].
   - This note is the hidden lane: quality when the manager isn't looking.
   - Gospel source: [[Secret Devotion]].
-  
   - Do the honest work when there's no audience.
-  
   - Accurate time logs, real tests, the fix nobody asked for yet.
 examples:
   - "The market scale stays honest when the seller steps away to take a call - I could've scooped light on the last bag of rice; instead I re-weighed it before the customer came back."

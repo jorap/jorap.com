@@ -4,11 +4,8 @@ meta_title: "Build a Reliable Default - What You Do When There's No Time"
 description: "A reliable default is the simple rehearsed move I run when thinking is thin."
 key_concept: |
   - Make that fallback a simple, dependable response - rehearsed enough to run when thinking is thin.
-  
   - Build it before the crisis, not during it - a default assembled mid-emergency isn't a default.
-  
   - The rehearsed move beats improvising when the clock is loud.
-  
   - A reliable default is the simple rehearsed move I run when thinking is thin.
 examples:
   - "The clinic front desk doesn't make up triage order when three walk-ins arrive - they run the laminated sheet taped by the phone. One script, no guessing."

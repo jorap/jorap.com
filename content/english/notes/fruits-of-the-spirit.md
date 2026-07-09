@@ -9,10 +9,8 @@ key_concept: |
   {{< bible "Galatians 5:22-23" >}}
   
   - Paul lists the cluster - one Spirit, love through self-control, not a merit checklist.
-  
   - Paul contrasts **works of the flesh** - immorality, impurity, idolatry, strife, jealousy, anger, factions, envying, drunkenness (Galatians 5:19-21).
   - With **fruit of the Spirit** - one vine, one cluster, grown over time.
-  
   - [[Abide in Me]] names the engine in John: branches bear fruit because they stay in the vine.
   - [[Sanctification]] is the slow becoming that fruit marks.
   - [[Grateful Obedience]] keeps the motive straight: fruit follows [[Grace]] already received, it doesn't pay for eternal life.

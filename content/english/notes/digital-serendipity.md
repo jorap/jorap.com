@@ -4,11 +4,8 @@ meta_title: "Digital Serendipity - Stumbling on Your Own Ideas"
 description: "Old notes surprise me on schedule because I linked them on purpose, not because I got lucky."
 key_concept: |
   - Serendipity isn't luck for me - I build systems where old notes resurface at the right time.
-  
   - Old notes surprise me on schedule because I linked them on purpose, not because I got lucky.
-  
   - I link notes on purpose so forgotten ideas surprise me when a new problem rhymes.
-  
   - A walkable graph beats hoping I'll remember the right filename.
 examples:
   - "Random note resurfaced a wikilink I'd forgotten - led to a blog post I'd stalled."

@@ -5,11 +5,9 @@ description: "Pay lawful civic obligations - taxes, duties owed the state - whil
 key_concept: |
   {{< bible ref="Matthew 22:15-22" emphasize="21" >}}
   - Pay lawful taxes, reserve worship for God - no revolutionary tax refusal, no idolizing the state.
-  
   - You bear God's image; give yourself to Him.
   - Jesus avoids both revolutionary tax refusal and idolizing Rome.
   - [[Seek the Kingdom First]] still ranks the kingdom above every earthly master, but that doesn't excuse dodging legitimate civic responsibility.
-  
   - Pay lawful civic obligations - taxes, duties owed the state - while reserving ultimate worship for God alone.
 examples:
   - "The tax bill landed and I paid what was lawful - give Caesar the coin, give God myself."

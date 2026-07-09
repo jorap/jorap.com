@@ -8,11 +8,8 @@ key_concept: |
   - [[Humility and Service]] is the garden echo: greatness is serving, not being served; the Son washed feet the night before the cross.
   - [[Listen Before Fixing]] is gentleness in conversation - hear before you prescribe.
   - [[The Beatitudes]] bless the meek - strength without grasping for status.
-  
   - Gentleness fruit is strength held back on purpose, not weakness or loud correction that skips love.
-  
   - Gentleness is power restrained, not power absent - Galatians 5:22 names it beside patience.
-  
   - Hear before you prescribe - loud correction without love isn't Spirit-grown gentleness.
 examples:
   - "Correction with my kid turned sharp - volume up, gentleness gone - Galatians gentleness is strength under control, not force."

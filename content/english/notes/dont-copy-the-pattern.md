@@ -9,16 +9,12 @@ key_concept: |
   {{< bible ref="Romans 12:1-2" emphasize="2" >}}
   
   - Don't conform - refuse the default before renewal reshapes how I react. Pairs with [[Present a Living Sacrifice]] on the same Romans passage.
-  
   - [[Renewed Mind]] is the positive half - be transformed by the renewing of your mind.
   - This note names the refusal: outrage feeds, hurry-and-react, comparison traps - culture's presets I didn't choose but my nervous system runs anyway.
-  
   - [[Information Diet]] curates inputs; [[Digital Minimalism]] cuts tools; this is the posture before the feed loads.
   - [[Attention Economy]] fights for what fills the mind first.
   - [[Behavioral Economics]] names the default nudges; refusal is the interrupt before the script mails the reply.
-  
   - Culture's default script isn't neutral - I refuse the pattern before reactions run on autopilot.
-  
   - And do not be conformed to this world - refuse before renewal reshapes the mind.
 examples:
   - "I knew the verse on patience and still snapped at dinner - my mind was running the world's hurry-and-react script until I stopped copying the pattern and opened Scripture before the group chat."

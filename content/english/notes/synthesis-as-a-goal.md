@@ -4,11 +4,8 @@ meta_title: "Synthesis as a Goal - Notes Should Combine"
 description: "I merge sources into what I believe and can defend - a quote pile isn't the goal."
 key_concept: |
   - I merge sources into what I believe and can defend - a quote pile isn't the goal.
-  
   - Collecting quotes isn't PKM for me - belief has to live in prose I can defend.
-  
   - Synthesis is when learning starts - merge sources into one claim I'd ship.
-  
   - The wiki can hold borrowed lines; I still owe one page in my own words.
 examples:
   - "Three coaches' clips on our press sat in my folder until I merged them into one drill we actually ran Tuesday."

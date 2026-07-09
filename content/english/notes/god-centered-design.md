@@ -5,18 +5,13 @@ description: "I design life and work around God's glory first - not crowd applau
 key_concept: |
   {{< bible ref="Matthew 5:14-16" emphasize="16" >}}
   - Good works visible so the Father gets glory - build for His name, not my brand.
-  
   - A calendar built for applause still feels empty on Monday.
-  
   - God-centered design asks who the plan ultimately serves before I optimize the slide, the program, or the side project.
   - [[Seek the Kingdom First]] is the priority filter.
   - [[Love Your Neighbor]] keeps it from becoming selfish spirituality - people still matter, but God's reign sets the aim.
   - PKM mirror: [[People-Centered Design]] serves real human needs; this note orders what I'm building and why.
   - [[Success is Stewardship]] - the platform was borrowed, not mine to brand.
-  
-  - I design life and work around God's glory first.
-  
-  - Not crowd applause, ego, or my comfort.
+  - I design life and work around God's glory first - not crowd applause, ego, or my comfort.
 examples:
   - "The youth event looked great in parent photos but nobody prayed afterward - God-centered design meant cutting one performance block for small groups and Scripture."
   - "My notes garden started chasing traffic instead of clarity - God-centered design was one question before publish: does this help someone know Christ or live like Him, or is it just my brand?"

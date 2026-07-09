@@ -4,11 +4,8 @@ meta_title: "Intellectual Sourcing - Track Where Ideas Come From"
 description: "I cite sources in notes to trust my synthesis and find the original later."
 key_concept: |
   - I cite sources so I can trust what I wrote and find the original six months later.
-  
   - I cite sources in notes to trust my synthesis and find the original later.
-  
   - Without a source, six months later I won't trust my own synthesis.
-  
   - A cited note is one I can defend in conversation months later.
 examples:
   - "I taped the coach's article title under the quote in our playbook so six months later we know if the source still says what we thought."

@@ -9,24 +9,19 @@ key_concept: |
   - **20,000 files per deployment** and **20-minute build timeout**.
   - Static bandwidth is unmetered - that part is genuinely generous.
   - The traps are build count, queue time, and fat repos.
-  
-  - Full walkthrough: [How I Built JoRap Notes](/blog/how-i-built-jorap-notes/).
-  - Same pipeline for [[Selling Static Sites]] and the [[Digital Garden]] - markdown in, fast site out, no PHP patch Tuesday.
+  - Full walkthrough: [How I Built JoRap Notes](/blog/how-i-built-jorap-notes/) - same pipeline for [[Selling Static Sites]] and the [[Digital Garden]] - markdown in, fast site out, no PHP patch Tuesday.
   - **Hugo** turns markdown plus theme into plain HTML.
   - **GitHub** is source of truth and backup (private client repos are fine on free GitHub).
   - **Cloudflare Pages** builds on push, serves over CDN with HTTPS.
   - Flow: edit → `git push` → live in about ninety seconds.
   - No database, no admin panel - which is why [[Static Site Client Scope]] matters.
-  
   - **Where free breaks first:** one account hosting many clients who push often burns the 500-build budget fast.
   - A theme with thousands of unoptimized images can hit the 20k-file cap.
   - One slow Hugo build plus a second push means the second deploy sits behind the first.
   - Fine for a solo site; painful when three clients want Friday updates.
   - GitHub free is separate but has its own limits (Actions minutes if you use them).
   - Plain git push hosting is usually fine until the repo is huge.
-  
   - Hugo, GitHub, and Cloudflare Pages ship static sites for $0.
-  
   - Until build caps, queues, or account limits bite.
 examples:
   - "Twelve client sites on one free account - hit 500 builds mid-month and Friday deploys started queuing."

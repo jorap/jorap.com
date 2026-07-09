@@ -13,14 +13,10 @@ key_concept: |
   {{< bible ref="Luke 10:25-37" emphasize="37" >}}
   
   - The Samaritan acted as neighbor - go and do the same, don't debate who counts.
-  
   - [[Mercy]] shows up in the body - bandage, ride, cost covered.
   - [[Free Grace]] doesn't erase the command - it frees me to love without keeping score for salvation.
-  
   - Love others the way I'd want care if our roles flipped.
-  
   - Second command, paired with loving God.
-  
   - Love your neighbor is the second command, paired with loving God - same heart, next person in front of me.
 examples:
   - "The parent I'd rather avoid sits on my side every game - I moved my chair over and asked how his kid's ankle was healing."

@@ -4,11 +4,8 @@ meta_title: "The Feynman Technique - Teach It to Learn It"
 description: "I teach the idea out loud to a blank page - wherever I stumble, I don't understand yet."
 key_concept: |
   - I teach the idea out loud to a blank page - wherever I stumble, I don't understand yet.
-  
   - Explain it simply to a blank page - the stumble marks the gap.
-  
   - A blank page is the honest audience - no jargon to hide behind.
-  
   - Teach-it-to-learn-it keeps evergreen notes honest before I link them.
 examples:
   - "My kid asked how the fuse box works and I waved vaguely - explaining it simply showed I didn't understand it well enough to fix anything."

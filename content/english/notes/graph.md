@@ -6,15 +6,12 @@ meta_title: "Graph"
 description: "Open the link map and filter by link rank."
 key_concept: |
   - Spot hubs, orphans, and notes with no body links - maintenance targets, not vanity metrics. Open the live view at [/notes/graph/](/notes/graph/).
-  
   - **Top 20%** = most total wikilinks.
   - **Middle** = between the tails.
   - **Bottom 20%** = fewest total wikilinks.
   - **No body links** = no wikilinks in the note body (See also excluded).
   - **Orphans** = no inbound wikilinks.
-  
   - Open the link map and filter by link rank.
-  
   - The top twenty percent by wikilinks are the anchors worth pruning around.
 shareable_thought:
   - "Open the link map and filter by link rank."

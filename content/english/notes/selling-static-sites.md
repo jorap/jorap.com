@@ -4,20 +4,16 @@ meta_title: "Selling Static Sites - Charge for the Build, Price Hosting Honestly
 description: "I charge for the build and pass-off; hosting is a clear line item, not a mystery monthly bundle."
 key_concept: |
   - My margin is labor, not hosting markup.
-  
   - **What I quote:** discovery and [[Static Site Client Scope]] yes/no before I touch a theme repo.
   - Cloudflare setup with `HUGO_VERSION` and `NODE_VERSION` pinned.
   - Theme and layout, content migration, and contact form pass-off priced separately from retainer updates.
   - Domain (~$12/year) and hosting priced as their own lines - no bundled fog that hides labor behind server rent.
-  
   - I already run [jorap.com](/) on Hugo, GitHub, and Cloudflare Pages for about the cost of a domain.
   - Not the $12/month PHP plan I used to share with a client.
   - Client work uses the same lane: markdown content, a theme, git push, live in about ninety seconds.
   - I quote work that moves the needle; I don't resell "hosting" as a monthly mystery fee.
-  
   - **Pass-off models** (pick one with [[Plain Commitments at Work]] clarity): see [[Client Site Pass-Off]] - Git lesson, retainer, showroom branch, or [[Git-Based CMS]].
   - Bad pass-off: promise WordPress-style daily edits to five non-technical staff without training.
-  
   - I charge for the build and pass-off; hosting is a clear line item, not a mystery monthly bundle.
 examples:
   - "Neighbor asked for a portfolio - quoted build, domain, and a modest hosting line; no mystery monthly package."

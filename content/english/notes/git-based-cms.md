@@ -4,7 +4,6 @@ meta_title: "Git-Based CMS - Buttons for Non-Git Editors"
 description: "A git CMS commits markdown to the repo so clients get buttons while the same push-live build still runs."
 key_concept: |
   - I publish via Git directly.
-  
   - Clients often won't.
   - Before I redirect them to WordPress, this is the middle path.
   - Marketing volunteer, pastor's secretary, or family member can post updates - still static HTML out the other end on free tier if deploy volume stays sane.
@@ -17,13 +16,9 @@ key_concept: |
   - Pin the same `HUGO_VERSION` on Cloudflare.
   - Count CMS-triggered builds toward the monthly quota.
   - [[Minimum Effective Dose]] for solo sites: skip the CMS layer entirely.
-  
   - A git CMS commits markdown to the repo so clients get buttons while the same push-live build still runs.
-  
   - A git CMS doesn't add a database - it commits markdown the same push-live build already uses.
-  
   - I publish via Git directly when I'm the author - the CMS is for clients who need buttons.
-  
   - A git CMS still means saying no to bad dynamic scope - buttons for clients, same static build underneath.
 examples:
   - "Church volunteer won't open a terminal - Sveltia on the repo, she edits announcements, Cloudflare rebuilds on save."

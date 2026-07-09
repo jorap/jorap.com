@@ -5,10 +5,8 @@ description: "Jesus opened the Sermon on the Mount with eight blessings - a pict
 key_concept: |
   {{< bible "Matthew 5:3-12" >}}
   - Eight blessings flip the scoreboard - kingdom favor for the spiritually needy, not the self-sufficient.
-  
   - "Beatitude" means supreme blessedness.
   - Poor in spirit - broke before God, receiving the kingdom as gift not wage.
-  
   - Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not the self-sufficient - which fits [[Free Grace]] perfectly.
   - Blessed are the poor in spirit, for theirs is the kingdom of heaven - bankruptcy before God, receiving the kingdom as gift rather than wage. Each line promises reward rooted in character shaped by grace, not self-made righteousness.
   

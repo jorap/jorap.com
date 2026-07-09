@@ -5,14 +5,11 @@ description: "People follow the one who showed up in the crisis - not always the
 key_concept: |
   - [[Leadership Is Influence]] is the headline: if they're moving with you, you're leading - badge optional.
   - This note is the positive case before anyone prints a business card.
-  
   - Trust deposits compound in small moments: bailing the crew out of an outage, calm voice when the alarm trips.
   - The neighbor who counted heads in the blackout.
   - [[Leadership]] names direction, pace, and care when people look your way - often at the person who already proved reliable, not the newest title.
-  
   - [[Servant Leadership]] is how you earn it without demanding: unblock, coach, pass credit down.
   - [[Humility and Service]] is the gospel root - wash feet in the sprint, not only in the speech.
-  
   - People follow the one who showed up in the crisis - not always the name on the org chart.
 examples:
   - "Our line cook never got named manager; when the hood alarm tripped everyone looked at her for who goes where - influence without a title, earned in every prior shift."

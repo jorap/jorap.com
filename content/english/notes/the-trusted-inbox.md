@@ -4,15 +4,10 @@ meta_title: "The Trusted Inbox - One Place I'll Actually Empty"
 description: "One capture pipe I empty every week - if I don't trust it, I hoard ideas in my head instead."
 key_concept: |
   - If I don't trust my inbox, I capture in my head instead. One pipe, weekly empty, no exceptions.
-  
   - An inbox I don't empty becomes a junk drawer I stop using.
-  
   - One pipe, weekly empty, no exceptions - trust is built by emptying, not by hoping.
-  
   - One capture pipe I empty every week.
-  
   - If I don't trust it, I hoard ideas in my head instead.
-  
   - If capture lives in my head, the system is decoration - not a [[Building a Second Brain]].
 examples:
   - "We kept one bowl by the door for keys, papers, receipts - two bowls meant I'd hold things in my head instead."

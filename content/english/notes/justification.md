@@ -17,18 +17,14 @@ key_concept: |
   {{< bible ref="Romans 5:1-2" emphasize="1" >}}
   
   - Justified by faith, peace with God - the case closed at trust, not at perfect obedience.
-  
   - [[Free Grace]] names the gift; justification names the legal move: guilty sinner, faith in Christ, declared not guilty - Christ's record credited to me.
   - Same shape as [[Minimum Effective Dose]]: one sufficient act at the start, not a lifetime of merit stacked before God says yes.
   - [[Standing vs Fellowship]] keeps the verdict separate from daily closeness - confession restores fellowship, it doesn't re-buy heaven.
   - [[Sanctification]] is what comes after - becoming holy over time.
   - [[Eternal Rewards]] is what the Father pays faithful living after.
   - None of those three re-open the case justification closed.
-  
   - God declared me righteous at faith.
-  
   - Before my obedience caught up.
-  
   - Justification means God declared me righteous at faith - before my obedience caught up.
 examples:
   - "My kid asked if God likes him yet - I said God already declared him righteous the moment he trusted Christ, not when his room got clean."

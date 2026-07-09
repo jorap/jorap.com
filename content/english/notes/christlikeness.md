@@ -5,17 +5,13 @@ description: "God keeps reshaping me to look and love more like Jesus - growth a
 key_concept: |
   {{< bible ref="Luke 6:39-40" emphasize="40" >}}
   - Fully trained, like the teacher - the aim isn't my old default self on display, it's looking more like Jesus over years.
-  
   - [[Free Grace]] settles where I spend forever.
-  
   - Christlikeness settles who I'm becoming - more of His patience in traffic, more of His gentleness at dinner, less of my default self on display.
   - [[Sanctification]] is the slow process, [[Discipleship]] is the daily walk, [[Abide in Me]] is the engine, [[Fruits of the Spirit]] is what people notice when the walk is real.
   - Romans 8:29 names the aim - to become conformed to the image of His Son.
   - I don't manufacture Christlikeness to earn standing - [[Justification]] already settled that.
   - PKM mirror: [[God Centered Design]] - build the week toward His likeness, not applause.
-  
   - God keeps reshaping me to look and love more like Jesus.
-  
   - Growth after faith, not the entry fee.
 examples:
   - "I lost my temper at dinner and apologized slower than I used to snap - Christlikeness is slow; standing was settled at faith, and I'm still being reshaped."

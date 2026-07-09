@@ -17,7 +17,6 @@ key_concept: |
   {{< bible ref="Ephesians 2:10" emphasize="10" >}}
   
   - Good works come after the gift - created in Christ for them, not to buy the ticket.
-  
   - Christ paid what I couldn't.
   - I receive eternal life by believing His promise - not by climbing a moral ladder.
   - Same shape as [[Minimum Effective Dose]] for salvation: faith is the smallest act that still works - not zero effort, not a lifetime of merit.
@@ -28,13 +27,9 @@ key_concept: |
   - [[Grateful Obedience]] names the posture: obey from thanks, not to qualify.
   - [[Assurance]] and [[Standing vs Fellowship]] keep doubt from collapsing standing with closeness.
   - [[Faith and Works]] keeps the lanes straight: works prove faith alive, they don't buy heaven.
-  
   - Eternal life is Christ's gift received by faith alone, not wages for commandments, principles, or good works.
-  
   - Grace is a gift I never earned - Christ paid what I couldn't.
-  
   - Good works prove faith is alive - they never buy the ticket to heaven.
-  
   - Faith is the smallest act that still works - not a lifetime of merit stacked on top.
 examples:
   - "A teammate listed every good deed this month like it was his ticket to heaven - I trust Christ's promise for eternal life, not my report card from the season."

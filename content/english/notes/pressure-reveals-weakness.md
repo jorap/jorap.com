@@ -5,11 +5,8 @@ meta_title: "Pressure Reveals Weakness - Build for When It Gets Hard"
 description: "Pressure reveals what easy days hide - build habits and systems that still work when stakes spike."
 key_concept: |
   - Pressure reveals what easy days hide.
-  
   - Build habits and systems that still work when stakes spike - not just when things are calm and cooperative.
-  
   - Rehearse the move on easy days so it's already loaded when pressure hits.
-  
   - What survives contact with pressure was built long before the pressure showed up.
 shareable_thought:
   - "Pressure reveals what easy days hide."

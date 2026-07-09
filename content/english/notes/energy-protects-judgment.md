@@ -4,9 +4,7 @@ meta_title: "Energy Protects Judgment - Rest Is Part of Performance"
 description: "I protect sleep and recovery because tired me makes worse calls than rested me on the same facts."
 key_concept: |
   - Fatigue hits more than muscles. It weakens patience, attention, restraint, and the quality of calls you make.
-  
   - I protect sleep and recovery because tired me makes worse calls than rested me on the same facts.
-  
   - Rest, prep, workload limits, and recovery aren't soft extras - they're part of performing responsibly under pressure.
 examples:
   - "I snapped at my kid over a spilled cup after a brutal week; at breakfast it would've been two calm sentences - she wasn't the problem, I was."

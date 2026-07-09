@@ -4,11 +4,9 @@ meta_title: "Change Window - Schedule Risky Changes When Rollback Help Is Awake"
 description: "I ship risky changes when someone awake can roll back, not Friday night when everyone's offline."
 key_concept: |
   - [[Rollback Principle]] fails when the people who can revert are asleep or at a wedding.
-  
   - A change window is boring calendar hygiene: deploy Tuesday morning, freeze before holidays, keep the old build one click away.
   - Not fear of shipping - matching risk to coverage.
   - PKM parallel: [[Maintenance Window]] is scheduled garden prune; change window is scheduled production risk.
-  
   - I ship risky changes when someone awake can roll back, not Friday night when everyone's offline.
 examples:
   - "We stopped Friday-night client deploys after the bad release - Tuesday standup owns rollback if it goes loud."

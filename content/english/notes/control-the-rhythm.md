@@ -4,13 +4,9 @@ meta_title: "Control the Rhythm - Don't Let Urgency Set Your Pace"
 description: "Control the rhythm is taking back pace before urgency, conflict, or someone else sets it."
 key_concept: |
   - Whoever sets the pace often steers the room.
-  
   - Don't let urgency, conflict, emotion, or someone else's deadline dictate how fast you think and act - take the tempo back when you can.
-  
   - Control the rhythm is taking back pace before urgency, conflict, or someone else sets it.
-  
   - The room usually can't tell the difference between you slowing down and you being in control - so slow down.
-  
   - Urgency is real - I still choose the pace I work at.
 examples:
   - "A dad texted \"my kid needs more reps today\" before I'd watched him play - control the rhythm was \"let's see Thursday's scrimmage first\" instead of doubling reps that bred a limp."

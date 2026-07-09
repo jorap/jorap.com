@@ -4,11 +4,8 @@ meta_title: "Lean Startup"
 description: "I'd rather ship a rough test and learn than polish a product nobody wanted."
 key_concept: |
   - Build the smallest test, measure, learn - don't scale before validation.
-  
   - I'd rather ship a rough test and learn than polish a product nobody wanted.
-  
   - Measure what happened, then fix the template - not the pitch deck.
-  
   - The waitlist number matters less than whether those people would actually pay today.
 examples:
   - "Ten parents signed a waitlist before we booked the full tournament venue - smallest test, measure interest, learn before scaling."

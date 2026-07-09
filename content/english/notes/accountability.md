@@ -4,11 +4,8 @@ meta_title: "Accountability - Clear Ownership for Outcomes"
 description: "Accountability is naming who owns the result - and what happens when it slips."
 key_concept: |
   - Clear ownership - who answers for the outcome, the miss, and the fix.
-  
   - Accountability is naming who owns the result - and what happens when it slips.
-  
   - One owner per outcome beats a room where everyone was involved and nobody answers.
-  
   - Name the owner, the miss, and the fix before the conversation ends.
 examples:
   - "The condo board didn't say \"someone should fix the gate\" - they named a contact and a deadline in the group chat before anyone drove off."

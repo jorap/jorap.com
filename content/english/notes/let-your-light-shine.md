@@ -9,12 +9,9 @@ key_concept: |
   {{< bible ref="Matthew 6:1-4" emphasize="4" >}}
   
   - Not performance piety for applause - visible good for God's credit, not my feed.
-  
   - The point isn't performance for applause - Jesus warns against practicing righteousness to be seen by people.
-  
   - Good works shine so God gets credit for [[Free Grace]] at work in a saved life, not so I build a personal brand.
   - Parallel in the garden: [[Drafting in Public]] puts rough notes in the open so ideas get tested - same visibility instinct, different aim (glorify God, not the author).
-  
   - Good works aren't for hiding - let people see the Father in how I live, not perform for applause.
 examples:
   - "I brought extra water for the whole bench and almost posted about it - the light isn't for my brand; it's so someone sees good work and thinks God is real."

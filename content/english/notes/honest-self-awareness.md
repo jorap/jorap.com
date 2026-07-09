@@ -4,13 +4,10 @@ meta_title: "Honest Self-Awareness - Name Reality Before You Change It"
 description: "I name strengths, gaps, and limits plainly - change targets stay realistic."
 key_concept: |
   - Transformation built on fantasy breaks on contact with Tuesday.
-  
   - Honest self-awareness is a plain inventory - what I'm good at, what I'm avoiding, what I can't carry this quarter - before I promise the room a new person.
   - [[Growth Mindset]] needs this floor: misses are data only if I admit the miss happened.
   - Acceptance isn't quitting; it's choosing targets that match the real starting line.
-  
   - I name strengths, gaps, and limits plainly.
-  
   - Change targets stay realistic.
 examples:
   - "I told the coach I can't guard the quick point yet - honest self-awareness meant drills on foot speed, not pretending I'd magically lock him up game night."

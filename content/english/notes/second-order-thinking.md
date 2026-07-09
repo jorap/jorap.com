@@ -4,11 +4,8 @@ meta_title: "Second-Order Thinking - Ask What Happens Next"
 description: "I ask what the clever fix triggers next - copycats, shortcuts, and incentives I didn't plan for."
 key_concept: |
   - Ask what happens after the first win - incentives shift, copycats arrive, shortcuts compound.
-  
   - I ask what the clever fix triggers next.
-  
   - Copycats, shortcuts, and incentives I didn't plan for.
-  
   - Second-order thinking asks what happens after the first consequence - not only whether the move works today.
 examples:
   - "Free pizza after games pulled families in - then the parking lot jammed and refs quit early - I asked what happens after the first rush."

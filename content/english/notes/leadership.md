@@ -4,13 +4,9 @@ meta_title: "Leadership - Setting Direction and Pace for Others"
 description: "Leadership is owning direction, pace, and care when people look to you - title optional."
 key_concept: |
   - You take responsibility for direction, pace, and care when people look to you - title optional.
-  
   - Care means the people counting on you still feel seen when the pressure spikes.
-  
   - Leadership is owning direction, pace, and care when people look to you - title optional.
-  
   - When people look to you, they need someone to set direction - not just a name on the org chart.
-  
   - Pace matters as much as direction - calm urgency beats either panic or drift.
 examples:
   - "Our line cook never got named manager; leadership was calm voice, who goes where, and nobody blaming while the extinguishers were still out."

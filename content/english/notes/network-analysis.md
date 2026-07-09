@@ -4,16 +4,11 @@ meta_title: "Network Analysis"
 description: "I look at which notes connect everything else - those hubs tell me where the garden actually lives."
 key_concept: |
   - Study links and hubs in a graph - who connects whom, what's isolated.
-  
   - Bridges and orphans matter more than node count - the graph shows who carries traffic and what's stranded.
   - [[Linking by Meaning]] builds the graph; [[Maps of Content]] wins when a hand hub beats metrics.
-  
   - I look at which notes connect everything else.
-  
   - Those hubs tell me where the garden actually lives.
-  
   - Network analysis means studying links and hubs in the graph - who connects whom, what's isolated.
-  
   - Network analysis shows who connects whom in the graph - and which notes sit isolated without links.
 examples:
   - "The playbook diagram showed one motion offense linking twelve other sets - that was the doorway I'd simplify first."
