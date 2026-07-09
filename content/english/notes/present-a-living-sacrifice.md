@@ -3,7 +3,7 @@ title: "Present a Living Sacrifice"
 meta_title: "Present a Living Sacrifice - Romans 12:1 Worship"
 description: "I offer my ordinary day to God first - thanks after mercy, not payment to earn grace."
 key_concept: |
-  {{< bible "Matthew 16:24-26" >}}
+  {{< bible ref="Matthew 16:24-26" emphasize="26" >}}
   Following Jesus costs self-denial and a cross - not suffering theater, daily surrender of my will to His.
 
   {{< bible "Romans 12:1" >}}

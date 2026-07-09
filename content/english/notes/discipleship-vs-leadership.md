@@ -3,7 +3,7 @@ title: "Discipleship vs Leadership"
 meta_title: "Discipleship vs Leadership - Two Seats, One Person"
 description: "Discipleship is who I follow upward; leadership is who looks to me for direction and care - two seats."
 key_concept: |
-  {{< bible "Matthew 20:26-28" >}}
+  {{< bible ref="Matthew 20:26-28" emphasize="28" >}}
   Greatness is service - Son of Man came to serve; two seats, upward allegiance and outward care.
 
   [[Discipleship]] answers upward - learn and do what Jesus said after faith, not to buy heaven under [[Free Grace]]. [[Leadership]] answers outward - direction, pace, and care when people look my way; title optional.

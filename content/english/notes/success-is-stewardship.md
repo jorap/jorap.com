@@ -3,7 +3,7 @@ title: "Success is Stewardship"
 meta_title: "Success is Stewardship - Borrowed Gifts, Not Permanent Ownership"
 description: "Success is borrowed - I'm accountable for how I use what I was given, not entitled to keep it forever."
 key_concept: |
-  {{< bible "Matthew 25:14-30" >}}
+  {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
   Promotion and platform are entrusted for faithful use - enter the master's joy, don't bury the talent in ego.
 
   Success isn't ownership - it's stewardship of what I was given: time, health, platform, money, influence.

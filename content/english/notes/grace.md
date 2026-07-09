@@ -3,12 +3,12 @@ title: "Grace"
 meta_title: "Grace - Unmerited Favor from God"
 description: "Grace is gift I never earned starting with salvation and continuing through the walk after, not wages I could stack."
 key_concept: |
-  {{< bible "John 3:16-18" >}}
+  {{< bible ref="John 3:16-18" emphasize="16" >}}
   God didn't wait for me to earn it - He gave His Son so belief, not merit, decides where I spend forever.
 
   [[Mercy]] withholds what I deserve; grace gives what I couldn't earn.
 
-  {{< bible "Ephesians 2:1-5" >}}
+  {{< bible ref="Ephesians 2:1-5" emphasize="5" >}}
 
   Paul names the same rescue from the dead side - alive with Christ by grace, not wages I stacked.
 

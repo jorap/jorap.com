@@ -3,20 +3,20 @@ title: "Justification"
 meta_title: "Justification - Declared Righteous at Faith"
 description: "God declared me righteous at faith - before my obedience caught up."
 key_concept: |
-  {{< bible "Luke 18:9-14" >}}
+  {{< bible ref="Luke 18:9-14" emphasize="14" >}}
   The tax collector went home justified - humility before God, not self-promotion, is what Jesus commended.
 
-  {{< bible "Romans 3:21-26" >}}
+  {{< bible ref="Romans 3:21-26" emphasize="24" >}}
 
   Paul names the verdict - justified as a gift by grace, Christ's redemption, not my performance.
 
-  {{< bible "Romans 4:4-5" >}}
+  {{< bible ref="Romans 4:4-5" emphasize="5" >}}
 
   Faith credited as righteousness
 
   Faith credited as righteousness for the one who believes, not the one who works the room.
 
-  {{< bible "Romans 5:1-2" >}}
+  {{< bible ref="Romans 5:1-2" emphasize="1" >}}
 
   Justified by faith, peace with God - the case closed at trust, not at perfect obedience.
 

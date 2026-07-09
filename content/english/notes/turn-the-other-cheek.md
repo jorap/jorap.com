@@ -3,7 +3,7 @@ title: "Turn the Other Cheek"
 meta_title: "Turn the Other Cheek - Non-Retaliation"
 description: "When someone hits or insults me, I don't hand back the same - I break the retaliation loop."
 key_concept: |
-  {{< bible "Matthew 5:38-42" >}}
+  {{< bible ref="Matthew 5:38-42" emphasize="39" >}}
   Don't return evil for evil - break the retaliation loop, not pretend harm didn't happen.
 
   The point isn't passivity toward all evil - it's refusing to become what hurt you. Same logic as [[Sunk Cost Fallacy]]: stop throwing more anger after sunk hurt. Goes further than [[The Golden Rule]] (proactive good) and pairs with [[Love Your Enemies]] (heart posture).

@@ -3,7 +3,7 @@ title: "Abide in Me"
 meta_title: "Abide in Me - Fruit from Union with Christ"
 description: "I bear fruit when I stay connected to Christ, not when I force it by willpower alone."
 key_concept: |
-  {{< bible "John 15:1-11" >}}
+  {{< bible ref="John 15:1-11" emphasize="5" >}}
   Cut off from the vine, I produce nothing lasting - fruit comes from staying connected, not willpower theater.
 
   Abiding is ongoing dependence - pruning hurts but serves fruitfulness over time.

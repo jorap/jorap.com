@@ -3,7 +3,7 @@ title: "Forgiveness at Work"
 meta_title: "Forgiveness at Work - Release the Ledger"
 description: "I release a colleague's debt from my heart without pretending the slight didn't matter or skipping boundaries where trust broke."
 key_concept: |
-  {{< bible "Matthew 18:21-35" >}}
+  {{< bible ref="Matthew 18:21-35" emphasize="35" >}}
   Forgiving isn't pretending it didn't hurt.
   
   Seventy times seven ends the ledger-keeping - stop collecting forever on a debt that poisons my work. Gospel depth: [[Forgiveness]]. Same math as [[Sunk Cost Fallacy]] - stop treating old hurt as an asset I'm owed.

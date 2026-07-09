@@ -6,7 +6,7 @@ key_concept: |
   {{< bible "John 15:19" >}}
   Chosen out of the world - so when the feed's outrage feels normal, that's the world's script, not mine.
 
-  {{< bible "Romans 12:1-2" >}}
+  {{< bible ref="Romans 12:1-2" emphasize="2" >}}
 
   Don't conform - refuse the default before renewal reshapes how I react. Pairs with [[Present a Living Sacrifice]] on the same Romans passage.
 

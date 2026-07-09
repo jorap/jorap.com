@@ -3,7 +3,7 @@ title: "Faithful Steward"
 meta_title: "Faithful Steward - Well Done for Faithful Use"
 description: "After salvation is settled, stewardship is about faithful use of what God entrusted, not buying heaven with busy weeks."
 key_concept: |
-  {{< bible "Matthew 25:14-30" >}}
+  {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
   Well done for faithful use of what He entrusted - quiet Tuesdays count, not one heroic mission trip.
 
   [[Free Grace]] settled where I spend forever.

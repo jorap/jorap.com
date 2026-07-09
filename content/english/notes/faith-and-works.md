@@ -3,7 +3,7 @@ title: "Faith and Works"
 meta_title: "Faith and Works - Saved by Faith, Shown by Action"
 description: "Faith alone saves me - works show it's alive, they don't buy heaven."
 key_concept: |
-  {{< bible ref="Matthew 7:24" label="Matthew 7:24-27" >}}
+  {{< bible ref="Matthew 7:24" label="Matthew 7:24-27" emphasize="24" >}}
   Hear Jesus and do - rock stands in the storm; hearing alone is sand.
 
   Paul and James aren't two gospels fighting.

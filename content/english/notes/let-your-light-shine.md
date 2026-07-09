@@ -3,10 +3,10 @@ title: "Let Your Light Shine"
 meta_title: "Let Your Light Shine - Good Works That Glorify God"
 description: "Good works aren't for hiding - let people see the Father in how I live, not perform for applause."
 key_concept: |
-  {{< bible "Matthew 5:14-16" >}}
+  {{< bible ref="Matthew 5:14-16" emphasize="16" >}}
   City on a hill can't hide - let good works shine so people glorify the Father, not my personal brand.
 
-  {{< bible "Matthew 6:1-4" >}}
+  {{< bible ref="Matthew 6:1-4" emphasize="4" >}}
 
   Not performance piety for applause - visible good for God's credit, not my feed.
 

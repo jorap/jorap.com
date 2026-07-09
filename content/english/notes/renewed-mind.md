@@ -3,10 +3,10 @@ title: "Renewed Mind"
 meta_title: "Renewed Mind - Romans 12:2 Mind Transformation"
 description: "Don't copy the world's default thinking - let Scripture reshape how I see, choose, and obey."
 key_concept: |
-  {{< bible "John 8:31-32" >}}
+  {{< bible ref="John 8:31-32" emphasize="32" >}}
   Stay in His word and you're His disciple - truth frees the mind culture tried to lock in hurry and outrage.
 
-  {{< bible "Romans 12:1-2" >}}
+  {{< bible ref="Romans 12:1-2" emphasize="2" >}}
 
   Mercy first, then sacrifice, then a mind being renewed - Paul stacks the order I keep swapping.
 

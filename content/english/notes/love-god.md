@@ -3,7 +3,7 @@ title: "Love God"
 meta_title: "Love God - The Greatest Commandment"
 description: "First command, whole self - heart, mind, strength, not a corner of Sunday morning."
 key_concept: |
-  {{< bible "Matthew 22:37-40" >}}
+  {{< bible ref="Matthew 22:37-40" emphasize="37" >}}
   First command, whole self - heart, soul, mind, not a corner of Sunday morning.
 
   Under [[Free Grace]], this is the first call on a life already saved by faith - love flowing from grace received, not love offered as payment for eternal life.

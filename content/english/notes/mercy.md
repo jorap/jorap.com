@@ -6,7 +6,7 @@ key_concept: |
   {{< bible "Matthew 5:7" >}}
   Show mercy and you'll receive mercy - the beatitude ties compassion out to compassion back.
 
-  {{< bible "Ephesians 2:1-5" >}}
+  {{< bible ref="Ephesians 2:1-5" emphasize="5" >}}
 
   Paul keeps mercy and grace in one breath - rich in mercy, saved by grace while I was still dead in sin.
 

@@ -3,7 +3,7 @@ title: "Fruits of the Spirit"
 meta_title: "Fruits of the Spirit - Character the Spirit Produces"
 description: "Love through self-control is one Spirit-grown cluster in believers, not a merit checklist that buys heaven."
 key_concept: |
-  {{< bible "John 15:1-8" >}}
+  {{< bible ref="John 15:1-8" emphasize="5" >}}
   Much fruit glorifies the Father and proves discipleship - grown on the vine, not manufactured for credit.
 
   {{< bible "Galatians 5:22-23" >}}

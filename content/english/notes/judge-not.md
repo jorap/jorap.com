@@ -3,10 +3,10 @@ title: "Judge Not"
 meta_title: "Judge Not - Speck and Plank"
 description: "I don't play final judge on souls - I pull my own plank before nitpicking someone's speck."
 key_concept: |
-  {{< bible "Matthew 7:1-5" >}}
+  {{< bible ref="Matthew 7:1-5" emphasize="5" >}}
   Don't play final judge on souls - pull your plank before you nitpick someone's speck.
 
-  {{< bible "Matthew 7:16-20" >}}
+  {{< bible ref="Matthew 7:16-20" emphasize="20" >}}
 
   Still judge fruit - outcomes over time tell you what's underneath the hype.
 

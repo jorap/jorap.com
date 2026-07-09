@@ -3,7 +3,7 @@ title: "Humility and Service"
 meta_title: "Humility and Service - The Last Shall Be First"
 description: "Jesus taught greatness through service - the Son of Man came to serve, not be served."
 key_concept: |
-  {{< bible "Mark 10:42-45" >}}
+  {{< bible ref="Mark 10:42-45" emphasize="45" >}}
   Came to serve and give His life - greatness in the kingdom runs opposite the world's ladder.
 
   Status in the kingdom runs opposite to the world's ladder: exalt yourself and you'll be humbled; humble yourself and you'll be exalted. Service is the path to kingdom reward and greatness before God - not the price of [[Free Grace]]. [[Faithful Steward]] is the parable shape: well done for faithful use of what He entrusted.

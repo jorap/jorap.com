@@ -3,18 +3,18 @@ title: "Eternal Rewards"
 meta_title: "Eternal Rewards - Faithfulness Repaid After Salvation"
 description: "Jesus promised believers the Father will repay faithful obedience after salvation, not as the price of eternal life."
 key_concept: |
-  {{< bible "Matthew 6:1-4" >}}
+  {{< bible ref="Matthew 6:1-4" emphasize="4" >}}
   Father who sees in secret repays - hidden devotion counted, not applause theater.
 
-  {{< bible "Matthew 6:16-18" >}}
+  {{< bible ref="Matthew 6:16-18" emphasize="18" >}}
 
   Secret fasting gets the same promise - Father who sees in secret rewards, not the crowd's applause.
 
-  {{< bible "Matthew 16:24-27" >}}
+  {{< bible ref="Matthew 16:24-27" emphasize="27" >}}
 
   Son of Man repays deeds at His return - reward review for the saved life, not the price of eternal life.
 
-  {{< bible "Matthew 25:14-30" >}}
+  {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
 
   Well done for faithful use - gift first, repayment for faithfulness second, not the price of eternal life.
 

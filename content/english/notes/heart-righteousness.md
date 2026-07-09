@@ -3,7 +3,7 @@ title: "Heart Righteousness"
 meta_title: "Heart Righteousness - Anger and Lust as Heart Sins"
 description: "Heart righteousness goes deeper than outward acts - anger is murder, lust is adultery, in the heart."
 key_concept: |
-  {{< bible "Matthew 5:21-30" >}}
+  {{< bible ref="Matthew 5:21-30" emphasize="22,28" >}}
   Angry with your brother - guilty before the court even if you smiled outwardly.
 
   Lust logged mentally - adultery in the heart though marriage looks fine outside.

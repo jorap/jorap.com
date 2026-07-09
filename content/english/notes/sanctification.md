@@ -3,7 +3,7 @@ title: "Sanctification"
 meta_title: "Sanctification - Becoming Holy After Faith"
 description: "After God declares me righteous, he keeps shaping my habits and heart - growth, not the ticket in."
 key_concept: |
-  {{< bible "John 17:17-19" >}}
+  {{< bible ref="John 17:17-19" emphasize="17" >}}
   Jesus asks the Father to make us holy through truth - Scripture shapes the slow becoming, not one heroic week.
 
   [[Free Grace]] settles where I spend forever.

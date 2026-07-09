@@ -10,7 +10,7 @@ key_concept: |
 
   Jesus echoed Moses on the second command - no command ranks higher than loving God and neighbor.
 
-  {{< bible "Luke 10:25-37" >}}
+  {{< bible ref="Luke 10:25-37" emphasize="37" >}}
 
   The Samaritan acted as neighbor - go and do the same, don't debate who counts.
 

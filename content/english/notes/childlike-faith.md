@@ -3,7 +3,7 @@ title: "Childlike Faith"
 meta_title: "Childlike Faith - Receive the Kingdom"
 description: "I stop negotiating merit and receive the kingdom the way a child receives care."
 key_concept: |
-  {{< bible "Mark 10:13-16" >}}
+  {{< bible ref="Mark 10:13-16" emphasize="15" >}}
   Receive the kingdom like a kid - stop negotiating merit before you enter.
 
   Children don't enter the kingdom by achievement; they receive care they didn't earn.

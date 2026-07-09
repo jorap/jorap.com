@@ -3,7 +3,7 @@ title: "Secret Devotion"
 meta_title: "Secret Devotion - For the Father's Eyes Alone"
 description: "I give, pray, and fast for God to see - not for applause in the group chat."
 key_concept: |
-  {{< bible "Matthew 6:1-18" >}}
+  {{< bible ref="Matthew 6:1-18" emphasize="6" >}}
   Piety for an audience is its own reward - give, pray, fast for the Father who sees in secret.
 
   Some good shines publicly; some stays hidden so the left hand doesn't know what the right is doing.

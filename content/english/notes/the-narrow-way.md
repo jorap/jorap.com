@@ -3,10 +3,10 @@ title: "The Narrow Way"
 meta_title: "The Narrow Way - Enter by the Narrow Gate"
 description: "The road to life is narrow and hard - the easy broad path is the one I'd drift onto."
 key_concept: |
-  {{< bible "Matthew 7:13-14" >}}
+  {{< bible ref="Matthew 7:13-14" emphasize="14" >}}
   Broad road is crowded and easy; narrow gate costs self-rule - few find it, but it's the one Jesus named.
 
-  {{< bible ref="Matthew 7:21" label="Matthew 7:21-23" >}}
+  {{< bible ref="Matthew 7:21" label="Matthew 7:21-23" emphasize="21" >}}
 
   Not everyone who says Lord Lord enters - false profession vs believer who stumbles and may lose reward but stays saved.
 

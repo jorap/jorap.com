@@ -3,10 +3,10 @@ title: "Forgiveness"
 meta_title: "Forgiveness - As the Father Forgives You"
 description: "I extend the forgiveness I already received, not ledger-keeping on debts Christ cleared."
 key_concept: |
-  {{< bible "Matthew 6:14-15" >}}
+  {{< bible ref="Matthew 6:14-15" emphasize="15" >}}
   Forgive others or the Father won't forgive you - daily rhythm, not a one-time sermon nod.
 
-  {{< bible "Matthew 18:21-35" >}}
+  {{< bible ref="Matthew 18:21-35" emphasize="35" >}}
 
   Seventy times seven ends ledger-keeping - stop counting how many times you've been wronged.
 
