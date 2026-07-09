@@ -5,7 +5,9 @@ description: "I phrase ideas I'd still stand behind in two years and revise when
 key_concept: |
   - I write in complete sentences I'd still stand behind in two years.
   
-  - Revise when tools change, not when trends spike. Promotion from fleeting: during [[Periodic Knowledge Review]], when a spark keeps returning. Faith parallel: [[The Beatitudes]] - character that matures over years, not a one-week mood.
+  - Revise when tools change, not when trends spike.
+  - Promotion from fleeting: during [[Periodic Knowledge Review]], when a spark keeps returning.
+  - Faith parallel: [[The Beatitudes]] - character that matures over years, not a one-week mood.
   
   - I phrase ideas I'd still stand behind in two years and revise when reality shifts, not when a trend spikes.
 examples:
@@ -57,4 +59,5 @@ cards:
     back: "Distill - need one clear claim."
 draft: false
 ---
+
 

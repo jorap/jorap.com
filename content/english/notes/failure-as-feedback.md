@@ -5,7 +5,8 @@ description: "I read a miss as signal about process or skill, not as proof I'm t
 key_concept: |
   - A miss tells you what to fix next - process, skill, assumption - if you don't treat it as an identity verdict.
   
-  - Faith parallel: [[Loss of Reward]] - worthless works burn at the [[Judgment Seat]], but the builder is still saved through fire. The miss is feedback on what to build next, not proof you were never in.
+  - Faith parallel: [[Loss of Reward]] - worthless works burn at the [[Judgment Seat]], but the builder is still saved through fire.
+  - The miss is feedback on what to build next, not proof you were never in.
   
   - I read a miss as signal about process or skill, not as proof I'm the wrong kind of person.
 examples:
@@ -63,4 +64,5 @@ cards:
     back: "Fix the math - not proof I can't do numbers."
 draft: false
 ---
+
 

@@ -22,9 +22,9 @@ examples:
   - "A trending productivity guru's followers still drown in inbox chaos - grapes from grapevines, thorns from thistles, time and results tell."
 shareable_thought:
   - "I check teachers by what their teaching produces, not by how polished the talk sounds."
-  - "You will know them by their fruits. (Matthew 7:16-20). Jesus pairs this with Judge Not: don't condemn souls, but do evaluate fruit."
+  - "Don't condemn souls, but do evaluate fruit - grapes from vines, not hype."
+  - "Jesus pairs this with Judge Not: don't condemn souls, but do evaluate fruit."
   - "Wolves may wear sheep's clothing; time and results tell."
-  - "The wolf doesn't announce itself - only a season of results tells you what's underneath the sheep's clothing."
 relationships:
   - type: alternative
     wikilink: "[[Fruits of the Spirit]]"

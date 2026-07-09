@@ -16,8 +16,8 @@ examples:
 shareable_thought:
   - "Analog capture wins when the phone dies or the meeting blocks screens - same inbox rule."
   - "Paper capture uses the same inbox rule as digital - for meetings, sermons, and dead phone batteries."
-  - "Paper still goes in the same inbox when screens are off limits."
   - "The scrap gets copied into the real system later."
+  - "Paper is capture, not storage."
 relationships:
   - type: alternative
     wikilink: "[[Mobile Capture Workflows]]"

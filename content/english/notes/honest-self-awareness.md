@@ -5,7 +5,10 @@ description: "I name strengths, gaps, and limits plainly - change targets stay r
 key_concept: |
   - Transformation built on fantasy breaks on contact with Tuesday.
   
-  - Honest self-awareness is a plain inventory - what I'm good at, what I'm avoiding, what I can't carry this quarter - before I promise the room a new person. [[Growth Mindset]] needs this floor: misses are data only if I admit the miss happened. Acceptance isn't quitting; it's choosing targets that match the real starting line.
+  - Honest self-awareness is a plain inventory
+  - what I'm good at, what I'm avoiding, what I can't carry this quarter - before I promise the room a new person.
+  - [[Growth Mindset]] needs this floor: misses are data only if I admit the miss happened.
+  - Acceptance isn't quitting; it's choosing targets that match the real starting line.
   
   - I name strengths, gaps, and limits plainly.
   
@@ -16,8 +19,8 @@ examples:
 shareable_thought:
   - "I name strengths, gaps, and limits plainly - change targets stay realistic."
   - "Transformation built on fantasy breaks on contact with Tuesday."
-  - "Plain inventory - what I'm good at, what I'm avoiding, what I can't carry this quarter."
-  - "Acceptance isn't quitting; it's choosing targets that match the real starting line."
+  - "Honest self-awareness is a plain inventory."
+  - "What I'm good at, what I'm avoiding, what I can't carry this quarter - before I promise the room a new person."
 relationships:
   - type: contradicts
     wikilink: "[[Growth Mindset]]"
@@ -61,4 +64,6 @@ cards:
     back: "Pick a target that matches the real starting line."
 draft: false
 ---
+
+
 

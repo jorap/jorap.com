@@ -19,7 +19,7 @@ shareable_thought:
   - "Thousands of notes and I still stare at a blank page."
   - "One small ship action usually unsticks me."
   - "Creative blocks aren't solved by more capture - ship one small action instead."
-  - "Staring at a blank page with full notes means output fixes, not another capture pass."
+  - "Once something ugly exists on the page, editing is a different, easier problem than starting."
 relationships:
   - type: contradicts
     wikilink: "[[Capture]]"

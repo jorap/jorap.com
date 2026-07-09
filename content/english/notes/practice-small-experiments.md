@@ -5,7 +5,9 @@ description: "Repeat the move, run tiny tests, learn fast - durable change beats
 key_concept: |
   - Big-bang rollouts look decisive and usually snap back by March.
   
-  - Practice small experiments means daily reps plus tests small enough to fail cheap - one drill, one workflow tweak, one week trial - then keep what works. [[Deliberate Practice]] is the rep lane; [[Minimum Effective Dose]] is the size cap; [[Failure as Feedback]] is how you read a miss without drama.
+  - Practice small experiments means daily reps plus tests small enough to fail cheap one drill, one workflow tweak, one week trial
+  - then keep what works.
+  - [[Deliberate Practice]] is the rep lane; [[Minimum Effective Dose]] is the size cap; [[Failure as Feedback]] is how you read a miss without drama.
   
   - Repeat the move, run tiny tests, learn fast.
   
@@ -14,10 +16,10 @@ examples:
   - "Instead of rebuilding the whole practice plan, we ran one new inbound play for two weeks - kept it when turnovers dropped, dropped it when they didn't."
   - "I didn't migrate every note to a new app - I tried one capture lane by the door for ten days and only expanded after it survived a busy week."
 shareable_thought:
-  - "Repeat the move, run tiny tests, learn fast - durable change beats one big rollout."
+  - "Repeat the move, run tiny tests, learn fast."
+  - "Durable change beats one big rollout."
   - "Big-bang rollouts look decisive and usually snap back by March."
-  - "Daily reps plus tests small enough to fail cheap."
-  - "Keep what works after the trial - drop what doesn't."
+  - "Practice small experiments means daily reps plus tests small enough to fail cheap."
 relationships:
   - type: contradicts
     wikilink: "[[Staged Rollout]]"
@@ -70,4 +72,7 @@ cards:
     back: "Daily reps plus tiny tests - keep what works."
 draft: false
 ---
+
+
+
 

@@ -10,7 +10,8 @@ key_concept: |
   
   - Poor in spirit - broke before God, receiving the kingdom as gift not wage.
   
-  - Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not the self-sufficient - which fits [[Free Grace]] perfectly. Blessed are the poor in spirit, for theirs is the kingdom of heaven
+  - Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not the self-sufficient - which fits [[Free Grace]] perfectly.
+  - Blessed are the poor in spirit, for theirs is the kingdom of heaven
   
   - bankruptcy before God, receiving the kingdom as gift rather than wage. Each line promises reward rooted in character shaped by grace, not self-made righteousness.
   
@@ -37,9 +38,9 @@ examples:
   - "After a winning streak I caught myself feeling spiritually self-sufficient - Beatitudes start with poor in spirit, not the athlete who just had a perfect weekend."
 shareable_thought:
   - "Jesus opened the Sermon on the Mount with eight blessings."
-  - "The Beatitudes are a picture of who the kingdom favors - meek, merciful, peacemakers, not the loud and grasping."
-  - "Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not the self-sufficient."
-  - "The Beatitudes fit Free Grace perfectly - kingdom favor is gift, not wages for performance."
+  - "A picture of who the kingdom favors."
+  - "\"Beatitude\" means supreme blessedness."
+  - "Poor in spirit - broke before God, receiving the kingdom as gift not wage."
 relationships:
   - type: contradicts
     wikilink: "[[Humility and Service]]"
@@ -90,4 +91,5 @@ cards:
     back: "Kingdom of heaven - blessed are persecuted."
 draft: false
 ---
+
 

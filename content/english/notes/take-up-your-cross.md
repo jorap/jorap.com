@@ -8,7 +8,9 @@ key_concept: |
   
   - The cross isn't suffering for suffering's sake; it's choosing God's will over self-will each day.
   
-  - [[Free Grace]] keeps the order: eternal life is received by faith, not earned by cross-bearing - but [[Discipleship]] costs something real. Same road as [[The Narrow Way]], lived one day at a time. Overlap with [[Process Over Outcomes]]: daily self-denial beats a one-time hero sprint.
+  - [[Free Grace]] keeps the order: eternal life is received by faith, not earned by cross-bearing - but [[Discipleship]] costs something real.
+  - Same road as [[The Narrow Way]], lived one day at a time.
+  - Overlap with [[Process Over Outcomes]]: daily self-denial beats a one-time hero sprint.
   
   - I deny myself and follow Christ daily.
   
@@ -71,4 +73,5 @@ cards:
     back: "Do what he said - act today."
 draft: false
 ---
+
 

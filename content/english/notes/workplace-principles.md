@@ -13,8 +13,8 @@ key_concept: |
   - Faith stays in the faith cluster; these are the versions I can share with a secular team without watering down the move.
 shareable_thought:
   - "The same ethics as Eternal Principles, in plain office language where religious terms sound awkward."
-  - "One standup-sized claim per note - plain language I can share with a secular team."
-  - "Faith stays in the faith cluster; these are the versions I can share with a secular team without watering down the move."
+  - "One standup-sized claim per note."
+  - "Plain language I can share with a secular team."
   - "Meeting-sized examples with wikilink back to gospel depth when I need the full move."
 relationships:
   - type: alternative

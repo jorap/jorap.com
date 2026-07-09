@@ -20,7 +20,12 @@ key_concept: |
   
   - Justified by faith, peace with God - the case closed at trust, not at perfect obedience.
   
-  - [[Free Grace]] names the gift; justification names the legal move: guilty sinner, faith in Christ, declared not guilty - Christ's record credited to me. Same shape as [[Minimum Effective Dose]]: one sufficient act at the start, not a lifetime of merit stacked before God says yes. [[Standing vs Fellowship]] keeps the verdict separate from daily closeness - confession restores fellowship, it doesn't re-buy heaven. [[Sanctification]] is what comes after - becoming holy over time. [[Eternal Rewards]] is what the Father pays faithful living after. None of those three re-open the case justification closed.
+  - [[Free Grace]] names the gift; justification names the legal move: guilty sinner, faith in Christ, declared not guilty - Christ's record credited to me.
+  - Same shape as [[Minimum Effective Dose]]: one sufficient act at the start, not a lifetime of merit stacked before God says yes.
+  - [[Standing vs Fellowship]] keeps the verdict separate from daily closeness - confession restores fellowship, it doesn't re-buy heaven.
+  - [[Sanctification]] is what comes after - becoming holy over time.
+  - [[Eternal Rewards]] is what the Father pays faithful living after.
+  - None of those three re-open the case justification closed.
   
   - God declared me righteous at faith.
   
@@ -32,9 +37,9 @@ examples:
   - "I snapped at the cashier and felt like I was back on probation with God - justification means my standing was settled at faith; confession restores fellowship, it doesn't re-buy heaven."
 shareable_thought:
   - "God declared me righteous at faith."
-  - "Justification means God declared me righteous at faith - before my obedience caught up."
-  - "God declares me righteous through faith in Christ alone."
-  - "Therefore, having been justified by faith, we have peace with God through our Lord Jesus Christ (Romans 5:1)."
+  - "Before my obedience caught up."
+  - "Paul names the verdict."
+  - "Justified as a gift by grace, Christ's redemption, not my performance."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"
@@ -91,4 +96,5 @@ cards:
     back: "Standing settled at faith - confess, keep walking."
 draft: false
 ---
+
 

@@ -5,7 +5,8 @@ description: "I push people to grow without picking drills where pain or risk re
 key_concept: |
   - Hard alone doesn't make an exercise worth running.
   
-  - A demanding drill needs [[Purpose and Vision]], a measurable benefit, qualified supervision, and defined safety limits. When pain becomes the point, leaders start treating harm like proof of growth.
+  - A demanding drill needs [[Purpose and Vision]], a measurable benefit, qualified supervision, and defined safety limits.
+  - When pain becomes the point, leaders start treating harm like proof of growth.
   
   - I push people to grow without picking drills where pain or risk replaces the actual skill.
 examples:
@@ -14,7 +15,7 @@ examples:
 shareable_thought:
   - "I push people to grow without picking drills where pain or risk replaces the actual skill."
   - "Hard alone doesn't make an exercise worth running."
-  - "A demanding drill needs a clear purpose, a measurable benefit, qualified supervision, and defined safety limits."
+  - "A demanding drill needs Purpose and Vision, a measurable benefit, qualified supervision, and defined safety limits."
   - "When pain becomes the point, leaders start treating harm like proof of growth."
 relationships:
   - type: alternative
@@ -74,4 +75,5 @@ cards:
     back: "Marked trail, water stops - build endurance safe."
 draft: false
 ---
+
 

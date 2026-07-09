@@ -5,7 +5,8 @@ description: "My notes got sharper when I dropped extra apps, sync layers, and n
 key_concept: |
   - Every new app is a pipe I have to babysit.
   
-  - I cut capture paths and sync layers until I hit [[Minimum Effective Dose]] - the smallest setup that still works. That trades some [[Digital Serendipity]] for fewer places sparks get lost and fewer notifications pulling me off the note I was actually writing.
+  - I cut capture paths and sync layers until I hit [[Minimum Effective Dose]] - the smallest setup that still works.
+  - That trades some [[Digital Serendipity]] for fewer places sparks get lost and fewer notifications pulling me off the note I was actually writing.
   
   - My notes got sharper when I dropped extra apps, sync layers, and notifications I wasn't really using.
   
@@ -17,7 +18,7 @@ shareable_thought:
   - "My notes got sharper when I dropped extra apps, sync layers, and notifications I wasn't really using."
   - "Every new app is a pipe I have to babysit."
   - "I cut capture paths and sync layers until I hit Minimum Effective Dose."
-  - "Digital minimalism means the smallest setup that still works - not the fanciest stack I never open."
+  - "The smallest setup that still works."
 relationships:
   - type: contradicts
     wikilink: "[[Digital Serendipity]]"
@@ -51,4 +52,5 @@ cards:
     back: "One app - fewer sync layers."
 draft: false
 ---
+
 

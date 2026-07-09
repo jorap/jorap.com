@@ -15,7 +15,7 @@ shareable_thought:
   - "Look past today's win to what happens after everyone reacts."
   - "The scoreboard update happens whether or not you planned for it."
   - "Foresight is being ready before it does."
-  - "The board six months out - after everyone reacts - matters more than tonight's score."
+  - "The board six months out."
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Viable Product]]"

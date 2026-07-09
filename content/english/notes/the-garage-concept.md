@@ -19,7 +19,7 @@ shareable_thought:
   - "My vault is the garage for scraps and experiments."
   - "The blog is the showroom, and I keep them separate."
   - "The garage holds tools, scraps, experiments."
-  - "The garage concept splits showroom and workshop - the blog is the showroom, drafts are the garage."
+  - "The showroom is the blog."
 relationships:
   - type: contradicts
     wikilink: "[[Drafting in Public]]"

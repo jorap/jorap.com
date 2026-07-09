@@ -5,7 +5,8 @@ description: "Ship the smallest version that proves someone actually wants this 
 key_concept: |
   - The smallest thing I can ship that tests the idea - not a polished fantasy.
   
-  - I'd rather publish a rough note or prototype and learn than polish in private for months. Client work: [[Selling Static Sites]] is the same loop - one pilot site on [[Free Tier Hosting Stack]] before I package tiers and upsells.
+  - I'd rather publish a rough note or prototype and learn than polish in private for months.
+  - Client work: [[Selling Static Sites]] is the same loop - one pilot site on [[Free Tier Hosting Stack]] before I package tiers and upsells.
   
   - Ship the smallest version that proves someone actually wants this - polish comes after proof.
 examples:
@@ -53,4 +54,5 @@ cards:
     back: "One test batch - let customers speak."
 draft: false
 ---
+
 

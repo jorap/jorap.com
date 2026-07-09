@@ -8,7 +8,14 @@ key_concept: |
   
   - [[Free Grace]] settles where I spend forever.
   
-  - Christlikeness settles who I'm becoming - more of His patience in traffic, more of His gentleness at dinner, less of my default self on display. [[Sanctification]] is the slow process; [[Discipleship]] is the daily walk; [[Abide in Me]] is the engine; [[Fruits of the Spirit]] is what people notice when the walk is real. Romans 8:29 names the aim - to become conformed to the image of His Son. I don't manufacture Christlikeness to earn standing - [[Justification]] already settled that. PKM mirror: [[God Centered Design]] - build the week toward His likeness, not applause.
+  - Christlikeness settles who I'm becoming - more of His patience in traffic, more of His gentleness at dinner, less of my default self on display.
+  - [[Sanctification]] is the slow process
+  - [[Discipleship]] is the daily walk
+  - [[Abide in Me]] is the engine
+  - [[Fruits of the Spirit]] is what people notice when the walk is real.
+  - Romans 8:29 names the aim - to become conformed to the image of His Son.
+  - I don't manufacture Christlikeness to earn standing - [[Justification]] already settled that.
+  - PKM mirror: [[God Centered Design]] - build the week toward His likeness, not applause.
   
   - God keeps reshaping me to look and love more like Jesus.
   
@@ -17,10 +24,10 @@ examples:
   - "I lost my temper at dinner and apologized slower than I used to snap - Christlikeness is slow; standing was settled at faith, and I'm still being reshaped."
   - "I performed kindness at church and was sharp with the cashier an hour later - Christlikeness isn't a badge from one emotional Sunday, it's looking more like Jesus on ordinary Tuesdays."
 shareable_thought:
-  - "God keeps reshaping me to look and love more like Jesus - growth after faith, not the entry fee."
-  - "More of His patience in traffic, more of His gentleness at dinner, less of my default self on display."
-  - "Sanctification is the slow process; Christlikeness is the aim."
-  - "I don't manufacture Christlikeness to earn standing - justification already settled that."
+  - "God keeps reshaping me to look and love more like Jesus."
+  - "Growth after faith, not the entry fee."
+  - "Free Grace settles where I spend forever."
+  - "Christlikeness settles who I'm becoming."
 relationships:
   - type: alternative
     wikilink: "[[There Is No Perfect Solution]]"
@@ -92,4 +99,6 @@ cards:
     back: "Today - grow from faith already received."
 draft: false
 ---
+
+
 

@@ -17,9 +17,9 @@ examples:
   - "I used the same move in a heated parent meeting - slower speech, one clarifying question, no matching their volume."
 shareable_thought:
   - "Composure is steady voice and pace when the room isn't - people read calm as competence."
+  - "Steady tone and pace when the room isn't - people read calm as competence."
   - "One beat before I reply often beats matching their volume."
   - "Composure isn't suppressing the reaction - it's choosing which one gets shown."
-  - "The composure has to be visible - a calm voice with shaking hands under the table still reads as calm to everyone watching."
 relationships:
   - type: contradicts
     wikilink: "[[The 12 Week Year]]"

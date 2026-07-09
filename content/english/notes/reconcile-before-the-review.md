@@ -5,7 +5,8 @@ description: "Reconcile before the review - fix the relationship before OKRs, de
 key_concept: |
   - Process doesn't heal a broken trust link.
   
-  - The person who knows there's a breach moves first - a short call, an owned apology, a specific repair - then we talk OKRs. Same order as [[Reconciliation Before Worship]], minus the religious frame: relationship before ritual performance.
+  - The person who knows there's a breach moves first - a short call, an owned apology, a specific repair - then we talk OKRs.
+  - Same order as [[Reconciliation Before Worship]], minus the religious frame: relationship before ritual performance.
   
   - Reconcile before the review - fix the relationship before OKRs, demos, or reorg meetings.
 examples:
@@ -56,4 +57,5 @@ cards:
     back: "Coffee first - slides second."
 draft: false
 ---
+
 

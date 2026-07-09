@@ -5,7 +5,9 @@ description: "Real change is the same moves on repeat - not one breakthrough wee
 key_concept: |
   - The breakthrough story sells books; Tuesday sells the habit.
   
-  - Change takes repetition means I expect the same levers many times - direction, practice, feedback - before the room feels different. [[Transformation Principles]] is the set; [[Habit Formation]] is how one move sticks; [[Practice Small Experiments]] keeps trials small while reps accumulate. Faith lane: [[Sanctification]] - becoming is slow obedience, not a single altar call.
+  - Change takes repetition means I expect the same levers many times - direction, practice, feedback - before the room feels different.
+  - [[Transformation Principles]] is the set; [[Habit Formation]] is how one move sticks; [[Practice Small Experiments]] keeps trials small while reps accumulate.
+  - Faith lane: [[Sanctification]] - becoming is slow obedience, not a single altar call.
   
   - Real change is the same moves on repeat.
   
@@ -16,8 +18,8 @@ examples:
 shareable_thought:
   - "Real change is the same moves on repeat - not one breakthrough weekend."
   - "The breakthrough story sells books; Tuesday sells the habit."
-  - "Expect the same levers many times before the room feels different."
-  - "Direction, practice, feedback - repeated until the system bends."
+  - "Change takes repetition means I expect the same levers many times."
+  - "Direction, practice, feedback - before the room feels different."
 relationships:
   - type: contradicts
     wikilink: "[[Practice Small Experiments]]"
@@ -70,4 +72,5 @@ cards:
     back: "The system bends on Tuesdays - not on inspiration."
 draft: false
 ---
+
 

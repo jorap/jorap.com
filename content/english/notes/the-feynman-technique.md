@@ -14,10 +14,10 @@ examples:
   - "My kid asked how the fuse box works and I waved vaguely - explaining it simply showed I didn't understand it well enough to fix anything."
   - "The new hire asked why we batch invoices that way and I stumbled mid-sentence."
 shareable_thought:
-  - "I teach the idea out loud to a blank page - wherever I stumble, I don't understand yet."
-  - "Explain it simply to a blank page - the stumble marks the gap."
-  - "A blank page is the honest audience - no jargon to hide behind."
-  - "Teach-it-to-learn-it keeps evergreen notes honest before I link them."
+  - "I teach the idea out loud to a blank page."
+  - "Wherever I stumble, I don't understand yet."
+  - "Explain it simply to a blank page."
+  - "The stumble marks the gap."
 relationships:
   - type: contradicts
     wikilink: "[[Spaced Repetition]]"

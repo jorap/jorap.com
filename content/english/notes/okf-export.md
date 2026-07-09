@@ -16,7 +16,7 @@ key_concept: |
   
   - The OKF bundle is the same garden flattened for agents - markdown paths, required type, no Hugo build.
 shareable_thought:
-  - "The OKF bundle is the same garden flattened for agents - markdown paths, required type, no Hugo build."
+  - "Open Knowledge Format (OKF) bundle."
   - "The same garden, flattened for agents - markdown paths, required type, no Hugo build."
   - "Regenerated on production build and via npm run export:okf."
   - "Authoring stays in Hugo; OKF is the agent-readable pass-off copy."

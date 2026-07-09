@@ -15,9 +15,9 @@ examples:
   - "Parent-teacher night ended with \"we'll email the action plan\" - the recap went out before anyone left the parking lot, names, dates, who owns what."
 shareable_thought:
   - "The meeting isn't done until recap, owners, dates, and verification close the loop."
-  - "A decision without an owner and a date is still just talk - execution is where the loop actually starts."
-  - "Mistakes need correction, not ceremony - fix the process or the miss comes back next week."
-  - "Verification closes the loop - if nobody checks it landed, the cycle never really finished."
+  - "A decision without an owner and a date is still just talk."
+  - "Execution is where the loop actually starts."
+  - "Mistakes need correction, not ceremony."
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Viable Product]]"

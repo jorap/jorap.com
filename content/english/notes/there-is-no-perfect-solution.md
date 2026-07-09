@@ -15,7 +15,7 @@ shareable_thought:
   - "There's no perfect solution - pick what works tired and ship instead of waiting for the ideal."
   - "Waiting for the ideal option is itself a choice."
   - "Usually the choice to stay stuck with the status quo."
-  - "Every real choice has tradeoffs - stop comparing real options to an imaginary perfect one."
+  - "Every real choice has tradeoffs."
 relationships:
   - type: alternative
     wikilink: "[[Accept the Starting Line]]"

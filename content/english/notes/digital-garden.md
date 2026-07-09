@@ -19,7 +19,7 @@ shareable_thought:
   - "My garden is where notes grow in public."
   - "Linked, imperfect, alive on Hugo and Git."
   - "My digital garden is a personal site where notes grow in public."
-  - "Update in public instead of hoarding drafts until they feel ready."
+  - "Public, linked, imperfect notes beat a private hoard."
 relationships:
   - type: alternative
     wikilink: "[[Drafting in Public]]"

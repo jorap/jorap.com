@@ -5,7 +5,9 @@ description: "Sparks belong in fleeting notes; claims I trust belong in evergree
 key_concept: |
   - Two speeds, one promotion rule.
   
-  - Fleeting notes catch sparks I'd lose by Friday; evergreen notes hold claims I'd cite next year. The stake is rot - sparks that never promote clutter the inbox, and forcing everything evergreen buries what was only true this week. [[Note Maturity]] is the path between: capture fast, promote when the idea survives a second read.
+  - Fleeting notes catch sparks I'd lose by Friday; evergreen notes hold claims I'd cite next year.
+  - The stake is rot - sparks that never promote clutter the inbox, and forcing everything evergreen buries what was only true this week.
+  - [[Note Maturity]] is the path between: capture fast, promote when the idea survives a second read.
   
   - Sparks belong in fleeting notes; claims I trust belong in evergreen, with a clear path between them.
   
@@ -15,7 +17,7 @@ examples:
   - "The shift manager's scribble about today's rush stays on the clipboard; the safety rule we'd cite in training next year lives in the binder."
 shareable_thought:
   - "Sparks belong in fleeting notes; claims I trust belong in evergreen, with a clear path between them."
-  - "Fleeting notes and evergreen notes run at two speeds - one promotion rule decides what graduates."
+  - "Two speeds, one promotion rule."
   - "Fleeting notes catch sparks I'd lose by Friday; evergreen notes hold claims I'd cite next year."
   - "Note Maturity is the path between: capture fast, promote when the idea survives a second read."
 relationships:
@@ -46,4 +48,5 @@ cards:
     back: "Promote to evergreen or cut it."
 draft: false
 ---
+
 

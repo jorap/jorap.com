@@ -5,7 +5,9 @@ description: "Restore the last good state before you push - when the new state b
 key_concept: |
   - If I can't explain the path back in one sentence, I'm not ready to ship.
   
-  - [[Reversibility]] is the decision frame; rollback is the rehearsed move. Last quarter I kept a bad Friday deploy live because I wanted the milestone more than the rollback conversation - the team needed "my call, here's the fix," not a speech.
+  - [[Reversibility]] is the decision frame; rollback is the rehearsed move.
+  - Last quarter I kept a bad Friday deploy live because I wanted the milestone more than the rollback conversation.
+  - The team needed "my call, here's the fix," not a speech.
   
   - Restore the last good state before you push.
   
@@ -17,7 +19,7 @@ shareable_thought:
   - "Restore the last good state before you push."
   - "When the new state breaks, revert first, debug second."
   - "If I can't explain the path back in one sentence, I'm not ready to ship."
-  - "Last quarter I kept a bad Friday deploy live because I wanted the milestone more than the rollback conversation."
+  - "Reversibility is the decision frame; rollback is the rehearsed move."
 relationships:
   - type: alternative
     wikilink: "[[Blameless After-Action Review]]"
@@ -79,4 +81,5 @@ cards:
     back: "Run the drill we already walked."
 draft: false
 ---
+
 

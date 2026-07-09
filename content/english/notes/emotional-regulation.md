@@ -5,7 +5,9 @@ description: "I can feel the spike without letting it pick my next sentence."
 key_concept: |
   - Feel the spike. Don't mail it.
   
-  - Regulation isn't numbness - it's the gap between heat and the next sentence. [[Slow the Moment]] buys that gap; [[Name the Feeling]] gives the spike a label before it picks my tone. The stake is simple: one unchecked reply can feed a thread I didn't mean to start.
+  - Regulation isn't numbness - it's the gap between heat and the next sentence.
+  - [[Slow the Moment]] buys that gap; [[Name the Feeling]] gives the spike a label before it picks my tone.
+  - The stake is simple: one unchecked reply can feed a thread I didn't mean to start.
   
   - I can feel the spike without letting it pick my next sentence.
 examples:
@@ -60,4 +62,5 @@ cards:
     back: "Feel the spike, don't steer the team with it"
 draft: false
 ---
+
 

@@ -19,7 +19,7 @@ examples:
   - "The coach drew a beautiful play on the whiteboard - execution started when players were on the field and someone named who cuts where on the first whistle."
 shareable_thought:
   - "A decision earns nothing until finished work lands, not when the slide deck or the intention is done."
-  - "Execution turns a decision into finished work - not slides, intentions, or we'll get to it later."
+  - "Turning a decision into finished work - not slides, not intentions, not \"we'll get to it.\"."
   - "Execution is the gap between deciding and delivered."
   - "Plans earn nothing until work lands."
 relationships:

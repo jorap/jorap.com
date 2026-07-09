@@ -21,7 +21,7 @@ shareable_thought:
   - "One capture pipe I empty every week."
   - "If I don't trust it, I hoard ideas in my head instead."
   - "If I don't trust my inbox, I capture in my head instead."
-  - "If capture lives in my head, the system is decoration - not a [[Building a Second Brain]]."
+  - "An inbox I don't empty becomes a junk drawer I stop using."
 relationships:
   - type: contradicts
     wikilink: "[[Mobile Capture Workflows]]"

@@ -6,7 +6,9 @@ key_concept: |
   {{< bible "Matthew 7:12" >}}
   - Treat people how you want to be treated - active care, not just avoiding harm.
   
-  - The check is experiential - how would I want to be spoken to, helped, forgiven, included? That sets the floor for every interaction. [[Free Grace]] keeps it from becoming a merit system: I treat others well because Christ treated me well first.
+  - The check is experiential - how would I want to be spoken to, helped, forgiven, included?
+  - That sets the floor for every interaction.
+  - [[Free Grace]] keeps it from becoming a merit system: I treat others well because Christ treated me well first.
   
   - I treat people how I'd want to be treated.
   
@@ -18,9 +20,9 @@ examples:
   - "Before I barked at the ref in front of the kids, I asked how I'd want a coach to talk to me after a bad call - the Golden Rule changed the volume."
 shareable_thought:
   - "I treat people how I'd want to be treated."
-  - "The Golden Rule is active care for my neighbor - not just avoiding harm and calling it love."
-  - "In everything, therefore, treat people the same way you want them to treat you, for this is the Law and the Prophets. (Matthew 7:12)."
+  - "Active care, not just avoiding harm."
   - "The check is experiential - how would I want to be spoken to, helped, forgiven, included?"
+  - "That sets the floor for every interaction."
 relationships:
   - type: contradicts
     wikilink: "[[Love Your Enemies]]"
@@ -72,4 +74,5 @@ cards:
     back: "Grace - how I'd want to be corrected."
 draft: false
 ---
+
 

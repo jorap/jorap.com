@@ -6,7 +6,8 @@ key_concept: |
   {{< bible ref="Matthew 28:19-20" emphasize="20" >}}
   - Go, baptize, teach obedience - Christ's authority and presence to the end of the age, not recruitment zeal.
   
-  - Teaching obedience is discipleship after faith - not a works payment for salvation under [[Free Grace]]. PKM parallel: [[Creative Output]] - the gospel isn't fully kept until it's passed on; inventory notes mean nothing if they never leave the garden.
+  - Teaching obedience is discipleship after faith - not a works payment for salvation under [[Free Grace]].
+  - PKM parallel: [[Creative Output]] - the gospel isn't fully kept until it's passed on; inventory notes mean nothing if they never leave the garden.
   
   - Jesus sends believers to go, baptize, and teach obedience under His authority and presence to the end of the age.
   
@@ -16,9 +17,9 @@ examples:
   - "A neighbor asked what we do on Sunday mornings and I almost changed the subject - Jesus said go, baptize, teach, and He's with you while you do it."
 shareable_thought:
   - "Jesus sends believers to go, baptize, and teach obedience under His authority and presence to the end of the age."
-  - "Go therefore and make disciples of all the nations, baptizing them in the name of the Father and the Son and the Holy Spirit, teaching them to observe all that I commanded you; and lo, I am with you always, even to the end of the age. (Matthew 28:19-20)."
   - "Teaching obedience is discipleship after faith - not a works payment for salvation under Free Grace."
-  - "Go, baptize, teach obedience - under Christ's authority, not recruitment zeal."
+  - "Go, baptize, teach obedience."
+  - "Under Christ's authority, not recruitment zeal."
 relationships:
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"
@@ -66,4 +67,5 @@ cards:
     back: "Go make disciples - not hoard in garden."
 draft: false
 ---
+
 

@@ -12,7 +12,13 @@ key_concept: |
   
   - [[Mercy]] received first - then the living sacrifice, then the renewed mind
   
-  - And do not be conformed to this world, but be transformed by the renewing of your mind, so that you may prove what the will of God is, that which is good and acceptable and perfect. Under [[Free Grace]], renewal doesn't earn eternal life; it follows the verdict [[Justification]] already gave. [[Sanctification]] is the slow becoming; mind renewal is the inner engine that keeps choices from running on culture's defaults. [[Abide in Me]] feeds it - His words dwell where I actually read. [[Repent and Believe]] names the turn: change of mind and direction, not a down payment on salvation. PKM mirror: [[Information Diet]] curates feeds; renewed mind goes deeper - Scripture and prayer reshape judgment, not just block noise.
+  - And do not be conformed to this world, but be transformed by the renewing of your mind.
+  - So that you may prove what the will of God is - good, acceptable, and perfect.
+  - Under [[Free Grace]], renewal doesn't earn eternal life; it follows the verdict [[Justification]] already gave.
+  - [[Sanctification]] is the slow becoming; mind renewal is the inner engine that keeps choices from running on culture's defaults.
+  - [[Abide in Me]] feeds it - His words dwell where I actually read.
+  - [[Repent and Believe]] names the turn: change of mind and direction, not a down payment on salvation.
+  - PKM mirror: [[Information Diet]] curates feeds; renewed mind goes deeper - Scripture and prayer reshape judgment, not just block noise.
   
   - Don't copy the world's default thinking.
   
@@ -22,9 +28,9 @@ examples:
   - "The point guard kept forcing hero shots after film study showed the open man - same data, old habit loop; renewal is reps that bend the default, not one inspirational speech."
 shareable_thought:
   - "Don't copy the world's default thinking - let Scripture reshape how I see, choose, and obey."
-  - "Mercy received first - then the living sacrifice, then the renewed mind (Romans 12:1-2)."
-  - "Renewal doesn't earn eternal life; it follows the verdict justification already gave."
-  - "Mind renewal lets me discern God's will - good and acceptable and perfect."
+  - "Mercy first, then sacrifice, then a mind being renewed."
+  - "Paul stacks the order I keep swapping."
+  - "Mercy received first - then the living sacrifice, then the renewed mind."
 relationships:
   - type: alternative
     wikilink: "[[First Principles Thinking]]"
@@ -162,4 +168,5 @@ cards:
     back: "Faith at justification - renewal grows after."
 draft: false
 ---
+
 

@@ -5,7 +5,9 @@ description: "I unblock the team, coach through the mess, take blame up, and pas
 key_concept: |
   - The corporate ladder rewards visibility; this principle runs the other way.
   
-  - Wash feet in the sprint, not only in the all-hands speech. Gospel depth: [[Humility and Service]]. I can explain this in a leadership book club without opening a sermon.
+  - Wash feet in the sprint, not only in the all-hands speech.
+  - Gospel depth: [[Humility and Service]].
+  - I can explain this in a leadership book club without opening a sermon.
   
   - I unblock the team, coach through the mess, take blame up, and pass credit down.
   
@@ -17,7 +19,7 @@ shareable_thought:
   - "I unblock the team, coach through the mess, take blame up, and pass credit down."
   - "The corporate ladder rewards visibility; this principle runs the other way."
   - "Wash feet in the sprint, not only in the all-hands speech."
-  - "Servant leadership has gospel depth in humility and service - greatness is serving, not being served."
+  - "Gospel depth: Humility and Service."
 relationships:
   - type: alternative
     wikilink: "[[Let Your Light Shine]]"
@@ -76,4 +78,5 @@ cards:
     back: "The busser - not me."
 draft: false
 ---
+
 

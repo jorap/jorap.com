@@ -17,7 +17,7 @@ examples:
   - "Try the new play in scrimmage before running it in the championship - reversible rehearsal, higher bar for the irreversible call."
 shareable_thought:
   - "Prefer choices you can undo."
-  - "Reversibility means irreversible harm needs a higher bar before I commit - undo when I can, slow down when I can't."
+  - "Irreversible harm needs a higher bar."
   - "Concrete undo path when the choice is a deploy or release."
   - "Staged Rollout names small blast radius makes undo cheap."
 relationships:

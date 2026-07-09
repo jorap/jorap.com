@@ -12,9 +12,15 @@ key_concept: |
   
   - Paul's fire test - some work burns, you're still saved through fire; worthless work shrinks reward, not standing.
   
-  - The judgment seat (Greek *bema* - think awards podium, not criminal court) decides what reward faithful living earned. [[Eternal Rewards]] names the promise; this note names the evaluation. If any man's work is burned up, he will suffer loss; but he himself will be saved, yet so as through fire
+  - The judgment seat (Greek *bema* - think awards podium, not criminal court) decides what reward faithful living earned.
+  - [[Eternal Rewards]] names the promise; this note names the evaluation.
+  - If any man's work is burned up, he will suffer loss; but he himself will be saved, yet so as through fire
   
-  - Wood, hay, and straw burn; gold, silver, and precious stones last at the fire test. [[Faithful Steward]] is the parable shape: well done for faithful use, not re-buying eternal life. [[Secret Devotion]] and [[Let Your Light Shine]] both show up in the ledger - hidden and public obedience counted by Christ, not the audience. [[Loss of Reward]] keeps the categories straight: saved through fire with loss, not unsaved. PKM mirror: [[Periodic Knowledge Review]] - the whole history gets reviewed, not one heroic week mistaken for the whole career.
+  - Wood, hay, and straw burn; gold, silver, and precious stones last at the fire test.
+  - [[Faithful Steward]] is the parable shape: well done for faithful use, not re-buying eternal life.
+  - [[Secret Devotion]] and [[Let Your Light Shine]] both show up in the ledger - hidden and public obedience counted by Christ, not the audience.
+  - [[Loss of Reward]] keeps the categories straight: saved through fire with loss, not unsaved.
+  - PKM mirror: [[Periodic Knowledge Review]] - the whole history gets reviewed, not one heroic week mistaken for the whole career.
   
   - Believers stand before Christ after salvation to have works evaluated for reward.
   
@@ -26,7 +32,7 @@ shareable_thought:
   - "Believers stand before Christ after salvation to have works evaluated for reward."
   - "Eternal life was already settled by faith."
   - "Free Grace and Justification already decided where I spend forever."
-  - "Secret Devotion and Let Your Light Shine both show up in the ledger."
+  - "Paul's fire test - some work burns, you're still saved through fire; worthless work shrinks reward, not standing."
 relationships:
   - type: alternative
     wikilink: "[[Periodic Knowledge Review]]"
@@ -83,4 +89,5 @@ cards:
     back: "Whole life of faithfulness - not one week."
 draft: false
 ---
+
 

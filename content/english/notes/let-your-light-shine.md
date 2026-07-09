@@ -12,7 +12,9 @@ key_concept: |
   
   - The point isn't performance for applause - Jesus warns against practicing righteousness to be seen by people
   
-  - Good works shine so God gets credit for [[Free Grace]] at work in a saved life, not so I build a personal brand. Parallel in the garden: [[Drafting in Public]] puts rough notes in the open so ideas get tested - same visibility instinct, different aim (glorify God, not the author).
+  - Good works shine so God gets credit for [[Free Grace]] at work in a saved life, not so I build a personal brand.
+  - Parallel in the garden: [[Drafting in Public]] puts rough notes in the open so ideas get tested
+  - same visibility instinct, different aim (glorify God, not the author).
   
   - Good works aren't for hiding - let people see the Father in how I live, not perform for applause.
 examples:
@@ -20,9 +22,9 @@ examples:
   - "I covered a coworker's shift quietly and almost made it a LinkedIn moment - let your light shine so the Father gets credit, not my personal brand."
 shareable_thought:
   - "Good works aren't for hiding - let people see the Father in how I live, not perform for applause."
-  - "Parallel in the garden: Drafting in Public puts rough notes in the open so ideas get tested."
-  - "Same visibility instinct, different aim (glorify God, not the author)."
-  - "You are the light of the world. A city set on a hill cannot be hidden. (Matthew 5:14-16)."
+  - "City on a hill can't hide - let good works shine so people glorify the Father, not my personal brand."
+  - "The point isn't performance for applause - Jesus warns against practicing righteousness to be seen by people."
+  - "Good works shine so God gets credit for Free Grace at work in a saved life, not so I build a personal brand."
 relationships:
   - type: alternative
     wikilink: "[[Drafting in Public]]"
@@ -64,4 +66,8 @@ cards:
     back: "So others glorify God - don't hide."
 draft: false
 ---
+
+
+
+
 

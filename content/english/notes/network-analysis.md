@@ -5,7 +5,8 @@ description: "I look at which notes connect everything else - those hubs tell me
 key_concept: |
   - Study links and hubs in a graph - who connects whom, what's isolated.
   
-  - Bridges and orphans matter more than node count - the graph shows who carries traffic and what's stranded. [[Linking by Meaning]] builds the graph; [[Maps of Content]] wins when a hand hub beats metrics.
+  - Bridges and orphans matter more than node count - the graph shows who carries traffic and what's stranded.
+  - [[Linking by Meaning]] builds the graph; [[Maps of Content]] wins when a hand hub beats metrics.
   
   - I look at which notes connect everything else.
   
@@ -20,8 +21,8 @@ examples:
 shareable_thought:
   - "I look at which notes connect everything else."
   - "Those hubs tell me where the garden actually lives."
-  - "Network analysis means studying links and hubs in the graph - who connects whom, what's isolated."
-  - "Network analysis shows who connects whom in the graph - and which notes sit isolated without links."
+  - "Study links and hubs in a graph."
+  - "Who connects whom, what's isolated."
 relationships:
   - type: contradicts
     wikilink: "[[Maps of Content]]"
@@ -52,4 +53,5 @@ cards:
     back: "That hub note."
 draft: false
 ---
+
 

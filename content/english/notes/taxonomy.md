@@ -5,7 +5,8 @@ description: "Tags, folders, and types are how I find notes later - classificati
 key_concept: |
   - A classification scheme - folders, tags, types - for finding things later.
   
-  - Tags and types only help when the list stays short enough you'd actually pick from it. [[Metadata Strategy]] plans tags; taxonomy is the short list you'd actually use.
+  - Tags and types only help when the list stays short enough you'd actually pick from it.
+  - [[Metadata Strategy]] plans tags; taxonomy is the short list you'd actually use.
   
   - Tags, folders, and types are how I find notes later.
   
@@ -17,7 +18,7 @@ examples:
   - "The filing system had three drawers - everyone knew where the warranty went."
 shareable_thought:
   - "Tags, folders, and types are how I find notes later."
-  - "Taxonomy is classification in service of retrieval - tags should help me find notes, not become a second job."
+  - "Classification in service of retrieval."
   - "A classification scheme - folders, tags, types - for finding things later."
   - "Tags and types only help when the list stays short enough you'd actually pick from it."
 relationships:
@@ -50,4 +51,5 @@ cards:
     back: "Sort taxes, warranty, trash now."
 draft: false
 ---
+
 

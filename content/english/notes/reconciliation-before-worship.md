@@ -6,17 +6,19 @@ key_concept: |
   {{< bible ref="Matthew 5:21-24" emphasize="24" >}}
   - Fix the breach with your brother before the offering - worship with an unreconciled heart is hollow.
   
-  - Worship with an unreconciled heart is hollow. The initiative is on the one who knows there's a breach - leave the altar, go, be reconciled, then return. This is fellowship restored, not salvation re-earned: [[Free Grace]] already settled my standing before God ([[Standing vs Fellowship]]).
+  - Worship with an unreconciled heart is hollow.
+  - The initiative is on the one who knows there's a breach - leave the altar, go, be reconciled, then return.
+  - This is fellowship restored, not salvation re-earned: [[Free Grace]] already settled my standing before God ([[Standing vs Fellowship]]).
   
   - Same discipline as [[Note Relationships]] in the garden: broken links between notes need typed repair - broken links between people need face-to-face repair first.
 examples:
   - "I warmed up ready to compete while my teammate still had something against me from Wednesday - fix it courtside, then play."
   - "I walked into the volunteer shift ready to serve while my co-worker still had something against me - five minutes in the parking lot first."
 shareable_thought:
-  - "first be reconciled to your brother, and then come and present your offering (Matthew 5:23-24)."
   - "The initiative is on the one who knows there's a breach."
   - "Leave the altar, go, be reconciled, then return."
-  - "Same discipline as Note Relationships in the garden: broken links between notes need typed repair."
+  - "Worship with an unreconciled heart is hollow."
+  - "This is fellowship restored, not salvation re-earned: Free Grace already settled my standing before God (Standing vs Fellowship)."
 relationships:
   - type: alternative
     wikilink: "[[Note Relationships]]"
@@ -61,4 +63,5 @@ cards:
     back: "Closeness restored - not re-earning heaven."
 draft: false
 ---
+
 

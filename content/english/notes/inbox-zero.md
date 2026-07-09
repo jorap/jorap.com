@@ -19,9 +19,9 @@ examples:
   - "Sunday night we emptied the kitchen catch-all tray - each slip got a decision so school week didn't start with mystery piles."
 shareable_thought:
   - "I process the inbox to empty each week - decide, don't hoard."
-  - "Each item gets decide, delete, or defer - not another week in the pile."
-  - "Zero isn't vanity - it's proof the capture system still works."
-  - "If I won't empty the inbox, I stop trusting it and hoard in my head instead."
+  - "Process the inbox to empty regularly."
+  - "Each item decided, not hoarded."
+  - "Zero isn't vanity - it's proof the capture system still works when Monday doesn't start with dread."
 relationships:
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"

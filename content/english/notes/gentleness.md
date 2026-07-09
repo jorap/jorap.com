@@ -4,7 +4,10 @@ meta_title: "Gentleness - Strength Under Control the Spirit Grows"
 description: "Gentleness fruit is strength held back on purpose, not weakness or loud correction that skips love."
 key_concept: |
   {{< bible "Matthew 5:5" >}}
-  - [[Fruits of the Spirit]] lists gentleness beside patience and self-control - power restrained, not power absent. (Galatians 5:22). [[Humility and Service]] is the garden echo: greatness is serving, not being served; the Son washed feet the night before the cross. [[Listen Before Fixing]] is gentleness in conversation - hear before you prescribe. [[The Beatitudes]] bless the meek - strength without grasping for status.
+  - [[Fruits of the Spirit]] lists gentleness beside patience and self-control - power restrained, not power absent. (Galatians 5:22).
+  - [[Humility and Service]] is the garden echo: greatness is serving, not being served; the Son washed feet the night before the cross.
+  - [[Listen Before Fixing]] is gentleness in conversation - hear before you prescribe.
+  - [[The Beatitudes]] bless the meek - strength without grasping for status.
   
   - Gentleness fruit is strength held back on purpose, not weakness or loud correction that skips love.
   
@@ -16,8 +19,8 @@ examples:
   - "I helped a neighbor move and waited for credit in the group chat - gentleness fruit serves without grasping for status."
 shareable_thought:
   - "Gentleness fruit is strength held back on purpose, not weakness or loud correction that skips love."
-  - "Gentleness is power restrained, not power absent - Galatians 5:22 names it beside patience."
-  - "Blessed are the gentle, for they shall inherit the earth (Matthew 5:5) - strength without grasping for status."
+  - "Gentleness is power restrained, not power absent."
+  - "Galatians 5:22 names it beside patience."
   - "Hear before you prescribe - loud correction without love isn't Spirit-grown gentleness."
 relationships:
   - type: alternative
@@ -65,4 +68,5 @@ cards:
     back: "Humble - let the Father get credit."
 draft: false
 ---
+
 

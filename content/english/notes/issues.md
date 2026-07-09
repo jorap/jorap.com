@@ -16,10 +16,10 @@ key_concept: |
   
   - Missing extends or contradicts rows in relationships frontmatter are structure bugs to fix.
 shareable_thought:
-  - "Fix the speck in the graph without playing judge over the author."
-  - "Broken wikilinks and unlinked note titles are graph hygiene problems to fix."
-  - "Orphans and dead ends are graph shape problems - same metrics as Graph filters."
-  - "Missing extends or contradicts rows in relationships frontmatter are structure bugs to fix."
+  - "Orphan means no inbound wikilinks (outbound relationships do not count)."
+  - "Dead end means no wikilinks in the note body (See also excluded)."
+  - "Utility wikilink means a tool or meta page linked via wikilink instead of /notes/<slug>/."
+  - "Broken relationship means a relationships: frontmatter target does not resolve."
 slug: "issues"
 date: "2026-06-19 08:00:00+00:00"
 image: "/images/note.jpg"

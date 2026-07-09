@@ -16,7 +16,7 @@ key_concept: |
   
   - Systems for growth are the loops I build on purpose - habits on ordinary Tuesdays, not crisis heroics.
 shareable_thought:
-  - "Systems for growth are the loops I build on purpose - habits on ordinary Tuesdays, not crisis heroics."
+  - "The loops you build on purpose."
   - "Habits, feedback, review, recovery - so skill compounds when motivation doesn't show up."
   - "Pressure Reveals Weakness covers what holds when heat rises; this hub covers what you install on ordinary Tuesdays."
   - "Install the loops on ordinary Tuesdays - not only when results are due."

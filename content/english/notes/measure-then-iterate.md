@@ -5,7 +5,10 @@ description: "I name what to measure, gather signal, then reprioritize - not gue
 key_concept: |
   - Transformation without a number is just enthusiasm with amnesia.
   
-  - Measure then iterate means define what would prove the change worked, watch it for one cycle, then adjust - not defend the rollout because the slide was convincing. [[Failure as Feedback]] reads a miss; [[Continuous Improvement]] tweaks the process; [[Practice Small Experiments]] keeps trials small. Product lane: [[Lean Startup]] - build, measure, learn before you scale.
+  - Measure then iterate means define what would prove the change worked, watch it for one cycle, then adjust.
+  - Not defend the rollout because the slide was convincing.
+  - [[Failure as Feedback]] reads a miss; [[Continuous Improvement]] tweaks the process; [[Practice Small Experiments]] keeps trials small.
+  - Product lane: [[Lean Startup]] - build, measure, learn before you scale.
   
   - I name what to measure, gather signal, then reprioritize.
   
@@ -16,8 +19,8 @@ examples:
 shareable_thought:
   - "I name what to measure, gather signal, then reprioritize - not guess and overhaul."
   - "Transformation without a number is just enthusiasm with amnesia."
-  - "Define what would prove the change worked, watch one cycle, then adjust."
-  - "Don't defend the rollout because the slide was convincing."
+  - "Failure as Feedback reads a miss; Continuous Improvement tweaks the process; Practice Small Experiments keeps trials small."
+  - "Product lane: Lean Startup - build, measure, learn before you scale."
 relationships:
   - type: contradicts
     wikilink: "[[Outcomes Over Pitch Decks]]"
@@ -70,4 +73,6 @@ cards:
     back: "Log fourteen days of actual reviews - then adjust."
 draft: false
 ---
+
+
 

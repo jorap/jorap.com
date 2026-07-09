@@ -5,7 +5,8 @@ description: "Convert pain into learning means failure must produce correction, 
 key_concept: |
   - Failure becomes useful only when it produces correction.
   
-  - Reflect on what happened, pull out the lesson, design a better response, and test it the next time the situation shows up - stewing without change is just suffering.
+  - Reflect on what happened, pull out the lesson, design a better response, and test it the next time the situation shows up.
+  - Stewing without change is just suffering.
   
   - Convert pain into learning means failure must produce correction, not stewing without change.
 examples:
@@ -58,4 +59,5 @@ cards:
     back: "One note on where the sign hides."
 draft: false
 ---
+
 

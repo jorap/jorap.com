@@ -16,8 +16,8 @@ examples:
 shareable_thought:
   - "I can plug into more than one lane when the team or the client needs a shift."
   - "You can contribute in more than one lane when the team or the market shifts."
-  - "Versatility is staying useful across roles, tools, and contexts - not locked to one lane."
   - "Nobody schedules the sick day or the rush."
+  - "Versatility is just having more than one answer ready when they hit."
 relationships:
   - type: contradicts
     wikilink: "[[Pareto Principle]]"

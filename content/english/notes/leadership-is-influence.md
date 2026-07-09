@@ -5,9 +5,15 @@ description: "Leadership is influence - if nobody's following, you're just takin
 key_concept: |
   - The org chart can borrow authority; influence is what people actually grant you - trust built in small deposits, spent when you set direction.
   
-  - [[Leadership]] names what you take on when people look your way: direction, pace, care. This note names the test: are they moving with you? [[Influence Without Title]] is the positive proof - calm voice in the kitchen smoke, neighbor setting blackout pace. [[Title Without Influence]] is the hollow badge - meetings that change nothing.
+  - [[Leadership]] names what you take on when people look your way: direction, pace, care.
+  - This note names the test: are they moving with you?
+  - [[Influence Without Title]] is the positive proof - calm voice in the kitchen smoke, neighbor setting blackout pace.
+  - [[Title Without Influence]] is the hollow badge - meetings that change nothing.
   
-  - [[Servant Leadership]] and [[Humility and Service]] earn influence by unblocking and serving, not by demanding compliance. [[Ethical Leadership]] guards how you spend it - what you tolerate in the open becomes their real standard. [[Discipleship vs Leadership]] keeps the seats straight: influence outward doesn't replace allegiance upward. [[Follow Christ, Then Lead]] when influence pressure asks for a shortcut Christ wouldn't take alone with Scripture open.
+  - [[Servant Leadership]] and [[Humility and Service]] earn influence by unblocking and serving, not by demanding compliance.
+  - [[Ethical Leadership]] guards how you spend it - what you tolerate in the open becomes their real standard.
+  - [[Discipleship vs Leadership]] keeps the seats straight: influence outward doesn't replace allegiance upward.
+  - [[Follow Christ, Then Lead]] when influence pressure asks for a shortcut Christ wouldn't take alone with Scripture open.
   
   - Leadership is influence - if nobody's following, you're just taking a walk.
 examples:
@@ -15,9 +21,9 @@ examples:
   - "My kid's coach had no athletic director badge; after one calm halftime talk the whole bench stopped arguing and ran the play - influence without a title, direction people actually followed."
 shareable_thought:
   - "Leadership is influence - if nobody's following, you're just taking a walk."
-  - "Influence is what people actually grant you - trust built in small deposits, spent when you set direction."
-  - "What you tolerate in the open becomes their real standard."
-  - "Servant Leadership and Humility and Service earn influence by unblocking and serving, not by demanding compliance."
+  - "The org chart can borrow authority; influence is what people actually grant you."
+  - "Trust built in small deposits, spent when you set direction."
+  - "Influence Without Title is the positive proof."
 relationships:
   - type: contradicts
     wikilink: "[[Title Without Influence]]"
@@ -68,4 +74,5 @@ cards:
     back: "Influence - trust deposits people grant you."
 draft: false
 ---
+
 

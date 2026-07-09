@@ -5,7 +5,8 @@ description: "A close call means the system nearly failed, not that we got proof
 key_concept: |
   - When nobody gets injured, organizations often relax.
   
-  - The opposite read is usually right: the system failed, and luck blocked the worst outcome. A rescue, a panic incident, or a loss of control should trigger investigation and redesign before anyone runs the same activity again.
+  - The opposite read is usually right: the system failed, and luck blocked the worst outcome.
+  - A rescue, a panic incident, or a loss of control should trigger investigation and redesign before anyone runs the same activity again.
   
   - A close call means the system nearly failed, not that we got proof the activity was safe because nobody died.
   
@@ -64,4 +65,5 @@ cards:
     back: "Investigate and redesign - don't repeat."
 draft: false
 ---
+
 

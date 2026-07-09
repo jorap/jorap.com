@@ -6,7 +6,10 @@ key_concept: |
   {{< bible ref="Matthew 22:37-40" emphasize="37" >}}
   - First command, whole self - heart, soul, mind, not a corner of Sunday morning.
   
-  - Under [[Free Grace]], this is the first call on a life already saved by faith - love flowing from grace received, not love offered as payment for eternal life.
+  - Whole-person devotion beats a Sunday-only corner.
+  
+  - Under [[Free Grace]], this is the first call on a life already saved by faith
+  - love flowing from grace received, not love offered as payment for eternal life.
   
   - First command, whole self - heart, mind, strength, not a corner of Sunday morning.
 examples:
@@ -14,9 +17,9 @@ examples:
   - "Sunday worship felt high but I hadn't opened my Bible since last week - loving God means more than one hour in a pew."
 shareable_thought:
   - "First command, whole self - heart, mind, strength, not a corner of Sunday morning."
-  - "Jesus named the great and foremost commandment: YOU SHALL LOVE THE LORD YOUR GOD WITH ALL YOUR HEART, AND WITH ALL YOUR SOUL, AND WITH ALL YOUR MIND (Matthew 22:37-38)."
-  - "When a scribe asked which commandment was first, Jesus quoted Deuteronomy 6:5."
-  - "Whole-person devotion, not a corner of the week."
+  - "Whole-person devotion beats a Sunday-only corner."
+  - "Under Free Grace, this is the first call on a life already saved by faith."
+  - "Love flowing from grace received, not love offered as payment for eternal life."
 relationships:
   - type: contradicts
     wikilink: "[[Don't Worry]]"
@@ -58,4 +61,6 @@ cards:
     back: "Pray, read, or serve - one faculty."
 draft: false
 ---
+
+
 

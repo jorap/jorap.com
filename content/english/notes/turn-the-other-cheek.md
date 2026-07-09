@@ -6,7 +6,9 @@ key_concept: |
   {{< bible ref="Matthew 5:38-42" emphasize="39" >}}
   - Don't return evil for evil - break the retaliation loop, not pretend harm didn't happen.
   
-  - The point isn't passivity toward all evil - it's refusing to become what hurt you. Same logic as [[Sunk Cost Fallacy]]: stop throwing more anger after sunk hurt. Goes further than [[The Golden Rule]] (proactive good) and pairs with [[Love Your Enemies]] (heart posture).
+  - The point isn't passivity toward all evil - it's refusing to become what hurt you.
+  - Same logic as [[Sunk Cost Fallacy]]: stop throwing more anger after sunk hurt.
+  - Goes further than [[The Golden Rule]] (proactive good) and pairs with [[Love Your Enemies]] (heart posture).
   
   - [[Free Grace]] frees me to absorb cost without keeping score for heaven.
   
@@ -16,7 +18,7 @@ examples:
   - "Someone snapped at me in the school pickup line and I spent the drive home drafting the comeback - turning the cheek isn't pretending it didn't hurt; it's not mirroring evil."
 shareable_thought:
   - "When someone hits or insults me, I don't hand back the same - I break the retaliation loop."
-  - "Jesus rejected the limit of \"eye for eye\" as a personal ethic for disciples. (Matthew 5:38-39)."
+  - "Don't return evil for evil - break the retaliation loop, not pretend harm didn't happen."
   - "The point isn't passivity toward all evil - it's refusing to become what hurt you."
   - "Free Grace frees me to absorb cost without keeping score for heaven."
 relationships:
@@ -57,4 +59,5 @@ cards:
     back: "Grace freed me - don't score back."
 draft: false
 ---
+
 

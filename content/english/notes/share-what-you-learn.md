@@ -5,7 +5,10 @@ description: "I write the doc, do the pass-off, and answer the junior's question
 key_concept: |
   - Pass on what you figured out - write the doc, do the pass-off, answer the junior's question - don't hoard know-how like private bookmarks.
   
-  - Client sites: the one-page [[Client Site Pass-Off]] doc (repo, branch, DNS, env vars) is [[Share What You Learn]] in practice - not launch-and-vanish. A garden full of notes nobody reads is the same failure mode as a team where only one person holds the map. Gospel source: [[Great Commission]]. PKM parallel: [[Creative Output]] - truth and skill shared, not stockpiled.
+  - Client sites: the one-page [[Client Site Pass-Off]] doc (repo, branch, DNS, env vars) is [[Share What You Learn]] in practice - not launch-and-vanish.
+  - A garden full of notes nobody reads is the same failure mode as a team where only one person holds the map.
+  - Gospel source: [[Great Commission]].
+  - PKM parallel: [[Creative Output]] - truth and skill shared, not stockpiled.
   
   - I write the doc, do the pass-off, and answer the junior's question - hoarding know-how helps nobody.
 examples:
@@ -56,4 +59,5 @@ cards:
     back: "Label the panel - twenty minutes now."
 draft: false
 ---
+
 

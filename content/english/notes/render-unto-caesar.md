@@ -6,7 +6,9 @@ key_concept: |
   {{< bible ref="Matthew 22:15-22" emphasize="21" >}}
   - Pay lawful taxes, reserve worship for God - no revolutionary tax refusal, no idolizing the state.
   
-  - You bear God's image; give yourself to Him. Jesus avoids both revolutionary tax refusal and idolizing Rome. [[Seek the Kingdom First]] still ranks the kingdom above every earthly master, but that doesn't excuse dodging legitimate civic responsibility.
+  - You bear God's image; give yourself to Him.
+  - Jesus avoids both revolutionary tax refusal and idolizing Rome.
+  - [[Seek the Kingdom First]] still ranks the kingdom above every earthly master, but that doesn't excuse dodging legitimate civic responsibility.
   
   - Pay lawful civic obligations - taxes, duties owed the state - while reserving ultimate worship for God alone.
 examples:
@@ -14,7 +16,7 @@ examples:
   - "School activity fees go in the envelope on Monday even when I'd rather spend it on something fun - earthly duty and worship stay distinct."
 shareable_thought:
   - "Pay lawful civic obligations - taxes, duties owed the state - while reserving ultimate worship for God alone."
-  - "Render to Caesar the things that are Caesar's. (Matthew 22:21)."
+  - "Pay lawful taxes, reserve worship for God - no revolutionary tax refusal, no idolizing the state."
   - "You bear God's image; give yourself to Him."
   - "Jesus avoids both revolutionary tax refusal and idolizing Rome."
 relationships:
@@ -49,4 +51,5 @@ cards:
     back: "Kingdom first doesn't excuse lawful duty."
 draft: false
 ---
+
 

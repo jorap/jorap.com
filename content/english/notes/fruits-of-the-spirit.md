@@ -10,11 +10,14 @@ key_concept: |
   
   - Paul lists the cluster - one Spirit, love through self-control, not a merit checklist.
   
-  - Paul contrasts **works of the flesh** (immorality, impurity, sensuality, idolatry, sorcery, enmities, strife, jealousy, outbursts of anger, disputes, dissensions, factions, envying, drunkenness, carousing - Galatians 5:19-21).
+  - Paul contrasts **works of the flesh** - immorality, impurity, idolatry, strife, jealousy, anger, factions, envying, drunkenness (Galatians 5:19-21).
+  - With **fruit of the Spirit** - one vine, one cluster, grown over time.
   
-  - with **fruit of the Spirit** - one vine, one cluster, grown over time.
-  
-  - [[Abide in Me]] names the engine in John: branches bear fruit because they stay in the vine. [[Sanctification]] is the slow becoming that fruit marks. [[Grateful Obedience]] keeps the motive straight: fruit follows [[Grace]] already received, it doesn't pay for eternal life. [[Heart Righteousness]] is the inner standard the Spirit applies - not polished outside, poison inside. [[By Their Fruits]] uses the same word differently: discern teachers by outcome, not charisma - don't collapse the two jobs.
+  - [[Abide in Me]] names the engine in John: branches bear fruit because they stay in the vine.
+  - [[Sanctification]] is the slow becoming that fruit marks.
+  - [[Grateful Obedience]] keeps the motive straight: fruit follows [[Grace]] already received, it doesn't pay for eternal life.
+  - [[Heart Righteousness]] is the inner standard the Spirit applies - not polished outside, poison inside.
+  - [[By Their Fruits]] uses the same word differently: discern teachers by outcome, not charisma - don't collapse the two jobs.
   
   | Fruit | Garden echo |
   |-------|-------------|
@@ -34,9 +37,9 @@ examples:
   - "Performing joy at church while empty at home told me I was manufacturing fruit - abiding first, then the cluster grows."
 shareable_thought:
   - "Love through self-control is one Spirit-grown cluster in believers, not a merit checklist that buys heaven."
-  - "One cluster the Spirit grows."
-  - "the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control (Galatians 5:22-23)."
+  - "Paul lists the cluster - one Spirit, love through self-control, not a merit checklist."
   - "By Their Fruits uses the same word differently: discern teachers by outcome, not charisma."
+  - "Don't collapse the two jobs."
 relationships:
   - type: alternative
     wikilink: "[[By Their Fruits]]"
@@ -153,4 +156,5 @@ cards:
     back: "Abide - fruit grows, not forced."
 draft: false
 ---
+
 

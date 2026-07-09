@@ -3,11 +3,15 @@ title: "Follow Christ, Then Lead"
 meta_title: "Follow Christ, Then Lead - When the Seats Collide"
 description: "When leadership pressure and Christ's command collide, I follow Christ first - then lead from that footing."
 key_concept: |
-  - [[Discipleship vs Leadership]] names two seats - upward allegiance and outward care. This note names the order when they pull different ways: Christ first, then lead from that footing.
+  - [[Discipleship vs Leadership]] names two seats - upward allegiance and outward care.
+  - This note names the order when they pull different ways: Christ first, then lead from that footing.
   
-  - [[God Centered Design]] asks who the plan ultimately serves before I optimize the slide. [[Ethical Leadership]] is what the team can see - but visible integrity without private obedience is sand. [[Follow Christ, Then Lead]] is the move when the room wants a shortcut, a cover-up, or a compromise I'd never take alone with Scripture open.
+  - [[God Centered Design]] asks who the plan ultimately serves before I optimize the slide.
+  - [[Ethical Leadership]] is what the team can see - but visible integrity without private obedience is sand.
+  - [[Follow Christ, Then Lead]] is the move when the room wants a shortcut, a cover-up, or a compromise I'd never take alone with Scripture open.
   
-  - Gospel depth: [[Abide in Me]] - fruit from staying connected, not self-powered grit in the captain's chair. PKM mirror: [[Seek the Kingdom First]] - kingdom before inbox; here, kingdom before org chart.
+  - Gospel depth: [[Abide in Me]] - fruit from staying connected, not self-powered grit in the captain's chair.
+  - PKM mirror: [[Seek the Kingdom First]] - kingdom before inbox; here, kingdom before org chart.
   
   - When leadership pressure and Christ's command collide, I follow Christ first - then lead from that footing.
 examples:
@@ -15,9 +19,9 @@ examples:
   - "Sunday school asked me to skip the hard verse because parents might leave - I taught it plain anyway, then stayed after to answer questions - follow first, lead the room second."
 shareable_thought:
   - "When leadership pressure and Christ's command collide, I follow Christ first - then lead from that footing."
-  - "Christ first, then lead from that footing."
-  - "Visible integrity without private obedience is sand."
-  - "Kingdom before inbox; here, kingdom before org chart."
+  - "Discipleship vs Leadership names two seats."
+  - "Upward allegiance and outward care."
+  - "God Centered Design asks who the plan ultimately serves before I optimize the slide."
 relationships:
   - type: alternative
     wikilink: "[[Outcomes Over Pitch Decks]]"
@@ -71,4 +75,5 @@ cards:
     back: "Kingdom first - lead from that footing."
 draft: false
 ---
+
 

@@ -10,7 +10,11 @@ key_concept: |
   
   - Abiding is ongoing dependence, not a one-time conversion event
   
-  - Pruning hurts but serves fruitfulness. Under [[Free Grace]], fruit doesn't earn the branch's place in the vine - the branch bears fruit because it's connected. [[Fruits of the Spirit]] names the cluster Galatians lists - love through self-control - grown by walking in the Spirit, not sheer willpower. [[Sanctification]] is the slow becoming that abiding produces over time. Self-powered "fruit" without abiding is the dead wood Jesus removes - same trap as [[Compounding]] when I treat spiritual growth as pure self-stacked effort.
+  - Pruning hurts but serves fruitfulness.
+  - Under [[Free Grace]], fruit doesn't earn the branch's place in the vine - the branch bears fruit because it's connected.
+  - [[Fruits of the Spirit]] names the cluster Galatians lists - love through self-control - grown by walking in the Spirit, not sheer willpower.
+  - [[Sanctification]] is the slow becoming that abiding produces over time.
+  - Self-powered "fruit" without abiding is the dead wood Jesus removes - same trap as [[Compounding]] when I treat spiritual growth as pure self-stacked effort.
   
   - I bear fruit when I stay connected to Christ, not when I force it by willpower alone.
 examples:
@@ -18,9 +22,9 @@ examples:
   - "I checked email three times before I prayed this morning and wondered why God felt far away - staying connected is the daily choice, not the badge from conversion day."
 shareable_thought:
   - "I bear fruit when I stay connected to Christ, not when I force it by willpower alone."
+  - "Abiding is ongoing dependence - pruning hurts but serves fruitfulness over time."
+  - "Abiding is ongoing dependence, not a one-time conversion event."
   - "Fruits of the Spirit names the cluster Galatians lists."
-  - "Love through self-control - grown by walking in the Spirit, not sheer willpower."
-  - "Self-powered \"fruit\" without abiding is the dead wood Jesus removes."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"
@@ -71,4 +75,5 @@ cards:
     back: "His words - read Scripture."
 draft: false
 ---
+
 

@@ -8,7 +8,9 @@ key_concept: |
   
   - Repentance is a change of mind and direction - not a down payment on salvation.
   
-  - Belief is reliance on Christ's promise, not mere intellectual agreement. Under [[Free Grace]], this pair is how life begins: receive the kingdom as gift, then live under the King's rule in response. [[There Is No Perfect Solution]] - the kingdom is at hand now, not when you've fixed yourself.
+  - Belief is reliance on Christ's promise, not mere intellectual agreement.
+  - Under [[Free Grace]], this pair is how life begins: receive the kingdom as gift, then live under the King's rule in response.
+  - [[There Is No Perfect Solution]] - the kingdom is at hand now, not when you've fixed yourself.
   
   - Jesus' opening command: turn from self-rule and trust the good news that the kingdom is at hand.
 examples:
@@ -54,4 +56,5 @@ cards:
     back: "Enter by faith today."
 draft: false
 ---
+
 

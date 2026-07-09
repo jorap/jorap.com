@@ -5,7 +5,9 @@ description: "I accept where I actually start - then pick targets that match, no
 key_concept: |
   - Acceptance isn't quitting - it's refusing to plan for a person who doesn't exist yet.
   
-  - Accept the starting line means I name real limits this quarter - time, skill, bandwidth - before I promise the room a transformation. [[Honest Self-Awareness]] is the inventory; this note is the move: pick targets from the real line, not the inspirational poster. Faith parallel: [[Grace]] already settled standing - sanctification grows from where I am, not from pretending I arrived.
+  - Accept the starting line means I name real limits this quarter - time, skill, bandwidth - before I promise the room a transformation.
+  - [[Honest Self-Awareness]] is the inventory; this note is the move: pick targets from the real line, not the inspirational poster.
+  - Faith parallel: [[Grace]] already settled standing - sanctification grows from where I am, not from pretending I arrived.
   
   - I accept where I actually start.
   
@@ -16,8 +18,8 @@ examples:
 shareable_thought:
   - "I accept where I actually start - then pick targets that match, not fantasy."
   - "Acceptance isn't quitting - it's refusing to plan for a person who doesn't exist yet."
-  - "Name real limits this quarter before you promise the room a transformation."
-  - "Pick targets from the real line, not the inspirational poster."
+  - "Accept the starting line means I name real limits this quarter."
+  - "Time, skill, bandwidth - before I promise the room a transformation."
 relationships:
   - type: alternative
     wikilink: "[[There Is No Perfect Solution]]"
@@ -67,4 +69,5 @@ cards:
     back: "Refuse to plan for a person who doesn't exist yet."
 draft: false
 ---
+
 

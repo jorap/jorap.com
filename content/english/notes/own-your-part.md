@@ -5,7 +5,10 @@ description: "I change my slice of the problem - not wait for a hand-down fix fr
 key_concept: |
   - Waiting for headquarters to fix your lane is how stale processes survive years.
   
-  - Own your part means I take charge of what I can move - my habit, my pass-off, my corner of the workflow - instead of filing complaints until someone else acts. [[Accountability]] names who answers for the outcome; [[Own the Error]] names the miss after it lands. This note is the proactive lane: start the fix before permission arrives.
+  - Own your part means I take charge of what I can move - my habit, my pass-off, my corner of the workflow.
+  - Not filing complaints until someone else acts.
+  - [[Accountability]] names who answers for the outcome; [[Own the Error]] names the miss after it lands.
+  - This note is the proactive lane: start the fix before permission arrives.
   
   - I change my slice of the problem.
   
@@ -16,8 +19,8 @@ examples:
 shareable_thought:
   - "I change my slice of the problem - not wait for a hand-down fix from upstairs."
   - "Waiting for headquarters to fix your lane is how stale processes survive years."
-  - "Start the fix before permission arrives."
-  - "My habit, my pass-off, my corner of the workflow - that's the slice I own."
+  - "Own your part means I take charge of what I can move."
+  - "My habit, my pass-off, my corner of the workflow."
 relationships:
   - type: contradicts
     wikilink: "[[Accountability]]"
@@ -58,4 +61,6 @@ cards:
     back: "Change my pass-off - don't wait for headquarters."
 draft: false
 ---
+
+
 

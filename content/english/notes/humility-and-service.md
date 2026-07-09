@@ -6,7 +6,9 @@ key_concept: |
   {{< bible ref="Mark 10:42-45" emphasize="45" >}}
   - Came to serve and give His life - greatness in the kingdom runs opposite the world's ladder.
   
-  - Status in the kingdom runs opposite to the world's ladder: exalt yourself and you'll be humbled; humble yourself and you'll be exalted. Service is the path to kingdom reward and greatness before God - not the price of [[Free Grace]]. [[Faithful Steward]] is the parable shape: well done for faithful use of what He entrusted.
+  - Status in the kingdom runs opposite to the world's ladder: exalt yourself and you'll be humbled; humble yourself and you'll be exalted.
+  - Service is the path to kingdom reward and greatness before God - not the price of [[Free Grace]].
+  - [[Faithful Steward]] is the parable shape: well done for faithful use of what He entrusted.
   
   - Jesus taught greatness through service.
   
@@ -15,10 +17,10 @@ examples:
   - "I helped a neighbor move and waited for credit in the group chat - greatness is serving, not being served."
   - "I organized snacks for my kid's basketball team on Sunday and came home expecting my family to serve me back - wash feet here too, not only where people can see you."
 shareable_thought:
-  - "Jesus taught greatness through service - the Son washed feet the night before the cross."
-  - "For even the Son of Man did not come to be served, but to serve, and to give His life a ransom for many (Mark 10:45)."
-  - "For even the Son of Man did not come to be served, but to serve, and to give His life a ransom for many. (Mark 10:45)."
+  - "Jesus taught greatness through service."
+  - "The Son of Man came to serve, not be served."
   - "Service is the path to kingdom reward and greatness before God - not the price of Free Grace."
+  - "Faithful Steward is the parable shape: well done for faithful use of what He entrusted."
 relationships:
   - type: contradicts
     wikilink: "[[Let Your Light Shine]]"
@@ -72,4 +74,5 @@ cards:
     back: "Servant of all - not title grabbed."
 draft: false
 ---
+
 

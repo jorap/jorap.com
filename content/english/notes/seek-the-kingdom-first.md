@@ -10,7 +10,9 @@ key_concept: |
   
   - The Sermon on the Mount ties this to not serving two masters (God and wealth).
   
-  - and to storing [[Treasure in Heaven]]. Kingdom isn't escape from earth - it's God's reign ordering my priorities today. Same job as [[Signal vs Noise]] in the PKM stack: what gets first place when everything feels urgent.
+  - and to storing [[Treasure in Heaven]].
+  - Kingdom isn't escape from earth - it's God's reign ordering my priorities today.
+  - Same job as [[Signal vs Noise]] in the PKM stack: what gets first place when everything feels urgent.
   
   - I put God's rule first and let food, status, and tomorrow's worry sort behind that.
 examples:
@@ -18,9 +20,9 @@ examples:
   - "Anxiety had me scrolling finances before I prayed - kingdom first meant pray, then act on the bills."
 shareable_thought:
   - "I put God's rule first and let food, status, and tomorrow's worry sort behind that."
-  - "seek first His kingdom and His righteousness, and all these things will be added to you (Matthew 6:33) - the test is what actually gets my first ten minutes of the day."
-  - "The Sermon on the Mount ties this to not serving two masters (God and wealth) and to storing Treasure in Heaven."
+  - "The Sermon on the Mount ties this to not serving two masters (God and wealth)."
   - "Kingdom isn't escape from earth - it's God's reign ordering my priorities today."
+  - "Same job as Signal vs Noise in the PKM stack: what gets first place when everything feels urgent."
 relationships:
   - type: contradicts
     wikilink: "[[Signal vs Noise]]"
@@ -75,4 +77,5 @@ cards:
     back: "Pray first - then act on the numbers."
 draft: false
 ---
+
 

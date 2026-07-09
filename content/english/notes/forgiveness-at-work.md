@@ -6,7 +6,9 @@ key_concept: |
   {{< bible ref="Matthew 18:21-35" emphasize="35" >}}
   - Forgiving isn't pretending it didn't hurt.
   
-  - Seventy times seven ends the ledger-keeping - stop collecting forever on a debt that poisons my work. Gospel depth: [[Forgiveness]]. Same math as [[Sunk Cost Fallacy]] - stop treating old hurt as an asset I'm owed.
+  - Seventy times seven ends the ledger-keeping - stop collecting forever on a debt that poisons my work.
+  - Gospel depth: [[Forgiveness]].
+  - Same math as [[Sunk Cost Fallacy]] - stop treating old hurt as an asset I'm owed.
   
   - I release a colleague's debt from my heart without pretending the slight didn't matter or skipping boundaries where trust broke.
 examples:
@@ -15,8 +17,8 @@ examples:
 shareable_thought:
   - "I release a colleague's debt from my heart without pretending the slight didn't matter or skipping boundaries where trust broke."
   - "Forgiving isn't pretending it didn't hurt."
-  - "It's refusing to collect forever on a debt that poisons my work."
-  - "Seventy times seven ends the ledger-keeping (Matthew 18:21-35)."
+  - "Seventy times seven ends the ledger-keeping."
+  - "Stop collecting forever on a debt that poisons my work."
 relationships:
   - type: contradicts
     wikilink: "[[Sunk Cost Fallacy]]"
@@ -48,4 +50,5 @@ cards:
     back: "It happened - I'm not replaying it forever."
 draft: false
 ---
+
 

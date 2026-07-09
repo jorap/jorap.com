@@ -18,8 +18,8 @@ examples:
 shareable_thought:
   - "Mental models are thinking shortcuts I keep when they survive real decisions."
   - "Mainstream mental models for decisions and performance."
-  - "Retire the model when real decisions prove it wrong."
-  - "I note the mental models that earn repeat use in real decisions - retire the rest."
+  - "Note the ones that earn repeat use."
+  - "A model nobody reaches for is the same problem as a junk-drawer bookmark."
 relationships:
   - type: alternative
     wikilink: "[[Renewed Mind]]"

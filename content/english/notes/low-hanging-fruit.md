@@ -5,7 +5,9 @@ description: "The easy win I can grab now - do it before I climb for the hard st
 key_concept: |
   - Not every task deserves hero energy.
   
-  - Fix the broken link, publish the half-done draft, delete the folder I haven't opened in a year. Small, obvious, done today. I use it when I'm avoiding work by planning harder work.
+  - Fix the broken link, publish the half-done draft, delete the folder I haven't opened in a year.
+  - Small, obvious, done today.
+  - I use it when I'm avoiding work by planning harder work.
   
   - The easy win I can grab now.
   
@@ -46,4 +48,5 @@ cards:
     back: "Mail the package."
 draft: false
 ---
+
 

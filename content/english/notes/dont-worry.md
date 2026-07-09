@@ -6,7 +6,10 @@ key_concept: |
   {{< bible ref="Matthew 6:25-34" emphasize="33" >}}
   - Worry can't add an hour to your life - trust the Father who already feeds birds before you stack anxiety on tomorrow.
   
-  - The antidote isn't denial - it's priority: [[Seek the Kingdom First]], and let tomorrow carry its own trouble. Trust is active dependence on a Father who already gave eternal life by [[Free Grace]] - [[Assurance]] rests on that promise, not anxiety about earning His care. Overlap with [[Slow Productivity]]: fewer frantic masters, deeper attention on what actually matters.
+  - The antidote isn't denial - it's priority: [[Seek the Kingdom First]], and let tomorrow carry its own trouble.
+  - Trust is active dependence on a Father who already gave eternal life by [[Free Grace]]
+  - [[Assurance]] rests on that promise, not anxiety about earning His care.
+  - Overlap with [[Slow Productivity]]: fewer frantic masters, deeper attention on what actually matters.
   
   - Jesus told me not to stack worry on food, clothes, or tomorrow.
   
@@ -18,7 +21,7 @@ examples:
   - "My kid asked what if the school fee goes up next year and I started spiraling at bedtime - trust is active dependence on a Father who already gave what I can't earn."
 shareable_thought:
   - "Jesus told me not to stack worry on food, clothes, or tomorrow."
-  - "The Father already feeds birds - worry about tomorrow argues with someone who runs the weather."
+  - "The Father already feeds birds."
   - "Trust is active dependence on a Father who already gave eternal life by Free Grace."
   - "Assurance rests on that promise, not anxiety about earning His care."
 relationships:
@@ -68,4 +71,6 @@ cards:
     back: "One Master - drop anxious serving of tomorrow."
 draft: false
 ---
+
+
 

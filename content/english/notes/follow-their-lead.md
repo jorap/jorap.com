@@ -18,8 +18,8 @@ examples:
 shareable_thought:
   - "I join their world - their topic, pace, starting point - before I try to steer."
   - "I join their world before I redirect it - their activity, topic, pace, starting point."
+  - "Skip their starting point and you're fixing a problem they weren't naming."
   - "Connection first, critique second - run their play once before you offer yours."
-  - "The redirect lands better once they know you actually understood their version first."
 relationships:
   - type: contradicts
     wikilink: "[[Safety Comes First]]"

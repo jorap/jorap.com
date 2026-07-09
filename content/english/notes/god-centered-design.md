@@ -8,7 +8,11 @@ key_concept: |
   
   - A calendar built for applause still feels empty on Monday.
   
-  - God-centered design asks who the plan ultimately serves before I optimize the slide, the program, or the side project. [[Seek the Kingdom First]] is the priority filter; [[Love Your Neighbor]] keeps it from becoming selfish spirituality - people still matter, but God's reign sets the aim. PKM mirror: [[People-Centered Design]] serves real human needs; this note orders what I'm building and why. [[Success is Stewardship]] - the platform was borrowed, not mine to brand.
+  - God-centered design asks who the plan ultimately serves before I optimize the slide, the program, or the side project.
+  - [[Seek the Kingdom First]] is the priority filter.
+  - [[Love Your Neighbor]] keeps it from becoming selfish spirituality - people still matter, but God's reign sets the aim.
+  - PKM mirror: [[People-Centered Design]] serves real human needs; this note orders what I'm building and why.
+  - [[Success is Stewardship]] - the platform was borrowed, not mine to brand.
   
   - I design life and work around God's glory first.
   
@@ -19,7 +23,7 @@ examples:
 shareable_thought:
   - "I design life and work around God's glory first - not crowd applause, ego, or my comfort."
   - "A calendar built for applause still feels empty on Monday."
-  - "Who the plan ultimately serves - before I optimize the slide, the program, or the side project."
+  - "Love Your Neighbor keeps it from becoming selfish spirituality."
   - "People still matter, but God's reign sets the aim."
 relationships:
   - type: alternative
@@ -86,4 +90,6 @@ cards:
     back: "Design the week around God's glory - then sort the rest."
 draft: false
 ---
+
+
 

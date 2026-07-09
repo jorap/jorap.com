@@ -5,7 +5,9 @@ description: "I drop the bad tool or project when it stops earning its place - p
 key_concept: |
   - Past effort is gone.
   
-  - I ask: if I found this today, would I start it? [[Forgiveness]] runs the same play on relational debt. [[Turn the Other Cheek]] adds the move: stop throwing more anger after sunk hurt.
+  - I ask: if I found this today, would I start it?
+  - [[Forgiveness]] runs the same play on relational debt.
+  - [[Turn the Other Cheek]] adds the move: stop throwing more anger after sunk hurt.
   
   - I drop the bad tool or project when it stops earning its place.
   
@@ -55,4 +57,5 @@ cards:
     back: "Stop - don't finish because we started."
 draft: false
 ---
+
 

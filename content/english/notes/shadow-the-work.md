@@ -5,7 +5,9 @@ description: "I watch one person do the real job before I redraw the process or 
 key_concept: |
   - Flowcharts lie politely - shadowing doesn't.
   
-  - Shadow the work means sit with one nurse, one cashier, one new hire while they finish the task - then cut what actually slows them. [[People-Centered Design]] is the principle; this is the move. [[Listen Before Fixing]] hears the complaint; shadowing sees the friction they stopped mentioning because it's "just how it is."
+  - Shadow the work means sit with one nurse, one cashier, one new hire while they finish the task - then cut what actually slows them.
+  - [[People-Centered Design]] is the principle; this is the move.
+  - [[Listen Before Fixing]] hears the complaint; shadowing sees the friction they stopped mentioning because it's "just how it is."
   
   - I watch one person do the real job.
   
@@ -16,8 +18,8 @@ examples:
 shareable_thought:
   - "I watch one person do the real job before I redraw the process or the slide."
   - "Flowcharts lie politely - shadowing doesn't."
-  - "Sit with one nurse, one cashier, one new hire while they finish the task."
-  - "Cut what actually slows them - not what the slide assumes."
+  - "People-Centered Design is the principle; this is the move."
+  - "Listen Before Fixing hears the complaint; shadowing sees the friction they stopped mentioning because it's \"just how it is.\"."
 relationships:
   - type: contradicts
     wikilink: "[[Outcomes Over Pitch Decks]]"
@@ -58,4 +60,5 @@ cards:
     back: "Watch the work - flowcharts lie politely."
 draft: false
 ---
+
 

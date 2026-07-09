@@ -15,9 +15,9 @@ examples:
   - "Grandma's recipe cards live in the kitchen drawer - not an app that might vanish."
 shareable_thought:
   - "Local-first means my device holds the truth; sync is optional icing."
-  - "Backup should behave the same way as local-first storage - it shouldn't need the cloud to prove your data exists."
+  - "Backup should behave the same way."
   - "Local-first means your device holds the truth; choose what's public, what's private, and what gets encrypted."
-  - "Sync should merge edits without picking last-write-wins by clock alone."
+  - "It shouldn't need the cloud to prove your data exists."
 relationships:
   - type: alternative
     wikilink: "[[Building a Personal API]]"

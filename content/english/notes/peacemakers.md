@@ -6,7 +6,8 @@ key_concept: |
   {{< bible "Matthew 5:9" >}}
   - [[The Beatitudes]] beatitude for peacemakers - active repair, not just staying quiet while two friends feud.
   
-  - Peacemaking is work: reconciliation, truth spoken in love, de-escalation when others want a fight. The blessing ties peacemaking to family resemblance - acting like the Father who reconciled me to Himself through [[Free Grace]] before I reconciled with anyone.
+  - Peacemaking is work: reconciliation, truth spoken in love, de-escalation when others want a fight.
+  - The blessing ties peacemaking to family resemblance - acting like the Father who reconciled me to Himself through [[Free Grace]] before I reconciled with anyone.
   
   - I pursue peace on purpose.
   
@@ -17,7 +18,7 @@ examples:
   - "Two teammates were feuding in the locker room - I didn't pick a side, I asked what it would take to fix it before the next game."
   - "Two coworkers wanted me to pick a side over lunch - I called the one I wronged first and asked what it would take to actually fix things."
 shareable_thought:
-  - "Peacemakers pursue peace on purpose - they don't just avoid conflict and call it fine."
+  - "I pursue peace on purpose."
   - "Repair, truth in love, de-escalation - not just staying quiet."
   - "The blessing ties peacemaking to family resemblance."
   - "Acting like the Father who reconciled me to Himself through Free Grace before I reconciled with anyone."
@@ -74,4 +75,5 @@ cards:
     back: "Peace is work - truth plus making peace."
 draft: false
 ---
+
 

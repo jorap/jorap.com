@@ -5,7 +5,9 @@ description: "Put the real priority first before email, Slack, and everyone else
 key_concept: |
   - The inbox is other people's priorities wearing a siren.
   
-  - One block on the actual deliverable - spec, hard conversation, [[Deep Work]] - before I answer pings. Gospel source: [[Seek the Kingdom First]]. PKM parallel: [[Signal vs Noise]].
+  - One block on the actual deliverable - spec, hard conversation, [[Deep Work]] - before I answer pings.
+  - Gospel source: [[Seek the Kingdom First]].
+  - PKM parallel: [[Signal vs Noise]].
   
   - Put the real priority first before email, Slack, and everyone else's urgency rewrite my morning.
   
@@ -16,7 +18,7 @@ examples:
 shareable_thought:
   - "Put the real priority first before email, Slack, and everyone else's urgency rewrite my morning."
   - "The inbox is other people's priorities wearing a siren."
-  - "Priorities before the inbox means one protected block on the actual deliverable - email can wait its turn."
+  - "One block on the actual deliverable."
   - "Spec, hard conversation, Deep Work - before I answer pings."
 relationships:
   - type: contradicts
@@ -58,4 +60,5 @@ cards:
     back: "Book the slot before I scroll drama."
 draft: false
 ---
+
 

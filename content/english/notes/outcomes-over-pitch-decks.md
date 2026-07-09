@@ -5,7 +5,13 @@ description: "Judge vendors, frameworks, and internal champions by what they pro
 key_concept: |
   - Smooth talkers ship thorns sometimes.
   
-  - I look at downstream stress, turnover, delivery, and whether the team got healthier or more brittle. On [[Static Site Client Scope]], same filter: pick WordPress or Shopify when the fruit requires it - don't sell [[Free Tier Hosting Stack]] because it's my favorite hammer. Don't condemn souls; do read the fruit. Gospel source: [[By Their Fruits]]. PKM parallel: [[Signal vs Noise]].
+  - I look at downstream stress, turnover, delivery, and whether the team got healthier or more brittle.
+  - On
+  - [[Static Site Client Scope]], same filter: pick WordPress or Shopify when the fruit requires it don't sell
+  - [[Free Tier Hosting Stack]] because it's my favorite hammer.
+  - Don't condemn souls; do read the fruit.
+  - Gospel source: [[By Their Fruits]].
+  - PKM parallel: [[Signal vs Noise]].
   
   - Don't condemn souls; do read the fruit over time.
   
@@ -16,8 +22,8 @@ examples:
 shareable_thought:
   - "Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura."
   - "Smooth talkers ship thorns sometimes."
-  - "On Static Site Client Scope, same filter: pick WordPress or Shopify when the fruit requires it."
-  - "Don't sell Free Tier Hosting Stack because it's my favorite hammer."
+  - "I look at downstream stress, turnover, delivery, and whether the team got healthier or more brittle."
+  - "Don't condemn souls; do read the fruit."
 relationships:
   - type: contradicts
     wikilink: "[[Life Before Achievement]]"
@@ -55,4 +61,7 @@ cards:
     back: "Ask my neighbor his real bill."
 draft: false
 ---
+
+
+
 

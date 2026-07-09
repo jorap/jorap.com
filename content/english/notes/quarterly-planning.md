@@ -19,9 +19,9 @@ examples:
   - "The clinic's ninety-day huddle moved one backlog project to done instead of adding a fourth starter."
 shareable_thought:
   - "Set goals and review on a thirteen-week rhythm."
-  - "Quarterly planning works in thirteen-week arcs - short enough to feel real on the calendar."
+  - "Short enough to feel real."
   - "Zoom out every ninety days so weekly noise doesn't eat the year's aim."
-  - "Long enough to actually finish something, short enough that slipping is still visible before it's too late."
+  - "A year-long goal hides slippage for months; thirteen weeks can't."
 relationships:
   - type: contradicts
     wikilink: "[[Slow Productivity]]"

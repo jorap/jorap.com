@@ -5,7 +5,8 @@ description: "Launch day excitement doesn't count - I judge success by whether t
 key_concept: |
   - Starting well proves you can begin; finishing well proves you can keep going when it's boring, hard, or no longer exciting.
   
-  - A project, conversation, competition, or responsibility isn't successful until the last commitment is done - not when the launch post goes up or the first lap feels fast.
+  - A project, conversation, competition, or responsibility isn't successful until the last commitment is done.
+  - Not when the launch post goes up or the first lap feels fast.
   
   - Launch day excitement doesn't count - I judge success by whether the last commitment actually got done.
   
@@ -68,4 +69,5 @@ cards:
     back: "Finishing well proves you can close what you open"
 draft: false
 ---
+
 

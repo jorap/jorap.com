@@ -19,7 +19,7 @@ examples:
   - "Friday night is capture everything in one jar; Sunday is sort, toss, and file what's worth keeping."
 shareable_thought:
   - "Capture to inbox, organize by project, distill on reuse, express weekly."
-  - "The second-brain workflow runs CODE and PARA in one loop - capture daily, express weekly."
+  - "CODE and PARA in one loop."
   - "CODE and PARA in one daily-to-weekly loop - capture daily, express weekly."
   - "Organize by project, distill when you reuse."
 relationships:

@@ -5,7 +5,8 @@ description: "I ship to a small slice first so rollback stays cheap if the new s
 key_concept: |
   - Full-blast deploy turns every user into a test subject.
   
-  - Staged rollout - preview branch, one table section, scrimmage Tuesday - keeps [[Reversibility]] real. [[Safety by Design]] at release time: harm hits fewer people before you commit the whole lane.
+  - Staged rollout - preview branch, one table section, scrimmage Tuesday - keeps [[Reversibility]] real.
+  - [[Safety by Design]] at release time: harm hits fewer people before you commit the whole lane.
   
   - I ship to a small slice first so rollback stays cheap if the new state bleeds.
 examples:
@@ -62,4 +63,5 @@ cards:
     back: "Old batch until first table clears"
 draft: false
 ---
+
 

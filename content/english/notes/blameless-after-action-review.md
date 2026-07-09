@@ -5,7 +5,8 @@ description: "After rollback restores service, I learn what broke in the system 
 key_concept: |
   - [[Rollback Principle]] gets users back on the old build; blameless after-action review gets judgment back.
   
-  - Same shape as [[Incident Investigation]] - trace system causes - but the culture rule is no scalpel hunts for a fall guy. [[Own the Error]] still means someone says "my call" in standup; the room fixes the runbook, not the person.
+  - Same shape as [[Incident Investigation]] - trace system causes - but the culture rule is no scalpel hunts for a fall guy.
+  - [[Own the Error]] still means someone says "my call" in standup; the room fixes the runbook, not the person.
   
   - After rollback restores service, I learn what broke in the system - not who to punish for pushing deploy.
   
@@ -64,4 +65,5 @@ cards:
     back: "Blameless after-action review before the third time"
 draft: false
 ---
+
 

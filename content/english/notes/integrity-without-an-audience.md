@@ -5,7 +5,9 @@ description: "Do the honest work when there's no audience - accurate time logs, 
 key_concept: |
   - Performance for the standup is its own reward and a small one.
   
-  - Some good work should stay hidden; some should shine in [[Let Your Light Shine]]. This note is the hidden lane: quality when the manager isn't looking. Gospel source: [[Secret Devotion]].
+  - Some good work should stay hidden; some should shine in [[Let Your Light Shine]].
+  - This note is the hidden lane: quality when the manager isn't looking.
+  - Gospel source: [[Secret Devotion]].
   
   - Do the honest work when there's no audience.
   
@@ -58,4 +60,5 @@ cards:
     back: "Close it correctly - manager isn't the test."
 draft: false
 ---
+
 

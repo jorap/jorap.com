@@ -5,7 +5,9 @@ description: "That sounds frustrating lands before my fix plan - I name the emot
 key_concept: |
   - "That sounds frustrating" before "here's what to do."
   
-  - Naming the emotion lowers defensiveness so the fix can land. [[Listen Before Fixing]] comes first - hear it, label it, then steer. Skip the label and I'm guessing at the problem while they're still proving I didn't get it.
+  - Naming the emotion lowers defensiveness so the fix can land.
+  - [[Listen Before Fixing]] comes first - hear it, label it, then steer.
+  - Skip the label and I'm guessing at the problem while they're still proving I didn't get it.
   
   - That sounds frustrating lands before my fix plan.
   
@@ -18,7 +20,7 @@ examples:
 shareable_thought:
   - "That sounds frustrating lands before my fix plan."
   - "I name the emotion so we're not guessing."
-  - "I say that sounds frustrating before I hand them a fix plan."
+  - "\"That sounds frustrating\" before \"here's what to do.\"."
   - "Naming the emotion lowers defensiveness so the fix can land."
 relationships:
   - type: contradicts
@@ -49,4 +51,5 @@ cards:
     back: "Less defensiveness"
 draft: false
 ---
+
 

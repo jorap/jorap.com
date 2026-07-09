@@ -3,7 +3,9 @@ title: "Kindness"
 meta_title: "Kindness - Tender Regard the Spirit Grows"
 description: "Tender regard the Spirit grows for the person in front of you - not polite distance or performance niceness."
 key_concept: |
-  - [[Fruits of the Spirit]] names kindness beside goodness - soft strength toward actual people, not a generic nice-guy pose. (Galatians 5:22). [[Mercy]] is the garden echo: compassion on the guilty, act for the hurt person, release the debt you're counting because the King cleared yours. [[Love Your Neighbor]] and [[The Golden Rule]] turn kindness outward - tender regard for the person in front, not performance niceness for an audience.
+  - [[Fruits of the Spirit]] names kindness beside goodness - soft strength toward actual people, not a generic nice-guy pose. (Galatians 5:22).
+  - [[Mercy]] is the garden echo: compassion on the guilty, act for the hurt person, release the debt you're counting because the King cleared yours.
+  - [[Love Your Neighbor]] and [[The Golden Rule]] turn kindness outward - tender regard for the person in front, not performance niceness for an audience.
   
   - Tender regard the Spirit grows for the person in front of you - not polite distance or performance niceness.
 examples:
@@ -57,4 +59,5 @@ cards:
     back: "Mercy first - person in front."
 draft: false
 ---
+
 

@@ -6,7 +6,9 @@ key_concept: |
   {{< bible ref="Matthew 5:33-37" emphasize="37" >}}
   - Yes means yes - padded oaths mean your word wasn't trustworthy on its own.
   
-  - anything beyond these is of evil - meaning manipulation, not that all contracts are sin. PKM parallel: [[Atomic Notes]] - one plain claim per page, no padded prose to sound smart. [[Integrity]] of speech is [[Heart Righteousness]], not performance for [[Let Your Light Shine]].
+  - anything beyond these is of evil - meaning manipulation, not that all contracts are sin.
+  - PKM parallel: [[Atomic Notes]] - one plain claim per page, no padded prose to sound smart.
+  - [[Integrity]] of speech is [[Heart Righteousness]], not performance for [[Let Your Light Shine]].
   
   - Speak plainly - no swearing oaths to make people trust you; let your word stand on its own.
 examples:
@@ -14,9 +16,9 @@ examples:
   - "I padded a deadline promise with extra assurances so they'd believe me - if my word needs spin to sound believable, the problem isn't the schedule, it's me."
 shareable_thought:
   - "Speak plainly - no swearing oaths to make people trust you; let your word stand on its own."
-  - "anything beyond these is of evil."
-  - "Meaning manipulation, not that all contracts are sin."
-  - "let your statement be, 'Yes, yes' or 'No, no'; anything beyond these is of evil. (Matthew 5:33-37)."
+  - "Yes means yes - padded oaths mean your word wasn't trustworthy on its own."
+  - "PKM parallel: Atomic Notes - one plain claim per page, no padded prose to sound smart."
+  - "Integrity of speech is Heart Righteousness, not performance for Let Your Light Shine."
 relationships:
   - type: contradicts
     wikilink: "[[Drafting in Public]]"
@@ -61,4 +63,5 @@ cards:
     back: "Simple yes or no - no spin."
 draft: false
 ---
+
 

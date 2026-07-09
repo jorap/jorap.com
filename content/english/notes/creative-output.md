@@ -18,7 +18,7 @@ examples:
   - "Friday film day means everyone shows one clip, rough or not - I do the same with my note pile, three sparks become one finished piece even if the cut is rough."
   - "We don't wait for perfect dinner photos - we ship the meal and fix the recipe next time; hearing the idea isn't doing it."
 shareable_thought:
-  - "Notes are inventory for me - posts, sermons, and code are the point, not the pile."
+  - "Notes are inventory for me."
   - "Posts, sermons, code, and dinner experiments are the point."
   - "Output is the point - ship posts, sermons, code on a deadline, in distraction-free focus."
   - "The inventory only pays off the day it becomes something someone else can read, hear, or eat."

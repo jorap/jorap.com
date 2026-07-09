@@ -5,7 +5,11 @@ description: "Before deposit, I name who publishes next and price the pass-off s
 key_concept: |
   - Pick exactly one primary model with [[Plain Commitments at Work]] - not "we'll figure it out at launch."
   
-  - **Git lesson** - client gets repo access plus a short doc ([[Getting Started]] shape: edit markdown, commit, push). Fits owners who want control and won't panic at a terminal. **Retainer** - they email copy or photos; I push on a batch schedule. Price per update batch, not fake monthly hosting. **Showroom branch** - [[The Garage Concept]]: my experiments stay off their deploy branch; what they see is clean.main only. **[[Git-Based CMS]]** - when Git lesson won't land but scope still fits static; quote CMS setup separately.
+  - **Git lesson** - client gets repo access plus a short doc ([[Getting Started]] shape: edit markdown, commit, push).
+  - Fits owners who want control and won't panic at a terminal. **Retainer** - they email copy or photos; I push on a batch schedule.
+  - Price per update batch, not fake monthly hosting. **Showroom branch**
+  - [[The Garage Concept]]: my experiments stay off their deploy branch what they see is clean.main only. **[[Git-Based CMS]]** when
+  - Git lesson won't land but scope still fits static quote CMS setup separately.
   
   - Before deposit, I name who publishes next and price the pass-off so launch isn't a guessing game.
   
@@ -17,8 +21,8 @@ examples:
   - "Pastor emails bulletin PDF every Friday - retainer batch, one push, no CMS layer needed."
 shareable_thought:
   - "Before deposit, I name who publishes next and price the pass-off so launch isn't a guessing game."
-  - "Before deposit I pick one pass-off model - Git lesson, retainer batch, or showroom branch."
-  - "Git lesson means repo access plus a short doc - edit markdown, commit, push without panicking at a terminal."
+  - "Pick exactly one primary model with Plain Commitments at Work - not \"we'll figure it out at launch.\"."
+  - "Git lesson - client gets repo access plus a short doc (Getting Started shape: edit markdown, commit, push)."
   - "Fits owners who want control and won't panic at a terminal."
 relationships:
   - type: contradicts
@@ -56,4 +60,7 @@ cards:
     back: "Retainer batch - one push."
 draft: false
 ---
+
+
+
 

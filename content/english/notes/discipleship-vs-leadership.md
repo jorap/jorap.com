@@ -6,11 +6,17 @@ key_concept: |
   {{< bible ref="Matthew 20:26-28" emphasize="28" >}}
   - Greatness is service - Son of Man came to serve; two seats, upward allegiance and outward care.
   
-  - [[Discipleship]] answers upward - learn and do what Jesus said after faith, not to buy heaven under [[Free Grace]]. [[Leadership]] answers outward - direction, pace, and care when people look my way; title optional.
+  - [[Discipleship]] answers upward - learn and do what Jesus said after faith, not to buy heaven under [[Free Grace]].
+  - [[Leadership]] answers outward - direction, pace, and care when people look my way; title optional.
   
-  - Same person, two seats. Swapping them is the failure: running a standup isn't following Christ, and a promotion doesn't cancel private obedience. [[Servant Leadership]] overlaps - unblock the team, pass credit down - but that's still horizontal care for people, not the vertical allegiance discipleship names. [[Humility and Service]] is gospel depth on the overlap: greatness through serving, not being served.
+  - Same person, two seats.
+  - Swapping them is the failure: running a standup isn't following Christ, and a promotion doesn't cancel private obedience.
+  - [[Servant Leadership]] overlaps - unblock the team, pass credit down - but that's still horizontal care for people, not the vertical allegiance discipleship names.
+  - [[Humility and Service]] is gospel depth on the overlap: greatness through serving, not being served.
   
-  - [[Great Commission]] pushes discipleship outward - make disciples, teach obedience. [[Share What You Learn]] is the workplace echo: pass on skill, don't hoard the map. PKM mirror: [[Standing vs Fellowship]] - two ledgers that feel the same until you name the category.
+  - [[Great Commission]] pushes discipleship outward - make disciples, teach obedience.
+  - [[Share What You Learn]] is the workplace echo: pass on skill, don't hoard the map.
+  - PKM mirror: [[Standing vs Fellowship]] - two ledgers that feel the same until you name the category.
   
   - Discipleship is who I follow upward; leadership is who looks to me for direction and care - two seats.
 examples:
@@ -18,9 +24,9 @@ examples:
   - "Promotion meant calm direction in the outage, but I still had to confess the shortcut I took on the report - leadership is who looks to me; discipleship is who I answer to."
 shareable_thought:
   - "Discipleship is who I follow upward; leadership is who looks to me for direction and care - two seats."
-  - "Same person, two seats - running a room isn't following Jesus, and a title doesn't cancel private obedience."
-  - "Servant leadership overlaps, but horizontal care for people isn't the same seat as vertical allegiance to Christ."
-  - "Great Commission pushes discipleship outward; share what you learn is the workplace echo."
+  - "Discipleship answers upward - learn and do what Jesus said after faith, not to buy heaven under Free Grace."
+  - "Leadership answers outward - direction, pace, and care when people look my way; title optional."
+  - "Swapping them is the failure: running a standup isn't following Christ, and a promotion doesn't cancel private obedience."
 relationships:
   - type: alternative
     wikilink: "[[Servant Leadership]]"
@@ -80,4 +86,5 @@ cards:
     back: "Christ first - then lead from that footing."
 draft: false
 ---
+
 

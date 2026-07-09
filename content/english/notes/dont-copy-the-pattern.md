@@ -10,9 +10,12 @@ key_concept: |
   
   - Don't conform - refuse the default before renewal reshapes how I react. Pairs with [[Present a Living Sacrifice]] on the same Romans passage.
   
-  - [[Renewed Mind]] is the positive half - be transformed by the renewing of your mind. This note names the refusal: outrage feeds, hurry-and-react, comparison traps - culture's presets I didn't choose but my nervous system runs anyway.
+  - [[Renewed Mind]] is the positive half - be transformed by the renewing of your mind.
+  - This note names the refusal: outrage feeds, hurry-and-react, comparison traps - culture's presets I didn't choose but my nervous system runs anyway.
   
-  - [[Information Diet]] curates inputs; [[Digital Minimalism]] cuts tools; this is the posture before the feed loads. [[Attention Economy]] fights for what fills the mind first. [[Behavioral Economics]] names the default nudges; refusal is the interrupt before the script mails the reply.
+  - [[Information Diet]] curates inputs; [[Digital Minimalism]] cuts tools; this is the posture before the feed loads.
+  - [[Attention Economy]] fights for what fills the mind first.
+  - [[Behavioral Economics]] names the default nudges; refusal is the interrupt before the script mails the reply.
   
   - Culture's default script isn't neutral - I refuse the pattern before reactions run on autopilot.
   
@@ -22,9 +25,9 @@ examples:
   - "The team copied the league's trash-talk culture after one bad call - same data, old habit loop; refusing the pattern means film study on composure, not one inspirational speech."
 shareable_thought:
   - "Culture's default script isn't neutral - I refuse the pattern before reactions run on autopilot."
-  - "Outrage feeds, hurry-and-react, comparison traps - culture's presets I didn't choose but my nervous system runs anyway."
-  - "And do not be conformed to this world - refuse before renewal reshapes the mind."
-  - "Refusal is the interrupt before the script mails the reply."
+  - "Don't conform - refuse the default before renewal reshapes how I react."
+  - "Renewed Mind is the positive half."
+  - "Be transformed by the renewing of your mind."
 relationships:
   - type: alternative
     wikilink: "[[Mental Models]]"
@@ -78,4 +81,5 @@ cards:
     back: "Refuse the default - Scripture before scroll."
 draft: false
 ---
+
 

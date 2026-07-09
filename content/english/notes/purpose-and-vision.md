@@ -5,7 +5,10 @@ description: "A clear outcome anchors daily choices - without it, urgency picks 
 key_concept: |
   - If I can't name where we're headed, every ping feels equally important.
   
-  - Purpose is the outcome worth the tradeoffs. Vision is what it looks like when we're closer - not a poster, a filter for Tuesday's calendar. [[Quarterly Planning]] keeps it on a rhythm; [[Priorities Before the Inbox]] protects it from the siren. Faith lane: [[Seek the Kingdom First]] - God's reign before my inbox rewrites the morning.
+  - Purpose is the outcome worth the tradeoffs.
+  - Vision is what it looks like when we're closer - not a poster, a filter for Tuesday's calendar.
+  - [[Quarterly Planning]] keeps it on a rhythm; [[Priorities Before the Inbox]] protects it from the siren.
+  - Faith lane: [[Seek the Kingdom First]] - God's reign before my inbox rewrites the morning.
   
   - A clear outcome anchors daily choices.
   
@@ -14,10 +17,10 @@ examples:
   - "The team kept shipping random fixes until we wrote one sentence on the whiteboard - reduce checkout friction by half - and suddenly the backlog had a sort order."
   - "I kept saying yes to every sideline until I named the one outcome for the year - finish the notes garden, not grow six half-built projects."
 shareable_thought:
-  - "A clear outcome anchors daily choices - without it, urgency picks the agenda."
+  - "A clear outcome anchors daily choices."
+  - "Without it, urgency picks the agenda."
   - "If I can't name where we're headed, every ping feels equally important."
-  - "Purpose is the outcome worth the tradeoffs."
-  - "Vision is what it looks like when we're closer - not a poster, a filter for Tuesday's calendar."
+  - "Faith lane: Seek the Kingdom First."
 relationships:
   - type: contradicts
     wikilink: "[[Signal vs Noise]]"
@@ -61,4 +64,5 @@ cards:
     back: "Filter Tuesday's calendar - not decoration."
 draft: false
 ---
+
 

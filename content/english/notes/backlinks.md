@@ -13,10 +13,10 @@ key_concept: |
   
   - Anchor notes are the ones other notes link to most - rank by inbound count.
 shareable_thought:
-  - "Inbound wikilinks ranked by count - see which notes the garden treats as anchors."
-  - "Find anchor notes by who links here - snippet context per backlink, not just a count."
-  - "Utility surface: link by URL from content notes, not wikilinks."
-  - "Anchor notes are the ones other notes link to most - rank by inbound count."
+  - "Inbound wikilinks ranked by count."
+  - "See which notes the garden treats as anchors."
+  - "Find anchor notes by who links here."
+  - "Snippet context per backlink, not just a count."
 slug: "backlinks"
 date: "2026-06-21 08:00:00+00:00"
 image: "/images/note.jpg"

@@ -5,7 +5,12 @@ description: "Compounding is small gains stacked over time - the curve stays fla
 key_concept: |
   - Small gains repeated look like nothing is happening. Most people quit right before the curve would have bent.
   
-  - Borrowed from finance, but it applies anywhere today's gain makes tomorrow easier: notes linked over years, publish cadence, vocab drills. Heroic weeks feel good; boring repetition wins. The first months look like nothing - that's the trap. Faith parallel: [[Abide in Me]] - fruit from staying connected over time, not self-generated effort alone. [[Eternal Rewards]] - the Father repays daily faithfulness over years, not a lump-sum merit binge that buys heaven. [[Loss of Reward]] is the other side: a bad season shrinks reward, it doesn't erase [[Free Grace]].
+  - Borrowed from finance, but it applies anywhere today's gain makes tomorrow easier: notes linked over years, publish cadence, vocab drills.
+  - Heroic weeks feel good; boring repetition wins.
+  - The first months look like nothing - that's the trap.
+  - Faith parallel: [[Abide in Me]] - fruit from staying connected over time, not self-generated effort alone.
+  - [[Eternal Rewards]] - the Father repays daily faithfulness over years, not a lump-sum merit binge that buys heaven.
+  - [[Loss of Reward]] is the other side: a bad season shrinks reward, it doesn't erase [[Free Grace]].
   
   - Compounding is small gains stacked over time.
   
@@ -76,4 +81,5 @@ cards:
     back: "Six months - boring reps win."
 draft: false
 ---
+
 

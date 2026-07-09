@@ -3,11 +3,15 @@ title: "Influence Without Title"
 meta_title: "Influence Without Title - People Follow Trust Before Badges"
 description: "People follow the one who showed up in the crisis - not always the name on the org chart."
 key_concept: |
-  - [[Leadership Is Influence]] is the headline: if they're moving with you, you're leading - badge optional. This note is the positive case before anyone prints a business card.
+  - [[Leadership Is Influence]] is the headline: if they're moving with you, you're leading - badge optional.
+  - This note is the positive case before anyone prints a business card.
   
-  - Trust deposits compound in small moments: bailing the crew out of an outage, calm voice when the alarm trips, the neighbor who counted heads in the blackout. [[Leadership]] names direction, pace, and care when people look your way - often at the person who already proved reliable, not the newest title.
+  - Trust deposits compound in small moments: bailing the crew out of an outage, calm voice when the alarm trips.
+  - The neighbor who counted heads in the blackout.
+  - [[Leadership]] names direction, pace, and care when people look your way - often at the person who already proved reliable, not the newest title.
   
-  - [[Servant Leadership]] is how you earn it without demanding: unblock, coach, pass credit down. [[Humility and Service]] is the gospel root - wash feet in the sprint, not only in the speech.
+  - [[Servant Leadership]] is how you earn it without demanding: unblock, coach, pass credit down.
+  - [[Humility and Service]] is the gospel root - wash feet in the sprint, not only in the speech.
   
   - People follow the one who showed up in the crisis - not always the name on the org chart.
 examples:
@@ -16,8 +20,8 @@ examples:
 shareable_thought:
   - "People follow the one who showed up in the crisis - not always the name on the org chart."
   - "Leadership Is Influence is the headline: if they're moving with you, you're leading - badge optional."
-  - "Servant Leadership is how you earn it without demanding: unblock, coach, pass credit down."
-  - "Wash feet in the sprint, not only in the speech."
+  - "Leadership names direction, pace, and care when people look your way."
+  - "Often at the person who already proved reliable, not the newest title."
 relationships:
   - type: alternative
     wikilink: "[[Title Without Influence]]"
@@ -58,4 +62,6 @@ cards:
     back: "Earn trust deposits - don't lean on title."
 draft: false
 ---
+
+
 

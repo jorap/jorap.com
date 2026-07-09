@@ -10,11 +10,16 @@ key_concept: |
   
   - Saved through fire with loss - two ledgers: eternal life on Christ, reward on what lasted.
   
-  - Two categories, one sentence apart: [[Free Grace]] and [[Justification]] settle eternal life at faith
-  
-  - [[Eternal Rewards]] and the [[Judgment Seat]] settle what gets repaid for faithful living. Losing reward is not losing salvation. If any man's work is burned up, he will suffer loss; but he himself will be saved, yet so as through fire - still in, with loss when wood, hay, and stubble burn. [[Standing vs Fellowship]] keeps shame from collapsing broken closeness with revoked standing. [[Sanctification]] keeps growing after a wasted season; [[Forgiveness]] restores fellowship when sin breaks closeness - neither re-opens [[Justification]]. [[Faith and Works]] and [[The Narrow Way]] split false "Lord, Lord" (never believed).
-  
-  - from a believer who stumbled and repents. PKM mirror: [[Failure as Feedback]] - a burned work is feedback on what to build differently, not proof you were never in the garden.
+  - Two categories, one sentence apart: [[Free Grace]] and [[Justification]] settle eternal life at faith.
+  - [[Eternal Rewards]] and the [[Judgment Seat]] settle what gets repaid for faithful living.
+  - Losing reward is not losing salvation.
+  - If any man's work is burned up, he will suffer loss but he himself will be saved, yet so as through fire.
+  - Wood, hay, and stubble burn; gold lasts.
+  - [[Standing vs Fellowship]] keeps shame from collapsing broken closeness with revoked standing.
+  - [[Sanctification]] keeps growing after a wasted season.
+  - [[Forgiveness]] restores fellowship when sin breaks closeness - neither re-opens [[Justification]].
+  - [[Faith and Works]] and [[The Narrow Way]] split false "Lord, Lord" from a believer who stumbled and repents.
+  - PKM mirror: [[Failure as Feedback]] - a burned work is feedback on what to build differently, not proof you were never in the garden.
   
   - A saved believer can still lose reward.
   
@@ -25,8 +30,8 @@ examples:
 shareable_thought:
   - "A saved believer can still lose reward."
   - "Worthless works burn, eternal life stays secure on Christ."
-  - "Paul says the builder \"will be saved, yet so as through fire\"."
-  - "Still in, with loss when wood, hay, and stubble burn."
+  - "Saved through fire with loss."
+  - "Two ledgers: eternal life on Christ, reward on what lasted."
 relationships:
   - type: alternative
     wikilink: "[[The Narrow Way]]"
@@ -92,4 +97,6 @@ cards:
     back: "Confess, restore walk - standing on Christ stays."
 draft: false
 ---
+
+
 
