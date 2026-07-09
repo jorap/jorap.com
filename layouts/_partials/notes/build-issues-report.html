@@ -4,7 +4,7 @@
 */ -}}
 {{- $data := . -}}
 {{- if not $data.byPath -}}
-  {{- $data = partialCached "notes/collect-note-issues.html" site "note-issues-v10" -}}
+  {{- $data = partialCached "notes/collect-note-issues.html" site "note-issues-v11" -}}
 {{- end -}}
 {{- $lines := slice "GARDEN LINK ISSUES" "Source: JoRap notes garden" "" "SUMMARY" -}}
 {{- $lines = $lines | append (printf "- %d broken wikilinks (target note does not exist)" $data.brokenCount) -}}

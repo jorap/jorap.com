@@ -1,5 +1,5 @@
 {{ define "main" }}
-  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v10" -}}
+  {{- $data := partialCached "notes/collect-note-issues.html" site "note-issues-v11" -}}
   {{- $notes := $data.notes -}}
   {{- $notes = sort $notes "total" "desc" -}}
 

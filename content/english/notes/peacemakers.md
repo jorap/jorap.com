@@ -1,10 +1,10 @@
 ---
 title: "Peacemakers"
-meta_title: "Peacemakers - Blessed Are the Peacemakers"
+meta_title: "Peacemakers - Matthew 5:9 Beatitude"
 description: "I pursue peace on purpose - repair, truth in love, de-escalation - not just staying quiet."
 key_concept: |
   {{< bible "Matthew 5:9" >}}
-  Blessed are peacemakers - active repair, not just staying quiet while two friends feud.
+  [[The Beatitudes]] beatitude for peacemakers - active repair, not just staying quiet while two friends feud.
 
   Peacemaking is work: reconciliation, truth spoken in love, de-escalation when others want a fight. The blessing ties peacemaking to family resemblance - acting like the Father who reconciled me to Himself through [[Free Grace]] before I reconciled with anyone.
 
@@ -25,6 +25,9 @@ relationships:
   - type: contradicts
     wikilink: "[[Love Your Enemies]]"
     reason: "when I confuse peace with never confronting wrong"
+  - type: extends
+    wikilink: "[[The Beatitudes]]"
+    reason: "Peacemakers are one beatitude in the Sermon on the Mount cluster"
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Peacemaking mirrors the Father who reconciled you by grace before you reconciled with anyone"

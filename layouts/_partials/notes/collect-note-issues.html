@@ -103,9 +103,12 @@
   {{- $unlinked := slice -}}
   {{- $unlinkedKeys := dict -}}
   {{- /* Headings are structure, not prose mentions — e.g. ## Note Relationships */ -}}
-  {{- $mentionRaw := replaceRE `(?m)^#{1,6}\s+[^\n]*\n?` "" $raw -}}
-  {{- /* ponytail: words inside [[wikilinks]] are already linked — don't substring-match other titles */ -}}
-  {{- $mentionRaw = replaceRE `\[\[[^\]]+\]\]` " " $mentionRaw -}}
+  {{- $mentionSrc := replaceRE `(?m)^#{1,6}\s+[^\n]*\n?` "" $raw -}}
+  {{- $mentionRendered := $note.RenderString $mentionSrc -}}
+  {{- /* ponytail: NASB blocks trip alias lint (blessed are, Romans 12:1) — scan prose, not citations */ -}}
+  {{- $mentionRaw := replaceRE `(?s)<p class="scripture-verse">.*?</p>` " " $mentionRendered -}}
+  {{- $mentionRaw = replaceRE `<[^>]+>` " " $mentionRaw -}}
+  {{- $mentionRaw = replaceRE `\s+` " " $mentionRaw | strings.TrimSpace -}}
   {{- range $other := $gardenNotes -}}
     {{- if eq $other.RelPermalink $note.RelPermalink -}}
       {{- continue -}}

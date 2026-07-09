@@ -8,7 +8,7 @@ key_concept: |
 
   {{< bible "Romans 12:1-2" >}}
 
-  Don't conform - refuse the default before renewal reshapes how I react.
+  Don't conform - refuse the default before renewal reshapes how I react. Pairs with [[Present a Living Sacrifice]] on the same Romans passage.
 
   [[Renewed Mind]] is the positive half - be transformed by the renewing of your mind. This note names the refusal: outrage feeds, hurry-and-react, comparison traps - culture's presets I didn't choose but my nervous system runs anyway.
 
