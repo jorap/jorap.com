@@ -6,11 +6,9 @@ key_concept: |
   {{< bible "Matthew 6:14-15" >}}
   Forgive others or the Father won't forgive you - daily rhythm, not a one-time sermon nod.
 
-  {{< bible "Matthew 18:22" >}}
+  {{< bible "Matthew 18:21-35" >}}
 
   Seventy times seven ends ledger-keeping - stop counting how many times you've been wronged.
-
-  {{< bible ref="Matthew 18:32-33" label="Matthew 18" >}}
 
   The unforgiving servant - king forgave an unpayable debt; refusing a small debt exposed a heart out of step.
 

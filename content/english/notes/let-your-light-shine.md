@@ -6,7 +6,7 @@ key_concept: |
   {{< bible "Matthew 5:14-16" >}}
   City on a hill can't hide - let good works shine so people glorify the Father, not my personal brand.
 
-  {{< bible "Matthew 6:1" >}}
+  {{< bible "Matthew 6:1-4" >}}
 
   Not performance piety for applause - visible good for God's credit, not my feed.
 

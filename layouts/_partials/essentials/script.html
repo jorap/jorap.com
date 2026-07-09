@@ -35,6 +35,9 @@
   {{ with $scripts.Data.Integrity }}integrity="{{ . }}"{{ end }}></script>
 {{ end }}
 
+{{/* search.js imports search-core.js — needs js.Build, not Concat */}}
+{{ partial "essentials/fingerprint-asset.html" (dict "src" "js/search.js" "bundle" true) }}
+
 <!-- Only concat if scriptsLazy is not empty -->
 {{ if ne (len $scriptsLazy) 0 }}
 {{ $scriptsLazy = $scriptsLazy | resources.Concat "js/script-lazy.js" }}

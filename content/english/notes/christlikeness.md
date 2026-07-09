@@ -3,7 +3,7 @@ title: "Christlikeness"
 meta_title: "Christlikeness - Shaped to Look and Love Like Jesus"
 description: "God keeps reshaping me to look and love more like Jesus - growth after faith, not the entry fee."
 key_concept: |
-  {{< bible "Luke 6:40" >}}
+  {{< bible "Luke 6:39-40" >}}
   Fully trained, like the teacher - the aim isn't my old default self on display, it's looking more like Jesus over years.
 
   [[Free Grace]] settles where I spend forever.

@@ -7,21 +7,14 @@
 {{- $emptyBody := not (findRE `<(ol|ul)` $bodyToc) -}}
 {{- $html := "" -}}
 
-{{- $extras := slice -}}
 {{- $relatedLimit := site.Params.blog.related_posts_limit | default 3 -}}
-{{- $relatedPosts := partial "blog/related-posts-lookup.html" (dict "Context" $page "Limit" $relatedLimit) | default slice -}}
-{{- if gt (len $relatedPosts) 0 -}}
-  {{- $extras = $extras | append (dict "title" (T "related_posts") "id" "related-posts") -}}
-{{- end -}}
 {{- $relatedNotesLimit := site.Params.blog.related_notes_limit | default 5 -}}
-{{- $relatedNotes := partial "notes/related-notes.html" (dict "Context" $page "Limit" $relatedNotesLimit) | default slice -}}
-{{- if gt (len $relatedNotes) 0 -}}
-  {{- $extras = $extras | append (dict "title" (T "related_notes") "id" "related-notes") -}}
-{{- end -}}
-{{- $randomPool := partial "notes/random-pool.html" $page -}}
-{{- if ge (len $randomPool) 1 -}}
-  {{- $extras = $extras | append (dict "title" (T "random_blog_note") "id" "random-note") -}}
-{{- end -}}
+{{- $extras := partial "toc-related-extras.html" (dict
+  "Context" $page
+  "relatedPostsLimit" $relatedLimit
+  "relatedNotesLimit" $relatedNotesLimit
+  "excludeSelfFromRandom" false
+) -}}
 
 {{- $extraItems := "" -}}
 {{- range $extras -}}

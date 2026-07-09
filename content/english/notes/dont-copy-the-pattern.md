@@ -6,7 +6,7 @@ key_concept: |
   {{< bible "John 15:19" >}}
   Chosen out of the world - so when the feed's outrage feels normal, that's the world's script, not mine.
 
-  And do not be conformed to this world, but be transformed by the renewing of your mind, so that you may prove what the will of God is, that which is good and acceptable and perfect. Romans 12:2 NASB1995
+  {{< bible "Romans 12:1-2" >}}
 
   Don't conform - refuse the default before renewal reshapes how I react.
 

@@ -8,7 +8,7 @@ from typing import Literal
 
 import yaml
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 YAML = ROOT / "data" / "randomizer.yaml"
 COLLECTION_ID = "grade-1-quiz"
 

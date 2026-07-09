@@ -1,5 +1,24 @@
 {{ define "main" }}
-  {{- $cards := partial "notes/cards-data.html" . -}}
+  {{- $rawCards := partial "notes/collect-cards.html" . -}}
+  {{- $cards := slice -}}
+  {{- range $rawCards -}}
+    {{- $sourceUrl := "" -}}
+    {{- $sourceTitle := "" -}}
+    {{- $sets := .sets | default slice -}}
+    {{- with .source -}}
+      {{- $sourceUrl = .RelPermalink -}}
+      {{- $sourceTitle = .Title -}}
+    {{- end -}}
+    {{- $id := printf "%s|%s|%s" .front .back $sourceUrl | hash.FNV32a -}}
+    {{- $cards = $cards | append (dict
+      "id" (printf "%d" $id)
+      "front" .front
+      "back" .back
+      "sourceUrl" $sourceUrl
+      "sourceTitle" $sourceTitle
+      "sets" $sets
+    ) -}}
+  {{- end -}}
   {{- $setNames := slice -}}
   {{- range $cards -}}
     {{- range .sets -}}

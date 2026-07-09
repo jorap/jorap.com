@@ -7,7 +7,7 @@ from pathlib import Path
 
 import yaml
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 NOTES = ROOT / "content" / "english" / "notes"
 EXPLAIN_YAML = ROOT / "data" / "ep-verse-explanations.yaml"
 

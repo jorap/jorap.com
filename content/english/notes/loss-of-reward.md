@@ -3,10 +3,10 @@ title: "Loss of Reward"
 meta_title: "Loss of Reward - Saved Through Fire, Not Unsaved"
 description: "A saved believer can still lose reward - worthless works burn, eternal life stays secure on Christ."
 key_concept: |
-  {{< bible "Matthew 25:29" >}}
+  {{< bible "Matthew 25:14-30" >}}
   Faithful use compounds; buried talent loses even what was given - reward can shrink without un-saving you.
 
-  If any man's work is burned up, he will suffer loss; but he himself will be saved, yet so as through fire. 1 Corinthians 3:12-15 NASB1995
+  {{< bible "1 Corinthians 3:12-15" >}}
 
   Saved through fire with loss - two ledgers: eternal life on Christ, reward on what lasted.
 

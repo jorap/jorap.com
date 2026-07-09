@@ -10,7 +10,7 @@ from pathlib import Path
 
 import yaml
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 NOTES = ROOT / "content" / "english" / "notes"
 NASB_DATA = ROOT / "data" / "scripture-nasb1995.json"
 EXPLAIN_YAML = ROOT / "data" / "ep-verse-explanations.yaml"

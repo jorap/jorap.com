@@ -6,7 +6,7 @@ key_concept: |
   {{< bible "John 8:31-32" >}}
   Stay in His word and you're His disciple - truth frees the mind culture tried to lock in hurry and outrage.
 
-  I urge you, brethren, by the mercies of God, to present your bodies a living and holy sacrifice, acceptable to God, which is your spiritual service of worship. And do not be conformed to this world, but be transformed by the renewing of your mind, so that you may prove what the will of God is, that which is good and acceptable and perfect. Romans 12:1-2 NASB1995
+  {{< bible "Romans 12:1-2" >}}
 
   Mercy first, then sacrifice, then a mind being renewed - Paul stacks the order I keep swapping.
 

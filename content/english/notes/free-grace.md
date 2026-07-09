@@ -3,20 +3,20 @@ title: "Free Grace"
 meta_title: "Free Grace - Salvation by Faith Alone"
 description: "Eternal life is Christ's gift received by faith alone, not wages for commandments, principles, or good works."
 key_concept: |
-  {{< bible "John 5:24" >}}
+  {{< bible "John 5:24-29" >}}
   Hear Christ's word and believe - you've crossed from death to life; judgment isn't hanging over your head.
 
-  For by grace you have been saved through faith; and that not of yourselves, it is the gift of God; not as a result of works, so that no one may boast. Ephesians 2:8-9 NASB1995
+  {{< bible "Ephesians 2:8-9" >}}
 
   Paul says the same gift out loud - saved by grace through faith, not your works, so nobody brags their way in.
 
-  But to the one who does not work, but believes in Him who justifies the ungodly, his faith is credited as righteousness, Romans 4:5 NASB1995
+  {{< bible "Romans 4:4-5" >}}
 
   Faith credited as righteousness for the one who believes
 
   Faith credited as righteousness - trust, not a merit report card, is what God counts.
 
-  For we are His workmanship, created in Christ Jesus for good works, which God prepared beforehand so that we would walk in them. Ephesians 2:10 NASB1995
+  {{< bible "Ephesians 2:10" >}}
 
   Good works come after the gift - created in Christ for them, not to buy the ticket.
 

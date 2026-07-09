@@ -219,9 +219,6 @@ lazy = false
 link = "js/touch-controls.js"
 lazy = false
 [[params.plugins.js]]
-link = "js/search.js"
-lazy = false
-[[params.plugins.js]]
 link = "plugins/swiper/swiper-bundle.js"
 lazy = false
 [[params.plugins.js]]

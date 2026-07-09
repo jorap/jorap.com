@@ -3,20 +3,20 @@ title: "Justification"
 meta_title: "Justification - Declared Righteous at Faith"
 description: "God declared me righteous at faith - before my obedience caught up."
 key_concept: |
-  {{< bible "Luke 18:14" >}}
+  {{< bible "Luke 18:9-14" >}}
   The tax collector went home justified - humility before God, not self-promotion, is what Jesus commended.
 
-  being justified as a gift by His grace through the redemption which is in Christ Jesus; Romans 3:24 NASB1995
+  {{< bible "Romans 3:21-26" >}}
 
   Paul names the verdict - justified as a gift by grace, Christ's redemption, not my performance.
 
-  But to the one who does not work, but believes in Him who justifies the ungodly, his faith is credited as righteousness, Romans 4:5 NASB1995
+  {{< bible "Romans 4:4-5" >}}
 
   Faith credited as righteousness
 
   Faith credited as righteousness for the one who believes, not the one who works the room.
 
-  Therefore, having been justified by faith, we have peace with God through our Lord Jesus Christ, Romans 5:1 NASB1995
+  {{< bible "Romans 5:1-2" >}}
 
   Justified by faith, peace with God - the case closed at trust, not at perfect obedience.
 

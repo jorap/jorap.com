@@ -10,7 +10,7 @@ from pathlib import Path
 
 import yaml
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "data" / "jesus-words.yaml"
 CACHE = ROOT / ".cache" / "jesus-words"
 BSB_ZIP_URL = "https://github.com/BSB-publishing/bsb2usfm/releases/latest/download/BSB_usj.zip"

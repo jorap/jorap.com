@@ -68,14 +68,13 @@
   {{- $extras = $extras | append (dict "level" 2 "title" "Backlinks" "id" "backlinks") -}}
 {{- end -}}
 {{- $relatedLimit := site.Params.notes.related_posts_limit | default 3 -}}
-{{- $relatedPosts := partial "blog/related-posts-lookup.html" (dict "Context" $page "Limit" $relatedLimit) | default slice -}}
-{{- if gt (len $relatedPosts) 0 -}}
-  {{- $extras = $extras | append (dict "level" 2 "title" (T "related_posts") "id" "related-posts") -}}
-{{- end -}}
-{{- $randomPool := partial "notes/random-pool.html" $page -}}
-{{- $randomPool = where $randomPool "url" "ne" $page.RelPermalink -}}
-{{- if ge (len $randomPool) 1 -}}
-  {{- $extras = $extras | append (dict "level" 2 "title" (T "random_blog_note") "id" "random-note") -}}
+{{- range partial "toc-related-extras.html" (dict
+  "Context" $page
+  "relatedPostsLimit" $relatedLimit
+  "relatedNotesLimit" 0
+  "excludeSelfFromRandom" true
+) -}}
+  {{- $extras = $extras | append . -}}
 {{- end -}}
 {{- $headings = $headings | append $extras -}}
 

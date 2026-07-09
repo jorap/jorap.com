@@ -7,7 +7,7 @@ from pathlib import Path
 
 import yaml
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 NOTES = ROOT / "content" / "english" / "notes"
 JW = yaml.safe_load((ROOT / "data" / "jesus-words.yaml").read_text(encoding="utf-8"))["verses"]
 

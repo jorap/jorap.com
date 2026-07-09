@@ -26,25 +26,29 @@
 <!-- Only concat if scripts is not empty -->
 {{ if ne (len $scripts) 0 }}
 {{ $scripts = $scripts | resources.Concat "js/script.js" }}
-
-{{ if hugo.IsProduction }}
-{{ $scripts = $scripts | minify | fingerprint }}
-{{ end }}
+{{ $scripts = partial "essentials/publish-asset.html" (dict "resource" $scripts) }}
 
 {{/* scripts */}}
-<script crossorigin="anonymous" integrity="{{ $scripts.Data.Integrity }}" src="{{ $scripts.RelPermalink }}"></script>
+<script
+  src="{{ $scripts.RelPermalink }}"
+  crossorigin="anonymous"
+  {{ with $scripts.Data.Integrity }}integrity="{{ . }}"{{ end }}></script>
 {{ end }}
+
+{{/* search.js imports search-core.js — needs js.Build, not Concat */}}
+{{ partial "essentials/fingerprint-asset.html" (dict "src" "js/search.js" "bundle" true) }}
 
 <!-- Only concat if scriptsLazy is not empty -->
 {{ if ne (len $scriptsLazy) 0 }}
 {{ $scriptsLazy = $scriptsLazy | resources.Concat "js/script-lazy.js" }}
-
-{{ if hugo.IsProduction }}
-{{ $scriptsLazy = $scriptsLazy | minify | fingerprint }}
-{{ end }}
+{{ $scriptsLazy = partial "essentials/publish-asset.html" (dict "resource" $scriptsLazy) }}
 
 {{/* scripts lazy */}}
-<script defer async crossorigin="anonymous" integrity="{{ $scriptsLazy.Data.Integrity }}"
+<script
+  defer
+  async
+  crossorigin="anonymous"
+  {{ with $scriptsLazy.Data.Integrity }}integrity="{{ . }}"{{ end }}
   src="{{ $scriptsLazy.RelPermalink }}"></script>
 {{ end }}
 

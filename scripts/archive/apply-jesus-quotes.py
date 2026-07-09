@@ -5,7 +5,7 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 NOTES = ROOT / "content" / "english" / "notes"
 
 # slug -> (quote, ref) inserted as first line of key_concept if ref not already present

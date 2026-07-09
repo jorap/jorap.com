@@ -11,7 +11,7 @@ import re
 import urllib.request
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "data" / "scripture-nasb1995.json"
 CACHE = ROOT / ".cache" / "scripture-nasb1995"
 NASB_JSON_URL = "https://raw.githubusercontent.com/jburson/bible-data/master/data/nasb/nasb.json"

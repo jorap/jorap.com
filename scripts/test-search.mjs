@@ -16,7 +16,7 @@ import {
   matchesSearch,
   searchIndex,
   slugify,
-} from "./search-core.mjs";
+} from "../assets/js/search-core.js";
 import { projectRoot, run, runNodeScript } from "./spawnUtil.mjs";
 
 const INDEX_PATH = join(projectRoot, "public", "searchindex.json");

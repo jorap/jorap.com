@@ -52,8 +52,6 @@
 
   {{ partial "notes/preview-index.html" . }}
 
-  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-random-core.js" "defer" true) }}
-  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-random-select.js" "defer" true) }}
-  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-random-duo.js" "defer" true) }}
+  {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-random.js" "defer" true) }}
   {{ partial "essentials/fingerprint-asset.html" (dict "src" "js/wikilink-preview.js" "defer" true) }}
 {{ end }}

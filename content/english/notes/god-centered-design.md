@@ -3,7 +3,7 @@ title: "God Centered Design"
 meta_title: "God Centered Design - Build for God's Glory First"
 description: "I design life and work around God's glory first - not crowd applause, ego, or my comfort."
 key_concept: |
-  {{< bible "Matthew 5:16" >}}
+  {{< bible "Matthew 5:14-16" >}}
   Good works visible so the Father gets glory - build for His name, not my brand.
 
   A calendar built for applause still feels empty on Monday.

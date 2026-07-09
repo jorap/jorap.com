@@ -1,6 +1,6 @@
 {{- /*
   Filter chips for card sets with per-set counts.
-  Params: cards (slice from collect-cards or cards-data), dataAttr ("data-notes-review-set" | "data-notes-cards-filter").
+  Params: cards (JSON-ready card dicts), dataAttr ("data-notes-review-set" | "data-notes-cards-filter").
 */ -}}
 {{- $cards := .cards -}}
 {{- $attr := .dataAttr | default "data-notes-review-set" -}}

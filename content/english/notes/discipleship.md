@@ -3,7 +3,7 @@ title: "Discipleship"
 meta_title: "Discipleship - Following Jesus After Faith"
 description: "Discipleship is following Jesus daily - learning and doing what He said after faith, not buying eternal life."
 key_concept: |
-  {{< bible "Luke 9:23" >}}
+  {{< bible "Luke 9:23-24" >}}
   Daily cross - deny self and follow after faith, not to buy heaven but because grace already saved.
 
   Under [[Free Grace]], discipleship is [[Grateful Obedience]] - grateful response, not payment.

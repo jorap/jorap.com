@@ -3,7 +3,7 @@ title: "Seek the Kingdom First"
 meta_title: "Seek the Kingdom First - Matthew 6:33"
 description: "I put God's rule first and let food, status, and tomorrow's worry sort behind that."
 key_concept: |
-  {{< bible "Matthew 6:33" >}}
+  {{< bible "Matthew 6:25-34" >}}
   Kingdom and righteousness first - food, status, and tomorrow sort behind that, not before my inbox.
 
   - the test is what actually gets my first ten minutes of the day.

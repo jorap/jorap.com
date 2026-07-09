@@ -7,6 +7,8 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 import yaml
 
 from notes_content import (
@@ -20,7 +22,7 @@ from notes_content import (
     INCOMPLETE_SPLIT_HEAD,
 )
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 NOTES = ROOT / "content/english/notes"
 SKIP = {"_index.md"}
 MAX_LINE = 130

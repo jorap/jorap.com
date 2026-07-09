@@ -3,10 +3,8 @@ title: "By Their Fruits"
 meta_title: "By Their Fruits - Discern Teachers by Outcome"
 description: "I check teachers by what their teaching produces, not by how polished the talk sounds."
 key_concept: |
-  {{< bible "Matthew 7:16" >}}
+  {{< bible "Matthew 7:15-20" >}}
   Wolves wear sheep's clothing - time and results tell, not the polished talk.
-
-  {{< bible "Matthew 7:16-20" >}}
 
   Don't condemn souls, but do evaluate fruit - grapes from vines, not hype.
 

@@ -1,5 +1,11 @@
 // Theme override of gethugothemes/hugo-modules/search.
 // Title matches rank above body-only matches.
+import {
+  capitalizeFirstLetter,
+  filterAndSortSearchResults,
+  slugify,
+} from "./search-core.js";
+
 const body = document.body;
 const searchWrapper = document.querySelector(".search-wrapper");
 const searchModal = document.querySelector(".search-modal");
@@ -58,55 +64,16 @@ if (hasSearchWrapper) {
     });
   });
 
-  // Capitalize First Letter
-  const capitalizeFirstLetter = (string) => {
-    return string
-      .replace(/^[\s_]+|[\s_]+$/g, "")
-      .replace(/[_\s]+/g, " ")
-      .replace(/^[a-z]/, function (m) {
-        return m.toUpperCase();
-      });
-  };
-
-  // String to URL
-  const slugify = (string) => {
-    let lowercaseText = string
-      .trim()
-      .replace(/[\s_]+/g, "-")
-      .toLowerCase();
-    return encodeURIComponent(lowercaseText);
-  };
-
   // options
   const image = searchWrapper.getAttribute("data-image");
   const description = searchWrapper.getAttribute("data-description");
   const tags = searchWrapper.getAttribute("data-tags");
   const categories = searchWrapper.getAttribute("data-categories");
-
-  const matchesSearch = (item, query) =>
-    item.title.toLowerCase().includes(query) ||
-    (description === "true"
-      ? item.description?.toLowerCase().includes(query)
-      : false) ||
-    item.searchKeyword.toLowerCase().includes(query) ||
-    (tags === "true" ? item.tags?.toLowerCase().includes(query) : false) ||
-    (categories === "true"
-      ? item.categories?.toLowerCase().includes(query)
-      : false) ||
-    item.content.toLowerCase().includes(query);
-
-  const searchMatchPriority = (item, query) => {
-    if (item.title.toLowerCase().includes(query)) return 0;
-    if (item.content.toLowerCase().includes(query)) return 1;
-    return 2;
+  const searchOpts = {
+    description: description === "true",
+    tags: tags === "true",
+    categories: categories === "true",
   };
-
-  const filterAndSortSearchResults = (items, query) =>
-    items
-      .filter((item) => matchesSearch(item, query))
-      .sort(
-        (a, b) => searchMatchPriority(a, query) - searchMatchPriority(b, query)
-      );
 
   let searchString = "";
 
@@ -283,7 +250,11 @@ if (hasSearchWrapper) {
         return content;
       };
 
-      const filteredItems = filterAndSortSearchResults(item.data, searchString);
+      const filteredItems = filterAndSortSearchResults(
+        item.data,
+        searchString,
+        searchOpts
+      );
 
       // pull template from hugo template definition
       let templateDefinition =
@@ -336,7 +307,8 @@ if (hasSearchWrapper) {
 
     const filteredItemsLength = searchItems.reduce((totalLength, item) => {
       return (
-        totalLength + filterAndSortSearchResults(item.data, searchString).length
+        totalLength +
+        filterAndSortSearchResults(item.data, searchString, searchOpts).length
       );
     }, 0);
 

@@ -3,7 +3,7 @@ title: "Standing vs Fellowship"
 meta_title: "Standing vs Fellowship - Verdict vs Daily Closeness"
 description: "Standing with God is settled at faith; fellowship breaks when I sin and restores when I confess - two ledgers."
 key_concept: |
-  {{< bible "John 10:28" >}}
+  {{< bible "John 10:27-30" >}}
   Eternal life in His hand - no one snatches you out; standing stays settled even when closeness feels thin.
 
   [[Free Grace]] secured eternal life once.

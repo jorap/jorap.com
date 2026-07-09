@@ -1,6 +1,5 @@
 /**
- * Pure search match/rank helpers mirrored from assets/js/search.js.
- * ponytail: keep in sync when client search logic changes.
+ * Pure search match/rank helpers shared by the client UI and Node tests.
  */
 
 export const DEFAULT_SEARCH_OPTS = {
