@@ -14,9 +14,7 @@ key_concept: |
   - [[Justification]] is the verdict at faith.
   - [[Sanctification]] and [[Discipleship]] are the walk where works appear.
   - [[The Wise Builder]] is the picture: hear Jesus and do - sand collapses when hearing never becomes action.
-  - [[The Narrow Way]] and [[Loss of Reward]] split false "Lord, Lord" (never believed).
-  
-  - from a believer who stumbles, repents, and may lose reward but stays saved.
+  - [[The Narrow Way]] and [[Loss of Reward]] split false "Lord, Lord" (never believed) from a believer who stumbles, repents, and may lose reward but stays saved.
   
   - Faith alone saves me - good works follow, they never buy the ticket.
   

@@ -7,9 +7,7 @@ key_concept: |
   
   - Applies to PKM habits, fitness, and side projects.
   - More input past the dose is noise.
-  - Same shape in
-  - [[Free Grace]] and
-  - [[Justification]]: faith is the minimum sufficient act for eternal life not zero response, not a lifetime of merit stacked on top.
+  - Same shape in [[Free Grace]] and [[Justification]]: faith is the minimum sufficient act for eternal life - not zero response, not a lifetime of merit stacked on top.
   
   - The smallest change that still moves the needle - not the heroic overhaul.
 examples:

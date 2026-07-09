@@ -8,11 +8,9 @@ key_concept: |
   
   - Don't condemn souls, but do evaluate fruit - grapes from vines, not hype.
   
-  - Jesus pairs this with [[Judge Not]]: don't condemn souls, but do evaluate fruit
+  - Jesus pairs this with [[Judge Not]]: don't condemn souls, but do evaluate fruit.
   
-  - Wolves may wear sheep's clothing; time and results tell. Garden parallel: [[Signal vs Noise]] - what actually produces good over time? The [Issues](/notes/issues/).
-  
-  - audit - does the teaching leave the graph healthier or broken?
+  - Wolves may wear sheep's clothing; time and results tell. Garden parallel: [[Signal vs Noise]] - what actually produces good over time? The [Issues](/notes/issues/) audit - does the teaching leave the graph healthier or broken?
   
   - I check teachers by what their teaching produces, not by how polished the talk sounds.
   

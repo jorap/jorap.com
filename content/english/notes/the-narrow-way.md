@@ -11,9 +11,7 @@ key_concept: |
   - Not everyone who says Lord Lord enters - false profession vs believer who stumbles and may lose reward but stays saved.
   
   - In [[Free Grace]] terms, the narrow gate is [[Free Grace]] in Christ - not the broad road of self-righteousness, religion-by-works, or moral performance as salvation.
-  - Jesus closes the Sermon on the Mount with a fork: not everyone who says "Lord, Lord" enters
-  
-  - Those are false professors who never truly believed, not believers who stumbled - [[Loss of Reward]] may apply, but they stay saved.
+  - Jesus closes the Sermon on the Mount with a fork: not everyone who says "Lord, Lord" enters - those are false professors who never truly believed, not believers who stumbled - [[Loss of Reward]] may apply, but they stay saved.
   - [[Discipleship]] on the narrow path is costly - cross-bearing, enemy-love, truth-telling - but distinct from how eternal life is received: free, by faith, through grace.
   
   - The road to life is narrow and hard.

@@ -13,9 +13,7 @@ key_concept: |
   - Storms reveal which foundation held.
   - Under [[Free Grace]], doing isn't what saves - faith saves - but genuine hearing produces action.
   - [[Faith and Works]] names the order: works prove faith alive, they don't buy heaven.
-  - Empty "Lord, Lord" without doing the Father's will is the fool's house
-  
-  - see [[The Narrow Way]] and [[Loss of Reward]] for false profession vs believer who stumbles.
+  - Empty "Lord, Lord" without doing the Father's will is the fool's house - see [[The Narrow Way]] and [[Loss of Reward]] for false profession vs believer who stumbles.
   - PKM mirror: [[The Collector's Fallacy]] - hearing sermons and saving articles without [[Creative Output]] is sand; obedience and output are rock.
   
   - Doing isn't what saves - faith saves - but genuine hearing still produces action.

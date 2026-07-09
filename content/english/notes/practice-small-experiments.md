@@ -5,8 +5,7 @@ description: "Repeat the move, run tiny tests, learn fast - durable change beats
 key_concept: |
   - Big-bang rollouts look decisive and usually snap back by March.
   
-  - Practice small experiments means daily reps plus tests small enough to fail cheap one drill, one workflow tweak, one week trial
-  - then keep what works.
+  - Practice small experiments means daily reps plus tests small enough to fail cheap - one drill, one workflow tweak, one week trial - then keep what works.
   - [[Deliberate Practice]] is the rep lane; [[Minimum Effective Dose]] is the size cap; [[Failure as Feedback]] is how you read a miss without drama.
   
   - Repeat the move, run tiny tests, learn fast.

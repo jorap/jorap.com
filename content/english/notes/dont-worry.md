@@ -7,8 +7,7 @@ key_concept: |
   - Worry can't add an hour to your life - trust the Father who already feeds birds before you stack anxiety on tomorrow.
   
   - The antidote isn't denial - it's priority: [[Seek the Kingdom First]], and let tomorrow carry its own trouble.
-  - Trust is active dependence on a Father who already gave eternal life by [[Free Grace]]
-  - [[Assurance]] rests on that promise, not anxiety about earning His care.
+  - Trust is active dependence on a Father who already gave eternal life by [[Free Grace]] - [[Assurance]] rests on that promise, not anxiety about earning His care.
   - Overlap with [[Slow Productivity]]: fewer frantic masters, deeper attention on what actually matters.
   
   - Jesus told me not to stack worry on food, clothes, or tomorrow.

@@ -8,8 +8,7 @@ key_concept: |
   
   - Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation.
   - [[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life for faithfulness - not the entry fee.
-  - The [[Judgment Seat]] evaluates what lasts wood, hay, and stubble burn while gold lasts
-  - [[Loss of Reward]] is when worthless treasure burns but you're still saved through fire.
+  - The [[Judgment Seat]] evaluates what lasts - wood, hay, and stubble burn while gold lasts; [[Loss of Reward]] is when worthless treasure burns but you're still saved through fire.
   - [[The Collector's Fallacy]] is the PKM mirror: hoarding saves and stuff on earth while nothing lasting gets stored.
   
   - I store up what lasts.

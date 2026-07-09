@@ -8,8 +8,7 @@ key_concept: |
   
   - Abiding is ongoing dependence - pruning hurts but serves fruitfulness over time.
   
-  - Abiding is ongoing dependence, not a one-time conversion event
-  
+  - Abiding is ongoing dependence, not a one-time conversion event.
   - Pruning hurts but serves fruitfulness.
   - Under [[Free Grace]], fruit doesn't earn the branch's place in the vine - the branch bears fruit because it's connected.
   - [[Fruits of the Spirit]] names the cluster Galatians lists - love through self-control - grown by walking in the Spirit, not sheer willpower.

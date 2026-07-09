@@ -7,8 +7,7 @@ key_concept: |
   
   - Clients often won't.
   - Before I redirect them to WordPress, this is the middle path.
-  - Marketing volunteer, pastor's secretary, or family member can post updates
-  - still static HTML out the other end on free tier if deploy volume stays sane.
+  - Marketing volunteer, pastor's secretary, or family member can post updates - still static HTML out the other end on free tier if deploy volume stays sane.
   - Git stays source of truth; the CMS is just another commit path.
   - More setup than raw markdown (auth, config, media folders) quote it, don't tuck it in "theme tweaks."
   - **When it fits [[Static Site Client Scope]]:** one or two non-technical editors, occasional posts, no member login, no cart.

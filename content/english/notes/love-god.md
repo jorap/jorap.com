@@ -8,8 +8,7 @@ key_concept: |
   
   - Whole-person devotion beats a Sunday-only corner.
   
-  - Under [[Free Grace]], this is the first call on a life already saved by faith
-  - love flowing from grace received, not love offered as payment for eternal life.
+  - Under [[Free Grace]], this is the first call on a life already saved by faith - love flowing from grace received, not love offered as payment for eternal life.
   
   - First command, whole self - heart, mind, strength, not a corner of Sunday morning.
 examples:

@@ -5,9 +5,7 @@ description: "I design for real human needs first - customers, teammates, stakeh
 key_concept: |
   - A process that ignores the people inside it gets worked around by Friday.
   
-  - People-centered design keeps actual needs in front
-  - what slows a nurse down, what confuses a new hire, what a customer is trying to finish
-  - before I optimize the chart or the slide.
+  - People-centered design keeps actual needs in front - what slows a nurse down, what confuses a new hire, what a customer is trying to finish - before I optimize the chart or the slide.
   - [[Listen Before Fixing]] and [[Psychological Safety]] are prerequisites: you can't design for people you didn't hear.
   
   - I design for real human needs first.

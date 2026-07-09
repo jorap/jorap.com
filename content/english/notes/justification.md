@@ -12,8 +12,6 @@ key_concept: |
   
   {{< bible ref="Romans 4:4-5" emphasize="5" >}}
   
-  - Faith credited as righteousness
-  
   - Faith credited as righteousness for the one who believes, not the one who works the room.
   
   {{< bible ref="Romans 5:1-2" emphasize="1" >}}
