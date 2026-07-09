@@ -3,11 +3,11 @@ title: "Develop, Don't Endanger"
 meta_title: "Develop, Don't Endanger - Challenge Without Disproportionate Risk"
 description: "I push people to grow without picking drills where pain or risk replaces the actual skill."
 key_concept: |
-  Hard alone doesn't make an exercise worth running.
+  - Hard alone doesn't make an exercise worth running.
   
-  A demanding drill needs [[Purpose and Vision]], a measurable benefit, qualified supervision, and defined safety limits. When pain becomes the point, leaders start treating harm like proof of growth.
+  - A demanding drill needs [[Purpose and Vision]], a measurable benefit, qualified supervision, and defined safety limits. When pain becomes the point, leaders start treating harm like proof of growth.
   
-  I push people to grow without picking drills where pain or risk replaces the actual skill.
+  - I push people to grow without picking drills where pain or risk replaces the actual skill.
 examples:
   - "The clinic can drill fire evacuation with a walk-through - not by blocking the only exit and hoping everyone stays calm."
   - "A conditioning set can build endurance - an uncontrolled water exercise adds lethal risk without improving sport-specific performance; pick the drill that develops the skill."
@@ -74,3 +74,4 @@ cards:
     back: "Marked trail, water stops - build endurance safe."
 draft: false
 ---
+

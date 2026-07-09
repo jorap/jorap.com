@@ -322,8 +322,13 @@ def principle_line_pool(fm: dict) -> list[str]:
         chunks = [src.strip()]
         for block in src.strip().split("\n\n"):
             block = block.strip()
-            if block and "|" not in block:
-                chunks.append(block.replace("\n", " "))
+            if not block or "|" in block:
+                continue
+            if block.startswith("{{<"):
+                continue
+            if block.startswith("- "):
+                block = block[2:]
+            chunks.append(block.replace("\n", " "))
         for chunk in chunks:
             flat = WIKILINK_PLAIN.sub(r"\1", chunk)
             flat = " ".join(flat.replace("**", "").replace("*", "").replace("`", "").split())

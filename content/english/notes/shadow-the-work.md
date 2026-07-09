@@ -3,13 +3,13 @@ title: "Shadow the Work"
 meta_title: "Shadow the Work - Watch Real Use Before You Redesign"
 description: "I watch one person do the real job before I redraw the process or the slide."
 key_concept: |
-  Flowcharts lie politely - shadowing doesn't.
+  - Flowcharts lie politely - shadowing doesn't.
   
-  Shadow the work means sit with one nurse, one cashier, one new hire while they finish the task - then cut what actually slows them. [[People-Centered Design]] is the principle; this is the move. [[Listen Before Fixing]] hears the complaint; shadowing sees the friction they stopped mentioning because it's "just how it is."
+  - Shadow the work means sit with one nurse, one cashier, one new hire while they finish the task - then cut what actually slows them. [[People-Centered Design]] is the principle; this is the move. [[Listen Before Fixing]] hears the complaint; shadowing sees the friction they stopped mentioning because it's "just how it is."
   
-  I watch one person do the real job.
+  - I watch one person do the real job.
   
-  Before I redraw the process or the slide.
+  - Before I redraw the process or the slide.
 examples:
   - "The clinic cut three chart fields after I watched one nurse chart through a full shift - shadow the work beat a committee debating the template."
   - "I stood behind the counter for three lunch rushes before we removed the extra checkout tap - shadow the work showed where customers actually stalled."
@@ -58,3 +58,4 @@ cards:
     back: "Watch the work - flowcharts lie politely."
 draft: false
 ---
+

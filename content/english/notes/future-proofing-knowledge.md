@@ -3,11 +3,11 @@ title: "Future-Proofing Knowledge"
 meta_title: "Future-Proofing Knowledge - Boring Formats Win"
 description: "I future-proof notes with plain text, open tools, and exports I test before a vendor locks me in."
 key_concept: |
-  Future-proofing isn't predicting tech for me - it's plain text, open tools, and exports I test before I need them.
+  - Future-proofing isn't predicting tech for me - it's plain text, open tools, and exports I test before I need them.
   
-  [[Free Tier Hosting Stack]] client repos are markdown in git - portable if Cloudflare or I disappear; the content survives, hosting is swappable.
+  - [[Free Tier Hosting Stack]] client repos are markdown in git - portable if Cloudflare or I disappear; the content survives, hosting is swappable.
   
-  I future-proof notes with plain text, open tools, and exports I test before a vendor locks me in.
+  - I future-proof notes with plain text, open tools, and exports I test before a vendor locks me in.
 examples:
   - "Our family contacts list is plain text on the fridge backup folder - I copy it twice a year so future-proof isn't just a vibe."
   - "My notes live as plain text I can open anywhere; I test the backup drive before I need it, not after an app dies."
@@ -50,3 +50,4 @@ cards:
     back: "Index cards in a tin - portable either way."
 draft: false
 ---
+

@@ -3,15 +3,15 @@ title: "Slow the Moment"
 meta_title: "Slow the Moment - Urgency Shouldn't Erase Judgment"
 description: "I slow down one breath before I answer - urgency is real, but it shouldn't pick the move."
 key_concept: |
-  Pressure creates urgency, but urgency shouldn't erase judgment.
+  - Pressure creates urgency, but urgency shouldn't erase judgment.
   
-  Before you react, buy enough mental space to understand what's happening, weigh consequences, and choose on purpose - not on adrenaline.
+  - Before you react, buy enough mental space to understand what's happening, weigh consequences, and choose on purpose - not on adrenaline.
   
-  I slow down one breath before I answer.
+  - I slow down one breath before I answer.
   
-  Urgency is real, but it shouldn't pick the move.
+  - Urgency is real, but it shouldn't pick the move.
   
-  One deliberate breath buys room for a better second move.
+  - One deliberate breath buys room for a better second move.
 examples:
   - "Cut off in traffic, my first instinct matched horn for horn - slow the moment was one breath before I became the driver I hate."
   - "Before the free throw with the game on the line, the shooter took one breath - slow the moment bought the routine instead of the panic heave."
@@ -77,3 +77,4 @@ cards:
     back: "One breath - run the routine."
 draft: false
 ---
+

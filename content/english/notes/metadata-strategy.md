@@ -3,13 +3,13 @@ title: "Metadata Strategy"
 meta_title: "Metadata Strategy - Tags Without Taxonomy Hell"
 description: "If tagging a note takes longer than writing it, my system is fighting me."
 key_concept: |
-  Tags, categories, dates, aliases - metadata should help me find notes, not become a second job.
+  - Tags, categories, dates, aliases - metadata should help me find notes, not become a second job.
   
-  If tagging a note takes longer than writing it, my system is fighting me.
+  - If tagging a note takes longer than writing it, my system is fighting me.
   
-  Metadata earns its keep when I can find the note in ten seconds.
+  - Metadata earns its keep when I can find the note in ten seconds.
   
-  Light tags and aliases beat taxonomy hell inside PARA buckets.
+  - Light tags and aliases beat taxonomy hell inside PARA buckets.
 examples:
   - "I tagged every note with twelve labels and used none on search - cut to five I'd actually pick."
   - "The team wiki had forty categories; new hires filed everything under Misc within a week."
@@ -48,3 +48,4 @@ cards:
     back: "Plain words - not a second job of tags."
 draft: false
 ---
+

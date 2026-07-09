@@ -4,11 +4,11 @@ title: "Eternal Principles"
 meta_title: "Eternal Principles - Jesus' Teachings in the Garden"
 description: "What Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first."
 key_concept: |
-  I split them into one-claim notes so I can link and drill them like the rest of the garden.
+  - I split them into one-claim notes so I can link and drill them like the rest of the garden.
   
-  The ground is [[Free Grace]]: eternal life is God's gift by faith in Christ, not works. These principles aren't the price of heaven. They're how I try to live once I've already received it. Each spine note opens `key_concept` with Jesus' words on that principle (NASB 1995) - then JoRap commentary and cross-links. Start at [[Free Grace]] if the order matters. Then wander by section below. Gospel spine notes carry six review cards each - drill at [/notes/review/](/notes/review/) and filter by **Eternal Principles** (full deck), **Faith**, **Commandments**, **Ethics**, **Prayer**, **Priorities**, or **Discipleship** to match each section.
+  - The ground is [[Free Grace]]: eternal life is God's gift by faith in Christ, not works. These principles aren't the price of heaven. They're how I try to live once I've already received it. Each spine note opens `key_concept` with Jesus' words on that principle (NASB 1995) - then JoRap commentary and cross-links. Start at [[Free Grace]] if the order matters. Then wander by section below. Gospel spine notes carry six review cards each - drill at [/notes/review/](/notes/review/) and filter by **Eternal Principles** (full deck), **Faith**, **Commandments**, **Ethics**, **Prayer**, **Priorities**, or **Discipleship** to match each section.
   
-  What Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first.
+  - What Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first.
 shareable_thought:
   - "What Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first."
   - "I split them into one-claim notes so I can link and drill them like the rest of the garden."
@@ -31,6 +31,7 @@ aliases: ["Jesus teachings", "gospel principles"]
 featured: true
 draft: false
 ---
+
 ## Theological basis
 
 - [[Grace]] - For God so loved the world (John 3:16); gift I never earned

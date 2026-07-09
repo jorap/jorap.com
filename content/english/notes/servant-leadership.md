@@ -3,13 +3,13 @@ title: "Servant Leadership"
 meta_title: "Servant Leadership - Last Becomes First at Work"
 description: "I unblock the team, coach through the mess, take blame up, and pass credit down."
 key_concept: |
-  The corporate ladder rewards visibility; this principle runs the other way.
+  - The corporate ladder rewards visibility; this principle runs the other way.
   
-  Wash feet in the sprint, not only in the all-hands speech. Gospel depth: [[Humility and Service]]. I can explain this in a leadership book club without opening a sermon.
+  - Wash feet in the sprint, not only in the all-hands speech. Gospel depth: [[Humility and Service]]. I can explain this in a leadership book club without opening a sermon.
   
-  I unblock the team, coach through the mess, take blame up, and pass credit down.
+  - I unblock the team, coach through the mess, take blame up, and pass credit down.
   
-  Servant leadership has gospel depth in humility and service - greatness is serving, not being served.
+  - Servant leadership has gospel depth in humility and service - greatness is serving, not being served.
 examples:
   - "I had the title at home but noticed I was hoarding easy wins - servant leadership meant the messy bedtime shift while my partner got the break."
   - "I got promoted and realized I'd been grabbing credit for work the team carried - servant leadership was my name off the slide and hers on the praise email."
@@ -76,3 +76,4 @@ cards:
     back: "The busser - not me."
 draft: false
 ---
+

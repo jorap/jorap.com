@@ -3,13 +3,13 @@ title: "Complete the Cycle"
 meta_title: "Complete the Cycle - Work Isn't Done at the Main Action"
 description: "The meeting isn't done until recap, owners, dates, and verification close the loop."
 key_concept: |
-  The meeting isn't done until recap, owners, dates, and verification close the loop.
+  - The meeting isn't done until recap, owners, dates, and verification close the loop.
   
-  A decision without an owner and a date is still just talk - execution is where the loop actually starts.
+  - A decision without an owner and a date is still just talk - execution is where the loop actually starts.
   
-  Mistakes need correction, not ceremony - fix the process or the miss comes back next week.
+  - Mistakes need correction, not ceremony - fix the process or the miss comes back next week.
   
-  Verification closes the loop - if nobody checks it landed, the cycle never really finished.
+  - Verification closes the loop - if nobody checks it landed, the cycle never really finished.
 examples:
   - "Halftime talk ended with \"we'll fix the press tomorrow\" - I wrote the one drill on the whiteboard before anyone left the gym."
   - "Parent-teacher night ended with \"we'll email the action plan\" - the recap went out before anyone left the parking lot, names, dates, who owns what."
@@ -63,3 +63,4 @@ cards:
     back: "Name owner and deadline tonight."
 draft: false
 ---
+

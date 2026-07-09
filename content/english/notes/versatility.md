@@ -3,13 +3,13 @@ title: "Versatility"
 meta_title: "Versatility - More Than One Way to Contribute"
 description: "I can plug into more than one lane when the team or the client needs a shift."
 key_concept: |
-  You can contribute in more than one lane when the team or the market shifts.
+  - You can contribute in more than one lane when the team or the market shifts.
   
-  Nobody schedules the sick day or the rush - versatility is just having more than one answer ready when they hit.
+  - Nobody schedules the sick day or the rush - versatility is just having more than one answer ready when they hit.
   
-  I can plug into more than one lane when the team or the client needs a shift.
+  - I can plug into more than one lane when the team or the client needs a shift.
   
-  Versatility is staying useful across roles, tools, and contexts - not locked to one lane.
+  - Versatility is staying useful across roles, tools, and contexts - not locked to one lane.
 examples:
   - "The rush hit and I jumped on dishes while the line cook called tickets - versatile without pretending I suddenly ran the grill."
   - "Sick day meant I became lunch packer, tutor, and IT help - versatility is more than one lane when the day shifts."
@@ -47,3 +47,4 @@ cards:
     back: "Pick up the lane that opens - don't fake expertise."
 draft: false
 ---
+

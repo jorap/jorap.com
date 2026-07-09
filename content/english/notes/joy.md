@@ -3,13 +3,13 @@ title: "Joy"
 meta_title: "Joy - Gladness the Spirit Grows"
 description: "Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance."
 key_concept: |
-  Fruits of the Spirit names joy beside love and peace in one cluster.
+  - Fruits of the Spirit names joy beside love and peace in one cluster.
   
-  Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance.
+  - Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance.
   
-  Joy is grown by walking in the Spirit, not manufactured for credit. (Galatians 5:22).
+  - Joy is grown by walking in the Spirit, not manufactured for credit. (Galatians 5:22).
   
-  Performing joy while empty at home told me I was forcing fruit by will instead of abiding in Christ.
+  - Performing joy while empty at home told me I was forcing fruit by will instead of abiding in Christ.
 examples:
   - "Good week at work and I felt spiritually qualified - Galatians joy rests on Christ's promise, not the streak."
   - "Performing joy at church while empty at home told me I was manufacturing fruit - abide first, then gladness shows up."
@@ -61,3 +61,4 @@ cards:
     back: "Rest on promise first - gladness follows."
 draft: false
 ---
+

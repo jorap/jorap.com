@@ -3,15 +3,15 @@ title: "Set Calm Boundaries"
 meta_title: "Set Calm Boundaries - Limit the Behavior, Not the Person"
 description: "A calm boundary is one clear limit on behavior, named steady - not a character attack."
 key_concept: |
-  Limit the behavior. Keep the person.
+  - Limit the behavior. Keep the person.
   
-  One clear line in a steady voice - "that stops now" on the act, not a character attack. [[Emotional Regulation]] keeps me from mailing the first-draft rant; a calm boundary can [[Break the Escalation Cycle]] before snark feeds itself. Drama makes the line harder to hear tomorrow.
+  - One clear line in a steady voice - "that stops now" on the act, not a character attack. [[Emotional Regulation]] keeps me from mailing the first-draft rant; a calm boundary can [[Break the Escalation Cycle]] before snark feeds itself. Drama makes the line harder to hear tomorrow.
   
-  A calm boundary is one clear limit on behavior, named steady - not a character attack.
+  - A calm boundary is one clear limit on behavior, named steady - not a character attack.
   
-  Set calm boundaries and keep the person - firm line, steady voice, relationship intact.
+  - Set calm boundaries and keep the person - firm line, steady voice, relationship intact.
   
-  Set one clear line in a steady voice - boundaries work when tone stays readable under pressure.
+  - Set one clear line in a steady voice - boundaries work when tone stays readable under pressure.
 examples:
   - "A teammate kept trash-talking our own bench - I pulled him aside: \"Ride the refs if you want; don't go at our guys. That stops now.\" Same team, clear line."
   - "A client kept calling my personal cell after hours - \"I'll answer until six on this number; after that use the office line.\" No drama, no apology tour."
@@ -49,3 +49,4 @@ cards:
     back: "Six on this number - office line after."
 draft: false
 ---
+

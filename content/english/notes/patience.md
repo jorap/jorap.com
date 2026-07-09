@@ -3,13 +3,13 @@ title: "Patience"
 meta_title: "Patience - Slow Fuse the Spirit Grows"
 description: "I wait without turning brittle - the Spirit grows a slow fuse, not a countdown to snapping."
 key_concept: |
-  The Spirit doesn't shortcut the wait - it changes what waiting does to you, so the delay doesn't calcify into resentment (Galatians 5:22).
+  - The Spirit doesn't shortcut the wait - it changes what waiting does to you, so the delay doesn't calcify into resentment (Galatians 5:22).
   
-  [[Fruits of the Spirit]] names patience in the same cluster as gentleness and self-control - endurance under delay and providence because you're connected to the vine, not performing virtue. [[Slow the Moment]] is the garden echo: one beat before reaction buys the Spirit room to answer instead of the urge. [[Abide in Me]] is the engine; [[Sanctification]] is the slow becoming patience marks over years, not one willpower sprint Friday.
+  - [[Fruits of the Spirit]] names patience in the same cluster as gentleness and self-control - endurance under delay and providence because you're connected to the vine, not performing virtue. [[Slow the Moment]] is the garden echo: one beat before reaction buys the Spirit room to answer instead of the urge. [[Abide in Me]] is the engine; [[Sanctification]] is the slow becoming patience marks over years, not one willpower sprint Friday.
   
-  I wait without turning brittle.
+  - I wait without turning brittle.
   
-  The Spirit grows a slow fuse, not a countdown to snapping.
+  - The Spirit grows a slow fuse, not a countdown to snapping.
 examples:
   - "I snapped at my kid after a week with almost no prayer - Galatians patience comes from walking by the Spirit, not forcing virtue until Friday."
   - "Cut off in traffic, my first instinct matched horn for horn - patience fruit was one breath before I became the driver I hate."
@@ -64,3 +64,4 @@ cards:
     back: "Slow the moment - tone from Spirit."
 draft: false
 ---
+

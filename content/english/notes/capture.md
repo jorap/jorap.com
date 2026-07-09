@@ -3,13 +3,13 @@ title: "Capture"
 meta_title: "Capture - The First Step of Every Note System"
 description: "Save what resonates into one inbox I trust - then empty it weekly."
 key_concept: |
-  Friction kills capture.
+  - Friction kills capture.
   
-  One inbox, phone to desktop, weekly process - same as [[The Trusted Inbox]]. If I wouldn't act on it or cite it later, it doesn't get saved. Resonance is the filter, not FOMO.
+  - One inbox, phone to desktop, weekly process - same as [[The Trusted Inbox]]. If I wouldn't act on it or cite it later, it doesn't get saved. Resonance is the filter, not FOMO.
   
-  Save what resonates into one inbox I trust - then empty it weekly.
+  - Save what resonates into one inbox I trust - then empty it weekly.
   
-  Friction kills capture - if saving takes three taps, the idea dies before the inbox.
+  - Friction kills capture - if saving takes three taps, the idea dies before the inbox.
 examples:
   - "A play tweak hits during cooldown and I scribble it on my wristband before the locker room noise eats it - one inbox, file it Sunday when the spark is safe."
   - "On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it - one pocket notebook, no sorting yet."
@@ -60,3 +60,4 @@ cards:
     back: "Drop in one inbox - no tagging yet."
 draft: false
 ---
+

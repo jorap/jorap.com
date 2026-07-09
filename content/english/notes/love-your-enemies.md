@@ -4,11 +4,11 @@ meta_title: "Love Your Enemies - Jesus' Hard Command"
 description: "Love your enemies - bless, pray, reflect the Father who sends rain on just and unjust alike."
 key_concept: |
   {{< bible ref="Matthew 5:43-48" emphasize="44" >}}
-  Bless and pray for persecutors - the Father sends sun and rain on just and unjust; I copy that kindness.
-
-  Loving only people who love you back is ordinary; loving enemies is divine-shaped. Prayer and blessing are the practical handles - not agreement, not pretending harm didn't happen. The Father's free grace toward the unjust is the pattern: I love enemies because God loved me first.
-
-  Love your enemies - bless, pray, and do good without pretending the harm didn't happen.
+  - Bless and pray for persecutors - the Father sends sun and rain on just and unjust; I copy that kindness.
+  
+  - Loving only people who love you back is ordinary; loving enemies is divine-shaped. Prayer and blessing are the practical handles - not agreement, not pretending harm didn't happen. The Father's free grace toward the unjust is the pattern: I love enemies because God loved me first.
+  
+  - Love your enemies - bless, pray, and do good without pretending the harm didn't happen.
 examples:
   - "Someone slandered me in a group chat and my thumb hovered over a reply - I prayed for them, not because they deserve it, because that's what the Father does with people like me."
   - "My neighbor's honking got under my skin and I almost left a nasty note - I baked cookies instead and asked if everything was okay."
@@ -61,3 +61,4 @@ cards:
     back: "Father's kindness - bless both kinds."
 draft: false
 ---
+

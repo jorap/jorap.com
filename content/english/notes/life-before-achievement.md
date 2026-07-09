@@ -3,13 +3,13 @@ title: "Life Before Achievement"
 meta_title: "Life Before Achievement - No Goal Justifies Avoidable Death Risk"
 description: "Human life is non-negotiable - even when the goal is a championship or a reputation for toughness."
 key_concept: |
-  Those goals have value only while the methods used to reach them respect safety.
+  - Those goals have value only while the methods used to reach them respect safety.
   
-  Human life is non-negotiable - even when the goal is a championship or a reputation for toughness.
+  - Human life is non-negotiable - even when the goal is a championship or a reputation for toughness.
   
-  When an activity offers limited benefit but carries an avoidable risk of irreversible harm, leaders choose the safer course.
+  - When an activity offers limited benefit but carries an avoidable risk of irreversible harm, leaders choose the safer course.
   
-  Human life comes before the championship or the reputation for toughness.
+  - Human life comes before the championship or the reputation for toughness.
 examples:
   - "I said no to the backyard rope swing over concrete when a low tree branch and mat did the same fun with softer landings."
   - "The school canceled the cliff-jump field trip when the park picnic hit the same bonding goal without a credible risk of a broken leg."
@@ -61,3 +61,4 @@ cards:
     back: "Flat trail - achievement doesn't outrank life."
 draft: false
 ---
+

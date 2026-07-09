@@ -3,11 +3,11 @@ title: "Deep Work"
 meta_title: "Deep Work"
 description: "I protect uninterrupted blocks for hard thinking and let capture catch what tries to interrupt."
 key_concept: |
-  The block only works if it's actually protected - phone away, door closed, not just fewer tabs open.
+  - The block only works if it's actually protected - phone away, door closed, not just fewer tabs open.
   
-  I protect uninterrupted blocks for hard thinking and let capture catch what tries to interrupt.
+  - I protect uninterrupted blocks for hard thinking and let capture catch what tries to interrupt.
   
-  Hard thinking earns a protected block. Capture handles what tries to interrupt it.
+  - Hard thinking earns a protected block. Capture handles what tries to interrupt it.
 examples:
   - "Phone in the drawer while I help with math - one problem set actually finished instead of three distracted false starts."
   - "Phone in the gym bag for ninety minutes - one drill breakdown written that'd been \"almost done\" for weeks."
@@ -46,3 +46,4 @@ cards:
     back: "Draft it - one uninterrupted block."
 draft: false
 ---
+

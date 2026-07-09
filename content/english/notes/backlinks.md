@@ -5,13 +5,13 @@ title: "Backlinks"
 meta_title: "Backlinks Index"
 description: "Inbound wikilinks ranked by count - see which notes the garden treats as anchors. Pairs with [[Issues]], [[Random Duo]], and [[Create Note]]."
 key_concept: |
-  Find anchor notes by who links here - snippet context per backlink, not just a count.
+  - Find anchor notes by who links here - snippet context per backlink, not just a count.
   
-  Utility surface: link by URL from content notes, not `[[wikilinks]]`.
+  - Utility surface: link by URL from content notes, not `[[wikilinks]]`.
   
-  Inbound wikilinks ranked by count - see which notes the garden treats as anchors.
+  - Inbound wikilinks ranked by count - see which notes the garden treats as anchors.
   
-  Anchor notes are the ones other notes link to most - rank by inbound count.
+  - Anchor notes are the ones other notes link to most - rank by inbound count.
 shareable_thought:
   - "Inbound wikilinks ranked by count - see which notes the garden treats as anchors."
   - "Find anchor notes by who links here - snippet context per backlink, not just a count."
@@ -26,3 +26,4 @@ tags: ["Notes", "Meta", "Linking"]
 featured: false
 draft: false
 ---
+

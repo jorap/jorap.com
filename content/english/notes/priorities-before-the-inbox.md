@@ -3,13 +3,13 @@ title: "Priorities Before the Inbox"
 meta_title: "Priorities Before the Inbox - Real Work First"
 description: "Put the real priority first before email, Slack, and everyone else's urgency rewrite my morning."
 key_concept: |
-  The inbox is other people's priorities wearing a siren.
+  - The inbox is other people's priorities wearing a siren.
   
-  One block on the actual deliverable - spec, hard conversation, [[Deep Work]] - before I answer pings. Gospel source: [[Seek the Kingdom First]]. PKM parallel: [[Signal vs Noise]].
+  - One block on the actual deliverable - spec, hard conversation, [[Deep Work]] - before I answer pings. Gospel source: [[Seek the Kingdom First]]. PKM parallel: [[Signal vs Noise]].
   
-  Put the real priority first before email, Slack, and everyone else's urgency rewrite my morning.
+  - Put the real priority first before email, Slack, and everyone else's urgency rewrite my morning.
   
-  Priorities before the inbox means one protected block on the actual deliverable - email can wait its turn.
+  - Priorities before the inbox means one protected block on the actual deliverable - email can wait its turn.
 examples:
   - "Game film due Friday - I cut it before answering every parent group chat ping."
   - "The report was due at noon - I wrote the first page before opening Slack."
@@ -58,3 +58,4 @@ cards:
     back: "Book the slot before I scroll drama."
 draft: false
 ---
+

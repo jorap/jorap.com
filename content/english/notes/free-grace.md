@@ -4,33 +4,33 @@ meta_title: "Free Grace - Salvation by Faith Alone"
 description: "Eternal life is Christ's gift received by faith alone, not wages for commandments, principles, or good works."
 key_concept: |
   {{< bible ref="John 5:24-29" emphasize="24" >}}
-  Hear Christ's word and believe - you've crossed from death to life; judgment isn't hanging over your head.
-
+  - Hear Christ's word and believe - you've crossed from death to life; judgment isn't hanging over your head.
+  
   {{< bible ref="Ephesians 2:8-9" emphasize="9" >}}
-
-  Paul says the same gift out loud - saved by grace through faith, not your works, so nobody brags their way in.
-
+  
+  - Paul says the same gift out loud - saved by grace through faith, not your works, so nobody brags their way in.
+  
   {{< bible ref="Romans 4:4-5" emphasize="5" >}}
-
-  Faith credited as righteousness for the one who believes
-
-  Faith credited as righteousness - trust, not a merit report card, is what God counts.
-
+  
+  - Faith credited as righteousness for the one who believes
+  
+  - Faith credited as righteousness - trust, not a merit report card, is what God counts.
+  
   {{< bible ref="Ephesians 2:10" emphasize="10" >}}
-
-  Good works come after the gift - created in Christ for them, not to buy the ticket.
-
-  Christ paid what I couldn't. I receive eternal life by believing His promise - not by climbing a moral ladder. Same shape as [[Minimum Effective Dose]] for salvation: faith is the smallest act that still works - not zero effort, not a lifetime of merit. Every [[Eternal Principles]] Jesus taught flows from that ground: principles for how believers live in grateful response, pursue fellowship with God, and store up [[Eternal Rewards]] - never as currency to buy heaven. [[Loss of Reward]] keeps the categories straight when a believer wastes years or worthless works burn: salvation stays on Christ, reward may shrink. For we are His workmanship, created in Christ Jesus for good works, which God prepared beforehand so that we would walk in them
-
-  [[Justification]] is free and finished at faith; [[Sanctification]], [[Discipleship]], and forgiveness toward others belong to the walk after. [[Grateful Obedience]] names the posture: obey from thanks, not to qualify. [[Assurance]] and [[Standing vs Fellowship]] keep doubt from collapsing standing with closeness. [[Faith and Works]] keeps the lanes straight: works prove faith alive, they don't buy heaven.
-
-  Eternal life is Christ's gift received by faith alone, not wages for commandments, principles, or good works.
-
-  Grace is a gift I never earned - Christ paid what I couldn't.
-
-  Good works prove faith is alive - they never buy the ticket to heaven.
-
-  Faith is the smallest act that still works - not a lifetime of merit stacked on top.
+  
+  - Good works come after the gift - created in Christ for them, not to buy the ticket.
+  
+  - Christ paid what I couldn't. I receive eternal life by believing His promise - not by climbing a moral ladder. Same shape as [[Minimum Effective Dose]] for salvation: faith is the smallest act that still works - not zero effort, not a lifetime of merit. Every [[Eternal Principles]] Jesus taught flows from that ground: principles for how believers live in grateful response, pursue fellowship with God, and store up [[Eternal Rewards]] - never as currency to buy heaven. [[Loss of Reward]] keeps the categories straight when a believer wastes years or worthless works burn: salvation stays on Christ, reward may shrink. For we are His workmanship, created in Christ Jesus for good works, which God prepared beforehand so that we would walk in them
+  
+  - [[Justification]] is free and finished at faith; [[Sanctification]], [[Discipleship]], and forgiveness toward others belong to the walk after. [[Grateful Obedience]] names the posture: obey from thanks, not to qualify. [[Assurance]] and [[Standing vs Fellowship]] keep doubt from collapsing standing with closeness. [[Faith and Works]] keeps the lanes straight: works prove faith alive, they don't buy heaven.
+  
+  - Eternal life is Christ's gift received by faith alone, not wages for commandments, principles, or good works.
+  
+  - Grace is a gift I never earned - Christ paid what I couldn't.
+  
+  - Good works prove faith is alive - they never buy the ticket to heaven.
+  
+  - Faith is the smallest act that still works - not a lifetime of merit stacked on top.
 examples:
   - "A teammate listed every good deed this month like it was his ticket to heaven - I trust Christ's promise for eternal life, not my report card from the season."
   - "My kid thinks he has to be extra good the week before his birthday to \"deserve\" presents - grace doesn't work that way with God either; the gift's already decided before the behavior."
@@ -117,3 +117,4 @@ cards:
     back: "Gift through faith - not volunteer hours."
 draft: false
 ---
+

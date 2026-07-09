@@ -4,19 +4,19 @@ meta_title: "Sanctification - Becoming Holy After Faith"
 description: "After God declares me righteous, he keeps shaping my habits and heart - growth, not the ticket in."
 key_concept: |
   {{< bible ref="John 17:17-19" emphasize="17" >}}
-  Jesus asks the Father to make us holy through truth - Scripture shapes the slow becoming, not one heroic week.
-
-  [[Free Grace]] settles where I spend forever.
-
-  Sanctification settles who I'm becoming on the way. [[Grateful Obedience]] names the posture: grow from thanks, not to earn acceptance. [[Standing vs Fellowship]] keeps a fruitless week from feeling like revoked standing. [[Discipleship]] is the daily walk - hear Jesus, do what He said. [[Abide in Me]] names the engine: fruit from staying connected, not self-powered grit alone. [[Fruits of the Spirit]] names what that fruit looks like - love, joy, peace, patience, and the rest in Galatians 5. [[Eternal Rewards]] repays faithful obedience; [[Loss of Reward]] warns that a wasted season may shrink reward but doesn't un-save you. Sanctification is the slow becoming that obedience shapes. PKM mirror: [[Process Over Outcomes]] - daily faithfulness beats one heroic week I treat like proof I'm saved.
-
-  After God declares me righteous, he keeps shaping my habits and heart.
-
-  Growth, not the ticket in.
-
-  Sanctification is growth after faith - not the ticket that got me in the door.
-
-  Discipleship is the daily walk with Jesus - not a one-time decision I filed and forgot.
+  - Jesus asks the Father to make us holy through truth - Scripture shapes the slow becoming, not one heroic week.
+  
+  - [[Free Grace]] settles where I spend forever.
+  
+  - Sanctification settles who I'm becoming on the way. [[Grateful Obedience]] names the posture: grow from thanks, not to earn acceptance. [[Standing vs Fellowship]] keeps a fruitless week from feeling like revoked standing. [[Discipleship]] is the daily walk - hear Jesus, do what He said. [[Abide in Me]] names the engine: fruit from staying connected, not self-powered grit alone. [[Fruits of the Spirit]] names what that fruit looks like - love, joy, peace, patience, and the rest in Galatians 5. [[Eternal Rewards]] repays faithful obedience; [[Loss of Reward]] warns that a wasted season may shrink reward but doesn't un-save you. Sanctification is the slow becoming that obedience shapes. PKM mirror: [[Process Over Outcomes]] - daily faithfulness beats one heroic week I treat like proof I'm saved.
+  
+  - After God declares me righteous, he keeps shaping my habits and heart.
+  
+  - Growth, not the ticket in.
+  
+  - Sanctification is growth after faith - not the ticket that got me in the door.
+  
+  - Discipleship is the daily walk with Jesus - not a one-time decision I filed and forgot.
 examples:
   - "I knew the verse on anger and still lost it at dinner - sanctification is slow; my standing was settled at faith, and I'm still being changed."
   - "I treated my quiet-time streak like proof God accepts me - faith saves; sanctification grows me after, it doesn't re-open the verdict."
@@ -114,3 +114,4 @@ cards:
     back: "Daily sanctification - not one sprint."
 draft: false
 ---
+

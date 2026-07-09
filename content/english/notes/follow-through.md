@@ -3,13 +3,13 @@ title: "Follow-Through"
 meta_title: "Follow-Through - The Steps After the Promise"
 description: "Saying yes is cheap; follow-through is recap, owners, dates, and checking it actually landed."
 key_concept: |
-  The work after the handshake - recap, owners, dates, verification.
+  - The work after the handshake - recap, owners, dates, verification.
   
-  Saying yes is cheap; follow-through is recap, owners, dates, and checking it actually landed.
+  - Saying yes is cheap; follow-through is recap, owners, dates, and checking it actually landed.
   
-  Follow-through is the ticket, the check-in, and verification - not the enthusiasm at yes.
+  - Follow-through is the ticket, the check-in, and verification - not the enthusiasm at yes.
   
-  A yes without owners and dates is a promise with no delivery address.
+  - A yes without owners and dates is a promise with no delivery address.
 examples:
   - "\"I'll look into it\" without a date is how school projects die after the group chat goes quiet - follow-through is the recap with owners and dates before anyone leaves the parking lot."
   - "The captain said \"we'll fix the rotation\" without naming who covers which shift - follow-through was the recap with owners and dates before anyone left the gym."
@@ -54,3 +54,4 @@ cards:
     back: "follow-through was naming when and what I'd bring."
 draft: false
 ---
+

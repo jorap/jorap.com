@@ -3,13 +3,13 @@ title: "Steward After the Win"
 meta_title: "Steward After the Win - Keep Using the Gift"
 description: "An early win is entrusted, not a license to coast - keep using the gift through the quiet tail."
 key_concept: |
-  Launch day, promotion email, traffic spike - the temptation is to act like the hard part is done. [[Success is Stewardship]] says the win was entrusted: keep tending, sharing, and serving through the boring middle, not coast on what landed.
+  - Launch day, promotion email, traffic spike - the temptation is to act like the hard part is done. [[Success is Stewardship]] says the win was entrusted: keep tending, sharing, and serving through the boring middle, not coast on what landed.
   
-  [[Faithful Steward]] is the parable shape - well done for faithful use over years, buried talent for playing it safe after one good season. [[Finish Strong]] closes the last commitment; this note guards the gap right after the exciting start. [[Sustainable Performance]] is the pace lens - don't burn the gift in a victory lap sprint. [[Compounding]] is the PKM mirror: quiet Tuesdays after the spike still stack.
+  - [[Faithful Steward]] is the parable shape - well done for faithful use over years, buried talent for playing it safe after one good season. [[Finish Strong]] closes the last commitment; this note guards the gap right after the exciting start. [[Sustainable Performance]] is the pace lens - don't burn the gift in a victory lap sprint. [[Compounding]] is the PKM mirror: quiet Tuesdays after the spike still stack.
   
-  An early win is entrusted, not a license to coast.
+  - An early win is entrusted, not a license to coast.
   
-  Keep using the gift through the quiet tail.
+  - Keep using the gift through the quiet tail.
 examples:
   - "Promotion email landed Monday and by Thursday I was delegating the messy work and grabbing the visible wins - the title was for their good, not a trophy to coast on."
   - "Site traffic spiked after one post hit and I stopped publishing for two weeks - steward after the win meant three more notes shipped while the window was warm."
@@ -71,3 +71,4 @@ cards:
     back: "Steward the middle - don't coast."
 draft: false
 ---
+

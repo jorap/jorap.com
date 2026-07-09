@@ -3,13 +3,13 @@ title: "Reliability"
 meta_title: "Reliability - People Trust What Repeats"
 description: "Reliability is closing loops on time often enough that people stop asking twice."
 key_concept: |
-  Small reliability compounds - the person who's five minutes early every time gets trusted with the big thing eventually.
+  - Small reliability compounds - the person who's five minutes early every time gets trusted with the big thing eventually.
   
-  Reliability is closing loops on time often enough that people stop asking twice.
+  - Reliability is closing loops on time often enough that people stop asking twice.
   
-  Reliability is doing what you said, when you said, often enough that others can plan around you.
+  - Reliability is doing what you said, when you said, often enough that others can plan around you.
   
-  People stop chasing updates when you close loops without reminders.
+  - People stop chasing updates when you close loops without reminders.
 examples:
   - "The backup alarm texts if the freezer warms - I don't discover thawed meat at breakfast."
   - "Same opener on the gate every morning - neighbors trust it without calling to check."
@@ -47,3 +47,4 @@ cards:
     back: "Who says Tuesday 9 and actually shows."
 draft: false
 ---
+

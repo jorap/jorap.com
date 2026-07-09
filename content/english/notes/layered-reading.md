@@ -3,11 +3,11 @@ title: "Layered Reading"
 meta_title: "Layered Reading"
 description: "I don't read a book once and pretend I absorbed it - I pass through again when I need more."
 key_concept: |
-  Pass through the same source at increasing depth - skim, highlight, summarize.
+  - Pass through the same source at increasing depth - skim, highlight, summarize.
   
-  Skim first pass, mark second, extract third - same book, three depths, one sitting at a time.
+  - Skim first pass, mark second, extract third - same book, three depths, one sitting at a time.
   
-  I don't read a book once and pretend I absorbed it - I pass through again when I need more.
+  - I don't read a book once and pretend I absorbed it - I pass through again when I need more.
 examples:
   - "First pass on the coaching manual marked three sections; second pass only those got sentences in my own words."
   - "My kid skims the chapter for gist first, then rereads only the confusing paragraph a second time so she can actually explain it back to me."
@@ -44,3 +44,4 @@ cards:
     back: "Notebook pass on parts I'd cite later."
 draft: false
 ---
+

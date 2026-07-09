@@ -3,15 +3,15 @@ title: "Break the Escalation Cycle"
 meta_title: "Break the Escalation Cycle - Don't Match Snark with Snark"
 description: "Break the escalation cycle - don't match tone for tone when a sharp email lands; stop the loop first."
 key_concept: |
-  Not passivity - I can still set boundaries and name facts.
+  - Not passivity - I can still set boundaries and name facts.
   
-  I just refuse to become what hurt me in the thread. Stop throwing anger after sunk hurt. Gospel source: [[Turn the Other Cheek]]. PKM parallel: [[Sunk Cost Fallacy]].
+  - I just refuse to become what hurt me in the thread. Stop throwing anger after sunk hurt. Gospel source: [[Turn the Other Cheek]]. PKM parallel: [[Sunk Cost Fallacy]].
   
-  Break the escalation cycle - don't match tone for tone when a sharp email lands.
+  - Break the escalation cycle - don't match tone for tone when a sharp email lands.
   
-  Don't match tone for tone when a sharp email lands; stop the loop first.
+  - Don't match tone for tone when a sharp email lands; stop the loop first.
   
-  Stop throwing anger after sunk hurt - break the loop before tone for tone takes over.
+  - Stop throwing anger after sunk hurt - break the loop before tone for tone takes over.
 examples:
   - "A parent emailed the principal with a snarky line about our field trip delay - I deleted my matching draft, answered the fact, offered the new date, and broke the reply-all war before it started."
   - "My kid snapped first at dinner and I almost matched the volume - I named what happened, lowered my voice, and refused to pour fuel on it."
@@ -63,3 +63,4 @@ cards:
     back: "Facts and the plan only."
 draft: false
 ---
+

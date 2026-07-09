@@ -3,13 +3,13 @@ title: "Periodic Knowledge Review"
 meta_title: "Periodic Knowledge Review - Revisit on a Schedule"
 description: "If I never revisit notes, they rot - I calendar weekly and quarterly passes like I'd calendar bills."
 key_concept: |
-  Crisis review is always too late.
+  - Crisis review is always too late.
   
-  I calendar weekly and quarterly passes the way I'd calendar bills - inbox, active projects, evergreens on the clock, not when guilt spikes.
+  - I calendar weekly and quarterly passes the way I'd calendar bills - inbox, active projects, evergreens on the clock, not when guilt spikes.
   
-  If I never revisit notes, they rot.
+  - If I never revisit notes, they rot.
   
-  I calendar weekly and quarterly passes like I'd calendar bills.
+  - I calendar weekly and quarterly passes like I'd calendar bills.
 examples:
   - "First Sunday I reconcile the budget - not only when the card gets declined mid-commute."
   - "The clinic reviews charts every Friday at four - not only when a complaint lands."
@@ -48,3 +48,4 @@ cards:
     back: "Rhythm beats crisis review."
 draft: false
 ---
+

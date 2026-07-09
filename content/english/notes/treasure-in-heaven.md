@@ -4,15 +4,15 @@ meta_title: "Treasure in Heaven - Where Your Heart Follows"
 description: "I store up what lasts - generosity and obedience - not what rust, moth, and thieves can take."
 key_concept: |
   {{< bible ref="Matthew 6:19-21" emphasize="21" >}}
-  Earthly stuff rusts and gets stolen - where your treasure is, your heart follows; store what lasts.
-
-  Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation. [[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life for faithfulness - not the entry fee. The [[Judgment Seat]] evaluates what lasts; wood, hay, and stubble burn while gold lasts; [[Loss of Reward]] is when worthless treasure burns but you're still saved through fire. [[The Collector's Fallacy]] is the PKM mirror: hoarding saves and stuff on earth while nothing lasting gets stored.
-
-  I store up what lasts.
-
-  Generosity and obedience - not what rust, moth, and thieves can take.
-
-  Treasure in heaven means I store up what lasts - earthly trophies rust, kingdom storage doesn't.
+  - Earthly stuff rusts and gets stolen - where your treasure is, your heart follows; store what lasts.
+  
+  - Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation. [[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life for faithfulness - not the entry fee. The [[Judgment Seat]] evaluates what lasts; wood, hay, and stubble burn while gold lasts; [[Loss of Reward]] is when worthless treasure burns but you're still saved through fire. [[The Collector's Fallacy]] is the PKM mirror: hoarding saves and stuff on earth while nothing lasting gets stored.
+  
+  - I store up what lasts.
+  
+  - Generosity and obedience - not what rust, moth, and thieves can take.
+  
+  - Treasure in heaven means I store up what lasts - earthly trophies rust, kingdom storage doesn't.
 examples:
   - "Thumb on another buy I don't need - will this rust, or store something heaven-side like mercy and obedience?"
   - "I almost chased a sponsorship for the ego, not the team - treasure check: where will this matter in ten years?"
@@ -71,3 +71,4 @@ cards:
     back: "Will this rust - or store something that lasts?"
 draft: false
 ---
+

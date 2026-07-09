@@ -3,13 +3,13 @@ title: "Attention to Detail"
 meta_title: "Attention to Detail - Small Misses Become Big Failures"
 description: "I catch the typo and the edge case before they turn into an incident or a dumb customer email."
 key_concept: |
-  Attention to detail is catching the typo, edge case, and loose end before they become incidents.
+  - Attention to detail is catching the typo, edge case, and loose end before they become incidents.
   
-  I catch the typo and the edge case before they turn into an incident or a dumb customer email.
+  - I catch the typo and the edge case before they turn into an incident or a dumb customer email.
   
-  Small misses compound into incidents when nobody catches them early.
+  - Small misses compound into incidents when nobody catches them early.
   
-  The second look before it ships is cheaper than the fix after it's customer-facing.
+  - The second look before it ships is cheaper than the fix after it's customer-facing.
 examples:
   - "We almost threw the inbounds pass on the wrong side of the line because two hash marks looked identical - the second read of the court map caught it."
   - "The contractor's quote had two rooms swapped in the floor plan - I caught it comparing the invoice line-by-line against the walk-through notes, not by trusting the PDF looked right."
@@ -47,3 +47,4 @@ cards:
     back: "The boring second look beats the big mistake"
 draft: false
 ---
+

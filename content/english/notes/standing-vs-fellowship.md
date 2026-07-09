@@ -4,15 +4,15 @@ meta_title: "Standing vs Fellowship - Verdict vs Daily Closeness"
 description: "Standing with God is settled at faith; fellowship breaks when I sin and restores when I confess - two ledgers."
 key_concept: |
   {{< bible ref="John 10:27-30" emphasize="28" >}}
-  Eternal life in His hand - no one snatches you out; standing stays settled even when closeness feels thin.
-
-  [[Free Grace]] secured eternal life once.
-
-  Standing is the verdict: declared righteous on Christ, not re-opened by a bad week. Fellowship is closeness: joy, prayer, worship - choked by unconfessed sin, restored when I [[Repent and Believe]] and confess. [[Loss of Reward]] keeps reward-loss separate from salvation-loss; this note keeps fellowship-loss separate from standing-loss. [[Forgiveness]] toward others and [[Reconciliation Before Worship]] repair horizontal fellowship; confession repairs vertical. [[Sanctification]] keeps changing me without re-earning acceptance.
-
-  Standing with God is settled at faith; fellowship breaks when I sin and restores when I confess - two ledgers.
-
-  Free Grace secured eternal life once - standing stays settled even when fellowship feels distant.
+  - Eternal life in His hand - no one snatches you out; standing stays settled even when closeness feels thin.
+  
+  - [[Free Grace]] secured eternal life once.
+  
+  - Standing is the verdict: declared righteous on Christ, not re-opened by a bad week. Fellowship is closeness: joy, prayer, worship - choked by unconfessed sin, restored when I [[Repent and Believe]] and confess. [[Loss of Reward]] keeps reward-loss separate from salvation-loss; this note keeps fellowship-loss separate from standing-loss. [[Forgiveness]] toward others and [[Reconciliation Before Worship]] repair horizontal fellowship; confession repairs vertical. [[Sanctification]] keeps changing me without re-earning acceptance.
+  
+  - Standing with God is settled at faith; fellowship breaks when I sin and restores when I confess - two ledgers.
+  
+  - Free Grace secured eternal life once - standing stays settled even when fellowship feels distant.
 examples:
   - "I snapped at my kid and dread hit like God revoked my heaven ticket - standing was settled at faith; I confessed and walked the closeness back."
   - "Hidden sin exposed and shame screamed I'm not saved - justified on Christ already; fellowship needed repair, not a new salvation transaction."
@@ -80,3 +80,4 @@ cards:
     back: "Justification - standing on Christ stays."
 draft: false
 ---
+

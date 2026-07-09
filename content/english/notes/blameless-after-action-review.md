@@ -3,13 +3,13 @@ title: "Blameless After-Action Review"
 meta_title: "Blameless After-Action Review - Learn System Causes After Calm Returns"
 description: "After rollback restores service, I learn what broke in the system - not who to punish for pushing deploy."
 key_concept: |
-  [[Rollback Principle]] gets users back on the old build; blameless after-action review gets judgment back.
+  - [[Rollback Principle]] gets users back on the old build; blameless after-action review gets judgment back.
   
-  Same shape as [[Incident Investigation]] - trace system causes - but the culture rule is no scalpel hunts for a fall guy. [[Own the Error]] still means someone says "my call" in standup; the room fixes the runbook, not the person.
+  - Same shape as [[Incident Investigation]] - trace system causes - but the culture rule is no scalpel hunts for a fall guy. [[Own the Error]] still means someone says "my call" in standup; the room fixes the runbook, not the person.
   
-  After rollback restores service, I learn what broke in the system - not who to punish for pushing deploy.
+  - After rollback restores service, I learn what broke in the system - not who to punish for pushing deploy.
   
-  Fix the runbook after rollback - not the person who pushed deploy.
+  - Fix the runbook after rollback - not the person who pushed deploy.
 examples:
   - "Bad Friday deploy reverted by lunch - Monday after-action review traced the missing env var check, not which intern merged."
   - "After the equipment cart tipped twice we changed storage layout - debrief named the hazard, not \"trainer was clumsy.\""
@@ -64,3 +64,4 @@ cards:
     back: "Blameless after-action review before the third time"
 draft: false
 ---
+

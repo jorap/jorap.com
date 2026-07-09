@@ -3,11 +3,11 @@ title: "Staged Rollout"
 meta_title: "Staged Rollout - Ship to a Slice Before Everyone Is the Test"
 description: "I ship to a small slice first so rollback stays cheap if the new state bleeds."
 key_concept: |
-  Full-blast deploy turns every user into a test subject.
+  - Full-blast deploy turns every user into a test subject.
   
-  Staged rollout - preview branch, one table section, scrimmage Tuesday - keeps [[Reversibility]] real. [[Safety by Design]] at release time: harm hits fewer people before you commit the whole lane.
+  - Staged rollout - preview branch, one table section, scrimmage Tuesday - keeps [[Reversibility]] real. [[Safety by Design]] at release time: harm hits fewer people before you commit the whole lane.
   
-  I ship to a small slice first so rollback stays cheap if the new state bleeds.
+  - I ship to a small slice first so rollback stays cheap if the new state bleeds.
 examples:
   - "Cloudflare preview branch caught the broken layout before main - rollback was not touching production."
   - "New inbound play ran in scrimmage Tuesday before Friday's game - point guard reverted to last week's call at halftime without reinventing."
@@ -62,3 +62,4 @@ cards:
     back: "Old batch until first table clears"
 draft: false
 ---
+

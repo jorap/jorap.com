@@ -3,11 +3,11 @@ title: "Strategic Foresight"
 meta_title: "Strategic Foresight - See the Next Round Early"
 description: "Look past today's win to what happens after everyone reacts."
 key_concept: |
-  The scoreboard update happens whether or not you planned for it - foresight is being ready before it does.
+  - The scoreboard update happens whether or not you planned for it - foresight is being ready before it does.
   
-  Look past today's win to what happens after everyone reacts.
+  - Look past today's win to what happens after everyone reacts.
   
-  The board six months out - after everyone reacts - matters more than tonight's score.
+  - The board six months out - after everyone reacts - matters more than tonight's score.
 examples:
   - "The club signed a young backup keeper before the starter's contract year - foresight looks past this Saturday's win to next season's roster crunch."
   - "You don't buy a two-seat car the year before twins arrive - the board after everyone reacts to your life, not just today's trunk test."
@@ -49,3 +49,4 @@ cards:
     back: "Fund what's coming - not only tonight's quiet ride."
 draft: false
 ---
+

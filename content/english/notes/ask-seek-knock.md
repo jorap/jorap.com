@@ -4,17 +4,17 @@ meta_title: "Ask Seek Knock - Persistent Prayer"
 description: "Ask, seek, knock means prayer on schedule - not a one-time burst when desperation hits."
 key_concept: |
   {{< bible ref="Matthew 7:7" label="Matthew 7:7-11" emphasize="7" >}}
-  Keep asking, seeking, knocking - God gives like a parent who gives bread, not a stone.
-
-  Jesus compares God to a parent who gives bread, not a stone.
-
+  - Keep asking, seeking, knocking - God gives like a parent who gives bread, not a stone.
+  
+  - Jesus compares God to a parent who gives bread, not a stone.
+  
   {{< bible ref="Matthew 6:9-13" emphasize="10" >}}
-
-  Lord's Prayer order - Father's name, kingdom, will first, then daily bread and forgiveness.
-
-  [[Ask Seek Knock]] models priority: God's name, kingdom, will - then daily needs and forgiveness. Prayer isn't bargaining for merit; under [[Free Grace]] it's the dependent posture of a child who already belongs to the household. Same rhythm as [[Periodic Knowledge Review]] - keep showing up on schedule, not only in crisis.
-
-  Ask, seek, knock means prayer on schedule - not a one-time burst when desperation hits.
+  
+  - Lord's Prayer order - Father's name, kingdom, will first, then daily bread and forgiveness.
+  
+  - [[Ask Seek Knock]] models priority: God's name, kingdom, will - then daily needs and forgiveness. Prayer isn't bargaining for merit; under [[Free Grace]] it's the dependent posture of a child who already belongs to the household. Same rhythm as [[Periodic Knowledge Review]] - keep showing up on schedule, not only in crisis.
+  
+  - Ask, seek, knock means prayer on schedule - not a one-time burst when desperation hits.
 examples:
   - "I thumb-refresh the news about tomorrow's meeting instead of asking - prayer is dependence, not bargaining for merit I already have under grace."
   - "The clinic chaplain rounds every floor on a schedule, not only when someone codes - ask, seek, knock is keep showing up, not one crisis visit."
@@ -61,3 +61,4 @@ cards:
     back: "Seek in Scripture - open the Book."
 draft: false
 ---
+

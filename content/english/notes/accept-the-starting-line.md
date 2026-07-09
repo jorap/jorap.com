@@ -3,13 +3,13 @@ title: "Accept the Starting Line"
 meta_title: "Accept the Starting Line - Real Limits Before Real Targets"
 description: "I accept where I actually start - then pick targets that match, not fantasy."
 key_concept: |
-  Acceptance isn't quitting - it's refusing to plan for a person who doesn't exist yet.
+  - Acceptance isn't quitting - it's refusing to plan for a person who doesn't exist yet.
   
-  Accept the starting line means I name real limits this quarter - time, skill, bandwidth - before I promise the room a transformation. [[Honest Self-Awareness]] is the inventory; this note is the move: pick targets from the real line, not the inspirational poster. Faith parallel: [[Grace]] already settled standing - sanctification grows from where I am, not from pretending I arrived.
+  - Accept the starting line means I name real limits this quarter - time, skill, bandwidth - before I promise the room a transformation. [[Honest Self-Awareness]] is the inventory; this note is the move: pick targets from the real line, not the inspirational poster. Faith parallel: [[Grace]] already settled standing - sanctification grows from where I am, not from pretending I arrived.
   
-  I accept where I actually start.
+  - I accept where I actually start.
   
-  Then pick targets that match, not fantasy.
+  - Then pick targets that match, not fantasy.
 examples:
   - "I wanted fifty notes reviewed weekly and burned out in ten days - accept the starting line was ten minutes on the jeepney, then build from there."
   - "The team wanted a full platform migration by Q2 with one engineer - accept the starting line meant one service moved, not a slide deck pretending we had three hires."
@@ -67,3 +67,4 @@ cards:
     back: "Refuse to plan for a person who doesn't exist yet."
 draft: false
 ---
+

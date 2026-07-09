@@ -3,11 +3,11 @@ title: "Read Later Queue"
 meta_title: "Read Later Queue"
 description: "Save for later is fine until the queue turns into a guilt pile I'll never touch."
 key_concept: |
-  A parking lot for links you'll process later - dangerous if it becomes a graveyard.
+  - A parking lot for links you'll process later - dangerous if it becomes a graveyard.
   
-  Save-for-later is capture with a trap door - without a weekly drain it becomes guilt storage. [[The Collector's Fallacy]] names hoarding; [[The Trusted Inbox]] is the drain that saves the queue.
+  - Save-for-later is capture with a trap door - without a weekly drain it becomes guilt storage. [[The Collector's Fallacy]] names hoarding; [[The Trusted Inbox]] is the drain that saves the queue.
   
-  Save for later is fine until the queue turns into a guilt pile I'll never touch.
+  - Save for later is fine until the queue turns into a guilt pile I'll never touch.
 examples:
   - "I saved forty highlight reels and watched twelve - the queue was guilt storage, not training."
   - "Four hundred saved articles on my phone and I'd read twelve - parking lot, not reading."
@@ -46,3 +46,4 @@ cards:
     back: "Empty the queue - inbox drain."
 draft: false
 ---
+

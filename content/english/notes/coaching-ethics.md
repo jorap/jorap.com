@@ -3,13 +3,13 @@ title: "Coaching Ethics"
 meta_title: "Coaching Ethics"
 description: "Develop the person without hiding behind consent when the drill is unsafe or pointless."
 key_concept: |
-  Consent doesn't erase the job when the drill is unsafe.
+  - Consent doesn't erase the job when the drill is unsafe.
   
-  Develop the person without hiding behind consent when the drill is unsafe or pointless.
+  - Develop the person without hiding behind consent when the drill is unsafe or pointless.
   
-  Waivers protect against lawsuits, not against the drill actually hurting someone.
+  - Waivers protect against lawsuits, not against the drill actually hurting someone.
   
-  Unsafe or pointless drills still owe reasonable protection to people under your influence.
+  - Unsafe or pointless drills still owe reasonable protection to people under your influence.
 examples:
   - "The coach who said \"they signed the waiver\" after a near-drown wasn't coaching - he dodged [[Duty of Care]] when the drill was unsafe and pointless."
   - "The gym sold a dangerous cleanse because customers clicked agree - coaching ethics means you still owe reasonable protection to people under your influence."
@@ -54,3 +54,4 @@ cards:
     back: "Reasonable protection - consent isn't cover."
 draft: false
 ---
+

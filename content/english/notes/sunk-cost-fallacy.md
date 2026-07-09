@@ -3,13 +3,13 @@ title: "Sunk Cost Fallacy"
 meta_title: "Sunk Cost Fallacy - Past Effort Isn't a Reason to Continue"
 description: "I drop the bad tool or project when it stops earning its place - past effort is gone either way."
 key_concept: |
-  Past effort is gone.
+  - Past effort is gone.
   
-  I ask: if I found this today, would I start it? [[Forgiveness]] runs the same play on relational debt. [[Turn the Other Cheek]] adds the move: stop throwing more anger after sunk hurt.
+  - I ask: if I found this today, would I start it? [[Forgiveness]] runs the same play on relational debt. [[Turn the Other Cheek]] adds the move: stop throwing more anger after sunk hurt.
   
-  I drop the bad tool or project when it stops earning its place.
+  - I drop the bad tool or project when it stops earning its place.
   
-  Past effort is gone either way.
+  - Past effort is gone either way.
 examples:
   - "I kept running a set play that lost four straight because we'd drilled it all preseason - sunk cost is asking whether I keep it because it cost time, not because it still works."
   - "The shop kept the broken POS because they'd paid the install fee - forward question only: would I buy this system fresh today?"
@@ -55,3 +55,4 @@ cards:
     back: "Stop - don't finish because we started."
 draft: false
 ---
+

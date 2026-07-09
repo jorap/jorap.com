@@ -3,13 +3,13 @@ title: "Hierarchy of Controls"
 meta_title: "Hierarchy of Controls"
 description: "Remove the hazard first, then substitute, engineer, admin, PPE - in that order."
 key_concept: |
-  Eliminate the hazard before warnings, admin, or PPE.
+  - Eliminate the hazard before warnings, admin, or PPE.
   
-  Remove the hazard first, then substitute, engineer, admin, PPE - in that order.
+  - Remove the hazard first, then substitute, engineer, admin, PPE - in that order.
   
-  Guard rails beat signs when you can remove the hazard instead.
+  - Guard rails beat signs when you can remove the hazard instead.
   
-  Named rollback is a control layer before irreversible harm.
+  - Named rollback is a control layer before irreversible harm.
 examples:
   - "We removed the wet patch on the court instead of adding \"slow down\" signs - guard rails beat warnings; removing the hazard beats both."
   - "We taped down the rug corner instead of yelling \"watch your step\" every night - hierarchy of controls: eliminate first, then engineer, admin, PPE last."
@@ -48,3 +48,4 @@ cards:
     back: "Remove hazard first - then engineer, admin, PPE."
 draft: false
 ---
+

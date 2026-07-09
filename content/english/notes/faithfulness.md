@@ -3,13 +3,13 @@ title: "Faithfulness"
 meta_title: "Faithfulness - Steady Use the Spirit Grows"
 description: "The Spirit grows steady follow-through with what God gave me, not one heroic sprint I mistake for earned salvation."
 key_concept: |
-  Steady use of what God entrusted - time, gifts, opportunities - not one heroic week mistaken for proof you earned heaven (Galatians 5:22).
+  - Steady use of what God entrusted - time, gifts, opportunities - not one heroic week mistaken for proof you earned heaven (Galatians 5:22).
   
-  [[Fruits of the Spirit]] names faithfulness beside gentleness - reliable follow-through because the Spirit sustains the walk, not because merit bought your seat. [[Faithful Steward]] is the garden echo: well done for faithful use over quiet Tuesdays, not burying what He gave or performing for applause. [[Follow-Through]] is the workplace mirror - recap, owners, dates after you said yes. [[Eternal Rewards]] names what steady faithfulness may receive; [[Free Grace]] keeps it from becoming the entry fee.
+  - [[Fruits of the Spirit]] names faithfulness beside gentleness - reliable follow-through because the Spirit sustains the walk, not because merit bought your seat. [[Faithful Steward]] is the garden echo: well done for faithful use over quiet Tuesdays, not burying what He gave or performing for applause. [[Follow-Through]] is the workplace mirror - recap, owners, dates after you said yes. [[Eternal Rewards]] names what steady faithfulness may receive; [[Free Grace]] keeps it from becoming the entry fee.
   
-  The Spirit grows steady follow-through with what God gave me, not one heroic sprint I mistake for earned salvation.
+  - The Spirit grows steady follow-through with what God gave me, not one heroic sprint I mistake for earned salvation.
   
-  Steady use of what God entrusted - faithful over years, not one heroic week on the report card.
+  - Steady use of what God entrusted - faithful over years, not one heroic week on the report card.
 examples:
   - "One mission trip in my head as my whole eternal report card - faithfulness fruit is steady use over years, including Tuesdays nobody clapped for."
   - "I organized snacks for my kid's team and wanted credit all week - the master reviews faithful use, not buried gifts or performance."
@@ -64,3 +64,4 @@ cards:
     back: "Saved by faith - faithfulness follows."
 draft: false
 ---
+

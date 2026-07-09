@@ -3,13 +3,13 @@ title: "First Principles Thinking"
 meta_title: "First Principles Thinking in Your Notes"
 description: "First principles thinking is rebuilding from what I actually believe, not someone else's quote."
 key_concept: |
-  A saved quote isn't a principle until I rebuild the claim in my own words.
+  - A saved quote isn't a principle until I rebuild the claim in my own words.
   
-  The tell is whether you can defend the claim without citing the source - if you can't, you don't own it yet.
+  - The tell is whether you can defend the claim without citing the source - if you can't, you don't own it yet.
   
-  This isn't distrust of the source - it's that you can't explain, extend, or apply an idea you never rebuilt.
+  - This isn't distrust of the source - it's that you can't explain, extend, or apply an idea you never rebuilt.
   
-  First principles thinking is rebuilding from what I actually believe, not someone else's quote.
+  - First principles thinking is rebuilding from what I actually believe, not someone else's quote.
 examples:
   - "I kept quoting parenting advice from a podcast until I wrote what I actually believe about bedtime - first principles was my own claim, not someone else's quote."
   - "The HOA kept adding signs about parking until a neighbor asked why people park wrong - turns out we needed one marked loading zone, not five new rules."
@@ -54,3 +54,4 @@ cards:
     back: "Why do people park wrong - fix that first."
 draft: false
 ---
+

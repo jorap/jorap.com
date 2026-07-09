@@ -4,13 +4,13 @@ title: "Maps of Content"
 meta_title: "Maps of Content (MOC) - Index Pages That Think"
 description: "I write hub notes by hand when one topic spreads across too many files to hold in my head."
 key_concept: |
-  A MOC is a curated index of notes on a topic.
+  - A MOC is a curated index of notes on a topic.
   
-  I write hub notes by hand when one topic spreads across too many files to hold in my head.
+  - I write hub notes by hand when one topic spreads across too many files to hold in my head.
   
-  Write the hub by hand when the topic sprawls past what you can hold in memory.
+  - Write the hub by hand when the topic sprawls past what you can hold in memory.
   
-  A table of contents I write by hand beats whatever the folder tree implies.
+  - A table of contents I write by hand beats whatever the folder tree implies.
 shareable_thought:
   - "I write hub notes by hand when one topic spreads across too many files to hold in my head."
   - "A MOC is a curated index of notes on a topic."
@@ -26,6 +26,7 @@ aliases: ["MOC", "Table of Contents"]
 featured: true
 draft: false
 ---
+
 ## Maps
 
 ### Foundations

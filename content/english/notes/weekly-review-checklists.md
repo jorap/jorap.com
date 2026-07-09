@@ -3,13 +3,13 @@ title: "Weekly Review Checklists"
 meta_title: "Weekly Review Checklists - Same Steps Every Sunday"
 description: "Weekly review works when the same short checklist runs every Sunday on purpose."
 key_concept: |
-  The checklist should be boring on purpose.
+  - The checklist should be boring on purpose.
   
-  Weekly review works when the same short checklist runs every Sunday on purpose.
+  - Weekly review works when the same short checklist runs every Sunday on purpose.
   
-  Same steps every week: empty inbox, scan calendar, check projects, pick one express action.
+  - Same steps every week: empty inbox, scan calendar, check projects, pick one express action.
   
-  Skip the fancy template - repeat the same short list even on travel weeks.
+  - Skip the fancy template - repeat the same short list even on travel weeks.
 examples:
   - "Inbox, calendar, projects, one express action - twenty minutes beats skipping review because this week's \"different.\""
   - "Sunday checklist: bowl by the door, calendar, kid forms, one family thing to finish - same steps even on travel weeks, shortened not skipped."
@@ -56,3 +56,4 @@ cards:
     back: "Clear bag, check fixture, one skill drill."
 draft: false
 ---
+

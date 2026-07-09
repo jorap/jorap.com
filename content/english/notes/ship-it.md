@@ -3,13 +3,13 @@ title: "Ship It"
 meta_title: "Ship It"
 description: "I push the good-enough version live instead of polishing until the deadline owns me."
 key_concept: |
-  Publish the good-enough version instead of polishing forever.
+  - Publish the good-enough version instead of polishing forever.
   
-  Freelance parallel: [[Selling Static Sites]] - ship the first client site before the three-tier pricing PDF exists.
+  - Freelance parallel: [[Selling Static Sites]] - ship the first client site before the three-tier pricing PDF exists.
   
-  I push the good-enough version live instead of polishing until the deadline owns me.
+  - I push the good-enough version live instead of polishing until the deadline owns me.
   
-  Feedback on a live, flawed version teaches more in a week than another month of internal debate.
+  - Feedback on a live, flawed version teaches more in a week than another month of internal debate.
 examples:
   - "The menu went live with one typo fixed after service - customers ate tonight."
   - "We ran the new play ugly in scrimmage instead of drilling it another month."
@@ -60,3 +60,4 @@ cards:
     back: "Publish - feedback beats another draft month."
 draft: false
 ---
+

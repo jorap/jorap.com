@@ -4,19 +4,19 @@ meta_title: "Grace - Unmerited Favor from God"
 description: "Grace is gift I never earned starting with salvation and continuing through the walk after, not wages I could stack."
 key_concept: |
   {{< bible ref="John 3:16-18" emphasize="16" >}}
-  God didn't wait for me to earn it - He gave His Son so belief, not merit, decides where I spend forever.
-
-  [[Mercy]] withholds what I deserve; grace gives what I couldn't earn.
-
+  - God didn't wait for me to earn it - He gave His Son so belief, not merit, decides where I spend forever.
+  
+  - [[Mercy]] withholds what I deserve; grace gives what I couldn't earn.
+  
   {{< bible ref="Ephesians 2:1-5" emphasize="5" >}}
-
-  Paul names the same rescue from the dead side - alive with Christ by grace, not wages I stacked.
-
-  [[Free Grace]] is grace applied to eternal life: Christ paid what I couldn't; I receive by faith, not wages. [[Justification]] names the verdict grace triggers - declared righteous at faith. [[Sanctification]] and [[Grateful Obedience]] are grace after the gift: grow and obey from thanks, not to buy acceptance. [[Forgiveness]] flows the same way - forgive because grace already cleared my debt. [[Assurance]] and [[Standing vs Fellowship]] keep a bad week from collapsing standing with closeness. PKM mirror: [[Minimum Effective Dose]] - faith is the smallest act that still works for salvation; grace is why one sufficient gift beats a lifetime merit ladder.
-
-  Grace is gift I never earned starting with salvation and continuing through the walk after, not wages I could stack.
-
-  Grace and forgiveness flow the same way - gift received first, extension to others second.
+  
+  - Paul names the same rescue from the dead side - alive with Christ by grace, not wages I stacked.
+  
+  - [[Free Grace]] is grace applied to eternal life: Christ paid what I couldn't; I receive by faith, not wages. [[Justification]] names the verdict grace triggers - declared righteous at faith. [[Sanctification]] and [[Grateful Obedience]] are grace after the gift: grow and obey from thanks, not to buy acceptance. [[Forgiveness]] flows the same way - forgive because grace already cleared my debt. [[Assurance]] and [[Standing vs Fellowship]] keep a bad week from collapsing standing with closeness. PKM mirror: [[Minimum Effective Dose]] - faith is the smallest act that still works for salvation; grace is why one sufficient gift beats a lifetime merit ladder.
+  
+  - Grace is gift I never earned starting with salvation and continuing through the walk after, not wages I could stack.
+  
+  - Grace and forgiveness flow the same way - gift received first, extension to others second.
 examples:
   - "A teammate listed every good deed this month like it was his ticket to heaven - grace is the gift through faith, not the report card from the season."
   - "Romans 4 in my head but guilt still treats every bad week like a revoked passport - grace settled standing; the walk is a different category."
@@ -84,3 +84,4 @@ cards:
     back: "The gift saves - mercy spared wrath first."
 draft: false
 ---
+

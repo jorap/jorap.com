@@ -3,13 +3,13 @@ title: "Psychological Safety"
 meta_title: "Psychological Safety"
 description: "People can name mistakes and near-misses without fear of humiliation or retaliation."
 key_concept: |
-  Join their framing before you redirect the blame.
+  - Join their framing before you redirect the blame.
   
-  People can name mistakes and near-misses without fear of humiliation or retaliation.
+  - People can name mistakes and near-misses without fear of humiliation or retaliation.
   
-  Near-miss reports need gratitude, not punishment.
+  - Near-miss reports need gratitude, not punishment.
   
-  Thank the person for speaking up - silence teaches the next person to hide the miss.
+  - Thank the person for speaking up - silence teaches the next person to hide the miss.
 examples:
   - "My kid told me he broke the vase - I thanked him for saying it instead of making him dread confessing next time."
   - "I named the wrong turn to my carpool - nobody mocked it, so I speak up before the next missed exit."
@@ -63,3 +63,4 @@ cards:
     back: "Name mistakes without retaliation."
 draft: false
 ---
+

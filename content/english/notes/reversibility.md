@@ -3,15 +3,15 @@ title: "Reversibility"
 meta_title: "Reversibility"
 description: "Prefer choices you can undo - irreversible harm needs a higher bar."
 key_concept: |
-  Concrete undo path when the choice is a deploy or release.
+  - Concrete undo path when the choice is a deploy or release.
   
-  Prefer choices you can undo.
+  - Prefer choices you can undo.
   
-  Irreversible harm needs a higher bar.
+  - Irreversible harm needs a higher bar.
   
-  Staged Rollout names small blast radius makes undo cheap.
+  - Staged Rollout names small blast radius makes undo cheap.
   
-  Reversibility means irreversible harm needs a higher bar before I commit - undo when I can, slow down when I can't.
+  - Reversibility means irreversible harm needs a higher bar before I commit - undo when I can, slow down when I can't.
 examples:
   - "I took the longer route with an exit every mile before trying the new shortcut through construction."
   - "Try the new play in scrimmage before running it in the championship - reversible rehearsal, higher bar for the irreversible call."
@@ -56,3 +56,4 @@ cards:
     back: "Not the zero guard first."
 draft: false
 ---
+

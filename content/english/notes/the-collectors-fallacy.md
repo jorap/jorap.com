@@ -3,11 +3,11 @@ title: "The Collector's Fallacy"
 meta_title: "The Collector's Fallacy - Saving Isn't Learning"
 description: "Saving articles felt like progress until I tied every save to an express deadline or cut it."
 key_concept: |
-  Collecting articles feels like progress - tie saves to express deadlines or cut them.
+  - Collecting articles feels like progress - tie saves to express deadlines or cut them.
   
-  Saving articles felt like progress until I tied every save to an express deadline or cut it.
+  - Saving articles felt like progress until I tied every save to an express deadline or cut it.
   
-  Every save needs a ship date or a delete date.
+  - Every save needs a ship date or a delete date.
 examples:
   - "My recipe folder had forty saved dinners and we still ordered takeout three nights a week until I tied every save to one cooked meal."
   - "My folder had forty highlight reels and we still ran the same broken play - saving felt like improving; it wasn't until one clip became Tuesday's drill."
@@ -54,3 +54,4 @@ cards:
     back: "What will I make with this?"
 draft: false
 ---
+

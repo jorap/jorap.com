@@ -4,19 +4,19 @@ meta_title: "Present a Living Sacrifice - Romans 12:1 Worship"
 description: "I offer my ordinary day to God first - thanks after mercy, not payment to earn grace."
 key_concept: |
   {{< bible ref="Matthew 16:24-26" emphasize="26" >}}
-  Following Jesus costs self-denial and a cross - not suffering theater, daily surrender of my will to His.
-
+  - Following Jesus costs self-denial and a cross - not suffering theater, daily surrender of my will to His.
+  
   {{< bible "Romans 12:1" >}}
-
-  Paul pictures the same move as worship that's alive - my Tuesday and my body offered after mercy received.
-
-  [[Mercy]] received first - I urge you, brethren, by the mercies of God, to present your bodies a living and holy sacrifice, acceptable to God, which is your spiritual service of worship
-
-  Not a dead bull on an altar - my body, my Tuesday, my choices offered as worship that's alive.
-
-  [[Grateful Obedience]] names the motive: offer because Christ already saved me, not to buy the ticket. [[Renewed Mind]] is the paired move in verse 2 - sacrifice without a mind being reshaped becomes performance theater. [[Take Up Your Cross]] is daily death to self-will in the same lane. PKM mirror: [[Process Over Outcomes]] - faithful offering on ordinary Tuesdays beats one heroic retreat week I treat like proof I'm saved.
-
-  I offer my ordinary day to God first - thanks after mercy, not payment to earn grace.
+  
+  - Paul pictures the same move as worship that's alive - my Tuesday and my body offered after mercy received.
+  
+  - [[Mercy]] received first - I urge you, brethren, by the mercies of God, to present your bodies a living and holy sacrifice, acceptable to God, which is your spiritual service of worship
+  
+  - Not a dead bull on an altar - my body, my Tuesday, my choices offered as worship that's alive.
+  
+  - [[Grateful Obedience]] names the motive: offer because Christ already saved me, not to buy the ticket. [[Renewed Mind]] is the paired move in verse 2 - sacrifice without a mind being reshaped becomes performance theater. [[Take Up Your Cross]] is daily death to self-will in the same lane. PKM mirror: [[Process Over Outcomes]] - faithful offering on ordinary Tuesdays beats one heroic retreat week I treat like proof I'm saved.
+  
+  - I offer my ordinary day to God first - thanks after mercy, not payment to earn grace.
 examples:
   - "I stacked volunteer hours to feel acceptable again after a bad week - Romans 12:1 is living sacrifice from mercy already received, not a down payment on salvation."
   - "The player taped her wrist before warm-up like the game was an offering, not a tryout for worth - same move at the desk: this Tuesday is worship, not a performance review with God."
@@ -69,3 +69,4 @@ cards:
     back: "Saved first - offer the day from thanks."
 draft: false
 ---
+

@@ -3,13 +3,13 @@ title: "Expect the Counter"
 meta_title: "Expect the Counter - Prepare for the Second Move"
 description: "I plan what happens after the other side adapts, not just how my opening move looks on paper."
 key_concept: |
-  I plan what happens after the other side adapts, not just how my opening move looks on paper.
+  - I plan what happens after the other side adapts, not just how my opening move looks on paper.
   
-  The opening move isn't the game - they adapt, and I need a second plan ready.
+  - The opening move isn't the game - they adapt, and I need a second plan ready.
   
-  Rehearse the second move before tip-off, not only the play that looks good on paper.
+  - Rehearse the second move before tip-off, not only the play that looks good on paper.
   
-  Don't cling to a tactic because it worked once - that's when the counter hurts most.
+  - Don't cling to a tactic because it worked once - that's when the counter hurts most.
 examples:
   - "I offered extra screen time for chores and my kid negotiated harder tasks by day three - I should've asked what happens after they adapt, not only rehearsed the opening bribe."
   - "A restaurant drops lunch prices and the place across the street matches by Friday - the first move isn't the game; we built regulars before the copy arrived."
@@ -54,3 +54,4 @@ cards:
     back: "Built a backup look before tip-off."
 draft: false
 ---
+

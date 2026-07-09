@@ -3,13 +3,13 @@ title: "Outcomes Over Pitch Decks"
 meta_title: "Outcomes Over Pitch Decks - Judge Ideas by Fruit"
 description: "Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura."
 key_concept: |
-  Smooth talkers ship thorns sometimes.
+  - Smooth talkers ship thorns sometimes.
   
-  I look at downstream stress, turnover, delivery, and whether the team got healthier or more brittle. On [[Static Site Client Scope]], same filter: pick WordPress or Shopify when the fruit requires it - don't sell [[Free Tier Hosting Stack]] because it's my favorite hammer. Don't condemn souls; do read the fruit. Gospel source: [[By Their Fruits]]. PKM parallel: [[Signal vs Noise]].
+  - I look at downstream stress, turnover, delivery, and whether the team got healthier or more brittle. On [[Static Site Client Scope]], same filter: pick WordPress or Shopify when the fruit requires it - don't sell [[Free Tier Hosting Stack]] because it's my favorite hammer. Don't condemn souls; do read the fruit. Gospel source: [[By Their Fruits]]. PKM parallel: [[Signal vs Noise]].
   
-  Don't condemn souls; do read the fruit over time.
+  - Don't condemn souls; do read the fruit over time.
   
-  Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura.
+  - Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura.
 examples:
   - "The trainer's Instagram was polished - I asked two parents who finished the program about injuries and consistency."
   - "The contractor's portfolio was gorgeous - I asked two neighbors who lived through the remodel about permit fights and cracked tile."
@@ -55,3 +55,4 @@ cards:
     back: "Ask my neighbor his real bill."
 draft: false
 ---
+

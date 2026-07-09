@@ -3,11 +3,11 @@ title: "Continuous Improvement"
 meta_title: "Continuous Improvement - Small Fixes That Compound"
 description: "Each miss becomes one tweak to the process, not a lecture about trying harder."
 key_concept: |
-  Small fixes to how you work, repeated - each miss feeds the next version of the process.
+  - Small fixes to how you work, repeated - each miss feeds the next version of the process.
   
-  Each miss becomes one tweak to the process, not a lecture about trying harder.
+  - Each miss becomes one tweak to the process, not a lecture about trying harder.
   
-  Continuous improvement is steady small upgrades to process and skill - not one heroic overhaul.
+  - Continuous improvement is steady small upgrades to process and skill - not one heroic overhaul.
 examples:
   - "I tweak one line in my weekly review checklist after each miss - steady small upgrades beat the heroic overhaul I never schedule."
   - "The barista changed one milk-steaming step after every burned latte - kaizen in the steam wand, not a grand retraining day that never happens."
@@ -61,3 +61,4 @@ cards:
     back: "Small fixes daily, not one yearly overhaul"
 draft: false
 ---
+

@@ -3,11 +3,11 @@ title: "Mobile Capture Workflows"
 meta_title: "Mobile Capture Workflows - Save It Before You Scroll Away"
 description: "Mobile capture is one tap to save the spark before I scroll away - share sheet to inbox."
 key_concept: |
-  Twelve taps kills the spark.
+  - Twelve taps kills the spark.
   
-  On mobile, friction is the enemy - most ideas die between the notification and the app switch. I shrunk capture to share sheet → inbox, same lane as [[Capture]]: save first, sort never. Voice memo on the bench, one tap at the jeepney stop - the stake is the third quarter wiping what halftime almost saved.
+  - On mobile, friction is the enemy - most ideas die between the notification and the app switch. I shrunk capture to share sheet → inbox, same lane as [[Capture]]: save first, sort never. Voice memo on the bench, one tap at the jeepney stop - the stake is the third quarter wiping what halftime almost saved.
   
-  Mobile capture is one tap to save the spark before I scroll away - share sheet to inbox.
+  - Mobile capture is one tap to save the spark before I scroll away - share sheet to inbox.
 examples:
   - "Halftime idea on the bench - I voice-memo'd it before the third quarter wiped it."
   - "Jeepney stop, blog idea hits - one tap to notes before the next ride shakes it out of my head."
@@ -43,3 +43,4 @@ cards:
     back: "Share sheet to inbox before the next text buries it"
 draft: false
 ---
+

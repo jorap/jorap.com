@@ -33,6 +33,10 @@ def load_fm(raw_fm: str) -> dict:
     return data if isinstance(data, dict) else {}
 
 
+BIBLE_RE = re.compile(r"^\s*\{\{<\s*bible\b", re.I)
+BULLET_RE = re.compile(r"^\s*-\s+")
+TABLE_RE = re.compile(r"^\s*\|")
+
 MAX_DESCRIPTION_WORDS = 20
 MAX_SHAREABLE_LINE_CHARS = 130
 SHAREABLE_LINE_COUNT = 4
@@ -110,6 +114,23 @@ def lint_shareable_thought(path: Path, fm: dict) -> list[str]:
     return errs
 
 
+def lint_key_concept_bullets(path: Path, fm: dict) -> list[str]:
+    """key_concept prose must be bullets; bible shortcodes and tables stay bare."""
+    if fm.get("note_kind", "note") in {"meta", "index"}:
+        return []
+    kc = fm.get("key_concept")
+    if not isinstance(kc, str) or not kc.strip():
+        return []
+    for line in kc.splitlines():
+        stripped = line.strip()
+        if not stripped:
+            continue
+        if BIBLE_RE.match(stripped) or TABLE_RE.match(stripped) or BULLET_RE.match(stripped):
+            continue
+        return [f"FAIL key_concept prose not bulleted: {path.name}"]
+    return []
+
+
 def lint_description(path: Path, fm: dict) -> list[str]:
     """description = memorable one-breath definition; no wikilinks, <=20 words."""
     if fm.get("note_kind", "note") in {"meta", "index"}:
@@ -149,6 +170,9 @@ def verify() -> int:
             print(msg)
             bad += 1
         for msg in lint_description(path, fm):
+            print(msg)
+            bad += 1
+        for msg in lint_key_concept_bullets(path, fm):
             print(msg)
             bad += 1
         for msg in lint_shareable_thought(path, fm):

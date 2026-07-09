@@ -3,13 +3,13 @@ title: "People-Centered Design"
 meta_title: "People-Centered Design - Human Needs First or Change Won't Stick"
 description: "I design for real human needs first - customers, teammates, stakeholders - or the change won't stick."
 key_concept: |
-  A process that ignores the people inside it gets worked around by Friday.
+  - A process that ignores the people inside it gets worked around by Friday.
   
-  People-centered design keeps actual needs in front - what slows a nurse down, what confuses a new hire, what a customer is trying to finish - before I optimize the chart or the slide. [[Listen Before Fixing]] and [[Psychological Safety]] are prerequisites: you can't design for people you didn't hear.
+  - People-centered design keeps actual needs in front - what slows a nurse down, what confuses a new hire, what a customer is trying to finish - before I optimize the chart or the slide. [[Listen Before Fixing]] and [[Psychological Safety]] are prerequisites: you can't design for people you didn't hear.
   
-  I design for real human needs first.
+  - I design for real human needs first.
   
-  Customers, teammates, stakeholders - or the change won't stick.
+  - Customers, teammates, stakeholders - or the change won't stick.
 examples:
   - "The clinic rolled out a new chart template nobody could finish during a shift - people-centered design was watching one nurse chart for twenty minutes, then cutting three fields."
   - "Our checkout 'improvement' added steps customers hated - people-centered design was shadowing three checkouts and removing the extra tap, not defending the flowchart."
@@ -64,3 +64,4 @@ cards:
     back: "Hear the need first - then ship the fix."
 draft: false
 ---
+

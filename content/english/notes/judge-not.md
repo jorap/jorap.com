@@ -4,17 +4,17 @@ meta_title: "Judge Not - Speck and Plank"
 description: "I don't play final judge on souls - I pull my own plank before nitpicking someone's speck."
 key_concept: |
   {{< bible ref="Matthew 7:1-5" emphasize="5" >}}
-  Don't play final judge on souls - pull your plank before you nitpick someone's speck.
-
+  - Don't play final judge on souls - pull your plank before you nitpick someone's speck.
+  
   {{< bible ref="Matthew 7:16-20" emphasize="20" >}}
-
-  Still judge fruit - outcomes over time tell you what's underneath the hype.
-
-  Jesus forbids harsh, hypocritical condemnation - the kind that ignores my own guilt while magnifying yours. He doesn't forbid all moral discernment: the same sermon names fruit too.
-
-  Garden parallel: the [Issues](/notes/issues/) page lists broken wikilinks to fix - diagnose the graph, don't condemn the author. [[Mercy]] and [[Free Grace]] remind me I stood on mercy first.
-
-  I don't play final judge on souls - I pull my own plank before nitpicking someone's speck.
+  
+  - Still judge fruit - outcomes over time tell you what's underneath the hype.
+  
+  - Jesus forbids harsh, hypocritical condemnation - the kind that ignores my own guilt while magnifying yours. He doesn't forbid all moral discernment: the same sermon names fruit too.
+  
+  - Garden parallel: the [Issues](/notes/issues/) page lists broken wikilinks to fix - diagnose the graph, don't condemn the author. [[Mercy]] and [[Free Grace]] remind me I stood on mercy first.
+  
+  - I don't play final judge on souls - I pull my own plank before nitpicking someone's speck.
 examples:
   - "I spotted my teammate's travel in five seconds and missed my own lazy dribble - judge not starts with the log in my eye."
   - "I spotted a coworker's missed step in five seconds and missed my own plank for a month - Jesus wasn't saying ignore sin; He was saying remove your plank first."
@@ -57,3 +57,4 @@ cards:
     back: "Fix my plank - audit myself first."
 draft: false
 ---
+

@@ -3,11 +3,11 @@ title: "Static Site Client Scope"
 meta_title: "Static Site Client Scope - What Fits the Static Stack"
 description: "Static sites fit text and images on git push - not live databases or mystery WordPress admins."
 key_concept: |
-  Scope the sales call before I quote [[Selling Static Sites]] - say no to bad fits in the room, not after deposit.
+  - Scope the sales call before I quote [[Selling Static Sites]] - say no to bad fits in the room, not after deposit.
   
-  **Good fits:** portfolio, org brochure, small business presence, project docs, blog where owner learns Git or pays retainer. **Bad fits:** e-commerce you host, member login, booking engines, five daily non-technical editors with no retainer. Redirect honestly to Shopify, WordPress, or a dynamic stack. [[Outcomes Over Pitch Decks]] - pick by fruit, not by what I want to sell. **Before I quote, ask:** who updates content and how often? Anything private behind login? Real-time database changes? Cart or checkout I must host? What if I'm unavailable a month? Two or more dynamic yes answers → not this stack. [[Plain Commitments at Work]]: say no in the room, not after deposit. **Updates that still fit static:** owner learns Git via [[Client Site Pass-Off]]; retainer batches; [[Git-Based CMS]] when buttons beat terminal; seasonal pages; external embeds (donate link, Formspree, Calendly) where the site stays static and the tool carries the dynamic part. [[Minimum Effective Dose]]: smallest site that solves the job - don't force Hugo where WordPress was honest.
+  - **Good fits:** portfolio, org brochure, small business presence, project docs, blog where owner learns Git or pays retainer. **Bad fits:** e-commerce you host, member login, booking engines, five daily non-technical editors with no retainer. Redirect honestly to Shopify, WordPress, or a dynamic stack. [[Outcomes Over Pitch Decks]] - pick by fruit, not by what I want to sell. **Before I quote, ask:** who updates content and how often? Anything private behind login? Real-time database changes? Cart or checkout I must host? What if I'm unavailable a month? Two or more dynamic yes answers → not this stack. [[Plain Commitments at Work]]: say no in the room, not after deposit. **Updates that still fit static:** owner learns Git via [[Client Site Pass-Off]]; retainer batches; [[Git-Based CMS]] when buttons beat terminal; seasonal pages; external embeds (donate link, Formspree, Calendly) where the site stays static and the tool carries the dynamic part. [[Minimum Effective Dose]]: smallest site that solves the job - don't force Hugo where WordPress was honest.
   
-  Static sites fit text and images on git push - not live databases or mystery WordPress admins.
+  - Static sites fit text and images on git push - not live databases or mystery WordPress admins.
 examples:
   - "Cafe owner wanted online ordering - out of scope; menu page plus link to existing delivery app."
   - "Gym wanted class schedule from booking SaaS - embed the vendor widget; static shell around it was fine."
@@ -58,3 +58,4 @@ cards:
     back: "Yes, static, live in a week"
 draft: false
 ---
+

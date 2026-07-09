@@ -4,9 +4,9 @@ title: "Getting Started"
 meta_title: "Getting Started - Notes Garden"
 description: "I keep one clear claim per note page and let wikilinks plus [/notes/](/notes/) do the browsing."
 key_concept: |
-  Public when `draft: false`; hidden while `draft: true`.
+  - Public when `draft: false`; hidden while `draft: true`.
   
-  Each note opens with a definition I can quote in one breath - the graph and backlinks do the organizing. Start at [[Maps of Content]] or walk through the steps below. Paid client sites use the same Hugo-plus-git lane - hub: [[Selling Static Sites]]. Faith parallel: [[Childlike Faith]] - beginner posture; receive the guide, don't perform expertise on day one.
+  - Each note opens with a definition I can quote in one breath - the graph and backlinks do the organizing. Start at [[Maps of Content]] or walk through the steps below. Paid client sites use the same Hugo-plus-git lane - hub: [[Selling Static Sites]]. Faith parallel: [[Childlike Faith]] - beginner posture; receive the guide, don't perform expertise on day one.
 shareable_thought:
   - "Public when draft: false; hidden while draft: true."
   - "Each note opens with a definition I can quote in one breath."
@@ -32,6 +32,7 @@ aliases: ["start"]
 featured: true
 draft: false
 ---
+
 ## Atomic rule
 
 **One note = one claim** I'd cite in conversation. Put the definition in `description`, the angle in `key_concept`, two scenes in `examples`, and typed links in `relationships` frontmatter - not body `##` sections. Hub/MOC and utility pages may keep prose sections in the body. See [[Atomic Notes]] and [[Note Relationships]].

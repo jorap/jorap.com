@@ -3,13 +3,13 @@ title: "Heed Every Near-Miss"
 meta_title: "Heed Every Near-Miss - Survival Does Not Prove Safety"
 description: "A close call means the system nearly failed, not that we got proof the activity was safe because nobody died."
 key_concept: |
-  When nobody gets injured, organizations often relax.
+  - When nobody gets injured, organizations often relax.
   
-  The opposite read is usually right: the system failed, and luck blocked the worst outcome. A rescue, a panic incident, or a loss of control should trigger investigation and redesign before anyone runs the same activity again.
+  - The opposite read is usually right: the system failed, and luck blocked the worst outcome. A rescue, a panic incident, or a loss of control should trigger investigation and redesign before anyone runs the same activity again.
   
-  A close call means the system nearly failed, not that we got proof the activity was safe because nobody died.
+  - A close call means the system nearly failed, not that we got proof the activity was safe because nobody died.
   
-  Luck covering a near-miss is not proof the system works.
+  - Luck covering a near-miss is not proof the system works.
 examples:
   - "A swimmer needed rescue during the same open-water drill last month - that's a warning to stop, not proof the safety boat can handle it forever."
   - "The toddler almost fell off the same chair twice - survival doesn't prove the setup is safe; fix the hazard before the third time."
@@ -64,3 +64,4 @@ cards:
     back: "Investigate and redesign - don't repeat."
 draft: false
 ---
+

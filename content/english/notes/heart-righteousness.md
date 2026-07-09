@@ -4,14 +4,13 @@ meta_title: "Heart Righteousness - Anger and Lust as Heart Sins"
 description: "Heart righteousness goes deeper than outward acts - anger is murder, lust is adultery, in the heart."
 key_concept: |
   {{< bible ref="Matthew 5:21-30" emphasize="22,28" >}}
-  Angry with your brother - guilty before the court even if you smiled outwardly.
-
-  Lust logged mentally - adultery in the heart though marriage looks fine outside.
-
-  "You have heard… but I say" moves righteousness from courtroom compliance to motive and imagination. Under [[Free Grace]], this isn't a new merit ladder - it's the standard the Spirit applies to a life already saved, starting where only God sees. [[Fruits of the Spirit]] names what that inner work produces outward - love, gentleness, self-control, and the rest.
-
-  Heart righteousness goes deeper than outward acts.
-
+  - Angry with your brother - guilty before the court even if you smiled outwardly.
+  
+  - Lust logged mentally - adultery in the heart though marriage looks fine outside.
+  
+  - "You have heard… but I say" moves righteousness from courtroom compliance to motive and imagination. Under [[Free Grace]], this isn't a new merit ladder - it's the standard the Spirit applies to a life already saved, starting where only God sees. [[Fruits of the Spirit]] names what that inner work produces outward - love, gentleness, self-control, and the rest.
+  
+  - Heart righteousness goes deeper than outward acts.
 examples:
   - "I smiled through the bad call and nursed the anger the whole ride home - heart righteousness is polite outside, poison inside; God cares about the inner life."
   - "I sent a cold reply that sounded professional while resentment ran inside - Jesus moves righteousness from courtroom compliance to motive."
@@ -67,3 +66,4 @@ cards:
     back: "God sees heart - start where only He looks."
 draft: false
 ---
+

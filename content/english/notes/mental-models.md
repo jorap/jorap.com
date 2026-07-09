@@ -3,15 +3,15 @@ title: "Mental Models"
 meta_title: "Mental Models - Lenses I Actually Use"
 description: "Mental models are thinking shortcuts I keep when they survive real decisions."
 key_concept: |
-  Mainstream mental models for decisions and performance - note the ones that earn repeat use.
+  - Mainstream mental models for decisions and performance - note the ones that earn repeat use.
   
-  A model nobody reaches for is the same problem as a junk-drawer bookmark - recall under pressure is the value.
+  - A model nobody reaches for is the same problem as a junk-drawer bookmark - recall under pressure is the value.
   
-  Mental models are thinking shortcuts I keep when they survive real decisions.
+  - Mental models are thinking shortcuts I keep when they survive real decisions.
   
-  Retire the model when real decisions prove it wrong.
+  - Retire the model when real decisions prove it wrong.
   
-  I note the mental models that earn repeat use in real decisions - retire the rest.
+  - I note the mental models that earn repeat use in real decisions - retire the rest.
 examples:
   - "The restaurant had twelve menu tweaks on the whiteboard - I picked the two that actually cut ticket times and shelved the rest."
   - "Waze showed four commute routes - I stuck to the one that saves gas on the Tuesday school run, not the scenic detour."
@@ -51,3 +51,4 @@ cards:
     back: "Three fit budget - register now."
 draft: false
 ---
+

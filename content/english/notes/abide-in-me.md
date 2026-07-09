@@ -4,15 +4,15 @@ meta_title: "Abide in Me - Fruit from Union with Christ"
 description: "I bear fruit when I stay connected to Christ, not when I force it by willpower alone."
 key_concept: |
   {{< bible ref="John 15:1-11" emphasize="5" >}}
-  Cut off from the vine, I produce nothing lasting - fruit comes from staying connected, not willpower theater.
-
-  Abiding is ongoing dependence - pruning hurts but serves fruitfulness over time.
-
-  Abiding is ongoing dependence, not a one-time conversion event
-
-  Pruning hurts but serves fruitfulness. Under [[Free Grace]], fruit doesn't earn the branch's place in the vine - the branch bears fruit because it's connected. [[Fruits of the Spirit]] names the cluster Galatians lists - love through self-control - grown by walking in the Spirit, not sheer willpower. [[Sanctification]] is the slow becoming that abiding produces over time. Self-powered "fruit" without abiding is the dead wood Jesus removes - same trap as [[Compounding]] when I treat spiritual growth as pure self-stacked effort.
-
-  I bear fruit when I stay connected to Christ, not when I force it by willpower alone.
+  - Cut off from the vine, I produce nothing lasting - fruit comes from staying connected, not willpower theater.
+  
+  - Abiding is ongoing dependence - pruning hurts but serves fruitfulness over time.
+  
+  - Abiding is ongoing dependence, not a one-time conversion event
+  
+  - Pruning hurts but serves fruitfulness. Under [[Free Grace]], fruit doesn't earn the branch's place in the vine - the branch bears fruit because it's connected. [[Fruits of the Spirit]] names the cluster Galatians lists - love through self-control - grown by walking in the Spirit, not sheer willpower. [[Sanctification]] is the slow becoming that abiding produces over time. Self-powered "fruit" without abiding is the dead wood Jesus removes - same trap as [[Compounding]] when I treat spiritual growth as pure self-stacked effort.
+  
+  - I bear fruit when I stay connected to Christ, not when I force it by willpower alone.
 examples:
   - "I snap at my kid after a week with almost no prayer or Scripture, and I know where the fruit went - abiding is opening the Bible before the news feed wins again."
   - "I checked email three times before I prayed this morning and wondered why God felt far away - staying connected is the daily choice, not the badge from conversion day."
@@ -71,3 +71,4 @@ cards:
     back: "His words - read Scripture."
 draft: false
 ---
+

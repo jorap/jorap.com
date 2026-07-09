@@ -3,13 +3,13 @@ title: "Measure Then Iterate"
 meta_title: "Measure Then Iterate - Data Before the Next Pivot"
 description: "I name what to measure, gather signal, then reprioritize - not guess and overhaul."
 key_concept: |
-  Transformation without a number is just enthusiasm with amnesia.
+  - Transformation without a number is just enthusiasm with amnesia.
   
-  Measure then iterate means define what would prove the change worked, watch it for one cycle, then adjust - not defend the rollout because the slide was convincing. [[Failure as Feedback]] reads a miss; [[Continuous Improvement]] tweaks the process; [[Practice Small Experiments]] keeps trials small. Product lane: [[Lean Startup]] - build, measure, learn before you scale.
+  - Measure then iterate means define what would prove the change worked, watch it for one cycle, then adjust - not defend the rollout because the slide was convincing. [[Failure as Feedback]] reads a miss; [[Continuous Improvement]] tweaks the process; [[Practice Small Experiments]] keeps trials small. Product lane: [[Lean Startup]] - build, measure, learn before you scale.
   
-  I name what to measure, gather signal, then reprioritize.
+  - I name what to measure, gather signal, then reprioritize.
   
-  Not guess and overhaul.
+  - Not guess and overhaul.
 examples:
   - "We tracked checkout time for two weeks after one fewer tap - measure then iterate meant keeping the change when seconds dropped, reverting when they didn't."
   - "I logged how many notes I actually reviewed on the jeepney for fourteen days - measure then iterate beat another app rebuild based on guilt."
@@ -70,3 +70,4 @@ cards:
     back: "Log fourteen days of actual reviews - then adjust."
 draft: false
 ---
+

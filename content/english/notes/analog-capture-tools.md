@@ -3,13 +3,13 @@ title: "Analog Capture Tools"
 meta_title: "Analog Capture Tools - Paper When Screens Fail"
 description: "Analog capture wins when the phone dies or the meeting blocks screens - same inbox rule."
 key_concept: |
-  Paper capture uses the same inbox rule as digital - for meetings, sermons, and dead phone batteries.
+  - Paper capture uses the same inbox rule as digital - for meetings, sermons, and dead phone batteries.
   
-  The scrap gets copied into the real system later - paper is capture, not storage.
+  - The scrap gets copied into the real system later - paper is capture, not storage.
   
-  Analog capture wins when the phone dies or the meeting blocks screens - same inbox rule.
+  - Analog capture wins when the phone dies or the meeting blocks screens - same inbox rule.
   
-  Paper still goes in the same inbox when screens are off limits.
+  - Paper still goes in the same inbox when screens are off limits.
 examples:
   - "The phone dies mid-sermon and I scribble Philippians references in the margin - I copy them into my study Bible at the kitchen table Sunday night."
   - "Stuck in a dead-zone meeting, I jot the action items on the back of the agenda instead of pretending I'll remember them at the car."
@@ -51,3 +51,4 @@ cards:
     back: "Paper wins. Drop in inbox."
 draft: false
 ---
+

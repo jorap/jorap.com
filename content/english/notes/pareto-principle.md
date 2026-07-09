@@ -3,13 +3,13 @@ title: "Pareto Principle"
 meta_title: "Pareto Principle - Find the 20% That Drives 80%"
 description: "The Pareto principle is the 80/20 rule - most results come from a small slice of effort."
 key_concept: |
-  Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand, not a law).
+  - Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand, not a law).
   
-  I use it when my reading list, task board, or note tags all feel equally important: which few actually moved the needle? Same rule for flashcards: only spine notes carry `review: true` here - PKM habits plus six [[Eternal Principles]] with cards, not every faith note in the garden. Cards ask what I'd *do*, not what I'd *define*.
+  - I use it when my reading list, task board, or note tags all feel equally important: which few actually moved the needle? Same rule for flashcards: only spine notes carry `review: true` here - PKM habits plus six [[Eternal Principles]] with cards, not every faith note in the garden. Cards ask what I'd *do*, not what I'd *define*.
   
-  The Pareto principle is the 80/20 rule.
+  - The Pareto principle is the 80/20 rule.
   
-  Most results come from a small slice of effort.
+  - Most results come from a small slice of effort.
 examples:
   - "The kids' activity list had six things and we skipped three nights - I trimmed to basketball and piano and we actually showed up."
   - "My reading pile had forty tabs - the five that moved work got Sunday morning, the rest got deleted."
@@ -57,3 +57,4 @@ cards:
     back: "Cut to those two."
 draft: false
 ---
+

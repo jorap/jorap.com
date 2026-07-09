@@ -4,15 +4,15 @@ meta_title: "Discern His Will Daily - Romans 12:2 Outcome"
 description: "A renewed mind can test what God wants - good and acceptable and perfect - without culture's noise picking first."
 key_concept: |
   {{< bible ref="John 7:16-18" emphasize="17" >}}
-  Willing to obey first - then you can tell whether the teaching is God's or noise.
-
-  Romans 12:2's outcome: so that you may prove what the will of God is, that which is good and acceptable and perfect. Not mystical lottery - discernment after Scripture and prayer reshape judgment.
-
-  [[Renewed Mind]] is the engine; this is what it enables at the fork. [[Take Up Your Cross]] is choosing His will over mine - discernment names the fork. [[God Centered Design]] orders the aim toward His glory. [[Seek the Kingdom First]] fills the agenda before worry rewrites it. PKM mirror: [[Decision Quality]] - better calls when the inputs aren't all culture noise.
-
-  A renewed mind can test what God wants - good and acceptable and perfect - without culture's noise picking first.
-
-  Renewal enables the fork - test His will before culture picks.
+  - Willing to obey first - then you can tell whether the teaching is God's or noise.
+  
+  - Romans 12:2's outcome: so that you may prove what the will of God is, that which is good and acceptable and perfect. Not mystical lottery - discernment after Scripture and prayer reshape judgment.
+  
+  - [[Renewed Mind]] is the engine; this is what it enables at the fork. [[Take Up Your Cross]] is choosing His will over mine - discernment names the fork. [[God Centered Design]] orders the aim toward His glory. [[Seek the Kingdom First]] fills the agenda before worry rewrites it. PKM mirror: [[Decision Quality]] - better calls when the inputs aren't all culture noise.
+  
+  - A renewed mind can test what God wants - good and acceptable and perfect - without culture's noise picking first.
+  
+  - Renewal enables the fork - test His will before culture picks.
 examples:
   - "Two job offers and I was polling the group chat for vibes - discernment came after a renewed mind: which role serves the kingdom, not which title feeds my ego."
   - "The coach had three plays for the last possession - film and prayer beat the crowd's panic script; test and approve which move fits the game plan, not the hot hand."
@@ -68,3 +68,4 @@ cards:
     back: "Test His will - good and acceptable and perfect."
 draft: false
 ---
+

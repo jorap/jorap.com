@@ -3,15 +3,15 @@ title: "Atomic Notes"
 meta_title: "Atomic Notes - One Idea, One File"
 description: "If a note needs three ands to make its point, I split it before I link it."
 key_concept: |
-  One claim I'd say out loud - too many ands, split it.
+  - One claim I'd say out loud - too many ands, split it.
   
-  **Rule of thumb:** one thing I'd cite in conversation - "why middle-click saves tab chaos" is atomic; "browser tips and meeting notes" is not. Small notes stack like Lego blocks - linked, not merged. Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing. If I need headings inside one file, I probably need two notes. Faith parallel: [[Let Your Yes Be Yes]] - say one plain thing; let your yes be yes.
+  - **Rule of thumb:** one thing I'd cite in conversation - "why middle-click saves tab chaos" is atomic; "browser tips and meeting notes" is not. Small notes stack like Lego blocks - linked, not merged. Link with `[[wikilinks]]`; let [[Maps of Content]] and backlinks do the organizing. If I need headings inside one file, I probably need two notes. Faith parallel: [[Let Your Yes Be Yes]] - say one plain thing; let your yes be yes.
   
-  If a note needs three ands to make its point, I split it before I link it.
+  - If a note needs three ands to make its point, I split it before I link it.
   
-  One claim I'd say out loud - if a note needs three ands, I split it before I link it.
+  - One claim I'd say out loud - if a note needs three ands, I split it before I link it.
   
-  Too many ands in one note means I split it before I link it.
+  - Too many ands in one note means I split it before I link it.
 examples:
   - "\"Why my basketball shoes live by the door\" is one claim - I'd say it alone at carpool."
   - "\"Where we meet if the elevator is out\" is one claim; \"elevator outage and parking-gate codes\" is two - split and wikilink."
@@ -58,3 +58,4 @@ cards:
     back: "Split it - not atomic yet."
 draft: false
 ---
+

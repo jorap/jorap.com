@@ -5,15 +5,15 @@ title: "Flashcards"
 meta_title: "Notes Flashcards"
 description: "Learn less, retain longer, apply more - I opt notes into drill cards when recall and use in real life matter, and export to Anki when I want SRS on my phone."
 key_concept: |
-  **Guiding principle:** Learn less, retain longer, and apply more. **The question:** Can I recall and use this knowledge when it matters? Not review count, streak length, or facts memorized - retention, application, and explanation in real life.
+  - **Guiding principle:** Learn less, retain longer, and apply more. **The question:** Can I recall and use this knowledge when it matters? Not review count, streak length, or facts memorized - retention, application, and explanation in real life.
   
-  This page is a **utility surface** (`note_kind: meta`) - not a garden note. Evergreen notes should not `[[wikilink]]` here; point readers to [/notes/flashcards/](/notes/flashcards/) or [/notes/review/](/notes/review/) by URL instead.
+  - This page is a **utility surface** (`note_kind: meta`) - not a garden note. Evergreen notes should not `[[wikilink]]` here; point readers to [/notes/flashcards/](/notes/flashcards/) or [/notes/review/](/notes/review/) by URL instead.
   
-  Cards exist so the right move is already loaded when life shows up - cue on the front, immediate move on the back, not definitions dressed as advice. Keep a card only if the knowledge helps solve a recurring problem, make a better decision, perform a useful skill, understand an important subject, or communicate more clearly. ~20% of notes opt in; gospel and PKM spine share [/notes/review/](/notes/review/).
+  - Cards exist so the right move is already loaded when life shows up - cue on the front, immediate move on the back, not definitions dressed as advice. Keep a card only if the knowledge helps solve a recurring problem, make a better decision, perform a useful skill, understand an important subject, or communicate more clearly. ~20% of notes opt in; gospel and PKM spine share [/notes/review/](/notes/review/).
   
-  Learn less, retain longer, apply more - cards exist so the right move loads when life shows up.
+  - Learn less, retain longer, apply more - cards exist so the right move loads when life shows up.
   
-  I opt notes into drill cards when recall and use in real life matter, and export to Anki when I want SRS on my phone.
+  - I opt notes into drill cards when recall and use in real life matter, and export to Anki when I want SRS on my phone.
 shareable_thought:
   - "Learn less, retain longer, apply more - cards exist so the right move loads when life shows up."
   - "I opt notes into drill cards when recall and use in real life matter, and export to Anki when I want SRS on my phone."
@@ -29,6 +29,7 @@ aliases: ["/notes/cards/"]
 featured: false
 draft: false
 ---
+
 ## Frontmatter format (atomic notes)
 
 Atomic garden notes store all claim data in frontmatter - body stays empty unless the page is a hub or utility doc:

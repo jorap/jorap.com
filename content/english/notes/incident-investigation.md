@@ -3,13 +3,13 @@ title: "Incident Investigation"
 meta_title: "Incident Investigation"
 description: "Find system causes after a miss - not only who to blame."
 key_concept: |
-  Blameless tone keeps investigation on system causes.
+  - Blameless tone keeps investigation on system causes.
   
-  Find system causes after a miss - not only who to blame.
+  - Find system causes after a miss - not only who to blame.
   
-  Trace layout, limits, and rules - not just who was standing there when it broke.
+  - Trace layout, limits, and rules - not just who was standing there when it broke.
   
-  Fix the system before you close the file on who to blame.
+  - Fix the system before you close the file on who to blame.
 examples:
   - "After the equipment cart tipped they traced storage layout and weight limits, not just \"trainer was clumsy.\""
   - "After the kitchen burn they traced pan placement and stove rules, not just \"kid wasn't careful.\""
@@ -51,3 +51,4 @@ cards:
     back: "Trace prep timing and station layout."
 draft: false
 ---
+

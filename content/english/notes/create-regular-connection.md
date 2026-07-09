@@ -3,11 +3,11 @@ title: "Create Regular Connection"
 meta_title: "Create Regular Connection - Small Rituals Beat Grand Gestures"
 description: "Connection grows from small repeated rituals - one walk, one check-in - not one big gesture after a dry month."
 key_concept: |
-  I pick one simple connection habit and repeat it - trust grows in the boring reps.
+  - I pick one simple connection habit and repeat it - trust grows in the boring reps.
   
-  Connection grows from small repeated rituals.
+  - Connection grows from small repeated rituals.
   
-  One walk, one check-in - not one big gesture after a dry month.
+  - One walk, one check-in - not one big gesture after a dry month.
 examples:
   - "I block fifteen minutes after standup to walk with one teammate - not a performance review, just the same loop every Tuesday."
   - "My parents and I call every Sunday after lunch - same window, even when there's nothing big to report. The habit carries the closeness."
@@ -51,3 +51,4 @@ cards:
     back: "Call anyway - same window every Sunday."
 draft: false
 ---
+

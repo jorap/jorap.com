@@ -3,13 +3,13 @@ title: "Risk Management"
 meta_title: "Risk Management"
 description: "Name what can go wrong, how likely, how bad - then choose controls in order of strength."
 key_concept: |
-  Named rollback is a control layer before irreversible harm.
+  - Named rollback is a control layer before irreversible harm.
   
-  [[Staged Rollout]] limits exposure before you bet the whole lane.
+  - [[Staged Rollout]] limits exposure before you bet the whole lane.
   
-  Name what can go wrong, how likely, how bad - then choose controls in order of strength.
+  - Name what can go wrong, how likely, how bad - then choose controls in order of strength.
   
-  Likelihood times severity sets how strong the control needs to be.
+  - Likelihood times severity sets how strong the control needs to be.
 examples:
   - "We moved the space heater off the rug before lecturing the kids again about not touching it."
   - "We moved the hot oil station away from the walk lane before buying more warning signs."
@@ -54,3 +54,4 @@ cards:
     back: "Move the heater - then teach."
 draft: false
 ---
+

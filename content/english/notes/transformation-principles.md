@@ -4,11 +4,11 @@ title: "Transformation Principles"
 meta_title: "Transformation Principles - Repeatable Moves for Real Change"
 description: "Personal or team change runs on a small set of principles you apply on purpose - not one heroic push."
 key_concept: |
-  Transformation isn't a single breakthrough - it's the same moves repeated until the system bends.
+  - Transformation isn't a single breakthrough - it's the same moves repeated until the system bends.
   
-  Clear direction, honest starting point, owned action, safe practice, measured feedback, people first, systems lens. Each note below is one lever I'd want installed before I expect the room to feel different.
+  - Clear direction, honest starting point, owned action, safe practice, measured feedback, people first, systems lens. Each note below is one lever I'd want installed before I expect the room to feel different.
   
-  Personal or team change runs on a small set of principles you apply on purpose - not one heroic push.
+  - Personal or team change runs on a small set of principles you apply on purpose - not one heroic push.
 shareable_thought:
   - "Transformation isn't a single breakthrough - it's the same moves repeated until the system bends."
   - "Clear direction, honest starting point, owned action, safe practice, measured feedback, people first, systems lens."
@@ -46,6 +46,7 @@ aliases: ["principles of transformation", "experience transformation"]
 featured: false
 draft: false
 ---
+
 ## Anchor the direction
 
 - [[Purpose and Vision]] - a clear outcome anchors choices when urgency shows up

@@ -4,19 +4,19 @@ meta_title: "Mercy - Compassion on the Guilty"
 description: "Mercy withholds the punishment I deserve and calls me to show the same compassion to others."
 key_concept: |
   {{< bible "Matthew 5:7" >}}
-  Show mercy and you'll receive mercy - the beatitude ties compassion out to compassion back.
-
+  - Show mercy and you'll receive mercy - the beatitude ties compassion out to compassion back.
+  
   {{< bible ref="Ephesians 2:1-5" emphasize="5" >}}
-
-  Paul keeps mercy and grace in one breath - rich in mercy, saved by grace while I was still dead in sin.
-
-  [[Grace]] gives good I couldn't earn; mercy spares bad I had coming. But God, being rich in mercy, because of His great love with which He loved us, even when we were dead in our transgressions, made us alive together with Christ (by grace you have been saved)
-
-  [[Free Grace]] is how that pair lands on eternal life - gift through faith, wrath withheld, heaven given. [[Forgiveness]] is mercy toward a debtor: release what you're owed because the King already cleared yours. [[The Beatitudes]] promise mercy to the merciful. [[Judge Not]] starts from the same ground - I needed mercy before I play judge. [[Love Your Neighbor]] and [[Love Your Enemies]] turn mercy outward: act for the hurt person, bless the persecutor. PKM mirror: [[Sunk Cost Fallacy]] in reverse - stop treating old hurt like a debt I'm still collecting when mercy already closed the ledger.
-
-  Mercy withholds the punishment I deserve and calls me to show the same compassion to others.
-
-  Mercy and Judge Not start from the same ground - I've needed grace I didn't earn.
+  
+  - Paul keeps mercy and grace in one breath - rich in mercy, saved by grace while I was still dead in sin.
+  
+  - [[Grace]] gives good I couldn't earn; mercy spares bad I had coming. But God, being rich in mercy, because of His great love with which He loved us, even when we were dead in our transgressions, made us alive together with Christ (by grace you have been saved)
+  
+  - [[Free Grace]] is how that pair lands on eternal life - gift through faith, wrath withheld, heaven given. [[Forgiveness]] is mercy toward a debtor: release what you're owed because the King already cleared yours. [[The Beatitudes]] promise mercy to the merciful. [[Judge Not]] starts from the same ground - I needed mercy before I play judge. [[Love Your Neighbor]] and [[Love Your Enemies]] turn mercy outward: act for the hurt person, bless the persecutor. PKM mirror: [[Sunk Cost Fallacy]] in reverse - stop treating old hurt like a debt I'm still collecting when mercy already closed the ledger.
+  
+  - Mercy withholds the punishment I deserve and calls me to show the same compassion to others.
+  
+  - Mercy and Judge Not start from the same ground - I've needed grace I didn't earn.
 examples:
   - "I prayed about forgiving others on autopilot and skipped that line because I'm still mad at my brother from last Sunday - you can't ask for mercy with one breath and hold a grudge with the next."
   - "A coworker apologized again for the same mistake - mercy forgives from the heart; boundaries stay where trust still rebuilds."
@@ -87,3 +87,4 @@ cards:
     back: "Extend mercy - release the small debt."
 draft: false
 ---
+

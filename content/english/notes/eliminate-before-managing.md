@@ -3,13 +3,13 @@ title: "Eliminate Before Managing"
 meta_title: "Eliminate Before Managing - Remove the Hazard First"
 description: "I remove unnecessary danger first instead of stacking procedures and gear on top of it."
 key_concept: |
-  Those safeguards can cut risk, but they still need correct human action every time.
+  - Those safeguards can cut risk, but they still need correct human action every time.
   
-  I remove unnecessary danger first instead of stacking procedures and gear on top of it.
+  - I remove unnecessary danger first instead of stacking procedures and gear on top of it.
   
-  When a dangerous activity isn't required, swap it for a safer alternative and the failure never gets a chance to happen.
+  - When a dangerous activity isn't required, swap it for a safer alternative and the failure never gets a chance to happen.
   
-  Remove the hazard before you buy more gear to work around it.
+  - Remove the hazard before you buy more gear to work around it.
 examples:
   - "Swap the wobbly ladder for a stable step stool - eliminate the fall hazard instead of adding three warning stickers and hoping someone reads them."
   - "We stopped storing cleaners under the sink and moved them up high - remove the hazard before we trust a \"don't touch\" lecture every time."
@@ -55,3 +55,4 @@ cards:
     back: "Fix what started it - don't manage forever."
 draft: false
 ---
+
