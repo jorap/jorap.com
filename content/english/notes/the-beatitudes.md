@@ -14,9 +14,7 @@ key_concept: |
 
   - bankruptcy before God, receiving the kingdom as gift rather than wage. Each line promises reward rooted in character shaped by grace, not self-made righteousness.
 
-  | Trait (NASB) | Promise (NASB).
-
-  |
+  | Trait (NASB) | Promise (NASB) |
   |--------------|----------------|
   | Poor in spirit | theirs is the kingdom of heaven |
   | Those who mourn | they shall be comforted |

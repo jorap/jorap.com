@@ -16,7 +16,17 @@ key_concept: |
 
   [[Abide in Me]] names the engine in John: branches bear fruit because they stay in the vine. [[Sanctification]] is the slow becoming that fruit marks. [[Grateful Obedience]] keeps the motive straight: fruit follows [[Grace]] already received, it doesn't pay for eternal life. [[Heart Righteousness]] is the inner standard the Spirit applies - not polished outside, poison inside. [[By Their Fruits]] uses the same word differently: discern teachers by outcome, not charisma - don't collapse the two jobs.
 
-  | Fruit | Garden echo | |-------|-------------| | Love | [[Love God]], [[Love Your Neighbor]], [[Love Your Enemies]] | | Joy | [[Joy]] - [[Assurance]] | | Peace | [[Peace]] - [[Peacemakers]], [[Don't Worry]] | | Patience | [[Patience]] - [[Slow the Moment]] | | Kindness | [[Kindness]] - [[Mercy]] | | Goodness | [[Goodness]] - [[Let Your Light Shine]] | | Faithfulness | [[Faithfulness]] - [[Faithful Steward]] | | Gentleness | [[Gentleness]] - [[Humility and Service]] | | Self-control | [[Self-Control]] |
+  | Fruit | Garden echo |
+  |-------|-------------|
+  | Love | [[Love God]], [[Love Your Neighbor]], [[Love Your Enemies]] |
+  | Joy | [[Joy]] - [[Assurance]] |
+  | Peace | [[Peace]] - [[Peacemakers]], [[Don't Worry]] |
+  | Patience | [[Patience]] - [[Slow the Moment]] |
+  | Kindness | [[Kindness]] - [[Mercy]] |
+  | Goodness | [[Goodness]] - [[Let Your Light Shine]] |
+  | Faithfulness | [[Faithfulness]] - [[Faithful Steward]] |
+  | Gentleness | [[Gentleness]] - [[Humility and Service]] |
+  | Self-control | [[Self-Control]] |
 
   Love through self-control is one Spirit-grown cluster in believers, not a merit checklist that buys heaven.
 examples:
