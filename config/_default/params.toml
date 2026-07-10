@@ -97,11 +97,11 @@ post_limit = 5
 section_title = "Writing for site owners"
 view_all_label = "View all posts"
 post_slugs = [
-  "consistent-ai-output-wordpress-builds",
+  "static-site-vs-cms",
   "top-reasons-create-maintain-your-own-website",
-  "facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience",
-  "top-reasons-why-you-still-need-use-desktop-laptop",
+  "consistent-ai-output-wordpress-builds",
   "getting-started-with-rss-feeds-a-beginners-guide",
+  "top-reasons-why-you-still-need-use-desktop-laptop",
 ]
 
 [home_proof]
