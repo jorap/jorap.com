@@ -12,7 +12,7 @@ examples:
   - "We moved the hot oil station away from the walk lane before buying more warning signs."
 shareable_thought:
   - "Name what can go wrong, how likely, how bad - then choose controls in order of strength."
-  - "Hierarchy of Controls names rollback before irreversible harm."
+  - "Hierarchy of Controls names rollback among controls before irreversible harm."
   - "Staged Rollout limits exposure before you bet the whole lane."
   - "Likelihood times severity sets how strong the control needs to be."
 relationships:

@@ -4,6 +4,8 @@ meta_title: "Grateful Obedience - Obey Because Grace Already Saved"
 description: "Obedience flows from thanks because Christ already saved - not to buy or re-earn eternal life."
 key_concept: |
   {{< bible ref="John 14:15-17" emphasize="15" >}}
+
+  - Love shows up as keeping His commands - thanks after salvation, not payment to earn it.
   - Grateful obedience obeys today because Christ already saved, not to buy or re-earn eternal life.
 
   - Love shows up as keeping His commands - thanks after salvation, not payment to earn it.

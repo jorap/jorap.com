@@ -14,9 +14,9 @@ examples:
   - "The phone Notes app only keeps recipes cooked twice, not every recipe ever screenshotted."
 shareable_thought:
   - "PKM saves, organizes, and reuses what you learn - not a hobby of collecting apps."
-  - "Save, organize, reuse - output beats tuning the system alone."
-  - "PKM is the plain name for the save-organize-use system getting started introduces."
-  - "Three moves you run, not app-hopping for the perfect stack."
+  - "Output beats tuning the system alone."
+  - "Three moves I run, not app-hopping for the perfect stack."
+  - "PKM is how I save, organize, and reuse what I learn - not a hobby of collecting apps."
 relationships:
   - type: alternative
     wikilink: "[[GTD vs PARA]]"

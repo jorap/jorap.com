@@ -18,9 +18,9 @@ examples:
   - "The contractor's portfolio was gorgeous - I asked two neighbors who lived through the remodel about permit fights and cracked tile."
 shareable_thought:
   - "Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura."
+  - "Judge vendors and champions by fruit over time, not slide polish or LinkedIn aura."
   - "Smooth talkers ship thorns sometimes."
-  - "I look at downstream stress, turnover, delivery, and whether the team got healthier or more brittle."
-  - "do not condemn souls; do read the fruit."
+  - "Do not condemn souls; do read the fruit over time."
 relationships:
   - type: contradicts
     wikilink: "[[Life Before Achievement]]"

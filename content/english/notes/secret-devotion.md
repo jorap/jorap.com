@@ -4,6 +4,8 @@ meta_title: "Secret Devotion - For the Father's Eyes Alone"
 description: "Give, pray, and fast for God to see - not for applause in the group chat."
 key_concept: |
   {{< bible ref="Matthew 6:1-18" emphasize="6" >}}
+
+  - Some good shines publicly; some stays hidden so the left hand does not know what the right is doing.
   - Piety for an audience is its own reward - give, pray, fast for the Father who sees in secret.
   - Some good shines publicly; some stays hidden so the left hand does not know what the right is doing.
   - Jesus brackets the [[Ask Seek Knock]] with the same warning: religious performance for an audience is its own reward.

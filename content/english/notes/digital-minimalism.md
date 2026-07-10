@@ -4,7 +4,7 @@ meta_title: "Digital Minimalism for Note-Takers"
 description: "Notes sharpen when extra apps, sync layers, and unused notifications drop away."
 key_concept: |
   - Every new app is a pipe you have to babysit.
-
+  
   - Cut capture paths and sync layers until you hit [[Minimum Effective Dose]] - the smallest setup that still works.
   - That trades some [[Digital Serendipity]] for fewer places sparks get lost and fewer notifications pulling you off the note you were actually writing.
   - Digital minimalism means the smallest setup that still works - not the fanciest stack you never open.
@@ -12,10 +12,10 @@ examples:
   - "We dropped the second gym bag and the backup jump rope - fewer things means I actually know where the one working pair of shoes lives."
   - "The front desk runs one scheduling app, not four - fewer sync layers means fewer places patient reminders get lost."
 shareable_thought:
-  - Digital minimalism cuts apps and sync layers until the smallest setup still works.
-  - Every new app is a pipe you have to babysit.
-  - Minimum effective dose beats the fanciest stack you never open.
-  - Fewer pipes mean fewer places sparks get lost.
+  - "Notes sharpen when extra apps, sync layers, and unused notifications drop away."
+  - "Every new app is a pipe you have to babysit."
+  - "Cut capture paths and sync layers until you hit Minimum Effective Dose."
+  - "The smallest setup that still works."
 relationships:
   - type: contradicts
     wikilink: "[[Digital Serendipity]]"

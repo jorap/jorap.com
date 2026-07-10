@@ -4,11 +4,12 @@ meta_title: "Judgment Seat - Believers Evaluated for Works"
 description: "Believers stand before Christ after salvation to have works evaluated for reward - eternal life was already settled by faith."
 key_concept: |
   {{< bible ref="Matthew 16:24-27" emphasize="27" >}}
+
   - The Son of Man repays deeds - reward review for the saved, not re-deciding who gets eternal life.
   - [[Free Grace]] and [[Justification]] already decided where I spend forever.
-  
+
   {{< bible ref="1 Corinthians 3:12-15" emphasize="15" >}}
-  
+
   - Paul's fire test - some work burns, you are still saved through fire; worthless work shrinks reward, not standing.
   - The judgment seat (Greek *bema* - think awards podium, not criminal court) decides what reward faithful living earned.
   - [[Eternal Rewards]] names the promise; this note names the evaluation.

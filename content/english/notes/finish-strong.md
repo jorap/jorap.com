@@ -4,7 +4,7 @@ meta_title: "Finish Strong - Starting Proves Capability, Finishing Proves Discip
 description: "Launch day excitement does not count - success is whether the last commitment actually got done."
 key_concept: |
   - Finish strong judges success by whether the last commitment actually got done, not launch-day excitement.
-
+  
   - Starting well proves you can begin; finishing well proves you can keep going when it is boring, hard, or no longer exciting.
   - A project, conversation, competition, or responsibility is not successful until the last commitment is done.
   - The last commitment closed is what makes the launch real.
@@ -12,10 +12,10 @@ examples:
   - "I cleared the table after dinner but left the pots soaking - finish strong was the ten-minute scrub and trash run before the smell woke us at 3am."
   - "We led at halftime and coasted the third quarter - finish strong was closing the last set, not celebrating after the first fast lap."
 shareable_thought:
-  - "Finish strong judges success by whether the last commitment actually got done."
-  - "Starting well proves you can begin; finishing well proves you can keep going."
-  - "The last commitment closed is what makes the launch real."
-  - "Nobody remembers the fast start once the project stalls at ninety percent."
+  - "Launch day excitement does not count."
+  - "Success is whether the last commitment actually got done."
+  - "Finish strong judges success by whether the last commitment actually got done, not launch-day excitement."
+  - "Starting well proves you can begin; finishing well proves you can keep going when it is boring, hard, or no longer exciting."
 relationships:
   - type: alternative
     wikilink: "[[Minimum Viable Product]]"
@@ -43,7 +43,7 @@ relationships:
     reason: "People trust you when the tail gets done"
   - type: extends
     wikilink: "[[Steward After the Win]]"
-    reason: Win is mid-game - close the tail, do not stop at halftime
+    reason: "Win is mid-game - close the tail, do not stop at halftime"
   - type: extends
     wikilink: "[[Success is Stewardship]]"
     reason: "Steward the tail end, not only the exciting start"

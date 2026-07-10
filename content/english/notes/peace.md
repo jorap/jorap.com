@@ -14,9 +14,9 @@ examples:
   - "Two coworkers wanted me to pick a side - peace was not avoiding them; it was asking what it would take to fix things."
 shareable_thought:
   - "Peace is Spirit-grown calm in believers who trust the Father - not silence at any price."
-  - "Fruits of the Spirit lists peace beside love and joy."
-  - "Inner calm from God's reign, not denial."
-  - "do not Worry is the trust echo: stop borrowing tomorrow's trouble."
+  - "Fruits of the Spirit lists peace beside love and joy - inner calm from God's reign, not denial."
+  - "Do not Worry is the trust echo: stop borrowing tomorrow's trouble."
+  - "Peacemakers is the active echo: pursue reconciliation, not just keep quiet."
 relationships:
   - type: contradicts
     wikilink: "[[Love Your Enemies]]"

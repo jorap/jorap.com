@@ -4,7 +4,7 @@ meta_title: "Evergreen vs Fleeting Notes - Two Speeds"
 description: "Sparks belong in fleeting notes; trusted claims belong in evergreen, with a clear path between them."
 key_concept: |
   - Sparks belong in fleeting notes; claims you trust belong in evergreen, with a clear path between them.
-
+  
   - Two speeds, one promotion rule.
   - Fleeting notes catch sparks you would lose by Friday; evergreen notes hold claims you would cite next year.
   - The stake is rot - sparks that never promote clutter the inbox, and forcing everything evergreen buries what was only true this week.
@@ -13,10 +13,10 @@ examples:
   - "A hot take about today's game goes on the fridge whiteboard; a lesson I would tell my kid next year gets copied into the recipe box."
   - "The shift manager's scribble about today's rush stays on the clipboard; the safety rule we would cite in training next year lives in the binder."
 shareable_thought:
-  - Sparks belong in fleeting notes; claims you trust belong in evergreen.
-  - Two speeds, one promotion rule decides what graduates.
-  - Fleeting catches Friday sparks; evergreen holds next-year claims.
-  - Note maturity is capture fast, promote when the idea survives a second read.
+  - "Sparks belong in fleeting notes; trusted claims belong in evergreen, with a clear path between them."
+  - "Sparks belong in fleeting notes; claims you trust belong in evergreen, with a clear path between them."
+  - "Two speeds, one promotion rule."
+  - "Fleeting notes catch sparks you would lose by Friday; evergreen notes hold claims you would cite next year."
 relationships:
   - type: contradicts
     wikilink: "[[Evergreen Notes]]"

@@ -13,8 +13,8 @@ examples:
 shareable_thought:
   - "Saves what resonates into one trusted inbox, then empties weekly."
   - "Friction kills capture when saving takes more than one quick move."
-  - "One inbox from phone to desktop, emptied on a weekly rhythm."
-  - "Resonance is the filter - skip what would never change action or citation."
+  - "One inbox from phone to desktop, weekly process - same as The Trusted Inbox."
+  - "Skip it unless action or citation would follow later."
 relationships:
   - type: contradicts
     wikilink: "[[Signal vs Noise]]"

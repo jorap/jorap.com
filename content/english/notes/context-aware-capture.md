@@ -4,17 +4,17 @@ meta_title: "Context-Aware Capture - Save the Why, Not Just the What"
 description: "A saved link is a mystery six weeks later unless the why is jotted while memory is fresh."
 key_concept: |
   - Context-aware capture saves the why while memory is fresh - project, mood, question - not just the link.
-
+  
   - A saved link is a mystery six weeks later unless the why was captured while it was still obvious.
   - Six weeks later, only the why saves a bookmark from becoming junk.
 examples:
   - "Voice memo in the parking lot after the meeting - context was still in my head."
   - "Photo of the whiteboard before they erased it - capture matched where the idea lived."
 shareable_thought:
-  - Context-aware capture saves the why while memory is fresh, not just the link.
-  - A saved link is a mystery six weeks later without the why attached.
-  - Project, mood, and question beat a bare URL every time.
-  - Capture the why at the moment - not during a future archaeology dig.
+  - "A saved link is a mystery six weeks later unless the why is jotted while memory is fresh."
+  - "Context-aware capture saves the why while memory is fresh."
+  - "Project, mood, question - not just the link."
+  - "A saved link is a mystery six weeks later unless the why was captured while it was still obvious."
 relationships:
   - type: contradicts
     wikilink: "[[Metadata Strategy]]"

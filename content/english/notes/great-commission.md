@@ -4,6 +4,7 @@ meta_title: "Great Commission - Go and Make Disciples"
 description: "Jesus sends believers to go, baptize, and teach obedience under His authority and presence to the end of the age."
 key_concept: |
   {{< bible ref="Matthew 28:19-20" emphasize="20" >}}
+
   - Go, baptize, teach obedience - Christ's authority and presence to the end of the age, not recruitment zeal.
   - Teaching obedience is discipleship after faith - not a works payment for salvation under [[Free Grace]].
   - PKM parallel: [[Creative Output]] - the gospel is not fully kept until it is passed on; inventory notes mean nothing if they never leave the garden.

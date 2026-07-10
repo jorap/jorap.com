@@ -4,6 +4,7 @@ meta_title: "Standing vs Fellowship - Verdict vs Daily Closeness"
 description: "Standing with God is settled at faith; fellowship breaks with sin and restores with confession."
 key_concept: |
   {{< bible ref="John 10:27-30" emphasize="28" >}}
+
   - Eternal life in His hand - no one snatches you out; standing stays settled even when closeness feels thin.
   - [[Free Grace]] secured eternal life once.
   - Standing is the verdict: declared righteous on Christ, not re-opened by a bad week.

@@ -4,6 +4,7 @@ meta_title: "By Their Fruits - Discern Teachers by Outcome"
 description: "Teachers are checked by what their teaching produces, not by how polished the talk sounds."
 key_concept: |
   {{< bible ref="Matthew 7:15-20" emphasize="20" >}}
+
   - Wolves wear sheep's clothing - time and results tell, not the polished talk.
   - do not condemn souls, but do evaluate fruit - grapes from vines, not hype.
   - Jesus pairs this with [[Judge Not]]: do not condemn souls, but do evaluate fruit.
@@ -14,10 +15,10 @@ examples:
   - "The youth coach talks smooth on day one but his players look stressed and bitter by month three - fruit told me more than any clinic title ever could."
   - "A trending productivity guru's followers still drown in inbox chaos - grapes from grapevines, thorns from thistles, time and results tell."
 shareable_thought:
-  - "I check teachers by what their teaching produces, not by how polished the talk sounds."
-  - "do not condemn souls, but do evaluate fruit - grapes from vines, not hype."
-  - "Jesus pairs this with Judge Not: do not condemn souls, but do evaluate fruit."
-  - "Wolves may wear sheep's clothing; time and results tell."
+  - "Teachers are checked by what their teaching produces, not by how polished the talk sounds."
+  - "The Issues audit - does the teaching leave the graph healthier or broken?"
+  - "The wolf does not announce itself."
+  - "Only a season of results tells you what's underneath the sheep's clothing."
 relationships:
   - type: alternative
     wikilink: "[[Fruits of the Spirit]]"

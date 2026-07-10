@@ -4,14 +4,15 @@ meta_title: "Love Your Neighbor - The Second Commandment"
 description: "Love others the way you would want care if roles flipped - second command, paired with loving God."
 key_concept: |
   {{< bible "Matthew 22:39" >}}
+
   - Second command, paired with the first - love the person in front of you the way you would want care if roles flipped.
-  
+
   {{< bible "Mark 12:31" >}}
-  
+
   - Jesus echoed Moses on the second command - no command ranks higher than loving God and neighbor.
-  
+
   {{< bible ref="Luke 10:25-37" emphasize="37" >}}
-  
+
   - The Samaritan acted as neighbor - go and do the same, do not debate who counts.
   - [[Mercy]] shows up in the body - bandage, ride, cost covered.
   - [[Free Grace]] does not erase the command - it frees me to love without keeping score for salvation.

@@ -4,7 +4,7 @@ meta_title: "Free Tier Hosting Stack - Hugo, GitHub, Cloudflare Pages"
 description: "Hugo, GitHub, and Cloudflare Pages ship static sites for $0 - until build caps, queues, or account limits bite."
 key_concept: |
   - Free tier hosting ships static sites for zero dollars until build caps, queues, or account limits bite.
-
+  
   - Hard caps on Cloudflare free: about 500 builds per month per account, one concurrent build, 20,000 files per deployment, and a 20-minute build timeout.
   - Static bandwidth is unmetered - the traps are build count, queue time, and fat repos.
   - Flow: Hugo turns markdown into HTML, GitHub holds source, Cloudflare Pages builds on push and serves over CDN.
@@ -17,8 +17,8 @@ examples:
 shareable_thought:
   - "Hugo, GitHub, and Cloudflare Pages ship static sites for $0."
   - "Until build caps, queues, or account limits bite."
-  - "The traps are build count, queue time, and fat repos."
-  - "Free tier is not unlimited - re-read Cloudflare limits before quoting a client."
+  - "Static bandwidth is unmetered - the traps are build count, queue time, and fat repos."
+  - "No database, no admin panel."
 relationships:
   - type: contradicts
     wikilink: "[[Building a Personal API]]"

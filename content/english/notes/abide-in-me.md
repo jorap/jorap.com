@@ -4,6 +4,7 @@ meta_title: "Abide in Me - Fruit from Union with Christ"
 description: "Fruit comes from staying connected to Christ, not from forcing growth by willpower alone."
 key_concept: |
   {{< bible ref="John 15:1-11" emphasize="5" >}}
+
   - Cut off from the vine, I produce nothing lasting - fruit comes from staying connected, not willpower theater.
   - Abiding is ongoing dependence - pruning hurts but serves fruitfulness over time.
   - Abiding is ongoing dependence, not a one-time conversion event.

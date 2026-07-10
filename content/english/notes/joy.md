@@ -6,15 +6,16 @@ key_concept: |
   {{< bible "Galatians 5:22-23" >}}
   - Fruits of the Spirit names joy beside love and peace in one cluster.
   - Joy is grown by walking in the Spirit, not manufactured for credit.
+  - Manufactured gladness for church credit is not Spirit fruit.
   - Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance.
 examples:
   - "Good week at work and I felt spiritually qualified - Galatians joy rests on Christ's promise, not the streak."
   - "Performing joy at church while empty at home told me I was manufacturing fruit - abide first, then gladness shows up."
 shareable_thought:
-  - "Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance."
+  - "Joy is Spirit-grown gladness in believers who rest on Christ's promise."
   - "Fruits of the Spirit names joy beside love and peace in one cluster."
   - "Joy is grown by walking in the Spirit, not manufactured for credit."
-  - "Performing joy while empty at home told me I was forcing fruit by will instead of abiding in Christ."
+  - "Manufactured gladness for church credit is not Spirit fruit."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

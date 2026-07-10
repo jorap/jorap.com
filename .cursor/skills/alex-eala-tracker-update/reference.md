@@ -55,6 +55,19 @@ Strip sponsor names from the display label (Lexus, Mubadala, ASB, BNP Paribas, P
 
 Confirm tier on the WTA tournament page before adding or correcting an entry.
 
+## Score format
+
+**Always list Eala's games first** in every set and match tiebreak — wins and losses, singles and doubles.
+
+- Win: `d. Opponent 6-3, 6-4` (Eala's games left of the hyphen in each set)
+- Loss: `l. Opponent 2-6, 4-6` — not the winner's `6-2, 6-4`
+- Split sets: `l. Opponent 6-3, 4-6, 2-6` (Eala won set 1, lost sets 2–3)
+- Match tiebreak (doubles): Eala's points first — `7-5, 3-6, 7-10` not `10-7`
+- Retirements: score at stoppage from Eala's side — `6-4, 0-1 ret.`
+- Tiebreak notation unchanged: `7-6(5)` means Eala 7 games, opponent 6, TB 5–7
+
+When copying from WTA or tennis.com, flip any set or super-tiebreak segment that lists the opponent first.
+
 ## Entry templates
 
 ### Tournament result (singles)

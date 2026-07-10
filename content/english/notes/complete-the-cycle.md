@@ -1,28 +1,28 @@
 ---
 title: "Complete the Cycle"
 meta_title: "Complete the Cycle - Work Isn't Done at the Main Action"
-description: The meeting is not done until recap, owners, dates, and verification close the loop.
+description: "The meeting is not done until recap, owners, dates, and verification close the loop."
 key_concept: |
   - The meeting is not done until recap, owners, dates, and verification close the loop.
-
+  
   - A decision without an owner and a date is still just talk - execution is where the loop actually starts.
   - Mistakes need correction, not ceremony - fix the process or the miss comes back next week.
   - Verification closes the loop - if nobody checks it landed, the cycle never really finished.
 examples:
-  - Halftime talk ended with a vague press fix promise - I wrote the one drill on the whiteboard before anyone left the gym.
-  - Parent-teacher night ended with an email-the-plan promise - the recap went out before anyone left the parking lot with names, dates, and owners.
+  - "Halftime talk ended with a vague press fix promise - I wrote the one drill on the whiteboard before anyone left the gym."
+  - "Parent-teacher night ended with an email-the-plan promise - the recap went out before anyone left the parking lot with names, dates, and owners."
 shareable_thought:
-  - The meeting is not done until recap, owners, dates, and verification close the loop.
-  - A decision without an owner and a date is still just talk.
-  - Mistakes need correction, not ceremony.
-  - Verification closes the loop - unchecked handoffs stay open.
+  - "The meeting is not done until recap, owners, dates, and verification close the loop."
+  - "A decision without an owner and a date is still just talk."
+  - "Execution is where the loop actually starts."
+  - "Mistakes need correction, not ceremony."
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Viable Product]]"
     reason: "when closing every loop blocks shipping the smallest useful slice"
   - type: extends
     wikilink: "[[Accountability]]"
-    reason: Named owners close loops; vague agreement does not
+    reason: "Named owners close loops; vague agreement does not"
   - type: extends
     wikilink: "[[Attention to Detail]]"
     reason: "Verification is where sloppy pass-offs die"

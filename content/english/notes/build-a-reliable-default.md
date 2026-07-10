@@ -4,27 +4,27 @@ meta_title: "Build a Reliable Default - What You Do When There's No Time"
 description: "A reliable default is the simple rehearsed move that runs when thinking is thin."
 key_concept: |
   - A reliable default is the simple rehearsed move that runs when thinking is thin.
-
+  
   - Build it before the crisis, not during it - a default assembled mid-emergency is not a default.
   - The rehearsed move beats improvising when the clock is loud.
 examples:
-  - The clinic front desk runs the laminated triage sheet taped by the phone when three walk-ins arrive - one script, no guessing.
+  - "The clinic front desk runs the laminated triage sheet taped by the phone when three walk-ins arrive - one script, no guessing."
   - "Our family fire plan is one fridge page: two exits, meeting spot, who grabs the baby - last blackout, my kid ran it half-asleep."
 shareable_thought:
-  - A reliable default is the simple rehearsed move that runs when thinking is thin.
-  - Build the fallback before the crisis, not during it.
-  - Rehearse enough that the move runs when the clock is loud.
-  - The room reads calm when the script is already decided.
+  - "A reliable default is the simple rehearsed move that runs when thinking is thin."
+  - "Build it before the crisis, not during it."
+  - "A default assembled mid-emergency is not a default."
+  - "The rehearsed move beats improvising when the clock is loud."
 relationships:
   - type: contradicts
     wikilink: "[[First Principles Thinking]]"
     reason: "when the script blocks a novel fix the runbook never covered"
   - type: extends
     wikilink: "[[Capture]]"
-    reason: Default capture pipe when the fancy workflow is not available
+    reason: "Default capture pipe when the fancy workflow is not available"
   - type: extends
     wikilink: "[[Habit Formation]]"
-    reason: Defaults are habits drilled until they are automatic
+    reason: "Defaults are habits drilled until they are automatic"
   - type: extends
     wikilink: "[[Preparedness]]"
     reason: "Rehearse before the emergency owns the clock"

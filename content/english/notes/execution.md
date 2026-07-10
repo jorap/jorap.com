@@ -4,17 +4,17 @@ meta_title: "Execution - Turning Decisions Into Done Work"
 description: "A decision earns nothing until finished work lands, not when the slide deck or the intention is done."
 key_concept: |
   - Execution turns a decision into finished work - not slides, intentions, or we will get to it later.
-
+  
   - A decision earns nothing until finished work lands, not when the slide deck or the intention is done.
   - Execution is the gap between deciding and delivered - plans earn nothing until work lands.
 examples:
   - "Our block cleanup had a group chat full of enthusiasm and no bags until one neighbor showed up with gloves and a start time."
   - "The coach drew a beautiful play on the whiteboard - execution started when players were on the field and someone named who cuts where on the first whistle."
 shareable_thought:
-  - A decision earns nothing until finished work lands.
-  - Execution is the gap between deciding and delivered.
-  - Plans earn nothing until work lands.
-  - Slides and intentions are not delivery.
+  - "A decision earns nothing until finished work lands, not when the slide deck or the intention is done."
+  - "Execution turns a decision into finished work - not slides, intentions, or we will get to it later."
+  - "Execution is the gap between deciding and delivered."
+  - "Plans earn nothing until work lands."
 relationships:
   - type: contradicts
     wikilink: "[[Slow Productivity]]"

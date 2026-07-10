@@ -124,6 +124,7 @@ Section: **Best Performances in WTA Tournaments**
 - **Always include the event tier** in parentheses on every WTA tournament line: `(WTA 125)`, `(WTA 250)`, `(WTA 500)`, or `(WTA 1000)`. Grand Slam entries use the four major names only — no tier suffix (they are Grand Slams by definition). See [Tournament naming rules](#tournament-naming-rules).
 - Prefer dual links when both exist: `[wtatennis.com](url) | [tennis.com](url)` (WTA first, then tennis.com)
 - **Exit-round rule:** the main tournament line must link to the **deepest round played** (the loss or title match). Earlier rounds go on sub-bullets — never point the exit line at an earlier-round opponent.
+- **Score format:** always list Eala's games first in every set and match tiebreak — wins and losses. Flip opponent-first scores from WTA/tennis.com. See [reference.md](reference.md#score-format).
 - Add milestone sub-bullets only for firsts (e.g. first WTA title, first Filipina to reach X)
 - **Doubles:** exit round gets `| [wtatennis.com](url)` on the main line; earlier rounds as `Round | [wtatennis.com](url)` sub-bullets. Add `(with Partner Name)` on every doubles tournament line.
 
@@ -228,6 +229,7 @@ Apply in this order. A `VIDEO_ID` lives in **one** section only — higher-prior
 - Video embed priority followed: H2H sections have all opponent match videos; Best Performances has ≤2 embeds and only for non-H2H opponents
 - No duplicate `VIDEO_ID` across sections (H2H wins over Best Performances and Grand Slam)
 - Exit-round tournament links point to the deepest round played
+- Scores list Eala's games first in every set and match tiebreak
 - Tournament names are **brand-free** and include `(WTA 125|250|500|1000)` on every WTA tour line; Grand Slams use the four major names only
 - H2H match lines use brand-free tournament names
 - New links only: spot-check URLs added this session (do not re-fetch every existing link)

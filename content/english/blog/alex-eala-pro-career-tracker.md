@@ -14,7 +14,7 @@ related_notes:
   - follow-through
 featured: false
 draft: false
-lastmod: 2026-07-07T04:10:00Z
+lastmod: 2026-07-10T12:02:00Z
 ---
 
 I've been following Alex Eala's career since her amazing run at the 2025 Miami Open, and watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook - career-high rankings, the matches I'll always remember, the head-to-heads with Grand Slam champions, and the upcoming matchups I'm watching for. I update it as her career unfolds.
@@ -60,7 +60,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - 2026
 
   - **Berlin (WTA 500, Grass)** 
-    - Semifinals, l. Noskova 6-2, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-20)
+    - Semifinals, l. Noskova 2-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-20)
     - Quarterfinals, d. Svitolina 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/e-svitolina-vs-a-eala-2026-06-19)
     - Round of 16, d. Rybakina 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/a-eala-vs-e-rybakina-2026-06-18)
     - Round of 32, d. Vekić 7-5, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS030) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/d-vekic-vs-a-eala-2026-06-17)
@@ -181,11 +181,11 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - 2026
 
   - **Bad Homburg (WTA 500, Grass) - with Venus Williams**
-    - Quarterfinals, l. Mihalikova/Nicholls 6-3, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/2017/bad-homburg/2026/scores/LD007)
+    - Quarterfinals, l. Mihalikova/Nicholls 3-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2017/bad-homburg/2026/scores/LD007)
     - Round of 16, d. Harrison/Osborne 6-3, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2017/bad-homburg/2026/scores/LD014)
 
   - **Abu Dhabi (WTA 500, Hard) - with Janice Tjen**
-    - Semifinals, l. Mihalikova/Nicholls 6-4, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LD003)
+    - Semifinals, l. Mihalikova/Nicholls 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LD003)
     - Quarterfinals, d. Bucsa/Zhang 6-3, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LD007)
     - Round of 16, d. Fernandez/Mladenovic 7-5, 3-6, 10-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LD014)
 
@@ -196,30 +196,30 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - 2025
 
   - **Guangzhou (WTA 250, Hard) - with Nadiia Kichenok**
-    - Semifinals, l. Piter/Tjen 6-7(4), 3-6, 10-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/1023/guangzhou/2025/scores/LD002)
+    - Semifinals, l. Piter/Tjen 6-7(4), 3-6, 5-10 | [wtatennis.com](https://www.wtatennis.com/tournaments/1023/guangzhou/2025/scores/LD002)
     - Quarterfinals, d. Kudermetova/Rakhimova 6-3, 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/1023/guangzhou/2025/scores/LD005)
     - Round of 16, d. Appleton/Tang 6-4, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1023/guangzhou/2025/scores/LD010)
 
   - **Rome Open (WTA 1000, Clay) - with Coco Gauff**
     - Lost to defending champions Jasmine Paolini / Sara Errani
-    - Quarterfinals, l. Paolini/Errani 7-5, 3-6, 10-7 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD005)
+    - Quarterfinals, l. Paolini/Errani 7-5, 3-6, 7-10 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD005)
     - Round of 16, d. Grant/Pigato 6-2, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD011)
     - Round of 32, d. Panova/Stollar 6-3, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2025/scores/LD022)
 
 - 2024
 
   - **Ningbo (WTA 500, Hard) - with En-Shuo Liang**
-    - Quarterfinals, l. Olmos/Panova 6-1, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/2092/ningbo/2024/scores/LD005)
+    - Quarterfinals, l. Olmos/Panova 1-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2092/ningbo/2024/scores/LD005)
     - Round of 16, d. Alexandrova/Siniakova w/o | [wtatennis.com](https://www.wtatennis.com/tournaments/2092/ningbo/2024/scores/LD011)
 
   - **Guadalajara (WTA 125, Hard) - with Kimberly Birrell**
-    - Quarterfinals, l. Piter/Stollar 6-4, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2024/scores/LD007)
+    - Quarterfinals, l. Piter/Stollar 4-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2024/scores/LD007)
 
   - **Warsaw (WTA 125, Hard) - with Darja Semenistaja**
     - Quarterfinals, l. Falkowska/Kubka 4-6, 5-7 | [wtatennis.com](https://www.wtatennis.com/tournaments/2087/warsaw-125/2024/scores/LD007)
 
   - **Canberra International (WTA 125, Hard) - with Laura Pigossi**
-    - Semifinals, l. McPhee/Sharma 7-6(1), 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/2096/canberra-125/2024/scores/LD002)
+    - Semifinals, l. McPhee/Sharma 6-7(1), 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2096/canberra-125/2024/scores/LD002)
     - Quarterfinals, d. Bondar/Naef w/o | [wtatennis.com](https://www.wtatennis.com/tournaments/2096/canberra-125/2024/scores/LD005)
     - Round of 16, d. Errani/Zarazua 5-7, 6-0, 10-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2096/canberra-125/2024/scores/LD011)
 
@@ -476,7 +476,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2026 Stuttgart (Clay)** - Round of 32, LOSS, 6-1, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/1051/stuttgart/2026/scores/LS018) | [tennis.com](https://www.tennis.com/tournaments/porsche-tennis-grand-prix/matches/l-fernandez-vs-a-eala-2026-04-14)
+- **2026 Stuttgart (Clay)** - Round of 32, LOSS, 1-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1051/stuttgart/2026/scores/LS018) | [tennis.com](https://www.tennis.com/tournaments/porsche-tennis-grand-prix/matches/l-fernandez-vs-a-eala-2026-04-14)
 
 {{< youtube Opdw8Q_HFdQ >}}
 
@@ -489,7 +489,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2026 London (Grass)** - Round of 16, LOSS, 6-2, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/1111/queens/2026/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/hsbc-championships/matches/i-jovic-vs-a-eala-2026-06-10)
+- **2026 London (Grass)** - Round of 16, LOSS, 2-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/1111/queens/2026/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/hsbc-championships/matches/i-jovic-vs-a-eala-2026-06-10)
 
 {{< youtube kv9jOR3P7O0 >}}
 
@@ -506,7 +506,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2025 Rome (Clay)** - Round of 128, LOSS, 6-0, 6-1 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2025/scores/LS070) | [tennis.com](https://www.tennis.com/tournaments/internazionali-bnl-ditalia/matches/m-kostyuk-vs-a-eala-2025-05-07)
+- **2025 Rome (Clay)** - Round of 128, LOSS, 0-6, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/709/rome/2025/scores/LS070) | [tennis.com](https://www.tennis.com/tournaments/internazionali-bnl-ditalia/matches/m-kostyuk-vs-a-eala-2025-05-07)
 
 ### Karolina Muchova
 
@@ -515,7 +515,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2026 Miami Open (Hard)** - Round of 16, LOSS, 6-0, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/miami-open/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/k-muchova-vs-a-eala-2026-03-23)
+- **2026 Miami Open (Hard)** - Round of 16, LOSS, 0-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/miami-open/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/k-muchova-vs-a-eala-2026-03-23)
 
 {{< youtube FRKYk8uPUJo >}}
 
@@ -528,11 +528,13 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2026 Berlin (Grass)** - Semifinals, LOSS, 6-2, 6-4 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-20)
+- **2026 Berlin (Grass)** - Semifinals, LOSS, 2-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-20)
 
 {{< youtube 2xXtCXEVBqg >}}
 
 {{< youtube wQ1Y2R4_dAU >}}
+
+- **2026 Indian Wells (Hard)** - Round of 16, LOSS, 2-6, 0-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/indian-wells/scores/LS010) | [tennis.com](https://www.tennis.com/tournaments/bnp-paribas-open-indian-wells/matches/a-eala-vs-l-noskova-2026-03-11)
 
 ---
 

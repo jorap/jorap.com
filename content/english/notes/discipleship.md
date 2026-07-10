@@ -4,6 +4,8 @@ meta_title: "Discipleship - Following Jesus After Faith"
 description: "Discipleship is following Jesus daily - learning and doing what He said after faith, not buying eternal life."
 key_concept: |
   {{< bible ref="Luke 9:23-24" emphasize="23" >}}
+
+  - Daily cross - deny self and follow after faith, not to buy heaven but because grace already saved.
   - Discipleship is following Jesus daily - learning and doing what He said after faith, not buying eternal life.
 
   - Daily cross - deny self and follow after faith, not to buy heaven but because grace already saved.

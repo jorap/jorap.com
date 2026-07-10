@@ -4,6 +4,7 @@ meta_title: "Judge Not - Speck and Plank"
 description: "Final judge on souls is not your job - pull your own plank before nitpicking someone speck."
 key_concept: |
   {{< bible ref="Matthew 7:1-5" emphasize="5" >}}
+  
   - Do not play final judge on souls - pull your plank before you nitpick someone's speck.
   
   {{< bible ref="Matthew 7:16-20" emphasize="20" >}}
@@ -19,9 +20,9 @@ examples:
   - "I spotted a coworker's missed step in five seconds and missed my own plank for a month - Jesus was not saying ignore sin; He was saying remove your plank first."
 shareable_thought:
   - "Final judge on souls is not your job - pull your own plank before nitpicking someone speck."
-  - "Still judge fruit - outcomes over time tell you what is underneath the hype."
-  - "Jesus forbids harsh, hypocritical condemnation - not all moral discernment."
-  - "Mercy and Free Grace remind you that you stood on mercy first."
+  - "Still judge fruit - outcomes over time tell you what's underneath the hype."
+  - "He does not forbid all moral discernment: the same sermon names fruit too."
+  - "I do not play final judge on souls - I pull my own plank before nitpicking someone's speck."
 relationships:
   - type: contradicts
     wikilink: "[[Humility and Service]]"

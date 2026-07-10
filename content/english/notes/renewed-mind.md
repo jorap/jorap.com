@@ -4,10 +4,11 @@ meta_title: "Renewed Mind - Romans 12:2 Mind Transformation"
 description: "Refuse the world default thinking - let Scripture reshape how you see, choose, and obey."
 key_concept: |
   {{< bible ref="John 8:31-32" emphasize="32" >}}
+
   - Stay in His word and you are His disciple - truth frees the mind culture tried to lock in hurry and outrage.
-  
+
   {{< bible ref="Romans 12:1-2" emphasize="2" >}}
-  
+
   - Mercy first, then sacrifice, then a mind being renewed - Paul stacks the order I keep swapping.
   - Renewal enables testing His will - good, acceptable, perfect - see [[Discern His Will Daily]].
   - Under [[Free Grace]], renewal does not earn eternal life; it follows the verdict [[Justification]] already gave.
@@ -21,10 +22,10 @@ examples:
   - "I knew the verse on patience and still snapped at dinner - my standing was settled at faith, but my mind was still running the world's hurry-and-react script until I opened Scripture before the group chat."
   - "The point guard kept forcing hero shots after film study showed the open man - same data, old habit loop; renewal is reps that bend the default, not one inspirational speech."
 shareable_thought:
-  - "do not copy the world's default thinking - let Scripture reshape how I see, choose, and obey."
-  - "Mercy first, then sacrifice, then a mind being renewed."
-  - "Paul stacks the order I keep swapping."
-  - "Mercy received first - then the living sacrifice, then the renewed mind."
+  - "Refuse the world default thinking."
+  - "Let Scripture reshape how you see, choose, and obey."
+  - "Stay in His word and you are His disciple."
+  - "Truth frees the mind culture tried to lock in hurry and outrage."
 relationships:
   - type: alternative
     wikilink: "[[First Principles Thinking]]"

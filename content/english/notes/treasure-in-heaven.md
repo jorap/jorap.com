@@ -4,6 +4,7 @@ meta_title: "Treasure in Heaven - Where Your Heart Follows"
 description: "Store up what lasts - generosity and obedience - not what rust, moth, and thieves can take."
 key_concept: |
   {{< bible ref="Matthew 6:19-21" emphasize="21" >}}
+
   - Earthly stuff rusts and gets stolen - where your treasure is, your heart follows; store what lasts.
   - Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation.
   - [[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life for faithfulness - not the entry fee.

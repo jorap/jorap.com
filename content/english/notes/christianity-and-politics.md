@@ -4,6 +4,8 @@ meta_title: "Christianity and Politics - Dual Allegiance Without Idolatry"
 description: "Caesar gets what Caesar is owed and God gets what is His - no party gets the soul."
 key_concept: |
   {{< bible ref="Matthew 22:21" >}}
+
+  - Coin to Caesar, self to God - civic duty without making Rome or any party ultimate lord.
   - Caesar gets what Caesar is owed and God gets what is His - no party gets ultimate allegiance.
   - Coin to Caesar, self to God - civic duty without making Rome or any party ultimate lord.
   - [[Seek the Kingdom First]] still ranks God's reign above every election cycle - without excusing dodged taxes, permits, or jury duty.
@@ -18,10 +20,10 @@ examples:
   - "Tax bill landed and part of me wanted to treat paying it like betraying the kingdom - [[Render Unto Caesar]]: lawful duty and ultimate worship stay distinct."
   - "Group chat turned tribal after the election and my thumb hovered on a dunk - bless the neighbor, do not baptize the rage."
 shareable_thought:
-  - "Caesar gets what Caesar is owed; God gets what is His - no party gets ultimate allegiance."
-  - "Render Unto Caesar names the split: coin to Caesar, self to God."
-  - "Seek the Kingdom First still ranks God's reign above every election cycle."
-  - "Political opponents stay neighbors - bless them, do not return evil for evil."
+  - "Caesar gets what Caesar is owed and God gets what is His."
+  - "No party gets the soul."
+  - "Coin to Caesar, self to God."
+  - "Civic duty without making Rome or any party ultimate lord."
 relationships:
   - type: alternative
     wikilink: "[[Peacemakers]]"

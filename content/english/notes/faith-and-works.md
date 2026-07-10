@@ -1,9 +1,10 @@
 ---
 title: "Faith and Works"
 meta_title: "Faith and Works - Saved by Faith, Shown by Action"
-description: Faith alone saves; works show faith is alive, they do not buy heaven.
+description: "Faith alone saves; works show faith is alive, they do not buy heaven."
 key_concept: |
   {{< bible ref="Matthew 7:24" label="Matthew 7:24-27" emphasize="24" >}}
+
   - Faith alone saves; works show faith is alive, they do not buy heaven.
 
   - Hear Jesus and do - rock stands in the storm; hearing alone is sand.
@@ -12,12 +13,12 @@ key_concept: |
   - [[Grateful Obedience]] names the motive: works prove faith alive because grace already saved, not to buy heaven.
 examples:
   - "A coworker quoted James like you need faith plus works to get in - one sentence: works prove faith is real; they do not buy the door Christ already opened."
-  - Confident I am saved but the same selfish pattern untouched - James is not saying try harder to earn heaven; he is asking where the fruit is.
+  - "Confident I am saved but the same selfish pattern untouched - James is not saying try harder to earn heaven; he is asking where the fruit is."
 shareable_thought:
-  - Faith alone saves; works show faith is alive, they do not buy heaven.
-  - Paul and James are not two gospels fighting.
-  - Works prove faith is real; they do not buy the door Christ opened.
-  - Hear Jesus and do - sand collapses when hearing never becomes action.
+  - "Faith alone saves; works show faith is alive, they do not buy heaven."
+  - "Hear Jesus and do - rock stands in the storm; hearing alone is sand."
+  - "James answers what living faith looks like: Abraham offered Isaac."
+  - "Faith already counted him righteous, then action proved it."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

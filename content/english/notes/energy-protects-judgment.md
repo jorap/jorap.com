@@ -4,17 +4,17 @@ meta_title: "Energy Protects Judgment - Rest Is Part of Performance"
 description: "Sleep and recovery protect judgment - tired calls land worse than rested calls on the same facts."
 key_concept: |
   - Energy protects judgment because tired minds make worse calls than rested minds on the same facts.
-
+  
   - Fatigue hits more than muscles - it weakens patience, attention, restraint, and call quality.
   - Rest, prep, workload limits, and recovery are not soft extras - they are part of performing responsibly under pressure.
 examples:
-  - I snapped at my kid over a spilled cup after a brutal week; at breakfast it would have been two calm sentences - she was not the problem, I was.
-  - After three nights of bad sleep I almost sent a sharp email to a neighbor - I waited until morning and the whole thread looked different.
+  - "I snapped at my kid over a spilled cup after a brutal week; at breakfast it would have been two calm sentences - she was not the problem, I was."
+  - "After three nights of bad sleep I almost sent a sharp email to a neighbor - I waited until morning and the whole thread looked different."
 shareable_thought:
-  - Energy protects judgment because tired minds make worse calls on the same facts.
-  - Fatigue weakens patience, attention, restraint, and call quality.
-  - Rest and recovery are part of performing responsibly under pressure.
-  - Wait until morning when sleep debt is rewriting the thread.
+  - "Sleep and recovery protect judgment."
+  - "Tired calls land worse than rested calls on the same facts."
+  - "Energy protects judgment because tired minds make worse calls than rested minds on the same facts."
+  - "Fatigue hits more than muscles."
 relationships:
   - type: contradicts
     wikilink: "[[The 12 Week Year]]"
@@ -39,7 +39,7 @@ relationships:
     reason: "Fewer deep projects protect the energy budget"
   - type: extends
     wikilink: "[[Slow the Moment]]"
-    reason: You cannot pause what you do not have capacity to hold
+    reason: "You cannot pause what you do not have capacity to hold"
   - type: extends
     wikilink: "[[Sustainable Performance]]"
     reason: "Pace you can repeat beats a sprint you crash from"

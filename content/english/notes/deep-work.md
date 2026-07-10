@@ -4,17 +4,17 @@ meta_title: "Deep Work"
 description: "Hard thinking earns uninterrupted blocks; capture catches what tries to interrupt."
 key_concept: |
   - Deep work protects uninterrupted blocks for hard thinking while capture handles interruptions.
-
+  
   - The block only works if it is actually protected - phone away, door closed, not just fewer tabs open.
   - Hard thinking earns a protected block; capture handles what tries to interrupt it.
 examples:
-  - Phone in the drawer while I help with math - one problem set actually finished instead of three distracted false starts.
-  - Phone in the gym bag for ninety minutes - one drill breakdown written that had been almost done for weeks.
+  - "Phone in the drawer while I help with math - one problem set actually finished instead of three distracted false starts."
+  - "Phone in the gym bag for ninety minutes - one drill breakdown written that had been almost done for weeks."
 shareable_thought:
-  - Deep work protects uninterrupted blocks for hard thinking while capture handles interruptions.
-  - The block only works if it is actually protected.
-  - Phone away and door closed beat fewer tabs open.
-  - Hard thinking earns a protected block - capture handles the rest.
+  - "Hard thinking earns uninterrupted blocks; capture catches what tries to interrupt."
+  - "Deep work protects uninterrupted blocks for hard thinking while capture handles interruptions."
+  - "The block only works if it is actually protected."
+  - "Phone away, door closed, not just fewer tabs open."
 relationships:
   - type: contradicts
     wikilink: "[[Mobile Capture Workflows]]"

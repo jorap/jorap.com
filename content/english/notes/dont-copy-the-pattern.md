@@ -4,6 +4,7 @@ meta_title: "Don't Copy the Pattern - Refuse Culture's Default"
 description: "Culture default script is not neutral - refuse the pattern before reactions run on autopilot."
 key_concept: |
   {{< bible ref="John 15:19" emphasize="19" >}}
+
   - Chosen out of the world - so when the feed's outrage feels normal, that is the world's script, not mine.
 
   {{< bible ref="Romans 12:1-2" emphasize="2" >}}
@@ -15,10 +16,10 @@ examples:
   - "I knew the verse on patience and still snapped at dinner - my mind was running the world's hurry-and-react script until I stopped copying the pattern and opened Scripture before the group chat."
   - "The team copied the league's trash-talk culture after one bad call - same data, old habit loop; refusing the pattern means film study on composure, not one inspirational speech."
 shareable_thought:
-  - "Culture's default script is not neutral - refuse the pattern before reactions run on autopilot."
-  - Do not conform - refuse the default before renewal reshapes how you react.
-  - Renewed mind is the positive half after refusal.
-  - Outrage feeds and hurry-and-react are presets you did not choose.
+  - "Culture default script is not neutral."
+  - "Refuse the pattern before reactions run on autopilot."
+  - "John 15:19 NASB1995 - Chosen out of the world - so when the feed's outrage feels normal, that is the world's script, not mine."
+  - "Do not conform - refuse the default before renewal reshapes how I react."
 relationships:
   - type: alternative
     wikilink: "[[Mental Models]]"

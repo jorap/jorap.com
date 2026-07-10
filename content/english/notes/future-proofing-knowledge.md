@@ -4,17 +4,17 @@ meta_title: "Future-Proofing Knowledge - Boring Formats Win"
 description: "Future-proof notes with plain text, open tools, and exports tested before a vendor locks you in."
 key_concept: |
   - Future-proofing knowledge uses plain text, open tools, and exports tested before a vendor locks you in.
-
+  
   - Future-proofing is not predicting tech - it is plain text, open tools, and exports you test before you need them.
   - [[Free Tier Hosting Stack]] client repos are markdown in git - portable if Cloudflare disappears; content survives, hosting is swappable.
 examples:
-  - Our family contacts list is plain text on the fridge backup folder - I copy it twice a year so future-proof is not just a vibe.
-  - My notes live as plain text I can open anywhere; I test the backup drive before I need it, not after an app dies.
+  - "Our family contacts list is plain text on the fridge backup folder - I copy it twice a year so future-proof is not just a vibe."
+  - "My notes live as plain text I can open anywhere; I test the backup drive before I need it, not after an app dies."
 shareable_thought:
-  - Future-proofing knowledge uses plain text, open tools, and exports tested before a vendor locks you in.
-  - Future-proofing is not predicting tech - it is boring formats you can open anywhere.
-  - Markdown in git survives; hosting vendors are swappable.
-  - Test the backup drive before the app dies, not after.
+  - "Future-proof notes with plain text, open tools, and exports tested before a vendor locks you in."
+  - "Future-proofing knowledge uses plain text, open tools, and exports tested before a vendor locks you in."
+  - "Future-proofing is not predicting tech."
+  - "It is plain text, open tools, and exports you test before you need them."
 relationships:
   - type: contradicts
     wikilink: "[[Building a Personal API]]"

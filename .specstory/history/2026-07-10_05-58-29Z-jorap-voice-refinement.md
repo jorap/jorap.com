@@ -2528,3 +2528,10144 @@ _**Agent (auto-low)**_
 <summary>Tool use: **read_file_v2**</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+238 notes are too many to edit manually in one session.
+
+An audit script will check garden-voice rules across all notes. It will flag issues like description length, wikilinks, and contractions. Then I'll run the audit to gauge scope. Mechanical fixes and batch edits will handle common patterns.
+
+The user wants the notes actually fixed, not just audited. I'll run the voice lint audit first to tally violations. Mechanical fixes can be applied programmatically. Content rewrites will be handled strategically.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re, yaml
+from pathlib import Path
+
+ROOT = Path('.')
+NOTES = sorted((ROOT / 'content/english/notes').glob('*.md'))
+FM = re.compile(r'^---\s*\n(.*?)\n---', re.DOTALL)
+WIKILINK = re.compile(r'\[\[')
+CONTRACTION = re.compile(r"\b\w+'(?:t|s|re|ve|ll|d|m)\b", re.I)
+SENTENCE = re.compile(r'[.!?]+\s+')
+FAITH_TAGS = {'faith', 'eternal principles', 'christianity', 'theology', 'gospel'}
+BIBLE = re.compile(r'\{\{<\s*bible|NASB|Matthew|Mark|Luke|John \d|Romans|Ephesians|Galatians|Corinthians|Peter|James|Hebrews|Psalm|Proverbs', re.I)
+
+issues = []
+for path in NOTES:
+    text = path.read_text(encoding='utf-8')
+    m = FM.match(text)
+    if not m: continue
+    meta = yaml.safe_load(m.group(1)) or {}
+    if meta.get('draft') or meta.get('note_kind') in ('meta','index'): continue
+    slug = path.stem
+    tags = {str(t).lower() for t in (meta.get('tags') or [])}
+    cats = {str(c).lower() for c in (meta.get('categories') or [])}
+    is_faith = bool(tags & FAITH_TAGS or cats & {'faith','eternal principles'} or 'bible' in str(meta.get('key_concept','')).lower())
+
+    def add(field, kind, detail=''):
+        issues.append((path.name, field, kind, detail))
+
+    title = meta.get('title','') or ''
+    words = title.split()
+    if len(words) > 5: add('title', 'title>5', title)
+    elif len(words) == 5 and len(title) < 30: add('title', 'title5<30', title)
+
+    desc = meta.get('description','') or ''
+    if desc:
+        if WIKILINK.search(desc): add('description', 'wikilink', desc[:60])
+        wc = len(desc.split())
+        if wc > 20: add('description', 'words>20', f'{wc}: {desc[:50]}')
+        if re.search(r'\bI\b', desc): add('description', 'first-person', desc[:60])
+
+    kc = meta.get('key_concept','') or ''
+    if isinstance(kc, str) and kc.strip():
+        lines = [ln.strip() for ln in kc.splitlines() if ln.strip()]
+        # first content line (skip bible shortcodes)
+        first = None
+        for ln in lines:
+            if ln.startswith('{{<'): continue
+            if ln.startswith('- '): first = ln[2:]; break
+            first = ln; break
+        if first:
+            if WIKILINK.search(first): add('key_concept', 'line1-wikilink', first[:70])
+            if re.match(r'^.+ is the (process|practice) whereby', first, re.I): add('key_concept', 'dict-opener', first[:70])
+            if re.match(r'^.+ is a .+ that ', first, re.I) and 'I ' not in first[:30]: add('key_concept', 'dict-ish', first[:70])
+
+    if is_faith and kc and not BIBLE.search(kc):
+        add('key_concept', 'faith-no-verse', slug)
+
+    ex = meta.get('examples') or []
+    if len(ex) != 2: add('examples', f'count={len(ex)}', '')
+    else:
+        for i, e in enumerate(ex):
+            if SENTENCE.findall(e + ' '): 
+                parts = re.split(r'[.!?]+', e)
+                if len([p for p in parts if p.strip()]) > 1:
+                    add(f'examples[{i}]', 'multi-sentence', e[:70])
+
+    st = meta.get('shareable_thought') or []
+    if len(st) != 4: add('shareable_thought', f'count={len(st)}', '')
+    else:
+        for i, s in enumerate(st):
+            s = s.strip()
+            if len(s.split()) < 4: add(f'shareable[{i}]', 'fragment', s)
+            if not s.endswith(('.', '!', '?')) and len(s.split()) < 8:
+                add(f'shareable[{i}]', 'maybe-fragment', s)
+
+    for field in ('description','key_concept'):
+        val = meta.get(field)
+        if isinstance(val, str) and CONTRACTION.search(val):
+            add(field, 'contraction', CONTRACTION.search(val).group(0))
+
+from collections import Counter
+c = Counter((kind for _,_,kind,_ in issues))
+print('Notes:', len(NOTES))
+print('Issues by kind:', dict(c.most_common()))
+print('Total issues:', len(issues))
+print('\nTop files:')
+from collections import defaultdict
+byfile = defaultdict(list)
+for fn,f,k,d in issues: byfile[fn].append(k)
+for fn in sorted(byfile, key=lambda x: -len(byfile[x]))[:25]:
+    print(f'  {fn}: {len(byfile[fn])} ({", ".join(sorted(set(byfile[fn])))})')
+PY</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re, yaml
+from pathlib import Path
+
+ROOT = Path('.')
+NOTES = sorted((ROOT / 'content/english/notes').glob('*.md'))
+FM = re.compile(r'^---\s*\n(.*?)\n---', re.DOTALL)
+WIKILINK = re.compile(r'\[\[')
+CONTRACTION = re.compile(r"\b\w+'(?:t|s|re|ve|ll|d|m)\b", re.I)
+SENTENCE = re.compile(r'[.!?]+\s+')
+FAITH_TAGS = {'faith', 'eternal principles', 'christianity', 'theology', 'gospel'}
+BIBLE = re.compile(r'\{\{<\s*bible|NASB|Matthew|Mark|Luke|John \d|Romans|Ephesians|Galatians|Corinthians|Peter|James|Hebrews|Psalm|Proverbs', re.I)
+
+issues = []
+for path in NOTES:
+    text = path.read_text(encoding='utf-8')
+    m = FM.match(text)
+    if not m: continue
+    meta = yaml.safe_load(m.group(1)) or {}
+    if meta.get('draft') or meta.get('note_kind') in ('meta','index'): continue
+    slug = path.stem
+    tags = {str(t).lower() for t in (meta.get('tags') or [])}
+    cats = {str(c).lower() for c in (meta.get('categories') or [])}
+    is_faith = bool(tags & FAITH_TAGS or cats & {'faith','eternal principles'} or 'bible' in str(meta.get('key_concept','')).lower())
+
+    def add(field, kind, detail=''):
+        issues.append((path.name, field, kind, detail))
+
+    title = meta.get('title','') or ''
+    words = title.split()
+    if len(words) > 5: add('title', 'title>5', title)
+    elif len(words) == 5 and len(title) < 30: add('title', 'title5<30', title)
+
+    desc = meta.get('description','') or ''
+    if desc:
+        if WIKILINK.search(desc): add('description', 'wikilink', desc[:60])
+        wc = len(desc.split())
+        if wc > 20: add('description', 'words>20', f'{wc}: {desc[:50]}')
+        if re.search(r'\bI\b', desc): add('description', 'first-person', desc[:60])
+
+    kc = meta.get('key_concept','') or ''
+    if isinstance(kc, str) and kc.strip():
+        lines = [ln.strip() for ln in kc.splitlines() if ln.strip()]
+        # first content line (skip bible shortcodes)
+        first = None
+        for ln in lines:
+            if ln.startswith('{{<'): continue
+            if ln.startswith('- '): first = ln[2:]; break
+            first = ln; break
+        if first:
+            if WIKILINK.search(first): add('key_concept', 'line1-wikilink', first[:70])
+            if re.match(r'^.+ is the (process|practice) whereby', first, re.I): add('key_concept', 'dict-opener', first[:70])
+            if re.match(r'^.+ is a .+ that ', first, re.I) and 'I ' not in first[:30]: add('key_concept', 'dict-ish', first[:70])
+
+    if is_faith and kc and not BIBLE.search(kc):
+        add('key_concept', 'faith-no-verse', slug)
+
+    ex = meta.get('examples') or []
+    if len(ex) != 2: add('examples', f'count={len(ex)}', '')
+    else:
+        for i, e in enumerate(ex):
+            if SENTENCE.findall(e + ' '): 
+                parts = re.split(r'[.!?]+', e)
+                if len([p for p in parts if p.strip()]) > 1:
+                    add(f'examples[{i}]', 'multi-sentence', e[:70])
+
+    st = meta.get('shareable_thought') or []
+    if len(st) != 4: add('shareable_thought', f'count={len(st)}', '')
+    else:
+        for i, s in enumerate(st):
+            s = s.strip()
+            if len(s.split()) < 4: add(f'shareable[{i}]', 'fragment', s)
+            if not s.endswith(('.', '!', '?')) and len(s.split()) < 8:
+                add(f'shareable[{i}]', 'maybe-fragment', s)
+
+    for field in ('description','key_concept'):
+        val = meta.get(field)
+        if isinstance(val, str) and CONTRACTION.search(val):
+            add(field, 'contraction', CONTRACTION.search(val).group(0))
+
+from collections import Counter
+c = Counter((kind for _,_,kind,_ in issues))
+print('Notes:', len(NOTES))
+print('Issues by kind:', dict(c.most_common()))
+print('Total issues:', len(issues))
+print('\nTop files:')
+from collections import defaultdict
+byfile = defaultdict(list)
+for fn,f,k,d in issues: byfile[fn].append(k)
+for fn in sorted(byfile, key=lambda x: -len(byfile[x]))[:25]:
+    print(f'  {fn}: {len(byfile[fn])} ({", ".join(sorted(set(byfile[fn])))})')
+PY
+```
+
+```
+Notes: 238
+Issues by kind: {'contraction': 238, 'first-person': 124, 'multi-sentence': 21, 'line1-wikilink': 17, 'faith-no-verse': 11, 'fragment': 5, 'count=0': 2, 'title5&lt;30': 2, 'count=3': 1}
+Total issues: 421
+
+Top files:
+  christianity-and-politics.md: 5 (contraction, faith-no-verse, first-person, line1-wikilink)
+  follow-christ-then-lead.md: 5 (contraction, faith-no-verse, first-person, line1-wikilink)
+  name-the-feeling.md: 5 (contraction, first-person, multi-sentence)
+  safety-comes-first.md: 5 (contraction, first-person, multi-sentence)
+  build-a-reliable-default.md: 4 (contraction, first-person, multi-sentence)
+  change-window.md: 4 (contraction, first-person, line1-wikilink)
+  client-site-pass-off.md: 4 (contraction, first-person, line1-wikilink)
+  finish-strong.md: 4 (contraction, first-person, multi-sentence)
+  judge-not.md: 4 (contraction, first-person, fragment)
+  active-knowledge-curation.md: 3 (contraction, first-person)
+  anti-fragile-systems.md: 3 (contraction, first-person)
+  attention-economy.md: 3 (contraction, first-person)
+  break-the-escalation-cycle.md: 3 (contraction, faith-no-verse)
+  building-a-personal-api.md: 3 (contraction, first-person)
+  building-a-second-brain.md: 3 (contraction, first-person)
+  capture.md: 3 (contraction, first-person, fragment)
+  commonplace-book.md: 3 (contraction, first-person)
+  daily-notes.md: 3 (contraction, first-person)
+  digital-minimalism.md: 3 (contraction, first-person)
+  discipline.md: 3 (contraction, first-person)
+  dont-copy-the-pattern.md: 3 (contraction, first-person)
+  duty-of-care.md: 3 (contraction, first-person)
+  ethical-leadership.md: 3 (contraction, first-person)
+  evergreen-notes.md: 3 (contraction, first-person)
+  failure-as-feedback.md: 3 (contraction, first-person)
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The contraction audit is hitting 238 files. Likely causes include "don't" in key_concept fields and apostrophes in words.
+
+The 238 issues break down into roughly 124 first-person descriptions, 238 frontmatter contractions, 21 multi-sentence examples, 17 line1 wikilinks, 11 faith no verse notes, 5 shareable fragments, and 3 shareable count issues. This remains a massive rewrite task.
+
+A systematic plan is forming. A single runnable garden-voice lint script will centralize checks. Frontmatter contractions and shareable counts can be fixed mechanically. First-person descriptions still need human judgment. Rewriting all 238 contraction issues in one session would sacrifice quality. The strategy is shifting to a phased approach.
+
+The plan now includes creating `scripts/garden-voice-lint.py` as the central check. Task agents will process notes in batches by violation type. Mechanical fixes will handle contractions and counts. Content rewrites for first-person descriptions will need human judgment.
+
+Issues are now ranked by priority. Mechanical fixes come first: shareable counts, titles under thirty characters, fragments, faith-verses, and line1 wikilinks. Medium fixes cover multi-sentence examples and first-person descriptions. The largest remaining batch is contractions in key_concept and description fields.
+
+Mechanical contraction expansion would feel stiff in frontmatter. The rule applies to description, key_concept, examples, shareable_thought, and relationships.reason. Those fields need rephrasing or third-person rewrites instead of simple substitution.
+
+A full editorial pass on 238 notes would take days. The plan is to fix the worst structural violations first, then batch-process descriptions and key_concepts. Subagents will handle parallel batches. The Python script will mechanically expand common frontmatter contractions and report remaining issues.
+
+The 238 contraction hits are mostly false positives. The regex catches possessive apostrophes like "note's" and "Christ's", not just contractions. First-person descriptions still need manual rewrites. Faith notes need their missing verses identified and added.
+
+The contraction regex will be refined to exclude possessive apostrophes. The audit and voice lint will be rerun with the corrected pattern.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re, yaml
+from pathlib import Path
+from collections import Counter, defaultdict
+
+ROOT = Path('.')
+NOTES = sorted((ROOT / 'content/english/notes').glob('*.md'))
+FM = re.compile(r'^---\s*\n(.*?)\n---', re.DOTALL)
+WIKILINK = re.compile(r'\[\[')
+# contractions only, not possessive 's on nouns
+CONTRACTION = re.compile(r"\b(?:I|you|we|they|he|she|it|who|what|that|there|here|let|do|does|did|is|are|was|were|have|has|had|will|would|could|should|can|cannot|won|don|doesn|didn|isn|aren|wasn|weren|haven|hasn|hadn|wouldn|couldn|shouldn|mustn|needn|mightn|shan|ain't)'(?:t|re|ve|ll|d|m)\b", re.I)
+FAITH_TAGS = {'faith', 'eternal principles', 'christianity', 'theology', 'gospel', 'jesus', 'bible'}
+BIBLE = re.compile(r'\{\{<\s*bible|NASB|Matthew|Mark|Luke|John \d|Romans|Ephesians|Galatians|Corinthians|Peter|James|Hebrews|Psalm|Proverbs|Colossians|Philippians|Timothy|Titus|Revelation|Isaiah|Jeremiah', re.I)
+
+issues = []
+for path in NOTES:
+    text = path.read_text(encoding='utf-8')
+    m = FM.match(text)
+    if not m: continue
+    meta = yaml.safe_load(m.group(1)) or {}
+    if meta.get('draft') or meta.get('note_kind') in ('meta','index'): continue
+    tags = {str(t).lower() for t in (meta.get('tags') or [])}
+    cats = {str(c).lower() for c in (meta.get('categories') or [])}
+    is_faith = bool(tags & FAITH_TAGS or cats & {'faith','eternal principles'})
+
+    def add(field, kind, detail=''):
+        issues.append((path.name, field, kind, detail))
+
+    title = meta.get('title','') or ''
+    words = title.split()
+    if len(words) > 5: add('title', 'title>5', title)
+    elif len(words) == 5 and len(title) < 30: add('title', 'title5<30', title)
+
+    desc = meta.get('description','') or ''
+    if desc:
+        if WIKILINK.search(desc): add('description', 'wikilink', desc[:80])
+        if len(desc.split()) > 20: add('description', 'words>20', f'{len(desc.split())}')
+        if re.search(r'\bI\b', desc): add('description', 'first-person', desc)
+
+    kc = meta.get('key_concept','') or ''
+    if isinstance(kc, str) and kc.strip():
+        lines = [ln.strip() for ln in kc.splitlines() if ln.strip()]
+        first_plain = None
+        for ln in lines:
+            if ln.startswith('{{<'): continue
+            if ln.startswith('- '): 
+                first_plain = ln[2:]
+                break
+            first_plain = ln
+            break
+        if first_plain and WIKILINK.search(first_plain):
+            add('key_concept', 'line1-wikilink', first_plain[:80])
+
+    if is_faith and kc and not BIBLE.search(kc):
+        add('key_concept', 'faith-no-verse', path.stem)
+
+    ex = meta.get('examples') or []
+    if len(ex) != 2: add('examples', f'count={len(ex)}', '')
+    else:
+        for i, e in enumerate(ex):
+            if len(re.findall(r'[.!?]', e)) > 1:
+                add(f'examples[{i}]', 'multi-sentence', e[:80])
+
+    st = meta.get('shareable_thought') or []
+    if len(st) != 4: add('shareable_thought', f'count={len(st)}', str(st)[:40])
+    else:
+        for i, s in enumerate(st):
+            s = s.strip()
+            if len(s.split()) < 4: add(f'shareable[{i}]', 'fragment', s)
+
+    for field in ('description', 'key_concept', 'examples', 'shareable_thought'):
+        val = meta.get(field)
+        texts = val if isinstance(val, list) else ([val] if isinstance(val, str) and val.strip() else [])
+        for t in texts:
+            if isinstance(t, str) and CONTRACTION.search(t):
+                add(field, 'contraction', CONTRACTION.search(t).group(0))
+
+c = Counter(kind for *_, kind, _ in issues)
+print('Issues:', dict(c.most_common()), 'total', len(issues))
+for kind in ['faith-no-verse','line1-wikilink','shareable_thought','fragment','title5<30','title>5','first-person','contraction','multi-sentence']:
+    files = sorted({fn for fn,f,k,d in issues if k==kind})
+    if files:
+        print(f'\n{kind} ({len(files)}):')
+        for f in files: print(' ', f)
+PY</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import re, yaml
+from pathlib import Path
+from collections import Counter, defaultdict
+
+ROOT = Path('.')
+NOTES = sorted((ROOT / 'content/english/notes').glob('*.md'))
+FM = re.compile(r'^---\s*\n(.*?)\n---', re.DOTALL)
+WIKILINK = re.compile(r'\[\[')
+# contractions only, not possessive 's on nouns
+CONTRACTION = re.compile(r"\b(?:I|you|we|they|he|she|it|who|what|that|there|here|let|do|does|did|is|are|was|were|have|has|had|will|would|could|should|can|cannot|won|don|doesn|didn|isn|aren|wasn|weren|haven|hasn|hadn|wouldn|couldn|shouldn|mustn|needn|mightn|shan|ain't)'(?:t|re|ve|ll|d|m)\b", re.I)
+FAITH_TAGS = {'faith', 'eternal principles', 'christianity', 'theology', 'gospel', 'jesus', 'bible'}
+BIBLE = re.compile(r'\{\{<\s*bible|NASB|Matthew|Mark|Luke|John \d|Romans|Ephesians|Galatians|Corinthians|Peter|James|Hebrews|Psalm|Proverbs|Colossians|Philippians|Timothy|Titus|Revelation|Isaiah|Jeremiah', re.I)
+
+issues = []
+for path in NOTES:
+    text = path.read_text(encoding='utf-8')
+    m = FM.match(text)
+    if not m: continue
+    meta = yaml.safe_load(m.group(1)) or {}
+    if meta.get('draft') or meta.get('note_kind') in ('meta','index'): continue
+    tags = {str(t).lower() for t in (meta.get('tags') or [])}
+    cats = {str(c).lower() for c in (meta.get('categories') or [])}
+    is_faith = bool(tags & FAITH_TAGS or cats & {'faith','eternal principles'})
+
+    def add(field, kind, detail=''):
+        issues.append((path.name, field, kind, detail))
+
+    title = meta.get('title','') or ''
+    words = title.split()
+    if len(words) > 5: add('title', 'title>5', title)
+    elif len(words) == 5 and len(title) < 30: add('title', 'title5<30', title)
+
+    desc = meta.get('description','') or ''
+    if desc:
+        if WIKILINK.search(desc): add('description', 'wikilink', desc[:80])
+        if len(desc.split()) > 20: add('description', 'words>20', f'{len(desc.split())}')
+        if re.search(r'\bI\b', desc): add('description', 'first-person', desc)
+
+    kc = meta.get('key_concept','') or ''
+    if isinstance(kc, str) and kc.strip():
+        lines = [ln.strip() for ln in kc.splitlines() if ln.strip()]
+        first_plain = None
+        for ln in lines:
+            if ln.startswith('{{<'): continue
+            if ln.startswith('- '): 
+                first_plain = ln[2:]
+                break
+            first_plain = ln
+            break
+        if first_plain and WIKILINK.search(first_plain):
+            add('key_concept', 'line1-wikilink', first_plain[:80])
+
+    if is_faith and kc and not BIBLE.search(kc):
+        add('key_concept', 'faith-no-verse', path.stem)
+
+    ex = meta.get('examples') or []
+    if len(ex) != 2: add('examples', f'count={len(ex)}', '')
+    else:
+        for i, e in enumerate(ex):
+            if len(re.findall(r'[.!?]', e)) > 1:
+                add(f'examples[{i}]', 'multi-sentence', e[:80])
+
+    st = meta.get('shareable_thought') or []
+    if len(st) != 4: add('shareable_thought', f'count={len(st)}', str(st)[:40])
+    else:
+        for i, s in enumerate(st):
+            s = s.strip()
+            if len(s.split()) < 4: add(f'shareable[{i}]', 'fragment', s)
+
+    for field in ('description', 'key_concept', 'examples', 'shareable_thought'):
+        val = meta.get(field)
+        texts = val if isinstance(val, list) else ([val] if isinstance(val, str) and val.strip() else [])
+        for t in texts:
+            if isinstance(t, str) and CONTRACTION.search(t):
+                add(field, 'contraction', CONTRACTION.search(t).group(0))
+
+c = Counter(kind for *_, kind, _ in issues)
+print('Issues:', dict(c.most_common()), 'total', len(issues))
+for kind in ['faith-no-verse','line1-wikilink','shareable_thought','fragment','title5<30','title>5','first-person','contraction','multi-sentence']:
+    files = sorted({fn for fn,f,k,d in issues if k==kind})
+    if files:
+        print(f'\n{kind} ({len(files)}):')
+        for f in files: print(' ', f)
+PY
+```
+
+```
+Issues: {'contraction': 507, 'first-person': 124, 'multi-sentence': 21, 'line1-wikilink': 17, 'faith-no-verse': 11, 'fragment': 5, 'count=0': 2, 'title5&lt;30': 2, 'count=3': 1} total 690
+
+faith-no-verse (11):
+  break-the-escalation-cycle.md
+  christianity-and-politics.md
+  follow-christ-then-lead.md
+  golden-rule-at-work.md
+  integrity-without-an-audience.md
+  outcomes-over-pitch-decks.md
+  plain-commitments-at-work.md
+  priorities-before-the-inbox.md
+  reconcile-before-the-review.md
+  servant-leadership.md
+  steward-after-the-win.md
+
+line1-wikilink (17):
+  blameless-after-action-review.md
+  change-window.md
+  christianity-and-politics.md
+  client-site-pass-off.md
+  follow-christ-then-lead.md
+  gentleness.md
+  goodness.md
+  influence-without-title.md
+  joy.md
+  kindness.md
+  peace.md
+  peacemakers.md
+  pkm.md
+  risk-management.md
+  static-site-client-scope.md
+  the-12-week-year.md
+  title-without-influence.md
+
+fragment (5):
+  capture.md
+  judge-not.md
+  love-your-enemies.md
+  pkm.md
+  set-calm-boundaries.md
+
+title5&lt;30 (2):
+  let-your-yes-be-yes.md
+  there-is-no-perfect-solution.md
+
+first-person (124):
+  abide-in-me.md
+  accept-the-starting-line.md
+  active-knowledge-curation.md
+  anti-fragile-systems.md
+  atomic-notes.md
+  attention-economy.md
+  attention-to-detail.md
+  blameless-after-action-review.md
+  build-a-reliable-default.md
+  building-a-personal-api.md
+  building-a-second-brain.md
+  by-their-fruits.md
+  capture.md
+  change-window.md
+  childlike-faith.md
+  christianity-and-politics.md
+  client-site-pass-off.md
+  commonplace-book.md
+  context-aware-capture.md
+  creative-blocks.md
+  daily-notes.md
+  decision-quality.md
+  deep-work.md
+  deliberate-practice.md
+  develop-dont-endanger.md
+  digital-minimalism.md
+  digital-serendipity.md
+  discipleship-vs-leadership.md
+  discipline.md
+  dont-copy-the-pattern.md
+  duty-of-care.md
+  eliminate-before-managing.md
+  emotional-regulation.md
+  energy-protects-judgment.md
+  ethical-leadership.md
+  evergreen-notes.md
+  evergreen-vs-fleeting-notes.md
+  expect-the-counter.md
+  failure-as-feedback.md
+  faithfulness.md
+  finish-strong.md
+  first-principles-thinking.md
+  follow-christ-then-lead.md
+  follow-their-lead.md
+  forgiveness-at-work.md
+  forgiveness.md
+  future-proofing-knowledge.md
+  god-centered-design.md
+  grace.md
+  graph-view-analytics.md
+  grateful-obedience.md
+  habit-formation.md
+  habit-stacking.md
+  honest-self-awareness.md
+  inbox-zero.md
+  information-diet.md
+  integrity.md
+  intellectual-sourcing.md
+  judge-not.md
+  layered-reading.md
+  lean-startup.md
+  let-your-light-shine.md
+  linking-by-meaning.md
+  literature-notes.md
+  love-your-neighbor.md
+  low-hanging-fruit.md
+  maintenance-window.md
+  measure-then-iterate.md
+  mental-models.md
+  mercy.md
+  mind-mapping.md
+  mobile-capture-workflows.md
+  name-the-feeling.md
+  network-analysis.md
+  own-your-part.md
+  patience.md
+  peacemakers.md
+  people-centered-design.md
+  periodic-knowledge-review.md
+  pkm.md
+  preparedness.md
+  present-a-living-sacrifice.md
+  process-over-outcomes.md
+  read-later-queue.md
+  renewed-mind.md
+  resilience.md
+  safety-by-design.md
+  safety-comes-first.md
+  second-order-thinking.md
+  secret-devotion.md
+  seek-the-kingdom-first.md
+  self-control.md
+  selling-static-sites.md
+  servant-leadership.md
+  shadow-the-work.md
+  share-what-you-learn.md
+  ship-it.md
+  signal-vs-noise.md
+  situational-control.md
+  slow-the-moment.md
+  spaced-repetition.md
+  staged-rollout.md
+  standard-operating-procedures.md
+  standing-vs-fellowship.md
+  stay-effective-in-new-conditions.md
+  success-is-stewardship.md
+  sunk-cost-fallacy.md
+  sustainable-performance.md
+  synthesis-as-a-goal.md
+  systems-thinking.md
+  take-up-your-cross.md
+  taxonomy.md
+  the-12-week-year.md
+  the-collectors-fallacy.md
+  the-feynman-technique.md
+  the-garage-concept.md
+  the-golden-rule.md
+  the-knowledge-lifecycle.md
+  the-narrow-way.md
+  the-trusted-inbox.md
+  the-wise-builder.md
+  treasure-in-heaven.md
+  turn-the-other-cheek.md
+  versatility.md
+
+contraction (177):
+  abide-in-me.md
+  accept-the-starting-line.md
+  accountability.md
+  active-knowledge-curation.md
+  adaptability.md
+  analog-capture-tools.md
+  anti-fragile-systems.md
+  ask-seek-knock.md
+  atomic-notes.md
+  attention-economy.md
+  behavioral-economics.md
+  break-the-escalation-cycle.md
+  build-a-reliable-default.md
+  building-a-personal-api.md
+  building-a-second-brain.md
+  by-their-fruits.md
+  capture.md
+  childlike-faith.md
+  christianity-and-politics.md
+  christlikeness.md
+  client-site-pass-off.md
+  coaching-ethics.md
+  commonplace-book.md
+  complete-the-cycle.md
+  composure.md
+  compounding.md
+  control-the-rhythm.md
+  convert-pain-into-learning.md
+  creative-blocks.md
+  creative-output.md
+  deep-work.md
+  deliberate-practice.md
+  develop-dont-endanger.md
+  digital-garden.md
+  digital-minimalism.md
+  digital-serendipity.md
+  discern-his-will-daily.md
+  discipleship-vs-leadership.md
+  discipleship.md
+  discipline.md
+  dont-copy-the-pattern.md
+  dont-worry.md
+  drafting-in-public.md
+  duty-of-care.md
+  eliminate-before-managing.md
+  emotional-regulation.md
+  energy-protects-judgment.md
+  evergreen-notes.md
+  evergreen-vs-fleeting-notes.md
+  execution.md
+  expect-the-counter.md
+  failure-as-feedback.md
+  faith-and-works.md
+  finish-strong.md
+  first-principles-thinking.md
+  follow-christ-then-lead.md
+  follow-their-lead.md
+  follow-through.md
+  forgiveness-at-work.md
+  forgiveness.md
+  free-grace.md
+  fruits-of-the-spirit.md
+  future-proofing-knowledge.md
+  gentleness.md
+  getting-things-done.md
+  git-based-cms.md
+  god-centered-design.md
+  golden-rule-at-work.md
+  grace.md
+  graph-view-analytics.md
+  grateful-obedience.md
+  great-commission.md
+  growth-mindset.md
+  gtd-vs-para.md
+  habit-formation.md
+  heart-righteousness.md
+  heed-every-near-miss.md
+  honest-self-awareness.md
+  humility-and-service.md
+  inbox-zero.md
+  incident-investigation.md
+  influence-without-title.md
+  information-diet.md
+  integrity-without-an-audience.md
+  integrity.md
+  intellectual-sourcing.md
+  judge-not.md
+  judgment-seat.md
+  justification.md
+  kindness.md
+  layered-reading.md
+  leadership-is-influence.md
+  lean-startup.md
+  learning-organizations.md
+  let-your-light-shine.md
+  let-your-yes-be-yes.md
+  local-first-software.md
+  loss-of-reward.md
+  love-god.md
+  love-your-enemies.md
+  love-your-neighbor.md
+  low-hanging-fruit.md
+  maintenance-window.md
+  measure-then-iterate.md
+  mercy.md
+  metadata-strategy.md
+  minimum-effective-dose.md
+  minimum-viable-product.md
+  name-the-feeling.md
+  network-analysis.md
+  normalization-of-deviance.md
+  note-relationships.md
+  outcomes-over-pitch-decks.md
+  pareto-principle.md
+  patience.md
+  peace.md
+  peacemakers.md
+  people-centered-design.md
+  periodic-knowledge-review.md
+  pkm.md
+  platform-reach-is-borrowed.md
+  practice-small-experiments.md
+  preparedness.md
+  present-a-living-sacrifice.md
+  process-over-outcomes.md
+  purpose-and-vision.md
+  quarterly-planning.md
+  read-later-queue.md
+  reconcile-before-the-review.md
+  recovery.md
+  reliability.md
+  render-unto-caesar.md
+  renewed-mind.md
+  repent-and-believe.md
+  resilience.md
+  reversibility.md
+  rollback-principle.md
+  safety-comes-first.md
+  sanctification.md
+  second-order-thinking.md
+  secret-devotion.md
+  seek-the-kingdom-first.md
+  self-control.md
+  selling-static-sites.md
+  servant-leadership.md
+  set-calm-boundaries.md
+  shadow-the-work.md
+  share-what-you-learn.md
+  signal-vs-noise.md
+  situational-control.md
+  slow-productivity.md
+  slow-the-moment.md
+  standard-operating-procedures.md
+  standing-vs-fellowship.md
+  static-site-client-scope.md
+  stay-effective-in-new-conditions.md
+  steward-after-the-win.md
+  strategic-foresight.md
+  success-is-stewardship.md
+  sunk-cost-fallacy.md
+  sustainable-performance.md
+  synthesis-as-a-goal.md
+  systems-thinking.md
+  take-up-your-cross.md
+  taxonomy.md
+  the-beatitudes.md
+  the-collectors-fallacy.md
+  the-feynman-technique.md
+  the-garage-concept.md
+  the-golden-rule.md
+  the-narrow-way.md
+  the-second-brain-workflow.md
+  the-trusted-inbox.md
+  the-wise-builder.md
+  title-without-influence.md
+  treasure-in-heaven.md
+  turn-the-other-cheek.md
+
+multi-sentence (14):
+  accountability.md
+  build-a-reliable-default.md
+  create-regular-connection.md
+  finish-strong.md
+  follow-their-lead.md
+  getting-things-done.md
+  growth-mindset.md
+  listen-before-fixing.md
+  name-the-feeling.md
+  notice-the-good.md
+  rollback-principle.md
+  safety-comes-first.md
+  secret-devotion.md
+  set-calm-boundaries.md
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A large task. I'll create a garden-voice-lint.py script and a migration script to handle bulk fixes.
+
+Five parallel batches will cover structural fixes, faith notes without verses, first-person descriptions, contractions in frontmatter, and multi-sentence examples. Title exemptions for fixed phrases under thirty characters are being verified.
+
+"Let Your Yes Be Yes" is 19 characters and "There Is No Perfect Solution" is 28. Both are fixed phrases exempt from the 30-character rule. The lint script will include a phrase exempt list to skip these.
+
+The plan is shifting from one comprehensive script to four parallel agents. Mechanical fixes like expanding frontmatter contractions will be handled by the agents. Rephrasing first-person descriptions to remove contractions requires human judgment, so the agents will be instructed to address those carefully.
+
+Each agent will fix roughly 30 to 40 notes per batch. A two-step script is being considered: one that flags violations and another that mechanically repairs them. The plan is to build the lint script first, then use Task agents for bulk rewriting due to token limits.
+
+Agent 1 will fix 35 files covering faith notes without verses, line1 wikilinks, and structural issues. Agents 2 through 4 will handle first-person descriptions and contractions for notes A–G, H–P, and Q–Z respectively. All agents will read the garden-voice skill and edit files directly. Shareable count zero and count three files also need checking.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 5,
+  "glob": "content/english/notes/*.md",
+  "outputMode": "content",
+  "pattern": "shareable_thought:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "shareable_thought:",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/gentleness.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/faithfulness.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/goodness.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/joy.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/kindness.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/patience.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/peace.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/love-god.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/christianity-and-politics.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/sanctification.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/risk-management.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/renewed-mind.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/mercy.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/judgment-seat.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/loss-of-reward.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/the-golden-rule.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/seek-the-kingdom-first.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/dont-worry.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/justification.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./content/english/notes/forgiveness-at-work.md"
+    }
+  ],
+  "totalFiles": 30,
+  "totalMatches": 237
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/flashcards.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "outputMode": "files_with_matches",
+  "pattern": "shareable_thought:\\s*$"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "files_with_matches",
+  "pattern": "shareable_thought:\\s*$",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/discern-his-will-daily.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/leadership-is-influence.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/steward-after-the-win.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/signal-vs-noise.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/standing-vs-fellowship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/graph-view-analytics.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/repent-and-believe.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/execution.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/behavioral-economics.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/creative-blocks.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/own-the-error.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/periodic-knowledge-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/systems-thinking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/there-is-no-perfect-solution.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/standard-operating-procedures.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/analog-capture-tools.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/justification.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/the-feynman-technique.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love-god.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/let-your-light-shine.md"
+    }
+  ],
+  "totalFiles": 237,
+  "totalMatches": 237
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The grep for `shareable_thought` returned empty matches across many files. YAML multiline formatting caused this. The gentleness list contains only three items.
+
+Two files report zero shareable thoughts: leadership-is-influence and discern-his-will-daily. I will write two scripts—lint and fix—and launch four parallel agents to handle content fixes.
+
+Expanding contractions like "don't" to "do not" would sound stiff. I will rephrase those phrases instead. First-person descriptions should shift to third person. The fix script will apply these rephrasing heuristics automatically.
+
+The 301 notes will be split into four alphabetical groups of roughly sixty each. Each agent will read the garden-voice skill and fix all voice violations in its assigned notes. Slugs, relationships, and card structures will remain untouched. Faith notes still need bible verses.
+
+Meta notes such as flashcards.md and getting-started.md will be skipped entirely. The lint script will include phrase-exempt titles and run against each agent’s batch once finished. I am grepping for note_kind metadata to confirm which files are excluded.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "outputMode": "content",
+  "pattern": "note_kind:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "note_kind:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/okf-export.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/maps-of-content.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/workplace-principles.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/flashcards.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/issues.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/note-relationships.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/getting-started.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/create.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/pressure-reveals-weakness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/transformation-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/random-duo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/graph.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/backlinks.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/systems-for-growth.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/eternal-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/review.md"
+    }
+  ],
+  "totalFiles": 16,
+  "totalMatches": 19
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Meta and index notes should be excluded from garden-voice linting, perhaps only loosely.
+
+Writing garden-voice-lint.py now. Four parallel agents will process roughly 225 regular notes. Meta and index notes are excluded.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+import yaml,re
+from pathlib import Path
+FM=re.compile(r'^---\s*\n(.*?)\n---',re.DOTALL)
+skip=0; reg=0
+for p in Path('content/english/notes').glob('*.md'):
+    m=FM.match(p.read_text())
+    meta=yaml.safe_load(m.group(1)) if m else {}
+    if meta.get('note_kind') in ('meta','index') or meta.get('draft'): skip+=1
+    else: reg+=1
+print('regular',reg,'skip',skip)
+"</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+import yaml,re
+from pathlib import Path
+FM=re.compile(r'^---\s*\n(.*?)\n---',re.DOTALL)
+skip=0; reg=0
+for p in Path('content/english/notes').glob('*.md'):
+    m=FM.match(p.read_text())
+    meta=yaml.safe_load(m.group(1)) if m else {}
+    if meta.get('note_kind') in ('meta','index') or meta.get('draft'): skip+=1
+    else: reg+=1
+print('regular',reg,'skip',skip)
+"
+```
+
+```
+regular 223 skip 15
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Found 223 regular notes. I'll create a lint script and launch four parallel agents to review roughly 56 notes each.
+
+A Python migration script will handle the bulk work. It loads each note and applies automated transforms: rewording first-person descriptions to third person, fixing frontmatter contractions, extracting wikilinks from the first line, and cleaning shareable fragments.
+
+Agents will handle subjective content changes better than automated scripts. I'll fix gentleness shareable counts and sanctification fragments manually as quick wins. Notes will be split into four alphabetical groups: A-D, E-K, L-P, and Q-Z.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import yaml,re
+from pathlib import Path
+FM=re.compile(r'^---\s*\n(.*?)\n---',re.DOTALL)
+notes=[]
+for p in sorted(Path('content/english/notes').glob('*.md')):
+    m=FM.match(p.read_text())
+    meta=yaml.safe_load(m.group(1)) if m else {}
+    if meta.get('note_kind') in ('meta','index') or meta.get('draft'): continue
+    notes.append(p.name)
+chunks=[notes[i::4] for i in range(4)]
+for i,c in enumerate(chunks):
+    print(f'CHUNK{i}={len(c)}')
+    print(','.join(c[:5]),'...')
+PY</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import yaml,re
+from pathlib import Path
+FM=re.compile(r'^---\s*\n(.*?)\n---',re.DOTALL)
+notes=[]
+for p in sorted(Path('content/english/notes').glob('*.md')):
+    m=FM.match(p.read_text())
+    meta=yaml.safe_load(m.group(1)) if m else {}
+    if meta.get('note_kind') in ('meta','index') or meta.get('draft'): continue
+    notes.append(p.name)
+chunks=[notes[i::4] for i in range(4)]
+for i,c in enumerate(chunks):
+    print(f'CHUNK{i}={len(c)}')
+    print(','.join(c[:5]),'...')
+PY
+```
+
+```
+CHUNK0=56
+_index.md,active-knowledge-curation.md,ask-seek-knock.md,attention-to-detail.md,build-a-reliable-default.md ...
+CHUNK1=56
+abide-in-me.md,adaptability.md,assurance.md,behavioral-economics.md,building-a-personal-api.md ...
+CHUNK2=56
+accept-the-starting-line.md,analog-capture-tools.md,atomic-notes.md,blameless-after-action-review.md,building-a-second-brain.md ...
+CHUNK3=55
+accountability.md,anti-fragile-systems.md,attention-economy.md,break-the-escalation-cycle.md,by-their-fruits.md ...
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Retrieving full file lists for each chunk. Launching four parallel agents.
+
+Running a self-check on the lint script. A Python migration script with regex patterns could fix description issues faster than parallel agents. Common fixes include converting "I " to third person.
+
+Regex patterns are too numerous. Four Task agents will process the chunks instead. Shell commands will write full file lists per chunk to files the agents can read.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --self-check && python3 << 'PY' > /tmp/chunks.txt
+import yaml,re
+from pathlib import Path
+FM=re.compile(r'^---\s*\n(.*?)\n---',re.DOTALL)
+notes=[]
+for p in sorted(Path('content/english/notes').glob('*.md')):
+    if p.name=='_index.md': continue
+    m=FM.match(p.read_text())
+    meta=yaml.safe_load(m.group(1)) if m else {}
+    if meta.get('note_kind') in ('meta','index') or meta.get('draft'): continue
+    notes.append(p.name)
+for i in range(4):
+    chunk=notes[i::4]
+    print(f'===CHUNK{i}===')
+    print('\n'.join(chunk))
+PY
+wc -l /tmp/chunks.txt</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --self-check && python3 << 'PY' > /tmp/chunks.txt
+import yaml,re
+from pathlib import Path
+FM=re.compile(r'^---\s*\n(.*?)\n---',re.DOTALL)
+notes=[]
+for p in sorted(Path('content/english/notes').glob('*.md')):
+    if p.name=='_index.md': continue
+    m=FM.match(p.read_text())
+    meta=yaml.safe_load(m.group(1)) if m else {}
+    if meta.get('note_kind') in ('meta','index') or meta.get('draft'): continue
+    notes.append(p.name)
+for i in range(4):
+    chunk=notes[i::4]
+    print(f'===CHUNK{i}===')
+    print('\n'.join(chunk))
+PY
+wc -l /tmp/chunks.txt
+```
+
+```
+garden-voice-lint self-check OK
+226 /tmp/chunks.txt
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="task_v2">
+<details>
+<summary>Tool use: **task_v2**</summary>
+
+
+Parameters:
+
+```json
+{
+  "description": "Garden-voice fix chunk 0",
+  "model": "auto-low",
+  "name": "general-purpose",
+  "prompt": "Fix ALL garden-voice violations in these notes at /home/jorap/Documents/GitHub/jorap.com/content/english/notes/\n\nRead .cursor/skills/garden-voice/SKILL.md first. Skip note_kind meta/index (none in this list).\n\nRules to apply per note:\n- description: third-person, ≤20 words, no wikilinks, no contractions\n- key_concept line 1: plain claim you'd argue, NO wikilinks; then 2-4 sentences; faith notes need Bible verse (use {{\u003c bible ref=\"...\" emphasize=\"...\" \u003e}} shortcode pattern like abide-in-me.md if no NASB paragraph yet)\n- examples: exactly 2, one sentence each, different scenes\n- shareable_thought: exactly 4 complete thoughts, 4 different angles, no fragments\n- title: prefer 4 words, max 5\n- No contractions in description, key_concept, examples, shareable_thought, relationships.reason (cards/body OK)\n- EP/faith commentary: straight tone, first-person glosses after verses\n\nFILES (chunk 0):\nactive-knowledge-curation.md, ask-seek-knock.md, attention-to-detail.md, build-a-reliable-default.md, capture.md, change-takes-repetition.md, childlike-faith.md, commonplace-book.md, complete-the-cycle.md, composure.md, compounding.md, context-aware-capture.md, control-the-rhythm.md, convert-pain-into-learning.md, create-regular-connection.md, creative-output.md, daily-notes.md, decision-quality.md, deep-work.md, deliberate-practice.md, develop-dont-endanger.md, digital-garden.md, digital-minimalism.md, digital-serendipity.md, discern-his-will-daily.md, discipleship.md, discipleship-vs-leadership.md, discipline.md, dont-copy-the-pattern.md, dont-worry.md, drafting-in-public.md, duty-of-care.md, eliminate-before-managing.md, emotional-regulation.md, energy-protects-judgment.md, ethical-leadership.md, evergreen-notes.md, evergreen-vs-fleeting-notes.md, execution.md, expect-the-counter.md, failure-as-feedback.md, faith-and-works.md, faithfulness.md, finish-strong.md, first-principles-thinking.md, follow-through.md, forgiveness.md, forgiveness-at-work.md, free-grace.md, free-tier-hosting-stack.md, fruits-of-the-spirit.md, future-proofing-knowledge.md, getting-things-done.md, git-based-cms.md, god-centered-design.md, golden-rule-at-work.md, grace.md, graph-view-analytics.md, grateful-obedience.md\n\nEdit each file. Return count of files fixed and any blockers.",
+  "subagentType": "unspecified"
+}
+```
+Additional data:
+
+```json
+{
+  "backgroundCompletionStatus": "success",
+  "backgrounded": true,
+  "status": "success",
+  "subagentComposerId": "c71324da-4aa0-427c-8107-fae2daa03c5d",
+  "terminationReason": "completed"
+}
+```
+Result:
+
+```json
+{
+  "agentId": "c71324da-4aa0-427c-8107-fae2daa03c5d",
+  "isBackground": true
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
+<summary>Tool use: **task_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="task_v2">
+<details>
+<summary>Tool use: **task_v2**</summary>
+
+
+Parameters:
+
+```json
+{
+  "description": "Garden-voice fix chunk 1",
+  "model": "auto-low",
+  "name": "general-purpose",
+  "prompt": "Fix ALL garden-voice violations in these notes at /home/jorap/Documents/GitHub/jorap.com/content/english/notes/\n\nRead .cursor/skills/garden-voice/SKILL.md first.\n\nRules: description third-person ≤20 words no wikilinks no contractions; key_concept line1 plain claim no wikilinks faith needs bible verse; examples 2 one-sentence scenes; shareable_thought 4 complete different angles; no contractions in frontmatter fields listed in skill.\n\nFILES (chunk 1):\nabide-in-me.md, adaptability.md, assurance.md, behavioral-economics.md, building-a-personal-api.md, by-their-fruits.md, change-window.md, christlikeness.md, christianity-and-politics.md, client-site-pass-off.md, coaching-ethics.md, create.md, great-commission.md, growth-mindset.md, gtd-vs-para.md, habit-formation.md, habit-stacking.md, heart-righteousness.md, heed-every-near-miss.md, hierarchy-of-controls.md, honest-self-awareness.md, humility-and-service.md, incident-investigation.md, influence-without-title.md, information-diet.md, integrity.md, integrity-without-an-audience.md, intellectual-sourcing.md, issues.md, judge-not.md, judgment-seat.md, justification.md, kindness.md, layered-reading.md, leadership.md, leadership-is-influence.md, lean-startup.md, learning-organizations.md, let-your-light-shine.md, let-your-yes-be-yes.md, life-before-achievement.md, linking-by-meaning.md, literature-notes.md, local-first-software.md, loss-of-reward.md, love-god.md, love-your-enemies.md, love-your-neighbor.md, low-hanging-fruit.md, maintenance-window.md, maps-of-content.md, measure-then-iterate.md, mental-models.md, mercy.md, metadata-strategy.md, mind-mapping.md, minimum-effective-dose.md, minimum-viable-product.md\n\nEdit each file. Return count fixed and blockers.",
+  "subagentType": "unspecified"
+}
+```
+Additional data:
+
+```json
+{
+  "backgroundCompletionStatus": "success",
+  "backgrounded": true,
+  "status": "success",
+  "subagentComposerId": "a0b7811f-d994-4a74-9523-dbc2a99d1711",
+  "terminationReason": "completed"
+}
+```
+Result:
+
+```json
+{
+  "agentId": "a0b7811f-d994-4a74-9523-dbc2a99d1711",
+  "isBackground": true
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
+<summary>Tool use: **task_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="task_v2">
+<details>
+<summary>Tool use: **task_v2**</summary>
+
+
+Parameters:
+
+```json
+{
+  "description": "Garden-voice fix chunk 2",
+  "model": "auto-low",
+  "name": "general-purpose",
+  "prompt": "Fix ALL garden-voice violations in these notes at /home/jorap/Documents/GitHub/jorap.com/content/english/notes/\n\nRead .cursor/skills/garden-voice/SKILL.md first.\n\nRules: description third-person ≤20 words no wikilinks no contractions; key_concept line1 plain claim no wikilinks faith needs bible verse; examples 2 one-sentence scenes; shareable_thought 4 complete different angles; no contractions in frontmatter fields.\n\nFILES (chunk 2):\naccept-the-starting-line.md, analog-capture-tools.md, atomic-notes.md, blameless-after-action-review.md, building-a-second-brain.md, break-the-escalation-cycle.md, follow-christ-then-lead.md, follow-their-lead.md, gentleness.md, getting-started.md, goodness.md, graph.md, habit-stacking.md, heed-every-near-miss.md, inbox-zero.md, joy.md, listen-before-fixing.md, listen-before-fixing.md, mobile-capture-workflows.md, name-the-feeling.md, network-analysis.md, normalization-of-deviance.md, notice-the-good.md, okf-export.md, outcomes-over-pitch-decks.md, own-the-error.md, own-your-part.md, para-method.md, patience.md, peace.md, peacemakers.md, people-centered-design.md, periodic-knowledge-review.md, plain-commitments-at-work.md, platform-reach-is-borrowed.md, practice-small-experiments.md, preparedness.md, present-a-living-sacrifice.md, pressure-reveals-weakness.md, priorities-before-the-inbox.md, process-over-outcomes.md, psychological-safety.md, purpose-and-vision.md, quarterly-planning.md, random-duo.md, read-later-queue.md, reconcile-before-the-review.md, reconciliation-before-worship.md, recovery.md, reliability.md, render-unto-caesar.md, renewed-mind.md, repent-and-believe.md, resilience.md, reversibility.md, rollback-principle.md, safety-by-design.md, safety-comes-first.md, sanctification.md\n\nEdit each file. Return count fixed and blockers.",
+  "subagentType": "unspecified"
+}
+```
+Additional data:
+
+```json
+{
+  "backgroundCompletionStatus": "success",
+  "backgrounded": true,
+  "status": "success",
+  "subagentComposerId": "72ff30da-df54-4a92-8247-9486095d923b",
+  "terminationReason": "completed"
+}
+```
+Result:
+
+```json
+{
+  "agentId": "72ff30da-df54-4a92-8247-9486095d923b",
+  "isBackground": true
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
+<summary>Tool use: **task_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="task_v2">
+<details>
+<summary>Tool use: **task_v2**</summary>
+
+
+Parameters:
+
+```json
+{
+  "description": "Garden-voice fix chunk 3",
+  "model": "auto-low",
+  "name": "general-purpose",
+  "prompt": "Fix ALL garden-voice violations in these notes at /home/jorap/Documents/GitHub/jorap.com/content/english/notes/\n\nRead .cursor/skills/garden-voice/SKILL.md first.\n\nRules: description third-person ≤20 words no wikilinks no contractions; key_concept line1 plain claim no wikilinks faith needs bible verse; examples 2 one-sentence scenes; shareable_thought 4 complete different angles; no contractions in frontmatter fields.\n\nFILES (chunk 3):\naccountability.md, anti-fragile-systems.md, attention-economy.md, break-the-escalation-cycle.md, by-their-fruits.md, capture.md, change-window.md, continuous-improvement.md, create.md, deep-work.md, duty-of-care.md, eternal-principles.md, eternal-rewards.md, faithful-steward.md, finish-strong.md, follow-christ-then-lead.md, forgiveness-at-work.md, fruits-of-the-spirit.md, getting-started.md, graph-view-analytics.md, habit-formation.md, honest-self-awareness.md, incident-investigation.md, influence-without-title.md, integrity-without-an-audience.md, judgment-seat.md, leadership-is-influence.md, listen-before-fixing.md, loss-of-reward.md, measure-then-iterate.md, mercy.md, metadata-strategy.md, minimum-viable-product.md, mobile-capture-workflows.md, name-the-feeling.md, network-analysis.md, normalization-of-deviance.md, notice-the-good.md, outcomes-over-pitch-decks.md, own-the-error.md, own-your-part.md, para-method.md, patience.md, peace.md, peacemakers.md, people-centered-design.md, periodic-knowledge-review.md, pkm.md, practice-small-experiments.md, preparedness.md, priorities-before-the-inbox.md, process-over-outcomes.md, psychological-safety.md, purpose-and-vision.md, quarterly-planning.md, read-later-queue.md, reconcile-before-the-review.md, recovery.md, reliability.md, renewed-mind.md, repent-and-believe.md, resilience.md, reversibility.md, risk-management.md, rollback-principle.md, safety-by-design.md, safety-comes-first.md, sanctification.md, second-order-thinking.md, secret-devotion.md, seek-the-kingdom-first.md, self-control.md, selling-static-sites.md, servant-leadership.md, set-calm-boundaries.md, shadow-the-work.md, share-what-you-learn.md, ship-it.md, signal-vs-noise.md, situational-control.md, slow-productivity.md, slow-the-moment.md, spaced-repetition.md, staged-rollout.md, standard-operating-procedures.md, standing-vs-fellowship.md, static-site-client-scope.md, stay-effective-in-new-conditions.md, steward-after-the-win.md, strategic-foresight.md, success-is-stewardship.md, sunk-cost-fallacy.md, sustainable-performance.md, synthesis-as-a-goal.md, systems-for-growth.md, systems-thinking.md, take-up-your-cross.md, taxonomy.md, the-12-week-year.md, the-beatitudes.md, the-collectors-fallacy.md, the-feynman-technique.md, the-garage-concept.md, the-golden-rule.md, the-knowledge-lifecycle.md, the-narrow-way.md, the-second-brain-workflow.md, the-trusted-inbox.md, the-wise-builder.md, there-is-no-perfect-solution.md, title-without-influence.md, treasure-in-heaven.md, transformation-principles.md, turn-the-other-cheek.md, versatility.md, weekly-review-checklists.md, workplace-principles.md\n\nWait - use ONLY this deduplicated chunk 3 list:\naccountability.md, anti-fragile-systems.md, attention-economy.md, continuous-improvement.md, eternal-rewards.md, faithful-steward.md, pkm.md, risk-management.md, second-order-thinking.md, secret-devotion.md, seek-the-kingdom-first.md, self-control.md, selling-static-sites.md, servant-leadership.md, set-calm-boundaries.md, shadow-the-work.md, share-what-you-learn.md, ship-it.md, signal-vs-noise.md, situational-control.md, slow-productivity.md, slow-the-moment.md, spaced-repetition.md, staged-rollout.md, standard-operating-procedures.md, standing-vs-fellowship.md, static-site-client-scope.md, stay-effective-in-new-conditions.md, steward-after-the-win.md, strategic-foresight.md, success-is-stewardship.md, sunk-cost-fallacy.md, sustainable-performance.md, synthesis-as-a-goal.md, systems-for-growth.md, systems-thinking.md, take-up-your-cross.md, taxonomy.md, the-12-week-year.md, the-beatitudes.md, the-collectors-fallacy.md, the-feynman-technique.md, the-garage-concept.md, the-golden-rule.md, the-knowledge-lifecycle.md, the-narrow-way.md, the-second-brain-workflow.md, the-trusted-inbox.md, the-wise-builder.md, there-is-no-perfect-solution.md, title-without-influence.md, treasure-in-heaven.md, turn-the-other-cheek.md, versatility.md, weekly-review-checklists.md\n\nEdit each file. Return count fixed and blockers.",
+  "subagentType": "unspecified"
+}
+```
+Additional data:
+
+```json
+{
+  "backgroundCompletionStatus": "success",
+  "backgrounded": true,
+  "status": "success",
+  "subagentComposerId": "45b8d339-715c-41b1-9f43-d4fb779bc1d3",
+  "terminationReason": "completed"
+}
+```
+Result:
+
+```json
+{
+  "agentId": "45b8d339-715c-41b1-9f43-d4fb779bc1d3",
+  "isBackground": true
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="task_v2"><details>
+<summary>Tool use: **task_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Background agents are running.
+
+Adding garden-voice-lint to package.json. I'll wait for the agents to finish before running lint. I may fix some notes directly if needed.
+
+A helper script will fix structural issues across all notes. It will split line 1 wikilinks into plain claims, standardize shareable fragments, and enforce gentleness counts. Agents will handle content rewrites.
+
+The first line is the punch. I will remove the wikilink from "Rollback Principle" and place it later. I am waiting for the agents to finish.</details></think>
+
+_**Agent (auto-low)**_
+
+While the four batch agents run, I'm adding the lint script to package.json and applying mechanical fixes locally.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/blameless-after-action-review.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing reference notes on capture, blameless, and gentleness as exemplars. Adding a package.json script. Awaiting agent responses.
+
+Refining capture.md: third-person voice, no contractions, expanded shareable fragment. Starting blameless review.
+
+Blameless description now uses third-person voice. Removing wikilinks and "I" duplicates from key concepts. For gentleness, adding a fourth shareable thought, replacing the Fruits wikilink with a plain claim, and considering glosses after bible shortcodes.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/blameless-after-action-review.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Awaiting background agents.</details></think>
+
+_**Agent (auto-low)**_
+
+Awaiting subagent ids is not available in this environment. Await a shell task id (numeric string) instead.
+
+<tool-use data-tool-type="unknown" data-tool-name="await"><details>
+<summary>Tool use: **await**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Awaiting subagent ids is not available in this environment. Await a shell task id (numeric string) instead.
+
+<tool-use data-tool-type="unknown" data-tool-name="await"><details>
+<summary>Tool use: **await**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Awaiting subagent ids is not available in this environment. Await a shell task id (numeric string) instead.
+
+<tool-use data-tool-type="unknown" data-tool-name="await"><details>
+<summary>Tool use: **await**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Awaiting subagent ids is not available in this environment. Await a shell task id (numeric string) instead.
+
+<tool-use data-tool-type="unknown" data-tool-name="await"><details>
+<summary>Tool use: **await**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Subagents cannot be awaited directly. Their progress will be checked via transcript files or git status.
+
+A Python script will handle bulk mechanical fixes for note descriptions, contractions, and wikilinks. I will also run garden-voice-lint and check git diffs to assess current progress.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --summary 2>&1 | head -30</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --summary 2>&1 | head -30
+```
+
+```
+Garden voice — 238 files, 814 issues
+  contraction: 639
+  first-person: 122
+  multi-sentence: 21
+  line1-wikilink: 15
+  faith-no-verse: 11
+  fragment: 4
+  count=0: 2
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git diff --stat content/english/notes/ 2>/dev/null | tail -5</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git diff --stat content/english/notes/ 2>/dev/null | tail -5
+```
+
+```
+ .../english/notes/blameless-after-action-review.md | 27 ++++++++++------------
+ content/english/notes/capture.md                   | 22 ++++++++----------
+ content/english/notes/gentleness.md                | 14 +++++------
+ 3 files changed, 27 insertions(+), 36 deletions(-)
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Only three files have been modified so far. Agents have not made any changes yet.
+
+A migration script will handle the bulk work. 639 contraction issues were found in key_concept fields. The script will expand contractions across note fields and apply heuristics to description patterns starting with "I ".
+
+The script will use regex replacements to convert "I" descriptions into third-person forms. Examples include turning "I save" into "Saves" and "I learn" into "the team learns".
+
+Mechanical contraction expansion will handle the bulk migration. A verb conjugation heuristic will tackle firsson descriptions. Many first-person descriptions contain "I" mid-sentence rather than at the start. A sample of these descriptions will be reviewed to identify patterns.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import yaml,re
+from pathlib import Path
+FM=re.compile(r'^---\s*\n(.*?)\n---',re.DOTALL)
+for p in sorted(Path('content/english/notes').glob('*.md')):
+    m=FM.match(p.read_text())
+    meta=yaml.safe_load(m.group(1)) if m else {}
+    if meta.get('note_kind') in ('meta','index'): continue
+    d=meta.get('description','')
+    if d and re.search(r'\bI\b', d):
+        print(f'{p.name}: {d}')
+PY</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import yaml,re
+from pathlib import Path
+FM=re.compile(r'^---\s*\n(.*?)\n---',re.DOTALL)
+for p in sorted(Path('content/english/notes').glob('*.md')):
+    m=FM.match(p.read_text())
+    meta=yaml.safe_load(m.group(1)) if m else {}
+    if meta.get('note_kind') in ('meta','index'): continue
+    d=meta.get('description','')
+    if d and re.search(r'\bI\b', d):
+        print(f'{p.name}: {d}')
+PY
+```
+
+```
+abide-in-me.md: I bear fruit when I stay connected to Christ, not when I force it by willpower alone.
+accept-the-starting-line.md: I accept where I actually start - then pick targets that match, not fantasy.
+active-knowledge-curation.md: A folder of unread saves isn't a garden - I prune monthly and wire notes I'd actually recommend.
+anti-fragile-systems.md: I build on plain files and open formats so an app shutdown doesn't erase years of notes.
+atomic-notes.md: If a note needs three ands to make its point, I split it before I link it.
+attention-economy.md: I treat my feed like a slot machine someone else owns - if I'm not paying, I'm the product.
+attention-to-detail.md: I catch the typo and the edge case before they turn into an incident or a dumb customer email.
+build-a-reliable-default.md: A reliable default is the simple rehearsed move I run when thinking is thin.
+building-a-personal-api.md: I shape frontmatter and folders so future me and my scripts don't need a fresh briefing every time.
+building-a-second-brain.md: My head is for thinking, not storing - notes hold what I'd otherwise lose.
+by-their-fruits.md: I check teachers by what their teaching produces, not by how polished the talk sounds.
+change-window.md: I ship risky changes when someone awake can roll back, not Friday night when everyone's offline.
+childlike-faith.md: I stop negotiating merit and receive the kingdom the way a child receives care.
+christianity-and-politics.md: I owe Caesar what Caesar's owed and God what I'm His - no party gets my soul.
+client-site-pass-off.md: Before deposit, I name who publishes next and price the pass-off so launch isn't a guessing game.
+commonplace-book.md: Before linked notes, I kept quotes and ideas in one book I'd actually reopen.
+context-aware-capture.md: A saved link is a mystery six weeks later unless I jot the why while I still remember it.
+creative-blocks.md: Thousands of notes and I still stare at a blank page - one small ship action usually unsticks me.
+daily-notes.md: My daily note is a scratch pad for today's fragments, not a diary I expect to last forever.
+decision-quality.md: I judge choices by whether they hold after sleep, new facts, and the real bill - not the meeting high.
+deep-work.md: I protect uninterrupted blocks for hard thinking and let capture catch what tries to interrupt.
+deliberate-practice.md: I train the weak slice on purpose - feedback, correction, repeat - not the part I already nail.
+develop-dont-endanger.md: I push people to grow without picking drills where pain or risk replaces the actual skill.
+digital-minimalism.md: My notes got sharper when I dropped extra apps, sync layers, and notifications I wasn't really using.
+digital-serendipity.md: Old notes surprise me on schedule because I linked them on purpose, not because I got lucky.
+discipleship-vs-leadership.md: Discipleship is who I follow upward; leadership is who looks to me for direction and care - two seats.
+discipline.md: I do what I said I'd do when nobody's clapping and motivation walked out.
+dont-copy-the-pattern.md: Culture's default script isn't neutral - I refuse the pattern before reactions run on autopilot.
+duty-of-care.md: If roles flipped, I'd want reasonable protection from harm - that's the bar I owe people under me.
+eliminate-before-managing.md: I remove unnecessary danger first instead of stacking procedures and gear on top of it.
+emotional-regulation.md: I can feel the spike without letting it pick my next sentence.
+energy-protects-judgment.md: I protect sleep and recovery because tired me makes worse calls than rested me on the same facts.
+ethical-leadership.md: What I let slide in front of my team becomes their real standard, not what's printed on the poster.
+evergreen-notes.md: I phrase ideas I'd still stand behind in two years and revise when reality shifts, not when a trend spikes.
+evergreen-vs-fleeting-notes.md: Sparks belong in fleeting notes; claims I trust belong in evergreen, with a clear path between them.
+expect-the-counter.md: I plan what happens after the other side adapts, not just how my opening move looks on paper.
+failure-as-feedback.md: I read a miss as signal about process or skill, not as proof I'm the wrong kind of person.
+faithfulness.md: The Spirit grows steady follow-through with what God gave me, not one heroic sprint I mistake for earned salvation.
+finish-strong.md: Launch day excitement doesn't count - I judge success by whether the last commitment actually got done.
+first-principles-thinking.md: First principles thinking is rebuilding from what I actually believe, not someone else's quote.
+follow-christ-then-lead.md: When leadership pressure and Christ's command collide, I follow Christ first - then lead from that footing.
+follow-their-lead.md: I join their world - their topic, pace, starting point - before I try to steer.
+forgiveness-at-work.md: I release a colleague's debt from my heart without pretending the slight didn't matter or skipping boundaries where trust broke.
+forgiveness.md: I extend the forgiveness I already received, not ledger-keeping on debts Christ cleared.
+future-proofing-knowledge.md: I future-proof notes with plain text, open tools, and exports I test before a vendor locks me in.
+god-centered-design.md: I design life and work around God's glory first - not crowd applause, ego, or my comfort.
+grace.md: Grace is gift I never earned starting with salvation and continuing through the walk after, not wages I could stack.
+graph-view-analytics.md: Graph view analytics reads my link map for orphans, over-connected hubs, and gaps I'd forgotten.
+grateful-obedience.md: I obey today because Christ already saved me, not to buy or re-earn eternal life.
+habit-formation.md: I repeat one small move until it runs on autopilot instead of re-debating it every morning.
+habit-stacking.md: I piggyback a new tiny habit onto one that already runs without thinking, like notebook after coffee.
+honest-self-awareness.md: I name strengths, gaps, and limits plainly - change targets stay realistic.
+inbox-zero.md: I process the inbox to empty each week - decide, don't hoard.
+information-diet.md: I choose feeds on purpose because algorithm defaults aren't neutral.
+integrity.md: What I do matches what I claim when applause, speed, or comfort aren't watching.
+intellectual-sourcing.md: I cite sources in notes to trust my synthesis and find the original later.
+judge-not.md: I don't play final judge on souls - I pull my own plank before nitpicking someone's speck.
+layered-reading.md: I don't read a book once and pretend I absorbed it - I pass through again when I need more.
+lean-startup.md: I'd rather ship a rough test and learn than polish a product nobody wanted.
+let-your-light-shine.md: Good works aren't for hiding - let people see the Father in how I live, not perform for applause.
+linking-by-meaning.md: I link notes so ideas meet in the graph without me memorizing every folder path.
+literature-notes.md: After I read a source, I write what stuck in my own words - not a pile of copied highlights.
+love-your-neighbor.md: Love others the way I'd want care if our roles flipped - second command, paired with loving God.
+low-hanging-fruit.md: The easy win I can grab now - do it before I climb for the hard stuff.
+maintenance-window.md: I block garden time on the calendar so broken links don't ambush me on a random Sunday.
+measure-then-iterate.md: I name what to measure, gather signal, then reprioritize - not guess and overhaul.
+mental-models.md: Mental models are thinking shortcuts I keep when they survive real decisions.
+mercy.md: Mercy withholds the punishment I deserve and calls me to show the same compassion to others.
+mind-mapping.md: Mind maps are for the messy first pass - branches, bubbles, relationships. I export to atomic notes after, not instead.
+mobile-capture-workflows.md: Mobile capture is one tap to save the spark before I scroll away - share sheet to inbox.
+name-the-feeling.md: That sounds frustrating lands before my fix plan - I name the emotion so we're not guessing.
+network-analysis.md: I look at which notes connect everything else - those hubs tell me where the garden actually lives.
+own-your-part.md: I change my slice of the problem - not wait for a hand-down fix from upstairs.
+patience.md: I wait without turning brittle - the Spirit grows a slow fuse, not a countdown to snapping.
+peacemakers.md: I pursue peace on purpose - repair, truth in love, de-escalation - not just staying quiet.
+people-centered-design.md: I design for real human needs first - customers, teammates, stakeholders - or the change won't stick.
+periodic-knowledge-review.md: If I never revisit notes, they rot - I calendar weekly and quarterly passes like I'd calendar bills.
+pkm.md: PKM is how I save, organize, and reuse what I learn - not a hobby of collecting apps.
+preparedness.md: I'd rather run the fire drill bored than improvise when the alarm is real.
+present-a-living-sacrifice.md: I offer my ordinary day to God first - thanks after mercy, not payment to earn grace.
+process-over-outcomes.md: One heroic sprint doesn't beat a routine I can rerun when motivation dips.
+read-later-queue.md: Save for later is fine until the queue turns into a guilt pile I'll never touch.
+renewed-mind.md: Don't copy the world's default thinking - let Scripture reshape how I see, choose, and obey.
+resilience.md: I bend without lying to myself that the hit didn't cost anything.
+safety-by-design.md: I build workflows so the dangerous move is hard - not just a warning label and good intentions.
+safety-comes-first.md: I stop the unsafe thing first, then restore choice when the situation is stable - respect isn't letting harm run.
+second-order-thinking.md: I ask what the clever fix triggers next - copycats, shortcuts, and incentives I didn't plan for.
+secret-devotion.md: I give, pray, and fast for God to see - not for applause in the group chat.
+seek-the-kingdom-first.md: I put God's rule first and let food, status, and tomorrow's worry sort behind that.
+self-control.md: I pick the next move on purpose - the urge doesn't get to drive.
+selling-static-sites.md: I charge for the build and pass-off; hosting is a clear line item, not a mystery monthly bundle.
+servant-leadership.md: I unblock the team, coach through the mess, take blame up, and pass credit down.
+shadow-the-work.md: I watch one person do the real job before I redraw the process or the slide.
+share-what-you-learn.md: I write the doc, do the pass-off, and answer the junior's question - hoarding know-how helps nobody.
+ship-it.md: I push the good-enough version live instead of polishing until the deadline owns me.
+signal-vs-noise.md: I save only what changes what I do or believe this month - most feeds are noise.
+situational-control.md: I steer pace, format, and who speaks in the room when I can't own the whole outcome.
+slow-the-moment.md: I slow down one breath before I answer - urgency is real, but it shouldn't pick the move.
+spaced-repetition.md: I review on a schedule so ideas stick - retention, application, and explanation, not fact pile-up.
+staged-rollout.md: I ship to a small slice first so rollback stays cheap if the new state bleeds.
+standard-operating-procedures.md: I write short steps for deploys and incidents so nobody has to improvise when the clock is loud.
+standing-vs-fellowship.md: Standing with God is settled at faith; fellowship breaks when I sin and restores when I confess - two ledgers.
+stay-effective-in-new-conditions.md: The habit that worked in my last role can flop in the next room - I retune instead of clinging.
+success-is-stewardship.md: Success is borrowed - I'm accountable for how I use what I was given, not entitled to keep it forever.
+sunk-cost-fallacy.md: I drop the bad tool or project when it stops earning its place - past effort is gone either way.
+sustainable-performance.md: I aim for a pace I can hold next month without burning out or cutting safety corners.
+synthesis-as-a-goal.md: I merge sources into what I believe and can defend - a quote pile isn't the goal.
+systems-thinking.md: I trace the loop behind the fire - inputs, delays, feedback - and fix the process, not tonight's patch.
+take-up-your-cross.md: I deny myself and follow Christ daily - choosing his will over mine, not collecting suffering points.
+taxonomy.md: Tags, folders, and types are how I find notes later - classification in service of retrieval.
+the-12-week-year.md: I compress yearly goals into twelve-week arcs I can actually feel - and map wiki projects to them.
+the-collectors-fallacy.md: Saving articles felt like progress until I tied every save to an express deadline or cut it.
+the-feynman-technique.md: I teach the idea out loud to a blank page - wherever I stumble, I don't understand yet.
+the-garage-concept.md: My vault is the garage for scraps and experiments - the blog is the showroom, and I keep them separate.
+the-golden-rule.md: I treat people how I'd want to be treated - active care, not just avoiding harm.
+the-knowledge-lifecycle.md: Ideas move through capture, use, polish, fade, and archive in my vault - I match effort to the stage.
+the-narrow-way.md: The road to life is narrow and hard - the easy broad path is the one I'd drift onto.
+the-trusted-inbox.md: One capture pipe I empty every week - if I don't trust it, I hoard ideas in my head instead.
+the-wise-builder.md: Hearing the words isn't enough - I build on rock when I actually do what Jesus said.
+treasure-in-heaven.md: I store up what lasts - generosity and obedience - not what rust, moth, and thieves can take.
+turn-the-other-cheek.md: When someone hits or insults me, I don't hand back the same - I break the retaliation loop.
+versatility.md: I can plug into more than one lane when the team or the client needs a shift.
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Writing a migration script to convert first-person descriptions to third-person.
+
+Rule-based transforms will handle the varied first-person patterns. Common strategies include converting "I verb" phrases to noun phrases, passive constructions, or impersonal definitions.
+
+Twelve-two manual regex replacements are too unwieldy. A script with per-file overrides or heuristic transforms is the better path.
+
+A YAML data file keyed by slug will hold all 122 description fixes. The script will apply contraction fixes and description rewrites from this file.
+
+The 122 description fixes will be generated programmatically rather than entered manually. Simple rules strip leading "I" and replace internal "I" with "one" or restructure phrases. A concrete example converts "I build on plain files" into an impersonal definition.
+
+The migration script will live at `scripts/garden-voice-migrate.py` and use a Python dictionary keyed by slug for all 122 description fixes. Frontmatter contractions will be expanded to full forms such as "do not" and "does not" to comply with garden-voice rules.
+
+The script will split descriptions on punctuation and replace "I", "me", and "my" patterns to generate third-person versions programmatically. Eleven faith notes missing verses will need manual bible shortcodes. Shareable fragments will be expanded.
+
+A naive regex replacement of "I" with "one" is too crude. The script will instead embed all 122 description rewrites directly inside the Python file. A helper function will read each description and apply targeted transforms. Many entries begin with "I ", so a pattern-based approach is being considered.
+
+The migrate script will be written as a single Python file containing a DESC_BY_SLUG dictionary with all 122 description fixes. After generation, remaining lint issues will be fixed. Fifteen line1 wikilinks still need cleanup. Eleven faith notes still need bible verse shortcodes. Contractions will be expanded via an expansion map.</details></think>
+
+_**Agent (auto-low)**_
+
+Writing a migration script for the 122 description rewrites and mechanical fixes, then running it across the garden.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYSCRIPT' > scripts/garden-voice-migrate-data.py
+# Auto-generated third-person descriptions for garden-voice migrate
+# slug -> description
+DESCRIPTIONS = {
+"abide-in-me": "Fruit comes from staying connected to Christ, not from forcing growth by willpower alone.",
+"accept-the-starting-line": "Growth starts from the real starting line, not from a fantasy baseline.",
+"active-knowledge-curation": "A folder of unread saves is not a garden - prune monthly and wire notes worth recommending.",
+"anti-fragile-systems": "Plain files and open formats keep notes alive when an app shuts down.",
+"atomic-notes": "One clear claim per note - split before the ands pile up.",
+"attention-economy": "The feed runs like a slot machine someone else owns - if you are not paying, you are the product.",
+"attention-to-detail": "Catch the typo and the edge case before they become an incident or a dumb customer email.",
+"build-a-reliable-default": "A reliable default is the simple rehearsed move that runs when thinking is thin.",
+"building-a-personal-api": "Frontmatter and folders shaped so future you and scripts need no fresh briefing every time.",
+"building-a-second-brain": "The head is for thinking, not storing - notes hold what would otherwise get lost.",
+"by-their-fruits": "Teachers are checked by what their teaching produces, not by how polished the talk sounds.",
+"change-window": "Risky changes ship when someone awake can roll back, not Friday night when everyone is offline.",
+"childlike-faith": "The kingdom is received like a child receives care, not negotiated on a merit ladder.",
+"christianity-and-politics": "Caesar gets what Caesar is owed and God gets what is His - no party gets the soul.",
+"client-site-pass-off": "Before deposit, name who publishes next and price the pass-off so launch is not a guessing game.",
+"commonplace-book": "Before linked notes, quotes and ideas lived in one book worth reopening.",
+"context-aware-capture": "A saved link is a mystery six weeks later unless the why is jotted while memory is fresh.",
+"creative-blocks": "Thousands of notes and the page stays blank - one small ship action usually unsticks the work.",
+"daily-notes": "The daily note is a scratch pad for today fragments, not a diary expected to last forever.",
+"decision-quality": "Choices are judged by whether they hold after sleep, new facts, and the real bill - not the meeting high.",
+"deep-work": "Hard thinking earns uninterrupted blocks; capture catches what tries to interrupt.",
+"deliberate-practice": "Train the weak slice on purpose - feedback, correction, repeat - not the part already nailed.",
+"develop-dont-endanger": "People grow through drills that build skill without pain or risk replacing the actual skill.",
+"digital-minimalism": "Notes sharpen when extra apps, sync layers, and unused notifications drop away.",
+"digital-serendipity": "Old notes surprise on schedule because links were made on purpose, not by luck.",
+"discipleship-vs-leadership": "Discipleship is who you follow upward; leadership is who looks to you for direction and care.",
+"discipline": "Do what was promised when nobody is clapping and motivation walked out.",
+"dont-copy-the-pattern": "Culture default script is not neutral - refuse the pattern before reactions run on autopilot.",
+"duty-of-care": "If roles flipped, reasonable protection from harm is the bar owed to people under you.",
+"eliminate-before-managing": "Remove unnecessary danger first instead of stacking procedures and gear on top of it.",
+"emotional-regulation": "Feel the spike without letting it pick the next sentence.",
+"energy-protects-judgment": "Sleep and recovery protect judgment - tired calls land worse than rested calls on the same facts.",
+"ethical-leadership": "What gets let slide in front of the team becomes their real standard, not the poster.",
+"evergreen-notes": "Phrase ideas worth standing behind in two years and revise when reality shifts, not when a trend spikes.",
+"evergreen-vs-fleeting-notes": "Sparks belong in fleeting notes; trusted claims belong in evergreen, with a clear path between them.",
+"expect-the-counter": "Plan what happens after the other side adapts, not just how the opening move looks on paper.",
+"failure-as-feedback": "A miss is signal about process or skill, not proof of being the wrong kind of person.",
+"faithfulness": "The Spirit grows steady follow-through with what God entrusted, not one heroic sprint mistaken for earned salvation.",
+"finish-strong": "Launch day excitement does not count - success is whether the last commitment actually got done.",
+"first-principles-thinking": "First principles thinking rebuilds from what you actually believe, not someone else quote.",
+"follow-christ-then-lead": "When leadership pressure and Christ command collide, follow Christ first - then lead from that footing.",
+"follow-their-lead": "Join their world - topic, pace, starting point - before trying to steer.",
+"forgiveness-at-work": "Release a colleague debt from the heart without pretending the slight did not matter or skipping boundaries where trust broke.",
+"forgiveness": "Extend the forgiveness already received, not ledger-keeping on debts Christ cleared.",
+"future-proofing-knowledge": "Future-proof notes with plain text, open tools, and exports tested before a vendor locks you in.",
+"god-centered-design": "Design life and work around God glory first - not crowd applause, ego, or comfort.",
+"grace": "Grace is gift never earned - salvation first, then the walk after - not wages that could be stacked.",
+"graph-view-analytics": "Graph view analytics reads the link map for orphans, over-connected hubs, and forgotten gaps.",
+"grateful-obedience": "Obedience flows from thanks because Christ already saved - not to buy or re-earn eternal life.",
+"habit-formation": "Repeat one small move until it runs on autopilot instead of re-debating it every morning.",
+"habit-stacking": "Piggyback a new tiny habit onto one that already runs without thinking, like notebook after coffee.",
+"honest-self-awareness": "Name strengths, gaps, and limits plainly so change targets stay realistic.",
+"inbox-zero": "Process the inbox to empty each week - decide, do not hoard.",
+"information-diet": "Choose feeds on purpose because algorithm defaults are not neutral.",
+"integrity": "What you do matches what you claim when applause, speed, or comfort are not watching.",
+"intellectual-sourcing": "Cite sources in notes to trust synthesis and find the original later.",
+"judge-not": "Final judge on souls is not your job - pull your own plank before nitpicking someone speck.",
+"layered-reading": "One pass through a book is not absorption - return when more depth is needed.",
+"lean-startup": "Ship a rough test and learn rather than polish a product nobody wanted.",
+"let-your-light-shine": "Good works are not for hiding - let people see the Father in how you live, not perform for applause.",
+"linking-by-meaning": "Link notes so ideas meet in the graph without memorizing every folder path.",
+"literature-notes": "After reading a source, write what stuck in your own words - not a pile of copied highlights.",
+"love-your-neighbor": "Love others the way you would want care if roles flipped - second command, paired with loving God.",
+"low-hanging-fruit": "The easy win available now - grab it before climbing for the hard stuff.",
+"maintenance-window": "Block garden time on the calendar so broken links do not ambush on a random Sunday.",
+"measure-then-iterate": "Name what to measure, gather signal, then reprioritize - not guess and overhaul.",
+"mental-models": "Mental models are thinking shortcuts kept when they survive real decisions.",
+"mercy": "Mercy withholds the punishment deserved and calls for the same compassion toward others.",
+"mind-mapping": "Mind maps serve the messy first pass - branches, bubbles, relationships - then export to atomic notes.",
+"mobile-capture-workflows": "Mobile capture is one tap to save the spark before scrolling away - share sheet to inbox.",
+"name-the-feeling": "That sounds frustrating lands before the fix plan - name the emotion so nobody is guessing.",
+"network-analysis": "Look at which notes connect everything else - those hubs show where the garden actually lives.",
+"own-your-part": "Change your slice of the problem - do not wait for a hand-down fix from upstairs.",
+"patience": "Wait without turning brittle - the Spirit grows a slow fuse, not a countdown to snapping.",
+"peacemakers": "Pursue peace on purpose - repair, truth in love, de-escalation - not just staying quiet.",
+"people-centered-design": "Design for real human needs first - customers, teammates, stakeholders - or the change will not stick.",
+"periodic-knowledge-review": "Notes rot without revisit - calendar weekly and quarterly passes like bills.",
+"pkm": "PKM is how you save, organize, and reuse what you learn - not a hobby of collecting apps.",
+"preparedness": "Run the fire drill bored rather than improvise when the alarm is real.",
+"present-a-living-sacrifice": "Offer the ordinary day to God first - thanks after mercy, not payment to earn grace.",
+"process-over-outcomes": "One heroic sprint does not beat a routine you can rerun when motivation dips.",
+"read-later-queue": "Save for later is fine until the queue turns into a guilt pile never touched.",
+"renewed-mind": "Refuse the world default thinking - let Scripture reshape how you see, choose, and obey.",
+"resilience": "Bend without lying that the hit did not cost anything.",
+"safety-by-design": "Build workflows so the dangerous move is hard - not just a warning label and good intentions.",
+"safety-comes-first": "Stop the unsafe thing first, then restore choice when the situation is stable.",
+"second-order-thinking": "Ask what the clever fix triggers next - copycats, shortcuts, and incentives not planned for.",
+"secret-devotion": "Give, pray, and fast for God to see - not for applause in the group chat.",
+"seek-the-kingdom-first": "Put God rule first and let food, status, and tomorrow worry sort behind that.",
+"self-control": "Pick the next move on purpose - the urge does not get to drive.",
+"selling-static-sites": "Charge for the build and pass-off; hosting is a clear line item, not a mystery monthly bundle.",
+"servant-leadership": "Unblock the team, coach through the mess, take blame up, and pass credit down.",
+"shadow-the-work": "Watch one person do the real job before redrawing the process or the slide.",
+"share-what-you-learn": "Write the doc, do the pass-off, and answer the junior question - hoarding know-how helps nobody.",
+"ship-it": "Push the good-enough version live instead of polishing until the deadline owns you.",
+"signal-vs-noise": "Save only what changes action or belief this month - most feeds are noise.",
+"situational-control": "Steer pace, format, and who speaks in the room when you cannot own the whole outcome.",
+"slow-the-moment": "Slow down one breath before answering - urgency is real, but it should not pick the move.",
+"spaced-repetition": "Review on a schedule so ideas stick - retention, application, and explanation, not fact pile-up.",
+"staged-rollout": "Ship to a small slice first so rollback stays cheap if the new state bleeds.",
+"standard-operating-procedures": "Write short steps for deploys and incidents so nobody improvises when the clock is loud.",
+"standing-vs-fellowship": "Standing with God is settled at faith; fellowship breaks when sin enters and restores when confessed.",
+"stay-effective-in-new-conditions": "The habit that worked in the last role can flop in the next room - retune instead of clinging.",
+"success-is-stewardship": "Success is borrowed - accountability is for how what was given gets used, not entitlement to keep it forever.",
+"sunk-cost-fallacy": "Drop the bad tool or project when it stops earning its place - past effort is gone either way.",
+"sustainable-performance": "Aim for a pace holdable next month without burning out or cutting safety corners.",
+"synthesis-as-a-goal": "Merge sources into what you believe and can defend - a quote pile is not the goal.",
+"systems-thinking": "Trace the loop behind the fire - inputs, delays, feedback - and fix the process, not tonight patch.",
+"take-up-your-cross": "Deny self and follow Christ daily - his will over yours, not collecting suffering points.",
+"taxonomy": "Tags, folders, and types are how notes get found later - classification in service of retrieval.",
+"the-12-week-year": "Yearly goals compress into twelve-week arcs you can actually feel - wiki projects map to them.",
+"the-collectors-fallacy": "Saving articles felt like progress until every save tied to an express deadline or got cut.",
+"the-feynman-technique": "Teach the idea out loud to a blank page - wherever you stumble, understanding is not there yet.",
+"the-garage-concept": "The vault is the garage for scraps and experiments - the blog is the showroom, kept separate.",
+"the-golden-rule": "Treat people how you would want to be treated - active care, not just avoiding harm.",
+"the-knowledge-lifecycle": "Ideas move through capture, use, polish, fade, and archive - match effort to the stage.",
+"the-narrow-way": "The road to life is narrow and hard - the easy broad path is the one drift happens on.",
+"the-trusted-inbox": "One capture pipe emptied every week - without trust, ideas hoard in the head instead.",
+"the-wise-builder": "Hearing the words is not enough - build on rock by doing what Jesus said.",
+"treasure-in-heaven": "Store up what lasts - generosity and obedience - not what rust, moth, and thieves can take.",
+"turn-the-other-cheek": "When someone hits or insults you, do not hand back the same - break the retaliation loop.",
+"versatility": "Plug into more than one lane when the team or the client needs a shift.",
+}
+print(f"# {len(DESCRIPTIONS)} descriptions")
+PYSCRIPT
+python3 -c "
+import ast, pathlib
+src = pathlib.Path('scripts/garden-voice-migrate-data.py').read_text()
+# extract dict - actually the heredoc wrote DESCRIPTIONS to file wrong
+"</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYSCRIPT' > scripts/garden-voice-migrate-data.py
+# Auto-generated third-person descriptions for garden-voice migrate
+# slug -> description
+DESCRIPTIONS = {
+"abide-in-me": "Fruit comes from staying connected to Christ, not from forcing growth by willpower alone.",
+"accept-the-starting-line": "Growth starts from the real starting line, not from a fantasy baseline.",
+"active-knowledge-curation": "A folder of unread saves is not a garden - prune monthly and wire notes worth recommending.",
+"anti-fragile-systems": "Plain files and open formats keep notes alive when an app shuts down.",
+"atomic-notes": "One clear claim per note - split before the ands pile up.",
+"attention-economy": "The feed runs like a slot machine someone else owns - if you are not paying, you are the product.",
+"attention-to-detail": "Catch the typo and the edge case before they become an incident or a dumb customer email.",
+"build-a-reliable-default": "A reliable default is the simple rehearsed move that runs when thinking is thin.",
+"building-a-personal-api": "Frontmatter and folders shaped so future you and scripts need no fresh briefing every time.",
+"building-a-second-brain": "The head is for thinking, not storing - notes hold what would otherwise get lost.",
+"by-their-fruits": "Teachers are checked by what their teaching produces, not by how polished the talk sounds.",
+"change-window": "Risky changes ship when someone awake can roll back, not Friday night when everyone is offline.",
+"childlike-faith": "The kingdom is received like a child receives care, not negotiated on a merit ladder.",
+"christianity-and-politics": "Caesar gets what Caesar is owed and God gets what is His - no party gets the soul.",
+"client-site-pass-off": "Before deposit, name who publishes next and price the pass-off so launch is not a guessing game.",
+"commonplace-book": "Before linked notes, quotes and ideas lived in one book worth reopening.",
+"context-aware-capture": "A saved link is a mystery six weeks later unless the why is jotted while memory is fresh.",
+"creative-blocks": "Thousands of notes and the page stays blank - one small ship action usually unsticks the work.",
+"daily-notes": "The daily note is a scratch pad for today fragments, not a diary expected to last forever.",
+"decision-quality": "Choices are judged by whether they hold after sleep, new facts, and the real bill - not the meeting high.",
+"deep-work": "Hard thinking earns uninterrupted blocks; capture catches what tries to interrupt.",
+"deliberate-practice": "Train the weak slice on purpose - feedback, correction, repeat - not the part already nailed.",
+"develop-dont-endanger": "People grow through drills that build skill without pain or risk replacing the actual skill.",
+"digital-minimalism": "Notes sharpen when extra apps, sync layers, and unused notifications drop away.",
+"digital-serendipity": "Old notes surprise on schedule because links were made on purpose, not by luck.",
+"discipleship-vs-leadership": "Discipleship is who you follow upward; leadership is who looks to you for direction and care.",
+"discipline": "Do what was promised when nobody is clapping and motivation walked out.",
+"dont-copy-the-pattern": "Culture default script is not neutral - refuse the pattern before reactions run on autopilot.",
+"duty-of-care": "If roles flipped, reasonable protection from harm is the bar owed to people under you.",
+"eliminate-before-managing": "Remove unnecessary danger first instead of stacking procedures and gear on top of it.",
+"emotional-regulation": "Feel the spike without letting it pick the next sentence.",
+"energy-protects-judgment": "Sleep and recovery protect judgment - tired calls land worse than rested calls on the same facts.",
+"ethical-leadership": "What gets let slide in front of the team becomes their real standard, not the poster.",
+"evergreen-notes": "Phrase ideas worth standing behind in two years and revise when reality shifts, not when a trend spikes.",
+"evergreen-vs-fleeting-notes": "Sparks belong in fleeting notes; trusted claims belong in evergreen, with a clear path between them.",
+"expect-the-counter": "Plan what happens after the other side adapts, not just how the opening move looks on paper.",
+"failure-as-feedback": "A miss is signal about process or skill, not proof of being the wrong kind of person.",
+"faithfulness": "The Spirit grows steady follow-through with what God entrusted, not one heroic sprint mistaken for earned salvation.",
+"finish-strong": "Launch day excitement does not count - success is whether the last commitment actually got done.",
+"first-principles-thinking": "First principles thinking rebuilds from what you actually believe, not someone else quote.",
+"follow-christ-then-lead": "When leadership pressure and Christ command collide, follow Christ first - then lead from that footing.",
+"follow-their-lead": "Join their world - topic, pace, starting point - before trying to steer.",
+"forgiveness-at-work": "Release a colleague debt from the heart without pretending the slight did not matter or skipping boundaries where trust broke.",
+"forgiveness": "Extend the forgiveness already received, not ledger-keeping on debts Christ cleared.",
+"future-proofing-knowledge": "Future-proof notes with plain text, open tools, and exports tested before a vendor locks you in.",
+"god-centered-design": "Design life and work around God glory first - not crowd applause, ego, or comfort.",
+"grace": "Grace is gift never earned - salvation first, then the walk after - not wages that could be stacked.",
+"graph-view-analytics": "Graph view analytics reads the link map for orphans, over-connected hubs, and forgotten gaps.",
+"grateful-obedience": "Obedience flows from thanks because Christ already saved - not to buy or re-earn eternal life.",
+"habit-formation": "Repeat one small move until it runs on autopilot instead of re-debating it every morning.",
+"habit-stacking": "Piggyback a new tiny habit onto one that already runs without thinking, like notebook after coffee.",
+"honest-self-awareness": "Name strengths, gaps, and limits plainly so change targets stay realistic.",
+"inbox-zero": "Process the inbox to empty each week - decide, do not hoard.",
+"information-diet": "Choose feeds on purpose because algorithm defaults are not neutral.",
+"integrity": "What you do matches what you claim when applause, speed, or comfort are not watching.",
+"intellectual-sourcing": "Cite sources in notes to trust synthesis and find the original later.",
+"judge-not": "Final judge on souls is not your job - pull your own plank before nitpicking someone speck.",
+"layered-reading": "One pass through a book is not absorption - return when more depth is needed.",
+"lean-startup": "Ship a rough test and learn rather than polish a product nobody wanted.",
+"let-your-light-shine": "Good works are not for hiding - let people see the Father in how you live, not perform for applause.",
+"linking-by-meaning": "Link notes so ideas meet in the graph without memorizing every folder path.",
+"literature-notes": "After reading a source, write what stuck in your own words - not a pile of copied highlights.",
+"love-your-neighbor": "Love others the way you would want care if roles flipped - second command, paired with loving God.",
+"low-hanging-fruit": "The easy win available now - grab it before climbing for the hard stuff.",
+"maintenance-window": "Block garden time on the calendar so broken links do not ambush on a random Sunday.",
+"measure-then-iterate": "Name what to measure, gather signal, then reprioritize - not guess and overhaul.",
+"mental-models": "Mental models are thinking shortcuts kept when they survive real decisions.",
+"mercy": "Mercy withholds the punishment deserved and calls for the same compassion toward others.",
+"mind-mapping": "Mind maps serve the messy first pass - branches, bubbles, relationships - then export to atomic notes.",
+"mobile-capture-workflows": "Mobile capture is one tap to save the spark before scrolling away - share sheet to inbox.",
+"name-the-feeling": "That sounds frustrating lands before the fix plan - name the emotion so nobody is guessing.",
+"network-analysis": "Look at which notes connect everything else - those hubs show where the garden actually lives.",
+"own-your-part": "Change your slice of the problem - do not wait for a hand-down fix from upstairs.",
+"patience": "Wait without turning brittle - the Spirit grows a slow fuse, not a countdown to snapping.",
+"peacemakers": "Pursue peace on purpose - repair, truth in love, de-escalation - not just staying quiet.",
+"people-centered-design": "Design for real human needs first - customers, teammates, stakeholders - or the change will not stick.",
+"periodic-knowledge-review": "Notes rot without revisit - calendar weekly and quarterly passes like bills.",
+"pkm": "PKM is how you save, organize, and reuse what you learn - not a hobby of collecting apps.",
+"preparedness": "Run the fire drill bored rather than improvise when the alarm is real.",
+"present-a-living-sacrifice": "Offer the ordinary day to God first - thanks after mercy, not payment to earn grace.",
+"process-over-outcomes": "One heroic sprint does not beat a routine you can rerun when motivation dips.",
+"read-later-queue": "Save for later is fine until the queue turns into a guilt pile never touched.",
+"renewed-mind": "Refuse the world default thinking - let Scripture reshape how you see, choose, and obey.",
+"resilience": "Bend without lying that the hit did not cost anything.",
+"safety-by-design": "Build workflows so the dangerous move is hard - not just a warning label and good intentions.",
+"safety-comes-first": "Stop the unsafe thing first, then restore choice when the situation is stable.",
+"second-order-thinking": "Ask what the clever fix triggers next - copycats, shortcuts, and incentives not planned for.",
+"secret-devotion": "Give, pray, and fast for God to see - not for applause in the group chat.",
+"seek-the-kingdom-first": "Put God rule first and let food, status, and tomorrow worry sort behind that.",
+"self-control": "Pick the next move on purpose - the urge does not get to drive.",
+"selling-static-sites": "Charge for the build and pass-off; hosting is a clear line item, not a mystery monthly bundle.",
+"servant-leadership": "Unblock the team, coach through the mess, take blame up, and pass credit down.",
+"shadow-the-work": "Watch one person do the real job before redrawing the process or the slide.",
+"share-what-you-learn": "Write the doc, do the pass-off, and answer the junior question - hoarding know-how helps nobody.",
+"ship-it": "Push the good-enough version live instead of polishing until the deadline owns you.",
+"signal-vs-noise": "Save only what changes action or belief this month - most feeds are noise.",
+"situational-control": "Steer pace, format, and who speaks in the room when you cannot own the whole outcome.",
+"slow-the-moment": "Slow down one breath before answering - urgency is real, but it should not pick the move.",
+"spaced-repetition": "Review on a schedule so ideas stick - retention, application, and explanation, not fact pile-up.",
+"staged-rollout": "Ship to a small slice first so rollback stays cheap if the new state bleeds.",
+"standard-operating-procedures": "Write short steps for deploys and incidents so nobody improvises when the clock is loud.",
+"standing-vs-fellowship": "Standing with God is settled at faith; fellowship breaks when sin enters and restores when confessed.",
+"stay-effective-in-new-conditions": "The habit that worked in the last role can flop in the next room - retune instead of clinging.",
+"success-is-stewardship": "Success is borrowed - accountability is for how what was given gets used, not entitlement to keep it forever.",
+"sunk-cost-fallacy": "Drop the bad tool or project when it stops earning its place - past effort is gone either way.",
+"sustainable-performance": "Aim for a pace holdable next month without burning out or cutting safety corners.",
+"synthesis-as-a-goal": "Merge sources into what you believe and can defend - a quote pile is not the goal.",
+"systems-thinking": "Trace the loop behind the fire - inputs, delays, feedback - and fix the process, not tonight patch.",
+"take-up-your-cross": "Deny self and follow Christ daily - his will over yours, not collecting suffering points.",
+"taxonomy": "Tags, folders, and types are how notes get found later - classification in service of retrieval.",
+"the-12-week-year": "Yearly goals compress into twelve-week arcs you can actually feel - wiki projects map to them.",
+"the-collectors-fallacy": "Saving articles felt like progress until every save tied to an express deadline or got cut.",
+"the-feynman-technique": "Teach the idea out loud to a blank page - wherever you stumble, understanding is not there yet.",
+"the-garage-concept": "The vault is the garage for scraps and experiments - the blog is the showroom, kept separate.",
+"the-golden-rule": "Treat people how you would want to be treated - active care, not just avoiding harm.",
+"the-knowledge-lifecycle": "Ideas move through capture, use, polish, fade, and archive - match effort to the stage.",
+"the-narrow-way": "The road to life is narrow and hard - the easy broad path is the one drift happens on.",
+"the-trusted-inbox": "One capture pipe emptied every week - without trust, ideas hoard in the head instead.",
+"the-wise-builder": "Hearing the words is not enough - build on rock by doing what Jesus said.",
+"treasure-in-heaven": "Store up what lasts - generosity and obedience - not what rust, moth, and thieves can take.",
+"turn-the-other-cheek": "When someone hits or insults you, do not hand back the same - break the retaliation loop.",
+"versatility": "Plug into more than one lane when the team or the client needs a shift.",
+}
+print(f"# {len(DESCRIPTIONS)} descriptions")
+PYSCRIPT
+python3 -c "
+import ast, pathlib
+src = pathlib.Path('scripts/garden-voice-migrate-data.py').read_text()
+# extract dict - actually the heredoc wrote DESCRIPTIONS to file wrong
+"
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the generated file to write the full migration script.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-migrate-data.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The heredoc failed to write the dictionary correctly. Only the count was printed.
+
+Embedding the full description dictionary directly into the migrate script. A contraction expansion map will be added to key_concept examples.
+
+The contraction map now covers 20 common forms including "doesn't", "won't", "can't", and "I'm". First-line wiki links will be stripped to plain title text.
+
+Eleven faith notes lack verse references. I will read a few to select appropriate bible passages. Two shareable files have zero fragments: leadership-is-influence and discern-his-will-daily.
+
+judge-not.md, love-your-enemies.md, pkm.md, and set-calm-boundaries.md are also fragment files. The migrate script will load descriptions from a YAML data file. It will apply contraction fixes, strip first-line wiki links, and update descriptions from the dictionary. The descriptions dictionary may be generated separately and injected via exec.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY' 
+import yaml, re
+from pathlib import Path
+
+FM = re.compile(r'^---\s*\n(.*?)\n---', re.DOTALL)
+NOTES = Path('content/english/notes')
+
+# Third-person rewrites keyed by slug
+FIXES = {
+"abide-in-me": "Fruit comes from staying connected to Christ, not from forcing growth by willpower alone.",
+"accept-the-starting-line": "Growth starts from the real starting line, not from a fantasy baseline.",
+"active-knowledge-curation": "A folder of unread saves is not a garden - prune monthly and wire notes worth recommending.",
+"anti-fragile-systems": "Plain files and open formats keep notes alive when an app shuts down.",
+"atomic-notes": "One clear claim per note - split before the ands pile up.",
+"attention-economy": "The feed runs like a slot machine someone else owns - if you are not paying, you are the product.",
+"attention-to-detail": "Catch the typo and the edge case before they become an incident or a dumb customer email.",
+"build-a-reliable-default": "A reliable default is the simple rehearsed move that runs when thinking is thin.",
+"building-a-personal-api": "Frontmatter and folders shaped so future you and scripts need no fresh briefing every time.",
+"building-a-second-brain": "The head is for thinking, not storing - notes hold what would otherwise get lost.",
+"by-their-fruits": "Teachers are checked by what their teaching produces, not by how polished the talk sounds.",
+"change-window": "Risky changes ship when someone awake can roll back, not Friday night when everyone is offline.",
+"childlike-faith": "The kingdom is received like a child receives care, not negotiated on a merit ladder.",
+"christianity-and-politics": "Caesar gets what Caesar is owed and God gets what is His - no party gets the soul.",
+"client-site-pass-off": "Before deposit, name who publishes next and price the pass-off so launch is not a guessing game.",
+"commonplace-book": "Before linked notes, quotes and ideas lived in one book worth reopening.",
+"context-aware-capture": "A saved link is a mystery six weeks later unless the why is jotted while memory is fresh.",
+"creative-blocks": "Thousands of notes and the page stays blank - one small ship action usually unsticks the work.",
+"daily-notes": "The daily note is a scratch pad for today fragments, not a diary expected to last forever.",
+"decision-quality": "Choices are judged by whether they hold after sleep, new facts, and the real bill - not the meeting high.",
+"deep-work": "Hard thinking earns uninterrupted blocks; capture catches what tries to interrupt.",
+"deliberate-practice": "Train the weak slice on purpose - feedback, correction, repeat - not the part already nailed.",
+"develop-dont-endanger": "People grow through drills that build skill without pain or risk replacing the actual skill.",
+"digital-minimalism": "Notes sharpen when extra apps, sync layers, and unused notifications drop away.",
+"digital-serendipity": "Old notes surprise on schedule because links were made on purpose, not by luck.",
+"discipleship-vs-leadership": "Discipleship is who you follow upward; leadership is who looks to you for direction and care.",
+"discipline": "Do what was promised when nobody is clapping and motivation walked out.",
+"dont-copy-the-pattern": "Culture default script is not neutral - refuse the pattern before reactions run on autopilot.",
+"duty-of-care": "If roles flipped, reasonable protection from harm is the bar owed to people under you.",
+"eliminate-before-managing": "Remove unnecessary danger first instead of stacking procedures and gear on top of it.",
+"emotional-regulation": "Feel the spike without letting it pick the next sentence.",
+"energy-protects-judgment": "Sleep and recovery protect judgment - tired calls land worse than rested calls on the same facts.",
+"ethical-leadership": "What gets let slide in front of the team becomes their real standard, not the poster.",
+"evergreen-notes": "Phrase ideas worth standing behind in two years and revise when reality shifts, not when a trend spikes.",
+"evergreen-vs-fleeting-notes": "Sparks belong in fleeting notes; trusted claims belong in evergreen, with a clear path between them.",
+"expect-the-counter": "Plan what happens after the other side adapts, not just how the opening move looks on paper.",
+"failure-as-feedback": "A miss is signal about process or skill, not proof of being the wrong kind of person.",
+"faithfulness": "The Spirit grows steady follow-through with what God entrusted, not one heroic sprint mistaken for earned salvation.",
+"finish-strong": "Launch day excitement does not count - success is whether the last commitment actually got done.",
+"first-principles-thinking": "First principles thinking rebuilds from what you actually believe, not someone else quote.",
+"follow-christ-then-lead": "When leadership pressure and Christ command collide, follow Christ first - then lead from that footing.",
+"follow-their-lead": "Join their world - topic, pace, starting point - before trying to steer.",
+"forgiveness-at-work": "Release a colleague debt from the heart without pretending the slight did not matter or skipping boundaries where trust broke.",
+"forgiveness": "Extend the forgiveness already received, not ledger-keeping on debts Christ cleared.",
+"future-proofing-knowledge": "Future-proof notes with plain text, open tools, and exports tested before a vendor locks you in.",
+"god-centered-design": "Design life and work around God glory first - not crowd applause, ego, or comfort.",
+"grace": "Grace is gift never earned - salvation first, then the walk after - not wages that could be stacked.",
+"graph-view-analytics": "Graph view analytics reads the link map for orphans, over-connected hubs, and forgotten gaps.",
+"grateful-obedience": "Obedience flows from thanks because Christ already saved - not to buy or re-earn eternal life.",
+"habit-formation": "Repeat one small move until it runs on autopilot instead of re-debating it every morning.",
+"habit-stacking": "Piggyback a new tiny habit onto one that already runs without thinking, like notebook after coffee.",
+"honest-self-awareness": "Name strengths, gaps, and limits plainly so change targets stay realistic.",
+"inbox-zero": "Process the inbox to empty each week - decide, do not hoard.",
+"information-diet": "Choose feeds on purpose because algorithm defaults are not neutral.",
+"integrity": "What you do matches what you claim when applause, speed, or comfort are not watching.",
+"intellectual-sourcing": "Cite sources in notes to trust synthesis and find the original later.",
+"judge-not": "Final judge on souls is not your job - pull your own plank before nitpicking someone speck.",
+"layered-reading": "One pass through a book is not absorption - return when more depth is needed.",
+"lean-startup": "Ship a rough test and learn rather than polish a product nobody wanted.",
+"let-your-light-shine": "Good works are not for hiding - let people see the Father in how you live, not perform for applause.",
+"linking-by-meaning": "Link notes so ideas meet in the graph without memorizing every folder path.",
+"literature-notes": "After reading a source, write what stuck in your own words - not a pile of copied highlights.",
+"love-your-neighbor": "Love others the way you would want care if roles flipped - second command, paired with loving God.",
+"low-hanging-fruit": "The easy win available now - grab it before climbing for the hard stuff.",
+"maintenance-window": "Block garden time on the calendar so broken links do not ambush on a random Sunday.",
+"measure-then-iterate": "Name what to measure, gather signal, then reprioritize - not guess and overhaul.",
+"mental-models": "Mental models are thinking shortcuts kept when they survive real decisions.",
+"mercy": "Mercy withholds the punishment deserved and calls for the same compassion toward others.",
+"mind-mapping": "Mind maps serve the messy first pass - branches, bubbles, relationships - then export to atomic notes.",
+"mobile-capture-workflows": "Mobile capture is one tap to save the spark before scrolling away - share sheet to inbox.",
+"name-the-feeling": "That sounds frustrating lands before the fix plan - name the emotion so nobody is guessing.",
+"network-analysis": "Look at which notes connect everything else - those hubs show where the garden actually lives.",
+"own-your-part": "Change your slice of the problem - do not wait for a hand-down fix from upstairs.",
+"patience": "Wait without turning brittle - the Spirit grows a slow fuse, not a countdown to snapping.",
+"peacemakers": "Pursue peace on purpose - repair, truth in love, de-escalation - not just staying quiet.",
+"people-centered-design": "Design for real human needs first - customers, teammates, stakeholders - or the change will not stick.",
+"periodic-knowledge-review": "Notes rot without revisit - calendar weekly and quarterly passes like bills.",
+"pkm": "PKM is how you save, organize, and reuse what you learn - not a hobby of collecting apps.",
+"preparedness": "Run the fire drill bored rather than improvise when the alarm is real.",
+"present-a-living-sacrifice": "Offer the ordinary day to God first - thanks after mercy, not payment to earn grace.",
+"process-over-outcomes": "One heroic sprint does not beat a routine you can rerun when motivation dips.",
+"read-later-queue": "Save for later is fine until the queue turns into a guilt pile never touched.",
+"renewed-mind": "Refuse the world default thinking - let Scripture reshape how you see, choose, and obey.",
+"resilience": "Bend without lying that the hit did not cost anything.",
+"safety-by-design": "Build workflows so the dangerous move is hard - not just a warning label and good intentions.",
+"safety-comes-first": "Stop the unsafe thing first, then restore choice when the situation is stable.",
+"second-order-thinking": "Ask what the clever fix triggers next - copycats, shortcuts, and incentives not planned for.",
+"secret-devotion": "Give, pray, and fast for God to see - not for applause in the group chat.",
+"seek-the-kingdom-first": "Put God rule first and let food, status, and tomorrow worry sort behind that.",
+"self-control": "Pick the next move on purpose - the urge does not get to drive.",
+"selling-static-sites": "Charge for the build and pass-off; hosting is a clear line item, not a mystery monthly bundle.",
+"servant-leadership": "Unblock the team, coach through the mess, take blame up, and pass credit down.",
+"shadow-the-work": "Watch one person do the real job before redrawing the process or the slide.",
+"share-what-you-learn": "Write the doc, do the pass-off, and answer the junior question - hoarding know-how helps nobody.",
+"ship-it": "Push the good-enough version live instead of polishing until the deadline owns you.",
+"signal-vs-noise": "Save only what changes action or belief this month - most feeds are noise.",
+"situational-control": "Steer pace, format, and who speaks in the room when you cannot own the whole outcome.",
+"slow-the-moment": "Slow down one breath before answering - urgency is real, but it should not pick the move.",
+"spaced-repetition": "Review on a schedule so ideas stick - retention, application, and explanation, not fact pile-up.",
+"staged-rollout": "Ship to a small slice first so rollback stays cheap if the new state bleeds.",
+"standard-operating-procedures": "Write short steps for deploys and incidents so nobody improvises when the clock is loud.",
+"standing-vs-fellowship": "Standing with God is settled at faith; fellowship breaks when sin enters and restores when confessed.",
+"stay-effective-in-new-conditions": "The habit that worked in the last role can flop in the next room - retune instead of clinging.",
+"success-is-stewardship": "Success is borrowed - accountability is for how what was given gets used, not entitlement to keep it forever.",
+"sunk-cost-fallacy": "Drop the bad tool or project when it stops earning its place - past effort is gone either way.",
+"sustainable-performance": "Aim for a pace holdable next month without burning out or cutting safety corners.",
+"synthesis-as-a-goal": "Merge sources into what you believe and can defend - a quote pile is not the goal.",
+"systems-thinking": "Trace the loop behind the fire - inputs, delays, feedback - and fix the process, not tonight patch.",
+"take-up-your-cross": "Deny self and follow Christ daily - his will over yours, not collecting suffering points.",
+"taxonomy": "Tags, folders, and types are how notes get found later - classification in service of retrieval.",
+"the-12-week-year": "Yearly goals compress into twelve-week arcs you can actually feel - wiki projects map to them.",
+"the-collectors-fallacy": "Saving articles felt like progress until every save tied to an express deadline or got cut.",
+"the-feynman-technique": "Teach the idea out loud to a blank page - wherever you stumble, understanding is not there yet.",
+"the-garage-concept": "The vault is the garage for scraps and experiments - the blog is the showroom, kept separate.",
+"the-golden-rule": "Treat people how you would want to be treated - active care, not just avoiding harm.",
+"the-knowledge-lifecycle": "Ideas move through capture, use, polish, fade, and archive - match effort to the stage.",
+"the-narrow-way": "The road to life is narrow and hard - the easy broad path is the one drift happens on.",
+"the-trusted-inbox": "One capture pipe emptied every week - without trust, ideas hoard in the head instead.",
+"the-wise-builder": "Hearing the words is not enough - build on rock by doing what Jesus said.",
+"treasure-in-heaven": "Store up what lasts - generosity and obedience - not what rust, moth, and thieves can take.",
+"turn-the-other-cheek": "When someone hits or insults you, do not hand back the same - break the retaliation loop.",
+"versatility": "Plug into more than one lane when the team or the client needs a shift.",
+}
+
+Path('data/garden-voice-descriptions.yaml').write_text(
+    yaml.safe_dump({'descriptions': FIXES}, allow_unicode=True, sort_keys=True),
+    encoding='utf-8'
+)
+print('wrote', len(FIXES), 'descriptions')
+PY</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY' 
+import yaml, re
+from pathlib import Path
+
+FM = re.compile(r'^---\s*\n(.*?)\n---', re.DOTALL)
+NOTES = Path('content/english/notes')
+
+# Third-person rewrites keyed by slug
+FIXES = {
+"abide-in-me": "Fruit comes from staying connected to Christ, not from forcing growth by willpower alone.",
+"accept-the-starting-line": "Growth starts from the real starting line, not from a fantasy baseline.",
+"active-knowledge-curation": "A folder of unread saves is not a garden - prune monthly and wire notes worth recommending.",
+"anti-fragile-systems": "Plain files and open formats keep notes alive when an app shuts down.",
+"atomic-notes": "One clear claim per note - split before the ands pile up.",
+"attention-economy": "The feed runs like a slot machine someone else owns - if you are not paying, you are the product.",
+"attention-to-detail": "Catch the typo and the edge case before they become an incident or a dumb customer email.",
+"build-a-reliable-default": "A reliable default is the simple rehearsed move that runs when thinking is thin.",
+"building-a-personal-api": "Frontmatter and folders shaped so future you and scripts need no fresh briefing every time.",
+"building-a-second-brain": "The head is for thinking, not storing - notes hold what would otherwise get lost.",
+"by-their-fruits": "Teachers are checked by what their teaching produces, not by how polished the talk sounds.",
+"change-window": "Risky changes ship when someone awake can roll back, not Friday night when everyone is offline.",
+"childlike-faith": "The kingdom is received like a child receives care, not negotiated on a merit ladder.",
+"christianity-and-politics": "Caesar gets what Caesar is owed and God gets what is His - no party gets the soul.",
+"client-site-pass-off": "Before deposit, name who publishes next and price the pass-off so launch is not a guessing game.",
+"commonplace-book": "Before linked notes, quotes and ideas lived in one book worth reopening.",
+"context-aware-capture": "A saved link is a mystery six weeks later unless the why is jotted while memory is fresh.",
+"creative-blocks": "Thousands of notes and the page stays blank - one small ship action usually unsticks the work.",
+"daily-notes": "The daily note is a scratch pad for today fragments, not a diary expected to last forever.",
+"decision-quality": "Choices are judged by whether they hold after sleep, new facts, and the real bill - not the meeting high.",
+"deep-work": "Hard thinking earns uninterrupted blocks; capture catches what tries to interrupt.",
+"deliberate-practice": "Train the weak slice on purpose - feedback, correction, repeat - not the part already nailed.",
+"develop-dont-endanger": "People grow through drills that build skill without pain or risk replacing the actual skill.",
+"digital-minimalism": "Notes sharpen when extra apps, sync layers, and unused notifications drop away.",
+"digital-serendipity": "Old notes surprise on schedule because links were made on purpose, not by luck.",
+"discipleship-vs-leadership": "Discipleship is who you follow upward; leadership is who looks to you for direction and care.",
+"discipline": "Do what was promised when nobody is clapping and motivation walked out.",
+"dont-copy-the-pattern": "Culture default script is not neutral - refuse the pattern before reactions run on autopilot.",
+"duty-of-care": "If roles flipped, reasonable protection from harm is the bar owed to people under you.",
+"eliminate-before-managing": "Remove unnecessary danger first instead of stacking procedures and gear on top of it.",
+"emotional-regulation": "Feel the spike without letting it pick the next sentence.",
+"energy-protects-judgment": "Sleep and recovery protect judgment - tired calls land worse than rested calls on the same facts.",
+"ethical-leadership": "What gets let slide in front of the team becomes their real standard, not the poster.",
+"evergreen-notes": "Phrase ideas worth standing behind in two years and revise when reality shifts, not when a trend spikes.",
+"evergreen-vs-fleeting-notes": "Sparks belong in fleeting notes; trusted claims belong in evergreen, with a clear path between them.",
+"expect-the-counter": "Plan what happens after the other side adapts, not just how the opening move looks on paper.",
+"failure-as-feedback": "A miss is signal about process or skill, not proof of being the wrong kind of person.",
+"faithfulness": "The Spirit grows steady follow-through with what God entrusted, not one heroic sprint mistaken for earned salvation.",
+"finish-strong": "Launch day excitement does not count - success is whether the last commitment actually got done.",
+"first-principles-thinking": "First principles thinking rebuilds from what you actually believe, not someone else quote.",
+"follow-christ-then-lead": "When leadership pressure and Christ command collide, follow Christ first - then lead from that footing.",
+"follow-their-lead": "Join their world - topic, pace, starting point - before trying to steer.",
+"forgiveness-at-work": "Release a colleague debt from the heart without pretending the slight did not matter or skipping boundaries where trust broke.",
+"forgiveness": "Extend the forgiveness already received, not ledger-keeping on debts Christ cleared.",
+"future-proofing-knowledge": "Future-proof notes with plain text, open tools, and exports tested before a vendor locks you in.",
+"god-centered-design": "Design life and work around God glory first - not crowd applause, ego, or comfort.",
+"grace": "Grace is gift never earned - salvation first, then the walk after - not wages that could be stacked.",
+"graph-view-analytics": "Graph view analytics reads the link map for orphans, over-connected hubs, and forgotten gaps.",
+"grateful-obedience": "Obedience flows from thanks because Christ already saved - not to buy or re-earn eternal life.",
+"habit-formation": "Repeat one small move until it runs on autopilot instead of re-debating it every morning.",
+"habit-stacking": "Piggyback a new tiny habit onto one that already runs without thinking, like notebook after coffee.",
+"honest-self-awareness": "Name strengths, gaps, and limits plainly so change targets stay realistic.",
+"inbox-zero": "Process the inbox to empty each week - decide, do not hoard.",
+"information-diet": "Choose feeds on purpose because algorithm defaults are not neutral.",
+"integrity": "What you do matches what you claim when applause, speed, or comfort are not watching.",
+"intellectual-sourcing": "Cite sources in notes to trust synthesis and find the original later.",
+"judge-not": "Final judge on souls is not your job - pull your own plank before nitpicking someone speck.",
+"layered-reading": "One pass through a book is not absorption - return when more depth is needed.",
+"lean-startup": "Ship a rough test and learn rather than polish a product nobody wanted.",
+"let-your-light-shine": "Good works are not for hiding - let people see the Father in how you live, not perform for applause.",
+"linking-by-meaning": "Link notes so ideas meet in the graph without memorizing every folder path.",
+"literature-notes": "After reading a source, write what stuck in your own words - not a pile of copied highlights.",
+"love-your-neighbor": "Love others the way you would want care if roles flipped - second command, paired with loving God.",
+"low-hanging-fruit": "The easy win available now - grab it before climbing for the hard stuff.",
+"maintenance-window": "Block garden time on the calendar so broken links do not ambush on a random Sunday.",
+"measure-then-iterate": "Name what to measure, gather signal, then reprioritize - not guess and overhaul.",
+"mental-models": "Mental models are thinking shortcuts kept when they survive real decisions.",
+"mercy": "Mercy withholds the punishment deserved and calls for the same compassion toward others.",
+"mind-mapping": "Mind maps serve the messy first pass - branches, bubbles, relationships - then export to atomic notes.",
+"mobile-capture-workflows": "Mobile capture is one tap to save the spark before scrolling away - share sheet to inbox.",
+"name-the-feeling": "That sounds frustrating lands before the fix plan - name the emotion so nobody is guessing.",
+"network-analysis": "Look at which notes connect everything else - those hubs show where the garden actually lives.",
+"own-your-part": "Change your slice of the problem - do not wait for a hand-down fix from upstairs.",
+"patience": "Wait without turning brittle - the Spirit grows a slow fuse, not a countdown to snapping.",
+"peacemakers": "Pursue peace on purpose - repair, truth in love, de-escalation - not just staying quiet.",
+"people-centered-design": "Design for real human needs first - customers, teammates, stakeholders - or the change will not stick.",
+"periodic-knowledge-review": "Notes rot without revisit - calendar weekly and quarterly passes like bills.",
+"pkm": "PKM is how you save, organize, and reuse what you learn - not a hobby of collecting apps.",
+"preparedness": "Run the fire drill bored rather than improvise when the alarm is real.",
+"present-a-living-sacrifice": "Offer the ordinary day to God first - thanks after mercy, not payment to earn grace.",
+"process-over-outcomes": "One heroic sprint does not beat a routine you can rerun when motivation dips.",
+"read-later-queue": "Save for later is fine until the queue turns into a guilt pile never touched.",
+"renewed-mind": "Refuse the world default thinking - let Scripture reshape how you see, choose, and obey.",
+"resilience": "Bend without lying that the hit did not cost anything.",
+"safety-by-design": "Build workflows so the dangerous move is hard - not just a warning label and good intentions.",
+"safety-comes-first": "Stop the unsafe thing first, then restore choice when the situation is stable.",
+"second-order-thinking": "Ask what the clever fix triggers next - copycats, shortcuts, and incentives not planned for.",
+"secret-devotion": "Give, pray, and fast for God to see - not for applause in the group chat.",
+"seek-the-kingdom-first": "Put God rule first and let food, status, and tomorrow worry sort behind that.",
+"self-control": "Pick the next move on purpose - the urge does not get to drive.",
+"selling-static-sites": "Charge for the build and pass-off; hosting is a clear line item, not a mystery monthly bundle.",
+"servant-leadership": "Unblock the team, coach through the mess, take blame up, and pass credit down.",
+"shadow-the-work": "Watch one person do the real job before redrawing the process or the slide.",
+"share-what-you-learn": "Write the doc, do the pass-off, and answer the junior question - hoarding know-how helps nobody.",
+"ship-it": "Push the good-enough version live instead of polishing until the deadline owns you.",
+"signal-vs-noise": "Save only what changes action or belief this month - most feeds are noise.",
+"situational-control": "Steer pace, format, and who speaks in the room when you cannot own the whole outcome.",
+"slow-the-moment": "Slow down one breath before answering - urgency is real, but it should not pick the move.",
+"spaced-repetition": "Review on a schedule so ideas stick - retention, application, and explanation, not fact pile-up.",
+"staged-rollout": "Ship to a small slice first so rollback stays cheap if the new state bleeds.",
+"standard-operating-procedures": "Write short steps for deploys and incidents so nobody improvises when the clock is loud.",
+"standing-vs-fellowship": "Standing with God is settled at faith; fellowship breaks when sin enters and restores when confessed.",
+"stay-effective-in-new-conditions": "The habit that worked in the last role can flop in the next room - retune instead of clinging.",
+"success-is-stewardship": "Success is borrowed - accountability is for how what was given gets used, not entitlement to keep it forever.",
+"sunk-cost-fallacy": "Drop the bad tool or project when it stops earning its place - past effort is gone either way.",
+"sustainable-performance": "Aim for a pace holdable next month without burning out or cutting safety corners.",
+"synthesis-as-a-goal": "Merge sources into what you believe and can defend - a quote pile is not the goal.",
+"systems-thinking": "Trace the loop behind the fire - inputs, delays, feedback - and fix the process, not tonight patch.",
+"take-up-your-cross": "Deny self and follow Christ daily - his will over yours, not collecting suffering points.",
+"taxonomy": "Tags, folders, and types are how notes get found later - classification in service of retrieval.",
+"the-12-week-year": "Yearly goals compress into twelve-week arcs you can actually feel - wiki projects map to them.",
+"the-collectors-fallacy": "Saving articles felt like progress until every save tied to an express deadline or got cut.",
+"the-feynman-technique": "Teach the idea out loud to a blank page - wherever you stumble, understanding is not there yet.",
+"the-garage-concept": "The vault is the garage for scraps and experiments - the blog is the showroom, kept separate.",
+"the-golden-rule": "Treat people how you would want to be treated - active care, not just avoiding harm.",
+"the-knowledge-lifecycle": "Ideas move through capture, use, polish, fade, and archive - match effort to the stage.",
+"the-narrow-way": "The road to life is narrow and hard - the easy broad path is the one drift happens on.",
+"the-trusted-inbox": "One capture pipe emptied every week - without trust, ideas hoard in the head instead.",
+"the-wise-builder": "Hearing the words is not enough - build on rock by doing what Jesus said.",
+"treasure-in-heaven": "Store up what lasts - generosity and obedience - not what rust, moth, and thieves can take.",
+"turn-the-other-cheek": "When someone hits or insults you, do not hand back the same - break the retaliation loop.",
+"versatility": "Plug into more than one lane when the team or the client needs a shift.",
+}
+
+Path('data/garden-voice-descriptions.yaml').write_text(
+    yaml.safe_dump({'descriptions': FIXES}, allow_unicode=True, sort_keys=True),
+    encoding='utf-8'
+)
+print('wrote', len(FIXES), 'descriptions')
+PY
+```
+
+```
+wrote 122 descriptions
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Starting to draft garden-voice-migrate.py.
+
+The migration script will load descriptions from YAML. Contractions in frontmatter fields will be expanded. Wikilinks will be stripped from the first key_concept line. Descriptions will be applied. Faith notes will receive manual fixes afterward. Shareable fragments will need manual or heuristic expansion. Multi-sentence examples will be split to one sentence.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-migrate.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running the migrate script first. Then fixing the remaining issues manually.
+
+Found four specific issues to fix: faith-no-verse (11), shareable fragments, shareable count not equal to 4, and sanctification fragments in shareable. Running migrate and lint now.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-migrate.py --self-check && python3 scripts/garden-voice-migrate.py 2>&1 | tail -5 && python3 scripts/garden-voice-lint.py --summary</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-migrate.py --self-check && python3 scripts/garden-voice-migrate.py 2>&1 | tail -5 && python3 scripts/garden-voice-lint.py --summary
+```
+
+```
+garden-voice-migrate self-check OK
+content/english/notes/the-golden-rule.md: fixed description
+content/english/notes/the-narrow-way.md: fixed description
+content/english/notes/the-wise-builder.md: fixed description
+
+Updated 167 notes
+Garden voice — 238 files, 61 issues
+  contraction: 42
+  faith-no-verse: 9
+  multi-sentence: 6
+  count=0: 2
+  fragment: 2
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Issue count dropped from 814 to 61.
+
+Fetching the remaining issues to fix them.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --check 2>&1</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --check 2>&1
+```
+
+```
+Garden voice lint:
+  content/english/notes/_index.md: examples: count=0
+  content/english/notes/_index.md: shareable_thought: count=0
+  content/english/notes/break-the-escalation-cycle.md: key_concept: faith-no-verse (break-the-escalation-cycle)
+  content/english/notes/build-a-reliable-default.md: relationships.reason: contraction (they're)
+  content/english/notes/childlike-faith.md: examples: contraction (she'd)
+  content/english/notes/christianity-and-politics.md: key_concept: faith-no-verse (christianity-and-politics)
+  content/english/notes/client-site-pass-off.md: key_concept: contraction (we'll)
+  content/english/notes/client-site-pass-off.md: shareable_thought: contraction (we'll)
+  content/english/notes/complete-the-cycle.md: description: contraction (isn't)
+  content/english/notes/complete-the-cycle.md: examples: contraction (we'll)
+  content/english/notes/complete-the-cycle.md: examples: contraction (we'll)
+  content/english/notes/composure.md: description: contraction (isn't)
+  content/english/notes/convert-pain-into-learning.md: examples: contraction (would've)
+  content/english/notes/deep-work.md: examples: contraction (that'd)
+  content/english/notes/digital-garden.md: examples: contraction (they're)
+  content/english/notes/drafting-in-public.md: key_concept: contraction (they're)
+  content/english/notes/drafting-in-public.md: examples: contraction (would've)
+  content/english/notes/drafting-in-public.md: shareable_thought: contraction (they're)
+  content/english/notes/duty-of-care.md: key_concept: contraction (you'd)
+  content/english/notes/duty-of-care.md: shareable_thought: contraction (you'd)
+  content/english/notes/energy-protects-judgment.md: key_concept: contraction (they're)
+  content/english/notes/energy-protects-judgment.md: examples: contraction (would've)
+  content/english/notes/energy-protects-judgment.md: shareable_thought: contraction (they're)
+  content/english/notes/evergreen-vs-fleeting-notes.md: examples: contraction (we'd)
+  content/english/notes/execution.md: key_concept: contraction (we'll)
+  content/english/notes/execution.md: shareable_thought: contraction (we'll)
+  content/english/notes/expect-the-counter.md: examples: contraction (should've)
+  content/english/notes/failure-as-feedback.md: relationships.reason: contraction (you'd)
+  content/english/notes/faith-and-works.md: description: contraction (don't)
+  content/english/notes/finish-strong.md: examples[0]: multi-sentence (I cleared the table after dinner but left the pots soaking - the smell woke us a)
+  content/english/notes/follow-christ-then-lead.md: key_concept: faith-no-verse (follow-christ-then-lead)
+  content/english/notes/follow-through.md: examples: contraction (we'll)
+  content/english/notes/forgiveness.md: key_concept: contraction (you've)
+  content/english/notes/forgiveness.md: shareable_thought: contraction (you've)
+  content/english/notes/free-grace.md: key_concept: contraction (you've)
+  content/english/notes/getting-things-done.md: examples[0]: multi-sentence (Tournament week my brain is not a filing cabinet - GTD was one trusted inbox and)
+  content/english/notes/golden-rule-at-work.md: key_concept: faith-no-verse (golden-rule-at-work)
+  content/english/notes/influence-without-title.md: key_concept: contraction (they're)
+  content/english/notes/influence-without-title.md: examples: contraction (who'd)
+  content/english/notes/influence-without-title.md: shareable_thought: contraction (they're)
+  content/english/notes/integrity-without-an-audience.md: key_concept: faith-no-verse (integrity-without-an-audience)
+  content/english/notes/integrity-without-an-audience.md: examples: contraction (could've)
+  content/english/notes/integrity.md: examples: contraction (could've)
+  content/english/notes/integrity.md: examples: contraction (could've)
+  content/english/notes/judge-not.md: shareable[1]: fragment (Still judge fruit.)
+  content/english/notes/judgment-seat.md: relationships.reason: contraction (they're)
+  content/english/notes/leadership-is-influence.md: description: contraction (you're)
+  content/english/notes/leadership-is-influence.md: examples: contraction (who'd)
+  content/english/notes/let-your-yes-be-yes.md: examples: contraction (they'd)
+  content/english/notes/love-your-enemies.md: shareable[0]: fragment (Love your enemies.)
+  content/english/notes/love-your-neighbor.md: key_concept: contraction (you'd)
+  content/english/notes/measure-then-iterate.md: relationships.reason: contraction (you'd)
+  content/english/notes/name-the-feeling.md: examples[1]: multi-sentence (My kid came home furious about homework - "you are mad because it felt unfair" b)
+  content/english/notes/notice-the-good.md: examples[0]: multi-sentence (After practice I told the kid who boxed out every drill: "Your rebounds won that)
+  content/english/notes/notice-the-good.md: examples[1]: multi-sentence (I emailed the intern: "You caught the duplicate invoice before I did - that save)
+  content/english/notes/outcomes-over-pitch-decks.md: key_concept: faith-no-verse (outcomes-over-pitch-decks)
+  content/english/notes/plain-commitments-at-work.md: key_concept: faith-no-verse (plain-commitments-at-work)
+  content/english/notes/priorities-before-the-inbox.md: key_concept: faith-no-verse (priorities-before-the-inbox)
+  content/english/notes/reconcile-before-the-review.md: key_concept: faith-no-verse (reconcile-before-the-review)
+  content/english/notes/secret-devotion.md: examples[1]: multi-sentence (The player trains at 5 a.m.)
+  content/english/notes/title-without-influence.md: key_concept: contraction (they're)
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The output was truncated. Fetching the remaining content.
+
+Fixing remaining lint issues: skipping _index.md, adding contractions to the migration script, correcting faith notes with missing bible verses, fixing fragments, multi-sentence examples, and the leadership-is-influence description. Re-running migration after updating the contraction list.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/_index.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/golden-rule-at-work.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/break-the-escalation-cycle.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-christ-then-lead.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judge-not.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-your-enemies.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The migrate script likely broke YAML formatting in some files. golden-rule-at-work has malformed YAML.
+
+I will exclude _index.md from lint. The migrate script needs more contractions. I will add bible shortcodes to faith notes. I will fix fragments in judge-not and love-your-enemies. I will update the description YAML for leadership-is-influence.
+
+follow-christ-then-lead is also corrupted by the migration script. I am checking how many files were affected.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/golden-rule-at-work.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "pattern": "key_concept: '- "
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "key_concept: '- ",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/the-feynman-technique.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/systems-thinking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/sustainable-performance.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/standard-operating-procedures.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/slow-the-moment.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/situational-control.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/signal-vs-noise.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/second-order-thinking.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/safety-comes-first.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/safety-by-design.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/rollback-principle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/resilience.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/reconcile-before-the-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/read-later-queue.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/process-over-outcomes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/preparedness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/periodic-knowledge-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/people-centered-design.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/pareto-principle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/own-your-part.md"
+    }
+  ],
+  "totalFiles": 20,
+  "totalMatches": 114
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The migrate script used YAML.
+
+The migrate script broke multiline key_concept formatting across 167 files. I will restore the notes from git and rerun a smarter script that patches only frontmatter fields with regex, preserving pipe block style.</details></think>
+
+_**Agent (auto-low)**_
+
+The migrate script corrupted YAML formatting — restoring notes and reapplying fixes with a safer approach.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git checkout -- content/english/notes/ && git status content/english/notes/ | head -5</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git checkout -- content/english/notes/ && git status content/english/notes/ | head -5
+```
+
+```
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The previous changes were restored. The capture, blameless, and gentleness fixes were also reverted.
+
+Rewriting the migrate script to preserve YAML frontmatter formatting. Regex is too fragile. ruamel.yaml is the better approach.
+
+Checking whether ruamel.yaml is installed; if not, it will be installed via pip.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c "from ruamel.yaml import YAML; print('ok')" 2>&1</summary>
+
+```bash
+python3 -c "from ruamel.yaml import YAML; print('ok')" 2>&1
+```
+
+```
+Traceback (most recent call last):
+  File "&lt;string&gt;", line 1, in &lt;module&gt;
+ModuleNotFoundError: No module named 'ruamel'
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I'll write a regex-based field updater instead of using ruamel.
+
+The script will parse frontmatter with yaml, apply transforms, and write back via targeted regex replacements per field. A regex pattern is being drafted to replace description lines.
+
+Descriptions are usually single-line quoted strings. I'll check typical frontmatter formatting before finalizing the regex.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The migrate script will be rewritten to use regex replacement for descriptions only. Key_concept blocks will be transformed in place without re-serializing YAML.
+
+The migrate script will read the full file and split it into frontmatter and body. Meta data will be parsed with YAML only for logic. Transforms will be applied directly to string segments. Description fields will be replaced via regex. Key_concept, examples, shareable, and reasons blocks will be extracted by regex and fixed in place.
+
+The migrate script will be fully rewritten with block-preserving logic. Leadership-is-influence will be added to the descriptions YAML. Faith notes will need manual fixes after migration. Lint will skip _index.md. Remaining issues will be fixed manually after the improved migrate script runs. A helper function will handle regex-based replacements for frontmatter fields.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-migrate.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding "leadership-is-influence" to the descriptions YAML and running migrate.
+
+Then manually fixing faith notes, fragments, and multi-sentence examples. Re-applying capture, blameless, and gentleness fixes.</details></think>
+
+_**Agent (auto-low)**_
+
+The string to replace was not found in the file.
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-migrate.py --self-check && python3 scripts/garden-voice-migrate.py 2>&1 | tail -3 && python3 scripts/garden-voice-lint.py --summary</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-migrate.py --self-check && python3 scripts/garden-voice-migrate.py 2>&1 | tail -3 && python3 scripts/garden-voice-lint.py --summary
+```
+
+```
+garden-voice-migrate self-check OK
+  in "&lt;unicode string&gt;", line 6, column 3:
+      - Cut off from the vine, I produ ... 
+      ^
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A YAML parse error occurred during migration. The file may have been partially written or corrupted.
+
+Checking git status to investigate the cause.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git status --short content/english/notes/ | head -20 && git diff content/english/notes/abide-in-me.md | head -40</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git status --short content/english/notes/ | head -20 && git diff content/english/notes/abide-in-me.md | head -40
+```
+
+```
+ M content/english/notes/abide-in-me.md
+ M content/english/notes/adaptability.md
+ M content/english/notes/assurance.md
+ M content/english/notes/behavioral-economics.md
+ M content/english/notes/break-the-escalation-cycle.md
+ M content/english/notes/building-a-personal-api.md
+ M content/english/notes/by-their-fruits.md
+ M content/english/notes/change-window.md
+ M content/english/notes/christianity-and-politics.md
+ M content/english/notes/christlikeness.md
+ M content/english/notes/client-site-pass-off.md
+ M content/english/notes/coaching-ethics.md
+ M content/english/notes/follow-christ-then-lead.md
+ M content/english/notes/getting-started.md
+ M content/english/notes/name-the-feeling.md
+ M content/english/notes/notice-the-good.md
+ M content/english/notes/outcomes-over-pitch-decks.md
+ M content/english/notes/plain-commitments-at-work.md
+ M content/english/notes/priorities-before-the-inbox.md
+ M content/english/notes/random-duo.md
+diff --git a/content/english/notes/abide-in-me.md b/content/english/notes/abide-in-me.md
+index ee2d48e..10d06b5 100644
+--- a/content/english/notes/abide-in-me.md
++++ b/content/english/notes/abide-in-me.md
+@@ -1,26 +1,25 @@
+ ---
+ title: "Abide in Me"
+ meta_title: "Abide in Me - Fruit from Union with Christ"
+-description: "I bear fruit when I stay connected to Christ, not when I force it by willpower alone."
++description: "Fruit comes from staying connected to Christ, not from forcing growth by willpower alone."
+ key_concept: |
+-  {{&lt; bible ref="John 15:1-11" emphasize="5" &gt;}}
++{{&lt; bible ref="John 15:1-11" emphasize="5" &gt;}}
+   - Cut off from the vine, I produce nothing lasting - fruit comes from staying connected, not willpower theater.
+   - Abiding is ongoing dependence - pruning hurts but serves fruitfulness over time.
+   - Abiding is ongoing dependence, not a one-time conversion event.
+   - Pruning hurts but serves fruitfulness.
+-  - Under [[Free Grace]], fruit doesn't earn the branch's place in the vine - the branch bears fruit because it's connected.
++  - Under [[Free Grace]], fruit does not earn the branch's place in the vine - the branch bears fruit because it is connected.
+   - [[Fruits of the Spirit]] names the cluster Galatians lists - love through self-control - grown by walking in the Spirit, not sheer willpower.
+   - [[Sanctification]] is the slow becoming that abiding produces over time.
+   - Self-powered "fruit" without abiding is the dead wood Jesus removes - same trap as [[Compounding]] when I treat spiritual growth as pure self-stacked effort.
+-  - I bear fruit when I stay connected to Christ, not when I force it by willpower alone.
+ examples:
+   - "I snap at my kid after a week with almost no prayer or Scripture, and I know where the fruit went - abiding is opening the Bible before the news feed wins again."
+   - "I checked email three times before I prayed this morning and wondered why God felt far away - staying connected is the daily choice, not the badge from conversion day."
+ shareable_thought:
+-  - "I bear fruit when I stay connected to Christ, not when I force it by willpower alone."
++  - "Fruit comes from staying connected to Christ, not from forcing growth by willpower alone."
+   - "Abiding is ongoing dependence - pruning hurts but serves fruitfulness over time."
+-  - "Abiding is ongoing dependence, not a one-time conversion event."
+-  - "Fruits of the Spirit names the cluster Galatians lists."
++  - "Cut off from the vine, nothing lasting grows - connection beats willpower theater."
++  - "Under Free Grace, fruit does not earn the branch's place - connection produces the cluster."
+ relationships:
+   - type: contradicts
+     wikilink: "[[Compounding]]"
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A migration stripped indentation from the bible shortcode inside the key_concept block. The `{{< bible` line needs two spaces.
+
+replace_pipe_field likely strips leading spaces from shortcode lines without two-space indentation. The fix_key_concept_block regex may also be consuming indentation.
+
+The pipe-field regex requires two leading spaces. Shortcodes without indentation are skipped. The bible line loses its indent during reconstruction.
+
+Reading the current abide-in-me file to inspect the broken indentation.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git checkout -- content/english/notes/ && git status --short | wc -l</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git checkout -- content/english/notes/ && git status --short | wc -l
+```
+
+```
+11
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The migrate script broke bible shortcode indentation. Its pipe field regex only matches lines starting with two spaces, but bible shortcode lines may not have that prefix after the fix.
+
+The regex should match all lines in the block, including shortcodes, until the next top-level key. The actual bug is that `fix_key_concept_block` strips leading spaces from the first non-empty line when it is a shortcode.
+
+The regex should match bible lines starting with two spaces. The indentation loss likely occurs because the first line loses its leading spaces during the transform.
+
+The broken file confirms the bible line lost its two-space indent entirely. The fix function does not strip wikilinks from shortcodes, so the loss must come from the regex capture itself. The original file does preserve the indent, which means the regex pattern is failing to match these lines.
+
+A simpler block extractor will replace the regex. It locates the field marker and captures everything up to the next top-level key. This preserves exact line structure while still allowing content transforms.
+
+The shareable_thought transform was also incorrect. The decontract lambda should run per list item rather than on the entire block.</details></think>
+
+_**Agent (auto-low)**_
+
+Fixing the migrate script to preserve block indentation, then re-running it.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-migrate.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-migrate.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-migrate.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The transform_list_block function for shareables incorrectly truncates them to the first sentence.
+
+Shareable thoughts should only decontract, not truncate to the first sentence. Examples still need both transforms. I'll apply the fix now.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-migrate.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-migrate.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-migrate.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the migrate file to verify whether transform_list_block was duplicated.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-migrate.py",
+  "pattern": "def transform"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-migrate.py",
+  "pattern": "def transform",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "scripts/garden-voice-migrate.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running migrate again to verify bible indentation is preserved.
+
+Then manually fix remaining issues. Add leadership-is-influence to the YAML file.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/garden-voice-descriptions.yaml",
+  "pattern": "leadership"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/garden-voice-descriptions.yaml",
+  "pattern": "leadership",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "data/garden-voice-descriptions.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-migrate.py 2>&1 | tail -3 && python3 -c "
+import yaml,re
+from pathlib import Path
+text=Path('content/english/notes/abide-in-me.md').read_text()
+fm=re.match(r'^---\s*\n(.*?)\n---',text,re.S).group(1)
+yaml.safe_load(fm)
+print('abide yaml ok')
+print([l for l in text.splitlines()[5:7]])
+" && python3 scripts/garden-voice-lint.py --summary</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-migrate.py 2>&1 | tail -3 && python3 -c "
+import yaml,re
+from pathlib import Path
+text=Path('content/english/notes/abide-in-me.md').read_text()
+fm=re.match(r'^---\s*\n(.*?)\n---',text,re.S).group(1)
+yaml.safe_load(fm)
+print('abide yaml ok')
+print([l for l in text.splitlines()[5:7]])
+" && python3 scripts/garden-voice-lint.py --summary
+```
+
+```
+  in "&lt;unicode string&gt;", line 12, column 3:
+      - "A coworker walked me through  ... 
+      ^
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A YAML parse error has returned, likely caused by a broken file or adaptability issue.
+
+Now locating the specific file that failed and determining what broke.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import yaml,re
+from pathlib import Path
+FM=re.compile(r'^---\s*\n(.*?)\n---',re.DOTALL)
+for p in sorted(Path('content/english/notes').glob('*.md')):
+    if p.name=='_index.md': continue
+    text=p.read_text()
+    m=FM.match(text)
+    if not m: continue
+    try:
+        yaml.safe_load(m.group(1))
+    except Exception as e:
+        print(p.name, e)
+PY</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import yaml,re
+from pathlib import Path
+FM=re.compile(r'^---\s*\n(.*?)\n---',re.DOTALL)
+for p in sorted(Path('content/english/notes').glob('*.md')):
+    if p.name=='_index.md': continue
+    text=p.read_text()
+    m=FM.match(text)
+    if not m: continue
+    try:
+        yaml.safe_load(m.group(1))
+    except Exception as e:
+        print(p.name, e)
+PY
+```
+
+```
+abide-in-me.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 16, column 170:
+     ... ore the news feed wins again."  - "I checked email three times b ... 
+                                         ^
+accept-the-starting-line.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 11, column 154:
+     ... epney, then build from there."  - "The team wanted a full platfo ... 
+                                         ^
+accountability.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 10, column 136:
+     ... omeone should fix the gate.\""  - "After a patient mix-up, the c ... 
+                                         ^
+active-knowledge-curation.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 9, column 157:
+     ...  thoughts finally get linked."  - "Our trainer reviews the drill ... 
+                                         ^
+adaptability.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 10, column 155:
+     ... oor when the weather shifted."  - "The school bus was late so we ... 
+                                         ^
+analog-capture-tools.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 10, column 155:
+     ... e kitchen table Sunday night."  - "Stuck in a dead-zone meeting, ... 
+                                         ^
+anti-fragile-systems.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 9, column 173:
+     ... building history from memory."  - "The shop switched POS systems ... 
+                                         ^
+ask-seek-knock.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 17, column 153:
+     ... t I already have under grace."  - "The clinic chaplain rounds ev ... 
+                                         ^
+assurance.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 15, column 112:
+     ... ise, not my obedience streak."  - "I pictured the judgment seat  ... 
+                                         ^
+atomic-notes.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 15, column 101:
+     ... ould say it alone at carpool."  - "\"Where we meet if the elevat ... 
+                                         ^
+attention-economy.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 12, column 88:
+     ...  app - the pipe was the leak."  - "My kid's group chat pinged th ... 
+                                         ^
+attention-to-detail.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 10, column 158:
+     ... d of the court map caught it."  - "The contractor's quote had tw ... 
+                                         ^
+behavioral-economics.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 10, column 90:
+     ...  jumped - no sermon required."  - "Default opt-in to save made m ... 
+                                         ^
+blameless-after-action-review.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 12, column 132:
+     ... eck, not which intern merged."  - "After the equipment cart tipp ... 
+                                         ^
+break-the-escalation-cycle.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 16, column 204:
+     ... ly-all war before it started."  - "My kid snapped first at dinne ... 
+                                         ^
+build-a-reliable-default.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 10, column 138:
+     ... ted sheet taped by the phone."  - "Our family fire plan is one p ... 
+                                         ^
+building-a-personal-api.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 10, column 140:
+     ... ining where everything lives."  - "Our team names drills the sam ... 
+                                         ^
+building-a-second-brain.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 13, column 165:
+     ... or storing them until review."  - "A sermon line lands mid-shift ... 
+                                         ^
+by-their-fruits.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 13, column 159:
+     ...  any clinic title ever could."  - "A trending productivity guru' ... 
+                                         ^
+capture.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 12, column 165:
+     ... unday when the spark is safe."  - "On the jeepney my kid says so ... 
+                                         ^
+change-takes-repetition.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 11, column 160:
+     ... speech before the tournament."  - "My capture habit finally held ... 
+                                         ^
+change-window.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 11, column 118:
+     ... wns rollback if it goes loud."  - "Wedding weekend freeze: marke ... 
+                                         ^
+childlike-faith.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 12, column 188:
+     ...  would even say good morning."  - "I delay prayer until my week  ... 
+                                         ^
+christianity-and-politics.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 16, column 166:
+     ... timate worship stay distinct."  - "Group chat turned tribal afte ... 
+                                         ^
+christlikeness.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 16, column 165:
+     ... nd I am still being reshaped."  - "I performed kindness at churc ... 
+                                         ^
+client-site-pass-off.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 14, column 119:
+     ...  once, fixed typo same night."  - "Pastor emails bulletin PDF ev ... 
+                                         ^
+coaching-ethics.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 10, column 160:
+     ... ill was unsafe and pointless."  - "The gym sold a dangerous clea ... 
+                                         ^
+commonplace-book.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 9, column 130:
+     ... , paper instead of wikilinks."  - "Grandpa's notebook of sermon  ... 
+                                         ^
+complete-the-cycle.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 10, column 138:
+     ... d before anyone left the gym."  - "Parent-teacher night ended wi ... 
+                                         ^
+composure.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 11, column 158:
+     ...  even when the issue is real."  - "I used the same move in a hea ... 
+                                         ^
+compounding.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 15, column 135:
+     ... ithout me noticing the curve."  - "My kid's piano practice looke ... 
+                                         ^
+context-aware-capture.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 9, column 88:
+     ... context was still in my head."  - "Photo of the whiteboard befor ... 
+                                         ^
+continuous-improvement.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 9, column 138:
+     ... ic overhaul I never schedule."  - "The barista changed one milk- ... 
+                                         ^
+control-the-rhythm.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 11, column 196:
+     ... ubling reps that bred a limp."  - "A client wanted an answer in  ... 
+                                         ^
+convert-pain-into-learning.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 10, column 166:
+     ... es ten times, cut two slides."  - "I missed the turn twice on th ... 
+                                         ^
+create-regular-connection.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 9, column 134:
+     ...  the same loop every Tuesday."  - "My parents and I call every S ... 
+                                         ^
+creative-blocks.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 11, column 181:
+     ... mething existed on the paper."  - "The new hire could not start  ... 
+                                         ^
+creative-output.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 12, column 168:
+     ... ece even if the cut is rough."  - "We do not wait for perfect di ... 
+                                         ^
+daily-notes.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 10, column 163:
+     ...  a real note when it repeats."  - "My work daily note today is t ... 
+                                         ^
+decision-quality.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 10, column 164:
+     ... urrent member before we paid."  - "We almost picked the school o ... 
+                                         ^
+deep-work.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 9, column 129:
+     ... hree distracted false starts."  - "Phone in the gym bag for nine ... 
+                                         ^
+deliberate-practice.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 10, column 140:
+     ... ction, repeat on what breaks."  - "My kid's recital died in the  ... 
+                                         ^
+develop-dont-endanger.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 10, column 129:
+     ... d hoping everyone stays calm."  - "A conditioning set can build  ... 
+                                         ^
+digital-garden.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 11, column 175:
+     ... ion was supposed to be final."  - "My garden posts stay linked a ... 
+                                         ^
+digital-minimalism.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 11, column 143:
+     ...  working pair of shoes lives."  - "The front desk runs one sched ... 
+                                         ^
+digital-serendipity.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 10, column 98:
+     ...  a blog post I would stalled."  - "The graph view showed an orph ... 
+                                         ^
+discern-his-will-daily.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 17, column 168:
+     ... not which title feeds my ego."  - "The coach had three plays for ... 
+                                         ^
+discipleship-vs-leadership.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 18, column 169:
+     ... ollow when nobody's watching."  - "Promotion meant calm directio ... 
+                                         ^
+discipleship.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 19, column 163:
+     ...  coach actually taught today."  - "I taught my kid the memory ve ... 
+                                         ^
+discipline.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 10, column 135:
+     ... hen motivation was not there."  - "Discipline is loading the dis ... 
+                                         ^
+dont-copy-the-pattern.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 19, column 202:
+     ... ipture before the group chat."  - "The team copied the league's  ... 
+                                         ^
+dont-worry.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 14, column 160:
+     ... ow can carry its own trouble."  - "My kid asked what if the scho ... 
+                                         ^
+drafting-in-public.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 9, column 129:
+     ... nd I understood the pass-off."  - "I posted a rough footwork cli ... 
+                                         ^
+duty-of-care.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 10, column 147:
+     ... job of reasonable protection."  - "We do not leave the toddler p ... 
+                                         ^
+eliminate-before-managing.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 10, column 155:
+     ... nd hoping someone reads them."  - "We stopped storing cleaners u ... 
+                                         ^
+emotional-regulation.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 11, column 136:
+     ...  not mailing the first draft."  - "My kid's homework meltdown ma ... 
+                                         ^
+energy-protects-judgment.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 9, column 153:
+     ... e was not the problem, I was."  - "After three nights of bad sle ... 
+                                         ^
+eternal-rewards.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 27, column 183:
+     ...  who pays, not the team chat."  - "I covered a coworker's shift  ... 
+                                         ^
+ethical-leadership.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 10, column 160:
+     ... s wanted the rougher version."  - "The coach killed the unsafe t ... 
+                                         ^
+evergreen-notes.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 11, column 168:
+     ... ts excited about a new trick."  - "My free-throw note keeps the  ... 
+                                         ^
+evergreen-vs-fleeting-notes.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 12, column 141:
+     ... s copied into the recipe box."  - "The shift manager's scribble  ... 
+                                         ^
+execution.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 12, column 133:
+     ... with gloves and a start time."  - "The coach drew a beautiful pl ... 
+                                         ^
+expect-the-counter.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 10, column 186:
+     ...  rehearsed the opening bribe."  - "A restaurant drops lunch pric ... 
+                                         ^
+failure-as-feedback.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 10, column 145:
+     ...  \"not a basketball person.\""  - "The utility bill math was wro ... 
+                                         ^
+faith-and-works.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 18, column 164:
+     ... e door Christ already opened."  - "Confident I am saved but the  ... 
+                                         ^
+faithful-steward.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 17, column 160:
+     ... t or performing for applause."  - "One mission trip in my head a ... 
+                                         ^
+faithfulness.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 13, column 154:
+     ...  Tuesdays nobody clapped for."  - "I organized snacks for my kid ... 
+                                         ^
+finish-strong.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 12, column 152:
+     ... n-minute scrub and trash run."  - "We led at halftime and coaste ... 
+                                         ^
+first-principles-thinking.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 10, column 170:
+     ... im, not someone else's quote."  - "The HOA kept adding signs abo ... 
+                                         ^
+follow-christ-then-lead.md sequence entries are not allowed here
+  in "&lt;unicode string&gt;", line 16, column 167:
+     ... and own the fallout together."  - "Sunday school asked me to ski ... 
+                                         ^
+follow-their-lead.md while parsing a block mapping
+  in "&lt;unicode string&gt;", line 1, column 1:
+    title: "Follow Their Lead"
+    ^
+expected &lt;block end&gt;, but found '&lt;block sequence start&gt;'
+  in "&lt;unicode string&gt;", line 12, column 3:
+      - "A coworker walked me through  ... 
+      ^
+listen-before-fixing.md while parsing a block mapping
+  in "&lt;unicode string&gt;", line 1, column 1:
+    title: "Listen Before Fixing"
+    ^
+expected &lt;block end&gt;, but found '&lt;block sequence start&gt;'
+  in "&lt;unicode string&gt;", line 11, column 3:
+      - "My kid told me about a fight  ... 
+      ^
+rollback-principle.md while parsing a block mapping
+  in "&lt;unicode string&gt;", line 1, column 1:
+    title: "Rollback Principle"
+    ^
+expected &lt;block end&gt;, but found '&lt;block sequence start&gt;'
+  in "&lt;unicode string&gt;", line 13, column 3:
+      - "The point guard ran Tuesday's ... 
+      ^
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The extract_list_block function is merging examples onto a single line without newlines. It is also consuming content from the next field.
+
+The transform_list_block regex collapses newlines between list items. Multi-line quoted strings break the pattern. The examples block may also be incorrectly including shareable content.
+
+The exact bug is in transform_list_block. When a line ends with a newline, the code appends the prefix and body without adding another newline. This strips the newline between list items and merges two items onto one line.
+
+The fix preserves the original line ending by appending the remainder after the regex match. Restoring notes and fixing the migrate script.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git checkout -- content/english/notes/</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git checkout -- content/english/notes/
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-migrate.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Follow-their-lead, listen-before-fixing, and rollback-principle use a different YAML structure. Key_concept may use single quotes instead of pipes.
+
+extract_list_block might fail on those files. Reading follow-their-lead.md now.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/follow-their-lead.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The follow-their-lead section looks fine. The YAML error during the broken migrate was caused by examples merging onto the key_concept line.
+
+Running migrate again with fixed newline handling and validating all YAML parses.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-migrate.py && python3 << 'PY'
+import yaml,re
+from pathlib import Path
+FM=re.compile(r'^---\s*\n(.*?)\n---',re.DOTALL)
+bad=[]
+for p in sorted(Path('content/english/notes').glob('*.md')):
+    m=FM.match(p.read_text())
+    if not m: continue
+    try: yaml.safe_load(m.group(1))
+    except Exception as e: bad.append((p.name,str(e)[:60]))
+print('bad yaml:', len(bad))
+for n,e in bad[:5]: print(n,e)
+PY
+python3 scripts/garden-voice-lint.py --summary</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-migrate.py && python3 << 'PY'
+import yaml,re
+from pathlib import Path
+FM=re.compile(r'^---\s*\n(.*?)\n---',re.DOTALL)
+bad=[]
+for p in sorted(Path('content/english/notes').glob('*.md')):
+    m=FM.match(p.read_text())
+    if not m: continue
+    try: yaml.safe_load(m.group(1))
+    except Exception as e: bad.append((p.name,str(e)[:60]))
+print('bad yaml:', len(bad))
+for n,e in bad[:5]: print(n,e)
+PY
+python3 scripts/garden-voice-lint.py --summary
+```
+
+```
+content/english/notes/abide-in-me.md: updated
+content/english/notes/accept-the-starting-line.md: updated
+content/english/notes/accountability.md: updated
+content/english/notes/active-knowledge-curation.md: updated
+content/english/notes/adaptability.md: updated
+content/english/notes/analog-capture-tools.md: updated
+content/english/notes/anti-fragile-systems.md: updated
+content/english/notes/ask-seek-knock.md: updated
+content/english/notes/atomic-notes.md: updated
+content/english/notes/attention-economy.md: updated
+content/english/notes/attention-to-detail.md: updated
+content/english/notes/behavioral-economics.md: updated
+content/english/notes/blameless-after-action-review.md: updated
+content/english/notes/break-the-escalation-cycle.md: updated
+content/english/notes/build-a-reliable-default.md: updated
+content/english/notes/building-a-personal-api.md: updated
+content/english/notes/building-a-second-brain.md: updated
+content/english/notes/by-their-fruits.md: updated
+content/english/notes/capture.md: updated
+content/english/notes/change-window.md: updated
+content/english/notes/childlike-faith.md: updated
+content/english/notes/christianity-and-politics.md: updated
+content/english/notes/christlikeness.md: updated
+content/english/notes/client-site-pass-off.md: updated
+content/english/notes/coaching-ethics.md: updated
+content/english/notes/commonplace-book.md: updated
+content/english/notes/complete-the-cycle.md: updated
+content/english/notes/composure.md: updated
+content/english/notes/compounding.md: updated
+content/english/notes/context-aware-capture.md: updated
+content/english/notes/control-the-rhythm.md: updated
+content/english/notes/convert-pain-into-learning.md: updated
+content/english/notes/create-regular-connection.md: updated
+content/english/notes/creative-blocks.md: updated
+content/english/notes/creative-output.md: updated
+content/english/notes/daily-notes.md: updated
+content/english/notes/decision-quality.md: updated
+content/english/notes/deep-work.md: updated
+content/english/notes/deliberate-practice.md: updated
+content/english/notes/develop-dont-endanger.md: updated
+content/english/notes/digital-garden.md: updated
+content/english/notes/digital-minimalism.md: updated
+content/english/notes/digital-serendipity.md: updated
+content/english/notes/discern-his-will-daily.md: updated
+content/english/notes/discipleship-vs-leadership.md: updated
+content/english/notes/discipleship.md: updated
+content/english/notes/discipline.md: updated
+content/english/notes/dont-copy-the-pattern.md: updated
+content/english/notes/dont-worry.md: updated
+content/english/notes/drafting-in-public.md: updated
+content/english/notes/duty-of-care.md: updated
+content/english/notes/eliminate-before-managing.md: updated
+content/english/notes/emotional-regulation.md: updated
+content/english/notes/energy-protects-judgment.md: updated
+content/english/notes/ethical-leadership.md: updated
+content/english/notes/evergreen-notes.md: updated
+content/english/notes/evergreen-vs-fleeting-notes.md: updated
+content/english/notes/execution.md: updated
+content/english/notes/expect-the-counter.md: updated
+content/english/notes/failure-as-feedback.md: updated
+content/english/notes/faith-and-works.md: updated
+content/english/notes/faithfulness.md: updated
+content/english/notes/finish-strong.md: updated
+content/english/notes/first-principles-thinking.md: updated
+content/english/notes/follow-christ-then-lead.md: updated
+content/english/notes/follow-their-lead.md: updated
+content/english/notes/follow-through.md: updated
+content/english/notes/forgiveness-at-work.md: updated
+content/english/notes/forgiveness.md: updated
+content/english/notes/free-grace.md: updated
+content/english/notes/fruits-of-the-spirit.md: updated
+content/english/notes/future-proofing-knowledge.md: updated
+content/english/notes/gentleness.md: updated
+content/english/notes/getting-things-done.md: updated
+content/english/notes/git-based-cms.md: updated
+content/english/notes/god-centered-design.md: updated
+content/english/notes/golden-rule-at-work.md: updated
+content/english/notes/goodness.md: updated
+content/english/notes/grace.md: updated
+content/english/notes/graph-view-analytics.md: updated
+content/english/notes/grateful-obedience.md: updated
+content/english/notes/great-commission.md: updated
+content/english/notes/growth-mindset.md: updated
+content/english/notes/gtd-vs-para.md: updated
+content/english/notes/habit-formation.md: updated
+content/english/notes/habit-stacking.md: updated
+content/english/notes/heart-righteousness.md: updated
+content/english/notes/heed-every-near-miss.md: updated
+content/english/notes/honest-self-awareness.md: updated
+content/english/notes/humility-and-service.md: updated
+content/english/notes/inbox-zero.md: updated
+content/english/notes/incident-investigation.md: updated
+content/english/notes/influence-without-title.md: updated
+content/english/notes/information-diet.md: updated
+content/english/notes/integrity-without-an-audience.md: updated
+content/english/notes/integrity.md: updated
+content/english/notes/intellectual-sourcing.md: updated
+content/english/notes/joy.md: updated
+content/english/notes/judge-not.md: updated
+content/english/notes/judgment-seat.md: updated
+content/english/notes/justification.md: updated
+content/english/notes/kindness.md: updated
+content/english/notes/layered-reading.md: updated
+content/english/notes/leadership-is-influence.md: updated
+content/english/notes/lean-startup.md: updated
+content/english/notes/learning-organizations.md: updated
+content/english/notes/let-your-light-shine.md: updated
+content/english/notes/let-your-yes-be-yes.md: updated
+content/english/notes/linking-by-meaning.md: updated
+content/english/notes/listen-before-fixing.md: updated
+content/english/notes/literature-notes.md: updated
+content/english/notes/local-first-software.md: updated
+content/english/notes/loss-of-reward.md: updated
+content/english/notes/love-god.md: updated
+content/english/notes/love-your-enemies.md: updated
+content/english/notes/love-your-neighbor.md: updated
+content/english/notes/low-hanging-fruit.md: updated
+content/english/notes/maintenance-window.md: updated
+content/english/notes/measure-then-iterate.md: updated
+content/english/notes/mental-models.md: updated
+content/english/notes/mercy.md: updated
+content/english/notes/metadata-strategy.md: updated
+content/english/notes/mind-mapping.md: updated
+content/english/notes/minimum-effective-dose.md: updated
+content/english/notes/minimum-viable-product.md: updated
+content/english/notes/mobile-capture-workflows.md: updated
+content/english/notes/name-the-feeling.md: updated
+content/english/notes/network-analysis.md: updated
+content/english/notes/normalization-of-deviance.md: updated
+content/english/notes/note-relationships.md: updated
+content/english/notes/notice-the-good.md: updated
+content/english/notes/outcomes-over-pitch-decks.md: updated
+content/english/notes/own-your-part.md: updated
+content/english/notes/pareto-principle.md: updated
+content/english/notes/patience.md: updated
+content/english/notes/peace.md: updated
+content/english/notes/peacemakers.md: updated
+content/english/notes/people-centered-design.md: updated
+content/english/notes/periodic-knowledge-review.md: updated
+content/english/notes/pkm.md: updated
+content/english/notes/platform-reach-is-borrowed.md: updated
+content/english/notes/practice-small-experiments.md: updated
+content/english/notes/preparedness.md: updated
+content/english/notes/present-a-living-sacrifice.md: updated
+content/english/notes/process-over-outcomes.md: updated
+content/english/notes/purpose-and-vision.md: updated
+content/english/notes/quarterly-planning.md: updated
+content/english/notes/read-later-queue.md: updated
+content/english/notes/reconcile-before-the-review.md: updated
+content/english/notes/reconciliation-before-worship.md: updated
+content/english/notes/recovery.md: updated
+content/english/notes/reliability.md: updated
+content/english/notes/render-unto-caesar.md: updated
+content/english/notes/renewed-mind.md: updated
+content/english/notes/repent-and-believe.md: updated
+content/english/notes/resilience.md: updated
+content/english/notes/reversibility.md: updated
+content/english/notes/risk-management.md: updated
+content/english/notes/rollback-principle.md: updated
+content/english/notes/safety-by-design.md: updated
+content/english/notes/safety-comes-first.md: updated
+content/english/notes/sanctification.md: updated
+content/english/notes/second-order-thinking.md: updated
+content/english/notes/secret-devotion.md: updated
+content/english/notes/seek-the-kingdom-first.md: updated
+content/english/notes/self-control.md: updated
+content/english/notes/selling-static-sites.md: updated
+content/english/notes/servant-leadership.md: updated
+content/english/notes/set-calm-boundaries.md: updated
+content/english/notes/shadow-the-work.md: updated
+content/english/notes/share-what-you-learn.md: updated
+content/english/notes/ship-it.md: updated
+content/english/notes/signal-vs-noise.md: updated
+content/english/notes/situational-control.md: updated
+content/english/notes/slow-productivity.md: updated
+content/english/notes/slow-the-moment.md: updated
+content/english/notes/spaced-repetition.md: updated
+content/english/notes/staged-rollout.md: updated
+content/english/notes/standard-operating-procedures.md: updated
+content/english/notes/standing-vs-fellowship.md: updated
+content/english/notes/static-site-client-scope.md: updated
+content/english/notes/stay-effective-in-new-conditions.md: updated
+content/english/notes/steward-after-the-win.md: updated
+content/english/notes/strategic-foresight.md: updated
+content/english/notes/success-is-stewardship.md: updated
+content/english/notes/sunk-cost-fallacy.md: updated
+content/english/notes/sustainable-performance.md: updated
+content/english/notes/synthesis-as-a-goal.md: updated
+content/english/notes/systems-thinking.md: updated
+content/english/notes/take-up-your-cross.md: updated
+content/english/notes/taxonomy.md: updated
+content/english/notes/the-12-week-year.md: updated
+content/english/notes/the-beatitudes.md: updated
+content/english/notes/the-collectors-fallacy.md: updated
+content/english/notes/the-feynman-technique.md: updated
+content/english/notes/the-garage-concept.md: updated
+content/english/notes/the-golden-rule.md: updated
+content/english/notes/the-knowledge-lifecycle.md: updated
+content/english/notes/the-narrow-way.md: updated
+content/english/notes/the-second-brain-workflow.md: updated
+content/english/notes/the-trusted-inbox.md: updated
+content/english/notes/the-wise-builder.md: updated
+content/english/notes/title-without-influence.md: updated
+content/english/notes/treasure-in-heaven.md: updated
+content/english/notes/turn-the-other-cheek.md: updated
+content/english/notes/versatility.md: updated
+
+Updated 206 notes
+bad yaml: 0
+Garden voice — 238 files, 174 issues
+  contraction: 147
+  faith-no-verse: 11
+  multi-sentence: 8
+  fragment: 5
+  first-person: 2
+  count=3: 1
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+No bad YAML was found. 174 issues remain.
+
+147 contractions remain. The decontract function processes the entire key_concept block, so the remaining instances are unexpected.
+
+The remaining contractions may be in key_concept blocks that the migration failed to update. I will inspect capture.md to verify.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --check 2>&1 | head -40</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --check 2>&1 | head -40
+```
+
+```
+Garden voice lint:
+  content/english/notes/accountability.md: examples[1]: multi-sentence (After a patient mix-up, our charge nurse named who was running the code cart and)
+  content/english/notes/analog-capture-tools.md: relationships.reason: contraction (you're)
+  content/english/notes/assurance.md: relationships.reason: contraction (doesn't)
+  content/english/notes/blameless-after-action-review.md: description: first-person (After rollback restores service, I learn what broke in the system - not who to p)
+  content/english/notes/blameless-after-action-review.md: relationships.reason: contraction (you'd)
+  content/english/notes/break-the-escalation-cycle.md: key_concept: faith-no-verse (break-the-escalation-cycle)
+  content/english/notes/break-the-escalation-cycle.md: description: contraction (don't)
+  content/english/notes/by-their-fruits.md: relationships.reason: contraction (can't)
+  content/english/notes/by-their-fruits.md: relationships.reason: contraction (can't)
+  content/english/notes/capture.md: description: first-person (Save what resonates into one inbox I trust - then empty it weekly.)
+  content/english/notes/capture.md: shareable[1]: fragment (Friction kills capture.)
+  content/english/notes/capture.md: relationships.reason: contraction (you'll)
+  content/english/notes/childlike-faith.md: relationships.reason: contraction (I'm)
+  content/english/notes/christianity-and-politics.md: key_concept: faith-no-verse (christianity-and-politics)
+  content/english/notes/christianity-and-politics.md: relationships.reason: contraction (can't)
+  content/english/notes/christianity-and-politics.md: relationships.reason: contraction (isn't)
+  content/english/notes/christianity-and-politics.md: relationships.reason: contraction (don't)
+  content/english/notes/christlikeness.md: relationships.reason: contraction (I'm)
+  content/english/notes/christlikeness.md: relationships.reason: contraction (doesn't)
+  content/english/notes/coaching-ethics.md: relationships.reason: contraction (don't)
+  content/english/notes/coaching-ethics.md: relationships.reason: contraction (doesn't)
+  content/english/notes/coaching-ethics.md: relationships.reason: contraction (isn't)
+  content/english/notes/convert-pain-into-learning.md: relationships.reason: contraction (don't)
+  content/english/notes/create-regular-connection.md: relationships.reason: contraction (doesn't)
+  content/english/notes/creative-blocks.md: relationships.reason: contraction (won't)
+  content/english/notes/eternal-rewards.md: relationships.reason: contraction (don't)
+  content/english/notes/failure-as-feedback.md: relationships.reason: contraction (you'd)
+  content/english/notes/finish-strong.md: examples[0]: multi-sentence (I cleared the table after dinner but left the pots soaking - finish strong was t)
+  content/english/notes/follow-christ-then-lead.md: key_concept: faith-no-verse (follow-christ-then-lead)
+  content/english/notes/follow-christ-then-lead.md: relationships.reason: contraction (wouldn't)
+  content/english/notes/follow-their-lead.md: relationships.reason: contraction (I'd)
+  content/english/notes/free-grace.md: relationships.reason: contraction (doesn't)
+  content/english/notes/gentleness.md: shareable_thought: count=3
+  content/english/notes/getting-things-done.md: examples[0]: multi-sentence (Tournament week my brain is not a filing cabinet - GTD was one trusted inbox and)
+  content/english/notes/great-commission.md: relationships.reason: contraction (Don't)
+  content/english/notes/growth-mindset.md: relationships.reason: contraction (isn't)
+  content/english/notes/growth-mindset.md: relationships.reason: contraction (aren't)
+  content/english/notes/heed-every-near-miss.md: relationships.reason: contraction (we've)
+  content/english/notes/heed-every-near-miss.md: relationships.reason: contraction (don't)
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The capture description was not updated during migration. The slug is "capture" but the descriptions YAML still contains a "capture" key.
+
+Capture was updated for key_concept but its description still uses first person. The capture key is missing from the descriptions YAML entirely. Transform_reasons regex may leave contractions in relationships.reason. Eleven faith-no-verse notes need bible shortcodes. Fragments appear in shareable.
+
+Gentleness may have been broken by migration. The plan is to extend transform_reasons to catch all contractions, add missing descriptions for capture and blameless, rerun migrate for descriptions only, then manually fix the faith notes and fragments.
+
+Unquoted reasons such as `reason: when I save...` also need fixing. The gentleness note will be checked after migration.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/garden-voice-descriptions.yaml",
+  "pattern": "^  capture:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/garden-voice-descriptions.yaml",
+  "pattern": "^  capture:",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Capture was missing from the descriptions YAML. I need to add capture, blameless-after-action-review, and leadership-is-influence.
+
+Gentleness still needs a fourth shareable. I'll fix transform_reasons to catch unquoted YAML strings, then re-run migrate and manually fix the remaining faith notes, fragments, and capture entries.
+
+The transform function now handles both quoted and unquoted reason values. Since every `reason:` line in frontmatter is a relationship reason, the entire frontmatter text can be processed at once.
+
+A Python script will prepend bible shortcodes to the five faith notes. Break-the-escalation-cycle gets Matthew 5:39. Christianity-and-politics gets Matthew 22:21. Follow-christ-then-lead gets Matthew 16:24. Golden-rule-at-work gets Matthew 7:12. Integrity-without-an-audience gets Matthew 6:1.
+
+Six more faith notes need bible shortcodes. Outcomes-over-pitch-decks gets Matthew 7:16. Plain-commitments-at-work gets Matthew 5:37. Priorities-before-the-inbox gets Matthew 6:33. Reconcile-before-the-review gets Matthew 5:23-24. Servant-leadership gets Mark 10:45. Steward-after-the-win gets Matthew 25:21.
+
+I will add these to a data file and apply them programmatically with a second pass script.
+
+A shell script will batch-fix the remaining faith notes, fragments, gentleness, and capture. The capture description will be updated manually because it is the reference note.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-migrate.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/garden-voice-descriptions.yaml</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding capture, blameless, and leadership-is-influence to the YAML file near their alphabetical positions.
+
+Running migrate again. Adding faith verse prepends and a script section. Expanding the capture fragment to its full thought.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/garden-voice-descriptions.yaml</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/garden-voice-descriptions.yaml</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/garden-voice-descriptions.yaml</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/garden-voice-finish.yaml</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The YAML file needs fixing. A change-window entry was accidentally replaced with capture.
+
+Reading the YAML near the capture and change-window entries.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/garden-voice-descriptions.yaml",
+  "pattern": "change-window|capture:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/garden-voice-descriptions.yaml",
+  "pattern": "change-window|capture:",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "data/garden-voice-descriptions.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Removed the change-window description.
+
+The change-window description needs to be added back.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/garden-voice-descriptions.yaml</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/garden-voice-descriptions.yaml",
+  "pattern": "by-their-fruits"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/garden-voice-descriptions.yaml",
+  "pattern": "by-their-fruits",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I need to restore "by-their-fruits" after removing it alongside "blameless".</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/garden-voice-descriptions.yaml</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/garden-voice-descriptions.yaml",
+  "pattern": "layered-reading"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/garden-voice-descriptions.yaml",
+  "pattern": "layered-reading",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Restoring layered-reading after removing it to add leadership-is-influence.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/garden-voice-descriptions.yaml</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-finish.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Removing a stray import from the finish script.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-finish.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-migrate.py 2>&1 | tail -5 && python3 scripts/garden-voice-finish.py && python3 scripts/garden-voice-lint.py --summary</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-migrate.py 2>&1 | tail -5 && python3 scripts/garden-voice-finish.py && python3 scripts/garden-voice-lint.py --summary
+```
+
+```
+content/english/notes/treasure-in-heaven.md: updated
+content/english/notes/turn-the-other-cheek.md: updated
+content/english/notes/versatility.md: updated
+
+Updated 66 notes
+  finished content/english/notes/judge-not.md
+  finished content/english/notes/love-your-enemies.md
+  finished content/english/notes/pkm.md
+  finished content/english/notes/servant-leadership.md
+  finished content/english/notes/set-calm-boundaries.md
+Finished 5 notes
+Garden voice — 238 files, 3 issues
+  multi-sentence: 2
+  contraction: 1
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Only three issues remain. Five notes were finished, but faith-verses for eleven notes were not fully applied.
+
+Checking lint for the remaining three issues. Verifying whether faith-verses were already applied during migration. Also checking if capture and gentleness shareable fixes were missed.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --check 2>&1</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --check 2>&1
+```
+
+```
+Garden voice lint:
+  content/english/notes/accountability.md: examples[1]: multi-sentence (After a patient mix-up, our charge nurse named who was running the code cart and)
+  content/english/notes/set-calm-boundaries.md: examples[1]: multi-sentence (A client kept calling my personal cell after hours - "I will answer until six on)
+  content/english/notes/title-without-influence.md: description: contraction (you're)
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/break-the-escalation-cycle.md",
+  "pattern": "bible"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/break-the-escalation-cycle.md",
+  "pattern": "bible",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/break-the-escalation-cycle.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether faith-verses were added during the migration pass.
+
+break-the-escalation now has bible content. Three manual fixes remain: truncating examples in accountability.md and set-calm-boundaries.md, and adding a description to title-without-influence.md. Also checking whether the capture/gentleness shareable was updated by the finish step.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/title-without-influence.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 3,
+  "glob": "content/english/notes/accountability.md",
+  "pattern": "examples:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "examples:",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/accountability.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 3,
+  "glob": "content/english/notes/set-calm-boundaries.md",
+  "pattern": "examples:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "examples:",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/set-calm-boundaries.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The capture looks good. The key_concept line lost its bullet format. This may be intentional.
+
+Lines 6-10 lack bullet prefixes on key_concept lines. This likely broke during migration. I need to check if the migrate script stripped them.
+
+The fix_key_concept_block likely stripped bullet formatting from the capture key_concept. I will restore those bullets. I also need to fix the accountability example to one sentence, correct the set-calm-boundaries example, replace "you're" with "you are" in the title-without-influence description, and verify whether the finish script already handled shareables.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/set-calm-boundaries.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The first_sentence regex stops at the period inside the quoted `line.\"`, cutting off the rest of the example before `No drama`.
+
+The lint counts two periods in the example, triggering a multi-sentence warning. The example will be rewritten to remove the internal period.
+
+The accountability example will be simplified to a single sentence by splitting on periods outside quotes. Key concept bullets need fixing. The title-without-influence description needs "you're" changed to "you are". The capture shareable is ready. The gentleness shareable count still needs checking.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+The string to replace was not found in the file.
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+The string to replace was not found in the file.
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+The string to replace was not found in the file.
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Some files may already be fixed by migrate.
+
+Reviewing the accountability and set-calm-boundaries examples. Running lint next.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 3,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/accountability.md",
+  "pattern": "examples:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/accountability.md",
+  "pattern": "examples:",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/accountability.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 3,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/set-calm-boundaries.md",
+  "pattern": "examples:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/set-calm-boundaries.md",
+  "pattern": "examples:",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/set-calm-boundaries.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --check && python3 scripts/garden-voice-migrate.py --self-check</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --check && python3 scripts/garden-voice-migrate.py --self-check
+```
+
+```
+Garden voice lint OK
+garden-voice-migrate self-check OK
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Garden voice lint passed. Running existing voice and frontmatter lints to check for regressions.
+
+Adding garden-voice-finish to package.json. Running finish for capture and gentleness. Verifying the blameless-after-action-review note. Adding garden-voice-lint to the garden lint script. Will run pnpm lint:garden next.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -15 && python3 scripts/garden-voice-lint.py --check && git diff --stat content/english/notes/ data/ scripts/ package.json | tail -10</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -15 && python3 scripts/garden-voice-lint.py --check && git diff --stat content/english/notes/ data/ scripts/ package.json | tail -10
+```
+
+```
+FAIL shareable_thought[3] fragment: outcomes-over-pitch-decks.md
+FAIL shareable_thought[3] fragment: peace.md
+FAIL shareable_thought[1] not from principle: pkm.md
+FAIL shareable_thought[2] not from principle: pkm.md
+FAIL shareable_thought[3] not from principle: pkm.md
+FAIL shareable_thought[0] fragment: renewed-mind.md
+FAIL shareable_thought[3] not from principle: renewed-mind.md
+FAIL shareable_thought[1] not from principle: risk-management.md
+FAIL shareable_thought[0] not from principle: set-calm-boundaries.md
+FAIL shareable_thought[1] not from principle: set-calm-boundaries.md
+FAIL shareable_thought[2] not from principle: set-calm-boundaries.md
+FAIL shareable_thought[3] not from principle: set-calm-boundaries.md
+FAIL shareable_thought[1] fragment: turn-the-other-cheek.md
+
+165 note(s) failed frontmatter lint
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/package.json</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Frontmatter lint rules for shareable_thought differ from key_concept. Garden-voice finish overrides likely broke their alignment.
+
+Garden-voice lint passes. The finish script changed shareable_thought for four notes. These may fail frontmatter lint. Reverting would satisfy both linters. Leaving them as-is satisfies garden-voice.
+
+I'll try to make shareables pass both linters where I intervened. First I need to check what frontmatter lint expects for shareable_thought.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "shareable|fragment|from principle"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "shareable|fragment|from principle",
+  "topFiles": [
+    {
+      "matchCount": 21,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 21
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixes applied through finish.yaml broke alignment with `shareable_line_from_principle`.
+
+Reverting custom shareable_fixes. Shareables should derive from key_concept and description per the existing linter. Garden-voice needs four complete thoughts with different angles. The frontmatter linter is stricter. The migrate pass likely left fragment shareables that pass garden-voice lint. The 165 frontmatter failures may predate these changes.
+
+Garden-voice lint passes. The finish script should keep only faith verse overrides. The pkm and set-calm-boundaries shareables may satisfy garden-voice but fail frontmatter lint. These two notes need manual correction.
+
+Garden-voice lint passed on 223 notes. The frontmatter overlap is a separate existing system. I will remove shareable_fixes from finish.yaml that fail the principle check and correct those notes manually. I am now reading the shareable_line_from_principle logic.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "def shareable_line_from_principle"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "def shareable_line_from_principle",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/notes_content.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the function now.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The injected shareable fixes don't match the principle pool.
+
+Removing shareable_fixes from finish.yaml. Notes will keep shareables drawn from key_concept and description. The five overwritten files need their shareable sections reverted from git. Garden-voice lint passes.
+
+Frontmatter lint fails on changed shareables. I need to pull content from key_concept fields for the affected notes. I'll read the pkm key_concept and shareable fix next.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/set-calm-boundaries.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing PKM shareables to source from key_concept and description.
+
+Drafting PKM shareables around the key concept. Fixing set-calm-boundaries shareables to pull from key_concept.
+
+Finalizing set-calm-boundaries shareables. Removing shareable_fixes from finish.yaml to prevent future overwrites. Running garden-voice lint next.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/set-calm-boundaries.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/data/garden-voice-finish.yaml</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-finish.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The previous search_replace likely broke garden-voice-finish.py.
+
+Reading and fixing the file now.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-finish.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+finish_file is broken. The logic needs fixing.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-finish.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --check && python3 scripts/lint-notes-frontmatter.py 2>&1 | grep -E 'pkm|set-calm|FAIL' | head -10</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --check && python3 scripts/lint-notes-frontmatter.py 2>&1 | grep -E 'pkm|set-calm|FAIL' | head -10
+```
+
+```
+Garden voice lint OK
+FAIL key_concept prose not bulleted: active-knowledge-curation.md
+FAIL shareable_thought[0] not from principle: active-knowledge-curation.md
+FAIL shareable_thought[2] not from principle: active-knowledge-curation.md
+FAIL shareable_thought[3] not from principle: active-knowledge-curation.md
+FAIL key_concept prose not bulleted: ask-seek-knock.md
+FAIL shareable_thought[2] not from principle: ask-seek-knock.md
+FAIL shareable_thought[3] not from principle: ask-seek-knock.md
+FAIL key_concept prose not bulleted: attention-to-detail.md
+FAIL shareable_thought[0] not from principle: attention-to-detail.md
+FAIL shareable_thought[1] not from principle: attention-to-detail.md
+grep: write error: Broken pipe
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Garden-voice lint passes. The migrate script's line1 wikilink fix strips wikilinks but may have removed `- ` bullets from key_concepts when the first line was not bulleted.
+
+Frontmatter lint complains that key_concept prose is not bulleted. The fix_key_concept_block function should not remove bullets from other lines. Some notes now have unbulleted first claim lines. Frontmatter lint expects all key_concept lines to be bulleted. Need to check what the lint error means.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "not bulleted"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "not bulleted",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the lint section.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Key concept lines that are prose must be bulleted with `- `.
+
+The migrate script may have stripped bullets from the first line of key concept blocks. The fix_key_concept_block function only modifies the targeted line and does not remove bullets. Some notes likely kept the first line unbulleted intentionally for garden-voice punch lines.
+
+The garden-voice skill example uses unbulleted lines, conflicting with the frontmatter linter. All key_concept lines must have `- ` prefixes except bible shortcodes. A scan will locate notes needing fixes.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import yaml,re
+from pathlib import Path
+BIBLE=re.compile(r'\{\{<\s*bible')
+BULLET=re.compile(r'^-\s')
+FM=re.compile(r'^---\s*\n(.*?)\n---',re.S)
+bad=[]
+for p in sorted(Path('content/english/notes').glob('*.md')):
+    m=FM.match(p.read_text())
+    meta=yaml.safe_load(m.group(1))
+    if meta.get('note_kind') in ('meta','index'): continue
+    kc=meta.get('key_concept','')
+    if not isinstance(kc,str): continue
+    for line in kc.splitlines():
+        s=line.strip()
+        if not s: continue
+        if BIBLE.match(s) or BULLET.match(s): continue
+        bad.append(p.name); break
+print(len(bad),'notes with unbulleted key_concept lines')
+print(bad[:20])
+PY</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+import yaml,re
+from pathlib import Path
+BIBLE=re.compile(r'\{\{<\s*bible')
+BULLET=re.compile(r'^-\s')
+FM=re.compile(r'^---\s*\n(.*?)\n---',re.S)
+bad=[]
+for p in sorted(Path('content/english/notes').glob('*.md')):
+    m=FM.match(p.read_text())
+    meta=yaml.safe_load(m.group(1))
+    if meta.get('note_kind') in ('meta','index'): continue
+    kc=meta.get('key_concept','')
+    if not isinstance(kc,str): continue
+    for line in kc.splitlines():
+        s=line.strip()
+        if not s: continue
+        if BIBLE.match(s) or BULLET.match(s): continue
+        bad.append(p.name); break
+print(len(bad),'notes with unbulleted key_concept lines')
+print(bad[:20])
+PY
+```
+
+```
+54 notes with unbulleted key_concept lines
+['active-knowledge-curation.md', 'ask-seek-knock.md', 'attention-to-detail.md', 'build-a-reliable-default.md', 'change-takes-repetition.md', 'childlike-faith.md', 'commonplace-book.md', 'complete-the-cycle.md', 'composure.md', 'compounding.md', 'context-aware-capture.md', 'control-the-rhythm.md', 'daily-notes.md', 'decision-quality.md', 'deep-work.md', 'deliberate-practice.md', 'develop-dont-endanger.md', 'digital-minimalism.md', 'digital-serendipity.md', 'discern-his-will-daily.md']
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+54 notes have unbulleted lines. The migration script strips wikilinks from the first line and removes its bullet. This breaks the note structure.
+
+The migration script preserves the bullet in the raw line. The unbulleted first lines likely came from notes where the bullet was already missing, or where the wikilink itself lacked a bullet prefix.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/active-knowledge-curation.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A migration script stripped all `- ` bullets from key_concept blocks in corrupted notes.
+
+Drafting a Python script to re-bullet prose lines in key_concept blocks while preserving existing bullets and indents.
+
+The rebullet function is complete. It will be added to the migrate script and run across all notes. Sixteen-five shareable/description mismatches remain; these appear pre-existing. Garden-voice lint passes. Re-bulleting partially fixes frontmatter lint.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-migrate.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+# rebullet-only pass using migrate helpers
+import importlib.util
+spec = importlib.util.spec_from_file_location('m', 'scripts/garden-voice-migrate.py')
+m = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(m)
+from pathlib import Path
+count=0
+for path in sorted(Path('content/english/notes').glob('*.md')):
+    text=path.read_text()
+    match=m.FM.match(text)
+    if not match: continue
+    fm=match.group(2)
+    found=m.extract_block(fm,'key_concept')
+    if not found: continue
+    start,end,block=found
+    new=m.rebullet_key_concept(block)
+    if new!=block:
+        fm=m.set_block(fm,start,end,new)
+        path.write_text(text[:match.start(2)]+fm+text[match.end(2):])
+        count+=1
+print('rebulleted',count)
+PY
+python3 scripts/garden-voice-lint.py --check
+python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -3</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PY'
+# rebullet-only pass using migrate helpers
+import importlib.util
+spec = importlib.util.spec_from_file_location('m', 'scripts/garden-voice-migrate.py')
+m = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(m)
+from pathlib import Path
+count=0
+for path in sorted(Path('content/english/notes').glob('*.md')):
+    text=path.read_text()
+    match=m.FM.match(text)
+    if not match: continue
+    fm=match.group(2)
+    found=m.extract_block(fm,'key_concept')
+    if not found: continue
+    start,end,block=found
+    new=m.rebullet_key_concept(block)
+    if new!=block:
+        fm=m.set_block(fm,start,end,new)
+        path.write_text(text[:match.start(2)]+fm+text[match.end(2):])
+        count+=1
+print('rebulleted',count)
+PY
+python3 scripts/garden-voice-lint.py --check
+python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -3
+```
+
+```
+rebulleted 54
+Garden voice lint OK
+FAIL shareable_thought[1] fragment: turn-the-other-cheek.md
+
+117 note(s) failed frontmatter lint
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Frontmatter lint failures dropped from 165 to 117.
+
+Garden-voice-lint passes cleanly on all 223 regular notes. The remaining 117 frontmatter failures are mostly shareable_thoughts that still use old first-person text while descriptions were updated to third person. Fully aligning those would require another large pass. About 206 notes were updated via the migrate script, and faith verses were added to 11 notes.
+
+Created three Python scripts and data files for garden-voice automation. Auto-fixing shareable alignment from the first four principle lines was rejected as too risky. Next, verifying capture.md and reading blameless.
+
+Updating the garden-voice skill documentation to clarify that key_concept lines must be bulleted, except for bible entries, to match the site linter.</details></think>
+
+_**Agent (auto-low)**_
+
+Reviewed and updated the full notes garden against **garden-voice**. Summary:
+
+## Result
+
+`pnpm garden-voice:scan` / `python3 scripts/garden-voice-lint.py --check` — **clean** on all 223 regular notes (meta/index pages skipped).
+
+## What changed (~206 notes)
+
+| Rule | Fix |
+|------|-----|
+| **description** | Third-person, one breath (122 rewrites in `data/garden-voice-descriptions.yaml`) |
+| **key_concept line 1** | Plain claim, no wikilinks on first bullet |
+| **Contractions** | Expanded in frontmatter (`don't` → `do not`, etc.) |
+| **examples** | Trimmed to one sentence where needed |
+| **faith notes** | Bible shortcodes added to 11 notes missing verses |
+| **shareable_thought** | Fragments fixed on reference notes (`capture`, `gentleness`, `pkm`, etc.) |
+| **key_concept bullets** | Re-bulleted 54 notes where migrate had dropped `- ` prefixes |
+
+Reference notes now match the skill shape — e.g. `capture.md`:
+
+```5:18:content/english/notes/capture.md
+key_concept: |
+  - Friction kills capture when saving takes more than one quick move.
+  - One inbox from phone to desktop, weekly process - same as [[The Trusted Inbox]].
+  - Skip it unless action or citation would follow later.
+  - Resonance is the filter, not FOMO.
+examples:
+  - "A play tweak hits during cooldown and I scribble it on my wristband before the locker room noise eats it - one inbox, file it Sunday when the spark is safe."
+  - "On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it - one pocket notebook, no sorting yet."
+shareable_thought:
+  - "Saves what resonates into one trusted inbox, then empties weekly."
+  - "Friction kills capture when saving takes more than one quick move."
+  - "One inbox from phone to desktop, emptied on a weekly rhythm."
+  - "Resonance is the filter - skip what would never change action or citation."
+```
+
+## New tooling
+
+- `scripts/garden-voice-lint.py` — checks garden-voice rules
+- `scripts/garden-voice-migrate.py` — bulk mechanical fixes (preserves YAML shape)
+- `scripts/garden-voice-finish.py` — faith-verse prepends
+- `data/garden-voice-descriptions.yaml` — third-person description map
+- `data/garden-voice-finish.yaml` — faith verse map
+
+```bash
+pnpm garden-voice:scan      # summary
+pnpm lint:garden-voice      # CI gate
+python3 scripts/garden-voice-migrate.py   # re-run mechanical pass
+```
+
+`lint:garden` now includes `garden-voice-lint`.
+
+## Note on frontmatter lint
+
+`lint-notes-frontmatter.py` still reports ~117 failures, mostly `shareable_thought` not matching the updated `description`/`key_concept` text (stricter “from principle” rule). That is separate from garden-voice; fixing it means a second pass to re-derive shareables from the new third-person descriptions.
+
+Want me to run that shareable alignment pass next, or commit this batch as-is?
+
+---
+
+_**User**_
+
+<system_notification>
+The following task has finished. If you were already aware, ignore this notification and do not restate prior responses.
+
+<task>
+kind: subagent
+status: success
+task_id: 72ff30da-df54-4a92-8247-9486095d923b
+title: Garden-voice fix chunk 2
+tool_call_id: tool_ca0769b0-8efb-427d-9029-a40a707ec14
+agent_id: 72ff30da-df54-4a92-8247-9486095d923b
+detail: <user_visible_high_level_summary>
+Fixed garden-voice violations in 55 of 57 chunk-2 notes; all pass `garden-voice-lint`. Three files (graph, okf-export, para-method) were already compliant. No blockers.
+</user_visible_high_level_summary>
+<response>
+**Fixed: 55 / 57 files** (chunk 2). **Blockers: none.**
+
+All 57 unique files in this chunk pass `python3 scripts/garden-voice-lint.py` for the rules you listed.
+
+### Already compliant (no edits needed)
+- `graph.md` — meta page; frontmatter already matched rules
+- `okf-export.md` — meta page; no `examples` field (lint skips meta/index)
+- `para-method.md` — already third-person, no contractions, four shareable thoughts
+
+### What changed across the other 55 files
+- **description** → third-person, ≤20 words, no wikilinks, no contractions
+- **key_concept** → plain claim on line 1 (no wikilinks); faith notes got `{{< bible >}}` blocks where missing (`break-the-escalation-cycle`, `follow-christ-then-lead`, `outcomes-over-pitch-decks`, `plain-commitments-at-work`, `priorities-before-the-inbox`, `reconcile-before-the-review`, plus fruit notes reordered)
+- **examples** → two one-sentence scenes (fixed multi-sentence cases in `listen-before-fixing`, `follow-their-lead`, `name-the-feeling`, `notice-the-good`, `rollback-principle`, `safety-comes-first`)
+- **shareable_thought** → exactly four complete angles; restored fourth item on `gentleness.md`
+- **relationships.reason** → contractions expanded (`do not`, `I would`, etc.)
+- **Meta/index** pages `getting-started.md`, `random-duo.md`, `pressure-reveals-weakness.md` updated where lint does not run but rules still apply
+
+### Blockers
+None for this chunk. Optional follow-up outside scope: run `python3 scripts/archive/apply-jesus-quotes.py` after bulk EP verse edits if you want canonical NASB paragraph text synced from `data/scripture-nasb1995.json`.
+</response>
+output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/ffc430b2-e715-4209-bcb5-8d35f96dc1ab/subagents/72ff30da-df54-4a92-8247-9486095d923b.jsonl
+</task>
+</system_notification>
+<user_query>The beginning of the above subagent result is already visible to the user. Perform any follow-up actions (if needed). DO NOT regurgitate or reiterate its result unless asked. If multiple subagents have now completed and none are still running, briefly summarize the findings and conclusions across all of them. Otherwise, if no follow-ups remain, end your response with a brief third-person confirmation that the subagent has completed. If you mention an agent or subagent in your response, link it with the `[label](id)` format using the agent_id or task_id from the notification instead of printing the raw ID. Don't repeat the same confirmation every time.</user_query>
+
+_**User**_
+
+<system_notification>
+The following task has finished. If you were already aware, ignore this notification and do not restate prior responses.
+
+<task>
+kind: subagent
+status: success
+task_id: 45b8d339-715c-41b1-9f43-d4fb779bc1d3
+title: Garden-voice fix chunk 3
+tool_call_id: tool_62c1b932-1746-46b5-b4d3-7c9fdc741a2
+agent_id: 45b8d339-715c-41b1-9f43-d4fb779bc1d3
+detail: <user_visible_high_level_summary>
+Fixed **49** chunk-3 notes for garden-voice violations; **5** were already clean. All **54** files in the deduplicated list now pass `garden-voice-lint.py` with **0 blockers**.
+
+Main fixes: third-person descriptions (≤20 words), expanded contractions in frontmatter, `key_concept` line-1 wikilinks removed, faith notes got Bible verses (`servant-leadership`, `steward-after-the-win`), one-sentence examples, and complete `shareable_thought` items.
+</user_visible_high_level_summary>
+<response>
+## Chunk 3 complete
+
+**Fixed: 49 files** 
+**Already clean: 5 files** (`continuous-improvement.md`, `faithful-steward.md`, `systems-for-growth.md`, `there-is-no-perfect-solution.md`, `weekly-review-checklists.md`) 
+**Total in list: 54** 
+**Blockers: 0** — all pass `garden-voice-lint.py`
+
+### What changed (by rule)
+
+| Rule | Examples |
+|------|----------|
+| **description** → third-person, ≤20 words | `anti-fragile-systems.md`, `ship-it.md`, `the-golden-rule.md` |
+| **Contractions** expanded in frontmatter | `shareable_thought`, `relationships.reason`, `key_concept` across faith + PKM notes |
+| **key_concept line 1** — no wikilinks | `pkm.md`, `risk-management.md`, `title-without-influence.md`, `the-12-week-year.md` |
+| **Faith notes** — Bible verse added | `servant-leadership.md` (Mark 10), `steward-after-the-win.md` (Matthew 25) |
+| **examples** — one sentence each | `accountability.md`, `set-calm-boundaries.md`, `secret-devotion.md` (avoided `5 a.m.` period trap) |
+| **shareable_thought** — 4 complete thoughts | `pkm.md` fragment expanded |
+
+### Already clean (no edits)
+`continuous-improvement.md`, `faithful-steward.md`, `systems-for-growth.md`, `there-is-no-perfect-solution.md`, `weekly-review-checklists.md`
+</response>
+output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/ffc430b2-e715-4209-bcb5-8d35f96dc1ab/subagents/45b8d339-715c-41b1-9f43-d4fb779bc1d3.jsonl
+</task>
+</system_notification>
+<user_query>The beginning of the above subagent result is already visible to the user. Perform any follow-up actions (if needed). DO NOT regurgitate or reiterate its result unless asked. If multiple subagents have now completed and none are still running, briefly summarize the findings and conclusions across all of them. Otherwise, if no follow-ups remain, end your response with a brief third-person confirmation that the subagent has completed. If you mention an agent or subagent in your response, link it with the `[label](id)` format using the agent_id or task_id from the notification instead of printing the raw ID. Don't repeat the same confirmation every time.</user_query>
+
+_**User**_
+
+<system_notification>
+The following task has finished. If you were already aware, ignore this notification and do not restate prior responses.
+
+<task>
+kind: subagent
+status: success
+task_id: a0b7811f-d994-4a74-9523-dbc2a99d1711
+title: Garden-voice fix chunk 1
+tool_call_id: tool_6a53ee77-4581-4d05-9c7e-97da4ca6b04
+agent_id: a0b7811f-d994-4a74-9523-dbc2a99d1711
+detail: <user_visible_high_level_summary>
+**57 of 58** chunk-1 notes fixed and passing `garden-voice-lint` (descriptions third-person, no frontmatter contractions, faith verses where required, four distinct shareable thoughts, etc.).
+
+**Blocker — `issues.md`:** Meta utility page (`note_kind: meta`) with a multi-paragraph reference `description` that intentionally uses wikilinks and has no `examples` field. `garden-voice-lint` skips meta/index notes by design; reshaping it to standard garden frontmatter would break the issues dashboard copy.
+</user_visible_high_level_summary>
+<response>
+## Chunk 1 results
+
+**Fixed: 57 / 58** — all pass `garden-voice-lint`.
+
+### What changed (representative)
+- **Descriptions** → third-person, ≤20 words, no wikilinks, no contractions (`habit-formation`, `information-diet`, `integrity`, etc.)
+- **`key_concept` line 1** → plain claim, no wikilinks (`change-window`, `influence-without-title`, `kindness`)
+- **Faith notes** → Bible verse in `key_concept` (`christianity-and-politics`, `integrity-without-an-audience`)
+- **Frontmatter contractions** → expanded (`don't` → `do not`, etc.) including `relationships.reason`
+- **`shareable_thought`** → four complete, distinct angles (`judge-not`, `love-your-enemies`)
+- **`examples`** → one sentence each, different scenes (`growth-mindset`)
+- **Meta/index** → `create.md`, `maps-of-content.md` aligned where applicable
+
+**Already clean:** `hierarchy-of-controls.md` (no edits needed)
+
+### Blocker (1)
+
+**`issues.md`** — `note_kind: meta` utility page. Its multi-paragraph `description` deliberately uses wikilinks as reference copy, and it has no `examples` field. `garden-voice-lint` skips meta/index notes; forcing standard garden frontmatter would break the issues dashboard text. Needs a product decision if you want it reshaped.
+</response>
+output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/ffc430b2-e715-4209-bcb5-8d35f96dc1ab/subagents/a0b7811f-d994-4a74-9523-dbc2a99d1711.jsonl
+</task>
+</system_notification>
+<user_query>The beginning of the above subagent result is already visible to the user. Perform any follow-up actions (if needed). DO NOT regurgitate or reiterate its result unless asked. If multiple subagents have now completed and none are still running, briefly summarize the findings and conclusions across all of them. Otherwise, if no follow-ups remain, end your response with a brief third-person confirmation that the subagent has completed. If you mention an agent or subagent in your response, link it with the `[label](id)` format using the agent_id or task_id from the notification instead of printing the raw ID. Don't repeat the same confirmation every time.</user_query>
+
+_**User**_
+
+<system_notification>
+The following task has finished. If you were already aware, ignore this notification and do not restate prior responses.
+
+<task>
+kind: subagent
+status: success
+task_id: c71324da-4aa0-427c-8107-fae2daa03c5d
+title: Garden-voice fix chunk 0
+tool_call_id: tool_5bc97e43-b199-4cda-a6aa-bd04731a371
+agent_id: c71324da-4aa0-427c-8107-fae2daa03c5d
+detail: <user_visible_high_level_summary>
+Fixed garden-voice violations across all 56 chunk-0 notes: third-person descriptions, no contractions in frontmatter, proper key_concept claims, four complete shareable thoughts, faith bible shortcodes where needed, and single-sentence examples. All files pass `garden-voice-lint`.
+</user_visible_high_level_summary>
+<response>
+## Result
+
+**Files fixed: 56 / 56** (all chunk-0 notes)
+
+Every listed note was edited for garden-voice frontmatter. All 56 pass `scripts/garden-voice-lint.py` with zero issues.
+
+### What changed (across the set)
+
+- **description** → third-person, ≤20 words, no contractions
+- **key_concept** → plain claim on line 1 (no wikilinks), 2–4 supporting sentences, then link stack; faith notes use `{{< bible ref="..." emphasize="..." >}}`
+- **examples** → exactly 2 one-sentence scenes (fixed multi-sentence cases like `3 a.m.` / `2 a.m.` false positives)
+- **shareable_thought** → exactly 4 complete thoughts, four angles, no fragments
+- **relationships.reason** → contractions removed where lint flagged them
+- **golden-rule-at-work** → added Matthew 7:12 bible shortcode (was missing verse)
+
+### Blockers / follow-ups
+
+1. **EP spine formatting** — Faith notes now use the bible shortcode pattern (like `abide-in-me.md`), but full NASB paragraph text + YAML glosses are not bulk-applied. Run when you want canonical EP spine output:
+ - `python3 scripts/archive/normalize-verse-paragraphs.py`
+ - `python3 scripts/archive/apply-verse-explanations.py`
+
+2. **Repo-wide `pnpm lint:voice`** — Still fails on an unrelated file (`content/english/blog/alex-eala-pro-career-tracker.md` em dash). Chunk notes themselves are clean.
+
+3. **Dense tech notes** (`free-tier-hosting-stack`, `git-based-cms`) — Kept operational detail in `key_concept` after the claim line; voice rules met, but they stay longer than a typical PKM note by design.
+</response>
+output_path: /home/jorap/.cursor/projects/home-jorap-Documents-GitHub-jorap-com/agent-transcripts/ffc430b2-e715-4209-bcb5-8d35f96dc1ab/subagents/c71324da-4aa0-427c-8107-fae2daa03c5d.jsonl
+</task>
+</system_notification>
+<user_query>The beginning of the above subagent result is already visible to the user. Perform any follow-up actions (if needed). DO NOT regurgitate or reiterate its result unless asked. If multiple subagents have now completed and none are still running, briefly summarize the findings and conclusions across all of them. Otherwise, if no follow-ups remain, end your response with a brief third-person confirmation that the subagent has completed. If you mention an agent or subagent in your response, link it with the `[label](id)` format using the agent_id or task_id from the notification instead of printing the raw ID. Don't repeat the same confirmation every time.</user_query>
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All four subagents for the garden-voice fix chunks have completed. I will summarize their findings and check for any remaining follow-up actions.
+
+Subagent results are mixed. Chunks 0 and 3 are fully fixed. Chunk 1 has one blocker. Chunk 2 has three already-compliant items. I will run garden-voice-lint to verify the current repository state against my own migration work.</details></think>
+
+_**Agent (auto-low)**_
+
+Verifying repo state after all four chunks completed.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --summary 2>&1 && python3 scripts/garden-voice-lint.py --check 2>&1 | head -5</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/garden-voice-lint.py --summary 2>&1 && python3 scripts/garden-voice-lint.py --check 2>&1 | head -5
+```
+
+```
+Garden voice — 238 files, 0 issues
+Garden voice lint OK
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All four chunks are complete. The garden-voice lint check passed cleanly.
+
+No major follow-up actions are needed. Optional follow-ups include EP spine scripts, frontmatter lint shareables, and the alex-eala em dash. The cross-chunk summary is brief.</details></think>
+
+_**Agent (auto-low)**_
+
+All four garden-voice chunks are done. The garden passes `garden-voice-lint` with **0 issues**.
+
+**Across chunks:** ~217 regular notes were edited; the rest were already clean or are meta/index pages the linter skips. The same rules landed everywhere — third-person `description`, no contractions in frontmatter, plain `key_concept` line 1 (no wikilinks), faith notes with Bible verses, two one-sentence `examples`, four complete `shareable_thought` angles.
+
+**Only intentional exception:** [`issues.md`](a0b7811f-d994-4a74-9523-dbc2a99d1711) stays meta utility copy (wikilinks in `description`, no `examples`) — not a garden note.
+
+**Optional later (not blocking garden-voice):**
+- Run EP spine scripts (`normalize-verse-paragraphs`, `apply-verse-explanations`) if you want full NASB paragraph + gloss format on faith spine notes
+- ~117 `lint-notes-frontmatter` shareable mismatches from description rewrites — separate pass if you want that linter clean too
+
+No further action required for garden-voice itself.
+
+---
+
+_**User**_
+
+Run EP spine scripts (normalize-verse-paragraphs, apply-verse-explanations) if you want full NASB paragraph + gloss format on faith spine notes
+~117 lint-notes-frontmatter shareable mismatches from description rewrites — separate pass if you want that linter clean too
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running the EP spine normalization and verse explanation scripts. A separate pass may be needed to clean up the ~117 frontmatter lint-note mismatches.</details></think>
+
+_**Agent (auto-low)**_
+
+Running the EP spine scripts first, then tackling the shareable frontmatter mismatches.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
+
+Directory: **/home/jorap/Documents/GitHub/jorap.com** (2 files)
+
+| File |
+|------|
+| `scripts/archive/normalize-verse-paragraphs.py` |
+| `scripts/archive/apply-verse-explanations.py` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -5</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -5
+```
+
+```
+FAIL shareable_thought[3] not from principle: renewed-mind.md
+FAIL shareable_thought[1] not from principle: risk-management.md
+FAIL shareable_thought[1] fragment: turn-the-other-cheek.md
+
+117 note(s) failed frontmatter lint
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "shareable_line_from_principle|principle_line_pool"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "shareable_line_from_principle|principle_line_pool",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "scripts/notes_content.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 5
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reading the EP spine scripts and notes_content.py to understand how to fix the shareable mismatches.
+
+Running the spine scripts first, then building a fix for the shareable mismatches.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/normalize-verse-paragraphs.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/apply-verse-explanations.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running the EP spine scripts first. Then I'll figure out how to fix the shareable mismatches.
+
+A script could regenerate shareable_thought from principle_line_pool by selecting four valid lines that pass lint checks. I need to read notes_content.py to understand the lint rules.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/archive/normalize-verse-paragraphs.py 2>&1 | tail -20</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/archive/normalize-verse-paragraphs.py 2>&1 | tail -20
+```
+
+```
+updated mercy
+updated justification
+updated present-a-living-sacrifice
+updated renewed-mind
+updated judgment-seat
+updated loss-of-reward
+updated love-your-neighbor
+updated judge-not
+updated eternal-rewards
+updated the-beatitudes
+updated let-your-light-shine
+updated the-wise-builder
+updated the-narrow-way
+Traceback (most recent call last):
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/archive/normalize-verse-paragraphs.py", line 232, in &lt;module&gt;
+    main()
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/archive/normalize-verse-paragraphs.py", line 225, in main
+    assert "Ephesians 2:8-9 NASB1995" in fg
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-notes-frontmatter.py 2>&1 | grep -oE 'FAIL [^:]+' | sort | uniq -c | sort -rn</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 scripts/lint-notes-frontmatter.py 2>&1 | grep -oE 'FAIL [^:]+' | sort | uniq -c | sort -rn
+```
+
+```
+     41 FAIL shareable_thought[3] not from principle
+     32 FAIL shareable_thought[2] not from principle
+     20 FAIL shareable_thought[1] not from principle
+     17 FAIL shareable_thought[0] not from principle
+      3 FAIL shareable_thought[3] fragment
+      3 FAIL shareable_thought[1] fragment
+      1 FAIL shareable_thought[0] fragment
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The normalize-verse-paragraphs script partially ran before hitting an assertion error.
+
+I'll read the end of the failed script and free-grace.md to finish the run, then execute apply-verse-explanations. For the 117 shareable mismatches, I'll write a script to pick four shareable lines from the principle pool that pass all lint checks.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/normalize-verse-paragraphs.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Free-grace still uses bible shortcodes instead of NASB paragraphs. The normalize script only processes slugs listed in ep-verse-explanations.yaml.
+
+The normalize script may not include free-grace in its slug list, or the Ephesians shortcode conversion failed. I will check load_slugs and how the script handles bible shortcodes.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/normalize-verse-paragraphs.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/ep-verse-explanations.yaml",
+  "pattern": "free-grace"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/ep-verse-explanations.yaml",
+  "pattern": "free-grace",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "data/ep-verse-explanations.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/ep-verse-explanations.yaml</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The normalize script does not handle `{{< bible` shortcodes. It only processes indented lines and NASB references in plain text.
+
+free-grace still contains bible shortcodes, so NASB paragraphs never appear. I am deciding whether to extend normalize-verse-paragraphs or run a separate shortcode expansion step. I will check apply-jesus-quotes.py or examine the partial normalize output from abide-in-me.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
+
+Directory: **/home/jorap/Documents/GitHub/jorap.com** (2 files)
+
+| File |
+|------|
+| `scripts/archive/apply-jesus-words-shortcode.py` |
+| `scripts/archive/apply-jesus-quotes.py` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/apply-verse-explanations.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The normalize script updated some notes. Free-grace still contains shortcodes.
+
+Checking whether apply-jesus-quotes.py converts shortcodes to NASB. Also reviewing apply-jesus-words-shortcode.py and verifying if sanctification now uses NASB.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/apply-jesus-quotes.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judge-not.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Judge-not is only partially normalized. Some notes now have NASB text, but many still contain shortcodes.
+
+Checking a note that normalize updated, such as mrcy or justificatione.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Mercy was not converted to NASB paragraphs. It still contains shortcodes.
+
+The normalize script claimed to update mercy but only made minor changes without adding NASB paragraphs. Now checking whether justification was updated instead.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/justification.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "NASB1995"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "NASB1995",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The normalize script did not produce NASB paragraphs. Zero NASB1995 references were found in the notes.
+
+The normalize script likely only merged whitespace rather than expanding NASB text. The next step is to inspect the NASB JSON structure and the note shortcode formats to decide whether to extend the existing script or create a new expansion script.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "pattern": "\\{\\{\u003c bible"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "\\{\\{\u003c bible",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/golden-rule-at-work.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/humility-and-service.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/take-up-your-cross.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/childlike-faith.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/forgiveness-at-work.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/discipleship-vs-leadership.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/justification.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/fruits-of-the-spirit.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/judgment-seat.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/sanctification.md"
+    }
+  ],
+  "totalFiles": 10,
+  "totalMatches": 96
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.json</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/apply-jesus-words-shortcode.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I need to figure out how to expand bible shortcodes.
+
+Searching for existing code that reads scure-nasb1995.json and formats NASB paragraphs.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{py,js,mjs,html}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "scripture-nasb1995"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "scripture-nasb1995",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/apply-nasb-quotes.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/partials/shortcodes/bible.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/bible-red-letter-mark.py"
+    },
+    {
+      "matchCount": 4,
+      "uri": "scripts/archive/build-scripture-nasb1995-db.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/normalize-verse-paragraphs.py"
+    }
+  ],
+  "totalFiles": 5,
+  "totalMatches": 8
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{py,yaml,md}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "NASB1995"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "NASB1995",
+  "topFiles": [
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-08_00-42-13Z-verse-display-standards-update.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/archive/apply-jesus-words-shortcode.py"
+    },
+    {
+      "matchCount": 7,
+      "uri": "scripts/archive/normalize-verse-paragraphs.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".cursor/skills/garden-voice/SKILL.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-10_05-58-29Z-jorap-voice-refinement.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/bible-red-letter-mark.py"
+    },
+    {
+      "matchCount": 12,
+      "uri": ".specstory/history/2026-07-08_00-50-03Z-nasb1995-addition-request.md"
+    }
+  ],
+  "totalFiles": 7,
+  "totalMatches": 253
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reading apply-nasb-quotes.py and normalize-verse-paragraphs.py to understand how to expand shortcodes.
+
+Also checking bible.html for reference resolution logic.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/apply-nasb-quotes.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/normalize-verse-paragraphs.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/partials/shortcodes/bible.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Extending normalize-verse-paragraphs.py to expand `{{< bible` shortcodes into NASB verse lines.
+
+Identified three `{{< bible` shortcode variants with `ref`, direct text, and `emphasize` attributes. Checking JSON structure for verse lookup.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.json",
+  "pattern": "\"Ephesians 2:8\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/scripture-nasb1995.json",
+  "pattern": "\"Ephesians 2:8\"",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "data/scripture-nasb1995.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/jesus-words.yaml",
+  "pattern": "\"John 15:5\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/jesus-words.yaml",
+  "pattern": "\"John 15:5\"",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/ep-verse-explanations.yaml</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I need to figure out how to expand bible shortcodes into NASB text.
+
+Running a Python snippet to inspect JSON structures for Ephesians 2:8-9 and John 5:24. Also checking notes_content.py for shareable_thought regeneration.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c "
+import json
+from pathlib import Path
+raw = json.loads(Path('data/scripture-nasb1995.json').read_text())['verses']
+for k in ['Ephesians 2:8', 'Ephesians 2:9', 'John 5:24', 'Matthew 5:7']:
+    v = raw.get(k)
+    if v:
+        n = v.get('nasb1995', v)
+        print(k, '->', (n.get('verse') or n.get('text',''))[:80])
+    else:
+        print(k, 'MISSING')
+"</summary>
+
+```bash
+python3 -c "
+import json
+from pathlib import Path
+raw = json.loads(Path('data/scripture-nasb1995.json').read_text())['verses']
+for k in ['Ephesians 2:8', 'Ephesians 2:9', 'John 5:24', 'Matthew 5:7']:
+    v = raw.get(k)
+    if v:
+        n = v.get('nasb1995', v)
+        print(k, '->', (n.get('verse') or n.get('text',''))[:80])
+    else:
+        print(k, 'MISSING')
+"
+```
+
+```
+Ephesians 2:8 -&gt; For by grace you have been saved through faith; and that not of yourselves, it i
+Ephesians 2:9 -&gt; not as a result of works, so that no one may boast.
+John 5:24 -&gt; “Truly, truly, I say to you, he who hears My word, and believes Him who sent Me,
+Matthew 5:7 -&gt; “Blessed are the merciful, for they shall receive mercy.
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "principle_line_pool|shareable_line_from_principle"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py",
+  "pattern": "principle_line_pool|shareable_line_from_principle",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "scripts/notes_content.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reading notes_content.py around principle_line_pool and shareable_line_from_principle. Checking lint-notes-frontmatter.py for shareable validation logic.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes_content.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "shareable"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "shareable",
+  "topFiles": [
+    {
+      "matchCount": 21,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 21
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Extending normalize-verse-paragraphs.py to expand bible shortcodes into NASB paragraphs.
+
+Running apply-verse-explanations.py next. Checking git history for NASB format examples and existing shareable regeneration scripts. Reviewing how multi-verse ranges concatenate into single paragraph lines.
+
+Checking how hove_ref handles multi-verse ranges and what keys exist in the NASB dictionary.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c "
+import json, re
+from pathlib import Path
+raw = json.loads(Path('data/scripture-nasb1995.json').read_text())['verses']
+nasb = {}
+for k,v in raw.items():
+    if isinstance(v, dict) and 'nasb1995' in v:
+        nasb[k] = v['nasb1995']['verse']
+    elif isinstance(v, dict) and 'text' in v:
+        nasb[k] = v['text']
+# test range expansion
+def expand_ref(ref):
+    parts = ref.rsplit(' ', 1)
+    book, loc = parts[0], parts[1]
+    if '-' not in loc:
+        return [ref]
+    left, right = loc.split('-', 1)
+    if ':' in left:
+        ch, v1 = left.split(':', 1)
+        v2 = right.split(':')[-1] if ':' in right else right
+        return [f'{book} {ch}:{v}' for v in range(int(v1), int(v2)+1)]
+    return [ref]
+for r in ['Ephesians 2:8-9', 'John 15:1-11', 'Matthew 7:1-5']:
+    refs = expand_ref(r)
+    text = ' '.join(nasb[x] for x in refs if x in nasb)
+    print(r, 'verses', len(refs), 'chars', len(text))
+    print(text[:100], '...')
+"</summary>
+
+```bash
+python3 -c "
+import json, re
+from pathlib import Path
+raw = json.loads(Path('data/scripture-nasb1995.json').read_text())['verses']
+nasb = {}
+for k,v in raw.items():
+    if isinstance(v, dict) and 'nasb1995' in v:
+        nasb[k] = v['nasb1995']['verse']
+    elif isinstance(v, dict) and 'text' in v:
+        nasb[k] = v['text']
+# test range expansion
+def expand_ref(ref):
+    parts = ref.rsplit(' ', 1)
+    book, loc = parts[0], parts[1]
+    if '-' not in loc:
+        return [ref]
+    left, right = loc.split('-', 1)
+    if ':' in left:
+        ch, v1 = left.split(':', 1)
+        v2 = right.split(':')[-1] if ':' in right else right
+        return [f'{book} {ch}:{v}' for v in range(int(v1), int(v2)+1)]
+    return [ref]
+for r in ['Ephesians 2:8-9', 'John 15:1-11', 'Matthew 7:1-5']:
+    refs = expand_ref(r)
+    text = ' '.join(nasb[x] for x in refs if x in nasb)
+    print(r, 'verses', len(refs), 'chars', len(text))
+    print(text[:100], '...')
+"
+```
+
+```
+Ephesians 2:8-9 verses 2 chars 150
+For by grace you have been saved through faith; and that not of yourselves, it is the gift of God; n ...
+John 15:1-11 verses 11 chars 1171
+“I am the true vine, and My Father is the vinedresser. Every branch in Me that does not bear fruit,  ...
+Matthew 7:1-5 verses 5 chars 510
+“Do not judge so that you will not be judged. For in the way you judge, you will be judged; and by y ...
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "scripts/**",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "shareable"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "shareable",
+  "topFiles": [
+    {
+      "matchCount": 21,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    },
+    {
+      "matchCount": 16,
+      "uri": "scripts/notes_content.py"
+    },
+    {
+      "matchCount": 10,
+      "uri": "scripts/garden-voice-finish.py"
+    },
+    {
+      "matchCount": 27,
+      "uri": "scripts/archive/seed-note-shareable-thought.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/apply-verse-explanations.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/test-search.mjs"
+    },
+    {
+      "matchCount": 6,
+      "uri": "scripts/garden-voice-lint.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/README.md"
+    },
+    {
+      "matchCount": 14,
+      "uri": "scripts/fix-shareable-thought.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "scripts/garden-voice-migrate.py"
+    }
+  ],
+  "totalFiles": 10,
+  "totalMatches": 100
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A script already exists to fix shareable thought mismatches.
+
+Reading fix-shareable-thought.py and seed-note-shareable-thought.py to understand their draft logic. normalize-verse-paragraphs.py also needs extension for bible shortcodes.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/fix-shareable-thought.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Extending `normalize-verse-paragraphs.py` to expand shortcodes before normalizing blocks.
+
+Then run `apply-verse-explanations` and `fix-shareable-thought.py --failing`. A new `expand_bible_shortcodes` function will replace bible shortcode lines with verse paragraphs.
+
+Adding regex parsing for bible shortcodes and an `expand_ref_range` helper to split verse ranges into individual keys. This ensures normalize_block receives complete NASB lines before processing.
+
+`expand_ref_range` splits a reference into individual verse keys by expanding hyphenated ranges. `verse_text_for_ref` then resolves each key against the NASB dictionary to gather the corresponding text.
+
+`verse_text_for_ref` now joins resolved verse texts into a single string, falling back to the whole reference if needed. `expand_bible_shortcodes` will iterate line by line, leaving non-shortcode lines untouched while replacing matched bible shortcodes with NASB verse paragraphs. The expanded text then feeds directly into `normalize_block`.
+
+Unresolved shortcodes are preserved as-is. Testing `resolve_ref` for the range "John 5:24-29" against singular entries in the explanations.
+
+Checking whether the full John 5:24-29 range or the singular John 5:24 reference should serve as canonical for the free-grace explanation. Reviewing `find_explain` logic to see how references match verse lines.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/apply-verse-explanations.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Implementing shortcode expansion in normalize-verse-paragraphs.py before running the scripts.
+
+Checking for duplicate glosses between free-grace bullet lines and NASB lines after script execution. clean_block and has_gloss_after should prevent duplication.
+
+The expected pipeline is: expand shortcodes into NASB lines, normalize blocks to deduplicate paraphrasing bullets, then apply verse explanations. The shareable fix script will run after the EP scripts. Checking the current lint count first.</details></think>
+
+_**Agent (auto-low)**_
+
+I'll extend the normalize script to expand bible shortcodes, then run the EP spine scripts and fix shareable mismatches.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -5</summary>
+
+```bash
+python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -5
+```
+
+```
+FAIL shareable_thought[3] not from principle: renewed-mind.md
+FAIL shareable_thought[1] not from principle: risk-management.md
+FAIL shareable_thought[1] fragment: turn-the-other-cheek.md
+
+117 note(s) failed frontmatter lint
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/normalize-verse-paragraphs.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/normalize-verse-paragraphs.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/normalize-verse-paragraphs.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running the normalize-verse-paragraphs script.
+
+Then running apply-verse-explanations.py. Then running -shareable-thought.py with --failingfix.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 scripts/archive/normalize-verse-paragraphs.py 2>&1</summary>
+
+```bash
+python3 scripts/archive/normalize-verse-paragraphs.py 2>&1
+```
+
+```
+Traceback (most recent call last):
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/archive/normalize-verse-paragraphs.py", line 283, in &lt;module&gt;
+    main()
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/archive/normalize-verse-paragraphs.py", line 276, in main
+    assert "Ephesians 2:8-9 NASB1995" in fg
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The script still fails. I will inspect free-grace.md after a partial run and debug the shortcode regex.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 -c "
+import re
+from pathlib import Path
+import sys
+sys.path.insert(0, 'scripts/archive')
+from importlib import import_module
+# test regex
+BIBLE_SC = re.compile(r'^\s*\{\{<\s*bible(?:\s+ref=\"([^\"]+)\"(?:\s+[^>]*)?|\s+\"([^\"]+)\")[^>]*>\}\}\s*$')
+line = '  {{< bible ref=\"Ephesians 2:8-9\" emphasize=\"9\" >}}'
+print('match', BIBLE_SC.match(line))
+# test expand
+exec(open('scripts/archive/normalize-verse-paragraphs.py').read().split('def main')[0])
+nasb = load_nasb()
+print('expand', verse_text_for_ref('Ephesians 2:8-9', nasb)[0][:60] if verse_text_for_ref('Ephesians 2:8-9', nasb) else None)
+"</summary>
+
+```bash
+python3 -c "
+import re
+from pathlib import Path
+import sys
+sys.path.insert(0, 'scripts/archive')
+from importlib import import_module
+# test regex
+BIBLE_SC = re.compile(r'^\s*\{\{<\s*bible(?:\s+ref=\"([^\"]+)\"(?:\s+[^>]*)?|\s+\"([^\"]+)\")[^>]*>\}\}\s*$')
+line = '  {{< bible ref=\"Ephesians 2:8-9\" emphasize=\"9\" >}}'
+print('match', BIBLE_SC.match(line))
+# test expand
+exec(open('scripts/archive/normalize-verse-paragraphs.py').read().split('def main')[0])
+nasb = load_nasb()
+print('expand', verse_text_for_ref('Ephesians 2:8-9', nasb)[0][:60] if verse_text_for_ref('Ephesians 2:8-9', nasb) else None)
+"
+```
+
+```
+Traceback (most recent call last):
+  File "&lt;string&gt;", line 12, in &lt;module&gt;
+  File "&lt;string&gt;", line 13, in &lt;module&gt;
+NameError: name '__file__' is not defined. Did you mean: '__name__'?
+match &lt;re.Match object; span=(0, 51), match='  {{&lt; bible ref="Ephesians 2:8-9" emphasize="9" &gt;&gt;
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The regex matched, yet free-grace was not updated.
+
+Checking whether apply_slug returned False or free-grace is missing from load_slugs(). Will test apply_slug manually for free-grace.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 <<'PY'
+import sys
+from pathlib import Path
+ROOT = Path('.').resolve()
+sys.path.insert(0, str(ROOT / 'scripts/archive'))
+import normalize_verse_paragraphs as nvp
+nasb = nvp.load_nasb()
+slug = 'free-grace'
+path = ROOT / 'content/english/notes/free-grace.md'
+text = path.read_text()
+marker = 'key_concept: |\n'
+start = text.index(marker) + len(marker)
+end = text.find('\nexamples:', start)
+kc = text[start:end]
+print('shortcodes', kc.count('{{< bible'))
+exp = nvp.expand_bible_shortcodes(kc, nasb)
+print('after expand shortcodes', exp.count('NASB1995'))
+new = nvp.normalize_block(exp, nasb)
+print('after normalize NASB1995', new.count('NASB1995'))
+print('changed', new != kc)
+print(new[:500])
+PY</summary>
+
+```bash
+python3 <<'PY'
+import sys
+from pathlib import Path
+ROOT = Path('.').resolve()
+sys.path.insert(0, str(ROOT / 'scripts/archive'))
+import normalize_verse_paragraphs as nvp
+nasb = nvp.load_nasb()
+slug = 'free-grace'
+path = ROOT / 'content/english/notes/free-grace.md'
+text = path.read_text()
+marker = 'key_concept: |\n'
+start = text.index(marker) + len(marker)
+end = text.find('\nexamples:', start)
+kc = text[start:end]
+print('shortcodes', kc.count('{{< bible'))
+exp = nvp.expand_bible_shortcodes(kc, nasb)
+print('after expand shortcodes', exp.count('NASB1995'))
+new = nvp.normalize_block(exp, nasb)
+print('after normalize NASB1995', new.count('NASB1995'))
+print('changed', new != kc)
+print(new[:500])
+PY
+```
+
+```
+Traceback (most recent call last):
+  File "&lt;stdin&gt;", line 5, in &lt;module&gt;
+ModuleNotFoundError: No module named 'normalize_verse_paragraphs'
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+EP spine scripts will be loaded via importlib from their file paths.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 <<'PY'
+import importlib.util
+from pathlib import Path
+ROOT = Path('.').resolve()
+spec = importlib.util.spec_from_file_location('nvp', ROOT / 'scripts/archive/normalize-verse-paragraphs.py')
+nvp = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(nvp)
+nasb = nvp.load_nasb()
+text = (ROOT / 'content/english/notes/free-grace.md').read_text()
+marker = 'key_concept: |\n'
+start = text.index(marker) + len(marker)
+end = text.find('\nexamples:', start)
+kc = text[start:end]
+exp = nvp.expand_bible_shortcodes(kc, nasb)
+new = nvp.normalize_block(exp, nasb)
+print('NASB1995 count', new.count('NASB1995'))
+print('Ephesians' in new)
+print(new[:800])
+print('apply_slug', nvp.apply_slug('free-grace', nasb))
+PY</summary>
+
+```bash
+python3 <<'PY'
+import importlib.util
+from pathlib import Path
+ROOT = Path('.').resolve()
+spec = importlib.util.spec_from_file_location('nvp', ROOT / 'scripts/archive/normalize-verse-paragraphs.py')
+nvp = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(nvp)
+nasb = nvp.load_nasb()
+text = (ROOT / 'content/english/notes/free-grace.md').read_text()
+marker = 'key_concept: |\n'
+start = text.index(marker) + len(marker)
+end = text.find('\nexamples:', start)
+kc = text[start:end]
+exp = nvp.expand_bible_shortcodes(kc, nasb)
+new = nvp.normalize_block(exp, nasb)
+print('NASB1995 count', new.count('NASB1995'))
+print('Ephesians' in new)
+print(new[:800])
+print('apply_slug', nvp.apply_slug('free-grace', nasb))
+PY
+```
+
+```
+NASB1995 count 4
+True
+  “Truly, truly, I say to you, he who hears My word, and believes Him who sent Me, has eternal life, and does not come into judgment, but has passed out of death into life. Truly, truly, I say to you, an hour is coming and now is, when the dead will hear the voice of the Son of God, and those who hear will live. For just as the Father has life in Himself, even so He gave to the Son also to have life in Himself; and He gave Him authority to execute judgment, because He is the Son of Man. Do not marvel at this; for an hour is coming, in which all who are in the tombs will hear His voice, and will come forth; those who did the good deeds to a resurrection of life, those who committed the evil deeds to a resurrection of judgment. John 5:24-29 NASB1995
+  - Grace is a gift never earned - Christ 
+apply_slug False
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+`apply_slug` returned `False` despite `new` differing from `kc`.
+
+The function compares `new_kc` against the already-expanded `kc`, so the equality check fails even when normalization actually changed the text.
+
+Normalization appears to be idempotent on already-expanded text, so the equality check returns True and the slug update is skipped. The file on disk still contains unresolved shortcodes, which means the slug application did not persist.
+
+Either `expand_bible_shortcodes` is not running during the disk read, or the edit introduced a bug. I will inspect the current `apply_slug` implementation.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/normalize-verse-paragraphs.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The block was unchanged after expansion because normalize_block produced no new content.
+
+The bug is a mismatched comparison. The code checks `new_kc == kc` where `kc` is already expanded, but it should compare against the original `text[start:end]`. The fix compares normalized output directly against the original text.</details></think>
+
+_**Agent (auto-low)**_
+
+The comparison was against the expanded block instead of the original — fixing that so writes actually happen.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/archive/normalize-verse-paragraphs.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running normalize-verse-paragraphs again, then apply-verse-explanations, then fix-shareable-thought.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 scripts/archive/normalize-verse-paragraphs.py 2>&1 && python3 scripts/archive/apply-verse-explanations.py 2>&1</summary>
+
+```bash
+python3 scripts/archive/normalize-verse-paragraphs.py 2>&1 && python3 scripts/archive/apply-verse-explanations.py 2>&1
+```
+
+```
+updated grace
+updated mercy
+updated free-grace
+updated justification
+updated sanctification
+updated present-a-living-sacrifice
+updated renewed-mind
+updated dont-copy-the-pattern
+updated discern-his-will-daily
+updated christlikeness
+updated faith-and-works
+updated repent-and-believe
+updated childlike-faith
+updated abide-in-me
+updated judgment-seat
+updated loss-of-reward
+updated standing-vs-fellowship
+updated assurance
+updated grateful-obedience
+updated faithful-steward
+updated success-is-stewardship
+updated love-god
+updated love-your-neighbor
+updated the-golden-rule
+updated love-your-enemies
+updated forgiveness
+updated reconciliation-before-worship
+updated peacemakers
+updated turn-the-other-cheek
+updated let-your-yes-be-yes
+updated judge-not
+updated by-their-fruits
+updated heart-righteousness
+updated ask-seek-knock
+updated secret-devotion
+updated seek-the-kingdom-first
+updated god-centered-design
+updated dont-worry
+updated treasure-in-heaven
+updated eternal-rewards
+updated the-beatitudes
+updated fruits-of-the-spirit
+updated discipleship
+updated discipleship-vs-leadership
+updated humility-and-service
+updated let-your-light-shine
+updated take-up-your-cross
+updated the-wise-builder
+updated the-narrow-way
+updated christianity-and-politics
+updated render-unto-caesar
+updated great-commission
+Done — 52 note(s) updated
+updated mercy
+updated renewed-mind
+updated abide-in-me
+updated forgiveness
+updated peacemakers
+updated judge-not
+updated heart-righteousness
+updated ask-seek-knock
+updated secret-devotion
+updated discipleship-vs-leadership
+updated let-your-light-shine
+updated christianity-and-politics
+Done — 12 note(s) updated
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Both EP spine scripts passed. Now running fix-shareable-thought.py on failing items and verifying lint.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 scripts/fix-shareable-thought.py --failing 2>&1 && python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -8</summary>
+
+```bash
+python3 scripts/fix-shareable-thought.py --failing 2>&1 && python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -8
+```
+
+```
+Wrote shareable_thought on 56 note(s)
+FAIL key_concept prose not bulleted: the-beatitudes.md
+FAIL key_concept prose not bulleted: the-golden-rule.md
+FAIL key_concept prose not bulleted: the-narrow-way.md
+FAIL key_concept prose not bulleted: the-wise-builder.md
+FAIL key_concept prose not bulleted: treasure-in-heaven.md
+FAIL key_concept prose not bulleted: turn-the-other-cheek.md
+
+56 note(s) failed frontmatter lint
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The 117 shareable mismatches are resolved. New failures remain.
+
+56 failures remain. They are "key_concept prose not bulleted" errors on six notes. Free-grace has duplicate gloss content. The bullet after John 5:24-29 matches the YAML gloss but was skipped because has_gloss_after detected an existing bullet.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "prose not bulleted"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "prose not bulleted",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 scripts/lint-notes-frontmatter.py 2>&1 | head -40</summary>
+
+```bash
+python3 scripts/lint-notes-frontmatter.py 2>&1 | head -40
+```
+
+```
+FAIL key_concept prose not bulleted: abide-in-me.md
+FAIL key_concept prose not bulleted: ask-seek-knock.md
+FAIL key_concept prose not bulleted: assurance.md
+FAIL shareable_thought need 4 items: break-the-escalation-cycle.md
+FAIL key_concept prose not bulleted: by-their-fruits.md
+FAIL key_concept prose not bulleted: childlike-faith.md
+FAIL key_concept prose not bulleted: christianity-and-politics.md
+FAIL key_concept prose not bulleted: christlikeness.md
+FAIL key_concept prose not bulleted: discern-his-will-daily.md
+FAIL key_concept prose not bulleted: discipleship-vs-leadership.md
+FAIL key_concept prose not bulleted: discipleship.md
+FAIL key_concept prose not bulleted: dont-copy-the-pattern.md
+FAIL key_concept prose not bulleted: dont-worry.md
+FAIL key_concept prose not bulleted: eternal-rewards.md
+FAIL key_concept prose not bulleted: faith-and-works.md
+FAIL key_concept prose not bulleted: faithful-steward.md
+FAIL key_concept prose not bulleted: forgiveness.md
+FAIL key_concept prose not bulleted: free-grace.md
+FAIL key_concept prose not bulleted: fruits-of-the-spirit.md
+FAIL key_concept prose not bulleted: god-centered-design.md
+FAIL key_concept prose not bulleted: grace.md
+FAIL key_concept prose not bulleted: grateful-obedience.md
+FAIL key_concept prose not bulleted: great-commission.md
+FAIL key_concept prose not bulleted: heart-righteousness.md
+FAIL key_concept prose not bulleted: humility-and-service.md
+FAIL shareable_thought need 4 items: joy.md
+FAIL key_concept prose not bulleted: judge-not.md
+FAIL key_concept prose not bulleted: judgment-seat.md
+FAIL key_concept prose not bulleted: justification.md
+FAIL key_concept prose not bulleted: let-your-light-shine.md
+FAIL key_concept prose not bulleted: let-your-yes-be-yes.md
+FAIL key_concept prose not bulleted: loss-of-reward.md
+FAIL key_concept prose not bulleted: love-god.md
+FAIL key_concept prose not bulleted: love-your-enemies.md
+FAIL key_concept prose not bulleted: love-your-neighbor.md
+FAIL key_concept prose not bulleted: mercy.md
+FAIL shareable_thought need 4 items: outcomes-over-pitch-decks.md
+FAIL shareable_thought need 4 items: peace.md
+FAIL key_concept prose not bulleted: peacemakers.md
+FAIL key_concept prose not bulleted: present-a-living-sacrifice.md
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The lint rule "key_concept prose not bulleted" fails because NASB verse lines are now prose rather than bulleted. This is intentional for the EP spine format.
+
+Checking whether to update the linter rule or revert the verse lines to bullets.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice",
+  "pattern": "NASB|verse|bullet"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice",
+  "pattern": "NASB|verse|bullet",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".cursor/skills/garden-voice/examples.md"
+    },
+    {
+      "matchCount": 12,
+      "uri": ".cursor/skills/garden-voice/SKILL.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 14
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+NASB verse lines are bare prose rather than shortcodes. The linter rule expects bare bible shortcodes and tables. This mismatch may trigger lint errors.
+
+The linter should skip NASB1995 verse lines ending with that label. Bare gloss lines from JoRap commentary may also need exemption.
+
+Checking mercy and judge-not after apply-verse-explanations.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judge-not.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating lint-notes-frontmatter.py to allow NASB1995 verse lines and EP gloss lines.
+
+Four shareable_thought items need fixing across break-the-escalation-cycle, joy, outcomes-over-pitch-decks, and peace. Mercy has a duplicate gloss line because apply-verse-explanations added bare text while a bullet was already present; clean_block should have deduplicated this.
+
+The duplicate gloss likely escaped detection because the script failed to recognize bullets prefixed with `- `. Next I will review the linter regexes and tally the remaining shareable failures.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 scripts/lint-notes-frontmatter.py 2>&1 | rg -c "shareable|prose not bulleted"</summary>
+
+```bash
+python3 scripts/lint-notes-frontmatter.py 2>&1 | rg -c "shareable|prose not bulleted"
+```
+
+```
+56
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking failure breakdowns.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 scripts/lint-notes-frontmatter.py 2>&1 | rg -o 'FAIL [^:]+' | sort | uniq -c | sort -rn</summary>
+
+```bash
+python3 scripts/lint-notes-frontmatter.py 2>&1 | rg -o 'FAIL [^:]+' | sort | uniq -c | sort -rn
+```
+
+```
+     52 FAIL key_concept prose not bulleted
+      4 FAIL shareable_thought need 4 items
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "BIBLE_RE|BULLET_RE|TABLE_RE"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py",
+  "pattern": "BIBLE_RE|BULLET_RE|TABLE_RE",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 4
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating lint rules to allow the requested changes.
+
+NASB verse lines ending with ` NASB1995` are straightforward to allow. EP gloss lines are plain prose without bullets, making them harder to detect. The likely fix is to update `apply-verse-explanations` to bullet those glosses with `- `.
+
+Garden-voice confirms glosses are intentionally bare prose without bullets. The linter will allow bare prose lines that are known glosses or follow a blank line or bullet, rather than forcing them into bullet format.
+
+The linter will treat NASB verse paragraphs and JoRap glosses as bare prose, consistent with existing bible shortcodes and tables. A regex will match NASB lines, and bare prose will be permitted only when it follows a NASB line.
+
+The linter iterates through lines and tracks whether the previous non-empty line was a NASB verse. Bare prose is allowed only when it immediately follows a NASB line. Blank lines reset the tracker. Other recognized patterns bypass the check entirely.
+
+Blank lines between NASB verses and glosses break the simple previous-line tracker. The linter now uses a `pending_gloss` flag that survives blank lines, allowing bare prose only when it follows a NASB verse.
+
+The linter allows exactly one gloss line per NASB verse. Four shareable notes still have fewer than four items and need fixing, either manually or via the shareable fix script.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 scripts/lint-notes-frontmatter.py 2>&1 | rg "shareable_thought need"</summary>
+
+```bash
+python3 scripts/lint-notes-frontmatter.py 2>&1 | rg "shareable_thought need"
+```
+
+```
+FAIL shareable_thought need 4 items: break-the-escalation-cycle.md
+FAIL shareable_thought need 4 items: joy.md
+FAIL shareable_thought need 4 items: outcomes-over-pitch-decks.md
+FAIL shareable_thought need 4 items: peace.md
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing the four shareable notes by running fix-shareable-thought on their specific files.
+
+Investigating why the shareable note fixes produced fewer than four lines.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 6,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/joy.md",
+  "pattern": "shareable_thought"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/joy.md",
+  "pattern": "shareable_thought",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "content/english/notes/joy.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -3</summary>
+
+```bash
+python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -3
+```
+
+```
+FAIL shareable_thought need 4 items: peace.md
+
+4 note(s) failed frontmatter lint
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+NASB linter fix succeeded. Only four shareable notes remain.
+
+The automated fix only updated one note. Four shareable notes still need manual fixing. I'll read their key concepts and descriptions to correct them.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/joy.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/break-the-escalation-cycle.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/outcomes-over-pitch-decks.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Notes contain sparse key_concept content and bible shortcodes. These were skipped during candidate extraction.
+
+The automated fix-shareable-thought script failed to find four distinct lines. I am manually reconstructing shareable_thought for joy.md and peace.md by pulling candidates from key_concept bullets and description text, then splitting contrast halves.
+
+peace.md candidates include a "do not Worry" line that may fail point-across validation because wikilinks strip out. "Peacemakers" is another candidate. The description contrast will be split. break-the-escalation-cycle.md is next.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/break-the-escalation-cycle.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/outcomes-over-pitch-decks.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating shareable_thought for four notes, each with four lines derived from key_concept.
+
+Drafting joy.md shareable_thought lines. Line 4 overlaps with line 1, so line 4 is being replaced with a distinct quote about joy beside love and peace in the Fruits of the Spirit cluster.
+
+Evaluating whether the fourth joy.md shareable line is a complete standalone sentence or a fragment. Ruled out example quotes; the line must come strictly from key_concept.
+
+peace.md shareable lines are drafted. They cover the Fruits of the Spirit cluster, a warning against borrowing tomorrow’s trouble, and an active call to pursue reconciliation. The break-the-escalation-cycle draft is starting.
+
+Drafted five break-the-escalation-cycle lines. The fourth line begins with "Not passivity," which may fail lint as a fragment. Checking which remaining lines pass lint.
+
+Drafted the remaining break-the-escalation-cycle lines. Added outcomes-over-pitch-decks with four shareable lines. The fifth line may exceed the 130-character limit. A quick Python check will clamp and verify lengths.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 <<'PY'
+import importlib.util
+from pathlib import Path
+import yaml
+ROOT = Path('.')
+spec = importlib.util.spec_from_file_location('lint', ROOT/'scripts/lint-notes-frontmatter.py')
+lint = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(lint)
+from notes_content import split_frontmatter
+
+fixes = {
+'joy.md': [
+"Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance.",
+"Fruits of the Spirit names joy beside love and peace in one cluster.",
+"Joy is grown by walking in the Spirit, not manufactured for credit.",
+"Spirit-grown gladness rests on Christ's promise, not a good-week streak.",
+],
+'peace.md': [
+"Peace is Spirit-grown calm in believers who trust the Father - not silence at any price.",
+"Fruits of the Spirit lists peace beside love and joy - inner calm from God's reign, not denial.",
+"Stop borrowing tomorrow's trouble before anxiety sets the agenda.",
+"Pursue reconciliation, not just keep quiet and call it peace.",
+],
+'break-the-escalation-cycle.md': [
+"Break the escalation cycle - do not match tone for tone when a sharp email lands; stop the loop first.",
+"Refuse to match insult for insult - break the loop before tone for tone takes over.",
+"I refuse to become what hurt me in the thread.",
+"Stop throwing anger after sunk hurt - break the loop before tone for tone takes over.",
+],
+'outcomes-over-pitch-decks.md': [
+"Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura.",
+"Judge vendors and champions by fruit over time, not slide polish or LinkedIn aura.",
+"Smooth talkers ship thorns sometimes.",
+"Do not condemn souls; do read the fruit over time.",
+],
+}
+for name, lines in fixes.items():
+    path = ROOT/'content/english/notes'/name
+    raw, body = split_frontmatter(path.read_text())
+    fm = yaml.safe_load(raw)
+    fm['shareable_thought'] = lines
+    errs = lint.lint_shareable_thought(path, fm)
+    print(name, 'OK' if not errs else errs)
+PY</summary>
+
+```bash
+python3 <<'PY'
+import importlib.util
+from pathlib import Path
+import yaml
+ROOT = Path('.')
+spec = importlib.util.spec_from_file_location('lint', ROOT/'scripts/lint-notes-frontmatter.py')
+lint = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(lint)
+from notes_content import split_frontmatter
+
+fixes = {
+'joy.md': [
+"Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance.",
+"Fruits of the Spirit names joy beside love and peace in one cluster.",
+"Joy is grown by walking in the Spirit, not manufactured for credit.",
+"Spirit-grown gladness rests on Christ's promise, not a good-week streak.",
+],
+'peace.md': [
+"Peace is Spirit-grown calm in believers who trust the Father - not silence at any price.",
+"Fruits of the Spirit lists peace beside love and joy - inner calm from God's reign, not denial.",
+"Stop borrowing tomorrow's trouble before anxiety sets the agenda.",
+"Pursue reconciliation, not just keep quiet and call it peace.",
+],
+'break-the-escalation-cycle.md': [
+"Break the escalation cycle - do not match tone for tone when a sharp email lands; stop the loop first.",
+"Refuse to match insult for insult - break the loop before tone for tone takes over.",
+"I refuse to become what hurt me in the thread.",
+"Stop throwing anger after sunk hurt - break the loop before tone for tone takes over.",
+],
+'outcomes-over-pitch-decks.md': [
+"Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura.",
+"Judge vendors and champions by fruit over time, not slide polish or LinkedIn aura.",
+"Smooth talkers ship thorns sometimes.",
+"Do not condemn souls; do read the fruit over time.",
+],
+}
+for name, lines in fixes.items():
+    path = ROOT/'content/english/notes'/name
+    raw, body = split_frontmatter(path.read_text())
+    fm = yaml.safe_load(raw)
+    fm['shareable_thought'] = lines
+    errs = lint.lint_shareable_thought(path, fm)
+    print(name, 'OK' if not errs else errs)
+PY
+```
+
+```
+Traceback (most recent call last):
+  File "&lt;stdin&gt;", line 7, in &lt;module&gt;
+  File "&lt;frozen importlib._bootstrap_external&gt;", line 995, in exec_module
+  File "&lt;frozen importlib._bootstrap&gt;", line 488, in _call_with_frames_removed
+  File "/home/jorap/Documents/GitHub/jorap.com/scripts/lint-notes-frontmatter.py", line 12, in &lt;module&gt;
+    from notes_content import (
+ModuleNotFoundError: No module named 'notes_content'
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The EP spine scripts need to be added to the system path.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: PYTHONPATH=scripts python3 <<'PY'
+import importlib.util
+from pathlib import Path
+import yaml
+ROOT = Path('.')
+spec = importlib.util.spec_from_file_location('lint', ROOT/'scripts/lint-notes-frontmatter.py')
+lint = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(lint)
+from notes_content import split_frontmatter
+
+fixes = {
+'joy.md': [
+"Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance.",
+"Fruits of the Spirit names joy beside love and peace in one cluster.",
+"Joy is grown by walking in the Spirit, not manufactured for credit.",
+"Spirit-grown gladness rests on Christ's promise, not a good-week streak.",
+],
+'peace.md': [
+"Peace is Spirit-grown calm in believers who trust the Father - not silence at any price.",
+"Fruits of the Spirit lists peace beside love and joy - inner calm from God's reign, not denial.",
+"Stop borrowing tomorrow's trouble before anxiety sets the agenda.",
+"Pursue reconciliation, not just keep quiet and call it peace.",
+],
+'break-the-escalation-cycle.md': [
+"Break the escalation cycle - do not match tone for tone when a sharp email lands; stop the loop first.",
+"Refuse to match insult for insult - break the loop before tone for tone takes over.",
+"I refuse to become what hurt me in the thread.",
+"Stop throwing anger after sunk hurt - break the loop before tone for tone takes over.",
+],
+'outcomes-over-pitch-decks.md': [
+"Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura.",
+"Judge vendors and champions by fruit over time, not slide polish or LinkedIn aura.",
+"Smooth talkers ship thorns sometimes.",
+"Do not condemn souls; do read the fruit over time.",
+],
+}
+for name, lines in fixes.items():
+    path = ROOT/'content/english/notes'/name
+    raw, body = split_frontmatter(path.read_text())
+    fm = yaml.safe_load(raw)
+    fm['shareable_thought'] = lines
+    errs = lint.lint_shareable_thought(path, fm)
+    print(name, 'OK' if not errs else errs)
+PY</summary>
+
+```bash
+PYTHONPATH=scripts python3 <<'PY'
+import importlib.util
+from pathlib import Path
+import yaml
+ROOT = Path('.')
+spec = importlib.util.spec_from_file_location('lint', ROOT/'scripts/lint-notes-frontmatter.py')
+lint = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(lint)
+from notes_content import split_frontmatter
+
+fixes = {
+'joy.md': [
+"Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance.",
+"Fruits of the Spirit names joy beside love and peace in one cluster.",
+"Joy is grown by walking in the Spirit, not manufactured for credit.",
+"Spirit-grown gladness rests on Christ's promise, not a good-week streak.",
+],
+'peace.md': [
+"Peace is Spirit-grown calm in believers who trust the Father - not silence at any price.",
+"Fruits of the Spirit lists peace beside love and joy - inner calm from God's reign, not denial.",
+"Stop borrowing tomorrow's trouble before anxiety sets the agenda.",
+"Pursue reconciliation, not just keep quiet and call it peace.",
+],
+'break-the-escalation-cycle.md': [
+"Break the escalation cycle - do not match tone for tone when a sharp email lands; stop the loop first.",
+"Refuse to match insult for insult - break the loop before tone for tone takes over.",
+"I refuse to become what hurt me in the thread.",
+"Stop throwing anger after sunk hurt - break the loop before tone for tone takes over.",
+],
+'outcomes-over-pitch-decks.md': [
+"Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura.",
+"Judge vendors and champions by fruit over time, not slide polish or LinkedIn aura.",
+"Smooth talkers ship thorns sometimes.",
+"Do not condemn souls; do read the fruit over time.",
+],
+}
+for name, lines in fixes.items():
+    path = ROOT/'content/english/notes'/name
+    raw, body = split_frontmatter(path.read_text())
+    fm = yaml.safe_load(raw)
+    fm['shareable_thought'] = lines
+    errs = lint.lint_shareable_thought(path, fm)
+    print(name, 'OK' if not errs else errs)
+PY
+```
+
+```
+joy.md ['FAIL shareable_thought[3] not from principle: joy.md']
+peace.md ['FAIL shareable_thought[2] not from principle: peace.md', 'FAIL shareable_thought[3] not from principle: peace.md']
+break-the-escalation-cycle.md ['FAIL shareable_thought[2] not from principle: break-the-escalation-cycle.md']
+outcomes-over-pitch-decks.md OK
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Lines must come from the principle_line_pool.
+
+Printing the pool for these notes.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: PYTHONPATH=scripts python3 <<'PY'
+from pathlib import Path
+import yaml
+from notes_content import split_frontmatter, principle_line_pool, shareable_line_from_principle
+
+for name in ['joy.md','peace.md','break-the-escalation-cycle.md']:
+    raw,_ = split_frontmatter((Path('content/english/notes')/name).read_text())
+    fm = yaml.safe_load(raw)
+    pool = principle_line_pool(fm)
+    print('===', name)
+    for p in pool[:20]:
+        print(' ', p[:100])
+PY</summary>
+
+```bash
+PYTHONPATH=scripts python3 <<'PY'
+from pathlib import Path
+import yaml
+from notes_content import split_frontmatter, principle_line_pool, shareable_line_from_principle
+
+for name in ['joy.md','peace.md','break-the-escalation-cycle.md']:
+    raw,_ = split_frontmatter((Path('content/english/notes')/name).read_text())
+    fm = yaml.safe_load(raw)
+    pool = principle_line_pool(fm)
+    print('===', name)
+    for p in pool[:20]:
+        print(' ', p[:100])
+PY
+```
+
+```
+=== joy.md
+  joy is spirit-grown gladness in believers who rest on christ's promise - not a good-week performance
+  joy is spirit-grown gladness in believers who rest on christ's promise
+  not a good-week performance
+  {{&lt; bible "galatians 5:22-23" &gt;}} - fruits of the spirit names joy beside love and peace in one clus
+  {{&lt; bible "galatians 5:22-23" &gt;}}
+  fruits of the spirit names joy beside love and peace in one cluster
+  - joy is grown by walking in the spirit, not manufactured for credit
+  - joy is spirit-grown gladness in believers who rest on christ's promise
+=== peace.md
+  peace is spirit-grown calm in believers who trust the father - not silence at any price
+  peace is spirit-grown calm in believers who trust the father
+  not silence at any price
+  {{&lt; bible "galatians 5:22-23" &gt;}} - fruits of the spirit lists peace beside love and joy - inner cal
+  {{&lt; bible "galatians 5:22-23" &gt;}}
+  fruits of the spirit lists peace beside love and joy
+  inner calm from god's reign, not denial
+  - do not worry is the trust echo: stop borrowing tomorrow's trouble
+  - peacemakers is the active echo: pursue reconciliation, not just keep quiet
+  - seek the kingdom first orders the week before anxiety sets the agenda
+  same fruit, two moves
+  rest in the father, work for peace where you can
+  - peace is spirit-grown calm in believers who trust the father
+=== break-the-escalation-cycle.md
+  break the escalation cycle - do not match tone for tone when a sharp email lands; stop the loop firs
+  break the escalation cycle
+  do not match tone for tone when a sharp email lands
+  stop the loop first
+  {{&lt; bible "matthew 5:39" &gt;}} - refuse to match insult for insult - break the loop before tone for to
+  {{&lt; bible "matthew 5:39" &gt;}}
+  refuse to match insult for insult
+  break the loop before tone for tone takes over
+  - not passivity
+  i can still set boundaries and name facts
+  - i just refuse to become what hurt me in the thread
+  - stop throwing anger after sunk hurt
+  - gospel source: turn the other cheek
+  - pkm parallel: sunk cost fallacy
+  - break the escalation cycle
+  - do not match tone for tone when a sharp email lands
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Line 4 for joy should come from the pool.
+
+The "not a good-week performance" joy candidate is too short and fragmented. The split description works. Joy lines 2 and 3 pass lint. Line 4 is a fragment. Line 5 is from the split description. Peace descriptions are being checked.
+
+Peace description needs a full sentence from the key_concept bullet; split pool parts won't work. Two pool lines pass lint for that entry. Break-the-escalation-cycle description is valid. Line 2 passes lint. Line 3 is pool material.
+
+A contrasted half-line from the key_concept is being considered for the break-the-escalation-cycle description. Validation is next.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: PYTHONPATH=scripts python3 <<'PY'
+import importlib.util
+from pathlib import Path
+import yaml
+ROOT = Path('.')
+spec = importlib.util.spec_from_file_location('lint', ROOT/'scripts/lint-notes-frontmatter.py')
+lint = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(lint)
+from notes_content import split_frontmatter
+
+fixes = {
+'joy.md': [
+"Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance.",
+"Fruits of the Spirit names joy beside love and peace in one cluster.",
+"Joy is grown by walking in the Spirit, not manufactured for credit.",
+"Joy is Spirit-grown gladness in believers who rest on Christ's promise.",
+],
+'peace.md': [
+"Peace is Spirit-grown calm in believers who trust the Father - not silence at any price.",
+"Fruits of the Spirit lists peace beside love and joy - inner calm from God's reign, not denial.",
+"Do not Worry is the trust echo: stop borrowing tomorrow's trouble.",
+"Peacemakers is the active echo: pursue reconciliation, not just keep quiet.",
+],
+'break-the-escalation-cycle.md': [
+"Break the escalation cycle - do not match tone for tone when a sharp email lands; stop the loop first.",
+"Refuse to match insult for insult - break the loop before tone for tone takes over.",
+"I just refuse to become what hurt me in the thread.",
+"Stop throwing anger after sunk hurt - break the loop before tone for tone takes over.",
+],
+'outcomes-over-pitch-decks.md': [
+"Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura.",
+"Judge vendors and champions by fruit over time, not slide polish or LinkedIn aura.",
+"Smooth talkers ship thorns sometimes.",
+"Do not condemn souls; do read the fruit over time.",
+],
+}
+for name, lines in fixes.items():
+    path = ROOT/'content/english/notes'/name
+    raw, body = split_frontmatter(path.read_text())
+    fm = yaml.safe_load(raw)
+    fm['shareable_thought'] = lines
+    errs = lint.lint_shareable_thought(path, fm)
+    print(name, 'OK' if not errs else errs)
+PY</summary>
+
+```bash
+PYTHONPATH=scripts python3 <<'PY'
+import importlib.util
+from pathlib import Path
+import yaml
+ROOT = Path('.')
+spec = importlib.util.spec_from_file_location('lint', ROOT/'scripts/lint-notes-frontmatter.py')
+lint = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(lint)
+from notes_content import split_frontmatter
+
+fixes = {
+'joy.md': [
+"Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance.",
+"Fruits of the Spirit names joy beside love and peace in one cluster.",
+"Joy is grown by walking in the Spirit, not manufactured for credit.",
+"Joy is Spirit-grown gladness in believers who rest on Christ's promise.",
+],
+'peace.md': [
+"Peace is Spirit-grown calm in believers who trust the Father - not silence at any price.",
+"Fruits of the Spirit lists peace beside love and joy - inner calm from God's reign, not denial.",
+"Do not Worry is the trust echo: stop borrowing tomorrow's trouble.",
+"Peacemakers is the active echo: pursue reconciliation, not just keep quiet.",
+],
+'break-the-escalation-cycle.md': [
+"Break the escalation cycle - do not match tone for tone when a sharp email lands; stop the loop first.",
+"Refuse to match insult for insult - break the loop before tone for tone takes over.",
+"I just refuse to become what hurt me in the thread.",
+"Stop throwing anger after sunk hurt - break the loop before tone for tone takes over.",
+],
+'outcomes-over-pitch-decks.md': [
+"Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura.",
+"Judge vendors and champions by fruit over time, not slide polish or LinkedIn aura.",
+"Smooth talkers ship thorns sometimes.",
+"Do not condemn souls; do read the fruit over time.",
+],
+}
+for name, lines in fixes.items():
+    path = ROOT/'content/english/notes'/name
+    raw, body = split_frontmatter(path.read_text())
+    fm = yaml.safe_load(raw)
+    fm['shareable_thought'] = lines
+    errs = lint.lint_shareable_thought(path, fm)
+    print(name, 'OK' if not errs else errs)
+PY
+```
+
+```
+joy.md ['FAIL shareable_thought[0] overlaps [3]: joy.md']
+peace.md OK
+break-the-escalation-cycle.md OK
+outcomes-over-pitch-decks.md OK
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Line 4 overlaps line 0. Replace line 4 with "Not a good-week performance."
+
+The replacement line still fails the fragment check. Alternatives like "Spirit-grown gladness" and "Manufactured fruit is not gospel joy" are missing from the pool. A split-contrast approach may be rejected by the linter.
+
+The note contains only three substantive bullets. Lines three and four overlap. "Joy is grown by walking in the Spirit" would overlap line three.
+
+The phrase "Not a good-week performance" fails the fragment check because it starts with "not". Splitting the description into two contrast halves does not resolve the issue. Only three distinct lines exist in the pool, so adding another principle line is not an option.
+
+The fragment check rejects "Not a good-week performance." because it begins with "not". A four-line structure is being considered, but duplicating the description would fail the overlap rule since it is a prefix of the first line.
+
+Splitting the description into two halves still leaves line 4 as a fragment. Reversing the contrast does not help either. The plan is to add one more distinct principle bullet to the joy key_concept.
+
+The description cannot be split into two halves because the first line would overlap with the third. The remaining pool items are fragments or belong to the wrong note. The joy key_concept is genuinely too thin to satisfy the four-line requirement.
+
+Adding one more bullet to the joy key_concept is the quickest fix. The proposed line is "Manufactured gladness for credit is not Spirit fruit." Using the description as line zero and the first half of the description as line three still causes overlap.
+
+The fourth line is drafted as "Manufactured gladness for church credit is not Spirit fruit."
+
+The proposed joy bullet is garden-voice compliant. Peace already satisfies the four-line requirement. All four fixes plus the new joy bullet will now be applied.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/joy.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/joy.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/break-the-escalation-cycle.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/outcomes-over-pitch-decks.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking the joy shareable line 4 against its principle match and fragment rules.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -5 && python3 scripts/garden-voice-lint.py --check 2>&1 | tail -3</summary>
+
+```bash
+python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -5 && python3 scripts/garden-voice-lint.py --check 2>&1 | tail -3
+```
+
+```
+FAIL shareable_thought[3] fragment: joy.md
+
+1 note(s) failed frontmatter lint
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Line 4 fails as a fragment because it begins with "Not".
+
+The line should be rewritten in positive form: "Manufactured gladness church credit is not Spirit fruit."</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/joy.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The key_concept bullet was updated to match the description rewrite.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -3 && python3 scripts/garden-voice-lint.py --check 2>&1 | tail -3</summary>
+
+```bash
+python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -3 && python3 scripts/garden-voice-lint.py --check 2>&1 | tail -3
+```
+
+```
+Note frontmatter lint OK
+  content/english/notes/renewed-mind.md: key_concept: contraction (you're)
+  content/english/notes/renewed-mind.md: shareable_thought: contraction (you're)
+  content/english/notes/secret-devotion.md: key_concept: contraction (doesn't)
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Frontmatter lint passed. Garden-voice lint fails on contractions in glosses from ep-verse-explanations. Those appear in key_concept after applying verse explanations.
+
+Three options are being weighed to resolve the garden-voice contradiction: decontracting gloss lines, exempting verse glosses from lint, or updating the source yaml. The next step is counting the exact number of garden-voice failures.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 scripts/garden-voice-lint.py --check 2>&1 | rg -c "contraction"</summary>
+
+```bash
+python3 scripts/garden-voice-lint.py --check 2>&1 | rg -c "contraction"
+```
+
+```
+7
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Only 7 contraction issues remain in the EP glosses.
+
+Gloss contractions may be intentional for garden-voice voice. Frontmatter contractions still need fixing. I will decontract the 7 affected gloss lines and get their full list.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 scripts/garden-voice-lint.py --check 2>&1</summary>
+
+```bash
+python3 scripts/garden-voice-lint.py --check 2>&1
+```
+
+```
+Garden voice lint:
+  content/english/notes/forgiveness.md: key_concept: contraction (won't)
+  content/english/notes/judge-not.md: key_concept: contraction (Don't)
+  content/english/notes/let-your-light-shine.md: key_concept: contraction (can't)
+  content/english/notes/mercy.md: key_concept: contraction (you'll)
+  content/english/notes/pkm.md: shareable[1]: fragment (Save, organize, reuse.)
+  content/english/notes/renewed-mind.md: key_concept: contraction (you're)
+  content/english/notes/renewed-mind.md: shareable_thought: contraction (you're)
+  content/english/notes/secret-devotion.md: key_concept: contraction (doesn't)
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Most mismatches are EP gloss contractions introduced by apply-verse-explanations.
+
+Gloss lines in the notes need decontracting. The pkm.md and renewed-mind shareables also need fixes. These are regressions from apply-verse-explanations inserting YAML glosses with contractions. I'll read the specific lines next.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "{forgiveness,judge-not,let-your-light-shine,mercy,renewed-mind,secret-devotion}.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "you'll|won't|Don't|can't|you're|doesn't"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "you'll|won't|Don't|can't|you're|doesn't",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/renewed-mind.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/judge-not.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/let-your-light-shine.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/secret-devotion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/forgiveness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/mercy.md"
+    }
+  ],
+  "totalFiles": 6,
+  "totalMatches": 8
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 6,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md",
+  "pattern": "shareable_thought"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md",
+  "pattern": "shareable_thought",
+  "topFiles": [
+    {
+      "matchCount": 7,
+      "uri": "content/english/notes/pkm.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Decontracted contractions in gloss lines from ep-verse-explanations.yaml.
+
+Fixed contractions in notes: mercy, forgiveness, judge-not, let-your-light-shine, renewed-mind, and secret-devotion. Replaced pkm frontmatter tagline. Skipped duplicate gloss+bullet cleanup to focus on lint.
+
+Also fixed a contraction introduced by fix-shareable-thought in the renewed-mind shareable.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/forgiveness.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judge-not.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/let-your-light-shine.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/secret-devotion.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking lints for the pkm shareable line 4 from principle.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -2 && python3 scripts/garden-voice-lint.py --check 2>&1 | tail -3</summary>
+
+```bash
+python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -2 && python3 scripts/garden-voice-lint.py --check 2>&1 | tail -3
+```
+
+```
+
+1 note(s) failed frontmatter lint
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+One frontmatter lint failure remains. The pkm shareable mismatch likely comes from a description rewrite rather than a principle issue.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 scripts/lint-notes-frontmatter.py 2>&1 | rg FAIL</summary>
+
+```bash
+python3 scripts/lint-notes-frontmatter.py 2>&1 | rg FAIL
+```
+
+```
+FAIL shareable_thought[3] not from principle: pkm.md
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 scripts/garden-voice-lint.py --check 2>&1</summary>
+
+```bash
+python3 scripts/garden-voice-lint.py --check 2>&1
+```
+
+```
+Garden voice lint OK
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Garden voice is fine. Fixing the pkm shareable line 4 by checking key_concept.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Using a key_concept line about PKM to organize NASB verse explanations.
+
+Evaluating shareable descriptions against the pool. One candidate overlaps with the current description. Another may fail due to parentheses.
+
+Line 4 is first-person, so it likely won't overlap with the third-person description. Truncated key_concept lines risk parenthetical references that could fail validation.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking overlap with line 0.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -2</summary>
+
+```bash
+python3 scripts/lint-notes-frontmatter.py 2>&1 | tail -2
+```
+
+```
+Note frontmatter lint OK
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All linters pass. The EP spine scripts were run. The NASB paragraph and gloss formatting is now applied to the faith spine notes.</details></think>
+
+_**Agent (auto-low)**_
+
+Both follow-ups are done.
+
+### EP spine scripts
+- Extended `normalize-verse-paragraphs.py` to expand `{{< bible >}}` shortcodes into full NASB 1995 paragraphs (and fixed a bug where expanded content was compared to itself, so nothing was written).
+- Ran **normalize** → **52 faith spine notes** updated with inline NASB verse paragraphs.
+- Ran **apply-verse-explanations** → **12 notes** got JoRap glosses inserted after verse lines.
+
+Example (`free-grace.md`):
+
+```5:21:content/english/notes/free-grace.md
+  “Truly, truly, I say to you, he who hears My word, and believes Him who sent Me, has eternal life, and does not come into judgment, but has passed out of death into life. Truly, truly, I say to you, an hour is coming and now is, when the dead will hear the voice of the Son of God, and those who hear will live. For just as the Father has life in Himself, even so He gave to the Son also to have life in Himself; and He gave Him authority to execute judgment, because He is the Son of Man. Do not marvel at this; for an hour is coming, in which all who are in the tombs will hear His voice, and will come forth; those who did the good deeds to a resurrection of life, those who committed the evil deeds to a resurrection of judgment. John 5:24-29 NASB1995
+  ...
+  For by grace you have been saved through faith; and that not of yourselves, it is the gift of God; not as a result of works, so that no one may boast. Ephesians 2:8-9 NASB1995
+```
+
+### Shareable frontmatter pass (~117 mismatches)
+- Ran `fix-shareable-thought.py --failing` → **56 notes** regenerated.
+- Updated `lint-notes-frontmatter.py` to allow bare NASB verse lines and gloss lines (EP format).
+- Manually fixed 4 thin notes (`joy`, `peace`, `break-the-escalation-cycle`, `outcomes-over-pitch-decks`) that could not auto-draft 4 lines.
+- Decontracted EP gloss lines that `apply-verse-explanations` inserted (7 garden-voice hits).
+
+### Lint status
+| Check | Result |
+|-------|--------|
+| `lint-notes-frontmatter.py` | **PASS** |
+| `garden-voice-lint.py --check` | **PASS** |
+
+**Note:** A few EP notes still have duplicate gloss content (bare gloss line + matching bullet). Harmless for lint/render; say if you want those deduped. Notes with bible shortcodes only (`joy`, `peace`, etc.) were not in the EP slug list — they still use shortcodes until you add them to `ep-verse-explanations.yaml` or run normalize on them separately.
+
+---
+
+_**User**_
+
+in the notes, if there is a bullet with bible verse, use the bible shortcode followed by an explanation bullet in my voice
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Bible verse bullets in notes will use the bible shortcode, followed by an explanation bullet in the user's voice.
+
+The current format uses inline NASB verses and gloss lines. This needs to be reverted to the shortcode plus explanation bullet structure.
+
+I'll review the garden-voice rules and scan the affected notes to plan the conversion script.</details></think>
+
+_**Agent (auto-low)**_
+
+You want bible shortcodes plus a voice bullet, not inline NASB paragraphs — I'll check how notes are formatted now and what the conversion path should be.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "NASB1995"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "NASB1995",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/fruits-of-the-spirit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/seek-the-kingdom-first.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/discipleship-vs-leadership.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/treasure-in-heaven.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/dont-worry.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/turn-the-other-cheek.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/present-a-living-sacrifice.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/faith-and-works.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/eternal-rewards.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/dont-copy-the-pattern.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/forgiveness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/render-unto-caesar.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/faithful-steward.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/love-god.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/mercy.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/free-grace.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/reconciliation-before-worship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/assurance.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/loss-of-reward.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/let-your-yes-be-yes.md"
+    }
+  ],
+  "totalFiles": 52,
+  "totalMatches": 82
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\{\\{\u003c bible"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "count",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "\\{\\{\u003c bible",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/peace.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/servant-leadership.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/gentleness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/forgiveness-at-work.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/integrity-without-an-audience.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/plain-commitments-at-work.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/goodness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/patience.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/priorities-before-the-inbox.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/follow-christ-then-lead.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/joy.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/reconcile-before-the-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/steward-after-the-win.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/outcomes-over-pitch-decks.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/faithfulness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/break-the-escalation-cycle.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/golden-rule-at-work.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/kindness.md"
+    }
+  ],
+  "totalFiles": 18,
+  "totalMatches": 19
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Bible verse bullets in notes will use the bible shortcode, followed by an explanation bullet in the user's voice.
+
+A script will convert NASB1995 verse lines in key_concept into bible shortcodes. It will extract references and insert explanation bullets in JoRap voice. Duplicate bare gloss and bullet pairs will be removed. Existing shortcodes without explanations will be updated.
+
+Checking git history and ep-verse-explanations.yaml for emphasize values and existing reverse scripts. Reviewing a note that already uses shortcode format.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/joy.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "contextAfter": 8,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/ep-verse-explanations.yaml",
+  "pattern": "abide-in-me|free-grace"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/ep-verse-explanations.yaml",
+  "pattern": "abide-in-me|free-grace",
+  "topFiles": [
+    {
+      "matchCount": 18,
+      "uri": "data/ep-verse-explanations.yaml"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git show HEAD:content/english/notes/abide-in-me.md 2>/dev/null | head -20 || git log -1 --oneline -- content/english/notes/abide-in-me.md</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git show HEAD:content/english/notes/abide-in-me.md 2>/dev/null | head -20 || git log -1 --oneline -- content/english/notes/abide-in-me.md
+```
+
+```
+---
+title: "Abide in Me"
+meta_title: "Abide in Me - Fruit from Union with Christ"
+description: "Fruit comes from staying connected to Christ, not from forcing growth by willpower alone."
+key_concept: |
+  {{&lt; bible ref="John 15:1-11" emphasize="5" &gt;}}
+  - Cut off from the vine, I produce nothing lasting - fruit comes from staying connected, not willpower theater.
+  - Abiding is ongoing dependence - pruning hurts but serves fruitfulness over time.
+  - Abiding is ongoing dependence, not a one-time conversion event.
+  - Pruning hurts but serves fruitfulness.
+  - Under [[Free Grace]], fruit does not earn the branch's place in the vine - the branch bears fruit because it is connected.
+  - [[Fruits of the Spirit]] names the cluster Galatians lists - love through self-control - grown by walking in the Spirit, not sheer willpower.
+  - [[Sanctification]] is the slow becoming that abiding produces over time.
+  - Self-powered "fruit" without abiding is the dead wood Jesus removes - same trap as [[Compounding]] when I treat spiritual growth as pure self-stacked effort.
+  - I bear fruit when I stay connected to Christ, not when I force it by willpower alone.
+examples:
+  - "I snap at my kid after a week with almost no prayer or Scripture, and I know where the fruit went - abiding is opening the Bible before the news feed wins again."
+  - "I checked email three times before I prayed this morning and wondered why God felt far away - staying connected is the daily choice, not the badge from conversion day."
+shareable_thought:
+  - "I bear fruit when I stay connected to Christ, not when I force it by willpower alone."
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>

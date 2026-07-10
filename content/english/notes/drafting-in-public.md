@@ -1,20 +1,20 @@
 ---
 title: "Drafting in Public"
 meta_title: "Drafting in Public - Learn Out Loud, Messily"
-description: Drafting in public keeps the garden honest with rough posts and feedback instead of private hoarding.
+description: "Drafting in public keeps the garden honest with rough posts and feedback instead of private hoarding."
 key_concept: |
   - Drafting in public means publishing rough ideas before they are finished.
-
+  
   - Posting rough drafts keeps the garden honest and lets feedback shape the work, not private hoarding.
   - Rough drafts in public beat polished drafts hoarded in private.
 examples:
-  - I shared a draft SOP with the team before it was polished - silence would have let me pretend I understood the pass-off.
+  - "I shared a draft SOP with the team before it was polished - silence would have let me pretend I understood the pass-off."
   - "I posted a rough footwork clip before I had nailed the cue words - a teammate's comment fixed the line I had been dodging in private notes."
 shareable_thought:
-  - Drafting in public keeps the garden honest with rough posts and feedback.
-  - Publish rough ideas before they are finished.
-  - Rough drafts in public beat polished drafts hoarded in private.
-  - Feedback shapes the work when silence would let you pretend you understand.
+  - "Drafting in public keeps the garden honest with rough posts and feedback instead of private hoarding."
+  - "Drafting in public means publishing rough ideas before they are finished."
+  - "Posting rough drafts keeps the garden honest and lets feedback shape the work, not private hoarding."
+  - "Rough drafts in public beat polished drafts hoarded in private."
 relationships:
   - type: alternative
     wikilink: "[[Success is Stewardship]]"

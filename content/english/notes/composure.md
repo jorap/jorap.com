@@ -1,10 +1,10 @@
 ---
 title: "Composure"
 meta_title: "Composure - Steady When the Room Isn't"
-description: Composure is steady voice and pace when the room is not - people read calm as competence.
+description: "Composure is steady voice and pace when the room is not - people read calm as competence."
 key_concept: |
   - Composure is steady voice and pace when the room is not - people read calm as competence.
-
+  
   - One beat before replying often beats matching their volume.
   - Composure is not suppressing the reaction - it is choosing which one gets shown.
   - The composure has to be visible - a calm voice with shaking hands under the table still reads as calm to everyone watching.
@@ -12,10 +12,10 @@ examples:
   - "The neighbor argument on the group chat heated up and I waited one beat before replying - people read calm as competence even when the issue is real."
   - "I used the same move in a heated parent meeting - slower speech, one clarifying question, no matching their volume."
 shareable_thought:
-  - Composure is steady voice and pace when the room is not - people read calm as competence.
-  - One beat before replying often beats matching their volume.
-  - Composure is choosing which reaction gets shown, not suppressing feeling.
-  - Visible calm reads as control even when the issue is real.
+  - "Composure is steady voice and pace when the room is not."
+  - "People read calm as competence."
+  - "Composure is not suppressing the reaction."
+  - "It is choosing which one gets shown."
 relationships:
   - type: contradicts
     wikilink: "[[The 12 Week Year]]"

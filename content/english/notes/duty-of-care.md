@@ -4,18 +4,18 @@ meta_title: "Duty of Care"
 description: "If roles flipped, reasonable protection from harm is the bar owed to people under you."
 key_concept: |
   - Duty of care owes people the protection you would expect if roles were reversed - not the minimum the handbook allows.
-
+  
   - If roles flipped, reasonable protection from harm is the bar owed to people under you.
   - Duty of care is the legal and moral floor, not a target to hit exactly and stop.
   - Stop serious harm first; reasonable protection is not optional because paperwork says so.
 examples:
   - "The clinic keeps a crash cart checked every shift - staff assuming risk does not erase the charge nurse's job of reasonable protection."
-  - We do not leave the toddler pool gate open because the kids know not to run - duty of care is watching even when signs say be careful.
+  - "We do not leave the toddler pool gate open because the kids know not to run - duty of care is watching even when signs say be careful."
 shareable_thought:
-  - Duty of care owes people the protection you would expect if roles were reversed.
-  - Reasonable protection is the bar - not the minimum the handbook allows.
-  - Duty of care is the floor, not a target to hit exactly and stop.
-  - Stop serious harm first - paperwork does not erase watching.
+  - "If roles flipped, reasonable protection from harm is the bar owed to people under you."
+  - "Duty of care owes people the protection you would expect if roles were reversed - not the minimum the handbook allows."
+  - "Duty of care is the legal and moral floor, not a target to hit exactly and stop."
+  - "Stop serious harm first; reasonable protection is not optional because paperwork says so."
 relationships:
   - type: contradicts
     wikilink: "[[Outcomes Over Pitch Decks]]"
@@ -25,7 +25,7 @@ relationships:
     reason: "Develop people without trading away reasonable protection"
   - type: extends
     wikilink: "[[Life Before Achievement]]"
-    reason: Achievement does not shrink the care you owe
+    reason: "Achievement does not shrink the care you owe"
   - type: implements
     wikilink: "[[Safety Comes First]]"
     reason: "Stopping harm is duty of care in motion"

@@ -4,10 +4,11 @@ meta_title: "Mercy - Compassion on the Guilty"
 description: "Mercy withholds the punishment deserved and calls for the same compassion toward others."
 key_concept: |
   {{< bible "Matthew 5:7" >}}
+
   - Show mercy and you will receive mercy - the beatitude ties compassion out to compassion back.
-  
+
   {{< bible ref="Ephesians 2:1-5" emphasize="5" >}}
-  
+
   - Paul keeps mercy and grace in one breath - rich in mercy, saved by grace while I was still dead in sin.
   - [[Grace]] gives good I could not earn; mercy spares bad I had coming.
   - [[Free Grace]] is how that pair lands on eternal life - gift through faith, wrath withheld, heaven given.

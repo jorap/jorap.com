@@ -4,7 +4,7 @@ meta_title: "Evergreen Notes - Ideas That Stay Fresh"
 description: "Phrase ideas worth standing behind in two years and revise when reality shifts, not when a trend spikes."
 key_concept: |
   - Evergreen notes phrase ideas worth standing behind in two years and revise when reality shifts.
-
+  
   - Write in complete sentences you would still stand behind in two years.
   - Revise when tools change, not when trends spike.
   - Promotion from fleeting: during [[Periodic Knowledge Review]], when a spark keeps returning.
@@ -12,10 +12,10 @@ examples:
   - "A family recipe card keeps the ratios, not last year's trendy garnish - rewrite when life changes how you cook, not when a feed gets excited about a new trick."
   - "My free-throw note keeps the release point and follow-through - not last week's trending drill tip I would regret next season."
 shareable_thought:
-  - Evergreen notes phrase ideas worth standing behind in two years.
-  - Revise when tools change, not when trends spike.
-  - Promotion from fleeting happens when a spark keeps returning in review.
-  - Complete sentences you would cite later beat scratch-pad fragments.
+  - "Phrase ideas worth standing behind in two years and revise when reality shifts, not when a trend spikes."
+  - "Evergreen notes phrase ideas worth standing behind in two years and revise when reality shifts."
+  - "Write in complete sentences you would still stand behind in two years."
+  - "Revise when tools change, not when trends spike."
 relationships:
   - type: contradicts
     wikilink: "[[Daily Notes]]"

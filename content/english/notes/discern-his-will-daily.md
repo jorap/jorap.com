@@ -4,6 +4,7 @@ meta_title: "Discern His Will Daily - Romans 12:2 Outcome"
 description: "A renewed mind can test what God wants - good and acceptable and perfect - without culture's noise picking first."
 key_concept: |
   {{< bible ref="John 7:16-18" emphasize="17" >}}
+
   - Willing to obey first - then you can tell whether the teaching is God's or noise.
 
   - Romans 12:2's outcome: so that you may prove what the will of God is - good, acceptable, and perfect - not mystical lottery after Scripture and prayer reshape judgment.

@@ -4,12 +4,13 @@ meta_title: "Fruits of the Spirit - Character the Spirit Produces"
 description: "Love through self-control is one Spirit-grown cluster in believers, not a merit checklist that buys heaven."
 key_concept: |
   {{< bible ref="John 15:1-8" emphasize="5" >}}
+  
   - Love through self-control is one Spirit-grown cluster in believers, not a merit checklist that buys heaven.
-
+  
   - Much fruit glorifies the Father and proves discipleship - grown on the vine, not manufactured for credit.
-
+  
   {{< bible ref="Galatians 5:22-23" emphasize="22" >}}
-
+  
   - Paul lists the cluster - one Spirit, love through self-control, not a merit checklist.
   - [[Abide in Me]] names the engine in John: branches bear fruit because they stay in the vine.
   - [[Sanctification]] is the slow becoming that fruit marks.
@@ -17,10 +18,10 @@ examples:
   - "I snapped at my kid after a week with almost no prayer and wondered why patience vanished - Galatians fruit comes from walking by the Spirit, not forcing virtue until Friday."
   - "Performing joy at church while empty at home told me I was manufacturing fruit - abiding first, then the cluster grows."
 shareable_thought:
-  - Love through self-control is one Spirit-grown cluster, not a merit checklist that buys heaven.
-  - Paul lists one cluster - love through self-control grown by the Spirit.
-  - By Their Fruits discerns teachers by outcome, not charisma - do not collapse the two jobs.
-  - Fruit comes from abiding on the vine, not willpower theater.
+  - "Love through self-control is one Spirit-grown cluster in believers, not a merit checklist that buys heaven."
+  - "Much fruit glorifies the Father and proves discipleship."
+  - "Grown on the vine, not manufactured for credit."
+  - "Paul lists the cluster - one Spirit, love through self-control, not a merit checklist."
 relationships:
   - type: alternative
     wikilink: "[[By Their Fruits]]"
@@ -30,7 +31,7 @@ relationships:
     reason: "PKM restraint skill vs Spirit-produced self-control in the Galatians cluster"
   - type: contradicts
     wikilink: "[[Compounding]]"
-    reason: when willpower streaks mimic fruit to prove you are saved
+    reason: "when willpower streaks mimic fruit to prove you are saved"
   - type: extends
     wikilink: "[[Abide in Me]]"
     reason: "Fruit comes from staying in the vine - Galatians names what grows"

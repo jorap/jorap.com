@@ -11,9 +11,9 @@ examples:
   - "After every messy school morning we kept one \"what broke\" sticky on the fridge until the routine changed or we accepted the tradeoff."
 shareable_thought:
   - "Teams that change process after mistakes instead of burying them."
-  - "\"What broke\" line stays until fixed or accepted."
   - "Change the process after a miss."
-  - "do not bury it and move on."
+  - "Do not bury it and move on."
+  - "\"What broke\" line stays until fixed or accepted."
 relationships:
   - type: contradicts
     wikilink: "[[By Their Fruits]]"

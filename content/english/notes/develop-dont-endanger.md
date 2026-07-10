@@ -4,7 +4,7 @@ meta_title: "Develop, Don't Endanger - Challenge Without Disproportionate Risk"
 description: "People grow through drills that build skill without pain or risk replacing the actual skill."
 key_concept: |
   - Hard alone does not make an exercise worth running.
-
+  
   - A demanding drill needs [[Purpose and Vision]], a measurable benefit, qualified supervision, and defined safety limits.
   - When pain becomes the point, leaders start treating harm like proof of growth.
   - Push people to grow without picking drills where pain or risk replaces the actual skill.
@@ -12,10 +12,10 @@ examples:
   - "The clinic can drill fire evacuation with a walk-through - not by blocking the only exit and hoping everyone stays calm."
   - "A conditioning set can build endurance - an uncontrolled water exercise adds lethal risk without improving sport-specific performance; pick the drill that develops the skill."
 shareable_thought:
-  - Develop, do not endanger means challenge without drills where pain replaces the skill.
-  - Hard alone does not make an exercise worth running.
-  - Demand purpose, supervision, and safety limits before the drill runs.
-  - When pain becomes the point, harm gets mistaken for growth.
+  - "People grow through drills that build skill without pain or risk replacing the actual skill."
+  - "Hard alone does not make an exercise worth running."
+  - "A demanding drill needs Purpose and Vision, a measurable benefit, qualified supervision, and defined safety limits."
+  - "When pain becomes the point, leaders start treating harm like proof of growth."
 relationships:
   - type: alternative
     wikilink: "[[Minimum Effective Dose]]"
@@ -28,7 +28,7 @@ relationships:
     reason: "Real limits before you stack challenge on the person"
   - type: extends
     wikilink: "[[Coaching Ethics]]"
-    reason: Develop the person - do not hide behind they chose to suffer
+    reason: "Develop the person - do not hide behind they chose to suffer"
   - type: extends
     wikilink: "[[Duty of Care]]"
     reason: "Qualified supervision and safety limits are part of the job"
@@ -43,7 +43,7 @@ relationships:
     reason: "Join their world - not when the move crosses safety limits"
   - type: extends
     wikilink: "[[Psychological Safety]]"
-    reason: People cannot learn when fear of death sits in the room
+    reason: "People cannot learn when fear of death sits in the room"
   - type: extends
     wikilink: "[[Purpose and Vision]]"
     reason: "Challenge people toward a named purpose - not risk without aim"
@@ -52,7 +52,7 @@ relationships:
     reason: "Following their lead stops when the drill endangers them"
   - type: extends
     wikilink: "[[Servant Leadership]]"
-    reason: The leader who serves protects growth - does not sacrifice people to prove a culture
+    reason: "The leader who serves protects growth - does not sacrifice people to prove a culture"
 slug: "develop-dont-endanger"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

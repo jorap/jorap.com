@@ -4,6 +4,7 @@ meta_title: "Seek the Kingdom First - Matthew 6:33"
 description: "Put God's rule first and let food, status, and tomorrow's worry sort behind that."
 key_concept: |
   {{< bible ref="Matthew 6:25-34" emphasize="33" >}}
+
   - Kingdom and righteousness first - food, status, and tomorrow sort behind that, not before my inbox; the test is what actually gets my first ten minutes of the day.
   - The Sermon on the Mount ties this to not serving two masters (God and wealth) and to storing [[Treasure in Heaven]].
   - Kingdom is not escape from earth - it is God's reign ordering my priorities today.

@@ -4,6 +4,7 @@ meta_title: "The Golden Rule - Do Unto Others"
 description: "Treat people how you want to be treated - active care, not just avoiding harm."
 key_concept: |
   {{< bible "Matthew 7:12" >}}
+
   - Treat people how you want to be treated - active care, not just avoiding harm.
   - The check is experiential - how would I want to be spoken to, helped, forgiven, included?
   - That sets the floor for every interaction.

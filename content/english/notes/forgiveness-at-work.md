@@ -5,22 +5,22 @@ description: "Release a colleague debt from the heart without pretending the sli
 key_concept: |
   {{< bible ref="Matthew 18:21-35" emphasize="35" >}}
   - Forgiveness at work releases a colleague's debt without pretending the slight did not matter.
-
+  
   - Forgiving is not pretending it did not hurt.
   - Seventy times seven ends ledger-keeping - stop collecting forever on a debt that poisons work.
   - Gospel depth: [[Forgiveness]] - same math as [[Sunk Cost Fallacy]] - stop treating old hurt as an asset you are owed.
 examples:
   - "I replayed my sister's sharp comment at every family dinner until I chose to release the debt - forgiving is not pretending it did not hurt; it is refusing to collect forever."
-  - I kept mentally scoring a coworker who embarrassed me in a staff meeting six months ago - I stopped bringing that score into every shift and still wrote down what I would need to trust him on the next busy Saturday.
+  - "I kept mentally scoring a coworker who embarrassed me in a staff meeting six months ago - I stopped bringing that score into every shift and still wrote down what I would need to trust him on the next busy Saturday."
 shareable_thought:
-  - "Forgiveness at work releases a colleague's debt without pretending the slight did not matter."
-  - Forgiving is not pretending it did not hurt.
-  - Seventy times seven ends ledger-keeping on workplace grudges.
-  - Release the debt; keep boundaries where trust still rebuilds.
+  - "Release a colleague debt from the heart without pretending the slight did not matter or skipping boundaries where trust broke."
+  - "Seventy times seven ends ledger-keeping."
+  - "Stop collecting forever on a debt that poisons work."
+  - "Forgiving is not pretending it did not hurt."
 relationships:
   - type: contradicts
     wikilink: "[[Sunk Cost Fallacy]]"
-    reason: when you treat old hurt as debt you are owed forever
+    reason: "when you treat old hurt as debt you are owed forever"
   - type: extends
     wikilink: "[[Forgiveness]]"
     reason: "Release the debt - same move without religious vocabulary"

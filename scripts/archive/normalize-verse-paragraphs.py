@@ -21,6 +21,9 @@ BOOK = (
 )
 PAREN_GROUP = re.compile(rf"\(([^)]*{BOOK}[^)]*)\)\.?")
 REF_SUFFIX = re.compile(rf" ({BOOK} [\d:,\s-]+) NASB1995\.?$")
+BIBLE_SC = re.compile(
+    r'^\s*\{\{<\s*bible(?:\s+ref="([^"]+)"(?:\s+[^>]*)?|\s+"([^"]+)")[^>]*>\}\}\s*$'
+)
 
 
 def load_nasb() -> dict[str, str]:
@@ -38,6 +41,53 @@ def load_nasb() -> dict[str, str]:
 
 def load_slugs() -> list[str]:
     return list(yaml.safe_load(EXPLAIN_YAML.read_text(encoding="utf-8"))["verses"])
+
+
+def expand_ref_range(ref: str) -> list[str]:
+    parts = ref.rsplit(" ", 1)
+    if len(parts) != 2:
+        return [ref]
+    book, loc = parts
+    if "-" not in loc:
+        return [ref]
+    left, right = loc.split("-", 1)
+    if ":" not in left:
+        return [ref]
+    ch, v1 = left.split(":", 1)
+    v2 = right.split(":")[-1] if ":" in right else right
+    return [f"{book} {ch}:{v}" for v in range(int(v1), int(v2) + 1)]
+
+
+def verse_text_for_ref(ref: str, nasb: dict[str, str]) -> tuple[str, str] | None:
+    verses = expand_ref_range(ref)
+    texts: list[str] = []
+    for v in verses:
+        resolved = resolve_ref(v, nasb)
+        if resolved:
+            texts.append(resolved[1])
+    if texts:
+        return ref, " ".join(texts)
+    return resolve_ref(ref, nasb)
+
+
+def expand_bible_shortcodes(kc: str, nasb: dict[str, str]) -> str:
+    out: list[str] = []
+    for line in kc.splitlines():
+        m = BIBLE_SC.match(line)
+        if not m:
+            out.append(line)
+            continue
+        ref = (m.group(1) or m.group(2) or "").strip()
+        resolved = verse_text_for_ref(ref, nasb) if ref else None
+        if resolved:
+            canonical, text = resolved
+            out.append(verse_line(canonical, text))
+        else:
+            out.append(line)
+    text = "\n".join(out)
+    if kc.endswith("\n"):
+        text += "\n"
+    return text
 
 
 def resolve_ref(ref: str, nasb: dict[str, str]) -> tuple[str, str] | None:
@@ -205,9 +255,10 @@ def apply_slug(slug: str, nasb: dict[str, str]) -> bool:
     end = text.find("\nexamples:", start)
     if end < 0:
         return False
-    kc = text[start:end]
+    orig_kc = text[start:end]
+    kc = expand_bible_shortcodes(orig_kc, nasb)
     new_kc = normalize_block(kc, nasb)
-    if new_kc == kc:
+    if new_kc == orig_kc:
         return False
     path.write_text(text[:start] + new_kc + text[end:], encoding="utf-8")
     return True

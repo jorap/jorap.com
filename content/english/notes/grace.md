@@ -4,23 +4,25 @@ meta_title: "Grace - Unmerited Favor from God"
 description: "Grace is gift never earned - salvation first, then the walk after - not wages that could be stacked."
 key_concept: |
   {{< bible ref="John 3:16-18" emphasize="16" >}}
+  
+  - God did not wait for me to earn it - He gave His Son so belief, not merit, decides where I spend forever.
   - Grace is gift never earned, starting with salvation and continuing through the walk after.
-
+  
   - God did not wait for me to earn it - He gave His Son so belief, not merit, decides where I spend forever.
   - [[Mercy]] withholds what I deserve; grace gives what I could not earn.
-
+  
   {{< bible ref="Ephesians 2:1-5" emphasize="5" >}}
-
+  
   - Paul names the same rescue from the dead side - alive with Christ by grace, not wages I stacked.
   - [[Free Grace]] is grace applied to eternal life: Christ paid what I could not; I receive by faith, not wages.
 examples:
   - "A teammate listed every good deed this month like it was his ticket to heaven - grace is the gift through faith, not the report card from the season."
   - "Romans 4 in my head but guilt still treats every bad week like a revoked passport - grace settled standing; the walk is a different category."
 shareable_thought:
-  - Grace is gift never earned, starting with salvation and continuing through the walk after.
-  - Mercy withholds what you deserve; grace gives what you could not earn.
-  - Paul names the same rescue from the dead side.
-  - Alive with Christ by grace, not wages stacked on top.
+  - "Grace is gift never earned."
+  - "Salvation first, then the walk after - not wages that could be stacked."
+  - "God did not wait for me to earn it."
+  - "He gave His Son so belief, not merit, decides where I spend forever."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"
@@ -33,7 +35,7 @@ relationships:
     reason: "Rest on grace received - not this week's performance"
   - type: extends
     wikilink: "[[Forgiveness]]"
-    reason: Forgive others because grace already cleared what you could not pay
+    reason: "Forgive others because grace already cleared what you could not pay"
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Free grace is grace applied to eternal life by faith alone"

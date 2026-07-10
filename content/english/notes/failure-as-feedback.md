@@ -4,18 +4,18 @@ meta_title: "Failure as Feedback - Misses Are Signal When You Listen"
 description: "A miss is signal about process or skill, not proof of being the wrong kind of person."
 key_concept: |
   - Failure as feedback reads a miss as signal about process or skill, not proof of the wrong identity.
-
+  
   - A miss tells you what to fix next - process, skill, assumption - if you do not treat it as an identity verdict.
   - Faith parallel: [[Loss of Reward]] - worthless works burn at the [[Judgment Seat]], but the builder is still saved through fire.
   - The miss is feedback on what to build next, not proof you were never in.
 examples:
-  - I missed three free throws in a row - failure as feedback was follow-through and routine, not deciding I am not a basketball person.
-  - The utility bill math was wrong - I treated it as instrument reading about the formula I skipped, not proof I cannot do numbers.
+  - "I missed three free throws in a row - failure as feedback was follow-through and routine, not deciding I am not a basketball person."
+  - "The utility bill math was wrong - I treated it as instrument reading about the formula I skipped, not proof I cannot do numbers."
 shareable_thought:
-  - Failure as feedback reads a miss as signal about process or skill.
-  - A miss tells you what to fix next if you refuse the identity verdict.
-  - Process, skill, and assumption beat deciding you are the wrong kind of person.
-  - The miss is feedback on what to build next, not proof you were never in.
+  - "A miss is signal about process or skill, not proof of being the wrong kind of person."
+  - "Failure as feedback reads a miss as signal about process or skill, not proof of the wrong identity."
+  - "A miss tells you what to fix next."
+  - "Process, skill, assumption - if you do not treat it as an identity verdict."
 relationships:
   - type: alternative
     wikilink: "[[Judgment Seat]]"

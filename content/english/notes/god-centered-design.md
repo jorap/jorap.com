@@ -4,8 +4,9 @@ meta_title: "God Centered Design - Build for God's Glory First"
 description: "Design life and work around God glory first - not crowd applause, ego, or comfort."
 key_concept: |
   {{< bible ref="Matthew 5:14-16" emphasize="16" >}}
+  
   - God-centered design orders life and work around God's glory first, not crowd applause, ego, or comfort.
-
+  
   - Good works visible so the Father gets glory - build for His name, not my brand.
   - A calendar built for applause still feels empty on Monday.
   - [[Seek the Kingdom First]] is the priority filter; [[Love Your Neighbor]] keeps it from becoming selfish spirituality.
@@ -13,14 +14,14 @@ examples:
   - "The youth event looked great in parent photos but nobody prayed afterward - God-centered design meant cutting one performance block for small groups and Scripture."
   - "My notes garden started chasing traffic instead of clarity - God-centered design was one question before publish: does this help someone know Christ or live like Him, or is it just my brand?"
 shareable_thought:
-  - "I design life and work around God's glory first - not crowd applause, ego, or my comfort."
-  - "A calendar built for applause still feels empty on Monday."
-  - "Love Your Neighbor keeps it from becoming selfish spirituality."
-  - "People still matter, but God's reign sets the aim."
+  - "Design life and work around God glory first - not crowd applause, ego, or comfort."
+  - "God-centered design orders life and work around God's glory first, not crowd applause, ego, or comfort."
+  - "Good works visible so the Father gets glory."
+  - "Build for His name, not my brand."
 relationships:
   - type: alternative
     wikilink: "[[People-Centered Design]]"
-    reason: People-first serves humans well; God-first orders who you are ultimately building for
+    reason: "People-first serves humans well; God-first orders who you are ultimately building for"
   - type: contradicts
     wikilink: "[[Let Your Light Shine]]"
     reason: "when visibility becomes the design goal instead of God's glory"
@@ -41,7 +42,7 @@ relationships:
     reason: "Faith lane for clear outcome - God's reign before urgency"
   - type: extends
     wikilink: "[[Renewed Mind]]"
-    reason: Do not conform life to culture's design defaults
+    reason: "Do not conform life to culture's design defaults"
   - type: extends
     wikilink: "[[Sanctification]]"
     reason: "Design life for slow becoming under God's reign"
