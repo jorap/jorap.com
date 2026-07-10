@@ -532,9 +532,9 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 {{< youtube 2xXtCXEVBqg >}}
 
-{{< youtube wQ1Y2R4_dAU >}}
-
 - **2026 Indian Wells (Hard)** - Round of 16, LOSS, 2-6, 0-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/indian-wells/scores/LS010) | [tennis.com](https://www.tennis.com/tournaments/bnp-paribas-open-indian-wells/matches/a-eala-vs-l-noskova-2026-03-11)
+
+{{< youtube wQ1Y2R4_dAU >}}
 
 ---
 
