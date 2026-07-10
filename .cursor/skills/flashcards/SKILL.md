@@ -2,7 +2,7 @@
 name: flashcards
 description: >-
   Write and edit JoRap notes garden flashcards (review: true, cards frontmatter,
-  card_sets). Always apply jorap-voice - cards must sound like JoRap typed them mid-life,
+  card_sets). Always apply garden-voice - cards must sound like JoRap typed them mid-life,
   not like textbook prompts. Use plain words on every front and back.
   Use when adding, rewriting, or auditing flashcards on
   content/english/notes, enabling review on spine notes, fixing card lint errors, or when
@@ -14,9 +14,9 @@ description: >-
 
 Flashcards are a **drill lane beside the wiki** - not a second copy of the note. The wiki holds linked understanding; cards wire **life's cue → move** so the right default is already loaded when the moment hits.
 
-Only ~20% of notes (spine habits + gospel cluster) carry cards. Full spec: `content/english/notes/flashcards.md`. Reference decks: `capture.md`, `free-grace.md`, `the-golden-rule.md`.
+Only ~20% of notes (spine habits + gospel cluster) carry cards. Full spec: `content/english/notes/flashcards.md`. Reference decks: `capture.md`, `abide-in-me.md`, `the-golden-rule.md`.
 
-**Voice:** Always load and follow [jorap-voice](../jorap-voice/SKILL.md). Cards are first-person drill cues - same plain, lived-in tone as the notes garden, not Anki boilerplate. **flashcards skill owns cue→apply shape; jorap-voice owns word choice.** Vocabulary rules live in jorap-voice.
+**Voice:** Always load and follow [garden-voice](../garden-voice/SKILL.md). Cards are first-person drill cues - same plain, lived-in tone as the notes garden, not Anki boilerplate. **flashcards skill owns cue→apply shape; garden-voice owns word choice.** Vocabulary rules live in garden-voice.
 
 ## Guiding principle
 
@@ -117,11 +117,11 @@ Wiki = nuance. Cards = spine habits (~20%) you drill weekly so the chain is auto
 ## Workflow
 
 1. **Read the note body** - claim, extends/contradicts, tradeoffs.
-2. **Read jorap-voice** - load [jorap-voice](../jorap-voice/SKILL.md); skim 1-2 reference decks (`capture.md`, `free-grace.md`) for tone.
+2. **Read garden-voice** - load [garden-voice](../garden-voice/SKILL.md); skim 1-2 reference decks (`capture.md`, `abide-in-me.md`) for tone.
 3. **Confirm spine status** - weekly drill? (~12 PKM + gospel under [[Eternal Principles]]). Else skip `review: true`.
 4. **Mine real cues** - 6+ moments from actual life where this note should have fired but didn't. Not from the definition line.
 5. **Draft cue → apply pairs** - front = recognize; back = do/decide now. Optional subtle hint question on the front (`One check?`, `What comes first?`) when the back is a specific check, filter, or order (see [examples.md](examples.md)).
-6. **De-AI pass (jorap-voice + vocab)** - read each front aloud. Would JoRap actually think this mid-commute, mid-argument, inbox at 40? Cut textbook phrasing, abstract nouns, and third-person setup. Swap any word you wouldn't say to a friend mid-rush (`utilize` → `use`, `repository` → `inbox`, `facilitate` → `help`). Backs stay short imperatives - no essays.
+6. **De-AI pass (garden-voice + vocab)** - read each front aloud. Would JoRap actually think this mid-commute, mid-argument, inbox at 40? Cut textbook phrasing, abstract nouns, and third-person setup. Swap any word you wouldn't say to a friend mid-rush (`utilize` → `use`, `repository` → `inbox`, `facilitate` → `help`). Backs stay short imperatives - no essays.
 7. **Real-life litmus** - for each card: *If this front happened tonight, would I know the back without opening the site?*
 8. **Pick `card_sets`**, validate with `npm run lint:cards`, `npm run audit:cards`, and `npm run lint:voice`.
 
@@ -200,9 +200,9 @@ The front is **cue only**. State the moment; the back holds the move. Never list
 
 **Lint:** `npm run lint:cards` flags option lists and `… or …?` forks on fronts.
 
-### Voice (jorap-voice)
+### Voice (garden-voice)
 
-Cards inherit the garden's voice - practical, first-person, specific. Apply jorap-voice to every front and back.
+Cards inherit the garden's voice - practical, first-person, specific. Apply garden-voice to every front and back.
 
 | Do | Don't |
 |----|-------|
@@ -241,7 +241,7 @@ Each card:
 - [ ] Front is a cue I'd recognize in real life this week
 - [ ] Back tells me what to **do or decide now** - not just what is true
 - [ ] Cue → apply chain works with note closed (real-life litmus)
-- [ ] Sounds like JoRap typed it - jorap-voice de-AI pass done (no textbook / AI slop)
+- [ ] Sounds like JoRap typed it - garden-voice de-AI pass done (no textbook / AI slop)
 - [ ] Plain words only - no jargon or thesaurus words you wouldn't say out loud
 - [ ] Front is cue only - no multiple choice (`X, Y, or Z?`, `A or B?` on the front)
 - [ ] Subtle hint question OR pure cue-only - never telegraphy; front longer than back; one move on back
@@ -268,7 +268,7 @@ Bulk rewrite: `python3 scripts/archive/fix-flashcard-lengths.py`
 
 ## Additional resources
 
-- Voice: [jorap-voice](../jorap-voice/SKILL.md)
+- Voice: [garden-voice](../garden-voice/SKILL.md)
 - Cue → apply examples: [examples.md](examples.md)
 - Format spec: `content/english/notes/flashcards.md`
 - SRS philosophy: `content/english/notes/spaced-repetition.md`

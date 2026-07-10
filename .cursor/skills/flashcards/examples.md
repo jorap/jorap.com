@@ -134,13 +134,13 @@ Avoid:
 2. Back - explanatory? Rewrite as the next move.
 3. Telegraphy - title, verse key, concept name on front? (Replace with subtle hint question if a nudge helps retrieval.)
 4. **Multiple choice** - options listed on front (`A or B?`, `X, Y, or Z?`)? Drop the menu; cue only or subtle hint question.
-5. **Voice (jorap-voice)** - read aloud. Textbook or AI slop? Add "I", a count, or a real fork JoRap would face.
+5. **Voice (garden-voice)** - read aloud. Textbook or AI slop? Add "I", a count, or a real fork JoRap would face.
 6. **Vocabulary** - plain words. Swap any word you wouldn't say out loud.
 7. Run `npm run lint:cards`.
 
-## Voice - JoRap, not textbook (jorap-voice)
+## Voice - JoRap, not textbook (garden-voice)
 
-Flashcard fronts are mid-life thoughts; backs are what JoRap would actually do. Apply the jorap-voice de-AI pass after drafting.
+Flashcard fronts are mid-life thoughts; backs are what JoRap would actually do. Apply the garden-voice de-AI pass after drafting.
 
 | AI / textbook | JoRap voice |
 |---------------|-------------|
