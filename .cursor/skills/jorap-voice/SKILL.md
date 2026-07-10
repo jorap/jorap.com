@@ -68,7 +68,7 @@ AI writing is smooth, balanced, and empty. JoRap writing is specific, uneven, an
 
 ### Human markers - include these
 
-- **Specifics**: prices ($30-$60), durations (90 minutes, 10 minutes under pressure), model names, exact failures ("third batch of chicken steamed instead of seared").
+- **Specifics**: durations (90 minutes, 10 minutes under pressure), model names, exact failures ("third batch of chicken steamed instead of seared"). No currency amounts - say "budget tier" or "cheap" instead of dollar figures.
 - **Contractions**: it's, don't, I've, won't, that's - most of the time.
 - **Sentence variety**: one-word sentences. Short punches. Then a longer sentence that actually explains something.
 - **Imperfect rhythm**: not every paragraph needs three sentences. Not every section needs the same shape.
@@ -136,7 +136,7 @@ Land on what you actually use, what you'd buy again, or a plain recommendation. 
 
 ## Gear and reviews
 
-No affiliate links on the site as of now. Named products you own, what you paid, what ended up in a drawer, and "I'd buy again" are all fine. Skip affiliate-marketing tone - no "game-changer", no "must-have", no breathless superlatives.
+No affiliate links on the site as of now. Named products you own, what ended up in a drawer, and "I'd buy again" are all fine. **No currency values** - no dollar amounts, peso figures, or "what I paid." Use relative terms (budget, premium, cheap, annual renewal) instead. Skip affiliate-marketing tone - no "game-changer", no "must-have", no breathless superlatives.
 
 ## Recipe posts (variant)
 
@@ -146,7 +146,7 @@ Recipe content can be more instructional - ingredients, steps, timings - but sec
 
 - [ ] Opens with experience or a concrete problem, not a generic intro
 - [ ] Uses "I" and real scenarios, not "users" and "one might"
-- [ ] At least one specific detail per section (number, name, place, mistake, price)
+- [ ] At least one specific detail per section (number, name, place, mistake) - not currency
 - [ ] States opinions clearly - no endless "it depends" without a take
 - [ ] Plain words only - no jargon or thesaurus words you wouldn't say out loud
 - [ ] Read aloud - no word you'd pause to define
@@ -167,6 +167,7 @@ Recipe content can be more instructional - ingredients, steps, timings - but sec
 - Over-hedge every claim ("might potentially perhaps")
 - Write listicle intros that promise "10 game-changing tips"
 - Turn personal gear picks into affiliate-marketing tone
+- Mention currency values (dollar amounts, peso, "what I paid") - use relative cost instead
 
 ## Expanding outlines
 

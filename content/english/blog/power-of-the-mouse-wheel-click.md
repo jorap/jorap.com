@@ -89,7 +89,7 @@ Same gesture, same result, same on every OS those editors run on.
 
 Fair. Trackpads are great for travel, couch sessions, and gestures like swiping between desktops. But trackpads don't have a real mouse wheel click - at best, you can map a three-finger tap to behave like one, and even then it's a workaround.
 
-If you have a desk you sit at for more than an hour or two a day - yes, get a mouse. Not just for the mouse wheel click, but the mouse wheel click will be one of five or six small upgrades that compound. A decent wired or wireless mouse is $25-$40. It pays back in comfort and speed within a week.
+If you have a desk you sit at for more than an hour or two a day - yes, get a mouse. Not just for the mouse wheel click, but the mouse wheel click will be one of five or six small upgrades that compound. A decent wired or wireless mouse is cheap. It pays back in comfort and speed within a week.
 
 ---
 

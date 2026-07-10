@@ -83,7 +83,7 @@ Social platforms give you a thin slice of this, and only for the content you've 
 
 People assume websites are expensive. Some are. Mine isn't.
 
-This site runs on Hugo, hosted free on Cloudflare Pages, with source on GitHub. The only thing I pay for is the domain - about twelve dollars a year. That's less than two months of any halfway-serious social media ad campaign.
+This site runs on Hugo, hosted free on Cloudflare Pages, with source on GitHub. The only thing I pay for is the domain - a small annual renewal. That's less than two months of any halfway-serious social media ad campaign.
 
 Even if you don't want to mess with code, modern site builders (Squarespace, Wix, WordPress) will get you a clean, mobile-friendly site for the cost of a couple of coffees a month. The financial barrier mostly doesn't exist anymore.
 

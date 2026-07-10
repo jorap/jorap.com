@@ -62,7 +62,7 @@ If you take calls or meetings throughout the day, **mic quality matters more tha
 
 ## They won't fall out - and they're hard to lose
 
-Earbuds falling out is a deal-breaker I've stopped tolerating. Bending down to pick something up, looking over my shoulder, putting on a shirt - none of these should send a $150 bud rolling across the floor toward a drain.
+Earbuds falling out is a deal-breaker I've stopped tolerating. Bending down to pick something up, looking over my shoulder, putting on a shirt - none of these should send an expensive bud rolling across the floor toward a drain.
 
 A neckband, ear hook, or wrap-around design solves this once and never bothers you about it again. Walking, jogging, gardening, chasing a toddler, getting in and out of the car - they should stay where I put them.
 
@@ -80,11 +80,21 @@ Give me physical buttons for power, volume, and play/pause. I can feel them. The
 
 ---
 
+## USB-C for charging
+
+I want **USB-C.** Not Micro-USB. Not a proprietary magnetic puck. Not some weird pin connector the manufacturer dreamed up so you'd have to buy a replacement from them.
+
+A proprietary charging cable is a major annoyance. The earphones die at 4pm, you reach for the cable, and it's the one cable in the house that fits *only* that pair. Everyone else in the family is on USB-C now - phones, tablets, power banks, the charger by the bed. I don't want a separate little ecosystem just for my neckband.
+
+USB-C means I can borrow a cable from anything on my desk. It means one charger by the nightstand covers the lot. It means when I travel, I'm not packing a special cord I'll lose in a hotel drawer.
+
+---
+
 ## Cheap enough that losing them wouldn't ruin my week
 
 I want gear I can wear, sweat in, drop, lend out, and replace without grief. Premium audio gear makes me protective in a way that defeats the purpose of "everyday earphones." If I'm scared to use them, I won't.
 
-Somewhere around **$30-$60** is the sweet spot where the build quality is real but the stakes are low.
+Somewhere in the **budget tier** - not checkout-aisle junk, not premium audiophile gear - is the sweet spot where the build quality is real but the stakes are low.
 
 ---
 
@@ -97,14 +107,15 @@ If I'm looking at a new pair of wireless earphones, I now scan for:
 3. Mic good enough for real meetings, not just quick calls
 4. Won't fall out during normal activity, and hard to lose
 5. Real physical buttons, not touch controls
-6. Cheap enough that I'm not precious about them
+6. USB-C charging, not a proprietary cable
+7. Cheap enough that I'm not precious about them
 
-Six things. Almost nothing on the market hits all of them.
+Seven things. Almost nothing on the market hits all of them.
 
 ---
 
 ## What I'm using right now
 
-The pair that currently checks every one of those boxes for me is the **Soundpeats RunFree.** Open-ear neckband design, all-day comfort even with glasses, a mic that holds up in actual meetings, physical buttons, hard to lose around my neck - and roughly $50.
+The pair that currently checks every one of those boxes for me is the **Soundpeats RunFree.** Open-ear neckband design, all-day comfort even with glasses, a mic that holds up in actual meetings, physical buttons, USB-C charging, hard to lose around my neck - and priced like budget gear, not premium.
 
 It's not the flashiest pick. It's just the one that quietly wins on the list above and disappears around my neck for the rest of the day. If something better comes along on the same checklist, I'll switch. Until then, this is the pair I keep reaching for.

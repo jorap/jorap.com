@@ -19,11 +19,11 @@ featured: false
 draft: false
 ---
 
-> **TL;DR**: I lost my old PHP hosting and a chunk of my work with it. After a weekend of fumbling around, I landed on Hugo + GitHub + Cloudflare Pages, and the result is genuinely better than what I was paying $12/month for. Here's exactly how I did it - including the parts I messed up.
+> **TL;DR**: I lost my old PHP hosting and a chunk of my work with it. After a weekend of fumbling around, I landed on Hugo + GitHub + Cloudflare Pages, and the result is genuinely better than what I was paying for shared hosting. Here's exactly how I did it - including the parts I messed up.
 
 ## The short backstory
 
-For years I had a basic PHP hosting plan, about $12 a month, that I shared with a client. When that client moved on, suddenly I was paying the whole bill for what was effectively just my personal blog. It didn't make sense.
+For years I had a basic PHP hosting plan, a modest monthly bill I shared with a client. When that client moved on, suddenly I was paying the whole bill for what was effectively just my personal blog. It didn't make sense.
 
 I'd been hearing about static site generators and the whole "JAMstack" thing for a while but never had a reason to try them. Losing my hosting setup turned out to be exactly that reason. Sometimes you don't fix something until you have to.
 
@@ -246,9 +246,9 @@ If my computer died tomorrow, I could clone the repo to a new machine and be wri
 
 ## What it costs me
 
-No monthly hosting bill - a big change from the old $12/month PHP plan.
+No monthly hosting bill - a big change from the old PHP plan I was splitting with a client.
 
-The only thing I actually pay for is a custom domain, about $12 a year from my registrar. Hugo, GitHub, and Cloudflare Pages handle the rest, with SSL and a global CDN included.
+The only thing I actually pay for is a custom domain, an annual renewal at my registrar. Hugo, GitHub, and Cloudflare Pages handle the rest, with SSL and a global CDN included.
 
 If you want your own domain, point it at Cloudflare from your registrar (Namecheap, GoDaddy, etc.), add it under Custom Domains in Cloudflare Pages, and wait for DNS to settle. Usually within a day.
 
