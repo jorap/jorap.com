@@ -160,11 +160,19 @@ if (hasSearchWrapper) {
       }
       return item.data.some((el) => {
         const regex = new RegExp(escapeRegex(searchString), "gi");
+        const bodyText = [
+          el.content,
+          el.keyConcept,
+          el.shareableThought,
+          el.relationships,
+        ]
+          .filter(Boolean)
+          .join(" ");
         return (
           el.title.toLowerCase().match(regex) ||
           el.description?.toLowerCase().match(regex) ||
           el.searchKeyword.toLowerCase().match(regex) ||
-          el.content.toLowerCase().match(regex) ||
+          bodyText.toLowerCase().match(regex) ||
           el.tags?.toLowerCase().match(regex) ||
           el.categories?.toLowerCase().match(regex)
         );

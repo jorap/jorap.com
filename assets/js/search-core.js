@@ -19,6 +19,18 @@ export function capitalizeFirstLetter(string) {
     .replace(/^[a-z]/, (m) => m.toUpperCase());
 }
 
+function noteBodyText(item) {
+  return [
+    item.content,
+    item.keyConcept,
+    item.shareableThought,
+    item.relationships,
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+}
+
 export function matchesSearch(item, query, opts = DEFAULT_SEARCH_OPTS) {
   const q = query.toLowerCase();
   return (
@@ -27,14 +39,14 @@ export function matchesSearch(item, query, opts = DEFAULT_SEARCH_OPTS) {
     item.searchKeyword.toLowerCase().includes(q) ||
     (opts.tags ? item.tags?.toLowerCase().includes(q) : false) ||
     (opts.categories ? item.categories?.toLowerCase().includes(q) : false) ||
-    item.content.toLowerCase().includes(q)
+    noteBodyText(item).includes(q)
   );
 }
 
 export function searchMatchPriority(item, query) {
   const q = query.toLowerCase();
   if (item.title.toLowerCase().includes(q)) return 0;
-  if (item.content.toLowerCase().includes(q)) return 1;
+  if (noteBodyText(item).includes(q)) return 1;
   return 2;
 }
 

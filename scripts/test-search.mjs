@@ -33,6 +33,9 @@ const REQUIRED_KEYS = [
   "searchKeyword",
   "categories",
   "tags",
+  "keyConcept",
+  "shareableThought",
+  "relationships",
   "content",
 ];
 
@@ -101,7 +104,15 @@ function testIndexFile() {
     if (typeof item.slug !== "string" || !item.slug.startsWith("/")) {
       fail(`item ${i} has invalid slug ${JSON.stringify(item.slug)}`);
     }
-    for (const key of ["title", "description", "content", "searchKeyword"]) {
+    for (const key of [
+      "title",
+      "description",
+      "content",
+      "searchKeyword",
+      "keyConcept",
+      "shareableThought",
+      "relationships",
+    ]) {
       if (item[key] != null && typeof item[key] !== "string") {
         fail(`item ${i} field "${key}" is not a string`);
       }
@@ -226,6 +237,17 @@ function testSearchLogic(index) {
     ),
     'query "issues" finds Issues note',
   );
+
+  const judgmentSeat = index.find(
+    (item) => item.slug === "/notes/judgment-seat/",
+  );
+  assert(judgmentSeat != null, "indexes judgment seat note");
+  if (judgmentSeat) {
+    assert(
+      matchesSearch(judgmentSeat, "bema"),
+      'query "bema" matches key_concept on judgment seat',
+    );
+  }
 }
 
 function testBuiltHtml() {

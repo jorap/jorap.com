@@ -38,6 +38,7 @@
 
 {{- $image:= $.Scratch.Get "image" -}}
 {{- $imageSM:= $.Scratch.Get "imageSM" -}}
+{{- $searchFields := partial "notes/search-index-fields.html" $e -}}
 
 {
   "section": {{ .Section | humanize | jsonify }},
@@ -50,6 +51,9 @@
   "searchKeyword": {{ .Params.search_keyword | default "" | jsonify }},
   "categories": {{ with .Params.categories }}{{ delimit . ", " | jsonify }}{{ else }}""{{ end }},
   "tags": {{ with .Params.tags }}{{ delimit . ", " | jsonify }}{{ else }}""{{ end }},
+  "keyConcept": {{ index $searchFields "keyConcept" | jsonify }},
+  "shareableThought": {{ index $searchFields "shareableThought" | jsonify }},
+  "relationships": {{ index $searchFields "relationships" | jsonify }},
   "content": {{- $e.Plain | jsonify -}}
 }{{- if ne $i (sub $totalPagesLength 1) -}},{{- end -}}
 
