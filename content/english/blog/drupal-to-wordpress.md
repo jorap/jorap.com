@@ -2,16 +2,15 @@
 title: "Why I Switched from Drupal to WordPress"
 meta_title: "Why I Left Drupal for WordPress"
 description: "I went hunting for the best open-source CMS, fell hard for Drupal's architecture, and still couldn't find work with it. WordPress had ACF and Gutenberg that felt familiar - plus a plugin ecosystem and a community big enough to pay the bills."
-date: 2026-06-18T06:30:00Z
-image: "/images/image-template.jpg"
+date: 2026-05-27T06:30:00Z
+image: "/images/drupal-to-wp.jpg"
 categories: ["Technology", "Web Development", "Opinion"]
 author: "JoRap"
 tags: ["Drupal", "WordPress", "CMS", "Web Development", "Developer Life", "Career", "Open Source", "Gutenberg", "ACF", "Content Management", "WordCamp", "PHP", "Freelance"]
-slug: "drupal-to-wordpress"
 related_notes:
   - git-based-cms
-featured: true
-draft: true
+featured: false
+draft: false
 ---
 
 > **TL;DR**: I picked Drupal after a long open-source CMS search because the architecture made sense. The community was small, updates were a chore, and I couldn't find work with it. WordPress had familiar building blocks (ACF, Gutenberg), a massive plugin shelf, and better timing. Then WordCamp Asia landed in Manila and Matt Mullenweg showed up with old Philippines WordCamp stories. That didn't hurt.
@@ -69,6 +68,8 @@ WordPress didn't just have more jobs on paper. It had more people - meetups, Fac
 Then WordCamp Asia came to **Manila**, and Matt Mullenweg was there.
 
 I can't pretend that was the reason I switched. I'd already moved by then. But sitting in a room with 1,400-ish people who build on the same platform - in your city - has a way of confirming you didn't take the cynical path.
+
+{{< youtube_time id="LEm2NXwbZKc" start="1" end="240" >}}
 
 Matt's closing Q&A wasn't a product keynote. He pulled up **old WordCamp photos from the Philippines** - including WordCamp Davao 2008, where he gave a talk from across a swimming pool because that was somehow the setup. Funny stories. Human ones. The kind that remind you this thing is held together by volunteers and stubborn optimism, not just market share.
 

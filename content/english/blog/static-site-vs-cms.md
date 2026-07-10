@@ -13,7 +13,7 @@ related_notes:
   - selling-static-sites
   - client-site-pass-off
   - minimum-effective-dose
-featured: true
+featured: false
 draft: false
 ---
 
