@@ -97,11 +97,11 @@ post_limit = 5
 section_title = "Writing for site owners"
 view_all_label = "View all posts"
 post_slugs = [
+  "sustainable-online-publishing",
   "static-site-vs-cms",
-  "why-i-focused-on-open-source",
   "top-reasons-create-maintain-your-own-website",
+  "why-i-focused-on-open-source",
   "consistent-ai-output-wordpress-builds",
-  "getting-started-with-rss-feeds-a-beginners-guide",
 ]
 
 [home_proof]
