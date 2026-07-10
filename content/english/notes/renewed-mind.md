@@ -70,7 +70,7 @@ relationships:
     wikilink: "[[Discipleship]]"
     reason: "Daily following reshapes the mind that chooses obedience"
   - type: extends
-    wikilink: "[[Do not Copy the Pattern]]"
+    wikilink: "[[Don't Copy the Pattern]]"
     reason: "Romans 12:2 refusal - do not conform before renewal reshapes the mind"
   - type: extends
     wikilink: "[[Emotional Regulation]]"

@@ -6,7 +6,7 @@ key_concept: |
   - Ethical leadership means what you let slide in front of the team becomes their real standard.
   
   - The standard you walk past is the standard you accept for everyone under you.
-  - Integrity the team can see beats what you preach on the poster.
+  - [[Integrity]] the team can see beats what you preach on the poster.
   - Silence in the room is a decision too - people read it as a yes.
 examples:
   - "I stopped the backyard wrestling match when someone was about to get hurt - same fun goal, safer path, even though the kids wanted the rougher version."

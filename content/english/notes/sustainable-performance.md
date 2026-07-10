@@ -20,7 +20,7 @@ relationships:
     wikilink: "[[The 12 Week Year]]"
     reason: "when a real quarterly sprint window needs short-term intensity you cannot repeat all year"
   - type: extends
-    wikilink: "[[Develop, Do not Endanger]]"
+    wikilink: "[[Develop, Don't Endanger]]"
     reason: "Challenge without lethal or burnout risk"
   - type: extends
     wikilink: "[[Energy Protects Judgment]]"

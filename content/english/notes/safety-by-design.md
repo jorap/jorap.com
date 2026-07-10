@@ -16,7 +16,7 @@ shareable_thought:
   - "Make the dangerous move hard by default - not just forbidden on paper."
 relationships:
   - type: contradicts
-    wikilink: "[[Develop, Do not Endanger]]"
+    wikilink: "[[Develop, Don't Endanger]]"
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Eliminate Before Managing]]"

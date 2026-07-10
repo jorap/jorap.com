@@ -24,7 +24,7 @@ relationships:
     wikilink: "[[Growth Mindset]]"
     reason: "when 'still learning' excuses never updating the starting line"
   - type: extends
-    wikilink: "[[Develop, Do not Endanger]]"
+    wikilink: "[[Develop, Don't Endanger]]"
     reason: "Real limits - challenge without fantasy bandwidth"
   - type: extends
     wikilink: "[[Grace]]"

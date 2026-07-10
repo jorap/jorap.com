@@ -26,7 +26,7 @@ relationships:
     wikilink: "[[Pareto Principle]]"
     reason: "when I protect my 20% status and treat everyone else as support staff"
   - type: extends
-    wikilink: "[[Develop, Do not Endanger]]"
+    wikilink: "[[Develop, Don't Endanger]]"
     reason: "Serve the team by protecting growth - not by sacrificing people to prove toughness"
   - type: extends
     wikilink: "[[Discipleship vs Leadership]]"

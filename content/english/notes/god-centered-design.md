@@ -41,7 +41,7 @@ relationships:
     reason: "Faith lane for clear outcome - God's reign before urgency"
   - type: extends
     wikilink: "[[Renewed Mind]]"
-    reason: "Do not conform life to culture's design defaults"
+    reason: "[[Don't Copy the Pattern]] - do not conform life to culture's design defaults"
   - type: extends
     wikilink: "[[Sanctification]]"
     reason: "Design life for slow becoming under God's reign"

@@ -5,7 +5,7 @@ description: "When leadership pressure and Christ command collide, follow Christ
 key_concept: |
   {{< bible "Matthew 16:24" >}}
   - Deny self and follow Christ first when org-chart pressure and gospel command pull different ways.
-  - Discipleship vs Leadership names two seats - upward allegiance and outward care.
+  - [[Discipleship]] vs [[Leadership]] names two seats - upward allegiance and outward care.
   - [[God Centered Design]] asks who the plan ultimately serves before I optimize the slide.
   - [[Ethical Leadership]] is what the team can see - but visible integrity without private obedience is sand.
   - [[Follow Christ, Then Lead]] is the move when the room wants a shortcut, a cover-up, or a compromise I would never take alone with Scripture open.
