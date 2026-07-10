@@ -5,7 +5,6 @@ description: "Love through self-control is one Spirit-grown cluster in believers
 key_concept: |
   {{< bible ref="John 15:1-8" emphasize="5" >}}
   
-  - Love through self-control is one Spirit-grown cluster in believers, not a merit checklist that buys heaven.
   
   - Much fruit glorifies the Father and proves discipleship - grown on the vine, not manufactured for credit.
   

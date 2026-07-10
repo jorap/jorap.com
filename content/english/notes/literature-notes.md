@@ -6,7 +6,6 @@ key_concept: |
   - Notes about a source in your own words - not a highlight dump.
   - Source notes stay tied to the book or talk - your atoms link out, not the other way around.
   - [[Atomic Notes]] are your claims; literature notes hold the source.
-  - After I read a source, I write what stuck in my own words - not a pile of copied highlights.
 examples:
   - "I wrote one paragraph on the coach's chapter about zone defense, not yellow highlights on every page."
   - "The PTA recap was what I actually remembered from the meeting, not a transcript of every speaker."

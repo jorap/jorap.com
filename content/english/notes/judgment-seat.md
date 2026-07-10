@@ -4,12 +4,12 @@ meta_title: "Judgment Seat - Believers Evaluated for Works"
 description: "Believers stand before Christ after salvation to have works evaluated for reward - eternal life was already settled by faith."
 key_concept: |
   {{< bible ref="Matthew 16:24-27" emphasize="27" >}}
-
+  
   - The Son of Man repays deeds - reward review for the saved, not re-deciding who gets eternal life.
   - [[Free Grace]] and [[Justification]] already decided where I spend forever.
-
+  
   {{< bible ref="1 Corinthians 3:12-15" emphasize="15" >}}
-
+  
   - Paul's fire test - some work burns, you are still saved through fire; worthless work shrinks reward, not standing.
   - The judgment seat (Greek *bema* - think awards podium, not criminal court) decides what reward faithful living earned.
   - [[Eternal Rewards]] names the promise; this note names the evaluation.
@@ -18,8 +18,6 @@ key_concept: |
   - [[Secret Devotion]] and [[Let Your Light Shine]] both show up in the ledger - hidden and public obedience counted by Christ, not the audience.
   - [[Loss of Reward]] keeps the categories straight: saved through fire with loss, not unsaved.
   - PKM mirror: [[Periodic Knowledge Review]] - the whole history gets reviewed, not one heroic week mistaken for the whole career.
-  - Believers stand before Christ after salvation to have works evaluated for reward.
-  - Eternal life was already settled by faith.
 examples:
   - "I pictured standing before Christ and panicked like heaven might get revoked - the judgment seat evaluates works for reward; salvation was settled at faith."
   - "Years of church service felt like my ticket in - what gets weighed is faithful obedience after salvation, not a re-trial on who gets eternal life."

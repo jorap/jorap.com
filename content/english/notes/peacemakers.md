@@ -4,14 +4,9 @@ meta_title: "Peacemakers - Matthew 5:9 Beatitude"
 description: "Pursue peace on purpose - repair, truth in love, de-escalation - not just staying quiet."
 key_concept: |
   {{< bible "Matthew 5:9" >}}
-
-  - Blessed are peacemakers - active repair, not just staying quiet while two friends feud.
-  - The Beatitudes beatitude for peacemakers - active repair, not just staying quiet while two friends feud.
+  
   - Peacemaking is work: reconciliation, truth spoken in love, de-escalation when others want a fight.
   - The blessing ties peacemaking to family resemblance - acting like the Father who reconciled me to Himself through [[Free Grace]] before I reconciled with anyone.
-  - I pursue peace on purpose.
-  - Repair, truth in love, de-escalation - not just staying quiet.
-  - Peacemakers pursue peace on purpose - they do not just avoid conflict and call it fine.
 examples:
   - "Two teammates were feuding in the locker room - I did not pick a side, I asked what it would take to fix it before the next game."
   - "Two coworkers wanted me to pick a side over lunch - I called the one I wronged first and asked what it would take to actually fix things."

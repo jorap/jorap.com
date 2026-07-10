@@ -3,8 +3,6 @@ title: "Listen Before Fixing"
 meta_title: "Listen Before Fixing - Hear It Before You Solve It"
 description: "Listen before fixing - repeat what you heard, then respond. Feeling heard comes before being helped."
 key_concept: |
-  - Feeling heard comes before being helped.
-  - Listen before fixing - repeat what you heard, then respond.
   - I repeat what I heard before I prescribe.
   - Repeating what I heard keeps advice from landing like a correction.
 examples:

@@ -7,8 +7,6 @@ key_concept: |
   - [[Reversibility]] is the decision frame; rollback is the rehearsed move.
   - Last quarter I kept a bad Friday deploy live because I wanted the milestone more than the rollback conversation.
   - The team needed "my call, here's the fix," not a speech.
-  - Restore the last good state before you push.
-  - When the new state breaks, revert first, debug second.
 examples:
   - "Bad Friday deploy - I reverted in standup, said my call, fixed Monday."
   - "The point guard ran Tuesday's inbound at halftime when the new play bled points - rollback was the drill they would already walked, not a whiteboard invention."

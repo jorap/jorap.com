@@ -5,7 +5,6 @@ description: "Stop the unsafe thing first, then restore choice when the situatio
 key_concept: |
   - Respect does not mean I ignore danger - I stop serious harm first, then restore choice when it is safe.
   - The choice they lose is narrow and temporary - which risk, not whether to be safe at all.
-  - I stop the unsafe thing first, then restore choice when the situation is stable.
   - Respect is not letting harm run.
 examples:
   - "A teammate wanted to play through a head hit - I did not \"support his call\"; I got the trainer."

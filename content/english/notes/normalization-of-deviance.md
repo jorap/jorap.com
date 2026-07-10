@@ -5,7 +5,6 @@ description: "Repeated close calls slowly redefine 'normal' until disaster feels
 key_concept: |
   - The third unchallenged shortcut is the warning - not the accident that finally forces a meeting.
   - [[Heed Every Near-Miss]] logs each close call; [[Blameless After-Action Review]] when "nobody died" cannot end the talk.
-  - Repeated close calls slowly redefine 'normal' until disaster feels surprising but was predictable.
   - By the fourth or fifth time, the shortcut is not even a decision anymore - it is just how things are done here.
 examples:
   - "Third time someone ran the red light in the parking lot and nobody wrote it up - until the fender bender."

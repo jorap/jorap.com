@@ -4,9 +4,8 @@ meta_title: "Christianity and Politics - Dual Allegiance Without Idolatry"
 description: "Caesar gets what Caesar is owed and God gets what is His - no party gets the soul."
 key_concept: |
   {{< bible ref="Matthew 22:21" >}}
-
+  
   - Coin to Caesar, self to God - civic duty without making Rome or any party ultimate lord.
-  - Caesar gets what Caesar is owed and God gets what is His - no party gets ultimate allegiance.
   - Coin to Caesar, self to God - civic duty without making Rome or any party ultimate lord.
   - [[Seek the Kingdom First]] still ranks God's reign above every election cycle - without excusing dodged taxes, permits, or jury duty.
   - [[Love Your Neighbor]] and [[Love Your Enemies]] stretch across party lines: the person on the other feed is still my neighbor, not a target.

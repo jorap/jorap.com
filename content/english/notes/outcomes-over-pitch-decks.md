@@ -12,7 +12,6 @@ key_concept: |
   - Gospel source: [[By Their Fruits]].
   - PKM parallel: [[Signal vs Noise]].
   - do not condemn souls; do read the fruit over time.
-  - Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura.
 examples:
   - "The trainer's Instagram was polished - I asked two parents who finished the program about injuries and consistency."
   - "The contractor's portfolio was gorgeous - I asked two neighbors who lived through the remodel about permit fights and cracked tile."

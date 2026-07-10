@@ -11,7 +11,6 @@ key_concept: |
   - [[Ethical Leadership]] still applies - what you tolerate becomes their standard even when they are only complying on paper.
   - [[Servant Leadership]] is the repair path: unblock, coach, take blame up, pass credit down - deposits that turn borrowed authority into granted influence.
   - [[Title Without Influence]] is not permanent if you stop leaning on the badge and start earning followership.
-  - A title borrows authority; if nobody moves when you speak, you are managing paperwork, not leading.
 examples:
   - "I got the supervisor slot but the crew still routed every real decision through the tech who had covered their shifts during the last outage - title without influence until I earned the same trust."
   - "The department head ran weekly syncs nobody prepared for because nothing from those rooms changed how work got done - badge on the calendar, zero followership in the hall."

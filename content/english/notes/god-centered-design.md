@@ -5,7 +5,6 @@ description: "Design life and work around God glory first - not crowd applause, 
 key_concept: |
   {{< bible ref="Matthew 5:14-16" emphasize="16" >}}
   
-  - God-centered design orders life and work around God's glory first, not crowd applause, ego, or comfort.
   
   - Good works visible so the Father gets glory - build for His name, not my brand.
   - A calendar built for applause still feels empty on Monday.

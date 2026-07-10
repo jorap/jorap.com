@@ -5,10 +5,7 @@ description: "Set goals and review on a thirteen-week rhythm - short enough to f
 key_concept: |
   - Zoom out every ninety days so weekly noise does not eat the year's aim.
   - A year-long goal hides slippage for months; thirteen weeks cannot.
-  - Set goals and review on a thirteen-week rhythm.
-  - Short enough to feel real.
   - Long enough to actually finish something, short enough that slipping is still visible before it is too late.
-  - Quarterly planning works in thirteen-week arcs - short enough to feel real on the calendar.
 examples:
   - "First Sunday of the quarter we picked three outcomes - not twenty wishes that drowned the month."
   - "The clinic's ninety-day huddle moved one backlog project to done instead of adding a fourth starter."

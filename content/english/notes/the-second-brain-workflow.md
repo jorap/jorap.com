@@ -6,9 +6,6 @@ key_concept: |
   - CODE and PARA in one daily-to-weekly loop - capture daily, express weekly.
   - Organize by project, distill when you reuse - do not polish notes nobody reads yet.
   - Express weekly closes the loop - capture and organize are not enough.
-  - Capture to inbox, organize by project, distill on reuse, express weekly.
-  - CODE and PARA in one loop.
-  - The second-brain workflow runs CODE and PARA in one loop - capture daily, express weekly.
 examples:
   - "Links land in one inbox all week; weekly review empties it and ships one note - one loop, not separate capture and organize rituals I quit."
   - "Friday night is capture everything in one jar; Sunday is sort, toss, and file what's worth keeping."

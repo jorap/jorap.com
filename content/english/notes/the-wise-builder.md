@@ -4,11 +4,11 @@ meta_title: "The Wise Builder - Hear and Do"
 description: "Hearing the words is not enough - build on rock by actually doing what Jesus said."
 key_concept: |
   {{< bible ref="Matthew 7:24" label="Matthew 7:24-27" emphasize="24" >}}
-
+  
   - Hear and do - rock in the storm; hearing sermons without obedience is sand.
-
+  
   {{< bible ref="Matthew 7:21" label="Matthew 7:21-23" emphasize="21" >}}
-
+  
   - Lord Lord without doing the Father's will - empty profession, not a stumbled believer who repents.
   - Storms reveal which foundation held.
   - Under [[Free Grace]], doing is not what saves - faith saves - but genuine hearing produces action.
@@ -16,7 +16,6 @@ key_concept: |
   - Empty "Lord, Lord" without doing the Father's will is the fool's house - see [[The Narrow Way]] and [[Loss of Reward]] for false profession vs believer who stumbles.
   - PKM mirror: [[The Collector's Fallacy]] - hearing sermons and saving articles without [[Creative Output]] is sand; obedience and output are rock.
   - Doing is not what saves - faith saves - but genuine hearing still produces action.
-  - Hearing the words is not enough - I build on rock when I actually do what Jesus said.
   - False profession and a stumbling believer are not the same thing.
 examples:
   - "We heard the coach's lecture on discipline and still skipped film study Tuesday - hearing without doing is sand; storms show which builder you are."

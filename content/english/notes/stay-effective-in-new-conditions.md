@@ -6,7 +6,6 @@ key_concept: |
   - The tell is confidence that does not match the room - certainty imported from somewhere else.
   - Real competence means staying useful outside ideal setups, familiar roles, and comfortable routines - new tools, new teams, crisis mode, career pivots.
   - The habit that worked in my last role can flop in the next room.
-  - I retune instead of clinging.
   - Nobody warns you the room changed; you just start losing at things that used to work.
 examples:
   - "I walked the new counter before the lunch rush instead of defending last month's habits when the line got long."

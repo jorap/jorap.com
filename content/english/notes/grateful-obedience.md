@@ -4,10 +4,9 @@ meta_title: "Grateful Obedience - Obey Because Grace Already Saved"
 description: "Obedience flows from thanks because Christ already saved - not to buy or re-earn eternal life."
 key_concept: |
   {{< bible ref="John 14:15-17" emphasize="15" >}}
-
+  
   - Love shows up as keeping His commands - thanks after salvation, not payment to earn it.
-  - Grateful obedience obeys today because Christ already saved, not to buy or re-earn eternal life.
-
+  
   - Love shows up as keeping His commands - thanks after salvation, not payment to earn it.
   - [[Discipleship]] is the daily walk; [[Sanctification]] is slow becoming.
   - [[Fruits of the Spirit]] is what shows up when the posture is real - love, patience, gentleness grown by the Spirit, not performed for credit.
@@ -22,7 +21,7 @@ shareable_thought:
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"
-    reason: when obedience streaks become proof you are saved
+    reason: "when obedience streaks become proof you are saved"
   - type: extends
     wikilink: "[[Abide in Me]]"
     reason: "Fruit and obedience flow from connection, not earning your spot"

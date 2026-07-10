@@ -4,7 +4,7 @@ meta_title: "Secret Devotion - For the Father's Eyes Alone"
 description: "Give, pray, and fast for God to see - not for applause in the group chat."
 key_concept: |
   {{< bible ref="Matthew 6:1-18" emphasize="6" >}}
-
+  
   - Some good shines publicly; some stays hidden so the left hand does not know what the right is doing.
   - Piety for an audience is its own reward - give, pray, fast for the Father who sees in secret.
   - Some good shines publicly; some stays hidden so the left hand does not know what the right is doing.
@@ -13,7 +13,6 @@ key_concept: |
   - It contrasts [[Let Your Light Shine]] - some good works shine publicly for God's glory.
   - Other devotion stays hidden so the left hand does not know what the right is doing.
   - [[Free Grace]] means I am not earning visibility points with God.
-  - I give, pray, and fast for God to see - not for applause in the group chat.
 examples:
   - "I pray with the kids before bed with the door closed - no photo, no caption, just the Father who already knows we are here."
   - "The player trains at five am without live-streaming shootarounds - the game is the point, not the Strava badge."

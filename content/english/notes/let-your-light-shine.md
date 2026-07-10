@@ -4,16 +4,15 @@ meta_title: "Let Your Light Shine - Good Works That Glorify God"
 description: "Good works are not for hiding - let people see the Father in how you live, not perform for applause."
 key_concept: |
   {{< bible ref="Matthew 5:14-16" emphasize="16" >}}
-
+  
   - City on a hill cannot hide - let good works shine so people glorify the Father, not my personal brand.
-
+  
   {{< bible ref="Matthew 6:1-4" emphasize="4" >}}
-
+  
   - Not performance piety for applause - visible good for God's credit, not my feed.
   - The point is not performance for applause - Jesus warns against practicing righteousness to be seen by people.
   - Good works shine so God gets credit for [[Free Grace]] at work in a saved life, not so I build a personal brand.
   - Parallel in the garden: [[Drafting in Public]] puts rough notes in the open so ideas get tested - same visibility instinct, different aim (glorify God, not the author).
-  - Good works are not for hiding - let people see the Father in how I live, not perform for applause.
 examples:
   - "I brought extra water for the whole bench and almost posted about it - the light is not for my brand; it is so someone sees good work and thinks God is real."
   - "I covered a coworker's shift quietly and almost made it a LinkedIn moment - let your light shine so the Father gets credit, not my personal brand."

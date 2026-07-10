@@ -6,10 +6,9 @@ key_concept: |
   - Failure becomes useful only when it produces correction.
   - Reflect on what happened, pull out the lesson, design a better response, and test it the next time the situation shows up.
   - Stewing without change is just suffering.
-  - Convert pain into learning means failure must produce correction, not stewing without change.
 examples:
-  - I bombed a client presentation and stewed for a week - convert pain into learning was one page on weak transitions, rehearsed bridges ten times, and two fewer slides.
-  - I missed the turn twice on the new commute - one note on where the sign hides, tested next Monday, because stewing without change would have been just suffering.
+  - "I bombed a client presentation and stewed for a week - convert pain into learning was one page on weak transitions, rehearsed bridges ten times, and two fewer slides."
+  - "I missed the turn twice on the new commute - one note on where the sign hides, tested next Monday, because stewing without change would have been just suffering."
 shareable_thought:
   - "Convert pain into learning means failure must produce correction, not stewing without change."
   - "Failure becomes useful only when it produces correction."

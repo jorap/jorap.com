@@ -3,27 +3,25 @@ title: "Git-Based CMS"
 meta_title: "Git-Based CMS - Buttons for Non-Git Editors"
 description: "A git CMS commits markdown to the repo so clients get buttons while the same push-live build still runs."
 key_concept: |
-  - A git CMS commits markdown to the repo so clients get buttons while the same push-live build still runs.
-
   - Publish via Git directly when you are the author; clients often will not.
   - Git stays source of truth; the CMS is just another commit path.
   - Still say no to bad dynamic scope - CMS does not add a database.
   - [[Minimum Effective Dose]] for solo sites: skip the CMS layer entirely.
 examples:
-  - Church volunteer will not open a terminal - Sveltia on the repo, she edits announcements, Cloudflare rebuilds on save.
+  - "Church volunteer will not open a terminal - Sveltia on the repo, she edits announcements, Cloudflare rebuilds on save."
   - "I added Decap for a client who insisted on WordPress-like editing - honest scope: blog posts only, not plugins; still cheaper than hosted WordPress long term."
 shareable_thought:
-  - A git CMS commits markdown to the repo so clients get buttons while the same push-live build still runs.
-  - Git stays source of truth; the CMS is just another commit path.
-  - Still say no to bad dynamic scope.
-  - CMS does not add a database.
+  - "A git CMS commits markdown to the repo so clients get buttons while the same push-live build still runs."
+  - "Git stays source of truth; the CMS is just another commit path."
+  - "Still say no to bad dynamic scope."
+  - "CMS does not add a database."
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Effective Dose]]"
-    reason: when a solo dev site does not need a CMS layer on top of markdown
+    reason: "when a solo dev site does not need a CMS layer on top of markdown"
   - type: extends
     wikilink: "[[Client Site Pass-Off]]"
-    reason: CMS pass-off is a fourth path when Git lesson will not land
+    reason: "CMS pass-off is a fourth path when Git lesson will not land"
   - type: extends
     wikilink: "[[Free Tier Hosting Stack]]"
     reason: "Still markdown in git, still Cloudflare build on push"

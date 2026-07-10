@@ -4,7 +4,6 @@ meta_title: "Coaching Ethics"
 description: "Develop the person without hiding behind consent when the drill is unsafe or pointless."
 key_concept: |
   - Consent does not erase the job when the drill is unsafe.
-  - Develop the person without hiding behind consent when the drill is unsafe or pointless.
   - Waivers protect against lawsuits, not against the drill actually hurting someone.
   - Unsafe or pointless drills still owe reasonable protection to people under your influence.
 examples:

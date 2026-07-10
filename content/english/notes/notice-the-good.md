@@ -7,7 +7,6 @@ key_concept: |
   - Specific praise names the behavior I want again - that is how [[Process Over Outcomes]] sounds out loud.
   - Vague thanks flatters; spelled-out moves give people something to repeat tomorrow.
   - The stake is reinforcement: praise the scoreboard and the steady process stays invisible.
-  - Notice the good means naming the specific helpful move so people know what to repeat.
 examples:
   - "After practice I told the kid who boxed out every drill that his rebounds won the scrimmage and he should keep sealing like that."
   - "I emailed the intern that catching the duplicate invoice before I did saved us a call - specific beats a generic thanks slide."

@@ -4,7 +4,7 @@ meta_title: "Success is Stewardship - Borrowed Gifts, Not Permanent Ownership"
 description: "Success is borrowed - accountable for how gifts are used, not entitled to keep them forever."
 key_concept: |
   {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
-
+  
   - Promotion and platform are entrusted for faithful use - enter the master's joy, do not bury the talent in ego.
   - Success is not ownership - it is stewardship of what I was given: time, health, platform, money, influence.
   - [[Free Grace]] settled where I spend forever; stewardship settles what I do with the gifts after.
@@ -13,7 +13,6 @@ key_concept: |
   - [[Eternal Rewards]] names repayment; [[Judgment Seat]] names the review.
   - Workplace mirrors: [[Servant Leadership]], [[Share What You Learn]], [[Integrity Without an Audience]] - use the slot for the team, not ego.
   - PKM mirror: [[Creative Output]] and [[Digital Garden]] - notes hoarded help nobody; [[The Collector's Fallacy]] is burying the talent in bookmarks.
-  - Success is borrowed - I am accountable for how I use what I was given, not entitled to keep it forever.
 examples:
   - "Site traffic spiked after a post hit and I caught myself acting like I would built a kingdom - success is stewardship: tend the garden, share what landed, do not confuse reach with ownership."
   - "Promotion email landed and I started treating my team like support staff - the title was entrusted for their good, not a trophy I earned to keep."

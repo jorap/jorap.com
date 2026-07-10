@@ -4,7 +4,7 @@ meta_title: "Sanctification - Becoming Holy After Faith"
 description: "After God declares me righteous, he keeps shaping my habits and heart - growth, not the ticket in."
 key_concept: |
   {{< bible ref="John 17:17-19" emphasize="17" >}}
-
+  
   - Jesus asks the Father to make us holy through truth - Scripture shapes the slow becoming, not one heroic week.
   - [[Christlikeness]] names the aim; sanctification names the slow walk after standing was settled at faith.
   - Sanctification settles who I am becoming on the way.
@@ -16,8 +16,6 @@ key_concept: |
   - [[Eternal Rewards]] repays faithful obedience; [[Loss of Reward]] warns that a wasted season may shrink reward but does not un-save you.
   - Sanctification is the slow becoming that obedience shapes.
   - PKM mirror: [[Process Over Outcomes]] - daily faithfulness beats one heroic week I treat like proof I am saved.
-  - After God declares me righteous, he keeps shaping my habits and heart.
-  - Growth, not the ticket in.
   - Sanctification is growth after faith - not the ticket that got me in the door.
   - Discipleship is the daily walk with Jesus - not a one-time decision I filed and forgot.
 examples:

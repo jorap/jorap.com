@@ -3,7 +3,6 @@ title: "Synthesis as a Goal"
 meta_title: "Synthesis as a Goal - Notes Should Combine"
 description: "Merge sources into what you believe and can defend - a quote pile is not the goal."
 key_concept: |
-  - I merge sources into what I believe and can defend - a quote pile is not the goal.
   - Collecting quotes is not PKM for me - belief has to live in prose I can defend.
   - Synthesis is when learning starts - merge sources into one claim I would ship.
   - The wiki can hold borrowed lines; I still owe one page in my own words.
@@ -11,10 +10,10 @@ examples:
   - "Three coaches' clips on our press sat in my folder until I merged them into one drill we actually ran Tuesday."
   - "Five parenting articles became one rule on the fridge - merged into what we believe about screens, not a quote collection."
 shareable_thought:
-  - "I merge sources into what I believe and can defend."
+  - "Merge sources into what you believe and can defend."
   - "A quote pile is not the goal."
-  - "Collecting quotes is not PKM for me - belief has to live in prose I can defend."
-  - "Synthesis is when learning starts."
+  - "Collecting quotes is not PKM for me."
+  - "Belief has to live in prose I can defend."
 relationships:
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"

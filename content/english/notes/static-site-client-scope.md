@@ -18,7 +18,6 @@ key_concept: |
   - [[Git-Based CMS]] when buttons beat terminal.
   - Seasonal pages, external embeds (donate link, Formspree, Calendly) - site stays static, tool carries the dynamic part.
   - [[Minimum Effective Dose]]: smallest site that solves the job - do not force Hugo where WordPress was honest.
-  - Static sites fit text and images on git push - not live databases or mystery WordPress admins.
 examples:
   - "Cafe owner wanted online ordering - out of scope; menu page plus link to existing delivery app."
   - "Gym wanted class schedule from booking SaaS - embed the vendor widget; static shell around it was fine."

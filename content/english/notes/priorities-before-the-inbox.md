@@ -9,7 +9,6 @@ key_concept: |
   - One block on the actual deliverable - spec, hard conversation, [[Deep Work]] - before I answer pings.
   - Gospel source: [[Seek the Kingdom First]].
   - PKM parallel: [[Signal vs Noise]].
-  - Put the real priority first before email, Slack, and everyone else's urgency rewrite my morning.
   - Priorities before the inbox means one protected block on the actual deliverable - email can wait its turn.
 examples:
   - "Game film due Friday - I cut it before answering every parent group chat ping."

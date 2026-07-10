@@ -3,8 +3,6 @@ title: "Compounding"
 meta_title: "Compounding - Small Gains That Stack Over Time"
 description: "Compounding is small gains stacked over time - the curve stays flat until it suddenly bends."
 key_concept: |
-  - Compounding is small gains stacked over time - the curve stays flat until it suddenly bends.
-
   - Small gains repeated look like nothing is happening; most people quit right before the curve would have bent.
   - Borrowed from finance, but it applies anywhere today's gain makes tomorrow easier: notes linked over years, publish cadence, vocab drills.
   - Heroic weeks feel good; boring repetition wins.

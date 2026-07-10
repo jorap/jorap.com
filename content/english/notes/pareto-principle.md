@@ -8,8 +8,6 @@ key_concept: |
   - Same rule for flashcards: only spine notes carry `review: true` here
   - PKM habits plus six [[Eternal Principles]] with cards, not every faith note in the garden.
   - Cards ask what I would *do*, not what I would *define*.
-  - The Pareto principle is the 80/20 rule.
-  - Most results come from a small slice of effort.
 examples:
   - "The kids' activity list had six things and we skipped three nights - I trimmed to basketball and piano and we actually showed up."
   - "My reading pile had forty tabs - the five that moved work got Sunday morning, the rest got deleted."

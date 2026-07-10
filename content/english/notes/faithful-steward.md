@@ -4,7 +4,7 @@ meta_title: "Faithful Steward - Well Done for Faithful Use"
 description: "After salvation is settled, stewardship is about faithful use of what God entrusted, not buying heaven with busy weeks."
 key_concept: |
   {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
-
+  
   - Well done for faithful use of what He entrusted - quiet Tuesdays count, not one heroic mission trip.
   - [[Free Grace]] settled where I spend forever.
   - Stewardship settles what I do with what He entrusted after.
@@ -12,7 +12,6 @@ key_concept: |
   - [[Eternal Rewards]] names the promise; [[Faithful Steward]] names the parable Jesus told for it.
   - [[Compounding]] is the PKM mirror: small faithful use over years, not one heroic week mistaken for a merit purchase on heaven.
   - [[Judgment Seat]] is where accounts get reviewed; [[Secret Devotion]] and [[Integrity Without an Audience]] are hidden lanes of faithful use nobody applauded.
-  - After salvation is settled, stewardship is about faithful use of what God entrusted, not buying heaven with busy weeks.
   - Free Grace settled where I spend forever - stewardship is what I do with what He entrusted after.
   - Quiet Tuesdays nobody applauded still count when the gift was used faithfully.
 examples:

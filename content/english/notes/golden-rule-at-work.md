@@ -4,7 +4,6 @@ meta_title: "Golden Rule at Work - Treat Colleagues How You Want to Be Treated"
 description: "Treat colleagues the way you want to be treated - in email tone, credit, deadlines, and hallway gossip."
 key_concept: |
   {{< bible ref="Matthew 7:12" emphasize="12" >}}
-  - Treat colleagues the way you want to be treated - active care, not just avoiding harm.
   
   - It is active, not passive: do the helpful thing, do not only avoid harm.
   - The check is experiential - how would you want feedback delivered, how would you want to be included, how would you want a mistake handled?

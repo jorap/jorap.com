@@ -5,7 +5,6 @@ description: "A folder of unread saves is not a garden - prune monthly and wire 
 key_concept: |
   - Active curation is revisiting, pruning, and ordering notes - choosing what sits next to what is creative work.
   
-  - A folder of unread saves is not a garden until someone prunes monthly and wires what they would actually recommend.
   - Unread saves rot until monthly prune and meaningful links replace the pile.
 examples:
   - "A first-Sunday idea pile review trashes saved links nobody would act on today and finally links half-finished thoughts."

@@ -4,7 +4,6 @@ meta_title: "Note Relationships - Four Link Types for the Garden"
 description: "My graph shows extends, contradicts, implements, alternative - not just two notes mentioning the same word."
 key_concept: |
   - Four pair types in `relationships` frontmatter show how ideas push and pull - not just that two notes mention each other.
-  - My graph shows extends, contradicts, implements, alternative - not just two notes mentioning the same word.
   - Extends asks what this idea builds on; contradicts names the tradeoff it pushes against.
   - Implements names what makes the idea real; alternative names another path that does the job.
 examples:

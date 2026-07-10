@@ -4,7 +4,6 @@ meta_title: "Life Before Achievement - No Goal Justifies Avoidable Death Risk"
 description: "Human life is non-negotiable - even when the goal is a championship or a reputation for toughness."
 key_concept: |
   - Those goals have value only while the methods used to reach them respect safety.
-  - Human life is non-negotiable - even when the goal is a championship or a reputation for toughness.
   - When an activity offers limited benefit but carries an avoidable risk of irreversible harm, leaders choose the safer course.
   - Human life comes before the championship or the reputation for toughness.
 examples:

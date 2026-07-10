@@ -8,7 +8,6 @@ key_concept: |
   - [[do not Worry]] is the trust echo: stop borrowing tomorrow's trouble.
   - [[Peacemakers]] is the active echo: pursue reconciliation, not just keep quiet.
   - [[Seek the Kingdom First]] orders the week before anxiety sets the agenda - same fruit, two moves - rest in the Father, work for peace where you can.
-  - Peace is Spirit-grown calm in believers who trust the Father - not silence at any price.
 examples:
   - "I thumb-refreshed the news at 2am instead of sleeping - peace fruit was pray first, then act on what I can actually change."
   - "Two coworkers wanted me to pick a side - peace was not avoiding them; it was asking what it would take to fix things."

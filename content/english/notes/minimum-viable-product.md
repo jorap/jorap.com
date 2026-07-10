@@ -6,7 +6,6 @@ key_concept: |
   - The smallest thing I can ship that tests the idea - not a polished fantasy.
   - I would rather publish a rough note or prototype and learn than polish in private for months.
   - Client work: [[Selling Static Sites]] is the same loop - one pilot site on [[Free Tier Hosting Stack]] before I package tiers and upsells.
-  - Ship the smallest version that proves someone actually wants this - polish comes after proof.
 examples:
   - "I sat on a half-planned birthday party for three months - we ordered pizza, one banner, kids had a blast, learned more than another month of Pinterest."
   - "We ran one new play in scrimmage before printing playbooks for the whole league - learned more in forty minutes than another week of polish."

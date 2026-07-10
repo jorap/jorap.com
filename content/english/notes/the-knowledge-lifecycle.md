@@ -3,18 +3,18 @@ title: "The Knowledge Lifecycle"
 meta_title: "The Knowledge Lifecycle - From Spark to Archive"
 description: "Ideas move through capture, use, polish, fade, and archive - match effort to the stage."
 key_concept: |
-  - Ideas move through capture, use, polish, fade, and archive - spend effort where the idea actually is.
-  - Ideas move through capture, use, polish, fade, and archive in my vault.
-  - I match effort to the stage an idea is in, not the stage I wish it were.
+  - Raw capture gets tagged and dated - polish waits until reuse is real.
+  - Fade is a signal to archive, not proof the idea was worthless.
   - Spend effort on polish only when an idea is in reuse - not when it is still a raw capture.
+  - [[Note Maturity]] names the stages this lifecycle tracks.
+shareable_thought:
+  - "Ideas move through capture, use, polish, fade, and archive - match effort to the stage."
+  - "Raw capture gets tagged and dated - polish waits until reuse is real."
+  - "Fade is a signal to archive, not proof the idea was worthless."
+  - "Spend effort on polish only when an idea is in reuse - not when it is still a raw capture."
 examples:
   - "The new set play lives in \"learning\" for three weeks, graduates to \"game plan,\" then gets archived when we change offense."
   - "The school FAQ note started as a fleeting capture, got updated all semester, then moved to archive when the kid changed schools."
-shareable_thought:
-  - "Ideas move through capture, use, polish, fade, and archive in my vault."
-  - "I match effort to the stage."
-  - "Spend effort where the idea actually is."
-  - "Spend effort on polish only when an idea is in reuse - not when it is still a raw capture."
 relationships:
   - type: contradicts
     wikilink: "[[Evergreen Notes]]"

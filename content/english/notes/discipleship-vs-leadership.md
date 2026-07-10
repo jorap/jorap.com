@@ -4,10 +4,9 @@ meta_title: "Discipleship vs Leadership - Two Seats, One Person"
 description: "Discipleship is who you follow upward; leadership is who looks to you for direction and care."
 key_concept: |
   {{< bible ref="Matthew 20:26-28" emphasize="28" >}}
-
+  
   - Greatness is service - Son of Man came to serve; two seats, upward allegiance and outward care.
-  - Discipleship is who you follow upward; leadership is who looks to you for direction and care - two seats.
-
+  
   - Greatness is service - Son of Man came to serve; upward allegiance and outward care stay separate.
   - [[Discipleship]] answers upward; [[Leadership]] answers outward - direction, pace, and care when people look your way.
   - Swapping them is the failure: running a standup is not following Christ, and a promotion does not cancel private obedience.
@@ -16,10 +15,10 @@ examples:
   - "I ran the youth program like a CEO and skipped morning prayer for a month - leadership filled the calendar; discipleship is who I follow when nobody's watching."
   - "Promotion meant calm direction in the outage, but I still had to confess the shortcut I took on the report - leadership is who looks to me; discipleship is who I answer to."
 shareable_thought:
-  - Discipleship is who you follow upward; leadership is who looks to you for direction and care.
-  - Two seats, same person - upward allegiance and outward care stay separate.
-  - Running a standup is not following Christ.
-  - A promotion does not cancel private obedience.
+  - "Discipleship is who you follow upward; leadership is who looks to you for direction and care."
+  - "Two seats, same person - upward allegiance and outward care stay separate."
+  - "Running a standup is not following Christ."
+  - "A promotion does not cancel private obedience."
 relationships:
   - type: alternative
     wikilink: "[[Servant Leadership]]"
@@ -50,7 +49,7 @@ relationships:
     reason: "Horizontal seat - direction, pace, care when people look to you"
   - type: extends
     wikilink: "[[Share What You Learn]]"
-    reason: Workplace echo of making disciples - pass on skill, do not hoard
+    reason: "Workplace echo of making disciples - pass on skill, do not hoard"
   - type: extends
     wikilink: "[[Standing vs Fellowship]]"
     reason: "Typed distinction pattern - two categories that feel merged until named"

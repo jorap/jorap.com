@@ -5,7 +5,6 @@ description: "If roles flipped, reasonable protection from harm is the bar owed 
 key_concept: |
   - Duty of care owes people the protection you would expect if roles were reversed - not the minimum the handbook allows.
   
-  - If roles flipped, reasonable protection from harm is the bar owed to people under you.
   - Duty of care is the legal and moral floor, not a target to hit exactly and stop.
   - Stop serious harm first; reasonable protection is not optional because paperwork says so.
 examples:

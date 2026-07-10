@@ -4,7 +4,6 @@ meta_title: "Learning Organizations"
 description: "Teams that change process after mistakes instead of burying them."
 key_concept: |
   - "What broke" line stays until fixed or accepted.
-  - Teams that change process after mistakes instead of burying them.
   - Change the process after a miss - do not bury it and move on.
 examples:
   - "After every tournament they kept one \"what broke\" line on the whiteboard until it was fixed or accepted."

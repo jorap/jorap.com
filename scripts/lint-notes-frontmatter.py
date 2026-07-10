@@ -14,6 +14,7 @@ from notes_content import (
     gets_point_across,
     shareable_lines_overlap,
     shareable_line_from_principle,
+    key_concept_overlaps_description,
     split_frontmatter,
     META_NOTE_LANG,
     DANGLING_THAT_START,
@@ -131,6 +132,21 @@ def lint_key_concept_bullets(path: Path, fm: dict) -> list[str]:
     return []
 
 
+def lint_description_in_key_concept(path: Path, fm: dict) -> list[str]:
+    """description must not repeat inside key_concept bullets."""
+    if fm.get("note_kind", "note") in {"meta", "index"}:
+        return []
+    desc = fm.get("description")
+    kc = fm.get("key_concept")
+    if not isinstance(desc, str) or not isinstance(kc, str):
+        return []
+    hits = key_concept_overlaps_description(desc, kc)
+    if not hits:
+        return []
+    preview = hits[0][:60] + ("…" if len(hits[0]) > 60 else "")
+    return [f"FAIL description in key_concept ({preview}): {path.name}"]
+
+
 def lint_description(path: Path, fm: dict) -> list[str]:
     """description = memorable one-breath definition; no wikilinks, <=20 words."""
     if fm.get("note_kind", "note") in {"meta", "index"}:
@@ -170,6 +186,9 @@ def verify() -> int:
             print(msg)
             bad += 1
         for msg in lint_description(path, fm):
+            print(msg)
+            bad += 1
+        for msg in lint_description_in_key_concept(path, fm):
             print(msg)
             bad += 1
         for msg in lint_key_concept_bullets(path, fm):

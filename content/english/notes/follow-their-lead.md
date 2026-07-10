@@ -3,9 +3,7 @@ title: "Follow Their Lead"
 meta_title: "Follow Their Lead - Connect Without Taking Over"
 description: "Join their world - topic, pace, starting point - before trying to steer."
 key_concept: |
-  - I join their world before I redirect it - their activity, topic, pace, starting point.
   - Skip their starting point and you are fixing a problem they were not naming.
-  - I join their world - their topic, pace, starting point - before I try to steer.
   - Connection first, critique second - run their play once before you offer yours.
   - The redirect lands better once they know you actually understood their version first.
 examples:

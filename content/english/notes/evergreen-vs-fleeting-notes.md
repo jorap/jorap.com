@@ -3,8 +3,6 @@ title: "Evergreen vs Fleeting Notes"
 meta_title: "Evergreen vs Fleeting Notes - Two Speeds"
 description: "Sparks belong in fleeting notes; trusted claims belong in evergreen, with a clear path between them."
 key_concept: |
-  - Sparks belong in fleeting notes; claims you trust belong in evergreen, with a clear path between them.
-  
   - Two speeds, one promotion rule.
   - Fleeting notes catch sparks you would lose by Friday; evergreen notes hold claims you would cite next year.
   - The stake is rot - sparks that never promote clutter the inbox, and forcing everything evergreen buries what was only true this week.

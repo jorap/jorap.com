@@ -6,7 +6,6 @@ key_concept: |
   {{< bible ref="John 3:16-18" emphasize="16" >}}
   
   - God did not wait for me to earn it - He gave His Son so belief, not merit, decides where I spend forever.
-  - Grace is gift never earned, starting with salvation and continuing through the walk after.
   
   - God did not wait for me to earn it - He gave His Son so belief, not merit, decides where I spend forever.
   - [[Mercy]] withholds what I deserve; grace gives what I could not earn.

@@ -7,8 +7,6 @@ key_concept: |
   - The stake is identity on the line - one rough outing becomes a label instead of a rep list.
   - [[Failure as Feedback]] only works when I treat skill as trainable.
   - [[Deliberate Practice]] is what I do with the data instead of deciding the ceiling is fixed.
-  - Growth mindset treats ability as trainable.
-  - Mistakes are data, not proof of a fixed label.
   - Growth mindset treats "I am bad at this" as a verdict - "I missed three" is data I can train on.
   - Growth mindset says "I missed three" is data to train on - not a fixed label on who I am.
 examples:

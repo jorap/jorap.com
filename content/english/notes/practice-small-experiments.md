@@ -6,8 +6,6 @@ key_concept: |
   - Big-bang rollouts look decisive and usually snap back by March.
   - Practice small experiments means daily reps plus tests small enough to fail cheap - one drill, one workflow tweak, one week trial - then keep what works.
   - [[Deliberate Practice]] is the rep lane; [[Minimum Effective Dose]] is the size cap; [[Failure as Feedback]] is how you read a miss without drama.
-  - Repeat the move, run tiny tests, learn fast.
-  - Durable change beats one big rollout.
 examples:
   - "Instead of rebuilding the whole practice plan, we ran one new inbound play for two weeks - kept it when turnovers dropped, dropped it when they did not."
   - "I did not migrate every note to a new app - I tried one capture lane by the door for ten days and only expanded after it survived a busy week."

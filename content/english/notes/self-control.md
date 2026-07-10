@@ -8,7 +8,6 @@ key_concept: |
   - This note is the general skill: close the app, sleep on the reply, stick to the list.
   - Same word, different job unless the Spirit is doing the growing.
   - I pick the next move on purpose.
-  - The urge does not get to drive.
 examples:
   - "My thumb hovered over a snarky reply in the pickup-line group chat - self-control was close the app and answer when I was not drunk on cortisol."
   - "The point guard feels the pull to hero-ball on a bad stretch - self-control is the scripted pass they drilled, not the urge."

@@ -8,7 +8,6 @@ key_concept: |
   - A garden full of notes nobody reads is the same failure mode as a team where only one person holds the map.
   - Gospel source: [[Great Commission]].
   - PKM parallel: [[Creative Output]] - truth and skill shared, not stockpiled.
-  - I write the doc, do the pass-off, and answer the junior's question - hoarding know-how helps nobody.
 examples:
   - "I would figured out the clinic's parking trick after three visits - I told the next parent in line instead of hoarding the shortcut."
   - "I almost moved on after a week wrestling school forms - share what you learn was the sticky note on the fridge so my spouse did not start from zero."

@@ -8,15 +8,14 @@ key_concept: |
   - [[Growth Mindset]] needs this floor: misses are data only if I admit the miss happened.
   - Acceptance is not quitting; it is choosing targets that match the real starting line.
   - I name strengths, gaps, and limits plainly.
-  - Change targets stay realistic.
 examples:
   - "I told the coach I cannot guard the quick point yet - honest self-awareness meant drills on foot speed, not pretending I would magically lock him up game night."
   - "The capture system failed because I kept pretending I would review fifty notes a week - honest self-awareness was ten minutes on the jeepney, not another app I would abandon."
 shareable_thought:
-  - "I name strengths, gaps, and limits plainly - change targets stay realistic."
-  - "Transformation built on fantasy breaks on contact with Tuesday."
+  - "Name strengths, gaps, and limits plainly so change targets stay realistic."
   - "Honest self-awareness is a plain inventory."
   - "What I am good at, what I am avoiding, what I cannot carry this quarter - before I promise the room a new person."
+  - "Transformation built on fantasy breaks on contact with Tuesday."
 relationships:
   - type: contradicts
     wikilink: "[[Growth Mindset]]"

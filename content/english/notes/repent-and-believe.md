@@ -4,13 +4,12 @@ meta_title: "Repent and Believe - Jesus' First Command"
 description: "Jesus' opening command: turn from self-rule and trust the good news that the kingdom is at hand."
 key_concept: |
   {{< bible ref="Mark 1:14-15" emphasize="15" >}}
-
+  
   - Kingdom's here now - turn from self-rule and trust the gospel today, not when habits look respectable.
   - Repentance is a change of mind and direction - not a down payment on salvation.
   - Belief is reliance on Christ's promise, not mere intellectual agreement.
   - Under [[Free Grace]], this pair is how life begins: receive the kingdom as gift, then live under the King's rule in response.
   - [[There Is No Perfect Solution]] - the kingdom is at hand now, not when you have fixed yourself.
-  - Jesus' opening command: turn from self-rule and trust the good news that the kingdom is at hand.
 examples:
   - "I kept telling myself I would trust the coach's system once my form looked respectable - repent and believe is the door you walk through today, messy as you are."
   - "I kept telling myself I would trust Jesus once my habits looked respectable - it is not a finish line when you are fixed."

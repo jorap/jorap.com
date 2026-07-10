@@ -5,12 +5,10 @@ description: "My garden is where notes grow in public - linked, imperfect, alive
 key_concept: |
   - My digital garden is a personal site where notes grow in public.
   - Public, linked, imperfect notes beat a private hoard.
-  - My garden is where notes grow in public.
-  - Linked, imperfect, alive on Hugo and Git.
   - Update in public instead of hoarding drafts until they feel ready.
 examples:
   - "Our team playbook wiki still has last season's sets beside this year's - I replace a drill when I learn better, not when the first version was supposed to be final."
-  - My garden posts stay linked and imperfect - notes grow in public instead of rotting in a folder until they are ready.
+  - "My garden posts stay linked and imperfect - notes grow in public instead of rotting in a folder until they are ready."
 shareable_thought:
   - "My garden is where notes grow in public."
   - "Linked, imperfect, alive on Hugo and Git."

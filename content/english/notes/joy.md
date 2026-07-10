@@ -7,7 +7,6 @@ key_concept: |
   - Fruits of the Spirit names joy beside love and peace in one cluster.
   - Joy is grown by walking in the Spirit, not manufactured for credit.
   - Manufactured gladness for church credit is not Spirit fruit.
-  - Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance.
 examples:
   - "Good week at work and I felt spiritually qualified - Galatians joy rests on Christ's promise, not the streak."
   - "Performing joy at church while empty at home told me I was manufacturing fruit - abide first, then gladness shows up."

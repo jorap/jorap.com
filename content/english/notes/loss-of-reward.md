@@ -4,11 +4,11 @@ meta_title: "Loss of Reward - Saved Through Fire, Not Unsaved"
 description: "A saved believer can still lose reward - worthless works burn, eternal life stays secure on Christ."
 key_concept: |
   {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
-
+  
   - Faithful use compounds; buried talent loses even what was given - reward can shrink without un-saving you.
-
+  
   {{< bible ref="1 Corinthians 3:12-15" emphasize="15" >}}
-
+  
   - Saved through fire with loss - two ledgers: eternal life on Christ, reward on what lasted.
   - Two categories, one sentence apart: [[Free Grace]] and [[Justification]] settle eternal life at faith.
   - [[Eternal Rewards]] and the [[Judgment Seat]] settle what gets repaid for faithful living.
@@ -19,8 +19,6 @@ key_concept: |
   - [[Forgiveness]] restores fellowship when sin breaks closeness - neither re-opens [[Justification]].
   - [[Faith and Works]] and [[The Narrow Way]] split false "Lord, Lord" from a believer who stumbled and repents.
   - PKM mirror: [[Failure as Feedback]] - a burned work is feedback on what to build differently, not proof you were never in the garden.
-  - A saved believer can still lose reward.
-  - Worthless works burn, eternal life stays secure on Christ.
 examples:
   - "Wasted years of selfish living and terror I am not saved - reward may burn at the judgment seat; my standing was settled when I trusted Christ."
   - "Hidden sin exposed and shame screamed heaven access revoked - confess, restore fellowship, keep walking; justification on Christ does not get re-opened by a bad season."

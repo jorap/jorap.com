@@ -4,9 +4,8 @@ meta_title: "Faith and Works - Saved by Faith, Shown by Action"
 description: "Faith alone saves; works show faith is alive, they do not buy heaven."
 key_concept: |
   {{< bible ref="Matthew 7:24" label="Matthew 7:24-27" emphasize="24" >}}
-
-  - Faith alone saves; works show faith is alive, they do not buy heaven.
-
+  
+  
   - Hear Jesus and do - rock stands in the storm; hearing alone is sand.
   - Paul answers how you are saved: trust Christ, not wages.
   - James answers what living faith looks like: Abraham offered Isaac - faith already counted him righteous, then action proved it.

@@ -3,8 +3,6 @@ title: "Build a Reliable Default"
 meta_title: "Build a Reliable Default - What You Do When There's No Time"
 description: "A reliable default is the simple rehearsed move that runs when thinking is thin."
 key_concept: |
-  - A reliable default is the simple rehearsed move that runs when thinking is thin.
-  
   - Build it before the crisis, not during it - a default assembled mid-emergency is not a default.
   - The rehearsed move beats improvising when the clock is loud.
 examples:

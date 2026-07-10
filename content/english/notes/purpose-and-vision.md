@@ -8,8 +8,6 @@ key_concept: |
   - Vision is what it looks like when we are closer - not a poster, a filter for Tuesday's calendar.
   - [[Quarterly Planning]] keeps it on a rhythm; [[Priorities Before the Inbox]] protects it from the siren.
   - Faith lane: [[Seek the Kingdom First]] - God's reign before my inbox rewrites the morning.
-  - A clear outcome anchors daily choices.
-  - Without it, urgency picks the agenda.
 examples:
   - "The team kept shipping random fixes until we wrote one sentence on the whiteboard - reduce checkout friction by half - and suddenly the backlog had a sort order."
   - "I kept saying yes to every sideline until I named the one outcome for the year - finish the notes garden, not grow six half-built projects."

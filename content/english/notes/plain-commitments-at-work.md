@@ -10,8 +10,6 @@ key_concept: |
   - On [[Selling Static Sites]] scoping: say yes or no to [[Static Site Client Scope]] before deposit; name the [[Client Site Pass-Off]] model the same way.
   - Gospel source: [[Let Your Yes Be Yes]].
   - PKM parallel: [[Atomic Notes]] - one claim per message, not padded prose.
-  - Say yes or no clearly.
-  - No "definitely maybe," no stack of qualifiers so people trust a weak promise.
 examples:
   - "I said yes to Friday delivery in the meeting and meant it - no silent scope creep over Slack that night."
   - "The coach promised equal minutes and tracked them on the whiteboard - parents stopped guessing."

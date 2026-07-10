@@ -475,7 +475,79 @@ def gets_point_across(line: str) -> bool:
     return True
 
 
+KC_BULLET_RE = re.compile(r"^\s*-\s+")
+KC_BIBLE_RE = re.compile(r"^\s*\{\{<\s*bible\b", re.I)
+KC_TABLE_RE = re.compile(r"^\s*\|")
+
+
+def description_clause_parts(desc: str) -> list[str]:
+    """Normalized description clauses for overlap checks."""
+    flat = " ".join(desc.split())
+    parts = [flat]
+    parts.extend(re.split(r"(?<=[.!?])\s+|\s[-—–]\s|;\s+", flat))
+    out: list[str] = []
+    seen: set[str] = set()
+    for part in parts:
+        norm = normalize_shareable_line(part)
+        if len(norm) >= 10 and norm not in seen:
+            seen.add(norm)
+            out.append(norm)
+    return out
+
+
+def line_overlaps_description(desc: str, line: str) -> bool:
+    """True when a key_concept bullet repeats description text."""
+    text = line.lstrip("- ").strip()
+    nk = normalize_shareable_line(text)
+    if len(nk) < 10:
+        return False
+    for dp in description_clause_parts(desc):
+        if shareable_lines_overlap(dp, nk) or dp in nk or nk in dp:
+            return True
+    return False
+
+
+def key_concept_overlaps_description(desc: str, kc: str) -> list[str]:
+    """Bullet lines in key_concept that repeat description."""
+    if not isinstance(desc, str) or not isinstance(kc, str):
+        return []
+    hits: list[str] = []
+    for raw in kc.splitlines():
+        stripped = raw.strip()
+        if not stripped or not KC_BULLET_RE.match(raw):
+            continue
+        if KC_BIBLE_RE.match(stripped) or KC_TABLE_RE.match(stripped):
+            continue
+        if line_overlaps_description(desc, stripped):
+            hits.append(stripped.lstrip("- ").strip())
+    return hits
+
+
+def strip_description_from_key_concept(kc: str, desc: str) -> str:
+    """Drop key_concept bullets that repeat description."""
+    kept: list[str] = []
+    for raw in kc.splitlines():
+        stripped = raw.strip()
+        if (
+            stripped
+            and KC_BULLET_RE.match(raw)
+            and line_overlaps_description(desc, stripped)
+        ):
+            continue
+        kept.append(raw)
+    text = "\n".join(kept).strip("\n")
+    return f"{text}\n" if text else ""
+
+
 def _self_check() -> None:
+    desc = "Faith alone saves; works show faith is alive, they do not buy heaven."
+    kc = "- Faith alone saves; works show faith is alive, they do not buy heaven.\n- Hear Jesus and do."
+    assert line_overlaps_description(desc, "Faith alone saves; works show faith is alive.")
+    assert not line_overlaps_description(desc, "Hear Jesus and do - rock stands in the storm.")
+    assert key_concept_overlaps_description(desc, kc) == [
+        "Faith alone saves; works show faith is alive, they do not buy heaven."
+    ]
+    assert "Hear Jesus" in strip_description_from_key_concept(kc, desc)
     assert is_complete_shareable_line("Friction kills capture.")
     assert is_complete_shareable_line("Same aim, different plan.")
     assert not is_complete_shareable_line("not mere intellectual agreement.")

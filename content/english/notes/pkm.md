@@ -4,7 +4,6 @@ meta_title: "PKM - Personal Knowledge Management in Plain Language"
 description: "PKM saves, organizes, and reuses what you learn - not a hobby of collecting apps."
 key_concept: |
   - PKM is the plain name for the save-organize-use system getting started introduces (Getting Started).
-  - PKM is how I save, organize, and reuse what I learn - not a hobby of collecting apps.
   - Save, organize, reuse - output beats tuning the system alone.
   - Save, organize, reuse - three moves I run, not app-hopping for the perfect stack.
   - PKM is the plain name for the save-organize-use system getting started introduces (Getting Started).

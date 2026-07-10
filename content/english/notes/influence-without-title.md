@@ -10,7 +10,6 @@ key_concept: |
   - [[Leadership]] names direction, pace, and care when people look your way - often at the person who already proved reliable, not the newest title.
   - [[Servant Leadership]] is how you earn it without demanding: unblock, coach, pass credit down.
   - [[Humility and Service]] is the gospel root - wash feet in the sprint, not only in the speech.
-  - People follow the one who showed up in the crisis - not always the name on the org chart.
 examples:
   - "Our line cook never got named manager; when the hood alarm tripped everyone looked at her for who goes where - influence without a title, earned in every prior shift."
   - "The blackout hit our block and one neighbor set pace - who checks elders, who runs the generator - nobody voted, they just followed the person who would shown up last typhoon."

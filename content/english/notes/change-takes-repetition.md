@@ -3,8 +3,6 @@ title: "Change Takes Repetition"
 meta_title: "Change Takes Repetition - Same Moves Until the System Bends"
 description: "Real change is the same moves on repeat, not one breakthrough weekend."
 key_concept: |
-  - Real change is the same moves on repeat, not one breakthrough weekend.
-  
   - The breakthrough story sells books; Tuesday sells the habit.
   - Change takes repetition when the same levers run many times - direction, practice, feedback - before the room feels different.
   - [[Transformation Principles]] is the set; [[Habit Formation]] is how one move sticks; [[Practice Small Experiments]] keeps trials small while reps accumulate.
