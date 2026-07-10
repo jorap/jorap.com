@@ -541,7 +541,7 @@
 })();
 
 /**
- * Notes home: featured block shows three random garden notes per visit.
+ * Notes home: featured block shows two random garden notes per visit.
  */
 (function () {
   var core = window.jorapNotesRandomCore;
@@ -552,7 +552,7 @@
   var slot = document.querySelector("[data-notes-featured-random-slot]");
   if (!root || !dataEl || !slot) return;
 
-  var PICK_COUNT = 3;
+  var PICK_COUNT = 2;
 
   var pool = [];
   try {

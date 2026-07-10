@@ -4639,3 +4639,1106 @@ _**Agent (auto-low)**_
 <summary>Tool use: **read_file_v2**</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing the eight fruit echo notes—peace, patience, kindness, joy, goodness, faithfulness, gentleness—and adding Bible shortcodes while removing duplicate parentheticals from shareable_thought.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/kindness.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/joy.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/goodness.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/notes/*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "extends.*Hierarchy of Controls|extends.*Risk Management"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "extends.*Hierarchy of Controls|extends.*Risk Management",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Applying all 8 changes now.
+
+Removing NASB quotes from loss-of-reward and judgment-seat while keeping related commentary. Consolidating the duplicate line in love-god into a single entry covering heart, soul, mind, and strength.
+
+Merging the two mercy entries into one, combining grace and mercy with Judge Not. Removing duplicate lines 13 and 21. Starting on renewed-mind.
+
+For renewed-mind, removing the embedded quote from line 12 and dropping line 13. Line 11 already covers the mercy-to-renewal sequence, so those two lines will be deleted.
+
+Line 13 of renewed-mind will reference [[Discern His Will Daily]] instead of quoting the outcome directly. The hierarchy-of-controls entry keeps its rollback line. Risk-management line 6 is being replaced with a wikilink to [[Hierarchy of Controls]].
+
+Updating risk-management line 15 to match the shareable-thought change. Adding a relationship link from risk-management to hierarchy-of-controls.
+
+Replacing line 8 in sanctification with a wikilink to both [[Free Grace]] and [[Christlikeness]], since line 9 already covers the sanctification outcome.
+
+Reconsidering the exact wording for the sanctification line 8 replacement to pair [[Free Grace]] with [[Christlikeness]].
+
+Checking whether the shareable thought in sanctification duplicates the Free Grace entry.
+
+Adding a Galatians 5:22-23 bible tag to the Fruit echoes key concept. Removing the duplicated Galatians 5:22 citation from bullets and shareable thoughts.
+
+For gentleness, adding a Galatians shortcode after the existing Matthew 5:5 quote and removing the duplicate Galatians citation from line 7. Removing the shareable thought that names Galatians 5:22.
+
+The same pattern applies to patience, peace, kindness, joy, and goodness: add the Galatians shortcode and strip the parenthetical citation from line 6.
+
+Joy is being cleaned up next. The key concept has a duplicate description on line 9, a Galatians reference on line 10, and an example masquerading as a bullet on line 11. The example will be separated from the bullet list.
+
+For christianity-and-politics, removing the bible shortcode and opening with a bullet list that names [[Render Unto Caesar]] as the source text. The duplicate line naming the split is being dropped. A relationship link to render-unto-caesar is being added if missing.
+
+For christlikeness, a Romans 8:29 shortcode is being considered. The audit indicates the free grace relationship belongs to sanctification and fruit, not christlikeness.
+
+A Romans 8:29 shortcode will be added to line 11 of fruit echoes. Lines 6 and 12 of faithfulness will be merged into one, with line 12 removed when the shortcode is added. The joy key concept line 11 will be deleted because it duplicates the shareable thought line 17. The sanctification shareable thought is being checked for a duplicate Free Grace line.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christianity-and-politics.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Free Grace line on sanctification shareable_thought line 28 should either reference christlikeness or be removed, since christlikeness owns that line.
+
+Applying all edits now in batch.</details></think>
+
+_**Agent (auto-low)**_
+
+Applying all eight cleanups across the affected notes.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/loss-of-reward.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/judgment-seat.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/mercy.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/renewed-mind.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/risk-management.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/risk-management.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/risk-management.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/christianity-and-politics.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I need to restore the "love-god Free Grace" bullet I accidentally removed.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/love-god.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/peace.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/patience.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/kindness.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/kindness.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/joy.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/joy.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/goodness.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/goodness.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/faithfulness.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gentleness.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding a christlikeness relationship to sanctification is optional.
+
+Sanctification now links to christlikeness in key_concept. Love-god retains its Free Grace bullet. A verification script will check for remaining duplicates. Christlikeness keeps its prose Romans 8:29 bullet; item 7 was fruit echoes only.
+
+Joy shareable still contains the duplicate "Performing joy while empty..." entry, but this was already present in shareable.</details></think>
+
+_**Agent (auto-low)**_
+
+All eight cleanups are in. Summary:
+
+| # | Change |
+|---|--------|
+| **1** | `loss-of-reward`, `judgment-seat` — dropped NASB quote bullets after the 1 Cor shortcode; kept wood/hay/gold commentary |
+| **2** | `love-god` — merged twin “First command…” bullets into one (heart, soul, mind, strength) |
+| **3** | `mercy` — merged duplicate Ephesians 2 lines; dropped repeated Judge Not bullet |
+| **4** | `renewed-mind` — removed embedded Romans 12:2 quote; linked outcome to `discern-his-will-daily` |
+| **5** | `risk-management` — rollback line now wikilinks `hierarchy-of-controls` (which still owns the line) |
+| **6** | `sanctification` — replaced duplicate Free Grace bullet with Christlikeness pairing; updated `shareable_thought` |
+| **7** | Fruit echoes (`peace`, `patience`, `kindness`, `joy`, `goodness`, `faithfulness`, `gentleness`) — added `{{< bible "Galatians 5:22-23" >}}`, stripped `(Galatians 5:22)` from prose; also deduped `faithfulness` and `gentleness` within-note repeats |
+| **8** | `christianity-and-politics` — removed Matthew 22 shortcode; opens with wikilink to `render-unto-caesar` |
+
+`christlikeness` still owns *“[[Free Grace]] settles where I spend forever.”* — sanctification now points there instead of copying it.
+
+---
+
+_**User**_
+
+for random pick, display 2 instead:
+<section class="notes-featured-random" data-notes-featured-random=""><h2 class="h5 mb-1">Random pick</h2><p class="text-ink-muted mb-3 text-sm">Three notes from the garden — refreshed each visit.</p><div class="notes-featured-random-grid grid gap-3 sm:grid-cols-2 lg:grid-cols-3" data-notes-featured-random-slot=""><article class="notes-card notes-card--interactive border-divider relative flex h-full w-full flex-col overflow-hidden rounded-xl border bg-elevated p-5 shadow-sm transition-[box-shadow,border-color] duration-200 ease-out motion-reduce:transition-none"><a class="notes-card__overlay" href="/notes/standard-operating-procedures/" data-wikilink-preview="/notes/standard-operating-procedures/" aria-label="Standard Operating Procedures"></a><h3 class="h6 notes-card__title relative z-[1] mb-2 font-medium pointer-events-none">Standard Operating Procedures</h3><p class="notes-card__body text-ink-muted relative z-[1] mb-0 flex-1 text-sm leading-snug pointer-events-none">I write short steps for deploys and incidents so nobody has to improvise when the clock is loud.</p></article><article class="notes-card notes-card--interactive border-divider relative flex h-full w-full flex-col overflow-hidden rounded-xl border bg-elevated p-5 shadow-sm transition-[box-shadow,border-color] duration-200 ease-out motion-reduce:transition-none"><a class="notes-card__overlay" href="/notes/gentleness/" data-wikilink-preview="/notes/gentleness/" aria-label="Gentleness"></a><h3 class="h6 notes-card__title relative z-[1] mb-2 font-medium pointer-events-none">Gentleness</h3><p class="notes-card__body text-ink-muted relative z-[1] mb-0 flex-1 text-sm leading-snug pointer-events-none">Gentleness fruit is strength held back on purpose, not weakness or loud correction that skips love.</p></article><article class="notes-card notes-card--interactive border-divider relative flex h-full w-full flex-col overflow-hidden rounded-xl border bg-elevated p-5 shadow-sm transition-[box-shadow,border-color] duration-200 ease-out motion-reduce:transition-none"><a class="notes-card__overlay" href="/notes/create-regular-connection/" data-wikilink-preview="/notes/create-regular-connection/" aria-label="Create Regular Connection"></a><h3 class="h6 notes-card__title relative z-[1] mb-2 font-medium pointer-events-none">Create Regular Connection</h3><p class="notes-card__body text-ink-muted relative z-[1] mb-0 flex-1 text-sm leading-snug pointer-events-none">Connection grows from small repeated rituals - one walk, one check-in - not one big gesture after a dry month.</p></article></div><script type="application/json" class="notes-featured-random-data">[{"description":"People follow the one who showed up in the crisis - not always the name on the org chart.","title":"Influence Without Title","url":"/notes/influence-without-title/"},{"description":"Leadership is influence - if nobody's following, you're just taking a walk.","title":"Leadership Is Influence","url":"/notes/leadership-is-influence/"},{"description":"A title borrows authority; if nobody moves when you speak, you're managing paperwork, not leading.","title":"Title Without Influence","url":"/notes/title-without-influence/"},{"description":"Discipleship is who I follow upward; leadership is who looks to me for direction and care - two seats.","title":"Discipleship vs Leadership","url":"/notes/discipleship-vs-leadership/"},{"description":"When leadership pressure and Christ's command collide, I follow Christ first - then lead from that footing.","title":"Follow Christ, Then Lead","url":"/notes/follow-christ-then-lead/"},{"description":"A renewed mind can test what God wants - good and acceptable and perfect - without culture's noise picking first.","title":"Discern His Will Daily","url":"/notes/discern-his-will-daily/"},{"description":"Culture's default script isn't neutral - I refuse the pattern before reactions run on autopilot.","title":"Don't Copy the Pattern","url":"/notes/dont-copy-the-pattern/"},{"description":"I offer my ordinary day to God first - thanks after mercy, not payment to earn grace.","title":"Present a Living Sacrifice","url":"/notes/present-a-living-sacrifice/"},{"description":"Followers and algorithm reach are rented - steward them, don't mistake traffic for ownership.","title":"Platform Reach Is Borrowed","url":"/notes/platform-reach-is-borrowed/"},{"description":"An early win is entrusted, not a license to coast - keep using the gift through the quiet tail.","title":"Steward After the Win","url":"/notes/steward-after-the-win/"},{"description":"Don't copy the world's default thinking - let Scripture reshape how I see, choose, and obey.","title":"Renewed Mind","url":"/notes/renewed-mind/"},{"description":"God keeps reshaping me to look and love more like Jesus - growth after faith, not the entry fee.","title":"Christlikeness","url":"/notes/christlikeness/"},{"description":"I design life and work around God's glory first - not crowd applause, ego, or my comfort.","title":"God Centered Design","url":"/notes/god-centered-design/"},{"description":"I accept where I actually start - then pick targets that match, not fantasy.","title":"Accept the Starting Line","url":"/notes/accept-the-starting-line/"},{"description":"Real change is the same moves on repeat - not one breakthrough weekend.","title":"Change Takes Repetition","url":"/notes/change-takes-repetition/"},{"description":"I name what to measure, gather signal, then reprioritize - not guess and overhaul.","title":"Measure Then Iterate","url":"/notes/measure-then-iterate/"},{"description":"I change my slice of the problem - not wait for a hand-down fix from upstairs.","title":"Own Your Part","url":"/notes/own-your-part/"},{"description":"I watch one person do the real job before I redraw the process or the slide.","title":"Shadow the Work","url":"/notes/shadow-the-work/"},{"description":"I name strengths, gaps, and limits plainly - change targets stay realistic.","title":"Honest Self-Awareness","url":"/notes/honest-self-awareness/"},{"description":"I design for real human needs first - customers, teammates, stakeholders - or the change won't stick.","title":"People-Centered Design","url":"/notes/people-centered-design/"},{"description":"Repeat the move, run tiny tests, learn fast - durable change beats one big rollout.","title":"Practice Small Experiments","url":"/notes/practice-small-experiments/"},{"description":"A clear outcome anchors daily choices - without it, urgency picks the agenda.","title":"Purpose and Vision","url":"/notes/purpose-and-vision/"},{"description":"Personal or team change runs on a small set of principles you apply on purpose - not one heroic push.","title":"Transformation Principles","url":"/notes/transformation-principles/"},{"description":"Success is borrowed - I'm accountable for how I use what I was given, not entitled to keep it forever.","title":"Success is Stewardship","url":"/notes/success-is-stewardship/"},{"description":"The Spirit grows steady follow-through with what God gave me, not one heroic sprint I mistake for earned salvation.","title":"Faithfulness","url":"/notes/faithfulness/"},{"description":"Gentleness fruit is strength held back on purpose, not weakness or loud correction that skips love.","title":"Gentleness","url":"/notes/gentleness/"},{"description":"Goodness fruit is upright action that points to God, not hidden virtue or good deeds performed for applause.","title":"Goodness","url":"/notes/goodness/"},{"description":"Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance.","title":"Joy","url":"/notes/joy/"},{"description":"Tender regard the Spirit grows for the person in front of you - not polite distance or performance niceness.","title":"Kindness","url":"/notes/kindness/"},{"description":"I wait without turning brittle - the Spirit grows a slow fuse, not a countdown to snapping.","title":"Patience","url":"/notes/patience/"},{"description":"Peace is Spirit-grown calm in believers who trust the Father - not silence at any price.","title":"Peace","url":"/notes/peace/"},{"description":"Love through self-control is one Spirit-grown cluster in believers, not a merit checklist that buys heaven.","title":"Fruits of the Spirit","url":"/notes/fruits-of-the-spirit/"},{"description":"Grace is gift I never earned starting with salvation and continuing through the walk after, not wages I could stack.","title":"Grace","url":"/notes/grace/"},{"description":"Mercy withholds the punishment I deserve and calls me to show the same compassion to others.","title":"Mercy","url":"/notes/mercy/"},{"description":"After rollback restores service, I learn what broke in the system - not who to punish for pushing deploy.","title":"Blameless After-Action Review","url":"/notes/blameless-after-action-review/"},{"description":"I ship risky changes when someone awake can roll back, not Friday night when everyone's offline.","title":"Change Window","url":"/notes/change-window/"},{"description":"I ship to a small slice first so rollback stays cheap if the new state bleeds.","title":"Staged Rollout","url":"/notes/staged-rollout/"},{"description":"I owe Caesar what Caesar's owed and God what I'm His - no party gets my soul.","title":"Christianity and Politics","url":"/notes/christianity-and-politics/"},{"description":"Assurance is resting on Christ's finished work when doubt hits - not my week's obedience score.","title":"Assurance","url":"/notes/assurance/"},{"description":"I obey today because Christ already saved me, not to buy or re-earn eternal life.","title":"Grateful Obedience","url":"/notes/grateful-obedience/"},{"description":"After salvation is settled, stewardship is about faithful use of what God entrusted, not buying heaven with busy weeks.","title":"Faithful Steward","url":"/notes/faithful-steward/"},{"description":"Standing with God is settled at faith; fellowship breaks when I sin and restores when I confess - two ledgers.","title":"Standing vs Fellowship","url":"/notes/standing-vs-fellowship/"},{"description":"Restore the last good state before you push - when the new state breaks, revert first, debug second.","title":"Rollback Principle","url":"/notes/rollback-principle/"},{"description":"Before deposit, I name who publishes next and price the pass-off so launch isn't a guessing game.","title":"Client Site Pass-Off","url":"/notes/client-site-pass-off/"},{"description":"Static sites fit text and images on git push - not live databases or mystery WordPress admins.","title":"Static Site Client Scope","url":"/notes/static-site-client-scope/"},{"description":"Hugo, GitHub, and Cloudflare Pages ship static sites for $0 - until build caps, queues, or account limits bite.","title":"Free Tier Hosting Stack","url":"/notes/free-tier-hosting-stack/"},{"description":"I charge for the build and pass-off; hosting is a clear line item, not a mystery monthly bundle.","title":"Selling Static Sites","url":"/notes/selling-static-sites/"},{"description":"A saved believer can still lose reward - worthless works burn, eternal life stays secure on Christ.","title":"Loss of Reward","url":"/notes/loss-of-reward/"},{"description":"Faith alone saves me - works show it's alive, they don't buy heaven.","title":"Faith and Works","url":"/notes/faith-and-works/"},{"description":"Believers stand before Christ after salvation to have works evaluated for reward - eternal life was already settled by faith.","title":"Judgment Seat","url":"/notes/judgment-seat/"},{"description":"After God declares me righteous, he keeps shaping my habits and heart - growth, not the ticket in.","title":"Sanctification","url":"/notes/sanctification/"},{"description":"God declared me righteous at faith - before my obedience caught up.","title":"Justification","url":"/notes/justification/"},{"description":"A git CMS commits markdown to the repo so clients get buttons while the same push-live build still runs.","title":"Git-Based CMS","url":"/notes/git-based-cms/"},{"description":"Accountability is naming who owns the result - and what happens when it slips.","title":"Accountability","url":"/notes/accountability/"},{"description":"Adaptability swaps the method when conditions shift - same aim, different plan.","title":"Adaptability","url":"/notes/adaptability/"},{"description":"I catch the typo and the edge case before they turn into an incident or a dumb customer email.","title":"Attention to Detail","url":"/notes/attention-to-detail/"},{"description":"A reliable default is the simple rehearsed move I run when thinking is thin.","title":"Build a Reliable Default","url":"/notes/build-a-reliable-default/"},{"description":"The meeting isn't done until recap, owners, dates, and verification close the loop.","title":"Complete the Cycle","url":"/notes/complete-the-cycle/"},{"description":"Composure is steady voice and pace when the room isn't - people read calm as competence.","title":"Composure","url":"/notes/composure/"},{"description":"Each miss becomes one tweak to the process, not a lecture about trying harder.","title":"Continuous Improvement","url":"/notes/continuous-improvement/"},{"description":"Control the rhythm is taking back pace before urgency, conflict, or someone else sets it.","title":"Control the Rhythm","url":"/notes/control-the-rhythm/"},{"description":"Convert pain into learning means failure must produce correction, not stewing without change.","title":"Convert Pain Into Learning","url":"/notes/convert-pain-into-learning/"},{"description":"Connection grows from small repeated rituals - one walk, one check-in - not one big gesture after a dry month.","title":"Create Regular Connection","url":"/notes/create-regular-connection/"},{"description":"I judge choices by whether they hold after sleep, new facts, and the real bill - not the meeting high.","title":"Decision Quality","url":"/notes/decision-quality/"},{"description":"I train the weak slice on purpose - feedback, correction, repeat - not the part I already nail.","title":"Deliberate Practice","url":"/notes/deliberate-practice/"},{"description":"I do what I said I'd do when nobody's clapping and motivation walked out.","title":"Discipline","url":"/notes/discipline/"},{"description":"I can feel the spike without letting it pick my next sentence.","title":"Emotional Regulation","url":"/notes/emotional-regulation/"},{"description":"I protect sleep and recovery because tired me makes worse calls than rested me on the same facts.","title":"Energy Protects Judgment","url":"/notes/energy-protects-judgment/"},{"description":"A decision earns nothing until finished work lands, not when the slide deck or the intention is done.","title":"Execution","url":"/notes/execution/"},{"description":"I plan what happens after the other side adapts, not just how my opening move looks on paper.","title":"Expect the Counter","url":"/notes/expect-the-counter/"},{"description":"I read a miss as signal about process or skill, not as proof I'm the wrong kind of person.","title":"Failure as Feedback","url":"/notes/failure-as-feedback/"},{"description":"Launch day excitement doesn't count - I judge success by whether the last commitment actually got done.","title":"Finish Strong","url":"/notes/finish-strong/"},{"description":"I join their world - their topic, pace, starting point - before I try to steer.","title":"Follow Their Lead","url":"/notes/follow-their-lead/"},{"description":"Saying yes is cheap; follow-through is recap, owners, dates, and checking it actually landed.","title":"Follow-Through","url":"/notes/follow-through/"},{"description":"Growth mindset treats ability as trainable - mistakes are data, not proof of a fixed label.","title":"Growth Mindset","url":"/notes/growth-mindset/"},{"description":"I repeat one small move until it runs on autopilot instead of re-debating it every morning.","title":"Habit Formation","url":"/notes/habit-formation/"},{"description":"What I do matches what I claim when applause, speed, or comfort aren't watching.","title":"Integrity","url":"/notes/integrity/"},{"description":"Leadership is owning direction, pace, and care when people look to you - title optional.","title":"Leadership","url":"/notes/leadership/"},{"description":"Listen before fixing - repeat what you heard, then respond. Feeling heard comes before being helped.","title":"Listen Before Fixing","url":"/notes/listen-before-fixing/"},{"description":"That sounds frustrating lands before my fix plan - I name the emotion so we're not guessing.","title":"Name the Feeling","url":"/notes/name-the-feeling/"},{"description":"Notice the good means naming the specific helpful move so people know what to repeat.","title":"Notice the Good","url":"/notes/notice-the-good/"},{"description":"Owning the error is naming the miss clearly so failure becomes information, not blame theater.","title":"Own the Error","url":"/notes/own-the-error/"},{"description":"I'd rather run the fire drill bored than improvise when the alarm is real.","title":"Preparedness","url":"/notes/preparedness/"},{"description":"Pressure reveals what easy days hide - build habits and systems that still work when stakes spike.","title":"Pressure Reveals Weakness","url":"/notes/pressure-reveals-weakness/"},{"description":"Sleep isn't laziness for me - it's the refill that keeps judgment and patience online.","title":"Recovery","url":"/notes/recovery/"},{"description":"Reliability is closing loops on time often enough that people stop asking twice.","title":"Reliability","url":"/notes/reliability/"},{"description":"I bend without lying to myself that the hit didn't cost anything.","title":"Resilience","url":"/notes/resilience/"},{"description":"I stop the unsafe thing first, then restore choice when the situation is stable - respect isn't letting harm run.","title":"Safety Comes First","url":"/notes/safety-comes-first/"},{"description":"I ask what the clever fix triggers next - copycats, shortcuts, and incentives I didn't plan for.","title":"Second-Order Thinking","url":"/notes/second-order-thinking/"},{"description":"I pick the next move on purpose - the urge doesn't get to drive.","title":"Self-Control","url":"/notes/self-control/"},{"description":"A calm boundary is one clear limit on behavior, named steady - not a character attack.","title":"Set Calm Boundaries","url":"/notes/set-calm-boundaries/"},{"description":"I steer pace, format, and who speaks in the room when I can't own the whole outcome.","title":"Situational Control","url":"/notes/situational-control/"},{"description":"I slow down one breath before I answer - urgency is real, but it shouldn't pick the move.","title":"Slow the Moment","url":"/notes/slow-the-moment/"},{"description":"I write short steps for deploys and incidents so nobody has to improvise when the clock is loud.","title":"Standard Operating Procedures","url":"/notes/standard-operating-procedures/"},{"description":"Look past today's win to what happens after everyone reacts.","title":"Strategic Foresight","url":"/notes/strategic-foresight/"},{"description":"The habit that worked in my last role can flop in the next room - I retune instead of clinging.","title":"Strong Outside Your Comfort","url":"/notes/stay-effective-in-new-conditions/"},{"description":"I aim for a pace I can hold next month without burning out or cutting safety corners.","title":"Sustainable Performance","url":"/notes/sustainable-performance/"},{"description":"I can plug into more than one lane when the team or the client needs a shift.","title":"Versatility","url":"/notes/versatility/"},{"description":"I treat my feed like a slot machine someone else owns - if I'm not paying, I'm the product.","title":"Attention Economy","url":"/notes/attention-economy/"},{"description":"People choose what default and friction make easy, not what a neat lecture said they should pick.","title":"Behavioral Economics","url":"/notes/behavioral-economics/"},{"description":"Develop the person without hiding behind consent when the drill is unsafe or pointless.","title":"Coaching Ethics","url":"/notes/coaching-ethics/"},{"description":"Before linked notes, I kept quotes and ideas in one book I'd actually reopen.","title":"Commonplace Book","url":"/notes/commonplace-book/"},{"description":"I protect uninterrupted blocks for hard thinking and let capture catch what tries to interrupt.","title":"Deep Work","url":"/notes/deep-work/"},{"description":"I push people to grow without picking drills where pain or risk replaces the actual skill.","title":"Develop, Don't Endanger","url":"/notes/develop-dont-endanger/"},{"description":"If roles flipped, I'd want reasonable protection from harm - that's the bar I owe people under me.","title":"Duty of Care","url":"/notes/duty-of-care/"},{"description":"I remove unnecessary danger first instead of stacking procedures and gear on top of it.","title":"Eliminate Before Managing","url":"/notes/eliminate-before-managing/"},{"description":"What I let slide in front of my team becomes their real standard, not what's printed on the poster.","title":"Ethical Leadership","url":"/notes/ethical-leadership/"},{"description":"David Allen's capture-clarify-organize loop gives me a trusted inbox, next actions, and a weekly review.","title":"Getting Things Done","url":"/notes/getting-things-done/"},{"description":"I piggyback a new tiny habit onto one that already runs without thinking, like notebook after coffee.","title":"Habit Stacking","url":"/notes/habit-stacking/"},{"description":"A close call means the system nearly failed, not that we got proof the activity was safe because nobody died.","title":"Heed Every Near-Miss","url":"/notes/heed-every-near-miss/"},{"description":"Remove the hazard first, then substitute, engineer, admin, PPE - in that order.","title":"Hierarchy of Controls","url":"/notes/hierarchy-of-controls/"},{"description":"I process the inbox to empty each week - decide, don't hoard.","title":"Inbox Zero","url":"/notes/inbox-zero/"},{"description":"Find system causes after a miss - not only who to blame.","title":"Incident Investigation","url":"/notes/incident-investigation/"},{"description":"I choose feeds on purpose because algorithm defaults aren't neutral.","title":"Information Diet","url":"/notes/information-diet/"},{"description":"I don't read a book once and pretend I absorbed it - I pass through again when I need more.","title":"Layered Reading","url":"/notes/layered-reading/"},{"description":"I'd rather ship a rough test and learn than polish a product nobody wanted.","title":"Lean Startup","url":"/notes/lean-startup/"},{"description":"Teams that change process after mistakes instead of burying them.","title":"Learning Organizations","url":"/notes/learning-organizations/"},{"description":"Human life is non-negotiable - even when the goal is a championship or a reputation for toughness.","title":"Life Before Achievement","url":"/notes/life-before-achievement/"},{"description":"After I read a source, I write what stuck in my own words - not a pile of copied highlights.","title":"Literature Notes","url":"/notes/literature-notes/"},{"description":"I block garden time on the calendar so broken links don't ambush me on a random Sunday.","title":"Maintenance Window","url":"/notes/maintenance-window/"},{"description":"I look at which notes connect everything else - those hubs tell me where the garden actually lives.","title":"Network Analysis","url":"/notes/network-analysis/"},{"description":"Repeated close calls slowly redefine 'normal' until disaster feels surprising but was predictable.","title":"Normalization of Deviance","url":"/notes/normalization-of-deviance/"},{"description":"People can name mistakes and near-misses without fear of humiliation or retaliation.","title":"Psychological Safety","url":"/notes/psychological-safety/"},{"description":"Set goals and review on a thirteen-week rhythm - short enough to feel real.","title":"Quarterly Planning","url":"/notes/quarterly-planning/"},{"description":"Save for later is fine until the queue turns into a guilt pile I'll never touch.","title":"Read Later Queue","url":"/notes/read-later-queue/"},{"description":"Prefer choices you can undo - irreversible harm needs a higher bar.","title":"Reversibility","url":"/notes/reversibility/"},{"description":"Name what can go wrong, how likely, how bad - then choose controls in order of strength.","title":"Risk Management","url":"/notes/risk-management/"},{"description":"I build workflows so the dangerous move is hard - not just a warning label and good intentions.","title":"Safety by Design","url":"/notes/safety-by-design/"},{"description":"I push the good-enough version live instead of polishing until the deadline owns me.","title":"Ship It","url":"/notes/ship-it/"},{"description":"The loops you build on purpose - habits, feedback, review, recovery - so skill compounds when motivation doesn't show up.","title":"Systems for Growth","url":"/notes/systems-for-growth/"},{"description":"I trace the loop behind the fire - inputs, delays, feedback - and fix the process, not tonight's patch.","title":"Systems Thinking","url":"/notes/systems-thinking/"},{"description":"Tags, folders, and types are how I find notes later - classification in service of retrieval.","title":"Taxonomy","url":"/notes/taxonomy/"},{"description":"Break the escalation cycle - don't match tone for tone when a sharp email lands; stop the loop first.","title":"Break the Escalation Cycle","url":"/notes/break-the-escalation-cycle/"},{"description":"I release a colleague's debt from my heart without pretending the slight didn't matter or skipping boundaries where trust broke.","title":"Forgiveness at Work","url":"/notes/forgiveness-at-work/"},{"description":"Treat colleagues the way you want to be treated - in email tone, credit, deadlines, and hallway gossip.","title":"Golden Rule at Work","url":"/notes/golden-rule-at-work/"},{"description":"Do the honest work when there's no audience - accurate time logs, real tests, the fix nobody asked for yet.","title":"Integrity Without an Audience","url":"/notes/integrity-without-an-audience/"},{"description":"Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura.","title":"Outcomes Over Pitch Decks","url":"/notes/outcomes-over-pitch-decks/"},{"description":"Say yes or no clearly - no \"definitely maybe,\" no stack of qualifiers so people trust a weak promise.","title":"Plain Commitments at Work","url":"/notes/plain-commitments-at-work/"},{"description":"Put the real priority first before email, Slack, and everyone else's urgency rewrite my morning.","title":"Priorities Before the Inbox","url":"/notes/priorities-before-the-inbox/"},{"description":"Reconcile before the review - fix the relationship before OKRs, demos, or reorg meetings.","title":"Reconcile Before the Review","url":"/notes/reconcile-before-the-review/"},{"description":"I unblock the team, coach through the mess, take blame up, and pass credit down.","title":"Servant Leadership","url":"/notes/servant-leadership/"},{"description":"I write the doc, do the pass-off, and answer the junior's question - hoarding know-how helps nobody.","title":"Share What You Learn","url":"/notes/share-what-you-learn/"},{"description":"The same ethics as Eternal Principles, in plain office language where religious terms sound awkward.","title":"Workplace Principles","url":"/notes/workplace-principles/"},{"description":"Discipleship is following Jesus daily - learning and doing what He said after faith, not buying eternal life.","title":"Discipleship","url":"/notes/discipleship/"},{"description":"Jesus promised believers the Father will repay faithful obedience after salvation, not as the price of eternal life.","title":"Eternal Rewards","url":"/notes/eternal-rewards/"},{"description":"I bear fruit when I stay connected to Christ, not when I force it by willpower alone.","title":"Abide in Me","url":"/notes/abide-in-me/"},{"description":"Jesus sends believers to go, baptize, and teach obedience under His authority and presence to the end of the age.","title":"Great Commission","url":"/notes/great-commission/"},{"description":"Pay lawful civic obligations - taxes, duties owed the state - while reserving ultimate worship for God alone.","title":"Render Unto Caesar","url":"/notes/render-unto-caesar/"},{"description":"I check teachers by what their teaching produces, not by how polished the talk sounds.","title":"By Their Fruits","url":"/notes/by-their-fruits/"},{"description":"I give, pray, and fast for God to see - not for applause in the group chat.","title":"Secret Devotion","url":"/notes/secret-devotion/"},{"description":"Heart righteousness goes deeper than outward acts - anger is murder, lust is adultery, in the heart.","title":"Heart Righteousness","url":"/notes/heart-righteousness/"},{"description":"Hearing the words isn't enough - I build on rock when I actually do what Jesus said.","title":"The Wise Builder","url":"/notes/the-wise-builder/"},{"description":"I stop negotiating merit and receive the kingdom the way a child receives care.","title":"Childlike Faith","url":"/notes/childlike-faith/"},{"description":"I deny myself and follow Christ daily - choosing his will over mine, not collecting suffering points.","title":"Take Up Your Cross","url":"/notes/take-up-your-cross/"},{"description":"Speak plainly - no swearing oaths to make people trust you; let your word stand on its own.","title":"Let Your Yes Be Yes","url":"/notes/let-your-yes-be-yes/"},{"description":"Ask, seek, knock means prayer on schedule - not a one-time burst when desperation hits.","title":"Ask Seek Knock","url":"/notes/ask-seek-knock/"},{"description":"I don't play final judge on souls - I pull my own plank before nitpicking someone's speck.","title":"Judge Not","url":"/notes/judge-not/"},{"description":"When someone hits or insults me, I don't hand back the same - I break the retaliation loop.","title":"Turn the Other Cheek","url":"/notes/turn-the-other-cheek/"},{"description":"Jesus' opening command: turn from self-rule and trust the good news that the kingdom is at hand.","title":"Repent and Believe","url":"/notes/repent-and-believe/"},{"description":"The road to life is narrow and hard - the easy broad path is the one I'd drift onto.","title":"The Narrow Way","url":"/notes/the-narrow-way/"},{"description":"I store up what lasts - generosity and obedience - not what rust, moth, and thieves can take.","title":"Treasure in Heaven","url":"/notes/treasure-in-heaven/"},{"description":"Good works aren't for hiding - let people see the Father in how I live, not perform for applause.","title":"Let Your Light Shine","url":"/notes/let-your-light-shine/"},{"description":"Jesus taught greatness through service - the Son of Man came to serve, not be served.","title":"Humility and Service","url":"/notes/humility-and-service/"},{"description":"first be reconciled to your brother, and then come and present your offering (Matthew 5:23-24).","title":"Reconciliation Before Worship","url":"/notes/reconciliation-before-worship/"},{"description":"I pursue peace on purpose - repair, truth in love, de-escalation - not just staying quiet.","title":"Peacemakers","url":"/notes/peacemakers/"},{"description":"Jesus told me not to stack worry on food, clothes, or tomorrow - the Father already feeds birds.","title":"Don't Worry","url":"/notes/dont-worry/"},{"description":"Jesus opened the Sermon on the Mount with eight blessings - a picture of who the kingdom favors.","title":"The Beatitudes","url":"/notes/the-beatitudes/"},{"description":"I put God's rule first and let food, status, and tomorrow's worry sort behind that.","title":"Seek the Kingdom First","url":"/notes/seek-the-kingdom-first/"},{"description":"I extend the forgiveness I already received, not ledger-keeping on debts Christ cleared.","title":"Forgiveness","url":"/notes/forgiveness/"},{"description":"Love your enemies - bless, pray, reflect the Father who sends rain on just and unjust alike.","title":"Love Your Enemies","url":"/notes/love-your-enemies/"},{"description":"I treat people how I'd want to be treated - active care, not just avoiding harm.","title":"The Golden Rule","url":"/notes/the-golden-rule/"},{"description":"Love others the way I'd want care if our roles flipped - second command, paired with loving God.","title":"Love Your Neighbor","url":"/notes/love-your-neighbor/"},{"description":"First command, whole self - heart, mind, strength, not a corner of Sunday morning.","title":"Love God","url":"/notes/love-god/"},{"description":"What Jesus taught that doesn't expire when the culture shifts - love God, love people, forgive, seek the kingdom first.","title":"Eternal Principles","url":"/notes/eternal-principles/"},{"description":"My graph shows extends, contradicts, implements, alternative - not just two notes mentioning the same word.","title":"Note Relationships","url":"/notes/note-relationships/"},{"description":"Eternal life is Christ's gift received by faith alone, not wages for commandments, principles, or good works.","title":"Free Grace","url":"/notes/free-grace/"},{"description":"I keep one clear claim per note page and let wikilinks plus /notes/ do the browsing.","title":"Getting Started","url":"/notes/getting-started/"},{"description":"One heroic sprint doesn't beat a routine I can rerun when motivation dips.","title":"Process Over Outcomes","url":"/notes/process-over-outcomes/"},{"description":"There's no perfect solution - pick what works tired and ship instead of waiting for the ideal.","title":"There Is No Perfect Solution","url":"/notes/there-is-no-perfect-solution/"},{"description":"A folder of unread saves isn't a garden - I prune monthly and wire notes I'd actually recommend.","title":"Active Knowledge Curation","url":"/notes/active-knowledge-curation/"},{"description":"Analog capture wins when the phone dies or the meeting blocks screens - same inbox rule.","title":"Analog Capture Tools","url":"/notes/analog-capture-tools/"},{"description":"I build on plain files and open formats so an app shutdown doesn't erase years of notes.","title":"Anti-Fragile Systems","url":"/notes/anti-fragile-systems/"},{"description":"If a note needs three ands to make its point, I split it before I link it.","title":"Atomic Notes","url":"/notes/atomic-notes/"},{"description":"I shape frontmatter and folders so future me and my scripts don't need a fresh briefing every time.","title":"Building a Personal API","url":"/notes/building-a-personal-api/"},{"description":"My head is for thinking, not storing - notes hold what I'd otherwise lose.","title":"Building a Second Brain","url":"/notes/building-a-second-brain/"},{"description":"Save what resonates into one inbox I trust - then empty it weekly.","title":"Capture","url":"/notes/capture/"},{"description":"Compounding is small gains stacked over time - the curve stays flat until it suddenly bends.","title":"Compounding","url":"/notes/compounding/"},{"description":"A saved link is a mystery six weeks later unless I jot the why while I still remember it.","title":"Context-Aware Capture","url":"/notes/context-aware-capture/"},{"description":"Thousands of notes and I still stare at a blank page - one small ship action usually unsticks me.","title":"Creative Blocks","url":"/notes/creative-blocks/"},{"description":"Notes are inventory for me - posts, sermons, code, and dinner experiments are the point.","title":"Creative Output","url":"/notes/creative-output/"},{"description":"My daily note is a scratch pad for today's fragments, not a diary I expect to last forever.","title":"Daily Notes","url":"/notes/daily-notes/"},{"description":"My garden is where notes grow in public - linked, imperfect, alive on Hugo and Git.","title":"Digital Garden","url":"/notes/digital-garden/"},{"description":"My notes got sharper when I dropped extra apps, sync layers, and notifications I wasn't really using.","title":"Digital Minimalism","url":"/notes/digital-minimalism/"},{"description":"Old notes surprise me on schedule because I linked them on purpose, not because I got lucky.","title":"Digital Serendipity","url":"/notes/digital-serendipity/"},{"description":"Posting rough drafts keeps me honest and lets the garden grow from feedback, not private hoarding.","title":"Drafting in Public","url":"/notes/drafting-in-public/"},{"description":"I phrase ideas I'd still stand behind in two years and revise when reality shifts, not when a trend spikes.","title":"Evergreen Notes","url":"/notes/evergreen-notes/"},{"description":"Sparks belong in fleeting notes; claims I trust belong in evergreen, with a clear path between them.","title":"Evergreen vs Fleeting Notes","url":"/notes/evergreen-vs-fleeting-notes/"},{"description":"First principles thinking is rebuilding from what I actually believe, not someone else's quote.","title":"First Principles Thinking","url":"/notes/first-principles-thinking/"},{"description":"I future-proof notes with plain text, open tools, and exports I test before a vendor locks me in.","title":"Future-Proofing Knowledge","url":"/notes/future-proofing-knowledge/"},{"description":"Graph view analytics reads my link map for orphans, over-connected hubs, and gaps I'd forgotten.","title":"Graph View Analytics","url":"/notes/graph-view-analytics/"},{"description":"GTD vs PARA runs tasks in one system and notes in another - cousins, not rivals.","title":"GTD vs PARA","url":"/notes/gtd-vs-para/"},{"description":"I cite sources in notes to trust my synthesis and find the original later.","title":"Intellectual Sourcing","url":"/notes/intellectual-sourcing/"},{"description":"I link notes so ideas meet in the graph without me memorizing every folder path.","title":"Linking by Meaning","url":"/notes/linking-by-meaning/"},{"description":"Local-first means my device holds the truth; sync is optional icing - backup should behave the same way.","title":"Local-first Software","url":"/notes/local-first-software/"},{"description":"The easy win I can grab now - do it before I climb for the hard stuff.","title":"Low Hanging Fruit","url":"/notes/low-hanging-fruit/"},{"description":"I write hub notes by hand when one topic spreads across too many files to hold in my head.","title":"Maps of Content","url":"/notes/maps-of-content/"},{"description":"Mental models are thinking shortcuts I keep when they survive real decisions.","title":"Mental Models","url":"/notes/mental-models/"},{"description":"If tagging a note takes longer than writing it, my system is fighting me.","title":"Metadata Strategy","url":"/notes/metadata-strategy/"},{"description":"Mind maps are for the messy first pass - branches, bubbles, relationships. I export to atomic notes after, not instead.","title":"Mind Mapping","url":"/notes/mind-mapping/"},{"description":"The smallest change that still moves the needle - not the heroic overhaul.","title":"Minimum Effective Dose","url":"/notes/minimum-effective-dose/"},{"description":"Ship the smallest version that proves someone actually wants this - polish comes after proof.","title":"Minimum Viable Product","url":"/notes/minimum-viable-product/"},{"description":"Mobile capture is one tap to save the spark before I scroll away - share sheet to inbox.","title":"Mobile Capture Workflows","url":"/notes/mobile-capture-workflows/"},{"description":"PARA sorts notes into Projects, Areas, Resources, and Archives - four buckets by life responsibility, not topic soup.","title":"PARA Method","url":"/notes/para-method/"},{"description":"The Pareto principle is the 80/20 rule - most results come from a small slice of effort.","title":"Pareto Principle","url":"/notes/pareto-principle/"},{"description":"If I never revisit notes, they rot - I calendar weekly and quarterly passes like I'd calendar bills.","title":"Periodic Knowledge Review","url":"/notes/periodic-knowledge-review/"},{"description":"PKM is how I save, organize, and reuse what I learn - not a hobby of collecting apps.","title":"PKM","url":"/notes/pkm/"},{"description":"I save only what changes what I do or believe this month - most feeds are noise.","title":"Signal vs Noise","url":"/notes/signal-vs-noise/"},{"description":"Slow productivity is fewer active projects so work finishes deep instead of piling as guilt.","title":"Slow Productivity","url":"/notes/slow-productivity/"},{"description":"I review on a schedule so ideas stick - retention, application, and explanation, not fact pile-up.","title":"Spaced Repetition","url":"/notes/spaced-repetition/"},{"description":"I drop the bad tool or project when it stops earning its place - past effort is gone either way.","title":"Sunk Cost Fallacy","url":"/notes/sunk-cost-fallacy/"},{"description":"I merge sources into what I believe and can defend - a quote pile isn't the goal.","title":"Synthesis as a Goal","url":"/notes/synthesis-as-a-goal/"},{"description":"I compress yearly goals into twelve-week arcs I can actually feel - and map wiki projects to them.","title":"The 12 Week Year","url":"/notes/the-12-week-year/"},{"description":"Saving articles felt like progress until I tied every save to an express deadline or cut it.","title":"The Collector's Fallacy","url":"/notes/the-collectors-fallacy/"},{"description":"I teach the idea out loud to a blank page - wherever I stumble, I don't understand yet.","title":"The Feynman Technique","url":"/notes/the-feynman-technique/"},{"description":"My vault is the garage for scraps and experiments - the blog is the showroom, and I keep them separate.","title":"The Garage Concept","url":"/notes/the-garage-concept/"},{"description":"Ideas move through capture, use, polish, fade, and archive in my vault - I match effort to the stage.","title":"The Knowledge Lifecycle","url":"/notes/the-knowledge-lifecycle/"},{"description":"Capture to inbox, organize by project, distill on reuse, express weekly - CODE and PARA in one loop.","title":"The Second Brain Workflow","url":"/notes/the-second-brain-workflow/"},{"description":"One capture pipe I empty every week - if I don't trust it, I hoard ideas in my head instead.","title":"The Trusted Inbox","url":"/notes/the-trusted-inbox/"},{"description":"Weekly review works when the same short checklist runs every Sunday on purpose.","title":"Weekly Review Checklists","url":"/notes/weekly-review-checklists/"}]</script></section>
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Random pick section should display 2 notes instead of 3.
+
+Searching the codebase for the Random pick configuration.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-featured-random|Random pick|featured-random"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "notes-featured-random|Random pick|featured-random",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-01_23-46-47Z-bem-class-addition-discussion.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-07-06_03-58-01Z-board-game-question-randomizer.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_10-34-58Z-card-display-settings-for-random-trio-and-duo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_01-07-08Z-flashcard-guiding-principles.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "assets/js/notes-random.js"
+    },
+    {
+      "matchCount": 3,
+      "uri": "assets/css/custom.css"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-01_15-00-26Z-random-notes-display-check.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-01_14-39-04Z-okf-standards-compliance.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_10-42-35Z-graph-filters-on-mobile-and-tablet.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_05-16-41Z-local-deployment-performance-on-mac.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "layouts/_partials/notes/featured-random-note.html"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-22_02-39-52Z-impeccable-audit-discussion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_05-12-25Z-note-connection-analysis-framework.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-07-02_13-08-11Z-search-functionality-issue.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-06-21_12-48-52Z-format-consistency.md"
+    },
+    {
+      "matchCount": 7,
+      "uri": ".specstory/history/2026-07-06_08-19-33Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 15,
+      "uri": ".specstory/history/2026-06-20_06-30-33Z-shortening-names-of-notes.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-21_12-15-47Z-possible-notes-functionalities.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-07-09_14-07-18Z-site-improvement-suggestions.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_13-36-17Z-mobile-random-notes-height.md"
+    }
+  ],
+  "totalFiles": 49,
+  "totalMatches": 220
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The random pick logic now lives in assets/js/notes-random.js, merged from notes-featured-random.js.
+
+Reading the template and JS files.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/featured-random-note.html</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random.js</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{js,html,css}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "featured.*random|random.*3|pick.*3|THREE|count.*3"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "featured.*random|random.*3|pick.*3|THREE|count.*3",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "layouts/_partials/notes/featured-random-note.html"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/random-unrelated-notes.html"
+    },
+    {
+      "matchCount": 5,
+      "uri": "assets/js/notes-random.js"
+    },
+    {
+      "matchCount": 5,
+      "uri": "assets/css/custom.css"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/list.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/notes/random-duo.html"
+    },
+    {
+      "matchCount": 8,
+      "uri": "assets/js/randomizer.js"
+    }
+  ],
+  "totalFiles": 7,
+  "totalMatches": 25
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Changing `PICK_COUNT` from 3 to 2 in the random notes component.
+
+Updating the template text to "Two notes from the garden". Adjusting the grid layout from three columns to two. Checking custom.css for grid styles.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/assets/css/custom.css</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "featured-random|PICK_COUNT|Three notes"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "featured-random|PICK_COUNT|Three notes",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-22_07-06-09Z-content-consistency-between-local-and-live.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-28_17-06-25Z-free-grace-and-eternal-rewards-notes.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-27_10-39-09Z-knowledge-catalog-specification-comparison.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-01_15-16-34Z-http-500-error-on-jorap.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_04-29-21Z-notes-review-for-removal.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_07-32-04Z-capture.md-format-explanation.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-28_00-07-52Z-tinacms-compatibility.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "assets/js/notes-random.js"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-01_15-00-26Z-random-notes-display-check.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-07-01_14-39-04Z-okf-standards-compliance.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-21_11-42-01Z-possible-additional-filters.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-01_23-35-09Z-notes-layout-adjustment.md"
+    },
+    {
+      "matchCount": 12,
+      "uri": ".specstory/history/2026-06-22_02-16-32Z-missing-hugo-extended-package-warning.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-02_13-36-17Z-mobile-random-notes-height.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-21_11-09-34Z-local-display-issues-for-notes-and-graphs.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_05-16-41Z-local-deployment-performance-on-mac.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-21_10-39-21Z-deployment-process-overview.md"
+    },
+    {
+      "matchCount": 31,
+      "uri": ".specstory/history/2026-06-21_09-49-17Z-ponytail-skill-integration.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-21_12-15-47Z-possible-notes-functionalities.md"
+    }
+  ],
+  "totalFiles": 53,
+  "totalMatches": 230
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating featured-random-note.html to show two columns maximum and revise the copy.
+
+Also updating notes-random.js to pick two notes and revise its comment.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/assets/js/notes-random.js</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/featured-random-note.html</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking whether a test exists for the current PICK_COUNT value of 3.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "**/*.{js,test.*,spec.*}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "PICK_COUNT|featured-random|Three notes from"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "PICK_COUNT|featured-random|Three notes from",
+  "topFiles": [
+    {
+      "matchCount": 6,
+      "uri": "./assets/js/notes-random.js"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 6
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+No tests needed updating. The change is complete.</details></think>
+
+_**Agent (auto-low)**_
+
+Random pick now shows **2** notes instead of 3.
+
+**`layouts/_partials/notes/featured-random-note.html`**
+- Copy: “Two notes from the garden…”
+- Grid: `sm:grid-cols-2` only (removed `lg:grid-cols-3`)
+
+**`assets/js/notes-random.js`**
+- `PICK_COUNT` changed from `3` to `2`
+
+Reload `/notes/` to see two cards side by side on `sm+` breakpoints.
