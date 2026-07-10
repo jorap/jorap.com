@@ -3,7 +3,7 @@ title: "Behavioral Economics"
 meta_title: "Behavioral Economics"
 description: "People choose what default and friction make easy, not what a neat lecture said they should pick."
 key_concept: |
-  - People don't act on facts alone - defaults and friction steer choices more than lectures.
+  - People do not act on facts alone - defaults and friction steer choices more than lectures.
   - [[Mental Models]] gives lenses; this field names why nudges beat sermons.
   - People choose what default and friction make easy, not what a neat lecture said they should pick.
   - A well-designed default beats a well-argued lecture almost every time.
@@ -12,7 +12,7 @@ examples:
   - "Default opt-in to save made more people enroll than the bonus email campaign."
 shareable_thought:
   - "People choose what default and friction make easy, not what a neat lecture said they should pick."
-  - "People don't act on facts alone - defaults and friction steer choices more than lectures."
+  - "People do not act on facts alone - defaults and friction steer choices more than lectures."
   - "Mental Models gives lenses; this field names why nudges beat sermons."
   - "A well-designed default beats a well-argued lecture almost every time."
 relationships:

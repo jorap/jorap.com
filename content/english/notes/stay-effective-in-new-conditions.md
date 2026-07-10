@@ -1,9 +1,9 @@
 ---
 title: "Strong Outside Your Comfort"
 meta_title: "Strong Outside Your Comfort - Stay Useful in New Conditions"
-description: "The habit that worked in my last role can flop in the next room - I retune instead of clinging."
+description: "The habit that worked in the last role can flop in the next room - retune instead of clinging."
 key_concept: |
-  - The tell is confidence that doesn't match the room - certainty imported from somewhere else.
+  - The tell is confidence that does not match the room - certainty imported from somewhere else.
   - Real competence means staying useful outside ideal setups, familiar roles, and comfortable routines - new tools, new teams, crisis mode, career pivots.
   - The habit that worked in my last role can flop in the next room.
   - I retune instead of clinging.
@@ -14,7 +14,7 @@ examples:
 shareable_thought:
   - "The habit that worked in my last role can flop in the next room."
   - "I retune instead of clinging."
-  - "The tell is confidence that doesn't match the room - certainty imported from somewhere else."
+  - "The tell is confidence that does not match the room - certainty imported from somewhere else."
   - "Nobody warns you the room changed; you just start losing at things that used to work."
 relationships:
   - type: contradicts
@@ -46,10 +46,10 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "New counter at work and lunch rush is tomorrow. I'm still defending last month's habits."
-    back: "Walk it first - adapt, don't defend."
-  - front: "I own the outdoor court but tonight's indoor floor is slick and I'm slipping everywhere."
-    back: "New footwork - don't defend yesterday."
+  - front: "New counter at work and lunch rush is tomorrow. I am still defending last month's habits."
+    back: "Walk it first - adapt, do not defend."
+  - front: "I own the outdoor court but tonight's indoor floor is slick and I am slipping everywhere."
+    back: "New footwork - do not defend yesterday."
 draft: false
 ---
 

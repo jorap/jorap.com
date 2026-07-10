@@ -1,7 +1,7 @@
 ---
 title: "Sunk Cost Fallacy"
 meta_title: "Sunk Cost Fallacy - Past Effort Isn't a Reason to Continue"
-description: "I drop the bad tool or project when it stops earning its place - past effort is gone either way."
+description: "Drop the bad tool or project when it stops earning its place - past effort is gone either way."
 key_concept: |
   - Past effort is gone.
   - I ask: if I found this today, would I start it?
@@ -10,8 +10,8 @@ key_concept: |
   - I drop the bad tool or project when it stops earning its place.
   - Past effort is gone either way.
 examples:
-  - "I kept running a set play that lost four straight because we'd drilled it all preseason - sunk cost is asking whether I keep it because it cost time, not because it still works."
-  - "The shop kept the broken POS because they'd paid the install fee - forward question only: would I buy this system fresh today?"
+  - "I kept running a set play that lost four straight because we would drilled it all preseason - sunk cost is asking whether I keep it because it cost time, not because it still works."
+  - "The shop kept the broken POS because they would paid the install fee - forward question only: would I buy this system fresh today?"
 shareable_thought:
   - "I drop the bad tool or project when it stops earning its place."
   - "Past effort is gone either way."
@@ -32,7 +32,7 @@ relationships:
     reason: "Bias cluster this fallacy belongs to"
   - type: extends
     wikilink: "[[There Is No Perfect Solution]]"
-    reason: "Past effort is gone - ask if you'd start this today, same as dropping a bad plan for perfect"
+    reason: "Past effort is gone - ask if you would start this today, same as dropping a bad plan for perfect"
 slug: "sunk-cost-fallacy"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"
@@ -48,10 +48,10 @@ cards:
     back: "Would I pick it fresh today? No."
   - front: "Software keeps crashing but I already paid the annual license."
     back: "Would I buy it today? Cancel."
-  - front: "Gym membership charging since February and I haven't gone."
+  - front: "Gym membership charging since February and I have not gone."
     back: "Cancel it - past money's gone."
-  - front: "Board game's boring and we're an hour in."
-    back: "Stop - don't finish because we started."
+  - front: "Board game's boring and we are an hour in."
+    back: "Stop - do not finish because we started."
 draft: false
 ---
 

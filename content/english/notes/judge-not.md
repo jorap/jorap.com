@@ -1,34 +1,34 @@
 ---
 title: "Judge Not"
 meta_title: "Judge Not - Speck and Plank"
-description: "I don't play final judge on souls - I pull my own plank before nitpicking someone's speck."
+description: "Final judge on souls is not your job - pull your own plank before nitpicking someone speck."
 key_concept: |
   {{< bible ref="Matthew 7:1-5" emphasize="5" >}}
-  - Don't play final judge on souls - pull your plank before you nitpick someone's speck.
+  - Do not play final judge on souls - pull your plank before you nitpick someone's speck.
   
   {{< bible ref="Matthew 7:16-20" emphasize="20" >}}
   
   - Still judge fruit - outcomes over time tell you what's underneath the hype.
   - Jesus forbids harsh, hypocritical condemnation - the kind that ignores my own guilt while magnifying yours.
-  - He doesn't forbid all moral discernment: the same sermon names fruit too.
-  - Garden parallel: the [Issues](/notes/issues/) page lists broken wikilinks to fix - diagnose the graph, don't condemn the author.
+  - He does not forbid all moral discernment: the same sermon names fruit too.
+  - Garden parallel: the [Issues](/notes/issues/) page lists broken wikilinks to fix - diagnose the graph, do not condemn the author.
   - [[Mercy]] and [[Free Grace]] remind me I stood on mercy first.
-  - I don't play final judge on souls - I pull my own plank before nitpicking someone's speck.
+  - I do not play final judge on souls - I pull my own plank before nitpicking someone's speck.
 examples:
   - "I spotted my teammate's travel in five seconds and missed my own lazy dribble - judge not starts with the log in my eye."
-  - "I spotted a coworker's missed step in five seconds and missed my own plank for a month - Jesus wasn't saying ignore sin; He was saying remove your plank first."
+  - "I spotted a coworker's missed step in five seconds and missed my own plank for a month - Jesus was not saying ignore sin; He was saying remove your plank first."
 shareable_thought:
-  - "I don't play final judge on souls - I pull my own plank before nitpicking someone's speck."
-  - "Still judge fruit."
-  - "Outcomes over time tell you what's underneath the hype."
-  - "Jesus forbids harsh, hypocritical condemnation."
+  - "Final judge on souls is not your job - pull your own plank before nitpicking someone speck."
+  - "Still judge fruit - outcomes over time tell you what is underneath the hype."
+  - "Jesus forbids harsh, hypocritical condemnation - not all moral discernment."
+  - "Mercy and Free Grace remind you that you stood on mercy first."
 relationships:
   - type: contradicts
     wikilink: "[[Humility and Service]]"
     reason: "when I critique others to lift myself up"
   - type: extends
     wikilink: "[[Free Grace]]"
-    reason: "You stood on mercy first, so you don't condemn others like you're their final judge"
+    reason: "You stood on mercy first, so you do not condemn others like you are their final judge"
   - type: extends
     wikilink: "[[Mercy]]"
     reason: "Mercy received first keeps me from playing final judge over others"

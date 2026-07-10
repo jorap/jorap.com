@@ -1,16 +1,16 @@
 ---
 title: "Integrity"
 meta_title: "Integrity - Alignment Between Claim and Action"
-description: "What I do matches what I claim when applause, speed, or comfort aren't watching."
+description: "What you do matches what you claim when applause, speed, or comfort are not watching."
 key_concept: |
   - What you do matches what you claim - especially when it costs applause, speed, or comfort.
-  - What I do matches what I claim when applause, speed, or comfort aren't watching.
+  - What I do matches what I claim when applause, speed, or comfort are not watching.
   - Integrity is doing what you said matters when it costs something - not only when someone's watching.
 examples:
-  - "I could've counted a late hit as legal when the ref looked away - integrity is the same call whether anyone's watching or not."
-  - "I could've scooped light on flour when the rush got loud - integrity is what you do matches what you claim, especially when it costs comfort."
+  - "I could have counted a late hit as legal when the ref looked away - integrity is the same call whether anyone's watching or not."
+  - "I could have scooped light on flour when the rush got loud - integrity is what you do matches what you claim, especially when it costs comfort."
 shareable_thought:
-  - "What I do matches what I claim when applause, speed, or comfort aren't watching."
+  - "What I do matches what I claim when applause, speed, or comfort are not watching."
   - "What you do matches what you claim."
   - "Especially when it costs applause, speed, or comfort."
   - "Integrity is doing what you said matters when it costs something - not only when someone's watching."

@@ -4,7 +4,7 @@ meta_title: "GTD vs PARA - Tasks vs Knowledge"
 description: "GTD vs PARA runs tasks in one system and notes in another - cousins, not rivals."
 key_concept: |
   - Tasks and knowledge need different homes.
-  - [[Getting Things Done]] runs what has a next action and a deadline; [[PARA Method]] sorts what I'd cite with no finish line.
+  - [[Getting Things Done]] runs what has a next action and a deadline; [[PARA Method]] sorts what I would cite with no finish line.
   - Cousins, not competitors - same capture habit, two lanes.
   - The failure mode is doubling admin: one inbox emptied weekly, tasks in the task app, notes in the garden.
   - GTD vs PARA runs tasks in one system and notes in another - cousins, not rivals.
@@ -14,7 +14,7 @@ examples:
 shareable_thought:
   - "GTD vs PARA runs tasks in one system and notes in another - cousins, not rivals."
   - "Tasks and knowledge need different homes."
-  - "Getting Things Done runs what has a next action and a deadline; PARA Method sorts what I'd cite with no finish line."
+  - "Getting Things Done runs what has a next action and a deadline; PARA Method sorts what I would cite with no finish line."
   - "The failure mode is doubling admin: one inbox emptied weekly, tasks in the task app, notes in the garden."
 relationships:
   - type: contradicts

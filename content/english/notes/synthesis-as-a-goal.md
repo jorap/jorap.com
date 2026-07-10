@@ -1,27 +1,27 @@
 ---
 title: "Synthesis as a Goal"
 meta_title: "Synthesis as a Goal - Notes Should Combine"
-description: "I merge sources into what I believe and can defend - a quote pile isn't the goal."
+description: "Merge sources into what you believe and can defend - a quote pile is not the goal."
 key_concept: |
-  - I merge sources into what I believe and can defend - a quote pile isn't the goal.
-  - Collecting quotes isn't PKM for me - belief has to live in prose I can defend.
-  - Synthesis is when learning starts - merge sources into one claim I'd ship.
+  - I merge sources into what I believe and can defend - a quote pile is not the goal.
+  - Collecting quotes is not PKM for me - belief has to live in prose I can defend.
+  - Synthesis is when learning starts - merge sources into one claim I would ship.
   - The wiki can hold borrowed lines; I still owe one page in my own words.
 examples:
   - "Three coaches' clips on our press sat in my folder until I merged them into one drill we actually ran Tuesday."
   - "Five parenting articles became one rule on the fridge - merged into what we believe about screens, not a quote collection."
 shareable_thought:
   - "I merge sources into what I believe and can defend."
-  - "A quote pile isn't the goal."
-  - "Collecting quotes isn't PKM for me - belief has to live in prose I can defend."
+  - "A quote pile is not the goal."
+  - "Collecting quotes is not PKM for me - belief has to live in prose I can defend."
   - "Synthesis is when learning starts."
 relationships:
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"
-    reason: "when a quote pile feels like belief you haven't written yet"
+    reason: "when a quote pile feels like belief you have not written yet"
   - type: extends
     wikilink: "[[Creative Output]]"
-    reason: "Collecting quotes isn't enough - merge sources into beliefs you can defend and ship"
+    reason: "Collecting quotes is not enough - merge sources into beliefs you can defend and ship"
   - type: extends
     wikilink: "[[Literature Notes]]"
     reason: "Source notes you merge before belief"
@@ -37,10 +37,10 @@ review: true
 card_sets: ["Writing", "Review"]
 cards:
   - front: "Three press clips in my folder and Tuesday practice needs a drill."
-    back: "Merge into one drill I'd actually run."
+    back: "Merge into one drill I would actually run."
   - front: "Three recipe clippings on the fridge and dinner's tonight."
     back: "One merged recipe - not a collage."
-  - front: "Quote-saved productivity notes and I still can't explain my capture system."
+  - front: "Quote-saved productivity notes and I still cannot explain my capture system."
     back: "Write one page in my words."
   - front: "Five parenting articles saved and the fridge is still blank."
     back: "One rule we believe - not quotes."

@@ -1,20 +1,20 @@
 ---
 title: "Recovery"
 meta_title: "Recovery - Refill Before the Next Hard Push"
-description: "Sleep isn't laziness for me - it's the refill that keeps judgment and patience online."
+description: "Recovery is not optional padding - sleep and rest restore judgment before the next hard call."
 key_concept: |
   - The sleep, rest, and downtime that refill what hard work drains - judgment, patience, attention.
-  - Sleep isn't laziness for me - it's the refill that keeps judgment and patience online.
-  - Skipping it doesn't show up immediately - it shows up three days later as a short fuse and bad calls.
-  - The elite athlete's rest day isn't optional recovery - it's programmed like the workout.
+  - Sleep is not laziness for me - it is the refill that keeps judgment and patience online.
+  - Skipping it does not show up immediately - it shows up three days later as a short fuse and bad calls.
+  - The elite athlete's rest day is not optional recovery - it is programmed like the workout.
 examples:
   - "Elite athletes schedule rest days - muscle rebuilds off the field, not another heroic scrimmage."
   - "Three late nights made me snap at bedtime - recovery was stopping at ten instead of a fourth heroic hour that hurt everyone at breakfast."
 shareable_thought:
-  - "Sleep isn't laziness for me - it's the refill that keeps judgment and patience online."
+  - "Sleep is not laziness for me - it is the refill that keeps judgment and patience online."
   - "The sleep, rest, and downtime that refill what hard work drains - judgment, patience, attention."
-  - "Skipping it doesn't show up immediately - it shows up three days later as a short fuse and bad calls."
-  - "The elite athlete's rest day isn't optional recovery - it's programmed like the workout."
+  - "Skipping it does not show up immediately - it shows up three days later as a short fuse and bad calls."
+  - "The elite athlete's rest day is not optional recovery - it is programmed like the workout."
 relationships:
   - type: contradicts
     wikilink: "[[Finish Strong]]"
@@ -39,7 +39,7 @@ review: true
 card_sets: ["Focus", "Review"]
 cards:
   - front: "After three nights of overtime I skipped the fourth. What's the move?"
-    back: "Slept eight hours and didn't snap at the barista"
+    back: "Slept eight hours and did not snap at the barista"
   - front: "Elite athletes schedule rest days. What's the move?"
     back: "Not another heroic scrimmage"
 draft: false

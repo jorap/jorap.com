@@ -1,26 +1,27 @@
 ---
 title: "Context-Aware Capture"
 meta_title: "Context-Aware Capture - Save the Why, Not Just the What"
-description: "A saved link is a mystery six weeks later unless I jot the why while I still remember it."
+description: "A saved link is a mystery six weeks later unless the why is jotted while memory is fresh."
 key_concept: |
-  - Capture the why while I still remember it - project, mood, question - not just the link.
-  - A saved link is a mystery six weeks later unless I jot the why while I still remember it.
+  - Context-aware capture saves the why while memory is fresh - project, mood, question - not just the link.
+
+  - A saved link is a mystery six weeks later unless the why was captured while it was still obvious.
   - Six weeks later, only the why saves a bookmark from becoming junk.
 examples:
   - "Voice memo in the parking lot after the meeting - context was still in my head."
   - "Photo of the whiteboard before they erased it - capture matched where the idea lived."
 shareable_thought:
-  - "A saved link is a mystery six weeks later unless I jot the why while I still remember it."
-  - "Capture the why while I still remember it."
-  - "Project, mood, question - not just the link."
-  - "Six weeks later, only the why saves a bookmark from becoming junk."
+  - Context-aware capture saves the why while memory is fresh, not just the link.
+  - A saved link is a mystery six weeks later without the why attached.
+  - Project, mood, and question beat a bare URL every time.
+  - Capture the why at the moment - not during a future archaeology dig.
 relationships:
   - type: contradicts
     wikilink: "[[Metadata Strategy]]"
     reason: "when inline why beats formal metadata fields"
   - type: extends
     wikilink: "[[Capture]]"
-    reason: "Capture the why while it's obvious or the link is a mystery six weeks later"
+    reason: "Capture the why while it is obvious or the link is a mystery six weeks later"
 slug: "context-aware-capture"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"

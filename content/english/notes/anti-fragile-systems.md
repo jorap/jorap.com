@@ -1,16 +1,16 @@
 ---
 title: "Anti-Fragile Systems"
 meta_title: "Anti-Fragile PKM - Systems That Survive Tool Death"
-description: "I build on plain files and open formats so an app shutdown doesn't erase years of notes."
+description: "Note systems survive app shutdowns when built on plain files, open formats, and tested backups."
 key_concept: |
   - Note systems that survive app shutdowns - plain files, open formats, and backups I actually test.
-  - I build on plain files and open formats so an app shutdown doesn't erase years of notes.
+  - I build on plain files and open formats so an app shutdown does not erase years of notes.
   - Test backups while the app still works - not after the export dies.
 examples:
-  - "When the gym's booking app shut down for good, my paper training log still had every set - I photocopy it once a quarter so I'm not rebuilding history from memory."
+  - "When the gym's booking app shut down for good, my paper training log still had every set - I photocopy it once a quarter so I am not rebuilding history from memory."
   - "The shop switched POS systems twice and the owner kept a plain spreadsheet backup - exports she actually opens, not trust in the vendor forever."
 shareable_thought:
-  - "I build on plain files and open formats so an app shutdown doesn't erase years of notes."
+  - "I build on plain files and open formats so an app shutdown does not erase years of notes."
   - "Note systems that survive app shutdowns."
   - "Plain files, open formats, and backups I actually test."
   - "Test backups while the app still works - not after the export dies."
@@ -42,7 +42,7 @@ cards:
     back: "Photocopy the log each quarter."
   - front: "Last shiny notes app got acquired and killed. What's my format move?"
     back: "Plain markdown files."
-  - front: "POS vendor changed twice and I'm tempted to trust the cloud forever. What do I keep?"
+  - front: "POS vendor changed twice and I am tempted to trust the cloud forever. What do I keep?"
     back: "Plain spreadsheet backup."
   - front: "Family recipe box survived three phone upgrades while the sync app died. What's the lesson?"
     back: "Boring format that outlives apps."

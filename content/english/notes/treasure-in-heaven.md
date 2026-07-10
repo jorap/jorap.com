@@ -1,19 +1,19 @@
 ---
 title: "Treasure in Heaven"
 meta_title: "Treasure in Heaven - Where Your Heart Follows"
-description: "I store up what lasts - generosity and obedience - not what rust, moth, and thieves can take."
+description: "Store up what lasts - generosity and obedience - not what rust, moth, and thieves can take."
 key_concept: |
   {{< bible ref="Matthew 6:19-21" emphasize="21" >}}
   - Earthly stuff rusts and gets stolen - where your treasure is, your heart follows; store what lasts.
   - Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation.
   - [[Free Grace]] already secured heaven; [[Eternal Rewards]] names what the Father pays the saved life for faithfulness - not the entry fee.
-  - The [[Judgment Seat]] evaluates what lasts - wood, hay, and stubble burn while gold lasts; [[Loss of Reward]] is when worthless treasure burns but you're still saved through fire.
+  - The [[Judgment Seat]] evaluates what lasts - wood, hay, and stubble burn while gold lasts; [[Loss of Reward]] is when worthless treasure burns but you are still saved through fire.
   - [[The Collector's Fallacy]] is the PKM mirror: hoarding saves and stuff on earth while nothing lasting gets stored.
   - I store up what lasts.
   - Generosity and obedience - not what rust, moth, and thieves can take.
-  - Treasure in heaven means I store up what lasts - earthly trophies rust, kingdom storage doesn't.
+  - Treasure in heaven means I store up what lasts - earthly trophies rust, kingdom storage does not.
 examples:
-  - "Thumb on another buy I don't need - will this rust, or store something heaven-side like mercy and obedience?"
+  - "Thumb on another buy I do not need - will this rust, or store something heaven-side like mercy and obedience?"
   - "I almost chased a sponsorship for the ego, not the team - treasure check: where will this matter in ten years?"
 shareable_thought:
   - "I store up what lasts."
@@ -41,7 +41,7 @@ relationships:
     reason: "Worthless stored treasure burns; eternal life on Christ stays"
   - type: extends
     wikilink: "[[Platform Reach Is Borrowed]]"
-    reason: "Earthly reach rusts - followers aren't permanent treasure"
+    reason: "Earthly reach rusts - followers are not permanent treasure"
   - type: extends
     wikilink: "[[Success is Stewardship]]"
     reason: "Earthly success rusts - store what lasts"
@@ -56,7 +56,7 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Priorities"]
 cards:
-  - front: "Saving articles and gear I'll never use. Where's my heart drifting?"
+  - front: "Saving articles and gear I will never use. Where's my heart drifting?"
     back: "Check treasure - moth and rust eat earth stuff."
   - front: "Generosity impulse killed by fear of running out. What lasts?"
     back: "Store heaven-side - give, mercy, obey."
@@ -66,7 +66,7 @@ cards:
     back: "Move treasure - heart follows."
   - front: "Tempted to stack earthly security after grace saved me. What's the order?"
     back: "Heaven secure - store what lasts there."
-  - front: "Thumb on another buy I don't need. One check before checkout?"
+  - front: "Thumb on another buy I do not need. One check before checkout?"
     back: "Will this rust - or store something that lasts?"
 draft: false
 ---

@@ -1,24 +1,24 @@
 ---
 title: "Success is Stewardship"
 meta_title: "Success is Stewardship - Borrowed Gifts, Not Permanent Ownership"
-description: "Success is borrowed - I'm accountable for how I use what I was given, not entitled to keep it forever."
+description: "Success is borrowed - accountable for how gifts are used, not entitled to keep them forever."
 key_concept: |
   {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
-  - Promotion and platform are entrusted for faithful use - enter the master's joy, don't bury the talent in ego.
-  - Success isn't ownership - it's stewardship of what I was given: time, health, platform, money, influence.
+  - Promotion and platform are entrusted for faithful use - enter the master's joy, do not bury the talent in ego.
+  - Success is not ownership - it is stewardship of what I was given: time, health, platform, money, influence.
   - [[Free Grace]] settled where I spend forever; stewardship settles what I do with the gifts after.
   - [[Faithful Steward]] is the parable Jesus told - well done for faithful use, buried talent rebuked.
   - This note is the headline above the parable: promotion, audience, and a good season are entrusted, not trophies I earned to keep.
   - [[Eternal Rewards]] names repayment; [[Judgment Seat]] names the review.
   - Workplace mirrors: [[Servant Leadership]], [[Share What You Learn]], [[Integrity Without an Audience]] - use the slot for the team, not ego.
   - PKM mirror: [[Creative Output]] and [[Digital Garden]] - notes hoarded help nobody; [[The Collector's Fallacy]] is burying the talent in bookmarks.
-  - Success is borrowed - I'm accountable for how I use what I was given, not entitled to keep it forever.
+  - Success is borrowed - I am accountable for how I use what I was given, not entitled to keep it forever.
 examples:
-  - "Site traffic spiked after a post hit and I caught myself acting like I'd built a kingdom - success is stewardship: tend the garden, share what landed, don't confuse reach with ownership."
+  - "Site traffic spiked after a post hit and I caught myself acting like I would built a kingdom - success is stewardship: tend the garden, share what landed, do not confuse reach with ownership."
   - "Promotion email landed and I started treating my team like support staff - the title was entrusted for their good, not a trophy I earned to keep."
 shareable_thought:
-  - "Success is borrowed - I'm accountable for how I use what I was given, not entitled to keep it forever."
-  - "Success isn't ownership - it's stewardship of what I was given: time, health, platform, money, influence."
+  - "Success is borrowed - I am accountable for how I use what I was given, not entitled to keep it forever."
+  - "Success is not ownership - it is stewardship of what I was given: time, health, platform, money, influence."
   - "Faithful Steward is the parable Jesus told."
   - "Well done for faithful use, buried talent rebuked."
 relationships:
@@ -69,7 +69,7 @@ relationships:
     reason: "Entrusted gifts answered with thanks, not entitlement"
   - type: extends
     wikilink: "[[Great Commission]]"
-    reason: "Don't hoard truth - steward by passing it on"
+    reason: "do not hoard truth - steward by passing it on"
   - type: extends
     wikilink: "[[Humility and Service]]"
     reason: "Success serves others - kingdom ladder runs opposite the world's"
@@ -96,13 +96,13 @@ relationships:
     reason: "Workplace frame - use the platform for the team, not ego"
   - type: extends
     wikilink: "[[Share What You Learn]]"
-    reason: "Pass on what you figured out - don't bury know-how"
+    reason: "Pass on what you figured out - do not bury know-how"
   - type: extends
     wikilink: "[[Steward After the Win]]"
     reason: "Coast temptation right after promotion or traffic spike"
   - type: extends
     wikilink: "[[Sustainable Performance]]"
-    reason: "Pace you can repeat - don't burn the gift"
+    reason: "Pace you can repeat - do not burn the gift"
   - type: extends
     wikilink: "[[The Garage Concept]]"
     reason: "Showroom vs workshop - steward both lanes"
@@ -120,15 +120,15 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Discipleship", "Ethics"]
 cards:
-  - front: "Promotion landed and I'm treating the team like support staff. What's the title for?"
+  - front: "Promotion landed and I am treating the team like support staff. What's the title for?"
     back: "Entrusted for their good - not my trophy."
-  - front: "Site traffic spiked and I'm acting like I own the audience. One reframe?"
-    back: "Steward reach - share, don't hoard."
+  - front: "Site traffic spiked and I am acting like I own the audience. One reframe?"
+    back: "Steward reach - share, do not hoard."
   - front: "One heroic volunteer week feels like my whole eternal report card. Correct the order?"
     back: "Saved by faith - well done follows."
-  - front: "I'm the only one who knows the workaround and I'm hoarding it. Steward move?"
-    back: "Share what you learned - don't bury it."
-  - front: "Early win landed and I'm tempted to coast on what I was given."
+  - front: "I am the only one who knows the workaround and I am hoarding it. Steward move?"
+    back: "Share what you learned - do not bury it."
+  - front: "Early win landed and I am tempted to coast on what I was given."
     back: "Steward it - keep using the gift faithfully."
   - front: "Platform changed the rules overnight and reach vanished. What was I never holding?"
     back: "Ownership - steward what lasts, not rented land."

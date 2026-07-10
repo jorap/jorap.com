@@ -1,21 +1,22 @@
 ---
 title: "Change Takes Repetition"
 meta_title: "Change Takes Repetition - Same Moves Until the System Bends"
-description: "Real change is the same moves on repeat - not one breakthrough weekend."
+description: "Real change is the same moves on repeat, not one breakthrough weekend."
 key_concept: |
+  - Real change is the same moves on repeat, not one breakthrough weekend.
+
   - The breakthrough story sells books; Tuesday sells the habit.
-  - Change takes repetition means I expect the same levers many times - direction, practice, feedback - before the room feels different.
+  - Change takes repetition when the same levers run many times - direction, practice, feedback - before the room feels different.
   - [[Transformation Principles]] is the set; [[Habit Formation]] is how one move sticks; [[Practice Small Experiments]] keeps trials small while reps accumulate.
   - Faith lane: [[Sanctification]] - becoming is slow obedience, not a single altar call.
-  - Real change is the same moves on repeat - not one breakthrough weekend.
 examples:
   - "The inbound play only worked after six weeks of the same rep at practice - change takes repetition, not the inspirational speech before the tournament."
   - "My capture habit finally held after months of the same ten-minute jeepney block - change takes repetition, not the weekend I reorganized every app."
 shareable_thought:
-  - "Real change is the same moves on repeat - not one breakthrough weekend."
+  - "Real change is the same moves on repeat, not one breakthrough weekend."
   - "The breakthrough story sells books; Tuesday sells the habit."
-  - "Change takes repetition means I expect the same levers many times."
-  - "Direction, practice, feedback - before the room feels different."
+  - "Direction, practice, and feedback repeat before the room feels different."
+  - "Sanctification is slow obedience, not a single altar call."
 relationships:
   - type: contradicts
     wikilink: "[[Practice Small Experiments]]"

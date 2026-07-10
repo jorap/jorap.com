@@ -1,20 +1,20 @@
 ---
 title: "Follow Their Lead"
 meta_title: "Follow Their Lead - Connect Without Taking Over"
-description: "I join their world - their topic, pace, starting point - before I try to steer."
+description: "Join their world - topic, pace, starting point - before trying to steer."
 key_concept: |
   - I join their world before I redirect it - their activity, topic, pace, starting point.
-  - Skip their starting point and you're fixing a problem they weren't naming.
+  - Skip their starting point and you are fixing a problem they were not naming.
   - I join their world - their topic, pace, starting point - before I try to steer.
   - Connection first, critique second - run their play once before you offer yours.
   - The redirect lands better once they know you actually understood their version first.
 examples:
-  - "My teammate wanted to run a inbound play I'd never seen - I ran it once before I told him how I'd do it. Connection first, critique second."
+  - "My teammate wanted to run a inbound play I would never seen - I ran it once before I told him how I would do it."
   - "A coworker walked me through how she tracks patient callbacks - I watched the whole spreadsheet before I offered to reorder her columns."
 shareable_thought:
   - "I join their world - their topic, pace, starting point - before I try to steer."
   - "I join their world before I redirect it - their activity, topic, pace, starting point."
-  - "Skip their starting point and you're fixing a problem they weren't naming."
+  - "Skip their starting point and you are fixing a problem they were not naming."
   - "Connection first, critique second - run their play once before you offer yours."
 relationships:
   - type: contradicts
@@ -25,7 +25,7 @@ relationships:
     reason: "Small moments of attention beat one perfect conversation"
   - type: extends
     wikilink: "[[The Golden Rule]]"
-    reason: "I'd want someone to enter my world before they fixed mine"
+    reason: "I would want someone to enter my world before they fixed mine"
   - type: implements
     wikilink: "[[Continuous Improvement]]"
     reason: "Trust builds through repeated small acts of attention, not one grand gesture"
@@ -42,7 +42,7 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "Teammate wants to run an inbound play I've never seen. Finger itching to correct. First move?"
+  - front: "Teammate wants to run an inbound play I have never seen. Finger itching to correct. First move?"
     back: "Run it once - connection before critique."
   - front: "Coworker walks me through her patient callback spreadsheet. Columns look wrong. First move?"
     back: "Watch the whole flow before I reorder."

@@ -11,20 +11,20 @@ key_concept: |
   - Set calm boundaries and keep the person - firm line, steady voice, relationship intact.
   - Set one clear line in a steady voice - boundaries work when tone stays readable under pressure.
 examples:
-  - "A teammate kept trash-talking our own bench - I pulled him aside: \"Ride the refs if you want; don't go at our guys. That stops now.\" Same team, clear line."
-  - "A client kept calling my personal cell after hours - \"I'll answer until six on this number; after that use the office line.\" No drama, no apology tour."
+  - "A teammate kept trash-talking our own bench - I pulled him aside: \"Ride the refs if you want; do not go at our guys."
+  - "A client kept calling a personal cell after hours - answer until six on this number, then use the office line."
 shareable_thought:
   - "A calm boundary is one clear limit on behavior, named steady - not a character attack."
-  - "Keep the person."
-  - "One clear line in a steady voice."
-  - "\"that stops now\" on the act, not a character attack."
+  - "Limit the behavior. Keep the person."
+  - "Set calm boundaries and keep the person - firm line, steady voice, relationship intact."
+  - "Set one clear line in a steady voice - boundaries work when tone stays readable under pressure."
 relationships:
   - type: contradicts
     wikilink: "[[Follow Their Lead]]"
     reason: "when joining their world would mean accepting harm or disrespect"
   - type: extends
     wikilink: "[[Emotional Regulation]]"
-    reason: "Boundaries land better when I'm not mailing the first draft"
+    reason: "Boundaries land better when I am not mailing the first draft"
   - type: extends
     wikilink: "[[Plain Commitments at Work]]"
     reason: "A clear yes/no line at home uses the same muscle as at work"

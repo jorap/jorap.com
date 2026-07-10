@@ -1,26 +1,24 @@
 ---
 title: "Capture"
 meta_title: "Capture - The First Step of Every Note System"
-description: "Save what resonates into one inbox I trust - then empty it weekly."
+description: "Saves what resonates into one trusted inbox, then empties weekly."
 key_concept: |
-  - Friction kills capture.
-  - One inbox, phone to desktop, weekly process - same as [[The Trusted Inbox]].
-  - If I wouldn't act on it or cite it later, it doesn't get saved.
+  - Friction kills capture when saving takes more than one quick move.
+  - One inbox from phone to desktop, weekly process - same as [[The Trusted Inbox]].
+  - Skip it unless action or citation would follow later.
   - Resonance is the filter, not FOMO.
-  - Save what resonates into one inbox I trust - then empty it weekly.
-  - Friction kills capture - if saving takes three taps, the idea dies before the inbox.
 examples:
   - "A play tweak hits during cooldown and I scribble it on my wristband before the locker room noise eats it - one inbox, file it Sunday when the spark is safe."
   - "On the jeepney my kid says something I want to remember and I scribble it on a receipt before the station noise eats it - one pocket notebook, no sorting yet."
 shareable_thought:
-  - "Save what resonates into one inbox I trust - then empty it weekly."
-  - "Friction kills capture."
-  - "One inbox, phone to desktop, weekly process - same as The Trusted Inbox."
-  - "If I wouldn't act on it or cite it later, it doesn't get saved."
+  - "Saves what resonates into one trusted inbox, then empties weekly."
+  - "Friction kills capture when saving takes more than one quick move."
+  - "One inbox from phone to desktop, emptied on a weekly rhythm."
+  - "Resonance is the filter - skip what would never change action or citation."
 relationships:
   - type: contradicts
     wikilink: "[[Signal vs Noise]]"
-    reason: "when I save first and filter later"
+    reason: "when save first and filter later"
   - type: extends
     wikilink: "[[Frictionless Capture]]"
     reason: "Zero-friction inbox is the habit this note assumes"
@@ -29,7 +27,7 @@ relationships:
     reason: "Capture is the first PKM move - save what hits you into one inbox"
   - type: implements
     wikilink: "[[The Trusted Inbox]]"
-    reason: "One inbox habit carries capture into something you'll empty"
+    reason: "One inbox habit carries capture into something you will empty"
 slug: "capture"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"

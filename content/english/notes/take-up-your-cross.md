@@ -1,11 +1,11 @@
 ---
 title: "Take Up Your Cross"
 meta_title: "Take Up Your Cross - Daily Discipleship"
-description: "I deny myself and follow Christ daily - choosing his will over mine, not collecting suffering points."
+description: "Deny self and follow Christ daily - choosing his will over yours, not collecting suffering points."
 key_concept: |
   {{< bible ref="Luke 9:23-24" emphasize="23" >}}
   - Daily self-denial and follow - choosing God's will over mine, not collecting suffering points.
-  - The cross isn't suffering for suffering's sake; it's choosing God's will over self-will each day.
+  - The cross is not suffering for suffering's sake; it is choosing God's will over self-will each day.
   - [[Free Grace]] keeps the order: eternal life is received by faith, not earned by cross-bearing - but [[Discipleship]] costs something real.
   - Same road as [[The Narrow Way]], lived one day at a time.
   - Overlap with [[Process Over Outcomes]]: daily self-denial beats a one-time hero sprint.
@@ -17,7 +17,7 @@ examples:
 shareable_thought:
   - "I deny myself and follow Christ daily."
   - "Choosing his will over mine, not collecting suffering points."
-  - "The cross isn't suffering for suffering's sake; it's choosing God's will over self-will each day."
+  - "The cross is not suffering for suffering's sake; it is choosing God's will over self-will each day."
   - "Same road as The Narrow Way, lived one day at a time."
 relationships:
   - type: contradicts
@@ -31,7 +31,7 @@ relationships:
     reason: "Daily cross is the shape of following Jesus"
   - type: extends
     wikilink: "[[Free Grace]]"
-    reason: "Cross-bearing costs something real after faith saves you - it doesn't earn eternal life"
+    reason: "Cross-bearing costs something real after faith saves you - it does not earn eternal life"
   - type: extends
     wikilink: "[[Present a Living Sacrifice]]"
     reason: "Daily death to self-will - body offered alive on the altar"

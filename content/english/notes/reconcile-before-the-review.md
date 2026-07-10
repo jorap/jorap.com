@@ -3,22 +3,24 @@ title: "Reconcile Before the Review"
 meta_title: "Reconcile Before the Review - Fix the Relationship First"
 description: "Reconcile before the review - fix the relationship before OKRs, demos, or reorg meetings."
 key_concept: |
-  - Process doesn't heal a broken trust link.
-  - The person who knows there's a breach moves first - a short call, an owned apology, a specific repair - then we talk OKRs.
+  {{< bible "Matthew 5:23-24" >}}
+  - Fix the relationship breach before OKRs, demos, or reorg meetings.
+  - Process does not heal a broken trust link.
+  - The person who knows there is a breach moves first - a short call, an owned apology, a specific repair - then we talk OKRs.
   - Same order as [[Reconciliation Before Worship]], minus the religious frame: relationship before ritual performance.
   - Reconcile before the review - fix the relationship before OKRs, demos, or reorg meetings.
 examples:
   - "Strong stats for the scout meeting but my assistant coach was still cold from Tuesday - fifteen minutes with him before we sat with the scout beat hoping charts would smooth it."
-  - "The client renewal call was booked but my business partner and I hadn't spoken since our blowup over a missed invoice - I texted him first, we talked ten minutes, then got on the call together."
+  - "The client renewal call was booked but my business partner and I had not spoken since our blowup over a missed invoice - I texted him first, we talked ten minutes, then got on the call together."
 shareable_thought:
   - "Reconcile before the review - fix the relationship before OKRs, demos, or reorg meetings."
-  - "Process doesn't heal a broken trust link."
-  - "The person who knows there's a breach moves first."
+  - "Process does not heal a broken trust link."
+  - "The person who knows there is a breach moves first."
   - "A short call, an owned apology, a specific repair - then we talk OKRs."
 relationships:
   - type: contradicts
     wikilink: "[[Golden Rule at Work]]"
-    reason: "when I want fair treatment but won't initiate repair"
+    reason: "when I want fair treatment but will not initiate repair"
   - type: extends
     wikilink: "[[Listen Before Fixing]]"
     reason: "Repair starts by hearing what still hurts"
@@ -30,7 +32,7 @@ relationships:
     reason: "Relationship before ceremony - here, before the review or demo"
   - type: extends
     wikilink: "[[The Golden Rule]]"
-    reason: "I'd want someone to fix the rift before judging my performance"
+    reason: "I would want someone to fix the rift before judging my performance"
   - type: implements
     wikilink: "[[Follow Their Lead]]"
     reason: "Coffee first - go on their thread before the slides"

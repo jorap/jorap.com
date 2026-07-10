@@ -6,14 +6,14 @@ key_concept: |
   {{< bible ref="Matthew 5:21-24" emphasize="24" >}}
   - Fix the breach with your brother before the offering - worship with an unreconciled heart is hollow.
   - Worship with an unreconciled heart is hollow.
-  - The initiative is on the one who knows there's a breach - leave the altar, go, be reconciled, then return.
+  - The initiative is on the one who knows there is a breach - leave the altar, go, be reconciled, then return.
   - This is fellowship restored, not salvation re-earned: [[Free Grace]] already settled my standing before God ([[Standing vs Fellowship]]).
   - Same discipline as [[Note Relationships]] in the garden: broken links between notes need typed repair - broken links between people need face-to-face repair first.
 examples:
   - "I warmed up ready to compete while my teammate still had something against me from Wednesday - fix it courtside, then play."
   - "I walked into the volunteer shift ready to serve while my co-worker still had something against me - five minutes in the parking lot first."
 shareable_thought:
-  - "The initiative is on the one who knows there's a breach."
+  - "The initiative is on the one who knows there is a breach."
   - "Leave the altar, go, be reconciled, then return."
   - "Worship with an unreconciled heart is hollow."
   - "This is fellowship restored, not salvation re-earned: Free Grace already settled my standing before God (Standing vs Fellowship)."
@@ -23,7 +23,7 @@ relationships:
     reason: "Repair people before ceremony - typed links need repair too"
   - type: contradicts
     wikilink: "[[Love God]]"
-    reason: "when I prioritize ceremony over the neighbor I've wronged"
+    reason: "when I prioritize ceremony over the neighbor I have wronged"
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Fellowship gets repaired before worship; grace already settled your standing with God"

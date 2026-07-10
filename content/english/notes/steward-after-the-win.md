@@ -3,11 +3,13 @@ title: "Steward After the Win"
 meta_title: "Steward After the Win - Keep Using the Gift"
 description: "An early win is entrusted, not a license to coast - keep using the gift through the quiet tail."
 key_concept: |
+  {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
+  - An early win is entrusted, not a license to coast - keep using the gift through the quiet tail.
   - Launch day, promotion email, traffic spike - the temptation is to act like the hard part is done.
   - [[Success is Stewardship]] says the win was entrusted: keep tending, sharing, and serving through the boring middle, not coast on what landed.
   - [[Faithful Steward]] is the parable shape - well done for faithful use over years, buried talent for playing it safe after one good season.
   - [[Finish Strong]] closes the last commitment; this note guards the gap right after the exciting start.
-  - [[Sustainable Performance]] is the pace lens - don't burn the gift in a victory lap sprint.
+  - [[Sustainable Performance]] is the pace lens - do not burn the gift in a victory lap sprint.
   - [[Compounding]] is the PKM mirror: quiet Tuesdays after the spike still stack.
   - An early win is entrusted, not a license to coast.
   - Keep using the gift through the quiet tail.
@@ -34,7 +36,7 @@ relationships:
     reason: "Parable warns against burying talent after one good return"
   - type: extends
     wikilink: "[[Finish Strong]]"
-    reason: "Win is mid-game - close the tail, don't stop at halftime"
+    reason: "Win is mid-game - close the tail, do not stop at halftime"
   - type: extends
     wikilink: "[[Follow-Through]]"
     reason: "Steward promises through the boring middle"
@@ -53,23 +55,23 @@ image: "/images/note.jpg"
 categories: ["Faith", "Leadership"]
 author: "JoRap"
 tags: ["Gospel", "Stewardship", "Leadership", "Discipleship", "Performance"]
-aliases: ["don't coast on wins", "steward the good season"]
+aliases: ["do not coast on wins", "steward the good season"]
 featured: false
 review: true
 card_sets: ["Eternal Principles", "Discipleship", "Ethics"]
 cards:
-  - front: "Promotion landed and by Thursday I'm delegating mess and grabbing visible wins. What's the title for?"
-    back: "Their good - keep serving, don't coast."
-  - front: "Traffic spiked two weeks ago and I haven't published since. Steward move?"
+  - front: "Promotion landed and by Thursday I am delegating mess and grabbing visible wins. What's the title for?"
+    back: "Their good - keep serving, do not coast."
+  - front: "Traffic spiked two weeks ago and I have not published since. Steward move?"
     back: "Ship while the window's warm."
-  - front: "Early win landed and I'm tempted to coast on what I was given."
+  - front: "Early win landed and I am tempted to coast on what I was given."
     back: "Keep using the gift - quiet Tuesdays count."
-  - front: "One heroic volunteer week and I'm skipping the boring follow-through. What gets reviewed?"
+  - front: "One heroic volunteer week and I am skipping the boring follow-through. What gets reviewed?"
     back: "Faithful use over years - not one week."
   - front: "Launch post went up and the backlog can wait. Finish-strong check?"
-    back: "Close the tail - win isn't the end."
+    back: "Close the tail - win is not the end."
   - front: "Celebrating halftime while the third quarter is still ahead. One move?"
-    back: "Steward the middle - don't coast."
+    back: "Steward the middle - do not coast."
 draft: false
 ---
 

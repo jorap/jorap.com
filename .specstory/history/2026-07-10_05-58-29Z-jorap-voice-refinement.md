@@ -886,4 +886,1645 @@ _**Agent (auto-low)**_
 <think><details><summary>Thought Process</summary>
 The user answered the refinement questions for the jorap-voice skill.
 
-jorap-voice will become blog-voice. The garden skill gets its own identity. The EP scripture section stays as-is. The key-concept punch line is "A claim you'd argue." The first line remains plain English</details></think>
+jorap-voice will become blog-voice. The garden skill gets its own identity. The EP scripture section stays as-is. The key-concept punch line is "A claim you'd argue." The first line remains plain English without links. Faith notes need a Bible verse. Shareable thoughts should be fragments. Each of four shareables must use a different angle. Examples should be one sentence each.
+
+Skill constraints override voice-words.yaml for new drafts. Titles must stay under five words and thirty characters; four words is preferred. Contractions belong only in the body. Faith and EP lanes remain straight with no humor. Gear posts may name products but must avoid affiliate tone. I need to find the best examples for reference notes, anti-patterns, and blog references.
+
+I will create the `garden-voice` skill and refactor `jorap-voice` into `blog-voice`. Next I will explore the codebase to locate the best examples and review the current skill structure.</details></think>
+
+_**Agent (auto-low)**_
+
+Implementing the split: I'll survey notes and blog posts for strong examples, then rewrite `jorap-voice` (blog) and add `garden-voice`.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **13** results in **1** directory</summary>
+
+Directory: **/home/jorap/Documents/GitHub/jorap.com** (13 files)
+
+| File |
+|------|
+| `.cursor/skills/ponytail-audit/SKILL.md` |
+| `.cursor/skills/ponytail-gain/SKILL.md` |
+| `.cursor/skills/ponytail-debt/SKILL.md` |
+| `.cursor/skills/ponytail/SKILL.md` |
+| `.cursor/skills/ponytail-help/SKILL.md` |
+| `.cursor/skills/sync-upstreams/SKILL.md` |
+| `.cursor/skills/jorap-voice/SKILL.md` |
+| `.cursor/skills/hugo-template-guidance/SKILL.md` |
+| `.cursor/skills/ponytail-review/SKILL.md` |
+| `.cursor/skills/alex-eala-tracker-update/SKILL.md` |
+| `.cursor/skills/changelog-update/SKILL.md` |
+| `.cursor/skills/find-skills/SKILL.md` |
+| `.cursor/skills/flashcards/SKILL.md` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/free-grace.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-golden-rule.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/blameless-after-action-review.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Better examples are needed.
+
+capture.md already opens with a strong punch line. free-grace uses older Hugo bible shortcodes rather than NASB plain text. blameless has solid punch lines. I will search EP notes for proper NASB formatting and scan blog posts for the best examples.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "outputMode": "files_with_matches",
+  "pattern": "NASB1995"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "files_with_matches",
+  "pattern": "NASB1995",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/sanctification.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+File not found
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/what-i-look-for-in-wireless-earphones.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Searching for more notes with strong punch-line key concepts.
+
+Reviewing plain-text punch lines without bible shortcodes for PKM and ethics. Checking progressive-layers and anti-fragile-systems. Sanctification has a strong punch but sits on line 2. Capture's "Friction kills capture" is unlinked and works well as line 1. Golden-rule and abide-in-me are solid EP examples for the bible verse requirement.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **/home/jorap/Documents/GitHub/jorap.com** (0 files)
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/anti-fragile-systems.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/notes/*.md",
+  "outputMode": "files_with_matches",
+  "pattern": "^key_concept:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "files_with_matches",
+  "pattern": "^key_concept:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/graph.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/pkm.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/grace.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/leadership.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/weekly-review-checklists.md"
+    }
+  ],
+  "totalFiles": 237,
+  "totalMatches": 237
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/notes/*.md; do awk '/^key_concept: \|/{found=1; next} found && /^[^ ]/{exit} found{print}' "$f" | head -1 | grep -q '^\s*-\s*[^[{]' && echo "$f"; done | head -20</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && for f in content/english/notes/*.md; do awk '/^key_concept: \|/{found=1; next} found && /^[^ ]/{exit} found{print}' "$f" | head -1 | grep -q '^\s*-\s*[^[{]' && echo "$f"; done | head -20
+```
+
+```
+content/english/notes/accept-the-starting-line.md
+content/english/notes/accountability.md
+content/english/notes/active-knowledge-curation.md
+content/english/notes/adaptability.md
+content/english/notes/analog-capture-tools.md
+content/english/notes/anti-fragile-systems.md
+content/english/notes/atomic-notes.md
+content/english/notes/attention-economy.md
+content/english/notes/attention-to-detail.md
+content/english/notes/backlinks.md
+content/english/notes/behavioral-economics.md
+content/english/notes/blameless-after-action-review.md
+content/english/notes/break-the-escalation-cycle.md
+content/english/notes/build-a-reliable-default.md
+content/english/notes/building-a-personal-api.md
+content/english/notes/building-a-second-brain.md
+content/english/notes/capture.md
+content/english/notes/change-takes-repetition.md
+content/english/notes/change-window.md
+content/english/notes/christianity-and-politics.md
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+--: line 1: echo: write error: Broken pipe
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Searching for more blog posts and checking additional notes to identify the best examples.
+
+Reviewing jorap-voice garden examples and flashcard skill references. PKM capture.md offers a strong punch line. Faith EP notes include a bible verse. Ethics review note has a solid punch line. Anti-fragile systems note needs a stronger opening.
+
+sanctification.md contains a strong claim but not a strong first line. abide-in-me.md has solid descriptions and examples. Additional notes under review include rollback-principle, the-trusted-inbox, and listen-before-fixing. Blog references include wireless earphones, how-i-built-jorap-notes, and desktop laptop. The user prefers four-word hard gates over five.
+
+The hard gate rule is now clear: four words is the default, and a fifth word is allowed only when the title reaches thirty characters. Next steps are creating a garden-voice skill file with frontmatter, EP, and flashcard links, then rewriting the jorap-voice skill to focus on blog content.
+
+Updating jorap-voice examples to include blog entries and possibly moving garden material to garden-voice. Creating garden-voice examples with frontmatter. Updating flashcards skill to reference garden-voice for word choice. Reading more blog posts to select the best four references.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **54** results in **1** directory</summary>
+
+Directory: **/home/jorap/Documents/GitHub/jorap.com** (54 files)
+
+| File |
+|------|
+| `content/english/blog/__extension-cord.md` |
+| `content/english/blog/__jorap-notes-features.md` |
+| `content/english/blog/__personal-immune-booster-supplements.md` |
+| `content/english/blog/__stuart-mcgill-big-three-low-back-exercises.md` |
+| `content/english/blog/__rechargeable-batteries.md` |
+| `content/english/blog/__tailwind-css-v4.md` |
+| `content/english/blog/__make-ai-articles-more-human.md` |
+| `content/english/blog/__second-cellphone.md` |
+| `content/english/blog/__static-site-client-scope.md` |
+| `content/english/blog/__smart-plug.md` |
+| `content/english/blog/__how-to-create-a-good-habit.md` |
+| `content/english/blog/__worcestershire-sauce-lee-and-perrins.md` |
+| `content/english/blog/__selling-static-sites.md` |
+| `content/english/blog/__hugo-page-bundles.md` |
+| `content/english/blog/__password-managers.md` |
+| `content/english/blog/__drupal-to-wordpress.md` |
+| `content/english/blog/_index.md` |
+| `content/english/blog/__sustainable-online-publishing.md` |
+| `content/english/blog/__blank-blog-template.md` |
+| `content/english/blog/how-i-built-jorap-notes.md` |
+| `content/english/blog/__remote-work-checklist.md` |
+| `content/english/blog/__kewpie-mayo.md` |
+| `content/english/blog/top-reasons-why-you-still-need-use-desktop-laptop.md` |
+| `content/english/blog/__sveltia-cms.md` |
+| `content/english/blog/power-of-the-mouse-wheel-click.md` |
+| `content/english/blog/__obsidian-vs-hugo.md` |
+| `content/english/blog/dnpap-song-resources.md` |
+| `content/english/blog/__canon-g3000.md` |
+| `content/english/blog/__blog-template.md` |
+| `content/english/blog/__mi-box-s.md` |
+| `content/english/blog/getting-started-with-rss-feeds-beginners-guide.md` |
+| `content/english/blog/__markdown-formatting.md` |
+| `content/english/blog/hugoplate-theme-review.md` |
+| `content/english/blog/__hugo-static-site-generator.md` |
+| `content/english/blog/instant-pot-arroz-caldo.md` |
+| `content/english/blog/set-it-forget-it-arroz-caldo.md` |
+| `content/english/blog/__jobs-to-be-done-framework.md` |
+| `content/english/blog/__hugo-go-templates.md` |
+| `content/english/blog/__client-site-pass-off.md` |
+| `content/english/blog/__markdown-deep-dive.md` |
+| `content/english/blog/__craft-prompt-framework.md` |
+| `content/english/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md` |
+| `content/english/blog/instant-pot-chicken-adobo.md` |
+| `content/english/blog/miracle-isaiah-david.md` |
+| `content/english/blog/__wifi-router.md` |
+| `content/english/blog/__shopee-tips.md` |
+| `content/english/blog/__native-hugo-taxonomies.md` |
+| `content/english/blog/__hugo-shortcodes-deep-dive.md` |
+| `content/english/blog/alex-eala-pro-career-tracker.md` |
+| `content/english/blog/consistent-ai-output-wordpress-builds.md` |
+| `content/english/blog/power-of-worship-pads-enhancing-your-worship-experience.md` |
+| `content/english/blog/top-reasons-create-maintain-your-own-website.md` |
+| `content/english/blog/what-i-look-for-in-wireless-earphones.md` |
+| `content/english/blog/why-i-stopped-playing-marvel-snap.md` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/top-reasons-why-you-still-need-use-desktop-laptop.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/rollback-principle.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+Glob pattern "**/*" matches every file and is not allowed. Use a more specific glob or no glob.
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Searching for jorap-voice references with a specific path.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor",
+  "pattern": "jorap-voice"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor",
+  "pattern": "jorap-voice",
+  "topFiles": [
+    {
+      "matchCount": 8,
+      "uri": ".cursor/skills/flashcards/SKILL.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".cursor/skills/flashcards/examples.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".cursor/skills/jorap-voice/SKILL.md"
+    }
+  ],
+  "totalFiles": 3,
+  "totalMatches": 14
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-stopped-playing-marvel-snap.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/power-of-the-mouse-wheel-click.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Creating the skills section next. Selecting the best examples.
+
+Pinned down specific files for each skill. PKM uses capture.md. Faith EP uses abide-in-me.md or the-golden-rule.md. Ethics uses blameless-after-action-review.md and rollback-principle.md. Anti-fragile systems uses anti-fragile-systems.md.
+
+Shareable thought angles come from blameless-after-action-review. Gear: wireless earphones. How-to: how-i-built-jorap-notes. Tip: mouse wheel click. Opinion: why-i-stopped-playing-marvel-snap.
+
+Finalized the tip example as the mouse wheel click. The opinion piece is why-i-stopped-playing-marvel-snap. PKM now includes rollback-principle.md as the stronger punch.
+
+Removed progressive-layers because it does not exist. Clarified the title hard gate: prefer four words. Five words only when the title reaches thirty characters. Reject titles with six or more words.
+
+Adding before-and-after examples to garden-voice for key concepts, examples, and shareable thoughts. jorap-voice will strip garden content and point readers to garden-voice for notes. Flashcards will use garden-voice for vocabulary. jorap-voice will default to blog posts.
+
+Only the repository copy of jorap-voice will be edited. Garden-voice will get its own de-AI pass instead of duplicating jorap-voice. Vocabulary guidance will point to voice-words.yaml with a note that the skill enforces stricter standards than lint.
+
+Both skills will carry their own de-AI pass and plain-words rules. Shared voice pillars will live in one place. Garden-voice keeps its garden-specific rules and voice check for notes. Jorap-voice adds blog-specific rules plus the de-AI pass and recipe variant. The agent will load only the active skill, so minimal overlap is fine.
+
+Jorap-voice is confirmed as blog-voice. Garden-voice will be standalone, carrying an abbreviated mandatory de-AI pass, garden frontmatter rules, and a pointer to jorap-voice for blog posts. Jorap-voice will omit garden frontmatter tables and instead handle blog-specific voice pillars, structure, recipes, and outline expansion. The examples.md file will be split.
+
+Jorap-voice will retain only blog anti-patterns and point readers to garden-voice for garden frontmatter examples. Garden-voice will hold the garden frontmatter before-and-after examples. Now writing the files.</details></think>
+
+_**Agent (auto-low)**_
+
+Creating `garden-voice` and refactoring `jorap-voice` into blog-only, using the strongest note and post examples I found.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/SKILL.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/examples.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Rewriting jorap-voice as blog-only and updating the examples.
+
+Also updating the flashcards skill.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/SKILL.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating jorap-voice/examples.md by removing the garden section and pointing to garden-voice instead. Adjusting the heading cheat sheet tips to reference the mouse wheel and changing the opinion example to marvel snap.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/jorap-voice/examples.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The remaining jorap-voice references in the flashcards SKILL.md need updating.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards",
+  "pattern": "jorap-voice"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards",
+  "pattern": "jorap-voice",
+  "topFiles": [
+    {
+      "matchCount": 4,
+      "uri": ".cursor/skills/flashcards/SKILL.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".cursor/skills/flashcards/examples.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 7
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updating remaining references in the flashcards files.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/examples.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/flashcards/SKILL.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+I need to fix a contradiction in the garden-voice examples. I had marked [[Free Grace]] as a bad wikilink on line 1, but the user's original good example used that exact link.
+
+The user confirmed line 1 should remain unlinked plain English, so the ❌ example is correct. I also spotted a first-person mismatch in the garden-voice example and will check for global references to jorap-voice.
+
+I'll replace the garden-voice good example with a third-person description, using sanctification or free-grace as a better model.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/garden-voice/examples.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.md",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "jorap-voice"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "jorap-voice",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./.cursor/skills/jorap-voice/SKILL.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.cursor/skills/garden-voice/SKILL.md"
+    },
+    {
+      "matchCount": 15,
+      "uri": "./.specstory/history/2026-07-10_05-58-29Z-jorap-voice-refinement.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-09_16-10-36Z-key-concept-notes-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-08_22-29-32Z-instant-pot-chicken-thighs.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-08_22-19-42Z-arroz-caldo-instant-pot-recipe.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-08_22-22-53Z-arroz-caldo-ingredient-units.md"
+    },
+    {
+      "matchCount": 19,
+      "uri": "./.specstory/history/2026-07-08_22-17-50Z-recipe-rules-and-guidelines.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-07-08_02-17-18Z-ephesians-2:8-9-formatting.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./.specstory/history/2026-07-08_01-33-43Z-nasb1995-bible-yaml-format.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": "./.specstory/history/2026-07-08_00-42-13Z-verse-display-standards-update.md"
+    },
+    {
+      "matchCount": 35,
+      "uri": "./.specstory/history/2026-07-07_14-32-44Z-nasb-1995-bible-verses.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-07-07_15-20-52Z-fair-use-of-biblical-text.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "./.specstory/history/2026-07-07_04-31-58Z-obsidian-features-discussion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-07_03-36-19Z-marvel-snap-experience.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": "./.specstory/history/2026-07-06_08-19-33Z-ponytail-audit.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./.specstory/history/2026-07-06_08-15-57Z-randomizer-in-jorap-voice.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-06_00-46-11Z-leadership-notes-connection.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-05_14-39-40Z-discipleship-and-leadership-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-07-05_14-32-06Z-new-notes-creation.md"
+    }
+  ],
+  "totalFiles": 114,
+  "totalMatches": 657
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+A duplicate jorap-voice skill may exist outside the repository at /home/jorap/.cursor/skills.
+
+Repository work is complete. I will now summarize the implementation.</details></think>
+
+_**Agent (auto-low)**_
+
+Done. Here's what changed based on your answers.
+
+## Split
+
+| Skill | Path | Use for |
+|-------|------|---------|
+| **jorap-voice** | `.cursor/skills/jorap-voice/` | Blog posts (default when you say "my voice") |
+| **garden-voice** | `.cursor/skills/garden-voice/` | Notes frontmatter, EP scripture, card word choice |
+
+`flashcards` skill now points at **garden-voice**, not jorap-voice.
+
+## Rules locked in
+
+- **`key_concept` line 1:** plain claim you'd argue, **no wikilinks**; then 2–4 tight sentences; faith notes **require a Bible verse**
+- **`description`:** third person, one breath
+- **`examples`:** two scenes that feel different, **one sentence each**
+- **`shareable_thought`:** exactly **four complete thoughts**, **four different angles** (fragments are the main failure mode)
+- **`title`:** prefer 4 words; hard max 5 (5th only at ≥30 chars + fixed phrase); never 6+
+- **Contractions:** blog/note body only, not frontmatter
+- **Faith/EP:** straight tone, no humor
+- **Vocabulary:** skill stricter than `voice-words.yaml` on new drafts
+- **Gear:** no affiliates; named products and honest picks are fine
+
+## Reference examples updated
+
+**Garden:** `capture.md`, `rollback-principle.md`, `abide-in-me.md`, `the-golden-rule.md`, `blameless-after-action-review.md`
+
+**Blog:** wireless earphones, how-i-built-jorap-notes, mouse-wheel-click, why-i-stopped-playing-marvel-snap
+
+**Garden before/after blocks** live in `.cursor/skills/garden-voice/examples.md` (key_concept punch, shareable fragments, examples).
+
+One thing to watch: several live notes (including `capture.md`) still have first-person `description` or wikilinks on line 1 of `key_concept`. The skill now states the target shape; cleaning existing notes is a separate pass if you want them to match.
+
+Want me to run that migration on the garden next, or tweak any rule before agents start using it?
+
+---
+
+_**User**_
+
+review all notes and follow /garden-voice 
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing all garden notes to ensure they follow the garden-voice skill rules.
+
+Mapping out the specific garden-voice rules to apply across all note files.
+
+Auditing all notes first to gauge scope and identify violations. Then fixing systematically.
+
+Considering a script for mechanical fixes and manual review for content. Searching the codebase for existing lint or voice tools and counting notes.</details></think>
+
+_**Agent (auto-low)**_
+
+Large pass across the whole garden — I'll audit scope and existing voice lint first, then fix notes systematically against garden-voice.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **238** results in **1** directory</summary>
+
+Directory: **/home/jorap/Documents/GitHub/jorap.com** (238 files)
+
+| File |
+|------|
+| `content/english/notes/standard-operating-procedures.md` |
+| `content/english/notes/low-hanging-fruit.md` |
+| `content/english/notes/leadership-is-influence.md` |
+| `content/english/notes/faith-and-works.md` |
+| `content/english/notes/discern-his-will-daily.md` |
+| `content/english/notes/discipline.md` |
+| `content/english/notes/duty-of-care.md` |
+| `content/english/notes/love-your-neighbor.md` |
+| `content/english/notes/layered-reading.md` |
+| `content/english/notes/mental-models.md` |
+| `content/english/notes/systems-thinking.md` |
+| `content/english/notes/habit-stacking.md` |
+| `content/english/notes/discipleship-vs-leadership.md` |
+| `content/english/notes/issues.md` |
+| `content/english/notes/drafting-in-public.md` |
+| `content/english/notes/eternal-principles.md` |
+| `content/english/notes/quarterly-planning.md` |
+| `content/english/notes/risk-management.md` |
+| `content/english/notes/accountability.md` |
+| `content/english/notes/preparedness.md` |
+| `content/english/notes/gtd-vs-para.md` |
+| `content/english/notes/atomic-notes.md` |
+| `content/english/notes/the-golden-rule.md` |
+| `content/english/notes/love-your-enemies.md` |
+| `content/english/notes/life-before-achievement.md` |
+| `content/english/notes/plain-commitments-at-work.md` |
+| `content/english/notes/failure-as-feedback.md` |
+| `content/english/notes/secret-devotion.md` |
+| `content/english/notes/lean-startup.md` |
+| `content/english/notes/follow-through.md` |
+| `content/english/notes/measure-then-iterate.md` |
+| `content/english/notes/ship-it.md` |
+| `content/english/notes/eliminate-before-managing.md` |
+| `content/english/notes/expect-the-counter.md` |
+| `content/english/notes/peace.md` |
+| `content/english/notes/active-knowledge-curation.md` |
+| `content/english/notes/execution.md` |
+| `content/english/notes/self-control.md` |
+| `content/english/notes/learning-organizations.md` |
+| `content/english/notes/reliability.md` |
+| `content/english/notes/take-up-your-cross.md` |
+| `content/english/notes/golden-rule-at-work.md` |
+| `content/english/notes/own-the-error.md` |
+| `content/english/notes/read-later-queue.md` |
+| `content/english/notes/pressure-reveals-weakness.md` |
+| `content/english/notes/judgment-seat.md` |
+| `content/english/notes/backlinks.md` |
+| `content/english/notes/convert-pain-into-learning.md` |
+| `content/english/notes/incident-investigation.md` |
+| `content/english/notes/local-first-software.md` |
+| `content/english/notes/energy-protects-judgment.md` |
+| `content/english/notes/creative-output.md` |
+| `content/english/notes/strategic-foresight.md` |
+| `content/english/notes/workplace-principles.md` |
+| `content/english/notes/normalization-of-deviance.md` |
+| `content/english/notes/intellectual-sourcing.md` |
+| `content/english/notes/childlike-faith.md` |
+| `content/english/notes/client-site-pass-off.md` |
+| `content/english/notes/evergreen-vs-fleeting-notes.md` |
+| `content/english/notes/people-centered-design.md` |
+| `content/english/notes/repent-and-believe.md` |
+| `content/english/notes/deliberate-practice.md` |
+| `content/english/notes/first-principles-thinking.md` |
+| `content/english/notes/staged-rollout.md` |
+| `content/english/notes/network-analysis.md` |
+| `content/english/notes/control-the-rhythm.md` |
+| `content/english/notes/graph.md` |
+| `content/english/notes/the-wise-builder.md` |
+| `content/english/notes/sunk-cost-fallacy.md` |
+| `content/english/notes/loss-of-reward.md` |
+| `content/english/notes/composure.md` |
+| `content/english/notes/okf-export.md` |
+| `content/english/notes/ethical-leadership.md` |
+| `content/english/notes/review.md` |
+| `content/english/notes/versatility.md` |
+| `content/english/notes/pareto-principle.md` |
+| `content/english/notes/information-diet.md` |
+| `content/english/notes/reversibility.md` |
+| `content/english/notes/spaced-repetition.md` |
+| `content/english/notes/complete-the-cycle.md` |
+| `content/english/notes/humility-and-service.md` |
+| `content/english/notes/assurance.md` |
+| `content/english/notes/change-takes-repetition.md` |
+| `content/english/notes/standing-vs-fellowship.md` |
+| `content/english/notes/habit-formation.md` |
+| `content/english/notes/inbox-zero.md` |
+| `content/english/notes/grace.md` |
+| `content/english/notes/create-regular-connection.md` |
+| `content/english/notes/shadow-the-work.md` |
+| `content/english/notes/priorities-before-the-inbox.md` |
+| `content/english/notes/minimum-effective-dose.md` |
+| `content/english/notes/digital-serendipity.md` |
+| `content/english/notes/leadership.md` |
+| `content/english/notes/creative-blocks.md` |
+| `content/english/notes/mobile-capture-workflows.md` |
+| `content/english/notes/slow-the-moment.md` |
+| `content/english/notes/the-knowledge-lifecycle.md` |
+| `content/english/notes/transformation-principles.md` |
+| `content/english/notes/the-trusted-inbox.md` |
+| `content/english/notes/accept-the-starting-line.md` |
+| `content/english/notes/follow-their-lead.md` |
+| `content/english/notes/deep-work.md` |
+| `content/english/notes/discipleship.md` |
+| `content/english/notes/the-narrow-way.md` |
+| `content/english/notes/success-is-stewardship.md` |
+| `content/english/notes/present-a-living-sacrifice.md` |
+| `content/english/notes/the-beatitudes.md` |
+| `content/english/notes/note-relationships.md` |
+| `content/english/notes/peacemakers.md` |
+| `content/english/notes/eternal-rewards.md` |
+| `content/english/notes/taxonomy.md` |
+| `content/english/notes/psychological-safety.md` |
+| `content/english/notes/the-garage-concept.md` |
+| `content/english/notes/attention-economy.md` |
+| `content/english/notes/ask-seek-knock.md` |
+| `content/english/notes/seek-the-kingdom-first.md` |
+| `content/english/notes/fruits-of-the-spirit.md` |
+| `content/english/notes/by-their-fruits.md` |
+| `content/english/notes/justification.md` |
+| `content/english/notes/outcomes-over-pitch-decks.md` |
+| `content/english/notes/rollback-principle.md` |
+| `content/english/notes/patience.md` |
+| `content/english/notes/love-god.md` |
+| `content/english/notes/metadata-strategy.md` |
+| `content/english/notes/integrity.md` |
+| `content/english/notes/free-tier-hosting-stack.md` |
+| `content/english/notes/build-a-reliable-default.md` |
+| `content/english/notes/grateful-obedience.md` |
+| `content/english/notes/purpose-and-vision.md` |
+| `content/english/notes/maintenance-window.md` |
+| `content/english/notes/getting-things-done.md` |
+| `content/english/notes/break-the-escalation-cycle.md` |
+| `content/english/notes/honest-self-awareness.md` |
+| `content/english/notes/adaptability.md` |
+| `content/english/notes/periodic-knowledge-review.md` |
+| `content/english/notes/continuous-improvement.md` |
+| `content/english/notes/the-12-week-year.md` |
+| `content/english/notes/behavioral-economics.md` |
+| `content/english/notes/_index.md` |
+| `content/english/notes/share-what-you-learn.md` |
+| `content/english/notes/emotional-regulation.md` |
+| `content/english/notes/decision-quality.md` |
+| `content/english/notes/practice-small-experiments.md` |
+| `content/english/notes/follow-christ-then-lead.md` |
+| `content/english/notes/let-your-light-shine.md` |
+| `content/english/notes/notice-the-good.md` |
+| `content/english/notes/resilience.md` |
+| `content/english/notes/literature-notes.md` |
+| `content/english/notes/mind-mapping.md` |
+| `content/english/notes/analog-capture-tools.md` |
+| `content/english/notes/create.md` |
+| `content/english/notes/goodness.md` |
+| `content/english/notes/steward-after-the-win.md` |
+| `content/english/notes/digital-minimalism.md` |
+| `content/english/notes/god-centered-design.md` |
+| `content/english/notes/sustainable-performance.md` |
+| `content/english/notes/anti-fragile-systems.md` |
+| `content/english/notes/capture.md` |
+| `content/english/notes/faithful-steward.md` |
+| `content/english/notes/maps-of-content.md` |
+| `content/english/notes/judge-not.md` |
+| `content/english/notes/blameless-after-action-review.md` |
+| `content/english/notes/servant-leadership.md` |
+| `content/english/notes/name-the-feeling.md` |
+| `content/english/notes/random-duo.md` |
+| `content/english/notes/para-method.md` |
+| `content/english/notes/evergreen-notes.md` |
+| `content/english/notes/let-your-yes-be-yes.md` |
+| `content/english/notes/future-proofing-knowledge.md` |
+| `content/english/notes/dont-worry.md` |
+| `content/english/notes/context-aware-capture.md` |
+| `content/english/notes/heart-righteousness.md` |
+| `content/english/notes/recovery.md` |
+| `content/english/notes/joy.md` |
+| `content/english/notes/safety-by-design.md` |
+| `content/english/notes/turn-the-other-cheek.md` |
+| `content/english/notes/set-calm-boundaries.md` |
+| `content/english/notes/signal-vs-noise.md` |
+| `content/english/notes/growth-mindset.md` |
+| `content/english/notes/forgiveness.md` |
+| `content/english/notes/minimum-viable-product.md` |
+| `content/english/notes/influence-without-title.md` |
+| `content/english/notes/gentleness.md` |
+| `content/english/notes/building-a-personal-api.md` |
+| `content/english/notes/title-without-influence.md` |
+| `content/english/notes/synthesis-as-a-goal.md` |
+| `content/english/notes/linking-by-meaning.md` |
+| `content/english/notes/there-is-no-perfect-solution.md` |
+| `content/english/notes/getting-started.md` |
+| `content/english/notes/hierarchy-of-controls.md` |
+| `content/english/notes/platform-reach-is-borrowed.md` |
+| `content/english/notes/selling-static-sites.md` |
+| `content/english/notes/coaching-ethics.md` |
+| `content/english/notes/christlikeness.md` |
+| `content/english/notes/christianity-and-politics.md` |
+| `content/english/notes/digital-garden.md` |
+| `content/english/notes/graph-view-analytics.md` |
+| `content/english/notes/weekly-review-checklists.md` |
+| `content/english/notes/finish-strong.md` |
+| `content/english/notes/develop-dont-endanger.md` |
+| `content/english/notes/abide-in-me.md` |
+| `content/english/notes/building-a-second-brain.md` |
+| `content/english/notes/git-based-cms.md` |
+| `content/english/notes/daily-notes.md` |
+| `content/english/notes/dont-copy-the-pattern.md` |
+| `content/english/notes/heed-every-near-miss.md` |
+| `content/english/notes/stay-effective-in-new-conditions.md` |
+| `content/english/notes/sanctification.md` |
+| `content/english/notes/attention-to-detail.md` |
+| `content/english/notes/integrity-without-an-audience.md` |
+| `content/english/notes/kindness.md` |
+| `content/english/notes/flashcards.md` |
+| `content/english/notes/situational-control.md` |
+| `content/english/notes/renewed-mind.md` |
+| `content/english/notes/free-grace.md` |
+| `content/english/notes/listen-before-fixing.md` |
+| `content/english/notes/process-over-outcomes.md` |
+| `content/english/notes/compounding.md` |
+| `content/english/notes/static-site-client-scope.md` |
+| `content/english/notes/great-commission.md` |
+| `content/english/notes/pkm.md` |
+| `content/english/notes/own-your-part.md` |
+| `content/english/notes/the-second-brain-workflow.md` |
+| `content/english/notes/commonplace-book.md` |
+| `content/english/notes/render-unto-caesar.md` |
+| `content/english/notes/the-collectors-fallacy.md` |
+| `content/english/notes/the-feynman-technique.md` |
+| `content/english/notes/change-window.md` |
+| `content/english/notes/safety-comes-first.md` |
+| `content/english/notes/slow-productivity.md` |
+| `content/english/notes/second-order-thinking.md` |
+| `content/english/notes/reconciliation-before-worship.md` |
+| `content/english/notes/reconcile-before-the-review.md` |
+| `content/english/notes/forgiveness-at-work.md` |
+| `content/english/notes/mercy.md` |
+| `content/english/notes/systems-for-growth.md` |
+| `content/english/notes/faithfulness.md` |
+| `content/english/notes/treasure-in-heaven.md` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/package.json",
+  "pattern": "voice"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/package.json",
+  "pattern": "voice",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "package.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **2** results in **1** directory</summary>
+
+Directory: **/home/jorap/Documents/GitHub/jorap.com** (2 files)
+
+| File |
+|------|
+| `scripts/notes-voice-sanitize.py` |
+| `scripts/notes-voice-lint.py` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Reviewing 238 notes against existing lint scripts to determine what checks exist and whether they can be extended or audited.
+
+Also examining faith note categories.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-lint.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/notes-voice-sanitize.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>

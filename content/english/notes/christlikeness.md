@@ -4,30 +4,30 @@ meta_title: "Christlikeness - Shaped to Look and Love Like Jesus"
 description: "God keeps reshaping me to look and love more like Jesus - growth after faith, not the entry fee."
 key_concept: |
   {{< bible ref="Luke 6:39-40" emphasize="40" >}}
-  - Fully trained, like the teacher - the aim isn't my old default self on display, it's looking more like Jesus over years.
+  - Fully trained, like the teacher - the aim is not my old default self on display, it is looking more like Jesus over years.
   - [[Free Grace]] settles where I spend forever.
-  - Christlikeness settles who I'm becoming - more of His patience in traffic, more of His gentleness at dinner, less of my default self on display.
+  - Christlikeness settles who I am becoming - more of His patience in traffic, more of His gentleness at dinner, less of my default self on display.
   - [[Sanctification]] is the slow process, [[Discipleship]] is the daily walk, [[Abide in Me]] is the engine, [[Fruits of the Spirit]] is what people notice when the walk is real.
   - Romans 8:29 names the aim - to become conformed to the image of His Son.
-  - I don't manufacture Christlikeness to earn standing - [[Justification]] already settled that.
+  - I do not manufacture Christlikeness to earn standing - [[Justification]] already settled that.
   - PKM mirror: [[God Centered Design]] - build the week toward His likeness, not applause.
   - God keeps reshaping me to look and love more like Jesus.
   - Growth after faith, not the entry fee.
 examples:
-  - "I lost my temper at dinner and apologized slower than I used to snap - Christlikeness is slow; standing was settled at faith, and I'm still being reshaped."
-  - "I performed kindness at church and was sharp with the cashier an hour later - Christlikeness isn't a badge from one emotional Sunday, it's looking more like Jesus on ordinary Tuesdays."
+  - "I lost my temper at dinner and apologized slower than I used to snap - Christlikeness is slow; standing was settled at faith, and I am still being reshaped."
+  - "I performed kindness at church and was sharp with the cashier an hour later - Christlikeness is not a badge from one emotional Sunday, it is looking more like Jesus on ordinary Tuesdays."
 shareable_thought:
   - "God keeps reshaping me to look and love more like Jesus."
   - "Growth after faith, not the entry fee."
   - "Free Grace settles where I spend forever."
-  - "Christlikeness settles who I'm becoming."
+  - "Christlikeness settles who I am becoming."
 relationships:
   - type: alternative
     wikilink: "[[There Is No Perfect Solution]]"
     reason: "when I delay obeying until I look Christlike enough to start"
   - type: contradicts
     wikilink: "[[Compounding]]"
-    reason: "when virtue streaks become proof I'm saved"
+    reason: "when virtue streaks become proof I am saved"
   - type: extends
     wikilink: "[[Abide in Me]]"
     reason: "Likeness grows from staying in the vine - not willpower theater"
@@ -54,7 +54,7 @@ relationships:
     reason: "Jesus' pattern - serve, wash feet, not grasp status"
   - type: extends
     wikilink: "[[Justification]]"
-    reason: "Declared righteous first - Christlikeness follows, doesn't reopen the verdict"
+    reason: "Declared righteous first - Christlikeness follows, does not reopen the verdict"
   - type: extends
     wikilink: "[[Renewed Mind]]"
     reason: "Romans 12:2 engine for conformity to Christ, not the world"

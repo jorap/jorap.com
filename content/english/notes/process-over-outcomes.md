@@ -1,19 +1,19 @@
 ---
 title: "Process Over Outcomes"
 meta_title: "Process Over Outcomes - Why James Clear's Line Stuck"
-description: "One heroic sprint doesn't beat a routine I can rerun when motivation dips."
+description: "One heroic sprint does not beat a routine you can rerun when motivation dips."
 key_concept: |
-  - One hero sprint doesn't survive a bad week.
+  - One hero sprint does not survive a bad week.
   - I protect the loop I can rerun when motivation dips - same proofing steps on a slow Tuesday and a wedding weekend.
   - [[Compounding]] only stacks when the process holds
   - [[Notice the Good]] reinforces the behavior in the loop, not only the score that happened to land this time.
-  - One heroic sprint doesn't beat a routine I can rerun when motivation dips.
+  - One heroic sprint does not beat a routine I can rerun when motivation dips.
 examples:
-  - "The baker follows the same proofing steps whether it's a slow Tuesday or wedding weekend."
+  - "The baker follows the same proofing steps whether it is a slow Tuesday or wedding weekend."
   - "The JV squad runs the same warmup whether the bleachers are empty or full."
 shareable_thought:
-  - "One heroic sprint doesn't beat a routine I can rerun when motivation dips."
-  - "One hero sprint doesn't survive a bad week."
+  - "One heroic sprint does not beat a routine I can rerun when motivation dips."
+  - "One hero sprint does not survive a bad week."
   - "I protect the loop I can rerun when motivation dips."
   - "Same proofing steps on a slow Tuesday and a wedding weekend."
 relationships:

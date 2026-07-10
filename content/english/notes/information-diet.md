@@ -1,16 +1,16 @@
 ---
 title: "Information Diet"
 meta_title: "Information Diet"
-description: "I choose feeds on purpose because algorithm defaults aren't neutral."
+description: "Choose feeds on purpose because algorithm defaults are not neutral."
 key_concept: |
   - Choose what you consume on purpose - feeds are not neutral.
   - Curate inputs like food - binge headlines and your judgment gets as sloppy as your sleep. [[Digital Minimalism]] cuts tools; diet cuts feeds.
-  - I choose feeds on purpose because algorithm defaults aren't neutral.
+  - I choose feeds on purpose because algorithm defaults are not neutral.
 examples:
   - "I dropped two commute podcasts that only made me angry at strangers - information diet is curating inputs, not swallowing whatever the algorithm serves."
-  - "I unfollowed three outrage sports accounts and pre-game wasn't ruined before warm-up."
+  - "I unfollowed three outrage sports accounts and pre-game was not ruined before warm-up."
 shareable_thought:
-  - "I choose feeds on purpose because algorithm defaults aren't neutral."
+  - "I choose feeds on purpose because algorithm defaults are not neutral."
   - "Choose what you consume on purpose - feeds are not neutral."
   - "Curate inputs like food - binge headlines and your judgment gets as sloppy as your sleep."
   - "Digital Minimalism cuts tools; diet cuts feeds."

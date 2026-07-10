@@ -1,7 +1,7 @@
 ---
 title: "Network Analysis"
 meta_title: "Network Analysis"
-description: "I look at which notes connect everything else - those hubs tell me where the garden actually lives."
+description: "Look at which notes connect everything else - those hubs show where the garden actually lives."
 key_concept: |
   - Study links and hubs in a graph - who connects whom, what's isolated.
   - Bridges and orphans matter more than node count - the graph shows who carries traffic and what's stranded.
@@ -11,8 +11,8 @@ key_concept: |
   - Network analysis means studying links and hubs in the graph - who connects whom, what's isolated.
   - Network analysis shows who connects whom in the graph - and which notes sit isolated without links.
 examples:
-  - "The playbook diagram showed one motion offense linking twelve other sets - that was the doorway I'd simplify first."
-  - "The chore chart showed one kid linking every task - that's the bottleneck we fixed first."
+  - "The playbook diagram showed one motion offense linking twelve other sets - that was the doorway I would simplify first."
+  - "The chore chart showed one kid linking every task - that is the bottleneck we fixed first."
 shareable_thought:
   - "I look at which notes connect everything else."
   - "Those hubs tell me where the garden actually lives."

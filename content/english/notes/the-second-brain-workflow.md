@@ -4,7 +4,7 @@ meta_title: "The Second Brain Workflow - End to End"
 description: "Capture to inbox, organize by project, distill on reuse, express weekly - CODE and PARA in one loop."
 key_concept: |
   - CODE and PARA in one daily-to-weekly loop - capture daily, express weekly.
-  - Organize by project, distill when you reuse - don't polish notes nobody reads yet.
+  - Organize by project, distill when you reuse - do not polish notes nobody reads yet.
   - Express weekly closes the loop - capture and organize are not enough.
   - Capture to inbox, organize by project, distill on reuse, express weekly.
   - CODE and PARA in one loop.

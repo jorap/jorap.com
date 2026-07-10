@@ -1,7 +1,7 @@
 ---
 title: "Safety by Design"
 meta_title: "Safety by Design"
-description: "I build workflows so the dangerous move is hard - not just a warning label and good intentions."
+description: "Build workflows so the dangerous move is hard - not just a warning label and good intentions."
 key_concept: |
   - Rollback is undo-by-design when release goes loud.
   - [[Staged Rollout]] means fewer people hit before the hazard is proven safe.
@@ -17,7 +17,7 @@ shareable_thought:
   - "Make the dangerous move hard by default - not just forbidden on paper."
 relationships:
   - type: contradicts
-    wikilink: "[[Develop, Don't Endanger]]"
+    wikilink: "[[Develop, Do not Endanger]]"
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Eliminate Before Managing]]"
@@ -41,9 +41,9 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "Gym swapped to breakaway rims so dunk attempts don't tear shoulders. What's the bet?"
+  - front: "Gym swapped to breakaway rims so dunk attempts do not tear shoulders. What's the bet?"
     back: "Safer layout - not another lecture."
-  - front: "New stove puts controls where elbows can't bump them. What's the bet?"
+  - front: "New stove puts controls where elbows cannot bump them. What's the bet?"
     back: "Design beats another warning."
   - front: "Outlet covers in before crawling phase. What's the move?"
     back: "Harm hard to cause - not fifty warnings."

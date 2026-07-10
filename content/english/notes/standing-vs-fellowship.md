@@ -1,7 +1,7 @@
 ---
 title: "Standing vs Fellowship"
 meta_title: "Standing vs Fellowship - Verdict vs Daily Closeness"
-description: "Standing with God is settled at faith; fellowship breaks when I sin and restores when I confess - two ledgers."
+description: "Standing with God is settled at faith; fellowship breaks with sin and restores with confession."
 key_concept: |
   {{< bible ref="John 10:27-30" emphasize="28" >}}
   - Eternal life in His hand - no one snatches you out; standing stays settled even when closeness feels thin.
@@ -15,7 +15,7 @@ key_concept: |
   - Free Grace secured eternal life once - standing stays settled even when fellowship feels distant.
 examples:
   - "I snapped at my kid and dread hit like God revoked my heaven ticket - standing was settled at faith; I confessed and walked the closeness back."
-  - "Hidden sin exposed and shame screamed I'm not saved - justified on Christ already; fellowship needed repair, not a new salvation transaction."
+  - "Hidden sin exposed and shame screamed I am not saved - justified on Christ already; fellowship needed repair, not a new salvation transaction."
 shareable_thought:
   - "Standing with God is settled at faith; fellowship breaks when I sin and restores when I confess - two ledgers."
   - "Free Grace secured eternal life once."
@@ -68,15 +68,15 @@ card_sets: ["Eternal Principles", "Gospel", "Faith"]
 cards:
   - front: "Snapped at my kid and dread hit - like God revoked my ticket to heaven. Two different things?"
     back: "Standing stays - confess, restore fellowship."
-  - front: "Hidden sin exposed - shame says I'm not really saved. What's still true?"
+  - front: "Hidden sin exposed - shame says I am not really saved. What's still true?"
     back: "Justified at faith - fellowship needs repair."
-  - front: "Skipping prayer for a week - panic I'm back on probation with God. Correct the categories?"
+  - front: "Skipping prayer for a week - panic I am back on probation with God. Correct the categories?"
     back: "Standing settled - walk the closeness back."
   - front: "Friend says God turned His back because they messed up. One sentence back?"
     back: "Standing on Christ stays - confess, come close again."
   - front: "Worship feels hollow after an unresolved fight. Which ledger broke?"
     back: "Fellowship - reconcile, then worship."
-  - front: "Bad season and terror heaven access got revoked. What can't faith undo?"
+  - front: "Bad season and terror heaven access got revoked. What cannot faith undo?"
     back: "Justification - standing on Christ stays."
 draft: false
 ---

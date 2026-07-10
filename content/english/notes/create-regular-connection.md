@@ -7,8 +7,8 @@ key_concept: |
   - Connection grows from small repeated rituals.
   - One walk, one check-in - not one big gesture after a dry month.
 examples:
-  - "I block fifteen minutes after standup to walk with one teammate - not a performance review, just the same loop every Tuesday."
-  - "My parents and I call every Sunday after lunch - same window, even when there's nothing big to report. The habit carries the closeness."
+  - I block fifteen minutes after standup to walk with one teammate - not a performance review, just the same loop every Tuesday.
+  - My parents and I call every Sunday after lunch in the same window even when there is nothing big to report.
 shareable_thought:
   - "Connection grows from small repeated rituals."
   - "One walk, one check-in - not one big gesture after a dry month."
@@ -32,7 +32,7 @@ relationships:
     reason: "The repeated moment matters more than one perfect date night"
   - type: implements
     wikilink: "[[Continuous Improvement]]"
-    reason: "Small connection reps compound; one grand dinner doesn't"
+    reason: "Small connection reps compound; one grand dinner does not"
 slug: "create-regular-connection"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"

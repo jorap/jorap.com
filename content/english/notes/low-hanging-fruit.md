@@ -1,12 +1,12 @@
 ---
 title: "Low Hanging Fruit"
 meta_title: "Low Hanging Fruit - Easy Wins Worth Picking First"
-description: "The easy win I can grab now - do it before I climb for the hard stuff."
+description: "The easy win available now - grab it before climbing for the hard stuff."
 key_concept: |
   - Not every task deserves hero energy.
-  - Fix the broken link, publish the half-done draft, delete the folder I haven't opened in a year.
+  - Fix the broken link, publish the half-done draft, delete the folder I have not opened in a year.
   - Small, obvious, done today.
-  - I use it when I'm avoiding work by planning harder work.
+  - I use it when I am avoiding work by planning harder work.
   - The easy win I can grab now.
   - Do it before I climb for the hard stuff.
 examples:
@@ -15,8 +15,8 @@ examples:
 shareable_thought:
   - "The easy win I can grab now."
   - "Do it before I climb for the hard stuff."
-  - "Fix the broken link, publish the half-done draft, delete the folder I haven't opened in a year."
-  - "I use it when I'm avoiding work by planning harder work."
+  - "Fix the broken link, publish the half-done draft, delete the folder I have not opened in a year."
+  - "I use it when I am avoiding work by planning harder work."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

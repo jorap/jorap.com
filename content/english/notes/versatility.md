@@ -1,7 +1,7 @@
 ---
 title: "Versatility"
 meta_title: "Versatility - More Than One Way to Contribute"
-description: "I can plug into more than one lane when the team or the client needs a shift."
+description: "Plug into more than one lane when the team or the client needs a shift."
 key_concept: |
   - You can contribute in more than one lane when the team or the market shifts.
   - Nobody schedules the sick day or the rush - versatility is just having more than one answer ready when they hit.
@@ -18,7 +18,7 @@ shareable_thought:
 relationships:
   - type: contradicts
     wikilink: "[[Pareto Principle]]"
-    reason: "when being helpful everywhere dilutes the core twenty percent you're actually best at"
+    reason: "when being helpful everywhere dilutes the core twenty percent you are actually best at"
   - type: extends
     wikilink: "[[Adaptability]]"
     reason: "Versatility is adaptability in skills"
@@ -39,9 +39,9 @@ review: true
 card_sets: ["Focus", "Review"]
 cards:
   - front: "Lunch rush hit and dishes are piled - line cook's buried in tickets."
-    back: "Jump on dishes - I'm not running the grill."
-  - front: "Sick day and I'm lunch packer, tutor, and IT help before noon."
-    back: "Pick up the lane that opens - don't fake expertise."
+    back: "Jump on dishes - I am not running the grill."
+  - front: "Sick day and I am lunch packer, tutor, and IT help before noon."
+    back: "Pick up the lane that opens - do not fake expertise."
 draft: false
 ---
 

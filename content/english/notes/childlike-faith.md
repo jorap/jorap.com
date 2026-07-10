@@ -1,26 +1,26 @@
 ---
 title: "Childlike Faith"
 meta_title: "Childlike Faith - Receive the Kingdom"
-description: "I stop negotiating merit and receive the kingdom the way a child receives care."
+description: "The kingdom is received like a child receives care, not negotiated on a merit ladder."
 key_concept: |
   {{< bible ref="Mark 10:13-16" emphasize="15" >}}
-  - Receive the kingdom like a kid - stop negotiating merit before you enter.
-  - Children don't enter the kingdom by achievement; they receive care they didn't earn.
-  - Jesus wasn't praising ignorance - he was naming the posture [[Free Grace]] and [[Assurance]] require: stop calculating worthiness and receive the gift.
-  - Same beginner posture as [[Getting Started]] in the garden - assume you're new, follow the guide, don't perform expertise you don't have.
-  - I stop negotiating merit and receive the kingdom the way a child receives care.
+  - Receive the kingdom like a child - stop negotiating merit before you enter.
+
+  - Children do not enter the kingdom by achievement; they receive care they did not earn.
+  - Jesus was not praising ignorance - he was naming the posture [[Free Grace]] and [[Assurance]] require: stop calculating worthiness and receive the gift.
+  - Same beginner posture as [[Getting Started]] in the garden - assume you are new, follow the guide, do not perform expertise you do not have.
 examples:
-  - "My daughter asked for water at practice without calculating whether she'd earned it - I caught myself running a merit scoreboard with God before I'd even say good morning."
-  - "I delay prayer until my week looks respectable - childlike faith means I come like a kid who already belongs, not a contractor negotiating terms."
+  - My daughter asked for water at practice without calculating whether she had earned it - I caught myself running a merit scoreboard with God before I would even say good morning.
+  - I delay prayer until my week looks respectable - childlike faith means coming like a kid who already belongs, not a contractor negotiating terms.
 shareable_thought:
-  - "I stop negotiating merit and receive the kingdom the way a child receives care."
-  - "Children don't enter the kingdom by achievement; they receive care they didn't earn."
-  - "Same beginner posture as Getting Started in the garden."
-  - "Assume you're new, follow the guide, don't perform expertise you don't have."
+  - Childlike faith receives the kingdom without negotiating merit first.
+  - Children receive care they did not earn - that is the entry posture.
+  - Stop calculating worthiness and receive the gift grace already offers.
+  - Beginner posture beats performing expertise you do not have.
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"
-    reason: "when I treat faith as a merit account I'm building"
+    reason: "when faith gets treated as a merit account being built"
   - type: extends
     wikilink: "[[Assurance]]"
     reason: "Receive the promise like a child - stop re-negotiating merit"

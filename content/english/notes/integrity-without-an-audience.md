@@ -3,17 +3,19 @@ title: "Integrity Without an Audience"
 meta_title: "Integrity Without an Audience - Do the Honest Work"
 description: "Do the honest work when there's no audience - accurate time logs, real tests, the fix nobody asked for yet."
 key_concept: |
+  {{< bible ref="Matthew 6:1-4" emphasize="4" >}}
+  - Father who sees in secret repays - honest work when nobody applauds is still seen by God.
   - Performance for the standup is its own reward and a small one.
   - Some good work should stay hidden; some should shine in [[Let Your Light Shine]].
-  - This note is the hidden lane: quality when the manager isn't looking.
+  - This note is the hidden lane: quality when the manager is not looking.
   - Gospel source: [[Secret Devotion]].
-  - Do the honest work when there's no audience.
+  - Do the honest work when there is no audience.
   - Accurate time logs, real tests, the fix nobody asked for yet.
 examples:
-  - "The market scale stays honest when the seller steps away to take a call - I could've scooped light on the last bag of rice; instead I re-weighed it before the customer came back."
-  - "I ran the real spelling check on the homework when my kid wasn't looking over my shoulder."
+  - "The market scale stays honest when the seller steps away to take a call - I could have scooped light on the last bag of rice; instead I re-weighed it before the customer came back."
+  - "I ran the real spelling check on the homework when my kid was not looking over my shoulder."
 shareable_thought:
-  - "Do the honest work when there's no audience."
+  - "Do the honest work when there is no audience."
   - "Accurate time logs, real tests, the fix nobody asked for yet."
   - "Performance for the standup is its own reward and a small one."
   - "Some good work should stay hidden; some should shine in Let Your Light Shine."
@@ -26,7 +28,7 @@ relationships:
     reason: "when every act of work becomes content for applause"
   - type: extends
     wikilink: "[[Discipleship vs Leadership]]"
-    reason: "Hidden walk with Christ - public leadership can't substitute for this seat"
+    reason: "Hidden walk with Christ - public leadership cannot substitute for this seat"
   - type: extends
     wikilink: "[[Integrity]]"
     reason: "General integrity claim - this note is the workplace lane"

@@ -1,7 +1,7 @@
 ---
 title: "Literature Notes"
 meta_title: "Literature Notes"
-description: "After I read a source, I write what stuck in my own words - not a pile of copied highlights."
+description: "After reading a source, write what stuck in your own words - not a pile of copied highlights."
 key_concept: |
   - Notes about a source in your own words - not a highlight dump.
   - Source notes stay tied to the book or talk - your atoms link out, not the other way around.

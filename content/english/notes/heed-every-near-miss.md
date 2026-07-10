@@ -9,8 +9,8 @@ key_concept: |
   - A close call means the system nearly failed, not that we got proof the activity was safe because nobody died.
   - Luck covering a near-miss is not proof the system works.
 examples:
-  - "A swimmer needed rescue during the same open-water drill last month - that's a warning to stop, not proof the safety boat can handle it forever."
-  - "The toddler almost fell off the same chair twice - survival doesn't prove the setup is safe; fix the hazard before the third time."
+  - "A swimmer needed rescue during the same open-water drill last month - that is a warning to stop, not proof the safety boat can handle it forever."
+  - "The toddler almost fell off the same chair twice - survival does not prove the setup is safe; fix the hazard before the third time."
 shareable_thought:
   - "A close call means the system nearly failed, not that we got proof the activity was safe because nobody died."
   - "When nobody gets injured, organizations often relax."
@@ -19,7 +19,7 @@ shareable_thought:
 relationships:
   - type: contradicts
     wikilink: "[[Normalization of Deviance]]"
-    reason: "when \"we've done this before without dying\" becomes permission to repeat"
+    reason: "when \"we have done this before without dying\" becomes permission to repeat"
   - type: extends
     wikilink: "[[Anti-Fragile Systems]]"
     reason: "Near misses are stress signals - learn before the system breaks for real"
@@ -40,7 +40,7 @@ relationships:
     reason: "Organizations that learn treat near misses as data, not luck to forget"
   - type: implements
     wikilink: "[[Active Knowledge Curation]]"
-    reason: "[[Capture]] the close call, redesign the activity, don't let the lesson rot in memory"
+    reason: "[[Capture]] the close call, redesign the activity, do not let the lesson rot in memory"
 slug: "heed-every-near-miss"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"
@@ -54,12 +54,12 @@ card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Swimmer needed rescue during the same open-water drill last month. How do I read that?"
     back: "Warning - stop before the third time."
-  - front: "Kid almost choked on the same team-building snack twice. What isn't a control layer?"
-    back: "Luck isn't control - change the snack."
+  - front: "Kid almost choked on the same team-building snack twice. What is not a control layer?"
+    back: "Luck is not control - change the snack."
   - front: "Toddler almost fell off the same chair twice. What's the move before visit three?"
     back: "Fix the hazard - luck blocked harm twice."
   - front: "Same exercise needed a rescue before and we're running it again. Read on the near-miss?"
-    back: "Investigate and redesign - don't repeat."
+    back: "Investigate and redesign - do not repeat."
 draft: false
 ---
 

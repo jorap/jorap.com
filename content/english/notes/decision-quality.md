@@ -1,20 +1,20 @@
 ---
 title: "Decision Quality"
 meta_title: "Decision Quality - Good Calls Under Real Constraints"
-description: "I judge choices by whether they hold after sleep, new facts, and the real bill - not the meeting high."
+description: "Choices are judged by whether they hold after sleep, new facts, and the real bill - not the meeting high."
 key_concept: |
-  - Decision quality is how often your choices hold up after information, time, and energy are factored in.
-  - I judge choices by whether they hold after sleep, new facts, and the real bill - not the meeting high.
+  - Decision quality is how often choices hold up after information, time, and energy are factored in.
+
   - A choice that only looks good in the meeting room is not a quality decision.
   - Sleep on it, then check whether the choice still holds.
 examples:
   - "Signing a year-long club fee on one trial session is how people miss the schedule clash - decision quality was one call to a current member before we paid."
   - "We almost picked the school on one sunny open house - one neighbor call about the flood-prone pickup lane changed our call before we signed."
 shareable_thought:
-  - "I judge choices by whether they hold after sleep, new facts, and the real bill - not the meeting high."
-  - "Decision quality is how often your choices hold up after information, time, and energy are factored in."
-  - "A choice that only looks good in the meeting room is not a quality decision."
-  - "Sleep on it, then check whether the choice still holds."
+  - Decision quality means choices that still hold after sleep, new facts, and the real bill.
+  - Meeting-room highs are not the same as decisions that survive Tuesday.
+  - Sleep on it, then check whether the choice still holds.
+  - One extra phone call often beats the sunny open-house vibe.
 relationships:
   - type: contradicts
     wikilink: "[[Low Hanging Fruit]]"

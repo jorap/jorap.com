@@ -1,26 +1,27 @@
 ---
 title: "Christianity and Politics"
 meta_title: "Christianity and Politics - Dual Allegiance Without Idolatry"
-description: "I owe Caesar what Caesar's owed and God what I'm His - no party gets my soul."
+description: "Caesar gets what Caesar is owed and God gets what is His - no party gets the soul."
 key_concept: |
-  - [[Render Unto Caesar]] holds the text - coin to Caesar, self to God.
-  - Civic duty without making Rome or any party ultimate lord.
+  {{< bible ref="Matthew 22:21" >}}
+  - Caesar gets what Caesar is owed and God gets what is His - no party gets ultimate allegiance.
+  - Coin to Caesar, self to God - civic duty without making Rome or any party ultimate lord.
   - [[Seek the Kingdom First]] still ranks God's reign above every election cycle - without excusing dodged taxes, permits, or jury duty.
   - [[Love Your Neighbor]] and [[Love Your Enemies]] stretch across party lines: the person on the other feed is still my neighbor, not a target.
   - [[Treasure in Heaven]] keeps my heart off ballot-box salvation - no moth-eaten security in who wins Tuesday.
   - [[By Their Fruits]] and [[Heart Righteousness]] judge movements by outcome and motive, not hype or tribe loyalty.
   - [[Great Commission]] and [[Let Your Light Shine]] send witness into public life without letting the gospel get captured by one side's flag.
   - PKM mirror: [[Signal vs Noise]] - not every headline deserves kingdom-level panic; [[Information Diet]] curbs the scroll that replaces prayer.
-  - I owe Caesar what Caesar's owed and God what I'm His.
-  - No party gets my soul - Caesar gets what Caesar is owed, God gets what I'm His.
+  - I owe Caesar what Caesar's owed and God what I am His.
+  - No party gets my soul - Caesar gets what Caesar is owed, God gets what I am His.
 examples:
   - "Tax bill landed and part of me wanted to treat paying it like betraying the kingdom - [[Render Unto Caesar]]: lawful duty and ultimate worship stay distinct."
-  - "Group chat turned tribal after the election and my thumb hovered on a dunk - bless the neighbor, don't baptize the rage."
+  - "Group chat turned tribal after the election and my thumb hovered on a dunk - bless the neighbor, do not baptize the rage."
 shareable_thought:
-  - "I owe Caesar what Caesar's owed and God what I'm His."
-  - "No party gets my soul."
+  - "Caesar gets what Caesar is owed; God gets what is His - no party gets ultimate allegiance."
   - "Render Unto Caesar names the split: coin to Caesar, self to God."
   - "Seek the Kingdom First still ranks God's reign above every election cycle."
+  - "Political opponents stay neighbors - bless them, do not return evil for evil."
 relationships:
   - type: alternative
     wikilink: "[[Peacemakers]]"
@@ -36,16 +37,16 @@ relationships:
     reason: "Make-disciples mission outranks party loyalty"
   - type: extends
     wikilink: "[[Heart Righteousness]]"
-    reason: "Outward policy fights can't substitute for inward obedience"
+    reason: "Outward policy fights cannot substitute for inward obedience"
   - type: extends
     wikilink: "[[Information Diet]]"
     reason: "Outrage feeds need the same diet discipline as any other feed"
   - type: extends
     wikilink: "[[Let Your Light Shine]]"
-    reason: "Good works visible - politics isn't the only lamp stand"
+    reason: "Good works visible - politics is not the only lamp stand"
   - type: extends
     wikilink: "[[Love Your Enemies]]"
-    reason: "Political opponents stay neighbors - bless, don't return evil"
+    reason: "Political opponents stay neighbors - bless, do not return evil"
   - type: extends
     wikilink: "[[Love Your Neighbor]]"
     reason: "Civic life is neighbor-love in public, not tribe warfare"

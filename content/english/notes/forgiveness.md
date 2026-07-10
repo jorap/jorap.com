@@ -1,38 +1,35 @@
 ---
 title: "Forgiveness"
 meta_title: "Forgiveness - As the Father Forgives You"
-description: "I extend the forgiveness I already received, not ledger-keeping on debts Christ cleared."
+description: "Extend the forgiveness already received, not ledger-keeping on debts Christ cleared."
 key_concept: |
   {{< bible ref="Matthew 6:14-15" emphasize="15" >}}
-  - Forgive others or the Father won't forgive you - daily rhythm, not a one-time sermon nod.
-  
+  - Forgiveness extends the forgiveness already received, not ledger-keeping on debts Christ cleared.
+
+  - Forgive others or the Father will not forgive you - daily rhythm, not a one-time sermon nod.
+
   {{< bible ref="Matthew 18:21-35" emphasize="35" >}}
-  
-  - Seventy times seven ends ledger-keeping - stop counting how many times you've been wronged.
-  - The unforgiving servant - king forgave an unpayable debt; refusing a small debt exposed a heart out of step.
-  - The parable of the unforgiving servant makes the math plain: the king forgave an unpayable debt picture of [[Free Grace]] already given, and the servant's refusal to forgive a small debt exposed a heart out of step with [[Mercy]].
-  - Same move as [[Sunk Cost Fallacy]] in reverse - I stop treating past hurt as a reason to keep collecting on a debt that's already been cleared.
-  - For believers, unforgiveness chokes fellowship and joy - it doesn't undo eternal life bought by faith ([[Standing vs Fellowship]] and [[Loss of Reward]] keep the categories straight).
-  - [[Ask Seek Knock]] builds forgiveness into daily rhythm.
-  - I extend the forgiveness I already received, not ledger-keeping on debts Christ cleared.
+
+  - Seventy times seven ends ledger-keeping - stop counting how many times you have been wronged.
+  - The unforgiving servant parable makes the math plain: the king forgave an unpayable debt picture of [[Free Grace]] already given.
 examples:
-  - "My kid hurt my feelings at breakfast and I said \"it's fine\" while nursing the grudge - forgiveness is releasing the debt, not pretending it didn't matter."
-  - "I prayed about forgiving others on autopilot and skipped that line because I'm still mad at my brother from last Sunday - you can't ask for mercy with one breath and hold a grudge with the next."
+  - My kid hurt my feelings at breakfast and I said it is fine while nursing the grudge - forgiveness is releasing the debt, not pretending it did not matter.
+  - I prayed about forgiving others on autopilot and skipped that line because I am still mad at my brother from last Sunday - you cannot ask for mercy with one breath and hold a grudge with the next.
 shareable_thought:
-  - "I extend the forgiveness I already received, not ledger-keeping on debts Christ cleared."
-  - "Seventy times seven ends ledger-keeping."
-  - "Stop counting how many times you've been wronged."
-  - "The unforgiving servant - king forgave an unpayable debt; refusing a small debt exposed a heart out of step."
+  - Forgiveness extends the forgiveness already received, not ledger-keeping on debts Christ cleared.
+  - Seventy times seven ends ledger-keeping on old wrongs.
+  - Stop counting how many times you have been wronged.
+  - The unforgiving servant exposed a heart out of step with mercy already received.
 relationships:
   - type: contradicts
     wikilink: "[[Sunk Cost Fallacy]]"
-    reason: "when I treat old hurt as debt I'm owed forever"
+    reason: when you treat old hurt as debt you are owed forever
   - type: extends
     wikilink: "[[Ask Seek Knock]]"
     reason: "Forgive as you have been forgiven - ask-seek-knock includes mercy"
   - type: extends
     wikilink: "[[Free Grace]]"
-    reason: "You forgive because God already cleared a debt you couldn't pay"
+    reason: You forgive because God already cleared a debt you could not pay
   - type: extends
     wikilink: "[[Grace]]"
     reason: "Forgive from grace already received - not to earn it"

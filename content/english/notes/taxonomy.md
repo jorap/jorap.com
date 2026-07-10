@@ -1,11 +1,11 @@
 ---
 title: "Taxonomy"
 meta_title: "Taxonomy"
-description: "Tags, folders, and types are how I find notes later - classification in service of retrieval."
+description: "Tags, folders, and types help find notes later - classification in service of retrieval."
 key_concept: |
   - A classification scheme - folders, tags, types - for finding things later.
-  - Tags and types only help when the list stays short enough you'd actually pick from it.
-  - [[Metadata Strategy]] plans tags; taxonomy is the short list you'd actually use.
+  - Tags and types only help when the list stays short enough you would actually pick from it.
+  - [[Metadata Strategy]] plans tags; taxonomy is the short list you would actually use.
   - Tags, folders, and types are how I find notes later.
   - Classification in service of retrieval.
   - Taxonomy is classification in service of retrieval - tags should help me find notes, not become a second job.
@@ -16,14 +16,14 @@ shareable_thought:
   - "Tags, folders, and types are how I find notes later."
   - "Classification in service of retrieval."
   - "A classification scheme - folders, tags, types - for finding things later."
-  - "Tags and types only help when the list stays short enough you'd actually pick from it."
+  - "Tags and types only help when the list stays short enough you would actually pick from it."
 relationships:
   - type: contradicts
     wikilink: "[[Linking by Meaning]]"
     reason: "when the opposite frame fits better"
   - type: extends
     wikilink: "[[Metadata Strategy]]"
-    reason: "Strategy plans tags; taxonomy is the short list you'd click"
+    reason: "Strategy plans tags; taxonomy is the short list you would click"
   - type: extends
     wikilink: "[[PARA Method]]"
     reason: "PARA folders are taxonomy you actually navigate"
@@ -40,7 +40,7 @@ cards:
   - front: "Film folders dumped in one 'misc clips' pile and I need the corner-kick reel."
     back: "Split by opponent and phase."
   - front: "Faith notes, PKM notes, all in one junk folder called misc."
-    back: "Short tag list I'd actually click."
+    back: "Short tag list I would actually click."
   - front: "School papers in one counter pile and permission slips keep getting lost."
     back: "Three trays - sign, keep, trash."
   - front: "Receipts in one shoebox and tax season's coming."

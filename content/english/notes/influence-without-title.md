@@ -3,7 +3,7 @@ title: "Influence Without Title"
 meta_title: "Influence Without Title - People Follow Trust Before Badges"
 description: "People follow the one who showed up in the crisis - not always the name on the org chart."
 key_concept: |
-  - [[Leadership Is Influence]] is the headline: if they're moving with you, you're leading - badge optional.
+  - Leadership Is Influence is the headline: if they are moving with you, you are leading - badge optional.
   - This note is the positive case before anyone prints a business card.
   - Trust deposits compound in small moments: bailing the crew out of an outage, calm voice when the alarm trips.
   - The neighbor who counted heads in the blackout.
@@ -13,10 +13,10 @@ key_concept: |
   - People follow the one who showed up in the crisis - not always the name on the org chart.
 examples:
   - "Our line cook never got named manager; when the hood alarm tripped everyone looked at her for who goes where - influence without a title, earned in every prior shift."
-  - "The blackout hit our block and one neighbor set pace - who checks elders, who runs the generator - nobody voted, they just followed the person who'd shown up last typhoon."
+  - "The blackout hit our block and one neighbor set pace - who checks elders, who runs the generator - nobody voted, they just followed the person who would shown up last typhoon."
 shareable_thought:
   - "People follow the one who showed up in the crisis - not always the name on the org chart."
-  - "Leadership Is Influence is the headline: if they're moving with you, you're leading - badge optional."
+  - "Leadership Is Influence is the headline: if they are moving with you, you are leading - badge optional."
   - "Leadership names direction, pace, and care when people look your way."
   - "Often at the person who already proved reliable, not the newest title."
 relationships:

@@ -1,7 +1,7 @@
 ---
 title: "Habit Stacking"
 meta_title: "Habit Stacking - Piggyback on What You Already Do"
-description: "I piggyback a new tiny habit onto one that already runs without thinking, like notebook after coffee."
+description: "Piggyback a new tiny habit onto one that already runs without thinking, like notebook after coffee."
 key_concept: |
   - Habit stacking attaches a new small move to a habit that already runs on autopilot - one anchor, one add-on.
   - The anchor has to already be bulletproof - stacking onto a habit you sometimes skip just gives you two habits you sometimes skip.

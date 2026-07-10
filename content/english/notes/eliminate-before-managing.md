@@ -1,20 +1,21 @@
 ---
 title: "Eliminate Before Managing"
 meta_title: "Eliminate Before Managing - Remove the Hazard First"
-description: "I remove unnecessary danger first instead of stacking procedures and gear on top of it."
+description: "Remove unnecessary danger first instead of stacking procedures and gear on top of it."
 key_concept: |
-  - Those safeguards can cut risk, but they still need correct human action every time.
-  - I remove unnecessary danger first instead of stacking procedures and gear on top of it.
-  - When a dangerous activity isn't required, swap it for a safer alternative and the failure never gets a chance to happen.
+  - Eliminate before managing removes unnecessary danger first instead of stacking procedures and gear on top.
+
+  - Safeguards can cut risk, but they still need correct human action every time.
+  - When a dangerous activity is not required, swap it for a safer alternative and the failure never gets a chance to happen.
   - Remove the hazard before you buy more gear to work around it.
 examples:
-  - "Swap the wobbly ladder for a stable step stool - eliminate the fall hazard instead of adding three warning stickers and hoping someone reads them."
-  - "We stopped storing cleaners under the sink and moved them up high - remove the hazard before we trust a \"don't touch\" lecture every time."
+  - Swap the wobbly ladder for a stable step stool - eliminate the fall hazard instead of adding three warning stickers and hoping someone reads them.
+  - We stopped storing cleaners under the sink and moved them up high - remove the hazard before we trust a do-not-touch lecture every time.
 shareable_thought:
-  - "I remove unnecessary danger first instead of stacking procedures and gear on top of it."
-  - "Those safeguards can cut risk, but they still need correct human action every time."
-  - "When a dangerous activity isn't required, swap it for a safer alternative and the failure never gets a chance to happen."
-  - "Remove the hazard before you buy more gear to work around it."
+  - Eliminate before managing removes danger first instead of stacking procedures on top.
+  - Safeguards still need correct human action every time.
+  - Swap a dangerous step for a safer alternative when it is not required.
+  - Remove the hazard before you buy more gear to work around it.
 relationships:
   - type: contradicts
     wikilink: "[[Risk Management]]"

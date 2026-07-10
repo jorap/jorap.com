@@ -1,7 +1,7 @@
 ---
 title: "Own Your Part"
 meta_title: "Own Your Part - Change Your Slice Without Waiting"
-description: "I change my slice of the problem - not wait for a hand-down fix from upstairs."
+description: "Change your slice of the problem - do not wait for a hand-down fix from upstairs."
 key_concept: |
   - Waiting for headquarters to fix your lane is how stale processes survive years.
   - Own your part means I take charge of what I can move - my habit, my pass-off, my corner of the workflow.
@@ -29,10 +29,10 @@ relationships:
     reason: "Proactive lane before the miss becomes a blame thread"
   - type: extends
     wikilink: "[[Servant Leadership]]"
-    reason: "Leaders model own-your-part - unblock, don't delegate waiting"
+    reason: "Leaders model own-your-part - unblock, do not delegate waiting"
   - type: implements
     wikilink: "[[Transformation Principles]]"
-    reason: "Ownership lever - change doesn't wait on a memo"
+    reason: "Ownership lever - change does not wait on a memo"
   - type: implements
     wikilink: "[[Workplace Principles]]"
     reason: "Proactive ownership in plain office language"
@@ -47,14 +47,14 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "Shared drive chaos for months and another IT ticket won't help. What's my move?"
+  - front: "Shared drive chaos for months and another IT ticket will not help. What's my move?"
     back: "Rename folders, post a one-page map - own my slice."
   - front: "Coach hasn't fixed my defense and game night is close. Waiting or acting?"
     back: "Ask for ten minutes footwork after practice - my gap."
   - front: "Meeting ended with 'leadership will decide.' What's own-your-part?"
     back: "Move what I can in my lane before the memo."
-  - front: "Process is stale and I'm only complaining in Slack. What's missing?"
-    back: "Change my pass-off - don't wait for headquarters."
+  - front: "Process is stale and I am only complaining in Slack. What's missing?"
+    back: "Change my pass-off - do not wait for headquarters."
 draft: false
 ---
 

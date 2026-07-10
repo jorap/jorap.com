@@ -21,8 +21,8 @@ key_concept: |
   - A saved believer can still lose reward.
   - Worthless works burn, eternal life stays secure on Christ.
 examples:
-  - "Wasted years of selfish living and terror I'm not saved - reward may burn at the judgment seat; my standing was settled when I trusted Christ."
-  - "Hidden sin exposed and shame screamed heaven access revoked - confess, restore fellowship, keep walking; justification on Christ doesn't get re-opened by a bad season."
+  - "Wasted years of selfish living and terror I am not saved - reward may burn at the judgment seat; my standing was settled when I trusted Christ."
+  - "Hidden sin exposed and shame screamed heaven access revoked - confess, restore fellowship, keep walking; justification on Christ does not get re-opened by a bad season."
 shareable_thought:
   - "A saved believer can still lose reward."
   - "Worthless works burn, eternal life stays secure on Christ."
@@ -58,7 +58,7 @@ relationships:
     reason: "Where worthless works burn and faithful works get repaid"
   - type: extends
     wikilink: "[[Justification]]"
-    reason: "Standing declared at faith doesn't get revoked when reward is lost"
+    reason: "Standing declared at faith does not get revoked when reward is lost"
   - type: extends
     wikilink: "[[Sanctification]]"
     reason: "Keep becoming holy after a wasted season - growth and reward are separate ledgers"

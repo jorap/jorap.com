@@ -3,6 +3,8 @@ title: "Plain Commitments at Work"
 meta_title: "Plain Commitments at Work - Yes Means Yes"
 description: "Say yes or no clearly - no \"definitely maybe,\" no stack of qualifiers so people trust a weak promise."
 key_concept: |
+  {{< bible "Matthew 5:37" >}}
+  - Say yes or no plainly - hype on a weak promise is the real problem.
   - If my word needs hype to sound believable, the problem is my follow-through, not the sentence.
   - One deadline, one owner, one plain answer in Slack.
   - On [[Selling Static Sites]] scoping: say yes or no to [[Static Site Client Scope]] before deposit; name the [[Client Site Pass-Off]] model the same way.
@@ -51,13 +53,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "Host almost said I'll try maybe get you a table around seven. What's the plain move?"
-    back: "7pm or I can't tonight - pick one."
+  - front: "Host almost said I will try maybe get you a table around seven. What's the plain move?"
+    back: "7pm or I cannot tonight - pick one."
   - front: "I told the carpool yes Friday, no Thursday. What do I refuse to say?"
     back: "Definitely maybe if nothing comes up."
   - front: "Coach needs practice at 4pm sharp. What do I refuse to pad?"
     back: "We'll try maybe around four."
-  - front: "I told my neighbor I'll fix his fence Saturday by noon. What makes it plain?"
+  - front: "I told my neighbor I will fix his fence Saturday by noon. What makes it plain?"
     back: "One deadline, one owner."
 draft: false
 ---

@@ -8,7 +8,7 @@ key_concept: |
   - Each note opens with a definition I can quote in one breath - the graph and backlinks do the organizing.
   - Start at [[Maps of Content]] or walk through the steps below.
   - Paid client sites use the same Hugo-plus-git lane - hub: [[Selling Static Sites]].
-  - Faith parallel: [[Childlike Faith]] - beginner posture; receive the guide, don't perform expertise on day one.
+  - Faith parallel: [[Childlike Faith]] - beginner posture; receive the guide, do not perform expertise on day one.
 shareable_thought:
   - "I keep one clear claim per note page and let wikilinks plus /notes/ do the browsing."
   - "Public when draft: false; hidden while draft: true."

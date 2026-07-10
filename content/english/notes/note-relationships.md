@@ -8,7 +8,7 @@ key_concept: |
   - Extends asks what this idea builds on; contradicts names the tradeoff it pushes against.
   - Implements names what makes the idea real; alternative names another path that does the job.
 examples:
-  - "I'm updating the family chore chart and add \"feeds into: Saturday yard work\" next to \"take out trash\" plus \"conflicts with: bedtime when done late\" before I tape it to the fridge."
+  - "I am updating the family chore chart and add \"feeds into: Saturday yard work\" next to \"take out trash\" plus \"conflicts with: bedtime when done late\" before I tape it to the fridge."
   - "The coach's whiteboard lists \"feeds into: secondary break\" beside each drill - players see how today's reps connect before they leave the gym."
 shareable_thought:
   - "My graph shows extends, contradicts, implements, alternative - not just two notes mentioning the same word."

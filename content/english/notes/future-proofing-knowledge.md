@@ -1,19 +1,20 @@
 ---
 title: "Future-Proofing Knowledge"
 meta_title: "Future-Proofing Knowledge - Boring Formats Win"
-description: "I future-proof notes with plain text, open tools, and exports I test before a vendor locks me in."
+description: "Future-proof notes with plain text, open tools, and exports tested before a vendor locks you in."
 key_concept: |
-  - Future-proofing isn't predicting tech for me - it's plain text, open tools, and exports I test before I need them.
-  - [[Free Tier Hosting Stack]] client repos are markdown in git - portable if Cloudflare or I disappear; the content survives, hosting is swappable.
-  - I future-proof notes with plain text, open tools, and exports I test before a vendor locks me in.
+  - Future-proofing knowledge uses plain text, open tools, and exports tested before a vendor locks you in.
+
+  - Future-proofing is not predicting tech - it is plain text, open tools, and exports you test before you need them.
+  - [[Free Tier Hosting Stack]] client repos are markdown in git - portable if Cloudflare disappears; content survives, hosting is swappable.
 examples:
-  - "Our family contacts list is plain text on the fridge backup folder - I copy it twice a year so future-proof isn't just a vibe."
-  - "My notes live as plain text I can open anywhere; I test the backup drive before I need it, not after an app dies."
+  - Our family contacts list is plain text on the fridge backup folder - I copy it twice a year so future-proof is not just a vibe.
+  - My notes live as plain text I can open anywhere; I test the backup drive before I need it, not after an app dies.
 shareable_thought:
-  - "I future-proof notes with plain text, open tools, and exports I test before a vendor locks me in."
-  - "Future-proofing isn't predicting tech for me - it's plain text, open tools, and exports I test before I need them."
-  - "Free Tier Hosting Stack client repos are markdown in git."
-  - "Portable if Cloudflare or I disappear; the content survives, hosting is swappable."
+  - Future-proofing knowledge uses plain text, open tools, and exports tested before a vendor locks you in.
+  - Future-proofing is not predicting tech - it is boring formats you can open anywhere.
+  - Markdown in git survives; hosting vendors are swappable.
+  - Test the backup drive before the app dies, not after.
 relationships:
   - type: contradicts
     wikilink: "[[Building a Personal API]]"

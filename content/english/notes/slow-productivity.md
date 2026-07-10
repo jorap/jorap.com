@@ -3,7 +3,7 @@ title: "Slow Productivity"
 meta_title: "Slow Productivity - Fewer Projects, Deeper Notes"
 description: "Slow productivity is fewer active projects so work finishes deep instead of piling as guilt."
 key_concept: |
-  - Busy isn't the same as finished.
+  - Busy is not the same as finished.
   - Slow productivity is fewer active projects so work finishes deep instead of piling as guilt.
   - I run fewer active projects so notes become shipped work, not a guilt backlog.
   - Four half-started builds eat the one client site that was supposed to ship this month.
@@ -12,7 +12,7 @@ examples:
   - "One deep client build this month beat three half-started sites on the portfolio."
 shareable_thought:
   - "Slow productivity is fewer active projects so work finishes deep instead of piling as guilt."
-  - "Busy isn't the same as finished."
+  - "Busy is not the same as finished."
   - "I run fewer active projects so notes become shipped work, not a guilt backlog."
   - "Four half-started builds eat the one client site that was supposed to ship this month."
 relationships:

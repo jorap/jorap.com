@@ -1,27 +1,27 @@
 ---
 title: "Renewed Mind"
 meta_title: "Renewed Mind - Romans 12:2 Mind Transformation"
-description: "Don't copy the world's default thinking - let Scripture reshape how I see, choose, and obey."
+description: "Refuse the world default thinking - let Scripture reshape how you see, choose, and obey."
 key_concept: |
   {{< bible ref="John 8:31-32" emphasize="32" >}}
-  - Stay in His word and you're His disciple - truth frees the mind culture tried to lock in hurry and outrage.
+  - Stay in His word and you are His disciple - truth frees the mind culture tried to lock in hurry and outrage.
   
   {{< bible ref="Romans 12:1-2" emphasize="2" >}}
   
   - Mercy first, then sacrifice, then a mind being renewed - Paul stacks the order I keep swapping.
   - Renewal enables testing His will - good, acceptable, perfect - see [[Discern His Will Daily]].
-  - Under [[Free Grace]], renewal doesn't earn eternal life; it follows the verdict [[Justification]] already gave.
+  - Under [[Free Grace]], renewal does not earn eternal life; it follows the verdict [[Justification]] already gave.
   - [[Sanctification]] is the slow becoming; mind renewal is the inner engine that keeps choices from running on culture's defaults.
   - [[Abide in Me]] feeds it - His words dwell where I actually read.
   - [[Repent and Believe]] names the turn: change of mind and direction, not a down payment on salvation.
   - PKM mirror: [[Information Diet]] curates feeds; renewed mind goes deeper - Scripture and prayer reshape judgment, not just block noise.
-  - Don't copy the world's default thinking.
+  - do not copy the world's default thinking.
   - Let Scripture reshape how I see, choose, and obey.
 examples:
   - "I knew the verse on patience and still snapped at dinner - my standing was settled at faith, but my mind was still running the world's hurry-and-react script until I opened Scripture before the group chat."
   - "The point guard kept forcing hero shots after film study showed the open man - same data, old habit loop; renewal is reps that bend the default, not one inspirational speech."
 shareable_thought:
-  - "Don't copy the world's default thinking - let Scripture reshape how I see, choose, and obey."
+  - "do not copy the world's default thinking - let Scripture reshape how I see, choose, and obey."
   - "Mercy first, then sacrifice, then a mind being renewed."
   - "Paul stacks the order I keep swapping."
   - "Mercy received first - then the living sacrifice, then the renewed mind."
@@ -69,26 +69,26 @@ relationships:
     wikilink: "[[Discipleship]]"
     reason: "Daily following reshapes the mind that chooses obedience"
   - type: extends
-    wikilink: "[[Don't Copy the Pattern]]"
-    reason: "Romans 12:2 refusal - don't conform before renewal reshapes the mind"
+    wikilink: "[[Do not Copy the Pattern]]"
+    reason: "Romans 12:2 refusal - do not conform before renewal reshapes the mind"
   - type: extends
     wikilink: "[[Emotional Regulation]]"
     reason: "Renewed mind buys the gap before the world's script mails the reply"
   - type: extends
     wikilink: "[[Free Grace]]"
-    reason: "Renewal follows salvation - doesn't buy the ticket"
+    reason: "Renewal follows salvation - does not buy the ticket"
   - type: extends
     wikilink: "[[Fruits of the Spirit]]"
     reason: "Renewed mind walks by the Spirit - flesh defaults lose the steering wheel"
   - type: extends
     wikilink: "[[God Centered Design]]"
-    reason: "Don't conform life to culture's design defaults - God's glory orders the aim"
+    reason: "Do not conform life to culture's design defaults - God's glory orders the aim"
   - type: extends
     wikilink: "[[Grateful Obedience]]"
     reason: "Romans 12:1-2 pair - living sacrifice flows from a mind being renewed"
   - type: extends
     wikilink: "[[Growth Mindset]]"
-    reason: "Mind can change - world's fixed labels aren't the verdict"
+    reason: "Mind can change - world's fixed labels are not the verdict"
   - type: extends
     wikilink: "[[Habit Formation]]"
     reason: "New thought patterns through repeated reps - Scripture before inbox"
@@ -100,7 +100,7 @@ relationships:
     reason: "Curate feeds that shape thinking - diet cuts noise, renewal feeds truth"
   - type: extends
     wikilink: "[[Justification]]"
-    reason: "Declared righteous first; mind renewal second - don't swap the order"
+    reason: "Declared righteous first; mind renewal second - do not swap the order"
   - type: extends
     wikilink: "[[Love God]]"
     reason: "Mind is one quarter of whole-person devotion - heart, soul, mind, strength"
@@ -130,7 +130,7 @@ relationships:
     reason: "Filter what enters the mind - kingdom signal before culture noise"
   - type: extends
     wikilink: "[[Standing vs Fellowship]]"
-    reason: "Fruitless week doesn't mean standing revoked - keep renewing, keep abiding"
+    reason: "Fruitless week does not mean standing revoked - keep renewing, keep abiding"
   - type: extends
     wikilink: "[[Take Up Your Cross]]"
     reason: "Choosing God's will over self-will - Romans 12:2 names the outcome renewal enables"
@@ -158,7 +158,7 @@ cards:
     back: "Scripture before the feed."
   - front: "Trying to discern God's will while my mind is full of culture's noise. One step before deciding?"
     back: "Renew first - then test His will."
-  - front: "Treating mind renewal like proof I'm saved. What already settled standing?"
+  - front: "Treating mind renewal like proof I am saved. What already settled standing?"
     back: "Faith at justification - renewal grows after."
 draft: false
 ---

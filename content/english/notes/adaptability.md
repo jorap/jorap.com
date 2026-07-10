@@ -6,7 +6,7 @@ key_concept: |
   - Keep the goal, swap the method when the ground moves.
   - Adaptability swaps the method when conditions shift - same aim, different plan.
   - Adaptability is changing method without losing aim when conditions, tools, or opponents shift.
-  - The tell isn't whether you adapt - it's whether the goal survives the pivot intact.
+  - The tell is not whether you adapt - it is whether the goal survives the pivot intact.
 examples:
   - "Rain canceled our outdoor run and we moved practice to the covered court - same goal of getting reps in, different floor when the weather shifted."
   - "The school bus was late so we walked - same deadline for drop-off, different route when the morning plan broke."
@@ -14,7 +14,7 @@ shareable_thought:
   - "Adaptability swaps the method when conditions shift - same aim, different plan."
   - "Keep the goal, swap the method when the ground moves."
   - "Adaptability is changing method without losing aim when conditions, tools, or opponents shift."
-  - "The tell isn't whether you adapt - it's whether the goal survives the pivot intact."
+  - "The tell is not whether you adapt - it is whether the goal survives the pivot intact."
 relationships:
   - type: contradicts
     wikilink: "[[Let Your Yes Be Yes]]"

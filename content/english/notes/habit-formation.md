@@ -1,9 +1,9 @@
 ---
 title: "Habit Formation"
 meta_title: "Habit Formation - Repeat Until Automatic"
-description: "I repeat one small move until it runs on autopilot instead of re-debating it every morning."
+description: "Repeat one small move until it runs on autopilot instead of re-debating it every morning."
 key_concept: |
-  - The goal isn't motivation - it's making the decision once, so it stops needing to be re-made every single day.
+  - The goal is not motivation - it is making the decision once, so it stops needing to be re-made every single day.
   - I repeat one small move until it runs on autopilot instead of re-debating it every morning.
   - Habit formation is practicing a move until it runs without a daily decision.
   - Thirty reps in, the cue does more work than the willpower ever did.
@@ -12,7 +12,7 @@ examples:
   - "Same door, same notebook, same pocket - after thirty days I stop debating capture; the pad by the keys beat the fancy app I never opened."
 shareable_thought:
   - "I repeat one small move until it runs on autopilot instead of re-debating it every morning."
-  - "The goal isn't motivation - it's making the decision once, so it stops needing to be re-made every single day."
+  - "The goal is not motivation - it is making the decision once, so it stops needing to be re-made every single day."
   - "Habit formation is practicing a move until it runs without a daily decision."
   - "Thirty reps in, the cue does more work than the willpower ever did."
 relationships:
@@ -33,7 +33,7 @@ relationships:
     reason: "Connection rituals are habits with a person's name on them"
   - type: extends
     wikilink: "[[Process Over Outcomes]]"
-    reason: "Trust the loop until it's automatic"
+    reason: "Trust the loop until it is automatic"
   - type: extends
     wikilink: "[[Renewed Mind]]"
     reason: "Scripture-before-inbox reps bend thought defaults"

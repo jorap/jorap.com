@@ -62,7 +62,7 @@ relationships:
     reason: "Well done repays faithful use - not the entry fee"
   - type: extends
     wikilink: "[[Treasure in Heaven]]"
-    reason: "Repayment language - store where moth and rust don't reach"
+    reason: "Repayment language - store where moth and rust do not reach"
 slug: "eternal-rewards"
 date: "2026-06-20 08:00:00+00:00"
 image: "/images/note.jpg"
@@ -80,7 +80,7 @@ cards:
     back: "Grace saved first - reward follows faithfulness."
   - front: "Stacked service feels like merit ladder to eternal life. What's the error?"
     back: "Gift first - repayment second."
-  - front: "Hidden generosity no one saw - discouraged it doesn't count. Who sees?"
+  - front: "Hidden generosity no one saw - discouraged it does not count. Who sees?"
     back: "Father sees hidden - he'll repay."
   - front: "One heroic volunteer week mistaken for down payment on heaven. What's true?"
     back: "Saved by faith - rewards after."

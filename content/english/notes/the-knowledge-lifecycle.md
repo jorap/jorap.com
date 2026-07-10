@@ -1,12 +1,12 @@
 ---
 title: "The Knowledge Lifecycle"
 meta_title: "The Knowledge Lifecycle - From Spark to Archive"
-description: "Ideas move through capture, use, polish, fade, and archive in my vault - I match effort to the stage."
+description: "Ideas move through capture, use, polish, fade, and archive - match effort to the stage."
 key_concept: |
   - Ideas move through capture, use, polish, fade, and archive - spend effort where the idea actually is.
   - Ideas move through capture, use, polish, fade, and archive in my vault.
   - I match effort to the stage an idea is in, not the stage I wish it were.
-  - Spend effort on polish only when an idea is in reuse - not when it's still a raw capture.
+  - Spend effort on polish only when an idea is in reuse - not when it is still a raw capture.
 examples:
   - "The new set play lives in \"learning\" for three weeks, graduates to \"game plan,\" then gets archived when we change offense."
   - "The school FAQ note started as a fleeting capture, got updated all semester, then moved to archive when the kid changed schools."
@@ -14,7 +14,7 @@ shareable_thought:
   - "Ideas move through capture, use, polish, fade, and archive in my vault."
   - "I match effort to the stage."
   - "Spend effort where the idea actually is."
-  - "Spend effort on polish only when an idea is in reuse - not when it's still a raw capture."
+  - "Spend effort on polish only when an idea is in reuse - not when it is still a raw capture."
 relationships:
   - type: contradicts
     wikilink: "[[Evergreen Notes]]"
@@ -36,7 +36,7 @@ featured: false
 review: true
 card_sets: ["Focus", "Review"]
 cards:
-  - front: "New note just landed - not sure if it's fleeting or evergreen yet."
+  - front: "New note just landed - not sure if it is fleeting or evergreen yet."
     back: "Match effort to where it actually sits."
   - front: "New set play's in 'learning' folder - three weeks till game plan."
     back: "Graduate when game-ready - archive when offense changes."

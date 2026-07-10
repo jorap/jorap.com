@@ -1,18 +1,18 @@
 ---
 title: "Read Later Queue"
 meta_title: "Read Later Queue"
-description: "Save for later is fine until the queue turns into a guilt pile I'll never touch."
+description: "Save for later is fine until the queue turns into a guilt pile never touched."
 key_concept: |
-  - A parking lot for links you'll process later - dangerous if it becomes a graveyard.
+  - A parking lot for links you will process later - dangerous if it becomes a graveyard.
   - Save-for-later is capture with a trap door - without a weekly drain it becomes guilt storage.
   - [[The Collector's Fallacy]] names hoarding; [[The Trusted Inbox]] is the drain that saves the queue.
-  - Save for later is fine until the queue turns into a guilt pile I'll never touch.
+  - Save for later is fine until the queue turns into a guilt pile I will never touch.
 examples:
   - "I saved forty highlight reels and watched twelve - the queue was guilt storage, not training."
-  - "Four hundred saved articles on my phone and I'd read twelve - parking lot, not reading."
+  - "Four hundred saved articles on my phone and I would read twelve - parking lot, not reading."
 shareable_thought:
-  - "Save for later is fine until the queue turns into a guilt pile I'll never touch."
-  - "A parking lot for links you'll process later."
+  - "Save for later is fine until the queue turns into a guilt pile I will never touch."
+  - "A parking lot for links you will process later."
   - "Dangerous if it becomes a graveyard."
   - "Save-for-later is capture with a trap door."
 relationships:
@@ -39,7 +39,7 @@ cards:
     back: "Parking lot - drain weekly."
   - front: "Forty parenting threads bookmarked, three acted on. What's the move?"
     back: "Cut the graveyard - process or delete."
-  - front: "Phone read-later count hit four hundred - I've opened twelve. What's the trap?"
+  - front: "Phone read-later count hit four hundred - I have opened twelve. What's the trap?"
     back: "Parking lot - drain weekly."
   - front: "Read-later count climbing again Sunday night. What's the move?"
     back: "Empty the queue - inbox drain."

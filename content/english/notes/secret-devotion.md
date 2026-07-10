@@ -1,25 +1,25 @@
 ---
 title: "Secret Devotion"
 meta_title: "Secret Devotion - For the Father's Eyes Alone"
-description: "I give, pray, and fast for God to see - not for applause in the group chat."
+description: "Give, pray, and fast for God to see - not for applause in the group chat."
 key_concept: |
   {{< bible ref="Matthew 6:1-18" emphasize="6" >}}
   - Piety for an audience is its own reward - give, pray, fast for the Father who sees in secret.
-  - Some good shines publicly; some stays hidden so the left hand doesn't know what the right is doing.
+  - Some good shines publicly; some stays hidden so the left hand does not know what the right is doing.
   - Jesus brackets the [[Ask Seek Knock]] with the same warning: religious performance for an audience is its own reward.
   - Secret devotion pairs with [[Ask Seek Knock]] - how to pray.
   - It contrasts [[Let Your Light Shine]] - some good works shine publicly for God's glory.
-  - Other devotion stays hidden so the left hand doesn't know what the right is doing.
-  - [[Free Grace]] means I'm not earning visibility points with God.
+  - Other devotion stays hidden so the left hand does not know what the right is doing.
+  - [[Free Grace]] means I am not earning visibility points with God.
   - I give, pray, and fast for God to see - not for applause in the group chat.
 examples:
-  - "I pray with the kids before bed with the door closed - no photo, no caption, just the Father who already knows we're here."
-  - "The player doesn't live-stream her 5 a.m. shootarounds for applause - she trains because the game is the point, not the Strava badge."
+  - "I pray with the kids before bed with the door closed - no photo, no caption, just the Father who already knows we are here."
+  - "The player trains at five am without live-streaming shootarounds - the game is the point, not the Strava badge."
 shareable_thought:
   - "I give, pray, and fast for God to see - not for applause in the group chat."
-  - "Some good shines publicly; some stays hidden so the left hand doesn't know what the right is doing."
+  - "Some good shines publicly; some stays hidden so the left hand does not know what the right is doing."
   - "Secret devotion pairs with Ask Seek Knock (how to pray) and contrasts Let Your Light Shine."
-  - "Some good works shine publicly for God's glory other devotion stays hidden so the left hand doesn't know what the right is doing."
+  - "Some good works shine publicly for God's glory other devotion stays hidden so the left hand does not know what the right is doing."
 relationships:
   - type: alternative
     wikilink: "[[Let Your Light Shine]]"
@@ -32,7 +32,7 @@ relationships:
     reason: "Secret give-pray-fast pairs with how Jesus taught us to pray - devotion for God's eyes, not the crowd"
   - type: extends
     wikilink: "[[Free Grace]]"
-    reason: "Hidden prayer isn't the price of grace - response from gift received"
+    reason: "Hidden prayer is not the price of grace - response from gift received"
   - type: extends
     wikilink: "[[Success is Stewardship]]"
     reason: "Hidden faithful use - steward without applause"
@@ -53,7 +53,7 @@ cards:
     back: "Give in secret - Father who sees repays."
   - front: "Prayer crafted for how it sounds out loud at dinner. One fix?"
     back: "Pray in secret - real audience is Father."
-  - front: "Fasting but making sure people notice I'm suffering. What's the move?"
+  - front: "Fasting but making sure people notice I am suffering. What's the move?"
     back: "Fast in secret - wash face, live normal."
   - front: "Every piety act becoming content for applause. Which lane?"
     back: "Hidden devotion - not content for applause."

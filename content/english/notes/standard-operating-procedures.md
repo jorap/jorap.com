@@ -1,12 +1,12 @@
 ---
 title: "Standard Operating Procedures"
 meta_title: "Standard Operating Procedures - Written Defaults the Team Can Run"
-description: "I write short steps for deploys and incidents so nobody has to improvise when the clock is loud."
+description: "Short written steps for deploys and incidents so nobody improvises when the clock is loud."
 key_concept: |
   - SOPs are simple written steps for recurring work - so nobody improvises under stress.
   - I write short steps for deploys and incidents so nobody has to improvise when the clock is loud.
   - Written steps beat improvisation when stress shrinks working memory.
-  - The checklist isn't an insult to competence - it's what competence looks like when adrenaline is running the show.
+  - The checklist is not an insult to competence - it is what competence looks like when adrenaline is running the show.
 examples:
   - "The closing routine after every match - ice, tape, log the injury - lives on the locker-room whiteboard so nobody improvises when everyone's exhausted."
   - "The building guard walks the posted evacuation route he practiced on quiet shifts - written steps when the alarm trips loud."
@@ -14,11 +14,11 @@ shareable_thought:
   - "I write short steps for deploys and incidents so nobody has to improvise when the clock is loud."
   - "SOPs are simple written steps for recurring work - so nobody improvises under stress."
   - "Written steps beat improvisation when stress shrinks working memory."
-  - "The checklist isn't an insult to competence - it's what competence looks like when adrenaline is running the show."
+  - "The checklist is not an insult to competence - it is what competence looks like when adrenaline is running the show."
 relationships:
   - type: contradicts
     wikilink: "[[Adaptability]]"
-    reason: "when the script can't handle the novel case the runbook never saw"
+    reason: "when the script cannot handle the novel case the runbook never saw"
   - type: extends
     wikilink: "[[Build a Reliable Default]]"
     reason: "SOPs are shared defaults"
@@ -50,8 +50,8 @@ card_sets: ["Focus", "Review"]
 cards:
   - front: "Match just ended, everyone's gassed, and ice hasn't hit yet. What's the move?"
     back: "Run the posted close - ice, tape, log."
-  - front: "Restaurant door unlocks at eleven and I'm opening solo."
-    back: "Clipboard checklist - don't improvise."
+  - front: "Restaurant door unlocks at eleven and I am opening solo."
+    back: "Clipboard checklist - do not improvise."
 draft: false
 ---
 

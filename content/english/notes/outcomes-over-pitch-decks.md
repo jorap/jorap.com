@@ -3,13 +3,15 @@ title: "Outcomes Over Pitch Decks"
 meta_title: "Outcomes Over Pitch Decks - Judge Ideas by Fruit"
 description: "Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura."
 key_concept: |
+  {{< bible "Matthew 7:16-20" >}}
+  - Judge vendors and champions by fruit over time, not slide polish or LinkedIn aura.
   - Smooth talkers ship thorns sometimes.
   - I look at downstream stress, turnover, delivery, and whether the team got healthier or more brittle.
-  - On [[Static Site Client Scope]], same filter: pick WordPress or Shopify when the fruit requires it - don't sell [[Free Tier Hosting Stack]] because it's my favorite hammer.
-  - Don't condemn souls; do read the fruit.
+  - On [[Static Site Client Scope]], same filter: pick WordPress or Shopify when the fruit requires it - do not sell [[Free Tier Hosting Stack]] because it is my favorite hammer.
+  - do not condemn souls; do read the fruit.
   - Gospel source: [[By Their Fruits]].
   - PKM parallel: [[Signal vs Noise]].
-  - Don't condemn souls; do read the fruit over time.
+  - do not condemn souls; do read the fruit over time.
   - Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura.
 examples:
   - "The trainer's Instagram was polished - I asked two parents who finished the program about injuries and consistency."
@@ -18,14 +20,14 @@ shareable_thought:
   - "Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura."
   - "Smooth talkers ship thorns sometimes."
   - "I look at downstream stress, turnover, delivery, and whether the team got healthier or more brittle."
-  - "Don't condemn souls; do read the fruit."
+  - "do not condemn souls; do read the fruit."
 relationships:
   - type: contradicts
     wikilink: "[[Life Before Achievement]]"
     reason: "when judging by results would excuse lethal methods that \"worked\""
   - type: contradicts
     wikilink: "[[Signal vs Noise]]"
-    reason: "when I can't tell a slick pitch from real signal"
+    reason: "when I cannot tell a slick pitch from real signal"
   - type: extends
     wikilink: "[[By Their Fruits]]"
     reason: "Discern teaching and leaders by outcome, not charisma"

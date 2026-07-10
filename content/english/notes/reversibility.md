@@ -7,7 +7,7 @@ key_concept: |
   - Prefer choices you can undo.
   - Irreversible harm needs a higher bar.
   - Staged Rollout names small blast radius makes undo cheap.
-  - Reversibility means irreversible harm needs a higher bar before I commit - undo when I can, slow down when I can't.
+  - Reversibility means irreversible harm needs a higher bar before I commit - undo when I can, slow down when I cannot.
 examples:
   - "I took the longer route with an exit every mile before trying the new shortcut through construction."
   - "Try the new play in scrimmage before running it in the championship - reversible rehearsal, higher bar for the irreversible call."
@@ -25,7 +25,7 @@ relationships:
     reason: "Undo path is part of a good decision, not an afterthought"
   - type: extends
     wikilink: "[[Life Before Achievement]]"
-    reason: "Irreversible bets shouldn't outrank people"
+    reason: "Irreversible bets should not outrank people"
   - type: extends
     wikilink: "[[Rollback Principle]]"
     reason: "Concrete undo path when the choice is a deploy or release"

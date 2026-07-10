@@ -1,20 +1,21 @@
 ---
 title: "Digital Serendipity"
 meta_title: "Digital Serendipity - Stumbling on Your Own Ideas"
-description: "Old notes surprise me on schedule because I linked them on purpose, not because I got lucky."
+description: "Old notes surprise on schedule because links were made on purpose, not by luck."
 key_concept: |
-  - Serendipity isn't luck for me - I build systems where old notes resurface at the right time.
-  - Old notes surprise me on schedule because I linked them on purpose, not because I got lucky.
-  - I link notes on purpose so forgotten ideas surprise me when a new problem rhymes.
-  - A walkable graph beats hoping I'll remember the right filename.
+  - Serendipity is not luck - it is systems where old notes resurface at the right time.
+
+  - Old notes surprise on schedule because they were linked on purpose, not because someone got lucky.
+  - Link notes on purpose so forgotten ideas surprise when a new problem rhymes.
+  - A walkable graph beats hoping you will remember the right filename.
 examples:
-  - "Random note resurfaced a wikilink I'd forgotten - led to a blog post I'd stalled."
-  - "The graph view showed an orphan I'd written two years ago - perfect intro for today's draft."
+  - A random note resurfaced a wikilink I had forgotten - it led to a blog post I had stalled.
+  - "The graph view showed an orphan I had written two years ago - perfect intro for today's draft."
 shareable_thought:
-  - "Old notes surprise me on schedule because I linked them on purpose, not because I got lucky."
-  - "Serendipity isn't luck for me - I build systems where old notes resurface at the right time."
-  - "I link notes on purpose so forgotten ideas surprise me when a new problem rhymes."
-  - "A walkable graph beats hoping I'll remember the right filename."
+  - Digital serendipity surfaces old notes on schedule because links were built on purpose.
+  - Serendipity is systems, not luck - old notes resurface when links and review do the work.
+  - A walkable graph beats hoping you remember the right filename.
+  - Forgotten ideas surprise when a new problem rhymes with an old note.
 relationships:
   - type: contradicts
     wikilink: "[[Digital Minimalism]]"

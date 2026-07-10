@@ -1,10 +1,10 @@
 ---
 title: "The Narrow Way"
 meta_title: "The Narrow Way - Enter by the Narrow Gate"
-description: "The road to life is narrow and hard - the easy broad path is the one I'd drift onto."
+description: "The road to life is narrow and hard - the easy broad path is the one most drift onto."
 key_concept: |
   {{< bible ref="Matthew 7:13-14" emphasize="14" >}}
-  - Broad road is crowded and easy; narrow gate costs self-rule - few find it, but it's the one Jesus named.
+  - Broad road is crowded and easy; narrow gate costs self-rule - few find it, but it is the one Jesus named.
   
   {{< bible ref="Matthew 7:21" label="Matthew 7:21-23" emphasize="21" >}}
   
@@ -13,15 +13,15 @@ key_concept: |
   - Jesus closes the Sermon on the Mount with a fork: not everyone who says "Lord, Lord" enters - those are false professors who never truly believed, not believers who stumbled - [[Loss of Reward]] may apply, but they stay saved.
   - [[Discipleship]] on the narrow path is costly - cross-bearing, enemy-love, truth-telling - but distinct from how eternal life is received: free, by faith, through grace.
   - The road to life is narrow and hard.
-  - The easy broad path is the one I'd drift onto.
-  - The narrow way warns the road to life is narrow and hard - few find it, but it's the one Jesus named.
+  - The easy broad path is the one I would drift onto.
+  - The narrow way warns the road to life is narrow and hard - few find it, but it is the one Jesus named.
   - Enter by the narrow gate - few find it because it costs self-rule, not because God hides the door.
 examples:
   - "Group chat gossip was \"just joking\" - narrow way was not forwarding the screenshot even when staying out made me the odd one."
-  - "Everyone cheered the dirty play that won - the narrow way was passing it up when the ref didn't see, even alone on the bench."
+  - "Everyone cheered the dirty play that won - the narrow way was passing it up when the ref did not see, even alone on the bench."
 shareable_thought:
   - "The road to life is narrow and hard."
-  - "The easy broad path is the one I'd drift onto."
+  - "The easy broad path is the one I would drift onto."
   - "Jesus closes the Sermon on the Mount with a fork: not everyone who says \"Lord, Lord\" enters."
   - "Those are false professors who never truly believed, not believers who stumbled."
 relationships:
@@ -54,12 +54,12 @@ cards:
     back: "Not everyone who says Lord enters - do his words."
   - front: "Cross feels optional because grace saved me. What's still costly?"
     back: "Daily following - not the salvation price."
-  - front: "Broad road tempting because it's crowded and easy. One move?"
+  - front: "Broad road tempting because it is crowded and easy. One move?"
     back: "Pick narrow - even if few find it."
   - front: "Moral performance as salvation ticket. Which road is that?"
     back: "Broad earning-your-way road - not the grace gate."
   - front: "Tempted to skip hard obedience because everyone's comfortable. Who moves first?"
-    back: "I take narrow - don't follow the crowd."
+    back: "I take narrow - do not follow the crowd."
 draft: false
 ---
 

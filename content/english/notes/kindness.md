@@ -4,12 +4,12 @@ meta_title: "Kindness - Tender Regard the Spirit Grows"
 description: "Tender regard the Spirit grows for the person in front of you - not polite distance or performance niceness."
 key_concept: |
   {{< bible "Galatians 5:22-23" >}}
-  - [[Fruits of the Spirit]] names kindness beside goodness - soft strength toward actual people, not a generic nice-guy pose.
-  - [[Mercy]] is the garden echo: compassion on the guilty, act for the hurt person, release the debt you're counting because the King cleared yours.
+  - Fruits of the Spirit names kindness beside goodness - soft strength toward actual people, not a generic nice-guy pose.
+  - [[Mercy]] is the garden echo: compassion on the guilty, act for the hurt person, release the debt you are counting because the King cleared yours.
   - [[Love Your Neighbor]] and [[The Golden Rule]] turn kindness outward - tender regard for the person in front, not performance niceness for an audience.
   - Tender regard the Spirit grows for the person in front of you - not polite distance or performance niceness.
 examples:
-  - "The parent I'd rather avoid sits on my side every game - kindness fruit was moving my chair over and asking how his kid's ankle was healing."
+  - "The parent I would rather avoid sits on my side every game - kindness fruit was moving my chair over and asking how his kid's ankle was healing."
   - "I was polite in the office and sharp with my family at dinner - Galatians kindness is tender regard at home too, not performance for an audience."
 shareable_thought:
   - "Tender regard the Spirit grows for the person in front of you - not polite distance or performance niceness."
@@ -25,7 +25,7 @@ relationships:
     reason: "Galatians names kindness in the Spirit-grown cluster"
   - type: extends
     wikilink: "[[Love Your Enemies]]"
-    reason: "Kindness fruit when it's hard - bless persecutors"
+    reason: "Kindness fruit when it is hard - bless persecutors"
   - type: extends
     wikilink: "[[Love Your Neighbor]]"
     reason: "Kindness fruit outward - second commandment pair"
@@ -37,7 +37,7 @@ relationships:
     reason: "Merciful obtain mercy - kindness Jesus blessed"
   - type: extends
     wikilink: "[[The Golden Rule]]"
-    reason: "Tender regard I'd want if roles reversed"
+    reason: "Tender regard I would want if roles reversed"
 slug: "kindness"
 date: "2026-07-01 21:00:00+08:00"
 image: "/images/note.jpg"

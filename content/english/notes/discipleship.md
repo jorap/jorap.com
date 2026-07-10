@@ -4,21 +4,15 @@ meta_title: "Discipleship - Following Jesus After Faith"
 description: "Discipleship is following Jesus daily - learning and doing what He said after faith, not buying eternal life."
 key_concept: |
   {{< bible ref="Luke 9:23-24" emphasize="23" >}}
+  - Discipleship is following Jesus daily - learning and doing what He said after faith, not buying eternal life.
+
   - Daily cross - deny self and follow after faith, not to buy heaven but because grace already saved.
   - Under [[Free Grace]], discipleship is [[Grateful Obedience]] - grateful response, not payment.
-  - [[Sanctification]] is the slow becoming that walk produces.
-  - [[Fruits of the Spirit]] is what people see when the walk is real.
-  - Love, patience, gentleness, and the rest - grown by the Spirit, not performed for credit.
-  - Lazy seasons may mean [[Loss of Reward]] at the [[Judgment Seat]] - they don't un-save you.
-  - [[Repent and Believe]] opens the door.
-  - [[Take Up Your Cross]], [[The Narrow Way]], and [[The Wise Builder]] name what the road feels like - costly, narrow, built on hearing and doing.
+  - [[Sanctification]] is the slow becoming that walk produces; [[Fruits of the Spirit]] is what people see when the walk is real.
   - [[Great Commission]] pushes it outward: truth passed on, not hoarded like bookmarks.
-  - PKM mirror: [[Creative Output]] - notes mean little if hearing never becomes doing.
-  - Discipleship is following Jesus daily.
-  - Learning and doing what He said after faith, not buying eternal life.
 examples:
-  - "I knew the basketball handbook cold and still yelled at the ref - discipleship isn't memorizing policy, it's doing what the coach actually taught today."
-  - "I taught my kid the memory verse and still snapped over spilled milk - discipleship isn't a badge from one emotional Sunday, it's doing what Jesus said today."
+  - I knew the basketball handbook cold and still yelled at the ref - discipleship is not memorizing policy, it is doing what the coach actually taught today.
+  - I taught my kid the memory verse and still snapped over spilled milk - discipleship is not a badge from one emotional Sunday, it is doing what Jesus said today.
 shareable_thought:
   - "Discipleship is following Jesus daily."
   - "Learning and doing what He said after faith, not buying eternal life."
@@ -30,7 +24,7 @@ relationships:
     reason: "when I hoard teaching without obeying or sharing"
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"
-    reason: "when I delay following until I've fixed myself"
+    reason: when you delay following until you have fixed yourself
   - type: extends
     wikilink: "[[Christlikeness]]"
     reason: "Daily following produces His likeness over ordinary Tuesdays"
@@ -45,7 +39,7 @@ relationships:
     reason: "Daily following is where faithfulness shows up"
   - type: extends
     wikilink: "[[Free Grace]]"
-    reason: "Following is the grateful walk after faith saves - obedience doesn't buy eternal life"
+    reason: Following is the grateful walk after faith saves - obedience does not buy eternal life
   - type: extends
     wikilink: "[[Fruits of the Spirit]]"
     reason: "Daily following is where love, patience, and gentleness show up"

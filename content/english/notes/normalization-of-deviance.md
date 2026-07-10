@@ -4,17 +4,17 @@ meta_title: "Normalization of Deviance"
 description: "Repeated close calls slowly redefine 'normal' until disaster feels surprising but was predictable."
 key_concept: |
   - The third unchallenged shortcut is the warning - not the accident that finally forces a meeting.
-  - [[Heed Every Near-Miss]] logs each close call; [[Blameless After-Action Review]] when "nobody died" can't end the talk.
+  - [[Heed Every Near-Miss]] logs each close call; [[Blameless After-Action Review]] when "nobody died" cannot end the talk.
   - Repeated close calls slowly redefine 'normal' until disaster feels surprising but was predictable.
-  - By the fourth or fifth time, the shortcut isn't even a decision anymore - it's just how things are done here.
+  - By the fourth or fifth time, the shortcut is not even a decision anymore - it is just how things are done here.
 examples:
   - "Third time someone ran the red light in the parking lot and nobody wrote it up - until the fender bender."
   - "Third time we let the ladder stay on the stairs and nobody moved it - until someone tripped carrying laundry."
 shareable_thought:
   - "Repeated close calls slowly redefine 'normal' until disaster feels surprising but was predictable."
   - "The third unchallenged shortcut is the warning - not the accident that finally forces a meeting."
-  - "Heed Every Near-Miss logs each close call; Blameless After-Action Review when \"nobody died\" can't end the talk."
-  - "By the fourth or fifth time, the shortcut isn't even a decision anymore - it's just how things are done here."
+  - "Heed Every Near-Miss logs each close call; Blameless After-Action Review when \"nobody died\" cannot end the talk."
+  - "By the fourth or fifth time, the shortcut is not even a decision anymore - it is just how things are done here."
 relationships:
   - type: contradicts
     wikilink: "[[Blameless After-Action Review]]"
@@ -38,11 +38,11 @@ cards:
   - front: "Third time I rolled through the stop sign at dawn and nobody honked. What's the warning?"
     back: "Stop now - third shortcut sticks."
   - front: "Third time someone skipped helmet strap in warmups and nobody called it. What's the warning?"
-    back: "Call it now - don't wait for collision."
+    back: "Call it now - do not wait for collision."
   - front: "Third time someone ran the red light in the parking lot and nobody wrote it up. Move?"
     back: "Write it up - third time is the alarm."
   - front: "Third time the ladder stayed on the stairs and nobody moved it. Move?"
-    back: "Move it now - don't wait for the trip."
+    back: "Move it now - do not wait for the trip."
 draft: false
 ---
 

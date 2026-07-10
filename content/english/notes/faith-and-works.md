@@ -1,28 +1,23 @@
 ---
 title: "Faith and Works"
 meta_title: "Faith and Works - Saved by Faith, Shown by Action"
-description: "Faith alone saves me - works show it's alive, they don't buy heaven."
+description: Faith alone saves; works show faith is alive, they do not buy heaven.
 key_concept: |
   {{< bible ref="Matthew 7:24" label="Matthew 7:24-27" emphasize="24" >}}
+  - Faith alone saves; works show faith is alive, they do not buy heaven.
+
   - Hear Jesus and do - rock stands in the storm; hearing alone is sand.
-  - Paul and James aren't two gospels fighting.
-  - Paul answers *how* I'm saved: trust Christ, not wages.
-  - James answers *what* living faith looks like: Abraham offered Isaac - faith already counted him righteous, then action proved it.
+  - Paul answers how you are saved: trust Christ, not wages.
+  - James answers what living faith looks like: Abraham offered Isaac - faith already counted him righteous, then action proved it.
   - [[Grateful Obedience]] names the motive: works prove faith alive because grace already saved, not to buy heaven.
-  - [[Justification]] is the verdict at faith.
-  - [[Sanctification]] and [[Discipleship]] are the walk where works appear.
-  - [[The Wise Builder]] is the picture: hear Jesus and do - sand collapses when hearing never becomes action.
-  - [[The Narrow Way]] and [[Loss of Reward]] split false "Lord, Lord" (never believed) from a believer who stumbles, repents, and may lose reward but stays saved.
-  - Faith alone saves me - good works follow, they never buy the ticket.
-  - Works show it's alive, they don't buy heaven.
 examples:
-  - "A coworker quoted James like you need faith plus works to get in - one sentence: works prove faith is real; they don't buy the door Christ already opened."
-  - "Confident I'm saved but the same selfish pattern untouched - James isn't saying try harder to earn heaven; he's asking where the fruit is."
+  - "A coworker quoted James like you need faith plus works to get in - one sentence: works prove faith is real; they do not buy the door Christ already opened."
+  - Confident I am saved but the same selfish pattern untouched - James is not saying try harder to earn heaven; he is asking where the fruit is.
 shareable_thought:
-  - "Faith alone saves me."
-  - "Works show it's alive, they don't buy heaven."
-  - "Paul and James aren't two gospels fighting."
-  - "James answers what living faith looks like: Abraham offered Isaac."
+  - Faith alone saves; works show faith is alive, they do not buy heaven.
+  - Paul and James are not two gospels fighting.
+  - Works prove faith is real; they do not buy the door Christ opened.
+  - Hear Jesus and do - sand collapses when hearing never becomes action.
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

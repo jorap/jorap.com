@@ -4,18 +4,18 @@ meta_title: "Notice the Good - Say What You Want to See Again"
 description: "Notice the good means naming the specific helpful move so people know what to repeat."
 key_concept: |
   - "Good job" teaches nothing. "Your rebounds won that scrimmage" teaches the rep.
-  - Specific praise names the behavior I want again - that's how [[Process Over Outcomes]] sounds out loud.
+  - Specific praise names the behavior I want again - that is how [[Process Over Outcomes]] sounds out loud.
   - Vague thanks flatters; spelled-out moves give people something to repeat tomorrow.
   - The stake is reinforcement: praise the scoreboard and the steady process stays invisible.
   - Notice the good means naming the specific helpful move so people know what to repeat.
 examples:
-  - "After practice I told the kid who boxed out every drill: \"Your rebounds won that scrimmage - keep sealing like that.\" He knew exactly what to repeat."
-  - "I emailed the intern: \"You caught the duplicate invoice before I did - that saved us a call.\" Specific beats a generic thanks slide."
+  - "After practice I told the kid who boxed out every drill that his rebounds won the scrimmage and he should keep sealing like that."
+  - "I emailed the intern that catching the duplicate invoice before I did saved us a call - specific beats a generic thanks slide."
 shareable_thought:
   - "Notice the good means naming the specific helpful move so people know what to repeat."
   - "\"Good job\" teaches nothing."
   - "\"Your rebounds won that scrimmage\" teaches the rep."
-  - "Specific praise names the behavior I want again - that's how Process Over Outcomes sounds out loud."
+  - "Specific praise names the behavior I want again - that is how Process Over Outcomes sounds out loud."
 relationships:
   - type: contradicts
     wikilink: "[[Outcomes Over Pitch Decks]]"
@@ -28,7 +28,7 @@ relationships:
     reason: "I reinforce the behavior in the loop, not only the score"
   - type: extends
     wikilink: "[[The Golden Rule]]"
-    reason: "Specific praise is how I'd want to be treated"
+    reason: "Specific praise is how I would want to be treated"
   - type: implements
     wikilink: "[[Follow Their Lead]]"
     reason: "Sometimes the best lead to follow is the good thing they already did"

@@ -8,8 +8,8 @@ key_concept: |
   - I repeat what I heard before I prescribe.
   - Repeating what I heard keeps advice from landing like a correction.
 examples:
-  - "A younger player kept explaining why he missed the free throw - I almost jumped in with form tips. I waited, said back what he thought went wrong, then offered one drill."
-  - "My kid told me about a fight at school - I caught myself lining up a lecture and stopped. \"So he took your pencil and you pushed him\" - then we talked about what to try tomorrow."
+  - "A younger player kept explaining why he missed the free throw - I almost jumped in with form tips."
+  - "My kid told me about a fight at school - I caught myself lining up a lecture and stopped."
 shareable_thought:
   - "Listen before fixing - repeat what you heard, then respond."
   - "Feeling heard comes before being helped."
@@ -33,7 +33,7 @@ relationships:
     reason: "Listening plus watching the real job"
   - type: extends
     wikilink: "[[The Golden Rule]]"
-    reason: "I'd want someone to hear me out before they fixed me"
+    reason: "I would want someone to hear me out before they fixed me"
   - type: implements
     wikilink: "[[Emotional Regulation]]"
     reason: "I hold the urge to interrupt with the answer"

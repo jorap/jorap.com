@@ -6,7 +6,7 @@ key_concept: |
   {{< bible ref="Matthew 28:19-20" emphasize="20" >}}
   - Go, baptize, teach obedience - Christ's authority and presence to the end of the age, not recruitment zeal.
   - Teaching obedience is discipleship after faith - not a works payment for salvation under [[Free Grace]].
-  - PKM parallel: [[Creative Output]] - the gospel isn't fully kept until it's passed on; inventory notes mean nothing if they never leave the garden.
+  - PKM parallel: [[Creative Output]] - the gospel is not fully kept until it is passed on; inventory notes mean nothing if they never leave the garden.
   - Jesus sends believers to go, baptize, and teach obedience under His authority and presence to the end of the age.
   - Go, baptize, teach obedience - under Christ's authority, not recruitment zeal.
 examples:
@@ -38,7 +38,7 @@ relationships:
     reason: "Mission flows from believing the gospel - you teach obedience after faith, not to buy salvation"
   - type: extends
     wikilink: "[[Success is Stewardship]]"
-    reason: "Don't hoard truth - steward by passing it on"
+    reason: "Do not hoard truth - steward by passing it on"
 slug: "great-commission"
 date: "2026-06-19 10:20:00+00:00"
 image: "/images/note.jpg"

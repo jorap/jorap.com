@@ -1,20 +1,20 @@
 ---
 title: "Attention Economy"
 meta_title: "Attention Economy"
-description: "I treat my feed like a slot machine someone else owns - if I'm not paying, I'm the product."
+description: "Platforms sell user attention - guard the feed pipe before optimizing the inbox."
 key_concept: |
   - Platforms compete for your focus - engagement optimized against you still counts as optimization.
-  - Guard the pipe before optimizing the inbox - a tidy inbox for content you shouldn't be consuming is still a loss.
+  - Guard the pipe before optimizing the inbox - a tidy inbox for content you should not be consuming is still a loss.
   - [[Signal vs Noise]] names what to cut; [[Information Diet]] is the weekly menu habit.
   - I treat my feed like a slot machine someone else owns.
-  - If I'm not paying, I'm the product - the feed sells my attention, not the article.
+  - If I am not paying, I am the product - the feed sells my attention, not the article.
   - Platforms compete for your focus - I treat the feed like a slot machine someone else owns.
 examples:
   - "I turned off push alerts before trying a new focus app - the pipe was the leak."
   - "My kid's group chat pinged through homework; airplane mode for forty minutes beat another planner."
 shareable_thought:
   - "I treat my feed like a slot machine someone else owns."
-  - "If I'm not paying, I'm the product."
+  - "If I am not paying, I am the product."
   - "Platforms compete for your focus."
   - "Engagement optimized against you still counts as optimization."
 relationships:
@@ -47,7 +47,7 @@ cards:
     back: "My focus is the product - guard it."
   - front: "Halftime scroll was supposed to be rest but my thumb's on news. What's actually happening?"
     back: "Platforms want my attention, not recovery."
-  - front: "Twenty minutes \"checking news\" and it's all outrage-bait ads. What did I trade?"
+  - front: "Twenty minutes \"checking news\" and it is all outrage-bait ads. What did I trade?"
     back: "My focus for their revenue."
   - front: "Kid's \"educational\" game paused again for a purchase screen. What's it really after?"
     back: "Her attention - not learning."

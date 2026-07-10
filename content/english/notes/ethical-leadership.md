@@ -1,12 +1,13 @@
 ---
 title: "Ethical Leadership"
 meta_title: "Ethical Leadership"
-description: "What I let slide in front of my team becomes their real standard, not what's printed on the poster."
+description: "What gets let slide in front of the team becomes their real standard, not the poster."
 key_concept: |
+  - Ethical leadership means what you let slide in front of the team becomes their real standard.
+
   - The standard you walk past is the standard you accept for everyone under you.
-  - Ethical leadership is integrity the team can see - what you tolerate in the open, not what you preach on the poster.
+  - Integrity the team can see beats what you preach on the poster.
   - Silence in the room is a decision too - people read it as a yes.
-  - What I let slide in front of my team becomes their real standard, not what's printed on the poster.
 examples:
   - "I stopped the backyard wrestling match when someone was about to get hurt - same fun goal, safer path, even though the kids wanted the rougher version."
   - "The coach killed the unsafe trust-fall drill when a safer team exercise achieved the same bonding goal - authority used to protect people, not to win at their expense."
@@ -27,7 +28,7 @@ relationships:
     reason: "How you spend influence - tolerated behavior becomes their standard"
   - type: extends
     wikilink: "[[Life Before Achievement]]"
-    reason: "Walked-past standards shouldn't buy achievement at people's expense"
+    reason: Walked-past standards should not buy achievement at people's expense
   - type: extends
     wikilink: "[[Servant Leadership]]"
     reason: "Serve the team - authority protects, not spectacle"

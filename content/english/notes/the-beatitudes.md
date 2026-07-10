@@ -10,16 +10,16 @@ key_concept: |
   - Jesus flips the scoreboard: the kingdom belongs to the spiritually needy, not the self-sufficient - which fits [[Free Grace]] perfectly.
   - Blessed are the poor in spirit, for theirs is the kingdom of heaven - bankruptcy before God, receiving the kingdom as gift rather than wage. Each line promises reward rooted in character shaped by grace, not self-made righteousness.
   
-  | Trait (NASB) | Promise (NASB) |
-  |--------------|----------------|
-  | Poor in spirit | theirs is the kingdom of heaven |
-  | Those who mourn | they shall be comforted |
-  | The gentle | they shall inherit the earth |
-  | Hunger and thirst for righteousness | they shall be satisfied |
-  | The merciful | they shall receive mercy |
-  | Pure in heart | they shall see God |
-  | [[Peacemakers]] | they shall be called sons of God |
-  | Persecuted for righteousness | theirs is the kingdom of heaven |
+  - | Trait (NASB) | Promise (NASB) |
+  - |--------------|----------------|
+  - | Poor in spirit | theirs is the kingdom of heaven |
+  - | Those who mourn | they shall be comforted |
+  - | The gentle | they shall inherit the earth |
+  - | Hunger and thirst for righteousness | they shall be satisfied |
+  - | The merciful | they shall receive mercy |
+  - | Pure in heart | they shall see God |
+  - | [[Peacemakers]] | they shall be called sons of God |
+  - | Persecuted for righteousness | theirs is the kingdom of heaven |
   
   - Jesus opened the Sermon on the Mount with eight blessings.
   
@@ -29,7 +29,7 @@ key_concept: |
   
   - The Beatitudes fit Free Grace perfectly - kingdom favor is gift, not wages for performance.
 examples:
-  - "A good week at the clinic and I felt like I didn't need much from God - poor in spirit is broke before God, not the worker who nailed Friday's schedule."
+  - "A good week at the clinic and I felt like I did not need much from God - poor in spirit is broke before God, not the worker who nailed Friday's schedule."
   - "After a winning streak I caught myself feeling spiritually self-sufficient - Beatitudes start with poor in spirit, not the athlete who just had a perfect weekend."
 shareable_thought:
   - "Jesus opened the Sermon on the Mount with eight blessings."
@@ -72,12 +72,12 @@ featured: false
 review: true
 card_sets: ["Eternal Principles", "Gospel", "Ethics"]
 cards:
-  - front: "Feeling self-sufficient after a good week. Kingdom posture I'm missing?"
+  - front: "Feeling self-sufficient after a good week. Kingdom posture I am missing?"
     back: "Poor in spirit - receive as gift."
   - front: "Loss hit hard and I want to skip church. What posture did Jesus bless?"
     back: "Mourn - comfort comes to mourners."
-  - front: "Thumb itching to clap back and prove I'm strong. Which beatitude fork?"
-    back: "Meek - don't grasp status."
+  - front: "Thumb itching to clap back and prove I am strong. Which beatitude fork?"
+    back: "Meek - do not grasp status."
   - front: "Scrolling outrage instead of craving what God calls right. What's the blessed hunger?"
     back: "Hunger to do right."
   - front: "Someone who wronged me needs help. First merciful move?"

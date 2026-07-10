@@ -8,11 +8,11 @@ key_concept: |
   - Repentance is a change of mind and direction - not a down payment on salvation.
   - Belief is reliance on Christ's promise, not mere intellectual agreement.
   - Under [[Free Grace]], this pair is how life begins: receive the kingdom as gift, then live under the King's rule in response.
-  - [[There Is No Perfect Solution]] - the kingdom is at hand now, not when you've fixed yourself.
+  - [[There Is No Perfect Solution]] - the kingdom is at hand now, not when you have fixed yourself.
   - Jesus' opening command: turn from self-rule and trust the good news that the kingdom is at hand.
 examples:
-  - "I kept telling myself I'd trust the coach's system once my form looked respectable - repent and believe is the door you walk through today, messy as you are."
-  - "I kept telling myself I'd trust Jesus once my habits looked respectable - it's not a finish line when you're fixed."
+  - "I kept telling myself I would trust the coach's system once my form looked respectable - repent and believe is the door you walk through today, messy as you are."
+  - "I kept telling myself I would trust Jesus once my habits looked respectable - it is not a finish line when you are fixed."
 shareable_thought:
   - "Jesus' opening command: turn from self-rule and trust the good news that the kingdom is at hand."
   - "Repentance is a change of mind and direction - not a down payment on salvation."
@@ -21,7 +21,7 @@ shareable_thought:
 relationships:
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"
-    reason: "when I delay entry until I've fixed myself"
+    reason: "when I delay entry until I have fixed myself"
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Kingdom entry is receive as gift - not earn by fixed habits first"
@@ -41,7 +41,7 @@ card_sets: ["Eternal Principles", "Gospel", "Faith"]
 cards:
   - front: "Delaying faith until my habits improve. When do I enter?"
     back: "Today - by faith, not when fixed."
-  - front: "Someone groveling until they feel good enough for God. One sentence I'd say?"
+  - front: "Someone groveling until they feel good enough for God. One sentence I would say?"
     back: "Turn from self-trust - not earning it."
   - front: "Head agrees with gospel facts but life unchanged. What's missing?"
     back: "Rely on Christ's promise - trust."
@@ -49,7 +49,7 @@ cards:
     back: "Repent/believe receives. Obedience guides after."
   - front: "Same sin again - despair that heaven is lost. What does turning again mean?"
     back: "Fix closeness with God - not re-earn heaven."
-  - front: "Waiting until I'm worthy to enter. What's the entry point?"
+  - front: "Waiting until I am worthy to enter. What's the entry point?"
     back: "Enter by faith today."
 draft: false
 ---

@@ -3,19 +3,19 @@ title: "Rollback Principle"
 meta_title: "Rollback Principle - Undo Before You Push, Revert Before You Debug"
 description: "Restore the last good state before you push - when the new state breaks, revert first, debug second."
 key_concept: |
-  - If I can't explain the path back in one sentence, I'm not ready to ship.
+  - If I cannot explain the path back in one sentence, I am not ready to ship.
   - [[Reversibility]] is the decision frame; rollback is the rehearsed move.
   - Last quarter I kept a bad Friday deploy live because I wanted the milestone more than the rollback conversation.
   - The team needed "my call, here's the fix," not a speech.
   - Restore the last good state before you push.
   - When the new state breaks, revert first, debug second.
 examples:
-  - "Bad Friday deploy - I reverted in standup, said my call, fixed Monday. Users got the old build before lunch; after-action review waited until the site was calm."
-  - "The point guard ran Tuesday's inbound at halftime when the new play bled points - rollback was the drill they'd already walked, not a whiteboard invention."
+  - "Bad Friday deploy - I reverted in standup, said my call, fixed Monday."
+  - "The point guard ran Tuesday's inbound at halftime when the new play bled points - rollback was the drill they would already walked, not a whiteboard invention."
 shareable_thought:
   - "Restore the last good state before you push."
   - "When the new state breaks, revert first, debug second."
-  - "If I can't explain the path back in one sentence, I'm not ready to ship."
+  - "If I cannot explain the path back in one sentence, I am not ready to ship."
   - "Reversibility is the decision frame; rollback is the rehearsed move."
 relationships:
   - type: alternative

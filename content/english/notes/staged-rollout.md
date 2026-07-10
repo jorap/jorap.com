@@ -1,7 +1,7 @@
 ---
 title: "Staged Rollout"
 meta_title: "Staged Rollout - Ship to a Slice Before Everyone Is the Test"
-description: "I ship to a small slice first so rollback stays cheap if the new state bleeds."
+description: "Ship to a small slice first so rollback stays cheap if the new state bleeds."
 key_concept: |
   - Full-blast deploy turns every user into a test subject.
   - Staged rollout - preview branch, one table section, scrimmage Tuesday - keeps [[Reversibility]] real.
@@ -52,7 +52,7 @@ review: true
 card_sets: ["Ethics", "Focus"]
 cards:
   - front: "New layout ready on my branch. What's the deploy move?"
-    back: "Preview branch - rollback doesn't touch production"
+    back: "Preview branch - rollback does not touch production"
   - front: "New inbound play for Friday's game. When do we run it?"
     back: "Scrimmage Tuesday - revert at halftime if it bleeds"
   - front: "New screen-time rule for the whole house. What's the move?"

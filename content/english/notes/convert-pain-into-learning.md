@@ -8,8 +8,8 @@ key_concept: |
   - Stewing without change is just suffering.
   - Convert pain into learning means failure must produce correction, not stewing without change.
 examples:
-  - "I bombed a client presentation and stewed for a week - convert pain into learning was one page: weak transitions, rehearse bridges ten times, cut two slides."
-  - "I missed the turn twice on the new commute - one note on where the sign hides, tested next Monday, stewing on it without change would've just been suffering."
+  - I bombed a client presentation and stewed for a week - convert pain into learning was one page on weak transitions, rehearsed bridges ten times, and two fewer slides.
+  - I missed the turn twice on the new commute - one note on where the sign hides, tested next Monday, because stewing without change would have been just suffering.
 shareable_thought:
   - "Convert pain into learning means failure must produce correction, not stewing without change."
   - "Failure becomes useful only when it produces correction."
@@ -30,7 +30,7 @@ relationships:
     reason: "Each failure feeds the next iteration"
   - type: extends
     wikilink: "[[Deliberate Practice]]"
-    reason: "Target the weak slice, don't just repeat"
+    reason: "Target the weak slice, do not just repeat"
   - type: extends
     wikilink: "[[Failure as Feedback]]"
     reason: "Pain is signal when you listen"

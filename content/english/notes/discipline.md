@@ -1,20 +1,21 @@
 ---
 title: "Discipline"
 meta_title: "Discipline - Doing What You Committed When Motivation Drops"
-description: "I do what I said I'd do when nobody's clapping and motivation walked out."
+description: "Do what was promised when nobody is clapping and motivation walked out."
 key_concept: |
-  - The applause was never reliable fuel to begin with - it shows up for the highlight, not the Tuesday rep.
-  - Nobody claps for the version of you that just does the boring rep anyway.
-  - I do what I said I'd do when nobody's clapping and motivation walked out.
   - Discipline is keeping the commitment when the feeling that started it is gone.
+
+  - The applause was never reliable fuel - it shows up for the highlight, not the Tuesday rep.
+  - Nobody claps for the version of you that just does the boring rep anyway.
+  - Do what you said you would do when motivation walked out.
 examples:
-  - "The baker opens at 4am whether she's inspired or not - discipline is the shift she committed to when motivation wasn't there."
-  - "Discipline is loading the dishwasher when I'd rather scroll - same as brushing teeth when you're already late."
+  - The baker opens at 4am whether she is inspired or not - discipline is the shift she committed to when motivation was not there.
+  - Discipline is loading the dishwasher when I would rather scroll - same as brushing teeth when you are already late.
 shareable_thought:
-  - "I do what I said I'd do when nobody's clapping and motivation walked out."
-  - "The applause was never reliable fuel to begin with."
-  - "It shows up for the highlight, not the Tuesday rep."
-  - "Nobody claps for the version of you that just does the boring rep anyway."
+  - Discipline is doing what you committed when motivation walked out and nobody is clapping.
+  - The applause was never reliable fuel.
+  - It shows up for the highlight, not the Tuesday rep.
+  - Nobody claps for the boring rep you do anyway.
 relationships:
   - type: contradicts
     wikilink: "[[Don't Worry]]"

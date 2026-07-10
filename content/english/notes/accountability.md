@@ -8,8 +8,8 @@ key_concept: |
   - One owner per outcome beats a room where everyone was involved and nobody answers.
   - Name the owner, the miss, and the fix before the conversation ends.
 examples:
-  - "The condo board didn't say \"someone should fix the gate\" - they named a contact and a deadline in the group chat before anyone drove off."
-  - "After a patient mix-up, our charge nurse named who was running the code cart and who was documenting - not \"everyone was involved.\" One owner, one timeline, one honest chart note before the shift ended."
+  - "The condo board did not say \"someone should fix the gate\" - they named a contact and a deadline in the group chat before anyone drove off."
+  - "After a patient mix-up, the charge nurse named who ran the code cart and who documented before the shift ended."
 shareable_thought:
   - "Accountability is naming who owns the result - and what happens when it slips."
   - "Clear ownership - who answers for the outcome, the miss, and the fix."
@@ -46,9 +46,9 @@ card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Gate's broken again and the group chat is drifting into \"someone should handle it.\" One move before anyone leaves?"
     back: "Name one owner and a deadline."
-  - front: "Homework didn't get turned in and we're stuck on \"we forgot.\" Who owns the folder tonight?"
+  - front: "Homework did not get turned in and we are stuck on \"we forgot.\" Who owns the folder tonight?"
     back: "One kid, one job."
-  - front: "I'm coaching and we just lost on a bad inbounds pass - nobody knows who calls the next play. First fix?"
+  - front: "I am coaching and we just lost on a bad inbounds pass - nobody knows who calls the next play. First fix?"
     back: "Name the caller before the next possession."
   - front: "Patient mix-up on shift and the chart's getting vague blame. Who owns the honest note?"
     back: "One owner, one timeline."

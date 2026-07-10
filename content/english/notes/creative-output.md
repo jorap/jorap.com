@@ -10,8 +10,8 @@ key_concept: |
   - The inventory only pays off the day it becomes something someone else can read, hear, or eat.
   - Notes are inventory for me - posts, sermons, and code are the point, not the pile.
 examples:
-  - "Friday film day means everyone shows one clip, rough or not - I do the same with my note pile, three sparks become one finished piece even if the cut is rough."
-  - "We don't wait for perfect dinner photos - we ship the meal and fix the recipe next time; hearing the idea isn't doing it."
+  - Friday film day means everyone shows one clip, rough or not - I do the same with my note pile, three sparks become one finished piece even if the cut is rough.
+  - We do not wait for perfect dinner photos - we ship the meal and fix the recipe next time.
 shareable_thought:
   - "Notes are inventory for me."
   - "Posts, sermons, code, and dinner experiments are the point."
@@ -23,7 +23,7 @@ relationships:
     reason: "Polished ship vs rough MVP when deadline forces cut scope"
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"
-    reason: "when ship pressure makes me skip capture I'd need for the draft"
+    reason: when ship pressure makes you skip capture needed for the draft
   - type: extends
     wikilink: "[[Building a Second Brain]]"
     reason: "Offloaded notes exist to express ideas, not just store inventory"

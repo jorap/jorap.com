@@ -4,7 +4,7 @@ meta_title: "Joy - Gladness the Spirit Grows"
 description: "Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance."
 key_concept: |
   {{< bible "Galatians 5:22-23" >}}
-  - [[Fruits of the Spirit]] names joy beside love and peace in one cluster.
+  - Fruits of the Spirit names joy beside love and peace in one cluster.
   - Joy is grown by walking in the Spirit, not manufactured for credit.
   - Joy is Spirit-grown gladness in believers who rest on Christ's promise - not a good-week performance.
 examples:
@@ -54,7 +54,7 @@ cards:
     back: "Abide first - fruit from connection."
   - front: "Bad week but still His - where does gospel gladness anchor?"
     back: "Christ's promise - not this week's score."
-  - front: "Waiting to feel happy before I trust I'm saved. Wrong order?"
+  - front: "Waiting to feel happy before I trust I am saved. Wrong order?"
     back: "Rest on promise first - gladness follows."
 draft: false
 ---

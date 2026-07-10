@@ -1,21 +1,22 @@
 ---
 title: "Emotional Regulation"
 meta_title: "Emotional Regulation - Feel It Without Being Ruled By It"
-description: "I can feel the spike without letting it pick my next sentence."
+description: "Feel the spike without letting it pick the next sentence."
 key_concept: |
-  - Feel the spike. Don't mail it.
-  - Regulation isn't numbness - it's the gap between heat and the next sentence.
-  - [[Slow the Moment]] buys that gap; [[Name the Feeling]] gives the spike a label before it picks my tone.
-  - The stake is simple: one unchecked reply can feed a thread I didn't mean to start.
-  - I can feel the spike without letting it pick my next sentence.
+  - Emotional regulation feels the spike without letting it pick the next sentence.
+
+  - Feel the spike; do not mail it.
+  - Regulation is not numbness - it is the gap between heat and the next sentence.
+  - [[Slow the Moment]] buys that gap; [[Name the Feeling]] gives the spike a label before it picks tone.
+  - One unchecked reply can feed a thread you did not mean to start.
 examples:
-  - "A customer snapped at the cashier and she kept her voice level - regulation isn't numbness, it's not mailing the first draft."
+  - A customer snapped at the cashier and she kept her voice level - regulation is not numbness, it is not mailing the first draft.
   - "My kid's homework meltdown made my face hot; I took a kitchen walk before I answered."
 shareable_thought:
-  - "I can feel the spike without letting it pick my next sentence."
-  - "Regulation isn't numbness - it's the gap between heat and the next sentence."
-  - "Slow the Moment buys that gap; Name the Feeling gives the spike a label before it picks my tone."
-  - "The stake is simple: one unchecked reply can feed a thread I didn't mean to start."
+  - Emotional regulation feels the spike without letting it pick the next sentence.
+  - Regulation is the gap between heat and the next sentence, not numbness.
+  - Slow the moment and name the feeling before tone gets chosen for you.
+  - One unchecked reply can feed a thread you did not mean to start.
 relationships:
   - type: contradicts
     wikilink: "[[Turn the Other Cheek]]"

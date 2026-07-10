@@ -18,13 +18,13 @@ shareable_thought:
 relationships:
   - type: alternative
     wikilink: "[[Reversibility]]"
-    reason: "Prefer reversible tradeoffs when stakes are high - death isn't reversible"
+    reason: "Prefer reversible tradeoffs when stakes are high - death is not reversible"
   - type: contradicts
     wikilink: "[[Outcomes Over Pitch Decks]]"
     reason: "when judging by results would excuse lethal methods that \"worked\""
   - type: extends
     wikilink: "[[Develop, Don't Endanger]]"
-    reason: "Growth goals don't outrank staying alive"
+    reason: "Growth goals do not outrank staying alive"
   - type: extends
     wikilink: "[[Duty of Care]]"
     reason: "Non-negotiable floor - care of persons beats the scoreboard"
@@ -36,7 +36,7 @@ relationships:
     reason: "The leader who holds the line when the room wants spectacle"
   - type: extends
     wikilink: "[[Workplace Principles]]"
-    reason: "Same ethics lane - plain language for teams that won't open a safety manual"
+    reason: "Same ethics lane - plain language for teams that will not open a safety manual"
 slug: "life-before-achievement"
 date: "2026-06-22 06:00:00+00:00"
 image: "/images/note.jpg"

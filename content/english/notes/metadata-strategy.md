@@ -8,7 +8,7 @@ key_concept: |
   - Metadata earns its keep when I can find the note in ten seconds.
   - Light tags and aliases beat taxonomy hell inside PARA buckets.
 examples:
-  - "I tagged every note with twelve labels and used none on search - cut to five I'd actually pick."
+  - "I tagged every note with twelve labels and used none on search - cut to five I would actually pick."
   - "The team wiki had forty categories; new hires filed everything under Misc within a week."
 shareable_thought:
   - "If tagging a note takes longer than writing it, my system is fighting me."

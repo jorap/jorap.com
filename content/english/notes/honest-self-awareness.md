@@ -1,22 +1,22 @@
 ---
 title: "Honest Self-Awareness"
 meta_title: "Honest Self-Awareness - Name Reality Before You Change It"
-description: "I name strengths, gaps, and limits plainly - change targets stay realistic."
+description: "Name strengths, gaps, and limits plainly so change targets stay realistic."
 key_concept: |
   - Transformation built on fantasy breaks on contact with Tuesday.
-  - Honest self-awareness is a plain inventory - what I'm good at, what I'm avoiding, what I can't carry this quarter - before I promise the room a new person.
+  - Honest self-awareness is a plain inventory - what I am good at, what I am avoiding, what I cannot carry this quarter - before I promise the room a new person.
   - [[Growth Mindset]] needs this floor: misses are data only if I admit the miss happened.
-  - Acceptance isn't quitting; it's choosing targets that match the real starting line.
+  - Acceptance is not quitting; it is choosing targets that match the real starting line.
   - I name strengths, gaps, and limits plainly.
   - Change targets stay realistic.
 examples:
-  - "I told the coach I can't guard the quick point yet - honest self-awareness meant drills on foot speed, not pretending I'd magically lock him up game night."
-  - "The capture system failed because I kept pretending I'd review fifty notes a week - honest self-awareness was ten minutes on the jeepney, not another app I'd abandon."
+  - "I told the coach I cannot guard the quick point yet - honest self-awareness meant drills on foot speed, not pretending I would magically lock him up game night."
+  - "The capture system failed because I kept pretending I would review fifty notes a week - honest self-awareness was ten minutes on the jeepney, not another app I would abandon."
 shareable_thought:
   - "I name strengths, gaps, and limits plainly - change targets stay realistic."
   - "Transformation built on fantasy breaks on contact with Tuesday."
   - "Honest self-awareness is a plain inventory."
-  - "What I'm good at, what I'm avoiding, what I can't carry this quarter - before I promise the room a new person."
+  - "What I am good at, what I am avoiding, what I cannot carry this quarter - before I promise the room a new person."
 relationships:
   - type: contradicts
     wikilink: "[[Growth Mindset]]"

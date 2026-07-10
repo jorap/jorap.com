@@ -1,30 +1,30 @@
 ---
 title: "Build a Reliable Default"
 meta_title: "Build a Reliable Default - What You Do When There's No Time"
-description: "A reliable default is the simple rehearsed move I run when thinking is thin."
+description: "A reliable default is the simple rehearsed move that runs when thinking is thin."
 key_concept: |
-  - Make that fallback a simple, dependable response - rehearsed enough to run when thinking is thin.
-  - Build it before the crisis, not during it - a default assembled mid-emergency isn't a default.
+  - A reliable default is the simple rehearsed move that runs when thinking is thin.
+
+  - Build it before the crisis, not during it - a default assembled mid-emergency is not a default.
   - The rehearsed move beats improvising when the clock is loud.
-  - A reliable default is the simple rehearsed move I run when thinking is thin.
 examples:
-  - "The clinic front desk doesn't make up triage order when three walk-ins arrive - they run the laminated sheet taped by the phone. One script, no guessing."
-  - "Our family fire plan is one page on the fridge: two exits, where we meet, who grabs the baby. Last blackout, my kid ran it half-asleep and nobody guessed."
+  - The clinic front desk runs the laminated triage sheet taped by the phone when three walk-ins arrive - one script, no guessing.
+  - "Our family fire plan is one fridge page: two exits, meeting spot, who grabs the baby - last blackout, my kid ran it half-asleep."
 shareable_thought:
-  - "A reliable default is the simple rehearsed move I run when thinking is thin."
-  - "Make that fallback a simple, dependable response."
-  - "Rehearsed enough to run when thinking is thin."
-  - "Build it before the crisis, not during it."
+  - A reliable default is the simple rehearsed move that runs when thinking is thin.
+  - Build the fallback before the crisis, not during it.
+  - Rehearse enough that the move runs when the clock is loud.
+  - The room reads calm when the script is already decided.
 relationships:
   - type: contradicts
     wikilink: "[[First Principles Thinking]]"
     reason: "when the script blocks a novel fix the runbook never covered"
   - type: extends
     wikilink: "[[Capture]]"
-    reason: "Default capture pipe when the fancy workflow isn't available"
+    reason: Default capture pipe when the fancy workflow is not available
   - type: extends
     wikilink: "[[Habit Formation]]"
-    reason: "Defaults are habits drilled until they're automatic"
+    reason: Defaults are habits drilled until they are automatic
   - type: extends
     wikilink: "[[Preparedness]]"
     reason: "Rehearse before the emergency owns the clock"

@@ -1,22 +1,22 @@
 ---
 title: "The Trusted Inbox"
-meta_title: "The Trusted Inbox - One Place I'll Actually Empty"
-description: "One capture pipe I empty every week - if I don't trust it, I hoard ideas in my head instead."
+meta_title: "The Trusted Inbox - One Place I will Actually Empty"
+description: "One capture pipe emptied every week - without trust, ideas hoard in the head instead."
 key_concept: |
-  - If I don't trust my inbox, I capture in my head instead. One pipe, weekly empty, no exceptions.
-  - An inbox I don't empty becomes a junk drawer I stop using.
+  - If I do not trust my inbox, I capture in my head instead. One pipe, weekly empty, no exceptions.
+  - An inbox I do not empty becomes a junk drawer I stop using.
   - One pipe, weekly empty, no exceptions - trust is built by emptying, not by hoping.
   - One capture pipe I empty every week.
-  - If I don't trust it, I hoard ideas in my head instead.
+  - If I do not trust it, I hoard ideas in my head instead.
   - If capture lives in my head, the system is decoration - not a [[Building a Second Brain]].
 examples:
-  - "We kept one bowl by the door for keys, papers, receipts - two bowls meant I'd hold things in my head instead."
-  - "One notebook on the bench for every substitute tweak - if we don't review it after the match, nobody trusts writing in it next week."
+  - "We kept one bowl by the door for keys, papers, receipts - two bowls meant I would hold things in my head instead."
+  - "One notebook on the bench for every substitute tweak - if we do not review it after the match, nobody trusts writing in it next week."
 shareable_thought:
   - "One capture pipe I empty every week."
-  - "If I don't trust it, I hoard ideas in my head instead."
-  - "If I don't trust my inbox, I capture in my head instead."
-  - "An inbox I don't empty becomes a junk drawer I stop using."
+  - "If I do not trust it, I hoard ideas in my head instead."
+  - "If I do not trust my inbox, I capture in my head instead."
+  - "An inbox I do not empty becomes a junk drawer I stop using."
 relationships:
   - type: contradicts
     wikilink: "[[Mobile Capture Workflows]]"
@@ -26,7 +26,7 @@ relationships:
     reason: "Trusted capture sits inside the wider second-brain system"
   - type: extends
     wikilink: "[[Capture]]"
-    reason: "If you don't trust your inbox, you capture in your head instead of using capture"
+    reason: "If you do not trust your inbox, you capture in your head instead of using capture"
   - type: extends
     wikilink: "[[Inbox Zero]]"
     reason: "Empty-the-inbox discipline this pipe depends on"
@@ -53,9 +53,9 @@ cards:
     back: "Merge - one pipe."
   - front: "I tag and label but the inbox never empties. Still trusted?"
     back: "No - empty means delete or file out."
-  - front: "Keys and papers in two bowls by the door - I'm holding stuff in my head instead. Fix?"
+  - front: "Keys and papers in two bowls by the door - I am holding stuff in my head instead. Fix?"
     back: "One bowl - one trusted pipe."
-  - front: "Substitute tweak on a napkin because I don't trust the inbox yet. One move?"
+  - front: "Substitute tweak on a napkin because I do not trust the inbox yet. One move?"
     back: "One notebook on the bench - process Friday."
 draft: false
 ---

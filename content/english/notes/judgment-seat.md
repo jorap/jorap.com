@@ -9,7 +9,7 @@ key_concept: |
   
   {{< bible ref="1 Corinthians 3:12-15" emphasize="15" >}}
   
-  - Paul's fire test - some work burns, you're still saved through fire; worthless work shrinks reward, not standing.
+  - Paul's fire test - some work burns, you are still saved through fire; worthless work shrinks reward, not standing.
   - The judgment seat (Greek *bema* - think awards podium, not criminal court) decides what reward faithful living earned.
   - [[Eternal Rewards]] names the promise; this note names the evaluation.
   - Wood, hay, and straw burn; gold, silver, and precious stones last at the fire test.
@@ -26,7 +26,7 @@ shareable_thought:
   - "Believers stand before Christ after salvation to have works evaluated for reward."
   - "Eternal life was already settled by faith."
   - "Free Grace and Justification already decided where I spend forever."
-  - "Paul's fire test - some work burns, you're still saved through fire; worthless work shrinks reward, not standing."
+  - "Paul's fire test - some work burns, you are still saved through fire; worthless work shrinks reward, not standing."
 relationships:
   - type: alternative
     wikilink: "[[Periodic Knowledge Review]]"
@@ -36,7 +36,7 @@ relationships:
     reason: "when stacked service feels like it bought eternal life instead of reward"
   - type: extends
     wikilink: "[[Eternal Rewards]]"
-    reason: "Rewards promised in the Sermon on the Mount; judgment seat is where they're assessed"
+    reason: "Rewards promised in the Sermon on the Mount; judgment seat is where they are assessed"
   - type: extends
     wikilink: "[[Faithful Steward]]"
     reason: "Stewardship accounts reviewed - well done for faithful use"

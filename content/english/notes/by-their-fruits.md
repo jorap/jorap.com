@@ -1,22 +1,22 @@
 ---
 title: "By Their Fruits"
 meta_title: "By Their Fruits - Discern Teachers by Outcome"
-description: "I check teachers by what their teaching produces, not by how polished the talk sounds."
+description: "Teachers are checked by what their teaching produces, not by how polished the talk sounds."
 key_concept: |
   {{< bible ref="Matthew 7:15-20" emphasize="20" >}}
   - Wolves wear sheep's clothing - time and results tell, not the polished talk.
-  - Don't condemn souls, but do evaluate fruit - grapes from vines, not hype.
-  - Jesus pairs this with [[Judge Not]]: don't condemn souls, but do evaluate fruit.
+  - do not condemn souls, but do evaluate fruit - grapes from vines, not hype.
+  - Jesus pairs this with [[Judge Not]]: do not condemn souls, but do evaluate fruit.
   - Wolves may wear sheep's clothing; time and results tell. Garden parallel: [[Signal vs Noise]] - what actually produces good over time? The [Issues](/notes/issues/) audit - does the teaching leave the graph healthier or broken?
   - I check teachers by what their teaching produces, not by how polished the talk sounds.
-  - The wolf doesn't announce itself - only a season of results tells you what's underneath the sheep's clothing.
+  - The wolf does not announce itself - only a season of results tells you what's underneath the sheep's clothing.
 examples:
   - "The youth coach talks smooth on day one but his players look stressed and bitter by month three - fruit told me more than any clinic title ever could."
   - "A trending productivity guru's followers still drown in inbox chaos - grapes from grapevines, thorns from thistles, time and results tell."
 shareable_thought:
   - "I check teachers by what their teaching produces, not by how polished the talk sounds."
-  - "Don't condemn souls, but do evaluate fruit - grapes from vines, not hype."
-  - "Jesus pairs this with Judge Not: don't condemn souls, but do evaluate fruit."
+  - "do not condemn souls, but do evaluate fruit - grapes from vines, not hype."
+  - "Jesus pairs this with Judge Not: do not condemn souls, but do evaluate fruit."
   - "Wolves may wear sheep's clothing; time and results tell."
 relationships:
   - type: alternative
@@ -27,10 +27,10 @@ relationships:
     reason: "Same word fruit - discern teachers by outcome vs Spirit-grown deeds"
   - type: contradicts
     wikilink: "[[Signal vs Noise]]"
-    reason: "when I can't tell fruit from hype"
+    reason: "when I cannot tell fruit from hype"
   - type: extends
     wikilink: "[[Judge Not]]"
-    reason: "You can't condemn souls, but you can judge fruit without breaking judge not"
+    reason: "You cannot condemn souls, but you can judge fruit without breaking judge not"
 slug: "by-their-fruits"
 date: "2026-06-19 10:10:00+00:00"
 image: "/images/note.jpg"

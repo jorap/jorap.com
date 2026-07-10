@@ -1,7 +1,7 @@
 ---
 title: "Ship It"
 meta_title: "Ship It"
-description: "I push the good-enough version live instead of polishing until the deadline owns me."
+description: "Ship the good-enough version live instead of polishing until the deadline owns the work."
 key_concept: |
   - Publish the good-enough version instead of polishing forever.
   - Freelance parallel: [[Selling Static Sites]] - ship the first client site before the three-tier pricing PDF exists.
@@ -47,12 +47,12 @@ featured: false
 review: true
 card_sets: ["Focus", "Workflow"]
 cards:
-  - front: "New play's still ugly but we've drilled it a month. Scrimmage's tomorrow and I'm tempted to drill another month."
+  - front: "New play's still ugly but we've drilled it a month. Scrimmage's tomorrow and I am tempted to drill another month."
     back: "Run it ugly - feedback beats the whiteboard."
   - front: "Menu typo spotted mid-service but kitchen's rolling. Perfectionist urge to hold the launch."
     back: "Go live - customers eat tonight."
   - front: "Birthday slideshow has one rough slide and the party's tomorrow."
-    back: "Ship it - don't miss the party."
+    back: "Ship it - do not miss the party."
   - front: "Blog post's 90% there and I've been editing a month."
     back: "Publish - feedback beats another draft month."
 draft: false

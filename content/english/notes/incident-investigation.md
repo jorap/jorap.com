@@ -9,7 +9,7 @@ key_concept: |
   - Fix the system before you close the file on who to blame.
 examples:
   - "After the equipment cart tipped they traced storage layout and weight limits, not just \"trainer was clumsy.\""
-  - "After the kitchen burn they traced pan placement and stove rules, not just \"kid wasn't careful.\""
+  - "After the kitchen burn they traced pan placement and stove rules, not just \"kid was not careful.\""
 shareable_thought:
   - "Find system causes after a miss - not only who to blame."
   - "Blameless tone keeps investigation on system causes."

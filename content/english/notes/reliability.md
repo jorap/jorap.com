@@ -8,7 +8,7 @@ key_concept: |
   - Reliability is doing what you said, when you said, often enough that others can plan around you.
   - People stop chasing updates when you close loops without reminders.
 examples:
-  - "The backup alarm texts if the freezer warms - I don't discover thawed meat at breakfast."
+  - "The backup alarm texts if the freezer warms - I do not discover thawed meat at breakfast."
   - "Same opener on the gate every morning - neighbors trust it without calling to check."
 shareable_thought:
   - "Reliability is closing loops on time often enough that people stop asking twice."

@@ -5,23 +5,23 @@ description: "Ask, seek, knock means prayer on schedule - not a one-time burst w
 key_concept: |
   {{< bible ref="Matthew 7:7" label="Matthew 7:7-11" emphasize="7" >}}
   - Keep asking, seeking, knocking - God gives like a parent who gives bread, not a stone.
+
   - Jesus compares God to a parent who gives bread, not a stone.
-  
+
   {{< bible ref="Matthew 6:9-13" emphasize="10" >}}
-  
-  - Lord's Prayer order - Father's name, kingdom, will first, then daily bread and forgiveness.
-  - [[Ask Seek Knock]] models priority: God's name, kingdom, will - then daily needs and forgiveness.
-  - Prayer isn't bargaining for merit; under [[Free Grace]] it's the dependent posture of a child who already belongs to the household.
+
+  - Lord's Prayer order puts the Father's name, kingdom, and will first, then daily bread and forgiveness.
+  - [[Ask Seek Knock]] models that priority before daily needs.
+  - Prayer is not bargaining for merit; under [[Free Grace]] it is the dependent posture of a child who already belongs to the household.
   - Same rhythm as [[Periodic Knowledge Review]] - keep showing up on schedule, not only in crisis.
-  - Ask, seek, knock means prayer on schedule - not a one-time burst when desperation hits.
 examples:
   - "I thumb-refresh the news about tomorrow's meeting instead of asking - prayer is dependence, not bargaining for merit I already have under grace."
   - "The clinic chaplain rounds every floor on a schedule, not only when someone codes - ask, seek, knock is keep showing up, not one crisis visit."
 shareable_thought:
-  - "Ask, seek, knock means prayer on schedule - not a one-time burst when desperation hits."
-  - "Jesus compares God to a parent who gives bread, not a stone."
-  - "Lord's Prayer order - Father's name, kingdom, will first, then daily bread and forgiveness."
-  - "Ask Seek Knock models priority: God's name, kingdom, will - then daily needs and forgiveness."
+  - Ask, seek, knock means prayer on schedule - not a one-time burst when desperation hits.
+  - Jesus compares God to a parent who gives bread, not a stone.
+  - "Lord's Prayer order puts Father's name, kingdom, and will before daily bread."
+  - Prayer is dependence, not bargaining for merit already settled under grace.
 relationships:
   - type: contradicts
     wikilink: "[[Don't Worry]]"

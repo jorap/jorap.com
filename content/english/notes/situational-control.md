@@ -1,18 +1,18 @@
 ---
 title: "Situational Control"
 meta_title: "Situational Control - Steer What You Can in the Moment"
-description: "I steer pace, format, and who speaks in the room when I can't own the whole outcome."
+description: "Steer pace, format, and who speaks when you cannot own the whole outcome."
 key_concept: |
-  - Situational control is using the levers available - pace, venue, agenda, boundaries - when you can't control everything.
-  - I steer pace, format, and who speaks in the room when I can't own the whole outcome.
+  - Situational control is using the levers available - pace, venue, agenda, boundaries - when you cannot control everything.
+  - I steer pace, format, and who speaks in the room when I cannot own the whole outcome.
   - The room notices who's steering even when nobody announced it.
 examples:
   - "My sister and I were fighting past the kids' bedtime - situational control was a fifteen-minute break and a promise to pick it up tomorrow."
-  - "Down twelve at halftime, our captain called a timeout she didn't need - situational control was slowing the game, not surrendering to their pace."
+  - "Down twelve at halftime, our captain called a timeout she did not need - situational control was slowing the game, not surrendering to their pace."
 shareable_thought:
-  - "I steer pace, format, and who speaks in the room when I can't own the whole outcome."
+  - "I steer pace, format, and who speaks in the room when I cannot own the whole outcome."
   - "Situational control is using the levers available."
-  - "Pace, venue, agenda, boundaries - when you can't control everything."
+  - "Pace, venue, agenda, boundaries - when you cannot control everything."
   - "The room notices who's steering even when nobody announced it."
 relationships:
   - type: contradicts
@@ -38,13 +38,13 @@ featured: false
 review: true
 card_sets: ["Ethics", "Focus"]
 cards:
-  - front: "Fighting with my sister and the kids should've been asleep twenty minutes ago."
+  - front: "Fighting with my sister and the kids should have been asleep twenty minutes ago."
     back: "Fifteen-minute break - pick up tomorrow."
-  - front: "Down twelve at halftime and they're running our pace. Captain's hand's up for timeout."
-    back: "Slow the game - don't match their tempo."
+  - front: "Down twelve at halftime and they are running our pace. Captain's hand's up for timeout."
+    back: "Slow the game - do not match their tempo."
   - front: "Meeting's sideways and the loudest voice owns the room."
     back: "Reset agenda - my pace, not theirs."
-  - front: "Party's getting louder and I'm the host watching the stereo creep up."
+  - front: "Party's getting louder and I am the host watching the stereo creep up."
     back: "End it early - I set the evening."
 draft: false
 ---

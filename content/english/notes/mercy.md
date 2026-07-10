@@ -1,34 +1,34 @@
 ---
 title: "Mercy"
 meta_title: "Mercy - Compassion on the Guilty"
-description: "Mercy withholds the punishment I deserve and calls me to show the same compassion to others."
+description: "Mercy withholds the punishment deserved and calls for the same compassion toward others."
 key_concept: |
   {{< bible "Matthew 5:7" >}}
-  - Show mercy and you'll receive mercy - the beatitude ties compassion out to compassion back.
+  - Show mercy and you will receive mercy - the beatitude ties compassion out to compassion back.
   
   {{< bible ref="Ephesians 2:1-5" emphasize="5" >}}
   
   - Paul keeps mercy and grace in one breath - rich in mercy, saved by grace while I was still dead in sin.
-  - [[Grace]] gives good I couldn't earn; mercy spares bad I had coming.
+  - [[Grace]] gives good I could not earn; mercy spares bad I had coming.
   - [[Free Grace]] is how that pair lands on eternal life - gift through faith, wrath withheld, heaven given.
-  - [[Forgiveness]] is mercy toward a debtor: release what you're owed because the King already cleared yours.
+  - [[Forgiveness]] is mercy toward a debtor: release what you are owed because the King already cleared yours.
   - [[The Beatitudes]] promise mercy to the merciful.
   - [[Judge Not]] starts from the same ground - I needed mercy before I play judge.
   - [[Love Your Neighbor]] and [[Love Your Enemies]] turn mercy outward: act for the hurt person, bless the persecutor.
-  - PKM mirror: [[Sunk Cost Fallacy]] in reverse - stop treating old hurt like a debt I'm still collecting when mercy already closed the ledger.
+  - PKM mirror: [[Sunk Cost Fallacy]] in reverse - stop treating old hurt like a debt I am still collecting when mercy already closed the ledger.
   - Mercy withholds the punishment I deserve and calls me to show the same compassion to others.
 examples:
-  - "I cut someone off in the group chat after they forgot my birthday - mercy is compassion I'd want when I'm the one who dropped the ball, not payback dressed as justice."
+  - "I cut someone off in the group chat after they forgot my birthday - mercy is compassion I would want when I am the one who dropped the ball, not payback dressed as justice."
   - "A coworker apologized again for the same mistake - mercy forgives from the heart; boundaries stay where trust still rebuilds."
 shareable_thought:
   - "Mercy withholds the punishment I deserve and calls me to show the same compassion to others."
   - "Paul keeps mercy and grace in one breath."
   - "Rich in mercy, saved by grace while I was still dead in sin."
-  - "Grace gives good I couldn't earn; mercy spares bad I had coming."
+  - "Grace gives good I could not earn; mercy spares bad I had coming."
 relationships:
   - type: contradicts
     wikilink: "[[Sunk Cost Fallacy]]"
-    reason: "when I treat old hurt as debt I'm owed forever"
+    reason: "when I treat old hurt as debt I am owed forever"
   - type: extends
     wikilink: "[[Forgiveness]]"
     reason: "Mercy is the posture; forgiveness is releasing the debt"
@@ -40,10 +40,10 @@ relationships:
     reason: "Kindness fruit toward the person in front of me"
   - type: extends
     wikilink: "[[Grace]]"
-    reason: "Grace gives good I don't deserve; mercy withholds bad I do"
+    reason: "Grace gives good I do not deserve; mercy withholds bad I do"
   - type: extends
     wikilink: "[[Judge Not]]"
-    reason: "I stood on mercy first, so I don't condemn like their final judge"
+    reason: "I stood on mercy first, so I do not condemn like their final judge"
   - type: extends
     wikilink: "[[Kindness]]"
     reason: "Mercy is the garden echo for gospel kindness"

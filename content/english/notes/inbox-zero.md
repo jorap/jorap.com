@@ -1,22 +1,22 @@
 ---
 title: "Inbox Zero"
 meta_title: "Inbox Zero"
-description: "I process the inbox to empty each week - decide, don't hoard."
+description: "Process the inbox to empty each week - decide, do not hoard."
 key_concept: |
-  - I process the inbox to empty each week - decide, don't hoard.
+  - I process the inbox to empty each week - decide, do not hoard.
   - Process the inbox to empty regularly - each item decided, not hoarded.
-  - Zero isn't vanity - it's proof the capture system still works when Monday doesn't start with dread.
+  - Zero is not vanity - it is proof the capture system still works when Monday does not start with dread.
   - Empty the capture pipe on schedule, or ideas retreat back into my head.
   - Each item gets decide, delete, or defer - not another week in the pile.
-  - If I won't empty the inbox, I stop trusting it and hoard in my head instead.
+  - If I will not empty the inbox, I stop trusting it and hoard in my head instead.
 examples:
   - "Friday I triaged the team inbox to zero - Monday practice started from decisions made, not dread about who forgot what."
-  - "Sunday night we emptied the kitchen catch-all tray - each slip got a decision so school week didn't start with mystery piles."
+  - "Sunday night we emptied the kitchen catch-all tray - each slip got a decision so school week did not start with mystery piles."
 shareable_thought:
-  - "I process the inbox to empty each week - decide, don't hoard."
+  - "I process the inbox to empty each week - decide, do not hoard."
   - "Process the inbox to empty regularly."
   - "Each item decided, not hoarded."
-  - "Zero isn't vanity - it's proof the capture system still works when Monday doesn't start with dread."
+  - "Zero is not vanity - it is proof the capture system still works when Monday does not start with dread."
 relationships:
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"

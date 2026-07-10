@@ -1,7 +1,7 @@
 ---
 title: "Spaced Repetition"
 meta_title: "Spaced Repetition - Remember What You Chose"
-description: "I review on a schedule so ideas stick - retention, application, and explanation, not fact pile-up."
+description: "Review on a schedule so ideas stick - retention, application, and explanation, not fact pile-up."
 key_concept: |
   - Review on a schedule before I forget - for **retention**, **application**, and **explanation**, not vanity metrics or fact pile-up.
   - The wiki holds understanding; cards and SRS hold drill - separate lanes, algorithm handles timing.
@@ -46,13 +46,13 @@ cards:
     back: "Five cards today. Same time tomorrow."
   - front: "New spine note landed and I want to marathon-review the whole deck tonight."
     back: "Short reps on rhythm - not one binge."
-  - front: "Kid's spelling quiz is tomorrow and I haven't opened the list all week."
+  - front: "Kid's spelling quiz is tomorrow and I have not opened the list all week."
     back: "Five words now while rice cooks - not cram at midnight."
   - front: "Friday inbox clear but I skipped note review all week again."
     back: "Open /notes/review/ - ten minutes, then stop."
-  - front: "Pressure rising and I'm about to skip today's card drill. One move?"
+  - front: "Pressure rising and I am about to skip today's card drill. One move?"
     back: "Ten minutes now - rhythm beats cramming later."
-  - front: "Anki export sitting untouched while I tell myself I'll batch-review someday."
+  - front: "Anki export sitting untouched while I tell myself I will batch-review someday."
     back: "Review on schedule before I forget - not one marathon later."
 draft: false
 ---

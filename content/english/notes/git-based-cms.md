@@ -3,38 +3,27 @@ title: "Git-Based CMS"
 meta_title: "Git-Based CMS - Buttons for Non-Git Editors"
 description: "A git CMS commits markdown to the repo so clients get buttons while the same push-live build still runs."
 key_concept: |
-  - I publish via Git directly.
-  - Clients often won't.
-  - Before I redirect them to WordPress, this is the middle path.
-  - Marketing volunteer, pastor's secretary, or family member can post updates - still static HTML out the other end on free tier if deploy volume stays sane.
-  - Git stays source of truth; the CMS is just another commit path.
-  - More setup than raw markdown (auth, config, media folders) quote it, don't tuck it in "theme tweaks."
-  - **When it fits [[Static Site Client Scope]]:** one or two non-technical editors, occasional posts, no member login, no cart.
-  - **When it doesn't:** five daily editors with workflows, private content, or "make it exactly like our old WordPress admin" without budget for config.
-  - Still say no to bad dynamic scope - CMS doesn't add a database.
-  - **Ops I don't skip:** treat the CMS like a small production app (auth, who can publish, which branch).
-  - Pin the same `HUGO_VERSION` on Cloudflare.
-  - Count CMS-triggered builds toward the monthly quota.
-  - [[Minimum Effective Dose]] for solo sites: skip the CMS layer entirely.
   - A git CMS commits markdown to the repo so clients get buttons while the same push-live build still runs.
-  - A git CMS doesn't add a database - it commits markdown the same push-live build already uses.
-  - I publish via Git directly when I'm the author - the CMS is for clients who need buttons.
-  - A git CMS still means saying no to bad dynamic scope - buttons for clients, same static build underneath.
+
+  - Publish via Git directly when you are the author; clients often will not.
+  - Git stays source of truth; the CMS is just another commit path.
+  - Still say no to bad dynamic scope - CMS does not add a database.
+  - [[Minimum Effective Dose]] for solo sites: skip the CMS layer entirely.
 examples:
-  - "Church volunteer won't open a terminal - Sveltia on the repo, she edits announcements, Cloudflare rebuilds on save."
-  - "I added Decap for a client who insisted on \"WordPress-like\" - honest scope: blog posts only, not plugins; still cheaper than hosted WordPress long term."
+  - Church volunteer will not open a terminal - Sveltia on the repo, she edits announcements, Cloudflare rebuilds on save.
+  - "I added Decap for a client who insisted on WordPress-like editing - honest scope: blog posts only, not plugins; still cheaper than hosted WordPress long term."
 shareable_thought:
-  - "A git CMS commits markdown to the repo so clients get buttons while the same push-live build still runs."
-  - "I publish via Git directly."
-  - "Still say no to bad dynamic scope."
-  - "CMS doesn't add a database."
+  - A git CMS commits markdown to the repo so clients get buttons while the same push-live build still runs.
+  - Git stays source of truth; the CMS is just another commit path.
+  - Still say no to bad dynamic scope.
+  - CMS does not add a database.
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Effective Dose]]"
-    reason: "when a solo dev site doesn't need a CMS layer on top of markdown"
+    reason: when a solo dev site does not need a CMS layer on top of markdown
   - type: extends
     wikilink: "[[Client Site Pass-Off]]"
-    reason: "CMS pass-off is a fourth path when Git lesson won't land"
+    reason: CMS pass-off is a fourth path when Git lesson will not land
   - type: extends
     wikilink: "[[Free Tier Hosting Stack]]"
     reason: "Still markdown in git, still Cloudflare build on push"

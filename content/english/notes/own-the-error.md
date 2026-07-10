@@ -27,7 +27,7 @@ relationships:
     reason: "Leader names the miss; room fixes the process, not the person"
   - type: extends
     wikilink: "[[Growth Mindset]]"
-    reason: "Mistakes are data when you don't treat them as identity"
+    reason: "Mistakes are data when you do not treat them as identity"
   - type: extends
     wikilink: "[[Heed Every Near-Miss]]"
     reason: "Owning the close call before it becomes harm"

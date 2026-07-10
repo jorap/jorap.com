@@ -1,20 +1,20 @@
 ---
 title: "Creative Blocks"
 meta_title: "Creative Blocks - When the Notes Don't Become Output"
-description: "Thousands of notes and I still stare at a blank page - one small ship action usually unsticks me."
+description: "Thousands of notes and the page stays blank - one small ship action usually unsticks the work."
 key_concept: |
-  - Creative blocks aren't solved by more capture - ship one small action instead.
+  - Creative blocks are not solved by more capture - ship one small action instead.
   - Once something ugly exists on the page, editing is a different, easier problem than starting.
   - Thousands of notes and I still stare at a blank page.
   - One small ship action usually unsticks me.
   - Staring at a blank page with full notes means output fixes, not another capture pass.
 examples:
   - "My kid stared at a blank training log for twenty minutes - I told her to write one messy line about today's warmup and the block lifted once something existed on the paper."
-  - "The new hire couldn't start the report - I said write one ugly paragraph about yesterday's customer call and the rest followed."
+  - "The new hire could not start the report - I said write one ugly paragraph about yesterday's customer call and the rest followed."
 shareable_thought:
   - "Thousands of notes and I still stare at a blank page."
   - "One small ship action usually unsticks me."
-  - "Creative blocks aren't solved by more capture - ship one small action instead."
+  - "Creative blocks are not solved by more capture - ship one small action instead."
   - "Once something ugly exists on the page, editing is a different, easier problem than starting."
 relationships:
   - type: contradicts
@@ -22,7 +22,7 @@ relationships:
     reason: "when one ship action beats capturing my way out of stuck"
   - type: extends
     wikilink: "[[Creative Output]]"
-    reason: "More capture won't unstick you - blocks need output fixes, not more notes"
+    reason: "More capture will not unstick you - blocks need output fixes, not more notes"
   - type: extends
     wikilink: "[[Writer's Block]]"
     reason: "Named stuck state this note tries to break"

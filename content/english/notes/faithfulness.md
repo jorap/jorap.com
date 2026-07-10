@@ -1,23 +1,22 @@
 ---
 title: "Faithfulness"
 meta_title: "Faithfulness - Steady Use the Spirit Grows"
-description: "The Spirit grows steady follow-through with what God gave me, not one heroic sprint I mistake for earned salvation."
+description: "The Spirit grows steady follow-through with what God entrusted, not one heroic sprint mistaken for earned salvation."
 key_concept: |
-  {{< bible "Galatians 5:22-23" >}}
-  - Steady use of what God entrusted - time, gifts, opportunities - not one heroic week mistaken for proof you earned heaven.
+  {{< bible ref="Galatians 5:22-23" emphasize="22" >}}
+  - Faithfulness is steady use of what God entrusted, not one heroic week mistaken for earned salvation.
+
   - [[Fruits of the Spirit]] names faithfulness beside gentleness - reliable follow-through because the Spirit sustains the walk, not because merit bought your seat.
   - [[Faithful Steward]] is the garden echo: well done for faithful use over quiet Tuesdays, not burying what He gave or performing for applause.
-  - [[Follow-Through]] is the workplace mirror - recap, owners, dates after you said yes.
   - [[Eternal Rewards]] names what steady faithfulness may receive; [[Free Grace]] keeps it from becoming the entry fee.
-  - The Spirit grows steady follow-through with what God gave me, not one heroic sprint I mistake for earned salvation.
 examples:
   - "One mission trip in my head as my whole eternal report card - faithfulness fruit is steady use over years, including Tuesdays nobody clapped for."
   - "I organized snacks for my kid's team and wanted credit all week - the master reviews faithful use, not buried gifts or performance."
 shareable_thought:
-  - "The Spirit grows steady follow-through with what God gave me, not one heroic sprint I mistake for earned salvation."
-  - "Steady use of what God entrusted."
-  - "Time, gifts, opportunities - not one heroic week mistaken for proof you earned heaven."
-  - "Fruits of the Spirit names faithfulness beside gentleness."
+  - "The Spirit grows steady follow-through with what God entrusted, not one heroic sprint mistaken for earned salvation."
+  - "Faithfulness fruit is steady use over years, including Tuesdays nobody clapped for."
+  - "Time, gifts, and opportunities matter more than one heroic week on the report card."
+  - "Galatians names faithfulness beside gentleness in the Spirit-grown cluster."
 relationships:
   - type: contradicts
     wikilink: "[[Free Grace]]"

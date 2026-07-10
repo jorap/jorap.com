@@ -5,7 +5,7 @@ description: "Jesus taught greatness through service - the Son of Man came to se
 key_concept: |
   {{< bible ref="Mark 10:42-45" emphasize="45" >}}
   - Came to serve and give His life - greatness in the kingdom runs opposite the world's ladder.
-  - Status in the kingdom runs opposite to the world's ladder: exalt yourself and you'll be humbled; humble yourself and you'll be exalted.
+  - Status in the kingdom runs opposite to the world's ladder: exalt yourself and you will be humbled; humble yourself and you will be exalted.
   - Service is the path to kingdom reward and greatness before God - not the price of [[Free Grace]].
   - [[Faithful Steward]] is the parable shape: well done for faithful use of what He entrusted.
   - Jesus taught greatness through service.

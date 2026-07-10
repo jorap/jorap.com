@@ -1,7 +1,7 @@
 ---
 title: "Linking by Meaning"
 meta_title: "Linking by Meaning - How Ideas Find Each Other"
-description: "I link notes so ideas meet in the graph without me memorizing every folder path."
+description: "Link notes so ideas meet in the graph without memorizing every folder path."
 key_concept: |
   - Folders sort files; links connect ideas.
   - I link notes so ideas meet in the graph without me memorizing every folder path.

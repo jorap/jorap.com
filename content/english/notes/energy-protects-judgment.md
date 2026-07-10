@@ -1,19 +1,20 @@
 ---
 title: "Energy Protects Judgment"
 meta_title: "Energy Protects Judgment - Rest Is Part of Performance"
-description: "I protect sleep and recovery because tired me makes worse calls than rested me on the same facts."
+description: "Sleep and recovery protect judgment - tired calls land worse than rested calls on the same facts."
 key_concept: |
-  - Fatigue hits more than muscles. It weakens patience, attention, restraint, and the quality of calls you make.
-  - I protect sleep and recovery because tired me makes worse calls than rested me on the same facts.
-  - Rest, prep, workload limits, and recovery aren't soft extras - they're part of performing responsibly under pressure.
+  - Energy protects judgment because tired minds make worse calls than rested minds on the same facts.
+
+  - Fatigue hits more than muscles - it weakens patience, attention, restraint, and call quality.
+  - Rest, prep, workload limits, and recovery are not soft extras - they are part of performing responsibly under pressure.
 examples:
-  - "I snapped at my kid over a spilled cup after a brutal week; at breakfast it would've been two calm sentences - she wasn't the problem, I was."
-  - "After three nights of bad sleep I almost sent a sharp email to a neighbor - I waited until morning and the whole thread looked different."
+  - I snapped at my kid over a spilled cup after a brutal week; at breakfast it would have been two calm sentences - she was not the problem, I was.
+  - After three nights of bad sleep I almost sent a sharp email to a neighbor - I waited until morning and the whole thread looked different.
 shareable_thought:
-  - "I protect sleep and recovery because tired me makes worse calls than rested me on the same facts."
-  - "Fatigue hits more than muscles."
-  - "It weakens patience, attention, restraint, and the quality of calls you make."
-  - "Rest, prep, workload limits, and recovery aren't soft extras - they're part of performing responsibly under pressure."
+  - Energy protects judgment because tired minds make worse calls on the same facts.
+  - Fatigue weakens patience, attention, restraint, and call quality.
+  - Rest and recovery are part of performing responsibly under pressure.
+  - Wait until morning when sleep debt is rewriting the thread.
 relationships:
   - type: contradicts
     wikilink: "[[The 12 Week Year]]"
@@ -38,7 +39,7 @@ relationships:
     reason: "Fewer deep projects protect the energy budget"
   - type: extends
     wikilink: "[[Slow the Moment]]"
-    reason: "You can't pause what you don't have capacity to hold"
+    reason: You cannot pause what you do not have capacity to hold
   - type: extends
     wikilink: "[[Sustainable Performance]]"
     reason: "Pace you can repeat beats a sprint you crash from"

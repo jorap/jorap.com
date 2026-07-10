@@ -1,7 +1,7 @@
 ---
 title: "Measure Then Iterate"
 meta_title: "Measure Then Iterate - Data Before the Next Pivot"
-description: "I name what to measure, gather signal, then reprioritize - not guess and overhaul."
+description: "Name what to measure, gather signal, then reprioritize - not guess and overhaul."
 key_concept: |
   - Transformation without a number is just enthusiasm with amnesia.
   - Measure then iterate means define what would prove the change worked, watch it for one cycle, then adjust.
@@ -10,7 +10,7 @@ key_concept: |
   - Product lane: [[Lean Startup]] - build, measure, learn before you scale.
   - I name what to measure, gather signal, then reprioritize - not guess and overhaul.
 examples:
-  - "We tracked checkout time for two weeks after one fewer tap - measure then iterate meant keeping the change when seconds dropped, reverting when they didn't."
+  - "We tracked checkout time for two weeks after one fewer tap - measure then iterate meant keeping the change when seconds dropped, reverting when they did not."
   - "I logged how many notes I actually reviewed on the jeepney for fourteen days - measure then iterate beat another app rebuild based on guilt."
 shareable_thought:
   - "I name what to measure, gather signal, then reprioritize - not guess and overhaul."
@@ -20,7 +20,7 @@ shareable_thought:
 relationships:
   - type: contradicts
     wikilink: "[[Outcomes Over Pitch Decks]]"
-    reason: "when charisma replaces a metric you'd actually track"
+    reason: "when charisma replaces a metric you would actually track"
   - type: extends
     wikilink: "[[Blameless After-Action Review]]"
     reason: "Measure after calm - learn what broke in the system"

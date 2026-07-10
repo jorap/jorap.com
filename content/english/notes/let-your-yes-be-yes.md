@@ -4,16 +4,16 @@ meta_title: "Let Your Yes Be Yes - Plain Speech"
 description: "Speak plainly - no swearing oaths to make people trust you; let your word stand on its own."
 key_concept: |
   {{< bible ref="Matthew 5:33-37" emphasize="37" >}}
-  - Yes means yes - padded oaths mean your word wasn't trustworthy on its own; anything beyond these is of evil - meaning manipulation, not that all contracts are sin.
+  - Yes means yes - padded oaths mean your word was not trustworthy on its own; anything beyond these is of evil - meaning manipulation, not that all contracts are sin.
   - PKM parallel: [[Atomic Notes]] - one plain claim per page, no padded prose to sound smart.
   - [[Integrity]] of speech is [[Heart Righteousness]], not performance for [[Let Your Light Shine]].
   - Speak plainly - no swearing oaths to make people trust you; let your word stand on its own.
 examples:
-  - "I told the coach I'd have my kid there \"God willing, absolutely, cross my heart\" when a plain yes would have been enough."
-  - "I padded a deadline promise with extra assurances so they'd believe me - if my word needs spin to sound believable, the problem isn't the schedule, it's me."
+  - "I told the coach I would have my kid there \"God willing, absolutely, cross my heart\" when a plain yes would have been enough."
+  - "I padded a deadline promise with extra assurances so they would believe me - if my word needs spin to sound believable, the problem is not the schedule, it is me."
 shareable_thought:
   - "Speak plainly - no swearing oaths to make people trust you; let your word stand on its own."
-  - "Yes means yes - padded oaths mean your word wasn't trustworthy on its own."
+  - "Yes means yes - padded oaths mean your word was not trustworthy on its own."
   - "PKM parallel: Atomic Notes - one plain claim per page, no padded prose to sound smart."
   - "Integrity of speech is Heart Righteousness, not performance for Let Your Light Shine."
 relationships:

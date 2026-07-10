@@ -7,7 +7,7 @@ key_concept: |
   - I use it when my reading list, task board, or note tags all feel equally important: which few actually moved the needle?
   - Same rule for flashcards: only spine notes carry `review: true` here
   - PKM habits plus six [[Eternal Principles]] with cards, not every faith note in the garden.
-  - Cards ask what I'd *do*, not what I'd *define*.
+  - Cards ask what I would *do*, not what I would *define*.
   - The Pareto principle is the 80/20 rule.
   - Most results come from a small slice of effort.
 examples:

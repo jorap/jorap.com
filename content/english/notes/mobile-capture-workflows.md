@@ -1,7 +1,7 @@
 ---
 title: "Mobile Capture Workflows"
 meta_title: "Mobile Capture Workflows - Save It Before You Scroll Away"
-description: "Mobile capture is one tap to save the spark before I scroll away - share sheet to inbox."
+description: "Mobile capture is one tap to save the spark before scrolling away - share sheet to inbox."
 key_concept: |
   - Twelve taps kills the spark.
   - On mobile, friction is the enemy - most ideas die between the notification and the app switch.

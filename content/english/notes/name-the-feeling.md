@@ -1,21 +1,21 @@
 ---
 title: "Name the Feeling"
 meta_title: "Name the Feeling - Put Words to It Before You Fix It"
-description: "That sounds frustrating lands before my fix plan - I name the emotion so we're not guessing."
+description: "That sounds frustrating lands before the fix plan - name the emotion so nobody is guessing."
 key_concept: |
   - "That sounds frustrating" before "here's what to do."
   - Naming the emotion lowers defensiveness so the fix can land.
   - [[Listen Before Fixing]] comes first - hear it, label it, then steer.
-  - Skip the label and I'm guessing at the problem while they're still proving I didn't get it.
+  - Skip the label and I am guessing at the problem while they are still proving I did not get it.
   - That sounds frustrating lands before my fix plan.
-  - I name the emotion so we're not guessing.
+  - I name the emotion so we are not guessing.
   - I say that sounds frustrating before I hand them a fix plan.
 examples:
-  - "A player slumped on the bench after a bad quarter - I said \"you look wiped\" before I drew up the next play. His shoulders dropped; then he could hear the adjustment."
-  - "My kid came home furious about homework - \"you're mad because it felt unfair\" beat \"just do it.\" We got to the actual problem after the feeling had a name."
+  - "A player slumped on the bench after a bad quarter - I said \"you look wiped\" before I drew up the next play."
+  - "My kid came home furious about homework and naming the unfair feeling beat jumping straight to just do it."
 shareable_thought:
   - "That sounds frustrating lands before my fix plan."
-  - "I name the emotion so we're not guessing."
+  - "I name the emotion so we are not guessing."
   - "\"That sounds frustrating\" before \"here's what to do.\"."
   - "Naming the emotion lowers defensiveness so the fix can land."
 relationships:

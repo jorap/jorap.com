@@ -28,16 +28,16 @@ relationships:
     reason: "Leaders set pace under pressure"
   - type: extends
     wikilink: "[[Discipleship vs Leadership]]"
-    reason: "Horizontal care vs vertical following - title doesn't replace Christ"
+    reason: "Horizontal care vs vertical following - title does not replace Christ"
   - type: extends
     wikilink: "[[Follow Christ, Then Lead]]"
     reason: "When seats collide, follow Christ before you set pace"
   - type: extends
     wikilink: "[[Leadership Is Influence]]"
-    reason: "Direction, pace, care need followership - title alone doesn't supply it"
+    reason: "Direction, pace, care need followership - title alone does not supply it"
   - type: extends
     wikilink: "[[Life Before Achievement]]"
-    reason: "Safety floor leaders don't trade away"
+    reason: "Safety floor leaders do not trade away"
   - type: extends
     wikilink: "[[Success is Stewardship]]"
     reason: "Direction and care with entrusted authority"

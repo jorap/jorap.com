@@ -1,10 +1,10 @@
 ---
 title: "Systems Thinking"
 meta_title: "Systems Thinking - Fix the Loop, Not Only the Symptom"
-description: "I trace the loop behind the fire - inputs, delays, feedback - and fix the process, not tonight's patch."
+description: "Trace the loop behind the fire - inputs, delays, feedback - and fix the process, not tonight's patch."
 key_concept: |
   - Systems thinking traces inputs, delays, and feedback behind the symptom.
-  - Change the process that keeps producing the fire - don't only patch tonight's symptom.
+  - Change the process that keeps producing the fire - do not only patch tonight's symptom.
   - The same fire coming back next week is the tell you patched the symptom and left the loop untouched.
   - I trace the loop behind the fire.
   - Inputs, delays, feedback - and fix the process, not tonight's patch.

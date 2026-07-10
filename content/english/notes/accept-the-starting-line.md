@@ -1,9 +1,9 @@
 ---
 title: "Accept the Starting Line"
 meta_title: "Accept the Starting Line - Real Limits Before Real Targets"
-description: "I accept where I actually start - then pick targets that match, not fantasy."
+description: "Growth starts from the real starting line, not from a fantasy baseline."
 key_concept: |
-  - Acceptance isn't quitting - it's refusing to plan for a person who doesn't exist yet.
+  - Acceptance is not quitting - it is refusing to plan for a person who does not exist yet.
   - Accept the starting line means I name real limits this quarter - time, skill, bandwidth - before I promise the room a transformation.
   - [[Honest Self-Awareness]] is the inventory; this note is the move: pick targets from the real line, not the inspirational poster.
   - Faith parallel: [[Grace]] already settled standing - sanctification grows from where I am, not from pretending I arrived.
@@ -13,7 +13,7 @@ examples:
   - "The team wanted a full platform migration by Q2 with one engineer - accept the starting line meant one service moved, not a slide deck pretending we had three hires."
 shareable_thought:
   - "I accept where I actually start - then pick targets that match, not fantasy."
-  - "Acceptance isn't quitting - it's refusing to plan for a person who doesn't exist yet."
+  - "Acceptance is not quitting - it is refusing to plan for a person who does not exist yet."
   - "Accept the starting line means I name real limits this quarter."
   - "Time, skill, bandwidth - before I promise the room a transformation."
 relationships:
@@ -24,7 +24,7 @@ relationships:
     wikilink: "[[Growth Mindset]]"
     reason: "when 'still learning' excuses never updating the starting line"
   - type: extends
-    wikilink: "[[Develop, Don't Endanger]]"
+    wikilink: "[[Develop, Do not Endanger]]"
     reason: "Real limits - challenge without fantasy bandwidth"
   - type: extends
     wikilink: "[[Grace]]"
@@ -61,8 +61,8 @@ cards:
     back: "One service moved - not a deck pretending three hires."
   - front: "Quarterly plan assumes a morning person I haven't been in years. First fix?"
     back: "Accept where I start - then set the target."
-  - front: "I'm calling acceptance 'giving up' on the hard goal. What's the reframe?"
-    back: "Refuse to plan for a person who doesn't exist yet."
+  - front: "I am calling acceptance 'giving up' on the hard goal. What's the reframe?"
+    back: "Refuse to plan for a person who does not exist yet."
 draft: false
 ---
 

@@ -1,20 +1,21 @@
 ---
 title: "Failure as Feedback"
 meta_title: "Failure as Feedback - Misses Are Signal When You Listen"
-description: "I read a miss as signal about process or skill, not as proof I'm the wrong kind of person."
+description: "A miss is signal about process or skill, not proof of being the wrong kind of person."
 key_concept: |
-  - A miss tells you what to fix next - process, skill, assumption - if you don't treat it as an identity verdict.
+  - Failure as feedback reads a miss as signal about process or skill, not proof of the wrong identity.
+
+  - A miss tells you what to fix next - process, skill, assumption - if you do not treat it as an identity verdict.
   - Faith parallel: [[Loss of Reward]] - worthless works burn at the [[Judgment Seat]], but the builder is still saved through fire.
   - The miss is feedback on what to build next, not proof you were never in.
-  - I read a miss as signal about process or skill, not as proof I'm the wrong kind of person.
 examples:
-  - "I missed three free throws in a row - failure as feedback was follow-through and routine, not deciding I'm \"not a basketball person.\""
-  - "The utility bill math was wrong - I treated it as instrument reading about the formula I skipped, not proof I can't do numbers."
+  - I missed three free throws in a row - failure as feedback was follow-through and routine, not deciding I am not a basketball person.
+  - The utility bill math was wrong - I treated it as instrument reading about the formula I skipped, not proof I cannot do numbers.
 shareable_thought:
-  - "I read a miss as signal about process or skill, not as proof I'm the wrong kind of person."
-  - "A miss tells you what to fix next."
-  - "Process, skill, assumption - if you don't treat it as an identity verdict."
-  - "The miss is feedback on what to build next, not proof you were never in."
+  - Failure as feedback reads a miss as signal about process or skill.
+  - A miss tells you what to fix next if you refuse the identity verdict.
+  - Process, skill, and assumption beat deciding you are the wrong kind of person.
+  - The miss is feedback on what to build next, not proof you were never in.
 relationships:
   - type: alternative
     wikilink: "[[Judgment Seat]]"
@@ -24,10 +25,10 @@ relationships:
     reason: "Root-cause learning after calm - rollback is revert first"
   - type: contradicts
     wikilink: "[[Integrity Without an Audience]]"
-    reason: "when \"it's just feedback\" excuses sloppy work nobody would ship on purpose"
+    reason: "when it is just feedback excuses sloppy work nobody would ship on purpose"
   - type: extends
     wikilink: "[[Blameless After-Action Review]]"
-    reason: "Miss becomes signal when nobody's hiding to keep their job"
+    reason: "Miss becomes signal when nobody is hiding to keep their job"
   - type: extends
     wikilink: "[[Convert Pain Into Learning]]"
     reason: "Feedback becomes useful when it produces change"
@@ -45,7 +46,7 @@ relationships:
     reason: "Burned work is feedback on what to build - not proof you were never saved"
   - type: extends
     wikilink: "[[Measure Then Iterate]]"
-    reason: "Signal needs something you'd actually track"
+    reason: "Signal needs something you would actually track"
 slug: "failure-as-feedback"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"

@@ -7,11 +7,11 @@ key_concept: |
   - Pay lawful taxes, reserve worship for God - no revolutionary tax refusal, no idolizing the state.
   - You bear God's image; give yourself to Him.
   - Jesus avoids both revolutionary tax refusal and idolizing Rome.
-  - [[Seek the Kingdom First]] still ranks the kingdom above every earthly master, but that doesn't excuse dodging legitimate civic responsibility.
+  - [[Seek the Kingdom First]] still ranks the kingdom above every earthly master, but that does not excuse dodging legitimate civic responsibility.
   - Pay lawful civic obligations - taxes, duties owed the state - while reserving ultimate worship for God alone.
 examples:
   - "The tax bill landed and I paid what was lawful - give Caesar the coin, give God myself."
-  - "School activity fees go in the envelope on Monday even when I'd rather spend it on something fun - earthly duty and worship stay distinct."
+  - "School activity fees go in the envelope on Monday even when I would rather spend it on something fun - earthly duty and worship stay distinct."
 shareable_thought:
   - "Pay lawful civic obligations - taxes, duties owed the state - while reserving ultimate worship for God alone."
   - "Pay lawful taxes, reserve worship for God - no revolutionary tax refusal, no idolizing the state."
@@ -40,13 +40,13 @@ cards:
   - front: "Patriotism and worship tangled. Who gets ultimate allegiance?"
     back: "God ultimate - Caesar gets what's his."
   - front: "State feels like lord of everything lately. Sort the two?"
-    back: "Render each properly - don't idolize Rome."
+    back: "Render each properly - do not idolize Rome."
   - front: "Revolutionary tax refusal sounds faithful. What did Jesus model?"
     back: "Pay taxes - kingdom higher, still pay."
   - front: "God's image bearer - what do I owe Him vs the state?"
     back: "Self to God - coin to Caesar."
-  - front: "Civic duty skipped because I'm kingdom-first. What's the move?"
-    back: "Kingdom first doesn't excuse lawful duty."
+  - front: "Civic duty skipped because I am kingdom-first. What's the move?"
+    back: "Kingdom first does not excuse lawful duty."
 draft: false
 ---
 

@@ -47,7 +47,7 @@ relationships:
     reason: "Assurance holds when the review comes - works judged, not the standing"
   - type: extends
     wikilink: "[[Justification]]"
-    reason: "Verdict doesn't reopen when I stumble"
+    reason: "Verdict does not reopen when I stumble"
   - type: extends
     wikilink: "[[Loss of Reward]]"
     reason: "Can lose reward, not salvation"
