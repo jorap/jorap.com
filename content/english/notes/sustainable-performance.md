@@ -26,9 +26,6 @@ relationships:
     wikilink: "[[Energy Protects Judgment]]"
     reason: "Sustainability protects [[Decision Quality]]"
   - type: extends
-    wikilink: "[[Recovery]]"
-    reason: "Recovery is part of the pace, not a reward"
-  - type: extends
     wikilink: "[[Slow Productivity]]"
     reason: "Fewer deep projects, finished work"
   - type: extends

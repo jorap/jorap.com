@@ -56,7 +56,7 @@ relationships:
     wikilink: "[[Finish Strong]]"
     reason: "Steward the tail end, not only the exciting start"
   - type: extends
-    wikilink: "[[Follow-Through]]"
+    wikilink: "[[Complete the Cycle]]"
     reason: "Steward promises through the tail"
   - type: extends
     wikilink: "[[Free Tier Hosting Stack]]"

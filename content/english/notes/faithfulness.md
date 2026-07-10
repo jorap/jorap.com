@@ -34,7 +34,7 @@ relationships:
     wikilink: "[[Faithful Steward]]"
     reason: "Faithfulness fruit - steady use of what He entrusted"
   - type: extends
-    wikilink: "[[Follow-Through]]"
+    wikilink: "[[Complete the Cycle]]"
     reason: "Faithfulness fruit after the handshake - owners and dates"
   - type: extends
     wikilink: "[[Fruits of the Spirit]]"

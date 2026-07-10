@@ -81,9 +81,8 @@ draft: false
 ## Sustainable pace
 
 - [[Sustainable Performance]] - a pace you can repeat next month
-- [[Recovery]] - refill judgment before the next hard push
 - [[Slow Productivity]] - fewer deep projects, finished work
-- [[Energy Protects Judgment]] - fatigue breaks patience and decisions
+- [[Energy Protects Judgment]] - sleep and rest refill judgment; fatigue breaks patience and decisions
 - [[Develop, Don't Endanger]] - challenge without disproportionate risk
 
 ## Planning rhythms

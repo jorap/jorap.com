@@ -35,7 +35,7 @@ relationships:
     wikilink: "[[Finish Strong]]"
     reason: "Win is mid-game - close the tail, do not stop at halftime"
   - type: extends
-    wikilink: "[[Follow-Through]]"
+    wikilink: "[[Complete the Cycle]]"
     reason: "Steward promises through the boring middle"
   - type: extends
     wikilink: "[[Servant Leadership]]"

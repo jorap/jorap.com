@@ -10,7 +10,7 @@ key_concept: |
   - Promotion from fleeting: during [[Periodic Knowledge Review]], when a spark keeps returning.
 examples:
   - "A family recipe card keeps the ratios, not last year's trendy garnish - rewrite when life changes how you cook, not when a feed gets excited about a new trick."
-  - "My free-throw note keeps the release point and follow-through - not last week's trending drill tip I would regret next season."
+  - "My free-throw note keeps the release point and shooting form - not last week's trending drill tip I would regret next season."
 shareable_thought:
   - "Phrase ideas worth standing behind in two years and revise when reality shifts, not when a trend spikes."
   - "Evergreen notes phrase ideas worth standing behind in two years and revise when reality shifts."

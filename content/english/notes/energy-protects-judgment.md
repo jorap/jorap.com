@@ -4,18 +4,22 @@ meta_title: "Energy Protects Judgment - Rest Is Part of Performance"
 description: "Sleep and recovery protect judgment - tired calls land worse than rested calls on the same facts."
 key_concept: |
   - Energy protects judgment because tired minds make worse calls than rested minds on the same facts.
-  
   - Fatigue hits more than muscles - it weakens patience, attention, restraint, and call quality.
-  - Rest, prep, workload limits, and recovery are not soft extras - they are part of performing responsibly under pressure.
+  - Sleep and scheduled rest refill what hard work drains - judgment, patience, attention.
+  - Skipping recovery does not show up immediately - it shows up three days later as a short fuse and bad calls.
+  - The elite athlete's rest day is programmed like the workout - not optional padding.
 examples:
   - "I snapped at my kid over a spilled cup after a brutal week; at breakfast it would have been two calm sentences - she was not the problem, I was."
-  - "After three nights of bad sleep I almost sent a sharp email to a neighbor - I waited until morning and the whole thread looked different."
+  - "Three late nights made me snap at bedtime - stopping at ten instead of a fourth heroic hour protected everyone at breakfast."
 shareable_thought:
   - "Sleep and recovery protect judgment."
   - "Tired calls land worse than rested calls on the same facts."
-  - "Energy protects judgment because tired minds make worse calls than rested minds on the same facts."
-  - "Fatigue hits more than muscles."
+  - "Skipping recovery does not show up immediately - it shows up three days later as a short fuse and bad calls."
+  - "The elite athlete's rest day is programmed like the workout - not optional padding."
 relationships:
+  - type: contradicts
+    wikilink: "[[Finish Strong]]"
+    reason: "when rest becomes an excuse to leave the boring tail of the job open"
   - type: contradicts
     wikilink: "[[The 12 Week Year]]"
     reason: "when protecting energy misses a real sprint window the team committed to"
@@ -32,9 +36,6 @@ relationships:
     wikilink: "[[Pressure Reveals Weakness]]"
     reason: "Depletion shows which habits were never real"
   - type: extends
-    wikilink: "[[Recovery]]"
-    reason: "Sleep and downtime refill the judgment tank"
-  - type: extends
     wikilink: "[[Slow Productivity]]"
     reason: "Fewer deep projects protect the energy budget"
   - type: extends
@@ -49,7 +50,7 @@ image: "/images/note.jpg"
 categories: ["Leadership"]
 author: "JoRap"
 tags: ["Performance", "Health", "Decision Making", "Recovery"]
-aliases: ["rest protects judgment"]
+aliases: ["rest protects judgment", "recovery", "/notes/recovery/"]
 featured: false
 review: true
 card_sets: ["Focus", "Review"]
@@ -58,6 +59,10 @@ cards:
     back: "Fatigue - protect energy before judgment calls."
   - front: "Three nights of bad sleep and I'm drafting a sharp email to a neighbor. Send tonight?"
     back: "Wait until morning - judgment's back."
+  - front: "After three nights of overtime I skipped the fourth. What's the move?"
+    back: "Slept eight hours and did not snap at the barista"
+  - front: "Elite athletes schedule rest days. What's the move?"
+    back: "Not another heroic scrimmage"
 draft: false
 ---
 
