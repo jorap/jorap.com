@@ -57,18 +57,14 @@ cards:
     back: "Kingdom first - pray, then act."
   - front: "Calendar filled before I opened Scripture this week. Reorder - what comes first?"
     back: "Kingdom first - Scripture before inbox."
-  - front: "Tuesday 7am, inbox calling before work. One move that puts God's reign first?"
-    back: "Scripture or prayer before inbox."
+  - front: "Tuesday 7am, house loud, Bible still closed on the counter. What comes first?"
+    back: "Open Scripture before the inbox."
   - front: "Work hustle and Sunday worship pulling opposite directions - two masters. Which gets priority?"
     back: "God - not money."
   - front: "Wallet and calendar both pulling hard. One reframe before I chase either?"
     back: "Move treasure - heart follows."
   - front: "Treating kingdom life like something I must earn. What's the actual entry?"
     back: "Receive by faith - then live it."
-  - front: "Tuesday 7am, house loud, Bible still closed on the counter. What comes first?"
-    back: "Open Scripture before the inbox."
-  - front: "Anxiety scrolling finances at 11pm before I prayed. Kingdom move?"
-    back: "Pray first - then act on the numbers."
 draft: false
 ---
 

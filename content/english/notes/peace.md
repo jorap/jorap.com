@@ -3,7 +3,8 @@ title: "Peace"
 meta_title: "Peace - Calm the Spirit Grows"
 description: "Peace is Spirit-grown calm in believers who trust the Father - not silence at any price."
 key_concept: |
-  - [[Fruits of the Spirit]] lists peace beside love and joy - inner calm from God's reign, not denial. (Galatians 5:22).
+  {{< bible "Galatians 5:22-23" >}}
+  - [[Fruits of the Spirit]] lists peace beside love and joy - inner calm from God's reign, not denial.
   - [[Don't Worry]] is the trust echo: stop borrowing tomorrow's trouble.
   - [[Peacemakers]] is the active echo: pursue reconciliation, not just keep quiet.
   - [[Seek the Kingdom First]] orders the week before anxiety sets the agenda - same fruit, two moves - rest in the Father, work for peace where you can.
@@ -14,7 +15,7 @@ examples:
 shareable_thought:
   - "Peace is Spirit-grown calm in believers who trust the Father - not silence at any price."
   - "Fruits of the Spirit lists peace beside love and joy."
-  - "Inner calm from God's reign, not denial. (Galatians 5:22)."
+  - "Inner calm from God's reign, not denial."
   - "Don't Worry is the trust echo: stop borrowing tomorrow's trouble."
 relationships:
   - type: contradicts

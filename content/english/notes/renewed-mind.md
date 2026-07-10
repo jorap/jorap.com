@@ -9,8 +9,7 @@ key_concept: |
   {{< bible ref="Romans 12:1-2" emphasize="2" >}}
   
   - Mercy first, then sacrifice, then a mind being renewed - Paul stacks the order I keep swapping.
-  - [[Mercy]] received first - then the living sacrifice, then the renewed mind - and do not be conformed to this world, but be transformed by the renewing of your mind.
-  - So that you may prove what the will of God is - good, acceptable, and perfect.
+  - Renewal enables testing His will - good, acceptable, perfect - see [[Discern His Will Daily]].
   - Under [[Free Grace]], renewal doesn't earn eternal life; it follows the verdict [[Justification]] already gave.
   - [[Sanctification]] is the slow becoming; mind renewal is the inner engine that keeps choices from running on culture's defaults.
   - [[Abide in Me]] feeds it - His words dwell where I actually read.

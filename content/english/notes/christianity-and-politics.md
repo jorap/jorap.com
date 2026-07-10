@@ -3,9 +3,8 @@ title: "Christianity and Politics"
 meta_title: "Christianity and Politics - Dual Allegiance Without Idolatry"
 description: "I owe Caesar what Caesar's owed and God what I'm His - no party gets my soul."
 key_concept: |
-  {{< bible ref="Matthew 22:15-22" emphasize="21" >}}
-  - Coin to Caesar, self to God - civic duty without making Rome or any party ultimate lord.
-  - [[Render Unto Caesar]] names the split: coin to Caesar, self to God.
+  - [[Render Unto Caesar]] holds the text - coin to Caesar, self to God.
+  - Civic duty without making Rome or any party ultimate lord.
   - [[Seek the Kingdom First]] still ranks God's reign above every election cycle - without excusing dodged taxes, permits, or jury duty.
   - [[Love Your Neighbor]] and [[Love Your Enemies]] stretch across party lines: the person on the other feed is still my neighbor, not a target.
   - [[Treasure in Heaven]] keeps my heart off ballot-box salvation - no moth-eaten security in who wins Tuesday.

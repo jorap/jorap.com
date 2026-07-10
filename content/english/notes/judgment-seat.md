@@ -12,7 +12,6 @@ key_concept: |
   - Paul's fire test - some work burns, you're still saved through fire; worthless work shrinks reward, not standing.
   - The judgment seat (Greek *bema* - think awards podium, not criminal court) decides what reward faithful living earned.
   - [[Eternal Rewards]] names the promise; this note names the evaluation.
-  - If any man's work is burned up, he will suffer loss; but he himself will be saved, yet so as through fire.
   - Wood, hay, and straw burn; gold, silver, and precious stones last at the fire test.
   - [[Faithful Steward]] is the parable shape: well done for faithful use, not re-buying eternal life.
   - [[Secret Devotion]] and [[Let Your Light Shine]] both show up in the ledger - hidden and public obedience counted by Christ, not the audience.
@@ -80,8 +79,8 @@ cards:
     back: "Saved - some work burns; standing stays."
   - front: "Treating final evaluation like a salvation retrial. Correct the order?"
     back: "Justified already - rewards assessed after."
-  - front: "One heroic mission trip I treat as my whole eternal report card. What gets reviewed?"
-    back: "Whole life of faithfulness - not one week."
+  - front: "Volunteer spotlight week - tempted to coast through the quiet months after. What does the master review?"
+    back: "Faithful use over the whole stretch - not one week."
 draft: false
 ---
 

@@ -12,7 +12,6 @@ key_concept: |
   - Two categories, one sentence apart: [[Free Grace]] and [[Justification]] settle eternal life at faith.
   - [[Eternal Rewards]] and the [[Judgment Seat]] settle what gets repaid for faithful living.
   - Losing reward is not losing salvation.
-  - If any man's work is burned up, he will suffer loss but he himself will be saved, yet so as through fire.
   - Wood, hay, and stubble burn; gold lasts.
   - [[Standing vs Fellowship]] keeps shame from collapsing broken closeness with revoked standing.
   - [[Sanctification]] keeps growing after a wasted season.

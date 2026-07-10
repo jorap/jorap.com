@@ -5,7 +5,7 @@ description: "After God declares me righteous, he keeps shaping my habits and he
 key_concept: |
   {{< bible ref="John 17:17-19" emphasize="17" >}}
   - Jesus asks the Father to make us holy through truth - Scripture shapes the slow becoming, not one heroic week.
-  - [[Free Grace]] settles where I spend forever.
+  - [[Christlikeness]] names the aim; sanctification names the slow walk after standing was settled at faith.
   - Sanctification settles who I'm becoming on the way.
   - [[Grateful Obedience]] names the posture: grow from thanks, not to earn acceptance.
   - [[Standing vs Fellowship]] keeps a fruitless week from feeling like revoked standing.
@@ -25,7 +25,7 @@ examples:
 shareable_thought:
   - "After God declares me righteous, he keeps shaping my habits and heart."
   - "Growth, not the ticket in."
-  - "Free Grace settles where I spend forever."
+  - "Christlikeness names the aim; sanctification names the slow walk."
   - "Discipleship is the daily walk."
 relationships:
   - type: alternative
