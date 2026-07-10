@@ -3,8 +3,8 @@ title: "Why I Focused on Open Source Technologies"
 meta_title: "Why I Bet on Open Source - Practical Reasons, Not a Manifesto"
 description: "Open source wasn't a purity test for me. It was cheaper hosting, inspectable code, portable files, and communities big enough to find work in. Here's how that shaped my stack."
 slug: "why-i-focused-on-open-source"
-date: 2026-07-10T12:00:00Z
-image: "/images/joraps-world.jpg"
+date: 2026-07-04T12:00:00Z
+image: "/images/open-source.jpg"
 categories: ["Technology", "Opinion", "Developer Life"]
 author: "JoRap"
 tags: ["Open Source", "FOSS", "Hugo", "WordPress", "Web Development", "Developer Life", "Career", "Free Software", "Technology", "Publishing", "Static Site Generator"]
@@ -15,7 +15,7 @@ related_notes:
   - success-is-stewardship
   - platform-reach-is-borrowed
 featured: false
-draft: true
+draft: false
 ---
 
 > **TL;DR**: I didn't pick open source because it's morally superior on a slide deck. I picked it because the tools were free to try, the code was there when something broke, my files could move when a host died, and the communities were big enough that I could actually find work. That's still the filter.
@@ -62,7 +62,7 @@ After years of building and teaching on this stuff, the benefits aren't abstract
 
 **I can see what's broken.** When a Hugo template misbehaves or a WordPress plugin throws a fatal error, the code is right there. I'm not waiting on a support ticket to learn whether the bug is mine or theirs.
 
-**I can leave.** Markdown in Git outlives any one host. That's the whole [sustainable publishing](/blog/sustainable-online-publishing/) argument in one sentence. Open tools tend to use open formats. Closed tools tend to trap exports until you need them.
+**I can leave.** Markdown in Git outlives any one host. That's the whole sustainable publishing argument in one sentence. Open tools tend to use open formats. Closed tools tend to trap exports until you need them.
 
 **The community is part of the product.** WordPress plugins, Hugo themes, Stack Overflow threads from last month - open projects accumulate fixes in public. Thin communities cost you hours. Thick ones save weeks. I chose WordPress partly because the bench was deeper, not because the logo was prettier.
 
@@ -76,7 +76,7 @@ After years of building and teaching on this stuff, the benefits aren't abstract
 
 I don't treat open source as a purity test.
 
-**Open doesn't mean good.** Plenty of open-source plugins are junk. "View source" doesn't help if nobody maintains the project. I still evaluate tools like anything else - does it solve the job, is it maintained, will the client survive the handoff.
+**Open doesn't mean good.** Plenty of open-source plugins are junk. "View source" doesn't help if nobody maintains the project. I still evaluate tools like anything else - does it solve the job, is it maintained, will the client still own it after I pass it off.
 
 **Open doesn't mean I never pay.** Domains cost money. Some hosted services are worth it. Bitwarden has a paid family plan I happily use. Open source at the core; paid where the hosted convenience earns its keep.
 
