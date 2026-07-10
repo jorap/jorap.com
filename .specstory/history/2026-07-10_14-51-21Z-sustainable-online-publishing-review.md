@@ -2457,4 +2457,22 @@ Copy-paste prompt for a new hero image:
 |------|----------------|
 | Lighter feel | `light mode website UI instead of dark mode` |
 | Stronger metaphor | `subtle arrow from phone toward laptop suggesting links point home` |
-| Less desk clutter | `only laptop and phone,
+| Less desk clutter | `only laptop and phone, no cards` |
+| Match site photo style | `warm wood desk instead of white, still modern not rustic` |
+| Avoid AI UI slop | `UI must look like a real minimalist blog, not a generic dashboard` |
+
+---
+
+**Negative prompt (models that support it)**
+
+> logos, Facebook, Instagram, Twitter, X logo, TikTok, stock photo watermark, neon colors, cyberpunk, vintage filing cabinet, handwritten sticky notes, megaphone, globe icon, leaves, eco sustainability imagery, people, faces, cluttered desk, 3D render, illustration, cartoon
+
+---
+
+**Output**
+
+- Aspect ratio: **16:9**
+- Save as: `assets/images/sustainable-publishing.jpg`
+- Replace the current file, then rebuild (Hugo will regenerate WebP variants)
+
+Want me to generate from this prompt and swap the file in?

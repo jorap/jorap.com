@@ -3,7 +3,7 @@ title: "Platform Reach Is Borrowed"
 meta_title: "Platform Reach Is Borrowed - You're a Tenant, Not the Landlord"
 description: "Platform reach is borrowed - do not build only where an algorithm can take it away."
 key_concept: |
-  - On Facebook, X, YouTube, or TikTok, you are a tenant.
+  - On Facebook, X, YouTube, or any social app, you are a tenant.
   - Reach throttles, rules change, accounts get restricted - and the audience you spent years building can vanish overnight when the landlord pivots.
   - [[Success is Stewardship]] is the headline: promotion, platform, and a good traffic week are entrusted, not trophies I earned to keep.
   - [[Digital Garden]] and [[Drafting in Public]] put the canonical copy on land I control; social is the megaphone, not the vault.
@@ -17,7 +17,7 @@ examples:
 shareable_thought:
   - "Followers and algorithm reach are rented."
   - "Steward them, do not mistake traffic for ownership."
-  - "On Facebook, X, YouTube, or TikTok, you are a tenant."
+  - "On Facebook, X, YouTube, or any social app, you are a tenant."
   - "Future-Proofing Knowledge is the boring backup."
 relationships:
   - type: alternative

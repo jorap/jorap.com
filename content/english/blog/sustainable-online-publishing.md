@@ -29,7 +29,7 @@ Publishing only on platforms you don't control isn't sustainable if your voice m
 
 ## Social is a lobby, not a library
 
-Facebook, X, YouTube, TikTok - I still use them. They're fine for **getting a link in front of people.** They're a terrible place to keep the only copy of something you care about.
+Facebook, X, YouTube - I still use them. They're fine for **getting a link in front of people.** They're a terrible place to keep the only copy of something you care about.
 
 Terms of service shift. Monetization rules change overnight. Content disappears behind logins or dies when the app pivots. Your best thread from 2019 isn't on your resume - it's on their servers, and you can't export it cleanly if they decide you can't.
 
