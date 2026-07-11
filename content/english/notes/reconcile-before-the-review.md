@@ -3,7 +3,6 @@ title: "Reconcile Before the Review"
 meta_title: "Reconcile Before the Review - Fix the Relationship First"
 description: "Reconcile before the review - fix the relationship before OKRs, demos, or reorg meetings."
 key_concept: |
-  {{< bible "Matthew 5:23-24" >}}
   - Fix the relationship breach before OKRs, demos, or reorg meetings.
   - Process does not heal a broken trust link.
   - The person who knows there is a breach moves first - a short call, an owned apology, a specific repair - then we talk OKRs.

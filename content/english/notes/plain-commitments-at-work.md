@@ -3,7 +3,6 @@ title: "Plain Commitments at Work"
 meta_title: "Plain Commitments at Work - Yes Means Yes"
 description: "Say yes or no clearly - no \"definitely maybe,\" no stack of qualifiers so people trust a weak promise."
 key_concept: |
-  {{< bible "Matthew 5:37" >}}
   - Say yes or no plainly - hype on a weak promise is the real problem.
   - If my word needs hype to sound believable, the problem is weak [[Complete the Cycle]], not the sentence.
   - One deadline, one owner, one plain answer in Slack.

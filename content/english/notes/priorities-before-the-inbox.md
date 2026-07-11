@@ -3,8 +3,7 @@ title: "Priorities Before the Inbox"
 meta_title: "Priorities Before the Inbox - Real Work First"
 description: "Put the real priority first before email, Slack, and everyone else's urgency rewrite my morning."
 key_concept: |
-  {{< bible "Matthew 6:33" >}}
-  - Seek first what actually matters - one protected block before the inbox rewrites the morning.
+  - Put the real priority first - one protected block before the inbox rewrites the morning.
   - The inbox is other people's priorities wearing a siren.
   - One block on the actual deliverable - spec, hard conversation, [[Deep Work]] - before I answer pings.
   - Gospel source: [[Seek the Kingdom First]].

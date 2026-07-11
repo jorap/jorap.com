@@ -19,7 +19,7 @@ examples:
 shareable_thought:
   - "Success is borrowed - I am accountable for how I use what I was given, not entitled to keep it forever."
   - "Success is not ownership - it is stewardship of what I was given: time, health, platform, money, influence."
-  - "Faithful Steward is the parable Jesus told."
+  - "Gospel depth lives in Faithful Steward."
   - "Well done for faithful use, buried talent rebuked."
 relationships:
   - type: alternative
@@ -48,7 +48,7 @@ relationships:
     reason: "Well done repays faithful use - not the entry fee"
   - type: extends
     wikilink: "[[Faithful Steward]]"
-    reason: "Headline principle above the parable - entrusted, not owned"
+    reason: "Headline principle above Faithful Steward - entrusted, not owned"
   - type: extends
     wikilink: "[[Faithfulness]]"
     reason: "Headline for steady use of entrusted gifts"
@@ -114,7 +114,7 @@ date: "2026-07-02 14:00:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Leadership"]
 author: "JoRap"
-tags: ["Gospel", "Eternal Principles", "Stewardship", "Leadership", "Workplace", "Discipleship"]
+tags: ["Gospel", "Eternal Principles", "Stewardship", "Leadership", "Discipleship"]
 aliases: ["stewardship of success", "borrowed success"]
 featured: false
 review: true

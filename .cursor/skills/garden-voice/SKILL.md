@@ -78,6 +78,8 @@ Not: "Sanctification is the process whereby believers undergo moral transformati
 
 Every faith note's `key_concept` includes scripture. EP spine notes follow the scripture block rules below; other faith notes still open with verse + gloss before the claim stack.
 
+**Workplace lane** (`Workplace` tag, [[Workplace Principles]] hub): corporate-friendly - no `{{< bible >}}` shortcodes or verse citations in frontmatter. Gospel depth stays in wikilinked source notes.
+
 ### Scripture (Eternal Principles)
 
 **Eternal Principles** notes anchor on **Jesus' words** (Matthew, Mark, Luke, John) in **NASB 1995**. Use the `{{< bible >}}` shortcode for scripture in `key_concept` - Hugo renders NASB 1995 at build time from `data/scripture-nasb1995.json`. Paul and other writers may follow as expansion, not as the primary anchor.
@@ -170,7 +172,7 @@ If a field still feels generated, rewrite from one real scene - don't polish AI 
 - [ ] `description` is third-person, one breath, ≤20 words, no `[[wikilinks]]`
 - [ ] `key_concept` line 1 is a plain claim you'd argue - **no wikilinks**
 - [ ] `key_concept` has 2-4 tight sentences before the link stack runs long
-- [ ] Faith note includes a Bible verse in `key_concept`
+- [ ] Faith note includes a Bible verse in `key_concept` (skip when `Workplace` tag - workplace lane)
 - [ ] EP scripture: `{{< bible >}}` shortcode, explanation bullet in JoRap voice, then claim stack
 - [ ] Two `examples`, one sentence each, scenes feel different
 - [ ] `shareable_thought` is exactly four complete thoughts, four different angles - no fragments

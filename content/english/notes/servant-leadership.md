@@ -3,7 +3,7 @@ title: "Servant Leadership"
 meta_title: "Servant Leadership - Last Becomes First at Work"
 description: "Servant leaders unblock the team, coach through mess, take blame up, and pass credit down."
 key_concept: |
-  {{< bible ref="Mark 10:45" emphasize="45" >}}
+  - Greatness is serving the team, not grabbing credit from it.
   - The corporate ladder rewards visibility; this principle runs the other way.
   - Wash feet in the sprint, not only in the all-hands speech.
   - Gospel depth: [[Humility and Service]].
@@ -36,7 +36,7 @@ relationships:
     reason: "Serve by joining their world before redirecting credit"
   - type: extends
     wikilink: "[[Humility and Service]]"
-    reason: "Jesus' upside-down ladder - same move in standups and 1:1s"
+    reason: "Humility that serves first - same move in standups and 1:1s"
   - type: extends
     wikilink: "[[Leadership Is Influence]]"
     reason: "Unblock and serve - trust deposits that buy real followership"

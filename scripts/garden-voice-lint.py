@@ -33,6 +33,7 @@ BIBLE = re.compile(
 FAITH_TAGS = frozenset(
     {"faith", "eternal principles", "christianity", "theology", "gospel", "jesus", "bible"}
 )
+WORKPLACE_TAGS = frozenset({"workplace"})
 TITLE_PHRASE_EXEMPT = frozenset(
     {
         "let your yes be yes",
@@ -56,6 +57,11 @@ def is_faith(meta: dict) -> bool:
     tags = {str(t).lower() for t in (meta.get("tags") or [])}
     cats = {str(c).lower() for c in (meta.get("categories") or [])}
     return bool(tags & FAITH_TAGS or cats & {"faith", "eternal principles"})
+
+
+def is_workplace_lane(meta: dict) -> bool:
+    tags = {str(t).lower() for t in (meta.get("tags") or [])}
+    return bool(tags & WORKPLACE_TAGS)
 
 
 def first_key_concept_line(key_concept: str) -> str | None:
@@ -109,7 +115,7 @@ def scan_note(path: Path) -> list[Issue]:
         first = first_key_concept_line(kc)
         if first and WIKILINK.search(first):
             issues.append(Issue(rel, "key_concept", "line1-wikilink", first[:80]))
-        if is_faith(meta) and not BIBLE.search(kc):
+        if is_faith(meta) and not is_workplace_lane(meta) and not BIBLE.search(kc):
             issues.append(Issue(rel, "key_concept", "faith-no-verse", path.stem))
 
     examples = meta.get("examples") or []

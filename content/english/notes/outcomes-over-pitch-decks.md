@@ -3,15 +3,13 @@ title: "Outcomes Over Pitch Decks"
 meta_title: "Outcomes Over Pitch Decks - Judge Ideas by Fruit"
 description: "Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura."
 key_concept: |
-  {{< bible "Matthew 7:16-20" >}}
   - Judge vendors and champions by fruit over time, not slide polish or LinkedIn aura.
   - Smooth talkers ship thorns sometimes.
   - I look at downstream stress, turnover, delivery, and whether the team got healthier or more brittle.
   - On [[Static Site Client Scope]], same filter: pick WordPress or Shopify when the fruit requires it - do not sell [[Free Tier Hosting Stack]] because it is my favorite hammer.
-  - do not condemn souls; do read the fruit.
+  - Do not write people off on vibes alone; read outcomes over time.
   - Gospel source: [[By Their Fruits]].
   - PKM parallel: [[Signal vs Noise]].
-  - do not condemn souls; do read the fruit over time.
 examples:
   - "The trainer's Instagram was polished - I asked two parents who finished the program about injuries and consistency."
   - "The contractor's portfolio was gorgeous - I asked two neighbors who lived through the remodel about permit fights and cracked tile."
@@ -19,7 +17,7 @@ shareable_thought:
   - "Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura."
   - "Judge vendors and champions by fruit over time, not slide polish or LinkedIn aura."
   - "Smooth talkers ship thorns sometimes."
-  - "Do not condemn souls; do read the fruit over time."
+  - "Do not write people off on vibes alone; read outcomes over time."
 relationships:
   - type: contradicts
     wikilink: "[[Life Before Achievement]]"

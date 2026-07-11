@@ -3,18 +3,16 @@ title: "Forgiveness at Work"
 meta_title: "Forgiveness at Work - Release the Ledger"
 description: "Release a colleague debt from the heart without pretending the slight did not matter or skipping boundaries where trust broke."
 key_concept: |
-  {{< bible ref="Matthew 18:21-35" emphasize="35" >}}
-  - Forgiveness at work releases a colleague's debt without pretending the slight did not matter.
-  
+  - Release a colleague's debt without pretending the slight did not matter.
   - Forgiving is not pretending it did not hurt.
-  - Seventy times seven ends ledger-keeping - stop collecting forever on a debt that poisons work.
+  - Stop ledger-keeping - do not collect forever on a debt that poisons work.
   - Gospel depth: [[Forgiveness]] - same math as [[Sunk Cost Fallacy]] - stop treating old hurt as an asset you are owed.
 examples:
   - "I replayed my sister's sharp comment at every family dinner until I chose to release the debt - forgiving is not pretending it did not hurt; it is refusing to collect forever."
   - "I kept mentally scoring a coworker who embarrassed me in a staff meeting six months ago - I stopped bringing that score into every shift and still wrote down what I would need to trust him on the next busy Saturday."
 shareable_thought:
   - "Release a colleague debt from the heart without pretending the slight did not matter or skipping boundaries where trust broke."
-  - "Seventy times seven ends ledger-keeping."
+  - "Stop ledger-keeping on old slights."
   - "Stop collecting forever on a debt that poisons work."
   - "Forgiving is not pretending it did not hurt."
 relationships:

@@ -3,10 +3,10 @@ title: "Steward After the Win"
 meta_title: "Steward After the Win - Keep Using the Gift"
 description: "An early win is entrusted, not a license to coast - keep using the gift through the quiet tail."
 key_concept: |
-  {{< bible ref="Matthew 25:14-30" emphasize="23" >}}
+  - An early win is entrusted, not a license to coast through the boring middle.
   - Launch day, promotion email, traffic spike - the temptation is to act like the hard part is done.
   - [[Success is Stewardship]] says the win was entrusted: keep tending, sharing, and serving through the boring middle, not coast on what landed.
-  - [[Faithful Steward]] is the parable shape - well done for faithful use over years, buried talent for playing it safe after one good season.
+  - Gospel depth lives in [[Faithful Steward]] - well done for faithful use over years, buried talent for playing it safe after one good season.
   - [[Finish Strong]] closes the last commitment; this note guards the gap right after the exciting start.
   - [[Sustainable Performance]] is the pace lens - do not burn the gift in a victory lap sprint.
   - [[Compounding]] is the PKM mirror: quiet Tuesdays after the spike still stack.
@@ -17,7 +17,7 @@ shareable_thought:
   - "An early win is entrusted, not a license to coast."
   - "Keep using the gift through the quiet tail."
   - "Launch day, promotion email, traffic spike - the temptation is to act like the hard part is done."
-  - "Faithful Steward is the parable shape."
+  - "Gospel depth lives in Faithful Steward."
 relationships:
   - type: alternative
     wikilink: "[[Minimum Viable Product]]"
@@ -30,7 +30,7 @@ relationships:
     reason: "Faithful use after the spike still stacks on quiet Tuesdays"
   - type: extends
     wikilink: "[[Faithful Steward]]"
-    reason: "Parable warns against burying talent after one good return"
+    reason: "Faithful Steward warns against burying talent after one good return"
   - type: extends
     wikilink: "[[Finish Strong]]"
     reason: "Win is mid-game - close the tail, do not stop at halftime"
@@ -51,7 +51,7 @@ date: "2026-07-05 14:30:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith", "Leadership"]
 author: "JoRap"
-tags: ["Gospel", "Stewardship", "Leadership", "Discipleship", "Performance"]
+tags: ["Gospel", "Stewardship", "Leadership", "Discipleship", "Performance", "Workplace"]
 aliases: ["do not coast on wins", "steward the good season"]
 featured: false
 review: true

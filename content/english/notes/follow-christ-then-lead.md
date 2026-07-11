@@ -3,12 +3,11 @@ title: "Follow Christ, Then Lead"
 meta_title: "Follow Christ, Then Lead - When the Seats Collide"
 description: "When leadership pressure and Christ command collide, follow Christ first - then lead from that footing."
 key_concept: |
-  {{< bible "Matthew 16:24" >}}
-  - Deny self and follow Christ first when org-chart pressure and gospel command pull different ways.
+  - When leadership pressure and Christ's command collide, follow Christ first - then lead from that footing.
   - [[Discipleship]] vs [[Leadership]] names two seats - upward allegiance and outward care.
   - [[God Centered Design]] asks who the plan ultimately serves before I optimize the slide.
   - [[Ethical Leadership]] is what the team can see - but visible integrity without private obedience is sand.
-  - [[Follow Christ, Then Lead]] is the move when the room wants a shortcut, a cover-up, or a compromise I would never take alone with Scripture open.
+  - [[Follow Christ, Then Lead]] is the move when the room wants a shortcut, a cover-up, or a compromise I would never take alone.
   - Gospel depth: [[Abide in Me]] - fruit from staying connected, not self-powered grit in the captain's chair.
   - PKM mirror: [[Seek the Kingdom First]] - kingdom before inbox; here, kingdom before org chart.
 examples:
@@ -62,7 +61,7 @@ cards:
     back: "Follow Christ - refuse, explain calmly, own fallout."
   - front: "Parents might leave if I teach the hard verse. What comes first?"
     back: "Teach it plain - then stay and answer."
-  - front: "Room wants a cover-up I would never take alone with Scripture open. One sequence?"
+  - front: "Room wants a cover-up I would never take alone. One sequence?"
     back: "Christ's command first - then lead the team through it."
   - front: "Captain's chair and shortcut temptation in the same breath. Who do I follow?"
     back: "Christ - then set pace for the room."
