@@ -15,7 +15,7 @@ related_notes:
   - note-relationships
   - commonplace-book
   - success-is-stewardship
-featured: true
+featured: false
 draft: false
 ---
 

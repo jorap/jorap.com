@@ -1,6 +1,6 @@
 ---
 title: "Alex Eala Pro Career Tracker"
-date: 2026-07-05T05:00:00Z
+date: 2026-07-12T05:00:00Z
 meta_title: "Alex Eala Pro Career Tracker"
 slug: "alex-eala-pro-career-tracker"
 description: "My running scrapbook of Alex Eala's WTA career - rankings, matches I'll never forget, and matchups I'm watching for next."
@@ -14,7 +14,7 @@ related_notes:
   - follow-through
 featured: false
 draft: false
-lastmod: 2026-07-10T12:02:00Z
+lastmod: 2026-07-12T00:00:00Z
 ---
 
 I've been following Alex Eala's career since her amazing run at the 2025 Miami Open, and watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook - career-high rankings, the matches I'll always remember, the head-to-heads with Grand Slam champions, and the upcoming matchups I'm watching for. I update it as her career unfolds.
@@ -390,6 +390,29 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 ---
 
+### Linda Noskova
+
+- [WTA Profile](https://www.wtatennis.com/players/329668/linda-noskova)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/329668)
+
+**Grand Slam Titles:**
+
+| Tournament | Year(s) |
+| ---------- | ------- |
+| Wimbledon  | 2026    |
+
+**Matches:**
+
+- **2026 Berlin (Grass)** - Semifinals, LOSS, 2-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-20)
+
+{{< youtube 2xXtCXEVBqg >}}
+
+- **2026 Indian Wells (Hard)** - Round of 16, LOSS, 2-6, 0-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/indian-wells/scores/LS010) | [tennis.com](https://www.tennis.com/tournaments/bnp-paribas-open-indian-wells/matches/a-eala-vs-l-noskova-2026-03-11)
+
+{{< youtube wQ1Y2R4_dAU >}}
+
+---
+
 ### Madison Keys
 
 - [WTA Profile](https://www.wtatennis.com/players/316959/madison-keys)
@@ -518,23 +541,6 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - **2026 Miami Open (Hard)** - Round of 16, LOSS, 0-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/miami-open/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/k-muchova-vs-a-eala-2026-03-23)
 
 {{< youtube FRKYk8uPUJo >}}
-
----
-
-### Linda Noskova
-
-- [WTA Profile](https://www.wtatennis.com/players/329668/linda-noskova)
-- [Head to Head](https://www.wtatennis.com/head-to-head/330332/329668)
-
-**Matches:**
-
-- **2026 Berlin (Grass)** - Semifinals, LOSS, 2-6, 4-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2012/berlin/2026/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/vanda-pharmaceuticals-berlin-tennis-open/matches/l-noskova-vs-a-eala-2026-06-20)
-
-{{< youtube 2xXtCXEVBqg >}}
-
-- **2026 Indian Wells (Hard)** - Round of 16, LOSS, 2-6, 0-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/indian-wells/scores/LS010) | [tennis.com](https://www.tennis.com/tournaments/bnp-paribas-open-indian-wells/matches/a-eala-vs-l-noskova-2026-03-11)
-
-{{< youtube wQ1Y2R4_dAU >}}
 
 ---
 
