@@ -197,4 +197,152 @@ Revisions target six spots: TL;DR, opening, SME paragraph, "What it doesn't mean
 
 JoRap's practical voice stays intact. The TL;DR will stress freedom to inspect, move, and customize, plus the time required to learn. Section 1 will pivot from the money paragraph to freedom to install, break, and learn at one's own pace. The SME paragraph will reframe "Free license, not free fit" around freedom to customize while noting that time and expertise still cost someone. A new beat in "What it doesn't mean" will clarify that open source does not mean instant results; freedom to learn still demands weekends and effort.
 
-The TL;DR will state</details></think>
+The TL;DR will state that freedom mattered more than free, and that learning still took months. Section 1 will open with the no-license entry point. The closing will stress freedom over free. The "What open source actually buys me" section may also adopt a freedom framing.
+
+The SME paragraph will now read "Freedom to customize, not a finished product. Someone still paid in weekends or freelancer hours." The "What it doesn't mean" section will add "Free isn't the point."
+
+The "What it doesn't mean" section will add a new bullet: "Freedom isn't free time." This pairs with the existing "Open doesn't mean I never pay" point. The frontmatter description will also be tightened slightly.</details></think>
+
+_**Agent (auto-low)**_
+
+Shifting the post from "free" to freedom and adding that learning these tools takes real time.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-i-focused-on-open-source.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running voice lint to verify the file reads well.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/why-i-focused-on-open-source.md 2>&1</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice content/english/blog/why-i-focused-on-open-source.md 2>&1
+```
+
+```
+$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check content/english/blog/why-i-focused-on-open-source.md
+Voice dash lint OK
+Voice lint OK
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Summarizing the changes.</details></think>
+
+_**Agent (auto-low)**_
+
+Shifted the post from "no license fee" to **freedom** (install, inspect, customize, own) and made the learning cost explicit throughout.
+
+**TL;DR and opening** — "Freedom mattered more than free." Added that WordPress and Hugo each took months before they felt trustworthy, and that open source lets you learn on your own schedule but doesn't skip the learning.
+
+**SME paragraph** — Ends on "Freedom to adapt, not a finished product out of the box" instead of "Free license, not free fit."
+
+**Hosting section** — Portability reframed as "Freedom to move" and tied to evenings spent learning, not subscriptions.
+
+**What it doesn't mean** — New bullet: **Freedom isn't free time** — evenings, broken staging sites, plugin configs. Skills stuck; you weren't renting permission to touch your own stack.
+
+**Closing** — Pick for freedom, not just "is it free." Budget time to learn. "The freedom was worth the months."
+
+Cost still shows up where it matters (no license fee gets you in the door, free tiers stack). The through-line is that freedom is the real win, and you pay for it in time.

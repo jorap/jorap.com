@@ -71,7 +71,7 @@ The win isn't "AI was fast." It's *"every future feature comes out the same."*
 
 This is what I do on WordPress builds - and any project where AI does a lot of the typing. **Have AI build the reusable 80%, then use it for every new feature.** Same idea for a site, a spreadsheet macro, or a recipe blog.
 
-{{< image src="images/Consistent_AI_Web_Development_Blueprint.png" caption="Four-step blueprint for consistent AI output on WordPress builds" alt="Blueprint: name what repeats, one helper for setup, reference examples, then rules plus a standing instruction" height="558" width="1000" position="center" command="fit" option="q75" class="img-fluid" title="Consistent AI web development blueprint" webp="true" zoomable="true" >}}
+{{< image src="images/Consistent_AI_Web_Development_Blueprint.jpg" caption="Four-step blueprint for consistent AI output on WordPress builds" alt="Blueprint: name what repeats, one helper for setup, reference examples, then rules plus a standing instruction" height="558" width="1000" position="center" command="fit" option="q75" class="img-fluid" title="Consistent AI web development blueprint" webp="true" zoomable="true" >}}
 
 ### Step 1 - Name what repeats
 
