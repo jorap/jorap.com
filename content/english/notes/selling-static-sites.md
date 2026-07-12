@@ -37,7 +37,7 @@ relationships:
     reason: "GitHub plus Cloudflare Pages is the default pipeline until limits bite"
   - type: extends
     wikilink: "[[Git-Based CMS]]"
-    reason: "Client handoff lane - git-based CMS keeps them editing without you"
+    reason: "Client pass-off lane - git-based CMS keeps them editing without you"
   - type: extends
     wikilink: "[[Lean Startup]]"
     reason: "Pilot site, measure what breaks, then package the offer"

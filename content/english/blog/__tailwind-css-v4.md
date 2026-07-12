@@ -1,7 +1,7 @@
 ---
 title: "Tailwind CSS v4.0"
-meta_title: "Tailwind CSS v4.0 - What Changed for Theme Builders"
-description: "Tailwind v4 shifted config and build integration. JoRap's theme rides Hugoplate - here's what v4 means when you touch styles."
+meta_title: "Tailwind CSS v4 - What Changed When Hugoplate Upgraded"
+description: "Tailwind v4 moved config into CSS and shuffled the build pipeline. I didn't fork blindly - I synced Hugoplate upstream and tested before pushing live."
 date: 2026-06-19T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Website", "Technology", "Tutorial"]
@@ -18,32 +18,57 @@ featured: false
 draft: true
 ---
 
-**Tailwind CSS v4** moved toward CSS-first config, new engine, tighter Vite integration. If you maintain a Hugo theme with Tailwind, **upgrade isn't npm bump only** - check how Hugoplate wires PostCSS.
+**Tailwind CSS v4** wasn't a npm bump and forget for this site. Config moved into CSS. The engine changed. Build tooling shifted toward Vite/Oxide. If you maintain a Hugo theme that ships Tailwind, **upgrade is infrastructure work** - readers won't notice, developers will.
 
-I follow the theme upstream and try not to fork CSS blindly.
-
----
-
-## CSS-native configuration
-
-`@theme` in CSS replaces some `tailwind.config.js` patterns. **Read migration guide before editing.**
+I ride [Hugoplate](/blog/hugoplate-theme-review/) upstream and try not to fork CSS blindly. v4 was the test of that habit.
 
 ---
 
-## Build tool coupling
+## What broke my mental model from v3
 
-Vite/esbuild paths differ from v3. **Match Hugo asset pipeline docs.**
+In v3 I lived in `tailwind.config.js` - colors, fonts, spacing tokens in JavaScript. v4 pushes a lot of that into CSS with `@theme`:
+
+```css
+@theme {
+  --color-primary: #2563eb;
+  --font-primary: "Inter", sans-serif;
+}
+```
+
+Change a token, watch it propagate. For a personal rebrand that's genuinely fun - I tweaked accent colors without touching layout files.
+
+The footgun: old config habits don't port line for line. Read the migration guide once before editing.
 
 ---
 
-## Utility-first unchanged
+## Why I picked Hugoplate partly because of Tailwind
 
-Still classes in markup. **Mental model holds; plumbing moved.**
+Most Hugo themes ship bespoke SCSS you'll never fully learn. Hugoplate uses utility classes I already knew from other projects. `p-8` to `p-6` on a card. `text-lg` on a heading. No theme-specific dialect.
+
+v4 kept that **utility-first mental model.** The plumbing moved; the day-to-day editing didn't.
+
+When the upstream theme merged v4, I pulled, ran `hugo server`, clicked around. Homepage, blog single, notes garden, dark mode toggle. Boring checklist. Caught a spacing regression before deploy.
+
+---
+
+## Build pipeline coupling (Hugo + assets)
+
+Hugo's asset pipeline and Tailwind's new engine have to agree. Hugoplate documents how PostCSS/Vite wiring works in their repo - I didn't invent it.
+
+If you're on an old fork frozen on v3, budget an afternoon, not ten minutes. Compare upstream's `package.json` and CSS entry files to yours. Diff beats guessing.
+
+---
+
+## What readers never see
+
+Faster rebuilds on my laptop. Slightly smaller CSS output. Zero change to how a blog post reads.
+
+That's fine. Infrastructure churn isn't content. **Sync theme, test locally, push live** is the whole playbook.
 
 ---
 
 ## Bottom line
 
-Tailwind v4 is infrastructure churn for site maintainers. **Sync theme upstream, test locally, deploy.** Users reading posts won't notice; developers will.
+Tailwind v4 is maintainers' work, not writers'. I let Hugoplate carry most of it and kept my custom CSS thin.
 
-*Idea captured from [ideas.jorap.com](https://ideas.jorap.com/).*
+If you forked a theme years ago and cherry-pick nothing, upgrades hurt. If you stay close to upstream, v4 is a manageable merge - annoying, not catastrophic.

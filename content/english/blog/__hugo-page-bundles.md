@@ -1,7 +1,7 @@
 ---
 title: "Hugo Page Bundles"
-meta_title: "Hugo Page Bundles - Posts With Their Assets"
-description: "Page bundles keep images and Markdown together. I use them when a post has multiple files that shouldn't live in /static."
+meta_title: "Hugo Page Bundles - When I Stop Dumping Images in /static"
+description: "Most of my posts are a single .md file with a hero image in /images. Page bundles are for the messier ones - multiple screenshots, downloads, assets that belong to one post and nowhere else."
 date: 2026-06-19T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Website", "Technology", "Tutorial"]
@@ -19,32 +19,66 @@ featured: false
 draft: true
 ---
 
-A **Hugo page bundle** is a folder with `index.md` plus sibling assets - images, downloads, nested shortcodes. The post owns its files. No guessing which `/images/` filename matches which draft.
+Most of my blog posts are a flat file: `extension-cord.md`, hero image in `/images/extension-cord.jpg`, done. That works until you publish something with six screenshots, a PDF handout, and a diagram that only makes sense next to that one post.
 
-I switch to bundles when a post has more than one custom image or an attachment.
+Then you start naming things `fb-desktop-feed-v2-final.jpg` in a shared folder and hate yourself.
 
----
-
-## Folder structure
-
-`content/blog/my-post/index.md` and `hero.jpg` beside it. Reference with `![alt](hero.jpg)` - **relative paths just work.**
+A **Hugo page bundle** fixes that. It's a folder with `index.md` plus sibling files - images, downloads, whatever ships with that page. The post owns its assets. Delete the folder, delete the clutter.
 
 ---
 
-## Leaf vs branch
+## The mess that pushed me toward bundles
 
-Leaf bundle: one page per folder. Branch bundle: section index with children. **Most blog posts are leaf bundles** when I bother.
+My Facebook Favorites post has two walkthrough screenshots. Right now they live under `static/images/` with generic names. Fine for two files. Annoying when I'm drafting three posts at once and every screenshot starts with `image-`.
+
+I almost bundled that post when I added the mobile and desktop captures. I didn't - single hero image habit won - but the next client migration probably won't get that pass. Church bulletin PDFs beside the announcement page. Before/after shots for a portfolio case study. Stuff you **never** want in a site-wide image dump.
+
+That's the trigger: **more than one custom asset, or an asset that shouldn't outlive the post.**
 
 ---
 
-## Headless bundles
+## Folder structure (leaf bundle)
 
-Resources without their own URL - reusable image sets. Niche but handy for components.
+```
+content/english/blog/my-post/
+  index.md
+  hero.jpg
+  step-2-settings.png
+  handout.pdf
+```
+
+In `index.md`, reference with relative paths:
+
+```markdown
+![Settings screen](step-2-settings.png)
+```
+
+No `/images/` guessing. No "which draft used `screenshot3.png`?" six months later.
+
+**Leaf bundle** = one published page per folder. That's what I reach for first.
+
+---
+
+## Branch vs headless (the ones I rarely need)
+
+**Branch bundle:** a section folder with `index.md` plus child pages. Useful for a tutorial series that shares a landing page. I don't use this much on JoRap - the blog is flat posts.
+
+**Headless bundle:** resources without their own URL - image sets for shortcodes, shared partials. Niche. Hugoplate doesn't push you here on day one.
+
+If you're blogging, assume **leaf bundle** until you have a reason not to.
+
+---
+
+## When I still use a plain `.md` file
+
+Single hero image in `/images/`. No attachments. Post fits the pattern 80% of my archive already uses.
+
+Bundles add a folder to navigate in the editor. Worth it when colocation saves confusion. Not worth it for "one jpeg and 800 words."
 
 ---
 
 ## Bottom line
 
-Hugo page bundles reduce asset chaos. **Colocate what ships together.** For single-image posts, plain `.md` files are still fine.
+Page bundles are **colocate what ships together.** I haven't moved the whole blog over - most posts are still one file. The next post with a pile of screenshots won't be.
 
-*Idea captured from [ideas.jorap.com](https://ideas.jorap.com/).*
+When you migrate an old post, bundle it then. Moving six loose images into a folder takes ten minutes. Hunting them across `/static` in a year takes longer.

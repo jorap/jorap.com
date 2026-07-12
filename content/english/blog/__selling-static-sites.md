@@ -18,11 +18,11 @@ featured: false
 draft: true
 ---
 
-> **TL;DR**: I quote discovery, build, migration, pass-off, and hosting as separate line items. You see what labor costs and what infrastructure costs - no $25/month "maintenance" bundle that hides half the bill in mystery server rent.
+> **TL;DR**: I quote discovery, build, migration, pass-off, and hosting as separate line items. You see what labor costs and what infrastructure costs - no bundled monthly "maintenance" line that hides half the bill in mystery server rent.
 
 ## The old way cost me money and trust
 
-For years I shared a basic PHP hosting plan with a client - about $12 a month for both of us. When they moved on, I was paying the whole bill for what was basically my personal blog. That was my wake-up call about **marking up hosting**.
+For years I shared budget-tier PHP hosting with a client - cheap shared hosting split two ways. When they moved on, I was paying the whole bill for what was basically my personal blog. That was my wake-up call about **marking up hosting**.
 
 I also watched agencies sell "website packages" where half the monthly fee was mystery server rent the client could never audit. The site was a brochure. The bill looked like enterprise infrastructure.
 
@@ -46,7 +46,7 @@ Every quote breaks into pieces the client can see:
 
 **Retainer updates, if they want them.** Email me copy, I push on a schedule. Priced per batch, not folded into a vague monthly fee.
 
-**Hosting and deploy.** CDN, HTTPS, build pipeline, account setup. Priced honestly - usually a modest annual or monthly line, not a bloated "package" left over from the cPanel era. Domain (~$12/year) stays visible and paid to the registrar.
+**Hosting and deploy.** CDN, HTTPS, build pipeline, account setup. Priced honestly - usually a modest annual or monthly line, not a bloated "package" left over from the cPanel era. Domain renewal stays visible and paid to the registrar.
 
 ---
 
@@ -70,7 +70,7 @@ Rough shape, not a price list (every job differs):
 | Build | Repo, deploy, theme, core pages |
 | Migration | Content and media from old sources |
 | Pass-off | Training, one-page doc, or CMS setup |
-| Domain | ~$12/year, paid to registrar, visible |
+| Domain | Annual renewal, paid to registrar, visible |
 | Hosting | CDN, HTTPS, deploy pipeline - priced in writing |
 
 No "starting at" fog. No bundled mystery fees. If they want me on retainer after launch, that's a separate conversation with a real scope.
@@ -105,4 +105,4 @@ Ask who publishes after launch **before** you sign. "We'll figure it out at go-l
 
 Ask what happens if the fit is wrong. A yes on every job is not credibility. A clear no with a referral is.
 
-I charge for work that moves the needle and hosting that's priced to match the job - not a padded monthly line left over from when every brochure needed a $12 PHP plan. That's the whole pitch - and I'd rather lose a job than hide what's in the quote.
+I charge for work that moves the needle and hosting that's priced to match the job - not a padded monthly line left over from when every brochure needed cheap PHP hosting. That's the whole pitch - and I'd rather lose a job than hide what's in the quote.

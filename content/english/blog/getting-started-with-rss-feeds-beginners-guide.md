@@ -1,8 +1,10 @@
 ---
-title: "Getting Started with RSS Feeds"
-meta_title: "Getting Started with RSS Feeds - What I Wish I'd Done Sooner"
+title: "RSS Feeds - What I Wish I'd Done Sooner"
+meta_title: "RSS Feeds - What I Wish I'd Done Sooner"
 description: "I figured RSS quietly died around 2010. A friend pointed out it never actually did - it just stopped being trendy. Two weeks of using it later, I was a convert."
-slug: "getting-started-with-rss-feeds-a-beginners-guide"
+slug: "getting-started-with-rss-feeds"
+aliases:
+  - "getting-started-with-rss-feeds-a-beginners-guide"
 date: 2024-03-30T05:00:00Z
 image: "/images/rss.jpg"
 categories: ["Technology", "Productivity", "Guide"]

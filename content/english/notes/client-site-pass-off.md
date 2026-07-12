@@ -44,7 +44,7 @@ image: "/images/note.jpg"
 categories: ["Productivity"]
 author: "JoRap"
 tags: ["Website Building", "Freelance", "Static Site Generator", "Client Work", "Pass-off"]
-aliases: ["site pass-off", "client publish path", "/notes/client-site-handoff/"]
+aliases: ["site pass-off", "client publish path"]
 featured: false
 review: true
 card_sets: ["Focus", "Review"]

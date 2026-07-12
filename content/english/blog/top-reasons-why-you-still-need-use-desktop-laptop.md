@@ -1,6 +1,6 @@
 ---
-title: "Top Reasons Why You Still Need a Desktop or Laptop"
-meta_title: "Top Reasons You Still Need a Computer"
+title: "Why I Still Keep a Desktop or Laptop"
+meta_title: "Why I Still Keep a Real Computer"
 description: "Every couple of years, someone tells me they're going mobile-only. A few months later, they're sheepishly asking to borrow my laptop for taxes, video edits, or a PDF form. Here's why I keep mine around."
 slug: "top-reasons-why-you-still-need-use-desktop-laptop"
 date: 2021-06-14T05:00:00Z

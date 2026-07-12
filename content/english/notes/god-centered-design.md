@@ -14,9 +14,9 @@ examples:
   - "My notes garden started chasing traffic instead of clarity - God-centered design was one question before publish: does this help someone know Christ or live like Him, or is it just my brand?"
 shareable_thought:
   - "Design life and work around God glory first - not crowd applause, ego, or comfort."
-  - "God-centered design orders life and work around God's glory first, not crowd applause, ego, or comfort."
-  - "Good works visible so the Father gets glory."
-  - "Build for His name, not my brand."
+  - "Good works stay visible so the Father gets glory - build for His name, not my brand."
+  - "A calendar built for applause still feels empty on Monday when God was not the aim."
+  - "Seek the Kingdom First is the filter - neighbor love keeps God-first from becoming selfish spirituality."
 relationships:
   - type: alternative
     wikilink: "[[People-Centered Design]]"
@@ -41,7 +41,7 @@ relationships:
     reason: "Faith lane for clear outcome - God's reign before urgency"
   - type: extends
     wikilink: "[[Renewed Mind]]"
-    reason: "[[Don't Copy the Pattern]] - do not conform life to culture's design defaults"
+    reason: "Refuse conforming life to culture design defaults - Renewed Mind positive half"
   - type: extends
     wikilink: "[[Sanctification]]"
     reason: "Design life for slow becoming under God's reign"

@@ -24,6 +24,33 @@ Keep notes garden frontmatter sounding like JoRap wrote them - practical, person
 - Flashcard fronts and backs - word choice only ([flashcards](../flashcards/SKILL.md) owns shape)
 - Rewriting stiff or AI-generated garden frontmatter
 
+## When to use which (garden vs seven passes)
+
+Blog posts use [jorap-voice](../jorap-voice/SKILL.md) and its **seven rewrite passes** (lived-in, de-AI, thinking, friend-flow, POV, credible, editor). Notes garden frontmatter uses **this skill** - same voice goal, different shape.
+
+| You are editing | Use |
+|-----------------|-----|
+| `content/english/blog/` | jorap-voice - all seven passes on body prose |
+| `content/english/notes/` frontmatter | garden-voice - field workflow below |
+| Flashcard fronts/backs | garden-voice (words) + [flashcards](../flashcards/SKILL.md) (shape) |
+| Bloated draft before splitting into fields | Seven passes on the blob, **then** split and run garden-voice per field |
+
+**Seven passes on garden fields** - one read per pass, per field (not the whole note at once):
+
+| Pass | Garden field | How it maps |
+|------|--------------|-------------|
+| 1 Lived-In | `examples`, faith gloss | Two scenes that feel different; first-person gloss after `{{< bible >}}` |
+| 2 Strip AI Tells | All fields | Same as de-AI pass below + `pnpm lint:voice` |
+| 3 Show Thinking | `key_concept` only | Tradeoffs in the claim stack - not open questions in `shareable_thought` |
+| 4 One-Friend | Cards, note body | Frontmatter stays tighter: no contractions, third-person `description` |
+| 5 Sharper POV | `key_concept` line 1 | Claim you'd argue - not a dictionary opener |
+| 6 Credible | `examples`, `key_concept` | Specific scene or failure, not "good practice" |
+| 7 Top-Editor | All fields | Voice check below - **cut** for density, do not lengthen for flow |
+
+**Minimum on any garden edit:** pass **#2**, **#5** on `key_concept` line 1, **#7** (voice check). Even one-line `relationships.reason` fixes get the de-AI pass.
+
+**Conflicts to respect:** pass #3 (reflective, open questions) and #4 (conversational) apply most to cards and body - not permission to ramble in `description`, `shareable_thought`, or `relationships.reason`.
+
 ## Workflow
 
 1. **Read 1-2 reference notes** in the same lane before writing:

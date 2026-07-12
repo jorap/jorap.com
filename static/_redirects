@@ -7,5 +7,8 @@ https://jorap.com https://www.jorap.com/ 301!
 /notes/cards/ /notes/flashcards/ 301
 /notes/cards /notes/flashcards/ 301
 
+/notes/client-site-handoff/ /notes/client-site-pass-off/ 301
+/notes/client-site-handoff /notes/client-site-pass-off/ 301
+
 # 404 fallback
 /* /en/404.html 404

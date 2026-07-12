@@ -6,7 +6,8 @@ description: >-
   Use when drafting, outlining, rewriting, or polishing blog content under
   content/english/blog/, writing blog meta_title and description, matching JoRap's
   writing style, or when posts sound generic, SEO-ish, stiff, or AI-generated.
-  For notes garden frontmatter, use garden-voice instead.
+  Runs seven rewrite passes (lived-in, de-AI, thinking, friend-flow, POV, credible,
+  editor) before publish. For notes garden frontmatter, use garden-voice instead.
 ---
 
 # JoRap Voice (Blog)
@@ -15,7 +16,7 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
 
 **Primary test:** Would a reader think a real person typed this after using the thing? If it reads like a summary of what a good post *should* say, rewrite it.
 
-**Notes garden** (`description`, `key_concept`, `examples`, `shareable_thought`, EP scripture) uses [garden-voice](../garden-voice/SKILL.md), not this skill.
+**Notes garden** (`description`, `key_concept`, `examples`, `shareable_thought`, EP scripture) uses [garden-voice](../garden-voice/SKILL.md), not this skill. See garden-voice **When to use which** for how these seven passes map to per-field garden work.
 
 ## When to use
 
@@ -33,7 +34,7 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
    - **Tips:** `content/english/blog/power-of-the-mouse-wheel-click.md`
    - **Opinion:** `content/english/blog/why-i-stopped-playing-marvel-snap.md`
 2. **Draft in the author's voice**, not a generic blogger voice.
-3. **Run the de-AI pass** (below) - mandatory, even on small edits.
+3. **Run the seven rewrite passes** (below) - mandatory, even on small edits. Skim all seven on every edit; deep-rewrite any section that fails more than one pass.
 4. **Run the voice check** (below) before finishing.
 5. For before/after samples and anti-patterns, see [examples.md](examples.md).
 
@@ -45,6 +46,7 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
 | **Opinionated** | State preferences plainly. "I want buttons. Real ones." Not "some users may prefer physical controls." |
 | **Practical** | Lead with what matters day to day. Cut specs, marketing fluff, and features nobody actually uses. |
 | **Honest** | Include what broke, what you'd skip, what ended up in a drawer. Credibility beats polish. |
+| **Reflective** | Show how you actually thought it through - tradeoffs you weighed, the option you almost picked, what you're still watching. Then land the take. |
 | **Grounded** | Real context - family, commute, home office, Philippines (Shopee, jeepney, local sellers) when relevant. Not forced, just natural. |
 | **Understated humor** | Dry asides, not jokes-for-the-sake-of-jokes. "The most boring possible reason to spend an hour debugging." |
 | **Plain words** | No college jargon, no thesaurus swaps. If a simpler word works, use it. |
@@ -74,6 +76,58 @@ AI writing is smooth, balanced, and empty. JoRap writing is specific, uneven, an
 - **Imperfect rhythm**: not every paragraph needs three sentences. Not every section needs the same shape.
 - **A real take**: end sections with what *you* do, not what "one should consider."
 - **Lived friction**: what annoyed you, what you got wrong, what you'd skip next time.
+- **Visible thinking**: the near-miss ("I almost bought the outdoor-rated one for indoor use"), the tradeoff you accepted, one small observation that tipped you - not endless hedging.
+
+## Seven rewrite passes
+
+One read of the draft per pass. On a full rewrite, run all seven in order. On a light polish, at minimum run **#2 Strip the AI Tells**, **#5 Sharper Point of View**, and **#7 Top-Editor Pass**.
+
+### 1. Lived-In Voice
+
+Rewrite from someone who has actually done the work. Cut generic advice. Swap in specific observations, hard-won lessons, and real details. Keep the tone relaxed and conversational.
+
+- Could this paragraph appear in any buying guide? Add a memory, a mistake, or what you actually do.
+- Generic "check the label" → the time the cord ran warm on a 25-foot run.
+
+### 2. Strip the AI Tells
+
+Remove every sign of AI writing. Kill repetitive sentence shapes, predictable transitions, filler, and over-explaining. Vary sentence length so it reads spontaneous.
+
+See **AI tells** below. If a section still feels generated after this pass, rewrite it from one real memory - don't polish slop.
+
+### 3. Show the Thinking
+
+Reveal how a real person works through the topic. Add tradeoffs, second-guesses, small observations, and open questions where they fit. Make it feel reflective, not committee-polished.
+
+- Name what you almost did, what you ruled out, or what you're still unsure about - then say what you picked anyway.
+- One honest doubt per post is enough. Don't hedge every sentence into mush.
+
+### 4. One-Friend Flow
+
+Rewrite as if you're explaining it to one sharp friend. Plain language, mixed short and long sentences, smooth transitions. Clarity and connection over formality.
+
+- Read aloud. Would you actually say this mid-rush?
+- Cut words you'd pause to define. Contractions are fine.
+
+### 5. Sharper Point of View
+
+Rewrite with a clearer opinion. Add conviction, personality, and plain expressive language. Drop the neutral, corporate, committee-approved tone.
+
+- "Some users may prefer…" → "I want…" / "Skip…"
+- Fake balance on every point → pick a side when you have one.
+
+### 6. Make It Credible
+
+Every line should feel grounded and real. Replace vague claims with concrete details, examples, and practical explanations a reader would actually believe.
+
+- Add at least one specific per section: number, name, place, failure - not currency.
+- "Good battery life" → "still had juice after a full workday and a grocery run."
+
+### 7. Top-Editor Pass
+
+Edit like a great editor prepping to publish. Sharpen clarity, flow, and pull. Cut anything generic or artificial. Protect the core message.
+
+JoRap editor bias: **roughen** over-polish, don't smooth into a help article. Cut summary sandwiches and symmetrical nothingburgers. Land the closing on what you'd buy again or actually do - not "hope this helps."
 
 ### AI tells - remove these
 
@@ -88,16 +142,14 @@ AI writing is smooth, balanced, and empty. JoRap writing is specific, uneven, an
 - **Thesaurus voice**: delve, tapestry, harness - plus hollow phrase patterns in `data/voice-words.yaml`.
 - **Over-polish**: if every sentence is grammatically perfect and emotionally flat, roughen one or two.
 
-### De-AI pass (mandatory)
+### Quick de-AI check
 
-Read the draft aloud (or simulate it). For each paragraph ask:
+After the seven passes, one final skim. For each paragraph:
 
-1. Could this appear in any generic blog post about this topic? → add a specific detail or personal angle.
+1. Could this appear in any generic blog post about this topic? → pass #1 or #6.
 2. Is this saying something or just sounding like it's saying something? → cut or replace with a concrete claim.
-3. Would JoRap actually type this sentence? → if not, simplify the words and add "I".
+3. Would JoRap actually type this sentence? → pass #4 or #5.
 4. Any word you'd pause to define? → swap for the plain word you'd say out loud.
-
-If a section still feels generated, rewrite it from scratch using one real memory or opinion - don't polish AI slop.
 
 ## Tone
 
@@ -147,6 +199,7 @@ Recipe content can be more instructional - ingredients, steps, timings - but sec
 - [ ] Opens with experience or a concrete problem, not a generic intro
 - [ ] Uses "I" and real scenarios, not "users" and "one might"
 - [ ] At least one specific detail per section (number, name, place, mistake) - not currency
+- [ ] Shows thinking somewhere - a tradeoff, near-miss, or honest doubt - then lands a take
 - [ ] States opinions clearly - no endless "it depends" without a take
 - [ ] Plain words only - no jargon or thesaurus words you wouldn't say out loud
 - [ ] Read aloud - no word you'd pause to define

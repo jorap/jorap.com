@@ -47,7 +47,7 @@ Shopee's sorting centers (SOCs) move a lot of volume - Paranaque, Biñan, Plarid
 
 ## Maximize shipping fee (without gaming yourself)
 
-Shopee's shipping promos change, but the logic stays the same: **don't pay full freight on a ₱89 item** unless you truly need it tomorrow.
+Shopee's shipping promos change, but the logic stays the same: **don't pay full freight on a cheap item** unless you truly need it tomorrow.
 
 **What I do:**
 

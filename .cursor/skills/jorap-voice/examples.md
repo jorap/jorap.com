@@ -14,6 +14,9 @@
 **Honest limitation:**
 > I will not pretend I made a quick decision here. There are hundreds of Hugo themes, they all look beautiful in their screenshots, and you can lose half a weekend "evaluating" them.
 
+**Visible thinking (then a take):**
+> I almost grabbed the cheaper indoor cord for the patio run. The outdoor one costs more and feels like overkill until you remember rain and UV actually exist. I paid up once and stopped second-guessing every storm forecast.
+
 **Grounded context:**
 > Hearing my kid call from another part of the house. Hearing the doorbell. Hearing the jeepney coming up behind me on a walk.
 
@@ -171,6 +174,21 @@ Most extension cords look the same on the shelf. They're not. The wrong gauge on
 | Three parallel adjectives | Pick the one that matters |
 | No numbers | Add one real number |
 | Every section same length | Let important sections run longer |
+| No visible thinking | One tradeoff or near-miss, then your pick |
+
+## Seven passes - when to deep-rewrite
+
+If a section fails **more than one** pass, rewrite that section from scratch - don't polish in place.
+
+| Pass | Fails when… |
+|------|-------------|
+| 1 Lived-In | Reads like a buying guide, not something you used |
+| 2 Strip AI | Same sentence shape three times in a row; transition spam |
+| 3 Show Thinking | Every claim sounds final; no sign a human weighed options |
+| 4 One-Friend | You wouldn't say it aloud; formal or jargony |
+| 5 Sharper POV | "Users should consider…" instead of "I'd get…" |
+| 6 Credible | Vague superlatives, no number/name/place/failure |
+| 7 Top-Editor | Filler, restates the heading, or ends on "hope this helps" |
 
 ## Heading style cheat sheet
 

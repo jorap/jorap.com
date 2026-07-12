@@ -13,9 +13,9 @@ examples:
   - "I laid out the kids' chore chart and three jobs had zero arrows to anything else - nobody knew who checked them; that gap list was my fix-this-week."
 shareable_thought:
   - "Graph view analytics reads the link map for orphans, over-connected hubs, and forgotten gaps."
-  - "Graph view analytics reads the link map for orphans, over-connected hubs, and gaps forgotten."
-  - "The link map shows notes with no links, notes with too many, and gaps forgotten to connect."
-  - "Read the graph for orphans and over-linked hubs before they skew the garden."
+  - "Orphan notes have no links in or out - they rot because nothing routes readers there."
+  - "Over-linked hubs pull too much weight - they skew which notes feel central."
+  - "Read the graph before you prune - fix orphans and thin hubs before the map misleads you."
 relationships:
   - type: contradicts
     wikilink: "[[Maps of Content]]"
