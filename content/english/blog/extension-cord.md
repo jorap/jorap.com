@@ -1,8 +1,8 @@
 ---
-title: "Extension Cord"
-meta_title: "Extension Cord - What I Pack for Hotel Outlets and Tight Plugs"
+title: "The Short Extension Cord in My Laptop Bag"
+meta_title: "The Short Extension Cord in My Laptop Bag - Hotel Outlets and Tight Plugs"
 description: "A short extension cord lives in my laptop bag. Hotel outlets behind the bed, blocked café sockets, full meeting-room strips - here's what I look for."
-date: 2026-06-18T05:04:00Z
+date: 2026-07-11T05:04:00Z
 image: "/images/extension-cord.jpg"
 categories: ["Gear", "Home", "Reviews"]
 author: "JoRap"
