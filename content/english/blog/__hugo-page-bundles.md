@@ -29,9 +29,9 @@ A **Hugo page bundle** fixes that. It's a folder with `index.md` plus sibling fi
 
 ## The mess that pushed me toward bundles
 
-My Facebook Favorites post has two walkthrough screenshots. Right now they live under `static/images/` with generic names. Fine for two files. Annoying when I'm drafting three posts at once and every screenshot starts with `image-`.
+My [Facebook Favorites post](/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience/) has two walkthrough screenshots - `fb-desktop-feed.jpg` and `fb-mobile-feed.jpg` - referenced from the post but still sitting as loose image files, not colocated in a bundle folder. Fine for two files. Annoying when I'm drafting three posts at once and every new screenshot lands in the same shared pile.
 
-I almost bundled that post when I added the mobile and desktop captures. I didn't - single hero image habit won - but the next client migration probably won't get that pass. Church bulletin PDFs beside the announcement page. Before/after shots for a portfolio case study. Stuff you **never** want in a site-wide image dump.
+I didn't bundle that post when I added the captures. Single-file habit won. The next client migration probably won't get that pass - church bulletin PDFs beside the announcement page, before/after shots for a portfolio case study. Stuff you **never** want in a site-wide image dump.
 
 That's the trigger: **more than one custom asset, or an asset that shouldn't outlive the post.**
 

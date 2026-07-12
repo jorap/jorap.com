@@ -1,7 +1,7 @@
 ---
 title: "Hugo Go Templates"
 meta_title: "Hugo Go Templates - How I Learned Without Reading the Whole Manual"
-description: "Hugo layouts scared me until I broke the homepage and had to fix it. Most of what I touch is copy-paste from Hugoplate partials - Go templates with sprinkles."
+description: "Hugo layouts scared me until I broke a blog listing and had to fix it. Most of what I touch is copy-paste from Hugoplate partials - Go templates with sprinkles."
 date: 2026-06-19T06:00:00Z
 image: "/images/image-template.jpg"
 categories: ["Website", "Technology", "Tutorial"]
@@ -25,13 +25,13 @@ Still my best teacher.
 
 ---
 
-## The first break: homepage featured posts
+## The first break: blog list order
 
-Early on I wanted the homepage to show something different - featured posts, notes garden links, less of the default Hugoplate marketing blocks. I edited a layout, pushed, and got a blank section. No error on the page. Just missing HTML.
+Early on I wanted featured posts to float to the top of the blog index. I wired up `featured: true` in frontmatter and edited a listing template before I'd read how Hugoplate already sorted pages.
 
-Turned out I'd referenced `.Params.featured` wrong and Hugo quietly rendered nothing. Classic template bug: **valid syntax, wrong context.**
+Wrong context in the template - valid syntax, empty or wrong output. No error on the page. Just not what I expected.
 
-Fix was copying how Hugoplate already ranged over `.Pages` in another partial, then swapping in my filter. I didn't learn Go. I learned **read the theme first.**
+Fix was copying the site's `sort-featured-first` partial - filter on `.Params.featured`, then append the rest. I didn't learn Go. I learned **read the theme first.**
 
 ---
 

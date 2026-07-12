@@ -68,7 +68,7 @@ Markdown passes `id`:
 - `{{</* shortcode */>}}` - inner content treated as HTML (markdown not processed inside)
 - `{{{%/* shortcode */%}}%}}` - inner content runs through markdown
 
-I use `<>` for images and embeds. `%` when the shortcode wraps prose that should still format as markdown.
+I use `{{</* ... */>}}` for images and embeds on this site - that's almost every shortcode call in my posts. The `%` delimiter is for paired shortcodes when inner content needs markdown processing. I rarely need it here; Hugoplate's image and embed shortcodes are self-closing.
 
 Get this wrong once and you'll wonder why your bold text stopped working inside a callout.
 

@@ -1,6 +1,6 @@
 ---
 title: "Why I Still Keep a Desktop or Laptop"
-meta_title: "Why I Still Keep a Real Computer"
+meta_title: "Why I Still Keep a Desktop or Laptop"
 description: "Every couple of years, someone tells me they're going mobile-only. A few months later, they're sheepishly asking to borrow my laptop for taxes, video edits, or a PDF form. Here's why I keep mine around."
 slug: "top-reasons-why-you-still-need-use-desktop-laptop"
 date: 2021-06-14T05:00:00Z
@@ -93,10 +93,8 @@ For PC gaming, emulators, VR, or just kicking back with a film, a bigger screen 
 
 ---
 
-## So what's the verdict?
+## What I keep in the bag
 
-Phones win at being with you. They're always in your pocket, they handle the quick stuff, and they're great at things like messaging, photos, navigation, and the endless scroll.
+Phone for quick hits. Laptop for anything that needs a keyboard, a big screen, or more than ten focused minutes.
 
-Computers win at everything else. Serious work, longer sessions, creative tools, gaming, anything where comfort and power matter.
-
-Use both. That's the honest answer. But don't sell your laptop just because everyone on TikTok is doing everything from a tablet. The day you need to actually *make* something instead of just consuming it, you'll be glad you kept it around.
+I've watched people go tablet-only and borrow a PC for tax season. That's fine if it fits your life. I just don't want to be the one without a real computer when payroll or a sermon outline won't fit on a phone keyboard.

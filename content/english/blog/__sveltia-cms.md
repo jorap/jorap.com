@@ -16,7 +16,7 @@ draft: true
 
 **Sveltia CMS** is a lightweight, Git-backed editor for static sites. Svelte UI in the browser. Changes commit to your repo. Hugo still builds on push.
 
-I don't use it for my own blog - I write in Markdown and push. I keep Sveltia in the toolbox for **clients who won't open VS Code** but still fit a static stack.
+I don't draft my own posts in Sveltia - I write Markdown in the editor and push. The site does ship a `/admin/` panel backed by Sveltia for when buttons beat Git lessons. I keep it in the toolbox for **clients who won't open VS Code** but still fit a static stack.
 
 ---
 
@@ -24,7 +24,7 @@ I don't use it for my own blog - I write in Markdown and push. I keep Sveltia in
 
 [Client site pass-off](/blog/client-site-pass-off/) is where static projects live or die. Option one: Git lesson - works for some neighbors, fails for others. Option four: git-based CMS - buttons for people who need buttons.
 
-A pastor wanted sermon archives without learning YAML. A marketing volunteer needed to fix typos on a brochure site. "Just edit the file and commit" wasn't going to happen. WordPress felt like overhead for twice-a-month updates.
+Picture someone who needs sermon archives or brochure typo fixes without learning YAML. "Just edit the file and commit" wasn't going to happen. WordPress felt like overhead for twice-a-month updates.
 
 Sveltia (and tools like it) sit in the gap: **static hosting economics, CMS-shaped editing.**
 

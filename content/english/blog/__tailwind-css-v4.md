@@ -47,7 +47,7 @@ Most Hugo themes ship bespoke SCSS you'll never fully learn. Hugoplate uses util
 
 v4 kept that **utility-first mental model.** The plumbing moved; the day-to-day editing didn't.
 
-When the upstream theme merged v4, I pulled, ran `hugo server`, clicked around. Homepage, blog single, notes garden, dark mode toggle. Boring checklist. Caught a spacing regression before deploy.
+When the upstream theme merged v4, I pulled, ran `hugo server`, clicked around - homepage, blog single, notes garden, dark mode toggle. Boring checklist before push live.
 
 ---
 

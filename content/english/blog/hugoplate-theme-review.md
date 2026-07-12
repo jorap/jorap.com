@@ -37,23 +37,9 @@ The other thing worth knowing up front: it's a **starter**, not a finished produ
 
 ## What you get out of the box
 
-This is the part the screenshots don't fully convey. When you spin up HugoPlate, you immediately have:
+Enough that I didn't spend month one building a blog from scratch: homepage sections, blog list and single templates, categories, tags, dark mode, search, SEO tags, contact form hooks, WebP image processing.
 
-- A working homepage with hero, features, services, testimonial, and call-to-action sections
-- A blog with listing pages, single posts, categories, tags, and pagination
-- About, Contact, Pricing, Authors, FAQ, and Elements pages already wired up
-- Dark mode with a clean toggle
-- A search page that actually works (Fuse.js under the hood)
-- Multi-language support - content lives under `content/<lang>/`
-- Multi-author support with author pages and post attribution
-- Pre-configured SEO: Open Graph tags, Twitter cards, sitemap, robots, JSON-LD
-- A contact form ready to point at Netlify, Formspree, or whatever you use
-- Image processing with WebP support
-- Disqus comments support if you want them
-- Google Analytics 4 hooks
-- A `params.toml` for sitewide content so non-devs can edit text without touching layouts
-
-That's a lot of "I don't have to build that from scratch" packed into a free theme.
+I turned off or ignored half the demo templates - Pricing, FAQ pages I wasn't shipping - and kept the blog and notes paths I actually use. The repo screenshot undersells how much wiring is done. It also oversells how much you'll need. Treat the demo pages as spare parts, not a site map you must launch day one.
 
 ---
 

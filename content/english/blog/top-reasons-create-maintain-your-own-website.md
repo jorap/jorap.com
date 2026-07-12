@@ -101,12 +101,8 @@ Compare that to the constant treadmill of producing content for someone else's a
 
 ---
 
-## So, should you build one?
+## What I actually do
 
-If you're a creator, a freelancer, a small business, a teacher, a pastor, a hobbyist with something to share - yes. I think you should.
+I still post on social for reach. The site holds what I want findable in five years - essays, reference posts, stuff I'd hate to lose in a platform pivot.
 
-You don't have to abandon social media. Use it for reach. Use your site for everything that has to last. Treat the platforms like flyers in a coffee shop, and your website like the actual storefront.
-
-The internet keeps trying to convince us that we don't need our own corner of it anymore. I think the opposite is true. The noisier the platforms get, the more valuable a quiet, well-tended home page becomes.
-
-You're reading mine right now. Maybe go build yours.
+I'm not asking you to quit Facebook. I sleep better with a backup I control. If that sounds worth an evening of setup, start small: one page, one post, one thing you'd miss if the app disappeared tomorrow.
