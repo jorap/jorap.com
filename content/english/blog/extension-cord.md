@@ -23,7 +23,7 @@ I started packing one after one too many calls on a dying battery with nowhere t
 
 ---
 
-## Length: about 2 metres, not a spool
+## Length: about 2 metres, not five
 
 For laptop duty you want **1.5 to 2 metres** - enough to bridge a bad outlet, short enough to coil without turning your bag into a cable nest.
 
@@ -35,7 +35,7 @@ I measure once: from the typical bad outlet to where I'd actually sit. Then I ad
 
 ## Wire thickness: you don't need heavy-duty
 
-A laptop charger pulls a light load - somewhere between a bright desk lamp and a small fan. You are **not** running a space heater through this cord.
+A laptop charger pulls a light load - somewhere between a bright desk lamp and a small fan. You are **not** running a microwave through this cord.
 
 If a cord feels warm under a normal laptop load, something is wrong: thin wire, a damaged jacket, or too many things chained together. Unplug it and replace it.
 

@@ -33,7 +33,7 @@ The old setup was a [smaller rice cooker batch](/blog/set-it-forget-it-arroz-cal
 
 **Taste before the chicken.** With the rice cooker I dumped raw chicken and rice together and tasted the liquid once at the start. With the Instant Pot you **cannot** taste again until everything is fully cooked - raw chicken in the broth is a food safety line you don't cross. So you build the seasoned base first, taste and adjust the fish sauce and salt, *then* add the rinsed rice and drumsticks. Get the liquid slightly saltier than you'd want for normal soup; the rice drinks a lot of it.
 
-**Natural release is not optional.** Quick release on starchy congee sprays hot porridge out the vent. Wait the full 15 minutes NPR, then release whatever's left.
+**Natural release is not optional.** Quick release on starchy congee sprays hot porridge out the vent. Wait the full 15 minutes of natural pressure release, then release whatever's left.
 
 The rice cooker was good for a hands-off Friday night when I didn't need much. The Instant Pot does that job better now - bigger pot, faster, and I haven't gone back.
 

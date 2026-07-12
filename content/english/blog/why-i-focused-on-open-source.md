@@ -1,7 +1,7 @@
 ---
 title: "Why I Focused on Open Source Technologies"
 meta_title: "Why I Bet on Open Source - Practical Reasons, Not a Manifesto"
-description: "Open source wasn't a purity test for me. It was cheaper hosting, inspectable code, portable files, and communities big enough to find work in. Here's how that shaped my stack."
+description: "Open source wasn't a purity test for me. Freedom mattered more than free - install tonight, read the code, move your files, own the stack. Learning still ate months. Here's how that shaped my choices."
 slug: "why-i-focused-on-open-source"
 date: 2026-07-04T12:00:00Z
 image: "/images/open-source.jpg"
@@ -18,13 +18,17 @@ featured: false
 draft: false
 ---
 
-> **TL;DR**: I didn't pick open source because it's morally superior on a slide deck. I picked it because the tools were free to try, the code was there when something broke, my files could move when a host died, and the communities were big enough that I could actually find work. That's still the filter.
+> **TL;DR**: I didn't pick open source because it's morally superior on a slide deck. I picked it because I could install it tonight, read the code when something broke, move my files when a host died, and find work in communities big enough to hire from. **Freedom mattered more than free.** Learning still ate months. That's still the filter.
 
 ## It started as a money and access problem
 
 When I got serious about web work, "open source" wasn't a brand I wore on a conference lanyard. It was the shelf I could afford.
 
-Proprietary CMS licenses, boxed design software, monthly platform fees - fine if someone else is paying. When you're learning, freelancing, or teaching students who are scraping together a laptop, **free to download and free to run locally** isn't philosophy. It's the difference between trying the thing this week or putting it off for a year.
+Proprietary CMS licenses, boxed design software, monthly platform fees - fine if someone else is paying. When you're learning, freelancing, or teaching students who are scraping together a laptop, no license fee gets you in the door. That's real. It's the difference between trying the thing this week or putting it off for a year.
+
+What kept me wasn't "free." It was **freedom** - install without asking permission, break things on your own machine, read the source when the docs lie, hand a client something they actually own. That freedom still costs time. WordPress took me months before I trusted myself on a live site. Hugo took another stretch before the build pipeline felt natural. Open source lets you learn on your own schedule. It doesn't skip the learning.
+
+Small and medium businesses hit the same wall from the other side. They couldn't afford proprietary stacks - the license ate the margin. Open source gave them room to customize instead, but the software still had to match how the shop actually ran. Inventory, bookings, a theme that didn't look like a template from 2014. **Someone paid in expertise** - a freelancer to wire it up, or the owner's weekends learning plugins. Freedom to adapt, not a finished product out of the box.
 
 I taught seminars on open-source technology and web careers. Not because I wanted everyone to join a movement. Because the job market in the Philippines already ran on WordPress, Linux hosting, and PHP stacks you could spin up without a corporate card. Teaching closed tools that students couldn't install at home felt like a waste of everyone's afternoon.
 
@@ -52,7 +56,7 @@ Shared hosting bills I couldn't justify. A database I didn't control. Content tr
 
 Moving to Hugo + GitHub + Cloudflare Pages wasn't "I love Go." It was: **my posts are markdown files in a repo**. The theme is open source. The build tool is one binary. If Cloudflare changes terms tomorrow, the content still lives in Git. I can point the repo somewhere else.
 
-That's the open-source win I care about day to day - not stickers on a laptop. **Portability.** Boring formats. Tools I can read when something breaks at ten at night.
+That's the open-source win I care about day to day - not stickers on a laptop. **Freedom to move.** Boring formats. Tools I can read when something breaks at ten at night. I paid for that freedom in evenings, not subscriptions.
 
 ---
 
@@ -77,6 +81,8 @@ After years of building and teaching on this stuff, the benefits aren't abstract
 I don't treat open source as a purity test.
 
 **Open doesn't mean good.** Plenty of open-source plugins are junk. "View source" doesn't help if nobody maintains the project. I still evaluate tools like anything else - does it solve the job, is it maintained, will the client still own it after I pass it off.
+
+**Freedom isn't free time.** No monthly license is not the same as no cost. You still spend evenings on tutorials, broken staging sites, and plugin configs that almost work. I accepted that trade because the skills stuck - and because I wasn't renting permission to touch my own stack.
 
 **Open doesn't mean I never pay.** Domains cost money. Some hosted services are worth it. Bitwarden has a paid family plan I happily use. Open source at the core; paid where the hosted convenience earns its keep.
 
@@ -106,8 +112,8 @@ Don't start with a manifesto. Start with a problem.
 
 Need a site you can afford to keep running? Look at static generators and markdown in Git. Need client work next quarter? Look at where the job posts are - in my market, that was WordPress for a long time. Need to trust a tool with secrets? Open source plus a real security track record beats marketing copy.
 
-Pick for **ownership, portability, and community depth**. Skip the tools that only let you work inside their garden unless the garden is worth the rent.
+Pick for **freedom, ownership, and community depth** - not just "is it free." Skip the tools that only let you work inside their garden unless the garden is worth the rent. Budget time to learn. There's no shortcut past that.
 
-I focused on open source because it let me learn without begging for licenses, survive a hosting disaster, find work, and hand clients something they could keep. Still does.
+I focused on open source because it let me learn without begging for licenses, survive a hosting disaster, find work, and hand clients something they could keep. The freedom was worth the months. Still is.
 
 That's enough reason for me.

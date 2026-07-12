@@ -31,7 +31,7 @@ The pitch landed immediately.
 
 **Short matches.** A full game fits in a coffee break. No forty-minute Hearthstone slog. Lose badly and you're back in queue before the shame sets in.
 
-**Marvel done lean.** I'm not a comics completionist, but I know the characters. Seeing a weird combo with Wong, Mystique, or a location I've never heard of was enough to keep me curious without requiring lore homework.
+**Marvel done lean.** I'm not a comics completionist, but I know the characters - Spider-Man, Wolverine, the usual crowd. That's the whole appeal next to something like **Magic: The Gathering**, where half the fun is learning a deep rules engine and a universe you've never read. Snap gave me mainstream Marvel I already cared about. Wong, Mystique, a location I'd never heard of - enough to stay curious without reading up on who everyone is.
 
 **The snap mechanic.** Bluffing with cubes is genuinely tense. You're not just fighting for the board - you're negotiating how much this win is worth. That's a clever twist on card games I already liked.
 
@@ -61,6 +61,8 @@ Snap's balance moves fast. I'd tune a deck, win a few, then get crushed by a car
 
 Copying a top meta list when you're on Series 3 is a special kind of sadness. The sites all say "filter by collection." I did. The honest answer was usually: *your best deck is fine, but the ladder belongs to people with different cardboard.*
 
+So I'd go hunting for **other deck lists** - off-meta builds, budget brews, anything that didn't need the Series 5 card ruining my week. Sometimes that worked. More often I was just rearranging the same roster and hoping the ladder would be kind.
+
 I wasn't mad about losing to better play. I was tired of losing to **roster gaps** dressed up as skill.
 
 Snap also runs on a **release schedule** you're nudged to follow. New powerful cards drop on a cadence - season content, featured releases, events with a window. I wasn't trying to min-max anything, but the game kept asking me to log in on *its* clock just to stay vaguely current. Catch the latest must-have before the meta moves on again. A couch snack game shouldn't need a calendar.
@@ -83,9 +85,9 @@ The line from the community - *retreat when the cubes stop being fun* - is good 
 
 ### FOMO in the shop
 
-I never spent money on Snap. Not once. The [web shop](https://marvelsnap.com/shop) still got under my skin - bundles timed to make you feel like you're leaving value on the table, gold for variants I'd forget in a week.
+I never spent money on Snap. Not once. **Spending was usually not the problem** - at least not in the pay-to-win way other mobile games train you to expect. Real money bought cosmetics: card backs, variants, emotes. Nothing that made your deck stronger. I respect that.
 
-I didn't bite. But the nagging was part of the vibe. Even as a free player, the game kept asking whether I was playing it *wrong* by not paying.
+The [web shop](https://marvelsnap.com/shop) still got under my skin anyway - bundles timed to make you feel like you're leaving value on the table, gold for variants I'd forget in a week. I didn't bite. But the nagging was part of the vibe. Even as a free player, the game kept asking whether I was playing it *wrong* by not paying.
 
 ### It wanted more time than I wanted to give
 
