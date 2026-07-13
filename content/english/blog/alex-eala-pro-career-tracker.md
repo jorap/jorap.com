@@ -1,6 +1,6 @@
 ---
 title: "Alex Eala Pro Career Tracker"
-date: 2026-07-12T05:00:00Z
+date: 2026-07-13T05:00:00Z
 meta_title: "Alex Eala Pro Career Tracker"
 slug: "alex-eala-pro-career-tracker"
 description: "My running scrapbook of Alex Eala's WTA career - rankings, matches I'll never forget, and matchups I'm watching for next."
@@ -14,7 +14,7 @@ related_notes:
   - follow-through
 featured: false
 draft: false
-lastmod: 2026-07-12T00:00:00Z
+lastmod: 2026-07-13T15:24:00Z
 ---
 
 I've been following Alex Eala's career since her amazing run at the 2025 Miami Open, and watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook - career-high rankings, the matches I'll always remember, the head-to-heads with Grand Slam champions, and the upcoming matchups I'm watching for. I update it as her career unfolds.
@@ -23,7 +23,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 ## At a glance
 
-- **Career highs:** No. 29 singles · No. 88 doubles
+- **Career highs:** No. 28 singles · No. 88 doubles
 - **WTA titles:** 2 (Guadalajara 125, Birmingham 125)
 - **Best Slam (singles):** Wimbledon 2026 - Round of 16
 - **Notable firsts:** First Filipina in a Grand Slam main draw; first Filipina to win a Slam main-draw match (US Open 2025); first Filipina to reach a Grand Slam fourth round in the Open era (Wimbledon 2026); first Filipina in a WTA 1000 semifinal (Miami 2025); first Filipina in a WTA 500 semifinal (Berlin 2026); first Filipina in the WTA top 100
@@ -44,7 +44,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Singles:**
 
-- **Career High:** No. 29
+- **Career High:** No. 28
   - Highest-ranked Filipina in WTA history
 
 **Doubles:**
@@ -272,7 +272,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - 2026
 
   - **Wimbledon - with Nikola Bartunkova**
-    - 1st Round, l. Ostapenko/Kenin 6-3, 3-6, 1-6
+    - 1st Round, l. Ostapenko/Kenin 6-3, 3-6, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LD72362771)
 
   - **Australian Open - with Ingrid Martins**
     - 1st Round, l. Aoyama/Linette 6-7(3), 2-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/australian-open/scores/LD67893812) | [tennis.com](https://www.tennis.com/tournaments/australian-open/matches/a-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-2026-01-21) | [ausopen.com](https://ausopen.com/match/2026-alexandra-eala-ingrid-martins-vs-shuko-aoyama-magda-linette-wd126)
@@ -296,6 +296,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - [WTA Profile](https://www.wtatennis.com/players/326408/iga-swiatek)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/326408)
+- **Career High Singles:** No. 1
 
 **Grand Slam Titles:**
 
@@ -327,6 +328,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - [WTA Profile](https://www.wtatennis.com/players/324166/elena-rybakina)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/324166)
+- **Career High Singles:** No. 2
 
 **Grand Slam Titles:**
 
@@ -351,6 +353,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - [WTA Profile](https://www.wtatennis.com/players/328560/coco-gauff)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/328560)
+- **Career High Singles:** No. 2
 
 **Grand Slam Titles:**
 
@@ -372,6 +375,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - [WTA Profile](https://www.wtatennis.com/players/318314/barbora-krejcikova)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/318314)
+- **Career High Singles:** No. 2
 
 **Grand Slam Titles:**
 
@@ -394,6 +398,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - [WTA Profile](https://www.wtatennis.com/players/329668/linda-noskova)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/329668)
+- **Career High Singles:** No. 7
 
 **Grand Slam Titles:**
 
@@ -417,6 +422,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - [WTA Profile](https://www.wtatennis.com/players/316959/madison-keys)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/316959)
+- **Career High Singles:** No. 5
 
 **Grand Slam Titles:**
 
@@ -438,6 +444,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - [WTA Profile](https://www.wtatennis.com/players/323027/marketa-vondrousova)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/323027)
+- **Career High Singles:** No. 6
 
 **Grand Slam Titles:**
 
@@ -457,6 +464,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - [WTA Profile](https://www.wtatennis.com/players/319939/jelena-ostapenko)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/319939)
+- **Career High Singles:** No. 5
 
 **Grand Slam Titles:**
 
@@ -483,6 +491,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - [WTA Profile](https://www.wtatennis.com/players/319007/ekaterina-alexandrova)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/319007)
+- **Career High Singles:** No. 10
 
 **Matches:**
 
@@ -492,10 +501,23 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 ---
 
+### Paula Badosa
+
+- [WTA Profile](https://www.wtatennis.com/players/320124/paula-badosa)
+- [Head to Head](https://www.wtatennis.com/head-to-head/330332/320124)
+- **Career High Singles:** No. 2
+
+**Matches:**
+
+- **2025 Miami Open (Hard)** - Round of 16, WIN (Walkover) | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/p-badosa-vs-a-eala-2025-03-25)
+
+---
+
 ### Leylah Fernandez
 
 - [WTA Profile](https://www.wtatennis.com/players/326735/leylah-fernandez)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/326735)
+- **Career High Singles:** No. 13
 
 **Matches:**
 
@@ -509,6 +531,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - [WTA Profile](https://www.wtatennis.com/players/332285/iva-jovic)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/332285)
+- **Career High Singles:** No. 16
 
 **Matches:**
 
@@ -526,6 +549,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - [WTA Profile](https://www.wtatennis.com/players/326482/marta-kostyuk)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/326482)
+- **Career High Singles:** No. 11
 
 **Matches:**
 
@@ -535,6 +559,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - [WTA Profile](https://www.wtatennis.com/players/322191/karolina-muchova)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/322191)
+- **Career High Singles:** No. 6
 
 **Matches:**
 
@@ -548,6 +573,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - [WTA Profile](https://www.wtatennis.com/players/319280/jasmine-paolini)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/319280)
+- **Career High Singles:** No. 4
 
 **Matches:**
 
@@ -565,6 +591,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - [WTA Profile](https://www.wtatennis.com/players/316956/jessica-pegula)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/316956)
+- **Career High Singles:** No. 3
 
 **Matches:**
 
@@ -580,6 +607,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - [WTA Profile](https://www.wtatennis.com/players/316738/elina-svitolina)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/316738)
+- **Career High Singles:** No. 3
 
 **Matches:**
 
@@ -595,6 +623,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 - [WTA Profile](https://www.wtatennis.com/players/327793/clara-tauson)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/327793)
+- **Career High Singles:** No. 12
 
 **Matches:**
 
@@ -613,7 +642,6 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - [Amanda Anisimova](https://www.wtatennis.com/head-to-head/330332/326384) - 2025 Wimbledon semifinalist
 - [Bianca Andreescu](https://www.wtatennis.com/head-to-head/330332/325088) - 2019 US Open Winner
 - [Mirra Andreeva](https://www.wtatennis.com/head-to-head/330332/331809) - Alex Eala defeated her when she won the 2022 Junior US Open
-- [Paula Badosa](https://www.wtatennis.com/head-to-head/330332/320124) - 2025 Australian Open semifinalist; former world No. 2
 - [Belinda Bencic](https://www.wtatennis.com/head-to-head/330332/319001) - Olympic gold medalist; 2026 Rome semifinalist
 - [Sofia Kenin](https://www.wtatennis.com/head-to-head/330332/320942) - 2020 Australian Open Winner
 - [Emma Navarro](https://www.wtatennis.com/head-to-head/330332/325410) - 2025 Strasbourg Winner; rising American top-20 fixture

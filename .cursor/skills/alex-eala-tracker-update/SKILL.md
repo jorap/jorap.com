@@ -78,7 +78,7 @@ Task progress:
 - [ ] Add missing Grand Slam results (singles + doubles)
 - [ ] Promote "Matches to Watch Out For" opponents who have now played
 - [ ] Promote Other Top 20 opponents who won a Grand Slam (or newly verified Slam winner)
-- [ ] Add or update H2H sections for new notable opponents
+- [ ] Add or update H2H sections for new notable opponents (include **Career High Singles** on every block)
 - [ ] Re-sort Grand Slam Champions by total Slam titles (if section changed)
 - [ ] Deduplicate YouTube embeds (H2H wins over tournament blocks)
 - [ ] Audit tournament names: brand-free labels + correct WTA tier or Grand Slam name
@@ -187,7 +187,9 @@ Two groups exist today:
 **New opponent rule:**
 
 - Won a Grand Slam (or wins one before/after first meeting) → `### [Name]` under **Grand Slam Champions** — never under Other Top 20, even if they are also a current top-20 player
-- Top 20 or notable rivalry **without** a Slam singles title → new `### [Name]` under **Other Top 20 Players** (WTA profile, H2H link, **Matches:** stat lines, and YouTube embeds — same match-line format as Grand Slam Champions, but no Slam titles table)
+- Top 20 or notable rivalry **without** a Slam singles title → new `### [Name]` under **Other Top 20 Players** (WTA profile, H2H link, **Career High Singles**, **Matches:** stat lines, and YouTube embeds — same match-line format as Grand Slam Champions, but no Slam titles table)
+
+**Career high singles (required):** Every `###` block in **Matches Against Grand Slam Champions** and **Matches Against Other Top 20 Players** must include `- **Career High Singles:** No. XX` on the line after the H2H link. Verify on the opponent's WTA profile (`Career High` field). Update when an opponent sets a new peak.
 
 Grand Slam titles table is required only in the Grand Slam Champions section. Look up titles on the opponent's WTA profile.
 
@@ -232,6 +234,7 @@ Apply in this order. A `VIDEO_ID` lives in **one** section only — higher-prior
 - Scores list Eala's games first in every set and match tiebreak
 - Tournament names are **brand-free** and include `(WTA 125|250|500|1000)` on every WTA tour line; Grand Slams use the four major names only
 - H2H match lines use brand-free tournament names
+- Every H2H `###` block in **Grand Slam Champions** and **Other Top 20** has **Career High Singles** after the H2H link (WTA-verified)
 - New links only: spot-check URLs added this session (do not re-fetch every existing link)
 - `lastmod` bumped; other frontmatter unchanged unless user asks
 - Run `read_lints` on the edited file if available
@@ -245,8 +248,8 @@ Apply in this order. A `VIDEO_ID` lives in **one** section only — higher-prior
 | WTA title runs | `Winner \| [wtatennis.com](url) \| [tennis.com](url)` plus milestone sub-bullets |
 | Grand Slam singles/doubles | `1st Round \| [wtatennis.com](url) \| [official slam site](url)` per round played |
 | Grand Slam doubles header | `- **Slam** - Round (with Partner)` before round sub-bullets |
-| Grand Slam Champions H2H | Match stat lines use `tennis.com` or `wtatennis.com` match URLs |
-| Other Top 20 H2H | WTA profile + H2H links + **Matches:** stat lines + YouTube embeds (no Slam titles table) |
+| Grand Slam Champions H2H | WTA profile + H2H links + **Career High Singles** + Slam titles table + **Matches:** stat lines + YouTube |
+| Other Top 20 H2H | WTA profile + H2H links + **Career High Singles** + **Matches:** stat lines + YouTube embeds (no Slam titles table) |
 
 ## Single-result workflow
 
@@ -263,10 +266,11 @@ When the user names one tournament or match:
 1. Look up opponent WTA ID via search or [reference.md](reference.md) watch-list IDs
 2. H2H URL pattern: `https://www.wtatennis.com/head-to-head/330332/[OPPONENT_ID]`
 3. Copy structure from an existing opponent block (Grand Slam Champions: Madison Keys; Other Top 20: Iva Jovic)
-4. Add match line: `**YYYY Tournament - Surface - Win/Loss** - [Match Stats](url)` (Grand Slam Champions section only). List matches **newest first**. Tournament name must be **brand-free** (see [Tournament naming rules](#tournament-naming-rules)).
-5. Add match stat lines under **Matches:** (newest first) and **every** verified YouTube shortcode for **all** meetings vs that opponent — see [YouTube embed rules](reference.md#youtube-embed-rules) and [Video embed priority](#video-embed-priority-mandatory). **Other Top 20** uses the same match-line format as Grand Slam Champions but omits the Slam titles table.
-6. If opponent came from the watch list, remove their watch-list line
-7. Re-sort **Grand Slam Champions** if a new Slam winner was added
+4. Add `- **Career High Singles:** No. XX` after the H2H link — from the opponent WTA profile `Career High` field
+5. Add match line: `**YYYY Tournament - Surface - Win/Loss** - [Match Stats](url)` (Grand Slam Champions section only). List matches **newest first**. Tournament name must be **brand-free** (see [Tournament naming rules](#tournament-naming-rules)).
+6. Add match stat lines under **Matches:** (newest first) and **every** verified YouTube shortcode for **all** meetings vs that opponent — see [YouTube embed rules](reference.md#youtube-embed-rules) and [Video embed priority](#video-embed-priority-mandatory). **Other Top 20** uses the same match-line format as Grand Slam Champions but omits the Slam titles table.
+7. If opponent came from the watch list, remove their watch-list line
+8. Re-sort **Grand Slam Champions** if a new Slam winner was added
 
 ## Slam-winner promotion workflow
 
@@ -281,6 +285,7 @@ Run during every full refresh and whenever a known Other Top 20 opponent wins a 
 1. **Remove** the opponent's `###` block from **Other Top 20 Players**
 2. **Insert** the block into **Grand Slam Champions** using the upgraded format:
    - Keep WTA profile and H2H links
+   - Keep or add **Career High Singles** from the opponent WTA profile
    - Add **Grand Slam Titles** table from the opponent's WTA profile
    - Add **Matches:** with one stat line per completed singles meeting vs Eala — surface, Win/Loss, `[Match Stats](url)` (pull from WTA H2H + [WTA Matches](https://www.wtatennis.com/players/330332/alexandra-eala/matches))
    - Move existing YouTube embeds under the matching match lines where possible; otherwise keep below the block

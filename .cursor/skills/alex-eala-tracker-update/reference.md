@@ -149,6 +149,7 @@ Add embeds when verified official/broadcaster doubles footage exists — one per
 
 - [WTA Profile](https://www.wtatennis.com/players/XXXXXX/opponent-slug)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/XXXXXX)
+- **Career High Singles:** No. XX
 
 **Grand Slam Titles:**
 
@@ -175,6 +176,7 @@ Other Top 20 sections use the same **Matches:** format as Grand Slam Champions b
 
 - [WTA Profile](https://www.wtatennis.com/players/XXXXXX/opponent-slug)
 - [Head to Head](https://www.wtatennis.com/head-to-head/330332/XXXXXX)
+- **Career High Singles:** No. XX
 
 **Matches:**
 
@@ -215,8 +217,8 @@ Recompute this table whenever a new Slam champion block is added or an opponent 
 
 | Opponent status | Section | Format |
 | --- | --- | --- |
-| Slam singles winner + singles H2H with Eala | **Grand Slam Champions** | Titles table + match stat lines + YouTube |
-| Top 20 / notable, no Slam singles title | **Other Top 20 Players** | WTA + H2H links + match stat lines + YouTube |
+| Slam singles winner + singles H2H with Eala | **Grand Slam Champions** | Titles table + **Career High Singles** + match stat lines + YouTube |
+| Top 20 / notable, no Slam singles title | **Other Top 20 Players** | WTA + H2H links + **Career High Singles** + match stat lines + YouTube |
 | Slam winner, no singles H2H yet (doubles only) | **Other Top 20** until singles meeting | Match lines when singles H2H exists; YouTube only until then |
 | Slam winner, no pro H2H yet | **Matches to Watch Out For** | H2H link + credential note |
 
@@ -231,7 +233,7 @@ Use when promoting to H2H or building watch-list links:
 | Amanda Anisimova | 326384 | 2025 Wimbledon semifinalist |
 | Bianca Andreescu | 320962 | 2019 US Open |
 | Mirra Andreeva | 331809 | Junior US Open 2022 context |
-| Paula Badosa | 320124 | 2025 Australian Open SF; former world No. 2 |
+| Paula Badosa | 320124 | Promoted to Other Top 20 (Miami 2025 w/o); career high No. 2 |
 | Belinda Bencic | 319001 | Olympic gold; 2026 Rome SF |
 | Sofia Kenin | 320942 | 2020 Australian Open |
 | Emma Navarro | 329682 | 2025 Strasbourg; top-20 American |
@@ -245,7 +247,7 @@ Use when promoting to H2H or building watch-list links:
 
 **Grand Slam Champions** (sorted by Slam titles): Iga Swiatek (326408), Elena Rybakina (324166), Coco Gauff (328560), Barbora Krejcikova (318314), Linda Noskova (329668), Madison Keys (316959), Marketa Vondrousova (323027), Jelena Ostapenko (319939)
 
-**Other Top 20** (alphabetical by last name): Ekaterina Alexandrova (319007), Leylah Fernandez (326735), Iva Jovic (332285), Marta Kostyuk (326482), Karolina Muchova (322191), Jasmine Paolini (319280), Jessica Pegula (316956), Elina Svitolina (316738), Clara Tauson (327793)
+**Other Top 20** (alphabetical by last name): Ekaterina Alexandrova (319007), Paula Badosa (320124), Leylah Fernandez (326735), Iva Jovic (332285), Marta Kostyuk (326482), Karolina Muchova (322191), Jasmine Paolini (319280), Jessica Pegula (316956), Elina Svitolina (316738), Clara Tauson (327793)
 
 Sort **Other Top 20** and **Matches to Watch Out For** alphabetically by **last name** when adding or reordering entries.
 
