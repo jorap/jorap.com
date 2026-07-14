@@ -1,7 +1,7 @@
 ---
 title: "One Sheet, Eight Pages: Why I Use a 1-Page Zine for Rules Booklets"
 meta_title: "1-Page Zine for Board Game Rules and Quick Booklets"
-description: "One sheet of paper, folded into an eight-page booklet. I use it for board game rules, quick guides, and anything that needs to fit in a pocket or a game box without a print budget."
+description: "One sheet of paper, folded into an eight-page booklet. I use it for board game rules and quick guides that fit in a pocket or game box."
 slug: "one-page-zine"
 date: "2026-07-13T14:15:00Z"
 image: "/images/one-page-zine.jpg"

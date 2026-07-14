@@ -1,13 +1,13 @@
 ---
 title: "DNPAP - Song Resources"
-meta_title: "DNPAP - Song Resources by Destiny Music | Spotify, YouTube, Lyrics"
-description: "DNPAP (Diyos Ng Pagasa at Pagibig) by Destiny Music is one of my favorite local worship songs. I put the studio track, live cut, videos, and links in one place."
+meta_title: "DNPAP Song Resources - Destiny Music Links"
+description: "DNPAP by Destiny Music is one of my favorite local worship songs. Studio track, live cut, videos, and links in one place."
 slug: "dnpap-song-resources"
 date: "2022-11-12T05:00:00Z"
 image: "/images/feature-dnpap.jpg"
 categories: ["Worship", "Music", "Filipino"]
 author: "JoRap"
-tags: ["DNPAP", "Destiny Music", "Spotify", "YouTube", "Filipino Worship", "OPM", "Song Resources", "Lyrics", "Live Recording", "Christian Music", "Worship Resources", "Music Ministry", "Filipino Music", "Chord Charts", "Music Video", "Philippines", "Filipino"]
+tags: ["DNPAP", "Destiny Music", "Filipino Worship", "Worship Resources", "OPM", "Christian Music", "Spotify", "YouTube"]
 related_notes:
   - love-god
   - free-grace

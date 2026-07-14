@@ -1,18 +1,18 @@
 ---
 title: "Instant Pot Chicken Adobo"
 meta_title: "Instant Pot Chicken Adobo - Filipino Comfort Food"
-description: "My go-to chicken adobo, adjusted for the Instant Pot. Bone-in thighs, 10 minutes under pressure, and that classic soy-garlic-vinegar glaze - without the hours of waiting."
+description: "My go-to chicken adobo for the Instant Pot. Bone-in thighs, 10 minutes under pressure, classic soy-garlic-vinegar glaze without the hours of waiting."
 slug: "instant-pot-chicken-adobo"
 date: "2026-05-03T23:00:00Z"
 image: "/images/Chicken-Adobo.jpg"
 categories: ["Food", "Recipes", "Filipino"]
 author: "JoRap"
-tags: ["Chicken Adobo", "Filipino Recipes", "Instant Pot", "Pressure Cooking", "Comfort Food", "Home Cooking", "Chicken Recipes", "Easy Cooking", "Meal Prep", "Filipino Food", "Adobo", "Weeknight Dinner", "Pressure Cooker", "Soy Sauce", "Garlic", "Vinegar", "Philippines", "Filipino Cuisine"]
+tags: ["Chicken Adobo", "Filipino Recipes", "Instant Pot", "Comfort Food", "Chicken Recipes", "Filipino Food", "Weeknight Dinner", "Pressure Cooking"]
 related_notes:
   - habit-formation
   - slow-productivity
   - preparedness
-  - recovery
+  - energy-protects-judgment
 featured: false
 draft: false
 ---

@@ -1,13 +1,13 @@
 ---
 title: "Facebook's Hidden Gem: The Favorites Feed"
-meta_title: "Facebook's Favorites Feed: The Only Reason I Still Open the App"
-description: "I almost deleted Facebook a couple of years ago. Then I stumbled onto a built-in feature most people don't know exists - and it's the only reason I still open the app."
+meta_title: "Facebook Favorites Feed - Why I Still Open the App"
+description: "I almost deleted Facebook. Then I found a built-in feature most people don't know exists - the only reason I still open the app."
 slug: "facebook-favorites-feed"
 date: "2024-02-04T05:00:00Z"
 image: "/images/fbf.jpg"
 categories: ["Social Media", "Technology", "Tips"]
 author: "JoRap"
-tags: ["Facebook", "Favorites Feed", "Social Media Tips", "Digital Wellbeing", "Algorithm", "Personalization", "Mindful Tech", "Feed Curation", "Internet", "Meta", "News Feed", "Screen Time", "Content Curation", "Social Networks", "PKM", "Information Diet", "Digital Minimalism"]
+tags: ["Facebook", "Favorites Feed", "Social Media Tips", "Digital Wellbeing", "Digital Minimalism", "Information Diet", "Feed Curation", "Screen Time"]
 related_notes:
   - digital-minimalism
   - note-relationships

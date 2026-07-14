@@ -1,18 +1,17 @@
 ---
 title: "The Mouse Wheel Click: One Button, Three Operating Systems"
-meta_title: "The Mouse Wheel Click: Cross-Platform Power Move on Windows, Mac, and Linux"
-description: "Most people right-click every link to open it in a new tab. There's a faster button right under their finger - same gesture on Windows, Mac, and Linux - and almost nobody uses it."
+meta_title: "Middle-Click Opens Tabs - Windows, Mac, and Linux"
+description: "Most people right-click every link to open a new tab. There's a faster button under their finger - same gesture on every OS, and almost nobody uses it."
 slug: "mouse-wheel-click"
 date: "2026-05-28T05:00:00Z"
 image: "/images/feature-mouse-wheel-click.jpg"
 categories: ["Technology", "Productivity", "Tips"]
 author: "JoRap"
-tags: ["Mouse", "Mouse Wheel Click", "Keyboard Shortcuts", "Browser Tips", "Windows", "macOS", "Linux", "Cross-Platform", "Workflow", "Middle Click", "Browser Workflow", "Productivity Hack", "Mouse Tips", "Tab Management", "PKM", "Second Brain", "Productivity"]
+tags: ["Mouse", "Mouse Wheel Click", "Browser Tips", "Windows", "macOS", "Linux", "Middle Click", "Productivity"]
 related_notes:
   - context-aware-capture
   - the-second-brain-workflow
   - commonplace-book
-  - crdt
   - inbox-zero
   - information-diet
 aliases: ["power-of-the-mouse-wheel-click"]

@@ -1,13 +1,13 @@
 ---
 title: "The Miracle of Isaiah David"
-meta_title: "The Miracle of Isaiah David - We Found Out She Was Pregnant and Gave Birth on the Same Day"
-description: "On May 8, 2020, Pia and I found out she was pregnant - and gave birth to our son the same day. Years later, that sentence still doesn't feel real. Here's how it actually unfolded."
+meta_title: "The Miracle of Isaiah David - Pregnant and Birth Same Day"
+description: "On May 8, 2020, Pia and I found out she was pregnant and gave birth to our son the same day. Years later, that sentence still doesn't feel real."
 slug: "miracle-isaiah-david"
 date: "2023-05-08T05:00:00Z"
 image: "/images/feature-isaiah-david.jpg"
 categories: ["Faith", "Family", "Testimony"]
 author: "JoRap"
-tags: ["Isaiah David", "Miracle Story", "700 Club Asia", "GMA News", "24 Oras", "DZMM Teleradyo", "Facebook", "YouTube", "Parenthood", "Pregnancy", "Faith Story", "Pandemic Story", "Hidden Pregnancy", "ECQ", "Filipino Family", "Birth Story", "COVID-19", "Miracle", "Philippines", "Christian Testimony"]
+tags: ["Isaiah David", "Miracle Story", "Faith Story", "Parenthood", "Birth Story", "Filipino Family", "Christian Testimony", "Philippines"]
 related_notes:
   - childlike-faith
   - free-grace

@@ -1,17 +1,16 @@
 ---
 title: "Sustainable Online Publishing"
-meta_title: "Sustainable Online Publishing - Own Your Corner of the Internet"
-description: "Social media is easy to start and risky to depend on. I publish on my own site anyway - here's a free stack that works and why the habit matters more than the tools."
+meta_title: "Sustainable Online Publishing - Own Your Site"
+description: "Social media is easy to start and risky to depend on. I publish on my own site anyway - a free stack that works and why the habit matters more than the tools."
 slug: "sustainable-online-publishing"
 date: "2026-06-12T14:58:00Z"
 image: "/images/sustainable-publishing.jpg"
 categories: ["Website", "Ideas", "Technology"]
 author: "JoRap"
-tags: ["Publishing", "Self-Hosting", "Hugo", "Cloudflare Pages", "Content Ownership", "Indie Web", "Digital Independence", "Open Publishing", "Platform Risk", "Blogging", "Digital Garden", "PKM"]
+tags: ["Publishing", "Self-Hosting", "Hugo", "Cloudflare Pages", "Content Ownership", "Platform Risk", "Blogging", "Digital Garden"]
 related_notes:
   - digital-garden
   - drafting-in-public
-  - sketchpad
   - the-garage-concept
   - note-relationships
   - commonplace-book

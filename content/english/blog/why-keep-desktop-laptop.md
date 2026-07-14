@@ -1,13 +1,13 @@
 ---
 title: "Why I Still Keep a Desktop or Laptop"
-meta_title: "Why I Still Keep a Desktop or Laptop"
-description: "Every couple of years, someone tells me they're going mobile-only. A few months later, they're sheepishly asking to borrow my laptop for taxes, video edits, or a PDF form. Here's why I keep mine around."
+meta_title: "Desktop or Laptop - Why Mobile-Only Fails"
+description: "Every couple of years someone goes mobile-only. A few months later they're borrowing my laptop for taxes, video edits, or a PDF form."
 slug: "why-keep-desktop-laptop"
 date: "2021-06-14T05:00:00Z"
 image: "/images/feature-desktop.jpg"
 categories: ["Technology", "Productivity", "Tips"]
 author: "JoRap"
-tags: ["Computers", "Hardware", "Desktop", "Laptop", "Mobile vs Desktop", "Workflow", "Devices", "Productivity", "Remote Work", "Typing", "Multitasking", "Power User", "Work From Home", "PC vs Mobile", "Note Taking"]
+tags: ["Desktop", "Laptop", "Mobile vs Desktop", "Hardware", "Workflow", "Productivity", "Remote Work", "Note Taking"]
 related_notes:
   - commonplace-book
   - mobile-capture-workflows

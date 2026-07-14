@@ -1,13 +1,13 @@
 ---
 title: "Consistent AI Output for WordPress Builds"
-meta_title: "Consistent AI Output for WordPress Builds"
-description: "Month one with AI on WordPress builds I was thrilled. Month three I finally got consistent output - helpers, reference examples, and a short rules doc that stop every feature from drifting."
+meta_title: "Consistent AI on WordPress Builds - What Fixed the Drift"
+description: "Month one with AI on WordPress builds I was thrilled. Month three I got consistent output - helpers, reference examples, and a short rules doc."
 slug: "consistent-ai-output-wordpress-builds"
 date: "2026-05-30T05:00:00Z"
 image: "/images/feature-consistent-ai-output.jpg"
 categories: ["Technology", "AI", "Web Development"]
 author: "JoRap"
-tags: ["WordPress", "Workflow", "Developer Life", "Automation", "Code Generation", "Cursor", "Productivity Tools", "Best Practices", "Reusable Code", "PHP", "AI Coding", "LLM", "Prompt Engineering", "Coding Standards", "Theme Development", "Writing", "Documentation", "PKM"]
+tags: ["WordPress", "Developer Life", "AI Coding", "Cursor", "Workflow", "PHP", "Theme Development", "Documentation", "Prompt Engineering"]
 related_notes:
   - building-a-personal-api
   - creative-blocks

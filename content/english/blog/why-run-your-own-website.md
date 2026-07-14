@@ -1,18 +1,17 @@
 ---
 title: "Why I Still Run My Own Website"
 meta_title: "Why I Still Run My Own Website - Not Just Facebook"
-description: "Every time I tell someone I run my own website, they ask why I don't just post on Facebook. After years of watching platforms die and rules change, here's why I keep my own corner of the internet."
+description: "People ask why I don't just post on Facebook. After years of watching platforms die and rules change, here's why I keep my own corner of the internet."
 slug: "why-run-your-own-website"
 date: "2024-03-10T05:00:00Z"
 image: "/images/website.jpg"
 categories: ["Website", "Ideas", "Tips"]
 author: "JoRap"
-tags: ["Internet", "Branding", "Content", "Business", "Personal Branding", "Online Presence", "Self-Hosting", "Web Ownership", "Blogging", "Website Building", "Digital Independence", "Content Ownership", "Portfolio", "Personal Website", "Platform Risk", "Publishing", "Digital Garden", "PKM", "Note Taking"]
+tags: ["Personal Website", "Self-Hosting", "Content Ownership", "Platform Risk", "Blogging", "Website Building", "Digital Garden", "Publishing", "Personal Branding"]
 related_notes:
   - drafting-in-public
   - digital-garden
   - commonplace-book
-  - sketchpad
   - note-relationships
   - the-garage-concept
   - success-is-stewardship

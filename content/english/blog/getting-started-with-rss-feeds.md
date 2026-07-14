@@ -1,13 +1,13 @@
 ---
 title: "RSS Feeds - What I Wish I'd Done Sooner"
-meta_title: "RSS Feeds - What I Wish I'd Done Sooner"
+meta_title: "RSS Still Works - What I Wish I'd Done Sooner"
 description: "I figured RSS quietly died around 2010. A friend pointed out it never actually did - it just stopped being trendy. Two weeks of using it later, I was a convert."
 slug: "getting-started-with-rss-feeds"
 date: "2024-03-30T05:00:00Z"
 image: "/images/rss.jpg"
 categories: ["Technology", "Productivity", "Guide"]
 author: "JoRap"
-tags: ["RSS Feeds", "RSS", "Inoreader", "Content Management", "Productivity Tools", "Digital Organization", "News Reader", "Information Management", "Beginner Guide", "Internet", "Reading", "Feedly", "Syndication", "Web Reading", "Digital Minimalism", "News Aggregation", "PKM", "Research", "Second Brain", "Information Diet"]
+tags: ["RSS", "Inoreader", "Productivity Tools", "Digital Minimalism", "News Reader", "Information Diet", "PKM", "Reading", "Internet"]
 related_notes:
   - synthesis-as-a-goal
   - literature-notes

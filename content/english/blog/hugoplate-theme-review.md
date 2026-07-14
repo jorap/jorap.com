@@ -1,13 +1,13 @@
 ---
 title: "HugoPlate: The Theme Quietly Powering This Site"
 meta_title: "HugoPlate Theme Review: Why It Powers JoRap Notes"
-description: "After losing half a Saturday to theme-shopping, I picked HugoPlate - and a year and change later, I'm still on it. Here's what comes in the box, what I changed, and where it still bites."
+description: "After losing half a Saturday to theme-shopping, I picked HugoPlate - a year later I'm still on it. What I changed and where it still bites."
 slug: "hugoplate-theme-review"
 date: "2026-05-29T05:00:00Z"
 image: "/images/joraps-world.jpg"
 categories: ["Website", "Technology", "Reviews"]
 author: "JoRap"
-tags: ["Hugo CMS", "Hugoplate", "Tailwind CSS", "Website Building", "Themes", "Theme Review", "Static Sites", "Open Source", "Frontend", "Developer Life", "Hugo", "Static Site Generator", "Bootstrap", "Web Development", "JoRap", "Publishing", "Digital Garden", "PKM"]
+tags: ["Hugoplate", "Hugo", "Tailwind CSS", "Themes", "Static Sites", "Open Source", "Website Building", "Digital Garden"]
 related_notes:
   - the-garage-concept
   - digital-garden

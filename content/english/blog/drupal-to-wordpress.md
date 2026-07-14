@@ -1,13 +1,13 @@
 ---
 title: "Why I Switched from Drupal to WordPress"
 meta_title: "Why I Left Drupal for WordPress"
-description: "I went hunting for the best open-source CMS, fell hard for Drupal's architecture, and still couldn't find work with it. WordPress had ACF and Gutenberg that felt familiar - plus a plugin ecosystem and a community big enough to pay the bills."
+description: "I fell hard for Drupal's architecture and still couldn't find work with it. WordPress had familiar building blocks and a community big enough to pay the bills."
 slug: "drupal-to-wordpress"
 date: "2026-05-27T06:30:00Z"
 image: "/images/drupal-to-wp.jpg"
 categories: ["Technology", "Web Development", "Opinion"]
 author: "JoRap"
-tags: ["Drupal", "WordPress", "CMS", "Web Development", "Developer Life", "Career", "Open Source", "Gutenberg", "ACF", "Content Management", "WordCamp", "PHP", "Freelance"]
+tags: ["Drupal", "WordPress", "CMS", "Web Development", "Developer Life", "Open Source", "Gutenberg", "WordCamp"]
 related_notes:
   - git-based-cms
 featured: false

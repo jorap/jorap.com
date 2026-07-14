@@ -1,13 +1,13 @@
 ---
 title: "How I Built JoRap Notes: My Journey from Expensive Hosting (and Better!)"
-meta_title: "How I Built JoRap Notes: A Developer's Guide to Static Site Hosting"
-description: "I lost my old PHP hosting (and a chunk of my work with it). A weekend of fumbling later, I landed on Hugo + GitHub + Cloudflare Pages - faster, and honestly better than what I was paying for."
+meta_title: "How I Built JoRap Notes - Hugo, GitHub, Cloudflare Pages"
+description: "I lost my old PHP hosting and a chunk of my work. A weekend later I landed on Hugo + GitHub + Cloudflare Pages - faster and better than what I was paying for."
 slug: "how-i-built-jorap-notes"
 date: "2024-06-14T05:00:00Z"
 image: "/images/joraps-world.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
-tags: ["Website Building", "Hugo CMS", "GitHub", "Cloudflare Pages", "Static Sites", "JAMstack", "Self-Hosting", "PHP", "Migration", "Developer Life", "Hugo", "DevOps", "Site Migration", "Static Site Generator", "Web Hosting", "Publishing", "Digital Garden", "PKM", "Note Taking", "Blogging"]
+tags: ["Hugo", "GitHub", "Cloudflare Pages", "Static Sites", "Website Building", "PHP", "Migration", "Digital Garden", "Self-Hosting"]
 related_notes:
   - digital-garden
   - drafting-in-public
