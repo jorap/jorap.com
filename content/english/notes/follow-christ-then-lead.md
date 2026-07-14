@@ -5,7 +5,7 @@ description: "When leadership pressure and Christ command collide, follow Christ
 key_concept: |
   {{< bible ref="Luke 9:23-24" emphasize="23" >}}
 
-  - When the captain's chair and Christ's command pull opposite ways, I deny the shortcut first - daily cross before I set pace for the room.
+  - When the captain's chair and Christ's command pull opposite ways, I deny the shortcut first - [[Take Up Your Cross]] before I set pace for the room.
 
   - Follow Christ first when leadership pressure collides with His command - then lead from that footing.
   - [[Discipleship]] vs [[Leadership]] names two seats - upward allegiance and outward care.
