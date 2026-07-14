@@ -1,5 +1,5 @@
 ---
-title: "How I Built JoRap Notes: My Journey from Expensive Hosting (and Better!)"
+title: "How I Built JoRap Notes: After Losing PHP Hosting"
 meta_title: "How I Built JoRap Notes - Hugo, GitHub, Cloudflare Pages"
 description: "I lost my old PHP hosting and a chunk of my work. A weekend later I landed on Hugo + GitHub + Cloudflare Pages - faster and better than what I was paying for."
 slug: "how-i-built-jorap-notes"

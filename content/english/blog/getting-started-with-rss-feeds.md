@@ -58,7 +58,7 @@ This is the part that trips people up. RSS used to be advertised everywhere; now
 
 **Look for an RSS icon.** Usually in the footer, sometimes the sidebar, sometimes a "Subscribe" link.
 
-**Try `/feed` at the end of the URL.** This works for almost every WordPress site - and WordPress runs about 40% of the web.
+**Try `/feed` at the end of the URL.** This works for almost every WordPress site - and WordPress runs about 40% of the web. My own blog is `jorap.com/blog/index.xml`; most Hugo sites expose `/index.xml` on the section you care about.
 
 **Just paste the homepage URL into your reader.** Inoreader and most modern readers will auto-discover the feed for you.
 
@@ -70,9 +70,9 @@ The classic beginner mistake is dumping every feed into one giant list, and the 
 
 What works for me is three folders:
 
-- **Daily** - sites I want to check every morning. News, the one or two tech blogs I genuinely care about.
-- **Weekly** - long reads, newsletters, blogs that post occasionally.
-- **Fun** - comics, hobby blogs, design inspiration, the wind-down stuff.
+- **Daily** - WTA scores, one or two tech blogs I actually read, anything time-sensitive
+- **Weekly** - long reads, newsletters, blogs that post once a month if I'm lucky
+- **Fun** - comics, board-game rules blogs, design inspiration, the wind-down stuff
 
 That's it. If you can't decide which folder something goes in, just pick one. You can move it later.
 

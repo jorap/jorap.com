@@ -12,7 +12,6 @@ related_notes:
   - minimum-effective-dose
   - practice-small-experiments
   - signal-vs-noise
-aliases: ["hanamikoji-rules"]
 featured: false
 draft: false
 lastmod: "2026-07-14T02:37:00Z"

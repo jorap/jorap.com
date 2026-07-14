@@ -20,9 +20,9 @@ featured: false
 draft: false
 ---
 
-Every time I tell someone I run my own website, the reaction is usually the same: "Why? Just post on Facebook." And I get it. Social media is easy. The audience is already there. You don't have to think about hosting, or design, or any of the small headaches that come with owning a piece of the internet.
+Every time I tell someone I run my own website, the reaction is usually the same: "Why? Just post on Facebook." And I get it. Social media is easy. The audience is already there.
 
-But after years of bouncing between platforms, watching some of them shut down and others quietly change the rules, I keep coming back to one conclusion: nothing beats having a place that's actually mine. Here's why I think it's still worth the effort.
+But this site is where my **notes garden**, my **extension-cord** post that still gets search traffic, and my **Alex Eala tracker** live - none of which I'd trust to a platform that can throttle reach or change export rules overnight. After years of bouncing between platforms and [losing old PHP hosting](/blog/how-i-built-jorap-notes/) with a chunk of my work, I keep coming back to one conclusion: nothing beats a place that's actually mine.
 
 ---
 
@@ -56,7 +56,7 @@ It also signals something subtle but important: that you took the work seriously
 
 ## Writing things out makes you smarter
 
-This one surprised me. The act of writing a blog post - having to organize my thoughts well enough that a stranger could follow them - has taught me more than any course. When you have to explain why your code works, or why a recipe needs a specific technique, or how you got out of some weird bug, you find out fast whether you actually understand it or just thought you did.
+The act of writing a blog post - having to organize my thoughts well enough that a stranger could follow them - has taught me more than any course. When I wrote [why I switched from Drupal to WordPress](/blog/drupal-to-wordpress/), I found out fast which parts I actually understood and which I'd been hand-waving for years.
 
 And when other people start finding those posts through search, you realize you've quietly built up a useful little library - both for yourself and for everyone who comes after you with the same question.
 

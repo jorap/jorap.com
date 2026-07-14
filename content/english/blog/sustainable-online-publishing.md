@@ -19,7 +19,9 @@ featured: false
 draft: false
 ---
 
-Every few months someone asks why I bother with a website when I could just post on Facebook. Fair question. Signing up takes five minutes. The audience is already there. You don't have to think about hosting or deploys or why your build failed at 11pm.
+Every few months someone asks why I bother with a website when I could just post on Facebook. Fair question. I already wrote [why I still run my own site](/blog/why-run-your-own-website/) for the philosophy side. This post is the **habit** side - how I keep publishing without treating social as my archive.
+
+Signing up on Facebook takes five minutes. The audience is already there. You don't have to think about hosting or deploys or why your build failed at 11pm.
 
 I still wanted **my work on the web** without begging an algorithm for reach. Social makes starting easy. The catch is you don't own the platform. Rules change. Reach throttles. Accounts get restricted when enough people complain. I learned that the hard way when I lost old PHP hosting and a chunk of my work with it - not a social ban, but the same lesson: **rented land is rented land.**
 
@@ -41,15 +43,7 @@ I don't treat social as my archive. I treat it as the thing I point at my archiv
 
 **Domain** - cheap annual rent on a name people can remember (`jorap.com`). Buy something you won't cringe at in five years.
 
-**Hosting** - where the files actually live. Classic hosting bills monthly. Static hosting can be **free** if you're willing to learn a little Git and Markdown:
-
-| Piece | Role |
-|---|---|
-| **Hugo** (or similar) | Markdown → static HTML for the main site |
-| **GitHub** | Version control + backup |
-| **Cloudflare Pages** | Build and serve on push - free tier |
-
-No database, no admin panel, no PHP cron jobs to babysit.
+**Hosting** - where the files actually live. Classic hosting bills monthly. My stack is Hugo, GitHub, and Cloudflare Pages on the free tier - same as [how I built this site](/blog/how-i-built-jorap-notes/). No database, no admin panel, no PHP cron jobs to babysit.
 
 ---
 

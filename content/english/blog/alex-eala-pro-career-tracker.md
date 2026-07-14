@@ -156,7 +156,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
     - Round of 32, d. Cabrera 7-6(4), 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/1127/ilkley-125/2025/scores/LS016) | [tennis.com](https://www.tennis.com/tournaments/lexus-ilkley-open/matches/a-eala-vs-l-cabrera-2025-06-09)
 
   - **Miami Open (WTA 1000, Hard)**
-    - First Filipina to reach WTA 1000 Tour Semifinals
+    - First Filipina to reach a WTA 1000 semifinal
     - Semifinals, l. Pegula 6-7(3), 7-5, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/j-pegula-vs-a-eala-2025-03-28)
     - Quarterfinals, d. Świątek 6-2, 7-5 | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/a-eala-vs-i-swiatek-2025-03-26)
     - Round of 16, d. Badosa w/o | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/p-badosa-vs-a-eala-2025-03-25)

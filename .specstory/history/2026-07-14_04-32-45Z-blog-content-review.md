@@ -1428,9 +1428,23 @@ Parameters:
   "searchTerm": "Hanamikoji board game how many geisha cards 7"
 }
 ```
+Result:
+
+```json
+{
+  "isFinal": true,
+  "references": [
+    {
+      "chunk": "Links:\n1. [How to play Hanamikoji | Official Rules | UltraBoardGames](https://www.ultraboardgames.com/hanamikoji/game-rules.php)\n2. [Hanamikoji Rulebook - 1jour-1jeu.com](https://cdn.1j1ju.com/medias/e0/90/0c-hanamikoji-rulebook.pdf)\n3. [Hanamikoji (2018) - Card Games - 1jour-1jeu.com](https://en.1jour-1jeu.com/cardgame/2018-hanamikoji)\n4. [Hanamikoji – How to Impress Geisha Card Game Review - Board Game Authority](https://www.boardgameauthority.com/hanamikoji-geisha-card-game-review/)\n5. [How To Play Hanamikoji | Zatu Games](https://zatu.com/blogs/how-to-play/how-to-play-hanamikoji)\n\nSynthesis:\nThe board game Hanamikoji includes exactly 7 geisha cards [1][2][3]. These cards are placed in a row between the two players during setup [1][4][5]. Each card corresponds to a specific type and quantity of item cards in the deck, ranging in charm value from 2 to 5 [6][7][8].\n\nHighlights:\n\u003cresult id=\"1\"\u003e\n\u003ctitle\u003eHow to play Hanamikoji | Official Rules | UltraBoardGames\u003c/title\u003e\n\u003curl\u003ehttps://www.ultraboardgames.com/hanamikoji/game-rules.php\u003c/url\u003e\n\u003ccontent\u003eIn Hanamikoji, two players compete to earn the favors of the seven geisha masters by collecting the performance items with which they excel.\n...\n- 7 Geisha Cards\n- 21 Item Cards\n- 8 Action Markers\n- 7 Victory Markers\n...\nIn the game of Hanamikoji, the aim is to win 4 Geisha or 11 (or more) Charm Points. You and your opponent take turns to perform actions to get different kinds of Item Cards.\n...\n1 Place 7 Geisha Cards in a row, in the following order from left to right, between players.\n...\n2 Place 1 Victory Marker on the center of each Geisha Card.\n...\n3 Stack the Item Cards face-down into a pile and place them aside.\n\n4 Each\n...\nMarkers of the same color with the colored side up, and places them in front of himself.\n...\nIf any player wins 4 Geisha or 11 (or more) Charm Points, the game ends immediately.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"2\"\u003e\n\u003ctitle\u003eHanamikoji Rulebook - 1jour-1jeu.com\u003c/title\u003e\n\u003curl\u003ehttps://cdn.1j1ju.com/medias/e0/90/0c-hanamikoji-rulebook.pdf\u003c/url\u003e\n\u003ccontent\u003e7 Geisha Cards 8 Action Markers\n...\n21 Item Cards\n...\nIn the game of Hanamikoji, the aim is to win 4 Geisha or 11 (or more) Charm Points. You and your opponent take turns to perform actions to get different kinds of Item Cards. For each Geisha, if you have more Item Cards of the corresponding type than your opponent, then you win the Geisha’s favor. The game will continue until either player has reached the winning goal in the Scoring phase.\n...\nIn Hanamikoji, two players compete to earn the favors of the seven geisha masters by collecting the performance items with which they excel. With careful speculation and sometimes a few bold moves, you may earn the essential items by giving away the less critical ones. Can you outsmart your opponent and win the most favors of the geisha?\n...\nBeginning with the\n...\nplayer, players alternate to take one turn (Player A\n...\nB → Player A → Player B → and so forth) until\n...\nIn your turn, you must draw a card from the Item deck,\n...\nan action. There is\n...\nno fixed action order. \nWhen you perform an action, you choose 1 of your face-up colored side Action Marker and perform \nthe corresponding action. After resolving the action, flip the marker face-down. You can’t choose \nface-down markersd (each of the player’s action markers will only be used once during the round). \nThere are 4 actions in Hanamikoji: \n\n1. Place 7 Geisha Cards in a row, in the following order from left to right, between players. \n2. Place 1 Victory Marker on the center of each Geisha Card. \n3. Stack the Item Cards face-down into a pile and place them aside. \n4. Each player takes 4 Action Markers of the same color with the colored side up, and places \nthem in front of himself. \n5. The younger player is the starting player. \n\n## Phase 1:\n...\nall 2\n...\n1\n...\ngame box unseen\n...\nthis \nround. Nether player is unable\n...\neach player\n...\nCards as a\n...\nStack the remaining\n...\nthe row of\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"3\"\u003e\n\u003ctitle\u003eHanamikoji (2018) - Card Games - 1jour-1jeu.com\u003c/title\u003e\n\u003curl\u003ehttps://en.1jour-1jeu.com/cardgame/2018-hanamikoji\u003c/url\u003e\n\u003ccontent\u003eWelcome to the most famous street geishas of the old capital, Hanamikoji. Players will compete to win the favor of the seven geisha mistresses by collecting items that represent their performance. With thoughtful anticipations and bold decisions, you can win the essentials by leaving out the least interesting ones. Will you be smarter than your opponent to gain a majority of geisha favors?\n...\nContents of the box : 7 Geisha cards, 8 Action tokens, 21 Object cards, 7 Favor tokens, 1 Rulebook.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"4\"\u003e\n\u003ctitle\u003eHanamikoji – How to Impress Geisha Card Game Review - Board Game Authority\u003c/title\u003e\n\u003curl\u003ehttps://www.boardgameauthority.com/hanamikoji-geisha-card-game-review/\u003c/url\u003e\n\u003ccontent\u003eHanamikoji is what most people would call a light game or a filler game. It consists of 7 large Geisha Cards, 21 Item Cards, 8 Action Markers, and 7 Victory Markers and takes about 10 – 15 minutes to play. Setup is very easy: simply place the seven Geisha Cards in a row (in sequential order) between the players. Then place a Victory Marker in the center of each Geisha Card. Each player gets four Action Markers, placed face up in front of them. Finally, the Item Cards are placed within each reach of both players. And that’s it; you are ready to begin playing Hanamikoji.\u003c/content\u003e\n\u003c/result\u003e\n\n\u003cresult id=\"5\"\u003e\n\u003ctitle\u003eHow To Play Hanamikoji | Zatu Games\u003c/title\u003e\n\u003curl\u003ehttps://zatu.com/blogs/how-to-play/how-to-play-hanamikoji\u003c/url\u003e\n\u003ccontent\u003eYou place the 7 large Geisha cards in numerical order in a row between the players so that each person is sitting opposite the other. Each card gets a victory token placed in the centre.\n...\nFirst player then shuffles the 21 item cards (whose colours match the Geishas) and discards one face down back into the box, before dealing 6 face down cards to each person. The remaining item cards form a deck at the end of the Geisha Row. Note that the Geishas and their matching item cards show a “charm value” – this has relevance at end of round scoring (see below).\n...\nGeisha. Whoever has collected the most has won the favour\n...\nthat particular artist and so the victory token slides to\n...\nIf there is a draw,\n...\nstays put in\n...\nIf one player has won the favour of 4 Geishas (i.e. they have the majority on 4 different Geisha cards) they win the game. Alternatively, if both players have less than 4 Geishas, the winning player will be the one whose charm values add up to 11 or more – note that the charm values are not multiplied by the number of cards used to win a particular Geisha (so e.g. a majority set of 2 x flautists (purple Geisha with a charm value of 2) is still only worth 2 charms).\u003c/content\u003e\n\u003c/result\u003e",
+      "title": "Web search results"
+    }
+  ],
+  "rejected": false
+}
+```
 User decision: **accepted**
 
-Status: **loading**
+Status: **completed**
 
 
 </details>
@@ -1458,3 +1472,1290 @@ _**Agent (auto-low)**_
 <summary>Tool use: **read_file_v2**</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The file still contains the original seven geishas rather than the corrected six.
+
+The user confirmed seven geishas in Hanamikoji. Web search supports this count.
+
+The retail total is 21 charm points across seven geishas. My audit was wrong. I will check git diff to confirm whether other fixes remain intact.
+
+I will apologize for the error and avoid unnecessary edits if the file is already correct. I am checking git diff to verify actual repository changes.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/blog/hanamikoji-duopoly-retheme.md</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git diff content/english/blog/hanamikoji-duopoly-retheme.md
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+No git diff exists for hanamikoji. The changes may have been reverted, or the file was never modified.
+
+Checking git diff for all blog files.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && git diff --stat content/english/blog/</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && git diff --stat content/english/blog/
+```
+
+```
+ content/english/blog/alex-eala-pro-career-tracker.md | 4 ++--
+ content/english/blog/one-page-zine.md                | 2 +-
+ content/english/blog/static-site-vs-cms.md           | 2 +-
+ 3 files changed, 4 insertions(+), 4 deletions(-)
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The previous hanamikoji edits appear to have been reverted or were never saved.
+
+My audit was wrong. The original post correctly listed 7 geishas. No code changes are needed.</details></think>
+
+_**Agent (auto-low)**_
+
+You're right, and I had it wrong.
+
+Retail *Hanamikoji* has **7 geisha cards**, **7 victory markers**, and charm values **2/2/2/3/3/4/5** (21 total). Win **4 of 7** or **11+ charm**. Your Duopoly mapping was correct the whole way through: seven markets, US at 5, 21 points, one-to-one with retail.
+
+I mixed it up with an older memory (likely a different edition or a bad source). Sorry for the bad audit and the edits I pushed on that.
+
+Your `hanamikoji-duopoly-retheme.md` is already back to the right version with 7 geishas throughout. No changes needed there.
+
+The other fixes from that pass are still in place and valid:
+- `one-page-zine.md` - em dash removed (lint)
+- `static-site-vs-cms.md` - broken Sveltia link removed
+- `alex-eala-pro-career-tracker.md` - Lepchenko score and "WTA singles final" wording
+
+---
+
+_**User**_
+
+use /jorap-voice if all blogs make sense and spot errors
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running another blog audit with jorap-voice. Correcting the earlier mistake: Hanamikoji has 7 geishas.
+
+Scanning all published blogs for sense, errors, and voice issues. Running lint and batch-checking efficiently.</details></think>
+
+_**Agent (auto-low)**_
+
+Re-auditing all published blogs with jorap-voice, keeping Hanamikoji at 7 geishas this time.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1; pnpm lint:blog 2>&1</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1; pnpm lint:blog 2>&1
+```
+
+```
+$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check
+Voice dash lint OK
+Voice lint OK
+$ python3 scripts/normalize-blog-frontmatter.py --verify
+Blog frontmatter OK
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/*.md",
+  "outputMode": "files_with_matches",
+  "pattern": "^draft: false"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "files_with_matches",
+  "pattern": "^draft: false",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/what-i-look-for-in-wireless-earphones.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/how-i-built-jorap-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/hugoplate-theme-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/alex-eala-pro-career-tracker.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/worship-pads-solo-guitar.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/dnpap-song-resources.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/miracle-isaiah-david.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/getting-started-with-rss-feeds.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-i-focused-on-open-source.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/extension-cord.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/instant-pot-arroz-caldo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-keep-desktop-laptop.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/set-it-forget-it-arroz-caldo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/mouse-wheel-click.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/consistent-ai-output-wordpress-builds.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/sustainable-online-publishing.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-run-your-own-website.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/facebook-favorites-feed.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/one-page-zine.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-i-stopped-playing-marvel-snap.md"
+    }
+  ],
+  "totalFiles": 25,
+  "totalMatches": 25
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/*.md",
+  "outputMode": "files_with_matches",
+  "pattern": "^draft: true"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "files_with_matches",
+  "pattern": "^draft: true",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__hugo-page-bundles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__rechargeable-batteries.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__obsidian-vs-hugo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__client-site-pass-off.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__tailwind-css-v4.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__craft-prompt-framework.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__canon-g3000.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__hugo-shortcodes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__smart-plug.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__mi-box-s.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__hugo-go-templates.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__how-to-create-a-blog-template.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__markdown-formatting.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__wifi-router.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__sveltia-cms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__shopee-tips.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__kewpie-mayo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__password-managers.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__remote-work-checklist.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__how-to-create-a-good-habit.md"
+    }
+  ],
+  "totalFiles": 32,
+  "totalMatches": 32
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+`__markdown-deep-dive.md` appears in both draft and non-draft search results.
+
+The file likely contains conflicting draft flags. Published posts are being tallied by filtering out `__` prefixed drafts.
+
+Twenty-four published posts were tallied. Next, grepping for broken internal links, currency, AI tells, and spot-checking alex-eala fixes.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/*.md",
+  "pattern": "\\[.*\\]\\(/blog/[^)]+\\)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "\\[.*\\]\\(/blog/[^)]+\\)",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/__jorap-notes-features.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "./content/english/blog/__hugo-static-site-generator.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/__hugo-page-bundles.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/why-i-focused-on-open-source.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/hugoplate-theme-review.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/why-run-your-own-website.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/set-it-forget-it-arroz-caldo.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/instant-pot-arroz-caldo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/__tailwind-css-v4.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/blog/__sveltia-cms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/__markdown-formatting.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/blog/__markdown-deep-dive.md"
+    }
+  ],
+  "totalFiles": 12,
+  "totalMatches": 19
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/*.md",
+  "pattern": "—|–|\\$[0-9]|₱|When it comes to|Furthermore|hope this helps|game-changer"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "—|–|\\$[0-9]|₱|When it comes to|Furthermore|hope this helps|game-changer",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__humanize-ai-articles.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "content/english/blog/*.md",
+  "pattern": "image-template\\.jpg|TODO|FIXME|lorem"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "image-template\\.jpg|TODO|FIXME|lorem",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__remote-work-checklist.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__markdown-formatting.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__hugo-go-templates.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__mi-box-s.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__second-cellphone.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__tailwind-css-v4.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__wifi-router.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__markdown-deep-dive.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__craft-prompt-framework.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__smart-plug.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__how-to-create-a-blog-template.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__mcgill-big-three.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__how-to-create-a-good-habit.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__password-managers.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__kewpie-mayo.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__native-hugo-taxonomies.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__canon-g3000.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__sveltia-cms.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__hugo-shortcodes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__shopee-tips.md"
+    }
+  ],
+  "totalFiles": 29,
+  "totalMatches": 57
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking published posts for links to draft-only posts. Reviewing the extension-cord remote checklist. Noting miracle-isaiah empty image dimensions. Flagging an alex eastbourne line. Confirming hanamikoji is correct.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/*.md",
+  "pattern": "/blog/(sveltia-cms|client-site-pass-off|remote-work|markdown-deep-dive)"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "/blog/(sveltia-cms|client-site-pass-off|remote-work|markdown-deep-dive)",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__sveltia-cms.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/alex-eala-pro-career-tracker.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/extension-cord.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/miracle-isaiah-david.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/*.md",
+  "pattern": "height=\\\"\\\"|width=\\\"\\\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "height=\\\"\\\"|width=\\\"\\\"",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": "content/english/blog/__blog-template.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/miracle-isaiah-david.md"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking static-site-vs-cms for the Sveltia fix and scanning for more alex-eala issues.
+
+Reading voice-flagged post openings to update the audit. Verifying whether __markdown-deep-dive is a draft file.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__markdown-deep-dive.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/static-site-vs-cms.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/*.md",
+  "pattern": "aliases:"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "aliases:",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-keep-desktop-laptop.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__mcgill-big-three.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__humanize-ai-articles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__jorap-notes-features.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/mouse-wheel-click.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/why-run-your-own-website.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__worcestershire-sauce.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__hugo-shortcodes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/getting-started-with-rss-feeds.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/__immune-booster-supplements.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/hanamikoji-duopoly-retheme.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/facebook-favorites-feed.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/worship-pads-solo-guitar.md"
+    }
+  ],
+  "totalFiles": 13,
+  "totalMatches": 13
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/instant-pot-chicken-adobo.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Checking additional items for the audit.
+
+Found minor wording issues in the Alex Eala WTA 1000 semifinal post and the how-i-built subtitle. The worship-pads bit.ly link and cross-post redundancy between why-run and sustainable need review. The hanamikoji post is factually sound. Published internal links in why-i-focused-on-open-source correctly point to drupal-to-wordpress and how-i-built-jorap-notes.
+
+Published internal links in hugoplate-theme-review and why-run-youwebsite correctly point to how-i-built-jorap-notes. The arroz-caldo posts cross-reference each other properly. No broken links remain after the Sveltia fix. Draft __sveltia links to a draft post, which is expected. Now checking the alex-eala post for score typos or factual issues.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "d\\. [A-Za-z]+ [0-9]-[0-9], [0-9]-[0-9]\\([0-9]+\\), [0-9]-[0-9]"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "d\\. [A-Za-z]+ [0-9]-[0-9], [0-9]-[0-9]\\([0-9]+\\), [0-9]-[0-9]",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/alex-eala-pro-career-tracker.md",
+  "pattern": "Tour Finals|WTA Finals"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "Tour Finals|WTA Finals",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/how-i-built-jorap-notes.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/why-keep-desktop-laptop.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Compiling the full audit now.
+
+The audit confirms no factual errors in the Hanamikoji post. Fixes for the zine em dash, Sveltia link, and author names are already applied. Lint passes and no broken internal links were found. Voice flags remain unchanged. Now double-checking worship-pads and DNPAP Pagibig links.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/worship-pads-solo-guitar.md",
+  "pattern": "bit\\.ly"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "bit\\.ly",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/worship-pads-solo-guitar.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "content/english/blog/dnpap-song-resources.md",
+  "pattern": "Pagibig|Pag-ibig"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "Pagibig|Pag-ibig",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/blog/dnpap-song-resources.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/hanamikoji-duopoly-retheme.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The comprehensive audit is ready.
+
+24 published posts are lint-clean. The earlier Hanamikoji count was wrong; seven geishas is correct. No critical factual errors remain. Minor issues include a missing link in the extension-cord checklist, a minor wording inconsistency with Alex's WTA 1000 Tour Semifinals post, and potentially misleading aliases. Voice nuance is unchanged. No fixes will be suggested unless requested.</details></think>
+
+_**Agent (auto-low)**_
+
+## Blog audit (jorap-voice)
+
+**Scope:** 24 published posts (`draft: false`, no `__` prefix). `pnpm lint:voice` and `pnpm lint:blog` both pass.
+
+**Already fixed** (uncommitted): em dash in `one-page-zine.md`, broken Sveltia link in `static-site-vs-cms.md`, Alex Eala Lepchenko score + Eastbourne wording.
+
+---
+
+### Factual / structural errors
+
+**None blocking publish** in the current published set.
+
+**`hanamikoji-duopoly-retheme.md`** - Correct as written. Retail has 7 geisha, 7 victory markers, charm 2/2/2/3/3/4/5 (21 total), win 4 of 7. Duopoly maps one-to-one. (My earlier 6-geisha call was wrong.)
+
+**Minor nits (not wrong, just worth knowing):**
+
+| Post | Issue |
+|------|--------|
+| `alex-eala-pro-career-tracker.md` line 159 | "WTA 1000 Tour Semifinals" - redundant "Tour"; elsewhere you use "WTA 1000 semifinal" |
+| `extension-cord.md` line 65 | Mentions "remote work checklist" with no link; post is still draft (`__remote-work-checklist.md`) |
+| `hanamikoji-duopoly-retheme.md` line 15 | `aliases: ["hanamikoji-rules"]` reserves a URL for rules that live in your private zine, not this post |
+| `miracle-isaiah-david.md` line 31 | Image shortcode has empty `height="" width=""` |
+| `worship-pads-solo-guitar.md` line 75 | `bit.ly` link (rots over time) |
+| `instant-pot-chicken-adobo.md` | Ends after Step 6 with no closing land |
+
+**Internal links:** All `/blog/...` links from published posts resolve to other published posts. Sveltia CMS 404 is fixed.
+
+---
+
+### Voice - strong vs generic
+
+**Sounds like you** (specific, earned, clear take): `extension-cord`, `mouse-wheel-click`, `drupal-to-wordpress`, `what-i-look-for-in-wireless-earphones`, `why-i-stopped-playing-marvel-snap`, `why-i-focused-on-open-source`, `facebook-favorites-feed`, `hanamikoji-duopoly-retheme`, `one-page-zine`, `instant-pot-arroz-caldo`, `hugoplate-theme-review` (body).
+
+**Reads generic or overlaps** (could paste into any tech blog):
+
+| Post | What drifts |
+|------|-------------|
+| `why-keep-desktop-laptop.md` | Good borrow-the-laptop hook, then standard "reasons to keep a PC" listicle |
+| `why-run-your-own-website.md` | Personal-site advocacy; little of *your* site until late |
+| `sustainable-online-publishing.md` | Heavy overlap with `why-run-your-own-website` (platform risk, same Hugo/GitHub/Cloudflare stack) |
+| `getting-started-with-rss-feeds.md` | Friend anecdote opens well; middle is interchangeable RSS how-to |
+| `consistent-ai-output-wordpress-builds.md` | Consulting-framework shape; needs more concrete WP/file examples |
+| `how-i-built-jorap-notes.md` | Body is strong; title "My Journey from Expensive Hosting" sounds like template SEO |
+
+**Fine for format** (not essay voice): `alex-eala-pro-career-tracker`, `dnpap-song-resources`.
+
+**Recipes:** `instant-pot-chicken-adobo` has voice in the opening and "Why I use the Instant Pot" section; steps are appropriately instructional. Just needs a closing line.
+
+---
+
+### Drafts worth flagging
+
+| Draft | Note |
+|-------|------|
+| `__sveltia-cms.md` | Links to unpublished `client-site-pass-off`; publish both together when ready |
+| `__markdown-deep-dive.md` | Complete, `draft: true`; placeholder image |
+| `__humanize-ai-articles.md` | Intentional AI slop as anti-pattern - don't publish without framing |
+| `__wifi-router.md` + ~20 others | Still on `image-template.jpg` |
+
+---
+
+### Summary
+
+| Severity | Status |
+|----------|--------|
+| Factual blockers | None in published posts |
+| Lint | Clean |
+| Voice polish | 6 posts could use a pass |
+| Minor nits | ~7 across 6 posts |
+
+Published blogs **make sense** and are in good shape. The factual fixes from the last pass hold; Hanamikoji was already right. Highest-value follow-ups are voice passes on the overlapping "own your site" pair and a closing line for the adobo post - not correctness fixes.
+
+Want me to commit the three pending fixes, or run voice passes on specific posts?
+
+---
+
+_**User**_
+
+Factual / structural errors
+None blocking publish in the current published set.
+
+hanamikoji-duopoly-retheme.md - Correct as written. Retail has 7 geisha, 7 victory markers, charm 2/2/2/3/3/4/5 (21 total), win 4 of 7. Duopoly maps one-to-one. (My earlier 6-geisha call was wrong.)
+
+Minor nits (not wrong, just worth knowing):
+
+Post	Issue
+alex-eala-pro-career-tracker.md line 159
+"WTA 1000 Tour Semifinals" - redundant "Tour"; elsewhere you use "WTA 1000 semifinal"
+extension-cord.md line 65
+Mentions "remote work checklist" with no link; post is still draft (__remote-work-checklist.md)
+hanamikoji-duopoly-retheme.md line 15
+aliases: ["hanamikoji-rules"] reserves a URL for rules that live in your private zine, not this post
+miracle-isaiah-david.md line 31
+Image shortcode has empty height="" width=""
+worship-pads-solo-guitar.md line 75
+bit.ly link (rots over time)
+instant-pot-chicken-adobo.md
+Ends after Step 6 with no closing land
+Internal links: All /blog/... links from published posts resolve to other published posts. Sveltia CMS 404 is fixed.
+
+Voice - strong vs generic
+Sounds like you (specific, earned, clear take): extension-cord, mouse-wheel-click, drupal-to-wordpress, what-i-look-for-in-wireless-earphones, why-i-stopped-playing-marvel-snap, why-i-focused-on-open-source, facebook-favorites-feed, hanamikoji-duopoly-retheme, one-page-zine, instant-pot-arroz-caldo, hugoplate-theme-review (body).
+
+Reads generic or overlaps (could paste into any tech blog):
+
+Post	What drifts
+why-keep-desktop-laptop.md
+Good borrow-the-laptop hook, then standard "reasons to keep a PC" listicle
+why-run-your-own-website.md
+Personal-site advocacy; little of your site until late
+sustainable-online-publishing.md
+Heavy overlap with why-run-your-own-website (platform risk, same Hugo/GitHub/Cloudflare stack)
+getting-started-with-rss-feeds.md
+Friend anecdote opens well; middle is interchangeable RSS how-to
+consistent-ai-output-wordpress-builds.md
+Consulting-framework shape; needs more concrete WP/file examples
+how-i-built-jorap-notes.md
+Body is strong; title "My Journey from Expensive Hosting" sounds like template SEO
+Fine for format (not essay voice): alex-eala-pro-career-tracker, dnpap-song-resources.
+
+Recipes: instant-pot-chicken-adobo has voice in the opening and "Why I use the Instant Pot" section; steps are appropriately instructional. Just needs a closing line.
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The user shared an audit of their published </details></think>

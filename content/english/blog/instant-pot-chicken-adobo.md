@@ -149,3 +149,7 @@ If a thicker sauce is desired, whisk ½-⅔ tsp xanthan gum with a little hot sa
 For restaurant-style adobo, pan-sear the cooked chicken skin-side down for 2-3 minutes, or until lightly crisp.
 
 Return the chicken to the sauce before serving.
+
+---
+
+I make this most weeks - rice on the side, extra sauce spooned over, kalamansi if I have it. Bone-in thighs hold up to leftovers better than breast ever did for me. Same pot, same ten-minute pressure, no babysitting. That's the version I actually cook, not the stovetop one I save for when I have a whole afternoon.

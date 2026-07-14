@@ -30,7 +30,7 @@ I'm not anti-mobile. My phone does most of what I need for short, in-between mom
 
 Phones have gotten ridiculously fast. The problem is sustaining that speed. Once a phone heats up - and it heats up quickly under load - it throttles, the fans (if it even has any) give up, and everything slows down.
 
-A laptop or desktop, with proper cooling and a bigger battery, can hold its performance for hours. That's the difference between editing a five-minute video on your phone and watching it crash twice, vs. doing the same edit on a laptop while a Zoom call is still running in the background.
+A laptop or desktop, with proper cooling and a bigger battery, can hold its performance for hours. I tried trimming a sermon clip on my phone once - it crashed twice. Same edit on a laptop, Zoom still running in the background, no drama.
 
 Same story with RAM. My phone aggressively kills background apps the moment I switch away. My laptop just... keeps them there. All twenty of them, exactly where I left them.
 
@@ -40,7 +40,7 @@ Same story with RAM. My phone aggressively kills background apps the moment I sw
 
 I love that mobile versions of Word, Photoshop, and Premiere exist. They're great for quick fixes. But they're not the real thing.
 
-Try managing a spreadsheet with twenty tabs and a few pivot tables on a phone. Or editing a long document with tracked changes. Or running a build script. The mobile versions either hide those features or simply don't have them. Desktop software is where the full toolbox lives - keyboard shortcuts, plugins, extensions, scripting, the works.
+Try managing a spreadsheet with twenty tabs and a few pivot tables on a phone. Or editing a long document with tracked changes. Or running `hugo server` and a WordPress staging build at the same time. The mobile versions either hide those features or simply don't have them.
 
 For anything that's actually work, I want the full version.
 
@@ -50,7 +50,7 @@ For anything that's actually work, I want the full version.
 
 Modern phones technically support split-screen, but it always feels like a workaround. You squint at two tiny windows, lose context every time you tap something, and end up back in single-app mode anyway.
 
-On a laptop I can have a browser, a code editor, a terminal, a chat app, and a music player all visible at the same time. Add a second monitor and it's almost too much screen. That's not "more apps for the sake of more apps" - it's how research, writing, and most creative work actually happens. You glance, compare, copy, paste, glance again.
+On a laptop I can have a browser, a code editor, a terminal, a chat app, and a music player all visible at the same time. Add a second monitor and it's almost too much screen. That's how I actually work on client WordPress builds - WTA tracker open in one tab, `functions.php` in another, Slack in a third.
 
 ---
 

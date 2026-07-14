@@ -62,7 +62,7 @@ In the **laptop bag**, I carry a plain light cord. Less bulk, less weight, and h
 
 One **2-metre cord** with a flat plug, coiled with a velcro strap, in the same pouch as the charger. It weighs almost nothing. I've lost count of how many dying-battery emergencies it fixed.
 
-It's on my **remote work checklist** too - because a dead battery at the wrong outlet kills a meeting, and borrowing someone else's cord always takes longer than you think.
+It's in my **travel bag** too - same pouch as the charger - because a dead battery at the wrong outlet kills a meeting, and borrowing someone else's cord always takes longer than you think.
 
 ---
 

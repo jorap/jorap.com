@@ -28,7 +28,7 @@ The story ended up reaching far more people than we ever imagined, but I want to
 
 A few days after Isaiah was born, while still trying to process everything, I sat down and wrote it all out on Facebook. I just wanted our friends and family to know what happened, in our own words, before the news traveled too far.
 
-{{< image src="images/fb-post-isaiah-david.jpg" caption="Finding out you're pregnant and giving birth on the same day, during ECQ!!!" alt="Finding out you're pregnant and giving birth on the same day, during ECQ!!!" height="" width="" position="center" command="fill" option="q75" class="img-fluid" title="Finding out you're pregnant and giving birth on the same day, during ECQ!!!" webp="true" >}}
+{{< image src="images/fb-post-isaiah-david.jpg" caption="Finding out you're pregnant and giving birth on the same day, during ECQ!!!" alt="Finding out you're pregnant and giving birth on the same day, during ECQ!!!" height="750" width="1000" position="center" command="fill" option="q75" class="img-fluid" title="Finding out you're pregnant and giving birth on the same day, during ECQ!!!" webp="true" >}}
 
 [Original Facebook post](https://www.facebook.com/story.php?story_fbid=10157266063333161&id=567318160&rdid=8BPSwIPMx743NK8z)
 

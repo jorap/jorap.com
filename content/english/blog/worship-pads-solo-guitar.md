@@ -72,7 +72,7 @@ These are the three I keep coming back to. All free, all in standard keys, all g
 
 {{< youtube 4V_Wc6FyIjo >}}
 
-Download: [Free Worship Ambient Pads](http://bit.ly/WorshipAmbientPads)
+Download: [link in the video description](https://www.youtube.com/watch?v=4V_Wc6FyIjo) (Juan López Música)
 
 **Churchfront** - clean, modern sound. Email signup required.
 

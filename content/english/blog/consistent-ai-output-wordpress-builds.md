@@ -81,7 +81,9 @@ Name each repeating shape. One line each. That's what AI will build reusable cod
 
 ### Step 2 - One helper for the boring opening
 
-Every shape starts with the same few lines of setup. Ask AI for **one helper** that wraps that and exposes a single function call.
+Every shape starts with the same few lines of setup. On WordPress builds that's usually registering the block, enqueuing assets, and pulling ACF fields - the opening of every `block.php` looks identical before the markup diverges.
+
+Ask AI for **one helper** - something like `jorap_block_open( $block_name )` in `inc/blocks/helpers.php` - that wraps that boilerplate and exposes a single function call.
 
 This may be the most important file in the project. Every new feature starts the same way. AI calls the helper and moves on to the real work.
 
@@ -89,9 +91,9 @@ You're not saving keystrokes. **The first ~25 lines of every file match**, so th
 
 ### Step 3 - A small library of reference examples
 
-With the helper in place, ask AI for one polished example per shape - one card, one form, one list. You don't ship these as features. They're **references** - the recipe book.
+With the helper in place, ask AI for one polished example per shape - one card block, one banner, one list. You don't ship these as features. They're **references** in something like `inc/blocks/examples/card.php` - the recipe book.
 
-"Build me a card" becomes "build me a card like *this* one." AI copies well when you point at an example. It invents poorly when you don't. References fix that.
+"Build me a testimonial card" becomes "build me a card like `examples/card.php`." AI copies well when you point at a file. It invents poorly when you don't.
 
 ### Step 4 - Rules plus a standing instruction
 
@@ -103,7 +105,7 @@ Write down rules that aren't taste - they're safety. Mine look like:
 
 Ask AI to put five to ten rules in one plain-English doc in the project.
 
-Add one instruction for every task: **"Use the helper. Mirror the closest example. Follow the rules."** Put the doc and that line where the AI reads them first - a rules file, a Cursor rule, whatever you use.
+Add one instruction for every task: **"Use the helper. Mirror the closest example. Follow the rules."** Put the doc and that line where the AI reads them first - a `.cursor/rules` file, a `PROJECT.md`, whatever you use.
 
 That's the contract. AI stops inventing and starts assembling from what you already built. New code looks like old code because the layer doesn't leave much room for anything else.
 
