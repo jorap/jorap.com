@@ -38,7 +38,7 @@ The business frame helps the same way. Geisha favor becomes **market control**. 
 
 Practical wins stack on top. Retail *Hanamikoji* uses **oversized geisha boards** and **smaller item cards** - two print templates, two sleeve sizes at home. I print poker-size everything. One cutter pass, one sleeve SKU, one stack in a tuck box.
 
-Mechanics unchanged. Visual noise stripped. Friction lowered. Early plays suggest the mechannic and its simplicity holds - you still lean in when someone fans out a Competition. The geisha atmosphere is gone; the tension is not.
+Mechanics unchanged. Visual noise stripped. Friction lowered. Early plays suggest the mechanic still holds - you still lean in when someone fans out a Competition. The geisha atmosphere is gone; the tension is not.
 
 ---
 
@@ -140,8 +140,8 @@ Rules stay in the zine so this post does not duplicate them. The mapping table a
 
 ## Personal use only
 
-**Duopoly stays on my table.** I am not publishing PDFs, selling copies, or handing out a substitute for the retail game. *Hanamikoji* — mechanics, structure, scoring, the whole design — belongs to its creators and publisher. I rethemed the faces and cut components so I could play at home without copying retail artwork. That is personal consumption, not a product.
+**Duopoly stays on my table.** I am not publishing PDFs, selling copies, or handing out a substitute for the retail game. *Hanamikoji* (mechanics, structure, scoring, the whole design) belongs to its creators and publisher. I rethemed the faces and cut components so I could play at home without copying retail artwork. That is personal consumption, not a product.
 
 I want to stay on the right side of copyright and trademark law. I am not a lawyer and I do not know every rule in every country. What I do know is what I am willing to do: keep the deck private, credit *Hanamikoji*, and point anyone who wants to play toward the published box.
 
-If you already own *Hanamikoji*, you do not need this — you have the real thing, art and all. If you do not, buy it from the publisher. This post is my private build log: flags, business nouns, one sleeve, fewer bits in the box — not permission to reproduce someone else's game.
+If you already own *Hanamikoji*, you do not need this. You have the real thing, art and all. If you do not, buy it from the publisher. This post is my private build log: flags, business nouns, one sleeve, fewer bits in the box, not permission to reproduce someone else's game.
