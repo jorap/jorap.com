@@ -55,6 +55,8 @@ One-to-one where it matters. If the retail name does not appear in the left colu
 | Gift | Gift | 3 revealed, rival picks 1 |
 | Competition | Competition | 4 as two pairs, rival picks a pair |
 
+{{< image src="images/duopoly-actions.jpg" caption="Four action cards - Secret, Trade-off, Gift, and Competition - with the split-and-choose layout on each face." alt="Duopoly action cards showing Secret, Trade-off, Gift, and Competition with card-count diagrams" height="361" width="1000" position="center" command="fit" option="q90" class="img-fluid" title="Duopoly action cards" webp="true" zoomable="true" >}}
+
 ### The seven markets
 
 Point values follow the retail spread. I only renamed the faces.
@@ -84,6 +86,8 @@ I baked control into the **country card itself**. Same card, two faces - no chip
 You never hunt for a marker. You never bump one off-center. The country card *is* the state. Glance at the row: black means open, green your way means yours.
 
 That is the main reason I kept seven market cards instead of printing the row on the zine. The flip is faster and clearer than pencil ticks or sliding cardboard up and down a board.
+
+{{< image src="images/duopoly-countries.jpg" caption="Neutral market cards (black, double flag) versus a taken lead (single flag, green toward you, red toward rival)." alt="Duopoly country cards in neutral and controlled states for USA, EU, and China" height="930" width="1000" position="center" command="fit" option="q90" class="img-fluid" title="Duopoly country card flip states" webp="true" zoomable="true" >}}
 
 ---
 
