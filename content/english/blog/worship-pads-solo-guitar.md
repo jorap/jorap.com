@@ -3,10 +3,7 @@ title: "Worship Pads for Solo Guitar: What Changed When I Finally Tried Them"
 meta_title: "Worship Pads for Solo Guitar: What Changed When I Finally Tried Them"
 description: "Leading worship with just an acoustic guitar always felt thin in a big room - until someone slid a pad track underneath me during practice. The whole night changed."
 slug: "worship-pads-solo-guitar"
-aliases:
-  - "power-of-worship-pads-enhancing-your-worship-with-guitar"
-  - "power-of-worship-pads-enhancing-your-worship-experience"
-date: 2025-05-04T05:00:00Z
+date: "2025-05-04T05:00:00Z"
 image: "/images/worship-pads.jpg"
 categories: ["Worship", "Music", "Tips"]
 author: "JoRap"
@@ -15,6 +12,7 @@ related_notes:
   - love-god
   - ask-seek-knock
   - dont-worry
+aliases: ["power-of-worship-pads-enhancing-your-worship-with-guitar", "power-of-worship-pads-enhancing-your-worship-experience"]
 featured: false
 draft: false
 ---

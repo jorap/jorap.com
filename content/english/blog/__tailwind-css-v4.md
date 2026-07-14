@@ -2,12 +2,12 @@
 title: "Tailwind CSS v4.0"
 meta_title: "Tailwind CSS v4 - What Changed When Hugoplate Upgraded"
 description: "Tailwind v4 moved config into CSS and shuffled the build pipeline. I didn't fork blindly - I synced Hugoplate upstream and tested before pushing live."
-date: 2026-06-19T06:00:00Z
+slug: "tailwind-css-v4"
+date: "2026-06-19T06:00:00Z"
 image: "/images/image-template.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Tailwind CSS", "CSS", "Web Development", "Hugo", "Hugoplate", "Frontend"]
-slug: "tailwind-css-v4"
 related_notes:
   - future-proofing-knowledge
   - the-garage-concept

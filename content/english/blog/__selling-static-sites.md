@@ -3,7 +3,7 @@ title: "How I Quote Client Websites"
 meta_title: "How I Quote Client Websites - Clear Line Items, No Mystery Fees"
 description: "I break quotes into pieces you can read - discovery, build, migration, pass-off, hosting. No bundled fog, no invoice that mixes labor with server rent you can't audit."
 slug: "selling-static-sites"
-date: 2026-07-02T05:00:00Z
+date: "2026-07-02T05:00:00Z"
 image: "/images/website.jpg"
 categories: ["Website", "Business", "Tips"]
 author: "JoRap"

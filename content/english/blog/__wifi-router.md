@@ -2,12 +2,12 @@
 title: "Wifi Router"
 meta_title: "Wifi Router - What I Look For and What I'd Buy Again"
 description: "After one too many dead zones and mystery reboots, here's the short list of what I actually care about in a home wifi router - and the habits that matter more than the box on the shelf."
-date: 2026-06-18T05:00:00Z
+slug: "wifi-router"
+date: "2026-06-18T05:00:00Z"
 image: "/images/image-template.jpg"
 categories: ["Technology", "Gear", "Reviews"]
 author: "JoRap"
 tags: ["Wi-Fi", "Router", "Home Network", "Gear", "Wi-Fi 6", "Mesh Network", "Internet", "Networking", "Home Office", "ISP", "Bandwidth", "Dead Zones"]
-slug: "wifi-router"
 related_notes:
   - reliability
 featured: false

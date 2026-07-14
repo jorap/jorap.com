@@ -1,9 +1,9 @@
 ---
 title: "Alex Eala Pro Career Tracker"
-date: 2026-07-13T05:00:00Z
 meta_title: "Alex Eala Pro Career Tracker"
-slug: "alex-eala-pro-career-tracker"
 description: "My running scrapbook of Alex Eala's WTA career - rankings, matches I'll never forget, and matchups I'm watching for next."
+slug: "alex-eala-pro-career-tracker"
+date: "2026-07-13T05:00:00Z"
 image: "/images/alex-eala.jpg"
 categories: ["Sports", "Filipino", "People"]
 author: "JoRap"
@@ -14,7 +14,7 @@ related_notes:
   - follow-through
 featured: false
 draft: false
-lastmod: 2026-07-13T15:24:00Z
+lastmod: "2026-07-13T15:24:00Z"
 ---
 
 I've been following Alex Eala's career since her amazing run at the 2025 Miami Open, and watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook - career-high rankings, the matches I'll always remember, the head-to-heads with Grand Slam champions, and the upcoming matchups I'm watching for. I update it as her career unfolds.

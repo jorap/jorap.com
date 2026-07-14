@@ -2,12 +2,12 @@
 title: "Mi Box S"
 meta_title: "Mi Box S - A Cheap Android TV Box Worth Talking About"
 description: "The Xiaomi Mi Box S isn't flashy, but it's been a solid streaming box under our TV. Here's what it does well, where it struggles, and who should bother."
-date: 2026-06-18T05:02:00Z
+slug: "mi-box-s"
+date: "2026-06-18T05:02:00Z"
 image: "/images/image-template.jpg"
 categories: ["Technology", "Gear", "Reviews"]
 author: "JoRap"
 tags: ["Mi Box S", "Android TV", "Streaming", "Xiaomi", "Gear", "Set-Top Box", "Google TV", "Netflix", "Home Entertainment", "4K Streaming", "Chromecast Alternative"]
-slug: "mi-box-s"
 related_notes:
   - digital-minimalism
   - attention-economy

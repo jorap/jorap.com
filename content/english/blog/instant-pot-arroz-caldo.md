@@ -1,12 +1,12 @@
 ---
-title: Instant Pot Arroz Caldo
-slug: "instant-pot-arroz-caldo"
+title: "Instant Pot Arroz Caldo"
 meta_title: "Instant Pot Arroz Caldo - Big-Batch Filipino Congee"
 description: "My arroz caldo now lives in an 8-quart Instant Pot. Bone-in drumsticks, 25 minutes under pressure, and a base you taste before the raw chicken goes in - big batch, about 45 minutes start to bowl."
-date: 2026-07-09T06:00:00
-author: JoRap
-image: /images/instant-pot-arroz-caldo.jpg
+slug: "instant-pot-arroz-caldo"
+date: "2026-07-09T06:00:00Z"
+image: "/images/instant-pot-arroz-caldo.jpg"
 categories: ["Food", "Recipes", "Filipino"]
+author: "JoRap"
 tags: ["Arroz Caldo", "Filipino Recipes", "Instant Pot", "Pressure Cooking", "Comfort Food", "Home Cooking", "Chicken Recipes", "Congee", "Rice Porridge", "Filipino Food", "Ginger", "Glutinous Rice", "Malagkit", "Philippines", "Filipino Cuisine", "One-Pot Meals", "Meal Prep"]
 related_notes:
   - habit-formation

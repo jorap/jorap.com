@@ -2,12 +2,12 @@
 title: "Hugo Page Bundles"
 meta_title: "Hugo Page Bundles - When I Stop Dumping Images in /static"
 description: "Most of my posts are a single .md file with a hero image in /images. Page bundles are for the messier ones - multiple screenshots, downloads, assets that belong to one post and nowhere else."
-date: 2026-06-19T06:00:00Z
+slug: "hugo-page-bundles"
+date: "2026-06-19T06:00:00Z"
 image: "/images/image-template.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Hugo", "Page Bundles", "Content Management", "Static Sites", "Markdown", "Assets", "PKM", "Static Site Generator"]
-slug: "hugo-page-bundles"
 related_notes:
   - future-proofing-knowledge
   - the-garage-concept
@@ -29,7 +29,7 @@ A **Hugo page bundle** fixes that. It's a folder with `index.md` plus sibling fi
 
 ## The mess that pushed me toward bundles
 
-My [Facebook Favorites post](/blog/facebooks-hidden-gem-how-favorites-feed-transforms-your-social-media-experience/) has two walkthrough screenshots - `fb-desktop-feed.jpg` and `fb-mobile-feed.jpg` - referenced from the post but still sitting as loose image files, not colocated in a bundle folder. Fine for two files. Annoying when I'm drafting three posts at once and every new screenshot lands in the same shared pile.
+My [Facebook Favorites post](/blog/facebook-favorites-feed/) has two walkthrough screenshots - `fb-desktop-feed.jpg` and `fb-mobile-feed.jpg` - referenced from the post but still sitting as loose image files, not colocated in a bundle folder. Fine for two files. Annoying when I'm drafting three posts at once and every new screenshot lands in the same shared pile.
 
 I didn't bundle that post when I added the captures. Single-file habit won. The next client migration probably won't get that pass - church bulletin PDFs beside the announcement page, before/after shots for a portfolio case study. Stuff you **never** want in a site-wide image dump.
 

@@ -3,7 +3,7 @@ title: "Why I Focused on Open Source Technologies"
 meta_title: "Why I Bet on Open Source - Practical Reasons, Not a Manifesto"
 description: "Open source wasn't a purity test for me. Freedom mattered more than free - install tonight, read the code, move your files, own the stack. Learning still ate months. Here's how that shaped my choices."
 slug: "why-i-focused-on-open-source"
-date: 2026-07-04T12:00:00Z
+date: "2026-07-04T12:00:00Z"
 image: "/images/open-source.jpg"
 categories: ["Technology", "Opinion", "Developer Life"]
 author: "JoRap"

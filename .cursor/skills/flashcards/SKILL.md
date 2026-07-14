@@ -124,6 +124,7 @@ Wiki = nuance. Cards = spine habits (~20%) you drill weekly so the chain is auto
 6. **De-AI pass (garden-voice + vocab)** - read each front aloud. Would JoRap actually think this mid-commute, mid-argument, inbox at 40? Cut textbook phrasing, abstract nouns, and third-person setup. Swap any word you wouldn't say to a friend mid-rush (`utilize` → `use`, `repository` → `inbox`, `facilitate` → `help`). Backs stay short imperatives - no essays.
 7. **Real-life litmus** - for each card: *If this front happened tonight, would I know the back without opening the site?*
 8. **Pick `card_sets`**, validate with `npm run lint:cards`, `npm run audit:cards`, and `npm run lint:voice`.
+9. Do **not** commit or push unless the user explicitly asks.
 
 ### Scaffold
 

@@ -31,7 +31,7 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
 1. **Read 1-2 reference posts** in the same category before writing:
    - **Gear / reviews:** `content/english/blog/what-i-look-for-in-wireless-earphones.md`
    - **Tech / how-to:** `content/english/blog/how-i-built-jorap-notes.md`
-   - **Tips:** `content/english/blog/power-of-the-mouse-wheel-click.md`
+   - **Tips:** `content/english/blog/mouse-wheel-click.md`
    - **Opinion:** `content/english/blog/why-i-stopped-playing-marvel-snap.md`
 2. **Draft in the author's voice**, not a generic blogger voice.
 3. **Run the seven rewrite passes** (below) - mandatory, even on small edits. Skim all seven on every edit; deep-rewrite any section that fails more than one pass.
@@ -183,8 +183,25 @@ Land on what you actually use, what you'd buy again, or a plain recommendation. 
 
 ### Frontmatter
 
+Field order (always use this order; `pnpm lint:blog` enforces it):
+
+1. `title`, `meta_title`, `description`, `slug`, `date`, `image`
+2. `categories`, `author`, `tags`, `related_notes` (when used)
+3. `aliases`, `lastmod` (only when needed)
+4. `featured`, `draft`
+
 - `description`: memorable one-breath summary - what the post is or what you learned; first person is fine. Not keyword-stuffed.
 - `meta_title`: useful and specific - not clickbait, not "Ultimate Guide to…" unless the post truly is a full guide.
+- `slug`: always set - filename without `__` prefix (e.g. `slug: "wifi-router"`). Keep when the URL should differ from the filename (rare; add `aliases` for the old path).
+
+### Publishing
+
+To publish a draft (`__post-name.md`):
+
+1. Drop the `__` prefix from the filename.
+2. Set `draft: false`.
+3. Keep `slug` in frontmatter (see **Frontmatter** above).
+4. Do **not** commit or push unless the user explicitly asks.
 
 ## Gear and reviews
 
@@ -213,6 +230,7 @@ Recipe content can be more instructional - ingredients, steps, timings - but sec
 
 ## Do not
 
+- Commit or push unless the user explicitly asks
 - Add engagement bait ("Let me know in the comments!", "What do you think?")
 - Pad with obvious filler or restate the heading in the first sentence
 - Use emoji in post body
@@ -230,4 +248,4 @@ When a post is only an outline (see `__extension-cord.md`, `__wifi-router.md`):
 2. Write each section as prose-first - not bullet dumps unless it's a genuine checklist.
 3. Add the personal thread: why this topic, what you learned, what you'd tell a friend.
 4. Preserve Hugo frontmatter; set `draft: true` until the user publishes.
-5. **Draft filenames** use a `__` prefix (e.g. `__wifi-router.md`) so drafts sort apart in the file tree. Set `slug` to the publish name without the prefix (e.g. `slug: "wifi-router"`). To publish: drop the `__` prefix from the filename, set `draft: false`, and remove the `slug` line if it matches the filename.
+5. **Draft filenames** use a `__` prefix (e.g. `__wifi-router.md`) so drafts sort apart in the file tree. Set `slug` to the intended publish URL (e.g. `slug: "wifi-router"`). See **Publishing** above and `archetypes/blog.md` for field order.

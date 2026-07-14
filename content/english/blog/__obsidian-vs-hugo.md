@@ -2,12 +2,12 @@
 title: "Obsidian vs Hugo"
 meta_title: "Obsidian vs Hugo - Private Wiki vs Public Site"
 description: "Obsidian is my thinking gym; Hugo is the storefront. I use both - different jobs, linked by Markdown."
-date: 2026-06-19T06:00:00Z
+slug: "obsidian-vs-hugo"
+date: "2026-06-19T06:00:00Z"
 image: "/images/image-template.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Obsidian", "Hugo", "PKM", "Publishing", "Markdown", "Workflow", "Digital Garden", "Note Taking"]
-slug: "obsidian-vs-hugo"
 related_notes:
   - the-garage-concept
   - drafting-in-public

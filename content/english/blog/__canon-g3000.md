@@ -2,12 +2,12 @@
 title: "Canon G3000"
 meta_title: "Canon G3000 - Ink Tank Printer Notes"
 description: "The Canon G3000 is an ink-tank printer for people tired of cartridge roulette. Here's what it's good at, what annoyed me, and who should consider one."
-date: 2026-06-18T05:09:00Z
+slug: "canon-g3000"
+date: "2026-06-18T05:09:00Z"
 image: "/images/image-template.jpg"
 categories: ["Technology", "Gear", "Reviews"]
 author: "JoRap"
 tags: ["Canon G3000", "Printer", "Ink Tank", "Home Office", "Gear", "Printing", "Inkjet", "Document Printing", "Cost Per Page", "Work From Home"]
-slug: "canon-g3000"
 related_notes:
   - reliability
   - building-a-personal-api

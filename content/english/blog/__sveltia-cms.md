@@ -2,12 +2,12 @@
 title: "Sveltia CMS"
 meta_title: "Sveltia CMS - When the Client Won't Touch Git"
 description: "I publish via Markdown and git push. Sveltia CMS is the bridge when someone needs buttons - edits still commit to the repo, build pipeline unchanged."
-date: 2026-06-19T06:00:00Z
+slug: "sveltia-cms"
+date: "2026-06-19T06:00:00Z"
 image: "/images/image-template.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Sveltia CMS", "Hugo", "CMS", "Git", "Static Sites", "Content Management"]
-slug: "sveltia-cms"
 related_notes:
   - git-based-cms
 featured: false

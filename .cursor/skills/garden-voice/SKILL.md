@@ -62,6 +62,7 @@ Blog posts use [jorap-voice](../jorap-voice/SKILL.md) and its **seven rewrite pa
 3. **Run the de-AI pass** (below) - mandatory, even on one-line fixes.
 4. **Run the voice check** (below) before finishing.
 5. Before/after samples: [examples.md](examples.md).
+6. Do **not** commit or push unless the user explicitly asks.
 
 ## Two registers
 
@@ -211,6 +212,7 @@ If a field still feels generated, rewrite from one real scene - don't polish AI 
 
 ## Do not
 
+- Commit or push unless the user explicitly asks
 - Use emoji in note frontmatter
 - Use em dashes; use a normal hyphen (-), comma, or parentheses instead
 - Open `key_concept` with "X is the process whereby…"

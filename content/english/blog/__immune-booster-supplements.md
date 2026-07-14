@@ -2,18 +2,19 @@
 title: "Personal Immune Booster Supplements"
 meta_title: "Personal Immune Booster Supplements - What's In My Stack"
 description: "Not medical advice - just the immune-support supplements I keep in rotation, what the research-ish case is, and how I actually take them."
-date: 2026-06-18T06:10:00Z
+slug: "immune-booster-supplements"
+date: "2026-06-18T06:10:00Z"
 image: "/images/image-template.jpg"
 categories: ["Health", "Wellness", "Tips"]
 author: "JoRap"
 tags: ["Supplements", "Health", "Immune System", "Wellness", "Vitamin C", "Vitamin D", "Zinc", "Daily Routine", "Self Care", "Nutrition", "Preventive Health"]
-slug: "personal-immune-booster-supplements"
 related_notes:
   - recovery
   - sustainable-performance
   - energy-protects-judgment
   - the-second-brain-workflow
   - building-a-second-brain
+aliases: ["personal-immune-booster-supplements"]
 featured: false
 draft: true
 ---

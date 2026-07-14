@@ -2,12 +2,12 @@
 title: "Shopee Tips"
 meta_title: "Shopee Tips - How I Shop Smarter on Shopee"
 description: "Shopee is overwhelming on purpose. Here's how I filter for local sellers, stretch shipping promos, and find deals that are actually worth opening the app for."
-date: 2026-06-18T05:08:00Z
+slug: "shopee-tips"
+date: "2026-06-18T05:08:00Z"
 image: "/images/image-template.jpg"
 categories: ["Shopping", "Tips", "Guide"]
 author: "JoRap"
 tags: ["Shopee", "Online Shopping", "Tips", "Philippines", "E-commerce", "Deals", "Free Shipping", "Local Sellers", "Marketplace", "Shopping Hacks", "Filipino"]
-slug: "shopee-tips"
 related_notes:
   - attention-economy
   - behavioral-economics

@@ -2,12 +2,12 @@
 title: "Native Hugo Taxonomies"
 meta_title: "Native Hugo Taxonomies - Categories, Tags, and What I Don't Let Grow Wild"
 description: "Hugo builds category and tag pages from frontmatter - no plugin. I use them for site navigation, not as a private Second Brain."
-date: 2026-06-19T06:00:00Z
+slug: "native-hugo-taxonomies"
+date: "2026-06-19T06:00:00Z"
 image: "/images/image-template.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Hugo", "Taxonomies", "Tags", "Categories", "SEO", "Content Management", "PKM", "Note Taking"]
-slug: "native-hugo-taxonomies"
 related_notes:
   - metadata-strategy
   - commonplace-book

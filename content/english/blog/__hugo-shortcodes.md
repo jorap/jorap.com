@@ -2,12 +2,12 @@
 title: "Hugo Shortcodes Deep Dive"
 meta_title: "Hugo Shortcodes - Fix Images Once, Not in Every Post"
 description: "I use shortcodes for images, YouTube, Spotify - anything I'd otherwise paste as raw HTML. One template change updates every post that uses it."
-date: 2026-06-19T06:00:00Z
+slug: "hugo-shortcodes"
+date: "2026-06-19T06:00:00Z"
 image: "/images/image-template.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Hugo", "Shortcodes", "Markdown", "Web Development", "Static Sites", "Components", "PKM", "Documentation"]
-slug: "hugo-shortcodes-deep-dive"
 related_notes:
   - future-proofing-knowledge
   - metadata-strategy
@@ -15,6 +15,7 @@ related_notes:
   - evergreen-notes
   - creative-output
   - the-garage-concept
+aliases: ["hugo-shortcodes-deep-dive"]
 featured: false
 draft: true
 ---

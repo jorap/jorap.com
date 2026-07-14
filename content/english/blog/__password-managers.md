@@ -2,12 +2,12 @@
 title: "Password Managers"
 meta_title: "Why I Use Bitwarden (and a Password Manager at All)"
 description: "Reused passwords are a bigger risk than most malware. Here's why I use a password manager, what I looked for, and why Bitwarden keeps winning for me."
-date: 2026-06-18T06:08:00Z
+slug: "password-managers"
+date: "2026-06-18T06:08:00Z"
 image: "/images/image-template.jpg"
 categories: ["Technology", "Security", "Tips"]
 author: "JoRap"
 tags: ["Password Manager", "Bitwarden", "Security", "Privacy", "Two-Factor Authentication", "Credentials", "Online Safety", "Data Breach", "Passkeys", "Cybersecurity", "PKM", "Note Taking"]
-slug: "password-managers"
 related_notes:
   - local-first-software
   - commonplace-book

@@ -2,7 +2,8 @@
 title: "Static Site or CMS? How I Pick the Stack"
 meta_title: "Static Site vs CMS - When Each One Actually Fits"
 description: "The stack debate is usually the wrong fight. Who publishes, what changes live, and whether you need logins pick static vs WordPress (or a git CMS in between) better than any framework ranking."
-date: 2026-07-10T06:00:00Z
+slug: "static-site-vs-cms"
+date: "2026-07-10T06:00:00Z"
 image: "/images/static-vs-cms.jpg"
 categories: ["Website", "Technology", "Tips"]
 author: "JoRap"

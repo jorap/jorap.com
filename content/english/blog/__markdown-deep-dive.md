@@ -2,12 +2,12 @@
 title: "Markdown Deep Dive"
 meta_title: "Markdown Deep Dive - The Plain-Text Layer Under Everything"
 description: "Markdown is the format behind JoRap, Hugo, GitHub, and my notes. Here's what I actually use beyond bold and bullets - and where flavors diverge."
-date: 2026-06-19T06:00:00Z
+slug: "markdown-deep-dive"
+date: "2026-06-19T06:00:00Z"
 image: "/images/image-template.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Markdown", "Hugo", "Writing", "PKM", "Documentation", "Plain Text", "Note Taking"]
-slug: "markdown-deep-dive"
 related_notes:
   - future-proofing-knowledge
   - evergreen-notes

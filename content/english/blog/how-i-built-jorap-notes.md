@@ -3,7 +3,7 @@ title: "How I Built JoRap Notes: My Journey from Expensive Hosting (and Better!)
 meta_title: "How I Built JoRap Notes: A Developer's Guide to Static Site Hosting"
 description: "I lost my old PHP hosting (and a chunk of my work with it). A weekend of fumbling later, I landed on Hugo + GitHub + Cloudflare Pages - faster, and honestly better than what I was paying for."
 slug: "how-i-built-jorap-notes"
-date: 2024-06-14T05:00:00Z
+date: "2024-06-14T05:00:00Z"
 image: "/images/joraps-world.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"

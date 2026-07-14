@@ -2,12 +2,12 @@
 title: "The CRAFT Prompt Framework"
 meta_title: "CRAFT - How to Write Prompts That Actually Work"
 description: "Vague prompts get vague answers. The CRAFT framework - Context, Role, Action, Format, Target Audience - is how I build prompts that don't leave the model guessing."
-date: 2026-06-18T06:13:00Z
+slug: "craft-prompt-framework"
+date: "2026-06-18T06:13:00Z"
 image: "/images/image-template.jpg"
 categories: ["AI", "Writing", "Tips"]
 author: "JoRap"
 tags: ["AI", "Prompts", "ChatGPT", "CRAFT", "Writing", "Prompt Engineering", "LLM", "Context", "Role Prompting", "Content Creation", "AI Writing", "Framework", "PKM", "Note Taking"]
-slug: "craft-prompt-framework"
 related_notes:
   - intellectual-sourcing
   - the-feynman-technique

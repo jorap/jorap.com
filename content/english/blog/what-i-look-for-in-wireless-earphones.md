@@ -3,7 +3,7 @@ title: "What I Look For in Wireless Earphones"
 meta_title: "What I Look For in Wireless Earphones - My Personal Checklist"
 description: "After years of cycling through earbuds, neckbands, and over-ears, here's the short list of what I actually care about in a pair of wireless earphones - and the one pair I keep reaching for."
 slug: "what-i-look-for-in-wireless-earphones"
-date: 2026-05-27T05:00:00Z
+date: "2026-05-27T05:00:00Z"
 image: "/images/feature-soundpeats-runfree.jpg"
 categories: ["Technology", "Gear", "Reviews"]
 author: "JoRap"

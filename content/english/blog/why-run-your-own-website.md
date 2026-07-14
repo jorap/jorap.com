@@ -2,7 +2,8 @@
 title: "Why I Still Run My Own Website"
 meta_title: "Why I Still Run My Own Website - Not Just Facebook"
 description: "Every time I tell someone I run my own website, they ask why I don't just post on Facebook. After years of watching platforms die and rules change, here's why I keep my own corner of the internet."
-date: 2024-03-10T05:00:00Z
+slug: "why-run-your-own-website"
+date: "2024-03-10T05:00:00Z"
 image: "/images/website.jpg"
 categories: ["Website", "Ideas", "Tips"]
 author: "JoRap"
@@ -15,6 +16,7 @@ related_notes:
   - note-relationships
   - the-garage-concept
   - success-is-stewardship
+aliases: ["top-reasons-create-maintain-your-own-website"]
 featured: false
 draft: false
 ---

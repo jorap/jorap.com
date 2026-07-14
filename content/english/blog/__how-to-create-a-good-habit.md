@@ -2,12 +2,12 @@
 title: "How to Create a Good Habit"
 meta_title: "How to Create a Good Habit - James Clear's Four Laws"
 description: "Atomic Habits boiled down to what I actually use: make it obvious, attractive, easy, and satisfying - and invert those to break bad habits."
-date: 2026-06-18T06:05:00Z
+slug: "how-to-create-a-good-habit"
+date: "2026-06-18T06:05:00Z"
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Health", "Tips"]
 author: "JoRap"
 tags: ["Habits", "James Clear", "Atomic Habits", "Productivity", "Behavior Change", "Four Laws", "Habit Stacking", "Self Improvement", "Routine Building", "Mindset", "PKM", "Note Taking"]
-slug: "how-to-create-a-good-habit"
 related_notes:
   - process-over-outcomes
   - inbox-zero

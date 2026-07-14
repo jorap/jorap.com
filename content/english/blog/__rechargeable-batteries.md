@@ -2,12 +2,12 @@
 title: "Rechargeable Batteries"
 meta_title: "Rechargeable Batteries - Stop Buying AAs Every Month"
 description: "Switching to rechargeable AA and AAA batteries cut our disposable pile and paid for itself faster than I expected. Here's the setup that actually stuck."
-date: 2026-06-18T05:03:00Z
+slug: "rechargeable-batteries"
+date: "2026-06-18T05:03:00Z"
 image: "/images/image-template.jpg"
 categories: ["Gear", "Home", "Reviews"]
 author: "JoRap"
 tags: ["Batteries", "Rechargeable", "Everyday Carry", "Gear", "AA Batteries", "AAA Batteries", "Eneloop", "Sustainability", "Battery Charger", "Home Essentials"]
-slug: "rechargeable-batteries"
 related_notes:
   - reliability
 featured: false

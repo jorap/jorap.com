@@ -2,12 +2,12 @@
 title: "Kewpie Mayo"
 meta_title: "Kewpie Mayo - Why This Japanese Mayo Earned a Permanent Spot"
 description: "Kewpie isn't just yellow mayo in a squeeze bottle. Here's what makes it different, how we use it, and whether it's worth the shelf space."
-date: 2026-06-18T05:06:00Z
+slug: "kewpie-mayo"
+date: "2026-06-18T05:06:00Z"
 image: "/images/image-template.jpg"
 categories: ["Food", "Pantry", "Reviews"]
 author: "JoRap"
 tags: ["Kewpie", "Mayonnaise", "Japanese Food", "Pantry Staples", "Cooking", "Condiments", "Salad Dressing", "Asian Cuisine", "Ingredient Review", "Umami"]
-slug: "kewpie-mayo"
 related_notes:
   - slow-productivity
   - attention-to-detail

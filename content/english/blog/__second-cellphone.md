@@ -2,12 +2,12 @@
 title: "2nd Cellphone"
 meta_title: "Why I Keep a Second Cellphone"
 description: "A second phone sounds excessive until you need one. I keep a backup handset for travel, work boundaries, and the morning I couldn't find my main phone before a swim."
-date: 2026-06-18T05:07:00Z
+slug: "second-cellphone"
+date: "2026-06-18T05:07:00Z"
 image: "/images/image-template.jpg"
 categories: ["Technology", "Gear", "Tips"]
 author: "JoRap"
 tags: ["Cellphone", "Backup Phone", "Travel", "Gear", "Dual SIM", "Emergency Phone", "Work Phone", "Mobile Device", "Phone Backup", "Travel Essentials"]
-slug: "second-cellphone"
 related_notes:
   - preparedness
   - reliability

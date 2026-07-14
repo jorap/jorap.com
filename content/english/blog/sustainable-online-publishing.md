@@ -2,7 +2,8 @@
 title: "Sustainable Online Publishing"
 meta_title: "Sustainable Online Publishing - Own Your Corner of the Internet"
 description: "Social media is easy to start and risky to depend on. I publish on my own site anyway - here's a free stack that works and why the habit matters more than the tools."
-date: 2026-06-12T14:58:00Z
+slug: "sustainable-online-publishing"
+date: "2026-06-12T14:58:00Z"
 image: "/images/sustainable-publishing.jpg"
 categories: ["Website", "Ideas", "Technology"]
 author: "JoRap"

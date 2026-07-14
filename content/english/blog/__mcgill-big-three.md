@@ -2,17 +2,18 @@
 title: "Stuart McGill's Big Three Low Back Exercises"
 meta_title: "McGill's Big Three - Curl-Up, Side Plank, Bird Dog"
 description: "Dr. Stuart McGill's 'Big Three' core exercises target low back stability without cranking on your spine. Here's the routine I keep bookmarked for maintenance days."
-date: 2026-06-18T06:09:00Z
+slug: "mcgill-big-three"
+date: "2026-06-18T06:09:00Z"
 image: "/images/image-template.jpg"
 categories: ["Health", "Fitness", "Tips"]
 author: "JoRap"
 tags: ["Stuart McGill", "Low Back", "Core", "Exercise", "Health", "Back Pain", "Bird Dog", "Side Plank", "Curl-Up", "Spine Health", "Physical Therapy", "Core Stability"]
-slug: "stuart-mcgill-big-three-low-back-exercises"
 related_notes:
   - recovery
   - sustainable-performance
   - energy-protects-judgment
   - building-a-second-brain
+aliases: ["stuart-mcgill-big-three-low-back-exercises"]
 featured: false
 draft: true
 ---

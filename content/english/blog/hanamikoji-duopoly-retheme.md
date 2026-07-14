@@ -2,11 +2,13 @@
 title: "Retheming Hanamikoji as Duopoly"
 meta_title: "Hanamikoji to Duopoly: Retheme Map and Fewer Components"
 description: "I love Hanamikoji for the mechanics, not the geisha art. Country flags and a business retheme put the I-cut-you-choose puzzle front and center - plus same-size cards and fewer components."
-date: 2026-07-14T01:26:00Z
+slug: "hanamikoji-duopoly-retheme"
+date: "2026-07-14T01:26:00Z"
 image: "/images/duopoly.jpg"
 categories: ["Games", "Design", "Tutorial"]
 author: "JoRap"
 tags: ["Duopoly", "Hanamikoji", "Board Games", "Card Games", "Game Design", "Print and Play", "Retheme", "I Cut You Choose", "Zine", "DIY"]
+aliases: ["hanamikoji-rules"]
 featured: false
 draft: false
 ---

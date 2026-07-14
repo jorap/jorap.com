@@ -2,7 +2,8 @@
 title: "Why I Switched from Drupal to WordPress"
 meta_title: "Why I Left Drupal for WordPress"
 description: "I went hunting for the best open-source CMS, fell hard for Drupal's architecture, and still couldn't find work with it. WordPress had ACF and Gutenberg that felt familiar - plus a plugin ecosystem and a community big enough to pay the bills."
-date: 2026-05-27T06:30:00Z
+slug: "drupal-to-wordpress"
+date: "2026-05-27T06:30:00Z"
 image: "/images/drupal-to-wp.jpg"
 categories: ["Technology", "Web Development", "Opinion"]
 author: "JoRap"

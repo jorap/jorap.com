@@ -28,6 +28,7 @@
     "audit:cards": "python3 scripts/audit-flashcard-north-star.py",
     "lint:garden": "python3 scripts/lint-notes-frontmatter.py && python3 scripts/normalize-notes-format.py --verify && python3 scripts/lint-flashcard-frontmatter.py && python3 scripts/audit-flashcard-north-star.py && python3 scripts/lint-utility-wikilinks.py && python3 scripts/garden-voice-lint.py --check",
     "lint:voice": "python3 scripts/notes-voice-sanitize.py --check && python3 scripts/notes-voice-lint.py --check",
+    "lint:blog": "python3 scripts/normalize-blog-frontmatter.py --verify",
     "lint:garden-voice": "python3 scripts/garden-voice-lint.py --check",
     "garden-voice:scan": "python3 scripts/garden-voice-lint.py --summary",
     "voice:scan": "python3 scripts/notes-voice-lint.py --summary --review",
