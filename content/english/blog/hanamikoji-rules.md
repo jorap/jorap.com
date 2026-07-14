@@ -2,14 +2,13 @@
 title: "Retheming Hanamikoji as Duopoly"
 meta_title: "Hanamikoji to Duopoly: Retheme Map and Fewer Components"
 description: "I love Hanamikoji for the mechanics, not the geisha art. Country flags and a business retheme put the I-cut-you-choose puzzle front and center - plus same-size cards and fewer components."
-slug: "hanamikoji-rules"
-date: 2026-07-13T01:26:00Z
-image: "/images/image-template.jpg"
+date: 2026-07-14T01:26:00Z
+image: "/images/duopoly.jpg"
 categories: ["Games", "Design", "Tutorial"]
 author: "JoRap"
 tags: ["Duopoly", "Hanamikoji", "Board Games", "Card Games", "Game Design", "Print and Play", "Retheme", "I Cut You Choose", "Zine", "DIY"]
 featured: false
-draft: true
+draft: false
 ---
 
 I love *Hanamikoji* for the mechanics. The retail game has gorgeous art - colorful geisha portraits, illustrated performance items, a table presence that pulls you in. I kept playing for the **I split, you choose** puzzle: how you bundle cards, what you force your rival to take, when to burn a Trade-off. The theme is atmosphere. The split is the game.
@@ -46,7 +45,7 @@ One-to-one where it matters. If the retail name does not appear in the left colu
 | Item card | Deal card | Three per country; small flag + points only |
 | Charm points | Market value | Printed on market and deal cards |
 | Victory marker | Card flip | Flip the country card; green toward leader, red toward rival |
-| Action marker / tile | Action card | Name readable at a glance; flip when spent (see below) |
+| Action marker / tile | Action card | Name on face; flip when spent |
 | Win 4 geisha | Win 4 countries | Same threshold |
 | Win 11+ charm | Win 11+ points | 21 total across all markets |
 | Secret | Secret | 1 card tucked face-down |
@@ -82,17 +81,7 @@ I baked control into the **country card itself**. Same card, two faces - no chip
 
 You never hunt for a marker. You never bump one off-center. The country card *is* the state. Glance at the row: black means open, green your way means yours.
 
-That is the main reason I kept seven market cards even in the lean builds. The flip is faster and clearer than pencil ticks on a zine or sliding cardboard up and down a board.
-
-### Action cards, not tiles
-
-Retail *Hanamikoji* uses small **action markers** - thick tiles you flip face-down when spent. They work. They are also easy to lose behind a geisha card, and the icon on a tile is smaller than I want mid-game.
-
-I use **action cards** instead. Same poker size as everything else. **Secret**, **Trade-off**, **Gift**, **Competition** spelled out across the face - readable from your side of the table without leaning in. Face up means still available; face down means spent this round. No parsing symbols on a chip.
-
-The card format also solves the hidey-hole problem. Tuck one deal card under **Secret**, two under **Trade-off**. The action name stays visible on top. With a tile you are stacking cards next to a marker and hoping everyone remembers what went where.
-
-Eight cards, four per player, lined up in front of you. Glance down: two actions left, Trade-off already used. Faster than counting flipped tiles.
+That is the main reason I kept seven market cards instead of printing the row on the zine. The flip is faster and clearer than pencil ticks or sliding cardboard up and down a board.
 
 ---
 
@@ -115,42 +104,20 @@ My **full Duopoly** build:
 | Market cards (same size as deals) | 7 |
 | Deal cards | 21 |
 | Action cards | 8 |
-| 1-page zine (rules + reference) | 1 |
+| 1-page zine (rules) | 1 |
 | **Total** | **36 cards + zine** |
 
 Seven victory markers gone - the country card flip handles control. Geisha and item size split gone - one template.
 
----
-
-## Three ways to cut further
-
-Same game. Fewer prints. Pick how much you want to carry.
-
-| Build | Cards | Drop | Replace with |
-|-------|------:|------|--------------|
-| **28-card** | 21 deal + 7 market | 8 action cards | Action list on the [zine](/blog/one-page-zine/) back cover. Cross off or cover slots with coins each round. |
-| **29-card** | 21 deal + 8 action | 7 market cards | Market row printed on the zine. Control ticks or coin rotation on the diagram. Keep action cards so Secret and Trade-off still tuck under something. |
-
-
-I play the **28-card** build most - market flip for control, action names on the zine instead of eight action cards. If I add anything back first, it is the action cards. Tiles are the drop I do not miss; readable cards in front of each player are.
-
-### Uniform size unlocks the cuts
-
-When market cards are the same size as deals, they are not a separate "board" product. They are just seven faces in the same print run. That makes the **21-card** build feel less like a hack: you are not missing a board, you moved the row to paper.
-
-**Rotation trick (21-card):** print the seven countries on the zine in a row. Neutral column stays square to the page. When you win a market, rotate a coin or a spare card 90° toward you on that column. Zero double-sided market art. Ugly. Works.
-
-**Zine as component:** not only rules. Inside cover gets two labeled boxes for face-down Secret and Trade-off plays when action cards are gone. One sheet replaces markers, parking zones, and half the reference card clutter.
-
-**Tuck under action cards:** if you keep the eight action cards, only Secret and Trade-off need a hidey-hole. Gift and Competition stay face-up on the table - your rival has to see the split. Sliding two cards under the Trade-off card is clearer than a generic discard pile.
+Action cards with the name on the face - easier to read across the table than flipping little tiles. Secret and Trade-off tuck under theirs; Gift and Competition stay face-up so your rival has to see the split.
 
 ---
 
 ## What I actually print
 
-- **28 cards:** 21 deals + 7 markets, double-sided where it matters
-- **Zine:** rules inside, market row + action tracker on the covers
-- **No** action cards, **no** victory markers, **no** second card size
+- **36 cards:** 21 deals + 7 markets + 8 action cards, double-sided where it matters
+- **Zine:** rules only
+- **No** victory markers, **no** second card size
 
 Rules stay in the zine so this post does not duplicate them. The mapping table and build table are what I needed when I sat down at the layout tool - theme in one column, part count in the other.
 
