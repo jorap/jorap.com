@@ -7,7 +7,7 @@ date: "2026-06-18T06:02:00Z"
 image: "/images/image-template.jpg"
 categories: ["Ideas", "Business", "Productivity"]
 author: "JoRap"
-tags: ["Jobs to Be Done", "JTBD", "Product Development", "Framework", "Customer Research", "Innovation", "Product Strategy", "Clayton Christensen", "User Needs", "Problem Solving", "PKM", "Productivity"]
+tags: ["Jobs to Be Done", "JTBD", "Product Development", "Product Strategy", "Customer Research", "Innovation", "Framework", "User Needs"]
 related_notes:
   - inbox-zero
   - information-diet

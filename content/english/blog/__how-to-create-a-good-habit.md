@@ -7,7 +7,7 @@ date: "2026-06-18T06:05:00Z"
 image: "/images/image-template.jpg"
 categories: ["Productivity", "Health", "Tips"]
 author: "JoRap"
-tags: ["Habits", "James Clear", "Atomic Habits", "Productivity", "Behavior Change", "Four Laws", "Habit Stacking", "Self Improvement", "Routine Building", "Mindset", "PKM", "Note Taking"]
+tags: ["Habits", "Atomic Habits", "James Clear", "Productivity", "Behavior Change", "Four Laws", "Habit Stacking", "Routine Building"]
 related_notes:
   - process-over-outcomes
   - inbox-zero

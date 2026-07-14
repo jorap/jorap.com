@@ -1,6 +1,6 @@
 ---
 title: "Native Hugo Taxonomies"
-meta_title: "Native Hugo Taxonomies - Categories, Tags, and What I Don't Let Grow Wild"
+meta_title: "Native Hugo Taxonomies - Categories, Tags, and Limits"
 description: "Hugo builds category and tag pages from frontmatter - no plugin. I use them for site navigation, not as a private Second Brain."
 slug: "native-hugo-taxonomies"
 date: "2026-06-19T06:00:00Z"

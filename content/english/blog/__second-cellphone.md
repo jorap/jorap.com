@@ -1,7 +1,7 @@
 ---
 title: "2nd Cellphone"
 meta_title: "Why I Keep a Second Cellphone"
-description: "A second phone sounds excessive until you need one. I keep a backup handset for travel, work boundaries, and the morning I couldn't find my main phone before a swim."
+description: "A second phone sounds excessive until you need one. I keep a backup for travel, work boundaries, and the morning I couldn't find my main phone."
 slug: "second-cellphone"
 date: "2026-06-18T05:07:00Z"
 image: "/images/image-template.jpg"

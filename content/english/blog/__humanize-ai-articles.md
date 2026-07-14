@@ -1,18 +1,18 @@
 ---
 title: "Make AI Articles More Human"
-meta_title: "Make AI Articles More Human - Perplexity, Burstiness, and Editing"
+meta_title: "Make AI Articles More Human - Perplexity and Editing"
 description: "AI drafts often sound flat because they're too uniform. Here's the prompt and editing lens I use when I want generated content to read like a person wrote it."
 slug: "humanize-ai-articles"
 date: "2026-06-18T06:07:00Z"
 image: "/images/image-template.jpg"
 categories: ["AI", "Writing", "Tips"]
 author: "JoRap"
-tags: ["AI", "Writing", "Content", "ChatGPT", "Prompts", "Perplexity", "Burstiness", "Human Writing", "Editing", "AI Detection", "Content Creation", "Voice and Tone", "PKM", "Note Taking"]
+tags: ["AI", "Writing", "ChatGPT", "Prompts", "Perplexity", "Burstiness", "Editing", "Human Writing", "Content Creation", "PKM"]
 related_notes:
   - intellectual-sourcing
   - the-feynman-technique
   - evergreen-notes
-  - progressive-layers
+  - layered-reading
   - commonplace-book
   - literature-notes
 aliases: ["make-ai-articles-more-human"]

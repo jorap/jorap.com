@@ -1,7 +1,7 @@
 ---
 title: "Hugo Static Site Generator"
 meta_title: "Hugo as a Static Site Generator - Why I Still Use It"
-description: "Hugo turns Markdown into HTML at build time - no database, no PHP surprises. After losing old hosting, it's the engine behind JoRap Notes and most client sites I quote."
+description: "Hugo turns Markdown into HTML at build time - no database, no PHP surprises. It's the engine behind JoRap Notes and most client sites I quote."
 slug: "hugo-static-site-generator"
 date: "2026-06-19T06:00:00Z"
 image: "/images/image-template.jpg"
@@ -12,7 +12,6 @@ related_notes:
   - the-garage-concept
   - digital-garden
   - drafting-in-public
-  - sketchpad
   - free-tier-hosting-stack
   - selling-static-sites
 featured: false

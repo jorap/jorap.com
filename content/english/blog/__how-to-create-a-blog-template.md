@@ -1,6 +1,6 @@
 ---
 title: "Blog Template"
-meta_title: "Blog Template"
+meta_title: "How to Create a Blog Template - Hugo Reference"
 description: "Hugo CMS Reference for blog publishing."
 slug: "how-to-create-a-blog-template"
 date: "1981-06-14T05:00:00Z"

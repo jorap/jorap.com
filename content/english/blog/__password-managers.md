@@ -7,7 +7,7 @@ date: "2026-06-18T06:08:00Z"
 image: "/images/image-template.jpg"
 categories: ["Technology", "Security", "Tips"]
 author: "JoRap"
-tags: ["Password Manager", "Bitwarden", "Security", "Privacy", "Two-Factor Authentication", "Credentials", "Online Safety", "Data Breach", "Passkeys", "Cybersecurity", "PKM", "Note Taking"]
+tags: ["Password Manager", "Bitwarden", "Security", "Privacy", "Two-Factor Authentication", "Credentials", "Online Safety", "Data Breach", "Passkeys", "Cybersecurity"]
 related_notes:
   - local-first-software
   - commonplace-book

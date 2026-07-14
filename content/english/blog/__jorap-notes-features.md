@@ -1,7 +1,7 @@
 ---
 title: "What JoRap Notes Actually Does"
 meta_title: "JoRap Notes - Features, Applications, and Principles"
-description: "My blog is for essays. JoRap Notes is a linked garden of one-claim pages - graph, flashcards, shareable thoughts, typed links, and copy buttons for AI - all on the same Hugo site."
+description: "My blog is for essays. JoRap Notes is a linked garden of one-claim pages - graph, flashcards, typed links, all on the same Hugo site."
 slug: "jorap-notes-features"
 date: "2026-07-03T02:00:00Z"
 image: "/images/joraps-world.jpg"

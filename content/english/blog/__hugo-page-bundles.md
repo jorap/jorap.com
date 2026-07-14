@@ -1,7 +1,7 @@
 ---
 title: "Hugo Page Bundles"
 meta_title: "Hugo Page Bundles - When I Stop Dumping Images in /static"
-description: "Most of my posts are a single .md file with a hero image in /images. Page bundles are for the messier ones - multiple screenshots, downloads, assets that belong to one post and nowhere else."
+description: "Most posts are a single .md with a hero in /images. Page bundles are for messier ones - screenshots, downloads, assets that belong to one post."
 slug: "hugo-page-bundles"
 date: "2026-06-19T06:00:00Z"
 image: "/images/image-template.jpg"

@@ -1,6 +1,6 @@
 ---
 title: "Worcestershire Sauce - Lee and Perrins"
-meta_title: "Lee & Perrins Worcestershire Sauce - The Bottle I Always Restock"
+meta_title: "Lee and Perrins Worcestershire - The Bottle I Restock"
 description: "Lee & Perrins is the Worcestershire sauce I reach for without thinking. Here's why it earned a permanent spot in the pantry and how we actually use it."
 slug: "worcestershire-sauce"
 date: "2026-06-18T05:05:00Z"

@@ -7,11 +7,10 @@ date: "2026-06-18T06:10:00Z"
 image: "/images/image-template.jpg"
 categories: ["Health", "Wellness", "Tips"]
 author: "JoRap"
-tags: ["Supplements", "Health", "Immune System", "Wellness", "Vitamin C", "Vitamin D", "Zinc", "Daily Routine", "Self Care", "Nutrition", "Preventive Health"]
+tags: ["Supplements", "Health", "Immune System", "Wellness", "Vitamin C", "Vitamin D", "Zinc", "Daily Routine", "Self Care", "Nutrition"]
 related_notes:
-  - recovery
-  - sustainable-performance
   - energy-protects-judgment
+  - sustainable-performance
   - the-second-brain-workflow
   - building-a-second-brain
 aliases: ["personal-immune-booster-supplements"]

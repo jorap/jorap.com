@@ -1,13 +1,13 @@
 ---
 title: "Smart Plug"
 meta_title: "Smart Plug - Simple Automation That Actually Sticks"
-description: "Smart plugs are the least glamorous gadget in the house and also the one I keep buying. Here's what they're good for, what to skip, and how to avoid turning your home into a troubleshooting hobby."
+description: "Smart plugs are the least glamorous gadget in the house and also the one I keep buying. What they're good for, what to skip, and how to avoid troubleshooting."
 slug: "smart-plug"
 date: "2026-06-18T05:01:00Z"
 image: "/images/image-template.jpg"
 categories: ["Technology", "Gear", "Reviews"]
 author: "JoRap"
-tags: ["Smart Home", "Smart Plug", "Automation", "Gear", "IoT", "Home Automation", "Scheduling", "Energy Saving", "Wi-Fi Plug", "Voice Assistant", "PKM"]
+tags: ["Smart Home", "Smart Plug", "Automation", "Gear", "IoT", "Home Automation", "Scheduling", "Energy Saving", "Wi-Fi Plug", "Voice Assistant"]
 related_notes:
   - building-a-personal-api
 featured: false
