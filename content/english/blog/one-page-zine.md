@@ -34,7 +34,7 @@ I stick with letter because that is what my printer expects and what most zine t
 
 For board game rules, I lay everything out in **landscape** - each panel is wider than it is tall. Rules read better that way at this size: turn order across the page, action rows side by side, room for a small diagram without shrinking the type.
 
-{{< image src="images/one-page-zine-layout.jpg" caption="Unfolded layout for a chess rules zine at 60 × 85 mm — eight panels on one letter-size sheet." alt="Eight-panel one-page zine template for chess rules in landscape layout" height="709" width="1000" position="center" command="fit" option="q90" class="img-fluid" title="60 × 85 mm one-page zine layout" webp="true" zoomable="true" >}}
+{{< image src="images/one-page-zine-layout.jpg" caption="Unfolded layout for a chess rules zine at 60 × 85 mm, eight panels on one letter-size sheet." alt="Eight-panel one-page zine template for chess rules in landscape layout" height="709" width="1000" position="center" command="fit" option="q90" class="img-fluid" title="60 × 85 mm one-page zine layout" webp="true" zoomable="true" >}}
 
 Eight pages is the sweet spot. I split them like this:
 

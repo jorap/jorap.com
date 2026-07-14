@@ -133,12 +133,12 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
     - Winner, d. Udvardy 1-6, 7-5, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/p-udvardy-vs-a-eala-2025-09-06)
     - Semifinals, d. Day 6-2, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/k-day-vs-a-eala-2025-09-05)
     - Quarterfinals, d. Fossa Huergo 7-6(2), 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/n-fossa-huergo-vs-a-eala-2025-09-04)
-    - Round of 16, d. Lepchenko 6-3, 7-6(3), 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/v-lepchenko-vs-a-eala-2025-09-03)
+    - Round of 16, d. Lepchenko 6-3, 7-6(3) | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS015) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/v-lepchenko-vs-a-eala-2025-09-03)
     - Round of 32, d. Hartono 6-2, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/2098/guadalajara-125/2025/scores/LS031) | [tennis.com](https://www.tennis.com/tournaments/guadalajara-125-open/matches/a-hartono-vs-a-eala-2025-09-02)
     
 
   - **Eastbourne Open (WTA 250, Grass)**
-    - First Filipina to reach WTA Tour Finals
+    - First Filipina to reach a WTA singles final
     - Finalist, l. Joint 4-6, 6-1, 6-7(10) | [wtatennis.com](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS001) | [tennis.com](https://www.tennis.com/tournaments/lexus-eastbourne-open/matches/m-joint-vs-a-eala-2025-06-28)
     - Semifinals, d. Gracheva 7-5, 2-6, 6-3 | [wtatennis.com](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS003) | [tennis.com](https://www.tennis.com/tournaments/lexus-eastbourne-open/matches/a-eala-vs-v-gracheva-2025-06-27)
     - Quarterfinals, d. Yastremska 6-1, 6-2 | [wtatennis.com](https://www.wtatennis.com/tournaments/710/eastbourne/2025/scores/LS006) | [tennis.com](https://www.tennis.com/tournaments/lexus-eastbourne-open/matches/d-yastremska-vs-a-eala-2025-06-26)

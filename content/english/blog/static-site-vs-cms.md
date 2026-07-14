@@ -76,7 +76,7 @@ I don't say WordPress because it's easier to build. I say it because **the publi
 
 Sometimes the site *is* static - pre-built pages, no database at the edge - but the people updating it won't use Git.
 
-That's where **git-based CMS** tools come in: [Sveltia CMS](/blog/sveltia-cms/), Decap, similar. Buttons instead of terminal. Edits still commit to the repo; the build pipeline stays the same.
+That's where **git-based CMS** tools come in: Sveltia CMS, [Decap](https://decapcms.org/), similar. Buttons instead of terminal. Edits still commit to the repo; the build pipeline stays the same.
 
 I use this when:
 
