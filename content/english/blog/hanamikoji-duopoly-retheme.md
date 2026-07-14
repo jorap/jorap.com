@@ -1,39 +1,44 @@
 ---
 title: "Retheming Hanamikoji as Duopoly"
-meta_title: "Hanamikoji to Duopoly: Retheme Map and Fewer Components"
-description: "I love Hanamikoji for the mechanics, not the geisha art. Country flags and a business retheme put the I-cut-you-choose puzzle front and center - plus same-size cards and fewer components."
+meta_title: "Hanamikoji to Duopoly: Component Cuts and Mechanics Test"
+description: "I love Hanamikoji for the mechanics, not the geisha art. Duopoly is my personal build log: fewer components, dull flags, and a test of whether the mechanics still hooks you without the illustration. Not a print-and-play — buy the retail game."
 slug: "hanamikoji-duopoly-retheme"
 date: "2026-07-14T01:26:00Z"
 image: "/images/duopoly.jpg"
-categories: ["Games", "Design", "Tutorial"]
+categories: ["Games", "Design"]
 author: "JoRap"
-tags: ["Duopoly", "Hanamikoji", "Board Games", "Card Games", "Game Design", "Print and Play", "Retheme", "I Cut You Choose", "Zine", "DIY"]
+tags: ["Duopoly", "Hanamikoji", "Board Games", "Card Games", "Game Design", "Component Design", "Retheme", "I Split You Choose", "Zine", "DIY"]
+related_notes:
+  - minimum-effective-dose
+  - practice-small-experiments
+  - signal-vs-noise
 aliases: ["hanamikoji-rules"]
 featured: false
 draft: false
+lastmod: "2026-07-14T02:37:00Z"
 ---
 
 I love *Hanamikoji* for the mechanics. The retail game has gorgeous art - colorful geisha portraits, illustrated performance items, a table presence that pulls you in. I kept playing for the **I split, you choose** puzzle: how you bundle cards, what you force your rival to take, when to burn a Trade-off. The theme is atmosphere. The split is the game.
 
-For a personal copy I went the other way on purpose. **Duopoly** - two firms, seven country flags, almost no illustration. Not because the original art is bad. Because plain flags get out of the way. You read counts and colors, not characters. The mental load goes to the offers on the table, not the artwork on the card.
+For a **personal copy only** I went the other way on purpose. **Duopoly** - two firms, seven country flags, almost no illustration. Not because the original art is bad. Because I wanted to **strip the table down** and see if the mechanics alone still pull people in. Plain flags get out of the way. You read counts and colors, not characters. The mental load goes to the offers on the table, not the artwork on the card.
 
-Same skeleton. Deliberately dull faces. One card size. Fewer physical pieces.
+Same skeleton. Deliberately dull theme. One card size. Fewer physical pieces. **No files to download, no copies for sale** - one deck for my shelf, built as a component-streamlining exercise.
 
-This post is the retheme map and the component cuts. Not a rules sheet - those live in the zine I tuck beside the deck.
+This post is the retheme map and the component cuts. Not a rules sheet - those live in the zine I tuck beside the deck. Build notes for private play, not a print-and-play release.
 
 ---
 
 ## Why flags instead of a reskin
 
-A straight reskin chases the retail look - new geisha art, new item illustrations, same component sprawl. I was not trying to match *Hanamikoji*'s production. I was trying to **teach the machine**.
+A straight reskin chases the retail look - new geisha art, new item illustrations, same component sprawl. I was not trying to match *Hanamikoji*'s production. I was trying to **stress-test two things**: whether the mechanic and its simplicity still engages without illustration, and how far I could cut components before something broke.
 
-Country flags are boring on purpose. Black when neutral. Green toward the leader, red toward the rival when someone controls a market. Deal cards repeat the same flag small in the corner plus a point number. No scene to admire mid-turn. That is the point. When someone lays out a Gift or a Competition, the question on the table is **which pile hurts me less** - not what pretty picture landed in front of me.
+Country flags are boring on purpose. Black when neutral. Green toward the leader, red toward the rival when someone controls a market. Deal cards repeat the same flag small in the corner plus a point number. No scene to admire mid-turn. That is the point. When someone lays out a Gift or a Competition, the question on the table is **which pile hurts me less** - not what pretty picture landed in front of me. If the game still bites with flags and numbers, the mechanics are doing the heavy lifting.
 
 The business frame helps the same way. Geisha favor becomes **market control**. Item cards become **deal cards**. Charm points become **market value**. The four actions still read clean: backroom **Secret**, painful **Trade-off**, public **Gift**, head-to-head **Competition**. Dry nouns. Sharp decisions.
 
 Practical wins stack on top. Retail *Hanamikoji* uses **oversized geisha boards** and **smaller item cards** - two print templates, two sleeve sizes at home. I print poker-size everything. One cutter pass, one sleeve SKU, one stack in a tuck box.
 
-Mechanics unchanged. Visual noise stripped. Friction lowered.
+Mechanics unchanged. Visual noise stripped. Friction lowered. Early plays suggest the mechannic and its simplicity holds - you still lean in when someone fans out a Competition. The geisha atmosphere is gone; the tension is not.
 
 ---
 
@@ -93,6 +98,8 @@ That is the main reason I kept seven market cards instead of printing the row on
 
 ## Component budget
 
+This section is the heart of the exercise. Every piece I removed had to prove it earned its spot. Seven victory markers, two card sizes, separate action tiles - gone if the flip and the action cards could cover the same job.
+
 Retail *Hanamikoji* (approximate):
 
 | Piece | Count |
@@ -117,6 +124,8 @@ Seven victory markers gone - the country card flip handles control. Geisha and i
 
 Action cards with the name on the face - easier to read across the table than flipping little tiles. Secret and Trade-off tuck under theirs; Gift and Competition stay face-up so your rival has to see the split.
 
+The cut from 43 distinct bits to 36 cards plus a zine is not minimalism for its own sake. It is a proof of concept: **the engine runs lean.** That also makes me think the publisher could swap themes - business, sci-fi, sports, whatever - without touching the split. Same machinery, different skin. I would buy an official alternate theme if one existed. The geisha art is the reason many people pick up the box; the mechanics might be the reason they keep playing.
+
 ---
 
 ## What I actually print
@@ -127,4 +136,12 @@ Action cards with the name on the face - easier to read across the table than fl
 
 Rules stay in the zine so this post does not duplicate them. The mapping table and build table are what I needed when I sat down at the layout tool - theme in one column, part count in the other.
 
-If you already own *Hanamikoji*, you do not need this - you have the real thing, art and all. This is a personal print path for when you want the same split without competing with great artwork on the table: flags, business nouns, one sleeve, fewer bits in the box.
+---
+
+## Personal use only
+
+**Duopoly stays on my table.** I am not publishing PDFs, selling copies, or handing out a substitute for the retail game. *Hanamikoji* — mechanics, structure, scoring, the whole design — belongs to its creators and publisher. I rethemed the faces and cut components so I could play at home without copying retail artwork. That is personal consumption, not a product.
+
+I want to stay on the right side of copyright and trademark law. I am not a lawyer and I do not know every rule in every country. What I do know is what I am willing to do: keep the deck private, credit *Hanamikoji*, and point anyone who wants to play toward the published box.
+
+If you already own *Hanamikoji*, you do not need this — you have the real thing, art and all. If you do not, buy it from the publisher. This post is my private build log: flags, business nouns, one sleeve, fewer bits in the box — not permission to reproduce someone else's game.
