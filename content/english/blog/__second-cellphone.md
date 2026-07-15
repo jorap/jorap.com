@@ -1,7 +1,7 @@
 ---
 title: "2nd Cellphone"
 meta_title: "Why I Keep a Second Cellphone"
-description: "A second phone sounds excessive until you need one. I keep a backup for travel, work boundaries, and the morning I couldn't find my main phone."
+description: "I keep a cheap second phone in a drawer with bank apps on it - underpowered, off the daily-driver path, so the important stuff stays hidden from regular use."
 slug: "second-cellphone"
 date: "2026-06-18T05:07:00Z"
 image: "/images/image-template.jpg"
@@ -16,21 +16,27 @@ featured: false
 draft: true
 ---
 
-For years I thought a second cellphone was a luxury for influencers and people with too many SIM cards. Then my main phone took a swim, died on a long travel day, and left me negotiating with a hotel front desk phone like it was 2003.
+For years I thought a second cellphone was a luxury for influencers and people with too many SIM cards. Then I realized I was loading **bank apps, OTPs, and the stuff I can't afford to lose** onto the same phone I hand to a kid, drop on a jeepney seat, or use with one thumb while walking.
 
-Now I keep a **backup handset** on purpose. Not the latest flagship. A practical second phone that earns its drawer space.
+Now I keep a **second handset** on purpose. Not the latest flagship. An older, underpowered phone that lives in a drawer and stays out of daily rotation.
 
 ---
 
-## The jobs a second phone does
+## The job I actually bought it for
+
+**Banking and sensitive apps on a phone that stays hidden.** My main phone is for messaging, maps, photos, the usual daily mess. The drawer phone holds the banking apps and anything I'd rather not have one accidental tap away while I'm half-paying attention somewhere else.
+
+It's deliberately **boring hardware** - slow enough that I'm not tempted to use it as a daily driver, solid enough that it still runs the apps when I need them.
+
+---
+
+## Other jobs a second phone can do
 
 **Emergency backup.** When the primary dies, gets lost, or needs a week in repair, life doesn't pause. OTPs, maps, messaging, payments - modern life assumes you have a screen in your pocket.
 
 **Travel phone.** Some people load a local SIM in a cheap Android and leave the main phone on wifi-only abroad. Less risk if it gets stolen. Less panic if it gets cracked on a tour bus.
 
 **Work / personal split.** Not everyone wants work Slack on the same device as family photos. A second phone can be the "work SIM only" box that stays in the bag after hours.
-
-**Kid / elderly parent hand-me-down.** A wiped older phone with a fresh battery is a controlled first device without handing over your daily driver.
 
 ---
 
@@ -67,8 +73,8 @@ I still like the **instant swap** - SIM out, SIM in, back online in ten minutes 
 
 ## Bottom line
 
-A second cellphone isn't about having more gadgets. It's about **not being stranded** when the one gadget you actually depend on fails.
+A second cellphone isn't about having more gadgets. For me it's about **separating daily-driver chaos from the apps I don't want on that screen** - and having a swap-ready phone in the drawer if the main one dies.
 
-Cheap Android, older iPhone, whatever fits your ecosystem - the model matters less than having it charged, updated, and ready in a drawer before you need it.
+Cheap Android, older iPhone, whatever fits your ecosystem - the model matters less than knowing which phone holds what, and charging it before you forget it exists.
 
 *Idea captured from [ideas.jorap.com](https://ideas.jorap.com/).*

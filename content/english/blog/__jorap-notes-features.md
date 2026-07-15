@@ -258,7 +258,7 @@ You do not need my exact Hugo setup to benefit from the pattern. These are the m
 
 **Good fit** if you already think in linked notes, want a public garden without a monthly wiki bill, and are fine editing Markdown in Git. The copy buttons, shareable thoughts, and OKF export matter if you pair the garden with AI editing sessions or need quotable output for work.
 
-**Bad fit** if you need real-time collaboration, a WYSIWYG editor for non-technical co-authors, or private notes behind a login. This is a static site. Everything published is public. Private thinking stays in Obsidian or TiddlyWiki; the subset I am willing to grow in public lands here.
+**Bad fit** if you need real-time collaboration, a WYSIWYG editor for non-technical co-authors, or private notes behind a login. This is a static site. Everything published is public. Private thinking stays in [the garage](/notes/the-garage-concept/) - drafts, offline captures, stuff not ready for the garden - not a second wiki app I maintain in parallel.
 
 I am not selling JoRap Notes as a product. It is my corner of the internet, documented in case the pattern helps you build your own.
 

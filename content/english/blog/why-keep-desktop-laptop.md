@@ -1,7 +1,7 @@
 ---
 title: "Why I Still Keep a Desktop or Laptop"
 meta_title: "Desktop or Laptop - Why Mobile-Only Fails"
-description: "Every couple of years someone goes mobile-only. A few months later they're borrowing my laptop for taxes, video edits, or a PDF form."
+description: "Every couple of years someone goes mobile-only. I keep a laptop because real work happens faster there - upright, keyboard, full apps - not because I'm lending gear."
 slug: "why-keep-desktop-laptop"
 date: "2021-06-14T05:00:00Z"
 image: "/images/feature-desktop.jpg"
@@ -20,9 +20,9 @@ featured: false
 draft: false
 ---
 
-Every couple of years someone tells me they're "going mobile-only." A tablet, a phone, maybe a foldable. And every time, a few months later, they sheepishly ask if they can borrow my laptop to do their taxes, edit a video, or fill out some PDF form that absolutely refuses to cooperate on a phone.
+Every couple of years someone tells me they're "going mobile-only." A tablet, a phone, maybe a foldable. I get the appeal. I still keep a laptop because that's where I actually get work done - sitting upright, full keyboard, big screen, the real version of the software.
 
-I'm not anti-mobile. My phone does most of what I need for short, in-between moments. But there are still things a real computer does better, and I don't think that's changing soon. Here's why I keep mine around.
+I'm not anti-mobile. My phone handles short, in-between moments fine. But when I need more than ten focused minutes, nothing beats a real computer at a desk or table. I don't lend mine out. I use it all day. Here's why I won't go phone-only for the work that pays the bills.
 
 ---
 
@@ -30,7 +30,7 @@ I'm not anti-mobile. My phone does most of what I need for short, in-between mom
 
 Phones have gotten ridiculously fast. The problem is sustaining that speed. Once a phone heats up - and it heats up quickly under load - it throttles, the fans (if it even has any) give up, and everything slows down.
 
-A laptop or desktop, with proper cooling and a bigger battery, can hold its performance for hours. I tried trimming a sermon clip on my phone once - it crashed twice. Same edit on a laptop, Zoom still running in the background, no drama.
+A laptop or desktop, with proper cooling and a bigger battery, can hold its performance for hours. I'm not going to find out whether my phone can run a Hugo build and a WordPress staging site at the same time. On a laptop I just open both and work.
 
 Same story with RAM. My phone aggressively kills background apps the moment I switch away. My laptop just... keeps them there. All twenty of them, exactly where I left them.
 
@@ -98,4 +98,4 @@ For PC gaming, emulators, VR, or just kicking back with a film, a bigger screen 
 
 Phone for quick hits. Laptop for anything that needs a keyboard, a big screen, or more than ten focused minutes.
 
-I've watched people go tablet-only and borrow a PC for tax season. That's fine if it fits your life. I just don't want to be the one without a real computer when payroll or a sermon outline won't fit on a phone keyboard.
+I've watched people go tablet-only and scramble when payroll or a long outline won't fit on a phone keyboard. That's fine if it fits their life. I just know I'm faster and more comfortable on a laptop - and I'd rather not pretend the phone is a substitute when the real tool is right here.

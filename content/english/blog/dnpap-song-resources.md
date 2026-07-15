@@ -1,7 +1,7 @@
 ---
 title: "DNPAP - Song Resources"
 meta_title: "DNPAP Song Resources - Destiny Music Links"
-description: "DNPAP by Destiny Music is one of my favorite local worship songs. Studio track, live cut, videos, and links in one place."
+description: "DNPAP by Destiny Music is memorable to me because my wife sings the studio vocal. Destiny Music wrote it. Studio track, live cut, videos, and links in one place."
 slug: "dnpap-song-resources"
 date: "2022-11-12T05:00:00Z"
 image: "/images/feature-dnpap.jpg"
@@ -16,7 +16,7 @@ featured: false
 draft: false
 ---
 
-**DNPAP** has quietly become one of my favorite worship songs from the local scene, so I put this page together - studio single, live cut, official music video, lyric video, and links to the artist. Bookmark it if you sing it too.
+**DNPAP** is memorable to me mainly because my wife sings it. Destiny Music wrote and released it - Pia was on the studio vocal, not the songwriter. I was there for the remote recording during COVID; my mother-in-law watched our son while Pia tracked her vocal. This page collects the studio single, live cut, official videos, and artist links. Bookmark it if you sing it too.
 
 ## What does DNPAP mean?
 

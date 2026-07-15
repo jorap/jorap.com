@@ -63,7 +63,7 @@ Broken YAML indentation has broken my build more than any Markdown typo. Tabs an
 | Shortcodes | Hugo only | N/A |
 | Raw HTML | Often allowed | Varies |
 
-I draft blog posts in the same editor as notes, but I **don't** paste Obsidian wikilinks into Hugo content. They won't resolve. Use `relref` or plain paths.
+I draft blog posts and garden notes in the same editor, but I **don't** paste vault-style `[[wikilinks]]` into Hugo blog content unless the build resolves them. In JoRap Notes, wikilinks work at build time; in blog posts, use `relref` or plain paths.
 
 Same words, different dialects. Like PHP and WordPress - related, not identical.
 
