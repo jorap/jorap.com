@@ -27,6 +27,31 @@
   }
 }
 
+/* Top scroll progress bar. Paired with assets/js/scroll-progress.js. */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 60;
+  width: 100%;
+  height: 3px;
+  pointer-events: none;
+  background: color-mix(in srgb, var(--color-divider) 35%, transparent);
+}
+
+.scroll-progress__bar {
+  height: 100%;
+  width: 0;
+  transform-origin: left center;
+  transition: width 0.1s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-progress__bar {
+    transition: none;
+  }
+}
+
 /* Skip link (WCAG 2.4.1 bypass blocks) */
 .skip-link {
   position: absolute;
@@ -2221,6 +2246,7 @@ body.randomizer-focus {
 body.randomizer-focus .header,
 body.randomizer-focus footer,
 body.randomizer-focus .announcement,
+body.randomizer-focus #scroll-progress,
 body.randomizer-focus #back-to-top,
 body.randomizer-focus .randomizer-page__intro,
 body.randomizer-focus .randomizer-page > section:first-child {

@@ -16,7 +16,7 @@
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
 
-  const RADIUS = 20;
+  const RADIUS = parseFloat(ring.getAttribute("r") || "26");
   const CIRCUMFERENCE = 2 * Math.PI * RADIUS;
   ring.style.strokeDasharray = `${CIRCUMFERENCE} ${CIRCUMFERENCE}`;
   ring.style.strokeDashoffset = String(CIRCUMFERENCE);

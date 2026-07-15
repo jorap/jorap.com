@@ -20,6 +20,7 @@
 
   <body class="min-h-full flex flex-col">
     <a class="skip-link" href="#main">Skip to content</a>
+    {{ partial "components/scroll-progress.html" . }}
 
     <!-- cache partial only in production -->
     {{ if hugo.IsProduction }}

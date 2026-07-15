@@ -246,6 +246,9 @@ lazy = true
 link = "js/toc.js"
 lazy = false
 [[params.plugins.js]]
+link = "js/scroll-progress.js"
+lazy = false
+[[params.plugins.js]]
 link = "js/back-to-top.js"
 lazy = true
 [[params.plugins.js]]
