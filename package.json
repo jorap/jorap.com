@@ -21,6 +21,7 @@
     "format": "prettier -w .",
     "export:anki": "python3 scripts/export-anki-deck.py",
     "export:okf": "python3 scripts/export-okf-bundle.py",
+    "export:okf-blog": "python3 scripts/export-okf-blog-bundle.py",
     "import:obsidian": "python3 scripts/import-from-obsidian.py",
     "lint:notes": "node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo --gc 2>&1 | rg 'broken wikilink|unlinked mention' || true",
     "lint:frontmatter": "python3 scripts/lint-notes-frontmatter.py",

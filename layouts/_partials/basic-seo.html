@@ -39,6 +39,9 @@
 {{ else if .Params.image }}
   {{ $imagePath = .Params.image }}
 {{ end }}
+{{ if and $imagePath (not (hasPrefix $imagePath "http")) (hasPrefix $imagePath "/") }}
+  {{ $imagePath = strings.TrimPrefix "/" $imagePath }}
+{{ end }}
 
 <!-- title -->
 <title>{{ $title }}</title>
@@ -137,7 +140,7 @@
       content="image/{{- if eq $imageExt `.svg` -}}
         svg+xml
       {{- else -}}
-        {{- replaceRE `^jpg$` `jpeg` $imageExt -}}
+        {{- replaceRE `^jpe?g$` `jpeg` (strings.TrimPrefix "." $imageExt) -}}
       {{- end -}}" />
   {{ end }}
 

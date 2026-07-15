@@ -22,6 +22,7 @@ const hugoBin = ensureHugo();
 runNodeScript(join(__dirname, "themeGenerator.js"));
 runNodeScript(join(__dirname, "noteFileDates.js"));
 run("python3", [join(__dirname, "export-okf-bundle.py")], { cwd: projectRoot });
+run("python3", [join(__dirname, "export-okf-blog-bundle.py")], { cwd: projectRoot });
 const hugoCacheDir = join(projectRoot, ".cache");
 run(
   hugoBin,

@@ -12,9 +12,12 @@
             {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "image--partial aspect-[475/239]") }}
           </div>
           {{ end }}
-          <h1 class="article-title mb-4">
-            {{ .Title }}
-          </h1>
+          <div class="mb-4 flex flex-wrap items-start justify-between gap-x-4 gap-y-3">
+            <h1 class="article-title mb-0 min-w-0 flex-1">
+              {{ .Title }}
+            </h1>
+            {{ partial "blog/copy-markdown.html" (dict "Context" .) }}
+          </div>
           <ul class="mb-4">
             {{/*
             <li class="mr-4 inline-block">
@@ -121,5 +124,5 @@
     {{ partial "notes/random-unrelated-notes.html" (dict "Context" . "Scope" "blog") }}
   </div>
 </section>
-{{/* TOC scripting (mobile toggle + scroll-spy) lives in assets/js/toc.js, loaded site-wide via [[params.plugins.js]] in hugo.toml. */}}
+{{ partial "essentials/fingerprint-asset.html" (dict "src" "js/notes-copy-md.js" "defer" true) }}
 {{ end }}

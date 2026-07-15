@@ -48,6 +48,42 @@
 .share-icons .share-link {
   @apply inline-flex h-9 w-9 min-h-[var(--touch-target-min)] min-w-[var(--touch-target-min)] items-center justify-center rounded leading-9 bg-accent hover:bg-accent;
   margin: 0.5rem 0.5rem 0.5rem 0;
+  position: relative;
+}
+
+.share-icons .share-link[data-share-tip]::after {
+  content: attr(data-share-tip);
+  position: absolute;
+  bottom: calc(100% + 0.35rem);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.2rem 0.45rem;
+  border-radius: 0.25rem;
+  background: var(--color-ink);
+  color: var(--color-surface);
+  font-size: 0.75rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 20;
+  transition: opacity 0.15s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .share-icons .share-link[data-share-tip]:hover::after {
+    opacity: 1;
+  }
+}
+
+.share-icons .share-link[data-share-tip]:focus-visible::after {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .share-icons .share-link[data-share-tip]::after {
+    transition: none;
+  }
 }
 
 .share-icons .share-icon svg {
