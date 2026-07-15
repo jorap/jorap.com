@@ -99,7 +99,7 @@ view_all_label = "View all posts"
 post_slugs = [
   "sustainable-online-publishing",
   "static-site-vs-cms",
-  "top-reasons-create-maintain-your-own-website",
+  "why-run-your-own-website",
   "why-i-focused-on-open-source",
   "consistent-ai-output-wordpress-builds",
 ]
