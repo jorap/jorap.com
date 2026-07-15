@@ -14,7 +14,7 @@ related_notes:
   - signal-vs-noise
 featured: false
 draft: false
-lastmod: "2026-07-14T02:37:00Z"
+lastmod: "2026-07-15T11:45:00Z"
 ---
 
 I love *Hanamikoji* for the mechanics. The retail game has gorgeous art - colorful geisha portraits, illustrated performance items, a table presence that pulls you in. I kept playing for the **I split, you choose** puzzle: how you bundle cards, what you force your rival to take, when to burn a Trade-off. The theme is atmosphere. The split is the game.
@@ -31,9 +31,9 @@ This post is the retheme map and the component cuts. Not a rules sheet - those l
 
 A straight reskin chases the retail look - new geisha art, new item illustrations, same component sprawl. I was not trying to match *Hanamikoji*'s production. I was trying to **stress-test two things**: whether the mechanic and its simplicity still engages without illustration, and how far I could cut components before something broke.
 
-Country flags are boring on purpose. Black when neutral. Green toward the leader, red toward the rival when someone controls a market. Deal cards repeat the same flag small in the corner plus a point number. No scene to admire mid-turn. That is the point. When someone lays out a Gift or a Competition, the question on the table is **which pile hurts me less** - not what pretty picture landed in front of me. If the game still bites with flags and numbers, the mechanics are doing the heavy lifting.
+Country flags are boring on purpose. Black while the round is still open. After scoring, green toward whoever took the market, red toward the rival. Deal cards repeat the same flag small in the corner plus a point number. No scene to admire mid-turn. That is the point. When someone lays out a Gift or a Competition, the question on the table is **which pile hurts me less** - not what pretty picture landed in front of me. If the game still bites with flags and numbers, the mechanics are doing the heavy lifting.
 
-The business frame helps the same way. Geisha favor becomes **market control**. Item cards become **deal cards**. Charm points become **market value**. The four actions still read clean: backroom **Secret**, painful **Trade-off**, public **Gift**, head-to-head **Competition**. Dry nouns. Sharp decisions.
+The business frame helps the same way. Geisha favor becomes **market control**. Item cards become **deal cards**. Charm points become **market value**. The four actions still read clean: backroom **Secret #1**, painful **Trade-off #2**, public **Gift #3**, head-to-head **Competition #4**. One of each per player. Dry nouns. Sharp decisions.
 
 Practical wins stack on top. Retail *Hanamikoji* uses **oversized geisha boards** and **smaller item cards** - two print templates, two sleeve sizes at home. I print poker-size everything. One cutter pass, one sleeve SKU, one stack in a tuck box.
 
@@ -48,50 +48,48 @@ One-to-one where it matters. If the retail name does not appear in the left colu
 | Hanamikoji | Duopoly | Notes |
 |------------|---------|-------|
 | Geisha card | Market card | Seven countries in a center row |
-| Item card | Deal card | Three per country; small flag + points only |
+| Item card | Deal card | Count matches market value (2-5); small flag + points only |
 | Charm points | Market value | Printed on market and deal cards |
-| Victory marker | Card flip | Flip the country card; green toward leader, red toward rival |
-| Action marker / tile | Action card | Name on face; flip when spent |
+| Victory marker | Card flip | Flip at scoring only; green toward leader, red toward rival |
+| Action marker / tile | Action card | Secret #1 through Competition #4 on face; one of each per player; flip when spent |
 | Win 4 geisha | Win 4 countries | Same threshold |
 | Win 11+ charm | Win 11+ points | 21 total across all markets |
-| Secret | Secret | 1 card tucked face-down |
-| Trade-off (Chop) | Trade-off | 2 cards out of play |
-| Gift | Gift | 3 revealed, rival picks 1 |
-| Competition | Competition | 4 as two pairs, rival picks a pair |
+| Secret #1 | Secret #1 | 1 card tucked face-down |
+| Trade-off #2 | Trade-off #2 | 2 cards out of play |
+| Gift #3 | Gift #3 | 3 revealed, rival picks 1 |
+| Competition #4 | Competition #4 | 4 as two pairs, rival picks a pair |
 
-{{< image src="images/duopoly-actions.jpg" caption="Four action cards - Secret, Trade-off, Gift, and Competition - with the split-and-choose layout on each face." alt="Duopoly action cards showing Secret, Trade-off, Gift, and Competition with card-count diagrams" height="361" width="1000" position="center" command="fit" option="q90" class="img-fluid" title="Duopoly action cards" webp="true" zoomable="true" >}}
+{{< image src="images/duopoly-actions.jpg" caption="Action cards Secret #1, Trade-off #2, Gift #3, and Competition #4 - one of each per player - with the split-and-choose layout on each face." alt="Duopoly action cards Secret 1 through Competition 4 with card-count diagrams" height="361" width="1000" position="center" command="fit" option="q90" class="img-fluid" title="Duopoly action cards" webp="true" zoomable="true" >}}
 
 ### The seven markets
 
-Point values follow the retail spread. I only renamed the faces.
+Point values and deal counts follow retail - charm equals the number of item cards of that type. I only renamed the faces.
 
-| Country | Points | Hanamikoji equivalent (charm) |
-|---------|-------:|-------------------------------|
-| Germany | 2 | 2 |
-| France | 2 | 2 |
-| UK | 2 | 2 |
-| China | 3 | 3 |
-| Japan | 3 | 3 |
-| EU | 4 | 4 |
-| US | 5 | 5 |
+| Country | Points | Deal cards | Hanamikoji equivalent (charm) |
+|---------|-------:|-----------:|-------------------------------|
+| Germany | 2 | 2 | 2 |
+| France | 2 | 2 | 2 |
+| UK | 2 | 2 | 2 |
+| China | 3 | 3 | 3 |
+| Japan | 3 | 3 | 3 |
+| EU | 4 | 4 | 4 |
+| US | 5 | 5 | 5 |
 
 Row order left to right: low value to high, same as setup in the original.
 
 ### Flip the country, not a token
 
-Retail *Hanamikoji* keeps each geisha card fixed in the row. Control is a **victory marker** you slide toward yourself or your rival after scoring. Seven geisha, seven tokens, fourteen little moves to track every round.
+Retail *Hanamikoji* keeps each geisha card fixed in the row. Control is a **victory marker** you slide toward yourself or your rival - but only in the **scoring phase**, after both players have taken four turns. Deal cards pile up next to each geisha all round; the marker does not move mid-turn.
 
-I baked control into the **country card itself**. Same card, two faces - no chip to nudge.
+I baked control into the **country card itself**. Same card, two faces - no chip to nudge. Same timing: **flip only at scoring**, when you compare deal counts on each side.
 
-**Neutral (no one leads):** double-sided with two identical flags. Country name and points in **black** on both halves. Starts face-up in the row.
+**During the action phase:** market cards stay **neutral** - double flag, country name and points in **black**. Deal cards land beside them, but the row still reads open.
 
-**Someone takes the lead:** flip to the other face. One flag now. **Green** text and points toward the player in control, **red** toward the rival. Stolen back next round? Same face, just rotate it so green points the other way.
+**After scoring:** whoever has more deal cards on their side takes the market. Flip to the controlled face - one flag, **green** toward the winner, **red** toward the rival. Stolen back next round? Same face, rotate so green points the other way. Tied or empty - leave the card as it was.
 
-You never hunt for a marker. You never bump one off-center. The country card *is* the state. Glance at the row: black means open, green your way means yours.
+You never hunt for a marker. You never bump one off-center. The country card *is* the state - but only updates when the round ends, same as retail.
 
-That is the main reason I kept seven market cards instead of printing the row on the zine. The flip is faster and clearer than pencil ticks or sliding cardboard up and down a board.
-
-{{< image src="images/duopoly-countries.jpg" caption="Neutral market cards (black, double flag) versus a taken lead (single flag, green toward you, red toward rival)." alt="Duopoly country cards in neutral and controlled states for USA, EU, and China" height="930" width="1000" position="center" command="fit" option="q90" class="img-fluid" title="Duopoly country card flip states" webp="true" zoomable="true" >}}
+{{< image src="images/duopoly-countries.jpg" caption="Neutral during the round (black, double flag) versus after scoring (single flag, green toward you, red toward rival)." alt="Duopoly country cards in neutral and controlled states for USA, EU, and China" height="930" width="1000" position="center" command="fit" option="q90" class="img-fluid" title="Duopoly country card flip states" webp="true" zoomable="true" >}}
 
 ---
 
@@ -115,21 +113,47 @@ My **full Duopoly** build:
 |-------|------:|
 | Market cards (same size as deals) | 7 |
 | Deal cards | 21 |
-| Action cards | 8 |
+| Action cards | 8 | 4 per player: Secret #1, Trade-off #2, Gift #3, Competition #4 |
 | 1-page zine (rules) | 1 |
 | **Total** | **36 cards + zine** |
 
-Seven victory markers gone - the country card flip handles control. Geisha and item size split gone - one template.
+Seven victory markers gone - the country card flip at scoring handles control. Geisha and item size split gone - one template.
 
-Action cards with the name on the face - easier to read across the table than flipping little tiles. Secret and Trade-off tuck under theirs; Gift and Competition stay face-up so your rival has to see the split.
+Eight action cards - four per player, **one of each**: Secret #1, Trade-off #2, Gift #3, Competition #4. Name and number on the face, same order as retail. Easier to read across the table than flipping little tiles. Secret #1 and Trade-off #2 tuck under theirs; Gift #3 and Competition #4 stay face-up so your rival has to see the split.
 
 The cut from 43 distinct bits to 36 cards plus a zine is not minimalism for its own sake. It is a proof of concept: **the engine runs lean.** That also makes me think the publisher could swap themes - business, sci-fi, sports, whatever - without touching the split. Same machinery, different skin. I would buy an official alternate theme if one existed. The geisha art is the reason many people pick up the box; the mechanics might be the reason they keep playing.
 
 ---
 
+## How I actually win
+
+Rules live in the zine. This is the stuff I wish someone had told me after the first three losses - the habits that make the split feel less random.
+
+**Count cards per country.** Deal count matches market value - two for Germany, three for Japan, five for US. Whoever has more on their side **when the round scores** takes the market; nothing flips until all eight turns are done. Each round also buries one card unseen before the deal. I track what is still in the deck - two UK left, Japan has one on their side - same as counting outs in a trick game. Flags help. No portrait to stare at, just color and number.
+
+**Two ways to win, pick a lane early.** Four countries or eleven points. Eleven is just over half of twenty-one, so the point race is always live. Three cheap 2-point flags can still close the country win if you stack Germany, France, and UK - you need a fourth market somewhere, but you do not have to pile up US and EU to get there. I decide by mid-game which path is still realistic and stop donating cards to the path I am not chasing. Chasing both is how you lose both.
+
+**Block before scoring.** During the round, deal cards sit beside each market but the row does not flip yet. You are still building toward whoever has more when the eighth turn ends. If they have one Japan toward them and you have zero, that row is urgent - even when another pile looks juicier.
+
+**Trade-off is denial, not cleanup.** Two cards from your hand sit out for the round - not scored, back in the shuffle next round. Sounds defensive. Often the best attack. When you hold the last China and your rival only needs one more, tucking it under Trade-off can deny them the row this scoring phase entirely.
+
+**Gift: they pick one, you keep two.** Three cards face-up; rival takes one, the other two land on your side. Two from the same country is strong when you want that 2-point flag - you end up with both, they get none from that Gift. On a 3-card market like Japan, three of a kind in a Gift still leaves you 2-1. The bad Gift fans a card they are happy to cherry-pick while your pair is dead weight. Make the pick painful; make the two you keep do real work.
+
+**Competition: pair the pain.** Four cards as two pairs, they pick a pair. Bundle the card they need with junk, or split so whichever pair they take gives you the better board. Competition is for when you would rather they take two cards than one - or when both pairs are bad and you are fine either way.
+
+**Secret timing.** Early Secret hides which row you are chasing. Late Secret, when you have tracked what is left in the deck, tucks a decisive card from your hand without showing the split. The cost is one fewer public Gift or Competition that turn - worth it when the third Japan card is the whole round.
+
+**Respect US and EU.** Five and four points swing the eleven-point win. Letting someone take two US deals early is hard to recover from. I fight those rows harder than the three 2-point flags even when the country count looks fine.
+
+**Spend each action once per round.** Four turns each - Secret #1, Trade-off #2, Gift #3, Competition #4, one time each. Wasting Competition #4 on a thin early board leaves you with only Gift #3 when the row is crowded and every split stings. I save the action that fits the late-round count - usually Competition #4 or Trade-off #2 when the last cards of a country are in play.
+
+None of this replaces reading the split. It just stops you from donating countries while you admire your own layout.
+
+---
+
 ## What I actually print
 
-- **36 cards:** 21 deals + 7 markets + 8 action cards, double-sided where it matters
+- **36 cards:** 21 deals + 7 markets + 8 action cards (Secret #1 through Competition #4, one of each per player), double-sided where it matters
 - **Zine:** rules only
 - **No** victory markers, **no** second card size
 

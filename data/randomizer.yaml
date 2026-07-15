@@ -1639,7 +1639,7 @@ collections:
 - id: grade-1-quiz
   title: Grade 1 quick quiz
   mode: quiz
-  tagline: Short questions for first graders. Every answer is 3 to 5 letters.
+  tagline: Animals, colors, and facts — no arithmetic. Every answer is 3 to 5 letters.
   play_hint: Read the question aloud. Let them guess before you reveal the answer. Tap Shuffle for a random question — about half are medium, a quarter easy, a quarter hard.
   items:
   - q: "What animal says meow?"
@@ -1732,14 +1732,14 @@ collections:
   - q: "What do you wear on your head?"
     a: hat
     d: easy
-  - q: "What is one plus one?"
-    a: two
-    d: easy
-  - q: "What is two plus two?"
-    a: four
-    d: easy
   - q: "What is the opposite of hot?"
     a: cold
+    d: easy
+  - q: "What fruit is purple or green?"
+    a: grape
+    d: easy
+  - q: "What flies and has colorful wings?"
+    a: moth
     d: easy
   - q: "What is the opposite of big?"
     a: small
@@ -1855,26 +1855,26 @@ collections:
   - q: "What do you stir soup with?"
     a: spoon
     d: medium
-  - q: "What is two plus one?"
-    a: three
+  - q: "What room has a tub?"
+    a: bath
     d: medium
-  - q: "What is three plus two?"
-    a: five
+  - q: "What do you wear in the rain?"
+    a: coat
     d: medium
-  - q: "What is four plus two?"
-    a: six
+  - q: "What do cats like to chase?"
+    a: mice
     d: medium
-  - q: "What is five plus five?"
-    a: ten
+  - q: "What do you hang on a wall?"
+    a: art
     d: medium
-  - q: "What number comes right after one?"
-    a: two
+  - q: "What do you put photos in?"
+    a: album
     d: medium
-  - q: "What number comes right after four?"
-    a: five
+  - q: "What holds hot cocoa?"
+    a: mug
     d: medium
-  - q: "What number comes right before three?"
-    a: two
+  - q: "What game piece do you roll?"
+    a: dice
     d: medium
   - q: "What do birds use to fly?"
     a: wings
@@ -2137,17 +2137,17 @@ collections:
   - q: "What is a little lake?"
     a: pond
     d: hard
-  - q: "What is seven minus two?"
-    a: five
+  - q: "What dark cloud brings thunder?"
+    a: storm
     d: hard
-  - q: "What is eight minus five?"
-    a: three
+  - q: "What grows on a cactus?"
+    a: spine
     d: hard
-  - q: "What is nine minus four?"
-    a: five
+  - q: "What do climbers scale?"
+    a: cliff
     d: hard
-  - q: "What is eight minus three?"
-    a: five
+  - q: "What do sailors steer?"
+    a: helm
     d: hard
   - q: "How many days are in one week?"
     a: seven
@@ -2241,4 +2241,610 @@ collections:
     d: hard
   - q: "How many corners does a circle have?"
     a: none
+    d: hard
+- id: grade-1-math-quiz
+  title: Grade 1 math quiz
+  mode: quiz
+  tagline: Addition, subtraction, and number bonds. Answers are 3 to 5 letters.
+  play_hint: Read the question aloud. Let them guess before you reveal. Start with easy cards; hide one in a general quiz round when they are warmed up.
+  items:
+  - q: "What is one plus one?"
+    a: two
+    d: easy
+  - q: "What is one plus two?"
+    a: three
+    d: easy
+  - q: "What is one plus three?"
+    a: four
+    d: easy
+  - q: "What is one plus four?"
+    a: five
+    d: easy
+  - q: "What is one plus five?"
+    a: six
+    d: easy
+  - q: "What is two plus one?"
+    a: three
+    d: easy
+  - q: "What is two plus two?"
+    a: four
+    d: easy
+  - q: "What is two plus three?"
+    a: five
+    d: easy
+  - q: "What is two plus four?"
+    a: six
+    d: easy
+  - q: "What is three plus one?"
+    a: four
+    d: easy
+  - q: "What is three plus two?"
+    a: five
+    d: easy
+  - q: "What is three plus three?"
+    a: six
+    d: easy
+  - q: "What is four plus one?"
+    a: five
+    d: easy
+  - q: "What is four plus two?"
+    a: six
+    d: easy
+  - q: "What is five plus one?"
+    a: six
+    d: easy
+  - q: "What is three minus one?"
+    a: two
+    d: easy
+  - q: "What is three minus two?"
+    a: one
+    d: easy
+  - q: "What is four minus one?"
+    a: three
+    d: easy
+  - q: "What is four minus three?"
+    a: one
+    d: easy
+  - q: "What is five minus one?"
+    a: four
+    d: easy
+  - q: "What is five minus two?"
+    a: three
+    d: easy
+  - q: "What is five minus three?"
+    a: two
+    d: easy
+  - q: "What is five minus four?"
+    a: one
+    d: easy
+  - q: "What is six minus one?"
+    a: five
+    d: easy
+  - q: "What is six minus two?"
+    a: four
+    d: easy
+  - q: "What is six minus four?"
+    a: two
+    d: easy
+  - q: "What is six minus five?"
+    a: one
+    d: easy
+  - q: "What number comes after zero?"
+    a: one
+    d: easy
+  - q: "What number comes after one?"
+    a: two
+    d: easy
+  - q: "What number comes after two?"
+    a: three
+    d: easy
+  - q: "What number comes after three?"
+    a: four
+    d: easy
+  - q: "What number comes after four?"
+    a: five
+    d: easy
+  - q: "What number comes after five?"
+    a: six
+    d: easy
+  - q: "What number comes after six?"
+    a: seven
+    d: easy
+  - q: "What number comes after seven?"
+    a: eight
+    d: easy
+  - q: "What number comes after eight?"
+    a: nine
+    d: easy
+  - q: "What number comes before one?"
+    a: zero
+    d: easy
+  - q: "What number comes before two?"
+    a: one
+    d: easy
+  - q: "What number comes before three?"
+    a: two
+    d: easy
+  - q: "What number comes before four?"
+    a: three
+    d: easy
+  - q: "What number comes before five?"
+    a: four
+    d: easy
+  - q: "What number comes before six?"
+    a: five
+    d: easy
+  - q: "What number comes before seven?"
+    a: six
+    d: easy
+  - q: "What number comes before eight?"
+    a: seven
+    d: easy
+  - q: "What number comes before nine?"
+    a: eight
+    d: easy
+  - q: "What is one more than one?"
+    a: two
+    d: easy
+  - q: "What is one more than two?"
+    a: three
+    d: easy
+  - q: "What is one more than three?"
+    a: four
+    d: easy
+  - q: "What is one more than four?"
+    a: five
+    d: easy
+  - q: "What is one more than five?"
+    a: six
+    d: easy
+  - q: "What is one plus six?"
+    a: seven
+    d: medium
+  - q: "What is one plus seven?"
+    a: eight
+    d: medium
+  - q: "What is one plus eight?"
+    a: nine
+    d: medium
+  - q: "What is one plus nine?"
+    a: ten
+    d: medium
+  - q: "What is two plus five?"
+    a: seven
+    d: medium
+  - q: "What is two plus six?"
+    a: eight
+    d: medium
+  - q: "What is two plus seven?"
+    a: nine
+    d: medium
+  - q: "What is two plus eight?"
+    a: ten
+    d: medium
+  - q: "What is three plus four?"
+    a: seven
+    d: medium
+  - q: "What is three plus five?"
+    a: eight
+    d: medium
+  - q: "What is three plus six?"
+    a: nine
+    d: medium
+  - q: "What is three plus seven?"
+    a: ten
+    d: medium
+  - q: "What is four plus three?"
+    a: seven
+    d: medium
+  - q: "What is four plus four?"
+    a: eight
+    d: medium
+  - q: "What is four plus five?"
+    a: nine
+    d: medium
+  - q: "What is four plus six?"
+    a: ten
+    d: medium
+  - q: "What is five plus two?"
+    a: seven
+    d: medium
+  - q: "What is five plus three?"
+    a: eight
+    d: medium
+  - q: "What is five plus four?"
+    a: nine
+    d: medium
+  - q: "What is five plus five?"
+    a: ten
+    d: medium
+  - q: "What is six plus one?"
+    a: seven
+    d: medium
+  - q: "What is six plus two?"
+    a: eight
+    d: medium
+  - q: "What is six plus three?"
+    a: nine
+    d: medium
+  - q: "What is six plus four?"
+    a: ten
+    d: medium
+  - q: "What is seven plus one?"
+    a: eight
+    d: medium
+  - q: "What is seven plus two?"
+    a: nine
+    d: medium
+  - q: "What is seven plus three?"
+    a: ten
+    d: medium
+  - q: "What is eight plus one?"
+    a: nine
+    d: medium
+  - q: "What is eight plus two?"
+    a: ten
+    d: medium
+  - q: "What is nine plus one?"
+    a: ten
+    d: medium
+  - q: "What is seven minus one?"
+    a: six
+    d: medium
+  - q: "What is seven minus two?"
+    a: five
+    d: medium
+  - q: "What is seven minus three?"
+    a: four
+    d: medium
+  - q: "What is seven minus four?"
+    a: three
+    d: medium
+  - q: "What is seven minus five?"
+    a: two
+    d: medium
+  - q: "What is seven minus six?"
+    a: one
+    d: medium
+  - q: "What is eight minus one?"
+    a: seven
+    d: medium
+  - q: "What is eight minus two?"
+    a: six
+    d: medium
+  - q: "What is eight minus three?"
+    a: five
+    d: medium
+  - q: "What is eight minus five?"
+    a: three
+    d: medium
+  - q: "What is eight minus six?"
+    a: two
+    d: medium
+  - q: "What is eight minus seven?"
+    a: one
+    d: medium
+  - q: "What is nine minus one?"
+    a: eight
+    d: medium
+  - q: "What is nine minus two?"
+    a: seven
+    d: medium
+  - q: "What is nine minus three?"
+    a: six
+    d: medium
+  - q: "What is nine minus four?"
+    a: five
+    d: medium
+  - q: "What is nine minus five?"
+    a: four
+    d: medium
+  - q: "What is nine minus six?"
+    a: three
+    d: medium
+  - q: "What is nine minus seven?"
+    a: two
+    d: medium
+  - q: "What is nine minus eight?"
+    a: one
+    d: medium
+  - q: "What is ten minus one?"
+    a: nine
+    d: medium
+  - q: "What is ten minus two?"
+    a: eight
+    d: medium
+  - q: "What is ten minus three?"
+    a: seven
+    d: medium
+  - q: "What is ten minus four?"
+    a: six
+    d: medium
+  - q: "What is ten minus six?"
+    a: four
+    d: medium
+  - q: "What is ten minus seven?"
+    a: three
+    d: medium
+  - q: "What is ten minus eight?"
+    a: two
+    d: medium
+  - q: "What is ten minus nine?"
+    a: one
+    d: medium
+  - q: "One and one together make what?"
+    a: two
+    d: medium
+  - q: "One and two together make what?"
+    a: three
+    d: medium
+  - q: "One and three together make what?"
+    a: four
+    d: medium
+  - q: "One and four together make what?"
+    a: five
+    d: medium
+  - q: "One and five together make what?"
+    a: six
+    d: medium
+  - q: "One and six together make what?"
+    a: seven
+    d: medium
+  - q: "One and seven together make what?"
+    a: eight
+    d: medium
+  - q: "One and eight together make what?"
+    a: nine
+    d: medium
+  - q: "One and nine together make what?"
+    a: ten
+    d: medium
+  - q: "Two and one together make what?"
+    a: three
+    d: medium
+  - q: "Two and two together make what?"
+    a: four
+    d: medium
+  - q: "Two and three together make what?"
+    a: five
+    d: medium
+  - q: "Two and four together make what?"
+    a: six
+    d: medium
+  - q: "Two and five together make what?"
+    a: seven
+    d: medium
+  - q: "Two and six together make what?"
+    a: eight
+    d: medium
+  - q: "Two and seven together make what?"
+    a: nine
+    d: medium
+  - q: "Two and eight together make what?"
+    a: ten
+    d: medium
+  - q: "Three and one together make what?"
+    a: four
+    d: medium
+  - q: "Three and two together make what?"
+    a: five
+    d: medium
+  - q: "Three and three together make what?"
+    a: six
+    d: medium
+  - q: "Three and four together make what?"
+    a: seven
+    d: medium
+  - q: "Three and five together make what?"
+    a: eight
+    d: medium
+  - q: "Three and six together make what?"
+    a: nine
+    d: medium
+  - q: "Three and seven together make what?"
+    a: ten
+    d: medium
+  - q: "Four and one together make what?"
+    a: five
+    d: medium
+  - q: "Four and two together make what?"
+    a: six
+    d: medium
+  - q: "Four and three together make what?"
+    a: seven
+    d: medium
+  - q: "Four and four together make what?"
+    a: eight
+    d: medium
+  - q: "Four and five together make what?"
+    a: nine
+    d: medium
+  - q: "Four and six together make what?"
+    a: ten
+    d: medium
+  - q: "Five and one together make what?"
+    a: six
+    d: medium
+  - q: "Five and two together make what?"
+    a: seven
+    d: medium
+  - q: "Five and three together make what?"
+    a: eight
+    d: medium
+  - q: "Five and four together make what?"
+    a: nine
+    d: medium
+  - q: "Five and five together make what?"
+    a: ten
+    d: medium
+  - q: "Six and one together make what?"
+    a: seven
+    d: medium
+  - q: "Six and two together make what?"
+    a: eight
+    d: medium
+  - q: "Six and three together make what?"
+    a: nine
+    d: medium
+  - q: "Six and four together make what?"
+    a: ten
+    d: medium
+  - q: "Seven and one together make what?"
+    a: eight
+    d: medium
+  - q: "Seven and two together make what?"
+    a: nine
+    d: medium
+  - q: "Seven and three together make what?"
+    a: ten
+    d: medium
+  - q: "What plus one makes three?"
+    a: two
+    d: hard
+  - q: "What plus two makes three?"
+    a: one
+    d: hard
+  - q: "What plus one makes four?"
+    a: three
+    d: hard
+  - q: "What plus three makes four?"
+    a: one
+    d: hard
+  - q: "What plus one makes five?"
+    a: four
+    d: hard
+  - q: "What plus two makes five?"
+    a: three
+    d: hard
+  - q: "What plus three makes five?"
+    a: two
+    d: hard
+  - q: "What plus four makes five?"
+    a: one
+    d: hard
+  - q: "What plus one makes six?"
+    a: five
+    d: hard
+  - q: "What plus two makes six?"
+    a: four
+    d: hard
+  - q: "What plus four makes six?"
+    a: two
+    d: hard
+  - q: "What plus five makes six?"
+    a: one
+    d: hard
+  - q: "What plus one makes seven?"
+    a: six
+    d: hard
+  - q: "What plus two makes seven?"
+    a: five
+    d: hard
+  - q: "What plus three makes seven?"
+    a: four
+    d: hard
+  - q: "What plus four makes seven?"
+    a: three
+    d: hard
+  - q: "What plus five makes seven?"
+    a: two
+    d: hard
+  - q: "What plus six makes seven?"
+    a: one
+    d: hard
+  - q: "What plus one makes eight?"
+    a: seven
+    d: hard
+  - q: "What plus two makes eight?"
+    a: six
+    d: hard
+  - q: "What plus three makes eight?"
+    a: five
+    d: hard
+  - q: "What plus five makes eight?"
+    a: three
+    d: hard
+  - q: "What plus six makes eight?"
+    a: two
+    d: hard
+  - q: "What plus seven makes eight?"
+    a: one
+    d: hard
+  - q: "What plus one makes nine?"
+    a: eight
+    d: hard
+  - q: "What plus two makes nine?"
+    a: seven
+    d: hard
+  - q: "What plus three makes nine?"
+    a: six
+    d: hard
+  - q: "What plus four makes nine?"
+    a: five
+    d: hard
+  - q: "What plus five makes nine?"
+    a: four
+    d: hard
+  - q: "What plus six makes nine?"
+    a: three
+    d: hard
+  - q: "What plus seven makes nine?"
+    a: two
+    d: hard
+  - q: "What plus eight makes nine?"
+    a: one
+    d: hard
+  - q: "What plus one makes ten?"
+    a: nine
+    d: hard
+  - q: "What plus two makes ten?"
+    a: eight
+    d: hard
+  - q: "What plus three makes ten?"
+    a: seven
+    d: hard
+  - q: "What plus four makes ten?"
+    a: six
+    d: hard
+  - q: "What plus six makes ten?"
+    a: four
+    d: hard
+  - q: "What plus seven makes ten?"
+    a: three
+    d: hard
+  - q: "What plus eight makes ten?"
+    a: two
+    d: hard
+  - q: "What plus nine makes ten?"
+    a: one
+    d: hard
+  - q: "What is one less than three?"
+    a: two
+    d: hard
+  - q: "What is one less than four?"
+    a: three
+    d: hard
+  - q: "What is one less than five?"
+    a: four
+    d: hard
+  - q: "What is one less than six?"
+    a: five
+    d: hard
+  - q: "What is one less than seven?"
+    a: six
+    d: hard
+  - q: "What is one less than eight?"
+    a: seven
+    d: hard
+  - q: "What is one less than nine?"
+    a: eight
+    d: hard
+  - q: "What is one less than ten?"
+    a: nine
+    d: hard
+  - q: "Bonus round: seven minus two?"
+    a: five
+    d: hard
+  - q: "Bonus round: seven minus three?"
+    a: four
     d: hard

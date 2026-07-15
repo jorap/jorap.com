@@ -260,7 +260,7 @@
     var personalMode = isPersonalMode(state.mode);
     var quizMode = isQuizMode(state.mode);
     if (els.card) {
-      els.card.classList.toggle("randomizer-card--grade-1", state.collectionId === "grade-1-quiz");
+      els.card.classList.toggle("randomizer-card--grade-1", quizMode);
     }
     if (els.poles) els.poles.hidden = !spectrumMode;
     if (els.prompt) els.prompt.hidden = spectrumMode;
@@ -438,7 +438,7 @@
       title: directPlay ? col.title : cat.title,
       mode: state.mode,
       scale_label: col.scale_label || "",
-      large_answer: state.collectionId === "grade-1-quiz",
+      large_answer: quizMode,
       items: directPlay ? state.items : cat.items || [],
     };
 
