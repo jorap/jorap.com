@@ -54,7 +54,7 @@ privacyEnhanced = true
 ########################## Pagination ############################
 [pagination]
 disableAliases = false
-pagerSize = 10
+pagerSize = 24
 path = 'page'
 
 # Related posts (blog single). Defaults only index keywords, date, and tags — not
