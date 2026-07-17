@@ -5,9 +5,11 @@ description: "A reliable default is the simple rehearsed move that runs when thi
 key_concept: |
   - Build it before the crisis, not during it - a default assembled mid-emergency is not a default.
   - The rehearsed move beats improvising when the clock is loud.
+  - Pick a good default once - stop reopening the question every project.
 examples:
   - "The clinic front desk runs the laminated triage sheet taped by the phone when three walk-ins arrive - one script, no guessing."
   - "Our family fire plan is one fridge page: two exits, meeting spot, who grabs the baby - last blackout, my kid ran it half-asleep."
+  - "I picked Inter from Refactoring UI once and stopped reopening the font question every new layout - hierarchy by weight, not a second typeface hunt."
 shareable_thought:
   - "A reliable default is the simple rehearsed move that runs when thinking is thin."
   - "Build it before the crisis, not during it."
@@ -23,6 +25,9 @@ relationships:
   - type: extends
     wikilink: "[[Habit Formation]]"
     reason: "Defaults are habits drilled until they are automatic"
+  - type: extends
+    wikilink: "[[Minimum Effective Dose]]"
+    reason: "One font, one stack default - enough to ship, not endless comparison shopping"
   - type: extends
     wikilink: "[[Preparedness]]"
     reason: "Rehearse before the emergency owns the clock"

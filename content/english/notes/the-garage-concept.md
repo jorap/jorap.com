@@ -8,9 +8,11 @@ key_concept: |
   - My vault is the garage for scraps and experiments.
   - The blog is the showroom, and I keep them separate.
   - The garage concept splits showroom and workshop - the blog is the showroom, drafts are the garage.
+  - One capture habit, one publish pipe - garage to garden to push, not two note apps fighting over the same idea.
 examples:
   - "The practice film library is messy; the highlight reel for parents is one clean cut - garage holds scraps, showroom shows the finished piece."
   - "The garage holds half-finished projects and sawdust; the front porch shows the one bench I would invite a neighbor to sit on."
+  - "Private captures stay in the garage; Hugo builds the public garden - same markdown, one direction, no second vault to sync."
 shareable_thought:
   - "My vault is the garage for scraps and experiments."
   - "The blog is the showroom, and I keep them separate."
