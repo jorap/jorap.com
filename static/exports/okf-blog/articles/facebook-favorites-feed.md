@@ -1,14 +1,16 @@
 ---
 type: Blog Post
 title: "Facebook's Hidden Gem: The Favorites Feed"
-description: "I almost deleted Facebook. Then I found a built-in feature most people don't know exists - the only reason I still open the app."
+description: I still need Facebook for Messenger. I mostly stopped scrolling the main feed and use Favorites for the handful of people I actually picked.
 resource: "https://www.jorap.com/blog/facebook-favorites-feed/"
 tags: ["Facebook", "Favorites Feed", "Social Media Tips", "Digital Wellbeing", "Digital Minimalism", "Information Diet", "Feed Curation", "Screen Time"]
 timestamp: "2024-02-04T05:00:00Z"
 ---
-I almost deleted Facebook a couple of years ago. My feed had become a mess - random sponsored posts, distant cousins arguing about politics, people I went to high school with pitching essential oils, and somehow almost nothing from the friends I actually wanted to keep up with.
+I can't quit Facebook entirely - **Messenger** is how too many people in my life actually reach me. What I did quit, mostly, was scrolling the main feed.
 
-Then I stumbled onto a setting Facebook built but doesn't really advertise: the **Favorites feed**. It's not a hack, not a third-party app, just a built-in feature most people don't know exists. It's the only reason I still open the app.
+It had become a mess - random sponsored posts, distant cousins arguing about politics, people I went to high school with pitching essential oils, and somehow almost nothing from the friends I actually wanted to keep up with.
+
+Then I stumbled onto a setting Facebook built but doesn't really advertise: the **Favorites feed**. It's not a hack, not a third-party app, just a built-in feature most people don't know exists. It's how I check Facebook without getting pulled into the algorithm hole - Messenger stays; the infinite feed mostly doesn't.
 
 ## What the Favorites feed actually is
 

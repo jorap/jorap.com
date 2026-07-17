@@ -44,7 +44,7 @@ draft: false
 
 **Key concept** - not a second definition. First paragraph: one sentence (the angle). Next paragraph: stakes, distinctions, wikilinks.
 
-**Examples** - exactly two plain bullets in frontmatter from different fields. Mid-action scenes I might hit this week: jeepney, clinic, group chat, bedtime, inbox.
+**Examples** - exactly two plain bullets in frontmatter from different fields. Mid-action scenes I might hit this week: jeepney, clinic, group chat, bedtime, inbox. See [[Signature Move]] for why two unrelated scenes prove one principle.
 
 **Relationships** - `extends` and `contradicts` minimum; optional `implements` and `alternative`. Sorted relationship a-z then wikilink a-z; each target once.
 
