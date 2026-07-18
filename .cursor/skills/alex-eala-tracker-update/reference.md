@@ -64,9 +64,20 @@ Confirm tier on the WTA tournament page before adding or correcting an entry.
 - Split sets: `l. Opponent 6-3, 4-6, 2-6` (Eala won set 1, lost sets 2–3)
 - Match tiebreak (doubles): Eala's points first — `7-5, 3-6, 7-10` not `10-7`
 - Retirements: score at stoppage from Eala's side — `6-4, 0-1 ret.`
+- Walkovers (Best Performances only): `d. Opponent w/o` or `l. Opponent w/o` — no set scores; include match links
 - Tiebreak notation unchanged: `7-6(5)` means Eala 7 games, opponent 6, TB 5–7
 
 When copying from WTA or tennis.com, flip any set or super-tiebreak segment that lists the opponent first.
+
+## Walkovers
+
+A **walkover** (`w/o`, opponent withdrew before the match was played) is **not an H2H meeting**:
+
+- **Best Performances** — list the round: `Round, d. Opponent w/o |` links (singles: WTA + tennis.com when available; doubles: WTA). No set scores.
+- **Grand Slam results** — omit walkover rounds.
+- Do not create or keep an H2H `###` block when walkover-only contact is the only meeting.
+- Opponent stays on **Matches to Watch Out For** until the ball is struck in a pro meeting.
+- **Retirements** (`ret.`) after play started still count as matches.
 
 ## Entry templates
 
@@ -190,7 +201,7 @@ List completed singles meetings **newest first**. Add official slam site link on
 ### Watch list entry
 
 ```markdown
-- [Opponent Name](https://www.wtatennis.com/head-to-head/330332/OPPONENT_ID) - YYYY Tournament Winner note
+- [Opponent Name](https://www.wtatennis.com/head-to-head/330332/OPPONENT_ID) - Career High No. XX; credential note
 ```
 
 **Criteria:** no completed pro H2H yet; opponent is a Slam winner, legend, or current top-tier draw Eala is likely to meet. Remove from this list once they play — promote to the correct H2H section instead.
@@ -233,7 +244,7 @@ Use when promoting to H2H or building watch-list links:
 | Amanda Anisimova | 326384 | 2025 Wimbledon semifinalist |
 | Bianca Andreescu | 320962 | 2019 US Open |
 | Mirra Andreeva | 331809 | Junior US Open 2022 context |
-| Paula Badosa | 320124 | Promoted to Other Top 20 (Miami 2025 w/o); career high No. 2 |
+| Paula Badosa | 320124 | Former world No. 2; no pro H2H yet (Miami 2025 walkover only) |
 | Belinda Bencic | 319001 | Olympic gold; 2026 Rome SF |
 | Sofia Kenin | 320942 | 2020 Australian Open |
 | Emma Navarro | 329682 | 2025 Strasbourg; top-20 American |
@@ -247,7 +258,7 @@ Use when promoting to H2H or building watch-list links:
 
 **Grand Slam Champions** (sorted by Slam titles): Iga Swiatek (326408), Elena Rybakina (324166), Coco Gauff (328560), Barbora Krejcikova (318314), Linda Noskova (329668), Madison Keys (316959), Marketa Vondrousova (323027), Jelena Ostapenko (319939)
 
-**Other Top 20** (alphabetical by last name): Ekaterina Alexandrova (319007), Paula Badosa (320124), Leylah Fernandez (326735), Iva Jovic (332285), Marta Kostyuk (326482), Karolina Muchova (322191), Jasmine Paolini (319280), Jessica Pegula (316956), Elina Svitolina (316738), Clara Tauson (327793)
+**Other Top 20** (alphabetical by last name): Ekaterina Alexandrova (319007), Leylah Fernandez (326735), Iva Jovic (332285), Marta Kostyuk (326482), Karolina Muchova (322191), Jasmine Paolini (319280), Jessica Pegula (316956), Elina Svitolina (316738), Clara Tauson (327793)
 
 Sort **Other Top 20** and **Matches to Watch Out For** alphabetically by **last name** when adding or reordering entries.
 

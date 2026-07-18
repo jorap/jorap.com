@@ -14,7 +14,7 @@ related_notes:
   - complete-the-cycle
 featured: false
 draft: false
-lastmod: "2026-07-13T15:24:00Z"
+lastmod: "2026-07-18T23:50:00Z"
 ---
 
 I've been following Alex Eala's career since her amazing run at the 2025 Miami Open, and watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook - career-high rankings, the matches I'll always remember, the head-to-heads with Grand Slam champions, and the upcoming matchups I'm watching for. I update it as her career unfolds.
@@ -260,7 +260,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 {{< youtube vB6HVBHjpAg >}}
 
   - **Wimbledon**
-    - 1st Round, l. Krejcikova 3-6, 6-2, 1-6
+    - 1st Round, l. Krejcikova 3-6, 6-2, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS61511608) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/b-krejcikova-vs-a-eala-2025-07-01)
     - Played against the defending champion Krejcikova at the Centre Court
 
   - **French Open**
@@ -280,7 +280,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - 2025
 
   - **Wimbledon - with Eva Lys**
-    - 1st Round, l. Gleason/Martins 4-6, 2-6
+    - 1st Round, l. Gleason/Martins 4-6, 2-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LD61641892) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/a-eala-e-lys-vs-q-gleason-i-martins-2025-07-03)
 
 {{< youtube NqbMdbIUuFE >}}
 
@@ -386,7 +386,7 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 **Matches:**
 
-- **2025 Wimbledon (Grass)** - 1st Round, LOSS, 6-3, 2-6, 1-6
+- **2025 Wimbledon (Grass)** - 1st Round, LOSS, 3-6, 6-2, 1-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/wimbledon/scores/LS61511608) | [tennis.com](https://www.tennis.com/tournaments/wimbledon/matches/b-krejcikova-vs-a-eala-2025-07-01)
 
 {{< youtube PtLGq_avxI4 >}}
 
@@ -498,18 +498,6 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 - **2026 Abu Dhabi (Hard)** - Quarterfinals, LOSS, 3-6, 3-6 | [wtatennis.com](https://www.wtatennis.com/tournaments/2088/abu-dhabi/2026/scores/LS007) | [tennis.com](https://www.tennis.com/tournaments/mubadala-abu-dhabi-open/matches/a-eala-vs-e-alexandrova-2026-02-05)
 
 {{< youtube Cfn0SHv302U >}}
-
----
-
-### Paula Badosa
-
-- [WTA Profile](https://www.wtatennis.com/players/320124/paula-badosa)
-- [Head to Head](https://www.wtatennis.com/head-to-head/330332/320124)
-- **Career High Singles:** No. 2
-
-**Matches:**
-
-- **2025 Miami Open (Hard)** - Round of 16, WIN (Walkover) | [wtatennis.com](https://www.wtatennis.com/tournaments/902/miami/2025/scores/LS014) | [tennis.com](https://www.tennis.com/tournaments/miami-open/matches/p-badosa-vs-a-eala-2025-03-25)
 
 ---
 
@@ -639,17 +627,18 @@ I've been following Alex Eala's career since her amazing run at the 2025 Miami O
 
 ## Matches to Watch Out For
 
-- [Amanda Anisimova](https://www.wtatennis.com/head-to-head/330332/326384) - 2025 Wimbledon semifinalist
-- [Bianca Andreescu](https://www.wtatennis.com/head-to-head/330332/325088) - 2019 US Open Winner
-- [Mirra Andreeva](https://www.wtatennis.com/head-to-head/330332/331809) - Alex Eala defeated her when she won the 2022 Junior US Open
-- [Belinda Bencic](https://www.wtatennis.com/head-to-head/330332/319001) - Olympic gold medalist; 2026 Rome semifinalist
-- [Sofia Kenin](https://www.wtatennis.com/head-to-head/330332/320942) - 2020 Australian Open Winner
-- [Emma Navarro](https://www.wtatennis.com/head-to-head/330332/325410) - 2025 Strasbourg Winner; rising American top-20 fixture
-- [Naomi Osaka](https://www.wtatennis.com/head-to-head/330332/319998) - 2021, 2019 Australian Open and 2020, 2018 US Open Winner
-- [Emma Raducanu](https://www.wtatennis.com/head-to-head/330332/328366) - 2021 US Open Winner
-- [Aryna Sabalenka](https://www.wtatennis.com/head-to-head/330332/320760) - 2024, 2023 Australian Open and 2024 US Open Winner
-- [Diana Shnaider](https://www.wtatennis.com/head-to-head/330332/330482) - 2026 Roland Garros semifinalist; 2025 Monterrey champion
-- [Qinwen Zheng](https://www.wtatennis.com/head-to-head/330332/328120) - 2024 Olympic gold and Roland Garros finalist
+- [Amanda Anisimova](https://www.wtatennis.com/head-to-head/330332/326384) - Career High No. 3; 2025 Wimbledon semifinalist
+- [Bianca Andreescu](https://www.wtatennis.com/head-to-head/330332/325088) - Career High No. 4; 2019 US Open Winner
+- [Mirra Andreeva](https://www.wtatennis.com/head-to-head/330332/331809) - Career High No. 5; Alex Eala defeated her when she won the 2022 Junior US Open
+- [Paula Badosa](https://www.wtatennis.com/head-to-head/330332/320124) - Career High No. 2
+- [Belinda Bencic](https://www.wtatennis.com/head-to-head/330332/319001) - Career High No. 4; Olympic gold medalist; 2026 Rome semifinalist
+- [Sofia Kenin](https://www.wtatennis.com/head-to-head/330332/320942) - Career High No. 4; 2020 Australian Open Winner
+- [Emma Navarro](https://www.wtatennis.com/head-to-head/330332/325410) - Career High No. 8; 2025 Strasbourg Winner; rising American top-20 fixture
+- [Naomi Osaka](https://www.wtatennis.com/head-to-head/330332/319998) - Career High No. 1; 2021, 2019 Australian Open and 2020, 2018 US Open Winner
+- [Emma Raducanu](https://www.wtatennis.com/head-to-head/330332/328366) - Career High No. 10; 2021 US Open Winner
+- [Aryna Sabalenka](https://www.wtatennis.com/head-to-head/330332/320760) - Career High No. 1; 2024, 2023 Australian Open and 2024 US Open Winner
+- [Diana Shnaider](https://www.wtatennis.com/head-to-head/330332/330482) - Career High No. 15; 2026 Roland Garros semifinalist; 2025 Monterrey champion
+- [Qinwen Zheng](https://www.wtatennis.com/head-to-head/330332/328120) - Career High No. 5; 2024 Olympic gold and Roland Garros finalist
 
 ---
 
