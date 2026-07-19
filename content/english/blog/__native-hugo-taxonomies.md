@@ -76,9 +76,6 @@ I haven't needed a custom taxonomy on JoRap yet. Hugoplate already ships multi-a
 
 Theme handles display. **You** handle not creating 400 empty tag pages.
 
----
-
-## Bottom line
 
 Native Hugo taxonomies organize the **public** site. My private wiki can be messier - wikilinks, backlinks, whatever.
 

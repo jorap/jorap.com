@@ -105,10 +105,4 @@ Be honest about the limits.
 
 For game rules specifically, I treat the **cover and back cover as the in-play reference** - win condition, turn order, action names, scoring. That is what you see when the rulebook sits in its sleeve beside the deck. **Setup and the full teach live inside** - open it once at the table, then close it and leave it there.
 
----
-
-## Bottom line
-
-If you need a booklet and you do not need a binding, the 1-page zine is the fastest honest answer. One sheet, one cut, eight pages. I reach for it whenever the content is small enough to respect the limit and the reader needs something they can hold, not a PDF on their phone.
-
-For board games, that limit is a feature. It keeps the rules tight and the component count at one.
+If you need a booklet and you do not need a binding, the 1-page zine is the fastest honest answer. One sheet, one cut, eight pages. I reach for it whenever the content is small enough to respect the limit and the reader needs something they can hold, not a PDF on their phone. For board games, that limit is a feature - it keeps the rules tight and the component count at one.

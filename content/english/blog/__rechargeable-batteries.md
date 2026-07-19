@@ -78,10 +78,6 @@ Smoke detectors and true emergency flashlights stay on alkalines in our house. T
 
 And I don't chase the absolute highest capacity numbers on the label. Consistent performance and low self-discharge beat bragging rights.
 
----
-
-## Bottom line
 
 If your house eats AAs like snacks, rechargeables are the most boring, sensible upgrade available. One good charger, two sets of cells, a simple swap habit - and that checkout-aisle battery tax mostly disappears.
 
-*Idea captured from [ideas.jorap.com](https://ideas.jorap.com/).*

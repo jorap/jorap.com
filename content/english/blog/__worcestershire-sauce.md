@@ -68,12 +68,8 @@ There's no perfect 1:1 swap. Close-ish options:
 
 None of them are Lee & Perrins. That's why I restock before the bottle rattles empty.
 
----
-
-## Bottom line
 
 If your cooking has a recurring problem - "it's fine but kind of flat" - Worcestershire is a cheap fix with a long shelf life. Lee & Perrins is the bottle I trust to taste the same every time.
 
 Worth a permanent spot next to the soy sauce.
 
-*Idea captured from [ideas.jorap.com](https://ideas.jorap.com/).*

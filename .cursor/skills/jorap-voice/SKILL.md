@@ -151,6 +151,29 @@ After the seven passes, one final skim. For each paragraph:
 3. Would JoRap actually type this sentence? → pass #4 or #5.
 4. Any word you'd pause to define? → swap for the plain word you'd say out loud.
 
+## Slop gate (structural)
+
+Vocabulary is `pnpm lint:voice` (`data/voice-words.yaml`). Structure is `pnpm lint:slop` (`data/slop-rules.yaml`). Run both before `draft: false`.
+
+**Publish blockers** — CI fails if any of these ship:
+- `Expanded from` / `Idea captured from ideas.jorap.com` footer still in body
+- `image-template.jpg` as hero image
+- Body under 80 words
+- `users should` / `it is recommended` in prose
+
+**Warn before publish** — fix when you can:
+- `## Bottom line` (especially on opinion, faith, family, games posts)
+- `## Further reading` with 3+ links
+- Three parallel bullets sharing the same first word
+- Empty `##` sections with no body
+- Opinion/faith/family/games posts with no `I`/`my` in the first 400 characters
+
+**Wiki exports:** posts expanded from ideas.jorap.com are outlines until each section has one real scene (date, place, mistake, name). Delete the footer after rewrite.
+
+**Swap test (mandatory):** could this paragraph run on any blog about this topic? Rewrite until no.
+
+**One failure rule:** every H2 section needs something that went wrong, surprised you, or you'd skip next time.
+
 ## Tone
 
 - **First person**: "I", "my", "what I look for" - this is a personal site, not a brand blog.
@@ -221,6 +244,7 @@ Recipe content can be more instructional - ingredients, steps, timings - but sec
 - [ ] Plain words only - no jargon or thesaurus words you wouldn't say out loud
 - [ ] Read aloud - no word you'd pause to define
 - [ ] No AI-slop phrases (see `data/voice-words.yaml` phrases + examples.md)
+- [ ] `pnpm lint:slop` clean on publish (`draft: false`)
 - [ ] Sentence lengths vary - not a wall of same-shaped paragraphs
 - [ ] Section headings sound like JoRap, not a product manual
 - [ ] Would sound natural read aloud by a person, not narrated by a help article

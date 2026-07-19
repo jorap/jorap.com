@@ -65,10 +65,6 @@ If you only mayo twice a year at picnics, probably not. If you make sandwiches, 
 
 I still keep regular mayo for recipes that expect neutral flavor. Kewpie is the one I reach for when I want the mayo to actually taste like something.
 
----
-
-## Bottom line
 
 Kewpie is the mayo upgrade I didn't know I wanted until I tried it on the right sandwich. Not essential for everyone. For our kitchen, it's a permanent resident in the fridge door.
 
-*Idea captured from [ideas.jorap.com](https://ideas.jorap.com/).*

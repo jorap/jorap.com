@@ -128,12 +128,12 @@ Kumon is already pencil-heavy at the center. Home doesn't need a third stack of 
 
 Two decks on the same [randomizer](/randomizer/). Same game: shuffle, guess out loud, reveal, next.
 
-- **[Grade 1 quiz](/randomizer/?set=grade-1-quiz)** — animals, colors, facts. **No arithmetic.** We call five cards "beat dad." Mon–Thu lives here.
-- **[Grade 1 math quiz](/randomizer/?set=grade-1-math-quiz)** — addition, subtraction, bonds. Separate deck so math never ambushes a warmup round. One card from here when he's ready — then maybe the math line sheet.
-- **"I'm thinking of a number"** — bigger than 4, smaller than 8. Oral on the tablet, no second deck needed.
-- **Beat your score** — how many cards in two minutes? Only count the ones he got without help.
-- **Quick rounds** — close the tab when he says done. Principle **1**. Hard subject needs an easy exit.
-- **Offline copy** — save either quiz HTML for spotty wifi. Same games, no loading spinner.
+- **[Grade 1 quiz](/randomizer/?set=grade-1-quiz)** - animals, colors, facts. **No arithmetic.** We call five cards "beat dad." Mon-Thu lives here.
+- **[Grade 1 math quiz](/randomizer/?set=grade-1-math-quiz)** - addition, subtraction, bonds. Separate deck so math never ambushes a warmup round. One card from here when he's ready - then maybe the math line sheet.
+- **"I'm thinking of a number"** - bigger than 4, smaller than 8. Oral on the tablet, no second deck needed.
+- **Beat your score** - how many cards in two minutes? Only count the ones he got without help.
+- **Quick rounds** - close the tab when he says done. Principle **1**. Hard subject needs an easy exit.
+- **Offline copy** - save either quiz HTML for spotty wifi. Same games, no loading spinner.
 
 What the tablet is **not** for: long drills, timed rows, "you're not fast enough." That's Kumon. That's also what **hard** feels like to him.
 
@@ -173,8 +173,8 @@ Bad math day? Game only. Skip the equation. Principle **4** beats principle **6*
 
 Math feels **hard**. The tablet is where we hide the work inside the game (principles **3** and **4**):
 
-- **Easy cards first** — general quiz on the tablet. Math deck only when he still has gas.
-- **Pictures on screen, numbers on paper** — quiz cards do the concrete part; the math line sheet holds one equation.
+- **Easy cards first** - general quiz on the tablet. Math deck only when he still has gas.
+- **Pictures on screen, numbers on paper** - quiz cards do the concrete part; the math line sheet holds one equation.
 - **Out loud on the tablet** - he talks, I react. Wrong guess is "nice try," not a red mark.
 - **One math line sheet** - only after a round he enjoyed. `3 + 2 = 5` once. Optional on rough days.
 
@@ -200,14 +200,14 @@ Same flow for both decks:
 
 1. Tap shuffle.
 2. He guesses out loud.
-3. Tap reveal — did you beat dad?
+3. Tap reveal - did you beat dad?
 4. Again. Five cards. Done.
 
-**[Grade 1 quiz](/randomizer/?set=grade-1-quiz)** is the warmup — animals, colors, no plus or minus. He asks for this one by name because it's a **game**, not a test.
+**[Grade 1 quiz](/randomizer/?set=grade-1-quiz)** is the warmup - animals, colors, no plus or minus. He asks for this one by name because it's a **game**, not a test.
 
-**[Grade 1 math quiz](/randomizer/?set=grade-1-math-quiz)** is the separate math deck — addition, subtraction, bonds. Principle **4**: easy cards first, always. We pull **one** math card into a round only when the general cards went well. Wrong guess is still "nice try."
+**[Grade 1 math quiz](/randomizer/?set=grade-1-math-quiz)** is the separate math deck - addition, subtraction, bonds. Principle **4**: easy cards first, always. We pull **one** math card into a round only when the general cards went well. Wrong guess is still "nice try."
 
-That's principles **3**, **4**, and **6** on glass. Kumon wants a pencil from minute one on the **hard** subject. The tablet lets him win with his mouth first. **Then** — if he wants — the math line sheet gets one equation as a trophy.
+That's principles **3**, **4**, and **6** on glass. Kumon wants a pencil from minute one on the **hard** subject. The tablet lets him win with his mouth first. **Then** - if he wants - the math line sheet gets one equation as a trophy.
 
 ---
 
@@ -215,35 +215,35 @@ That's principles **3**, **4**, and **6** on glass. Kumon wants a pencil from mi
 
 One week. Same shape every day: **tablet first, one printed sheet second.** Ten to fifteen minutes. Sunday off.
 
-**Principles in play:** 4, 3, 6, 5 — plus **7** on Saturday (postcard).  
-**Math:** general quiz Mon–Thu; **one** card from the [math quiz](/randomizer/?set=grade-1-math-quiz) on Fri if he still has gas. Math line optional all week.  
+**Principles in play:** 4, 3, 6, 5 - plus **7** on Saturday (postcard).  
+**Math:** general quiz Mon-Thu; **one** card from the [math quiz](/randomizer/?set=grade-1-math-quiz) on Fri if he still has gas. Math line optional all week.  
 **Handwriting:** labels, journal, copy one sentence he picks, one message someone will read.
 
 | Day | Tablet (math game) | Printed sheet |
 |-----|-------------------|---------------|
-| Mon | [General quiz](/randomizer/?set=grade-1-quiz) — beat dad, 5 easy cards | Math line optional: one digit from a card he won |
-| Tue | [General quiz](/randomizer/?set=grade-1-quiz) — guess the number 1–10 | Draw + label: house `door` `roof` `me` |
-| Wed | [General quiz](/randomizer/?set=grade-1-quiz) — he picks animals | Journal: *Today I beat dad.* |
-| Thu | [General quiz](/randomizer/?set=grade-1-quiz) — 5 easy cards | Copy one sentence he picks from a card or journal |
-| Fri | [Math quiz](/randomizer/?set=grade-1-math-quiz) — 1 easy card, then 4 general if he wants | Journal: `mom` `park` `fun` in one sentence |
-| Sat | He picks the deck — general or math | Message sheet: postcard to lola |
+| Mon | [General quiz](/randomizer/?set=grade-1-quiz) - beat dad, 5 easy cards | Math line optional: one digit from a card he won |
+| Tue | [General quiz](/randomizer/?set=grade-1-quiz) - guess the number 1-10 | Draw + label: house `door` `roof` `me` |
+| Wed | [General quiz](/randomizer/?set=grade-1-quiz) - he picks animals | Journal: *Today I beat dad.* |
+| Thu | [General quiz](/randomizer/?set=grade-1-quiz) - 5 easy cards | Copy one sentence he picks from a card or journal |
+| Fri | [Math quiz](/randomizer/?set=grade-1-math-quiz) - 1 easy card, then 4 general if he wants | Journal: `mom` `park` `fun` in one sentence |
+| Sat | He picks the deck - general or math | Message sheet: postcard to lola |
 | Sun | Off | Off |
 
-Batch-print six sheets Saturday night if you're the plan-ahead type. I am not, usually — but four half-page templates make it a five-minute job. Stack them by the tablet charger.
+Batch-print six sheets Saturday night if you're the plan-ahead type. I am not, usually - but four half-page templates make it a five-minute job. Stack them by the tablet charger.
 
 **Math games that don't feel hard** (tablet only):
 
-- "Beat dad" on the [general quiz](/randomizer/?set=grade-1-quiz) — five cards, low stakes.
-- "I'm thinking of a number" — he narrows: *bigger? smaller?*
-- One card from the [math quiz](/randomizer/?set=grade-1-math-quiz) — only after a general round went well.
-- "One more card" — he taps shuffle again before you say done. No paper yet.
+- "Beat dad" on the [general quiz](/randomizer/?set=grade-1-quiz) - five cards, low stakes.
+- "I'm thinking of a number" - he narrows: *bigger? smaller?*
+- One card from the [math quiz](/randomizer/?set=grade-1-math-quiz) - only after a general round went well.
+- "One more card" - he taps shuffle again before you say done. No paper yet.
 - Dad gets one wrong on purpose. He catches you. He laughs. Math isn't only losing.
 
-**Handwriting shape most days:** he **says** it first on the tablet or out loud (principle **6**). Then copy, label, or journal on a printed sheet. Thursday is copy-from-card — transcription reps on words he already won in the game (principle **5**).
+**Handwriting shape most days:** he **says** it first on the tablet or out loud (principle **6**). Then copy, label, or journal on a printed sheet. Thursday is copy-from-card - transcription reps on words he already won in the game (principle **5**).
 
 ### Printable layouts (copy into any doc)
 
-**Math line** — half page:
+**Math line** - half page:
 
 ```
 Name: ___________  Date: ___________
@@ -253,7 +253,7 @@ ___ + ___ = ___
 How I know: _________________________
 ```
 
-**Journal** — half page:
+**Journal** - half page:
 
 ```
 Today I _____________________________.

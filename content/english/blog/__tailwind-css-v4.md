@@ -65,9 +65,6 @@ Faster rebuilds on my laptop. Slightly smaller CSS output. Zero change to how a 
 
 That's fine. Infrastructure churn isn't content. **Sync theme, test locally, push live** is the whole playbook.
 
----
-
-## Bottom line
 
 Tailwind v4 is maintainers' work, not writers'. I let Hugoplate carry most of it and kept my custom CSS thin.
 

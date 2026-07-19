@@ -21,7 +21,7 @@ draft: true
 
 "Write me a blog post about productivity" is a coin flip. You might get gold. You might get oatmeal.
 
-The prompts I keep in my Second Brain - like **The Ultimate Prompt To Write The Best Prompts** - share a structure. I call it **CRAFT** (not my invention, but the acronym I actually use when prompting).
+The prompts I keep in my notes share a shape. I call it **CRAFT** - Context, Role, Action, Format, Target Audience. Not my invention. The acronym I actually use before I hit enter.
 
 ---
 
@@ -29,62 +29,38 @@ The prompts I keep in my Second Brain - like **The Ultimate Prompt To Write The 
 
 | Letter | Section | Job |
 |---|---|---|
-| **C** | Context | What's the situation? What background does the model need? |
-| **R** | Role | Who should the model be? Expertise level, voice, years of experience |
-| **A** | Action | Numbered steps the model should follow, in order |
-| **F** | Format | Essay, table, markdown, HTML, bullets, word count, headings |
-| **T** | Target audience | Who reads the output - literacy level, job, geography |
+| **C** | Context | What's the situation? What does the model need to know? |
+| **R** | Role | Who should it be? Expertise, voice, years in the trade |
+| **A** | Action | Numbered steps, in order |
+| **F** | Format | Essay, table, markdown, word count, headings |
+| **T** | Target audience | Who reads it - job, literacy, geography |
 
-Miss any letter and you get **generic middle**.
+Miss any letter and you get **generic middle.**
 
 ---
 
-## Starter meta-prompt (from my notes)
+## Real prompt I used (Hugo migration checklist)
 
-Use this when you want ChatGPT to **write another prompt** for you:
+Not a meta-prompt about ultimate prompts. A real job:
 
 ```
-CONTEXT: We are going to create one of the best ChatGPT prompts ever written. The best prompts include comprehensive details: goals, required expertise, domain knowledge, preferred format, target audience, references, examples, and the best approach to accomplish the objective.
+CONTEXT: I'm migrating a client blog from WordPress to Hugo. Theme is Hugoplate. They have 40 posts with featured images in /uploads. Cloudflare Pages will build on push.
 
-ROLE: You are an LLM prompt generation expert known for extremely detailed prompts that produce outputs far exceeding typical responses.
+ROLE: Senior Hugo developer who's done messy WordPress exports before. Plain English, no hype.
 
 ACTION:
-1) If I haven't provided the topic, request it.
-2) Review the CRAFT format below.
-3) Include "fill in the blank" elements where the user must customize.
-4) Take it one step at a time.
-5) Write the final prompt.
+1) List export steps from WordPress (plugin + manual checks)
+2) Folder layout for Hugo page bundles with images
+3) Frontmatter mapping (WP fields → Hugo YAML)
+4) Cloudflare build settings to verify (Hugo version, NODE_VERSION)
+5) Pass-off checklist for the client
 
-FORMAT: Use CRAFT sections - Context, Role, Action, Format, Target Audience.
+FORMAT: Markdown with H2 sections and numbered steps inside each.
 
-TARGET AUDIENCE: ChatGPT 4o or later.
+TARGET AUDIENCE: Freelancer (me) running the migration solo. Client is non-technical.
 ```
 
-Then supply your topic: "Prompt for a Hugo blog migration checklist," etc.
-
----
-
-## Mini example - monthly goals guide
-
-**Context:** Guide for setting and tracking monthly goals; break annual objectives into actionable monthly steps; SMART-friendly.
-
-**Role:** Expert productivity coach, 20+ years, clear motivating voice.
-
-**Action:**
-
-1. Engaging intro on why monthly goals work
-2. Step-by-step breakdown from annual goals
-3. Pick what comes first
-4. Tracking and adjustment tactics
-5. Examples (health, career, finances)
-6. Obstacle section (procrastination, surprises)
-7. Motivational close
-
-**Format:** Plain text, headings, numbered lists, short examples.
-
-**Target audience:** Working professionals 25-55, practical, ~6th grade reading level.
-
-That's enough for a usable first draft - because the model isn't guessing the shape.
+That returned something I could **execute**, not a motivational essay about digital transformation.
 
 ---
 
@@ -97,7 +73,7 @@ Good prompts leave intentional gaps:
 - `[TONE: casual / formal]`
 - `[EXCLUDE: topics or claims]`
 
-You reuse the skeleton. You don't rewrite from scratch.
+Reuse the skeleton. Don't rewrite from scratch every Tuesday.
 
 ---
 
@@ -110,17 +86,6 @@ You reuse the skeleton. You don't rewrite from scratch.
 
 ---
 
-## Further reference
-
-- [How To AI - Lawton Solutions](https://lawtonsolutions.com/How-To-AI/) - linked from my wiki tiddler
-- YouTube walkthrough on the meta-prompt (embedded in my [ideas.jorap.com](https://ideas.jorap.com/) notes)
-
----
-
-## Bottom line
-
 CRAFT isn't bureaucracy. It's **kindness to future-you** - and to the model.
 
-Context, Role, Action, Format, Target Audience. Five boxes. Fill them before you hit enter, and "ultimate prompts" stop being luck.
-
-*Expanded from [The Ultimate Prompt To Write The Best Prompts](https://ideas.jorap.com/) on [ideas.jorap.com](https://ideas.jorap.com/).*
+Context, Role, Action, Format, Target Audience. Five boxes. Fill them before you hit enter, and "good prompts" stop being luck.

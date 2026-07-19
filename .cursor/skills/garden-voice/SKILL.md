@@ -194,6 +194,20 @@ Even on a one-line `relationships.reason` fix. For each field ask:
 
 If a field still feels generated, rewrite from one real scene - don't polish AI slop.
 
+## Slop gate (structural)
+
+Vocabulary: `pnpm lint:voice` (`data/voice-words.yaml`). Structure: `pnpm lint:slop --notes-only` (`data/slop-rules.yaml`). Full garden gate: `pnpm lint:garden`.
+
+**Hard fails** in frontmatter fields:
+- `users should` / `one might` / `it is recommended`
+- `key_concept` line 1 opens like a dictionary ("This is a framework for…")
+
+**Warn** — fix when you can:
+- Parallel bullets sharing the same first word in `key_concept`
+- `## Bottom line` in note body (essay closer — cut)
+
+**Field-specific:** `description` stays third-person — slop there is textbook tone, not first-person advice. `examples` and `cards` need the most lived-in detail.
+
 ## Voice check
 
 - [ ] `title` is 4 words preferred (5 only at ≥30 chars, phrase exempt, beats best 4-word trim; never 6+)
@@ -209,6 +223,7 @@ If a field still feels generated, rewrite from one real scene - don't polish AI 
 - [ ] Theology/PKM term glossed in plain English before the wikilink stack
 - [ ] No contractions in frontmatter (body/cards OK)
 - [ ] `pnpm lint:voice` clean (dashes + AI-tell words)
+- [ ] `pnpm lint:slop --notes-only` clean (structural slop)
 
 ## Do not
 

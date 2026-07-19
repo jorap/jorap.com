@@ -77,9 +77,6 @@ Same words, different dialects. Like PHP and WordPress - related, not identical.
 
 When I lost PHP hosting, the posts I could recover as files were the ones that mattered. Markdown in a repo is backup strategy, not just format preference.
 
----
-
-## Bottom line
 
 Markdown deep dive, for me, meant mastering the boring basics and code fences. Everything else is optional.
 

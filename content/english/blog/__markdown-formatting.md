@@ -67,9 +67,6 @@ One **bold phrase** per section for the line I'd quote if I summarized the post 
 
 Backticks for commands and filenames. Fences for multi-line code. Readers should know what's copy-pasteable.
 
----
-
-## Bottom line
 
 Markdown formatting is UX. **Format while you write**, not in a panic before publish.
 

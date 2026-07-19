@@ -2842,3 +2842,40 @@ _**Agent (auto-low)**_
 <summary>Tool use: **edit_file_v2**</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding a walkover example to the score format section in reference.md would improve consistency.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/.cursor/skills/alex-eala-tracker-update/reference.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Updated rules now allow walkovers in Best Performances. The tracker has restored walkover lines there. Badosa remains on the watch list rather than H2H.</details></think>
+
+_**Agent (auto-low)**_
+
+Updated the walkover rules:
+
+**Best Performances in WTA Tournaments** — walkovers are allowed as round sub-bullets: `Round, d. Opponent w/o |` with match links, no set scores.
+
+**Still excluded from H2H** — walkover-only contact does not create or keep an H2H block; opponents stay on the watch list.
+
+**Grand Slam Main Draw Results** — walkover rounds still omitted (only rounds where the ball was struck).
+
+Restored the three Best Performances walkover lines in the tracker (Miami 2025 Badosa, Ningbo 2024 doubles, Canberra 2024 doubles). Badosa remains on the watch list only.

@@ -73,9 +73,6 @@ Not a Go developer. These patterns cover almost everything I touch:
 
 When I need something weirder, I grep the theme for a working example. Hugoplate is thousands of lines of answers.
 
----
-
-## Bottom line
 
 Hugo Go templates reward small experiments on a local build. **Don't start from the official docs cover to cover.** Break one page you care about, fix it with the theme's partials as a cheat sheet.
 

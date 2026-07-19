@@ -47,10 +47,6 @@ Pick one capture habit and one publish pipeline. **One direction** - garage → 
 
 When I maintained a separate note app and a Hugo site, I spent weekends syncing instead of writing. Cutting the extra app was the lazy fix.
 
----
-
-## Bottom line
 
 Private vs public is workflow design. **Think private, ship public.** Markdown travels; you don't need a second wiki host to make that true.
 
-*Idea captured from [ideas.jorap.com](https://ideas.jorap.com/).*

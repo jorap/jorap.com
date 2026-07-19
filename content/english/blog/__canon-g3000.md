@@ -77,16 +77,12 @@ For a home office that prints **a few times a week**, the math usually favors ta
 
 **Skip if:**
 
-- You print twice a year - you'll clog it before you save money
-- You need fast duplex office volume
-- You want gallery-quality photos
+- Twice-a-year printing - you'll clog it before you save money
+- Fast duplex office volume - wrong tool
+- Gallery-quality photos - wrong tool
 
----
-
-## Bottom line
 
 The Canon G3000 isn't exciting. It's **practical** - a refillable home printer for people who got tired of feeding cartridges.
 
 Buy it if you'll use it often enough to justify the space and the occasional head-cleaning ritual. Otherwise, the print shop counter might still be cheaper peace of mind.
 
-*Idea captured from [ideas.jorap.com](https://ideas.jorap.com/).*

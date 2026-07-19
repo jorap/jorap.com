@@ -7,13 +7,19 @@
 # gloss: theology/PKM terms that need a plain-English gloss nearby
 #
 # JoRap uses on purpose (not linted): landscape, leverage, utilize, facilitate,
-# robust, seamless, comprehensive, realm, elevate, implement, prioritize,
-# repository, functionality, optimization, crucial, vital, essential
+# robust, seamless, realm, elevate, implement, prioritize, repository,
+# functionality, optimization, crucial, vital, essential
 
 words:
   delve: cut or be specific
   tapestry: cut
   harness: use
+  boasts: has / includes
+  empower: help / let you
+  streamline: simplify / cut steps
+  revolutionize: change / fix
+  utilize: use
+  optimal: best / good enough
   Furthermore: delete — start the sentence
   Moreover: delete
   Additionally: delete
@@ -48,6 +54,16 @@ phrases:
   - ultimate guide
   - hope this helps
   - happy reading
+  - one of the best .{0,40}(prompts|guides|tools)
+  - comprehensive details
+  - At its core
+  - In this (post|article|section), we
+  - Here'?s everything you need to know
+  - a testament to
+  - it'?s no secret that
+  - the good news is
+  - Expanded from
+  - Idea captured from
 
 review:
   navigate: cut or be specific
@@ -56,6 +72,12 @@ review:
   distill: boil down / shorten
   deploy: push live
   unmerited favor: gift you didn't earn
+  hygiene: OK for passwords; cut elsewhere
+  leverage: OK in dev context; cut in essays
+  comprehensive: usually cut
+  framework: OK when naming CRAFT/JTBD; cut if every section says framework
+  seamless: smooth / invisible
+  robust: solid / holds up
 
 gloss:
   unmerited favor: gift you didn't earn

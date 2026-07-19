@@ -99,9 +99,9 @@ With the helper in place, ask AI for one polished example per shape - one card b
 
 Write down rules that aren't taste - they're safety. Mine look like:
 
-- Always escape user input
-- Always use the project's exact labels (typos break translations)
-- Always bump a timestamp when a config file changes (or sync breaks quietly)
+- Escape user input on every field you render
+- Match the project's exact labels (typos break translations)
+- Bump a timestamp when a config file changes (or sync breaks quietly)
 
 Ask AI to put five to ten rules in one plain-English doc in the project.
 

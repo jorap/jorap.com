@@ -75,9 +75,6 @@ Single hero image in `/images/`. No attachments. Post fits the pattern 80% of my
 
 Bundles add a folder to navigate in the editor. Worth it when colocation saves confusion. Not worth it for "one jpeg and 800 words."
 
----
-
-## Bottom line
 
 Page bundles are **colocate what ships together.** I haven't moved the whole blog over - most posts are still one file. The next post with a pile of screenshots won't be.
 

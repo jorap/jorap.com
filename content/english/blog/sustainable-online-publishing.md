@@ -65,12 +65,4 @@ What I mean is simpler: **the real copy lives somewhere you control.** Social is
 
 You don't need the full stack on day one. Domain + Git + static hosting is enough.
 
----
-
-## Bottom line
-
-Social media is a great lobby. It's a bad foundation.
-
-Sustainable online publishing is **your domain, your files, your deploy** - with social optional when you want people to notice.
-
-The stack can be free. The habit of owning your work is the part that compounds.
+Social media is a great lobby. It's a bad foundation. I still post links there - the archive lives on my domain, in Git, on a deploy I control. The stack can be free. **Owning the files** is the part that compounds.

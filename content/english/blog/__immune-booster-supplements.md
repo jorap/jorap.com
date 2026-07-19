@@ -18,13 +18,13 @@ featured: false
 draft: true
 ---
 
-**Disclaimer:** I'm not a doctor. This isn't medical advice. Talk to a clinician before starting supplements - especially if you take medication, are pregnant, or have chronic conditions. This post is my personal notes from research and habit, exported from my Second Brain.
+**Disclaimer:** I'm not a doctor. This isn't medical advice. Talk to a clinician before starting supplements - especially if you take medication, are pregnant, or have chronic conditions. This is my personal notebook, not your prescription.
 
 ---
 
 ## Why I bother at all
 
-I travel, I work around kids, I push through stupid deadlines. I can't control every virus in a jeepney. What I can control is **sleep, food, movement, and a modest supplement stack** when baseline habits slip.
+I ride jeepneys, work around kids, and push through stupid deadlines. I can't control every virus in a crowded commute. What I can control is **sleep, food, movement, and a modest supplement stack** when baseline habits slip.
 
 Supplements don't replace vaccines, hand washing, or rest. They're **margin**, not magic.
 
@@ -32,76 +32,35 @@ Supplements don't replace vaccines, hand washing, or rest. They're **margin**, n
 
 ## What's in my rotation
 
-### Elderberry
+**Vitamin D3** - I take it with a meal that has fat. Lab numbers matter more than guessing; I don't mega-dose blind.
 
-Traditional use for colds; some studies suggest shorter symptom duration. I don't treat it as a cure - more **early-season support** when everyone around me is sniffling.
+**Zinc (picolinate)** - one form I tolerate. I don't run high zinc long-term without guidance.
 
-References I saved:
+**Vitamin C** - food first. I bump a modest supplement during high-exposure weeks, split doses, not one heroic scoop.
 
-- [NIH PMC review context](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4848651/)
-- [PubMed entry](https://pubmed.ncbi.nlm.nih.gov/15080016/)
+**Elderberry** - early-season support when everyone around me is sniffling. Not a cure. I treat it as "maybe shortens the misery" not "prevents."
 
-### Vitamin D3
-
-Common deficiency; role in immune function. I take **D3** with a meal containing fat. Dose should follow labs if possible - blind huge doses aren't the goal.
-
-### Zinc (picolinate)
-
-Zinc shows up in a lot of immune conversations. **Picolinate** is one form I tolerate. I don't take high zinc long-term without guidance - too much causes problems.
-
-### Quercetin
-
-Flavonoid often paired with vitamin C in immune stacks. Evidence is mixed; I treat it as **optional**, not foundation.
-
-### NAC (N-acetylcysteine)
-
-Precursor to glutathione; doctors also use it to thin mucus. Some people take it for respiratory support. Regulation varies by country - check what's legal and appropriate where you live.
-
-### Vitamin C
-
-**~2 grams daily** is what my notes say I target during high-exposure weeks - split doses, not one heroic scoop. Food sources first; supplement fills gaps.
+**Quercetin / NAC** - optional, mixed evidence. I don't build the whole stack on them.
 
 ---
 
-## My "daily" vs "seasonal" split
+## Daily vs seasonal
 
-**Daily baseline (when I'm consistent):**
+**Baseline when I'm consistent:** D3, moderate zinc, food + modest C.
 
-- Vitamin D3
-- Zinc (moderate)
-- Quercetin
-- Vitamin C from food + modest supplement
-
-**Seasonal / exposure bump:**
-
-- Elderberry
-- NAC when respiratory stuff is circulating
-- Slightly higher vigilance on sleep - honestly the biggest lever
+**Exposure bump:** elderberry when colds are circulating, slightly more sleep vigilance (honestly the biggest lever), NAC if respiratory stuff is going around.
 
 ---
 
-## What I won't do
-
-- Replace flu shots or doctor visits with a shopping cart
-- Take every influencer stack at max dose
-- Ignore side effects because "it's natural"
-- Skip reading interaction warnings with prescriptions
-
----
-
-## The boring stuff that works better
+## What actually works better
 
 - **Sleep** - seven hours beats seven supplements
-- **Water and food** - actual meals, not just gummies
-- **Movement** - walks count
+- **Water and real meals** - not just gummies
+- **Walks** - they count
 - **Stress** - cortisol isn't a meme; it matters
+
+I still get sick. The stack doesn't make me invincible. It makes me feel like I did the boring baseline when life gets loud.
 
 ---
 
-## Bottom line
-
-This stack is **my notebook**, not your prescription. Elderberry, D3, zinc, quercetin, NAC, and vitamin C are tools I use with modest expectations and a doctor on speed dial for real illness.
-
-If you copy anything here, copy the disclaimer first.
-
-*Expanded from [Personal Immune Booster Supplements](https://ideas.jorap.com/) on [ideas.jorap.com](https://ideas.jorap.com/).*
+If you copy anything here, copy the disclaimer first. Then talk to someone with a medical license before you copy the pills.

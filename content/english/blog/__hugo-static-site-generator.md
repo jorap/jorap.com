@@ -72,9 +72,6 @@ For those, WordPress, Shopify, or a hosted tool wins. [Static vs CMS](/blog/stat
 
 For a blog, portfolio, brochure site, sermon archive, or docs that change occasionally - Hugo is hard to beat on cost and calm.
 
----
-
-## Bottom line
 
 Hugo fits **personal publishing with technical comfort:** Markdown, Git, hatred of monthly hosting bills for static pages.
 

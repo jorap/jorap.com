@@ -73,10 +73,4 @@ It's in my **travel bag** too - same pouch as the charger - because a dead batte
 - **Replace** anything with cracked plastic, bent prongs, or a warm smell
 - **Don't treat it as a doorstop** - foot traffic kills the outer jacket over time
 
----
-
-## Bottom line
-
-For a laptop, a short extension cord is boring gear that actually gets used. You want about **2 metres** and a plug shape that fits tight spaces.
-
-Buy once, leave it in the bag, and stop crawling to the outlet behind the bed.
+For a laptop, a short extension cord is boring gear that actually gets used. About **2 metres**, flat plug, leave it in the bag - and stop crawling to the outlet behind the bed.

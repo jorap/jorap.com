@@ -61,9 +61,6 @@ Solo blogger. Developer who already lives in Git. Client who happily emails copy
 
 Also skip when the job needs real CMS features - member areas, ecommerce, complex workflows. [Static vs CMS](/blog/static-site-vs-cms/) still applies. Sveltia doesn't make Hugo into WordPress.
 
----
-
-## Bottom line
 
 Sveltia CMS solves the **Hugo accessibility gap** for non-technical editors.
 

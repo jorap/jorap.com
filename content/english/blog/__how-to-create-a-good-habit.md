@@ -21,88 +21,45 @@ draft: true
 
 I don't need another motivational poster about discipline. I need **systems that make the right thing the default** - especially on tired weekdays when willpower clocks out early.
 
-James Clear's *Atomic Habits* gave me language that stuck. Four laws for building habits. Four inversions for breaking them.
+James Clear's *Atomic Habits* gave me language that stuck. I don't quote the book at dinner. I use four moves when something keeps not happening.
 
 ---
 
-## Build a good habit
+## What I actually do with the four laws
 
-### 1st law (Cue): Make it obvious
+**Make it obvious.** I don't "try to blog more." I **open the Hugo draft folder after breakfast** - same chair, same mug, same folder. The cue is boring on purpose. Boring cues fire.
 
-Habits start with a trigger you can't miss.
+**Make it attractive.** Podcast only on walks. Guitar on a stand, not in the case. If the start feels like a chore, I won't start.
 
-- **Stack habits:** "After I pour coffee, I open my notes."
-- **Environment design:** Gym shoes by the door, guitar on a stand not in a case
-- **Implementation intention:** "At 7 AM, I walk 10 minutes" beats "I'll walk more"
+**Make it easy.** "Write 20 minutes" not "finish the post." "Read one page" not "read thirty." The two-minute version is how I trick tired-me into beginning.
 
-If the cue is hidden, the habit is theoretical.
-
-### 2nd law (Craving): Make it attractive
-
-We repeat what feels rewarding **before** the long-term payoff.
-
-- Pair the habit with something you enjoy (podcast only while walking)
-- Join a culture where the behavior is normal
-- Reframe: "I get to" instead of "I have to"
-
-### 3rd law (Response): Make it easy
-
-Friction kills more habits than laziness.
-
-- **Two-minute version:** "Read one page" not "read 30 pages"
-- Prep the environment tonight for morning-you
-- Remove steps between you and the start
-
-### 4th law (Reward): Make it satisfying
-
-Immediate feedback loops matter.
-
-- Track streaks on a calendar you see
-- Small celebratory finish (tea after the task, not cake every time)
-- Never miss twice - one slip is human; two is a new pattern
+**Make it satisfying.** Calendar X for days I showed up. Not a streak app - a paper calendar on the wall I see when I get coffee. Visual beats virtuous.
 
 ---
 
-## Break a bad habit
+## Breaking a bad habit (phone example)
 
-Invert each law:
+I inverted the same laws for late-night scrolling:
 
-| Build | Break |
-|---|---|
-| Make it obvious | **Make it invisible** - remove cues |
-| Make it attractive | **Make it unattractive** - highlight costs |
-| Make it easy | **Make it difficult** - add friction |
-| Make it satisfying | **Make it unsatisfying** - immediate consequences |
+- Charger in the kitchen, not bedside (**invisible cue**)
+- Grayscale after 9 PM (**less attractive**)
+- Logged out of the apps I doom-scroll (**friction**)
+- Alarm across the room (**annoying snooze path**)
 
-**Example - late-night phone scrolling:**
-
-- Charger in the kitchen, not bedside (invisible cue)
-- Grayscale mode after 9 PM (less attractive)
-- Log out of apps (friction)
-- Alarm across the room (unsatisfying snooze path)
-
----
-
-## Process beats outcome obsession
-
-Clear's line I keep on my wiki: **optimize for outcome, you win once. Optimize for process, you can win again and again.**
-
-I don't "try to blog more." I **write 20 minutes after breakfast** - obvious cue, easy bar, calendar X for satisfaction.
+Did it fix everything? No. Did it cut the worst nights? Yes.
 
 ---
 
 ## Where I still fail
 
-Grand habit overhauls. I still sometimes design a perfect morning routine with eleven steps and collapse by Wednesday.
+Grand habit overhauls. I still design a perfect morning routine with eleven steps and collapse by Wednesday.
 
-Smaller laws work better: **one habit, one environment tweak, one tracker.**
+What works: **one habit, one environment tweak, one tracker.** I added the breakfast writing cue after I stopped trying to fix sleep, exercise, and inbox at the same time.
+
+Clear's line I keep in my notes: optimize for outcome, you win once. Optimize for process, you can win again and again.
 
 ---
 
-## Bottom line
-
-Good habits aren't character flaws vs virtues. They're **design problems** - cues, friction, reward.
+Good habits aren't character tests. They're **design problems** - cue, friction, reward.
 
 Make the good thing obvious and easy. Make the bad thing invisible and annoying. Repeat until it's boring.
-
-*Expanded from [How to Create a Good Habit](https://ideas.jorap.com/) on [ideas.jorap.com](https://ideas.jorap.com/).*

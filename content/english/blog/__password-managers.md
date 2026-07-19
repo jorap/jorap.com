@@ -1,7 +1,7 @@
 ---
 title: "Password Managers"
 meta_title: "Why I Use Bitwarden (and a Password Manager at All)"
-description: "Reused passwords are a bigger risk than most malware. Here's why I use a password manager, what I looked for, and why Bitwarden keeps winning for me."
+description: "I reused one password for years until a site leak scared me straight. Bitwarden on every family phone now - one afternoon to migrate, boring ever since."
 slug: "password-managers"
 date: "2026-06-18T06:08:00Z"
 image: "/images/image-template.jpg"
@@ -19,77 +19,58 @@ featured: false
 draft: true
 ---
 
-If you use one password everywhere, you're not avoiding hassle - you're **stockpiling a single key that opens everything** when one site leaks.
+I used the same password on half the internet for years. Not because I didn't know better - because changing fifty logins felt like a weekend I'd never get back.
 
-A password manager is the most boring, highest-return security upgrade I've made in years. Not antivirus theater. Not a VPN for grocery shopping. **Unique passwords, everywhere, without memorizing them.**
-
----
-
-## What a password manager does
-
-- Stores logins in an **encrypted vault**
-- Generates long random passwords per site
-- Autofills on desktop and phone
-- Syncs across devices (if you want cloud sync)
-
-You remember **one strong master password** (plus 2FA on the vault itself). The manager remembers the rest.
+Then a site I forgot I had an account on showed up in a breach email. Nothing catastrophic happened. That wasn't the point. **One leak, one password, every door** - I finally felt how dumb the shortcut was.
 
 ---
 
-## What I looked for
+## What I actually use
 
-| Criteria | Why |
-|---|---|
-| **Open source** | Auditable crypto; less black-box trust |
-| **Cross-platform** | Windows, Android, browser extensions |
-| **Family sharing** | Shared household logins without sticky notes |
-| **Price** | Free tier that's actually usable |
-| **Export** | I'm not trapped if I leave |
+**Bitwarden** on my laptop, phone, and browser. Family plan so Pia has her own vault and we share the household logins (streaming, utilities) without texting passwords in Messenger.
 
----
+I picked it because it's open source, the free tier was enough to try, and I could export everything if I wanted to leave. I haven't wanted to leave.
 
-## Why Bitwarden
+KeePass people will tell you local-only is purer. They're not wrong. I wanted sync that didn't require me to babysit a file on Dropbox. Bitwarden won on **low friction for the whole house.**
 
-**Bitwarden** is what I use and what I put on family phones. Open source, reasonable free tier, paid family plan if you need it, works everywhere I care about.
-
-Alternatives people swear by:
-
-- **KeePass / KeeWeb** - local-first, more DIY
-- **1Password** - polished, paid
-- **LastPass** - I don't recommend starting here post-breach history; check current reviews if you're comparing
-
-Lists I referenced when choosing:
-
-- [Open source password managers](https://fosspost.org/open-source-password-managers/)
-- [Best password managers for Chrome](https://www.safetydetectives.com/best-password-managers/chrome/)
-- [Best free password managers](https://www.safetydetectives.com/blog/the-best-free-password-managers/)
+1Password is polished if you're already paying for polish. LastPass had its breach moment - I wouldn't start there today.
 
 ---
 
-## Setup habits that matter
+## The migration afternoon
 
-1. **Master password** - long passphrase you'll remember; never reuse
-2. **2FA on the vault** - authenticator app, not SMS if you can help it
-3. **Migrate top 20 sites first** - email, bank, social, shopping
-4. **Change reused passwords** as you go - don't wait for perfection
-5. **Emergency access** - family knows how to reach vault if needed
+I didn't move everything at once. That way lies quitting at login number thirty.
 
----
+**Top twenty first:** email, bank, GCash, social, the shopping sites I actually use. Generate a new random password for each. Save. Move on.
 
-## Objections I hear
+**Master password:** a long passphrase I can say out loud once and type without thinking. Not a clever string of symbols I'll forget in a month.
 
-**"What if they get hacked?"** Vaults are encrypted client-side; master password matters. Still: 2FA, strong master, keep software updated.
+**2FA on the vault itself:** authenticator app on my phone. SMS is better than nothing; app is better than SMS.
 
-**"Too much setup."** One afternoon. Cheaper than one account takeover.
+**Emergency access:** Pia knows the master exists and where the recovery codes live. Morbid, useful.
 
-**"I trust my browser."** Browser save is better than `password123`. It's not cross-device, shared-login, or audit friendly like a real manager.
+The annoying part wasn't Bitwarden. It was every site that wanted email verification before it would let me change the password. Budget an afternoon. Bring snacks.
 
 ---
 
-## Bottom line
+## What broke along the way
 
-Password managers aren't paranoia. They're **hygiene** - like locking your door.
+- **Autofill fighting the browser.** Chrome wanted to save passwords too. I turned browser save off for new logins so I wasn't double-storing garbage.
+- **Shared Netflix-style logins.** Family sharing in Bitwarden fixed the "what's the password again?" thread. Worth the paid tier by itself.
+- **Old me still typing the old password.** Muscle memory dies slow. The manager filling the field is the whole point - stop typing.
 
-Pick one reputable option, migrate your critical logins this week, and stop recycling passwords because your brain isn't a spreadsheet.
+---
 
-*Expanded from [Password Managers](https://ideas.jorap.com/) on [ideas.jorap.com](https://ideas.jorap.com/).*
+## "What if Bitwarden gets hacked?"
+
+The vault is encrypted before it leaves your machine. They'd get blobs, not your logins - **if** your master password is strong and your vault has 2FA.
+
+That's not "don't worry about anything." That's **don't reuse passwords** and **don't pick a weak master** because you're tired.
+
+Browser password save is better than `password123`. It's not cross-device, not shareable with family, and I can't audit what's reused from one screen.
+
+---
+
+I still forget passwords sometimes - I forget which *account* I'm in, not the string. The manager handles the string. My job is one good master and not skipping 2FA because it's Tuesday.
+
+If you're still recycling one password everywhere, pick a manager this week, migrate your email and bank first, and stop pretending your brain is a spreadsheet.

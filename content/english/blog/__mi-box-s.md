@@ -56,16 +56,16 @@ And if your wifi is weak at the TV, no box saves you. Ethernet adapters exist fo
 
 **Good fit:**
 
-- Your TV's built-in OS is slow or abandoned
-- You want cheap 4K streaming without a full console
-- You like Chromecast and Android TV in one box
-- You need a spare streaming device for a bedroom or guest room
+- TV's built-in OS is slow or abandoned
+- Cheap 4K streaming without a full console
+- Chromecast and Android TV in one box
+- Spare streaming device for a bedroom or guest room
 
 **Skip it if:**
 
-- You want a do-everything media server box
-- You need Apple TV ecosystem integration
-- You hate fiddling with occasional app quirks on budget hardware
+- Do-everything media server box - wrong device
+- Apple TV ecosystem lock-in - wrong box
+- Zero tolerance for budget-hardware app quirks
 
 ---
 
@@ -75,12 +75,8 @@ Keep the app list short. Pin the four things we actually watch. Disable whatever
 
 If the TV has multiple HDMI inputs, **label the input "Mi Box"** so nobody has to play port roulette.
 
----
-
-## Bottom line
 
 The Mi Box S is not the best streaming device money can buy. It's one of the better **value** picks - a practical Android TV box that makes a dumb TV feel modern without pretending to be a home theater PC.
 
 For our living room, that's exactly the job it was hired to do.
 
-*Idea captured from [ideas.jorap.com](https://ideas.jorap.com/).*

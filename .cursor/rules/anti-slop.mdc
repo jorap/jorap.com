@@ -1,0 +1,66 @@
+---
+description: Anti-AI-slop rules for blog posts and notes garden. Use when drafting, rewriting, or publishing content under content/english/blog/ or content/english/notes/.
+globs:
+  - content/english/blog/**
+  - content/english/notes/**
+---
+
+# Anti-slop (blog + notes)
+
+Structural slop is caught by `pnpm lint:slop` / `pnpm slop:scan` (`data/slop-rules.yaml`). Vocabulary slop is caught by `pnpm lint:voice` (`data/voice-words.yaml`).
+
+## Blog — hard blocks before `draft: false`
+
+- Delete `Expanded from` / `Idea captured from ideas.jorap.com` footers — wiki exports are outlines until rewritten.
+- Replace `image-template.jpg` with a real hero image.
+- Body must be at least 80 words of real prose.
+- Run jorap-voice passes #1 Lived-In, #2 Strip AI Tells, #5 Sharper POV on every edit.
+
+## Blog — rewrite on sight
+
+- Generic openers: dictionary definitions, "Here's everything you need to know", "When it comes to".
+- Third-person advice: `users should`, `one might`, `it is recommended` → `I`, `I'd`, `Skip`.
+- Summary sandwiches: announce → say → restate. Say it once.
+- Parallel bullet drones: three bullets starting with the same verb (Ensures / Provides / Delivers).
+- `## Further reading` link farms (3+ URLs). One line + max 2 links, or cut.
+- `## Bottom line` on opinion, faith, family, or games posts. End on what you'd actually do.
+
+## Blog — required human markers
+
+- One specific per major section: duration, model, place, date, failure, annoyance.
+- One take: what YOU do — not what "one should consider".
+- Visible thinking somewhere: near-miss, tradeoff, or honest doubt — then land the pick.
+
+## Notes garden — hard blocks
+
+- No `users should` / `one might` / `it is recommended` in `description`, `key_concept`, `examples`, `shareable_thought`, `cards`, or `relationships.reason`.
+- `key_concept` line 1 is a claim you'd argue — not "This is a framework for…".
+- Run garden-voice de-AI pass + `pnpm lint:voice` + `pnpm lint:slop` before finishing.
+
+## Notes — shape reminders
+
+- `description`: third-person, one breath, no wikilinks, no contractions.
+- `key_concept`: plain claim first, then 2–4 tight sentences, then wikilink stack.
+- `examples`: two scenes that feel different — one sentence each.
+- `shareable_thought`: exactly four complete thoughts, paste-ready alone.
+
+## Publish checklist
+
+```bash
+pnpm lint:blog && pnpm lint:voice && pnpm lint:slop
+```
+
+For notes: `pnpm lint:garden` (includes slop + garden-voice).
+
+## Reference voice (blog)
+
+- `content/english/blog/what-i-look-for-in-wireless-earphones.md`
+- `content/english/blog/why-i-stopped-playing-marvel-snap.md`
+- `content/english/blog/mouse-wheel-click.md`
+- `content/english/blog/miracle-isaiah-david.md`
+
+## Reference voice (notes)
+
+- `content/english/notes/capture.md`
+- `content/english/notes/rollback-principle.md`
+- `content/english/notes/abide-in-me.md`

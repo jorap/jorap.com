@@ -69,12 +69,8 @@ If you're careful, insured, and live somewhere with easy phone repair, you might
 
 I still like the **instant swap** - SIM out, SIM in, back online in ten minutes without borrowing hardware.
 
----
-
-## Bottom line
 
 A second cellphone isn't about having more gadgets. For me it's about **separating daily-driver chaos from the apps I don't want on that screen** - and having a swap-ready phone in the drawer if the main one dies.
 
 Cheap Android, older iPhone, whatever fits your ecosystem - the model matters less than knowing which phone holds what, and charging it before you forget it exists.
 
-*Idea captured from [ideas.jorap.com](https://ideas.jorap.com/).*

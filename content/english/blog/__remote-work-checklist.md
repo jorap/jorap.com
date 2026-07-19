@@ -19,72 +19,54 @@ featured: false
 draft: true
 ---
 
-Remote work isn't only meetings and wifi. It's **whether your neck hurts by lunch** and whether you remembered the one cable that makes the laptop alive.
+Remote work isn't only meetings and wifi. It's whether your neck hurts by lunch and whether you remembered the one cable that makes the laptop alive.
 
-This is the checklist from my notes - the bag I pack when working from a café, client site, or anywhere that isn't my desk at home.
+I learned that the hard way at a café in Biñan - laptop at 4%, outlet behind a booth I couldn't reach, trackpad for a two-hour spreadsheet block. Never again. This is the bag checklist I run before I walk out now.
 
 ---
 
-## The checklist
+## What lives in the bag
 
-| Item | Why it matters |
+| Item | Why I stopped leaving without it |
 |---|---|
 | **Laptop** | Obvious until it isn't on the table |
-| **Laptop power cord** | The most forgotten item in history |
-| **Keyboard** | Laptop keyboards are fine until you type all day |
+| **Power cord** | Dedicated bag cord - never lives on the desk only |
+| **Keyboard** | Laptop keyboard is fine for an hour, not for six |
 | **Mouse** | Trackpads and long spreadsheets are enemies |
-| **Laptop stand** | Screen at eye height saves your neck |
-| **Mat** | Mouse surface when the table is glossy or tiny |
-| **Extension cord** | Outlets are always on the wrong wall |
-| **USB fan** | Hot rooms, long sessions, quiet sanity |
+| **Laptop stand** | Eye height for calls *and* posture |
+| **Mouse mat** | Glossy café tables are terrible surfaces |
+| **Extension cord** | Outlets are always on the wrong wall ([full rant here](/blog/extension-cord/)) |
+| **USB fan** | Afternoon meetings in a hot room, no AC |
+
+The power cord rule is the one that saved me most: **if it only lives on the desk, I will forget it in the bag.** The bag cord never comes upstairs.
 
 ---
 
-## Why each one earns a slot
+## Longer trips - what I add
 
-**Power cord** - I have a dedicated bag cord that never lives on the desk. If it's only in one place, I can't forget it in two.
-
-**Keyboard + mouse** - an hour on a laptop keyboard is fine. Six hours is a wrist complaint waiting to happen. My preferences are boring and full-size.
-
-**Stand** - elevates the camera angle for calls *and* fixes posture. Two jobs, one item.
-
-**Mat** - hotel desks and café tables are terrible mouse pads. A thin mat folds into the bag.
-
-**Extension cord** - see my extension cord post: the outlet behind the bed is universal law.
-
-**USB fan** - not luxury in a tropical country with afternoon meetings. Quiet USB fan > sweating on camera.
+- **Earphones with a real mic** - half the pairs I own sound fine to me and terrible on Meet
+- **HDMI adapter** - client TVs still exist
+- **Paper notebook** - when wifi dies, the meeting might not
+- **Backup battery** - only if I know I'll be out all day with no reliable outlet
 
 ---
 
-## What I add for longer trips
+## Five-minute pre-flight
 
-- **Second phone** or backup battery if calls matter
-- **Headset / earphones** with a mic that won't embarrass you on Meet
-- **HDMI adapter** if presenting on a TV
-- **Paper notebook** - when the wifi dies, the meeting might not
-
----
-
-## Pre-flight ritual (5 minutes)
-
-1. Laptop charged to 100%
-2. Cord, mouse, stand in the bag - visual check
-3. Calendar open - do I need HDMI or just coffee?
-4. Downloads synced - don't rely on café bandwidth for big files
-5. Fan charged if it's battery-powered
+1. Laptop at 100% - cord is backup, not the plan
+2. Visual bag check: cord, mouse, stand, mat - I tap each pocket
+3. Calendar scan: presenting today? HDMI. Coffee only? skip it
+4. Big files downloaded - café wifi is not my CDN
+5. Fan charged if it's the battery kind
 
 ---
 
-## What stays at home
+## What stays home
 
-Full-size monitor, desk chair, printer - the **home anchor**. Remote days are for portable adequacy, not duplicating the whole office.
+Monitor, desk chair, printer - the **home anchor**. Remote days are portable adequacy, not duplicating the office. I'd rather pack light and suffer one missing item once than haul a monitor I use twice a year.
 
 ---
 
-## Bottom line
+I still forget things. Last month I left the mouse mat and used a notebook under the sensor like a caveman. The checklist doesn't make me perfect - it makes "forgot the cord" rare instead of monthly.
 
-Remote work quality is mostly **friction removal**. This checklist is how I stop losing mornings to forgotten cords and bad posture.
-
-Print it, pin it, or toss it in a TiddlyWiki tiddler - whatever means you'll actually run it before you walk out the door.
-
-*Expanded from [Remote Work Checklist](https://ideas.jorap.com/) on [ideas.jorap.com](https://ideas.jorap.com/).*
+Print it, pin it, or keep it in your notes app. Whatever means you'll actually run it before the jeepney leaves without you.

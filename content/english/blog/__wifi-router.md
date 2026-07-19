@@ -87,4 +87,3 @@ If I'm shopping for a home wifi router today, I scan for:
 
 If my router died tomorrow, I'd map the house first, check what's still getting security updates, and buy for **coverage and calm** - not the biggest number on the box. The internet coming into the house is only as good as the wifi that actually reaches your chair.
 
-*Idea captured from [ideas.jorap.com](https://ideas.jorap.com/).*

@@ -81,9 +81,6 @@ Rule of thumb: **third time you paste the same HTML block, make a shortcode.**
 
 Alert boxes, button links, responsive embeds, author bios - anything that might change site-wide. Markdown writers keep writing; theme maintainers keep one template.
 
----
-
-## Bottom line
 
 Shortcodes are the DRY layer between "I write posts" and "I maintain a theme." I didn't build many custom ones - Hugoplate shipped the heavy lifting. The few I added paid for themselves the first time an embed format changed.
 

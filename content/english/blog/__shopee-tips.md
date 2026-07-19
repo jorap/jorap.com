@@ -96,12 +96,8 @@ The goal isn't free shipping at all costs. It's **not paying courier prices that
 - **Save reliable shops** instead of re-searching from scratch every time
 - **Use ShopeePay / linked payment carefully** - convenience shouldn't mean tap-first, think-never
 
----
-
-## Bottom line
 
 Shopee rewards patience and punishes impulse. Local sellers, bundled shipping, and reviews with photos beat any flashy banner.
 
 The app will always try to make you scroll. These filters are how I shop like I mean it - and close the app when I'm done.
 
-*Idea captured from [ideas.jorap.com](https://ideas.jorap.com/).*

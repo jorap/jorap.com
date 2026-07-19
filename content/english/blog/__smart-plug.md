@@ -84,12 +84,8 @@ Before I buy another smart plug:
 
 If I can't answer yes to the first three, I skip it.
 
----
-
-## Bottom line
 
 Smart plugs are boring technology in the best way. They don't impress anyone at a party. They just quietly remove small daily friction - lights, fans, worry - for the cost of a nice lunch.
 
 That's enough for me to keep a few in every room that needs one.
 
-*Idea captured from [ideas.jorap.com](https://ideas.jorap.com/).*

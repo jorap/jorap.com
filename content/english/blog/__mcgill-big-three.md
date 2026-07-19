@@ -96,12 +96,8 @@ Simple circuit, 2-3 rounds:
 - [Stuart McGill's Big Three overview](https://www.chirocentre.com.au/stuart-mcgills-big-three-low-back-exercises/)
 - [McGill Big 3 for core stability](https://northernnevadachiropractic.com/blog/back-pain-prevention/the-mcgill-big-3-exercises-for-core-stability/)
 
----
-
-## Bottom line
 
 Low back care doesn't have to mean fancy equipment. **Curl-up, side plank, bird dog** - done consistently, with form over heroics.
 
 Bookmark the demos, run the circuit, go sit down again with a slightly more honest spine.
 
-*Expanded from [Stuart McGill's Big Three](https://ideas.jorap.com/) on [ideas.jorap.com](https://ideas.jorap.com/).*
