@@ -9,7 +9,6 @@ key_concept: |
 examples:
   - "The clinic front desk runs the laminated triage sheet taped by the phone when three walk-ins arrive - one script, no guessing."
   - "Our family fire plan is one fridge page: two exits, meeting spot, who grabs the baby - last blackout, my kid ran it half-asleep."
-  - "I picked Inter from Refactoring UI once and stopped reopening the font question every new layout - hierarchy by weight, not a second typeface hunt."
 shareable_thought:
   - "A reliable default is the simple rehearsed move that runs when thinking is thin."
   - "Build it before the crisis, not during it."
@@ -60,4 +59,3 @@ cards:
     back: "One page, rehearsed - nobody guessed."
 draft: false
 ---
-

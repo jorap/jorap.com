@@ -5,19 +5,15 @@ description: "The vault is the garage for scraps and experiments - the blog is t
 key_concept: |
   - The garage holds tools, scraps, experiments. The showroom is the blog. I do not confuse the two.
   - Client pass-off uses the same split: [[Selling Static Sites]] workshop in my drafts; the client's deploy branch is the showroom on [[Free Tier Hosting Stack]].
-  - My vault is the garage for scraps and experiments.
-  - The blog is the showroom, and I keep them separate.
-  - The garage concept splits showroom and workshop - the blog is the showroom, drafts are the garage.
   - One capture habit, one publish pipe - garage to garden to push, not two note apps fighting over the same idea.
 examples:
   - "The practice film library is messy; the highlight reel for parents is one clean cut - garage holds scraps, showroom shows the finished piece."
   - "The garage holds half-finished projects and sawdust; the front porch shows the one bench I would invite a neighbor to sit on."
-  - "Private captures stay in the garage; Hugo builds the public garden - same markdown, one direction, no second vault to sync."
 shareable_thought:
-  - "My vault is the garage for scraps and experiments."
-  - "The blog is the showroom, and I keep them separate."
-  - "The garage holds tools, scraps, experiments."
-  - "The showroom is the blog."
+  - "The vault is the garage for scraps and experiments - the blog is the showroom, kept separate."
+  - "The garage holds tools, scraps, experiments. The showroom is the blog. I do not confuse the two."
+  - "One capture habit, one publish pipe - garage to garden to push, not two note apps fighting over the same idea."
+  - "Client pass-off uses the same split: Selling Static Sites workshop in my drafts."
 relationships:
   - type: contradicts
     wikilink: "[[Drafting in Public]]"
@@ -55,4 +51,3 @@ cards:
     back: "Porch shows the finished piece only."
 draft: false
 ---
-

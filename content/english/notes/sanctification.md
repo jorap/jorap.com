@@ -25,7 +25,7 @@ shareable_thought:
   - "After God declares me righteous, he keeps shaping my habits and heart."
   - "Sanctification is growth after faith - not the ticket that got me in the door."
   - "Christlikeness names the aim; sanctification names the slow walk after standing was settled."
-  - "Discipleship is the daily walk with Jesus - hearing and doing what He said, not a one-time decision filed away."
+  - "Discipleship is the daily walk with Jesus - not a one-time decision I filed and forgot."
 relationships:
   - type: alternative
     wikilink: "[[There Is No Perfect Solution]]"
@@ -115,5 +115,3 @@ cards:
     back: "Daily sanctification - not one sprint."
 draft: false
 ---
-
-

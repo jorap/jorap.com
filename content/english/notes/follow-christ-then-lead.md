@@ -4,10 +4,9 @@ meta_title: "Follow Christ, Then Lead - When the Seats Collide"
 description: "When leadership pressure and Christ command collide, follow Christ first - then lead from that footing."
 key_concept: |
   {{< bible ref="Luke 9:23-24" emphasize="23" >}}
-
-  - When the captain's chair and Christ's command pull opposite ways, I deny the shortcut first - [[Take Up Your Cross]] before I set pace for the room.
-
-  - Follow Christ first when leadership pressure collides with His command - then lead from that footing.
+  
+  - When the captain's chair and Christ's command pull opposite ways, I deny the shortcut first.
+  - [[Take Up Your Cross]] before I set pace for the room.
   - [[Discipleship]] vs [[Leadership]] names two seats - upward allegiance and outward care.
   - [[God Centered Design]] asks who the plan ultimately serves before I optimize the slide.
   - [[Ethical Leadership]] is what the team can see - but visible integrity without private obedience is sand.
@@ -19,9 +18,9 @@ examples:
   - "Sunday school asked me to skip the hard verse because parents might leave - I taught it plain anyway, then stayed after to answer questions - follow first, lead the room second."
 shareable_thought:
   - "When leadership pressure and Christ's command collide, I follow Christ first - then lead from that footing."
-  - "Discipleship is who I follow upward; leadership is who looks to me for direction and care."
-  - "Running the standup is not the same as obeying Christ when nobody is watching."
+  - "Discipleship vs Leadership names two seats - upward allegiance and outward care."
   - "God Centered Design asks who the plan ultimately serves before I optimize the slide."
+  - "Ethical Leadership is what the team can see - but visible integrity without private obedience is sand."
 relationships:
   - type: alternative
     wikilink: "[[Outcomes Over Pitch Decks]]"
@@ -75,5 +74,3 @@ cards:
     back: "Kingdom first - lead from that footing."
 draft: false
 ---
-
-

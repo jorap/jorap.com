@@ -49,7 +49,7 @@ card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Shared drive chaos for months and another IT ticket will not help. What's my move?"
     back: "Rename folders, post a one-page map - own my slice."
-  - front: "Coach hasn't fixed my defense and game night is close. Waiting or acting?"
+  - front: "Coach hasn't fixed my defense and game night is close. What's my move?"
     back: "Ask for ten minutes footwork after practice - my gap."
   - front: "Meeting ended with 'leadership will decide.' What's own-your-part?"
     back: "Move what I can in my lane before the memo."
@@ -57,6 +57,3 @@ cards:
     back: "Change my pass-off - do not wait for headquarters."
 draft: false
 ---
-
-
-

@@ -3,7 +3,6 @@ title: "Steward After the Win"
 meta_title: "Steward After the Win - Keep Using the Gift"
 description: "An early win is entrusted, not a license to coast - keep using the gift through the quiet tail."
 key_concept: |
-  - An early win is entrusted, not a license to coast through the boring middle.
   - Launch day, promotion email, traffic spike - the temptation is to act like the hard part is done.
   - [[Success is Stewardship]] says the win was entrusted: keep tending, sharing, and serving through the boring middle, not coast on what landed.
   - Gospel depth lives in [[Faithful Steward]] - well done for faithful use over years, buried talent for playing it safe after one good season.
@@ -26,6 +25,9 @@ relationships:
     wikilink: "[[The Collector's Fallacy]]"
     reason: "when I celebrate the save pile instead of the next ship"
   - type: extends
+    wikilink: "[[Complete the Cycle]]"
+    reason: "Steward promises through the boring middle"
+  - type: extends
     wikilink: "[[Compounding]]"
     reason: "Faithful use after the spike still stacks on quiet Tuesdays"
   - type: extends
@@ -34,9 +36,6 @@ relationships:
   - type: extends
     wikilink: "[[Finish Strong]]"
     reason: "Win is mid-game - close the tail, do not stop at halftime"
-  - type: extends
-    wikilink: "[[Complete the Cycle]]"
-    reason: "Steward promises through the boring middle"
   - type: extends
     wikilink: "[[Servant Leadership]]"
     reason: "Promotion win - keep serving the team, not grabbing credit"
@@ -71,5 +70,3 @@ cards:
     back: "Steward the middle - do not coast."
 draft: false
 ---
-
-

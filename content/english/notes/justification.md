@@ -31,7 +31,7 @@ shareable_thought:
   - "God declared me righteous at faith - before my obedience caught up."
   - "The tax collector went home justified because he humbled himself before God, not because he outperformed the Pharisee."
   - "Paul names the verdict: justified as a gift by grace, Christ's redemption, not my performance."
-  - "Confession restores fellowship when I sin - it does not re-buy the standing faith already settled."
+  - "Confession restores fellowship, it does not re-buy heaven."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"
@@ -88,5 +88,3 @@ cards:
     back: "Standing settled at faith - confess, keep walking."
 draft: false
 ---
-
-

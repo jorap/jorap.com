@@ -10,7 +10,6 @@ key_concept: |
 examples:
   - "I tagged every note with twelve labels and used none on search - cut to five I would actually pick."
   - "The team wiki had forty categories; new hires filed everything under Misc within a week."
-  - "Hugo post frontmatter holds title and date; the essay body is just Markdown - I treat YAML like the shipping label, not the package."
 shareable_thought:
   - "If tagging a note takes longer than writing it, my system is fighting me."
   - "Tags, categories, dates, aliases - metadata should help me find notes, not become a second job."
@@ -46,4 +45,3 @@ cards:
     back: "Plain words - not a second job of tags."
 draft: false
 ---
-

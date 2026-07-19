@@ -9,7 +9,6 @@ key_concept: |
   - Success is not ownership - it is stewardship of what I was given: time, health, platform, money, influence.
   - [[Free Grace]] settled where I spend forever; stewardship settles what I do with the gifts after.
   - [[Faithful Steward]] is the parable Jesus told - well done for faithful use, buried talent rebuked.
-  - This note is the headline above the parable: promotion, audience, and a good season are entrusted, not trophies I earned to keep.
   - [[Eternal Rewards]] names repayment; [[Judgment Seat]] names the review.
   - Workplace mirrors: [[Servant Leadership]], [[Share What You Learn]], [[Integrity Without an Audience]] - use the slot for the team, not ego.
   - PKM mirror: [[Creative Output]] and [[Digital Garden]] - notes hoarded help nobody; [[The Collector's Fallacy]] is burying the talent in bookmarks.
@@ -19,8 +18,8 @@ examples:
 shareable_thought:
   - "Success is borrowed - I am accountable for how I use what I was given, not entitled to keep it forever."
   - "Success is not ownership - it is stewardship of what I was given: time, health, platform, money, influence."
-  - "Gospel depth lives in Faithful Steward."
-  - "Well done for faithful use, buried talent rebuked."
+  - "Faithful Steward is the parable Jesus told - well done for faithful use, buried talent rebuked."
+  - "Promotion and platform are entrusted for faithful use - enter the master's joy, do not bury the talent in ego."
 relationships:
   - type: alternative
     wikilink: "[[Drafting in Public]]"
@@ -34,6 +33,9 @@ relationships:
   - type: extends
     wikilink: "[[Accountability]]"
     reason: "Stewardship names who answers for how the gift gets used"
+  - type: extends
+    wikilink: "[[Complete the Cycle]]"
+    reason: "Steward promises through the tail"
   - type: extends
     wikilink: "[[Compounding]]"
     reason: "Faithful use of entrusted gifts stacks over quiet Tuesdays"
@@ -55,9 +57,6 @@ relationships:
   - type: extends
     wikilink: "[[Finish Strong]]"
     reason: "Steward the tail end, not only the exciting start"
-  - type: extends
-    wikilink: "[[Complete the Cycle]]"
-    reason: "Steward promises through the tail"
   - type: extends
     wikilink: "[[Free Tier Hosting Stack]]"
     reason: "Steward the build budget on borrowed infra"
@@ -134,5 +133,3 @@ cards:
     back: "Ownership - steward what lasts, not rented land."
 draft: false
 ---
-
-

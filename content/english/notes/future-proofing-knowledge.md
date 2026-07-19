@@ -3,20 +3,17 @@ title: "Future-Proofing Knowledge"
 meta_title: "Future-Proofing Knowledge - Boring Formats Win"
 description: "Future-proof notes with plain text, open tools, and exports tested before a vendor locks you in."
 key_concept: |
-  - Future-proofing knowledge uses plain text, open tools, and exports tested before a vendor locks you in.
-  
   - Future-proofing is not predicting tech - it is plain text, open tools, and exports you test before you need them.
   - [[Free Tier Hosting Stack]] client repos are markdown in git - portable if Cloudflare disappears; content survives, hosting is swappable.
   - Freedom over free - install without permission, read the source when docs lie, move files when the host dies.
 examples:
   - "Our family contacts list is plain text on the fridge backup folder - I copy it twice a year so future-proof is not just a vibe."
-  - "My notes live as plain text I can open anywhere; I test the backup drive before I need it, not after an app dies."
   - "Old PHP hosting died and the posts were trapped - markdown in git meant I could point the repo somewhere else, not pray for an export."
 shareable_thought:
   - "Future-proof notes with plain text, open tools, and exports tested before a vendor locks you in."
-  - "Future-proofing knowledge uses plain text, open tools, and exports tested before a vendor locks you in."
-  - "Future-proofing is not predicting tech."
-  - "It is plain text, open tools, and exports you test before you need them."
+  - "Future-proofing is not predicting tech - it is plain text, open tools, and exports you test before you need them."
+  - "Freedom over free - install without permission, read the source when docs lie, move files when the host dies."
+  - "Client repos are markdown in git - portable if Cloudflare disappears; content survives, hosting is swappable."
 relationships:
   - type: contradicts
     wikilink: "[[Building a Personal API]]"
@@ -51,4 +48,3 @@ cards:
     back: "Index cards in a tin - portable either way."
 draft: false
 ---
-

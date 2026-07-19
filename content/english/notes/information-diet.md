@@ -8,7 +8,6 @@ key_concept: |
 examples:
   - "I dropped two commute podcasts that only made me angry at strangers - information diet is curating inputs, not swallowing whatever the algorithm serves."
   - "I unfollowed three outrage sports accounts and pre-game was not ruined before warm-up."
-  - "Facebook's Favorites feed is fifteen people I picked - finite, done in five minutes, no infinite scroll hole."
 shareable_thought:
   - "I choose feeds on purpose because algorithm defaults are not neutral."
   - "Choose what you consume on purpose - feeds are not neutral."
@@ -45,8 +44,5 @@ cards:
     back: "Unfollow - choose what I consume."
   - front: "Morning ruined by outrage accounts before breakfast again. What's the diet move?"
     back: "Unfollow - curate the feed on purpose."
-  - front: "Still need Messenger but the main Facebook feed eats twenty minutes. Finite option?"
-    back: "Favorites feed - fifteen people, scroll done in five."
 draft: false
 ---
-

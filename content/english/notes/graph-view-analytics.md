@@ -4,7 +4,6 @@ meta_title: "Graph View Analytics - What the Graph Actually Tells You"
 description: "Graph view analytics reads the link map for orphans, over-connected hubs, and forgotten gaps."
 key_concept: |
   - Graph view analytics reads the link map for orphans, over-connected hubs, and gaps forgotten.
-  
   - The link map shows notes with no links, notes with too many, and gaps forgotten to connect.
   - Read the graph for orphans and over-linked hubs before they skew the garden.
   - Orphan notes and over-linked hubs both signal a graph that needs pruning.
@@ -12,10 +11,10 @@ examples:
   - "I laid out the shift-change chart and three tasks had zero arrows to an owner - the orphan list was my fix-this-week, not a pretty poster."
   - "I laid out the kids' chore chart and three jobs had zero arrows to anything else - nobody knew who checked them; that gap list was my fix-this-week."
 shareable_thought:
-  - "Graph view analytics reads the link map for orphans, over-connected hubs, and forgotten gaps."
-  - "Orphan notes have no links in or out - they rot because nothing routes readers there."
-  - "Over-linked hubs pull too much weight - they skew which notes feel central."
-  - "Read the graph before you prune - fix orphans and thin hubs before the map misleads you."
+  - "Graph view analytics reads the link map for orphans, over-connected hubs, and gaps forgotten."
+  - "The link map shows notes with no links, notes with too many, and gaps forgotten to connect."
+  - "Read the graph for orphans and over-linked hubs before they skew the garden."
+  - "Orphan notes and over-linked hubs both signal a graph that needs pruning."
 relationships:
   - type: contradicts
     wikilink: "[[Maps of Content]]"
@@ -46,4 +45,3 @@ cards:
     back: "Link them in - forgot to connect."
 draft: false
 ---
-
