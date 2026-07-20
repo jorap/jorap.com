@@ -4,7 +4,7 @@ meta_title: "Shopee Tips - How I Shop Smarter on Shopee"
 description: "Shopee is overwhelming on purpose. Here's how I filter for local sellers, stretch shipping promos, and find deals that are actually worth opening the app for."
 slug: "shopee-tips"
 date: "2026-06-18T05:08:00Z"
-image: "/images/image-template.jpg"
+image: "/images/joraps-world.jpg"
 categories: ["Shopping", "Tips", "Guide"]
 author: "JoRap"
 tags: ["Shopee", "Online Shopping", "Philippines", "E-commerce", "Deals", "Free Shipping", "Local Sellers", "Marketplace", "Shopping Hacks", "Filipino"]
@@ -19,7 +19,7 @@ draft: true
 
 Shopee is designed to keep you scrolling. Flash sales, coins, vouchers, live streams, seventeen banners telling you you're missing a once-in-a-lifetime deal that somehow repeats every week.
 
-I've bought plenty of good stuff there. I've also bought junk because the algorithm wore me down. These are the habits that tilt the odds back in my favor.
+I've bought plenty of good stuff there. I've also bought junk because the algorithm wore me down - once a "premium" USB hub that arrived lighter than the packaging suggested and died in a week. These are the habits that tilt the odds back in my favor.
 
 ---
 

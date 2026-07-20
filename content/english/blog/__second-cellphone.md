@@ -1,10 +1,10 @@
 ---
 title: "2nd Cellphone"
 meta_title: "Why I Keep a Second Cellphone"
-description: "I keep a cheap second phone in a drawer with bank apps on it - underpowered, off the daily-driver path, so the important stuff stays hidden from regular use."
+description: "I keep a cheap second phone buried in my bag with bank apps on it - underpowered, off the daily-driver path, so the important stuff stays out of easy reach."
 slug: "second-cellphone"
 date: "2026-06-18T05:07:00Z"
-image: "/images/image-template.jpg"
+image: "/images/feature-desktop.jpg"
 categories: ["Technology", "Gear", "Tips"]
 author: "JoRap"
 tags: ["Cellphone", "Backup Phone", "Travel", "Gear", "Dual SIM", "Emergency Phone", "Work Phone", "Mobile Device", "Phone Backup", "Travel Essentials"]
@@ -16,15 +16,15 @@ featured: false
 draft: true
 ---
 
-For years I thought a second cellphone was a luxury for influencers and people with too many SIM cards. Then I realized I was loading **bank apps, OTPs, and the stuff I can't afford to lose** onto the same phone I hand to a kid, drop on a jeepney seat, or use with one thumb while walking.
+For years I thought a second cellphone was a luxury for influencers and people with too many SIM cards. Then I handed my daily phone to my kid for a game while a bank OTP arrived on the same device - visible on the lock screen.
 
-Now I keep a **second handset** on purpose. Not the latest flagship. An older, underpowered phone that lives in a drawer and stays out of daily rotation.
+Now I keep a **second handset** on purpose. Not the latest flagship. An older, underpowered phone that is hidden in my bag and stays out of daily rotation.
 
 ---
 
 ## The job I actually bought it for
 
-**Banking and sensitive apps on a phone that stays hidden.** My main phone is for messaging, maps, photos, the usual daily mess. The drawer phone holds the banking apps and anything I'd rather not have one accidental tap away while I'm half-paying attention somewhere else.
+**Banking and sensitive apps on a phone that stays hidden.** My main phone is for messaging, maps, photos, the usual daily mess. The backup phone in my bag holds the banking apps and anything I'd rather not have one accidental tap away while I'm half-paying attention somewhere else.
 
 It's deliberately **boring hardware** - slow enough that I'm not tempted to use it as a daily driver, solid enough that it still runs the apps when I need them.
 
@@ -43,7 +43,7 @@ It's deliberately **boring hardware** - slow enough that I'm not tempted to use 
 ## What I look for in a backup
 
 - **Works on my carrier** or accepts dual-SIM / eSIM without drama
-- **Decent battery** - backups die in drawers; I charge quarterly and expect it to wake up
+- **Decent battery** - backups die sitting unused; I charge quarterly and expect it to wake up
 - **Fingerprint or PIN** - it's still full of accounts if I log in
 - **Cheap enough** that I won't cry if it gets lost on a trip
 
@@ -70,7 +70,7 @@ If you're careful, insured, and live somewhere with easy phone repair, you might
 I still like the **instant swap** - SIM out, SIM in, back online in ten minutes without borrowing hardware.
 
 
-A second cellphone isn't about having more gadgets. For me it's about **separating daily-driver chaos from the apps I don't want on that screen** - and having a swap-ready phone in the drawer if the main one dies.
+A second cellphone isn't about having more gadgets. For me it's about **separating daily-driver chaos from the apps I don't want on that screen** - and having a swap-ready phone in the bag if the main one dies.
 
 Cheap Android, older iPhone, whatever fits your ecosystem - the model matters less than knowing which phone holds what, and charging it before you forget it exists.
 

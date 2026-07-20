@@ -17,7 +17,7 @@ draft: false
 lastmod: "2026-07-18T23:50:00Z"
 ---
 
-I've been following Alex Eala's career since her amazing run at the 2025 Miami Open, and watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook - career-high rankings, the matches I'll always remember, the head-to-heads with Grand Slam champions, and the upcoming matchups I'm watching for. I update it as her career unfolds.
+I've been following Alex Eala's career since her run at the **2025 Miami Open** - watching a Filipina rise through the WTA ranks in real time is something I never thought I'd get to do in my lifetime. This page is my running scrapbook: career-high rankings, the matches I'll always remember, head-to-heads with Grand Slam champions, and upcoming matchups I'm watching for. I update it when something happens worth pinning, not on a schedule.
 
 ---
 

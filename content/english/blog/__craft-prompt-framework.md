@@ -4,7 +4,7 @@ meta_title: "CRAFT - How to Write Prompts That Actually Work"
 description: "Vague prompts get vague answers. CRAFT - Context, Role, Action, Format, Target Audience - is how I build prompts that don't leave the model guessing."
 slug: "craft-prompt-framework"
 date: "2026-06-18T06:13:00Z"
-image: "/images/image-template.jpg"
+image: "/images/feature-consistent-ai-output.jpg"
 categories: ["AI", "Writing", "Tips"]
 author: "JoRap"
 tags: ["AI", "Prompts", "CRAFT", "Prompt Engineering", "Writing", "ChatGPT", "LLM", "Content Creation", "PKM"]
@@ -19,9 +19,9 @@ featured: false
 draft: true
 ---
 
-"Write me a blog post about productivity" is a coin flip. You might get gold. You might get oatmeal.
+"Write me a blog post about productivity" is a coin flip. I tried that once for a client newsletter and got three paragraphs of oatmeal with a "In conclusion" footer. Never again without a shape.
 
-The prompts I keep in my notes share a shape. I call it **CRAFT** - Context, Role, Action, Format, Target Audience. Not my invention. The acronym I actually use before I hit enter.
+The prompts I keep in my notes share a structure. I call it **CRAFT** - Context, Role, Action, Format, Target Audience. Not my invention. The acronym I actually use before I hit enter.
 
 ---
 

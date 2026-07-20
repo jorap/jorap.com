@@ -44,7 +44,7 @@ Blog posts use [jorap-voice](../jorap-voice/SKILL.md) and its **seven rewrite pa
 | 3 Show Thinking | `key_concept` only | Tradeoffs in the claim stack - not open questions in `shareable_thought` |
 | 4 One-Friend | Cards, note body | Frontmatter stays tighter: no contractions, third-person `description` |
 | 5 Sharper POV | `key_concept` line 1 | Claim you'd argue - not a dictionary opener |
-| 6 Credible | `examples`, `key_concept` | Specific scene or failure, not "good practice" |
+| 6 Credible | `examples`, `key_concept` | Skeptical-reader test - specific scene or failure, not "good practice" |
 | 7 Top-Editor | All fields | Voice check below - **cut** for density, do not lengthen for flow |
 
 **Minimum on any garden edit:** pass **#2**, **#5** on `key_concept` line 1, **#7** (voice check). Even one-line `relationships.reason` fixes get the de-AI pass.
@@ -187,10 +187,11 @@ Even on a one-line `relationships.reason` fix. For each field ask:
 
 1. Could this appear in any generic note about this topic? → add a specific detail or personal angle.
 2. Is this saying something or just sounding like it's saying something? → cut or replace with a concrete claim.
-3. Would JoRap actually type this? → simplify the words; add "I" in glosses and examples where natural.
-4. Any word you'd pause to define? → swap for the plain word you'd say out loud.
-5. `key_concept` line 1 - is it a claim you'd argue, with no wikilinks?
-6. `shareable_thought` - four complete thoughts, four different angles?
+3. Read as a skeptical reader - exaggerated, generic, or written to sound smart? Rewrite until earned.
+4. Would JoRap actually type this? → simplify the words; add "I" in glosses and examples where natural.
+5. Any word you'd pause to define? → swap for the plain word you'd say out loud.
+6. `key_concept` line 1 - is it a claim you'd argue, with no wikilinks?
+7. `shareable_thought` - four complete thoughts, four different angles?
 
 If a field still feels generated, rewrite from one real scene - don't polish AI slop.
 

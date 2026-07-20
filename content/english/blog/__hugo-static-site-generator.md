@@ -4,7 +4,7 @@ meta_title: "Hugo as a Static Site Generator - Why I Still Use It"
 description: "Hugo turns Markdown into HTML at build time - no database, no PHP surprises. It's the engine behind JoRap Notes and most client sites I quote."
 slug: "hugo-static-site-generator"
 date: "2026-06-19T06:00:00Z"
-image: "/images/image-template.jpg"
+image: "/images/joraps-world.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Hugo", "Static Site Generator", "JAMstack", "Web Development", "JoRap Notes", "Cloudflare Pages", "PKM", "Publishing", "Digital Garden"]

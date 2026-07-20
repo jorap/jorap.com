@@ -4,7 +4,7 @@ meta_title: "Markdown Formatting - How I Make Posts Scannable"
 description: "Markdown is structure without a WYSIWYG. Same habits in Hugo posts and private notes: short paragraphs, real headings, lists when they earn it."
 slug: "markdown-formatting"
 date: "2026-06-19T06:00:00Z"
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Markdown", "Formatting", "Readability", "Writing", "Hugo", "Note Taking", "PKM"]

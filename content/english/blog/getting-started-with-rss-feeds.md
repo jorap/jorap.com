@@ -28,15 +28,17 @@ Two weeks of using it later, I was a convert. Here's the short version of what R
 
 ## What RSS actually is
 
-RSS is just a way for websites to publish a list of their latest content in a machine-readable format. When a site updates, the list updates. An "RSS reader" is an app that checks all the lists you subscribe to and shows you what's new.
+The week after my friend called me out, I subscribed to maybe eight sites and opened **Inoreader** instead of my usual tab loop. First morning: one list, everything new since yesterday. No sponsored post pretending to be a friend. No "people you may know." Just titles in order.
+
+Technically, RSS is a feed URL each site publishes. Your reader polls those URLs and stacks the updates. When a blog posts, the feed updates. You don't visit ten homepages to find out nothing changed.
 
 That's it. No algorithm. No "for you" page. No ads (unless the site puts them in their feed, which is rare). Just chronological, raw "here's what's new on the sites I care about."
 
-It's the same idea as email newsletters, but instead of cluttering your inbox, everything lands in one place that's designed for reading.
+Same idea as email newsletters, but without cluttering your inbox.
 
 ## Why it's worth bothering with
 
-Three things changed for me once I switched:
+Three things changed for me once I switched - after years of refreshing the same five sites like a nervous habit:
 
 **I stopped hunting for content.** Instead of visiting ten sites to see if anything was new, I open one app and see exactly what's new across all of them. The hunting time goes to zero.
 

@@ -23,7 +23,7 @@ For a long time I just lived with it. Then somebody put on a pad track underneat
 
 ## What's a worship pad, exactly?
 
-If the term is new to you, don't worry - I had no clue what people meant either at first.
+The first time someone said "put a pad under you," I nodded like I knew what they meant. I didn't.
 
 A pad is just a sustained, ambient soundscape. Soft strings, warm synths, the kind of thing you don't really notice on its own but immediately miss when it's gone. It sits underneath everything else and gives the music a floor to rest on. Your guitar isn't floating in empty air anymore; it's surrounded by something.
 

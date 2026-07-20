@@ -4,7 +4,7 @@ meta_title: "Markdown Deep Dive - The Plain-Text Layer Under Everything"
 description: "Markdown is the format behind JoRap, Hugo, GitHub, and my notes. Here's what I actually use beyond bold and bullets - and where flavors diverge."
 slug: "markdown-deep-dive"
 date: "2026-06-19T06:00:00Z"
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Markdown", "Hugo", "Writing", "PKM", "Documentation", "Plain Text", "Note Taking"]
@@ -20,6 +20,8 @@ draft: true
 ---
 
 **Markdown** is lightweight markup: `#` for headings, `*` for emphasis, `[text](url)` for links. Hugo, GitHub, Obsidian, TiddlyWiki (with plugins) - variants everywhere.
+
+I learned it the boring way: copy-pasting forum posts into a PHP blog years ago and wondering why my bold text showed literal asterisks. Once the muscle memory clicked, every tool after that felt like the same language with a different accent.
 
 Learning Markdown once paid off in every place I publish or capture. The syntax is boring on purpose. Boring survives tool churn.
 
@@ -50,7 +52,7 @@ draft: false
 
 Not part of the Markdown spec. Every static site generator has its own fields. I treat frontmatter as **publish metadata** and the body as **the writing.**
 
-Broken YAML indentation has broken my build more than any Markdown typo. Tabs and colons are the enemy.
+Broken YAML indentation has broken my build more than any Markdown typo. I once indented a list wrong in `related_notes` and spent twenty minutes thinking Hugo hated me. Tabs and colons are the enemy.
 
 ---
 
@@ -71,12 +73,11 @@ Same words, different dialects. Like PHP and WordPress - related, not identical.
 
 ## Why plain text still wins for me
 
+When [I lost PHP hosting](/blog/how-i-built-jorap-notes/), the posts I could recover as files were the ones that mattered. Markdown in a repo is backup strategy, not just format preference.
+
 - **Diffable** in Git - see exactly what changed line by line
 - **Portable** - move hosts without export wizard grief
 - **Durable** - readable in twenty years without a proprietary app
-
-When I lost PHP hosting, the posts I could recover as files were the ones that mattered. Markdown in a repo is backup strategy, not just format preference.
-
 
 Markdown deep dive, for me, meant mastering the boring basics and code fences. Everything else is optional.
 

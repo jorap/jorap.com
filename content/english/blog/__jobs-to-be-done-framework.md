@@ -4,7 +4,7 @@ meta_title: "Jobs to Be Done - What Job Is Your Product Hired For?"
 description: "Features don't sell products. Jobs do. A plain-language walkthrough of the Jobs to Be Done framework - with the questions I use before building anything."
 slug: "jobs-to-be-done-framework"
 date: "2026-06-18T06:02:00Z"
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Ideas", "Business", "Productivity"]
 author: "JoRap"
 tags: ["Jobs to Be Done", "JTBD", "Product Development", "Product Strategy", "Customer Research", "Innovation", "Framework", "User Needs"]

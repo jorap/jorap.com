@@ -4,7 +4,7 @@ meta_title: "Canon G3000 - Ink Tank Printer Notes"
 description: "The Canon G3000 is an ink-tank printer for people tired of cartridge roulette. Here's what it's good at, what annoyed me, and who should consider one."
 slug: "canon-g3000"
 date: "2026-06-18T05:09:00Z"
-image: "/images/image-template.jpg"
+image: "/images/feature-desktop.jpg"
 categories: ["Technology", "Gear", "Reviews"]
 author: "JoRap"
 tags: ["Canon G3000", "Printer", "Ink Tank", "Home Office", "Gear", "Printing", "Inkjet", "Document Printing", "Cost Per Page", "Work From Home"]
@@ -52,7 +52,7 @@ For a home office that prints **a few times a week**, the math usually favors ta
 
 **Speed** is fine, not fast. Big jobs feel like big jobs.
 
-**Maintenance.** Ink tank printers still need **regular use**. Let it sit idle for months and you'll run head-cleaning cycles instead of printing - ink tank doesn't mean maintenance-free.
+**Maintenance.** Ink tank printers still need **regular use**. Let it sit idle for months and you'll run head-cleaning cycles instead of printing - ink tank doesn't mean maintenance-free. We learned that after a summer trip: first print back was streaky until we ran two cleaning cycles and wasted half a bottle of black.
 
 **Build** is plasticky. It's a home appliance, not office gear.
 

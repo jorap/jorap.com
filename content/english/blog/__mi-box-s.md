@@ -4,7 +4,7 @@ meta_title: "Mi Box S - A Cheap Android TV Box Worth Talking About"
 description: "The Xiaomi Mi Box S isn't flashy, but it's been a solid streaming box under our TV. Here's what it does well, where it struggles, and who should bother."
 slug: "mi-box-s"
 date: "2026-06-18T05:02:00Z"
-image: "/images/image-template.jpg"
+image: "/images/feature-desktop.jpg"
 categories: ["Technology", "Gear", "Reviews"]
 author: "JoRap"
 tags: ["Mi Box S", "Android TV", "Streaming", "Xiaomi", "Gear", "Set-Top Box", "Google TV", "Home Entertainment", "4K Streaming", "Chromecast Alternative"]
@@ -44,7 +44,7 @@ The pitch is simple: **better software than most built-in TV smarts**, for less 
 
 It's not a gaming console. It's not a Plex powerhouse. Heavy local media libraries or demanding apps can stutter depending on your files and network.
 
-**Storage is tight.** Install a few big apps and you'll feel it. I keep mine lean - streaming apps only, nothing exotic.
+**Storage is tight.** Install a few big apps and you'll feel it. I keep mine lean - streaming apps only, nothing exotic. Learned that when Disney+ plus YouTube plus a sideloaded app turned the box into a slideshow.
 
 **Updates depend on Xiaomi caring about the model.** Budget boxes can get abandoned. I don't buy these expecting a decade of support; I buy them expecting a few good years of streaming.
 

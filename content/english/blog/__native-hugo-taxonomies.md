@@ -4,7 +4,7 @@ meta_title: "Native Hugo Taxonomies - Categories, Tags, and Limits"
 description: "Hugo builds category and tag pages from frontmatter - no plugin. I use them for site navigation, not as a private Second Brain."
 slug: "native-hugo-taxonomies"
 date: "2026-06-19T06:00:00Z"
-image: "/images/image-template.jpg"
+image: "/images/joraps-world.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Hugo", "Taxonomies", "Tags", "Categories", "SEO", "Content Management", "PKM", "Note Taking"]

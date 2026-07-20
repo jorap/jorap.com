@@ -4,7 +4,7 @@ meta_title: "Lee and Perrins Worcestershire - The Bottle I Restock"
 description: "Lee & Perrins is the Worcestershire sauce I reach for without thinking. Here's why it earned a permanent spot in the pantry and how we actually use it."
 slug: "worcestershire-sauce"
 date: "2026-06-18T05:05:00Z"
-image: "/images/image-template.jpg"
+image: "/images/Chicken-Adobo.jpg"
 categories: ["Food", "Pantry", "Reviews"]
 author: "JoRap"
 tags: ["Worcestershire Sauce", "Lee and Perrins", "Pantry Staples", "Cooking", "Condiments", "Umami", "Marinades", "Steak Sauce", "Kitchen Essentials", "Ingredient Review"]
@@ -16,7 +16,7 @@ featured: false
 draft: true
 ---
 
-Most pantry items earn their spot slowly. **Lee & Perrins Worcestershire sauce** was immediate.
+Most pantry items earn their spot slowly. **Lee & Perrins Worcestershire sauce** was immediate - first splash in a soy-garlic adobo marinade and the pot smelled like I'd been simmering twice as long.
 
 It's one of those bottles that looks like it belongs in a pub more than a Filipino kitchen - until you start adding it to adobo marinades, burger mixes, fried rice, and anything that needs depth without another hour on the stove.
 

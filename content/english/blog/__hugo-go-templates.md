@@ -4,7 +4,7 @@ meta_title: "Hugo Go Templates - What I Learned Fixing a Listing"
 description: "Hugo layouts scared me until I broke a blog listing and had to fix it. Most of what I touch is copy-paste from Hugoplate partials - Go templates with sprinkles."
 slug: "hugo-go-templates"
 date: "2026-06-19T06:00:00Z"
-image: "/images/image-template.jpg"
+image: "/images/joraps-world.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Hugo", "Go Templates", "Web Development", "Static Sites", "Templating", "Hugoplate", "PKM", "Documentation"]

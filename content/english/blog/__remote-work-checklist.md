@@ -4,7 +4,7 @@ meta_title: "Remote Work Checklist - What I Pack for a Day Away"
 description: "Remote work fails in small ways - dead battery, bad angle, forgotten mouse. Here's the checklist I run before leaving the house with the laptop bag."
 slug: "remote-work-checklist"
 date: "2026-06-18T06:04:00Z"
-image: "/images/image-template.jpg"
+image: "/images/feature-desktop.jpg"
 categories: ["Productivity", "Technology", "Tips"]
 author: "JoRap"
 tags: ["Remote Work", "Checklist", "Home Office", "Laptop Bag", "Gear", "Work From Home", "Mobile Office", "Productivity", "Travel Setup"]

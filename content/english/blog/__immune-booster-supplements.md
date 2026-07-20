@@ -4,7 +4,7 @@ meta_title: "Personal Immune Booster Supplements - What's In My Stack"
 description: "Not medical advice - just the immune-support supplements I keep in rotation, what the research-ish case is, and how I actually take them."
 slug: "immune-booster-supplements"
 date: "2026-06-18T06:10:00Z"
-image: "/images/image-template.jpg"
+image: "/images/note.jpg"
 categories: ["Health", "Wellness", "Tips"]
 author: "JoRap"
 tags: ["Supplements", "Health", "Immune System", "Wellness", "Vitamin C", "Vitamin D", "Zinc", "Daily Routine", "Self Care", "Nutrition"]
@@ -24,7 +24,7 @@ draft: true
 
 ## Why I bother at all
 
-I ride jeepneys, work around kids, and push through stupid deadlines. I can't control every virus in a crowded commute. What I can control is **sleep, food, movement, and a modest supplement stack** when baseline habits slip.
+Last rainy season I caught three colds in eight weeks - jeepney commute, school pickup, one kid bringing home whatever was going around. I can't sterilize the city. What I can control is **sleep, food, movement, and a modest supplement stack** when baseline habits slip.
 
 Supplements don't replace vaccines, hand washing, or rest. They're **margin**, not magic.
 

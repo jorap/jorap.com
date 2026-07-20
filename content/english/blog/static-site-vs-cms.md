@@ -40,6 +40,8 @@ That sounds technical. Day to day it mostly means **fast, cheap hosting and almo
 
 **Portfolios and case studies.** Show work in order, with context, without an algorithm shuffling it. Push when you add a project. Done.
 
+A freelance designer friend asked me to "just add a login so the team can edit the portfolio." The site was six case studies and a contact form. We talked for twenty minutes, landed on a static build plus a quarterly batch update instead, and nobody has asked for WordPress since. Wrong tool would have meant plugin updates for a site that changes twice a year.
+
 **Brochure sites.** Hours, location, services, team photos, contact form. A cafe menu with a link to the delivery app they already use. Text and images on git push.
 
 **Blogs where one person (or two) owns publishing.** I write in markdown, commit, push. Live in about ninety seconds. No admin panel to log into for my own site - that's a feature for me.

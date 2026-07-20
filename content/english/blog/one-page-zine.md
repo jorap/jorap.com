@@ -68,7 +68,7 @@ Once you have the fold in your head, the format shows up everywhere:
 
 **Quick-start guides.** New tool at work, new appliance at home, volunteer onboarding. Cover plus six steps plus troubleshooting fits fine.
 
-**Event programs.** Community meetup, small church gathering, game night at a cafe. Schedule, map, house rules, contact info. Print a stack, leave them on the sign-in table.
+**Event programs.** Community meetup, small church gathering, game night at a cafe. Last month I printed eight-panel zines for a **Hanamikoji** teach - setup on the cover, action reference on the back, full rules inside. Stack on the sign-in table, no one asked for the PDF.
 
 **Recipe collections.** Not a full cookbook - one meal, variations, shopping list on the back.
 

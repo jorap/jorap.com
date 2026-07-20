@@ -4,7 +4,7 @@ meta_title: "Wifi Router - What I Look For and What I'd Buy Again"
 description: "After one too many dead zones and mystery reboots, here's what I care about in a home wifi router - and the habits that matter more than the box."
 slug: "wifi-router"
 date: "2026-06-18T05:00:00Z"
-image: "/images/image-template.jpg"
+image: "/images/feature-desktop.jpg"
 categories: ["Technology", "Gear", "Reviews"]
 author: "JoRap"
 tags: ["Wi-Fi", "Router", "Home Network", "Gear", "Wi-Fi 6", "Mesh Network", "Internet", "Networking", "Home Office", "Dead Zones"]
@@ -16,7 +16,9 @@ draft: true
 
 I used to treat wifi routers like printer ink - buy whatever's on sale, plug it in, forget about it until something breaks. Then the video call drops during a meeting, the kid's homework tab spins forever, and suddenly the cheapest router on the shelf doesn't feel like such a smart save.
 
-These days I have a short checklist before I buy or recommend one. Not a spec sheet. A "will this actually work in my house" list.
+Our last cheap router needed a weekly reboot ritual - unplug, count to ten, pray. That's when I wrote this checklist.
+
+These days I have a short list before I buy or recommend one. Not a spec sheet. A "will this actually work in my house" list.
 
 ---
 

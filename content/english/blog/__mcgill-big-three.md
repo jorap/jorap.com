@@ -4,7 +4,7 @@ meta_title: "McGill's Big Three - Curl-Up, Side Plank, Bird Dog"
 description: "Dr. Stuart McGill's Big Three core exercises target low back stability without cranking on your spine. The routine I keep for maintenance days."
 slug: "mcgill-big-three"
 date: "2026-06-18T06:09:00Z"
-image: "/images/image-template.jpg"
+image: "/images/feature-desktop.jpg"
 categories: ["Health", "Fitness", "Tips"]
 author: "JoRap"
 tags: ["Stuart McGill", "Low Back", "Core", "Exercise", "Back Pain", "Bird Dog", "Side Plank", "Curl-Up", "Spine Health", "Physical Therapy"]
@@ -17,9 +17,9 @@ featured: false
 draft: true
 ---
 
-I'm not a physiotherapist. I sit for work. My back reminds me of both facts.
+I'm not a physiotherapist. I sit for work. My back reminded me hard after a WordPress build week where I skipped lunch breaks and worked from the couch with the laptop in my lap.
 
-**Stuart McGill's "Big Three"** - curl-up, side plank, bird dog - is the low-back maintenance routine I keep in my Second Brain because it's **simple, evidence-backed, and doesn't require a gym.**
+**Stuart McGill's "Big Three"** - curl-up, side plank, bird dog - is the low-back maintenance routine I keep in my notes because it's **simple, evidence-backed, and doesn't require a gym.**
 
 Not medical advice. If you're injured, see a professional. This is what I use for **prevention and stiff-days maintenance.**
 

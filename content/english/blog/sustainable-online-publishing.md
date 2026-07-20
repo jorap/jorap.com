@@ -49,7 +49,11 @@ I don't treat social as my archive. I treat it as the thing I point at my archiv
 
 ## What I don't mean by "sustainable"
 
-I'm not saying quit social. I'm not saying build everything custom to prove you're serious. And free hosting doesn't mean zero work - you trade a monthly bill for Git pushes and Markdown files.
+I'm not saying quit social. I still post links there.
+
+I'm not saying build everything custom to prove you're serious. My stack is boring on purpose - Hugo, Git, Cloudflare Pages - because [I already lost work once](/blog/how-i-built-jorap-notes/) on rented PHP hosting and didn't want a repeat.
+
+And free hosting doesn't mean zero work. You trade a monthly bill for Git pushes, broken YAML at 11pm, and the occasional "why did this build fail" evening. I'd still rather that than discovering export is paywalled.
 
 What I mean is simpler: **the real copy lives somewhere you control.** Social is the megaphone. Not the vault.
 

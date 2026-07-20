@@ -4,7 +4,7 @@ meta_title: "Hugo Shortcodes - Fix Images Once, Not in Every Post"
 description: "I use shortcodes for images, YouTube, Spotify - anything I'd otherwise paste as raw HTML. One template change updates every post that uses it."
 slug: "hugo-shortcodes"
 date: "2026-06-19T06:00:00Z"
-image: "/images/image-template.jpg"
+image: "/images/joraps-world.jpg"
 categories: ["Website", "Technology", "Tutorial"]
 author: "JoRap"
 tags: ["Hugo", "Shortcodes", "Markdown", "Web Development", "Static Sites", "Components", "PKM", "Documentation"]
@@ -28,7 +28,7 @@ draft: true
 
 They keep posts readable and centralize markup. When I added WebP processing and lazy-loading to the image shortcode, every post that used it picked up the change. I did not open 200 files.
 
-That's the whole pitch.
+When YouTube changed embed attributes years ago, I fixed one `youtube.html` partial instead of grepping every post for raw iframes. That's the whole pitch.
 
 ---
 

@@ -56,17 +56,17 @@ On a laptop I can have a browser, a code editor, a terminal, a chat app, and a m
 
 ## Your back and wrists will thank you
 
-This is the boring one, but it might be the most important. I can hunch over a phone for maybe twenty minutes before my neck files a complaint. An hour-long video call on a phone? My arm wants to fall off.
+This is the boring one, but it might be the most important. I learned it on a long client call with the phone propped on a stack of books - neck locked, shoulder climbing toward my ear, typing replies with my thumb like I was sixteen again. Forty minutes in I was useless for the actual work after.
 
-A proper screen at eye level, a full-sized keyboard, a mouse - none of it is flashy, but it's the difference between working comfortably for a few hours and feeling wrecked by lunch.
+Now the laptop sits on a stand, external keyboard, mouse. Not ergonomic perfection - just eye level and wrists flat. I can do a two-hour WordPress build without feeling like I lost a fight with the couch.
 
 ---
 
 ## Storage you don't have to ration
 
-Phone storage feels like a constant negotiation. Delete some old screenshots, clear an app cache, buy more iCloud, sigh.
+My phone hit "storage full" mid-trip once while I was filming a school program for my kid. I stood there deleting old screenshots in the parking lot while everyone else went inside. Never again for anything that matters.
 
-On a desktop or laptop, storage is just... there. Terabytes of it. Plug in an external drive when you need more. Back up to a NAS or to the cloud without worrying about "optimize storage" silently deleting your photos. It's a small thing day to day, but it stops being something you think about.
+On the laptop I keep Hugo builds, client exports, years of photos, and three half-finished side projects without that weekly cleanup ritual. External drive when I need more. The phone stays for photos I'd delete anyway.
 
 ---
 

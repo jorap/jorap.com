@@ -84,7 +84,7 @@ One read of the draft per pass. On a full rewrite, run all seven in order. On a 
 
 ### 1. Lived-In Voice
 
-Rewrite from someone who has actually done the work. Cut generic advice. Swap in specific observations, hard-won lessons, and real details. Keep the tone relaxed and conversational.
+Rewrite from someone who has actually done the work. Cut generic advice, corporate phrasing, and unnecessary adjectives. Swap in specific observations, hard-won lessons, and real details. Keep the tone relaxed and conversational.
 
 - Could this paragraph appear in any buying guide? Add a memory, a mistake, or what you actually do.
 - Generic "check the label" → the time the cord ran warm on a 25-foot run.
@@ -107,7 +107,7 @@ Reveal how a real person works through the topic. Add tradeoffs, second-guesses,
 Rewrite as if you're explaining it to one sharp friend. Plain language, mixed short and long sentences, smooth transitions. Clarity and connection over formality.
 
 - Read aloud. Would you actually say this mid-rush?
-- Cut words you'd pause to define. Contractions are fine.
+- Cut corporate phrasing and words you'd pause to define. Contractions are fine.
 
 ### 5. Sharper Point of View
 
@@ -115,10 +115,11 @@ Rewrite with a clearer opinion. Add conviction, personality, and plain expressiv
 
 - "Some users may prefer…" → "I want…" / "Skip…"
 - Fake balance on every point → pick a side when you have one.
+- Recognizable voice beats perfect writing. Small imperfections are fine - personality over polish.
 
 ### 6. Make It Credible
 
-Every line should feel grounded and real. Replace vague claims with concrete details, examples, and practical explanations a reader would actually believe.
+Every line should feel grounded and real. Read as a skeptical reader - flag anything exaggerated, generic, overly certain, or written to sound smart. Replace vague claims with concrete details, examples, and practical explanations a reader would actually believe.
 
 - Add at least one specific per section: number, name, place, failure - not currency.
 - "Good battery life" → "still had juice after a full workday and a grocery run."
@@ -133,6 +134,7 @@ JoRap editor bias: **roughen** over-polish, don't smooth into a help article. Cu
 
 - **Hollow openers**: "When it comes to…", "In the world of…", "X has become increasingly important…"
 - **Significance inflation**: "plays a key role", "it's important to remember" - unless something is actually life-or-death, dial it down.
+- **Written to impress**: sentences that sound smart but say little - cut the adjectives and land the claim.
 - **Transition spam**: Furthermore, Additionally, Moreover, That said, With that in mind - cut most of them. Start the next thought.
 - **Parallelism disease**: three bullets that all start with "Ensures…" / "Provides…" / "Delivers…" - rewrite as plain speech.
 - **Summary sandwiches**: don't announce what you'll say, say it, then restate it. Say it once, well.
