@@ -30,8 +30,6 @@ I'm not anti-mobile. My phone handles short, in-between moments fine. But when I
 
 Phones have gotten ridiculously fast. The problem is sustaining that speed. Once a phone heats up - and it heats up quickly under load - it throttles, the fans (if it even has any) give up, and everything slows down.
 
-I tried running `hugo --minify` on a phone once during a trip. It finished, eventually, with the case hot enough to notice. Never again for anything that matters.
-
 A laptop or desktop, with proper cooling and a bigger battery, can hold its performance for hours. I'm not going to find out whether my phone can run a Hugo build and a WordPress staging site at the same time. On a laptop I just open both and work.
 
 Same story with RAM. My phone aggressively kills background apps the moment I switch away. My laptop just... keeps them there. All twenty of them, exactly where I left them.
@@ -41,8 +39,6 @@ Same story with RAM. My phone aggressively kills background apps the moment I sw
 ## Real software, not the "lite" version
 
 I love that mobile versions of Word, Photoshop, and Premiere exist. They're great for quick fixes. But they're not the real thing.
-
-A client once sent a payroll spreadsheet with tracked changes and pivot tables. On my phone I could scroll. On the laptop I could actually answer the question.
 
 Try managing a spreadsheet with twenty tabs and a few pivot tables on a phone. Or editing a long document with tracked changes. Or running `hugo server` and a WordPress staging build at the same time. The mobile versions either hide those features or simply don't have them.
 

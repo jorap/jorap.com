@@ -59,7 +59,7 @@ Also, pro tip for this method: boneless chicken thigh fillets when you can find 
 Cut the **1 kg (2.2 lbs) chicken thigh fillets** into bite-sized chunks. Mince **3 inches (7-8 cm) fresh ginger** and chop **4 cloves garlic**. Rinse **1 cup (200 g) glutinous rice** until the water runs clear. Dice the **1 medium onion** if you're using it. Don't stress about perfect cuts - it all breaks down anyway.
 
 **Step 2:** Dump it all in
-Friday night ritual: everything goes into the rice cooker while the kids were still awake and asking why it smelled like ginger already.
+Friday night ritual: everything goes into the rice cooker. Later in the evening, people who are still awake are asking why it is smelling like ginger already.
 
 Everything goes into the rice cooker: the rinsed rice, chicken, **6-7 cups (1.4-1.7 L) water or broth**, **1 Knorr chicken cube** (or **1 teaspoon / 5 g powder**), ginger, garlic, **2-3 tablespoons (30-45 ml) fish sauce**, and black pepper to taste. Add the **1 pinch kasubha** and onion now if you're using them. Taste the liquid and adjust the fish sauce - it should taste slightly salty since the rice will absorb a lot of it.
 

@@ -121,7 +121,7 @@ Do not stir for the first 2 minutes after adding the vinegar. Let it simmer brie
 
 ### Step 4: Pressure Cook
 
-Seal the Instant Pot. I still flinch when the pin drops - old burn-notice PTSD from browning inside the pot.
+Seal the Instant Pot. Browning the chicken using a separate pot ensures I will not experience a burn notice.
 
 Cook on:
 
