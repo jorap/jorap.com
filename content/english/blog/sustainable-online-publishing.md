@@ -33,6 +33,8 @@ Publishing only on platforms you don't control isn't sustainable if your voice m
 
 Facebook, X, YouTube - I still use them. They're fine for **getting a link in front of people.** They're a terrible place to keep the only copy of something you care about.
 
+I lost a long Facebook thread about a client scope change once - couldn't find it six months later when the same argument came back. The email archive had it. Facebook didn't.
+
 Terms of service shift. Monetization rules change overnight. Content disappears behind logins or dies when the app pivots. Your best thread from 2019 isn't on your resume - it's on their servers, and you can't export it cleanly if they decide you can't.
 
 I don't treat social as my archive. I treat it as the thing I point at my archive.
@@ -41,7 +43,7 @@ I don't treat social as my archive. I treat it as the thing I point at my archiv
 
 ## Sustainable publishing = a domain and files you control
 
-**Domain** - cheap annual rent on a name people can remember (`jorap.com`). Buy something you won't cringe at in five years.
+**Domain** - cheap annual rent on a name people can remember (`jorap.com`). Buy something you won't cringe at in five years. I almost registered a joke domain in 2019 and I'm still glad I didn't.
 
 **Hosting** - where the files actually live. Classic hosting bills monthly. My stack is Hugo, GitHub, and Cloudflare Pages on the free tier - same as [how I built this site](/blog/how-i-built-jorap-notes/). No database, no admin panel, no PHP cron jobs to babysit.
 
@@ -66,6 +68,8 @@ What I mean is simpler: **the real copy lives somewhere you control.** Social is
 3. Put content in Git from day one - that's your backup whether you think you need it yet or not
 4. Connect Cloudflare Pages (or Netlify, etc.) to auto-deploy on push
 5. Share links on social - don't write only in the social text box
+
+My first deploy was one page and a broken favicon. It still counted - I owned the URL before I owned the design.
 
 You don't need the full stack on day one. Domain + Git + static hosting is enough.
 

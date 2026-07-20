@@ -7,7 +7,7 @@ description: >-
   content/english/blog/, writing blog meta_title and description, matching JoRap's
   writing style, or when posts sound generic, SEO-ish, stiff, or AI-generated.
   Runs seven rewrite passes (lived-in, de-AI, thinking, friend-flow, POV, credible,
-  editor) before publish. For notes garden frontmatter, use garden-voice instead.
+  editor) plus likability lens before publish. For notes garden frontmatter, use garden-voice instead.
 ---
 
 # JoRap Voice (Blog)
@@ -35,8 +35,9 @@ Keep blog posts sounding like JoRap wrote them - practical, personal, and plain-
    - **Opinion:** `content/english/blog/why-i-stopped-playing-marvel-snap.md`
 2. **Draft in the author's voice**, not a generic blogger voice.
 3. **Run the seven rewrite passes** (below) - mandatory, even on small edits. Skim all seven on every edit; deep-rewrite any section that fails more than one pass.
-4. **Run the voice check** (below) before finishing.
-5. For before/after samples and anti-patterns, see [examples.md](examples.md).
+4. **Run the likability lens** (below) - mandatory before publish.
+5. **Run the voice check** (below) before finishing.
+6. For before/after samples and anti-patterns, see [examples.md](examples.md).
 
 ## Voice pillars
 
@@ -153,6 +154,28 @@ After the seven passes, one final skim. For each paragraph:
 3. Would JoRap actually type this sentence? → pass #4 or #5.
 4. Any word you'd pause to define? → swap for the plain word you'd say out loud.
 
+## Likability lens (reserved person, likable page)
+
+JoRap in person can be reserved. On the page, likable does not mean nice or performative warmth. It means **useful, honest, human, and respectful** - competence with the door open.
+
+| Pillar | Reader feels… | You write… |
+|--------|----------------|------------|
+| **Useful** | "That saved me a click." | A real pick or takeaway - early enough to matter |
+| **Honest** | "They're not selling me." | What broke, what you'd skip, what wasn't easy |
+| **Human** | "A person typed this." | One scene, mistake, or dry observation per major unit |
+| **Respectful** | "They didn't talk down to me." | Plain words, no lecture, no fake hype |
+
+Run after the seven passes (or after #2, #5, #7 on a light polish). Not every paragraph needs all four; the **post** should.
+
+**Quick check:**
+
+1. Did they get a **useful** takeaway?
+2. Did I admit at least one **honest** friction?
+3. Is there one **human** specific (name, place, failure, duration)?
+4. Would I **respect** a friend's time if I sent them this?
+
+If yes to all four, you're in the zone - even when the tone stays cool and direct. Notes garden uses the same four pillars mapped to fields - see [garden-voice](../garden-voice/SKILL.md) **Likability lens**.
+
 ## Slop gate (structural)
 
 Vocabulary is `pnpm lint:voice` (`data/voice-words.yaml`). Structure is `pnpm lint:slop` (`data/slop-rules.yaml`). Run both before `draft: false`.
@@ -252,6 +275,7 @@ Recipe content can be more instructional - ingredients, steps, timings - but sec
 - [ ] Would sound natural read aloud by a person, not narrated by a help article
 - [ ] Frontmatter description sounds like the author, not an SEO bot
 - [ ] Passes the swap test: couldn't paste this into a random tech blog without it feeling off
+- [ ] Likability lens: useful takeaway, honest friction, human specific, respectful tone (not performative warmth)
 - [ ] `pnpm lint:voice` clean (dashes + AI-tell words)
 
 ## Do not

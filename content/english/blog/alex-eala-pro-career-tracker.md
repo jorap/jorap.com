@@ -23,6 +23,8 @@ I've been following Alex Eala's career since her run at the **2025 Miami Open** 
 
 ## At a glance
 
+The numbers I refresh first when something breaks on Twitter at 2am - everything else on this page is detail.
+
 - **Career highs:** No. 28 singles · No. 88 doubles
 - **WTA titles:** 2 (Guadalajara 125, Birmingham 125)
 - **Best Slam (singles):** Wimbledon 2026 - Round of 16
@@ -31,6 +33,8 @@ I've been following Alex Eala's career since her run at the **2025 Miami Open** 
 ---
 
 ## Player Profile
+
+I keep all of these open during Slams because WTA's site is best for live scores and Tennis.com is easier for digging through old draws.
 
 - [WTA Profile](https://www.wtatennis.com/players/330332/alexandra-eala/#overview)
 - [WTA Matches](https://www.wtatennis.com/players/330332/alexandra-eala/matches#main-content)
@@ -41,6 +45,8 @@ I've been following Alex Eala's career since her run at the **2025 Miami Open** 
 ---
 
 ## WTA Rankings
+
+Rankings lag reality by a week sometimes - I still screenshot the career-high moment because you forget how fast the climb felt.
 
 **Singles:**
 
@@ -54,6 +60,8 @@ I've been following Alex Eala's career since her run at the **2025 Miami Open** 
 ---
 
 ## Best Performances in WTA Tournaments
+
+Slams get their own section below. This is the week-to-week grind - the 125s and 500s where the ranking actually moves.
 
 ### Singles
 
@@ -227,6 +235,8 @@ I've been following Alex Eala's career since her run at the **2025 Miami Open** 
 
 ## Grand Slam Main Draw Results
 
+Wimbledon 2026 is the run I still can't quite believe - Swiatek on Centre Court, then Paolini ending it in three.
+
 ### Singles
 
 - 2026
@@ -291,6 +301,8 @@ I've been following Alex Eala's career since her run at the **2025 Miami Open** 
 ---
 
 ## Matches Against Grand Slam Champions
+
+I started this section after Miami 2025 because I kept losing track of who she'd already beaten. Two wins over Swiatek now - I still double-check before I tweet.
 
 ### Iga Swiatek
 
@@ -487,6 +499,8 @@ I've been following Alex Eala's career since her run at the **2025 Miami Open** 
 
 ## Matches Against Other Top 20 Players
 
+Champions get the section above. These are the top-20 fixtures that haven't happened yet or only happened once - the ones I'm watching when draws drop.
+
 ### Ekaterina Alexandrova
 
 - [WTA Profile](https://www.wtatennis.com/players/319007/ekaterina-alexandrova)
@@ -626,6 +640,8 @@ I've been following Alex Eala's career since her run at the **2025 Miami Open** 
 ---
 
 ## Matches to Watch Out For
+
+Draw roulette - no H2H yet, or only one meeting years ago. Andreeva is the one I circle because of the 2022 junior US Open final.
 
 - [Amanda Anisimova](https://www.wtatennis.com/head-to-head/330332/326384) - Career High No. 3; 2025 Wimbledon semifinalist
 - [Bianca Andreescu](https://www.wtatennis.com/head-to-head/330332/325088) - Career High No. 4; 2019 US Open Winner

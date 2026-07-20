@@ -30,6 +30,8 @@ I'm not anti-mobile. My phone handles short, in-between moments fine. But when I
 
 Phones have gotten ridiculously fast. The problem is sustaining that speed. Once a phone heats up - and it heats up quickly under load - it throttles, the fans (if it even has any) give up, and everything slows down.
 
+I tried running `hugo --minify` on a phone once during a trip. It finished, eventually, with the case hot enough to notice. Never again for anything that matters.
+
 A laptop or desktop, with proper cooling and a bigger battery, can hold its performance for hours. I'm not going to find out whether my phone can run a Hugo build and a WordPress staging site at the same time. On a laptop I just open both and work.
 
 Same story with RAM. My phone aggressively kills background apps the moment I switch away. My laptop just... keeps them there. All twenty of them, exactly where I left them.
@@ -39,6 +41,8 @@ Same story with RAM. My phone aggressively kills background apps the moment I sw
 ## Real software, not the "lite" version
 
 I love that mobile versions of Word, Photoshop, and Premiere exist. They're great for quick fixes. But they're not the real thing.
+
+A client once sent a payroll spreadsheet with tracked changes and pivot tables. On my phone I could scroll. On the laptop I could actually answer the question.
 
 Try managing a spreadsheet with twenty tabs and a few pivot tables on a phone. Or editing a long document with tracked changes. Or running `hugo server` and a WordPress staging build at the same time. The mobile versions either hide those features or simply don't have them.
 
@@ -50,7 +54,7 @@ For anything that's actually work, I want the full version.
 
 Modern phones technically support split-screen, but it always feels like a workaround. You squint at two tiny windows, lose context every time you tap something, and end up back in single-app mode anyway.
 
-On a laptop I can have a browser, a code editor, a terminal, a chat app, and a music player all visible at the same time. Add a second monitor and it's almost too much screen. That's how I actually work on client WordPress builds - WTA tracker open in one tab, `functions.php` in another, Slack in a third.
+Last week I had the Alex Eala tracker, a WordPress staging tab, Slack, and a terminal all visible at once. On a phone that's four apps I can't see at the same time - on the laptop it's Tuesday. Add a second monitor and it's almost too much screen. That's how I actually work on client WordPress builds - WTA tracker open in one tab, `functions.php` in another, Slack in a third.
 
 ---
 
@@ -74,6 +78,8 @@ On the laptop I keep Hugo builds, client exports, years of photos, and three hal
 
 Most phones become slow paperweights in three to four years. The battery dies, the OS stops getting updates, and replacing parts is either expensive or impossible.
 
+My old laptop got a second life from a cheap SSD swap - same machine, new drive, another four years. Try that with a phone whose back glass is glued shut.
+
 A desktop can run for a decade if you swap in more RAM, a bigger SSD, or a new GPU when you need it. Even laptops, especially the ones with user-replaceable storage and memory, can be revived for the cost of one component instead of the price of a whole new device.
 
 ---
@@ -82,13 +88,17 @@ A desktop can run for a decade if you swap in more RAM, a bigger SSD, or a new G
 
 Mobile browsers are fine for casual reading. They're not great for actual work. No extensions, limited dev tools, weird tab behavior, and sites that decide you want the app instead.
 
+Shopee checkout broke on my phone browser last month until I switched to desktop with the password manager extension. Same account, same cart - only one of them let me finish.
+
 On desktop I have my password manager, my ad blocker, my dark-mode extension, my note-clipper. Dev tools are one keystroke away. Web apps just work the way they were designed to work. It's a different category of experience.
 
 ---
 
 ## Games and movies, the way they're meant to be
 
-I'll watch a YouTube short on my phone. I won't watch a two-hour movie on it. And I definitely won't try to play a "real" game on a phone when a proper screen, keyboard, and controller exist a few feet away.
+I'll watch a YouTube short on my phone. I won't watch a two-hour movie on it - I tried once in bed with headphones and gave up twenty minutes in when I kept dropping the phone on my face.
+
+And I definitely won't try to play a "real" game on a phone when a proper screen, keyboard, and controller exist a few feet away.
 
 For PC gaming, emulators, VR, or just kicking back with a film, a bigger screen and real audio make the whole thing feel like an event instead of a chore.
 

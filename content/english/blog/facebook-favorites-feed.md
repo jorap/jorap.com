@@ -30,11 +30,13 @@ Then I stumbled onto a setting Facebook built but doesn't really advertise: the 
 
 It's a separate feed inside Facebook that only shows posts from people, pages, and groups you've manually marked as favorites. The algorithm doesn't decide. You do.
 
+I found it by accident - scrolling the menu looking for something else, tapping Feeds on a whim, and realizing I'd been fighting the wrong feed for years.
+
 Think of it as a smaller, hand-picked version of your timeline. Your mom's photos from her trip - yes. The local news page you actually read - yes. Group chats and ads from someone you barely remember adding in 2011 - gone.
 
 ## Why I keep coming back to it
 
-A few things changed once I started using it:
+Sunday morning test: open Favorites, scroll to the bottom, close the app. Ten minutes, maybe less. I see my mom's trip photos, one church update, a friend's kid milestone - then I'm done. No cousin politics, no sponsored reel hole.
 
 **I spend less time on Facebook, and like it more.** The Favorites feed is finite. I can scroll through everything in five or ten minutes and be done. No infinite hole.
 
@@ -46,7 +48,9 @@ A few things changed once I started using it:
 
 ## How to set it up
 
-Facebook tucks this thing away pretty deep. Here's where it actually lives.
+Facebook tucks this thing away pretty deep. I missed it for years because it's buried under Feeds, not on the home screen where you'd expect it.
+
+Here's where it actually lives.
 
 {{< image src="images/fb-desktop-feed.jpg" caption="Facebook Feeds - Desktop" alt="Facebook Feeds - Desktop" height="486" width="329" position="center" command="fill" option="q100" class="img-fluid" title="Facebook Feeds - Desktop" webp="true" >}}
 

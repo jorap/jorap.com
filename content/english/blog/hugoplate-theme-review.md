@@ -47,6 +47,8 @@ I turned off or ignored half the demo templates - Pricing, FAQ pages I wasn't sh
 
 The version of HugoPlate I'm on ships with **Tailwind CSS v4**. If you've only used v3, the headline change is that there's no more `tailwind.config.js` - configuration moved into your CSS with `@theme` blocks.
 
+First time I edited the `@theme` block I broke dark mode for an afternoon - one wrong token and the whole site went light-only until I diffed the CSS. Worth the fifteen-minute rebrand once you know where the knobs live.
+
 In practice that means your colors, fonts, and spacing tokens live in plain CSS:
 
 ```css
@@ -79,7 +81,9 @@ The thing I appreciate is that HugoPlate respects Hugo's conventions. Nothing's 
 
 ## Shortcodes worth knowing
 
-This is where HugoPlate quietly punches above its weight. Most themes give you `youtube` and call it a day. HugoPlate (via [`gethugothemes/hugo-modules`](https://github.com/gethugothemes/hugo-modules)) hands you a small content design system: callouts, buttons, tabs, accordions, image galleries, video, diagrams, and more - all loaded as Hugo Modules so they live outside your theme folder and stay easy to update. I've added a few of my own (`spotify`, `youtube_time`) on top of that.
+This is where HugoPlate quietly punches above its weight. I broke a `notice` shortcode once by nesting bold inside it - the build passed, the page rendered garbage. Now I keep `blog-template.md` open whenever I'm composing.
+
+Most themes give you `youtube` and call it a day. HugoPlate (via [`gethugothemes/hugo-modules`](https://github.com/gethugothemes/hugo-modules)) hands you a small content design system: callouts, buttons, tabs, accordions, image galleries, video, diagrams, and more - all loaded as Hugo Modules so they live outside your theme folder and stay easy to update. I've added a few of my own (`spotify`, `youtube_time`) on top of that.
 
 Here's the full set this site renders, with live output for each so you can see exactly what they do.
 

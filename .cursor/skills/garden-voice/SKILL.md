@@ -6,7 +6,8 @@ description: >-
   Use when drafting or polishing description, key_concept, examples, shareable_thought,
   relationships.reason on content/english/notes/, Eternal Principles scripture notes,
   or when garden prose sounds generic, dictionary-ish, or AI-generated.
-  For flashcard word choice, use with flashcards skill. For blog posts, use jorap-voice instead.
+  Runs de-AI pass and likability lens before finish. For flashcard word choice, use with flashcards skill.
+  For blog posts, use jorap-voice instead.
 ---
 
 # Garden Voice
@@ -46,8 +47,9 @@ Blog posts use [jorap-voice](../jorap-voice/SKILL.md) and its **seven rewrite pa
 | 5 Sharper POV | `key_concept` line 1 | Claim you'd argue - not a dictionary opener |
 | 6 Credible | `examples`, `key_concept` | Skeptical-reader test - specific scene or failure, not "good practice" |
 | 7 Top-Editor | All fields | Voice check below - **cut** for density, do not lengthen for flow |
+| Likability | All fields (whole note) | Useful, honest, human, respectful - see **Likability lens** below |
 
-**Minimum on any garden edit:** pass **#2**, **#5** on `key_concept` line 1, **#7** (voice check). Even one-line `relationships.reason` fixes get the de-AI pass.
+**Minimum on any garden edit:** pass **#2**, **#5** on `key_concept` line 1, **likability lens**, **#7** (voice check). Even one-line `relationships.reason` fixes get the de-AI pass.
 
 **Conflicts to respect:** pass #3 (reflective, open questions) and #4 (conversational) apply most to cards and body - not permission to ramble in `description`, `shareable_thought`, or `relationships.reason`.
 
@@ -60,9 +62,10 @@ Blog posts use [jorap-voice](../jorap-voice/SKILL.md) and its **seven rewrite pa
    - **Flashcards (tone):** `capture.md`, `abide-in-me.md`, `the-golden-rule.md`
 2. **Draft in the author's voice**, not a textbook or SEO summary.
 3. **Run the de-AI pass** (below) - mandatory, even on one-line fixes.
-4. **Run the voice check** (below) before finishing.
-5. Before/after samples: [examples.md](examples.md).
-6. Do **not** commit or push unless the user explicitly asks.
+4. **Run the likability lens** (below) - mandatory before finishing.
+5. **Run the voice check** (below) before finishing.
+6. Before/after samples: [examples.md](examples.md).
+7. Do **not** commit or push unless the user explicitly asks.
 
 ## Two registers
 
@@ -195,6 +198,34 @@ Even on a one-line `relationships.reason` fix. For each field ask:
 
 If a field still feels generated, rewrite from one real scene - don't polish AI slop.
 
+## Likability lens (reserved person, likable page)
+
+JoRap in person can be reserved. On the page, likable does not mean nice or performative warmth. It means **useful, honest, human, and respectful** - competence with the door open. Same four pillars as [jorap-voice](../jorap-voice/SKILL.md); mapped to garden fields:
+
+| Pillar | Reader feels… | Garden field | How it shows up |
+|--------|----------------|--------------|-----------------|
+| **Useful** | "That saved me a click." | `key_concept`, `shareable_thought` | Claim you'd argue; four paste-ready thoughts that actually help |
+| **Honest** | "They're not selling me." | `examples`, faith gloss | Scenes with friction - not "good practice" wallpaper |
+| **Human** | "A person typed this." | `examples`, gloss, `cards` | Specific place, time, or surface; first-person where the field allows |
+| **Respectful** | "They didn't talk down to me." | `description`, all fields | Plain words, no lecture; `description` = memorable, not textbook |
+
+Not every field needs all four every time; the **note** should feel useful, honest, human, and respectful overall.
+
+**Field notes:**
+
+- `description` stays third-person - respectful means one-breath clarity, not corporate dictionary tone.
+- Faith / EP glosses: honest and human; no dry humor in verse commentary (see **Two registers**).
+- `shareable_thought`: four different angles, not four fragments or four restatements - useful means each line stands alone.
+
+**Quick check (whole note):**
+
+1. Did they get a **useful** claim or move (`key_concept` / `shareable_thought`)?
+2. Did **examples** or gloss admit honest friction - not only the ideal case?
+3. Is there at least one **human** specific (place, mistake, surface, duration)?
+4. Would I **respect** a friend's time if I sent them this note cold?
+
+If yes to all four, you're in the zone - even when the tone stays cool and direct.
+
 ## Slop gate (structural)
 
 Vocabulary: `pnpm lint:voice` (`data/voice-words.yaml`). Structure: `pnpm lint:slop --notes-only` (`data/slop-rules.yaml`). Full garden gate: `pnpm lint:garden`.
@@ -223,6 +254,7 @@ Vocabulary: `pnpm lint:voice` (`data/voice-words.yaml`). Structure: `pnpm lint:s
 - [ ] Cards pass [flashcards](../flashcards/SKILL.md) and plain-words test
 - [ ] Theology/PKM term glossed in plain English before the wikilink stack
 - [ ] No contractions in frontmatter (body/cards OK)
+- [ ] Likability lens: useful claim/move, honest friction, human specific, respectful tone (not performative warmth)
 - [ ] `pnpm lint:voice` clean (dashes + AI-tell words)
 - [ ] `pnpm lint:slop --notes-only` clean (structural slop)
 

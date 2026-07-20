@@ -30,6 +30,8 @@ But this site is where my **notes garden**, my **extension-cord** post that stil
 
 This is the big one for me. On Facebook, Instagram, YouTube, or any other platform, you're a tenant. You can be evicted, the building can be torn down, or the landlord can suddenly decide your kind of content isn't allowed anymore.
 
+I felt this before any of the big platform shutdowns - when [my old PHP hosting died](/blog/how-i-built-jorap-notes/) and took a chunk of my work with it. Same gut punch as Vine vanishing, just smaller and personal.
+
 It's not a hypothetical. Vine vanished overnight in 2017 and took everyone's videos with it. Google+ shut down. MySpace lost over a decade of users' music. Flickr slashed free accounts to a thousand photos and wiped the rest. Facebook quietly throttled organic reach for business pages from around 16% down to roughly 2%, and millions of small businesses lost the audience they'd spent years building. TikTok keeps shifting under creators' feet. Even Twitter - sorry, X - broke thousands of tools and apps when it changed its API.
 
 Your website doesn't have any of those problems. You decide what stays, what gets deleted, and how long it lives. If your hosting provider goes down, you point your domain somewhere else. You don't lose your work.
@@ -70,13 +72,15 @@ Social media is great for connecting with people who already follow you. Search 
 
 Most online journeys still start at Google. A well-written post on your own site can keep pulling in visitors years after you publish it, with no extra effort from you. A friend's Facebook post about the same topic is buried within a day. SEO isn't magic and it isn't instant, but if you publish consistently and write things people actually want to read, the search traffic compounds in a way social posts simply don't.
 
-I have posts on this site that I wrote a year ago and barely think about anymore - they're still getting visitors every week.
+My [extension-cord](/blog/extension-cord/) post still gets hits every week - I wrote it years ago and barely touch it now. A Facebook thread about the same cord would be gone by lunch.
 
 ---
 
 ## You can see what's actually working
 
 With your own site, you can install analytics and find out what people are reading, where they came from, how long they stuck around, and what made them leave. Not vanity metrics, real ones.
+
+I found out my Drupal essay was still pulling search traffic two years after I thought everyone had moved on - that told me to keep long-form career posts on the site instead of threads.
 
 Social platforms give you a thin slice of this, and only for the content you've posted there. With your own site you get the whole picture, and you can use it to write better, design better, and stop wasting time on things nobody cares about.
 
@@ -98,7 +102,9 @@ Even if you don't want to mess with code, modern site builders (Squarespace, Wix
 
 Honestly? Less than you'd think.
 
-Once it's set up, a personal site might need an hour or two of attention a month. Writing posts takes whatever writing takes - but you'd be writing those captions and threads anyway. The big upfront cost is choosing a platform and getting it live. After that, it mostly just sits there working for you.
+Once it's set up, a personal site might need an hour or two of attention a month. Last month that was updating the Alex Eala tracker after Berlin and fixing one broken YAML line in a blog draft - not a second job.
+
+Writing posts takes whatever writing takes - but you'd be writing those captions and threads anyway. The big upfront cost is choosing a platform and getting it live. After that, it mostly just sits there working for you.
 
 Compare that to the constant treadmill of producing content for someone else's algorithm, and a website starts to look like the *less* exhausting option.
 

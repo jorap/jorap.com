@@ -79,6 +79,8 @@ The adjusted liquid base is about 425-430 ml total, or roughly 1.8 cups. This fi
 
 ### Step 1: Marinate
 
+I usually start this the night before and forget it's in the fridge until lunch - works either way.
+
 In a bowl, combine:
 
 - 160 ml soy sauce, about ⅔ cup
@@ -119,7 +121,7 @@ Do not stir for the first 2 minutes after adding the vinegar. Let it simmer brie
 
 ### Step 4: Pressure Cook
 
-Seal the Instant Pot.
+Seal the Instant Pot. I still flinch when the pin drops - old burn-notice PTSD from browning inside the pot.
 
 Cook on:
 
@@ -132,7 +134,7 @@ After 10 minutes of natural release, release the remaining pressure manually.
 
 Remove the chicken temporarily.
 
-**Now** use Sauté mode - simmer the sauce for 8-12 minutes, or until slightly reduced.
+**Now** use Sauté mode - simmer the sauce for 8-12 minutes, or until slightly reduced. I walked away once at twelve minutes and came back to glue - eight is my safer number now.
 
 Add sweetener, if using:
 
@@ -146,7 +148,7 @@ If a thicker sauce is desired, whisk ½-⅔ tsp xanthan gum with a little hot sa
 
 ### Step 6: Optional Crisping
 
-For restaurant-style adobo, pan-sear the cooked chicken skin-side down for 2-3 minutes, or until lightly crisp.
+For restaurant-style adobo, pan-sear the cooked chicken skin-side down for 2-3 minutes, or until lightly crisp. Wear an apron - the sauce splatters when the skin finally crackles.
 
 Return the chicken to the sauce before serving.
 

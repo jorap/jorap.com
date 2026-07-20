@@ -479,7 +479,20 @@ _**Agent (auto-low)**_
 
 <details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-git-greatest-open-source-innovation.md</summary>
 
-Status: **loading**
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/blog/__why-git-greatest-open-source-innovation.md</summary>
 
 </details>
 
@@ -489,3 +502,57 @@ Status: **loading**
 <summary>Tool use: **edit_file_v2**</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Running linters again to verify everything passes.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/blog/__why-git-greatest-open-source-innovation.md 2>&1 && pnpm lint:slop -- content/english/blog/__why-git-greatest-open-source-innovation.md 2>&1</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice -- content/english/blog/__why-git-greatest-open-source-innovation.md 2>&1 && pnpm lint:slop -- content/english/blog/__why-git-greatest-open-source-innovation.md 2>&1
+```
+
+```
+$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check -- content/english/blog/__why-git-greatest-open-source-innovation.md
+Voice dash lint OK
+Voice lint OK
+$ python3 scripts/slop-lint.py --check -- content/english/blog/__why-git-greatest-open-source-innovation.md
+Slop lint OK
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+All linters passed. I'll summarize what was added.</details></think>
+
+_**Agent (auto-low)**_
+
+Added a new section, **"When the live server *was* the workflow"**, and tied it through the rest of the post.
+
+**New section covers:**
+- FileZilla and cPanel file manager as "deployment"
+- `public_html` as production, subfolder as fake staging
+- Hotfixing on the server at 10 PM, white-screen panic
+- No real history of what changed
+- Local copies drifting or missing
+- The "sync my laptop later" trap
+
+**Also tweaked:**
+- Opening now says you "fell back into an old habit" from 2009
+- "Before Git" bridges from file-based years into SVN
+- Closing brings back midnight `functions.php` edits on the live box
+
+The contrast is clearer now: file-based live server → centralized VCS → Git as the thing that finally made local work trustworthy. Want more specific details (a host name, a client story, Dreamweaver FTP days)?

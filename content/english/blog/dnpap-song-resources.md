@@ -34,6 +34,8 @@ DNPAP stands for **"Diyos Ng Pagasa at Pagibig"** - Filipino for **"God of Hope 
 
 ## Where to listen and watch
 
+The **live cut** is the one that hits when you've heard the room. Pia tracked the studio vocal remotely during COVID while my mother-in-law watched our son in the next room - I still hear that session when I play the Spotify version.
+
 ### Studio single (Spotify)
 
 {{< spotify_iframe_track 5ikuIeKWiuCKMxvu5gloyl >}}
@@ -61,6 +63,8 @@ DNPAP stands for **"Diyos Ng Pagasa at Pagibig"** - Filipino for **"God of Hope 
 ---
 
 ## Quick links
+
+Same links as above, in table form for copy-paste. Spotify embeds break sometimes on slow hotel Wi-Fi - the direct links still work.
 
 | Platform | Link |
 | :---------------------- | :-------------------------------------------------------------------- |
