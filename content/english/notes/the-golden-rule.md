@@ -14,7 +14,7 @@ examples:
   - "My thumb was on the post button with a critique that was probably true and definitely cruel - pause: how would I want someone to say that to me?"
   - "Before I barked at the ref in front of the kids, I asked how I would want a coach to talk to me after a bad call - the Golden Rule changed the volume."
 shareable_thought:
-  - "I treat people how I would want to be treated."
+  - "Treat people how you want to be treated."
   - "Active care, not just avoiding harm."
   - "The check is experiential - how would I want to be spoken to, helped, forgiven, included?"
   - "That sets the floor for every interaction."

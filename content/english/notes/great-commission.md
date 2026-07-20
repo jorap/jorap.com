@@ -14,8 +14,8 @@ examples:
   - "A neighbor asked what we do on Sunday mornings and I almost changed the subject - Jesus said go, baptize, teach, and He's with you while you do it."
 shareable_thought:
   - "Jesus sends believers to go, baptize, and teach obedience under His authority and presence to the end of the age."
-  - "Teaching obedience is discipleship after faith - not a works payment for salvation under Free Grace."
   - "Go, baptize, teach obedience."
+  - "Christ's authority and presence to the end of the age, not recruitment zeal."
   - "Under Christ's authority, not recruitment zeal."
 relationships:
   - type: contradicts

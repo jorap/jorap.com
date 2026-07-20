@@ -5,16 +5,13 @@ description: "The easy win available now - grab it before climbing for the hard 
 key_concept: |
   - Not every task deserves hero energy.
   - Fix the broken link, publish the half-done draft, delete the folder I have not opened in a year.
-  - Small, obvious, done today.
   - I use it when I am avoiding work by planning harder work.
-  - The easy win I can grab now.
-  - Do it before I climb for the hard stuff.
 examples:
   - "I spent twenty minutes redesigning our training plan when the actual problem was three cones not put away - I put them back in four minutes and had energy for drills."
   - "I spent an hour sketching a whole spring-cleaning plan when the actual problem was three dishes in the sink - washed them in ten minutes and had energy for the garage after lunch."
 shareable_thought:
-  - "The easy win I can grab now."
-  - "Do it before I climb for the hard stuff."
+  - "The easy win available now."
+  - "Grab it before climbing for the hard stuff."
   - "Fix the broken link, publish the half-done draft, delete the folder I have not opened in a year."
   - "I use it when I am avoiding work by planning harder work."
 relationships:

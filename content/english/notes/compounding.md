@@ -15,8 +15,8 @@ examples:
 shareable_thought:
   - "Compounding is small gains stacked over time."
   - "The curve stays flat until it suddenly bends."
-  - "Small gains repeated look like nothing is happening."
-  - "Most people quit right before the curve would have bent."
+  - "Small gains repeated look like nothing is happening; most people quit right before the curve would have bent."
+  - "Heroic weeks feel good; boring repetition wins."
 relationships:
   - type: contradicts
     wikilink: "[[Pareto Principle]]"

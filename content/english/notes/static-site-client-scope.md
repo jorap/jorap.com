@@ -25,7 +25,7 @@ shareable_thought:
   - "Static sites fit text and images on git push - not live databases or mystery WordPress admins."
   - "Scope the sales call before I quote Selling Static Sites."
   - "Say no to bad fits in the room, not after deposit."
-  - "Minimum Effective Dose: smallest site that solves the job."
+  - "Seasonal pages, external embeds (donate link, Formspree, Calendly)."
 relationships:
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"

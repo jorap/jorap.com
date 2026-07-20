@@ -11,9 +11,9 @@ examples:
   - "Old PHP hosting died and the posts were trapped - markdown in git meant I could point the repo somewhere else, not pray for an export."
 shareable_thought:
   - "Future-proof notes with plain text, open tools, and exports tested before a vendor locks you in."
-  - "Future-proofing is not predicting tech - it is plain text, open tools, and exports you test before you need them."
-  - "Freedom over free - install without permission, read the source when docs lie, move files when the host dies."
-  - "Client repos are markdown in git - portable if Cloudflare disappears; content survives, hosting is swappable."
+  - "Future-proofing is not predicting tech."
+  - "It is plain text, open tools, and exports you test before you need them."
+  - "Free Tier Hosting Stack client repos are markdown in git."
 relationships:
   - type: contradicts
     wikilink: "[[Building a Personal API]]"

@@ -19,10 +19,10 @@ examples:
   - "I spotted my teammate's travel in five seconds and missed my own lazy dribble - judge not starts with the log in my eye."
   - "I spotted a coworker's missed step in five seconds and missed my own plank for a month - Jesus was not saying ignore sin; He was saying remove your plank first."
 shareable_thought:
-  - "Final judge on souls is not your job - pull your own plank before nitpicking someone speck."
-  - "Still judge fruit - outcomes over time tell you what's underneath the hype."
-  - "He does not forbid all moral discernment: the same sermon names fruit too."
-  - "I do not play final judge on souls - I pull my own plank before nitpicking someone's speck."
+  - "Final judge on souls is not your job."
+  - "Pull your own plank before nitpicking someone speck."
+  - "Do not play final judge on souls."
+  - "Pull your plank before you nitpick someone's speck."
 relationships:
   - type: contradicts
     wikilink: "[[Humility and Service]]"

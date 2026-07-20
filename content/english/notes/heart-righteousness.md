@@ -16,8 +16,8 @@ examples:
 shareable_thought:
   - "Heart righteousness goes deeper than outward acts."
   - "Anger is murder, lust is adultery, in the heart."
+  - "Angry with your brother - guilty before the court even if you smiled outwardly."
   - "Lust logged mentally - adultery in the heart though marriage looks fine outside."
-  - "Fruits of the Spirit names what that inner work produces outward."
 relationships:
   - type: contradicts
     wikilink: "[[Let Your Light Shine]]"

@@ -12,9 +12,9 @@ examples:
   - "The client renewal call was booked but my business partner and I had not spoken since our blowup over a missed invoice - I texted him first, we talked ten minutes, then got on the call together."
 shareable_thought:
   - "Reconcile before the review - fix the relationship before OKRs, demos, or reorg meetings."
-  - "Process does not heal a broken trust link."
   - "The person who knows there is a breach moves first."
   - "A short call, an owned apology, a specific repair - then we talk OKRs."
+  - "Fix the relationship breach before OKRs, demos, or reorg meetings."
 relationships:
   - type: contradicts
     wikilink: "[[Golden Rule at Work]]"

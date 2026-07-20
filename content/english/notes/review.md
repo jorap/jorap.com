@@ -5,15 +5,9 @@ title: "Review"
 meta_title: "Flashcard Review"
 description: "Active recall in the browser - show the prompt, try the answer, rate myself. Success is recall and use when it matters, not review count or streak length. Filter by `card_sets` to drill one group at a time (Capture, Linking, **Eternal Principles**, **Faith**, **Commandments**, **Ethics**, **Prayer**, **Priorities**, **Discipleship**, etc.). Progress saves in this browser only; I use Anki export when I want phone sync. Pairs with [[Flashcards]], [[Random Duo]], and [[Backlinks]]."
 key_concept: |
-  - **The question:** Can I recall and use this knowledge when it matters? - not how many cards you reviewed, how long your streak is, or how many facts you memorized.
-  - Three outcomes: **retention** (remember after weeks), **application** (use in work, decisions, projects, conversations), **explanation** (say it clearly without the garden).
-  - Success is acting correctly in real life when the front shows up - not passing the quiz in the browser.
-  - Filter by `card_sets` to drill one lane at a time.
-  - Active recall in the browser.
-  - Show the prompt, try the answer, rate myself.
-  - Success is recall and use when it matters, not review count or streak length.
-  - Progress saves in this browser only; I use Anki export when I want phone sync.
-  - Review is active recall in the browser - flip cards when the right move needs to load under pressure.
+  - Can I recall and use this when it matters - not how many cards I flipped or how long the streak ran?
+  - Three outcomes: retention after weeks, application in real decisions, explanation without the garden open.
+  - Browser review saves progress here only; Anki export when I want phone sync.
 shareable_thought:
   - "Active recall in the browser."
   - "Show the prompt, try the answer, rate myself."

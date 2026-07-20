@@ -10,10 +10,10 @@ examples:
   - "The clinic rolled out a new chart template nobody could finish during a shift - people-centered design was watching one nurse chart for twenty minutes, then cutting three fields."
   - "Our checkout 'improvement' added steps customers hated - people-centered design was shadowing three checkouts and removing the extra tap, not defending the flowchart."
 shareable_thought:
-  - "I design for real human needs first."
+  - "Design for real human needs first."
   - "Customers, teammates, stakeholders - or the change will not stick."
-  - "A process that ignores the people inside it gets worked around by Friday."
   - "People-centered design keeps actual needs in front."
+  - "What slows a nurse down, what confuses a new hire, what a customer is trying to finish - before I optimize the chart or the slide."
 relationships:
   - type: alternative
     wikilink: "[[God Centered Design]]"

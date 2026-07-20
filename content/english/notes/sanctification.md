@@ -23,9 +23,9 @@ examples:
   - "I treated my quiet-time streak like proof God accepts me - faith saves; sanctification grows me after, it does not re-open the verdict."
 shareable_thought:
   - "After God declares me righteous, he keeps shaping my habits and heart."
-  - "Sanctification is growth after faith - not the ticket that got me in the door."
-  - "Christlikeness names the aim; sanctification names the slow walk after standing was settled."
-  - "Discipleship is the daily walk with Jesus - not a one-time decision I filed and forgot."
+  - "Growth, not the ticket in."
+  - "Jesus asks the Father to make us holy through truth."
+  - "Scripture shapes the slow becoming, not one heroic week."
 relationships:
   - type: alternative
     wikilink: "[[There Is No Perfect Solution]]"

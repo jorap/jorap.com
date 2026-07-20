@@ -7,20 +7,17 @@ key_concept: |
   
   - Some good shines publicly; some stays hidden so the left hand does not know what the right is doing.
   - Piety for an audience is its own reward - give, pray, fast for the Father who sees in secret.
-  - Some good shines publicly; some stays hidden so the left hand does not know what the right is doing.
-  - Jesus brackets the [[Ask Seek Knock]] with the same warning: religious performance for an audience is its own reward.
-  - Secret devotion pairs with [[Ask Seek Knock]] - how to pray.
-  - It contrasts [[Let Your Light Shine]] - some good works shine publicly for God's glory.
-  - Other devotion stays hidden so the left hand does not know what the right is doing.
-  - [[Free Grace]] means I am not earning visibility points with God.
+  - [[Ask Seek Knock]] names how to pray; this names who the audience is.
+  - [[Let Your Light Shine]] is the public lane - not every act belongs there.
+  - [[Free Grace]] means hidden prayer is not the price of acceptance.
 examples:
   - "I pray with the kids before bed with the door closed - no photo, no caption, just the Father who already knows we are here."
   - "The player trains at five am without live-streaming shootarounds - the game is the point, not the Strava badge."
 shareable_thought:
-  - "I give, pray, and fast for God to see - not for applause in the group chat."
+  - "Give, pray, and fast for God to see - not for applause in the group chat."
+  - "Piety for an audience is its own reward."
+  - "Give, pray, fast for the Father who sees in secret."
   - "Some good shines publicly; some stays hidden so the left hand does not know what the right is doing."
-  - "Secret devotion pairs with Ask Seek Knock (how to pray) and contrasts Let Your Light Shine."
-  - "Some good works shine publicly for God's glory other devotion stays hidden so the left hand does not know what the right is doing."
 relationships:
   - type: alternative
     wikilink: "[[Let Your Light Shine]]"

@@ -16,9 +16,9 @@ examples:
   - "Drafting a capture note I did not quote Ahrens twice - wristband scribble mid-cooldown and jeepney receipt before the spark died, same one-inbox move in rooms that do not share a folder."
 shareable_thought:
   - "The one practiced answer you reach for when the moment speeds up."
+  - "On court and in a note."
   - "A signature move is the one answer I have drilled until I reach for it without thinking when the clock gets loud."
-  - "In the garden the same discipline is one principle in the claim and two scenes that feel unrelated but run the same move."
-  - "Domain labels do not count as different - split surfaces until the reader believes the abstraction travels."
+  - "Domain labels do not count as different."
 relationships:
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"
@@ -48,7 +48,7 @@ card_sets: ["Writing", "Growth"]
 cards:
   - front: "Down two, five seconds, player starts inventing a finish she never drilled. Coach move?"
     back: "Call the signature - one go-to already rehearsed."
-  - front: "Both examples in my draft are work meetings with the same vibe. What is missing?"
+  - front: "Both examples in my draft are work meetings with the same vibe. Second scene test failed how?"
     back: "Split surfaces - same room twice does not prove the move travels."
   - front: "Note has a strong claim but both examples quote the same author. Fix?"
     back: "Two lived scenes - prove the move, not the bibliography."

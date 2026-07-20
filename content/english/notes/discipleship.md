@@ -17,8 +17,8 @@ examples:
 shareable_thought:
   - "Discipleship is following Jesus daily."
   - "Learning and doing what He said after faith, not buying eternal life."
+  - "Daily cross - deny self and follow after faith, not to buy heaven but because grace already saved."
   - "Under Free Grace, discipleship is Grateful Obedience - grateful response, not payment."
-  - "Fruits of the Spirit is what people see when the walk is real."
 relationships:
   - type: alternative
     wikilink: "[[The Collector's Fallacy]]"

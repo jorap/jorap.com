@@ -5,17 +5,15 @@ description: "Thousands of notes and the page stays blank - one small ship actio
 key_concept: |
   - Creative blocks are not solved by more capture - ship one small action instead.
   - Once something ugly exists on the page, editing is a different, easier problem than starting.
-  - Thousands of notes and I still stare at a blank page.
-  - One small ship action usually unsticks me.
-  - Staring at a blank page with full notes means output fixes, not another capture pass.
+  - Thousands of notes and a blank page means output fixes, not another capture pass.
 examples:
   - "My kid stared at a blank training log for twenty minutes - I told her to write one messy line about today's warmup and the block lifted once something existed on the paper."
   - "The new hire could not start the report - I said write one ugly paragraph about yesterday's customer call and the rest followed."
 shareable_thought:
-  - "Thousands of notes and I still stare at a blank page."
-  - "One small ship action usually unsticks me."
-  - "Creative blocks are not solved by more capture - ship one small action instead."
-  - "Once something ugly exists on the page, editing is a different, easier problem than starting."
+  - "Thousands of notes and the page stays blank."
+  - "One small ship action usually unsticks the work."
+  - "Creative blocks are not solved by more capture."
+  - "Ship one small action instead."
 relationships:
   - type: contradicts
     wikilink: "[[Capture]]"

@@ -4,15 +4,14 @@ title: "Maps of Content"
 meta_title: "Maps of Content (MOC) - Index Pages That Think"
 description: "Hub notes get written by hand when one topic spreads across too many files to hold in memory."
 key_concept: |
-  - A MOC is a curated index of notes on a topic.
-  - Hub notes get written by hand when one topic spreads across too many files to hold in memory.
-  - Write the hub by hand when the topic sprawls past what you can hold in memory.
+  - Hand-curated hub when one topic sprawls past what memory can hold.
   - A table of contents written by hand beats whatever the folder tree implies.
+  - Write the MOC when you keep opening six files to answer one question.
 shareable_thought:
   - "Hub notes get written by hand when one topic spreads across too many files to hold in memory."
-  - "A MOC is a curated index of notes on a topic."
-  - "Write the hub by hand when the topic sprawls past what you can hold in memory."
+  - "Hand-curated hub when one topic sprawls past what memory can hold."
   - "A table of contents written by hand beats whatever the folder tree implies."
+  - "Write the MOC when you keep opening six files to answer one question."
 slug: "maps-of-content"
 date: "2026-06-18 06:00:00+00:00"
 image: "/images/note.jpg"

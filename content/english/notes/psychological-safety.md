@@ -11,9 +11,9 @@ examples:
   - "I named the wrong turn to my carpool - nobody mocked it, so I speak up before the next missed exit."
 shareable_thought:
   - "People can name mistakes and near-misses without fear of humiliation or retaliation."
-  - "Join their framing before you redirect the blame."
-  - "Near-miss reports need gratitude, not punishment."
   - "Thank the person for speaking up."
+  - "Silence teaches the next person to hide the miss."
+  - "Join their framing before you redirect the blame."
 relationships:
   - type: contradicts
     wikilink: "[[Break the Escalation Cycle]]"

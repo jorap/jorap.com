@@ -11,9 +11,9 @@ examples:
   - "The school bus was late so we walked - same deadline for drop-off, different route when the morning plan broke."
 shareable_thought:
   - "Adaptability swaps the method when conditions shift - same aim, different plan."
+  - "The tell is not whether you adapt."
+  - "It is whether the goal survives the pivot intact."
   - "Keep the goal, swap the method when the ground moves."
-  - "Adaptability is changing method without losing aim when conditions, tools, or opponents shift."
-  - "The tell is not whether you adapt - it is whether the goal survives the pivot intact."
 relationships:
   - type: contradicts
     wikilink: "[[Let Your Yes Be Yes]]"

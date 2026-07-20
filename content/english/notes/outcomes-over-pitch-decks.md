@@ -15,9 +15,9 @@ examples:
   - "The contractor's portfolio was gorgeous - I asked two neighbors who lived through the remodel about permit fights and cracked tile."
 shareable_thought:
   - "Judge vendors, frameworks, and internal champions by what they produce - not slide polish, not LinkedIn aura."
+  - "On Static Site Client Scope, same filter: pick WordPress or Shopify when the fruit requires it."
+  - "Do not sell Free Tier Hosting Stack because it is my favorite hammer."
   - "Judge vendors and champions by fruit over time, not slide polish or LinkedIn aura."
-  - "Smooth talkers ship thorns sometimes."
-  - "Do not write people off on vibes alone; read outcomes over time."
 relationships:
   - type: contradicts
     wikilink: "[[Life Before Achievement]]"

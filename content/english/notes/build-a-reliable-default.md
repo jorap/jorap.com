@@ -13,7 +13,7 @@ shareable_thought:
   - "A reliable default is the simple rehearsed move that runs when thinking is thin."
   - "Build it before the crisis, not during it."
   - "A default assembled mid-emergency is not a default."
-  - "The rehearsed move beats improvising when the clock is loud."
+  - "Pick a good default once."
 relationships:
   - type: contradicts
     wikilink: "[[First Principles Thinking]]"

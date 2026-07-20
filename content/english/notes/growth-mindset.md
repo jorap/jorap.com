@@ -15,8 +15,8 @@ examples:
 shareable_thought:
   - "Growth mindset treats ability as trainable."
   - "Mistakes are data, not proof of a fixed label."
-  - "\"I am bad at this\" is a verdict."
-  - "\"I missed three\" is data."
+  - "The stake is identity on the line."
+  - "One rough outing becomes a label instead of a rep list."
 relationships:
   - type: contradicts
     wikilink: "[[By Their Fruits]]"

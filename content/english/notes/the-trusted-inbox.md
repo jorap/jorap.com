@@ -3,20 +3,17 @@ title: "The Trusted Inbox"
 meta_title: "The Trusted Inbox - One Place I will Actually Empty"
 description: "One capture pipe emptied every week - without trust, ideas hoard in the head instead."
 key_concept: |
-  - If I do not trust my inbox, I capture in my head instead. One pipe, weekly empty, no exceptions.
-  - An inbox I do not empty becomes a junk drawer I stop using.
-  - One pipe, weekly empty, no exceptions - trust is built by emptying, not by hoping.
-  - One capture pipe I empty every week.
-  - If I do not trust it, I hoard ideas in my head instead.
-  - If capture lives in my head, the system is decoration - not a [[Building a Second Brain]].
+  - If the inbox never gets emptied, capture moves back into your head.
+  - An inbox you do not empty becomes a junk drawer you stop using.
+  - Trust is built by emptying on schedule, not by hoping you will get to it someday.
 examples:
   - "We kept one bowl by the door for keys, papers, receipts - two bowls meant I would hold things in my head instead."
   - "One notebook on the bench for every substitute tweak - if we do not review it after the match, nobody trusts writing in it next week."
 shareable_thought:
-  - "One capture pipe I empty every week."
-  - "If I do not trust it, I hoard ideas in my head instead."
-  - "If I do not trust my inbox, I capture in my head instead."
-  - "An inbox I do not empty becomes a junk drawer I stop using."
+  - "One capture pipe emptied every week."
+  - "Without trust, ideas hoard in the head instead."
+  - "If the inbox never gets emptied, capture moves back into your head."
+  - "An inbox you do not empty becomes a junk drawer you stop using."
 relationships:
   - type: contradicts
     wikilink: "[[Mobile Capture Workflows]]"

@@ -12,7 +12,7 @@ examples:
   - "I would figured out the clinic's parking trick after three visits - I told the next parent in line instead of hoarding the shortcut."
   - "I almost moved on after a week wrestling school forms - share what you learn was the sticky note on the fridge so my spouse did not start from zero."
 shareable_thought:
-  - "I write the doc, do the pass-off, and answer the junior's question - hoarding know-how helps nobody."
+  - "Write the doc, do the pass-off, answer the junior question - hoarding know-how helps nobody."
   - "Pass on what you figured out."
   - "Write the doc, do the pass-off, answer the junior's question - do not hoard know-how like private bookmarks."
   - "A garden full of notes nobody reads is the same failure mode as a team where only one person holds the map."

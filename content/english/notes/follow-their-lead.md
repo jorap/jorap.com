@@ -10,10 +10,10 @@ examples:
   - "My teammate wanted to run a inbound play I would never seen - I ran it once before I told him how I would do it."
   - "A coworker walked me through how she tracks patient callbacks - I watched the whole spreadsheet before I offered to reorder her columns."
 shareable_thought:
-  - "I join their world - their topic, pace, starting point - before I try to steer."
-  - "I join their world before I redirect it - their activity, topic, pace, starting point."
+  - "Join their world - topic, pace, starting point - before trying to steer."
   - "Skip their starting point and you are fixing a problem they were not naming."
   - "Connection first, critique second - run their play once before you offer yours."
+  - "The redirect lands better once they know you actually understood their version first."
 relationships:
   - type: contradicts
     wikilink: "[[Safety Comes First]]"

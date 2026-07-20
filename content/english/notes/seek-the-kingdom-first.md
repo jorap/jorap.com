@@ -13,10 +13,10 @@ examples:
   - "Tuesday at 7am the house was loud and my Bible was still closed - seek the kingdom first is Scripture before the day's noise sets the agenda."
   - "Anxiety had me scrolling finances before I prayed - kingdom first meant pray, then act on the bills."
 shareable_thought:
-  - "I put God's rule first and let food, status, and tomorrow's worry sort behind that."
-  - "The Sermon on the Mount ties this to not serving two masters (God and wealth)."
-  - "Kingdom is not escape from earth - it is God's reign ordering my priorities today."
-  - "Same job as Signal vs Noise in the PKM stack: what gets first place when everything feels urgent."
+  - "Put God's rule first and let food, status, and tomorrow's worry sort behind that."
+  - "Kingdom is not escape from earth."
+  - "It is God's reign ordering my priorities today."
+  - "The Sermon on the Mount ties this to not serving two masters (God and wealth) and to storing Treasure in Heaven."
 relationships:
   - type: contradicts
     wikilink: "[[Signal vs Noise]]"

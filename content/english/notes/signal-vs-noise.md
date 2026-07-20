@@ -11,10 +11,10 @@ examples:
   - "The trade-rumor thread was loud all week - signal was the one injury note that actually changed our lineup; the rest I admired and skipped."
   - "The dentist waiting room had a stack of magazines - if it will not change what I do this month, headline only, no mental slot."
 shareable_thought:
-  - "I save only what changes what I do or believe this month - most feeds are noise."
-  - "Admiring an article without a behavior change is entertainment, not signal."
-  - "The filter is simple: would I act or cite this within thirty days?"
-  - "Headline only when nothing would change this month - no mental slot, no save."
+  - "Save only what changes what you do or believe this month - most feeds are noise."
+  - "Headline only when nothing would change this month."
+  - "No mental slot, no save."
+  - "I save only what changes what I do or believe this month - most content is noise."
 relationships:
   - type: alternative
     wikilink: "[[Active Knowledge Curation]]"

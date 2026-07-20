@@ -3,18 +3,17 @@ title: "Commonplace Book"
 meta_title: "Commonplace Book"
 description: "Before linked notes, quotes and ideas lived in one book worth reopening."
 key_concept: |
-  - A commonplace book is a personal quote bank worth reopening - ancestor of linked notes.
-  
-  - A personal quote bank beats rereading whole books when you need one line in conversation.
+  - A quote bank worth reopening beats rereading whole books when you need one line in conversation.
+  - Paper ancestor of linked notes - same job as capture, different century.
   - [[Literature Notes]] feed the bank; [[Layered Reading]] shortens sources before filing.
 examples:
   - "Coach's old basketball playbook of sets and halftime talks - same job as my [[Capture]] file, paper instead of wikilinks."
   - "Grandpa's notebook of sermon lines and recipes - quotes worth keeping before anyone had a [[digital garden]]."
 shareable_thought:
   - "Before linked notes, quotes and ideas lived in one book worth reopening."
-  - "A commonplace book is a personal quote bank worth reopening - ancestor of linked notes."
-  - "A personal quote bank beats rereading whole books when you need one line in conversation."
-  - "Literature Notes feed the bank; Layered Reading shortens sources before filing."
+  - "Paper ancestor of linked notes."
+  - "Same job as capture, different century."
+  - "A quote bank worth reopening beats rereading whole books when you need one line in conversation."
 relationships:
   - type: contradicts
     wikilink: "[[Digital Minimalism]]"

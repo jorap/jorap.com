@@ -2,20 +2,16 @@
 note_kind: "meta"
 title: "OKF Export"
 meta_title: "OKF Export - Agent-Readable Notes Bundle"
-description: "Open Knowledge Format (OKF) bundle - the same garden, flattened for agents - markdown paths, required `type`, no Hugo build."
+description: "Same garden flattened for agents - markdown paths, required type, no Hugo build."
 key_concept: |
-  - Authoring stays in Hugo (`[[wikilinks]]`, graph, flashcards); this bundle is the pass-off copy for ChatGPT, agents, and tools outside the site.
-  - [Open Knowledge Format (OKF) graph](/exports/okf/viz.html) - visual network of the exported bundle.
-  - Open Knowledge Format (OKF) bundle.
-  - The same garden, flattened for agents - markdown paths, required type, no Hugo build.
+  - Authoring stays in Hugo; OKF is the agent-readable pass-off copy outside the site.
+  - Same garden, flattened - markdown paths, required type field, no Hugo build step.
   - Regenerated on production build and via npm run export:okf.
-  - Authoring stays in Hugo; OKF is the agent-readable pass-off copy.
-  - The OKF bundle is the same garden flattened for agents - markdown paths, required type, no Hugo build.
 shareable_thought:
-  - "Open Knowledge Format (OKF) bundle."
-  - "The same garden, flattened for agents - markdown paths, required type, no Hugo build."
-  - "Regenerated on production build and via npm run export:okf."
-  - "Authoring stays in Hugo; OKF is the agent-readable pass-off copy."
+  - "Same garden flattened for agents."
+  - "Markdown paths, required type, no Hugo build."
+  - "Authoring stays in Hugo; OKF is the agent-readable pass-off copy outside the site."
+  - "Same garden, flattened - markdown paths, required type field, no Hugo build step."
 slug: "okf-export"
 date: "2026-06-27 08:00:00+00:00"
 image: "/images/note.jpg"

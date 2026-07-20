@@ -11,10 +11,10 @@ examples:
   - "We ran our inbound play every Thursday whether we needed it or not - schools run fire drills on sunny Tuesdays so kids are not learning exits during smoke."
   - "Our restaurant ran the closing checklist on a slow Tuesday; Saturday night's rush was boring because everyone had already walked it once."
 shareable_thought:
-  - "I would rather run the fire drill bored than improvise when the alarm is real."
+  - "Run the fire drill bored rather than improvise when the alarm is real."
+  - "The rehearsal does not need to be dramatic."
+  - "Walking the checklist once on a slow day counts."
   - "Rehearse, document, and test before the emergency owns the clock."
-  - "Practice the move slowly so you can run it when the clock is loud."
-  - "The rehearsal does not need to be dramatic - walking the checklist once on a slow day counts."
 relationships:
   - type: contradicts
     wikilink: "[[Low Hanging Fruit]]"

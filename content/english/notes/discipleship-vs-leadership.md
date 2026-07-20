@@ -16,9 +16,9 @@ examples:
   - "Promotion meant calm direction in the outage, but I still had to confess the shortcut I took on the report - leadership is who looks to me; discipleship is who I answer to."
 shareable_thought:
   - "Discipleship is who you follow upward; leadership is who looks to you for direction and care."
-  - "Two seats, same person - upward allegiance and outward care stay separate."
-  - "Running a standup is not following Christ."
-  - "A promotion does not cancel private obedience."
+  - "Greatness is service - Son of Man came to serve; two seats, upward allegiance and outward care."
+  - "Greatness is service - Son of Man came to serve; upward allegiance and outward care stay separate."
+  - "Discipleship answers upward; Leadership answers outward."
 relationships:
   - type: alternative
     wikilink: "[[Servant Leadership]]"

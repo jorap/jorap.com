@@ -4,18 +4,18 @@ meta_title: "Expect the Counter - Prepare for the Second Move"
 description: "Plan what happens after the other side adapts, not just how the opening move looks on paper."
 key_concept: |
   - Expect the counter means planning what happens after the other side adapts, not just the opening move.
-
+  
   - The opening move is not the game - they adapt, and you need a second plan ready.
   - Rehearse the second move before tip-off, not only the play that looks good on paper.
   - Do not cling to a tactic because it worked once - that is when the counter hurts most.
 examples:
-  - I offered extra screen time for chores and my kid negotiated harder tasks by day three - I should have asked what happens after they adapt, not only rehearsed the opening bribe.
-  - A restaurant drops lunch prices and the place across the street matches by Friday - the first move is not the game; we built regulars before the copy arrived.
+  - "I offered extra screen time for chores and my kid negotiated harder tasks by day three - I should have asked what happens after they adapt, not only rehearsed the opening bribe."
+  - "A restaurant drops lunch prices and the place across the street matches by Friday - the first move is not the game; we built regulars before the copy arrived."
 shareable_thought:
-  - Expect the counter means planning what happens after the other side adapts.
-  - The opening move is not the game - they adapt and you need a second plan.
-  - Rehearse the second move before tip-off.
-  - Do not cling to a tactic because it worked once.
+  - "Plan what happens after the other side adapts, not just how the opening move looks on paper."
+  - "Expect the counter means planning what happens after the other side adapts, not just the opening move."
+  - "The opening move is not the game."
+  - "They adapt, and you need a second plan ready."
 relationships:
   - type: contradicts
     wikilink: "[[Low Hanging Fruit]]"
@@ -34,7 +34,7 @@ relationships:
     reason: "See the response before it arrives"
   - type: extends
     wikilink: "[[Sunk Cost Fallacy]]"
-    reason: Do not cling to a tactic because it worked once
+    reason: "Do not cling to a tactic because it worked once"
 slug: "expect-the-counter"
 date: "2026-06-22 08:00:00+00:00"
 image: "/images/note.jpg"

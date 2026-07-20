@@ -12,8 +12,8 @@ examples:
 shareable_thought:
   - "Repeat the move, run tiny tests, learn fast."
   - "Durable change beats one big rollout."
-  - "Big-bang rollouts look decisive and usually snap back by March."
   - "Practice small experiments means daily reps plus tests small enough to fail cheap."
+  - "One drill, one workflow tweak, one week trial - then keep what works."
 relationships:
   - type: contradicts
     wikilink: "[[Staged Rollout]]"

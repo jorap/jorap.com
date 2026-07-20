@@ -1,21 +1,19 @@
 ---
 title: "First Principles Thinking"
 meta_title: "First Principles Thinking in Your Notes"
-description: "First principles thinking rebuilds from what you actually believe, not someone else quote."
+description: "Rebuild from what you actually believe, not a quote filed as someone else line."
 key_concept: |
-  - First principles thinking rebuilds from what you actually believe, not someone else's quote.
-  
   - A saved quote is not a principle until you rebuild the claim in your own words.
-  - The tell is whether you can defend the claim without citing the source - if you cannot, you do not own it yet.
+  - The tell: can you defend it without citing the source? If not, you do not own it yet.
   - You cannot explain, extend, or apply an idea you never rebuilt.
 examples:
   - "I kept quoting parenting advice from a podcast until I wrote what I actually believe about bedtime - first principles was my own claim, not someone else's quote."
   - "The HOA kept adding signs about parking until a neighbor asked why people park wrong - turns out we needed one marked loading zone, not five new rules."
 shareable_thought:
-  - "First principles thinking rebuilds from what you actually believe, not someone else's quote."
+  - "Rebuild from what you actually believe, not a quote filed as someone else line."
   - "A saved quote is not a principle until you rebuild the claim in your own words."
-  - "You cannot explain, extend, or apply an idea you never rebuilt."
-  - "The tell is whether you can defend the claim without citing the source - if you cannot, you do not own it yet."
+  - "The tell: can you defend it without citing the source?"
+  - "If not, you do not own it yet."
 relationships:
   - type: alternative
     wikilink: "[[Mental Models]]"

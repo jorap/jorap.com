@@ -21,10 +21,10 @@ examples:
   - "We heard the coach's lecture on discipline and still skipped film study Tuesday - hearing without doing is sand; storms show which builder you are."
   - "Safety training Monday, same shortcut Wednesday - wise builder hears and does; fool hears and nods."
 shareable_thought:
-  - "Hearing the words is not enough - I build on rock when I actually do what Jesus said."
+  - "Hearing the words is not enough."
+  - "Build on rock by actually doing what Jesus said."
+  - "Hear and do - rock in the storm; hearing sermons without obedience is sand."
   - "Lord Lord without doing the Father's will."
-  - "Empty profession, not a stumbled believer who repents."
-  - "Storms reveal which foundation held."
 relationships:
   - type: contradicts
     wikilink: "[[Loss of Reward]]"

@@ -7,14 +7,14 @@ key_concept: |
   - Fade is a signal to archive, not proof the idea was worthless.
   - Spend effort on polish only when an idea is in reuse - not when it is still a raw capture.
   - [[Note Maturity]] names the stages this lifecycle tracks.
-shareable_thought:
-  - "Ideas move through capture, use, polish, fade, and archive - match effort to the stage."
-  - "Raw capture gets tagged and dated - polish waits until reuse is real."
-  - "Fade is a signal to archive, not proof the idea was worthless."
-  - "Spend effort on polish only when an idea is in reuse - not when it is still a raw capture."
 examples:
   - "The new set play lives in \"learning\" for three weeks, graduates to \"game plan,\" then gets archived when we change offense."
   - "The school FAQ note started as a fleeting capture, got updated all semester, then moved to archive when the kid changed schools."
+shareable_thought:
+  - "Ideas move through capture, use, polish, fade, and archive."
+  - "Match effort to the stage."
+  - "Raw capture gets tagged and dated."
+  - "Polish waits until reuse is real."
 relationships:
   - type: contradicts
     wikilink: "[[Evergreen Notes]]"

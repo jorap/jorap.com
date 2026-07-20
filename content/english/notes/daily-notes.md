@@ -1,20 +1,20 @@
 ---
 title: "Daily Notes"
 meta_title: "Daily Notes - Low-Stakes Logs That Compound"
-description: "The daily note is a scratch pad for today fragments, not a diary expected to last forever."
+description: "Today's scratch pad for fragments - promote what repeats, let the rest fade."
 key_concept: |
-  - Daily notes are scratch pads for today's fragments, not diaries expected to last forever.
+  - Fragments belong on today's scratch pad - not in a diary built to last.
   
   - Fleeting by default, with quick buffer flushes between tasks.
   - Promote a repeating fragment to a real note; let the rest fade.
 examples:
   - "Today's pocket slip is just fragments - pick up basketball shoes, ice after practice, call coach back - I promote one line to a real note when it repeats."
-  - "My work daily note today is three fragments - a Slack thread to revisit, a lunch idea, a reminder to call the dentist - only the one that keeps repeating earns a real note; the rest fades by Friday."
+  - "My work daily note today is three fragments - I almost filed the lunch idea as a permanent wiki page before remembering only repeats earn a real note; the rest fades by Friday."
 shareable_thought:
-  - "The daily note is a scratch pad for today fragments, not a diary expected to last forever."
-  - "Daily notes are scratch pads for today's fragments, not diaries expected to last forever."
+  - "Today's scratch pad for fragments."
+  - "Promote what repeats, let the rest fade."
+  - "Fragments belong on today's scratch pad - not in a diary built to last."
   - "Fleeting by default, with quick buffer flushes between tasks."
-  - "Promote a repeating fragment to a real note; let the rest fade."
 relationships:
   - type: contradicts
     wikilink: "[[Evergreen Notes]]"

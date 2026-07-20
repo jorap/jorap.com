@@ -9,10 +9,10 @@ key_concept: |
   - Badge without followers is taking a walk, not leading.
   - The notes below map how influence gets earned, tested, and spent - not re-summarized here.
 shareable_thought:
+  - "Influence moves people toward a shared goal."
+  - "Title optional, trust required."
   - "Leadership is influence - if nobody is following, you are just taking a walk."
   - "Title borrows authority; influence is what people grant you."
-  - "Trust built in small deposits, spent when you set direction."
-  - "Badge without followers is taking a walk, not leading."
 relationships:
   - type: contradicts
     wikilink: "[[Title Without Influence]]"

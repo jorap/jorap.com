@@ -21,10 +21,10 @@ examples:
   - "The parent I would rather avoid sits on my side every game - I moved my chair over and asked how his kid's ankle was healing."
   - "The neighbor I would rather avoid lives two doors down and his trash bins are always in my way - Jesus asked whether I am acting like a neighbor, the way I would want if I were stuck."
 shareable_thought:
-  - "Love others the way I would want care if our roles flipped."
+  - "Love others the way you would want care if roles flipped."
   - "Second command, paired with loving God."
-  - "Jesus echoed Moses on the second command."
-  - "No command ranks higher than loving God and neighbor."
+  - "Second command, paired with the first."
+  - "Love the person in front of you the way you would want care if roles flipped."
 relationships:
   - type: contradicts
     wikilink: "[[Love Your Enemies]]"

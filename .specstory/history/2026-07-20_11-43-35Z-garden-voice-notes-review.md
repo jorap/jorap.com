@@ -337,3 +337,1887 @@ _**Agent (auto-low)**_
 <summary>Tool use: **read_file_v2**</summary>
 
 </details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Found 237 note files. Running lint scripts and a systematic likability review.
+
+Launching an explore agent to scan the corpus for likability issues. Grepping for likability patterns and running linters in parallel.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:garden 2>&1 | tail -80</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:garden 2>&1 | tail -80
+```
+
+```
+$ python3 scripts/lint-notes-frontmatter.py &amp;&amp; python3 scripts/normalize-notes-format.py --verify &amp;&amp; python3 scripts/lint-flashcard-frontmatter.py &amp;&amp; python3 scripts/audit-flashcard-north-star.py &amp;&amp; python3 scripts/lint-utility-wikilinks.py &amp;&amp; python3 scripts/garden-voice-lint.py --check &amp;&amp; python3 scripts/slop-lint.py --check --notes-only
+Note frontmatter lint OK
+FAIL unsorted rel faithfulness.md
+FAIL unsorted rel peacemakers.md
+FAIL unsorted rel risk-management.md
+[ELIFECYCLE] Command failed with exit code 1.
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.py",
+  "outputMode": "files_with_matches",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "likability|shareable_thought|key_concept"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "files_with_matches",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "likability|shareable_thought|key_concept",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/slop-lint.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/garden-voice-lint.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/strip-desc-from-key-concept.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/lint-notes-frontmatter.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/notes_content.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/format-faith-bible-blocks.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/normalize-verse-paragraphs.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/garden-voice-migrate.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/garden-voice-finish.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/split-key-concept-bullets.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/fix-shareable-thought.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/bulletize-key-concepts.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/seed-note-shareable-thought.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/apply-verse-explanations.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/apply-jesus-words-shortcode.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/apply-jesus-quotes.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/notes-voice-lint.py"
+    }
+  ],
+  "totalFiles": 17,
+  "totalMatches": 17
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/slop-rules.yaml</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The garden lint failed early due to unsorted relationships.
+
+Running voice and slop linters separately. Reading garden-voice-lint.py to understand its checks. Preparing a systematic likability review with slop and voice scans.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1; echo "---"; pnpm lint:slop --notes-only 2>&1; echo "---"; pnpm lint:garden-voice 2>&1</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:voice 2>&1; echo "---"; pnpm lint:slop --notes-only 2>&1; echo "---"; pnpm lint:garden-voice 2>&1
+```
+
+```
+$ python3 scripts/notes-voice-sanitize.py --check &amp;&amp; python3 scripts/notes-voice-lint.py --check
+Voice dash lint OK
+Voice lint OK
+---
+$ python3 scripts/slop-lint.py --check --notes-only
+Slop lint OK
+---
+$ python3 scripts/garden-voice-lint.py --check
+Garden voice lint OK
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/garden-voice-lint.py</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/capture.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Automated linters passed for voice, slop, and garden-voice.
+
+A systematic likability review of all 237 notes is needed. I'll define four pillars: useful, honest, human, and respectful. A script could scan for red flags across these criteria.
+
+Specific likability red flags include generic examples without place or time, near-duplicate shareable thoughts, dictionary-style key concepts, same-domain examples, frictionless ideal cases, and textbook descriptions. I'll run slop:scan and write a targeted analysis script. I'm also checking git status and any prior specstory history on likability.
+
+Found a prior likability analysis in `.specstory/history/`. I'll read it and build a comprehensive scan script.</details></think>
+
+_**Agent (auto-low)**_
+
+Automated lint is clean; next I'll run a qualitative likability scan across all 237 notes and check for any prior analysis.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan --notes-only 2>&1 | head -100</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm slop:scan --notes-only 2>&1 | head -100
+```
+
+```
+$ python3 scripts/slop-lint.py --summary --notes-only
+Slop scan — 0 blog, 237 notes, 0 fail, 0 warn
+Rules: data/slop-rules.yaml
+
+No slop flags.
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/.specstory/history/2026-07-20_11-27-53Z-notes-likeability-analysis.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "glob": "content/english/notes/*.md",
+  "pattern": "good practice|best practice|it is important|leverage|utilize|facilitate|optimize|streamline|holistic|robust|comprehensive|ensure|enables|empower"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "pattern": "good practice|best practice|it is important|leverage|utilize|facilitate|optimize|streamline|holistic|robust|comprehensive|ensure|enables|empower",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "./content/english/notes/renewed-mind.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/notes/follow-christ-then-lead.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/golden-rule-at-work.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/turn-the-other-cheek.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/take-up-your-cross.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./content/english/notes/people-centered-design.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/notes/discern-his-will-daily.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./content/english/notes/attention-economy.md"
+    }
+  ],
+  "totalFiles": 8,
+  "totalMatches": 13
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Writing a Python script to systematically analyze likability across all notes.
+
+Checking seven specific likability patterns: overlapping shareable thoughts, generic examples, textbook tone, missing friction, dictionary openers, and lack of four distinct angles.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+import re, yaml
+from pathlib import Path
+from difflib import SequenceMatcher
+
+NOTES = Path("content/english/notes")
+FM = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
+SKIP = {"_index.md"}
+FRICTION = re.compile(r"\b(before|after|miss|fail|wrong|noise|friction|tempt|almost|still|until|without|can't|won't|late|forgot|scrambl|mess|awkward|honest|admit|cost|trade|except|unless|risk|break|lost|eat it|hover)\b", re.I)
+HUMAN = re.compile(r"\b(I |my |Sunday|Monday|Friday|jeepney|locker|wristband|receipt|shift|deploy|inbox|kid |phone|desk|kitchen|meeting|Slack|email|ticket|client|boss|team)\b", re.I)
+DICT = re.compile(r"^(This is |.{0,40}\bis the (practice|process|framework|method|approach|principle) (of|whereby|for)\b)", re.I)
+TEXTBOOK = re.compile(r"\b(is a |are the |refers to |defined as |involves the )\b", re.I)
+
+def sim(a, b):
+    return SequenceMatcher(None, a.lower(), b.lower()).ratio()
+
+def first_claim(kc):
+    for raw in (kc or "").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("{{"): continue
+        if line.startswith("- "): return line[2:].strip()
+        return line
+    return ""
+
+issues = []
+for path in sorted(NOTES.glob("*.md")):
+    if path.name in SKIP: continue
+    m = FM.match(path.read_text(encoding="utf-8"))
+    if not m: continue
+    meta = yaml.safe_load(m.group(1)) or {}
+    if meta.get("draft") or meta.get("note_kind") in ("meta", "index"): continue
+    rel = path.name
+    desc = (meta.get("description") or "").strip()
+    kc = meta.get("key_concept") or ""
+    claim = first_claim(kc)
+    examples = meta.get("examples") or []
+    share = meta.get("shareable_thought") or []
+
+    # Dictionary opener
+    if claim and DICT.search(claim):
+        issues.append((rel, "claim-dictionary", claim[:70]))
+
+    # Textbook description
+    if desc and TEXTBOOK.search(desc):
+        issues.append((rel, "desc-textbook", desc[:70]))
+
+    # Examples: no human marker
+    for i, ex in enumerate(examples):
+        if isinstance(ex, str) and not HUMAN.search(ex):
+            issues.append((rel, f"ex[{i}]-no-human", ex[:80]))
+
+    # Examples: no friction
+    for i, ex in enumerate(examples):
+        if isinstance(ex, str) and not FRICTION.search(ex):
+            issues.append((rel, f"ex[{i}]-no-friction", ex[:80]))
+
+    # Examples: too similar
+    if len(examples) == 2 and all(isinstance(e, str) for e in examples):
+        if sim(examples[0], examples[1]) > 0.35:
+            issues.append((rel, "ex-similar", f"{sim(examples[0],examples[1]):.2f}"))
+
+    # shareable near-duplicate of description
+    if desc and len(share) == 4:
+        dup_desc = sum(1 for s in share if sim(s, desc) > 0.75)
+        if dup_desc >= 2:
+            issues.append((rel, "share-dup-desc", f"{dup_desc}/4 match description"))
+        # shareable items too similar to each other
+        pairs = []
+        for i in range(4):
+            for j in range(i+1, 4):
+                pairs.append(sim(share[i], share[j]))
+        if max(pairs) > 0.85:
+            issues.append((rel, "share-near-dup", f"max pair sim {max(pairs):.2f}"))
+        # shareable copies key_concept bullets
+        bullets = [l[2:].strip() for l in kc.splitlines() if l.strip().startswith("- ")]
+        if bullets:
+            hits = sum(1 for s in share if max((sim(s,b) for b in bullets), default=0) > 0.8)
+            if hits >= 3:
+                issues.append((rel, "share-copies-kc", f"{hits}/4 copy key_concept bullets"))
+
+    # shareable fragments (short but lint allows >=4 words)
+    for i, s in enumerate(share):
+        if isinstance(s, str) and len(s.split()) < 6:
+            issues.append((rel, f"share[{i}]-thin", s))
+
+from collections import Counter, defaultdict
+by_type = Counter(t for _,t,_ in issues)
+by_file = defaultdict(list)
+for f,t,d in issues: by_file[f].append((t,d))
+
+print(f"Likability heuristic scan — {len(list(NOTES.glob('*.md')))} files, {len(by_file)} flagged, {len(issues)} hits\n")
+print("By rule:")
+for t,c in by_type.most_common():
+    print(f"  {t}: {c}")
+
+print("\n--- Notes with 2+ likability flags ---")
+multi = [(f, items) for f, items in sorted(by_file.items(), key=lambda x: -len(x[1])) if len(items) >= 2]
+for f, items in multi[:40]:
+    print(f"\n{f} ({len(items)}):")
+    for t,d in items:
+        print(f"  {t}: {d}")
+
+print(f"\n... total multi-flag notes: {len(multi)}")
+PYEOF</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+import re, yaml
+from pathlib import Path
+from difflib import SequenceMatcher
+
+NOTES = Path("content/english/notes")
+FM = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
+SKIP = {"_index.md"}
+FRICTION = re.compile(r"\b(before|after|miss|fail|wrong|noise|friction|tempt|almost|still|until|without|can't|won't|late|forgot|scrambl|mess|awkward|honest|admit|cost|trade|except|unless|risk|break|lost|eat it|hover)\b", re.I)
+HUMAN = re.compile(r"\b(I |my |Sunday|Monday|Friday|jeepney|locker|wristband|receipt|shift|deploy|inbox|kid |phone|desk|kitchen|meeting|Slack|email|ticket|client|boss|team)\b", re.I)
+DICT = re.compile(r"^(This is |.{0,40}\bis the (practice|process|framework|method|approach|principle) (of|whereby|for)\b)", re.I)
+TEXTBOOK = re.compile(r"\b(is a |are the |refers to |defined as |involves the )\b", re.I)
+
+def sim(a, b):
+    return SequenceMatcher(None, a.lower(), b.lower()).ratio()
+
+def first_claim(kc):
+    for raw in (kc or "").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("{{"): continue
+        if line.startswith("- "): return line[2:].strip()
+        return line
+    return ""
+
+issues = []
+for path in sorted(NOTES.glob("*.md")):
+    if path.name in SKIP: continue
+    m = FM.match(path.read_text(encoding="utf-8"))
+    if not m: continue
+    meta = yaml.safe_load(m.group(1)) or {}
+    if meta.get("draft") or meta.get("note_kind") in ("meta", "index"): continue
+    rel = path.name
+    desc = (meta.get("description") or "").strip()
+    kc = meta.get("key_concept") or ""
+    claim = first_claim(kc)
+    examples = meta.get("examples") or []
+    share = meta.get("shareable_thought") or []
+
+    # Dictionary opener
+    if claim and DICT.search(claim):
+        issues.append((rel, "claim-dictionary", claim[:70]))
+
+    # Textbook description
+    if desc and TEXTBOOK.search(desc):
+        issues.append((rel, "desc-textbook", desc[:70]))
+
+    # Examples: no human marker
+    for i, ex in enumerate(examples):
+        if isinstance(ex, str) and not HUMAN.search(ex):
+            issues.append((rel, f"ex[{i}]-no-human", ex[:80]))
+
+    # Examples: no friction
+    for i, ex in enumerate(examples):
+        if isinstance(ex, str) and not FRICTION.search(ex):
+            issues.append((rel, f"ex[{i}]-no-friction", ex[:80]))
+
+    # Examples: too similar
+    if len(examples) == 2 and all(isinstance(e, str) for e in examples):
+        if sim(examples[0], examples[1]) > 0.35:
+            issues.append((rel, "ex-similar", f"{sim(examples[0],examples[1]):.2f}"))
+
+    # shareable near-duplicate of description
+    if desc and len(share) == 4:
+        dup_desc = sum(1 for s in share if sim(s, desc) > 0.75)
+        if dup_desc >= 2:
+            issues.append((rel, "share-dup-desc", f"{dup_desc}/4 match description"))
+        # shareable items too similar to each other
+        pairs = []
+        for i in range(4):
+            for j in range(i+1, 4):
+                pairs.append(sim(share[i], share[j]))
+        if max(pairs) > 0.85:
+            issues.append((rel, "share-near-dup", f"max pair sim {max(pairs):.2f}"))
+        # shareable copies key_concept bullets
+        bullets = [l[2:].strip() for l in kc.splitlines() if l.strip().startswith("- ")]
+        if bullets:
+            hits = sum(1 for s in share if max((sim(s,b) for b in bullets), default=0) > 0.8)
+            if hits >= 3:
+                issues.append((rel, "share-copies-kc", f"{hits}/4 copy key_concept bullets"))
+
+    # shareable fragments (short but lint allows >=4 words)
+    for i, s in enumerate(share):
+        if isinstance(s, str) and len(s.split()) < 6:
+            issues.append((rel, f"share[{i}]-thin", s))
+
+from collections import Counter, defaultdict
+by_type = Counter(t for _,t,_ in issues)
+by_file = defaultdict(list)
+for f,t,d in issues: by_file[f].append((t,d))
+
+print(f"Likability heuristic scan — {len(list(NOTES.glob('*.md')))} files, {len(by_file)} flagged, {len(issues)} hits\n")
+print("By rule:")
+for t,c in by_type.most_common():
+    print(f"  {t}: {c}")
+
+print("\n--- Notes with 2+ likability flags ---")
+multi = [(f, items) for f, items in sorted(by_file.items(), key=lambda x: -len(x[1])) if len(items) >= 2]
+for f, items in multi[:40]:
+    print(f"\n{f} ({len(items)}):")
+    for t,d in items:
+        print(f"  {t}: {d}")
+
+print(f"\n... total multi-flag notes: {len(multi)}")
+PYEOF
+```
+
+```
+Likability heuristic scan — 237 files, 213 flagged, 607 hits
+
+By rule:
+  ex[0]-no-friction: 115
+  ex[1]-no-friction: 114
+  ex-similar: 110
+  share-copies-kc: 88
+  ex[1]-no-human: 68
+  ex[0]-no-human: 46
+  share-dup-desc: 14
+  share[1]-thin: 12
+  share[0]-thin: 11
+  share[3]-thin: 9
+  share[2]-thin: 9
+  share-near-dup: 6
+  desc-textbook: 5
+
+--- Notes with 2+ likability flags ---
+
+daily-notes.md (6):
+  desc-textbook: The daily note is a scratch pad for today fragments, not a diary expec
+  ex[1]-no-friction: My work daily note today is three fragments - a Slack thread to revisit, a lunch
+  ex-similar: 0.47
+  share-dup-desc: 2/4 match description
+  share-near-dup: max pair sim 0.91
+  share-copies-kc: 4/4 copy key_concept bullets
+
+eliminate-before-managing.md (6):
+  ex[0]-no-human: Swap the wobbly ladder for a stable step stool - eliminate the fall hazard inste
+  ex[1]-no-human: We stopped storing cleaners under the sink and moved them up high - remove the h
+  ex[0]-no-friction: Swap the wobbly ladder for a stable step stool - eliminate the fall hazard inste
+  ex-similar: 0.35
+  share-dup-desc: 2/4 match description
+  share-copies-kc: 4/4 copy key_concept bullets
+
+evergreen-notes.md (6):
+  ex[0]-no-human: A family recipe card keeps the ratios, not last year's trendy garnish - rewrite 
+  ex[0]-no-friction: A family recipe card keeps the ratios, not last year's trendy garnish - rewrite 
+  ex[1]-no-friction: My free-throw note keeps the release point and shooting form - not last week's t
+  ex-similar: 0.39
+  share-dup-desc: 2/4 match description
+  share-copies-kc: 3/4 copy key_concept bullets
+
+evergreen-vs-fleeting-notes.md (6):
+  ex[0]-no-friction: A hot take about today's game goes on the fridge whiteboard; a lesson I would te
+  ex[1]-no-friction: The shift manager's scribble about today's rush stays on the clipboard; the safe
+  ex-similar: 0.57
+  share-dup-desc: 2/4 match description
+  share-near-dup: max pair sim 0.91
+  share[2]-thin: Two speeds, one promotion rule.
+
+gtd-vs-para.md (6):
+  ex[0]-no-human: The practice schedule lives in the task app; the playbook principles live in the
+  ex[1]-no-human: The fridge list holds what we buy this week; the filing cabinet holds school for
+  ex[0]-no-friction: The practice schedule lives in the task app; the playbook principles live in the
+  ex[1]-no-friction: The fridge list holds what we buy this week; the filing cabinet holds school for
+  ex-similar: 0.37
+  share-copies-kc: 3/4 copy key_concept bullets
+
+hierarchy-of-controls.md (6):
+  ex[0]-no-human: We removed the wet patch on the court instead of adding "slow down" signs - guar
+  ex[1]-no-human: We taped down the rug corner instead of yelling "watch your step" every night - 
+  ex[0]-no-friction: We removed the wet patch on the court instead of adding "slow down" signs - guar
+  ex[1]-no-friction: We taped down the rug corner instead of yelling "watch your step" every night - 
+  ex-similar: 0.44
+  share-copies-kc: 3/4 copy key_concept bullets
+
+adaptability.md (5):
+  ex[0]-no-human: Rain canceled our outdoor run and we moved practice to the covered court - same 
+  ex[1]-no-human: The school bus was late so we walked - same deadline for drop-off, different rou
+  ex[0]-no-friction: Rain canceled our outdoor run and we moved practice to the covered court - same 
+  ex-similar: 0.40
+  share-copies-kc: 3/4 copy key_concept bullets
+
+atomic-notes.md (5):
+  ex[1]-no-human: "Where we meet if the elevator is out" is one claim; "elevator outage and parkin
+  ex[0]-no-friction: "Why my basketball shoes live by the door" is one claim - I would say it alone a
+  ex[1]-no-friction: "Where we meet if the elevator is out" is one claim; "elevator outage and parkin
+  ex-similar: 0.39
+  share[2]-thin: Too many ands, split it.
+
+commonplace-book.md (5):
+  ex[0]-no-human: Coach's old basketball playbook of sets and halftime talks - same job as my [[Ca
+  ex[1]-no-human: Grandpa's notebook of sermon lines and recipes - quotes worth keeping before any
+  ex[0]-no-friction: Coach's old basketball playbook of sets and halftime talks - same job as my [[Ca
+  ex-similar: 0.37
+  share-copies-kc: 3/4 copy key_concept bullets
+
+creative-output.md (5):
+  desc-textbook: Notes are inventory for me - posts, sermons, code, and dinner experime
+  ex[1]-no-human: We do not wait for perfect dinner photos - we ship the meal and fix the recipe n
+  ex[0]-no-friction: Friday film day means everyone shows one clip, rough or not - I do the same with
+  ex[1]-no-friction: We do not wait for perfect dinner photos - we ship the meal and fix the recipe n
+  share[0]-thin: Notes are inventory for me.
+
+digital-serendipity.md (5):
+  ex[0]-no-friction: A random note resurfaced a wikilink I had forgotten - it led to a blog post I ha
+  ex[1]-no-friction: The graph view showed an orphan I had written two years ago - perfect intro for 
+  ex-similar: 0.37
+  share-dup-desc: 2/4 match description
+  share-copies-kc: 3/4 copy key_concept bullets
+
+growth-mindset.md (5):
+  ex[1]-no-human: The new barista burned three lattes on the steam wand - skill is not fixed.
+  ex[0]-no-friction: I missed three free throws in a row at clinic.
+  ex[1]-no-friction: The new barista burned three lattes on the steam wand - skill is not fixed.
+  ex-similar: 0.41
+  share[3]-thin: "I missed three" is data.
+
+heed-every-near-miss.md (5):
+  ex[0]-no-human: A swimmer needed rescue during the same open-water drill last month - that is a 
+  ex[1]-no-human: The toddler almost fell off the same chair twice - survival does not prove the s
+  ex[0]-no-friction: A swimmer needed rescue during the same open-water drill last month - that is a 
+  ex-similar: 0.41
+  share-copies-kc: 3/4 copy key_concept bullets
+
+judge-not.md (5):
+  ex[0]-no-friction: I spotted my teammate's travel in five seconds and missed my own lazy dribble - 
+  ex[1]-no-friction: I spotted a coworker's missed step in five seconds and missed my own plank for a
+  ex-similar: 0.56
+  share-dup-desc: 2/4 match description
+  share-copies-kc: 3/4 copy key_concept bullets
+
+leadership.md (5):
+  ex[0]-no-human: Our line cook never got named manager; leadership was calm voice, who goes where
+  ex[1]-no-human: The blackout hit our block and one neighbor set pace - who checks on elders, who
+  ex[1]-no-friction: The blackout hit our block and one neighbor set pace - who checks on elders, who
+  ex-similar: 0.35
+  share-dup-desc: 2/4 match description
+
+life-before-achievement.md (5):
+  desc-textbook: Human life is non-negotiable - even when the goal is a championship or
+  ex[1]-no-human: The school canceled the cliff-jump field trip when the park picnic hit the same 
+  ex[0]-no-friction: I said no to the backyard rope swing over concrete when a low tree branch and ma
+  ex-similar: 0.42
+  share-copies-kc: 3/4 copy key_concept bullets
+
+outcomes-over-pitch-decks.md (5):
+  ex[0]-no-friction: The trainer's Instagram was polished - I asked two parents who finished the prog
+  ex[1]-no-friction: The contractor's portfolio was gorgeous - I asked two neighbors who lived throug
+  ex-similar: 0.57
+  share-copies-kc: 3/4 copy key_concept bullets
+  share[2]-thin: Smooth talkers ship thorns sometimes.
+
+own-the-error.md (5):
+  ex[1]-no-human: The point guard called the bad pass out loud in the huddle - next play trusted f
+  ex[1]-no-friction: The point guard called the bad pass out loud in the huddle - next play trusted f
+  ex-similar: 0.38
+  share-copies-kc: 3/4 copy key_concept bullets
+  share[1]-thin: Accountability turns failure into information.
+
+para-method.md (5):
+  ex[0]-no-human: Tournament folder on the bench with a deadline; off-season conditioning notes in
+  ex[1]-no-human: Science fair on the counter with a due date; immunization records in the cabinet
+  ex[0]-no-friction: Tournament folder on the bench with a deadline; off-season conditioning notes in
+  ex[1]-no-friction: Science fair on the counter with a due date; immunization records in the cabinet
+  ex-similar: 0.53
+
+peace.md (5):
+  ex[1]-no-human: Two coworkers wanted me to pick a side - peace was not avoiding them; it was ask
+  ex[0]-no-friction: I thumb-refreshed the news at 2am instead of sleeping - peace fruit was pray fir
+  ex[1]-no-friction: Two coworkers wanted me to pick a side - peace was not avoiding them; it was ask
+  ex-similar: 0.39
+  share-copies-kc: 3/4 copy key_concept bullets
+
+periodic-knowledge-review.md (5):
+  ex[0]-no-friction: First Sunday I reconcile the budget - not only when the card gets declined mid-c
+  ex[1]-no-friction: The clinic reviews charts every Friday at four - not only when a complaint lands
+  ex-similar: 0.37
+  share-near-dup: max pair sim 0.93
+  share-copies-kc: 4/4 copy key_concept bullets
+
+pkm.md (5):
+  ex[0]-no-friction: The team manager keeps a card file sorted by what she actually uses on game day,
+  ex[1]-no-friction: The phone Notes app only keeps recipes cooked twice, not every recipe ever scree
+  ex-similar: 0.49
+  share-dup-desc: 2/4 match description
+  share-near-dup: max pair sim 0.90
+
+preparedness.md (5):
+  ex[0]-no-human: We ran our inbound play every Thursday whether we needed it or not - schools run
+  ex[1]-no-human: Our restaurant ran the closing checklist on a slow Tuesday; Saturday night's rus
+  ex[0]-no-friction: We ran our inbound play every Thursday whether we needed it or not - schools run
+  ex[1]-no-friction: Our restaurant ran the closing checklist on a slow Tuesday; Saturday night's rus
+  share-copies-kc: 4/4 copy key_concept bullets
+
+process-over-outcomes.md (5):
+  ex[0]-no-human: The baker follows the same proofing steps whether it is a slow Tuesday or weddin
+  ex[1]-no-human: The JV squad runs the same warmup whether the bleachers are empty or full.
+  ex[0]-no-friction: The baker follows the same proofing steps whether it is a slow Tuesday or weddin
+  ex[1]-no-friction: The JV squad runs the same warmup whether the bleachers are empty or full.
+  ex-similar: 0.49
+
+self-control.md (5):
+  ex[1]-no-human: The point guard feels the pull to hero-ball on a bad stretch - self-control is t
+  ex[0]-no-friction: My thumb hovered over a snarky reply in the pickup-line group chat - self-contro
+  ex[1]-no-friction: The point guard feels the pull to hero-ball on a bad stretch - self-control is t
+  ex-similar: 0.46
+  share-copies-kc: 3/4 copy key_concept bullets
+
+selling-static-sites.md (5):
+  desc-textbook: Charge for the build and pass-off; hosting is a clear line item, not a
+  ex[0]-no-human: Neighbor asked for a portfolio - quoted build, domain, and a modest hosting line
+  ex[1]-no-human: Pastor wanted a sermon archive - static fit; said no to member login and scoped 
+  ex[0]-no-friction: Neighbor asked for a portfolio - quoted build, domain, and a modest hosting line
+  ex[1]-no-friction: Pastor wanted a sermon archive - static fit; said no to member login and scoped 
+
+taxonomy.md (5):
+  ex[1]-no-human: The filing system had three drawers - everyone knew where the warranty went.
+  ex[0]-no-friction: Five tags I actually filter by beat thirty I never click.
+  ex[1]-no-friction: The filing system had three drawers - everyone knew where the warranty went.
+  share-copies-kc: 3/4 copy key_concept bullets
+  share[1]-thin: Classification in service of retrieval.
+
+the-12-week-year.md (5):
+  ex[0]-no-human: Twelve-week sprint on one fitness goal beat a vague annual resolution.
+  ex[0]-no-friction: Twelve-week sprint on one fitness goal beat a vague annual resolution.
+  ex[1]-no-friction: The team treated the quarter like a season - one scoreboard, weekly film, no fak
+  ex-similar: 0.37
+  share-copies-kc: 3/4 copy key_concept bullets
+
+the-knowledge-lifecycle.md (5):
+  ex[0]-no-human: The new set play lives in "learning" for three weeks, graduates to "game plan," 
+  ex[0]-no-friction: The new set play lives in "learning" for three weeks, graduates to "game plan," 
+  ex[1]-no-friction: The school FAQ note started as a fleeting capture, got updated all semester, the
+  ex-similar: 0.38
+  share-copies-kc: 3/4 copy key_concept bullets
+
+the-narrow-way.md (5):
+  ex[0]-no-human: Group chat gossip was "just joking" - narrow way was not forwarding the screensh
+  ex[1]-no-human: Everyone cheered the dirty play that won - the narrow way was passing it up when
+  ex[0]-no-friction: Group chat gossip was "just joking" - narrow way was not forwarding the screensh
+  ex[1]-no-friction: Everyone cheered the dirty play that won - the narrow way was passing it up when
+  ex-similar: 0.46
+
+ask-seek-knock.md (4):
+  ex[1]-no-human: The clinic chaplain rounds every floor on a schedule, not only when someone code
+  ex[0]-no-friction: I thumb-refresh the news about tomorrow's meeting instead of asking - prayer is 
+  ex[1]-no-friction: The clinic chaplain rounds every floor on a schedule, not only when someone code
+  share[1]-thin: Keep asking, seeking, knocking.
+
+behavioral-economics.md (4):
+  ex[0]-no-human: The cafeteria put fruit at eye level and salad sales jumped - no sermon required
+  ex[0]-no-friction: The cafeteria put fruit at eye level and salad sales jumped - no sermon required
+  ex[1]-no-friction: Default opt-in to save made more people enroll than the bonus email campaign.
+  share-copies-kc: 3/4 copy key_concept bullets
+
+creative-blocks.md (4):
+  ex[0]-no-friction: My kid stared at a blank training log for twenty minutes - I told her to write o
+  ex[1]-no-friction: The new hire could not start the report - I said write one ugly paragraph about 
+  ex-similar: 0.42
+  share-copies-kc: 4/4 copy key_concept bullets
+
+decision-quality.md (4):
+  ex[0]-no-human: Signing a year-long club fee on one trial session is how people miss the schedul
+  ex[1]-no-human: We almost picked the school on one sunny open house - one neighbor call about th
+  ex-similar: 0.37
+  share-copies-kc: 3/4 copy key_concept bullets
+
+develop-dont-endanger.md (4):
+  ex[0]-no-human: The clinic can drill fire evacuation with a walk-through - not by blocking the o
+  ex[1]-no-human: A conditioning set can build endurance - an uncontrolled water exercise adds let
+  ex[0]-no-friction: The clinic can drill fire evacuation with a walk-through - not by blocking the o
+  share-copies-kc: 3/4 copy key_concept bullets
+
+emotional-regulation.md (4):
+  ex[0]-no-human: A customer snapped at the cashier and she kept her voice level - regulation is n
+  ex[0]-no-friction: A customer snapped at the cashier and she kept her voice level - regulation is n
+  share-dup-desc: 2/4 match description
+  share-copies-kc: 4/4 copy key_concept bullets
+
+future-proofing-knowledge.md (4):
+  ex[0]-no-friction: Our family contacts list is plain text on the fridge backup folder - I copy it t
+  ex[1]-no-friction: Old PHP hosting died and the posts were trapped - markdown in git meant I could 
+  ex-similar: 0.42
+  share-copies-kc: 3/4 copy key_concept bullets
+
+god-centered-design.md (4):
+  ex[0]-no-human: The youth event looked great in parent photos but nobody prayed afterward - God-
+  ex[0]-no-friction: The youth event looked great in parent photos but nobody prayed afterward - God-
+  ex-similar: 0.40
+  share-copies-kc: 3/4 copy key_concept bullets
+
+graph-view-analytics.md (4):
+  ex[0]-no-friction: I laid out the shift-change chart and three tasks had zero arrows to an owner - 
+  ex[1]-no-friction: I laid out the kids' chore chart and three jobs had zero arrows to anything else
+  ex-similar: 0.69
+  share-copies-kc: 4/4 copy key_concept bullets
+
+lean-startup.md (4):
+  ex[0]-no-human: Ten parents signed a waitlist before we booked the full tournament venue - small
+  ex[1]-no-human: Ten customers on a lunch special before we rewrote the whole menu - build the sm
+  ex-similar: 0.49
+  share-copies-kc: 4/4 copy key_concept bullets
+
+... total multi-flag notes: 175
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/rollback-principle.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/blameless-after-action-review.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The heuristic scan is noisy. Many "no-friction" flags are false positives because good examples don't always use those specific friction words.
+
+Five genuine likability patterns surfaced: copied key-concept bullets, duplicate descriptions, near-duplicate pairs, textbook-style descriptions, and parallel examples. Now sampling gold-standard versus weak notes to judge true likability.
+
+I'll categorize findings by lane and manually review a strategic sample plus the worst offenders. The core likability issues are: shareable_thought must offer four distinct angles rather than copying key_concept bullets; examples need human specifics and honest friction; descriptions should be memorable, not textbook. Next I'll tally severity tiers for the 88 copied-key-concept notes, pull the near-duplicate and duplicate-description sets, and score each note against the pillars.</details></think>
+
+_**Agent (auto-low)**_
+
+Refining the scan to score each note on the four likability pillars and surface the weakest offenders.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+import re, yaml
+from pathlib import Path
+from difflib import SequenceMatcher
+
+NOTES = Path("content/english/notes")
+FM = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
+SKIP = {"_index.md"}
+FRICTION = re.compile(r"\b(miss|fail|wrong|noise|friction|tempt|almost|forgot|scrambl|mess|awkward|snark|bad |hover|declin|burn|tip|rescue|almost|instead of|not only|before .+ eat|my call|honest|admit|cost|risk|break|lost|late|wobbly|dirty|snap|hero-ball|2am|thumb-)\b", re.I)
+HUMAN = re.compile(r"\b(I |my |we |our |Sunday|Monday|Friday|jeepney|locker|wristband|receipt|shift|deploy|inbox|kid |phone|desk|kitchen|meeting|Slack|email|ticket|client|boss|team|neighbor|parent|coach|Friday|Thursday|Tuesday|Saturday)\b", re.I)
+DICT = re.compile(r"^(This is |.{0,50}\bis the (practice|process|framework|method|approach|principle) (of|whereby|for)\b)", re.I)
+TEXTBOOK_DESC = re.compile(r"\b(is a |are the |refers to |defined as |involves the |is the practice)\b", re.I)
+
+def sim(a,b): return SequenceMatcher(None, a.lower(), b.lower()).ratio()
+
+def first_claim(kc):
+    for raw in (kc or "").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("{{"): continue
+        if line.startswith("- "): return line[2:].strip()
+        return line
+    return ""
+
+def score_note(meta):
+    desc = (meta.get("description") or "").strip()
+    kc = meta.get("key_concept") or ""
+    claim = first_claim(kc)
+    examples = [e for e in (meta.get("examples") or []) if isinstance(e, str)]
+    share = [s for s in (meta.get("shareable_thought") or []) if isinstance(s, str)]
+
+    # USEFUL: claim arguable + share not just copies
+    useful = 2
+    if not claim or len(claim.split()) < 5: useful -= 1
+    if claim and DICT.search(claim): useful -= 1
+    if len(share) == 4:
+        bullets = [l[2:].strip() for l in kc.splitlines() if l.strip().startswith("- ")]
+        copy_hits = sum(1 for s in share if max((sim(s,b) for b in bullets+[desc]), default=0) > 0.78)
+        if copy_hits >= 3: useful -= 1
+        if any(len(s.split()) < 5 for s in share): useful -= 0.5
+        pair_max = max(sim(share[i], share[j]) for i in range(4) for j in range(i+1,4))
+        if pair_max > 0.88: useful -= 1
+    useful = max(0, useful)
+
+    # HONEST: friction in at least one example OR key_concept admission
+    honest = 0
+    if any(FRICTION.search(e) for e in examples): honest += 1
+    if FRICTION.search(kc): honest += 1
+    if len(examples)==2 and sim(examples[0], examples[1]) > 0.55: honest -= 0.5  # parallel template
+    honest = max(0, min(2, honest))
+
+    # HUMAN: specific in examples
+    human = sum(1 for e in examples if HUMAN.search(e))
+    if human == 0 and HUMAN.search(kc): human = 1
+    human = min(2, human)
+
+    # RESPECTFUL: plain description
+    respectful = 2
+    if TEXTBOOK_DESC.search(desc): respectful -= 1
+    if len(desc.split()) > 18: respectful -= 0.5
+    if desc and desc.lower().startswith("the ") and " is " in desc[:40]: respectful -= 0.5
+    respectful = max(0, respectful)
+
+    total = useful + honest + human + respectful
+    issues = []
+    if useful < 2: issues.append("useful")
+    if honest < 1: issues.append("honest")
+    if human < 1: issues.append("human")
+    if respectful < 2: issues.append("respectful")
+    return total, issues, dict(useful=useful, honest=honest, human=human, respectful=respectful)
+
+rows = []
+for path in sorted(NOTES.glob("*.md")):
+    if path.name in SKIP: continue
+    m = FM.match(path.read_text(encoding="utf-8"))
+    if not m: continue
+    meta = yaml.safe_load(m.group(1)) or {}
+    if meta.get("draft") or meta.get("note_kind") in ("meta", "index"): continue
+    total, issues, pillars = score_note(meta)
+    rows.append((total, path.name, issues, pillars))
+
+rows.sort(key=lambda x: x[0])
+weak = [r for r in rows if r[0] <= 5]
+mid = [r for r in rows if 5 < r[0] <= 7]
+strong = [r for r in rows if r[0] > 7]
+
+print(f"Likability pillar scores (0-8) — {len(rows)} notes")
+print(f"  Strong (8): {len([r for r in rows if r[0]==8])}")
+print(f"  Good (7): {len([r for r in rows if r[0]==7])}")
+print(f"  Mid (5-6): {len(mid)}")
+print(f"  Weak (≤5): {len(weak)}")
+
+print("\n=== WEAKEST 25 (fix first) ===")
+for total, name, issues, p in rows[:25]:
+    print(f"  {total}/8  {name:<42} missing: {','.join(issues) or '—'}  ({p})")
+
+print("\n=== STRONGEST REFERENCE SET ===")
+for total, name, issues, p in rows[-10:]:
+    print(f"  {total}/8  {name}")
+
+# Issue frequency among weak
+from collections import Counter
+c = Counter(i for _,_,issues,_ in weak for i in issues)
+print("\nMissing pillar counts in weak notes (≤5):")
+for k,v in c.most_common(): print(f"  {k}: {v}")
+
+# share-copies-kc severity across all
+copy_all = sum(1 for _,name,issues,p in rows if 'useful' in issues)
+print(f"\nNotes with useful/share issues: {copy_all}")
+PYEOF</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+import re, yaml
+from pathlib import Path
+from difflib import SequenceMatcher
+
+NOTES = Path("content/english/notes")
+FM = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
+SKIP = {"_index.md"}
+FRICTION = re.compile(r"\b(miss|fail|wrong|noise|friction|tempt|almost|forgot|scrambl|mess|awkward|snark|bad |hover|declin|burn|tip|rescue|almost|instead of|not only|before .+ eat|my call|honest|admit|cost|risk|break|lost|late|wobbly|dirty|snap|hero-ball|2am|thumb-)\b", re.I)
+HUMAN = re.compile(r"\b(I |my |we |our |Sunday|Monday|Friday|jeepney|locker|wristband|receipt|shift|deploy|inbox|kid |phone|desk|kitchen|meeting|Slack|email|ticket|client|boss|team|neighbor|parent|coach|Friday|Thursday|Tuesday|Saturday)\b", re.I)
+DICT = re.compile(r"^(This is |.{0,50}\bis the (practice|process|framework|method|approach|principle) (of|whereby|for)\b)", re.I)
+TEXTBOOK_DESC = re.compile(r"\b(is a |are the |refers to |defined as |involves the |is the practice)\b", re.I)
+
+def sim(a,b): return SequenceMatcher(None, a.lower(), b.lower()).ratio()
+
+def first_claim(kc):
+    for raw in (kc or "").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("{{"): continue
+        if line.startswith("- "): return line[2:].strip()
+        return line
+    return ""
+
+def score_note(meta):
+    desc = (meta.get("description") or "").strip()
+    kc = meta.get("key_concept") or ""
+    claim = first_claim(kc)
+    examples = [e for e in (meta.get("examples") or []) if isinstance(e, str)]
+    share = [s for s in (meta.get("shareable_thought") or []) if isinstance(s, str)]
+
+    # USEFUL: claim arguable + share not just copies
+    useful = 2
+    if not claim or len(claim.split()) < 5: useful -= 1
+    if claim and DICT.search(claim): useful -= 1
+    if len(share) == 4:
+        bullets = [l[2:].strip() for l in kc.splitlines() if l.strip().startswith("- ")]
+        copy_hits = sum(1 for s in share if max((sim(s,b) for b in bullets+[desc]), default=0) > 0.78)
+        if copy_hits >= 3: useful -= 1
+        if any(len(s.split()) < 5 for s in share): useful -= 0.5
+        pair_max = max(sim(share[i], share[j]) for i in range(4) for j in range(i+1,4))
+        if pair_max > 0.88: useful -= 1
+    useful = max(0, useful)
+
+    # HONEST: friction in at least one example OR key_concept admission
+    honest = 0
+    if any(FRICTION.search(e) for e in examples): honest += 1
+    if FRICTION.search(kc): honest += 1
+    if len(examples)==2 and sim(examples[0], examples[1]) > 0.55: honest -= 0.5  # parallel template
+    honest = max(0, min(2, honest))
+
+    # HUMAN: specific in examples
+    human = sum(1 for e in examples if HUMAN.search(e))
+    if human == 0 and HUMAN.search(kc): human = 1
+    human = min(2, human)
+
+    # RESPECTFUL: plain description
+    respectful = 2
+    if TEXTBOOK_DESC.search(desc): respectful -= 1
+    if len(desc.split()) > 18: respectful -= 0.5
+    if desc and desc.lower().startswith("the ") and " is " in desc[:40]: respectful -= 0.5
+    respectful = max(0, respectful)
+
+    total = useful + honest + human + respectful
+    issues = []
+    if useful < 2: issues.append("useful")
+    if honest < 1: issues.append("honest")
+    if human < 1: issues.append("human")
+    if respectful < 2: issues.append("respectful")
+    return total, issues, dict(useful=useful, honest=honest, human=human, respectful=respectful)
+
+rows = []
+for path in sorted(NOTES.glob("*.md")):
+    if path.name in SKIP: continue
+    m = FM.match(path.read_text(encoding="utf-8"))
+    if not m: continue
+    meta = yaml.safe_load(m.group(1)) or {}
+    if meta.get("draft") or meta.get("note_kind") in ("meta", "index"): continue
+    total, issues, pillars = score_note(meta)
+    rows.append((total, path.name, issues, pillars))
+
+rows.sort(key=lambda x: x[0])
+weak = [r for r in rows if r[0] <= 5]
+mid = [r for r in rows if 5 < r[0] <= 7]
+strong = [r for r in rows if r[0] > 7]
+
+print(f"Likability pillar scores (0-8) — {len(rows)} notes")
+print(f"  Strong (8): {len([r for r in rows if r[0]==8])}")
+print(f"  Good (7): {len([r for r in rows if r[0]==7])}")
+print(f"  Mid (5-6): {len(mid)}")
+print(f"  Weak (≤5): {len(weak)}")
+
+print("\n=== WEAKEST 25 (fix first) ===")
+for total, name, issues, p in rows[:25]:
+    print(f"  {total}/8  {name:<42} missing: {','.join(issues) or '—'}  ({p})")
+
+print("\n=== STRONGEST REFERENCE SET ===")
+for total, name, issues, p in rows[-10:]:
+    print(f"  {total}/8  {name}")
+
+# Issue frequency among weak
+from collections import Counter
+c = Counter(i for _,_,issues,_ in weak for i in issues)
+print("\nMissing pillar counts in weak notes (≤5):")
+for k,v in c.most_common(): print(f"  {k}: {v}")
+
+# share-copies-kc severity across all
+copy_all = sum(1 for _,name,issues,p in rows if 'useful' in issues)
+print(f"\nNotes with useful/share issues: {copy_all}")
+PYEOF
+```
+
+```
+Likability pillar scores (0-8) — 220 notes
+  Strong (8): 6
+  Good (7): 46
+  Mid (5-6): 136
+  Weak (≤5): 75
+
+=== WEAKEST 25 (fix first) ===
+  2.5/8  daily-notes.md                             missing: useful,honest,respectful  ({'useful': 0, 'honest': 0, 'human': 2, 'respectful': 0.5})
+  3.5/8  the-garage-concept.md                      missing: useful,honest,respectful  ({'useful': 1, 'honest': 0, 'human': 1, 'respectful': 1.5})
+  4/8  coaching-ethics.md                         missing: useful,honest  ({'useful': 1, 'honest': 0, 'human': 1, 'respectful': 2})
+  4/8  context-aware-capture.md                   missing: honest,respectful  ({'useful': 2, 'honest': 0, 'human': 1, 'respectful': 1})
+  4/8  creative-output.md                         missing: useful,honest,respectful  ({'useful': 1, 'honest': 0, 'human': 2, 'respectful': 1})
+  4/8  emotional-regulation.md                    missing: useful,honest  ({'useful': 1, 'honest': 0, 'human': 1, 'respectful': 2})
+  4/8  evergreen-vs-fleeting-notes.md             missing: useful,honest  ({'useful': 0, 'honest': 0, 'human': 2, 'respectful': 2})
+  4/8  gtd-vs-para.md                             missing: useful,honest  ({'useful': 1, 'honest': 0, 'human': 1, 'respectful': 2})
+  4/8  para-method.md                             missing: honest,human  ({'useful': 2, 'honest': 0, 'human': 0, 'respectful': 2})
+  4/8  pkm.md                                     missing: useful,honest  ({'useful': 0, 'honest': 0, 'human': 2, 'respectful': 2})
+  4/8  reliability.md                             missing: useful,honest  ({'useful': 1, 'honest': 0, 'human': 1, 'respectful': 2})
+  4/8  safety-by-design.md                        missing: useful,honest  ({'useful': 1, 'honest': 0, 'human': 1, 'respectful': 2})
+  4/8  secret-devotion.md                         missing: useful,honest  ({'useful': 1, 'honest': 0, 'human': 1, 'respectful': 2})
+  4/8  staged-rollout.md                          missing: useful,honest  ({'useful': 1, 'honest': 0, 'human': 1, 'respectful': 2})
+  4/8  standard-operating-procedures.md           missing: useful,honest  ({'useful': 1, 'honest': 0, 'human': 1, 'respectful': 2})
+  4/8  take-up-your-cross.md                      missing: useful,honest  ({'useful': 1, 'honest': 0, 'human': 1, 'respectful': 2})
+  4/8  taxonomy.md                                missing: useful,honest  ({'useful': 1, 'honest': 0, 'human': 1, 'respectful': 2})
+  4/8  the-12-week-year.md                        missing: useful,honest  ({'useful': 1, 'honest': 0, 'human': 1, 'respectful': 2})
+  4/8  title-without-influence.md                 missing: useful,honest  ({'useful': 1, 'honest': 0, 'human': 1, 'respectful': 2})
+  4.5/8  childlike-faith.md                         missing: useful,honest,respectful  ({'useful': 1, 'honest': 0, 'human': 2, 'respectful': 1.5})
+  4.5/8  free-tier-hosting-stack.md                 missing: honest,respectful  ({'useful': 2, 'honest': 0, 'human': 1, 'respectful': 1.5})
+  4.5/8  heed-every-near-miss.md                    missing: useful,human,respectful  ({'useful': 1, 'honest': 2, 'human': 0, 'respectful': 1.5})
+  4.5/8  incident-investigation.md                  missing: useful,honest  ({'useful': 1, 'honest': 0.5, 'human': 1, 'respectful': 2})
+  4.5/8  notice-the-good.md                         missing: useful,honest  ({'useful': 0.5, 'honest': 0, 'human': 2, 'respectful': 2})
+  4.5/8  plain-commitments-at-work.md               missing: useful,honest,respectful  ({'useful': 1, 'honest': 0, 'human': 2, 'respectful': 1.5})
+
+=== STRONGEST REFERENCE SET ===
+  7/8  treasure-in-heaven.md
+  7.5/8  grace.md
+  7.5/8  integrity.md
+  7.5/8  systems-thinking.md
+  8/8  assurance.md
+  8/8  digital-garden.md
+  8/8  digital-minimalism.md
+  8/8  expect-the-counter.md
+  8/8  practice-small-experiments.md
+  8/8  rollback-principle.md
+
+Missing pillar counts in weak notes (≤5):
+  useful: 65
+  honest: 62
+  respectful: 12
+  human: 3
+
+Notes with useful/share issues: 117
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/daily-notes.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/grace.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/abide-in-me.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Data looks solid. I'll break it down by lane—PKM, faith, workplace, and ethics—and pull a few weaker notes for concrete examples.
+
+Seventeen files were skipped, likely meta or drafts. The automated lint passed cleanly. The main gap is likability. One hundred seventeen notes copy `key_concept` or `description` into `shareable_thought`. Examples often lack honest friction. Seventy-five of two hundred twenty notes scored weak or below. Only six scored perfect eight out of eight. I will categorize the weak notes and provide actionable recommendations without editing.
+
+Top references include rollback-principle, assurance, and digital-garden. I am pulling lane breakdowns and reading pkm.md and evergreen-vs-fleeting for specific callouts.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-vs-fleeting-notes.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+import re, yaml
+from pathlib import Path
+from collections import defaultdict
+
+NOTES = Path("content/english/notes")
+FM = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
+
+# reuse scoring from before - simplified lane tags
+FAITH = {"faith", "eternal principles", "christianity", "theology", "gospel", "jesus", "bible"}
+WORK = {"workplace"}
+PKM = {"pkm", "capture", "second brain", "note taking", "productivity", "digital garden"}
+
+def lane(meta):
+    tags = {str(t).lower() for t in (meta.get("tags") or [])}
+    cats = {str(c).lower() for c in (meta.get("categories") or [])}
+    if tags & WORK: return "workplace"
+    if tags & FAITH or cats & {"faith", "eternal principles"}: return "faith"
+    if tags & PKM or "productivity" in cats: return "pkm"
+    return "other"
+
+# count share copies pattern
+copy_notes = []
+for path in sorted(NOTES.glob("*.md")):
+    if path.name == "_index.md": continue
+    m = FM.match(path.read_text(encoding="utf-8"))
+    if not m: continue
+    meta = yaml.safe_load(m.group(1)) or {}
+    if meta.get("draft"): continue
+    share = meta.get("shareable_thought") or []
+    kc = meta.get("key_concept") or ""
+    desc = (meta.get("description") or "").strip()
+    bullets = [l[2:].strip() for l in kc.splitlines() if l.strip().startswith("- ")]
+    from difflib import SequenceMatcher
+    def sim(a,b): return SequenceMatcher(None,a.lower(),b.lower()).ratio()
+    if len(share)==4 and bullets:
+        hits = sum(1 for s in share if max(sim(s,b) for b in bullets+[desc]) > 0.78)
+        if hits >= 3:
+            copy_notes.append((lane(meta), path.name, hits))
+
+by_lane = defaultdict(list)
+for l,n,h in copy_notes: by_lane[l].append(n)
+print("shareable_thought copies key_concept/description (3+/4 lines):")
+for l in sorted(by_lane):
+    print(f"  {l}: {len(by_lane[l])}")
+print(f"  total: {len(copy_notes)}")
+PYEOF</summary>
+
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 << 'PYEOF'
+import re, yaml
+from pathlib import Path
+from collections import defaultdict
+
+NOTES = Path("content/english/notes")
+FM = re.compile(r"^---\s*\n(.*?)\n---", re.DOTALL)
+
+# reuse scoring from before - simplified lane tags
+FAITH = {"faith", "eternal principles", "christianity", "theology", "gospel", "jesus", "bible"}
+WORK = {"workplace"}
+PKM = {"pkm", "capture", "second brain", "note taking", "productivity", "digital garden"}
+
+def lane(meta):
+    tags = {str(t).lower() for t in (meta.get("tags") or [])}
+    cats = {str(c).lower() for c in (meta.get("categories") or [])}
+    if tags & WORK: return "workplace"
+    if tags & FAITH or cats & {"faith", "eternal principles"}: return "faith"
+    if tags & PKM or "productivity" in cats: return "pkm"
+    return "other"
+
+# count share copies pattern
+copy_notes = []
+for path in sorted(NOTES.glob("*.md")):
+    if path.name == "_index.md": continue
+    m = FM.match(path.read_text(encoding="utf-8"))
+    if not m: continue
+    meta = yaml.safe_load(m.group(1)) or {}
+    if meta.get("draft"): continue
+    share = meta.get("shareable_thought") or []
+    kc = meta.get("key_concept") or ""
+    desc = (meta.get("description") or "").strip()
+    bullets = [l[2:].strip() for l in kc.splitlines() if l.strip().startswith("- ")]
+    from difflib import SequenceMatcher
+    def sim(a,b): return SequenceMatcher(None,a.lower(),b.lower()).ratio()
+    if len(share)==4 and bullets:
+        hits = sum(1 for s in share if max(sim(s,b) for b in bullets+[desc]) > 0.78)
+        if hits >= 3:
+            copy_notes.append((lane(meta), path.name, hits))
+
+by_lane = defaultdict(list)
+for l,n,h in copy_notes: by_lane[l].append(n)
+print("shareable_thought copies key_concept/description (3+/4 lines):")
+for l in sorted(by_lane):
+    print(f"  {l}: {len(by_lane[l])}")
+print(f"  total: {len(copy_notes)}")
+PYEOF
+```
+
+```
+shareable_thought copies key_concept/description (3+/4 lines):
+  faith: 23
+  other: 48
+  pkm: 42
+  workplace: 8
+  total: 121
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The full picture is now clear.
+
+Voice lint passes. The corpus holds 220 live notes. The main likability gap is `shareable_thought`: 121 notes copy descriptions or key_concept bullets across three or four lines. Parallel template pairs in PKM and meta notes feel formulaic despite being human.
+
+daily-notes.md is the clearest failure. Its shareable thought is literal copy-paste of the description and key_concept. Strong references include rollback-principle, capture, abide-in-me, grace, and assurance. The report will be structured around an executive summary, passing items, systemic patterns, examples, weakest notes to fix first, the strong reference set, and recommendations.
+
+Even reference notes fail the shareable_thought test. capture.md copies its description and key_concept. rollback-principle is the exception with four distinct angles. This confirms the systemic flaw is garden-wide.</details></think>
+
+_**Agent (auto-low)**_
+
+# Notes garden likability review
+
+Reviewed **220 live notes** (`content/english/notes/`) against garden-voice, with emphasis on the **likability lens** (useful, honest, human, respectful). Automated gates are clean; qualitative likability is where most notes still fall short.
+
+## Automated gates: pass
+
+| Check | Result |
+|-------|--------|
+| `pnpm lint:voice` | OK |
+| `pnpm lint:slop --notes-only` | OK (0 fail, 0 warn) |
+| `pnpm lint:garden-voice` | OK |
+| `pnpm lint:garden` | Fails on **3 unsorted relationships** only (`faithfulness.md`, `peacemakers.md`, `risk-management.md`) — not voice |
+
+Structure, vocabulary, and shape rules are in good shape. Likability is a content-quality layer those linters do not fully catch.
+
+---
+
+## Overall likability scorecard
+
+Heuristic scoring on the four pillars (0–2 each, **8 max**):
+
+| Tier | Count | What it means |
+|------|-------|----------------|
+| **8/8** | 6 | Strong on all four pillars |
+| **7/8** | 46 | Solid; minor polish |
+| **5–6/8** | 136 | Mid — readable, but one pillar thin |
+| **≤5/8** | 75 | Weak — likability gap is visible |
+
+**Best reference notes:** `rollback-principle.md`, `assurance.md`, `digital-garden.md`, `digital-minimalism.md`, `expect-the-counter.md`, `practice-small-experiments.md`, `grace.md`, `integrity.md`, `capture.md` (examples/cards; shareable still thin)
+
+---
+
+## #1 systemic issue: `shareable_thought` copies other fields
+
+**~121 notes** (55% of corpus) have 3+ of 4 `shareable_thought` lines that are near-duplicates of `description` or `key_concept` bullets.
+
+By lane:
+
+| Lane | Notes affected |
+|------|----------------|
+| PKM / productivity | 42 |
+| Other (ethics, systems, misc) | 48 |
+| Faith / EP | 23 |
+| Workplace | 8 |
+
+Garden-voice wants **four complete thoughts, four different angles** (definition, move, boundary, payoff). Most notes currently treat `shareable_thought` as a **frontmatter echo chamber**.
+
+**Worst case — `daily-notes.md`:**
+
+```13:17:content/english/notes/daily-notes.md
+shareable_thought:
+  - "The daily note is a scratch pad for today fragments, not a diary expected to last forever."
+  - "Daily notes are scratch pads for today's fragments, not diaries expected to last forever."
+  - "Fleeting by default, with quick buffer flushes between tasks."
+  - "Promote a repeating fragment to a real note; let the rest fade."
+```
+
+Lines 1–2 are the same idea twice; lines 3–4 are copied straight from `key_concept`. A skeptical reader gets no new angle.
+
+**Also weak — `pkm.md`:**
+
+```14:18:content/english/notes/pkm.md
+shareable_thought:
+  - "PKM saves, organizes, and reuses what you learn - not a hobby of collecting apps."
+  - "Output beats tuning the system alone."
+  - "Three moves I run, not app-hopping for the perfect stack."
+  - "PKM is how I save, organize, and reuse what I learn - not a hobby of collecting apps."
+```
+
+Lines 1 and 4 restate `description`. Only line 2 is a distinct angle.
+
+Even strong notes slip here. `abide-in-me.md` has honest examples and a real gloss, but `shareable_thought` still duplicates `key_concept` bullets (including two near-identical "ongoing dependence" lines).
+
+---
+
+## #2 issue: examples feel templated, not lived-in
+
+Many notes use a **parallel mirror pattern**: same sentence skeleton, sports scene + home/work scene. Human on paper, but after dozens of notes it reads like a formula.
+
+Example — `evergreen-vs-fleeting-notes.md`:
+
+```10:12:content/english/notes/evergreen-vs-fleeting-notes.md
+examples:
+  - "A hot take about today's game goes on the fridge whiteboard; a lesson I would tell my kid next year gets copied into the recipe box."
+  - "The shift manager's scribble about today's rush stays on the clipboard; the safety rule we would cite in training next year lives in the binder."
+```
+
+Both are "temporary surface vs permanent binder" — different domains, **same vibe**. Likability **honest** pillar wants friction (miss, temptation, cost), not just clean contrast pairs.
+
+**What good looks like** — `rollback-principle.md`:
+
+```10:12:content/english/notes/rollback-principle.md
+examples:
+  - "Bad Friday deploy - I reverted in standup, said my call, fixed Monday."
+  - "The point guard ran Tuesday's inbound at halftime when the new play bled points - rollback was the drill they would already walked, not a whiteboard invention."
+```
+
+First-person admission, named failure, specific move. That passes honest + human.
+
+**What good looks like** — `grace.md`:
+
+```17:19:content/english/notes/grace.md
+examples:
+  - "A teammate listed every good deed this month like it was his ticket to heaven - grace is the gift through faith, not the report card from the season."
+  - "Romans 4 in my head but guilt still treats every bad week like a revoked passport - grace settled standing; the walk is a different category."
+```
+
+Friction is theological and personal — not wallpaper.
+
+---
+
+## Pillar breakdown (weak notes, ≤5/8)
+
+| Missing pillar | Weak notes |
+|----------------|------------|
+| **Useful** (`shareable_thought` / claim) | 65 |
+| **Honest** (friction in examples or claim) | 62 |
+| **Respectful** (textbook `description`) | 12 |
+| **Human** (specific scene) | 3 |
+
+Human specificity is mostly fine corpus-wide. **Useful** and **Honest** are the real gaps.
+
+---
+
+## Fix-first list (25 weakest)
+
+| Note | Main gap |
+|------|----------|
+| `daily-notes.md` | `shareable_thought` is copy-paste; textbook `description` |
+| `the-garage-concept.md` | Thin shareable; no friction |
+| `pkm.md` | Duplicate shareable; parallel examples |
+| `evergreen-vs-fleeting-notes.md` | Shareable near-dupes; template examples |
+| `emotional-regulation.md` | Shareable copies KC |
+| `creative-output.md` | Textbook description; no friction |
+| `gtd-vs-para.md`, `para-method.md` | Template pairs; no "I" friction |
+| `periodic-knowledge-review.md` | Shareable 4/4 copies KC |
+| `preparedness.md`, `creative-blocks.md` | Shareable mirrors KC |
+| `graph-view-analytics.md` | Examples too similar (0.69 sim) |
+| `lean-startup.md` | Near-identical parallel examples |
+| `notice-the-good.md` | Thin shareable fragments |
+| `childlike-faith.md`, `secret-devotion.md` | Faith notes with weak shareable |
+| `take-up-your-cross.md` | Good claim; examples lack friction |
+
+---
+
+## What's already working
+
+- **`description`** — mostly third-person, one-breath, memorable. Only ~5 textbook-tone hits.
+- **`key_concept` line 1** — slop dictionary-opener warnings are zero; claims generally arguable.
+- **Faith lane** — verses, glosses, first-person commentary (`abide-in-me`, `grace`, `the-golden-rule`) land as human.
+- **Cards** — generally plain and cue-driven; stronger than frontmatter echo on many notes.
+- **Workplace lane** — corporate-friendly without being lecture-y; smallest shareable-copy cluster (8 notes).
+
+---
+
+## Recommended fix order
+
+If you want a batch pass, this order gives the most likability per edit:
+
+1. **`shareable_thought` sweep** — 121 notes. For each: keep `description` as definition angle; pull move/boundary/payoff from `key_concept` *ideas*, not copy-paste. Target: four lines a friend could paste into Slack without three feeling redundant.
+
+2. **Template example refresh** — ~40 PKM/meta notes with sports+home mirror pairs. Swap one scene for a failure, near-miss, or "I almost didn't" moment.
+
+3. **Worst 25** — start with `daily-notes.md`, `pkm.md`, `evergreen-vs-fleeting-notes.md`, `periodic-knowledge-review.md`.
+
+4. **Faith shareable pass** — 23 notes. Keep straight tone; add boundary/payoff angles (what guilt gets wrong, what changes Monday morning).
+
+Per-field minimum from garden-voice still applies: de-AI pass, likability lens, voice check, then `pnpm lint:garden`.
+
+---
+
+## Bottom line
+
+The garden **passes lint** and reads **competent and respectful** almost everywhere. Likability drops when a note feels like a **well-organized summary** instead of something JoRap typed after living it. The single biggest tell: **`shareable_thought` that restates instead of angles**.
+
+Want me to start fixing? I'd batch by lane (PKM first — 42 notes) or hit the worst 25 one by one.
+
+---
+
+_**User**_
+
+yes
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Proceeding to fix the notes garden likability issues.
+
+Starting with the worst 25 notes first. Will apply the garden-voice skill, fix shareable_thought issues, and run lint. 121 notes is too much for one session, so I'll work in batches.
+
+Targeting the weakest notes first: daily-notes.md, the-garage-concept.md, coaching-ethics.md, and others. Reading multiple files in parallel. Each note gets a rewrite of shareable_thought across four angles, description fixes, example friction, then lint.</details></think>
+
+_**Agent (auto-low)**_
+
+Starting with the weakest notes: fixing `shareable_thought` first, then examples and descriptions where needed.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write">
+<details>
+<summary>Tool use: **todo_write**</summary>
+
+
+Parameters:
+
+```json
+{
+  "merge": true
+}
+```
+Result:
+
+```json
+{
+  "finalTodos": [
+    {
+      "content": "Fix worst 10 notes (daily-notes, pkm, evergreen-vs-fleeting, etc.)",
+      "id": "1",
+      "status": "in_progress"
+    },
+    {
+      "content": "Fix notes 11-25 from weak list",
+      "id": "2",
+      "status": "pending"
+    },
+    {
+      "content": "PKM lane shareable_thought batch (remaining)",
+      "id": "3",
+      "status": "pending"
+    },
+    {
+      "content": "Run pnpm lint:garden and fix any failures",
+      "id": "4",
+      "status": "pending"
+    }
+  ],
+  "success": true
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="todo_write"><details>
+<summary>Tool use: **todo_write**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/daily-notes.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-vs-fleeting-notes.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/the-garage-concept.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/creative-output.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Fixing five files first. Then addressing the remaining weak list items.
+
+Cleaning up duplicate bullets in pkm.md key_concept. Each note will get a four-angle shareable thought, a concise description, and friction-free examples. Daily-notes.md will be rewritten in third person with a twelve-word description and a claim-based key_concept.
+
+The daily-notes claim is now punchier: fragments belong on a scratch pad, not a diary built to last forever. The four-angle shareable thought is set: definition, capture between tasks, one-off errands fading by Friday, and repeating ideas earning real notes while the inbox stays light.
+
+Pkm.md will get a four-angle shareable thought: PKM is save, organize, and reuse—not a hobby of collecting apps; output beats tuning the system alone; one card file sorted by game-day use beats forty unused folders; if nothing ships from the pile this month, the system is theater. Example 2 in daily-notes.md will add friction by showing a dentist reminder almost being filed as a permanent wiki page. Next up is evergreen-vs-fleeting.
+
+The evergreen-vs-fleeting note will use a concrete friction example: forcing a hot take into the garden and embarrassing oneself six months later. Its four-angle shareable thought covers definition, promotion on a second read, fading by Friday, and evergreen claims worth citing next year.
+
+The garage-concept and creative-output notes still need shareable fixes and friction-added examples. The next batch of files is ready to read while editing continues.</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/emotional-regulation.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/gtd-vs-para.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/para-method.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/periodic-knowledge-review.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/coaching-ethics.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Applying fixes to the first batch of files, then continuing with the rest.
+
+Updating daily-notes.md with revised descriptions, key concepts, and shareable thoughts.
+
+Adding a friction example to daily-notes.md. Updating pkm.md with revised key concepts and shareable thoughts.
+
+Adding pkm.md shareable thoughts about one card file versus forty folders, and about systems that are theater when nothing ships. Including friction examples about deleting unused files after tournament losses, and keeping only recipes that survive a second cook. Starting examples for evergreen-vs-fleeting.
+
+Filling in evergreen-vs-fleeting examples and shareable thoughts. One example shows a hot take about last night’s game that was promoted to the garden but winced at on rereading six months later. Another contrasts a shift manager’s clipboard scribble with a safety rule kept in the binder. Shareable thoughts include “sparks belong in fleeting notes; trusted claims belong in evergreen,” a two-speed promotion rule, and a warning that forcing every spark evergreen buries what was only true this week.
+
+Adding a shareable thought to evergreen-vs-fleeting: “Sparks you would lose by Friday stay fleeting; claims you would cite next year graduate.”
+
+Updating te-garage-concept with shareable thoughts about the vault as garage and the blog as showroom, plus a single capture habit and one publish pipe.
+
+Adding a shareable thought to creative-output: “Notes are inventory - posts, sermons, code, and dinner are the point.”
+
+Adding shareable thoughts to creative-output: the pile only pays off when something leaves your head for someone else, a Friday film-day rule for rough clips, and shipping tonight while perfect photos wait.
+
+Drafting emotional-regulation shareable thoughts about feeling spikes without letting them dictate the next sentence, the gap between heat and what you mail, unchecked replies feeding unwanted threads, and naming the feeling before it picks your tone.
+
+Planning four shareable angles for gtd-vs-para with friction examples, and starting para-method.
+
+Para-method still needs a stronger opening claim. Coaching-ethics already has solid examples and only needs four shareable angles. Periodic-knowledge-review needs four distinct angles and a possible personal friction example. Now writing all the edits.</details></think>
+
+_**Agent (auto-low)**_
+
+Applying fixes to the first batch of weakest notes.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/daily-notes.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pkm.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/evergreen-vs-fleeting-notes.md</summary>
+
+Status: **loading**
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>

@@ -8,7 +8,7 @@ key_concept: |
   - Cousins, not competitors - same capture habit, two lanes.
   - The failure mode is doubling admin: one inbox emptied weekly, tasks in the task app, notes in the garden.
 examples:
-  - "The practice schedule lives in the task app; the playbook principles live in the notes folder - GTD runs tasks, PARA runs knowledge, cousins not competitors."
+  - "I tried running playbook principles through the task app and lost half of them in completed lists - tasks need GTD, principles need PARA."
   - "The fridge list holds what we buy this week; the filing cabinet holds school forms with no deadline."
 shareable_thought:
   - "GTD vs PARA runs tasks in one system and notes in another - cousins, not rivals."

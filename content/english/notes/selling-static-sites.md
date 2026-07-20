@@ -18,10 +18,10 @@ examples:
   - "Neighbor asked for a portfolio - quoted build, domain, and a modest hosting line; no mystery monthly package."
   - "Pastor wanted a sermon archive - static fit; said no to member login and scoped brochure plus archive pages only."
 shareable_thought:
-  - "I charge for the build and pass-off; hosting is a clear line item, not a mystery monthly bundle."
-  - "My margin is labor, not hosting markup."
+  - "Charge for the build and pass-off; hosting is a clear line item, not a mystery bundle."
   - "Domain (~$12/year) and hosting priced as their own lines."
   - "No bundled fog that hides labor behind server rent."
+  - "Pass-off models (pick one with Plain Commitments at Work clarity): see Client Site Pass-Off."
 relationships:
   - type: contradicts
     wikilink: "[[Building a Personal API]]"

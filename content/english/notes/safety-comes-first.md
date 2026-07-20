@@ -10,9 +10,9 @@ examples:
   - "A teammate wanted to play through a head hit - I did not \"support his call\"; I got the trainer."
   - "My kid wanted to ride in the truck bed on a bumpy road - \"your choice\" ended at the seatbelt."
 shareable_thought:
-  - "I stop the unsafe thing first, then restore choice when the situation is stable."
-  - "Respect is not letting harm run."
-  - "Respect does not mean I ignore danger - I stop serious harm first, then restore choice when it is safe."
+  - "Stop the unsafe thing first, then restore choice when the situation is stable."
+  - "Respect does not mean I ignore danger."
+  - "I stop serious harm first, then restore choice when it is safe."
   - "The choice they lose is narrow and temporary."
 relationships:
   - type: contradicts

@@ -11,9 +11,9 @@ examples:
   - "Third time we let the ladder stay on the stairs and nobody moved it - until someone tripped carrying laundry."
 shareable_thought:
   - "Repeated close calls slowly redefine 'normal' until disaster feels surprising but was predictable."
+  - "By the fourth or fifth time, the shortcut is not even a decision anymore."
+  - "It is just how things are done here."
   - "The third unchallenged shortcut is the warning - not the accident that finally forces a meeting."
-  - "Heed Every Near-Miss logs each close call; Blameless After-Action Review when \"nobody died\" cannot end the talk."
-  - "By the fourth or fifth time, the shortcut is not even a decision anymore - it is just how things are done here."
 relationships:
   - type: contradicts
     wikilink: "[[Blameless After-Action Review]]"

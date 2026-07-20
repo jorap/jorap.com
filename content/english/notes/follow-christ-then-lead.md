@@ -17,10 +17,10 @@ examples:
   - "Finance wanted the numbers softened and my team was watching - follow Christ, then lead was refuse the edit, explain why calmly, and own the fallout together."
   - "Sunday school asked me to skip the hard verse because parents might leave - I taught it plain anyway, then stayed after to answer questions - follow first, lead the room second."
 shareable_thought:
-  - "When leadership pressure and Christ's command collide, I follow Christ first - then lead from that footing."
-  - "Discipleship vs Leadership names two seats - upward allegiance and outward care."
-  - "God Centered Design asks who the plan ultimately serves before I optimize the slide."
-  - "Ethical Leadership is what the team can see - but visible integrity without private obedience is sand."
+  - "When leadership pressure and Christ command collide, follow Christ first - then lead from that footing."
+  - "Discipleship vs Leadership names two seats."
+  - "Upward allegiance and outward care."
+  - "Gospel depth: Abide in Me."
 relationships:
   - type: alternative
     wikilink: "[[Outcomes Over Pitch Decks]]"

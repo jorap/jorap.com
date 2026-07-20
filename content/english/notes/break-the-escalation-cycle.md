@@ -13,10 +13,10 @@ examples:
   - "A parent emailed the principal with a snarky line about our field trip delay - I deleted my matching draft, answered the fact, offered the new date, and broke the reply-all war before it started."
   - "My kid snapped first at dinner and I almost matched the volume - I named what happened, lowered my voice, and refused to pour fuel on it."
 shareable_thought:
-  - "Break the escalation cycle - do not match tone for tone when a sharp email lands; stop the loop first."
-  - "Refuse to match insult for insult - break the loop before tone for tone takes over."
-  - "I just refuse to become what hurt me in the thread."
-  - "Stop throwing anger after sunk hurt - break the loop before tone for tone takes over."
+  - "Break the escalation cycle."
+  - "Do not match tone for tone when a sharp email lands; stop the loop first."
+  - "Refuse to match insult for insult."
+  - "Break the loop before tone for tone takes over."
 relationships:
   - type: contradicts
     wikilink: "[[Sunk Cost Fallacy]]"

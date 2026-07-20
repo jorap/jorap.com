@@ -28,10 +28,10 @@ examples:
   - "My kid asked if God likes him yet - I said God already declared him righteous the moment he trusted Christ, not when his room got clean."
   - "I snapped at the cashier and felt like I was back on probation with God - justification means my standing was settled at faith; confession restores fellowship, it does not re-buy heaven."
 shareable_thought:
-  - "God declared me righteous at faith - before my obedience caught up."
-  - "The tax collector went home justified because he humbled himself before God, not because he outperformed the Pharisee."
-  - "Paul names the verdict: justified as a gift by grace, Christ's redemption, not my performance."
-  - "Confession restores fellowship, it does not re-buy heaven."
+  - "God declared me righteous at faith."
+  - "Before my obedience caught up."
+  - "The tax collector went home justified."
+  - "Humility before God, not self-promotion, is what Jesus commended."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

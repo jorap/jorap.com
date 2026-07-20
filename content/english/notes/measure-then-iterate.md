@@ -12,10 +12,10 @@ examples:
   - "We tracked checkout time for two weeks after one fewer tap - measure then iterate meant keeping the change when seconds dropped, reverting when they did not."
   - "I logged how many notes I actually reviewed on the jeepney for fourteen days - measure then iterate beat another app rebuild based on guilt."
 shareable_thought:
-  - "I name what to measure, gather signal, then reprioritize - not guess and overhaul."
+  - "Name what to measure, gather signal, then reprioritize - not guess and overhaul."
   - "Transformation without a number is just enthusiasm with amnesia."
+  - "Measure then iterate means define what would prove the change worked, watch it for one cycle, then adjust."
   - "Failure as Feedback reads a miss; Continuous Improvement tweaks the process; Practice Small Experiments keeps trials small."
-  - "Product lane: Lean Startup - build, measure, learn before you scale."
 relationships:
   - type: contradicts
     wikilink: "[[Outcomes Over Pitch Decks]]"

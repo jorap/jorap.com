@@ -10,10 +10,10 @@ examples:
   - "The rush hit and I jumped on dishes while the line cook called tickets - versatile without pretending I suddenly ran the grill."
   - "Sick day meant I became lunch packer, tutor, and IT help - versatility is more than one lane when the day shifts."
 shareable_thought:
-  - "I can plug into more than one lane when the team or the client needs a shift."
-  - "You can contribute in more than one lane when the team or the market shifts."
+  - "Plug into more than one lane when the team or the client needs a shift."
   - "Nobody schedules the sick day or the rush."
   - "Versatility is just having more than one answer ready when they hit."
+  - "You can contribute in more than one lane when the team or the market shifts."
 relationships:
   - type: contradicts
     wikilink: "[[Pareto Principle]]"

@@ -4,17 +4,16 @@ meta_title: "Standard Operating Procedures - Written Defaults the Team Can Run"
 description: "Short written steps for deploys and incidents so nobody improvises when the clock is loud."
 key_concept: |
   - SOPs are simple written steps for recurring work - so nobody improvises under stress.
-  - I write short steps for deploys and incidents so nobody has to improvise when the clock is loud.
-  - Written steps beat improvisation when stress shrinks working memory.
-  - The checklist is not an insult to competence - it is what competence looks like when adrenaline is running the show.
+  - Short deploy and incident steps beat memory when adrenaline shrinks working memory.
+  - The checklist is not an insult to competence - it is competence when the clock is loud.
 examples:
   - "The closing routine after every match - ice, tape, log the injury - lives on the locker-room whiteboard so nobody improvises when everyone's exhausted."
   - "The building guard walks the posted evacuation route he practiced on quiet shifts - written steps when the alarm trips loud."
 shareable_thought:
-  - "I write short steps for deploys and incidents so nobody has to improvise when the clock is loud."
+  - "Short written steps for deploys and incidents so nobody improvises when the clock is loud."
+  - "The checklist is not an insult to competence."
+  - "It is competence when the clock is loud."
   - "SOPs are simple written steps for recurring work - so nobody improvises under stress."
-  - "Written steps beat improvisation when stress shrinks working memory."
-  - "The checklist is not an insult to competence - it is what competence looks like when adrenaline is running the show."
 relationships:
   - type: contradicts
     wikilink: "[[Adaptability]]"

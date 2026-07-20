@@ -14,8 +14,8 @@ examples:
 shareable_thought:
   - "A clear outcome anchors daily choices."
   - "Without it, urgency picks the agenda."
-  - "If I cannot name where we are headed, every ping feels equally important."
   - "Faith lane: Seek the Kingdom First."
+  - "God's reign before my inbox rewrites the morning."
 relationships:
   - type: contradicts
     wikilink: "[[Signal vs Noise]]"
@@ -55,8 +55,8 @@ cards:
     back: "Name the one outcome for the year."
   - front: "Tuesday morning and Slack is rewriting my priorities again. What should have been set first?"
     back: "The outcome worth the tradeoffs."
-  - front: "Vision poster on the wall but calendar says otherwise. What is vision for?"
-    back: "Filter Tuesday's calendar - not decoration."
+  - front: "Vision poster on the wall but calendar says otherwise. What should vision do to Tuesday?"
+    back: "Filter Tuesday's calendar - vision is not decoration."
 draft: false
 ---
 

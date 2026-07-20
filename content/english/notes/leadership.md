@@ -11,9 +11,9 @@ examples:
   - "The blackout hit our block and one neighbor set pace - who checks on elders, who handles the generator - direction and care when people look to you."
 shareable_thought:
   - "Leadership is owning direction, pace, and care when people look to you - title optional."
-  - "You take responsibility for direction, pace, and care when people look to you - title optional."
+  - "Pace matters as much as direction."
+  - "Calm urgency beats either panic or drift."
   - "Care means the people counting on you still feel seen when the pressure spikes."
-  - "When people look to you, they need someone to set direction - not just a name on the org chart."
 relationships:
   - type: contradicts
     wikilink: "[[Servant Leadership]]"

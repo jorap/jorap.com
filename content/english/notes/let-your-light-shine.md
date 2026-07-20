@@ -17,10 +17,10 @@ examples:
   - "I brought extra water for the whole bench and almost posted about it - the light is not for my brand; it is so someone sees good work and thinks God is real."
   - "I covered a coworker's shift quietly and almost made it a LinkedIn moment - let your light shine so the Father gets credit, not my personal brand."
 shareable_thought:
-  - "Good works are not for hiding - let people see the Father in how I live, not perform for applause."
-  - "City on a hill cannot hide - let good works shine so people glorify the Father, not my personal brand."
-  - "The point is not performance for applause - Jesus warns against practicing righteousness to be seen by people."
-  - "Good works shine so God gets credit for Free Grace at work in a saved life, not so I build a personal brand."
+  - "Good works are not for hiding."
+  - "Let people see the Father in how you live, not perform for applause."
+  - "City on a hill cannot hide."
+  - "Let good works shine so people glorify the Father, not my personal brand."
 relationships:
   - type: alternative
     wikilink: "[[Drafting in Public]]"

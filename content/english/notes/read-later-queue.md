@@ -11,7 +11,7 @@ examples:
   - "I saved forty highlight reels and watched twelve - the queue was guilt storage, not training."
   - "Four hundred saved articles on my phone and I would read twelve - parking lot, not reading."
 shareable_thought:
-  - "Save for later is fine until the queue turns into a guilt pile I will never touch."
+  - "Save for later is fine until the queue turns into a guilt pile never touched."
   - "A parking lot for links you will process later."
   - "Dangerous if it becomes a graveyard."
   - "Save-for-later is capture with a trap door."

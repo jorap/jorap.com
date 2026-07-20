@@ -5,17 +5,17 @@ description: "Peace is Spirit-grown calm in believers who trust the Father - not
 key_concept: |
   {{< bible "Galatians 5:22-23" >}}
   - Fruits of the Spirit lists peace beside love and joy - inner calm from God's reign, not denial.
-  - [[do not Worry]] is the trust echo: stop borrowing tomorrow's trouble.
-  - [[Peacemakers]] is the active echo: pursue reconciliation, not just keep quiet.
-  - [[Seek the Kingdom First]] orders the week before anxiety sets the agenda - same fruit, two moves - rest in the Father, work for peace where you can.
+  - Stop borrowing tomorrow's trouble - the trust echo when anxiety replaces rest.
+  - Pursue reconciliation where you can - peacemaking is the active echo, not silence only.
+  - Order the week before anxiety sets the agenda - seek the kingdom first, then act.
 examples:
   - "I thumb-refreshed the news at 2am instead of sleeping - peace fruit was pray first, then act on what I can actually change."
   - "Two coworkers wanted me to pick a side - peace was not avoiding them; it was asking what it would take to fix things."
 shareable_thought:
   - "Peace is Spirit-grown calm in believers who trust the Father - not silence at any price."
   - "Fruits of the Spirit lists peace beside love and joy - inner calm from God's reign, not denial."
-  - "Do not Worry is the trust echo: stop borrowing tomorrow's trouble."
-  - "Peacemakers is the active echo: pursue reconciliation, not just keep quiet."
+  - "Stop borrowing tomorrow's trouble - the trust echo when anxiety replaces rest."
+  - "Pursue reconciliation where you can - peacemaking is the active echo, not silence only."
 relationships:
   - type: contradicts
     wikilink: "[[Love Your Enemies]]"

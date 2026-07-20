@@ -4,9 +4,9 @@ meta_title: "Discern His Will Daily - Romans 12:2 Outcome"
 description: "A renewed mind can test what God wants - good and acceptable and perfect - without culture's noise picking first."
 key_concept: |
   {{< bible ref="John 7:16-18" emphasize="17" >}}
-
+  
   - Willing to obey first - then you can tell whether the teaching is God's or noise.
-
+  
   - Romans 12:2's outcome: so that you may prove what the will of God is - good, acceptable, and perfect - not mystical lottery after Scripture and prayer reshape judgment.
   - [[Renewed Mind]] is the engine; this is what it enables at the fork.
   - [[Take Up Your Cross]] is choosing His will over mine - discernment names the fork.
@@ -19,8 +19,8 @@ examples:
 shareable_thought:
   - "A renewed mind can test what God wants."
   - "Good and acceptable and perfect - without culture's noise picking first."
-  - "Romans 12:2's outcome: so that you may prove what the will of God is, that which is good and acceptable and perfect."
-  - "Take Up Your Cross is choosing His will over mine."
+  - "Willing to obey first - then you can tell whether the teaching is God's or noise."
+  - "Romans 12:2's outcome: so that you may prove what the will of God is."
 relationships:
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"
@@ -30,7 +30,7 @@ relationships:
     reason: "Seek in Scripture - asking without opening the Book leaves discernment on defaults"
   - type: extends
     wikilink: "[[Decision Quality]]"
-    reason: Better calls when inputs are not all culture noise
+    reason: "Better calls when inputs are not all culture noise"
   - type: extends
     wikilink: "[[God Centered Design]]"
     reason: "Discernment orders the aim toward His glory, not applause"

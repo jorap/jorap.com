@@ -14,10 +14,10 @@ examples:
   - "Thumb on another buy I do not need - will this rust, or store something heaven-side like mercy and obedience?"
   - "I almost chased a sponsorship for the ego, not the team - treasure check: where will this matter in ten years?"
 shareable_thought:
-  - "I store up what lasts."
-  - "Generosity and obedience - not what rust, moth, and thieves can take."
+  - "Store up what lasts - generosity and obedience - not what rust, moth, and thieves can take."
+  - "Earthly stuff rusts and gets stolen."
+  - "Where your treasure is, your heart follows; store what lasts."
   - "Earthly treasure is fragile; heavenly treasure is tied to faithful service and generosity after salvation."
-  - "Free Grace already secured heaven; Eternal Rewards names what the Father pays the saved life for faithfulness - not the entry fee."
 relationships:
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"

@@ -12,10 +12,10 @@ examples:
   - "The market scale stays honest when the seller steps away to take a call - I could have scooped light on the last bag of rice; instead I re-weighed it before the customer came back."
   - "I ran the real spelling check on the homework when my kid was not looking over my shoulder."
 shareable_thought:
-  - "Do the honest work when there is no audience."
+  - "Do the honest work when there's no audience."
   - "Accurate time logs, real tests, the fix nobody asked for yet."
+  - "Do the honest work when there is no audience."
   - "Performance for the standup is its own reward and a small one."
-  - "Some good work should stay hidden; some should shine in Let Your Light Shine."
 relationships:
   - type: alternative
     wikilink: "[[Let Your Light Shine]]"

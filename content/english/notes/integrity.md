@@ -10,9 +10,9 @@ examples:
   - "I could have counted a late hit as legal when the ref looked away - integrity is the same call whether anyone's watching or not."
   - "I could have scooped light on flour when the rush got loud - integrity is what you do matches what you claim, especially when it costs comfort."
 shareable_thought:
-  - "What I do matches what I claim when applause, speed, or comfort are not watching."
-  - "What you do matches what you claim."
+  - "What you do matches what you claim when applause, speed, or comfort are not watching."
   - "Especially when it costs applause, speed, or comfort."
+  - "What I do matches what I claim when applause, speed, or comfort are not watching."
   - "Integrity is doing what you said matters when it costs something - not only when someone's watching."
 relationships:
   - type: contradicts

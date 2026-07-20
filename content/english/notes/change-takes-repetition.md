@@ -60,9 +60,9 @@ cards:
   - front: "Inbound play still sloppy after one inspirational speech. What's actually missing?"
     back: "Six weeks same rep - Tuesday, not the pep talk."
   - front: "Capture habit died after the weekend I reorganized every app. What sells change?"
-    back: "Same ten-minute block for months."
+    back: "Keep the same ten-minute block for months - not another shuffle."
   - front: "Team wants a transformation offsite to fix culture. What's the honest shape?"
-    back: "Same levers repeated - not one breakthrough day."
+    back: "Repeat the same small levers for weeks - not one breakthrough day."
   - front: "I'm waiting for motivation before I run the move again. Repetition reframe?"
     back: "The system bends on Tuesdays - not on inspiration."
 draft: false

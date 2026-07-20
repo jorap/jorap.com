@@ -14,8 +14,8 @@ examples:
 shareable_thought:
   - "The Pareto principle is the 80/20 rule."
   - "Most results come from a small slice of effort."
-  - "Named for Vilfredo Pareto (roughly 80% of results from 20% of effort - shorthand, not a law)."
   - "Same rule for flashcards: only spine notes carry review: true here."
+  - "PKM habits plus six Eternal Principles with cards, not every faith note in the garden."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

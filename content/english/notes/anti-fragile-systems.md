@@ -10,10 +10,10 @@ examples:
   - "When the gym's booking app shut down for good, my paper training log still had every set - I photocopy it once a quarter so I am not rebuilding history from memory."
   - "The shop switched POS systems twice and the owner kept a plain spreadsheet backup - exports she actually opens, not trust in the vendor forever."
 shareable_thought:
-  - "I build on plain files and open formats so an app shutdown does not erase years of notes."
+  - "Note systems survive app shutdowns when built on plain files, open formats, and tested backups."
   - "Note systems that survive app shutdowns."
   - "Plain files, open formats, and backups I actually test."
-  - "Test backups while the app still works - not after the export dies."
+  - "I build on plain files and open formats so an app shutdown does not erase years of notes."
 relationships:
   - type: contradicts
     wikilink: "[[Building a Personal API]]"

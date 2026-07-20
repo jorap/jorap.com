@@ -19,9 +19,9 @@ examples:
   - "One mission trip in my head as my whole eternal report card - the master reviews faithful use over years, including quiet Tuesdays nobody clapped for."
 shareable_thought:
   - "After salvation is settled, stewardship is about faithful use of what God entrusted, not buying heaven with busy weeks."
-  - "Free Grace settled where I spend forever."
+  - "Well done for faithful use of what He entrusted."
+  - "Quiet Tuesdays count, not one heroic mission trip."
   - "The master returns to settle accounts."
-  - "Faithful use repaid, buried talent rebuked."
 relationships:
   - type: contradicts
     wikilink: "[[Free Grace]]"

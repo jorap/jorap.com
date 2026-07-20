@@ -3,19 +3,17 @@ title: "PKM"
 meta_title: "PKM - Personal Knowledge Management in Plain Language"
 description: "PKM saves, organizes, and reuses what you learn - not a hobby of collecting apps."
 key_concept: |
-  - PKM is the plain name for the save-organize-use system getting started introduces (Getting Started).
-  - Save, organize, reuse - output beats tuning the system alone.
-  - Save, organize, reuse - three moves I run, not app-hopping for the perfect stack.
-  - PKM is the plain name for the save-organize-use system getting started introduces (Getting Started).
+  - Save, organize, reuse - three moves, not app-hopping for the perfect stack.
   - Output beats tuning the system alone.
+  - This garden is where reuse happens after capture.
 examples:
-  - "The team manager keeps a card file sorted by what she actually uses on game day, not every article she ever read."
-  - "The phone Notes app only keeps recipes cooked twice, not every recipe ever screenshotted."
+  - "The team manager keeps a card file sorted by what she actually uses on game day - she deleted half of it last spring after a loss reminded her what she never opened."
+  - "I screenshotted forty recipes last year and cooked four - the Notes app only keeps what survived a second cook."
 shareable_thought:
   - "PKM saves, organizes, and reuses what you learn - not a hobby of collecting apps."
+  - "Save, organize, reuse - three moves, not app-hopping for the perfect stack."
   - "Output beats tuning the system alone."
-  - "Three moves I run, not app-hopping for the perfect stack."
-  - "PKM is how I save, organize, and reuse what I learn - not a hobby of collecting apps."
+  - "This garden is where reuse happens after capture."
 relationships:
   - type: alternative
     wikilink: "[[GTD vs PARA]]"

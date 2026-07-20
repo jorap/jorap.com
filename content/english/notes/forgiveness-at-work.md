@@ -12,9 +12,9 @@ examples:
   - "I kept mentally scoring a coworker who embarrassed me in a staff meeting six months ago - I stopped bringing that score into every shift and still wrote down what I would need to trust him on the next busy Saturday."
 shareable_thought:
   - "Release a colleague debt from the heart without pretending the slight did not matter or skipping boundaries where trust broke."
-  - "Stop ledger-keeping - do not collect forever on a debt that poisons work."
+  - "Release a colleague's debt without pretending the slight did not matter."
   - "Forgiving is not pretending it did not hurt."
-  - "Gospel depth: Forgiveness - same math as Sunk Cost Fallacy - stop treating old hurt as an asset you are owed."
+  - "Stop ledger-keeping - do not collect forever on a debt that poisons work."
 relationships:
   - type: contradicts
     wikilink: "[[Sunk Cost Fallacy]]"

@@ -16,9 +16,9 @@ examples:
   - "The department head ran weekly syncs nobody prepared for because nothing from those rooms changed how work got done - badge on the calendar, zero followership in the hall."
 shareable_thought:
   - "A title borrows authority; if nobody moves when you speak, you are managing paperwork, not leading."
-  - "Leadership Is Influence flips the test: leadership is not the walk you take alone - it is whether anyone follows."
-  - "Directives the crew waits out until the senior tech returns."
-  - "Pulling rank because the slide says director while trust sits with someone else."
+  - "Leadership Is Influence flips the test: leadership is not the walk you take alone."
+  - "It is whether anyone follows."
+  - "Ethical Leadership still applies - what you tolerate becomes their standard even when they are only complying on paper."
 relationships:
   - type: alternative
     wikilink: "[[Influence Without Title]]"

@@ -13,8 +13,8 @@ key_concept: |
 shareable_thought:
   - "The loops you build on purpose."
   - "Habits, feedback, review, recovery - so skill compounds when motivation doesn't show up."
-  - "Pressure Reveals Weakness covers what holds when heat rises; this hub covers what you install on ordinary Tuesdays."
-  - "Install the loops on ordinary Tuesdays - not only when results are due."
+  - "Systems for growth are the loops I build on purpose."
+  - "Habits on ordinary Tuesdays, not crisis heroics."
 relationships:
   - type: alternative
     wikilink: "[[Pressure Reveals Weakness]]"

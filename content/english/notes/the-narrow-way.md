@@ -20,9 +20,9 @@ examples:
   - "Everyone cheered the dirty play that won - the narrow way was passing it up when the ref did not see, even alone on the bench."
 shareable_thought:
   - "The road to life is narrow and hard."
-  - "The easy broad path is the one I would drift onto."
-  - "Jesus closes the Sermon on the Mount with a fork: not everyone who says \"Lord, Lord\" enters."
-  - "Those are false professors who never truly believed, not believers who stumbled."
+  - "The easy broad path is the one most drift onto."
+  - "Broad road is crowded and easy; narrow gate costs self-rule."
+  - "Few find it, but it is the one Jesus named."
 relationships:
   - type: alternative
     wikilink: "[[Loss of Reward]]"

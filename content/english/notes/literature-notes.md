@@ -10,10 +10,10 @@ examples:
   - "I wrote one paragraph on the coach's chapter about zone defense, not yellow highlights on every page."
   - "The PTA recap was what I actually remembered from the meeting, not a transcript of every speaker."
 shareable_thought:
-  - "After I read a source, I write what stuck in my own words - not a pile of copied highlights."
-  - "Notes about a source in your own words - not a highlight dump."
+  - "After reading a source, write what stuck in your own words - not a pile of copied highlights."
   - "Source notes stay tied to the book or talk."
   - "Your atoms link out, not the other way around."
+  - "Notes about a source in your own words - not a highlight dump."
 relationships:
   - type: contradicts
     wikilink: "[[The Collector's Fallacy]]"

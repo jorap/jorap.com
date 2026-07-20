@@ -25,8 +25,8 @@ examples:
 shareable_thought:
   - "A saved believer can still lose reward."
   - "Worthless works burn, eternal life stays secure on Christ."
-  - "Saved through fire with loss."
-  - "Two ledgers: eternal life on Christ, reward on what lasted."
+  - "Faithful use compounds; buried talent loses even what was given."
+  - "Reward can shrink without un-saving you."
 relationships:
   - type: alternative
     wikilink: "[[The Narrow Way]]"

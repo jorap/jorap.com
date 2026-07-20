@@ -15,8 +15,8 @@ examples:
 shareable_thought:
   - "Say yes or no clearly."
   - "No \"definitely maybe,\" no stack of qualifiers so people trust a weak promise."
-  - "If my word needs hype to sound believable, the problem is weak Complete the Cycle, not the sentence."
-  - "One deadline, one owner, one plain answer in Slack."
+  - "Say yes or no plainly."
+  - "Hype on a weak promise is the real problem."
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Viable Product]]"

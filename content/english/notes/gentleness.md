@@ -15,9 +15,9 @@ examples:
   - "I helped a neighbor move and waited for credit in the group chat - gentleness fruit serves without grasping for status."
 shareable_thought:
   - "Gentleness fruit is strength held back on purpose, not weakness or loud correction that skips love."
-  - "Gentleness is power restrained, not power absent."
+  - "Fruits of the Spirit lists gentleness beside patience and self-control - power restrained, not power absent."
   - "Hear before you prescribe - loud correction without love is not Spirit-grown gentleness."
-  - "The Beatitudes bless the meek - strength without grasping for status."
+  - "Strength without grasping for status."
 relationships:
   - type: alternative
     wikilink: "[[Self-Control]]"

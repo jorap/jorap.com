@@ -19,8 +19,8 @@ key_concept: |
 shareable_thought:
   - "Learn less, retain longer, apply more."
   - "I opt notes into drill cards when recall and use in real life matter, and export to Anki when I want SRS on my phone."
+  - "Cards exist so the right move loads when life shows up."
   - "Guiding principle: Learn less, retain longer, and apply more."
-  - "The question: Can I recall and use this knowledge when it matters?"
 slug: "flashcards"
 date: "2026-06-18 08:00:00+00:00"
 image: "/images/note.jpg"

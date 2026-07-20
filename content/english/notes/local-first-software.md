@@ -3,7 +3,8 @@ title: "Local-first Software"
 meta_title: "Local-first Software for Notes"
 description: "Local-first means my device holds the truth; sync is optional icing - backup should behave the same way."
 key_concept: |
-  - Local-first means your device holds the truth; choose what's public, what's private, and what gets encrypted.
+  - Truth lives on the device first; cloud sync is backup, not the vault.
+  - Choose what is public, what stays private, and what gets encrypted before it leaves the room.
   - Sync should merge edits without picking last-write-wins by clock alone.
 examples:
   - "If the phone dies mid-grocery run, the list on the fridge still works."
@@ -11,8 +12,8 @@ examples:
 shareable_thought:
   - "Local-first means my device holds the truth; sync is optional icing."
   - "Backup should behave the same way."
-  - "Local-first means your device holds the truth; choose what's public, what's private, and what gets encrypted."
-  - "Sync should merge edits without picking last-write-wins by clock alone."
+  - "Truth lives on the device first; cloud sync is backup, not the vault."
+  - "Choose what is public, what stays private, and what gets encrypted before it leaves the room."
 relationships:
   - type: alternative
     wikilink: "[[Building a Personal API]]"

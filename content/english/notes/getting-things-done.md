@@ -4,7 +4,7 @@ meta_title: "Getting Things Done"
 description: "David Allen's capture-clarify-organize loop gives a trusted inbox, next actions, and a weekly review."
 key_concept: |
   - GTD is David Allen's capture-clarify-organize loop for a trusted inbox, next actions, and weekly review.
-
+  
   - GTD vs PARA splits tasks from notes; Allen owns the task side.
   - Tasks and notes live in separate systems - capture and weekly review own the task lane.
   - Allen's task-inbox system: capture everything, clarify next actions, trust the weekly review.
@@ -13,7 +13,7 @@ examples:
   - "Commute errands and neighbor requests hit one pocket notebook - each item gets a next action so nothing rots as background worry."
 shareable_thought:
   - "David Allen's capture-clarify-organize loop gives a trusted inbox, next actions, and a weekly review."
-  - "GTD vs PARA splits tasks from notes; Allen owns the task side."
+  - "GTD is David Allen's capture-clarify-organize loop for a trusted inbox, next actions, and weekly review."
   - "Tasks and notes live in separate systems."
   - "Capture and weekly review own the task lane."
 relationships:

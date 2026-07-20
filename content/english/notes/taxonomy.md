@@ -3,18 +3,17 @@ title: "Taxonomy"
 meta_title: "Taxonomy"
 description: "Tags, folders, and types help find notes later - classification in service of retrieval."
 key_concept: |
-  - A classification scheme - folders, tags, types - for finding things later.
-  - Tags and types only help when the list stays short enough you would actually pick from it.
+  - Five tags you actually filter by beat thirty you never click.
   - [[Metadata Strategy]] plans tags; taxonomy is the short list you would actually use.
-  - Tags, folders, and types are how I find notes later.
+  - Classification serves retrieval - not tidy folders for their own sake.
 examples:
   - "Five tags I actually filter by beat thirty I never click."
-  - "The filing system had three drawers - everyone knew where the warranty went."
+  - "I filed immunization records under 'health' and could not find them at enrollment - three drawers with obvious owners beat alphabet soup."
 shareable_thought:
-  - "Tags, folders, and types are how I find notes later."
+  - "Tags, folders, and types help find notes later."
   - "Classification in service of retrieval."
-  - "A classification scheme - folders, tags, types - for finding things later."
-  - "Tags and types only help when the list stays short enough you would actually pick from it."
+  - "Five tags you actually filter by beat thirty you never click."
+  - "Metadata Strategy plans tags; taxonomy is the short list you would actually use."
 relationships:
   - type: contradicts
     wikilink: "[[Linking by Meaning]]"

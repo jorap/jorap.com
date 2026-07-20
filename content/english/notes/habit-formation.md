@@ -10,10 +10,10 @@ examples:
   - "Same gym bag, same water bottle, same pre-game stretch - after thirty days I stop debating warm-up; the shoes by the door beat the habit app I never opened."
   - "Same door, same notebook, same pocket - after thirty days I stop debating capture; the pad by the keys beat the fancy app I never opened."
 shareable_thought:
-  - "I repeat one small move until it runs on autopilot instead of re-debating it every morning."
-  - "The goal is not motivation - it is making the decision once, so it stops needing to be re-made every single day."
+  - "Repeat one small move until it runs on autopilot instead of re-debating it every morning."
+  - "The goal is not motivation."
+  - "It is making the decision once, so it stops needing to be re-made every single day."
   - "Habit formation is practicing a move until it runs without a daily decision."
-  - "Thirty reps in, the cue does more work than the willpower ever did."
 relationships:
   - type: contradicts
     wikilink: "[[First Principles Thinking]]"

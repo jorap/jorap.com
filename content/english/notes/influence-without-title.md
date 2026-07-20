@@ -15,9 +15,9 @@ examples:
   - "The blackout hit our block and one neighbor set pace - who checks elders, who runs the generator - nobody voted, they just followed the person who would shown up last typhoon."
 shareable_thought:
   - "People follow the one who showed up in the crisis - not always the name on the org chart."
-  - "Leadership Is Influence is the headline: if they are moving with you, you are leading - badge optional."
   - "Leadership names direction, pace, and care when people look your way."
   - "Often at the person who already proved reliable, not the newest title."
+  - "Humility and Service is the gospel root."
 relationships:
   - type: alternative
     wikilink: "[[Title Without Influence]]"

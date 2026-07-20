@@ -15,8 +15,8 @@ examples:
 shareable_thought:
   - "Jesus taught greatness through service."
   - "The Son of Man came to serve, not be served."
-  - "Service is the path to kingdom reward and greatness before God - not the price of Free Grace."
-  - "Faithful Steward is the parable shape: well done for faithful use of what He entrusted."
+  - "Came to serve and give His life."
+  - "Greatness in the kingdom runs opposite the world's ladder."
 relationships:
   - type: contradicts
     wikilink: "[[Let Your Light Shine]]"

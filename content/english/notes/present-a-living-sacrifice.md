@@ -60,7 +60,7 @@ cards:
     back: "Faith at justification - sacrifice grows after."
   - front: "Religious performance for the group chat, zero change at home. What's missing?"
     back: "Living sacrifice - offer the ordinary day, not the highlight reel."
-  - front: "Romans 12:1 on my lips, same snap reactions at dinner. Paired move in verse 2?"
+  - front: "I quote Romans twelve one at breakfast but snap at dinner. Paired move in verse two?"
     back: "Renew the mind - sacrifice needs reshaped thinking."
   - front: "Tuesday feels too small to count as worship. Romans 12:1 reframe?"
     back: "Present this day alive - not a dead ritual."

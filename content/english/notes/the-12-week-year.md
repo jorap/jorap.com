@@ -3,17 +3,17 @@ title: "The 12 Week Year"
 meta_title: "The 12 Week Year - Quarterly Intensity for Projects"
 description: "Compress yearly goals into twelve-week arcs you can feel - and map wiki projects to them."
 key_concept: |
-  - Twelve-week arcs compress goals into review quarters you actually feel (Periodic Knowledge Review).
-  - Map wiki projects to the arc you can actually feel on the calendar.
-  - Review quarters you can feel beat vague annual resolutions.
+  - Twelve-week arcs compress goals into quarters you actually feel on the calendar.
+  - Map wiki projects to the arc with weekly numbers - vague annual resolutions die in February.
+  - [[Periodic Knowledge Review]] rhythm fits naturally at week twelve.
 examples:
-  - "Twelve-week sprint on one fitness goal beat a vague annual resolution."
+  - "Twelve-week sprint on one fitness goal beat a vague annual resolution - week ten finally bit."
   - "The team treated the quarter like a season - one scoreboard, weekly film, no fake annual plan."
 shareable_thought:
-  - "I compress yearly goals into twelve-week arcs I can actually feel - and map wiki projects to them."
-  - "Twelve-week arcs compress goals into review quarters you actually feel (Periodic Knowledge Review)."
-  - "Map wiki projects to the arc you can actually feel on the calendar."
-  - "Review quarters you can feel beat vague annual resolutions."
+  - "Compress yearly goals into twelve-week arcs you can feel - and map wiki projects to them."
+  - "Map wiki projects to the arc with weekly numbers."
+  - "Vague annual resolutions die in February."
+  - "Twelve-week arcs compress goals into quarters you actually feel on the calendar."
 relationships:
   - type: contradicts
     wikilink: "[[Slow Productivity]]"

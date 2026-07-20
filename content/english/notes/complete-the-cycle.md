@@ -13,9 +13,9 @@ examples:
   - "I will look into it without a date is how school projects die after the group chat goes quiet - the recap with owners and dates went out before anyone left the parking lot."
 shareable_thought:
   - "The meeting is not done until recap, owners, dates, and verification close the loop."
-  - "Saying yes is cheap; recap, owners, dates, and verification are the work after the handshake."
-  - "A yes without owners and dates is a promise with no delivery address."
-  - "Verification closes the loop - if nobody checks it landed, the cycle never really finished."
+  - "A decision without an owner and a date is still just talk."
+  - "Execution is where the loop actually starts."
+  - "Mistakes need correction, not ceremony."
 relationships:
   - type: contradicts
     wikilink: "[[Forgiveness at Work]]"

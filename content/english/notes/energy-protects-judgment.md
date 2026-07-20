@@ -14,8 +14,8 @@ examples:
 shareable_thought:
   - "Sleep and recovery protect judgment."
   - "Tired calls land worse than rested calls on the same facts."
-  - "Skipping recovery does not show up immediately - it shows up three days later as a short fuse and bad calls."
-  - "The elite athlete's rest day is programmed like the workout - not optional padding."
+  - "Fatigue hits more than muscles."
+  - "It weakens patience, attention, restraint, and call quality."
 relationships:
   - type: contradicts
     wikilink: "[[Finish Strong]]"

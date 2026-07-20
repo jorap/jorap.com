@@ -11,9 +11,9 @@ key_concept: |
   - Faith parallel: [[Childlike Faith]] - beginner posture; receive the guide, do not perform expertise on day one.
 shareable_thought:
   - "I keep one clear claim per note page and let wikilinks plus /notes/ do the browsing."
-  - "Public when draft: false; hidden while draft: true."
   - "Each note opens with a definition I can quote in one breath."
   - "The graph and backlinks do the organizing."
+  - "Public when draft: false; hidden while draft: true."
 relationships:
   - type: contradicts
     wikilink: "[[Maps of Content]]"

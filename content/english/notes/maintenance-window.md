@@ -11,10 +11,10 @@ examples:
   - "First Sunday I swap the car fluids and rotate tires - not waiting for the check-engine light."
   - "Saturday morning is toy-bin purge and mending - not panicked cleaning when guests are at the door."
 shareable_thought:
-  - "I block garden time on the calendar so broken links do not ambush me on a random Sunday."
-  - "Scheduled time to prune, fix links, and archive - not random Sunday panic."
+  - "Block garden time on the calendar so broken links do not ambush on a random Sunday."
   - "Calendar the prune before the garden rots."
   - "Same habit as oil changes, not panic Sundays."
+  - "Scheduled time to prune, fix links, and archive - not random Sunday panic."
 relationships:
   - type: alternative
     wikilink: "[[Change Window]]"

@@ -10,8 +10,8 @@ examples:
   - "First pass on the coaching manual marked three sections; second pass only those got sentences in my own words."
   - "My kid skims the chapter for gist first, then rereads only the confusing paragraph a second time so she can actually explain it back to me."
 shareable_thought:
-  - "I do not read a book once and pretend I absorbed it - I pass through again when I need more."
-  - "Pass through the same source at increasing depth - skim, highlight, summarize."
+  - "One pass through a book is not absorption."
+  - "Return when more depth is needed."
   - "Skim first pass, mark second, extract third."
   - "Same book, three depths, one sitting at a time."
 relationships:

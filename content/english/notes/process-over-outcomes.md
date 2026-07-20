@@ -12,10 +12,10 @@ examples:
   - "The baker follows the same proofing steps whether it is a slow Tuesday or wedding weekend."
   - "The JV squad runs the same warmup whether the bleachers are empty or full."
 shareable_thought:
-  - "One heroic sprint does not beat a routine I can rerun when motivation dips."
-  - "One hero sprint does not survive a bad week."
+  - "One heroic sprint does not beat a routine you can rerun when motivation dips."
   - "I protect the loop I can rerun when motivation dips."
   - "Same proofing steps on a slow Tuesday and a wedding weekend."
+  - "Compounding only stacks when the process holds."
 relationships:
   - type: contradicts
     wikilink: "[[The 12 Week Year]]"

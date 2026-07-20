@@ -12,7 +12,7 @@ examples:
   - "Friday I triaged the team inbox to zero - Monday practice started from decisions made, not dread about who forgot what."
   - "Sunday night we emptied the kitchen catch-all tray - each slip got a decision so school week did not start with mystery piles."
 shareable_thought:
-  - "I process the inbox to empty each week - decide, do not hoard."
+  - "Process the inbox to empty each week - decide, do not hoard."
   - "Process the inbox to empty regularly."
   - "Each item decided, not hoarded."
   - "Zero is not vanity - it is proof the capture system still works when Monday does not start with dread."

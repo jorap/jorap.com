@@ -12,9 +12,9 @@ examples:
   - "I emailed the intern that catching the duplicate invoice before I did saved us a call - specific beats a generic thanks slide."
 shareable_thought:
   - "Notice the good means naming the specific helpful move so people know what to repeat."
+  - "Specific praise names the behavior I want again."
+  - "That is how Process Over Outcomes sounds out loud."
   - "\"Good job\" teaches nothing."
-  - "\"Your rebounds won that scrimmage\" teaches the rep."
-  - "Specific praise names the behavior I want again - that is how Process Over Outcomes sounds out loud."
 relationships:
   - type: contradicts
     wikilink: "[[Outcomes Over Pitch Decks]]"

@@ -3,15 +3,17 @@ title: "PARA Method"
 meta_title: "PARA Method - Projects, Areas, Resources, Archives"
 description: "PARA sorts notes into Projects, Areas, Resources, and Archives - four buckets by life responsibility, not topic soup."
 key_concept: |
-  - PARA sorts notes by life responsibility - enough structure to find things, archive when done.
+  - Sort by who owns it and when it ends - not by topic alphabet soup.
+  - Projects carry deadlines; Areas carry ongoing responsibility; Resources wait unclaimed; Archives hold finished work.
+  - Enough structure to find things, archive when done.
 examples:
   - "Tournament folder on the bench with a deadline; off-season conditioning notes in the filing cabinet with no end date."
-  - "Science fair on the counter with a due date; immunization records in the cabinet with no end date - sorted by what owns it, not alphabet soup."
+  - "I once filed immunization records under 'health' and could not find them at enrollment - owner and deadline beat topic tags."
 shareable_thought:
   - "PARA sorts notes into Projects, Areas, Resources, and Archives."
   - "Four buckets by life responsibility, not topic soup."
-  - "PARA sorts notes by life responsibility."
-  - "Enough structure to find things, archive when done."
+  - "Sort by who owns it and when it ends - not by topic alphabet soup."
+  - "Projects carry deadlines; Areas carry ongoing responsibility; Resources wait unclaimed; Archives hold finished work."
 relationships:
   - type: contradicts
     wikilink: "[[Linking by Meaning]]"

@@ -9,12 +9,12 @@ key_concept: |
   - The waitlist number matters less than whether those people would actually pay today.
 examples:
   - "Ten parents signed a waitlist before we booked the full tournament venue - smallest test, measure interest, learn before scaling."
-  - "Ten customers on a lunch special before we rewrote the whole menu - build the smallest test, do not scale before validation."
+  - "We almost rewrote the whole menu after one good weekend - ten lunch specials sold first and two items flopped."
 shareable_thought:
+  - "Ship a rough test and learn rather than polish a product nobody wanted."
+  - "Build the smallest test, measure, learn."
+  - "Do not scale before validation."
   - "I would rather ship a rough test and learn than polish a product nobody wanted."
-  - "Build the smallest test, measure, learn - do not scale before validation."
-  - "Measure what happened, then fix the template - not the pitch deck."
-  - "The waitlist number matters less than whether those people would actually pay today."
 relationships:
   - type: contradicts
     wikilink: "[[Finish Strong]]"

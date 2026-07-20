@@ -16,10 +16,10 @@ examples:
   - "Site traffic spiked after a post hit and I caught myself acting like I would built a kingdom - success is stewardship: tend the garden, share what landed, do not confuse reach with ownership."
   - "Promotion email landed and I started treating my team like support staff - the title was entrusted for their good, not a trophy I earned to keep."
 shareable_thought:
-  - "Success is borrowed - I am accountable for how I use what I was given, not entitled to keep it forever."
+  - "Success is borrowed - accountable for how gifts are used, not entitled to keep them forever."
+  - "Promotion and platform are entrusted for faithful use."
+  - "Enter the master's joy, do not bury the talent in ego."
   - "Success is not ownership - it is stewardship of what I was given: time, health, platform, money, influence."
-  - "Faithful Steward is the parable Jesus told - well done for faithful use, buried talent rebuked."
-  - "Promotion and platform are entrusted for faithful use - enter the master's joy, do not bury the talent in ego."
 relationships:
   - type: alternative
     wikilink: "[[Drafting in Public]]"

@@ -53,8 +53,8 @@ card_sets: ["Ethics", "Focus"]
 cards:
   - front: "Swimmer needed rescue during the same open-water drill last month. How do I read that?"
     back: "Warning - stop before the third time."
-  - front: "Kid almost choked on the same team-building snack twice. What is not a control layer?"
-    back: "Luck is not control - change the snack."
+  - front: "Kid almost choked on grapes from the same team-building snack twice this month. Luck is not a control layer - what changes?"
+    back: "Change the snack - luck is not control."
   - front: "Toddler almost fell off the same chair twice. What's the move before visit three?"
     back: "Fix the hazard - luck blocked harm twice."
   - front: "Same exercise needed a rescue before and we're running it again. Read on the near-miss?"

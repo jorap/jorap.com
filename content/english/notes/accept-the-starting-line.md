@@ -12,7 +12,7 @@ examples:
   - "I wanted fifty notes reviewed weekly and burned out in ten days - accept the starting line was ten minutes on the jeepney, then build from there."
   - "The team wanted a full platform migration by Q2 with one engineer - accept the starting line meant one service moved, not a slide deck pretending we had three hires."
 shareable_thought:
-  - "I accept where I actually start - then pick targets that match, not fantasy."
+  - "Growth starts from the real starting line, not from a fantasy baseline."
   - "Acceptance is not quitting - it is refusing to plan for a person who does not exist yet."
   - "Accept the starting line means I name real limits this quarter."
   - "Time, skill, bandwidth - before I promise the room a transformation."

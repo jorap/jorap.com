@@ -14,8 +14,8 @@ examples:
   - "A player slumped on the bench after a bad quarter - I said \"you look wiped\" before I drew up the next play."
   - "My kid came home furious about homework and naming the unfair feeling beat jumping straight to just do it."
 shareable_thought:
-  - "That sounds frustrating lands before my fix plan."
-  - "I name the emotion so we are not guessing."
+  - "That sounds frustrating lands before the fix plan."
+  - "Name the emotion so nobody is guessing."
   - "\"That sounds frustrating\" before \"here's what to do.\"."
   - "Naming the emotion lowers defensiveness so the fix can land."
 relationships:

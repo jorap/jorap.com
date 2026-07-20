@@ -6,8 +6,6 @@ meta_title: "Random Duo"
 description: "Two notes from the garden, picked at random. I hit **Shuffle** for another pair. Pairs with [[Backlinks]], [[Create Note]], and [[Flashcards]]."
 key_concept: |
   - Forced serendipity - two unrelated claims side by side so I notice links I forgot to make.
-  - Two notes from the garden, picked at random.
-  - I hit Shuffle for another pair.
   - Shuffle again when the pair does not spark a link worth making.
 shareable_thought:
   - "Two notes from the garden, picked at random."

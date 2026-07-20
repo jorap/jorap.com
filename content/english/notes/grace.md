@@ -6,8 +6,6 @@ key_concept: |
   {{< bible ref="John 3:16-18" emphasize="16" >}}
   
   - God did not wait for me to earn it - He gave His Son so belief, not merit, decides where I spend forever.
-  
-  - God did not wait for me to earn it - He gave His Son so belief, not merit, decides where I spend forever.
   - [[Mercy]] withholds what I deserve; grace gives what I could not earn.
   
   {{< bible ref="Ephesians 2:1-5" emphasize="5" >}}

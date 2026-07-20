@@ -13,10 +13,10 @@ examples:
   - "The clinic cut three chart fields after I watched one nurse chart through a full shift - shadow the work beat a committee debating the template."
   - "I stood behind the counter for three lunch rushes before we removed the extra checkout tap - shadow the work showed where customers actually stalled."
 shareable_thought:
-  - "I watch one person do the real job before I redraw the process or the slide."
-  - "Flowcharts lie politely - shadowing does not."
-  - "People-Centered Design is the principle; this is the move."
+  - "Watch one person do the real job before redrawing the process or the slide."
   - "Listen Before Fixing hears the complaint; shadowing sees the friction they stopped mentioning because it is \"just how it is.\"."
+  - "I watch one person do the real job."
+  - "Flowcharts lie politely - shadowing does not."
 relationships:
   - type: contradicts
     wikilink: "[[Outcomes Over Pitch Decks]]"

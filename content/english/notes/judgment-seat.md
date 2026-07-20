@@ -24,8 +24,8 @@ examples:
 shareable_thought:
   - "Believers stand before Christ after salvation to have works evaluated for reward."
   - "Eternal life was already settled by faith."
-  - "Free Grace and Justification already decided where I spend forever."
-  - "Paul's fire test - some work burns, you are still saved through fire; worthless work shrinks reward, not standing."
+  - "The Son of Man repays deeds."
+  - "Reward review for the saved, not re-deciding who gets eternal life."
 relationships:
   - type: alternative
     wikilink: "[[Periodic Knowledge Review]]"

@@ -12,9 +12,9 @@ examples:
   - "I added Decap for a client who insisted on WordPress-like editing - honest scope: blog posts only, not plugins; still cheaper than hosted WordPress long term."
 shareable_thought:
   - "A git CMS commits markdown to the repo so clients get buttons while the same push-live build still runs."
-  - "Git stays source of truth; the CMS is just another commit path."
   - "Still say no to bad dynamic scope."
   - "CMS does not add a database."
+  - "Publish via Git directly when you are the author; clients often will not."
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Effective Dose]]"

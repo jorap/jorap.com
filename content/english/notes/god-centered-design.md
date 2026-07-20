@@ -14,9 +14,9 @@ examples:
   - "My notes garden started chasing traffic instead of clarity - God-centered design was one question before publish: does this help someone know Christ or live like Him, or is it just my brand?"
 shareable_thought:
   - "Design life and work around God glory first - not crowd applause, ego, or comfort."
-  - "Good works visible so the Father gets glory - build for His name, not my brand."
+  - "Good works visible so the Father gets glory."
+  - "Build for His name, not my brand."
   - "A calendar built for applause still feels empty on Monday."
-  - "Seek the Kingdom First is the priority filter; Love Your Neighbor keeps it from becoming selfish spirituality."
 relationships:
   - type: alternative
     wikilink: "[[People-Centered Design]]"
@@ -77,7 +77,7 @@ cards:
   - front: "Side project feels like my kingdom now. Steward reframe?"
     back: "Borrowed platform - faithful use, not my brand."
   - front: "I'm people-pleasing the room instead of obeying God. Which design wins?"
-    back: "God's reign sets the aim - neighbor-love hangs on that."
+    back: "God's reign sets the aim - neighbor-love follows that order."
   - front: "Tuesday calendar full before Scripture opened. Kingdom-first move?"
     back: "Design the week around God's glory - then sort the rest."
 draft: false

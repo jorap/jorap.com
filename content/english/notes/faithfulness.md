@@ -19,11 +19,14 @@ shareable_thought:
   - "Eternal Rewards names what steady faithfulness may receive; Free Grace keeps it from becoming the entry fee."
 relationships:
   - type: contradicts
+    wikilink: "[[Compounding]]"
+    reason: "when faithful use becomes currency that bought eternal life"
+  - type: contradicts
     wikilink: "[[Free Grace]]"
     reason: "when faithful use becomes currency that bought eternal life"
   - type: extends
-    wikilink: "[[Compounding]]"
-    reason: "Small faithful use stacks over quiet Tuesdays"
+    wikilink: "[[Complete the Cycle]]"
+    reason: "Faithfulness fruit after the handshake - owners and dates"
   - type: extends
     wikilink: "[[Discipleship]]"
     reason: "Daily following is where faithfulness shows up"
@@ -33,9 +36,6 @@ relationships:
   - type: extends
     wikilink: "[[Faithful Steward]]"
     reason: "Faithfulness fruit - steady use of what He entrusted"
-  - type: extends
-    wikilink: "[[Complete the Cycle]]"
-    reason: "Faithfulness fruit after the handshake - owners and dates"
   - type: extends
     wikilink: "[[Fruits of the Spirit]]"
     reason: "Galatians names faithfulness in the Spirit-grown cluster"

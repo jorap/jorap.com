@@ -4,30 +4,30 @@ meta_title: "Free Grace - Salvation by Faith Alone"
 description: "Eternal life is Christ's gift received by faith alone, not wages for commandments, principles, or good works."
 key_concept: |
   {{< bible ref="John 5:24-29" emphasize="24" >}}
-
+  
   - Hear Christ's word and believe - you have crossed from death to life; judgment is not hanging over your head.
   - Grace is a gift never earned - Christ paid what could not be paid.
-
+  
   {{< bible ref="Ephesians 2:8-9" emphasize="9" >}}
-
+  
   - Paul says the same gift out loud - saved by grace through faith, not your works, so nobody brags their way in.
-
+  
   {{< bible ref="Romans 4:4-5" emphasize="5" >}}
-
+  
   - Faith credited as righteousness - trust, not a merit report card, is what God counts.
-
+  
   {{< bible ref="Ephesians 2:10" emphasize="10" >}}
-
+  
   - Good works come after the gift - created in Christ for them, not to buy the ticket.
   - [[Justification]] is free and finished at faith; [[Sanctification]], [[Discipleship]], and forgiveness toward others belong to the walk after.
 examples:
   - "A teammate listed every good deed this month like it was his ticket to heaven - I trust Christ's promise for eternal life, not my report card from the season."
-  - My kid thinks he has to be extra good the week before his birthday to deserve presents - grace does not work that way with God either; the gift is already decided before the behavior.
+  - "My kid thinks he has to be extra good the week before his birthday to deserve presents - grace does not work that way with God either; the gift is already decided before the behavior."
 shareable_thought:
   - "Eternal life is Christ's gift received by faith alone, not wages for commandments, principles, or good works."
-  - "Paul says the same gift out loud."
-  - "Saved by grace through faith, not your works, so nobody brags their way in."
-  - "Faith credited as righteousness for the one who believes."
+  - "Hear Christ's word and believe."
+  - "You have crossed from death to life; judgment is not hanging over your head."
+  - "Grace is a gift never earned."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"
@@ -46,7 +46,7 @@ relationships:
     reason: "Grace received first - discipleship is response, not entry fee"
   - type: extends
     wikilink: "[[Faith and Works]]"
-    reason: Works do not buy grace - they prove faith is alive
+    reason: "Works do not buy grace - they prove faith is alive"
   - type: extends
     wikilink: "[[Grace]]"
     reason: "Free grace is grace applied to eternal life by faith alone"
@@ -61,7 +61,7 @@ relationships:
     reason: "Grace is the gift; justification is God declaring you righteous when you receive it"
   - type: extends
     wikilink: "[[Loss of Reward]]"
-    reason: Grace secures eternal life; losing reward never undoes the gift
+    reason: "Grace secures eternal life; losing reward never undoes the gift"
   - type: extends
     wikilink: "[[Mercy]]"
     reason: "Mercy spares wrath; grace gives the gift - same rescue"

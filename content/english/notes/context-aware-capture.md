@@ -8,7 +8,7 @@ key_concept: |
   - A saved link is a mystery six weeks later unless the why was captured while it was still obvious.
   - Six weeks later, only the why saves a bookmark from becoming junk.
 examples:
-  - "Voice memo in the parking lot after the meeting - context was still in my head."
+  - "Voice memo in the parking lot after the meeting - I almost saved just the link and caught myself; context was still in my head."
   - "Photo of the whiteboard before they erased it - capture matched where the idea lived."
 shareable_thought:
   - "A saved link is a mystery six weeks later unless the why is jotted while memory is fresh."

@@ -1,24 +1,20 @@
 ---
 title: "Platform Reach Is Borrowed"
 meta_title: "Platform Reach Is Borrowed - You're a Tenant, Not the Landlord"
-description: "Platform reach is borrowed - do not build only where an algorithm can take it away."
+description: "Followers and algorithm reach are rented - steward the megaphone, own the vault."
 key_concept: |
   - On Facebook, X, YouTube, or any social app, you are a tenant.
-  - Reach throttles, rules change, accounts get restricted - and the audience you spent years building can vanish overnight when the landlord pivots.
-  - [[Success is Stewardship]] is the headline: promotion, platform, and a good traffic week are entrusted, not trophies I earned to keep.
-  - [[Digital Garden]] and [[Drafting in Public]] put the canonical copy on land I control; social is the megaphone, not the vault.
+  - Reach throttles, rules change, accounts get restricted - audience you built can vanish overnight.
+  - [[Digital Garden]] and [[Drafting in Public]] put canonical copy on land you control; social is megaphone, not vault.
   - [[Future-Proofing Knowledge]] is the boring backup - markdown in git survives when the app dies.
-  - [[The Collector's Fallacy]] is burying talent in bookmarks on rented land.
-  - Followers and algorithm reach are rented.
-  - Steward them - do not mistake traffic for ownership.
 examples:
   - "Organic reach on my business page dropped from double digits to a trickle overnight - I would been posting only there for three years; the canonical posts lived on their servers, not mine."
   - "A post spiked on X and I caught myself refreshing likes like I would built a kingdom - borrowed reach, not an audience I own."
 shareable_thought:
   - "Followers and algorithm reach are rented."
-  - "Steward them, do not mistake traffic for ownership."
-  - "On Facebook, X, YouTube, or any social app, you are a tenant."
-  - "Future-Proofing Knowledge is the boring backup."
+  - "Steward the megaphone, own the vault."
+  - "Reach throttles, rules change, accounts get restricted."
+  - "Audience you built can vanish overnight."
 relationships:
   - type: alternative
     wikilink: "[[Drafting in Public]]"

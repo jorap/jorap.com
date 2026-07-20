@@ -18,8 +18,8 @@ examples:
 shareable_thought:
   - "God keeps reshaping me to look and love more like Jesus."
   - "Growth after faith, not the entry fee."
-  - "Free Grace settles where I spend forever."
-  - "Christlikeness settles who I am becoming."
+  - "Fully trained, like the teacher."
+  - "The aim is not my old default self on display, it is looking more like Jesus over years."
 relationships:
   - type: alternative
     wikilink: "[[There Is No Perfect Solution]]"
@@ -84,7 +84,7 @@ cards:
   - front: "Trying to look holy enough to feel saved. Which came first?"
     back: "Justified at faith - likeness follows."
   - front: "Virtue streak is my proof God accepts me. Mixing up what saves vs what grows?"
-    back: "Faith saves - Christlikeness grows after."
+    back: "Faith saves you first - likeness grows on ordinary Tuesdays after."
   - front: "Forcing patience by willpower with almost no prayer this week. What's missing?"
     back: "Abide first - likeness from the vine."
   - front: "Waiting until I look like Jesus before I call myself His disciple. When does following start?"

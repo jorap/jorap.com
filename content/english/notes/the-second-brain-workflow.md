@@ -12,8 +12,8 @@ examples:
 shareable_thought:
   - "Capture to inbox, organize by project, distill on reuse, express weekly."
   - "CODE and PARA in one loop."
-  - "CODE and PARA in one daily-to-weekly loop - capture daily, express weekly."
   - "Organize by project, distill when you reuse."
+  - "Do not polish notes nobody reads yet."
 relationships:
   - type: contradicts
     wikilink: "[[Minimum Effective Dose]]"

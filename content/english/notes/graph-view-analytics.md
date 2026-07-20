@@ -3,18 +3,17 @@ title: "Graph View Analytics"
 meta_title: "Graph View Analytics - What the Graph Actually Tells You"
 description: "Graph view analytics reads the link map for orphans, over-connected hubs, and forgotten gaps."
 key_concept: |
-  - Graph view analytics reads the link map for orphans, over-connected hubs, and gaps forgotten.
-  - The link map shows notes with no links, notes with too many, and gaps forgotten to connect.
-  - Read the graph for orphans and over-linked hubs before they skew the garden.
-  - Orphan notes and over-linked hubs both signal a graph that needs pruning.
+  - Read the link map for orphans and over-linked hubs before they skew the garden.
+  - Orphan notes and hub sprawl both signal a graph that needs pruning.
+  - The orphan list is a fix-this-week queue - not a pretty poster.
 examples:
   - "I laid out the shift-change chart and three tasks had zero arrows to an owner - the orphan list was my fix-this-week, not a pretty poster."
-  - "I laid out the kids' chore chart and three jobs had zero arrows to anything else - nobody knew who checked them; that gap list was my fix-this-week."
+  - "Five notes in the graph had no inbound links - I linked three and archived two before closing the tab."
 shareable_thought:
-  - "Graph view analytics reads the link map for orphans, over-connected hubs, and gaps forgotten."
-  - "The link map shows notes with no links, notes with too many, and gaps forgotten to connect."
-  - "Read the graph for orphans and over-linked hubs before they skew the garden."
-  - "Orphan notes and over-linked hubs both signal a graph that needs pruning."
+  - "Graph view analytics reads the link map for orphans, over-connected hubs, and forgotten gaps."
+  - "Read the link map for orphans and over-linked hubs before they skew the garden."
+  - "Orphan notes and hub sprawl both signal a graph that needs pruning."
+  - "The orphan list is a fix-this-week queue - not a pretty poster."
 relationships:
   - type: contradicts
     wikilink: "[[Maps of Content]]"

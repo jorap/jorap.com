@@ -7,13 +7,13 @@ key_concept: |
   - Client pass-off uses the same split: [[Selling Static Sites]] workshop in my drafts; the client's deploy branch is the showroom on [[Free Tier Hosting Stack]].
   - One capture habit, one publish pipe - garage to garden to push, not two note apps fighting over the same idea.
 examples:
-  - "The practice film library is messy; the highlight reel for parents is one clean cut - garage holds scraps, showroom shows the finished piece."
+  - "The practice film library is messy; the highlight reel for parents is one clean cut - I almost sent raw film once and the coach pulled me back."
   - "The garage holds half-finished projects and sawdust; the front porch shows the one bench I would invite a neighbor to sit on."
 shareable_thought:
-  - "The vault is the garage for scraps and experiments - the blog is the showroom, kept separate."
-  - "The garage holds tools, scraps, experiments. The showroom is the blog. I do not confuse the two."
-  - "One capture habit, one publish pipe - garage to garden to push, not two note apps fighting over the same idea."
-  - "Client pass-off uses the same split: Selling Static Sites workshop in my drafts."
+  - "The vault is the garage for scraps and experiments."
+  - "The blog is the showroom, kept separate."
+  - "One capture habit, one publish pipe."
+  - "Garage to garden to push, not two note apps fighting over the same idea."
 relationships:
   - type: contradicts
     wikilink: "[[Drafting in Public]]"

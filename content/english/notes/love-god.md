@@ -12,9 +12,9 @@ examples:
   - "Sunday worship felt high but I had not opened my Bible since last week - loving God means more than one hour in a pew."
 shareable_thought:
   - "First command, whole self - heart, mind, strength, not a corner of Sunday morning."
-  - "Whole-person devotion beats a Sunday-only corner."
   - "Under Free Grace, this is the first call on a life already saved by faith."
   - "Love flowing from grace received, not love offered as payment for eternal life."
+  - "Whole-person devotion beats a Sunday-only corner."
 relationships:
   - type: contradicts
     wikilink: "[[Don't Worry]]"

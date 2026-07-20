@@ -13,9 +13,9 @@ examples:
   - "A client kept calling a personal cell after hours - answer until six on this number, then use the office line."
 shareable_thought:
   - "A calm boundary is one clear limit on behavior, named steady - not a character attack."
-  - "Limit the behavior. Keep the person."
-  - "Set calm boundaries and keep the person - firm line, steady voice, relationship intact."
   - "Set one clear line in a steady voice - boundaries work when tone stays readable under pressure."
+  - "Limit the behavior and keep the person - firm line, steady voice, relationship intact."
+  - "Drama makes the line harder to hear tomorrow."
 relationships:
   - type: contradicts
     wikilink: "[[Follow Their Lead]]"

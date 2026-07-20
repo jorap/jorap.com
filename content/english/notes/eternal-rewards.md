@@ -29,9 +29,9 @@ examples:
   - "I covered a coworker's shift without telling anyone and caught myself fishing for credit in the break room - gift first, repayment for faithfulness second, not a merit down payment on heaven."
 shareable_thought:
   - "Jesus promised believers the Father will repay faithful obedience after salvation, not as the price of eternal life."
+  - "Father who sees in secret repays."
+  - "Hidden devotion counted, not applause theater."
   - "Secret fasting gets the same promise."
-  - "Father who sees in secret rewards, not the crowd's applause."
-  - "Son of Man repays deeds at His return."
 relationships:
   - type: contradicts
     wikilink: "[[Compounding]]"

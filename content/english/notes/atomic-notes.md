@@ -16,10 +16,10 @@ examples:
   - "\"Why my basketball shoes live by the door\" is one claim - I would say it alone at carpool."
   - "\"Where we meet if the elevator is out\" is one claim; \"elevator outage and parking-gate codes\" is two - split and wikilink."
 shareable_thought:
-  - "If a note needs three ands to make its point, I split it before I link it."
+  - "One clear claim per note."
+  - "Split before the ands pile up."
   - "One claim I would say out loud."
   - "Too many ands, split it."
-  - "Rule of thumb: one thing I would cite in conversation."
 relationships:
   - type: alternative
     wikilink: "[[Mind Mapping]]"

@@ -11,10 +11,10 @@ examples:
   - "Cut off in traffic, my first instinct matched horn for horn - slow the moment was one breath before I became the driver I hate."
   - "Before the free throw with the game on the line, the shooter took one breath - slow the moment bought the routine instead of the panic heave."
 shareable_thought:
-  - "I slow down one breath before I answer."
+  - "Slow one breath before answering."
   - "Urgency is real, but it should not pick the move."
   - "Pressure creates urgency, but urgency should not erase judgment."
-  - "One deliberate breath buys room for a better second move."
+  - "I slow down one breath before I answer."
 relationships:
   - type: alternative
     wikilink: "[[Break the Escalation Cycle]]"

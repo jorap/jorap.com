@@ -14,10 +14,10 @@ examples:
   - "A play idea hits during warm-ups and I voice-memo it before the gym noise eats it - my head is for having ideas, the inbox is for storing them until review."
   - "A sermon line lands mid-shift and I scribble it on a receipt - one [[trusted inbox]], no sorting yet, process it Sunday when the spark is safe."
 shareable_thought:
+  - "The head is for thinking, not storing."
+  - "Notes hold what would otherwise get lost."
   - "My head is for thinking, not storing."
   - "Notes hold what I would otherwise lose."
-  - "Offload ideas so my head can think, not hoard."
-  - "Remember CODE: Capture, organize, distill, express."
 relationships:
   - type: alternative
     wikilink: "[[GTD vs PARA]]"

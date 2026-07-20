@@ -4,17 +4,16 @@ meta_title: "Intellectual Sourcing - Track Where Ideas Come From"
 description: "Cite sources in notes to trust synthesis and find the original later."
 key_concept: |
   - I cite sources so I can trust what I wrote and find the original six months later.
-  - I cite sources in notes to trust my synthesis and find the original later.
-  - Without a source, six months later I will not trust my own synthesis.
-  - A cited note is one I can defend in conversation months later.
+  - Without a source line, I will not trust my own synthesis in conversation.
+  - A cited note is one I can defend months out - uncited summaries feel like gossip.
 examples:
   - "I taped the coach's article title under the quote in our playbook so six months later we know if the source still says what we thought."
   - "My sermon notes app just says 'trust me, great quote' with no reference - six months later I cannot tell if I am misquoting the pastor or making it up."
 shareable_thought:
-  - "I cite sources in notes to trust my synthesis and find the original later."
+  - "Cite sources in notes to trust synthesis and find the original later."
+  - "A cited note is one I can defend months out."
+  - "Uncited summaries feel like gossip."
   - "I cite sources so I can trust what I wrote and find the original six months later."
-  - "Without a source, six months later I will not trust my own synthesis."
-  - "A cited note is one I can defend in conversation months later."
 relationships:
   - type: contradicts
     wikilink: "[[Drafting in Public]]"

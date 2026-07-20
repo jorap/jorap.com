@@ -14,9 +14,9 @@ examples:
   - "School activity fees go in the envelope on Monday even when I would rather spend it on something fun - earthly duty and worship stay distinct."
 shareable_thought:
   - "Pay lawful civic obligations - taxes, duties owed the state - while reserving ultimate worship for God alone."
-  - "Pay lawful taxes, reserve worship for God - no revolutionary tax refusal, no idolizing the state."
+  - "Pay lawful taxes, reserve worship for God."
+  - "No revolutionary tax refusal, no idolizing the state."
   - "You bear God's image; give yourself to Him."
-  - "Jesus avoids both revolutionary tax refusal and idolizing Rome."
 relationships:
   - type: contradicts
     wikilink: "[[Treasure in Heaven]]"

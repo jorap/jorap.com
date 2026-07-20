@@ -32,8 +32,8 @@ examples:
 shareable_thought:
   - "Jesus opened the Sermon on the Mount with eight blessings."
   - "A picture of who the kingdom favors."
-  - "\"Beatitude\" means supreme blessedness."
-  - "Poor in spirit - broke before God, receiving the kingdom as gift not wage."
+  - "Eight blessings flip the scoreboard."
+  - "Kingdom favor for the spiritually needy, not the self-sufficient."
 relationships:
   - type: contradicts
     wikilink: "[[Humility and Service]]"

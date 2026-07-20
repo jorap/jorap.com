@@ -15,9 +15,9 @@ examples:
   - "I kept telling myself I would trust Jesus once my habits looked respectable - it is not a finish line when you are fixed."
 shareable_thought:
   - "Jesus' opening command: turn from self-rule and trust the good news that the kingdom is at hand."
+  - "Kingdom's here now - turn from self-rule and trust the gospel today, not when habits look respectable."
   - "Repentance is a change of mind and direction - not a down payment on salvation."
   - "Belief is reliance on Christ's promise, not mere intellectual agreement."
-  - "Under Free Grace, this pair is how life begins: receive the kingdom as gift, then live under the King's rule in response."
 relationships:
   - type: contradicts
     wikilink: "[[There Is No Perfect Solution]]"

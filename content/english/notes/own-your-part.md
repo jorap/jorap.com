@@ -13,8 +13,8 @@ examples:
   - "The shared drive was chaos for months until one teammate renamed folders and posted a one-page map - own your part, not another ticket to IT."
   - "I stopped waiting for the coach to fix my defense and asked for ten minutes of footwork after practice - my gap, my rep request."
 shareable_thought:
-  - "I change my slice of the problem - not wait for a hand-down fix from upstairs."
-  - "Waiting for headquarters to fix your lane is how stale processes survive years."
+  - "Change your slice of the problem."
+  - "Do not wait for a hand-down fix from upstairs."
   - "Own your part means I take charge of what I can move."
   - "My habit, my pass-off, my corner of the workflow."
 relationships:
