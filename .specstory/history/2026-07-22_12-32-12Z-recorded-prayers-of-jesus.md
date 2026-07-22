@@ -2101,9 +2101,13 @@ _**Agent (auto-low)**_
 _**Agent (auto-low)**_
 
 <tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
-<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **0** directories</summary>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
 
-No results found
+Directory: **``** (1 file)
+
+| File |
+|------|
+| `content/english/notes/prayer-jesus-taught.md` |
 </details></tool-use>
 
 _**Agent (auto-low)**_
@@ -2120,6 +2124,1702 @@ Parameters:
   "pattern": "Prayer Jesus Taught|Secret Devotion|Pray When Drained"
 }
 ```
-Status: **loading**
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "Prayer Jesus Taught|Secret Devotion|Pray When Drained",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/secret-devotion.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/integrity.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/sabbath-for-good.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/pray-when-drained.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/success-is-stewardship.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/ask-seek-knock.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/integrity-without-an-audience.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/eternal-rewards.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/withdraw-to-pray.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/goodness.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/workplace-principles.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": "content/english/notes/prayer-jesus-taught.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/faithful-steward.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/jesus-prayers.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/jesus-rhythms.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/judgment-seat.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/eternal-principles.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/thank-father-at-lazarus.md"
+    }
+  ],
+  "totalFiles": 18,
+  "totalMatches": 36
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Investigating why three specific notes still appear as missing.
+
+Checking whether title length, regex conflicts, future dates, or Hugo build settings explain the missing notes.
+
+Now suspecting YAML parsing errors or apostrophe handling in wikilinks. Planning to inspect the source files and rebuild the registry to verify.
+
+Duplicate lowercase keys in the link registry are unlikely because only one "not my will" entry exists. Now checking whether smart quotes or special characters in the wikilink brackets are breaking parsing, and whether invalid frontmatter or bible shortcode issues are preventing the notes from building.
+
+Running Hugo and a registry key check to verify note indexing. Re-examining the five unlinked mentions across the affected notes. Also investigating why the contradicts rows in glorify-your-name and into-your-hands remain missing despite prior edits.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/glorify-your-name.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/into-your-hands.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/father-forgive-them.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-rhythms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/prayer-jesus-taught.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/noteFileDates.js 2&gt;/dev/null; hugo --gc 2&gt;&amp;1 | rg &#34;broken wikilink|unlinked mention&#34; | head -40</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/noteFileDates.js 2>/dev/null; hugo --gc 2>&1 | rg "broken wikilink|unlinked mention" | head -40
+```
+
+```
+✅ Note file dates written: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json (258 notes)
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Hugo did not output broken wikilinks. The exit code 1 likely came from ripgrep finding nothing.
+
+Local builds may succeed while the issues page still reports failures. The core mystery is why specific wikilinks like [[Not My Will]] fail to resolve. A regex bleed from apostrophes in other links is one possibility. Another is that Hugo's typographer converts text before the wikilink scan runs. I will re-examine the render-content and collect-note-issues scripts.
+
+The wikilink regex appears sound for `[[Not My Will]]`. Future-dated notes are unlikely culprits since their publish times have passed. The user may be viewing a stale Cloudflare deployment. A title collision overwriting a registry key is another possibility.
+
+I will inspect the registry keys directly to verify whether those notes actually exist. Smart quotes inside the wikilinks might be breaking the regex match. The apostrophe in "His" could also be causing trouble. I am checking if the note file itself has a Hugo build error that prevents the page from being generated.
+
+I will run Hugo and count the generated pages. I am also checking hugo.toml for section configuration and looking for invisible Unicode characters in titles. I suspect the issues report may come from a separate lint script rather than Hugo warnings. I noticed a contradiction: the report claims a contradicts row is missing in the Note Relationships table, but the target notes actually contain that relationship in their frontmatter.
+
+The contradiction between the scanner and the template is now clear. The scanner checks for a contradicts field in the relationships map, but the template renders the frontmatter relationships object. Since the template reads the correct data, the scanner must be failing to extract the field properly. This explains why the report claims contradicts are missing even though the frontmatter contains them.
+
+The user may be viewing an old deployment that predates the contradicts edits. Alternatively, the scanner might be searching for a contradicts row in the rendered markdown table rather than the frontmatter relationships object.
+
+The apostrophe in "His" is unlikely to break the wikilink parser. A curly apostrophe in an adjacent link probably does not corrupt nearby targets either. The current hypothesis is that the title fields contain an invisible or mismatched apostrophe character that prevents the wikilink regex from matching.
+
+Exact-match title conventions may be preventing wikilinks from resolving. I will inspect raw bytes of the title fields and dump registry keys for the affected notes. I also need to check whether noteFileDates.json enforces future dates for both display and registry generation.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json",
+  "pattern": "not-my-will|thank-father-at-lazarus|pray-for-his-own"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json",
+  "pattern": "not-my-will|thank-father-at-lazarus|pray-for-his-own",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "data/noteFileDates.json"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 3
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "*.{html,py,toml,js}",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "noteFileDates|buildFuture|future"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "noteFileDates|buildFuture|future",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/split-key-concept-bullets.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/strip-desc-from-key-concept.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/apply-jesus-words-shortcode.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/apply-nasb-quotes.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/sync-note-relationships.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/sync-note-flashcards.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/format-faith-bible-blocks.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/build-scripture-nasb1995-db.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/archive/apply-verse-explanations.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/blog-de-slop.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/export-okf-blog-bundle.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/garden-voice-lint.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/notes-voice-sanitize.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/export-anki-deck.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/improve-blog-slugs.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/garden-voice-migrate.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/slop-lint.py"
+    },
+    {
+      "matchCount": 2,
+      "uri": "layouts/_partials/notes/file-dates.html"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/fix-shareable-thought.py"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/blog_shortcodes.py"
+    }
+  ],
+  "totalFiles": 29,
+  "totalMatches": 48
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
+import re, pathlib, yaml
+notes_dir = pathlib.Path(&#39;content/english/notes&#39;)
+targets = {&#39;not my will&#39;, &#39;thank father at lazarus&#39;, &#39;pray for his own&#39;}
+found = {t: [] for t in targets}
+for p in notes_dir.glob(&#39;*.md&#39;):
+    text = p.read_text()
+    if not text.startswith(&#39;---&#39;): continue
+    fm = text.split(&#39;---&#39;, 2)[1]
+    try:
+        data = yaml.safe_load(fm) or {}
+    except: continue
+    if data.get(&#39;draft&#39;): continue
+    title = data.get(&#39;title&#39;, &#39;&#39;)
+    slug = data.get(&#39;slug&#39;, p.stem)
+    aliases = data.get(&#39;aliases&#39;) or []
+    keys = {title.lower(), slug.lower(), p.stem.lower()} | {a.lower() for a in aliases}
+    for t in targets:
+        if t in keys:
+            found[t].append((p.name, title, data.get(&#39;date&#39;)))
+for t, rows in found.items():
+    print(t, &#39;-&gt;&#39;, rows)
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+import re, pathlib, yaml
+notes_dir = pathlib.Path('content/english/notes')
+targets = {'not my will', 'thank father at lazarus', 'pray for his own'}
+found = {t: [] for t in targets}
+for p in notes_dir.glob('*.md'):
+    text = p.read_text()
+    if not text.startswith('---'): continue
+    fm = text.split('---', 2)[1]
+    try:
+        data = yaml.safe_load(fm) or {}
+    except: continue
+    if data.get('draft'): continue
+    title = data.get('title', '')
+    slug = data.get('slug', p.stem)
+    aliases = data.get('aliases') or []
+    keys = {title.lower(), slug.lower(), p.stem.lower()} | {a.lower() for a in aliases}
+    for t in targets:
+        if t in keys:
+            found[t].append((p.name, title, data.get('date')))
+for t, rows in found.items():
+    print(t, '->', rows)
+"
+
+```
+
+```
+pray for his own -> [('pray-for-his-own.md', 'Pray for His Own', '2026-07-22 12:16:00+00:00')]
+not my will -> [('not-my-will.md', 'Not My Will', '2026-07-22 12:17:00+00:00')]
+thank father at lazarus -> [('thank-father-at-lazarus.md', 'Thank Father at Lazarus', '2026-07-22 12:14:00+00:00')]
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The development Hugo configuration enables `buildFuture`, but production likely does not.
+
+The user's server clock may have been before 12:19 UTC during the production build. The production hugo.toml needs inspection.
+
+Local development builds with `buildFuture` enabled would include future-dated notes, so the production-only failures are puzzling. I should verify whether those notes actually appear in the Hugo output. Another possibility is that typographer-curling apostrophes inside wikilinks—such as `[[Jesus' Prayers]]`—are breaking link parsing.
+
+The regex correctly parses `[[Pray for His Own]]`, so apostrophes are not breaking links. A content filter or tag restriction may be suppressing the pages. The missing contradicts entries might be stale data from before the fix was deployed.
+
+The relationship-types logic reads frontmatter when `$page.Params.relationships` exists, and `contradype` is present. YAML parsing is unlikely to be the cause. The persistent missing contradicts rows suggest either the user has not pulled the latest changes, or the detection logic fails to recognize existing frontmatter contradicts.
+
+The `into-your-hands` note contains a contradictory link to `[[Don't Worry]]`. A curly apostrophe in that wikilink might break relationship resolution. YAML parsing of the apostrophe could also corrupt the relationships block.
+
+Apostrophes inside YAML single-quoted strings may need escaping, though double quotes handle them fine. The `[[Not My Will]]` wikilink might be splitting incorrectly because the parser encounters an apostrophe from a previous wikilink on the same line. Inner quotes in the surrounding prose could also confuse the regex.
+
+The regex should not match stray quotes outside wikilinks. Invalid shortcodes might prevent Hugo from publishing the pages. The user may need to rebuild Cloudflare. Earlier dates such as 2026-07-21 or 2026-07-22 00:00:00 would be safer than 12:17 UTC.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/hugo.toml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo list all 2&gt;/dev/null | rg &#34;not-my-will|thank-father-at-lazarus|pray-for-his-own&#34; || echo &#34;NOT IN LIST&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo list all 2>/dev/null | rg "not-my-will|thank-father-at-lazarus|pray-for-his-own" || echo "NOT IN LIST"
+```
+
+```
+content/english/notes/not-my-will.md,not-my-will,Not My Will,2026-07-22T12:17:00Z,0001-01-01T00:00:00Z,2026-07-22T12:17:00Z,false,https://www.jorap.com/notes/not-my-will/,page,notes
+content/english/notes/pray-for-his-own.md,pray-for-his-own,Pray for His Own,2026-07-22T12:16:00Z,0001-01-01T00:00:00Z,2026-07-22T12:16:00Z,false,https://www.jorap.com/notes/pray-for-his-own/,page,notes
+content/english/notes/thank-father-at-lazarus.md,thank-father-at-lazarus,Thank Father at Lazarus,2026-07-22T12:14:00Z,0001-01-01T00:00:00Z,2026-07-22T12:14:00Z,false,https://www.jorap.com/notes/thank-father-at-lazarus/,page,notes
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The pages are published rather than future-dated.
+
+Local resolution should work. The production scanner may miss links if the site is viewed before deploy. Typographer could also convert straight apostrophes to curly ones inside wikilink targets, breaking the scanner's regex.
+
+The scanner reads raw frontmatter markdown, so typographer processing is not the cause. It normalizes curly apostrophes in link targets to straight quotes during lookup. The remaining question is whether registry keys store titles with curly apostrophes.
+
+A new theory suggests wikilinks in YAML frontmatter may be processed by the typographer during mention scans but not during broken-link scans. The "Missing note" error comes from collect-note-issues comparing the registry by key. I will simulate the registry build to see if certain notes are excluded from the registry entirely.
+
+Draft and utility exclusions are ruled out. Default note_kind values are included. A stale cached registry is unlikely because the user reports issues after recent fixes. Title collisions are also ruled out. The current hypothesis is that smart quotes in the markdown wikilink text are causing problems.
+
+Hexdumping the raw bytes around the Not My Will wikilink to check for invisible Unicode characters that could break the scanner. The contradicts rows are present in the source files, so their absence likely stems from a stale build cache.
+
+The contradicts rows are confirmed correct in the source files. A broken `[[Don't Worry]]` link might be cascading failures, though it is not listed as broken. The linter may require contradicts entries in both frontmatter and the body relationships table.
+
+The structure check reads frontmatter directly, so YAML parse errors are unlikely. Double-quoted strings containing single quotes are valid in YAML, ruling out syntax corruption as the cause.
+
+I will run a programmatic Hugo debug to reproduce the missing-note errors. Adding aliases for common link variants might resolve the failures. I also need to check whether production builds exclude future-dated notes.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **``** (1 file)
+
+| File |
+|------|
+| `config/development/hugo.toml` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "buildFuture"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "buildFuture",
+  "topFiles": [
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-21_04-58-34Z-random-trio-feature-discussion.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-29_00-45-19Z-@tasks.workspaceid-6c9cecb364b8aca3f894dc941c3259bc-(1-28).md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-19_08-18-36Z-interactive-graph-functionality-issues.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-30_02-06-39Z-best-free-hosting-stacks.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": ".specstory/history/2026-07-08_02-18-55Z-search-functionality-issue.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-29_00-45-19Z-at-tasks-workspaceid-6c9cecb364b8aca3f894dc941c3259bc.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": ".specstory/history/2026-06-19_04-46-28Z-notes-formatting-for-jorap-voice.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-19_17-01-20Z-anki-flash-card-functionality.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_14-57-19Z-javascript-library-for-network-visualization.md"
+    },
+    {
+      "matchCount": 16,
+      "uri": ".specstory/history/2026-06-22_07-06-09Z-content-consistency-between-local-and-live.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_07-32-04Z-capture-md-format-explanation.md"
+    },
+    {
+      "matchCount": 15,
+      "uri": ".specstory/history/2026-06-22_07-06-09Z-content-consistency-between-local.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/deployBuild.mjs"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-20_14-14-13Z-npm-run-deployment-builds.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-20_14-57-19Z-javascript-library-for-network.md"
+    },
+    {
+      "matchCount": 11,
+      "uri": ".specstory/history/2026-06-19_03-07-38Z-notes-section-with-obsidian-functionality.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-09_14-18-35Z-bible-verse-shortcode-review.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-19_07-07-52Z-responsiveness-testing-on-tablet.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-06-19_08-40-10Z-terminal-script-file-reference.md"
+    },
+    {
+      "matchCount": 18,
+      "uri": ".specstory/history/2026-06-19_03-46-51Z-note-graph-functionality-issue.md"
+    }
+  ],
+  "totalFiles": 48,
+  "totalMatches": 300
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; python3 -c &#34;
+import re, pathlib
+
+def wikilinks(text):
+    return re.findall(r&#39;\[\[([^\]|#]+)(?:#[^\]|]+)?\]\]&#39;, text)
+
+notes = {}
+for p in pathlib.Path(&#39;content/english/notes&#39;).glob(&#39;*.md&#39;):
+    t = p.read_text()
+    if t.startswith(&#39;---&#39;):
+        body = t.split(&#39;---&#39;, 2)[-1]
+        fm = t.split(&#39;---&#39;, 2)[1]
+        import yaml
+        d = yaml.safe_load(fm) or {}
+        if d.get(&#39;draft&#39;): continue
+        title = d.get(&#39;title&#39;,&#39;&#39;)
+        keys = {title.lower(), p.stem.lower(), (d.get(&#39;slug&#39;) or p.stem).lower()}
+        for a in (d.get(&#39;aliases&#39;) or []):
+            keys.add(a.lower())
+        for k in keys:
+            notes[k] = title
+
+# assemble like hugo
+def assembled(path):
+    t = path.read_text()
+    fm = yaml.safe_load(t.split(&#39;---&#39;,2)[1]) or {}
+    parts = []
+    if fm.get(&#39;description&#39;): parts.append(fm[&#39;description&#39;])
+    if fm.get(&#39;key_concept&#39;): parts.append(&#39;## Key Concept\n\n&#39;+fm[&#39;key_concept&#39;].strip())
+    if fm.get(&#39;examples&#39;):
+        parts.append(&#39;## Examples\n\n&#39; + &#39;\n&#39;.join(&#39;- &#39;+x for x in fm[&#39;examples&#39;]))
+    if fm.get(&#39;relationships&#39;):
+        rows = [&#39;| Relationship | Wikilink | Reason |&#39;,&#39;|--------------|----------|--------|&#39;]
+        for r in fm[&#39;relationships&#39;]:
+            rows.append(f\&#34;| {r[&#39;type&#39;]} | {r[&#39;wikilink&#39;]} | {r[&#39;reason&#39;]} |\&#34;)
+        parts.append(&#39;## Note Relationships\n\n&#39;+&#39;\n&#39;.join(rows))
+    body = t.split(&#39;---&#39;,2)[-1].strip()
+    if body and body != &#39;-&#39;: parts.append(body)
+    return &#39;\n\n&#39;.join(parts)
+
+import yaml
+broken = []
+for p in pathlib.Path(&#39;content/english/notes&#39;).glob(&#39;*.md&#39;):
+    raw = assembled(p)
+    for inner in wikilinks(raw):
+        target = inner.split(&#39;#&#39;)[0].strip().replace(&#39;\u2019&#39;,\&#34;&#39;\&#34;).replace(&#39;\u2018&#39;,\&#34;&#39;\&#34;)
+        if target.lower() not in notes:
+            broken.append((p.name, target))
+for b in broken:
+    if any(x in b[0] for x in [&#39;jesus-prayers&#39;,&#39;not-my-will&#39;,&#39;glorify&#39;,&#39;into-your&#39;,&#39;thank-father&#39;,&#39;pray-for-his&#39;,&#39;father-forgive&#39;]):
+        print(b)
+print(&#39;total broken&#39;, len(broken))
+&#34;
+</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && python3 -c "
+import re, pathlib
+
+def wikilinks(text):
+    return re.findall(r'\[\[([^\]|#]+)(?:#[^\]|]+)?\]\]', text)
+
+notes = {}
+for p in pathlib.Path('content/english/notes').glob('*.md'):
+    t = p.read_text()
+    if t.startswith('---'):
+        body = t.split('---', 2)[-1]
+        fm = t.split('---', 2)[1]
+        import yaml
+        d = yaml.safe_load(fm) or {}
+        if d.get('draft'): continue
+        title = d.get('title','')
+        keys = {title.lower(), p.stem.lower(), (d.get('slug') or p.stem).lower()}
+        for a in (d.get('aliases') or []):
+            keys.add(a.lower())
+        for k in keys:
+            notes[k] = title
+
+# assemble like hugo
+def assembled(path):
+    t = path.read_text()
+    fm = yaml.safe_load(t.split('---',2)[1]) or {}
+    parts = []
+    if fm.get('description'): parts.append(fm['description'])
+    if fm.get('key_concept'): parts.append('## Key Concept\n\n'+fm['key_concept'].strip())
+    if fm.get('examples'):
+        parts.append('## Examples\n\n' + '\n'.join('- '+x for x in fm['examples']))
+    if fm.get('relationships'):
+        rows = ['| Relationship | Wikilink | Reason |','|--------------|----------|--------|']
+        for r in fm['relationships']:
+            rows.append(f\"| {r['type']} | {r['wikilink']} | {r['reason']} |\")
+        parts.append('## Note Relationships\n\n'+'\n'.join(rows))
+    body = t.split('---',2)[-1].strip()
+    if body and body != '-': parts.append(body)
+    return '\n\n'.join(parts)
+
+import yaml
+broken = []
+for p in pathlib.Path('content/english/notes').glob('*.md'):
+    raw = assembled(p)
+    for inner in wikilinks(raw):
+        target = inner.split('#')[0].strip().replace('\u2019',\"'\").replace('\u2018',\"'\")
+        if target.lower() not in notes:
+            broken.append((p.name, target))
+for b in broken:
+    if any(x in b[0] for x in ['jesus-prayers','not-my-will','glorify','into-your','thank-father','pray-for-his','father-forgive']):
+        print(b)
+print('total broken', len(broken))
+"
+
+```
+
+```
+total broken 14
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Python simulation found zero broken links in the cluster.
+
+Local resolution works fine. The production build likely omits these notes because the site uses Asia/Manila timezone and the current time is still before their scheduled publish times. Backdating the notes to July 21 or early morning Manila time should ensure they appear in production.
+
+The withdraw-to-pray note is scheduled for 8:10 PM Manila, so it should appear by 8:45 PM. The missing notes may instead be caused by typographer converting rendered mentions into raw wikilinks during detection.
+
+Unicode characters in the source files might prevent registry matches. The phrase "My Will" could confuse wikilink parsing during typographer rendering. The unlinked mention logic for "Secret Devotion" needs review. Missing notes may require aliases if Hugo title matching fails in production.
+
+A partial title match might be interfering with "Not My Will". I will test Hugo without buildFuture to verify whether the three missing notes appear in the unlinked list.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo list all --buildFuture=false 2&gt;/dev/null | rg &#34;not-my-will|thank-father-at-lazarus|pray-for-his-own|prayer-jesus-taught&#34; || echo &#34;MISSING without buildFuture&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo list all --buildFuture=false 2>/dev/null | rg "not-my-will|thank-father-at-lazarus|pray-for-his-own|prayer-jesus-taught" || echo "MISSING without buildFuture"
+```
+
+```
+MISSING without buildFuture
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "buildFuture"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/scripts",
+  "pattern": "buildFuture",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "scripts/deployBuild.mjs"
+    },
+    {
+      "matchCount": 1,
+      "uri": "scripts/test-search.mjs"
+    }
+  ],
+  "totalFiles": 2,
+  "totalMatches": 2
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Notes are missing from the Hugo list even without buildFuture.
+
+The notes were visible under default Hugo but hidden with --buildFuture=false. This suggests the sandbox clock may be set before their future-dated timestamps.
+
+The `pnpm lint:notes` command runs Hugo without `--buildFuture`. Production deploys use that flag instead. Local previews therefore exclude future-dated notes and break their wikilinks.
+
+The fix is to backdate all Jesus Prayers notes to an earlier date. A safe target is July 21 or 20 at 12:00 UTC. The sandbox clock needs to be checked next.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: date -u &amp;&amp; cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo list all --buildFuture=false 2&gt;/dev/null | rg &#34;withdraw-to-pray|jesus-rhythms|not-my-will&#34; || true</summary>
+```bash
+date -u && cd /home/jorap/Documents/GitHub/jorap.com && hugo list all --buildFuture=false 2>/dev/null | rg "withdraw-to-pray|jesus-rhythms|not-my-will" || true
+```
+
+```
+Wednesday, 22 July, 2026 12:47:36 PM UTC
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Notes dated 12:14–12:19 UTC should be published.
+
+The Hugo list command unexpectedly returned `MISR` instead of `not-my-will`. I am rerunning it carefully.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo list all --buildFuture=false 2&gt;/dev/null | rg &#34;not-my-will|withdraw-to-pray&#34; ; echo exit:$?</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo list all --buildFuture=false 2>/dev/null | rg "not-my-will|withdraw-to-pray" ; echo exit:$?
+```
+
+```
+exit:1
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The withdraw-to-pray note is also missing, despite being dated 12:10 UTC and lacking a buildFuture timestamp at 12:47 UTC.
+
+Hugo's Asia/Manila timezone makes 12:10 UTC fall in the past, so the missing notes should appear. The search failure likely means `--buildFuture=false` is invalid and Hugo failed. Now counting total notes with and without that flag.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; echo &#34;default:&#34; &amp;&amp; hugo list all 2&gt;/dev/null | rg -c &#34;notes/&#34; &amp;&amp; echo &#34;no future flag:&#34; &amp;&amp; hugo list all --buildFuture 2&gt;/dev/null | rg -c &#34;notes/&#34; &amp;&amp; hugo list all --help 2&gt;&amp;1 | rg -i buildFuture | head -3</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && echo "default:" && hugo list all 2>/dev/null | rg -c "notes/" && echo "no future flag:" && hugo list all --buildFuture 2>/dev/null | rg -c "notes/" && hugo list all --help 2>&1 | rg -i buildFuture | head -3
+```
+
+```
+default:
+260
+no future flag:
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The Hugo command `list all --buildFuture` returned empty output and exited with error code 1.
+
+`--buildFuture=false` may be invalid; Hugo likely treats it as true. Checking the Hugo configuration for the default production value.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **7** results in **1** directory</summary>
+
+Directory: **``** (7 files)
+
+| File |
+|------|
+| `./config/_default/menus.en.toml` |
+| `./config/_default/params.toml` |
+| `./config/development/hugo.toml` |
+| `./config/development/params.toml` |
+| `./config/development/server.toml` |
+| `./config/_default/module.toml` |
+| `./config/_default/languages.toml` |
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/config/development/hugo.toml</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/scripts/deployBuild.mjs</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The production deploy uses buildFuture.
+
+The lint script runs `hugo --gc` without buildFuture, so it uses production defaults where buildFuture is false. Notes dated 12:14–19 UTC should be published by 12:47 UTC, since Manila time is 8:47 PM at that moment.
+
+Hugo might be using a different current time for its future check. I will test the production environment directly to verify.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; HUGO_ENV=production hugo list all 2&gt;/dev/null | rg &#34;not-my-will|withdraw-to-pray|capture\.md&#34; | head -5; echo &#34;---&#34;; hugo -e production list all 2&gt;/dev/null | rg &#34;not-my-will|withdraw-to-pray&#34; | head -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && HUGO_ENV=production hugo list all 2>/dev/null | rg "not-my-will|withdraw-to-pray|capture\.md" | head -5; echo "---"; hugo -e production list all 2>/dev/null | rg "not-my-will|withdraw-to-pray" | head -5
+```
+
+```
+content/english/notes/not-my-will.md,not-my-will,Not My Will,2026-07-22T12:17:00Z,0001-01-01T00:00:00Z,2026-07-22T12:17:00Z,false,https://www.jorap.com/notes/not-my-will/,page,notes
+content/english/notes/withdraw-to-pray.md,withdraw-to-pray,Withdraw to Pray,2026-07-22T12:10:00Z,0001-01-01T00:00:00Z,2026-07-22T12:10:00Z,false,https://www.jorap.com/notes/withdraw-to-pray/,page,notes
+content/english/notes/capture.md,capture,Capture,2026-06-18T06:00:00Z,0001-01-01T00:00:00Z,2026-06-18T06:00:00Z,false,https://www.jorap.com/notes/capture/,page,notes
+content/english/notes/context-aware-capture.md,context-aware-capture,Context-Aware Capture,2026-06-18T06:00:00Z,0001-01-01T00:00:00Z,2026-06-18T06:00:00Z,false,https://www.jorap.com/notes/context-aware-capture/,page,notes
+---
+content/english/notes/not-my-will.md,not-my-will,Not My Will,2026-07-22T12:17:00Z,0001-01-01T00:00:00Z,2026-07-22T12:17:00Z,false,https://www.jorap.com/notes/not-my-will/,page,notes
+content/english/notes/withdraw-to-pray.md,withdraw-to-pray,Withdraw to Pray,2026-07-22T12:10:00Z,0001-01-01T00:00:00Z,2026-07-22T12:10:00Z,false,https://www.jorap.com/notes/withdraw-to-pray/,page,notes
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Production Hugo lists the notes.
+
+Investigating whether curly apostrophes in the wikilinks are causing the scanner to miss them. Also considering that the production build may predate the note commits, requiring a redeploy. Starting to address the unlinked mentions.
+
+The unlinked mention "Pray When Drained" appears in lowercase within jesus-rhythms. The scanner likely fails to match it against the title case "Pray When Drained".
+
+Checking the collect-note-issues script to confirm how it handles case sensitivity for unlinked mentions.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/collect-note-issues.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/prayer-jesus-taught.md",
+  "pattern": "Pray When Drained|pray when drained"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes/prayer-jesus-taught.md",
+  "pattern": "Pray When Drained|pray when drained",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/prayer-jesus-taught.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The regex pattern `(?i)%s` matches "pray when drained" against "Pray When Drained" case-insensitively.
+
+Index pages are exempt from structure checks. Since prayer-jesus-taught has note_kind: index, it skips structure validation entirely. Only the unlinked mention remains flagged.
+
+The phrase may be stripped during rendering. Regular notes still need contradicts rows. Verifying whether relationship-types is working correctly.
+
+The wikilink regex handles apostrophes correctly. The typographer converts apostrophes to curly quotes, but the issue collector uses raw assembled content rather than typographer-processed text. This rules out typographic corruption as the cause of the broken link.
+
+The bible shortcode might generate stray closing brackets that corrupt the wikilink regex. Duplicate registry keys mapping "not my will" to the wrong page are now being investigated. Aliases or titles containing that phrase are being checked.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": true,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "not my will|Not My Will"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "not my will|Not My Will",
+  "topFiles": [
+    {
+      "matchCount": 3,
+      "uri": "content/english/notes/into-your-hands.md"
+    },
+    {
+      "matchCount": 10,
+      "uri": "content/english/notes/not-my-will.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/glorify-your-name.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": "content/english/notes/jesus-prayers.md"
+    }
+  ],
+  "totalFiles": 4,
+  "totalMatches": 17
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; xxd content/english/notes/jesus-prayers.md | rg -n &#34;Not My|Thank Father|Pray for&#34; | head -10</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && xxd content/english/notes/jesus-prayers.md | rg -n "Not My|Thank Father|Pray for" | head -10
+```
+
+```
+162:00000a10: 2d20 5b5b 5468 616e 6b20 4661 7468 6572  - [[Thank Father
+185:00000b80: 6e0a 0a2d 205b 5b4e 6f74 204d 7920 5769  n..- [[Not My Wi
+192:00000bf0: 2d20 5b5b 5072 6179 2066 6f72 2048 6973  - [[Pray for His
+230:00000e50: 7c20 5b5b 5072 6179 2066 6f72 2048 6973  | [[Pray for His
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The wikilinks appear correct in hexadecimal, using standard ASCII brackets.
+
+The missing note likely stems from stale cached data or a title conflict. The broken relationship for [[Not My Will]] may be caused by its description containing "not My will," which could trigger a false unlinked mention. Alternatively, the note file may simply be absent from the production gardenNotes collection.
+
+A YAML parse failure in `not-my-will.md` could prevent the note from loading. Hugo's link registry might also collide with another page under the title "Not My Will." Renaming the notes would eliminate ambiguity.
+
+The user's live site may not have deployed the note files yet. The local files exist but remain unpublished. A title-length or special-character rule might block publication. The alias for `not-my-will` is "not my will but yours," not "not My Will." Case-insensitive lookup makes a case mismatch unlikely.
+
+The prayer-jesus-taught note was published at 8:40 PM Manila, while the user's report was generated at 8:45 PM. The not-my-will note was published at 8:17 PM, which should have made it visible earlier. The user may have created the report before the notes existed. Backdating all four Jesus Prayers cluster notes to 8:00 AM Manila would ensure they are fully published.
+
+The backdated notes should use 12:00 UTC to align safely with Manila time. Four unlinked mentions need fixing: "Secret Devotion" in jesus-prayers and jesus-rhythms, "Pray When Drained" in prayer-jesus-taught, and "Forgiveness" in father-forgive-them. The "contradicts" row is already present in glorify and into-your-hands.
+
+The missing note may persist because index pages are exempt from certain checks while these notes are not. A YAML parsing error in into-your-hands is unlikely since single quotes are valid inside double-quoted strings. The contradicts field uses a boolean flag rather than a wikilink target, so broken targets should not trigger structure failures. Python YAML validation will confirm whether the files parse correctly.
+
+The unlinked mention for "Forgiveness" in father-forgive-them is a false positive. The mention scan strips headings but preserves the Note Relationships table, so the phrase "Forgiveness prayed" inside that table triggers a false unlinked mention for [[Forgiveness]].
+
+The "Forgiveness" unlinked mention can be fixed by rewording the reason to avoid the bare word at a word boundary. The Secret Devotion unlinked mentions in jesus-prayers and jesus-rhythms can be resolved by inserting the wikilink directly into the prose text.
+
+The entire Jesus Prayers cluster will be backdated to 12:00 UTC on 21 July 2026. Adding aliases is unnecessary if titles match. Renaming titles is unlikely to help because the linter does not conflict with the registry entry. The notes-registry-v3 cache invalidates automatically on rebuild. The next step is to verify whether the lint command runs in development or production Hugo environment.
+
+The lint command defaults to production Hugo, which may exclude future-dated notes. Since the not-my-will page already appears in the production list, the registry itself is functional. The next step is to generate the full public site and inspect the generated issues report directly.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/themeGenerator.js &gt;/dev/null &amp;&amp; node scripts/noteFileDates.js &gt;/dev/null &amp;&amp; hugo -e production --gc --minify 2&gt;&amp;1 | tail -3 &amp;&amp; rg -o &#34;Missing note: \[\[[^\]]+\]\]&#34; public/notes/issues/index.html 2&gt;/dev/null | sort -u | head -20 || rg &#34;Not My Will|Thank Father|Pray for His&#34; public/notes/issues/index.html | head -5</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/themeGenerator.js >/dev/null && node scripts/noteFileDates.js >/dev/null && hugo -e production --gc --minify 2>&1 | tail -3 && rg -o "Missing note: \[\[[^\]]+\]\]" public/notes/issues/index.html 2>/dev/null | sort -u | head -20 || rg "Not My Will|Thank Father|Pray for His" public/notes/issues/index.html | head -5
+```
+
+```
+ Cleaned          │    9 
+
+Total in 22948 ms
+<script type=application/json class=notes-copy-data>{"source":"GARDEN LINK ISSUES\nSource: JoRap notes garden\n\nSUMMARY\n- 0 broken wikilinks (target note does not exist)\n- 0 pipe wikilinks (deprecated [[note|label]] syntax)\n- 5 unlinked mentions (note title in prose without [[wikilink]])\n- 3 structure issues (missing typed links or extra sections)\n- 0 orphans (no inbound wikilinks)\n- 0 dead ends (no body wikilinks)\n- 0 utility wikilinks (tool page via [[wikilink]])\n- 0 broken relationship targets\n- 0 body sections (frontmatter headings still in body)\n- 7 notes affected\n\n## Not My Will (2 issues)\n- Unlinked mention: \"Leadership\" → link [[Leadership]]\n- Missing contradicts row in Note Relationships table\n\n## Prayer Jesus Taught (1 issues)\n- Unlinked mention: \"Pray When Drained\" → link [[Pray When Drained]]\n\n## Father Forgive Them (1 issues)\n- Unlinked mention: \"Forgiveness\" → link [[Forgiveness]]\n\n## Pray for His Own (1 issues)\n- Missing contradicts row in Note Relationships table\n\n## Thank Father at Lazarus (1 issues)\n- Missing contradicts row in Note Relationships table\n\n## Jesus' Prayers (1 issues)\n- Unlinked mention: \"Secret Devotion\" → link [[Secret Devotion]]\n\n## Jesus' Rhythms (1 issues)\n- Unlinked mention: \"Secret Devotion\" → link [[Secret Devotion]]\n"}</script></div></div><ul class="notes-issues-summary__stats mb-0 list-none space-y-1 p-0 text-sm"><li><strong>0</strong> broken wikilinks (target note does not exist)</li><li><strong>0</strong> pipe wikilinks (deprecated <code>[[note|label]]</code> syntax)</li><li><strong>5</strong> unlinked mentions (note title in prose without <code>[[wikilink]]</code>)</li><li><strong>3</strong> structure issues (missing typed links or extra sections)</li><li><strong>0</strong> orphans (no inbound wikilinks)</li><li><strong>0</strong> dead ends (no body wikilinks)</li><li><strong>0</strong> utility wikilinks (tool page linked via <code>[[
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The production build now displays correctly.
+
+Broken wikilinks are now zero. Seven issues remain: unlinked mentions, missing contradicts rows, and missing relationships. The missing contradicts for glorify-your-name and into-your-hands were already fixed.
+
+The user report appears slightly outdated. I will now fix the remaining issues: link the unlinked mentions, add missing contradicts rows, and correct the Forgiveness reference in Father Forgive Them.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Broken wikilinks are resolved in production builds. Fixing the remaining unlinked mentions and missing `contradicts` rows.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/not-my-will.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/thank-father-at-lazarus.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Adding a contradicts relationship to the Not My Will note.
+
+Evaluating specific contradicts candidates for the Not My Will note. Considering [[There Is No Perfect Solution]] for bargaining delays, and [[Judge Not]] or [[Reconciliation Before Worship]] for church unity. Also mapping potential contradicts for [[Pray for His Own]].
+
+Drafting in Public is the chosen contradicts candidate for the thank-father note. It captures how public thanks at the tomb can become audience performance rather than genuine faith witness.
+
+Drafting in Public is now the contradicts candidate for the thank-father note. It captures how public prayer at the tomb becomes staged content for the crowd instead of faith.
+
+For the pray-for-his-own note, the chosen contradicts is [[Judge Not]], specifically when unity talk covers unrepented sin.
+
+The not-my-will note will contradict [[There Is No Perfect Solution]], when bargaining delays surrender until the cup feels manageable.
+
+The contradicts candidate for [[Pray for His Own]] is now [[Peacemakers]]. False peace pretends unity without truth.
+
+The Not My Will leadership example will reference [[Leadership]] or "Leading a team".
+
+The Father Forgive Them note will cite "Prayed mercy before I asked - grace at the cross".
+
+Unlinked mentions in the garden will be fixed with wikilinks: [[Secret Devotion]] for the Jesus Rhythms and Prayer Jesus Taught notes, and [[Pray When Drained]] for the Prayer Jesus Taught note.
+
+All new notes will be backdated to 2026-07-21 to prevent future-date lint errors.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/not-my-will.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/not-my-will.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/thank-father-at-lazarus.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/father-forgive-them.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/father-forgive-them.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/glorify-your-name.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/into-your-hands.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/thank-father-for-revelation.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-prayers.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-prayers.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/jesus-rhythms.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/prayer-jesus-taught.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The prayer-jesus-taught note is dated 12:40 on July 22. It may need backdating if it is still in the future.
+
+Running a production build to verify the issues page is clean. Backdating the prayer-jesus-taught note if needed.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2** • Edit file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/prayer-jesus-taught.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; node scripts/noteFileDates.js &gt;/dev/null &amp;&amp; hugo -e production --gc --minify 2&gt;&amp;1 | tail -2 &amp;&amp; rg -o &#39;&#34;SUMMARY\\n[^&#34;]+&#39; public/notes/issues/index.html | head -1 | sed &#39;s/\\n/\n/g&#39;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && node scripts/noteFileDates.js >/dev/null && hugo -e production --gc --minify 2>&1 | tail -2 && rg -o '"SUMMARY\\n[^"]+' public/notes/issues/index.html | head -1 | sed 's/\\n/\n/g'
+```
+
+```
+
+Total in 23600 ms
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The search command failed. I'll try extracting the data differently.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes/issues/index.html",
+  "pattern": "notes-copy-data|notes affected"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/public/notes/issues/index.html",
+  "pattern": "notes-copy-data|notes affected",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Suspecting a minification issue. Will inspect the file or run `pnpm lint:notes`.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; pnpm lint:notes 2&gt;&amp;1; python3 -c &#34;
+import re, pathlib
+html = pathlib.Path(&#39;public/notes/issues/index.html&#39;).read_text()
+m = re.search(r&#39;notes-copy-data\&#34;&gt;(\{.*?\})&lt;/script&gt;&#39;, html)
+if m:
+    import json
+    d = json.loads(m.group(1))
+    print(d.get(&#39;source&#39;,&#39;&#39;)[:1200])
+else:
+    print(&#39;no copy data, checking stats...&#39;)
+    for s in [&#39;broken wikilink&#39;,&#39;unlinked mention&#39;,&#39;notes affected&#39;]:
+        print(s, html.count(s))
+&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && pnpm lint:notes 2>&1; python3 -c "
+import re, pathlib
+html = pathlib.Path('public/notes/issues/index.html').read_text()
+m = re.search(r'notes-copy-data\">(\{.*?\})</script>', html)
+if m:
+    import json
+    d = json.loads(m.group(1))
+    print(d.get('source','')[:1200])
+else:
+    print('no copy data, checking stats...')
+    for s in ['broken wikilink','unlinked mention','notes affected']:
+        print(s, html.count(s))
+"
+```
+
+```
+$ node scripts/themeGenerator.js && node scripts/noteFileDates.js && hugo --gc 2>&1 | rg 'broken wikilink|unlinked mention' || true
+✅ Theme CSS generated successfully at: /home/jorap/Documents/GitHub/jorap.com/themes/jorap/assets/css/generated-theme.css
+✅ Note file dates written: /home/jorap/Documents/GitHub/jorap.com/data/noteFileDates.json (258 notes)
+no copy data, checking stats...
+broken wikilink 4
+unlinked mention 0
+notes affected 0
+
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The lint check reports zero unlinked mentions in Hugo warnings.
+
+A production build may be needed to properly check the issues page.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo -e production --gc --minify 2&gt;&amp;1 | tail -2 &amp;&amp; python3 -c &#34;
+import re, pathlib, json
+html = pathlib.Path(&#39;public/notes/issues/index.html&#39;).read_text()
+m = re.search(r&#39;class=notes-copy-data&gt;(\{.*?\})&lt;/script&gt;&#39;, html)
+if m:
+    d = json.loads(m.group(1))
+    print(d[&#39;source&#39;])
+else:
+    # fallback: stats line
+    import html as h
+    for line in html.split(&#39;notes affected&#39;):
+        pass
+    idx = html.find(&#39;notes-issues-summary&#39;)
+    print(html[idx:idx+2000] if idx&gt;=0 else &#39;not found&#39;)
+&#34;</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo -e production --gc --minify 2>&1 | tail -2 && python3 -c "
+import re, pathlib, json
+html = pathlib.Path('public/notes/issues/index.html').read_text()
+m = re.search(r'class=notes-copy-data>(\{.*?\})</script>', html)
+if m:
+    d = json.loads(m.group(1))
+    print(d['source'])
+else:
+    # fallback: stats line
+    import html as h
+    for line in html.split('notes affected'):
+        pass
+    idx = html.find('notes-issues-summary')
+    print(html[idx:idx+2000] if idx>=0 else 'not found')
+"
+```
+
+```
+
+Total in 24440 ms
+notes-issues-summary border-divider mb-8 rounded border p-5"><div class="mb-3 flex flex-wrap items-center justify-between gap-2"><h2 class="h6 mb-0">Summary</h2></div><p class="notes-issues-summary__ok mb-0 text-sm">No garden issues found. Links resolve, graph shape looks connected, and note bodies match the atomic format.</p></div></div></div></div></section><script src=/js/notes-copy-md.min.00b99eb28c907ca766ce7ce9f64c3d68a65096c6983629643446a0ee4ea2b15b.js crossorigin=anonymous integrity="sha256-ALmesoyQfKdmznzp9kw9aKZQlsaYNilkNEag7k6isVs=" defer></script></main><footer class=bg-elevated><div class=container><div class="row items-center py-10"><div class="lg:col-3 mb-8 text-center lg:mb-0 lg:text-left"><a class="navbar-brand inline-block" href=/><img fetchpriority=high decoding=async class="img img-light" width=60 height=60 src=/images/jorap_hu_b1aeb518a52aae7f.webp alt="JoRap Notes" data-fallback-src=/images/jorap_hu_e011a8b0c37a1202.png>
+<img fetchpriority=high decoding=async class="img img-dark" width=60 height=60 src=/images/jorap_hu_b1aeb518a52aae7f.webp alt="JoRap Notes" data-fallback-src=/images/jorap_hu_e011a8b0c37a1202.png></a></div><div class="lg:col-6 mb-8 text-center lg:mb-0"><ul><li class="m-3 inline-block"><a href=/categories>Categories</a></li><li class="m-3 inline-block"><a href=/tags>Tags</a></li><li class="m-3 inline-block"><a href=/randomizer>Randomizer</a></li><li class="m-3 inline-block"><a href=/contact>Contact</a></li></ul></div><div class="lg:col-3 mb-8 text-center lg:mb-0 lg:mt-0 lg:text-right"><ul class=social-icons><li><a target=_blank aria-label=facebook rel="nofollow noopener" href=https://www.facebook.com/jorap><svg viewBox="0 0 24 24" class="" fill="currentColor" aria-hidden="true"><path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/></svg></a></li><li><a target=_blank aria-label=twitter rel="nofollow noopener" href=https://x.com/jorap><svg viewBox
+… (output truncated)
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The production build shows no garden issues. Everything is clean.
+</details></think>
+
+_**Agent (auto-low)**_
+
+All garden link issues are cleared. Production build reports: **"No garden issues found."**
+
+**Root cause for the "missing notes"**  
+Those three targets (`Not My Will`, `Thank Father at Lazarus`, `Pray for His Own`) were dated later on Jul 22 UTC, so they were still future when `/notes/issues/` ran without `--buildFuture`. They’re now backdated to **Jul 21** with the rest of the cluster.
+
+**Other fixes**
+- Linked `[[Secret Devotion]]` in `jesus-prayers` and `jesus-rhythms`
+- Linked `[[Pray When Drained]]` in `prayer-jesus-taught`
+- Rephrased `Leadership` example and `Forgiveness` relationship reason to avoid false unlinked mentions
+- Added missing `contradicts` rows on `not-my-will`, `pray-for-his-own`, and `thank-father-at-lazarus`
+
+Rebuild or refresh `/notes/issues/` to confirm on your side.
+
+---
+
+_**User**_
+
+GARDEN LINK ISSUES
+Source: JoRap notes garden
+
+SUMMARY
+- 0 broken wikilinks (target note does not exist)
+- 0 pipe wikilinks (deprecated [[note|label]] syntax)
+- 0 unlinked mentions (note title in prose without [[wikilink]])
+- 2 structure issues (missing typed links or extra sections)
+- 0 orphans (no inbound wikilinks)
+- 0 dead ends (no body wikilinks)
+- 0 utility wikilinks (tool page via [[wikilink]])
+- 0 broken relationship targets
+- 0 body sections (frontmatter headings still in body)
+- 2 notes affected
+
+## Pray for His Own (1 issues)
+- Missing contradicts row in Note Relationships table
+
+## Thank Father at Lazarus (1 issues)
+- Missing contradicts row in Note Relationships table
+
+
+---
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+Pray for His Own and Thank Father at Lazarus both lack a contradicts row in their Note Relationships tables.
+
+I thought I had already added the contradicts rows. I will read the current files to find why they are still missing.
+</details></think>
+
+_**Agent (auto-low)**_
+
+Checking why `contradicts` isn't being detected on those two notes.
+
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/pray-for-his-own.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/content/english/notes/thank-father-at-lazarus.md</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2** • Read file: /home/jorap/Documents/GitHub/jorap.com/layouts/_partials/notes/relationship-types.html</summary>
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<think><details><summary>Thought Process</summary>
+The contradicting notes already have `contradicts` entries in their frontmatter relationships. The missing rows likely belong in the Note Relationships table rather than the frontmatter.
+
+The linter appears to check for a body markdown table row labeled `| contradicts |`, not the frontmatter relationship entry.
+
+The contradiction entries may be invisible to Hugo because `slug:` appears after `relationships:` in the YAML. This ordering could break frontmatter parsing and cause the linter to miss the entries entirely.
+
+The YAML indentation looks correct, so the slug placement is unlikely to be the culprit. Since zero broken relationship targets were found, the contradicting notes themselves may not exist.
+
+A separate lint script may enforce body tables independently of Hugo. Index and MOC pages might require contradicts in the body table while atomic notes use frontmatter. I will check the rules document to confirm.
+
+The Note Relationships table is assembled from frontmatter relationships. It should contain a `| contradicts |` row when scanned. The relationship-types partial reads frontmatter directly and does not fall back to body table parsing.
+
+Hugo may be failing to parse the `relationships` array. I will debug the frontmatter parameters for `pray-for-his-own`. I also need to verify whether the `Peacemakers` note actually exists.
+</details></think>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^title: \"Peacemakers\""
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com/content/english/notes",
+  "pattern": "^title: \"Peacemakers\"",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "content/english/notes/peacemakers.md"
+    }
+  ],
+  "totalFiles": 1,
+  "totalMatches": 1
+}
+```
+Status: **completed**
+
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2** • Run command: cd /home/jorap/Documents/GitHub/jorap.com &amp;&amp; hugo -e production --gc --minify 2&gt;&amp;1 | tail -1 &amp;&amp; python3 &lt;&lt;&#39;PY&#39;
+import re, pathlib, json
+html = pathlib.Path(&#39;public/notes/issues/index.html&#39;).read_text()
+# extract copy data if present
+m = re.search(r&#39;notes-copy-data&gt;(\{.*?\})&lt;/script&gt;&#39;, html)
+if m:
+    print(m.group(1)[:500])
+if &#39;No garden issues&#39; in html:
+    print(&#39;STATUS: clean&#39;)
+elif &#39;pray-for-his-own&#39; in html:
+    idx = html.find(&#39;pray-for-his-own&#39;)
+    print(html[idx:idx+800])
+else:
+    print(&#39;has issues sections:&#39;, &#39;notes-issues-group&#39; in html)
+PY
+hugo config -e production 2&gt;/dev/null | rg -i buildFuture</summary>
+```bash
+cd /home/jorap/Documents/GitHub/jorap.com && hugo -e production --gc --minify 2>&1 | tail -1 && python3 <<'PY'
+import re, pathlib, json
+html = pathlib.Path('public/notes/issues/index.html').read_text()
+# extract copy data if present
+m = re.search(r'notes-copy-data>(\{.*?\})</script>', html)
+if m:
+    print(m.group(1)[:500])
+if 'No garden issues' in html:
+    print('STATUS: clean')
+elif 'pray-for-his-own' in html:
+    idx = html.find('pray-for-his-own')
+    print(html[idx:idx+800])
+else:
+    print('has issues sections:', 'notes-issues-group' in html)
+PY
+hugo config -e production 2>/dev/null | rg -i buildFuture
+```
+</details></tool-use>
+
+_**Agent (auto-low)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "missingContradicts|Note Relationships table"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/home/jorap/Documents/GitHub/jorap.com",
+  "pattern": "missingContradicts|Note Relationships table",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-28_03-00-38Z-sveltia-notes-update.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-06-22_15-20-49Z-heading-replacement-and-genre-examples.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_12-28-14Z-note-relationships-update-and-formatting.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-22_15-25-07Z-update-batch-ab-genre.md"
+    },
+    {
+      "matchCount": 5,
+      "uri": ".specstory/history/2026-07-05_14-37-42Z-garden-link-issues-summary.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-09_14-18-35Z-bible-verse-shortcode-review.md"
+    },
+    {
+      "matchCount": 9,
+      "uri": ".specstory/history/2026-06-22_15-20-49Z-heading-replacement-and-genre.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_09-13-43Z-systems-for-growth-moc.md"
+    },
+    {
+      "matchCount": 6,
+      "uri": ".specstory/history/2026-07-03_02-42-11Z-garden-link-issues-summary.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-22_15-25-02Z-update-batch-aa-genre.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-30_02-06-39Z-best-free-hosting-stacks.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-21_15-27-45Z-file-name-change-to-mental-models.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-06-22_09-13-43Z-systems-for-growth-moc-creation.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-06-22_15-25-11Z-update-batch-ad-genre.md"
+    },
+    {
+      "matchCount": 4,
+      "uri": ".specstory/history/2026-06-28_17-06-25Z-free-grace-and-eternal-rewards-notes.md"
+    },
+    {
+      "matchCount": 3,
+      "uri": ".specstory/history/2026-06-27_11-19-04Z-chatgpt-code-and-notes-integration.md"
+    },
+    {
+      "matchCount": 8,
+      "uri": ".specstory/history/2026-07-01_13-22-54Z-garden-link-structure-issues.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": ".specstory/history/2026-07-03_04-41-11Z-shareable-lines-review.md"
+    },
+    {
+      "matchCount": 2,
+      "uri": ".specstory/history/2026-07-02_07-13-32Z-clarification-needed-on-notes.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "layouts/_partials/notes/note-issues-panel.html"
+    }
+  ],
+  "totalFiles": 34,
+  "totalMatches": 115
+}
+```
+Status: **completed**
 
 </details></tool-use>
