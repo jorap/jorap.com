@@ -18,6 +18,9 @@ shareable_thought:
   - "Whole-person love of God is not Bible alone on the couch; it includes hearing and reading Scripture with God's people."
   - "Showing up to worship is not earning standing - it is how the Teacher lived among the congregation He came to save."
 relationships:
+  - type: contradicts
+    wikilink: "[[Information Diet]]"
+    reason: "when solo feeds replace gathered hearing"
   - type: extends
     wikilink: "[[Abide in Me]]"
     reason: "Private connection pairs with public reading - both lanes"
@@ -31,7 +34,7 @@ relationships:
     wikilink: "[[Opened Scripture]]"
     reason: "Read aloud in worship pairs with explaining the text to others"
 slug: "read-in-synagogue"
-date: "2026-07-22 12:14:00+00:00"
+date: "2026-07-21 12:14:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
