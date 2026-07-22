@@ -22,6 +22,12 @@ relationships:
     wikilink: "[[Christlikeness]]"
     reason: "Daily patterns are what becoming like Him looks like in motion"
   - type: extends
+    wikilink: "[[Jesus' Prayers]]"
+    reason: "Rhythms show how often; Prayers hub holds verbatim words to the Father"
+  - type: extends
+    wikilink: "[[Prayer Jesus Taught]]"
+    reason: "Rhythms model prayer; teaching hub holds what He told disciples about praying"
+  - type: extends
     wikilink: "[[Discipleship]]"
     reason: "Following Jesus includes copying His rhythms, not only memorizing His lines"
   - type: extends
@@ -51,9 +57,9 @@ Jesus prayed often, usually alone, often before the crowd's next demand.
 - [[Withdraw to Pray]] - rose before dawn; often slipped to lonely places (Mark 1:35; Luke 5:16)
 - [[Pray Before You Choose]] - all night in prayer before naming the twelve (Luke 6:12)
 - [[Pray When Drained]] - alone on the mountain after feeding five thousand (Matthew 14:23; Mark 6:46)
-- Gethsemane and John 17 - prayer at the end, not only at the start
+- [[Jesus' Prayers]] - seven verbatim prayers the Gospels quote (thanksgiving, John 17, Gethsemane, the cross)
 
-Garden links: [[Ask Seek Knock]] names persistent prayer rhythm; [[Secret Devotion]] names hidden piety He taught and modeled in withdrawal.
+Garden links: [[Prayer Jesus Taught]] - teaching hub for Lord's Prayer, secret devotion, persistence; [[Jesus' Prayers]] - verbatim words to the Father.
 
 ## Scripture
 

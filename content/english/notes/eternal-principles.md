@@ -90,6 +90,8 @@ Biography lane - what the Gospels show He did day to day. Hub: [[Jesus' Rhythms]
 
 ## Heart and priorities
 
+Hub: [[Prayer Jesus Taught]] - maps Jesus' prayer teaching across the Gospels (Lord's Prayer, secret devotion, persistence, asking in His name).
+
 - [[Ask Seek Knock]] - keep asking, seeking, knocking on rhythm
 - [[Secret Devotion]] - prayer and giving without performing for an audience
 - [[Seek the Kingdom First]] - God's reign gets first place in the week

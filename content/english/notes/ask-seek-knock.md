@@ -32,6 +32,9 @@ relationships:
     wikilink: "[[Free Grace]]"
     reason: "Prayer is a dependent kid asking Dad, not bargaining for merit you already have"
   - type: extends
+    wikilink: "[[Prayer Jesus Taught]]"
+    reason: "Lord's Prayer and persistence anchor the prayer teaching hub"
+  - type: extends
     wikilink: "[[Periodic Knowledge Review]]"
     reason: "Ask-seek-knock rhythm needs scheduled review, not one-off prayer bursts"
   - type: extends
