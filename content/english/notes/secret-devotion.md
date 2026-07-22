@@ -26,14 +26,14 @@ relationships:
     wikilink: "[[Drafting in Public]]"
     reason: "when every act of piety becomes content for applause"
   - type: extends
-    wikilink: "[[Prayer Jesus Taught]]"
-    reason: "Secret prayer section of the prayer teaching hub"
-  - type: extends
     wikilink: "[[Ask Seek Knock]]"
     reason: "Secret give-pray-fast pairs with how Jesus taught us to pray - devotion for God's eyes, not the crowd"
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Hidden prayer is not the price of grace - response from gift received"
+  - type: extends
+    wikilink: "[[Prayer Jesus Taught]]"
+    reason: "Secret prayer section of the prayer teaching hub"
   - type: extends
     wikilink: "[[Success is Stewardship]]"
     reason: "Hidden faithful use - steward without applause"

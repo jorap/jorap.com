@@ -18,21 +18,21 @@ shareable_thought:
   - "Big forks deserve prayer before the announcement, not a prayer bolted on after the LinkedIn post."
   - "Under Free Grace, prayer does not buy wisdom - it is dependence before I commit other people to my call."
 relationships:
-  - type: extends
-    wikilink: "[[Jesus' Rhythms]]"
-    reason: "Biography lane - prayer before big decisions"
-  - type: extends
-    wikilink: "[[Discern His Will Daily]]"
-    reason: "Test His will - this adds night-before-the-fork timing"
+  - type: contradicts
+    wikilink: "[[There Is No Perfect Solution]]"
+    reason: "when the spreadsheet delays the mountain until the fork feels perfect"
   - type: extends
     wikilink: "[[Decision Quality]]"
     reason: "Better calls when prayer comes before the commit"
   - type: extends
+    wikilink: "[[Discern His Will Daily]]"
+    reason: "Test His will - this adds night-before-the-fork timing"
+  - type: extends
+    wikilink: "[[Jesus' Rhythms]]"
+    reason: "Biography lane - prayer before big decisions"
+  - type: extends
     wikilink: "[[Withdraw to Pray]]"
     reason: "Solitude on the mountain - same slip-away pattern, bigger fork"
-  - type: contradicts
-    wikilink: "[[There Is No Perfect Solution]]"
-    reason: "when the spreadsheet delays the mountain until the fork feels perfect"
 slug: "pray-before-you-choose"
 date: "2026-07-22 12:11:00+00:00"
 image: "/images/note.jpg"

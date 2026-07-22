@@ -18,6 +18,12 @@ shareable_thought:
   - "Before He called Lazarus out, He looked up and thanked the Father."
   - "Public prayer here points eyes to the Father who hears - not performance theater."
 relationships:
+  - type: contradicts
+    wikilink: "[[Drafting in Public]]"
+    reason: "when public thanks is staged for applause not witness"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Belief tied to who sent Him - not to our show"
   - type: extends
     wikilink: "[[Jesus' Prayers]]"
     reason: "Verbatim thanksgiving at the tomb - John 11:41-42"
@@ -27,12 +33,6 @@ relationships:
   - type: extends
     wikilink: "[[Secret Devotion]]"
     reason: "Hidden piety elsewhere; here thanks spoken for the crowd"
-  - type: extends
-    wikilink: "[[Free Grace]]"
-    reason: "Belief tied to who sent Him - not to our show"
-  - type: contradicts
-    wikilink: "[[Drafting in Public]]"
-    reason: "when public thanks is staged for applause not witness"
 slug: "thank-father-at-lazarus"
 date: "2026-07-21 12:14:00+00:00"
 image: "/images/note.jpg"

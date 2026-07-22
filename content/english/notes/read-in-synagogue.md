@@ -19,20 +19,17 @@ shareable_thought:
   - "Showing up to worship is not earning standing - it is how the Teacher lived among the congregation He came to save."
 relationships:
   - type: extends
+    wikilink: "[[Abide in Me]]"
+    reason: "Private connection pairs with public reading - both lanes"
+  - type: extends
     wikilink: "[[Jesus' Rhythms]]"
     reason: "Biography lane - public Scripture in worship"
   - type: extends
     wikilink: "[[Love God]]"
     reason: "Gathered worship is one faculty of whole-person devotion"
   - type: extends
-    wikilink: "[[Abide in Me]]"
-    reason: "Private connection pairs with public reading - both lanes"
-  - type: extends
     wikilink: "[[Opened Scripture]]"
     reason: "Read aloud in worship pairs with explaining the text to others"
-  - type: contradicts
-    wikilink: "[[Abide in Me]]"
-    reason: "when couch-only Bible replaces showing up with the church"
 slug: "read-in-synagogue"
 date: "2026-07-22 12:14:00+00:00"
 image: "/images/note.jpg"

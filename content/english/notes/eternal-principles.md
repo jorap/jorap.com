@@ -19,15 +19,15 @@ shareable_thought:
   - "The ground is Free Grace: eternal life is God's gift by faith in Christ, not works."
   - "These principles aren't the price of heaven."
 relationships:
+  - type: alternative
+    wikilink: "[[Jesus' Rhythms]]"
+    reason: "Teaching lane vs biography lane - what He said and what He did"
   - type: contradicts
     wikilink: "[[First Principles Thinking]]"
     reason: "when I treat gospel ethics as ideas I invented"
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Jesus' commands are how you live after grace, not the price tag for heaven"
-  - type: alternative
-    wikilink: "[[Jesus' Rhythms]]"
-    reason: "Teaching lane vs biography lane - what He said and what He did"
 slug: "eternal-principles"
 date: "2026-06-19 08:00:00+00:00"
 image: "/images/note.jpg"

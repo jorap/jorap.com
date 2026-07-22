@@ -14,9 +14,6 @@ shareable_thought:
   - "Many prayer moments have no transcript - dawn solitude, all night on the mountain, after feeding five thousand."
   - "Copying His words is not earning heaven - it is learning how the Son talked to His Father."
 relationships:
-  - type: extends
-    wikilink: "[[Jesus' Rhythms]]"
-    reason: "Rhythms lane - how often; this lane - what He actually said"
   - type: alternative
     wikilink: "[[Prayer Jesus Taught]]"
     reason: "Verbatim lane - what He said to the Father - vs teaching lane - what He told disciples"
@@ -24,11 +21,14 @@ relationships:
     wikilink: "[[Ask Seek Knock]]"
     reason: "Lord's Prayer lives in the teaching hub; these are recorded speeches to the Father"
   - type: extends
+    wikilink: "[[Christlikeness]]"
+    reason: "Prayer shape is part of becoming like Him"
+  - type: extends
     wikilink: "[[Free Grace]]"
     reason: "His prayers model dependence - they do not buy eternal life"
   - type: extends
-    wikilink: "[[Christlikeness]]"
-    reason: "Prayer shape is part of becoming like Him"
+    wikilink: "[[Jesus' Rhythms]]"
+    reason: "Rhythms lane - how often; this lane - what He actually said"
 slug: "jesus-prayers"
 date: "2026-07-21 12:12:00+00:00"
 image: "/images/note.jpg"

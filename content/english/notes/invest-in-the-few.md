@@ -18,9 +18,9 @@ shareable_thought:
   - "Appointed twelve to be with Him and to send out."
   - "Presence before platform, depth before scale."
 relationships:
-  - type: extends
-    wikilink: "[[Jesus' Rhythms]]"
-    reason: "Biography lane - twelve got disproportionate time"
+  - type: contradicts
+    wikilink: "[[Let Your Light Shine]]"
+    reason: "when platform chasing neglects the few who actually show up"
   - type: extends
     wikilink: "[[Discipleship]]"
     reason: "Follow daily in a small circle before you multiply"
@@ -30,9 +30,9 @@ relationships:
   - type: extends
     wikilink: "[[Humility and Service]]"
     reason: "Foot washing in the room - serve the few before the crowd"
-  - type: contradicts
-    wikilink: "[[Let Your Light Shine]]"
-    reason: "when platform chasing neglects the few who actually show up"
+  - type: extends
+    wikilink: "[[Jesus' Rhythms]]"
+    reason: "Biography lane - twelve got disproportionate time"
 slug: "invest-in-the-few"
 date: "2026-07-22 12:19:00+00:00"
 image: "/images/note.jpg"

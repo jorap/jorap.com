@@ -18,21 +18,21 @@ shareable_thought:
   - "Nailed and mocked, He prayed for the people driving the nails."
   - "I am among the forgiven who did not know the weight of what we rejected."
 relationships:
+  - type: contradicts
+    wikilink: "[[Sunk Cost Fallacy]]"
+    reason: "when I treat old hurt as debt I am owed before I forgive"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Prayed mercy before I asked - grace at the cross"
   - type: extends
     wikilink: "[[Jesus' Prayers]]"
     reason: "Verbatim cross prayer - Luke 23:34"
   - type: extends
-    wikilink: "[[Moved with Compassion]]"
-    reason: "Mercy when condemnation would be fair"
-  - type: extends
     wikilink: "[[Love Your Neighbor]]"
     reason: "Neighbor includes enemy at the worst moment"
   - type: extends
-    wikilink: "[[Free Grace]]"
-    reason: "Prayed mercy before I asked - grace at the cross"
-  - type: contradicts
-    wikilink: "[[Sunk Cost Fallacy]]"
-    reason: "when I treat old hurt as debt I am owed before I forgive"
+    wikilink: "[[Moved with Compassion]]"
+    reason: "Mercy when condemnation would be fair"
 slug: "father-forgive-them"
 date: "2026-07-21 12:18:00+00:00"
 image: "/images/note.jpg"

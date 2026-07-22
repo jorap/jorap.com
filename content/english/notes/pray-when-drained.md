@@ -18,21 +18,21 @@ shareable_thought:
   - "Mark 6:46 says the same move after that long day - service finished, then prayer, not collapse without God."
   - "Prayer when drained is not merit - it is the Son copying dependence on the Father after heavy work."
 relationships:
-  - type: extends
-    wikilink: "[[Jesus' Rhythms]]"
-    reason: "Biography lane - pray when drained after ministry"
-  - type: extends
-    wikilink: "[[Withdraw to Pray]]"
-    reason: "Same solitude pattern - timing is after the crowd, not only before dawn"
+  - type: contradicts
+    wikilink: "[[Digital Minimalism]]"
+    reason: "when numb scroll replaces mountain prayer after ministry"
   - type: extends
     wikilink: "[[Don't Worry]]"
     reason: "Trust after heavy days - prayer before numb scroll"
   - type: extends
+    wikilink: "[[Jesus' Rhythms]]"
+    reason: "Biography lane - pray when drained after ministry"
+  - type: extends
     wikilink: "[[Slow Productivity]]"
     reason: "PKM mirror - stop throughput, refill before the next push"
-  - type: contradicts
-    wikilink: "[[Digital Minimalism]]"
-    reason: "when numb scroll replaces mountain prayer after ministry"
+  - type: extends
+    wikilink: "[[Withdraw to Pray]]"
+    reason: "Same solitude pattern - timing is after the crowd, not only before dawn"
 slug: "pray-when-drained"
 date: "2026-07-22 12:12:00+00:00"
 image: "/images/note.jpg"

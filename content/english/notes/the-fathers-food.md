@@ -18,21 +18,21 @@ shareable_thought:
   - "John 5:19 and 8:28 repeat the pattern - nothing on His own initiative, only what pleases the Father."
   - "The Father's will is not a wage for eternal life - it is the meal that nourishes a life already His."
 relationships:
-  - type: extends
-    wikilink: "[[Jesus' Rhythms]]"
-    reason: "Biography lane - Father's will as daily sustenance"
+  - type: contradicts
+    wikilink: "[[Don't Worry]]"
+    reason: "when lunch worry distracts from the Father's errand"
   - type: extends
     wikilink: "[[Grateful Obedience]]"
     reason: "Obey from gift received - food metaphor matches thanks, not wages"
   - type: extends
-    wikilink: "[[Take Up Your Cross]]"
-    reason: "Daily self-denial fed by the Father's will, not comfort"
+    wikilink: "[[Jesus' Rhythms]]"
+    reason: "Biography lane - Father's will as daily sustenance"
   - type: extends
     wikilink: "[[Seek the Kingdom First]]"
     reason: "Kingdom-first appetite - Father's will before my cravings"
-  - type: contradicts
-    wikilink: "[[Don't Worry]]"
-    reason: "when lunch worry distracts from the Father's errand"
+  - type: extends
+    wikilink: "[[Take Up Your Cross]]"
+    reason: "Daily self-denial fed by the Father's will, not comfort"
 slug: "the-fathers-food"
 date: "2026-07-22 12:20:00+00:00"
 image: "/images/note.jpg"

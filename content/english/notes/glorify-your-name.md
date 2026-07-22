@@ -18,6 +18,9 @@ shareable_thought:
   - "The Father answered: I have glorified it, and will glorify it again."
   - "The cross is where the Father's name shines - not where I bargain my way out of cost."
 relationships:
+  - type: contradicts
+    wikilink: "[[There Is No Perfect Solution]]"
+    reason: "when I delay costly obedience until the path feels painless"
   - type: extends
     wikilink: "[[Jesus' Prayers]]"
     reason: "Verbatim prayer as the hour arrived - John 12:28"
@@ -25,14 +28,11 @@ relationships:
     wikilink: "[[Not My Will]]"
     reason: "Same surrender arc - glory of the Father over escape"
   - type: extends
-    wikilink: "[[Take Up Your Cross]]"
-    reason: "Costly hour when self-interest dies"
-  - type: extends
     wikilink: "[[Seek the Kingdom First]]"
     reason: "Father's name and kingdom before my comfort"
-  - type: contradicts
-    wikilink: "[[There Is No Perfect Solution]]"
-    reason: "when I delay costly obedience until the path feels painless"
+  - type: extends
+    wikilink: "[[Take Up Your Cross]]"
+    reason: "Costly hour when self-interest dies"
 slug: "glorify-your-name"
 date: "2026-07-21 12:15:00+00:00"
 image: "/images/note.jpg"

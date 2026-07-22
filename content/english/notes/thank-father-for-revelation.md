@@ -18,21 +18,21 @@ shareable_thought:
   - "Hidden from the wise, revealed to little children - an upside-down economy the Father runs."
   - "I did not crack the code by intellect - the Father revealed what I could not earn."
 relationships:
+  - type: contradicts
+    wikilink: "[[Drafting in Public]]"
+    reason: "when expertise becomes the price of hearing God"
+  - type: extends
+    wikilink: "[[Free Grace]]"
+    reason: "Revelation is gift - not IQ payment"
+  - type: extends
+    wikilink: "[[Humility and Service]]"
+    reason: "Little children see what pride blocks"
   - type: extends
     wikilink: "[[Jesus' Prayers]]"
     reason: "Verbatim thanksgiving prayer - Luke 10:21"
   - type: extends
     wikilink: "[[Jesus' Rhythms]]"
     reason: "Prayer lane inside biography rhythms"
-  - type: extends
-    wikilink: "[[Humility and Service]]"
-    reason: "Little children see what pride blocks"
-  - type: extends
-    wikilink: "[[Free Grace]]"
-    reason: "Revelation is gift - not IQ payment"
-  - type: contradicts
-    wikilink: "[[Drafting in Public]]"
-    reason: "when expertise becomes the price of hearing God"
 slug: "thank-father-for-revelation"
 date: "2026-07-21 12:13:00+00:00"
 image: "/images/note.jpg"

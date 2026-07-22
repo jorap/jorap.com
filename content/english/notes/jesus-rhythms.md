@@ -22,17 +22,17 @@ relationships:
     wikilink: "[[Christlikeness]]"
     reason: "Daily patterns are what becoming like Him looks like in motion"
   - type: extends
-    wikilink: "[[Jesus' Prayers]]"
-    reason: "Rhythms show how often; Prayers hub holds verbatim words to the Father"
-  - type: extends
-    wikilink: "[[Prayer Jesus Taught]]"
-    reason: "Rhythms model prayer; teaching hub holds what He told disciples about praying"
-  - type: extends
     wikilink: "[[Discipleship]]"
     reason: "Following Jesus includes copying His rhythms, not only memorizing His lines"
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Rhythms follow grace received - they do not buy eternal life"
+  - type: extends
+    wikilink: "[[Jesus' Prayers]]"
+    reason: "Rhythms show how often; Prayers hub holds verbatim words to the Father"
+  - type: extends
+    wikilink: "[[Prayer Jesus Taught]]"
+    reason: "Rhythms model prayer; teaching hub holds what He told disciples about praying"
 slug: "jesus-rhythms"
 date: "2026-07-22 12:00:00+00:00"
 image: "/images/note.jpg"

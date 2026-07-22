@@ -18,21 +18,21 @@ shareable_thought:
   - "Same pattern in Luke 5:16 - He often slipped to lonely places to pray when demand stacked up."
   - "Slipping away is not earning favor - it is how a grateful follower copies the Teacher's dependence."
 relationships:
-  - type: extends
-    wikilink: "[[Jesus' Rhythms]]"
-    reason: "Biography lane - prayer and solitude section"
+  - type: contradicts
+    wikilink: "[[Drafting in Public]]"
+    reason: "when every quiet moment becomes content for applause"
   - type: extends
     wikilink: "[[Ask Seek Knock]]"
     reason: "He modeled persistent prayer; this names withdrawal before the next demand"
   - type: extends
-    wikilink: "[[Secret Devotion]]"
-    reason: "Hidden audience with the Father - not performance for the crowd"
-  - type: extends
     wikilink: "[[Deep Work]]"
     reason: "Solitude before output - PKM mirror of slip-away prayer"
-  - type: contradicts
-    wikilink: "[[Drafting in Public]]"
-    reason: "when every quiet moment becomes content for applause"
+  - type: extends
+    wikilink: "[[Jesus' Rhythms]]"
+    reason: "Biography lane - prayer and solitude section"
+  - type: extends
+    wikilink: "[[Secret Devotion]]"
+    reason: "Hidden audience with the Father - not performance for the crowd"
 slug: "withdraw-to-pray"
 date: "2026-07-22 12:10:00+00:00"
 image: "/images/note.jpg"

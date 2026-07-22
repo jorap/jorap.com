@@ -18,24 +18,24 @@ shareable_thought:
   - "Matthew and Mark record the same surrender prayed three times."
   - "Costly obedience in prayer - not a template to earn favor, but the Son showing real dread and real yes."
 relationships:
+  - type: contradicts
+    wikilink: "[[There Is No Perfect Solution]]"
+    reason: "when I delay surrender until the cup looks painless"
   - type: extends
-    wikilink: "[[Jesus' Prayers]]"
-    reason: "Verbatim surrender prayer - Gethsemane"
+    wikilink: "[[Free Grace]]"
+    reason: "Surrender follows being loved - does not purchase love"
   - type: extends
     wikilink: "[[Glorify Your Name]]"
     reason: "Glory of the Father's name meets human dread here"
+  - type: extends
+    wikilink: "[[Jesus' Prayers]]"
+    reason: "Verbatim surrender prayer - Gethsemane"
   - type: extends
     wikilink: "[[Take Up Your Cross]]"
     reason: "Daily cross-bearing echoes this hour of surrender"
   - type: extends
     wikilink: "[[The Father's Food]]"
     reason: "Doing the Father's will as food - even when the cup hurts"
-  - type: extends
-    wikilink: "[[Free Grace]]"
-    reason: "Surrender follows being loved - does not purchase love"
-  - type: contradicts
-    wikilink: "[[There Is No Perfect Solution]]"
-    reason: "when I delay surrender until the cup looks painless"
 slug: "not-my-will"
 date: "2026-07-21 12:17:00+00:00"
 image: "/images/note.jpg"

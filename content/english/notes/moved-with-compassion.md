@@ -18,6 +18,9 @@ shareable_thought:
   - "He was moved with compassion before He touched the leper."
   - "The calendar bent for real people."
 relationships:
+  - type: contradicts
+    wikilink: "[[Deep Work]]"
+    reason: "when throughput protection blocks every human interrupt"
   - type: extends
     wikilink: "[[Jesus' Rhythms]]"
     reason: "Biography lane - compassion interrupted ministry schedule"
@@ -30,9 +33,6 @@ relationships:
   - type: extends
     wikilink: "[[Slow Productivity]]"
     reason: "PKM mirror - people before frantic throughput"
-  - type: contradicts
-    wikilink: "[[Deep Work]]"
-    reason: "when throughput protection blocks every human interrupt"
 slug: "moved-with-compassion"
 date: "2026-07-22 12:17:00+00:00"
 image: "/images/note.jpg"

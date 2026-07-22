@@ -18,21 +18,21 @@ shareable_thought:
   - "Luke 13:16 shows the same move - bent woman freed on the Sabbath; binding her was wrong, not rules over compassion."
   - "Under Free Grace, rest is not a wage - it is gift rhythm that makes room to love the person in front of you."
 relationships:
-  - type: extends
-    wikilink: "[[Jesus' Rhythms]]"
-    reason: "Biography lane - Lord of the Sabbath, mercy over show"
+  - type: contradicts
+    wikilink: "[[There Is No Perfect Solution]]"
+    reason: "when rest becomes excuse to skip mercy entirely"
   - type: extends
     wikilink: "[[Heart Righteousness]]"
     reason: "Inner motive over outward rule theater"
   - type: extends
-    wikilink: "[[Moved with Compassion]]"
-    reason: "Sabbath bent for the hurting - same compassion interrupt"
+    wikilink: "[[Jesus' Rhythms]]"
+    reason: "Biography lane - Lord of the Sabbath, mercy over show"
   - type: extends
     wikilink: "[[Love Your Neighbor]]"
     reason: "Rest rhythm that still makes room to help the person in front"
-  - type: contradicts
-    wikilink: "[[There Is No Perfect Solution]]"
-    reason: "when rest becomes excuse to skip mercy entirely"
+  - type: extends
+    wikilink: "[[Moved with Compassion]]"
+    reason: "Sabbath bent for the hurting - same compassion interrupt"
 slug: "sabbath-for-good"
 date: "2026-07-22 12:16:00+00:00"
 image: "/images/note.jpg"

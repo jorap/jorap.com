@@ -18,18 +18,18 @@ shareable_thought:
   - "Mark 2:15 shows the same pattern - eating with the wrong crowd was the point, not a photo op."
   - "Eating with sinners is not endorsing sin - it is the Physician with the sick."
 relationships:
-  - type: extends
-    wikilink: "[[Jesus' Rhythms]]"
-    reason: "Biography lane - ate with disciples and sinners"
+  - type: contradicts
+    wikilink: "[[Judge Not]]"
+    reason: "only when I refuse the table because they are the wrong crowd"
   - type: extends
     wikilink: "[[Humility and Service]]"
     reason: "Low seat at the table - serve, do not perform"
   - type: extends
+    wikilink: "[[Jesus' Rhythms]]"
+    reason: "Biography lane - ate with disciples and sinners"
+  - type: extends
     wikilink: "[[Love Your Neighbor]]"
     reason: "Neighbor love over one shared meal"
-  - type: contradicts
-    wikilink: "[[Judge Not]]"
-    reason: "only when I refuse the table because they are the wrong crowd"
 slug: "table-fellowship"
 date: "2026-07-22 12:18:00+00:00"
 image: "/images/note.jpg"

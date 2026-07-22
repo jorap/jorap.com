@@ -18,21 +18,21 @@ shareable_thought:
   - "Echoes Psalm 31:5 - the same Father who heard Him all His life receives Him at the end."
   - "Rest in the Father's hands because Jesus opened the way - not because I earn the ending."
 relationships:
-  - type: extends
-    wikilink: "[[Jesus' Prayers]]"
-    reason: "Verbatim final prayer to the Father - Luke 23:46"
-  - type: extends
-    wikilink: "[[Not My Will]]"
-    reason: "Garden surrender and cross entrusting - same Father"
+  - type: contradicts
+    wikilink: "[[Don't Worry]]"
+    reason: "when end-of-life panic stacks instead of committal prayer"
   - type: extends
     wikilink: "[[Father Forgive Them]]"
     reason: "Same cross hour - mercy then committal"
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Death trusted, not bargained - way opened by Him"
-  - type: contradicts
-    wikilink: "[[Don't Worry]]"
-    reason: "when end-of-life panic stacks instead of committal prayer"
+  - type: extends
+    wikilink: "[[Jesus' Prayers]]"
+    reason: "Verbatim final prayer to the Father - Luke 23:46"
+  - type: extends
+    wikilink: "[[Not My Will]]"
+    reason: "Garden surrender and cross entrusting - same Father"
 slug: "into-your-hands"
 date: "2026-07-21 12:19:00+00:00"
 image: "/images/note.jpg"

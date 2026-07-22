@@ -18,21 +18,21 @@ shareable_thought:
   - "Seek the Kingdom First orders the week; Let Your Light Shine makes good visible - kingdom in front of new faces daily."
   - "The road is not earning the kingdom - it is announcing and embodying what He already came to give."
 relationships:
+  - type: contradicts
+    wikilink: "[[The Collector's Fallacy]]"
+    reason: "when I hoard ministry in one comfortable town"
+  - type: extends
+    wikilink: "[[Great Commission]]"
+    reason: "Truth travels - not hoarded in one town"
   - type: extends
     wikilink: "[[Jesus' Rhythms]]"
     reason: "Biography lane - town-to-town kingdom rhythm"
   - type: extends
-    wikilink: "[[Seek the Kingdom First]]"
-    reason: "Kingdom-first week expressed on the road"
-  - type: extends
     wikilink: "[[Let Your Light Shine]]"
     reason: "Visible good works paired with proclaimed kingdom"
   - type: extends
-    wikilink: "[[Great Commission]]"
-    reason: "Truth travels - not hoarded in one town"
-  - type: contradicts
-    wikilink: "[[The Collector's Fallacy]]"
-    reason: "when I hoard ministry in one comfortable town"
+    wikilink: "[[Seek the Kingdom First]]"
+    reason: "Kingdom-first week expressed on the road"
 slug: "kingdom-on-the-road"
 date: "2026-07-22 12:21:00+00:00"
 image: "/images/note.jpg"

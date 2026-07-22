@@ -18,21 +18,21 @@ shareable_thought:
   - "Make the Book legible, not impressive."
   - "Opened their minds to understand the Scriptures."
 relationships:
-  - type: extends
-    wikilink: "[[Jesus' Rhythms]]"
-    reason: "Biography lane - explained Scripture on Emmaus road"
-  - type: extends
-    wikilink: "[[Read in Synagogue]]"
-    reason: "Public reading pairs with private explanation on the road"
+  - type: contradicts
+    wikilink: "[[Drafting in Public]]"
+    reason: "when truth shared as a mic drop, not walked through"
   - type: extends
     wikilink: "[[Discipleship]]"
     reason: "Learn and do - He opened the text so they could follow"
   - type: extends
     wikilink: "[[Great Commission]]"
     reason: "Truth passed on with explanation, not hoarded quotes"
-  - type: contradicts
-    wikilink: "[[Drafting in Public]]"
-    reason: "when truth shared as a mic drop, not walked through"
+  - type: extends
+    wikilink: "[[Jesus' Rhythms]]"
+    reason: "Biography lane - explained Scripture on Emmaus road"
+  - type: extends
+    wikilink: "[[Read in Synagogue]]"
+    reason: "Public reading pairs with private explanation on the road"
 slug: "opened-scripture"
 date: "2026-07-22 12:15:00+00:00"
 image: "/images/note.jpg"

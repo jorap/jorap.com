@@ -18,21 +18,21 @@ shareable_thought:
   - "He did not invent new ethics on the spot; He answered from what the Father had already spoken."
   - "Memorized Scripture is not a merit badge - it is ammunition for the fork when hunger, pride, and shortcut power show up."
 relationships:
-  - type: extends
-    wikilink: "[[Jesus' Rhythms]]"
-    reason: "Biography lane - quoted Scripture under wilderness pressure"
-  - type: extends
-    wikilink: "[[Renewed Mind]]"
-    reason: "Scripture reshapes judgment - this is the reflex when tested"
+  - type: contradicts
+    wikilink: "[[First Principles Thinking]]"
+    reason: "when I improvise ethics instead of It is written"
   - type: extends
     wikilink: "[[Abide in Me]]"
     reason: "His words dwell where pressure meets choice"
   - type: extends
     wikilink: "[[Habit Formation]]"
     reason: "Reps before the fork - PKM mirror of loaded verses"
-  - type: contradicts
-    wikilink: "[[First Principles Thinking]]"
-    reason: "when I improvise ethics instead of It is written"
+  - type: extends
+    wikilink: "[[Jesus' Rhythms]]"
+    reason: "Biography lane - quoted Scripture under wilderness pressure"
+  - type: extends
+    wikilink: "[[Renewed Mind]]"
+    reason: "Scripture reshapes judgment - this is the reflex when tested"
 slug: "it-is-written"
 date: "2026-07-22 12:13:00+00:00"
 image: "/images/note.jpg"

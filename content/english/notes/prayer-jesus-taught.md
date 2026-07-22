@@ -19,17 +19,17 @@ relationships:
     wikilink: "[[Jesus' Prayers]]"
     reason: "Teaching lane - what He told disciples - vs verbatim lane - what He said to the Father"
   - type: extends
+    wikilink: "[[Ask Seek Knock]]"
+    reason: "Lord's Prayer and ask-seek-knock persistence anchor the hub"
+  - type: extends
     wikilink: "[[Eternal Principles]]"
     reason: "Prayer spine notes live in the teaching lane; this hub groups them"
-  - type: extends
-    wikilink: "[[Jesus' Rhythms]]"
-    reason: "Rhythms show how He prayed; this hub shows what He taught about praying"
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Prayer is dependence after the gift - not payment for eternal life"
   - type: extends
-    wikilink: "[[Ask Seek Knock]]"
-    reason: "Lord's Prayer and ask-seek-knock persistence anchor the hub"
+    wikilink: "[[Jesus' Rhythms]]"
+    reason: "Rhythms show how He prayed; this hub shows what He taught about praying"
 slug: "prayer-jesus-taught"
 date: "2026-07-21 12:40:00+00:00"
 image: "/images/note.jpg"

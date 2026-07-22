@@ -18,24 +18,24 @@ shareable_thought:
   - "He asks the Father to keep them, sanctify them in truth, and make them one."
   - "I am in the those who will believe branch - kept by the Father's name, not by my grip."
 relationships:
-  - type: extends
-    wikilink: "[[Jesus' Prayers]]"
-    reason: "Verbatim high priestly prayer - John 17"
-  - type: extends
-    wikilink: "[[Invest in the Few]]"
-    reason: "Intercession for the twelve He chose"
-  - type: extends
-    wikilink: "[[Sanctification]]"
-    reason: "Sanctify them in the truth - Your word is truth"
+  - type: contradicts
+    wikilink: "[[Peacemakers]]"
+    reason: "when false peace pretends unity without truth"
   - type: extends
     wikilink: "[[Abide in Me]]"
     reason: "Unity and remaining flow from His prayer for His own"
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Kept by the Father because Jesus asked - not because I hold on alone"
-  - type: contradicts
-    wikilink: "[[Peacemakers]]"
-    reason: "when false peace pretends unity without truth"
+  - type: extends
+    wikilink: "[[Invest in the Few]]"
+    reason: "Intercession for the twelve He chose"
+  - type: extends
+    wikilink: "[[Jesus' Prayers]]"
+    reason: "Verbatim high priestly prayer - John 17"
+  - type: extends
+    wikilink: "[[Sanctification]]"
+    reason: "Sanctify them in the truth - Your word is truth"
 slug: "pray-for-his-own"
 date: "2026-07-21 12:16:00+00:00"
 image: "/images/note.jpg"
