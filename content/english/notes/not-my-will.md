@@ -11,7 +11,7 @@ key_concept: |
   - Under [[Free Grace]], this is not a template to earn favor - it is the Son showing how costly obedience sounds in prayer.
 examples:
   - "I wanted the diagnosis to be wrong and prayed for a different outcome, then had to say not my will - Gethsemane is where faith stops bargaining and starts surrender."
-  - "Leadership meant a conversation that could cost me friends - I delayed a week; Jesus prayed three times the same yes before the arrest."
+  - "Leading a team meant a conversation that could cost me friends - I delayed a week; Jesus prayed three times the same yes before the arrest."
 shareable_thought:
   - "In Gethsemane Jesus prayed Abba, Father - not My will, but Yours be done."
   - "Soul overwhelmed, cup real - He asked if it could pass, then surrendered."
@@ -33,8 +33,11 @@ relationships:
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Surrender follows being loved - does not purchase love"
+  - type: contradicts
+    wikilink: "[[There Is No Perfect Solution]]"
+    reason: "when I delay surrender until the cup looks painless"
 slug: "not-my-will"
-date: "2026-07-22 12:17:00+00:00"
+date: "2026-07-21 12:17:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"

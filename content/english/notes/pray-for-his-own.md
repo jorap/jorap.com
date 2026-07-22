@@ -33,8 +33,11 @@ relationships:
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Kept by the Father because Jesus asked - not because I hold on alone"
+  - type: contradicts
+    wikilink: "[[Peacemakers]]"
+    reason: "when false peace pretends unity without truth"
 slug: "pray-for-his-own"
-date: "2026-07-22 12:16:00+00:00"
+date: "2026-07-21 12:16:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"

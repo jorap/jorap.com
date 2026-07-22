@@ -30,8 +30,11 @@ relationships:
   - type: extends
     wikilink: "[[Free Grace]]"
     reason: "Belief tied to who sent Him - not to our show"
+  - type: contradicts
+    wikilink: "[[Drafting in Public]]"
+    reason: "when public thanks is staged for applause not witness"
 slug: "thank-father-at-lazarus"
-date: "2026-07-22 12:14:00+00:00"
+date: "2026-07-21 12:14:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"

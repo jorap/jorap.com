@@ -31,7 +31,7 @@ relationships:
     wikilink: "[[Ask Seek Knock]]"
     reason: "Lord's Prayer and ask-seek-knock persistence anchor the hub"
 slug: "prayer-jesus-taught"
-date: "2026-07-22 12:40:00+00:00"
+date: "2026-07-21 12:40:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
@@ -45,7 +45,7 @@ draft: false
 
 - [[Eternal Principles]] - teaching lane hub; prayer spine notes sit under Heart and priorities
 - [[Jesus' Prayers]] - verbatim lane: what the Gospels quote Him saying to the Father
-- [[Jesus' Rhythms]] - biography lane: withdraw, pray before big forks, pray when drained
+- [[Jesus' Rhythms]] - biography lane: withdraw, pray before big forks, [[Pray When Drained]]
 - [[Free Grace]] - prayer is how a dependent child talks to Dad, not wages for heaven
 
 ## Lord's Prayer and persistence

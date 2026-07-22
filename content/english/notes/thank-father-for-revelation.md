@@ -34,7 +34,7 @@ relationships:
     wikilink: "[[Drafting in Public]]"
     reason: "when expertise becomes the price of hearing God"
 slug: "thank-father-for-revelation"
-date: "2026-07-22 12:13:00+00:00"
+date: "2026-07-21 12:13:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"

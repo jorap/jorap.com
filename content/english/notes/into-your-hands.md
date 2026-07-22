@@ -34,7 +34,7 @@ relationships:
     wikilink: "[[Don't Worry]]"
     reason: "when end-of-life panic stacks instead of committal prayer"
 slug: "into-your-hands"
-date: "2026-07-22 12:19:00+00:00"
+date: "2026-07-21 12:19:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"

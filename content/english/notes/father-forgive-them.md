@@ -29,12 +29,12 @@ relationships:
     reason: "Neighbor includes enemy at the worst moment"
   - type: extends
     wikilink: "[[Free Grace]]"
-    reason: "Forgiveness prayed before I asked - grace at the cross"
+    reason: "Prayed mercy before I asked - grace at the cross"
   - type: contradicts
     wikilink: "[[Sunk Cost Fallacy]]"
     reason: "when I treat old hurt as debt I am owed before I forgive"
 slug: "father-forgive-them"
-date: "2026-07-22 12:18:00+00:00"
+date: "2026-07-21 12:18:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"

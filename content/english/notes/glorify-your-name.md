@@ -34,7 +34,7 @@ relationships:
     wikilink: "[[There Is No Perfect Solution]]"
     reason: "when I delay costly obedience until the path feels painless"
 slug: "glorify-your-name"
-date: "2026-07-22 12:15:00+00:00"
+date: "2026-07-21 12:15:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"

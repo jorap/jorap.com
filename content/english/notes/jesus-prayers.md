@@ -30,7 +30,7 @@ relationships:
     wikilink: "[[Christlikeness]]"
     reason: "Prayer shape is part of becoming like Him"
 slug: "jesus-prayers"
-date: "2026-07-22 12:12:00+00:00"
+date: "2026-07-21 12:12:00+00:00"
 image: "/images/note.jpg"
 categories: ["Faith"]
 author: "JoRap"
@@ -44,7 +44,7 @@ draft: false
 
 - [[Jesus' Rhythms]] - biography lane: withdraw, pray before big forks, pray when drained
 - [[Free Grace]] - His prayers model dependence; they are not payment for heaven
-- [[Prayer Jesus Taught]] - teaching lane: Lord's Prayer, secret devotion, persistence
+- [[Prayer Jesus Taught]] - teaching lane: Lord's Prayer, [[Secret Devotion]], persistence
 - This hub - verbatim lane: what the Gospels quote Him saying to the Father
 
 ## Thanksgiving and trust

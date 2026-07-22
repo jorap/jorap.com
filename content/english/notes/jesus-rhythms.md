@@ -59,7 +59,7 @@ Jesus prayed often, usually alone, often before the crowd's next demand.
 - [[Pray When Drained]] - alone on the mountain after feeding five thousand (Matthew 14:23; Mark 6:46)
 - [[Jesus' Prayers]] - seven verbatim prayers the Gospels quote (thanksgiving, John 17, Gethsemane, the cross)
 
-Garden links: [[Prayer Jesus Taught]] - teaching hub for Lord's Prayer, secret devotion, persistence; [[Jesus' Prayers]] - verbatim words to the Father.
+Garden links: [[Prayer Jesus Taught]] - teaching hub for Lord's Prayer, [[Secret Devotion]], persistence; [[Jesus' Prayers]] - verbatim words to the Father.
 
 ## Scripture
 
